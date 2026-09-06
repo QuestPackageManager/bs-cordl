@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextStyle.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextStyle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -145,35 +145,42 @@ protected:
   constexpr TextStyle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextStyle(TextStyle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextStyle(TextStyle const&) = delete;
+  TextStyle(TextStyleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23629 };
 
+  /// [SerializeField]
   /// @brief Field _fontStyle, offset: 0x10, size: 0x4, def value: None
   ::TMPro::FontStyles ____fontStyle;
 
+  /// [SerializeField]
   /// @brief Field _fontSize, offset: 0x14, size: 0x4, def value: None
   float_t ____fontSize;
 
+  /// [SerializeField]
   /// @brief Field _autoSizing, offset: 0x18, size: 0x1, def value: None
   bool ____autoSizing;
 
+  /// [SerializeField]
   /// @brief Field _fontSizeMin, offset: 0x1c, size: 0x4, def value: None
   float_t ____fontSizeMin;
 
+  /// [SerializeField]
   /// @brief Field _fontSizeMax, offset: 0x20, size: 0x4, def value: None
   float_t ____fontSizeMax;
 
+  /// [SerializeField]
   /// @brief Field _charWidthMaxAdj, offset: 0x24, size: 0x4, def value: None
   float_t ____charWidthMaxAdj;
 
+  /// [SerializeField]
   /// @brief Field _lineSpacingMax, offset: 0x28, size: 0x4, def value: None
   float_t ____lineSpacingMax;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ListWithEvents_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/ListWithEvents_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ template <typename T> class ListWithEvents_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ListWithEvents_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ListWithEvents_1, "", "ListWithEvents`1");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
@@ -133,9 +134,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnElementAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_OnElementAdded(::System::Action_1<T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnElementRemoved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_OnElementRemoved(::System::Action_1<T>* value);
 
@@ -160,9 +163,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnElementAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_OnElementAdded(::System::Action_1<T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnElementRemoved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_OnElementRemoved(::System::Action_1<T>* value);
 
@@ -175,13 +180,13 @@ protected:
   constexpr ListWithEvents_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListWithEvents_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListWithEvents_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListWithEvents_1(ListWithEvents_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListWithEvents_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListWithEvents_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListWithEvents_1(ListWithEvents_1 const&) = delete;
+  ListWithEvents_1(ListWithEvents_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18701 };
@@ -189,9 +194,11 @@ public:
   /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___m_List;
 
+  /// [CompilerGenerated]
   /// @brief Field OnElementAdded, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<T>* ___OnElementAdded;
 
+  /// [CompilerGenerated]
   /// @brief Field OnElementRemoved, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ___OnElementRemoved;
 

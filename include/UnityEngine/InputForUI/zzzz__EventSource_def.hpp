@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\EventSource.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/EventSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct EventSource;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputForUI::EventSource);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputForUI::EventSource, "UnityEngine.InputForUI", "EventSource");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies
 namespace UnityEngine::InputForUI {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr EventSource();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EventSource(int32_t value__) noexcept;
 
   /// @brief Field Gamepad value: I32(2)

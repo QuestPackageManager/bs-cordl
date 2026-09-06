@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS\Internal\Xml\Cache\XPathNodeRef.hpp"
+// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNodeRef.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNodeRef_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
@@ -74,8 +74,8 @@ inline int32_t MS::Internal::Xml::Cache::XPathNodeRef::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::MS::Internal::Xml::Cache::XPathNodeRef>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_idx", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_idx", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::MS::Internal::Xml::Cache::XPathNodeRef::XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> _page, int32_t _idx) noexcept {
   this->_page = _page;
   this->_idx = _idx;

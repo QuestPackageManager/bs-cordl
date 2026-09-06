@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Cryptography\PKCS8.hpp"
+// IWYU pragma private; include "Mono/Security/Cryptography/PKCS8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -139,13 +139,13 @@ protected:
   constexpr PKCS8_PrivateKeyInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS8_PrivateKeyInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS8_PrivateKeyInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS8_PrivateKeyInfo(PKCS8_PrivateKeyInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS8_PrivateKeyInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS8_PrivateKeyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS8_PrivateKeyInfo(PKCS8_PrivateKeyInfo const&) = delete;
+  PKCS8_PrivateKeyInfo(PKCS8_PrivateKeyInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19332 };
@@ -258,13 +258,13 @@ protected:
   constexpr PKCS8_EncryptedPrivateKeyInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS8_EncryptedPrivateKeyInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS8_EncryptedPrivateKeyInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS8_EncryptedPrivateKeyInfo(PKCS8_EncryptedPrivateKeyInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS8_EncryptedPrivateKeyInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS8_EncryptedPrivateKeyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS8_EncryptedPrivateKeyInfo(PKCS8_EncryptedPrivateKeyInfo const&) = delete;
+  PKCS8_EncryptedPrivateKeyInfo(PKCS8_EncryptedPrivateKeyInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19333 };
@@ -312,13 +312,13 @@ protected:
   constexpr PKCS8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS8", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS8(PKCS8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS8(PKCS8 const&) = delete;
+  PKCS8(PKCS8const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19334 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,9 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;
@@ -56,6 +58,7 @@ MARK_VAL_T(::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUInstanceDataBuffer*, "UnityEngine.Rendering", "GPUInstanceDataBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUInstanceDataBuffer_ConvertCPUInstancesToGPUInstancesJob, "UnityEngine.Rendering", "GPUInstanceDataBuffer/ConvertCPUInstancesToGPUInstancesJob");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly, "UnityEngine.Rendering", "GPUInstanceDataBuffer/ReadOnly");
+// [IsReadOnly]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -77,7 +80,7 @@ public:
   // @brief default ctor
   constexpr GPUInstanceDataBuffer_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "instancesNumPrefixSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instancesNumPrefixSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr GPUInstanceDataBuffer_ReadOnly(::Unity::Collections::NativeArray_1<int32_t> instancesNumPrefixSum) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -97,6 +100,7 @@ static_assert(offsetof(::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly,
 static_assert(sizeof(::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Rendering.GPUInstanceIndex, UnityEngine.Rendering.InstanceHandle
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -117,9 +121,9 @@ public:
   // @brief default ctor
   constexpr GPUInstanceDataBuffer_ConvertCPUInstancesToGPUInstancesJob();
 
-  // Ctor Parameters [CppParam { name: "instancesNumPrefixSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "instances", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: None }, CppParam { name: "gpuInstanceIndices", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instancesNumPrefixSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "instances", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: None, comment: None }, CppParam { name: "gpuInstanceIndices", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None, comment: None }]
   constexpr GPUInstanceDataBuffer_ConvertCPUInstancesToGPUInstancesJob(::Unity::Collections::NativeArray_1<int32_t> instancesNumPrefixSum,
                                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices) noexcept;
@@ -133,12 +137,15 @@ public:
   /// @brief Field k_BatchSize offset 0xffffffff size 0x4
   static constexpr int32_t k_BatchSize{ static_cast<int32_t>(0x200) };
 
+  /// [ReadOnly]
   /// @brief Field instancesNumPrefixSum, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> instancesNumPrefixSum;
 
+  /// [ReadOnly]
   /// @brief Field instances, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances;
 
+  /// [WriteOnly]
   /// @brief Field gpuInstanceIndices, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices;
 
@@ -238,7 +245,7 @@ public:
   inline ::UnityEngine::Rendering::GPUInstanceIndex CPUInstanceToGPUInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
   /// @brief Method CPUInstanceToGPUInstance, addr 0x682065c, size 0x108, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::GPUInstanceIndex CPUInstanceToGPUInstance(::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instancesNumPrefixSum,
+  static inline ::UnityEngine::Rendering::GPUInstanceIndex CPUInstanceToGPUInstance(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instancesNumPrefixSum,
                                                                                     ::UnityEngine::Rendering::InstanceHandle instance);
 
   /// @brief Method Dispose, addr 0x6820b78, size 0x1b4, virtual true, abstract: false, final true
@@ -376,13 +383,13 @@ protected:
   constexpr GPUInstanceDataBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUInstanceDataBuffer(GPUInstanceDataBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUInstanceDataBuffer(GPUInstanceDataBuffer const&) = delete;
+  GPUInstanceDataBuffer(GPUInstanceDataBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17680 };

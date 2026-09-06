@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuitGameCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuitGameCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__QuitGameCommand_def.hpp"
 #include "GlobalNamespace/zzzz__ConsoleMessage_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\SignalEmitter.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/SignalEmitter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class SignalEmitter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::SignalEmitter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::SignalEmitter*, "UnityEngine.Timeline", "SignalEmitter");
+// [CustomStyle("SignalEmitter")]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Timeline.Marker
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -118,23 +120,26 @@ protected:
   constexpr SignalEmitter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalEmitter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalEmitter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalEmitter(SignalEmitter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalEmitter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalEmitter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalEmitter(SignalEmitter const&) = delete;
+  SignalEmitter(SignalEmitterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19216 };
 
+  /// [SerializeField]
   /// @brief Field m_Retroactive, offset: 0x28, size: 0x1, def value: None
   bool ___m_Retroactive;
 
+  /// [SerializeField]
   /// @brief Field m_EmitOnce, offset: 0x29, size: 0x1, def value: None
   bool ___m_EmitOnce;
 
+  /// [SerializeField]
   /// @brief Field m_Asset, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Timeline::SignalAsset> ___m_Asset;
 

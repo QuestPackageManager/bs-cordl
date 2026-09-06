@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Interlocked.hpp"
+// IWYU pragma private; include "System/Threading/Interlocked.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__Interlocked_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -414,7 +414,9 @@ inline double_t System::Threading::Interlocked::CompareExchange(::by_ref<double_
                                                            { "CompareExchange", {}, { ::i2c::type_of<::by_ref<double_t>>(), ::i2c::type_of<double_t>(), ::i2c::type_of<double_t>() } })));
   return ::cordl_internals::RunMethodRethrow<double_t>(nullptr, ___internal_method, location1, value, comparand);
 }
-template <typename T> inline T System::Threading::Interlocked::CompareExchange(::by_ref<T> location1, T value, T comparand) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Threading::Interlocked::CompareExchange(::by_ref<T> location1, T value, T comparand) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Interlocked*>(),
                                                            { "CompareExchange", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<T>(), ::i2c::type_of<T>() } })));
@@ -436,7 +438,9 @@ inline double_t System::Threading::Interlocked::Exchange(::by_ref<double_t> loca
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Interlocked*>(), { "Exchange", {}, { ::i2c::type_of<::by_ref<double_t>>(), ::i2c::type_of<double_t>() } })));
   return ::cordl_internals::RunMethodRethrow<double_t>(nullptr, ___internal_method, location1, value);
 }
-template <typename T> inline T System::Threading::Interlocked::Exchange(::by_ref<T> location1, T value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Threading::Interlocked::Exchange(::by_ref<T> location1, T value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Interlocked*>(), { "Exchange", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

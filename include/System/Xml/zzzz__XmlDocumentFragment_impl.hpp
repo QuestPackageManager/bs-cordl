@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlDocumentFragment.hpp"
+// IWYU pragma private; include "System/Xml/XmlDocumentFragment.hpp"
 #include "System/Xml/zzzz__XmlNode_impl.hpp"
 #include "System/Xml/zzzz__XmlDocumentFragment_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"

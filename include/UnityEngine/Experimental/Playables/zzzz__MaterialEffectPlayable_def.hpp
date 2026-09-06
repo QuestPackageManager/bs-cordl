@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Playables\MaterialEffectPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Playables/MaterialEffectPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,11 @@ struct MaterialEffectPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Playables::MaterialEffectPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [NativeHeader("Runtime/Export/Director/MaterialEffectPlayable.bindings.h")]
+// [NativeHeader("Runtime/Shaders/Director/MaterialEffectPlayable.h")]
+// [RequiredByNativeCode]
+// [StaticAccessor("MaterialEffectPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
@@ -51,7 +56,7 @@ public:
   // @brief default ctor
   constexpr MaterialEffectPlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr MaterialEffectPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

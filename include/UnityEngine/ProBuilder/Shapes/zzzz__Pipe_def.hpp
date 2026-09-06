@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Pipe.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Pipe.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class Pipe;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Shapes::Pipe*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Shapes::Pipe*, "UnityEngine.ProBuilder.Shapes", "Pipe");
+// [Shape("Pipe")]
 // Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
@@ -92,26 +93,33 @@ protected:
   constexpr Pipe();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pipe", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pipe", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pipe(Pipe&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pipe", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pipe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pipe(Pipe const&) = delete;
+  Pipe(Pipeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16840 };
 
+  /// [Min(0.01)]
+  /// [SerializeField]
   /// @brief Field m_Thickness, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Thickness;
 
+  /// [Range(3, 64)]
+  /// [SerializeField]
   /// @brief Field m_NumberOfSides, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_NumberOfSides;
 
+  /// [Range(0, 31)]
+  /// [SerializeField]
   /// @brief Field m_HeightCuts, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_HeightCuts;
 
+  /// [SerializeField]
   /// @brief Field m_Smooth, offset: 0x1c, size: 0x1, def value: None
   bool ___m_Smooth;
 

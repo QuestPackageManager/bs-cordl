@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlUrlResolver.hpp"
+// IWYU pragma private; include "System/Xml/XmlUrlResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ MARK_REF_T(::System::Xml::XmlUrlResolver*);
 MARK_VAL_T(::System::Xml::XmlUrlResolver__GetEntityAsync_d__15);
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlUrlResolver*, "System.Xml", "XmlUrlResolver");
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlUrlResolver__GetEntityAsync_d__15, "System.Xml", "XmlUrlResolver/<GetEntityAsync>d__15");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace System::Xml {
 // Is value type: true
@@ -68,6 +69,7 @@ public:
   /// @brief Method MoveNext, addr 0x62e7854, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x62e7c20, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -78,10 +80,11 @@ public:
   // @brief default ctor
   constexpr XmlUrlResolver__GetEntityAsync_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "ofObjectToReturn", ty: "::System::Type*", modifiers: "",
-  // def_value: None }, CppParam { name: "absoluteUri", ty: "::System::Uri*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Xml::XmlUrlResolver*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "ofObjectToReturn", ty: "::System::Type*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "absoluteUri", ty: "::System::Uri*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Xml::XmlUrlResolver*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: None, comment: None }]
   constexpr XmlUrlResolver__GetEntityAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder, ::System::Type* ofObjectToReturn,
                                                  ::System::Uri* absoluteUri, ::System::Xml::XmlUrlResolver* __4__this,
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1) noexcept;
@@ -152,6 +155,7 @@ public:
   /// @brief Method GetEntity, addr 0x62e761c, size 0x13c, virtual true, abstract: false, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
+  /// [AsyncStateMachine(typeof(System.Xml.XmlUrlResolver::<GetEntityAsync>d__15))]
   /// @brief Method GetEntityAsync, addr 0x62e775c, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
@@ -194,13 +198,13 @@ protected:
   constexpr XmlUrlResolver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlUrlResolver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlUrlResolver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlUrlResolver(XmlUrlResolver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlUrlResolver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlUrlResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlUrlResolver(XmlUrlResolver const&) = delete;
+  XmlUrlResolver(XmlUrlResolverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9464 };

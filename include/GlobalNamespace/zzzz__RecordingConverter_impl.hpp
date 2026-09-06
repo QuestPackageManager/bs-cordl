@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RecordingConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace/RecordingConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
@@ -44,7 +44,7 @@ constexpr void GlobalNamespace::RecordingConverter::__cordl_internal_set__logger
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____logger = value;
 }
-inline void GlobalNamespace::RecordingConverter::_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {
+inline void GlobalNamespace::RecordingConverter::_ctor(/* [Inject(Id = "RecordingTool")] */ ::GlobalNamespace::IBeatSaberLogger* logger) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingConverter*>(), { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::IBeatSaberLogger*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, logger);
@@ -55,7 +55,7 @@ inline void GlobalNamespace::RecordingConverter::SaveToOldFormat(::StringW path,
                                                            { "SaveToOldFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::PosesRecordingData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, path, data);
 }
-inline ::GlobalNamespace::RecordingConverter* GlobalNamespace::RecordingConverter::New_ctor(::GlobalNamespace::IBeatSaberLogger* logger) {
+inline ::GlobalNamespace::RecordingConverter* GlobalNamespace::RecordingConverter::New_ctor(/* [Inject(Id = "RecordingTool")] */ ::GlobalNamespace::IBeatSaberLogger* logger) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RecordingConverter*>(logger));
 }
 // Ctor Parameters []

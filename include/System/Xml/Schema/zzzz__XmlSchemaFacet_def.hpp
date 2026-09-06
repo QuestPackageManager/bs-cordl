@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaFacet.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaFacet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,11 @@ public:
   // Declarations
   __declspec(property(get = get_FacetType, put = set_FacetType)) ::System::Xml::Schema::FacetType FacetType;
 
+  /// [XmlAttribute("fixed")]
+  /// @brief [DefaultValue(false)]
   __declspec(property(get = get_IsFixed, put = set_IsFixed)) bool IsFixed;
 
+  /// @brief [XmlAttribute("value")]
   __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
   /// @brief Field facetType, offset 0x5c, size 0x4
@@ -86,13 +89,13 @@ protected:
   constexpr XmlSchemaFacet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaFacet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaFacet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaFacet(XmlSchemaFacet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaFacet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaFacet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaFacet(XmlSchemaFacet const&) = delete;
+  XmlSchemaFacet(XmlSchemaFacetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9769 };

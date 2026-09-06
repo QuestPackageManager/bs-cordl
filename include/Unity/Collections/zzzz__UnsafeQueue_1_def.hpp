@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnsafeQueue_1.hpp"
+// IWYU pragma private; include "Unity/Collections/UnsafeQueue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,9 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
 struct UnsafeQueueBlockHeader;
@@ -44,29 +46,43 @@ namespace Unity::Collections {
 struct UnsafeQueueData;
 }
 namespace Unity::Collections {
-template <typename T> struct UnsafeQueue_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeQueue_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T> struct UnsafeQueue_1_ParallelWriter;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeQueue_1_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename T> struct UnsafeQueue_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeQueue_1_ReadOnly;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct UnsafeQueue_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeQueue_1;
 }
 namespace Unity::Collections {
-template <typename T> struct UnsafeQueue_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeQueue_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T> struct UnsafeQueue_1_ParallelWriter;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeQueue_1_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename T> struct UnsafeQueue_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeQueue_1_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::UnsafeQueue_1);
@@ -81,6 +97,7 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::UnsafeQueue_1_ReadOnly, "Unity.Col
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnsafeQueue`1/Enumerator<T>
 struct CORDL_TYPE UnsafeQueue_1_Enumerator {
@@ -127,9 +144,9 @@ public:
   // @brief default ctor
   constexpr UnsafeQueue_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_FirstBlock", ty: "::Unity::Collections::UnsafeQueueBlockHeader*", modifiers: "", def_value: None }, CppParam { name: "m_Block", ty:
-  // "::Unity::Collections::UnsafeQueueBlockHeader*", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "T",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_FirstBlock", ty: "::Unity::Collections::UnsafeQueueBlockHeader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Block", ty:
+  // "::Unity::Collections::UnsafeQueueBlockHeader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "value", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeQueue_1_Enumerator(::Unity::Collections::UnsafeQueueBlockHeader* m_FirstBlock, ::Unity::Collections::UnsafeQueueBlockHeader* m_Block, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -138,9 +155,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_FirstBlock, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueBlockHeader* m_FirstBlock;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Block, offset: 0x8, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueBlockHeader* m_Block;
 
@@ -154,10 +173,12 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [DefaultMember("Item")]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnsafeQueue`1/ReadOnly<T>
 struct CORDL_TYPE UnsafeQueue_1_ReadOnly {
@@ -175,9 +196,11 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// [IsReadOnly]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::UnsafeQueue_1_Enumerator<T> GetEnumerator();
 
+  /// [IsReadOnly]
   /// @brief Method IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
@@ -187,21 +210,28 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowIndexOutOfRangeException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowIndexOutOfRangeException(int32_t index);
 
+  /// [IsReadOnly]
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValue(int32_t index, ::by_ref<T> item);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::UnsafeQueue_1<T>> data);
 
+  /// [IsReadOnly]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item(int32_t index);
 
@@ -215,7 +245,7 @@ public:
   // @brief default ctor
   constexpr UnsafeQueue_1_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeQueue_1_ReadOnly(::Unity::Collections::UnsafeQueueData* m_Buffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -224,6 +254,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueData* m_Buffer;
 
@@ -231,10 +262,12 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnsafeQueue`1/ParallelWriter<T>
 struct CORDL_TYPE UnsafeQueue_1_ParallelWriter {
@@ -250,8 +283,9 @@ public:
   // @brief default ctor
   constexpr UnsafeQueue_1_ParallelWriter();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None }, CppParam { name: "m_QueuePool", ty:
-  // "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: None }, CppParam { name: "m_ThreadIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_QueuePool", ty:
+  // "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ThreadIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr UnsafeQueue_1_ParallelWriter(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool, int32_t m_ThreadIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -260,12 +294,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueData* m_Buffer;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_QueuePool, offset: 0x8, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool;
 
+  /// [NativeSetThreadIndex]
   /// @brief Field m_ThreadIndex, offset: 0x10, size: 0x4, def value: None
   int32_t m_ThreadIndex;
 
@@ -273,10 +310,12 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.UnsafeQueue`1<T>
 struct CORDL_TYPE UnsafeQueue_1 {
@@ -307,6 +346,8 @@ public:
   /// @brief Method AsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::UnsafeQueue_1_ReadOnly<T> AsReadOnly();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckNotEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckNotEmpty();
 
@@ -328,12 +369,15 @@ public:
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Free(::Unity::Collections::UnsafeQueue_1<T>* data);
 
+  /// [IsReadOnly]
   /// @brief Method IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   /// @brief Method Peek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Peek();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ThrowEmpty();
 
@@ -346,9 +390,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
@@ -371,9 +417,9 @@ public:
   // @brief default ctor
   constexpr UnsafeQueue_1();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None }, CppParam { name: "m_QueuePool", ty:
-  // "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_QueuePool", ty:
+  // "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeQueue_1(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool,
                           ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
@@ -383,9 +429,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueData* m_Buffer;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_QueuePool, offset: 0x8, size: 0x8, def value: None
   ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool;
 

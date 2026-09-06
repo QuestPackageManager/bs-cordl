@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncVoidMethodBuilder.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncVoidMethodBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncVoidMethodBuilder)
 namespace System::Runtime::CompilerServices {
@@ -25,7 +28,8 @@ struct AsyncVoidMethodBuilder;
 // Write type traits
 MARK_VAL_T(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");
-// Dependencies System.Runtime.CompilerServices.AsyncMethodBuilderCore
+// Dependencies System.Runtime.CompilerServices.AsyncMethodBuilderCore, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.ICriticalNotifyCompletion,
+// System.Runtime.CompilerServices.INotifyCompletion
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
@@ -35,10 +39,16 @@ public:
   __declspec(property(get = get_Task)) ::System::Threading::Tasks::Task* Task;
 
   /// @brief Method AwaitOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::INotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method Create, addr 0x5b71758, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
@@ -55,8 +65,11 @@ public:
   /// @brief Method SetStateMachine, addr 0x5b71798, size 0x8, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
+  /// [DebuggerStepThrough]
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TStateMachine> inline void Start(::by_ref<TStateMachine> stateMachine);
+  template <typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void Start(::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method get_Task, addr 0x5b71864, size 0x68, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_Task();
@@ -65,9 +78,9 @@ public:
   // @brief default ctor
   constexpr AsyncVoidMethodBuilder();
 
-  // Ctor Parameters [CppParam { name: "m_synchronizationContext", ty: "::System::Threading::SynchronizationContext*", modifiers: "", def_value: None }, CppParam { name: "m_coreState", ty:
-  // "::System::Runtime::CompilerServices::AsyncMethodBuilderCore", modifiers: "", def_value: None }, CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "m_synchronizationContext", ty: "::System::Threading::SynchronizationContext*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_coreState",
+  // ty: "::System::Runtime::CompilerServices::AsyncMethodBuilderCore", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr AsyncVoidMethodBuilder(::System::Threading::SynchronizationContext* m_synchronizationContext, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState,
                                    ::System::Threading::Tasks::Task* m_task) noexcept;
 

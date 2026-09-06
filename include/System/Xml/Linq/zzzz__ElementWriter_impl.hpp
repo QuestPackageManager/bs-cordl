@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\ElementWriter.hpp"
+// IWYU pragma private; include "System/Xml/Linq/ElementWriter.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceResolver_impl.hpp"
 #include "System/Xml/Linq/zzzz__ElementWriter_def.hpp"
 #include "System/Xml/Linq/zzzz__XElement_def.hpp"
@@ -148,8 +148,8 @@ inline void System::Xml::Linq::ElementWriter::WriteStartElement(::System::Xml::L
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::ElementWriter>(), { "WriteStartElement", {}, { ::i2c::type_of<::System::Xml::Linq::XElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, e);
 }
-// Ctor Parameters [CppParam { name: "_writer", ty: "::System::Xml::XmlWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_resolver", ty: "::System::Xml::Linq::NamespaceResolver",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_writer", ty: "::System::Xml::XmlWriter*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_resolver", ty:
+// "::System::Xml::Linq::NamespaceResolver", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Linq::ElementWriter::ElementWriter(::System::Xml::XmlWriter* _writer, ::System::Xml::Linq::NamespaceResolver _resolver) noexcept {
   this->_writer = _writer;
   this->_resolver = _resolver;

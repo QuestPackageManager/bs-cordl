@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IBeatSaberConnectedPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/IBeatSaberConnectedPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,18 +34,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
   constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
 
-  /// @brief Method get_activeHand, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_activeHand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MultiplayerActiveHand get_activeHand();
 
-  /// @brief Method get_multiplayerAvatarsData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_multiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
   /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
   constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBeatSaberConnectedPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBeatSaberConnectedPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBeatSaberConnectedPlayer(IBeatSaberConnectedPlayer const&) = delete;
+  IBeatSaberConnectedPlayer(IBeatSaberConnectedPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18896 };

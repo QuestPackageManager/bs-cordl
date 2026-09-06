@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MatchTargetWeightMask.hpp"
+// IWYU pragma private; include "UnityEngine/MatchTargetWeightMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct MatchTargetWeightMask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::MatchTargetWeightMask);
 DEFINE_IL2CPP_CLASS(::UnityEngine::MatchTargetWeightMask, "UnityEngine", "MatchTargetWeightMask");
+// [NativeHeader("Modules/Animation/Animator.h")]
 // Dependencies UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -25,8 +26,8 @@ public:
   // @brief default ctor
   constexpr MatchTargetWeightMask();
 
-  // Ctor Parameters [CppParam { name: "m_PositionXYZWeight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_RotationWeight", ty: "float_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_PositionXYZWeight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RotationWeight", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr MatchTargetWeightMask(::UnityEngine::Vector3 m_PositionXYZWeight, float_t m_RotationWeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

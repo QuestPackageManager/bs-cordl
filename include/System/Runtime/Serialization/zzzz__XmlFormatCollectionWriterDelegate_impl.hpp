@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlFormatCollectionWriterDelegate.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlFormatCollectionWriterDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlFormatCollectionWriterDelegate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__CollectionDataContract_def.hpp"

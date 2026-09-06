@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxEventHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr FloatFxEventHandler_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventHandler_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventHandler_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxEventHandler_InitData(FloatFxEventHandler_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventHandler_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventHandler_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxEventHandler_InitData(FloatFxEventHandler_InitData const&) = delete;
+  FloatFxEventHandler_InitData(FloatFxEventHandler_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5835 };
@@ -149,13 +149,13 @@ protected:
   constexpr FloatFxEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxEventHandler(FloatFxEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxEventHandler(FloatFxEventHandler const&) = delete;
+  FloatFxEventHandler(FloatFxEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5836 };

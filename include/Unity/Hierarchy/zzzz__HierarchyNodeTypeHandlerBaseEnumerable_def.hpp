@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyNodeTypeHandlerBaseEnumerable.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeTypeHandlerBaseEnumerable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,8 +67,8 @@ public:
   // @brief default ctor
   constexpr HierarchyNodeTypeHandlerBaseEnumerable_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Handlers", ty: "::System::Buffers::IMemoryOwner_1<::System::IntPtr>*", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handlers", ty: "::System::Buffers::IMemoryOwner_1<::System::IntPtr>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Count", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyNodeTypeHandlerBaseEnumerable_Enumerator(::System::Buffers::IMemoryOwner_1<::System::IntPtr>* m_Handlers, int32_t m_Count, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -98,6 +98,7 @@ static_assert(offsetof(::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerabl
 static_assert(sizeof(::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Hierarchy
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -117,7 +118,7 @@ public:
   // @brief default ctor
   constexpr HierarchyNodeTypeHandlerBaseEnumerable();
 
-  // Ctor Parameters [CppParam { name: "m_Hierarchy", ty: "::Unity::Hierarchy::Hierarchy*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Hierarchy", ty: "::Unity::Hierarchy::Hierarchy*", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyNodeTypeHandlerBaseEnumerable(::Unity::Hierarchy::Hierarchy* m_Hierarchy) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\OpenSslPbeParametersGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/OpenSslPbeParametersGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,9 +43,11 @@ public:
   /// @brief Method GenerateDerivedParameters, addr 0x33e1708, size 0x104, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize);
 
+  /// [Obsolete("Use version with \'algorithm\' parameter")]
   /// @brief Method GenerateDerivedParameters, addr 0x33e1578, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize);
 
+  /// [Obsolete("Use version with \'algorithm\' parameter")]
   /// @brief Method GenerateDerivedParameters, addr 0x33e1620, size 0xe8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
 
@@ -72,13 +74,13 @@ protected:
   constexpr OpenSslPbeParametersGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenSslPbeParametersGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenSslPbeParametersGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenSslPbeParametersGenerator(OpenSslPbeParametersGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenSslPbeParametersGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenSslPbeParametersGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenSslPbeParametersGenerator(OpenSslPbeParametersGenerator const&) = delete;
+  OpenSslPbeParametersGenerator(OpenSslPbeParametersGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 917 };

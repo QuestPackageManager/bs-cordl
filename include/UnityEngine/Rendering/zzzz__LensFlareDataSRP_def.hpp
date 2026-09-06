@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LensFlareDataSRP.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LensFlareDataSRP.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ protected:
   constexpr LensFlareDataSRP();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataSRP", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataSRP", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LensFlareDataSRP(LensFlareDataSRP&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataSRP", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataSRP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareDataSRP(LensFlareDataSRP const&) = delete;
+  LensFlareDataSRP(LensFlareDataSRPconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12179 };

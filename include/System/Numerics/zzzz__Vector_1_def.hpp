@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Numerics\Vector_1.hpp"
+// IWYU pragma private; include "System/Numerics/Vector_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace System::Numerics {
 struct Register;
 }
 namespace System::Numerics {
-template <typename T> struct Vector_1_VectorSizeHelper;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Vector_1_VectorSizeHelper;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -28,20 +30,27 @@ class Object;
 }
 // Forward declare root types
 namespace System::Numerics {
-template <typename T> struct Vector_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Vector_1;
 }
 namespace System::Numerics {
-template <typename T> struct Vector_1_VectorSizeHelper;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Vector_1_VectorSizeHelper;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Numerics::Vector_1);
 MARK_GEN_VAL_T(::System::Numerics::Vector_1_VectorSizeHelper);
 DEFINE_IL2CPP_GEN_CLASS(::System::Numerics::Vector_1, "System.Numerics", "Vector`1");
 DEFINE_IL2CPP_GEN_CLASS(::System::Numerics::Vector_1_VectorSizeHelper, "System.Numerics", "Vector`1/VectorSizeHelper");
+// [Intrinsic]
+// [DefaultMember("Item")]
 // Dependencies System.Numerics.Register
 namespace System::Numerics {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: System.Numerics.Vector`1<T>
 struct CORDL_TYPE Vector_1 {
@@ -69,12 +78,14 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
+  /// [Intrinsic]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Numerics::Vector_1<T> Equals(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [Intrinsic]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::System::Numerics::Vector_1<T> other);
 
@@ -108,6 +119,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::System::Numerics::Register> existingRegister);
 
+  /// [Intrinsic]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value);
 
@@ -119,12 +131,15 @@ public:
 
   static inline ::System::Numerics::Vector_1<T> getStaticF_s_zero();
 
+  /// [Intrinsic]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t get_Count();
 
+  /// [Intrinsic]
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item(int32_t index);
 
+  /// [Intrinsic]
   /// @brief Method get_Zero, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Numerics::Vector_1<T> get_Zero();
 
@@ -137,6 +152,8 @@ public:
   /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
+  /// [Intrinsic]
+  /// [CLSCompliant(false)]
   /// @brief Method op_Explicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Numerics::Vector_1<uint64_t> op_Explicit___System__Numerics__Vector_1_uint64_t_(::System::Numerics::Vector_1<T> value);
 
@@ -155,7 +172,7 @@ public:
   // @brief default ctor
   constexpr Vector_1();
 
-  // Ctor Parameters [CppParam { name: "_cordl_register", ty: "::System::Numerics::Register", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_cordl_register", ty: "::System::Numerics::Register", modifiers: "", def_value: None, comment: None }]
   constexpr Vector_1(::System::Numerics::Register _cordl_register) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -175,6 +192,7 @@ public:
 namespace System::Numerics {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: System.Numerics.Vector`1/VectorSizeHelper<T>
 struct CORDL_TYPE Vector_1_VectorSizeHelper {
@@ -184,8 +202,8 @@ public:
   // @brief default ctor
   constexpr Vector_1_VectorSizeHelper();
 
-  // Ctor Parameters [CppParam { name: "_placeholder", ty: "::System::Numerics::Vector_1<T>", modifiers: "", def_value: None }, CppParam { name: "_byte", ty: "uint8_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "_placeholder", ty: "::System::Numerics::Vector_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_byte", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr Vector_1_VectorSizeHelper(::System::Numerics::Vector_1<T> _placeholder, uint8_t _byte) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

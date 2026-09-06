@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TreeViewItemData_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TreeViewItemData_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ template <typename T> struct TreeViewItemData_1;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::TreeViewItemData_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::TreeViewItemData_1, "UnityEngine.UIElements", "TreeViewItemData`1");
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
@@ -40,6 +41,7 @@ public:
   /// @brief Method get_data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_data();
 
+  /// [CompilerGenerated]
   /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_id();
 
@@ -47,8 +49,8 @@ public:
   // @brief default ctor
   constexpr TreeViewItemData_1();
 
-  // Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Data", ty: "T", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Children", ty: "::System::Collections::Generic::IList_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Data", ty: "T", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_Children", ty: "::System::Collections::Generic::IList_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*", modifiers: "", def_value: None, comment: None }]
   constexpr TreeViewItemData_1(int32_t _id_k__BackingField, T m_Data, ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* m_Children) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -57,9 +59,12 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <id>k__BackingField, offset: 0x0, size: 0x4, def value: None
   int32_t _id_k__BackingField;
 
+  /// [CreateProperty]
   /// @brief Field m_Data, offset: 0x8, size: 0x8, def value: None
   T m_Data;
 

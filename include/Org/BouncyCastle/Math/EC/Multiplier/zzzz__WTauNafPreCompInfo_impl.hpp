@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\WTauNafPreCompInfo.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WTauNafPreCompInfo.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mPoint_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WTauNafPreCompInfo_def.hpp"

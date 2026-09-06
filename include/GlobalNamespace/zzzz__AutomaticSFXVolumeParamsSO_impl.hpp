@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AutomaticSFXVolumeParamsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/AutomaticSFXVolumeParamsSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AutomaticSFXVolumeParamsSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AutomaticSFXVolumeParamsSO.get_musicVolumeMultiplier

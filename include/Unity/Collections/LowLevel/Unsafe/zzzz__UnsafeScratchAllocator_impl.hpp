@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeScratchAllocator.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeScratchAllocator.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeScratchAllocator_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator._ctor
 template <>
@@ -60,15 +60,17 @@ inline void* Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::Alloc
                                                                                          { "Allocate", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void*>(*this, ___internal_method, sizeInBytes, alignmentInBytes);
 }
-template <typename T> inline void* Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::Allocate(int32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void* Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::Allocate(int32_t count) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator>(), { "Allocate", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void*>(*this, ___internal_method, count);
 }
-// Ctor Parameters [CppParam { name: "m_Pointer", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LengthInBytes", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_CapacityInBytes", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Pointer", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LengthInBytes", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_CapacityInBytes", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::UnsafeScratchAllocator(void* m_Pointer, int32_t m_LengthInBytes, int32_t m_CapacityInBytes) noexcept {
   this->m_Pointer = m_Pointer;
   this->m_LengthInBytes = m_LengthInBytes;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\DecoratorToChoiceFromBinder_1.hpp"
+// IWYU pragma private; include "Zenject/DecoratorToChoiceFromBinder_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DecoratorToChoiceFromBinder_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
@@ -49,7 +49,10 @@ inline void Zenject::DecoratorToChoiceFromBinder_1<TContract>::_ctor(::Zenject::
                                               { ".ctor", {}, { ::i2c::type_of<::Zenject::DiContainer*>(), ::i2c::type_of<::Zenject::BindInfo*>(), ::i2c::type_of<::Zenject::FactoryBindInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bindContainer, bindInfo, factoryBindInfo);
 }
-template <typename TContract> template <typename TConcrete> inline ::Zenject::FactoryFromBinder_2<TContract, TConcrete>* Zenject::DecoratorToChoiceFromBinder_1<TContract>::With() {
+template <typename TContract>
+template <typename TConcrete>
+  requires(::cordl_internals::type_constraint<TConcrete, TContract>)
+inline ::Zenject::FactoryFromBinder_2<TContract, TConcrete>* Zenject::DecoratorToChoiceFromBinder_1<TContract>::With() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DecoratorToChoiceFromBinder_1<TContract>*>(), { "With", { ::i2c::class_of<TConcrete>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TConcrete>() })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteSpawnInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteSpawnInfoNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,6 +121,7 @@ public:
                                                                float_t flipYSide, ::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset, ::UnityEngine::Vector3 jumpEndOffset,
                                                                float_t gravityBase, float_t rotation, float_t cutDirectionAngleOffset, float_t cutSfxVolumeMultiplier);
 
+  /// @brief [Preserve]
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* New_ctor();
 
   /// @brief Method Obtain, addr 0x377fad4, size 0x6c, virtual false, abstract: false, final false
@@ -249,6 +250,7 @@ public:
 
   constexpr void __cordl_internal_set_timeToPrevColorNote(float_t value);
 
+  /// [Preserve]
   /// @brief Method .ctor, addr 0x377fc58, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -258,13 +260,13 @@ protected:
   constexpr NoteSpawnInfoNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteSpawnInfoNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteSpawnInfoNetSerializable(NoteSpawnInfoNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteSpawnInfoNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteSpawnInfoNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteSpawnInfoNetSerializable(NoteSpawnInfoNetSerializable const&) = delete;
+  NoteSpawnInfoNetSerializable(NoteSpawnInfoNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21200 };

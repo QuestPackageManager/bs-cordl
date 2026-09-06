@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ValidationMarker.hpp"
+// IWYU pragma private; include "Zenject/ValidationMarker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class ValidationMarker;
 // Write type traits
 MARK_REF_T(::Zenject::ValidationMarker*);
 DEFINE_IL2CPP_CLASS(::Zenject::ValidationMarker*, "Zenject", "ValidationMarker");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -54,15 +55,19 @@ public:
   /// @brief Method .ctor, addr 0x6e9fd3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
+  /// [CompilerGenerated]
   /// @brief Method get_InstantiateFailed, addr 0x6e9fd48, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MarkedType, addr 0x6e9fd58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
+  /// [CompilerGenerated]
   /// @brief Method set_InstantiateFailed, addr 0x6e9fd50, size 0x8, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MarkedType, addr 0x6e9fd60, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
@@ -72,20 +77,22 @@ protected:
   constexpr ValidationMarker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationMarker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationMarker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidationMarker(ValidationMarker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationMarker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationMarker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValidationMarker(ValidationMarker const&) = delete;
+  ValidationMarker(ValidationMarkerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14720 };
 
+  /// [CompilerGenerated]
   /// @brief Field <InstantiateFailed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____InstantiateFailed_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MarkedType>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____MarkedType_k__BackingField;
 

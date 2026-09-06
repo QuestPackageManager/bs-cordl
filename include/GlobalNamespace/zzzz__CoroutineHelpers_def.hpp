@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CoroutineHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace/CoroutineHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_REF_T(::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CoroutineHelpers*, "", "CoroutineHelpers");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0*, "", "CoroutineHelpers/<ExecuteAfterDelayCoroutine>d__0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1*, "", "CoroutineHelpers/<ExecuteAfterFrameEnd>d__1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -86,17 +87,22 @@ public:
   /// @brief Method MoveNext, addr 0x33237f0, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x332389c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x33238a4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x33238dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x33237ec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -124,6 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_timeSeconds(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x33235fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -142,13 +149,13 @@ protected:
   constexpr CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0(CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0(CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0 const&) = delete;
+  CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0(CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20734 };
@@ -179,6 +186,7 @@ static_assert(offsetof(::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCor
 static_assert(sizeof(::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -211,17 +219,22 @@ public:
   /// @brief Method MoveNext, addr 0x33238e8, size 0x9c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3323984, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x332398c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x33239c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x33238e4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -243,6 +256,7 @@ public:
 
   constexpr void __cordl_internal_set_action(::System::Action* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3323658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -261,13 +275,13 @@ protected:
   constexpr CoroutineHelpers__ExecuteAfterFrameEnd_d__1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterFrameEnd_d__1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterFrameEnd_d__1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoroutineHelpers__ExecuteAfterFrameEnd_d__1(CoroutineHelpers__ExecuteAfterFrameEnd_d__1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterFrameEnd_d__1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers__ExecuteAfterFrameEnd_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoroutineHelpers__ExecuteAfterFrameEnd_d__1(CoroutineHelpers__ExecuteAfterFrameEnd_d__1 const&) = delete;
+  CoroutineHelpers__ExecuteAfterFrameEnd_d__1(CoroutineHelpers__ExecuteAfterFrameEnd_d__1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20735 };
@@ -293,6 +307,7 @@ static_assert(offsetof(::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd
 static_assert(sizeof(::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -304,15 +319,19 @@ public:
 
   using _ExecuteAfterFrameEnd_d__1 = ::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1;
 
+  /// [IteratorStateMachine(typeof(CoroutineHelpers::<ExecuteAfterDelayCoroutine>d__0))]
   /// @brief Method ExecuteAfterDelayCoroutine, addr 0x3323598, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(::System::Action* action, float_t timeSeconds);
 
+  /// [IteratorStateMachine(typeof(CoroutineHelpers::<ExecuteAfterFrameEnd>d__1))]
   /// @brief Method ExecuteAfterFrameEnd, addr 0x3323604, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* ExecuteAfterFrameEnd(::System::Action* action);
 
+  /// [Extension]
   /// @brief Method StartSingleCoroutine, addr 0x3323660, size 0xc8, virtual false, abstract: false, final false
   static inline void StartSingleCoroutine(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ::by_ref<::UnityEngine::Coroutine*> handle, ::System::Collections::IEnumerator* routine);
 
+  /// [Extension]
   /// @brief Method StopSingleCoroutine, addr 0x3323728, size 0xc4, virtual false, abstract: false, final false
   static inline void StopSingleCoroutine(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ::by_ref<::UnityEngine::Coroutine*> handle);
 
@@ -322,13 +341,13 @@ protected:
   constexpr CoroutineHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoroutineHelpers(CoroutineHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoroutineHelpers(CoroutineHelpers const&) = delete;
+  CoroutineHelpers(CoroutineHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20736 };

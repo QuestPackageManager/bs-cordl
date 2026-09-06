@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\BcpgInputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/BcpgInputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,13 +85,13 @@ protected:
   constexpr BcpgInputStream_PartialInputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream_PartialInputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream_PartialInputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BcpgInputStream_PartialInputStream(BcpgInputStream_PartialInputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream_PartialInputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream_PartialInputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BcpgInputStream_PartialInputStream(BcpgInputStream_PartialInputStream const&) = delete;
+  BcpgInputStream_PartialInputStream(BcpgInputStream_PartialInputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 552 };
@@ -191,13 +191,13 @@ protected:
   constexpr BcpgInputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BcpgInputStream(BcpgInputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BcpgInputStream(BcpgInputStream const&) = delete;
+  BcpgInputStream(BcpgInputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 553 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PoseSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/PoseSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,8 +102,8 @@ public:
   // @brief default ctor
   constexpr PoseSerializable();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::GlobalNamespace::Vector3Serializable", modifiers: "", def_value: None }, CppParam { name: "rotation", ty:
-  // "::GlobalNamespace::QuaternionSerializable", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::GlobalNamespace::Vector3Serializable", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty:
+  // "::GlobalNamespace::QuaternionSerializable", modifiers: "", def_value: None, comment: None }]
   constexpr PoseSerializable(::GlobalNamespace::Vector3Serializable position, ::GlobalNamespace::QuaternionSerializable rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ControllerConfiguration.hpp"
+// IWYU pragma private; include "GlobalNamespace/ControllerConfiguration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,27 +88,35 @@ public:
   /// @brief Method .ctor, addr 0x591c530, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_orientationActionReference, addr 0x591c340, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_orientationActionReference();
 
+  /// [CompilerGenerated]
   /// @brief Method get_positionActionReference, addr 0x591c330, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_positionActionReference();
 
+  /// [CompilerGenerated]
   /// @brief Method get_thumbstickActionReference, addr 0x591c350, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_thumbstickActionReference();
 
+  /// [CompilerGenerated]
   /// @brief Method get_triggerActionReference, addr 0x591c360, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_triggerActionReference();
 
+  /// [CompilerGenerated]
   /// @brief Method set_orientationActionReference, addr 0x591c348, size 0x8, virtual false, abstract: false, final false
   inline void set_orientationActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_positionActionReference, addr 0x591c338, size 0x8, virtual false, abstract: false, final false
   inline void set_positionActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_thumbstickActionReference, addr 0x591c358, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_triggerActionReference, addr 0x591c368, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
@@ -118,26 +126,34 @@ protected:
   constexpr ControllerConfiguration();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerConfiguration", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerConfiguration", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerConfiguration(ControllerConfiguration&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerConfiguration", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerConfiguration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerConfiguration(ControllerConfiguration const&) = delete;
+  ControllerConfiguration(ControllerConfigurationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6802 };
 
+  /// [CompilerGenerated]
+  /// [SerializeField]
   /// @brief Field <positionActionReference>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____positionActionReference_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [SerializeField]
   /// @brief Field <orientationActionReference>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____orientationActionReference_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [SerializeField]
   /// @brief Field <thumbstickActionReference>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____thumbstickActionReference_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [SerializeField]
   /// @brief Field <triggerActionReference>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____triggerActionReference_k__BackingField;
 

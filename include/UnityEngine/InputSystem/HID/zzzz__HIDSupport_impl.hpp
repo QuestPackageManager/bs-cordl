@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\HID\HIDSupport.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/HID/HIDSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HID_impl.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HIDSupport_def.hpp"
@@ -46,8 +46,8 @@ inline void UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor(::Unit
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::InputSystem::HID::HID_GenericDesktop>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, usage);
 }
-// Ctor Parameters [CppParam { name: "page", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: Some("{}") }, CppParam { name: "usage", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "page", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "usage", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::HIDSupport_HIDPageUsage(::UnityEngine::InputSystem::HID::HID_UsagePage page, int32_t usage) noexcept {
   this->page = page;
   this->usage = usage;

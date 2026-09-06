@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\NativeTextGenerationSettings.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/NativeTextGenerationSettings.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_impl.hpp"
@@ -137,17 +137,19 @@ inline ::StringW UnityEngine::TextCore::NativeTextGenerationSettings::ToString()
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fontAsset", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "globalFontAssetFallbacks", ty: "::ArrayW<::System::IntPtr>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "screenWidth", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "screenHeight", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "wordWrap", ty: "::UnityEngine::TextCore::WhiteSpace", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "overflow", ty: "::UnityEngine::TextCore::TextOverflow", modifiers: "", def_value: Some("{}") }, CppParam { name: "languageDirection", ty:
-// "::UnityEngine::TextCore::LanguageDirection", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertexPadding", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "horizontalAlignment", ty: "::UnityEngine::TextCore::HorizontalAlignment", modifiers: "", def_value: Some("{}") }, CppParam { name: "verticalAlignment", ty:
-// "::UnityEngine::TextCore::VerticalAlignment", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "fontStyle", ty: "::UnityEngine::TextCore::Text::FontStyles", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontWeight", ty: "::UnityEngine::TextCore::Text::TextFontWeight", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "textSpans", ty: "::ArrayW<::UnityEngine::TextCore::TextSpan>", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty:
-// "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "characterSpacing", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "wordSpacing", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "paragraphSpacing", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "fontAsset", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "globalFontAssetFallbacks", ty:
+// "::ArrayW<::System::IntPtr>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "screenWidth", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "screenHeight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "wordWrap", ty: "::UnityEngine::TextCore::WhiteSpace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overflow", ty:
+// "::UnityEngine::TextCore::TextOverflow", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "languageDirection", ty: "::UnityEngine::TextCore::LanguageDirection", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "vertexPadding", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "horizontalAlignment", ty:
+// "::UnityEngine::TextCore::HorizontalAlignment", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "verticalAlignment", ty: "::UnityEngine::TextCore::VerticalAlignment",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontStyle", ty:
+// "::UnityEngine::TextCore::Text::FontStyles", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontWeight", ty: "::UnityEngine::TextCore::Text::TextFontWeight", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "textSpans", ty: "::ArrayW<::UnityEngine::TextCore::TextSpan>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "characterSpacing", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "wordSpacing", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "paragraphSpacing", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::TextCore::NativeTextGenerationSettings::NativeTextGenerationSettings(
     ::System::IntPtr fontAsset, ::ArrayW<::System::IntPtr> globalFontAssetFallbacks, ::StringW text, int32_t screenWidth, int32_t screenHeight, ::UnityEngine::TextCore::WhiteSpace wordWrap,
     ::UnityEngine::TextCore::TextOverflow overflow, ::UnityEngine::TextCore::LanguageDirection languageDirection, int32_t vertexPadding,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TrackLaneRingsPositionStepEffectSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/TrackLaneRingsPositionStepEffectSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ class TrackLaneRingsPositionStepEffectSpawner;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*, "", "TrackLaneRingsPositionStepEffectSpawner");
+// [AddComponentMenu("Beat Saber/Gameplay/TrackLaneRingsPositionStepEffectSpawner")]
 // Dependencies BasicBeatmapEventType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -118,32 +119,40 @@ protected:
   constexpr TrackLaneRingsPositionStepEffectSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsPositionStepEffectSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsPositionStepEffectSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackLaneRingsPositionStepEffectSpawner(TrackLaneRingsPositionStepEffectSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsPositionStepEffectSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsPositionStepEffectSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackLaneRingsPositionStepEffectSpawner(TrackLaneRingsPositionStepEffectSpawner const&) = delete;
+  TrackLaneRingsPositionStepEffectSpawner(TrackLaneRingsPositionStepEffectSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5990 };
 
+  /// [SerializeField]
   /// @brief Field _trackLaneRingsManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRingsManager> ____trackLaneRingsManager;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _beatmapEventType, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEventType;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _minPositionStep, offset: 0x2c, size: 0x4, def value: None
   float_t ____minPositionStep;
 
+  /// [SerializeField]
   /// @brief Field _maxPositionStep, offset: 0x30, size: 0x4, def value: None
   float_t ____maxPositionStep;
 
+  /// [SerializeField]
   /// @brief Field _moveSpeed, offset: 0x34, size: 0x4, def value: None
   float_t ____moveSpeed;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

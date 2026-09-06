@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\DrawObjectsWithRenderingLayersPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DrawObjectsWithRenderingLayersPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DrawObjectsWithRenderingLayersPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -121,13 +123,13 @@ protected:
   constexpr DrawObjectsWithRenderingLayersPass_RenderingLayersPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass_RenderingLayersPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass_RenderingLayersPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawObjectsWithRenderingLayersPass_RenderingLayersPassData(DrawObjectsWithRenderingLayersPass_RenderingLayersPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass_RenderingLayersPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass_RenderingLayersPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawObjectsWithRenderingLayersPass_RenderingLayersPassData(DrawObjectsWithRenderingLayersPass_RenderingLayersPassData const&) = delete;
+  DrawObjectsWithRenderingLayersPass_RenderingLayersPassData(DrawObjectsWithRenderingLayersPass_RenderingLayersPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13093 };
@@ -148,6 +150,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::DrawObject
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass_RenderingLayersPassData) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -189,13 +192,13 @@ protected:
   constexpr DrawObjectsWithRenderingLayersPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawObjectsWithRenderingLayersPass___c(DrawObjectsWithRenderingLayersPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawObjectsWithRenderingLayersPass___c(DrawObjectsWithRenderingLayersPass___c const&) = delete;
+  DrawObjectsWithRenderingLayersPass___c(DrawObjectsWithRenderingLayersPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13094 };
@@ -224,9 +227,11 @@ public:
   /// @brief Field m_DepthTargetIndentifiers, offset 0x168, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DepthTargetIndentifiers, put = __cordl_internal_set_m_DepthTargetIndentifiers)) ::UnityEngine::Rendering::RTHandle* m_DepthTargetIndentifiers;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Configure, addr 0x6902bec, size 0xc, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6902bf8, size 0xb0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -266,13 +271,13 @@ protected:
   constexpr DrawObjectsWithRenderingLayersPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawObjectsWithRenderingLayersPass(DrawObjectsWithRenderingLayersPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawObjectsWithRenderingLayersPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawObjectsWithRenderingLayersPass(DrawObjectsWithRenderingLayersPass const&) = delete;
+  DrawObjectsWithRenderingLayersPass(DrawObjectsWithRenderingLayersPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13095 };

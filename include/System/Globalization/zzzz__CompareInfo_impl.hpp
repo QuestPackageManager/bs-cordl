@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\CompareInfo.hpp"
+// IWYU pragma private; include "System/Globalization/CompareInfo.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataTableClearEventArgs.hpp"
+// IWYU pragma private; include "System/Data/DataTableClearEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Data/zzzz__DataTableClearEventArgs_def.hpp"
 #include "System/Data/zzzz__DataTable_def.hpp"

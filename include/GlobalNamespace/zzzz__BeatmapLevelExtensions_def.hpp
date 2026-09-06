@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapLevelExtensions*);
 MARK_REF_T(::GlobalNamespace::BeatmapLevelExtensions___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelExtensions*, "", "BeatmapLevelExtensions");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelExtensions___c*, "", "BeatmapLevelExtensions/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -78,13 +79,13 @@ protected:
   constexpr BeatmapLevelExtensions___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelExtensions___c(BeatmapLevelExtensions___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelExtensions___c(BeatmapLevelExtensions___c const&) = delete;
+  BeatmapLevelExtensions___c(BeatmapLevelExtensions___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14977 };
@@ -95,6 +96,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelExtensions___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -110,9 +112,11 @@ public:
   /// @brief Method CreateColorScheme, addr 0x372689c, size 0x288, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* CreateColorScheme(int32_t idx, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelSO_ColorScheme*>* colorSchemes);
 
+  /// [Extension]
   /// @brief Method ToCensoredRuntime, addr 0x37250fc, size 0x904, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToCensoredRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo, ::UnityEngine::Sprite* coverSprite, ::StringW censoredLocalizedSongName);
 
+  /// [Extension]
   /// @brief Method ToRuntime, addr 0x3725a60, size 0xcf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo);
 
@@ -122,13 +126,13 @@ protected:
   constexpr BeatmapLevelExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelExtensions(BeatmapLevelExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelExtensions(BeatmapLevelExtensions const&) = delete;
+  BeatmapLevelExtensions(BeatmapLevelExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14978 };

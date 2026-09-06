@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\WrapperUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/WrapperUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__WrapperUtilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -8,7 +8,7 @@
 #include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__WrapperUtilities_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Org::BouncyCastle::Security::WrapperUtilities_WrapAlgorithm::WrapperUtilities_WrapAlgorithm(int32_t value__) noexcept {
   this->value__ = value__;
 }

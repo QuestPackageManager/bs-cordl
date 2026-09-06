@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarPromoView.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarPromoView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarPromoView_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"

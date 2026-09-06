@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\Task_1.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/Task_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,7 @@ MARK_GEN_REF_T_PTR(::System::Threading::Tasks::Task_1_TaskWhenAnyCast);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::Tasks::TaskWhenAnyCast_Task_1___c, "System.Threading.Tasks", "Task`1/TaskWhenAnyCast/<>c");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::Tasks::Task_1, "System.Threading.Tasks", "Task`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::Tasks::Task_1_TaskWhenAnyCast, "System.Threading.Tasks", "Task`1/TaskWhenAnyCast");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
@@ -101,13 +102,13 @@ protected:
   constexpr TaskWhenAnyCast_Task_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskWhenAnyCast_Task_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskWhenAnyCast_Task_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskWhenAnyCast_Task_1___c(TaskWhenAnyCast_Task_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskWhenAnyCast_Task_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskWhenAnyCast_Task_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskWhenAnyCast_Task_1___c(TaskWhenAnyCast_Task_1___c const&) = delete;
+  TaskWhenAnyCast_Task_1___c(TaskWhenAnyCast_Task_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2785 };
@@ -141,13 +142,13 @@ protected:
   constexpr Task_1_TaskWhenAnyCast();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Task_1_TaskWhenAnyCast", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_1_TaskWhenAnyCast", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Task_1_TaskWhenAnyCast(Task_1_TaskWhenAnyCast&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Task_1_TaskWhenAnyCast", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_1_TaskWhenAnyCast", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task_1_TaskWhenAnyCast(Task_1_TaskWhenAnyCast const&) = delete;
+  Task_1_TaskWhenAnyCast(Task_1_TaskWhenAnyCastconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2786 };
@@ -156,6 +157,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
+// [DebuggerDisplay("Id = {Id}, Status = {Status}, Method = {DebuggerDisplayMethodDescription}, Result = {DebuggerDisplayResultDescription}")]
+// [DebuggerTypeProxy(typeof(System.Threading.Tasks.SystemThreadingTasks_FutureDebugView`1<TResult>))]
 // Dependencies System.Threading.Tasks.Task
 namespace System::Threading::Tasks {
 // cpp template
@@ -167,6 +170,7 @@ public:
   // Declarations
   using TaskWhenAnyCast = ::System::Threading::Tasks::Task_1_TaskWhenAnyCast<TResult>;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   __declspec(property(get = get_Result)) TResult Result;
 
   __declspec(property(get = get_ResultOnSuccess)) TResult ResultOnSuccess;
@@ -315,13 +319,13 @@ protected:
   constexpr Task_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Task_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Task_1(Task_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Task_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task_1(Task_1 const&) = delete;
+  Task_1(Task_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2787 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RadioButton.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RadioButton.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ MARK_REF_T(::UnityEngine::UIElements::RadioButton_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RadioButton*, "UnityEngine.UIElements", "RadioButton");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RadioButton_UxmlFactory*, "UnityEngine.UIElements", "RadioButton/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RadioButton_UxmlTraits*, "UnityEngine.UIElements", "RadioButton/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -73,13 +74,13 @@ protected:
   constexpr RadioButton_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RadioButton_UxmlFactory(RadioButton_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButton_UxmlFactory(RadioButton_UxmlFactory const&) = delete;
+  RadioButton_UxmlFactory(RadioButton_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4293 };
@@ -90,6 +91,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::RadioButton_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -120,13 +122,13 @@ protected:
   constexpr RadioButton_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RadioButton_UxmlTraits(RadioButton_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButton_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButton_UxmlTraits(RadioButton_UxmlTraits const&) = delete;
+  RadioButton_UxmlTraits(RadioButton_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4294 };
@@ -258,13 +260,13 @@ protected:
   constexpr RadioButton();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButton", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButton", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RadioButton(RadioButton&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RadioButton", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RadioButton", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RadioButton(RadioButton const&) = delete;
+  RadioButton(RadioButtonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4295 };

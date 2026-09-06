@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaInference.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaInference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,7 +99,7 @@ public:
   // @brief default ctor
   constexpr XmlSchemaInference_InferenceOption();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlSchemaInference_InferenceOption(int32_t value__) noexcept;
 
   /// @brief Field Relaxed value: I32(1)
@@ -467,13 +467,13 @@ protected:
   constexpr XmlSchemaInference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaInference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaInference", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaInference(XmlSchemaInference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaInference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaInference", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaInference(XmlSchemaInference const&) = delete;
+  XmlSchemaInference(XmlSchemaInferenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9693 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\Sources\ManualResetValueTaskSourceCore_1.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/Sources/ManualResetValueTaskSourceCore_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ MARK_GEN_REF_T_PTR(::System::Threading::Tasks::Sources::ManualResetValueTaskSour
 MARK_GEN_VAL_T(::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1___c, "System.Threading.Tasks.Sources", "ManualResetValueTaskSourceCore`1/<>c");
 DEFINE_IL2CPP_GEN_CLASS(::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1, "System.Threading.Tasks.Sources", "ManualResetValueTaskSourceCore`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks::Sources {
 // cpp template
@@ -107,13 +108,13 @@ protected:
   constexpr ManualResetValueTaskSourceCore_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ManualResetValueTaskSourceCore_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManualResetValueTaskSourceCore_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ManualResetValueTaskSourceCore_1___c(ManualResetValueTaskSourceCore_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ManualResetValueTaskSourceCore_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManualResetValueTaskSourceCore_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ManualResetValueTaskSourceCore_1___c(ManualResetValueTaskSourceCore_1___c const&) = delete;
+  ManualResetValueTaskSourceCore_1___c(ManualResetValueTaskSourceCore_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2841 };
@@ -137,6 +138,7 @@ public:
 
   __declspec(property(get = get_Version)) int16_t Version;
 
+  /// [StackTraceHidden]
   /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TResult GetResult(int16_t token);
 
@@ -164,6 +166,8 @@ public:
   /// @brief Method ValidateToken, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ValidateToken(int16_t token);
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_RunContinuationsAsynchronously, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_RunContinuationsAsynchronously();
 
@@ -174,11 +178,12 @@ public:
   // @brief default ctor
   constexpr ManualResetValueTaskSourceCore_1();
 
-  // Ctor Parameters [CppParam { name: "_continuation", ty: "::System::Action_1<::System::Object*>*", modifiers: "", def_value: None }, CppParam { name: "_continuationState", ty: "::System::Object*",
-  // modifiers: "", def_value: None }, CppParam { name: "_executionContext", ty: "::System::Threading::ExecutionContext*", modifiers: "", def_value: None }, CppParam { name: "_capturedContext", ty:
-  // "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_completed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "TResult", modifiers: "",
-  // def_value: None }, CppParam { name: "_error", ty: "::System::Runtime::ExceptionServices::ExceptionDispatchInfo*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int16_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_RunContinuationsAsynchronously_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_continuation", ty: "::System::Action_1<::System::Object*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_continuationState", ty:
+  // "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_executionContext", ty: "::System::Threading::ExecutionContext*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_capturedContext", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_completed", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_result", ty: "TResult", modifiers: "", def_value: None, comment: None }, CppParam { name: "_error", ty:
+  // "::System::Runtime::ExceptionServices::ExceptionDispatchInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int16_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_RunContinuationsAsynchronously_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ManualResetValueTaskSourceCore_1(::System::Action_1<::System::Object*>* _continuation, ::System::Object* _continuationState, ::System::Threading::ExecutionContext* _executionContext,
                                              ::System::Object* _capturedContext, bool _completed, TResult _result, ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _error,
                                              int16_t _version, bool _RunContinuationsAsynchronously_k__BackingField) noexcept;
@@ -213,6 +218,7 @@ public:
   /// @brief Field _version, offset: 0x38, size: 0x2, def value: None
   int16_t _version;
 
+  /// [CompilerGenerated]
   /// @brief Field <RunContinuationsAsynchronously>k__BackingField, offset: 0x3a, size: 0x1, def value: None
   bool _RunContinuationsAsynchronously_k__BackingField;
 

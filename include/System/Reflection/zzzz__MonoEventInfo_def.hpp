@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\MonoEventInfo.hpp"
+// IWYU pragma private; include "System/Reflection/MonoEventInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,11 +33,12 @@ public:
   // @brief default ctor
   constexpr MonoEventInfo();
 
-  // Ctor Parameters [CppParam { name: "declaring_type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "reflected_type", ty: "::System::Type*", modifiers: "", def_value:
-  // None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "add_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None },
-  // CppParam { name: "remove_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam { name: "raise_method", ty: "::System::Reflection::MethodInfo*", modifiers:
-  // "", def_value: None }, CppParam { name: "attrs", ty: "::System::Reflection::EventAttributes", modifiers: "", def_value: None }, CppParam { name: "other_methods", ty:
-  // "::ArrayW<::System::Reflection::MethodInfo*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "declaring_type", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "reflected_type", ty: "::System::Type*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "add_method", ty:
+  // "::System::Reflection::MethodInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "remove_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "raise_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "attrs", ty:
+  // "::System::Reflection::EventAttributes", modifiers: "", def_value: None, comment: None }, CppParam { name: "other_methods", ty: "::ArrayW<::System::Reflection::MethodInfo*>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr MonoEventInfo(::System::Type* declaring_type, ::System::Type* reflected_type, ::StringW name, ::System::Reflection::MethodInfo* add_method, ::System::Reflection::MethodInfo* remove_method,
                           ::System::Reflection::MethodInfo* raise_method, ::System::Reflection::EventAttributes attrs, ::ArrayW<::System::Reflection::MethodInfo*> other_methods) noexcept;
 

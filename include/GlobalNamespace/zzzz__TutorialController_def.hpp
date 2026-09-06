@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialController.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ MARK_REF_T(::GlobalNamespace::TutorialController*);
 MARK_REF_T(::GlobalNamespace::TutorialController__OutroCoroutine_d__15*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TutorialController*, "", "TutorialController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TutorialController__OutroCoroutine_d__15*, "", "TutorialController/<OutroCoroutine>d__15");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -93,17 +94,22 @@ public:
   /// @brief Method MoveNext, addr 0x59f867c, size 0x110, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::TutorialController__OutroCoroutine_d__15* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59f878c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59f8794, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59f87cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59f8678, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -125,6 +131,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::TutorialController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59f8644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -143,13 +150,13 @@ protected:
   constexpr TutorialController__OutroCoroutine_d__15();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialController__OutroCoroutine_d__15", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialController__OutroCoroutine_d__15", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialController__OutroCoroutine_d__15(TutorialController__OutroCoroutine_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialController__OutroCoroutine_d__15", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialController__OutroCoroutine_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialController__OutroCoroutine_d__15(TutorialController__OutroCoroutine_d__15 const&) = delete;
+  TutorialController__OutroCoroutine_d__15(TutorialController__OutroCoroutine_d__15const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6282 };
@@ -175,6 +182,7 @@ static_assert(offsetof(::GlobalNamespace::TutorialController__OutroCoroutine_d__
 static_assert(sizeof(::GlobalNamespace::TutorialController__OutroCoroutine_d__15) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/TutorialController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -231,6 +239,7 @@ public:
   /// @brief Method OnDestroy, addr 0x59f82c0, size 0x240, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [IteratorStateMachine(typeof(TutorialController::<OutroCoroutine>d__15))]
   /// @brief Method OutroCoroutine, addr 0x59f85f0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* OutroCoroutine();
 
@@ -294,12 +303,14 @@ public:
   /// @brief Method .ctor, addr 0x59f8674, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelDidStartEvent, addr 0x59f7fa0, size 0xac, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::ILevelStartController"
   constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelDidStartEvent, addr 0x59f804c, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
@@ -309,38 +320,49 @@ protected:
   constexpr TutorialController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialController(TutorialController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialController(TutorialController const&) = delete;
+  TutorialController(TutorialControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6283 };
 
+  /// [SerializeField]
   /// @brief Field _tutorialSongController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TutorialSongController> ____tutorialSongController;
 
+  /// [SerializeField]
   /// @brief Field _introTutorialController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::IntroTutorialController> ____introTutorialController;
 
+  /// [SerializeField]
   /// @brief Field _audioFading, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioFading> ____audioFading;
 
+  /// [Space]
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _tutorialIntroStartedSignal, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____tutorialIntroStartedSignal;
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _tutorialFinishedSignal, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____tutorialFinishedSignal;
 
+  /// [Inject]
   /// @brief Field _pauseController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PauseController> ____pauseController;
 
+  /// [Inject]
   /// @brief Field _tutorialSceneSetupData, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::TutorialScenesTransitionSetupData* ____tutorialSceneSetupData;
 
+  /// [CompilerGenerated]
   /// @brief Field levelDidStartEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___levelDidStartEvent;
 

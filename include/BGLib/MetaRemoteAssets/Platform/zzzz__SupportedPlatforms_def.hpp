@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\MetaRemoteAssets\Platform\SupportedPlatforms.hpp"
+// IWYU pragma private; include "BGLib/MetaRemoteAssets/Platform/SupportedPlatforms.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class SupportedPlatforms;
 // Write type traits
 MARK_REF_T(::BGLib::MetaRemoteAssets::Platform::SupportedPlatforms*);
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::Platform::SupportedPlatforms*, "BGLib.MetaRemoteAssets.Platform", "SupportedPlatforms");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BGLib::MetaRemoteAssets::Platform {
 // Is value type: false
@@ -26,13 +28,13 @@ protected:
   constexpr SupportedPlatforms();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedPlatforms", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedPlatforms", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SupportedPlatforms(SupportedPlatforms&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedPlatforms", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedPlatforms", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SupportedPlatforms(SupportedPlatforms const&) = delete;
+  SupportedPlatforms(SupportedPlatformsconst&) = delete;
 
   /// @brief Field Android offset 0xffffffff size 0x8
   static constexpr ::ConstString Android{ u"ANDROID" };

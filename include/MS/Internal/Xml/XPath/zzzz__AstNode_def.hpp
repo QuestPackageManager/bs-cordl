@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS\Internal\Xml\XPath\AstNode.hpp"
+// IWYU pragma private; include "MS/Internal/Xml/XPath/AstNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   // @brief default ctor
   constexpr AstNode_AstType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AstNode_AstType(int32_t value__) noexcept;
 
   /// @brief Field Axis value: I32(0)
@@ -126,10 +126,10 @@ public:
   /// @brief Method .ctor, addr 0x62769c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReturnType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
@@ -138,13 +138,13 @@ protected:
   constexpr AstNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AstNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AstNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AstNode(AstNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AstNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AstNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AstNode(AstNode const&) = delete;
+  AstNode(AstNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9863 };

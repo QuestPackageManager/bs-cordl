@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UriHelper.hpp"
+// IWYU pragma private; include "System/UriHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ protected:
   constexpr UriHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UriHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UriHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UriHelper(UriHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UriHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UriHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UriHelper(UriHelper const&) = delete;
+  UriHelper(UriHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11074 };

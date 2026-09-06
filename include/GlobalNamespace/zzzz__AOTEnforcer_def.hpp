@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AOTEnforcer.hpp"
+// IWYU pragma private; include "GlobalNamespace/AOTEnforcer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ protected:
   constexpr AOTEnforcer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AOTEnforcer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AOTEnforcer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AOTEnforcer(AOTEnforcer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AOTEnforcer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AOTEnforcer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AOTEnforcer(AOTEnforcer const&) = delete;
+  AOTEnforcer(AOTEnforcerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22752 };

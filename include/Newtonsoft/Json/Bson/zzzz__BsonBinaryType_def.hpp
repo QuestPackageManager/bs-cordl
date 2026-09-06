@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonBinaryType.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonBinaryType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   // @brief default ctor
   constexpr BsonBinaryType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr BsonBinaryType(uint8_t value__) noexcept;
 
   /// @brief Field Binary value: U8(0)

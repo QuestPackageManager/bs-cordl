@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\Encoder.hpp"
+// IWYU pragma private; include "System/Text/Encoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,18 +43,21 @@ public:
   inline void Convert(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, bool flush, ::by_ref<int32_t> charsUsed,
                       ::by_ref<int32_t> bytesUsed, ::by_ref<bool> completed);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Convert, addr 0x5ad3440, size 0x220, virtual true, abstract: false, final false
   inline void Convert(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount, bool flush, ::by_ref<int32_t> charsUsed, ::by_ref<int32_t> bytesUsed, ::by_ref<bool> completed);
 
-  /// @brief Method GetByteCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count, bool flush);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetByteCount, addr 0x5ad2de8, size 0x168, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t count, bool flush);
 
-  /// @brief Method GetBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex, bool flush);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetBytes, addr 0x5ad2f50, size 0x214, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount, bool flush);
 
@@ -93,13 +96,13 @@ protected:
   constexpr Encoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Encoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Encoder(Encoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Encoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoder(Encoder const&) = delete;
+  Encoder(Encoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2857 };

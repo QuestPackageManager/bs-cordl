@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_REF_T(::UnityEngine::UIElements::VisualTreeUpdater*);
 MARK_REF_T(::UnityEngine::UIElements::VisualTreeUpdater_UpdaterArray*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeUpdater*, "UnityEngine.UIElements", "VisualTreeUpdater");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeUpdater_UpdaterArray*, "UnityEngine.UIElements", "VisualTreeUpdater/UpdaterArray");
+// [DefaultMember("Item")]
 // Dependencies System.Object, UnityEngine.UIElements.IVisualTreeUpdater
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -81,13 +82,13 @@ protected:
   constexpr VisualTreeUpdater_UpdaterArray();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater_UpdaterArray", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater_UpdaterArray", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeUpdater_UpdaterArray(VisualTreeUpdater_UpdaterArray&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater_UpdaterArray", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater_UpdaterArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeUpdater_UpdaterArray(VisualTreeUpdater_UpdaterArray const&) = delete;
+  VisualTreeUpdater_UpdaterArray(VisualTreeUpdater_UpdaterArrayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5263 };
@@ -103,7 +104,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeUpdater_UpdaterArray
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeUpdater_UpdaterArray) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.UIElements.IVisualTreeUpdater
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.VisualTreeUpdater
@@ -136,7 +137,9 @@ public:
   inline void SetDefaultUpdaters();
 
   /// @brief Method SetUpdater, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IVisualTreeUpdater*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
   /// @brief Method SetUpdater, addr 0x6cd12b0, size 0x158, virtual false, abstract: false, final false
   inline void SetUpdater(::UnityEngine::UIElements::IVisualTreeUpdater* updater, ::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
@@ -168,13 +171,13 @@ protected:
   constexpr VisualTreeUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeUpdater(VisualTreeUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeUpdater(VisualTreeUpdater const&) = delete;
+  VisualTreeUpdater(VisualTreeUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5264 };

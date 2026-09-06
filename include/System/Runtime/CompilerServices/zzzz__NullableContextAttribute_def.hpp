@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\NullableContextAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/NullableContextAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,9 @@ class NullableContextAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::NullableContextAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::NullableContextAttribute*, "System.Runtime.CompilerServices", "NullableContextAttribute");
+// [CompilerGenerated]
+// [Embedded]
+// [AttributeUsage((System.AttributeTargets)5196, AllowMultiple = false, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -31,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_Flag(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x33218d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2d91c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
 protected:
@@ -40,16 +43,16 @@ protected:
   constexpr NullableContextAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullableContextAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableContextAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullableContextAttribute(NullableContextAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullableContextAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullableContextAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NullableContextAttribute(NullableContextAttribute const&) = delete;
+  NullableContextAttribute(NullableContextAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23587 };
 
   /// @brief Field Flag, offset: 0x10, size: 0x1, def value: None
   uint8_t ___Flag;

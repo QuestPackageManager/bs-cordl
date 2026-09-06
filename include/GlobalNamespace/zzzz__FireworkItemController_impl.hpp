@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FireworkItemController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FireworkItemController.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AudioClip_impl.hpp"
@@ -322,6 +322,7 @@ inline ::System::Object* GlobalNamespace::FireworkItemController__FireCoroutine_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworkItemController__FireCoroutine_d__29*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::FireworkItemController__FireCoroutine_d__29* GlobalNamespace::FireworkItemController__FireCoroutine_d__29::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::FireworkItemController__FireCoroutine_d__29*>(__1__state));
 }

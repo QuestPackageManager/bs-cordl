@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceComponentGroup.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceComponentGroup.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceComponentGroup_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceComponentGroup::InstanceComponentGroup(uint32_t value__) noexcept {
   this->value__ = value__;
 }

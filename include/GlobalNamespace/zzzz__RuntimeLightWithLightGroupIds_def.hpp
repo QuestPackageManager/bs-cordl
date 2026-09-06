@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RuntimeLightWithLightGroupIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/RuntimeLightWithLightGroupIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,17 +68,18 @@ protected:
   constexpr RuntimeLightWithLightGroupIds_LightIntensitiesWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds_LightIntensitiesWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds_LightIntensitiesWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeLightWithLightGroupIds_LightIntensitiesWithId(RuntimeLightWithLightGroupIds_LightIntensitiesWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds_LightIntensitiesWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeLightWithLightGroupIds_LightIntensitiesWithId(RuntimeLightWithLightGroupIds_LightIntensitiesWithId const&) = delete;
+  RuntimeLightWithLightGroupIds_LightIntensitiesWithId(RuntimeLightWithLightGroupIds_LightIntensitiesWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19554 };
 
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x30, size: 0x4, def value: None
   float_t ____intensity;
 
@@ -119,7 +120,7 @@ public:
   /// @brief Method Awake, addr 0x58708d4, size 0x1b4, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   /// @brief Method GetLightWithIds, addr 0x5870be0, size 0x8, virtual true, abstract: false, final false
@@ -172,26 +173,31 @@ protected:
   constexpr RuntimeLightWithLightGroupIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeLightWithLightGroupIds(RuntimeLightWithLightGroupIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithLightGroupIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeLightWithLightGroupIds(RuntimeLightWithLightGroupIds const&) = delete;
+  RuntimeLightWithLightGroupIds(RuntimeLightWithLightGroupIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19555 };
 
+  /// [SerializeField]
   /// @brief Field _lightGroupList, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>> ____lightGroupList;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x40, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
   /// @brief Field _maxIntensity, offset: 0x44, size: 0x4, def value: None
   float_t ____maxIntensity;
 
+  /// [SerializeField]
   /// @brief Field _multiplyColorByAlpha, offset: 0x48, size: 0x1, def value: None
   bool ____multiplyColorByAlpha;
 

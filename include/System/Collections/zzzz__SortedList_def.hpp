@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\SortedList.hpp"
+// IWYU pragma private; include "System/Collections/SortedList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -228,13 +228,13 @@ protected:
   constexpr SortedList_SortedListEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedList_SortedListEnumerator(SortedList_SortedListEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_SortedListEnumerator(SortedList_SortedListEnumerator const&) = delete;
+  SortedList_SortedListEnumerator(SortedList_SortedListEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3711 };
@@ -290,6 +290,8 @@ static_assert(offsetof(::System::Collections::SortedList_SortedListEnumerator, _
 static_assert(sizeof(::System::Collections::SortedList_SortedListEnumerator) == 0x40, "Size mismatch!");
 
 } // namespace System::Collections
+// [TypeForwardedFrom("mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
@@ -395,13 +397,13 @@ protected:
   constexpr SortedList_KeyList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_KeyList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_KeyList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedList_KeyList(SortedList_KeyList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_KeyList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_KeyList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_KeyList(SortedList_KeyList const&) = delete;
+  SortedList_KeyList(SortedList_KeyListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3712 };
@@ -417,6 +419,8 @@ static_assert(offsetof(::System::Collections::SortedList_KeyList, ___sortedList)
 static_assert(sizeof(::System::Collections::SortedList_KeyList) == 0x18, "Size mismatch!");
 
 } // namespace System::Collections
+// [DefaultMember("Item")]
+// [TypeForwardedFrom("mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")]
 // Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
@@ -522,13 +526,13 @@ protected:
   constexpr SortedList_ValueList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_ValueList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_ValueList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedList_ValueList(SortedList_ValueList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_ValueList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_ValueList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_ValueList(SortedList_ValueList const&) = delete;
+  SortedList_ValueList(SortedList_ValueListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3713 };
@@ -557,13 +561,13 @@ protected:
   constexpr SortedList_SortedListDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListDebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedList_SortedListDebugView(SortedList_SortedListDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SortedListDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_SortedListDebugView(SortedList_SortedListDebugView const&) = delete;
+  SortedList_SortedListDebugView(SortedList_SortedListDebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3714 };
@@ -574,6 +578,9 @@ public:
 static_assert(sizeof(::System::Collections::SortedList_SortedListDebugView) == 0x10, "Size mismatch!");
 
 } // namespace System::Collections
+// [DebuggerTypeProxy(typeof(System.Collections.SortedList::SortedListDebugView))]
+// [DebuggerDisplay("Count = {Count}")]
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
@@ -819,13 +826,13 @@ protected:
   constexpr SortedList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedList(SortedList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList(SortedList const&) = delete;
+  SortedList(SortedListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3715 };

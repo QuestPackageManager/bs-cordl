@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Hash128.hpp"
+// IWYU pragma private; include "UnityEngine/Hash128.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
@@ -353,7 +353,9 @@ inline void UnityEngine::Hash128::ComputeFromPtr(::System::IntPtr data, int32_t 
                                                                                                           ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, start, count, elemSize, hash);
 }
-template <typename T> inline ::UnityEngine::Hash128 UnityEngine::Hash128::Compute(::by_ref<T> val) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::UnityEngine::Hash128 UnityEngine::Hash128::Compute(::by_ref<T> val) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "Compute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -363,7 +365,9 @@ inline ::UnityEngine::Hash128 UnityEngine::Hash128::Compute(int32_t val) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "Compute", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Hash128>(nullptr, ___internal_method, val);
 }
-template <typename T> inline void UnityEngine::Hash128::Append(::by_ref<T> val) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Hash128::Append(::by_ref<T> val) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(), { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -468,7 +472,8 @@ constexpr UnityEngine::Hash128::operator ::System::IEquatable_1<::UnityEngine::H
 constexpr ::System::IEquatable_1<::UnityEngine::Hash128>* UnityEngine::Hash128::i___System__IEquatable_1___UnityEngine__Hash128_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Hash128>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "u64_0", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "u64_1", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "u64_0", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "u64_1", ty: "uint64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Hash128::Hash128(uint64_t u64_0, uint64_t u64_1) noexcept {
   this->u64_0 = u64_0;
   this->u64_1 = u64_1;

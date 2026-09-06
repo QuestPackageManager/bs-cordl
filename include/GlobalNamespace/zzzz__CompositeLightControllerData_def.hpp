@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeLightControllerData.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeLightControllerData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -316,68 +316,86 @@ protected:
   constexpr CompositeLightControllerData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightControllerData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightControllerData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeLightControllerData(CompositeLightControllerData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightControllerData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightControllerData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeLightControllerData(CompositeLightControllerData const&) = delete;
+  CompositeLightControllerData(CompositeLightControllerDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5828 };
 
+  /// [SerializeField]
   /// @brief Field _children, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____children;
 
+  /// [SerializeField]
   /// @brief Field _lightGroupSO, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroupSO;
 
+  /// [SerializeField]
   /// @brief Field _defaultTransformTarget, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____defaultTransformTarget;
 
+  /// [SerializeField]
   /// @brief Field _rotationXMirrored, offset: 0x28, size: 0x1, def value: None
   bool ____rotationXMirrored;
 
+  /// [SerializeField]
   /// @brief Field _rotationYMirrored, offset: 0x29, size: 0x1, def value: None
   bool ____rotationYMirrored;
 
+  /// [SerializeField]
   /// @brief Field _rotationZMirrored, offset: 0x2a, size: 0x1, def value: None
   bool ____rotationZMirrored;
 
+  /// [SerializeField]
   /// @brief Field _translationXMirrored, offset: 0x2b, size: 0x1, def value: None
   bool ____translationXMirrored;
 
+  /// [SerializeField]
   /// @brief Field _translationYMirrored, offset: 0x2c, size: 0x1, def value: None
   bool ____translationYMirrored;
 
+  /// [SerializeField]
   /// @brief Field _translationZMirrored, offset: 0x2d, size: 0x1, def value: None
   bool ____translationZMirrored;
 
+  /// [SerializeField]
   /// @brief Field _floatFxTargets, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::FloatFxTargetsBucket*> ____floatFxTargets;
 
+  /// [SerializeField]
   /// @brief Field _colorTargets, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::ColorTargetsBucket*> ____colorTargets;
 
+  /// [SerializeField]
   /// @brief Field _colorGroups, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::CompositeColorGroup>> ____colorGroups;
 
+  /// [SerializeField]
   /// @brief Field _rotationTransformsX, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____rotationTransformsX;
 
+  /// [SerializeField]
   /// @brief Field _rotationTransformsY, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____rotationTransformsY;
 
+  /// [SerializeField]
   /// @brief Field _rotationTransformsZ, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____rotationTransformsZ;
 
+  /// [SerializeField]
   /// @brief Field _translationTransformsX, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____translationTransformsX;
 
+  /// [SerializeField]
   /// @brief Field _translationTransformsY, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____translationTransformsY;
 
+  /// [SerializeField]
   /// @brief Field _translationTransformsZ, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____translationTransformsZ;
 

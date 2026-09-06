@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeBitArray.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeBitArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,45 +48,64 @@ public:
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckArgs, addr 0x64ce7f4, size 0xdc, virtual false, abstract: false, final false
   inline void CheckArgs(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckArgsPosCount, addr 0x64ce8d0, size 0x154, virtual false, abstract: false, final false
   inline void CheckArgsPosCount(int32_t begin, int32_t count, int32_t numBits);
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckArgsUlong, addr 0x64cea24, size 0x120, virtual false, abstract: false, final false
   inline void CheckArgsUlong(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method CountBits, addr 0x64c3108, size 0x20, virtual false, abstract: false, final false
   inline int32_t CountBits(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method Find, addr 0x64c303c, size 0xc, virtual false, abstract: false, final false
   inline int32_t Find(int32_t pos, int32_t count, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method Find, addr 0x64c301c, size 0x14, virtual false, abstract: false, final false
   inline int32_t Find(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method GetBits, addr 0x64c2fb8, size 0x20, virtual false, abstract: false, final false
   inline uint64_t GetBits(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method IsSet, addr 0x64c2ff0, size 0x18, virtual false, abstract: false, final false
   inline bool IsSet(int32_t pos);
 
+  /// [IsReadOnly]
   /// @brief Method TestAll, addr 0x64c30c8, size 0x20, virtual false, abstract: false, final false
   inline bool TestAll(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method TestAny, addr 0x64c3088, size 0x20, virtual false, abstract: false, final false
   inline bool TestAny(int32_t pos, int32_t numBits);
 
+  /// [IsReadOnly]
   /// @brief Method TestNone, addr 0x64c3058, size 0x10, virtual false, abstract: false, final false
   inline bool TestNone(int32_t pos, int32_t numBits);
 
   /// @brief Method .ctor, addr 0x64ce2ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t* ptr, int32_t length);
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64c2f30, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x64c2f60, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
@@ -94,7 +113,8 @@ public:
   // @brief default ctor
   constexpr UnsafeBitArray_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "Ptr", ty: "uint64_t*", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Ptr", ty: "uint64_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr UnsafeBitArray_ReadOnly(uint64_t* Ptr, int32_t Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -103,6 +123,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Ptr, offset: 0x0, size: 0x8, def value: None
   uint64_t* Ptr;
 
@@ -119,6 +140,9 @@ static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_Re
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
+// [DebuggerDisplay("Length = {Length}, IsCreated = {IsCreated}")]
+// [DebuggerTypeProxy(typeof(Unity.Collections.LowLevel.Unsafe.UnsafeBitArrayDebugView))]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -144,19 +168,29 @@ public:
   /// @brief Method AsReadOnly, addr 0x64c2f80, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly AsReadOnly();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckArgs, addr 0x64ce35c, size 0xdc, virtual false, abstract: false, final false
   inline void CheckArgs(int32_t pos, int32_t numBits);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckArgsCopy, addr 0x64ce6ac, size 0x148, virtual false, abstract: false, final false
   static inline void CheckArgsCopy(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray> dstBitArray, int32_t dstPos,
                                    ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray> srcBitArray, int32_t srcPos, int32_t numBits);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckArgsPosCount, addr 0x64ce438, size 0x154, virtual false, abstract: false, final false
   inline void CheckArgsPosCount(int32_t begin, int32_t count, int32_t numBits);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckArgsUlong, addr 0x64ce58c, size 0x120, virtual false, abstract: false, final false
   inline void CheckArgsUlong(int32_t pos, int32_t numBits);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckSizeMultipleOf8, addr 0x64ce2b8, size 0xa4, virtual false, abstract: false, final false
   static inline void CheckSizeMultipleOf8(int32_t sizeInBytes);
 
@@ -235,9 +269,11 @@ public:
   /// @brief Method .ctor, addr 0x64cd5f0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(void* ptr, int32_t sizeInBytes, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64c24bc, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x64ce04c, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
@@ -251,8 +287,9 @@ public:
   // @brief default ctor
   constexpr UnsafeBitArray();
 
-  // Ctor Parameters [CppParam { name: "Ptr", ty: "uint64_t*", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Ptr", ty: "uint64_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeBitArray(uint64_t* Ptr, int32_t Length, int32_t Capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -261,6 +298,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Ptr, offset: 0x0, size: 0x8, def value: None
   uint64_t* Ptr;
 

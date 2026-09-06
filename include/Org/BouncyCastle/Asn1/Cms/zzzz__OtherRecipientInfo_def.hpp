@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\OtherRecipientInfo.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/OtherRecipientInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oriType, ::Org::BouncyCastle::Asn1::Asn1Encodable* oriValue);
 
+  /// @brief [Obsolete("Use GetInstance() instead")]
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// @brief Method ToAsn1Object, addr 0x335e0a0, size 0xf0, virtual true, abstract: false, final false
@@ -75,6 +76,7 @@ public:
   /// @brief Method .ctor, addr 0x335df28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oriType, ::Org::BouncyCastle::Asn1::Asn1Encodable* oriValue);
 
+  /// [Obsolete("Use GetInstance() instead")]
   /// @brief Method .ctor, addr 0x335df30, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -90,13 +92,13 @@ protected:
   constexpr OtherRecipientInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OtherRecipientInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OtherRecipientInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OtherRecipientInfo(OtherRecipientInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OtherRecipientInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OtherRecipientInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OtherRecipientInfo(OtherRecipientInfo const&) = delete;
+  OtherRecipientInfo(OtherRecipientInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 85 };

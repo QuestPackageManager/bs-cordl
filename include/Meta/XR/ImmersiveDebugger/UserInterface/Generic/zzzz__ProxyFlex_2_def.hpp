@@ -1,8 +1,10 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ProxyFlex_2.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ProxyFlex_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Controller_def.hpp"
+#include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ProxyController_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -17,7 +19,9 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class LayoutStyle;
 }
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
-template <typename ControllerType> class ProxyController_1;
+template <typename ControllerType>
+  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>)
+class ProxyController_1;
 }
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class ScrollView;
@@ -30,15 +34,24 @@ template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
-template <typename ControllerType, typename ProxyControllerType> class ProxyFlex_2;
+template <typename ControllerType, typename ProxyControllerType>
+  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*> &&
+           ::cordl_internals::default_constructor_constraint<ControllerType> &&
+           ::cordl_internals::type_constraint<ProxyControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1<ControllerType>*> &&
+           ::cordl_internals::default_constructor_constraint<ProxyControllerType>)
+class ProxyFlex_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyFlex_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyFlex_2, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "ProxyFlex`2");
-// Dependencies System.Object
+// Dependencies Meta.XR.ImmersiveDebugger.UserInterface.Generic.Controller, Meta.XR.ImmersiveDebugger.UserInterface.Generic.ProxyController`1<ControllerType>, System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // cpp template
 template <typename ControllerType, typename ProxyControllerType>
+  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*> &&
+           ::cordl_internals::default_constructor_constraint<ControllerType> &&
+           ::cordl_internals::type_constraint<ProxyControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1<ControllerType>*> &&
+           ::cordl_internals::default_constructor_constraint<ProxyControllerType>)
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.ProxyFlex`2<ControllerType,ProxyControllerType>
 class CORDL_TYPE ProxyFlex_2 : public ::System::Object {
@@ -179,6 +192,7 @@ public:
   inline void _ctor(int32_t numberOfInstantiatedControllers, int32_t maximumNumberOfProxies, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle* layoutStyle,
                     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView* scrollView);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Dirty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_Dirty();
 
@@ -191,6 +205,7 @@ public:
   /// @brief Method get_NumberOfProxies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_NumberOfProxies();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Dirty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Dirty(bool value);
 
@@ -200,13 +215,13 @@ protected:
   constexpr ProxyFlex_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyFlex_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyFlex_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProxyFlex_2(ProxyFlex_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyFlex_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyFlex_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProxyFlex_2(ProxyFlex_2 const&) = delete;
+  ProxyFlex_2(ProxyFlex_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18414 };
@@ -223,6 +238,7 @@ public:
   /// @brief Field _proxyChildren, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<ProxyControllerType>* ____proxyChildren;
 
+  /// [CompilerGenerated]
   /// @brief Field <Dirty>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____Dirty_k__BackingField;
 

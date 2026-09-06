@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeContainerIsAtomicWriteOnlyAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeContainerIsAtomicWriteOnlyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeContainerIsAtomicWriteOnlyAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute._ctor

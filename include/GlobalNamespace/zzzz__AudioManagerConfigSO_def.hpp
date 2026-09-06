@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioManagerConfigSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioManagerConfigSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,23 +76,26 @@ protected:
   constexpr AudioManagerConfigSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioManagerConfigSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioManagerConfigSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioManagerConfigSO(AudioManagerConfigSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioManagerConfigSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioManagerConfigSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioManagerConfigSO(AudioManagerConfigSO const&) = delete;
+  AudioManagerConfigSO(AudioManagerConfigSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22628 };
 
+  /// [SerializeField]
   /// @brief Field _audioMixer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Audio::AudioMixer> ____audioMixer;
 
+  /// [SerializeField]
   /// @brief Field _spatializerPluginLatency, offset: 0x20, size: 0x4, def value: None
   float_t ____spatializerPluginLatency;
 
+  /// [SerializeField]
   /// @brief Field _spatializerSfxVolumeOffset, offset: 0x24, size: 0x4, def value: None
   float_t ____spatializerSfxVolumeOffset;
 

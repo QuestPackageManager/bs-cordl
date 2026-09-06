@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseField_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseField_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,6 +74,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseField_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseField_1_UxmlTraits);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseField_1, "UnityEngine.UIElements", "BaseField`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseField_1_UxmlTraits, "UnityEngine.UIElements", "BaseField`1/UxmlTraits");
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BindableElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // cpp template
@@ -106,13 +107,13 @@ protected:
   constexpr BaseField_1_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseField_1_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseField_1_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseField_1_UxmlTraits(BaseField_1_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseField_1_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseField_1_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseField_1_UxmlTraits(BaseField_1_UxmlTraits const&) = delete;
+  BaseField_1_UxmlTraits(BaseField_1_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4219 };
@@ -160,6 +161,7 @@ public:
   /// @brief Field alignedFieldUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_alignedFieldUssClassName, put = setStaticF_alignedFieldUssClassName)) ::StringW alignedFieldUssClassName;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_dispatchMode)) ::UnityEngine::UIElements::DispatchMode dispatchMode;
 
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
@@ -168,6 +170,7 @@ public:
   /// @brief Field inspectorFieldUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_inspectorFieldUssClassName, put = setStaticF_inspectorFieldUssClassName)) ::StringW inspectorFieldUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_label, put = set_label)) ::StringW label;
 
   /// @brief Field labelDraggerVariantUssClassName, offset 0xffffffff, size 0x8
@@ -242,6 +245,7 @@ public:
   /// @brief Field serializedPropertyCopyName, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_serializedPropertyCopyName, put = setStaticF_serializedPropertyCopyName)) ::UnityEngine::PropertyName serializedPropertyCopyName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_showMixedValue, put = set_showMixedValue)) bool showMixedValue;
 
   /// @brief Field showMixedValueProperty, offset 0xffffffff, size 0x98
@@ -250,11 +254,13 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_value, put = set_value)) TValueType value;
 
   /// @brief Field valueProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_valueProperty, put = setStaticF_valueProperty)) ::UnityEngine::UIElements::BindingId valueProperty;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_visualInput, put = set_visualInput)) ::UnityEngine::UIElements::VisualElement* visualInput;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IEditableElement"
@@ -275,9 +281,11 @@ public:
   /// @brief Method EqualsCurrentValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool EqualsCurrentValue(TValueType value);
 
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.TooltipEvent) })]
   /// @brief Method HandleEventBubbleUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   static inline ::UnityEngine::UIElements::BaseField_1<TValueType>* New_ctor(::StringW label);
 
   static inline ::UnityEngine::UIElements::BaseField_1<TValueType>* New_ctor(::StringW label, ::UnityEngine::UIElements::VisualElement* visualInput);
@@ -306,9 +314,11 @@ public:
   /// @brief Method StartEditing, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void StartEditing(::UnityEngine::UIElements::EventBase* e);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IEditableElement.get_editingEnded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Action* UnityEngine_UIElements_IEditableElement_get_editingEnded();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IEditableElement.get_editingStarted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Action* UnityEngine_UIElements_IEditableElement_get_editingStarted();
 
@@ -411,12 +421,14 @@ public:
 
   constexpr void __cordl_internal_set_onValidateValue(::System::Func_2<TValueType, TValueType>* value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::UnityEngine::UIElements::VisualElement* visualInput);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onValidateValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_onValidateValue(::System::Func_2<TValueType, TValueType>* value);
 
@@ -452,12 +464,14 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_valueProperty();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dispatchMode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DispatchMode get_dispatchMode();
 
   /// @brief Method get_label, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_label();
 
+  /// [CompilerGenerated]
   /// @brief Method get_labelElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Label* get_labelElement();
 
@@ -482,6 +496,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>"
   constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>* i___UnityEngine__UIElements__INotifyValueChanged_1_TValueType_() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onValidateValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_onValidateValue(::System::Func_2<TValueType, TValueType>* value);
 
@@ -520,6 +535,7 @@ public:
   /// @brief Method set_label, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_label(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_labelElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_labelElement(::UnityEngine::UIElements::Label* value);
 
@@ -541,13 +557,13 @@ protected:
   constexpr BaseField_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseField_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseField_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseField_1(BaseField_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseField_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseField_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseField_1(BaseField_1 const&) = delete;
+  BaseField_1(BaseField_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4220 };
@@ -564,15 +580,23 @@ public:
   /// @brief Field m_VisualInput, offset: 0x4c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_VisualInput;
 
+  /// [DontCreateProperty]
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x4d0, size: 0x8, def value: None
   TValueType ___m_Value;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field onValidateValue, offset: 0x4d8, size: 0x8, def value: None
   ::System::Func_2<TValueType, TValueType>* ___onValidateValue;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dispatchMode>k__BackingField, offset: 0x4e0, size: 0x4, def value: None
   ::UnityEngine::UIElements::DispatchMode ____dispatchMode_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <labelElement>k__BackingField, offset: 0x4e8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ____labelElement_k__BackingField;
 
@@ -591,9 +615,13 @@ public:
   /// @brief Field m_CachedInspectorElement, offset: 0x510, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_CachedInspectorElement;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <UnityEngine.UIElements.IEditableElement.editingStarted>k__BackingField, offset: 0x518, size: 0x8, def value: None
   ::System::Action* ____UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <UnityEngine.UIElements.IEditableElement.editingEnded>k__BackingField, offset: 0x520, size: 0x8, def value: None
   ::System::Action* ____UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField;
 

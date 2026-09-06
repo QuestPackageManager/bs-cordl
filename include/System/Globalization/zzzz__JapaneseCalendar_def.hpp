@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\JapaneseCalendar.hpp"
+// IWYU pragma private; include "System/Globalization/JapaneseCalendar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class JapaneseCalendar;
 // Write type traits
 MARK_REF_T(::System::Globalization::JapaneseCalendar*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::JapaneseCalendar*, "System.Globalization", "JapaneseCalendar");
+// [ComVisible(true)]
 // Dependencies System.DateTime, System.Globalization.Calendar, System.Globalization.EraInfo
 namespace System::Globalization {
 // Is value type: false
@@ -41,8 +42,10 @@ public:
   // Declarations
   __declspec(property(get = get_Eras)) ::ArrayW<int32_t> Eras;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MinSupportedDateTime)) ::System::DateTime MinSupportedDateTime;
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
@@ -159,13 +162,13 @@ protected:
   constexpr JapaneseCalendar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JapaneseCalendar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JapaneseCalendar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JapaneseCalendar(JapaneseCalendar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JapaneseCalendar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JapaneseCalendar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JapaneseCalendar(JapaneseCalendar const&) = delete;
+  JapaneseCalendar(JapaneseCalendarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3629 };

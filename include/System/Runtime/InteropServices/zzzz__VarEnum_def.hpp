@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\VarEnum.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/VarEnum.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VarEnum;
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::VarEnum);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::VarEnum, "System.Runtime.InteropServices", "VarEnum");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
@@ -84,7 +85,7 @@ public:
   // @brief default ctor
   constexpr VarEnum();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VarEnum(int32_t value__) noexcept;
 
   /// @brief Field VT_ARRAY value: I32(8192)

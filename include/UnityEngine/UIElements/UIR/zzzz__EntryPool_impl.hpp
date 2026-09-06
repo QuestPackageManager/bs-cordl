@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryPool.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryPool.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryPool_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Numeric10FacetsChecker.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Numeric10FacetsChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,13 +100,13 @@ protected:
   constexpr Numeric10FacetsChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Numeric10FacetsChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Numeric10FacetsChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Numeric10FacetsChecker(Numeric10FacetsChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Numeric10FacetsChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Numeric10FacetsChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Numeric10FacetsChecker(Numeric10FacetsChecker const&) = delete;
+  Numeric10FacetsChecker(Numeric10FacetsCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9681 };

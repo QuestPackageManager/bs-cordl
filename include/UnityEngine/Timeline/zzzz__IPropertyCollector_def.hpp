@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\IPropertyCollector.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/IPropertyCollector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(IPropertyCollector)
 namespace System::Collections::Generic {
@@ -27,55 +28,59 @@ class IPropertyCollector;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::IPropertyCollector*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::IPropertyCollector*, "UnityEngine.Timeline", "IPropertyCollector");
-// Dependencies
+// Dependencies UnityEngine.Component
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: UnityEngine.Timeline.IPropertyCollector
 class CORDL_TYPE IPropertyCollector {
 public:
   // Declarations
-  /// @brief Method AddFromClip, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddFromClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddFromClip(::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method AddFromClip, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddFromClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddFromClip(::UnityEngine::GameObject* obj, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method AddFromClips, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddFromClips, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddFromClips(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AnimationClip>>* clips);
 
-  /// @brief Method AddFromClips, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddFromClips, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddFromClips(::UnityEngine::GameObject* obj, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AnimationClip>>* clips);
 
-  /// @brief Method AddFromComponent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddFromComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddFromComponent(::UnityEngine::GameObject* obj, ::UnityEngine::Component* component);
 
-  /// @brief Method AddFromName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddFromName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddFromName(::UnityEngine::Component* component, ::StringW name);
 
-  /// @brief Method AddFromName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddFromName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddFromName(::StringW name);
 
-  /// @brief Method AddFromName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T> inline void AddFromName(::StringW name);
+  /// @brief Method AddFromName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  inline void AddFromName(::StringW name);
 
-  /// @brief Method AddFromName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddFromName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddFromName(::UnityEngine::GameObject* obj, ::StringW name);
 
-  /// @brief Method AddFromName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T> inline void AddFromName(::UnityEngine::GameObject* obj, ::StringW name);
+  /// @brief Method AddFromName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  inline void AddFromName(::UnityEngine::GameObject* obj, ::StringW name);
 
-  /// @brief Method AddObjectProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddObjectProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddObjectProperties(::UnityEngine::Object* obj, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method PopActiveGameObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PopActiveGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PopActiveGameObject();
 
-  /// @brief Method PushActiveGameObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PushActiveGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PushActiveGameObject(::UnityEngine::GameObject* gameObject);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPropertyCollector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPropertyCollector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPropertyCollector(IPropertyCollector const&) = delete;
+  IPropertyCollector(IPropertyCollectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19257 };

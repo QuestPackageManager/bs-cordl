@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\HandleDragAndDropArgs.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/HandleDragAndDropArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct HandleDragAndDropArgs;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::HandleDragAndDropArgs);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::HandleDragAndDropArgs, "UnityEngine.UIElements", "HandleDragAndDropArgs");
+// [IsReadOnly]
 // Dependencies UnityEngine.UIElements.DragAndDropArgs, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -34,8 +35,8 @@ public:
   // @brief default ctor
   constexpr HandleDragAndDropArgs();
 
-  // Ctor Parameters [CppParam { name: "m_DragAndDropArgs", ty: "::UnityEngine::UIElements::DragAndDropArgs", modifiers: "", def_value: None }, CppParam { name: "_position_k__BackingField", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_DragAndDropArgs", ty: "::UnityEngine::UIElements::DragAndDropArgs", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_position_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }]
   constexpr HandleDragAndDropArgs(::UnityEngine::UIElements::DragAndDropArgs m_DragAndDropArgs, ::UnityEngine::Vector2 _position_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -47,6 +48,8 @@ public:
   /// @brief Field m_DragAndDropArgs, offset: 0x0, size: 0x20, def value: None
   ::UnityEngine::UIElements::DragAndDropArgs m_DragAndDropArgs;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <position>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 _position_k__BackingField;
 

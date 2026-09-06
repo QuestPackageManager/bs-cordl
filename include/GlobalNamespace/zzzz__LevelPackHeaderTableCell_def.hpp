@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelPackHeaderTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelPackHeaderTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,29 +99,35 @@ protected:
   constexpr LevelPackHeaderTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelPackHeaderTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelPackHeaderTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelPackHeaderTableCell(LevelPackHeaderTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelPackHeaderTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelPackHeaderTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelPackHeaderTableCell(LevelPackHeaderTableCell const&) = delete;
+  LevelPackHeaderTableCell(LevelPackHeaderTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6328 };
 
+  /// [SerializeField]
   /// @brief Field _nameText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
+  /// [SerializeField]
   /// @brief Field _backgroundImage, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _highlightBackgroundColor, offset: 0x88, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightBackgroundColor;
 
+  /// [SerializeField]
   /// @brief Field _selectedBackgroundColor, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedBackgroundColor;
 
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedBackgroundColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedAndHighlightedBackgroundColor;
 

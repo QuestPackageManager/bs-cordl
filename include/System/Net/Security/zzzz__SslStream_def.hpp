@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Security\SslStream.hpp"
+// IWYU pragma private; include "System/Net/Security/SslStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,6 +75,7 @@ MARK_REF_T(::System::Net::Security::SslStream*);
 MARK_REF_T(::System::Net::Security::SslStream___c__DisplayClass21_0*);
 DEFINE_IL2CPP_CLASS(::System::Net::Security::SslStream*, "System.Net.Security", "SslStream");
 DEFINE_IL2CPP_CLASS(::System::Net::Security::SslStream___c__DisplayClass21_0*, "System.Net.Security", "SslStream/<>c__DisplayClass21_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Security {
 // Is value type: false
@@ -117,13 +118,13 @@ protected:
   constexpr SslStream___c__DisplayClass21_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SslStream___c__DisplayClass21_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SslStream___c__DisplayClass21_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SslStream___c__DisplayClass21_0(SslStream___c__DisplayClass21_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SslStream___c__DisplayClass21_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SslStream___c__DisplayClass21_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SslStream___c__DisplayClass21_0(SslStream___c__DisplayClass21_0 const&) = delete;
+  SslStream___c__DisplayClass21_0(SslStream___c__DisplayClass21_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11808 };
@@ -373,13 +374,13 @@ protected:
   constexpr SslStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SslStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SslStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SslStream(SslStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SslStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SslStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SslStream(SslStream const&) = delete;
+  SslStream(SslStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11809 };

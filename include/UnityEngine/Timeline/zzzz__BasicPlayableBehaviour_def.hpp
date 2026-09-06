@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\BasicPlayableBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/BasicPlayableBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ class BasicPlayableBehaviour;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::BasicPlayableBehaviour*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::BasicPlayableBehaviour*, "UnityEngine.Timeline", "BasicPlayableBehaviour");
+// [Obsolete("For best performance use PlayableAsset and PlayableBehaviour.")]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -107,13 +108,13 @@ protected:
   constexpr BasicPlayableBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicPlayableBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicPlayableBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicPlayableBehaviour(BasicPlayableBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicPlayableBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicPlayableBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicPlayableBehaviour(BasicPlayableBehaviour const&) = delete;
+  BasicPlayableBehaviour(BasicPlayableBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19226 };

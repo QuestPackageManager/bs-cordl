@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ColorGradingMode_impl.hpp"

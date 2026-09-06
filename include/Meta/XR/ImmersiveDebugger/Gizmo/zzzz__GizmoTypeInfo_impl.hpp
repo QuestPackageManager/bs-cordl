@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\GizmoTypeInfo.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/GizmoTypeInfo.hpp"
 #include "Meta/XR/ImmersiveDebugger/Gizmo/zzzz__GizmoTypeInfo_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -23,7 +23,7 @@ inline void Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypeInfo::_ctor(::System::A
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypeInfo>(), { ".ctor", {}, { ::i2c::type_of<::System::Action_1<::System::Object*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, renderDelegate);
 }
-// Ctor Parameters [CppParam { name: "RenderDelegate", ty: "::System::Action_1<::System::Object*>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "RenderDelegate", ty: "::System::Action_1<::System::Object*>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypeInfo::GizmoTypeInfo(::System::Action_1<::System::Object*>* RenderDelegate) noexcept {
   this->RenderDelegate = RenderDelegate;
 }

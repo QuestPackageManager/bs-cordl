@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\ArrayPool.hpp"
+// IWYU pragma private; include "ENet/ArrayPool.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ENet/zzzz__ArrayPool_def.hpp"

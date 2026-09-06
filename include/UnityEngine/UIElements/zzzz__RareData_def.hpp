@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RareData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RareData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,12 +69,13 @@ public:
   // @brief default ctor
   constexpr RareData();
 
-  // Ctor Parameters [CppParam { name: "cursor", ty: "::UnityEngine::UIElements::Cursor", modifiers: "", def_value: None }, CppParam { name: "textOverflow", ty:
-  // "::UnityEngine::UIElements::TextOverflow", modifiers: "", def_value: None }, CppParam { name: "unityBackgroundImageTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None },
-  // CppParam { name: "unityOverflowClipBox", ty: "::UnityEngine::UIElements::OverflowClipBox", modifiers: "", def_value: None }, CppParam { name: "unitySliceBottom", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "unitySliceLeft", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unitySliceRight", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "unitySliceScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "unitySliceTop", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "unityTextOverflowPosition", ty: "::UnityEngine::UIElements::TextOverflowPosition", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cursor", ty: "::UnityEngine::UIElements::Cursor", modifiers: "", def_value: None, comment: None }, CppParam { name: "textOverflow", ty:
+  // "::UnityEngine::UIElements::TextOverflow", modifiers: "", def_value: None, comment: None }, CppParam { name: "unityBackgroundImageTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "unityOverflowClipBox", ty: "::UnityEngine::UIElements::OverflowClipBox", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "unitySliceBottom", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unitySliceLeft", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "unitySliceRight", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unitySliceScale", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "unitySliceTop", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unityTextOverflowPosition", ty:
+  // "::UnityEngine::UIElements::TextOverflowPosition", modifiers: "", def_value: None, comment: None }]
   constexpr RareData(::UnityEngine::UIElements::Cursor cursor, ::UnityEngine::UIElements::TextOverflow textOverflow, ::UnityEngine::Color unityBackgroundImageTintColor,
                      ::UnityEngine::UIElements::OverflowClipBox unityOverflowClipBox, int32_t unitySliceBottom, int32_t unitySliceLeft, int32_t unitySliceRight, float_t unitySliceScale,
                      int32_t unitySliceTop, ::UnityEngine::UIElements::TextOverflowPosition unityTextOverflowPosition) noexcept;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberPlayerIdentityPacketData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberPlayerIdentityPacketData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,8 +55,8 @@ public:
   // @brief default ctor
   constexpr BeatSaberPlayerIdentityPacketData();
 
-  // Ctor Parameters [CppParam { name: "playerAvatar", ty: "::GlobalNamespace::MultiplayerAvatarsData", modifiers: "", def_value: None }, CppParam { name: "activeHand", ty:
-  // "::GlobalNamespace::MultiplayerActiveHand", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "playerAvatar", ty: "::GlobalNamespace::MultiplayerAvatarsData", modifiers: "", def_value: None, comment: None }, CppParam { name: "activeHand", ty:
+  // "::GlobalNamespace::MultiplayerActiveHand", modifiers: "", def_value: None, comment: None }]
   constexpr BeatSaberPlayerIdentityPacketData(::GlobalNamespace::MultiplayerAvatarsData playerAvatar, ::GlobalNamespace::MultiplayerActiveHand activeHand) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

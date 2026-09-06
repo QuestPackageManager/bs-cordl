@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\CustomAttributeData.hpp"
+// IWYU pragma private; include "System/Reflection/CustomAttributeData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,13 +105,13 @@ protected:
   constexpr CustomAttributeData_LazyCAttrData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeData_LazyCAttrData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeData_LazyCAttrData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomAttributeData_LazyCAttrData(CustomAttributeData_LazyCAttrData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeData_LazyCAttrData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeData_LazyCAttrData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomAttributeData_LazyCAttrData(CustomAttributeData_LazyCAttrData const&) = delete;
+  CustomAttributeData_LazyCAttrData(CustomAttributeData_LazyCAttrDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3539 };
@@ -137,6 +137,7 @@ static_assert(offsetof(::System::Reflection::CustomAttributeData_LazyCAttrData, 
 static_assert(sizeof(::System::Reflection::CustomAttributeData_LazyCAttrData) == 0x28, "Size mismatch!");
 
 } // namespace System::Reflection
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Reflection {
 // Is value type: false
@@ -148,8 +149,10 @@ public:
 
   __declspec(property(get = get_AttributeType)) ::System::Type* AttributeType;
 
+  /// @brief [ComVisible(true)]
   __declspec(property(get = get_Constructor)) ::System::Reflection::ConstructorInfo* Constructor;
 
+  /// @brief [ComVisible(true)]
   __declspec(property(get = get_ConstructorArguments)) ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ConstructorArguments;
 
   __declspec(property(get = get_NamedArguments)) ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* NamedArguments;
@@ -267,13 +270,13 @@ protected:
   constexpr CustomAttributeData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomAttributeData(CustomAttributeData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomAttributeData(CustomAttributeData const&) = delete;
+  CustomAttributeData(CustomAttributeDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3540 };

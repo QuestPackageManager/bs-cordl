@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspMvcActionAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcActionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AspMvcActionAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::AspMvcActionAttribute._ctor
@@ -68,7 +68,7 @@ inline void JetBrains::Annotations::AspMvcActionAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcActionAttribute*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void JetBrains::Annotations::AspMvcActionAttribute::_ctor(::StringW anonymousProperty) {
+inline void JetBrains::Annotations::AspMvcActionAttribute::_ctor(/* [NotNull] */ ::StringW anonymousProperty) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcActionAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, anonymousProperty);
@@ -85,7 +85,7 @@ inline void JetBrains::Annotations::AspMvcActionAttribute::set_AnonymousProperty
 inline ::JetBrains::Annotations::AspMvcActionAttribute* JetBrains::Annotations::AspMvcActionAttribute::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::AspMvcActionAttribute*>());
 }
-inline ::JetBrains::Annotations::AspMvcActionAttribute* JetBrains::Annotations::AspMvcActionAttribute::New_ctor(::StringW anonymousProperty) {
+inline ::JetBrains::Annotations::AspMvcActionAttribute* JetBrains::Annotations::AspMvcActionAttribute::New_ctor(/* [NotNull] */ ::StringW anonymousProperty) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::AspMvcActionAttribute*>(anonymousProperty));
 }
 // Ctor Parameters []

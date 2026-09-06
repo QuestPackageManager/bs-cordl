@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TimeHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/TimeHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -150,18 +150,22 @@ public:
 
   static inline int32_t getStaticF_kTimeID();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DeltaTime, addr 0x3326b00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_DeltaTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_FixedDeltaTime, addr 0x3326b10, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FixedDeltaTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_InterpolationFactor, addr 0x3326b20, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InterpolationFactor();
 
   /// @brief Method get_Time, addr 0x3326af0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Time();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TimeHelperOffset, addr 0x3326b30, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_TimeHelperOffset();
 
@@ -169,18 +173,22 @@ public:
 
   static inline void setStaticF_kTimeID(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DeltaTime, addr 0x3326b08, size 0x8, virtual false, abstract: false, final false
   inline void set_DeltaTime(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_FixedDeltaTime, addr 0x3326b18, size 0x8, virtual false, abstract: false, final false
   inline void set_FixedDeltaTime(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_InterpolationFactor, addr 0x3326b28, size 0x8, virtual false, abstract: false, final false
   inline void set_InterpolationFactor(float_t value);
 
   /// @brief Method set_Time, addr 0x3326af8, size 0x8, virtual false, abstract: false, final false
   inline void set_Time(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TimeHelperOffset, addr 0x3326b3c, size 0xc, virtual false, abstract: false, final false
   inline void set_TimeHelperOffset(::UnityEngine::Vector4 value);
 
@@ -190,26 +198,30 @@ protected:
   constexpr TimeHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeHelper(TimeHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeHelper(TimeHelper const&) = delete;
+  TimeHelper(TimeHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20756 };
 
+  /// [CompilerGenerated]
   /// @brief Field <DeltaTime>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____DeltaTime_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FixedDeltaTime>k__BackingField, offset: 0x24, size: 0x4, def value: None
   float_t ____FixedDeltaTime_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <InterpolationFactor>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____InterpolationFactor_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TimeHelperOffset>k__BackingField, offset: 0x2c, size: 0x10, def value: None
   ::UnityEngine::Vector4 ____TimeHelperOffset_k__BackingField;
 

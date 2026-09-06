@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableBinding.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::UnityEngine::Playables::PlayableBinding_CreateOutputMethod*);
 MARK_VAL_T(::UnityEngine::Playables::PlayableBinding);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::PlayableBinding_CreateOutputMethod*, "UnityEngine.Playables", "PlayableBinding/CreateOutputMethod");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::PlayableBinding, "UnityEngine.Playables", "PlayableBinding");
+// [VisibleToOtherModules]
 // Dependencies System.MulticastDelegate
 namespace UnityEngine::Playables {
 // Is value type: false
@@ -63,13 +64,13 @@ protected:
   constexpr PlayableBinding_CreateOutputMethod();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableBinding_CreateOutputMethod", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableBinding_CreateOutputMethod", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayableBinding_CreateOutputMethod(PlayableBinding_CreateOutputMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayableBinding_CreateOutputMethod", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayableBinding_CreateOutputMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayableBinding_CreateOutputMethod(PlayableBinding_CreateOutputMethod const&) = delete;
+  PlayableBinding_CreateOutputMethod(PlayableBinding_CreateOutputMethodconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10675 };
@@ -99,6 +100,7 @@ public:
 
   __declspec(property(get = get_streamName)) ::StringW streamName;
 
+  /// [VisibleToOtherModules]
   /// @brief Method CreateInternal, addr 0x6b047b4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding CreateInternal(::StringW name, ::UnityEngine::Object* sourceObject, ::System::Type* sourceType,
                                                                          ::UnityEngine::Playables::PlayableBinding_CreateOutputMethod* createFunction);
@@ -124,9 +126,9 @@ public:
   // @brief default ctor
   constexpr PlayableBinding();
 
-  // Ctor Parameters [CppParam { name: "m_StreamName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_SourceObject", ty: "::UnityW<::UnityEngine::Object>", modifiers: "",
-  // def_value: None }, CppParam { name: "m_SourceBindingType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "m_CreateOutputMethod", ty:
-  // "::UnityEngine::Playables::PlayableBinding_CreateOutputMethod*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_StreamName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SourceObject", ty: "::UnityW<::UnityEngine::Object>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SourceBindingType", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_CreateOutputMethod", ty: "::UnityEngine::Playables::PlayableBinding_CreateOutputMethod*", modifiers: "", def_value: None, comment: None }]
   constexpr PlayableBinding(::StringW m_StreamName, ::UnityW<::UnityEngine::Object> m_SourceObject, ::System::Type* m_SourceBindingType,
                             ::UnityEngine::Playables::PlayableBinding_CreateOutputMethod* m_CreateOutputMethod) noexcept;
 

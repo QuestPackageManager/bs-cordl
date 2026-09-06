@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DelegateList_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/DelegateList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,13 +105,13 @@ protected:
   constexpr DelegateList_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateList_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateList_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelegateList_1(DelegateList_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateList_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelegateList_1(DelegateList_1 const&) = delete;
+  DelegateList_1(DelegateList_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18700 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\Utility\AssetReferenceUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Utility/AssetReferenceUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__AssetReferenceUtilities_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities.FormatName

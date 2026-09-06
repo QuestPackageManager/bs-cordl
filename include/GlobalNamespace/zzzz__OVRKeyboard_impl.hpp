@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRKeyboard.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRKeyboard.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -7,10 +7,10 @@
 #include "GlobalNamespace/zzzz__OVRKeyboard_def.hpp"
 #include "GlobalNamespace/zzzz__OVRKeyboard_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-// Ctor Parameters [CppParam { name: "isPositionValid", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPositionTracked", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "isOrientationValid", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isOrientationTracked", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "timeInSeconds", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "isPositionValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isPositionTracked", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "isOrientationValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isOrientationTracked", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotation",
+// ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "timeInSeconds", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState::OVRKeyboard_TrackedKeyboardState(bool isPositionValid, bool isPositionTracked, bool isOrientationValid, bool isOrientationTracked,
                                                                                                 ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, double_t timeInSeconds) noexcept {
   this->isPositionValid = isPositionValid;
@@ -23,9 +23,10 @@ constexpr ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState::OVRKeyboard_Track
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState::OVRKeyboard_TrackedKeyboardState() {}
-// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Identifier", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Dimensions", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "KeyboardFlags", ty: "::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "SupportedPresentationStyles", ty: "::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Identifier", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Dimensions", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "KeyboardFlags", ty:
+// "::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SupportedPresentationStyles", ty:
+// "::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo::OVRKeyboard_TrackedKeyboardInfo(::StringW Name, uint64_t Identifier, ::UnityEngine::Vector3 Dimensions,
                                                                                               ::GlobalNamespace::OVRPlugin_TrackedKeyboardFlags KeyboardFlags,
                                                                                               ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles SupportedPresentationStyles) noexcept {

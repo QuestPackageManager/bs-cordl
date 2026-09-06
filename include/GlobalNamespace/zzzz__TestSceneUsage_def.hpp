@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TestSceneUsage.hpp"
+// IWYU pragma private; include "GlobalNamespace/TestSceneUsage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class TestSceneUsage;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TestSceneUsage*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TestSceneUsage*, "", "TestSceneUsage");
+// [RequireComponent(typeof(OVREyeGaze))]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Pose, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -60,9 +61,11 @@ public:
   /// @brief Method Start, addr 0x5a3f3cc, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
   /// @brief Method TogglePassthrough, addr 0x5a3f66c, size 0x4, virtual false, abstract: false, final false
   inline void TogglePassthrough();
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
   /// @brief Method TogglePassthroughStatic, addr 0x5a3f670, size 0xa8, virtual false, abstract: false, final false
   static inline void TogglePassthroughStatic();
 
@@ -126,13 +129,13 @@ protected:
   constexpr TestSceneUsage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TestSceneUsage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestSceneUsage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TestSceneUsage(TestSceneUsage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TestSceneUsage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestSceneUsage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TestSceneUsage(TestSceneUsage const&) = delete;
+  TestSceneUsage(TestSceneUsageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18321 };
@@ -140,21 +143,27 @@ public:
   /// @brief Field _eyeGazeComponent, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVREyeGaze> ____eyeGazeComponent;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1, GizmoType = (Meta.XR.ImmersiveDebugger.DebugGizmoType)1)]
   /// @brief Field _eyeGazePose, offset: 0x28, size: 0x1c, def value: None
   ::UnityEngine::Pose ____eyeGazePose;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1, GizmoType = (Meta.XR.ImmersiveDebugger.DebugGizmoType)2)]
   /// @brief Field _eyeGazePosition, offset: 0x44, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____eyeGazePosition;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1, GizmoType = (Meta.XR.ImmersiveDebugger.DebugGizmoType)3)]
   /// @brief Field _eyeGazeDirection, offset: 0x50, size: 0x8, def value: None
   ::System::Tuple_2<::UnityEngine::Vector3, ::UnityEngine::Vector3>* ____eyeGazeDirection;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
   /// @brief Field _confidence, offset: 0x58, size: 0x4, def value: None
   float_t ____confidence;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1, Tweakable = true, Min = 0.1, Max = 1)]
   /// @brief Field drawingLineWidth, offset: 0x5c, size: 0x4, def value: None
   float_t ___drawingLineWidth;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1, Tweakable = true)]
   /// @brief Field passthroughEnabled, offset: 0x60, size: 0x1, def value: None
   bool ___passthroughEnabled;
 

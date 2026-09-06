@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Vector2Parameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Vector2Parameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class Vector2Parameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Vector2Parameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Vector2Parameter*, "UnityEngine.Rendering", "Vector2Parameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.VolumeParameter`1<T>, UnityEngine.Vector2
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -38,13 +39,13 @@ protected:
   constexpr Vector2Parameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Parameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector2Parameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector2Parameter(Vector2Parameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Parameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector2Parameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2Parameter(Vector2Parameter const&) = delete;
+  Vector2Parameter(Vector2Parameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12357 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DropdownField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DropdownField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_REF_T(::UnityEngine::UIElements::DropdownField_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownField*, "UnityEngine.UIElements", "DropdownField");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownField_UxmlFactory*, "UnityEngine.UIElements", "DropdownField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownField_UxmlTraits*, "UnityEngine.UIElements", "DropdownField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -64,13 +65,13 @@ protected:
   constexpr DropdownField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownField_UxmlFactory(DropdownField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownField_UxmlFactory(DropdownField_UxmlFactory const&) = delete;
+  DropdownField_UxmlFactory(DropdownField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4181 };
@@ -81,6 +82,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::DropdownField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -120,13 +122,13 @@ protected:
   constexpr DropdownField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownField_UxmlTraits(DropdownField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownField_UxmlTraits(DropdownField_UxmlTraits const&) = delete;
+  DropdownField_UxmlTraits(DropdownField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4182 };
@@ -174,13 +176,13 @@ protected:
   constexpr DropdownField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownField(DropdownField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownField(DropdownField const&) = delete;
+  DropdownField(DropdownFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };

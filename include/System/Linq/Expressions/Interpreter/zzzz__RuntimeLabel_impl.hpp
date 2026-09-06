@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\RuntimeLabel.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/RuntimeLabel.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__RuntimeLabel_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::RuntimeLabel._ctor
 template <>
@@ -38,8 +38,8 @@ inline ::StringW System::Linq::Expressions::Interpreter::RuntimeLabel::ToString(
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Linq::Expressions::Interpreter::RuntimeLabel>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "StackDepth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "ContinuationStackDepth", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "StackDepth", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "ContinuationStackDepth", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Linq::Expressions::Interpreter::RuntimeLabel::RuntimeLabel(int32_t Index, int32_t StackDepth, int32_t ContinuationStackDepth) noexcept {
   this->Index = Index;
   this->StackDepth = StackDepth;

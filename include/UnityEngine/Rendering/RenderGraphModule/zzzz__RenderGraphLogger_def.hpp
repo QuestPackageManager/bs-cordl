@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphLogger.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphLogger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   inline void Initialize(::StringW logName);
 
   /// @brief Method LogLine, addr 0x67e06a8, size 0x90, virtual false, abstract: false, final false
-  inline void LogLine(::StringW format, ::ArrayW<::System::Object*> args);
+  inline void LogLine(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* New_ctor();
 
@@ -87,13 +87,13 @@ protected:
   constexpr RenderGraphLogger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphLogger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphLogger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphLogger(RenderGraphLogger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphLogger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphLogger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphLogger(RenderGraphLogger const&) = delete;
+  RenderGraphLogger(RenderGraphLoggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12422 };

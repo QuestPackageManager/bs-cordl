@@ -1,13 +1,16 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JEnumerable_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JEnumerable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JEnumerable_1)
 namespace Newtonsoft::Json::Linq {
-template <typename T> class IJEnumerable_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
+class IJEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
@@ -32,15 +35,22 @@ class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
-template <typename T> struct JEnumerable_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
+struct JEnumerable_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Newtonsoft::Json::Linq::JEnumerable_1);
 DEFINE_IL2CPP_GEN_CLASS(::Newtonsoft::Json::Linq::JEnumerable_1, "Newtonsoft.Json.Linq", "JEnumerable`1");
-// Dependencies
+// [NullableContext(1)]
+// [Nullable(0)]
+// [IsReadOnly]
+// [DefaultMember("Item")]
+// Dependencies Newtonsoft.Json.Linq.JToken
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Newtonsoft::Json::Linq::JToken*>)
 // Is value type: true
 // CS Name: Newtonsoft.Json.Linq.JEnumerable`1<T>
 struct CORDL_TYPE JEnumerable_1 {
@@ -63,11 +73,12 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Newtonsoft::Json::Linq::JEnumerable_1<T>>"
   constexpr operator ::System::IEquatable_1<::Newtonsoft::Json::Linq::JEnumerable_1<T>>*();
 
+  /// [NullableContext(2)]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool Equals(::Newtonsoft::Json::Linq::JEnumerable_1<T> other);
+  inline bool Equals(/* [Nullable(new[] { 0, 1 })] */ ::Newtonsoft::Json::Linq::JEnumerable_1<T> other);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
@@ -104,7 +115,7 @@ public:
   // @brief default ctor
   constexpr JEnumerable_1();
 
-  // Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr JEnumerable_1(::System::Collections::Generic::IEnumerable_1<T>* _enumerable) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

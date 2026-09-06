@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\TextPageScrollView.hpp"
+// IWYU pragma private; include "HMUI/TextPageScrollView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,17 +52,18 @@ protected:
   constexpr TextPageScrollView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextPageScrollView(TextPageScrollView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextPageScrollView(TextPageScrollView const&) = delete;
+  TextPageScrollView(TextPageScrollViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19136 };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 

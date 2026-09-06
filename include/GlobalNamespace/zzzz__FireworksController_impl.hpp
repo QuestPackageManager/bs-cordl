@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FireworksController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FireworksController.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLight_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -161,6 +161,7 @@ inline ::System::Object* GlobalNamespace::FireworksController__SpawningCoroutine
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworksController__SpawningCoroutine_d__10*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::FireworksController__SpawningCoroutine_d__10* GlobalNamespace::FireworksController__SpawningCoroutine_d__10::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::FireworksController__SpawningCoroutine_d__10*>(__1__state));
 }

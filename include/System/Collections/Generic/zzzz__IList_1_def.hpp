@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\IList_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/IList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ template <typename T> class IList_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::Generic::IList_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::IList_1, "System.Collections.Generic", "IList`1");
+// [DefaultMember("Item")]
 // Dependencies
 namespace System::Collections::Generic {
 // cpp template
@@ -41,16 +42,16 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method IndexOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t IndexOf(T item);
 
-  /// @brief Method Insert, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Insert(int32_t index, T item);
 
-  /// @brief Method RemoveAt, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method get_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
@@ -62,12 +63,12 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Item(int32_t index, T value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IList_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IList_1(IList_1 const&) = delete;
+  IList_1(IList_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3774 };

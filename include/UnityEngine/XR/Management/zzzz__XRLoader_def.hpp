@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRLoader.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(XRLoader)
 namespace System::Collections::Generic {
@@ -18,7 +19,7 @@ class XRLoader;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::Management::XRLoader*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::Management::XRLoader*, "UnityEngine.XR.Management", "XRLoader");
-// Dependencies UnityEngine.ScriptableObject
+// Dependencies UnityEngine.ISubsystem, UnityEngine.ScriptableObject
 namespace UnityEngine::XR::Management {
 // Is value type: false
 // CS Name: UnityEngine.XR.Management.XRLoader
@@ -28,8 +29,10 @@ public:
   /// @brief Method Deinitialize, addr 0x69ea838, size 0x8, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
-  /// @brief Method GetLoadedSubsystem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T> inline T GetLoadedSubsystem();
+  /// @brief Method GetLoadedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline T GetLoadedSubsystem();
 
   /// @brief Method GetSupportedGraphicsDeviceTypes, addr 0x69ea840, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::GraphicsDeviceType>* GetSupportedGraphicsDeviceTypes(bool buildingPlayer);
@@ -54,13 +57,13 @@ protected:
   constexpr XRLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRLoader(XRLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRLoader(XRLoader const&) = delete;
+  XRLoader(XRLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23041 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Changelog.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Changelog.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,13 +57,13 @@ protected:
   constexpr Changelog();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Changelog", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Changelog", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Changelog(Changelog&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Changelog", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Changelog", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Changelog(Changelog const&) = delete;
+  Changelog(Changelogconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16719 };
@@ -77,6 +77,7 @@ public:
   /// @brief Field k_VersionInfoPattern offset 0xffffffff size 0x8
   static constexpr ::ConstString k_VersionInfoPattern{ u"(?<=##\\s\\[).*(?=\\])" };
 
+  /// [SerializeField]
   /// @brief Field m_Entries, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* ___m_Entries;
 

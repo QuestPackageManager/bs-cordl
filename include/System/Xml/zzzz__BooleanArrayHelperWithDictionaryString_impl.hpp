@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\BooleanArrayHelperWithDictionaryString.hpp"
+// IWYU pragma private; include "System/Xml/BooleanArrayHelperWithDictionaryString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/Xml/zzzz__BooleanArrayHelperWithDictionaryString_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReader_def.hpp"

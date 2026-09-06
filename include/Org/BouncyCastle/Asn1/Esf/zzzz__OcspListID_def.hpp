@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\OcspListID.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/OcspListID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   /// @brief Method GetOcspResponses, addr 0x3374d58, size 0x124, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> GetOcspResponses();
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses);
+  static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::System::Collections::IEnumerable* ocspResponses);
 
@@ -60,7 +60,7 @@ public:
   constexpr void __cordl_internal_set_ocspResponses(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method .ctor, addr 0x3374b1c, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses);
 
   /// @brief Method .ctor, addr 0x3374bd0, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* ocspResponses);
@@ -74,13 +74,13 @@ protected:
   constexpr OcspListID();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcspListID", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcspListID", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcspListID(OcspListID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcspListID", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcspListID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcspListID(OcspListID const&) = delete;
+  OcspListID(OcspListIDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 146 };

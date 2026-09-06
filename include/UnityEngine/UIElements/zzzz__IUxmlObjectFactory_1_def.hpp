@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IUxmlObjectFactory_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IUxmlObjectFactory_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,15 +18,19 @@ class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class IUxmlObjectFactory_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class IUxmlObjectFactory_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::IUxmlObjectFactory_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::IUxmlObjectFactory_1, "UnityEngine.UIElements", "IUxmlObjectFactory`1");
+// [Obsolete("IUxmlObjectFactory<out T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IUxmlObjectFactory`1<T>
 class CORDL_TYPE IUxmlObjectFactory_1 {
@@ -38,7 +42,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IBaseUxmlObjectFactory"
   constexpr operator ::UnityEngine::UIElements::IBaseUxmlObjectFactory*() noexcept;
 
-  /// @brief Method CreateObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T CreateObject(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   /// @brief Convert to "::UnityEngine::UIElements::IBaseUxmlFactory"
@@ -47,9 +51,9 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IBaseUxmlObjectFactory"
   constexpr ::UnityEngine::UIElements::IBaseUxmlObjectFactory* i___UnityEngine__UIElements__IBaseUxmlObjectFactory() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IUxmlObjectFactory_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IUxmlObjectFactory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IUxmlObjectFactory_1(IUxmlObjectFactory_1 const&) = delete;
+  IUxmlObjectFactory_1(IUxmlObjectFactory_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5182 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteSpawnData.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteSpawnData.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteSpawnData_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -28,9 +28,9 @@ inline void GlobalNamespace::NoteSpawnData::_ctor(::UnityEngine::Vector3 moveSta
                        { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, moveStartOffset, moveEndOffset, jumpEndOffset, gravityBase);
 }
-// Ctor Parameters [CppParam { name: "moveStartOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "moveEndOffset", ty: "::UnityEngine::Vector3", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "jumpEndOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "gravityBase", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "moveStartOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "moveEndOffset", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "jumpEndOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "gravityBase", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::NoteSpawnData::NoteSpawnData(::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset, ::UnityEngine::Vector3 jumpEndOffset,
                                                           float_t gravityBase) noexcept {
   this->moveStartOffset = moveStartOffset;

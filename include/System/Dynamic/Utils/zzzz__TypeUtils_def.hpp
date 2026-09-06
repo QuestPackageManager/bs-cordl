@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\Utils\TypeUtils.hpp"
+// IWYU pragma private; include "System/Dynamic/Utils/TypeUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::System::Dynamic::Utils::TypeUtils*);
 MARK_REF_T(::System::Dynamic::Utils::TypeUtils___c*);
 DEFINE_IL2CPP_CLASS(::System::Dynamic::Utils::TypeUtils*, "System.Dynamic.Utils", "TypeUtils");
 DEFINE_IL2CPP_CLASS(::System::Dynamic::Utils::TypeUtils___c*, "System.Dynamic.Utils", "TypeUtils/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Dynamic::Utils {
 // Is value type: false
@@ -64,13 +65,13 @@ protected:
   constexpr TypeUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeUtils___c(TypeUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtils___c(TypeUtils___c const&) = delete;
+  TypeUtils___c(TypeUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16682 };
@@ -81,6 +82,7 @@ public:
 static_assert(sizeof(::System::Dynamic::Utils::TypeUtils___c) == 0x10, "Size mismatch!");
 
 } // namespace System::Dynamic::Utils
+// [Extension]
 // Dependencies System.Object, System.Type
 namespace System::Dynamic::Utils {
 // Is value type: false
@@ -108,15 +110,19 @@ public:
   /// @brief Method GetBooleanOperator, addr 0x5fcd310, size 0x158, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetBooleanOperator(::System::Type* type, ::StringW name);
 
+  /// [Extension]
   /// @brief Method GetInvokeMethod, addr 0x5fcd600, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetInvokeMethod(::System::Type* delegateType);
 
+  /// [Extension]
   /// @brief Method GetNonNullableType, addr 0x5fca834, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Type* GetNonNullableType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method GetNonRefType, addr 0x5fcd468, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Type* GetNonRefType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method GetNullableType, addr 0x5fca97c, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Type* GetNullableType(::System::Type* type);
 
@@ -129,27 +135,32 @@ public:
   /// @brief Method HasBuiltInEqualityOperator, addr 0x5fcc4a8, size 0x200, virtual false, abstract: false, final false
   static inline bool HasBuiltInEqualityOperator(::System::Type* left, ::System::Type* right);
 
+  /// [Extension]
   /// @brief Method HasIdentityPrimitiveOrNullableConversionTo, addr 0x5fcb438, size 0x1f4, virtual false, abstract: false, final false
   static inline bool HasIdentityPrimitiveOrNullableConversionTo(::System::Type* source, ::System::Type* dest);
 
   /// @brief Method HasInterfaceToArrayConversion, addr 0x5fcc0b8, size 0x1c8, virtual false, abstract: false, final false
   static inline bool HasInterfaceToArrayConversion(::System::Type* source, ::System::Type* dest);
 
+  /// [Extension]
   /// @brief Method HasReferenceConversionTo, addr 0x5fcb6ec, size 0x1c4, virtual false, abstract: false, final false
   static inline bool HasReferenceConversionTo(::System::Type* source, ::System::Type* dest);
 
   /// @brief Method HasReferenceEquality, addr 0x5fcc3a8, size 0x100, virtual false, abstract: false, final false
   static inline bool HasReferenceEquality(::System::Type* left, ::System::Type* right);
 
+  /// [Extension]
   /// @brief Method IsArithmetic, addr 0x5fcad68, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsArithmetic(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsBool, addr 0x5fcab4c, size 0x94, virtual false, abstract: false, final false
   static inline bool IsBool(::System::Type* type);
 
   /// @brief Method IsContravariant, addr 0x5fcc2d0, size 0x28, virtual false, abstract: false, final false
   static inline bool IsContravariant(::System::Type* t);
 
+  /// [Extension]
   /// @brief Method IsConvertible, addr 0x5fcb62c, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsConvertible(::System::Type* type);
 
@@ -171,12 +182,15 @@ public:
   /// @brief Method IsImplicitReferenceConversion, addr 0x5fcc280, size 0x28, virtual false, abstract: false, final false
   static inline bool IsImplicitReferenceConversion(::System::Type* source, ::System::Type* destination);
 
+  /// [Extension]
   /// @brief Method IsImplicitlyConvertibleTo, addr 0x5fcc6a8, size 0x110, virtual false, abstract: false, final false
   static inline bool IsImplicitlyConvertibleTo(::System::Type* source, ::System::Type* destination);
 
+  /// [Extension]
   /// @brief Method IsInteger, addr 0x5fcaca4, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsInteger(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsIntegerOrBool, addr 0x5fcaef4, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsIntegerOrBool(::System::Type* type);
 
@@ -186,27 +200,33 @@ public:
   /// @brief Method IsLegalExplicitVariantDelegateConversion, addr 0x5fcb8b0, size 0x2f0, virtual false, abstract: false, final false
   static inline bool IsLegalExplicitVariantDelegateConversion(::System::Type* source, ::System::Type* dest);
 
+  /// [Extension]
   /// @brief Method IsNullableOrReferenceType, addr 0x5fcaac4, size 0x88, virtual false, abstract: false, final false
   static inline bool IsNullableOrReferenceType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsNullableType, addr 0x5fca8c8, size 0xb4, virtual false, abstract: false, final false
   static inline bool IsNullableType(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsNumeric, addr 0x5fcabe0, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsNumeric(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsNumericOrBool, addr 0x5fcafbc, size 0x84, virtual false, abstract: false, final false
   static inline bool IsNumericOrBool(::System::Type* type);
 
   /// @brief Method IsSameOrSubclass, addr 0x5fc9b44, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsSameOrSubclass(::System::Type* type, ::System::Type* subType);
 
+  /// [Extension]
   /// @brief Method IsUnsignedInt, addr 0x5fcae2c, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsUnsignedInt(::System::Type* type);
 
   /// @brief Method IsValidInstanceType, addr 0x5fcb040, size 0x3f8, virtual false, abstract: false, final false
   static inline bool IsValidInstanceType(::System::Reflection::MemberInfo* member, ::System::Type* instanceType);
 
+  /// [Extension]
   /// @brief Method StrictHasReferenceConversionTo, addr 0x5fcbba0, size 0x354, virtual false, abstract: false, final false
   static inline bool StrictHasReferenceConversionTo(::System::Type* source, ::System::Type* dest, bool skipNonArray);
 
@@ -229,13 +249,13 @@ protected:
   constexpr TypeUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeUtils(TypeUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtils(TypeUtils const&) = delete;
+  TypeUtils(TypeUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16683 };

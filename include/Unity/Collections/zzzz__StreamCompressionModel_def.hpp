@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\StreamCompressionModel.hpp"
+// IWYU pragma private; include "Unity/Collections/StreamCompressionModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StreamCompressionModel)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
 class StreamCompressionModel_SharedStaticCompressionModel;
@@ -59,6 +61,8 @@ DEFINE_IL2CPP_CLASS(::Unity::Collections::StreamCompressionModel__bucketOffsets_
 DEFINE_IL2CPP_CLASS(::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer, "Unity.Collections", "StreamCompressionModel/<bucketSizes>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer, "Unity.Collections", "StreamCompressionModel/<decodeTable>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer, "Unity.Collections", "StreamCompressionModel/<encodeTable>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -71,7 +75,7 @@ public:
   // @brief default ctor
   constexpr StreamCompressionModel__bucketOffsets_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StreamCompressionModel__bucketOffsets_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -95,6 +99,8 @@ static_assert(offsetof(::Unity::Collections::StreamCompressionModel__bucketOffse
 static_assert(sizeof(::Unity::Collections::StreamCompressionModel__bucketOffsets_e__FixedBuffer) == 0x40, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -107,7 +113,7 @@ public:
   // @brief default ctor
   constexpr StreamCompressionModel__bucketSizes_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr StreamCompressionModel__bucketSizes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -131,6 +137,8 @@ static_assert(offsetof(::Unity::Collections::StreamCompressionModel__bucketSizes
 static_assert(sizeof(::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -143,7 +151,7 @@ public:
   // @brief default ctor
   constexpr StreamCompressionModel__decodeTable_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr StreamCompressionModel__decodeTable_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -167,6 +175,8 @@ static_assert(offsetof(::Unity::Collections::StreamCompressionModel__decodeTable
 static_assert(sizeof(::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer) == 0x80, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -179,7 +189,7 @@ public:
   // @brief default ctor
   constexpr StreamCompressionModel__encodeTable_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr StreamCompressionModel__encodeTable_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -203,6 +213,7 @@ static_assert(offsetof(::Unity::Collections::StreamCompressionModel__encodeTable
 static_assert(sizeof(::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer) == 0x20, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.StreamCompressionModel::<bucketOffsets>e__FixedBuffer, Unity.Collections.StreamCompressionModel::<bucketSizes>e__FixedBuffer,
 // Unity.Collections.StreamCompressionModel::<decodeTable>e__FixedBuffer, Unity.Collections.StreamCompressionModel::<encodeTable>e__FixedBuffer
 namespace Unity::Collections {
@@ -233,18 +244,27 @@ public:
   /// @brief Field k_FirstBucketCandidate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_FirstBucketCandidate, put = setStaticF_k_FirstBucketCandidate)) ::ArrayW<int32_t> k_FirstBucketCandidate;
 
+  /// [IsReadOnly]
   /// @brief Method CalculateBucket, addr 0x64c84b4, size 0xe0, virtual false, abstract: false, final false
   inline int32_t CalculateBucket(uint32_t value);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckAlphabetAndMaxCodeLength, addr 0x64c86f4, size 0x60, virtual false, abstract: false, final false
   static inline void CheckAlphabetAndMaxCodeLength(int32_t alphabetSize, int32_t maxCodeLength);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckAlphabetSize, addr 0x64c8614, size 0x80, virtual false, abstract: false, final false
   static inline void CheckAlphabetSize(int32_t alphabetSize);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckExceedMaxCodeLength, addr 0x64c8754, size 0x58, virtual false, abstract: false, final false
   static inline void CheckExceedMaxCodeLength(int32_t length, int32_t maxCodeLength);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckSymbolLength, addr 0x64c8694, size 0x60, virtual false, abstract: false, final false
   static inline void CheckSymbolLength(::Unity::Collections::NativeArray_1<uint8_t> symbolLengths, int32_t symbolLengthsOffset, int32_t symbol, int32_t length);
 
@@ -256,6 +276,7 @@ public:
   static inline void GenerateHuffmanDecodeTable(::Unity::Collections::NativeArray_1<uint16_t> decodeTable, int32_t decodeTableOffset, ::Unity::Collections::NativeArray_1<uint8_t> symbolLengths,
                                                 ::Unity::Collections::NativeArray_1<uint8_t> symbolCodes, int32_t alphabetSize, int32_t maxCodeLength);
 
+  /// [IsReadOnly]
   /// @brief Method GetCompressedSizeInBits, addr 0x64c8594, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetCompressedSizeInBits(uint32_t value);
 
@@ -288,11 +309,11 @@ public:
   // @brief default ctor
   constexpr StreamCompressionModel();
 
-  // Ctor Parameters [CppParam { name: "m_Initialized", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "encodeTable", ty:
-  // "::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "decodeTable", ty:
-  // "::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "bucketSizes", ty:
-  // "::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "bucketOffsets", ty:
-  // "::Unity::Collections::StreamCompressionModel__bucketOffsets_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Initialized", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "encodeTable", ty:
+  // "::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "decodeTable", ty:
+  // "::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "bucketSizes", ty:
+  // "::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "bucketOffsets", ty:
+  // "::Unity::Collections::StreamCompressionModel__bucketOffsets_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr StreamCompressionModel(uint8_t m_Initialized, ::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer encodeTable,
                                    ::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer decodeTable,
                                    ::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer bucketSizes,
@@ -316,15 +337,19 @@ public:
   /// @brief Field m_Initialized, offset: 0x0, size: 0x1, def value: None
   uint8_t m_Initialized;
 
+  /// [FixedBuffer(typeof(System.UInt16), 16)]
   /// @brief Field encodeTable, offset: 0x2, size: 0x20, def value: None
   ::Unity::Collections::StreamCompressionModel__encodeTable_e__FixedBuffer encodeTable;
 
+  /// [FixedBuffer(typeof(System.UInt16), 64)]
   /// @brief Field decodeTable, offset: 0x22, size: 0x80, def value: None
   ::Unity::Collections::StreamCompressionModel__decodeTable_e__FixedBuffer decodeTable;
 
+  /// [FixedBuffer(typeof(System.Byte), 16)]
   /// @brief Field bucketSizes, offset: 0xa2, size: 0x10, def value: None
   ::Unity::Collections::StreamCompressionModel__bucketSizes_e__FixedBuffer bucketSizes;
 
+  /// [FixedBuffer(typeof(System.UInt32), 16)]
   /// @brief Field bucketOffsets, offset: 0xb4, size: 0x40, def value: None
   ::Unity::Collections::StreamCompressionModel__bucketOffsets_e__FixedBuffer bucketOffsets;
 
@@ -364,13 +389,13 @@ protected:
   constexpr StreamCompressionModel_SharedStaticCompressionModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StreamCompressionModel_SharedStaticCompressionModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StreamCompressionModel_SharedStaticCompressionModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StreamCompressionModel_SharedStaticCompressionModel(StreamCompressionModel_SharedStaticCompressionModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StreamCompressionModel_SharedStaticCompressionModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StreamCompressionModel_SharedStaticCompressionModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StreamCompressionModel_SharedStaticCompressionModel(StreamCompressionModel_SharedStaticCompressionModel const&) = delete;
+  StreamCompressionModel_SharedStaticCompressionModel(StreamCompressionModel_SharedStaticCompressionModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15717 };

@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteExecutionRating.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteExecutionRating.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRating_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteExecutionRating_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteExecutionRating_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::NoteExecutionRating_Rating::NoteExecutionRating_Rating(int32_t value__) noexcept {
   this->value__ = value__;
 }

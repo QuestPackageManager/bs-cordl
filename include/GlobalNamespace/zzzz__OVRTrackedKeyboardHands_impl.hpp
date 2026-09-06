@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTrackedKeyboardHands.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTrackedKeyboardHands.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -15,11 +15,11 @@
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "LeftHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "LeftPresenceTransform", ty:
-// "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "RightHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "RightPresenceTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneName", ty:
-// "::GlobalNamespace::OVRSkeleton_BoneId", modifiers: "", def_value: Some("{}") }, CppParam { name: "HandPresenceLeftBoneName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "HandPresenceRightBoneName", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "LeftHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LeftPresenceTransform", ty:
+// "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RightHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "RightPresenceTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "BoneName", ty: "::GlobalNamespace::OVRSkeleton_BoneId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "HandPresenceLeftBoneName", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "HandPresenceRightBoneName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTrackedKeyboardHands_HandBoneMapping::OVRTrackedKeyboardHands_HandBoneMapping(
     ::UnityW<::UnityEngine::Transform> LeftHandTransform, ::UnityW<::UnityEngine::Transform> LeftPresenceTransform, ::UnityW<::UnityEngine::Transform> RightHandTransform,
     ::UnityW<::UnityEngine::Transform> RightPresenceTransform, ::GlobalNamespace::OVRSkeleton_BoneId BoneName, ::StringW HandPresenceLeftBoneName, ::StringW HandPresenceRightBoneName) noexcept {
@@ -33,7 +33,8 @@ constexpr ::GlobalNamespace::OVRTrackedKeyboardHands_HandBoneMapping::OVRTracked
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTrackedKeyboardHands_HandBoneMapping::OVRTrackedKeyboardHands_HandBoneMapping() {}
-// Ctor Parameters [CppParam { name: "leftVisible", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "rightVisible", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "leftVisible", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightVisible", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTrackedKeyboardHands_TrackedKeyboardHandsVisibilityChangedEvent::OVRTrackedKeyboardHands_TrackedKeyboardHandsVisibilityChangedEvent(bool leftVisible,
                                                                                                                                                                     bool rightVisible) noexcept {
   this->leftVisible = leftVisible;

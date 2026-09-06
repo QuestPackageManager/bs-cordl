@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightPairRotationEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightPairRotationEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,13 +119,13 @@ protected:
   constexpr LightPairRotationEventEffect_RotationData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect_RotationData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect_RotationData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightPairRotationEventEffect_RotationData(LightPairRotationEventEffect_RotationData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect_RotationData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect_RotationData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightPairRotationEventEffect_RotationData(LightPairRotationEventEffect_RotationData const&) = delete;
+  LightPairRotationEventEffect_RotationData(LightPairRotationEventEffect_RotationDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5921 };
@@ -166,6 +166,8 @@ static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect_RotationD
 static_assert(sizeof(::GlobalNamespace::LightPairRotationEventEffect_RotationData) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DefaultExecutionOrder(-1)]
+// [AddComponentMenu("Beat Saber/Gameplay/LightPairRotationEventEffect")]
 // Dependencies BasicBeatmapEventType, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -384,13 +386,13 @@ protected:
   constexpr LightPairRotationEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightPairRotationEventEffect(LightPairRotationEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightPairRotationEventEffect(LightPairRotationEventEffect const&) = delete;
+  LightPairRotationEventEffect(LightPairRotationEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5922 };
@@ -398,45 +400,61 @@ public:
   /// @brief Field kSpeedMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kSpeedMultiplier{ static_cast<float_t>(20.0f) };
 
+  /// [SerializeField]
   /// @brief Field _eventL, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____eventL;
 
+  /// [SerializeField]
   /// @brief Field _eventR, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____eventR;
 
+  /// [SerializeField]
   /// @brief Field _switchOverrideRandomValuesEvent, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____switchOverrideRandomValuesEvent;
 
+  /// [SerializeField]
   /// @brief Field _rotationVector, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rotationVector;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _overrideRandomValues, offset: 0x38, size: 0x1, def value: None
   bool ____overrideRandomValues;
 
+  /// [SerializeField]
   /// @brief Field _useZPositionForAngleOffset, offset: 0x39, size: 0x1, def value: None
   bool ____useZPositionForAngleOffset;
 
+  /// [SerializeField]
   /// @brief Field _zPositionAngleOffsetScale, offset: 0x3c, size: 0x4, def value: None
   float_t ____zPositionAngleOffsetScale;
 
+  /// [SerializeField]
   /// @brief Field _startRotation, offset: 0x40, size: 0x4, def value: None
   float_t ____startRotation;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _transformL, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transformL;
 
+  /// [SerializeField]
   /// @brief Field _transformR, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transformR;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
+  /// [Inject]
   /// @brief Field _random, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::IRandom* ____random;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 

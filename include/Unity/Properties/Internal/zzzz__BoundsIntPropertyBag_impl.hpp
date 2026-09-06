@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\BoundsIntPropertyBag.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/BoundsIntPropertyBag.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/zzzz__BoundsInt_impl.hpp"

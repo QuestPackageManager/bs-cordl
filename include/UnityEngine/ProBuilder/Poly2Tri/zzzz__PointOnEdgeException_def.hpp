@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\PointOnEdgeException.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/PointOnEdgeException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,13 +64,13 @@ protected:
   constexpr PointOnEdgeException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointOnEdgeException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointOnEdgeException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointOnEdgeException(PointOnEdgeException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointOnEdgeException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointOnEdgeException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointOnEdgeException(PointOnEdgeException const&) = delete;
+  PointOnEdgeException(PointOnEdgeExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21771 };

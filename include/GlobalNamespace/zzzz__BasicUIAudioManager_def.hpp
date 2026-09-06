@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BasicUIAudioManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/BasicUIAudioManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,29 +118,34 @@ protected:
   constexpr BasicUIAudioManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicUIAudioManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicUIAudioManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicUIAudioManager(BasicUIAudioManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicUIAudioManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicUIAudioManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicUIAudioManager(BasicUIAudioManager const&) = delete;
+  BasicUIAudioManager(BasicUIAudioManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6317 };
 
+  /// [SerializeField]
   /// @brief Field _buttonClickEvents, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::Signal>> ____buttonClickEvents;
 
+  /// [SerializeField]
   /// @brief Field _audioSources, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioSource>> ____audioSources;
 
+  /// [SerializeField]
   /// @brief Field _clickSounds, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____clickSounds;
 
+  /// [SerializeField]
   /// @brief Field _minPitch, offset: 0x38, size: 0x4, def value: None
   float_t ____minPitch;
 
+  /// [SerializeField]
   /// @brief Field _maxPitch, offset: 0x3c, size: 0x4, def value: None
   float_t ____maxPitch;
 

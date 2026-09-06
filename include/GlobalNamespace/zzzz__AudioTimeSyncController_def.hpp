@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioTimeSyncController.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioTimeSyncController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,13 +102,13 @@ protected:
   constexpr AudioTimeSyncController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioTimeSyncController_InitData(AudioTimeSyncController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioTimeSyncController_InitData(AudioTimeSyncController_InitData const&) = delete;
+  AudioTimeSyncController_InitData(AudioTimeSyncController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5556 };
@@ -487,9 +487,11 @@ public:
   /// @brief Method .ctor, addr 0x58b61c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <get_waitUntilAudioIsLoaded>b__31_0, addr 0x58b61d4, size 0x4, virtual false, abstract: false, final false
   inline bool _get_waitUntilAudioIsLoaded_b__31_0();
 
+  /// [CompilerGenerated]
   /// @brief Method add_stateChangedEvent, addr 0x58b50c8, size 0xac, virtual false, abstract: false, final false
   inline void add_stateChangedEvent(::System::Action* value);
 
@@ -541,6 +543,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_stateChangedEvent, addr 0x58b5174, size 0xac, virtual false, abstract: false, final false
   inline void remove_stateChangedEvent(::System::Action* value);
 
@@ -553,44 +556,54 @@ protected:
   constexpr AudioTimeSyncController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioTimeSyncController(AudioTimeSyncController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioTimeSyncController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioTimeSyncController(AudioTimeSyncController const&) = delete;
+  AudioTimeSyncController(AudioTimeSyncControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5557 };
 
+  /// [SerializeField]
   /// @brief Field _audioSyncLerpSpeed, offset: 0x20, size: 0x4, def value: None
   float_t ____audioSyncLerpSpeed;
 
+  /// [SerializeField]
   /// @brief Field _forcedSyncDeltaTime, offset: 0x24, size: 0x4, def value: None
   float_t ____forcedSyncDeltaTime;
 
+  /// [SerializeField]
   /// @brief Field _startSyncDeltaTime, offset: 0x28, size: 0x4, def value: None
   float_t ____startSyncDeltaTime;
 
+  /// [SerializeField]
   /// @brief Field _stopSyncDeltaTime, offset: 0x2c, size: 0x4, def value: None
   float_t ____stopSyncDeltaTime;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::AudioTimeSyncController_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _dspTimeProvider, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IDspTimeProvider* ____dspTimeProvider;
 
   /// @brief Field forcedNoAudioSync, offset: 0x50, size: 0x1, def value: None
   bool ___forcedNoAudioSync;
 
+  /// [CompilerGenerated]
   /// @brief Field stateChangedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___stateChangedEvent;
 

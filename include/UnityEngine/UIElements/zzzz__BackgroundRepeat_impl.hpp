@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BackgroundRepeat.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BackgroundRepeat.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Repeat_impl.hpp"
@@ -172,8 +172,8 @@ constexpr UnityEngine::UIElements::BackgroundRepeat::operator ::System::IEquatab
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>* UnityEngine::UIElements::BackgroundRepeat::i___System__IEquatable_1___UnityEngine__UIElements__BackgroundRepeat_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::UIElements::Repeat", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "::UnityEngine::UIElements::Repeat", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::UIElements::Repeat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "::UnityEngine::UIElements::Repeat",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BackgroundRepeat::BackgroundRepeat(::UnityEngine::UIElements::Repeat x, ::UnityEngine::UIElements::Repeat y) noexcept {
   this->x = x;
   this->y = y;

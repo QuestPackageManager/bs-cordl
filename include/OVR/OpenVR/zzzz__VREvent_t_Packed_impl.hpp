@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_t_Packed.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_t_Packed.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Data_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_t_Packed_def.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_t_def.hpp"
@@ -39,8 +39,9 @@ inline void OVR::OpenVR::VREvent_t_Packed::Unpack(::by_ref<::OVR::OpenVR::VREven
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::VREvent_t_Packed>(), { "Unpack", {}, { ::i2c::type_of<::by_ref<::OVR::OpenVR::VREvent_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, unpacked);
 }
-// Ctor Parameters [CppParam { name: "eventType", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "eventAgeSeconds", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty: "::OVR::OpenVR::VREvent_Data_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "eventType", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "eventAgeSeconds", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "data", ty:
+// "::OVR::OpenVR::VREvent_Data_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::VREvent_t_Packed::VREvent_t_Packed(uint32_t eventType, uint32_t trackedDeviceIndex, float_t eventAgeSeconds, ::OVR::OpenVR::VREvent_Data_t data) noexcept {
   this->eventType = eventType;
   this->trackedDeviceIndex = trackedDeviceIndex;

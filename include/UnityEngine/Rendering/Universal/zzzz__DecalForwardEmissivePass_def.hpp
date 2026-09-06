@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalForwardEmissivePass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalForwardEmissivePass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -112,13 +114,13 @@ protected:
   constexpr DecalForwardEmissivePass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalForwardEmissivePass_PassData(DecalForwardEmissivePass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalForwardEmissivePass_PassData(DecalForwardEmissivePass_PassData const&) = delete;
+  DecalForwardEmissivePass_PassData(DecalForwardEmissivePass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12678 };
@@ -139,6 +141,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalForwardEmissive
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -179,13 +182,13 @@ protected:
   constexpr DecalForwardEmissivePass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalForwardEmissivePass___c(DecalForwardEmissivePass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalForwardEmissivePass___c(DecalForwardEmissivePass___c const&) = delete;
+  DecalForwardEmissivePass___c(DecalForwardEmissivePass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12679 };
@@ -220,6 +223,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6857224, size 0x268, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -273,13 +277,13 @@ protected:
   constexpr DecalForwardEmissivePass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalForwardEmissivePass(DecalForwardEmissivePass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalForwardEmissivePass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalForwardEmissivePass(DecalForwardEmissivePass const&) = delete;
+  DecalForwardEmissivePass(DecalForwardEmissivePassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12680 };

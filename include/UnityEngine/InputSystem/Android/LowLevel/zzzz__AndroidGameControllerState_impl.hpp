@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\LowLevel\AndroidGameControllerState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidGameControllerState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidGameControllerState_def.hpp"
@@ -32,13 +32,13 @@ inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState_Variants::AndroidGameControllerState_Variants() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer::AndroidGameControllerState__axis_e__FixedBuffer(float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer::AndroidGameControllerState__axis_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__buttons_e__FixedBuffer::AndroidGameControllerState__buttons_e__FixedBuffer(uint32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -125,8 +125,8 @@ constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*
 UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "buttons", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__buttons_e__FixedBuffer", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "axis", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "buttons", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__buttons_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "axis", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::AndroidGameControllerState(
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__buttons_e__FixedBuffer buttons,
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer axis) noexcept {

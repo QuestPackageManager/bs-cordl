@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\ProcessThreadCollection.hpp"
+// IWYU pragma private; include "System/Diagnostics/ProcessThreadCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ProcessThreadCollection;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::ProcessThreadCollection*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::ProcessThreadCollection*, "System.Diagnostics", "ProcessThreadCollection");
+// [DefaultMember("Item")]
 // Dependencies System.Collections.ReadOnlyCollectionBase
 namespace System::Diagnostics {
 // Is value type: false
@@ -25,13 +26,13 @@ protected:
   constexpr ProcessThreadCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProcessThreadCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessThreadCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProcessThreadCollection(ProcessThreadCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProcessThreadCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessThreadCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProcessThreadCollection(ProcessThreadCollection const&) = delete;
+  ProcessThreadCollection(ProcessThreadCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11154 };

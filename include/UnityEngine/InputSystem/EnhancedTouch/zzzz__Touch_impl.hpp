@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\EnhancedTouch\Touch.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/EnhancedTouch/Touch.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Finger_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_impl.hpp"
@@ -834,8 +834,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touc
 UnityEngine::InputSystem::EnhancedTouch::Touch::i___System__IEquatable_1___UnityEngine__InputSystem__EnhancedTouch__Touch_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Finger", ty: "::UnityEngine::InputSystem::EnhancedTouch::Finger*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TouchRecord", ty:
-// "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1_Record<::UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Finger", ty: "::UnityEngine::InputSystem::EnhancedTouch::Finger*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TouchRecord", ty:
+// "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1_Record<::UnityEngine::InputSystem::LowLevel::TouchState>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch::Touch(
     ::UnityEngine::InputSystem::EnhancedTouch::Finger* m_Finger,
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1_Record<::UnityEngine::InputSystem::LowLevel::TouchState> m_TouchRecord) noexcept {
@@ -939,14 +939,15 @@ inline void UnityEngine::InputSystem::EnhancedTouch::Touch_FingerAndTouchState::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::Touch_FingerAndTouchState>(), { "UpdateActiveTouches", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "updateMask", ty: "::UnityEngine::InputSystem::LowLevel::InputUpdateType", modifiers: "", def_value: Some("{}") }, CppParam { name: "fingers", ty:
-// "::ArrayW<::UnityEngine::InputSystem::EnhancedTouch::Finger*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "activeFingers", ty:
-// "::ArrayW<::UnityEngine::InputSystem::EnhancedTouch::Finger*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "activeTouches", ty:
-// "::ArrayW<::UnityEngine::InputSystem::EnhancedTouch::Touch>", modifiers: "", def_value: Some("{}") }, CppParam { name: "activeFingerCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "activeTouchCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "totalFingerCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "lastId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "haveBuiltActiveTouches", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "haveActiveTouchesNeedingRefreshNextUpdate", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "activeTouchState", ty:
-// "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "updateMask", ty: "::UnityEngine::InputSystem::LowLevel::InputUpdateType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fingers", ty:
+// "::ArrayW<::UnityEngine::InputSystem::EnhancedTouch::Finger*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "activeFingers", ty:
+// "::ArrayW<::UnityEngine::InputSystem::EnhancedTouch::Finger*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "activeTouches", ty:
+// "::ArrayW<::UnityEngine::InputSystem::EnhancedTouch::Touch>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "activeFingerCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "activeTouchCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "totalFingerCount", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastId", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "haveBuiltActiveTouches",
+// ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "haveActiveTouchesNeedingRefreshNextUpdate", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "activeTouchState", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch_FingerAndTouchState::Touch_FingerAndTouchState(
     ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask, ::ArrayW<::UnityEngine::InputSystem::EnhancedTouch::Finger*> fingers,
     ::ArrayW<::UnityEngine::InputSystem::EnhancedTouch::Finger*> activeFingers, ::ArrayW<::UnityEngine::InputSystem::EnhancedTouch::Touch> activeTouches, int32_t activeFingerCount,
@@ -966,12 +967,13 @@ constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch_FingerAndTouchState::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch_FingerAndTouchState::Touch_FingerAndTouchState() {}
-// Ctor Parameters [CppParam { name: "touchscreens", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Touchscreen*>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "historyLengthPerFinger", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "onFingerDown", ty:
-// "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>*>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "onFingerMove", ty: "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>*>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "onFingerUp", ty: "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>*>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "playerState", ty: "::UnityEngine::InputSystem::EnhancedTouch::Touch_FingerAndTouchState", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "touchscreens", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Touchscreen*>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "historyLengthPerFinger", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "onFingerDown", ty:
+// "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "onFingerMove", ty: "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>*>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "onFingerUp", ty: "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>*>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "playerState", ty: "::UnityEngine::InputSystem::EnhancedTouch::Touch_FingerAndTouchState", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch_GlobalState::Touch_GlobalState(
     ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Touchscreen*> touchscreens, int32_t historyLengthPerFinger,
     ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>*> onFingerDown,
@@ -987,8 +989,8 @@ constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch_GlobalState::Touch_Gl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch_GlobalState::Touch_GlobalState() {}
-// Ctor Parameters [CppParam { name: "accumulatedDelta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "uniqueId", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "accumulatedDelta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uniqueId", ty: "uint32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch_ExtraDataPerTouchState::Touch_ExtraDataPerTouchState(::UnityEngine::Vector2 accumulatedDelta, uint32_t uniqueId) noexcept {
   this->accumulatedDelta = accumulatedDelta;
   this->uniqueId = uniqueId;

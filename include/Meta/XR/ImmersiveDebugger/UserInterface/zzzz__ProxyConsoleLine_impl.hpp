@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\ProxyConsoleLine.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/ProxyConsoleLine.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ProxyController_1_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__ProxyConsoleLine_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__ConsoleLine_def.hpp"

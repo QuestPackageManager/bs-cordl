@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlClip.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlClip.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,7 +96,7 @@ public:
   // @brief default ctor
   constexpr VisualEffectControlClip_ReinitMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualEffectControlClip_ReinitMode(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -139,8 +139,9 @@ public:
   // @brief default ctor
   constexpr VisualEffectControlClip_PrewarmClipSettings();
 
-  // Ctor Parameters [CppParam { name: "enable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "stepCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "deltaTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "eventName", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "enable", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "stepCount", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "deltaTime", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "eventName", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr VisualEffectControlClip_PrewarmClipSettings(bool enable, uint32_t stepCount, float_t deltaTime, ::UnityEngine::VFX::Utility::ExposedProperty* eventName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -193,9 +194,9 @@ public:
   // @brief default ctor
   constexpr VisualEffectControlClip_ClipEvent();
 
-  // Ctor Parameters [CppParam { name: "editorColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "enter", ty:
-  // "::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor", modifiers: "", def_value: None }, CppParam { name: "exit", ty: "::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "editorColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "enter", ty:
+  // "::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor", modifiers: "", def_value: None, comment: None }, CppParam { name: "exit", ty:
+  // "::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor", modifiers: "", def_value: None, comment: None }]
   constexpr VisualEffectControlClip_ClipEvent(::UnityEngine::Color editorColor, ::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor enter,
                                               ::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor exit) noexcept;
 
@@ -333,18 +334,22 @@ public:
   /// @brief Method get_clipCaps, addr 0x69d2260, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clipEnd, addr 0x69d2278, size 0x8, virtual false, abstract: false, final false
   inline double_t get_clipEnd();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clipStart, addr 0x69d2268, size 0x8, virtual false, abstract: false, final false
   inline double_t get_clipStart();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_clipEnd, addr 0x69d2280, size 0x8, virtual false, abstract: false, final false
   inline void set_clipEnd(double_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clipStart, addr 0x69d2270, size 0x8, virtual false, abstract: false, final false
   inline void set_clipStart(double_t value);
 
@@ -354,38 +359,46 @@ protected:
   constexpr VisualEffectControlClip();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlClip", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlClip", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffectControlClip(VisualEffectControlClip&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlClip", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlClip(VisualEffectControlClip const&) = delete;
+  VisualEffectControlClip(VisualEffectControlClipconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19933 };
 
+  /// [CompilerGenerated]
   /// @brief Field <clipStart>k__BackingField, offset: 0x18, size: 0x8, def value: None
   double_t ____clipStart_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <clipEnd>k__BackingField, offset: 0x20, size: 0x8, def value: None
   double_t ____clipEnd_k__BackingField;
 
+  /// [NotKeyable]
   /// @brief Field scrubbing, offset: 0x28, size: 0x1, def value: None
   bool ___scrubbing;
 
+  /// [NotKeyable]
   /// @brief Field startSeed, offset: 0x2c, size: 0x4, def value: None
   uint32_t ___startSeed;
 
+  /// [NotKeyable]
   /// @brief Field reinit, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::VFX::VisualEffectControlClip_ReinitMode ___reinit;
 
+  /// [NotKeyable]
   /// @brief Field prewarm, offset: 0x38, size: 0x18, def value: None
   ::UnityEngine::VFX::VisualEffectControlClip_PrewarmClipSettings ___prewarm;
 
+  /// [NotKeyable]
   /// @brief Field clipEvents, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::VFX::VisualEffectControlClip_ClipEvent>* ___clipEvents;
 
+  /// [NotKeyable]
   /// @brief Field singleEvents, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* ___singleEvents;
 

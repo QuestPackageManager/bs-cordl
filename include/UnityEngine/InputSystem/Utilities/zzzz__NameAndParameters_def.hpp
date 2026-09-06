@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\NameAndParameters.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/NameAndParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::UnityEngine::InputSystem::Utilities::NameAndParameters___c*);
 MARK_VAL_T(::UnityEngine::InputSystem::Utilities::NameAndParameters);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::NameAndParameters___c*, "UnityEngine.InputSystem.Utilities", "NameAndParameters/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::NameAndParameters, "UnityEngine.InputSystem.Utilities", "NameAndParameters");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
@@ -75,13 +76,13 @@ protected:
   constexpr NameAndParameters___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NameAndParameters___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameAndParameters___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameAndParameters___c(NameAndParameters___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NameAndParameters___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameAndParameters___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NameAndParameters___c(NameAndParameters___c const&) = delete;
+  NameAndParameters___c(NameAndParameters___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9175 };
@@ -123,15 +124,21 @@ public:
   /// @brief Method ToString, addr 0x65050e0, size 0x21c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_name, addr 0x65050bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_parameters, addr 0x65050cc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> get_parameters();
 
+  /// [CompilerGenerated]
   /// @brief Method set_name, addr 0x65050c4, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_parameters, addr 0x65050d8, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> value);
 
@@ -139,8 +146,8 @@ public:
   // @brief default ctor
   constexpr NameAndParameters();
 
-  // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_parameters_k__BackingField", ty:
-  // "::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_parameters_k__BackingField", ty:
+  // "::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue>", modifiers: "", def_value: None, comment: None }]
   constexpr NameAndParameters(::StringW _name_k__BackingField,
                               ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> _parameters_k__BackingField) noexcept;
 
@@ -150,9 +157,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
   /// @brief Field <name>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _name_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <parameters>k__BackingField, offset: 0x8, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> _parameters_k__BackingField;
 

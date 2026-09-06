@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeComponentDeprecated.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeComponentDeprecated.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class VolumeComponentDeprecated;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::VolumeComponentDeprecated*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeComponentDeprecated*, "UnityEngine.Rendering", "VolumeComponentDeprecated");
+// [AttributeUsage((System.AttributeTargets)4)]
+// [Obsolete("VolumeComponentDeprecated has been deprecated (UnityUpgradable) -> [UnityEngine] UnityEngine.HideInInspector", false)]
 // Dependencies System.Attribute
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr VolumeComponentDeprecated();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeComponentDeprecated", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeComponentDeprecated", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeComponentDeprecated(VolumeComponentDeprecated&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeComponentDeprecated", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeComponentDeprecated", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeComponentDeprecated(VolumeComponentDeprecated const&) = delete;
+  VolumeComponentDeprecated(VolumeComponentDeprecatedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12325 };

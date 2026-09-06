@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CameraProperties.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CameraProperties.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreCameraValues_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
@@ -9,19 +9,19 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraProperties_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CameraProperties__layerCullDistances_e__FixedBuffer::CameraProperties__layerCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::CameraProperties__layerCullDistances_e__FixedBuffer::CameraProperties__layerCullDistances_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CameraProperties__m_CameraCullPlanes_e__FixedBuffer::CameraProperties__m_CameraCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::CameraProperties__m_CameraCullPlanes_e__FixedBuffer::CameraProperties__m_CameraCullPlanes_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CameraProperties__m_ShadowCullPlanes_e__FixedBuffer::CameraProperties__m_ShadowCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -126,25 +126,28 @@ constexpr UnityEngine::Rendering::CameraProperties::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>* UnityEngine::Rendering::CameraProperties::i___System__IEquatable_1___UnityEngine__Rendering__CameraProperties_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "screenRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "viewDir", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "projectionNear", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "projectionFar", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "cameraNear", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cameraFar", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "cameraAspect", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cameraToWorld", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "actualWorldToClip", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "cameraClipToWorld", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "cameraWorldToClip", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "implicitProjection", ty: "::UnityEngine::Matrix4x4",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "stereoWorldToClipLeft", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "stereoWorldToClipRight",
-// ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "worldToCamera", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "up", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "right", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "transformDirection", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "cameraEuler", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "velocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "farPlaneWorldSpaceLength", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "rendererCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ShadowCullPlanes", ty:
-// "::UnityEngine::Rendering::CameraProperties__m_ShadowCullPlanes_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CameraCullPlanes", ty:
-// "::UnityEngine::Rendering::CameraProperties__m_CameraCullPlanes_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "baseFarDistance", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "shadowCullCenter", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "layerCullDistances", ty:
-// "::UnityEngine::Rendering::CameraProperties__layerCullDistances_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "layerCullSpherical", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "coreCameraValues", ty: "::UnityEngine::Rendering::CoreCameraValues", modifiers: "", def_value: Some("{}") }, CppParam { name: "cameraType", ty:
-// "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "projectionIsOblique", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "isImplicitProjectionMatrix", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "useInteractiveLightBakingData", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "screenRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewDir", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "projectionNear", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "projectionFar", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cameraNear", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cameraFar",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cameraAspect", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cameraToWorld", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "actualWorldToClip", ty: "::UnityEngine::Matrix4x4", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "cameraClipToWorld", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cameraWorldToClip", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "implicitProjection", ty: "::UnityEngine::Matrix4x4", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "stereoWorldToClipLeft", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "stereoWorldToClipRight", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldToCamera", ty: "::UnityEngine::Matrix4x4", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "up", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "right", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "transformDirection", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "cameraEuler", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "velocity", ty: "::UnityEngine::Vector3", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "farPlaneWorldSpaceLength", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererCount", ty:
+// "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ShadowCullPlanes", ty: "::UnityEngine::Rendering::CameraProperties__m_ShadowCullPlanes_e__FixedBuffer",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CameraCullPlanes", ty: "::UnityEngine::Rendering::CameraProperties__m_CameraCullPlanes_e__FixedBuffer", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "baseFarDistance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shadowCullCenter", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "layerCullDistances", ty:
+// "::UnityEngine::Rendering::CameraProperties__layerCullDistances_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "layerCullSpherical", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "coreCameraValues", ty: "::UnityEngine::Rendering::CoreCameraValues", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "cameraType", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "projectionIsOblique", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "isImplicitProjectionMatrix", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "useInteractiveLightBakingData", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CameraProperties::CameraProperties(
     ::UnityEngine::Rect screenRect, ::UnityEngine::Vector3 viewDir, float_t projectionNear, float_t projectionFar, float_t cameraNear, float_t cameraFar, float_t cameraAspect,
     ::UnityEngine::Matrix4x4 cameraToWorld, ::UnityEngine::Matrix4x4 actualWorldToClip, ::UnityEngine::Matrix4x4 cameraClipToWorld, ::UnityEngine::Matrix4x4 cameraWorldToClip,

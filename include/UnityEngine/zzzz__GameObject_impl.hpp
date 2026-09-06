@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GameObject.hpp"
+// IWYU pragma private; include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -1692,7 +1693,7 @@ template <typename T> inline T UnityEngine::GameObject::GetComponentInChildren()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::GameObject::GetComponentInChildren(bool includeInactive) {
+template <typename T> inline T UnityEngine::GameObject::GetComponentInChildren(/* [DefaultValue("false")] */ bool includeInactive) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponentInChildren", { ::i2c::class_of<T>() }, { ::i2c::type_of<bool>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1714,7 +1715,7 @@ template <typename T> inline T UnityEngine::GameObject::GetComponentInParent() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::GameObject::GetComponentInParent(bool includeInactive) {
+template <typename T> inline T UnityEngine::GameObject::GetComponentInParent(/* [DefaultValue("false")] */ bool includeInactive) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponentInParent", { ::i2c::class_of<T>() }, { ::i2c::type_of<bool>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1758,7 +1759,7 @@ inline ::ArrayW<::UnityW<::UnityEngine::Component>> UnityEngine::GameObject::Get
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponentsInChildren", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Component>>>(this, ___internal_method, type);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Component>> UnityEngine::GameObject::GetComponentsInChildren(::System::Type* type, bool includeInactive) {
+inline ::ArrayW<::UnityW<::UnityEngine::Component>> UnityEngine::GameObject::GetComponentsInChildren(::System::Type* type, /* [DefaultValue("false")] */ bool includeInactive) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponentsInChildren", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Component>>>(this, ___internal_method, type, includeInactive);
@@ -1794,7 +1795,7 @@ inline ::ArrayW<::UnityW<::UnityEngine::Component>> UnityEngine::GameObject::Get
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponentsInParent", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Component>>>(this, ___internal_method, type);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Component>> UnityEngine::GameObject::GetComponentsInParent(::System::Type* type, bool includeInactive) {
+inline ::ArrayW<::UnityW<::UnityEngine::Component>> UnityEngine::GameObject::GetComponentsInParent(::System::Type* type, /* [DefaultValue("false")] */ bool includeInactive) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponentsInParent", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Component>>>(this, ___internal_method, type, includeInactive);
@@ -1891,7 +1892,9 @@ inline ::UnityW<::UnityEngine::Component> UnityEngine::GameObject::AddComponent(
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "AddComponent", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Component>>(this, ___internal_method, componentType);
 }
-template <typename T> inline T UnityEngine::GameObject::AddComponent() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T UnityEngine::GameObject::AddComponent() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "AddComponent", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
@@ -1909,7 +1912,9 @@ inline ::UnityW<::UnityEngine::Component> UnityEngine::GameObject::GetComponentA
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponentAtIndex", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Component>>(this, ___internal_method, index);
 }
-template <typename T> inline T UnityEngine::GameObject::GetComponentAtIndex(int32_t index) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T UnityEngine::GameObject::GetComponentAtIndex(int32_t index) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponentAtIndex", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -2005,7 +2010,8 @@ inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> UnityEngine::GameObject::Fi
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "FindGameObjectsWithTag", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::GameObject>>>(nullptr, ___internal_method, tag);
 }
-inline void UnityEngine::GameObject::SendMessageUpwards(::StringW methodName, ::System::Object* value, ::UnityEngine::SendMessageOptions options) {
+inline void UnityEngine::GameObject::SendMessageUpwards(::StringW methodName, /* [DefaultValue("null")] */ ::System::Object* value,
+                                                        /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
@@ -2022,7 +2028,8 @@ inline void UnityEngine::GameObject::SendMessageUpwards(::StringW methodName) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "SendMessageUpwards", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodName);
 }
-inline void UnityEngine::GameObject::SendMessage(::StringW methodName, ::System::Object* value, ::UnityEngine::SendMessageOptions options) {
+inline void UnityEngine::GameObject::SendMessage(::StringW methodName, /* [DefaultValue("null")] */ ::System::Object* value,
+                                                 /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
                                               { "SendMessage", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::SendMessageOptions>() } })));
@@ -2037,7 +2044,8 @@ inline void UnityEngine::GameObject::SendMessage(::StringW methodName) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "SendMessage", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodName);
 }
-inline void UnityEngine::GameObject::BroadcastMessage(::StringW methodName, ::System::Object* parameter, ::UnityEngine::SendMessageOptions options) {
+inline void UnityEngine::GameObject::BroadcastMessage(::StringW methodName, /* [DefaultValue("null")] */ ::System::Object* parameter,
+                                                      /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
                                               { "BroadcastMessage", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::SendMessageOptions>() } })));
@@ -2060,12 +2068,12 @@ inline void UnityEngine::GameObject::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::GameObject::_ctor(::StringW name, ::ArrayW<::System::Type*> components) {
+inline void UnityEngine::GameObject::_ctor(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Type*> components) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, components);
 }
-inline void UnityEngine::GameObject::Internal_CreateGameObject(::UnityEngine::GameObject* self, ::StringW name) {
+inline void UnityEngine::GameObject::Internal_CreateGameObject(/* [Writable] */ ::UnityEngine::GameObject* self, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "Internal_CreateGameObject", {}, { ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<::StringW>() } })));
@@ -2328,8 +2336,9 @@ inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> UnityEngine::GameObject::Fi
       (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "FindGameObjectsWithTag_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::GameObject>>>(nullptr, ___internal_method, tag);
 }
-inline void UnityEngine::GameObject::SendMessageUpwards_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName, ::System::Object* value,
-                                                                 ::UnityEngine::SendMessageOptions options) {
+inline void UnityEngine::GameObject::SendMessageUpwards_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName,
+                                                                 /* [DefaultValue("null")] */ ::System::Object* value,
+                                                                 /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "SendMessageUpwards_Injected",
@@ -2338,8 +2347,9 @@ inline void UnityEngine::GameObject::SendMessageUpwards_Injected(::System::IntPt
                                                                                           ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::SendMessageOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, methodName, value, options);
 }
-inline void UnityEngine::GameObject::SendMessage_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName, ::System::Object* value,
-                                                          ::UnityEngine::SendMessageOptions options) {
+inline void UnityEngine::GameObject::SendMessage_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName,
+                                                          /* [DefaultValue("null")] */ ::System::Object* value,
+                                                          /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "SendMessage_Injected",
@@ -2348,8 +2358,9 @@ inline void UnityEngine::GameObject::SendMessage_Injected(::System::IntPtr _unit
                                                                                           ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::SendMessageOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, methodName, value, options);
 }
-inline void UnityEngine::GameObject::BroadcastMessage_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName, ::System::Object* parameter,
-                                                               ::UnityEngine::SendMessageOptions options) {
+inline void UnityEngine::GameObject::BroadcastMessage_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName,
+                                                               /* [DefaultValue("null")] */ ::System::Object* parameter,
+                                                               /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "BroadcastMessage_Injected",
@@ -2358,7 +2369,7 @@ inline void UnityEngine::GameObject::BroadcastMessage_Injected(::System::IntPtr 
                                                                                           ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::SendMessageOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, methodName, parameter, options);
 }
-inline void UnityEngine::GameObject::Internal_CreateGameObject_Injected(::UnityEngine::GameObject* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name) {
+inline void UnityEngine::GameObject::Internal_CreateGameObject_Injected(/* [Writable] */ ::UnityEngine::GameObject* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
@@ -2402,7 +2413,7 @@ inline ::UnityEngine::GameObject* UnityEngine::GameObject::New_ctor(::StringW na
 inline ::UnityEngine::GameObject* UnityEngine::GameObject::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::GameObject*>());
 }
-inline ::UnityEngine::GameObject* UnityEngine::GameObject::New_ctor(::StringW name, ::ArrayW<::System::Type*> components) {
+inline ::UnityEngine::GameObject* UnityEngine::GameObject::New_ctor(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Type*> components) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::GameObject*>(name, components));
 }
 // Ctor Parameters []

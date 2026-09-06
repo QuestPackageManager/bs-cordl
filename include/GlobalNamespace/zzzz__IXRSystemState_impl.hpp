@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IXRSystemState.hpp"
+// IWYU pragma private; include "GlobalNamespace/IXRSystemState.hpp"
 #include "GlobalNamespace/zzzz__IXRSystemState_def.hpp"
 #include "GlobalNamespace/zzzz__XRSystemEventType_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -83,7 +83,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::IXRSystemState::AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks) {
+inline void GlobalNamespace::IXRSystemState::AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener,
+                                                         /* [ParamArray] */ ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IXRSystemState*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, listener, initialStateChecks);
 }

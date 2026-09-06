@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Utils\ConsoleLogsCache.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Utils/ConsoleLogsCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache___c__DisplayClass7_0*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache*, "Meta.XR.ImmersiveDebugger.Utils", "ConsoleLogsCache");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache___c__DisplayClass7_0*, "Meta.XR.ImmersiveDebugger.Utils", "ConsoleLogsCache/<>c__DisplayClass7_0");
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.LogType
 namespace Meta::XR::ImmersiveDebugger::Utils {
 // Is value type: false
@@ -88,13 +89,13 @@ protected:
   constexpr ConsoleLogsCache___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogsCache___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogsCache___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConsoleLogsCache___c__DisplayClass7_0(ConsoleLogsCache___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogsCache___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogsCache___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleLogsCache___c__DisplayClass7_0(ConsoleLogsCache___c__DisplayClass7_0 const&) = delete;
+  ConsoleLogsCache___c__DisplayClass7_0(ConsoleLogsCache___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18347 };
@@ -148,6 +149,7 @@ public:
   /// @brief Method OnApplicationQuitting, addr 0x5a46150, size 0xa4, virtual false, abstract: false, final false
   static inline void OnApplicationQuitting();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)2)]
   /// @brief Method OnLoad, addr 0x5a461f4, size 0x18c, virtual false, abstract: false, final false
   static inline void OnLoad();
 
@@ -172,13 +174,13 @@ protected:
   constexpr ConsoleLogsCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogsCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogsCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConsoleLogsCache(ConsoleLogsCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogsCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogsCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleLogsCache(ConsoleLogsCache const&) = delete;
+  ConsoleLogsCache(ConsoleLogsCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18348 };

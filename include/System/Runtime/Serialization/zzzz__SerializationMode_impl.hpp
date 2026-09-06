@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SerializationMode.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SerializationMode.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationMode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Serialization::SerializationMode::SerializationMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

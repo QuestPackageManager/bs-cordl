@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Cache.hpp"
+// IWYU pragma private; include "UnityEngine/Cache.hpp"
 #include "UnityEngine/zzzz__Cache_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -230,7 +230,7 @@ constexpr UnityEngine::Cache::operator ::System::IEquatable_1<::UnityEngine::Cac
 constexpr ::System::IEquatable_1<::UnityEngine::Cache>* UnityEngine::Cache::i___System__IEquatable_1___UnityEngine__Cache_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Cache>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Cache::Cache(int32_t m_Handle) noexcept {
   this->m_Handle = m_Handle;
 }

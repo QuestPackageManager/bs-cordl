@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIElementsRuntimeUtilityNative.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIElementsRuntimeUtilityNative.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIElementsRuntimeUtilityNative_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

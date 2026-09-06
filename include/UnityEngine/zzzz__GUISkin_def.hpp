@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUISkin.hpp"
+// IWYU pragma private; include "UnityEngine/GUISkin.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +66,13 @@ protected:
   constexpr GUISkin_SkinChangedDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUISkin_SkinChangedDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUISkin_SkinChangedDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUISkin_SkinChangedDelegate(GUISkin_SkinChangedDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUISkin_SkinChangedDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUISkin_SkinChangedDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUISkin_SkinChangedDelegate(GUISkin_SkinChangedDelegate const&) = delete;
+  GUISkin_SkinChangedDelegate(GUISkin_SkinChangedDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19883 };
@@ -83,6 +83,9 @@ public:
 static_assert(sizeof(::UnityEngine::GUISkin_SkinChangedDelegate) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine
+// [RequiredByNativeCode]
+// [ExecuteInEditMode]
+// [AssetFileNameExtension("guiskin", new[] {  })]
 // Dependencies UnityEngine.GUIStyle, UnityEngine.ScriptableObject
 namespace UnityEngine {
 // Is value type: false
@@ -600,53 +603,65 @@ protected:
   constexpr GUISkin();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUISkin", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUISkin", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUISkin(GUISkin&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUISkin", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUISkin", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUISkin(GUISkin const&) = delete;
+  GUISkin(GUISkinconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19884 };
 
+  /// [SerializeField]
   /// @brief Field m_Font, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Font> ___m_Font;
 
+  /// [SerializeField]
   /// @brief Field m_box, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_box;
 
+  /// [SerializeField]
   /// @brief Field m_button, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_button;
 
+  /// [SerializeField]
   /// @brief Field m_toggle, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_toggle;
 
+  /// [SerializeField]
   /// @brief Field m_label, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_label;
 
+  /// [SerializeField]
   /// @brief Field m_textField, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_textField;
 
+  /// [SerializeField]
   /// @brief Field m_textArea, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_textArea;
 
+  /// [SerializeField]
   /// @brief Field m_window, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_window;
 
+  /// [SerializeField]
   /// @brief Field m_horizontalSlider, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_horizontalSlider;
 
+  /// [SerializeField]
   /// @brief Field m_horizontalSliderThumb, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_horizontalSliderThumb;
 
   /// @brief Field m_horizontalSliderThumbExtent, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_horizontalSliderThumbExtent;
 
+  /// [SerializeField]
   /// @brief Field m_verticalSlider, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_verticalSlider;
 
+  /// [SerializeField]
   /// @brief Field m_verticalSliderThumb, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_verticalSliderThumb;
 
@@ -656,36 +671,47 @@ public:
   /// @brief Field m_SliderMixed, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_SliderMixed;
 
+  /// [SerializeField]
   /// @brief Field m_horizontalScrollbar, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_horizontalScrollbar;
 
+  /// [SerializeField]
   /// @brief Field m_horizontalScrollbarThumb, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_horizontalScrollbarThumb;
 
+  /// [SerializeField]
   /// @brief Field m_horizontalScrollbarLeftButton, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_horizontalScrollbarLeftButton;
 
+  /// [SerializeField]
   /// @brief Field m_horizontalScrollbarRightButton, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_horizontalScrollbarRightButton;
 
+  /// [SerializeField]
   /// @brief Field m_verticalScrollbar, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_verticalScrollbar;
 
+  /// [SerializeField]
   /// @brief Field m_verticalScrollbarThumb, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_verticalScrollbarThumb;
 
+  /// [SerializeField]
   /// @brief Field m_verticalScrollbarUpButton, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_verticalScrollbarUpButton;
 
+  /// [SerializeField]
   /// @brief Field m_verticalScrollbarDownButton, offset: 0xc8, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_verticalScrollbarDownButton;
 
+  /// [SerializeField]
   /// @brief Field m_ScrollView, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_ScrollView;
 
+  /// [SerializeField]
   /// @brief Field m_CustomStyles, offset: 0xd8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::GUIStyle*> ___m_CustomStyles;
 
+  /// [SerializeField]
   /// @brief Field m_Settings, offset: 0xe0, size: 0x8, def value: None
   ::UnityEngine::GUISettings* ___m_Settings;
 

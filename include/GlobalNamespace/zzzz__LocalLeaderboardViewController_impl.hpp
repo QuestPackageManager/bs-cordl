@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardViewController.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsModel_impl.hpp"
@@ -65,10 +65,10 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityW<::GlobalNamespace::LocalLeaderboardViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::LocalLeaderboardViewController>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LocalLeaderboardViewController> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -458,7 +458,7 @@ inline void GlobalNamespace::LocalLeaderboardViewController::Setup(bool enableCl
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardViewController*>(), { "Setup", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, enableClear);
 }
-inline void GlobalNamespace::LocalLeaderboardViewController::SetData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::LocalLeaderboardViewController::SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::LocalLeaderboardViewController*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey);

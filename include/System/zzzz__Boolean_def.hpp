@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Boolean.hpp"
+// IWYU pragma private; include "System/Boolean.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ struct Boolean;
 // Write type traits
 MARK_VAL_T(::System::Boolean);
 DEFINE_IL2CPP_CLASS(::System::Boolean, "System", "Boolean");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -82,6 +83,7 @@ public:
   /// @brief Method Equals, addr 0x5bb0344, size 0x34, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NonVersionable]
   /// @brief Method Equals, addr 0x5bb0378, size 0x14, virtual true, abstract: false, final true
   inline bool Equals(bool obj);
 
@@ -181,7 +183,7 @@ public:
   // @brief default ctor
   constexpr Boolean();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr Boolean(bool m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

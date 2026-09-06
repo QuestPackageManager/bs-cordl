@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialRestartController.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialRestartController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class TutorialRestartController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TutorialRestartController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TutorialRestartController*, "", "TutorialRestartController");
+// [AddComponentMenu("Beat Saber/Gameplay/TutorialRestartController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -55,17 +56,18 @@ protected:
   constexpr TutorialRestartController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialRestartController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialRestartController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialRestartController(TutorialRestartController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialRestartController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialRestartController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialRestartController(TutorialRestartController const&) = delete;
+  TutorialRestartController(TutorialRestartControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6046 };
 
+  /// [Inject]
   /// @brief Field _tutorialSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::TutorialScenesTransitionSetupData* ____tutorialSceneSetupData;
 

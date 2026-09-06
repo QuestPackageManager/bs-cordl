@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapSaveDataHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapSaveDataHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSaveDataHelpers_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSaveDataHelpers_def.hpp"

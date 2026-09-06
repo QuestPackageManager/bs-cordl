@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\InternalPrimitiveTypeE.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   // @brief default ctor
   constexpr InternalPrimitiveTypeE();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InternalPrimitiveTypeE(int32_t value__) noexcept;
 
   /// @brief Field Boolean value: I32(1)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\BufferUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/BufferUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BufferUtils_def.hpp"
 #include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(::
     return ___internal_method;
   }
 };
-inline ::ArrayW<char16_t> Newtonsoft::Json::Utilities::BufferUtils::RentBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize) {
+inline ::ArrayW<char16_t> Newtonsoft::Json::Utilities::BufferUtils::RentBuffer(/* [Nullable(2)] */ ::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::BufferUtils*>(),
                                                            { "RentBuffer", {}, { ::i2c::type_of<::Newtonsoft::Json::IArrayPool_1<char16_t>*>(), ::i2c::type_of<int32_t>() } })));

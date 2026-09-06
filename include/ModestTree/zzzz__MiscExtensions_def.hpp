@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\MiscExtensions.hpp"
+// IWYU pragma private; include "ModestTree/MiscExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class MiscExtensions;
 // Write type traits
 MARK_REF_T(::ModestTree::MiscExtensions*);
 DEFINE_IL2CPP_CLASS(::ModestTree::MiscExtensions*, "ModestTree", "MiscExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
@@ -40,30 +41,39 @@ namespace ModestTree {
 class CORDL_TYPE MiscExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AllocFreeAddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AllocFreeAddRange(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<T>* items);
 
+  /// [Extension]
   /// @brief Method Fmt, addr 0x6e3f0c8, size 0x1a4, virtual false, abstract: false, final false
-  static inline ::StringW Fmt(::StringW s, ::ArrayW<::System::Object*> args);
+  static inline ::StringW Fmt(::StringW s, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
+  /// [Extension]
   /// @brief Method GetValueAndRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TVal> static inline TVal GetValueAndRemove(::System::Collections::Generic::IDictionary_2<TKey, TVal>* dictionary, TKey key);
 
+  /// [Extension]
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::IList_1<T>* list, T item);
 
+  /// [Extension]
   /// @brief Method Join, addr 0x6e3ff34, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW Join(::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
 
+  /// [Extension]
   /// @brief Method RemoveWithConfirm, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TVal> static inline void RemoveWithConfirm(::System::Collections::Generic::IDictionary_2<TKey, TVal>* dictionary, TKey key);
 
+  /// [Extension]
   /// @brief Method RemoveWithConfirm, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void RemoveWithConfirm(::System::Collections::Generic::IList_1<T>* list, T item);
 
+  /// [Extension]
   /// @brief Method RemoveWithConfirm, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void RemoveWithConfirm(::System::Collections::Generic::LinkedList_1<T>* list, T item);
 
+  /// [Extension]
   /// @brief Method RemoveWithConfirm, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void RemoveWithConfirm(::System::Collections::Generic::HashSet_1<T>* set, T item);
 
@@ -73,13 +83,13 @@ protected:
   constexpr MiscExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MiscExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MiscExtensions(MiscExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MiscExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MiscExtensions(MiscExtensions const&) = delete;
+  MiscExtensions(MiscExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13968 };

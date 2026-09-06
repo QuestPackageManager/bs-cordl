@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class ColorExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ColorExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ColorExtensions*, "", "ColorExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -27,21 +28,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ColorWithAlpha, addr 0x3323144, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithAlpha(::UnityEngine::Color color, float_t alpha);
 
+  /// [Extension]
   /// @brief Method ColorWithB, addr 0x3323164, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithB(::UnityEngine::Color color, float_t b);
 
+  /// [Extension]
   /// @brief Method ColorWithG, addr 0x332315c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithG(::UnityEngine::Color color, float_t g);
 
+  /// [Extension]
   /// @brief Method ColorWithMultipliedAlpha, addr 0x332314c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithMultipliedAlpha(::UnityEngine::Color color, float_t alphaMultiplier);
 
+  /// [Extension]
   /// @brief Method ColorWithR, addr 0x3323154, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithR(::UnityEngine::Color color, float_t r);
 
+  /// [Extension]
   /// @brief Method ColorWithValue, addr 0x332316c, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithValue(::UnityEngine::Color color, float_t value);
 
@@ -51,18 +58,23 @@ public:
   /// @brief Method GetColorFromHtmlString, addr 0x33230b4, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color GetColorFromHtmlString(::StringW colorHtmlString);
 
+  /// [Extension]
   /// @brief Method IsEqualTo, addr 0x33231f0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEqualTo(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
 
+  /// [Extension]
   /// @brief Method LerpRGBUnclamped, addr 0x33231c4, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color LerpRGBUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
 
+  /// [Extension]
   /// @brief Method MultiplyRGB, addr 0x33231b4, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color MultiplyRGB(::UnityEngine::Color c, float_t m);
 
+  /// [Extension]
   /// @brief Method SaturatedColor, addr 0x33230f4, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color SaturatedColor(::UnityEngine::Color color, float_t saturation);
 
+  /// [CompilerGenerated]
   /// @brief Method <FromHtmlStringRGBA>g__HtmlStringToFloat|0_0, addr 0x3323040, size 0x74, virtual false, abstract: false, final false
   static inline float_t _FromHtmlStringRGBA_g__HtmlStringToFloat_0_0(::StringW htmlColor);
 
@@ -72,13 +84,13 @@ protected:
   constexpr ColorExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorExtensions(ColorExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorExtensions(ColorExtensions const&) = delete;
+  ColorExtensions(ColorExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20730 };

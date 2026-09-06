@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue\SimplePriorityQueue_1.hpp"
+// IWYU pragma private; include "Priority_Queue/SimplePriorityQueue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ template <typename TItem> class SimplePriorityQueue_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::SimplePriorityQueue_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::SimplePriorityQueue_1, "Priority_Queue", "SimplePriorityQueue`1");
+// [NullableContext(1)]
+// [Nullable(new[] { 0, 1 })]
 // Dependencies Priority_Queue.SimplePriorityQueue`2<TItem, TPriority>
 namespace Priority_Queue {
 // cpp template
@@ -49,13 +51,13 @@ protected:
   constexpr SimplePriorityQueue_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimplePriorityQueue_1(SimplePriorityQueue_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimplePriorityQueue_1(SimplePriorityQueue_1 const&) = delete;
+  SimplePriorityQueue_1(SimplePriorityQueue_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20495 };

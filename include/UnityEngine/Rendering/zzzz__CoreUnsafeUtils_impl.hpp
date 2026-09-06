@@ -1,6 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CoreUnsafeUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CoreUnsafeUtils.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Hash128_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreUnsafeUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
@@ -118,9 +121,10 @@ inline void UnityEngine::Rendering::CoreUnsafeUtils_FixedBufferStringQueue::Clea
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUnsafeUtils_FixedBufferStringQueue>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_ReadCursor", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_WriteCursor", ty: "uint8_t*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_BufferEnd", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BufferStart", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_BufferLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Count_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ReadCursor", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_WriteCursor", ty: "uint8_t*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_BufferEnd", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BufferStart", ty: "uint8_t*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_BufferLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Count_k__BackingField", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CoreUnsafeUtils_FixedBufferStringQueue::CoreUnsafeUtils_FixedBufferStringQueue(uint8_t* m_ReadCursor, uint8_t* m_WriteCursor, uint8_t* m_BufferEnd,
                                                                                                                    uint8_t* m_BufferStart, int32_t m_BufferLength,
                                                                                                                    int32_t _Count_k__BackingField) noexcept {
@@ -466,7 +470,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<int32_t
     return ___internal_method;
   }
 };
-template <typename T> inline void UnityEngine::Rendering::CoreUnsafeUtils::CopyTo(::System::Collections::Generic::List_1<T>* list, void* dest, int32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::CoreUnsafeUtils::CopyTo(::System::Collections::Generic::List_1<T>* list, void* dest, int32_t count) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUnsafeUtils*>(),
@@ -474,7 +480,9 @@ template <typename T> inline void UnityEngine::Rendering::CoreUnsafeUtils::CopyT
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, list, dest, count);
 }
-template <typename T> inline void UnityEngine::Rendering::CoreUnsafeUtils::CopyTo(::ArrayW<T> list, void* dest, int32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::CoreUnsafeUtils::CopyTo(::ArrayW<T> list, void* dest, int32_t count) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUnsafeUtils*>(),
                                                            { "CopyTo", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
@@ -577,13 +585,20 @@ inline void UnityEngine::Rendering::CoreUnsafeUtils::QuickSort(::ArrayW<uint64_t
                                                            { "QuickSort", {}, { ::i2c::type_of<::ArrayW<uint64_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, arr, left, right);
 }
-template <typename T> inline void UnityEngine::Rendering::CoreUnsafeUtils::QuickSort(int32_t count, void* data) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::CoreUnsafeUtils::QuickSort(int32_t count, void* data) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUnsafeUtils*>(),
                                                                                               { "QuickSort", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>(), ::i2c::type_of<void*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, count, data);
 }
-template <typename TValue, typename TKey, typename TGetter> inline void UnityEngine::Rendering::CoreUnsafeUtils::QuickSort(int32_t count, void* data) {
+template <typename TValue, typename TKey, typename TGetter>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> && ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> &&
+           ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::type_constraint<TGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TValue, TKey>*> && ::cordl_internals::value_type_constraint<TGetter> &&
+           ::cordl_internals::default_constructor_constraint<TGetter>)
+inline void UnityEngine::Rendering::CoreUnsafeUtils::QuickSort(int32_t count, void* data) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUnsafeUtils*>(),
@@ -592,7 +607,12 @@ template <typename TValue, typename TKey, typename TGetter> inline void UnityEng
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TGetter>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, count, data);
 }
-template <typename TValue, typename TKey, typename TGetter> inline void UnityEngine::Rendering::CoreUnsafeUtils::QuickSort(void* data, int32_t left, int32_t right) {
+template <typename TValue, typename TKey, typename TGetter>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> && ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> &&
+           ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::type_constraint<TGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TValue, TKey>*> && ::cordl_internals::value_type_constraint<TGetter> &&
+           ::cordl_internals::default_constructor_constraint<TGetter>)
+inline void UnityEngine::Rendering::CoreUnsafeUtils::QuickSort(void* data, int32_t left, int32_t right) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUnsafeUtils*>(), { "QuickSort",
                                                                                                                { ::i2c::class_of<TValue>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TGetter>() },
@@ -601,7 +621,9 @@ template <typename TValue, typename TKey, typename TGetter> inline void UnityEng
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TGetter>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, left, right);
 }
-template <typename T> inline int32_t UnityEngine::Rendering::CoreUnsafeUtils::IndexOf(void* data, int32_t count, T v) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t UnityEngine::Rendering::CoreUnsafeUtils::IndexOf(void* data, int32_t count, T v) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUnsafeUtils*>(),
                                                            { "IndexOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<T>() } })));
@@ -609,6 +631,12 @@ template <typename T> inline int32_t UnityEngine::Rendering::CoreUnsafeUtils::In
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, data, count, v);
 }
 template <typename TOldValue, typename TOldGetter, typename TNewValue, typename TNewGetter>
+  requires(::cordl_internals::value_type_constraint<TOldValue> && ::cordl_internals::default_constructor_constraint<TOldValue> &&
+           ::cordl_internals::type_constraint<TOldGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TOldValue, ::UnityEngine::Hash128>*> &&
+           ::cordl_internals::value_type_constraint<TOldGetter> && ::cordl_internals::default_constructor_constraint<TOldGetter> && ::cordl_internals::value_type_constraint<TNewValue> &&
+           ::cordl_internals::default_constructor_constraint<TNewValue> &&
+           ::cordl_internals::type_constraint<TNewGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TNewValue, ::UnityEngine::Hash128>*> &&
+           ::cordl_internals::value_type_constraint<TNewGetter> && ::cordl_internals::default_constructor_constraint<TNewGetter>)
 inline int32_t UnityEngine::Rendering::CoreUnsafeUtils::CompareHashes(int32_t oldHashCount, void* oldHashes, int32_t newHashCount, void* newHashes, int32_t* addIndices, int32_t* removeIndices,
                                                                       ::by_ref<int32_t> addCount, ::by_ref<int32_t> remCount) {
   static auto* ___internal_method_base =
@@ -631,7 +659,11 @@ inline int32_t UnityEngine::Rendering::CoreUnsafeUtils::CompareHashes(int32_t ol
                                                   ::i2c::type_of<int32_t*>(), ::i2c::type_of<int32_t*>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, oldHashCount, oldHashes, newHashCount, newHashes, addIndices, removeIndices, addCount, remCount);
 }
-template <typename TValue, typename TGetter> inline void UnityEngine::Rendering::CoreUnsafeUtils::CombineHashes(int32_t count, void* hashes, ::UnityEngine::Hash128* outHash) {
+template <typename TValue, typename TGetter>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+           ::cordl_internals::type_constraint<TGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TValue, ::UnityEngine::Hash128>*> && ::cordl_internals::value_type_constraint<TGetter> &&
+           ::cordl_internals::default_constructor_constraint<TGetter>)
+inline void UnityEngine::Rendering::CoreUnsafeUtils::CombineHashes(int32_t count, void* hashes, ::UnityEngine::Hash128* outHash) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUnsafeUtils*>(),
                                                                                               { "CombineHashes",
                                                                                                 { ::i2c::class_of<TValue>(), ::i2c::class_of<TGetter>() },
@@ -645,7 +677,12 @@ inline void UnityEngine::Rendering::CoreUnsafeUtils::CombineHashes(int32_t count
                                               { "CombineHashes", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Hash128*>(), ::i2c::type_of<::UnityEngine::Hash128*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, count, hashes, outHash);
 }
-template <typename TValue, typename TKey, typename TGetter> inline int32_t UnityEngine::Rendering::CoreUnsafeUtils::Partition(void* data, int32_t left, int32_t right) {
+template <typename TValue, typename TKey, typename TGetter>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> && ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> &&
+           ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::type_constraint<TGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TValue, TKey>*> && ::cordl_internals::value_type_constraint<TGetter> &&
+           ::cordl_internals::default_constructor_constraint<TGetter>)
+inline int32_t UnityEngine::Rendering::CoreUnsafeUtils::Partition(void* data, int32_t left, int32_t right) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CoreUnsafeUtils*>(), { "Partition",
                                                                                                                { ::i2c::class_of<TValue>(), ::i2c::class_of<TKey>(), ::i2c::class_of<TGetter>() },

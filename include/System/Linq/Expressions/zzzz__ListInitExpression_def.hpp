@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\ListInitExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/ListInitExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class ListInitExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::ListInitExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::ListInitExpression*, "System.Linq.Expressions", "ListInitExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::ListInitExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -53,9 +54,11 @@ public:
 
   constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Initializers, addr 0x5f86af8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* get_Initializers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_NewExpression, addr 0x5f86af0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::NewExpression* get_NewExpression();
 
@@ -65,20 +68,22 @@ protected:
   constexpr ListInitExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListInitExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListInitExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListInitExpression(ListInitExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListInitExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListInitExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListInitExpression(ListInitExpression const&) = delete;
+  ListInitExpression(ListInitExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16192 };
 
+  /// [CompilerGenerated]
   /// @brief Field <NewExpression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::NewExpression* ____NewExpression_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Initializers>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* ____Initializers_k__BackingField;
 

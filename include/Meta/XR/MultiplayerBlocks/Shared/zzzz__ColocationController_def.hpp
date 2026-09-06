@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\ColocationController.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/ColocationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,20 +57,22 @@ protected:
   constexpr ColocationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColocationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColocationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColocationController(ColocationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColocationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColocationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColocationController(ColocationController const&) = delete;
+  ColocationController(ColocationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20841 };
 
+  /// [SerializeField]
   /// @brief Field ColocationReadyCallbacks, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent* ___ColocationReadyCallbacks;
 
+  /// [SerializeField]
   /// @brief Field DebuggingOptions, offset: 0x28, size: 0x8, def value: None
   ::Meta::XR::MultiplayerBlocks::Shared::ColocationDebuggingOptions* ___DebuggingOptions;
 

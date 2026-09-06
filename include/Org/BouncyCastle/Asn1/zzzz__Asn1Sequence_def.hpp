@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1Sequence.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Sequence.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,13 +115,13 @@ protected:
   constexpr Asn1Sequence_Asn1SequenceParserImpl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence_Asn1SequenceParserImpl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence_Asn1SequenceParserImpl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Sequence_Asn1SequenceParserImpl(Asn1Sequence_Asn1SequenceParserImpl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence_Asn1SequenceParserImpl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence_Asn1SequenceParserImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Sequence_Asn1SequenceParserImpl(Asn1Sequence_Asn1SequenceParserImpl const&) = delete;
+  Asn1Sequence_Asn1SequenceParserImpl(Asn1Sequence_Asn1SequenceParserImplconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 460 };
@@ -147,6 +147,7 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Asn1Sequence_Asn1SequenceParse
 static_assert(sizeof(::Org::BouncyCastle::Asn1::Asn1Sequence_Asn1SequenceParserImpl) == 0x20, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
+// [DefaultMember("Item")]
 // Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.Asn1Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
@@ -189,7 +190,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
+  static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
 
   /// @brief Method ToArray, addr 0x3685edc, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> ToArray();
@@ -213,7 +214,7 @@ public:
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
   /// @brief Method .ctor, addr 0x3685c58, size 0x108, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
 
   /// @brief Method get_Count, addr 0x3685ec4, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_Count();
@@ -233,13 +234,13 @@ protected:
   constexpr Asn1Sequence();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Sequence(Asn1Sequence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Sequence", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Sequence(Asn1Sequence const&) = delete;
+  Asn1Sequence(Asn1Sequenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 461 };

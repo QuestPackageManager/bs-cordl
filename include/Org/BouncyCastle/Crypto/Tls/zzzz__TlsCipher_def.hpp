@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsCipher.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsCipher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,18 +20,18 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsCipher {
 public:
   // Declarations
-  /// @brief Method DecodeCiphertext, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method EncodePlaintext, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method GetPlaintextLimit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsCipher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsCipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsCipher(TlsCipher const&) = delete;
+  TlsCipher(TlsCipherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1194 };

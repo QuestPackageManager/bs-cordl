@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ClosestPointCommand.hpp"
+// IWYU pragma private; include "UnityEngine/ClosestPointCommand.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ClosestPointCommand_def.hpp"
@@ -323,10 +323,10 @@ inline void UnityEngine::ClosestPointCommand::ScheduleClosestPointCommandBatch_I
                                                   ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, parameters, commands, commandLen, result, resultLen, minCommandsPerJob, ret);
 }
-// Ctor Parameters [CppParam { name: "_point_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "_colliderInstanceID_k__BackingField", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "_scale_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_point_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_colliderInstanceID_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_scale_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ClosestPointCommand::ClosestPointCommand(::UnityEngine::Vector3 _point_k__BackingField, int32_t _colliderInstanceID_k__BackingField,
                                                                   ::UnityEngine::Vector3 _position_k__BackingField, ::UnityEngine::Quaternion _rotation_k__BackingField,
                                                                   ::UnityEngine::Vector3 _scale_k__BackingField) noexcept {

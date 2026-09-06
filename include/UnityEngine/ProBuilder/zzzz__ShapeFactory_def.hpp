@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ShapeFactory.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ShapeFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 CORDL_MODULE_EXPORT(ShapeFactory)
 namespace System {
 class Type;
@@ -24,7 +25,7 @@ class ShapeFactory;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::ShapeFactory*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::ShapeFactory*, "UnityEngine.ProBuilder", "ShapeFactory");
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: UnityEngine.ProBuilder.ShapeFactory
@@ -32,7 +33,9 @@ class CORDL_TYPE ShapeFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ProBuilder::Shapes::Shape*> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType);
 
   /// @brief Method Instantiate, addr 0x66e9e04, size 0x240, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::Shapes::Shape* shape);
@@ -46,13 +49,13 @@ protected:
   constexpr ShapeFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShapeFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShapeFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShapeFactory(ShapeFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShapeFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShapeFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShapeFactory(ShapeFactory const&) = delete;
+  ShapeFactory(ShapeFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16807 };

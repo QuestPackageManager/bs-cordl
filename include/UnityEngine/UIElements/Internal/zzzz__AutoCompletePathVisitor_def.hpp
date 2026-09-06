@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\AutoCompletePathVisitor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/AutoCompletePathVisitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_def.hpp"
 #include <cstddef>
@@ -137,24 +138,31 @@ public:
   /// @brief Method .ctor, addr 0x6d207f8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6d20884, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentDepth, addr 0x6d208a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentDepth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_propertyPathInfos, addr 0x6d2086c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::PropertyPathInfo>* get_propertyPathInfos();
 
+  /// [CompilerGenerated]
   /// @brief Method get_types, addr 0x6d2087c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::System::Type*>* get_types();
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6d20894, size 0xc, virtual false, abstract: false, final false
   inline void set_current(::Unity::Properties::PropertyPath value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentDepth, addr 0x6d208a8, size 0x8, virtual false, abstract: false, final false
   inline void set_currentDepth(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_propertyPathInfos, addr 0x6d20874, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyPathInfos(::System::Collections::Generic::List_1<::UnityEngine::UIElements::PropertyPathInfo>* value);
 
@@ -164,26 +172,34 @@ protected:
   constexpr AutoCompletePathVisitor_VisitContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AutoCompletePathVisitor_VisitContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoCompletePathVisitor_VisitContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutoCompletePathVisitor_VisitContext(AutoCompletePathVisitor_VisitContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AutoCompletePathVisitor_VisitContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoCompletePathVisitor_VisitContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutoCompletePathVisitor_VisitContext(AutoCompletePathVisitor_VisitContext const&) = delete;
+  AutoCompletePathVisitor_VisitContext(AutoCompletePathVisitor_VisitContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5505 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <propertyPathInfos>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::PropertyPathInfo>* ____propertyPathInfos_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <types>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::System::Type*>* ____types_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <current>k__BackingField, offset: 0x20, size: 0x90, def value: None
   ::Unity::Properties::PropertyPath ____current_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <currentDepth>k__BackingField, offset: 0xb0, size: 0x4, def value: None
   int32_t ____currentDepth_k__BackingField;
 
@@ -226,7 +242,7 @@ public:
   // @brief default ctor
   constexpr AutoCompletePathVisitor_InspectedTypeScope_1();
 
-  // Ctor Parameters [CppParam { name: "m_VisitContext", ty: "::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_VisitContext", ty: "::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*", modifiers: "", def_value: None, comment: None }]
   constexpr AutoCompletePathVisitor_InspectedTypeScope_1(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext* m_VisitContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -268,7 +284,7 @@ public:
   // @brief default ctor
   constexpr AutoCompletePathVisitor_VisitedPropertyScope();
 
-  // Ctor Parameters [CppParam { name: "m_VisitContext", ty: "::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_VisitContext", ty: "::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*", modifiers: "", def_value: None, comment: None }]
   constexpr AutoCompletePathVisitor_VisitedPropertyScope(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext* m_VisitContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -288,7 +304,7 @@ static_assert(offsetof(::UnityEngine::UIElements::Internal::AutoCompletePathVisi
 static_assert(sizeof(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitedPropertyScope) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal
-// Dependencies System.Object
+// Dependencies System.Collections.Generic.IList`1<T>, System.Object
 namespace UnityEngine::UIElements::Internal {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Internal.AutoCompletePathVisitor
@@ -331,6 +347,7 @@ public:
 
   /// @brief Method Unity.Properties.IListPropertyVisitor.Visit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TContainer, typename TList, typename TElement>
+    requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
   inline void Unity_Properties_IListPropertyVisitor_Visit(::Unity::Properties::Property_2<TContainer, TList>* property, ::by_ref<TContainer> container, ::by_ref<TList> list);
 
   /// @brief Method Unity.Properties.IPropertyBagVisitor.Visit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -360,6 +377,7 @@ public:
   /// @brief Method .ctor, addr 0x6d207a0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxDepth, addr 0x6d200d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxDepth();
 
@@ -381,13 +399,13 @@ protected:
   constexpr AutoCompletePathVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AutoCompletePathVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoCompletePathVisitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutoCompletePathVisitor(AutoCompletePathVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AutoCompletePathVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoCompletePathVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutoCompletePathVisitor(AutoCompletePathVisitor const&) = delete;
+  AutoCompletePathVisitor(AutoCompletePathVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5508 };
@@ -395,6 +413,8 @@ public:
   /// @brief Field m_VisitContext, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext* ___m_VisitContext;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <maxDepth>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____maxDepth_k__BackingField;
 

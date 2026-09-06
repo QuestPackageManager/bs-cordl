@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\FpCurve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/FpCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,11 +67,13 @@ public:
   /// @brief Method ImportPoint, addr 0x3524c9c, size 0x220, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
+  /// @brief [Obsolete("Use constructor taking order/cofactor")]
   static inline ::Org::BouncyCastle::Math::EC::FpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
   static inline ::Org::BouncyCastle::Math::EC::FpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
                                                                  ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
+  /// @brief [Obsolete("Use constructor taking order/cofactor")]
   static inline ::Org::BouncyCastle::Math::EC::FpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::EC::ECFieldElement* a,
                                                                  ::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
@@ -100,6 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_m_r(::Org::BouncyCastle::Math::BigInteger* value);
 
+  /// [Obsolete("Use constructor taking order/cofactor")]
   /// @brief Method .ctor, addr 0x3524628, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
@@ -107,6 +110,7 @@ public:
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* order,
                     ::Org::BouncyCastle::Math::BigInteger* cofactor);
 
+  /// [Obsolete("Use constructor taking order/cofactor")]
   /// @brief Method .ctor, addr 0x35248d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::EC::ECFieldElement* a,
                     ::Org::BouncyCastle::Math::EC::ECFieldElement* b);
@@ -130,13 +134,13 @@ protected:
   constexpr FpCurve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FpCurve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FpCurve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FpCurve(FpCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FpCurve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FpCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FpCurve(FpCurve const&) = delete;
+  FpCurve(FpCurveconst&) = delete;
 
   /// @brief Field FP_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t FP_DEFAULT_COORDS{ static_cast<int32_t>(0x4) };

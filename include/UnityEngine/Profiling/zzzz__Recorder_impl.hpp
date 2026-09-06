@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Profiling\Recorder.hpp"
+// IWYU pragma private; include "UnityEngine/Profiling/Recorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorderOptions_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorder_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IntCvar.hpp"
+// IWYU pragma private; include "GlobalNamespace/IntCvar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class IntCvar;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::IntCvar*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::IntCvar*, "", "IntCvar");
+// [DoesNotRequireDomainReloadInit]
 // Dependencies Cvar`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -21,6 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE IntCvar : public ::GlobalNamespace::Cvar_1<int32_t> {
 public:
   // Declarations
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x3327ea8, size 0x6c, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -35,13 +37,13 @@ protected:
   constexpr IntCvar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntCvar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntCvar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntCvar(IntCvar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntCvar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntCvar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntCvar(IntCvar const&) = delete;
+  IntCvar(IntCvarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20773 };

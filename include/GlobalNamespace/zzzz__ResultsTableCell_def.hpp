@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ResultsTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/ResultsTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,29 +91,34 @@ protected:
   constexpr ResultsTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResultsTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResultsTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResultsTableCell(ResultsTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResultsTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResultsTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResultsTableCell(ResultsTableCell const&) = delete;
+  ResultsTableCell(ResultsTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7018 };
 
+  /// [SerializeField]
   /// @brief Field _border, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____border;
 
+  /// [SerializeField]
   /// @brief Field _orderText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____orderText;
 
+  /// [SerializeField]
   /// @brief Field _nameText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
+  /// [SerializeField]
   /// @brief Field _scoreText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
+  /// [SerializeField]
   /// @brief Field _rankText, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 

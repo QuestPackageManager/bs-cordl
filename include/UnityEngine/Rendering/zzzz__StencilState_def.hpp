@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\StencilState.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/StencilState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -163,12 +163,13 @@ public:
   // @brief default ctor
   constexpr StencilState();
 
-  // Ctor Parameters [CppParam { name: "m_Enabled", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_ReadMask", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_WriteMask", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Padding", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_CompareFunctionFront", ty:
-  // "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_PassOperationFront", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_FailOperationFront", ty: "uint8_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_ZFailOperationFront", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_CompareFunctionBack", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_PassOperationBack", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_FailOperationBack", ty: "uint8_t", modifiers: "", def_value:
-  // None }, CppParam { name: "m_ZFailOperationBack", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Enabled", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ReadMask", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_WriteMask", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Padding", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_CompareFunctionFront", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PassOperationFront", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_FailOperationFront", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ZFailOperationFront", ty: "uint8_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CompareFunctionBack", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PassOperationBack",
+  // ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FailOperationBack", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_ZFailOperationBack", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr StencilState(uint8_t m_Enabled, uint8_t m_ReadMask, uint8_t m_WriteMask, uint8_t m_Padding, uint8_t m_CompareFunctionFront, uint8_t m_PassOperationFront, uint8_t m_FailOperationFront,
                          uint8_t m_ZFailOperationFront, uint8_t m_CompareFunctionBack, uint8_t m_PassOperationBack, uint8_t m_FailOperationBack, uint8_t m_ZFailOperationBack) noexcept;
 

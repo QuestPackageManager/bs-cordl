@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\CharacterSubstitution.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/CharacterSubstitution.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,8 @@ public:
   // @brief default ctor
   constexpr CharacterSubstitution();
 
-  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr CharacterSubstitution(int32_t index, uint32_t unicode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

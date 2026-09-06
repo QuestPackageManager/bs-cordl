@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ServerCodeEntryViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ServerCodeEntryViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,9 +112,11 @@ public:
   /// @brief Method .ctor, addr 0x5963f44, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5963af8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5963bb8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
@@ -124,29 +126,34 @@ protected:
   constexpr ServerCodeEntryViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServerCodeEntryViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCodeEntryViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerCodeEntryViewController(ServerCodeEntryViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServerCodeEntryViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCodeEntryViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServerCodeEntryViewController(ServerCodeEntryViewController const&) = delete;
+  ServerCodeEntryViewController(ServerCodeEntryViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6983 };
 
+  /// [SerializeField]
   /// @brief Field _uiKeyboard, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;
 
+  /// [SerializeField]
   /// @brief Field _codeInputField, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____codeInputField;
 
+  /// [SerializeField]
   /// @brief Field _joinButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____joinButton;
 
+  /// [SerializeField]
   /// @brief Field _cancelButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____cancelButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_2<bool, ::StringW>* ___didFinishEvent;
 

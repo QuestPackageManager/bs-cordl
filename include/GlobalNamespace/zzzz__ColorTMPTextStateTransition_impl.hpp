@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorTMPTextStateTransition.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorTMPTextStateTransition.hpp"
 #include "GlobalNamespace/zzzz__ColorStateTransition_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorTMPTextStateTransition_def.hpp"
 #include "GlobalNamespace/zzzz__TransitionTimingSO_def.hpp"

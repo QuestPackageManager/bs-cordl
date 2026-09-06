@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\InternedString.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/InternedString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,8 +102,8 @@ public:
   // @brief default ctor
   constexpr InternedString();
 
-  // Ctor Parameters [CppParam { name: "m_StringOriginalCase", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_StringLowerCase", ty: "::StringW", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "m_StringOriginalCase", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StringLowerCase", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr InternedString(::StringW m_StringOriginalCase, ::StringW m_StringLowerCase) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

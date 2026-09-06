@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\IArrayPool_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/IArrayPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ template <typename T> class IArrayPool_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::IArrayPool_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::IArrayPool_1, "Newtonsoft.Json", "IArrayPool`1");
+// [NullableContext(1)]
 // Dependencies
 namespace Newtonsoft::Json {
 // cpp template
@@ -22,15 +23,15 @@ template <typename T>
 class CORDL_TYPE IArrayPool_1 {
 public:
   // Declarations
-  /// @brief Method Rent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Rent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<T> Rent(int32_t minimumLength);
 
-  /// @brief Method Return, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Return(::ArrayW<T> array);
+  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Return(/* [Nullable(new[] { 2, 1 })] */ ::ArrayW<T> array);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IArrayPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IArrayPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IArrayPool_1(IArrayPool_1 const&) = delete;
+  IArrayPool_1(IArrayPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13243 };

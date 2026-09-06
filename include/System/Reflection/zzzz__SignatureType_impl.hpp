@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\SignatureType.hpp"
+// IWYU pragma private; include "System/Reflection/SignatureType.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Reflection/zzzz__SignatureType_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -1191,7 +1191,7 @@ inline ::System::Type* System::Reflection::SignatureType::MakePointerType() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureType*>(), { "MakePointerType", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
-inline ::System::Type* System::Reflection::SignatureType::MakeGenericType(::ArrayW<::System::Type*> typeArguments) {
+inline ::System::Type* System::Reflection::SignatureType::MakeGenericType(/* [ParamArray] */ ::ArrayW<::System::Type*> typeArguments) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureType*>(), { "MakeGenericType", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, typeArguments);

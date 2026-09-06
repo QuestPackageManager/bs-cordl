@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\MetaRemoteAssets\MetaRemoteAssetsRemoteCatalogLoader.hpp"
+// IWYU pragma private; include "BGLib/MetaRemoteAssets/MetaRemoteAssetsRemoteCatalogLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoad
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c*, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsRemoteCatalogLoader/<>c");
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader__LoadRemoteCatalogAsync_d__0, "BGLib.MetaRemoteAssets",
                     "MetaRemoteAssetsRemoteCatalogLoader/<LoadRemoteCatalogAsync>d__0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
@@ -86,13 +87,13 @@ protected:
   constexpr MetaRemoteAssetsRemoteCatalogLoader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsRemoteCatalogLoader___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsRemoteCatalogLoader___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MetaRemoteAssetsRemoteCatalogLoader___c(MetaRemoteAssetsRemoteCatalogLoader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsRemoteCatalogLoader___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsRemoteCatalogLoader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsRemoteCatalogLoader___c(MetaRemoteAssetsRemoteCatalogLoader___c const&) = delete;
+  MetaRemoteAssetsRemoteCatalogLoader___c(MetaRemoteAssetsRemoteCatalogLoader___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22495 };
@@ -103,6 +104,7 @@ public:
 static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c) == 0x10, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
@@ -116,6 +118,7 @@ public:
   /// @brief Method MoveNext, addr 0x331adb0, size 0x50c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x331b2bc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -126,9 +129,9 @@ public:
   // @brief default ctor
   constexpr MetaRemoteAssetsRemoteCatalogLoader__LoadRemoteCatalogAsync_d__0();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: None, comment: None }]
   constexpr MetaRemoteAssetsRemoteCatalogLoader__LoadRemoteCatalogAsync_d__0(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept;
@@ -174,6 +177,8 @@ public:
   /// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
   constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
+  /// [NullableContext(1)]
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsRemoteCatalogLoader::<LoadRemoteCatalogAsync>d__0))]
   /// @brief Method LoadRemoteCatalogAsync, addr 0x331aba0, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -191,13 +196,13 @@ protected:
   constexpr MetaRemoteAssetsRemoteCatalogLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsRemoteCatalogLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsRemoteCatalogLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MetaRemoteAssetsRemoteCatalogLoader(MetaRemoteAssetsRemoteCatalogLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsRemoteCatalogLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsRemoteCatalogLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsRemoteCatalogLoader(MetaRemoteAssetsRemoteCatalogLoader const&) = delete;
+  MetaRemoteAssetsRemoteCatalogLoader(MetaRemoteAssetsRemoteCatalogLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22497 };

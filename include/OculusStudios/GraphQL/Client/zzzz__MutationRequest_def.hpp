@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\MutationRequest.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/MutationRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,12 +64,14 @@ public:
   /// @brief Method .ctor, addr 0x5f22bec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::GraphQL::Client::GraphQLMutationOperation* mutation, bool forceRequestWhenOffline);
 
+  /// [CompilerGenerated]
   /// @brief Method add_performRequestCalled, addr 0x5f22a6c, size 0xc0, virtual false, abstract: false, final false
   inline void add_performRequestCalled(::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>* value);
 
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IMutationRequest"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IMutationRequest* i___OculusStudios__GraphQL__ClientInterface__IMutationRequest() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_performRequestCalled, addr 0x5f22b2c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_performRequestCalled(::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>* value);
 
@@ -79,17 +81,18 @@ protected:
   constexpr MutationRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MutationRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MutationRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MutationRequest(MutationRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MutationRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MutationRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MutationRequest(MutationRequest const&) = delete;
+  MutationRequest(MutationRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20405 };
 
+  /// [CompilerGenerated]
   /// @brief Field performRequestCalled, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::Client::MutationRequest*>* ___performRequestCalled;
 

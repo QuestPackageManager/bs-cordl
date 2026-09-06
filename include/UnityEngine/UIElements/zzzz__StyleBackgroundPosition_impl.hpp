@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleBackgroundPosition.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleBackgroundPosition.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPosition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleBackgroundPosition_def.hpp"
@@ -280,8 +280,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundPosit
 UnityEngine::UIElements::StyleBackgroundPosition::i___System__IEquatable_1___UnityEngine__UIElements__StyleBackgroundPosition_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundPosition>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Keyword", ty:
-// "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Keyword", ty:
+// "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleBackgroundPosition::StyleBackgroundPosition(::UnityEngine::UIElements::BackgroundPosition m_Value,
                                                                                       ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept {
   this->m_Value = m_Value;

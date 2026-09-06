@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatEffectSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatEffectSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr BeatEffectSpawner_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatEffectSpawner_InitData(BeatEffectSpawner_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatEffectSpawner_InitData(BeatEffectSpawner_InitData const&) = delete;
+  BeatEffectSpawner_InitData(BeatEffectSpawner_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5801 };
@@ -102,6 +102,7 @@ static_assert(offsetof(::GlobalNamespace::BeatEffectSpawner_InitData, ___hideNot
 static_assert(sizeof(::GlobalNamespace::BeatEffectSpawner_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/BeatEffectSpawner")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -149,6 +150,7 @@ public:
   /// @brief Method HandleNoteDidStartJump, addr 0x5989894, size 0x2d4, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
 
+  /// [Inject]
   /// @brief Method Init, addr 0x5989590, size 0x84, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BeatEffect_Pool* beatEffectPool);
 
@@ -229,35 +231,42 @@ protected:
   constexpr BeatEffectSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatEffectSpawner(BeatEffectSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatEffectSpawner(BeatEffectSpawner const&) = delete;
+  BeatEffectSpawner(BeatEffectSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5802 };
 
+  /// [SerializeField]
   /// @brief Field _effectDuration, offset: 0x20, size: 0x4, def value: None
   float_t ____effectDuration;
 
+  /// [SerializeField]
   /// @brief Field _bombColorEffect, offset: 0x24, size: 0x10, def value: None
   ::UnityEngine::Color ____bombColorEffect;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatEffectSpawner_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _bloomFog, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 

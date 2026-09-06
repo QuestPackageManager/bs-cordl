@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\Controller.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/Controller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr Controller();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "::UnityEngine::Vector3", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr Controller(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

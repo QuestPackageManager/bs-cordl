@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeIsolationScope.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeIsolationScope.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeIsolationScope_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeIsolationScope._ctor

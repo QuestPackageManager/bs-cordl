@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeSystemParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeSystemParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,16 +41,18 @@ public:
   // @brief default ctor
   constexpr ProbeVolumeSystemParameters();
 
-  // Ctor Parameters [CppParam { name: "memoryBudget", ty: "::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget", modifiers: "", def_value: None }, CppParam { name: "blendingMemoryBudget", ty:
-  // "::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget", modifiers: "", def_value: None }, CppParam { name: "shBands", ty: "::UnityEngine::Rendering::ProbeVolumeSHBands", modifiers:
-  // "", def_value: None }, CppParam { name: "supportScenarios", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportScenarioBlending", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "supportGPUStreaming", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportDiskStreaming", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "probeDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "probeSamplingDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "",
-  // def_value: None }, CppParam { name: "probeSamplingDebugTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "probeSamplingDebugMesh", ty:
-  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "offsetDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name:
-  // "fragmentationDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "scenarioBlendingShader", ty: "::UnityW<::UnityEngine::ComputeShader>",
-  // modifiers: "", def_value: None }, CppParam { name: "streamingUploadShader", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None }, CppParam { name: "sceneData", ty:
-  // "::UnityEngine::Rendering::ProbeVolumeSceneData*", modifiers: "", def_value: None }, CppParam { name: "supportsRuntimeDebug", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "memoryBudget", ty: "::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "blendingMemoryBudget", ty: "::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget", modifiers: "", def_value: None, comment: None }, CppParam { name: "shBands", ty:
+  // "::UnityEngine::Rendering::ProbeVolumeSHBands", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportScenarios", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "supportScenarioBlending", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportGPUStreaming", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "supportDiskStreaming", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "probeDebugShader", ty: "::UnityW<::UnityEngine::Shader>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "probeSamplingDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "probeSamplingDebugTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "probeSamplingDebugMesh", ty:
+  // "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "offsetDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "fragmentationDebugShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "scenarioBlendingShader",
+  // ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "streamingUploadShader", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "sceneData", ty: "::UnityEngine::Rendering::ProbeVolumeSceneData*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "supportsRuntimeDebug", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolumeSystemParameters(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget, ::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget blendingMemoryBudget,
                                         ::UnityEngine::Rendering::ProbeVolumeSHBands shBands, bool supportScenarios, bool supportScenarioBlending, bool supportGPUStreaming, bool supportDiskStreaming,
                                         ::UnityW<::UnityEngine::Shader> probeDebugShader, ::UnityW<::UnityEngine::Shader> probeSamplingDebugShader,
@@ -86,33 +88,43 @@ public:
   /// @brief Field supportDiskStreaming, offset: 0xf, size: 0x1, def value: None
   bool supportDiskStreaming;
 
+  /// [Obsolete("This field is not used anymore.")]
   /// @brief Field probeDebugShader, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> probeDebugShader;
 
+  /// [Obsolete("This field is not used anymore.")]
   /// @brief Field probeSamplingDebugShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> probeSamplingDebugShader;
 
+  /// [Obsolete("This field is not used anymore.")]
   /// @brief Field probeSamplingDebugTexture, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> probeSamplingDebugTexture;
 
+  /// [Obsolete("This field is not used anymore.")]
   /// @brief Field probeSamplingDebugMesh, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> probeSamplingDebugMesh;
 
+  /// [Obsolete("This field is not used anymore.")]
   /// @brief Field offsetDebugShader, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> offsetDebugShader;
 
+  /// [Obsolete("This field is not used anymore.")]
   /// @brief Field fragmentationDebugShader, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> fragmentationDebugShader;
 
+  /// [Obsolete("This field is not used anymore.")]
   /// @brief Field scenarioBlendingShader, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> scenarioBlendingShader;
 
+  /// [Obsolete("This field is not used anymore.")]
   /// @brief Field streamingUploadShader, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> streamingUploadShader;
 
+  /// [Obsolete("This field is not used anymore.")]
   /// @brief Field sceneData, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeSceneData* sceneData;
 
+  /// [Obsolete("This field is not used anymore. Used with the current Shader Stripping Settings. #from(2023.3)")]
   /// @brief Field supportsRuntimeDebug, offset: 0x58, size: 0x1, def value: None
   bool supportsRuntimeDebug;
 

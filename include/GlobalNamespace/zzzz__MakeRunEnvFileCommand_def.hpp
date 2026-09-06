@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MakeRunEnvFileCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/MakeRunEnvFileCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace GlobalNamespace {
 struct ConsoleMessage;
 }
 namespace GlobalNamespace {
-template <typename T> class RequiredArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class RequiredArgument_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -35,6 +37,7 @@ class MakeRunEnvFileCommand;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MakeRunEnvFileCommand*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MakeRunEnvFileCommand*, "", "MakeRunEnvFileCommand");
+// [UsedImplicitly]
 // Dependencies MakeRunsongFileBaseCommand
 namespace GlobalNamespace {
 // Is value type: false
@@ -81,13 +84,13 @@ protected:
   constexpr MakeRunEnvFileCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunEnvFileCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunEnvFileCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MakeRunEnvFileCommand(MakeRunEnvFileCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunEnvFileCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunEnvFileCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MakeRunEnvFileCommand(MakeRunEnvFileCommand const&) = delete;
+  MakeRunEnvFileCommand(MakeRunEnvFileCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19405 };

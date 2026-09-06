@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoTransitionSlider2DSelectableStateController.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoTransitionSlider2DSelectableStateController.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoTransitionSlider2DSelectableStateController_def.hpp"
 #include "HMUI/zzzz__NoTransitionSlider2D_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDifficultyMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultyMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class BeatmapDifficultyMethods;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatmapDifficultyMethods*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDifficultyMethods*, "", "BeatmapDifficultyMethods");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -25,18 +26,23 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultyMethods : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method DefaultNoteJumpMovementSpeed, addr 0x3720db8, size 0x20, virtual false, abstract: false, final false
   static inline float_t DefaultNoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
 
+  /// [Extension]
   /// @brief Method DefaultRating, addr 0x3720d68, size 0x18, virtual false, abstract: false, final false
   static inline int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
 
+  /// [Extension]
   /// @brief Method Name, addr 0x3720bd0, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
 
+  /// [Extension]
   /// @brief Method NoteJumpMovementSpeed, addr 0x3720d80, size 0x38, virtual false, abstract: false, final false
   static inline float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty, float_t noteJumpMovementSpeed, bool fastNotes);
 
+  /// [Extension]
   /// @brief Method ShortName, addr 0x3720c9c, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
@@ -46,13 +52,13 @@ protected:
   constexpr BeatmapDifficultyMethods();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMethods", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMethods", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDifficultyMethods(BeatmapDifficultyMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMethods", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDifficultyMethods(BeatmapDifficultyMethods const&) = delete;
+  BeatmapDifficultyMethods(BeatmapDifficultyMethodsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14954 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IBindingRequest.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IBindingRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IBindingRequest {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Bind(::UnityEngine::UIElements::VisualElement* element);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBindingRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBindingRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBindingRequest(IBindingRequest const&) = delete;
+  IBindingRequest(IBindingRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4061 };

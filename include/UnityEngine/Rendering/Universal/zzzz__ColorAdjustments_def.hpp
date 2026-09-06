@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ColorAdjustments.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ColorAdjustments.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class ColorAdjustments;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::ColorAdjustments*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ColorAdjustments*, "UnityEngine.Rendering.Universal", "ColorAdjustments");
+// [VolumeComponentMenu("Post-processing/Color Adjustments")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -52,6 +54,7 @@ public:
   /// @brief Method IsActive, addr 0x687dd3c, size 0xf0, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687de2c, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -99,29 +102,34 @@ protected:
   constexpr ColorAdjustments();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorAdjustments", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorAdjustments", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorAdjustments(ColorAdjustments&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorAdjustments", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorAdjustments", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorAdjustments(ColorAdjustments const&) = delete;
+  ColorAdjustments(ColorAdjustmentsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12790 };
 
+  /// [Tooltip("Adjusts the overall exposure of the scene in EV100. This is applied after HDR effect and right before tonemapping so it won\'t affect previous effects in the chain.")]
   /// @brief Field postExposure, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::FloatParameter* ___postExposure;
 
+  /// [Tooltip("Expands or shrinks the overall range of tonal values.")]
   /// @brief Field contrast, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___contrast;
 
+  /// [Tooltip("Tint the render by multiplying a color.")]
   /// @brief Field colorFilter, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::ColorParameter* ___colorFilter;
 
+  /// [Tooltip("Shift the hue of all colors.")]
   /// @brief Field hueShift, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___hueShift;
 
+  /// [Tooltip("Pushes the intensity of all colors.")]
   /// @brief Field saturation, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___saturation;
 

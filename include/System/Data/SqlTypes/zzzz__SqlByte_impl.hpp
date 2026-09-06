@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlByte.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlByte.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlByte_def.hpp"
 #include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBoolean_def.hpp"
@@ -554,7 +554,8 @@ constexpr System::Data::SqlTypes::SqlByte::operator ::System::Xml::Serialization
 constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlByte::i___System__Xml__Serialization__IXmlSerializable() {
   return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_value", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_value", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Data::SqlTypes::SqlByte::SqlByte(bool m_fNotNull, uint8_t m_value) noexcept {
   this->m_fNotNull = m_fNotNull;
   this->m_value = m_value;

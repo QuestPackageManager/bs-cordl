@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaParticle.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaParticle.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
@@ -7,7 +7,7 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::XmlSchemaParticle_Occurs::XmlSchemaParticle_Occurs(int32_t value__) noexcept {
   this->value__ = value__;
 }

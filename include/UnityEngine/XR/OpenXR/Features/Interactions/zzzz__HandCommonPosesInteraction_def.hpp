@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\HandCommonPosesInteraction.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/HandCommonPosesInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::HandCommo
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c*, "UnityEngine.XR.OpenXR.Features.Interactions", "HandCommonPosesInteraction/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c__DisplayClass17_0*, "UnityEngine.XR.OpenXR.Features.Interactions",
                     "HandCommonPosesInteraction/<>c__DisplayClass17_0");
+// [Preserve]
+// [InputControlLayout(displayName = "Hand Interaction Poses (OpenXR)", commonUsages = new[] { "LeftHand", "RightHand" }, isGenericTypeOfDevice = true)]
 // Dependencies UnityEngine.XR.OpenXR.Input.OpenXRDevice
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
@@ -89,12 +91,20 @@ public:
   __declspec(property(get = __cordl_internal_get__pokePose_k__BackingField,
                       put = __cordl_internal_set__pokePose_k__BackingField)) ::UnityEngine::XR::OpenXR::Input::PoseControl* _pokePose_k__BackingField;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 0, aliases = new[] { "device", "gripPose" }, usage = "Device")]
   __declspec(property(get = get_devicePose, put = set_devicePose)) ::UnityEngine::XR::OpenXR::Input::PoseControl* devicePose;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 0)]
   __declspec(property(get = get_pinchPose, put = set_pinchPose)) ::UnityEngine::XR::OpenXR::Input::PoseControl* pinchPose;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 0, alias = "aimPose", usage = "Pointer")]
   __declspec(property(get = get_pointer, put = set_pointer)) ::UnityEngine::XR::OpenXR::Input::PoseControl* pointer;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 0)]
   __declspec(property(get = get_pokePose, put = set_pokePose)) ::UnityEngine::XR::OpenXR::Input::PoseControl* pokePose;
 
   /// @brief Method FinishSetup, addr 0x6a0081c, size 0xfc, virtual true, abstract: false, final false
@@ -129,27 +139,35 @@ public:
   /// @brief Method .ctor, addr 0x6a00918, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_devicePose, addr 0x6a007dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_devicePose();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pinchPose, addr 0x6a0080c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pinchPose();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointer, addr 0x6a007ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pointer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pokePose, addr 0x6a007fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pokePose();
 
+  /// [CompilerGenerated]
   /// @brief Method set_devicePose, addr 0x6a007e4, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pinchPose, addr 0x6a00814, size 0x8, virtual false, abstract: false, final false
   inline void set_pinchPose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pointer, addr 0x6a007f4, size 0x8, virtual false, abstract: false, final false
   inline void set_pointer(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pokePose, addr 0x6a00804, size 0x8, virtual false, abstract: false, final false
   inline void set_pokePose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
@@ -159,26 +177,30 @@ protected:
   constexpr HandCommonPosesInteraction_HandInteractionPoses();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction_HandInteractionPoses", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction_HandInteractionPoses", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HandCommonPosesInteraction_HandInteractionPoses(HandCommonPosesInteraction_HandInteractionPoses&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction_HandInteractionPoses", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction_HandInteractionPoses", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandCommonPosesInteraction_HandInteractionPoses(HandCommonPosesInteraction_HandInteractionPoses const&) = delete;
+  HandCommonPosesInteraction_HandInteractionPoses(HandCommonPosesInteraction_HandInteractionPosesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18571 };
 
+  /// [CompilerGenerated]
   /// @brief Field <devicePose>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____devicePose_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pointer>k__BackingField, offset: 0x190, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____pointer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pokePose>k__BackingField, offset: 0x198, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____pokePose_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pinchPose>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____pinchPose_k__BackingField;
 
@@ -196,6 +218,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::Interactions::HandCo
 static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses) == 0x1a8, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Features::Interactions
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
@@ -251,13 +274,13 @@ protected:
   constexpr HandCommonPosesInteraction___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HandCommonPosesInteraction___c(HandCommonPosesInteraction___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandCommonPosesInteraction___c(HandCommonPosesInteraction___c const&) = delete;
+  HandCommonPosesInteraction___c(HandCommonPosesInteraction___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18572 };
@@ -268,6 +291,7 @@ public:
 static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Features::Interactions
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
@@ -308,13 +332,13 @@ protected:
   constexpr HandCommonPosesInteraction___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HandCommonPosesInteraction___c__DisplayClass17_0(HandCommonPosesInteraction___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandCommonPosesInteraction___c__DisplayClass17_0(HandCommonPosesInteraction___c__DisplayClass17_0 const&) = delete;
+  HandCommonPosesInteraction___c__DisplayClass17_0(HandCommonPosesInteraction___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18573 };
@@ -386,13 +410,13 @@ protected:
   constexpr HandCommonPosesInteraction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HandCommonPosesInteraction(HandCommonPosesInteraction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandCommonPosesInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandCommonPosesInteraction(HandCommonPosesInteraction const&) = delete;
+  HandCommonPosesInteraction(HandCommonPosesInteractionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18574 };

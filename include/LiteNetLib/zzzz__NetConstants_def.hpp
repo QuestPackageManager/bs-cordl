@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NetConstants.hpp"
+// IWYU pragma private; include "LiteNetLib/NetConstants.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ protected:
   constexpr NetConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetConstants(NetConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetConstants(NetConstants const&) = delete;
+  NetConstants(NetConstantsconst&) = delete;
 
   /// @brief Field ChanneledHeaderSize offset 0xffffffff size 0x4
   static constexpr int32_t ChanneledHeaderSize{ static_cast<int32_t>(0x4) };

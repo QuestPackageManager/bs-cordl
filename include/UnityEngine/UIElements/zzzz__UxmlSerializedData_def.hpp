@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlSerializedData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlSerializedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UxmlSerializedData_UxmlAttributeFlags);
 MARK_REF_T(::UnityEngine::UIElements::UxmlSerializedData*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlSerializedData_UxmlAttributeFlags, "UnityEngine.UIElements", "UxmlSerializedData/UxmlAttributeFlags");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlSerializedData*, "UnityEngine.UIElements", "UxmlSerializedData");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -56,7 +57,7 @@ public:
   // @brief default ctor
   constexpr UxmlSerializedData_UxmlAttributeFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr UxmlSerializedData_UxmlAttributeFlags(uint8_t value__) noexcept;
 
   /// @brief Field DefaultValue value: U8(2)
@@ -101,10 +102,10 @@ public:
   /// @brief Field uxmlAssetId, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_uxmlAssetId, put = __cordl_internal_set_uxmlAssetId)) int32_t uxmlAssetId;
 
-  /// @brief Method CreateInstance, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* CreateInstance();
 
-  /// @brief Method Deserialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Deserialize(::System::Object* obj);
 
   static inline ::UnityEngine::UIElements::UxmlSerializedData* New_ctor();
@@ -128,13 +129,13 @@ protected:
   constexpr UxmlSerializedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlSerializedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlSerializedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlSerializedData(UxmlSerializedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlSerializedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlSerializedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlSerializedData(UxmlSerializedData const&) = delete;
+  UxmlSerializedData(UxmlSerializedDataconst&) = delete;
 
   /// @brief Field AttributeFlagSuffix offset 0xffffffff size 0x8
   static constexpr ::ConstString AttributeFlagSuffix{ u"_UxmlAttributeFlags" };
@@ -145,6 +146,10 @@ public:
   /// @brief Field k_DefaultFlags value: U8(1)
   static ::UnityEngine::UIElements::UxmlSerializedData_UxmlAttributeFlags const k_DefaultFlags;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// [UxmlIgnore]
   /// @brief Field uxmlAssetId, offset: 0x10, size: 0x4, def value: None
   int32_t ___uxmlAssetId;
 

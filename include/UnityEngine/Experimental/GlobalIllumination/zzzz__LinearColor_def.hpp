@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\LinearColor.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LinearColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,8 +57,8 @@ public:
   // @brief default ctor
   constexpr LinearColor();
 
-  // Ctor Parameters [CppParam { name: "m_red", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_green", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_blue",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_intensity", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_red", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_green", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_blue", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_intensity", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LinearColor(float_t m_red, float_t m_green, float_t m_blue, float_t m_intensity) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

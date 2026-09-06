@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\MulticastNotSupportedException.hpp"
+// IWYU pragma private; include "System/MulticastNotSupportedException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ protected:
   constexpr MulticastNotSupportedException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MulticastNotSupportedException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulticastNotSupportedException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MulticastNotSupportedException(MulticastNotSupportedException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MulticastNotSupportedException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulticastNotSupportedException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulticastNotSupportedException(MulticastNotSupportedException const&) = delete;
+  MulticastNotSupportedException(MulticastNotSupportedExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2447 };

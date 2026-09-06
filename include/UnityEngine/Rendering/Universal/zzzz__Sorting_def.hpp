@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Sorting.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Sorting.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ MARK_VAL_T(::UnityEngine::Rendering::Universal::Sorting);
 MARK_GEN_VAL_T(::UnityEngine::Rendering::Universal::Sorting___c__DisplayClass4_0_1);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::Sorting, "UnityEngine.Rendering.Universal", "Sorting");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::Universal::Sorting___c__DisplayClass4_0_1, "UnityEngine.Rendering.Universal", "Sorting/<>c__DisplayClass4_0`1");
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // cpp template
@@ -41,7 +42,7 @@ public:
   // @brief default ctor
   constexpr Sorting___c__DisplayClass4_0_1();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<T>", modifiers: "", def_value: None, comment: None }]
   constexpr Sorting___c__DisplayClass4_0_1(::ArrayW<T> data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -91,6 +92,7 @@ public:
   /// @brief Method QuickSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void QuickSort(::ArrayW<T> data, int32_t start, int32_t end, ::System::Func_3<T, T, int32_t>* compare);
 
+  /// [CompilerGenerated]
   /// @brief Method <Median3Pivot>g__Swap|4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline void _Median3Pivot_g__Swap_4_0(int32_t a, int32_t b, ::by_ref<::UnityEngine::Rendering::Universal::Sorting___c__DisplayClass4_0_1<T>> _cordl_fixed_empty_name_whitespace);

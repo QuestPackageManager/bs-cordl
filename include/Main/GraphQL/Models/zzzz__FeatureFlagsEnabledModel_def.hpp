@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Main\GraphQL\Models\FeatureFlagsEnabledModel.hpp"
+// IWYU pragma private; include "Main/GraphQL/Models/FeatureFlagsEnabledModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Main::GraphQL::Models {
@@ -29,6 +31,9 @@ MARK_REF_T(::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeature
 DEFINE_IL2CPP_CLASS(::Main::GraphQL::Models::FeatureFlagsEnabledModel*, "Main.GraphQL.Models", "FeatureFlagsEnabledModel");
 DEFINE_IL2CPP_CLASS(::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*, "Main.GraphQL.Models",
                     "FeatureFlagsEnabledModel/XocBeatGamesFeaturesEnabledForViewerModel");
+// [NullableContext(2)]
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel, System.Nullable`1<T>
 namespace Main::GraphQL::Models {
 // Is value type: false
@@ -36,8 +41,12 @@ namespace Main::GraphQL::Models {
 class CORDL_TYPE FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
   // Declarations
+  /// [Preserve]
+  /// @brief [JsonProperty("enabled", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Enabled, put = set_Enabled)) ::System::Nullable_1<bool> Enabled;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("feature", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Feature, put = set_Feature)) ::StringW Feature;
 
   /// @brief Field <Enabled>k__BackingField, offset 0x18, size 0x2
@@ -63,15 +72,19 @@ public:
   /// @brief Method .ctor, addr 0x328b704, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Enabled, addr 0x328b6fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_Enabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Feature, addr 0x328b6ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Feature();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Enabled, addr 0x328b6f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Enabled(::System::Nullable_1<bool> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Feature, addr 0x328b6e4, size 0x8, virtual false, abstract: false, final false
   inline void set_Feature(::StringW value);
 
@@ -81,20 +94,22 @@ protected:
   constexpr FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel(FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel(FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel const&) = delete;
+  FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel(FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22900 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Feature>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Feature_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Enabled>k__BackingField, offset: 0x18, size: 0x2, def value: None
   ::System::Nullable_1<bool> ____Enabled_k__BackingField;
 
@@ -108,6 +123,7 @@ static_assert(offsetof(::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeat
 static_assert(sizeof(::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel) == 0x20, "Size mismatch!");
 
 } // namespace Main::GraphQL::Models
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace Main::GraphQL::Models {
 // Is value type: false
@@ -117,6 +133,9 @@ public:
   // Declarations
   using XocBeatGamesFeaturesEnabledForViewerModel = ::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel;
 
+  /// [Nullable(new[] { 1, 2 })]
+  /// [Preserve]
+  /// @brief [JsonProperty("xoc_beat_games_features_enabled_for_viewer", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_XocBeatGamesFeaturesEnabledForViewer, put = set_XocBeatGamesFeaturesEnabledForViewer)) ::System::Collections::Generic::List_1<
       ::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* XocBeatGamesFeaturesEnabledForViewer;
 
@@ -138,11 +157,14 @@ public:
   /// @brief Method .ctor, addr 0x328b6e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_XocBeatGamesFeaturesEnabledForViewer, addr 0x328b6d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* get_XocBeatGamesFeaturesEnabledForViewer();
 
+  /// [CompilerGenerated]
   /// @brief Method set_XocBeatGamesFeaturesEnabledForViewer, addr 0x328b6d0, size 0x8, virtual false, abstract: false, final false
-  inline void set_XocBeatGamesFeaturesEnabledForViewer(::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* value);
+  inline void set_XocBeatGamesFeaturesEnabledForViewer(
+      /* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* value);
 
 protected:
   // Ctor Parameters []
@@ -150,17 +172,19 @@ protected:
   constexpr FeatureFlagsEnabledModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FeatureFlagsEnabledModel(FeatureFlagsEnabledModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabledModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagsEnabledModel(FeatureFlagsEnabledModel const&) = delete;
+  FeatureFlagsEnabledModel(FeatureFlagsEnabledModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22901 };
 
+  /// [Nullable(new[] { 1, 2 })]
+  /// [CompilerGenerated]
   /// @brief Field <XocBeatGamesFeaturesEnabledForViewer>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* ____XocBeatGamesFeaturesEnabledForViewer_k__BackingField;
 

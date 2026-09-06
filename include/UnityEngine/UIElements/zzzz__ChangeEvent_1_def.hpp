@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ChangeEvent_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ChangeEvent_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::ChangeEvent_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::ChangeEvent_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::ChangeEvent_1, "UnityEngine.UIElements", "ChangeEvent`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::ChangeEvent_1___c, "UnityEngine.UIElements", "ChangeEvent`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
@@ -51,13 +52,13 @@ protected:
   constexpr ChangeEvent_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChangeEvent_1___c(ChangeEvent_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChangeEvent_1___c(ChangeEvent_1___c const&) = delete;
+  ChangeEvent_1___c(ChangeEvent_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4438 };
@@ -66,6 +67,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)9)]
 // Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
@@ -113,15 +115,19 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_newValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_newValue();
 
+  /// [CompilerGenerated]
   /// @brief Method get_previousValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_previousValue();
 
+  /// [CompilerGenerated]
   /// @brief Method set_newValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_newValue(T value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_previousValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_previousValue(T value);
 
@@ -131,20 +137,24 @@ protected:
   constexpr ChangeEvent_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChangeEvent_1(ChangeEvent_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChangeEvent_1(ChangeEvent_1 const&) = delete;
+  ChangeEvent_1(ChangeEvent_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4439 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <previousValue>k__BackingField, offset: 0x68, size: 0x8, def value: None
   T ____previousValue_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <newValue>k__BackingField, offset: 0x70, size: 0x8, def value: None
   T ____newValue_k__BackingField;
 

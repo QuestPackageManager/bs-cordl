@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\HttpContent.hpp"
+// IWYU pragma private; include "System/Net/Http/HttpContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -132,13 +134,13 @@ protected:
   constexpr HttpContent_FixedMemoryStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpContent_FixedMemoryStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpContent_FixedMemoryStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpContent_FixedMemoryStream(HttpContent_FixedMemoryStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpContent_FixedMemoryStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpContent_FixedMemoryStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpContent_FixedMemoryStream(HttpContent_FixedMemoryStream const&) = delete;
+  HttpContent_FixedMemoryStream(HttpContent_FixedMemoryStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20275 };
@@ -154,6 +156,7 @@ static_assert(offsetof(::System::Net::Http::HttpContent_FixedMemoryStream, ___ma
 static_assert(sizeof(::System::Net::Http::HttpContent_FixedMemoryStream) == 0x58, "Size mismatch!");
 
 } // namespace System::Net::Http
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
 namespace System::Net::Http {
 // Is value type: true
@@ -167,6 +170,7 @@ public:
   /// @brief Method MoveNext, addr 0x60dda44, size 0x224, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x60ddc68, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -177,9 +181,10 @@ public:
   // @brief default ctor
   constexpr HttpContent__CreateContentReadStreamAsync_d__12();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Net::Http::HttpContent*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr HttpContent__CreateContentReadStreamAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder,
                                                             ::System::Net::Http::HttpContent* __4__this,
                                                             ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -216,6 +221,7 @@ static_assert(offsetof(::System::Net::Http::HttpContent__CreateContentReadStream
 static_assert(sizeof(::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12) == 0x38, "Size mismatch!");
 
 } // namespace System::Net::Http
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
 namespace System::Net::Http {
 // Is value type: true
@@ -229,6 +235,7 @@ public:
   /// @brief Method MoveNext, addr 0x60ddce8, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x60ddfa4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -239,10 +246,10 @@ public:
   // @brief default ctor
   constexpr HttpContent__LoadIntoBufferAsync_d__17();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*", modifiers: "", def_value:
-  // None }, CppParam { name: "maxBufferSize", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "maxBufferSize", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr HttpContent__LoadIntoBufferAsync_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::Http::HttpContent* __4__this,
                                                    int64_t maxBufferSize, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
@@ -283,6 +290,7 @@ static_assert(offsetof(::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__
 static_assert(sizeof(::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17) == 0x40, "Size mismatch!");
 
 } // namespace System::Net::Http
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace System::Net::Http {
 // Is value type: true
@@ -296,6 +304,7 @@ public:
   /// @brief Method MoveNext, addr 0x60de010, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x60de3d4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -306,10 +315,10 @@ public:
   // @brief default ctor
   constexpr HttpContent__ReadAsStreamAsync_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Net::Http::HttpContent*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: None, comment: None }]
   constexpr HttpContent__ReadAsStreamAsync_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder,
                                                  ::System::Net::Http::HttpContent* __4__this,
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1) noexcept;
@@ -346,6 +355,7 @@ static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18
 static_assert(sizeof(::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18) == 0x38, "Size mismatch!");
 
 } // namespace System::Net::Http
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
 namespace System::Net::Http {
 // Is value type: true
@@ -359,6 +369,7 @@ public:
   /// @brief Method MoveNext, addr 0x60de454, size 0x248, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x60de69c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -369,9 +380,10 @@ public:
   // @brief default ctor
   constexpr HttpContent__ReadAsByteArrayAsync_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Net::Http::HttpContent*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr HttpContent__ReadAsByteArrayAsync_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>> __t__builder,
                                                     ::System::Net::Http::HttpContent* __4__this, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
@@ -407,6 +419,7 @@ static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d_
 static_assert(sizeof(::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19) == 0x38, "Size mismatch!");
 
 } // namespace System::Net::Http
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
 namespace System::Net::Http {
 // Is value type: true
@@ -420,6 +433,7 @@ public:
   /// @brief Method MoveNext, addr 0x60de71c, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x60dec6c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -430,9 +444,10 @@ public:
   // @brief default ctor
   constexpr HttpContent__ReadAsStringAsync_d__20();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr HttpContent__ReadAsStringAsync_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::System::Net::Http::HttpContent* __4__this,
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
@@ -512,6 +527,7 @@ public:
   /// @brief Method CopyToAsync, addr 0x60dd2a4, size 0x98, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
+  /// [AsyncStateMachine(typeof(System.Net.Http.HttpContent::<CreateContentReadStreamAsync>d__12))]
   /// @brief Method CreateContentReadStreamAsync, addr 0x60dd33c, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* CreateContentReadStreamAsync();
 
@@ -530,21 +546,25 @@ public:
   /// @brief Method LoadIntoBufferAsync, addr 0x60dd4ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync();
 
+  /// [AsyncStateMachine(typeof(System.Net.Http.HttpContent::<LoadIntoBufferAsync>d__17))]
   /// @brief Method LoadIntoBufferAsync, addr 0x60da540, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
 
   static inline ::System::Net::Http::HttpContent* New_ctor();
 
+  /// [AsyncStateMachine(typeof(System.Net.Http.HttpContent::<ReadAsByteArrayAsync>d__19))]
   /// @brief Method ReadAsByteArrayAsync, addr 0x60dd5d8, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* ReadAsByteArrayAsync();
 
+  /// [AsyncStateMachine(typeof(System.Net.Http.HttpContent::<ReadAsStreamAsync>d__18))]
   /// @brief Method ReadAsStreamAsync, addr 0x60dd4f4, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* ReadAsStreamAsync();
 
+  /// [AsyncStateMachine(typeof(System.Net.Http.HttpContent::<ReadAsStringAsync>d__20))]
   /// @brief Method ReadAsStringAsync, addr 0x60dd068, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync();
 
-  /// @brief Method SerializeToStreamAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
   /// @brief Method SerializeToStreamAsync_internal, addr 0x60dd8b0, size 0xc, virtual false, abstract: false, final false
@@ -553,7 +573,7 @@ public:
   /// @brief Method StartsWith, addr 0x60dd83c, size 0x74, virtual false, abstract: false, final false
   static inline int32_t StartsWith(::ArrayW<uint8_t> array, int32_t length, ::ArrayW<uint8_t> value);
 
-  /// @brief Method TryComputeLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryComputeLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryComputeLength(::by_ref<int64_t> length);
 
   constexpr ::System::Net::Http::HttpContent_FixedMemoryStream* const& __cordl_internal_get_buffer() const;
@@ -598,13 +618,13 @@ protected:
   constexpr HttpContent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpContent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpContent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpContent(HttpContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpContent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpContent(HttpContent const&) = delete;
+  HttpContent(HttpContentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20281 };

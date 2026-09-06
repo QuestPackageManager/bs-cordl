@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeEventHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimeEventHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Mono/zzzz__RuntimeEventHandle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -68,7 +68,7 @@ inline int32_t Mono::RuntimeEventHandle::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Mono::RuntimeEventHandle>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::RuntimeEventHandle::RuntimeEventHandle(::System::IntPtr value) noexcept {
   this->value = value;
 }

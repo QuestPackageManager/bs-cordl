@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\JsonExtension\JsonFileHandler.hpp"
+// IWYU pragma private; include "BGLib/JsonExtension/JsonFileHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/JsonExtension/zzzz__JsonFileHandler_def.hpp"
 #include "BGLib/JsonExtension/zzzz__JsonFileHandler_def.hpp"
@@ -50,7 +50,7 @@ template <typename T> inline void BGLib::JsonExtension::JsonFileHandler::WriteCo
 }
 template <typename T>
 inline void BGLib::JsonExtension::JsonFileHandler::WriteToFile(T content, ::StringW filePath, ::Newtonsoft::Json::JsonSerializerSettings* settings,
-                                                               ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize) {
+                                                               /* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::JsonExtension::JsonFileHandler*>(),
                                                            { "WriteToFile",
@@ -62,7 +62,7 @@ inline void BGLib::JsonExtension::JsonFileHandler::WriteToFile(T content, ::Stri
 }
 template <typename T>
 inline void BGLib::JsonExtension::JsonFileHandler::WriteToText(::System::IO::TextWriter* writer, T content, ::Newtonsoft::Json::JsonSerializerSettings* settings,
-                                                               ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize) {
+                                                               /* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::JsonExtension::JsonFileHandler*>(),
                                                            { "WriteToText",

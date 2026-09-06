@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseLeaveWindowEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseLeaveWindowEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ MARK_REF_T(::UnityEngine::UIElements::MouseLeaveWindowEvent*);
 MARK_REF_T(::UnityEngine::UIElements::MouseLeaveWindowEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseLeaveWindowEvent*, "UnityEngine.UIElements", "MouseLeaveWindowEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseLeaveWindowEvent___c*, "UnityEngine.UIElements", "MouseLeaveWindowEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -58,13 +59,13 @@ protected:
   constexpr MouseLeaveWindowEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseLeaveWindowEvent___c(MouseLeaveWindowEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseLeaveWindowEvent___c(MouseLeaveWindowEvent___c const&) = delete;
+  MouseLeaveWindowEvent___c(MouseLeaveWindowEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4509 };
@@ -75,6 +76,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::MouseLeaveWindowEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)5)]
 // Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -110,13 +112,13 @@ protected:
   constexpr MouseLeaveWindowEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseLeaveWindowEvent(MouseLeaveWindowEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseLeaveWindowEvent(MouseLeaveWindowEvent const&) = delete;
+  MouseLeaveWindowEvent(MouseLeaveWindowEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4510 };

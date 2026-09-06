@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JointMotor.hpp"
+// IWYU pragma private; include "UnityEngine/JointMotor.hpp"
 #include "UnityEngine/zzzz__JointMotor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::JointMotor.get_targetVelocity
 template <>
@@ -97,8 +97,8 @@ inline void UnityEngine::JointMotor::set_freeSpin(bool value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointMotor>(), { "set_freeSpin", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_TargetVelocity", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Force", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_FreeSpin", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_TargetVelocity", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Force", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_FreeSpin", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::JointMotor::JointMotor(float_t m_TargetVelocity, float_t m_Force, int32_t m_FreeSpin) noexcept {
   this->m_TargetVelocity = m_TargetVelocity;
   this->m_Force = m_Force;

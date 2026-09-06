@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IUIElementsUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IUIElementsUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,27 +25,27 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IUIElementsUtility {
 public:
   // Declarations
-  /// @brief Method CleanupRoots, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CleanupRoots, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CleanupRoots();
 
-  /// @brief Method EndContainerGUIFromException, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EndContainerGUIFromException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MakeCurrentIMGUIContainerDirty();
 
-  /// @brief Method ProcessEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr, ::by_ref<bool> eventHandled);
 
-  /// @brief Method ReleaseCapture, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReleaseCapture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ReleaseCapture();
 
-  /// @brief Method TakeCapture, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TakeCapture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TakeCapture();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IUIElementsUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IUIElementsUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IUIElementsUtility(IUIElementsUtility const&) = delete;
+  IUIElementsUtility(IUIElementsUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5116 };

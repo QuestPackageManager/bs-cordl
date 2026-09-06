@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OculusPlatformLeaderboardsHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/OculusPlatformLeaderboardsHandler.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformLeaderboardsHandler_def.hpp"
@@ -416,8 +416,9 @@ inline bool GlobalNamespace::OculusPlatformLeaderboardsHandler::CheckMessageForV
                                                                                          { "CheckMessageForValidRequest", {}, { ::i2c::type_of<::Oculus::Platform::Message*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, message);
 }
-inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::OculusPlatformLeaderboardsHandler::GetScores(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
-                                                                                                        ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope, uint64_t referencePlayerId,
+inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::OculusPlatformLeaderboardsHandler::GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
+                                                                                                        int32_t fromRank, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope,
+                                                                                                        uint64_t referencePlayerId,
                                                                                                         ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler*>(), 4 })));

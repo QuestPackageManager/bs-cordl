@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XPath\XPathNavigator.hpp"
+// IWYU pragma private; include "System/Xml/XPath/XPathNavigator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ class XPathNavigator;
 // Write type traits
 MARK_REF_T(::System::Xml::XPath::XPathNavigator*);
 DEFINE_IL2CPP_CLASS(::System::Xml::XPath::XPathNavigator*, "System.Xml.XPath", "XPathNavigator");
+// [DebuggerDisplay("{debuggerDisplayProxy}")]
 // Dependencies System.Xml.XPath.XPathItem
 namespace System::Xml::XPath {
 // Is value type: false
@@ -110,13 +111,13 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
 
-  /// @brief Method Clone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XPath::XPathNavigator* Clone();
 
   /// @brief Method GetNamespacesInScope, addr 0x62ea138, size 0x268, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method IsSamePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsSamePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsSamePosition(::System::Xml::XPath::XPathNavigator* other);
 
   /// @brief Method IsText, addr 0x62ea490, size 0x10, virtual false, abstract: false, final false
@@ -128,16 +129,16 @@ public:
   /// @brief Method LookupPrefix, addr 0x62e9f3c, size 0x1fc, virtual true, abstract: false, final false
   inline ::StringW LookupPrefix(::StringW namespaceURI);
 
-  /// @brief Method MoveToFirstNamespace, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MoveToFirstNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope namespaceScope);
 
   /// @brief Method MoveToNamespace, addr 0x62ea3a8, size 0x9c, virtual true, abstract: false, final false
   inline bool MoveToNamespace(::StringW name);
 
-  /// @brief Method MoveToNextNamespace, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MoveToNextNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MoveToNextNamespace(::System::Xml::XPath::XPathNamespaceScope namespaceScope);
 
-  /// @brief Method MoveToParent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MoveToParent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MoveToParent();
 
   static inline ::System::Xml::XPath::XPathNavigator* New_ctor();
@@ -162,19 +163,19 @@ public:
 
   static inline ::System::Xml::XPath::XPathNavigatorKeyComparer* getStaticF_comparer();
 
-  /// @brief Method get_LocalName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NameTable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_NamespaceURI, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceURI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_NodeType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XPath::XPathNodeType get_NodeType();
 
-  /// @brief Method get_Prefix, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Prefix();
 
   /// @brief Method get_SchemaInfo, addr 0x62ea444, size 0x4c, virtual true, abstract: false, final false
@@ -227,13 +228,13 @@ protected:
   constexpr XPathNavigator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XPathNavigator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XPathNavigator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XPathNavigator(XPathNavigator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XPathNavigator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XPathNavigator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XPathNavigator(XPathNavigator const&) = delete;
+  XPathNavigator(XPathNavigatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9472 };

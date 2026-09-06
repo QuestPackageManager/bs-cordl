@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentName.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentName.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentName_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentName._ctor
@@ -169,7 +169,7 @@ inline ::StringW GlobalNamespace::EnvironmentName::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::EnvironmentName>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_environmentName", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_environmentName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EnvironmentName::EnvironmentName(::StringW _environmentName) noexcept {
   this->_environmentName = _environmentName;
 }

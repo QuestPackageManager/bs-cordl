@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteExecutionRating.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteExecutionRating.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   // @brief default ctor
   constexpr NoteExecutionRating_Rating();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NoteExecutionRating_Rating(int32_t value__) noexcept;
 
   /// @brief Field BadCut value: I32(2)
@@ -162,13 +162,13 @@ protected:
   constexpr NoteExecutionRating();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteExecutionRating", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteExecutionRating", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteExecutionRating(NoteExecutionRating&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteExecutionRating", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteExecutionRating", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteExecutionRating(NoteExecutionRating const&) = delete;
+  NoteExecutionRating(NoteExecutionRatingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15123 };

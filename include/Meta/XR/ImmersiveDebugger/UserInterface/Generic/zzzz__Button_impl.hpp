@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Button.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Button.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__InteractableController_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHapticsClip_def.hpp"

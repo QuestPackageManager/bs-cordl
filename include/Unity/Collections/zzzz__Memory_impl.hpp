@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Memory.hpp"
+// IWYU pragma private; include "Unity/Collections/Memory.hpp"
 #include "Unity/Collections/zzzz__Memory_def.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_def.hpp"
 #include "Unity/Collections/zzzz__Memory_def.hpp"
@@ -78,6 +78,7 @@ inline void* Unity::Collections::Unmanaged_Memory_Array::Resize(void* oldPointer
   return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, oldPointer, oldCount, newCount, allocator, size, align);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline T* Unity::Collections::Unmanaged_Memory_Array::Resize(T* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -88,14 +89,18 @@ inline T* Unity::Collections::Unmanaged_Memory_Array::Resize(T* oldPointer, int6
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T*>(nullptr, ___internal_method, oldPointer, oldCount, newCount, allocator);
 }
-template <typename T> inline T* Unity::Collections::Unmanaged_Memory_Array::Allocate(int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T* Unity::Collections::Unmanaged_Memory_Array::Allocate(int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unmanaged_Memory_Array>(),
                                               { "Allocate", { ::i2c::class_of<T>() }, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T*>(nullptr, ___internal_method, count, allocator);
 }
-template <typename T> inline void Unity::Collections::Unmanaged_Memory_Array::Free(T* pointer, int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::Unmanaged_Memory_Array::Free(T* pointer, int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unmanaged_Memory_Array>(),
@@ -146,14 +151,18 @@ inline void Unity::Collections::Memory_Unmanaged::Free(void* pointer, ::Unity::C
                                                            { "Free", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pointer, allocator);
 }
-template <typename T> inline T* Unity::Collections::Memory_Unmanaged::Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T* Unity::Collections::Memory_Unmanaged::Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Memory_Unmanaged>(),
                                                            { "Allocate", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T*>(nullptr, ___internal_method, allocator);
 }
-template <typename T> inline void Unity::Collections::Memory_Unmanaged::Free(T* pointer, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::Memory_Unmanaged::Free(T* pointer, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Memory_Unmanaged>(),
                                                            { "Free", { ::i2c::class_of<T>() }, { ::i2c::type_of<T*>(), ::i2c::type_of<::Unity::Collections::AllocatorManager_AllocatorHandle>() } })));
@@ -162,20 +171,26 @@ template <typename T> inline void Unity::Collections::Memory_Unmanaged::Free(T* 
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::Memory_Unmanaged::Memory_Unmanaged() {}
-template <typename T> inline void Unity::Collections::Memory_Array::Set(T* pointer, int64_t count, T t) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::Memory_Array::Set(T* pointer, int64_t count, T t) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::Memory_Array>(), { "Set", { ::i2c::class_of<T>() }, { ::i2c::type_of<T*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pointer, count, t);
 }
-template <typename T> inline void Unity::Collections::Memory_Array::Clear(T* pointer, int64_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::Memory_Array::Clear(T* pointer, int64_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Memory_Array>(), { "Clear", { ::i2c::class_of<T>() }, { ::i2c::type_of<T*>(), ::i2c::type_of<int64_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pointer, count);
 }
-template <typename T> inline void Unity::Collections::Memory_Array::Copy(T* dest, T* src, int64_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::Memory_Array::Copy(T* dest, T* src, int64_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::Memory_Array>(), { "Copy", { ::i2c::class_of<T>() }, { ::i2c::type_of<T*>(), ::i2c::type_of<T*>(), ::i2c::type_of<int64_t>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DateTimeRawInfo.hpp"
+// IWYU pragma private; include "System/DateTimeRawInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,11 @@ public:
   // @brief default ctor
   constexpr DateTimeRawInfo();
 
-  // Ctor Parameters [CppParam { name: "num", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "numCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "month",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timeMark", ty: "::System::DateTimeParse_TM", modifiers: "", def_value: None }, CppParam { name:
-  // "fraction", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "hasSameDateAndTimeSeparators", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "num", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "numCount", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "month", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "year", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "timeMark", ty: "::System::DateTimeParse_TM", modifiers: "", def_value: None, comment: None }, CppParam { name: "fraction", ty: "double_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "hasSameDateAndTimeSeparators", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr DateTimeRawInfo(int32_t* num, int32_t numCount, int32_t month, int32_t year, int32_t dayOfWeek, int32_t era, ::System::DateTimeParse_TM timeMark, double_t fraction,
                             bool hasSameDateAndTimeSeparators) noexcept;
 

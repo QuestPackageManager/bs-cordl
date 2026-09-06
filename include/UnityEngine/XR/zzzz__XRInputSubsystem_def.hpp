@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRInputSubsystem.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRInputSubsystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ protected:
   constexpr XRInputSubsystem_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRInputSubsystem_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRInputSubsystem_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRInputSubsystem_BindingsMarshaller(XRInputSubsystem_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRInputSubsystem_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRInputSubsystem_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRInputSubsystem_BindingsMarshaller(XRInputSubsystem_BindingsMarshaller const&) = delete;
+  XRInputSubsystem_BindingsMarshaller(XRInputSubsystem_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22181 };
@@ -67,6 +67,9 @@ public:
 static_assert(sizeof(::UnityEngine::XR::XRInputSubsystem_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::XR
+// [NativeType(Header = "Modules/XR/Subsystems/Input/XRInputSubsystem.h")]
+// [UsedByNativeCode]
+// [NativeConditional("ENABLE_XR")]
 // Dependencies UnityEngine.IntegratedSubsystem`1<TSubsystemDescriptor>
 namespace UnityEngine::XR {
 // Is value type: false
@@ -86,9 +89,11 @@ public:
   __declspec(property(get = __cordl_internal_get_trackingOriginUpdated,
                       put = __cordl_internal_set_trackingOriginUpdated)) ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* trackingOriginUpdated;
 
+  /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method InvokeBoundaryChangedEvent, addr 0x6e395ac, size 0xcc, virtual false, abstract: false, final false
   static inline void InvokeBoundaryChangedEvent(::System::IntPtr internalPtr);
 
+  /// [RequiredByNativeCode(GenerateProxy = true)]
   /// @brief Method InvokeTrackingOriginUpdatedEvent, addr 0x6e394e0, size 0xcc, virtual false, abstract: false, final false
   static inline void InvokeTrackingOriginUpdatedEvent(::System::IntPtr internalPtr);
 
@@ -127,15 +132,19 @@ public:
   /// @brief Method .ctor, addr 0x6e39678, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_boundaryChanged, addr 0x6e39360, size 0xc0, virtual false, abstract: false, final false
   inline void add_boundaryChanged(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_trackingOriginUpdated, addr 0x6e391e0, size 0xc0, virtual false, abstract: false, final false
   inline void add_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_boundaryChanged, addr 0x6e39420, size 0xc0, virtual false, abstract: false, final false
   inline void remove_boundaryChanged(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_trackingOriginUpdated, addr 0x6e392a0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_trackingOriginUpdated(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* value);
 
@@ -145,20 +154,24 @@ protected:
   constexpr XRInputSubsystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRInputSubsystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRInputSubsystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRInputSubsystem(XRInputSubsystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRInputSubsystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRInputSubsystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRInputSubsystem(XRInputSubsystem const&) = delete;
+  XRInputSubsystem(XRInputSubsystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22182 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field trackingOriginUpdated, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* ___trackingOriginUpdated;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field boundaryChanged, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* ___boundaryChanged;
 

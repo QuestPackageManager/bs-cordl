@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Property_2.hpp"
+// IWYU pragma private; include "Unity/Properties/Property_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(Property_2)
@@ -43,7 +44,7 @@ template <typename TContainer, typename TValue> class Property_2;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::Property_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::Property_2, "Unity.Properties", "Property`2");
-// Dependencies System.Object
+// Dependencies System.Attribute, System.Object
 namespace Unity::Properties {
 // cpp template
 template <typename TContainer, typename TValue>
@@ -87,17 +88,21 @@ public:
   inline ::System::Type* DeclaredValueType();
 
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TAttribute> inline TAttribute GetAttribute();
+  template <typename TAttribute>
+    requires(::cordl_internals::type_constraint<TAttribute, ::System::Attribute*>)
+  inline TAttribute GetAttribute();
 
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue GetValue(::by_ref<TContainer> container);
 
   /// @brief Method HasAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TAttribute> inline bool HasAttribute();
+  template <typename TAttribute>
+    requires(::cordl_internals::type_constraint<TAttribute, ::System::Attribute*>)
+  inline bool HasAttribute();
 
   static inline ::Unity::Properties::Property_2<TContainer, TValue>* New_ctor();
 
-  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::by_ref<TContainer> container, TValue value);
 
   /// @brief Method Unity.Properties.Internal.IAttributes.AddAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -124,10 +129,10 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
   /// @brief Convert to "::Unity::Properties::IProperty"
@@ -148,13 +153,13 @@ protected:
   constexpr Property_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Property_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Property_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Property_2(Property_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Property_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Property_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Property_2(Property_2 const&) = delete;
+  Property_2(Property_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19625 };

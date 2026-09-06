@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerMessageBox.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerMessageBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,13 +98,13 @@ protected:
   constexpr DebugUIHandlerMessageBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerMessageBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerMessageBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerMessageBox(DebugUIHandlerMessageBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerMessageBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerMessageBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerMessageBox(DebugUIHandlerMessageBox const&) = delete;
+  DebugUIHandlerMessageBox(DebugUIHandlerMessageBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12527 };

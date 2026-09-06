@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\RSA.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/RSA.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class RSA;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::RSA*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::RSA*, "System.Security.Cryptography", "RSA");
+// [ComVisible(true)]
 // Dependencies System.Security.Cryptography.AsymmetricAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -31,13 +32,13 @@ public:
   /// @brief Method EncryptValue, addr 0x5b0221c, size 0x50, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> EncryptValue(::ArrayW<uint8_t> rgb);
 
-  /// @brief Method ExportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
 
   /// @brief Method FromXmlString, addr 0x5b0226c, size 0x584, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
-  /// @brief Method ImportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ImportParameters(::System::Security::Cryptography::RSAParameters parameters);
 
   static inline ::System::Security::Cryptography::RSA* New_ctor();
@@ -54,13 +55,13 @@ protected:
   constexpr RSA();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RSA", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RSA", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RSA(RSA&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RSA", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RSA", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RSA(RSA const&) = delete;
+  RSA(RSAconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2972 };

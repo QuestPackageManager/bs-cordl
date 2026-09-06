@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BezierPath.hpp"
+// IWYU pragma private; include "GlobalNamespace/BezierPath.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   // @brief default ctor
   constexpr BezierPath_ControlMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BezierPath_ControlMode(int32_t value__) noexcept;
 
   /// @brief Field Aligned value: I32(0)
@@ -99,6 +99,7 @@ static_assert(offsetof(::GlobalNamespace::BezierPath_ControlMode, value__) == 0x
 static_assert(sizeof(::GlobalNamespace::BezierPath_ControlMode) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DefaultMember("Item")]
 // Dependencies BezierPath::ControlMode, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -214,6 +215,7 @@ public:
   /// @brief Method .ctor, addr 0x590237c, size 0x560, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 centre, bool initTwoSegments);
 
+  /// [CompilerGenerated]
   /// @brief Method add_bezierPathWasModifiedEvent, addr 0x5902100, size 0xac, virtual false, abstract: false, final false
   inline void add_bezierPathWasModifiedEvent(::System::Action* value);
 
@@ -232,6 +234,7 @@ public:
   /// @brief Method get_segmentsCount, addr 0x5902314, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_segmentsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_bezierPathWasModifiedEvent, addr 0x59021ac, size 0xac, virtual false, abstract: false, final false
   inline void remove_bezierPathWasModifiedEvent(::System::Action* value);
 
@@ -244,13 +247,13 @@ protected:
   constexpr BezierPath();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BezierPath", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierPath", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BezierPath(BezierPath&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BezierPath", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierPath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BezierPath(BezierPath const&) = delete;
+  BezierPath(BezierPathconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6671 };
@@ -258,6 +261,7 @@ public:
   /// @brief Field kAutoControlLength offset 0xffffffff size 0x4
   static constexpr float_t kAutoControlLength{ static_cast<float_t>(0.3f) };
 
+  /// [CompilerGenerated]
   /// @brief Field bezierPathWasModifiedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___bezierPathWasModifiedEvent;
 

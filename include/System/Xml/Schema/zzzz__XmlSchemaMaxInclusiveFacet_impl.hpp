@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaMaxInclusiveFacet.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaMaxInclusiveFacet.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaFacet_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaMaxInclusiveFacet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaMaxInclusiveFacet._ctor

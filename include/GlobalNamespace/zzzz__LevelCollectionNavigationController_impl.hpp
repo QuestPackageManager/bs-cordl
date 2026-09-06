@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelCollectionNavigationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelCollectionNavigationController.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_impl.hpp"
 #include "HMUI/zzzz__NavigationController_impl.hpp"
@@ -21,7 +21,7 @@
 #include "Tweening/zzzz__FloatTween_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelCollectionNavigationController_AlphaAnimationType::LevelCollectionNavigationController_AlphaAnimationType(int32_t value__) noexcept {
   this->value__ = value__;
 }

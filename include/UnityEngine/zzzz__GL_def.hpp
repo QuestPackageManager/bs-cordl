@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GL.hpp"
+// IWYU pragma private; include "UnityEngine/GL.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,11 @@ class GL;
 // Write type traits
 MARK_REF_T(::UnityEngine::GL*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GL*, "UnityEngine", "GL");
+// [NativeHeader("Runtime/GfxDevice/GfxDevice.h")]
+// [StaticAccessor("GetGfxDevice()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [NativeHeader("Runtime/Camera/CameraUtil.h")]
+// [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
+// [NativeHeader("Runtime/Camera/Camera.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -30,6 +35,7 @@ namespace UnityEngine {
 class CORDL_TYPE GL : public ::System::Object {
 public:
   // Declarations
+  /// [FreeFunction("GLBegin", ThrowsException = true)]
   /// @brief Method Begin, addr 0x6a89420, size 0x3c, virtual false, abstract: false, final false
   static inline void Begin(int32_t mode);
 
@@ -37,50 +43,59 @@ public:
   static inline void Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor);
 
   /// @brief Method Clear, addr 0x6a89554, size 0x4, virtual false, abstract: false, final false
-  static inline void Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, float_t depth);
+  static inline void Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, /* [DefaultValue("1.0f")] */ float_t depth);
 
   /// @brief Method Color, addr 0x6a88fe0, size 0x58, virtual false, abstract: false, final false
   static inline void Color(::UnityEngine::Color c);
 
+  /// [FreeFunction("GLEnd")]
   /// @brief Method End, addr 0x6a8945c, size 0x28, virtual false, abstract: false, final false
   static inline void End();
 
   /// @brief Method Flush, addr 0x6a890c4, size 0x28, virtual false, abstract: false, final false
   static inline void Flush();
 
+  /// [FreeFunction]
   /// @brief Method GLClear, addr 0x6a89484, size 0x6c, virtual false, abstract: false, final false
   static inline void GLClear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, float_t depth);
 
   /// @brief Method GLClear_Injected, addr 0x6a894f0, size 0x64, virtual false, abstract: false, final false
   static inline void GLClear_Injected(bool clearDepth, bool clearColor, ::by_ref<::UnityEngine::Color> backgroundColor, float_t depth);
 
+  /// [FreeFunction]
   /// @brief Method GLLoadPixelMatrixScript, addr 0x6a89370, size 0x58, virtual false, abstract: false, final false
   static inline void GLLoadPixelMatrixScript(float_t left, float_t right, float_t bottom, float_t top);
 
+  /// [FreeFunction("GLGetGPUProjectionMatrix")]
   /// @brief Method GetGPUProjectionMatrix, addr 0x6a892a0, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetGPUProjectionMatrix(::UnityEngine::Matrix4x4 proj, bool renderIntoTexture);
 
   /// @brief Method GetGPUProjectionMatrix_Injected, addr 0x6a8931c, size 0x54, virtual false, abstract: false, final false
   static inline void GetGPUProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> proj, bool renderIntoTexture, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
+  /// [NativeName("ImmediateColor")]
   /// @brief Method ImmediateColor, addr 0x6a88f88, size 0x58, virtual false, abstract: false, final false
   static inline void ImmediateColor(float_t r, float_t g, float_t b, float_t a);
 
+  /// [FreeFunction("GLLoadOrthoScript")]
   /// @brief Method LoadOrtho, addr 0x6a89200, size 0x28, virtual false, abstract: false, final false
   static inline void LoadOrtho();
 
   /// @brief Method LoadPixelMatrix, addr 0x6a893c8, size 0x58, virtual false, abstract: false, final false
   static inline void LoadPixelMatrix(float_t left, float_t right, float_t bottom, float_t top);
 
+  /// [FreeFunction("GLLoadProjectionMatrixScript")]
   /// @brief Method LoadProjectionMatrix, addr 0x6a89228, size 0x3c, virtual false, abstract: false, final false
   static inline void LoadProjectionMatrix(::UnityEngine::Matrix4x4 mat);
 
   /// @brief Method LoadProjectionMatrix_Injected, addr 0x6a89264, size 0x3c, virtual false, abstract: false, final false
   static inline void LoadProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> mat);
 
+  /// [FreeFunction("GLPopMatrixScript")]
   /// @brief Method PopMatrix, addr 0x6a891d8, size 0x28, virtual false, abstract: false, final false
   static inline void PopMatrix();
 
+  /// [FreeFunction("GLPushMatrixScript")]
   /// @brief Method PushMatrix, addr 0x6a891b0, size 0x28, virtual false, abstract: false, final false
   static inline void PushMatrix();
 
@@ -93,12 +108,15 @@ public:
   /// @brief Method TexCoord2, addr 0x6a88f44, size 0x44, virtual false, abstract: false, final false
   static inline void TexCoord2(float_t x, float_t y);
 
+  /// [NativeName("ImmediateTexCoordAll")]
   /// @brief Method TexCoord3, addr 0x6a88ef4, size 0x50, virtual false, abstract: false, final false
   static inline void TexCoord3(float_t x, float_t y, float_t z);
 
+  /// [NativeName("ImmediateVertex")]
   /// @brief Method Vertex3, addr 0x6a88ea4, size 0x50, virtual false, abstract: false, final false
   static inline void Vertex3(float_t x, float_t y, float_t z);
 
+  /// [FreeFunction("SetGLViewport")]
   /// @brief Method Viewport, addr 0x6a89560, size 0x44, virtual false, abstract: false, final false
   static inline void Viewport(::UnityEngine::Rect pixelRect);
 
@@ -123,13 +141,13 @@ protected:
   constexpr GL();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GL", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GL", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GL(GL&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GL", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GL", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GL(GL const&) = delete;
+  GL(GLconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10140 };

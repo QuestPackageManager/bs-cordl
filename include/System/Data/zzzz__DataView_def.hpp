@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataView.hpp"
+// IWYU pragma private; include "System/Data/DataView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,13 +140,13 @@ protected:
   constexpr DataView_DataRowReferenceComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataView_DataRowReferenceComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataView_DataRowReferenceComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataView_DataRowReferenceComparer(DataView_DataRowReferenceComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataView_DataRowReferenceComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataView_DataRowReferenceComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataView_DataRowReferenceComparer(DataView_DataRowReferenceComparer const&) = delete;
+  DataView_DataRowReferenceComparer(DataView_DataRowReferenceComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13798 };
@@ -157,6 +157,9 @@ public:
 static_assert(sizeof(::System::Data::DataView_DataRowReferenceComparer) == 0x10, "Size mismatch!");
 
 } // namespace System::Data
+// [DefaultMember("Item")]
+// [DefaultEvent("PositionChanged")]
+// [DefaultProperty("Table")]
 // Dependencies System.ComponentModel.MarshalByValueComponent, System.Data.DataViewRowState
 namespace System::Data {
 // Is value type: false
@@ -166,26 +169,34 @@ public:
   // Declarations
   using DataRowReferenceComparer = ::System::Data::DataView_DataRowReferenceComparer;
 
+  /// @brief [DefaultValue(true)]
   __declspec(property(get = get_AllowDelete)) bool AllowDelete;
 
+  /// @brief [DefaultValue(true)]
   __declspec(property(get = get_AllowEdit)) bool AllowEdit;
 
+  /// @brief [DefaultValue(true)]
   __declspec(property(get = get_AllowNew)) bool AllowNew;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_CountFromIndex)) int32_t CountFromIndex;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_DataViewManager)) ::System::Data::DataViewManager* DataViewManager;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_IsOpen)) bool IsOpen;
 
   __declspec(property(get = get_Item)) ::System::Data::DataRowView* Item[];
 
   __declspec(property(get = get_ObjectID)) int32_t ObjectID;
 
+  /// @brief [DefaultValue((System.Data.DataViewRowState)22)]
   __declspec(property(get = get_RowStateFilter)) ::System::Data::DataViewRowState RowStateFilter;
 
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_Sort, put = set_Sort)) ::StringW Sort;
 
   __declspec(property(get = get_SortComparison)) ::System::Comparison_1<::System::Data::DataRow*>* SortComparison;
@@ -218,6 +229,9 @@ public:
 
   __declspec(property(get = System_ComponentModel_IBindingList_get_SupportsSorting)) bool System_ComponentModel_IBindingList_SupportsSorting;
 
+  /// [DefaultValue(null)]
+  /// [RefreshProperties((System.ComponentModel.RefreshProperties)1)]
+  /// @brief [TypeConverter(typeof(System.Data.DataTableTypeConverter))]
   __declspec(property(get = get_Table)) ::System::Data::DataTable* Table;
 
   /// @brief Field _addNewMoved, offset 0x78, size 0x8
@@ -759,13 +773,13 @@ protected:
   constexpr DataView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataView(DataView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataView(DataView const&) = delete;
+  DataView(DataViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13799 };

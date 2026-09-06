@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonArrayAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonArrayAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class JsonArrayAttribute;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::JsonArrayAttribute*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonArrayAttribute*, "Newtonsoft.Json", "JsonArrayAttribute");
+// [AttributeUsage((System.AttributeTargets)1028, AllowMultiple = false)]
 // Dependencies Newtonsoft.Json.JsonContainerAttribute
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -29,6 +30,7 @@ public:
 
   static inline ::Newtonsoft::Json::JsonArrayAttribute* New_ctor(bool allowNullItems);
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::JsonArrayAttribute* New_ctor(::StringW id);
 
   constexpr bool const& __cordl_internal_get__allowNullItems() const;
@@ -43,6 +45,7 @@ public:
   /// @brief Method .ctor, addr 0x5cd3148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool allowNullItems);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5cd3150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
@@ -58,13 +61,13 @@ protected:
   constexpr JsonArrayAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonArrayAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonArrayAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonArrayAttribute(JsonArrayAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonArrayAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonArrayAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonArrayAttribute(JsonArrayAttribute const&) = delete;
+  JsonArrayAttribute(JsonArrayAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13245 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\AsmxGuidDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/AsmxGuidDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__GuidDataContract_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__AsmxGuidDataContract_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::AsmxGuidDataContract._ctor

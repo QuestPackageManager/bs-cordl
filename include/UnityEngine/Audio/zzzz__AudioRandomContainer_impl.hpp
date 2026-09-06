@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioRandomContainer.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioRandomContainer.hpp"
 #include "UnityEngine/Audio/zzzz__AudioResource_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioRandomContainer_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -10,7 +10,7 @@
 #include "UnityEngine/Audio/zzzz__AudioRandomContainerTriggerMode_def.hpp"
 #include "UnityEngine/Audio/zzzz__AudioRandomContainer_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Audio::AudioRandomContainer_ChangeEventType::AudioRandomContainer_ChangeEventType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1242,7 +1242,7 @@ inline void UnityEngine::Audio::AudioRandomContainer::NotifyObservers(::UnityEng
                                                                                          { "NotifyObservers", {}, { ::i2c::type_of<::UnityEngine::Audio::AudioRandomContainer_ChangeEventType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventType);
 }
-inline void UnityEngine::Audio::AudioRandomContainer::Internal_Create(::UnityEngine::Audio::AudioRandomContainer* self) {
+inline void UnityEngine::Audio::AudioRandomContainer::Internal_Create(/* [Writable] */ ::UnityEngine::Audio::AudioRandomContainer* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioRandomContainer*>(), { "Internal_Create", {}, { ::i2c::type_of<::UnityEngine::Audio::AudioRandomContainer*>() } })));

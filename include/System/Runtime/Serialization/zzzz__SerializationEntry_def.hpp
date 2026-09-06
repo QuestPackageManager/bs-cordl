@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SerializationEntry.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SerializationEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct SerializationEntry;
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::SerializationEntry);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");
+// [IsReadOnly]
 // Dependencies
 namespace System::Runtime::Serialization {
 // Is value type: true
@@ -43,8 +44,8 @@ public:
   // @brief default ctor
   constexpr SerializationEntry();
 
-  // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam {
-  // name: "_type", ty: "::System::Type*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }]
   constexpr SerializationEntry(::StringW _name, ::System::Object* _value, ::System::Type* _type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

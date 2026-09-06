@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\RoundedCornersDirectionExtensions.hpp"
+// IWYU pragma private; include "HMUI/RoundedCornersDirectionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class RoundedCornersDirectionExtensions;
 // Write type traits
 MARK_REF_T(::HMUI::RoundedCornersDirectionExtensions*);
 DEFINE_IL2CPP_CLASS(::HMUI::RoundedCornersDirectionExtensions*, "HMUI", "RoundedCornersDirectionExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -25,6 +26,7 @@ namespace HMUI {
 class CORDL_TYPE RoundedCornersDirectionExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method GetFlipAndSymmetry, addr 0x588776c, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetFlipAndSymmetry(::HMUI::RoundedCornersDirection direction);
 
@@ -34,13 +36,13 @@ protected:
   constexpr RoundedCornersDirectionExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RoundedCornersDirectionExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoundedCornersDirectionExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RoundedCornersDirectionExtensions(RoundedCornersDirectionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RoundedCornersDirectionExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoundedCornersDirectionExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoundedCornersDirectionExtensions(RoundedCornersDirectionExtensions const&) = delete;
+  RoundedCornersDirectionExtensions(RoundedCornersDirectionExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19095 };

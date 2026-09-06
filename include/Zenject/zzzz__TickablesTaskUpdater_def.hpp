@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\TickablesTaskUpdater.hpp"
+// IWYU pragma private; include "Zenject/TickablesTaskUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9771c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e97770, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -49,13 +50,13 @@ protected:
   constexpr TickablesTaskUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TickablesTaskUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickablesTaskUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TickablesTaskUpdater(TickablesTaskUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TickablesTaskUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickablesTaskUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickablesTaskUpdater(TickablesTaskUpdater const&) = delete;
+  TickablesTaskUpdater(TickablesTaskUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14692 };

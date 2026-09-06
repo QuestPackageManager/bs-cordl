@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\IResourceReader.hpp"
+// IWYU pragma private; include "System/Resources/IResourceReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Close();
 
-  /// @brief Method GetEnumerator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -45,9 +45,9 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IResourceReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IResourceReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IResourceReader(IResourceReader const&) = delete;
+  IResourceReader(IResourceReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3441 };

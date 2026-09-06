@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCallbacksController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCallbacksController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
@@ -24,7 +25,9 @@ namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-template <typename T> class BeatmapDataCallback_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+class BeatmapDataCallback_1;
 }
 namespace GlobalNamespace {
 class BeatmapDataItem;
@@ -131,13 +134,13 @@ protected:
   constexpr BeatmapCallbacksController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCallbacksController_InitData(BeatmapCallbacksController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController_InitData(BeatmapCallbacksController_InitData const&) = delete;
+  BeatmapCallbacksController_InitData(BeatmapCallbacksController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5613 };
@@ -170,15 +173,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapCallbacksController_ICallCallbacksBehavior {
 public:
   // Declarations
-  /// @brief Method CallCallbacks, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  /// @brief Method Replay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Replay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Replay(::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>* callbacksInTimes);
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_ICallCallbacksBehavior", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_ICallCallbacksBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController_ICallCallbacksBehavior(BeatmapCallbacksController_ICallCallbacksBehavior const&) = delete;
+  BeatmapCallbacksController_ICallCallbacksBehavior(BeatmapCallbacksController_ICallCallbacksBehaviorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5614 };
@@ -217,13 +220,13 @@ protected:
   constexpr BeatmapCallbacksController_CallCallbacksBehavior();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehavior", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehavior", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCallbacksController_CallCallbacksBehavior(BeatmapCallbacksController_CallCallbacksBehavior&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehavior", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController_CallCallbacksBehavior(BeatmapCallbacksController_CallCallbacksBehavior const&) = delete;
+  BeatmapCallbacksController_CallCallbacksBehavior(BeatmapCallbacksController_CallCallbacksBehaviorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5615 };
@@ -275,13 +278,13 @@ protected:
   constexpr BeatmapCallbacksController_CallCallbacksBehaviorWithLastState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehaviorWithLastState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehaviorWithLastState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCallbacksController_CallCallbacksBehaviorWithLastState(BeatmapCallbacksController_CallCallbacksBehaviorWithLastState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehaviorWithLastState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController_CallCallbacksBehaviorWithLastState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController_CallCallbacksBehaviorWithLastState(BeatmapCallbacksController_CallCallbacksBehaviorWithLastState const&) = delete;
+  BeatmapCallbacksController_CallCallbacksBehaviorWithLastState(BeatmapCallbacksController_CallCallbacksBehaviorWithLastStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5616 };
@@ -297,7 +300,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapCallbacksController_CallCallbac
 static_assert(sizeof(::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehaviorWithLastState) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// Dependencies BeatmapDataItem, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapCallbacksController
@@ -355,18 +358,25 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method AddBeatmapCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(float_t aheadTime, ::GlobalNamespace::BeatmapDataCallback_1<T>* callback);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+  inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(float_t aheadTime, ::GlobalNamespace::BeatmapDataCallback_1<T>* callback);
 
   /// @brief Method AddBeatmapCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(float_t aheadTime, ::GlobalNamespace::BeatmapDataCallback_1<T>* callback, ::ArrayW<int32_t> beatmapDataSubtypeIdentifiers);
-
-  /// @brief Method AddBeatmapCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(::GlobalNamespace::BeatmapDataCallback_1<T>* callback);
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+  inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(float_t aheadTime, ::GlobalNamespace::BeatmapDataCallback_1<T>* callback,
+                                                                           /* [ParamArray] */ ::ArrayW<int32_t> beatmapDataSubtypeIdentifiers);
 
   /// @brief Method AddBeatmapCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, ::ArrayW<int32_t> beatmapDataSubtypeIdentifiers);
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+  inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(::GlobalNamespace::BeatmapDataCallback_1<T>* callback);
+
+  /// @brief Method AddBeatmapCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+  inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, /* [ParamArray] */ ::ArrayW<int32_t> beatmapDataSubtypeIdentifiers);
 
   /// @brief Method Dispose, addr 0x58c2250, size 0x260, virtual true, abstract: false, final true
   inline void Dispose();
@@ -384,6 +394,7 @@ public:
   /// @brief Method ManualUpdate, addr 0x58c2560, size 0x780, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
+  /// @brief [Inject]
   static inline ::GlobalNamespace::BeatmapCallbacksController* New_ctor(::GlobalNamespace::BeatmapCallbacksController_InitData* initData);
 
   /// @brief Method RemoveBeatmapCallback, addr 0x58bf820, size 0xf4, virtual false, abstract: false, final false
@@ -455,12 +466,15 @@ public:
 
   constexpr void __cordl_internal_set_willStartProcessingCallbacksThisFrameEvent(::System::Action_1<float_t>* value);
 
+  /// [Inject]
   /// @brief Method .ctor, addr 0x58c1f08, size 0x348, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapCallbacksController_InitData* initData);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didProcessAllCallbacksThisFrameEvent, addr 0x58c1db0, size 0xac, virtual false, abstract: false, final false
   inline void add_didProcessAllCallbacksThisFrameEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_willStartProcessingCallbacksThisFrameEvent, addr 0x58c1c30, size 0xc0, virtual false, abstract: false, final false
   inline void add_willStartProcessingCallbacksThisFrameEvent(::System::Action_1<float_t>* value);
 
@@ -473,9 +487,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didProcessAllCallbacksThisFrameEvent, addr 0x58c1e5c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didProcessAllCallbacksThisFrameEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_willStartProcessingCallbacksThisFrameEvent, addr 0x58c1cf0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_willStartProcessingCallbacksThisFrameEvent(::System::Action_1<float_t>* value);
 
@@ -488,20 +504,22 @@ protected:
   constexpr BeatmapCallbacksController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCallbacksController(BeatmapCallbacksController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCallbacksController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCallbacksController(BeatmapCallbacksController const&) = delete;
+  BeatmapCallbacksController(BeatmapCallbacksControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5617 };
 
+  /// [CompilerGenerated]
   /// @brief Field willStartProcessingCallbacksThisFrameEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___willStartProcessingCallbacksThisFrameEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didProcessAllCallbacksThisFrameEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___didProcessAllCallbacksThisFrameEvent;
 

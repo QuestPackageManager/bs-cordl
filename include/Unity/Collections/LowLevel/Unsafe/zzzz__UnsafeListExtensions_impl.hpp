@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeListExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeListExtensions.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeListExtensions_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeList_1_def.hpp"
-template <typename T, typename U> inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::IndexOf(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> list, U value) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::IndexOf(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> list, U value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions*>(),
@@ -11,7 +14,9 @@ template <typename T, typename U> inline int32_t Unity::Collections::LowLevel::U
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, list, value);
 }
-template <typename T, typename U> inline bool Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::Contains(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> list, U value) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::Contains(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> list, U value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions*>(),
@@ -19,7 +24,9 @@ template <typename T, typename U> inline bool Unity::Collections::LowLevel::Unsa
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, list, value);
 }
-template <typename T, typename U> inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::IndexOf(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1_ReadOnly<T> list, U value) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::IndexOf(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1_ReadOnly<T> list, U value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions*>(),
@@ -27,7 +34,9 @@ template <typename T, typename U> inline int32_t Unity::Collections::LowLevel::U
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, list, value);
 }
-template <typename T, typename U> inline bool Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::Contains(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1_ReadOnly<T> list, U value) {
+template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::Contains(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1_ReadOnly<T> list, U value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -37,6 +46,7 @@ template <typename T, typename U> inline bool Unity::Collections::LowLevel::Unsa
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, list, value);
 }
 template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::IndexOf(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1_ParallelReader<T> list, U value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -47,6 +57,7 @@ inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::Index
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, list, value);
 }
 template <typename T, typename U>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<U>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline bool Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::Contains(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1_ParallelReader<T> list, U value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -57,8 +68,9 @@ inline bool Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::Contains
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, list, value);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline bool Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::ArraysEqual(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> container,
-                                                                                    ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>> other) {
+                                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions*>(),

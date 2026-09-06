@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\AsyncOperationBase_1.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/AsyncOperationBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,6 +82,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ResourceManagement::AsyncOperations::
                             "AsyncOperationBase`1/<>c__DisplayClass60_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1___c__DisplayClass61_0, "UnityEngine.ResourceManagement.AsyncOperations",
                             "AsyncOperationBase`1/<>c__DisplayClass61_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
@@ -114,13 +115,13 @@ protected:
   constexpr AsyncOperationBase_1___c__DisplayClass60_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass60_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass60_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncOperationBase_1___c__DisplayClass60_0(AsyncOperationBase_1___c__DisplayClass60_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass60_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass60_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperationBase_1___c__DisplayClass60_0(AsyncOperationBase_1___c__DisplayClass60_0 const&) = delete;
+  AsyncOperationBase_1___c__DisplayClass60_0(AsyncOperationBase_1___c__DisplayClass60_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18814 };
@@ -132,6 +133,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
@@ -164,13 +166,13 @@ protected:
   constexpr AsyncOperationBase_1___c__DisplayClass61_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass61_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass61_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncOperationBase_1___c__DisplayClass61_0(AsyncOperationBase_1___c__DisplayClass61_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass61_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1___c__DisplayClass61_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperationBase_1___c__DisplayClass61_0(AsyncOperationBase_1___c__DisplayClass61_0 const&) = delete;
+  AsyncOperationBase_1___c__DisplayClass61_0(AsyncOperationBase_1___c__DisplayClass61_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18815 };
@@ -333,7 +335,7 @@ public:
   /// @brief Method Destroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Execute();
 
   /// @brief Method GetDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -563,6 +565,7 @@ public:
 
   constexpr void __cordl_internal_set_m_taskCompletionSourceTypeless(::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__38_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __ctor_b__38_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o);
 
@@ -578,6 +581,7 @@ public:
   /// @brief Method add_Destroyed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_Executed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_Executed(::System::Action* value);
 
@@ -599,6 +603,7 @@ public:
   /// @brief Method get_IsDone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsRunning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsRunning();
 
@@ -614,6 +619,7 @@ public:
   /// @brief Method get_ReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_ReferenceCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Result, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TObject get_Result();
 
@@ -638,9 +644,11 @@ public:
   /// @brief Method remove_Destroyed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_Executed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_Executed(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsRunning, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_IsRunning(bool value);
 
@@ -650,6 +658,7 @@ public:
   /// @brief Method set_OperationException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_OperationException(::System::Exception* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Result, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Result(TObject value);
 
@@ -659,17 +668,18 @@ protected:
   constexpr AsyncOperationBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncOperationBase_1(AsyncOperationBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperationBase_1(AsyncOperationBase_1 const&) = delete;
+  AsyncOperationBase_1(AsyncOperationBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18816 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Result>k__BackingField, offset: 0x10, size: 0x8, def value: None
   TObject ____Result_k__BackingField;
 
@@ -703,9 +713,11 @@ public:
   /// @brief Field HasExecuted, offset: 0x58, size: 0x1, def value: None
   bool ___HasExecuted;
 
+  /// [CompilerGenerated]
   /// @brief Field Executed, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___Executed;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsRunning>k__BackingField, offset: 0x68, size: 0x1, def value: None
   bool ____IsRunning_k__BackingField;
 

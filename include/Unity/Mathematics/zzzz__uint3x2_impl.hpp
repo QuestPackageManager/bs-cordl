@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\uint3x2.hpp"
+// IWYU pragma private; include "Unity/Mathematics/uint3x2.hpp"
 #include "Unity/Mathematics/zzzz__uint3_impl.hpp"
 #include "Unity/Mathematics/zzzz__uint3x2_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -1458,8 +1458,8 @@ constexpr Unity::Mathematics::uint3x2::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* Unity::Mathematics::uint3x2::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::uint3", modifiers: "", def_value: Some("{}") }, CppParam { name: "c1", ty: "::Unity::Mathematics::uint3", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::uint3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "c1", ty: "::Unity::Mathematics::uint3",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::uint3x2::uint3x2(::Unity::Mathematics::uint3 c0, ::Unity::Mathematics::uint3 c1) noexcept {
   this->c0 = c0;
   this->c1 = c1;

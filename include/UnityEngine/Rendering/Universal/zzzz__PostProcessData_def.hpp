@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::PostProcessData*, "UnityEngine.Rendering.Universal", "PostProcessData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources*, "UnityEngine.Rendering.Universal", "PostProcessData/ShaderResources");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources*, "UnityEngine.Rendering.Universal", "PostProcessData/TextureResources");
+// [ReloadGroup]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -200,62 +201,78 @@ protected:
   constexpr PostProcessData_ShaderResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_ShaderResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_ShaderResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessData_ShaderResources(PostProcessData_ShaderResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_ShaderResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_ShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessData_ShaderResources(PostProcessData_ShaderResources const&) = delete;
+  PostProcessData_ShaderResources(PostProcessData_ShaderResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12575 };
 
+  /// [Reload("Shaders/PostProcessing/StopNaN.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field stopNanPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___stopNanPS;
 
+  /// [Reload("Shaders/PostProcessing/SubpixelMorphologicalAntialiasing.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field subpixelMorphologicalAntialiasingPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___subpixelMorphologicalAntialiasingPS;
 
+  /// [Reload("Shaders/PostProcessing/GaussianDepthOfField.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field gaussianDepthOfFieldPS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___gaussianDepthOfFieldPS;
 
+  /// [Reload("Shaders/PostProcessing/BokehDepthOfField.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field bokehDepthOfFieldPS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___bokehDepthOfFieldPS;
 
+  /// [Reload("Shaders/PostProcessing/CameraMotionBlur.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field cameraMotionBlurPS, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___cameraMotionBlurPS;
 
+  /// [Reload("Shaders/PostProcessing/PaniniProjection.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field paniniProjectionPS, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___paniniProjectionPS;
 
+  /// [Reload("Shaders/PostProcessing/LutBuilderLdr.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field lutBuilderLdrPS, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___lutBuilderLdrPS;
 
+  /// [Reload("Shaders/PostProcessing/LutBuilderHdr.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field lutBuilderHdrPS, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___lutBuilderHdrPS;
 
+  /// [Reload("Shaders/PostProcessing/Bloom.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field bloomPS, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___bloomPS;
 
+  /// [Reload("Shaders/PostProcessing/TemporalAA.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field temporalAntialiasingPS, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___temporalAntialiasingPS;
 
+  /// [Reload("Shaders/PostProcessing/LensFlareDataDriven.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field LensFlareDataDrivenPS, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___LensFlareDataDrivenPS;
 
+  /// [Reload("Shaders/PostProcessing/LensFlareScreenSpace.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field LensFlareScreenSpacePS, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___LensFlareScreenSpacePS;
 
+  /// [Reload("Shaders/PostProcessing/ScalingSetup.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field scalingSetupPS, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___scalingSetupPS;
 
+  /// [Reload("Shaders/PostProcessing/EdgeAdaptiveSpatialUpsampling.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field easuPS, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___easuPS;
 
+  /// [Reload("Shaders/PostProcessing/UberPost.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field uberPostPS, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___uberPostPS;
 
+  /// [Reload("Shaders/PostProcessing/FinalPost.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field finalPostPassPS, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___finalPostPassPS;
 
@@ -297,6 +314,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::PostProcessData_Shad
 static_assert(sizeof(::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources) == 0x90, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [ReloadGroup]
 // Dependencies System.Object, UnityEngine.Texture2D
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -351,26 +369,32 @@ protected:
   constexpr PostProcessData_TextureResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_TextureResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_TextureResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessData_TextureResources(PostProcessData_TextureResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_TextureResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData_TextureResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessData_TextureResources(PostProcessData_TextureResources const&) = delete;
+  PostProcessData_TextureResources(PostProcessData_TextureResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12576 };
 
+  /// [Reload("Textures/BlueNoise16/L/LDR_LLL1_{0}.png", 0, 32, (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field blueNoise16LTex, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___blueNoise16LTex;
 
+  /// [Reload(new[] { "Textures/FilmGrain/Thin01.png", "Textures/FilmGrain/Thin02.png", "Textures/FilmGrain/Medium01.png", "Textures/FilmGrain/Medium02.png", "Textures/FilmGrain/Medium03.png",
+  /// "Textures/FilmGrain/Medium04.png", "Textures/FilmGrain/Medium05.png", "Textures/FilmGrain/Medium06.png", "Textures/FilmGrain/Large01.png", "Textures/FilmGrain/Large02.png" },
+  /// (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field filmGrainTex, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___filmGrainTex;
 
+  /// [Reload("Textures/SMAA/AreaTex.tga", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field smaaAreaTex, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___smaaAreaTex;
 
+  /// [Reload("Textures/SMAA/SearchTex.tga", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field smaaSearchTex, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___smaaSearchTex;
 
@@ -428,13 +452,13 @@ protected:
   constexpr PostProcessData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessData(PostProcessData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessData(PostProcessData const&) = delete;
+  PostProcessData(PostProcessDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12577 };

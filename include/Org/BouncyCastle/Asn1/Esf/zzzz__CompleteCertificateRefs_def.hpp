@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\CompleteCertificateRefs.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CompleteCertificateRefs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   /// @brief Method GetOtherCertIDs, addr 0x337154c, size 0x124, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> GetOtherCertIDs();
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> otherCertIDs);
+  static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> otherCertIDs);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* New_ctor(::System::Collections::IEnumerable* otherCertIDs);
 
@@ -60,7 +60,7 @@ public:
   constexpr void __cordl_internal_set_otherCertIDs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method .ctor, addr 0x3371310, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> otherCertIDs);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> otherCertIDs);
 
   /// @brief Method .ctor, addr 0x33713c4, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* otherCertIDs);
@@ -74,13 +74,13 @@ protected:
   constexpr CompleteCertificateRefs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompleteCertificateRefs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompleteCertificateRefs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompleteCertificateRefs(CompleteCertificateRefs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompleteCertificateRefs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompleteCertificateRefs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompleteCertificateRefs(CompleteCertificateRefs const&) = delete;
+  CompleteCertificateRefs(CompleteCertificateRefsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 138 };

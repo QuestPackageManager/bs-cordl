@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\TypeTable.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/TypeTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -170,7 +170,7 @@ inline ::System::Type* UnityEngine::InputSystem::Utilities::TypeTable::LookupTyp
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(*this, ___internal_method, name);
 }
 // Ctor Parameters [CppParam { name: "table", ty: "::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::System::Type*>*", modifiers: "", def_value:
-// Some("{}") }]
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::TypeTable::TypeTable(
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>* table) noexcept {
   this->table = table;

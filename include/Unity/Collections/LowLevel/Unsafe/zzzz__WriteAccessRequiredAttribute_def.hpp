@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\WriteAccessRequiredAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/WriteAccessRequiredAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class WriteAccessRequiredAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttribute*, "Unity.Collections.LowLevel.Unsafe", "WriteAccessRequiredAttribute");
+// [AttributeUsage((System.AttributeTargets)192)]
 // Dependencies System.Attribute
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr WriteAccessRequiredAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WriteAccessRequiredAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WriteAccessRequiredAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WriteAccessRequiredAttribute(WriteAccessRequiredAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WriteAccessRequiredAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WriteAccessRequiredAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WriteAccessRequiredAttribute(WriteAccessRequiredAttribute const&) = delete;
+  WriteAccessRequiredAttribute(WriteAccessRequiredAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10018 };

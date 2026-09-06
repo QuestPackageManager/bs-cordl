@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\GenRepContent.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/GenRepContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__GenRepContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__InfoTypeAndValue_def.hpp"
@@ -97,7 +97,7 @@ inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* Org::BouncyCastle::Asn1::C
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cmp::GenRepContent*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cmp::GenRepContent*>(nullptr, ___internal_method, obj);
 }
-inline void Org::BouncyCastle::Asn1::Cmp::GenRepContent::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*> itv) {
+inline void Org::BouncyCastle::Asn1::Cmp::GenRepContent::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*> itv) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cmp::GenRepContent*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, itv);
@@ -115,7 +115,7 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::GenR
 inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* Org::BouncyCastle::Asn1::Cmp::GenRepContent::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cmp::GenRepContent*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* Org::BouncyCastle::Asn1::Cmp::GenRepContent::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*> itv) {
+inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* Org::BouncyCastle::Asn1::Cmp::GenRepContent::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*> itv) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cmp::GenRepContent*>(itv));
 }
 // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\LowLevelDictionary_2.hpp"
+// IWYU pragma private; include "System/Collections/Generic/LowLevelDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr LowLevelDictionary_2_Entry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_Entry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_Entry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LowLevelDictionary_2_Entry(LowLevelDictionary_2_Entry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_Entry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LowLevelDictionary_2_Entry(LowLevelDictionary_2_Entry const&) = delete;
+  LowLevelDictionary_2_Entry(LowLevelDictionary_2_Entryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3787 };
@@ -136,13 +136,13 @@ protected:
   constexpr LowLevelDictionary_2_DefaultComparer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_DefaultComparer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_DefaultComparer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LowLevelDictionary_2_DefaultComparer_1(LowLevelDictionary_2_DefaultComparer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_DefaultComparer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2_DefaultComparer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LowLevelDictionary_2_DefaultComparer_1(LowLevelDictionary_2_DefaultComparer_1 const&) = delete;
+  LowLevelDictionary_2_DefaultComparer_1(LowLevelDictionary_2_DefaultComparer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3788 };
@@ -151,6 +151,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DefaultMember("Item")]
 // Dependencies System.Collections.Generic.LowLevelDictionary`2::Entry<TKey, TValue>, System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -239,13 +240,13 @@ protected:
   constexpr LowLevelDictionary_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LowLevelDictionary_2(LowLevelDictionary_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LowLevelDictionary_2(LowLevelDictionary_2 const&) = delete;
+  LowLevelDictionary_2(LowLevelDictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3789 };

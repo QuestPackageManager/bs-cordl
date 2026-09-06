@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjectiveTypeSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveTypeSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,23 +82,27 @@ protected:
   constexpr MissionObjectiveTypeSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjectiveTypeSO(MissionObjectiveTypeSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveTypeSO(MissionObjectiveTypeSO const&) = delete;
+  MissionObjectiveTypeSO(MissionObjectiveTypeSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15269 };
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _objectiveName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____objectiveName;
 
+  /// [SerializeField]
   /// @brief Field _noConditionValue, offset: 0x20, size: 0x1, def value: None
   bool ____noConditionValue;
 
+  /// [SerializeField]
   /// @brief Field _objectiveValueFormater, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> ____objectiveValueFormater;
 

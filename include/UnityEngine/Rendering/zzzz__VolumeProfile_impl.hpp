@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeProfile.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeProfile.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeProfile_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -237,7 +238,9 @@ inline void UnityEngine::Rendering::VolumeProfile::Reset() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::Rendering::VolumeProfile::Add(bool overrides) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline T UnityEngine::Rendering::VolumeProfile::Add(bool overrides) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "Add", { ::i2c::class_of<T>() }, { ::i2c::type_of<bool>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -248,7 +251,9 @@ inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> UnityEngine::Renderin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "Add", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Rendering::VolumeComponent>>(this, ___internal_method, type, overrides);
 }
-template <typename T> inline void UnityEngine::Rendering::VolumeProfile::Remove() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline void UnityEngine::Rendering::VolumeProfile::Remove() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "Remove", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -259,7 +264,9 @@ inline void UnityEngine::Rendering::VolumeProfile::Remove(::System::Type* type) 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "Remove", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type);
 }
-template <typename T> inline bool UnityEngine::Rendering::VolumeProfile::Has() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline bool UnityEngine::Rendering::VolumeProfile::Has() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "Has", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
@@ -274,27 +281,35 @@ inline bool UnityEngine::Rendering::VolumeProfile::HasSubclassOf(::System::Type*
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "HasSubclassOf", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type);
 }
-template <typename T> inline bool UnityEngine::Rendering::VolumeProfile::TryGet(::by_ref<T> component) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline bool UnityEngine::Rendering::VolumeProfile::TryGet(::by_ref<T> component) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "TryGet", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, component);
 }
-template <typename T> inline bool UnityEngine::Rendering::VolumeProfile::TryGet(::System::Type* type, ::by_ref<T> component) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline bool UnityEngine::Rendering::VolumeProfile::TryGet(::System::Type* type, ::by_ref<T> component) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(), { "TryGet", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type, component);
 }
-template <typename T> inline bool UnityEngine::Rendering::VolumeProfile::TryGetSubclassOf(::System::Type* type, ::by_ref<T> component) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline bool UnityEngine::Rendering::VolumeProfile::TryGetSubclassOf(::System::Type* type, ::by_ref<T> component) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(),
                                                            { "TryGetSubclassOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, type, component);
 }
-template <typename T> inline bool UnityEngine::Rendering::VolumeProfile::TryGetAllSubclassOf(::System::Type* type, ::System::Collections::Generic::List_1<T>* result) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline bool UnityEngine::Rendering::VolumeProfile::TryGetAllSubclassOf(::System::Type* type, ::System::Collections::Generic::List_1<T>* result) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeProfile*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/HelpURLAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class HelpURLAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::HelpURLAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::HelpURLAttribute*, "UnityEngine", "HelpURLAttribute");
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = false)]
+// [UsedByNativeCode]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -63,13 +65,13 @@ protected:
   constexpr HelpURLAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HelpURLAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpURLAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpURLAttribute(HelpURLAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HelpURLAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpURLAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpURLAttribute(HelpURLAttribute const&) = delete;
+  HelpURLAttribute(HelpURLAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10310 };

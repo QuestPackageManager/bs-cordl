@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MakeRunsongFileBaseCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/MakeRunsongFileBaseCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,14 @@ namespace GlobalNamespace {
 class MakeRunsongFileBaseCommand___c;
 }
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class OptionalArgument_1;
 }
 namespace GlobalNamespace {
-template <typename T> class RequiredArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class RequiredArgument_1;
 }
 namespace GlobalNamespace {
 class SongRunningHelper;
@@ -57,6 +61,7 @@ MARK_REF_T(::GlobalNamespace::MakeRunsongFileBaseCommand*);
 MARK_REF_T(::GlobalNamespace::MakeRunsongFileBaseCommand___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MakeRunsongFileBaseCommand*, "", "MakeRunsongFileBaseCommand");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MakeRunsongFileBaseCommand___c*, "", "MakeRunsongFileBaseCommand/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -92,13 +97,13 @@ protected:
   constexpr MakeRunsongFileBaseCommand___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunsongFileBaseCommand___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunsongFileBaseCommand___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MakeRunsongFileBaseCommand___c(MakeRunsongFileBaseCommand___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunsongFileBaseCommand___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunsongFileBaseCommand___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MakeRunsongFileBaseCommand___c(MakeRunsongFileBaseCommand___c const&) = delete;
+  MakeRunsongFileBaseCommand___c(MakeRunsongFileBaseCommand___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19401 };
@@ -109,6 +114,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::MakeRunsongFileBaseCommand___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -156,7 +162,7 @@ public:
   /// @brief Method TryGetLevelCharacteristic, addr 0x32de310, size 0x118, virtual false, abstract: false, final false
   inline bool TryGetLevelCharacteristic(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristic, ::by_ref<::GlobalNamespace::BeatmapCharacteristic> characteristicEnum);
 
-  /// @brief Method TryGetLevelsToPlay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryGetLevelsToPlay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetLevelsToPlay(int32_t desiredNumberOfLevels, ::StringW characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty,
                                  ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*> messages,
                                  ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*> levelsToPlay);
@@ -215,20 +221,22 @@ protected:
   constexpr MakeRunsongFileBaseCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunsongFileBaseCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunsongFileBaseCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MakeRunsongFileBaseCommand(MakeRunsongFileBaseCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MakeRunsongFileBaseCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MakeRunsongFileBaseCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MakeRunsongFileBaseCommand(MakeRunsongFileBaseCommand const&) = delete;
+  MakeRunsongFileBaseCommand(MakeRunsongFileBaseCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19402 };
 
+  /// [Inject]
   /// @brief Field _songRunningHelper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SongRunningHelper* ____songRunningHelper;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 

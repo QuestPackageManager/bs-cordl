@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\MultipartFile.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/MultipartFile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,9 @@ public:
   // @brief default ctor
   constexpr MultipartFile();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "key", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "contentType", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr MultipartFile(::StringW key, ::StringW filename, ::ArrayW<uint8_t> bytes, ::StringW contentType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

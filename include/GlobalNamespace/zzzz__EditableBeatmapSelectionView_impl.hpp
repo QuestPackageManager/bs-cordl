@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EditableBeatmapSelectionView.hpp"
+// IWYU pragma private; include "GlobalNamespace/EditableBeatmapSelectionView.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_impl.hpp"
 #include "GlobalNamespace/zzzz__EditableBeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -229,7 +229,7 @@ inline void GlobalNamespace::EditableBeatmapSelectionView::Setup(bool showClearB
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableBeatmapSelectionView*>(), { "Setup", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, showClearButton);
 }
-inline void GlobalNamespace::EditableBeatmapSelectionView::SetBeatmap(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::EditableBeatmapSelectionView::SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::EditableBeatmapSelectionView*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Syntax\Expression.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/Expression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class Expression;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, "UnityEngine.UIElements.StyleSheets.Syntax", "Expression");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.UIElements.StyleSheets.Syntax.DataType, UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator,
 // UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier, UnityEngine.UIElements.StyleSheets.Syntax.ExpressionType
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
@@ -94,13 +95,13 @@ protected:
   constexpr Expression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Expression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Expression(Expression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Expression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Expression(Expression const&) = delete;
+  Expression(Expressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };

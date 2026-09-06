@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\MultipleSubstitutionRecord.hpp"
+// IWYU pragma private; include "TMPro/MultipleSubstitutionRecord.hpp"
 #include "TMPro/zzzz__MultipleSubstitutionRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::MultipleSubstitutionRecord.get_targetGlyphID
 template <>
@@ -69,8 +69,8 @@ inline void TMPro::MultipleSubstitutionRecord::set_substituteGlyphIDs(::ArrayW<u
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MultipleSubstitutionRecord>(), { "set_substituteGlyphIDs", {}, { ::i2c::type_of<::ArrayW<uint32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_TargetGlyphID", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SubstituteGlyphIDs", ty: "::ArrayW<uint32_t>", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_TargetGlyphID", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SubstituteGlyphIDs", ty: "::ArrayW<uint32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::MultipleSubstitutionRecord::MultipleSubstitutionRecord(uint32_t m_TargetGlyphID, ::ArrayW<uint32_t> m_SubstituteGlyphIDs) noexcept {
   this->m_TargetGlyphID = m_TargetGlyphID;
   this->m_SubstituteGlyphIDs = m_SubstituteGlyphIDs;

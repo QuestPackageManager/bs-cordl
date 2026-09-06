@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventDispatcher.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventDispatcher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
@@ -11,8 +11,8 @@
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDispatchState_def.hpp"
-// Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngine::UIElements::EventBase*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Panel", ty:
-// "::UnityEngine::UIElements::BaseVisualElementPanel*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngine::UIElements::EventBase*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Panel", ty:
+// "::UnityEngine::UIElements::BaseVisualElementPanel*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::EventDispatcher_EventRecord::EventDispatcher_EventRecord(::UnityEngine::UIElements::EventBase* m_Event,
                                                                                               ::UnityEngine::UIElements::BaseVisualElementPanel* m_Panel) noexcept {
   this->m_Event = m_Event;
@@ -20,8 +20,8 @@ constexpr ::UnityEngine::UIElements::EventDispatcher_EventRecord::EventDispatche
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventDispatcher_EventRecord::EventDispatcher_EventRecord() {}
-// Ctor Parameters [CppParam { name: "m_GateCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Queue", ty:
-// "::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_GateCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Queue", ty:
+// "::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::EventDispatcher_DispatchContext::EventDispatcher_DispatchContext(
     uint32_t m_GateCount, ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* m_Queue) noexcept {
   this->m_GateCount = m_GateCount;
@@ -375,7 +375,7 @@ inline void UnityEngine::UIElements::EventDispatcher::set_processingEvents(bool 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatcher*>(), { "set_processingEvents", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::EventDispatcher::Dispatch(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+inline void UnityEngine::UIElements::EventDispatcher::Dispatch(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
                                                                ::UnityEngine::UIElements::DispatchMode dispatchMode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatcher*>(),
@@ -403,13 +403,14 @@ inline void UnityEngine::UIElements::EventDispatcher::ProcessEventQueue() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatcher*>(), { "ProcessEventQueue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::EventDispatcher::ProcessEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+inline void UnityEngine::UIElements::EventDispatcher::ProcessEvent(::UnityEngine::UIElements::EventBase* evt, /* [NotNull] */ ::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventDispatcher*>(),
                                        { "ProcessEvent", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>(), ::i2c::type_of<::UnityEngine::UIElements::BaseVisualElementPanel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt, panel);
 }
+/// @brief [Obsolete("Please use EventDispatcher.CreateDefault().")]
 inline ::UnityEngine::UIElements::EventDispatcher* UnityEngine::UIElements::EventDispatcher::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::EventDispatcher*>());
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ToggleForGizmo.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ToggleForGizmo.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Toggle_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ToggleForGizmo_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__GizmoHook_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\ConformanceAutomation\ConformanceAutomationFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/ConformanceAutomation/ConformanceAutomationFeature.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/ConformanceAutomation/zzzz__ConformanceAutomationFeature_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

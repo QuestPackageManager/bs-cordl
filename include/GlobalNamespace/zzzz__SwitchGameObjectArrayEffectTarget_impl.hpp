@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SwitchGameObjectArrayEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/SwitchGameObjectArrayEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__SwitchGameObjectArrayEffectTarget_def.hpp"
 #include "GlobalNamespace/zzzz__SwitchGameObjectArrayEffectTarget_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-// Ctor Parameters [CppParam { name: "threshold", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "threshold", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameObject", ty: "::UnityW<::UnityEngine::GameObject>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SwitchGameObjectArrayEffectTarget_GameObjectActivation::SwitchGameObjectArrayEffectTarget_GameObjectActivation(float_t threshold,
                                                                                                                                             ::UnityW<::UnityEngine::GameObject> gameObject) noexcept {
   this->threshold = threshold;

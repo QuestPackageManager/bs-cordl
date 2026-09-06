@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TwoPaneSplitViewResizer.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TwoPaneSplitViewResizer.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerManipulator_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TwoPaneSplitViewResizer_def.hpp"

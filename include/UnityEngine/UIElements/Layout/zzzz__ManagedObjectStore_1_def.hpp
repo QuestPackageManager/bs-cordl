@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\ManagedObjectStore_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/ManagedObjectStore_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ template <typename T> class Queue_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Layout {
-template <typename T> class ManagedObjectStore_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ManagedObjectStore_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::Layout::ManagedObjectStore_1);
@@ -24,6 +26,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::Layout::ManagedObjectStor
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Layout.ManagedObjectStore`1<T>
 class CORDL_TYPE ManagedObjectStore_1 : public ::System::Object {
@@ -73,13 +76,13 @@ protected:
   constexpr ManagedObjectStore_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ManagedObjectStore_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManagedObjectStore_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ManagedObjectStore_1(ManagedObjectStore_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ManagedObjectStore_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManagedObjectStore_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ManagedObjectStore_1(ManagedObjectStore_1 const&) = delete;
+  ManagedObjectStore_1(ManagedObjectStore_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5393 };

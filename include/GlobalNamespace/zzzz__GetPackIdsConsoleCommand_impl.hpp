@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GetPackIdsConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/GetPackIdsConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__GetPackIdsConsoleCommand_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"

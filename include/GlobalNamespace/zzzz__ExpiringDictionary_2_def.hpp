@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ExpiringDictionary_2.hpp"
+// IWYU pragma private; include "GlobalNamespace/ExpiringDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExpiringDictionary_2)
@@ -10,10 +11,14 @@ namespace BGNet::Core {
 class ITimeProvider;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> class ExpiringDictionary_2_Entry;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
+class ExpiringDictionary_2_Entry;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> class ExpiringDictionary_2__Enumerate_d__14;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
+class ExpiringDictionary_2__Enumerate_d__14;
 }
 namespace GlobalNamespace {
 template <typename T> class OrderedSet_1;
@@ -44,13 +49,19 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> class ExpiringDictionary_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
+class ExpiringDictionary_2;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> class ExpiringDictionary_2_Entry;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
+class ExpiringDictionary_2_Entry;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> class ExpiringDictionary_2__Enumerate_d__14;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
+class ExpiringDictionary_2__Enumerate_d__14;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ExpiringDictionary_2);
@@ -59,10 +70,11 @@ MARK_GEN_REF_T_PTR(::GlobalNamespace::ExpiringDictionary_2__Enumerate_d__14);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ExpiringDictionary_2, "", "ExpiringDictionary`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ExpiringDictionary_2_Entry, "", "ExpiringDictionary`2/Entry");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ExpiringDictionary_2__Enumerate_d__14, "", "ExpiringDictionary`2/<Enumerate>d__14");
-// Dependencies System.Object
+// Dependencies System.IDisposable, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
 // Is value type: false
 // CS Name: ExpiringDictionary`2/Entry<TKey,TValue>
 class CORDL_TYPE ExpiringDictionary_2_Entry : public ::System::Object {
@@ -115,13 +127,13 @@ protected:
   constexpr ExpiringDictionary_2_Entry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2_Entry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2_Entry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpiringDictionary_2_Entry(ExpiringDictionary_2_Entry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2_Entry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpiringDictionary_2_Entry(ExpiringDictionary_2_Entry const&) = delete;
+  ExpiringDictionary_2_Entry(ExpiringDictionary_2_Entryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18154 };
@@ -139,10 +151,12 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.IDisposable, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
 // Is value type: false
 // CS Name: ExpiringDictionary`2/<Enumerate>d__14<TKey,TValue>
 class CORDL_TYPE ExpiringDictionary_2__Enumerate_d__14 : public ::System::Object {
@@ -177,17 +191,22 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ExpiringDictionary_2__Enumerate_d__14<TKey, TValue>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<TValue>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue System_Collections_Generic_IEnumerator_TValue__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -218,6 +237,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -236,13 +256,13 @@ protected:
   constexpr ExpiringDictionary_2__Enumerate_d__14();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2__Enumerate_d__14", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2__Enumerate_d__14", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpiringDictionary_2__Enumerate_d__14(ExpiringDictionary_2__Enumerate_d__14&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2__Enumerate_d__14", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2__Enumerate_d__14", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpiringDictionary_2__Enumerate_d__14(ExpiringDictionary_2__Enumerate_d__14 const&) = delete;
+  ExpiringDictionary_2__Enumerate_d__14(ExpiringDictionary_2__Enumerate_d__14const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18155 };
@@ -263,10 +283,12 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// [DefaultMember("Item")]
+// Dependencies System.IDisposable, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IDisposable*>)
 // Is value type: false
 // CS Name: ExpiringDictionary`2<TKey,TValue>
 class CORDL_TYPE ExpiringDictionary_2 : public ::System::Object {
@@ -319,6 +341,7 @@ public:
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [IteratorStateMachine(typeof(ExpiringDictionary`2::<Enumerate>d__14<TKey, TValue>))]
   /// @brief Method Enumerate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<TValue>* Enumerate();
 
@@ -417,13 +440,13 @@ protected:
   constexpr ExpiringDictionary_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpiringDictionary_2(ExpiringDictionary_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpiringDictionary_2(ExpiringDictionary_2 const&) = delete;
+  ExpiringDictionary_2(ExpiringDictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18156 };

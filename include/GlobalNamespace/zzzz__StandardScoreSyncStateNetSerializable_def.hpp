@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardScoreSyncStateNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardScoreSyncStateNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ namespace GlobalNamespace {
 template <typename T> class ISyncStateSerializable_1;
 }
 namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
+class PacketPool_1;
 }
 namespace GlobalNamespace {
 struct StandardScoreSyncState;
@@ -102,6 +104,7 @@ public:
   /// @brief Method .ctor, addr 0x32bef6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_id, addr 0x32bee30, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_id();
 
@@ -111,6 +114,7 @@ public:
   /// @brief Method get_state, addr 0x32bee50, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState get_state();
 
+  /// [CompilerGenerated]
   /// @brief Method get_time, addr 0x32bee40, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_time();
 
@@ -123,12 +127,14 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_id, addr 0x32bee38, size 0x8, virtual true, abstract: false, final true
   inline void set_id(::GlobalNamespace::SyncStateId value);
 
   /// @brief Method set_state, addr 0x32bee64, size 0x14, virtual true, abstract: false, final true
   inline void set_state(::GlobalNamespace::StandardScoreSyncState value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_time, addr 0x32bee48, size 0x8, virtual true, abstract: false, final true
   inline void set_time(int64_t value);
 
@@ -138,13 +144,13 @@ protected:
   constexpr StandardScoreSyncStateNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardScoreSyncStateNetSerializable(StandardScoreSyncStateNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardScoreSyncStateNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardScoreSyncStateNetSerializable(StandardScoreSyncStateNetSerializable const&) = delete;
+  StandardScoreSyncStateNetSerializable(StandardScoreSyncStateNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18984 };
@@ -152,9 +158,11 @@ public:
   /// @brief Field _state, offset: 0x10, size: 0x14, def value: None
   ::GlobalNamespace::StandardScoreSyncState ____state;
 
+  /// [CompilerGenerated]
   /// @brief Field <id>k__BackingField, offset: 0x24, size: 0x1, def value: None
   ::GlobalNamespace::SyncStateId ____id_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <time>k__BackingField, offset: 0x28, size: 0x8, def value: None
   int64_t ____time_k__BackingField;
 

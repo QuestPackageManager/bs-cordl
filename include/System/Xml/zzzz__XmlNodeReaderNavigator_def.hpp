@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlNodeReaderNavigator.hpp"
+// IWYU pragma private; include "System/Xml/XmlNodeReaderNavigator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,8 @@ public:
   // @brief default ctor
   constexpr XmlNodeReaderNavigator_VirtualAttribute();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr XmlNodeReaderNavigator_VirtualAttribute(::StringW name, ::StringW value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -457,13 +458,13 @@ protected:
   constexpr XmlNodeReaderNavigator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeReaderNavigator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeReaderNavigator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlNodeReaderNavigator(XmlNodeReaderNavigator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeReaderNavigator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeReaderNavigator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlNodeReaderNavigator(XmlNodeReaderNavigator const&) = delete;
+  XmlNodeReaderNavigator(XmlNodeReaderNavigatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9405 };

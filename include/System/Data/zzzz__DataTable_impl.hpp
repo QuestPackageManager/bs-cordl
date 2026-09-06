@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataTable.hpp"
+// IWYU pragma private; include "System/Data/DataTable.hpp"
 #include "System/ComponentModel/zzzz__MarshalByValueComponent_impl.hpp"
 #include "System/Data/zzzz__DataColumn_impl.hpp"
 #include "System/Data/zzzz__DataRelation_impl.hpp"
@@ -91,7 +91,7 @@ inline void System::Data::DataTable_RowDiffIdUsageSection::Prepare(::System::Dat
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTable_RowDiffIdUsageSection>(), { "Prepare", {}, { ::i2c::type_of<::System::Data::DataTable*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, table);
 }
-// Ctor Parameters [CppParam { name: "_targetTable", ty: "::System::Data::DataTable*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_targetTable", ty: "::System::Data::DataTable*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::DataTable_RowDiffIdUsageSection::DataTable_RowDiffIdUsageSection(::System::Data::DataTable* _targetTable) noexcept {
   this->_targetTable = _targetTable;
 }
@@ -116,7 +116,7 @@ inline void System::Data::DataTable_DSRowDiffIdUsageSection::Prepare(::System::D
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTable_DSRowDiffIdUsageSection>(), { "Prepare", {}, { ::i2c::type_of<::System::Data::DataSet*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ds);
 }
-// Ctor Parameters [CppParam { name: "_targetDS", ty: "::System::Data::DataSet*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_targetDS", ty: "::System::Data::DataSet*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::DataTable_DSRowDiffIdUsageSection::DataTable_DSRowDiffIdUsageSection(::System::Data::DataSet* _targetDS) noexcept {
   this->_targetDS = _targetDS;
 }

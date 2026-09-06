@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\PolicyQualifierID.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/PolicyQualifierID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ protected:
   constexpr PolicyQualifierID();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PolicyQualifierID", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PolicyQualifierID", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PolicyQualifierID(PolicyQualifierID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PolicyQualifierID", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PolicyQualifierID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PolicyQualifierID(PolicyQualifierID const&) = delete;
+  PolicyQualifierID(PolicyQualifierIDconst&) = delete;
 
   /// @brief Field IdQt offset 0xffffffff size 0x8
   static constexpr ::ConstString IdQt{ u"1.3.6.1.5.5.7.2" };

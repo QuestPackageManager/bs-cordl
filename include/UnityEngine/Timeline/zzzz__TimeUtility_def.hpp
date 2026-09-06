@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimeUtility.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ MARK_REF_T(::UnityEngine::Timeline::TimeUtility*);
 MARK_REF_T(::UnityEngine::Timeline::TimeUtility___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TimeUtility*, "UnityEngine.Timeline", "TimeUtility");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TimeUtility___c*, "UnityEngine.Timeline", "TimeUtility/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -90,13 +91,13 @@ protected:
   constexpr TimeUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeUtility___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeUtility___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeUtility___c(TimeUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeUtility___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeUtility___c(TimeUtility___c const&) = delete;
+  TimeUtility___c(TimeUtility___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19266 };
@@ -216,13 +217,13 @@ protected:
   constexpr TimeUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeUtility(TimeUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeUtility(TimeUtility const&) = delete;
+  TimeUtility(TimeUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19267 };

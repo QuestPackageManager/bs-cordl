@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\AssetImportStatusAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/AssetImportStatusAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__AssetImportStatusAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::AssetImportStatusAnalytic._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightRotationGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightRotationGroupEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,13 +108,13 @@ protected:
   constexpr LightRotationGroupEffect_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationGroupEffect_InitData(LightRotationGroupEffect_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationGroupEffect_InitData(LightRotationGroupEffect_InitData const&) = delete;
+  LightRotationGroupEffect_InitData(LightRotationGroupEffect_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5911 };
@@ -176,6 +176,7 @@ public:
   /// @brief Method ComputeTargetAngle, addr 0x599a85c, size 0x4, virtual false, abstract: false, final false
   static inline float_t ComputeTargetAngle(float_t startAngle, float_t targetAngle, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
 
+  /// @brief [Inject]
   static inline ::GlobalNamespace::LightRotationGroupEffect* New_ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                       ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -197,6 +198,7 @@ public:
 
   constexpr void __cordl_internal_set__lightRotationBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
+  /// [Inject]
   /// @brief Method .ctor, addr 0x599a608, size 0x21c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
@@ -207,13 +209,13 @@ protected:
   constexpr LightRotationGroupEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationGroupEffect(LightRotationGroupEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroupEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationGroupEffect(LightRotationGroupEffect const&) = delete;
+  LightRotationGroupEffect(LightRotationGroupEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5912 };

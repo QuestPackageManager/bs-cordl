@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextValueField_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextValueField_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   /// @brief Method AcceptCharacter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool AcceptCharacter(char16_t c);
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, TValueType startValue);
 
   static inline ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* New_ctor();
@@ -73,7 +73,7 @@ public:
   /// @brief Method StringToValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValueType StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ValueToString(TValueType value);
 
   constexpr ::StringW const& __cordl_internal_get__formatString_k__BackingField() const;
@@ -85,15 +85,17 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_allowedCharacters();
 
+  /// [CompilerGenerated]
   /// @brief Method get_formatString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_formatString();
 
   /// @brief Method get_textValueFieldParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextValueField_1<TValueType>* get_textValueFieldParent();
 
+  /// [CompilerGenerated]
   /// @brief Method set_formatString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_formatString(::StringW value);
 
@@ -103,17 +105,19 @@ protected:
   constexpr TextValueField_1_TextValueInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextValueField_1_TextValueInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextValueField_1_TextValueInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextValueField_1_TextValueInput(TextValueField_1_TextValueInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextValueField_1_TextValueInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextValueField_1_TextValueInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextValueField_1_TextValueInput(TextValueField_1_TextValueInput const&) = delete;
+  TextValueField_1_TextValueInput(TextValueField_1_TextValueInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4337 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <formatString>k__BackingField, offset: 0x4e0, size: 0x8, def value: None
   ::StringW ____formatString_k__BackingField;
 
@@ -121,6 +125,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.UIElements.BindingId, UnityEngine.UIElements.TextInputBaseField`1<TValueType>
 namespace UnityEngine::UIElements {
 // cpp template
@@ -132,6 +137,7 @@ public:
   // Declarations
   using TextValueInput = ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_formatString, put = set_formatString)) ::StringW formatString;
 
   /// @brief Field formatStringProperty, offset 0xffffffff, size 0x98
@@ -154,7 +160,7 @@ public:
   /// @brief Method AddLabelDragger, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDraggerType> inline void AddLabelDragger();
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, TValueType startValue);
 
   /// @brief Method CanTryParse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -163,6 +169,7 @@ public:
   /// @brief Method EnableLabelDragger, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void EnableLabelDragger(bool enable);
 
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.BlurEvent), typeof(UnityEngine.UIElements.FocusEvent) })]
   /// @brief Method HandleEventBubbleUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
@@ -239,13 +246,13 @@ protected:
   constexpr TextValueField_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextValueField_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextValueField_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextValueField_1(TextValueField_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextValueField_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextValueField_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextValueField_1(TextValueField_1 const&) = delete;
+  TextValueField_1(TextValueField_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4338 };

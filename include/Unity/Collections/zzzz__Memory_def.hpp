@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Memory.hpp"
+// IWYU pragma private; include "Unity/Collections/Memory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ DEFINE_IL2CPP_CLASS(::Unity::Collections::Memory, "Unity.Collections", "Memory")
 DEFINE_IL2CPP_CLASS(::Unity::Collections::Memory_Array, "Unity.Collections", "Memory/Array");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::Memory_Unmanaged, "Unity.Collections", "Memory/Unmanaged");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::Unmanaged_Memory_Array, "Unity.Collections", "Memory/Unmanaged/Array");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -48,20 +49,29 @@ namespace Unity::Collections {
 struct CORDL_TYPE Unmanaged_Memory_Array {
 public:
   // Declarations
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* Allocate(int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T* Allocate(int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method CustomResize, addr 0x64c22c8, size 0xe4, virtual false, abstract: false, final false
   static inline void* CustomResize(void* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, int64_t size, int32_t align);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Free(T* pointer, int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Free(T* pointer, int64_t count, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method IsCustom, addr 0x64c22bc, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCustom(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* Resize(T* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T* Resize(T* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method Resize, addr 0x64c2150, size 0x14c, virtual false, abstract: false, final false
   static inline void* Resize(void* oldPointer, int64_t oldCount, int64_t newCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, int64_t size, int32_t align);
@@ -86,6 +96,7 @@ public:
 static_assert(sizeof(::Unity::Collections::Unmanaged_Memory_Array) == 0x1, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -96,14 +107,20 @@ public:
   // Declarations
   using Array = ::Unity::Collections::Unmanaged_Memory_Array;
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T* Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method Allocate, addr 0x64c2134, size 0x1c, virtual false, abstract: false, final false
   static inline void* Allocate(int64_t size, int32_t align, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Free(T* pointer, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Free(T* pointer, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method Free, addr 0x64c229c, size 0x20, virtual false, abstract: false, final false
   static inline void Free(void* pointer, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
@@ -128,6 +145,7 @@ public:
 static_assert(sizeof(::Unity::Collections::Memory_Unmanaged) == 0x1, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -136,14 +154,23 @@ namespace Unity::Collections {
 struct CORDL_TYPE Memory_Array {
 public:
   // Declarations
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Clear(T* pointer, int64_t count);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Clear(T* pointer, int64_t count);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Copy(T* dest, T* src, int64_t count);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Copy(T* dest, T* src, int64_t count);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Set(T* pointer, int64_t count, T t);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Set(T* pointer, int64_t count, T t);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -165,6 +192,7 @@ public:
 static_assert(sizeof(::Unity::Collections::Memory_Array) == 0x1, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -177,6 +205,8 @@ public:
 
   using Unmanaged = ::Unity::Collections::Memory_Unmanaged;
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckByteCountIsReasonable, addr 0x64c2074, size 0xc0, virtual false, abstract: false, final false
   static inline void CheckByteCountIsReasonable(int64_t size);
 

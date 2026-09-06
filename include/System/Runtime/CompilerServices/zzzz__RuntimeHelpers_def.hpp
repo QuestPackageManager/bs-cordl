@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\RuntimeHelpers.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/RuntimeHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeHelpers : public ::System::Object {
 public:
   // Declarations
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method EnsureSufficientExecutionStack, addr 0x5b72fb0, size 0x4, virtual false, abstract: false, final false
   static inline void EnsureSufficientExecutionStack();
 
@@ -53,6 +54,7 @@ public:
   /// @brief Method IsReferenceOrContainsReferences, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsReferenceOrContainsReferences();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method PrepareConstrainedRegions, addr 0x5b72fbc, size 0x4, virtual false, abstract: false, final false
   static inline void PrepareConstrainedRegions();
 
@@ -77,13 +79,13 @@ protected:
   constexpr RuntimeHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeHelpers(RuntimeHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeHelpers(RuntimeHelpers const&) = delete;
+  RuntimeHelpers(RuntimeHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3439 };

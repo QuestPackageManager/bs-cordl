@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\GradientSettingsAtlas.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GradientSettingsAtlas.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
@@ -60,8 +60,8 @@ inline void UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::Writ
                             { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, f0, f1, f2, f3, destX, destY);
 }
-// Ctor Parameters [CppParam { name: "rgba", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rgba", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "width", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::GradientSettingsAtlas_RawTexture(::ArrayW<::UnityEngine::Color32> rgba, int32_t width, int32_t height) noexcept {
   this->rgba = rgba;
   this->width = width;

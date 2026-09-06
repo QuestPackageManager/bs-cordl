@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\GetHapticCapabilitiesCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/GetHapticCapabilitiesCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,10 +120,10 @@ public:
   // @brief default ctor
   constexpr GetHapticCapabilitiesCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "numChannels", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "supportsImpulse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportsBuffer", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "frequencyHz", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxBufferSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "optimalBufferSize", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name: "numChannels",
+  // ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportsImpulse", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "supportsBuffer", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "frequencyHz", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "maxBufferSize", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "optimalBufferSize", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GetHapticCapabilitiesCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint32_t numChannels, bool supportsImpulse, bool supportsBuffer, uint32_t frequencyHz,
                                          uint32_t maxBufferSize, uint32_t optimalBufferSize) noexcept;
 

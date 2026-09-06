@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ContextContainer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ContextContainer.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__ContextItem_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -14,8 +15,8 @@ template <typename T> inline uint32_t UnityEngine::Rendering::ContextContainer_T
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::Rendering::ContextContainer_TypeId_1<T>::ContextContainer_TypeId_1() {}
-// Ctor Parameters [CppParam { name: "storage", ty: "::UnityEngine::Rendering::ContextItem*", modifiers: "", def_value: Some("{}") }, CppParam { name: "isSet", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "storage", ty: "::UnityEngine::Rendering::ContextItem*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isSet", ty: "bool", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ContextContainer_Item::ContextContainer_Item(::UnityEngine::Rendering::ContextItem* storage, bool isSet) noexcept {
   this->storage = storage;
   this->isSet = isSet;
@@ -89,25 +90,33 @@ inline void UnityEngine::Rendering::ContextContainer::setStaticF_s_TypeCount(uin
 inline uint32_t UnityEngine::Rendering::ContextContainer::getStaticF_s_TypeCount() {
   return ::cordl_internals::getStaticField<uint32_t, "s_TypeCount", ::UnityEngine::Rendering::ContextContainer*>();
 }
-template <typename T> inline T UnityEngine::Rendering::ContextContainer::Get() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Rendering::ContextContainer::Get() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ContextContainer*>(), { "Get", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::Rendering::ContextContainer::Create() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Rendering::ContextContainer::Create() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ContextContainer*>(), { "Create", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::Rendering::ContextContainer::GetOrCreate() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Rendering::ContextContainer::GetOrCreate() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ContextContainer*>(), { "GetOrCreate", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline bool UnityEngine::Rendering::ContextContainer::Contains() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool UnityEngine::Rendering::ContextContainer::Contains() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ContextContainer*>(), { "Contains", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -118,7 +127,9 @@ inline bool UnityEngine::Rendering::ContextContainer::Contains(uint32_t typeId) 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ContextContainer*>(), { "Contains", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, typeId);
 }
-template <typename T> inline T UnityEngine::Rendering::ContextContainer::CreateAndGetData(uint32_t typeId) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Rendering::ContextContainer::CreateAndGetData(uint32_t typeId) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ContextContainer*>(), { "CreateAndGetData", { ::i2c::class_of<T>() }, { ::i2c::type_of<uint32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

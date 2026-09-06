@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteDebrisSimplePhysics.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteDebrisSimplePhysics.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisPhysics_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"

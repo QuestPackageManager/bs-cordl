@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\BMPAlloc.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BMPAlloc.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__OwnedState_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::BMPAlloc.Equals
@@ -60,8 +60,9 @@ inline ::StringW UnityEngine::UIElements::UIR::BMPAlloc::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::UIR::BMPAlloc>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "page", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pageLine", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "bitIndex", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ownedState", ty: "::UnityEngine::UIElements::UIR::OwnedState", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "page", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pageLine", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "bitIndex", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ownedState", ty: "::UnityEngine::UIElements::UIR::OwnedState",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::BMPAlloc::BMPAlloc(int32_t page, uint16_t pageLine, uint8_t bitIndex, ::UnityEngine::UIElements::UIR::OwnedState ownedState) noexcept {
   this->page = page;
   this->pageLine = pageLine;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InjectContext.hpp"
+// IWYU pragma private; include "Zenject/InjectContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,6 +74,7 @@ DEFINE_IL2CPP_CLASS(::Zenject::InjectContext*, "Zenject", "InjectContext");
 DEFINE_IL2CPP_CLASS(::Zenject::InjectContext__get_AllObjectTypes_d__56*, "Zenject", "InjectContext/<get_AllObjectTypes>d__56");
 DEFINE_IL2CPP_CLASS(::Zenject::InjectContext__get_ParentContextsAndSelf_d__54*, "Zenject", "InjectContext/<get_ParentContextsAndSelf>d__54");
 DEFINE_IL2CPP_CLASS(::Zenject::InjectContext__get_ParentContexts_d__52*, "Zenject", "InjectContext/<get_ParentContexts>d__52");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -118,23 +119,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e6af34, size 0x2d4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Zenject::InjectContext__get_AllObjectTypes_d__56* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x6e6b304, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x6e6b2bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e6b39c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e6b2c4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e6b2fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e6af18, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -174,9 +182,11 @@ public:
   /// @brief Method __zenCreate, addr 0x6e6b3a0, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6b44c, size 0x234, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e6a9f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -201,13 +211,13 @@ protected:
   constexpr InjectContext__get_AllObjectTypes_d__56();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_AllObjectTypes_d__56", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_AllObjectTypes_d__56", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectContext__get_AllObjectTypes_d__56(InjectContext__get_AllObjectTypes_d__56&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_AllObjectTypes_d__56", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_AllObjectTypes_d__56", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectContext__get_AllObjectTypes_d__56(InjectContext__get_AllObjectTypes_d__56 const&) = delete;
+  InjectContext__get_AllObjectTypes_d__56(InjectContext__get_AllObjectTypes_d__56const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14464 };
@@ -243,6 +253,7 @@ static_assert(offsetof(::Zenject::InjectContext__get_AllObjectTypes_d__56, _____
 static_assert(sizeof(::Zenject::InjectContext__get_AllObjectTypes_d__56) == 0x38, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -287,23 +298,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e6b69c, size 0x2e8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Zenject::InjectContext__get_ParentContexts_d__52* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator, addr 0x6e6ba80, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* System_Collections_Generic_IEnumerable_Zenject_InjectContext__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current, addr 0x6e6ba38, size 0x8, virtual true, abstract: false, final true
   inline ::Zenject::InjectContext* System_Collections_Generic_IEnumerator_Zenject_InjectContext__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e6bb18, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e6ba40, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e6ba78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e6b680, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -343,9 +361,11 @@ public:
   /// @brief Method __zenCreate, addr 0x6e6bb1c, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6bbc8, size 0x234, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e6a8d0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -370,13 +390,13 @@ protected:
   constexpr InjectContext__get_ParentContexts_d__52();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContexts_d__52", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContexts_d__52", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectContext__get_ParentContexts_d__52(InjectContext__get_ParentContexts_d__52&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContexts_d__52", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContexts_d__52", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectContext__get_ParentContexts_d__52(InjectContext__get_ParentContexts_d__52 const&) = delete;
+  InjectContext__get_ParentContexts_d__52(InjectContext__get_ParentContexts_d__52const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14465 };
@@ -412,6 +432,7 @@ static_assert(offsetof(::Zenject::InjectContext__get_ParentContexts_d__52, _____
 static_assert(sizeof(::Zenject::InjectContext__get_ParentContexts_d__52) == 0x38, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -456,23 +477,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e6be18, size 0x2bc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Zenject::InjectContext__get_ParentContextsAndSelf_d__54* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator, addr 0x6e6c1d0, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* System_Collections_Generic_IEnumerable_Zenject_InjectContext__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current, addr 0x6e6c188, size 0x8, virtual true, abstract: false, final true
   inline ::Zenject::InjectContext* System_Collections_Generic_IEnumerator_Zenject_InjectContext__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e6c268, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e6c190, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e6c1c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e6bdfc, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -512,9 +540,11 @@ public:
   /// @brief Method __zenCreate, addr 0x6e6c26c, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6c318, size 0x234, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e6a960, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -539,13 +569,13 @@ protected:
   constexpr InjectContext__get_ParentContextsAndSelf_d__54();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContextsAndSelf_d__54", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContextsAndSelf_d__54", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectContext__get_ParentContextsAndSelf_d__54(InjectContext__get_ParentContextsAndSelf_d__54&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContextsAndSelf_d__54", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectContext__get_ParentContextsAndSelf_d__54", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectContext__get_ParentContextsAndSelf_d__54(InjectContext__get_ParentContextsAndSelf_d__54 const&) = delete;
+  InjectContext__get_ParentContextsAndSelf_d__54(InjectContext__get_ParentContextsAndSelf_d__54const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14466 };
@@ -581,6 +611,7 @@ static_assert(offsetof(::Zenject::InjectContext__get_ParentContextsAndSelf_d__54
 static_assert(sizeof(::Zenject::InjectContext__get_ParentContextsAndSelf_d__54) == 0x38, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.BindingId, Zenject.InjectSources
 namespace Zenject {
 // Is value type: false
@@ -755,6 +786,7 @@ public:
   /// @brief Method .ctor, addr 0x6e6a714, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Type* memberType, ::System::Object* identifier, bool optional);
 
+  /// [IteratorStateMachine(typeof(Zenject.InjectContext::<get_AllObjectTypes>d__56))]
   /// @brief Method get_AllObjectTypes, addr 0x6e6a980, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_AllObjectTypes();
 
@@ -791,9 +823,11 @@ public:
   /// @brief Method get_ParentContext, addr 0x6e6a7d0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* get_ParentContext();
 
+  /// [IteratorStateMachine(typeof(Zenject.InjectContext::<get_ParentContexts>d__52))]
   /// @brief Method get_ParentContexts, addr 0x6e6a860, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>* get_ParentContexts();
 
+  /// [IteratorStateMachine(typeof(Zenject.InjectContext::<get_ParentContextsAndSelf>d__54))]
   /// @brief Method get_ParentContextsAndSelf, addr 0x6e6a8f0, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>* get_ParentContextsAndSelf();
 
@@ -842,13 +876,13 @@ protected:
   constexpr InjectContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectContext(InjectContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectContext(InjectContext const&) = delete;
+  InjectContext(InjectContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14467 };

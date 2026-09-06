@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\FixedBufferAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/FixedBufferAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class FixedBufferAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::FixedBufferAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::FixedBufferAttribute*, "System.Runtime.CompilerServices", "FixedBufferAttribute");
+// [AttributeUsage((System.AttributeTargets)256, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -50,9 +51,11 @@ public:
   /// @brief Method .ctor, addr 0x5b703ec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t length);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ElementType, addr 0x5b703f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ElementType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Length, addr 0x5b70400, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
@@ -62,20 +65,22 @@ protected:
   constexpr FixedBufferAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedBufferAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedBufferAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedBufferAttribute(FixedBufferAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedBufferAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedBufferAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedBufferAttribute(FixedBufferAttribute const&) = delete;
+  FixedBufferAttribute(FixedBufferAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3384 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ElementType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____ElementType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Length>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____Length_k__BackingField;
 

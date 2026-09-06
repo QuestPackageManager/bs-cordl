@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Position.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Position.hpp"
 #include "System/Xml/Schema/zzzz__Position_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Position._ctor
@@ -20,7 +20,8 @@ inline void System::Xml::Schema::Position::_ctor(int32_t symbol, ::System::Objec
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Position>(), { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, symbol, particle);
 }
-// Ctor Parameters [CppParam { name: "symbol", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "particle", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "symbol", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "particle", ty: "::System::Object*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::Position::Position(int32_t symbol, ::System::Object* particle) noexcept {
   this->symbol = symbol;
   this->particle = particle;

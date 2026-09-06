@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Unicode.hpp"
+// IWYU pragma private; include "Unity/Collections/Unicode.hpp"
 #include "Unity/Collections/zzzz__Unicode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__ConversionError_def.hpp"
@@ -242,7 +242,7 @@ inline int32_t Unity::Collections::Unicode_Rune::LengthInUtf8Bytes() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unicode_Rune>(), { "LengthInUtf8Bytes", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::Unicode_Rune::Unicode_Rune(int32_t value) noexcept {
   this->value = value;
 }

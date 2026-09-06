@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTextureData.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTextureData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,9 +28,10 @@ public:
   // @brief default ctor
   constexpr OVRTextureData();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "::GlobalNamespace::OVRTextureFormat", modifiers: "", def_value: None }, CppParam { name:
-  // "transcodedFormat", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "format", ty: "::GlobalNamespace::OVRTextureFormat", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "transcodedFormat", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: None, comment: None }, CppParam { name: "uri", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTextureData(::ArrayW<uint8_t> data, int32_t width, int32_t height, ::GlobalNamespace::OVRTextureFormat format, ::UnityEngine::TextureFormat transcodedFormat, ::StringW uri) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

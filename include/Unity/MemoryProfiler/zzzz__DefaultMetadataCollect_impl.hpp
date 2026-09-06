@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\MemoryProfiler\DefaultMetadataCollect.hpp"
+// IWYU pragma private; include "Unity/MemoryProfiler/DefaultMetadataCollect.hpp"
 #include "Unity/MemoryProfiler/zzzz__MetadataCollect_impl.hpp"
 #include "Unity/MemoryProfiler/zzzz__DefaultMetadataCollect_def.hpp"
 #include "Unity/Profiling/Memory/zzzz__MemorySnapshotMetadata_def.hpp"

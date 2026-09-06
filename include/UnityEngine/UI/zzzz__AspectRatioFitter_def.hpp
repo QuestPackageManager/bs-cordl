@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\AspectRatioFitter.hpp"
+// IWYU pragma private; include "UnityEngine/UI/AspectRatioFitter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   // @brief default ctor
   constexpr AspectRatioFitter_AspectMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AspectRatioFitter_AspectMode(int32_t value__) noexcept;
 
   /// @brief Field EnvelopeParent value: I32(4)
@@ -103,6 +103,10 @@ static_assert(offsetof(::UnityEngine::UI::AspectRatioFitter_AspectMode, value__)
 static_assert(sizeof(::UnityEngine::UI::AspectRatioFitter_AspectMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("Layout/Aspect Ratio Fitter", 142)]
+// [ExecuteAlways]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.EventSystems.UIBehaviour, UnityEngine.UI.AspectRatioFitter::AspectMode
 namespace UnityEngine::UI {
 // Is value type: false
@@ -255,20 +259,22 @@ protected:
   constexpr AspectRatioFitter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspectRatioFitter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspectRatioFitter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspectRatioFitter(AspectRatioFitter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspectRatioFitter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspectRatioFitter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AspectRatioFitter(AspectRatioFitter const&) = delete;
+  AspectRatioFitter(AspectRatioFitterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17441 };
 
+  /// [SerializeField]
   /// @brief Field m_AspectMode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::UI::AspectRatioFitter_AspectMode ___m_AspectMode;
 
+  /// [SerializeField]
   /// @brief Field m_AspectRatio, offset: 0x24, size: 0x4, def value: None
   float_t ___m_AspectRatio;
 

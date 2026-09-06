@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonStringContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonStringContract.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonPrimitiveContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonStringContract_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -22,6 +22,7 @@ inline void Newtonsoft::Json::Serialization::JsonStringContract::_ctor(::System:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonStringContract*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, underlyingType);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Serialization::JsonStringContract* Newtonsoft::Json::Serialization::JsonStringContract::New_ctor(::System::Type* underlyingType) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Serialization::JsonStringContract*>(underlyingType));
 }

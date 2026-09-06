@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceConfigurationLog.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationLog.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,8 +39,9 @@ class CORDL_TYPE PerformanceConfigurationLog : public ::System::Object {
 public:
   // Declarations
   /// @brief Method Create, addr 0x58f3190, size 0x260, virtual false, abstract: false, final false
-  static inline ::StringW Create(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
-                                 ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState, ::GlobalNamespace::PerformanceConfigurationStats* stats, ::StringW warning);
+  static inline ::StringW Create(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
+                                 ::GlobalNamespace::GameplayModifierMask modifiers, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState,
+                                 ::GlobalNamespace::PerformanceConfigurationStats* stats, ::StringW warning);
 
   /// @brief Method LogApplicationInfo, addr 0x58f39a0, size 0x588, virtual false, abstract: false, final false
   static inline void LogApplicationInfo(::System::Text::StringBuilder* sb);
@@ -73,7 +74,8 @@ public:
   static inline void LogPlayerSettings(::System::Text::StringBuilder* sb, ::GlobalNamespace::PlayerSpecificSettings* playerSettings);
 
   /// @brief Method LogSettings, addr 0x58f487c, size 0xa2c, virtual false, abstract: false, final false
-  static inline void LogSettings(::System::Text::StringBuilder* sb, ::by_ref<::BeatSaber::Settings::Settings> settings, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
+  static inline void LogSettings(::System::Text::StringBuilder* sb, /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings,
+                                 ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
 
   /// @brief Method LogSystemInfo, addr 0x58f33f0, size 0x5b0, virtual false, abstract: false, final false
   static inline void LogSystemInfo(::System::Text::StringBuilder* sb);
@@ -87,13 +89,13 @@ protected:
   constexpr PerformanceConfigurationLog();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationLog", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationLog", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceConfigurationLog(PerformanceConfigurationLog&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationLog", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationLog", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceConfigurationLog(PerformanceConfigurationLog const&) = delete;
+  PerformanceConfigurationLog(PerformanceConfigurationLogconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6612 };

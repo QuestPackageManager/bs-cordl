@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelCollectionTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelCollectionTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -316,18 +316,22 @@ public:
   /// @brief Method .ctor, addr 0x596e974, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectHeaderEvent, addr 0x596d04c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectLevelEvent, addr 0x596cecc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectHeaderEvent, addr 0x596d10c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectLevelEvent, addr 0x596cf8c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
@@ -337,50 +341,63 @@ protected:
   constexpr LevelCollectionTableView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionTableView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionTableView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelCollectionTableView(LevelCollectionTableView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionTableView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelCollectionTableView(LevelCollectionTableView const&) = delete;
+  LevelCollectionTableView(LevelCollectionTableViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7009 };
 
+  /// [SerializeField]
   /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _alphabetScrollbar, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::AlphabetScrollbar> ____alphabetScrollbar;
 
+  /// [SerializeField]
   /// @brief Field _levelCellPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelListTableCell> ____levelCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _levelCellsReuseIdentifier, offset: 0x38, size: 0x8, def value: None
   ::StringW ____levelCellsReuseIdentifier;
 
+  /// [SerializeField]
   /// @brief Field _packCellPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelPackHeaderTableCell> ____packCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _packCellsReuseIdentifier, offset: 0x48, size: 0x8, def value: None
   ::StringW ____packCellsReuseIdentifier;
 
+  /// [SerializeField]
   /// @brief Field _cellHeight, offset: 0x50, size: 0x4, def value: None
   float_t ____cellHeight;
 
+  /// [Inject]
   /// @brief Field _additionalContentModel, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
+  /// [Inject]
   /// @brief Field _entitlementModel, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsPromoModel, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsPromoModel* ____beatmapLevelsPromoModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectLevelEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* ___didSelectLevelEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectHeaderEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* ___didSelectHeaderEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\EnvelopedData.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/EnvelopedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,6 +90,7 @@ public:
                                                                         ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encryptedContentInfo,
                                                                         ::Org::BouncyCastle::Asn1::Cms::Attributes* unprotectedAttrs);
 
+  /// @brief [Obsolete("Use \'GetInstance\' instead")]
   static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// @brief Method ToAsn1Object, addr 0x3359bec, size 0x1b4, virtual true, abstract: false, final false
@@ -133,6 +134,7 @@ public:
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                     ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encryptedContentInfo, ::Org::BouncyCastle::Asn1::Cms::Attributes* unprotectedAttrs);
 
+  /// [Obsolete("Use \'GetInstance\' instead")]
   /// @brief Method .ctor, addr 0x3359914, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -157,13 +159,13 @@ protected:
   constexpr EnvelopedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvelopedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvelopedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvelopedData(EnvelopedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvelopedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvelopedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvelopedData(EnvelopedData const&) = delete;
+  EnvelopedData(EnvelopedDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 71 };

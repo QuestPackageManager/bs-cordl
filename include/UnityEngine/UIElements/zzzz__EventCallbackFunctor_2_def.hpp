@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventCallbackFunctor_2.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventCallbackFunctor_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackFunctor_2)
@@ -26,15 +27,18 @@ struct TrickleDown;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TEventType, typename TCallbackArgs> class EventCallbackFunctor_2;
+template <typename TEventType, typename TCallbackArgs>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
+class EventCallbackFunctor_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::EventCallbackFunctor_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::EventCallbackFunctor_2, "UnityEngine.UIElements", "EventCallbackFunctor`2");
-// Dependencies UnityEngine.UIElements.EventCallbackFunctorBase
+// Dependencies UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.EventCallbackFunctorBase
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType, typename TCallbackArgs>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.EventCallbackFunctor`2<TEventType,TCallbackArgs>
 class CORDL_TYPE EventCallbackFunctor_2 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
@@ -81,9 +85,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userArgs, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TCallbackArgs get_userArgs();
 
+  /// [CompilerGenerated]
   /// @brief Method set_userArgs, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_userArgs(TCallbackArgs value);
 
@@ -93,13 +99,13 @@ protected:
   constexpr EventCallbackFunctor_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctor_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctor_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventCallbackFunctor_2(EventCallbackFunctor_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctor_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctor_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventCallbackFunctor_2(EventCallbackFunctor_2 const&) = delete;
+  EventCallbackFunctor_2(EventCallbackFunctor_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4455 };
@@ -107,6 +113,8 @@ public:
   /// @brief Field m_Callback, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>* ___m_Callback;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <userArgs>k__BackingField, offset: 0x28, size: 0x8, def value: None
   TCallbackArgs ____userArgs_k__BackingField;
 

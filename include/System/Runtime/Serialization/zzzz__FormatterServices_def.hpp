@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\FormatterServices.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/FormatterServices.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_REF_T(::System::Runtime::Serialization::FormatterServices*);
 MARK_REF_T(::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::FormatterServices*, "System.Runtime.Serialization", "FormatterServices");
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0*, "System.Runtime.Serialization", "FormatterServices/<>c__DisplayClass9_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -81,13 +82,13 @@ protected:
   constexpr FormatterServices___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FormatterServices___c__DisplayClass9_0(FormatterServices___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormatterServices___c__DisplayClass9_0(FormatterServices___c__DisplayClass9_0 const&) = delete;
+  FormatterServices___c__DisplayClass9_0(FormatterServices___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3229 };
@@ -103,6 +104,7 @@ static_assert(offsetof(::System::Runtime::Serialization::FormatterServices___c__
 static_assert(sizeof(::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0) == 0x18, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
+// [ComVisible(true)]
 // Dependencies System.Object, System.Type
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -213,13 +215,13 @@ protected:
   constexpr FormatterServices();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FormatterServices(FormatterServices&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormatterServices(FormatterServices const&) = delete;
+  FormatterServices(FormatterServicesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3230 };

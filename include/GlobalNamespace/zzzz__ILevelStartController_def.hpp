@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ILevelStartController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ILevelStartController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +21,17 @@ namespace GlobalNamespace {
 class CORDL_TYPE ILevelStartController {
 public:
   // Declarations
-  /// @brief Method add_levelDidStartEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_levelDidStartEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_levelDidStartEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_levelDidStartEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_levelDidStartEvent(::System::Action* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILevelStartController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ILevelStartController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILevelStartController(ILevelStartController const&) = delete;
+  ILevelStartController(ILevelStartControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5996 };

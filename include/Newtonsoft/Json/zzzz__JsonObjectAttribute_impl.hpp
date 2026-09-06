@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonObjectAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonObjectAttribute.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__MemberSerialization_impl.hpp"
 #include "Newtonsoft/Json/zzzz__MissingMemberHandling_impl.hpp"
@@ -261,6 +261,7 @@ inline ::Newtonsoft::Json::JsonObjectAttribute* Newtonsoft::Json::JsonObjectAttr
 inline ::Newtonsoft::Json::JsonObjectAttribute* Newtonsoft::Json::JsonObjectAttribute::New_ctor(::Newtonsoft::Json::MemberSerialization memberSerialization) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonObjectAttribute*>(memberSerialization));
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::JsonObjectAttribute* Newtonsoft::Json::JsonObjectAttribute::New_ctor(::StringW id) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonObjectAttribute*>(id));
 }

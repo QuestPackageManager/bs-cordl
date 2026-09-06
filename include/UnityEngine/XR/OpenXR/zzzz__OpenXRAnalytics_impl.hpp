@@ -1,15 +1,16 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRAnalytics.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRAnalytics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRAnalytics_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRAnalytics_def.hpp"
-// Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "runtime", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "runtime_version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "plugin_version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "api_version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "available_extensions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "enabled_extensions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "enabled_features", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "failed_features", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "runtime", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "runtime_version", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "plugin_version", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "api_version", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "available_extensions", ty:
+// "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enabled_extensions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "enabled_features", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "failed_features", ty: "::ArrayW<::StringW>", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::OpenXRAnalytics_InitializeEvent::OpenXRAnalytics_InitializeEvent(bool success, ::StringW runtime, ::StringW runtime_version, ::StringW plugin_version,
                                                                                                       ::StringW api_version, ::ArrayW<::StringW> available_extensions,
                                                                                                       ::ArrayW<::StringW> enabled_extensions, ::ArrayW<::StringW> enabled_features,

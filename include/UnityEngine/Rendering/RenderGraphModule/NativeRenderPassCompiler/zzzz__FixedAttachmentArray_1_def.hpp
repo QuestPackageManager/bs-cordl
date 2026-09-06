@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\FixedAttachmentArray_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/FixedAttachmentArray_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,20 +8,26 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedAttachmentArray_1)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
-template <typename DataType> struct FixedAttachmentArray_1;
+template <typename DataType>
+  requires(::cordl_internals::value_type_constraint<DataType> && ::cordl_internals::default_constructor_constraint<DataType>)
+struct FixedAttachmentArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler",
                         "FixedAttachmentArray`1");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // cpp template
 template <typename DataType>
+  requires(::cordl_internals::value_type_constraint<DataType> && ::cordl_internals::default_constructor_constraint<DataType>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.FixedAttachmentArray`1<DataType>
 struct CORDL_TYPE FixedAttachmentArray_1 {
@@ -35,7 +41,7 @@ public:
   __declspec(property(get = get_size)) int32_t size;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Add(::by_ref<DataType> data);
+  inline int32_t Add(/* [IsReadOnly] */ ::by_ref<DataType> data);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
@@ -63,10 +69,11 @@ public:
   // @brief default ctor
   constexpr FixedAttachmentArray_1();
 
-  // Ctor Parameters [CppParam { name: "a0", ty: "DataType", modifiers: "", def_value: None }, CppParam { name: "a1", ty: "DataType", modifiers: "", def_value: None }, CppParam { name: "a2", ty:
-  // "DataType", modifiers: "", def_value: None }, CppParam { name: "a3", ty: "DataType", modifiers: "", def_value: None }, CppParam { name: "a4", ty: "DataType", modifiers: "", def_value: None },
-  // CppParam { name: "a5", ty: "DataType", modifiers: "", def_value: None }, CppParam { name: "a6", ty: "DataType", modifiers: "", def_value: None }, CppParam { name: "a7", ty: "DataType", modifiers:
-  // "", def_value: None }, CppParam { name: "activeAttachments", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "a0", ty: "DataType", modifiers: "", def_value: None, comment: None }, CppParam { name: "a1", ty: "DataType", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "a2", ty: "DataType", modifiers: "", def_value: None, comment: None }, CppParam { name: "a3", ty: "DataType", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "a4", ty: "DataType", modifiers: "", def_value: None, comment: None }, CppParam { name: "a5", ty: "DataType", modifiers: "", def_value: None, comment: None }, CppParam { name: "a6", ty:
+  // "DataType", modifiers: "", def_value: None, comment: None }, CppParam { name: "a7", ty: "DataType", modifiers: "", def_value: None, comment: None }, CppParam { name: "activeAttachments", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FixedAttachmentArray_1(DataType a0, DataType a1, DataType a2, DataType a3, DataType a4, DataType a5, DataType a6, DataType a7, int32_t activeAttachments) noexcept;
 
   /// @brief Field MaxAttachments offset 0xffffffff size 0x4

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\CallingConventions.hpp"
+// IWYU pragma private; include "System/Reflection/CallingConventions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CallingConventions;
 // Write type traits
 MARK_VAL_T(::System::Reflection::CallingConventions);
 DEFINE_IL2CPP_CLASS(::System::Reflection::CallingConventions, "System.Reflection", "CallingConventions");
+// [Flags]
 // Dependencies
 namespace System::Reflection {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr CallingConventions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CallingConventions(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(3)

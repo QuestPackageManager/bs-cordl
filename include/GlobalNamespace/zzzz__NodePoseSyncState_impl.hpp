@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NodePoseSyncState.hpp"
+// IWYU pragma private; include "GlobalNamespace/NodePoseSyncState.hpp"
 #include "GlobalNamespace/zzzz__PoseSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__IEquatableByReference_1_def.hpp"
@@ -9,7 +9,7 @@
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::NodePoseSyncState_NodePose::NodePoseSyncState_NodePose(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -195,17 +195,17 @@ inline ::GlobalNamespace::PoseSerializable GlobalNamespace::NodePoseSyncState::G
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NodePoseSyncState>(), { "GetState", {}, { ::i2c::type_of<::GlobalNamespace::NodePoseSyncState_NodePose>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PoseSerializable>(*this, ___internal_method, nodePose);
 }
-inline bool GlobalNamespace::NodePoseSyncState::Equals(::by_ref<::GlobalNamespace::NodePoseSyncState> other) {
+inline bool GlobalNamespace::NodePoseSyncState::Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> other) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NodePoseSyncState>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NodePoseSyncState>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline ::GlobalNamespace::NodePoseSyncState GlobalNamespace::NodePoseSyncState::GetDelta(::by_ref<::GlobalNamespace::NodePoseSyncState> latest) {
+inline ::GlobalNamespace::NodePoseSyncState GlobalNamespace::NodePoseSyncState::GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> latest) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NodePoseSyncState>(), { "GetDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NodePoseSyncState>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NodePoseSyncState>(*this, ___internal_method, latest);
 }
-inline ::GlobalNamespace::NodePoseSyncState GlobalNamespace::NodePoseSyncState::ApplyDelta(::by_ref<::GlobalNamespace::NodePoseSyncState> delta) {
+inline ::GlobalNamespace::NodePoseSyncState GlobalNamespace::NodePoseSyncState::ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> delta) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NodePoseSyncState>(), { "ApplyDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NodePoseSyncState>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NodePoseSyncState>(*this, ___internal_method, delta);
@@ -215,7 +215,7 @@ inline int32_t GlobalNamespace::NodePoseSyncState::GetSize() {
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
 inline ::GlobalNamespace::NodePoseSyncState
-GlobalNamespace::NodePoseSyncState::IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta(::by_ref<::GlobalNamespace::NodePoseSyncState> stateTable) {
+GlobalNamespace::NodePoseSyncState::IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> stateTable) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NodePoseSyncState>(),
@@ -223,14 +223,14 @@ GlobalNamespace::NodePoseSyncState::IStateTable_NodePoseSyncState_NodePoseSyncSt
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NodePoseSyncState>(*this, ___internal_method, stateTable);
 }
 inline ::GlobalNamespace::NodePoseSyncState
-GlobalNamespace::NodePoseSyncState::IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta(::by_ref<::GlobalNamespace::NodePoseSyncState> delta) {
+GlobalNamespace::NodePoseSyncState::IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> delta) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NodePoseSyncState>(),
                           { "IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NodePoseSyncState>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NodePoseSyncState>(*this, ___internal_method, delta);
 }
-inline bool GlobalNamespace::NodePoseSyncState::IEquatableByReference_NodePoseSyncState__Equals(::by_ref<::GlobalNamespace::NodePoseSyncState> other) {
+inline bool GlobalNamespace::NodePoseSyncState::IEquatableByReference_NodePoseSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NodePoseSyncState>(),
                                                            { "IEquatableByReference<NodePoseSyncState>.Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NodePoseSyncState>>() } })));
@@ -265,9 +265,9 @@ constexpr ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePose
 GlobalNamespace::NodePoseSyncState::i___GlobalNamespace__IEquatableByReference_1___GlobalNamespace__NodePoseSyncState_() {
   return static_cast<::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_head", ty: "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: Some("{}") }, CppParam { name: "_leftController", ty:
-// "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: Some("{}") }, CppParam { name: "_rightController", ty: "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "_head", ty: "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_leftController", ty:
+// "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_rightController", ty: "::GlobalNamespace::PoseSerializable", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::NodePoseSyncState::NodePoseSyncState(::GlobalNamespace::PoseSerializable _head, ::GlobalNamespace::PoseSerializable _leftController,
                                                                   ::GlobalNamespace::PoseSerializable _rightController) noexcept {
   this->_head = _head;

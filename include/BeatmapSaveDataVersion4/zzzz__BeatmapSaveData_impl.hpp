@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\BeatmapSaveData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/BeatmapSaveData.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ArcBeatIndex_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Arc_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatIndex_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\IEventMerger.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/IEventMerger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ namespace UnityEngine::InputSystem::LowLevel {
 class CORDL_TYPE IEventMerger {
 public:
   // Declarations
-  /// @brief Method MergeForward, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MergeForward, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MergeForward(::UnityEngine::InputSystem::LowLevel::InputEventPtr currentEventPtr, ::UnityEngine::InputSystem::LowLevel::InputEventPtr nextEventPtr);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IEventMerger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IEventMerger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IEventMerger(IEventMerger const&) = delete;
+  IEventMerger(IEventMergerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8990 };

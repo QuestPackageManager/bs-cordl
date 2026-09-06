@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LocalKeyword.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LocalKeyword.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,10 @@ struct LocalKeyword;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::LocalKeyword);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LocalKeyword, "UnityEngine.Rendering", "LocalKeyword");
+// [NativeHeader("Runtime/Shaders/Keywords/KeywordSpaceScriptBindings.h")]
+// [NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
+// [IsReadOnly]
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Rendering.LocalKeywordSpace
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -53,12 +57,14 @@ public:
   /// @brief Method Equals, addr 0x6b2db5c, size 0x2c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeyword rhs);
 
+  /// [FreeFunction("ShaderScripting::GetKeywordCount")]
   /// @brief Method GetComputeShaderKeywordCount, addr 0x6b2d4ac, size 0x80, virtual false, abstract: false, final false
   static inline uint32_t GetComputeShaderKeywordCount(::UnityEngine::ComputeShader* shader);
 
   /// @brief Method GetComputeShaderKeywordCount_Injected, addr 0x6b2d52c, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetComputeShaderKeywordCount_Injected(::System::IntPtr shader);
 
+  /// [FreeFunction("ShaderScripting::GetKeywordIndex")]
   /// @brief Method GetComputeShaderKeywordIndex, addr 0x6b2d568, size 0x174, virtual false, abstract: false, final false
   static inline uint32_t GetComputeShaderKeywordIndex(::UnityEngine::ComputeShader* shader, ::StringW keyword);
 
@@ -68,18 +74,21 @@ public:
   /// @brief Method GetHashCode, addr 0x6b2db94, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [FreeFunction("ShaderScripting::GetKeywordCount")]
   /// @brief Method GetShaderKeywordCount, addr 0x6b2d238, size 0x80, virtual false, abstract: false, final false
   static inline uint32_t GetShaderKeywordCount(::UnityEngine::Shader* shader);
 
   /// @brief Method GetShaderKeywordCount_Injected, addr 0x6b2d2b8, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetShaderKeywordCount_Injected(::System::IntPtr shader);
 
+  /// [FreeFunction("ShaderScripting::GetKeywordIndex")]
   /// @brief Method GetShaderKeywordIndex, addr 0x6b2d2f4, size 0x174, virtual false, abstract: false, final false
   static inline uint32_t GetShaderKeywordIndex(::UnityEngine::Shader* shader, ::StringW keyword);
 
   /// @brief Method GetShaderKeywordIndex_Injected, addr 0x6b2d468, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetShaderKeywordIndex_Injected(::System::IntPtr shader, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
+  /// [FreeFunction("keywords::IsKeywordOverridable")]
   /// @brief Method IsOverridable, addr 0x6b2d1c0, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsOverridable(::UnityEngine::Rendering::LocalKeyword kw);
 
@@ -108,8 +117,8 @@ public:
   // @brief default ctor
   constexpr LocalKeyword();
 
-  // Ctor Parameters [CppParam { name: "m_SpaceInfo", ty: "::UnityEngine::Rendering::LocalKeywordSpace", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_SpaceInfo", ty: "::UnityEngine::Rendering::LocalKeywordSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Name", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LocalKeyword(::UnityEngine::Rendering::LocalKeywordSpace m_SpaceInfo, ::StringW m_Name, uint32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\BcpgOutputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/BcpgOutputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,7 @@ public:
   inline void WriteObject(::Org::BouncyCastle::Bcpg::BcpgObject* bcpgObject);
 
   /// @brief Method WriteObjects, addr 0x369ceac, size 0x68, virtual false, abstract: false, final false
-  inline void WriteObjects(::ArrayW<::Org::BouncyCastle::Bcpg::BcpgObject*> v);
+  inline void WriteObjects(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Bcpg::BcpgObject*> v);
 
   /// @brief Method WritePacket, addr 0x369ce40, size 0x24, virtual false, abstract: false, final false
   inline void WritePacket(::Org::BouncyCastle::Bcpg::ContainedPacket* p);
@@ -163,13 +163,13 @@ protected:
   constexpr BcpgOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BcpgOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BcpgOutputStream(BcpgOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BcpgOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BcpgOutputStream(BcpgOutputStream const&) = delete;
+  BcpgOutputStream(BcpgOutputStreamconst&) = delete;
 
   /// @brief Field BufferSizePower offset 0xffffffff size 0x4
   static constexpr int32_t BufferSizePower{ static_cast<int32_t>(0x10) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerInGameMenuController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerInGameMenuController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ class MultiplayerLocalActivePlayerInGameMenuController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*, "", "MultiplayerLocalActivePlayerInGameMenuController");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerLocalActivePlayerInGameMenuController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -193,9 +194,11 @@ public:
   /// @brief Method .ctor, addr 0x59b13a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didGiveUpEvent, addr 0x59afdc0, size 0xac, virtual false, abstract: false, final false
   inline void add_didGiveUpEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_requestsDisconnectEvent, addr 0x59aff18, size 0xac, virtual false, abstract: false, final false
   inline void add_requestsDisconnectEvent(::System::Action* value);
 
@@ -205,9 +208,11 @@ public:
   /// @brief Method get_gameMenuIsShown, addr 0x59b0070, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameMenuIsShown();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didGiveUpEvent, addr 0x59afe6c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didGiveUpEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_requestsDisconnectEvent, addr 0x59affc4, size 0xac, virtual false, abstract: false, final false
   inline void remove_requestsDisconnectEvent(::System::Action* value);
 
@@ -217,13 +222,13 @@ protected:
   constexpr MultiplayerLocalActivePlayerInGameMenuController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActivePlayerInGameMenuController(MultiplayerLocalActivePlayerInGameMenuController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerInGameMenuController(MultiplayerLocalActivePlayerInGameMenuController const&) = delete;
+  MultiplayerLocalActivePlayerInGameMenuController(MultiplayerLocalActivePlayerInGameMenuControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6027 };
@@ -231,30 +236,39 @@ public:
   /// @brief Field kChangeStateDelay offset 0xffffffff size 0x4
   static constexpr float_t kChangeStateDelay{ static_cast<float_t>(0.05f) };
 
+  /// [Inject]
   /// @brief Field _inGameMenuViewController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController> ____inGameMenuViewController;
 
+  /// [Inject]
   /// @brief Field _menuButtonTrigger, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IMenuButtonTrigger* ____menuButtonTrigger;
 
+  /// [Inject]
   /// @brief Field _xrSystemState, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
+  /// [Inject]
   /// @brief Field _gamePause, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
+  /// [Inject]
   /// @brief Field _multiplayerController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [CompilerGenerated]
   /// @brief Field didGiveUpEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___didGiveUpEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field requestsDisconnectEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___requestsDisconnectEvent;
 

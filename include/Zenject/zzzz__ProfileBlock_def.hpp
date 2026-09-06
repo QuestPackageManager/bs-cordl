@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ProfileBlock.hpp"
+// IWYU pragma private; include "Zenject/ProfileBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class ProfileBlock;
 // Write type traits
 MARK_REF_T(::Zenject::ProfileBlock*);
 DEFINE_IL2CPP_CLASS(::Zenject::ProfileBlock*, "Zenject", "ProfileBlock");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -62,6 +63,7 @@ public:
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF__ProfilePattern_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ProfilePattern, addr 0x6e9ccac, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Regex* get_ProfilePattern();
 
@@ -70,6 +72,7 @@ public:
 
   static inline void setStaticF__ProfilePattern_k__BackingField(::System::Text::RegularExpressions::Regex* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ProfilePattern, addr 0x6e9ccf8, size 0x50, virtual false, abstract: false, final false
   static inline void set_ProfilePattern(::System::Text::RegularExpressions::Regex* value);
 
@@ -79,13 +82,13 @@ protected:
   constexpr ProfileBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProfileBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfileBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProfileBlock(ProfileBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProfileBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfileBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfileBlock(ProfileBlock const&) = delete;
+  ProfileBlock(ProfileBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14706 };

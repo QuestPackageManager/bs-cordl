@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderGraphSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderGraphSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderGraphSettings_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderGraphSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::RenderGraphSettings_Version::RenderGraphSettings_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }

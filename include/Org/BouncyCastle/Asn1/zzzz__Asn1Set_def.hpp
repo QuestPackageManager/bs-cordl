@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1Set.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Set.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,13 +126,13 @@ protected:
   constexpr Asn1Set_Asn1SetParserImpl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_Asn1SetParserImpl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_Asn1SetParserImpl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Set_Asn1SetParserImpl(Asn1Set_Asn1SetParserImpl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_Asn1SetParserImpl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_Asn1SetParserImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Set_Asn1SetParserImpl(Asn1Set_Asn1SetParserImpl const&) = delete;
+  Asn1Set_Asn1SetParserImpl(Asn1Set_Asn1SetParserImplconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 463 };
@@ -185,13 +185,13 @@ protected:
   constexpr Asn1Set_DerComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_DerComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_DerComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Set_DerComparer(Asn1Set_DerComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_DerComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set_DerComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Set_DerComparer(Asn1Set_DerComparer const&) = delete;
+  Asn1Set_DerComparer(Asn1Set_DerComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 464 };
@@ -202,6 +202,7 @@ public:
 static_assert(sizeof(::Org::BouncyCastle::Asn1::Asn1Set_DerComparer) == 0x10, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
+// [DefaultMember("Item")]
 // Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.Asn1Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
@@ -246,7 +247,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
+  static inline ::Org::BouncyCastle::Asn1::Asn1Set* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
 
   /// @brief Method Sort, addr 0x368719c, size 0x12c, virtual false, abstract: false, final false
   inline void Sort();
@@ -273,7 +274,7 @@ public:
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
   /// @brief Method .ctor, addr 0x3686d4c, size 0x108, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
 
   /// @brief Method get_Count, addr 0x3686f04, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_Count();
@@ -293,13 +294,13 @@ protected:
   constexpr Asn1Set();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Set(Asn1Set&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Set", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Set(Asn1Set const&) = delete;
+  Asn1Set(Asn1Setconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 465 };

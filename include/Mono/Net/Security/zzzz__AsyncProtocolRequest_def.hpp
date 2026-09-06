@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\AsyncProtocolRequest.hpp"
+// IWYU pragma private; include "Mono/Net/Security/AsyncProtocolRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,9 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -73,6 +75,7 @@ DEFINE_IL2CPP_CLASS(::Mono::Net::Security::AsyncProtocolRequest*, "Mono.Net.Secu
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::AsyncProtocolRequest__InnerRead_d__25, "Mono.Net.Security", "AsyncProtocolRequest/<InnerRead>d__25");
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::AsyncProtocolRequest__ProcessOperation_d__24, "Mono.Net.Security", "AsyncProtocolRequest/<ProcessOperation>d__24");
 DEFINE_IL2CPP_CLASS(::Mono::Net::Security::AsyncProtocolRequest__StartOperation_d__23, "Mono.Net.Security", "AsyncProtocolRequest/<StartOperation>d__23");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace Mono::Net::Security {
 // Is value type: true
@@ -86,6 +89,7 @@ public:
   /// @brief Method MoveNext, addr 0x5fd6e44, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5fd723c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -96,10 +100,11 @@ public:
   // @brief default ctor
   constexpr AsyncProtocolRequest__StartOperation_d__23();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Mono::Net::Security::AsyncProtocolResult*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Mono::Net::Security::AsyncProtocolRequest*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Mono::Net::Security::AsyncProtocolResult*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Mono::Net::Security::AsyncProtocolRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr AsyncProtocolRequest__StartOperation_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Mono::Net::Security::AsyncProtocolResult*> __t__builder,
                                                        ::Mono::Net::Security::AsyncProtocolRequest* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -141,6 +146,7 @@ static_assert(offsetof(::Mono::Net::Security::AsyncProtocolRequest__StartOperati
 static_assert(sizeof(::Mono::Net::Security::AsyncProtocolRequest__StartOperation_d__23) == 0x40, "Size mismatch!");
 
 } // namespace Mono::Net::Security
+// [CompilerGenerated]
 // Dependencies Mono.Net.Security.AsyncOperationStatus, System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
@@ -156,6 +162,7 @@ public:
   /// @brief Method MoveNext, addr 0x5fd72bc, size 0x5b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5fd7ae4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -166,12 +173,13 @@ public:
   // @brief default ctor
   constexpr AsyncProtocolRequest__ProcessOperation_d__24();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::Mono::Net::Security::AsyncProtocolRequest*", modifiers: "", def_value: None }, CppParam { name: "_status_5__2", ty:
-  // "::Mono::Net::Security::AsyncOperationStatus", modifiers: "", def_value: None }, CppParam { name: "_newStatus_5__3", ty: "::Mono::Net::Security::AsyncOperationStatus", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Nullable_1<int32_t>>", modifiers: "", def_value: None },
-  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Mono::Net::Security::AsyncProtocolRequest*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_status_5__2", ty: "::Mono::Net::Security::AsyncOperationStatus", modifiers: "", def_value: None, comment: None }, CppParam { name: "_newStatus_5__3", ty:
+  // "::Mono::Net::Security::AsyncOperationStatus", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Nullable_1<int32_t>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
+  // ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncProtocolRequest__ProcessOperation_d__24(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                          ::System::Threading::CancellationToken cancellationToken, ::Mono::Net::Security::AsyncProtocolRequest* __4__this,
                                                          ::Mono::Net::Security::AsyncOperationStatus _status_5__2, ::Mono::Net::Security::AsyncOperationStatus _newStatus_5__3,
@@ -230,6 +238,7 @@ static_assert(offsetof(::Mono::Net::Security::AsyncProtocolRequest__ProcessOpera
 static_assert(sizeof(::Mono::Net::Security::AsyncProtocolRequest__ProcessOperation_d__24) == 0x58, "Size mismatch!");
 
 } // namespace Mono::Net::Security
+// [CompilerGenerated]
 // Dependencies System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Mono::Net::Security {
@@ -244,6 +253,7 @@ public:
   /// @brief Method MoveNext, addr 0x5fd7b50, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5fd8028, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -254,11 +264,12 @@ public:
   // @brief default ctor
   constexpr AsyncProtocolRequest__InnerRead_d__25();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Mono::Net::Security::AsyncProtocolRequest*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-  // None }, CppParam { name: "_totalRead_5__2", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_requestedSize_5__3", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Mono::Net::Security::AsyncProtocolRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_totalRead_5__2", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_requestedSize_5__3",
+  // ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr AsyncProtocolRequest__InnerRead_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>> __t__builder,
                                                   ::Mono::Net::Security::AsyncProtocolRequest* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                   ::System::Nullable_1<int32_t> _totalRead_5__2, int32_t _requestedSize_5__3,
@@ -354,11 +365,13 @@ public:
   /// @brief Field locker, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker)) ::System::Object* locker;
 
+  /// [AsyncStateMachine(typeof(Mono.Net.Security.AsyncProtocolRequest::<InnerRead>d__25))]
   /// @brief Method InnerRead, addr 0x5fd6ccc, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* InnerRead(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Mono::Net::Security::AsyncProtocolRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
+  /// [AsyncStateMachine(typeof(Mono.Net.Security.AsyncProtocolRequest::<ProcessOperation>d__24))]
   /// @brief Method ProcessOperation, addr 0x5fd6c04, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessOperation(::System::Threading::CancellationToken cancellationToken);
 
@@ -368,9 +381,10 @@ public:
   /// @brief Method RequestWrite, addr 0x5fd6b0c, size 0xc, virtual false, abstract: false, final false
   inline void RequestWrite();
 
-  /// @brief Method Run, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
+  /// [AsyncStateMachine(typeof(Mono.Net.Security.AsyncProtocolRequest::<StartOperation>d__23))]
   /// @brief Method StartOperation, addr 0x5fd6b18, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Mono::Net::Security::AsyncProtocolResult*>* StartOperation(::System::Threading::CancellationToken cancellationToken);
 
@@ -425,15 +439,19 @@ public:
   /// @brief Method get_Name, addr 0x5fd69a8, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Parent, addr 0x5fd6998, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RunSynchronously, addr 0x5fd69a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_RunSynchronously();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UserResult, addr 0x5fd69d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
+  /// [CompilerGenerated]
   /// @brief Method set_UserResult, addr 0x5fd69d8, size 0x8, virtual false, abstract: false, final false
   inline void set_UserResult(int32_t value);
 
@@ -443,23 +461,26 @@ protected:
   constexpr AsyncProtocolRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncProtocolRequest(AsyncProtocolRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncProtocolRequest(AsyncProtocolRequest const&) = delete;
+  AsyncProtocolRequest(AsyncProtocolRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11013 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Parent>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Mono::Net::Security::MobileAuthenticatedStream* ____Parent_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RunSynchronously>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____RunSynchronously_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <UserResult>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____UserResult_k__BackingField;
 

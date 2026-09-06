@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SwitchView.hpp"
+// IWYU pragma private; include "HMUI/SwitchView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__SwitchView_def.hpp"
 #include "HMUI/zzzz__SwitchView_def.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::SwitchView_AnimationType::SwitchView_AnimationType(int32_t value__) noexcept {
   this->value__ = value__;
 }

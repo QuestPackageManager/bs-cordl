@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TimeMsFunction.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TimeMsFunction.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeMsFunction_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RunSongScreenshotsConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/RunSongScreenshotsConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
@@ -213,14 +213,14 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::GlobalNamespace::RunSongScreenshotsConsoleCommand*", modifiers: "", def_value: Some("{}") }, CppParam { name: "messages", ty:
-// "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty:
-// "::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_songId_5__2", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_beatmapLevel_5__3", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::RunSongScreenshotsConsoleCommand*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "messages", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
+// "::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_songId_5__2", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_beatmapLevel_5__3", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::RunSongScreenshotsConsoleCommand* __4__this,
     ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages, ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0* __8__1, ::StringW _songId_5__2,
@@ -284,11 +284,11 @@ constexpr GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17:
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::GlobalNamespace::RunSongScreenshotsConsoleCommand*", modifiers: "", def_value: Some("{}") }, CppParam { name: "messages", ty:
-// "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::RunSongScreenshotsConsoleCommand*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "messages", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::RunSongScreenshotsConsoleCommand* __4__this,
     ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
@@ -462,6 +462,7 @@ inline ::System::Object* GlobalNamespace::RunSongScreenshotsConsoleCommand__Wait
                                                            { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20*
 GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20*>(__1__state));

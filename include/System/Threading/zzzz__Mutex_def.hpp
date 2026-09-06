@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Mutex.hpp"
+// IWYU pragma private; include "System/Threading/Mutex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class Mutex;
 // Write type traits
 MARK_REF_T(::System::Threading::Mutex*);
 DEFINE_IL2CPP_CLASS(::System::Threading::Mutex*, "System.Threading", "Mutex");
+// [ComVisible(true)]
 // Dependencies System.Threading.WaitHandle
 namespace System::Threading {
 // Is value type: false
@@ -25,13 +26,13 @@ protected:
   constexpr Mutex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Mutex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Mutex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Mutex(Mutex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Mutex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Mutex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Mutex(Mutex const&) = delete;
+  Mutex(Mutexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2757 };

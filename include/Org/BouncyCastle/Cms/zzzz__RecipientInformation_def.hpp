@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\RecipientInformation.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/RecipientInformation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   /// @brief Method GetContentFromSessionKey, addr 0x36cd308, size 0x234, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentFromSessionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
 
-  /// @brief Method GetContentStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetContentStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   /// @brief Method GetMac, addr 0x36cd63c, size 0x178, virtual false, abstract: false, final false
@@ -125,13 +125,13 @@ protected:
   constexpr RecipientInformation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecipientInformation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecipientInformation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecipientInformation(RecipientInformation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecipientInformation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecipientInformation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecipientInformation(RecipientInformation const&) = delete;
+  RecipientInformation(RecipientInformationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 671 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonConverterAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonConverterAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverterAttribute_def.hpp"
@@ -94,7 +94,7 @@ inline void Newtonsoft::Json::JsonConverterAttribute::_ctor(::System::Type* conv
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConverterAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, converterType);
 }
-inline void Newtonsoft::Json::JsonConverterAttribute::_ctor(::System::Type* converterType, ::ArrayW<::System::Object*> converterParameters) {
+inline void Newtonsoft::Json::JsonConverterAttribute::_ctor(::System::Type* converterType, /* [ParamArray] */ ::ArrayW<::System::Object*> converterParameters) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConverterAttribute*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, converterType, converterParameters);
@@ -102,7 +102,8 @@ inline void Newtonsoft::Json::JsonConverterAttribute::_ctor(::System::Type* conv
 inline ::Newtonsoft::Json::JsonConverterAttribute* Newtonsoft::Json::JsonConverterAttribute::New_ctor(::System::Type* converterType) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonConverterAttribute*>(converterType));
 }
-inline ::Newtonsoft::Json::JsonConverterAttribute* Newtonsoft::Json::JsonConverterAttribute::New_ctor(::System::Type* converterType, ::ArrayW<::System::Object*> converterParameters) {
+inline ::Newtonsoft::Json::JsonConverterAttribute* Newtonsoft::Json::JsonConverterAttribute::New_ctor(::System::Type* converterType,
+                                                                                                      /* [ParamArray] */ ::ArrayW<::System::Object*> converterParameters) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonConverterAttribute*>(converterType, converterParameters));
 }
 // Ctor Parameters []

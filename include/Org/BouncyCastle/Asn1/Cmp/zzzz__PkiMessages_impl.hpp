@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\PkiMessages.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PkiMessages.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiMessages_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiMessage_def.hpp"
@@ -97,7 +97,7 @@ inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* Org::BouncyCastle::Asn1::Cmp
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cmp::PkiMessages*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cmp::PkiMessages*>(nullptr, ___internal_method, obj);
 }
-inline void Org::BouncyCastle::Asn1::Cmp::PkiMessages::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*> msgs) {
+inline void Org::BouncyCastle::Asn1::Cmp::PkiMessages::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*> msgs) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cmp::PkiMessages*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*>>() } })));
@@ -116,7 +116,7 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::PkiM
 inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* Org::BouncyCastle::Asn1::Cmp::PkiMessages::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cmp::PkiMessages*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* Org::BouncyCastle::Asn1::Cmp::PkiMessages::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*> msgs) {
+inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* Org::BouncyCastle::Asn1::Cmp::PkiMessages::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*> msgs) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cmp::PkiMessages*>(msgs));
 }
 // Ctor Parameters []

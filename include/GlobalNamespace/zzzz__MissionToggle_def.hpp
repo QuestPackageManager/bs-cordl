@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionToggle.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionToggle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -261,6 +261,7 @@ public:
   /// @brief Method .ctor, addr 0x593e248, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectionDidChangeEvent, addr 0x593d650, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
@@ -288,6 +289,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectionDidChangeEvent, addr 0x593d84c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
@@ -306,50 +308,66 @@ protected:
   constexpr MissionToggle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionToggle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionToggle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionToggle(MissionToggle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionToggle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionToggle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionToggle(MissionToggle const&) = delete;
+  MissionToggle(MissionToggleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6883 };
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _missionToggleWasPressedSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____missionToggleWasPressedSignal;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
+  /// [SerializeField]
   /// @brief Field _lockedImage, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____lockedImage;
 
+  /// [SerializeField]
   /// @brief Field _clearedImage, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____clearedImage;
 
+  /// [SerializeField]
   /// @brief Field _bgImage, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
+  /// [SerializeField]
   /// @brief Field _strokeImage, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____strokeImage;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _vrInteractable, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::HMUI::Interactable> ____vrInteractable;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _disabledColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____disabledColor;
 
+  /// [SerializeField]
   /// @brief Field _normalColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____normalColor;
 
+  /// [SerializeField]
   /// @brief Field _invertColor, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____invertColor;
 
+  /// [SerializeField]
   /// @brief Field _highlightColor, offset: 0x88, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightColor;
 
+  /// [CompilerGenerated]
   /// @brief Field selectionDidChangeEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* ___selectionDidChangeEvent;
 

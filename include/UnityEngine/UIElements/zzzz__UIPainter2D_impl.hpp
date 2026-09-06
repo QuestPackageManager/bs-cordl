@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIPainter2D.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIPainter2D.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIPainter2D_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

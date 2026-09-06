@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\ExtensionDataReader.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/ExtensionDataReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,7 +112,7 @@ public:
   // @brief default ctor
   constexpr ExtensionDataReader_ExtensionDataNodeType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ExtensionDataReader_ExtensionDataNodeType(int32_t value__) noexcept;
 
   /// @brief Field Element value: I32(1)
@@ -153,6 +153,7 @@ static_assert(offsetof(::System::Runtime::Serialization::ExtensionDataReader_Ext
 static_assert(sizeof(::System::Runtime::Serialization::ExtensionDataReader_ExtensionDataNodeType) == 0x4, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
+// [DefaultMember("Item")]
 // Dependencies System.Runtime.Serialization.ElementData, System.Runtime.Serialization.ExtensionDataReader::ExtensionDataNodeType, System.Xml.ReadState, System.Xml.XmlNodeType, System.Xml.XmlReader
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -543,13 +544,13 @@ protected:
   constexpr ExtensionDataReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtensionDataReader(ExtensionDataReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtensionDataReader(ExtensionDataReader const&) = delete;
+  ExtensionDataReader(ExtensionDataReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17043 };

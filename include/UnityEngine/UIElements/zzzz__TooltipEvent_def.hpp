@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TooltipEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TooltipEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ MARK_REF_T(::UnityEngine::UIElements::TooltipEvent*);
 MARK_REF_T(::UnityEngine::UIElements::TooltipEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TooltipEvent*, "UnityEngine.UIElements", "TooltipEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TooltipEvent___c*, "UnityEngine.UIElements", "TooltipEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -54,13 +55,13 @@ protected:
   constexpr TooltipEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TooltipEvent___c(TooltipEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TooltipEvent___c(TooltipEvent___c const&) = delete;
+  TooltipEvent___c(TooltipEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4562 };
@@ -71,6 +72,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::TooltipEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)16)]
 // Dependencies UnityEngine.Rect, UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -113,9 +115,11 @@ public:
   /// @brief Method .ctor, addr 0x6da6698, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_rect, addr 0x6da65f8, size 0xc, virtual false, abstract: false, final false
   inline void set_rect(::UnityEngine::Rect value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tooltip, addr 0x6da65f0, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
@@ -125,20 +129,24 @@ protected:
   constexpr TooltipEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TooltipEvent(TooltipEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TooltipEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TooltipEvent(TooltipEvent const&) = delete;
+  TooltipEvent(TooltipEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4563 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <tooltip>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::StringW ____tooltip_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <rect>k__BackingField, offset: 0x70, size: 0x10, def value: None
   ::UnityEngine::Rect ____rect_k__BackingField;
 

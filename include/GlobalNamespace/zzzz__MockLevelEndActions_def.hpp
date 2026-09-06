@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockLevelEndActions.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockLevelEndActions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,18 +51,22 @@ public:
   /// @brief Method .ctor, addr 0x59a9a74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelFailedEvent, addr 0x59a991c, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelFinishedEvent, addr 0x59a97c4, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
   constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelFailedEvent, addr 0x59a99c8, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelFinishedEvent, addr 0x59a9870, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
@@ -72,20 +76,22 @@ protected:
   constexpr MockLevelEndActions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockLevelEndActions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockLevelEndActions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockLevelEndActions(MockLevelEndActions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockLevelEndActions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockLevelEndActions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockLevelEndActions(MockLevelEndActions const&) = delete;
+  MockLevelEndActions(MockLevelEndActionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5998 };
 
+  /// [CompilerGenerated]
   /// @brief Field levelFinishedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___levelFinishedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field levelFailedEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___levelFailedEvent;
 

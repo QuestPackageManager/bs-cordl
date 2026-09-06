@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\TypeDescriptor.hpp"
+// IWYU pragma private; include "System/ComponentModel/TypeDescriptor.hpp"
 #include "System/ComponentModel/zzzz__TypeDescriptionProvider_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"
@@ -829,8 +829,8 @@ constexpr ::System::ComponentModel::ICustomTypeDescriptor*
 System::ComponentModel::TypeDescriptionNode_TypeDescriptor_DefaultExtendedTypeDescriptor::i___System__ComponentModel__ICustomTypeDescriptor() {
   return static_cast<::System::ComponentModel::ICustomTypeDescriptor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_instance", ty:
-// "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_instance",
+// ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::ComponentModel::TypeDescriptionNode_TypeDescriptor_DefaultExtendedTypeDescriptor::TypeDescriptionNode_TypeDescriptor_DefaultExtendedTypeDescriptor(
     ::System::ComponentModel::TypeDescriptor_TypeDescriptionNode* _node, ::System::Object* _instance) noexcept {
   this->_node = _node;
@@ -1115,8 +1115,9 @@ constexpr System::ComponentModel::TypeDescriptionNode_TypeDescriptor_DefaultType
 constexpr ::System::ComponentModel::ICustomTypeDescriptor* System::ComponentModel::TypeDescriptionNode_TypeDescriptor_DefaultTypeDescriptor::i___System__ComponentModel__ICustomTypeDescriptor() {
   return static_cast<::System::ComponentModel::ICustomTypeDescriptor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_objectType", ty:
-// "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_instance", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::TypeDescriptor_TypeDescriptionNode*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_objectType", ty: "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_instance", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::System::ComponentModel::TypeDescriptionNode_TypeDescriptor_DefaultTypeDescriptor::TypeDescriptionNode_TypeDescriptor_DefaultTypeDescriptor(
     ::System::ComponentModel::TypeDescriptor_TypeDescriptionNode* _node, ::System::Type* _objectType, ::System::Object* _instance) noexcept {
   this->_node = _node;

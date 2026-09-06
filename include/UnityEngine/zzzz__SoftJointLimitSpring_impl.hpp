@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SoftJointLimitSpring.hpp"
+// IWYU pragma private; include "UnityEngine/SoftJointLimitSpring.hpp"
 #include "UnityEngine/zzzz__SoftJointLimitSpring_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SoftJointLimitSpring.get_spring
 template <>
@@ -67,7 +67,8 @@ inline void UnityEngine::SoftJointLimitSpring::set_damper(float_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SoftJointLimitSpring>(), { "set_damper", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_Spring", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Damper", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Spring", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Damper", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::SoftJointLimitSpring::SoftJointLimitSpring(float_t m_Spring, float_t m_Damper) noexcept {
   this->m_Spring = m_Spring;
   this->m_Damper = m_Damper;

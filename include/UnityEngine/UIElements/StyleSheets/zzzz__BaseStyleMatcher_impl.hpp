@@ -1,13 +1,13 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\BaseStyleMatcher.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/BaseStyleMatcher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__BaseStyleMatcher_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__Expression_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__BaseStyleMatcher_def.hpp"
-// Ctor Parameters [CppParam { name: "valueIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "matchedVariableCount", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "valueIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "matchedVariableCount", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher_MatchContext::BaseStyleMatcher_MatchContext(int32_t valueIndex, int32_t matchedVariableCount) noexcept {
   this->valueIndex = valueIndex;
   this->matchedVariableCount = matchedVariableCount;

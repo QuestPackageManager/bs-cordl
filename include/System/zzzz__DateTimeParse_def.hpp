@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DateTimeParse.hpp"
+// IWYU pragma private; include "System/DateTimeParse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,13 +127,13 @@ protected:
   constexpr DateTimeParse_MatchNumberDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse_MatchNumberDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse_MatchNumberDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeParse_MatchNumberDelegate(DateTimeParse_MatchNumberDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse_MatchNumberDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse_MatchNumberDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeParse_MatchNumberDelegate(DateTimeParse_MatchNumberDelegate const&) = delete;
+  DateTimeParse_MatchNumberDelegate(DateTimeParse_MatchNumberDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2388 };
@@ -192,7 +192,7 @@ public:
   // @brief default ctor
   constexpr DateTimeParse_DTT();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DateTimeParse_DTT(int32_t value__) noexcept;
 
   /// @brief Field DayOfWeek value: I32(11)
@@ -305,7 +305,7 @@ public:
   // @brief default ctor
   constexpr DateTimeParse_TM();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DateTimeParse_TM(int32_t value__) noexcept;
 
   /// @brief Field AM value: I32(0)
@@ -400,7 +400,7 @@ public:
   // @brief default ctor
   constexpr DateTimeParse_DS();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DateTimeParse_DS(int32_t value__) noexcept;
 
   /// @brief Field BEGIN value: I32(0)
@@ -537,6 +537,7 @@ static_assert(offsetof(::System::DateTimeParse_DS, value__) == 0x0, "Offset mism
 static_assert(sizeof(::System::DateTimeParse_DS) == 0x4, "Size mismatch!");
 
 } // namespace System
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -572,13 +573,13 @@ protected:
   constexpr DateTimeParse___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeParse___c(DateTimeParse___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeParse___c(DateTimeParse___c const&) = delete;
+  DateTimeParse___c(DateTimeParse___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2392 };
@@ -891,13 +892,13 @@ protected:
   constexpr DateTimeParse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeParse(DateTimeParse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeParse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeParse(DateTimeParse const&) = delete;
+  DateTimeParse(DateTimeParseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2393 };

@@ -1,9 +1,13 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputSystem.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeltaStateEvent_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__StateEvent_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSystem_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -40,14 +44,14 @@
 #include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSettings_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSystem_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::StateEventBuffer_InputSystem__data_e__FixedBuffer::StateEventBuffer_InputSystem__data_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::StateEventBuffer_InputSystem__data_e__FixedBuffer::StateEventBuffer_InputSystem__data_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "stateEvent", ty: "::UnityEngine::InputSystem::LowLevel::StateEvent", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty:
-// "::UnityEngine::InputSystem::StateEventBuffer_InputSystem__data_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "stateEvent", ty: "::UnityEngine::InputSystem::LowLevel::StateEvent", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "data", ty:
+// "::UnityEngine::InputSystem::StateEventBuffer_InputSystem__data_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputSystem_StateEventBuffer::InputSystem_StateEventBuffer(::UnityEngine::InputSystem::LowLevel::StateEvent stateEvent,
                                                                                                  ::UnityEngine::InputSystem::StateEventBuffer_InputSystem__data_e__FixedBuffer data) noexcept {
   this->stateEvent = stateEvent;
@@ -55,14 +59,14 @@ constexpr ::UnityEngine::InputSystem::InputSystem_StateEventBuffer::InputSystem_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputSystem_StateEventBuffer::InputSystem_StateEventBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::DeltaStateEventBuffer_InputSystem__data_e__FixedBuffer::DeltaStateEventBuffer_InputSystem__data_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::DeltaStateEventBuffer_InputSystem__data_e__FixedBuffer::DeltaStateEventBuffer_InputSystem__data_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "stateEvent", ty: "::UnityEngine::InputSystem::LowLevel::DeltaStateEvent", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty:
-// "::UnityEngine::InputSystem::DeltaStateEventBuffer_InputSystem__data_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "stateEvent", ty: "::UnityEngine::InputSystem::LowLevel::DeltaStateEvent", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "data", ty:
+// "::UnityEngine::InputSystem::DeltaStateEventBuffer_InputSystem__data_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputSystem_DeltaStateEventBuffer::InputSystem_DeltaStateEventBuffer(
     ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent stateEvent, ::UnityEngine::InputSystem::DeltaStateEventBuffer_InputSystem__data_e__FixedBuffer data) noexcept {
   this->stateEvent = stateEvent;
@@ -1499,7 +1503,9 @@ inline void UnityEngine::InputSystem::InputSystem::RegisterLayout(::System::Type
                             { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, type, name, matches);
 }
-template <typename T> inline void UnityEngine::InputSystem::InputSystem::RegisterLayout(::StringW name, ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher> matches) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::InputSystem::InputControl*>)
+inline void UnityEngine::InputSystem::InputSystem::RegisterLayout(::StringW name, ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher> matches) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -1528,7 +1534,9 @@ inline void UnityEngine::InputSystem::InputSystem::RegisterLayoutMatcher(::Strin
                                               { "RegisterLayoutMatcher", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, layoutName, matcher);
 }
-template <typename TDevice> inline void UnityEngine::InputSystem::InputSystem::RegisterLayoutMatcher(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher) {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+inline void UnityEngine::InputSystem::InputSystem::RegisterLayoutMatcher(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(),
                                               { "RegisterLayoutMatcher", { ::i2c::class_of<TDevice>() }, { ::i2c::type_of<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>() } })));
@@ -1545,7 +1553,9 @@ inline void UnityEngine::InputSystem::InputSystem::RegisterLayoutBuilder(::Syste
                                                                ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, buildMethod, name, baseLayout, matches);
 }
-template <typename TDevice> inline void UnityEngine::InputSystem::InputSystem::RegisterPrecompiledLayout(::StringW metadata) {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+inline void UnityEngine::InputSystem::InputSystem::RegisterPrecompiledLayout(::StringW metadata) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "RegisterPrecompiledLayout", { ::i2c::class_of<TDevice>() }, { ::i2c::type_of<::StringW>() } })));
@@ -1577,7 +1587,9 @@ inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* UnityEngine::Inp
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "LoadLayout", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Layouts::InputControlLayout*>(nullptr, ___internal_method, name);
 }
-template <typename TControl> inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* UnityEngine::InputSystem::InputSystem::LoadLayout() {
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* UnityEngine::InputSystem::InputSystem::LoadLayout() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "LoadLayout", { ::i2c::class_of<TControl>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TControl>() })));
@@ -1675,7 +1687,9 @@ inline ::UnityEngine::InputSystem::InputDevice* UnityEngine::InputSystem::InputS
                                                            { "AddDevice", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputDevice*>(nullptr, ___internal_method, layout, name, variants);
 }
-template <typename TDevice> inline TDevice UnityEngine::InputSystem::InputSystem::AddDevice(::StringW name) {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+inline TDevice UnityEngine::InputSystem::InputSystem::AddDevice(::StringW name) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "AddDevice", { ::i2c::class_of<TDevice>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDevice>() })));
@@ -1705,7 +1719,9 @@ inline ::UnityEngine::InputSystem::InputDevice* UnityEngine::InputSystem::InputS
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "GetDevice", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputDevice*>(nullptr, ___internal_method, nameOrLayout);
 }
-template <typename TDevice> inline TDevice UnityEngine::InputSystem::InputSystem::GetDevice() {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+inline TDevice UnityEngine::InputSystem::InputSystem::GetDevice() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "GetDevice", { ::i2c::class_of<TDevice>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDevice>() })));
@@ -1716,14 +1732,18 @@ inline ::UnityEngine::InputSystem::InputDevice* UnityEngine::InputSystem::InputS
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "GetDevice", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputDevice*>(nullptr, ___internal_method, type);
 }
-template <typename TDevice> inline TDevice UnityEngine::InputSystem::InputSystem::GetDevice(::UnityEngine::InputSystem::Utilities::InternedString usage) {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+inline TDevice UnityEngine::InputSystem::InputSystem::GetDevice(::UnityEngine::InputSystem::Utilities::InternedString usage) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(),
                                                            { "GetDevice", { ::i2c::class_of<TDevice>() }, { ::i2c::type_of<::UnityEngine::InputSystem::Utilities::InternedString>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDevice>() })));
   return ::cordl_internals::RunMethodRethrow<TDevice>(nullptr, ___internal_method, usage);
 }
-template <typename TDevice> inline TDevice UnityEngine::InputSystem::InputSystem::GetDevice(::StringW usage) {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+inline TDevice UnityEngine::InputSystem::InputSystem::GetDevice(::StringW usage) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "GetDevice", { ::i2c::class_of<TDevice>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDevice>() })));
@@ -1833,13 +1853,17 @@ inline ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "FindControls", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>>(nullptr, ___internal_method, path);
 }
-template <typename TControl> inline ::UnityEngine::InputSystem::InputControlList_1<TControl> UnityEngine::InputSystem::InputSystem::FindControls(::StringW path) {
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+inline ::UnityEngine::InputSystem::InputControlList_1<TControl> UnityEngine::InputSystem::InputSystem::FindControls(::StringW path) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "FindControls", { ::i2c::class_of<TControl>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TControl>() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputControlList_1<TControl>>(nullptr, ___internal_method, path);
 }
-template <typename TControl> inline int32_t UnityEngine::InputSystem::InputSystem::FindControls(::StringW path, ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls) {
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+inline int32_t UnityEngine::InputSystem::InputSystem::FindControls(::StringW path, ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(),
@@ -1870,13 +1894,19 @@ inline void UnityEngine::InputSystem::InputSystem::QueueEvent(::UnityEngine::Inp
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "QueueEvent", {}, { ::i2c::type_of<::UnityEngine::InputSystem::LowLevel::InputEventPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, eventPtr);
 }
-template <typename TEvent> inline void UnityEngine::InputSystem::InputSystem::QueueEvent(::by_ref<TEvent> inputEvent) {
+template <typename TEvent>
+  requires(::cordl_internals::type_constraint<TEvent, ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*> && ::cordl_internals::value_type_constraint<TEvent> &&
+           ::cordl_internals::default_constructor_constraint<TEvent>)
+inline void UnityEngine::InputSystem::InputSystem::QueueEvent(::by_ref<TEvent> inputEvent) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(), { "QueueEvent", { ::i2c::class_of<TEvent>() }, { ::i2c::type_of<::by_ref<TEvent>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEvent>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, inputEvent);
 }
-template <typename TState> inline void UnityEngine::InputSystem::InputSystem::QueueStateEvent(::UnityEngine::InputSystem::InputDevice* device, TState state, double_t time) {
+template <typename TState>
+  requires(::cordl_internals::type_constraint<TState, ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*> && ::cordl_internals::value_type_constraint<TState> &&
+           ::cordl_internals::default_constructor_constraint<TState>)
+inline void UnityEngine::InputSystem::InputSystem::QueueStateEvent(::UnityEngine::InputSystem::InputDevice* device, TState state, double_t time) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputSystem*>(),
@@ -1884,7 +1914,9 @@ template <typename TState> inline void UnityEngine::InputSystem::InputSystem::Qu
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TState>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, device, state, time);
 }
-template <typename TDelta> inline void UnityEngine::InputSystem::InputSystem::QueueDeltaStateEvent(::UnityEngine::InputSystem::InputControl* control, TDelta delta, double_t time) {
+template <typename TDelta>
+  requires(::cordl_internals::value_type_constraint<TDelta> && ::cordl_internals::default_constructor_constraint<TDelta>)
+inline void UnityEngine::InputSystem::InputSystem::QueueDeltaStateEvent(::UnityEngine::InputSystem::InputControl* control, TDelta delta, double_t time) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

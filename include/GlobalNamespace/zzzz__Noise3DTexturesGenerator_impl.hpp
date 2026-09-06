@@ -1,13 +1,13 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Noise3DTexturesGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace/Noise3DTexturesGenerator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Noise3DTexturesGenerator_def.hpp"
 #include "GlobalNamespace/zzzz__Noise3DTexturesGenerator_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Texture3D_def.hpp"
-// Ctor Parameters [CppParam { name: "texturePropertyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "texturePropertyName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "material", ty:
+// "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple::Noise3DTexturesGenerator_MaterialPropertyNameCouple(::StringW texturePropertyName,
                                                                                                                                       ::UnityW<::UnityEngine::Material> material) noexcept {
   this->texturePropertyName = texturePropertyName;
@@ -15,8 +15,8 @@ constexpr ::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple::Noise3DTexturesGenerator_MaterialPropertyNameCouple() {}
-// Ctor Parameters [CppParam { name: "globalPropertyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialPropertyNameCouples", ty:
-// "::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "globalPropertyName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "materialPropertyNameCouples", ty:
+// "::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple::Noise3DTexturesGenerator_MaterialTextureParamsCouple(
     ::StringW globalPropertyName, ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple> materialPropertyNameCouples) noexcept {
   this->globalPropertyName = globalPropertyName;

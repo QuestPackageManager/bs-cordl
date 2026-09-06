@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SettingsApplicatorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/SettingsApplicatorSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,13 +97,13 @@ public:
   __declspec(property(get = __cordl_internal_get_roomTransformOffsetDidUpdateEvent, put = __cordl_internal_set_roomTransformOffsetDidUpdateEvent)) ::System::Action* roomTransformOffsetDidUpdateEvent;
 
   /// @brief Method ApplyGameSettings, addr 0x5901b40, size 0x10c, virtual false, abstract: false, final false
-  inline void ApplyGameSettings(::by_ref<::BeatSaber::Settings::Settings> settings);
+  inline void ApplyGameSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings);
 
   /// @brief Method ApplyGraphicSettings, addr 0x5901714, size 0x3b0, virtual true, abstract: false, final false
-  inline void ApplyGraphicSettings(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
+  inline void ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
 
   /// @brief Method ApplyWindowSettings, addr 0x5901dc4, size 0x4, virtual true, abstract: false, final false
-  inline void ApplyWindowSettings(::by_ref<::BeatSaber::Settings::WindowSettings> settings);
+  inline void ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings> settings);
 
   static inline ::GlobalNamespace::SettingsApplicatorSO* New_ctor();
 
@@ -173,9 +173,11 @@ public:
   /// @brief Method .ctor, addr 0x5901acc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x5901c50, size 0xac, virtual false, abstract: false, final false
   inline void add_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x5901cfc, size 0xac, virtual false, abstract: false, final false
   inline void remove_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
@@ -185,44 +187,54 @@ protected:
   constexpr SettingsApplicatorSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsApplicatorSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsApplicatorSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsApplicatorSO(SettingsApplicatorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsApplicatorSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsApplicatorSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsApplicatorSO(SettingsApplicatorSO const&) = delete;
+  SettingsApplicatorSO(SettingsApplicatorSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6667 };
 
+  /// [SerializeField]
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> ____mirrorRendererGraphicsSettingsPresets;
 
+  /// [SerializeField]
   /// @brief Field _mainEffectGraphicsSettingsPresets, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> ____mainEffectGraphicsSettingsPresets;
 
+  /// [SerializeField]
   /// @brief Field _bloomPrePassGraphicsSettingsPresets, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> ____bloomPrePassGraphicsSettingsPresets;
 
+  /// [SerializeField]
   /// @brief Field _mirrorRenderer, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;
 
+  /// [SerializeField]
   /// @brief Field _mainEffectContainer, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectContainerSO> ____mainEffectContainer;
 
+  /// [SerializeField]
   /// @brief Field _bloomPrePassEffectContainer, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> ____bloomPrePassEffectContainer;
 
+  /// [Inject]
   /// @brief Field _hapticFeedbackManager, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
+  /// [Inject]
   /// @brief Field _audioManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::AudioManager* ____audioManager;
 
+  /// [Inject]
   /// @brief Field _xrSystemState, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
+  /// [CompilerGenerated]
   /// @brief Field roomTransformOffsetDidUpdateEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___roomTransformOffsetDidUpdateEvent;
 

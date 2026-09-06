@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\BaseTypeRequiredAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/BaseTypeRequiredAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__BaseTypeRequiredAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -55,7 +55,7 @@ constexpr void JetBrains::Annotations::BaseTypeRequiredAttribute::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____BaseType_k__BackingField = value;
 }
-inline void JetBrains::Annotations::BaseTypeRequiredAttribute::_ctor(::System::Type* baseType) {
+inline void JetBrains::Annotations::BaseTypeRequiredAttribute::_ctor(/* [NotNull] */ ::System::Type* baseType) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::BaseTypeRequiredAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, baseType);
@@ -69,7 +69,7 @@ inline void JetBrains::Annotations::BaseTypeRequiredAttribute::set_BaseType(::Sy
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::BaseTypeRequiredAttribute*>(), { "set_BaseType", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::JetBrains::Annotations::BaseTypeRequiredAttribute* JetBrains::Annotations::BaseTypeRequiredAttribute::New_ctor(::System::Type* baseType) {
+inline ::JetBrains::Annotations::BaseTypeRequiredAttribute* JetBrains::Annotations::BaseTypeRequiredAttribute::New_ctor(/* [NotNull] */ ::System::Type* baseType) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::BaseTypeRequiredAttribute*>(baseType));
 }
 // Ctor Parameters []

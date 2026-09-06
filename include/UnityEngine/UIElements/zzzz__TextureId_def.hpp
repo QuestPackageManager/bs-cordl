@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextureId.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextureId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   // @brief default ctor
   constexpr TextureId();
 
-  // Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextureId(int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

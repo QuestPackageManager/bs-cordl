@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LocalDefinition.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LocalDefinition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct LocalDefinition;
 // Write type traits
 MARK_VAL_T(::System::Linq::Expressions::Interpreter::LocalDefinition);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::LocalDefinition, "System.Linq.Expressions.Interpreter", "LocalDefinition");
+// [IsReadOnly]
 // Dependencies
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: true
@@ -39,9 +40,11 @@ public:
   /// @brief Method .ctor, addr 0x5fb3b88, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t localIndex, ::System::Linq::Expressions::ParameterExpression* parameter);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Index, addr 0x5fb3b94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Parameter, addr 0x5fb3b9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* get_Parameter();
 
@@ -49,8 +52,8 @@ public:
   // @brief default ctor
   constexpr LocalDefinition();
 
-  // Ctor Parameters [CppParam { name: "_Index_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_Parameter_k__BackingField", ty:
-  // "::System::Linq::Expressions::ParameterExpression*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Index_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Parameter_k__BackingField", ty:
+  // "::System::Linq::Expressions::ParameterExpression*", modifiers: "", def_value: None, comment: None }]
   constexpr LocalDefinition(int32_t _Index_k__BackingField, ::System::Linq::Expressions::ParameterExpression* _Parameter_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -59,9 +62,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Index>k__BackingField, offset: 0x0, size: 0x4, def value: None
   int32_t _Index_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Parameter>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::System::Linq::Expressions::ParameterExpression* _Parameter_k__BackingField;
 

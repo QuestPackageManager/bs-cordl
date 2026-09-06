@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerStateHash.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerStateHash.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ struct PlayerStateHash;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::PlayerStateHash);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");
+// [IsReadOnly]
 // Dependencies BitMask128
 namespace GlobalNamespace {
 // Is value type: true
@@ -120,7 +121,7 @@ public:
   // @brief default ctor
   constexpr PlayerStateHash();
 
-  // Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: None, comment: None }]
   constexpr PlayerStateHash(::GlobalNamespace::BitMask128 _bloomFilter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

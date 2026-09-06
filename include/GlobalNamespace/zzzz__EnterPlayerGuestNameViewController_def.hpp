@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnterPlayerGuestNameViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnterPlayerGuestNameViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,13 +100,13 @@ protected:
   constexpr EnterPlayerGuestNameViewController_FinishDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController_FinishDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController_FinishDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnterPlayerGuestNameViewController_FinishDelegate(EnterPlayerGuestNameViewController_FinishDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController_FinishDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController_FinishDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController_FinishDelegate(EnterPlayerGuestNameViewController_FinishDelegate const&) = delete;
+  EnterPlayerGuestNameViewController_FinishDelegate(EnterPlayerGuestNameViewController_FinishDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6429 };
@@ -117,6 +117,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -156,13 +157,13 @@ protected:
   constexpr EnterPlayerGuestNameViewController___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnterPlayerGuestNameViewController___c__DisplayClass11_0(EnterPlayerGuestNameViewController___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController___c__DisplayClass11_0(EnterPlayerGuestNameViewController___c__DisplayClass11_0 const&) = delete;
+  EnterPlayerGuestNameViewController___c__DisplayClass11_0(EnterPlayerGuestNameViewController___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6430 };
@@ -183,6 +184,7 @@ static_assert(offsetof(::GlobalNamespace::EnterPlayerGuestNameViewController___c
 static_assert(sizeof(::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -223,13 +225,13 @@ protected:
   constexpr EnterPlayerGuestNameViewController___c__DisplayClass11_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnterPlayerGuestNameViewController___c__DisplayClass11_1(EnterPlayerGuestNameViewController___c__DisplayClass11_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController___c__DisplayClass11_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController___c__DisplayClass11_1(EnterPlayerGuestNameViewController___c__DisplayClass11_1 const&) = delete;
+  EnterPlayerGuestNameViewController___c__DisplayClass11_1(EnterPlayerGuestNameViewController___c__DisplayClass11_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6431 };
@@ -343,13 +345,13 @@ protected:
   constexpr EnterPlayerGuestNameViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnterPlayerGuestNameViewController(EnterPlayerGuestNameViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterPlayerGuestNameViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterPlayerGuestNameViewController(EnterPlayerGuestNameViewController const&) = delete;
+  EnterPlayerGuestNameViewController(EnterPlayerGuestNameViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6432 };
@@ -363,18 +365,25 @@ public:
   /// @brief Field kNoNamePlayerLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kNoNamePlayerLocalizationKey{ u"NO_NAME_PLAYER" };
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _playerNameWasEnteredSignal, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StringSignal> ____playerNameWasEnteredSignal;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _uiKeyboard, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;
 
+  /// [SerializeField]
   /// @brief Field _nameInputFieldView, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____nameInputFieldView;
 
+  /// [SerializeField]
   /// @brief Field _guestNameButtonsListItemsList, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GuestNameButtonsListItemsList> ____guestNameButtonsListItemsList;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 

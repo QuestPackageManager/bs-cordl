@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightRotationGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightRotationGroupEffectManager.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroup_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroupEffectManager_def.hpp"

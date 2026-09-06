@@ -1,8 +1,10 @@
 #pragma once
-// IWYU pragma private; include "HMUI\InputFieldDataBinder.hpp"
+// IWYU pragma private; include "HMUI/InputFieldDataBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IObservableChange_def.hpp"
+#include "GlobalNamespace/zzzz__IValue_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(InputFieldDataBinder)
@@ -10,10 +12,14 @@ namespace GlobalNamespace {
 class IObservableChange;
 }
 namespace HMUI {
-template <typename T> class InputFieldDataBinder___c__3_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
+class InputFieldDataBinder___c__3_1;
 }
 namespace HMUI {
-template <typename T0, typename T1> class InputFieldDataBinder___c__DisplayClass2_0_2;
+template <typename T0, typename T1>
+  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
+class InputFieldDataBinder___c__DisplayClass2_0_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -41,10 +47,14 @@ namespace HMUI {
 class InputFieldDataBinder;
 }
 namespace HMUI {
-template <typename T> class InputFieldDataBinder___c__3_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
+class InputFieldDataBinder___c__3_1;
 }
 namespace HMUI {
-template <typename T0, typename T1> class InputFieldDataBinder___c__DisplayClass2_0_2;
+template <typename T0, typename T1>
+  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
+class InputFieldDataBinder___c__DisplayClass2_0_2;
 }
 // Write type traits
 MARK_REF_T(::HMUI::InputFieldDataBinder*);
@@ -53,10 +63,12 @@ MARK_GEN_REF_T_PTR(::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2);
 DEFINE_IL2CPP_CLASS(::HMUI::InputFieldDataBinder*, "HMUI", "InputFieldDataBinder");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::HMUI::InputFieldDataBinder___c__3_1, "HMUI", "InputFieldDataBinder/<>c__3`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2, "HMUI", "InputFieldDataBinder/<>c__DisplayClass2_0`2");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies IObservableChange, IValue`1<T>, System.Object
 namespace HMUI {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
 // Is value type: false
 // CS Name: HMUI.InputFieldDataBinder/<>c__3`1<T>
 class CORDL_TYPE InputFieldDataBinder___c__3_1 : public ::System::Object {
@@ -90,13 +102,13 @@ protected:
   constexpr InputFieldDataBinder___c__3_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__3_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__3_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputFieldDataBinder___c__3_1(InputFieldDataBinder___c__3_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__3_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__3_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldDataBinder___c__3_1(InputFieldDataBinder___c__3_1 const&) = delete;
+  InputFieldDataBinder___c__3_1(InputFieldDataBinder___c__3_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19023 };
@@ -105,10 +117,12 @@ public:
 };
 // Non member Declarations
 } // namespace HMUI
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies IObservableChange, IValue`1<T>, System.Object
 namespace HMUI {
 // cpp template
 template <typename T0, typename T1>
+  requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
 // Is value type: false
 // CS Name: HMUI.InputFieldDataBinder/<>c__DisplayClass2_0`2<T0,T1>
 class CORDL_TYPE InputFieldDataBinder___c__DisplayClass2_0_2 : public ::System::Object {
@@ -167,13 +181,13 @@ protected:
   constexpr InputFieldDataBinder___c__DisplayClass2_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__DisplayClass2_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__DisplayClass2_0_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputFieldDataBinder___c__DisplayClass2_0_2(InputFieldDataBinder___c__DisplayClass2_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__DisplayClass2_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder___c__DisplayClass2_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldDataBinder___c__DisplayClass2_0_2(InputFieldDataBinder___c__DisplayClass2_0_2 const&) = delete;
+  InputFieldDataBinder___c__DisplayClass2_0_2(InputFieldDataBinder___c__DisplayClass2_0_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19024 };
@@ -194,16 +208,20 @@ public:
 };
 // Non member Declarations
 } // namespace HMUI
-// Dependencies System.Object
+// Dependencies IObservableChange, IValue`1<T>, System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.InputFieldDataBinder
 class CORDL_TYPE InputFieldDataBinder : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using __c__3_1 = ::HMUI::InputFieldDataBinder___c__3_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
+  using __c__3_1 = ::HMUI::InputFieldDataBinder___c__3_1<T>;
 
-  template <typename T0, typename T1> using __c__DisplayClass2_0_2 = ::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>;
+  template <typename T0, typename T1>
+    requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
+  using __c__DisplayClass2_0_2 = ::HMUI::InputFieldDataBinder___c__DisplayClass2_0_2<T0, T1>;
 
   /// @brief Field _bindings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bindings, put = __cordl_internal_set__bindings)) ::System::Collections::Generic::List_1<
@@ -211,11 +229,14 @@ public:
 
   /// @brief Method AddBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T0, typename T1>
+    requires(::cordl_internals::type_constraint<T0, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T0, ::GlobalNamespace::IValue_1<T1>*>)
   inline void
   AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData);
 
   /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IObservableChange*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IValue_1<::StringW>*>)
+  inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
 
   /// @brief Method ClearBindings, addr 0x5876400, size 0x2cc, virtual false, abstract: false, final false
   inline void ClearBindings();
@@ -242,13 +263,13 @@ protected:
   constexpr InputFieldDataBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputFieldDataBinder(InputFieldDataBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldDataBinder(InputFieldDataBinder const&) = delete;
+  InputFieldDataBinder(InputFieldDataBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19025 };

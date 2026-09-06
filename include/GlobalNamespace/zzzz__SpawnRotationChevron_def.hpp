@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpawnRotationChevron.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpawnRotationChevron.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ protected:
   constexpr SpawnRotationChevron_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnRotationChevron_Pool(SpawnRotationChevron_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpawnRotationChevron_Pool(SpawnRotationChevron_Pool const&) = delete;
+  SpawnRotationChevron_Pool(SpawnRotationChevron_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5977 };
@@ -119,17 +119,18 @@ protected:
   constexpr SpawnRotationChevron();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnRotationChevron(SpawnRotationChevron&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpawnRotationChevron(SpawnRotationChevron const&) = delete;
+  SpawnRotationChevron(SpawnRotationChevronconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5978 };
 
+  /// [SerializeField]
   /// @brief Field _lights, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> ____lights;
 

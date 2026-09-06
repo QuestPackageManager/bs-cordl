@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelFailedTextOverride.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelFailedTextOverride.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,20 +107,23 @@ protected:
   constexpr LevelFailedTextOverride_LanguageOverride();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride_LanguageOverride", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride_LanguageOverride", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelFailedTextOverride_LanguageOverride(LevelFailedTextOverride_LanguageOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride_LanguageOverride", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride_LanguageOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFailedTextOverride_LanguageOverride(LevelFailedTextOverride_LanguageOverride const&) = delete;
+  LevelFailedTextOverride_LanguageOverride(LevelFailedTextOverride_LanguageOverrideconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23489 };
 
+  /// [SerializeField]
   /// @brief Field _language, offset: 0x10, size: 0x4, def value: None
   ::BGLib::Polyglot::LocalizationLanguage ____language;
 
+  /// [SerializeField]
+  /// [Multiline]
   /// @brief Field _overrideText, offset: 0x18, size: 0x8, def value: None
   ::StringW ____overrideText;
 
@@ -134,6 +137,7 @@ static_assert(offsetof(::GlobalNamespace::LevelFailedTextOverride_LanguageOverri
 static_assert(sizeof(::GlobalNamespace::LevelFailedTextOverride_LanguageOverride) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BGLib.Polyglot.LocalizationLanguage, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -164,13 +168,13 @@ protected:
   constexpr LevelFailedTextOverride___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelFailedTextOverride___c__DisplayClass6_0(LevelFailedTextOverride___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFailedTextOverride___c__DisplayClass6_0(LevelFailedTextOverride___c__DisplayClass6_0 const&) = delete;
+  LevelFailedTextOverride___c__DisplayClass6_0(LevelFailedTextOverride___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23490 };
@@ -186,6 +190,7 @@ static_assert(offsetof(::GlobalNamespace::LevelFailedTextOverride___c__DisplayCl
 static_assert(sizeof(::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -199,6 +204,7 @@ public:
   /// @brief Method MoveNext, addr 0x328a684, size 0xbdc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x328b260, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -209,12 +215,13 @@ public:
   // @brief default ctor
   constexpr LevelFailedTextOverride__Start_d__6();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelFailedTextOverride>",
-  // modifiers: "", def_value: None }, CppParam { name: "_overrideData_5__2", ty: "::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*", modifiers: "", def_value: None }, CppParam { name:
-  // "_levelId_5__3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>>>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::LevelFailedTextOverride>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_overrideData_5__2", ty:
+  // "::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_levelId_5__3", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>>>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr LevelFailedTextOverride__Start_d__6(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                 ::UnityW<::GlobalNamespace::LevelFailedTextOverride> __4__this, ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride* _overrideData_5__2,
                                                 ::StringW _levelId_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>>> __u__1,
@@ -302,6 +309,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextOverride* New_ctor();
 
+  /// [AsyncStateMachine(typeof(LevelFailedTextOverride::<Start>d__6))]
   /// @brief Method Start, addr 0x328a5a4, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
@@ -344,29 +352,34 @@ protected:
   constexpr LevelFailedTextOverride();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelFailedTextOverride(LevelFailedTextOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFailedTextOverride(LevelFailedTextOverride const&) = delete;
+  LevelFailedTextOverride(LevelFailedTextOverrideconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23492 };
 
+  /// [SerializeField]
   /// @brief Field _perLanguageOverrides, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*> ____perLanguageOverrides;
 
+  /// [SerializeField]
   /// @brief Field _beatmapLevelPacks, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*> ____beatmapLevelPacks;
 
+  /// [SerializeField]
   /// @brief Field _beatmapLevels, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> ____beatmapLevels;
 
+  /// [Inject]
   /// @brief Field _levelFailedTextEffect, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelFailedText> ____levelFailedTextEffect;
 
+  /// [Inject]
   /// @brief Field _beatmapKey, offset: 0x40, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey;
 

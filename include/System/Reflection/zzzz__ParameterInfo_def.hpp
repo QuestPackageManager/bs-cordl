@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ParameterInfo.hpp"
+// IWYU pragma private; include "System/Reflection/ParameterInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -190,13 +190,13 @@ protected:
   constexpr ParameterInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParameterInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParameterInfo(ParameterInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParameterInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParameterInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParameterInfo(ParameterInfo const&) = delete;
+  ParameterInfo(ParameterInfoconst&) = delete;
 
   /// @brief Field MetadataToken_ParamDef offset 0xffffffff size 0x4
   static constexpr int32_t MetadataToken_ParamDef{ static_cast<int32_t>(0x8000000) };

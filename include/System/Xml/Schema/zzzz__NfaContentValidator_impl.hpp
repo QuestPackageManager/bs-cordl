@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\NfaContentValidator.hpp"
+// IWYU pragma private; include "System/Xml/Schema/NfaContentValidator.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_impl.hpp"
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__NfaContentValidator_def.hpp"

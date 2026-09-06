@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MonoBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine/MonoBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,10 @@ class MonoBehaviour;
 // Write type traits
 MARK_REF_T(::UnityEngine::MonoBehaviour*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::MonoBehaviour*, "UnityEngine", "MonoBehaviour");
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/Mono/MonoBehaviour.h")]
+// [NativeHeader("Runtime/Scripting/DelayedCallUtility.h")]
+// [ExtensionOfNativeClass]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -63,8 +67,9 @@ public:
   /// @brief Method CancelInvoke, addr 0x6ae4874, size 0x4, virtual false, abstract: false, final false
   inline void CancelInvoke(::StringW methodName);
 
+  /// [FreeFunction]
   /// @brief Method CancelInvoke, addr 0x6ae4878, size 0x194, virtual false, abstract: false, final false
-  static inline void CancelInvoke(::UnityEngine::MonoBehaviour* self, ::StringW methodName);
+  static inline void CancelInvoke(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self, ::StringW methodName);
 
   /// @brief Method CancelInvoke_Injected, addr 0x6ae58f4, size 0x44, virtual false, abstract: false, final false
   static inline void CancelInvoke_Injected(::System::IntPtr self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName);
@@ -75,14 +80,16 @@ public:
   /// @brief Method GetScriptClassName_Injected, addr 0x6ae5c0c, size 0x44, virtual false, abstract: false, final false
   static inline void GetScriptClassName_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("CancelInvoke")]
   /// @brief Method Internal_CancelInvokeAll, addr 0x6ae4540, size 0xa4, virtual false, abstract: false, final false
-  static inline void Internal_CancelInvokeAll(::UnityEngine::MonoBehaviour* self);
+  static inline void Internal_CancelInvokeAll(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self);
 
   /// @brief Method Internal_CancelInvokeAll_Injected, addr 0x6ae5820, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_CancelInvokeAll_Injected(::System::IntPtr self);
 
+  /// [FreeFunction("IsInvoking")]
   /// @brief Method Internal_IsInvokingAll, addr 0x6ae4498, size 0xa4, virtual false, abstract: false, final false
-  static inline bool Internal_IsInvokingAll(::UnityEngine::MonoBehaviour* self);
+  static inline bool Internal_IsInvokingAll(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self);
 
   /// @brief Method Internal_IsInvokingAll_Injected, addr 0x6ae585c, size 0x3c, virtual false, abstract: false, final false
   static inline bool Internal_IsInvokingAll_Injected(::System::IntPtr self);
@@ -90,8 +97,9 @@ public:
   /// @brief Method Invoke, addr 0x6ae45e4, size 0x8, virtual false, abstract: false, final false
   inline void Invoke(::StringW methodName, float_t time);
 
+  /// [FreeFunction]
   /// @brief Method InvokeDelayed, addr 0x6ae45ec, size 0x1ac, virtual false, abstract: false, final false
-  static inline void InvokeDelayed(::UnityEngine::MonoBehaviour* self, ::StringW methodName, float_t time, float_t repeatRate);
+  static inline void InvokeDelayed(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self, ::StringW methodName, float_t time, float_t repeatRate);
 
   /// @brief Method InvokeDelayed_Injected, addr 0x6ae5898, size 0x5c, virtual false, abstract: false, final false
   static inline void InvokeDelayed_Injected(::System::IntPtr self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName, float_t time, float_t repeatRate);
@@ -105,14 +113,16 @@ public:
   /// @brief Method IsInvoking, addr 0x6ae4a0c, size 0x4, virtual false, abstract: false, final false
   inline bool IsInvoking(::StringW methodName);
 
+  /// [FreeFunction]
   /// @brief Method IsInvoking, addr 0x6ae4a10, size 0x1a0, virtual false, abstract: false, final false
-  static inline bool IsInvoking(::UnityEngine::MonoBehaviour* self, ::StringW methodName);
+  static inline bool IsInvoking(/* [NotNull] */ ::UnityEngine::MonoBehaviour* self, ::StringW methodName);
 
   /// @brief Method IsInvoking_Injected, addr 0x6ae5938, size 0x44, virtual false, abstract: false, final false
   static inline bool IsInvoking_Injected(::System::IntPtr self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName);
 
+  /// [FreeFunction]
   /// @brief Method IsObjectMonoBehaviour, addr 0x6ae4c74, size 0xa4, virtual false, abstract: false, final false
-  static inline bool IsObjectMonoBehaviour(::UnityEngine::Object* obj);
+  static inline bool IsObjectMonoBehaviour(/* [NotNull] */ ::UnityEngine::Object* obj);
 
   /// @brief Method IsObjectMonoBehaviour_Injected, addr 0x6ae597c, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsObjectMonoBehaviour_Injected(::System::IntPtr obj);
@@ -125,14 +135,16 @@ public:
   /// @brief Method OnCancellationTokenCreated_Injected, addr 0x6ae5c50, size 0x3c, virtual false, abstract: false, final false
   static inline void OnCancellationTokenCreated_Injected(::System::IntPtr _unity_self);
 
+  /// [RequiredByNativeCode]
   /// @brief Method RaiseCancellation, addr 0x6ae4468, size 0x2c, virtual false, abstract: false, final false
   inline void RaiseCancellation();
 
+  /// [ExcludeFromDocs]
   /// @brief Method StartCoroutine, addr 0x6ae4bb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutine(::StringW methodName);
 
   /// @brief Method StartCoroutine, addr 0x6ae4bb8, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Coroutine* StartCoroutine(::StringW methodName, ::System::Object* value);
+  inline ::UnityEngine::Coroutine* StartCoroutine(::StringW methodName, /* [DefaultValue("null")] */ ::System::Object* value);
 
   /// @brief Method StartCoroutine, addr 0x6ae4e94, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutine(::System::Collections::IEnumerator* routine);
@@ -149,6 +161,7 @@ public:
   /// @brief Method StartCoroutineManaged_Injected, addr 0x6ae59b8, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Coroutine* StartCoroutineManaged_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName, ::System::Object* value);
 
+  /// [Obsolete("StartCoroutine_Auto has been deprecated. Use StartCoroutine instead (UnityUpgradable) -> StartCoroutine([mscorlib] System.Collections.IEnumerator)", false)]
   /// @brief Method StartCoroutine_Auto, addr 0x6ae4fd0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutine_Auto(::System::Collections::IEnumerator* routine);
 
@@ -227,13 +240,13 @@ protected:
   constexpr MonoBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoBehaviour(MonoBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoBehaviour(MonoBehaviour const&) = delete;
+  MonoBehaviour(MonoBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10353 };

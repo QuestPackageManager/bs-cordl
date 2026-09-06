@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRControllersRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRControllersRecorder.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationBinder_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -30,7 +30,7 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::VRControllersRecorder_Mode::VRControllersRecorder_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }

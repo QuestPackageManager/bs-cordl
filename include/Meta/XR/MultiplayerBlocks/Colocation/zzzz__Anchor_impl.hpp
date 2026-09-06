@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\Anchor.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/Anchor.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__Anchor_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
@@ -56,9 +56,9 @@ constexpr ::System::IEquatable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anch
 Meta::XR::MultiplayerBlocks::Colocation::Anchor::i___System__IEquatable_1___Meta__XR__MultiplayerBlocks__Colocation__Anchor_() {
   return static_cast<::System::IEquatable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "isAutomaticAnchor", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isAlignmentAnchor", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "ownerOculusId", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "colocationGroupId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "automaticAnchorUuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "isAutomaticAnchor", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isAlignmentAnchor", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "ownerOculusId", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "colocationGroupId", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "automaticAnchorUuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::MultiplayerBlocks::Colocation::Anchor::Anchor(bool isAutomaticAnchor, bool isAlignmentAnchor, uint64_t ownerOculusId, uint32_t colocationGroupId,
                                                                     ::System::Guid automaticAnchorUuid) noexcept {
   this->isAutomaticAnchor = isAutomaticAnchor;

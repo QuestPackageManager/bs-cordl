@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\NavigationModel.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/NavigationModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
   // @brief default ctor
   constexpr NavigationModel();
 
-  // Ctor Parameters [CppParam { name: "move", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "consecutiveMoveCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "lastMoveDirection", ty: "::UnityEngine::EventSystems::MoveDirection", modifiers: "", def_value: None }, CppParam { name: "lastMoveTime", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "eventData", ty: "::UnityEngine::EventSystems::AxisEventData*", modifiers: "", def_value: None }, CppParam { name: "device", ty:
-  // "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "move", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "consecutiveMoveCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "lastMoveDirection", ty: "::UnityEngine::EventSystems::MoveDirection", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "lastMoveTime", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "eventData", ty: "::UnityEngine::EventSystems::AxisEventData*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None, comment: None }]
   constexpr NavigationModel(::UnityEngine::Vector2 move, int32_t consecutiveMoveCount, ::UnityEngine::EventSystems::MoveDirection lastMoveDirection, float_t lastMoveTime,
                             ::UnityEngine::EventSystems::AxisEventData* eventData, ::UnityEngine::InputSystem::InputDevice* device) noexcept;
 

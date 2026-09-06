@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\ConcreteListConverter_2.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/ConcreteListConverter_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace Newtonsoft::Json {
 class JsonWriter;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename I, typename T> class ConcreteListConverter_2___c;
+template <typename I, typename T>
+  requires(::cordl_internals::type_constraint<T, I>)
+class ConcreteListConverter_2___c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -29,20 +31,26 @@ class Type;
 }
 // Forward declare root types
 namespace OculusStudios::GraphQL::Client {
-template <typename I, typename T> class ConcreteListConverter_2;
+template <typename I, typename T>
+  requires(::cordl_internals::type_constraint<T, I>)
+class ConcreteListConverter_2;
 }
 namespace OculusStudios::GraphQL::Client {
-template <typename I, typename T> class ConcreteListConverter_2___c;
+template <typename I, typename T>
+  requires(::cordl_internals::type_constraint<T, I>)
+class ConcreteListConverter_2___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::ConcreteListConverter_2);
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::ConcreteListConverter_2___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::ConcreteListConverter_2, "OculusStudios.GraphQL.Client", "ConcreteListConverter`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::ConcreteListConverter_2___c, "OculusStudios.GraphQL.Client", "ConcreteListConverter`2/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename I, typename T>
+  requires(::cordl_internals::type_constraint<T, I>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.ConcreteListConverter`2/<>c<I,T>
 class CORDL_TYPE ConcreteListConverter_2___c : public ::System::Object {
@@ -76,13 +84,13 @@ protected:
   constexpr ConcreteListConverter_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcreteListConverter_2___c(ConcreteListConverter_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteListConverter_2___c(ConcreteListConverter_2___c const&) = delete;
+  ConcreteListConverter_2___c(ConcreteListConverter_2___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20392 };
@@ -95,6 +103,7 @@ public:
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename I, typename T>
+  requires(::cordl_internals::type_constraint<T, I>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.ConcreteListConverter`2<I,T>
 class CORDL_TYPE ConcreteListConverter_2 : public ::Newtonsoft::Json::JsonConverter {
@@ -122,13 +131,13 @@ protected:
   constexpr ConcreteListConverter_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcreteListConverter_2(ConcreteListConverter_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteListConverter_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteListConverter_2(ConcreteListConverter_2 const&) = delete;
+  ConcreteListConverter_2(ConcreteListConverter_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20393 };

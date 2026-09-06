@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\DateTimeKind.hpp"
+// IWYU pragma private; include "System/DateTimeKind.hpp"
 #include "System/zzzz__DateTimeKind_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::DateTimeKind::DateTimeKind(int32_t value__) noexcept {
   this->value__ = value__;
 }

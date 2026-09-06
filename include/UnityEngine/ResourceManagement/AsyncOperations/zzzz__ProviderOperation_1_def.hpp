@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\ProviderOperation_1.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/ProviderOperation_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,6 +65,7 @@ template <typename TObject> class ProviderOperation_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1, "UnityEngine.ResourceManagement.AsyncOperations", "ProviderOperation`1");
+// [Preserve]
 // Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>,
 // UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -195,9 +196,11 @@ public:
   /// @brief Method SetWaitForCompletionCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
@@ -321,13 +324,13 @@ protected:
   constexpr ProviderOperation_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderOperation_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderOperation_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProviderOperation_1(ProviderOperation_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderOperation_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderOperation_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProviderOperation_1(ProviderOperation_1 const&) = delete;
+  ProviderOperation_1(ProviderOperation_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18826 };
@@ -372,6 +375,7 @@ public:
   /// @brief Field m_NeedsRelease, offset: 0x104, size: 0x1, def value: None
   bool ___m_NeedsRelease;
 
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Key>k__BackingField, offset: 0x108, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* ____UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
 

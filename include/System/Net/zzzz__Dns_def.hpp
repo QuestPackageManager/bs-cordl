@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Dns.hpp"
+// IWYU pragma private; include "System/Net/Dns.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,13 +72,13 @@ protected:
   constexpr Dns_GetHostAddressesCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dns_GetHostAddressesCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dns_GetHostAddressesCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dns_GetHostAddressesCallback(Dns_GetHostAddressesCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dns_GetHostAddressesCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dns_GetHostAddressesCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dns_GetHostAddressesCallback(Dns_GetHostAddressesCallback const&) = delete;
+  Dns_GetHostAddressesCallback(Dns_GetHostAddressesCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11586 };
@@ -119,6 +119,7 @@ public:
   /// @brief Method GetHostByAddressFromString, addr 0x642c694, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetHostByAddressFromString(::StringW address, bool parse);
 
+  /// [Obsolete("Use GetHostEntry instead")]
   /// @brief Method GetHostByName, addr 0x642c9b4, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetHostByName(::StringW hostName);
 
@@ -146,13 +147,13 @@ protected:
   constexpr Dns();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dns", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dns", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dns(Dns&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dns", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dns", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dns(Dns const&) = delete;
+  Dns(Dnsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11587 };

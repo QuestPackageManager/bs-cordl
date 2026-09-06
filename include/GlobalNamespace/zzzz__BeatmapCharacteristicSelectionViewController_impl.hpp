@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicSelectionViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicSelectionViewController.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSelectionViewController_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\GenRepContent.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/GenRepContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Method GetInstance, addr 0x334a690, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* GetInstance(::System::Object* obj);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*> itv);
+  static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*> itv);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -55,7 +55,7 @@ public:
   constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method .ctor, addr 0x334a80c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*> itv);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*> itv);
 
   /// @brief Method .ctor, addr 0x334a688, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -66,13 +66,13 @@ protected:
   constexpr GenRepContent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenRepContent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenRepContent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenRepContent(GenRepContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenRepContent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenRepContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenRepContent(GenRepContent const&) = delete;
+  GenRepContent(GenRepContentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24 };

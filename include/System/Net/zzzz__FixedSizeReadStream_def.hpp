@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FixedSizeReadStream.hpp"
+// IWYU pragma private; include "System/Net/FixedSizeReadStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_REF_T(::System::Net::FixedSizeReadStream*);
 MARK_VAL_T(::System::Net::FixedSizeReadStream__ProcessReadAsync_d__5);
 DEFINE_IL2CPP_CLASS(::System::Net::FixedSizeReadStream*, "System.Net", "FixedSizeReadStream");
 DEFINE_IL2CPP_CLASS(::System::Net::FixedSizeReadStream__ProcessReadAsync_d__5, "System.Net", "FixedSizeReadStream/<ProcessReadAsync>d__5");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace System::Net {
@@ -55,6 +56,7 @@ public:
   /// @brief Method MoveNext, addr 0x6430edc, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x643123c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -65,11 +67,12 @@ public:
   // @brief default ctor
   constexpr FixedSizeReadStream__ProcessReadAsync_d__5();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::FixedSizeReadStream*", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::FixedSizeReadStream*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr FixedSizeReadStream__ProcessReadAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder,
                                                        ::System::Threading::CancellationToken cancellationToken, ::System::Net::FixedSizeReadStream* __4__this, int32_t size, ::ArrayW<uint8_t> buffer,
                                                        int32_t offset, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
@@ -145,6 +148,7 @@ public:
 
   static inline ::System::Net::FixedSizeReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
+  /// [AsyncStateMachine(typeof(System.Net.FixedSizeReadStream::<ProcessReadAsync>d__5))]
   /// @brief Method ProcessReadAsync, addr 0x6430dc8, size 0x114, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
@@ -163,6 +167,7 @@ public:
   /// @brief Method .ctor, addr 0x6430da0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ContentLength, addr 0x6430d98, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentLength();
 
@@ -172,17 +177,18 @@ protected:
   constexpr FixedSizeReadStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedSizeReadStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedSizeReadStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedSizeReadStream(FixedSizeReadStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedSizeReadStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedSizeReadStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedSizeReadStream(FixedSizeReadStream const&) = delete;
+  FixedSizeReadStream(FixedSizeReadStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11591 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ContentLength>k__BackingField, offset: 0x40, size: 0x8, def value: None
   int64_t ____ContentLength_k__BackingField;
 

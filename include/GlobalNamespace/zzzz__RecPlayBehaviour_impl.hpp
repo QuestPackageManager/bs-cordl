@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RecPlayBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/RecPlayBehaviour.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseNoise_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RecPlayBehaviour_def.hpp"
@@ -443,7 +443,7 @@ inline ::BeatSaber::RecPlay::PlayerPoseFrames GlobalNamespace::RecPlayBehaviour:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "LoadLevelRecording", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::RecPlay::PlayerPoseFrames>(nullptr, ___internal_method, path);
 }
-inline void GlobalNamespace::RecPlayBehaviour::SavePlayerPoseFrames(::StringW path, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> frames) {
+inline void GlobalNamespace::RecPlayBehaviour::SavePlayerPoseFrames(::StringW path, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> frames) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(),
                                                            { "SavePlayerPoseFrames", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames>>() } })));

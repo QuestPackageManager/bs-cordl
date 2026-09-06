@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerSessionInitializer.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerSessionInitializer.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionType_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionInitializer_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberConnectedPlayer_def.hpp"
@@ -60,8 +60,8 @@ GlobalNamespace::MultiplayerSessionInitializer::i___GlobalNamespace__IMultiplaye
   return static_cast<::GlobalNamespace::IMultiplayerSessionManager_1_IMultiplayerSessionInitializer<::GlobalNamespace::IBeatSaberConnectedPlayer*>*>(
       static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_multiplayerSessionManager", ty: "::GlobalNamespace::IBeatSaberMultiplayerSessionManager*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_multiplayerSessionType", ty: "::GlobalNamespace::MultiplayerSessionType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_multiplayerSessionManager", ty: "::GlobalNamespace::IBeatSaberMultiplayerSessionManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_multiplayerSessionType", ty: "::GlobalNamespace::MultiplayerSessionType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerSessionInitializer::MultiplayerSessionInitializer(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager,
                                                                                           ::GlobalNamespace::MultiplayerSessionType _multiplayerSessionType) noexcept {
   this->_multiplayerSessionManager = _multiplayerSessionManager;

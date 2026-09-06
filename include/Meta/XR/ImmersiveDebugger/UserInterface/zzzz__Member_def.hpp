@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Member.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Member.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -179,6 +179,7 @@ public:
   /// @brief Method Setup, addr 0x5a54434, size 0x344, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
+  /// [CompilerGenerated]
   /// @brief Method <AddToggle>b__37_0, addr 0x5a55af0, size 0x34, virtual false, abstract: false, final false
   inline void _AddToggle_b__37_0();
 
@@ -296,13 +297,13 @@ protected:
   constexpr Member();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Member", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Member", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Member(Member&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Member", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Member", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Member(Member const&) = delete;
+  Member(Memberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18378 };

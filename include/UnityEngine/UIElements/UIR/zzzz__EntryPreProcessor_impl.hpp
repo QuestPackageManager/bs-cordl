@@ -1,12 +1,13 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryPreProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryPreProcessor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryPreProcessor_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryPreProcessor_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Entry_def.hpp"
-// Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize::EntryPreProcessor_AllocSize(int32_t vertexCount, int32_t indexCount) noexcept {
   this->vertexCount = vertexCount;
   this->indexCount = indexCount;

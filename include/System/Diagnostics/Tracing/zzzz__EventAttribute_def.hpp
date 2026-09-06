@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\Tracing\EventAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/Tracing/EventAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class EventAttribute;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::Tracing::EventAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::Tracing::EventAttribute*, "System.Diagnostics.Tracing", "EventAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute, System.Diagnostics.Tracing.EventKeywords, System.Diagnostics.Tracing.EventLevel
 namespace System::Diagnostics::Tracing {
 // Is value type: false
@@ -79,15 +80,19 @@ public:
   /// @brief Method .ctor, addr 0x5be282c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t eventId);
 
+  /// [CompilerGenerated]
   /// @brief Method set_EventId, addr 0x5be2834, size 0x8, virtual false, abstract: false, final false
   inline void set_EventId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Keywords, addr 0x5be2844, size 0x8, virtual false, abstract: false, final false
   inline void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Level, addr 0x5be283c, size 0x8, virtual false, abstract: false, final false
   inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Message, addr 0x5be284c, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
@@ -97,26 +102,30 @@ protected:
   constexpr EventAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventAttribute(EventAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventAttribute(EventAttribute const&) = delete;
+  EventAttribute(EventAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3672 };
 
+  /// [CompilerGenerated]
   /// @brief Field <EventId>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____EventId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Level>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::System::Diagnostics::Tracing::EventLevel ____Level_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Keywords>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Diagnostics::Tracing::EventKeywords ____Keywords_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Message>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Message_k__BackingField;
 

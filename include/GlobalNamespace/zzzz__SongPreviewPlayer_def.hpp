@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongPreviewPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongPreviewPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -148,26 +148,33 @@ protected:
   constexpr SongPreviewPlayer_AudioSourceParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPreviewPlayer_AudioSourceParams(SongPreviewPlayer_AudioSourceParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPreviewPlayer_AudioSourceParams(SongPreviewPlayer_AudioSourceParams const&) = delete;
+  SongPreviewPlayer_AudioSourceParams(SongPreviewPlayer_AudioSourceParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5582 };
 
+  /// [SerializeField]
   /// @brief Field _position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____position;
 
+  /// [SerializeField]
+  /// [Range(0, 1.1)]
   /// @brief Field _reverbZoneMix, offset: 0x1c, size: 0x4, def value: None
   float_t ____reverbZoneMix;
 
+  /// [SerializeField]
+  /// [Range(0, 1)]
   /// @brief Field _spatialBlend, offset: 0x20, size: 0x4, def value: None
   float_t ____spatialBlend;
 
+  /// [SerializeField]
+  /// [Range(0, 360)]
   /// @brief Field _spread, offset: 0x24, size: 0x4, def value: None
   float_t ____spread;
 
@@ -228,12 +235,14 @@ public:
   /// @brief Method .ctor, addr 0x58ba870, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audioSource);
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxVolume, addr 0x58bb5c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
   /// @brief Method get_volume, addr 0x58bb5bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volume();
 
+  /// [CompilerGenerated]
   /// @brief Method set_maxVolume, addr 0x58bb5cc, size 0x8, virtual false, abstract: false, final false
   inline void set_maxVolume(float_t value);
 
@@ -246,13 +255,13 @@ protected:
   constexpr SongPreviewPlayer_AudioSourceVolumeController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceVolumeController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceVolumeController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPreviewPlayer_AudioSourceVolumeController(SongPreviewPlayer_AudioSourceVolumeController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceVolumeController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceVolumeController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPreviewPlayer_AudioSourceVolumeController(SongPreviewPlayer_AudioSourceVolumeController const&) = delete;
+  SongPreviewPlayer_AudioSourceVolumeController(SongPreviewPlayer_AudioSourceVolumeControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5583 };
@@ -260,6 +269,7 @@ public:
   /// @brief Field audioSource, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ___audioSource;
 
+  /// [CompilerGenerated]
   /// @brief Field <maxVolume>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t ____maxVolume_k__BackingField;
 
@@ -278,6 +288,7 @@ static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeCon
 static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -313,17 +324,22 @@ public:
   /// @brief Method MoveNext, addr 0x58bb5d8, size 0xa4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58bb67c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58bb684, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58bb6bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x58bb5d4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -351,6 +367,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x58ba9dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -369,13 +386,13 @@ protected:
   constexpr SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27(SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27(SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27 const&) = delete;
+  SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27(SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5584 };
@@ -488,6 +505,7 @@ public:
   /// @brief Method Awake, addr 0x58ba69c, size 0x1d4, virtual false, abstract: false, final false
   inline void Awake();
 
+  /// [IteratorStateMachine(typeof(SongPreviewPlayer::<CrossFadeAfterDelayCoroutine>d__27))]
   /// @brief Method CrossFadeAfterDelayCoroutine, addr 0x58ba978, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CrossFadeAfterDelayCoroutine(float_t delay);
 
@@ -658,47 +676,61 @@ protected:
   constexpr SongPreviewPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPreviewPlayer(SongPreviewPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPreviewPlayer(SongPreviewPlayer const&) = delete;
+  SongPreviewPlayer(SongPreviewPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5585 };
 
+  /// [SerializeField]
+  /// [Range(2, 6)]
   /// @brief Field _channelsCount, offset: 0x20, size: 0x4, def value: None
   int32_t ____channelsCount;
 
+  /// [SerializeField]
   /// @brief Field _audioSourcePrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSourcePrefab;
 
+  /// [SerializeField]
   /// @brief Field _defaultAudioClip, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____defaultAudioClip;
 
+  /// [SerializeField]
   /// @brief Field _volume, offset: 0x38, size: 0x4, def value: None
   float_t ____volume;
 
+  /// [SerializeField]
   /// @brief Field _crossFadeToAnotherSongSpeed, offset: 0x3c, size: 0x4, def value: None
   float_t ____crossFadeToAnotherSongSpeed;
 
+  /// [SerializeField]
   /// @brief Field _crossFadeToDefaultSpeed, offset: 0x40, size: 0x4, def value: None
   float_t ____crossFadeToDefaultSpeed;
 
+  /// [SerializeField]
   /// @brief Field _fadeInSpeed, offset: 0x44, size: 0x4, def value: None
   float_t ____fadeInSpeed;
 
+  /// [Header("Audio Parameters")]
+  /// [SerializeField]
   /// @brief Field _defaultAudioSourceParams, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* ____defaultAudioSourceParams;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _othersAudioSourceParams, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* ____othersAudioSourceParams;
 
+  /// [Inject]
   /// @brief Field _audioManager, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::AudioManager* ____audioManager;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

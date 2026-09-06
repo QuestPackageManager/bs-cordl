@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\SecureString.hpp"
+// IWYU pragma private; include "System/Security/SecureString.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/zzzz__SecureString_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -174,6 +174,7 @@ inline ::ArrayW<uint8_t> System::Security::SecureString::GetBuffer() {
 inline ::System::Security::SecureString* System::Security::SecureString::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::SecureString*>());
 }
+/// @brief [CLSCompliant(false)]
 inline ::System::Security::SecureString* System::Security::SecureString::New_ctor(char16_t* value, int32_t length) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::SecureString*>(value, length));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenRendererDataNativeCallback.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenRendererDataNativeCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,8 +41,9 @@ class CORDL_TYPE GPUDrivenRendererDataNativeCallback : public ::System::Multicas
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6b2b99c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> rendererDataNative, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
-                     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback);
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> rendererDataNative,
+                     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
+                     ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback);
 
   static inline ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -55,13 +56,13 @@ protected:
   constexpr GPUDrivenRendererDataNativeCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenRendererDataNativeCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenRendererDataNativeCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUDrivenRendererDataNativeCallback(GPUDrivenRendererDataNativeCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenRendererDataNativeCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenRendererDataNativeCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUDrivenRendererDataNativeCallback(GPUDrivenRendererDataNativeCallback const&) = delete;
+  GPUDrivenRendererDataNativeCallback(GPUDrivenRendererDataNativeCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10877 };

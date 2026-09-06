@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLClient.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLClient.hpp"
+#include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLModel_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
@@ -35,336 +36,453 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::QueryRequest*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::__cordl_internal_get_request() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::QueryRequest* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::__cordl_internal_get_request() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::__cordl_internal_set_request(::OculusStudios::GraphQL::Client::QueryRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___request = value;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::__cordl_internal_set___4__this(::OculusStudios::GraphQL::Client::GraphQLClient* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::_ctor() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::_Query_b__0() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::_Query_b__0() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>*>(), { "<Query>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>* OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>*>());
 }
 // Ctor Parameters []
-template <typename TBackend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::GraphQLClient___c__DisplayClass25_0_1() {}
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>::GraphQLClient___c__DisplayClass25_0_1() {}
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::QueryRequest*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::__cordl_internal_get_request() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::QueryRequest* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::__cordl_internal_get_request() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::__cordl_internal_set_request(::OculusStudios::GraphQL::Client::QueryRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___request = value;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::__cordl_internal_set___4__this(::OculusStudios::GraphQL::Client::GraphQLClient* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::_ctor() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>*>());
 }
 // Ctor Parameters []
-template <typename TBackend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::GraphQLClient___c__DisplayClass27_0_1() {}
-template <typename TBackend> constexpr ::System::Object*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::__cordl_internal_get_resultObject() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>::GraphQLClient___c__DisplayClass27_0_1() {}
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::System::Object*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::__cordl_internal_get_resultObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resultObject;
 }
-template <typename TBackend> constexpr ::System::Object* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::__cordl_internal_get_resultObject() const {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::System::Object* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::__cordl_internal_get_resultObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resultObject;
 }
-template <typename TBackend> constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::__cordl_internal_set_resultObject(::System::Object* value) {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::__cordl_internal_set_resultObject(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resultObject = value;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>*&
 OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::__cordl_internal_get_CS$__8__locals1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* const&
 OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::__cordl_internal_get_CS$__8__locals1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals1;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::__cordl_internal_set_CS$__8__locals1(
     ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CS$__8__locals1 = value;
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::_ctor() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::_InternalQueryData_b__0() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::_InternalQueryData_b__0() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>*>(), { "<InternalQueryData>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>* OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>*>());
 }
 // Ctor Parameters []
-template <typename TBackend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::GraphQLClient___c__DisplayClass27_1_1() {}
-template <typename TBackend> constexpr ::System::Exception*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::__cordl_internal_get_e() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>::GraphQLClient___c__DisplayClass27_1_1() {}
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::System::Exception*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::__cordl_internal_get_e() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
-template <typename TBackend> constexpr ::System::Exception* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::__cordl_internal_get_e() const {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::System::Exception* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::__cordl_internal_get_e() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
-template <typename TBackend> constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::__cordl_internal_set_e(::System::Exception* value) {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::__cordl_internal_set_e(::System::Exception* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___e = value;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>*&
 OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::__cordl_internal_get_CS$__8__locals2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals2;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* const&
 OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::__cordl_internal_get_CS$__8__locals2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CS$__8__locals2;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::__cordl_internal_set_CS$__8__locals2(
     ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CS$__8__locals2 = value;
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::_ctor() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::_InternalQueryData_b__1() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::_InternalQueryData_b__1() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>*>(), { "<InternalQueryData>b__1", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>* OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>*>());
 }
 // Ctor Parameters []
-template <typename TBackend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::GraphQLClient___c__DisplayClass27_2_1() {}
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_2_1<TBackend>::GraphQLClient___c__DisplayClass27_2_1() {}
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::MutationRequest*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::__cordl_internal_get_request() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::MutationRequest* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::__cordl_internal_get_request() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::__cordl_internal_set_request(::OculusStudios::GraphQL::Client::MutationRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___request = value;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::__cordl_internal_set___4__this(::OculusStudios::GraphQL::Client::GraphQLClient* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::_ctor() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::_Mutate_b__0() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::_Mutate_b__0() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>*>(), { "<Mutate>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>* OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>*>());
 }
 // Ctor Parameters []
-template <typename TBackend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::GraphQLClient___c__DisplayClass28_0_1() {}
-template <typename T> constexpr ::OculusStudios::GraphQL::Client::MutationRequest*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get_request() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>::GraphQLClient___c__DisplayClass28_0_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::OculusStudios::GraphQL::Client::MutationRequest*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get_request() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::OculusStudios::GraphQL::Client::MutationRequest* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get_request() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
-template <typename T> constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_set_request(::OculusStudios::GraphQL::Client::MutationRequest* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_set_request(::OculusStudios::GraphQL::Client::MutationRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___request = value;
 }
-template <typename T> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get___4__this() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_set___4__this(::OculusStudios::GraphQL::Client::GraphQLClient* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_set___4__this(::OculusStudios::GraphQL::Client::GraphQLClient* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T> constexpr ::System::Object*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get_resultObject() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::System::Object*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get_resultObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resultObject;
 }
-template <typename T> constexpr ::System::Object* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get_resultObject() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::System::Object* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_get_resultObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resultObject;
 }
-template <typename T> constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_set_resultObject(::System::Object* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::__cordl_internal_set_resultObject(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resultObject = value;
 }
-template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::_InternalMutateData_b__0() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::_InternalMutateData_b__0() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>*>(), { "<InternalMutateData>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>* OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>* OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::GraphQLClient___c__DisplayClass30_0_1() {}
-template <typename T> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get___4__this() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>::GraphQLClient___c__DisplayClass30_0_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_set___4__this(::OculusStudios::GraphQL::Client::GraphQLClient* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_set___4__this(::OculusStudios::GraphQL::Client::GraphQLClient* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T> constexpr ::System::Exception*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get_e() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::System::Exception*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get_e() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
-template <typename T> constexpr ::System::Exception* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get_e() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::System::Exception* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get_e() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
-template <typename T> constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_set_e(::System::Exception* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_set_e(::System::Exception* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___e = value;
 }
-template <typename T> constexpr ::OculusStudios::GraphQL::Client::MutationRequest*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get_request() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::OculusStudios::GraphQL::Client::MutationRequest*& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get_request() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::OculusStudios::GraphQL::Client::MutationRequest* const& OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_get_request() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___request;
 }
-template <typename T> constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_set_request(::OculusStudios::GraphQL::Client::MutationRequest* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::__cordl_internal_set_request(::OculusStudios::GraphQL::Client::MutationRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___request = value;
 }
-template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::_ErrorOutMutation_b__0() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::_ErrorOutMutation_b__0() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>*>(), { "<ErrorOutMutation>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>* OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>* OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::GraphQLClient___c__DisplayClass32_0_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0_1<T>::GraphQLClient___c__DisplayClass32_0_1() {}
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass33_0._ctor
 template <>
 
@@ -479,10 +597,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty: "::OculusStudios::GraphQL::ClientInterface::Request*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "requestId",
-// ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty:
+// "::OculusStudios::GraphQL::ClientInterface::Request*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestId", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__CleanupRequestAsync_d__35::GraphQLClient__CleanupRequestAsync_d__35(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::OculusStudios::GraphQL::ClientInterface::Request* request,
     ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, int64_t requestId, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -541,11 +660,11 @@ constexpr OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33::ope
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33::GraphQLClient__ExecuteAsync_d__33(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
     ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, ::OculusStudios::GraphQL::Client::GraphQLRequest* request,
@@ -558,35 +677,44 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33::G
 }
 // Ctor Parameters []
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__ExecuteAsync_d__33::GraphQLClient__ExecuteAsync_d__33() {}
-template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::MoveNext() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename T> constexpr OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty: "::OculusStudios::GraphQL::Client::MutationRequest*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty:
-// "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty: "::System::Object*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__7__wrap2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_mutateTask_5__4", ty:
-// "::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_timeoutTask_5__5", ty:
-// "::System::Threading::Tasks::Task*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty:
+// "::OculusStudios::GraphQL::Client::MutationRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty: "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__7__wrap1", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_mutateTask_5__4", ty: "::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_timeoutTask_5__5", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::GraphQLClient__InternalMutateData_d__30_1(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::MutationRequest* request,
     ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass30_0_1<T>* __8__1, ::System::Object* __7__wrap1, int32_t __7__wrap2,
@@ -605,38 +733,48 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d_
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::GraphQLClient__InternalMutateData_d__30_1() {}
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>::MoveNext() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__InternalMutateData_d__30_1<T>::GraphQLClient__InternalMutateData_d__30_1() {}
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline void OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename TBackend> constexpr OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty: "::OculusStudios::GraphQL::Client::QueryRequest*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty:
-// "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__2", ty:
-// "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty: "::System::Object*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__7__wrap2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_queryTask_5__4", ty:
-// "::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_timeoutTask_5__5", ty:
-// "::System::Threading::Tasks::Task*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty:
+// "::OculusStudios::GraphQL::Client::QueryRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty: "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__8__2", ty: "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_0_1<TBackend>*", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "__7__wrap1", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_queryTask_5__4", ty: "::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_timeoutTask_5__5", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>::GraphQLClient__InternalQueryData_d__27_1(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::QueryRequest* request,
     ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass27_1_1<TBackend>* __8__1,
@@ -657,35 +795,45 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-template <typename TBackend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>::GraphQLClient__InternalQueryData_d__27_1() {}
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>::MoveNext() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__InternalQueryData_d__27_1<TBackend>::GraphQLClient__InternalQueryData_d__27_1() {}
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline void OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename TBackend> constexpr OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "requestBase", ty: "::OculusStudios::GraphQL::ClientInterface::IMutationRequest*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty: "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_requestId_5__2", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestBase", ty:
+// "::OculusStudios::GraphQL::ClientInterface::IMutationRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_requestId_5__2", ty: "int64_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>::GraphQLClient__Mutate_d__28_1(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend> __t__builder, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this,
     ::OculusStudios::GraphQL::ClientInterface::IMutationRequest* requestBase, ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass28_0_1<TBackend>* __8__1, int64_t _requestId_5__2,
@@ -700,13 +848,20 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBacke
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-template <typename TBackend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>::GraphQLClient__Mutate_d__28_1() {}
-template <typename TBackend, typename TFrontend> inline void OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>::MoveNext() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__28_1<TBackend>::GraphQLClient__Mutate_d__28_1() {}
+template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 inline void OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
@@ -714,23 +869,30 @@ inline void OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBacke
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 constexpr OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend>", modifiers: "", def_value: Some("{}") }, CppParam { name: "requestBase", ty:
-// "::OculusStudios::GraphQL::ClientInterface::IMutationRequest*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_result_5__2", ty: "TBackend", modifiers: "", def_value: Some("{}") }, CppParam { name: "_conversion_5__3", ty:
-// "::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2<TBackend,TFrontend>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<TBackend>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestBase", ty:
+// "::OculusStudios::GraphQL::ClientInterface::IMutationRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_result_5__2", ty: "TBackend", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_conversion_5__3", ty: "::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2<TBackend,TFrontend>*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<TBackend>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>::GraphQLClient__Mutate_d__29_2(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend> __t__builder, ::OculusStudios::GraphQL::ClientInterface::IMutationRequest* requestBase,
     ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, TBackend _result_5__2, ::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2<TBackend, TFrontend>* _conversion_5__3,
@@ -747,7 +909,10 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBacke
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-template <typename TBackend, typename TFrontend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>::GraphQLClient__Mutate_d__29_2() {}
+template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Mutate_d__29_2<TBackend, TFrontend>::GraphQLClient__Mutate_d__29_2() {}
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24.MoveNext
 template <>
 
@@ -794,10 +959,10 @@ constexpr OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24::o
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "requestId", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestId", ty: "int64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24::GraphQLClient__ProcessRequest_d__24(int32_t __1__state,
                                                                                                                      ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                                      ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, int64_t requestId,
@@ -810,33 +975,41 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24:
 }
 // Ctor Parameters []
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__ProcessRequest_d__24::GraphQLClient__ProcessRequest_d__24() {}
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>::MoveNext() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline void OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename TBackend> constexpr OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "requestBase", ty: "::OculusStudios::GraphQL::ClientInterface::IQueryRequest*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty: "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_requestId_5__2", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestBase", ty:
+// "::OculusStudios::GraphQL::ClientInterface::IQueryRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_requestId_5__2", ty: "int64_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>::GraphQLClient__Query_d__25_1(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TBackend> __t__builder, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this,
     ::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase, ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass25_0_1<TBackend>* __8__1, int64_t _requestId_5__2,
@@ -851,13 +1024,20 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBacken
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-template <typename TBackend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>::GraphQLClient__Query_d__25_1() {}
-template <typename TBackend, typename TFrontend> inline void OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>::MoveNext() {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__25_1<TBackend>::GraphQLClient__Query_d__25_1() {}
+template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 inline void OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
@@ -865,23 +1045,30 @@ inline void OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBacken
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 constexpr OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend>", modifiers: "", def_value: Some("{}") }, CppParam { name: "requestBase", ty:
-// "::OculusStudios::GraphQL::ClientInterface::IQueryRequest*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_result_5__2", ty: "TBackend", modifiers: "", def_value: Some("{}") }, CppParam { name: "_conversion_5__3", ty:
-// "::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2<TBackend,TFrontend>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<TBackend>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestBase", ty:
+// "::OculusStudios::GraphQL::ClientInterface::IQueryRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_result_5__2", ty: "TBackend", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_conversion_5__3", ty: "::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2<TBackend,TFrontend>*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<TBackend>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>::GraphQLClient__Query_d__26_2(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TFrontend> __t__builder, ::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase,
     ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, TBackend _result_5__2, ::OculusStudios::GraphQL::ClientInterface::IRequestWithResultConversion_2<TBackend, TFrontend>* _conversion_5__3,
@@ -898,7 +1085,10 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBacken
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-template <typename TBackend, typename TFrontend> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>::GraphQLClient__Query_d__26_2() {}
+template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__Query_d__26_2<TBackend, TFrontend>::GraphQLClient__Query_d__26_2() {}
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37.MoveNext
 template <>
 
@@ -948,10 +1138,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty: "::OculusStudios::GraphQL::ClientInterface::Request*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_tries_5__2", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty: "::OculusStudios::GraphQL::ClientInterface::Request*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_tries_5__2", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this,
     ::OculusStudios::GraphQL::ClientInterface::Request* request, uint32_t _tries_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -964,32 +1155,40 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserIn
 }
 // Ctor Parameters []
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37::GraphQLClient__ResetRequestForUserInitiatedRetryAsync_d__37() {}
-template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>::MoveNext() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 inline void OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename T> constexpr OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty: "::OculusStudios::GraphQL::Client::MutationRequest*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "e", ty:
-// "::System::Exception*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty:
+// "::OculusStudios::GraphQL::Client::MutationRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "e", ty: "::System::Exception*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::MutationRequest* request,
     ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, ::System::Exception* e, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -1001,7 +1200,9 @@ constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutati
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1<T>::GraphQLClient__RetryOrErrorOutMutationAsync_d__31_1() {}
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36.MoveNext
 template <>
 
@@ -1049,10 +1250,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_pauseTickCounter_5__2",
-// ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::GraphQLClient*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_pauseTickCounter_5__2", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36::GraphQLClient__WaitUntilRequestQueueIsResumed_d__36(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::CancellationToken cancellationToken,
     ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, int64_t _pauseTickCounter_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -1527,6 +1729,7 @@ inline ::System::Threading::Tasks::Task* OculusStudios::GraphQL::Client::GraphQL
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, requestId);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline ::System::Threading::Tasks::Task_1<TBackend>* OculusStudios::GraphQL::Client::GraphQLClient::Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient*>(),
@@ -1535,6 +1738,8 @@ inline ::System::Threading::Tasks::Task_1<TBackend>* OculusStudios::GraphQL::Cli
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TBackend>*>(this, ___internal_method, requestBase);
 }
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 inline ::System::Threading::Tasks::Task_1<TFrontend>* OculusStudios::GraphQL::Client::GraphQLClient::Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -1543,7 +1748,9 @@ inline ::System::Threading::Tasks::Task_1<TFrontend>* OculusStudios::GraphQL::Cl
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TBackend>(), ::i2c::class_of<TFrontend>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TFrontend>*>(this, ___internal_method, requestBase);
 }
-template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQLClient::InternalQueryData(::OculusStudios::GraphQL::Client::QueryRequest* request) {
+template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient::InternalQueryData(::OculusStudios::GraphQL::Client::QueryRequest* request) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient*>(),
                                                            { "InternalQueryData", { ::i2c::class_of<TBackend>() }, { ::i2c::type_of<::OculusStudios::GraphQL::Client::QueryRequest*>() } })));
@@ -1551,6 +1758,7 @@ template <typename TBackend> inline void OculusStudios::GraphQL::Client::GraphQL
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, request);
 }
 template <typename TBackend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend>)
 inline ::System::Threading::Tasks::Task_1<TBackend>* OculusStudios::GraphQL::Client::GraphQLClient::Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* requestBase) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient*>(),
@@ -1559,6 +1767,8 @@ inline ::System::Threading::Tasks::Task_1<TBackend>* OculusStudios::GraphQL::Cli
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TBackend>*>(this, ___internal_method, requestBase);
 }
 template <typename TBackend, typename TFrontend>
+  requires(::cordl_internals::type_constraint<TBackend, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TBackend> &&
+           ::cordl_internals::reference_type_constraint<TFrontend>)
 inline ::System::Threading::Tasks::Task_1<TFrontend>* OculusStudios::GraphQL::Client::GraphQLClient::Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* requestBase) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -1567,7 +1777,9 @@ inline ::System::Threading::Tasks::Task_1<TFrontend>* OculusStudios::GraphQL::Cl
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TBackend>(), ::i2c::class_of<TFrontend>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TFrontend>*>(this, ___internal_method, requestBase);
 }
-template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient::InternalMutateData(::OculusStudios::GraphQL::Client::MutationRequest* request) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient::InternalMutateData(::OculusStudios::GraphQL::Client::MutationRequest* request) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient*>(),
                                                            { "InternalMutateData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::OculusStudios::GraphQL::Client::MutationRequest*>() } })));
@@ -1575,6 +1787,7 @@ template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient:
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, request);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
 inline ::System::Threading::Tasks::Task* OculusStudios::GraphQL::Client::GraphQLClient::RetryOrErrorOutMutationAsync(::OculusStudios::GraphQL::Client::MutationRequest* request,
                                                                                                                      ::System::Exception* e) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -1585,7 +1798,9 @@ inline ::System::Threading::Tasks::Task* OculusStudios::GraphQL::Client::GraphQL
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, request, e);
 }
-template <typename T> inline void OculusStudios::GraphQL::Client::GraphQLClient::ErrorOutMutation(::OculusStudios::GraphQL::Client::MutationRequest* request, ::System::Exception* e) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<T>)
+inline void OculusStudios::GraphQL::Client::GraphQLClient::ErrorOutMutation(::OculusStudios::GraphQL::Client::MutationRequest* request, ::System::Exception* e) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLClient*>(),

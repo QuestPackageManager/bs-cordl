@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifierMaskExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierMaskExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMaskExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\SpawnOverDistance.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/SpawnOverDistance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,13 +87,13 @@ protected:
   constexpr SpawnOverDistance_InputProperties();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnOverDistance_InputProperties", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnOverDistance_InputProperties", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnOverDistance_InputProperties(SpawnOverDistance_InputProperties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnOverDistance_InputProperties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnOverDistance_InputProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpawnOverDistance_InputProperties(SpawnOverDistance_InputProperties const&) = delete;
+  SpawnOverDistance_InputProperties(SpawnOverDistance_InputPropertiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19926 };
@@ -204,13 +204,13 @@ protected:
   constexpr SpawnOverDistance();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnOverDistance", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnOverDistance", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnOverDistance(SpawnOverDistance&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnOverDistance", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnOverDistance", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpawnOverDistance(SpawnOverDistance const&) = delete;
+  SpawnOverDistance(SpawnOverDistanceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19927 };

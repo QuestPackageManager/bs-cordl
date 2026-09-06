@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectAvoidanceYOffsetEvaluator.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectAvoidanceYOffsetEvaluator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceYOffsetEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceYOffsetEvaluator_def.hpp"
@@ -25,7 +25,8 @@ inline void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::
                                                                                          { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, songTime, yOffset);
 }
-// Ctor Parameters [CppParam { name: "songTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "songTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData(float_t songTime, float_t yOffset) noexcept {
   this->songTime = songTime;
   this->yOffset = yOffset;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\RangeValuesTextSlider.hpp"
+// IWYU pragma private; include "HMUI/RangeValuesTextSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,9 +83,11 @@ public:
   /// @brief Method TextForValue, addr 0x587e8ec, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__19_0, addr 0x587e958, size 0x44, virtual false, abstract: false, final false
   inline void _Awake_b__19_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__19_1, addr 0x587e9a4, size 0x44, virtual false, abstract: false, final false
   inline void _Awake_b__19_1();
 
@@ -128,6 +130,7 @@ public:
   /// @brief Method .ctor, addr 0x587e16c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_valueDidChangeEvent, addr 0x587e42c, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
@@ -140,6 +143,7 @@ public:
   /// @brief Method get_value, addr 0x587e3b0, size 0x28, virtual false, abstract: false, final false
   inline float_t get_value();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_valueDidChangeEvent, addr 0x587e4ec, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
@@ -161,29 +165,36 @@ protected:
   constexpr RangeValuesTextSlider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RangeValuesTextSlider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RangeValuesTextSlider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RangeValuesTextSlider(RangeValuesTextSlider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RangeValuesTextSlider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RangeValuesTextSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RangeValuesTextSlider(RangeValuesTextSlider const&) = delete;
+  RangeValuesTextSlider(RangeValuesTextSliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19061 };
 
+  /// [SerializeField]
   /// @brief Field _minValue, offset: 0x144, size: 0x4, def value: None
   float_t ____minValue;
 
+  /// [SerializeField]
   /// @brief Field _maxValue, offset: 0x148, size: 0x4, def value: None
   float_t ____maxValue;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _decButton, offset: 0x150, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____decButton;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _incButton, offset: 0x158, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____incButton;
 
+  /// [CompilerGenerated]
   /// @brief Field valueDidChangeEvent, offset: 0x160, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* ___valueDidChangeEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\DiagnosticReport.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/DiagnosticReport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,13 +75,13 @@ protected:
   constexpr DiagnosticReport();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticReport", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticReport", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticReport(DiagnosticReport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticReport", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticReport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticReport(DiagnosticReport const&) = delete;
+  DiagnosticReport(DiagnosticReportconst&) = delete;
 
   /// @brief Field LibraryName offset 0xffffffff size 0x8
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };

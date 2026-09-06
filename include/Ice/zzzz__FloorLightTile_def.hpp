@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice\FloorLightTile.hpp"
+// IWYU pragma private; include "Ice/FloorLightTile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,13 +58,13 @@ protected:
   constexpr FloorLightTile_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloorLightTile_Pool(FloorLightTile_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloorLightTile_Pool(FloorLightTile_Pool const&) = delete;
+  FloorLightTile_Pool(FloorLightTile_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23246 };
@@ -167,23 +167,26 @@ protected:
   constexpr FloorLightTile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloorLightTile(FloorLightTile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloorLightTile(FloorLightTile const&) = delete;
+  FloorLightTile(FloorLightTileconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23247 };
 
+  /// [SerializeField]
   /// @brief Field _colorSetter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____colorSetter;
 
+  /// [SerializeField]
   /// @brief Field _tubeBloomPrePassLight, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
+  /// [Inject]
   /// @brief Field _songTimeTweeningManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____songTimeTweeningManager;
 

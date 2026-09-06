@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlDateTime.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlDateTime.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlDateTime_def.hpp"
@@ -673,8 +673,8 @@ constexpr System::Data::SqlTypes::SqlDateTime::operator ::System::Xml::Serializa
 constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlDateTime::i___System__Xml__Serialization__IXmlSerializable() {
   return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_day", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_time", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_day", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_time", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::SqlTypes::SqlDateTime::SqlDateTime(bool m_fNotNull, int32_t m_day, int32_t m_time) noexcept {
   this->m_fNotNull = m_fNotNull;
   this->m_day = m_day;

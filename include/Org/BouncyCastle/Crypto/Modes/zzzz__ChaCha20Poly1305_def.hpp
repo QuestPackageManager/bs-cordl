@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\ChaCha20Poly1305.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/ChaCha20Poly1305.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   // @brief default ctor
   constexpr ChaCha20Poly1305_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ChaCha20Poly1305_State(int32_t value__) noexcept;
 
   /// @brief Field DecAad value: I32(6)
@@ -318,13 +318,13 @@ protected:
   constexpr ChaCha20Poly1305();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChaCha20Poly1305", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChaCha20Poly1305", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChaCha20Poly1305(ChaCha20Poly1305&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChaCha20Poly1305", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChaCha20Poly1305", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChaCha20Poly1305(ChaCha20Poly1305 const&) = delete;
+  ChaCha20Poly1305(ChaCha20Poly1305const&) = delete;
 
   /// @brief Field AadLimit offset 0xffffffff size 0x8
   static constexpr uint64_t AadLimit{ static_cast<uint64_t>(0xffffffffffffffffu) };

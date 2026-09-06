@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ExplicitContentWarningViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ExplicitContentWarningViewController.hpp"
 #include "GlobalNamespace/zzzz__CompletableViewController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
 #include "GlobalNamespace/zzzz__ExplicitContentWarningViewController_def.hpp"

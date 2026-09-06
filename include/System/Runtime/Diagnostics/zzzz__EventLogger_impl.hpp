@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\EventLogger.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/EventLogger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Diagnostics/zzzz__EventLogger_def.hpp"
 #include "System/Diagnostics/zzzz__EventLogEntryType_def.hpp"
@@ -275,7 +275,7 @@ inline ::System::Runtime::Diagnostics::EventLogger* System::Runtime::Diagnostics
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Diagnostics::EventLogger*>(nullptr, ___internal_method, eventLogSourceName, diagnosticTrace);
 }
 inline void System::Runtime::Diagnostics::EventLogger::UnsafeLogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace,
-                                                                      ::ArrayW<::StringW> values) {
+                                                                      /* [ParamArray] */ ::ArrayW<::StringW> values) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EventLogger*>(),
                                                                                          { "UnsafeLogEvent",
                                                                                            {},
@@ -283,7 +283,8 @@ inline void System::Runtime::Diagnostics::EventLogger::UnsafeLogEvent(::System::
                                                                                              ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type, eventLogCategory, eventId, shouldTrace, values);
 }
-inline void System::Runtime::Diagnostics::EventLogger::LogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace, ::ArrayW<::StringW> values) {
+inline void System::Runtime::Diagnostics::EventLogger::LogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace,
+                                                                /* [ParamArray] */ ::ArrayW<::StringW> values) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EventLogger*>(),
                                                                                          { "LogEvent",
                                                                                            {},
@@ -297,7 +298,7 @@ inline ::System::Diagnostics::EventLogEntryType System::Runtime::Diagnostics::Ev
   return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::EventLogEntryType>(nullptr, ___internal_method, type);
 }
 inline void System::Runtime::Diagnostics::EventLogger::SafeLogEvent(::System::Diagnostics::TraceEventType type, uint16_t eventLogCategory, uint32_t eventId, bool shouldTrace,
-                                                                    ::ArrayW<::StringW> values) {
+                                                                    /* [ParamArray] */ ::ArrayW<::StringW> values) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EventLogger*>(),
                                                                                          { "SafeLogEvent",
                                                                                            {},
@@ -346,6 +347,7 @@ inline ::StringW System::Runtime::Diagnostics::EventLogger::NormalizeEventLogPar
 inline ::System::Runtime::Diagnostics::EventLogger* System::Runtime::Diagnostics::EventLogger::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Diagnostics::EventLogger*>());
 }
+/// @brief [Obsolete("For System.Runtime.dll use only. Call FxTrace.EventLog instead")]
 inline ::System::Runtime::Diagnostics::EventLogger* System::Runtime::Diagnostics::EventLogger::New_ctor(::StringW eventLogSourceName,
                                                                                                         ::System::Runtime::Diagnostics::DiagnosticTraceBase* diagnosticTrace) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::Diagnostics::EventLogger*>(eventLogSourceName, diagnosticTrace));

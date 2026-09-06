@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\MatchResultInfo.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/MatchResultInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,8 +30,8 @@ public:
   // @brief default ctor
   constexpr MatchResultInfo();
 
-  // Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "triggerPseudoMask", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "",
-  // def_value: None }, CppParam { name: "dependencyPseudoMask", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "triggerPseudoMask", ty: "::UnityEngine::UIElements::PseudoStates",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "dependencyPseudoMask", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: None, comment: None }]
   constexpr MatchResultInfo(bool success, ::UnityEngine::UIElements::PseudoStates triggerPseudoMask, ::UnityEngine::UIElements::PseudoStates dependencyPseudoMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS\Internal\Xml\Cache\XPathNodeRef.hpp"
+// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNodeRef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,8 +45,8 @@ public:
   // @brief default ctor
   constexpr XPathNodeRef();
 
-  // Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None }, CppParam { name: "_idx", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_page", ty: "::ArrayW<::MS::Internal::Xml::Cache::XPathNode>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_idx", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> _page, int32_t _idx) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColliderEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColliderEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,23 +85,26 @@ protected:
   constexpr ColliderEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColliderEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColliderEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColliderEventEffect(ColliderEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColliderEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColliderEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColliderEventEffect(ColliderEventEffect const&) = delete;
+  ColliderEventEffect(ColliderEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5940 };
 
+  /// [SerializeField]
   /// @brief Field _effectCollider, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Collider> ____effectCollider;
 
+  /// [SerializeField]
   /// @brief Field _value, offset: 0x28, size: 0x4, def value: None
   float_t ____value;
 
+  /// [Inject]
   /// @brief Field _environmentCollisionRepository, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentCollisionRepository* ____environmentCollisionRepository;
 

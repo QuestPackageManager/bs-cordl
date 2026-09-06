@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\NaccacheSternEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/NaccacheSternEngine.hpp"
 #include "System/Collections/zzzz__IList_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__NaccacheSternEngine_def.hpp"

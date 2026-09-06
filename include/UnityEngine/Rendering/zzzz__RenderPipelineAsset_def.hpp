@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,12 +69,15 @@ public:
 
   __declspec(property(get = get_pipelineTypeFullName)) ::StringW pipelineTypeFullName;
 
+  /// @brief [Obsolete("This property is obsolete. Use RenderingLayerMask API and Tags & Layers project settings instead. #from(23.3)", false)]
   __declspec(property(get = get_prefixedRenderingLayerMaskNames)) ::ArrayW<::StringW> prefixedRenderingLayerMaskNames;
 
   __declspec(property(get = get_renderPipelineShaderTag)) ::StringW renderPipelineShaderTag;
 
+  /// @brief [Obsolete("This property is obsolete. Use pipelineType instead. #from(23.2)", false)]
   __declspec(property(get = get_renderPipelineType)) ::System::Type* renderPipelineType;
 
+  /// @brief [Obsolete("This property is obsolete. Use RenderingLayerMask API and Tags & Layers project settings instead. #from(23.3)", false)]
   __declspec(property(get = get_renderingLayerMaskNames)) ::ArrayW<::StringW> renderingLayerMaskNames;
 
   __declspec(property(get = get_terrainDetailGrassBillboardShader)) ::UnityW<::UnityEngine::Shader> terrainDetailGrassBillboardShader;
@@ -83,7 +86,7 @@ public:
 
   __declspec(property(get = get_terrainDetailLitShader)) ::UnityW<::UnityEngine::Shader> terrainDetailLitShader;
 
-  /// @brief Method CreatePipeline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreatePipeline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::RenderPipeline* CreatePipeline();
 
   /// @brief Method EnsureGlobalSettings, addr 0x6b227b4, size 0x4, virtual true, abstract: false, final false
@@ -184,13 +187,13 @@ protected:
   constexpr RenderPipelineAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipelineAsset(RenderPipelineAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipelineAsset(RenderPipelineAsset const&) = delete;
+  RenderPipelineAsset(RenderPipelineAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10818 };

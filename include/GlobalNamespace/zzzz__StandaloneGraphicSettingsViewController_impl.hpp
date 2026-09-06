@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandaloneGraphicSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandaloneGraphicSettingsViewController.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneGraphicSettingsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Emit\SignatureHelper.hpp"
+// IWYU pragma private; include "System/Reflection/Emit/SignatureHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ protected:
   constexpr SignatureHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignatureHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignatureHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignatureHelper(SignatureHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignatureHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignatureHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignatureHelper(SignatureHelper const&) = delete;
+  SignatureHelper(SignatureHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3574 };

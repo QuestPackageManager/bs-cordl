@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Lifetime\ILease.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Lifetime/ILease.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class ILease;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Lifetime::ILease*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Lifetime::ILease*, "System.Runtime.Remoting.Lifetime", "ILease");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
@@ -30,21 +31,21 @@ public:
 
   __declspec(property(get = get_RenewOnCallTime)) ::System::TimeSpan RenewOnCallTime;
 
-  /// @brief Method Renew, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Renew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
 
-  /// @brief Method get_CurrentLeaseTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_CurrentLeaseTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::TimeSpan get_CurrentLeaseTime();
 
-  /// @brief Method get_CurrentState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_CurrentState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
 
-  /// @brief Method get_RenewOnCallTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_RenewOnCallTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::TimeSpan get_RenewOnCallTime();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILease", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ILease", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILease(ILease const&) = delete;
+  ILease(ILeaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3106 };

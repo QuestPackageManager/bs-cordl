@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\ActionEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/ActionEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct ActionEvent__m_ValueData_e__FixedBuffer;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::ActionEvent__m_ValueData_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::ActionEvent__m_ValueData_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "ActionEvent/<m_ValueData>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -25,7 +27,7 @@ public:
   // @brief default ctor
   constexpr ActionEvent__m_ValueData_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ActionEvent__m_ValueData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

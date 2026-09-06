@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AlwaysVisibleQuad.hpp"
+// IWYU pragma private; include "GlobalNamespace/AlwaysVisibleQuad.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class AlwaysVisibleQuad;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::AlwaysVisibleQuad*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AlwaysVisibleQuad*, "", "AlwaysVisibleQuad");
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -48,13 +49,13 @@ protected:
   constexpr AlwaysVisibleQuad();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlwaysVisibleQuad", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlwaysVisibleQuad", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlwaysVisibleQuad(AlwaysVisibleQuad&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlwaysVisibleQuad", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlwaysVisibleQuad", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlwaysVisibleQuad(AlwaysVisibleQuad const&) = delete;
+  AlwaysVisibleQuad(AlwaysVisibleQuadconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20617 };

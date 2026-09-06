@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StylePropertyReader.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StylePropertyReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -150,13 +150,13 @@ protected:
   constexpr StylePropertyReader_GetCursorIdFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader_GetCursorIdFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader_GetCursorIdFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyReader_GetCursorIdFunction(StylePropertyReader_GetCursorIdFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader_GetCursorIdFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader_GetCursorIdFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyReader_GetCursorIdFunction(StylePropertyReader_GetCursorIdFunction const&) = delete;
+  StylePropertyReader_GetCursorIdFunction(StylePropertyReader_GetCursorIdFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5457 };
@@ -167,6 +167,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::StyleSheets::StylePropertyReader_GetCursorIdFunction) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.UIElements.StyleProperty, UnityEngine.UIElements.StyleSheets.StylePropertyId
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
@@ -368,6 +369,7 @@ public:
   inline void SetInlineContext(::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleProperty*> properties,
                                ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId> propertyIds, float_t dpiScaling);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method TryGetImageSourceFromValue, addr 0x6d15180, size 0x6b0, virtual false, abstract: false, final false
   static inline bool TryGetImageSourceFromValue(::UnityEngine::UIElements::StyleSheets::StylePropertyValue propertyValue, float_t dpiScaling,
                                                 ::by_ref<::UnityEngine::UIElements::StyleSheets::ImageSource> source);
@@ -452,29 +454,37 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyReader_GetCursorIdFunction* getStaticF_getCursorIdFunc();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dpiScaling, addr 0x6d12908, size 0x8, virtual false, abstract: false, final false
   inline float_t get_dpiScaling();
 
+  /// [CompilerGenerated]
   /// @brief Method get_property, addr 0x6d128d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleProperty* get_property();
 
+  /// [CompilerGenerated]
   /// @brief Method get_propertyId, addr 0x6d128e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_propertyId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_valueCount, addr 0x6d128f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_valueCount();
 
   static inline void setStaticF_getCursorIdFunc(::UnityEngine::UIElements::StyleSheets::StylePropertyReader_GetCursorIdFunction* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dpiScaling, addr 0x6d12910, size 0x8, virtual false, abstract: false, final false
   inline void set_dpiScaling(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_property, addr 0x6d128e0, size 0x8, virtual false, abstract: false, final false
   inline void set_property(::UnityEngine::UIElements::StyleProperty* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_propertyId, addr 0x6d128f0, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyId(::UnityEngine::UIElements::StyleSheets::StylePropertyId value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_valueCount, addr 0x6d12900, size 0x8, virtual false, abstract: false, final false
   inline void set_valueCount(int32_t value);
 
@@ -484,13 +494,13 @@ protected:
   constexpr StylePropertyReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyReader(StylePropertyReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyReader(StylePropertyReader const&) = delete;
+  StylePropertyReader(StylePropertyReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5458 };
@@ -519,15 +529,23 @@ public:
   /// @brief Field m_CurrentPropertyIndex, offset: 0x44, size: 0x4, def value: None
   int32_t ___m_CurrentPropertyIndex;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <property>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleProperty* ____property_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <propertyId>k__BackingField, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleSheets::StylePropertyId ____propertyId_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <valueCount>k__BackingField, offset: 0x54, size: 0x4, def value: None
   int32_t ____valueCount_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dpiScaling>k__BackingField, offset: 0x58, size: 0x4, def value: None
   float_t ____dpiScaling_k__BackingField;
 

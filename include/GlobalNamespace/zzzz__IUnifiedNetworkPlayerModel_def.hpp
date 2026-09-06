@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IUnifiedNetworkPlayerModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/IUnifiedNetworkPlayerModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,42 +52,44 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModel"
   constexpr operator ::GlobalNamespace::INetworkPlayerModel*() noexcept;
 
-  /// @brief Method ResetMasterServerReachability, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ResetMasterServerReachability, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetMasterServerReachability();
 
-  /// @brief Method SetActiveNetworkPlayerModelType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetActiveNetworkPlayerModelType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetActiveNetworkPlayerModelType(::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType activeNetworkPlayerModelType);
 
-  /// @brief Method SetServerFilter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetServerFilter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetServerFilter(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
-  /// @brief Method add_partyRefreshingEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_partyRefreshingEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_partyRefreshingEvent(::System::Action* value);
 
-  /// @brief Method get_code, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_code, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_code();
 
-  /// @brief Method get_localServerPort, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_localServerPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_localServerPort();
 
-  /// @brief Method get_publicServers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_publicServers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_publicServers();
 
-  /// @brief Method get_secret, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_secret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_secret();
 
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
   constexpr ::GlobalNamespace::INetworkPlayerModel* i___GlobalNamespace__INetworkPlayerModel() noexcept;
 
-  /// @brief Method remove_partyRefreshingEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_partyRefreshingEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_partyRefreshingEvent(::System::Action* value);
 
-  /// @brief Method set_localServerPort, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_localServerPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_localServerPort(int32_t value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IUnifiedNetworkPlayerModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IUnifiedNetworkPlayerModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IUnifiedNetworkPlayerModel(IUnifiedNetworkPlayerModel const&) = delete;
+  IUnifiedNetworkPlayerModel(IUnifiedNetworkPlayerModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21582 };

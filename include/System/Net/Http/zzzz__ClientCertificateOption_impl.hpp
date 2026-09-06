@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\ClientCertificateOption.hpp"
+// IWYU pragma private; include "System/Net/Http/ClientCertificateOption.hpp"
 #include "System/Net/Http/zzzz__ClientCertificateOption_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::Http::ClientCertificateOption::ClientCertificateOption(int32_t value__) noexcept {
   this->value__ = value__;
 }

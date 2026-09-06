@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Experimental\PointerOverLinkTagEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/PointerOverLinkTagEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__PointerOverLinkTagEvent_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioPlayerBase.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioPlayerBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,21 +25,21 @@ public:
   // Declarations
   __declspec(property(get = get_activeAudioClip)) ::UnityW<::UnityEngine::AudioClip> activeAudioClip;
 
-  /// @brief Method FadeOut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FadeOut(float_t duration);
 
   static inline ::GlobalNamespace::AudioPlayerBase* New_ctor();
 
-  /// @brief Method PauseCurrentChannel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PauseCurrentChannel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PauseCurrentChannel();
 
-  /// @brief Method UnPauseCurrentChannel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnPauseCurrentChannel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnPauseCurrentChannel();
 
   /// @brief Method .ctor, addr 0x58b4d54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeAudioClip, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_activeAudioClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
 
 protected:
@@ -48,13 +48,13 @@ protected:
   constexpr AudioPlayerBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayerBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayerBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioPlayerBase(AudioPlayerBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayerBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioPlayerBase(AudioPlayerBase const&) = delete;
+  AudioPlayerBase(AudioPlayerBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5555 };

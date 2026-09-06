@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Interop.hpp"
+// IWYU pragma private; include "GlobalNamespace/Interop.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -207,7 +207,7 @@ public:
   // @brief default ctor
   constexpr Interop_Error();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Interop_Error(int32_t value__) noexcept;
 
   /// @brief Field SUCCESS value: I32(0)
@@ -503,8 +503,8 @@ public:
   // @brief default ctor
   constexpr Interop_ErrorInfo();
 
-  // Ctor Parameters [CppParam { name: "_error", ty: "::GlobalNamespace::Interop_Error", modifiers: "", def_value: None }, CppParam { name: "_rawErrno", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "_error", ty: "::GlobalNamespace::Interop_Error", modifiers: "", def_value: None, comment: None }, CppParam { name: "_rawErrno", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr Interop_ErrorInfo(::GlobalNamespace::Interop_Error _error, int32_t _rawErrno) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -565,7 +565,7 @@ public:
   // @brief default ctor
   constexpr Sys_Interop_NodeType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Sys_Interop_NodeType(int32_t value__) noexcept;
 
   /// @brief Field DT_BLK value: I32(6)
@@ -626,8 +626,8 @@ public:
   // @brief default ctor
   constexpr Sys_Interop_DirectoryEntry();
 
-  // Ctor Parameters [CppParam { name: "Name", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "NameLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "InodeType", ty: "::GlobalNamespace::Sys_Interop_NodeType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Name", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "NameLength", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "InodeType", ty: "::GlobalNamespace::Sys_Interop_NodeType", modifiers: "", def_value: None, comment: None }]
   constexpr Sys_Interop_DirectoryEntry(uint8_t* Name, int32_t NameLength, ::GlobalNamespace::Sys_Interop_NodeType InodeType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -657,6 +657,7 @@ static_assert(offsetof(::GlobalNamespace::Sys_Interop_DirectoryEntry, InodeType)
 static_assert(sizeof(::GlobalNamespace::Sys_Interop_DirectoryEntry) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -686,7 +687,7 @@ public:
   // @brief default ctor
   constexpr Sys_Interop_FileStatusFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Sys_Interop_FileStatusFlags(int32_t value__) noexcept;
 
   /// @brief Field HasBirthTime value: I32(1)
@@ -723,13 +724,14 @@ public:
   // @brief default ctor
   constexpr Sys_Interop_FileStatus();
 
-  // Ctor Parameters [CppParam { name: "Flags", ty: "::GlobalNamespace::Sys_Interop_FileStatusFlags", modifiers: "", def_value: None }, CppParam { name: "Mode", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Uid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Gid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Size", ty:
-  // "int64_t", modifiers: "", def_value: None }, CppParam { name: "ATime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "ATimeNsec", ty: "int64_t", modifiers: "", def_value: None
-  // }, CppParam { name: "MTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "MTimeNsec", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "CTime", ty:
-  // "int64_t", modifiers: "", def_value: None }, CppParam { name: "CTimeNsec", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "BirthTime", ty: "int64_t", modifiers: "", def_value:
-  // None }, CppParam { name: "BirthTimeNsec", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "Dev", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "Ino", ty:
-  // "int64_t", modifiers: "", def_value: None }, CppParam { name: "UserFlags", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Flags", ty: "::GlobalNamespace::Sys_Interop_FileStatusFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "Mode", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Uid", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Gid", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Size", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ATime", ty: "int64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "ATimeNsec", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "MTime", ty: "int64_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "MTimeNsec", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "CTime", ty: "int64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "CTimeNsec", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "BirthTime", ty: "int64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "BirthTimeNsec", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Dev", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "Ino", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "UserFlags", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Sys_Interop_FileStatus(::GlobalNamespace::Sys_Interop_FileStatusFlags Flags, int32_t Mode, uint32_t Uid, uint32_t Gid, int64_t Size, int64_t ATime, int64_t ATimeNsec, int64_t MTime,
                                    int64_t MTimeNsec, int64_t CTime, int64_t CTimeNsec, int64_t BirthTime, int64_t BirthTimeNsec, int64_t Dev, int64_t Ino, uint32_t UserFlags) noexcept;
 
@@ -825,6 +827,7 @@ static_assert(offsetof(::GlobalNamespace::Sys_Interop_FileStatus, UserFlags) == 
 static_assert(sizeof(::GlobalNamespace::Sys_Interop_FileStatus) == 0x70, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -865,7 +868,7 @@ public:
   // @brief default ctor
   constexpr Sys_Interop_Permissions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Sys_Interop_Permissions(int32_t value__) noexcept;
 
   /// @brief Field Mask value: I32(511)
@@ -1041,13 +1044,13 @@ protected:
   constexpr Interop_Sys();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Interop_Sys", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interop_Sys", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Interop_Sys(Interop_Sys&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Interop_Sys", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interop_Sys", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Interop_Sys(Interop_Sys const&) = delete;
+  Interop_Sys(Interop_Sysconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2218 };
@@ -1096,13 +1099,13 @@ protected:
   constexpr Interop();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Interop", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interop", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Interop(Interop&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Interop", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interop", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Interop(Interop const&) = delete;
+  Interop(Interopconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2219 };

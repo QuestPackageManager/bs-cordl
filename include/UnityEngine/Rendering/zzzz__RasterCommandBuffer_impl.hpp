@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RasterCommandBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RasterCommandBuffer.hpp"
 #include "UnityEngine/Rendering/zzzz__BaseCommandBuffer_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -2171,18 +2171,18 @@ inline void UnityEngine::Rendering::RasterCommandBuffer::EnableShaderKeyword(::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), { "EnableShaderKeyword", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::EnableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                                                                          { "EnableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::EnableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::EnableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                               { "EnableKeyword", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::EnableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::EnableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                               { "EnableKeyword", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
@@ -2193,37 +2193,38 @@ inline void UnityEngine::Rendering::RasterCommandBuffer::DisableShaderKeyword(::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), { "DisableShaderKeyword", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::DisableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                                                                          { "DisableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::DisableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::DisableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                               { "DisableKeyword", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::DisableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::DisableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                               { "DisableKeyword", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, keyword);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::SetKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                                            { "SetKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword, value);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::SetKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::SetKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                           { "SetKeyword", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword, value);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::SetKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::SetKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword,
+                                                                    bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
@@ -2912,14 +2913,14 @@ inline void UnityEngine::Rendering::RasterCommandBuffer::IssuePluginCustomTextur
                                        { "IssuePluginCustomTextureUpdateV2", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, targetTexture, userData);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                                            { "UnityEngine.Rendering.IBaseCommandBuffer.EnableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
 inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::UnityEngine::Material* material,
-                                                                                                                ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+                                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -2928,7 +2929,7 @@ inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_I
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword);
 }
 inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::UnityEngine::ComputeShader* computeShader,
-                                                                                                                ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+                                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -2936,14 +2937,14 @@ inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_I
           { "UnityEngine.Rendering.IBaseCommandBuffer.EnableKeyword", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, keyword);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                               { "UnityEngine.Rendering.IBaseCommandBuffer.DisableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
 inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::UnityEngine::Material* material,
-                                                                                                                 ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+                                                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -2952,7 +2953,7 @@ inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_I
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword);
 }
 inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::UnityEngine::ComputeShader* computeShader,
-                                                                                                                 ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+                                                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -2960,7 +2961,7 @@ inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_I
           { "UnityEngine.Rendering.IBaseCommandBuffer.DisableKeyword", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, keyword);
 }
-inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
+inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
@@ -2968,7 +2969,7 @@ inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_I
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword, value);
 }
 inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::UnityEngine::Material* material,
-                                                                                                             ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+                                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                               { "UnityEngine.Rendering.IBaseCommandBuffer.SetKeyword",
@@ -2977,7 +2978,7 @@ inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_I
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword, value);
 }
 inline void UnityEngine::Rendering::RasterCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::UnityEngine::ComputeShader* computeShader,
-                                                                                                             ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+                                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
                                               { "UnityEngine.Rendering.IBaseCommandBuffer.SetKeyword",

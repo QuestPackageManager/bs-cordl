@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\ValueUtf8Converter.hpp"
+// IWYU pragma private; include "System/Text/ValueUtf8Converter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ struct ValueUtf8Converter;
 // Write type traits
 MARK_VAL_T(::System::Text::ValueUtf8Converter);
 DEFINE_IL2CPP_CLASS(::System::Text::ValueUtf8Converter, "System.Text", "ValueUtf8Converter");
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
+// [IsByRefLike]
 // Dependencies System.Span`1<T>
 namespace System::Text {
 // Is value type: true
@@ -41,8 +43,8 @@ public:
   // @brief default ctor
   constexpr ValueUtf8Converter();
 
-  // Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "_bytes", ty: "::System::Span_1<uint8_t>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_bytes", ty: "::System::Span_1<uint8_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ValueUtf8Converter(::ArrayW<uint8_t> _arrayToReturnToPool, ::System::Span_1<uint8_t> _bytes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

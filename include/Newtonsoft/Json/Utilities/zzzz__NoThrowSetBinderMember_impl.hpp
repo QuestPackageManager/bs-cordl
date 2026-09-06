@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\NoThrowSetBinderMember.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/NoThrowSetBinderMember.hpp"
 #include "System/Dynamic/zzzz__SetMemberBinder_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__NoThrowSetBinderMember_def.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_def.hpp"
@@ -53,7 +53,7 @@ inline void Newtonsoft::Json::Utilities::NoThrowSetBinderMember::_ctor(::System:
 }
 inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::NoThrowSetBinderMember::FallbackSetMember(::System::Dynamic::DynamicMetaObject* target,
                                                                                                                     ::System::Dynamic::DynamicMetaObject* value,
-                                                                                                                    ::System::Dynamic::DynamicMetaObject* errorSuggestion) {
+                                                                                                                    /* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* errorSuggestion) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::NoThrowSetBinderMember*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, target, value, errorSuggestion);

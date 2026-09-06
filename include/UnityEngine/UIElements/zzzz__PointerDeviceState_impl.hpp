@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerDeviceState.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerDeviceState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -8,7 +8,7 @@
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDeviceState_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::PointerDeviceState_LocationFlag::PointerDeviceState_LocationFlag(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -148,9 +148,9 @@ inline void UnityEngine::UIElements::PointerDeviceState_PointerLocation::SetLoca
                                                            { "SetLocation", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::UIElements::IPanel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, position, panel);
 }
-// Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Panel_k__BackingField", ty:
-// "::UnityEngine::UIElements::IPanel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Flags_k__BackingField", ty: "::UnityEngine::UIElements::PointerDeviceState_LocationFlag", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Panel_k__BackingField", ty:
+// "::UnityEngine::UIElements::IPanel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Flags_k__BackingField", ty:
+// "::UnityEngine::UIElements::PointerDeviceState_LocationFlag", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::PointerDeviceState_PointerLocation::PointerDeviceState_PointerLocation(
     ::UnityEngine::Vector2 _Position_k__BackingField, ::UnityEngine::UIElements::IPanel* _Panel_k__BackingField,
     ::UnityEngine::UIElements::PointerDeviceState_LocationFlag _Flags_k__BackingField) noexcept {

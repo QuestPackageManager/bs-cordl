@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\BatchRenderGroupUsageAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/BatchRenderGroupUsageAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class BatchRenderGroupUsageAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic*, "UnityEngine.Analytics", "BatchRenderGroupUsageAnalytic");
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEngine::Analytics {
 // Is value type: false
@@ -32,6 +33,7 @@ public:
   /// @brief Field maxMeshCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_maxMeshCount, put = __cordl_internal_set_maxMeshCount)) int32_t maxMeshCount;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateBatchRenderGroupUsageAnalytic, addr 0x6b07aa4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic* CreateBatchRenderGroupUsageAnalytic();
 
@@ -70,13 +72,13 @@ protected:
   constexpr BatchRenderGroupUsageAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRenderGroupUsageAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRenderGroupUsageAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchRenderGroupUsageAnalytic(BatchRenderGroupUsageAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRenderGroupUsageAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRenderGroupUsageAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRenderGroupUsageAnalytic(BatchRenderGroupUsageAnalytic const&) = delete;
+  BatchRenderGroupUsageAnalytic(BatchRenderGroupUsageAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10695 };

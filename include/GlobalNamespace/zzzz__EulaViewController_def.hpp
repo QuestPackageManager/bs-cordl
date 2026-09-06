@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EulaViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EulaViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
   // @brief default ctor
   constexpr EulaViewController_ButtonType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EulaViewController_ButtonType(int32_t value__) noexcept;
 
   /// @brief Field Agree value: I32(0)
@@ -118,6 +118,7 @@ static_assert(offsetof(::GlobalNamespace::EulaViewController_ButtonType, value__
 static_assert(sizeof(::GlobalNamespace::EulaViewController_ButtonType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -159,17 +160,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a19a28, size 0x174, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a19b9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a19ba4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a19bdc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a19a24, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -209,6 +215,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a198e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -227,13 +234,13 @@ protected:
   constexpr EulaViewController__EnableButtonsCoroutine_d__17();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController__EnableButtonsCoroutine_d__17", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController__EnableButtonsCoroutine_d__17", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EulaViewController__EnableButtonsCoroutine_d__17(EulaViewController__EnableButtonsCoroutine_d__17&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController__EnableButtonsCoroutine_d__17", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController__EnableButtonsCoroutine_d__17", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EulaViewController__EnableButtonsCoroutine_d__17(EulaViewController__EnableButtonsCoroutine_d__17 const&) = delete;
+  EulaViewController__EnableButtonsCoroutine_d__17(EulaViewController__EnableButtonsCoroutine_d__17const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6436 };
@@ -330,6 +337,7 @@ public:
   /// @brief Method DidDeactivate, addr 0x5a19808, size 0xcc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
+  /// [IteratorStateMachine(typeof(EulaViewController::<EnableButtonsCoroutine>d__17))]
   /// @brief Method EnableButtonsCoroutine, addr 0x5a197a4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* EnableButtonsCoroutine(float_t delay);
 
@@ -338,12 +346,15 @@ public:
 
   static inline ::GlobalNamespace::EulaViewController* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__14_0, addr 0x5a19934, size 0x50, virtual false, abstract: false, final false
   inline void _DidActivate_b__14_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__14_1, addr 0x5a19984, size 0x50, virtual false, abstract: false, final false
   inline void _DidActivate_b__14_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__14_2, addr 0x5a199d4, size 0x50, virtual false, abstract: false, final false
   inline void _DidActivate_b__14_2();
 
@@ -428,41 +439,55 @@ protected:
   constexpr EulaViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EulaViewController(EulaViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EulaViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EulaViewController(EulaViewController const&) = delete;
+  EulaViewController(EulaViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6437 };
 
+  /// [Header("Buttons")]
+  /// [SerializeField]
   /// @brief Field _agreeButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____agreeButton;
 
+  /// [SerializeField]
   /// @brief Field _doNotAgreeButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____doNotAgreeButton;
 
+  /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
+  /// [SerializeField]
   /// @brief Field _disabledButtonDelay, offset: 0x98, size: 0x4, def value: None
   float_t ____disabledButtonDelay;
 
+  /// [WillNotBeUsed]
+  /// [SerializeField]
   /// @brief Field _disableButtonsProgress, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____disableButtonsProgress;
 
+  /// [Header("Texts")]
+  /// [SerializeField]
   /// @brief Field _textPageScrollView, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
 
+  /// [SerializeField]
   /// @brief Field _eulaLocalizedTextAsset, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalizedTextAsset> ____eulaLocalizedTextAsset;
 
+  /// [Header("Update Notice")]
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _updateNoticeLocalizationKey, offset: 0xb8, size: 0x8, def value: None
   ::StringW ____updateNoticeLocalizationKey;
 
+  /// [Inject]
   /// @brief Field _coroutineStarter, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 

@@ -1,35 +1,52 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Pool\CollectionPool_2.hpp"
+// IWYU pragma private; include "UnityEngine/Pool/CollectionPool_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CollectionPool_2)
 namespace UnityEngine::Pool {
-template <typename TCollection, typename TItem> class CollectionPool_2___c;
+template <typename TCollection, typename TItem>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
+           ::cordl_internals::default_constructor_constraint<TCollection>)
+class CollectionPool_2___c;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::Pool {
-template <typename T> struct PooledObject_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct PooledObject_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
-template <typename TCollection, typename TItem> class CollectionPool_2;
+template <typename TCollection, typename TItem>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
+           ::cordl_internals::default_constructor_constraint<TCollection>)
+class CollectionPool_2;
 }
 namespace UnityEngine::Pool {
-template <typename TCollection, typename TItem> class CollectionPool_2___c;
+template <typename TCollection, typename TItem>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
+           ::cordl_internals::default_constructor_constraint<TCollection>)
+class CollectionPool_2___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Pool::CollectionPool_2);
 MARK_GEN_REF_T_PTR(::UnityEngine::Pool::CollectionPool_2___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Pool::CollectionPool_2, "UnityEngine.Pool", "CollectionPool`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Pool::CollectionPool_2___c, "UnityEngine.Pool", "CollectionPool`2/<>c");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Object
 namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
+           ::cordl_internals::default_constructor_constraint<TCollection>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.CollectionPool`2/<>c<TCollection,TItem>
 class CORDL_TYPE CollectionPool_2___c : public ::System::Object {
@@ -59,13 +76,13 @@ protected:
   constexpr CollectionPool_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionPool_2___c(CollectionPool_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionPool_2___c(CollectionPool_2___c const&) = delete;
+  CollectionPool_2___c(CollectionPool_2___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10639 };
@@ -74,10 +91,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Pool
-// Dependencies System.Object
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Object
 namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TItem>*> && ::cordl_internals::reference_type_constraint<TCollection> &&
+           ::cordl_internals::default_constructor_constraint<TCollection>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.CollectionPool`2<TCollection,TItem>
 class CORDL_TYPE CollectionPool_2 : public ::System::Object {
@@ -107,13 +126,13 @@ protected:
   constexpr CollectionPool_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionPool_2(CollectionPool_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionPool_2(CollectionPool_2 const&) = delete;
+  CollectionPool_2(CollectionPool_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10640 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CommandEventBase_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CommandEventBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,15 +14,19 @@ class Event;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class CommandEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class CommandEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::CommandEventBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::CommandEventBase_1, "UnityEngine.UIElements", "CommandEventBase`1");
+// [EventCategory((UnityEngine.UIElements.EventCategory)15)]
 // Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.CommandEventBase`1<T>
 class CORDL_TYPE CommandEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
@@ -71,13 +75,13 @@ protected:
   constexpr CommandEventBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandEventBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandEventBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandEventBase_1(CommandEventBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandEventBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandEventBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandEventBase_1(CommandEventBase_1 const&) = delete;
+  CommandEventBase_1(CommandEventBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4440 };

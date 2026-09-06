@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DrawCommandOutputPerBatch.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DrawCommandOutputPerBatch.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -80,23 +80,25 @@ constexpr UnityEngine::Rendering::DrawCommandOutputPerBatch::operator ::Unity::J
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::DrawCommandOutputPerBatch::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "binningConfig", ty: "::UnityEngine::Rendering::BinningConfig", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchIDs", ty:
-// "::Unity::Collections::NativeParallelHashMap_2<uint32_t,::UnityEngine::Rendering::BatchID>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceDataBuffer", ty:
-// "::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawBatches", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawInstanceIndices", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rendererCrossFadeValues", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchBinAllocOffsets", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchBinCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "batchDrawCommandOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "binConfigIndices",
-// ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "binVisibleInstanceOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "cullingOutput", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "indirectBufferLimits", ty: "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleInstancesBufferHandle", ty:
-// "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "indirectArgsBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "indirectBufferAllocInfo", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "indirectDrawInfoGlobalArray", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "indirectInstanceInfoGlobalArray", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "binningConfig", ty: "::UnityEngine::Rendering::BinningConfig", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchIDs", ty:
+// "::Unity::Collections::NativeParallelHashMap_2<uint32_t,::UnityEngine::Rendering::BatchID>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceDataBuffer", ty:
+// "::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawBatches", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawInstanceIndices", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "rendererCrossFadeValues", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "batchBinAllocOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchBinCounts", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchDrawCommandOffsets", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binConfigIndices", ty: "::Unity::Collections::NativeArray_1<int16_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "binVisibleInstanceOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cullingOutput", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "indirectBufferLimits", ty: "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleInstancesBufferHandle", ty:
+// "::UnityEngine::GraphicsBufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectArgsBufferHandle", ty: "::UnityEngine::GraphicsBufferHandle", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "indirectBufferAllocInfo", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "indirectDrawInfoGlobalArray", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "indirectInstanceInfoGlobalArray", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DrawCommandOutputPerBatch::DrawCommandOutputPerBatch(
     ::UnityEngine::Rendering::BinningConfig binningConfig, ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID> batchIDs,
     ::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly instanceDataBuffer, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AutomaticSFXVolumeParamsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/AutomaticSFXVolumeParamsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -143,38 +143,46 @@ protected:
   constexpr AutomaticSFXVolumeParamsSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AutomaticSFXVolumeParamsSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutomaticSFXVolumeParamsSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutomaticSFXVolumeParamsSO(AutomaticSFXVolumeParamsSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AutomaticSFXVolumeParamsSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutomaticSFXVolumeParamsSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutomaticSFXVolumeParamsSO(AutomaticSFXVolumeParamsSO const&) = delete;
+  AutomaticSFXVolumeParamsSO(AutomaticSFXVolumeParamsSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5558 };
 
+  /// [SerializeField]
   /// @brief Field _musicVolumeMultiplier, offset: 0x18, size: 0x4, def value: None
   float_t ____musicVolumeMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _threshold, offset: 0x1c, size: 0x4, def value: None
   float_t ____threshold;
 
+  /// [SerializeField]
   /// @brief Field _impact, offset: 0x20, size: 0x4, def value: None
   float_t ____impact;
 
+  /// [SerializeField]
   /// @brief Field _attackTime, offset: 0x24, size: 0x4, def value: None
   float_t ____attackTime;
 
+  /// [SerializeField]
   /// @brief Field _releaseTime, offset: 0x28, size: 0x4, def value: None
   float_t ____releaseTime;
 
+  /// [SerializeField]
   /// @brief Field _minVolume, offset: 0x2c, size: 0x4, def value: None
   float_t ____minVolume;
 
+  /// [SerializeField]
   /// @brief Field _maxVolume, offset: 0x30, size: 0x4, def value: None
   float_t ____maxVolume;
 
+  /// [SerializeField]
   /// @brief Field _volumeSmooth, offset: 0x34, size: 0x4, def value: None
   float_t ____volumeSmooth;
 

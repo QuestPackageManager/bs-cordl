@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsEnvelopedGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsEnvelopedGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -287,13 +287,13 @@ protected:
   constexpr CmsEnvelopedGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsEnvelopedGenerator(CmsEnvelopedGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsEnvelopedGenerator(CmsEnvelopedGenerator const&) = delete;
+  CmsEnvelopedGenerator(CmsEnvelopedGeneratorconst&) = delete;
 
   /// @brief Field Cast5Cbc offset 0xffffffff size 0x8
   static constexpr ::ConstString Cast5Cbc{ u"1.2.840.113533.7.66.10" };

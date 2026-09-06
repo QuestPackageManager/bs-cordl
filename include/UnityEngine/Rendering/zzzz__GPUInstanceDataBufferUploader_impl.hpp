@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBufferUploader.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBufferUploader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
@@ -154,12 +154,13 @@ constexpr UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources::op
 constexpr ::System::IDisposable* UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceIndices", ty:
-// "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputComponentOffsets", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "validComponentIndices", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InstanceDataByteSize", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_InstanceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ComponentCounts", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_ValidComponentIndicesCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instanceData", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceIndices", ty:
+// "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputComponentOffsets", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "validComponentIndices", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cs", ty:
+// "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "kernelId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_InstanceDataByteSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InstanceCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_ComponentCounts", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ValidComponentIndicesCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources::GPUInstanceDataBufferUploader_GPUResources(
     ::UnityEngine::ComputeBuffer* instanceData, ::UnityEngine::ComputeBuffer* instanceIndices, ::UnityEngine::ComputeBuffer* inputComponentOffsets, ::UnityEngine::ComputeBuffer* validComponentIndices,
     ::UnityW<::UnityEngine::ComputeShader> cs, int32_t kernelId, int32_t m_InstanceDataByteSize, int32_t m_InstanceCount, int32_t m_ComponentCounts, int32_t m_ValidComponentIndicesCount) noexcept {
@@ -205,11 +206,12 @@ constexpr UnityEngine::Rendering::GPUInstanceDataBufferUploader_WriteInstanceDat
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::GPUInstanceDataBufferUploader_WriteInstanceDataParameterJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "gatherData", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "parameterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "uintPerParameter", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uintPerInstance", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "componentDataIndex", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "gatherIndices", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "tmpDataBuffer", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "gatherData", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "parameterIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "uintPerParameter", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uintPerInstance", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "componentDataIndex", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "gatherIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty:
+// "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tmpDataBuffer", ty: "::Unity::Collections::NativeArray_1<uint32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUInstanceDataBufferUploader_WriteInstanceDataParameterJob::GPUInstanceDataBufferUploader_WriteInstanceDataParameterJob(
     bool gatherData, int32_t parameterIndex, int32_t uintPerParameter, int32_t uintPerInstance, ::Unity::Collections::NativeArray_1<int32_t> componentDataIndex,
     ::Unity::Collections::NativeArray_1<int32_t> gatherIndices, ::Unity::Collections::NativeArray_1<uint32_t> instanceData, ::Unity::Collections::NativeArray_1<uint32_t> tmpDataBuffer) noexcept {
@@ -351,8 +353,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::GPUInstanceDataBufferUploader::_ctor(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>> descriptions,
-                                                                         int32_t capacity, ::UnityEngine::Rendering::InstanceType instanceType) {
+inline void
+UnityEngine::Rendering::GPUInstanceDataBufferUploader::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>> descriptions,
+                                                             int32_t capacity, ::UnityEngine::Rendering::InstanceType instanceType) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferUploader>(),
                                                            { ".ctor",
@@ -376,7 +379,9 @@ inline int32_t UnityEngine::Rendering::GPUInstanceDataBufferUploader::GetParamUI
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferUploader>(), { "GetParamUIntOffset", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, parameterIndex);
 }
-template <typename T> inline int32_t UnityEngine::Rendering::GPUInstanceDataBufferUploader::PrepareParamWrite(int32_t parameterIndex) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t UnityEngine::Rendering::GPUInstanceDataBufferUploader::PrepareParamWrite(int32_t parameterIndex) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferUploader>(), { "PrepareParamWrite", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
@@ -389,6 +394,7 @@ inline void UnityEngine::Rendering::GPUInstanceDataBufferUploader::AllocateUploa
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, handlesLength);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::GPUInstanceDataBufferUploader::WriteInstanceDataJob(int32_t parameterIndex, ::Unity::Collections::NativeArray_1<T> instanceData) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferUploader>(),
@@ -397,6 +403,7 @@ inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::GPUInstanceDataBufferUpl
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, parameterIndex, instanceData);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::GPUInstanceDataBufferUploader::WriteInstanceDataJob(int32_t parameterIndex, ::Unity::Collections::NativeArray_1<T> instanceData,
                                                                                                             ::Unity::Collections::NativeArray_1<int32_t> gatherIndices) {
   static auto* ___internal_method_base =
@@ -446,12 +453,13 @@ constexpr UnityEngine::Rendering::GPUInstanceDataBufferUploader::operator ::Syst
 constexpr ::System::IDisposable* UnityEngine::Rendering::GPUInstanceDataBufferUploader::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_UintPerInstance", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_InstanceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ComponentIsInstanced", ty: "::Unity::Collections::NativeArray_1<bool>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_ComponentDataIndex", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_DescriptionsUintSize", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TmpDataBuffer", ty:
-// "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_WritenComponentIndices", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_DummyArray", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_UintPerInstance", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_InstanceCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ComponentIsInstanced", ty:
+// "::Unity::Collections::NativeArray_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ComponentDataIndex", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DescriptionsUintSize", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_TmpDataBuffer", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_WritenComponentIndices",
+// ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DummyArray", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUInstanceDataBufferUploader::GPUInstanceDataBufferUploader(int32_t m_UintPerInstance, int32_t m_Capacity, int32_t m_InstanceCount,
                                                                                                  ::Unity::Collections::NativeArray_1<bool> m_ComponentIsInstanced,
                                                                                                  ::Unity::Collections::NativeArray_1<int32_t> m_ComponentDataIndex,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionNodeConnection.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionNodeConnection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -161,35 +161,44 @@ protected:
   constexpr MissionNodeConnection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeConnection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeConnection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionNodeConnection(MissionNodeConnection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeConnection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionNodeConnection(MissionNodeConnection const&) = delete;
+  MissionNodeConnection(MissionNodeConnectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6872 };
 
+  /// [SerializeField]
   /// @brief Field _separator, offset: 0x20, size: 0x4, def value: None
   float_t ____separator;
 
+  /// [SerializeField]
   /// @brief Field _width, offset: 0x24, size: 0x4, def value: None
   float_t ____width;
 
+  /// [SerializeField]
   /// @brief Field _rectTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
+  /// [SerializeField]
   /// @brief Field _image, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____image;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)1)]
   /// @brief Field _parentMissionNode, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNodeVisualController> ____parentMissionNode;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)1)]
   /// @brief Field _childMissionNode, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNodeVisualController> ____childMissionNode;
 
+  /// [SerializeField]
   /// @brief Field _animator, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 

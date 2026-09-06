@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\RenderModel_t_Packed.hpp"
+// IWYU pragma private; include "OVR/OpenVR/RenderModel_t_Packed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,9 +35,9 @@ public:
   // @brief default ctor
   constexpr RenderModel_t_Packed();
 
-  // Ctor Parameters [CppParam { name: "rVertexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "rIndexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "diffuseTextureId", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rVertexData", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "rIndexData", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "unTriangleCount", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "diffuseTextureId", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderModel_t_Packed(::System::IntPtr rVertexData, uint32_t unVertexCount, ::System::IntPtr rIndexData, uint32_t unTriangleCount, int32_t diffuseTextureId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\DataStreamExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/DataStreamExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class DataStreamExtensions;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::DataStreamExtensions*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::DataStreamExtensions*, "Unity.Collections.LowLevel.Unsafe", "DataStreamExtensions");
+// [Extension]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -32,19 +34,24 @@ public:
   /// @brief Method Create, addr 0x64cd35c, size 0x94, virtual false, abstract: false, final false
   static inline ::Unity::Collections::DataStreamWriter Create(uint8_t* data, int32_t length);
 
+  /// [Extension]
   /// @brief Method GetUnsafeReadOnlyPtr, addr 0x64cd5ac, size 0x8, virtual false, abstract: false, final false
   static inline void* GetUnsafeReadOnlyPtr(::by_ref<::Unity::Collections::DataStreamReader> reader);
 
+  /// [Extension]
   /// @brief Method ReadBytesUnsafe, addr 0x64cd454, size 0x64, virtual false, abstract: false, final false
   static inline void ReadBytesUnsafe(::by_ref<::Unity::Collections::DataStreamReader> reader, uint8_t* data, int32_t length);
 
+  /// [Extension]
   /// @brief Method ReadFixedStringUnsafe, addr 0x64cd4b8, size 0x64, virtual false, abstract: false, final false
   static inline uint16_t ReadFixedStringUnsafe(::by_ref<::Unity::Collections::DataStreamReader> reader, uint8_t* data, int32_t maxLength);
 
+  /// [Extension]
   /// @brief Method ReadPackedFixedStringDeltaUnsafe, addr 0x64cd51c, size 0x90, virtual false, abstract: false, final false
   static inline uint16_t ReadPackedFixedStringDeltaUnsafe(::by_ref<::Unity::Collections::DataStreamReader> reader, uint8_t* data, int32_t maxLength, uint8_t* baseData, uint16_t baseLength,
                                                           ::Unity::Collections::StreamCompressionModel model);
 
+  /// [Extension]
   /// @brief Method WriteBytesUnsafe, addr 0x64cd3f0, size 0x64, virtual false, abstract: false, final false
   static inline bool WriteBytesUnsafe(::by_ref<::Unity::Collections::DataStreamWriter> writer, uint8_t* data, int32_t bytes);
 
@@ -54,13 +61,13 @@ protected:
   constexpr DataStreamExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataStreamExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataStreamExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataStreamExtensions(DataStreamExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataStreamExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataStreamExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataStreamExtensions(DataStreamExtensions const&) = delete;
+  DataStreamExtensions(DataStreamExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15752 };

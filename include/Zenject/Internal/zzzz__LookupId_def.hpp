@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Internal\LookupId.hpp"
+// IWYU pragma private; include "Zenject/Internal/LookupId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class LookupId;
 // Write type traits
 MARK_REF_T(::Zenject::Internal::LookupId*);
 DEFINE_IL2CPP_CLASS(::Zenject::Internal::LookupId*, "Zenject.Internal", "LookupId");
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.BindingId
 namespace Zenject::Internal {
 // Is value type: false
@@ -64,13 +65,13 @@ protected:
   constexpr LookupId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LookupId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LookupId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LookupId(LookupId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LookupId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LookupId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LookupId(LookupId const&) = delete;
+  LookupId(LookupIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14721 };

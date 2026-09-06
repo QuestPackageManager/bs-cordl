@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatToTimeAndRotationConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatToTimeAndRotationConverter.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeAndRotationConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConverter_def.hpp"

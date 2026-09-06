@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\UnsafeGraphContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/UnsafeGraphContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class UnsafeGraphContext;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*, "UnityEngine.Rendering.RenderGraphModule", "UnsafeGraphContext");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: false
@@ -89,13 +90,13 @@ protected:
   constexpr UnsafeGraphContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeGraphContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeGraphContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeGraphContext(UnsafeGraphContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeGraphContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeGraphContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeGraphContext(UnsafeGraphContext const&) = delete;
+  UnsafeGraphContext(UnsafeGraphContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12414 };

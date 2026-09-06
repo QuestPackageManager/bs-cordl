@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsSignedData.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsSignedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ public:
 
   __declspec(property(get = get_SignedContentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignedContentType;
 
+  /// @brief [Obsolete("Use \'SignedContentType\' property instead.")]
   __declspec(property(get = get_SignedContentTypeOid)) ::StringW SignedContentTypeOid;
 
   __declspec(property(get = get_Version)) int32_t Version;
@@ -230,13 +231,13 @@ protected:
   constexpr CmsSignedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsSignedData(CmsSignedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedData(CmsSignedData const&) = delete;
+  CmsSignedData(CmsSignedDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 648 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Tsp\TimeStampToken.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampToken.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,13 +114,13 @@ protected:
   constexpr TimeStampToken_CertID();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken_CertID", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken_CertID", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeStampToken_CertID(TimeStampToken_CertID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken_CertID", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken_CertID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampToken_CertID(TimeStampToken_CertID const&) = delete;
+  TimeStampToken_CertID(TimeStampToken_CertIDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1769 };
@@ -243,13 +243,13 @@ protected:
   constexpr TimeStampToken();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeStampToken(TimeStampToken&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeStampToken", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampToken(TimeStampToken const&) = delete;
+  TimeStampToken(TimeStampTokenconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1770 };

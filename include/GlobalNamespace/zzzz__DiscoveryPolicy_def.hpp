@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DiscoveryPolicy.hpp"
+// IWYU pragma private; include "GlobalNamespace/DiscoveryPolicy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
   // @brief default ctor
   constexpr DiscoveryPolicy();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr DiscoveryPolicy(uint8_t value__) noexcept;
 
   /// @brief Field Hidden value: U8(0)

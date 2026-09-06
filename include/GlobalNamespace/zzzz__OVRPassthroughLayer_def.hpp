@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPassthroughLayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPassthroughLayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -239,7 +239,7 @@ public:
   // @brief default ctor
   constexpr OVRPassthroughLayer_ProjectionSurfaceType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRPassthroughLayer_ProjectionSurfaceType(int32_t value__) noexcept;
 
   /// @brief Field Reconstructed value: I32(0)
@@ -300,7 +300,7 @@ public:
   // @brief default ctor
   constexpr OVRPassthroughLayer_ColorMapEditorType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRPassthroughLayer_ColorMapEditorType(int32_t value__) noexcept;
 
   /// @brief Field ColorAdjustment value: I32(4)
@@ -359,11 +359,11 @@ public:
   // @brief default ctor
   constexpr OVRPassthroughLayer_Settings();
 
-  // Ctor Parameters [CppParam { name: "colorLutTargetTexture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "colorLutSourceTexture", ty:
-  // "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "saturation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "posterize", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "contrast", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "gradient", ty: "::UnityEngine::Gradient*", modifiers: "", def_value: None }, CppParam { name: "lutWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "flipLutY", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "colorLutTargetTexture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name: "colorLutSourceTexture", ty:
+  // "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name: "saturation", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "posterize", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "contrast", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gradient", ty: "::UnityEngine::Gradient*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "lutWeight", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "flipLutY", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr OVRPassthroughLayer_Settings(::UnityW<::UnityEngine::Texture2D> colorLutTargetTexture, ::UnityW<::UnityEngine::Texture2D> colorLutSourceTexture, float_t saturation, float_t posterize,
                                          float_t brightness, float_t contrast, ::UnityEngine::Gradient* gradient, float_t lutWeight, bool flipLutY) noexcept;
 
@@ -435,8 +435,9 @@ public:
   // @brief default ctor
   constexpr OVRPassthroughLayer_PassthroughMeshInstance();
 
-  // Ctor Parameters [CppParam { name: "meshHandle", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "instanceHandle", ty: "uint64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "updateTransform", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "localToWorld", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "meshHandle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceHandle", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "updateTransform", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "localToWorld", ty: "::UnityEngine::Matrix4x4", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr OVRPassthroughLayer_PassthroughMeshInstance(uint64_t meshHandle, uint64_t instanceHandle, bool updateTransform, ::UnityEngine::Matrix4x4 localToWorld) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -482,8 +483,8 @@ public:
   // @brief default ctor
   constexpr OVRPassthroughLayer_SerializedSurfaceGeometry();
 
-  // Ctor Parameters [CppParam { name: "meshFilter", ty: "::UnityW<::UnityEngine::MeshFilter>", modifiers: "", def_value: None }, CppParam { name: "updateTransform", ty: "bool", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "meshFilter", ty: "::UnityW<::UnityEngine::MeshFilter>", modifiers: "", def_value: None, comment: None }, CppParam { name: "updateTransform", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRPassthroughLayer_SerializedSurfaceGeometry(::UnityW<::UnityEngine::MeshFilter> meshFilter, bool updateTransform) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -519,8 +520,8 @@ public:
   // @brief default ctor
   constexpr OVRPassthroughLayer_DeferredPassthroughMeshAddition();
 
-  // Ctor Parameters [CppParam { name: "gameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "updateTransform", ty: "bool", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "gameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None, comment: None }, CppParam { name: "updateTransform", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRPassthroughLayer_DeferredPassthroughMeshAddition(::UnityW<::UnityEngine::GameObject> gameObject, bool updateTransform) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -554,21 +555,21 @@ public:
   // Declarations
   __declspec(property(get = get_IsValid)) bool IsValid;
 
-  /// @brief Method ApplyStyleSettings, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyleSettings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyStyleSettings(::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2> style);
 
-  /// @brief Method Clear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update(::GlobalNamespace::OVRPassthroughLayer_Settings settings);
 
-  /// @brief Method get_IsValid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsValid();
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_IStyleHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_IStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_IStyleHandler(OVRPassthroughLayer_IStyleHandler const&) = delete;
+  OVRPassthroughLayer_IStyleHandler(OVRPassthroughLayer_IStyleHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7275 };
@@ -695,13 +696,13 @@ protected:
   constexpr OVRPassthroughLayer_StylesHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_StylesHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_StylesHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer_StylesHandler(OVRPassthroughLayer_StylesHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_StylesHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_StylesHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_StylesHandler(OVRPassthroughLayer_StylesHandler const&) = delete;
+  OVRPassthroughLayer_StylesHandler(OVRPassthroughLayer_StylesHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7276 };
@@ -795,13 +796,13 @@ protected:
   constexpr OVRPassthroughLayer_NoneStyleHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_NoneStyleHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_NoneStyleHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer_NoneStyleHandler(OVRPassthroughLayer_NoneStyleHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_NoneStyleHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_NoneStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_NoneStyleHandler(OVRPassthroughLayer_NoneStyleHandler const&) = delete;
+  OVRPassthroughLayer_NoneStyleHandler(OVRPassthroughLayer_NoneStyleHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7277 };
@@ -876,7 +877,7 @@ public:
   /// @brief Method get_IsValid, addr 0x5ea0a84, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsValid();
 
-  /// @brief Method get_MapSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_MapSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint32_t get_MapSize();
 
   /// @brief Convert to "::GlobalNamespace::OVRPassthroughLayer_IStyleHandler"
@@ -888,13 +889,13 @@ protected:
   constexpr OVRPassthroughLayer_BaseGeneratedStyleHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BaseGeneratedStyleHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BaseGeneratedStyleHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer_BaseGeneratedStyleHandler(OVRPassthroughLayer_BaseGeneratedStyleHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BaseGeneratedStyleHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BaseGeneratedStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_BaseGeneratedStyleHandler(OVRPassthroughLayer_BaseGeneratedStyleHandler const&) = delete;
+  OVRPassthroughLayer_BaseGeneratedStyleHandler(OVRPassthroughLayer_BaseGeneratedStyleHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7278 };
@@ -959,13 +960,13 @@ protected:
   constexpr OVRPassthroughLayer_MonoToRgbaStyleHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToRgbaStyleHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToRgbaStyleHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer_MonoToRgbaStyleHandler(OVRPassthroughLayer_MonoToRgbaStyleHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToRgbaStyleHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToRgbaStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_MonoToRgbaStyleHandler(OVRPassthroughLayer_MonoToRgbaStyleHandler const&) = delete;
+  OVRPassthroughLayer_MonoToRgbaStyleHandler(OVRPassthroughLayer_MonoToRgbaStyleHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7279 };
@@ -1010,13 +1011,13 @@ protected:
   constexpr OVRPassthroughLayer_MonoToMonoStyleHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToMonoStyleHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToMonoStyleHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer_MonoToMonoStyleHandler(OVRPassthroughLayer_MonoToMonoStyleHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToMonoStyleHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_MonoToMonoStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_MonoToMonoStyleHandler(OVRPassthroughLayer_MonoToMonoStyleHandler const&) = delete;
+  OVRPassthroughLayer_MonoToMonoStyleHandler(OVRPassthroughLayer_MonoToMonoStyleHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7280 };
@@ -1053,13 +1054,13 @@ protected:
   constexpr OVRPassthroughLayer_BCSStyleHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BCSStyleHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BCSStyleHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer_BCSStyleHandler(OVRPassthroughLayer_BCSStyleHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BCSStyleHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_BCSStyleHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_BCSStyleHandler(OVRPassthroughLayer_BCSStyleHandler const&) = delete;
+  OVRPassthroughLayer_BCSStyleHandler(OVRPassthroughLayer_BCSStyleHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7281 };
@@ -1153,24 +1154,30 @@ public:
   /// @brief Method .ctor, addr 0x5ea0868, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsValid, addr 0x5ea1070, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsValid();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Lut, addr 0x5ea1050, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPassthroughColorLut* get_Lut();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Weight, addr 0x5ea1060, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Weight();
 
   /// @brief Convert to "::GlobalNamespace::OVRPassthroughLayer_IStyleHandler"
   constexpr ::GlobalNamespace::OVRPassthroughLayer_IStyleHandler* i___GlobalNamespace__OVRPassthroughLayer_IStyleHandler() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsValid, addr 0x5ea1078, size 0x8, virtual false, abstract: false, final false
   inline void set_IsValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Lut, addr 0x5ea1058, size 0x8, virtual false, abstract: false, final false
   inline void set_Lut(::GlobalNamespace::OVRPassthroughColorLut* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Weight, addr 0x5ea1068, size 0x8, virtual false, abstract: false, final false
   inline void set_Weight(float_t value);
 
@@ -1180,13 +1187,13 @@ protected:
   constexpr OVRPassthroughLayer_ColorLutHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_ColorLutHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_ColorLutHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer_ColorLutHandler(OVRPassthroughLayer_ColorLutHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_ColorLutHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_ColorLutHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_ColorLutHandler(OVRPassthroughLayer_ColorLutHandler const&) = delete;
+  OVRPassthroughLayer_ColorLutHandler(OVRPassthroughLayer_ColorLutHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7282 };
@@ -1197,12 +1204,15 @@ public:
   /// @brief Field _currentColorLutSourceTexture, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____currentColorLutSourceTexture;
 
+  /// [CompilerGenerated]
   /// @brief Field <Lut>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRPassthroughColorLut* ____Lut_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Weight>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____Weight_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsValid>k__BackingField, offset: 0x2c, size: 0x1, def value: None
   bool ____IsValid_k__BackingField;
 
@@ -1268,9 +1278,11 @@ public:
   /// @brief Method .ctor, addr 0x5ea086c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LutTarget, addr 0x5ea1264, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPassthroughColorLut* get_LutTarget();
 
+  /// [CompilerGenerated]
   /// @brief Method set_LutTarget, addr 0x5ea126c, size 0x8, virtual false, abstract: false, final false
   inline void set_LutTarget(::GlobalNamespace::OVRPassthroughColorLut* value);
 
@@ -1280,13 +1292,13 @@ protected:
   constexpr OVRPassthroughLayer_InterpolatedColorLutHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_InterpolatedColorLutHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_InterpolatedColorLutHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer_InterpolatedColorLutHandler(OVRPassthroughLayer_InterpolatedColorLutHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_InterpolatedColorLutHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer_InterpolatedColorLutHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer_InterpolatedColorLutHandler(OVRPassthroughLayer_InterpolatedColorLutHandler const&) = delete;
+  OVRPassthroughLayer_InterpolatedColorLutHandler(OVRPassthroughLayer_InterpolatedColorLutHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7283 };
@@ -1294,6 +1306,7 @@ public:
   /// @brief Field _currentColorLutTargetTexture, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____currentColorLutTargetTexture;
 
+  /// [CompilerGenerated]
   /// @brief Field <LutTarget>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::OVRPassthroughColorLut* ____LutTarget_k__BackingField;
 
@@ -1307,6 +1320,7 @@ static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer_InterpolatedColorL
 static_assert(sizeof(::GlobalNamespace::OVRPassthroughLayer_InterpolatedColorLutHandler) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1337,13 +1351,13 @@ protected:
   constexpr OVRPassthroughLayer___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer___c__DisplayClass10_0(OVRPassthroughLayer___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer___c__DisplayClass10_0(OVRPassthroughLayer___c__DisplayClass10_0 const&) = delete;
+  OVRPassthroughLayer___c__DisplayClass10_0(OVRPassthroughLayer___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7284 };
@@ -1359,6 +1373,7 @@ static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer___c__DisplayClass1
 static_assert(sizeof(::GlobalNamespace::OVRPassthroughLayer___c__DisplayClass10_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1389,13 +1404,13 @@ protected:
   constexpr OVRPassthroughLayer___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer___c__DisplayClass9_0(OVRPassthroughLayer___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer___c__DisplayClass9_0(OVRPassthroughLayer___c__DisplayClass9_0 const&) = delete;
+  OVRPassthroughLayer___c__DisplayClass9_0(OVRPassthroughLayer___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7285 };
@@ -1411,6 +1426,8 @@ static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer___c__DisplayClass9
 static_assert(sizeof(::GlobalNamespace::OVRPassthroughLayer___c__DisplayClass9_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-passthrough-gs/")]
+// [Feature((Meta.XR.Util.Feature)6)]
 // Dependencies OVROverlay::OverlayType, OVRPassthroughLayer::ColorMapEditorType, OVRPassthroughLayer::ProjectionSurfaceType, OVRPassthroughLayer::Settings, OVRPlugin::InsightPassthroughColorMapType,
 // UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.Vector4
 namespace GlobalNamespace {
@@ -1878,6 +1895,7 @@ public:
   /// @brief Method .ctor, addr 0x5ea0258, size 0x2f4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_PassthroughLayerResumed, addr 0x5e9d480, size 0xac, virtual false, abstract: false, final false
   inline void add_PassthroughLayerResumed(::System::Action* value);
 
@@ -1901,6 +1919,7 @@ public:
   /// @brief Method get_textureOpacity, addr 0x5e9d39c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_textureOpacity();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PassthroughLayerResumed, addr 0x5e9d52c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PassthroughLayerResumed(::System::Action* value);
 
@@ -1927,13 +1946,13 @@ protected:
   constexpr OVRPassthroughLayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughLayer(OVRPassthroughLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughLayer(OVRPassthroughLayer const&) = delete;
+  OVRPassthroughLayer(OVRPassthroughLayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7286 };
@@ -1959,39 +1978,50 @@ public:
   /// @brief Field colorOffset, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___colorOffset;
 
+  /// [CompilerGenerated]
   /// @brief Field PassthroughLayerResumed, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___PassthroughLayerResumed;
 
   /// @brief Field passthroughLayerResumed, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent_1<::UnityW<::GlobalNamespace::OVRPassthroughLayer>>* ___passthroughLayerResumed;
 
+  /// [SerializeField]
   /// @brief Field colorMapEditorType_, offset: 0x60, size: 0x4, def value: None
   ::GlobalNamespace::OVRPassthroughLayer_ColorMapEditorType ___colorMapEditorType_;
 
   /// @brief Field colorMapEditorGradient, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Gradient* ___colorMapEditorGradient;
 
+  /// [Range(-1, 1)]
   /// @brief Field colorMapEditorContrast, offset: 0x70, size: 0x4, def value: None
   float_t ___colorMapEditorContrast;
 
+  /// [Range(-1, 1)]
   /// @brief Field colorMapEditorBrightness, offset: 0x74, size: 0x4, def value: None
   float_t ___colorMapEditorBrightness;
 
+  /// [Range(0, 1)]
   /// @brief Field colorMapEditorPosterize, offset: 0x78, size: 0x4, def value: None
   float_t ___colorMapEditorPosterize;
 
+  /// [Range(-1, 1)]
   /// @brief Field colorMapEditorSaturation, offset: 0x7c, size: 0x4, def value: None
   float_t ___colorMapEditorSaturation;
 
+  /// [SerializeField]
   /// @brief Field _colorLutSourceTexture, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____colorLutSourceTexture;
 
+  /// [SerializeField]
   /// @brief Field _colorLutTargetTexture, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____colorLutTargetTexture;
 
+  /// [SerializeField]
+  /// [Range(0, 1)]
   /// @brief Field _lutWeight, offset: 0x90, size: 0x4, def value: None
   float_t ____lutWeight;
 
+  /// [SerializeField]
   /// @brief Field _flipLutY, offset: 0x94, size: 0x1, def value: None
   bool ____flipLutY;
 
@@ -2016,18 +2046,25 @@ public:
   /// @brief Field deferredSurfaceGameObjects, offset: 0xf0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRPassthroughLayer_DeferredPassthroughMeshAddition>* ___deferredSurfaceGameObjects;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field serializedSurfaceGeometry, offset: 0xf8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRPassthroughLayer_SerializedSurfaceGeometry>* ___serializedSurfaceGeometry;
 
+  /// [SerializeField]
+  /// [Range(0, 1)]
   /// @brief Field textureOpacity_, offset: 0x100, size: 0x4, def value: None
   float_t ___textureOpacity_;
 
+  /// [SerializeField]
   /// @brief Field edgeRenderingEnabled_, offset: 0x104, size: 0x1, def value: None
   bool ___edgeRenderingEnabled_;
 
+  /// [SerializeField]
   /// @brief Field edgeColor_, offset: 0x108, size: 0x10, def value: None
   ::UnityEngine::Color ___edgeColor_;
 
+  /// [SerializeField]
   /// @brief Field colorMapType, offset: 0x118, size: 0x4, def value: None
   ::GlobalNamespace::OVRPlugin_InsightPassthroughColorMapType ___colorMapType;
 

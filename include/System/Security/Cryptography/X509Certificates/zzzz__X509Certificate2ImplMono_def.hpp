@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509Certificate2ImplMono.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Certificate2ImplMono.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,6 +99,7 @@ public:
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* New_ctor(::ArrayW<uint8_t> rawData, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                                        ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
+  /// [MonoTODO("by default this depends on the incomplete X509Chain")]
   /// @brief Method Verify, addr 0x63aa6a0, size 0x8c, virtual true, abstract: false, final false
   inline bool Verify(::System::Security::Cryptography::X509Certificates::X509Certificate2* thisCertificate);
 
@@ -158,13 +159,13 @@ protected:
   constexpr X509Certificate2ImplMono();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2ImplMono", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2ImplMono", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Certificate2ImplMono(X509Certificate2ImplMono&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2ImplMono", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2ImplMono", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509Certificate2ImplMono(X509Certificate2ImplMono const&) = delete;
+  X509Certificate2ImplMono(X509Certificate2ImplMonoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11195 };

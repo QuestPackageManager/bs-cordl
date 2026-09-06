@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\VariantCheckpoint.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/VariantCheckpoint.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__VariantCheckpoint_def.hpp"
 //  Writing Method size for method: ::Meta::XR::BuildingBlocks::VariantCheckpoint.get_MemberName

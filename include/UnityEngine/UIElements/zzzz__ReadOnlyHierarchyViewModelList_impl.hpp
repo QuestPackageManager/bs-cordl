@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ReadOnlyHierarchyViewModelList.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ReadOnlyHierarchyViewModelList.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyViewModel_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ReadOnlyHierarchyViewModelList_def.hpp"
@@ -95,8 +95,8 @@ constexpr UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::op
 constexpr ::System::Collections::IEnumerator* UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Enumerator", ty:
-// "::Unity::Hierarchy::HierarchyViewModel_Enumerator", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Enumerator", ty:
+// "::Unity::Hierarchy::HierarchyViewModel_Enumerator", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList_Enumerator::ReadOnlyHierarchyViewModelList_Enumerator(::Unity::Hierarchy::HierarchyViewModel* m_HierarchyViewModel,
                                                                                                                           ::Unity::Hierarchy::HierarchyViewModel_Enumerator m_Enumerator) noexcept {
   this->m_HierarchyViewModel = m_HierarchyViewModel;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\CryptoPro\Gost3410PublicKeyAlgParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/CryptoPro/Gost3410PublicKeyAlgParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ public:
                                                                                                ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet,
                                                                                                ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
+  /// @brief [Obsolete("Use \'GetInstance\' instead")]
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// @brief Method ToAsn1Object, addr 0x336ef64, size 0x180, virtual true, abstract: false, final false
@@ -92,6 +93,7 @@ public:
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
+  /// [Obsolete("Use \'GetInstance\' instead")]
   /// @brief Method .ctor, addr 0x336ecf0, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -110,13 +112,13 @@ protected:
   constexpr Gost3410PublicKeyAlgParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyAlgParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyAlgParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost3410PublicKeyAlgParameters(Gost3410PublicKeyAlgParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyAlgParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyAlgParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost3410PublicKeyAlgParameters(Gost3410PublicKeyAlgParameters const&) = delete;
+  Gost3410PublicKeyAlgParameters(Gost3410PublicKeyAlgParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 131 };

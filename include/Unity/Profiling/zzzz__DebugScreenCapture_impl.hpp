@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\DebugScreenCapture.hpp"
+// IWYU pragma private; include "Unity/Profiling/DebugScreenCapture.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/zzzz__TextureFormat_impl.hpp"
 #include "Unity/Profiling/zzzz__DebugScreenCapture_def.hpp"
@@ -78,9 +78,9 @@ inline void Unity::Profiling::DebugScreenCapture::set_Height(int32_t value) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::DebugScreenCapture>(), { "set_Height", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_RawImageDataReference_k__BackingField", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_ImageFormat_k__BackingField", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_Height_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_RawImageDataReference_k__BackingField", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_ImageFormat_k__BackingField", ty: "::UnityEngine::TextureFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_Height_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::DebugScreenCapture::DebugScreenCapture(::Unity::Collections::NativeArray_1<uint8_t> _RawImageDataReference_k__BackingField,
                                                                      ::UnityEngine::TextureFormat _ImageFormat_k__BackingField, int32_t _Width_k__BackingField,
                                                                      int32_t _Height_k__BackingField) noexcept {

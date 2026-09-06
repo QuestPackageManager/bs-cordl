@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\InclusiveRange.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/InclusiveRange.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__InclusiveRange_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::InclusiveRange._ctor
 template <>
@@ -165,7 +165,8 @@ inline ::StringW UnityEngine::Rendering::Universal::InclusiveRange::ToString() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::InclusiveRange>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "end", ty: "int16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "start", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "end", ty: "int16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::InclusiveRange::InclusiveRange(int16_t start, int16_t end) noexcept {
   this->start = start;
   this->end = end;

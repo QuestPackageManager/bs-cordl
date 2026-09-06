@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Internal\ZenUtilInternal.hpp"
+// IWYU pragma private; include "Zenject/Internal/ZenUtilInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,6 +84,7 @@ DEFINE_IL2CPP_CLASS(::Zenject::Internal::ZenUtilInternal*, "Zenject.Internal", "
 DEFINE_IL2CPP_CLASS(::Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3*, "Zenject.Internal", "ZenUtilInternal/<GetAllSceneContexts>d__3");
 DEFINE_IL2CPP_CLASS(::Zenject::Internal::ZenUtilInternal___c*, "Zenject.Internal", "ZenUtilInternal/<>c");
 DEFINE_IL2CPP_CLASS(::Zenject::Internal::ZenUtilInternal___c__DisplayClass10_0*, "Zenject.Internal", "ZenUtilInternal/<>c__DisplayClass10_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
@@ -112,6 +113,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6ea6814, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6ea6858, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -136,13 +138,13 @@ protected:
   constexpr ZenUtilInternal___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenUtilInternal___c(ZenUtilInternal___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenUtilInternal___c(ZenUtilInternal___c const&) = delete;
+  ZenUtilInternal___c(ZenUtilInternal___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14749 };
@@ -153,6 +155,7 @@ public:
 static_assert(sizeof(::Zenject::Internal::ZenUtilInternal___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject::Internal
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.SceneManagement.Scene
 namespace Zenject::Internal {
 // Is value type: false
@@ -183,13 +186,13 @@ protected:
   constexpr ZenUtilInternal___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenUtilInternal___c__DisplayClass10_0(ZenUtilInternal___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenUtilInternal___c__DisplayClass10_0(ZenUtilInternal___c__DisplayClass10_0 const&) = delete;
+  ZenUtilInternal___c__DisplayClass10_0(ZenUtilInternal___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14750 };
@@ -205,6 +208,7 @@ static_assert(offsetof(::Zenject::Internal::ZenUtilInternal___c__DisplayClass10_
 static_assert(sizeof(::Zenject::Internal::ZenUtilInternal___c__DisplayClass10_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
@@ -247,23 +251,30 @@ public:
   /// @brief Method MoveNext, addr 0x6ea6b10, size 0x48c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator, addr 0x6ea7098, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>* System_Collections_Generic_IEnumerable_Zenject_SceneContext__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current, addr 0x6ea7050, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::Zenject::SceneContext> System_Collections_Generic_IEnumerator_Zenject_SceneContext__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6ea7124, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6ea7058, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6ea7090, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6ea6af4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -294,6 +305,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6ea6f9c, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6ea5920, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -318,13 +330,13 @@ protected:
   constexpr ZenUtilInternal__GetAllSceneContexts_d__3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal__GetAllSceneContexts_d__3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal__GetAllSceneContexts_d__3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenUtilInternal__GetAllSceneContexts_d__3(ZenUtilInternal__GetAllSceneContexts_d__3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal__GetAllSceneContexts_d__3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal__GetAllSceneContexts_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenUtilInternal__GetAllSceneContexts_d__3(ZenUtilInternal__GetAllSceneContexts_d__3 const&) = delete;
+  ZenUtilInternal__GetAllSceneContexts_d__3(ZenUtilInternal__GetAllSceneContexts_d__3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14751 };
@@ -377,6 +389,7 @@ public:
   /// @brief Method AreFunctionsEqual, addr 0x6ea56c4, size 0xe0, virtual false, abstract: false, final false
   static inline bool AreFunctionsEqual(::System::Delegate* left, ::System::Delegate* right);
 
+  /// [IteratorStateMachine(typeof(Zenject.Internal.ZenUtilInternal::<GetAllSceneContexts>d__3))]
   /// @brief Method GetAllSceneContexts, addr 0x6ea58b8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* GetAllSceneContexts();
 
@@ -409,13 +422,13 @@ protected:
   constexpr ZenUtilInternal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenUtilInternal(ZenUtilInternal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenUtilInternal(ZenUtilInternal const&) = delete;
+  ZenUtilInternal(ZenUtilInternalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14752 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaContentModel.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaContentModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaContentModel : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Content, put = set_Content)) ::System::Xml::Schema::XmlSchemaContent* Content;
 
   static inline ::System::Xml::Schema::XmlSchemaContentModel* New_ctor();
@@ -29,10 +30,10 @@ public:
   /// @brief Method .ctor, addr 0x622df60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-  /// @brief Method set_Content, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
 protected:
@@ -41,13 +42,13 @@ protected:
   constexpr XmlSchemaContentModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaContentModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaContentModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaContentModel(XmlSchemaContentModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaContentModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaContentModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaContentModel(XmlSchemaContentModel const&) = delete;
+  XmlSchemaContentModel(XmlSchemaContentModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9759 };

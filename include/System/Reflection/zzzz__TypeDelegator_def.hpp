@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\TypeDelegator.hpp"
+// IWYU pragma private; include "System/Reflection/TypeDelegator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -123,6 +123,7 @@ public:
                                                                    ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                                    ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
+  /// [ComVisible(true)]
   /// @brief Method GetConstructors, addr 0x5b840a0, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ConstructorInfo*> GetConstructors(::System::Reflection::BindingFlags bindingAttr);
 
@@ -150,6 +151,7 @@ public:
   /// @brief Method GetInterface, addr 0x5b84150, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* GetInterface(::StringW name, bool ignoreCase);
 
+  /// [ComVisible(true)]
   /// @brief Method GetInterfaceMap, addr 0x5b84528, size 0x40, virtual true, abstract: false, final false
   inline ::System::Reflection::InterfaceMapping GetInterfaceMap(::System::Type* interfaceType);
 
@@ -270,13 +272,13 @@ protected:
   constexpr TypeDelegator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDelegator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDelegator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDelegator(TypeDelegator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeDelegator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeDelegator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeDelegator(TypeDelegator const&) = delete;
+  TypeDelegator(TypeDelegatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3526 };

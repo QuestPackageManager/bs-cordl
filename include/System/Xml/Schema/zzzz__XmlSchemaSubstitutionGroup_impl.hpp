@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSubstitutionGroup.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSubstitutionGroup.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObject_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSubstitutionGroup_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\User.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/User.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -156,13 +156,13 @@ protected:
   constexpr User();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "User", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "User", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   User(User&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "User", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "User", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  User(User const&) = delete;
+  User(Userconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18099 };
@@ -179,6 +179,7 @@ public:
   /// @brief Field ManagedInfoOptional, offset: 0x28, size: 0x8, def value: None
   ::Oculus::Platform::Models::ManagedInfo* ___ManagedInfoOptional;
 
+  /// [Obsolete("Deprecated in favor of ManagedInfoOptional")]
   /// @brief Field ManagedInfo, offset: 0x30, size: 0x8, def value: None
   ::Oculus::Platform::Models::ManagedInfo* ___ManagedInfo;
 

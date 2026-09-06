@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderTargetBinding.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderTargetBinding.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferLoadAction_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferStoreAction_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetFlags_impl.hpp"
@@ -128,12 +128,13 @@ inline ::UnityEngine::Rendering::RenderTargetFlags UnityEngine::Rendering::Rende
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTargetBinding>(), { "get_flags", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderTargetFlags>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_ColorRenderTargets", ty: "::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_DepthRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ColorLoadActions", ty:
-// "::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ColorStoreActions", ty:
-// "::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DepthLoadAction", ty: "::UnityEngine::Rendering::RenderBufferLoadAction",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DepthStoreAction", ty: "::UnityEngine::Rendering::RenderBufferStoreAction", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Flags", ty: "::UnityEngine::Rendering::RenderTargetFlags", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ColorRenderTargets", ty: "::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_DepthRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ColorLoadActions", ty:
+// "::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ColorStoreActions", ty:
+// "::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DepthLoadAction", ty:
+// "::UnityEngine::Rendering::RenderBufferLoadAction", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DepthStoreAction", ty:
+// "::UnityEngine::Rendering::RenderBufferStoreAction", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::RenderTargetFlags", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderTargetBinding::RenderTargetBinding(::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> m_ColorRenderTargets,
                                                                              ::UnityEngine::Rendering::RenderTargetIdentifier m_DepthRenderTarget,
                                                                              ::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction> m_ColorLoadActions,

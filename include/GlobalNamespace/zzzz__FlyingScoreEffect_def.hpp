@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlyingScoreEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlyingScoreEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +77,13 @@ protected:
   constexpr FlyingScoreEffect_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingScoreEffect_Pool(FlyingScoreEffect_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreEffect_Pool(FlyingScoreEffect_Pool const&) = delete;
+  FlyingScoreEffect_Pool(FlyingScoreEffect_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5773 };
@@ -149,6 +149,7 @@ public:
   /// @brief Method InitAndPresent, addr 0x598302c, size 0x4e8, virtual false, abstract: false, final false
   inline void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
 
+  /// [RuntimeInitializeOnLoadMethod]
   /// @brief Method Initialize, addr 0x5982e08, size 0x224, virtual false, abstract: false, final false
   static inline void Initialize();
 
@@ -232,13 +233,13 @@ protected:
   constexpr FlyingScoreEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingScoreEffect(FlyingScoreEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreEffect(FlyingScoreEffect const&) = delete;
+  FlyingScoreEffect(FlyingScoreEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5774 };
@@ -246,12 +247,15 @@ public:
   /// @brief Field kExpectedMaxScore offset 0xffffffff size 0x4
   static constexpr int32_t kExpectedMaxScore{ static_cast<int32_t>(0x73) };
 
+  /// [SerializeField]
   /// @brief Field _fadeAnimationCurve, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeAnimationCurve;
 
+  /// [SerializeField]
   /// @brief Field _maxCutDistanceScoreIndicator, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____maxCutDistanceScoreIndicator;
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;
 

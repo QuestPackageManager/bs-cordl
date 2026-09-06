@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BTSCharacterSpawnEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/BTSCharacterSpawnEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -231,12 +231,14 @@ public:
   /// @brief Method .ctor, addr 0x32871b4, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_startCharacterAnimationEvent, addr 0x3285768, size 0xc0, virtual false, abstract: false, final false
   inline void add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
   /// @brief Method get_isInitialized, addr 0x3285f20, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_startCharacterAnimationEvent, addr 0x3285cd4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
@@ -246,13 +248,13 @@ protected:
   constexpr BTSCharacterSpawnEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterSpawnEventEffect(BTSCharacterSpawnEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterSpawnEventEffect(BTSCharacterSpawnEventEffect const&) = delete;
+  BTSCharacterSpawnEventEffect(BTSCharacterSpawnEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22014 };
@@ -260,27 +262,36 @@ public:
   /// @brief Field kCharacterDisplayEventType value: I32(40)
   static ::GlobalNamespace::BasicBeatmapEventType const kCharacterDisplayEventType;
 
+  /// [SerializeField]
   /// @brief Field _animationStartAheadTime, offset: 0x20, size: 0x4, def value: None
   float_t ____animationStartAheadTime;
 
+  /// [SerializeField]
   /// @brief Field _btsCharacterDataModel, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BTSCharacterDataModel> ____btsCharacterDataModel;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)1)]
   /// @brief Field _characterWrapper, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____characterWrapper;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _beatmapData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____beatmapData;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
+  /// [Inject]
   /// @brief Field _gameplayModifiers, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
+  /// [CompilerGenerated]
   /// @brief Field startCharacterAnimationEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* ___startCharacterAnimationEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissScoringElement.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissScoringElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ protected:
   constexpr MissScoringElement_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissScoringElement_Pool(MissScoringElement_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissScoringElement_Pool(MissScoringElement_Pool const&) = delete;
+  MissScoringElement_Pool(MissScoringElement_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6270 };
@@ -127,13 +127,13 @@ protected:
   constexpr MissScoringElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissScoringElement(MissScoringElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissScoringElement(MissScoringElement const&) = delete;
+  MissScoringElement(MissScoringElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6271 };

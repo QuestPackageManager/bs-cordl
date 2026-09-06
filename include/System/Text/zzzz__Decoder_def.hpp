@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\Decoder.hpp"
+// IWYU pragma private; include "System/Text/Decoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,19 +49,21 @@ public:
   inline void Convert(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, bool flush, ::by_ref<int32_t> bytesUsed,
                       ::by_ref<int32_t> charsUsed, ::by_ref<bool> completed);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Convert, addr 0x5ccb568, size 0x220, virtual true, abstract: false, final false
   inline void Convert(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount, bool flush, ::by_ref<int32_t> bytesUsed, ::by_ref<int32_t> charsUsed, ::by_ref<bool> completed);
 
-  /// @brief Method GetCharCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
   /// @brief Method GetCharCount, addr 0x5ccae14, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count, bool flush);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetCharCount, addr 0x5ccae20, size 0x158, virtual true, abstract: false, final false
   inline int32_t GetCharCount(uint8_t* bytes, int32_t count, bool flush);
 
-  /// @brief Method GetChars, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   /// @brief Method GetChars, addr 0x5ccaf78, size 0xc, virtual true, abstract: false, final false
@@ -70,6 +72,7 @@ public:
   /// @brief Method GetChars, addr 0x5ccb194, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetChars(::System::ReadOnlySpan_1<uint8_t> bytes, ::System::Span_1<char16_t> chars, bool flush);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetChars, addr 0x5ccaf84, size 0x210, virtual true, abstract: false, final false
   inline int32_t GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount, bool flush);
 
@@ -108,13 +111,13 @@ protected:
   constexpr Decoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Decoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Decoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Decoder(Decoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Decoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Decoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Decoder(Decoder const&) = delete;
+  Decoder(Decoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2846 };

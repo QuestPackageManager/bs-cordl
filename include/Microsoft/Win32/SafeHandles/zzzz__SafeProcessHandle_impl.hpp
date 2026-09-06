@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafeProcessHandle.hpp"
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeProcessHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeProcessHandle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

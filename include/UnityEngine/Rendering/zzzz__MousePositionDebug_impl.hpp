@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MousePositionDebug.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MousePositionDebug.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MousePositionDebug_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"

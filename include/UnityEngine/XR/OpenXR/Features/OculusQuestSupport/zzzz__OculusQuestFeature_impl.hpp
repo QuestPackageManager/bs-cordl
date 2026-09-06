@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\OculusQuestSupport\OculusQuestFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/OculusQuestSupport/OculusQuestFeature.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/OculusQuestSupport/zzzz__OculusQuestFeature_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature._ctor

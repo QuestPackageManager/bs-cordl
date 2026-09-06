@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CampaignFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/CampaignFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,6 +84,7 @@ MARK_REF_T(::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass25_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CampaignFlowCoordinator*, "", "CampaignFlowCoordinator");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass23_0*, "", "CampaignFlowCoordinator/<>c__DisplayClass23_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass25_0*, "", "CampaignFlowCoordinator/<>c__DisplayClass25_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -123,13 +124,13 @@ protected:
   constexpr CampaignFlowCoordinator___c__DisplayClass23_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass23_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CampaignFlowCoordinator___c__DisplayClass23_0(CampaignFlowCoordinator___c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass23_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CampaignFlowCoordinator___c__DisplayClass23_0(CampaignFlowCoordinator___c__DisplayClass23_0 const&) = delete;
+  CampaignFlowCoordinator___c__DisplayClass23_0(CampaignFlowCoordinator___c__DisplayClass23_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6830 };
@@ -150,6 +151,7 @@ static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator___c__DisplayCl
 static_assert(sizeof(::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass23_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -189,13 +191,13 @@ protected:
   constexpr CampaignFlowCoordinator___c__DisplayClass25_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass25_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass25_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CampaignFlowCoordinator___c__DisplayClass25_0(CampaignFlowCoordinator___c__DisplayClass25_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass25_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CampaignFlowCoordinator___c__DisplayClass25_0(CampaignFlowCoordinator___c__DisplayClass25_0 const&) = delete;
+  CampaignFlowCoordinator___c__DisplayClass25_0(CampaignFlowCoordinator___c__DisplayClass25_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6831 };
@@ -323,9 +325,11 @@ public:
   /// @brief Method UpdatePlayerStatistics, addr 0x5925440, size 0x140, virtual false, abstract: false, final false
   inline void UpdatePlayerStatistics(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
 
+  /// [CompilerGenerated]
   /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__24_0, addr 0x5925664, size 0x90, virtual false, abstract: false, final false
   inline void _HandleMissionResultsViewControllerContinueButtonPressed_b__24_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__24_1, addr 0x59256f4, size 0x30, virtual false, abstract: false, final false
   inline void _HandleMissionResultsViewControllerContinueButtonPressed_b__24_1(bool presented);
 
@@ -428,9 +432,11 @@ public:
   /// @brief Method .ctor, addr 0x592565c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x592463c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x59246fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
@@ -440,13 +446,13 @@ protected:
   constexpr CampaignFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CampaignFlowCoordinator(CampaignFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CampaignFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CampaignFlowCoordinator(CampaignFlowCoordinator const&) = delete;
+  CampaignFlowCoordinator(CampaignFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6832 };
@@ -454,48 +460,63 @@ public:
   /// @brief Field kTitleCampaignLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitleCampaignLocalizationKey{ u"TITLE_CAMPAIGN" };
 
+  /// [SerializeField]
   /// @brief Field _defaultLightsPreset, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultLightsPreset;
 
+  /// [SerializeField]
   /// @brief Field _resultsClearedLightsPreset, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsClearedLightsPreset;
 
+  /// [SerializeField]
   /// @brief Field _resultsFailedLightsPreset, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsFailedLightsPreset;
 
+  /// [SerializeField]
   /// @brief Field _newObjectiveLightsPreset, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____newObjectiveLightsPreset;
 
+  /// [Inject]
   /// @brief Field _menuTransitionsHelper, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
+  /// [Inject]
   /// @brief Field _menuLightsManager, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsManager> ____menuLightsManager;
 
+  /// [Inject]
   /// @brief Field _missionSelectionNavigationController, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> ____missionSelectionNavigationController;
 
+  /// [Inject]
   /// @brief Field _missionResultsViewController, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionResultsViewController> ____missionResultsViewController;
 
+  /// [Inject]
   /// @brief Field _gameplaySetupViewController, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplaySetupViewController> ____gameplaySetupViewController;
 
+  /// [Inject]
   /// @brief Field _missionHelpViewController, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionHelpViewController> ____missionHelpViewController;
 
+  /// [Inject]
   /// @brief Field _environmentsListModel, offset: 0x100, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _campaignProgressModel, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignProgressModel> ____campaignProgressModel;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x118, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x120, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* ___didFinishEvent;
 

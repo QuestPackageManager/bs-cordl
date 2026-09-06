@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXVisibilityEventBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXVisibilityEventBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXEventBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXVisibilityEventBinder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXVisibilityEventBinder_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::Utility::VFXVisibilityEventBinder_Activation::VFXVisibilityEventBinder_Activation(int32_t value__) noexcept {
   this->value__ = value__;
 }

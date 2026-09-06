@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\StreamHelpers.hpp"
+// IWYU pragma private; include "System/IO/StreamHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__StreamHelpers_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

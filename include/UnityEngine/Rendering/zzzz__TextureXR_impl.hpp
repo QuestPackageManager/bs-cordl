@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\TextureXR.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/TextureXR.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureXR_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerScoreDiffText.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerScoreDiffText.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreDiffText_def.hpp"
@@ -10,7 +10,7 @@
 #include "Tweening/zzzz__FloatTween_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition::MultiplayerScoreDiffText_HorizontalPosition(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -18,7 +18,7 @@ constexpr ::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition::Multip
 constexpr ::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition::MultiplayerScoreDiffText_HorizontalPosition() {}
 constexpr ::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition::Left{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition::Right{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerScoreDiffText_State::MultiplayerScoreDiffText_State(int32_t value__) noexcept {
   this->value__ = value__;
 }

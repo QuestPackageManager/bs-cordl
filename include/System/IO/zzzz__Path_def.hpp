@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Path.hpp"
+// IWYU pragma private; include "System/IO/Path.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,9 @@ namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename T5> struct ValueTuple_5;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest> struct ValueTuple_8;
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
+  requires(::cordl_internals::value_type_constraint<TRest> && ::cordl_internals::default_constructor_constraint<TRest>)
+struct ValueTuple_8;
 }
 // Forward declare root types
 namespace System::IO {
@@ -44,6 +46,7 @@ MARK_REF_T(::System::IO::Path*);
 MARK_REF_T(::System::IO::Path___c*);
 DEFINE_IL2CPP_CLASS(::System::IO::Path*, "System.IO", "Path");
 DEFINE_IL2CPP_CLASS(::System::IO::Path___c*, "System.IO", "Path/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::IO {
 // Is value type: false
@@ -65,11 +68,15 @@ public:
   static inline ::System::IO::Path___c* New_ctor();
 
   /// @brief Method <JoinInternal>b__56_0, addr 0x5c210bc, size 0x134, virtual false, abstract: false, final false
-  inline void _JoinInternal_b__56_0(::System::Span_1<char16_t> destination, ::System::ValueTuple_5<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool> state);
+  inline void _JoinInternal_b__56_0(
+      ::System::Span_1<char16_t> destination,
+      /* [TupleElementNames(new[] { "First", "FirstLength", "Second", "SecondLength", "HasSeparator" })] */ ::System::ValueTuple_5<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool> state);
 
   /// @brief Method <JoinInternal>b__57_0, addr 0x5c211f0, size 0x1b8, virtual false, abstract: false, final false
   inline void _JoinInternal_b__57_0(::System::Span_1<char16_t> destination,
-                                    ::System::ValueTuple_8<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool, ::System::ValueTuple_1<bool>> state);
+                                    /* [TupleElementNames(new[] { "First", "FirstLength", "Second", "SecondLength", "Third", "ThirdLength", "FirstHasSeparator", "ThirdHasSeparator", null })] */ ::
+                                        System::ValueTuple_8<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool, ::System::ValueTuple_1<bool>>
+                                            state);
 
   /// @brief Method .ctor, addr 0x5c210b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -94,13 +101,13 @@ protected:
   constexpr Path___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Path___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Path___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Path___c(Path___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Path___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Path___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Path___c(Path___c const&) = delete;
+  Path___c(Path___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3917 };
@@ -111,6 +118,7 @@ public:
 static_assert(sizeof(::System::IO::Path___c) == 0x10, "Size mismatch!");
 
 } // namespace System::IO
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::IO {
 // Is value type: false
@@ -169,7 +177,7 @@ public:
   static inline ::StringW Combine(::StringW path1, ::StringW path2, ::StringW path3, ::StringW path4);
 
   /// @brief Method Combine, addr 0x5c1ffd4, size 0x2e8, virtual false, abstract: false, final false
-  static inline ::StringW Combine(::ArrayW<::StringW> paths);
+  static inline ::StringW Combine(/* [ParamArray] */ ::ArrayW<::StringW> paths);
 
   /// @brief Method GetDirectoryName, addr 0x5c0a79c, size 0x348, virtual false, abstract: false, final false
   static inline ::StringW GetDirectoryName(::StringW path);
@@ -283,13 +291,13 @@ protected:
   constexpr Path();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Path", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Path", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Path(Path&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Path", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Path", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Path(Path const&) = delete;
+  Path(Pathconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3918 };

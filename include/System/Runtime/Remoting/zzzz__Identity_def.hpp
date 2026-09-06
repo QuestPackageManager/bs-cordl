@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Identity.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Identity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   __declspec(property(get = __cordl_internal_get__serverDynamicProperties,
                       put = __cordl_internal_set__serverDynamicProperties)) ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _serverDynamicProperties;
 
-  /// @brief Method CreateObjRef, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
   static inline ::System::Runtime::Remoting::Identity* New_ctor(::StringW objectUri);
@@ -164,13 +164,13 @@ protected:
   constexpr Identity();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Identity", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Identity", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Identity(Identity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Identity", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Identity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Identity(Identity const&) = delete;
+  Identity(Identityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3076 };

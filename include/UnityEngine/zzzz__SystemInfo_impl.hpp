@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SystemInfo.hpp"
+// IWYU pragma private; include "UnityEngine/SystemInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SystemInfo_def.hpp"
 #include "System/zzzz__Enum_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TransformSpectrogram.hpp"
+// IWYU pragma private; include "GlobalNamespace/TransformSpectrogram.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Transform_impl.hpp"

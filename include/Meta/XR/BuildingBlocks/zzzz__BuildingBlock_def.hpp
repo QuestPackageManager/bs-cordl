@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\BuildingBlock.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/BuildingBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,9 @@ class BuildingBlock;
 // Write type traits
 MARK_REF_T(::Meta::XR::BuildingBlocks::BuildingBlock*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::BuildingBlock*, "Meta.XR.BuildingBlocks", "BuildingBlock");
+// [HelpURL("https://developer.oculus.com/documentation/unity/bb-overview/")]
+// [DisallowMultipleComponent]
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace Meta::XR::BuildingBlocks {
 // Is value type: false
@@ -107,26 +110,34 @@ protected:
   constexpr BuildingBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BuildingBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BuildingBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BuildingBlock(BuildingBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BuildingBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BuildingBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BuildingBlock(BuildingBlock const&) = delete;
+  BuildingBlock(BuildingBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21353 };
 
+  /// [SerializeField]
+  /// [OVRReadOnly]
   /// @brief Field blockId, offset: 0x20, size: 0x8, def value: None
   ::StringW ___blockId;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field instanceId, offset: 0x28, size: 0x8, def value: None
   ::StringW ___instanceId;
 
+  /// [SerializeField]
+  /// [OVRReadOnly]
   /// @brief Field version, offset: 0x30, size: 0x4, def value: None
   int32_t ___version;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field installationRoutineCheckpoint, offset: 0x38, size: 0x8, def value: None
   ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* ___installationRoutineCheckpoint;
 

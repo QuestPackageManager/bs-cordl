@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfile.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class ControllerProfile;
 // Write type traits
 MARK_REF_T(::BeatSaber::GameSettings::ControllerProfile*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::GameSettings::ControllerProfile*, "BeatSaber.GameSettings", "ControllerProfile");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.GameSettings.Controller, System.Object
 namespace BeatSaber::GameSettings {
 // Is value type: false
@@ -151,21 +153,27 @@ public:
   inline void _ctor(::StringW localizationKey, int32_t index, bool modifiable, bool alternativeHandling, ::BeatSaber::GameSettings::Controller leftController,
                     ::BeatSaber::GameSettings::Controller rightController);
 
+  /// [CompilerGenerated]
   /// @brief Method get_alternativeHandling, addr 0x32937b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_alternativeHandling();
 
+  /// [CompilerGenerated]
   /// @brief Method get_leftController, addr 0x32937c4, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::Controller get_leftController();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rightController, addr 0x32937ec, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::Controller get_rightController();
 
+  /// [CompilerGenerated]
   /// @brief Method set_alternativeHandling, addr 0x32937bc, size 0x8, virtual false, abstract: false, final false
   inline void set_alternativeHandling(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_leftController, addr 0x32937d8, size 0x14, virtual false, abstract: false, final false
   inline void set_leftController(::BeatSaber::GameSettings::Controller value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rightController, addr 0x3293800, size 0x14, virtual false, abstract: false, final false
   inline void set_rightController(::BeatSaber::GameSettings::Controller value);
 
@@ -175,13 +183,13 @@ protected:
   constexpr ControllerProfile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerProfile(ControllerProfile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfile(ControllerProfile const&) = delete;
+  ControllerProfile(ControllerProfileconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22053 };
@@ -195,15 +203,19 @@ public:
   /// @brief Field modifiable, offset: 0x1c, size: 0x1, def value: None
   bool ___modifiable;
 
+  /// [CompilerGenerated]
   /// @brief Field <alternativeHandling>k__BackingField, offset: 0x1d, size: 0x1, def value: None
   bool ____alternativeHandling_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <leftController>k__BackingField, offset: 0x20, size: 0x18, def value: None
   ::BeatSaber::GameSettings::Controller ____leftController_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rightController>k__BackingField, offset: 0x38, size: 0x18, def value: None
   ::BeatSaber::GameSettings::Controller ____rightController_k__BackingField;
 
+  /// [Nullable(2)]
   /// @brief Field _xrSystemState, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 

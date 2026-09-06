@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockXRSystemState.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockXRSystemState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockXRSystemState_def.hpp"
 #include "GlobalNamespace/zzzz__IXRSystemState_def.hpp"
@@ -107,7 +107,8 @@ inline bool GlobalNamespace::MockXRSystemState::get_hasHmdMounted() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockXRSystemState*>(), { "get_hasHmdMounted", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void GlobalNamespace::MockXRSystemState::AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks) {
+inline void GlobalNamespace::MockXRSystemState::AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener,
+                                                            /* [ParamArray] */ ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockXRSystemState*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLErrorException.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLErrorException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,13 @@ namespace OculusStudios::GraphQL::Client {
 class CORDL_TYPE GraphQLErrorException : public ::System::Object {
 public:
   // Declarations
+  /// @brief [JsonProperty("class")]
   __declspec(property(get = get_Class, put = set_Class)) ::StringW Class;
 
+  /// @brief [JsonProperty("message")]
   __declspec(property(get = get_Message, put = set_Message)) ::StringW Message;
 
+  /// @brief [JsonProperty("stack_trace")]
   __declspec(property(get = get_StackTrace, put = set_StackTrace)) ::System::Collections::Generic::List_1<::StringW>* StackTrace;
 
   /// @brief Field <Class>k__BackingField, offset 0x10, size 0x8
@@ -62,21 +65,27 @@ public:
   /// @brief Method .ctor, addr 0x5f21a58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Class, addr 0x5f21a28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Class();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Message, addr 0x5f21a38, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
+  /// [CompilerGenerated]
   /// @brief Method get_StackTrace, addr 0x5f21a48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_StackTrace();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Class, addr 0x5f21a30, size 0x8, virtual false, abstract: false, final false
   inline void set_Class(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Message, addr 0x5f21a40, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_StackTrace, addr 0x5f21a50, size 0x8, virtual false, abstract: false, final false
   inline void set_StackTrace(::System::Collections::Generic::List_1<::StringW>* value);
 
@@ -86,23 +95,26 @@ protected:
   constexpr GraphQLErrorException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLErrorException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLErrorException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLErrorException(GraphQLErrorException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLErrorException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLErrorException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLErrorException(GraphQLErrorException const&) = delete;
+  GraphQLErrorException(GraphQLErrorExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20385 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Class>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Class_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Message>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Message_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <StackTrace>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____StackTrace_k__BackingField;
 

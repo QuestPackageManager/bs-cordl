@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataNoArrowsTransform.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataNoArrowsTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ public:
   /// @brief Method CreateTransformedData, addr 0x37057f4, size 0xf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
+  /// [CompilerGenerated]
   /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x37058e8, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
@@ -37,13 +38,13 @@ protected:
   constexpr BeatmapDataNoArrowsTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataNoArrowsTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataNoArrowsTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataNoArrowsTransform(BeatmapDataNoArrowsTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataNoArrowsTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataNoArrowsTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataNoArrowsTransform(BeatmapDataNoArrowsTransform const&) = delete;
+  BeatmapDataNoArrowsTransform(BeatmapDataNoArrowsTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14800 };

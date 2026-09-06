@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputMetrics.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputMetrics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,69 +58,102 @@ public:
   /// @brief Method get_averageProcessingTimePerEvent, addr 0x65b6220, size 0x14, virtual false, abstract: false, final false
   inline double_t get_averageProcessingTimePerEvent();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_currentControlCount, addr 0x65b6198, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentControlCount();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_currentLayoutCount, addr 0x65b61a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentLayoutCount();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_currentNumDevices, addr 0x65b6168, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentNumDevices();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_currentStateSizeInBytes, addr 0x65b6188, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentStateSizeInBytes();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_maxNumDevices, addr 0x65b6158, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxNumDevices();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_maxStateSizeInBytes, addr 0x65b6178, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxStateSizeInBytes();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_totalEventBytes, addr 0x65b61b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalEventBytes();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_totalEventCount, addr 0x65b61c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalEventCount();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_totalEventLagTime, addr 0x65b61f8, size 0x8, virtual false, abstract: false, final false
   inline double_t get_totalEventLagTime();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_totalEventProcessingTime, addr 0x65b61e8, size 0x8, virtual false, abstract: false, final false
   inline double_t get_totalEventProcessingTime();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_totalUpdateCount, addr 0x65b61d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalUpdateCount();
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentControlCount, addr 0x65b61a0, size 0x8, virtual false, abstract: false, final false
   inline void set_currentControlCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentLayoutCount, addr 0x65b61b0, size 0x8, virtual false, abstract: false, final false
   inline void set_currentLayoutCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentNumDevices, addr 0x65b6170, size 0x8, virtual false, abstract: false, final false
   inline void set_currentNumDevices(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentStateSizeInBytes, addr 0x65b6190, size 0x8, virtual false, abstract: false, final false
   inline void set_currentStateSizeInBytes(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_maxNumDevices, addr 0x65b6160, size 0x8, virtual false, abstract: false, final false
   inline void set_maxNumDevices(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_maxStateSizeInBytes, addr 0x65b6180, size 0x8, virtual false, abstract: false, final false
   inline void set_maxStateSizeInBytes(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_totalEventBytes, addr 0x65b61c0, size 0x8, virtual false, abstract: false, final false
   inline void set_totalEventBytes(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_totalEventCount, addr 0x65b61d0, size 0x8, virtual false, abstract: false, final false
   inline void set_totalEventCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_totalEventLagTime, addr 0x65b6200, size 0x8, virtual false, abstract: false, final false
   inline void set_totalEventLagTime(double_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_totalEventProcessingTime, addr 0x65b61f0, size 0x8, virtual false, abstract: false, final false
   inline void set_totalEventProcessingTime(double_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_totalUpdateCount, addr 0x65b61e0, size 0x8, virtual false, abstract: false, final false
   inline void set_totalUpdateCount(int32_t value);
 
@@ -128,13 +161,14 @@ public:
   // @brief default ctor
   constexpr InputMetrics();
 
-  // Ctor Parameters [CppParam { name: "_maxNumDevices_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentNumDevices_k__BackingField", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_maxStateSizeInBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_currentStateSizeInBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentControlCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "_currentLayoutCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_totalEventBytes_k__BackingField", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_totalEventCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_totalUpdateCount_k__BackingField", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_totalEventProcessingTime_k__BackingField", ty: "double_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_totalEventLagTime_k__BackingField", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_maxNumDevices_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_currentNumDevices_k__BackingField", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_maxStateSizeInBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_currentStateSizeInBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_currentControlCount_k__BackingField", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_currentLayoutCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_totalEventBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_totalEventCount_k__BackingField", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_totalUpdateCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_totalEventProcessingTime_k__BackingField", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_totalEventLagTime_k__BackingField", ty: "double_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr InputMetrics(int32_t _maxNumDevices_k__BackingField, int32_t _currentNumDevices_k__BackingField, int32_t _maxStateSizeInBytes_k__BackingField,
                          int32_t _currentStateSizeInBytes_k__BackingField, int32_t _currentControlCount_k__BackingField, int32_t _currentLayoutCount_k__BackingField,
                          int32_t _totalEventBytes_k__BackingField, int32_t _totalEventCount_k__BackingField, int32_t _totalUpdateCount_k__BackingField,
@@ -146,36 +180,47 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [CompilerGenerated]
   /// @brief Field <maxNumDevices>k__BackingField, offset: 0x0, size: 0x4, def value: None
   int32_t _maxNumDevices_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentNumDevices>k__BackingField, offset: 0x4, size: 0x4, def value: None
   int32_t _currentNumDevices_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <maxStateSizeInBytes>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _maxStateSizeInBytes_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentStateSizeInBytes>k__BackingField, offset: 0xc, size: 0x4, def value: None
   int32_t _currentStateSizeInBytes_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentControlCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t _currentControlCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentLayoutCount>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t _currentLayoutCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <totalEventBytes>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t _totalEventBytes_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <totalEventCount>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t _totalEventCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <totalUpdateCount>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t _totalUpdateCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <totalEventProcessingTime>k__BackingField, offset: 0x28, size: 0x8, def value: None
   double_t _totalEventProcessingTime_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <totalEventLagTime>k__BackingField, offset: 0x30, size: 0x8, def value: None
   double_t _totalEventLagTime_k__BackingField;
 

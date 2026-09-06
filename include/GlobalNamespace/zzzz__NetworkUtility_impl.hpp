@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkUtility_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetworkUtility.Init

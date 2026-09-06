@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ParticleSystemEmitEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/ParticleSystemEmitEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -184,13 +184,13 @@ protected:
   constexpr ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior const&) = delete;
+  ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_ParticleSystemEmitBehaviorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5931 };
@@ -275,13 +275,13 @@ protected:
   constexpr ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior const&) = delete;
+  ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehaviorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5932 };
@@ -352,13 +352,13 @@ protected:
   constexpr ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior const&) = delete;
+  ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior(ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehaviorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5933 };
@@ -465,29 +465,35 @@ protected:
   constexpr ParticleSystemEmitEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemEmitEventEffect(ParticleSystemEmitEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEmitEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEmitEventEffect(ParticleSystemEmitEventEffect const&) = delete;
+  ParticleSystemEmitEventEffect(ParticleSystemEmitEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5934 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapEvent, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEvent;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _particleSystemParentTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____particleSystemParentTransform;
 
+  /// [SerializeField]
   /// @brief Field _particleSystemMaxSpawnedSystems, offset: 0x30, size: 0x4, def value: None
   int32_t ____particleSystemMaxSpawnedSystems;
 
+  /// [Inject]
   /// @brief Field _environmentContext, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentContext ____environmentContext;
 
+  /// [Inject]
   /// @brief Field _diContainer, offset: 0x38, size: 0x8, def value: None
   ::Zenject::DiContainer* ____diContainer;
 

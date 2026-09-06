@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Math.hpp"
+// IWYU pragma private; include "System/Math.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,27 +103,39 @@ public:
   /// @brief Method Max, addr 0x5c49bcc, size 0x1c, virtual false, abstract: false, final false
   static inline float_t Max(float_t val1, float_t val2);
 
+  /// [NonVersionable]
   /// @brief Method Max, addr 0x5c49b8c, size 0x14, virtual false, abstract: false, final false
   static inline int16_t Max(int16_t val1, int16_t val2);
 
+  /// [NonVersionable]
   /// @brief Method Max, addr 0x5c49ba0, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Max(int32_t val1, int32_t val2);
 
+  /// [NonVersionable]
   /// @brief Method Max, addr 0x5c49bac, size 0xc, virtual false, abstract: false, final false
   static inline int64_t Max(int64_t val1, int64_t val2);
 
+  /// [NonVersionable]
+  /// [CLSCompliant(false)]
   /// @brief Method Max, addr 0x5c49bb8, size 0x14, virtual false, abstract: false, final false
   static inline int8_t Max(int8_t val1, int8_t val2);
 
+  /// [NonVersionable]
+  /// [CLSCompliant(false)]
   /// @brief Method Max, addr 0x5c49be8, size 0x14, virtual false, abstract: false, final false
   static inline uint16_t Max(uint16_t val1, uint16_t val2);
 
+  /// [NonVersionable]
+  /// [CLSCompliant(false)]
   /// @brief Method Max, addr 0x5c49bfc, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Max(uint32_t val1, uint32_t val2);
 
+  /// [CLSCompliant(false)]
+  /// [NonVersionable]
   /// @brief Method Max, addr 0x5c49c08, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t Max(uint64_t val1, uint64_t val2);
 
+  /// [NonVersionable]
   /// @brief Method Max, addr 0x5c49ac0, size 0x14, virtual false, abstract: false, final false
   static inline uint8_t Max(uint8_t val1, uint8_t val2);
 
@@ -136,27 +148,39 @@ public:
   /// @brief Method Min, addr 0x5c49d20, size 0x1c, virtual false, abstract: false, final false
   static inline float_t Min(float_t val1, float_t val2);
 
+  /// [NonVersionable]
   /// @brief Method Min, addr 0x5c49ce0, size 0x14, virtual false, abstract: false, final false
   static inline int16_t Min(int16_t val1, int16_t val2);
 
+  /// [NonVersionable]
   /// @brief Method Min, addr 0x5c49cf4, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Min(int32_t val1, int32_t val2);
 
+  /// [NonVersionable]
   /// @brief Method Min, addr 0x5c49d00, size 0xc, virtual false, abstract: false, final false
   static inline int64_t Min(int64_t val1, int64_t val2);
 
+  /// [CLSCompliant(false)]
+  /// [NonVersionable]
   /// @brief Method Min, addr 0x5c49d0c, size 0x14, virtual false, abstract: false, final false
   static inline int8_t Min(int8_t val1, int8_t val2);
 
+  /// [CLSCompliant(false)]
+  /// [NonVersionable]
   /// @brief Method Min, addr 0x5c49d3c, size 0x14, virtual false, abstract: false, final false
   static inline uint16_t Min(uint16_t val1, uint16_t val2);
 
+  /// [CLSCompliant(false)]
+  /// [NonVersionable]
   /// @brief Method Min, addr 0x5c49d50, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Min(uint32_t val1, uint32_t val2);
 
+  /// [CLSCompliant(false)]
+  /// [NonVersionable]
   /// @brief Method Min, addr 0x5c49d5c, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t Min(uint64_t val1, uint64_t val2);
 
+  /// [NonVersionable]
   /// @brief Method Min, addr 0x5c49c14, size 0x14, virtual false, abstract: false, final false
   static inline uint8_t Min(uint8_t val1, uint8_t val2);
 
@@ -202,6 +226,7 @@ public:
   /// @brief Method Tanh, addr 0x5c4a3b0, size 0x4, virtual false, abstract: false, final false
   static inline double_t Tanh(double_t value);
 
+  /// [StackTraceHidden]
   /// @brief Method ThrowAbsOverflow, addr 0x5c49754, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowAbsOverflow();
 
@@ -228,13 +253,13 @@ protected:
   constexpr Math();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Math(Math&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Math(Math const&) = delete;
+  Math(Mathconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2439 };

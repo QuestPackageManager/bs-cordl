@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Background.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Background.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Background_def.hpp"
@@ -391,9 +391,9 @@ constexpr UnityEngine::UIElements::Background::operator ::System::IEquatable_1<:
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Background>* UnityEngine::UIElements::Background::i___System__IEquatable_1___UnityEngine__UIElements__Background_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Background>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Sprite", ty: "::UnityW<::UnityEngine::Sprite>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RenderTexture", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_VectorImage",
-// ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Sprite", ty:
+// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RenderTexture", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_VectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Background::Background(::UnityW<::UnityEngine::Texture2D> m_Texture, ::UnityW<::UnityEngine::Sprite> m_Sprite,
                                                             ::UnityW<::UnityEngine::RenderTexture> m_RenderTexture, ::UnityW<::UnityEngine::UIElements::VectorImage> m_VectorImage) noexcept {
   this->m_Texture = m_Texture;

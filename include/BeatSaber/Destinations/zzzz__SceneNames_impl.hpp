@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\SceneNames.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/SceneNames.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__SceneNames_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"

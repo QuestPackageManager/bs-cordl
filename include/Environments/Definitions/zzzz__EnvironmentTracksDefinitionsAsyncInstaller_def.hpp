@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Environments\Definitions\EnvironmentTracksDefinitionsAsyncInstaller.hpp"
+// IWYU pragma private; include "Environments/Definitions/EnvironmentTracksDefinitionsAsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class EnvironmentTracksDefinitionsAsyncInstaller;
 // Write type traits
 MARK_REF_T(::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*);
 DEFINE_IL2CPP_CLASS(::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*, "Environments.Definitions", "EnvironmentTracksDefinitionsAsyncInstaller");
+// [NullableContext(1)]
+// [Nullable(new[] { 0, 1 })]
 // Dependencies BGLib.AppFlow.Initialization.AddressablesAsyncInstaller`1<T>
 namespace Environments::Definitions {
 // Is value type: false
@@ -67,13 +69,13 @@ protected:
   constexpr EnvironmentTracksDefinitionsAsyncInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionsAsyncInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionsAsyncInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentTracksDefinitionsAsyncInstaller(EnvironmentTracksDefinitionsAsyncInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionsAsyncInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTracksDefinitionsAsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentTracksDefinitionsAsyncInstaller(EnvironmentTracksDefinitionsAsyncInstaller const&) = delete;
+  EnvironmentTracksDefinitionsAsyncInstaller(EnvironmentTracksDefinitionsAsyncInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22947 };

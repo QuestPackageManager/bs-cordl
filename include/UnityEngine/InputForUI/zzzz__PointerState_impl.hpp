@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\PointerState.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/PointerState.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerEvent_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -345,11 +345,12 @@ inline void UnityEngine::InputForUI::PointerState::Reset() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::PointerState>(), { "Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_LastPressedButton_k__BackingField", ty: "::UnityEngine::InputForUI::PointerEvent_Button", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_buttonsState", ty: "::UnityEngine::InputForUI::PointerEvent_ButtonsState", modifiers: "", def_value: Some("{}") }, CppParam { name: "_NextPressTime_k__BackingField", ty:
-// "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ClickCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_LastPosition_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "_LastDisplayIndex_k__BackingField", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_LastPositionValid_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_LastPressedButton_k__BackingField", ty: "::UnityEngine::InputForUI::PointerEvent_Button", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_buttonsState", ty: "::UnityEngine::InputForUI::PointerEvent_ButtonsState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_NextPressTime_k__BackingField", ty:
+// "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ClickCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_LastPosition_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_LastDisplayIndex_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_LastPositionValid_k__BackingField", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::PointerState::PointerState(::UnityEngine::InputForUI::PointerEvent_Button _LastPressedButton_k__BackingField,
                                                                 ::UnityEngine::InputForUI::PointerEvent_ButtonsState _buttonsState, ::Unity::IntegerTime::DiscreteTime _NextPressTime_k__BackingField,
                                                                 int32_t _ClickCount_k__BackingField, ::UnityEngine::Vector2 _LastPosition_k__BackingField, int32_t _LastDisplayIndex_k__BackingField,

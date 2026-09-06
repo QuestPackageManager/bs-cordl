@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LODGroupRenderingUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LODGroupRenderingUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODGroupRenderingUtils_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"

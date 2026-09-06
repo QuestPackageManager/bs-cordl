@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\SendHapticImpulseCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/SendHapticImpulseCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,8 +86,9 @@ public:
   // @brief default ctor
   constexpr SendHapticImpulseCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "channel", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "amplitude", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name: "channel", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "amplitude", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "duration", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr SendHapticImpulseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, int32_t channel, float_t amplitude, float_t duration) noexcept;
 
 private:

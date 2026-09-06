@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRView.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRView.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -54,11 +54,11 @@ inline ::UnityEngine::Vector2 UnityEngine::Experimental::Rendering::XRView::Comp
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRView>(), { "ComputeEyeCenterUV", {}, { ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, proj);
 }
-// Ctor Parameters [CppParam { name: "projMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "viewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "prevViewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "viewport", ty: "::UnityEngine::Rect",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "occlusionMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}") }, CppParam { name: "textureArraySlice", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "eyeCenterUV", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPrevViewMatrixValid",
-// ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "projMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewMatrix", ty: "::UnityEngine::Matrix4x4",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prevViewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "viewport", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occlusionMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "textureArraySlice", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "eyeCenterUV", ty:
+// "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isPrevViewMatrixValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Experimental::Rendering::XRView::XRView(::UnityEngine::Matrix4x4 projMatrix, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 prevViewMatrix,
                                                                  ::UnityEngine::Rect viewport, ::UnityW<::UnityEngine::Mesh> occlusionMesh, int32_t textureArraySlice,
                                                                  ::UnityEngine::Vector2 eyeCenterUV, bool isPrevViewMatrixValid) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerPlacementErrorCodeMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerPlacementErrorCodeMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class MultiplayerPlacementErrorCodeMethods;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerPlacementErrorCodeMethods*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerPlacementErrorCodeMethods*, "", "MultiplayerPlacementErrorCodeMethods");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -25,6 +26,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerPlacementErrorCodeMethods : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ToConnectionFailedReason, addr 0x32ae9ac, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode);
 
@@ -34,13 +36,13 @@ protected:
   constexpr MultiplayerPlacementErrorCodeMethods();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlacementErrorCodeMethods", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlacementErrorCodeMethods", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerPlacementErrorCodeMethods(MultiplayerPlacementErrorCodeMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlacementErrorCodeMethods", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlacementErrorCodeMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerPlacementErrorCodeMethods(MultiplayerPlacementErrorCodeMethods const&) = delete;
+  MultiplayerPlacementErrorCodeMethods(MultiplayerPlacementErrorCodeMethodsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18868 };

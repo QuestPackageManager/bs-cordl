@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\JPath.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/JPath.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__JPath_def.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
@@ -381,7 +381,7 @@ inline bool Newtonsoft::Json::Linq::JsonPath::JPath::ParsePath(::System::Collect
           { "ParsePath", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, filters, currentPartStartIndex, query);
 }
-inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* Newtonsoft::Json::Linq::JsonPath::JPath::CreatePathFilter(::StringW member, bool scan) {
+inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* Newtonsoft::Json::Linq::JsonPath::JPath::CreatePathFilter(/* [Nullable(2)] */ ::StringW member, bool scan) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::JPath*>(), { "CreatePathFilter", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>(nullptr, ___internal_method, member, scan);
@@ -405,7 +405,8 @@ inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* Newtonsoft::Json::Linq::J
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::JPath*>(), { "ParseQuery", {}, { ::i2c::type_of<char16_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>(this, ___internal_method, indexerCloseChar, scan);
 }
-inline bool Newtonsoft::Json::Linq::JsonPath::JPath::TryParseExpression(::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*> expressionPath) {
+inline bool Newtonsoft::Json::Linq::JsonPath::JPath::TryParseExpression(
+    /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*> expressionPath) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::JPath*>(),
                                               { "TryParseExpression", {}, { ::i2c::type_of<::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*>>() } })));
@@ -457,7 +458,8 @@ inline void Newtonsoft::Json::Linq::JsonPath::JPath::EnsureLength(::StringW mess
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
-Newtonsoft::Json::Linq::JsonPath::JPath::Evaluate(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+Newtonsoft::Json::Linq::JsonPath::JPath::Evaluate(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t,
+                                                  /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::JPath*>(),
                                                                                          { "Evaluate",
                                                                                            {},
@@ -467,7 +469,7 @@ Newtonsoft::Json::Linq::JsonPath::JPath::Evaluate(::Newtonsoft::Json::Linq::JTok
 }
 inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
 Newtonsoft::Json::Linq::JsonPath::JPath::Evaluate(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* filters, ::Newtonsoft::Json::Linq::JToken* root,
-                                                  ::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+                                                  ::Newtonsoft::Json::Linq::JToken* t, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::JPath*>(),
                                                                                          { "Evaluate",
                                                                                            {},

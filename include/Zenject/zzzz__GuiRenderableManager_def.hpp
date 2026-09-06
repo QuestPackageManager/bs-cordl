@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\GuiRenderableManager.hpp"
+// IWYU pragma private; include "Zenject/GuiRenderableManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,6 +89,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e912f8, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e913ec, size 0x2c8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -101,13 +102,13 @@ protected:
   constexpr GuiRenderableManager_RenderableInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager_RenderableInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager_RenderableInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuiRenderableManager_RenderableInfo(GuiRenderableManager_RenderableInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager_RenderableInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager_RenderableInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GuiRenderableManager_RenderableInfo(GuiRenderableManager_RenderableInfo const&) = delete;
+  GuiRenderableManager_RenderableInfo(GuiRenderableManager_RenderableInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14666 };
@@ -128,6 +129,7 @@ static_assert(offsetof(::Zenject::GuiRenderableManager_RenderableInfo, ___Priori
 static_assert(sizeof(::Zenject::GuiRenderableManager_RenderableInfo) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -155,6 +157,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e91734, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e91778, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -179,13 +182,13 @@ protected:
   constexpr GuiRenderableManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuiRenderableManager___c(GuiRenderableManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GuiRenderableManager___c(GuiRenderableManager___c const&) = delete;
+  GuiRenderableManager___c(GuiRenderableManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14667 };
@@ -196,6 +199,7 @@ public:
 static_assert(sizeof(::Zenject::GuiRenderableManager___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -220,6 +224,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9199c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e919e0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -232,13 +237,13 @@ protected:
   constexpr GuiRenderableManager___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuiRenderableManager___c__DisplayClass1_0(GuiRenderableManager___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GuiRenderableManager___c__DisplayClass1_0(GuiRenderableManager___c__DisplayClass1_0 const&) = delete;
+  GuiRenderableManager___c__DisplayClass1_0(GuiRenderableManager___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14668 };
@@ -271,8 +276,9 @@ public:
   __declspec(property(get = __cordl_internal_get__renderables,
                       put = __cordl_internal_set__renderables)) ::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager_RenderableInfo*>* _renderables;
 
-  static inline ::Zenject::GuiRenderableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
-                                                          ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
+  static inline ::Zenject::GuiRenderableManager*
+  New_ctor(/* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
+           /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
   /// @brief Method OnGui, addr 0x6e90c34, size 0x2c0, virtual false, abstract: false, final false
   inline void OnGui();
@@ -286,12 +292,13 @@ public:
   /// @brief Method __zenCreate, addr 0x6e90ef4, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e91018, size 0x2e0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x6e906f8, size 0x52c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
-                    ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
+  inline void _ctor(/* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
+                    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
 protected:
   // Ctor Parameters []
@@ -299,13 +306,13 @@ protected:
   constexpr GuiRenderableManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuiRenderableManager(GuiRenderableManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderableManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GuiRenderableManager(GuiRenderableManager const&) = delete;
+  GuiRenderableManager(GuiRenderableManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14669 };

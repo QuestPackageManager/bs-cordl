@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DTSubString.hpp"
+// IWYU pragma private; include "System/DTSubString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,9 @@ struct DTSubString;
 // Write type traits
 MARK_VAL_T(::System::DTSubString);
 DEFINE_IL2CPP_CLASS(::System::DTSubString, "System", "DTSubString");
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
+// [IsByRefLike]
+// [DefaultMember("Item")]
 // Dependencies System.DTSubStringType, System.ReadOnlySpan`1<T>
 namespace System {
 // Is value type: true
@@ -31,9 +34,9 @@ public:
   // @brief default ctor
   constexpr DTSubString();
 
-  // Ctor Parameters [CppParam { name: "s", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::System::DTSubStringType", modifiers: "", def_value: None }, CppParam { name: "value",
-  // ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "s", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty: "::System::DTSubStringType", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DTSubString(::System::ReadOnlySpan_1<char16_t> s, int32_t index, int32_t length, ::System::DTSubStringType type, int32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

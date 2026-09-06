@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,9 @@ class MainEffectController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MainEffectController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MainEffectController*, "", "MainEffectController");
+// [ImageEffectAllowedInSceneView]
+// [RequireComponent(typeof(UnityEngine.Camera))]
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -83,6 +86,7 @@ public:
   /// @brief Method .ctor, addr 0x5f43074, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_afterImageEffectEvent, addr 0x5f42e9c, size 0xc0, virtual false, abstract: false, final false
   inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
@@ -95,6 +99,7 @@ public:
   /// @brief Method get_renderData, addr 0x5f42e94, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MainEffectRenderData* get_renderData();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_afterImageEffectEvent, addr 0x5f42f5c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
@@ -104,26 +109,29 @@ protected:
   constexpr MainEffectController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectController(MainEffectController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectController(MainEffectController const&) = delete;
+  MainEffectController(MainEffectControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20633 };
 
+  /// [SerializeField]
   /// @brief Field _mainEffectContainer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectContainerSO> ____mainEffectContainer;
 
+  /// [SerializeField]
   /// @brief Field _fadeValue, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FloatSO> ____fadeValue;
 
   /// @brief Field _mainEffectRenderData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::MainEffectRenderData* ____mainEffectRenderData;
 
+  /// [CompilerGenerated]
   /// @brief Field afterImageEffectEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* ___afterImageEffectEvent;
 

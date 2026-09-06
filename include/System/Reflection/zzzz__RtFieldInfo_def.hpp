@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\RtFieldInfo.hpp"
+// IWYU pragma private; include "System/Reflection/RtFieldInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +31,15 @@ namespace System::Reflection {
 class CORDL_TYPE RtFieldInfo : public ::System::Reflection::FieldInfo {
 public:
   // Declarations
-  /// @brief Method CheckConsistency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CheckConsistency(::System::Object* target);
 
   static inline ::System::Reflection::RtFieldInfo* New_ctor();
 
-  /// @brief Method UnsafeGetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnsafeGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* UnsafeGetValue(::System::Object* obj);
 
-  /// @brief Method UnsafeSetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnsafeSetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnsafeSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                              ::System::Globalization::CultureInfo* culture);
 
@@ -52,13 +52,13 @@ protected:
   constexpr RtFieldInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RtFieldInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RtFieldInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RtFieldInfo(RtFieldInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RtFieldInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RtFieldInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RtFieldInfo(RtFieldInfo const&) = delete;
+  RtFieldInfo(RtFieldInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3547 };

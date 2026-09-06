@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\FontReference.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/FontReference.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__FontReference_def.hpp"
-// Ctor Parameters [CppParam { name: "familyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "filePath", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "familyName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "filePath", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::LowLevel::FontReference::FontReference(::StringW familyName, ::StringW styleName, int32_t faceIndex, ::StringW filePath) noexcept {
   this->familyName = familyName;
   this->styleName = styleName;

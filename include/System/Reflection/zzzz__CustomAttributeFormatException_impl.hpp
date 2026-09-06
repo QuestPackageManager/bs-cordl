@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\CustomAttributeFormatException.hpp"
+// IWYU pragma private; include "System/Reflection/CustomAttributeFormatException.hpp"
 #include "System/zzzz__FormatException_impl.hpp"
 #include "System/Reflection/zzzz__CustomAttributeFormatException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

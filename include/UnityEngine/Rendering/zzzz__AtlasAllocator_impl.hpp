@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AtlasAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AtlasAllocator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AtlasAllocator_def.hpp"

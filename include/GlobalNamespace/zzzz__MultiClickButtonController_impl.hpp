@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiClickButtonController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiClickButtonController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiClickButtonController_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"

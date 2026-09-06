@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Profiling\Sampler.hpp"
+// IWYU pragma private; include "UnityEngine/Profiling/Sampler.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Profiling/zzzz__Sampler_def.hpp"

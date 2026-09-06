@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XPath\XPathItem.hpp"
+// IWYU pragma private; include "System/Xml/XPath/XPathItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,37 +60,37 @@ public:
   /// @brief Method ValueAs, addr 0x62e8630, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* returnType);
 
-  /// @brief Method ValueAs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ValueAs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   /// @brief Method .ctor, addr 0x62e8644, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypedValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_Value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_ValueAsBoolean, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsBoolean, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ValueAsBoolean();
 
-  /// @brief Method get_ValueAsDateTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDateTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::DateTime get_ValueAsDateTime();
 
-  /// @brief Method get_ValueAsDouble, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDouble, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline double_t get_ValueAsDouble();
 
-  /// @brief Method get_ValueAsInt, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsInt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ValueAsInt();
 
-  /// @brief Method get_ValueAsLong, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsLong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method get_ValueType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_XmlType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
 
 protected:
@@ -99,13 +99,13 @@ protected:
   constexpr XPathItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XPathItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XPathItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XPathItem(XPathItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XPathItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XPathItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XPathItem(XPathItem const&) = delete;
+  XPathItem(XPathItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9470 };

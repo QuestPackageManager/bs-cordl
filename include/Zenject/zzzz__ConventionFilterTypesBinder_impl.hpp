@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConventionFilterTypesBinder.hpp"
+// IWYU pragma private; include "Zenject/ConventionFilterTypesBinder.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ConventionAssemblySelectionBinder_impl.hpp"
 #include "Zenject/zzzz__ConventionFilterTypesBinder_def.hpp"
@@ -834,42 +835,60 @@ inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass8_0* Zenject::Con
 }
 // Ctor Parameters []
 constexpr ::Zenject::ConventionFilterTypesBinder___c__DisplayClass8_0::ConventionFilterTypesBinder___c__DisplayClass8_0() {}
-template <typename T> constexpr ::System::Func_2<T, bool>*& Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__cordl_internal_get_predicate() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+constexpr ::System::Func_2<T, bool>*& Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__cordl_internal_get_predicate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
-template <typename T> constexpr ::System::Func_2<T, bool>* const& Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__cordl_internal_get_predicate() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+constexpr ::System::Func_2<T, bool>* const& Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__cordl_internal_get_predicate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___predicate;
 }
-template <typename T> constexpr void Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__cordl_internal_set_predicate(::System::Func_2<T, bool>* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+constexpr void Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__cordl_internal_set_predicate(::System::Func_2<T, bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___predicate = value;
 }
-template <typename T> inline void Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline void Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline bool Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::_WithAttributeWhere_b__0(::System::Type* t) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline bool Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::_WithAttributeWhere_b__0(::System::Type* t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>*>(),
                                                                                          { "<WithAttributeWhere>b__0", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, t);
 }
-template <typename T> inline ::System::Object* Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__zenCreate(::ArrayW<::System::Object*> P_0) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::System::Object* Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__zenCreate(::ArrayW<::System::Object*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>*>(),
                                                                                          { "__zenCreate", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, P_0);
 }
-template <typename T> inline ::Zenject::InjectTypeInfo* Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__zenCreateInjectTypeInfo() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::Zenject::InjectTypeInfo* Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-template <typename T> inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>* Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>* Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::ConventionFilterTypesBinder___c__DisplayClass9_0_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+constexpr ::Zenject::ConventionFilterTypesBinder___c__DisplayClass9_0_1<T>::ConventionFilterTypesBinder___c__DisplayClass9_0_1() {}
 //  Writing Method size for method: ::Zenject::ConventionFilterTypesBinder._ctor
 template <>
 
@@ -1108,7 +1127,9 @@ inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder*>(), { "DerivingFrom", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConventionFilterTypesBinder*>(this, ___internal_method, parentType);
 }
-template <typename T> inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBinder::WithAttribute() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBinder::WithAttribute() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder*>(), { "WithAttribute", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1119,7 +1140,9 @@ inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder*>(), { "WithAttribute", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConventionFilterTypesBinder*>(this, ___internal_method, attribute);
 }
-template <typename T> inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBinder::WithoutAttribute() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBinder::WithoutAttribute() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder*>(), { "WithoutAttribute", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1130,7 +1153,9 @@ inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder*>(), { "WithoutAttribute", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConventionFilterTypesBinder*>(this, ___internal_method, attribute);
 }
-template <typename T> inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBinder::WithAttributeWhere(::System::Func_2<T, bool>* predicate) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBinder::WithAttributeWhere(::System::Func_2<T, bool>* predicate) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder*>(),
                                                                                               { "WithAttributeWhere", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Func_2<T, bool>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1146,7 +1171,7 @@ inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder*>(), { "InNamespace", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConventionFilterTypesBinder*>(this, ___internal_method, ns);
 }
-inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBinder::InNamespaces(::ArrayW<::StringW> namespaces) {
+inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionFilterTypesBinder::InNamespaces(/* [ParamArray] */ ::ArrayW<::StringW> namespaces) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConventionFilterTypesBinder*>(), { "InNamespaces", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConventionFilterTypesBinder*>(this, ___internal_method, namespaces);

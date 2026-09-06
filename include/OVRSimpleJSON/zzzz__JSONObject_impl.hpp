@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVRSimpleJSON\JSONObject.hpp"
+// IWYU pragma private; include "OVRSimpleJSON/JSONObject.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -296,6 +296,7 @@ inline ::System::Collections::IEnumerator* OVRSimpleJSON::JSONObject__get_Childr
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONObject__get_Children_d__27*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::OVRSimpleJSON::JSONObject__get_Children_d__27* OVRSimpleJSON::JSONObject__get_Children_d__27::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OVRSimpleJSON::JSONObject__get_Children_d__27*>(__1__state));
 }

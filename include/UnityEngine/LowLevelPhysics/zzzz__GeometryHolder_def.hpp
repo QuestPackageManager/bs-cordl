@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LowLevelPhysics\GeometryHolder.hpp"
+// IWYU pragma private; include "UnityEngine/LowLevelPhysics/GeometryHolder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/LowLevelPhysics/zzzz__IGeometry_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GeometryHolder)
@@ -22,6 +23,8 @@ MARK_VAL_T(::UnityEngine::LowLevelPhysics::GeometryHolder);
 MARK_VAL_T(::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LowLevelPhysics::GeometryHolder, "UnityEngine.LowLevelPhysics", "GeometryHolder");
 DEFINE_IL2CPP_CLASS(::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer, "UnityEngine.LowLevelPhysics", "GeometryHolder/<m_Blob>e__FixedBuffer");
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::LowLevelPhysics {
 // Is value type: true
@@ -34,7 +37,7 @@ public:
   // @brief default ctor
   constexpr GeometryHolder__m_Blob_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GeometryHolder__m_Blob_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -58,7 +61,7 @@ static_assert(offsetof(::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e_
 static_assert(sizeof(::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::LowLevelPhysics
-// Dependencies System.IntPtr, UnityEngine.LowLevelPhysics.GeometryHolder::<m_Blob>e__FixedBuffer
+// Dependencies System.IntPtr, UnityEngine.LowLevelPhysics.GeometryHolder::<m_Blob>e__FixedBuffer, UnityEngine.LowLevelPhysics.IGeometry
 namespace UnityEngine::LowLevelPhysics {
 // Is value type: true
 // CS Name: UnityEngine.LowLevelPhysics.GeometryHolder
@@ -68,15 +71,17 @@ public:
   using _m_Blob_e__FixedBuffer = ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer;
 
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T As();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::LowLevelPhysics::IGeometry*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T As();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GeometryHolder();
 
-  // Ctor Parameters [CppParam { name: "m_Type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_DataStart", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_FakePointer0", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_FakePointer1", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_Blob",
-  // ty: "::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Type", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DataStart", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_FakePointer0", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FakePointer1", ty: "::System::IntPtr", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_Blob", ty: "::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr GeometryHolder(int32_t m_Type, uint32_t m_DataStart, ::System::IntPtr m_FakePointer0, ::System::IntPtr m_FakePointer1,
                            ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer m_Blob) noexcept;
 
@@ -98,6 +103,7 @@ public:
   /// @brief Field m_FakePointer1, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr m_FakePointer1;
 
+  /// [FixedBuffer(typeof(System.UInt32), 6)]
   /// @brief Field m_Blob, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer m_Blob;
 

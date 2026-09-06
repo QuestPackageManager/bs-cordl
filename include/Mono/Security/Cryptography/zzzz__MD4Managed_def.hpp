@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Cryptography\MD4Managed.hpp"
+// IWYU pragma private; include "Mono/Security/Cryptography/MD4Managed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,13 +119,13 @@ protected:
   constexpr MD4Managed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MD4Managed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MD4Managed", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MD4Managed(MD4Managed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MD4Managed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MD4Managed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MD4Managed(MD4Managed const&) = delete;
+  MD4Managed(MD4Managedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2280 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\IGraphQLClientEvents.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/IGraphQLClientEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,33 +25,33 @@ namespace OculusStudios::GraphQL::ClientInterface {
 class CORDL_TYPE IGraphQLClientEvents {
 public:
   // Declarations
-  /// @brief Method LogError, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::System::Exception* exception);
 
-  /// @brief Method LogError, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::StringW message);
 
-  /// @brief Method LogInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogInfo(::System::Exception* exception);
 
-  /// @brief Method LogInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogVerbose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogVerbose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogVerbose(::StringW message);
 
-  /// @brief Method LogWarning, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogWarning(::StringW message);
 
-  /// @brief Method OnRequestFailed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnRequestFailed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnRequestFailed(::OculusStudios::GraphQL::ClientInterface::Request* request);
 
-  /// @brief Method OnRequestSucceeded, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnRequestSucceeded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnRequestSucceeded(::OculusStudios::GraphQL::ClientInterface::Request* request);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IGraphQLClientEvents", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IGraphQLClientEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGraphQLClientEvents(IGraphQLClientEvents const&) = delete;
+  IGraphQLClientEvents(IGraphQLClientEventsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22876 };

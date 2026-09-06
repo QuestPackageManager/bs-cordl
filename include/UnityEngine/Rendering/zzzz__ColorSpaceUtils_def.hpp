@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ColorSpaceUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ColorSpaceUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,13 +61,13 @@ protected:
   constexpr ColorSpaceUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSpaceUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSpaceUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSpaceUtils(ColorSpaceUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSpaceUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSpaceUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSpaceUtils(ColorSpaceUtils const&) = delete;
+  ColorSpaceUtils(ColorSpaceUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12271 };

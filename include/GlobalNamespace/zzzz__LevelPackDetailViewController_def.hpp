@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelPackDetailViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelPackDetailViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,7 +116,7 @@ public:
   // @brief default ctor
   constexpr LevelPackDetailViewController_ContentType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LevelPackDetailViewController_ContentType(int32_t value__) noexcept;
 
   /// @brief Field Buyable value: I32(2)
@@ -148,6 +148,7 @@ static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController_ContentT
 static_assert(sizeof(::GlobalNamespace::LevelPackDetailViewController_ContentType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -161,6 +162,7 @@ public:
   /// @brief Method MoveNext, addr 0x59551b8, size 0x3b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5955568, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -171,9 +173,10 @@ public:
   // @brief default ctor
   constexpr LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__28();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelPackDetailViewController>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::LevelPackDetailViewController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None, comment: None }]
   constexpr LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                 ::UnityW<::GlobalNamespace::LevelPackDetailViewController> __4__this,
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept;
@@ -210,6 +213,7 @@ static_assert(offsetof(::GlobalNamespace::LevelPackDetailViewController__OpenLev
 static_assert(sizeof(::GlobalNamespace::LevelPackDetailViewController__OpenLevelPackProductStoreAsync_d__28) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -223,6 +227,7 @@ public:
   /// @brief Method MoveNext, addr 0x5955570, size 0x87c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5955dec, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -233,11 +238,12 @@ public:
   // @brief default ctor
   constexpr LevelPackDetailViewController__RefreshAvailabilityAsync_d__26();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelPackDetailViewController>",
-  // modifiers: "", def_value: None }, CppParam { name: "_cancellationTokenSource_5__2", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }, CppParam { name:
-  // "_timeoutTokenSource_5__3", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::LevelPackDetailViewController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cancellationTokenSource_5__2", ty:
+  // "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeoutTokenSource_5__3", ty: "::System::Threading::CancellationTokenSource*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr LevelPackDetailViewController__RefreshAvailabilityAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                           ::UnityW<::GlobalNamespace::LevelPackDetailViewController> __4__this,
                                                                           ::System::Threading::CancellationTokenSource* _cancellationTokenSource_5__2,
@@ -370,9 +376,11 @@ public:
   /// @brief Method OnDestroy, addr 0x5954b44, size 0x178, virtual true, abstract: false, final false
   inline void OnDestroy();
 
+  /// [AsyncStateMachine(typeof(LevelPackDetailViewController::<OpenLevelPackProductStoreAsync>d__28))]
   /// @brief Method OpenLevelPackProductStoreAsync, addr 0x5954d58, size 0xa4, virtual false, abstract: false, final false
   inline void OpenLevelPackProductStoreAsync();
 
+  /// [AsyncStateMachine(typeof(LevelPackDetailViewController::<RefreshAvailabilityAsync>d__26))]
   /// @brief Method RefreshAvailabilityAsync, addr 0x59546ec, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync();
 
@@ -382,12 +390,15 @@ public:
   /// @brief Method ShowContent, addr 0x5954dfc, size 0x234, virtual false, abstract: false, final false
   inline void ShowContent(::GlobalNamespace::LevelPackDetailViewController_ContentType contentType, ::StringW errorText);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__23_1, addr 0x5955098, size 0x90, virtual false, abstract: false, final false
   inline void _DidActivate_b__23_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__23_2, addr 0x5955128, size 0x90, virtual false, abstract: false, final false
   inline void _DidActivate_b__23_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|23_0, addr 0x5955094, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_g__HandleDidPressRefreshButton_23_0();
 
@@ -508,13 +519,13 @@ protected:
   constexpr LevelPackDetailViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelPackDetailViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelPackDetailViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelPackDetailViewController(LevelPackDetailViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelPackDetailViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelPackDetailViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelPackDetailViewController(LevelPackDetailViewController const&) = delete;
+  LevelPackDetailViewController(LevelPackDetailViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6938 };
@@ -528,42 +539,57 @@ public:
   /// @brief Field kStatusErrorGettingDataLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kStatusErrorGettingDataLocalizationKey{ u"STATUS_ERROR_GETTING_DATA" };
 
+  /// [SerializeField]
   /// @brief Field _detailWrapper, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____detailWrapper;
 
+  /// [SerializeField]
   /// @brief Field _packImage, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____packImage;
 
+  /// [SerializeField]
   /// @brief Field _buyButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____buyButton;
 
+  /// [SerializeField]
   /// @brief Field _buyContainer, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____buyContainer;
 
+  /// [SerializeField]
   /// @brief Field _loadingControl, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____loadingControl;
 
+  /// [SerializeField]
   /// @brief Field _requireInternetContainer, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____requireInternetContainer;
 
+  /// [SerializeField]
   /// @brief Field _steamMessageGameObject, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____steamMessageGameObject;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _kawaseBlurRenderer, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> ____kawaseBlurRenderer;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _defaultCoverSprite, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____defaultCoverSprite;
 
+  /// [Inject]
   /// @brief Field _additionalContentModel, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
+  /// [Inject]
   /// @brief Field _entitlementModel, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
+  /// [Inject]
   /// @brief Field _dlcPromoPanelModel, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel* ____dlcPromoPanelModel;
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0xd8, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 

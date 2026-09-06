@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Buffers\MemoryHandle.hpp"
+// IWYU pragma private; include "System/Buffers/MemoryHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ namespace System::Buffers {
 struct CORDL_TYPE MemoryHandle {
 public:
   // Declarations
+  /// @brief [CLSCompliant(false)]
   __declspec(property(get = get_Pointer)) void* Pointer;
 
   /// @brief Convert operator to "::System::IDisposable"
@@ -37,6 +38,7 @@ public:
   /// @brief Method Dispose, addr 0x5bf3f08, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5bf3ef4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* pointer, ::System::Runtime::InteropServices::GCHandle handle, ::System::Buffers::IPinnable* pinnable);
 
@@ -50,8 +52,8 @@ public:
   // @brief default ctor
   constexpr MemoryHandle();
 
-  // Ctor Parameters [CppParam { name: "_pointer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "",
-  // def_value: None }, CppParam { name: "_pinnable", ty: "::System::Buffers::IPinnable*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_pointer", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_pinnable", ty: "::System::Buffers::IPinnable*", modifiers: "", def_value: None, comment: None }]
   constexpr MemoryHandle(void* _pointer, ::System::Runtime::InteropServices::GCHandle _handle, ::System::Buffers::IPinnable* _pinnable) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SchemaCollectionPreprocessor.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SchemaCollectionPreprocessor.hpp"
 #include "System/Xml/Schema/zzzz__BaseProcessor_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDerivationMethod_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaForm_impl.hpp"
@@ -28,7 +28,7 @@
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__XmlResolver_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::SchemaCollectionPreprocessor_Compositor::SchemaCollectionPreprocessor_Compositor(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectLoadingIndicatorPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectLoadingIndicatorPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace GlobalNamespace {
 class MainEffectLoadingIndicatorPass___c;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -119,13 +121,13 @@ protected:
   constexpr MainEffectLoadingIndicatorPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectLoadingIndicatorPass_PassData(MainEffectLoadingIndicatorPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectLoadingIndicatorPass_PassData(MainEffectLoadingIndicatorPass_PassData const&) = delete;
+  MainEffectLoadingIndicatorPass_PassData(MainEffectLoadingIndicatorPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20643 };
@@ -161,6 +163,7 @@ static_assert(offsetof(::GlobalNamespace::MainEffectLoadingIndicatorPass_PassDat
 static_assert(sizeof(::GlobalNamespace::MainEffectLoadingIndicatorPass_PassData) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -201,13 +204,13 @@ protected:
   constexpr MainEffectLoadingIndicatorPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectLoadingIndicatorPass___c(MainEffectLoadingIndicatorPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectLoadingIndicatorPass___c(MainEffectLoadingIndicatorPass___c const&) = delete;
+  MainEffectLoadingIndicatorPass___c(MainEffectLoadingIndicatorPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20644 };
@@ -286,6 +289,7 @@ public:
 
   static inline int32_t getStaticF_kUpWSId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_secSinceShown, addr 0x5f450bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_secSinceShown();
 
@@ -299,6 +303,7 @@ public:
 
   static inline void setStaticF_kUpWSId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_secSinceShown, addr 0x5f450c4, size 0x8, virtual false, abstract: false, final false
   inline void set_secSinceShown(float_t value);
 
@@ -308,13 +313,13 @@ protected:
   constexpr MainEffectLoadingIndicatorPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectLoadingIndicatorPass(MainEffectLoadingIndicatorPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectLoadingIndicatorPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectLoadingIndicatorPass(MainEffectLoadingIndicatorPass const&) = delete;
+  MainEffectLoadingIndicatorPass(MainEffectLoadingIndicatorPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20645 };
@@ -337,6 +342,7 @@ public:
   /// @brief Field _spinnerMaterial, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____spinnerMaterial;
 
+  /// [CompilerGenerated]
   /// @brief Field <secSinceShown>k__BackingField, offset: 0xc0, size: 0x4, def value: None
   float_t ____secSinceShown_k__BackingField;
 

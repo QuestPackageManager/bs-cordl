@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\Observable.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Observable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Observable)
 namespace System::Collections::Generic {
@@ -42,6 +43,7 @@ MARK_REF_T(::UnityEngine::InputSystem::Utilities::Observable*);
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::Utilities::Observable___c__DisplayClass6_0_1);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::Observable*, "UnityEngine.InputSystem.Utilities", "Observable");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::Utilities::Observable___c__DisplayClass6_0_1, "UnityEngine.InputSystem.Utilities", "Observable/<>c__DisplayClass6_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
@@ -74,13 +76,13 @@ protected:
   constexpr Observable___c__DisplayClass6_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Observable___c__DisplayClass6_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Observable___c__DisplayClass6_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Observable___c__DisplayClass6_0_1(Observable___c__DisplayClass6_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Observable___c__DisplayClass6_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Observable___c__DisplayClass6_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Observable___c__DisplayClass6_0_1(Observable___c__DisplayClass6_0_1 const&) = delete;
+  Observable___c__DisplayClass6_0_1(Observable___c__DisplayClass6_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9181 };
@@ -92,7 +94,8 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, UnityEngine.InputSystem.InputDevice
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Utilities.Observable
@@ -101,30 +104,39 @@ public:
   // Declarations
   template <typename TValue> using __c__DisplayClass6_0_1 = ::UnityEngine::InputSystem::Utilities::Observable___c__DisplayClass6_0_1<TValue>;
 
+  /// [Extension]
   /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IDisposable* Call(::System::IObservable_1<TValue>* source, ::System::Action_1<TValue>* action);
 
+  /// [Extension]
   /// @brief Method CallOnce, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IDisposable* CallOnce(::System::IObservable_1<TValue>* source, ::System::Action_1<TValue>* action);
 
+  /// [Extension]
   /// @brief Method ForDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice>
+    requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source);
 
+  /// [Extension]
   /// @brief Method ForDevice, addr 0x65070fc, size 0xac, virtual false, abstract: false, final false
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                                         ::UnityEngine::InputSystem::InputDevice* device);
 
+  /// [Extension]
   /// @brief Method Select, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TResult> static inline ::System::IObservable_1<TResult>* Select(::System::IObservable_1<TSource>* source, ::System::Func_2<TSource, TResult>* filter);
 
+  /// [Extension]
   /// @brief Method SelectMany, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TResult>
   static inline ::System::IObservable_1<TResult>* SelectMany(::System::IObservable_1<TSource>* source, ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* filter);
 
+  /// [Extension]
   /// @brief Method Take, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IObservable_1<TValue>* Take(::System::IObservable_1<TValue>* source, int32_t count);
 
+  /// [Extension]
   /// @brief Method Where, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IObservable_1<TValue>* Where(::System::IObservable_1<TValue>* source, ::System::Func_2<TValue, bool>* predicate);
 
@@ -134,13 +146,13 @@ protected:
   constexpr Observable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Observable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Observable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Observable(Observable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Observable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Observable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Observable(Observable const&) = delete;
+  Observable(Observableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9182 };

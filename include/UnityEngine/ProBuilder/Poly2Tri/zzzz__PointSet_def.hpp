@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\PointSet.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/PointSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,9 +90,11 @@ public:
   /// @brief Method .ctor, addr 0x66b16f8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Points, addr 0x66b1af4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* get_Points();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Triangles, addr 0x66b1b04, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
 
@@ -102,9 +104,11 @@ public:
   /// @brief Convert to "::UnityEngine::ProBuilder::Poly2Tri::Triangulatable"
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* i___UnityEngine__ProBuilder__Poly2Tri__Triangulatable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Points, addr 0x66b1afc, size 0x8, virtual false, abstract: false, final false
   inline void set_Points(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Triangles, addr 0x66b1b0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Triangles(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
 
@@ -114,20 +118,22 @@ protected:
   constexpr PointSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointSet(PointSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointSet(PointSet const&) = delete;
+  PointSet(PointSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21775 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Points>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* ____Points_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Triangles>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* ____Triangles_k__BackingField;
 

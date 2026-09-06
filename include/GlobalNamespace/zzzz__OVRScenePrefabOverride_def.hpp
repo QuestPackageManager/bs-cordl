@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRScenePrefabOverride.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRScenePrefabOverride.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ class OVRScenePrefabOverride;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRScenePrefabOverride*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRScenePrefabOverride*, "", "OVRScenePrefabOverride");
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-scene-use-scene-anchors/")]
+// [Obsolete("OVRSceneManager and associated classes are deprecated (v65), please use MR Utility Kit instead (https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview)")]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -53,6 +55,7 @@ public:
   /// @brief Method UpdateEditorClassificationIndex, addr 0x5ecded4, size 0x170, virtual false, abstract: false, final false
   inline void UpdateEditorClassificationIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method <UpdateEditorClassificationIndex>g__IndexOf|5_0, addr 0x5ece044, size 0x2cc, virtual false, abstract: false, final false
   static inline int32_t _UpdateEditorClassificationIndex_g__IndexOf_5_0(::StringW label, ::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
 
@@ -86,23 +89,27 @@ protected:
   constexpr OVRScenePrefabOverride();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePrefabOverride", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePrefabOverride", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRScenePrefabOverride(OVRScenePrefabOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePrefabOverride", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePrefabOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRScenePrefabOverride(OVRScenePrefabOverride const&) = delete;
+  OVRScenePrefabOverride(OVRScenePrefabOverrideconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7691 };
 
+  /// [FormerlySerializedAs("prefab")]
   /// @brief Field Prefab, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSceneAnchor> ___Prefab;
 
+  /// [FormerlySerializedAs("classificationLabel")]
   /// @brief Field ClassificationLabel, offset: 0x18, size: 0x8, def value: None
   ::StringW ___ClassificationLabel;
 
+  /// [FormerlySerializedAs("editorClassificationIndex")]
+  /// [SerializeField]
   /// @brief Field _editorClassificationIndex, offset: 0x20, size: 0x4, def value: None
   int32_t ____editorClassificationIndex;
 

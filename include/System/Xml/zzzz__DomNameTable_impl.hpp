@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\DomNameTable.hpp"
+// IWYU pragma private; include "System/Xml/DomNameTable.hpp"
 #include "System/Xml/zzzz__XmlName_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__DomNameTable_def.hpp"

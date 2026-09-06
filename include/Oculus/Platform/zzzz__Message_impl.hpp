@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Message.hpp"
+// IWYU pragma private; include "Oculus/Platform/Message.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
@@ -152,7 +152,7 @@ inline ::Oculus::Platform::Message_Callback* Oculus::Platform::Message_Callback:
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Message_Callback::Message_Callback() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::Message_MessageType::Message_MessageType(uint32_t value__) noexcept {
   this->value__ = value__;
 }

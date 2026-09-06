@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Jobs\TransformAccessArray.hpp"
+// IWYU pragma private; include "UnityEngine/Jobs/TransformAccessArray.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Jobs/zzzz__TransformAccessArray_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -394,7 +394,7 @@ constexpr UnityEngine::Jobs::TransformAccessArray::operator ::System::IDisposabl
 constexpr ::System::IDisposable* UnityEngine::Jobs::TransformAccessArray::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_TransformArray", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_TransformArray", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Jobs::TransformAccessArray::TransformAccessArray(::System::IntPtr m_TransformArray) noexcept {
   this->m_TransformArray = m_TransformArray;
 }

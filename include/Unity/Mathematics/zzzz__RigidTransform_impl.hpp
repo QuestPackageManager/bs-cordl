@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\RigidTransform.hpp"
+// IWYU pragma private; include "Unity/Mathematics/RigidTransform.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "Unity/Mathematics/zzzz__quaternion_impl.hpp"
 #include "Unity/Mathematics/zzzz__RigidTransform_def.hpp"
@@ -511,8 +511,8 @@ inline ::StringW Unity::Mathematics::RigidTransform::ToString(::StringW format, 
                    (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::RigidTransform>(), { "ToString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::IFormatProvider*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, format, formatProvider);
 }
-// Ctor Parameters [CppParam { name: "rot", ty: "::Unity::Mathematics::quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "pos", ty: "::Unity::Mathematics::float3", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rot", ty: "::Unity::Mathematics::quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pos", ty: "::Unity::Mathematics::float3",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::RigidTransform::RigidTransform(::Unity::Mathematics::quaternion rot, ::Unity::Mathematics::float3 pos) noexcept {
   this->rot = rot;
   this->pos = pos;

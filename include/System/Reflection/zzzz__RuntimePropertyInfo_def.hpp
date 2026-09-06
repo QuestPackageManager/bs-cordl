@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\RuntimePropertyInfo.hpp"
+// IWYU pragma private; include "System/Reflection/RuntimePropertyInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,13 +121,13 @@ protected:
   constexpr RuntimePropertyInfo_GetterAdapter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_GetterAdapter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_GetterAdapter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimePropertyInfo_GetterAdapter(RuntimePropertyInfo_GetterAdapter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_GetterAdapter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_GetterAdapter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePropertyInfo_GetterAdapter(RuntimePropertyInfo_GetterAdapter const&) = delete;
+  RuntimePropertyInfo_GetterAdapter(RuntimePropertyInfo_GetterAdapterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3556 };
@@ -161,13 +161,13 @@ protected:
   constexpr RuntimePropertyInfo_Getter_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_Getter_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_Getter_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimePropertyInfo_Getter_2(RuntimePropertyInfo_Getter_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_Getter_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_Getter_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePropertyInfo_Getter_2(RuntimePropertyInfo_Getter_2 const&) = delete;
+  RuntimePropertyInfo_Getter_2(RuntimePropertyInfo_Getter_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3557 };
@@ -199,13 +199,13 @@ protected:
   constexpr RuntimePropertyInfo_StaticGetter_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_StaticGetter_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_StaticGetter_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimePropertyInfo_StaticGetter_1(RuntimePropertyInfo_StaticGetter_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_StaticGetter_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_StaticGetter_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePropertyInfo_StaticGetter_1(RuntimePropertyInfo_StaticGetter_1 const&) = delete;
+  RuntimePropertyInfo_StaticGetter_1(RuntimePropertyInfo_StaticGetter_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3558 };
@@ -407,13 +407,13 @@ protected:
   constexpr RuntimePropertyInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimePropertyInfo(RuntimePropertyInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePropertyInfo(RuntimePropertyInfo const&) = delete;
+  RuntimePropertyInfo(RuntimePropertyInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3559 };

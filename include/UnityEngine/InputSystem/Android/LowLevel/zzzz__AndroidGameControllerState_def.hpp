@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\LowLevel\AndroidGameControllerState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidGameControllerState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,13 +73,13 @@ protected:
   constexpr AndroidGameControllerState_Variants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGameControllerState_Variants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGameControllerState_Variants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidGameControllerState_Variants(AndroidGameControllerState_Variants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGameControllerState_Variants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGameControllerState_Variants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidGameControllerState_Variants(AndroidGameControllerState_Variants const&) = delete;
+  AndroidGameControllerState_Variants(AndroidGameControllerState_Variantsconst&) = delete;
 
   /// @brief Field DPadAxes offset 0xffffffff size 0x8
   static constexpr ::ConstString DPadAxes{ u"DpadAxes" };
@@ -102,6 +102,8 @@ public:
 static_assert(sizeof(::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState_Variants) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
@@ -114,7 +116,7 @@ public:
   // @brief default ctor
   constexpr AndroidGameControllerState__axis_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr AndroidGameControllerState__axis_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -138,6 +140,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidGam
 static_assert(sizeof(::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer) == 0xc0, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
@@ -150,7 +154,7 @@ public:
   // @brief default ctor
   constexpr AndroidGameControllerState__buttons_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AndroidGameControllerState__buttons_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -216,8 +220,8 @@ public:
   // @brief default ctor
   constexpr AndroidGameControllerState();
 
-  // Ctor Parameters [CppParam { name: "buttons", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__buttons_e__FixedBuffer", modifiers: "", def_value: None }, CppParam {
-  // name: "axis", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "buttons", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__buttons_e__FixedBuffer", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "axis", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr AndroidGameControllerState(::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__buttons_e__FixedBuffer buttons,
                                        ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer axis) noexcept;
 
@@ -236,9 +240,42 @@ public:
   /// @brief Field kAxisOffset offset 0xffffffff size 0x4
   static constexpr uint32_t kAxisOffset{ static_cast<uint32_t>(0x1cu) };
 
+  /// [FixedBuffer(typeof(System.UInt32), 7)]
+  /// [InputControl(name = "dpad", layout = "Dpad", bit = 19, sizeInBits = 4, variants = "DpadButtons")]
+  /// [InputControl(name = "dpad/up", bit = 19, variants = "DpadButtons")]
+  /// [InputControl(name = "dpad/down", bit = 20, variants = "DpadButtons")]
+  /// [InputControl(name = "dpad/left", bit = 21, variants = "DpadButtons")]
+  /// [InputControl(name = "dpad/right", bit = 22, variants = "DpadButtons")]
+  /// [InputControl(name = "buttonSouth", bit = 96, variants = "Gamepad")]
+  /// [InputControl(name = "buttonWest", bit = 99, variants = "Gamepad")]
+  /// [InputControl(name = "buttonNorth", bit = 100, variants = "Gamepad")]
+  /// [InputControl(name = "buttonEast", bit = 97, variants = "Gamepad")]
+  /// [InputControl(name = "leftStickPress", bit = 106, variants = "Gamepad")]
+  /// [InputControl(name = "rightStickPress", bit = 107, variants = "Gamepad")]
+  /// [InputControl(name = "leftShoulder", bit = 102, variants = "Gamepad")]
+  /// [InputControl(name = "rightShoulder", bit = 103, variants = "Gamepad")]
+  /// [InputControl(name = "start", bit = 108, variants = "Gamepad")]
+  /// [InputControl(name = "select", bit = 109, variants = "Gamepad")]
   /// @brief Field buttons, offset: 0x0, size: 0x1c, def value: None
   ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__buttons_e__FixedBuffer buttons;
 
+  /// [FixedBuffer(typeof(System.Single), 48)]
+  /// [InputControl(name = "dpad", layout = "Dpad", offset = 88, format = "VEC2", sizeInBits = 64, variants = "DpadAxes")]
+  /// [InputControl(name = "dpad/right", offset = 0, bit = 0, sizeInBits = 32, format = "FLT", parameters = "clamp=3,clampConstant=0,clampMin=0,clampMax=1", variants = "DpadAxes")]
+  /// [InputControl(name = "dpad/left", offset = 0, bit = 0, sizeInBits = 32, format = "FLT", parameters = "clamp=3,clampConstant=0,clampMin=-1,clampMax=0,invert", variants = "DpadAxes")]
+  /// [InputControl(name = "dpad/down", offset = 4, bit = 0, sizeInBits = 32, format = "FLT", parameters = "clamp=3,clampConstant=0,clampMin=0,clampMax=1", variants = "DpadAxes")]
+  /// [InputControl(name = "dpad/up", offset = 4, bit = 0, sizeInBits = 32, format = "FLT", parameters = "clamp=3,clampConstant=0,clampMin=-1,clampMax=0,invert", variants = "DpadAxes")]
+  /// [InputControl(name = "leftTrigger", offset = 120, parameters = "clamp=1,clampMin=0,clampMax=1.0", variants = "Gamepad")]
+  /// [InputControl(name = "rightTrigger", offset = 116, parameters = "clamp=1,clampMin=0,clampMax=1.0", variants = "Gamepad")]
+  /// [InputControl(name = "leftStick", variants = "Gamepad")]
+  /// [InputControl(name = "leftStick/y", variants = "Gamepad", parameters = "invert")]
+  /// [InputControl(name = "leftStick/up", variants = "Gamepad", parameters = "invert,clamp=1,clampMin=-1.0,clampMax=0.0")]
+  /// [InputControl(name = "leftStick/down", variants = "Gamepad", parameters = "invert=false,clamp=1,clampMin=0,clampMax=1.0")]
+  /// [InputControl(name = "rightStick", offset = 72, sizeInBits = 128, variants = "Gamepad")]
+  /// [InputControl(name = "rightStick/x", variants = "Gamepad")]
+  /// [InputControl(name = "rightStick/y", offset = 12, variants = "Gamepad", parameters = "invert")]
+  /// [InputControl(name = "rightStick/up", offset = 12, variants = "Gamepad", parameters = "invert,clamp=1,clampMin=-1.0,clampMax=0.0")]
+  /// [InputControl(name = "rightStick/down", offset = 12, variants = "Gamepad", parameters = "invert=false,clamp=1,clampMin=0,clampMax=1.0")]
   /// @brief Field axis, offset: 0x1c, size: 0xc0, def value: None
   ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__axis_e__FixedBuffer axis;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\AbstractTlsSigner.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsSigner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,19 +42,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSigner"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSigner*() noexcept;
 
-  /// @brief Method CreateSigner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateSigner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* CreateSigner(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
   /// @brief Method CreateSigner, addr 0x34377dc, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* CreateSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method CreateVerifyer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateVerifyer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* CreateVerifyer(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   /// @brief Method CreateVerifyer, addr 0x34377f4, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* CreateVerifyer(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method GenerateRawSignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateRawSignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> GenerateRawSignature(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                 ::ArrayW<uint8_t> hash);
 
@@ -64,12 +64,12 @@ public:
   /// @brief Method Init, addr 0x3437798, size 0x8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method IsValidPublicKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsValidPublicKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSigner* New_ctor();
 
-  /// @brief Method VerifyRawSignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method VerifyRawSignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool VerifyRawSignature(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t> sigBytes, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                                  ::ArrayW<uint8_t> hash);
 
@@ -94,13 +94,13 @@ protected:
   constexpr AbstractTlsSigner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsSigner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsSigner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractTlsSigner(AbstractTlsSigner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsSigner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsSigner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractTlsSigner(AbstractTlsSigner const&) = delete;
+  AbstractTlsSigner(AbstractTlsSignerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1175 };

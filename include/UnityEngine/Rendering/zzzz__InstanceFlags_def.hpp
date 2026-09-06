@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct InstanceFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::InstanceFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::InstanceFlags, "UnityEngine.Rendering", "InstanceFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr InstanceFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceFlags(uint8_t value__) noexcept;
 
   /// @brief Field AffectsLightmaps value: U8(1)

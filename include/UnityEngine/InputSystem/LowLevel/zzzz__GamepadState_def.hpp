@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\GamepadState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/GamepadState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +88,7 @@ public:
   constexpr void __cordl_internal_set_rightTrigger(float_t value);
 
   /// @brief Method .ctor, addr 0x65ae0e4, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton> buttons);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton> buttons);
 
   /// @brief Method get_Format, addr 0x65ae0cc, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
@@ -103,9 +103,9 @@ public:
   // @brief default ctor
   constexpr GamepadState();
 
-  // Ctor Parameters [CppParam { name: "buttons", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "leftStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
-  // CppParam { name: "rightStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftTrigger", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rightTrigger", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "buttons", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "rightStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftTrigger", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "rightTrigger", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr GamepadState(uint32_t buttons, ::UnityEngine::Vector2 leftStick, ::UnityEngine::Vector2 rightStick, float_t leftTrigger, float_t rightTrigger) noexcept;
 
 private:
@@ -115,6 +115,17 @@ private:
     struct {
       /// @brief Padding field 0x0
       uint8_t ___buttons_padding[0x0];
+      /// [InputControl(name = "dpad", layout = "Dpad", usage = "Hatswitch", displayName = "D-Pad", format = "BIT", sizeInBits = 4, bit = 0)]
+      /// [InputControl(name = "buttonSouth", layout = "Button", bit = 6, usages = new[] { "PrimaryAction", "Submit" }, aliases = new[] { "a", "cross" }, displayName = "Button South", shortDisplayName
+      /// = "A")] [InputControl(name = "buttonWest", layout = "Button", bit = 7, usage = "SecondaryAction", aliases = new[] { "x", "square" }, displayName = "Button West", shortDisplayName = "X")]
+      /// [InputControl(name = "buttonNorth", layout = "Button", bit = 4, aliases = new[] { "y", "triangle" }, displayName = "Button North", shortDisplayName = "Y")]
+      /// [InputControl(name = "buttonEast", layout = "Button", bit = 5, usages = new[] { "Back", "Cancel" }, aliases = new[] { "b", "circle" }, displayName = "Button East", shortDisplayName = "B")]
+      /// [InputControl(name = "leftStickPress", layout = "Button", bit = 8, displayName = "Left Stick Press")]
+      /// [InputControl(name = "rightStickPress", layout = "Button", bit = 9, displayName = "Right Stick Press")]
+      /// [InputControl(name = "leftShoulder", layout = "Button", bit = 10, displayName = "Left Shoulder", shortDisplayName = "LB")]
+      /// [InputControl(name = "rightShoulder", layout = "Button", bit = 11, displayName = "Right Shoulder", shortDisplayName = "RB")]
+      /// [InputControl(name = "start", layout = "Button", bit = 12, usage = "Menu", displayName = "Start")]
+      /// [InputControl(name = "select", layout = "Button", bit = 13, displayName = "Select")]
       /// @brief Field buttons, offset: 0x0, size: 0x4, def value: None
       uint32_t ___buttons;
     };
@@ -122,6 +133,17 @@ private:
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___buttons_padding_forAlignment[0x0];
+      /// [InputControl(name = "dpad", layout = "Dpad", usage = "Hatswitch", displayName = "D-Pad", format = "BIT", sizeInBits = 4, bit = 0)]
+      /// [InputControl(name = "buttonSouth", layout = "Button", bit = 6, usages = new[] { "PrimaryAction", "Submit" }, aliases = new[] { "a", "cross" }, displayName = "Button South", shortDisplayName
+      /// = "A")] [InputControl(name = "buttonWest", layout = "Button", bit = 7, usage = "SecondaryAction", aliases = new[] { "x", "square" }, displayName = "Button West", shortDisplayName = "X")]
+      /// [InputControl(name = "buttonNorth", layout = "Button", bit = 4, aliases = new[] { "y", "triangle" }, displayName = "Button North", shortDisplayName = "Y")]
+      /// [InputControl(name = "buttonEast", layout = "Button", bit = 5, usages = new[] { "Back", "Cancel" }, aliases = new[] { "b", "circle" }, displayName = "Button East", shortDisplayName = "B")]
+      /// [InputControl(name = "leftStickPress", layout = "Button", bit = 8, displayName = "Left Stick Press")]
+      /// [InputControl(name = "rightStickPress", layout = "Button", bit = 9, displayName = "Right Stick Press")]
+      /// [InputControl(name = "leftShoulder", layout = "Button", bit = 10, displayName = "Left Shoulder", shortDisplayName = "LB")]
+      /// [InputControl(name = "rightShoulder", layout = "Button", bit = 11, displayName = "Right Shoulder", shortDisplayName = "RB")]
+      /// [InputControl(name = "start", layout = "Button", bit = 12, usage = "Menu", displayName = "Start")]
+      /// [InputControl(name = "select", layout = "Button", bit = 13, displayName = "Select")]
       /// @brief Field buttons, offset: 0x0, size: 0x4, def value: None
       uint32_t ___buttons_forAlignment;
     };
@@ -129,6 +151,7 @@ private:
     struct {
       /// @brief Padding field 0x4
       uint8_t ___leftStick_padding[0x4];
+      /// [InputControl(layout = "Stick", usage = "Primary2DMotion", processors = "stickDeadzone", displayName = "Left Stick", shortDisplayName = "LS")]
       /// @brief Field leftStick, offset: 0x4, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___leftStick;
     };
@@ -136,6 +159,7 @@ private:
     struct {
       /// @brief Padding field 0x4 for alignment
       uint8_t ___leftStick_padding_forAlignment[0x4];
+      /// [InputControl(layout = "Stick", usage = "Primary2DMotion", processors = "stickDeadzone", displayName = "Left Stick", shortDisplayName = "LS")]
       /// @brief Field leftStick, offset: 0x4, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___leftStick_forAlignment;
     };
@@ -143,6 +167,7 @@ private:
     struct {
       /// @brief Padding field 0xc
       uint8_t ___rightStick_padding[0xc];
+      /// [InputControl(layout = "Stick", usage = "Secondary2DMotion", processors = "stickDeadzone", displayName = "Right Stick", shortDisplayName = "RS")]
       /// @brief Field rightStick, offset: 0xc, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___rightStick;
     };
@@ -150,6 +175,7 @@ private:
     struct {
       /// @brief Padding field 0xc for alignment
       uint8_t ___rightStick_padding_forAlignment[0xc];
+      /// [InputControl(layout = "Stick", usage = "Secondary2DMotion", processors = "stickDeadzone", displayName = "Right Stick", shortDisplayName = "RS")]
       /// @brief Field rightStick, offset: 0xc, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___rightStick_forAlignment;
     };
@@ -157,6 +183,7 @@ private:
     struct {
       /// @brief Padding field 0x14
       uint8_t ___leftTrigger_padding[0x14];
+      /// [InputControl(layout = "Button", format = "FLT", usage = "SecondaryTrigger", displayName = "Left Trigger", shortDisplayName = "LT")]
       /// @brief Field leftTrigger, offset: 0x14, size: 0x4, def value: None
       float_t ___leftTrigger;
     };
@@ -164,6 +191,7 @@ private:
     struct {
       /// @brief Padding field 0x14 for alignment
       uint8_t ___leftTrigger_padding_forAlignment[0x14];
+      /// [InputControl(layout = "Button", format = "FLT", usage = "SecondaryTrigger", displayName = "Left Trigger", shortDisplayName = "LT")]
       /// @brief Field leftTrigger, offset: 0x14, size: 0x4, def value: None
       float_t ___leftTrigger_forAlignment;
     };
@@ -171,6 +199,7 @@ private:
     struct {
       /// @brief Padding field 0x18
       uint8_t ___rightTrigger_padding[0x18];
+      /// [InputControl(layout = "Button", format = "FLT", usage = "SecondaryTrigger", displayName = "Right Trigger", shortDisplayName = "RT")]
       /// @brief Field rightTrigger, offset: 0x18, size: 0x4, def value: None
       float_t ___rightTrigger;
     };
@@ -178,6 +207,7 @@ private:
     struct {
       /// @brief Padding field 0x18 for alignment
       uint8_t ___rightTrigger_padding_forAlignment[0x18];
+      /// [InputControl(layout = "Button", format = "FLT", usage = "SecondaryTrigger", displayName = "Right Trigger", shortDisplayName = "RT")]
       /// @brief Field rightTrigger, offset: 0x18, size: 0x4, def value: None
       float_t ___rightTrigger_forAlignment;
     };

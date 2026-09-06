@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Layouts\InputDeviceMatcher.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Layouts/InputDeviceMatcher.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_impl.hpp"
@@ -16,7 +16,8 @@
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability::MatcherJson_InputDeviceMatcher_Capability(::StringW path, ::StringW value) noexcept {
   this->path = path;
   this->value = value;
@@ -62,13 +63,14 @@ inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher UnityEngine::Inpu
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson>(), { "ToMatcher", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "interfaces", ty: "::ArrayW<::StringW>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "deviceClass", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "deviceClasses", ty: "::ArrayW<::StringW>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "manufacturerContains", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "manufacturers", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "products", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "versions", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "capabilities", ty:
-// "::ArrayW<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "interfaces", ty: "::ArrayW<::StringW>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "deviceClass", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "deviceClasses", ty:
+// "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "manufacturerContains", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "manufacturers", ty: "::ArrayW<::StringW>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "products", ty: "::ArrayW<::StringW>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "versions", ty:
+// "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "capabilities", ty:
+// "::ArrayW<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson::InputDeviceMatcher_MatcherJson(
     ::StringW interface, ::ArrayW<::StringW> interfaces, ::StringW deviceClass, ::ArrayW<::StringW> deviceClasses, ::StringW manufacturer, ::StringW manufacturerContains,
     ::ArrayW<::StringW> manufacturers, ::StringW product, ::ArrayW<::StringW> products, ::StringW version, ::ArrayW<::StringW> versions,
@@ -605,7 +607,7 @@ UnityEngine::InputSystem::Layouts::InputDeviceMatcher::i___System__IEquatable_1_
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "m_Patterns", ty: "::ArrayW<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::InputSystem::Utilities::InternedString,::System::Object*>>", modifiers:
-// "", def_value: Some("{}") }]
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher::InputDeviceMatcher(
     ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Object*>> m_Patterns) noexcept {
   this->m_Patterns = m_Patterns;
@@ -866,6 +868,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::Layouts::In
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher__get_patterns_d__4*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher__get_patterns_d__4* UnityEngine::InputSystem::Layouts::InputDeviceMatcher__get_patterns_d__4::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher__get_patterns_d__4*>(__1__state));
 }

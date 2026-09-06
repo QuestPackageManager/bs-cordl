@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ErrorEventArgs.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ErrorEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class ErrorEventArgs;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::ErrorEventArgs*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::ErrorEventArgs*, "Newtonsoft.Json.Serialization", "ErrorEventArgs");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.EventArgs
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -25,6 +27,7 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE ErrorEventArgs : public ::System::EventArgs {
 public:
   // Declarations
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_CurrentObject)) ::System::Object* CurrentObject;
 
   __declspec(property(get = get_ErrorContext)) ::Newtonsoft::Json::Serialization::ErrorContext* ErrorContext;
@@ -36,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get__ErrorContext_k__BackingField,
                       put = __cordl_internal_set__ErrorContext_k__BackingField)) ::Newtonsoft::Json::Serialization::ErrorContext* _ErrorContext_k__BackingField;
 
-  static inline ::Newtonsoft::Json::Serialization::ErrorEventArgs* New_ctor(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
+  static inline ::Newtonsoft::Json::Serialization::ErrorEventArgs* New_ctor(/* [Nullable(2)] */ ::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
 
   constexpr ::System::Object* const& __cordl_internal_get__CurrentObject_k__BackingField() const;
 
@@ -51,11 +54,14 @@ public:
   constexpr void __cordl_internal_set__ErrorContext_k__BackingField(::Newtonsoft::Json::Serialization::ErrorContext* value);
 
   /// @brief Method .ctor, addr 0x5d40e94, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
+  inline void _ctor(/* [Nullable(2)] */ ::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method get_CurrentObject, addr 0x5d40e84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_CurrentObject();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ErrorContext, addr 0x5d40e8c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ErrorContext* get_ErrorContext();
 
@@ -65,20 +71,23 @@ protected:
   constexpr ErrorEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ErrorEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ErrorEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ErrorEventArgs(ErrorEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ErrorEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ErrorEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ErrorEventArgs(ErrorEventArgs const&) = delete;
+  ErrorEventArgs(ErrorEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13489 };
 
+  /// [Nullable(2)]
+  /// [CompilerGenerated]
   /// @brief Field <CurrentObject>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____CurrentObject_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ErrorContext>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ErrorContext* ____ErrorContext_k__BackingField;
 

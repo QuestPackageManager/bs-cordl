@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockNoteData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockNoteData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,45 +125,59 @@ public:
   /// @brief Method .ctor, addr 0x5a82af4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_colorType, addr 0x5a82a5c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cutDirection, addr 0x5a82a6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_cutDirection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_duration, addr 0x5a82a8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
+  /// [CompilerGenerated]
   /// @brief Method get_gameplayType, addr 0x5a82a4c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lineIndex, addr 0x5a82a3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_noteLineLayer, addr 0x5a82a7c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_time, addr 0x5a82a2c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
+  /// [CompilerGenerated]
   /// @brief Method set_colorType, addr 0x5a82a64, size 0x8, virtual false, abstract: false, final false
   inline void set_colorType(::GlobalNamespace::ColorType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_cutDirection, addr 0x5a82a74, size 0x8, virtual false, abstract: false, final false
   inline void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_duration, addr 0x5a82a94, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_gameplayType, addr 0x5a82a54, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayType(::GlobalNamespace::NoteData_GameplayType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lineIndex, addr 0x5a82a44, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_noteLineLayer, addr 0x5a82a84, size 0x8, virtual false, abstract: false, final false
   inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_time, addr 0x5a82a34, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
@@ -173,35 +187,42 @@ protected:
   constexpr MockNoteData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockNoteData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockNoteData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockNoteData(MockNoteData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockNoteData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockNoteData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockNoteData(MockNoteData const&) = delete;
+  MockNoteData(MockNoteDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22226 };
 
+  /// [CompilerGenerated]
   /// @brief Field <time>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____time_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <lineIndex>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____lineIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <gameplayType>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::NoteData_GameplayType ____gameplayType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <colorType>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ____colorType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <cutDirection>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::NoteCutDirection ____cutDirection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <noteLineLayer>k__BackingField, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ____noteLineLayer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <duration>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____duration_k__BackingField;
 

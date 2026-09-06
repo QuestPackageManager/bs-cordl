@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\TbsCertificateStructure.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/TbsCertificateStructure.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -241,13 +241,13 @@ protected:
   constexpr TbsCertificateStructure();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateStructure", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateStructure", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TbsCertificateStructure(TbsCertificateStructure&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateStructure", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateStructure", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TbsCertificateStructure(TbsCertificateStructure const&) = delete;
+  TbsCertificateStructure(TbsCertificateStructureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 389 };

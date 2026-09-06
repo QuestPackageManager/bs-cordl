@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\IOrderedEnumerable_1.hpp"
+// IWYU pragma private; include "System/Linq/IOrderedEnumerable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CreateOrderedEnumerable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateOrderedEnumerable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename TKey>
   inline ::System::Linq::IOrderedEnumerable_1<TElement>* CreateOrderedEnumerable(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer,
                                                                                  bool descending);
@@ -49,9 +49,9 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IOrderedEnumerable_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IOrderedEnumerable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IOrderedEnumerable_1(IOrderedEnumerable_1 const&) = delete;
+  IOrderedEnumerable_1(IOrderedEnumerable_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16089 };

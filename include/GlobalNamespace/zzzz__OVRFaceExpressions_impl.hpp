@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRFaceExpressions.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRFaceExpressions.hpp"
 #include "GlobalNamespace/zzzz__OVRPermissionsRequester_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -33,7 +33,7 @@ inline float_t GlobalNamespace::OVRFaceExpressions_WeightProvider::GetWeight(::G
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRFaceExpressions_WeightProvider*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, expression);
 }
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence::OVRFaceExpressions_FaceRegionConfidence(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -42,7 +42,7 @@ constexpr ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence::OVRFaceExp
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence::Lower{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence::Upper{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence::Max{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::OVRFaceExpressions_FaceTrackingDataSource(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -51,7 +51,7 @@ constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::OVRFaceE
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::Visual{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::Audio{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::Count{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression::OVRFaceExpressions_FaceExpression(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -262,8 +262,8 @@ constexpr GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::operato
 constexpr ::System::IDisposable* GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_faceExpressions", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_faceExpressions", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::OVRFaceExpressions_FaceExpressionsEnumerator(::ArrayW<float_t> _faceExpressions, int32_t _index, int32_t _count) noexcept {
   this->_faceExpressions = _faceExpressions;
   this->_index = _index;
@@ -271,7 +271,7 @@ constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::OVRFa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::OVRFaceExpressions_FaceExpressionsEnumerator() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme::OVRFaceExpressions_FaceViseme(int32_t value__) noexcept {
   this->value__ = value__;
 }

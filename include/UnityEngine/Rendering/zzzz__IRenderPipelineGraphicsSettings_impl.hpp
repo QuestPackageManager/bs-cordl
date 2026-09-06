@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IRenderPipelineGraphicsSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IRenderPipelineGraphicsSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings.get_version
 template <>

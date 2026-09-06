@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Lifetime\ISponsor.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Lifetime/ISponsor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class ISponsor;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Lifetime::ISponsor*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Lifetime::ISponsor*, "System.Runtime.Remoting.Lifetime", "ISponsor");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
@@ -24,12 +25,12 @@ namespace System::Runtime::Remoting::Lifetime {
 class CORDL_TYPE ISponsor {
 public:
   // Declarations
-  /// @brief Method Renewal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Renewal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::TimeSpan Renewal(::System::Runtime::Remoting::Lifetime::ILease* lease);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISponsor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISponsor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISponsor(ISponsor const&) = delete;
+  ISponsor(ISponsorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3107 };

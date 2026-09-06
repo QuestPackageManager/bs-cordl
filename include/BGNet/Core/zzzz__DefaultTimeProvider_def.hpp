@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet\Core\DefaultTimeProvider.hpp"
+// IWYU pragma private; include "BGNet/Core/DefaultTimeProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr DefaultTimeProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultTimeProvider(DefaultTimeProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultTimeProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultTimeProvider(DefaultTimeProvider const&) = delete;
+  DefaultTimeProvider(DefaultTimeProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18312 };

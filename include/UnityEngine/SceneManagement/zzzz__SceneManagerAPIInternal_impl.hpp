@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\SceneManagerAPIInternal.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/SceneManagerAPIInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__SceneManagerAPIInternal_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

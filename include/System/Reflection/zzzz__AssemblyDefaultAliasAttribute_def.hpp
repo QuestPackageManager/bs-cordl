@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\AssemblyDefaultAliasAttribute.hpp"
+// IWYU pragma private; include "System/Reflection/AssemblyDefaultAliasAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AssemblyDefaultAliasAttribute;
 // Write type traits
 MARK_REF_T(::System::Reflection::AssemblyDefaultAliasAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::AssemblyDefaultAliasAttribute*, "System.Reflection", "AssemblyDefaultAliasAttribute");
+// [AttributeUsage((System.AttributeTargets)1, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Reflection {
 // Is value type: false
@@ -40,17 +41,18 @@ protected:
   constexpr AssemblyDefaultAliasAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyDefaultAliasAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyDefaultAliasAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyDefaultAliasAttribute(AssemblyDefaultAliasAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyDefaultAliasAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyDefaultAliasAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyDefaultAliasAttribute(AssemblyDefaultAliasAttribute const&) = delete;
+  AssemblyDefaultAliasAttribute(AssemblyDefaultAliasAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3467 };
 
+  /// [CompilerGenerated]
   /// @brief Field <DefaultAlias>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____DefaultAlias_k__BackingField;
 

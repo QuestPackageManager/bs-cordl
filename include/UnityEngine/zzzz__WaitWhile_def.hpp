@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\WaitWhile.hpp"
+// IWYU pragma private; include "UnityEngine/WaitWhile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ protected:
   constexpr WaitWhile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WaitWhile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaitWhile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaitWhile(WaitWhile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WaitWhile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaitWhile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WaitWhile(WaitWhile const&) = delete;
+  WaitWhile(WaitWhileconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10388 };

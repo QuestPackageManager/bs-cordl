@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\ExpandoObjectConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/ExpandoObjectConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class ExpandoObjectConverter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::ExpandoObjectConverter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::ExpandoObjectConverter*, "Newtonsoft.Json.Converters", "ExpandoObjectConverter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -42,7 +44,8 @@ public:
   static inline ::Newtonsoft::Json::Converters::ExpandoObjectConverter* New_ctor();
 
   /// @brief Method ReadJson, addr 0x5d9aedc, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
+                                    ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method ReadList, addr 0x5d9b228, size 0x1a0, virtual false, abstract: false, final false
   inline ::System::Object* ReadList(::Newtonsoft::Json::JsonReader* reader);
@@ -54,7 +57,7 @@ public:
   inline ::System::Object* ReadValue(::Newtonsoft::Json::JsonReader* reader);
 
   /// @brief Method WriteJson, addr 0x5d9aed8, size 0x4, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method .ctor, addr 0x5d9b440, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -68,13 +71,13 @@ protected:
   constexpr ExpandoObjectConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObjectConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObjectConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpandoObjectConverter(ExpandoObjectConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObjectConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpandoObjectConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpandoObjectConverter(ExpandoObjectConverter const&) = delete;
+  ExpandoObjectConverter(ExpandoObjectConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13661 };

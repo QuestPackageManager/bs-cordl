@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MenuLightsPresetSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MenuLightsPresetSO.hpp"
 #include "GlobalNamespace/zzzz__LightIdColorPair_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"

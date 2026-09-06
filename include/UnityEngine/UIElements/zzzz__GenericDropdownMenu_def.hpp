@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\GenericDropdownMenu.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/GenericDropdownMenu.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -150,13 +150,13 @@ protected:
   constexpr GenericDropdownMenu_MenuItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu_MenuItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu_MenuItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericDropdownMenu_MenuItem(GenericDropdownMenu_MenuItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu_MenuItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu_MenuItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericDropdownMenu_MenuItem(GenericDropdownMenu_MenuItem const&) = delete;
+  GenericDropdownMenu_MenuItem(GenericDropdownMenu_MenuItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4197 };
@@ -187,6 +187,7 @@ static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem, 
 static_assert(sizeof(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -198,8 +199,8 @@ public:
   // @brief default ctor
   constexpr GenericDropdownMenu___c__DisplayClass48_0();
 
-  // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::GenericDropdownMenu*", modifiers: "", def_value: None }, CppParam { name: "selectedIndex", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::GenericDropdownMenu*", modifiers: "", def_value: None, comment: None }, CppParam { name: "selectedIndex", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GenericDropdownMenu___c__DisplayClass48_0(::UnityEngine::UIElements::GenericDropdownMenu* __4__this, int32_t selectedIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -224,6 +225,7 @@ static_assert(offsetof(::UnityEngine::UIElements::GenericDropdownMenu___c__Displ
 static_assert(sizeof(::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -254,13 +256,13 @@ protected:
   constexpr GenericDropdownMenu___c__DisplayClass63_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu___c__DisplayClass63_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu___c__DisplayClass63_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericDropdownMenu___c__DisplayClass63_0(GenericDropdownMenu___c__DisplayClass63_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu___c__DisplayClass63_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu___c__DisplayClass63_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericDropdownMenu___c__DisplayClass63_0(GenericDropdownMenu___c__DisplayClass63_0 const&) = delete;
+  GenericDropdownMenu___c__DisplayClass63_0(GenericDropdownMenu___c__DisplayClass63_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4199 };
@@ -454,9 +456,11 @@ public:
   /// @brief Method UpdateSelection, addr 0x6d4374c, size 0x118, virtual false, abstract: false, final false
   inline void UpdateSelection(::UnityEngine::UIElements::VisualElement* target);
 
+  /// [CompilerGenerated]
   /// @brief Method <Apply>g__UpdateSelectionDown|48_0, addr 0x6d43598, size 0xc8, virtual false, abstract: false, final false
   inline void _Apply_g__UpdateSelectionDown_48_0(int32_t newIndex, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0> _cordl_fixed_empty_name_whitespace);
 
+  /// [CompilerGenerated]
   /// @brief Method <Apply>g__UpdateSelectionUp|48_1, addr 0x6d434ec, size 0xac, virtual false, abstract: false, final false
   inline void _Apply_g__UpdateSelectionUp_48_1(int32_t newIndex, ::by_ref<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0> _cordl_fixed_empty_name_whitespace);
 
@@ -577,12 +581,14 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_closeOnParentResize, addr 0x6d42810, size 0x8, virtual false, abstract: false, final false
   inline bool get_closeOnParentResize();
 
   /// @brief Method get_contentContainer, addr 0x6d42820, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isSingleSelectionDropdown, addr 0x6d42800, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSingleSelectionDropdown();
 
@@ -607,9 +613,11 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_closeOnParentResize, addr 0x6d42818, size 0x8, virtual false, abstract: false, final false
   inline void set_closeOnParentResize(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isSingleSelectionDropdown, addr 0x6d42808, size 0x8, virtual false, abstract: false, final false
   inline void set_isSingleSelectionDropdown(bool value);
 
@@ -619,13 +627,13 @@ protected:
   constexpr GenericDropdownMenu();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericDropdownMenu(GenericDropdownMenu&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericDropdownMenu(GenericDropdownMenu const&) = delete;
+  GenericDropdownMenu(GenericDropdownMenuconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4200 };
@@ -669,9 +677,13 @@ public:
   /// @brief Field m_ShownAboveTarget, offset: 0x65, size: 0x1, def value: None
   bool ___m_ShownAboveTarget;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <isSingleSelectionDropdown>k__BackingField, offset: 0x66, size: 0x1, def value: None
   bool ____isSingleSelectionDropdown_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <closeOnParentResize>k__BackingField, offset: 0x67, size: 0x1, def value: None
   bool ____closeOnParentResize_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryPreProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryPreProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,8 @@ public:
   // @brief default ctor
   constexpr EntryPreProcessor_AllocSize();
 
-  // Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr EntryPreProcessor_AllocSize(int32_t vertexCount, int32_t indexCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -199,13 +200,13 @@ protected:
   constexpr EntryPreProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EntryPreProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntryPreProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EntryPreProcessor(EntryPreProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EntryPreProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EntryPreProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EntryPreProcessor(EntryPreProcessor const&) = delete;
+  EntryPreProcessor(EntryPreProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5290 };

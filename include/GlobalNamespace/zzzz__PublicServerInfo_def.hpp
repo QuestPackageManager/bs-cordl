@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PublicServerInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/PublicServerInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct PublicServerInfo;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::PublicServerInfo);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -40,7 +41,8 @@ public:
   // @brief default ctor
   constexpr PublicServerInfo();
 
-  // Ctor Parameters [CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "currentPlayerCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "currentPlayerCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr PublicServerInfo(::StringW code, int32_t currentPlayerCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

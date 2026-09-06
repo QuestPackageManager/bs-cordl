@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UriComponents.hpp"
+// IWYU pragma private; include "System/UriComponents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct UriComponents;
 // Write type traits
 MARK_VAL_T(::System::UriComponents);
 DEFINE_IL2CPP_CLASS(::System::UriComponents, "System", "UriComponents");
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -57,7 +58,7 @@ public:
   // @brief default ctor
   constexpr UriComponents();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UriComponents(int32_t value__) noexcept;
 
   /// @brief Field AbsoluteUri value: I32(127)

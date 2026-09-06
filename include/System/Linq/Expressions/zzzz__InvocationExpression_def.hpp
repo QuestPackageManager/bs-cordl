@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\InvocationExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/InvocationExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class InvocationExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::InvocationExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::InvocationExpression*, "System.Linq.Expressions", "InvocationExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::InvocationExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -36,6 +37,7 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE InvocationExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
+  /// @brief [ExcludeFromCodeCoverage]
   __declspec(property(get = get_ArgumentCount)) int32_t ArgumentCount;
 
   __declspec(property(get = get_Expression)) ::System::Linq::Expressions::Expression* Expression;
@@ -57,11 +59,13 @@ public:
   /// @brief Method Accept, addr 0x5f85b1c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method GetArgument, addr 0x5f85acc, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method Rewrite, addr 0x5f85b40, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda, ::ArrayW<::System::Linq::Expressions::Expression*> arguments);
 
@@ -83,12 +87,14 @@ public:
   /// @brief Method get_ArgumentCount, addr 0x5f85af4, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Expression, addr 0x5f85ac4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
   /// @brief Method get_NodeType, addr 0x5f85abc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f85ab4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
@@ -101,20 +107,22 @@ protected:
   constexpr InvocationExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvocationExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvocationExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvocationExpression(InvocationExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvocationExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvocationExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvocationExpression(InvocationExpression const&) = delete;
+  InvocationExpression(InvocationExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16173 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Expression>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Expression_k__BackingField;
 

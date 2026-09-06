@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\CapturePass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/CapturePass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph;
@@ -106,13 +108,13 @@ protected:
   constexpr CapturePass_UnsafePassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CapturePass_UnsafePassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CapturePass_UnsafePassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CapturePass_UnsafePassData(CapturePass_UnsafePassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CapturePass_UnsafePassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CapturePass_UnsafePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CapturePass_UnsafePassData(CapturePass_UnsafePassData const&) = delete;
+  CapturePass_UnsafePassData(CapturePass_UnsafePassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12825 };
@@ -133,6 +135,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::CapturePass_UnsafePa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -173,13 +176,13 @@ protected:
   constexpr CapturePass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CapturePass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CapturePass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CapturePass___c(CapturePass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CapturePass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CapturePass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CapturePass___c(CapturePass___c const&) = delete;
+  CapturePass___c(CapturePass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12826 };
@@ -204,6 +207,7 @@ public:
   /// @brief Field m_CameraColorHandle, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CameraColorHandle, put = __cordl_internal_set_m_CameraColorHandle)) ::UnityEngine::Rendering::RTHandle* m_CameraColorHandle;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6881424, size 0x2a0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -227,13 +231,13 @@ protected:
   constexpr CapturePass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CapturePass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CapturePass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CapturePass(CapturePass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CapturePass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CapturePass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CapturePass(CapturePass const&) = delete;
+  CapturePass(CapturePassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12827 };

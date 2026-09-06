@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LeaderboardScoreUploader.hpp"
+// IWYU pragma private; include "GlobalNamespace/LeaderboardScoreUploader.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
@@ -553,8 +553,8 @@ inline void GlobalNamespace::LeaderboardScoreUploader_ScoreData::set_maxCombo(in
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardScoreUploader_ScoreData*>(), { "set_maxCombo", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LeaderboardScoreUploader_ScoreData::_ctor(uint64_t playerId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore,
-                                                                       bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo,
+inline void GlobalNamespace::LeaderboardScoreUploader_ScoreData::_ctor(uint64_t playerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore,
+                                                                       int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo,
                                                                        ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardScoreUploader_ScoreData*>(),
@@ -566,7 +566,8 @@ inline void GlobalNamespace::LeaderboardScoreUploader_ScoreData::_ctor(uint64_t 
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, playerId, beatmapKey, multipliedScore, modifiedScore, fullCombo, goodCutsCount, badCutsCount, missedCount, maxCombo,
                                                    gameplayModifiers);
 }
-inline ::GlobalNamespace::LeaderboardScoreUploader_ScoreData* GlobalNamespace::LeaderboardScoreUploader_ScoreData::New_ctor(uint64_t playerId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+inline ::GlobalNamespace::LeaderboardScoreUploader_ScoreData* GlobalNamespace::LeaderboardScoreUploader_ScoreData::New_ctor(uint64_t playerId,
+                                                                                                                            /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                                                                             int32_t multipliedScore, int32_t modifiedScore, bool fullCombo,
                                                                                                                             int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount,
                                                                                                                             int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
@@ -815,9 +816,10 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::LeaderboardScoreUploader__LoadScoresToUploadFromFile_d__17::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LeaderboardScoreUploader__LoadScoresToUploadFromFile_d__17::LeaderboardScoreUploader__LoadScoresToUploadFromFile_d__17(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
@@ -875,9 +877,10 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::LeaderboardScoreUploader__SaveScoresToUploadToFile_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LeaderboardScoreUploader__SaveScoresToUploadToFile_d__18::LeaderboardScoreUploader__SaveScoresToUploadToFile_d__18(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -1039,6 +1042,7 @@ inline ::System::Object* GlobalNamespace::LeaderboardScoreUploader__UploadScores
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardScoreUploader__UploadScoresCoroutine_d__16*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::LeaderboardScoreUploader__UploadScoresCoroutine_d__16* GlobalNamespace::LeaderboardScoreUploader__UploadScoresCoroutine_d__16::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LeaderboardScoreUploader__UploadScoresCoroutine_d__16*>(__1__state));
 }

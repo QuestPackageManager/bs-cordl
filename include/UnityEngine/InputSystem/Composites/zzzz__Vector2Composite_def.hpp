@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Composites\Vector2Composite.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/Vector2Composite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr Vector2Composite_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector2Composite_Mode(int32_t value__) noexcept;
 
   /// @brief Field Analog value: I32(2)
@@ -89,6 +89,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::Vector2Composite_
 static_assert(sizeof(::UnityEngine::InputSystem::Composites::Vector2Composite_Mode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Composites
+// [DisplayStringFormat("{up}/{left}/{down}/{right}")]
+// [DisplayName("Up/Down/Left/Right Composite")]
 // Dependencies UnityEngine.InputSystem.Composites.Vector2Composite::Mode, UnityEngine.InputSystem.InputBindingComposite`1<TValue>, UnityEngine.Vector2
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
@@ -169,29 +171,34 @@ protected:
   constexpr Vector2Composite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Composite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector2Composite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector2Composite(Vector2Composite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Composite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector2Composite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2Composite(Vector2Composite const&) = delete;
+  Vector2Composite(Vector2Compositeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9219 };
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field up, offset: 0x10, size: 0x4, def value: None
   int32_t ___up;
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field down, offset: 0x14, size: 0x4, def value: None
   int32_t ___down;
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field left, offset: 0x18, size: 0x4, def value: None
   int32_t ___left;
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field right, offset: 0x1c, size: 0x4, def value: None
   int32_t ___right;
 
+  /// [Obsolete("Use Mode.DigitalNormalized with \'mode\' instead")]
   /// @brief Field normalize, offset: 0x20, size: 0x1, def value: None
   bool ___normalize;
 

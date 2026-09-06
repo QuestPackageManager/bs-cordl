@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Fx.hpp"
+// IWYU pragma private; include "System/Runtime/Fx.hpp"
 #include "System/Runtime/zzzz__Fx_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__SystemException_impl.hpp"

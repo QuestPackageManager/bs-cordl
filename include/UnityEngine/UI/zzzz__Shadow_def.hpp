@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Shadow.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Shadow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class Shadow;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::Shadow*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::Shadow*, "UnityEngine.UI", "Shadow");
+// [AddComponentMenu("UI/Effects/Shadow", 80)]
 // Dependencies UnityEngine.Color, UnityEngine.UI.BaseMeshEffect, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
@@ -112,13 +113,13 @@ protected:
   constexpr Shadow();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Shadow", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Shadow", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Shadow(Shadow&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Shadow", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Shadow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Shadow(Shadow const&) = delete;
+  Shadow(Shadowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17518 };
@@ -126,12 +127,15 @@ public:
   /// @brief Field kMaxEffectDistance offset 0xffffffff size 0x4
   static constexpr float_t kMaxEffectDistance{ static_cast<float_t>(600.0f) };
 
+  /// [SerializeField]
   /// @brief Field m_EffectColor, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ___m_EffectColor;
 
+  /// [SerializeField]
   /// @brief Field m_EffectDistance, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_EffectDistance;
 
+  /// [SerializeField]
   /// @brief Field m_UseGraphicAlpha, offset: 0x40, size: 0x1, def value: None
   bool ___m_UseGraphicAlpha;
 

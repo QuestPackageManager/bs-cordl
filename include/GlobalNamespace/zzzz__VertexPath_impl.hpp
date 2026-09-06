@@ -1,13 +1,13 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VertexPath.hpp"
+// IWYU pragma private; include "GlobalNamespace/VertexPath.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__VertexPath_def.hpp"
 #include "GlobalNamespace/zzzz__BezierPath_def.hpp"
 #include "GlobalNamespace/zzzz__VertexPath_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "tangent", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tangent", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::VertexPath_Vertex::VertexPath_Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 tangent, ::UnityEngine::Vector3 normal) noexcept {
   this->position = position;
   this->tangent = tangent;
@@ -232,9 +232,10 @@ inline void GlobalNamespace::VertexPath::SplitBezierPathIntoFixNumberOfSegments(
                                                            { "SplitBezierPathIntoFixNumberOfSegments", {}, { ::i2c::type_of<::GlobalNamespace::BezierPath*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bezierPath, numberOfVertexSegments);
 }
-inline void GlobalNamespace::VertexPath::AddVertex(::by_ref<::UnityEngine::Vector3> p0, ::by_ref<::UnityEngine::Vector3> p1, ::by_ref<::UnityEngine::Vector3> p2, ::by_ref<::UnityEngine::Vector3> p3,
-                                                   float_t t, ::by_ref<::UnityEngine::Vector3> lastRotationAxis, ::by_ref<float_t> currentPathLength,
-                                                   ::by_ref<::GlobalNamespace::VertexPath_Vertex> lastVertex, ::by_ref<int32_t> vertCount) {
+inline void GlobalNamespace::VertexPath::AddVertex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p1,
+                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p3, float_t t,
+                                                   ::by_ref<::UnityEngine::Vector3> lastRotationAxis, ::by_ref<float_t> currentPathLength, ::by_ref<::GlobalNamespace::VertexPath_Vertex> lastVertex,
+                                                   ::by_ref<int32_t> vertCount) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexPath*>(),

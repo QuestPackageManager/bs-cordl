@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\WheelEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/WheelEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_REF_T(::UnityEngine::UIElements::WheelEvent*);
 MARK_REF_T(::UnityEngine::UIElements::WheelEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::WheelEvent*, "UnityEngine.UIElements", "WheelEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::WheelEvent___c*, "UnityEngine.UIElements", "WheelEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -65,13 +66,13 @@ protected:
   constexpr WheelEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WheelEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WheelEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WheelEvent___c(WheelEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WheelEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WheelEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WheelEvent___c(WheelEvent___c const&) = delete;
+  WheelEvent___c(WheelEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4497 };
@@ -125,9 +126,11 @@ public:
   /// @brief Method .ctor, addr 0x6d9f964, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_delta, addr 0x6d9f6c0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_delta();
 
+  /// [CompilerGenerated]
   /// @brief Method set_delta, addr 0x6d9f6cc, size 0xc, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector3 value);
 
@@ -137,17 +140,19 @@ protected:
   constexpr WheelEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WheelEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WheelEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WheelEvent(WheelEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WheelEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WheelEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WheelEvent(WheelEvent const&) = delete;
+  WheelEvent(WheelEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4498 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <delta>k__BackingField, offset: 0x98, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____delta_k__BackingField;
 

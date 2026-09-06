@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataColumnCollection.hpp"
+// IWYU pragma private; include "System/Data/DataColumnCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,8 @@ class DataColumnCollection;
 // Write type traits
 MARK_REF_T(::System::Data::DataColumnCollection*);
 DEFINE_IL2CPP_CLASS(::System::Data::DataColumnCollection*, "System.Data", "DataColumnCollection");
+// [DefaultEvent("CollectionChanged")]
+// [DefaultMember("Item")]
 // Dependencies System.Data.DataColumn, System.Data.InternalDataCollectionBase
 namespace System::Data {
 // Is value type: false
@@ -250,9 +252,11 @@ public:
   /// @brief Method .ctor, addr 0x6020858, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table);
 
+  /// [CompilerGenerated]
   /// @brief Method add_CollectionChanged, addr 0x60214f8, size 0xac, virtual false, abstract: false, final false
   inline void add_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_ColumnPropertyChanged, addr 0x6021650, size 0xac, virtual false, abstract: false, final false
   inline void add_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
@@ -277,9 +281,11 @@ public:
   /// @brief Method get_List, addr 0x60209d4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_CollectionChanged, addr 0x60215a4, size 0xac, virtual false, abstract: false, final false
   inline void remove_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_ColumnPropertyChanged, addr 0x60216fc, size 0xac, virtual false, abstract: false, final false
   inline void remove_ColumnPropertyChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
@@ -289,13 +295,13 @@ protected:
   constexpr DataColumnCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataColumnCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataColumnCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataColumnCollection(DataColumnCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataColumnCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataColumnCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataColumnCollection(DataColumnCollection const&) = delete;
+  DataColumnCollection(DataColumnCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13767 };
@@ -327,12 +333,15 @@ public:
   /// @brief Field _nColumnsImplementingIRevertibleChangeTracking, offset: 0x4c, size: 0x4, def value: None
   int32_t ____nColumnsImplementingIRevertibleChangeTracking;
 
+  /// [CompilerGenerated]
   /// @brief Field CollectionChanged, offset: 0x50, size: 0x8, def value: None
   ::System::ComponentModel::CollectionChangeEventHandler* ___CollectionChanged;
 
+  /// [CompilerGenerated]
   /// @brief Field CollectionChanging, offset: 0x58, size: 0x8, def value: None
   ::System::ComponentModel::CollectionChangeEventHandler* ___CollectionChanging;
 
+  /// [CompilerGenerated]
   /// @brief Field ColumnPropertyChanged, offset: 0x60, size: 0x8, def value: None
   ::System::ComponentModel::CollectionChangeEventHandler* ___ColumnPropertyChanged;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Profiling\Sampler.hpp"
+// IWYU pragma private; include "UnityEngine/Profiling/Sampler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class Sampler;
 // Write type traits
 MARK_REF_T(::UnityEngine::Profiling::Sampler*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Profiling::Sampler*, "UnityEngine.Profiling", "Sampler");
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Profiler/ScriptBindings/Sampler.bindings.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Profiling {
 // Is value type: false
@@ -66,13 +68,13 @@ protected:
   constexpr Sampler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Sampler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sampler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Sampler(Sampler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Sampler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sampler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Sampler(Sampler const&) = delete;
+  Sampler(Samplerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10429 };

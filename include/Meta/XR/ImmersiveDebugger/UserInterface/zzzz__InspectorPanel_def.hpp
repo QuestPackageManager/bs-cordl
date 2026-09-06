@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\InspectorPanel.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/InspectorPanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,6 +95,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel___c__Dis
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel*, "Meta.XR.ImmersiveDebugger.UserInterface", "InspectorPanel");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel___c__DisplayClass40_0*, "Meta.XR.ImmersiveDebugger.UserInterface", "InspectorPanel/<>c__DisplayClass40_0");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel___c__DisplayClass42_0*, "Meta.XR.ImmersiveDebugger.UserInterface", "InspectorPanel/<>c__DisplayClass42_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface {
 // Is value type: false
@@ -134,13 +135,13 @@ protected:
   constexpr InspectorPanel___c__DisplayClass40_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass40_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass40_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InspectorPanel___c__DisplayClass40_0(InspectorPanel___c__DisplayClass40_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass40_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass40_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectorPanel___c__DisplayClass40_0(InspectorPanel___c__DisplayClass40_0 const&) = delete;
+  InspectorPanel___c__DisplayClass40_0(InspectorPanel___c__DisplayClass40_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18372 };
@@ -161,6 +162,7 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPa
 static_assert(sizeof(::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel___c__DisplayClass40_0) == 0x20, "Size mismatch!");
 
 } // namespace Meta::XR::ImmersiveDebugger::UserInterface
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface {
 // Is value type: false
@@ -203,13 +205,13 @@ protected:
   constexpr InspectorPanel___c__DisplayClass42_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass42_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass42_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InspectorPanel___c__DisplayClass42_0(InspectorPanel___c__DisplayClass42_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass42_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel___c__DisplayClass42_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectorPanel___c__DisplayClass42_0(InspectorPanel___c__DisplayClass42_0 const&) = delete;
+  InspectorPanel___c__DisplayClass42_0(InspectorPanel___c__DisplayClass42_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18373 };
@@ -569,13 +571,13 @@ protected:
   constexpr InspectorPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InspectorPanel(InspectorPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectorPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectorPanel(InspectorPanel const&) = delete;
+  InspectorPanel(InspectorPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18374 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\OverflowInternal.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/OverflowInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct OverflowInternal;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::OverflowInternal);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::OverflowInternal, "UnityEngine.UIElements", "OverflowInternal");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr OverflowInternal();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OverflowInternal(int32_t value__) noexcept;
 
   /// @brief Field Hidden value: I32(1)

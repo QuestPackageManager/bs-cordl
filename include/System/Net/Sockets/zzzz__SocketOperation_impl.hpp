@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\SocketOperation.hpp"
+// IWYU pragma private; include "System/Net/Sockets/SocketOperation.hpp"
 #include "System/Net/Sockets/zzzz__SocketOperation_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::Sockets::SocketOperation::SocketOperation(int32_t value__) noexcept {
   this->value__ = value__;
 }

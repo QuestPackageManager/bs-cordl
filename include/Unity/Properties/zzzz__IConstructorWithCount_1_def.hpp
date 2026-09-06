@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IConstructorWithCount_1.hpp"
+// IWYU pragma private; include "Unity/Properties/IConstructorWithCount_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ public:
   /// @brief Convert operator to "::Unity::Properties::IConstructor"
   constexpr operator ::Unity::Properties::IConstructor*() noexcept;
 
-  /// @brief Method InstantiateWithCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InstantiateWithCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T InstantiateWithCount(int32_t count);
 
   /// @brief Convert to "::Unity::Properties::IConstructor"
   constexpr ::Unity::Properties::IConstructor* i___Unity__Properties__IConstructor() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IConstructorWithCount_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IConstructorWithCount_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IConstructorWithCount_1(IConstructorWithCount_1 const&) = delete;
+  IConstructorWithCount_1(IConstructorWithCount_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19702 };

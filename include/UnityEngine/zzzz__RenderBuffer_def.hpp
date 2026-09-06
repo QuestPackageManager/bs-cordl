@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RenderBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/RenderBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct RenderBuffer;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RenderBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RenderBuffer, "UnityEngine", "RenderBuffer");
+// [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
 // Dependencies System.IntPtr
 namespace UnityEngine {
 // Is value type: true
@@ -25,8 +26,8 @@ public:
   // @brief default ctor
   constexpr RenderBuffer();
 
-  // Ctor Parameters [CppParam { name: "m_RenderTextureInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BufferPtr", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "m_RenderTextureInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BufferPtr", ty: "::System::IntPtr", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr RenderBuffer(int32_t m_RenderTextureInstanceID, ::System::IntPtr m_BufferPtr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

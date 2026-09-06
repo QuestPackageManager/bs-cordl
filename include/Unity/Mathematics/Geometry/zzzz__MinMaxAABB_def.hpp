@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\Geometry\MinMaxAABB.hpp"
+// IWYU pragma private; include "Unity/Mathematics/Geometry/MinMaxAABB.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ struct MinMaxAABB;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::Geometry::MinMaxAABB);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::Geometry::MinMaxAABB, "Unity.Mathematics.Geometry", "MinMaxAABB");
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies Unity.Mathematics.float3
 namespace Unity::Mathematics::Geometry {
 // Is value type: true
@@ -96,8 +97,8 @@ public:
   // @brief default ctor
   constexpr MinMaxAABB();
 
-  // Ctor Parameters [CppParam { name: "Min", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }, CppParam { name: "Max", ty: "::Unity::Mathematics::float3", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "Min", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "Max", ty: "::Unity::Mathematics::float3",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr MinMaxAABB(::Unity::Mathematics::float3 Min, ::Unity::Mathematics::float3 Max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

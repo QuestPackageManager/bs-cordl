@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Touch.hpp"
+// IWYU pragma private; include "UnityEngine/Touch.hpp"
 #include "UnityEngine/zzzz__TouchPhase_impl.hpp"
 #include "UnityEngine/zzzz__TouchType_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -285,13 +285,14 @@ inline float_t UnityEngine::Touch::get_radiusVariance() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_radiusVariance", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_FingerId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_RawPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PositionDelta", ty: "::UnityEngine::Vector2", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_TimeDelta", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TapCount", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_Phase", ty: "::UnityEngine::TouchPhase", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Type", ty: "::UnityEngine::TouchType", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Pressure", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_maximumPossiblePressure", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_Radius", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RadiusVariance", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_AltitudeAngle", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AzimuthAngle", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_FingerId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector2", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_RawPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PositionDelta",
+// ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TimeDelta", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_TapCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Phase", ty: "::UnityEngine::TouchPhase", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_Type", ty: "::UnityEngine::TouchType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Pressure", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_maximumPossiblePressure", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Radius", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RadiusVariance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AltitudeAngle",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AzimuthAngle", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Touch::Touch(int32_t m_FingerId, ::UnityEngine::Vector2 m_Position, ::UnityEngine::Vector2 m_RawPosition, ::UnityEngine::Vector2 m_PositionDelta, float_t m_TimeDelta,
                                       int32_t m_TapCount, ::UnityEngine::TouchPhase m_Phase, ::UnityEngine::TouchType m_Type, float_t m_Pressure, float_t m_maximumPossiblePressure, float_t m_Radius,
                                       float_t m_RadiusVariance, float_t m_AltitudeAngle, float_t m_AzimuthAngle) noexcept {

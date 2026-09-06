@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\HMDDeviceDetector.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/HMDDeviceDetector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ namespace BeatSaber::Analytics::Gameplay {
 class CORDL_TYPE HMDDeviceDetector : public ::System::Object {
 public:
   // Declarations
+  /// [NullableContext(1)]
   /// @brief Method DetectHMDPlatform, addr 0x3263ab4, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW DetectHMDPlatform();
 
@@ -29,13 +30,13 @@ protected:
   constexpr HMDDeviceDetector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HMDDeviceDetector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMDDeviceDetector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMDDeviceDetector(HMDDeviceDetector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HMDDeviceDetector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMDDeviceDetector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMDDeviceDetector(HMDDeviceDetector const&) = delete;
+  HMDDeviceDetector(HMDDeviceDetectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22259 };

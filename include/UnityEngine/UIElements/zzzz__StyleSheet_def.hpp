@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheet.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,6 +73,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheet_ImportStruct);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType, "UnityEngine.UIElements", "StyleSheet/OrderedSelectorType");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheet*, "UnityEngine.UIElements", "StyleSheet");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheet_ImportStruct, "UnityEngine.UIElements", "StyleSheet/ImportStruct");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -84,8 +85,8 @@ public:
   // @brief default ctor
   constexpr StyleSheet_ImportStruct();
 
-  // Ctor Parameters [CppParam { name: "styleSheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "mediaQueries", ty:
-  // "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "styleSheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None, comment: None }, CppParam { name: "mediaQueries", ty:
+  // "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr StyleSheet_ImportStruct(::UnityW<::UnityEngine::UIElements::StyleSheet> styleSheet, ::ArrayW<::StringW> mediaQueries) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -142,7 +143,7 @@ public:
   // @brief default ctor
   constexpr StyleSheet_OrderedSelectorType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StyleSheet_OrderedSelectorType(int32_t value__) noexcept;
 
   /// @brief Field Class value: I32(2)
@@ -177,6 +178,7 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType
 static_assert(sizeof(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [HelpURL("UIE-USS")]
 // Dependencies System.Collections.Generic.Dictionary`2<TKey, TValue>, UnityEngine.Color, UnityEngine.Object, UnityEngine.ScriptableObject, UnityEngine.UIElements.StyleComplexSelector,
 // UnityEngine.UIElements.StyleRule, UnityEngine.UIElements.StyleSheet::ImportStruct, UnityEngine.UIElements.StyleSheets.Dimension, UnityEngine.UIElements.StyleSheets.ScalableImage
 namespace UnityEngine::UIElements {
@@ -195,6 +197,7 @@ public:
   /// @brief Field colors, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_colors, put = __cordl_internal_set_colors)) ::ArrayW<::UnityEngine::Color> colors;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_complexSelectors, put = set_complexSelectors)) ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*> complexSelectors;
 
   __declspec(property(get = get_contentHash, put = set_contentHash)) int32_t contentHash;
@@ -220,6 +223,7 @@ public:
   /// @brief Field imports, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_imports, put = __cordl_internal_set_imports)) ::ArrayW<::UnityEngine::UIElements::StyleSheet_ImportStruct> imports;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_isDefaultStyleSheet, put = set_isDefaultStyleSheet)) bool isDefaultStyleSheet;
 
   /// @brief Field kCustomPropertyMarker, offset 0xffffffff, size 0x8
@@ -251,6 +255,7 @@ public:
   /// @brief Field nonEmptyTablesMask, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_nonEmptyTablesMask, put = __cordl_internal_set_nonEmptyTablesMask)) int32_t nonEmptyTablesMask;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_rules, put = set_rules)) ::ArrayW<::UnityEngine::UIElements::StyleRule*> rules;
 
   /// @brief Field scalableImages, offset 0x70, size 0x8
@@ -281,42 +286,55 @@ public:
   /// @brief Method OnEnable, addr 0x6c9c5b8, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadAssetReference, addr 0x6c9cf54, size 0x64, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> ReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadColor, addr 0x6c9cb44, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ReadColor(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadDimension, addr 0x6c9c9c8, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Dimension ReadDimension(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadEnum, addr 0x6c9cce4, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadEnum(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadFloat, addr 0x6c9c844, size 0xb4, virtual false, abstract: false, final false
   inline float_t ReadFloat(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadFunction, addr 0x6c9d088, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueFunction ReadFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadFunctionName, addr 0x6c9d090, size 0x1b4, virtual false, abstract: false, final false
   inline ::StringW ReadFunctionName(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadKeyword, addr 0x6c9c83c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueKeyword ReadKeyword(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadMissingAssetReferenceUrl, addr 0x6c9cfb8, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadMissingAssetReferenceUrl(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadResourcePath, addr 0x6c9ce84, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadScalableImage, addr 0x6c9d34c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::ScalableImage ReadScalableImage(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadString, addr 0x6c9cc14, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadString(::UnityEngine::UIElements::StyleValueHandle handle);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method ReadVariable, addr 0x6c9cdb4, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadVariable(::UnityEngine::UIElements::StyleValueHandle handle);
 
@@ -469,6 +487,7 @@ public:
   /// @brief Method get_contentHash, addr 0x6c9c488, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contentHash();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_flattenedRecursiveImports, addr 0x6c9c480, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_flattenedRecursiveImports();
 
@@ -510,53 +529,72 @@ protected:
   constexpr StyleSheet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSheet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSheet(StyleSheet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSheet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSheet(StyleSheet const&) = delete;
+  StyleSheet(StyleSheetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5071 };
 
+  /// [SerializeField]
   /// @brief Field m_ImportedWithErrors, offset: 0x18, size: 0x1, def value: None
   bool ___m_ImportedWithErrors;
 
+  /// [SerializeField]
   /// @brief Field m_ImportedWithWarnings, offset: 0x19, size: 0x1, def value: None
   bool ___m_ImportedWithWarnings;
 
+  /// [SerializeField]
   /// @brief Field m_Rules, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleRule*> ___m_Rules;
 
+  /// [SerializeField]
   /// @brief Field m_ComplexSelectors, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*> ___m_ComplexSelectors;
 
+  /// [SerializeField]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field floats, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<float_t> ___floats;
 
+  /// [SerializeField]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field dimensions, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension> ___dimensions;
 
+  /// [SerializeField]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field colors, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color> ___colors;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+  /// [SerializeField]
   /// @brief Field strings, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::StringW> ___strings;
 
+  /// [SerializeField]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field assets, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Object>> ___assets;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
+  /// [SerializeField]
   /// @brief Field imports, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleSheet_ImportStruct> ___imports;
 
+  /// [SerializeField]
   /// @brief Field m_FlattenedImportedStyleSheets, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ___m_FlattenedImportedStyleSheets;
 
+  /// [SerializeField]
   /// @brief Field m_ContentHash, offset: 0x68, size: 0x4, def value: None
   int32_t ___m_ContentHash;
 
+  /// [SerializeField]
   /// @brief Field scalableImages, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage> ___scalableImages;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentIntensityReductionOptions.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentIntensityReductionOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentIntensityReductionOptions_CompressExpandReductionType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentIntensityReductionOptions_CompressExpandReductionType(int32_t value__) noexcept;
 
   /// @brief Field Keep value: I32(0)
@@ -114,7 +114,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentIntensityReductionOptions_RotateRingsReductionType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentIntensityReductionOptions_RotateRingsReductionType(int32_t value__) noexcept;
 
   /// @brief Field Keep value: I32(0)
@@ -191,20 +191,22 @@ protected:
   constexpr EnvironmentIntensityReductionOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIntensityReductionOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIntensityReductionOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentIntensityReductionOptions(EnvironmentIntensityReductionOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIntensityReductionOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIntensityReductionOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentIntensityReductionOptions(EnvironmentIntensityReductionOptions const&) = delete;
+  EnvironmentIntensityReductionOptions(EnvironmentIntensityReductionOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14840 };
 
+  /// [SerializeField]
   /// @brief Field _compressExpand, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType ____compressExpand;
 
+  /// [SerializeField]
   /// @brief Field _rotateRings, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType ____rotateRings;
 

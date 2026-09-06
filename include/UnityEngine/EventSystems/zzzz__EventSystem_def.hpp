@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\EventSystem.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/EventSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,8 +67,8 @@ public:
   // @brief default ctor
   constexpr EventSystem_UIToolkitOverrideConfig();
 
-  // Ctor Parameters [CppParam { name: "activeEventSystem", ty: "::UnityW<::UnityEngine::EventSystems::EventSystem>", modifiers: "", def_value: None }, CppParam { name: "sendEvents", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "createPanelGameObjectsOnStart", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "activeEventSystem", ty: "::UnityW<::UnityEngine::EventSystems::EventSystem>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sendEvents",
+  // ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "createPanelGameObjectsOnStart", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr EventSystem_UIToolkitOverrideConfig(::UnityW<::UnityEngine::EventSystems::EventSystem> activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -98,6 +98,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::EventSystem_UIToolkitOverrid
 static_assert(sizeof(::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -128,13 +129,13 @@ protected:
   constexpr EventSystem___c__DisplayClass56_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventSystem___c__DisplayClass56_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventSystem___c__DisplayClass56_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventSystem___c__DisplayClass56_0(EventSystem___c__DisplayClass56_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventSystem___c__DisplayClass56_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventSystem___c__DisplayClass56_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventSystem___c__DisplayClass56_0(EventSystem___c__DisplayClass56_0 const&) = delete;
+  EventSystem___c__DisplayClass56_0(EventSystem___c__DisplayClass56_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17559 };
@@ -150,6 +151,8 @@ static_assert(offsetof(::UnityEngine::EventSystems::EventSystem___c__DisplayClas
 static_assert(sizeof(::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
+// [AddComponentMenu("Event/Event System")]
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.EventSystems.EventSystem::UIToolkitOverrideConfig, UnityEngine.EventSystems.UIBehaviour
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -177,6 +180,7 @@ public:
 
   __declspec(property(get = get_isUIToolkitActiveEventSystem)) bool isUIToolkitActiveEventSystem;
 
+  /// @brief [Obsolete("lastSelectedGameObject is no longer supported")]
   __declspec(property(get = get_lastSelectedGameObject)) ::UnityW<::UnityEngine::GameObject> lastSelectedGameObject;
 
   /// @brief Field m_CurrentInputModule, offset 0x28, size 0x8
@@ -425,13 +429,13 @@ protected:
   constexpr EventSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventSystem(EventSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventSystem(EventSystem const&) = delete;
+  EventSystem(EventSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17560 };
@@ -442,12 +446,16 @@ public:
   /// @brief Field m_CurrentInputModule, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::BaseInputModule> ___m_CurrentInputModule;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_Selected")]
   /// @brief Field m_FirstSelected, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_FirstSelected;
 
+  /// [SerializeField]
   /// @brief Field m_sendNavigationEvents, offset: 0x38, size: 0x1, def value: None
   bool ___m_sendNavigationEvents;
 
+  /// [SerializeField]
   /// @brief Field m_DragThreshold, offset: 0x3c, size: 0x4, def value: None
   int32_t ___m_DragThreshold;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CullingGroup.hpp"
+// IWYU pragma private; include "UnityEngine/CullingGroup.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -435,7 +435,7 @@ inline void UnityEngine::CullingGroup::set_targetCamera(::UnityEngine::Camera* v
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(), { "set_targetCamera", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::CullingGroup::SetBoundingSpheres(::ArrayW<::UnityEngine::BoundingSphere> array) {
+inline void UnityEngine::CullingGroup::SetBoundingSpheres(/* [Unmarshalled] */ ::ArrayW<::UnityEngine::BoundingSphere> array) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(), { "SetBoundingSpheres", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::BoundingSphere>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array);

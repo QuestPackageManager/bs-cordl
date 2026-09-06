@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Empty.hpp"
+// IWYU pragma private; include "System/Empty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,13 +59,13 @@ protected:
   constexpr Empty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Empty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Empty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Empty(Empty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Empty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Empty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Empty(Empty const&) = delete;
+  Empty(Emptyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2565 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DropdownSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/DropdownSettingsController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DropdownSettingsController_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"

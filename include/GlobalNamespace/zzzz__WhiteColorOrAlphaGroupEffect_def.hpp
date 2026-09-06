@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\WhiteColorOrAlphaGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/WhiteColorOrAlphaGroupEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ public:
   /// @brief Method GetColor, addr 0x5999f78, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
+  /// @brief [Inject]
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::UnityEngine::Color defaultColor,
                                                                           ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                           ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
@@ -62,6 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
 
+  /// [Inject]
   /// @brief Method .ctor, addr 0x5999f3c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager,
                     ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
@@ -73,13 +75,13 @@ protected:
   constexpr WhiteColorOrAlphaGroupEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WhiteColorOrAlphaGroupEffect(WhiteColorOrAlphaGroupEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WhiteColorOrAlphaGroupEffect(WhiteColorOrAlphaGroupEffect const&) = delete;
+  WhiteColorOrAlphaGroupEffect(WhiteColorOrAlphaGroupEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5896 };

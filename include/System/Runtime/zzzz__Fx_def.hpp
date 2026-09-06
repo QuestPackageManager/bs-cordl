@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Fx.hpp"
+// IWYU pragma private; include "System/Runtime/Fx.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,13 +73,13 @@ protected:
   constexpr Fx_InternalException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Fx_InternalException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Fx_InternalException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Fx_InternalException(Fx_InternalException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Fx_InternalException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Fx_InternalException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Fx_InternalException(Fx_InternalException const&) = delete;
+  Fx_InternalException(Fx_InternalExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21302 };
@@ -108,13 +108,13 @@ protected:
   constexpr Fx_FatalInternalException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Fx_FatalInternalException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Fx_FatalInternalException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Fx_FatalInternalException(Fx_FatalInternalException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Fx_FatalInternalException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Fx_FatalInternalException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Fx_FatalInternalException(Fx_FatalInternalException const&) = delete;
+  Fx_FatalInternalException(Fx_FatalInternalExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21303 };
@@ -125,6 +125,7 @@ public:
 static_assert(sizeof(::System::Runtime::Fx_FatalInternalException) == 0x90, "Size mismatch!");
 
 } // namespace System::Runtime
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime {
 // Is value type: false
@@ -160,13 +161,13 @@ protected:
   constexpr Fx___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Fx___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Fx___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Fx___c(Fx___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Fx___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Fx___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Fx___c(Fx___c const&) = delete;
+  Fx___c(Fx___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21304 };
@@ -228,13 +229,13 @@ protected:
   constexpr Fx();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Fx", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Fx", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Fx(Fx&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Fx", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Fx", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Fx(Fx const&) = delete;
+  Fx(Fxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21305 };

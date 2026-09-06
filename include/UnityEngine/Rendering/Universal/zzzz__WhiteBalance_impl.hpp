@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\WhiteBalance.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/WhiteBalance.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__WhiteBalance_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ClampedFloatParameter_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockPositionUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockPositionUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class MaterialPropertyBlockPositionUpdater;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MaterialPropertyBlockPositionUpdater*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MaterialPropertyBlockPositionUpdater*, "", "MaterialPropertyBlockPositionUpdater");
+// [ExecuteAlways]
 // Dependencies MaterialPropertyBlockAnimator
 namespace GlobalNamespace {
 // Is value type: false
@@ -45,17 +46,20 @@ protected:
   constexpr MaterialPropertyBlockPositionUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockPositionUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdater const&) = delete;
+  MaterialPropertyBlockPositionUpdater(MaterialPropertyBlockPositionUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19575 };
 
+  /// [Space]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _targetTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____targetTransform;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafeHandleMinusOneIsInvalid.hpp"
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeHandleMinusOneIsInvalid.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_def.hpp"
 //  Writing Method size for method: ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid._ctor
@@ -40,6 +40,7 @@ inline bool Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::get_IsIn
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
+/// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
 inline ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid* Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::New_ctor(bool ownsHandle) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid*>(ownsHandle));
 }

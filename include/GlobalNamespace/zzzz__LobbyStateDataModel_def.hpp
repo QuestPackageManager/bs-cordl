@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LobbyStateDataModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/LobbyStateDataModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -162,9 +162,11 @@ public:
   /// @brief Method .ctor, addr 0x373d814, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerConnectedEvent, addr 0x373c5ec, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerDisconnectedEvent, addr 0x373c76c, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
@@ -189,9 +191,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerConnectedEvent, addr 0x373c6ac, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerDisconnectedEvent, addr 0x373c82c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
@@ -201,20 +205,22 @@ protected:
   constexpr LobbyStateDataModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LobbyStateDataModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyStateDataModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LobbyStateDataModel(LobbyStateDataModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LobbyStateDataModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyStateDataModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyStateDataModel(LobbyStateDataModel const&) = delete;
+  LobbyStateDataModel(LobbyStateDataModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15109 };
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _unifiedNetworkPlayerModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IUnifiedNetworkPlayerModel* ____unifiedNetworkPlayerModel;
 
@@ -227,9 +233,11 @@ public:
   /// @brief Field _configuration, offset: 0x30, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration ____configuration;
 
+  /// [CompilerGenerated]
   /// @brief Field playerConnectedEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* ___playerConnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerDisconnectedEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* ___playerDisconnectedEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\XSalsa20Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/XSalsa20Engine.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Salsa20Engine_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__XSalsa20Engine_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine.get_AlgorithmName

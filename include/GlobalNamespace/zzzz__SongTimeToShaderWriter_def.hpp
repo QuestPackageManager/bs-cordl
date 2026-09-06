@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongTimeToShaderWriter.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongTimeToShaderWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,17 +53,18 @@ protected:
   constexpr SongTimeToShaderWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongTimeToShaderWriter(SongTimeToShaderWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongTimeToShaderWriter(SongTimeToShaderWriter const&) = delete;
+  SongTimeToShaderWriter(SongTimeToShaderWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6677 };
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 

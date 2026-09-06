@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionNodeSelectionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionNodeSelectionManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,9 +87,11 @@ public:
   /// @brief Method .ctor, addr 0x593c88c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectMissionNodeEvent, addr 0x593bf74, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectMissionNodeEvent, addr 0x593c034, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
@@ -99,20 +101,22 @@ protected:
   constexpr MissionNodeSelectionManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeSelectionManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeSelectionManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionNodeSelectionManager(MissionNodeSelectionManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeSelectionManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeSelectionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionNodeSelectionManager(MissionNodeSelectionManager const&) = delete;
+  MissionNodeSelectionManager(MissionNodeSelectionManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6875 };
 
+  /// [SerializeField]
   /// @brief Field _missionNodesManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectMissionNodeEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* ___didSelectMissionNodeEvent;
 

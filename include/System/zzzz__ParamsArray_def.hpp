@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ParamsArray.hpp"
+// IWYU pragma private; include "System/ParamsArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ struct ParamsArray;
 // Write type traits
 MARK_VAL_T(::System::ParamsArray);
 DEFINE_IL2CPP_CLASS(::System::ParamsArray, "System", "ParamsArray");
+// [DefaultMember("Item")]
+// [IsReadOnly]
 // Dependencies System.Object
 namespace System {
 // Is value type: true
@@ -75,8 +77,9 @@ public:
   // @brief default ctor
   constexpr ParamsArray();
 
-  // Ctor Parameters [CppParam { name: "_arg0", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_arg1", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam
-  // { name: "_arg2", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_args", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_arg0", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_arg1", ty: "::System::Object*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_arg2", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_args", ty: "::ArrayW<::System::Object*>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr ParamsArray(::System::Object* _arg0, ::System::Object* _arg1, ::System::Object* _arg2, ::ArrayW<::System::Object*> _args) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\BuildingBlock.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/BuildingBlock.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__BuildingBlock_def.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__InstallationRoutineCheckpoint_def.hpp"

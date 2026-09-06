@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RendererOverrideOption.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RendererOverrideOption.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RendererOverrideOption;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::RendererOverrideOption);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::RendererOverrideOption, "UnityEngine.Rendering.Universal", "RendererOverrideOption");
+// [Obsolete("Renderer override is no longer used, renderers are referenced by index on the pipeline asset.")]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr RendererOverrideOption();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RendererOverrideOption(int32_t value__) noexcept;
 
   /// @brief Field Custom value: I32(0)

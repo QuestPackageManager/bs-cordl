@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerAssetBundle.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerAssetBundle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr DownloadHandlerAssetBundle_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DownloadHandlerAssetBundle_BindingsMarshaller(DownloadHandlerAssetBundle_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerAssetBundle_BindingsMarshaller(DownloadHandlerAssetBundle_BindingsMarshaller const&) = delete;
+  DownloadHandlerAssetBundle_BindingsMarshaller(DownloadHandlerAssetBundle_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23238 };
@@ -72,6 +72,7 @@ public:
 static_assert(sizeof(::UnityEngine::Networking::DownloadHandlerAssetBundle_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
+// [NativeHeader("Modules/UnityWebRequestAssetBundle/Public/DownloadHandlerAssetBundle.h")]
 // Dependencies UnityEngine.Networking.DownloadHandler
 namespace UnityEngine::Networking {
 // Is value type: false
@@ -88,10 +89,11 @@ public:
   __declspec(property(get = get_isDownloadComplete)) bool isDownloadComplete;
 
   /// @brief Method Create, addr 0x6e262ec, size 0x144, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, uint32_t crc);
+  static inline ::System::IntPtr Create(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, uint32_t crc);
 
   /// @brief Method CreateCached, addr 0x6e26484, size 0x1d4, virtual false, abstract: false, final false
-  static inline ::System::IntPtr CreateCached(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, ::StringW name, ::UnityEngine::Hash128 hash, uint32_t crc);
+  static inline ::System::IntPtr CreateCached(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, ::StringW name, ::UnityEngine::Hash128 hash,
+                                              uint32_t crc);
 
   /// @brief Method CreateCached_Injected, addr 0x6e26658, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateCached_Injected(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> url,
@@ -140,6 +142,7 @@ public:
   /// @brief Method get_isDownloadComplete_Injected, addr 0x6e26a7c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isDownloadComplete_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeThrows]
   /// @brief Method set_autoLoadAssetBundle, addr 0x6e26990, size 0x58, virtual false, abstract: false, final false
   inline void set_autoLoadAssetBundle(bool value);
 
@@ -152,13 +155,13 @@ protected:
   constexpr DownloadHandlerAssetBundle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DownloadHandlerAssetBundle(DownloadHandlerAssetBundle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerAssetBundle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerAssetBundle(DownloadHandlerAssetBundle const&) = delete;
+  DownloadHandlerAssetBundle(DownloadHandlerAssetBundleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23239 };

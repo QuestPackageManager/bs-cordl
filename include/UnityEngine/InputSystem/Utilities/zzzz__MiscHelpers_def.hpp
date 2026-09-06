@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\MiscHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/MiscHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::UnityEngine::InputSystem::Utilities::MiscHelpers*);
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::MiscHelpers*, "UnityEngine.InputSystem.Utilities", "MiscHelpers");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1, "UnityEngine.InputSystem.Utilities", "MiscHelpers/<EveryNth>d__1`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
@@ -106,23 +107,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1<TValue>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<TValue>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TValue>* System_Collections_Generic_IEnumerable_TValue__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<TValue>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue System_Collections_Generic_IEnumerator_TValue__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -195,6 +203,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -219,13 +228,13 @@ protected:
   constexpr MiscHelpers__EveryNth_d__1_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers__EveryNth_d__1_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers__EveryNth_d__1_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MiscHelpers__EveryNth_d__1_1(MiscHelpers__EveryNth_d__1_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers__EveryNth_d__1_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers__EveryNth_d__1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MiscHelpers__EveryNth_d__1_1(MiscHelpers__EveryNth_d__1_1 const&) = delete;
+  MiscHelpers__EveryNth_d__1_1(MiscHelpers__EveryNth_d__1_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9173 };
@@ -267,6 +276,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
@@ -276,12 +286,16 @@ public:
   // Declarations
   template <typename TValue> using _EveryNth_d__1_1 = ::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1<TValue>;
 
+  /// [IteratorStateMachine(typeof(UnityEngine.InputSystem.Utilities.MiscHelpers::<EveryNth>d__1`1<TValue>))]
+  /// [Extension]
   /// @brief Method EveryNth, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::Collections::Generic::IEnumerable_1<TValue>* EveryNth(::System::Collections::Generic::IEnumerable_1<TValue>* enumerable, int32_t n, int32_t start);
 
+  /// [Extension]
   /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> static inline TValue GetValueOrDefault(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary, TKey key);
 
+  /// [Extension]
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline int32_t IndexOf(::System::Collections::Generic::IEnumerable_1<TValue>* enumerable, TValue value);
 
@@ -291,13 +305,13 @@ protected:
   constexpr MiscHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MiscHelpers(MiscHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MiscHelpers(MiscHelpers const&) = delete;
+  MiscHelpers(MiscHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9174 };

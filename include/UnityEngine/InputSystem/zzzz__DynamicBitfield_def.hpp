@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\DynamicBitfield.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/DynamicBitfield.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,8 +43,8 @@ public:
   // @brief default ctor
   constexpr DynamicBitfield();
 
-  // Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DynamicBitfield(::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> array, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

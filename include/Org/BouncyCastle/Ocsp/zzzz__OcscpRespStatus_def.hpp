@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Ocsp\OcscpRespStatus.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Ocsp/OcscpRespStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class OcscpRespStatus;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Ocsp::OcscpRespStatus*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Ocsp::OcscpRespStatus*, "Org.BouncyCastle.Ocsp", "OcscpRespStatus");
+// [Obsolete("Use version with correct spelling \'OcspRespStatus\'")]
 // Dependencies Org.BouncyCastle.Ocsp.OcspRespStatus
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr OcscpRespStatus();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcscpRespStatus", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcscpRespStatus", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcscpRespStatus(OcscpRespStatus&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcscpRespStatus", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcscpRespStatus", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcscpRespStatus(OcscpRespStatus const&) = delete;
+  OcscpRespStatus(OcscpRespStatusconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1619 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightGroupLinearLayouter.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightGroupLinearLayouter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class LightGroupLinearLayouter;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightGroupLinearLayouter*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightGroupLinearLayouter*, "", "LightGroupLinearLayouter");
+// [ExecuteAlways]
 // Dependencies LightGroupSubsystem, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -67,23 +68,27 @@ protected:
   constexpr LightGroupLinearLayouter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupLinearLayouter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupLinearLayouter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupLinearLayouter(LightGroupLinearLayouter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupLinearLayouter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupLinearLayouter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightGroupLinearLayouter(LightGroupLinearLayouter const&) = delete;
+  LightGroupLinearLayouter(LightGroupLinearLayouterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5901 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _movementStep, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____movementStep;
 
+  /// [SerializeField]
   /// @brief Field _defaultRotation, offset: 0x34, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____defaultRotation;
 
+  /// [SerializeField]
   /// @brief Field _startFromCenter, offset: 0x40, size: 0x1, def value: None
   bool ____startFromCenter;
 

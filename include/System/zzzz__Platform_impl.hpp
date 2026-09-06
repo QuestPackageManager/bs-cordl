@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Platform.hpp"
+// IWYU pragma private; include "System/Platform.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Platform_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

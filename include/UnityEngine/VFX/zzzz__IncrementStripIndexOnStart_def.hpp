@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\IncrementStripIndexOnStart.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/IncrementStripIndexOnStart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,17 +58,18 @@ protected:
   constexpr IncrementStripIndexOnStart_InputProperties();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart_InputProperties", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart_InputProperties", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IncrementStripIndexOnStart_InputProperties(IncrementStripIndexOnStart_InputProperties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart_InputProperties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart_InputProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IncrementStripIndexOnStart_InputProperties(IncrementStripIndexOnStart_InputProperties const&) = delete;
+  IncrementStripIndexOnStart_InputProperties(IncrementStripIndexOnStart_InputPropertiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19921 };
 
+  /// [Tooltip("Maximum Strip Count (Used to cycle indices)")]
   /// @brief Field StripMaxCount, offset: 0x10, size: 0x4, def value: None
   uint32_t ___StripMaxCount;
 
@@ -132,13 +133,13 @@ protected:
   constexpr IncrementStripIndexOnStart();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IncrementStripIndexOnStart(IncrementStripIndexOnStart&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncrementStripIndexOnStart", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IncrementStripIndexOnStart(IncrementStripIndexOnStart const&) = delete;
+  IncrementStripIndexOnStart(IncrementStripIndexOnStartconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19922 };

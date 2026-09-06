@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DefaultShaderType.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DefaultShaderType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DefaultShaderType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::DefaultShaderType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DefaultShaderType, "UnityEngine.Rendering", "DefaultShaderType");
+// [VisibleToOtherModules]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr DefaultShaderType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DefaultShaderType(int32_t value__) noexcept;
 
   /// @brief Field AutodeskInteractive value: I32(1)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\UnityWebRequestExtensions.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/UnityWebRequestExtensions.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_impl.hpp"
@@ -135,14 +135,15 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 BGLib::UnityExtension::UnityWebRequestExtensions__SendWebRequestAsync_d__0::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty: "::UnityEngine::Networking::UnityWebRequest*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_cancellationTokenRegistration_5__2", ty: "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap2", ty:
-// "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap4", ty:
-// "::UnityEngine::Networking::UnityWebRequest_Result", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ValueTaskAwaiter", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty:
+// "::UnityEngine::Networking::UnityWebRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_cancellationTokenRegistration_5__2", ty:
+// "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty:
+// "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__7__wrap4", ty: "::UnityEngine::Networking::UnityWebRequest_Result", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ValueTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::UnityExtension::UnityWebRequestExtensions__SendWebRequestAsync_d__0::UnityWebRequestExtensions__SendWebRequestAsync_d__0(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Networking::UnityWebRequest_Result> __t__builder,
     ::System::Threading::CancellationToken cancellationToken, ::UnityEngine::Networking::UnityWebRequest* request,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\LanguageDropdown.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/LanguageDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class LanguageDropdown;
 // Write type traits
 MARK_REF_T(::BGLib::Polyglot::LanguageDropdown*);
 DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::LanguageDropdown*, "BGLib.Polyglot", "LanguageDropdown");
+// [RequireComponent(typeof(UnityEngine.UI.Dropdown))]
+// [AddComponentMenu("UI/Language Dropdown", 36)]
 // Dependencies UnityEngine.MonoBehaviour
 namespace BGLib::Polyglot {
 // Is value type: false
@@ -39,6 +41,7 @@ public:
 
   static inline ::BGLib::Polyglot::LanguageDropdown* New_ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method OnLocalize, addr 0x331be0c, size 0x17c, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
@@ -66,17 +69,20 @@ protected:
   constexpr LanguageDropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageDropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageDropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LanguageDropdown(LanguageDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageDropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LanguageDropdown(LanguageDropdown const&) = delete;
+  LanguageDropdown(LanguageDropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22198 };
 
+  /// [Nullable(1)]
+  /// [Tooltip("The dropdown to populate with all the available languages")]
+  /// [SerializeField]
   /// @brief Field dropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Dropdown> ___dropdown;
 

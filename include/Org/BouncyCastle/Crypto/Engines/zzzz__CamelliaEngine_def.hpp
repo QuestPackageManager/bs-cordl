@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\CamelliaEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/CamelliaEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -195,13 +195,13 @@ protected:
   constexpr CamelliaEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CamelliaEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CamelliaEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CamelliaEngine(CamelliaEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CamelliaEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CamelliaEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CamelliaEngine(CamelliaEngine const&) = delete;
+  CamelliaEngine(CamelliaEngineconst&) = delete;
 
   /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x10) };

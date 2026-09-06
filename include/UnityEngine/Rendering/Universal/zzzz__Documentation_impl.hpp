@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Documentation.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Documentation.hpp"
 #include "UnityEngine/Rendering/zzzz__DocumentationInfo_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__Documentation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Documentation.GetPageLink

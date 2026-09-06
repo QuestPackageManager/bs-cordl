@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerScoreRingManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerScoreRingManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ class MultiplayerScoreRingManager;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerScoreRingManager*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerScoreRingManager*, "", "MultiplayerScoreRingManager");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerScoreRingManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -275,41 +276,50 @@ protected:
   constexpr MultiplayerScoreRingManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreRingManager(MultiplayerScoreRingManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreRingManager(MultiplayerScoreRingManager const&) = delete;
+  MultiplayerScoreRingManager(MultiplayerScoreRingManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6189 };
 
+  /// [SerializeField]
   /// @brief Field _delayBetweenScoreUpdates, offset: 0x20, size: 0x4, def value: None
   float_t ____delayBetweenScoreUpdates;
 
+  /// [SerializeField]
   /// @brief Field _centerDistanceOffset, offset: 0x24, size: 0x4, def value: None
   float_t ____centerDistanceOffset;
 
+  /// [Inject]
   /// @brief Field _multiplayerController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
+  /// [Inject]
   /// @brief Field _multiplayerPlayersManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _spawnCenter, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> ____spawnCenter;
 
+  /// [Inject]
   /// @brief Field _layoutProvider, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 
+  /// [Inject]
   /// @brief Field _scoreProvider, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
+  /// [Inject]
   /// @brief Field _scoreRingItemPool, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerScoreRingItem_Pool* ____scoreRingItemPool;
 

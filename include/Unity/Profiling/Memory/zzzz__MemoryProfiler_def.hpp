@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\Memory\MemoryProfiler.hpp"
+// IWYU pragma private; include "Unity/Profiling/Memory/MemoryProfiler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class MemoryProfiler;
 // Write type traits
 MARK_REF_T(::Unity::Profiling::Memory::MemoryProfiler*);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::Memory::MemoryProfiler*, "Unity.Profiling.Memory", "MemoryProfiler");
+// [NativeHeader("Runtime/Profiler/Runtime/MemorySnapshotManager.h")]
 // Dependencies System.Object
 namespace Unity::Profiling::Memory {
 // Is value type: false
@@ -53,12 +54,15 @@ public:
   /// @brief Field m_SnapshotFinished, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_SnapshotFinished, put = setStaticF_m_SnapshotFinished)) ::System::Action_2<::StringW, bool>* m_SnapshotFinished;
 
+  /// [RequiredByNativeCode]
   /// @brief Method FinalizeSnapshot, addr 0x6a5ec8c, size 0x88, virtual false, abstract: false, final false
   static inline void FinalizeSnapshot(::StringW path, bool result);
 
+  /// [RequiredByNativeCode]
   /// @brief Method PrepareMetadata, addr 0x6a5e940, size 0x1f8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PrepareMetadata();
 
+  /// [RequiredByNativeCode]
   /// @brief Method SaveScreenshotToDisk, addr 0x6a5ed14, size 0xf0, virtual false, abstract: false, final false
   static inline void SaveScreenshotToDisk(::StringW path, bool result, ::System::IntPtr pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
@@ -68,6 +72,7 @@ public:
   /// @brief Method WriteStringToByteArray, addr 0x6a5ebc0, size 0x78, virtual false, abstract: false, final false
   static inline int32_t WriteStringToByteArray(::ArrayW<uint8_t> array, int32_t offset, ::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_CreatingMetadata, addr 0x6a5e778, size 0xe4, virtual false, abstract: false, final false
   static inline void add_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value);
 
@@ -77,6 +82,7 @@ public:
 
   static inline ::System::Action_2<::StringW, bool>* getStaticF_m_SnapshotFinished();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_CreatingMetadata, addr 0x6a5e85c, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value);
 
@@ -92,13 +98,13 @@ protected:
   constexpr MemoryProfiler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryProfiler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryProfiler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryProfiler(MemoryProfiler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryProfiler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryProfiler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemoryProfiler(MemoryProfiler const&) = delete;
+  MemoryProfiler(MemoryProfilerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9963 };

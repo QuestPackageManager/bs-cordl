@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessParams.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,8 +30,8 @@ public:
   // @brief default ctor
   constexpr PostProcessParams();
 
-  // Ctor Parameters [CppParam { name: "blitMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "requestColorFormat", ty:
-  // "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "blitMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "requestColorFormat", ty:
+  // "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None, comment: None }]
   constexpr PostProcessParams(::UnityW<::UnityEngine::Material> blitMaterial, ::UnityEngine::Experimental::Rendering::GraphicsFormat requestColorFormat) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

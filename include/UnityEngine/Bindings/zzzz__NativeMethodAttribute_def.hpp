@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\NativeMethodAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/NativeMethodAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class NativeMethodAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativeMethodAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativeMethodAttribute*, "UnityEngine.Bindings", "NativeMethodAttribute");
+// [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)192)]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -95,18 +97,23 @@ public:
   /// @brief Method .ctor, addr 0x6bb62f4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction, bool isThreadSafe);
 
+  /// [CompilerGenerated]
   /// @brief Method set_HasExplicitThis, addr 0x6bb61cc, size 0x8, virtual true, abstract: false, final true
   inline void set_HasExplicitThis(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsFreeFunction, addr 0x6bb61bc, size 0x8, virtual true, abstract: false, final true
   inline void set_IsFreeFunction(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsThreadSafe, addr 0x6bb61b4, size 0x8, virtual true, abstract: false, final true
   inline void set_IsThreadSafe(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x6bb61ac, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ThrowsException, addr 0x6bb61c4, size 0x8, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
@@ -116,29 +123,39 @@ protected:
   constexpr NativeMethodAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeMethodAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeMethodAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeMethodAttribute(NativeMethodAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeMethodAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeMethodAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeMethodAttribute(NativeMethodAttribute const&) = delete;
+  NativeMethodAttribute(NativeMethodAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23111 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsThreadSafe>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____IsThreadSafe_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsFreeFunction>k__BackingField, offset: 0x19, size: 0x1, def value: None
   bool ____IsFreeFunction_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ThrowsException>k__BackingField, offset: 0x1a, size: 0x1, def value: None
   bool ____ThrowsException_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <HasExplicitThis>k__BackingField, offset: 0x1b, size: 0x1, def value: None
   bool ____HasExplicitThis_k__BackingField;
 

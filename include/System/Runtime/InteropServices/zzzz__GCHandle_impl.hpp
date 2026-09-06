@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\GCHandle.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/GCHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandleType_def.hpp"
@@ -470,7 +470,7 @@ inline ::System::IntPtr System::Runtime::InteropServices::GCHandle::ToIntPtr(::S
                    (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::GCHandle>(), { "ToIntPtr", {}, { ::i2c::type_of<::System::Runtime::InteropServices::GCHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::InteropServices::GCHandle::GCHandle(::System::IntPtr handle) noexcept {
   this->handle = handle;
 }

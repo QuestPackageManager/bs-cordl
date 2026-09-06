@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\EditorInstanceDataArrays.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/EditorInstanceDataArrays.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_VAL_T(::UnityEngine::Rendering::EditorInstanceDataArrays);
 MARK_VAL_T(::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::EditorInstanceDataArrays, "UnityEngine.Rendering", "EditorInstanceDataArrays");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly, "UnityEngine.Rendering", "EditorInstanceDataArrays/ReadOnly");
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -36,7 +37,7 @@ struct CORDL_TYPE EditorInstanceDataArrays_ReadOnly {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x6825480, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData);
 
   // Ctor Parameters []
   // @brief default ctor

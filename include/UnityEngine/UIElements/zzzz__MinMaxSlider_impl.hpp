@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MinMaxSlider.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MinMaxSlider.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
@@ -128,7 +128,7 @@ inline ::UnityEngine::UIElements::MinMaxSlider_UxmlTraits* UnityEngine::UIElemen
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MinMaxSlider_UxmlTraits::MinMaxSlider_UxmlTraits() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::MinMaxSlider_DragState::MinMaxSlider_DragState(int32_t value__) noexcept {
   this->value__ = value__;
 }

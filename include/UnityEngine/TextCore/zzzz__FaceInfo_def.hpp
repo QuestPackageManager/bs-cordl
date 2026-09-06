@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\FaceInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/FaceInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ struct FaceInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::FaceInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::FaceInfo, "UnityEngine.TextCore", "FaceInfo");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::TextCore {
 // Is value type: true
@@ -30,6 +31,7 @@ public:
 
   __declspec(property(get = get_descentLine)) float_t descentLine;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   __declspec(property(get = get_faceIndex)) int32_t faceIndex;
 
   __declspec(property(get = get_familyName)) ::StringW familyName;
@@ -60,6 +62,7 @@ public:
 
   __declspec(property(get = get_underlineThickness)) float_t underlineThickness;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   __declspec(property(get = get_unitsPerEM, put = set_unitsPerEM)) int32_t unitsPerEM;
 
   /// @brief Method get_ascentLine, addr 0x6bbc070, size 0x8, virtual false, abstract: false, final false
@@ -141,16 +144,17 @@ public:
   // @brief default ctor
   constexpr FaceInfo();
 
-  // Ctor Parameters [CppParam { name: "m_FaceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_FamilyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "m_StyleName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_PointSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Scale", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_UnitsPerEM", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_LineHeight", ty: "float_t", modifiers: "", def_value: None
-  // }, CppParam { name: "m_AscentLine", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_CapLine", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_MeanLine",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Baseline", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_DescentLine", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_SuperscriptOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_SuperscriptSize", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_SubscriptOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_SubscriptSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_UnderlineOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UnderlineThickness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_StrikethroughOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_StrikethroughThickness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_TabWidth", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_FaceIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FamilyName", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_StyleName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PointSize", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_Scale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UnitsPerEM", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_LineHeight", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AscentLine", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_CapLine", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MeanLine", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_Baseline", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DescentLine", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_SuperscriptOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SuperscriptSize", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_SubscriptOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SubscriptSize", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UnderlineOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UnderlineThickness", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StrikethroughOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_StrikethroughThickness", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_TabWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr FaceInfo(int32_t m_FaceIndex, ::StringW m_FamilyName, ::StringW m_StyleName, float_t m_PointSize, float_t m_Scale, int32_t m_UnitsPerEM, float_t m_LineHeight, float_t m_AscentLine,
                      float_t m_CapLine, float_t m_MeanLine, float_t m_Baseline, float_t m_DescentLine, float_t m_SuperscriptOffset, float_t m_SuperscriptSize, float_t m_SubscriptOffset,
                      float_t m_SubscriptSize, float_t m_UnderlineOffset, float_t m_UnderlineThickness, float_t m_StrikethroughOffset, float_t m_StrikethroughThickness, float_t m_TabWidth) noexcept;
@@ -161,66 +165,108 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
+  /// [SerializeField]
+  /// [NativeName("faceIndex")]
   /// @brief Field m_FaceIndex, offset: 0x0, size: 0x4, def value: None
   int32_t m_FaceIndex;
 
+  /// [SerializeField]
+  /// [NativeName("familyName")]
   /// @brief Field m_FamilyName, offset: 0x8, size: 0x8, def value: None
   ::StringW m_FamilyName;
 
+  /// [SerializeField]
+  /// [NativeName("styleName")]
   /// @brief Field m_StyleName, offset: 0x10, size: 0x8, def value: None
   ::StringW m_StyleName;
 
+  /// [SerializeField]
+  /// [NativeName("pointSize")]
   /// @brief Field m_PointSize, offset: 0x18, size: 0x4, def value: None
   float_t m_PointSize;
 
+  /// [SerializeField]
+  /// [NativeName("scale")]
   /// @brief Field m_Scale, offset: 0x1c, size: 0x4, def value: None
   float_t m_Scale;
 
+  /// [SerializeField]
+  /// [NativeName("unitsPerEM")]
   /// @brief Field m_UnitsPerEM, offset: 0x20, size: 0x4, def value: None
   int32_t m_UnitsPerEM;
 
+  /// [SerializeField]
+  /// [NativeName("lineHeight")]
   /// @brief Field m_LineHeight, offset: 0x24, size: 0x4, def value: None
   float_t m_LineHeight;
 
+  /// [NativeName("ascentLine")]
+  /// [SerializeField]
   /// @brief Field m_AscentLine, offset: 0x28, size: 0x4, def value: None
   float_t m_AscentLine;
 
+  /// [SerializeField]
+  /// [NativeName("capLine")]
   /// @brief Field m_CapLine, offset: 0x2c, size: 0x4, def value: None
   float_t m_CapLine;
 
+  /// [NativeName("meanLine")]
+  /// [SerializeField]
   /// @brief Field m_MeanLine, offset: 0x30, size: 0x4, def value: None
   float_t m_MeanLine;
 
+  /// [SerializeField]
+  /// [NativeName("baseline")]
   /// @brief Field m_Baseline, offset: 0x34, size: 0x4, def value: None
   float_t m_Baseline;
 
+  /// [NativeName("descentLine")]
+  /// [SerializeField]
   /// @brief Field m_DescentLine, offset: 0x38, size: 0x4, def value: None
   float_t m_DescentLine;
 
+  /// [SerializeField]
+  /// [NativeName("superscriptOffset")]
   /// @brief Field m_SuperscriptOffset, offset: 0x3c, size: 0x4, def value: None
   float_t m_SuperscriptOffset;
 
+  /// [NativeName("superscriptSize")]
+  /// [SerializeField]
   /// @brief Field m_SuperscriptSize, offset: 0x40, size: 0x4, def value: None
   float_t m_SuperscriptSize;
 
+  /// [SerializeField]
+  /// [NativeName("subscriptOffset")]
   /// @brief Field m_SubscriptOffset, offset: 0x44, size: 0x4, def value: None
   float_t m_SubscriptOffset;
 
+  /// [SerializeField]
+  /// [NativeName("subscriptSize")]
   /// @brief Field m_SubscriptSize, offset: 0x48, size: 0x4, def value: None
   float_t m_SubscriptSize;
 
+  /// [SerializeField]
+  /// [NativeName("underlineOffset")]
   /// @brief Field m_UnderlineOffset, offset: 0x4c, size: 0x4, def value: None
   float_t m_UnderlineOffset;
 
+  /// [SerializeField]
+  /// [NativeName("underlineThickness")]
   /// @brief Field m_UnderlineThickness, offset: 0x50, size: 0x4, def value: None
   float_t m_UnderlineThickness;
 
+  /// [NativeName("strikethroughOffset")]
+  /// [SerializeField]
   /// @brief Field m_StrikethroughOffset, offset: 0x54, size: 0x4, def value: None
   float_t m_StrikethroughOffset;
 
+  /// [SerializeField]
+  /// [NativeName("strikethroughThickness")]
   /// @brief Field m_StrikethroughThickness, offset: 0x58, size: 0x4, def value: None
   float_t m_StrikethroughThickness;
 
+  /// [SerializeField]
+  /// [NativeName("tabWidth")]
   /// @brief Field m_TabWidth, offset: 0x5c, size: 0x4, def value: None
   float_t m_TabWidth;
 

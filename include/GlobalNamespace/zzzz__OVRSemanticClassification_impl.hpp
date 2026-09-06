@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSemanticClassification.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSemanticClassification.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSemanticClassification_def.hpp"
 #include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameSessionAnalyticsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameSessionAnalyticsManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameSessionAnalyticsManager_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"

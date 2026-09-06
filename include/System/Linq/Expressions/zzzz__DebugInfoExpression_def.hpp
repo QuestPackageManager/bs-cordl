@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\DebugInfoExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/DebugInfoExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class DebugInfoExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::DebugInfoExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::DebugInfoExpression*, "System.Linq.Expressions", "DebugInfoExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::DebugInfoExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -25,10 +26,13 @@ public:
   // Declarations
   __declspec(property(get = get_Document)) ::System::Linq::Expressions::SymbolDocumentInfo* Document;
 
+  /// @brief [ExcludeFromCodeCoverage]
   __declspec(property(get = get_EndLine)) int32_t EndLine;
 
+  /// @brief [ExcludeFromCodeCoverage]
   __declspec(property(get = get_IsClear)) bool IsClear;
 
+  /// @brief [ExcludeFromCodeCoverage]
   __declspec(property(get = get_StartLine)) int32_t StartLine;
 
   /// @brief Field <Document>k__BackingField, offset 0x10, size 0x8
@@ -41,6 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__Document_k__BackingField(::System::Linq::Expressions::SymbolDocumentInfo* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Document, addr 0x5f7ad08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::SymbolDocumentInfo* get_Document();
 
@@ -59,17 +64,18 @@ protected:
   constexpr DebugInfoExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInfoExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInfoExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugInfoExpression(DebugInfoExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInfoExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInfoExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInfoExpression(DebugInfoExpression const&) = delete;
+  DebugInfoExpression(DebugInfoExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16161 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Document>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::SymbolDocumentInfo* ____Document_k__BackingField;
 

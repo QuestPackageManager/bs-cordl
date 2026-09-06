@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlAsyncCheckReaderWithLineInfoNSSchema.hpp"
+// IWYU pragma private; include "System/Xml/XmlAsyncCheckReaderWithLineInfoNSSchema.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,13 +101,13 @@ protected:
   constexpr XmlAsyncCheckReaderWithLineInfoNSSchema();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAsyncCheckReaderWithLineInfoNSSchema", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAsyncCheckReaderWithLineInfoNSSchema", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlAsyncCheckReaderWithLineInfoNSSchema(XmlAsyncCheckReaderWithLineInfoNSSchema&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAsyncCheckReaderWithLineInfoNSSchema", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAsyncCheckReaderWithLineInfoNSSchema", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlAsyncCheckReaderWithLineInfoNSSchema(XmlAsyncCheckReaderWithLineInfoNSSchema const&) = delete;
+  XmlAsyncCheckReaderWithLineInfoNSSchema(XmlAsyncCheckReaderWithLineInfoNSSchemaconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9306 };

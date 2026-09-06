@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextStyle.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextStyle.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__FontStyles_impl.hpp"
 #include "GlobalNamespace/zzzz__TextStyle_def.hpp"

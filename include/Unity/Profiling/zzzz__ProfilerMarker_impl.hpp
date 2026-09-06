@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerMarker.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerMarker.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -48,7 +48,7 @@ constexpr Unity::Profiling::ProfilerMarker_AutoScope::operator ::System::IDispos
 constexpr ::System::IDisposable* Unity::Profiling::ProfilerMarker_AutoScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::ProfilerMarker_AutoScope::ProfilerMarker_AutoScope(::System::IntPtr m_Ptr) noexcept {
   this->m_Ptr = m_Ptr;
 }
@@ -120,7 +120,7 @@ inline ::Unity::Profiling::ProfilerMarker_AutoScope Unity::Profiling::ProfilerMa
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarker>(), { "Auto", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerMarker_AutoScope>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::ProfilerMarker::ProfilerMarker(::System::IntPtr m_Ptr) noexcept {
   this->m_Ptr = m_Ptr;
 }

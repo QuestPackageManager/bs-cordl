@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\GizmoRendererManager.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/GizmoRendererManager.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__DebugGizmoType_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

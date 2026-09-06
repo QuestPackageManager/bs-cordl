@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightTranslationGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightTranslationGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ class LightTranslationGroup;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightTranslationGroup*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightTranslationGroup*, "", "LightTranslationGroup");
+// [ExecuteAlways]
 // Dependencies LightTransformGroup`3<TX, TY, TZ>, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
@@ -149,32 +150,40 @@ protected:
   constexpr LightTranslationGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationGroup(LightTranslationGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightTranslationGroup(LightTranslationGroup const&) = delete;
+  LightTranslationGroup(LightTranslationGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5917 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _xTranslationLimits, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xTranslationLimits;
 
+  /// [SerializeField]
   /// @brief Field _yTranslationLimits, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____yTranslationLimits;
 
+  /// [SerializeField]
   /// @brief Field _zTranslationLimits, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____zTranslationLimits;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _xDistributionLimits, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xDistributionLimits;
 
+  /// [SerializeField]
   /// @brief Field _yDistributionLimits, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____yDistributionLimits;
 
+  /// [SerializeField]
   /// @brief Field _zDistributionLimits, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____zDistributionLimits;
 

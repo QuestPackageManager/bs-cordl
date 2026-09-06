@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ArrayExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ArrayExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayExtensions)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Jobs {
 struct TransformAccessArray;
@@ -20,6 +22,7 @@ class ArrayExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ArrayExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ArrayExtensions*, "UnityEngine.Rendering", "ArrayExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -27,15 +30,22 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE ArrayExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method FillArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void FillArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, ::by_ref<T> value, int32_t startIndex, int32_t length);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void FillArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, /* [IsReadOnly] */ ::by_ref<T> value, int32_t startIndex, int32_t length);
 
   /// @brief Method ResizeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ResizeArray(::by_ref<::ArrayW<T>> array, int32_t capacity);
 
+  /// [Extension]
   /// @brief Method ResizeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void ResizeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, int32_t capacity);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void ResizeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> array, int32_t capacity);
 
+  /// [Extension]
   /// @brief Method ResizeArray, addr 0x67b4fa8, size 0xb4, virtual false, abstract: false, final false
   static inline void ResizeArray(::by_ref<::UnityEngine::Jobs::TransformAccessArray> array, int32_t capacity);
 
@@ -45,13 +55,13 @@ protected:
   constexpr ArrayExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayExtensions(ArrayExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayExtensions(ArrayExtensions const&) = delete;
+  ArrayExtensions(ArrayExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12254 };

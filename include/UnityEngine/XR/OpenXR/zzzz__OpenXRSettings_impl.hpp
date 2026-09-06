@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRSettings.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
@@ -9,7 +9,7 @@
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRSettings_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup::OpenXRSettings_ColorSubmissionModeGroup(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -63,7 +63,7 @@ inline ::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeList* UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeList::OpenXRSettings_ColorSubmissionModeList() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode::OpenXRSettings_RenderMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -71,7 +71,7 @@ constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode::OpenXRSettings_R
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode::OpenXRSettings_RenderMode() {}
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode::MultiPass{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode::SinglePassInstanced{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode::OpenXRSettings_DepthSubmissionMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -80,7 +80,7 @@ constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode::OpenXRS
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode::Depth16Bit{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode::Depth24Bit{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi::OpenXRSettings_BackendFovationApi(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -88,7 +88,7 @@ constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi::OpenXRSe
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi::OpenXRSettings_BackendFovationApi() {}
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi::Legacy{ static_cast<uint8_t>(0x0u) };
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi::SRPFoveation{ static_cast<uint8_t>(0x1u) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat::OpenXRSettings_SpaceWarpMotionVectorTextureFormat(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1094,7 +1094,9 @@ inline int32_t UnityEngine::XR::OpenXR::OpenXRSettings::get_featureCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_featureCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-template <typename TFeature> inline TFeature UnityEngine::XR::OpenXR::OpenXRSettings::GetFeature() {
+template <typename TFeature>
+  requires(::cordl_internals::type_constraint<TFeature, ::UnityEngine::XR::OpenXR::Features::OpenXRFeature*>)
+inline TFeature UnityEngine::XR::OpenXR::OpenXRSettings::GetFeature() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "GetFeature", { ::i2c::class_of<TFeature>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TFeature>() })));
@@ -1116,7 +1118,9 @@ inline ::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> Un
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "GetFeatures", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>>>(this, ___internal_method, featureType);
 }
-template <typename TFeature> inline int32_t UnityEngine::XR::OpenXR::OpenXRSettings::GetFeatures(::System::Collections::Generic::List_1<TFeature>* featuresOut) {
+template <typename TFeature>
+  requires(::cordl_internals::type_constraint<TFeature, ::UnityEngine::XR::OpenXR::Features::OpenXRFeature*>)
+inline int32_t UnityEngine::XR::OpenXR::OpenXRSettings::GetFeatures(::System::Collections::Generic::List_1<TFeature>* featuresOut) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(),
                                                            { "GetFeatures", { ::i2c::class_of<TFeature>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<TFeature>*>() } })));

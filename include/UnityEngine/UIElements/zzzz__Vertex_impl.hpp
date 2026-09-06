@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Vertex.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Vertex.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -11,12 +11,12 @@ inline void UnityEngine::UIElements::Vertex::setStaticF_nearZ(float_t value) {
 inline float_t UnityEngine::UIElements::Vertex::getStaticF_nearZ() {
   return ::cordl_internals::getStaticField<float_t, "nearZ", ::UnityEngine::UIElements::Vertex>();
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "xformClipPages", ty: "::UnityEngine::Color32", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ids", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "opacityColorPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "settingIndex", ty: "::UnityEngine::Color32", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "circle", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "textureId", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xformClipPages", ty:
+// "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ids", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "opacityColorPages", ty: "::UnityEngine::Color32", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "settingIndex", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "circle", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "textureId", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Vertex::Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, ::UnityEngine::Color32 xformClipPages,
                                                     ::UnityEngine::Color32 ids, ::UnityEngine::Color32 flags, ::UnityEngine::Color32 opacityColorPages, ::UnityEngine::Color32 settingIndex,
                                                     ::UnityEngine::Vector4 circle, float_t textureId) noexcept {

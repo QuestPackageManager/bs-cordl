@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Texture2DAtlas.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Texture2DAtlas.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
@@ -15,7 +15,7 @@
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Texture2DAtlas_BlitType::Texture2DAtlas_BlitType(int32_t value__) noexcept {
   this->value__ = value__;
 }

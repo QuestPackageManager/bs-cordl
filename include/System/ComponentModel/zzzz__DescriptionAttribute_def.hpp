@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\DescriptionAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/DescriptionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class DescriptionAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::DescriptionAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::DescriptionAttribute*, "System.ComponentModel", "DescriptionAttribute");
+// [AttributeUsage((System.AttributeTargets)32767)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -64,11 +65,13 @@ public:
   /// @brief Method get_Description, addr 0x63b4108, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Description();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DescriptionValue, addr 0x63b4110, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DescriptionValue();
 
   static inline void setStaticF_Default(::System::ComponentModel::DescriptionAttribute* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DescriptionValue, addr 0x63b4118, size 0x8, virtual false, abstract: false, final false
   inline void set_DescriptionValue(::StringW value);
 
@@ -78,17 +81,18 @@ protected:
   constexpr DescriptionAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DescriptionAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DescriptionAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DescriptionAttribute(DescriptionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DescriptionAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DescriptionAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DescriptionAttribute(DescriptionAttribute const&) = delete;
+  DescriptionAttribute(DescriptionAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11221 };
 
+  /// [CompilerGenerated]
   /// @brief Field <DescriptionValue>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____DescriptionValue_k__BackingField;
 

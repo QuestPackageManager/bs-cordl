@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonObjectId.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonObjectId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class BsonObjectId;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Bson::BsonObjectId*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Bson::BsonObjectId*, "Newtonsoft.Json.Bson", "BsonObjectId");
+// [Obsolete("BSON reading and writing has been moved to its own package. See https://www.nuget.org/packages/Newtonsoft.Json.Bson for more details.")]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
@@ -37,6 +38,7 @@ public:
   /// @brief Method .ctor, addr 0x5dac5f8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Value, addr 0x5dac5f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Value();
 
@@ -46,17 +48,18 @@ protected:
   constexpr BsonObjectId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonObjectId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonObjectId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonObjectId(BsonObjectId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonObjectId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonObjectId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonObjectId(BsonObjectId const&) = delete;
+  BsonObjectId(BsonObjectIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13692 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____Value_k__BackingField;
 

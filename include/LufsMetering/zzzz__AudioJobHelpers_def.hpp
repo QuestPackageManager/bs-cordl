@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering\AudioJobHelpers.hpp"
+// IWYU pragma private; include "LufsMetering/AudioJobHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ protected:
   constexpr AudioJobHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioJobHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioJobHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioJobHelpers(AudioJobHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioJobHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioJobHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioJobHelpers(AudioJobHelpers const&) = delete;
+  AudioJobHelpers(AudioJobHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22637 };

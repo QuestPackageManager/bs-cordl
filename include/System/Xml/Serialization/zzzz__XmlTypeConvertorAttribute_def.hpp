@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlTypeConvertorAttribute.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeConvertorAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class XmlTypeConvertorAttribute;
 // Write type traits
 MARK_REF_T(::System::Xml::Serialization::XmlTypeConvertorAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Serialization::XmlTypeConvertorAttribute*, "System.Xml.Serialization", "XmlTypeConvertorAttribute");
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System::Xml::Serialization {
 // Is value type: false
@@ -36,9 +37,11 @@ public:
   /// @brief Method .ctor, addr 0x62ecdb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW method);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Method, addr 0x62ecda8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Method, addr 0x62ecdb0, size 0x8, virtual false, abstract: false, final false
   inline void set_Method(::StringW value);
 
@@ -48,17 +51,18 @@ protected:
   constexpr XmlTypeConvertorAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTypeConvertorAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTypeConvertorAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTypeConvertorAttribute(XmlTypeConvertorAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTypeConvertorAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTypeConvertorAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTypeConvertorAttribute(XmlTypeConvertorAttribute const&) = delete;
+  XmlTypeConvertorAttribute(XmlTypeConvertorAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9492 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Method>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Method_k__BackingField;
 

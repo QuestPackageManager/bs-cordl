@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\D3D12TextureData_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/D3D12TextureData_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr D3D12TextureData_t();
 
-  // Ctor Parameters [CppParam { name: "m_pResource", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pCommandQueue", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }, CppParam { name: "m_nNodeMask", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_pResource", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_pCommandQueue", ty: "::System::IntPtr", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_nNodeMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr D3D12TextureData_t(::System::IntPtr m_pResource, ::System::IntPtr m_pCommandQueue, uint32_t m_nNodeMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

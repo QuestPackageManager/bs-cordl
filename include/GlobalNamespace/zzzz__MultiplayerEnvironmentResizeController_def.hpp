@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerEnvironmentResizeController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerEnvironmentResizeController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType, "", "MultiplayerEnvironmentResizeController/ResizeType");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerEnvironmentResizeController*, "", "MultiplayerEnvironmentResizeController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*, "", "MultiplayerEnvironmentResizeController/ResizeData");
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -80,7 +81,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerEnvironmentResizeController_ResizeType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerEnvironmentResizeController_ResizeType(int32_t value__) noexcept;
 
   /// @brief Field Length value: I32(2)
@@ -183,26 +184,32 @@ protected:
   constexpr MultiplayerEnvironmentResizeController_ResizeData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController_ResizeData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController_ResizeData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerEnvironmentResizeController_ResizeData(MultiplayerEnvironmentResizeController_ResizeData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController_ResizeData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController_ResizeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerEnvironmentResizeController_ResizeData(MultiplayerEnvironmentResizeController_ResizeData const&) = delete;
+  MultiplayerEnvironmentResizeController_ResizeData(MultiplayerEnvironmentResizeController_ResizeDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6140 };
 
+  /// [SerializeField]
   /// @brief Field _resizeType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType ____resizeType;
 
+  /// [SerializeField]
   /// @brief Field _offset, offset: 0x14, size: 0x4, def value: None
   float_t ____offset;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _lights, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> ____lights;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _otherTransforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____otherTransforms;
 
@@ -330,12 +337,14 @@ public:
   /// @brief Method .ctor, addr 0x59d78b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_resizingDidFinishEvent, addr 0x59d71cc, size 0xac, virtual false, abstract: false, final false
   inline void add_resizingDidFinishEvent(::System::Action* value);
 
   /// @brief Method get_isResizingFinished, addr 0x59d71c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isResizingFinished();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_resizingDidFinishEvent, addr 0x59d7278, size 0xac, virtual false, abstract: false, final false
   inline void remove_resizingDidFinishEvent(::System::Action* value);
 
@@ -345,29 +354,34 @@ protected:
   constexpr MultiplayerEnvironmentResizeController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerEnvironmentResizeController(MultiplayerEnvironmentResizeController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerEnvironmentResizeController(MultiplayerEnvironmentResizeController const&) = delete;
+  MultiplayerEnvironmentResizeController(MultiplayerEnvironmentResizeControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6141 };
 
+  /// [SerializeField]
   /// @brief Field _platformEnd, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____platformEnd;
 
+  /// [SerializeField]
   /// @brief Field _resizeData, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData*> ____resizeData;
 
+  /// [Inject]
   /// @brief Field _centerResizeController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> ____centerResizeController;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectSpawnCenter, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> ____beatmapObjectSpawnCenter;
 
+  /// [CompilerGenerated]
   /// @brief Field resizingDidFinishEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___resizingDidFinishEvent;
 

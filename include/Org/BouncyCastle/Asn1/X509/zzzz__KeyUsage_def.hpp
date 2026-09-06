@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\KeyUsage.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/KeyUsage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr KeyUsage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyUsage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyUsage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyUsage(KeyUsage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyUsage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyUsage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyUsage(KeyUsage const&) = delete;
+  KeyUsage(KeyUsageconst&) = delete;
 
   /// @brief Field CrlSign offset 0xffffffff size 0x4
   static constexpr int32_t CrlSign{ static_cast<int32_t>(0x2) };

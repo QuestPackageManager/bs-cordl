@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Categorization\CategoryInfoAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Categorization/CategoryInfoAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class CategoryInfoAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Categorization::CategoryInfoAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Categorization::CategoryInfoAttribute*, "UnityEngine.Categorization", "CategoryInfoAttribute");
+// [AttributeUsage((System.AttributeTargets)4, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace UnityEngine::Categorization {
 // Is value type: false
@@ -48,9 +49,11 @@ public:
   /// @brief Method .ctor, addr 0x6afedd4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x6afedcc, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Order, addr 0x6afedc4, size 0x8, virtual false, abstract: false, final false
   inline void set_Order(int32_t value);
 
@@ -60,20 +63,24 @@ protected:
   constexpr CategoryInfoAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CategoryInfoAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CategoryInfoAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CategoryInfoAttribute(CategoryInfoAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CategoryInfoAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CategoryInfoAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CategoryInfoAttribute(CategoryInfoAttribute const&) = delete;
+  CategoryInfoAttribute(CategoryInfoAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10466 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Order>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____Order_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 

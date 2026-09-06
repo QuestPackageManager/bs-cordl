@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet\Core\GameLift\IGameLiftPlayerSessionProvider.hpp"
+// IWYU pragma private; include "BGNet/Core/GameLift/IGameLiftPlayerSessionProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
-  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*
   GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                                ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
@@ -51,9 +51,9 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPollable"
   constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IGameLiftPlayerSessionProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IGameLiftPlayerSessionProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGameLiftPlayerSessionProvider(IGameLiftPlayerSessionProvider const&) = delete;
+  IGameLiftPlayerSessionProvider(IGameLiftPlayerSessionProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18997 };

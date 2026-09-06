@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightBakingOutput.hpp"
+// IWYU pragma private; include "UnityEngine/LightBakingOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ struct LightBakingOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::LightBakingOutput);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LightBakingOutput, "UnityEngine", "LightBakingOutput");
+// [NativeHeader("Runtime/Camera/SharedLightData.h")]
 // Dependencies UnityEngine.LightmapBakeType, UnityEngine.MixedLightingMode
 namespace UnityEngine {
 // Is value type: true
@@ -26,9 +27,10 @@ public:
   // @brief default ctor
   constexpr LightBakingOutput();
 
-  // Ctor Parameters [CppParam { name: "probeOcclusionLightIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occlusionMaskChannel", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "lightmapBakeType", ty: "::UnityEngine::LightmapBakeType", modifiers: "", def_value: None }, CppParam { name: "mixedLightingMode", ty: "::UnityEngine::MixedLightingMode",
-  // modifiers: "", def_value: None }, CppParam { name: "isBaked", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "probeOcclusionLightIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionMaskChannel", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "lightmapBakeType", ty: "::UnityEngine::LightmapBakeType", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "mixedLightingMode", ty: "::UnityEngine::MixedLightingMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "isBaked", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr LightBakingOutput(int32_t probeOcclusionLightIndex, int32_t occlusionMaskChannel, ::UnityEngine::LightmapBakeType lightmapBakeType, ::UnityEngine::MixedLightingMode mixedLightingMode,
                               bool isBaked) noexcept;
 
@@ -44,9 +46,11 @@ public:
   /// @brief Field occlusionMaskChannel, offset: 0x4, size: 0x4, def value: None
   int32_t occlusionMaskChannel;
 
+  /// [NativeName("lightmapBakeMode.lightmapBakeType")]
   /// @brief Field lightmapBakeType, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::LightmapBakeType lightmapBakeType;
 
+  /// [NativeName("lightmapBakeMode.mixedLightingMode")]
   /// @brief Field mixedLightingMode, offset: 0xc, size: 0x4, def value: None
   ::UnityEngine::MixedLightingMode mixedLightingMode;
 

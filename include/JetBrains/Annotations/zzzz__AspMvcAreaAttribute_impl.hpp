@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspMvcAreaAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcAreaAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AspMvcAreaAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::AspMvcAreaAttribute._ctor
@@ -68,7 +68,7 @@ inline void JetBrains::Annotations::AspMvcAreaAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcAreaAttribute*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void JetBrains::Annotations::AspMvcAreaAttribute::_ctor(::StringW anonymousProperty) {
+inline void JetBrains::Annotations::AspMvcAreaAttribute::_ctor(/* [NotNull] */ ::StringW anonymousProperty) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcAreaAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, anonymousProperty);
@@ -85,7 +85,7 @@ inline void JetBrains::Annotations::AspMvcAreaAttribute::set_AnonymousProperty(:
 inline ::JetBrains::Annotations::AspMvcAreaAttribute* JetBrains::Annotations::AspMvcAreaAttribute::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::AspMvcAreaAttribute*>());
 }
-inline ::JetBrains::Annotations::AspMvcAreaAttribute* JetBrains::Annotations::AspMvcAreaAttribute::New_ctor(::StringW anonymousProperty) {
+inline ::JetBrains::Annotations::AspMvcAreaAttribute* JetBrains::Annotations::AspMvcAreaAttribute::New_ctor(/* [NotNull] */ ::StringW anonymousProperty) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::AspMvcAreaAttribute*>(anonymousProperty));
 }
 // Ctor Parameters []

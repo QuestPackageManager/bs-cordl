@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\Interpreter.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/Interpreter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -146,15 +146,18 @@ public:
   /// @brief Method get_ClosureSize, addr 0x5f9e9ec, size 0x5c, virtual false, abstract: false, final false
   inline int32_t get_ClosureSize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ClosureVariables, addr 0x5f9ea5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* get_ClosureVariables();
 
   /// @brief Method get_Instructions, addr 0x5f9ea48, size 0x14, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::InstructionArray get_Instructions();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LocalCount, addr 0x5f9e9e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x5f9e9dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -166,13 +169,13 @@ protected:
   constexpr Interpreter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Interpreter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interpreter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Interpreter(Interpreter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Interpreter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Interpreter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Interpreter(Interpreter const&) = delete;
+  Interpreter(Interpreterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16395 };
@@ -189,12 +192,15 @@ public:
   /// @brief Field _debugInfos, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*> ____debugInfos;
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <LocalCount>k__BackingField, offset: 0x58, size: 0x4, def value: None
   int32_t ____LocalCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ClosureVariables>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* ____ClosureVariables_k__BackingField;
 

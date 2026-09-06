@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RectInt.hpp"
+// IWYU pragma private; include "UnityEngine/RectInt.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -332,8 +332,9 @@ constexpr UnityEngine::RectInt::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::RectInt::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_XMin", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YMin", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Width", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_XMin", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YMin", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::RectInt::RectInt(int32_t m_XMin, int32_t m_YMin, int32_t m_Width, int32_t m_Height) noexcept {
   this->m_XMin = m_XMin;
   this->m_YMin = m_YMin;

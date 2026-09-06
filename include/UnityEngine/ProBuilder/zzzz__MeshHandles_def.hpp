@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshHandles.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshHandles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshHandles*);
 MARK_REF_T(::UnityEngine::ProBuilder::MeshHandles___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshHandles*, "UnityEngine.ProBuilder", "MeshHandles");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshHandles___c*, "UnityEngine.ProBuilder", "MeshHandles/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -101,13 +102,13 @@ protected:
   constexpr MeshHandles___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshHandles___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshHandles___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshHandles___c(MeshHandles___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshHandles___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshHandles___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshHandles___c(MeshHandles___c const&) = delete;
+  MeshHandles___c(MeshHandles___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16752 };
@@ -232,13 +233,13 @@ protected:
   constexpr MeshHandles();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshHandles", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshHandles", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshHandles(MeshHandles&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshHandles", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshHandles", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshHandles(MeshHandles const&) = delete;
+  MeshHandles(MeshHandlesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16753 };

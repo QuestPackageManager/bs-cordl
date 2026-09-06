@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\BeatAvatarSelectionView.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/BeatAvatarSelectionView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,8 @@ public:
   /// @brief Method HandleAvatarDataModelDidChangeAvatarData, addr 0x3273f34, size 0x4, virtual false, abstract: false, final false
   inline void HandleAvatarDataModelDidChangeAvatarData(::BeatSaber::BeatAvatarSDK::AvatarData* data);
 
+  /// [Inject]
+  /// [UsedImplicitly]
   /// @brief Method Init, addr 0x3273d54, size 0x98, virtual false, abstract: false, final false
   inline void Init();
 
@@ -105,26 +107,30 @@ protected:
   constexpr BeatAvatarSelectionView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSelectionView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSelectionView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatAvatarSelectionView(BeatAvatarSelectionView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSelectionView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarSelectionView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarSelectionView(BeatAvatarSelectionView const&) = delete;
+  BeatAvatarSelectionView(BeatAvatarSelectionViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21682 };
 
+  /// [SerializeField]
   /// @brief Field _avatarContainer, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____avatarContainer;
 
+  /// [SerializeField]
   /// @brief Field _beatAvatarVisualController, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> ____beatAvatarVisualController;
 
+  /// [SerializeField]
   /// @brief Field _avatarTweenController, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> ____avatarTweenController;
 
+  /// [Inject]
   /// @brief Field _avatarDataModel, offset: 0xa8, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarDataModel* ____avatarDataModel;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceCullingBatcherDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceCullingBatcherDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   // @brief default ctor
   constexpr InstanceCullingBatcherDesc();
 
-  // Ctor Parameters [CppParam { name: "onCompleteCallback", ty: "::UnityEngine::Rendering::OnCullingCompleteCallback*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "onCompleteCallback", ty: "::UnityEngine::Rendering::OnCullingCompleteCallback*", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceCullingBatcherDesc(::UnityEngine::Rendering::OnCullingCompleteCallback* onCompleteCallback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionTestDebugFlag.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionTestDebugFlag.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct OcclusionTestDebugFlag;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::OcclusionTestDebugFlag);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OcclusionTestDebugFlag, "UnityEngine.Rendering", "OcclusionTestDebugFlag");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\OcclusionCullingCommon.cs", needAccessors = false)] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.OcclusionTestDebugFlag
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr OcclusionTestDebugFlag();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionTestDebugFlag(int32_t value__) noexcept;
 
   /// @brief Field AlwaysPass value: I32(1)

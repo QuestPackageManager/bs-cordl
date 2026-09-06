@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarVisualController.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarVisualController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -177,6 +177,7 @@ inline ::System::Object* BeatSaber::AvatarCore::AvatarVisualController__WaitForA
                                                                                          { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::BeatSaber::AvatarCore::AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2*
 BeatSaber::AvatarCore::AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::AvatarCore::AvatarVisualController__WaitForAvatarLoadAndSetLightColor_d__2*>(__1__state));

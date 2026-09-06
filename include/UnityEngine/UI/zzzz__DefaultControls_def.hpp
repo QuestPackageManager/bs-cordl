@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\DefaultControls.hpp"
+// IWYU pragma private; include "UnityEngine/UI/DefaultControls.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,12 +68,12 @@ namespace UnityEngine::UI {
 class CORDL_TYPE DefaultControls_IFactoryControls {
 public:
   // Declarations
-  /// @brief Method CreateGameObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components);
+  /// @brief Method CreateGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Type*> components);
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls_IFactoryControls", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls_IFactoryControls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultControls_IFactoryControls(DefaultControls_IFactoryControls const&) = delete;
+  DefaultControls_IFactoryControls(DefaultControls_IFactoryControlsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17399 };
@@ -96,7 +96,7 @@ public:
   constexpr operator ::UnityEngine::UI::DefaultControls_IFactoryControls*() noexcept;
 
   /// @brief Method CreateGameObject, addr 0x6c20308, size 0x70, virtual true, abstract: false, final true
-  inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components);
+  inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Type*> components);
 
   static inline ::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory* New_ctor();
 
@@ -116,13 +116,13 @@ protected:
   constexpr DefaultControls_DefaultRuntimeFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls_DefaultRuntimeFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls_DefaultRuntimeFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultControls_DefaultRuntimeFactory(DefaultControls_DefaultRuntimeFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls_DefaultRuntimeFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls_DefaultRuntimeFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultControls_DefaultRuntimeFactory(DefaultControls_DefaultRuntimeFactory const&) = delete;
+  DefaultControls_DefaultRuntimeFactory(DefaultControls_DefaultRuntimeFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17400 };
@@ -144,10 +144,11 @@ public:
   // @brief default ctor
   constexpr DefaultControls_Resources();
 
-  // Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "background", ty: "::UnityW<::UnityEngine::Sprite>",
-  // modifiers: "", def_value: None }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "knob", ty:
-  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name:
-  // "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "background", ty:
+  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "knob", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "mask", ty:
+  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }]
   constexpr DefaultControls_Resources(::UnityW<::UnityEngine::Sprite> standard, ::UnityW<::UnityEngine::Sprite> background, ::UnityW<::UnityEngine::Sprite> inputField,
                                       ::UnityW<::UnityEngine::Sprite> knob, ::UnityW<::UnityEngine::Sprite> checkmark, ::UnityW<::UnityEngine::Sprite> dropdown,
                                       ::UnityW<::UnityEngine::Sprite> mask) noexcept;
@@ -267,10 +268,10 @@ public:
   static inline ::UnityW<::UnityEngine::GameObject> CreateToggle(::UnityEngine::UI::DefaultControls_Resources resources);
 
   /// @brief Method CreateUIElementRoot, addr 0x6c1b830, size 0x174, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::GameObject> CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size, ::ArrayW<::System::Type*> components);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size, /* [ParamArray] */ ::ArrayW<::System::Type*> components);
 
   /// @brief Method CreateUIObject, addr 0x6c1b9a4, size 0x140, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::GameObject> CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent, ::ArrayW<::System::Type*> components);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent, /* [ParamArray] */ ::ArrayW<::System::Type*> components);
 
   /// @brief Method SetDefaultColorTransitionValues, addr 0x6c1bcc8, size 0x64, virtual false, abstract: false, final false
   static inline void SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider);
@@ -321,13 +322,13 @@ protected:
   constexpr DefaultControls();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultControls(DefaultControls&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultControls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultControls(DefaultControls const&) = delete;
+  DefaultControls(DefaultControlsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17402 };

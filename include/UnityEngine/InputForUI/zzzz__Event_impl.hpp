@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\Event.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/Event.hpp"
 #include "UnityEngine/InputForUI/zzzz__CommandEvent_impl.hpp"
+#include "UnityEngine/InputForUI/zzzz__IEventProperties_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__KeyEvent_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__NavigationEvent_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerEvent_impl.hpp"
@@ -17,7 +18,7 @@
 #include "UnityEngine/InputForUI/zzzz__NavigationEvent_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerEvent_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__TextInputEvent_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::Event_Type::Event_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -30,13 +31,18 @@ constexpr ::UnityEngine::InputForUI::Event_Type UnityEngine::InputForUI::Event_T
 constexpr ::UnityEngine::InputForUI::Event_Type UnityEngine::InputForUI::Event_Type::IMECompositionEvent{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::InputForUI::Event_Type UnityEngine::InputForUI::Event_Type::CommandEvent{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::InputForUI::Event_Type UnityEngine::InputForUI::Event_Type::NavigationEvent{ static_cast<int32_t>(0x6) };
-template <typename TOutputType> template <typename TEventType> inline TOutputType UnityEngine::InputForUI::Event_IMapFn_1<TOutputType>::Map(::by_ref<TEventType> ev) {
+template <typename TOutputType>
+template <typename TEventType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::InputForUI::IEventProperties*>)
+inline TOutputType UnityEngine::InputForUI::Event_IMapFn_1<TOutputType>::Map(::by_ref<TEventType> ev) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputForUI::Event_IMapFn_1<TOutputType>*>(), 0 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>() }));
   return ::cordl_internals::RunMethodRethrow<TOutputType>(this, ___internal_method, ev);
 }
-template <typename TEventType> inline ::UnityEngine::InputForUI::IEventProperties* UnityEngine::InputForUI::Event_MapAsObject::Map(::by_ref<TEventType> ev) {
+template <typename TEventType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::InputForUI::IEventProperties*>)
+inline ::UnityEngine::InputForUI::IEventProperties* UnityEngine::InputForUI::Event_MapAsObject::Map(::by_ref<TEventType> ev) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::Event_MapAsObject>(), { "Map", { ::i2c::class_of<TEventType>() }, { ::i2c::type_of<::by_ref<TEventType>>() } })));
@@ -54,7 +60,9 @@ UnityEngine::InputForUI::Event_MapAsObject::i___UnityEngine__InputForUI__Event_I
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputForUI::Event_MapAsObject::Event_MapAsObject() {}
-template <typename TEventType> inline ::UnityEngine::InputForUI::EventSource UnityEngine::InputForUI::Event_MapAsEventSource::Map(::by_ref<TEventType> ev) {
+template <typename TEventType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::InputForUI::IEventProperties*>)
+inline ::UnityEngine::InputForUI::EventSource UnityEngine::InputForUI::Event_MapAsEventSource::Map(::by_ref<TEventType> ev) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::Event_MapAsEventSource>(),
                                                                                               { "Map", { ::i2c::class_of<TEventType>() }, { ::i2c::type_of<::by_ref<TEventType>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>() })));
@@ -71,7 +79,9 @@ UnityEngine::InputForUI::Event_MapAsEventSource::i___UnityEngine__InputForUI__Ev
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputForUI::Event_MapAsEventSource::Event_MapAsEventSource() {}
-template <typename TEventType> inline ::UnityEngine::InputForUI::EventModifiers UnityEngine::InputForUI::Event_MapAsEventModifiers::Map(::by_ref<TEventType> ev) {
+template <typename TEventType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::InputForUI::IEventProperties*>)
+inline ::UnityEngine::InputForUI::EventModifiers UnityEngine::InputForUI::Event_MapAsEventModifiers::Map(::by_ref<TEventType> ev) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::Event_MapAsEventModifiers>(),
                                                                                               { "Map", { ::i2c::class_of<TEventType>() }, { ::i2c::type_of<::by_ref<TEventType>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>() })));
@@ -482,14 +492,18 @@ inline ::UnityEngine::InputForUI::NavigationEvent UnityEngine::InputForUI::Event
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::Event>(), { "get_asNavigationEvent", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::NavigationEvent>(*this, ___internal_method);
 }
-template <typename TOutputType, typename TMapType> inline TOutputType UnityEngine::InputForUI::Event::Map(TMapType fn) {
+template <typename TOutputType, typename TMapType>
+  requires(::cordl_internals::type_constraint<TMapType, ::UnityEngine::InputForUI::Event_IMapFn_1<TOutputType>*>)
+inline TOutputType UnityEngine::InputForUI::Event::Map(TMapType fn) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::Event>(), { "Map", { ::i2c::class_of<TOutputType>(), ::i2c::class_of<TMapType>() }, { ::i2c::type_of<TMapType>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TOutputType>(), ::i2c::class_of<TMapType>() })));
   return ::cordl_internals::RunMethodRethrow<TOutputType>(*this, ___internal_method, fn);
 }
-template <typename TOutputType, typename TMapType> inline TOutputType UnityEngine::InputForUI::Event::Map() {
+template <typename TOutputType, typename TMapType>
+  requires(::cordl_internals::type_constraint<TMapType, ::UnityEngine::InputForUI::Event_IMapFn_1<TOutputType>*> && ::cordl_internals::default_constructor_constraint<TMapType>)
+inline TOutputType UnityEngine::InputForUI::Event::Map() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::Event>(), { "Map", { ::i2c::class_of<TOutputType>(), ::i2c::class_of<TMapType>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TOutputType>(), ::i2c::class_of<TMapType>() })));
@@ -503,11 +517,11 @@ constexpr UnityEngine::InputForUI::Event::operator ::UnityEngine::InputForUI::IE
 constexpr ::UnityEngine::InputForUI::IEventProperties* UnityEngine::InputForUI::Event::i___UnityEngine__InputForUI__IEventProperties() {
   return static_cast<::UnityEngine::InputForUI::IEventProperties*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_type", ty: "::UnityEngine::InputForUI::Event_Type", modifiers: "", def_value: Some("{}") }, CppParam { name: "_managedEvent", ty: "::System::Object*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_keyEvent", ty: "::UnityEngine::InputForUI::KeyEvent", modifiers: "", def_value: Some("{}") }, CppParam { name: "_pointerEvent", ty:
-// "::UnityEngine::InputForUI::PointerEvent", modifiers: "", def_value: Some("{}") }, CppParam { name: "_textInputEvent", ty: "::UnityEngine::InputForUI::TextInputEvent", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_commandEvent", ty: "::UnityEngine::InputForUI::CommandEvent", modifiers: "", def_value: Some("{}") }, CppParam { name: "_navigationEvent", ty:
-// "::UnityEngine::InputForUI::NavigationEvent", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_type", ty: "::UnityEngine::InputForUI::Event_Type", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_managedEvent", ty:
+// "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_keyEvent", ty: "::UnityEngine::InputForUI::KeyEvent", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_pointerEvent", ty: "::UnityEngine::InputForUI::PointerEvent", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_textInputEvent", ty:
+// "::UnityEngine::InputForUI::TextInputEvent", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_commandEvent", ty: "::UnityEngine::InputForUI::CommandEvent", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_navigationEvent", ty: "::UnityEngine::InputForUI::NavigationEvent", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::Event::Event(::UnityEngine::InputForUI::Event_Type _type, ::System::Object* _managedEvent, ::UnityEngine::InputForUI::KeyEvent _keyEvent,
                                                   ::UnityEngine::InputForUI::PointerEvent _pointerEvent, ::UnityEngine::InputForUI::TextInputEvent _textInputEvent,
                                                   ::UnityEngine::InputForUI::CommandEvent _commandEvent, ::UnityEngine::InputForUI::NavigationEvent _navigationEvent) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\ResourceUnversionedData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourceUnversionedData.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__ResourceUnversionedData_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferDesc_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IRenderGraphResource_def.hpp"
@@ -142,13 +142,14 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(), { "InitializeNullResource", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "isImported", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isShared", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "tag", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastUsePassID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastWritePassID", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstUsePassID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "memoryLess", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "volumeDepth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "msaaSamples", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "latestVersionNumber", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "discard", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "bindMS", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "isImported", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isShared", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastUsePassID", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "lastWritePassID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstUsePassID", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "memoryLess", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "width", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "volumeDepth", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "msaaSamples", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "latestVersionNumber", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "discard", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bindMS", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::ResourceUnversionedData(bool isImported, bool isShared, int32_t tag, int32_t lastUsePassID,
                                                                                                                                   int32_t lastWritePassID, int32_t firstUsePassID, bool memoryLess,
                                                                                                                                   int32_t width, int32_t height, int32_t volumeDepth,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafePasswordHandle.hpp"
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafePasswordHandle.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

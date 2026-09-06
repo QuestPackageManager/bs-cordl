@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Oiw\OiwObjectIdentifiers.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Oiw/OiwObjectIdentifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,13 +117,13 @@ protected:
   constexpr OiwObjectIdentifiers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OiwObjectIdentifiers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OiwObjectIdentifiers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OiwObjectIdentifiers(OiwObjectIdentifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OiwObjectIdentifiers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OiwObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OiwObjectIdentifiers(OiwObjectIdentifiers const&) = delete;
+  OiwObjectIdentifiers(OiwObjectIdentifiersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 225 };

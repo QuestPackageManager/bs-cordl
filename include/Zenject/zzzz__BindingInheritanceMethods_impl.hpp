@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Zenject\BindingInheritanceMethods.hpp"
+// IWYU pragma private; include "Zenject/BindingInheritanceMethods.hpp"
 #include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Zenject::BindingInheritanceMethods::BindingInheritanceMethods(int32_t value__) noexcept {
   this->value__ = value__;
 }

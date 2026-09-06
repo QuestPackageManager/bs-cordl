@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableTraversalMode.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableTraversalMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   // @brief default ctor
   constexpr PlayableTraversalMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlayableTraversalMode(int32_t value__) noexcept;
 
   /// @brief Field Mix value: I32(0)

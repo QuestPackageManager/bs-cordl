@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\PathFilter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/PathFilter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
@@ -69,13 +69,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json:
 };
 inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
 Newtonsoft::Json::Linq::JsonPath::PathFilter::ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
-                                                            ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+                                                            /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(this, ___internal_method, root, current, settings);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JsonPath::PathFilter::GetTokenIndex(::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings,
-                                                                                                     int32_t index) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JsonPath::PathFilter::GetTokenIndex(/* [Nullable(1)] */ ::Newtonsoft::Json::Linq::JToken* t,
+                                                                                                     ::Newtonsoft::Json::Linq::JsonSelectSettings* settings, int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -83,8 +83,8 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JsonPath::PathF
                        { "GetTokenIndex", {}, { ::i2c::type_of<::Newtonsoft::Json::Linq::JToken*>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JsonSelectSettings*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(nullptr, ___internal_method, t, settings, index);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JsonPath::PathFilter::GetNextScanValue(::Newtonsoft::Json::Linq::JToken* originalParent, ::Newtonsoft::Json::Linq::JToken* container,
-                                                                                                        ::Newtonsoft::Json::Linq::JToken* value) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JsonPath::PathFilter::GetNextScanValue(/* [Nullable(1)] */ ::Newtonsoft::Json::Linq::JToken* originalParent,
+                                                                                                        ::Newtonsoft::Json::Linq::JToken* container, ::Newtonsoft::Json::Linq::JToken* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>(),

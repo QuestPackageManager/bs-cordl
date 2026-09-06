@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnabledTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnabledTransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,32 +114,38 @@ protected:
   constexpr EnabledTransitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnabledTransitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnabledTransitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnabledTransitionSO(EnabledTransitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnabledTransitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnabledTransitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnabledTransitionSO(EnabledTransitionSO const&) = delete;
+  EnabledTransitionSO(EnabledTransitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22380 };
 
+  /// [SerializeField]
   /// @brief Field _normalState, offset: 0x20, size: 0x1, def value: None
   bool ____normalState;
 
+  /// [SerializeField]
   /// @brief Field _highlightedState, offset: 0x21, size: 0x1, def value: None
   bool ____highlightedState;
 
+  /// [SerializeField]
   /// @brief Field _pressedState, offset: 0x22, size: 0x1, def value: None
   bool ____pressedState;
 
+  /// [SerializeField]
   /// @brief Field _disabledState, offset: 0x23, size: 0x1, def value: None
   bool ____disabledState;
 
+  /// [SerializeField]
   /// @brief Field _selectedState, offset: 0x24, size: 0x1, def value: None
   bool ____selectedState;
 
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedState, offset: 0x25, size: 0x1, def value: None
   bool ____selectedAndHighlightedState;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\IStrongBox.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/IStrongBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,15 +23,15 @@ public:
   // Declarations
   __declspec(property(get = get_Value, put = set_Value)) ::System::Object* Value;
 
-  /// @brief Method get_Value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Value(::System::Object* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IStrongBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IStrongBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IStrongBox(IStrongBox const&) = delete;
+  IStrongBox(IStrongBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16637 };

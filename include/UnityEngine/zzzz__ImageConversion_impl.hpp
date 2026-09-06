@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ImageConversion.hpp"
+// IWYU pragma private; include "UnityEngine/ImageConversion.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ImageConversion_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -203,7 +203,7 @@ inline ::ArrayW<uint8_t> UnityEngine::ImageConversion::EncodeToEXR(::UnityEngine
                                                            { "EncodeToEXR", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>(), ::i2c::type_of<::UnityEngine::Texture2D_EXRFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, tex, flags);
 }
-inline bool UnityEngine::ImageConversion::LoadImage(::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t> data, bool markNonReadable) {
+inline bool UnityEngine::ImageConversion::LoadImage(/* [NotNull] */ ::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t> data, bool markNonReadable) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ImageConversion*>(),
                                                            { "LoadImage", {}, { ::i2c::type_of<::UnityEngine::Texture2D*>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<bool>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   // @brief default ctor
   constexpr UxmlAttributeDescription_Use();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UxmlAttributeDescription_Use(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -170,6 +170,7 @@ public:
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::System::Func_3<::StringW, T, T>* converterFunc, T defaultValue,
                                  ::by_ref<T> value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method TryGetValueFromBagAsString, addr 0x6cbd8f8, size 0x3c, virtual false, abstract: false, final false
   inline bool TryGetValueFromBagAsString(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::by_ref<::StringW> value);
 
@@ -219,24 +220,30 @@ public:
   /// @brief Method .ctor, addr 0x6cbd5a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_name, addr 0x6cbd5b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
+  /// [CompilerGenerated]
   /// @brief Method set_name, addr 0x6cbd5c0, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   /// @brief Method set_obsoleteNames, addr 0x6cbd5c8, size 0x88, virtual false, abstract: false, final false
   inline void set_obsoleteNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_restriction, addr 0x6cbd668, size 0x8, virtual false, abstract: false, final false
   inline void set_restriction(::UnityEngine::UIElements::UxmlTypeRestriction* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_type, addr 0x6cbd650, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_typeNamespace, addr 0x6cbd658, size 0x8, virtual false, abstract: false, final false
   inline void set_typeNamespace(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_use, addr 0x6cbd660, size 0x8, virtual false, abstract: false, final false
   inline void set_use(::UnityEngine::UIElements::UxmlAttributeDescription_Use value);
 
@@ -246,32 +253,42 @@ protected:
   constexpr UxmlAttributeDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlAttributeDescription(UxmlAttributeDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlAttributeDescription(UxmlAttributeDescription const&) = delete;
+  UxmlAttributeDescription(UxmlAttributeDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5148 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
 
   /// @brief Field m_ObsoleteNames, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_ObsoleteNames;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <type>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____type_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <typeNamespace>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____typeNamespace_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <use>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::UIElements::UxmlAttributeDescription_Use ____use_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <restriction>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlTypeRestriction* ____restriction_k__BackingField;
 

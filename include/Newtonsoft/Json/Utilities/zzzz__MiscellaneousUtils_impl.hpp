@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\MiscellaneousUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/MiscellaneousUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__MiscellaneousUtils_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularEx
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::Utilities::MiscellaneousUtils::_cordl_Assert(bool condition, ::StringW message) {
+inline void Newtonsoft::Json::Utilities::MiscellaneousUtils::_cordl_Assert(/* [DoesNotReturnIf(false)] */ bool condition, ::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::MiscellaneousUtils*>(), { "Assert", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, condition, message);
@@ -142,7 +142,7 @@ inline ::System::ArgumentOutOfRangeException* Newtonsoft::Json::Utilities::Misce
                                               { "CreateArgumentOutOfRangeException", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ArgumentOutOfRangeException*>(nullptr, ___internal_method, paramName, actualValue, message);
 }
-inline ::StringW Newtonsoft::Json::Utilities::MiscellaneousUtils::ToString(::System::Object* value) {
+inline ::StringW Newtonsoft::Json::Utilities::MiscellaneousUtils::ToString(/* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::MiscellaneousUtils*>(), { "ToString", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value);
@@ -162,7 +162,7 @@ inline ::StringW Newtonsoft::Json::Utilities::MiscellaneousUtils::GetLocalName(:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::MiscellaneousUtils*>(), { "GetLocalName", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, qualifiedName);
 }
-inline void Newtonsoft::Json::Utilities::MiscellaneousUtils::GetQualifiedNameParts(::StringW qualifiedName, ::by_ref<::StringW> prefix, ::by_ref<::StringW> localName) {
+inline void Newtonsoft::Json::Utilities::MiscellaneousUtils::GetQualifiedNameParts(::StringW qualifiedName, /* [Nullable(2)] */ ::by_ref<::StringW> prefix, ::by_ref<::StringW> localName) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::MiscellaneousUtils*>(),
                                               { "GetQualifiedNameParts", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));

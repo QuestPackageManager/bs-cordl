@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\FailureHandlingMethod.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/FailureHandlingMethod.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__FailureHandlingMethod_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::ClientInterface::FailureHandlingMethod::FailureHandlingMethod(int32_t value__) noexcept {
   this->value__ = value__;
 }

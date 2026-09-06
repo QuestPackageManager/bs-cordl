@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\HierarchyIcons\HierarchyIgnorePrefabOverrides.hpp"
+// IWYU pragma private; include "OculusStudios/HierarchyIcons/HierarchyIgnorePrefabOverrides.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "OculusStudios/HierarchyIcons/zzzz__HierarchyIgnorePrefabOverrides_def.hpp"
 //  Writing Method size for method: ::OculusStudios::HierarchyIcons::HierarchyIgnorePrefabOverrides._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlFloatAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlFloatAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_REF_T(::UnityEngine::UIElements::UxmlFloatAttributeDescription*);
 MARK_REF_T(::UnityEngine::UIElements::UxmlFloatAttributeDescription___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlFloatAttributeDescription*, "UnityEngine.UIElements", "UxmlFloatAttributeDescription");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlFloatAttributeDescription___c*, "UnityEngine.UIElements", "UxmlFloatAttributeDescription/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr UxmlFloatAttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlFloatAttributeDescription___c(UxmlFloatAttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlFloatAttributeDescription___c(UxmlFloatAttributeDescription___c const&) = delete;
+  UxmlFloatAttributeDescription___c(UxmlFloatAttributeDescription___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5152 };
@@ -110,13 +111,13 @@ protected:
   constexpr UxmlFloatAttributeDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlFloatAttributeDescription(UxmlFloatAttributeDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlFloatAttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlFloatAttributeDescription(UxmlFloatAttributeDescription const&) = delete;
+  UxmlFloatAttributeDescription(UxmlFloatAttributeDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5153 };

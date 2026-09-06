@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\GraphicsFormatUtility.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/GraphicsFormatUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormatUtility_def.hpp"
@@ -556,7 +556,7 @@ inline void UnityEngine::Experimental::Rendering::GraphicsFormatUtility::setStat
 inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> UnityEngine::Experimental::Rendering::GraphicsFormatUtility::getStaticF_tableStencil() {
   return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat>, "tableStencil", ::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>();
 }
-inline ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetFormat(::UnityEngine::Texture* texture) {
+inline ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetFormat(/* [NotNull] */ ::UnityEngine::Texture* texture) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(), { "GetFormat", {}, { ::i2c::type_of<::UnityEngine::Texture*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Experimental::Rendering::GraphicsFormat>(nullptr, ___internal_method, texture);

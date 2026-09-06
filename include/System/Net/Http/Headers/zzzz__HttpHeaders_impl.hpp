@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\HttpHeaders.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/HttpHeaders.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaderKind_impl.hpp"
@@ -352,6 +352,7 @@ inline ::System::Object* System::Net::Http::Headers::HttpHeaders__GetEnumerator_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::HttpHeaders__GetEnumerator_d__19*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::System::Net::Http::Headers::HttpHeaders__GetEnumerator_d__19* System::Net::Http::Headers::HttpHeaders__GetEnumerator_d__19::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::Http::Headers::HttpHeaders__GetEnumerator_d__19*>(__1__state));
 }
@@ -749,7 +750,9 @@ inline ::StringW System::Net::Http::Headers::HttpHeaders::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::Http::Headers::HttpHeaders*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-template <typename T> inline void System::Net::Http::Headers::HttpHeaders::AddOrRemove(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* converter) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void System::Net::Http::Headers::HttpHeaders::AddOrRemove(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* converter) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::HttpHeaders*>(),
@@ -757,14 +760,18 @@ template <typename T> inline void System::Net::Http::Headers::HttpHeaders::AddOr
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, value, converter);
 }
-template <typename T> inline void System::Net::Http::Headers::HttpHeaders::AddOrRemove(::StringW name, ::System::Nullable_1<T> value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void System::Net::Http::Headers::HttpHeaders::AddOrRemove(::StringW name, ::System::Nullable_1<T> value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::HttpHeaders*>(),
                                                            { "AddOrRemove", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Nullable_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, value);
 }
-template <typename T> inline void System::Net::Http::Headers::HttpHeaders::AddOrRemove(::StringW name, ::System::Nullable_1<T> value, ::System::Func_2<::System::Object*, ::StringW>* converter) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void System::Net::Http::Headers::HttpHeaders::AddOrRemove(::StringW name, ::System::Nullable_1<T> value, ::System::Func_2<::System::Object*, ::StringW>* converter) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -792,7 +799,9 @@ template <typename T> inline T System::Net::Http::Headers::HttpHeaders::GetValue
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, name);
 }
-template <typename T> inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* System::Net::Http::Headers::HttpHeaders::GetValues(::StringW name) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* System::Net::Http::Headers::HttpHeaders::GetValues(::StringW name) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::HttpHeaders*>(), { "GetValues", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

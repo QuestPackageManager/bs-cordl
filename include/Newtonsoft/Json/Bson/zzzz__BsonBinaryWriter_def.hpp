@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonBinaryWriter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonBinaryWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,9 @@ namespace System {
 struct DateTimeKind;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
@@ -105,11 +107,13 @@ public:
 
   static inline ::System::Text::Encoding* getStaticF_Encoding();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DateTimeKindHandling, addr 0x5daab24, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTimeKind get_DateTimeKindHandling();
 
   static inline void setStaticF_Encoding(::System::Text::Encoding* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DateTimeKindHandling, addr 0x5daab2c, size 0x8, virtual false, abstract: false, final false
   inline void set_DateTimeKindHandling(::System::DateTimeKind value);
 
@@ -119,13 +123,13 @@ protected:
   constexpr BsonBinaryWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonBinaryWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonBinaryWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonBinaryWriter(BsonBinaryWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonBinaryWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonBinaryWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonBinaryWriter(BsonBinaryWriter const&) = delete;
+  BsonBinaryWriter(BsonBinaryWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13691 };
@@ -136,6 +140,7 @@ public:
   /// @brief Field _largeByteBuffer, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____largeByteBuffer;
 
+  /// [CompilerGenerated]
   /// @brief Field <DateTimeKindHandling>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::System::DateTimeKind ____DateTimeKindHandling_k__BackingField;
 

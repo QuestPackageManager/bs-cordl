@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnifiedNetworkPlayerModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnifiedNetworkPlayerModel.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UnifiedNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberConnectedPlayerManager_def.hpp"
@@ -23,7 +24,7 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -405,6 +406,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::UnifiedNetworkPlayer
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__61*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__61* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__61::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__61*>(__1__state));
 }
@@ -1429,7 +1431,9 @@ inline void GlobalNamespace::UnifiedNetworkPlayerModel::ResetMasterServerReachab
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnifiedNetworkPlayerModel*>(), { "ResetMasterServerReachability", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline bool GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* partyConfig) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INetworkPlayerModel*>)
+inline bool GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* partyConfig) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnifiedNetworkPlayerModel*>(),
                                                            { "CreatePartyConnection", { ::i2c::class_of<T>() }, { ::i2c::type_of<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>*>() } })));

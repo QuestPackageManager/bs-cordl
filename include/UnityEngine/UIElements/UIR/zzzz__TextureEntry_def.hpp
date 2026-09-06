@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextureEntry.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr TextureEntry();
 
-  // Ctor Parameters [CppParam { name: "source", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "actual", ty: "::UnityEngine::UIElements::TextureId",
-  // modifiers: "", def_value: None }, CppParam { name: "replaced", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "source", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "actual", ty:
+  // "::UnityEngine::UIElements::TextureId", modifiers: "", def_value: None, comment: None }, CppParam { name: "replaced", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr TextureEntry(::UnityW<::UnityEngine::Texture> source, ::UnityEngine::UIElements::TextureId actual, bool replaced) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

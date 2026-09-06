@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeDebug.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeDebug.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,6 +130,7 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeVolumeDebug* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <GetReset>b__32_0, addr 0x6791b58, size 0x6c, virtual false, abstract: false, final false
   inline void _GetReset_b__32_0();
 
@@ -321,13 +322,13 @@ protected:
   constexpr ProbeVolumeDebug();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebug", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebug", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeDebug(ProbeVolumeDebug&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebug", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebug", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeDebug(ProbeVolumeDebug const&) = delete;
+  ProbeVolumeDebug(ProbeVolumeDebugconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12122 };

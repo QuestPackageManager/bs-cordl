@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlRawWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlRawWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   /// @brief Method OnRootElement, addr 0x628f848, size 0x4, virtual true, abstract: false, final false
   inline void OnRootElement(::System::Xml::ConformanceLevel conformanceLevel);
 
-  /// @brief Method StartElementContent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartElementContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartElementContent();
 
   /// @brief Method WriteAttributes, addr 0x628f798, size 0x50, virtual true, abstract: false, final false
@@ -100,7 +100,7 @@ public:
   /// @brief Method WriteEndElement, addr 0x628f304, size 0x50, virtual true, abstract: false, final false
   inline void WriteEndElement();
 
-  /// @brief Method WriteEndElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
   /// @brief Method WriteEndNamespaceDeclaration, addr 0x628f944, size 0x38, virtual true, abstract: false, final false
@@ -112,7 +112,7 @@ public:
   /// @brief Method WriteFullEndElement, addr 0x628f84c, size 0x10, virtual true, abstract: false, final false
   inline void WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteNamespaceDeclaration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteNamespaceDeclaration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteNamespaceDeclaration(::StringW prefix, ::StringW ns);
 
   /// @brief Method WriteNode, addr 0x628f7e8, size 0x50, virtual true, abstract: false, final false
@@ -190,13 +190,13 @@ protected:
   constexpr XmlRawWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlRawWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlRawWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlRawWriter(XmlRawWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlRawWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlRawWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlRawWriter(XmlRawWriter const&) = delete;
+  XmlRawWriter(XmlRawWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9315 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\DropdownWithTableView.hpp"
+// IWYU pragma private; include "HMUI/DropdownWithTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class DropdownWithTableView;
 // Write type traits
 MARK_REF_T(::HMUI::DropdownWithTableView*);
 DEFINE_IL2CPP_CLASS(::HMUI::DropdownWithTableView*, "HMUI", "DropdownWithTableView");
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
@@ -159,24 +160,28 @@ public:
   /// @brief Method .ctor, addr 0x5882cc8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x5882358, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
   /// @brief Method get_interactable, addr 0x5882500, size 0x18, virtual false, abstract: false, final false
   inline bool get_interactable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_selectedIndex, addr 0x58824f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedIndex();
 
   /// @brief Method get_tableViewDataSource, addr 0x58824d8, size 0x18, virtual false, abstract: false, final false
   inline ::HMUI::TableView_IDataSource* get_tableViewDataSource();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x5882418, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
   /// @brief Method set_interactable, addr 0x5882518, size 0x1c, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_selectedIndex, addr 0x58824f8, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedIndex(int32_t value);
 
@@ -186,38 +191,47 @@ protected:
   constexpr DropdownWithTableView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTableView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTableView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownWithTableView(DropdownWithTableView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTableView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownWithTableView(DropdownWithTableView const&) = delete;
+  DropdownWithTableView(DropdownWithTableViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19082 };
 
+  /// [SerializeField]
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 
+  /// [SerializeField]
   /// @brief Field _tableView, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 
+  /// [SerializeField]
   /// @brief Field _modalView, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::HMUI::ModalViewBase> ____modalView;
 
+  /// [Tooltip("Increase this if you need extra space for buttons or graphics on the bottom of the dropdown.")]
+  /// [SerializeField]
   /// @brief Field _extraSpace, offset: 0x38, size: 0x4, def value: None
   float_t ____extraSpace;
 
+  /// [SerializeField]
   /// @brief Field _numberOfVisibleCells, offset: 0x3c, size: 0x4, def value: None
   int32_t ____numberOfVisibleCells;
 
+  /// [SerializeField]
   /// @brief Field _hideOnSelection, offset: 0x40, size: 0x1, def value: None
   bool ____hideOnSelection;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* ___didSelectCellWithIdxEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <selectedIndex>k__BackingField, offset: 0x50, size: 0x4, def value: None
   int32_t ____selectedIndex_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightRotationGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightRotationGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class LightRotationGroup;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightRotationGroup*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightRotationGroup*, "", "LightRotationGroup");
+// [ExecuteAlways]
 // Dependencies LightTransformGroup`3<TX, TY, TZ>
 namespace GlobalNamespace {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr LightRotationGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationGroup(LightRotationGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationGroup(LightRotationGroup const&) = delete;
+  LightRotationGroup(LightRotationGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5910 };

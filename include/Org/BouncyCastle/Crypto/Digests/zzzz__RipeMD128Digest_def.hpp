@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\RipeMD128Digest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/RipeMD128Digest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -169,13 +169,13 @@ protected:
   constexpr RipeMD128Digest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RipeMD128Digest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RipeMD128Digest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RipeMD128Digest(RipeMD128Digest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RipeMD128Digest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RipeMD128Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RipeMD128Digest(RipeMD128Digest const&) = delete;
+  RipeMD128Digest(RipeMD128Digestconst&) = delete;
 
   /// @brief Field DigestLength offset 0xffffffff size 0x4
   static constexpr int32_t DigestLength{ static_cast<int32_t>(0x10) };

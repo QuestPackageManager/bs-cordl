@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\CultureTypes.hpp"
+// IWYU pragma private; include "System/Globalization/CultureTypes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CultureTypes;
 // Write type traits
 MARK_VAL_T(::System::Globalization::CultureTypes);
 DEFINE_IL2CPP_CLASS(::System::Globalization::CultureTypes, "System.Globalization", "CultureTypes");
+// [Flags]
 // Dependencies
 namespace System::Globalization {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr CultureTypes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CultureTypes(int32_t value__) noexcept;
 
   /// @brief Field AllCultures value: I32(7)

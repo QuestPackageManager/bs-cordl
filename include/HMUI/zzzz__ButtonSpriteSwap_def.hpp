@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ButtonSpriteSwap.hpp"
+// IWYU pragma private; include "HMUI/ButtonSpriteSwap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,32 +122,39 @@ protected:
   constexpr ButtonSpriteSwap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonSpriteSwap(ButtonSpriteSwap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonSpriteSwap(ButtonSpriteSwap const&) = delete;
+  ButtonSpriteSwap(ButtonSpriteSwapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19075 };
 
+  /// [SerializeField]
   /// @brief Field _normalStateSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____normalStateSprite;
 
+  /// [SerializeField]
   /// @brief Field _highlightStateSprite, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____highlightStateSprite;
 
+  /// [SerializeField]
   /// @brief Field _pressedStateSprite, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____pressedStateSprite;
 
+  /// [SerializeField]
   /// @brief Field _disabledStateSprite, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____disabledStateSprite;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _button, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::HMUI::NoTransitionsButton> ____button;
 
+  /// [SerializeField]
   /// @brief Field _images, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Image>> ____images;
 

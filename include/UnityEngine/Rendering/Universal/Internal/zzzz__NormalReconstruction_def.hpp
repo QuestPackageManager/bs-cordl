@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\NormalReconstruction.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/NormalReconstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ public:
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   /// @brief Method SetupProperties, addr 0x68f8438, size 0xa4, virtual false, abstract: false, final false
-  static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
   /// @brief Method SetupProperties, addr 0x68f84dc, size 0x90, virtual false, abstract: false, final false
-  static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
   /// @brief Method SetupProperties, addr 0x68f856c, size 0x278, virtual false, abstract: false, final false
-  static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData);
+  static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4> getStaticF_s_NormalReconstructionMatrix();
 
@@ -66,13 +66,13 @@ protected:
   constexpr NormalReconstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NormalReconstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NormalReconstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NormalReconstruction(NormalReconstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NormalReconstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NormalReconstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NormalReconstruction(NormalReconstruction const&) = delete;
+  NormalReconstruction(NormalReconstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13069 };

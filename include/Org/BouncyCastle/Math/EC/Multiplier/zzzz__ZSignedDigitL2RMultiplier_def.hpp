@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\ZSignedDigitL2RMultiplier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/ZSignedDigitL2RMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class ZSignedDigitL2RMultiplier;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitL2RMultiplier*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitL2RMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "ZSignedDigitL2RMultiplier");
+// [Obsolete("Will be removed")]
 // Dependencies Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
@@ -39,13 +40,13 @@ protected:
   constexpr ZSignedDigitL2RMultiplier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZSignedDigitL2RMultiplier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZSignedDigitL2RMultiplier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZSignedDigitL2RMultiplier(ZSignedDigitL2RMultiplier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZSignedDigitL2RMultiplier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZSignedDigitL2RMultiplier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZSignedDigitL2RMultiplier(ZSignedDigitL2RMultiplier const&) = delete;
+  ZSignedDigitL2RMultiplier(ZSignedDigitL2RMultiplierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1550 };

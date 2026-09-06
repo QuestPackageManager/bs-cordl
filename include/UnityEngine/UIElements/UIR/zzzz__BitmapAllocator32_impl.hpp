@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\BitmapAllocator32.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BitmapAllocator32.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BitmapAllocator32_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BaseShaderInfoStorage_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BitmapAllocator32_def.hpp"
-// Ctor Parameters [CppParam { name: "x", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "freeSlots", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "freeSlots", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::BitmapAllocator32_Page::BitmapAllocator32_Page(uint16_t x, uint16_t y, int32_t freeSlots) noexcept {
   this->x = x;
   this->y = y;
@@ -163,10 +163,10 @@ inline uint8_t UnityEngine::UIElements::UIR::BitmapAllocator32::CountTrailingZer
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BitmapAllocator32>(), { "CountTrailingZeroes", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint8_t>(nullptr, ___internal_method, val);
 }
-// Ctor Parameters [CppParam { name: "m_PageHeight", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Pages", ty:
-// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::BitmapAllocator32_Page>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AllocMap", ty:
-// "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EntryWidth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_EntryHeight", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_PageHeight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Pages", ty:
+// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::BitmapAllocator32_Page>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AllocMap", ty:
+// "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_EntryWidth", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_EntryHeight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::BitmapAllocator32::BitmapAllocator32(int32_t m_PageHeight,
                                                                                ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::BitmapAllocator32_Page>* m_Pages,
                                                                                ::System::Collections::Generic::List_1<uint32_t>* m_AllocMap, int32_t m_EntryWidth, int32_t m_EntryHeight) noexcept {

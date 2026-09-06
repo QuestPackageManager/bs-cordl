@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Datatype_anyAtomicType.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Datatype_anyAtomicType.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anyAtomicType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"

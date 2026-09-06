@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LessThanOrEqualInstruction_LessThanOrEqualInt64.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LessThanOrEqualInstruction_LessThanOrEqualInt64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ protected:
   constexpr LessThanOrEqualInstruction_LessThanOrEqualInt64();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LessThanOrEqualInstruction_LessThanOrEqualInt64", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanOrEqualInstruction_LessThanOrEqualInt64", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LessThanOrEqualInstruction_LessThanOrEqualInt64(LessThanOrEqualInstruction_LessThanOrEqualInt64&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LessThanOrEqualInstruction_LessThanOrEqualInt64", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanOrEqualInstruction_LessThanOrEqualInt64", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LessThanOrEqualInstruction_LessThanOrEqualInt64(LessThanOrEqualInstruction_LessThanOrEqualInt64 const&) = delete;
+  LessThanOrEqualInstruction_LessThanOrEqualInt64(LessThanOrEqualInstruction_LessThanOrEqualInt64const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16425 };

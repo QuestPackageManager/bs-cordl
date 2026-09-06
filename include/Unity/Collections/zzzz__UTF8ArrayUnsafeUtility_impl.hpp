@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UTF8ArrayUnsafeUtility.hpp"
+// IWYU pragma private; include "Unity/Collections/UTF8ArrayUnsafeUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__UTF8ArrayUnsafeUtility_def.hpp"
 #include "Unity/Collections/zzzz__ConversionError_def.hpp"
@@ -36,7 +36,8 @@ inline void Unity::Collections::UTF8ArrayUnsafeUtility_Comparison::_ctor(::Unity
                                                                ::i2c::type_of<::Unity::Collections::Unicode_Rune>(), ::i2c::type_of<::Unity::Collections::ConversionError>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, runeA, errorA, runeB, errorB);
 }
-// Ctor Parameters [CppParam { name: "terminates", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "result", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "terminates", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "result", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::Unity::Collections::UTF8ArrayUnsafeUtility_Comparison::UTF8ArrayUnsafeUtility_Comparison(bool terminates, int32_t result) noexcept {
   this->terminates = terminates;
   this->result = result;

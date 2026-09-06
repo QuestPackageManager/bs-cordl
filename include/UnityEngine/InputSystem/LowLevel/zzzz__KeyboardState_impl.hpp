@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\KeyboardState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/KeyboardState.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__KeyboardState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__KeyboardState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer::KeyboardState__keys_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -97,7 +97,7 @@ inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::L
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::KeyboardState>(), { "get_Format", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::FourCC>(nullptr, ___internal_method);
 }
-inline void UnityEngine::InputSystem::LowLevel::KeyboardState::_ctor(::ArrayW<::UnityEngine::InputSystem::Key> pressedKeys) {
+inline void UnityEngine::InputSystem::LowLevel::KeyboardState::_ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::Key> pressedKeys) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::KeyboardState>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::InputSystem::Key>>() } })));
@@ -130,7 +130,7 @@ constexpr UnityEngine::InputSystem::LowLevel::KeyboardState::operator ::UnityEng
 constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* UnityEngine::InputSystem::LowLevel::KeyboardState::i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "keys", ty: "::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "keys", ty: "::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::KeyboardState::KeyboardState(::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer keys) noexcept {
   this->keys = keys;
 }

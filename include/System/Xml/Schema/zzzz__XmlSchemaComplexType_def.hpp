@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaComplexType.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaComplexType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,32 +60,53 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaComplexType : public ::System::Xml::Schema::XmlSchemaType {
 public:
   // Declarations
+  /// @brief [XmlElement("anyAttribute")]
   __declspec(property(get = get_AnyAttribute, put = set_AnyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute* AnyAttribute;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_AttributeUses)) ::System::Xml::Schema::XmlSchemaObjectTable* AttributeUses;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_AttributeWildcard)) ::System::Xml::Schema::XmlSchemaAnyAttribute* AttributeWildcard;
 
+  /// [XmlElement("attribute", typeof(System.Xml.Schema.XmlSchemaAttribute))]
+  /// @brief [XmlElement("attributeGroup", typeof(System.Xml.Schema.XmlSchemaAttributeGroupRef))]
   __declspec(property(get = get_Attributes)) ::System::Xml::Schema::XmlSchemaObjectCollection* Attributes;
 
+  /// [XmlAttribute("block")]
+  /// @brief [DefaultValue((System.Xml.Schema.XmlSchemaDerivationMethod)256)]
   __declspec(property(get = get_Block, put = set_Block)) ::System::Xml::Schema::XmlSchemaDerivationMethod Block;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_BlockResolved)) ::System::Xml::Schema::XmlSchemaDerivationMethod BlockResolved;
 
+  /// [XmlElement("simpleContent", typeof(System.Xml.Schema.XmlSchemaSimpleContent))]
+  /// @brief [XmlElement("complexContent", typeof(System.Xml.Schema.XmlSchemaComplexContent))]
   __declspec(property(get = get_ContentModel, put = set_ContentModel)) ::System::Xml::Schema::XmlSchemaContentModel* ContentModel;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_ContentType)) ::System::Xml::Schema::XmlSchemaContentType ContentType;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_ContentTypeParticle)) ::System::Xml::Schema::XmlSchemaParticle* ContentTypeParticle;
 
   __declspec(property(put = set_HasWildCard)) bool HasWildCard;
 
+  /// [XmlAttribute("abstract")]
+  /// @brief [DefaultValue(false)]
   __declspec(property(get = get_IsAbstract, put = set_IsAbstract)) bool IsAbstract;
 
+  /// [XmlAttribute("mixed")]
+  /// @brief [DefaultValue(false)]
   __declspec(property(get = get_IsMixed, put = set_IsMixed)) bool IsMixed;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_LocalElements)) ::System::Xml::Schema::XmlSchemaObjectTable* LocalElements;
 
+  /// [XmlElement("all", typeof(System.Xml.Schema.XmlSchemaAll))]
+  /// [XmlElement("group", typeof(System.Xml.Schema.XmlSchemaGroupRef))]
+  /// [XmlElement("sequence", typeof(System.Xml.Schema.XmlSchemaSequence))]
+  /// @brief [XmlElement("choice", typeof(System.Xml.Schema.XmlSchemaChoice))]
   __declspec(property(get = get_Particle, put = set_Particle)) ::System::Xml::Schema::XmlSchemaParticle* Particle;
 
   /// @brief Field anyAttribute, offset 0xb0, size 0x8
@@ -334,13 +355,13 @@ protected:
   constexpr XmlSchemaComplexType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaComplexType(XmlSchemaComplexType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaComplexType(XmlSchemaComplexType const&) = delete;
+  XmlSchemaComplexType(XmlSchemaComplexTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9757 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\Utils\ExpressionUtils.hpp"
+// IWYU pragma private; include "System/Dynamic/Utils/ExpressionUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ class ExpressionUtils;
 // Write type traits
 MARK_REF_T(::System::Dynamic::Utils::ExpressionUtils*);
 DEFINE_IL2CPP_CLASS(::System::Dynamic::Utils::ExpressionUtils*, "System.Dynamic.Utils", "ExpressionUtils");
+// [Extension]
 // Dependencies System.Object
 namespace System::Dynamic::Utils {
 // Is value type: false
@@ -65,20 +66,27 @@ public:
   static inline void RequiresCanRead(::System::Linq::Expressions::Expression* expression, ::StringW paramName, int32_t idx);
 
   /// @brief Method ReturnObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T ReturnObject(::System::Object* collectionOrT);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T ReturnObject(::System::Object* collectionOrT);
 
   /// @brief Method ReturnReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* ReturnReadOnly(::by_ref<::System::Collections::Generic::IReadOnlyList_1<T>*> collection);
 
   /// @brief Method SameElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool SameElements(::by_ref<::System::Collections::Generic::IEnumerable_1<T>*> replacement, ::System::Collections::Generic::IReadOnlyList_1<T>* current);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline bool SameElements(::by_ref<::System::Collections::Generic::IEnumerable_1<T>*> replacement, ::System::Collections::Generic::IReadOnlyList_1<T>* current);
 
   /// @brief Method SameElementsInCollection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool SameElementsInCollection(::System::Collections::Generic::ICollection_1<T>* replacement, ::System::Collections::Generic::IReadOnlyList_1<T>* current);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline bool SameElementsInCollection(::System::Collections::Generic::ICollection_1<T>* replacement, ::System::Collections::Generic::IReadOnlyList_1<T>* current);
 
   /// @brief Method TryQuote, addr 0x5fc9a18, size 0x124, virtual false, abstract: false, final false
   static inline bool TryQuote(::System::Type* parameterType, ::by_ref<::System::Linq::Expressions::Expression*> argument);
 
+  /// [Extension]
   /// @brief Method ValidateArgumentCount, addr 0x5fc9d10, size 0xd8, virtual false, abstract: false, final false
   static inline void ValidateArgumentCount(::System::Linq::Expressions::LambdaExpression* lambda);
 
@@ -101,13 +109,13 @@ protected:
   constexpr ExpressionUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpressionUtils(ExpressionUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionUtils(ExpressionUtils const&) = delete;
+  ExpressionUtils(ExpressionUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16679 };

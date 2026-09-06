@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerMenuInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerMenuInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ protected:
   constexpr MultiplayerMenuInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMenuInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMenuInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerMenuInstaller(MultiplayerMenuInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMenuInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMenuInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerMenuInstaller(MultiplayerMenuInstaller const&) = delete;
+  MultiplayerMenuInstaller(MultiplayerMenuInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6312 };

@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\ImportResourceParams.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/ImportResourceParams.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ImportResourceParams_def.hpp"
-// Ctor Parameters [CppParam { name: "clearOnFirstUse", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "discardOnLastUse", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "clearOnFirstUse", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "discardOnLastUse", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams::ImportResourceParams(bool clearOnFirstUse, ::UnityEngine::Color clearColor, bool discardOnLastUse) noexcept {
   this->clearOnFirstUse = clearOnFirstUse;
   this->clearColor = clearColor;

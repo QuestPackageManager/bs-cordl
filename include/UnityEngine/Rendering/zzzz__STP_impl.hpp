@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\STP.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/STP.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandle_impl.hpp"
@@ -27,10 +27,10 @@
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "currentProj", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastProj", ty: "::UnityEngine::Matrix4x4", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "lastLastProj", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "currentView", ty: "::UnityEngine::Matrix4x4",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "lastView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastLastView", ty:
-// "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "currentProj", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastProj", ty: "::UnityEngine::Matrix4x4",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastLastProj", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "currentView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "lastLastView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::STP_PerViewConfig::STP_PerViewConfig(::UnityEngine::Matrix4x4 currentProj, ::UnityEngine::Matrix4x4 lastProj, ::UnityEngine::Matrix4x4 lastLastProj,
                                                                          ::UnityEngine::Matrix4x4 currentView, ::UnityEngine::Matrix4x4 lastView, ::UnityEngine::Matrix4x4 lastLastView) noexcept {
   this->currentProj = currentProj;
@@ -42,21 +42,23 @@ constexpr ::UnityEngine::Rendering::STP_PerViewConfig::STP_PerViewConfig(::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::STP_PerViewConfig::STP_PerViewConfig() {}
-// Ctor Parameters [CppParam { name: "noiseTexture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputColor", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputDepth", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputMotion", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputStencil", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "debugView", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "destination", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "historyContext", ty: "::UnityEngine::Rendering::STP_HistoryContext*", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableHwDrs", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "enableTexArray", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableMotionScaling", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "nearPlane", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "farPlane", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "frameIndex", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "hasValidHistory", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "stencilMask", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "debugViewIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "deltaTime", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "lastDeltaTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "currentImageSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "priorImageSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "outputImageSize", ty: "::UnityEngine::Vector2Int",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "numActiveViews", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "perViewConfigs", ty:
-// "::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "noiseTexture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputColor", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputDepth", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputMotion", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputStencil", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "debugView", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "destination", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "historyContext", ty:
+// "::UnityEngine::Rendering::STP_HistoryContext*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enableHwDrs", ty: "bool", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "enableTexArray", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enableMotionScaling", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "nearPlane", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "farPlane", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "frameIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hasValidHistory", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stencilMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "debugViewIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "deltaTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "lastDeltaTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currentImageSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "priorImageSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "outputImageSize", ty:
+// "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "numActiveViews", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "perViewConfigs", ty: "::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::STP_Config::STP_Config(
     ::UnityW<::UnityEngine::Texture2D> noiseTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputColor, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputDepth,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputMotion, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputStencil,
@@ -91,7 +93,7 @@ constexpr ::UnityEngine::Rendering::STP_Config::STP_Config(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::STP_Config::STP_Config() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::STP_HistoryTextureType::STP_HistoryTextureType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -102,9 +104,9 @@ constexpr ::UnityEngine::Rendering::STP_HistoryTextureType UnityEngine::Renderin
 constexpr ::UnityEngine::Rendering::STP_HistoryTextureType UnityEngine::Rendering::STP_HistoryTextureType::Convergence{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::STP_HistoryTextureType UnityEngine::Rendering::STP_HistoryTextureType::Feedback{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Rendering::STP_HistoryTextureType UnityEngine::Rendering::STP_HistoryTextureType::Count{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "preUpscaleSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "postUpscaleSize", ty: "::UnityEngine::Vector2Int",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "useHwDrs", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "useTexArray", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "preUpscaleSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "postUpscaleSize", ty:
+// "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "useHwDrs", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "useTexArray", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::STP_HistoryUpdateInfo::STP_HistoryUpdateInfo(::UnityEngine::Vector2Int preUpscaleSize, ::UnityEngine::Vector2Int postUpscaleSize, bool useHwDrs,
                                                                                  bool useTexArray) noexcept {
   this->preUpscaleSize = preUpscaleSize;
@@ -244,28 +246,30 @@ constexpr ::System::IDisposable* UnityEngine::Rendering::STP_HistoryContext::i__
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::STP_HistoryContext::STP_HistoryContext() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::STP_StpSetupPerViewConstants::STP_StpSetupPerViewConstants(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::STP_StpSetupPerViewConstants::STP_StpSetupPerViewConstants() {}
 constexpr ::UnityEngine::Rendering::STP_StpSetupPerViewConstants UnityEngine::Rendering::STP_StpSetupPerViewConstants::Count{ static_cast<int32_t>(0x8) };
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer(
     float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "_StpCommonConstant", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "_StpSetupConstants0", ty: "::UnityEngine::Vector4",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_StpSetupConstants1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "_StpSetupConstants2", ty:
-// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "_StpSetupConstants3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_StpSetupConstants4", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "_StpSetupConstants5", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_StpSetupPerViewConstants", ty: "::UnityEngine::Rendering::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_StpDilConstants0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "_StpTaaConstants0", ty: "::UnityEngine::Vector4", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_StpTaaConstants1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "_StpTaaConstants2", ty:
-// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "_StpTaaConstants3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_StpCommonConstant", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StpSetupConstants0", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StpSetupConstants1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_StpSetupConstants2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StpSetupConstants3", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StpSetupConstants4", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_StpSetupConstants5", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StpSetupPerViewConstants", ty:
+// "::UnityEngine::Rendering::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StpDilConstants0", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StpTaaConstants0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_StpTaaConstants1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StpTaaConstants2", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StpTaaConstants3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::Rendering::STP_StpConstantBufferData::STP_StpConstantBufferData(
     ::UnityEngine::Vector4 _StpCommonConstant, ::UnityEngine::Vector4 _StpSetupConstants0, ::UnityEngine::Vector4 _StpSetupConstants1, ::UnityEngine::Vector4 _StpSetupConstants2,
     ::UnityEngine::Vector4 _StpSetupConstants3, ::UnityEngine::Vector4 _StpSetupConstants4, ::UnityEngine::Vector4 _StpSetupConstants5,
@@ -626,7 +630,7 @@ constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::STP_RuntimeResources::STP_RuntimeResources() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::STP_ProfileId::STP_ProfileId(int32_t value__) noexcept {
   this->value__ = value__;
 }

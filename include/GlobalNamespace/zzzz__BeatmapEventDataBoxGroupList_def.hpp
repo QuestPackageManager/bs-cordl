@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventDataBoxGroupList.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventDataBoxGroupList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,9 @@ namespace GlobalNamespace {
 class IBeatmapLightEventConverter;
 }
 namespace GlobalNamespace {
-template <typename T, typename TBase> class SortedList_2;
+template <typename T, typename TBase>
+  requires(::cordl_internals::type_constraint<TBase, ::System::IComparable_1<TBase>*> && ::cordl_internals::reference_type_constraint<TBase>)
+class SortedList_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -80,6 +82,7 @@ public:
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupList* New_ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
                                                                           ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x3717728, size 0x80, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -151,13 +154,13 @@ protected:
   constexpr BeatmapEventDataBoxGroupList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroupList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroupList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventDataBoxGroupList(BeatmapEventDataBoxGroupList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroupList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroupList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataBoxGroupList(BeatmapEventDataBoxGroupList const&) = delete;
+  BeatmapEventDataBoxGroupList(BeatmapEventDataBoxGroupListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14915 };

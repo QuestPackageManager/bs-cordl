@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UnityLogWriter.hpp"
+// IWYU pragma private; include "UnityEngine/UnityLogWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class UnityLogWriter;
 // Write type traits
 MARK_REF_T(::UnityEngine::UnityLogWriter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UnityLogWriter*, "UnityEngine", "UnityLogWriter");
+// [NativeHeader("Runtime/Export/Logging/UnityLogWriter.bindings.h")]
 // Dependencies System.IO.TextWriter
 namespace UnityEngine {
 // Is value type: false
@@ -44,9 +45,11 @@ public:
   /// @brief Method Write, addr 0x6aca488, size 0x3c, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
+  /// [ThreadAndSerializationSafe]
   /// @brief Method WriteStringToUnityLog, addr 0x6aca1f0, size 0xc, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLog(::StringW s);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method WriteStringToUnityLogImpl, addr 0x6aca1fc, size 0x124, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLogImpl(::StringW s);
 
@@ -65,13 +68,13 @@ protected:
   constexpr UnityLogWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityLogWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityLogWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityLogWriter(UnityLogWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityLogWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityLogWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityLogWriter(UnityLogWriter const&) = delete;
+  UnityLogWriter(UnityLogWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10245 };

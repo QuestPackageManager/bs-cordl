@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundNonLightInstancedGroupRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundNonLightInstancedGroupRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +87,7 @@ public:
   // @brief default ctor
   constexpr BloomPrePassBackgroundNonLightInstancedGroupRenderer_PropertyType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BloomPrePassBackgroundNonLightInstancedGroupRenderer_PropertyType(int32_t value__) noexcept;
 
   /// @brief Field Color value: I32(2)
@@ -165,13 +165,13 @@ protected:
   constexpr BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty(BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty(BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty const&) = delete;
+  BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty(BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19452 };
@@ -197,6 +197,7 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstance
 static_assert(sizeof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteAlways]
 // Dependencies BloomPrePassBackgroundNonLightInstancedGroupRenderer::SupportedProperty, BloomPrePassBackgroundNonLightRenderer, BloomPrePassNonLightPass
 namespace GlobalNamespace {
 // Is value type: false
@@ -245,6 +246,7 @@ public:
   /// @brief Field _worldSpaceCameraPosID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__worldSpaceCameraPosID, put = setStaticF__worldSpaceCameraPosID)) int32_t _worldSpaceCameraPosID;
 
+  /// [ContextMenu("AutoFill Renderers")]
   /// @brief Method AutoFillRenderers, addr 0x5860e4c, size 0x54, virtual false, abstract: false, final false
   inline void AutoFillRenderers();
 
@@ -335,13 +337,13 @@ protected:
   constexpr BloomPrePassBackgroundNonLightInstancedGroupRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundNonLightInstancedGroupRenderer(BloomPrePassBackgroundNonLightInstancedGroupRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightInstancedGroupRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundNonLightInstancedGroupRenderer(BloomPrePassBackgroundNonLightInstancedGroupRenderer const&) = delete;
+  BloomPrePassBackgroundNonLightInstancedGroupRenderer(BloomPrePassBackgroundNonLightInstancedGroupRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19454 };
@@ -349,12 +351,16 @@ public:
   /// @brief Field kInternalMatricesCachingId offset 0xffffffff size 0x8
   static constexpr ::ConstString kInternalMatricesCachingId{ u"INTERNAL_MATRICES" };
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 
+  /// [SerializeField]
   /// @brief Field _renderers, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>> ____renderers;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _supportedProperties, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty*> ____supportedProperties;
 

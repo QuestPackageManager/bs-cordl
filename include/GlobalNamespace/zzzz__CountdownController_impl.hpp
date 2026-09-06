@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CountdownController.hpp"
+// IWYU pragma private; include "GlobalNamespace/CountdownController.hpp"
 #include "GlobalNamespace/zzzz__CountdownElementController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CountdownController_def.hpp"

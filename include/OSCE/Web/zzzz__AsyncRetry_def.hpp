@@ -1,17 +1,20 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Web\AsyncRetry.hpp"
+// IWYU pragma private; include "OSCE/Web/AsyncRetry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncRetry)
 namespace OSCE::Web {
-template <typename TException> struct AsyncRetry__RetryOn_d__0_1;
+template <typename TException>
+  requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
+struct AsyncRetry__RetryOn_d__0_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -30,17 +33,21 @@ namespace OSCE::Web {
 class AsyncRetry;
 }
 namespace OSCE::Web {
-template <typename TException> struct AsyncRetry__RetryOn_d__0_1;
+template <typename TException>
+  requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
+struct AsyncRetry__RetryOn_d__0_1;
 }
 // Write type traits
 MARK_REF_T(::OSCE::Web::AsyncRetry*);
 MARK_GEN_VAL_T(::OSCE::Web::AsyncRetry__RetryOn_d__0_1);
 DEFINE_IL2CPP_CLASS(::OSCE::Web::AsyncRetry*, "OSCE.Web", "AsyncRetry");
 DEFINE_IL2CPP_GEN_CLASS(::OSCE::Web::AsyncRetry__RetryOn_d__0_1, "OSCE.Web", "AsyncRetry/<RetryOn>d__0`1");
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
+// [CompilerGenerated]
+// Dependencies System.Exception, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace OSCE::Web {
 // cpp template
 template <typename TException>
+  requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
 // Is value type: true
 // CS Name: OSCE.Web.AsyncRetry/<RetryOn>d__0`1<TException>
 struct CORDL_TYPE AsyncRetry__RetryOn_d__0_1 {
@@ -52,6 +59,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -62,12 +70,12 @@ public:
   // @brief default ctor
   constexpr AsyncRetry__RetryOn_d__0_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "function", ty:
-  // "::System::Func_2<::System::Threading::CancellationToken,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None }, CppParam { name: "cancelToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "maxTries", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentTry_5__2", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "_exponentialBackoff_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "function", ty:
+  // "::System::Func_2<::System::Threading::CancellationToken,::System::Threading::Tasks::Task*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancelToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxTries", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_currentTry_5__2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_exponentialBackoff_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncRetry__RetryOn_d__0_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                        ::System::Func_2<::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* function, ::System::Threading::CancellationToken cancelToken,
                                        int32_t maxTries, int32_t _currentTry_5__2, int32_t _exponentialBackoff_5__3, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -106,17 +114,21 @@ public:
 };
 // Non member Declarations
 } // namespace OSCE::Web
-// Dependencies System.Object
+// Dependencies System.Exception, System.Object
 namespace OSCE::Web {
 // Is value type: false
 // CS Name: OSCE.Web.AsyncRetry
 class CORDL_TYPE AsyncRetry : public ::System::Object {
 public:
   // Declarations
-  template <typename TException> using _RetryOn_d__0_1 = ::OSCE::Web::AsyncRetry__RetryOn_d__0_1<TException>;
+  template <typename TException>
+    requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
+  using _RetryOn_d__0_1 = ::OSCE::Web::AsyncRetry__RetryOn_d__0_1<TException>;
 
+  /// [AsyncStateMachine(typeof(OSCE.Web.AsyncRetry::<RetryOn>d__0`1<TException>))]
   /// @brief Method RetryOn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TException>
+    requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
   static inline ::System::Threading::Tasks::Task* RetryOn(int32_t maxTries, ::System::Func_2<::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* function,
                                                           ::System::Threading::CancellationToken cancelToken);
 
@@ -126,13 +138,13 @@ protected:
   constexpr AsyncRetry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncRetry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncRetry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncRetry(AsyncRetry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncRetry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncRetry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncRetry(AsyncRetry const&) = delete;
+  AsyncRetry(AsyncRetryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21884 };

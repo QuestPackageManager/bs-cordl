@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRController.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class XRController;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::XR::XRController*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::XR::XRController*, "UnityEngine.InputSystem.XR", "XRController");
+// [InputControlLayout(commonUsages = new[] { "LeftHand", "RightHand" }, isGenericTypeOfDevice = true, displayName = "XR Controller")]
 // Dependencies UnityEngine.InputSystem.TrackedDevice
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
@@ -39,13 +40,13 @@ protected:
   constexpr XRController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRController(XRController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRController(XRController const&) = delete;
+  XRController(XRControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8812 };

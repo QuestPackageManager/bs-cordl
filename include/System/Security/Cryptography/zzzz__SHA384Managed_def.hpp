@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\SHA384Managed.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/SHA384Managed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class SHA384Managed;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::SHA384Managed*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::SHA384Managed*, "System.Security.Cryptography", "SHA384Managed");
+// [ComVisible(true)]
 // Dependencies System.Security.Cryptography.SHA384
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -120,13 +121,13 @@ protected:
   constexpr SHA384Managed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SHA384Managed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SHA384Managed", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SHA384Managed(SHA384Managed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SHA384Managed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SHA384Managed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SHA384Managed(SHA384Managed const&) = delete;
+  SHA384Managed(SHA384Managedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2979 };

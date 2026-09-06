@@ -1,21 +1,27 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolableStaticMemoryPool_3.hpp"
+// IWYU pragma private; include "Zenject/PoolableStaticMemoryPool_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Zenject/zzzz__IPoolable_2_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_3_def.hpp"
 CORDL_MODULE_EXPORT(PoolableStaticMemoryPool_3)
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TValue> class PoolableStaticMemoryPool_3;
+template <typename TParam1, typename TParam2, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_2<TParam1, TParam2>*> && ::cordl_internals::reference_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
+class PoolableStaticMemoryPool_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableStaticMemoryPool_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableStaticMemoryPool_3, "Zenject", "PoolableStaticMemoryPool`3");
-// Dependencies Zenject.StaticMemoryPool`3<TParam1, TParam2, TValue>
+// Dependencies Zenject.IPoolable`2<TParam1, TParam2>, Zenject.StaticMemoryPool`3<TParam1, TParam2, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_2<TParam1, TParam2>*> && ::cordl_internals::reference_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Zenject.PoolableStaticMemoryPool`3<TParam1,TParam2,TValue>
 class CORDL_TYPE PoolableStaticMemoryPool_3 : public ::Zenject::StaticMemoryPool_3<TParam1, TParam2, TValue> {
@@ -38,13 +44,13 @@ protected:
   constexpr PoolableStaticMemoryPool_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableStaticMemoryPool_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableStaticMemoryPool_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolableStaticMemoryPool_3(PoolableStaticMemoryPool_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableStaticMemoryPool_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableStaticMemoryPool_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableStaticMemoryPool_3(PoolableStaticMemoryPool_3 const&) = delete;
+  PoolableStaticMemoryPool_3(PoolableStaticMemoryPool_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14432 };

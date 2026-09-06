@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlDataContractInterpreter.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlDataContractInterpreter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlDataContractInterpreter_def.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"

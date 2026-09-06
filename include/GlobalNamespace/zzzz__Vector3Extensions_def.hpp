@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Vector3Extensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/Vector3Extensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class Vector3Extensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::Vector3Extensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::Vector3Extensions*, "", "Vector3Extensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -26,18 +27,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE Vector3Extensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Abs, addr 0x3326208, size 0x18, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 Abs(::by_ref<::UnityEngine::Vector3> vector);
+  static inline ::UnityEngine::Vector3 Abs(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> vector);
 
   /// @brief Method InverseLerp, addr 0x3326144, size 0x50, virtual false, abstract: false, final false
   static inline float_t InverseLerp(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value);
 
+  /// [Extension]
   /// @brief Method MirrorEulerAnglesOnYZPlane, addr 0x33261fc, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorEulerAnglesOnYZPlane(::UnityEngine::Vector3 vector);
 
+  /// [Extension]
   /// @brief Method MirrorOnYZPlane, addr 0x33261f4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorOnYZPlane(::UnityEngine::Vector3 vector);
 
+  /// [Extension]
   /// @brief Method RotatedAroundPivot, addr 0x3326194, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RotatedAroundPivot(::UnityEngine::Vector3 vector, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 pivot);
 
@@ -47,13 +52,13 @@ protected:
   constexpr Vector3Extensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Extensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3Extensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector3Extensions(Vector3Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Extensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector3Extensions(Vector3Extensions const&) = delete;
+  Vector3Extensions(Vector3Extensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20747 };

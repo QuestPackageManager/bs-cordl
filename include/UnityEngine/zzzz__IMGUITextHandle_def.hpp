@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\IMGUITextHandle.hpp"
+// IWYU pragma private; include "UnityEngine/IMGUITextHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,13 +93,13 @@ protected:
   constexpr IMGUITextHandle_TextHandleTuple();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle_TextHandleTuple", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle_TextHandleTuple", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IMGUITextHandle_TextHandleTuple(IMGUITextHandle_TextHandleTuple&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle_TextHandleTuple", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle_TextHandleTuple", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUITextHandle_TextHandleTuple(IMGUITextHandle_TextHandleTuple const&) = delete;
+  IMGUITextHandle_TextHandleTuple(IMGUITextHandle_TextHandleTupleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19894 };
@@ -219,13 +219,13 @@ protected:
   constexpr IMGUITextHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IMGUITextHandle(IMGUITextHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUITextHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUITextHandle(IMGUITextHandle const&) = delete;
+  IMGUITextHandle(IMGUITextHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19895 };

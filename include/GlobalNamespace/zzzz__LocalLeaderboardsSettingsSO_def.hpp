@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardsSettingsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsSettingsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,17 +48,18 @@ protected:
   constexpr LocalLeaderboardsSettingsSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsSettingsSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsSettingsSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardsSettingsSO(LocalLeaderboardsSettingsSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsSettingsSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsSettingsSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsSettingsSO(LocalLeaderboardsSettingsSO const&) = delete;
+  LocalLeaderboardsSettingsSO(LocalLeaderboardsSettingsSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15297 };
 
+  /// [SerializeField]
   /// @brief Field _maxNumberOfScoresInLeaderboard, offset: 0x18, size: 0x4, def value: None
   int32_t ____maxNumberOfScoresInLeaderboard;
 

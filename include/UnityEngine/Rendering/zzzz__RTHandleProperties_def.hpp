@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RTHandleProperties.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RTHandleProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,10 @@ public:
   // @brief default ctor
   constexpr RTHandleProperties();
 
-  // Ctor Parameters [CppParam { name: "previousViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "previousRenderTargetSize", ty:
-  // "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "currentViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name:
-  // "currentRenderTargetSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "rtHandleScale", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "previousViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "previousRenderTargetSize", ty:
+  // "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "currentViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "currentRenderTargetSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "rtHandleScale", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr RTHandleProperties(::UnityEngine::Vector2Int previousViewportSize, ::UnityEngine::Vector2Int previousRenderTargetSize, ::UnityEngine::Vector2Int currentViewportSize,
                                ::UnityEngine::Vector2Int currentRenderTargetSize, ::UnityEngine::Vector4 rtHandleScale) noexcept;
 

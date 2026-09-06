@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IntegerTime\DiscreteTime.hpp"
+// IWYU pragma private; include "Unity/IntegerTime/DiscreteTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,24 +61,30 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
+  /// [IsReadOnly]
   /// @brief Method CompareTo, addr 0x6a5c8f0, size 0x14, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Unity::IntegerTime::DiscreteTime other);
 
+  /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6a5c730, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
+  /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6a5c720, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::Unity::IntegerTime::DiscreteTime rhs);
 
   /// @brief Method FromTicks, addr 0x6a5c604, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::IntegerTime::DiscreteTime FromTicks(int64_t v);
 
+  /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6a5c7cc, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [IsReadOnly]
   /// @brief Method ToString, addr 0x6a5c7d8, size 0x80, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [IsReadOnly]
   /// @brief Method ToString, addr 0x6a5c858, size 0x98, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
@@ -145,7 +151,7 @@ public:
   // @brief default ctor
   constexpr DiscreteTime();
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr DiscreteTime(int64_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -154,6 +160,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [SerializeField]
   /// @brief Field Value, offset: 0x0, size: 0x8, def value: None
   int64_t Value;
 

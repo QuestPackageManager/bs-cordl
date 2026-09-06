@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRInputSubsystem.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRInputSubsystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"

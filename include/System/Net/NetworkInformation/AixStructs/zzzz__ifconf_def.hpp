@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\AixStructs\ifconf.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/ifconf.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,8 @@ public:
   // @brief default ctor
   constexpr ifconf();
 
-  // Ctor Parameters [CppParam { name: "ifc_len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ifc_buf", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ifc_len", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ifc_buf", ty: "::System::IntPtr", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ifconf(int32_t ifc_len, ::System::IntPtr ifc_buf) noexcept;
 
 private:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Web\FailedGetRequest.hpp"
+// IWYU pragma private; include "OSCE/Web/FailedGetRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,8 +28,9 @@ public:
   // @brief default ctor
   constexpr FailedGetRequest();
 
-  // Ctor Parameters [CppParam { name: "Path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Query", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*",
-  // modifiers: "", def_value: None }, CppParam { name: "AttemptsMade", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Query", ty:
+  // "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "AttemptsMade", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr FailedGetRequest(::StringW Path, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* Query, int32_t AttemptsMade) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

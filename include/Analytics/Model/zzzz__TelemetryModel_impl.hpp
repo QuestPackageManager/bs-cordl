@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Analytics\Model\TelemetryModel.hpp"
+// IWYU pragma private; include "Analytics/Model/TelemetryModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Analytics/Model/zzzz__TelemetryModel_def.hpp"
 #include "BeatGames/Analytics/zzzz__AnalyticsEventsDispatcher_def.hpp"

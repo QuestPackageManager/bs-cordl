@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Jobs\IJobParallelForTransformExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Jobs/IJobParallelForTransformExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstLike_def.hpp"
+#include "UnityEngine/Jobs/zzzz__IJobParallelForTransform_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IJobParallelForTransformExtensions)
@@ -23,29 +24,41 @@ namespace Unity::Jobs {
 struct JobHandle;
 }
 namespace UnityEngine::Jobs {
-template <typename T> struct IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1;
 }
 namespace UnityEngine::Jobs {
 struct TransformAccessArray;
 }
 namespace UnityEngine::Jobs {
-template <typename T> class TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction;
 }
 namespace UnityEngine::Jobs {
-template <typename T> struct TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData;
 }
 // Forward declare root types
 namespace UnityEngine::Jobs {
 class IJobParallelForTransformExtensions;
 }
 namespace UnityEngine::Jobs {
-template <typename T> class TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction;
 }
 namespace UnityEngine::Jobs {
-template <typename T> struct IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1;
 }
 namespace UnityEngine::Jobs {
-template <typename T> struct TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::Jobs::IJobParallelForTransformExtensions*);
@@ -59,10 +72,11 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Jobs::IJobParallelForTransformExtensions_
                         "IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Jobs::TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData, "UnityEngine.Jobs",
                         "IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1/TransformJobData");
-// Dependencies System.IntPtr
+// Dependencies System.IntPtr, UnityEngine.Jobs.IJobParallelForTransform
 namespace UnityEngine::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Jobs.IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1/TransformJobData<T>
 struct CORDL_TYPE TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData {
@@ -72,7 +86,8 @@ public:
   // @brief default ctor
   constexpr TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData();
 
-  // Ctor Parameters [CppParam { name: "TransformAccessArray", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "IsReadOnly", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "TransformAccessArray", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "IsReadOnly", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_TransformJobData(::System::IntPtr TransformAccessArray, int32_t IsReadOnly) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -91,10 +106,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Jobs
-// Dependencies System.MulticastDelegate
+// Dependencies System.MulticastDelegate, UnityEngine.Jobs.IJobParallelForTransform
 namespace UnityEngine::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Jobs.IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1/ExecuteJobFunction<T>
 class CORDL_TYPE TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction : public ::System::MulticastDelegate {
@@ -114,13 +130,13 @@ protected:
   constexpr TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction(TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction(TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction const&) = delete;
+  TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunction(TransformParallelForLoopStruct_1_IJobParallelForTransformExtensions_ExecuteJobFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10434 };
@@ -129,10 +145,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Jobs
-// Dependencies System.IntPtr, Unity.Collections.LowLevel.Unsafe.BurstLike::SharedStatic`1<T>
+// Dependencies System.IntPtr, Unity.Collections.LowLevel.Unsafe.BurstLike::SharedStatic`1<T>, UnityEngine.Jobs.IJobParallelForTransform
 namespace UnityEngine::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Jobs.IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1<T>
 #pragma pack(push, 0)
@@ -149,6 +166,7 @@ public:
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Execute(::by_ref<T> jobData, ::System::IntPtr jobData2, ::System::IntPtr bufferRangePatchData, ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
 
+  /// [BurstDiscard]
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Initialize();
 
@@ -171,23 +189,38 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 } // namespace UnityEngine::Jobs
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, UnityEngine.Jobs.IJobParallelForTransform
 namespace UnityEngine::Jobs {
 // Is value type: false
 // CS Name: UnityEngine.Jobs.IJobParallelForTransformExtensions
 class CORDL_TYPE IJobParallelForTransformExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using TransformParallelForLoopStruct_1 = ::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  using TransformParallelForLoopStruct_1 = ::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1<T>;
 
   /// @brief Method GetReflectionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::IntPtr GetReflectionData();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::System::IntPtr GetReflectionData();
 
+  /// [Extension]
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, ::UnityEngine::Jobs::TransformAccessArray transforms, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle Schedule(T jobData, ::UnityEngine::Jobs::TransformAccessArray transforms, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
   /// @brief Method ScheduleReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleReadOnly(T jobData, ::UnityEngine::Jobs::TransformAccessArray transforms, int32_t batchSize, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Jobs::IJobParallelForTransform*> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleReadOnly(T jobData, ::UnityEngine::Jobs::TransformAccessArray transforms, int32_t batchSize, ::Unity::Jobs::JobHandle dependsOn);
 
 protected:
   // Ctor Parameters []
@@ -195,13 +228,13 @@ protected:
   constexpr IJobParallelForTransformExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForTransformExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForTransformExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IJobParallelForTransformExtensions(IJobParallelForTransformExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForTransformExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForTransformExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobParallelForTransformExtensions(IJobParallelForTransformExtensions const&) = delete;
+  IJobParallelForTransformExtensions(IJobParallelForTransformExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10436 };

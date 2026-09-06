@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\AssetBundleRequestOptions.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleRequestOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -258,50 +258,68 @@ protected:
   constexpr AssetBundleRequestOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequestOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequestOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleRequestOptions(AssetBundleRequestOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequestOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequestOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleRequestOptions(AssetBundleRequestOptions const&) = delete;
+  AssetBundleRequestOptions(AssetBundleRequestOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18765 };
 
+  /// [FormerlySerializedAs("m_hash")]
+  /// [SerializeField]
   /// @brief Field m_Hash, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Hash;
 
+  /// [FormerlySerializedAs("m_crc")]
+  /// [SerializeField]
   /// @brief Field m_Crc, offset: 0x18, size: 0x4, def value: None
   uint32_t ___m_Crc;
 
+  /// [FormerlySerializedAs("m_timeout")]
+  /// [SerializeField]
   /// @brief Field m_Timeout, offset: 0x1c, size: 0x4, def value: None
   int32_t ___m_Timeout;
 
+  /// [FormerlySerializedAs("m_chunkedTransfer")]
+  /// [SerializeField]
   /// @brief Field m_ChunkedTransfer, offset: 0x20, size: 0x1, def value: None
   bool ___m_ChunkedTransfer;
 
+  /// [FormerlySerializedAs("m_redirectLimit")]
+  /// [SerializeField]
   /// @brief Field m_RedirectLimit, offset: 0x24, size: 0x4, def value: None
   int32_t ___m_RedirectLimit;
 
+  /// [FormerlySerializedAs("m_retryCount")]
+  /// [SerializeField]
   /// @brief Field m_RetryCount, offset: 0x28, size: 0x4, def value: None
   int32_t ___m_RetryCount;
 
+  /// [SerializeField]
   /// @brief Field m_BundleName, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_BundleName;
 
+  /// [SerializeField]
   /// @brief Field m_AssetLoadMode, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode ___m_AssetLoadMode;
 
+  /// [SerializeField]
   /// @brief Field m_BundleSize, offset: 0x40, size: 0x8, def value: None
   int64_t ___m_BundleSize;
 
+  /// [SerializeField]
   /// @brief Field m_UseCrcForCachedBundles, offset: 0x48, size: 0x1, def value: None
   bool ___m_UseCrcForCachedBundles;
 
+  /// [SerializeField]
   /// @brief Field m_UseUWRForLocalBundles, offset: 0x49, size: 0x1, def value: None
   bool ___m_UseUWRForLocalBundles;
 
+  /// [SerializeField]
   /// @brief Field m_ClearOtherCachedVersionsWhenLoaded, offset: 0x4a, size: 0x1, def value: None
   bool ___m_ClearOtherCachedVersionsWhenLoaded;
 

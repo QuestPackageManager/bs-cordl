@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\CollectionDataContractAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/CollectionDataContractAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class CollectionDataContractAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::Serialization::CollectionDataContractAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::CollectionDataContractAttribute*, "System.Runtime.Serialization", "CollectionDataContractAttribute");
+// [AttributeUsage((System.AttributeTargets)12, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -180,13 +181,13 @@ protected:
   constexpr CollectionDataContractAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContractAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContractAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionDataContractAttribute(CollectionDataContractAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContractAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContractAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionDataContractAttribute(CollectionDataContractAttribute const&) = delete;
+  CollectionDataContractAttribute(CollectionDataContractAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17012 };

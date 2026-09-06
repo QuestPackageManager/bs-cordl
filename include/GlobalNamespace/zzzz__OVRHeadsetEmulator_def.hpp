@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRHeadsetEmulator.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRHeadsetEmulator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   // @brief default ctor
   constexpr OVRHeadsetEmulator_OpMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRHeadsetEmulator_OpMode(int32_t value__) noexcept;
 
   /// @brief Field AlwaysOn value: I32(2)
@@ -302,13 +302,13 @@ protected:
   constexpr OVRHeadsetEmulator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHeadsetEmulator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHeadsetEmulator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHeadsetEmulator(OVRHeadsetEmulator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHeadsetEmulator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHeadsetEmulator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHeadsetEmulator(OVRHeadsetEmulator const&) = delete;
+  OVRHeadsetEmulator(OVRHeadsetEmulatorconst&) = delete;
 
   /// @brief Field MAX_ROLL offset 0xffffffff size 0x4
   static constexpr float_t MAX_ROLL{ static_cast<float_t>(85.0f) };

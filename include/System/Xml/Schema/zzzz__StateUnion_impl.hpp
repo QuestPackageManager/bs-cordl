@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\StateUnion.hpp"
+// IWYU pragma private; include "System/Xml/Schema/StateUnion.hpp"
 #include "System/Xml/Schema/zzzz__StateUnion_def.hpp"
 constexpr int32_t& System::Xml::Schema::StateUnion::__cordl_internal_get_State() {
   return this->___State;
@@ -37,8 +37,9 @@ constexpr int32_t const& System::Xml::Schema::StateUnion::__cordl_internal_get_N
 constexpr void System::Xml::Schema::StateUnion::__cordl_internal_set_NumberOfRunningPos(int32_t value) {
   this->___NumberOfRunningPos = value;
 }
-// Ctor Parameters [CppParam { name: "State", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "AllElementsRequired", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "CurPosIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumberOfRunningPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "State", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AllElementsRequired", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "CurPosIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumberOfRunningPos", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::StateUnion::StateUnion(int32_t State, int32_t AllElementsRequired, int32_t CurPosIndex, int32_t NumberOfRunningPos) noexcept {
   this->State = State;
   this->AllElementsRequired = AllElementsRequired;

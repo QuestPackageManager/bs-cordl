@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\ScrollRect.hpp"
+// IWYU pragma private; include "UnityEngine/UI/ScrollRect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,7 +132,7 @@ public:
   // @brief default ctor
   constexpr ScrollRect_MovementType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScrollRect_MovementType(int32_t value__) noexcept;
 
   /// @brief Field Clamped value: I32(2)
@@ -191,7 +191,7 @@ public:
   // @brief default ctor
   constexpr ScrollRect_ScrollbarVisibility();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScrollRect_ScrollbarVisibility(int32_t value__) noexcept;
 
   /// @brief Field AutoHide value: I32(1)
@@ -238,13 +238,13 @@ protected:
   constexpr ScrollRect_ScrollRectEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollRect_ScrollRectEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollRect_ScrollRectEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScrollRect_ScrollRectEvent(ScrollRect_ScrollRectEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollRect_ScrollRectEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollRect_ScrollRectEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollRect_ScrollRectEvent(ScrollRect_ScrollRectEvent const&) = delete;
+  ScrollRect_ScrollRectEvent(ScrollRect_ScrollRectEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17485 };
@@ -255,6 +255,11 @@ public:
 static_assert(sizeof(::UnityEngine::UI::ScrollRect_ScrollRectEvent) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("UI/Scroll Rect", 37)]
+// [SelectionBase]
+// [ExecuteAlways]
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.Bounds, UnityEngine.DrivenRectTransformTracker, UnityEngine.EventSystems.UIBehaviour, UnityEngine.UI.ScrollRect::MovementType,
 // UnityEngine.UI.ScrollRect::ScrollbarVisibility, UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::UI {
@@ -1010,62 +1015,78 @@ protected:
   constexpr ScrollRect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollRect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollRect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScrollRect(ScrollRect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollRect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollRect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollRect(ScrollRect const&) = delete;
+  ScrollRect(ScrollRectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17486 };
 
+  /// [SerializeField]
   /// @brief Field m_Content, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_Content;
 
+  /// [SerializeField]
   /// @brief Field m_Horizontal, offset: 0x28, size: 0x1, def value: None
   bool ___m_Horizontal;
 
+  /// [SerializeField]
   /// @brief Field m_Vertical, offset: 0x29, size: 0x1, def value: None
   bool ___m_Vertical;
 
+  /// [SerializeField]
   /// @brief Field m_MovementType, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::UI::ScrollRect_MovementType ___m_MovementType;
 
+  /// [SerializeField]
   /// @brief Field m_Elasticity, offset: 0x30, size: 0x4, def value: None
   float_t ___m_Elasticity;
 
+  /// [SerializeField]
   /// @brief Field m_Inertia, offset: 0x34, size: 0x1, def value: None
   bool ___m_Inertia;
 
+  /// [SerializeField]
   /// @brief Field m_DecelerationRate, offset: 0x38, size: 0x4, def value: None
   float_t ___m_DecelerationRate;
 
+  /// [SerializeField]
   /// @brief Field m_ScrollSensitivity, offset: 0x3c, size: 0x4, def value: None
   float_t ___m_ScrollSensitivity;
 
+  /// [SerializeField]
   /// @brief Field m_Viewport, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_Viewport;
 
+  /// [SerializeField]
   /// @brief Field m_HorizontalScrollbar, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Scrollbar> ___m_HorizontalScrollbar;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalScrollbar, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Scrollbar> ___m_VerticalScrollbar;
 
+  /// [SerializeField]
   /// @brief Field m_HorizontalScrollbarVisibility, offset: 0x58, size: 0x4, def value: None
   ::UnityEngine::UI::ScrollRect_ScrollbarVisibility ___m_HorizontalScrollbarVisibility;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalScrollbarVisibility, offset: 0x5c, size: 0x4, def value: None
   ::UnityEngine::UI::ScrollRect_ScrollbarVisibility ___m_VerticalScrollbarVisibility;
 
+  /// [SerializeField]
   /// @brief Field m_HorizontalScrollbarSpacing, offset: 0x60, size: 0x4, def value: None
   float_t ___m_HorizontalScrollbarSpacing;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalScrollbarSpacing, offset: 0x64, size: 0x4, def value: None
   float_t ___m_VerticalScrollbarSpacing;
 
+  /// [SerializeField]
   /// @brief Field m_OnValueChanged, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UI::ScrollRect_ScrollRectEvent* ___m_OnValueChanged;
 

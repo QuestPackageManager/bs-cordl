@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +38,13 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Clone();
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetValue();
 
-  /// @brief Method Interp, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Interp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Interp(::UnityEngine::Rendering::VolumeParameter* from, ::UnityEngine::Rendering::VolumeParameter* to, float_t t);
 
   /// @brief Method IsObjectParameter, addr 0x67cc230, size 0x120, virtual false, abstract: false, final false
@@ -61,7 +61,7 @@ public:
   /// @brief Method Release, addr 0x67cc6b8, size 0x4, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::UnityEngine::Rendering::VolumeParameter* parameter);
 
   constexpr bool const& __cordl_internal_get_m_OverrideState() const;
@@ -88,13 +88,13 @@ protected:
   constexpr VolumeParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeParameter(VolumeParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeParameter(VolumeParameter const&) = delete;
+  VolumeParameter(VolumeParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12330 };
@@ -102,6 +102,7 @@ public:
   /// @brief Field k_DebuggerDisplay offset 0xffffffff size 0x8
   static constexpr ::ConstString k_DebuggerDisplay{ u"{m_Value} ({m_OverrideState})" };
 
+  /// [SerializeField]
   /// @brief Field m_OverrideState, offset: 0x10, size: 0x1, def value: None
   bool ___m_OverrideState;
 

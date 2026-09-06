@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BombExecutionRating.hpp"
+// IWYU pragma private; include "GlobalNamespace/BombExecutionRating.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   // @brief default ctor
   constexpr BombExecutionRating_Rating();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BombExecutionRating_Rating(int32_t value__) noexcept;
 
   /// @brief Field NotGood value: I32(1)
@@ -103,6 +103,7 @@ public:
   /// @brief Method .ctor, addr 0x370788c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::BombExecutionRating_Rating rating);
 
+  /// [CompilerGenerated]
   /// @brief Method get_rating, addr 0x3707884, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BombExecutionRating_Rating get_rating();
 
@@ -112,17 +113,18 @@ protected:
   constexpr BombExecutionRating();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BombExecutionRating", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombExecutionRating", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BombExecutionRating(BombExecutionRating&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BombExecutionRating", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombExecutionRating", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombExecutionRating(BombExecutionRating const&) = delete;
+  BombExecutionRating(BombExecutionRatingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14812 };
 
+  /// [CompilerGenerated]
   /// @brief Field <rating>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::BombExecutionRating_Rating ____rating_k__BackingField;
 

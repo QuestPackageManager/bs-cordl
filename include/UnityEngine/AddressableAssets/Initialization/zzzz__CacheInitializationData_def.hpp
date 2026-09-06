@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\Initialization\CacheInitializationData.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Initialization/CacheInitializationData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,26 +100,34 @@ protected:
   constexpr CacheInitializationData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CacheInitializationData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheInitializationData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CacheInitializationData(CacheInitializationData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CacheInitializationData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheInitializationData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CacheInitializationData(CacheInitializationData const&) = delete;
+  CacheInitializationData(CacheInitializationDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19854 };
 
+  /// [FormerlySerializedAs("m_compressionEnabled")]
+  /// [SerializeField]
   /// @brief Field m_CompressionEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___m_CompressionEnabled;
 
+  /// [FormerlySerializedAs("m_cacheDirectoryOverride")]
+  /// [SerializeField]
   /// @brief Field m_CacheDirectoryOverride, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_CacheDirectoryOverride;
 
+  /// [FormerlySerializedAs("m_limitCacheSize")]
+  /// [SerializeField]
   /// @brief Field m_LimitCacheSize, offset: 0x20, size: 0x1, def value: None
   bool ___m_LimitCacheSize;
 
+  /// [FormerlySerializedAs("m_maximumCacheSize")]
+  /// [SerializeField]
   /// @brief Field m_MaximumCacheSize, offset: 0x28, size: 0x8, def value: None
   int64_t ___m_MaximumCacheSize;
 

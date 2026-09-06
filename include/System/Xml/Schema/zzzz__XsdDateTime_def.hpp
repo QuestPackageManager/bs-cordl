@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XsdDateTime.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XsdDateTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,7 +89,7 @@ public:
   // @brief default ctor
   constexpr XsdDateTime_DateTimeTypeCode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XsdDateTime_DateTimeTypeCode(int32_t value__) noexcept;
 
   /// @brief Field Date value: I32(2)
@@ -167,7 +167,7 @@ public:
   // @brief default ctor
   constexpr XsdDateTime_XsdDateTimeKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XsdDateTime_XsdDateTimeKind(int32_t value__) noexcept;
 
   /// @brief Field LocalEastOfZulu value: I32(3)
@@ -247,12 +247,13 @@ public:
   // @brief default ctor
   constexpr XsdDateTime_Parser();
 
-  // Ctor Parameters [CppParam { name: "typeCode", ty: "::System::Xml::Schema::XsdDateTime_DateTimeTypeCode", modifiers: "", def_value: None }, CppParam { name: "year", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "day", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hour", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "minute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "second", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "fraction", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "kind", ty: "::System::Xml::Schema::XsdDateTime_XsdDateTimeKind", modifiers: "", def_value: None
-  // }, CppParam { name: "zoneHour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "zoneMinute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "text", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "typeCode", ty: "::System::Xml::Schema::XsdDateTime_DateTimeTypeCode", modifiers: "", def_value: None, comment: None }, CppParam { name: "year", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "month", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "day", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "hour", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "minute", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "second", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fraction", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "kind", ty: "::System::Xml::Schema::XsdDateTime_XsdDateTimeKind", modifiers: "", def_value: None, comment: None }, CppParam { name: "zoneHour", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "zoneMinute", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "text", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XsdDateTime_Parser(::System::Xml::Schema::XsdDateTime_DateTimeTypeCode typeCode, int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t fraction,
                                ::System::Xml::Schema::XsdDateTime_XsdDateTimeKind kind, int32_t zoneHour, int32_t zoneMinute, ::StringW text, int32_t length) noexcept;
 
@@ -611,7 +612,8 @@ public:
   // @brief default ctor
   constexpr XsdDateTime();
 
-  // Ctor Parameters [CppParam { name: "dt", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "extra", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "dt", ty: "::System::DateTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "extra", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr XsdDateTime(::System::DateTime dt, uint32_t extra) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

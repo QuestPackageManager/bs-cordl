@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ModalViewBase.hpp"
+// IWYU pragma private; include "HMUI/ModalViewBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ModalViewBase_def.hpp"
 #include "System/zzzz__Action_def.hpp"

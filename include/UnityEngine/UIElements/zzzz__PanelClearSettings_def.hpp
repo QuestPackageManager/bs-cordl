@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PanelClearSettings.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PanelClearSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr PanelClearSettings();
 
-  // Ctor Parameters [CppParam { name: "clearDepthStencil", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clearColor", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "clearDepthStencil", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "clearColor", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }]
   constexpr PanelClearSettings(bool clearDepthStencil, bool clearColor, ::UnityEngine::Color color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\IDtdAttributeListInfo.hpp"
+// IWYU pragma private; include "System/Xml/IDtdAttributeListInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,18 +30,18 @@ public:
   // Declarations
   __declspec(property(get = get_HasNonCDataAttributes)) bool HasNonCDataAttributes;
 
-  /// @brief Method LookupAttribute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LookupAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdAttributeInfo* LookupAttribute(::StringW prefix, ::StringW localName);
 
-  /// @brief Method LookupDefaultAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LookupDefaultAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::IDtdDefaultAttributeInfo*>* LookupDefaultAttributes();
 
-  /// @brief Method get_HasNonCDataAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_HasNonCDataAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasNonCDataAttributes();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDtdAttributeListInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDtdAttributeListInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDtdAttributeListInfo(IDtdAttributeListInfo const&) = delete;
+  IDtdAttributeListInfo(IDtdAttributeListInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9274 };

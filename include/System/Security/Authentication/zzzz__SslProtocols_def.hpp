@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Authentication\SslProtocols.hpp"
+// IWYU pragma private; include "System/Security/Authentication/SslProtocols.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct SslProtocols;
 // Write type traits
 MARK_VAL_T(::System::Security::Authentication::SslProtocols);
 DEFINE_IL2CPP_CLASS(::System::Security::Authentication::SslProtocols, "System.Security.Authentication", "SslProtocols");
+// [Flags]
 // Dependencies
 namespace System::Security::Authentication {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr SslProtocols();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SslProtocols(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(240)

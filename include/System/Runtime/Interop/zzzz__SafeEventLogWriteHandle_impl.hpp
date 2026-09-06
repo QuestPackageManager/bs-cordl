@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Interop\SafeEventLogWriteHandle.hpp"
+// IWYU pragma private; include "System/Runtime/Interop/SafeEventLogWriteHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_impl.hpp"
 #include "System/Runtime/Interop/zzzz__SafeEventLogWriteHandle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

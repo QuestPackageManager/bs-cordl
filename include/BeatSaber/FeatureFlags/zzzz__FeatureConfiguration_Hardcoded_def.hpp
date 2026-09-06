@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureConfiguration_Hardcoded.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureConfiguration_Hardcoded.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ protected:
   constexpr FeatureConfiguration_Hardcoded();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Hardcoded", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Hardcoded", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FeatureConfiguration_Hardcoded(FeatureConfiguration_Hardcoded&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Hardcoded", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureConfiguration_Hardcoded", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureConfiguration_Hardcoded(FeatureConfiguration_Hardcoded const&) = delete;
+  FeatureConfiguration_Hardcoded(FeatureConfiguration_Hardcodedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22904 };

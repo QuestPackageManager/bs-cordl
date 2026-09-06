@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Toggle.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Toggle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_REF_T(::UnityEngine::UIElements::Toggle_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Toggle*, "UnityEngine.UIElements", "Toggle");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Toggle_UxmlFactory*, "UnityEngine.UIElements", "Toggle/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Toggle_UxmlTraits*, "UnityEngine.UIElements", "Toggle/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -64,13 +65,13 @@ protected:
   constexpr Toggle_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Toggle_UxmlFactory(Toggle_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle_UxmlFactory(Toggle_UxmlFactory const&) = delete;
+  Toggle_UxmlFactory(Toggle_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4340 };
@@ -81,6 +82,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Toggle_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -111,13 +113,13 @@ protected:
   constexpr Toggle_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Toggle_UxmlTraits(Toggle_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle_UxmlTraits(Toggle_UxmlTraits const&) = delete;
+  Toggle_UxmlTraits(Toggle_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4341 };
@@ -215,13 +217,13 @@ protected:
   constexpr Toggle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Toggle(Toggle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle(Toggle const&) = delete;
+  Toggle(Toggleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4342 };

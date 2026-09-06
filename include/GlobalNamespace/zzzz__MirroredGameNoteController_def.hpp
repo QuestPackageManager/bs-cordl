@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirroredGameNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirroredGameNoteController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +67,13 @@ protected:
   constexpr MirroredGameNoteController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirroredGameNoteController_Pool(MirroredGameNoteController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredGameNoteController_Pool(MirroredGameNoteController_Pool const&) = delete;
+  MirroredGameNoteController_Pool(MirroredGameNoteController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5666 };
@@ -147,6 +147,7 @@ public:
   /// @brief Method .ctor, addr 0x58d2c58, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x58d282c, size 0xc0, virtual true, abstract: false, final true
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
@@ -168,6 +169,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x58d28ec, size 0xc0, virtual true, abstract: false, final true
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
@@ -179,23 +181,26 @@ protected:
   constexpr MirroredGameNoteController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirroredGameNoteController(MirroredGameNoteController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredGameNoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredGameNoteController(MirroredGameNoteController const&) = delete;
+  MirroredGameNoteController(MirroredGameNoteControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5667 };
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [CompilerGenerated]
   /// @brief Field cubeNoteControllerDidInitEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* ___cubeNoteControllerDidInitEvent;
 

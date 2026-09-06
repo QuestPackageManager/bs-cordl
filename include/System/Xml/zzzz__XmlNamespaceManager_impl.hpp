@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlNamespaceManager.hpp"
+// IWYU pragma private; include "System/Xml/XmlNamespaceManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -31,8 +31,9 @@ inline void System::Xml::XmlNamespaceManager_NamespaceDeclaration::Set(::StringW
                                                            { "Set", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, prefix, uri, scopeId, previousNsIndex);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "scopeId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "previousNsIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "scopeId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "previousNsIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlNamespaceManager_NamespaceDeclaration::XmlNamespaceManager_NamespaceDeclaration(::StringW prefix, ::StringW uri, int32_t scopeId, int32_t previousNsIndex) noexcept {
   this->prefix = prefix;
   this->uri = uri;

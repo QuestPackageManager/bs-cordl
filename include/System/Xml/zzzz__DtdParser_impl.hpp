@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\DtdParser.hpp"
+// IWYU pragma private; include "System/Xml/DtdParser.hpp"
 #include "System/Xml/zzzz__LineInfo_impl.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -20,7 +20,7 @@
 #include "System/Xml/zzzz__IDtdParser_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::DtdParser_Token::DtdParser_Token(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -74,7 +74,7 @@ constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::ANY{ stat
 constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::EMPTY{ static_cast<int32_t>(0x2d) };
 constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::IGNORE{ static_cast<int32_t>(0x2e) };
 constexpr ::System::Xml::DtdParser_Token System::Xml::DtdParser_Token::INCLUDE{ static_cast<int32_t>(0x2f) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::DtdParser_ScanningFunction::DtdParser_ScanningFunction(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -114,7 +114,7 @@ constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_Scann
 constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::ClosingTag{ static_cast<int32_t>(0x1f) };
 constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::ParamEntitySpace{ static_cast<int32_t>(0x20) };
 constexpr ::System::Xml::DtdParser_ScanningFunction System::Xml::DtdParser_ScanningFunction::None{ static_cast<int32_t>(0x21) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::DtdParser_LiteralType::DtdParser_LiteralType(int32_t value__) noexcept {
   this->value__ = value__;
 }

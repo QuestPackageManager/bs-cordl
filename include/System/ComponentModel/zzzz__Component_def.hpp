@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\Component.hpp"
+// IWYU pragma private; include "System/ComponentModel/Component.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,9 @@ class Component;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::Component*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::Component*, "System.ComponentModel", "Component");
+// [ComVisible(true)]
+// [DesignerCategory("Component")]
+// [ClassInterface((System.Runtime.InteropServices.ClassInterfaceType)1)]
 // Dependencies System.MarshalByRefObject
 namespace System::ComponentModel {
 // Is value type: false
@@ -42,11 +45,15 @@ public:
 
   __declspec(property(get = get_CanRaiseEventsInternal)) bool CanRaiseEventsInternal;
 
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_DesignMode)) bool DesignMode;
 
   /// @brief Field EventDisposed, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_EventDisposed, put = setStaticF_EventDisposed)) ::System::Object* EventDisposed;
 
+  /// [Browsable(false)]
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
   __declspec(property(get = get_Site)) ::System::ComponentModel::ISite* Site;
 
   /// @brief Field events, offset 0x20, size 0x8
@@ -121,13 +128,13 @@ protected:
   constexpr Component();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Component(Component&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Component", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Component(Component const&) = delete;
+  Component(Componentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11318 };

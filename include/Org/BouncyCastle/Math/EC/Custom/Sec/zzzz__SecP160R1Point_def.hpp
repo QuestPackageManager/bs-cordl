@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Custom\Sec\SecP160R1Point.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/Sec/SecP160R1Point.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,13 +73,13 @@ protected:
   constexpr SecP160R1Point();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecP160R1Point", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecP160R1Point", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecP160R1Point(SecP160R1Point&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecP160R1Point", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecP160R1Point", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecP160R1Point(SecP160R1Point const&) = delete;
+  SecP160R1Point(SecP160R1Pointconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1394 };

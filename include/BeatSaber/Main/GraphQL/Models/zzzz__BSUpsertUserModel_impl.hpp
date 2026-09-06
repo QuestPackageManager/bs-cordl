@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\BSUpsertUserModel.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/BSUpsertUserModel.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_impl.hpp"
 #include "BeatSaber/Main/GraphQL/Models/zzzz__BSUpsertUserModel_def.hpp"
 #include "BeatSaber/Main/GraphQL/Models/zzzz__BSUpsertUserModel_def.hpp"

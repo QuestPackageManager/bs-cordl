@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Panel.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Panel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,6 +81,7 @@ public:
   /// @brief Field _sphericalCoordinates, offset 0xb0, size 0xc
   __declspec(property(get = __cordl_internal_get__sphericalCoordinates, put = __cordl_internal_set__sphericalCoordinates)) ::UnityEngine::Vector3 _sphericalCoordinates;
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x5a5ccb0, size 0x4c, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -172,6 +173,7 @@ public:
   /// @brief Method get_Interface, addr 0x5a5d03c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface> get_Interface();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PixelsPerUnit, addr 0x5a5ce54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_PixelsPerUnit();
 
@@ -183,6 +185,7 @@ public:
   /// @brief Method set_BackgroundStyle, addr 0x5a5d0bc, size 0x68, virtual false, abstract: false, final false
   inline void set_BackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_PixelsPerUnit, addr 0x5a5ce5c, size 0x8, virtual false, abstract: false, final false
   inline void set_PixelsPerUnit(float_t value);
 
@@ -195,13 +198,13 @@ protected:
   constexpr Panel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Panel(Panel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Panel(Panel const&) = delete;
+  Panel(Panelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18403 };
@@ -215,6 +218,7 @@ public:
   /// @brief Field _ovrRaycaster, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster> ____ovrRaycaster;
 
+  /// [CompilerGenerated]
   /// @brief Field <PixelsPerUnit>k__BackingField, offset: 0x98, size: 0x4, def value: None
   float_t ____PixelsPerUnit_k__BackingField;
 

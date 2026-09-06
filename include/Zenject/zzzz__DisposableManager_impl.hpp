@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\DisposableManager.hpp"
+// IWYU pragma private; include "Zenject/DisposableManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DisposableManager_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
@@ -32,8 +32,8 @@ inline void Zenject::DisposableManager_DisposableInfo::_ctor(::System::IDisposab
                    (::i2c::find_method(::i2c::class_of<::Zenject::DisposableManager_DisposableInfo>(), { ".ctor", {}, { ::i2c::type_of<::System::IDisposable*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, disposable, priority);
 }
-// Ctor Parameters [CppParam { name: "Disposable", ty: "::System::IDisposable*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Priority", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "Disposable", ty: "::System::IDisposable*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Priority", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Zenject::DisposableManager_DisposableInfo::DisposableManager_DisposableInfo(::System::IDisposable* Disposable, int32_t Priority) noexcept {
   this->Disposable = Disposable;
   this->Priority = Priority;
@@ -740,10 +740,12 @@ constexpr void Zenject::DisposableManager::__cordl_internal_set__lateDisposed(bo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lateDisposed = value;
 }
-inline void Zenject::DisposableManager::_ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
-                                              ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,
-                                              ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,
-                                              ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* latePriorities) {
+inline void Zenject::DisposableManager::_ctor(
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,
+    /* [Inject(Id = "Late", Optional = true, Source = (Zenject.InjectSources)1)] */
+    ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* latePriorities) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DisposableManager*>(),
                                                            { ".ctor",
@@ -796,10 +798,13 @@ inline ::Zenject::InjectTypeInfo* Zenject::DisposableManager::__zenCreateInjectT
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DisposableManager*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::DisposableManager* Zenject::DisposableManager::New_ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
-                                                                          ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,
-                                                                          ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,
-                                                                          ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* latePriorities) {
+/// @brief [Inject]
+inline ::Zenject::DisposableManager* Zenject::DisposableManager::New_ctor(
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,
+    /* [Inject(Id = "Late", Optional = true, Source = (Zenject.InjectSources)1)] */
+    ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* latePriorities) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::DisposableManager*>(disposables, priorities, lateDisposables, latePriorities));
 }
 /// @brief Convert operator to "::System::IDisposable"

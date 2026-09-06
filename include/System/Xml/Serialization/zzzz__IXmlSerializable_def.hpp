@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\IXmlSerializable.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/IXmlSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +27,18 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE IXmlSerializable {
 public:
   // Declarations
-  /// @brief Method GetSchema, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetSchema, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchema* GetSchema();
 
-  /// @brief Method ReadXml, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReadXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReadXml(::System::Xml::XmlReader* reader);
 
-  /// @brief Method WriteXml, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteXml(::System::Xml::XmlWriter* writer);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IXmlSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IXmlSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IXmlSerializable(IXmlSerializable const&) = delete;
+  IXmlSerializable(IXmlSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9485 };

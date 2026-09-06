@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CameraType.hpp"
+// IWYU pragma private; include "UnityEngine/CameraType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CameraType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::CameraType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CameraType, "UnityEngine", "CameraType");
+// [Flags]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr CameraType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CameraType(int32_t value__) noexcept;
 
   /// @brief Field Game value: I32(1)

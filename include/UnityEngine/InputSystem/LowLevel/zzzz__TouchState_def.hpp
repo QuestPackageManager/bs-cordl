@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\TouchState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TouchState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -236,12 +236,13 @@ public:
   // @brief default ctor
   constexpr TouchState();
 
-  // Ctor Parameters [CppParam { name: "touchId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam
-  // { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "phaseId", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "tapCount", ty: "uint8_t", modifiers: "",
-  // def_value: None }, CppParam { name: "displayIndex", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "updateStepCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "startTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "startPosition", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "touchId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "radius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "phaseId", ty: "uint8_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "tapCount", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "displayIndex", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "flags", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "updateStepCount", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "startTime", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "startPosition", ty: "::UnityEngine::Vector2",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr TouchState(int32_t touchId, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 delta, float_t pressure, ::UnityEngine::Vector2 radius, uint8_t phaseId, uint8_t tapCount,
                        uint8_t displayIndex, uint8_t flags, uint32_t updateStepCount, double_t startTime, ::UnityEngine::Vector2 startPosition) noexcept;
 
@@ -252,6 +253,7 @@ private:
     struct {
       /// @brief Padding field 0x0
       uint8_t ___touchId_padding[0x0];
+      /// [InputControl(displayName = "Touch ID", layout = "Integer", synthetic = true, dontReset = true)]
       /// @brief Field touchId, offset: 0x0, size: 0x4, def value: None
       int32_t ___touchId;
     };
@@ -259,6 +261,7 @@ private:
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___touchId_padding_forAlignment[0x0];
+      /// [InputControl(displayName = "Touch ID", layout = "Integer", synthetic = true, dontReset = true)]
       /// @brief Field touchId, offset: 0x0, size: 0x4, def value: None
       int32_t ___touchId_forAlignment;
     };
@@ -266,6 +269,7 @@ private:
     struct {
       /// @brief Padding field 0x4
       uint8_t ___position_padding[0x4];
+      /// [InputControl(displayName = "Position", dontReset = true)]
       /// @brief Field position, offset: 0x4, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___position;
     };
@@ -273,6 +277,7 @@ private:
     struct {
       /// @brief Padding field 0x4 for alignment
       uint8_t ___position_padding_forAlignment[0x4];
+      /// [InputControl(displayName = "Position", dontReset = true)]
       /// @brief Field position, offset: 0x4, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___position_forAlignment;
     };
@@ -280,6 +285,7 @@ private:
     struct {
       /// @brief Padding field 0xc
       uint8_t ___delta_padding[0xc];
+      /// [InputControl(displayName = "Delta", layout = "Delta")]
       /// @brief Field delta, offset: 0xc, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___delta;
     };
@@ -287,6 +293,7 @@ private:
     struct {
       /// @brief Padding field 0xc for alignment
       uint8_t ___delta_padding_forAlignment[0xc];
+      /// [InputControl(displayName = "Delta", layout = "Delta")]
       /// @brief Field delta, offset: 0xc, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___delta_forAlignment;
     };
@@ -294,6 +301,7 @@ private:
     struct {
       /// @brief Padding field 0x14
       uint8_t ___pressure_padding[0x14];
+      /// [InputControl(displayName = "Pressure", layout = "Axis")]
       /// @brief Field pressure, offset: 0x14, size: 0x4, def value: None
       float_t ___pressure;
     };
@@ -301,6 +309,7 @@ private:
     struct {
       /// @brief Padding field 0x14 for alignment
       uint8_t ___pressure_padding_forAlignment[0x14];
+      /// [InputControl(displayName = "Pressure", layout = "Axis")]
       /// @brief Field pressure, offset: 0x14, size: 0x4, def value: None
       float_t ___pressure_forAlignment;
     };
@@ -308,6 +317,7 @@ private:
     struct {
       /// @brief Padding field 0x18
       uint8_t ___radius_padding[0x18];
+      /// [InputControl(displayName = "Radius")]
       /// @brief Field radius, offset: 0x18, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___radius;
     };
@@ -315,6 +325,7 @@ private:
     struct {
       /// @brief Padding field 0x18 for alignment
       uint8_t ___radius_padding_forAlignment[0x18];
+      /// [InputControl(displayName = "Radius")]
       /// @brief Field radius, offset: 0x18, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___radius_forAlignment;
     };
@@ -322,6 +333,8 @@ private:
     struct {
       /// @brief Padding field 0x20
       uint8_t ___phaseId_padding[0x20];
+      /// [InputControl(name = "phase", displayName = "Touch Phase", layout = "TouchPhase", synthetic = true)]
+      /// [InputControl(name = "press", displayName = "Touch Contact?", layout = "TouchPress", useStateFrom = "phase")]
       /// @brief Field phaseId, offset: 0x20, size: 0x1, def value: None
       uint8_t ___phaseId;
     };
@@ -329,6 +342,8 @@ private:
     struct {
       /// @brief Padding field 0x20 for alignment
       uint8_t ___phaseId_padding_forAlignment[0x20];
+      /// [InputControl(name = "phase", displayName = "Touch Phase", layout = "TouchPhase", synthetic = true)]
+      /// [InputControl(name = "press", displayName = "Touch Contact?", layout = "TouchPress", useStateFrom = "phase")]
       /// @brief Field phaseId, offset: 0x20, size: 0x1, def value: None
       uint8_t ___phaseId_forAlignment;
     };
@@ -336,6 +351,7 @@ private:
     struct {
       /// @brief Padding field 0x21
       uint8_t ___tapCount_padding[0x21];
+      /// [InputControl(name = "tapCount", displayName = "Tap Count", layout = "Integer")]
       /// @brief Field tapCount, offset: 0x21, size: 0x1, def value: None
       uint8_t ___tapCount;
     };
@@ -343,6 +359,7 @@ private:
     struct {
       /// @brief Padding field 0x21 for alignment
       uint8_t ___tapCount_padding_forAlignment[0x21];
+      /// [InputControl(name = "tapCount", displayName = "Tap Count", layout = "Integer")]
       /// @brief Field tapCount, offset: 0x21, size: 0x1, def value: None
       uint8_t ___tapCount_forAlignment;
     };
@@ -350,6 +367,7 @@ private:
     struct {
       /// @brief Padding field 0x22
       uint8_t ___displayIndex_padding[0x22];
+      /// [InputControl(name = "displayIndex", displayName = "Display Index", layout = "Integer")]
       /// @brief Field displayIndex, offset: 0x22, size: 0x1, def value: None
       uint8_t ___displayIndex;
     };
@@ -357,6 +375,7 @@ private:
     struct {
       /// @brief Padding field 0x22 for alignment
       uint8_t ___displayIndex_padding_forAlignment[0x22];
+      /// [InputControl(name = "displayIndex", displayName = "Display Index", layout = "Integer")]
       /// @brief Field displayIndex, offset: 0x22, size: 0x1, def value: None
       uint8_t ___displayIndex_forAlignment;
     };
@@ -364,6 +383,8 @@ private:
     struct {
       /// @brief Padding field 0x23
       uint8_t ___flags_padding[0x23];
+      /// [InputControl(name = "indirectTouch", displayName = "Indirect Touch?", layout = "Button", bit = 0, synthetic = true)]
+      /// [InputControl(name = "tap", displayName = "Tap", layout = "Button", bit = 4)]
       /// @brief Field flags, offset: 0x23, size: 0x1, def value: None
       uint8_t ___flags;
     };
@@ -371,6 +392,8 @@ private:
     struct {
       /// @brief Padding field 0x23 for alignment
       uint8_t ___flags_padding_forAlignment[0x23];
+      /// [InputControl(name = "indirectTouch", displayName = "Indirect Touch?", layout = "Button", bit = 0, synthetic = true)]
+      /// [InputControl(name = "tap", displayName = "Tap", layout = "Button", bit = 4)]
       /// @brief Field flags, offset: 0x23, size: 0x1, def value: None
       uint8_t ___flags_forAlignment;
     };
@@ -392,6 +415,7 @@ private:
     struct {
       /// @brief Padding field 0x28
       uint8_t ___startTime_padding[0x28];
+      /// [InputControl(displayName = "Start Time", layout = "Double", synthetic = true)]
       /// @brief Field startTime, offset: 0x28, size: 0x8, def value: None
       double_t ___startTime;
     };
@@ -399,6 +423,7 @@ private:
     struct {
       /// @brief Padding field 0x28 for alignment
       uint8_t ___startTime_padding_forAlignment[0x28];
+      /// [InputControl(displayName = "Start Time", layout = "Double", synthetic = true)]
       /// @brief Field startTime, offset: 0x28, size: 0x8, def value: None
       double_t ___startTime_forAlignment;
     };
@@ -406,6 +431,7 @@ private:
     struct {
       /// @brief Padding field 0x30
       uint8_t ___startPosition_padding[0x30];
+      /// [InputControl(displayName = "Start Position", synthetic = true)]
       /// @brief Field startPosition, offset: 0x30, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___startPosition;
     };
@@ -413,6 +439,7 @@ private:
     struct {
       /// @brief Padding field 0x30 for alignment
       uint8_t ___startPosition_padding_forAlignment[0x30];
+      /// [InputControl(displayName = "Start Position", synthetic = true)]
       /// @brief Field startPosition, offset: 0x30, size: 0x8, def value: None
       ::UnityEngine::Vector2 ___startPosition_forAlignment;
     };

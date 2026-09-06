@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TrackLaneRingsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/TrackLaneRingsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,8 @@ class TrackLaneRingsManager;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TrackLaneRingsManager*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TrackLaneRingsManager*, "", "TrackLaneRingsManager");
+// [DefaultExecutionOrder(-2)]
+// [AddComponentMenu("Beat Saber/Gameplay/TrackLaneRingsManager")]
 // Dependencies EnvironmentContext, TrackLaneRing, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -151,38 +153,46 @@ protected:
   constexpr TrackLaneRingsManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackLaneRingsManager(TrackLaneRingsManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackLaneRingsManager(TrackLaneRingsManager const&) = delete;
+  TrackLaneRingsManager(TrackLaneRingsManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5989 };
 
+  /// [SerializeField]
   /// @brief Field _trackLaneRingPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRing> ____trackLaneRingPrefab;
 
+  /// [SerializeField]
   /// @brief Field _ringCount, offset: 0x28, size: 0x4, def value: None
   int32_t ____ringCount;
 
+  /// [SerializeField]
   /// @brief Field _ringPositionStep, offset: 0x2c, size: 0x4, def value: None
   float_t ____ringPositionStep;
 
+  /// [SerializeField]
   /// @brief Field _spawnAsChildren, offset: 0x30, size: 0x1, def value: None
   bool ____spawnAsChildren;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x38, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 
+  /// [InjectOptional]
   /// @brief Field _environmentContext, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentContext ____environmentContext;
 
+  /// [InjectOptional]
   /// @brief Field _audioTimeSyncController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 

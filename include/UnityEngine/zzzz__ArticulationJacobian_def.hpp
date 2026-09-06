@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ArticulationJacobian.hpp"
+// IWYU pragma private; include "UnityEngine/ArticulationJacobian.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ struct ArticulationJacobian;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ArticulationJacobian);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ArticulationJacobian, "UnityEngine", "ArticulationJacobian");
+// [DefaultMember("Item")]
+// [NativeHeader("Modules/Physics/ArticulationBody.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -63,8 +65,8 @@ public:
   // @brief default ctor
   constexpr ArticulationJacobian();
 
-  // Ctor Parameters [CppParam { name: "rowsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "colsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "matrixData", ty: "::System::Collections::Generic::List_1<float_t>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rowsCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "colsCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "matrixData", ty: "::System::Collections::Generic::List_1<float_t>*", modifiers: "", def_value: None, comment: None }]
   constexpr ArticulationJacobian(int32_t rowsCount, int32_t colsCount, ::System::Collections::Generic::List_1<float_t>* matrixData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

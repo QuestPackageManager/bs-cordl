@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UInt64.hpp"
+// IWYU pragma private; include "System/UInt64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,8 @@ struct UInt64;
 // Write type traits
 MARK_VAL_T(::System::UInt64);
 DEFINE_IL2CPP_CLASS(::System::UInt64, "System", "UInt64");
+// [IsReadOnly]
+// [CLSCompliant(false)]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -94,6 +96,7 @@ public:
   /// @brief Method Equals, addr 0x5c659a0, size 0x34, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NonVersionable]
   /// @brief Method Equals, addr 0x5c659d4, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(uint64_t obj);
 
@@ -103,15 +106,19 @@ public:
   /// @brief Method GetTypeCode, addr 0x5c6621c, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
+  /// [CLSCompliant(false)]
   /// @brief Method Parse, addr 0x5c65d50, size 0xb0, virtual false, abstract: false, final false
   static inline uint64_t Parse(::StringW s);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Parse, addr 0x5c65ec8, size 0xc0, virtual false, abstract: false, final false
   static inline uint64_t Parse(::StringW s, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Parse, addr 0x5c65e00, size 0xc8, virtual false, abstract: false, final false
   static inline uint64_t Parse(::StringW s, ::System::Globalization::NumberStyles style);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Parse, addr 0x5c65f88, size 0xd0, virtual false, abstract: false, final false
   static inline uint64_t Parse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider);
 
@@ -175,9 +182,11 @@ public:
   /// @brief Method TryFormat, addr 0x5c65ca8, size 0xa8, virtual true, abstract: false, final true
   inline bool TryFormat(::System::Span_1<char16_t> destination, ::by_ref<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method TryParse, addr 0x5c66058, size 0xd0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW s, ::by_ref<uint64_t> result);
 
+  /// [CLSCompliant(false)]
   /// @brief Method TryParse, addr 0x5c66128, size 0xf4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider, ::by_ref<uint64_t> result);
 
@@ -203,7 +212,7 @@ public:
   // @brief default ctor
   constexpr UInt64();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr UInt64(uint64_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

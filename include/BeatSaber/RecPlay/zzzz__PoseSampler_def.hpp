@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PoseSampler.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseSampler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   static inline ::BeatSaber::RecPlay::FrameSample FindPoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, float_t time, int32_t nearest);
 
   /// @brief Method InterpolatePoseSample, addr 0x32c58a4, size 0x94, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, ::by_ref<::BeatSaber::RecPlay::FrameSample> sample);
+  static inline ::UnityEngine::Pose InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::FrameSample> sample);
 
   /// @brief Method SamplePose, addr 0x32c54e4, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose SamplePose(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, float_t time, ::by_ref<int32_t> nearest);
@@ -46,13 +46,13 @@ protected:
   constexpr PoseSampler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoseSampler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoseSampler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoseSampler(PoseSampler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoseSampler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoseSampler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoseSampler(PoseSampler const&) = delete;
+  PoseSampler(PoseSamplerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23298 };

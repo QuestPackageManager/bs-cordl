@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundColorsGradientTintColorWithLightId.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundColorsGradientTintColorWithLightId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,23 +69,27 @@ protected:
   constexpr BloomPrePassBackgroundColorsGradientTintColorWithLightId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientTintColorWithLightId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientTintColorWithLightId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundColorsGradientTintColorWithLightId(BloomPrePassBackgroundColorsGradientTintColorWithLightId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientTintColorWithLightId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientTintColorWithLightId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColorsGradientTintColorWithLightId(BloomPrePassBackgroundColorsGradientTintColorWithLightId const&) = delete;
+  BloomPrePassBackgroundColorsGradientTintColorWithLightId(BloomPrePassBackgroundColorsGradientTintColorWithLightIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19512 };
 
+  /// [SerializeField]
   /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> ____bloomPrePassBackgroundColorsGradient;
 
+  /// [SerializeField]
   /// @brief Field _useGrayscale, offset: 0x58, size: 0x1, def value: None
   bool ____useGrayscale;
 
+  /// [SerializeField]
+  /// [DrawIf("_useGrayscale", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field grayscaleFactor, offset: 0x5c, size: 0x4, def value: None
   float_t ___grayscaleFactor;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpriteArrayLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpriteArrayLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   // @brief default ctor
   constexpr SpriteArrayLightWithId_MultiplyColorByAlphaType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SpriteArrayLightWithId_MultiplyColorByAlphaType(int32_t value__) noexcept;
 
   /// @brief Field AfterApplyingMinAlpha value: I32(2)
@@ -206,44 +206,60 @@ protected:
   constexpr SpriteArrayLightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteArrayLightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteArrayLightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpriteArrayLightWithId(SpriteArrayLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteArrayLightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteArrayLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpriteArrayLightWithId(SpriteArrayLightWithId const&) = delete;
+  SpriteArrayLightWithId(SpriteArrayLightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19558 };
 
+  /// [SerializeField]
   /// @brief Field _spriteRenderers, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::SpriteRenderer>> ____spriteRenderers;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _hideIfAlphaOutOfRange, offset: 0x48, size: 0x1, def value: None
   bool ____hideIfAlphaOutOfRange;
 
+  /// [SerializeField]
+  /// [DrawIf("_hideIfAlphaOutOfRange", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _hideAlphaRangeMin, offset: 0x4c, size: 0x4, def value: None
   float_t ____hideAlphaRangeMin;
 
+  /// [SerializeField]
+  /// [DrawIf("_hideIfAlphaOutOfRange", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _hideAlphaRangeMax, offset: 0x50, size: 0x4, def value: None
   float_t ____hideAlphaRangeMax;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x54, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
   /// @brief Field _minAlpha, offset: 0x58, size: 0x4, def value: None
   float_t ____minAlpha;
 
+  /// [SerializeField]
   /// @brief Field _multiplyColorByAlpha, offset: 0x5c, size: 0x4, def value: None
   ::GlobalNamespace::SpriteArrayLightWithId_MultiplyColorByAlphaType ____multiplyColorByAlpha;
 
+  /// [SerializeField]
+  /// [DrawIf("_setAlphaOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _setColorOnly, offset: 0x60, size: 0x1, def value: None
   bool ____setColorOnly;
 
+  /// [SerializeField]
+  /// [DrawIf("_setColorOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _setAlphaOnly, offset: 0x61, size: 0x1, def value: None
   bool ____setAlphaOnly;
 
+  /// [SerializeField]
   /// @brief Field _setOnlyOnce, offset: 0x62, size: 0x1, def value: None
   bool ____setOnlyOnce;
 

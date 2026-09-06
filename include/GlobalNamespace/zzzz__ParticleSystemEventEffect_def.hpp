@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ParticleSystemEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/ParticleSystemEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class ParticleSystemEventEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ParticleSystemEventEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ParticleSystemEventEffect*, "", "ParticleSystemEventEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/ParticleSystemEventEffect")]
 // Dependencies BasicBeatmapEventType, UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem::MainModule, UnityEngine.ParticleSystem::Particle
 namespace GlobalNamespace {
 // Is value type: false
@@ -229,38 +230,47 @@ protected:
   constexpr ParticleSystemEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemEventEffect(ParticleSystemEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemEventEffect(ParticleSystemEventEffect const&) = delete;
+  ParticleSystemEventEffect(ParticleSystemEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5938 };
 
+  /// [SerializeField]
   /// @brief Field _lightColor0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor0;
 
+  /// [SerializeField]
   /// @brief Field _lightColor1, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor1;
 
+  /// [SerializeField]
   /// @brief Field _highlightColor0, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____highlightColor0;
 
+  /// [SerializeField]
   /// @brief Field _highlightColor1, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____highlightColor1;
 
+  /// [SerializeField]
   /// @brief Field _lightOnStart, offset: 0x40, size: 0x1, def value: None
   bool ____lightOnStart;
 
+  /// [SerializeField]
   /// @brief Field _colorEvent, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____colorEvent;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _particleSystem, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

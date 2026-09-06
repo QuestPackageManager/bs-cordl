@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerObjectInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerObjectInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,23 +73,26 @@ protected:
   constexpr MultiplayerObjectInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerObjectInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerObjectInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerObjectInstaller(MultiplayerObjectInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerObjectInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerObjectInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerObjectInstaller(MultiplayerObjectInstaller const&) = delete;
+  MultiplayerObjectInstaller(MultiplayerObjectInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6166 };
 
+  /// [SerializeField]
   /// @brief Field _inEnvironmentTextsPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> ____inEnvironmentTextsPrefab;
 
+  /// [SerializeField]
   /// @brief Field _fireworkItemControllerPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FireworkItemController> ____fireworkItemControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerResultsPyramidViewAvatarPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> ____multiplayerResultsPyramidViewAvatarPrefab;
 

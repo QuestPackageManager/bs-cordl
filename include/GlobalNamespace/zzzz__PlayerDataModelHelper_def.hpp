@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerDataModelHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerDataModelHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class PlayerDataModelHelper;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PlayerDataModelHelper*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerDataModelHelper*, "", "PlayerDataModelHelper");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -37,21 +38,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerDataModelHelper : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ToPlayerAllOverallStatsData, addr 0x374c714, size 0xd8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerAllOverallStatsData* playerAllOverallStatsData);
 
+  /// [Extension]
   /// @brief Method ToPlayerAllOverallStatsData, addr 0x374c0e0, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData* playerAllOverallStatsData);
 
+  /// [Extension]
   /// @brief Method ToPlayerAllOverallStatsData, addr 0x3749fc8, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData);
 
+  /// [Extension]
   /// @brief Method ToPlayerOverallStats, addr 0x374dde4, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData* playerAllOverallStatsData);
 
+  /// [Extension]
   /// @brief Method ToPlayerOverallStats, addr 0x374dd1c, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData* playerAllOverallStatsData);
 
+  /// [Extension]
   /// @brief Method ToPlayerOverallStatsData, addr 0x374df2c, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData* ToPlayerOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* playerOverallStatsData);
 
@@ -61,13 +68,13 @@ protected:
   constexpr PlayerDataModelHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModelHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModelHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerDataModelHelper(PlayerDataModelHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModelHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModelHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerDataModelHelper(PlayerDataModelHelper const&) = delete;
+  PlayerDataModelHelper(PlayerDataModelHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15168 };

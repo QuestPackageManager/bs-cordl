@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4\WaypointItemConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/WaypointItemConverter.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Waypoint_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__WaypointItemConverter_def.hpp"

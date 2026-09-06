@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentSizeData.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentSizeData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentSizeData_FloorType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentSizeData_FloorType(int32_t value__) noexcept;
 
   /// @brief Field CloseTo0 value: I32(1)
@@ -122,7 +122,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentSizeData_CeilingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentSizeData_CeilingType(int32_t value__) noexcept;
 
   /// @brief Field LowCeiling value: I32(1)
@@ -177,7 +177,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentSizeData_TrackLaneType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentSizeData_TrackLaneType(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -269,23 +269,26 @@ protected:
   constexpr EnvironmentSizeData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSizeData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSizeData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentSizeData(EnvironmentSizeData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSizeData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSizeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentSizeData(EnvironmentSizeData const&) = delete;
+  EnvironmentSizeData(EnvironmentSizeDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14848 };
 
+  /// [SerializeField]
   /// @brief Field _floorType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentSizeData_FloorType ____floorType;
 
+  /// [SerializeField]
   /// @brief Field _ceilingType, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentSizeData_CeilingType ____ceilingType;
 
+  /// [SerializeField]
   /// @brief Field _trackLaneType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentSizeData_TrackLaneType ____trackLaneType;
 

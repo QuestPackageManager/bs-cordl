@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Exceptions\ProviderException.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Exceptions/ProviderException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ public:
   /// @brief Method .ctor, addr 0x6911cc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Exception* innerException);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Location, addr 0x6911ce8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
@@ -53,17 +54,18 @@ protected:
   constexpr ProviderException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProviderException(ProviderException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProviderException(ProviderException const&) = delete;
+  ProviderException(ProviderExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18719 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Location>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ____Location_k__BackingField;
 

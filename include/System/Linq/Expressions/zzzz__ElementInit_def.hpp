@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\ElementInit.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/ElementInit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,12 +64,14 @@ public:
 
   constexpr void __cordl_internal_set__Arguments_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_AddMethod, addr 0x5f7add0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_AddMethod();
 
   /// @brief Method get_ArgumentCount, addr 0x5f7ae44, size 0x54, virtual true, abstract: false, final true
   inline int32_t get_ArgumentCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Arguments, addr 0x5f7add8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_Arguments();
 
@@ -82,20 +84,22 @@ protected:
   constexpr ElementInit();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ElementInit", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementInit", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElementInit(ElementInit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ElementInit", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementInit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementInit(ElementInit const&) = delete;
+  ElementInit(ElementInitconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16163 };
 
+  /// [CompilerGenerated]
   /// @brief Field <AddMethod>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____AddMethod_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Arguments>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ____Arguments_k__BackingField;
 

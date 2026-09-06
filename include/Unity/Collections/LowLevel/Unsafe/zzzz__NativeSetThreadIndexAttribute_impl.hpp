@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeSetThreadIndexAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeSetThreadIndexAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeSetThreadIndexAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::NativeSetThreadIndexAttribute._ctor

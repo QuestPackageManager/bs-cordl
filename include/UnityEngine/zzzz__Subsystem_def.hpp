@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Subsystem.hpp"
+// IWYU pragma private; include "UnityEngine/Subsystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class Subsystem;
 // Write type traits
 MARK_REF_T(::UnityEngine::Subsystem*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Subsystem*, "UnityEngine", "Subsystem");
+// [Obsolete("Use SubsystemWithProvider instead.", false)]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -30,13 +31,13 @@ public:
 
   static inline ::UnityEngine::Subsystem* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Stop();
 
   /// @brief Method .ctor, addr 0x6bb858c, size 0x4, virtual false, abstract: false, final false
@@ -51,13 +52,13 @@ protected:
   constexpr Subsystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Subsystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Subsystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Subsystem(Subsystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Subsystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Subsystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Subsystem(Subsystem const&) = delete;
+  Subsystem(Subsystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22933 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\SecureRandom.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/SecureRandom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ public:
   /// @brief Method GetNextBytes, addr 0x341d9c0, size 0x80, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetNextBytes(::Org::BouncyCastle::Security::SecureRandom* secureRandom, int32_t length);
 
+  /// [Obsolete("Call GenerateSeed() on a SecureRandom instance instead")]
   /// @brief Method GetSeed, addr 0x341f0d8, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetSeed(int32_t length);
 
@@ -63,6 +64,7 @@ public:
 
   static inline ::Org::BouncyCastle::Security::SecureRandom* New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator);
 
+  /// @brief [Obsolete("Use GetInstance/SetSeed instead")]
   static inline ::Org::BouncyCastle::Security::SecureRandom* New_ctor(::ArrayW<uint8_t> seed);
 
   /// @brief Method Next, addr 0x341f42c, size 0x20, virtual true, abstract: false, final false
@@ -110,6 +112,7 @@ public:
   /// @brief Method .ctor, addr 0x341f064, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator);
 
+  /// [Obsolete("Use GetInstance/SetSeed instead")]
   /// @brief Method .ctor, addr 0x341f17c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> seed);
 
@@ -134,13 +137,13 @@ protected:
   constexpr SecureRandom();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecureRandom", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandom", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecureRandom(SecureRandom&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecureRandom", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecureRandom", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecureRandom(SecureRandom const&) = delete;
+  SecureRandom(SecureRandomconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1111 };

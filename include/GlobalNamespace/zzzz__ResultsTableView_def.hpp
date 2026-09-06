@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ResultsTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/ResultsTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,13 +106,13 @@ protected:
   constexpr ResultsTableView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResultsTableView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResultsTableView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResultsTableView(ResultsTableView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResultsTableView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResultsTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResultsTableView(ResultsTableView const&) = delete;
+  ResultsTableView(ResultsTableViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7019 };
@@ -120,12 +120,15 @@ public:
   /// @brief Field kCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellIdentifier{ u"Cell" };
 
+  /// [SerializeField]
   /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 
+  /// [SerializeField]
   /// @brief Field _cellPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ResultsTableCell> ____cellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _rowHeight, offset: 0x30, size: 0x4, def value: None
   float_t ____rowHeight;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\OnXmlDictionaryReaderClose.hpp"
+// IWYU pragma private; include "System/Xml/OnXmlDictionaryReaderClose.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__OnXmlDictionaryReaderClose_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReader_def.hpp"

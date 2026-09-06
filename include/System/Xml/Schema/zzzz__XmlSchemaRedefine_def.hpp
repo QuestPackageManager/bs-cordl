@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaRedefine.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaRedefine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +28,20 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaRedefine : public ::System::Xml::Schema::XmlSchemaExternal {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_AttributeGroups)) ::System::Xml::Schema::XmlSchemaObjectTable* AttributeGroups;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Groups)) ::System::Xml::Schema::XmlSchemaObjectTable* Groups;
 
+  /// [XmlElement("annotation", typeof(System.Xml.Schema.XmlSchemaAnnotation))]
+  /// [XmlElement("complexType", typeof(System.Xml.Schema.XmlSchemaComplexType))]
+  /// [XmlElement("group", typeof(System.Xml.Schema.XmlSchemaGroup))]
+  /// [XmlElement("simpleType", typeof(System.Xml.Schema.XmlSchemaSimpleType))]
+  /// @brief [XmlElement("attributeGroup", typeof(System.Xml.Schema.XmlSchemaAttributeGroup))]
   __declspec(property(get = get_Items)) ::System::Xml::Schema::XmlSchemaObjectCollection* Items;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_SchemaTypes)) ::System::Xml::Schema::XmlSchemaObjectTable* SchemaTypes;
 
   /// @brief Field attributeGroups, offset 0x70, size 0x8
@@ -98,13 +106,13 @@ protected:
   constexpr XmlSchemaRedefine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaRedefine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaRedefine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaRedefine(XmlSchemaRedefine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaRedefine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaRedefine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaRedefine(XmlSchemaRedefine const&) = delete;
+  XmlSchemaRedefine(XmlSchemaRedefineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9808 };

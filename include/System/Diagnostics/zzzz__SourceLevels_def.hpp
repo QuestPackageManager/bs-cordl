@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\SourceLevels.hpp"
+// IWYU pragma private; include "System/Diagnostics/SourceLevels.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct SourceLevels;
 // Write type traits
 MARK_VAL_T(::System::Diagnostics::SourceLevels);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::SourceLevels, "System.Diagnostics", "SourceLevels");
+// [Flags]
 // Dependencies
 namespace System::Diagnostics {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr SourceLevels();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SourceLevels(int32_t value__) noexcept;
 
   /// @brief Field ActivityTracing value: I32(65280)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Configuration\BypassElementCollection.hpp"
+// IWYU pragma private; include "System/Net/Configuration/BypassElementCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class BypassElementCollection;
 // Write type traits
 MARK_REF_T(::System::Net::Configuration::BypassElementCollection*);
 DEFINE_IL2CPP_CLASS(::System::Net::Configuration::BypassElementCollection*, "System.Net.Configuration", "BypassElementCollection");
+// [DefaultMember("Item")]
+// [ConfigurationCollection(typeof(System.Net.Configuration.BypassElement))]
 // Dependencies System.Configuration.ConfigurationElementCollection
 namespace System::Net::Configuration {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr BypassElementCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BypassElementCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BypassElementCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BypassElementCollection(BypassElementCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BypassElementCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BypassElementCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BypassElementCollection(BypassElementCollection const&) = delete;
+  BypassElementCollection(BypassElementCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11822 };

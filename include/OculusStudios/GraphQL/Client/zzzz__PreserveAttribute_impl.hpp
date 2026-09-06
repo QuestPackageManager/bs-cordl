@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\PreserveAttribute.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/PreserveAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__PreserveAttribute_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::PreserveAttribute._ctor

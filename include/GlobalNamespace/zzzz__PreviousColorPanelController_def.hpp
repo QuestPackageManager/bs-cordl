@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PreviousColorPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PreviousColorPanelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ public:
   /// @brief Method OnDestroy, addr 0x5a2e584, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__9_0, addr 0x5a2e658, size 0x28, virtual false, abstract: false, final false
   inline void _Awake_b__9_0();
 
@@ -109,9 +110,11 @@ public:
   /// @brief Method .ctor, addr 0x5a2e648, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_colorWasSelectedEvent, addr 0x5a2e33c, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_colorWasSelectedEvent, addr 0x5a2e3fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
@@ -121,13 +124,13 @@ protected:
   constexpr PreviousColorPanelController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreviousColorPanelController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreviousColorPanelController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreviousColorPanelController(PreviousColorPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreviousColorPanelController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreviousColorPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreviousColorPanelController(PreviousColorPanelController const&) = delete;
+  PreviousColorPanelController(PreviousColorPanelControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23178 };
@@ -135,12 +138,15 @@ public:
   /// @brief Field kMaxColors offset 0xffffffff size 0x4
   static constexpr int32_t kMaxColors{ static_cast<int32_t>(0x2) };
 
+  /// [SerializeField]
   /// @brief Field _graphics, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>> ____graphics;
 
+  /// [SerializeField]
   /// @brief Field _button, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 
+  /// [CompilerGenerated]
   /// @brief Field colorWasSelectedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Color>* ___colorWasSelectedEvent;
 

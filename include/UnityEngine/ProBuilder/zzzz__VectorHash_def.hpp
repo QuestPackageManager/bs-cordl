@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\VectorHash.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/VectorHash.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ protected:
   constexpr VectorHash();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VectorHash(VectorHash&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VectorHash(VectorHash const&) = delete;
+  VectorHash(VectorHashconst&) = delete;
 
   /// @brief Field FltCompareResolution offset 0xffffffff size 0x4
   static constexpr float_t FltCompareResolution{ static_cast<float_t>(1000.0f) };

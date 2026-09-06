@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\LoopExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/LoopExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class LoopExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::LoopExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::LoopExpression*, "System.Linq.Expressions", "LoopExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::LoopExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -86,12 +87,15 @@ public:
   /// @brief Method .ctor, addr 0x5f86b00, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::LabelTarget* _cordl_break, ::System::Linq::Expressions::LabelTarget* _cordl_continue);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Body, addr 0x5f86bc0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
+  /// [CompilerGenerated]
   /// @brief Method get_BreakLabel, addr 0x5f86bc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_BreakLabel();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ContinueLabel, addr 0x5f86bd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_ContinueLabel();
 
@@ -107,23 +111,26 @@ protected:
   constexpr LoopExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LoopExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoopExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LoopExpression(LoopExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LoopExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoopExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LoopExpression(LoopExpression const&) = delete;
+  LoopExpression(LoopExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16193 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Body>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Body_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <BreakLabel>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::LabelTarget* ____BreakLabel_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ContinueLabel>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::LabelTarget* ____ContinueLabel_k__BackingField;
 

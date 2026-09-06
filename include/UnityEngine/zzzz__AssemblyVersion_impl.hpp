@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssemblyVersion.hpp"
+// IWYU pragma private; include "UnityEngine/AssemblyVersion.hpp"
 #include "UnityEngine/zzzz__AssemblyVersion_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AssemblyVersion.op_Equality
@@ -70,8 +70,9 @@ inline int32_t UnityEngine::AssemblyVersion::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::AssemblyVersion>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "build", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "revision", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "build", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "revision", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::AssemblyVersion::AssemblyVersion(uint16_t major, uint16_t minor, uint16_t build, uint16_t revision) noexcept {
   this->major = major;
   this->minor = minor;

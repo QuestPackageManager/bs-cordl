@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SmoothCamera.hpp"
+// IWYU pragma private; include "GlobalNamespace/SmoothCamera.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class SmoothCamera;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SmoothCamera*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SmoothCamera*, "", "SmoothCamera");
+// [AddComponentMenu("Beat Saber/Gameplay/SmoothCamera")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -136,20 +137,22 @@ protected:
   constexpr SmoothCamera();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SmoothCamera", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmoothCamera", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmoothCamera(SmoothCamera&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SmoothCamera", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmoothCamera", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmoothCamera(SmoothCamera const&) = delete;
+  SmoothCamera(SmoothCameraconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6272 };
 
+  /// [SerializeField]
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
+  /// [Inject]
   /// @brief Field _mainCamera, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 

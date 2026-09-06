@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolume.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolume.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolume_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolume_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolume_Mode::ProbeVolume_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -15,7 +15,7 @@ constexpr ::UnityEngine::Rendering::ProbeVolume_Mode::ProbeVolume_Mode() {}
 constexpr ::UnityEngine::Rendering::ProbeVolume_Mode UnityEngine::Rendering::ProbeVolume_Mode::Global{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::ProbeVolume_Mode UnityEngine::Rendering::ProbeVolume_Mode::Scene{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ProbeVolume_Mode UnityEngine::Rendering::ProbeVolume_Mode::Local{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolume_Version::ProbeVolume_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }

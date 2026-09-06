@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\SignalTrack.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/SignalTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,9 @@ class SignalTrack;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::SignalTrack*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::SignalTrack*, "UnityEngine.Timeline", "SignalTrack");
+// [TrackBindingType(typeof(UnityEngine.Timeline.SignalReceiver))]
+// [TrackColor(0.25, 0.25, 0.25)]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Timeline.MarkerTrack
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -30,13 +33,13 @@ protected:
   constexpr SignalTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalTrack(SignalTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalTrack(SignalTrack const&) = delete;
+  SignalTrack(SignalTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19219 };

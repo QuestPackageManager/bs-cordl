@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonDynamicContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonDynamicContract.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonDynamicContract_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
@@ -199,7 +199,7 @@ inline ::System::Func_2<::StringW, ::StringW>* Newtonsoft::Json::Serialization::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDynamicContract*>(), { "get_PropertyNameResolver", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Func_2<::StringW, ::StringW>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::JsonDynamicContract::set_PropertyNameResolver(::System::Func_2<::StringW, ::StringW>* value) {
+inline void Newtonsoft::Json::Serialization::JsonDynamicContract::set_PropertyNameResolver(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Func_2<::StringW, ::StringW>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDynamicContract*>(),
                                                                                          { "set_PropertyNameResolver", {}, { ::i2c::type_of<::System::Func_2<::StringW, ::StringW>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
@@ -224,14 +224,16 @@ inline void Newtonsoft::Json::Serialization::JsonDynamicContract::_ctor(::System
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDynamicContract*>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, underlyingType);
 }
-inline bool Newtonsoft::Json::Serialization::JsonDynamicContract::TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ::by_ref<::System::Object*> value) {
+inline bool Newtonsoft::Json::Serialization::JsonDynamicContract::TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name,
+                                                                               /* [Nullable(2)] */ ::by_ref<::System::Object*> value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDynamicContract*>(),
                           { "TryGetMember", {}, { ::i2c::type_of<::System::Dynamic::IDynamicMetaObjectProvider*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, dynamicProvider, name, value);
 }
-inline bool Newtonsoft::Json::Serialization::JsonDynamicContract::TrySetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ::System::Object* value) {
+inline bool Newtonsoft::Json::Serialization::JsonDynamicContract::TrySetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name,
+                                                                               /* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDynamicContract*>(),

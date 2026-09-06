@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\IntegerExtensions.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/IntegerExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class IntegerExtensions;
 // Write type traits
 MARK_REF_T(::BGLib::DotnetExtension::IntegerExtensions*);
 DEFINE_IL2CPP_CLASS(::BGLib::DotnetExtension::IntegerExtensions*, "BGLib.DotnetExtension", "IntegerExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace BGLib::DotnetExtension {
 // Is value type: false
@@ -20,6 +21,7 @@ namespace BGLib::DotnetExtension {
 class CORDL_TYPE IntegerExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ToUInt, addr 0x330d2c4, size 0x18, virtual false, abstract: false, final false
   static inline void ToUInt(int32_t number, ::by_ref<uint32_t> uNumber, ::by_ref<bool> isNegative);
 
@@ -29,13 +31,13 @@ protected:
   constexpr IntegerExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegerExtensions(IntegerExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegerExtensions(IntegerExtensions const&) = delete;
+  IntegerExtensions(IntegerExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20512 };

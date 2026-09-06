@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\LightRotationEventBox.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/LightRotationEventBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,11 @@ public:
   // @brief default ctor
   constexpr LightRotationEventBox();
 
-  // Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None
-  // }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None }, CppParam {
-  // name: "b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam { name: "a", ty:
-  // "::BeatmapSaveDataCommon::Axis", modifiers: "", def_value: None }, CppParam { name: "f", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "t", ty: "::BeatmapSaveDataCommon::DistributionParamType",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "e", ty:
+  // "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None, comment: None }, CppParam { name: "a", ty: "::BeatmapSaveDataCommon::Axis", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "f", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LightRotationEventBox(float_t w, ::BeatmapSaveDataCommon::DistributionParamType d, float_t s, ::BeatmapSaveDataCommon::DistributionParamType t, int32_t b,
                                   ::BeatmapSaveDataCommon::EaseType e, ::BeatmapSaveDataCommon::Axis a, int32_t f) noexcept;
 

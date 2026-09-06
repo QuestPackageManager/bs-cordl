@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ECDomainParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ECDomainParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -166,13 +166,13 @@ protected:
   constexpr ECDomainParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECDomainParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECDomainParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECDomainParameters(ECDomainParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECDomainParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECDomainParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECDomainParameters(ECDomainParameters const&) = delete;
+  ECDomainParameters(ECDomainParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1033 };

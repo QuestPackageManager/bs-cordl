@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\DestinationFlags.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/DestinationFlags.hpp"
 #include "BeatSaber/Destinations/zzzz__DestinationFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Destinations::DestinationFlags::DestinationFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

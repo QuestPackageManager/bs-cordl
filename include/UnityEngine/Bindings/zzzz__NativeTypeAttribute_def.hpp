@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\NativeTypeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/NativeTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class NativeTypeAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativeTypeAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativeTypeAttribute*, "UnityEngine.Bindings", "NativeTypeAttribute");
+// [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)28)]
 // Dependencies System.Attribute, UnityEngine.Bindings.CodegenOptions
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -79,12 +81,15 @@ public:
   /// @brief Method .ctor, addr 0x6bb63c4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CodegenOptions, addr 0x6bb63ac, size 0x8, virtual true, abstract: false, final true
   inline void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Header, addr 0x6bb639c, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IntermediateScriptingStructName, addr 0x6bb63a4, size 0x8, virtual false, abstract: false, final false
   inline void set_IntermediateScriptingStructName(::StringW value);
 
@@ -94,23 +99,29 @@ protected:
   constexpr NativeTypeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeTypeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeTypeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeTypeAttribute(NativeTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeTypeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeTypeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeTypeAttribute(NativeTypeAttribute const&) = delete;
+  NativeTypeAttribute(NativeTypeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23116 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Header>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Header_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IntermediateScriptingStructName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____IntermediateScriptingStructName_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <CodegenOptions>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Bindings::CodegenOptions ____CodegenOptions_k__BackingField;
 

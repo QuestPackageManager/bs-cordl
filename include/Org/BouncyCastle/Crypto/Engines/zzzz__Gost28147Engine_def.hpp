@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\Gost28147Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/Gost28147Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -184,13 +184,13 @@ protected:
   constexpr Gost28147Engine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost28147Engine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost28147Engine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost28147Engine(Gost28147Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost28147Engine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost28147Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost28147Engine(Gost28147Engine const&) = delete;
+  Gost28147Engine(Gost28147Engineconst&) = delete;
 
   /// @brief Field BlockSize offset 0xffffffff size 0x4
   static constexpr int32_t BlockSize{ static_cast<int32_t>(0x8) };

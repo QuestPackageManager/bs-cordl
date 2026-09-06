@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TerminalInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/TerminalInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TerminalInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TerminalInstaller.InstallBindings

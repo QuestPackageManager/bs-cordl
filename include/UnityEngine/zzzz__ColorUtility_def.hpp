@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ColorUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ColorUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class ColorUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::ColorUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ColorUtility*, "UnityEngine", "ColorUtility");
+// [NativeHeader("Runtime/Math/ColorUtility.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -29,6 +30,7 @@ namespace UnityEngine {
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
   // Declarations
+  /// [FreeFunction("TryParseHtmlColor", true)]
   /// @brief Method DoTryParseHtmlColor, addr 0x6acba50, size 0x140, virtual false, abstract: false, final false
   static inline bool DoTryParseHtmlColor(::StringW htmlString, ::by_ref<::UnityEngine::Color32> color);
 
@@ -47,13 +49,13 @@ protected:
   constexpr ColorUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorUtility(ColorUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorUtility(ColorUtility const&) = delete;
+  ColorUtility(ColorUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10248 };

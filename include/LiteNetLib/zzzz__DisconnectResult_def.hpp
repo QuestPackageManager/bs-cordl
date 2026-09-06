@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\DisconnectResult.hpp"
+// IWYU pragma private; include "LiteNetLib/DisconnectResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
   // @brief default ctor
   constexpr DisconnectResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DisconnectResult(int32_t value__) noexcept;
 
   /// @brief Field Disconnect value: I32(2)

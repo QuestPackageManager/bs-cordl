@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\AppDomainSetup.hpp"
+// IWYU pragma private; include "System/AppDomainSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class AppDomainSetup;
 // Write type traits
 MARK_REF_T(::System::AppDomainSetup*);
 DEFINE_IL2CPP_CLASS(::System::AppDomainSetup*, "System", "AppDomainSetup");
+// [ClassInterface((System.Runtime.InteropServices.ClassInterfaceType)0)]
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -270,13 +272,13 @@ protected:
   constexpr AppDomainSetup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppDomainSetup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppDomainSetup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppDomainSetup(AppDomainSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppDomainSetup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppDomainSetup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppDomainSetup(AppDomainSetup const&) = delete;
+  AppDomainSetup(AppDomainSetupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2593 };
@@ -356,6 +358,7 @@ public:
   /// @brief Field partial_visible_assemblies, offset: 0xb8, size: 0x8, def value: None
   ::ArrayW<::StringW> ___partial_visible_assemblies;
 
+  /// [CompilerGenerated]
   /// @brief Field <TargetFrameworkName>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::StringW ____TargetFrameworkName_k__BackingField;
 

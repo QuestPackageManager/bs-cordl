@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioResource.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioResource.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioResource_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Audio::AudioResource._ctor

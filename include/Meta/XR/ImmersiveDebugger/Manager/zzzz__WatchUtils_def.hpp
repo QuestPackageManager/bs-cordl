@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\WatchUtils.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/WatchUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::WatchUtils*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::WatchUtils___c*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::WatchUtils*, "Meta.XR.ImmersiveDebugger.Manager", "WatchUtils");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::WatchUtils___c*, "Meta.XR.ImmersiveDebugger.Manager", "WatchUtils/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -91,13 +92,13 @@ protected:
   constexpr WatchUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WatchUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WatchUtils___c(WatchUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WatchUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WatchUtils___c(WatchUtils___c const&) = delete;
+  WatchUtils___c(WatchUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18445 };
@@ -146,13 +147,13 @@ protected:
   constexpr WatchUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WatchUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WatchUtils(WatchUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WatchUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WatchUtils(WatchUtils const&) = delete;
+  WatchUtils(WatchUtilsconst&) = delete;
 
   /// @brief Field MaxLetterCount offset 0xffffffff size 0x4
   static constexpr int32_t MaxLetterCount{ static_cast<int32_t>(0x40) };

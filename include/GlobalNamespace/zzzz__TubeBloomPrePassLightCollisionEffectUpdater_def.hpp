@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLightCollisionEffectUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLightCollisionEffectUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,9 +76,10 @@ public:
   // @brief default ctor
   constexpr TubeBloomPrePassLightCollisionEffectUpdater_EffectData();
 
-  // Ctor Parameters [CppParam { name: "environmentLayerMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "showHit", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "useScale", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "length", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "scale", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "environmentLayerMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "showHit", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "useScale", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "hit", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "length", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr TubeBloomPrePassLightCollisionEffectUpdater_EffectData(int32_t environmentLayerMask, bool showHit, bool useScale, bool hit, float_t length, ::Unity::Mathematics::float3 scale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -123,6 +124,7 @@ static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUp
 static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [BurstCompile]
 // Dependencies TubeBloomPrePassLightCollisionEffectUpdater::EffectData, Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // Is value type: true
@@ -144,7 +146,7 @@ public:
   constexpr TubeBloomPrePassLightCollisionEffectUpdater_ExtractScaleJob();
 
   // Ctor Parameters [CppParam { name: "effectData", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData>", modifiers: "", def_value:
-  // None }]
+  // None, comment: None }]
   constexpr TubeBloomPrePassLightCollisionEffectUpdater_ExtractScaleJob(
       ::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData> effectData) noexcept;
 
@@ -165,6 +167,7 @@ static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUp
 static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_ExtractScaleJob) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [BurstCompile]
 // Dependencies TubeBloomPrePassLightCollisionEffectUpdater::EffectData, Unity.Collections.NativeArray`1<T>, UnityEngine.RaycastCommand
 namespace GlobalNamespace {
 // Is value type: true
@@ -186,7 +189,7 @@ public:
   constexpr TubeBloomPrePassLightCollisionEffectUpdater_InitialiseRaycastsJob();
 
   // Ctor Parameters [CppParam { name: "effectData", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData>", modifiers: "", def_value:
-  // None }, CppParam { name: "raycastCommands", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::RaycastCommand>", modifiers: "", def_value: None }]
+  // None, comment: None }, CppParam { name: "raycastCommands", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::RaycastCommand>", modifiers: "", def_value: None, comment: None }]
   constexpr TubeBloomPrePassLightCollisionEffectUpdater_InitialiseRaycastsJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData> effectData,
                                                                               ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastCommand> raycastCommands) noexcept;
 
@@ -212,6 +215,7 @@ static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUp
 static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_InitialiseRaycastsJob) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [BurstCompile]
 // Dependencies TubeBloomPrePassLightCollisionEffectUpdater::EffectData, Unity.Collections.NativeArray`1<T>, UnityEngine.RaycastHit
 namespace GlobalNamespace {
 // Is value type: true
@@ -233,7 +237,7 @@ public:
   constexpr TubeBloomPrePassLightCollisionEffectUpdater_UpdateHitPointsJob();
 
   // Ctor Parameters [CppParam { name: "effectData", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData>", modifiers: "", def_value:
-  // None }, CppParam { name: "raycastHits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>", modifiers: "", def_value: None }]
+  // None, comment: None }, CppParam { name: "raycastHits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>", modifiers: "", def_value: None, comment: None }]
   constexpr TubeBloomPrePassLightCollisionEffectUpdater_UpdateHitPointsJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData> effectData,
                                                                            ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit> raycastHits) noexcept;
 
@@ -259,6 +263,7 @@ static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUp
 static_assert(sizeof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_UpdateHitPointsJob) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DefaultExecutionOrder(11)]
 // Dependencies TubeBloomPrePassLightCollisionEffect, TubeBloomPrePassLightCollisionEffectUpdater::EffectData, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle,
 // UnityEngine.Jobs.TransformAccessArray, UnityEngine.MonoBehaviour, UnityEngine.RaycastCommand, UnityEngine.RaycastHit, UnityEngine.Transform
 namespace GlobalNamespace {
@@ -399,13 +404,13 @@ protected:
   constexpr TubeBloomPrePassLightCollisionEffectUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightCollisionEffectUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightCollisionEffectUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeBloomPrePassLightCollisionEffectUpdater(TubeBloomPrePassLightCollisionEffectUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightCollisionEffectUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightCollisionEffectUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeBloomPrePassLightCollisionEffectUpdater(TubeBloomPrePassLightCollisionEffectUpdater const&) = delete;
+  TubeBloomPrePassLightCollisionEffectUpdater(TubeBloomPrePassLightCollisionEffectUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5954 };

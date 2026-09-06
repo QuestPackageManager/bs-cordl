@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Utils\NumString\G_IntString.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Utils/NumString/G_IntString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class G_IntString;
 // Write type traits
 MARK_REF_T(::Tayx::Graphy::Utils::NumString::G_IntString*);
 DEFINE_IL2CPP_CLASS(::Tayx::Graphy::Utils::NumString::G_IntString*, "Tayx.Graphy.Utils.NumString", "G_IntString");
+// [Extension]
 // Dependencies System.Object
 namespace Tayx::Graphy::Utils::NumString {
 // Is value type: false
@@ -34,6 +35,7 @@ public:
   /// @brief Method Init, addr 0x643e99c, size 0x230, virtual false, abstract: false, final false
   static inline void Init(int32_t minNegativeValue, int32_t maxPositiveValue);
 
+  /// [Extension]
   /// @brief Method ToStringNonAlloc, addr 0x643ebcc, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(int32_t value);
 
@@ -57,13 +59,13 @@ protected:
   constexpr G_IntString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_IntString(G_IntString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_IntString(G_IntString const&) = delete;
+  G_IntString(G_IntStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21490 };

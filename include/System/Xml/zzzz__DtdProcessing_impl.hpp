@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\DtdProcessing.hpp"
+// IWYU pragma private; include "System/Xml/DtdProcessing.hpp"
 #include "System/Xml/zzzz__DtdProcessing_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::DtdProcessing::DtdProcessing(int32_t value__) noexcept {
   this->value__ = value__;
 }

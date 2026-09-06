@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ITuple.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ITuple.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ITuple;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::ITuple*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::ITuple*, "System.Runtime.CompilerServices", "ITuple");
+// [DefaultMember("Item")]
 // Dependencies
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -21,12 +22,12 @@ public:
   // Declarations
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method get_Length, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Length();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITuple", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITuple", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITuple(ITuple const&) = delete;
+  ITuple(ITupleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3390 };

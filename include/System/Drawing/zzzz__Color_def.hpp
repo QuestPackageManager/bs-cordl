@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Drawing\Color.hpp"
+// IWYU pragma private; include "System/Drawing/Color.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ struct Color;
 // Write type traits
 MARK_VAL_T(::System::Drawing::Color);
 DEFINE_IL2CPP_CLASS(::System::Drawing::Color, "System.Drawing", "Color");
+// [DebuggerDisplay("{NameAndARGBValue}")]
+// [IsReadOnly]
 // Dependencies
 namespace System::Drawing {
 // Is value type: true
@@ -87,8 +89,8 @@ public:
   // @brief default ctor
   constexpr Color();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "knownColor", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "knownColor", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "state", ty: "int16_t", modifiers: "", def_value: None, comment: None }]
   constexpr Color(::StringW name, int64_t value, int16_t knownColor, int16_t state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

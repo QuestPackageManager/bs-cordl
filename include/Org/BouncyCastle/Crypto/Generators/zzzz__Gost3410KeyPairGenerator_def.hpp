@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\Gost3410KeyPairGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/Gost3410KeyPairGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,13 +63,13 @@ protected:
   constexpr Gost3410KeyPairGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost3410KeyPairGenerator(Gost3410KeyPairGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost3410KeyPairGenerator(Gost3410KeyPairGenerator const&) = delete;
+  Gost3410KeyPairGenerator(Gost3410KeyPairGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 904 };

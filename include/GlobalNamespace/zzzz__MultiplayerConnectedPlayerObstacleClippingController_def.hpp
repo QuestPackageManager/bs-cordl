@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerObstacleClippingController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerObstacleClippingController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class MultiplayerConnectedPlayerObstacleClippingController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*, "", "MultiplayerConnectedPlayerObstacleClippingController");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerConnectedPlayerObstacleClippingController")]
 // Dependencies MaterialPropertyBlockController, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -64,17 +65,18 @@ protected:
   constexpr MultiplayerConnectedPlayerObstacleClippingController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleClippingController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleClippingController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnectedPlayerObstacleClippingController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleClippingController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleClippingController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnectedPlayerObstacleClippingController const&) = delete;
+  MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnectedPlayerObstacleClippingControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6073 };
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> ____materialPropertyBlockControllers;
 

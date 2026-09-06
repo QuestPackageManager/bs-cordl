@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\IDtdDefaultAttributeInfo.hpp"
+// IWYU pragma private; include "System/Xml/IDtdDefaultAttributeInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,24 +37,24 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdAttributeInfo"
   constexpr operator ::System::Xml::IDtdAttributeInfo*() noexcept;
 
-  /// @brief Method get_DefaultValueExpanded, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultValueExpanded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DefaultValueExpanded();
 
-  /// @brief Method get_DefaultValueTyped, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultValueTyped, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_DefaultValueTyped();
 
-  /// @brief Method get_ValueLineNumber, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueLineNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ValueLineNumber();
 
-  /// @brief Method get_ValueLinePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValueLinePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ValueLinePosition();
 
   /// @brief Convert to "::System::Xml::IDtdAttributeInfo"
   constexpr ::System::Xml::IDtdAttributeInfo* i___System__Xml__IDtdAttributeInfo() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDtdDefaultAttributeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDtdDefaultAttributeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDtdDefaultAttributeInfo(IDtdDefaultAttributeInfo const&) = delete;
+  IDtdDefaultAttributeInfo(IDtdDefaultAttributeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9276 };

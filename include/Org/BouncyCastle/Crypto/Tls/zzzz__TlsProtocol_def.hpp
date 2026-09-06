@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsProtocol.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsProtocol.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr TlsProtocol_HandshakeMessage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocol_HandshakeMessage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocol_HandshakeMessage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsProtocol_HandshakeMessage(TlsProtocol_HandshakeMessage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocol_HandshakeMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocol_HandshakeMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsProtocol_HandshakeMessage(TlsProtocol_HandshakeMessage const&) = delete;
+  TlsProtocol_HandshakeMessage(TlsProtocol_HandshakeMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1291 };
@@ -315,7 +315,7 @@ public:
   /// @brief Method HandleFailure, addr 0x3475a68, size 0x74, virtual true, abstract: false, final false
   inline void HandleFailure();
 
-  /// @brief Method HandleHandshakeMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HandleHandshakeMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleHandshakeMessage(uint8_t type, ::System::IO::MemoryStream* buf);
 
   /// @brief Method InvalidateSession, addr 0x347792c, size 0xbc, virtual true, abstract: false, final false
@@ -603,16 +603,16 @@ public:
   /// @brief Method .ctor, addr 0x34754bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method get_Context, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Context, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsContext* get_Context();
 
-  /// @brief Method get_ContextAdmin, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ContextAdmin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext* get_ContextAdmin();
 
   /// @brief Method get_IsClosed, addr 0x3478c70, size 0xc, virtual true, abstract: false, final false
   inline bool get_IsClosed();
 
-  /// @brief Method get_Peer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Peer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsPeer* get_Peer();
 
   /// @brief Method get_Stream, addr 0x3477280, size 0x5c, virtual true, abstract: false, final false
@@ -627,13 +627,13 @@ protected:
   constexpr TlsProtocol();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocol", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocol", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsProtocol(TlsProtocol&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocol", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocol", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsProtocol(TlsProtocol const&) = delete;
+  TlsProtocol(TlsProtocolconst&) = delete;
 
   /// @brief Field ADS_MODE_0_N offset 0xffffffff size 0x2
   static constexpr int16_t ADS_MODE_0_N{ static_cast<int16_t>(0x1) };

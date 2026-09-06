@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\IntervalTree_1.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/IntervalTree_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IInterval_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTree_1)
@@ -14,24 +15,31 @@ namespace UnityEngine::Timeline {
 struct IntervalTreeNode;
 }
 namespace UnityEngine::Timeline {
-template <typename T> struct IntervalTree_1_Entry;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
+struct IntervalTree_1_Entry;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
+class IntervalTree_1;
 }
 namespace UnityEngine::Timeline {
-template <typename T> struct IntervalTree_1_Entry;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
+struct IntervalTree_1_Entry;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Timeline::IntervalTree_1);
 MARK_GEN_VAL_T(::UnityEngine::Timeline::IntervalTree_1_Entry);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Timeline::IntervalTree_1, "UnityEngine.Timeline", "IntervalTree`1");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Timeline::IntervalTree_1_Entry, "UnityEngine.Timeline", "IntervalTree`1/Entry");
-// Dependencies
+// Dependencies UnityEngine.Timeline.IInterval
 namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
 // Is value type: true
 // CS Name: UnityEngine.Timeline.IntervalTree`1/Entry<T>
 struct CORDL_TYPE IntervalTree_1_Entry {
@@ -41,8 +49,8 @@ public:
   // @brief default ctor
   constexpr IntervalTree_1_Entry();
 
-  // Ctor Parameters [CppParam { name: "intervalStart", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "intervalEnd", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "item", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "intervalStart", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "intervalEnd", ty: "int64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "item", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr IntervalTree_1_Entry(int64_t intervalStart, int64_t intervalEnd, T item) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -64,10 +72,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Timeline
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.Timeline.IInterval
 namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
 // Is value type: false
 // CS Name: UnityEngine.Timeline.IntervalTree`1<T>
 class CORDL_TYPE IntervalTree_1 : public ::System::Object {
@@ -136,9 +145,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dirty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_dirty();
 
+  /// [CompilerGenerated]
   /// @brief Method set_dirty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dirty(bool value);
 
@@ -148,13 +159,13 @@ protected:
   constexpr IntervalTree_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntervalTree_1(IntervalTree_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTree_1(IntervalTree_1 const&) = delete;
+  IntervalTree_1(IntervalTree_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19204 };
@@ -174,6 +185,7 @@ public:
   /// @brief Field m_Nodes, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* ___m_Nodes;
 
+  /// [CompilerGenerated]
   /// @brief Field <dirty>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____dirty_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRCameraRig.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRCameraRig.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
@@ -1350,7 +1350,9 @@ inline void GlobalNamespace::OVRCameraRig::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRCameraRig*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::OVRCameraRig::_CheckForAnchorsInParent_g__Check_105_0(::UnityEngine::Transform* node) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
+inline void GlobalNamespace::OVRCameraRig::_CheckForAnchorsInParent_g__Check_105_0(::UnityEngine::Transform* node) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRCameraRig*>(),
                                                            { "<CheckForAnchorsInParent>g__Check|105_0", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Transform*>() } })));

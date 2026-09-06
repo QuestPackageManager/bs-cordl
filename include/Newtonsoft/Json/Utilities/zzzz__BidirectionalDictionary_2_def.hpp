@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\BidirectionalDictionary_2.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/BidirectionalDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2, "Newtonsoft.Json.Utilities", "BidirectionalDictionary`2");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -53,10 +55,10 @@ public:
   inline void Set(TFirst first, TSecond second);
 
   /// @brief Method TryGetByFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetByFirst(TFirst first, ::by_ref<TSecond> second);
+  inline bool TryGetByFirst(TFirst first, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<TSecond> second);
 
   /// @brief Method TryGetBySecond, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetBySecond(TSecond second, ::by_ref<TFirst> first);
+  inline bool TryGetBySecond(TSecond second, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<TFirst> first);
 
   constexpr ::StringW const& __cordl_internal_get__duplicateFirstErrorMessage() const;
 
@@ -98,13 +100,13 @@ protected:
   constexpr BidirectionalDictionary_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BidirectionalDictionary_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BidirectionalDictionary_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BidirectionalDictionary_2(BidirectionalDictionary_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BidirectionalDictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BidirectionalDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BidirectionalDictionary_2(BidirectionalDictionary_2 const&) = delete;
+  BidirectionalDictionary_2(BidirectionalDictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13374 };

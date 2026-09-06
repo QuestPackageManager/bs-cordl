@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\ContractAnnotationAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/ContractAnnotationAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__ContractAnnotationAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::ContractAnnotationAttribute._ctor
@@ -107,12 +107,12 @@ constexpr void JetBrains::Annotations::ContractAnnotationAttribute::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ForceFullStates_k__BackingField = value;
 }
-inline void JetBrains::Annotations::ContractAnnotationAttribute::_ctor(::StringW contract) {
+inline void JetBrains::Annotations::ContractAnnotationAttribute::_ctor(/* [NotNull] */ ::StringW contract) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::ContractAnnotationAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, contract);
 }
-inline void JetBrains::Annotations::ContractAnnotationAttribute::_ctor(::StringW contract, bool forceFullStates) {
+inline void JetBrains::Annotations::ContractAnnotationAttribute::_ctor(/* [NotNull] */ ::StringW contract, bool forceFullStates) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::ContractAnnotationAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, contract, forceFullStates);
@@ -136,10 +136,10 @@ inline void JetBrains::Annotations::ContractAnnotationAttribute::set_ForceFullSt
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::ContractAnnotationAttribute*>(), { "set_ForceFullStates", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::JetBrains::Annotations::ContractAnnotationAttribute* JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(::StringW contract) {
+inline ::JetBrains::Annotations::ContractAnnotationAttribute* JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(/* [NotNull] */ ::StringW contract) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::ContractAnnotationAttribute*>(contract));
 }
-inline ::JetBrains::Annotations::ContractAnnotationAttribute* JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(::StringW contract, bool forceFullStates) {
+inline ::JetBrains::Annotations::ContractAnnotationAttribute* JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(/* [NotNull] */ ::StringW contract, bool forceFullStates) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::ContractAnnotationAttribute*>(contract, forceFullStates));
 }
 // Ctor Parameters []

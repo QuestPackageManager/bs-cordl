@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\IInternalMessage.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/IInternalMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,21 +26,21 @@ public:
 
   __declspec(property(get = get_Uri, put = set_Uri)) ::StringW Uri;
 
-  /// @brief Method get_TargetIdentity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_TargetIdentity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Identity* get_TargetIdentity();
 
-  /// @brief Method get_Uri, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Uri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Uri();
 
-  /// @brief Method set_TargetIdentity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_TargetIdentity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
 
-  /// @brief Method set_Uri, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Uri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Uri(::StringW value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IInternalMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IInternalMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IInternalMessage(IInternalMessage const&) = delete;
+  IInternalMessage(IInternalMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3183 };

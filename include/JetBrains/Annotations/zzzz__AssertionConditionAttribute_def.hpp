@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AssertionConditionAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AssertionConditionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class AssertionConditionAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::AssertionConditionAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::AssertionConditionAttribute*, "JetBrains.Annotations", "AssertionConditionAttribute");
+// [AttributeUsage((System.AttributeTargets)2048)]
 // Dependencies JetBrains.Annotations.AssertionConditionType, System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -40,9 +41,11 @@ public:
   /// @brief Method .ctor, addr 0x6e3e1cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ConditionType, addr 0x6e3e1d4, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::AssertionConditionType get_ConditionType();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ConditionType, addr 0x6e3e1dc, size 0x8, virtual false, abstract: false, final false
   inline void set_ConditionType(::JetBrains::Annotations::AssertionConditionType value);
 
@@ -52,17 +55,18 @@ protected:
   constexpr AssertionConditionAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssertionConditionAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssertionConditionAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssertionConditionAttribute(AssertionConditionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssertionConditionAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssertionConditionAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssertionConditionAttribute(AssertionConditionAttribute const&) = delete;
+  AssertionConditionAttribute(AssertionConditionAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22587 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ConditionType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::AssertionConditionType ____ConditionType_k__BackingField;
 

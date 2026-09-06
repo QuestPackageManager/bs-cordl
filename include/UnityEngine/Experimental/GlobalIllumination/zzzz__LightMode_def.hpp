@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\LightMode.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LightMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   // @brief default ctor
   constexpr LightMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr LightMode(uint8_t value__) noexcept;
 
   /// @brief Field Baked value: U8(2)

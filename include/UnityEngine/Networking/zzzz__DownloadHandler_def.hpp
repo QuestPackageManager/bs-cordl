@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandler.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,10 +20,14 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -62,13 +66,13 @@ protected:
   constexpr DownloadHandler_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DownloadHandler_BindingsMarshaller(DownloadHandler_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandler_BindingsMarshaller(DownloadHandler_BindingsMarshaller const&) = delete;
+  DownloadHandler_BindingsMarshaller(DownloadHandler_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22295 };
@@ -79,6 +83,7 @@ public:
 static_assert(sizeof(::UnityEngine::Networking::DownloadHandler_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
+// [NativeHeader("Modules/UnityWebRequest/Public/DownloadHandler/DownloadHandler.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Networking {
 // Is value type: false
@@ -102,6 +107,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CompleteContent, addr 0x6e28d60, size 0x4, virtual true, abstract: false, final false
   inline void CompleteContent();
 
@@ -111,6 +117,7 @@ public:
   /// @brief Method Dispose, addr 0x6e28640, size 0x20, virtual true, abstract: false, final false
   inline void Dispose();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UnityWebRequestAudioModule", "UnityEngine.UnityWebRequestTextureModule" })]
   /// @brief Method DisposeNativeArray, addr 0x6e28f20, size 0x4c, virtual false, abstract: false, final false
   static inline void DisposeNativeArray(::by_ref<::Unity::Collections::NativeArray_1<uint8_t>> data);
 
@@ -138,6 +145,7 @@ public:
   /// @brief Method GetNativeData, addr 0x6e2883c, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
+  /// [RequiredByNativeCode]
   /// @brief Method GetProgress, addr 0x6e28d64, size 0x8, virtual true, abstract: false, final false
   inline float_t GetProgress();
 
@@ -150,26 +158,34 @@ public:
   /// @brief Method InternalGetByteArray, addr 0x6e2884c, size 0x8c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> InternalGetByteArray(::UnityEngine::Networking::DownloadHandler* dh);
 
+  /// [NativeThrows]
+  /// [VisibleToOtherModules]
   /// @brief Method InternalGetByteArray, addr 0x6e28d6c, size 0x50, virtual false, abstract: false, final false
   static inline uint8_t* InternalGetByteArray(::UnityEngine::Networking::DownloadHandler* dh, ::by_ref<int32_t> length);
 
   /// @brief Method InternalGetByteArray_Injected, addr 0x6e28dbc, size 0x44, virtual false, abstract: false, final false
   static inline uint8_t* InternalGetByteArray_Injected(::System::IntPtr dh, ::by_ref<int32_t> length);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UnityWebRequestAudioModule", "UnityEngine.UnityWebRequestTextureModule" })]
   /// @brief Method InternalGetNativeArray, addr 0x6e28e00, size 0x120, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> InternalGetNativeArray(::UnityEngine::Networking::DownloadHandler* dh, ::by_ref<::Unity::Collections::NativeArray_1<uint8_t>> nativeArray);
 
+  /// @brief [VisibleToOtherModules]
   static inline ::UnityEngine::Networking::DownloadHandler* New_ctor();
 
+  /// [Obsolete("Use ReceiveContentLengthHeader")]
   /// @brief Method ReceiveContentLength, addr 0x6e28d5c, size 0x4, virtual true, abstract: false, final false
   inline void ReceiveContentLength(int32_t contentLength);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ReceiveContentLengthHeader, addr 0x6e28d50, size 0xc, virtual true, abstract: false, final false
   inline void ReceiveContentLengthHeader(uint64_t contentLength);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ReceiveData, addr 0x6e28d48, size 0x8, virtual true, abstract: false, final false
   inline bool ReceiveData(::ArrayW<uint8_t> data, int32_t dataLength);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method ReleaseFromScripting, addr 0x6e28564, size 0x50, virtual false, abstract: false, final false
   inline void ReleaseFromScripting();
 
@@ -182,6 +198,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
+  /// [VisibleToOtherModules]
   /// @brief Method .ctor, addr 0x6e285f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -206,17 +223,18 @@ protected:
   constexpr DownloadHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DownloadHandler(DownloadHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandler(DownloadHandler const&) = delete;
+  DownloadHandler(DownloadHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22296 };
 
+  /// [VisibleToOtherModules]
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 

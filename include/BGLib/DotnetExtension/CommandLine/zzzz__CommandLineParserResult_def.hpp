@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\CommandLine\CommandLineParserResult.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/CommandLineParserResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_VAL_T(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult);
 DEFINE_IL2CPP_CLASS(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass10_0*, "BGLib.DotnetExtension.CommandLine", "CommandLineParserResult/<>c__DisplayClass10_0");
 DEFINE_IL2CPP_CLASS(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass7_0*, "BGLib.DotnetExtension.CommandLine", "CommandLineParserResult/<>c__DisplayClass7_0");
 DEFINE_IL2CPP_CLASS(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult, "BGLib.DotnetExtension.CommandLine", "CommandLineParserResult");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::DotnetExtension::CommandLine {
 // Is value type: false
@@ -57,6 +58,7 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass10_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <Contains>b__0, addr 0x3314768, size 0x70, virtual false, abstract: false, final false
   inline bool _Contains_b__0(::System::Collections::Generic::KeyValuePair_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW> keyValuePair);
 
@@ -75,17 +77,18 @@ protected:
   constexpr CommandLineParserResult___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParserResult___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParserResult___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandLineParserResult___c__DisplayClass10_0(CommandLineParserResult___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParserResult___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParserResult___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandLineParserResult___c__DisplayClass10_0(CommandLineParserResult___c__DisplayClass10_0 const&) = delete;
+  CommandLineParserResult___c__DisplayClass10_0(CommandLineParserResult___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20524 };
 
+  /// [Nullable(0)]
   /// @brief Field identifier, offset: 0x10, size: 0x8, def value: None
   ::StringW ___identifier;
 
@@ -97,6 +100,7 @@ static_assert(offsetof(::BGLib::DotnetExtension::CommandLine::CommandLineParserR
 static_assert(sizeof(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass10_0) == 0x18, "Size mismatch!");
 
 } // namespace BGLib::DotnetExtension::CommandLine
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::DotnetExtension::CommandLine {
 // Is value type: false
@@ -127,6 +131,7 @@ public:
   /// @brief Method .ctor, addr 0x3313ea0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <get_Item>b__0, addr 0x33147d8, size 0x2bc, virtual false, abstract: false, final false
   inline bool _get_Item_b__0(::StringW optionIdentifier);
 
@@ -136,20 +141,22 @@ protected:
   constexpr CommandLineParserResult___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParserResult___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParserResult___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandLineParserResult___c__DisplayClass7_0(CommandLineParserResult___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParserResult___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandLineParserResult___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandLineParserResult___c__DisplayClass7_0(CommandLineParserResult___c__DisplayClass7_0 const&) = delete;
+  CommandLineParserResult___c__DisplayClass7_0(CommandLineParserResult___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20525 };
 
+  /// [Nullable(0)]
   /// @brief Field identifier, offset: 0x10, size: 0x8, def value: None
   ::StringW ___identifier;
 
+  /// [Nullable(0)]
   /// @brief Field <>9__0, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<::StringW, bool>* _____9__0;
 
@@ -163,6 +170,10 @@ static_assert(offsetof(::BGLib::DotnetExtension::CommandLine::CommandLineParserR
 static_assert(sizeof(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass7_0) == 0x20, "Size mismatch!");
 
 } // namespace BGLib::DotnetExtension::CommandLine
+// [NullableContext(1)]
+// [Nullable(0)]
+// [IsReadOnly]
+// [DefaultMember("Item")]
 // Dependencies
 namespace BGLib::DotnetExtension::CommandLine {
 // Is value type: true
@@ -191,7 +202,7 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method .ctor, addr 0x3313210, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW applicationPath, ::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>* parsed,
+  inline void _ctor(/* [Nullable(2)] */ ::StringW applicationPath, ::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>* parsed,
                     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* unexpectedArguments);
 
   /// @brief Method get_Item, addr 0x3313a84, size 0x41c, virtual false, abstract: false, final false
@@ -204,9 +215,9 @@ public:
   // @brief default ctor
   constexpr CommandLineParserResult();
 
-  // Ctor Parameters [CppParam { name: "applicationPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_parsed", ty:
-  // "::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption,::StringW>*", modifiers: "", def_value: None }, CppParam { name:
-  // "unexpectedArguments", ty: "::System::Collections::Generic::IReadOnlyList_1<::StringW>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "applicationPath", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_parsed", ty:
+  // "::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption,::StringW>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "unexpectedArguments", ty: "::System::Collections::Generic::IReadOnlyList_1<::StringW>*", modifiers: "", def_value: None, comment: None }]
   constexpr CommandLineParserResult(::StringW applicationPath, ::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>* _parsed,
                                     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* unexpectedArguments) noexcept;
 
@@ -216,6 +227,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [Nullable(2)]
   /// @brief Field applicationPath, offset: 0x0, size: 0x8, def value: None
   ::StringW applicationPath;
 

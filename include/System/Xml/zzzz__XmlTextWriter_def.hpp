@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlTextWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlTextWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,7 +125,7 @@ public:
   // @brief default ctor
   constexpr XmlTextWriter_NamespaceState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextWriter_NamespaceState(int32_t value__) noexcept;
 
   /// @brief Field DeclaredAndWrittenOut value: I32(3)
@@ -171,11 +171,11 @@ public:
   // @brief default ctor
   constexpr XmlTextWriter_TagInfo();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "defaultNs", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "defaultNsState", ty: "::System::Xml::XmlTextWriter_NamespaceState", modifiers: "", def_value: None }, CppParam {
-  // name: "xmlSpace", ty: "::System::Xml::XmlSpace", modifiers: "", def_value: None }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "prevNsTop", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "prefixCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mixed", ty: "bool", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "defaultNs", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "defaultNsState", ty: "::System::Xml::XmlTextWriter_NamespaceState",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "xmlSpace", ty: "::System::Xml::XmlSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "xmlLang", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "prevNsTop", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefixCount", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "mixed", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextWriter_TagInfo(::StringW name, ::StringW prefix, ::StringW defaultNs, ::System::Xml::XmlTextWriter_NamespaceState defaultNsState, ::System::Xml::XmlSpace xmlSpace,
                                   ::StringW xmlLang, int32_t prevNsTop, int32_t prefixCount, bool mixed) noexcept;
 
@@ -250,8 +250,8 @@ public:
   // @brief default ctor
   constexpr XmlTextWriter_Namespace();
 
-  // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "declared", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "prevNsIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "declared", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "prevNsIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextWriter_Namespace(::StringW prefix, ::StringW ns, bool declared, int32_t prevNsIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -317,7 +317,7 @@ public:
   // @brief default ctor
   constexpr XmlTextWriter_SpecialAttr();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextWriter_SpecialAttr(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -386,7 +386,7 @@ public:
   // @brief default ctor
   constexpr XmlTextWriter_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextWriter_State(int32_t value__) noexcept;
 
   /// @brief Field AttrOnly value: I32(6)
@@ -477,7 +477,7 @@ public:
   // @brief default ctor
   constexpr XmlTextWriter_Token();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextWriter_Token(int32_t value__) noexcept;
 
   /// @brief Field Base64 value: I32(10)
@@ -539,6 +539,7 @@ static_assert(offsetof(::System::Xml::XmlTextWriter_Token, value__) == 0x0, "Off
 static_assert(sizeof(::System::Xml::XmlTextWriter_Token) == 0x4, "Size mismatch!");
 
 } // namespace System::Xml
+// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
 // Dependencies System.Xml.Formatting, System.Xml.XmlCharType, System.Xml.XmlTextWriter::Namespace, System.Xml.XmlTextWriter::SpecialAttr, System.Xml.XmlTextWriter::State,
 // System.Xml.XmlTextWriter::TagInfo, System.Xml.XmlTextWriter::Token, System.Xml.XmlWriter
 namespace System::Xml {
@@ -1008,13 +1009,13 @@ protected:
   constexpr XmlTextWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextWriter(XmlTextWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextWriter(XmlTextWriter const&) = delete;
+  XmlTextWriter(XmlTextWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9343 };

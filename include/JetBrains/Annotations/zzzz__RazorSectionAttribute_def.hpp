@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\RazorSectionAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/RazorSectionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class RazorSectionAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::RazorSectionAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::RazorSectionAttribute*, "JetBrains.Annotations", "RazorSectionAttribute");
+// [AttributeUsage((System.AttributeTargets)2112)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr RazorSectionAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RazorSectionAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RazorSectionAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RazorSectionAttribute(RazorSectionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RazorSectionAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RazorSectionAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RazorSectionAttribute(RazorSectionAttribute const&) = delete;
+  RazorSectionAttribute(RazorSectionAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22583 };

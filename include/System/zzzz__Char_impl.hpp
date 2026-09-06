@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Char.hpp"
+// IWYU pragma private; include "System/Char.hpp"
 #include "System/zzzz__Char_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
@@ -1137,7 +1137,7 @@ constexpr System::Char::operator ::System::IConvertible*() {
 constexpr ::System::IConvertible* System::Char::i___System__IConvertible() {
   return static_cast<::System::IConvertible*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "char16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Char::Char(char16_t m_value) noexcept {
   this->m_value = m_value;
 }

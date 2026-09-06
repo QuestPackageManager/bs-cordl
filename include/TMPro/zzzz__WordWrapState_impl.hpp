@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\WordWrapState.hpp"
+// IWYU pragma private; include "TMPro/WordWrapState.hpp"
 #include "TMPro/zzzz__Extents_impl.hpp"
 #include "TMPro/zzzz__FontStyles_impl.hpp"
 #include "TMPro/zzzz__FontWeight_impl.hpp"
@@ -18,46 +18,50 @@
 #include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "TMPro/zzzz__TMP_TextInfo_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-// Ctor Parameters [CppParam { name: "previous_WordBreak", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "total_CharacterCount", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "visible_CharacterCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleSpaceCount", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "visible_SpriteCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "visible_LinkCount", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastVisibleCharIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxCapHeight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "maxAscender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxDescender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "startOfLineAscender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxLineAscender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "maxLineDescender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pageAscender", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "horizontalAlignment", ty: "::TMPro::HorizontalAlignmentOptions", modifiers: "", def_value: Some("{}") }, CppParam { name: "marginLeft", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "marginRight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "xAdvance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "preferredWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "preferredHeight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderedWidth",
-// ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderedHeight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "previousLineScale", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontStyle", ty: "::TMPro::FontStyles", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "italicAngle", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontScaleMultiplier", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "currentFontSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "baselineOffset", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "lineOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "isDrivenLineSpacing", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "lastBaseGlyphIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cSpace", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "mSpace", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "textInfo", ty: "::TMPro::TMP_TextInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "lineInfo", ty:
-// "::TMPro::TMP_LineInfo", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertexColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "underlineColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "strikethroughColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "highlightState", ty: "::TMPro::HighlightState", modifiers: "", def_value: Some("{}") }, CppParam { name: "basicStyleStack", ty: "::TMPro::TMP_FontStyleStack", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "italicAngleStack", ty: "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "underlineColorStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "strikethroughColorStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "highlightColorStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "highlightStateStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<::TMPro::HighlightState>", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorGradientStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<::UnityW<::TMPro::TMP_ColorGradient>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sizeStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "indentStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "fontWeightStack", ty: "::TMPro::TMP_TextProcessingStack_1<::TMPro::FontWeight>", modifiers: "", def_value: Some("{}") }, CppParam { name: "styleStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "baselineStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "actionStack", ty: "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialReferenceStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<::TMPro::MaterialReference>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lineJustificationStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<::TMPro::HorizontalAlignmentOptions>", modifiers: "", def_value: Some("{}") }, CppParam { name: "spriteAnimationID", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "currentFontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "currentSpriteAsset", ty:
-// "::UnityW<::TMPro::TMP_SpriteAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "currentMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "meshExtents", ty: "::TMPro::Extents", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "tagNoParsing", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isNonBreakingSpace", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "fxRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "fxScale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "previous_WordBreak", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "total_CharacterCount", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "visible_CharacterCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleSpaceCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visible_SpriteCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "visible_LinkCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "firstVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "lastVisibleCharIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lineNumber", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxCapHeight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxAscender", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxDescender", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "startOfLineAscender", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxLineAscender", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "maxLineDescender", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pageAscender", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "horizontalAlignment", ty: "::TMPro::HorizontalAlignmentOptions", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "marginLeft", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "marginRight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xAdvance",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "preferredWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "preferredHeight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderedWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "renderedHeight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "previousLineScale", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontStyle", ty: "::TMPro::FontStyles", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "italicAngle", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontScaleMultiplier", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currentFontSize", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "baselineOffset",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lineOffset", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "isDrivenLineSpacing", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastBaseGlyphIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "cSpace", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mSpace", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "textInfo", ty: "::TMPro::TMP_TextInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lineInfo", ty: "::TMPro::TMP_LineInfo", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "vertexColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "underlineColor", ty:
+// "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "strikethroughColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "highlightState", ty: "::TMPro::HighlightState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "basicStyleStack", ty:
+// "::TMPro::TMP_FontStyleStack", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "italicAngleStack", ty: "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "colorStack", ty: "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "underlineColorStack", ty: "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "strikethroughColorStack", ty: "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "highlightColorStack", ty:
+// "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "highlightStateStack", ty:
+// "::TMPro::TMP_TextProcessingStack_1<::TMPro::HighlightState>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "colorGradientStack", ty:
+// "::TMPro::TMP_TextProcessingStack_1<::UnityW<::TMPro::TMP_ColorGradient>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sizeStack", ty:
+// "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indentStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "fontWeightStack", ty: "::TMPro::TMP_TextProcessingStack_1<::TMPro::FontWeight>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "styleStack", ty: "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "baselineStack", ty:
+// "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "actionStack", ty: "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "materialReferenceStack", ty: "::TMPro::TMP_TextProcessingStack_1<::TMPro::MaterialReference>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "lineJustificationStack", ty: "::TMPro::TMP_TextProcessingStack_1<::TMPro::HorizontalAlignmentOptions>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "spriteAnimationID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currentFontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "currentSpriteAsset", ty: "::UnityW<::TMPro::TMP_SpriteAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "currentMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "meshExtents", ty: "::TMPro::Extents", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tagNoParsing", ty: "bool", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "isNonBreakingSpace", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fxRotation", ty:
+// "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fxScale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::WordWrapState::WordWrapState(
     int32_t previous_WordBreak, int32_t total_CharacterCount, int32_t visible_CharacterCount, int32_t visibleSpaceCount, int32_t visible_SpriteCount, int32_t visible_LinkCount,
     int32_t firstCharacterIndex, int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharIndex, int32_t lineNumber, float_t maxCapHeight, float_t maxAscender,

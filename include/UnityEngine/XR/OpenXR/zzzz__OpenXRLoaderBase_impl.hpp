@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRLoaderBase.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRLoaderBase.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_impl.hpp"
+#include "UnityEngine/zzzz__ISubsystem_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderBase_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -92,7 +94,7 @@ inline ::UnityEngine::XR::OpenXR::OpenXRLoaderBase_FeatureLoggingInfo* UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::OpenXR::OpenXRLoaderBase_FeatureLoggingInfo::OpenXRLoaderBase_FeatureLoggingInfo() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState::OpenXRLoaderBase_LoaderState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1086,6 +1088,7 @@ inline bool UnityEngine::XR::OpenXR::OpenXRLoaderBase::Deinitialize() {
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 template <typename TDescriptor, typename TSubsystem>
+  requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::ISubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::ISubsystem*>)
 inline void UnityEngine::XR::OpenXR::OpenXRLoaderBase::CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(),
@@ -1095,19 +1098,25 @@ inline void UnityEngine::XR::OpenXR::OpenXRLoaderBase::CreateSubsystem(::System:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDescriptor>(), ::i2c::class_of<TSubsystem>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, descriptors, id);
 }
-template <typename T> inline void UnityEngine::XR::OpenXR::OpenXRLoaderBase::StartSubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::XR::OpenXR::OpenXRLoaderBase::StartSubsystem() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "StartSubsystem", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::XR::OpenXR::OpenXRLoaderBase::StopSubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::XR::OpenXR::OpenXRLoaderBase::StopSubsystem() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "StopSubsystem", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::XR::OpenXR::OpenXRLoaderBase::DestroySubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::XR::OpenXR::OpenXRLoaderBase::DestroySubsystem() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "DestroySubsystem", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

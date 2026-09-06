@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonConverter_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonConverter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ template <typename T> class JsonConverter_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::JsonConverter_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::JsonConverter_1, "Newtonsoft.Json", "JsonConverter`1");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json {
 // cpp template
@@ -42,16 +44,17 @@ public:
   static inline ::Newtonsoft::Json::JsonConverter_1<T>* New_ctor();
 
   /// @brief Method ReadJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
+                                    ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadJson, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline T ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, T existingValue, bool hasExistingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+  /// @brief Method ReadJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline T ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ T existingValue, bool hasExistingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method WriteJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, T value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  /// @brief Method WriteJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ T value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -62,13 +65,13 @@ protected:
   constexpr JsonConverter_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConverter_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonConverter_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonConverter_1(JsonConverter_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConverter_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonConverter_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonConverter_1(JsonConverter_1 const&) = delete;
+  JsonConverter_1(JsonConverter_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13250 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PointLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/PointLightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,17 +48,18 @@ protected:
   constexpr PointLightWithIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointLightWithIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointLightWithIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointLightWithIds(PointLightWithIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointLightWithIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointLightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointLightWithIds(PointLightWithIds const&) = delete;
+  PointLightWithIds(PointLightWithIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19551 };
 
+  /// [SerializeField]
   /// @brief Field _pointLight, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PointLight> ____pointLight;
 

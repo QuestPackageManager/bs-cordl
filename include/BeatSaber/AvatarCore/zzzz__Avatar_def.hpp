@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\Avatar.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/Avatar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   /// @brief Method OnDestroy, addr 0x326a154, size 0x32c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetLightColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetLightColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLightColor(::UnityEngine::Color lightColor);
 
   /// @brief Method SetOptionalDataProvider, addr 0x3269df0, size 0x234, virtual false, abstract: false, final false
@@ -78,16 +78,16 @@ public:
   /// @brief Method UpdateAvatarFromOptionalData, addr 0x326a480, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data);
 
-  /// @brief Method UpdateAvatarFromOptionalData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromOptionalData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data, int64_t playbackDelayMs);
 
   /// @brief Method UpdateAvatarFromOptionalDataList, addr 0x326a024, size 0x130, virtual false, abstract: false, final false
   inline void UpdateAvatarFromOptionalDataList(::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>* optionalData);
 
-  /// @brief Method UpdateAvatarFromPose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromPose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAvatarFromPose(::BeatSaber::AvatarCore::AvatarPoseData currentPose);
 
-  /// @brief Method UpdateAvatarFromVisualData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromVisualData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAvatarFromVisualData(::GlobalNamespace::MultiplayerAvatarsData visualData);
 
   constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* const& __cordl_internal_get_optionalDataProvider() const;
@@ -111,7 +111,7 @@ public:
   /// @brief Method .ctor, addr 0x326a554, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bodyCenterWorldPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_bodyCenterWorldPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_bodyCenterWorldPosition();
 
 protected:
@@ -120,13 +120,13 @@ protected:
   constexpr Avatar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Avatar(Avatar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Avatar(Avatar const&) = delete;
+  Avatar(Avatarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21632 };

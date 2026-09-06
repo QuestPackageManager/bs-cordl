@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Byte.hpp"
+// IWYU pragma private; include "System/Byte.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ struct Byte;
 // Write type traits
 MARK_VAL_T(::System::Byte);
 DEFINE_IL2CPP_CLASS(::System::Byte, "System", "Byte");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -97,6 +98,7 @@ public:
   /// @brief Method Equals, addr 0x5bb1d44, size 0x34, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NonVersionable]
   /// @brief Method Equals, addr 0x5bb1d78, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(uint8_t obj);
 
@@ -206,7 +208,7 @@ public:
   // @brief default ctor
   constexpr Byte();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr Byte(uint8_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

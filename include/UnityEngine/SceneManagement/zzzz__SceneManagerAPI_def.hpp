@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\SceneManagerAPI.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/SceneManagerAPI.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ public:
   /// @brief Method get_ActiveAPI, addr 0x6affd1c, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_ActiveAPI();
 
+  /// [CompilerGenerated]
   /// @brief Method get_overrideAPI, addr 0x6affdd0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_overrideAPI();
 
@@ -68,13 +69,13 @@ protected:
   constexpr SceneManagerAPI();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPI", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPI", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneManagerAPI(SceneManagerAPI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPI", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneManagerAPI(SceneManagerAPI const&) = delete;
+  SceneManagerAPI(SceneManagerAPIconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10487 };

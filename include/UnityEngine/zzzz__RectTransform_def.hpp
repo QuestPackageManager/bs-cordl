@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RectTransform.hpp"
+// IWYU pragma private; include "UnityEngine/RectTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +93,7 @@ public:
   // @brief default ctor
   constexpr RectTransform_Edge();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RectTransform_Edge(int32_t value__) noexcept;
 
   /// @brief Field Bottom value: I32(3)
@@ -154,7 +154,7 @@ public:
   // @brief default ctor
   constexpr RectTransform_Axis();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RectTransform_Axis(int32_t value__) noexcept;
 
   /// @brief Field Horizontal value: I32(0)
@@ -201,13 +201,13 @@ protected:
   constexpr RectTransform_ReapplyDrivenProperties();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectTransform_ReapplyDrivenProperties", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectTransform_ReapplyDrivenProperties", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectTransform_ReapplyDrivenProperties(RectTransform_ReapplyDrivenProperties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectTransform_ReapplyDrivenProperties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectTransform_ReapplyDrivenProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectTransform_ReapplyDrivenProperties(RectTransform_ReapplyDrivenProperties const&) = delete;
+  RectTransform_ReapplyDrivenProperties(RectTransform_ReapplyDrivenPropertiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10421 };
@@ -218,6 +218,8 @@ public:
 static_assert(sizeof(::UnityEngine::RectTransform_ReapplyDrivenProperties) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Transform/RectTransform.h")]
+// [NativeClass("UI::RectTransform")]
 // Dependencies UnityEngine.Transform
 namespace UnityEngine {
 // Is value type: false
@@ -256,6 +258,7 @@ public:
 
   __declspec(property(get = get_sizeDelta, put = set_sizeDelta)) ::UnityEngine::Vector2 sizeDelta;
 
+  /// [NativeMethod("UpdateIfTransformDispatchIsDirty")]
   /// @brief Method ForceUpdateRectTransforms, addr 0x6af55a0, size 0x78, virtual false, abstract: false, final false
   inline void ForceUpdateRectTransforms();
 
@@ -276,6 +279,7 @@ public:
 
   static inline ::UnityEngine::RectTransform* New_ctor();
 
+  /// [RequiredByNativeCode]
   /// @brief Method SendReapplyDrivenProperties, addr 0x6af5c08, size 0x70, virtual false, abstract: false, final false
   static inline void SendReapplyDrivenProperties(::UnityEngine::RectTransform* driven);
 
@@ -288,6 +292,7 @@ public:
   /// @brief Method .ctor, addr 0x6af5e04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_reapplyDrivenProperties, addr 0x6af423c, size 0xcc, virtual false, abstract: false, final false
   static inline void add_reapplyDrivenProperties(::UnityEngine::RectTransform_ReapplyDrivenProperties* value);
 
@@ -350,6 +355,7 @@ public:
   /// @brief Method get_sizeDelta_Injected, addr 0x6af4a6c, size 0x44, virtual false, abstract: false, final false
   static inline void get_sizeDelta_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> ret);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_reapplyDrivenProperties, addr 0x6af4308, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_reapplyDrivenProperties(::UnityEngine::RectTransform_ReapplyDrivenProperties* value);
 
@@ -412,13 +418,13 @@ protected:
   constexpr RectTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectTransform(RectTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectTransform(RectTransform const&) = delete;
+  RectTransform(RectTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10422 };

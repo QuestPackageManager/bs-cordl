@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\MetaRemoteAssets\MockRemoteCatalogLoader.hpp"
+// IWYU pragma private; include "BGLib/MetaRemoteAssets/MockRemoteCatalogLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ public:
   /// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
   constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
+  /// [NullableContext(1)]
   /// @brief Method LoadRemoteCatalogAsync, addr 0x331b33c, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -48,13 +49,13 @@ protected:
   constexpr MockRemoteCatalogLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockRemoteCatalogLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRemoteCatalogLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockRemoteCatalogLoader(MockRemoteCatalogLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockRemoteCatalogLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockRemoteCatalogLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockRemoteCatalogLoader(MockRemoteCatalogLoader const&) = delete;
+  MockRemoteCatalogLoader(MockRemoteCatalogLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22498 };

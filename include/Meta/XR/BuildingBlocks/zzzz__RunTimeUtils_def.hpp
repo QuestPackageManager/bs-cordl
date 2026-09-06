@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\RunTimeUtils.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/RunTimeUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class RunTimeUtils;
 // Write type traits
 MARK_REF_T(::Meta::XR::BuildingBlocks::RunTimeUtils*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::RunTimeUtils*, "Meta.XR.BuildingBlocks", "RunTimeUtils");
+// [Extension]
 // Dependencies System.Object
 namespace Meta::XR::BuildingBlocks {
 // Is value type: false
@@ -27,8 +28,11 @@ public:
   /// @brief Method GenerateRandomString, addr 0x5a3573c, size 0x200, virtual false, abstract: false, final false
   static inline ::StringW GenerateRandomString(int32_t size, bool includeLowercase, bool includeUppercase, bool includeNumeric, bool includeSpecial);
 
+  /// [Extension]
   /// @brief Method GetInterfaceComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetInterfaceComponent(::UnityEngine::MonoBehaviour* monoBehaviour);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T GetInterfaceComponent(::UnityEngine::MonoBehaviour* monoBehaviour);
 
 protected:
   // Ctor Parameters []
@@ -36,13 +40,13 @@ protected:
   constexpr RunTimeUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RunTimeUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunTimeUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RunTimeUtils(RunTimeUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RunTimeUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunTimeUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunTimeUtils(RunTimeUtils const&) = delete;
+  RunTimeUtils(RunTimeUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21363 };

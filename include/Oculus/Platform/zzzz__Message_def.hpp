@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Message.hpp"
+// IWYU pragma private; include "Oculus/Platform/Message.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -283,13 +283,13 @@ protected:
   constexpr Message_Callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Message_Callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message_Callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Message_Callback(Message_Callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Message_Callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message_Callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Message_Callback(Message_Callback const&) = delete;
+  Message_Callback(Message_Callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17856 };
@@ -477,7 +477,7 @@ public:
   // @brief default ctor
   constexpr Message_MessageType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Message_MessageType(uint32_t value__) noexcept;
 
   /// @brief Field AbuseReport_ReportRequestHandled value: U32(1267661958)
@@ -974,13 +974,13 @@ protected:
   constexpr Message_ExtraMessageTypesHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Message_ExtraMessageTypesHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message_ExtraMessageTypesHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Message_ExtraMessageTypesHandler(Message_ExtraMessageTypesHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Message_ExtraMessageTypesHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message_ExtraMessageTypesHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Message_ExtraMessageTypesHandler(Message_ExtraMessageTypesHandler const&) = delete;
+  Message_ExtraMessageTypesHandler(Message_ExtraMessageTypesHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17858 };
@@ -1267,6 +1267,7 @@ public:
 
   static inline ::Oculus::Platform::Message_ExtraMessageTypesHandler* getStaticF__HandleExtraMessageTypes_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_HandleExtraMessageTypes, addr 0x5dd8c18, size 0x4c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Message_ExtraMessageTypesHandler* get_HandleExtraMessageTypes();
 
@@ -1281,6 +1282,7 @@ public:
 
   static inline void setStaticF__HandleExtraMessageTypes_k__BackingField(::Oculus::Platform::Message_ExtraMessageTypesHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_HandleExtraMessageTypes, addr 0x5dd8bc8, size 0x50, virtual false, abstract: false, final false
   static inline void set_HandleExtraMessageTypes(::Oculus::Platform::Message_ExtraMessageTypesHandler* value);
 
@@ -1290,13 +1292,13 @@ protected:
   constexpr Message();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Message", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Message(Message&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Message", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Message", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Message(Message const&) = delete;
+  Message(Messageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17859 };

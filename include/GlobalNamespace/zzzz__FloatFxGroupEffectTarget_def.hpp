@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxGroupEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxGroupEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   /// @brief Method .ctor, addr 0x5994c28, size 0x4, virtual false, abstract: false, final false
@@ -38,13 +38,13 @@ protected:
   constexpr FloatFxGroupEffectTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxGroupEffectTarget(FloatFxGroupEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxGroupEffectTarget(FloatFxGroupEffectTarget const&) = delete;
+  FloatFxGroupEffectTarget(FloatFxGroupEffectTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5862 };

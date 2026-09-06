@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\RenderedText.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/RenderedText.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__RenderedText_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -217,9 +217,10 @@ constexpr UnityEngine::TextCore::Text::RenderedText::operator ::System::IEquatab
 constexpr ::System::IEquatable_1<::StringW>* UnityEngine::TextCore::Text::RenderedText::i___System__IEquatable_1___StringW_() {
   return static_cast<::System::IEquatable_1<::StringW>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "valueStart", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "valueLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "suffix", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "repeat", ty:
-// "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "repeatCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "valueStart", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "valueLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "suffix", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "repeat", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "repeatCount", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::RenderedText::RenderedText(::StringW value, int32_t valueStart, int32_t valueLength, ::StringW suffix, char16_t repeat, int32_t repeatCount) noexcept {
   this->value = value;
   this->valueStart = valueStart;
@@ -272,7 +273,7 @@ inline char16_t UnityEngine::TextCore::Text::RenderedText_Enumerator::get_Curren
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::RenderedText_Enumerator>(), { "get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<char16_t>(*this, ___internal_method);
 }
-inline void UnityEngine::TextCore::Text::RenderedText_Enumerator::_ctor(::by_ref<::UnityEngine::TextCore::Text::RenderedText> source) {
+inline void UnityEngine::TextCore::Text::RenderedText_Enumerator::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> source) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::RenderedText_Enumerator>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, source);
@@ -281,9 +282,9 @@ inline bool UnityEngine::TextCore::Text::RenderedText_Enumerator::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::RenderedText_Enumerator>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Source", ty: "::UnityEngine::TextCore::Text::RenderedText", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Stage", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_StageIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Current", ty: "char16_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "m_Source", ty: "::UnityEngine::TextCore::Text::RenderedText", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Stage", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StageIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Current", ty:
+// "char16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::RenderedText_Enumerator::RenderedText_Enumerator(::UnityEngine::TextCore::Text::RenderedText m_Source, int32_t m_Stage, int32_t m_StageIndex,
                                                                                           char16_t m_Current) noexcept {
   this->m_Source = m_Source;

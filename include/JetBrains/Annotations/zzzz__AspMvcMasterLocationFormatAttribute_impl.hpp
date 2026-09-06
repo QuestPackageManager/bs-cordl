@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspMvcMasterLocationFormatAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcMasterLocationFormatAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AspMvcMasterLocationFormatAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute._ctor
@@ -56,7 +56,7 @@ constexpr void JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Format_k__BackingField = value;
 }
-inline void JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::_ctor(::StringW format) {
+inline void JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::_ctor(/* [NotNull] */ ::StringW format) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, format);
@@ -70,7 +70,7 @@ inline void JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::set_For
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute*>(), { "set_Format", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute* JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::New_ctor(::StringW format) {
+inline ::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute* JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::New_ctor(/* [NotNull] */ ::StringW format) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute*>(format));
 }
 // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\MonthNameStyles.hpp"
+// IWYU pragma private; include "System/Globalization/MonthNameStyles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MonthNameStyles;
 // Write type traits
 MARK_VAL_T(::System::Globalization::MonthNameStyles);
 DEFINE_IL2CPP_CLASS(::System::Globalization::MonthNameStyles, "System.Globalization", "MonthNameStyles");
+// [Flags]
 // Dependencies
 namespace System::Globalization {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr MonthNameStyles();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MonthNameStyles(int32_t value__) noexcept;
 
   /// @brief Field Genitive value: I32(1)

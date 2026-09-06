@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ModifiableContactPair.hpp"
+// IWYU pragma private; include "UnityEngine/ModifiableContactPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,8 @@ struct ModifiableContactPair;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ModifiableContactPair);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ModifiableContactPair, "UnityEngine", "ModifiableContactPair");
+// [NativeHeader("Modules/Physics/PhysXContactModification.h")]
+// [NativeHeader("Modules/Physics/PhysicsCollisionGeometry.h")]
 // Dependencies System.IntPtr, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -59,12 +61,14 @@ public:
 
   __declspec(property(get = get_otherColliderInstanceID)) int32_t otherColliderInstanceID;
 
+  /// [FreeFunction("Physics::PhysxCompatibility::GetActorAngularVelocity", true)]
   /// @brief Method GetActorAngularVelocity, addr 0x6b8fc0c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetActorAngularVelocity(::System::IntPtr actorPtr);
 
   /// @brief Method GetActorAngularVelocity_Injected, addr 0x6b8fc68, size 0x44, virtual false, abstract: false, final false
   static inline void GetActorAngularVelocity_Injected(::System::IntPtr actorPtr, ::by_ref<::UnityEngine::Vector3> ret);
 
+  /// [FreeFunction("Physics::PhysxCompatibility::GetActorLinearVelocity", true)]
   /// @brief Method GetActorLinearVelocity, addr 0x6b8fb6c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetActorLinearVelocity(::System::IntPtr actorPtr);
 
@@ -107,9 +111,11 @@ public:
   /// @brief Method IgnoreContact, addr 0x6b90188, size 0x8, virtual false, abstract: false, final false
   inline void IgnoreContact(int32_t i);
 
+  /// [FreeFunction("Physics::PhysxCompatibility::ResolveActorToInstanceID", true)]
   /// @brief Method ResolveActorToInstanceID, addr 0x6b8fb30, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ResolveActorToInstanceID(::System::IntPtr actorPtr);
 
+  /// [FreeFunction("Physics::PhysxCompatibility::ResolveShapeToInstanceID", true)]
   /// @brief Method ResolveShapeToInstanceID, addr 0x6b8faf4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ResolveShapeToInstanceID(::System::IntPtr shapePtr);
 
@@ -137,6 +143,7 @@ public:
   /// @brief Method SetTargetVelocity, addr 0x6b8ff84, size 0x54, virtual false, abstract: false, final false
   inline void SetTargetVelocity(int32_t i, ::UnityEngine::Vector3 velocity);
 
+  /// [FreeFunction("Physics::PhysxCompatibility::TranslateTriangleIndex", true)]
   /// @brief Method TranslateTriangleIndex, addr 0x6b8fab0, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t TranslateTriangleIndex(::System::IntPtr shapePtr, uint32_t rawIndex);
 
@@ -177,11 +184,12 @@ public:
   // @brief default ctor
   constexpr ModifiableContactPair();
 
-  // Ctor Parameters [CppParam { name: "actor", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "otherActor", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "shape", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "otherShape", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
-  // "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name:
-  // "otherRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "otherPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam {
-  // name: "numContacts", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contacts", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "actor", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "otherActor", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "shape", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "otherShape", ty: "::System::IntPtr",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "otherRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "otherPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "numContacts", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "contacts", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr ModifiableContactPair(::System::IntPtr actor, ::System::IntPtr otherActor, ::System::IntPtr shape, ::System::IntPtr otherShape, ::UnityEngine::Quaternion rotation,
                                   ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion otherRotation, ::UnityEngine::Vector3 otherPosition, int32_t numContacts,
                                   ::System::IntPtr contacts) noexcept;

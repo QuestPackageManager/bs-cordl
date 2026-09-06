@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PopupWindow.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PopupWindow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::UnityEngine::UIElements::PopupWindow_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PopupWindow*, "UnityEngine.UIElements", "PopupWindow");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PopupWindow_UxmlFactory*, "UnityEngine.UIElements", "PopupWindow/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PopupWindow_UxmlTraits*, "UnityEngine.UIElements", "PopupWindow/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -51,13 +52,13 @@ protected:
   constexpr PopupWindow_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PopupWindow_UxmlFactory(PopupWindow_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PopupWindow_UxmlFactory(PopupWindow_UxmlFactory const&) = delete;
+  PopupWindow_UxmlFactory(PopupWindow_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4286 };
@@ -68,6 +69,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::PopupWindow_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -86,13 +88,13 @@ protected:
   constexpr PopupWindow_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PopupWindow_UxmlTraits(PopupWindow_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PopupWindow_UxmlTraits(PopupWindow_UxmlTraits const&) = delete;
+  PopupWindow_UxmlTraits(PopupWindow_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4287 };
@@ -153,13 +155,13 @@ protected:
   constexpr PopupWindow();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PopupWindow(PopupWindow&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PopupWindow(PopupWindow const&) = delete;
+  PopupWindow(PopupWindowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4288 };

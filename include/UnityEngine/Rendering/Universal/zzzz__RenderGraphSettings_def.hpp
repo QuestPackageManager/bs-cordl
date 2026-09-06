@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderGraphSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderGraphSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   // @brief default ctor
   constexpr RenderGraphSettings_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraphSettings_Version(int32_t value__) noexcept;
 
   /// @brief Field Initial value: I32(0)
@@ -76,6 +76,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderGraphSettings_
 static_assert(sizeof(::UnityEngine::Rendering::Universal::RenderGraphSettings_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "Render Graph", Order = 50)]
+// [ElementInfo(Order = -10)]
 // Dependencies System.Object, UnityEngine.Rendering.Universal.RenderGraphSettings::Version
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -138,20 +141,25 @@ protected:
   constexpr RenderGraphSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphSettings(RenderGraphSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphSettings(RenderGraphSettings const&) = delete;
+  RenderGraphSettings(RenderGraphSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12950 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderGraphSettings_Version ___m_Version;
 
+  /// [SerializeField]
+  /// [Tooltip("When enabled, URP does not use the Render Graph API to construct and execute the frame. Use this option only for compatibility purposes.")]
+  /// [RecreatePipelineOnChange]
   /// @brief Field m_EnableRenderCompatibilityMode, offset: 0x14, size: 0x1, def value: None
   bool ___m_EnableRenderCompatibilityMode;
 

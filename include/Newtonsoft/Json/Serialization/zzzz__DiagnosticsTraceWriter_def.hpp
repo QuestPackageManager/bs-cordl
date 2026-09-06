@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\DiagnosticsTraceWriter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DiagnosticsTraceWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,8 +46,9 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter* New_ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method Trace, addr 0x5d409d4, size 0x460, virtual true, abstract: false, final true
-  inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
+  inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, /* [Nullable(2)] */ ::System::Exception* ex);
 
   constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
 
@@ -58,12 +59,14 @@ public:
   /// @brief Method .ctor, addr 0x5d40e34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LevelFilter, addr 0x5d4095c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_LevelFilter, addr 0x5d40964, size 0x8, virtual false, abstract: false, final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
@@ -73,17 +76,18 @@ protected:
   constexpr DiagnosticsTraceWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsTraceWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsTraceWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticsTraceWriter(DiagnosticsTraceWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsTraceWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsTraceWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticsTraceWriter(DiagnosticsTraceWriter const&) = delete;
+  DiagnosticsTraceWriter(DiagnosticsTraceWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13487 };
 
+  /// [CompilerGenerated]
   /// @brief Field <LevelFilter>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Diagnostics::TraceLevel ____LevelFilter_k__BackingField;
 

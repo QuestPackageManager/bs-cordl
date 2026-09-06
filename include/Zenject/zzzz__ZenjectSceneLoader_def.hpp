@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ZenjectSceneLoader.hpp"
+// IWYU pragma private; include "Zenject/ZenjectSceneLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,7 +136,7 @@ public:
                                  ::System::Action_1<::Zenject::DiContainer*>* extraBindingsEarly, ::System::Action_1<::Zenject::DiContainer*>* extraBindings,
                                  ::Zenject::LoadSceneRelationship containerMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
 
-  static inline ::Zenject::ZenjectSceneLoader* New_ctor(::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel);
+  static inline ::Zenject::ZenjectSceneLoader* New_ctor(/* [InjectOptional] */ ::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel);
 
   /// @brief Method PrepareForLoadScene, addr 0x6e9ecbc, size 0x1fc, virtual false, abstract: false, final false
   inline void PrepareForLoadScene(::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsEarly,
@@ -158,11 +158,12 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9f41c, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9f540, size 0x2dc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x6e9eadc, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel);
+  inline void _ctor(/* [InjectOptional] */ ::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel);
 
 protected:
   // Ctor Parameters []
@@ -170,13 +171,13 @@ protected:
   constexpr ZenjectSceneLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSceneLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSceneLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectSceneLoader(ZenjectSceneLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSceneLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSceneLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectSceneLoader(ZenjectSceneLoader const&) = delete;
+  ZenjectSceneLoader(ZenjectSceneLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14717 };

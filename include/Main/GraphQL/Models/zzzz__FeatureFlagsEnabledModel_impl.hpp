@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Main\GraphQL\Models\FeatureFlagsEnabledModel.hpp"
+// IWYU pragma private; include "Main/GraphQL/Models/FeatureFlagsEnabledModel.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "Main/GraphQL/Models/zzzz__FeatureFlagsEnabledModel_def.hpp"
@@ -196,7 +196,7 @@ constexpr void Main::GraphQL::Models::FeatureFlagsEnabledModel::__cordl_internal
   this->____XocBeatGamesFeaturesEnabledForViewer_k__BackingField = value;
 }
 inline void Main::GraphQL::Models::FeatureFlagsEnabledModel::set_XocBeatGamesFeaturesEnabledForViewer(
-    ::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* value) {
+    /* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel_XocBeatGamesFeaturesEnabledForViewerModel*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Main::GraphQL::Models::FeatureFlagsEnabledModel*>(),

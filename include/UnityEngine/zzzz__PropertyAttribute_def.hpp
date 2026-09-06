@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PropertyAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/PropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class PropertyAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::PropertyAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PropertyAttribute*, "UnityEngine", "PropertyAttribute");
+// [AttributeUsage((System.AttributeTargets)384, Inherited = true, AllowMultiple = false)]
+// [UsedByNativeCode]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -50,6 +52,7 @@ public:
   /// @brief Method .ctor, addr 0x6ad8000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool applyToCollection);
 
+  /// [CompilerGenerated]
   /// @brief Method set_order, addr 0x6ad7ff0, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
@@ -59,20 +62,24 @@ protected:
   constexpr PropertyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyAttribute(PropertyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyAttribute(PropertyAttribute const&) = delete;
+  PropertyAttribute(PropertyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10276 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <order>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____order_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <applyToCollection>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool ____applyToCollection_k__BackingField;
 

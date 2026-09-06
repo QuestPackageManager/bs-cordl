@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\CommonSecurityDescriptor.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/CommonSecurityDescriptor.hpp"
 #include "System/Security/AccessControl/zzzz__ControlFlags_impl.hpp"
 #include "System/Security/AccessControl/zzzz__GenericSecurityDescriptor_impl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonSecurityDescriptor_def.hpp"

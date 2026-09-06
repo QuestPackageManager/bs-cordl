@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\UTF7Encoding.hpp"
+// IWYU pragma private; include "System/Text/UTF7Encoding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,13 +122,13 @@ protected:
   constexpr UTF7Encoding_Decoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Decoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Decoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UTF7Encoding_Decoder(UTF7Encoding_Decoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Decoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Decoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding_Decoder(UTF7Encoding_Decoder const&) = delete;
+  UTF7Encoding_Decoder(UTF7Encoding_Decoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2876 };
@@ -198,13 +198,13 @@ protected:
   constexpr UTF7Encoding_Encoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Encoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Encoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UTF7Encoding_Encoder(UTF7Encoding_Encoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Encoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_Encoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding_Encoder(UTF7Encoding_Encoder const&) = delete;
+  UTF7Encoding_Encoder(UTF7Encoding_Encoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2877 };
@@ -257,13 +257,13 @@ protected:
   constexpr UTF7Encoding_DecoderUTF7Fallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7Fallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7Fallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UTF7Encoding_DecoderUTF7Fallback(UTF7Encoding_DecoderUTF7Fallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7Fallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7Fallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding_DecoderUTF7Fallback(UTF7Encoding_DecoderUTF7Fallback const&) = delete;
+  UTF7Encoding_DecoderUTF7Fallback(UTF7Encoding_DecoderUTF7Fallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2878 };
@@ -336,13 +336,13 @@ protected:
   constexpr UTF7Encoding_DecoderUTF7FallbackBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7FallbackBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7FallbackBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UTF7Encoding_DecoderUTF7FallbackBuffer(UTF7Encoding_DecoderUTF7FallbackBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7FallbackBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding_DecoderUTF7FallbackBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding_DecoderUTF7FallbackBuffer(UTF7Encoding_DecoderUTF7FallbackBuffer const&) = delete;
+  UTF7Encoding_DecoderUTF7FallbackBuffer(UTF7Encoding_DecoderUTF7FallbackBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2879 };
@@ -404,6 +404,7 @@ public:
   /// @brief Method GetByteCount, addr 0x5ade860, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetByteCount, addr 0x5adea54, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t count);
 
@@ -416,6 +417,7 @@ public:
   /// @brief Method GetBytes, addr 0x5aded6c, size 0x280, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetBytes, addr 0x5adefec, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount);
 
@@ -428,6 +430,7 @@ public:
   /// @brief Method GetCharCount, addr 0x5adf0e4, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetCharCount, addr 0x5adf26c, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetCharCount(uint8_t* bytes, int32_t count);
 
@@ -437,6 +440,7 @@ public:
   /// @brief Method GetChars, addr 0x5adf33c, size 0x284, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetChars, addr 0x5adf5c0, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount);
 
@@ -511,13 +515,13 @@ protected:
   constexpr UTF7Encoding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UTF7Encoding(UTF7Encoding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF7Encoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF7Encoding(UTF7Encoding const&) = delete;
+  UTF7Encoding(UTF7Encodingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2880 };

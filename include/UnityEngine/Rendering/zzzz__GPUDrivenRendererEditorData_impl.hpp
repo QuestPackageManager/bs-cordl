@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenRendererEditorData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenRendererEditorData.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenRendererEditorData_def.hpp"
-// Ctor Parameters [CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUDrivenRendererEditorData::GPUDrivenRendererEditorData(uint64_t sceneCullingMask) noexcept {
   this->sceneCullingMask = sceneCullingMask;
 }

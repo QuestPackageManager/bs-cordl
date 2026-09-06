@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalServerConnectionRequestHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalServerConnectionRequestHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalServerConnectionRequestHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"

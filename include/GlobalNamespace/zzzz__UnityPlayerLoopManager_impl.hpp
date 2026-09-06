@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityPlayerLoopManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityPlayerLoopManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/LowLevel/zzzz__PlayerLoopSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityPlayerLoopManager_def.hpp"
@@ -8,7 +8,7 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/LowLevel/zzzz__PlayerLoopSystem_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::UnityPlayerLoopManager_InsertPosition::UnityPlayerLoopManager_InsertPosition(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -42,8 +42,9 @@ inline void GlobalNamespace::UnityPlayerLoopManager_SystemToInsert::_ctor(::Stri
           { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::UnityPlayerLoopManager_InsertPosition>(), ::i2c::type_of<::UnityEngine::LowLevel::PlayerLoopSystem>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, relativeToSystem, position, system);
 }
-// Ctor Parameters [CppParam { name: "Position", ty: "::GlobalNamespace::UnityPlayerLoopManager_InsertPosition", modifiers: "", def_value: Some("{}") }, CppParam { name: "RelativeToSystem", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "System", ty: "::UnityEngine::LowLevel::PlayerLoopSystem", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Position", ty: "::GlobalNamespace::UnityPlayerLoopManager_InsertPosition", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "RelativeToSystem", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "System", ty: "::UnityEngine::LowLevel::PlayerLoopSystem", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert::UnityPlayerLoopManager_SystemToInsert(::GlobalNamespace::UnityPlayerLoopManager_InsertPosition Position, ::StringW RelativeToSystem,
                                                                                                           ::UnityEngine::LowLevel::PlayerLoopSystem System) noexcept {
   this->Position = Position;
@@ -204,7 +205,7 @@ inline void GlobalNamespace::UnityPlayerLoopManager::InitializePlayerLoop() {
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline ::UnityEngine::LowLevel::PlayerLoopSystem
-GlobalNamespace::UnityPlayerLoopManager::InsertSystems(::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem> loopSystem,
+GlobalNamespace::UnityPlayerLoopManager::InsertSystems(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem> loopSystem,
                                                        ::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>* systemsToInsert) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityPlayerLoopManager*>(),

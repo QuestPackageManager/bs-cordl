@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\BurstCompilerOptions.hpp"
+// IWYU pragma private; include "Unity/Burst/BurstCompilerOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ namespace Unity::Burst {
 class CORDL_TYPE BurstCompilerOptions : public ::System::Object {
 public:
   // Declarations
+  /// @brief [Obsolete("This property is no longer used and will be removed in a future major release")]
   __declspec(property(get = get_DisableOptimizations, put = set_DisableOptimizations)) bool DisableOptimizations;
 
   __declspec(property(get = get_EnableBurstCompilation, put = set_EnableBurstCompilation)) bool EnableBurstCompilation;
@@ -54,6 +55,8 @@ public:
 
   __declspec(property(get = get_EnableBurstTimings, put = set_EnableBurstTimings)) bool EnableBurstTimings;
 
+  /// @brief [Obsolete("This property is no longer used and will be removed in a future major release. Use the [BurstCompile(FloatMode = FloatMode.Fast)] on the method directly to enable this
+  /// feature")]
   __declspec(property(get = get_EnableFastMath, put = set_EnableFastMath)) bool EnableFastMath;
 
   /// @brief Field ForceBurstCompilationSynchronously, offset 0xffffffff, size 0x1
@@ -127,7 +130,7 @@ public:
   inline void MaybeTriggerRecompilation();
 
   /// @brief Method MergeAttributes, addr 0x6472a7c, size 0x138, virtual false, abstract: false, final false
-  static inline void MergeAttributes(::by_ref<::Unity::Burst::BurstCompileAttribute*> memberAttribute, ::by_ref<::Unity::Burst::BurstCompileAttribute*> assemblyAttribute);
+  static inline void MergeAttributes(::by_ref<::Unity::Burst::BurstCompileAttribute*> memberAttribute, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstCompileAttribute*> assemblyAttribute);
 
   static inline ::Unity::Burst::BurstCompilerOptions* New_ctor();
 
@@ -235,9 +238,11 @@ public:
   /// @brief Method get_IsEnabled, addr 0x64721bc, size 0x78, virtual false, abstract: false, final false
   inline bool get_IsEnabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsGlobal, addr 0x64721b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsGlobal();
 
+  /// [CompilerGenerated]
   /// @brief Method get_OptionsChanged, addr 0x64723d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_OptionsChanged();
 
@@ -274,6 +279,7 @@ public:
   /// @brief Method set_ForceEnableBurstSafetyChecks, addr 0x64722a4, size 0x30, virtual false, abstract: false, final false
   inline void set_ForceEnableBurstSafetyChecks(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_OptionsChanged, addr 0x64723dc, size 0x8, virtual false, abstract: false, final false
   inline void set_OptionsChanged(::System::Action* value);
 
@@ -283,13 +289,13 @@ protected:
   constexpr BurstCompilerOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstCompilerOptions(BurstCompilerOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompilerOptions(BurstCompilerOptions const&) = delete;
+  BurstCompilerOptions(BurstCompilerOptionsconst&) = delete;
 
   /// @brief Field BurstInitializeExternalsName offset 0xffffffff size 0x8
   static constexpr ::ConstString BurstInitializeExternalsName{ u"burst.initialize.externals" };
@@ -624,9 +630,11 @@ public:
   /// @brief Field _forceEnableBurstSafetyChecks, offset: 0x15, size: 0x1, def value: None
   bool ____forceEnableBurstSafetyChecks;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsGlobal>k__BackingField, offset: 0x16, size: 0x1, def value: None
   bool ____IsGlobal_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <OptionsChanged>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ____OptionsChanged_k__BackingField;
 

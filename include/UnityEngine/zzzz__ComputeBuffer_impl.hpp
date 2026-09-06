@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ComputeBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/ComputeBuffer.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ComputeBuffer_def.hpp"
@@ -415,14 +415,18 @@ inline void UnityEngine::ComputeBuffer::SetData(::System::Array* data) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeBuffer*>(), { "SetData", {}, { ::i2c::type_of<::System::Array*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data);
 }
-template <typename T> inline void UnityEngine::ComputeBuffer::SetData(::Unity::Collections::NativeArray_1<T> data) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::ComputeBuffer::SetData(::Unity::Collections::NativeArray_1<T> data) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeBuffer*>(), { "SetData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data);
 }
-template <typename T> inline void UnityEngine::ComputeBuffer::SetData(::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex, int32_t computeBufferStartIndex, int32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::ComputeBuffer::SetData(::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex, int32_t computeBufferStartIndex, int32_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ReaderWriterCount.hpp"
+// IWYU pragma private; include "System/Threading/ReaderWriterCount.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +76,13 @@ protected:
   constexpr ReaderWriterCount();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterCount", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterCount", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReaderWriterCount(ReaderWriterCount&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterCount", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterCount", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReaderWriterCount(ReaderWriterCount const&) = delete;
+  ReaderWriterCount(ReaderWriterCountconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16692 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BaseRenderFunc_2.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BaseRenderFunc_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,15 +19,19 @@ class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2, "UnityEngine.Rendering.RenderGraphModule", "BaseRenderFunc`2");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies System.MulticastDelegate
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.BaseRenderFunc`2<PassData,ContextType>
 class CORDL_TYPE BaseRenderFunc_2 : public ::System::MulticastDelegate {
@@ -53,13 +57,13 @@ protected:
   constexpr BaseRenderFunc_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRenderFunc_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRenderFunc_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseRenderFunc_2(BaseRenderFunc_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRenderFunc_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRenderFunc_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseRenderFunc_2(BaseRenderFunc_2 const&) = delete;
+  BaseRenderFunc_2(BaseRenderFunc_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12416 };

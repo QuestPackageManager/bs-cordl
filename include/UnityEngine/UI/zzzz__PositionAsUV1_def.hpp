@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\PositionAsUV1.hpp"
+// IWYU pragma private; include "UnityEngine/UI/PositionAsUV1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class PositionAsUV1;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::PositionAsUV1*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::PositionAsUV1*, "UnityEngine.UI", "PositionAsUV1");
+// [AddComponentMenu("UI/Effects/Position As UV1", 82)]
 // Dependencies UnityEngine.UI.BaseMeshEffect
 namespace UnityEngine::UI {
 // Is value type: false
@@ -36,13 +37,13 @@ protected:
   constexpr PositionAsUV1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PositionAsUV1(PositionAsUV1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PositionAsUV1(PositionAsUV1 const&) = delete;
+  PositionAsUV1(PositionAsUV1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17517 };

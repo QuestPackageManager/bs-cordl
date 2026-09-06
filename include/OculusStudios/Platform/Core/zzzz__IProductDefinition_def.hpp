@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\IProductDefinition.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/IProductDefinition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,21 +39,21 @@ public:
 
   __declspec(property(get = get_ownershipRequirement)) ::OculusStudios::Platform::Core::OwnershipRequirement ownershipRequirement;
 
-  /// @brief Method get_children, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_children, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>* get_children();
 
-  /// @brief Method get_id, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_idForVendor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_idForVendor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* get_idForVendor();
 
-  /// @brief Method get_ownershipRequirement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ownershipRequirement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::OculusStudios::Platform::Core::OwnershipRequirement get_ownershipRequirement();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IProductDefinition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IProductDefinition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IProductDefinition(IProductDefinition const&) = delete;
+  IProductDefinition(IProductDefinitionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22460 };

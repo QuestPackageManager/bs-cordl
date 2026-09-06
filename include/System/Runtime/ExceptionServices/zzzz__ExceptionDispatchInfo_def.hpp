@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\ExceptionServices\ExceptionDispatchInfo.hpp"
+// IWYU pragma private; include "System/Runtime/ExceptionServices/ExceptionDispatchInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,9 +40,11 @@ public:
 
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* New_ctor(::System::Exception* exception);
 
+  /// [StackTraceHidden]
   /// @brief Method Throw, addr 0x5b6f840, size 0x44, virtual false, abstract: false, final false
   inline void Throw();
 
+  /// [StackTraceHidden]
   /// @brief Method Throw, addr 0x5b6f884, size 0x14, virtual false, abstract: false, final false
   static inline void Throw(::System::Exception* source);
 
@@ -73,13 +75,13 @@ protected:
   constexpr ExceptionDispatchInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionDispatchInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionDispatchInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExceptionDispatchInfo(ExceptionDispatchInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionDispatchInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionDispatchInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExceptionDispatchInfo(ExceptionDispatchInfo const&) = delete;
+  ExceptionDispatchInfo(ExceptionDispatchInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3362 };

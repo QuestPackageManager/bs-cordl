@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PauseMenuManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/PauseMenuManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,8 +85,8 @@ public:
   /// @brief Field showRestartButton, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_showRestartButton, put = __cordl_internal_set_showRestartButton)) bool showRestartButton;
 
-  static inline ::GlobalNamespace::PauseMenuManager_InitData* New_ctor(::StringW backButtonText, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                       bool showRestartButton, bool showLevelBar);
+  static inline ::GlobalNamespace::PauseMenuManager_InitData* New_ctor(::StringW backButtonText, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                       ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton, bool showLevelBar);
 
   constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
 
@@ -119,7 +119,8 @@ public:
   constexpr void __cordl_internal_set_showRestartButton(bool value);
 
   /// @brief Method .ctor, addr 0x59b5974, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW backButtonText, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton, bool showLevelBar);
+  inline void _ctor(::StringW backButtonText, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton,
+                    bool showLevelBar);
 
 protected:
   // Ctor Parameters []
@@ -127,13 +128,13 @@ protected:
   constexpr PauseMenuManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PauseMenuManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseMenuManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PauseMenuManager_InitData(PauseMenuManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PauseMenuManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseMenuManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseMenuManager_InitData(PauseMenuManager_InitData const&) = delete;
+  PauseMenuManager_InitData(PauseMenuManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6036 };
@@ -169,6 +170,7 @@ static_assert(offsetof(::GlobalNamespace::PauseMenuManager_InitData, ___showLeve
 static_assert(sizeof(::GlobalNamespace::PauseMenuManager_InitData) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/PauseMenuManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -386,33 +388,43 @@ public:
   /// @brief Method .ctor, addr 0x59b5970, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishResumeAnimationEvent, addr 0x59b3c3c, size 0xac, virtual false, abstract: false, final false
   inline void add_didFinishResumeAnimationEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressContinueButtonEvent, addr 0x59b3ce8, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressMenuButtonEvent, addr 0x59b3e40, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressMenuButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressRestartButtonEvent, addr 0x59b3d94, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressRestartButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didStartResumeAnimationEvent, addr 0x59b3b90, size 0xac, virtual false, abstract: false, final false
   inline void add_didStartResumeAnimationEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishResumeAnimationEvent, addr 0x59b4870, size 0xac, virtual false, abstract: false, final false
   inline void remove_didFinishResumeAnimationEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressContinueButtonEvent, addr 0x59b491c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressMenuButtonEvent, addr 0x59b4a74, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressMenuButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressRestartButtonEvent, addr 0x59b49c8, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressRestartButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didStartResumeAnimationEvent, addr 0x59b47c4, size 0xac, virtual false, abstract: false, final false
   inline void remove_didStartResumeAnimationEvent(::System::Action* value);
 
@@ -422,13 +434,13 @@ protected:
   constexpr PauseMenuManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PauseMenuManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseMenuManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PauseMenuManager(PauseMenuManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PauseMenuManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseMenuManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseMenuManager(PauseMenuManager const&) = delete;
+  PauseMenuManager(PauseMenuManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6037 };
@@ -436,54 +448,72 @@ public:
   /// @brief Field kDisabledInteractionDuration offset 0xffffffff size 0x4
   static constexpr float_t kDisabledInteractionDuration{ static_cast<float_t>(0.2f) };
 
+  /// [SerializeField]
   /// @brief Field _pauseAnimationController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PauseAnimationController> ____pauseAnimationController;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _levelBar, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
+  /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
+  /// [SerializeField]
   /// @brief Field _restartButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____restartButton;
 
+  /// [SerializeField]
   /// @brief Field _backButton, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____backButton;
 
+  /// [SerializeField]
   /// @brief Field _backButtonText, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____backButtonText;
 
+  /// [SerializeField]
   /// @brief Field _pauseContainerTransform, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____pauseContainerTransform;
 
+  /// [SerializeField]
   /// @brief Field _menuControllersParent, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____menuControllersParent;
 
+  /// [SerializeField]
   /// @brief Field _vrPointer, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::VRUIControls::VRPointer> ____vrPointer;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::PauseMenuManager_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _environmentSpawnRotation, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> ____environmentSpawnRotation;
 
+  /// [Inject]
   /// @brief Field _vrPlatformHelper, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressContinueButtonEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ___didPressContinueButtonEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressMenuButtonEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action* ___didPressMenuButtonEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressRestartButtonEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ___didPressRestartButtonEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didStartResumeAnimationEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action* ___didStartResumeAnimationEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishResumeAnimationEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action* ___didFinishResumeAnimationEvent;
 

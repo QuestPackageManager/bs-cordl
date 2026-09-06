@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\ConditionalAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/ConditionalAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class ConditionalAttribute;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::ConditionalAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::ConditionalAttribute*, "System.Diagnostics", "ConditionalAttribute");
+// [AttributeUsage((System.AttributeTargets)68, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace System::Diagnostics {
 // Is value type: false
@@ -40,17 +41,18 @@ protected:
   constexpr ConditionalAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalAttribute(ConditionalAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalAttribute(ConditionalAttribute const&) = delete;
+  ConditionalAttribute(ConditionalAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3654 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ConditionString>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____ConditionString_k__BackingField;
 

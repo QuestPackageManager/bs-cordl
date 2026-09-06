@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXCameraXRSettings.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXCameraXRSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VFXCameraXRSettings;
 // Write type traits
 MARK_VAL_T(::UnityEngine::VFX::VFXCameraXRSettings);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXCameraXRSettings, "UnityEngine.VFX", "VFXCameraXRSettings");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::VFX {
 // Is value type: true
@@ -24,8 +25,8 @@ public:
   // @brief default ctor
   constexpr VFXCameraXRSettings();
 
-  // Ctor Parameters [CppParam { name: "viewTotal", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "viewCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "viewOffset", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewTotal", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewCount", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "viewOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VFXCameraXRSettings(uint32_t viewTotal, uint32_t viewCount, uint32_t viewOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\OVRPhysicsRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/OVRPhysicsRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_REF_T(::UnityEngine::EventSystems::OVRPhysicsRaycaster*);
 MARK_REF_T(::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::OVRPhysicsRaycaster*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster");
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::OVRPhysicsRaycaster___c*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -96,13 +97,13 @@ protected:
   constexpr OVRPhysicsRaycaster___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPhysicsRaycaster___c(OVRPhysicsRaycaster___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPhysicsRaycaster___c(OVRPhysicsRaycaster___c const&) = delete;
+  OVRPhysicsRaycaster___c(OVRPhysicsRaycaster___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8556 };
@@ -113,6 +114,7 @@ public:
 static_assert(sizeof(::UnityEngine::EventSystems::OVRPhysicsRaycaster___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-dronerage-example-scenes/")]
 // Dependencies UnityEngine.EventSystems.BaseRaycaster, UnityEngine.LayerMask
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -189,13 +191,13 @@ protected:
   constexpr OVRPhysicsRaycaster();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPhysicsRaycaster(OVRPhysicsRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPhysicsRaycaster(OVRPhysicsRaycaster const&) = delete;
+  OVRPhysicsRaycaster(OVRPhysicsRaycasterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8557 };
@@ -203,6 +205,7 @@ public:
   /// @brief Field kNoEventMaskSet offset 0xffffffff size 0x4
   static constexpr int32_t kNoEventMaskSet{ static_cast<int32_t>(0xffffffff) };
 
+  /// [SerializeField]
   /// @brief Field m_EventMask, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_EventMask;
 

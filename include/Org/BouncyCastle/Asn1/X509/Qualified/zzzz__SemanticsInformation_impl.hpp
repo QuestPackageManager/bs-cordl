@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\Qualified\SemanticsInformation.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Qualified/SemanticsInformation.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__SemanticsInformation_def.hpp"

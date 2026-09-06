@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\BinXmlToken.hpp"
+// IWYU pragma private; include "System/Xml/BinXmlToken.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,7 +106,7 @@ public:
   // @brief default ctor
   constexpr BinXmlToken();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BinXmlToken(int32_t value__) noexcept;
 
   /// @brief Field Attr value: I32(246)

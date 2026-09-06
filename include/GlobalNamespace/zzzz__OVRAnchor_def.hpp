@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRAnchor.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRAnchor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRObjectPool_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "GlobalNamespace/zzzz__OVRResult_1_def.hpp"
@@ -108,7 +109,9 @@ namespace GlobalNamespace {
 struct OVRDeserialize_SpacesSaveResultData;
 }
 namespace GlobalNamespace {
-template <typename T> struct OVRNativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct OVRNativeList_1;
 }
 namespace GlobalNamespace {
 struct OVRPlugin_DynamicObjectClass;
@@ -126,10 +129,14 @@ namespace GlobalNamespace {
 struct OVRPlugin_SpaceStorageLocation;
 }
 namespace GlobalNamespace {
-template <typename TStatus> struct OVRResult_1;
+template <typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_1;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus> struct OVRResult_2;
+template <typename TValue, typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_2;
 }
 namespace GlobalNamespace {
 struct OVRSpaceUser;
@@ -201,7 +208,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -382,6 +391,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::Tracker_OVRAnchor__SetupDynamicObjectTrac
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::Tracker_OVRAnchor___SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1_d, "",
                     "OVRAnchor/Tracker/<<SetupDynamicObjectTracker>g__CreateAndConfigureTrackerAsync|5_1>d");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d, "", "OVRAnchor/<>c__DisplayClass54_0/<<FetchAnchorsAsync>g__execute|0>d");
+// [OVRResultStatus]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -422,7 +432,7 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_SaveResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_SaveResult(int32_t value__) noexcept;
 
   /// @brief Field Failure value: I32(-1000)
@@ -481,6 +491,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor_SaveResult, value__) == 0x0,
 static_assert(sizeof(::GlobalNamespace::OVRAnchor_SaveResult) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRResultStatus]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -517,7 +528,7 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_EraseResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_EraseResult(int32_t value__) noexcept;
 
   /// @brief Field Failure value: I32(-1000)
@@ -564,6 +575,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor_EraseResult, value__) == 0x0
 static_assert(sizeof(::GlobalNamespace::OVRAnchor_EraseResult) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRResultStatus]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -602,7 +614,7 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_FetchResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_FetchResult(int32_t value__) noexcept;
 
   /// @brief Field Failure value: I32(-1000)
@@ -655,6 +667,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor_FetchResult, value__) == 0x0
 static_assert(sizeof(::GlobalNamespace::OVRAnchor_FetchResult) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRResultStatus]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -696,7 +709,7 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_ShareResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_ShareResult(int32_t value__) noexcept;
 
   /// @brief Field Failure value: I32(-1000)
@@ -769,8 +782,8 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_FetchTaskData();
 
-  // Ctor Parameters [CppParam { name: "Anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name:
-  // "IncrementalResultsCallback", ty: "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "IncrementalResultsCallback", ty: "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_FetchTaskData(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* Anchors,
                                     ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* IncrementalResultsCallback) noexcept;
 
@@ -807,9 +820,9 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_DeferredValue();
 
-  // Ctor Parameters [CppParam { name: "Task", ty: "::GlobalNamespace::OVRTask_1<bool>", modifiers: "", def_value: None }, CppParam { name: "EnabledDesired", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Timeout", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "StartTime", ty:
-  // "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Task", ty: "::GlobalNamespace::OVRTask_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "EnabledDesired", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Timeout", ty: "double_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "StartTime", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_DeferredValue(::GlobalNamespace::OVRTask_1<bool> Task, bool EnabledDesired, uint64_t RequestId, double_t Timeout, float_t StartTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -878,8 +891,8 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_DeferredKey();
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "ComponentType", ty: "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ComponentType", ty:
+  // "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_DeferredKey(uint64_t Space, ::GlobalNamespace::OVRPlugin_SpaceComponentType ComponentType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -921,9 +934,9 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_FetchOptions();
 
-  // Ctor Parameters [CppParam { name: "SingleUuid", ty: "::System::Nullable_1<::System::Guid>", modifiers: "", def_value: None }, CppParam { name: "Uuids", ty:
-  // "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: None }, CppParam { name: "SingleComponentType", ty: "::System::Type*", modifiers: "", def_value: None
-  // }, CppParam { name: "ComponentTypes", ty: "::System::Collections::Generic::IEnumerable_1<::System::Type*>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "SingleUuid", ty: "::System::Nullable_1<::System::Guid>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Uuids", ty:
+  // "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SingleComponentType", ty: "::System::Type*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ComponentTypes", ty: "::System::Collections::Generic::IEnumerable_1<::System::Type*>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_FetchOptions(::System::Nullable_1<::System::Guid> SingleUuid, ::System::Collections::Generic::IEnumerable_1<::System::Guid>* Uuids, ::System::Type* SingleComponentType,
                                    ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ComponentTypes) noexcept;
 
@@ -997,9 +1010,9 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_FilterUnion();
 
-  // Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType", modifiers: "", def_value: None }, CppParam { name: "ComponentFilter", ty:
-  // "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoComponents", modifiers: "", def_value: None }, CppParam { name: "IdFilter", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoIds",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType", modifiers: "", def_value: None, comment: None }, CppParam { name: "ComponentFilter", ty:
+  // "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoComponents", modifiers: "", def_value: None, comment: None }, CppParam { name: "IdFilter", ty:
+  // "::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoIds", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_FilterUnion(::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterType Type, ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoComponents ComponentFilter,
                                   ::GlobalNamespace::OVRPlugin_SpaceDiscoveryFilterInfoIds IdFilter) noexcept;
 
@@ -1092,7 +1105,7 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_TrackableType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_TrackableType(int32_t value__) noexcept;
 
   /// @brief Field Keyboard value: I32(1)
@@ -1118,6 +1131,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor_TrackableType, value__) == 0
 static_assert(sizeof(::GlobalNamespace::OVRAnchor_TrackableType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -1150,7 +1164,8 @@ public:
   // @brief default ctor
   constexpr Telemetry_OVRAnchor_Key();
 
-  // Ctor Parameters [CppParam { name: "_markerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_requestId", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_markerId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_requestId", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr Telemetry_OVRAnchor_Key(int32_t _markerId, uint64_t _requestId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1209,7 +1224,7 @@ public:
   // @brief default ctor
   constexpr Telemetry_OVRAnchor_MarkerId();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Telemetry_OVRAnchor_MarkerId(int32_t value__) noexcept;
 
   /// @brief Field ConfigureTracker value: I32(163068237)
@@ -1263,13 +1278,13 @@ protected:
   constexpr Telemetry_OVRAnchor_Annotation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_OVRAnchor_Annotation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_OVRAnchor_Annotation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Telemetry_OVRAnchor_Annotation(Telemetry_OVRAnchor_Annotation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_OVRAnchor_Annotation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_OVRAnchor_Annotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry_OVRAnchor_Annotation(Telemetry_OVRAnchor_Annotation const&) = delete;
+  Telemetry_OVRAnchor_Annotation(Telemetry_OVRAnchor_Annotationconst&) = delete;
 
   /// @brief Field AsynchronousResult offset 0xffffffff size 0x8
   static constexpr ::ConstString AsynchronousResult{ u"async_result" };
@@ -1373,13 +1388,13 @@ protected:
   constexpr OVRAnchor_Telemetry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Telemetry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Telemetry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRAnchor_Telemetry(OVRAnchor_Telemetry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Telemetry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Telemetry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRAnchor_Telemetry(OVRAnchor_Telemetry const&) = delete;
+  OVRAnchor_Telemetry(OVRAnchor_Telemetryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7080 };
@@ -1420,7 +1435,7 @@ public:
   inline void ResetDynamicObjects();
 
   /// @brief Method SetDynamicObjectState, addr 0x5e09bf8, size 0xc, virtual false, abstract: false, final false
-  inline void SetDynamicObjectState(::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration> other);
+  inline void SetDynamicObjectState(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRAnchor_TrackerConfiguration> other);
 
   /// @brief Method ToDynamicObjectClasses, addr 0x5e09b30, size 0xc0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRNativeList_1<::GlobalNamespace::OVRPlugin_DynamicObjectClass> ToDynamicObjectClasses(::Unity::Collections::Allocator allocator);
@@ -1428,6 +1443,8 @@ public:
   /// @brief Method ToString, addr 0x5e09d18, size 0x264, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_KeyboardTrackingEnabled, addr 0x5e09a7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeyboardTrackingEnabled();
 
@@ -1446,6 +1463,7 @@ public:
   /// @brief Method op_Inequality, addr 0x5e0a0b8, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRAnchor_TrackerConfiguration lhs, ::GlobalNamespace::OVRAnchor_TrackerConfiguration rhs);
 
+  /// [CompilerGenerated]
   /// @brief Method set_KeyboardTrackingEnabled, addr 0x5e09a84, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyboardTrackingEnabled(bool value);
 
@@ -1453,7 +1471,7 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_TrackerConfiguration();
 
-  // Ctor Parameters [CppParam { name: "_KeyboardTrackingEnabled_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_KeyboardTrackingEnabled_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_TrackerConfiguration(bool _KeyboardTrackingEnabled_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1462,6 +1480,9 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// [CompilerGenerated]
+  /// [SerializeField]
+  /// [Tooltip("When enabled, attempts to track physical keyboards in the environment.")]
   /// @brief Field <KeyboardTrackingEnabled>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _KeyboardTrackingEnabled_k__BackingField;
 
@@ -1473,6 +1494,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor_TrackerConfiguration, _Keybo
 static_assert(sizeof(::GlobalNamespace::OVRAnchor_TrackerConfiguration) == 0x1, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRResultStatus]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -1504,7 +1526,7 @@ public:
   // @brief default ctor
   constexpr OVRAnchor_ConfigureTrackerResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor_ConfigureTrackerResult(int32_t value__) noexcept;
 
   /// @brief Field Failure value: I32(-1000)
@@ -1548,6 +1570,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::Tracker::AsyncLock::<AcquireAsync>d__3))]
   /// @brief Method AcquireAsync, addr 0x5e0a7f4, size 0xb8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock> AcquireAsync(::GlobalNamespace::OVRAnchor_Tracker* tracker);
 
@@ -1564,7 +1587,7 @@ public:
   // @brief default ctor
   constexpr Tracker_OVRAnchor_AsyncLock();
 
-  // Ctor Parameters [CppParam { name: "_tracker", ty: "::GlobalNamespace::OVRAnchor_Tracker*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_tracker", ty: "::GlobalNamespace::OVRAnchor_Tracker*", modifiers: "", def_value: None, comment: None }]
   constexpr Tracker_OVRAnchor_AsyncLock(::GlobalNamespace::OVRAnchor_Tracker* _tracker) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1584,6 +1607,7 @@ static_assert(offsetof(::GlobalNamespace::Tracker_OVRAnchor_AsyncLock, _tracker)
 static_assert(sizeof(::GlobalNamespace::Tracker_OVRAnchor_AsyncLock) == 0x8, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor::Tracker::AsyncLock, OVRTaskBuilder`1<T>, System.Runtime.CompilerServices.YieldAwaitable::YieldAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -1597,6 +1621,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0a8ac, size 0x1f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0aaa0, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1607,9 +1632,10 @@ public:
   // @brief default ctor
   constexpr AsyncLock_Tracker_OVRAnchor__AcquireAsync_d__3();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock>", modifiers: "", def_value: None }, CppParam { name: "tracker", ty: "::GlobalNamespace::OVRAnchor_Tracker*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tracker", ty:
+  // "::GlobalNamespace::OVRAnchor_Tracker*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr AsyncLock_Tracker_OVRAnchor__AcquireAsync_d__3(int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock> __t__builder,
                                                            ::GlobalNamespace::OVRAnchor_Tracker* tracker, ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter __u__1) noexcept;
 
@@ -1645,6 +1671,7 @@ static_assert(offsetof(::GlobalNamespace::AsyncLock_Tracker_OVRAnchor__AcquireAs
 static_assert(sizeof(::GlobalNamespace::AsyncLock_Tracker_OVRAnchor__AcquireAsync_d__3) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor::TrackerConfiguration, OVRPlugin::Result, OVRResult`1<TStatus>, OVRResult`2<TValue, TStatus>, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -1658,6 +1685,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0aadc, size 0x6b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0b18c, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1668,12 +1696,12 @@ public:
   // @brief default ctor
   constexpr Tracker_OVRAnchor___SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1_d();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<uint64_t,::GlobalNamespace::OVRPlugin_Result>>", modifiers: "", def_value: None }, CppParam { name: "tracker", ty: "uint64_t",
-  // modifiers: "", def_value: None }, CppParam { name: "config", ty: "::GlobalNamespace::OVRAnchor_TrackerConfiguration", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty:
-  // "uint64_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRPlugin_Result>>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<uint64_t,::GlobalNamespace::OVRPlugin_Result>>", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<uint64_t,::GlobalNamespace::OVRPlugin_Result>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tracker",
+  // ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "config", ty: "::GlobalNamespace::OVRAnchor_TrackerConfiguration", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "__7__wrap1", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRPlugin_Result>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<uint64_t,::GlobalNamespace::OVRPlugin_Result>>", modifiers: "", def_value: None, comment: None }]
   constexpr Tracker_OVRAnchor___SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1_d(
       int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<uint64_t, ::GlobalNamespace::OVRPlugin_Result>> __t__builder, uint64_t tracker,
       ::GlobalNamespace::OVRAnchor_TrackerConfiguration config, uint64_t __7__wrap1, ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRPlugin_Result>> __u__1,
@@ -1726,6 +1754,7 @@ static_assert(offsetof(::GlobalNamespace::Tracker_OVRAnchor___SetupDynamicObject
 static_assert(sizeof(::GlobalNamespace::Tracker_OVRAnchor___SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1_d) == 0x60, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor::ConfigureTrackerResult, OVRAnchor::Tracker::AsyncLock, OVRAnchor::TrackerConfiguration, OVRObjectPool::TaskScope`1<T>, OVRPlugin::Result, OVRResult`1<TStatus>,
 // OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
 namespace GlobalNamespace {
@@ -1740,6 +1769,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0b1c8, size 0x920, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0bae8, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1750,14 +1780,14 @@ public:
   // @brief default ctor
   constexpr Tracker_OVRAnchor__ConfigureAsync_d__7();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ConfigureTrackerResult>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::OVRAnchor_Tracker*", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "::GlobalNamespace::OVRAnchor_TrackerConfiguration", modifiers: "", def_value:
-  // None }, CppParam { name: "__7__wrap1", ty: "::GlobalNamespace::Tracker_OVRAnchor_AsyncLock", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock>", modifiers: "", def_value: None }, CppParam { name: "_results_5__3", ty:
-  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_Result>*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty:
-  // "::GlobalNamespace::OVRObjectPool_TaskScope_1<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_Result>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ConfigureTrackerResult>>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__4__this", ty: "::GlobalNamespace::OVRAnchor_Tracker*", modifiers: "", def_value: None, comment: None }, CppParam { name: "configuration", ty:
+  // "::GlobalNamespace::OVRAnchor_TrackerConfiguration", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty: "::GlobalNamespace::Tracker_OVRAnchor_AsyncLock",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_results_5__3", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_Result>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__7__wrap3", ty: "::GlobalNamespace::OVRObjectPool_TaskScope_1<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
+  // ty: "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_Result>*>", modifiers: "", def_value: None, comment: None }]
   constexpr Tracker_OVRAnchor__ConfigureAsync_d__7(int32_t __1__state,
                                                    ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ConfigureTrackerResult>> __t__builder,
                                                    ::GlobalNamespace::OVRAnchor_Tracker* __4__this, ::GlobalNamespace::OVRAnchor_TrackerConfiguration configuration,
@@ -1824,6 +1854,7 @@ static_assert(offsetof(::GlobalNamespace::Tracker_OVRAnchor__ConfigureAsync_d__7
 static_assert(sizeof(::GlobalNamespace::Tracker_OVRAnchor__ConfigureAsync_d__7) == 0x78, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor::Tracker::AsyncLock, OVRTask`1::Awaiter<TResult>, System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 namespace GlobalNamespace {
 // Is value type: true
@@ -1837,6 +1868,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0bb24, size 0x31c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0be40, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1847,9 +1879,10 @@ public:
   // @brief default ctor
   constexpr Tracker_OVRAnchor__Dispose_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OVRAnchor_Tracker*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OVRAnchor_Tracker*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock>", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr Tracker_OVRAnchor__Dispose_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::OVRAnchor_Tracker* __4__this,
                                              ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::Tracker_OVRAnchor_AsyncLock> __u__1) noexcept;
 
@@ -1885,6 +1918,7 @@ static_assert(offsetof(::GlobalNamespace::Tracker_OVRAnchor__Dispose_d__10, __u_
 static_assert(sizeof(::GlobalNamespace::Tracker_OVRAnchor__Dispose_d__10) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor::TrackerConfiguration, OVRPlugin::Result, OVRResult`2<TValue, TStatus>, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -1898,6 +1932,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0be48, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0c1d4, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1908,10 +1943,11 @@ public:
   // @brief default ctor
   constexpr Tracker_OVRAnchor__SetupDynamicObjectTracker_d__5();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OVRAnchor_Tracker*", modifiers:
-  // "", def_value: None }, CppParam { name: "config", ty: "::GlobalNamespace::OVRAnchor_TrackerConfiguration", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<uint64_t,::GlobalNamespace::OVRPlugin_Result>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::OVRAnchor_Tracker*", modifiers: "", def_value: None, comment: None }, CppParam { name: "config", ty: "::GlobalNamespace::OVRAnchor_TrackerConfiguration", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<uint64_t,::GlobalNamespace::OVRPlugin_Result>>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr Tracker_OVRAnchor__SetupDynamicObjectTracker_d__5(int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRPlugin_Result> __t__builder,
                                                               ::GlobalNamespace::OVRAnchor_Tracker* __4__this, ::GlobalNamespace::OVRAnchor_TrackerConfiguration config,
                                                               ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<uint64_t, ::GlobalNamespace::OVRPlugin_Result>> __u__1) noexcept;
@@ -1984,10 +2020,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::Tracker::<ConfigureAsync>d__7))]
   /// @brief Method ConfigureAsync, addr 0x5e0a1a4, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_ConfigureTrackerResult>>
   ConfigureAsync(::GlobalNamespace::OVRAnchor_TrackerConfiguration configuration);
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::Tracker::<Dispose>d__10))]
   /// @brief Method Dispose, addr 0x5e0a4dc, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
@@ -2001,13 +2039,17 @@ public:
 
   static inline ::GlobalNamespace::OVRAnchor_Tracker* New_ctor();
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::Tracker::<SetupDynamicObjectTracker>d__5))]
   /// @brief Method SetupDynamicObjectTracker, addr 0x5e0a0d8, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> SetupDynamicObjectTracker(::GlobalNamespace::OVRAnchor_TrackerConfiguration config);
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::Tracker::<<SetupDynamicObjectTracker>g__CreateAndConfigureTrackerAsync|5_1>d))]
+  /// [CompilerGenerated]
   /// @brief Method <SetupDynamicObjectTracker>g__CreateAndConfigureTrackerAsync|5_1, addr 0x5e0a6e8, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<uint64_t, ::GlobalNamespace::OVRPlugin_Result>>
   _SetupDynamicObjectTracker_g__CreateAndConfigureTrackerAsync_5_1(uint64_t tracker, ::GlobalNamespace::OVRAnchor_TrackerConfiguration config);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetupDynamicObjectTracker>g__SetClassesAsync|5_0, addr 0x5e0a580, size 0x168, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRPlugin_Result>>
   _SetupDynamicObjectTracker_g__SetClassesAsync_5_0(uint64_t tracker, ::GlobalNamespace::OVRAnchor_TrackerConfiguration config);
@@ -2045,13 +2087,13 @@ protected:
   constexpr OVRAnchor_Tracker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Tracker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Tracker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRAnchor_Tracker(OVRAnchor_Tracker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Tracker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor_Tracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRAnchor_Tracker(OVRAnchor_Tracker const&) = delete;
+  OVRAnchor_Tracker(OVRAnchor_Trackerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7089 };
@@ -2077,7 +2119,8 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor_Tracker, ____dynamicObjectTr
 static_assert(sizeof(::GlobalNamespace::OVRAnchor_Tracker) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Guid
+// [IsReadOnly]
+// Dependencies IOVRAnchorComponent`1<T>, System.Guid
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRAnchor
@@ -2170,6 +2213,7 @@ public:
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_EraseResult>>
   EraseAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids);
 
+  /// [Obsolete]
   /// @brief Method EraseSpace, addr 0x5e084dc, size 0x158, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result EraseSpace(uint64_t space, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location, ::by_ref<uint64_t> requestId);
 
@@ -2186,30 +2230,38 @@ public:
   FetchAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::GlobalNamespace::OVRAnchor_FetchOptions options,
                     ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback);
 
+  /// [Obsolete("Use the overload of FetchAnchorsAsync that accepts a FetchOptions parameter")]
   /// @brief Method FetchAnchorsAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout);
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::<FetchAnchorsAsync>d__56))]
+  /// [Obsolete]
   /// @brief Method FetchAnchorsAsync, addr 0x5e081cc, size 0xf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::GlobalNamespace::OVRPlugin_SpaceComponentType type,
                                                                      ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout);
 
+  /// [Obsolete("Use the overload of FetchAnchorsAsync that accepts a FetchOptions parameter")]
   /// @brief Method FetchAnchorsAsync, addr 0x5e079ec, size 0xf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids,
                                                                      ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::GlobalNamespace::OVRSpace_StorageLocation location, double_t timeout);
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::<FetchSharedAnchorsAsync>d__10))]
   /// @brief Method FetchSharedAnchorsAsync, addr 0x5e03d88, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchSharedAnchorsAsync(::System::Guid groupUuid, ::System::Collections::Generic::IEnumerable_1<::System::Guid>* allowedAnchorUuids,
                           ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::<FetchSharedAnchorsAsync>d__9))]
   /// @brief Method FetchSharedAnchorsAsync, addr 0x5e03cb4, size 0xd4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchSharedAnchorsAsync(::System::Guid groupUuid, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::<FetchTrackablesAsync>d__66))]
   /// @brief Method FetchTrackablesAsync, addr 0x5e08b94, size 0xd4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchTrackablesAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors,
@@ -2217,7 +2269,9 @@ public:
                        ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback);
 
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetComponent();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T GetComponent();
 
   /// @brief Method GetHashCode, addr 0x5e06b4c, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
@@ -2233,6 +2287,7 @@ public:
   /// @brief Method GetTrackableType, addr 0x5e086a0, size 0x2d4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRAnchor_TrackableType GetTrackableType();
 
+  /// [RuntimeInitializeOnLoadMethod]
   /// @brief Method Init, addr 0x5e06cc0, size 0xac, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -2270,6 +2325,7 @@ public:
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRAnchor_SaveResult>>
   SaveAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor>* anchors);
 
+  /// [Obsolete]
   /// @brief Method SaveSpaceList, addr 0x5e082c0, size 0x1ac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result SaveSpaceList(uint64_t* spaces, uint32_t numSpaces, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location, ::by_ref<uint64_t> requestId);
 
@@ -2300,18 +2356,25 @@ public:
                                                                                                                                         ::System::ReadOnlySpan_1<uint64_t> users);
 
   /// @brief Method SupportsComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool SupportsComponent();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline bool SupportsComponent();
 
   /// @brief Method ToString, addr 0x5e06bc8, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method TryGetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetComponent(::by_ref<T> component);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline bool TryGetComponent(::by_ref<T> component);
 
+  /// [CompilerGenerated]
   /// @brief Method <FetchTrackablesAsync>g__DoesComponentMatchTrackableType|66_1, addr 0x5e091b8, size 0x120, virtual false, abstract: false, final false
   static inline bool _FetchTrackablesAsync_g__DoesComponentMatchTrackableType_66_1(::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
                                                                                    ::GlobalNamespace::OVRAnchor anchor, ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType);
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::<<FetchTrackablesAsync>g__QuerySingleComponentAsync|66_0>d))]
+  /// [CompilerGenerated]
   /// @brief Method <FetchTrackablesAsync>g__QuerySingleComponentAsync|66_0, addr 0x5e090d4, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRPlugin_Result> _FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0(
       ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
@@ -2327,9 +2390,11 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::OVRPlugin_SpaceComponentType>* getStaticF__typeMap();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handle, addr 0x5e06680, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Uuid, addr 0x5e06688, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_Uuid();
 
@@ -2356,8 +2421,8 @@ public:
   // @brief default ctor
   constexpr OVRAnchor();
 
-  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "_Uuid_k__BackingField", ty: "::System::Guid", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Uuid_k__BackingField", ty: "::System::Guid",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor(uint64_t _Handle_k__BackingField, ::System::Guid _Uuid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -2366,9 +2431,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
   uint64_t _Handle_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Uuid>k__BackingField, offset: 0x8, size: 0x10, def value: None
   ::System::Guid _Uuid_k__BackingField;
 
@@ -2382,6 +2449,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor, _Uuid_k__BackingField) == 0
 static_assert(sizeof(::GlobalNamespace::OVRAnchor) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor, OVRObjectPool::ListScope`1<T>, OVRPlugin::Result, OVRPlugin::SpaceComponentType, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -2395,6 +2463,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0c210, size 0x778, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0c988, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -2405,14 +2474,15 @@ public:
   // @brief default ctor
   constexpr OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }, CppParam { name: "componentType", ty:
-  // "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: None }, CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*",
-  // modifiers: "", def_value: None }, CppParam { name: "trackableTypes", ty: "::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*", modifiers: "", def_value: None
-  // }, CppParam { name: "incrementalResultsCallback", ty: "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: None },
-  // CppParam { name: "_anchorsWithComponent_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty:
-  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }, CppParam { name: "componentType", ty:
+  // "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: None, comment: None }, CppParam { name: "anchors", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "trackableTypes", ty:
+  // "::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "incrementalResultsCallback", ty:
+  // "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_anchorsWithComponent_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty:
+  // "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor___FetchTrackablesAsync_g__QuerySingleComponentAsync_66_0_d(
       int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRPlugin_Result> __t__builder, ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType,
       ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::OVRAnchor_TrackableType>* trackableTypes,
@@ -2490,6 +2560,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0ca80, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0cf20, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -2500,9 +2571,9 @@ public:
   // @brief default ctor
   constexpr __c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OVRAnchor___c__DisplayClass54_0*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OVRAnchor___c__DisplayClass54_0*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }]
   constexpr __c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d(int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder,
                                                                                ::GlobalNamespace::OVRAnchor___c__DisplayClass54_0* __4__this,
                                                                                ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result> __u__1) noexcept;
@@ -2539,6 +2610,7 @@ static_assert(offsetof(::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___Fetc
 static_assert(sizeof(::GlobalNamespace::__c__DisplayClass54_0_OVRAnchor___FetchAnchorsAsync_g__execute_0_d) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRSpace::StorageLocation, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -2562,6 +2634,7 @@ public:
 
   static inline ::GlobalNamespace::OVRAnchor___c__DisplayClass54_0* New_ctor();
 
+  /// [AsyncStateMachine(typeof(OVRAnchor::<>c__DisplayClass54_0::<<FetchAnchorsAsync>g__execute|0>d))]
   /// @brief Method <FetchAnchorsAsync>g__execute|0, addr 0x5e0c9c8, size 0xb8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> _FetchAnchorsAsync_g__execute_0();
 
@@ -2598,13 +2671,13 @@ protected:
   constexpr OVRAnchor___c__DisplayClass54_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor___c__DisplayClass54_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor___c__DisplayClass54_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRAnchor___c__DisplayClass54_0(OVRAnchor___c__DisplayClass54_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor___c__DisplayClass54_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRAnchor___c__DisplayClass54_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRAnchor___c__DisplayClass54_0(OVRAnchor___c__DisplayClass54_0 const&) = delete;
+  OVRAnchor___c__DisplayClass54_0(OVRAnchor___c__DisplayClass54_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7092 };
@@ -2635,6 +2708,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor___c__DisplayClass54_0, ___an
 static_assert(sizeof(::GlobalNamespace::OVRAnchor___c__DisplayClass54_0) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRPlugin::Result, OVRPlugin::SpaceComponentType, OVRSpace::StorageLocation, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -2648,6 +2722,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0cf5c, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0d308, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -2658,11 +2733,12 @@ public:
   // @brief default ctor
   constexpr OVRAnchor__FetchAnchorsAsync_d__56();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "",
-  // def_value: None }, CppParam { name: "type", ty: "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: None }, CppParam { name: "location", ty:
-  // "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: None }, CppParam { name: "maxResults", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timeout", ty:
-  // "double_t", modifiers: "", def_value: None }, CppParam { name: "anchors", ty: "::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam
-  // { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty: "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "location", ty: "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxResults", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "timeout", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "anchors", ty:
+  // "::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor__FetchAnchorsAsync_d__56(int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder, ::GlobalNamespace::OVRPlugin_SpaceComponentType type,
                                                ::GlobalNamespace::OVRSpace_StorageLocation location, int32_t maxResults, double_t timeout,
                                                ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRAnchor>* anchors,
@@ -2720,6 +2796,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56, __
 static_assert(sizeof(::GlobalNamespace::OVRAnchor__FetchAnchorsAsync_d__56) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor::FetchResult, OVRPlugin::Result, OVRResult`2<TValue, TStatus>, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>, System.Guid
 namespace GlobalNamespace {
 // Is value type: true
@@ -2733,6 +2810,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0d344, size 0x418, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0d75c, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -2743,12 +2821,12 @@ public:
   // @brief default ctor
   constexpr OVRAnchor__FetchSharedAnchorsAsync_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>", modifiers:
-  // "", def_value: None }, CppParam { name: "allowedAnchorUuids", ty: "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: None }, CppParam { name: "anchors",
-  // ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: None
-  // }, CppParam { name: "__7__wrap1", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }]
+  // "", def_value: None, comment: None }, CppParam { name: "allowedAnchorUuids", ty: "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "groupUuid", ty:
+  // "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor__FetchSharedAnchorsAsync_d__10(
       int32_t __1__state,
       ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> __t__builder,
@@ -2802,6 +2880,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__
 static_assert(sizeof(::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__10) == 0x60, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor::FetchResult, OVRPlugin::Result, OVRResult`2<TValue, TStatus>, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>, System.Guid
 namespace GlobalNamespace {
 // Is value type: true
@@ -2815,6 +2894,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0d798, size 0x3b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0db50, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -2825,11 +2905,12 @@ public:
   // @brief default ctor
   constexpr OVRAnchor__FetchSharedAnchorsAsync_d__9();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>", modifiers:
-  // "", def_value: None }, CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name: "groupUuid", ty:
-  // "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }]
+  // "", def_value: None, comment: None }, CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "groupUuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor__FetchSharedAnchorsAsync_d__9(
       int32_t __1__state,
       ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> __t__builder,
@@ -2878,6 +2959,7 @@ static_assert(offsetof(::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__
 static_assert(sizeof(::GlobalNamespace::OVRAnchor__FetchSharedAnchorsAsync_d__9) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor::FetchResult, OVRAnchor::TrackableType, OVRObjectPool::HashSetScope`1<T>, OVRObjectPool::TaskScope`1<T>, OVRPlugin::Result, OVRPlugin::SpaceComponentType, OVRResult`2<TValue,
 // TStatus>, OVRTaskBuilder`1<T>, OVRTask`1::Awaiter<TResult>
 namespace GlobalNamespace {
@@ -2892,6 +2974,7 @@ public:
   /// @brief Method MoveNext, addr 0x5e0db8c, size 0x9b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5e0e544, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -2902,15 +2985,15 @@ public:
   // @brief default ctor
   constexpr OVRAnchor__FetchTrackablesAsync_d__66();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,::GlobalNamespace::OVRAnchor_FetchResult>>", modifiers:
-  // "", def_value: None }, CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None }, CppParam { name:
-  // "trackableTypes", ty: "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>*", modifiers: "", def_value: None }, CppParam { name:
-  // "incrementalResultsCallback", ty: "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: None }, CppParam { name:
-  // "__7__wrap1", ty: "::GlobalNamespace::OVRObjectPool_HashSetScope_1<::GlobalNamespace::OVRAnchor_TrackableType>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty:
-  // "::GlobalNamespace::OVRObjectPool_HashSetScope_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty:
-  // "::GlobalNamespace::OVRObjectPool_TaskScope_1<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_Result>*>", modifiers: "", def_value: None }]
+  // "", def_value: None, comment: None }, CppParam { name: "anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "trackableTypes", ty: "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRAnchor_TrackableType>*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "incrementalResultsCallback", ty: "::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*,int32_t>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__7__wrap1", ty: "::GlobalNamespace::OVRObjectPool_HashSetScope_1<::GlobalNamespace::OVRAnchor_TrackableType>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__7__wrap2", ty: "::GlobalNamespace::OVRObjectPool_HashSetScope_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__7__wrap3", ty: "::GlobalNamespace::OVRObjectPool_TaskScope_1<::GlobalNamespace::OVRPlugin_Result>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_Result>*>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRAnchor__FetchTrackablesAsync_d__66(
       int32_t __1__state,
       ::GlobalNamespace::OVRTaskBuilder_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> __t__builder,

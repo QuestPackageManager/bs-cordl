@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\Screen.hpp"
+// IWYU pragma private; include "HMUI/Screen.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::HMUI::Screen*);
 MARK_REF_T(::HMUI::Screen__TransitionCoroutine_d__5*);
 DEFINE_IL2CPP_CLASS(::HMUI::Screen*, "HMUI", "Screen");
 DEFINE_IL2CPP_CLASS(::HMUI::Screen__TransitionCoroutine_d__5*, "HMUI", "Screen/<TransitionCoroutine>d__5");
+// [CompilerGenerated]
 // Dependencies HMUI.ViewController::AnimationType, System.Object
 namespace HMUI {
 // Is value type: false
@@ -90,17 +91,22 @@ public:
   /// @brief Method MoveNext, addr 0x32f58cc, size 0x568, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::Screen__TransitionCoroutine_d__5* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32f5ed0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32f5ed8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32f5f10, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32f58c8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -152,6 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_newRootViewController(::UnityW<::HMUI::ViewController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32f58b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -170,13 +177,13 @@ protected:
   constexpr Screen__TransitionCoroutine_d__5();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Screen__TransitionCoroutine_d__5", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Screen__TransitionCoroutine_d__5", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Screen__TransitionCoroutine_d__5(Screen__TransitionCoroutine_d__5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Screen__TransitionCoroutine_d__5", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Screen__TransitionCoroutine_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Screen__TransitionCoroutine_d__5(Screen__TransitionCoroutine_d__5 const&) = delete;
+  Screen__TransitionCoroutine_d__5(Screen__TransitionCoroutine_d__5const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20959 };
@@ -227,6 +234,7 @@ static_assert(offsetof(::HMUI::Screen__TransitionCoroutine_d__5, ____elapsedTime
 static_assert(sizeof(::HMUI::Screen__TransitionCoroutine_d__5) == 0x48, "Size mismatch!");
 
 } // namespace HMUI
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies HMUI.ScreenBase
 namespace HMUI {
 // Is value type: false
@@ -252,6 +260,7 @@ public:
   /// @brief Method SetRootViewController, addr 0x32f27a4, size 0xd4, virtual false, abstract: false, final false
   inline void SetRootViewController(::HMUI::ViewController* newRootViewController, ::HMUI::ViewController_AnimationType animationType);
 
+  /// [IteratorStateMachine(typeof(HMUI.Screen::<TransitionCoroutine>d__5))]
   /// @brief Method TransitionCoroutine, addr 0x32f5848, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* TransitionCoroutine(::HMUI::ViewController* newRootViewController, ::HMUI::ViewController_AnimationType animationType);
 
@@ -279,13 +288,13 @@ protected:
   constexpr Screen();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Screen", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Screen", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Screen(Screen&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Screen", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Screen", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Screen(Screen const&) = delete;
+  Screen(Screenconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20960 };

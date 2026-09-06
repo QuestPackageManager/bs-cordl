@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaComplexContent.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaComplexContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,10 +22,14 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaComplexContent : public ::System::Xml::Schema::XmlSchemaContentModel {
 public:
   // Declarations
+  /// [XmlElement("restriction", typeof(System.Xml.Schema.XmlSchemaComplexContentRestriction))]
+  /// @brief [XmlElement("extension", typeof(System.Xml.Schema.XmlSchemaComplexContentExtension))]
   __declspec(property(get = get_Content, put = set_Content)) ::System::Xml::Schema::XmlSchemaContent* Content;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_HasMixedAttribute)) bool HasMixedAttribute;
 
+  /// @brief [XmlAttribute("mixed")]
   __declspec(property(get = get_IsMixed, put = set_IsMixed)) bool IsMixed;
 
   /// @brief Field content, offset 0x50, size 0x8
@@ -81,13 +85,13 @@ protected:
   constexpr XmlSchemaComplexContent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaComplexContent(XmlSchemaComplexContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaComplexContent(XmlSchemaComplexContent const&) = delete;
+  XmlSchemaComplexContent(XmlSchemaComplexContentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9754 };

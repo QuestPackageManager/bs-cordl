@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NetManager.hpp"
+// IWYU pragma private; include "LiteNetLib/NetManager.hpp"
 #include "LiteNetLib/zzzz__NetPeer_impl.hpp"
 #include "System/Threading/zzzz__ThreadPriority_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -233,8 +233,8 @@ constexpr LiteNetLib::NetManager_NetPeerEnumerator::operator ::System::IDisposab
 constexpr ::System::IDisposable* LiteNetLib::NetManager_NetPeerEnumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_initialPeer", ty: "::LiteNetLib::NetPeer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_p", ty: "::LiteNetLib::NetPeer*", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_initialPeer", ty: "::LiteNetLib::NetPeer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_p", ty: "::LiteNetLib::NetPeer*",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::LiteNetLib::NetManager_NetPeerEnumerator::NetManager_NetPeerEnumerator(::LiteNetLib::NetPeer* _initialPeer, ::LiteNetLib::NetPeer* _p) noexcept {
   this->_initialPeer = _initialPeer;
   this->_p = _p;

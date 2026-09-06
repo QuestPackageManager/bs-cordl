@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\SignaturePolicyIdentifier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/SignaturePolicyIdentifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,13 +73,13 @@ protected:
   constexpr SignaturePolicyIdentifier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignaturePolicyIdentifier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignaturePolicyIdentifier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignaturePolicyIdentifier(SignaturePolicyIdentifier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignaturePolicyIdentifier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignaturePolicyIdentifier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignaturePolicyIdentifier(SignaturePolicyIdentifier const&) = delete;
+  SignaturePolicyIdentifier(SignaturePolicyIdentifierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 156 };

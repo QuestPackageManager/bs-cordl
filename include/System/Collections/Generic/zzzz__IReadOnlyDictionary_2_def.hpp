@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\IReadOnlyDictionary_2.hpp"
+// IWYU pragma private; include "System/Collections/Generic/IReadOnlyDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::Generic::IReadOnlyDictionary_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Generic::IReadOnlyDictionary_2, "System.Collections.Generic", "IReadOnlyDictionary`2");
+// [DefaultMember("Item")]
 // Dependencies
 namespace System::Collections::Generic {
 // cpp template
@@ -47,19 +48,19 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method ContainsKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ContainsKey(TKey key);
 
-  /// @brief Method TryGetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(TKey key, ::by_ref<TValue> value);
 
-  /// @brief Method get_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue get_Item(TKey key);
 
-  /// @brief Method get_Keys, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<TKey>* get_Keys();
 
-  /// @brief Method get_Values, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* get_Values();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
@@ -73,9 +74,9 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IReadOnlyDictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IReadOnlyDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IReadOnlyDictionary_2(IReadOnlyDictionary_2 const&) = delete;
+  IReadOnlyDictionary_2(IReadOnlyDictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3776 };

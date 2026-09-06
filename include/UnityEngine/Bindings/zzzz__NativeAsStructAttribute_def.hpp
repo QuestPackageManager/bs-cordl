@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\NativeAsStructAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/NativeAsStructAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class NativeAsStructAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativeAsStructAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativeAsStructAttribute*, "UnityEngine.Bindings", "NativeAsStructAttribute");
+// [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr NativeAsStructAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeAsStructAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeAsStructAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeAsStructAttribute(NativeAsStructAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeAsStructAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeAsStructAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeAsStructAttribute(NativeAsStructAttribute const&) = delete;
+  NativeAsStructAttribute(NativeAsStructAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23115 };

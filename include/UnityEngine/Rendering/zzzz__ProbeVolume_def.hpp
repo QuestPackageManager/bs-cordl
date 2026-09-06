@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolume.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolume.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,7 +64,7 @@ public:
   // @brief default ctor
   constexpr ProbeVolume_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolume_Mode(int32_t value__) noexcept;
 
   /// @brief Field Global value: I32(0)
@@ -124,7 +124,7 @@ public:
   // @brief default ctor
   constexpr ProbeVolume_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolume_Version(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(3)
@@ -156,6 +156,8 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolume_Version, value__) =
 static_assert(sizeof(::UnityEngine::Rendering::ProbeVolume_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [ExecuteAlways]
+// [AddComponentMenu("Rendering/Adaptive Probe Volume")]
 // Dependencies UnityEngine.LayerMask, UnityEngine.Matrix4x4, UnityEngine.MonoBehaviour, UnityEngine.Rendering.ProbeVolume::Mode, UnityEngine.Rendering.ProbeVolume::Version, UnityEngine.Vector3
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -307,56 +309,73 @@ protected:
   constexpr ProbeVolume();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolume", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolume", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolume(ProbeVolume&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolume", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolume(ProbeVolume const&) = delete;
+  ProbeVolume(ProbeVolumeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12126 };
 
+  /// [Tooltip("When set to Global this Probe Volume considers all renderers with Contribute Global Illumination enabled. Local only considers renderers in the scene.\nThis list updates every time the
+  /// Scene is saved or the lighting is baked.")]
   /// @brief Field mode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeVolume_Mode ___mode;
 
   /// @brief Field size, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___size;
 
+  /// [HideInInspector]
+  /// [Min(0)]
   /// @brief Field overrideRendererFilters, offset: 0x30, size: 0x1, def value: None
   bool ___overrideRendererFilters;
 
+  /// [HideInInspector]
+  /// [Min(0)]
   /// @brief Field minRendererVolumeSize, offset: 0x34, size: 0x4, def value: None
   float_t ___minRendererVolumeSize;
 
   /// @brief Field objectLayerMask, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___objectLayerMask;
 
+  /// [HideInInspector]
   /// @brief Field lowestSubdivLevelOverride, offset: 0x3c, size: 0x4, def value: None
   int32_t ___lowestSubdivLevelOverride;
 
+  /// [HideInInspector]
   /// @brief Field highestSubdivLevelOverride, offset: 0x40, size: 0x4, def value: None
   int32_t ___highestSubdivLevelOverride;
 
+  /// [HideInInspector]
   /// @brief Field overridesSubdivLevels, offset: 0x44, size: 0x1, def value: None
   bool ___overridesSubdivLevels;
 
+  /// [SerializeField]
   /// @brief Field mightNeedRebaking, offset: 0x45, size: 0x1, def value: None
   bool ___mightNeedRebaking;
 
+  /// [SerializeField]
   /// @brief Field cachedTransform, offset: 0x48, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ___cachedTransform;
 
+  /// [SerializeField]
   /// @brief Field cachedHashCode, offset: 0x88, size: 0x4, def value: None
   int32_t ___cachedHashCode;
 
+  /// [HideInInspector]
+  /// [Tooltip("Whether Unity should fill empty space between renderers with bricks at the highest subdivision level.")]
   /// @brief Field fillEmptySpaces, offset: 0x8c, size: 0x1, def value: None
   bool ___fillEmptySpaces;
 
+  /// [SerializeField]
   /// @brief Field version, offset: 0x90, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeVolume_Version ___version;
 
+  /// [SerializeField]
+  /// [Obsolete("Use mode instead")]
   /// @brief Field globalVolume, offset: 0x94, size: 0x1, def value: None
   bool ___globalVolume;
 

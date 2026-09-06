@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Enumerable.hpp"
+// IWYU pragma private; include "System/Linq/Enumerable.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/Linq/zzzz__Buffer_1_impl.hpp"
 #include "System/Linq/zzzz__Enumerable_impl.hpp"
@@ -953,6 +953,7 @@ inline ::System::Collections::IEnumerator* System::Linq::Enumerable__SelectManyI
                    (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource, TResult>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource, typename TResult>
 inline ::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource, TResult>* System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource, TResult>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource, TResult>*>(__1__state));
@@ -1149,6 +1150,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__TakeIterator_d__25_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource> inline ::System::Linq::Enumerable__TakeIterator_d__25_1<TSource>* System::Linq::Enumerable__TakeIterator_d__25_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__TakeIterator_d__25_1<TSource>*>(__1__state));
 }
@@ -1338,6 +1340,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__SkipIterator_d__31_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource> inline ::System::Linq::Enumerable__SkipIterator_d__31_1<TSource>* System::Linq::Enumerable__SkipIterator_d__31_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__SkipIterator_d__31_1<TSource>*>(__1__state));
 }
@@ -1536,6 +1539,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__ConcatIterator_d__59_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource> inline ::System::Linq::Enumerable__ConcatIterator_d__59_1<TSource>* System::Linq::Enumerable__ConcatIterator_d__59_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__ConcatIterator_d__59_1<TSource>*>(__1__state));
 }
@@ -1728,6 +1732,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__AppendIterator_d__61_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource> inline ::System::Linq::Enumerable__AppendIterator_d__61_1<TSource>* System::Linq::Enumerable__AppendIterator_d__61_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__AppendIterator_d__61_1<TSource>*>(__1__state));
 }
@@ -1993,6 +1998,7 @@ inline ::System::Collections::IEnumerator* System::Linq::Enumerable__ZipIterator
                    (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__ZipIterator_d__65_3<TFirst, TSecond, TResult>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TFirst, typename TSecond, typename TResult>
 inline ::System::Linq::Enumerable__ZipIterator_d__65_3<TFirst, TSecond, TResult>* System::Linq::Enumerable__ZipIterator_d__65_3<TFirst, TSecond, TResult>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__ZipIterator_d__65_3<TFirst, TSecond, TResult>*>(__1__state));
@@ -2211,6 +2217,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource> inline ::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>* System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__DistinctIterator_d__68_1<TSource>*>(__1__state));
 }
@@ -2445,6 +2452,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource> inline ::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>* System::Linq::Enumerable__UnionIterator_d__71_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__UnionIterator_d__71_1<TSource>*>(__1__state));
 }
@@ -2681,6 +2689,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__IntersectIterator_d__74_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource> inline ::System::Linq::Enumerable__IntersectIterator_d__74_1<TSource>* System::Linq::Enumerable__IntersectIterator_d__74_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__IntersectIterator_d__74_1<TSource>*>(__1__state));
 }
@@ -2914,6 +2923,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__ExceptIterator_d__77_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource> inline ::System::Linq::Enumerable__ExceptIterator_d__77_1<TSource>* System::Linq::Enumerable__ExceptIterator_d__77_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__ExceptIterator_d__77_1<TSource>*>(__1__state));
 }
@@ -3088,6 +3098,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource> inline ::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>* System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>*>(__1__state));
 }
@@ -3283,6 +3294,7 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__DefaultIfEmptyIterator_d__95_1<TSource>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TSource>
 inline ::System::Linq::Enumerable__DefaultIfEmptyIterator_d__95_1<TSource>* System::Linq::Enumerable__DefaultIfEmptyIterator_d__95_1<TSource>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__DefaultIfEmptyIterator_d__95_1<TSource>*>(__1__state));
@@ -3452,6 +3464,7 @@ template <typename TResult> inline ::System::Collections::IEnumerator* System::L
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TResult> inline ::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>* System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__OfTypeIterator_d__97_1<TResult>*>(__1__state));
 }
@@ -3617,6 +3630,7 @@ template <typename TResult> inline ::System::Collections::IEnumerator* System::L
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TResult> inline ::System::Linq::Enumerable__CastIterator_d__99_1<TResult>* System::Linq::Enumerable__CastIterator_d__99_1<TResult>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__CastIterator_d__99_1<TResult>*>(__1__state));
 }
@@ -3908,6 +3922,7 @@ inline ::System::Collections::IEnumerator* System::Linq::Enumerable__RangeIterat
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::System::Linq::Enumerable__RangeIterator_d__115* System::Linq::Enumerable__RangeIterator_d__115::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Enumerable__RangeIterator_d__115*>(__1__state));
 }

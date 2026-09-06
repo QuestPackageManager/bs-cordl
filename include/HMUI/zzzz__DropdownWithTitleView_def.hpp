@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\DropdownWithTitleView.hpp"
+// IWYU pragma private; include "HMUI/DropdownWithTitleView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,20 +57,22 @@ protected:
   constexpr DropdownWithTitleView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTitleView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTitleView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownWithTitleView(DropdownWithTitleView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTitleView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownWithTitleView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownWithTitleView(DropdownWithTitleView const&) = delete;
+  DropdownWithTitleView(DropdownWithTitleViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19083 };
 
+  /// [SerializeField]
   /// @brief Field _rectTransform, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
+  /// [SerializeField]
   /// @brief Field _titleRectTransform, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____titleRectTransform;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataCache.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapDataCache*);
 MARK_VAL_T(::GlobalNamespace::BeatmapDataCache_CacheKey);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataCache*, "", "BeatmapDataCache");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataCache_CacheKey, "", "BeatmapDataCache/CacheKey");
+// [IsReadOnly]
 // Dependencies BeatmapKey, BeatmapLevelDataVersion, EnvironmentEffectsFilterPreset
 namespace GlobalNamespace {
 // Is value type: true
@@ -62,6 +63,7 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapDataCache_CacheKey>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapDataCache_CacheKey>*();
 
+  /// [NullableContext(2)]
   /// @brief Method Equals, addr 0x3711208, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
@@ -71,9 +73,11 @@ public:
   /// @brief Method GetHashCode, addr 0x371129c, size 0x18c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x37111bc, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, bool screenDisplacementEffects);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, /* [Nullable(2)] */ ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
+                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+                    ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, bool screenDisplacementEffects);
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapDataCache_CacheKey>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapDataCache_CacheKey>* i___System__IEquatable_1___GlobalNamespace__BeatmapDataCache_CacheKey_();
@@ -82,11 +86,11 @@ public:
   // @brief default ctor
   constexpr BeatmapDataCache_CacheKey();
 
-  // Ctor Parameters [CppParam { name: "_beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "_environmentInfo", ty:
-  // "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: None }, CppParam { name: "_gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None },
-  // CppParam { name: "_leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_effectsFilterPreset", ty: "::GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "",
-  // def_value: None }, CppParam { name: "_screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_beatmapLevelDataVersion", ty:
-  // "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "_environmentInfo", ty:
+  // "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_leftHanded", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_effectsFilterPreset", ty:
+  // "::GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None, comment: None }, CppParam { name: "_screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_beatmapLevelDataVersion", ty: "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapDataCache_CacheKey(::GlobalNamespace::BeatmapKey _beatmapKey, ::GlobalNamespace::IEnvironmentInfo* _environmentInfo, ::GlobalNamespace::GameplayModifiers* _gameplayModifiers,
                                       bool _leftHanded, ::GlobalNamespace::EnvironmentEffectsFilterPreset _effectsFilterPreset, bool _screenDisplacementEffects,
                                       ::GlobalNamespace::BeatmapLevelDataVersion _beatmapLevelDataVersion) noexcept;
@@ -100,9 +104,11 @@ public:
   /// @brief Field _beatmapKey, offset: 0x0, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey _beatmapKey;
 
+  /// [Nullable(2)]
   /// @brief Field _environmentInfo, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IEnvironmentInfo* _environmentInfo;
 
+  /// [Nullable(1)]
   /// @brief Field _gameplayModifiers, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
@@ -155,10 +161,11 @@ public:
                       put = __cordl_internal_set_transformedBeatmapDataTask)) ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask;
 
   /// @brief Method AreSameBeatmapDataCached, addr 0x37110c4, size 0x34, virtual false, abstract: false, final false
-  inline bool AreSameBeatmapDataCached(::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key);
+  inline bool AreSameBeatmapDataCached(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key);
 
-  static inline ::GlobalNamespace::BeatmapDataCache* New_ctor(::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
-                                                              ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask);
+  static inline ::GlobalNamespace::BeatmapDataCache*
+  New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
+           /* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask);
 
   constexpr ::GlobalNamespace::BeatmapDataCache_CacheKey const& __cordl_internal_get__key() const;
 
@@ -173,7 +180,8 @@ public:
   constexpr void __cordl_internal_set_transformedBeatmapDataTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* value);
 
   /// @brief Method .ctor, addr 0x37110a8, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key, ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
+                    /* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask);
 
 protected:
   // Ctor Parameters []
@@ -181,17 +189,18 @@ protected:
   constexpr BeatmapDataCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataCache(BeatmapDataCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataCache(BeatmapDataCache const&) = delete;
+  BeatmapDataCache(BeatmapDataCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14890 };
 
+  /// [Nullable(new[] { 1, 2 })]
   /// @brief Field transformedBeatmapDataTask, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* ___transformedBeatmapDataTask;
 

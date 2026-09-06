@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\ClassDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/ClassDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,8 +130,8 @@ public:
   // @brief default ctor
   constexpr ClassDataContractCriticalHelper_ClassDataContract_Member();
 
-  // Ctor Parameters [CppParam { name: "member", ty: "::System::Runtime::Serialization::DataMember*", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "baseTypeIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "member", ty: "::System::Runtime::Serialization::DataMember*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ns", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "baseTypeIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ClassDataContractCriticalHelper_ClassDataContract_Member(::System::Runtime::Serialization::DataMember* member, ::StringW ns, int32_t baseTypeIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -198,13 +198,13 @@ protected:
   constexpr ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer(ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer(ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer const&) = delete;
+  ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparer(ClassDataContractCriticalHelper_ClassDataContract_DataMemberConflictComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17002 };
@@ -582,13 +582,13 @@ protected:
   constexpr ClassDataContract_ClassDataContractCriticalHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract_ClassDataContractCriticalHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract_ClassDataContractCriticalHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClassDataContract_ClassDataContractCriticalHelper(ClassDataContract_ClassDataContractCriticalHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract_ClassDataContractCriticalHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract_ClassDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClassDataContract_ClassDataContractCriticalHelper(ClassDataContract_ClassDataContractCriticalHelper const&) = delete;
+  ClassDataContract_ClassDataContractCriticalHelper(ClassDataContract_ClassDataContractCriticalHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17003 };
@@ -739,13 +739,13 @@ protected:
   constexpr ClassDataContract_DataMemberComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract_DataMemberComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract_DataMemberComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClassDataContract_DataMemberComparer(ClassDataContract_DataMemberComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract_DataMemberComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract_DataMemberComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClassDataContract_DataMemberComparer(ClassDataContract_DataMemberComparer const&) = delete;
+  ClassDataContract_DataMemberComparer(ClassDataContract_DataMemberComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17004 };
@@ -955,13 +955,13 @@ protected:
   constexpr ClassDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClassDataContract(ClassDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClassDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClassDataContract(ClassDataContract const&) = delete;
+  ClassDataContract(ClassDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17005 };

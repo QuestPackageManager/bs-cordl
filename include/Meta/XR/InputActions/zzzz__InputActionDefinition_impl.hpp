@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\InputActions\InputActionDefinition.hpp"
+// IWYU pragma private; include "Meta/XR/InputActions/InputActionDefinition.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/InputActions/zzzz__InputActionDefinition_def.hpp"

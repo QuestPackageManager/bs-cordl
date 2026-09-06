@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\IntVec4.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/IntVec4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,7 @@ public:
   // @brief default ctor
   constexpr IntVec4();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr IntVec4(::UnityEngine::Vector4 value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

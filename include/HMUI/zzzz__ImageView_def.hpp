@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ImageView.hpp"
+// IWYU pragma private; include "HMUI/ImageView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +87,7 @@ public:
   // @brief default ctor
   constexpr ImageView_GradientDirection();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ImageView_GradientDirection(int32_t value__) noexcept;
 
   /// @brief Field Horizontal value: I32(0)
@@ -113,6 +113,8 @@ static_assert(offsetof(::HMUI::ImageView_GradientDirection, value__) == 0x0, "Of
 static_assert(sizeof(::HMUI::ImageView_GradientDirection) == 0x4, "Size mismatch!");
 
 } // namespace HMUI
+// [DisallowMultipleComponent]
+// [ExecuteAlways]
 // Dependencies HMUI.ImageView::GradientDirection, HMUI.ImageViewBase, UnityEngine.Color, UnityEngine.Vector2, UnityEngine.Vector3, UnityEngine.Vector4
 namespace HMUI {
 // Is value type: false
@@ -404,44 +406,57 @@ protected:
   constexpr ImageView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImageView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImageView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImageView(ImageView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImageView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImageView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImageView(ImageView const&) = delete;
+  ImageView(ImageViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20990 };
 
+  /// [SerializeField]
   /// @brief Field _useScriptableObjectColors, offset: 0x110, size: 0x1, def value: None
   bool ____useScriptableObjectColors;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _colorSo, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____colorSo;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _color0So, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color0So;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _color1So, offset: 0x128, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color1So;
 
+  /// [SerializeField]
   /// @brief Field _skew, offset: 0x130, size: 0x4, def value: None
   float_t ____skew;
 
+  /// [SerializeField]
   /// @brief Field _gradient, offset: 0x134, size: 0x1, def value: None
   bool ____gradient;
 
+  /// [SerializeField]
   /// @brief Field _color0, offset: 0x138, size: 0x10, def value: None
   ::UnityEngine::Color ____color0;
 
+  /// [SerializeField]
   /// @brief Field _color1, offset: 0x148, size: 0x10, def value: None
   ::UnityEngine::Color ____color1;
 
+  /// [SerializeField]
   /// @brief Field _gradientDirection, offset: 0x158, size: 0x4, def value: None
   ::HMUI::ImageView_GradientDirection ____gradientDirection;
 
+  /// [SerializeField]
   /// @brief Field _flipGradientColors, offset: 0x15c, size: 0x1, def value: None
   bool ____flipGradientColors;
 

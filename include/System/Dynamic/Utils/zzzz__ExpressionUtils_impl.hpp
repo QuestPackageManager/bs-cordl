@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\Utils\ExpressionUtils.hpp"
+// IWYU pragma private; include "System/Dynamic/Utils/ExpressionUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Dynamic/Utils/zzzz__ExpressionUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
@@ -150,7 +150,9 @@ inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* System::Dyna
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*>(nullptr, ___internal_method, collection);
 }
-template <typename T> inline T System::Dynamic::Utils::ExpressionUtils::ReturnObject(::System::Object* collectionOrT) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Dynamic::Utils::ExpressionUtils::ReturnObject(::System::Object* collectionOrT) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::Utils::ExpressionUtils*>(), { "ReturnObject", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -219,6 +221,7 @@ inline ::ArrayW<::System::Reflection::ParameterInfo*> System::Dynamic::Utils::Ex
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::ParameterInfo*>>(nullptr, ___internal_method, method, nodeKind);
 }
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 inline bool System::Dynamic::Utils::ExpressionUtils::SameElements(::by_ref<::System::Collections::Generic::IEnumerable_1<T>*> replacement,
                                                                   ::System::Collections::Generic::IReadOnlyList_1<T>* current) {
   static auto* ___internal_method_base =
@@ -231,6 +234,7 @@ inline bool System::Dynamic::Utils::ExpressionUtils::SameElements(::by_ref<::Sys
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, replacement, current);
 }
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 inline bool System::Dynamic::Utils::ExpressionUtils::SameElementsInCollection(::System::Collections::Generic::ICollection_1<T>* replacement,
                                                                               ::System::Collections::Generic::IReadOnlyList_1<T>* current) {
   static auto* ___internal_method_base = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifierMaskExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierMaskExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class GameplayModifierMaskExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::GameplayModifierMaskExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayModifierMaskExtensions*, "", "GameplayModifierMaskExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -27,21 +28,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameplayModifierMaskExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Contains, addr 0x377cb78, size 0x10, virtual false, abstract: false, final false
   static inline bool Contains(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
 
+  /// [Extension]
   /// @brief Method DifferenceFrom, addr 0x377cb88, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t DifferenceFrom(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
 
+  /// [Extension]
   /// @brief Method ToGameplayModifierMask, addr 0x377cc0c, size 0xb4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifierMask ToGameplayModifierMask(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
+  /// [Extension]
   /// @brief Method ToHexString, addr 0x377cba4, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW ToHexString(::GlobalNamespace::GameplayModifierMask mask);
 
+  /// [Extension]
   /// @brief Method ToMask, addr 0x377cc08, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifierMask ToMask(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
+  /// [Extension]
   /// @brief Method ToModifiers, addr 0x377ccc0, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifiers* ToModifiers(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
@@ -51,13 +58,13 @@ protected:
   constexpr GameplayModifierMaskExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierMaskExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierMaskExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifierMaskExtensions(GameplayModifierMaskExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierMaskExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierMaskExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifierMaskExtensions(GameplayModifierMaskExtensions const&) = delete;
+  GameplayModifierMaskExtensions(GameplayModifierMaskExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21170 };

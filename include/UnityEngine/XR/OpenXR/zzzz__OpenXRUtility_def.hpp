@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRUtility.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,13 @@ protected:
   constexpr OpenXRUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRUtility(OpenXRUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRUtility(OpenXRUtility const&) = delete;
+  OpenXRUtility(OpenXRUtilityconst&) = delete;
 
   /// @brief Field LibraryName offset 0xffffffff size 0x8
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ClampedIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ClampedIntParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class ClampedIntParameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ClampedIntParameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ClampedIntParameter*, "UnityEngine.Rendering", "ClampedIntParameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.IntParameter
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -57,13 +58,13 @@ protected:
   constexpr ClampedIntParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClampedIntParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClampedIntParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClampedIntParameter(ClampedIntParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClampedIntParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClampedIntParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClampedIntParameter(ClampedIntParameter const&) = delete;
+  ClampedIntParameter(ClampedIntParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12343 };

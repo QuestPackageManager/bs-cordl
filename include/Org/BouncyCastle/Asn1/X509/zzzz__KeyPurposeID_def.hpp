@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\KeyPurposeID.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/KeyPurposeID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,13 +115,13 @@ protected:
   constexpr KeyPurposeID();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyPurposeID", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyPurposeID", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyPurposeID(KeyPurposeID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyPurposeID", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyPurposeID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyPurposeID(KeyPurposeID const&) = delete;
+  KeyPurposeID(KeyPurposeIDconst&) = delete;
 
   /// @brief Field IdKP offset 0xffffffff size 0x8
   static constexpr ::ConstString IdKP{ u"1.3.6.1.5.5.7.3" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedList.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FixedList;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::FixedList);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::FixedList, "Unity.Collections", "FixedList");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -21,17 +22,34 @@ namespace Unity::Collections {
 struct CORDL_TYPE FixedList {
 public:
   // Declarations
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename BUFFER, typename T> static inline int32_t Capacity();
+  template <typename BUFFER, typename T>
+    requires(::cordl_internals::value_type_constraint<BUFFER> && ::cordl_internals::default_constructor_constraint<BUFFER> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t Capacity();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename BUFFER, typename T> static inline void CheckResize(int32_t newLength);
+  template <typename BUFFER, typename T>
+    requires(::cordl_internals::value_type_constraint<BUFFER> && ::cordl_internals::default_constructor_constraint<BUFFER> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline void CheckResize(int32_t newLength);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method PaddingBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t PaddingBytes();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t PaddingBytes();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method StorageBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename BUFFER, typename T> static inline int32_t StorageBytes();
+  template <typename BUFFER, typename T>
+    requires(::cordl_internals::value_type_constraint<BUFFER> && ::cordl_internals::default_constructor_constraint<BUFFER> && ::cordl_internals::value_type_constraint<T> &&
+             ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t StorageBytes();
 
   // Ctor Parameters []
   // @brief default ctor

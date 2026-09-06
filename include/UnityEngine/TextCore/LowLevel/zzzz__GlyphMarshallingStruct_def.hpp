@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphMarshallingStruct.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphMarshallingStruct.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct GlyphMarshallingStruct;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.TextCore.GlyphClassDefinitionType, UnityEngine.TextCore.GlyphMetrics, UnityEngine.TextCore.GlyphRect
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -28,10 +29,10 @@ public:
   // @brief default ctor
   constexpr GlyphMarshallingStruct();
 
-  // Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "::UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value:
-  // None }, CppParam { name: "glyphRect", ty: "::UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "classDefinitionType", ty: "::UnityEngine::TextCore::GlyphClassDefinitionType", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "metrics", ty: "::UnityEngine::TextCore::GlyphMetrics", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "glyphRect", ty: "::UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "classDefinitionType", ty:
+  // "::UnityEngine::TextCore::GlyphClassDefinitionType", modifiers: "", def_value: None, comment: None }]
   constexpr GlyphMarshallingStruct(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex,
                                    ::UnityEngine::TextCore::GlyphClassDefinitionType classDefinitionType) noexcept;
 

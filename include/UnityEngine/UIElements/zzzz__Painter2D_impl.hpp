@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Painter2D.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Painter2D.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
@@ -16,8 +16,8 @@
 #include "UnityEngine/UIElements/UIR/zzzz__DetachedAllocator_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__MeshGenerationCallback_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Painter2D_def.hpp"
-// Ctor Parameters [CppParam { name: "node", ty: "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: Some("{}") }, CppParam { name: "snapshotIndex", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "node", ty: "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "snapshotIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Painter2D_Painter2DJobData::Painter2D_Painter2DJobData(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, int32_t snapshotIndex) noexcept {
   this->node = node;
   this->snapshotIndex = snapshotIndex;
@@ -50,9 +50,9 @@ constexpr UnityEngine::UIElements::Painter2D_Painter2DJob::operator ::Unity::Job
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::UIElements::Painter2D_Painter2DJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "painterHandle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "allocator", ty: "::UnityEngine::UIElements::TempMeshAllocator",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "jobParameters", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "painterHandle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "allocator", ty:
+// "::UnityEngine::UIElements::TempMeshAllocator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "jobParameters", ty:
+// "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Painter2D_Painter2DJob::Painter2D_Painter2DJob(::System::IntPtr painterHandle, ::UnityEngine::UIElements::TempMeshAllocator allocator,
                                                                                     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData> jobParameters) noexcept {
   this->painterHandle = painterHandle;

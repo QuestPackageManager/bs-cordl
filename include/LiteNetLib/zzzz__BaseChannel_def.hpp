@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\BaseChannel.hpp"
+// IWYU pragma private; include "LiteNetLib/BaseChannel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +45,10 @@ public:
 
   static inline ::LiteNetLib::BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method ProcessPacket, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendNextPackets();
 
   constexpr ::LiteNetLib::BaseChannel* const& __cordl_internal_get_Next() const;
@@ -81,13 +81,13 @@ protected:
   constexpr BaseChannel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseChannel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseChannel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseChannel(BaseChannel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseChannel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseChannel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseChannel(BaseChannel const&) = delete;
+  BaseChannel(BaseChannelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20025 };

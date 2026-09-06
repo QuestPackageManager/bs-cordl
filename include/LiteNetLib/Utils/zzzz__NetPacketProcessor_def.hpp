@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NetPacketProcessor.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NetPacketProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -21,28 +22,44 @@ namespace LiteNetLib::Utils {
 class NetPacketProcessor_SubscribeDelegate;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class NetPacketProcessor___c__DisplayClass25_0_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass25_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass26_0_2;
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass26_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class NetPacketProcessor___c__DisplayClass27_0_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass27_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass28_0_2;
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass28_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass29_0_2;
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+class NetPacketProcessor___c__DisplayClass29_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class NetPacketProcessor___c__DisplayClass30_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+class NetPacketProcessor___c__DisplayClass30_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass31_0_2;
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass31_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class NetPacketProcessor___c__DisplayClass32_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass32_0_1;
 }
 namespace LiteNetLib::Utils {
 class NetSerializer;
@@ -94,28 +111,44 @@ namespace LiteNetLib::Utils {
 class NetPacketProcessor_SubscribeDelegate;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class NetPacketProcessor___c__DisplayClass25_0_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass25_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass26_0_2;
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass26_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class NetPacketProcessor___c__DisplayClass27_0_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass27_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass28_0_2;
+template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass28_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass29_0_2;
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+class NetPacketProcessor___c__DisplayClass29_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class NetPacketProcessor___c__DisplayClass30_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+class NetPacketProcessor___c__DisplayClass30_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass31_0_2;
+template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass31_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class NetPacketProcessor___c__DisplayClass32_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+class NetPacketProcessor___c__DisplayClass32_0_1;
 }
 // Write type traits
 MARK_REF_T(::LiteNetLib::Utils::NetPacketProcessor*);
@@ -169,13 +202,13 @@ protected:
   constexpr NetPacketProcessor_HashCache_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_HashCache_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_HashCache_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor_HashCache_1(NetPacketProcessor_HashCache_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_HashCache_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_HashCache_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor_HashCache_1(NetPacketProcessor_HashCache_1 const&) = delete;
+  NetPacketProcessor_HashCache_1(NetPacketProcessor_HashCache_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20095 };
@@ -211,13 +244,13 @@ protected:
   constexpr NetPacketProcessor_SubscribeDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_SubscribeDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_SubscribeDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor_SubscribeDelegate(NetPacketProcessor_SubscribeDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_SubscribeDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_SubscribeDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor_SubscribeDelegate(NetPacketProcessor_SubscribeDelegate const&) = delete;
+  NetPacketProcessor_SubscribeDelegate(NetPacketProcessor_SubscribeDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20096 };
@@ -228,10 +261,12 @@ public:
 static_assert(sizeof(::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate) == 0x80, "Size mismatch!");
 
 } // namespace LiteNetLib::Utils
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass25_0`1<T>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass25_0_1 : public ::System::Object {
@@ -278,13 +313,13 @@ protected:
   constexpr NetPacketProcessor___c__DisplayClass25_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass25_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass25_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor___c__DisplayClass25_0_1(NetPacketProcessor___c__DisplayClass25_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass25_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass25_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass25_0_1(NetPacketProcessor___c__DisplayClass25_0_1 const&) = delete;
+  NetPacketProcessor___c__DisplayClass25_0_1(NetPacketProcessor___c__DisplayClass25_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20097 };
@@ -302,10 +337,12 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass26_0`2<T,TUserData>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass26_0_2 : public ::System::Object {
@@ -352,13 +389,13 @@ protected:
   constexpr NetPacketProcessor___c__DisplayClass26_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass26_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass26_0_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor___c__DisplayClass26_0_2(NetPacketProcessor___c__DisplayClass26_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass26_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass26_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass26_0_2(NetPacketProcessor___c__DisplayClass26_0_2 const&) = delete;
+  NetPacketProcessor___c__DisplayClass26_0_2(NetPacketProcessor___c__DisplayClass26_0_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20098 };
@@ -376,10 +413,12 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass27_0`1<T>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass27_0_1 : public ::System::Object {
@@ -426,13 +465,13 @@ protected:
   constexpr NetPacketProcessor___c__DisplayClass27_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass27_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass27_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor___c__DisplayClass27_0_1(NetPacketProcessor___c__DisplayClass27_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass27_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass27_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass27_0_1(NetPacketProcessor___c__DisplayClass27_0_1 const&) = delete;
+  NetPacketProcessor___c__DisplayClass27_0_1(NetPacketProcessor___c__DisplayClass27_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20099 };
@@ -450,10 +489,12 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass28_0`2<T,TUserData>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass28_0_2 : public ::System::Object {
@@ -500,13 +541,13 @@ protected:
   constexpr NetPacketProcessor___c__DisplayClass28_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass28_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass28_0_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor___c__DisplayClass28_0_2(NetPacketProcessor___c__DisplayClass28_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass28_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass28_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass28_0_2(NetPacketProcessor___c__DisplayClass28_0_2 const&) = delete;
+  NetPacketProcessor___c__DisplayClass28_0_2(NetPacketProcessor___c__DisplayClass28_0_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20100 };
@@ -524,10 +565,12 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass29_0`2<T,TUserData>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass29_0_2 : public ::System::Object {
@@ -565,13 +608,13 @@ protected:
   constexpr NetPacketProcessor___c__DisplayClass29_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass29_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass29_0_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor___c__DisplayClass29_0_2(NetPacketProcessor___c__DisplayClass29_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass29_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass29_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass29_0_2(NetPacketProcessor___c__DisplayClass29_0_2 const&) = delete;
+  NetPacketProcessor___c__DisplayClass29_0_2(NetPacketProcessor___c__DisplayClass29_0_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20101 };
@@ -586,10 +629,12 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass30_0`1<T>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass30_0_1 : public ::System::Object {
@@ -627,13 +672,13 @@ protected:
   constexpr NetPacketProcessor___c__DisplayClass30_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass30_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass30_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor___c__DisplayClass30_0_1(NetPacketProcessor___c__DisplayClass30_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass30_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass30_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass30_0_1(NetPacketProcessor___c__DisplayClass30_0_1 const&) = delete;
+  NetPacketProcessor___c__DisplayClass30_0_1(NetPacketProcessor___c__DisplayClass30_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20102 };
@@ -648,10 +693,12 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass31_0`2<T,TUserData>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass31_0_2 : public ::System::Object {
@@ -689,13 +736,13 @@ protected:
   constexpr NetPacketProcessor___c__DisplayClass31_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass31_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass31_0_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor___c__DisplayClass31_0_2(NetPacketProcessor___c__DisplayClass31_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass31_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass31_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass31_0_2(NetPacketProcessor___c__DisplayClass31_0_2 const&) = delete;
+  NetPacketProcessor___c__DisplayClass31_0_2(NetPacketProcessor___c__DisplayClass31_0_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20103 };
@@ -710,10 +757,12 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass32_0`1<T>
 class CORDL_TYPE NetPacketProcessor___c__DisplayClass32_0_1 : public ::System::Object {
@@ -751,13 +800,13 @@ protected:
   constexpr NetPacketProcessor___c__DisplayClass32_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass32_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass32_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor___c__DisplayClass32_0_1(NetPacketProcessor___c__DisplayClass32_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass32_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass32_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor___c__DisplayClass32_0_1(NetPacketProcessor___c__DisplayClass32_0_1 const&) = delete;
+  NetPacketProcessor___c__DisplayClass32_0_1(NetPacketProcessor___c__DisplayClass32_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20104 };
@@ -772,7 +821,7 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies System.Object
+// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetPacketProcessor
@@ -783,21 +832,37 @@ public:
 
   using SubscribeDelegate = ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate;
 
-  template <typename T> using __c__DisplayClass25_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>;
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using __c__DisplayClass25_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>;
 
-  template <typename T, typename TUserData> using __c__DisplayClass26_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>;
+  template <typename T, typename TUserData>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using __c__DisplayClass26_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>;
 
-  template <typename T> using __c__DisplayClass27_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>;
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using __c__DisplayClass27_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>;
 
-  template <typename T, typename TUserData> using __c__DisplayClass28_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>;
+  template <typename T, typename TUserData>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using __c__DisplayClass28_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>;
 
-  template <typename T, typename TUserData> using __c__DisplayClass29_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>;
+  template <typename T, typename TUserData>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  using __c__DisplayClass29_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>;
 
-  template <typename T> using __c__DisplayClass30_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  using __c__DisplayClass30_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>;
 
-  template <typename T, typename TUserData> using __c__DisplayClass31_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>;
+  template <typename T, typename TUserData>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+  using __c__DisplayClass31_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>;
 
-  template <typename T> using __c__DisplayClass32_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+  using __c__DisplayClass32_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>;
 
   /// @brief Field _callbacks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__callbacks,
@@ -832,10 +897,14 @@ public:
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void RegisterNestedType();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RegisterNestedType();
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void RegisterNestedType(::System::Func_1<T>* constructor);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void RegisterNestedType(::System::Func_1<T>* constructor);
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -845,55 +914,87 @@ public:
   template <typename T> inline bool RemoveSubscription();
 
   /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Send(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Send(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options);
 
   /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Send(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Send(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options);
 
   /// @brief Method SendNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendNetSerializable(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SendNetSerializable(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options);
 
   /// @brief Method SendNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendNetSerializable(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SendNetSerializable(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options);
 
   /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Subscribe(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Subscribe(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor);
 
   /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename TUserData> inline void Subscribe(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor);
+  template <typename T, typename TUserData>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Subscribe(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor);
 
   /// @brief Method SubscribeNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SubscribeNetSerializable(::System::Action_1<T>* onReceive);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SubscribeNetSerializable(::System::Action_1<T>* onReceive);
 
   /// @brief Method SubscribeNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SubscribeNetSerializable(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SubscribeNetSerializable(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor);
 
   /// @brief Method SubscribeNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename TUserData> inline void SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive);
+  template <typename T, typename TUserData>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive);
 
   /// @brief Method SubscribeNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename TUserData> inline void SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor);
+  template <typename T, typename TUserData>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor);
 
   /// @brief Method SubscribeReusable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SubscribeReusable(::System::Action_1<T>* onReceive);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SubscribeReusable(::System::Action_1<T>* onReceive);
 
   /// @brief Method SubscribeReusable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename TUserData> inline void SubscribeReusable(::System::Action_2<T, TUserData>* onReceive);
+  template <typename T, typename TUserData>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SubscribeReusable(::System::Action_2<T, TUserData>* onReceive);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::ArrayW<uint8_t> Write(T packet);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::ArrayW<uint8_t> Write(T packet);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Write(::LiteNetLib::Utils::NetDataWriter* writer, T packet);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Write(::LiteNetLib::Utils::NetDataWriter* writer, T packet);
 
   /// @brief Method WriteHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline void WriteHash(::LiteNetLib::Utils::NetDataWriter* writer);
 
   /// @brief Method WriteNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::ArrayW<uint8_t> WriteNetSerializable(T packet);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline ::ArrayW<uint8_t> WriteNetSerializable(T packet);
 
   /// @brief Method WriteNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void WriteNetSerializable(::LiteNetLib::Utils::NetDataWriter* writer, T packet);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void WriteNetSerializable(::LiteNetLib::Utils::NetDataWriter* writer, T packet);
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>* const& __cordl_internal_get__callbacks() const;
 
@@ -925,13 +1026,13 @@ protected:
   constexpr NetPacketProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPacketProcessor(NetPacketProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketProcessor(NetPacketProcessor const&) = delete;
+  NetPacketProcessor(NetPacketProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20105 };

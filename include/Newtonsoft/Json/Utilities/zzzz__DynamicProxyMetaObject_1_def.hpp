@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\DynamicProxyMetaObject_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DynamicProxyMetaObject_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -209,6 +209,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::DynamicProxyMetaObjec
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass7_0, "Newtonsoft.Json.Utilities", "DynamicProxyMetaObject`1/<>c__DisplayClass7_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass8_0, "Newtonsoft.Json.Utilities", "DynamicProxyMetaObject`1/<>c__DisplayClass8_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass9_0, "Newtonsoft.Json.Utilities", "DynamicProxyMetaObject`1/<>c__DisplayClass9_0");
+// [NullableContext(0)]
 // Dependencies System.MulticastDelegate
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -219,13 +220,14 @@ class CORDL_TYPE DynamicProxyMetaObject_1_Fallback : public ::System::MulticastD
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::Dynamic::DynamicMetaObject* errorSuggestion, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* errorSuggestion, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* EndInvoke(::System::IAsyncResult* result);
 
+  /// [NullableContext(1)]
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* Invoke(::System::Dynamic::DynamicMetaObject* errorSuggestion);
+  inline ::System::Dynamic::DynamicMetaObject* Invoke(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -238,13 +240,13 @@ protected:
   constexpr DynamicProxyMetaObject_1_Fallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1_Fallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1_Fallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1_Fallback(DynamicProxyMetaObject_1_Fallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1_Fallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1_Fallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1_Fallback(DynamicProxyMetaObject_1_Fallback const&) = delete;
+  DynamicProxyMetaObject_1_Fallback(DynamicProxyMetaObject_1_Fallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13394 };
@@ -253,6 +255,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [Nullable(0)]
 // Dependencies System.Dynamic.GetMemberBinder
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -263,7 +266,7 @@ class CORDL_TYPE DynamicProxyMetaObject_1_GetBinderAdapter : public ::System::Dy
 public:
   // Declarations
   /// @brief Method FallbackGetMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* errorSuggestion);
+  inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, /* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_GetBinderAdapter<T>* New_ctor(::System::Dynamic::InvokeMemberBinder* binder);
 
@@ -276,13 +279,13 @@ protected:
   constexpr DynamicProxyMetaObject_1_GetBinderAdapter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1_GetBinderAdapter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1_GetBinderAdapter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1_GetBinderAdapter(DynamicProxyMetaObject_1_GetBinderAdapter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1_GetBinderAdapter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1_GetBinderAdapter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1_GetBinderAdapter(DynamicProxyMetaObject_1_GetBinderAdapter const&) = delete;
+  DynamicProxyMetaObject_1_GetBinderAdapter(DynamicProxyMetaObject_1_GetBinderAdapterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13395 };
@@ -291,6 +294,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -308,6 +312,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c<T>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <GetArgs>b__18_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* _GetArgs_b__18_0(::System::Dynamic::DynamicMetaObject* arg);
 
@@ -328,13 +333,13 @@ protected:
   constexpr DynamicProxyMetaObject_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c(DynamicProxyMetaObject_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c(DynamicProxyMetaObject_1___c const&) = delete;
+  DynamicProxyMetaObject_1___c(DynamicProxyMetaObject_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13396 };
@@ -343,6 +348,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -364,7 +370,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass10_0<T>* New_ctor();
 
   /// @brief Method <BindBinaryOperation>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindBinaryOperation_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindBinaryOperation_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -393,23 +399,26 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass10_0(DynamicProxyMetaObject_1___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass10_0(DynamicProxyMetaObject_1___c__DisplayClass10_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass10_0(DynamicProxyMetaObject_1___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13397 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::BinaryOperationBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// [Nullable(0)]
   /// @brief Field arg, offset: 0x20, size: 0x8, def value: None
   ::System::Dynamic::DynamicMetaObject* ___arg;
 
@@ -417,6 +426,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -435,7 +445,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass11_0<T>* New_ctor();
 
   /// @brief Method <BindUnaryOperation>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindUnaryOperation_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindUnaryOperation_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -458,20 +468,22 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass11_0(DynamicProxyMetaObject_1___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass11_0(DynamicProxyMetaObject_1___c__DisplayClass11_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass11_0(DynamicProxyMetaObject_1___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13398 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::UnaryOperationBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
@@ -479,6 +491,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Dynamic.DynamicMetaObject, System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -500,7 +513,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass12_0<T>* New_ctor();
 
   /// @brief Method <BindGetIndex>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindGetIndex_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindGetIndex_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -529,23 +542,26 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass12_0(DynamicProxyMetaObject_1___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass12_0(DynamicProxyMetaObject_1___c__DisplayClass12_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass12_0(DynamicProxyMetaObject_1___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13399 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::GetIndexBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field indexes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*> ___indexes;
 
@@ -553,6 +569,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Dynamic.DynamicMetaObject, System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -577,7 +594,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass13_0<T>* New_ctor();
 
   /// @brief Method <BindSetIndex>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindSetIndex_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindSetIndex_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -612,26 +629,30 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass13_0(DynamicProxyMetaObject_1___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass13_0(DynamicProxyMetaObject_1___c__DisplayClass13_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass13_0(DynamicProxyMetaObject_1___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13400 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::SetIndexBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field indexes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*> ___indexes;
 
+  /// [Nullable(0)]
   /// @brief Field value, offset: 0x28, size: 0x8, def value: None
   ::System::Dynamic::DynamicMetaObject* ___value;
 
@@ -639,6 +660,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Dynamic.DynamicMetaObject, System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -660,7 +682,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass14_0<T>* New_ctor();
 
   /// @brief Method <BindDeleteIndex>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindDeleteIndex_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindDeleteIndex_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -689,23 +711,26 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass14_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass14_0(DynamicProxyMetaObject_1___c__DisplayClass14_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass14_0(DynamicProxyMetaObject_1___c__DisplayClass14_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass14_0(DynamicProxyMetaObject_1___c__DisplayClass14_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13401 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::DeleteIndexBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field indexes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*> ___indexes;
 
@@ -713,6 +738,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -731,7 +757,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass3_0<T>* New_ctor();
 
   /// @brief Method <BindGetMember>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindGetMember_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindGetMember_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -754,20 +780,22 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass3_0(DynamicProxyMetaObject_1___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass3_0(DynamicProxyMetaObject_1___c__DisplayClass3_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass3_0(DynamicProxyMetaObject_1___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13402 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::GetMemberBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
@@ -775,6 +803,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -796,7 +825,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass4_0<T>* New_ctor();
 
   /// @brief Method <BindSetMember>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindSetMember_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindSetMember_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -825,23 +854,26 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass4_0(DynamicProxyMetaObject_1___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass4_0(DynamicProxyMetaObject_1___c__DisplayClass4_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass4_0(DynamicProxyMetaObject_1___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13403 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::SetMemberBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// [Nullable(0)]
   /// @brief Field value, offset: 0x20, size: 0x8, def value: None
   ::System::Dynamic::DynamicMetaObject* ___value;
 
@@ -849,6 +881,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -867,7 +900,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass5_0<T>* New_ctor();
 
   /// @brief Method <BindDeleteMember>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindDeleteMember_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindDeleteMember_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -890,20 +923,22 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass5_0(DynamicProxyMetaObject_1___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass5_0(DynamicProxyMetaObject_1___c__DisplayClass5_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass5_0(DynamicProxyMetaObject_1___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13404 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::DeleteMemberBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
@@ -911,6 +946,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -929,7 +965,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass6_0<T>* New_ctor();
 
   /// @brief Method <BindConvert>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindConvert_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindConvert_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -952,20 +988,22 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass6_0(DynamicProxyMetaObject_1___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass6_0(DynamicProxyMetaObject_1___c__DisplayClass6_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass6_0(DynamicProxyMetaObject_1___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13405 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::ConvertBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
@@ -973,6 +1011,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Dynamic.DynamicMetaObject, System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -994,10 +1033,10 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass7_0<T>* New_ctor();
 
   /// @brief Method <BindInvokeMember>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindInvokeMember_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindInvokeMember_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   /// @brief Method <BindInvokeMember>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindInvokeMember_b__1(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindInvokeMember_b__1(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -1026,23 +1065,26 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass7_0(DynamicProxyMetaObject_1___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass7_0(DynamicProxyMetaObject_1___c__DisplayClass7_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass7_0(DynamicProxyMetaObject_1___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13406 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::InvokeMemberBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field args, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*> ___args;
 
@@ -1050,6 +1092,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Dynamic.DynamicMetaObject, System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -1071,7 +1114,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass8_0<T>* New_ctor();
 
   /// @brief Method <BindCreateInstance>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindCreateInstance_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindCreateInstance_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -1100,23 +1143,26 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass8_0(DynamicProxyMetaObject_1___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass8_0(DynamicProxyMetaObject_1___c__DisplayClass8_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass8_0(DynamicProxyMetaObject_1___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13407 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::CreateInstanceBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field args, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*> ___args;
 
@@ -1124,6 +1170,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Dynamic.DynamicMetaObject, System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -1145,7 +1192,7 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass9_0<T>* New_ctor();
 
   /// @brief Method <BindInvoke>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* _BindInvoke_b__0(::System::Dynamic::DynamicMetaObject* e);
+  inline ::System::Dynamic::DynamicMetaObject* _BindInvoke_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e);
 
   constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* const& __cordl_internal_get___4__this() const;
 
@@ -1174,23 +1221,26 @@ protected:
   constexpr DynamicProxyMetaObject_1___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1___c__DisplayClass9_0(DynamicProxyMetaObject_1___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1___c__DisplayClass9_0(DynamicProxyMetaObject_1___c__DisplayClass9_0 const&) = delete;
+  DynamicProxyMetaObject_1___c__DisplayClass9_0(DynamicProxyMetaObject_1___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13408 };
 
+  /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::InvokeBinder* ___binder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field args, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*> ___args;
 
@@ -1198,6 +1248,8 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Dynamic.DynamicMetaObject
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -1281,22 +1333,22 @@ public:
   inline ::System::Dynamic::DynamicMetaObject* BuildCallMethodWithResult(::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder,
                                                                          ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* args,
                                                                          ::System::Dynamic::DynamicMetaObject* fallbackResult,
-                                                                         ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallbackInvoke);
+                                                                         /* [Nullable(new[] { 2, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallbackInvoke);
 
   /// @brief Method CallMethodNoResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* CallMethodNoResult(::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder, ::ArrayW<::System::Linq::Expressions::Expression*> args,
-                                                                  ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback);
+                                                                  /* [Nullable(new[] { 1, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback);
 
   /// @brief Method CallMethodReturnLast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* CallMethodReturnLast(::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder,
                                                                     ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* args,
-                                                                    ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback);
+                                                                    /* [Nullable(new[] { 1, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback);
 
   /// @brief Method CallMethodWithResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* CallMethodWithResult(::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder,
                                                                     ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* args,
-                                                                    ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback,
-                                                                    ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallbackInvoke);
+                                                                    /* [Nullable(new[] { 1, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback,
+                                                                    /* [Nullable(new[] { 2, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallbackInvoke);
 
   /// @brief Method Constant, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConstantExpression* Constant(::System::Dynamic::DynamicMetaObjectBinder* binder);
@@ -1308,7 +1360,7 @@ public:
   static inline ::ArrayW<::System::Linq::Expressions::Expression*> GetArgArray(::ArrayW<::System::Dynamic::DynamicMetaObject*> args, ::System::Dynamic::DynamicMetaObject* value);
 
   /// @brief Method GetArgs, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* GetArgs(::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
+  static inline ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* GetArgs(/* [ParamArray] */ ::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
 
   /// @brief Method GetDynamicMemberNames, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames();
@@ -1340,13 +1392,13 @@ protected:
   constexpr DynamicProxyMetaObject_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxyMetaObject_1(DynamicProxyMetaObject_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxyMetaObject_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxyMetaObject_1(DynamicProxyMetaObject_1 const&) = delete;
+  DynamicProxyMetaObject_1(DynamicProxyMetaObject_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13409 };

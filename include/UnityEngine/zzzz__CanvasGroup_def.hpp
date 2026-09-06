@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CanvasGroup.hpp"
+// IWYU pragma private; include "UnityEngine/CanvasGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class CanvasGroup;
 // Write type traits
 MARK_REF_T(::UnityEngine::CanvasGroup*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CanvasGroup*, "UnityEngine", "CanvasGroup");
+// [NativeHeader("Modules/UI/CanvasGroup.h")]
+// [NativeClass("UI::CanvasGroup")]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -32,12 +34,16 @@ namespace UnityEngine {
 class CORDL_TYPE CanvasGroup : public ::UnityEngine::Behaviour {
 public:
   // Declarations
+  /// @brief [NativeProperty("Alpha", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_alpha, put = set_alpha)) float_t alpha;
 
+  /// @brief [NativeProperty("BlocksRaycasts", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_blocksRaycasts, put = set_blocksRaycasts)) bool blocksRaycasts;
 
+  /// @brief [NativeProperty("IgnoreParentGroups", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_ignoreParentGroups, put = set_ignoreParentGroups)) bool ignoreParentGroups;
 
+  /// @brief [NativeProperty("Interactable", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_interactable, put = set_interactable)) bool interactable;
 
   /// @brief Convert operator to "::UnityEngine::ICanvasRaycastFilter"
@@ -108,13 +114,13 @@ protected:
   constexpr CanvasGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CanvasGroup(CanvasGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CanvasGroup(CanvasGroup const&) = delete;
+  CanvasGroup(CanvasGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22112 };

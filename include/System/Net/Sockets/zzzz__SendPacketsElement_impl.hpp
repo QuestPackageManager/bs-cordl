@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\SendPacketsElement.hpp"
+// IWYU pragma private; include "System/Net/Sockets/SendPacketsElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Sockets/zzzz__SendPacketsElement_def.hpp"
 //  Writing Method size for method: ::System::Net::Sockets::SendPacketsElement._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\SetupDragAndDropArgs.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/SetupDragAndDropArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ struct SetupDragAndDropArgs;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::SetupDragAndDropArgs);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::SetupDragAndDropArgs, "UnityEngine.UIElements", "SetupDragAndDropArgs");
+// [IsReadOnly]
 // Dependencies UnityEngine.UIElements.StartDragArgs
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -38,9 +39,9 @@ public:
   // @brief default ctor
   constexpr SetupDragAndDropArgs();
 
-  // Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "selectedIds", ty:
-  // "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: None }, CppParam { name: "startDragArgs", ty: "::UnityEngine::UIElements::StartDragArgs", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "selectedIds", ty:
+  // "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "startDragArgs", ty: "::UnityEngine::UIElements::StartDragArgs",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr SetupDragAndDropArgs(::UnityEngine::UIElements::VisualElement* draggedElement, ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds,
                                  ::UnityEngine::UIElements::StartDragArgs startDragArgs) noexcept;
 

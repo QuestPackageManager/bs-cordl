@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RayTracingShader.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RayTracingShader.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RayTracingShader_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RayTracingShader._ctor

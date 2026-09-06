@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\BuiltinMaterials.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/BuiltinMaterials.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__BuiltinMaterials_def.hpp"

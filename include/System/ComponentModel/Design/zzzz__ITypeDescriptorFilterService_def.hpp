@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\Design\ITypeDescriptorFilterService.hpp"
+// IWYU pragma private; include "System/ComponentModel/Design/ITypeDescriptorFilterService.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,18 +24,18 @@ namespace System::ComponentModel::Design {
 class CORDL_TYPE ITypeDescriptorFilterService {
 public:
   // Declarations
-  /// @brief Method FilterAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FilterAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool FilterAttributes(::System::ComponentModel::IComponent* component, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method FilterEvents, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FilterEvents, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool FilterEvents(::System::ComponentModel::IComponent* component, ::System::Collections::IDictionary* events);
 
-  /// @brief Method FilterProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FilterProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool FilterProperties(::System::ComponentModel::IComponent* component, ::System::Collections::IDictionary* properties);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITypeDescriptorFilterService", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITypeDescriptorFilterService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITypeDescriptorFilterService(ITypeDescriptorFilterService const&) = delete;
+  ITypeDescriptorFilterService(ITypeDescriptorFilterServiceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11354 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\MockGraphQLClientProvider.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/MockGraphQLClientProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,6 +89,7 @@ public:
 
   static inline ::BeatSaber::GraphQL::MockGraphQLClientProvider* New_ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* graphQLClient);
 
+  /// [CompilerGenerated]
   /// @brief Method <InitializeAsync>b__18_0, addr 0x3297b80, size 0xc, virtual false, abstract: false, final false
   inline void _InitializeAsync_b__18_0(::System::Threading::Tasks::Task_1<bool>* _);
 
@@ -137,15 +138,19 @@ public:
   /// @brief Method .ctor, addr 0x3297a14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* graphQLClient);
 
+  /// [CompilerGenerated]
   /// @brief Method add_globalRequestFailureEvent, addr 0x3297894, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_globalRequestSucceededEvent, addr 0x3297714, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_initializationDidFinishEvent, addr 0x32975bc, size 0xac, virtual true, abstract: false, final true
   inline void add_initializationDidFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_graphQLClient, addr 0x32975b4, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* get_graphQLClient();
 
@@ -155,12 +160,15 @@ public:
   /// @brief Convert to "::BeatSaber::GraphQL::IGraphQLClientProvider"
   constexpr ::BeatSaber::GraphQL::IGraphQLClientProvider* i___BeatSaber__GraphQL__IGraphQLClientProvider() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_globalRequestFailureEvent, addr 0x3297954, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_globalRequestSucceededEvent, addr 0x32977d4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_initializationDidFinishEvent, addr 0x3297668, size 0xac, virtual true, abstract: false, final true
   inline void remove_initializationDidFinishEvent(::System::Action* value);
 
@@ -170,13 +178,13 @@ protected:
   constexpr MockGraphQLClientProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClientProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClientProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockGraphQLClientProvider(MockGraphQLClientProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClientProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClientProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockGraphQLClientProvider(MockGraphQLClientProvider const&) = delete;
+  MockGraphQLClientProvider(MockGraphQLClientProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22670 };
@@ -190,15 +198,19 @@ public:
   /// @brief Field ThrowOnInitialize, offset: 0x20, size: 0x8, def value: None
   ::System::Exception* ___ThrowOnInitialize;
 
+  /// [CompilerGenerated]
   /// @brief Field <graphQLClient>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* ____graphQLClient_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field initializationDidFinishEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___initializationDidFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field globalRequestSucceededEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___globalRequestSucceededEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field globalRequestFailureEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* ___globalRequestFailureEvent;
 

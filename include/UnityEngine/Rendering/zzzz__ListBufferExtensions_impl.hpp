@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ListBufferExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ListBufferExtensions.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ListBufferExtensions_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ListBuffer_1_def.hpp"
-template <typename T> inline void UnityEngine::Rendering::ListBufferExtensions::QuickSort(::UnityEngine::Rendering::ListBuffer_1<T> self) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::ListBufferExtensions::QuickSort(::UnityEngine::Rendering::ListBuffer_1<T> self) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ListBufferExtensions*>(),
                                                            { "QuickSort", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Rendering::ListBuffer_1<T>>() } })));

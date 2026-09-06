@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DepthOfFieldModeParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DepthOfFieldModeParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DepthOfFieldMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DepthOfFieldModeParameter_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerGameplayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerGameplayManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,13 +78,13 @@ protected:
   constexpr MultiplayerLocalActivePlayerGameplayManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActivePlayerGameplayManager_InitData(MultiplayerLocalActivePlayerGameplayManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerGameplayManager_InitData(MultiplayerLocalActivePlayerGameplayManager_InitData const&) = delete;
+  MultiplayerLocalActivePlayerGameplayManager_InitData(MultiplayerLocalActivePlayerGameplayManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6091 };
@@ -100,6 +100,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayMa
 static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerLocalActivePlayerGameplayManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -253,44 +254,54 @@ protected:
   constexpr MultiplayerLocalActivePlayerGameplayManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActivePlayerGameplayManager(MultiplayerLocalActivePlayerGameplayManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerGameplayManager(MultiplayerLocalActivePlayerGameplayManager const&) = delete;
+  MultiplayerLocalActivePlayerGameplayManager(MultiplayerLocalActivePlayerGameplayManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6092 };
 
+  /// [Inject]
   /// @brief Field _gameSongController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerLevelEndActions, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerLevelEndActionsListener* ____multiplayerLevelEndActions;
 
+  /// [Inject]
   /// @brief Field _prepareLevelCompletionResults, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
+  /// [Inject]
   /// @brief Field _gameEnergyCounter, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameEnergyCounter> ____gameEnergyCounter;
 
+  /// [Inject]
   /// @brief Field _inGameMenuController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController> ____inGameMenuController;
 
+  /// [Inject]
   /// @brief Field _xrSystemState, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
+  /// [Inject]
   /// @brief Field _disconnectHelper, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* ____disconnectHelper;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager_InitData* ____initData;
 

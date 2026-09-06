@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SubsystemsImplementation\SubsystemDescriptorStore.hpp"
+// IWYU pragma private; include "UnityEngine/SubsystemsImplementation/SubsystemDescriptorStore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(SubsystemDescriptorStore)
 namespace System::Collections::Generic {
@@ -31,7 +32,8 @@ class SubsystemDescriptorStore;
 // Write type traits
 MARK_REF_T(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*, "UnityEngine.SubsystemsImplementation", "SubsystemDescriptorStore");
-// Dependencies System.Object
+// [NativeHeader("Modules/Subsystems/SubsystemManager.h")]
+// Dependencies System.Object, UnityEngine.ISubsystemDescriptor
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
 // CS Name: UnityEngine.SubsystemsImplementation.SubsystemDescriptorStore
@@ -53,14 +55,19 @@ public:
 
   /// @brief Method AddDescriptorSubset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TBaseTypeInList, typename TQueryType>
+    requires(::cordl_internals::type_constraint<TBaseTypeInList, ::UnityEngine::ISubsystemDescriptor*> && ::cordl_internals::type_constraint<TQueryType, ::UnityEngine::ISubsystemDescriptor*>)
   static inline void AddDescriptorSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ClearManagedDescriptors, addr 0x6bb8f84, size 0x190, virtual false, abstract: false, final false
   static inline void ClearManagedDescriptors();
 
   /// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystemDescriptor*>)
+  static inline void GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InitializeManagedDescriptor, addr 0x6bb8e98, size 0xec, virtual false, abstract: false, final false
   static inline void InitializeManagedDescriptor(::System::IntPtr ptr, ::UnityEngine::IntegratedSubsystemDescriptor* desc);
 
@@ -68,7 +75,9 @@ public:
   static inline void RegisterDeprecatedDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
 
   /// @brief Method RegisterDescriptor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDescriptor, typename TBaseTypeInList> static inline void RegisterDescriptor(TDescriptor descriptor, ::System::Collections::Generic::List_1<TBaseTypeInList>* storeInList);
+  template <typename TDescriptor, typename TBaseTypeInList>
+    requires(::cordl_internals::type_constraint<TDescriptor, TBaseTypeInList> && ::cordl_internals::type_constraint<TBaseTypeInList, ::UnityEngine::ISubsystemDescriptor*>)
+  static inline void RegisterDescriptor(TDescriptor descriptor, ::System::Collections::Generic::List_1<TBaseTypeInList>* storeInList);
 
   /// @brief Method ReportSingleSubsystemAnalytics, addr 0x6bb9114, size 0x14c, virtual false, abstract: false, final false
   static inline void ReportSingleSubsystemAnalytics(::StringW id);
@@ -94,13 +103,13 @@ protected:
   constexpr SubsystemDescriptorStore();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorStore", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorStore", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubsystemDescriptorStore(SubsystemDescriptorStore&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorStore", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorStore", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubsystemDescriptorStore(SubsystemDescriptorStore const&) = delete;
+  SubsystemDescriptorStore(SubsystemDescriptorStoreconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22937 };

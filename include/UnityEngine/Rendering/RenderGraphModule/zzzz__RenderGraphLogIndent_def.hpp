@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphLogIndent.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphLogIndent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,8 +45,9 @@ public:
   // @brief default ctor
   constexpr RenderGraphLogIndent();
 
-  // Ctor Parameters [CppParam { name: "m_Indentation", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Logger", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*", modifiers: "", def_value: None }, CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Indentation", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Logger", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr RenderGraphLogIndent(int32_t m_Indentation, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* m_Logger, bool m_Disposed) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\XRSystemStateEventsDebugger.hpp"
+// IWYU pragma private; include "GlobalNamespace/XRSystemStateEventsDebugger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,17 +87,18 @@ protected:
   constexpr XRSystemStateEventsDebugger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRSystemStateEventsDebugger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSystemStateEventsDebugger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRSystemStateEventsDebugger(XRSystemStateEventsDebugger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRSystemStateEventsDebugger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSystemStateEventsDebugger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRSystemStateEventsDebugger(XRSystemStateEventsDebugger const&) = delete;
+  XRSystemStateEventsDebugger(XRSystemStateEventsDebuggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21458 };
 
+  /// [Inject]
   /// @brief Field _xrSystemState, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 

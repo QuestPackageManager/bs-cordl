@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\AxisEventData.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/AxisEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,15 +57,19 @@ public:
   /// @brief Method .ctor, addr 0x6e17db0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
+  /// [CompilerGenerated]
   /// @brief Method get_moveDir, addr 0x6e17da0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::MoveDirection get_moveDir();
 
+  /// [CompilerGenerated]
   /// @brief Method get_moveVector, addr 0x6e17d90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_moveVector();
 
+  /// [CompilerGenerated]
   /// @brief Method set_moveDir, addr 0x6e17da8, size 0x8, virtual false, abstract: false, final false
   inline void set_moveDir(::UnityEngine::EventSystems::MoveDirection value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_moveVector, addr 0x6e17d98, size 0x8, virtual false, abstract: false, final false
   inline void set_moveVector(::UnityEngine::Vector2 value);
 
@@ -75,20 +79,22 @@ protected:
   constexpr AxisEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AxisEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AxisEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AxisEventData(AxisEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AxisEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AxisEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AxisEventData(AxisEventData const&) = delete;
+  AxisEventData(AxisEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17532 };
 
+  /// [CompilerGenerated]
   /// @brief Field <moveVector>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____moveVector_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <moveDir>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::EventSystems::MoveDirection ____moveDir_k__BackingField;
 

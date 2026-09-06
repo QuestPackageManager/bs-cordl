@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\BuildAssetBundleAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/BuildAssetBundleAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__BuildAssetBundleAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::BuildAssetBundleAnalytic._ctor

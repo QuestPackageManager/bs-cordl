@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRObjectPool.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRObjectPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace GlobalNamespace {
 class OVRObjectPool_IPoolObject;
 }
 namespace GlobalNamespace {
-template <typename T> struct OVRObjectPool_ItemScope_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct OVRObjectPool_ItemScope_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_ListScope_1;
@@ -29,7 +31,9 @@ namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_StackScope_1;
 }
 namespace GlobalNamespace {
-template <typename T> class OVRObjectPool_Storage_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class OVRObjectPool_Storage_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_TaskScope_1;
@@ -38,7 +42,9 @@ namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
 }
 namespace GlobalNamespace {
-template <typename T> class Storage_1_OVRObjectPool___c;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class Storage_1_OVRObjectPool___c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -72,10 +78,14 @@ namespace GlobalNamespace {
 class OVRObjectPool_IPoolObject;
 }
 namespace GlobalNamespace {
-template <typename T> class OVRObjectPool_Storage_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class OVRObjectPool_Storage_1;
 }
 namespace GlobalNamespace {
-template <typename T> class Storage_1_OVRObjectPool___c;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class Storage_1_OVRObjectPool___c;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct OVRObjectPool_DictionaryScope_2;
@@ -84,7 +94,9 @@ namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_HashSetScope_1;
 }
 namespace GlobalNamespace {
-template <typename T> struct OVRObjectPool_ItemScope_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct OVRObjectPool_ItemScope_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct OVRObjectPool_ListScope_1;
@@ -128,15 +140,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRObjectPool_IPoolObject {
 public:
   // Declarations
-  /// @brief Method OnGet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnGet();
 
-  /// @brief Method OnReturn, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnReturn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnReturn();
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool_IPoolObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool_IPoolObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRObjectPool_IPoolObject(OVRObjectPool_IPoolObject const&) = delete;
+  OVRObjectPool_IPoolObject(OVRObjectPool_IPoolObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7953 };
@@ -145,10 +157,12 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: OVRObjectPool/Storage`1/<>c<T>
 class CORDL_TYPE Storage_1_OVRObjectPool___c : public ::System::Object {
@@ -175,13 +189,13 @@ protected:
   constexpr Storage_1_OVRObjectPool___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Storage_1_OVRObjectPool___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Storage_1_OVRObjectPool___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Storage_1_OVRObjectPool___c(Storage_1_OVRObjectPool___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Storage_1_OVRObjectPool___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Storage_1_OVRObjectPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Storage_1_OVRObjectPool___c(Storage_1_OVRObjectPool___c const&) = delete;
+  Storage_1_OVRObjectPool___c(Storage_1_OVRObjectPool___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7954 };
@@ -194,6 +208,7 @@ public:
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: OVRObjectPool/Storage`1<T>
 class CORDL_TYPE OVRObjectPool_Storage_1 : public ::System::Object {
@@ -230,13 +245,13 @@ protected:
   constexpr OVRObjectPool_Storage_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool_Storage_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool_Storage_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRObjectPool_Storage_1(OVRObjectPool_Storage_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool_Storage_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool_Storage_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRObjectPool_Storage_1(OVRObjectPool_Storage_1 const&) = delete;
+  OVRObjectPool_Storage_1(OVRObjectPool_Storage_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7955 };
@@ -273,7 +288,7 @@ public:
   // @brief default ctor
   constexpr OVRObjectPool_ListScope_1();
 
-  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRObjectPool_ListScope_1(::System::Collections::Generic::List_1<T>* _list) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -314,8 +329,8 @@ public:
   // @brief default ctor
   constexpr OVRObjectPool_TaskScope_1();
 
-  // Ctor Parameters [CppParam { name: "_tasks", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<T>>", modifiers: "", def_value: None }, CppParam { name: "_results", ty:
-  // "::GlobalNamespace::OVRObjectPool_ListScope_1<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_tasks", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<T>>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_results", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<T>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRObjectPool_TaskScope_1(::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<T>> _tasks, ::GlobalNamespace::OVRObjectPool_ListScope_1<T> _results) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -334,6 +349,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
@@ -359,7 +375,7 @@ public:
   // @brief default ctor
   constexpr OVRObjectPool_DictionaryScope_2();
 
-  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRObjectPool_DictionaryScope_2(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -375,6 +391,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
@@ -400,7 +417,7 @@ public:
   // @brief default ctor
   constexpr OVRObjectPool_HashSetScope_1();
 
-  // Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRObjectPool_HashSetScope_1(::System::Collections::Generic::HashSet_1<T>* _set) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -416,6 +433,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
@@ -441,7 +459,7 @@ public:
   // @brief default ctor
   constexpr OVRObjectPool_StackScope_1();
 
-  // Ctor Parameters [CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRObjectPool_StackScope_1(::System::Collections::Generic::Stack_1<T>* _stack) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -457,6 +475,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
@@ -482,7 +501,7 @@ public:
   // @brief default ctor
   constexpr OVRObjectPool_QueueScope_1();
 
-  // Ctor Parameters [CppParam { name: "_queue", ty: "::System::Collections::Generic::Queue_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_queue", ty: "::System::Collections::Generic::Queue_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRObjectPool_QueueScope_1(::System::Collections::Generic::Queue_1<T>* _queue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -498,10 +517,12 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: OVRObjectPool/ItemScope`1<T>
 struct CORDL_TYPE OVRObjectPool_ItemScope_1 {
@@ -523,7 +544,7 @@ public:
   // @brief default ctor
   constexpr OVRObjectPool_ItemScope_1();
 
-  // Ctor Parameters [CppParam { name: "_item", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_item", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr OVRObjectPool_ItemScope_1(T _item) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -552,7 +573,9 @@ public:
 
   using IPoolObject = ::GlobalNamespace::OVRObjectPool_IPoolObject;
 
-  template <typename T> using ItemScope_1 = ::GlobalNamespace::OVRObjectPool_ItemScope_1<T>;
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using ItemScope_1 = ::GlobalNamespace::OVRObjectPool_ItemScope_1<T>;
 
   template <typename T> using ListScope_1 = ::GlobalNamespace::OVRObjectPool_ListScope_1<T>;
 
@@ -560,7 +583,9 @@ public:
 
   template <typename T> using StackScope_1 = ::GlobalNamespace::OVRObjectPool_StackScope_1<T>;
 
-  template <typename T> using Storage_1 = ::GlobalNamespace::OVRObjectPool_Storage_1<T>;
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using Storage_1 = ::GlobalNamespace::OVRObjectPool_Storage_1<T>;
 
   template <typename T> using TaskScope_1 = ::GlobalNamespace::OVRObjectPool_TaskScope_1<T>;
 
@@ -568,7 +593,9 @@ public:
   template <typename TKey, typename TValue> static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* Dictionary();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Get();
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T Get();
 
   /// @brief Method HashSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::HashSet_1<T>* HashSet();
@@ -583,7 +610,9 @@ public:
   template <typename T> static inline ::System::Collections::Generic::Queue_1<T>* Queue();
 
   /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Return(T obj);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Return(T obj);
 
   /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Return(::System::Collections::Generic::Queue_1<T>* queue);
@@ -603,13 +632,13 @@ protected:
   constexpr OVRObjectPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRObjectPool(OVRObjectPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRObjectPool(OVRObjectPool const&) = delete;
+  OVRObjectPool(OVRObjectPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7963 };

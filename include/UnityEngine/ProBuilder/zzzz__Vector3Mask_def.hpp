@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Vector3Mask.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Vector3Mask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ struct Vector3Mask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::Vector3Mask);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Vector3Mask, "UnityEngine.ProBuilder", "Vector3Mask");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: true
@@ -127,7 +128,7 @@ public:
   // @brief default ctor
   constexpr Vector3Mask();
 
-  // Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector3Mask(uint8_t m_Mask) noexcept;
 
   /// @brief Field X offset 0xffffffff size 0x1

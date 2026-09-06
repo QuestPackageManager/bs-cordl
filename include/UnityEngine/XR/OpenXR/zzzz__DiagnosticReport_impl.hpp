@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\DiagnosticReport.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/DiagnosticReport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__DiagnosticReport_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

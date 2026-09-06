@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SectionTableView.hpp"
+// IWYU pragma private; include "HMUI/SectionTableView.hpp"
 #include "HMUI/zzzz__TableView_impl.hpp"
 #include "HMUI/zzzz__SectionTableView_def.hpp"
 #include "HMUI/zzzz__SectionTableView_def.hpp"
@@ -94,8 +94,8 @@ inline ::UnityW<::HMUI::TableCell> HMUI::SectionTableView_IDataSource::CellForRo
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::HMUI::SectionTableView_IDataSource*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::TableCell>>(this, ___internal_method, section, row);
 }
-// Ctor Parameters [CppParam { name: "unfolded", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "startBaseRow", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "numberOfBaseRows", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "unfolded", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "startBaseRow", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "numberOfBaseRows", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::SectionTableView_Section::SectionTableView_Section(bool unfolded, int32_t startBaseRow, int32_t numberOfBaseRows) noexcept {
   this->unfolded = unfolded;
   this->startBaseRow = startBaseRow;

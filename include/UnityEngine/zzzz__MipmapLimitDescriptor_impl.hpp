@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MipmapLimitDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/MipmapLimitDescriptor.hpp"
 #include "UnityEngine/zzzz__MipmapLimitDescriptor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::MipmapLimitDescriptor.get_useMipmapLimit
 template <>
@@ -51,8 +51,8 @@ inline void UnityEngine::MipmapLimitDescriptor::_ctor(bool useMipmapLimit, ::Str
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MipmapLimitDescriptor>(), { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, useMipmapLimit, groupName);
 }
-// Ctor Parameters [CppParam { name: "_useMipmapLimit_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_groupName_k__BackingField", ty: "::StringW", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_useMipmapLimit_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_groupName_k__BackingField", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::MipmapLimitDescriptor::MipmapLimitDescriptor(bool _useMipmapLimit_k__BackingField, ::StringW _groupName_k__BackingField) noexcept {
   this->_useMipmapLimit_k__BackingField = _useMipmapLimit_k__BackingField;
   this->_groupName_k__BackingField = _groupName_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSimpleTypeList.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSimpleTypeList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,13 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_BaseItemType, put = set_BaseItemType)) ::System::Xml::Schema::XmlSchemaSimpleType* BaseItemType;
 
+  /// @brief [XmlElement("simpleType", typeof(System.Xml.Schema.XmlSchemaSimpleType))]
   __declspec(property(get = get_ItemType, put = set_ItemType)) ::System::Xml::Schema::XmlSchemaSimpleType* ItemType;
 
+  /// @brief [XmlAttribute("itemType")]
   __declspec(property(get = get_ItemTypeName, put = set_ItemTypeName)) ::System::Xml::XmlQualifiedName* ItemTypeName;
 
   /// @brief Field baseItemType, offset 0x60, size 0x8
@@ -93,13 +96,13 @@ protected:
   constexpr XmlSchemaSimpleTypeList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaSimpleTypeList(XmlSchemaSimpleTypeList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaSimpleTypeList(XmlSchemaSimpleTypeList const&) = delete;
+  XmlSchemaSimpleTypeList(XmlSchemaSimpleTypeListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9816 };

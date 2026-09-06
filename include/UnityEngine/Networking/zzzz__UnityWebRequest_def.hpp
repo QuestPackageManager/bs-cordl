@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\UnityWebRequest.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/UnityWebRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +104,7 @@ public:
   // @brief default ctor
   constexpr UnityWebRequest_UnityWebRequestMethod();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityWebRequest_UnityWebRequestMethod(int32_t value__) noexcept;
 
   /// @brief Field Custom value: I32(4)
@@ -207,7 +207,7 @@ public:
   // @brief default ctor
   constexpr UnityWebRequest_UnityWebRequestError();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityWebRequest_UnityWebRequestError(int32_t value__) noexcept;
 
   /// @brief Field Aborted value: I32(17)
@@ -382,7 +382,7 @@ public:
   // @brief default ctor
   constexpr UnityWebRequest_Result();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityWebRequest_Result(int32_t value__) noexcept;
 
   /// @brief Field ConnectionError value: I32(2)
@@ -433,13 +433,13 @@ protected:
   constexpr UnityWebRequest_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequest_BindingsMarshaller(UnityWebRequest_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequest_BindingsMarshaller(UnityWebRequest_BindingsMarshaller const&) = delete;
+  UnityWebRequest_BindingsMarshaller(UnityWebRequest_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22303 };
@@ -450,6 +450,7 @@ public:
 static_assert(sizeof(::UnityEngine::Networking::UnityWebRequest_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
+// [NativeHeader("Modules/UnityWebRequest/Public/UnityWebRequest.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Networking {
 // Is value type: false
@@ -529,18 +530,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method Abort, addr 0x6e29514, size 0x50, virtual false, abstract: false, final false
   inline void Abort();
 
   /// @brief Method Abort_Injected, addr 0x6e29e00, size 0x3c, virtual false, abstract: false, final false
   static inline void Abort_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeThrows]
   /// @brief Method BeginWebRequest, addr 0x6e29d44, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* BeginWebRequest();
 
   /// @brief Method BeginWebRequest_Injected, addr 0x6e29da8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr BeginWebRequest_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeThrows]
   /// @brief Method Create, addr 0x6e29438, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create();
 
@@ -568,6 +572,7 @@ public:
   /// @brief Method GetError_Injected, addr 0x6e2a548, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError GetError_Injected(::System::IntPtr _unity_self);
 
+  /// [VisibleToOtherModules]
   /// @brief Method GetHTTPStatusString, addr 0x6e292f8, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW GetHTTPStatusString(int64_t responseCode);
 
@@ -592,6 +597,8 @@ public:
   /// @brief Method GetUrl_Injected, addr 0x6e2a8d0, size 0x44, virtual false, abstract: false, final false
   static inline void GetUrl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [NativeMethod(IsThreadSafe = true)]
+  /// [NativeConditional("ENABLE_UNITYWEBREQUEST")]
   /// @brief Method GetWebErrorString, addr 0x6e291e8, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW GetWebErrorString(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError err);
 
@@ -623,6 +630,7 @@ public:
   static inline ::UnityEngine::Networking::UnityWebRequest* New_ctor(::StringW url, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
                                                                      ::UnityEngine::Networking::UploadHandler* uploadHandler);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method Release, addr 0x6e29460, size 0x50, virtual false, abstract: false, final false
   inline void Release();
 
@@ -658,6 +666,7 @@ public:
   static inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetMethod_Injected(::System::IntPtr _unity_self,
                                                                                                    ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod methodType);
 
+  /// [NativeThrows]
   /// @brief Method SetRedirectLimitFromScripting, addr 0x6e2ac10, size 0x58, virtual false, abstract: false, final false
   inline void SetRedirectLimitFromScripting(int32_t limit);
 
@@ -745,12 +754,15 @@ public:
   /// @brief Method get_certificateHandler, addr 0x6e29d3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::CertificateHandler* get_certificateHandler();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposeCertificateHandlerOnDispose, addr 0x6e29408, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposeCertificateHandlerOnDispose();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposeDownloadHandlerOnDispose, addr 0x6e29418, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposeDownloadHandlerOnDispose();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposeUploadHandlerOnDispose, addr 0x6e29428, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposeUploadHandlerOnDispose();
 
@@ -769,6 +781,7 @@ public:
   /// @brief Method get_isDone, addr 0x6e2ab30, size 0x18, virtual false, abstract: false, final false
   inline bool get_isDone();
 
+  /// [NativeMethod("IsModifiable")]
   /// @brief Method get_isModifiable, addr 0x6e29f94, size 0x50, virtual false, abstract: false, final false
   inline bool get_isModifiable();
 
@@ -784,6 +797,7 @@ public:
   /// @brief Method get_responseCode_Injected, addr 0x6e2aab8, size 0x3c, virtual false, abstract: false, final false
   static inline int64_t get_responseCode_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("GetResult")]
   /// @brief Method get_result, addr 0x6e2a670, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_Result get_result();
 
@@ -802,12 +816,15 @@ public:
   /// @brief Method set_certificateHandler, addr 0x6e2b0c0, size 0xc0, virtual false, abstract: false, final false
   inline void set_certificateHandler(::UnityEngine::Networking::CertificateHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposeCertificateHandlerOnDispose, addr 0x6e29410, size 0x8, virtual false, abstract: false, final false
   inline void set_disposeCertificateHandlerOnDispose(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposeDownloadHandlerOnDispose, addr 0x6e29420, size 0x8, virtual false, abstract: false, final false
   inline void set_disposeDownloadHandlerOnDispose(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposeUploadHandlerOnDispose, addr 0x6e29430, size 0x8, virtual false, abstract: false, final false
   inline void set_disposeUploadHandlerOnDispose(bool value);
 
@@ -838,13 +855,13 @@ protected:
   constexpr UnityWebRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequest(UnityWebRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequest(UnityWebRequest const&) = delete;
+  UnityWebRequest(UnityWebRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22304 };
@@ -882,12 +899,18 @@ public:
   /// @brief Field m_Uri, offset: 0x30, size: 0x8, def value: None
   ::System::Uri* ___m_Uri;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposeCertificateHandlerOnDispose>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____disposeCertificateHandlerOnDispose_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposeDownloadHandlerOnDispose>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____disposeDownloadHandlerOnDispose_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposeUploadHandlerOnDispose>k__BackingField, offset: 0x3a, size: 0x1, def value: None
   bool ____disposeUploadHandlerOnDispose_k__BackingField;
 

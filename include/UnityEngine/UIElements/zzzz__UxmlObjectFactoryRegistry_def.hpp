@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlObjectFactoryRegistry.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlObjectFactoryRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class UxmlObjectFactoryRegistry;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UxmlObjectFactoryRegistry*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlObjectFactoryRegistry*, "UnityEngine.UIElements", "UxmlObjectFactoryRegistry");
+// [Obsolete("UxmlObjectFactoryRegistry is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -45,6 +47,7 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* getStaticF_s_Factories();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_factories, addr 0x6cc0908, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* get_factories();
 
@@ -57,13 +60,13 @@ protected:
   constexpr UxmlObjectFactoryRegistry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactoryRegistry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactoryRegistry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlObjectFactoryRegistry(UxmlObjectFactoryRegistry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactoryRegistry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlObjectFactoryRegistry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlObjectFactoryRegistry(UxmlObjectFactoryRegistry const&) = delete;
+  UxmlObjectFactoryRegistry(UxmlObjectFactoryRegistryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5191 };

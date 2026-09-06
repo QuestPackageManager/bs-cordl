@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\IXmlNamespaceResolver.hpp"
+// IWYU pragma private; include "System/Xml/IXmlNamespaceResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,18 +25,18 @@ namespace System::Xml {
 class CORDL_TYPE IXmlNamespaceResolver {
 public:
   // Declarations
-  /// @brief Method GetNamespacesInScope, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetNamespacesInScope, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method LookupNamespace, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LookupPrefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW LookupPrefix(::StringW namespaceName);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IXmlNamespaceResolver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IXmlNamespaceResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IXmlNamespaceResolver(IXmlNamespaceResolver const&) = delete;
+  IXmlNamespaceResolver(IXmlNamespaceResolverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9418 };

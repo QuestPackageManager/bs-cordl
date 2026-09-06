@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\Dstu7564Digest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Dstu7564Digest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -230,13 +230,13 @@ protected:
   constexpr Dstu7564Digest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dstu7564Digest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dstu7564Digest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dstu7564Digest(Dstu7564Digest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dstu7564Digest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dstu7564Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dstu7564Digest(Dstu7564Digest const&) = delete;
+  Dstu7564Digest(Dstu7564Digestconst&) = delete;
 
   /// @brief Field NB_1024 offset 0xffffffff size 0x4
   static constexpr int32_t NB_1024{ static_cast<int32_t>(0x10) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\EVRSpatialAnchorError.hpp"
+// IWYU pragma private; include "OVR/OpenVR/EVRSpatialAnchorError.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   // @brief default ctor
   constexpr EVRSpatialAnchorError();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EVRSpatialAnchorError(int32_t value__) noexcept;
 
   /// @brief Field ArrayTooSmall value: I32(3)

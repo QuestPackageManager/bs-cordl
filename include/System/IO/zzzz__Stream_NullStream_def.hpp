@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Stream_NullStream.hpp"
+// IWYU pragma private; include "System/IO/Stream_NullStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -172,13 +172,13 @@ protected:
   constexpr Stream_NullStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Stream_NullStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stream_NullStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Stream_NullStream(Stream_NullStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Stream_NullStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stream_NullStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stream_NullStream(Stream_NullStream const&) = delete;
+  Stream_NullStream(Stream_NullStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3896 };

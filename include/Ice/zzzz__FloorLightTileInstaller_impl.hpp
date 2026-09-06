@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice\FloorLightTileInstaller.hpp"
+// IWYU pragma private; include "Ice/FloorLightTileInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "Ice/zzzz__FloorLightTileInstaller_def.hpp"
 #include "Ice/zzzz__FloorLightTile_def.hpp"

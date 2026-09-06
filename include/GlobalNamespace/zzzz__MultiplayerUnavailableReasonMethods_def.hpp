@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerUnavailableReasonMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerUnavailableReasonMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class MultiplayerUnavailableReasonMethods;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerUnavailableReasonMethods*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerUnavailableReasonMethods*, "", "MultiplayerUnavailableReasonMethods");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -35,12 +36,15 @@ public:
   /// @brief Field kContentVersionRegex, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kContentVersionRegex, put = setStaticF_kContentVersionRegex)) ::System::Text::RegularExpressions::Regex* kContentVersionRegex;
 
+  /// [Extension]
   /// @brief Method ErrorCode, addr 0x373e0ec, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
+  /// [Extension]
   /// @brief Method GetLocalizedMessage, addr 0x373e4a4, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData* data, ::BGLib::Polyglot::LocalizationLanguage language);
 
+  /// [Extension]
   /// @brief Method LocalizedKey, addr 0x373e048, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
@@ -60,13 +64,13 @@ protected:
   constexpr MultiplayerUnavailableReasonMethods();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerUnavailableReasonMethods", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerUnavailableReasonMethods", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerUnavailableReasonMethods(MultiplayerUnavailableReasonMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerUnavailableReasonMethods", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerUnavailableReasonMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerUnavailableReasonMethods(MultiplayerUnavailableReasonMethods const&) = delete;
+  MultiplayerUnavailableReasonMethods(MultiplayerUnavailableReasonMethodsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15114 };

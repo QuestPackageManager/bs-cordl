@@ -1,14 +1,15 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RenderGraphCompilationCache.hpp"
+// IWYU pragma private; include "GlobalNamespace/RenderGraphCompilationCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_impl.hpp"
 #include "GlobalNamespace/zzzz__RenderGraphCompilationCache_def.hpp"
 #include "GlobalNamespace/zzzz__RenderGraphCompilationCache_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DynamicArray_1_def.hpp"
-// Ctor Parameters [CppParam { name: "hash", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastFrameUsed", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "compiledGraph", ty: "T", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hash", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastFrameUsed", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "compiledGraph", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>::RenderGraphCompilationCache_HashEntry_1(int32_t hash, int32_t lastFrameUsed, T compiledGraph) noexcept {
   this->hash = hash;
   this->lastFrameUsed = lastFrameUsed;
@@ -16,37 +17,52 @@ template <typename T> constexpr ::GlobalNamespace::RenderGraphCompilationCache_H
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>::RenderGraphCompilationCache_HashEntry_1() {}
-template <typename T> inline void GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::setStaticF___9(::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+inline void GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::setStaticF___9(::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>* value) {
   ::cordl_internals::setStaticField<::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*, "<>9", ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*>(
       std::forward<::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*>(value));
 }
-template <typename T> inline ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>* GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::getStaticF___9() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+inline ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>* GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*, "<>9", ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*>();
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
 inline void GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::setStaticF___9__11_0(::System::Predicate_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>* value) {
   ::cordl_internals::setStaticField<::System::Predicate_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>*, "<>9__11_0", ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*>(
       std::forward<::System::Predicate_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>*>(value));
 }
-template <typename T> inline ::System::Predicate_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>* GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::getStaticF___9__11_0() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+inline ::System::Predicate_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>* GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::getStaticF___9__11_0() {
   return ::cordl_internals::getStaticField<::System::Predicate_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>*, "<>9__11_0",
                                            ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*>();
 }
-template <typename T> inline void GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+inline void GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline bool GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::_GetCompilationCache_b__11_0(::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T> value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+inline bool GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::_GetCompilationCache_b__11_0(::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*>(),
                                                            { "<GetCompilationCache>b__11_0", {}, { ::i2c::type_of<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value);
 }
-template <typename T> inline ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>* GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+inline ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>* GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::RenderGraphCompilationCache___c__11_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
+constexpr ::GlobalNamespace::RenderGraphCompilationCache___c__11_1<T>::RenderGraphCompilationCache___c__11_1() {}
 //  Writing Method size for method: ::GlobalNamespace::RenderGraphCompilationCache._ctor
 template <>
 
@@ -210,6 +226,7 @@ inline void GlobalNamespace::RenderGraphCompilationCache::_ctor() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_ICompiledGraph*>)
 inline bool GlobalNamespace::RenderGraphCompilationCache::GetCompilationCache(
     int32_t hash, int32_t frameIndex, ::by_ref<T> outGraph, ::UnityEngine::Rendering::DynamicArray_1<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>* hashEntries,
     ::System::Collections::Generic::Stack_1<T>* pool, ::UnityEngine::Rendering::DynamicArray_1_SortComparer<::GlobalNamespace::RenderGraphCompilationCache_HashEntry_1<T>>* comparer) {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\NavigationMoveEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationMoveEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -9,7 +9,7 @@
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::NavigationMoveEvent_Direction::NavigationMoveEvent_Direction(int32_t value__) noexcept {
   this->value__ = value__;
 }

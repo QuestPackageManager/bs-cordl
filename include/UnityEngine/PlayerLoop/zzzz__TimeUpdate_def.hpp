@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PlayerLoop\TimeUpdate.hpp"
+// IWYU pragma private; include "UnityEngine/PlayerLoop/TimeUpdate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::TimeUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::TimeUpdate_WaitForLastPresentationAndUpdateTime);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::TimeUpdate, "UnityEngine.PlayerLoop", "TimeUpdate");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::TimeUpdate_WaitForLastPresentationAndUpdateTime, "UnityEngine.PlayerLoop", "TimeUpdate/WaitForLastPresentationAndUpdateTime");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -48,6 +49,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::TimeUpdate_WaitForLastPresentationAndUpdateTime) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true

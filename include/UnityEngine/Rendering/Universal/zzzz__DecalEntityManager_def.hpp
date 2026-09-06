@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalEntityManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalEntityManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,10 +83,11 @@ public:
   // @brief default ctor
   constexpr DecalEntityManager_CombinedChunks();
 
-  // Ctor Parameters [CppParam { name: "entityChunk", ty: "::UnityEngine::Rendering::Universal::DecalEntityChunk*", modifiers: "", def_value: None }, CppParam { name: "cachedChunk", ty:
-  // "::UnityEngine::Rendering::Universal::DecalCachedChunk*", modifiers: "", def_value: None }, CppParam { name: "culledChunk", ty: "::UnityEngine::Rendering::Universal::DecalCulledChunk*",
-  // modifiers: "", def_value: None }, CppParam { name: "drawCallChunk", ty: "::UnityEngine::Rendering::Universal::DecalDrawCallChunk*", modifiers: "", def_value: None }, CppParam { name:
-  // "previousChunkIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "valid", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "entityChunk", ty: "::UnityEngine::Rendering::Universal::DecalEntityChunk*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cachedChunk", ty:
+  // "::UnityEngine::Rendering::Universal::DecalCachedChunk*", modifiers: "", def_value: None, comment: None }, CppParam { name: "culledChunk", ty:
+  // "::UnityEngine::Rendering::Universal::DecalCulledChunk*", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCallChunk", ty:
+  // "::UnityEngine::Rendering::Universal::DecalDrawCallChunk*", modifiers: "", def_value: None, comment: None }, CppParam { name: "previousChunkIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "valid", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr DecalEntityManager_CombinedChunks(::UnityEngine::Rendering::Universal::DecalEntityChunk* entityChunk, ::UnityEngine::Rendering::Universal::DecalCachedChunk* cachedChunk,
                                               ::UnityEngine::Rendering::Universal::DecalCulledChunk* culledChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* drawCallChunk,
                                               int32_t previousChunkIndex, bool valid) noexcept;
@@ -133,6 +134,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalEntityManager_C
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalEntityManager_CombinedChunks) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -168,13 +170,13 @@ protected:
   constexpr DecalEntityManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalEntityManager___c(DecalEntityManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalEntityManager___c(DecalEntityManager___c const&) = delete;
+  DecalEntityManager___c(DecalEntityManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12700 };
@@ -379,13 +381,13 @@ protected:
   constexpr DecalEntityManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalEntityManager(DecalEntityManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalEntityManager(DecalEntityManager const&) = delete;
+  DecalEntityManager(DecalEntityManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12701 };

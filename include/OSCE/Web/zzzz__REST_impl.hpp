@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Web\REST.hpp"
+// IWYU pragma private; include "OSCE/Web/REST.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
@@ -69,14 +69,15 @@ constexpr OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::operator ::S
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST___c__DisplayClass10_0*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "cancelToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_client_5__2", ty:
-// "::System::Net::Http::HttpClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_httpContent_5__3", ty: "::System::Net::Http::StringContent*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_uri_5__4", ty: "::System::Uri*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_result_5__5", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Uri*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST___c__DisplayClass10_0*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancelToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "_client_5__2", ty: "::System::Net::Http::HttpClient*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_httpContent_5__3", ty:
+// "::System::Net::Http::StringContent*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_uri_5__4", ty: "::System::Uri*", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "_result_5__5", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Uri*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::__c__DisplayClass10_0_REST___PostAsync_b__0_d(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::OSCE::Web::REST___c__DisplayClass10_0* __4__this,
     ::System::Threading::CancellationToken cancelToken, ::System::Net::Http::HttpClient* _client_5__2, ::System::Net::Http::StringContent* _httpContent_5__3, ::System::Uri* _uri_5__4,
@@ -251,11 +252,12 @@ constexpr OSCE::Web::REST__BuildQueryString_d__12::operator ::System::Runtime::C
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OSCE::Web::REST__BuildQueryString_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "query", ty:
-// "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "isFirstParameter", ty: "bool", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap2", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "query", ty:
+// "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isFirstParameter", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::OSCE::Web::REST__BuildQueryString_d__12::REST__BuildQueryString_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
                                                                                   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query, bool isFirstParameter,
                                                                                   ::StringW __7__wrap1, ::StringW __7__wrap2,
@@ -313,11 +315,11 @@ constexpr OSCE::Web::REST__BuildUri_d__11::operator ::System::Runtime::CompilerS
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OSCE::Web::REST__BuildUri_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Uri*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "auth", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "query", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "path", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Uri*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "auth", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "query", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap1", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OSCE::Web::REST__BuildUri_d__11::REST__BuildUri_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Uri*> __t__builder, ::StringW auth,
                                                                   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query, ::StringW path, ::StringW __7__wrap1,
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
@@ -374,15 +376,16 @@ constexpr OSCE::Web::REST__PostAsync_d__10::operator ::System::Runtime::Compiler
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OSCE::Web::REST__PostAsync_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "auth", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "queryParams", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "attempts", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancel", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__8__1", ty: "::OSCE::Web::REST___c__DisplayClass10_0*", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchToSend", ty:
-// "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "onFail", ty: "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "onSucceed", ty: "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::OSCE::Web::REST*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "auth", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "queryParams", ty:
+// "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "attempts", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "cancel", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
+// "::OSCE::Web::REST___c__DisplayClass10_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchToSend", ty: "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "onFail", ty: "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "onSucceed", ty: "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OSCE::Web::REST__PostAsync_d__10::REST__PostAsync_d__10(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::OSCE::Web::REST* __4__this, ::StringW json, ::StringW path, ::StringW auth,
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams, int32_t attempts, ::System::Threading::CancellationToken cancel, ::OSCE::Web::REST___c__DisplayClass10_0* __8__1,
@@ -448,13 +451,14 @@ constexpr OSCE::Web::REST__PostRequest_d__7::operator ::System::Runtime::Compile
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OSCE::Web::REST__PostRequest_d__7::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "authToken", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchToSend", ty:
-// "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "onSucceed", ty: "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "onFail", ty: "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "attempts", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "queryParams", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "authToken", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "json", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "batchToSend", ty: "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "onSucceed", ty:
+// "::System::Action_2<::StringW,::OSCE::Analytics::LoggerAnalyticsBatch*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "onFail", ty:
+// "::System::Action_2<::System::Exception*,::OSCE::Web::FailedPostRequest>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "attempts", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "queryParams", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OSCE::Web::REST__PostRequest_d__7::REST__PostRequest_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::StringW path, ::StringW authToken,
                                                                       ::StringW json, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                                                       ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,

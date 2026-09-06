@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\JavaScriptUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/JavaScriptUtils.hpp"
 #include "Newtonsoft/Json/zzzz__StringEscapeHandling_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
@@ -50,7 +50,7 @@ inline void Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
@@ -63,11 +63,11 @@ constexpr Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::op
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "writer", ty: "::System::IO::TextWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "c", ty: "char16_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "writer", ty: "::System::IO::TextWriter*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "c", ty: "char16_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::JavaScriptUtils__WriteCharAsync_d__14(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* task, ::System::IO::TextWriter* writer, char16_t c,
     ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
@@ -118,7 +118,7 @@ inline void Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscaped
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline void Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+    /* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
@@ -133,15 +133,16 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "writeBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "lastWritePosition", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "client", ty: "::Newtonsoft::Json::JsonTextWriter*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "writer", ty: "::System::IO::TextWriter*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "charEscapeFlags", ty: "::ArrayW<bool>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "stringEscapeHandling", ty: "::Newtonsoft::Json::StringEscapeHandling", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_isEscapedUnicodeText_5__2", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_escapedValue_5__3", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "_i_5__4", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "writeBuffer", ty: "::ArrayW<char16_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "lastWritePosition", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "client", ty:
+// "::Newtonsoft::Json::JsonTextWriter*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "writer", ty: "::System::IO::TextWriter*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charEscapeFlags", ty: "::ArrayW<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "stringEscapeHandling", ty: "::Newtonsoft::Json::StringEscapeHandling", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_isEscapedUnicodeText_5__2", ty: "bool", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_escapedValue_5__3", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_i_5__4", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16::
     JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                         ::ArrayW<char16_t> writeBuffer, int32_t lastWritePosition, ::Newtonsoft::Json::JsonTextWriter* client,
@@ -202,8 +203,8 @@ inline void Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScript
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13::SetStateMachine(
+    /* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
@@ -218,14 +219,15 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "writer", ty: "::System::IO::TextWriter*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "charEscapeFlags", ty: "::ArrayW<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "stringEscapeHandling", ty: "::Newtonsoft::Json::StringEscapeHandling", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "client", ty: "::Newtonsoft::Json::JsonTextWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "writeBuffer", ty: "::ArrayW<char16_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "delimiter", ty:
-// "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "writer", ty: "::System::IO::TextWriter*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charEscapeFlags", ty: "::ArrayW<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "stringEscapeHandling", ty: "::Newtonsoft::Json::StringEscapeHandling", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "client", ty: "::Newtonsoft::Json::JsonTextWriter*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "writeBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "delimiter", ty: "char16_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* task, ::StringW s, ::System::IO::TextWriter* writer,
     ::ArrayW<bool> charEscapeFlags, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Newtonsoft::Json::JsonTextWriter* client, ::ArrayW<char16_t> writeBuffer,
@@ -504,13 +506,14 @@ inline ::ArrayW<bool> Newtonsoft::Json::Utilities::JavaScriptUtils::GetCharEscap
                                                            { "GetCharEscapeFlags", {}, { ::i2c::type_of<::Newtonsoft::Json::StringEscapeHandling>(), ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<bool>>(nullptr, ___internal_method, stringEscapeHandling, quoteChar);
 }
-inline bool Newtonsoft::Json::Utilities::JavaScriptUtils::ShouldEscapeJavaScriptString(::StringW s, ::ArrayW<bool> charEscapeFlags) {
+inline bool Newtonsoft::Json::Utilities::JavaScriptUtils::ShouldEscapeJavaScriptString(/* [Nullable(2)] */ ::StringW s, ::ArrayW<bool> charEscapeFlags) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::JavaScriptUtils*>(),
                                                                                          { "ShouldEscapeJavaScriptString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<bool>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, charEscapeFlags);
 }
-inline void Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptString(::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter, bool appendDelimiters,
-                                                                                       ::ArrayW<bool> charEscapeFlags, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling,
+inline void Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptString(/* [Nullable(1)] */ ::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter, bool appendDelimiters,
+                                                                                       /* [Nullable(1)] */ ::ArrayW<bool> charEscapeFlags,
+                                                                                       ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling,
                                                                                        ::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::by_ref<::ArrayW<char16_t>> writeBuffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::JavaScriptUtils*>(),
@@ -521,7 +524,7 @@ inline void Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScript
                                                                ::i2c::type_of<::Newtonsoft::Json::IArrayPool_1<char16_t>*>(), ::i2c::type_of<::by_ref<::ArrayW<char16_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, writer, s, delimiter, appendDelimiters, charEscapeFlags, stringEscapeHandling, bufferPool, writeBuffer);
 }
-inline ::StringW Newtonsoft::Json::Utilities::JavaScriptUtils::ToEscapedJavaScriptString(::StringW value, char16_t delimiter, bool appendDelimiters,
+inline ::StringW Newtonsoft::Json::Utilities::JavaScriptUtils::ToEscapedJavaScriptString(/* [Nullable(2)] */ ::StringW value, char16_t delimiter, bool appendDelimiters,
                                                                                          ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -617,7 +620,7 @@ inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Utilities::JavaScript
                                                                                 cancellationToken);
 }
 inline bool Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateFromConstructorJson(::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::DateTime> dateTime,
-                                                                                        ::by_ref<::StringW> errorMessage) {
+                                                                                        /* [Nullable(2)] [NotNullWhen(false)] */ ::by_ref<::StringW> errorMessage) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -626,7 +629,7 @@ inline bool Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateFromConstruc
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, reader, dateTime, errorMessage);
 }
 inline bool Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateConstructorValue(::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Nullable_1<int64_t>> integer,
-                                                                                     ::by_ref<::StringW> errorMessage) {
+                                                                                     /* [Nullable(2)] [NotNullWhen(false)] */ ::by_ref<::StringW> errorMessage) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::JavaScriptUtils*>(),

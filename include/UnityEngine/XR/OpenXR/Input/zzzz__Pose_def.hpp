@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\Pose.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/Pose.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,39 +43,57 @@ public:
 
   __declspec(property(get = get_velocity, put = set_velocity)) ::UnityEngine::Vector3 velocity;
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_angularVelocity, addr 0x69faeb0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_angularVelocity();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_isTracked, addr 0x69fae48, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTracked();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_position, addr 0x69fae68, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_rotation, addr 0x69fae80, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_trackingState, addr 0x69fae58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::InputTrackingState get_trackingState();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_velocity, addr 0x69fae98, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_velocity();
 
+  /// [CompilerGenerated]
   /// @brief Method set_angularVelocity, addr 0x69faebc, size 0xc, virtual false, abstract: false, final false
   inline void set_angularVelocity(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isTracked, addr 0x69fae50, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_position, addr 0x69fae74, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rotation, addr 0x69fae8c, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackingState, addr 0x69fae60, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::XR::InputTrackingState value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_velocity, addr 0x69faea4, size 0xc, virtual false, abstract: false, final false
   inline void set_velocity(::UnityEngine::Vector3 value);
 
@@ -83,10 +101,11 @@ public:
   // @brief default ctor
   constexpr Pose();
 
-  // Ctor Parameters [CppParam { name: "_isTracked_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_trackingState_k__BackingField", ty:
-  // "::UnityEngine::XR::InputTrackingState", modifiers: "", def_value: None }, CppParam { name: "_position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam {
-  // name: "_rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "_velocity_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "_angularVelocity_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_isTracked_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_trackingState_k__BackingField", ty:
+  // "::UnityEngine::XR::InputTrackingState", modifiers: "", def_value: None, comment: None }, CppParam { name: "_position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_velocity_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "_angularVelocity_k__BackingField", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr Pose(bool _isTracked_k__BackingField, ::UnityEngine::XR::InputTrackingState _trackingState_k__BackingField, ::UnityEngine::Vector3 _position_k__BackingField,
                  ::UnityEngine::Quaternion _rotation_k__BackingField, ::UnityEngine::Vector3 _velocity_k__BackingField, ::UnityEngine::Vector3 _angularVelocity_k__BackingField) noexcept;
 
@@ -96,21 +115,27 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
 
+  /// [CompilerGenerated]
   /// @brief Field <isTracked>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _isTracked_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackingState>k__BackingField, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::XR::InputTrackingState _trackingState_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <position>k__BackingField, offset: 0x8, size: 0xc, def value: None
   ::UnityEngine::Vector3 _position_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rotation>k__BackingField, offset: 0x14, size: 0x10, def value: None
   ::UnityEngine::Quaternion _rotation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <velocity>k__BackingField, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 _velocity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <angularVelocity>k__BackingField, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 _angularVelocity_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Drawing\Rectangle.hpp"
+// IWYU pragma private; include "System/Drawing/Rectangle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,8 +72,8 @@ public:
   // @brief default ctor
   constexpr Rectangle();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "width", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Rectangle(int32_t x, int32_t y, int32_t width, int32_t height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlBaseWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlBaseWriter.hpp"
 #include "System/Xml/zzzz__WriteState_impl.hpp"
 #include "System/Xml/zzzz__XmlDictionaryWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlSpace_impl.hpp"
@@ -194,7 +194,7 @@ inline ::System::Xml::XmlBaseWriter_Element* System::Xml::XmlBaseWriter_Element:
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlBaseWriter_Element::XmlBaseWriter_Element() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlBaseWriter_DocumentState::XmlBaseWriter_DocumentState(uint8_t value__) noexcept {
   this->value__ = value__;
 }

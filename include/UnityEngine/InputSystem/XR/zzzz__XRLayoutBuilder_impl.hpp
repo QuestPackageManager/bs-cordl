@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRLayoutBuilder.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRLayoutBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__FeatureType_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRLayoutBuilder_def.hpp"

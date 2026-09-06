@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomControlPlayableAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomControlPlayableAsset.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomControlPlayableAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Collision.hpp"
+// IWYU pragma private; include "UnityEngine/Collision.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ContactPairHeader_impl.hpp"
 #include "UnityEngine/zzzz__ContactPair_impl.hpp"
@@ -392,14 +392,14 @@ inline void UnityEngine::Collision::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Collision::_ctor(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair, bool flipped) {
+inline void UnityEngine::Collision::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair, bool flipped) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(),
                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, header, pair, flipped);
 }
-inline void UnityEngine::Collision::Reuse(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair) {
+inline void UnityEngine::Collision::Reuse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(),
                                                            { "Reuse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair>>() } })));
@@ -439,7 +439,8 @@ inline ::UnityW<::UnityEngine::Component> UnityEngine::Collision::get_other() {
 inline ::UnityEngine::Collision* UnityEngine::Collision::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Collision*>());
 }
-inline ::UnityEngine::Collision* UnityEngine::Collision::New_ctor(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair, bool flipped) {
+inline ::UnityEngine::Collision* UnityEngine::Collision::New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair,
+                                                                  bool flipped) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Collision*>(header, pair, flipped));
 }
 // Ctor Parameters []

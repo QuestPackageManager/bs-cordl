@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerTexture.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerTexture.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
@@ -185,7 +185,8 @@ constexpr void UnityEngine::Networking::DownloadHandlerTexture::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NativeData = value;
 }
-inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerTexture::Create(::UnityEngine::Networking::DownloadHandlerTexture* obj, ::UnityEngine::Networking::DownloadedTextureParams parameters) {
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerTexture::Create(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerTexture* obj,
+                                                                                ::UnityEngine::Networking::DownloadedTextureParams parameters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerTexture*>(),

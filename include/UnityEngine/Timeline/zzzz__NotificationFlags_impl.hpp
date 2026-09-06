@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\NotificationFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/NotificationFlags.hpp"
 #include "UnityEngine/Timeline/zzzz__NotificationFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::NotificationFlags::NotificationFlags(int16_t value__) noexcept {
   this->value__ = value__;
 }

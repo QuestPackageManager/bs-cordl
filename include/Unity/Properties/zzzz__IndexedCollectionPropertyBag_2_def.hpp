@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IndexedCollectionPropertyBag_2.hpp"
+// IWYU pragma private; include "Unity/Properties/IndexedCollectionPropertyBag_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -15,7 +16,9 @@ namespace Unity::Properties {
 class ICollectionPropertyBagVisitor;
 }
 namespace Unity::Properties {
-template <typename TCollection, typename TElement> class ICollectionPropertyBag_2;
+template <typename TCollection, typename TElement>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
+class ICollectionPropertyBag_2;
 }
 namespace Unity::Properties {
 template <typename T> class IConstructorWithCount_1;
@@ -42,7 +45,9 @@ namespace Unity::Properties {
 class IListPropertyBagVisitor;
 }
 namespace Unity::Properties {
-template <typename TList, typename TElement> class IListPropertyBag_2;
+template <typename TList, typename TElement>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
+class IListPropertyBag_2;
 }
 namespace Unity::Properties {
 class IListPropertyVisitor;
@@ -57,7 +62,9 @@ namespace Unity::Properties {
 template <typename TContainer> class IProperty_1;
 }
 namespace Unity::Properties {
-template <typename TList, typename TElement> class IndexedCollectionPropertyBag_2_ListElementProperty;
+template <typename TList, typename TElement>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
+class IndexedCollectionPropertyBag_2_ListElementProperty;
 }
 namespace Unity::Properties {
 struct IndexedCollectionSharedPropertyState;
@@ -70,20 +77,25 @@ template <typename TContainer, typename TValue> class Property_2;
 }
 // Forward declare root types
 namespace Unity::Properties {
-template <typename TList, typename TElement> class IndexedCollectionPropertyBag_2;
+template <typename TList, typename TElement>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
+class IndexedCollectionPropertyBag_2;
 }
 namespace Unity::Properties {
-template <typename TList, typename TElement> class IndexedCollectionPropertyBag_2_ListElementProperty;
+template <typename TList, typename TElement>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
+class IndexedCollectionPropertyBag_2_ListElementProperty;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::IndexedCollectionPropertyBag_2);
 MARK_GEN_REF_T_PTR(::Unity::Properties::IndexedCollectionPropertyBag_2_ListElementProperty);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::IndexedCollectionPropertyBag_2, "Unity.Properties", "IndexedCollectionPropertyBag`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::IndexedCollectionPropertyBag_2_ListElementProperty, "Unity.Properties", "IndexedCollectionPropertyBag`2/ListElementProperty");
-// Dependencies Unity.Properties.Property`2<TContainer, TValue>
+// Dependencies System.Collections.Generic.IList`1<T>, Unity.Properties.Property`2<TContainer, TValue>
 namespace Unity::Properties {
 // cpp template
 template <typename TList, typename TElement>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.IndexedCollectionPropertyBag`2/ListElementProperty<TList,TElement>
 class CORDL_TYPE IndexedCollectionPropertyBag_2_ListElementProperty : public ::Unity::Properties::Property_2<TList, TElement> {
@@ -145,13 +157,13 @@ protected:
   constexpr IndexedCollectionPropertyBag_2_ListElementProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2_ListElementProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2_ListElementProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IndexedCollectionPropertyBag_2_ListElementProperty(IndexedCollectionPropertyBag_2_ListElementProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2_ListElementProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2_ListElementProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexedCollectionPropertyBag_2_ListElementProperty(IndexedCollectionPropertyBag_2_ListElementProperty const&) = delete;
+  IndexedCollectionPropertyBag_2_ListElementProperty(IndexedCollectionPropertyBag_2_ListElementPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19655 };
@@ -166,10 +178,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Dependencies Unity.Properties.PropertyBag`1<TContainer>
+// Dependencies System.Collections.Generic.IList`1<T>, Unity.Properties.PropertyBag`1<TContainer>
 namespace Unity::Properties {
 // cpp template
 template <typename TList, typename TElement>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.IndexedCollectionPropertyBag`2<TList,TElement>
 class CORDL_TYPE IndexedCollectionPropertyBag_2 : public ::Unity::Properties::PropertyBag_1<TList> {
@@ -302,13 +315,13 @@ protected:
   constexpr IndexedCollectionPropertyBag_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IndexedCollectionPropertyBag_2(IndexedCollectionPropertyBag_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexedCollectionPropertyBag_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexedCollectionPropertyBag_2(IndexedCollectionPropertyBag_2 const&) = delete;
+  IndexedCollectionPropertyBag_2(IndexedCollectionPropertyBag_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19656 };

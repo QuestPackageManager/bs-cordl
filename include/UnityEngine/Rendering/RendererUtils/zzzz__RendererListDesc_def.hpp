@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RendererUtils\RendererListDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RendererUtils/RendererListDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,25 +61,35 @@ public:
   __declspec(property(get = getStaticF_s_EmptyName, put = setStaticF_s_EmptyName)) ::UnityEngine::Rendering::ShaderTagId s_EmptyName;
 
   /// @brief Method ConvertToParameters, addr 0x6b2e464, size 0x750, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RendererListParams ConvertToParameters(::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc);
+  static inline ::UnityEngine::Rendering::RendererListParams ConvertToParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc);
 
   /// @brief Method IsValid, addr 0x6b2e340, size 0x124, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_EmptyName();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_batchLayerMask, addr 0x6b2e314, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_batchLayerMask();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_camera, addr 0x6b2e328, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_cullingResult, addr 0x6b2e31c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CullingResults get_cullingResult();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_passName, addr 0x6b2e330, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderTagId get_passName();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_passNames, addr 0x6b2e338, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::ShaderTagId> get_passNames();
 
@@ -89,16 +99,17 @@ public:
   // @brief default ctor
   constexpr RendererListDesc();
 
-  // Ctor Parameters [CppParam { name: "sortingCriteria", ty: "::UnityEngine::Rendering::SortingCriteria", modifiers: "", def_value: None }, CppParam { name: "rendererConfiguration", ty:
-  // "::UnityEngine::Rendering::PerObjectData", modifiers: "", def_value: None }, CppParam { name: "renderQueueRange", ty: "::UnityEngine::Rendering::RenderQueueRange", modifiers: "", def_value: None
-  // }, CppParam { name: "stateBlock", ty: "::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock>", modifiers: "", def_value: None }, CppParam { name: "overrideShader", ty:
-  // "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "overrideMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam {
-  // name: "excludeObjectMotionVectors", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_batchLayerMask_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "overrideMaterialPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "overrideShaderPassIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_cullingResult_k__BackingField", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: None }, CppParam { name: "_camera_k__BackingField", ty:
-  // "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: None }, CppParam { name: "_passName_k__BackingField", ty: "::UnityEngine::Rendering::ShaderTagId", modifiers: "", def_value: None },
-  // CppParam { name: "_passNames_k__BackingField", ty: "::ArrayW<::UnityEngine::Rendering::ShaderTagId>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sortingCriteria", ty: "::UnityEngine::Rendering::SortingCriteria", modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererConfiguration",
+  // ty: "::UnityEngine::Rendering::PerObjectData", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderQueueRange", ty: "::UnityEngine::Rendering::RenderQueueRange", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "stateBlock", ty: "::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "overrideShader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "overrideMaterial", ty:
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "excludeObjectMotionVectors", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "_batchLayerMask_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "overrideMaterialPassIndex", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "overrideShaderPassIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cullingResult_k__BackingField",
+  // ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: None, comment: None }, CppParam { name: "_camera_k__BackingField", ty: "::UnityW<::UnityEngine::Camera>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_passName_k__BackingField", ty: "::UnityEngine::Rendering::ShaderTagId", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_passNames_k__BackingField", ty: "::ArrayW<::UnityEngine::Rendering::ShaderTagId>", modifiers: "", def_value: None, comment: None }]
   constexpr RendererListDesc(::UnityEngine::Rendering::SortingCriteria sortingCriteria, ::UnityEngine::Rendering::PerObjectData rendererConfiguration,
                              ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock> stateBlock,
                              ::UnityW<::UnityEngine::Shader> overrideShader, ::UnityW<::UnityEngine::Material> overrideMaterial, bool excludeObjectMotionVectors, int32_t layerMask,
@@ -139,6 +150,8 @@ public:
   /// @brief Field renderingLayerMask, offset: 0x98, size: 0x4, def value: None
   uint32_t renderingLayerMask;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <batchLayerMask>k__BackingField, offset: 0x9c, size: 0x4, def value: None
   uint32_t _batchLayerMask_k__BackingField;
 
@@ -148,15 +161,23 @@ public:
   /// @brief Field overrideShaderPassIndex, offset: 0xa4, size: 0x4, def value: None
   int32_t overrideShaderPassIndex;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <cullingResult>k__BackingField, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Rendering::CullingResults _cullingResult_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <camera>k__BackingField, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> _camera_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <passName>k__BackingField, offset: 0xc0, size: 0x4, def value: None
   ::UnityEngine::Rendering::ShaderTagId _passName_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <passNames>k__BackingField, offset: 0xc8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::ShaderTagId> _passNames_k__BackingField;
 

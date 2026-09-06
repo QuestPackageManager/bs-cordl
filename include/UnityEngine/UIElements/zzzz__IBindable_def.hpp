@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IBindable.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IBindable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,15 +26,15 @@ public:
 
   __declspec(property(put = set_bindingPath)) ::StringW bindingPath;
 
-  /// @brief Method get_binding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_binding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IBinding* get_binding();
 
-  /// @brief Method set_bindingPath, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_bindingPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_bindingPath(::StringW value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBindable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBindable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBindable(IBindable const&) = delete;
+  IBindable(IBindableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4133 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\EventProvider.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/EventProvider.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventSanitizer_impl.hpp"
@@ -12,9 +12,9 @@
 #include "UnityEngine/InputForUI/zzzz__EventProvider_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__Event_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__IEventProviderImpl_def.hpp"
-// Ctor Parameters [CppParam { name: "handler", ty: "::UnityEngine::InputForUI::EventConsumer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "priority", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "playerId", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_types", ty:
-// "::System::Collections::Generic::HashSet_1<::UnityEngine::InputForUI::Event_Type>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "handler", ty: "::UnityEngine::InputForUI::EventConsumer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "priority", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "playerId", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_types", ty: "::System::Collections::Generic::HashSet_1<::UnityEngine::InputForUI::Event_Type>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::EventProvider_Registration::EventProvider_Registration(::UnityEngine::InputForUI::EventConsumer* handler, int32_t priority, ::System::Nullable_1<int32_t> playerId,
                                                                                             ::System::Collections::Generic::HashSet_1<::UnityEngine::InputForUI::Event_Type>* _types) noexcept {
   this->handler = handler;
@@ -316,7 +316,7 @@ inline ::System::Collections::Generic::List_1<::UnityEngine::InputForUI::EventPr
                                            ::UnityEngine::InputForUI::EventProvider*>();
 }
 inline void UnityEngine::InputForUI::EventProvider::Subscribe(::UnityEngine::InputForUI::EventConsumer* handler, int32_t priority, ::System::Nullable_1<int32_t> playerId,
-                                                              ::ArrayW<::UnityEngine::InputForUI::Event_Type> type) {
+                                                              /* [ParamArray] */ ::ArrayW<::UnityEngine::InputForUI::Event_Type> type) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(),
                                                            { "Subscribe",
@@ -335,7 +335,7 @@ inline void UnityEngine::InputForUI::EventProvider::SetEnabled(bool enable) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "SetEnabled", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, enable);
 }
-inline void UnityEngine::InputForUI::EventProvider::Dispatch(::by_ref<::UnityEngine::InputForUI::Event> ev) {
+inline void UnityEngine::InputForUI::EventProvider::Dispatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "Dispatch", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ev);

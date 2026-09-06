@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\X448KeyPairGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/X448KeyPairGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,13 +63,13 @@ protected:
   constexpr X448KeyPairGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X448KeyPairGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X448KeyPairGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X448KeyPairGenerator(X448KeyPairGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X448KeyPairGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X448KeyPairGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X448KeyPairGenerator(X448KeyPairGenerator const&) = delete;
+  X448KeyPairGenerator(X448KeyPairGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 926 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SinglePassStereoMode.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SinglePassStereoMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   // @brief default ctor
   constexpr SinglePassStereoMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SinglePassStereoMode(int32_t value__) noexcept;
 
   /// @brief Field Instancing value: I32(2)

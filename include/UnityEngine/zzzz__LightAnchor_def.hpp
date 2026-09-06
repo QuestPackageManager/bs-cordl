@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightAnchor.hpp"
+// IWYU pragma private; include "UnityEngine/LightAnchor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   // @brief default ctor
   constexpr LightAnchor_UpDirection();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LightAnchor_UpDirection(int32_t value__) noexcept;
 
   /// @brief Field Local value: I32(1)
@@ -107,8 +107,8 @@ public:
   // @brief default ctor
   constexpr LightAnchor_Axes();
 
-  // Ctor Parameters [CppParam { name: "up", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "right", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
-  // CppParam { name: "forward", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "up", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "right", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "forward", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr LightAnchor_Axes(::UnityEngine::Vector3 up, ::UnityEngine::Vector3 right, ::UnityEngine::Vector3 forward) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -138,6 +138,9 @@ static_assert(offsetof(::UnityEngine::LightAnchor_Axes, forward) == 0x18, "Offse
 static_assert(sizeof(::UnityEngine::LightAnchor_Axes) == 0x24, "Size mismatch!");
 
 } // namespace UnityEngine
+// [AddComponentMenu("Rendering/Light Anchor")]
+// [ExecuteInEditMode]
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.LightAnchor::UpDirection, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: false
@@ -305,13 +308,13 @@ protected:
   constexpr LightAnchor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightAnchor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightAnchor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightAnchor(LightAnchor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightAnchor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightAnchor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightAnchor(LightAnchor const&) = delete;
+  LightAnchor(LightAnchorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11851 };
@@ -325,24 +328,32 @@ public:
   /// @brief Field k_MaxDistance offset 0xffffffff size 0x4
   static constexpr float_t k_MaxDistance{ static_cast<float_t>(10000.0f) };
 
+  /// [SerializeField]
+  /// [Min(0)]
   /// @brief Field m_Distance, offset: 0x20, size: 0x4, def value: None
   float_t ___m_Distance;
 
+  /// [SerializeField]
   /// @brief Field m_FrameSpace, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::LightAnchor_UpDirection ___m_FrameSpace;
 
+  /// [SerializeField]
   /// @brief Field m_AnchorPositionOverride, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___m_AnchorPositionOverride;
 
+  /// [SerializeField]
   /// @brief Field m_AnchorPositionOffset, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_AnchorPositionOffset;
 
+  /// [SerializeField]
   /// @brief Field m_Yaw, offset: 0x3c, size: 0x4, def value: None
   float_t ___m_Yaw;
 
+  /// [SerializeField]
   /// @brief Field m_Pitch, offset: 0x40, size: 0x4, def value: None
   float_t ___m_Pitch;
 
+  /// [SerializeField]
   /// @brief Field m_Roll, offset: 0x44, size: 0x4, def value: None
   float_t ___m_Roll;
 

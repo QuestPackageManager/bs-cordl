@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\XRGraphicsAutomatedTests.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/XRGraphicsAutomatedTests.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__XRGraphicsAutomatedTests_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__XRLayout_def.hpp"

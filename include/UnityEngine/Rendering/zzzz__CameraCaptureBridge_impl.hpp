@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CameraCaptureBridge.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CameraCaptureBridge.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraCaptureBridge_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

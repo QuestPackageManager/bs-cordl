@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\TempMeshAllocatorImpl.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TempMeshAllocatorImpl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TempMeshAllocatorImpl_def.hpp"
@@ -11,7 +11,7 @@
 #include "UnityEngine/UIElements/UIR/zzzz__TempMeshAllocatorImpl_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TempMeshAllocator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
-// Ctor Parameters [CppParam { name: "allocations", ty: "::System::Collections::Generic::List_1<::System::IntPtr>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "allocations", ty: "::System::Collections::Generic::List_1<::System::IntPtr>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl_ThreadData::TempMeshAllocatorImpl_ThreadData(::System::Collections::Generic::List_1<::System::IntPtr>* allocations) noexcept {
   this->allocations = allocations;
 }
@@ -195,7 +195,9 @@ inline void UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::CreateNativeHan
                                                                                          { "CreateNativeHandle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::TempMeshAllocator>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, allocator);
 }
-template <typename T> inline ::Unity::Collections::NativeSlice_1<T> UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::Allocate(int32_t count, int32_t alignment) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeSlice_1<T> UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::Allocate(int32_t count, int32_t alignment) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl*>(),
                                                                                               { "Allocate", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

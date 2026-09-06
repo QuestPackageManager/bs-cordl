@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ConstructorInfo.hpp"
+// IWYU pragma private; include "System/Reflection/ConstructorInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,10 +51,12 @@ public:
   /// @brief Method GetHashCode, addr 0x5b7da00, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
 
+  /// [DebuggerHidden]
+  /// [DebuggerStepThrough]
   /// @brief Method Invoke, addr 0x5b7d9c8, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*> parameters);
 
@@ -86,13 +88,13 @@ protected:
   constexpr ConstructorInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConstructorInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstructorInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConstructorInfo(ConstructorInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConstructorInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstructorInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConstructorInfo(ConstructorInfo const&) = delete;
+  ConstructorInfo(ConstructorInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3481 };

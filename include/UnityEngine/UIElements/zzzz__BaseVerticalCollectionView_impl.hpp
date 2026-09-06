@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseVerticalCollectionView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseVerticalCollectionView.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
@@ -8,6 +8,7 @@
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CollectionVirtualizationMethod_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SelectionType_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
@@ -793,8 +794,9 @@ inline ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass18
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass180_0::BaseVerticalCollectionView___c__DisplayClass180_0() {}
-// Ctor Parameters [CppParam { name: "selectedIndicesChanged", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityEngine::UIElements::BaseVerticalCollectionView*", modifiers: "", def_value: Some("{}") }, CppParam { name: "previousSelectionCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "selectedIndicesChanged", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityEngine::UIElements::BaseVerticalCollectionView*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "previousSelectionCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass191_0::BaseVerticalCollectionView___c__DisplayClass191_0(
     bool selectedIndicesChanged, ::UnityEngine::UIElements::BaseVerticalCollectionView* __4__this, int32_t previousSelectionCount) noexcept {
   this->selectedIndicesChanged = selectedIndicesChanged;
@@ -803,8 +805,8 @@ constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClas
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass191_0::BaseVerticalCollectionView___c__DisplayClass191_0() {}
-// Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::BaseVerticalCollectionView*", modifiers: "", def_value: Some("{}") }, CppParam { name: "shiftKey", ty: "bool",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::BaseVerticalCollectionView*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shiftKey", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView___c__DisplayClass202_0::BaseVerticalCollectionView___c__DisplayClass202_0(
     ::UnityEngine::UIElements::BaseVerticalCollectionView* __4__this, bool shiftKey) noexcept {
   this->__4__this = __4__this;
@@ -1071,6 +1073,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::BaseVertical
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88* UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseVerticalCollectionView__get_selectedItems_d__88*>(__1__state));
 }
@@ -3225,7 +3228,9 @@ inline ::UnityEngine::UIElements::CollectionVirtualizationController* UnityEngin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "GetOrCreateVirtualizationController", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::CollectionVirtualizationController*>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::BaseVerticalCollectionView::CreateVirtualizationController() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::BaseVerticalCollectionView::CreateVirtualizationController() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseVerticalCollectionView*>(), { "CreateVirtualizationController", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

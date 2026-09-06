@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS\Internal\Xml\XPath\XPathParser.hpp"
+// IWYU pragma private; include "MS/Internal/Xml/XPath/XPathParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,13 +124,13 @@ protected:
   constexpr XPathParser_ParamInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XPathParser_ParamInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XPathParser_ParamInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XPathParser_ParamInfo(XPathParser_ParamInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XPathParser_ParamInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XPathParser_ParamInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XPathParser_ParamInfo(XPathParser_ParamInfo const&) = delete;
+  XPathParser_ParamInfo(XPathParser_ParamInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9875 };
@@ -368,13 +368,13 @@ protected:
   constexpr XPathParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XPathParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XPathParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XPathParser(XPathParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XPathParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XPathParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XPathParser(XPathParser const&) = delete;
+  XPathParser(XPathParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9876 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DMaterialSwitchEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DMaterialSwitchEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__GridElementController_impl.hpp"
 #include "UnityEngine/zzzz__Material_impl.hpp"

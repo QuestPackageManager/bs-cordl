@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\TransientProvider.hpp"
+// IWYU pragma private; include "Zenject/TransientProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ MARK_REF_T(::Zenject::TransientProvider*);
 MARK_REF_T(::Zenject::TransientProvider___c__DisplayClass11_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::TransientProvider*, "Zenject", "TransientProvider");
 DEFINE_IL2CPP_CLASS(::Zenject::TransientProvider___c__DisplayClass11_0*, "Zenject", "TransientProvider/<>c__DisplayClass11_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -115,6 +116,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e8d124, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8d168, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -127,13 +129,13 @@ protected:
   constexpr TransientProvider___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransientProvider___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransientProvider___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransientProvider___c__DisplayClass11_0(TransientProvider___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransientProvider___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransientProvider___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransientProvider___c__DisplayClass11_0(TransientProvider___c__DisplayClass11_0 const&) = delete;
+  TransientProvider___c__DisplayClass11_0(TransientProvider___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14652 };
@@ -169,6 +171,7 @@ static_assert(offsetof(::Zenject::TransientProvider___c__DisplayClass11_0, ___co
 static_assert(sizeof(::Zenject::TransientProvider___c__DisplayClass11_0) == 0x38, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -264,13 +267,13 @@ protected:
   constexpr TransientProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransientProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransientProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransientProvider(TransientProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransientProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransientProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransientProvider(TransientProvider const&) = delete;
+  TransientProvider(TransientProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14653 };

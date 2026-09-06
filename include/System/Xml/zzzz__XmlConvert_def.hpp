@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlConvert.hpp"
+// IWYU pragma private; include "System/Xml/XmlConvert.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -180,6 +180,7 @@ public:
   /// @brief Method ToChar, addr 0x62dd730, size 0xb8, virtual false, abstract: false, final false
   static inline char16_t ToChar(::StringW s);
 
+  /// [Obsolete("Use XmlConvert.ToDateTime() that takes in XmlDateTimeSerializationMode")]
   /// @brief Method ToDateTime, addr 0x62dfb04, size 0x60, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::StringW s);
 
@@ -213,6 +214,7 @@ public:
   /// @brief Method ToInteger, addr 0x62ddba4, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Decimal ToInteger(::StringW s);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x62dddc0, size 0x28, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::StringW s);
 
@@ -258,15 +260,19 @@ public:
   /// @brief Method ToString, addr 0x62dc99c, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW ToString(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToString, addr 0x62dc918, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToString, addr 0x62dc9f0, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToString, addr 0x62dca1c, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToString, addr 0x62dca48, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint64_t value);
 
@@ -276,12 +282,15 @@ public:
   /// @brief Method ToTimeSpan, addr 0x62df3b8, size 0x184, virtual false, abstract: false, final false
   static inline ::System::TimeSpan ToTimeSpan(::StringW s);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x62de5e0, size 0x28, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::StringW s);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x62de780, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::StringW s);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x62de920, size 0x28, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::StringW s);
 
@@ -421,13 +430,13 @@ protected:
   constexpr XmlConvert();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlConvert", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlConvert", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlConvert(XmlConvert&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlConvert", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlConvert", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlConvert(XmlConvert const&) = delete;
+  XmlConvert(XmlConvertconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9435 };

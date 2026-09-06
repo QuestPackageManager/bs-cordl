@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\ColorGradingLutPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/ColorGradingLutPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorGradingLutPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -167,13 +169,13 @@ protected:
   constexpr ColorGradingLutPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorGradingLutPass_PassData(ColorGradingLutPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGradingLutPass_PassData(ColorGradingLutPass_PassData const&) = delete;
+  ColorGradingLutPass_PassData(ColorGradingLutPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13070 };
@@ -395,13 +397,13 @@ protected:
   constexpr ColorGradingLutPass_ShaderConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_ShaderConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_ShaderConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorGradingLutPass_ShaderConstants(ColorGradingLutPass_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_ShaderConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGradingLutPass_ShaderConstants(ColorGradingLutPass_ShaderConstants const&) = delete;
+  ColorGradingLutPass_ShaderConstants(ColorGradingLutPass_ShaderConstantsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13071 };
@@ -412,6 +414,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_ShaderConstants) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -452,13 +455,13 @@ protected:
   constexpr ColorGradingLutPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorGradingLutPass___c(ColorGradingLutPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGradingLutPass___c(ColorGradingLutPass___c const&) = delete;
+  ColorGradingLutPass___c(ColorGradingLutPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13072 };
@@ -507,13 +510,14 @@ public:
   inline void Cleanup();
 
   /// @brief Method ConfigureDescriptor, addr 0x68f8c94, size 0x54, virtual false, abstract: false, final false
-  inline void ConfigureDescriptor(::by_ref<::UnityEngine::Rendering::Universal::PostProcessingData> postProcessingData, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+  inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::PostProcessingData> postProcessingData, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
                                   ::by_ref<::UnityEngine::FilterMode> filterMode);
 
   /// @brief Method ConfigureDescriptor, addr 0x68f8ce8, size 0x90, virtual false, abstract: false, final false
-  inline void ConfigureDescriptor(::by_ref<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*> postProcessingData, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
-                                  ::by_ref<::UnityEngine::FilterMode> filterMode);
+  inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*> postProcessingData,
+                                  ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::by_ref<::UnityEngine::FilterMode> filterMode);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68f8d78, size 0x1b4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -529,7 +533,7 @@ public:
                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> internalColorLut);
 
   /// @brief Method Setup, addr 0x68f8c88, size 0xc, virtual false, abstract: false, final false
-  inline void Setup(::by_ref<::UnityEngine::Rendering::RTHandle*> internalLut);
+  inline void Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> internalLut);
 
   constexpr bool const& __cordl_internal_get_m_AllowColorGradingACESHDR() const;
 
@@ -573,6 +577,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* value);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>g__Load|7_0, addr 0x68f8b90, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> __ctor_g__Load_7_0(::UnityEngine::Shader* shader);
 
@@ -585,13 +590,13 @@ protected:
   constexpr ColorGradingLutPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorGradingLutPass(ColorGradingLutPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGradingLutPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGradingLutPass(ColorGradingLutPass const&) = delete;
+  ColorGradingLutPass(ColorGradingLutPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13073 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Style.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Style.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,13 +57,13 @@ protected:
   constexpr Style();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Style", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Style", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Style(Style&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Style", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Style", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Style(Style const&) = delete;
+  Style(Styleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18423 };

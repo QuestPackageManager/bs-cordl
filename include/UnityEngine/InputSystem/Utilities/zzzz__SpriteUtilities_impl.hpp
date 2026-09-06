@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\SpriteUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/SpriteUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SpriteUtilities_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"

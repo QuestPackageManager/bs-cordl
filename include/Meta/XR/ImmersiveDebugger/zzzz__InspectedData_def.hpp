@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedData.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class InspectedData;
 // Write type traits
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::InspectedData*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::InspectedData*, "Meta.XR.ImmersiveDebugger", "InspectedData");
+// [CreateAssetMenu(fileName = "InspectedData", menuName = "Meta/ImmersiveDebugger/InspectedData", order = 100)]
 // Dependencies UnityEngine.ScriptableObject
 namespace Meta::XR::ImmersiveDebugger {
 // Is value type: false
@@ -65,20 +66,23 @@ protected:
   constexpr InspectedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InspectedData(InspectedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectedData(InspectedData const&) = delete;
+  InspectedData(InspectedDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18328 };
 
+  /// [Tooltip("The name of the InspectedData, used to manage this asset in Immersive Debugger settings")]
+  /// [SerializeField]
   /// @brief Field DisplayName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___DisplayName;
 
+  /// [SerializeField]
   /// @brief Field InspectedMembers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* ___InspectedMembers;
 

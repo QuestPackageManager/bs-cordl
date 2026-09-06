@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRDevice.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRDevice.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRDevice_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -71,7 +71,7 @@ inline bool UnityEngine::XR::XRDevice::SetTrackingSpaceType(::UnityEngine::XR::T
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::XRDevice*>(), { "SetTrackingSpaceType", {}, { ::i2c::type_of<::UnityEngine::XR::TrackingSpaceType>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, trackingSpaceType);
 }
-inline void UnityEngine::XR::XRDevice::DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled) {
+inline void UnityEngine::XR::XRDevice::DisableAutoXRCameraTracking(/* [NotNull] */ ::UnityEngine::Camera* camera, bool disabled) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::XRDevice*>(), { "DisableAutoXRCameraTracking", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<bool>() } })));

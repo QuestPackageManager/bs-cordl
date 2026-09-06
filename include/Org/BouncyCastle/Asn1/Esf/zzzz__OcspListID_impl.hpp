@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\OcspListID.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/OcspListID.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspListID_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OcspResponsesID_def.hpp"
@@ -110,7 +110,7 @@ inline void Org::BouncyCastle::Asn1::Esf::OcspListID::_ctor(::Org::BouncyCastle:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::OcspListID*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, seq);
 }
-inline void Org::BouncyCastle::Asn1::Esf::OcspListID::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses) {
+inline void Org::BouncyCastle::Asn1::Esf::OcspListID::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::OcspListID*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ocspResponses);
@@ -132,7 +132,7 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::Ocsp
 inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* Org::BouncyCastle::Asn1::Esf::OcspListID::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::OcspListID*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* Org::BouncyCastle::Asn1::Esf::OcspListID::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses) {
+inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* Org::BouncyCastle::Asn1::Esf::OcspListID::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*> ocspResponses) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::OcspListID*>(ocspResponses));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* Org::BouncyCastle::Asn1::Esf::OcspListID::New_ctor(::System::Collections::IEnumerable* ocspResponses) {

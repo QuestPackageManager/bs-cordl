@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\IAvatarBehaviour.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/IAvatarBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,21 +26,21 @@ public:
 
   __declspec(property(get = get_OculusId)) uint64_t OculusId;
 
-  /// @brief Method ReceiveStreamData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReceiveStreamData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReceiveStreamData(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method get_HasInputAuthority, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_HasInputAuthority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasInputAuthority();
 
-  /// @brief Method get_LocalAvatarIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_LocalAvatarIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_LocalAvatarIndex();
 
-  /// @brief Method get_OculusId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_OculusId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint64_t get_OculusId();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAvatarBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAvatarBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAvatarBehaviour(IAvatarBehaviour const&) = delete;
+  IAvatarBehaviour(IAvatarBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20876 };

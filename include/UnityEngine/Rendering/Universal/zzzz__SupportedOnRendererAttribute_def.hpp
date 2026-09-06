@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\SupportedOnRendererAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/SupportedOnRendererAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class SupportedOnRendererAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute*, "UnityEngine.Rendering.Universal", "SupportedOnRendererAttribute");
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute, System.Type
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -31,7 +32,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute* New_ctor(::System::Type* renderer);
 
-  static inline ::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute* New_ctor(::ArrayW<::System::Type*> renderers);
+  static inline ::UnityEngine::Rendering::Universal::SupportedOnRendererAttribute* New_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderers);
 
   constexpr ::ArrayW<::System::Type*> const& __cordl_internal_get__rendererTypes_k__BackingField() const;
 
@@ -43,8 +44,9 @@ public:
   inline void _ctor(::System::Type* renderer);
 
   /// @brief Method .ctor, addr 0x68bef54, size 0x18c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::Type*> renderers);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderers);
 
+  /// [CompilerGenerated]
   /// @brief Method get_rendererTypes, addr 0x68beea8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_rendererTypes();
 
@@ -54,17 +56,18 @@ protected:
   constexpr SupportedOnRendererAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRendererAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRendererAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SupportedOnRendererAttribute(SupportedOnRendererAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRendererAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportedOnRendererAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SupportedOnRendererAttribute(SupportedOnRendererAttribute const&) = delete;
+  SupportedOnRendererAttribute(SupportedOnRendererAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12966 };
 
+  /// [CompilerGenerated]
   /// @brief Field <rendererTypes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*> ____rendererTypes_k__BackingField;
 

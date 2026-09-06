@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspTypePropertyAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspTypePropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AspTypePropertyAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::AspTypePropertyAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::AspTypePropertyAttribute*, "JetBrains.Annotations", "AspTypePropertyAttribute");
+// [AttributeUsage((System.AttributeTargets)128)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -36,9 +37,11 @@ public:
   /// @brief Method .ctor, addr 0x6e3e25c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool createConstructorReferences);
 
+  /// [CompilerGenerated]
   /// @brief Method get_CreateConstructorReferences, addr 0x6e3e24c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateConstructorReferences();
 
+  /// [CompilerGenerated]
   /// @brief Method set_CreateConstructorReferences, addr 0x6e3e254, size 0x8, virtual false, abstract: false, final false
   inline void set_CreateConstructorReferences(bool value);
 
@@ -48,17 +51,18 @@ protected:
   constexpr AspTypePropertyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspTypePropertyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspTypePropertyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspTypePropertyAttribute(AspTypePropertyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspTypePropertyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspTypePropertyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AspTypePropertyAttribute(AspTypePropertyAttribute const&) = delete;
+  AspTypePropertyAttribute(AspTypePropertyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22601 };
 
+  /// [CompilerGenerated]
   /// @brief Field <CreateConstructorReferences>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____CreateConstructorReferences_k__BackingField;
 

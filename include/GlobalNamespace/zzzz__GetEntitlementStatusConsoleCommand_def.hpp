@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GetEntitlementStatusConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/GetEntitlementStatusConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace GlobalNamespace {
 class IEntitlementModel;
 }
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class OptionalArgument_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -47,6 +49,7 @@ MARK_REF_T(::GlobalNamespace::GetEntitlementStatusConsoleCommand*);
 MARK_VAL_T(::GlobalNamespace::GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GetEntitlementStatusConsoleCommand*, "", "GetEntitlementStatusConsoleCommand");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9, "", "GetEntitlementStatusConsoleCommand/<ExecuteAsync>d__9");
+// [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -60,6 +63,7 @@ public:
   /// @brief Method MoveNext, addr 0x32dba88, size 0x7d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32dc25c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -70,10 +74,10 @@ public:
   // @brief default ctor
   constexpr GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::GetEntitlementStatusConsoleCommand*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::GetEntitlementStatusConsoleCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None, comment: None }]
   constexpr GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                   ::GlobalNamespace::GetEntitlementStatusConsoleCommand* __4__this,
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
@@ -110,6 +114,7 @@ static_assert(offsetof(::GlobalNamespace::GetEntitlementStatusConsoleCommand__Ex
 static_assert(sizeof(::GlobalNamespace::GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -135,6 +140,7 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
+  /// [AsyncStateMachine(typeof(GetEntitlementStatusConsoleCommand::<ExecuteAsync>d__9))]
   /// @brief Method ExecuteAsync, addr 0x32db85c, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
@@ -182,20 +188,22 @@ protected:
   constexpr GetEntitlementStatusConsoleCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GetEntitlementStatusConsoleCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetEntitlementStatusConsoleCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetEntitlementStatusConsoleCommand(GetEntitlementStatusConsoleCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GetEntitlementStatusConsoleCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetEntitlementStatusConsoleCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GetEntitlementStatusConsoleCommand(GetEntitlementStatusConsoleCommand const&) = delete;
+  GetEntitlementStatusConsoleCommand(GetEntitlementStatusConsoleCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19397 };
 
+  /// [Inject]
   /// @brief Field _entitlementModel, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 

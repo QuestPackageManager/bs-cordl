@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlBoolAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlBoolAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ MARK_REF_T(::UnityEngine::UIElements::UxmlBoolAttributeDescription*);
 MARK_REF_T(::UnityEngine::UIElements::UxmlBoolAttributeDescription___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlBoolAttributeDescription*, "UnityEngine.UIElements", "UxmlBoolAttributeDescription");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlBoolAttributeDescription___c*, "UnityEngine.UIElements", "UxmlBoolAttributeDescription/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -66,13 +67,13 @@ protected:
   constexpr UxmlBoolAttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlBoolAttributeDescription___c(UxmlBoolAttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlBoolAttributeDescription___c(UxmlBoolAttributeDescription___c const&) = delete;
+  UxmlBoolAttributeDescription___c(UxmlBoolAttributeDescription___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5164 };
@@ -109,13 +110,13 @@ protected:
   constexpr UxmlBoolAttributeDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlBoolAttributeDescription(UxmlBoolAttributeDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlBoolAttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlBoolAttributeDescription(UxmlBoolAttributeDescription const&) = delete;
+  UxmlBoolAttributeDescription(UxmlBoolAttributeDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5165 };

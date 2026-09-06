@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLModel.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ protected:
   constexpr GraphQLModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLModel(GraphQLModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLModel(GraphQLModel const&) = delete;
+  GraphQLModel(GraphQLModelconst&) = delete;
 
   /// @brief Field UNKNOWN_ENUM_VALUE offset 0xffffffff size 0x8
   static constexpr ::ConstString UNKNOWN_ENUM_VALUE{ u"__UnknownValue" };

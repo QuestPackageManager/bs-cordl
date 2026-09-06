@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchySearchQueryDescriptor.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchySearchQueryDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ MARK_REF_T(::Unity::Hierarchy::HierarchySearchQueryDescriptor*);
 MARK_REF_T(::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchySearchQueryDescriptor*, "Unity.Hierarchy", "HierarchySearchQueryDescriptor");
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchySearchQueryDescriptor___c*, "Unity.Hierarchy", "HierarchySearchQueryDescriptor/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Unity::Hierarchy {
 // Is value type: false
@@ -80,13 +81,13 @@ protected:
   constexpr HierarchySearchQueryDescriptor___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchySearchQueryDescriptor___c(HierarchySearchQueryDescriptor___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchySearchQueryDescriptor___c(HierarchySearchQueryDescriptor___c const&) = delete;
+  HierarchySearchQueryDescriptor___c(HierarchySearchQueryDescriptor___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21954 };
@@ -97,6 +98,9 @@ public:
 static_assert(sizeof(::Unity::Hierarchy::HierarchySearchQueryDescriptor___c) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Hierarchy
+// [RequiredByNativeCode]
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchySearch.h")]
+// [NativeAsStruct]
 // Dependencies System.Object, Unity.Hierarchy.HierarchySearchFilter
 namespace Unity::Hierarchy {
 // Is value type: false
@@ -142,6 +146,7 @@ public:
   /// @brief Field s_SystemFilters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_SystemFilters, put = setStaticF_s_SystemFilters)) ::System::Collections::Generic::HashSet_1<::StringW>* s_SystemFilters;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.HierarchyModule" })]
   /// @brief Method BuildFilterQuery, addr 0x6b3b36c, size 0x68, virtual false, abstract: false, final false
   inline ::StringW BuildFilterQuery();
 
@@ -201,12 +206,15 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<::StringW>* getStaticF_s_SystemFilters();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Filters, addr 0x6b3ae58, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> get_Filters();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SystemFilters, addr 0x6b3ae48, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> get_SystemFilters();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TextValues, addr 0x6b3ae68, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_TextValues();
 
@@ -216,18 +224,23 @@ public:
 
   static inline void setStaticF_s_SystemFilters(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Filters, addr 0x6b3ae60, size 0x8, virtual false, abstract: false, final false
   inline void set_Filters(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Invalid, addr 0x6b3ae80, size 0x8, virtual false, abstract: false, final false
   inline void set_Invalid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Strict, addr 0x6b3ae78, size 0x8, virtual false, abstract: false, final false
   inline void set_Strict(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SystemFilters, addr 0x6b3ae50, size 0x8, virtual false, abstract: false, final false
   inline void set_SystemFilters(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TextValues, addr 0x6b3ae70, size 0x8, virtual false, abstract: false, final false
   inline void set_TextValues(::ArrayW<::StringW> value);
 
@@ -237,29 +250,39 @@ protected:
   constexpr HierarchySearchQueryDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchySearchQueryDescriptor(HierarchySearchQueryDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchySearchQueryDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchySearchQueryDescriptor(HierarchySearchQueryDescriptor const&) = delete;
+  HierarchySearchQueryDescriptor(HierarchySearchQueryDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21955 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <SystemFilters>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> ____SystemFilters_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Filters>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> ____Filters_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <TextValues>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::StringW> ____TextValues_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Strict>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____Strict_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Invalid>k__BackingField, offset: 0x29, size: 0x1, def value: None
   bool ____Invalid_k__BackingField;
 

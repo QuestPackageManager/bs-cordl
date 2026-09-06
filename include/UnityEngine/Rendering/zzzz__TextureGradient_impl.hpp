@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\TextureGradient.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/TextureGradient.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ColorSpace_impl.hpp"
 #include "UnityEngine/zzzz__GradientMode_impl.hpp"

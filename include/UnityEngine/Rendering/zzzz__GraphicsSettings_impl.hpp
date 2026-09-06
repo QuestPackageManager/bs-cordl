@@ -1,6 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GraphicsSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GraphicsSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderPipeline_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GraphicsSettings_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -383,7 +385,9 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::Rendering::GraphicsSettings:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(), { "Internal_GetSettingsForRenderPipeline", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, renderpipelineName);
 }
-template <typename T> inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> UnityEngine::Rendering::GraphicsSettings::GetSettingsForRenderPipeline() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderPipeline*>)
+inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> UnityEngine::Rendering::GraphicsSettings::GetSettingsForRenderPipeline() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(), { "GetSettingsForRenderPipeline", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -400,13 +404,17 @@ inline bool UnityEngine::Rendering::GraphicsSettings::TryGetCurrentRenderPipelin
                                               { "TryGetCurrentRenderPipelineGlobalSettings", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderPipelineGlobalSettings*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, asset);
 }
-template <typename T> inline T UnityEngine::Rendering::GraphicsSettings::GetRenderPipelineSettings() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> && ::cordl_internals::reference_type_constraint<T>)
+inline T UnityEngine::Rendering::GraphicsSettings::GetRenderPipelineSettings() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(), { "GetRenderPipelineSettings", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method);
 }
-template <typename T> inline bool UnityEngine::Rendering::GraphicsSettings::TryGetRenderPipelineSettings(::by_ref<T> settings) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> && ::cordl_internals::reference_type_constraint<T>)
+inline bool UnityEngine::Rendering::GraphicsSettings::TryGetRenderPipelineSettings(::by_ref<T> settings) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GraphicsSettings*>(),
                                                                                               { "TryGetRenderPipelineSettings", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

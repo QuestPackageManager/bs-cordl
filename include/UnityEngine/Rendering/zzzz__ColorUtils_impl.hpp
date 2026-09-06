@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ColorUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ColorUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ColorUtils_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
@@ -248,8 +248,8 @@ inline ::UnityEngine::Vector3 UnityEngine::Rendering::ColorUtils::ColorBalanceTo
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, temperature, tint);
 }
 inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4>
-UnityEngine::Rendering::ColorUtils::PrepareShadowsMidtonesHighlights(::by_ref<::UnityEngine::Vector4> inShadows, ::by_ref<::UnityEngine::Vector4> inMidtones,
-                                                                     ::by_ref<::UnityEngine::Vector4> inHighlights) {
+UnityEngine::Rendering::ColorUtils::PrepareShadowsMidtonesHighlights(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inShadows, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inMidtones,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inHighlights) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ColorUtils*>(),
@@ -260,7 +260,8 @@ UnityEngine::Rendering::ColorUtils::PrepareShadowsMidtonesHighlights(::by_ref<::
                                                                                                                                              inHighlights);
 }
 inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4>
-UnityEngine::Rendering::ColorUtils::PrepareLiftGammaGain(::by_ref<::UnityEngine::Vector4> inLift, ::by_ref<::UnityEngine::Vector4> inGamma, ::by_ref<::UnityEngine::Vector4> inGain) {
+UnityEngine::Rendering::ColorUtils::PrepareLiftGammaGain(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inLift, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inGamma,
+                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inGain) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ColorUtils*>(),
@@ -269,15 +270,16 @@ UnityEngine::Rendering::ColorUtils::PrepareLiftGammaGain(::by_ref<::UnityEngine:
                             { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4>>(nullptr, ___internal_method, inLift, inGamma, inGain);
 }
-inline ::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector4> UnityEngine::Rendering::ColorUtils::PrepareSplitToning(::by_ref<::UnityEngine::Vector4> inShadows,
-                                                                                                                                     ::by_ref<::UnityEngine::Vector4> inHighlights, float_t balance) {
+inline ::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector4> UnityEngine::Rendering::ColorUtils::PrepareSplitToning(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inShadows,
+                                                                                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inHighlights,
+                                                                                                                                     float_t balance) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ColorUtils*>(),
                           { "PrepareSplitToning", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector4>>(nullptr, ___internal_method, inShadows, inHighlights, balance);
 }
-inline float_t UnityEngine::Rendering::ColorUtils::Luminance(::by_ref<::UnityEngine::Color> color) {
+inline float_t UnityEngine::Rendering::ColorUtils::Luminance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color> color) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ColorUtils*>(), { "Luminance", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, color);

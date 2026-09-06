@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RendererList.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RendererList.hpp"
 #include "System/zzzz__UIntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RendererList_def.hpp"
 #include "System/zzzz__UIntPtr_def.hpp"
@@ -43,9 +43,9 @@ inline void UnityEngine::Rendering::RendererList::_ctor(::System::UIntPtr ctx, u
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererList>(), { ".ctor", {}, { ::i2c::type_of<::System::UIntPtr>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ctx, indx);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "::System::UIntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "frame", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "contextID", ty:
-// "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "context", ty: "::System::UIntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "frame", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "contextID", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RendererList::RendererList(::System::UIntPtr context, uint32_t index, uint32_t frame, uint32_t type, uint32_t contextID) noexcept {
   this->context = context;
   this->index = index;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionClearedEnvironmentEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionClearedEnvironmentEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class MissionClearedEnvironmentEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MissionClearedEnvironmentEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionClearedEnvironmentEffect*, "", "MissionClearedEnvironmentEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/MissionClearedEnvironmentEffect")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -66,20 +67,22 @@ protected:
   constexpr MissionClearedEnvironmentEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionClearedEnvironmentEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionClearedEnvironmentEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionClearedEnvironmentEffect(MissionClearedEnvironmentEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionClearedEnvironmentEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionClearedEnvironmentEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionClearedEnvironmentEffect(MissionClearedEnvironmentEffect const&) = delete;
+  MissionClearedEnvironmentEffect(MissionClearedEnvironmentEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6775 };
 
+  /// [SerializeField]
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

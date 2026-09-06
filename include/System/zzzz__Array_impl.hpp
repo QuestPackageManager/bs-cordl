@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Array.hpp"
+// IWYU pragma private; include "System/Array.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -252,7 +252,8 @@ template <typename T> constexpr System::Array_InternalEnumerator_1<T>::operator 
 template <typename T> constexpr ::System::Collections::IEnumerator* System::Array_InternalEnumerator_1<T>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "array", ty: "::System::Array*", modifiers: "", def_value: Some("{}") }, CppParam { name: "idx", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "array", ty: "::System::Array*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "idx", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 template <typename T> constexpr ::System::Array_InternalEnumerator_1<T>::Array_InternalEnumerator_1(::System::Array* array, int32_t idx) noexcept {
   this->array = array;
   this->idx = idx;
@@ -507,8 +508,8 @@ inline void System::Array_SorterObjectArray::InsertionSort(int32_t lo, int32_t h
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array_SorterObjectArray>(), { "InsertionSort", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, lo, hi);
 }
-// Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "items", ty: "::ArrayW<::System::Object*>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "comparer", ty: "::System::Collections::IComparer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "items", ty: "::ArrayW<::System::Object*>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "comparer", ty: "::System::Collections::IComparer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Array_SorterObjectArray::Array_SorterObjectArray(::ArrayW<::System::Object*> keys, ::ArrayW<::System::Object*> items, ::System::Collections::IComparer* comparer) noexcept {
   this->keys = keys;
   this->items = items;
@@ -699,8 +700,8 @@ inline void System::Array_SorterGenericArray::InsertionSort(int32_t lo, int32_t 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array_SorterGenericArray>(), { "InsertionSort", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, lo, hi);
 }
-// Ctor Parameters [CppParam { name: "keys", ty: "::System::Array*", modifiers: "", def_value: Some("{}") }, CppParam { name: "items", ty: "::System::Array*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "comparer", ty: "::System::Collections::IComparer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "keys", ty: "::System::Array*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "items", ty: "::System::Array*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "comparer", ty: "::System::Collections::IComparer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Array_SorterGenericArray::Array_SorterGenericArray(::System::Array* keys, ::System::Array* items, ::System::Collections::IComparer* comparer) noexcept {
   this->keys = keys;
   this->items = items;
@@ -2017,7 +2018,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Array*
     return ___internal_method;
   }
 };
-inline ::System::Array* System::Array::CreateInstance(::System::Type* elementType, ::ArrayW<int64_t> lengths) {
+inline ::System::Array* System::Array::CreateInstance(::System::Type* elementType, /* [ParamArray] */ ::ArrayW<int64_t> lengths) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "CreateInstance", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<int64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Array*>(nullptr, ___internal_method, elementType, lengths);
@@ -2181,7 +2182,7 @@ inline ::System::Object* System::Array::GetValue(int64_t index1, int64_t index2,
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "GetValue", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, index1, index2, index3);
 }
-inline ::System::Object* System::Array::GetValue(::ArrayW<int64_t> indices) {
+inline ::System::Object* System::Array::GetValue(/* [ParamArray] */ ::ArrayW<int64_t> indices) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "GetValue", {}, { ::i2c::type_of<::ArrayW<int64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, indices);
 }
@@ -2373,7 +2374,7 @@ inline void System::Array::SetValue(::System::Object* value, int64_t index1, int
                                               { "SetValue", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, index1, index2, index3);
 }
-inline void System::Array::SetValue(::System::Object* value, ::ArrayW<int64_t> indices) {
+inline void System::Array::SetValue(::System::Object* value, /* [ParamArray] */ ::ArrayW<int64_t> indices) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "SetValue", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::ArrayW<int64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, indices);
@@ -2715,11 +2716,11 @@ inline int32_t System::Array::GetLowerBound(int32_t dimension) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "GetLowerBound", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, dimension);
 }
-inline ::System::Object* System::Array::GetValue(::ArrayW<int32_t> indices) {
+inline ::System::Object* System::Array::GetValue(/* [ParamArray] */ ::ArrayW<int32_t> indices) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "GetValue", {}, { ::i2c::type_of<::ArrayW<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, indices);
 }
-inline void System::Array::SetValue(::System::Object* value, ::ArrayW<int32_t> indices) {
+inline void System::Array::SetValue(::System::Object* value, /* [ParamArray] */ ::ArrayW<int32_t> indices) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "SetValue", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::ArrayW<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, indices);
@@ -2793,7 +2794,7 @@ inline ::System::Array* System::Array::UnsafeCreateInstance(::System::Type* elem
       (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "UnsafeCreateInstance", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Array*>(nullptr, ___internal_method, elementType, length1, length2);
 }
-inline ::System::Array* System::Array::UnsafeCreateInstance(::System::Type* elementType, ::ArrayW<int32_t> lengths) {
+inline ::System::Array* System::Array::UnsafeCreateInstance(::System::Type* elementType, /* [ParamArray] */ ::ArrayW<int32_t> lengths) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "UnsafeCreateInstance", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Array*>(nullptr, ___internal_method, elementType, lengths);
@@ -2815,7 +2816,7 @@ inline ::System::Array* System::Array::CreateInstance(::System::Type* elementTyp
                                               { "CreateInstance", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Array*>(nullptr, ___internal_method, elementType, length1, length2, length3);
 }
-inline ::System::Array* System::Array::CreateInstance(::System::Type* elementType, ::ArrayW<int32_t> lengths) {
+inline ::System::Array* System::Array::CreateInstance(::System::Type* elementType, /* [ParamArray] */ ::ArrayW<int32_t> lengths) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Array*>(), { "CreateInstance", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Array*>(nullptr, ___internal_method, elementType, lengths);

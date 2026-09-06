@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerVerticalPlayerMovementManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerVerticalPlayerMovementManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -191,44 +191,55 @@ protected:
   constexpr MultiplayerVerticalPlayerMovementManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerVerticalPlayerMovementManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerVerticalPlayerMovementManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMovementManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerVerticalPlayerMovementManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerVerticalPlayerMovementManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMovementManager const&) = delete;
+  MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMovementManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6191 };
 
+  /// [Tooltip("Local player is 0, range is <-MovementRange/2, MovementRange/2>")]
+  /// [SerializeField]
   /// @brief Field _movementRange, offset: 0x20, size: 0x4, def value: None
   float_t ____movementRange;
 
+  /// [SerializeField]
   /// @brief Field _duelMovementRange, offset: 0x24, size: 0x4, def value: None
   float_t ____duelMovementRange;
 
+  /// [SerializeField]
   /// @brief Field _maxMoveSpeedMetersPerSecond, offset: 0x28, size: 0x4, def value: None
   float_t ____maxMoveSpeedMetersPerSecond;
 
+  /// [SerializeField]
   /// @brief Field _accelerationMetersPerSecondSquared, offset: 0x2c, size: 0x4, def value: None
   float_t ____accelerationMetersPerSecondSquared;
 
+  /// [SerializeField]
   /// @brief Field _decelerationMetersPerSecondSquared, offset: 0x30, size: 0x4, def value: None
   float_t ____decelerationMetersPerSecondSquared;
 
+  /// [SerializeField]
   /// @brief Field _minScoreDifference, offset: 0x34, size: 0x4, def value: None
   float_t ____minScoreDifference;
 
+  /// [Inject]
   /// @brief Field _multiplayerPlayersManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 
+  /// [Inject]
   /// @brief Field _scoreProvider, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
+  /// [Inject]
   /// @brief Field _layoutProvider, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 
+  /// [Inject]
   /// @brief Field _multiplayerController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 

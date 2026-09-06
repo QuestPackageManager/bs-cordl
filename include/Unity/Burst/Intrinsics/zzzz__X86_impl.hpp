@@ -1,12 +1,14 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\Intrinsics\X86.hpp"
+// IWYU pragma private; include "Unity/Burst/Intrinsics/X86.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__X86_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__X86_def.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__v128_def.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__v256_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Burst::Intrinsics::Avx_X86_CMP::Avx_X86_CMP(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -7788,7 +7790,10 @@ inline ::Unity::Burst::Intrinsics::v256 Unity::Burst::Intrinsics::X86_Avx2::mm25
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx2*>(), { "mm256_stream_load_si256", {}, { ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::Intrinsics::v256>(nullptr, ___internal_method, mem_addr);
 }
-template <typename T, typename U> inline void Unity::Burst::Intrinsics::X86_Avx2::EmulatedGather(T* dptr, void* base_addr, int64_t* indexPtr, int32_t scale, int32_t n, U* mask) {
+template <typename T, typename U>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::type_constraint<U, ::System::IComparable_1<U>*> &&
+           ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+inline void Unity::Burst::Intrinsics::X86_Avx2::EmulatedGather(T* dptr, void* base_addr, int64_t* indexPtr, int32_t scale, int32_t n, U* mask) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx2*>(),
@@ -7798,7 +7803,10 @@ template <typename T, typename U> inline void Unity::Burst::Intrinsics::X86_Avx2
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>(), ::i2c::class_of<U>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, dptr, base_addr, indexPtr, scale, n, mask);
 }
-template <typename T, typename U> inline void Unity::Burst::Intrinsics::X86_Avx2::EmulatedGather(T* dptr, void* base_addr, int32_t* indexPtr, int32_t scale, int32_t n, U* mask) {
+template <typename T, typename U>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::type_constraint<U, ::System::IComparable_1<U>*> &&
+           ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+inline void Unity::Burst::Intrinsics::X86_Avx2::EmulatedGather(T* dptr, void* base_addr, int32_t* indexPtr, int32_t scale, int32_t n, U* mask) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx2*>(),
@@ -8504,7 +8512,7 @@ inline uint64_t Unity::Burst::Intrinsics::X86_Bmi2::pext_u64(uint64_t a, uint64_
 }
 // Ctor Parameters []
 constexpr ::Unity::Burst::Intrinsics::X86_Bmi2::X86_Bmi2() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Burst::Intrinsics::X86_MXCSRBits::X86_MXCSRBits(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -8531,7 +8539,7 @@ constexpr ::Unity::Burst::Intrinsics::X86_MXCSRBits Unity::Burst::Intrinsics::X8
 constexpr ::Unity::Burst::Intrinsics::X86_MXCSRBits Unity::Burst::Intrinsics::X86_MXCSRBits::DenormalFlag{ static_cast<int32_t>(0x2) };
 constexpr ::Unity::Burst::Intrinsics::X86_MXCSRBits Unity::Burst::Intrinsics::X86_MXCSRBits::InvalidOperationFlag{ static_cast<int32_t>(0x1) };
 constexpr ::Unity::Burst::Intrinsics::X86_MXCSRBits Unity::Burst::Intrinsics::X86_MXCSRBits::FlagMask{ static_cast<int32_t>(0x3f) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Burst::Intrinsics::X86_RoundingMode::X86_RoundingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -8598,7 +8606,7 @@ constexpr Unity::Burst::Intrinsics::X86_RoundingScope::operator ::System::IDispo
 constexpr ::System::IDisposable* Unity::Burst::Intrinsics::X86_RoundingScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "OldBits", ty: "::Unity::Burst::Intrinsics::X86_MXCSRBits", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "OldBits", ty: "::Unity::Burst::Intrinsics::X86_MXCSRBits", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Burst::Intrinsics::X86_RoundingScope::X86_RoundingScope(::Unity::Burst::Intrinsics::X86_MXCSRBits OldBits) noexcept {
   this->OldBits = OldBits;
 }
@@ -8761,7 +8769,8 @@ constexpr uint32_t const& Unity::Burst::Intrinsics::Fma_X86_Union::__cordl_inter
 constexpr void Unity::Burst::Intrinsics::Fma_X86_Union::__cordl_internal_set_u(uint32_t value) {
   this->___u = value;
 }
-// Ctor Parameters [CppParam { name: "f", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "u", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "f", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "u", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::Unity::Burst::Intrinsics::Fma_X86_Union::Fma_X86_Union(float_t f, uint32_t u) noexcept {
   this->f = f;
   this->u = u;
@@ -16909,7 +16918,7 @@ inline int32_t Unity::Burst::Intrinsics::X86_Sse4_1::MK_INSERTPS_NDX(int32_t src
 }
 // Ctor Parameters []
 constexpr ::Unity::Burst::Intrinsics::X86_Sse4_1::X86_Sse4_1() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Burst::Intrinsics::Sse4_2_X86_SIDD::Sse4_2_X86_SIDD(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -16931,7 +16940,7 @@ constexpr ::Unity::Burst::Intrinsics::Sse4_2_X86_SIDD Unity::Burst::Intrinsics::
 constexpr ::Unity::Burst::Intrinsics::Sse4_2_X86_SIDD Unity::Burst::Intrinsics::Sse4_2_X86_SIDD::MOST_SIGNIFICANT{ static_cast<int32_t>(0x40) };
 constexpr ::Unity::Burst::Intrinsics::Sse4_2_X86_SIDD Unity::Burst::Intrinsics::Sse4_2_X86_SIDD::BIT_MASK{ static_cast<int32_t>(0x0) };
 constexpr ::Unity::Burst::Intrinsics::Sse4_2_X86_SIDD Unity::Burst::Intrinsics::Sse4_2_X86_SIDD::UNIT_MASK{ static_cast<int32_t>(0x40) };
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Burst::Intrinsics::StrBoolArray_Sse4_2_X86__Bits_e__FixedBuffer::StrBoolArray_Sse4_2_X86__Bits_e__FixedBuffer(uint16_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -16974,7 +16983,7 @@ inline bool Unity::Burst::Intrinsics::Sse4_2_X86_StrBoolArray::GetBit(int32_t ai
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::Sse4_2_X86_StrBoolArray>(), { "GetBit", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, aindex, bindex);
 }
-// Ctor Parameters [CppParam { name: "Bits", ty: "::Unity::Burst::Intrinsics::StrBoolArray_Sse4_2_X86__Bits_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Bits", ty: "::Unity::Burst::Intrinsics::StrBoolArray_Sse4_2_X86__Bits_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Burst::Intrinsics::Sse4_2_X86_StrBoolArray::Sse4_2_X86_StrBoolArray(::Unity::Burst::Intrinsics::StrBoolArray_Sse4_2_X86__Bits_e__FixedBuffer Bits) noexcept {
   this->Bits = Bits;
 }
@@ -17328,7 +17337,10 @@ inline bool Unity::Burst::Intrinsics::X86_Sse4_2::get_IsSse42Supported() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_2*>(), { "get_IsSse42Supported", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-template <typename T> inline ::Unity::Burst::Intrinsics::v128 Unity::Burst::Intrinsics::X86_Sse4_2::cmpistrm_emulation(T* a, T* b, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Burst::Intrinsics::v128 Unity::Burst::Intrinsics::X86_Sse4_2::cmpistrm_emulation(T* a, T* b, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_2*>(),
@@ -17339,6 +17351,8 @@ template <typename T> inline ::Unity::Burst::Intrinsics::v128 Unity::Burst::Intr
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::Intrinsics::v128>(nullptr, ___internal_method, a, b, len, imm8, allOnes, allOnesT);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Burst::Intrinsics::v128 Unity::Burst::Intrinsics::X86_Sse4_2::cmpestrm_emulation(T* a, int32_t alen, T* b, int32_t blen, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -17349,7 +17363,10 @@ inline ::Unity::Burst::Intrinsics::v128 Unity::Burst::Intrinsics::X86_Sse4_2::cm
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::Intrinsics::v128>(nullptr, ___internal_method, a, alen, b, blen, len, imm8, allOnes, allOnesT);
 }
-template <typename T> inline ::Unity::Burst::Intrinsics::v128 Unity::Burst::Intrinsics::X86_Sse4_2::ComputeStrmOutput(int32_t len, int32_t imm8, T allOnesT, int32_t intRes2) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Burst::Intrinsics::v128 Unity::Burst::Intrinsics::X86_Sse4_2::ComputeStrmOutput(int32_t len, int32_t imm8, T allOnesT, int32_t intRes2) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_2*>(),
@@ -17357,7 +17374,10 @@ template <typename T> inline ::Unity::Burst::Intrinsics::v128 Unity::Burst::Intr
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::Intrinsics::v128>(nullptr, ___internal_method, len, imm8, allOnesT, intRes2);
 }
-template <typename T> inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::cmpistri_emulation(T* a, T* b, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::cmpistri_emulation(T* a, T* b, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_2*>(),
@@ -17367,7 +17387,10 @@ template <typename T> inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::cmpis
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, a, b, len, imm8, allOnes, allOnesT);
 }
-template <typename T> inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::cmpestri_emulation(T* a, int32_t alen, T* b, int32_t blen, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::cmpestri_emulation(T* a, int32_t alen, T* b, int32_t blen, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_2*>(), { "cmpestri_emulation",
@@ -17383,14 +17406,19 @@ inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::ComputeStriOutput(int32_t l
                                                            { "ComputeStriOutput", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, len, imm8, intRes2);
 }
-template <typename T> inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::ComputeStringLength(T* ptr, int32_t max) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::ComputeStringLength(T* ptr, int32_t max) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_2*>(), { "ComputeStringLength", { ::i2c::class_of<T>() }, { ::i2c::type_of<T*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, ptr, max);
 }
-template <typename T> inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::ComputeStrCmpIntRes2(T* a, int32_t alen, T* b, int32_t blen, int32_t len, int32_t imm8, int32_t allOnes) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Burst::Intrinsics::X86_Sse4_2::ComputeStrCmpIntRes2(T* a, int32_t alen, T* b, int32_t blen, int32_t len, int32_t imm8, int32_t allOnes) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_2*>(), { "ComputeStrCmpIntRes2",

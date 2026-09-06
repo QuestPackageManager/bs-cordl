@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\InputField.hpp"
+// IWYU pragma private; include "UnityEngine/UI/InputField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -259,7 +259,7 @@ public:
   // @brief default ctor
   constexpr InputField_ContentType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputField_ContentType(int32_t value__) noexcept;
 
   /// @brief Field Alphanumeric value: I32(4)
@@ -339,7 +339,7 @@ public:
   // @brief default ctor
   constexpr InputField_InputType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputField_InputType(int32_t value__) noexcept;
 
   /// @brief Field AutoCorrect value: I32(1)
@@ -401,7 +401,7 @@ public:
   // @brief default ctor
   constexpr InputField_CharacterValidation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputField_CharacterValidation(int32_t value__) noexcept;
 
   /// @brief Field Alphanumeric value: I32(3)
@@ -469,7 +469,7 @@ public:
   // @brief default ctor
   constexpr InputField_LineType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputField_LineType(int32_t value__) noexcept;
 
   /// @brief Field MultiLineNewline value: I32(2)
@@ -525,13 +525,13 @@ protected:
   constexpr InputField_OnValidateInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputField_OnValidateInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField_OnValidateInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputField_OnValidateInput(InputField_OnValidateInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputField_OnValidateInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField_OnValidateInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputField_OnValidateInput(InputField_OnValidateInput const&) = delete;
+  InputField_OnValidateInput(InputField_OnValidateInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17432 };
@@ -560,13 +560,13 @@ protected:
   constexpr InputField_SubmitEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputField_SubmitEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField_SubmitEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputField_SubmitEvent(InputField_SubmitEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputField_SubmitEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField_SubmitEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputField_SubmitEvent(InputField_SubmitEvent const&) = delete;
+  InputField_SubmitEvent(InputField_SubmitEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17433 };
@@ -595,13 +595,13 @@ protected:
   constexpr InputField_EndEditEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputField_EndEditEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField_EndEditEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputField_EndEditEvent(InputField_EndEditEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputField_EndEditEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField_EndEditEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputField_EndEditEvent(InputField_EndEditEvent const&) = delete;
+  InputField_EndEditEvent(InputField_EndEditEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17434 };
@@ -630,13 +630,13 @@ protected:
   constexpr InputField_OnChangeEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputField_OnChangeEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField_OnChangeEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputField_OnChangeEvent(InputField_OnChangeEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputField_OnChangeEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField_OnChangeEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputField_OnChangeEvent(InputField_OnChangeEvent const&) = delete;
+  InputField_OnChangeEvent(InputField_OnChangeEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17435 };
@@ -676,7 +676,7 @@ public:
   // @brief default ctor
   constexpr InputField_EditState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputField_EditState(int32_t value__) noexcept;
 
   /// @brief Field Continue value: I32(0)
@@ -702,6 +702,7 @@ static_assert(offsetof(::UnityEngine::UI::InputField_EditState, value__) == 0x0,
 static_assert(sizeof(::UnityEngine::UI::InputField_EditState) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -734,17 +735,22 @@ public:
   /// @brief Method MoveNext, addr 0x6df7978, size 0x11c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UI::InputField__CaretBlink_d__172* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6df7a94, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6df7a9c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6df7ad4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6df7974, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -766,6 +772,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::UI::InputField> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6df0440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -784,13 +791,13 @@ protected:
   constexpr InputField__CaretBlink_d__172();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputField__CaretBlink_d__172", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField__CaretBlink_d__172", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputField__CaretBlink_d__172(InputField__CaretBlink_d__172&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputField__CaretBlink_d__172", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField__CaretBlink_d__172", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputField__CaretBlink_d__172(InputField__CaretBlink_d__172 const&) = delete;
+  InputField__CaretBlink_d__172(InputField__CaretBlink_d__172const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17437 };
@@ -816,6 +823,7 @@ static_assert(offsetof(::UnityEngine::UI::InputField__CaretBlink_d__172, _____4_
 static_assert(sizeof(::UnityEngine::UI::InputField__CaretBlink_d__172) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -851,17 +859,22 @@ public:
   /// @brief Method MoveNext, addr 0x6df7ae0, size 0x270, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UI::InputField__MouseDragOutsideRect_d__196* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6df7d50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6df7d58, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6df7d90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6df7adc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -889,6 +902,7 @@ public:
 
   constexpr void __cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6df2e20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -907,13 +921,13 @@ protected:
   constexpr InputField__MouseDragOutsideRect_d__196();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputField__MouseDragOutsideRect_d__196", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField__MouseDragOutsideRect_d__196", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputField__MouseDragOutsideRect_d__196(InputField__MouseDragOutsideRect_d__196&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputField__MouseDragOutsideRect_d__196", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField__MouseDragOutsideRect_d__196", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputField__MouseDragOutsideRect_d__196(InputField__MouseDragOutsideRect_d__196 const&) = delete;
+  InputField__MouseDragOutsideRect_d__196(InputField__MouseDragOutsideRect_d__196const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17438 };
@@ -944,6 +958,7 @@ static_assert(offsetof(::UnityEngine::UI::InputField__MouseDragOutsideRect_d__19
 static_assert(sizeof(::UnityEngine::UI::InputField__MouseDragOutsideRect_d__196) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("UI/Legacy/Input Field", 103)]
 // Dependencies UnityEngine.Color, UnityEngine.TouchScreenKeyboardType, UnityEngine.UI.InputField::CharacterValidation, UnityEngine.UI.InputField::ContentType, UnityEngine.UI.InputField::InputType,
 // UnityEngine.UI.InputField::LineType, UnityEngine.UI.Selectable, UnityEngine.UIVertex
 namespace UnityEngine::UI {
@@ -1179,6 +1194,7 @@ public:
 
   __declspec(property(get = get_onValidateInput, put = set_onValidateInput)) ::UnityEngine::UI::InputField_OnValidateInput* onValidateInput;
 
+  /// @brief [Obsolete("onValueChange has been renamed to onValueChanged")]
   __declspec(property(get = get_onValueChange, put = set_onValueChange)) ::UnityEngine::UI::InputField_OnChangeEvent* onValueChange;
 
   __declspec(property(get = get_onValueChanged, put = set_onValueChanged)) ::UnityEngine::UI::InputField_OnChangeEvent* onValueChanged;
@@ -1269,6 +1285,7 @@ public:
   /// @brief Method CalculateLayoutInputVertical, addr 0x6df742c, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UI.InputField::<CaretBlink>d__172))]
   /// @brief Method CaretBlink, addr 0x6df03ec, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CaretBlink();
 
@@ -1371,6 +1388,7 @@ public:
   /// @brief Method MayDrag, addr 0x6df2aac, size 0xe4, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UI.InputField::<MouseDragOutsideRect>d__196))]
   /// @brief Method MouseDragOutsideRect, addr 0x6df2dc0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* MouseDragOutsideRect(::UnityEngine::EventSystems::PointerEventData* eventData);
 
@@ -1448,6 +1466,7 @@ public:
   /// @brief Method Rebuild, addr 0x6df5b64, size 0x10, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
+  /// [Obsolete("This function is no longer used. Please use RectTransformUtility.ScreenPointToLocalPointInRectangle() instead.")]
   /// @brief Method ScreenToLocal, addr 0x6df2098, size 0x3a0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ScreenToLocal(::UnityEngine::Vector2 screen);
 
@@ -1485,7 +1504,7 @@ public:
   inline void SetToCustom();
 
   /// @brief Method SetToCustomIfContentTypeIsNot, addr 0x6def658, size 0x5c, virtual false, abstract: false, final false
-  inline void SetToCustomIfContentTypeIsNot(::ArrayW<::UnityEngine::UI::InputField_ContentType> allowedContentTypes);
+  inline void SetToCustomIfContentTypeIsNot(/* [ParamArray] */ ::ArrayW<::UnityEngine::UI::InputField_ContentType> allowedContentTypes);
 
   /// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x6df077c, size 0xd8, virtual false, abstract: false, final false
   inline bool TouchScreenKeyboardShouldBeUsed();
@@ -2072,13 +2091,13 @@ protected:
   constexpr InputField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputField(InputField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputField(InputField const&) = delete;
+  InputField(InputFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17439 };
@@ -2101,69 +2120,110 @@ public:
   /// @brief Field m_Keyboard, offset: 0x100, size: 0x8, def value: None
   ::UnityEngine::TouchScreenKeyboard* ___m_Keyboard;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("text")]
   /// @brief Field m_TextComponent, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_TextComponent;
 
+  /// [SerializeField]
   /// @brief Field m_Placeholder, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ___m_Placeholder;
 
+  /// [SerializeField]
   /// @brief Field m_ContentType, offset: 0x118, size: 0x4, def value: None
   ::UnityEngine::UI::InputField_ContentType ___m_ContentType;
 
+  /// [FormerlySerializedAs("inputType")]
+  /// [SerializeField]
   /// @brief Field m_InputType, offset: 0x11c, size: 0x4, def value: None
   ::UnityEngine::UI::InputField_InputType ___m_InputType;
 
+  /// [FormerlySerializedAs("asteriskChar")]
+  /// [SerializeField]
   /// @brief Field m_AsteriskChar, offset: 0x120, size: 0x2, def value: None
   char16_t ___m_AsteriskChar;
 
+  /// [FormerlySerializedAs("keyboardType")]
+  /// [SerializeField]
   /// @brief Field m_KeyboardType, offset: 0x124, size: 0x4, def value: None
   ::UnityEngine::TouchScreenKeyboardType ___m_KeyboardType;
 
+  /// [SerializeField]
   /// @brief Field m_LineType, offset: 0x128, size: 0x4, def value: None
   ::UnityEngine::UI::InputField_LineType ___m_LineType;
 
+  /// [FormerlySerializedAs("hideMobileInput")]
+  /// [SerializeField]
   /// @brief Field m_HideMobileInput, offset: 0x12c, size: 0x1, def value: None
   bool ___m_HideMobileInput;
 
+  /// [FormerlySerializedAs("validation")]
+  /// [SerializeField]
   /// @brief Field m_CharacterValidation, offset: 0x130, size: 0x4, def value: None
   ::UnityEngine::UI::InputField_CharacterValidation ___m_CharacterValidation;
 
+  /// [FormerlySerializedAs("characterLimit")]
+  /// [SerializeField]
   /// @brief Field m_CharacterLimit, offset: 0x134, size: 0x4, def value: None
   int32_t ___m_CharacterLimit;
 
+  /// [FormerlySerializedAs("onSubmit")]
+  /// [FormerlySerializedAs("m_OnSubmit")]
+  /// [FormerlySerializedAs("m_EndEdit")]
+  /// [FormerlySerializedAs("m_OnEndEdit")]
+  /// [SerializeField]
   /// @brief Field m_OnSubmit, offset: 0x138, size: 0x8, def value: None
   ::UnityEngine::UI::InputField_SubmitEvent* ___m_OnSubmit;
 
+  /// [SerializeField]
   /// @brief Field m_OnDidEndEdit, offset: 0x140, size: 0x8, def value: None
   ::UnityEngine::UI::InputField_EndEditEvent* ___m_OnDidEndEdit;
 
+  /// [FormerlySerializedAs("onValueChange")]
+  /// [FormerlySerializedAs("m_OnValueChange")]
+  /// [SerializeField]
   /// @brief Field m_OnValueChanged, offset: 0x148, size: 0x8, def value: None
   ::UnityEngine::UI::InputField_OnChangeEvent* ___m_OnValueChanged;
 
+  /// [FormerlySerializedAs("onValidateInput")]
+  /// [SerializeField]
   /// @brief Field m_OnValidateInput, offset: 0x150, size: 0x8, def value: None
   ::UnityEngine::UI::InputField_OnValidateInput* ___m_OnValidateInput;
 
+  /// [FormerlySerializedAs("selectionColor")]
+  /// [SerializeField]
   /// @brief Field m_CaretColor, offset: 0x158, size: 0x10, def value: None
   ::UnityEngine::Color ___m_CaretColor;
 
+  /// [SerializeField]
   /// @brief Field m_CustomCaretColor, offset: 0x168, size: 0x1, def value: None
   bool ___m_CustomCaretColor;
 
+  /// [SerializeField]
   /// @brief Field m_SelectionColor, offset: 0x16c, size: 0x10, def value: None
   ::UnityEngine::Color ___m_SelectionColor;
 
+  /// [SerializeField]
+  /// [Multiline]
+  /// [FormerlySerializedAs("mValue")]
   /// @brief Field m_Text, offset: 0x180, size: 0x8, def value: None
   ::StringW ___m_Text;
 
+  /// [SerializeField]
+  /// [Range(0, 4)]
   /// @brief Field m_CaretBlinkRate, offset: 0x188, size: 0x4, def value: None
   float_t ___m_CaretBlinkRate;
 
+  /// [SerializeField]
+  /// [Range(1, 5)]
   /// @brief Field m_CaretWidth, offset: 0x18c, size: 0x4, def value: None
   int32_t ___m_CaretWidth;
 
+  /// [SerializeField]
   /// @brief Field m_ReadOnly, offset: 0x190, size: 0x1, def value: None
   bool ___m_ReadOnly;
 
+  /// [SerializeField]
   /// @brief Field m_ShouldActivateOnSelect, offset: 0x191, size: 0x1, def value: None
   bool ___m_ShouldActivateOnSelect;
 

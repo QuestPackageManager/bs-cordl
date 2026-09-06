@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVRSimpleJSON\JSONLazyCreator.hpp"
+// IWYU pragma private; include "OVRSimpleJSON/JSONLazyCreator.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONLazyCreator_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONArray_def.hpp"
@@ -431,7 +431,9 @@ inline void OVRSimpleJSON::JSONLazyCreator::_ctor(::OVRSimpleJSON::JSONNode* aNo
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONLazyCreator*>(), { ".ctor", {}, { ::i2c::type_of<::OVRSimpleJSON::JSONNode*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, aNode, aKey);
 }
-template <typename T> inline T OVRSimpleJSON::JSONLazyCreator::Set(T aVal) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OVRSimpleJSON::JSONNode*>)
+inline T OVRSimpleJSON::JSONLazyCreator::Set(T aVal) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONLazyCreator*>(), { "Set", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RayTracingAccelerationStructureHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RayTracingAccelerationStructureHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ struct RayTracingAccelerationStructureHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle, "UnityEngine.Rendering.RenderGraphModule", "RayTracingAccelerationStructureHandle");
+// [DebuggerDisplay("RayTracingAccelerationStructure ({handle.index})")]
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -48,7 +50,7 @@ public:
   // @brief default ctor
   constexpr RayTracingAccelerationStructureHandle();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None, comment: None }]
   constexpr RayTracingAccelerationStructureHandle(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

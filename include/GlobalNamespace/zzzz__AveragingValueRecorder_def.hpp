@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AveragingValueRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/AveragingValueRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,15 +40,21 @@ public:
   /// @brief Method .ctor, addr 0x58dcb14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t value, float_t time);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_time, addr 0x58dcb44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_value, addr 0x58dcb34, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
+  /// [CompilerGenerated]
   /// @brief Method set_time, addr 0x58dcb4c, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_value, addr 0x58dcb3c, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
@@ -56,8 +62,8 @@ public:
   // @brief default ctor
   constexpr AveragingValueRecorder_AverageValueData();
 
-  // Ctor Parameters [CppParam { name: "_value_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_time_k__BackingField", ty: "float_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "_value_k__BackingField", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_time_k__BackingField", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr AveragingValueRecorder_AverageValueData(float_t _value_k__BackingField, float_t _time_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -66,9 +72,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <value>k__BackingField, offset: 0x0, size: 0x4, def value: None
   float_t _value_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <time>k__BackingField, offset: 0x4, size: 0x4, def value: None
   float_t _time_k__BackingField;
 
@@ -205,13 +213,13 @@ protected:
   constexpr AveragingValueRecorder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AveragingValueRecorder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AveragingValueRecorder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AveragingValueRecorder(AveragingValueRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AveragingValueRecorder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AveragingValueRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AveragingValueRecorder(AveragingValueRecorder const&) = delete;
+  AveragingValueRecorder(AveragingValueRecorderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6512 };

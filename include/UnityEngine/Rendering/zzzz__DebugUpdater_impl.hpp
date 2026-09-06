@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugUpdater.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ScreenOrientation_impl.hpp"
@@ -160,6 +160,7 @@ inline ::System::Object* UnityEngine::Rendering::DebugUpdater__DoAfterInputModul
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9* UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9*>(__1__state));
 }
@@ -329,6 +330,7 @@ inline ::System::Object* UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUIN
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15* UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15*>(__1__state));
 }

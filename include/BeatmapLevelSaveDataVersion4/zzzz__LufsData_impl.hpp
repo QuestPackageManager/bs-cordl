@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "BeatmapLevelSaveDataVersion4\LufsData.hpp"
+// IWYU pragma private; include "BeatmapLevelSaveDataVersion4/LufsData.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__LufsData_def.hpp"
-// Ctor Parameters [CppParam { name: "si", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ei", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "l",
-// ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "si", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ei", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "l", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatmapLevelSaveDataVersion4::LufsData::LufsData(int32_t si, int32_t ei, float_t l) noexcept {
   this->si = si;
   this->ei = ei;

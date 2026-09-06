@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPassthroughColorLut.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPassthroughColorLut.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -16,7 +16,7 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPassthroughColorLut_ColorChannels::OVRPassthroughColorLut_ColorChannels(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -51,8 +51,9 @@ constexpr GlobalNamespace::OVRPassthroughColorLut_WriteColorsAsBytesJob::operato
 constexpr ::Unity::Jobs::IJobParallelFor* GlobalNamespace::OVRPassthroughColorLut_WriteColorsAsBytesJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "source", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Color>", modifiers: "", def_value: Some("{}") }, CppParam { name: "channelCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "target", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "source", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Color>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "channelCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPassthroughColorLut_WriteColorsAsBytesJob::OVRPassthroughColorLut_WriteColorsAsBytesJob(::Unity::Collections::NativeArray_1<uint8_t> target,
                                                                                                                         ::Unity::Collections::NativeArray_1<::UnityEngine::Color> source,
                                                                                                                         int32_t channelCount) noexcept {
@@ -202,10 +203,10 @@ inline void GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_Tex
           { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, width, height, resolution, slicesPerRow, channelCount, flipY);
 }
-// Ctor Parameters [CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Height_k__BackingField", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_Resolution_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_SlicesPerRow_k__BackingField", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_ChannelCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_FlipY_k__BackingField", ty:
-// "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Height_k__BackingField", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Resolution_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_SlicesPerRow_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ChannelCount_k__BackingField", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_FlipY_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings::ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings(
     int32_t _Width_k__BackingField, int32_t _Height_k__BackingField, int32_t _Resolution_k__BackingField, int32_t _SlicesPerRow_k__BackingField, int32_t _ChannelCount_k__BackingField,
     bool _FlipY_k__BackingField) noexcept {
@@ -247,9 +248,9 @@ constexpr GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_MapCo
 constexpr ::Unity::Jobs::IJobParallelFor* GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_MapColorValuesJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "settings", ty: "::GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "target", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "source", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "settings", ty: "::GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "target", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "source", ty:
+// "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_MapColorValuesJob::ColorLutTextureConverter_OVRPassthroughColorLut_MapColorValuesJob(
     ::GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings settings, ::Unity::Collections::NativeArray_1<uint8_t> target,
     ::Unity::Collections::NativeArray_1<uint8_t> source) noexcept {
@@ -359,7 +360,7 @@ inline bool GlobalNamespace::OVRPassthroughColorLut_ColorLutTextureConverter::Tr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPassthroughColorLut_ColorLutTextureConverter::OVRPassthroughColorLut_ColorLutTextureConverter() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPassthroughColorLut_CreateState::OVRPassthroughColorLut_CreateState(int32_t value__) noexcept {
   this->value__ = value__;
 }

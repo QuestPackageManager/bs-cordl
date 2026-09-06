@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Extensions\PerformanceSettings\XrPerformanceSettingsFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Extensions/PerformanceSettings/XrPerformanceSettingsFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ protected:
   constexpr NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate(NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate(NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate const&) = delete;
+  NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegate(NativeApi_XrPerformanceSettingsFeature_XrPerformanceNotificationDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18598 };
@@ -128,13 +128,13 @@ protected:
   constexpr XrPerformanceSettingsFeature_NativeApi();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature_NativeApi", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature_NativeApi", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XrPerformanceSettingsFeature_NativeApi(XrPerformanceSettingsFeature_NativeApi&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature_NativeApi", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature_NativeApi", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XrPerformanceSettingsFeature_NativeApi(XrPerformanceSettingsFeature_NativeApi const&) = delete;
+  XrPerformanceSettingsFeature_NativeApi(XrPerformanceSettingsFeature_NativeApiconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18599 };
@@ -163,6 +163,7 @@ public:
   /// @brief Method OnInstanceCreate, addr 0x6a1ecc4, size 0xa8, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
+  /// [MonoPInvokeCallback(typeof(UnityEngine.XR.OpenXR.Features.Extensions.PerformanceSettings.XrPerformanceSettingsFeature::NativeApi::XrPerformanceNotificationDelegate))]
   /// @brief Method OnXrPerformanceNotificationCallback, addr 0x6a1e97c, size 0x84, virtual false, abstract: false, final false
   static inline void OnXrPerformanceNotificationCallback(::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification notification);
 
@@ -173,6 +174,7 @@ public:
   /// @brief Method .ctor, addr 0x6a1ee60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnXrPerformanceChangeNotification, addr 0x6a1ea00, size 0xe0, virtual false, abstract: false, final false
   static inline void
   add_OnXrPerformanceChangeNotification(::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>* value);
@@ -180,6 +182,7 @@ public:
   static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>*
   getStaticF_OnXrPerformanceChangeNotification();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnXrPerformanceChangeNotification, addr 0x6a1eae0, size 0xe0, virtual false, abstract: false, final false
   static inline void
   remove_OnXrPerformanceChangeNotification(::UnityEngine::Events::UnityAction_1<::UnityEngine::XR::OpenXR::Features::Extensions::PerformanceSettings::PerformanceChangeNotification>* value);
@@ -193,13 +196,13 @@ protected:
   constexpr XrPerformanceSettingsFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XrPerformanceSettingsFeature(XrPerformanceSettingsFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XrPerformanceSettingsFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XrPerformanceSettingsFeature(XrPerformanceSettingsFeature const&) = delete;
+  XrPerformanceSettingsFeature(XrPerformanceSettingsFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18600 };

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\EditLevel.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/EditLevel.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EditLevel_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::EditLevel::EditLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }

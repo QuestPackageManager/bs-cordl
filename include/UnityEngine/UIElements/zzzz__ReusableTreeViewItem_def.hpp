@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ReusableTreeViewItem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ReusableTreeViewItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -196,18 +196,22 @@ public:
   /// @brief Method .ctor, addr 0x6c56428, size 0x124, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onPointerUp, addr 0x6c4f958, size 0xc0, virtual false, abstract: false, final false
   inline void add_onPointerUp(::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onToggleValueChanged, addr 0x6c4fa18, size 0xc0, virtual false, abstract: false, final false
   inline void add_onToggleValueChanged(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* value);
 
   /// @brief Method get_rootElement, addr 0x6c5654c, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onPointerUp, addr 0x6c4f7b8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onPointerUp(::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onToggleValueChanged, addr 0x6c4f878, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onToggleValueChanged(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* value);
 
@@ -217,13 +221,13 @@ protected:
   constexpr ReusableTreeViewItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReusableTreeViewItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReusableTreeViewItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReusableTreeViewItem(ReusableTreeViewItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReusableTreeViewItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReusableTreeViewItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReusableTreeViewItem(ReusableTreeViewItem const&) = delete;
+  ReusableTreeViewItem(ReusableTreeViewItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4098 };
@@ -243,9 +247,13 @@ public:
   /// @brief Field m_Checkmark, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Checkmark;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field onPointerUp, offset: 0x70, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>* ___onPointerUp;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field onToggleValueChanged, offset: 0x78, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* ___onToggleValueChanged;
 

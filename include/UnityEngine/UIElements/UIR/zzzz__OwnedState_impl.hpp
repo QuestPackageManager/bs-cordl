@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\OwnedState.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/OwnedState.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__OwnedState_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::OwnedState::OwnedState(uint8_t value__) noexcept {
   this->value__ = value__;
 }

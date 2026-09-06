@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\ASCIIEncoding.hpp"
+// IWYU pragma private; include "System/Text/ASCIIEncoding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ public:
   /// @brief Method GetByteCount, addr 0x5cc9d78, size 0x2fc, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t charCount, ::System::Text::EncoderNLS* encoder);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetByteCount, addr 0x5cc8f84, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t count);
 
@@ -60,6 +61,7 @@ public:
   /// @brief Method GetBytes, addr 0x5cc9054, size 0x248, virtual true, abstract: false, final false
   inline int32_t GetBytes(::StringW chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetBytes, addr 0x5cc951c, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount);
 
@@ -69,6 +71,7 @@ public:
   /// @brief Method GetCharCount, addr 0x5cc9614, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetCharCount, addr 0x5cc979c, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetCharCount(uint8_t* bytes, int32_t count);
 
@@ -78,6 +81,7 @@ public:
   /// @brief Method GetChars, addr 0x5cc986c, size 0x284, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetChars, addr 0x5cc9af0, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount);
 
@@ -117,13 +121,13 @@ protected:
   constexpr ASCIIEncoding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ASCIIEncoding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ASCIIEncoding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ASCIIEncoding(ASCIIEncoding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ASCIIEncoding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ASCIIEncoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ASCIIEncoding(ASCIIEncoding const&) = delete;
+  ASCIIEncoding(ASCIIEncodingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2845 };

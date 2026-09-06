@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalLightData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalLightData.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextItem_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VisibleLight_impl.hpp"

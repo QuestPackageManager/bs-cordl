@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\AutoIncrementValue.hpp"
+// IWYU pragma private; include "System/Data/AutoIncrementValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,15 +45,15 @@ public:
   /// @brief Method Clone, addr 0x6003938, size 0x110, virtual false, abstract: false, final false
   inline ::System::Data::AutoIncrementValue* Clone();
 
-  /// @brief Method MoveAfter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MoveAfter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MoveAfter();
 
   static inline ::System::Data::AutoIncrementValue* New_ctor();
 
-  /// @brief Method SetCurrent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetCurrent(::System::Object* value, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method SetCurrentAndIncrement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetCurrentAndIncrement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetCurrentAndIncrement(::System::Object* value);
 
   constexpr bool const& __cordl_internal_get__Auto_k__BackingField() const;
@@ -65,31 +65,33 @@ public:
   /// @brief Method .ctor, addr 0x6004820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Auto, addr 0x6004810, size 0x8, virtual false, abstract: false, final false
   inline bool get_Auto();
 
-  /// @brief Method get_Current, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_DataType();
 
-  /// @brief Method get_Seed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Seed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_Seed();
 
-  /// @brief Method get_Step, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Step, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_Step();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Auto, addr 0x6004818, size 0x8, virtual false, abstract: false, final false
   inline void set_Auto(bool value);
 
-  /// @brief Method set_Current, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Current(::System::Object* value);
 
-  /// @brief Method set_Seed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Seed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Seed(int64_t value);
 
-  /// @brief Method set_Step, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Step, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Step(int64_t value);
 
 protected:
@@ -98,17 +100,18 @@ protected:
   constexpr AutoIncrementValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AutoIncrementValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoIncrementValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutoIncrementValue(AutoIncrementValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AutoIncrementValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoIncrementValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutoIncrementValue(AutoIncrementValue const&) = delete;
+  AutoIncrementValue(AutoIncrementValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13728 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Auto>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Auto_k__BackingField;
 

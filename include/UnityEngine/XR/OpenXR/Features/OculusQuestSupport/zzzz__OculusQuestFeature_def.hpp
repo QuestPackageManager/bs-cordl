@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\OculusQuestSupport\OculusQuestFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/OculusQuestSupport/OculusQuestFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class OculusQuestFeature;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature*, "UnityEngine.XR.OpenXR.Features.OculusQuestSupport", "OculusQuestFeature");
+// [Obsolete("OpenXR.Features.OculusQuestSupport.OculusQuestFeature is deprecated. Please use OpenXR.Features.MetaQuestSupport.MetaQuestFeature instead.", false)]
 // Dependencies UnityEngine.XR.OpenXR.Features.OpenXRFeature
 namespace UnityEngine::XR::OpenXR::Features::OculusQuestSupport {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr OculusQuestFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusQuestFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusQuestFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusQuestFeature(OculusQuestFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusQuestFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusQuestFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusQuestFeature(OculusQuestFeature const&) = delete;
+  OculusQuestFeature(OculusQuestFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23759 };

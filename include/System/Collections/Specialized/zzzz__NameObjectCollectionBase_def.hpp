@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Specialized\NameObjectCollectionBase.hpp"
+// IWYU pragma private; include "System/Collections/Specialized/NameObjectCollectionBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,13 +108,13 @@ protected:
   constexpr NameObjectCollectionBase_NameObjectEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase_NameObjectEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase_NameObjectEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameObjectCollectionBase_NameObjectEntry(NameObjectCollectionBase_NameObjectEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase_NameObjectEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase_NameObjectEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NameObjectCollectionBase_NameObjectEntry(NameObjectCollectionBase_NameObjectEntry const&) = delete;
+  NameObjectCollectionBase_NameObjectEntry(NameObjectCollectionBase_NameObjectEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11381 };
@@ -197,13 +197,13 @@ protected:
   constexpr NameObjectCollectionBase_NameObjectKeysEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase_NameObjectKeysEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase_NameObjectKeysEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameObjectCollectionBase_NameObjectKeysEnumerator(NameObjectCollectionBase_NameObjectKeysEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase_NameObjectKeysEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase_NameObjectKeysEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NameObjectCollectionBase_NameObjectKeysEnumerator(NameObjectCollectionBase_NameObjectKeysEnumerator const&) = delete;
+  NameObjectCollectionBase_NameObjectKeysEnumerator(NameObjectCollectionBase_NameObjectKeysEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11382 };
@@ -439,13 +439,13 @@ protected:
   constexpr NameObjectCollectionBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameObjectCollectionBase(NameObjectCollectionBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NameObjectCollectionBase(NameObjectCollectionBase const&) = delete;
+  NameObjectCollectionBase(NameObjectCollectionBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11383 };

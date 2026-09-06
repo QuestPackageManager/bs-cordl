@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AnnotatedBeatmapLevelCollectionsGridViewAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/AnnotatedBeatmapLevelCollectionsGridViewAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,27 +105,35 @@ public:
   /// @brief Method ScrollToRowIdxInstant, addr 0x5969740, size 0x84, virtual false, abstract: false, final false
   inline void ScrollToRowIdxInstant(int32_t selectedColumn, int32_t selectedRow);
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateClose>b__19_0, addr 0x596aae0, size 0x18, virtual false, abstract: false, final false
   inline void _AnimateClose_b__19_0(::UnityEngine::Vector2 size);
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateClose>b__19_1, addr 0x596aaf8, size 0x90, virtual false, abstract: false, final false
   inline void _AnimateClose_b__19_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateClose>b__19_2, addr 0x596ab88, size 0x18, virtual false, abstract: false, final false
   inline void _AnimateClose_b__19_2(::UnityEngine::Vector2 pos);
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateClose>b__19_3, addr 0x596aba0, size 0x90, virtual false, abstract: false, final false
   inline void _AnimateClose_b__19_3();
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateOpen>b__18_0, addr 0x596a990, size 0x18, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__18_0(::UnityEngine::Vector2 size);
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateOpen>b__18_1, addr 0x596a9a8, size 0x90, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__18_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateOpen>b__18_2, addr 0x596aa38, size 0x18, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__18_2(::UnityEngine::Vector2 pos);
 
+  /// [CompilerGenerated]
   /// @brief Method <AnimateOpen>b__18_3, addr 0x596aa50, size 0x90, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__18_3();
 
@@ -228,32 +236,40 @@ protected:
   constexpr AnnotatedBeatmapLevelCollectionsGridViewAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator const&) = delete;
+  AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6998 };
 
+  /// [SerializeField]
   /// @brief Field _viewportTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____viewportTransform;
 
+  /// [SerializeField]
   /// @brief Field _contentTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentTransform;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _transitionDuration, offset: 0x30, size: 0x4, def value: None
   float_t ____transitionDuration;
 
+  /// [SerializeField]
   /// @brief Field _easeType, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _padding, offset: 0x38, size: 0x4, def value: None
   float_t ____padding;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

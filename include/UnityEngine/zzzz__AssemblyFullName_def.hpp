@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssemblyFullName.hpp"
+// IWYU pragma private; include "UnityEngine/AssemblyFullName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ struct AssemblyFullName;
 // Write type traits
 MARK_VAL_T(::UnityEngine::AssemblyFullName);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AssemblyFullName, "UnityEngine", "AssemblyFullName");
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [NativeHeader("Runtime/Mono/AssemblyFullName.h")]
 // Dependencies UnityEngine.AssemblyVersion
 namespace UnityEngine {
 // Is value type: true
@@ -38,8 +40,9 @@ public:
   // @brief default ctor
   constexpr AssemblyFullName();
 
-  // Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Version", ty: "::UnityEngine::AssemblyVersion", modifiers: "", def_value: None },
-  // CppParam { name: "PublicKeyToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Culture", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Version", ty: "::UnityEngine::AssemblyVersion", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "PublicKeyToken", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Culture", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr AssemblyFullName(::StringW Name, ::UnityEngine::AssemblyVersion Version, ::StringW PublicKeyToken, ::StringW Culture) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -48,15 +51,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [NativeName("name")]
   /// @brief Field Name, offset: 0x0, size: 0x8, def value: None
   ::StringW Name;
 
+  /// [NativeName("version")]
   /// @brief Field Version, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::AssemblyVersion Version;
 
+  /// [NativeName("publicKeyToken")]
   /// @brief Field PublicKeyToken, offset: 0x10, size: 0x8, def value: None
   ::StringW PublicKeyToken;
 
+  /// [NativeName("culture")]
   /// @brief Field Culture, offset: 0x18, size: 0x8, def value: None
   ::StringW Culture;
 

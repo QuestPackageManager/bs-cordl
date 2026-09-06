@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XObject.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,9 @@ public:
   inline void AddAnnotation(::System::Object* annotation);
 
   /// @brief Method Annotation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Annotation();
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline T Annotation();
 
   /// @brief Method AnnotationForSealedType, addr 0x61ab774, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Object* AnnotationForSealedType(::System::Type* type);
@@ -125,7 +127,7 @@ public:
   /// @brief Method get_HasBaseUri, addr 0x61a7b50, size 0x58, virtual false, abstract: false, final false
   inline bool get_HasBaseUri();
 
-  /// @brief Method get_NodeType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
   /// @brief Method get_Parent, addr 0x61ab6f4, size 0x80, virtual false, abstract: false, final false
@@ -140,13 +142,13 @@ protected:
   constexpr XObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XObject(XObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XObject(XObject const&) = delete;
+  XObject(XObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21991 };

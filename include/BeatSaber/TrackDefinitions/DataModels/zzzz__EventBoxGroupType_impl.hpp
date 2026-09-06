@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\TrackDefinitions\DataModels\EventBoxGroupType.hpp"
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/DataModels/EventBoxGroupType.hpp"
 #include "BeatSaber/TrackDefinitions/DataModels/zzzz__EventBoxGroupType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType::EventBoxGroupType(int32_t value__) noexcept {
   this->value__ = value__;
 }

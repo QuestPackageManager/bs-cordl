@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarsAsyncInstaller.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarsAsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ protected:
   constexpr AvatarsAsyncInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarsAsyncInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarsAsyncInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarsAsyncInstaller(AvatarsAsyncInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarsAsyncInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarsAsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarsAsyncInstaller(AvatarsAsyncInstaller const&) = delete;
+  AvatarsAsyncInstaller(AvatarsAsyncInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21642 };

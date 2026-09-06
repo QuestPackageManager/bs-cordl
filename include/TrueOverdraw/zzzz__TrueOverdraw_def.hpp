@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TrueOverdraw\TrueOverdraw.hpp"
+// IWYU pragma private; include "TrueOverdraw/TrueOverdraw.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_VAL_T(::TrueOverdraw::TrueOverdraw_OverdrawType);
 MARK_REF_T(::TrueOverdraw::TrueOverdraw*);
 DEFINE_IL2CPP_CLASS(::TrueOverdraw::TrueOverdraw_OverdrawType, "TrueOverdraw", "TrueOverdraw/OverdrawType");
 DEFINE_IL2CPP_CLASS(::TrueOverdraw::TrueOverdraw*, "TrueOverdraw", "TrueOverdraw");
+// [Flags]
 // Dependencies
 namespace TrueOverdraw {
 // Is value type: true
@@ -71,7 +72,7 @@ public:
   // @brief default ctor
   constexpr TrueOverdraw_OverdrawType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrueOverdraw_OverdrawType(int32_t value__) noexcept;
 
   /// @brief Field Everything value: I32(3)
@@ -248,6 +249,7 @@ public:
 
   static inline int32_t getStaticF__trueOverdrawProperty();
 
+  /// [CompilerGenerated]
   /// @brief Method get_overdrawType, addr 0x5f3ded4, size 0x8, virtual false, abstract: false, final false
   inline ::TrueOverdraw::TrueOverdraw_OverdrawType get_overdrawType();
 
@@ -279,6 +281,7 @@ public:
 
   static inline void setStaticF__trueOverdrawProperty(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_overdrawType, addr 0x5f3dedc, size 0x8, virtual false, abstract: false, final false
   inline void set_overdrawType(::TrueOverdraw::TrueOverdraw_OverdrawType value);
 
@@ -288,13 +291,13 @@ protected:
   constexpr TrueOverdraw();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrueOverdraw", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrueOverdraw", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrueOverdraw(TrueOverdraw&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrueOverdraw", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrueOverdraw", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrueOverdraw(TrueOverdraw const&) = delete;
+  TrueOverdraw(TrueOverdrawconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23543 };
@@ -302,6 +305,7 @@ public:
   /// @brief Field kOverdrawViewKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kOverdrawViewKeyword{ u"OVERDRAW_VIEW" };
 
+  /// [CompilerGenerated]
   /// @brief Field <overdrawType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::TrueOverdraw::TrueOverdraw_OverdrawType ____overdrawType_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRConfigurationDataAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRConfigurationDataAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class XRConfigurationDataAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::Management::XRConfigurationDataAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::Management::XRConfigurationDataAttribute*, "UnityEngine.XR.Management", "XRConfigurationDataAttribute");
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute
 namespace UnityEngine::XR::Management {
 // Is value type: false
@@ -52,15 +53,19 @@ public:
   /// @brief Method .ctor, addr 0x69e9950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW buildSettingsKey);
 
+  /// [CompilerGenerated]
   /// @brief Method get_buildSettingsKey, addr 0x69e993c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildSettingsKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_displayName, addr 0x69e992c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
+  /// [CompilerGenerated]
   /// @brief Method set_buildSettingsKey, addr 0x69e9944, size 0x8, virtual false, abstract: false, final false
   inline void set_buildSettingsKey(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_displayName, addr 0x69e9934, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
@@ -70,20 +75,22 @@ protected:
   constexpr XRConfigurationDataAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRConfigurationDataAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRConfigurationDataAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRConfigurationDataAttribute(XRConfigurationDataAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRConfigurationDataAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRConfigurationDataAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRConfigurationDataAttribute(XRConfigurationDataAttribute const&) = delete;
+  XRConfigurationDataAttribute(XRConfigurationDataAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23039 };
 
+  /// [CompilerGenerated]
   /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <buildSettingsKey>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____buildSettingsKey_k__BackingField;
 

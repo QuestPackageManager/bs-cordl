@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PoseFrame.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseFrame.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,8 @@ public:
   // @brief default ctor
   constexpr PoseFrame();
 
-  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr PoseFrame(float_t time, ::UnityEngine::Pose pose) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

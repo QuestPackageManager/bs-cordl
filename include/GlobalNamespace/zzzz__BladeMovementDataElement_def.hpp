@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BladeMovementDataElement.hpp"
+// IWYU pragma private; include "GlobalNamespace/BladeMovementDataElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr BladeMovementDataElement();
 
-  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "segmentAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "topPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bottomPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name:
-  // "segmentNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "segmentAngle", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "topPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomPos", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "segmentNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr BladeMovementDataElement(float_t time, float_t segmentAngle, ::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, ::UnityEngine::Vector3 segmentNormal) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

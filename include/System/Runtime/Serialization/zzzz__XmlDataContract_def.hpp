@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -199,13 +199,13 @@ protected:
   constexpr XmlDataContract_XmlDataContractCriticalHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract_XmlDataContractCriticalHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract_XmlDataContractCriticalHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDataContract_XmlDataContractCriticalHelper(XmlDataContract_XmlDataContractCriticalHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract_XmlDataContractCriticalHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract_XmlDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDataContract_XmlDataContractCriticalHelper(XmlDataContract_XmlDataContractCriticalHelper const&) = delete;
+  XmlDataContract_XmlDataContractCriticalHelper(XmlDataContract_XmlDataContractCriticalHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17119 };
@@ -302,6 +302,7 @@ public:
   /// @brief Method WriteXmlValue, addr 0x6162558, size 0x18, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
+  /// [CompilerGenerated]
   /// @brief Method <GenerateCreateXmlSerializableDelegate>b__39_0, addr 0x61627c4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::IXmlSerializable* _GenerateCreateXmlSerializableDelegate_b__39_0();
 
@@ -344,13 +345,13 @@ protected:
   constexpr XmlDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDataContract(XmlDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDataContract(XmlDataContract const&) = delete;
+  XmlDataContract(XmlDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17120 };

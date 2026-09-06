@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LogarithmicAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LogarithmicAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LogarithmicAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::LogarithmicAttribute._ctor

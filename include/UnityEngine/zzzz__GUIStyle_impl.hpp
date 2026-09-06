@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUIStyle.hpp"
+// IWYU pragma private; include "UnityEngine/GUIStyle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
@@ -1465,7 +1465,7 @@ inline bool UnityEngine::GUIStyle::get_richText() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "get_richText", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::IntPtr UnityEngine::GUIStyle::Internal_Create(::UnityEngine::GUIStyle* self) {
+inline ::System::IntPtr UnityEngine::GUIStyle::Internal_Create(/* [Unmarshalled] */ ::UnityEngine::GUIStyle* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyle*>(), { "Internal_Create", {}, { ::i2c::type_of<::UnityEngine::GUIStyle*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, self);

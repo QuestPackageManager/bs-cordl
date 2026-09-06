@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\ApplicationSuspendedException.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/ApplicationSuspendedException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__ApplicationSuspendedException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

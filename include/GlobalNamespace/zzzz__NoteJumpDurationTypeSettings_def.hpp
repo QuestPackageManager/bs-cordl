@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteJumpDurationTypeSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteJumpDurationTypeSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   // @brief default ctor
   constexpr NoteJumpDurationTypeSettings();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NoteJumpDurationTypeSettings(int32_t value__) noexcept;
 
   /// @brief Field Dynamic value: I32(0)

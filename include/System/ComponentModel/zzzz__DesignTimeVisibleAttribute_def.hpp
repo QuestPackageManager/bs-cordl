@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\DesignTimeVisibleAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/DesignTimeVisibleAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class DesignTimeVisibleAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::DesignTimeVisibleAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::DesignTimeVisibleAttribute*, "System.ComponentModel", "DesignTimeVisibleAttribute");
+// [AttributeUsage((System.AttributeTargets)1028)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -63,6 +64,7 @@ public:
 
   static inline ::System::ComponentModel::DesignTimeVisibleAttribute* getStaticF_Yes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Visible, addr 0x63c0240, size 0x8, virtual false, abstract: false, final false
   inline bool get_Visible();
 
@@ -78,17 +80,18 @@ protected:
   constexpr DesignTimeVisibleAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesignTimeVisibleAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignTimeVisibleAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignTimeVisibleAttribute(DesignTimeVisibleAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesignTimeVisibleAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignTimeVisibleAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesignTimeVisibleAttribute(DesignTimeVisibleAttribute const&) = delete;
+  DesignTimeVisibleAttribute(DesignTimeVisibleAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11259 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Visible>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Visible_k__BackingField;
 

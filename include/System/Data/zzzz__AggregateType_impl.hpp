@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Data\AggregateType.hpp"
+// IWYU pragma private; include "System/Data/AggregateType.hpp"
 #include "System/Data/zzzz__AggregateType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::AggregateType::AggregateType(int32_t value__) noexcept {
   this->value__ = value__;
 }

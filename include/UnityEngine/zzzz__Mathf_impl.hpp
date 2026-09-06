@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Mathf.hpp"
+// IWYU pragma private; include "UnityEngine/Mathf.hpp"
 #include "UnityEngine/zzzz__Mathf_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Mathf.GammaToLinearSpace
@@ -753,7 +753,7 @@ inline float_t UnityEngine::Mathf::Min(float_t a, float_t b) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mathf>(), { "Min", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, a, b);
 }
-inline float_t UnityEngine::Mathf::Min(::ArrayW<float_t> values) {
+inline float_t UnityEngine::Mathf::Min(/* [ParamArray] */ ::ArrayW<float_t> values) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mathf>(), { "Min", {}, { ::i2c::type_of<::ArrayW<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, values);
 }
@@ -767,7 +767,7 @@ inline float_t UnityEngine::Mathf::Max(float_t a, float_t b) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mathf>(), { "Max", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, a, b);
 }
-inline float_t UnityEngine::Mathf::Max(::ArrayW<float_t> values) {
+inline float_t UnityEngine::Mathf::Max(/* [ParamArray] */ ::ArrayW<float_t> values) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mathf>(), { "Max", {}, { ::i2c::type_of<::ArrayW<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, values);
 }
@@ -865,7 +865,8 @@ inline bool UnityEngine::Mathf::Approximately(float_t a, float_t b) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mathf>(), { "Approximately", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline float_t UnityEngine::Mathf::SmoothDamp(float_t current, float_t target, ::by_ref<float_t> currentVelocity, float_t smoothTime, float_t maxSpeed, float_t deltaTime) {
+inline float_t UnityEngine::Mathf::SmoothDamp(float_t current, float_t target, ::by_ref<float_t> currentVelocity, float_t smoothTime, /* [DefaultValue("Mathf.Infinity")] */ float_t maxSpeed,
+                                              /* [DefaultValue("Time.deltaTime")] */ float_t deltaTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mathf>(), { "SmoothDamp",
                                                                                                       {},

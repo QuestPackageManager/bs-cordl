@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaGroup.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,18 +36,27 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaGroup : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_CanonicalParticle, put = set_CanonicalParticle)) ::System::Xml::Schema::XmlSchemaParticle* CanonicalParticle;
 
+  /// @brief [XmlAttribute("name")]
   __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_NameAttribute, put = set_NameAttribute)) ::StringW NameAttribute;
 
+  /// [XmlElement("choice", typeof(System.Xml.Schema.XmlSchemaChoice))]
+  /// [XmlElement("all", typeof(System.Xml.Schema.XmlSchemaAll))]
+  /// @brief [XmlElement("sequence", typeof(System.Xml.Schema.XmlSchemaSequence))]
   __declspec(property(get = get_Particle, put = set_Particle)) ::System::Xml::Schema::XmlSchemaGroupBase* Particle;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_QualifiedName)) ::System::Xml::XmlQualifiedName* QualifiedName;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Redefined, put = set_Redefined)) ::System::Xml::Schema::XmlSchemaGroup* Redefined;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_SelfReferenceCount, put = set_SelfReferenceCount)) int32_t SelfReferenceCount;
 
   /// @brief Field canonicalParticle, offset 0x60, size 0x8
@@ -163,13 +172,13 @@ protected:
   constexpr XmlSchemaGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaGroup(XmlSchemaGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaGroup(XmlSchemaGroup const&) = delete;
+  XmlSchemaGroup(XmlSchemaGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9784 };

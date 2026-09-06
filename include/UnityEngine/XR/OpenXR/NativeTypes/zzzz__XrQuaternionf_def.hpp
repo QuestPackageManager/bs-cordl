@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrQuaternionf.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrQuaternionf.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,8 +33,8 @@ public:
   // @brief default ctor
   constexpr XrQuaternionf();
 
-  // Ctor Parameters [CppParam { name: "X", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Z", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "W", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "X", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Y", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Z", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "W", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr XrQuaternionf(float_t X, float_t Y, float_t Z, float_t W) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

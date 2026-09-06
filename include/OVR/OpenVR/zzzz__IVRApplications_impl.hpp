@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRApplications.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRApplications.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRApplications_def.hpp"
 #include "OVR/OpenVR/zzzz__AppOverrideKeys_t_def.hpp"
@@ -2573,36 +2573,37 @@ inline ::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId* OVR::OpenVR::IV
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId::IVRApplications__GetCurrentSceneProcessId() {}
-// Ctor Parameters [CppParam { name: "AddApplicationManifest", ty: "::OVR::OpenVR::IVRApplications__AddApplicationManifest*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "RemoveApplicationManifest", ty: "::OVR::OpenVR::IVRApplications__RemoveApplicationManifest*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsApplicationInstalled", ty:
-// "::OVR::OpenVR::IVRApplications__IsApplicationInstalled*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationCount", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationCount*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationKeyByIndex", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationKeyByProcessId", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LaunchApplication", ty:
-// "::OVR::OpenVR::IVRApplications__LaunchApplication*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LaunchTemplateApplication", ty:
-// "::OVR::OpenVR::IVRApplications__LaunchTemplateApplication*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LaunchApplicationFromMimeType", ty:
-// "::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LaunchDashboardOverlay", ty:
-// "::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay*", modifiers: "", def_value: Some("{}") }, CppParam { name: "CancelApplicationLaunch", ty:
-// "::OVR::OpenVR::IVRApplications__CancelApplicationLaunch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IdentifyApplication", ty:
-// "::OVR::OpenVR::IVRApplications__IdentifyApplication*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationProcessId", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationProcessId*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationsErrorNameFromEnum", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationPropertyString", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationPropertyString*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationPropertyBool", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationPropertyUint64", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetApplicationAutoLaunch", ty:
-// "::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationAutoLaunch", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetDefaultApplicationForMimeType", ty:
-// "::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetDefaultApplicationForMimeType", ty:
-// "::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationSupportedMimeTypes", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationsThatSupportMimeType", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetApplicationLaunchArguments", ty:
-// "::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetStartingApplication", ty:
-// "::OVR::OpenVR::IVRApplications__GetStartingApplication*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetTransitionState", ty: "::OVR::OpenVR::IVRApplications__GetTransitionState*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "PerformApplicationPrelaunchCheck", ty: "::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "GetApplicationsTransitionStateNameFromEnum", ty: "::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "IsQuitUserPromptRequested", ty: "::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested*", modifiers: "", def_value: Some("{}") }, CppParam { name: "LaunchInternalProcess",
-// ty: "::OVR::OpenVR::IVRApplications__LaunchInternalProcess*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetCurrentSceneProcessId", ty:
-// "::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "AddApplicationManifest", ty: "::OVR::OpenVR::IVRApplications__AddApplicationManifest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "RemoveApplicationManifest", ty: "::OVR::OpenVR::IVRApplications__RemoveApplicationManifest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsApplicationInstalled", ty:
+// "::OVR::OpenVR::IVRApplications__IsApplicationInstalled*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationCount", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationCount*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationKeyByIndex", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationKeyByProcessId", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LaunchApplication", ty:
+// "::OVR::OpenVR::IVRApplications__LaunchApplication*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LaunchTemplateApplication", ty:
+// "::OVR::OpenVR::IVRApplications__LaunchTemplateApplication*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LaunchApplicationFromMimeType", ty:
+// "::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LaunchDashboardOverlay", ty:
+// "::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CancelApplicationLaunch", ty:
+// "::OVR::OpenVR::IVRApplications__CancelApplicationLaunch*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IdentifyApplication", ty:
+// "::OVR::OpenVR::IVRApplications__IdentifyApplication*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationProcessId", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationProcessId*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationsErrorNameFromEnum", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationPropertyString", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationPropertyString*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationPropertyBool", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationPropertyUint64", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetApplicationAutoLaunch", ty:
+// "::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationAutoLaunch", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetDefaultApplicationForMimeType", ty:
+// "::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetDefaultApplicationForMimeType", ty:
+// "::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationSupportedMimeTypes", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationsThatSupportMimeType", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationLaunchArguments", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetStartingApplication", ty:
+// "::OVR::OpenVR::IVRApplications__GetStartingApplication*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetTransitionState", ty:
+// "::OVR::OpenVR::IVRApplications__GetTransitionState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PerformApplicationPrelaunchCheck", ty:
+// "::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetApplicationsTransitionStateNameFromEnum", ty:
+// "::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsQuitUserPromptRequested", ty:
+// "::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LaunchInternalProcess", ty:
+// "::OVR::OpenVR::IVRApplications__LaunchInternalProcess*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetCurrentSceneProcessId", ty:
+// "::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IVRApplications::IVRApplications(
     ::OVR::OpenVR::IVRApplications__AddApplicationManifest* AddApplicationManifest, ::OVR::OpenVR::IVRApplications__RemoveApplicationManifest* RemoveApplicationManifest,
     ::OVR::OpenVR::IVRApplications__IsApplicationInstalled* IsApplicationInstalled, ::OVR::OpenVR::IVRApplications__GetApplicationCount* GetApplicationCount,

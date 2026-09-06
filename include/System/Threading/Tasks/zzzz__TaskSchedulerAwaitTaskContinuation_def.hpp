@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\TaskSchedulerAwaitTaskContinuation.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/TaskSchedulerAwaitTaskContinuation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ MARK_REF_T(::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation*);
 MARK_REF_T(::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c*);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation*, "System.Threading.Tasks", "TaskSchedulerAwaitTaskContinuation");
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c*, "System.Threading.Tasks", "TaskSchedulerAwaitTaskContinuation/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -71,13 +72,13 @@ protected:
   constexpr TaskSchedulerAwaitTaskContinuation___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskSchedulerAwaitTaskContinuation___c(TaskSchedulerAwaitTaskContinuation___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskSchedulerAwaitTaskContinuation___c(TaskSchedulerAwaitTaskContinuation___c const&) = delete;
+  TaskSchedulerAwaitTaskContinuation___c(TaskSchedulerAwaitTaskContinuation___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2821 };
@@ -120,13 +121,13 @@ protected:
   constexpr TaskSchedulerAwaitTaskContinuation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskSchedulerAwaitTaskContinuation(TaskSchedulerAwaitTaskContinuation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskSchedulerAwaitTaskContinuation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskSchedulerAwaitTaskContinuation(TaskSchedulerAwaitTaskContinuation const&) = delete;
+  TaskSchedulerAwaitTaskContinuation(TaskSchedulerAwaitTaskContinuationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2822 };

@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\Playable.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/Playable.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -107,7 +108,9 @@ inline ::UnityEngine::Playables::PlayableHandle UnityEngine::Playables::Playable
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::Playable>(), { "GetHandle", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::PlayableHandle>(*this, ___internal_method);
 }
-template <typename T> inline bool UnityEngine::Playables::Playable::IsPlayableOfType() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayable*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool UnityEngine::Playables::Playable::IsPlayableOfType() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::Playable>(), { "IsPlayableOfType", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -138,7 +141,7 @@ constexpr UnityEngine::Playables::Playable::operator ::System::IEquatable_1<::Un
 constexpr ::System::IEquatable_1<::UnityEngine::Playables::Playable>* UnityEngine::Playables::Playable::i___System__IEquatable_1___UnityEngine__Playables__Playable_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Playables::Playable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Playables::Playable::Playable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept {
   this->m_Handle = m_Handle;
 }

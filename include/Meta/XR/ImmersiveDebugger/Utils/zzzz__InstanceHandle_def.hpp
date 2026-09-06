@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Utils\InstanceHandle.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Utils/InstanceHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ struct InstanceHandle;
 // Write type traits
 MARK_VAL_T(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, "Meta.XR.ImmersiveDebugger.Utils", "InstanceHandle");
+// [IsReadOnly]
 // Dependencies
 namespace Meta::XR::ImmersiveDebugger::Utils {
 // Is value type: true
@@ -66,15 +67,18 @@ public:
   /// @brief Method .ctor, addr 0x5a41770, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::UnityEngine::Object* instance);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Instance, addr 0x5a47b94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_Instance();
 
+  /// [CompilerGenerated]
   /// @brief Method get_InstanceId, addr 0x5a47ba4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InstanceId();
 
   /// @brief Method get_IsStatic, addr 0x5a47bac, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsStatic();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5a47b9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
@@ -88,8 +92,8 @@ public:
   // @brief default ctor
   constexpr InstanceHandle();
 
-  // Ctor Parameters [CppParam { name: "_Instance_k__BackingField", ty: "::UnityW<::UnityEngine::Object>", modifiers: "", def_value: None }, CppParam { name: "_Type_k__BackingField", ty:
-  // "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_InstanceId_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Instance_k__BackingField", ty: "::UnityW<::UnityEngine::Object>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Type_k__BackingField",
+  // ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_InstanceId_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceHandle(::UnityW<::UnityEngine::Object> _Instance_k__BackingField, ::System::Type* _Type_k__BackingField, int32_t _InstanceId_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -98,12 +102,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Instance>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> _Instance_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::System::Type* _Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <InstanceId>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t _InstanceId_k__BackingField;
 

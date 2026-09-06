@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlDictionaryReaderQuotaTypes.hpp"
+// IWYU pragma private; include "System/Xml/XmlDictionaryReaderQuotaTypes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct XmlDictionaryReaderQuotaTypes;
 // Write type traits
 MARK_VAL_T(::System::Xml::XmlDictionaryReaderQuotaTypes);
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlDictionaryReaderQuotaTypes, "System.Xml", "XmlDictionaryReaderQuotaTypes");
+// [Flags]
 // Dependencies
 namespace System::Xml {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr XmlDictionaryReaderQuotaTypes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlDictionaryReaderQuotaTypes(int32_t value__) noexcept;
 
   /// @brief Field MaxArrayLength value: I32(4)

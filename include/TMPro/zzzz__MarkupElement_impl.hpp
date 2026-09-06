@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\MarkupElement.hpp"
+// IWYU pragma private; include "TMPro/MarkupElement.hpp"
 #include "TMPro/zzzz__MarkupAttribute_impl.hpp"
 #include "TMPro/zzzz__MarkupElement_def.hpp"
 #include "TMPro/zzzz__MarkupAttribute_def.hpp"
@@ -183,7 +183,7 @@ inline void TMPro::MarkupElement::_ctor(int32_t nameHashCode, int32_t startIndex
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, nameHashCode, startIndex, length);
 }
-// Ctor Parameters [CppParam { name: "m_Attributes", ty: "::ArrayW<::TMPro::MarkupAttribute>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Attributes", ty: "::ArrayW<::TMPro::MarkupAttribute>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::MarkupElement::MarkupElement(::ArrayW<::TMPro::MarkupAttribute> m_Attributes) noexcept {
   this->m_Attributes = m_Attributes;
 }

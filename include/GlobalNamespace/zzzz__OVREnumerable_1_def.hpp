@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVREnumerable_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVREnumerable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -91,7 +93,7 @@ public:
   // @brief default ctor
   constexpr Enumerator_OVREnumerable_1_CollectionType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Enumerator_OVREnumerable_1_CollectionType(int32_t value__) noexcept;
 
   /// @brief Field Enumerable value: I32(5)
@@ -187,12 +189,13 @@ public:
   // @brief default ctor
   constexpr OVREnumerable_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_listIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_type", ty: "::GlobalNamespace::Enumerator_OVREnumerable_1_CollectionType<T>",
-  // modifiers: "", def_value: None }, CppParam { name: "_listCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_enumerator", ty:
-  // "::System::Collections::Generic::IEnumerator_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_readOnlyList", ty: "::System::Collections::Generic::IReadOnlyList_1<T>*", modifiers: "",
-  // def_value: None }, CppParam { name: "_setEnumerator", ty: "::System::Collections::Generic::HashSet_1_Enumerator<T>", modifiers: "", def_value: None }, CppParam { name: "_queueEnumerator", ty:
-  // "::System::Collections::Generic::Queue_1_Enumerator<T>", modifiers: "", def_value: None }, CppParam { name: "_listEnumerator", ty: "::System::Collections::Generic::List_1_Enumerator<T>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_listIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_type", ty:
+  // "::GlobalNamespace::Enumerator_OVREnumerable_1_CollectionType<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_listCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_enumerator", ty: "::System::Collections::Generic::IEnumerator_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_readOnlyList", ty:
+  // "::System::Collections::Generic::IReadOnlyList_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_setEnumerator", ty:
+  // "::System::Collections::Generic::HashSet_1_Enumerator<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_queueEnumerator", ty:
+  // "::System::Collections::Generic::Queue_1_Enumerator<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_listEnumerator", ty:
+  // "::System::Collections::Generic::List_1_Enumerator<T>", modifiers: "", def_value: None, comment: None }]
   constexpr OVREnumerable_1_Enumerator(int32_t _listIndex, ::GlobalNamespace::Enumerator_OVREnumerable_1_CollectionType<T> _type, int32_t _listCount,
                                        ::System::Collections::Generic::IEnumerator_1<T>* _enumerator, ::System::Collections::Generic::IReadOnlyList_1<T>* _readOnlyList,
                                        ::System::Collections::Generic::HashSet_1_Enumerator<T> _setEnumerator, ::System::Collections::Generic::Queue_1_Enumerator<T> _queueEnumerator,
@@ -232,6 +235,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
@@ -251,6 +255,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// [Obsolete("This method may enumerate the collection. Consider Count or TryGetCount instead.")]
   /// @brief Method GetCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetCount();
 
@@ -282,7 +287,7 @@ public:
   // @brief default ctor
   constexpr OVREnumerable_1();
 
-  // Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVREnumerable_1(::System::Collections::Generic::IEnumerable_1<T>* _enumerable) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

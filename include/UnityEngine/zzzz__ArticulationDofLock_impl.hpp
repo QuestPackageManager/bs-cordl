@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ArticulationDofLock.hpp"
+// IWYU pragma private; include "UnityEngine/ArticulationDofLock.hpp"
 #include "UnityEngine/zzzz__ArticulationDofLock_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ArticulationDofLock::ArticulationDofLock(int32_t value__) noexcept {
   this->value__ = value__;
 }

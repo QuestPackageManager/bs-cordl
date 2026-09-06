@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\WindowsMR\Input\WMRHMD.hpp"
+// IWYU pragma private; include "UnityEngine/XR/WindowsMR/Input/WMRHMD.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class WMRHMD;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::WindowsMR::Input::WMRHMD*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::WindowsMR::Input::WMRHMD*, "UnityEngine.XR.WindowsMR.Input", "WMRHMD");
+// [InputControlLayout(displayName = "Windows MR Headset", hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.XR.XRHMD
 namespace UnityEngine::XR::WindowsMR::Input {
 // Is value type: false
@@ -26,6 +27,9 @@ public:
   __declspec(property(get = __cordl_internal_get__userPresence_k__BackingField,
                       put = __cordl_internal_set__userPresence_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _userPresence_k__BackingField;
 
+  /// [InputControl]
+  /// [InputControl(name = "devicePosition", layout = "Vector3", aliases = new[] { "HeadPosition" })]
+  /// @brief [InputControl(name = "deviceRotation", layout = "Quaternion", aliases = new[] { "HeadRotation" })]
   __declspec(property(get = get_userPresence, put = set_userPresence)) ::UnityEngine::InputSystem::Controls::ButtonControl* userPresence;
 
   /// @brief Method FinishSetup, addr 0x64d27c0, size 0x7c, virtual true, abstract: false, final false
@@ -42,9 +46,11 @@ public:
   /// @brief Method .ctor, addr 0x64d283c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userPresence, addr 0x64d27b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();
 
+  /// [CompilerGenerated]
   /// @brief Method set_userPresence, addr 0x64d27b8, size 0x8, virtual false, abstract: false, final false
   inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
@@ -54,17 +60,18 @@ protected:
   constexpr WMRHMD();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WMRHMD", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WMRHMD", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WMRHMD(WMRHMD&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WMRHMD", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WMRHMD", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WMRHMD(WMRHMD const&) = delete;
+  WMRHMD(WMRHMDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8605 };
 
+  /// [CompilerGenerated]
   /// @brief Field <userPresence>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____userPresence_k__BackingField;
 

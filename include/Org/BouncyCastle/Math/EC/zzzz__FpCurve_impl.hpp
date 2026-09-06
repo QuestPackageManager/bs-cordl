@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\FpCurve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/FpCurve.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpCurve_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__FpCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
@@ -323,6 +323,7 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::FpCu
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Math::EC::FpCurve*>(), 21 })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECPoint*>(this, ___internal_method, p);
 }
+/// @brief [Obsolete("Use constructor taking order/cofactor")]
 inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a,
                                                                                               ::Org::BouncyCastle::Math::BigInteger* b) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::FpCurve*>(q, a, b));
@@ -332,6 +333,7 @@ inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCu
                                                                                               ::Org::BouncyCastle::Math::BigInteger* cofactor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::FpCurve*>(q, a, b, order, cofactor));
 }
+/// @brief [Obsolete("Use constructor taking order/cofactor")]
 inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r,
                                                                                               ::Org::BouncyCastle::Math::EC::ECFieldElement* a, ::Org::BouncyCastle::Math::EC::ECFieldElement* b) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::FpCurve*>(q, r, a, b));

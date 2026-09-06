@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Main\GraphQL\Queries\FeatureFlagsEnabled.hpp"
+// IWYU pragma private; include "Main/GraphQL/Queries/FeatureFlagsEnabled.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,11 +24,13 @@ namespace Main::GraphQL::Queries {
 class CORDL_TYPE FeatureFlagsEnabled : public ::OculusStudios::GraphQL::Client::GraphQLQueryOperation {
 public:
   // Declarations
+  /// @brief [Nullable(new[] { 1, 2 })]
   __declspec(property(get = get_Features, put = set_Features)) ::System::Collections::Generic::List_1<::StringW>* Features;
 
   /// @brief Method GetPersistedQueryID, addr 0x328b6b8, size 0x14, virtual true, abstract: false, final false
   inline uint64_t GetPersistedQueryID();
 
+  /// [NullableContext(1)]
   /// @brief Method GetVariableNames, addr 0x328b47c, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
 
@@ -41,7 +43,7 @@ public:
   inline ::System::Collections::Generic::List_1<::StringW>* get_Features();
 
   /// @brief Method set_Features, addr 0x328b578, size 0x80, virtual false, abstract: false, final false
-  inline void set_Features(::System::Collections::Generic::List_1<::StringW>* value);
+  inline void set_Features(/* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -49,13 +51,13 @@ protected:
   constexpr FeatureFlagsEnabled();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabled", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabled", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FeatureFlagsEnabled(FeatureFlagsEnabled&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabled", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagsEnabled", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagsEnabled(FeatureFlagsEnabled const&) = delete;
+  FeatureFlagsEnabled(FeatureFlagsEnabledconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22899 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\Process.hpp"
+// IWYU pragma private; include "System/Diagnostics/Process.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,7 +119,7 @@ public:
   // @brief default ctor
   constexpr Process_StreamReadMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Process_StreamReadMode(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -183,7 +183,7 @@ public:
   // @brief default ctor
   constexpr Process_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Process_State(int32_t value__) noexcept;
 
   /// @brief Field Associated value: I32(32)
@@ -238,10 +238,10 @@ public:
   // @brief default ctor
   constexpr Process_ProcInfo();
 
-  // Ctor Parameters [CppParam { name: "process_handle", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "pid", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "envVariables", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "UserName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Domain", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "Password", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "LoadUserProfile", ty: "bool", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "process_handle", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "pid", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "envVariables", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "UserName", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Domain", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Password", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "LoadUserProfile", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr Process_ProcInfo(::System::IntPtr process_handle, int32_t pid, ::ArrayW<::StringW> envVariables, ::StringW UserName, ::StringW Domain, ::System::IntPtr Password,
                              bool LoadUserProfile) noexcept;
 
@@ -292,6 +292,9 @@ static_assert(offsetof(::System::Diagnostics::Process_ProcInfo, LoadUserProfile)
 static_assert(sizeof(::System::Diagnostics::Process_ProcInfo) == 0x38, "Size mismatch!");
 
 } // namespace System::Diagnostics
+// [DefaultProperty("StartInfo")]
+// [DefaultEvent("Exited")]
+// [MonitoringDescription("Provides access to local and remote processes, enabling starting and stopping of local processes.")]
 // Dependencies System.ComponentModel.Component, System.Diagnostics.Process::StreamReadMode
 namespace System::Diagnostics {
 // Is value type: false
@@ -305,26 +308,56 @@ public:
 
   using StreamReadMode = ::System::Diagnostics::Process_StreamReadMode;
 
+  /// [Browsable(false)]
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [MonitoringDescription("Indicates if the process component is associated with a real process.")]
   __declspec(property(get = get_Associated)) bool Associated;
 
+  /// [MonitoringDescription("The value returned from the associated process when it terminated.")]
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_ExitCode)) int32_t ExitCode;
 
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// [Browsable(false)]
+  /// @brief [MonitoringDescription("Returns the native handle for this process.   The handle is only available if the process was started using this component.")]
   __declspec(property(get = get_Handle)) ::System::IntPtr Handle;
 
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// [MonitoringDescription("Indicates if the associated process has been terminated.")]
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_HasExited)) bool HasExited;
 
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [MonitoringDescription("The unique identifier for the process.")]
   __declspec(property(get = get_Id)) int32_t Id;
 
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [MonitoringDescription("The name of this process.")]
   __declspec(property(get = get_ProcessName)) ::StringW ProcessName;
 
+  /// [MonitoringDescription("Standard error stream of the process.")]
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_StandardError)) ::System::IO::StreamReader* StandardError;
 
+  /// [MonitoringDescription("Standard output stream of the process.")]
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_StandardOutput)) ::System::IO::StreamReader* StandardOutput;
 
+  /// [Browsable(false)]
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)2)]
+  /// @brief [MonitoringDescription("Specifies information used to start a process.")]
   __declspec(property(get = get_StartInfo, put = set_StartInfo)) ::System::Diagnostics::ProcessStartInfo* StartInfo;
 
+  /// [Browsable(false)]
+  /// [DefaultValue(null)]
+  /// @brief [MonitoringDescription("The object used to marshal the event handler calls issued as a result of a Process exit.")]
   __declspec(property(get = get_SynchronizingObject)) ::System::ComponentModel::ISynchronizeInvoke* SynchronizingObject;
 
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [MonitoringDescription("The amount of CPU time the process has used.")]
   __declspec(property(get = get_TotalProcessorTime)) ::System::TimeSpan TotalProcessorTime;
 
   /// @brief Field disposed, offset 0xc8, size 0x1
@@ -457,6 +490,7 @@ public:
   /// @brief Method GetProcessById, addr 0x639d234, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId);
 
+  /// [MonoTODO("There is no support for retrieving process information from a remote machine")]
   /// @brief Method GetProcessById, addr 0x639d280, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Process* GetProcessById(int32_t processId, ::StringW machineName);
 
@@ -787,13 +821,13 @@ protected:
   constexpr Process();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Process", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Process", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Process(Process&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Process", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Process", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Process(Process const&) = delete;
+  Process(Processconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11149 };

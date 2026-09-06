@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\MethodInfo.hpp"
+// IWYU pragma private; include "System/Reflection/MethodInfo.hpp"
 #include "System/Reflection/zzzz__MethodBase_impl.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
@@ -229,7 +229,7 @@ inline ::System::Reflection::MethodInfo* System::Reflection::MethodInfo::GetGene
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::MethodInfo*>(), 43 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method);
 }
-inline ::System::Reflection::MethodInfo* System::Reflection::MethodInfo::MakeGenericMethod(::ArrayW<::System::Type*> typeArguments) {
+inline ::System::Reflection::MethodInfo* System::Reflection::MethodInfo::MakeGenericMethod(/* [ParamArray] */ ::ArrayW<::System::Type*> typeArguments) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Reflection::MethodInfo*>(), 44 })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(this, ___internal_method, typeArguments);
 }

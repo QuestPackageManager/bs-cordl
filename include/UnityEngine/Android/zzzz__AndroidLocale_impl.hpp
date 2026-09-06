@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidLocale.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidLocale.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidLocale_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::AndroidLocale.get_country

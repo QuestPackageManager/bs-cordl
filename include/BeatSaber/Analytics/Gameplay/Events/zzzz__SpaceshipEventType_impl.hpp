@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipEventType.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipEventType.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipEventType_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType.get_Value

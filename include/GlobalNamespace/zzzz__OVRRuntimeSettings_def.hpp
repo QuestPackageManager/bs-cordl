@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRRuntimeSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRRuntimeSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -191,13 +191,13 @@ protected:
   constexpr OVRRuntimeSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRRuntimeSettings(OVRRuntimeSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRRuntimeSettings(OVRRuntimeSettings const&) = delete;
+  OVRRuntimeSettings(OVRRuntimeSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7653 };
@@ -205,27 +205,34 @@ public:
   /// @brief Field _assetName offset 0xffffffff size 0x8
   static constexpr ::ConstString _assetName{ u"OculusRuntimeSettings" };
 
+  /// [SerializeField]
   /// @brief Field handSkeletonVersion, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::OVRHandSkeletonVersion ___handSkeletonVersion;
 
   /// @brief Field colorSpace, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::OVRManager_ColorSpace ___colorSpace;
 
+  /// [SerializeField]
   /// @brief Field requestsVisualFaceTracking, offset: 0x20, size: 0x1, def value: None
   bool ___requestsVisualFaceTracking;
 
+  /// [SerializeField]
   /// @brief Field requestsAudioFaceTracking, offset: 0x21, size: 0x1, def value: None
   bool ___requestsAudioFaceTracking;
 
+  /// [SerializeField]
   /// @brief Field enableFaceTrackingVisemesOutput, offset: 0x22, size: 0x1, def value: None
   bool ___enableFaceTrackingVisemesOutput;
 
+  /// [SerializeField]
   /// @brief Field telemetryProjectGuid, offset: 0x28, size: 0x8, def value: None
   ::StringW ___telemetryProjectGuid;
 
+  /// [SerializeField]
   /// @brief Field bodyTrackingFidelity, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 ___bodyTrackingFidelity;
 
+  /// [SerializeField]
   /// @brief Field bodyTrackingJointSet, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::OVRPlugin_BodyJointSet ___bodyTrackingJointSet;
 

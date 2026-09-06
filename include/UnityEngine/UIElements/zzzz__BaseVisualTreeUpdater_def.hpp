@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseVisualTreeUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseVisualTreeUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
 
   static inline ::UnityEngine::UIElements::BaseVisualTreeUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
   /// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.get_FrameCount, addr 0x6cd1480, size 0x8, virtual true, abstract: false, final true
@@ -82,7 +82,7 @@ public:
   /// @brief Method UnityEngine.UIElements.IVisualTreeUpdater.set_FrameCount, addr 0x6cd1488, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IVisualTreeUpdater_set_FrameCount(int64_t value);
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update();
 
   constexpr int64_t const& __cordl_internal_get_frameCount() const;
@@ -106,13 +106,14 @@ public:
   /// @brief Method .ctor, addr 0x6ccdc98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_panelChanged, addr 0x6cd1490, size 0xc0, virtual false, abstract: false, final false
   inline void add_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
   /// @brief Method get_panel, addr 0x6ccdbcc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
 
-  /// @brief Method get_profilerMarker, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   /// @brief Method get_visualTree, addr 0x6ccf334, size 0x20, virtual false, abstract: false, final false
@@ -124,6 +125,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IVisualTreeUpdater"
   constexpr ::UnityEngine::UIElements::IVisualTreeUpdater* i___UnityEngine__UIElements__IVisualTreeUpdater() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_panelChanged, addr 0x6cd1550, size 0xc0, virtual false, abstract: false, final false
   inline void remove_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
@@ -136,13 +138,13 @@ protected:
   constexpr BaseVisualTreeUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseVisualTreeUpdater(BaseVisualTreeUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseVisualTreeUpdater(BaseVisualTreeUpdater const&) = delete;
+  BaseVisualTreeUpdater(BaseVisualTreeUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5266 };
@@ -150,6 +152,8 @@ public:
   /// @brief Field frameCount, offset: 0x10, size: 0x8, def value: None
   int64_t ___frameCount;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field panelChanged, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* ___panelChanged;
 

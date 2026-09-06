@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\KeyboardNavigationManipulator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/KeyboardNavigationManipulator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::UnityEngine::UIElements::KeyboardNavigationManipulator*);
 MARK_VAL_T(::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyboardNavigationManipulator*, "UnityEngine.UIElements", "KeyboardNavigationManipulator");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0, "UnityEngine.UIElements", "KeyboardNavigationManipulator/<>c__DisplayClass4_0");
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -53,7 +54,7 @@ public:
   // @brief default ctor
   constexpr KeyboardNavigationManipulator___c__DisplayClass4_0();
 
-  // Ctor Parameters [CppParam { name: "evt", ty: "::UnityEngine::UIElements::KeyDownEvent*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "evt", ty: "::UnityEngine::UIElements::KeyDownEvent*", modifiers: "", def_value: None, comment: None }]
   constexpr KeyboardNavigationManipulator___c__DisplayClass4_0(::UnityEngine::UIElements::KeyDownEvent* evt) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -110,6 +111,7 @@ public:
   /// @brief Method UnregisterCallbacksFromTarget, addr 0x6db5d98, size 0x22c, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnKeyDown>g__GetOperation|4_0, addr 0x6db6018, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::KeyboardNavigationOperation
   _OnKeyDown_g__GetOperation_4_0(::by_ref<::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0> _cordl_fixed_empty_name_whitespace);
@@ -129,13 +131,13 @@ protected:
   constexpr KeyboardNavigationManipulator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardNavigationManipulator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardNavigationManipulator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyboardNavigationManipulator(KeyboardNavigationManipulator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardNavigationManipulator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardNavigationManipulator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyboardNavigationManipulator(KeyboardNavigationManipulator const&) = delete;
+  KeyboardNavigationManipulator(KeyboardNavigationManipulatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4617 };

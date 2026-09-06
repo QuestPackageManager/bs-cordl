@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IKeyboardEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IKeyboardEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,18 +30,18 @@ public:
 
   __declspec(property(get = get_modifiers)) ::UnityEngine::EventModifiers modifiers;
 
-  /// @brief Method get_character, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_character, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t get_character();
 
-  /// @brief Method get_keyCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::KeyCode get_keyCode();
 
-  /// @brief Method get_modifiers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IKeyboardEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IKeyboardEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IKeyboardEvent(IKeyboardEvent const&) = delete;
+  IKeyboardEvent(IKeyboardEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4477 };

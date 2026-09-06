@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\ChallengeCreationType.hpp"
+// IWYU pragma private; include "Oculus/Platform/ChallengeCreationType.hpp"
 #include "Oculus/Platform/zzzz__ChallengeCreationType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::ChallengeCreationType::ChallengeCreationType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncLoader.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   // @brief default ctor
   constexpr AsyncLoader_SynchronizationStep();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncLoader_SynchronizationStep(int32_t value__) noexcept;
 
   /// @brief Field AfterAsyncInstallers value: I32(2)
@@ -116,7 +116,7 @@ public:
   /// @brief Method LoadAsync, addr 0x33089cc, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadInternalAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LoadInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* LoadInternalAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
@@ -146,7 +146,7 @@ public:
   /// @brief Method .ctor, addr 0x3308570, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_synchronizationStep, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_synchronizationStep, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep get_synchronizationStep();
 
 protected:
@@ -155,13 +155,13 @@ protected:
   constexpr AsyncLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncLoader(AsyncLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncLoader(AsyncLoader const&) = delete;
+  AsyncLoader(AsyncLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21552 };

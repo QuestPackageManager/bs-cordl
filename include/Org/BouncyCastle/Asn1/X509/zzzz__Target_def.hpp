@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\Target.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Target.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +66,7 @@ public:
   // @brief default ctor
   constexpr Target_Choice();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Target_Choice(int32_t value__) noexcept;
 
   /// @brief Field Group value: I32(1)
@@ -157,13 +157,13 @@ protected:
   constexpr Target();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Target", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Target", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Target(Target&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Target", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Target", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Target(Target const&) = delete;
+  Target(Targetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 386 };

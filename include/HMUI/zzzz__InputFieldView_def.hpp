@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\InputFieldView.hpp"
+// IWYU pragma private; include "HMUI/InputFieldView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,7 +120,7 @@ public:
   // @brief default ctor
   constexpr InputFieldView_SelectionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputFieldView_SelectionState(int32_t value__) noexcept;
 
   /// @brief Field Disabled value: I32(3)
@@ -173,13 +173,13 @@ protected:
   constexpr InputFieldView_InputFieldChanged();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView_InputFieldChanged", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView_InputFieldChanged", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputFieldView_InputFieldChanged(InputFieldView_InputFieldChanged&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView_InputFieldChanged", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView_InputFieldChanged", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldView_InputFieldChanged(InputFieldView_InputFieldChanged const&) = delete;
+  InputFieldView_InputFieldChanged(InputFieldView_InputFieldChangedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19088 };
@@ -190,6 +190,7 @@ public:
 static_assert(sizeof(::HMUI::InputFieldView_InputFieldChanged) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -222,17 +223,22 @@ public:
   /// @brief Method MoveNext, addr 0x588706c, size 0x8c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58870f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5887100, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5887138, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5887068, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -254,6 +260,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::InputFieldView> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5886e58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -272,13 +279,13 @@ protected:
   constexpr InputFieldView__BlinkingCaretCoroutine_d__46();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView__BlinkingCaretCoroutine_d__46", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView__BlinkingCaretCoroutine_d__46", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView__BlinkingCaretCoroutine_d__46", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView__BlinkingCaretCoroutine_d__46", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46 const&) = delete;
+  InputFieldView__BlinkingCaretCoroutine_d__46(InputFieldView__BlinkingCaretCoroutine_d__46const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19089 };
@@ -390,6 +397,7 @@ public:
   /// @brief Method Awake, addr 0x5886568, size 0x11c, virtual true, abstract: false, final false
   inline void Awake();
 
+  /// [IteratorStateMachine(typeof(HMUI.InputFieldView::<BlinkingCaretCoroutine>d__46))]
   /// @brief Method BlinkingCaretCoroutine, addr 0x5886930, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* BlinkingCaretCoroutine();
 
@@ -425,6 +433,7 @@ public:
   /// @brief Method UpdatePlaceholder, addr 0x5886530, size 0x38, virtual false, abstract: false, final false
   inline void UpdatePlaceholder();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__37_0, addr 0x5886fd8, size 0x90, virtual false, abstract: false, final false
   inline void _Awake_b__37_0();
 
@@ -539,6 +548,7 @@ public:
   /// @brief Method .ctor, addr 0x5886e60, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectionStateDidChangeEvent, addr 0x5886230, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>* value);
 
@@ -560,6 +570,7 @@ public:
   /// @brief Method get_useSystemKeyboardIfAvailable, addr 0x58863c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_useSystemKeyboardIfAvailable();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectionStateDidChangeEvent, addr 0x58862f0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::InputFieldView_SelectionState>* value);
 
@@ -575,13 +586,13 @@ protected:
   constexpr InputFieldView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputFieldView(InputFieldView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldView(InputFieldView const&) = delete;
+  InputFieldView(InputFieldViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19090 };
@@ -589,39 +600,55 @@ public:
   /// @brief Field kBlinkingRate offset 0xffffffff size 0x4
   static constexpr float_t kBlinkingRate{ static_cast<float_t>(0.4f) };
 
+  /// [SerializeField]
   /// @brief Field _textView, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____textView;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _textViewCanvasGroup, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____textViewCanvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _blinkingCaret, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageViewBase> ____blinkingCaret;
 
+  /// [SerializeField]
   /// @brief Field _placeholderText, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____placeholderText;
 
+  /// [SerializeField]
   /// @brief Field _clearSearchButton, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____clearSearchButton;
 
+  /// [Header("Input Specific Keyboard Settings")]
+  /// [SerializeField]
   /// @brief Field _useGlobalKeyboard, offset: 0x128, size: 0x1, def value: None
   bool ____useGlobalKeyboard;
 
+  /// [SerializeField]
+  /// [DrawIf("_useGlobalKeyboard", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _useSystemKeyboardIfAvailable, offset: 0x129, size: 0x1, def value: None
   bool ____useSystemKeyboardIfAvailable;
 
+  /// [SerializeField]
   /// @brief Field _keyboardPositionOffset, offset: 0x12c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____keyboardPositionOffset;
 
+  /// [Header("Input Field Settings")]
+  /// [SerializeField]
   /// @brief Field _useUppercase, offset: 0x138, size: 0x1, def value: None
   bool ____useUppercase;
 
+  /// [SerializeField]
   /// @brief Field _textLengthLimit, offset: 0x13c, size: 0x4, def value: None
   int32_t ____textLengthLimit;
 
+  /// [SerializeField]
   /// @brief Field _caretOffset, offset: 0x140, size: 0x4, def value: None
   float_t ____caretOffset;
 
+  /// [CompilerGenerated]
   /// @brief Field selectionStateDidChangeEvent, offset: 0x148, size: 0x8, def value: None
   ::System::Action_1<::HMUI::InputFieldView_SelectionState>* ___selectionStateDidChangeEvent;
 

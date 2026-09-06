@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\SerializationBinderAdapter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/SerializationBinderAdapter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__SerializationBinderAdapter_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ISerializationBinder_def.hpp"
@@ -65,12 +65,13 @@ inline void Newtonsoft::Json::Serialization::SerializationBinderAdapter::_ctor(:
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Runtime::Serialization::SerializationBinder*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializationBinder);
 }
-inline ::System::Type* Newtonsoft::Json::Serialization::SerializationBinderAdapter::BindToType(::StringW assemblyName, ::StringW typeName) {
+inline ::System::Type* Newtonsoft::Json::Serialization::SerializationBinderAdapter::BindToType(/* [Nullable(2)] */ ::StringW assemblyName, ::StringW typeName) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::SerializationBinderAdapter*>(),
                                                                                          { "BindToType", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, assemblyName, typeName);
 }
-inline void Newtonsoft::Json::Serialization::SerializationBinderAdapter::BindToName(::System::Type* serializedType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> typeName) {
+inline void Newtonsoft::Json::Serialization::SerializationBinderAdapter::BindToName(/* [Nullable(1)] */ ::System::Type* serializedType, ::by_ref<::StringW> assemblyName,
+                                                                                    ::by_ref<::StringW> typeName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::SerializationBinderAdapter*>(),
                                                            { "BindToName", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::StringW>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));

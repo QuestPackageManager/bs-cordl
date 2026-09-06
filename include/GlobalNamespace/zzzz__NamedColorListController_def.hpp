@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NamedColorListController.hpp"
+// IWYU pragma private; include "GlobalNamespace/NamedColorListController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr NamedColorListController_ColorValuePair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController_ColorValuePair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController_ColorValuePair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamedColorListController_ColorValuePair(NamedColorListController_ColorValuePair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController_ColorValuePair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController_ColorValuePair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedColorListController_ColorValuePair(NamedColorListController_ColorValuePair const&) = delete;
+  NamedColorListController_ColorValuePair(NamedColorListController_ColorValuePairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23342 };
@@ -155,12 +155,14 @@ public:
   /// @brief Method .ctor, addr 0x5a30230, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_valueChangedEvent, addr 0x5a2ff6c, size 0xc0, virtual true, abstract: false, final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
   constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_valueChangedEvent, addr 0x5a3002c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
@@ -170,23 +172,26 @@ protected:
   constexpr NamedColorListController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamedColorListController(NamedColorListController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedColorListController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedColorListController(NamedColorListController const&) = delete;
+  NamedColorListController(NamedColorListControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23343 };
 
+  /// [SerializeField]
   /// @brief Field _textValuePairs, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*> ____textValuePairs;
 
+  /// [SerializeField]
   /// @brief Field _value, offset: 0x38, size: 0x4, def value: None
   int32_t ____value;
 
+  /// [CompilerGenerated]
   /// @brief Field valueChangedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___valueChangedEvent;
 

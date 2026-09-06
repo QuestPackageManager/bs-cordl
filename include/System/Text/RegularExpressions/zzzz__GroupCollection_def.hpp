@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\GroupCollection.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/GroupCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -146,13 +146,13 @@ protected:
   constexpr GroupCollection_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupCollection_Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupCollection_Enumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupCollection_Enumerator(GroupCollection_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupCollection_Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupCollection_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupCollection_Enumerator(GroupCollection_Enumerator const&) = delete;
+  GroupCollection_Enumerator(GroupCollection_Enumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11098 };
@@ -173,6 +173,9 @@ static_assert(offsetof(::System::Text::RegularExpressions::GroupCollection_Enume
 static_assert(sizeof(::System::Text::RegularExpressions::GroupCollection_Enumerator) == 0x20, "Size mismatch!");
 
 } // namespace System::Text::RegularExpressions
+// [DefaultMember("Item")]
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Text.RegularExpressions.CollectionDebuggerProxy`1<T>))]
 // Dependencies System.Object, System.Text.RegularExpressions.Group
 namespace System::Text::RegularExpressions {
 // Is value type: false
@@ -390,13 +393,13 @@ protected:
   constexpr GroupCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupCollection(GroupCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupCollection(GroupCollection const&) = delete;
+  GroupCollection(GroupCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11099 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\Leaderboards\LeaderboardHelpers.hpp"
+// IWYU pragma private; include "BeatSaber/Main/Leaderboards/LeaderboardHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__LeaderboardHelpers_def.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__XOCBeatGamesBeatmapCharacteristic_def.hpp"

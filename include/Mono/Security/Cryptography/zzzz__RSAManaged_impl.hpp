@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Cryptography\RSAManaged.hpp"
+// IWYU pragma private; include "Mono/Security/Cryptography/RSAManaged.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__RSAManaged_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5ac03c4;
+  constexpr static std::size_t addrs = 0x5aa57d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler::*)(::System::Object*, ::System::EventArgs*)>(
     &::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ac050c;
+  constexpr static std::size_t addrs = 0x5aa5920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler*>(),
@@ -56,9 +56,21 @@ constexpr ::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler::R
 //  Writing Method size for method: ::Mono::Security::Cryptography::RSAManaged._ctor
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged::*)()>(&::Mono::Security::Cryptography::RSAManaged::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5aa3670;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Security::Cryptography::RSAManaged._ctor
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged::*)(int32_t)>(&::Mono::Security::Cryptography::RSAManaged::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5abe10c;
+  constexpr static std::size_t addrs = 0x5aa3678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged::*)()>(&::Mono::Security::Cryptography::RSAManaged::Finalize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5abe1d4;
+  constexpr static std::size_t addrs = 0x5aa3740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged::*)()>(&::Mono::Security::Cryptography::RSAManaged::GenerateKeyPair)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x5abe224;
+  constexpr static std::size_t addrs = 0x5aa3790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(), { "GenerateKeyPair", {}, {} })));
@@ -96,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Cryptography::RSAManaged::*)()>(&::Mono::Security::Cryptography::RSAManaged::get_KeySize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5abea4c;
+  constexpr static std::size_t addrs = 0x5aa3fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Cryptography::RSAManaged::*)()>(&::Mono::Security::Cryptography::RSAManaged::get_PublicOnly)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5abeae0;
+  constexpr static std::size_t addrs = 0x5aa404c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(), { "get_PublicOnly", {}, {} })));
@@ -122,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Cryptography::RSAManaged::*)(::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::RSAManaged::EncryptValue)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5abec40;
+  constexpr static std::size_t addrs = 0x5aa41ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSAParameters (::Mono::Security::Cryptography::RSAManaged::*)(bool)>(
     &::Mono::Security::Cryptography::RSAManaged::ExportParameters)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x5abf0f0;
+  constexpr static std::size_t addrs = 0x5aa465c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged::*)(::System::Security::Cryptography::RSAParameters)>(
     &::Mono::Security::Cryptography::RSAManaged::ImportParameters)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x5abf55c;
+  constexpr static std::size_t addrs = 0x5aa4ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,41 +175,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged::*)(bool)>(&::Mono::Security::Cryptography::RSAManaged::Dispose)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5abf990;
+  constexpr static std::size_t addrs = 0x5aa4efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(), { ::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(), 5 }));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Security::Cryptography::RSAManaged.add_KeyGenerated
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged::*)(::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler*)>(
-    &::Mono::Security::Cryptography::RSAManaged::add_KeyGenerated)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5abfb98;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(),
-                                                             { "add_KeyGenerated", {}, { ::i2c::type_of<::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Security::Cryptography::RSAManaged.remove_KeyGenerated
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::RSAManaged::*)(::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler*)>(
-    &::Mono::Security::Cryptography::RSAManaged::remove_KeyGenerated)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5abfc44;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(),
-                                                             { "remove_KeyGenerated", {}, { ::i2c::type_of<::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler*>() } })));
     return ___internal_method;
   }
 };
@@ -206,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::Cryptography::RSAManaged::*)(bool)>(&::Mono::Security::Cryptography::RSAManaged::ToXmlString)> {
   constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x5abfcf0;
+  constexpr static std::size_t addrs = 0x5aa5104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Cryptography::RSAManaged::*)(::Mono::Math::BigInteger*, int32_t)>(
     &::Mono::Security::Cryptography::RSAManaged::GetPaddedValue)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5abefe0;
+  constexpr static std::size_t addrs = 0x5aa454c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(),
@@ -384,6 +366,10 @@ constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_Ke
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___KeyGenerated = value;
 }
+inline void Mono::Security::Cryptography::RSAManaged::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline void Mono::Security::Cryptography::RSAManaged::_ctor(int32_t keySize) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -427,18 +413,6 @@ inline void Mono::Security::Cryptography::RSAManaged::Dispose(bool disposing) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
 }
-inline void Mono::Security::Cryptography::RSAManaged::add_KeyGenerated(::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(),
-                                                           { "add_KeyGenerated", {}, { ::i2c::type_of<::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline void Mono::Security::Cryptography::RSAManaged::remove_KeyGenerated(::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(),
-                                                           { "remove_KeyGenerated", {}, { ::i2c::type_of<::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
 inline ::StringW Mono::Security::Cryptography::RSAManaged::ToXmlString(bool includePrivateParameters) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(), 9 })));
@@ -448,6 +422,9 @@ inline ::ArrayW<uint8_t> Mono::Security::Cryptography::RSAManaged::GetPaddedValu
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::RSAManaged*>(),
                                                                                          { "GetPaddedValue", {}, { ::i2c::type_of<::Mono::Math::BigInteger*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method, value, length);
+}
+inline ::Mono::Security::Cryptography::RSAManaged* Mono::Security::Cryptography::RSAManaged::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Security::Cryptography::RSAManaged*>());
 }
 inline ::Mono::Security::Cryptography::RSAManaged* Mono::Security::Cryptography::RSAManaged::New_ctor(int32_t keySize) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Mono::Security::Cryptography::RSAManaged*>(keySize));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\UniqueConstraint.hpp"
+// IWYU pragma private; include "System/Data/UniqueConstraint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ class UniqueConstraint;
 // Write type traits
 MARK_REF_T(::System::Data::UniqueConstraint*);
 DEFINE_IL2CPP_CLASS(::System::Data::UniqueConstraint*, "System.Data", "UniqueConstraint");
+// [DefaultProperty("ConstraintName")]
 // Dependencies System.Data.Constraint, System.Data.DataKey
 namespace System::Data {
 // Is value type: false
@@ -55,6 +56,7 @@ public:
   // Declarations
   __declspec(property(get = get_ColumnNames)) ::ArrayW<::StringW> ColumnNames;
 
+  /// @brief [ReadOnly(true)]
   __declspec(property(get = get_Columns)) ::ArrayW<::System::Data::DataColumn*> Columns;
 
   __declspec(property(get = get_ColumnsReference)) ::ArrayW<::System::Data::DataColumn*> ColumnsReference;
@@ -67,6 +69,7 @@ public:
 
   __declspec(property(get = get_Key)) ::System::Data::DataKey Key;
 
+  /// @brief [ReadOnly(true)]
   __declspec(property(get = get_Table)) ::System::Data::DataTable* Table;
 
   /// @brief Field _bPrimaryKey, offset 0x48, size 0x1
@@ -133,6 +136,7 @@ public:
 
   static inline ::System::Data::UniqueConstraint* New_ctor(::ArrayW<::System::Data::DataColumn*> columns);
 
+  /// @brief [Browsable(false)]
   static inline ::System::Data::UniqueConstraint* New_ctor(::StringW name, ::ArrayW<::StringW> columnNames, bool isPrimaryKey);
 
   static inline ::System::Data::UniqueConstraint* New_ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*> columns);
@@ -178,6 +182,7 @@ public:
   /// @brief Method .ctor, addr 0x6051c14, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Data::DataColumn*> columns);
 
+  /// [Browsable(false)]
   /// @brief Method .ctor, addr 0x6051c38, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::StringW> columnNames, bool isPrimaryKey);
 
@@ -217,13 +222,13 @@ protected:
   constexpr UniqueConstraint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniqueConstraint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniqueConstraint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniqueConstraint(UniqueConstraint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniqueConstraint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniqueConstraint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniqueConstraint(UniqueConstraint const&) = delete;
+  UniqueConstraint(UniqueConstraintconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13862 };

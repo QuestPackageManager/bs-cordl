@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SpecialTypeDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SpecialTypeDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ protected:
   constexpr SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper(SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper(SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper const&) = delete;
+  SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper(SpecialTypeDataContract_SpecialTypeDataContractCriticalHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17113 };
@@ -97,13 +97,13 @@ protected:
   constexpr SpecialTypeDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpecialTypeDataContract(SpecialTypeDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpecialTypeDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpecialTypeDataContract(SpecialTypeDataContract const&) = delete;
+  SpecialTypeDataContract(SpecialTypeDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17114 };

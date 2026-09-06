@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Principal\IdentityReference.hpp"
+// IWYU pragma private; include "System/Security/Principal/IdentityReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class IdentityReference;
 // Write type traits
 MARK_REF_T(::System::Security::Principal::IdentityReference*);
 DEFINE_IL2CPP_CLASS(::System::Security::Principal::IdentityReference*, "System.Security.Principal", "IdentityReference");
+// [ComVisible(false)]
 // Dependencies System.Object
 namespace System::Security::Principal {
 // Is value type: false
@@ -29,24 +30,24 @@ public:
   // Declarations
   __declspec(property(get = get_Value)) ::StringW Value;
 
-  /// @brief Method Equals, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Security::Principal::IdentityReference* New_ctor();
 
-  /// @brief Method ToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Translate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
   /// @brief Method .ctor, addr 0x5b137dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Value();
 
   /// @brief Method op_Equality, addr 0x5b137e0, size 0x64, virtual false, abstract: false, final false
@@ -58,13 +59,13 @@ protected:
   constexpr IdentityReference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityReference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdentityReference", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IdentityReference(IdentityReference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityReference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdentityReference", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IdentityReference(IdentityReference const&) = delete;
+  IdentityReference(IdentityReferenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3016 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalSubscription.hpp"
+// IWYU pragma private; include "Zenject/SignalSubscription.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindingId_impl.hpp"
 #include "Zenject/zzzz__PoolableMemoryPool_3_impl.hpp"

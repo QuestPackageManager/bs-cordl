@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ShowTextOnGameEventController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ShowTextOnGameEventController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,23 +93,27 @@ protected:
   constexpr ShowTextOnGameEventController_EventTextBinding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShowTextOnGameEventController_EventTextBinding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShowTextOnGameEventController_EventTextBinding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShowTextOnGameEventController_EventTextBinding(ShowTextOnGameEventController_EventTextBinding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShowTextOnGameEventController_EventTextBinding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShowTextOnGameEventController_EventTextBinding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShowTextOnGameEventController_EventTextBinding(ShowTextOnGameEventController_EventTextBinding const&) = delete;
+  ShowTextOnGameEventController_EventTextBinding(ShowTextOnGameEventController_EventTextBindingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6209 };
 
+  /// [SerializeField]
   /// @brief Field _signal, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____signal;
 
+  /// [SerializeField]
   /// @brief Field _delay, offset: 0x18, size: 0x4, def value: None
   float_t ____delay;
 
+  /// [TextArea(2, 2)]
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::StringW ____text;
 
@@ -130,6 +134,7 @@ static_assert(offsetof(::GlobalNamespace::ShowTextOnGameEventController_EventTex
 static_assert(sizeof(::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/ShowTextOnGameEventController")]
 // Dependencies ShowTextOnGameEventController::EventTextBinding, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -175,20 +180,22 @@ protected:
   constexpr ShowTextOnGameEventController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShowTextOnGameEventController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShowTextOnGameEventController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShowTextOnGameEventController(ShowTextOnGameEventController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShowTextOnGameEventController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShowTextOnGameEventController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShowTextOnGameEventController(ShowTextOnGameEventController const&) = delete;
+  ShowTextOnGameEventController(ShowTextOnGameEventControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6210 };
 
+  /// [SerializeField]
   /// @brief Field _textFadeTransitions, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TextFadeTransitions> ____textFadeTransitions;
 
+  /// [SerializeField]
   /// @brief Field _eventTextBindings, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding*> ____eventTextBindings;
 

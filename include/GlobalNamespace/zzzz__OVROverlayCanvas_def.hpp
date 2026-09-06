@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVROverlayCanvas.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVROverlayCanvas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,7 +100,7 @@ public:
   // @brief default ctor
   constexpr OVROverlayCanvas_DrawMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVROverlayCanvas_DrawMode(int32_t value__) noexcept;
 
   /// @brief Field AlphaToMask value: I32(4)
@@ -164,7 +164,7 @@ public:
   // @brief default ctor
   constexpr OVROverlayCanvas_CanvasShape();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVROverlayCanvas_CanvasShape(int32_t value__) noexcept;
 
   /// @brief Field Curved value: I32(1)
@@ -190,6 +190,8 @@ static_assert(offsetof(::GlobalNamespace::OVROverlayCanvas_CanvasShape, value__)
 static_assert(sizeof(::GlobalNamespace::OVROverlayCanvas_CanvasShape) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [RequireComponent(typeof(UnityEngine.Canvas))]
+// [ExecuteAlways]
 // Dependencies OVROverlayCanvas::CanvasShape, OVROverlayCanvas::DrawMode, OVRRayTransformer, UnityEngine.Plane, UnityEngine.Vector2, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -528,13 +530,13 @@ protected:
   constexpr OVROverlayCanvas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayCanvas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayCanvas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVROverlayCanvas(OVROverlayCanvas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayCanvas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayCanvas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVROverlayCanvas(OVROverlayCanvas const&) = delete;
+  OVROverlayCanvas(OVROverlayCanvasconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7265 };
@@ -596,21 +598,27 @@ public:
   /// @brief Field _scaleViewport, offset: 0x86, size: 0x1, def value: None
   bool ____scaleViewport;
 
+  /// [FormerlySerializedAs("MaxTextureSize")]
   /// @brief Field maxTextureSize, offset: 0x88, size: 0x4, def value: None
   int32_t ___maxTextureSize;
 
+  /// [FormerlySerializedAs("DrawRate")]
   /// @brief Field renderInterval, offset: 0x8c, size: 0x4, def value: None
   int32_t ___renderInterval;
 
+  /// [FormerlySerializedAs("DrawFrameOffset")]
   /// @brief Field renderIntervalFrameOffset, offset: 0x90, size: 0x4, def value: None
   int32_t ___renderIntervalFrameOffset;
 
+  /// [FormerlySerializedAs("Expensive")]
   /// @brief Field expensive, offset: 0x94, size: 0x1, def value: None
   bool ___expensive;
 
+  /// [FormerlySerializedAs("Layer")]
   /// @brief Field layer, offset: 0x98, size: 0x4, def value: None
   int32_t ___layer;
 
+  /// [FormerlySerializedAs("Opacity")]
   /// @brief Field opacity, offset: 0x9c, size: 0x4, def value: None
   ::GlobalNamespace::OVROverlayCanvas_DrawMode ___opacity;
 
@@ -623,6 +631,7 @@ public:
   /// @brief Field overlapMask, offset: 0xa8, size: 0x1, def value: None
   bool ___overlapMask;
 
+  /// [SerializeField]
   /// @brief Field _overlayEnabled, offset: 0xa9, size: 0x1, def value: None
   bool ____overlayEnabled;
 

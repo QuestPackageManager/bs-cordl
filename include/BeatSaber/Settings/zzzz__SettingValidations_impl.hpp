@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\SettingValidations.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/SettingValidations.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Settings/zzzz__SettingValidations_def.hpp"
 #include "BeatSaber/Settings/zzzz__AudioSettings_def.hpp"

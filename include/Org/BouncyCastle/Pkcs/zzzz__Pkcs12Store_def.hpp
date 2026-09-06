@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkcs\Pkcs12Store.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs12Store.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,13 +128,13 @@ protected:
   constexpr Pkcs12Store_CertId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_CertId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_CertId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs12Store_CertId(Pkcs12Store_CertId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_CertId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_CertId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12Store_CertId(Pkcs12Store_CertId const&) = delete;
+  Pkcs12Store_CertId(Pkcs12Store_CertIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1698 };
@@ -150,6 +150,7 @@ static_assert(offsetof(::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId, ___id) == 
 static_assert(sizeof(::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId) == 0x18, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Pkcs
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
@@ -224,13 +225,13 @@ protected:
   constexpr Pkcs12Store_IgnoresCaseHashtable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_IgnoresCaseHashtable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_IgnoresCaseHashtable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs12Store_IgnoresCaseHashtable(Pkcs12Store_IgnoresCaseHashtable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_IgnoresCaseHashtable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store_IgnoresCaseHashtable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12Store_IgnoresCaseHashtable(Pkcs12Store_IgnoresCaseHashtable const&) = delete;
+  Pkcs12Store_IgnoresCaseHashtable(Pkcs12Store_IgnoresCaseHashtableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1699 };
@@ -370,6 +371,7 @@ public:
   /// @brief Method SetKeyEntry, addr 0x35b5858, size 0x284, virtual false, abstract: false, final false
   inline void SetKeyEntry(::StringW alias, ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* keyEntry, ::ArrayW<::Org::BouncyCastle::Pkcs::X509CertificateEntry*> chain);
 
+  /// [Obsolete("Use \'Count\' property instead")]
   /// @brief Method Size, addr 0x35b6140, size 0x4, virtual false, abstract: false, final false
   inline int32_t Size();
 
@@ -464,13 +466,13 @@ protected:
   constexpr Pkcs12Store();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs12Store(Pkcs12Store&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12Store(Pkcs12Store const&) = delete;
+  Pkcs12Store(Pkcs12Storeconst&) = delete;
 
   /// @brief Field IgnoreUselessPasswordProperty offset 0xffffffff size 0x8
   static constexpr ::ConstString IgnoreUselessPasswordProperty{ u"Org.BouncyCastle.Pkcs12.IgnoreUselessPassword" };

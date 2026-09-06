@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEditorGameplaySceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEditorGameplaySceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorStartTestLevelData_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorGameplaySceneSetupData_def.hpp"
@@ -30,12 +30,13 @@ constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___data = value;
 }
-inline void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::_ctor(::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data) {
+inline void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data);
 }
-inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData* GlobalNamespace::BeatmapEditorGameplaySceneSetupData::New_ctor(::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data) {
+inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*
+GlobalNamespace::BeatmapEditorGameplaySceneSetupData::New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>(data));
 }
 // Ctor Parameters []

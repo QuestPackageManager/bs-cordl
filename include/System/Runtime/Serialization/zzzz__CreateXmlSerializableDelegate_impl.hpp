@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\CreateXmlSerializableDelegate.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/CreateXmlSerializableDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__CreateXmlSerializableDelegate_def.hpp"
 #include "System/Xml/Serialization/zzzz__IXmlSerializable_def.hpp"

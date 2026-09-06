@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\ZOutputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/ZOutputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -203,13 +203,13 @@ protected:
   constexpr ZOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZOutputStream(ZOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZOutputStream(ZOutputStream const&) = delete;
+  ZOutputStream(ZOutputStreamconst&) = delete;
 
   /// @brief Field BufferSize offset 0xffffffff size 0x4
   static constexpr int32_t BufferSize{ static_cast<int32_t>(0x1000) };

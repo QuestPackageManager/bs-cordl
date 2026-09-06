@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LeaderboardTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/LeaderboardTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -135,35 +135,42 @@ protected:
   constexpr LeaderboardTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardTableCell(LeaderboardTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardTableCell(LeaderboardTableCell const&) = delete;
+  LeaderboardTableCell(LeaderboardTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6819 };
 
+  /// [SerializeField]
   /// @brief Field _rankText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
+  /// [SerializeField]
   /// @brief Field _playerNameText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
 
+  /// [SerializeField]
   /// @brief Field _scoreText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
+  /// [SerializeField]
   /// @brief Field _fullComboText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____fullComboText;
 
+  /// [SerializeField]
   /// @brief Field _normalColor, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____normalColor;
 
+  /// [SerializeField]
   /// @brief Field _specialScoreColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____specialScoreColor;
 
+  /// [SerializeField]
   /// @brief Field _separatorImage, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____separatorImage;
 

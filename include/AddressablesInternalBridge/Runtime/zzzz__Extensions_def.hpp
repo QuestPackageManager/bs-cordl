@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AddressablesInternalBridge\Runtime\Extensions.hpp"
+// IWYU pragma private; include "AddressablesInternalBridge/Runtime/Extensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::AddressablesInternalBridge::Runtime::Extensions*);
 MARK_REF_T(::AddressablesInternalBridge::Runtime::Extensions___c*);
 DEFINE_IL2CPP_CLASS(::AddressablesInternalBridge::Runtime::Extensions*, "AddressablesInternalBridge.Runtime", "Extensions");
 DEFINE_IL2CPP_CLASS(::AddressablesInternalBridge::Runtime::Extensions___c*, "AddressablesInternalBridge.Runtime", "Extensions/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace AddressablesInternalBridge::Runtime {
 // Is value type: false
@@ -79,13 +80,13 @@ protected:
   constexpr Extensions___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extensions___c(Extensions___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions___c(Extensions___c const&) = delete;
+  Extensions___c(Extensions___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19772 };
@@ -117,13 +118,13 @@ protected:
   constexpr Extensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extensions(Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions(Extensions const&) = delete;
+  Extensions(Extensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19773 };

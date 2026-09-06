@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGLTFAccessor.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFAccessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,10 +96,11 @@ public:
   // @brief default ctor
   constexpr OVRGLTFAccessor_GLTFAccessor();
 
-  // Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRGLTFType", modifiers: "", def_value: None }, CppParam { name: "ComponentType", ty: "::GlobalNamespace::OVRGLTFComponentType",
-  // modifiers: "", def_value: None }, CppParam { name: "ComponentTypeStride", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "BufferViewIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Min", ty: "::OVRSimpleJSON::JSONNode*", modifiers: "", def_value: None }, CppParam { name: "Max", ty: "::OVRSimpleJSON::JSONNode*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRGLTFType", modifiers: "", def_value: None, comment: None }, CppParam { name: "ComponentType", ty:
+  // "::GlobalNamespace::OVRGLTFComponentType", modifiers: "", def_value: None, comment: None }, CppParam { name: "ComponentTypeStride", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "BufferViewIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Min", ty: "::OVRSimpleJSON::JSONNode*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "Max", ty: "::OVRSimpleJSON::JSONNode*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRGLTFAccessor_GLTFAccessor(::GlobalNamespace::OVRGLTFType Type, ::GlobalNamespace::OVRGLTFComponentType ComponentType, int32_t ComponentTypeStride, int32_t BufferViewIndex,
                                          int32_t ByteOffset, int32_t Count, ::OVRSimpleJSON::JSONNode* Min, ::OVRSimpleJSON::JSONNode* Max) noexcept;
 
@@ -166,8 +167,9 @@ public:
   // @brief default ctor
   constexpr OVRGLTFAccessor_GLTFBufferView();
 
-  // Ctor Parameters [CppParam { name: "BufferIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "ByteLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ByteStride", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "BufferIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "ByteLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ByteStride", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr OVRGLTFAccessor_GLTFBufferView(int32_t BufferIndex, int32_t ByteOffset, int32_t ByteLength, int32_t ByteStride) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -213,7 +215,7 @@ public:
   // @brief default ctor
   constexpr OVRGLTFAccessor_GLTFBuffer();
 
-  // Ctor Parameters [CppParam { name: "ByteLength", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ByteLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRGLTFAccessor_GLTFBuffer(int32_t ByteLength) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -439,13 +441,13 @@ protected:
   constexpr OVRGLTFAccessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFAccessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFAccessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGLTFAccessor(OVRGLTFAccessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFAccessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFAccessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFAccessor(OVRGLTFAccessor const&) = delete;
+  OVRGLTFAccessor(OVRGLTFAccessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7154 };

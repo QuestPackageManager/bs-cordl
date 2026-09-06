@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TypedReference.hpp"
+// IWYU pragma private; include "System/TypedReference.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__RuntimeTypeHandle_impl.hpp"
 #include "System/zzzz__TypedReference_def.hpp"
@@ -120,8 +120,8 @@ inline void System::TypedReference::SetTypedReference(::System::TypedReference t
                    (::i2c::find_method(::i2c::class_of<::System::TypedReference>(), { "SetTypedReference", {}, { ::i2c::type_of<::System::TypedReference>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, target, value);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "Value", ty: "::System::IntPtr", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Type", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Value", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Type", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::TypedReference::TypedReference(::System::RuntimeTypeHandle type, ::System::IntPtr Value, ::System::IntPtr Type) noexcept {
   this->type = type;
   this->Value = Value;

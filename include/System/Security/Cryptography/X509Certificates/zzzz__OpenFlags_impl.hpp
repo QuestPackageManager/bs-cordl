@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\OpenFlags.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/OpenFlags.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__OpenFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags::OpenFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

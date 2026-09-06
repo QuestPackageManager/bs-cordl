@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerOutroAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerOutroAnimationController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerOutroAnimationController_def.hpp"

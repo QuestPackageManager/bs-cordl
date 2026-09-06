@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\Utility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Utility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -41,7 +43,9 @@ namespace UnityEngine::UIElements::UIR {
 struct Utility_GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class Utility_GPUBuffer_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class Utility_GPUBuffer_1;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
@@ -60,7 +64,9 @@ namespace UnityEngine::UIElements::UIR {
 class Utility;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class Utility_GPUBuffer_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class Utility_GPUBuffer_1;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::Utility_GPUBufferType);
@@ -98,7 +104,7 @@ public:
   // @brief default ctor
   constexpr Utility_GPUBufferType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Utility_GPUBufferType(int32_t value__) noexcept;
 
   /// @brief Field Index value: I32(1)
@@ -128,6 +134,7 @@ static_assert(sizeof(::UnityEngine::UIElements::UIR::Utility_GPUBufferType) == 0
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.Utility/GPUBuffer`1<T>
 class CORDL_TYPE Utility_GPUBuffer_1 : public ::System::Object {
@@ -193,13 +200,13 @@ protected:
   constexpr Utility_GPUBuffer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Utility_GPUBuffer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utility_GPUBuffer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Utility_GPUBuffer_1(Utility_GPUBuffer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Utility_GPUBuffer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utility_GPUBuffer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Utility_GPUBuffer_1(Utility_GPUBuffer_1 const&) = delete;
+  Utility_GPUBuffer_1(Utility_GPUBuffer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5272 };
@@ -217,6 +224,8 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::UIR
+// [NativeHeader("Modules/UIElements/Core/Native/Renderer/UIRendererUtility.h")]
+// [VisibleToOtherModules(new[] { "Unity.UIElements" })]
 // Dependencies System.Object, Unity.Profiling.ProfilerMarker
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
@@ -226,7 +235,9 @@ public:
   // Declarations
   using GPUBufferType = ::UnityEngine::UIElements::UIR::Utility_GPUBufferType;
 
-  template <typename T> using GPUBuffer_1 = ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using GPUBuffer_1 = ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>;
 
   /// @brief Field EngineUpdate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_EngineUpdate, put = setStaticF_EngineUpdate)) ::System::Action* EngineUpdate;
@@ -240,99 +251,124 @@ public:
   /// @brief Field s_MarkerRaiseEngineUpdate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_MarkerRaiseEngineUpdate, put = setStaticF_s_MarkerRaiseEngineUpdate)) ::Unity::Profiling::ProfilerMarker s_MarkerRaiseEngineUpdate;
 
+  /// [ThreadSafe]
   /// @brief Method AllocateBuffer, addr 0x6cd2134, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr AllocateBuffer(int32_t elementCount, int32_t elementStride, bool vertexBuffer);
 
+  /// [ThreadSafe]
   /// @brief Method CPUFencePassed, addr 0x6cd26c8, size 0x3c, virtual false, abstract: false, final false
   static inline bool CPUFencePassed(uint32_t fence);
 
+  /// [ThreadSafe]
   /// @brief Method CreateStencilState, addr 0x6cd2570, size 0x88, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateStencilState(::UnityEngine::Rendering::StencilState stencilState);
 
   /// @brief Method CreateStencilState_Injected, addr 0x6cd25f8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateStencilState_Injected(::by_ref<::UnityEngine::Rendering::StencilState> stencilState);
 
+  /// [ThreadSafe]
   /// @brief Method DisableScissor, addr 0x6cd2548, size 0x28, virtual false, abstract: false, final false
   static inline void DisableScissor();
 
+  /// [ThreadSafe]
   /// @brief Method DrawRanges, addr 0x6cd2358, size 0x74, virtual false, abstract: false, final false
   static inline void DrawRanges(::System::IntPtr ib, ::System::IntPtr* vertexStreams, int32_t streamCount, ::System::IntPtr ranges, int32_t rangeCount, ::System::IntPtr vertexDecl);
 
+  /// [ThreadSafe]
   /// @brief Method FreeBuffer, addr 0x6cd2188, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeBuffer(::System::IntPtr buffer);
 
+  /// [ThreadSafe]
   /// @brief Method GetActiveViewport, addr 0x6cd2768, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectInt GetActiveViewport();
 
   /// @brief Method GetActiveViewport_Injected, addr 0x6cd27f0, size 0x3c, virtual false, abstract: false, final false
   static inline void GetActiveViewport_Injected(::by_ref<::UnityEngine::RectInt> ret);
 
+  /// [ThreadSafe]
   /// @brief Method GetUnityProjectionMatrix, addr 0x6cd28b8, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetUnityProjectionMatrix();
 
   /// @brief Method GetUnityProjectionMatrix_Injected, addr 0x6cd2958, size 0x3c, virtual false, abstract: false, final false
   static inline void GetUnityProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> ret);
 
+  /// [ThreadSafe]
   /// @brief Method GetVertexDeclaration, addr 0x6cd2230, size 0xec, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetVertexDeclaration(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> vertexAttributes);
 
   /// @brief Method GetVertexDeclaration_Injected, addr 0x6cd231c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetVertexDeclaration_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> vertexAttributes);
 
+  /// [ThreadSafe]
   /// @brief Method HasMappedBufferRange, addr 0x6cd2678, size 0x28, virtual false, abstract: false, final false
   static inline bool HasMappedBufferRange();
 
+  /// [ThreadSafe]
   /// @brief Method InsertCPUFence, addr 0x6cd26a0, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t InsertCPUFence();
 
   /// @brief Method NotifyOfUIREvents, addr 0x6cd287c, size 0x3c, virtual false, abstract: false, final false
   static inline void NotifyOfUIREvents(bool subscribe);
 
+  /// [ThreadSafe]
   /// @brief Method ProfileDrawChainBegin, addr 0x6cd282c, size 0x28, virtual false, abstract: false, final false
   static inline void ProfileDrawChainBegin();
 
+  /// [ThreadSafe]
   /// @brief Method ProfileDrawChainEnd, addr 0x6cd2854, size 0x28, virtual false, abstract: false, final false
   static inline void ProfileDrawChainEnd();
 
+  /// [RequiredByNativeCode]
   /// @brief Method RaiseEngineUpdate, addr 0x6cd2024, size 0x98, virtual false, abstract: false, final false
   static inline void RaiseEngineUpdate();
 
+  /// [RequiredByNativeCode]
   /// @brief Method RaiseFlushPendingResources, addr 0x6cd20bc, size 0x78, virtual false, abstract: false, final false
   static inline void RaiseFlushPendingResources();
 
+  /// [RequiredByNativeCode]
   /// @brief Method RaiseGraphicsResourcesRecreate, addr 0x6cd1fa4, size 0x80, virtual false, abstract: false, final false
   static inline void RaiseGraphicsResourcesRecreate(bool recreate);
 
+  /// [ThreadSafe]
   /// @brief Method SetPropertyBlock, addr 0x6cd23cc, size 0x80, virtual false, abstract: false, final false
   static inline void SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* props);
 
   /// @brief Method SetPropertyBlock_Injected, addr 0x6cd244c, size 0x3c, virtual false, abstract: false, final false
   static inline void SetPropertyBlock_Injected(::System::IntPtr props);
 
+  /// [ThreadSafe]
   /// @brief Method SetScissorRect, addr 0x6cd2488, size 0x84, virtual false, abstract: false, final false
   static inline void SetScissorRect(::UnityEngine::RectInt scissorRect);
 
   /// @brief Method SetScissorRect_Injected, addr 0x6cd250c, size 0x3c, virtual false, abstract: false, final false
   static inline void SetScissorRect_Injected(::by_ref<::UnityEngine::RectInt> scissorRect);
 
+  /// [ThreadSafe]
   /// @brief Method SetStencilState, addr 0x6cd2634, size 0x44, virtual false, abstract: false, final false
   static inline void SetStencilState(::System::IntPtr stencilState, int32_t stencilRef);
 
+  /// [ThreadSafe]
   /// @brief Method SyncRenderThread, addr 0x6cd2740, size 0x28, virtual false, abstract: false, final false
   static inline void SyncRenderThread();
 
+  /// [ThreadSafe]
   /// @brief Method UpdateBufferRanges, addr 0x6cd21c4, size 0x6c, virtual false, abstract: false, final false
   static inline void UpdateBufferRanges(::System::IntPtr buffer, ::System::IntPtr ranges, int32_t rangeCount, int32_t writeRangeStart, int32_t writeRangeEnd);
 
+  /// [ThreadSafe]
   /// @brief Method WaitForCPUFencePassed, addr 0x6cd2704, size 0x3c, virtual false, abstract: false, final false
   static inline void WaitForCPUFencePassed(uint32_t fence);
 
+  /// [CompilerGenerated]
   /// @brief Method add_EngineUpdate, addr 0x6cd1be4, size 0xf0, virtual false, abstract: false, final false
   static inline void add_EngineUpdate(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_FlushPendingResources, addr 0x6cd1dc4, size 0xf0, virtual false, abstract: false, final false
   static inline void add_FlushPendingResources(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_GraphicsResourcesRecreate, addr 0x6cd19dc, size 0x104, virtual false, abstract: false, final false
   static inline void add_GraphicsResourcesRecreate(::System::Action_1<bool>* value);
 
@@ -344,12 +380,15 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerRaiseEngineUpdate();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_EngineUpdate, addr 0x6cd1cd4, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_EngineUpdate(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_FlushPendingResources, addr 0x6cd1eb4, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_FlushPendingResources(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_GraphicsResourcesRecreate, addr 0x6cd1ae0, size 0x104, virtual false, abstract: false, final false
   static inline void remove_GraphicsResourcesRecreate(::System::Action_1<bool>* value);
 
@@ -367,13 +406,13 @@ protected:
   constexpr Utility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Utility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Utility(Utility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Utility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Utility(Utility const&) = delete;
+  Utility(Utilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5273 };

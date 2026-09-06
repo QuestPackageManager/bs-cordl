@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IMissionNode.hpp"
+// IWYU pragma private; include "GlobalNamespace/IMissionNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,15 +26,15 @@ public:
 
   __declspec(property(get = get_missionId)) ::StringW missionId;
 
-  /// @brief Method get_missionData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_missionData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::GlobalNamespace::MissionDataSO> get_missionData();
 
-  /// @brief Method get_missionId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_missionId();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMissionNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMissionNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMissionNode(IMissionNode const&) = delete;
+  IMissionNode(IMissionNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15257 };

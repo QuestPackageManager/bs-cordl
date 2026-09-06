@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\PlayerNameTagSpawner.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/PlayerNameTagSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner*);
 MARK_REF_T(::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner*, "Meta.XR.MultiplayerBlocks.Shared", "PlayerNameTagSpawner");
 DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4*, "Meta.XR.MultiplayerBlocks.Shared", "PlayerNameTagSpawner/<SpawnCoroutine>d__4");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: false
@@ -77,17 +78,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a7a308, size 0x16c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a7a474, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a7a47c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a7a4b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a7a304, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -115,6 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_playerName(::StringW value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a79e6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -133,13 +140,13 @@ protected:
   constexpr PlayerNameTagSpawner__SpawnCoroutine_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameTagSpawner__SpawnCoroutine_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameTagSpawner__SpawnCoroutine_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerNameTagSpawner__SpawnCoroutine_d__4(PlayerNameTagSpawner__SpawnCoroutine_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameTagSpawner__SpawnCoroutine_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameTagSpawner__SpawnCoroutine_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerNameTagSpawner__SpawnCoroutine_d__4(PlayerNameTagSpawner__SpawnCoroutine_d__4 const&) = delete;
+  PlayerNameTagSpawner__SpawnCoroutine_d__4(PlayerNameTagSpawner__SpawnCoroutine_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20888 };
@@ -196,6 +203,7 @@ public:
   /// @brief Method OnEntitlementFinished, addr 0x5a79e74, size 0x1ac, virtual false, abstract: false, final false
   inline void OnEntitlementFinished(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo info);
 
+  /// [IteratorStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.PlayerNameTagSpawner::<SpawnCoroutine>d__4))]
   /// @brief Method SpawnCoroutine, addr 0x5a79e0c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawnCoroutine(::StringW playerName);
 
@@ -229,20 +237,23 @@ protected:
   constexpr PlayerNameTagSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameTagSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameTagSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerNameTagSpawner(PlayerNameTagSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameTagSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerNameTagSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerNameTagSpawner(PlayerNameTagSpawner const&) = delete;
+  PlayerNameTagSpawner(PlayerNameTagSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20889 };
 
+  /// [Header("Randomized name for non-entitled folks eg. \'HappyHippo\'", order = 1)]
+  /// [SerializeField]
   /// @brief Field namePrefix, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::StringW> ___namePrefix;
 
+  /// [SerializeField]
   /// @brief Field namePostfix, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::StringW> ___namePostfix;
 

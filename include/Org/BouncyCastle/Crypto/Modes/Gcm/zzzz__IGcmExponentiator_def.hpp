@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\Gcm\IGcmExponentiator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/Gcm/IGcmExponentiator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,15 +20,15 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class CORDL_TYPE IGcmExponentiator {
 public:
   // Declarations
-  /// @brief Method ExponentiateX, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExponentiateX, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t> output);
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::ArrayW<uint8_t> x);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IGcmExponentiator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IGcmExponentiator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGcmExponentiator(IGcmExponentiator const&) = delete;
+  IGcmExponentiator(IGcmExponentiatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 949 };

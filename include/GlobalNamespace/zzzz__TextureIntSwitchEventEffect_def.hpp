@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextureIntSwitchEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextureIntSwitchEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,8 @@ public:
   // @brief default ctor
   constexpr TextureIntSwitchEventEffect_TextureValueTuple();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TextureIntSwitchEventEffect_TextureValueTuple(int32_t value, ::UnityW<::UnityEngine::Texture> texture) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -124,6 +125,7 @@ public:
   /// @brief Method HandleBasicBeatmapEventData, addr 0x59a2910, size 0x14, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
+  /// [Inject]
   /// @brief Method Initialize, addr 0x59a261c, size 0x208, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -198,29 +200,37 @@ protected:
   constexpr TextureIntSwitchEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureIntSwitchEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureIntSwitchEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureIntSwitchEventEffect(TextureIntSwitchEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureIntSwitchEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureIntSwitchEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureIntSwitchEventEffect(TextureIntSwitchEventEffect const&) = delete;
+  TextureIntSwitchEventEffect(TextureIntSwitchEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5948 };
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromProperty("_materialPropertyBlockController", "_renderers", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)5)]
   /// @brief Field _texturePropertyName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____texturePropertyName;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _beatmapEventType, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEventType;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _defaultIndex, offset: 0x34, size: 0x4, def value: None
   int32_t ____defaultIndex;
 
+  /// [SerializeField]
   /// @brief Field _textureValueTuples, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::TextureIntSwitchEventEffect_TextureValueTuple> ____textureValueTuples;
 

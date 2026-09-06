@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\ShaderPropertyAttributeFilter.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/ShaderPropertyAttributeFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   // @brief default ctor
   constexpr ShaderPropertyAttributeFilter_PropType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderPropertyAttributeFilter_PropType(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(0)
@@ -136,13 +136,13 @@ protected:
   constexpr ShaderPropertyAttributeFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderPropertyAttributeFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderPropertyAttributeFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderPropertyAttributeFilter(ShaderPropertyAttributeFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderPropertyAttributeFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderPropertyAttributeFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderPropertyAttributeFilter(ShaderPropertyAttributeFilter const&) = delete;
+  ShaderPropertyAttributeFilter(ShaderPropertyAttributeFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20814 };

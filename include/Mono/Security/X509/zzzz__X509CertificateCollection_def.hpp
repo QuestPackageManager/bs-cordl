@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\X509\X509CertificateCollection.hpp"
+// IWYU pragma private; include "Mono/Security/X509/X509CertificateCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,13 +87,13 @@ protected:
   constexpr X509CertificateCollection_X509CertificateEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection_X509CertificateEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection_X509CertificateEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificateCollection_X509CertificateEnumerator(X509CertificateCollection_X509CertificateEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection_X509CertificateEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection_X509CertificateEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateCollection_X509CertificateEnumerator(X509CertificateCollection_X509CertificateEnumerator const&) = delete;
+  X509CertificateCollection_X509CertificateEnumerator(X509CertificateCollection_X509CertificateEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19289 };
@@ -109,6 +109,7 @@ static_assert(offsetof(::Mono::Security::X509::X509CertificateCollection_X509Cer
 static_assert(sizeof(::Mono::Security::X509::X509CertificateCollection_X509CertificateEnumerator) == 0x18, "Size mismatch!");
 
 } // namespace Mono::Security::X509
+// [DefaultMember("Item")]
 // Dependencies System.Collections.CollectionBase
 namespace Mono::Security::X509 {
 // Is value type: false
@@ -164,13 +165,13 @@ protected:
   constexpr X509CertificateCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificateCollection(X509CertificateCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateCollection(X509CertificateCollection const&) = delete;
+  X509CertificateCollection(X509CertificateCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19290 };

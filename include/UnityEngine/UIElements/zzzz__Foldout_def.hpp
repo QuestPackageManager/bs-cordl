@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Foldout.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Foldout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,6 +68,7 @@ MARK_REF_T(::UnityEngine::UIElements::Foldout_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Foldout*, "UnityEngine.UIElements", "Foldout");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Foldout_UxmlFactory*, "UnityEngine.UIElements", "Foldout/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Foldout_UxmlTraits*, "UnityEngine.UIElements", "Foldout/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -86,13 +87,13 @@ protected:
   constexpr Foldout_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Foldout_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Foldout_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Foldout_UxmlFactory(Foldout_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Foldout_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Foldout_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Foldout_UxmlFactory(Foldout_UxmlFactory const&) = delete;
+  Foldout_UxmlFactory(Foldout_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4193 };
@@ -103,6 +104,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Foldout_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BindableElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -142,13 +144,13 @@ protected:
   constexpr Foldout_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Foldout_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Foldout_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Foldout_UxmlTraits(Foldout_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Foldout_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Foldout_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Foldout_UxmlTraits(Foldout_UxmlTraits const&) = delete;
+  Foldout_UxmlTraits(Foldout_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4194 };
@@ -206,6 +208,7 @@ public:
   /// @brief Field m_Value, offset 0x4c8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) bool m_Value;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
   /// @brief Field textProperty, offset 0xffffffff, size 0x98
@@ -219,6 +222,7 @@ public:
   /// @brief Field toggleInspectorUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_toggleInspectorUssClassName, put = setStaticF_toggleInspectorUssClassName)) ::StringW toggleInspectorUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_toggleOnLabelClick, put = set_toggleOnLabelClick)) bool toggleOnLabelClick;
 
   /// @brief Field toggleOnLabelClickProperty, offset 0xffffffff, size 0x98
@@ -236,6 +240,7 @@ public:
   /// @brief Field ussFoldoutMaxDepth, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_ussFoldoutMaxDepth, put = setStaticF_ussFoldoutMaxDepth)) int32_t ussFoldoutMaxDepth;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_value, put = set_value)) bool value;
 
   /// @brief Field valueProperty, offset 0xffffffff, size 0x98
@@ -285,6 +290,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__39_0, addr 0x6d424f4, size 0x54, virtual false, abstract: false, final false
   inline void __ctor_b__39_0(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
@@ -324,6 +330,7 @@ public:
   /// @brief Method get_text, addr 0x6d41498, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_toggle, addr 0x6d4137c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Toggle* get_toggle();
 
@@ -378,13 +385,13 @@ protected:
   constexpr Foldout();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Foldout", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Foldout", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Foldout(Foldout&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Foldout", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Foldout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Foldout(Foldout const&) = delete;
+  Foldout(Foldoutconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4195 };
@@ -395,6 +402,8 @@ public:
   /// @brief Field m_Container, offset: 0x4c0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Container;
 
+  /// [DontCreateProperty]
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x4c8, size: 0x1, def value: None
   bool ___m_Value;
 

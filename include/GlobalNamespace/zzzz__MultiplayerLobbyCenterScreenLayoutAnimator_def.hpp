@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyCenterScreenLayoutAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyCenterScreenLayoutAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ public:
   /// @brief Method StopCountdown, addr 0x5a10148, size 0xa0, virtual false, abstract: false, final false
   inline void StopCountdown(bool instant);
 
+  /// [CompilerGenerated]
   /// @brief Method <Move>b__7_0, addr 0x5a101ec, size 0x18, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
@@ -98,29 +99,36 @@ protected:
   constexpr MultiplayerLobbyCenterScreenLayoutAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterScreenLayoutAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterScreenLayoutAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyCenterScreenLayoutAnimator(MultiplayerLobbyCenterScreenLayoutAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterScreenLayoutAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterScreenLayoutAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyCenterScreenLayoutAnimator(MultiplayerLobbyCenterScreenLayoutAnimator const&) = delete;
+  MultiplayerLobbyCenterScreenLayoutAnimator(MultiplayerLobbyCenterScreenLayoutAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6381 };
 
+  /// [SerializeField]
   /// @brief Field _nextLevelTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____nextLevelTransform;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _nextLevelBasePosition, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____nextLevelBasePosition;
 
+  /// [SerializeField]
   /// @brief Field _nextLevelCountdownPosition, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____nextLevelCountdownPosition;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _transitionDuration, offset: 0x38, size: 0x4, def value: None
   float_t ____transitionDuration;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

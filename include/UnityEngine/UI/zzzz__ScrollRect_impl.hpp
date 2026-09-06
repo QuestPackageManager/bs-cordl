@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\ScrollRect.hpp"
+// IWYU pragma private; include "UnityEngine/UI/ScrollRect.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
@@ -27,7 +27,7 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::ScrollRect_MovementType::ScrollRect_MovementType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -36,7 +36,7 @@ constexpr ::UnityEngine::UI::ScrollRect_MovementType::ScrollRect_MovementType() 
 constexpr ::UnityEngine::UI::ScrollRect_MovementType UnityEngine::UI::ScrollRect_MovementType::Unrestricted{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UI::ScrollRect_MovementType UnityEngine::UI::ScrollRect_MovementType::Elastic{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UI::ScrollRect_MovementType UnityEngine::UI::ScrollRect_MovementType::Clamped{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::ScrollRect_ScrollbarVisibility::ScrollRect_ScrollbarVisibility(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxBeatmapEventDataBox_2.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxBeatmapEventDataBox_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__FxBaseData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -18,7 +20,9 @@ namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
-template <typename TIn, typename TOut> class FloatFxBeatmapEventDataBox_2__Unpack_d__3;
+template <typename TIn, typename TOut>
+  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
+class FloatFxBeatmapEventDataBox_2__Unpack_d__3;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConverter;
@@ -52,20 +56,26 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TIn, typename TOut> class FloatFxBeatmapEventDataBox_2;
+template <typename TIn, typename TOut>
+  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
+class FloatFxBeatmapEventDataBox_2;
 }
 namespace GlobalNamespace {
-template <typename TIn, typename TOut> class FloatFxBeatmapEventDataBox_2__Unpack_d__3;
+template <typename TIn, typename TOut>
+  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
+class FloatFxBeatmapEventDataBox_2__Unpack_d__3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::FloatFxBeatmapEventDataBox_2);
 MARK_GEN_REF_T_PTR(::GlobalNamespace::FloatFxBeatmapEventDataBox_2__Unpack_d__3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::FloatFxBeatmapEventDataBox_2, "", "FloatFxBeatmapEventDataBox`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::FloatFxBeatmapEventDataBox_2__Unpack_d__3, "", "FloatFxBeatmapEventDataBox`2/<Unpack>d__3");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies BeatmapEventData, FxBaseData, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TIn, typename TOut>
+  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
 // Is value type: false
 // CS Name: FloatFxBeatmapEventDataBox`2/<Unpack>d__3<TIn,TOut>
 class CORDL_TYPE FloatFxBeatmapEventDataBox_2__Unpack_d__3 : public ::System::Object {
@@ -157,23 +167,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FloatFxBeatmapEventDataBox_2__Unpack_d__3<TIn, TOut>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -306,6 +323,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -330,13 +348,13 @@ protected:
   constexpr FloatFxBeatmapEventDataBox_2__Unpack_d__3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2__Unpack_d__3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2__Unpack_d__3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxBeatmapEventDataBox_2__Unpack_d__3(FloatFxBeatmapEventDataBox_2__Unpack_d__3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2__Unpack_d__3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2__Unpack_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxBeatmapEventDataBox_2__Unpack_d__3(FloatFxBeatmapEventDataBox_2__Unpack_d__3 const&) = delete;
+  FloatFxBeatmapEventDataBox_2__Unpack_d__3(FloatFxBeatmapEventDataBox_2__Unpack_d__3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14918 };
@@ -408,10 +426,11 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BeatmapEventDataBox
+// Dependencies BeatmapEventData, BeatmapEventDataBox, FxBaseData
 namespace GlobalNamespace {
 // cpp template
 template <typename TIn, typename TOut>
+  requires(::cordl_internals::type_constraint<TIn, ::GlobalNamespace::FxBaseData*> && ::cordl_internals::type_constraint<TOut, ::GlobalNamespace::BeatmapEventData*>)
 // Is value type: false
 // CS Name: FloatFxBeatmapEventDataBox`2<TIn,TOut>
 class CORDL_TYPE FloatFxBeatmapEventDataBox_2 : public ::GlobalNamespace::BeatmapEventDataBox {
@@ -425,7 +444,7 @@ public:
   /// @brief Field _fxBaseDataList, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__fxBaseDataList, put = __cordl_internal_set__fxBaseDataList)) ::System::Collections::Generic::IReadOnlyList_1<TIn>* _fxBaseDataList;
 
-  /// @brief Method CreateVfxBeatmapEventData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateVfxBeatmapEventData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TOut CreateVfxBeatmapEventData(TIn data, float_t time, int32_t groupId, int32_t elementId, float_t distributionOffset);
 
   static inline ::GlobalNamespace::FloatFxBeatmapEventDataBox_2<TIn, TOut>*
@@ -433,6 +452,7 @@ public:
            ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
            ::GlobalNamespace::EaseType eventDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<TIn>* fxBaseDataList);
 
+  /// [IteratorStateMachine(typeof(FloatFxBeatmapEventDataBox`2::<Unpack>d__3<TIn, TOut>))]
   /// @brief Method Unpack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex,
                                                                                                      int32_t distributionOrderIndex, float_t maxBeat,
@@ -462,13 +482,13 @@ protected:
   constexpr FloatFxBeatmapEventDataBox_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxBeatmapEventDataBox_2(FloatFxBeatmapEventDataBox_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxBeatmapEventDataBox_2(FloatFxBeatmapEventDataBox_2 const&) = delete;
+  FloatFxBeatmapEventDataBox_2(FloatFxBeatmapEventDataBox_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14919 };

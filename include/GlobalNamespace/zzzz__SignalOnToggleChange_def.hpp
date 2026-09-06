@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SignalOnToggleChange.hpp"
+// IWYU pragma private; include "GlobalNamespace/SignalOnToggleChange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,20 +63,23 @@ protected:
   constexpr SignalOnToggleChange();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalOnToggleChange", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalOnToggleChange", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalOnToggleChange(SignalOnToggleChange&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalOnToggleChange", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalOnToggleChange", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalOnToggleChange(SignalOnToggleChange const&) = delete;
+  SignalOnToggleChange(SignalOnToggleChangeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21436 };
 
+  /// [SerializeField]
+  /// [SignalSender]
   /// @brief Field _toggleValueChangeSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____toggleValueChangeSignal;
 
+  /// [SerializeField]
   /// @brief Field _toggle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 

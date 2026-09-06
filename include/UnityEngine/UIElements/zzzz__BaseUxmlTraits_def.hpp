@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseUxmlTraits.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseUxmlTraits.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class BaseUxmlTraits;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::BaseUxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseUxmlTraits*, "UnityEngine.UIElements", "BaseUxmlTraits");
+// [Obsolete("BaseUxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -35,6 +36,7 @@ public:
   /// @brief Method .ctor, addr 0x6cbfd7c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_canHaveAnyAttribute, addr 0x6cbfd88, size 0x8, virtual false, abstract: false, final false
   inline void set_canHaveAnyAttribute(bool value);
 
@@ -44,17 +46,19 @@ protected:
   constexpr BaseUxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseUxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseUxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseUxmlTraits(BaseUxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseUxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseUxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseUxmlTraits(BaseUxmlTraits const&) = delete;
+  BaseUxmlTraits(BaseUxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5176 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <canHaveAnyAttribute>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____canHaveAnyAttribute_k__BackingField;
 

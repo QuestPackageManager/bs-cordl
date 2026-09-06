@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PropagationPaths.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PropagationPaths.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class PropagationPaths___c;
@@ -36,6 +38,7 @@ MARK_REF_T(::UnityEngine::UIElements::PropagationPaths*);
 MARK_REF_T(::UnityEngine::UIElements::PropagationPaths___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PropagationPaths*, "UnityEngine.UIElements", "PropagationPaths");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PropagationPaths___c*, "UnityEngine.UIElements", "PropagationPaths/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -64,13 +67,13 @@ protected:
   constexpr PropagationPaths___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropagationPaths___c(PropagationPaths___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropagationPaths___c(PropagationPaths___c const&) = delete;
+  PropagationPaths___c(PropagationPaths___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4558 };
@@ -104,6 +107,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [NotNull]
   /// @brief Method Build, addr 0x6d9b4a4, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt, int32_t eventCategories);
 
@@ -140,13 +144,13 @@ protected:
   constexpr PropagationPaths();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropagationPaths(PropagationPaths&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropagationPaths", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropagationPaths(PropagationPaths const&) = delete;
+  PropagationPaths(PropagationPathsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4559 };

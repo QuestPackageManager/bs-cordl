@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   // @brief default ctor
   constexpr NoteCutInfo_FailReason();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NoteCutInfo_FailReason(int32_t value__) noexcept;
 
   /// @brief Field CutHarder value: I32(3)
@@ -107,6 +107,7 @@ static_assert(offsetof(::GlobalNamespace::NoteCutInfo_FailReason, value__) == 0x
 static_assert(sizeof(::GlobalNamespace::NoteCutInfo_FailReason) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies SaberType, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
@@ -141,16 +142,17 @@ public:
   // @brief default ctor
   constexpr NoteCutInfo();
 
-  // Ctor Parameters [CppParam { name: "noteData", ty: "::GlobalNamespace::NoteData*", modifiers: "", def_value: None }, CppParam { name: "speedOK", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "directionOK", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "saberTypeOK", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "wasCutTooSoon", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "saberSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "saberDir", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "saberType", ty: "::GlobalNamespace::SaberType", modifiers: "", def_value: None }, CppParam { name: "timeDeviation", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "cutDirDeviation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "cutPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam
-  // { name: "cutNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "cutAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "cutDistanceToCenter", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "worldRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name:
-  // "inverseWorldRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "noteRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None },
-  // CppParam { name: "notePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "saberMovementData", ty: "::GlobalNamespace::ISaberMovementData*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "noteData", ty: "::GlobalNamespace::NoteData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "speedOK", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "directionOK", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "saberTypeOK", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "wasCutTooSoon", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "saberSpeed", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "saberDir", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "saberType", ty:
+  // "::GlobalNamespace::SaberType", modifiers: "", def_value: None, comment: None }, CppParam { name: "timeDeviation", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "cutDirDeviation", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cutPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "cutNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "cutAngle", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "cutDistanceToCenter", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldRotation", ty: "::UnityEngine::Quaternion", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "inverseWorldRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "noteRotation", ty:
+  // "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "notePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "saberMovementData", ty: "::GlobalNamespace::ISaberMovementData*", modifiers: "", def_value: None, comment: None }]
   constexpr NoteCutInfo(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float_t saberSpeed, ::UnityEngine::Vector3 saberDir,
                         ::GlobalNamespace::SaberType saberType, float_t timeDeviation, float_t cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float_t cutAngle,
                         float_t cutDistanceToCenter, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation,

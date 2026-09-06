@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineUndo.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineUndo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,12 +30,15 @@ public:
   /// @brief Method PushDestroyUndo, addr 0x69cf348, size 0x8c, virtual false, abstract: false, final false
   static inline void PushDestroyUndo(::UnityEngine::Timeline::TimelineAsset* timeline, ::UnityEngine::Object* thingToDirty, ::UnityEngine::Object* objectToDestroy);
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method PushUndo, addr 0x69cf3d8, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::UnityEngine::Object* thingToDirty, ::StringW operation);
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method PushUndo, addr 0x69cf3d4, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::ArrayW<::UnityEngine::Object*> thingsToDirty, ::StringW operation);
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method RegisterCreatedObjectUndo, addr 0x69cf3dc, size 0x4, virtual false, abstract: false, final false
   static inline void RegisterCreatedObjectUndo(::UnityEngine::Object* thingCreated, ::StringW operation);
 
@@ -51,13 +54,13 @@ protected:
   constexpr TimelineUndo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineUndo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineUndo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineUndo(TimelineUndo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineUndo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineUndo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineUndo(TimelineUndo const&) = delete;
+  TimelineUndo(TimelineUndoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19264 };

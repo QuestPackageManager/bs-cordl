@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MeshGenerationContext.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MeshGenerationContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MeshGenerationContext_MeshFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::MeshGenerationContext_MeshFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MeshGenerationContext_MeshFlags, "UnityEngine.UIElements", "MeshGenerationContext/MeshFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr MeshGenerationContext_MeshFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MeshGenerationContext_MeshFlags(int32_t value__) noexcept;
 
   /// @brief Field IsUsingVectorImageGradients value: I32(4)

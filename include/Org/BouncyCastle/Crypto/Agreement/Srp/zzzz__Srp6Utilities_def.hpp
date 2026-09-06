@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\Srp\Srp6Utilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/Srp/Srp6Utilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ protected:
   constexpr Srp6Utilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Srp6Utilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Srp6Utilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Srp6Utilities(Srp6Utilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Srp6Utilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Srp6Utilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Srp6Utilities(Srp6Utilities const&) = delete;
+  Srp6Utilities(Srp6Utilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 730 };

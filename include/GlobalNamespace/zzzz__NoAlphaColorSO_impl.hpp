@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoAlphaColorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoAlphaColorSO.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__NoAlphaColorSO_def.hpp"

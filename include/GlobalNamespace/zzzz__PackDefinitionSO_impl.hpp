@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PackDefinitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PackDefinitionSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionSO_def.hpp"
@@ -12,7 +12,7 @@
 #include "GlobalNamespace/zzzz__SteamLevelProductPacksSO_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceGameObject_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PackDefinitionSO_Tags::PackDefinitionSO_Tags(int32_t value__) noexcept {
   this->value__ = value__;
 }

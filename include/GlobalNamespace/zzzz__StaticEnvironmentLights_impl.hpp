@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StaticEnvironmentLights.hpp"
+// IWYU pragma private; include "GlobalNamespace/StaticEnvironmentLights.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Material_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

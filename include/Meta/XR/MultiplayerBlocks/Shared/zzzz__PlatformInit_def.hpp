@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\PlatformInit.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/PlatformInit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ MARK_REF_T(::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass
 DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Shared::PlatformInit*, "Meta.XR.MultiplayerBlocks.Shared", "PlatformInit");
 DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0*, "Meta.XR.MultiplayerBlocks.Shared", "PlatformInit/<>c__DisplayClass5_0");
 DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_1*, "Meta.XR.MultiplayerBlocks.Shared", "PlatformInit/<>c__DisplayClass5_1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: false
@@ -88,13 +89,13 @@ protected:
   constexpr PlatformInit___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInit___c__DisplayClass5_0(PlatformInit___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInit___c__DisplayClass5_0(PlatformInit___c__DisplayClass5_0 const&) = delete;
+  PlatformInit___c__DisplayClass5_0(PlatformInit___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20884 };
@@ -110,6 +111,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0) == 0x18, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: false
@@ -150,13 +152,13 @@ protected:
   constexpr PlatformInit___c__DisplayClass5_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit___c__DisplayClass5_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit___c__DisplayClass5_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInit___c__DisplayClass5_1(PlatformInit___c__DisplayClass5_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit___c__DisplayClass5_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit___c__DisplayClass5_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInit___c__DisplayClass5_1(PlatformInit___c__DisplayClass5_1 const&) = delete;
+  PlatformInit___c__DisplayClass5_1(PlatformInit___c__DisplayClass5_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20885 };
@@ -201,6 +203,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus getStaticF__status_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_status, addr 0x5a793ac, size 0x4c, virtual false, abstract: false, final false
   static inline ::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus get_status();
 
@@ -208,6 +211,7 @@ public:
 
   static inline void setStaticF__status_k__BackingField(::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_status, addr 0x5a793f8, size 0x50, virtual false, abstract: false, final false
   static inline void set_status(::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus value);
 
@@ -217,13 +221,13 @@ protected:
   constexpr PlatformInit();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInit(PlatformInit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInit(PlatformInit const&) = delete;
+  PlatformInit(PlatformInitconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20886 };

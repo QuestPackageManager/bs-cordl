@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ConvertUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ConvertUtils.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__TypeInformation_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ConvertUtils_def.hpp"
@@ -21,7 +21,7 @@
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Version_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Utilities::ConvertUtils_ConvertResult::ConvertUtils_ConvertResult(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -434,7 +434,7 @@ inline ::System::TimeSpan Newtonsoft::Json::Utilities::ConvertUtils::ParseTimeSp
   return ::cordl_internals::RunMethodRethrow<::System::TimeSpan>(nullptr, ___internal_method, input);
 }
 inline ::System::Func_2<::System::Object*, ::System::Object*>*
-Newtonsoft::Json::Utilities::ConvertUtils::CreateCastConverter(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::System::Type*> t) {
+Newtonsoft::Json::Utilities::ConvertUtils::CreateCastConverter(/* [Nullable(new[] { 0, 1, 1 })] */ ::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::System::Type*> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ConvertUtils*>(),
                                                            { "CreateCastConverter", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::System::Type*>>() } })));
@@ -457,8 +457,8 @@ inline ::System::Object* Newtonsoft::Json::Utilities::ConvertUtils::Convert(::Sy
                                               { "Convert", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, initialValue, culture, targetType);
 }
-inline bool Newtonsoft::Json::Utilities::ConvertUtils::TryConvert(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture, ::System::Type* targetType,
-                                                                  ::by_ref<::System::Object*> value) {
+inline bool Newtonsoft::Json::Utilities::ConvertUtils::TryConvert(/* [Nullable(2)] */ ::System::Object* initialValue, ::System::Globalization::CultureInfo* culture, ::System::Type* targetType,
+                                                                  /* [Nullable(2)] */ ::by_ref<::System::Object*> value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ConvertUtils*>(),
                                                                                          { "TryConvert",
                                                                                            {},
@@ -466,9 +466,10 @@ inline bool Newtonsoft::Json::Utilities::ConvertUtils::TryConvert(::System::Obje
                                                                                              ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, initialValue, culture, targetType, value);
 }
-inline ::Newtonsoft::Json::Utilities::ConvertUtils_ConvertResult Newtonsoft::Json::Utilities::ConvertUtils::TryConvertInternal(::System::Object* initialValue,
+inline ::Newtonsoft::Json::Utilities::ConvertUtils_ConvertResult Newtonsoft::Json::Utilities::ConvertUtils::TryConvertInternal(/* [Nullable(2)] */ ::System::Object* initialValue,
                                                                                                                                ::System::Globalization::CultureInfo* culture,
-                                                                                                                               ::System::Type* targetType, ::by_ref<::System::Object*> value) {
+                                                                                                                               ::System::Type* targetType,
+                                                                                                                               /* [Nullable(2)] */ ::by_ref<::System::Object*> value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ConvertUtils*>(),
                                                                                          { "TryConvertInternal",
                                                                                            {},
@@ -476,20 +477,21 @@ inline ::Newtonsoft::Json::Utilities::ConvertUtils_ConvertResult Newtonsoft::Jso
                                                                                              ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::ConvertUtils_ConvertResult>(nullptr, ___internal_method, initialValue, culture, targetType, value);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::ConvertUtils::ConvertOrCast(::System::Object* initialValue, ::System::Globalization::CultureInfo* culture, ::System::Type* targetType) {
+inline ::System::Object* Newtonsoft::Json::Utilities::ConvertUtils::ConvertOrCast(/* [Nullable(2)] */ ::System::Object* initialValue, ::System::Globalization::CultureInfo* culture,
+                                                                                  ::System::Type* targetType) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ConvertUtils*>(),
                                        { "ConvertOrCast", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, initialValue, culture, targetType);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::ConvertUtils::EnsureTypeAssignable(::System::Object* value, ::System::Type* initialType, ::System::Type* targetType) {
+inline ::System::Object* Newtonsoft::Json::Utilities::ConvertUtils::EnsureTypeAssignable(/* [Nullable(2)] */ ::System::Object* value, ::System::Type* initialType, ::System::Type* targetType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ConvertUtils*>(),
                                               { "EnsureTypeAssignable", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, value, initialType, targetType);
 }
-inline bool Newtonsoft::Json::Utilities::ConvertUtils::VersionTryParse(::StringW input, ::by_ref<::System::Version*> result) {
+inline bool Newtonsoft::Json::Utilities::ConvertUtils::VersionTryParse(::StringW input, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Version*> result) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ConvertUtils*>(),
                                                                                          { "VersionTryParse", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::System::Version*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, input, result);

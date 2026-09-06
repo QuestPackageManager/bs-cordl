@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InitializableManager.hpp"
+// IWYU pragma private; include "Zenject/InitializableManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__InitializableManager_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
@@ -401,8 +401,9 @@ constexpr void Zenject::InitializableManager::__cordl_internal_set__hasInitializ
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasInitialized = value;
 }
-inline void Zenject::InitializableManager::_ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
-                                                 ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
+inline void Zenject::InitializableManager::_ctor(
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InitializableManager*>(),
                                                            { ".ctor",
@@ -434,8 +435,10 @@ inline ::Zenject::InjectTypeInfo* Zenject::InitializableManager::__zenCreateInje
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InitializableManager*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::InitializableManager* Zenject::InitializableManager::New_ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
-                                                                                ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
+/// @brief [Inject]
+inline ::Zenject::InitializableManager* Zenject::InitializableManager::New_ctor(
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::InitializableManager*>(initializables, priorities));
 }
 // Ctor Parameters []

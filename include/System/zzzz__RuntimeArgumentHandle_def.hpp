@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\RuntimeArgumentHandle.hpp"
+// IWYU pragma private; include "System/RuntimeArgumentHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RuntimeArgumentHandle;
 // Write type traits
 MARK_VAL_T(::System::RuntimeArgumentHandle);
 DEFINE_IL2CPP_CLASS(::System::RuntimeArgumentHandle, "System", "RuntimeArgumentHandle");
+// [IsByRefLike]
 // Dependencies System.IntPtr
 namespace System {
 // Is value type: true
@@ -24,7 +25,7 @@ public:
   // @brief default ctor
   constexpr RuntimeArgumentHandle();
 
-  // Ctor Parameters [CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeArgumentHandle(::System::IntPtr args) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

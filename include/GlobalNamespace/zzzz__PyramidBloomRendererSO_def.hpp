@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PyramidBloomRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PyramidBloomRendererSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,7 +97,7 @@ public:
   // @brief default ctor
   constexpr PyramidBloomRendererSO_Pass();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PyramidBloomRendererSO_Pass(int32_t value__) noexcept;
 
   /// @brief Field Bilinear value: I32(9)
@@ -188,7 +188,7 @@ public:
   // @brief default ctor
   constexpr PyramidBloomRendererSO_TextureType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PyramidBloomRendererSO_TextureType(int32_t value__) noexcept;
 
   /// @brief Field BloomPrePass value: I32(0)
@@ -376,13 +376,13 @@ protected:
   constexpr PyramidBloomRendererSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PyramidBloomRendererSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PyramidBloomRendererSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PyramidBloomRendererSO(PyramidBloomRendererSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PyramidBloomRendererSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PyramidBloomRendererSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PyramidBloomRendererSO(PyramidBloomRendererSO const&) = delete;
+  PyramidBloomRendererSO(PyramidBloomRendererSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19439 };
@@ -390,6 +390,7 @@ public:
   /// @brief Field kMaxPyramidSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPyramidSize{ static_cast<int32_t>(0x10) };
 
+  /// [SerializeField]
   /// @brief Field _shader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____shader;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\TextWriter.hpp"
+// IWYU pragma private; include "System/IO/TextWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::System::IO::TextWriter*);
 MARK_REF_T(::System::IO::TextWriter___c*);
 DEFINE_IL2CPP_CLASS(::System::IO::TextWriter*, "System.IO", "TextWriter");
 DEFINE_IL2CPP_CLASS(::System::IO::TextWriter___c*, "System.IO", "TextWriter/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::IO {
 // Is value type: false
@@ -119,13 +120,13 @@ protected:
   constexpr TextWriter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextWriter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextWriter___c(TextWriter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextWriter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextWriter___c(TextWriter___c const&) = delete;
+  TextWriter___c(TextWriter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3870 };
@@ -268,7 +269,7 @@ public:
 
   static inline ::ArrayW<char16_t> getStaticF_s_coreNewLine();
 
-  /// @brief Method get_Encoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::Encoding* get_Encoding();
 
   /// @brief Method get_FormatProvider, addr 0x5c03be4, size 0x6c, virtual true, abstract: false, final false
@@ -296,13 +297,13 @@ protected:
   constexpr TextWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextWriter(TextWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextWriter(TextWriter const&) = delete;
+  TextWriter(TextWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3871 };

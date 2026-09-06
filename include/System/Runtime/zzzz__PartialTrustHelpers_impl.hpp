@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\PartialTrustHelpers.hpp"
+// IWYU pragma private; include "System/Runtime/PartialTrustHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__PartialTrustHelpers_def.hpp"
 //  Writing Method size for method: ::System::Runtime::PartialTrustHelpers.HasEtwPermissions

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ILazyCopyHashSet_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/ILazyCopyHashSet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,6 +11,7 @@ template <typename T> class ILazyCopyHashSet_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ILazyCopyHashSet_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ILazyCopyHashSet_1, "", "ILazyCopyHashSet`1");
+// [NullableContext(1)]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
@@ -20,15 +21,15 @@ template <typename T>
 class CORDL_TYPE ILazyCopyHashSet_1 {
 public:
   // Declarations
-  /// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Add(T item);
 
-  /// @brief Method Remove, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Remove(T item);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILazyCopyHashSet_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ILazyCopyHashSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILazyCopyHashSet_1(ILazyCopyHashSet_1 const&) = delete;
+  ILazyCopyHashSet_1(ILazyCopyHashSet_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20456 };

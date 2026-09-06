@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\FrameRate.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/FrameRate.hpp"
 #include "UnityEngine/Playables/zzzz__FrameRate_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -253,7 +253,7 @@ constexpr UnityEngine::Playables::FrameRate::operator ::System::IEquatable_1<::U
 constexpr ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>* UnityEngine::Playables::FrameRate::i___System__IEquatable_1___UnityEngine__Playables__FrameRate_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Rate", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Rate", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Playables::FrameRate::FrameRate(int32_t m_Rate) noexcept {
   this->m_Rate = m_Rate;
 }

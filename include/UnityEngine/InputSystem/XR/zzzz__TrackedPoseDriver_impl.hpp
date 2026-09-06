@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\TrackedPoseDriver.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/TrackedPoseDriver.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionProperty_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -12,7 +12,7 @@
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType::TrackedPoseDriver_TrackingType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -21,7 +21,7 @@ constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType::Tracke
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType::RotationAndPosition{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType::RotationOnly{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType::PositionOnly{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingStates::TrackedPoseDriver_TrackingStates(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -30,7 +30,7 @@ constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingStates::Trac
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingStates UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingStates::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingStates UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingStates::Position{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingStates UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingStates::Rotation{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateType::TrackedPoseDriver_UpdateType(int32_t value__) noexcept {
   this->value__ = value__;
 }

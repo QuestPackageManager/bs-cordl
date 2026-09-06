@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\ResourceLocators\ResourceLocationData.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/ResourceLocators/ResourceLocationData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,32 +137,42 @@ protected:
   constexpr ResourceLocationData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceLocationData(ResourceLocationData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceLocationData(ResourceLocationData const&) = delete;
+  ResourceLocationData(ResourceLocationDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19848 };
 
+  /// [FormerlySerializedAs("m_keys")]
+  /// [SerializeField]
   /// @brief Field m_Keys, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_Keys;
 
+  /// [FormerlySerializedAs("m_internalId")]
+  /// [SerializeField]
   /// @brief Field m_InternalId, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_InternalId;
 
+  /// [FormerlySerializedAs("m_provider")]
+  /// [SerializeField]
   /// @brief Field m_Provider, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_Provider;
 
+  /// [FormerlySerializedAs("m_dependencies")]
+  /// [SerializeField]
   /// @brief Field m_Dependencies, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_Dependencies;
 
+  /// [SerializeField]
   /// @brief Field m_ResourceType, offset: 0x30, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::Util::SerializedType ___m_ResourceType;
 
+  /// [SerializeField]
   /// @brief Field SerializedData, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___SerializedData;
 

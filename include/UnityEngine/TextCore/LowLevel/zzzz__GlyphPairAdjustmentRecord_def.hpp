@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphPairAdjustmentRecord.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphPairAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ struct GlyphPairAdjustmentRecord;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord");
+// [UsedByNativeCode]
+// [DebuggerDisplay("First glyphIndex = {m_FirstAdjustmentRecord.m_GlyphIndex},  Second glyphIndex = {m_SecondAdjustmentRecord.m_GlyphIndex}")]
 // Dependencies UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags, UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -43,12 +45,15 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*();
 
+  /// [ExcludeFromDocs]
   /// @brief Method Equals, addr 0x6bc0a8c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [ExcludeFromDocs]
   /// @brief Method Equals, addr 0x6bc0b04, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord other);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetHashCode, addr 0x6bc0a20, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -74,9 +79,9 @@ public:
   // @brief default ctor
   constexpr GlyphPairAdjustmentRecord();
 
-  // Ctor Parameters [CppParam { name: "m_FirstAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name:
-  // "m_SecondAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: None }, CppParam { name: "m_FeatureLookupFlags", ty:
-  // "::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_FirstAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_SecondAdjustmentRecord", ty: "::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FeatureLookupFlags", ty:
+  // "::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags", modifiers: "", def_value: None, comment: None }]
   constexpr GlyphPairAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord,
                                       ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_SecondAdjustmentRecord,
                                       ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags) noexcept;
@@ -87,12 +92,17 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };
 
+  /// [SerializeField]
+  /// [NativeName("firstAdjustmentRecord")]
   /// @brief Field m_FirstAdjustmentRecord, offset: 0x0, size: 0x14, def value: None
   ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord;
 
+  /// [SerializeField]
+  /// [NativeName("secondAdjustmentRecord")]
   /// @brief Field m_SecondAdjustmentRecord, offset: 0x14, size: 0x14, def value: None
   ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_SecondAdjustmentRecord;
 
+  /// [SerializeField]
   /// @brief Field m_FeatureLookupFlags, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags;
 

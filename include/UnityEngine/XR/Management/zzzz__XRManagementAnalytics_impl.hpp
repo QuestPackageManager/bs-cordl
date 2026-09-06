@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRManagementAnalytics.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRManagementAnalytics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagementAnalytics_def.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagementAnalytics_def.hpp"
-// Ctor Parameters [CppParam { name: "buildGuid", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "buildTarget", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "buildTargetGroup", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "assigned_loaders", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "buildGuid", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "buildTarget", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "buildTargetGroup", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "assigned_loaders", ty:
+// "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::Management::XRManagementAnalytics_BuildEvent::XRManagementAnalytics_BuildEvent(::StringW buildGuid, ::StringW buildTarget, ::StringW buildTargetGroup,
                                                                                                             ::ArrayW<::StringW> assigned_loaders) noexcept {
   this->buildGuid = buildGuid;

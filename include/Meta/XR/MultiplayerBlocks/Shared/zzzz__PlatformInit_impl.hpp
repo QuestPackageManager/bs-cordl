@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\PlatformInit.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/PlatformInit.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__BBPlatformInitStatus_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__PlatformInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

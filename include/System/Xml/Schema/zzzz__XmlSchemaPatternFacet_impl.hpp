@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaPatternFacet.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaPatternFacet.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaFacet_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaPatternFacet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaPatternFacet._ctor

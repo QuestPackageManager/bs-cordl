@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeGlobalSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeGlobalSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class ProbeVolumeGlobalSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ProbeVolumeGlobalSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeGlobalSettings*, "UnityEngine.Rendering", "ProbeVolumeGlobalSettings");
+// [SupportedOnRenderPipeline(new[] {  })]
+// [CategoryInfo(Name = "Adaptive Probe Volumes", Order = 20)]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -71,20 +73,25 @@ protected:
   constexpr ProbeVolumeGlobalSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeGlobalSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeGlobalSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeGlobalSettings(ProbeVolumeGlobalSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeGlobalSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeGlobalSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeGlobalSettings(ProbeVolumeGlobalSettings const&) = delete;
+  ProbeVolumeGlobalSettings(ProbeVolumeGlobalSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12144 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [SerializeField]
+  /// [Tooltip("Enabling this will make APV baked data assets compatible with Addressables and Asset Bundles. This will also make Disk Streaming unavailable. After changing this setting, a clean
+  /// rebuild may be required for data assets to be included in Adressables and Asset Bundles.")]
   /// @brief Field m_ProbeVolumeDisableStreamingAssets, offset: 0x14, size: 0x1, def value: None
   bool ___m_ProbeVolumeDisableStreamingAssets;
 

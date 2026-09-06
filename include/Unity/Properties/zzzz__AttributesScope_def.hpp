@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\AttributesScope.hpp"
+// IWYU pragma private; include "Unity/Properties/AttributesScope.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ struct AttributesScope;
 // Write type traits
 MARK_VAL_T(::Unity::Properties::AttributesScope);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::AttributesScope, "Unity.Properties", "AttributesScope");
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Properties {
 // Is value type: true
@@ -53,8 +54,8 @@ public:
   // @brief default ctor
   constexpr AttributesScope();
 
-  // Ctor Parameters [CppParam { name: "m_Target", ty: "::Unity::Properties::Internal::IAttributes*", modifiers: "", def_value: None }, CppParam { name: "m_Previous", ty:
-  // "::System::Collections::Generic::List_1<::System::Attribute*>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Target", ty: "::Unity::Properties::Internal::IAttributes*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Previous", ty:
+  // "::System::Collections::Generic::List_1<::System::Attribute*>*", modifiers: "", def_value: None, comment: None }]
   constexpr AttributesScope(::Unity::Properties::Internal::IAttributes* m_Target, ::System::Collections::Generic::List_1<::System::Attribute*>* m_Previous) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

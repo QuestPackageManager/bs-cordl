@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PromoBannerInfoSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PromoBannerInfoSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,26 +95,32 @@ protected:
   constexpr PromoBannerInfoSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PromoBannerInfoSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PromoBannerInfoSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PromoBannerInfoSO(PromoBannerInfoSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PromoBannerInfoSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PromoBannerInfoSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PromoBannerInfoSO(PromoBannerInfoSO const&) = delete;
+  PromoBannerInfoSO(PromoBannerInfoSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15026 };
 
+  /// [SerializeField]
   /// @brief Field _bannerImage, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____bannerImage;
 
+  /// [SerializeField]
   /// @brief Field _bannerPromoText, offset: 0x20, size: 0x8, def value: None
   ::StringW ____bannerPromoText;
 
+  /// [SerializeField]
+  /// [Range(0, 40)]
   /// @brief Field _bannerPromoTextPosition, offset: 0x28, size: 0x4, def value: None
   float_t ____bannerPromoTextPosition;
 
+  /// [SerializeField]
+  /// [DateString(true)]
   /// @brief Field _bannerPromoTextShowUntilDate, offset: 0x30, size: 0x8, def value: None
   ::StringW ____bannerPromoTextShowUntilDate;
 

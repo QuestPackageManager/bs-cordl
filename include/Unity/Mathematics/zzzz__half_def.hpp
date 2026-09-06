@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\half.hpp"
+// IWYU pragma private; include "Unity/Mathematics/half.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ struct half;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::half);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::half, "Unity.Mathematics", "half");
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies
 namespace Unity::Mathematics {
 // Is value type: true
@@ -111,7 +112,7 @@ public:
   // @brief default ctor
   constexpr half();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr half(uint16_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

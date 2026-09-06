@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextGenerationSettings.hpp"
+// IWYU pragma private; include "UnityEngine/TextGenerationSettings.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__FontStyle_impl.hpp"
 #include "UnityEngine/zzzz__HorizontalWrapMode_impl.hpp"
@@ -69,16 +69,17 @@ inline bool UnityEngine::TextGenerationSettings::Equals(::UnityEngine::TextGener
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerationSettings>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::TextGenerationSettings>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lineSpacing", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "richText", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "scaleFactor", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontStyle",
-// ty: "::UnityEngine::FontStyle", modifiers: "", def_value: Some("{}") }, CppParam { name: "textAnchor", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "alignByGeometry", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "resizeTextForBestFit", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "resizeTextMinSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "resizeTextMaxSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "updateBounds", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "verticalOverflow", ty: "::UnityEngine::VerticalWrapMode", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "horizontalOverflow", ty: "::UnityEngine::HorizontalWrapMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "generationExtents", ty: "::UnityEngine::Vector2", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "pivot", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "generateOutOfBounds", ty: "bool", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lineSpacing", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "richText", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scaleFactor", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "textAnchor", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "alignByGeometry", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "resizeTextForBestFit", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "resizeTextMinSize", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "resizeTextMaxSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "updateBounds", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "verticalOverflow", ty: "::UnityEngine::VerticalWrapMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "horizontalOverflow", ty: "::UnityEngine::HorizontalWrapMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "generationExtents", ty: "::UnityEngine::Vector2",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pivot", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "generateOutOfBounds", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextGenerationSettings::TextGenerationSettings(::UnityW<::UnityEngine::Font> font, ::UnityEngine::Color color, int32_t fontSize, float_t lineSpacing, bool richText,
                                                                         float_t scaleFactor, ::UnityEngine::FontStyle fontStyle, ::UnityEngine::TextAnchor textAnchor, bool alignByGeometry,
                                                                         bool resizeTextForBestFit, int32_t resizeTextMinSize, int32_t resizeTextMaxSize, bool updateBounds,

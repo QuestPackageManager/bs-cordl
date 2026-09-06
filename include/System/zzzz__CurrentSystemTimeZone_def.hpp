@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\CurrentSystemTimeZone.hpp"
+// IWYU pragma private; include "System/CurrentSystemTimeZone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class CurrentSystemTimeZone;
 // Write type traits
 MARK_REF_T(::System::CurrentSystemTimeZone*);
 DEFINE_IL2CPP_CLASS(::System::CurrentSystemTimeZone*, "System", "CurrentSystemTimeZone");
+// [Obsolete("System.CurrentSystemTimeZone has been deprecated.  Please investigate the use of System.TimeZoneInfo.Local instead.")]
 // Dependencies System.TimeZone
 namespace System {
 // Is value type: false
@@ -102,13 +103,13 @@ protected:
   constexpr CurrentSystemTimeZone();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurrentSystemTimeZone", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurrentSystemTimeZone", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurrentSystemTimeZone(CurrentSystemTimeZone&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurrentSystemTimeZone", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurrentSystemTimeZone", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurrentSystemTimeZone(CurrentSystemTimeZone const&) = delete;
+  CurrentSystemTimeZone(CurrentSystemTimeZoneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2368 };

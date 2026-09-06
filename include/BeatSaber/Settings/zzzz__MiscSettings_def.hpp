@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\MiscSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/MiscSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
   // @brief default ctor
   constexpr MiscSettings_ResponseLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MiscSettings_ResponseLevel(int32_t value__) noexcept;
 
   /// @brief Field Instant value: I32(0)
@@ -90,8 +90,8 @@ public:
   // @brief default ctor
   constexpr MiscSettings();
 
-  // Ctor Parameters [CppParam { name: "region", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "language", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "pauseButtonResponse", ty: "::BeatSaber::Settings::MiscSettings_ResponseLevel", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "region", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "language", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "pauseButtonResponse", ty: "::BeatSaber::Settings::MiscSettings_ResponseLevel", modifiers: "", def_value: None, comment: None }]
   constexpr MiscSettings(int32_t region, ::StringW language, ::BeatSaber::Settings::MiscSettings_ResponseLevel pauseButtonResponse) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -103,6 +103,7 @@ public:
   /// @brief Field region, offset: 0x0, size: 0x4, def value: None
   int32_t region;
 
+  /// [Nullable(1)]
   /// @brief Field language, offset: 0x8, size: 0x8, def value: None
   ::StringW language;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509Helper2.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Helper2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ public:
   /// @brief Method GetInvalidChainContextException, addr 0x63b139c, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInvalidChainContextException();
 
+  /// [MonoTODO("Investigate replacement; see comments in source.")]
   /// @brief Method GetMonoCertificate, addr 0x63b1210, size 0xd8, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Certificate* GetMonoCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
@@ -52,13 +53,13 @@ protected:
   constexpr X509Helper2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509Helper2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Helper2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Helper2(X509Helper2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509Helper2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Helper2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509Helper2(X509Helper2 const&) = delete;
+  X509Helper2(X509Helper2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11212 };

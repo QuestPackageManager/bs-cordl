@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceCullingBatcher.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceCullingBatcher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchID_impl.hpp"
@@ -593,7 +593,7 @@ inline void UnityEngine::Rendering::InstanceCullingBatcher::RegisterBatchMeshes(
                                                                                          { "RegisterBatchMeshes", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, meshIDs);
 }
-inline void UnityEngine::Rendering::InstanceCullingBatcher::RegisterBatchMaterials(::by_ref<::Unity::Collections::NativeArray_1<int32_t>> usedMaterialIDs) {
+inline void UnityEngine::Rendering::InstanceCullingBatcher::RegisterBatchMaterials(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> usedMaterialIDs) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcher*>(),
                                                            { "RegisterBatchMaterials", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>() } })));
@@ -612,7 +612,8 @@ UnityEngine::Rendering::InstanceCullingBatcher::SchedulePackedMaterialCacheUpdat
 }
 inline void UnityEngine::Rendering::InstanceCullingBatcher::BuildBatch(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                                        ::Unity::Collections::NativeArray_1<int32_t> usedMaterialIDs, ::Unity::Collections::NativeArray_1<int32_t> usedMeshIDs,
-                                                                       ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, bool registerMaterialsAndMeshes) {
+                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+                                                                       bool registerMaterialsAndMeshes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceCullingBatcher*>(),
                                                            { "BuildBatch",

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalCameraData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalCameraData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -724,6 +724,7 @@ public:
   /// @brief Method get_scaledWidth, addr 0x68762cc, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_scaledWidth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_xr, addr 0x6876b90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::XRPass* get_xr();
 
@@ -733,6 +734,7 @@ public:
   /// @brief Method set_historyManager, addr 0x687636c, size 0x8, virtual false, abstract: false, final false
   inline void set_historyManager(::UnityEngine::Rendering::Universal::UniversalCameraHistory* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_xr, addr 0x6876b98, size 0x8, virtual false, abstract: false, final false
   inline void set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
@@ -742,13 +744,13 @@ protected:
   constexpr UniversalCameraData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalCameraData(UniversalCameraData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalCameraData(UniversalCameraData const&) = delete;
+  UniversalCameraData(UniversalCameraDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12754 };
@@ -861,6 +863,7 @@ public:
   /// @brief Field defaultOpaqueSortFlags, offset: 0x198, size: 0x4, def value: None
   ::UnityEngine::Rendering::SortingCriteria ___defaultOpaqueSortFlags;
 
+  /// [CompilerGenerated]
   /// @brief Field <xr>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::XRPass* ____xr_k__BackingField;
 

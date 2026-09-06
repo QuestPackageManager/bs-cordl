@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\HID\HIDParser.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/HID/HIDParser.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HID_impl.hpp"
@@ -37,8 +37,9 @@ inline int32_t UnityEngine::InputSystem::HID::HIDParser_HIDReportData::FindOrAdd
                                                                ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::HIDParser_HIDReportData>*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, reportId, reportType, reports);
 }
-// Ctor Parameters [CppParam { name: "reportId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "reportType", ty: "::UnityEngine::InputSystem::HID::HID_HIDReportType",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "currentBitOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "reportId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reportType", ty:
+// "::UnityEngine::InputSystem::HID::HID_HIDReportType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currentBitOffset", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::HID::HIDParser_HIDReportData::HIDParser_HIDReportData(int32_t reportId, ::UnityEngine::InputSystem::HID::HID_HIDReportType reportType,
                                                                                             int32_t currentBitOffset) noexcept {
   this->reportId = reportId;
@@ -47,7 +48,7 @@ constexpr ::UnityEngine::InputSystem::HID::HIDParser_HIDReportData::HIDParser_HI
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::HID::HIDParser_HIDReportData::HIDParser_HIDReportData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::HID::HIDParser_HIDItemTypeAndTag::HIDParser_HIDItemTypeAndTag(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -139,13 +140,13 @@ inline int32_t UnityEngine::InputSystem::HID::HIDParser_HIDItemStateLocal::GetUs
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDParser_HIDItemStateLocal>(), { "GetUsage", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, index);
 }
-// Ctor Parameters [CppParam { name: "usage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "usageMinimum", ty: "::System::Nullable_1<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "usageMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "designatorIndex", ty:
-// "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "designatorMinimum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "designatorMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "stringIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "stringMinimum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "stringMaximum", ty:
-// "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "usageList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "usage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "usageMinimum", ty:
+// "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "usageMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "designatorIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "designatorMinimum", ty:
+// "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "designatorMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "stringIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stringMinimum", ty:
+// "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stringMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "usageList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::HID::HIDParser_HIDItemStateLocal::HIDParser_HIDItemStateLocal(::System::Nullable_1<int32_t> usage, ::System::Nullable_1<int32_t> usageMinimum,
                                                                                                     ::System::Nullable_1<int32_t> usageMaximum, ::System::Nullable_1<int32_t> designatorIndex,
                                                                                                     ::System::Nullable_1<int32_t> designatorMinimum, ::System::Nullable_1<int32_t> designatorMaximum,
@@ -225,12 +226,13 @@ inline int32_t UnityEngine::InputSystem::HID::HIDParser_HIDItemStateGlobal::GetP
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDParser_HIDItemStateGlobal>(), { "GetPhysicalMax", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "usagePage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "logicalMinimum", ty: "::System::Nullable_1<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "logicalMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "physicalMinimum", ty:
-// "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "physicalMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "unitExponent", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "unit", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "reportSize", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "reportCount", ty: "::System::Nullable_1<int32_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "reportId", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "usagePage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "logicalMinimum", ty:
+// "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "logicalMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "physicalMinimum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "physicalMaximum", ty:
+// "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unitExponent", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "unit", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reportSize", ty:
+// "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reportCount", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "reportId", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::HID::HIDParser_HIDItemStateGlobal::HIDParser_HIDItemStateGlobal(::System::Nullable_1<int32_t> usagePage, ::System::Nullable_1<int32_t> logicalMinimum,
                                                                                                       ::System::Nullable_1<int32_t> logicalMaximum, ::System::Nullable_1<int32_t> physicalMinimum,
                                                                                                       ::System::Nullable_1<int32_t> physicalMaximum, ::System::Nullable_1<int32_t> unitExponent,

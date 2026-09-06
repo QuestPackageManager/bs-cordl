@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\RootFilter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/RootFilter.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__RootFilter_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
@@ -45,7 +45,7 @@ inline void Newtonsoft::Json::Linq::JsonPath::RootFilter::_ctor() {
 }
 inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
 Newtonsoft::Json::Linq::JsonPath::RootFilter::ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
-                                                            ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+                                                            /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::RootFilter*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(this, ___internal_method, root, current, settings);

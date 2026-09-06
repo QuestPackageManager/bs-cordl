@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTelemetryMarker.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTelemetryMarker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,15 +66,21 @@ public:
   /// @brief Method .ctor, addr 0x5edef18, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool sent, ::GlobalNamespace::Qpl_OVRPlugin_ResultType result);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Result, addr 0x5edf938, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::Qpl_OVRPlugin_ResultType get_Result();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Sent, addr 0x5edf928, size 0x8, virtual false, abstract: false, final false
   inline bool get_Sent();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Result, addr 0x5edf940, size 0x8, virtual false, abstract: false, final false
   inline void set_Result(::GlobalNamespace::Qpl_OVRPlugin_ResultType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Sent, addr 0x5edf930, size 0x8, virtual false, abstract: false, final false
   inline void set_Sent(bool value);
 
@@ -82,8 +88,8 @@ public:
   // @brief default ctor
   constexpr OVRTelemetryMarker_OVRTelemetryMarkerState();
 
-  // Ctor Parameters [CppParam { name: "_Sent_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_Result_k__BackingField", ty:
-  // "::GlobalNamespace::Qpl_OVRPlugin_ResultType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Sent_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Result_k__BackingField", ty:
+  // "::GlobalNamespace::Qpl_OVRPlugin_ResultType", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTelemetryMarker_OVRTelemetryMarkerState(bool _Sent_k__BackingField, ::GlobalNamespace::Qpl_OVRPlugin_ResultType _Result_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -92,9 +98,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Sent>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _Sent_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Result>k__BackingField, offset: 0x2, size: 0x2, def value: None
   ::GlobalNamespace::Qpl_OVRPlugin_ResultType _Result_k__BackingField;
 
@@ -161,6 +169,7 @@ public:
 
   /// @brief Method AddAnnotation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<T> annotationValues,
                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
@@ -230,12 +239,16 @@ public:
   /// @brief Method get_ApplicationIdentifier, addr 0x5edf474, size 0x8c, virtual false, abstract: false, final false
   static inline ::StringW get_ApplicationIdentifier();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_InstanceKey, addr 0x5edeed0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InstanceKey();
 
   /// @brief Method get_IsBatchMode, addr 0x5edf58c, size 0xfc, virtual false, abstract: false, final false
   static inline bool get_IsBatchMode();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_MarkerId, addr 0x5edeec8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MarkerId();
 
@@ -245,6 +258,8 @@ public:
   /// @brief Method get_Sent, addr 0x5edeeb0, size 0x10, virtual false, abstract: false, final false
   inline bool get_Sent();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_State, addr 0x5edeea0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState get_State();
 
@@ -260,6 +275,7 @@ public:
 
   static inline void setStaticF__unityVersion(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_State, addr 0x5edeea8, size 0x8, virtual false, abstract: false, final false
   inline void set_State(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState value);
 
@@ -267,9 +283,9 @@ public:
   // @brief default ctor
   constexpr OVRTelemetryMarker();
 
-  // Ctor Parameters [CppParam { name: "_State_k__BackingField", ty: "::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState", modifiers: "", def_value: None }, CppParam { name:
-  // "_MarkerId_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_InstanceKey_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_client", ty: "::GlobalNamespace::OVRTelemetry_TelemetryClient*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_State_k__BackingField", ty: "::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_MarkerId_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_InstanceKey_k__BackingField", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_client", ty: "::GlobalNamespace::OVRTelemetry_TelemetryClient*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTelemetryMarker(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState _State_k__BackingField, int32_t _MarkerId_k__BackingField, int32_t _InstanceKey_k__BackingField,
                                ::GlobalNamespace::OVRTelemetry_TelemetryClient* _client) noexcept;
 
@@ -282,12 +298,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
   /// @brief Field <State>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState _State_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MarkerId>k__BackingField, offset: 0x4, size: 0x4, def value: None
   int32_t _MarkerId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <InstanceKey>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _InstanceKey_k__BackingField;
 

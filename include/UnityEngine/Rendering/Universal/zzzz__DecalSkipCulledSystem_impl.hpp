@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalSkipCulledSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalSkipCulledSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalSkipCulledSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalCulledChunk_def.hpp"

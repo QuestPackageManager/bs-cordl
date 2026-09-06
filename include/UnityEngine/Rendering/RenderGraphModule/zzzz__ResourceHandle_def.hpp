@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\ResourceHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/ResourceHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   static inline void NewFrame(int32_t executionIndex);
 
   /// @brief Method .ctor, addr 0x67e6560, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t version);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t version);
 
   /// @brief Method .ctor, addr 0x67e4014, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t value, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type, bool shared);
@@ -77,6 +77,8 @@ public:
   /// @brief Method get_index, addr 0x67e9c9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_type, addr 0x67e9d0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType get_type();
 
@@ -90,6 +92,7 @@ public:
 
   static inline void setStaticF_s_SharedResourceValidBit(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_type, addr 0x67e9d14, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType value);
 
@@ -100,8 +103,8 @@ public:
   // @brief default ctor
   constexpr ResourceHandle();
 
-  // Ctor Parameters [CppParam { name: "m_Value", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_type_k__BackingField", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Value", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_type_k__BackingField", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType", modifiers: "", def_value: None, comment: None }]
   constexpr ResourceHandle(uint32_t m_Value, int32_t m_Version, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType _type_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -122,6 +125,7 @@ public:
   /// @brief Field m_Version, offset: 0x4, size: 0x4, def value: None
   int32_t m_Version;
 
+  /// [CompilerGenerated]
   /// @brief Field <type>k__BackingField, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType _type_k__BackingField;
 

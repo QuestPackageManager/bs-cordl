@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\GeneratePropertyBagsForTypesQualifiedWithAttribute.hpp"
+// IWYU pragma private; include "Unity/Properties/GeneratePropertyBagsForTypesQualifiedWithAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class GeneratePropertyBagsForTypesQualifiedWithAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Properties::GeneratePropertyBagsForTypesQualifiedWithAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::GeneratePropertyBagsForTypesQualifiedWithAttribute*, "Unity.Properties", "GeneratePropertyBagsForTypesQualifiedWithAttribute");
+// [AttributeUsage((System.AttributeTargets)1, AllowMultiple = true)]
 // Dependencies System.Attribute, Unity.Properties.TypeGenerationOptions
 namespace Unity::Properties {
 // Is value type: false
@@ -55,20 +56,24 @@ protected:
   constexpr GeneratePropertyBagsForTypesQualifiedWithAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GeneratePropertyBagsForTypesQualifiedWithAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeneratePropertyBagsForTypesQualifiedWithAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GeneratePropertyBagsForTypesQualifiedWithAttribute(GeneratePropertyBagsForTypesQualifiedWithAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GeneratePropertyBagsForTypesQualifiedWithAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeneratePropertyBagsForTypesQualifiedWithAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GeneratePropertyBagsForTypesQualifiedWithAttribute(GeneratePropertyBagsForTypesQualifiedWithAttribute const&) = delete;
+  GeneratePropertyBagsForTypesQualifiedWithAttribute(GeneratePropertyBagsForTypesQualifiedWithAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19614 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Options>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::Unity::Properties::TypeGenerationOptions ____Options_k__BackingField;
 

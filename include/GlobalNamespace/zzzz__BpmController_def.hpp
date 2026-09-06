@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BpmController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BpmController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,13 +63,13 @@ protected:
   constexpr BpmController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BpmController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BpmController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BpmController_InitData(BpmController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BpmController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BpmController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BpmController_InitData(BpmController_InitData const&) = delete;
+  BpmController_InitData(BpmController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5744 };
@@ -120,6 +120,7 @@ public:
   /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x597db70, size 0x18, virtual false, abstract: false, final false
   inline void HandleBpmChangeBeatmapEvent(::GlobalNamespace::BPMChangeBeatmapEventData* bpmChangeBeatmapEventData);
 
+  /// @brief [Inject]
   static inline ::GlobalNamespace::BpmController* New_ctor(::GlobalNamespace::BpmController_InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -140,6 +141,7 @@ public:
 
   constexpr void __cordl_internal_set__currentBpm(float_t value);
 
+  /// [Inject]
   /// @brief Method .ctor, addr 0x597da88, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmController_InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -161,13 +163,13 @@ protected:
   constexpr BpmController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BpmController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BpmController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BpmController(BpmController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BpmController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BpmController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BpmController(BpmController const&) = delete;
+  BpmController(BpmControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5745 };

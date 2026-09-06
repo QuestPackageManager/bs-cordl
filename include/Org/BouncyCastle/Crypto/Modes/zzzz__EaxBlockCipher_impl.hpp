@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\EaxBlockCipher.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/EaxBlockCipher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__EaxBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__EaxBlockCipher_def.hpp"
@@ -9,7 +9,7 @@
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher_Tag::EaxBlockCipher_Tag(uint8_t value__) noexcept {
   this->value__ = value__;
 }

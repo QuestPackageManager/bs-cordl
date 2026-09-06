@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Principal\SecurityIdentifier.hpp"
+// IWYU pragma private; include "System/Security/Principal/SecurityIdentifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class SecurityIdentifier;
 // Write type traits
 MARK_REF_T(::System::Security::Principal::SecurityIdentifier*);
 DEFINE_IL2CPP_CLASS(::System::Security::Principal::SecurityIdentifier*, "System.Security.Principal", "SecurityIdentifier");
+// [ComVisible(false)]
 // Dependencies System.Security.Principal.IdentityReference
 namespace System::Security::Principal {
 // Is value type: false
@@ -137,13 +138,13 @@ protected:
   constexpr SecurityIdentifier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityIdentifier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityIdentifier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecurityIdentifier(SecurityIdentifier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityIdentifier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityIdentifier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecurityIdentifier(SecurityIdentifier const&) = delete;
+  SecurityIdentifier(SecurityIdentifierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3018 };

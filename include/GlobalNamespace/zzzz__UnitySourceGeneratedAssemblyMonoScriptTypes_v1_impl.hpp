@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnitySourceGeneratedAssemblyMonoScriptTypes_v1.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnitySourceGeneratedAssemblyMonoScriptTypes_v1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UnitySourceGeneratedAssemblyMonoScriptTypes_v1_def.hpp"
 #include "GlobalNamespace/zzzz__UnitySourceGeneratedAssemblyMonoScriptTypes_v1_def.hpp"
-// Ctor Parameters [CppParam { name: "FilePathsData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "TypesData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "TotalTypes", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "TotalFiles", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "IsEditorOnly", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FilePathsData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TypesData", ty: "::ArrayW<uint8_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "TotalTypes", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TotalFiles", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsEditorOnly", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1_MonoScriptData::UnitySourceGeneratedAssemblyMonoScriptTypes_v1_MonoScriptData(::ArrayW<uint8_t> FilePathsData,
                                                                                                                                                           ::ArrayW<uint8_t> TypesData,
                                                                                                                                                           int32_t TotalTypes, int32_t TotalFiles,
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1_MonoScriptData (*)()>(
     &::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1::Get)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x32c3c00;
+  constexpr static std::size_t addrs = 0x6e3d664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1*>(), { "Get", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1::*)()>(
     &::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c3cbc;
+  constexpr static std::size_t addrs = 0x6e3d720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

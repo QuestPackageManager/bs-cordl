@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIRAtlasAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIRAtlasAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace UnityEngine::UIElements {
 class AreaNode_UIRAtlasAllocator___c;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class Row_UIRAtlasAllocator___c;
@@ -57,6 +59,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Row_UIRAtlasAllocator___c*, "Unit
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIRAtlasAllocator*, "UnityEngine.UIElements", "UIRAtlasAllocator");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*, "UnityEngine.UIElements", "UIRAtlasAllocator/AreaNode");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIRAtlasAllocator_Row*, "UnityEngine.UIElements", "UIRAtlasAllocator/Row");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -85,13 +88,13 @@ protected:
   constexpr Row_UIRAtlasAllocator___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Row_UIRAtlasAllocator___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Row_UIRAtlasAllocator___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Row_UIRAtlasAllocator___c(Row_UIRAtlasAllocator___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Row_UIRAtlasAllocator___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Row_UIRAtlasAllocator___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Row_UIRAtlasAllocator___c(Row_UIRAtlasAllocator___c const&) = delete;
+  Row_UIRAtlasAllocator___c(Row_UIRAtlasAllocator___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4659 };
@@ -180,26 +183,33 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>* getStaticF_s_Pool();
 
+  /// [CompilerGenerated]
   /// @brief Method get_offsetX, addr 0x6dbda0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_offsetX();
 
+  /// [CompilerGenerated]
   /// @brief Method get_offsetY, addr 0x6dbda1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_offsetY();
 
+  /// [CompilerGenerated]
   /// @brief Method get_width, addr 0x6dbda2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
   static inline void setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_height, addr 0x6dbda3c, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_offsetX, addr 0x6dbda14, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetX(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_offsetY, addr 0x6dbda24, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetY(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_width, addr 0x6dbda34, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
@@ -209,26 +219,34 @@ protected:
   constexpr UIRAtlasAllocator_Row();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_Row", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_Row", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRAtlasAllocator_Row(UIRAtlasAllocator_Row&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_Row", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_Row", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRAtlasAllocator_Row(UIRAtlasAllocator_Row const&) = delete;
+  UIRAtlasAllocator_Row(UIRAtlasAllocator_Rowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4660 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <offsetX>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____offsetX_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <offsetY>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____offsetY_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <width>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____width_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <height>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____height_k__BackingField;
 
@@ -251,6 +269,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator_Row, ___Curs
 static_assert(sizeof(::UnityEngine::UIElements::UIRAtlasAllocator_Row) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -279,13 +298,13 @@ protected:
   constexpr AreaNode_UIRAtlasAllocator___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AreaNode_UIRAtlasAllocator___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AreaNode_UIRAtlasAllocator___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AreaNode_UIRAtlasAllocator___c(AreaNode_UIRAtlasAllocator___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AreaNode_UIRAtlasAllocator___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AreaNode_UIRAtlasAllocator___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AreaNode_UIRAtlasAllocator___c(AreaNode_UIRAtlasAllocator___c const&) = delete;
+  AreaNode_UIRAtlasAllocator___c(AreaNode_UIRAtlasAllocator___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4661 };
@@ -362,13 +381,13 @@ protected:
   constexpr UIRAtlasAllocator_AreaNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_AreaNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_AreaNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRAtlasAllocator_AreaNode(UIRAtlasAllocator_AreaNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_AreaNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator_AreaNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRAtlasAllocator_AreaNode(UIRAtlasAllocator_AreaNode const&) = delete;
+  UIRAtlasAllocator_AreaNode(UIRAtlasAllocator_AreaNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4662 };
@@ -561,27 +580,35 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerTryAllocate();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6dbcb94, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxAtlasSize, addr 0x6dbcb3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxAtlasSize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxImageHeight, addr 0x6dbcb4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxImageHeight();
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxImageWidth, addr 0x6dbcb44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxImageWidth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_physicalHeight, addr 0x6dbcb84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_physicalHeight();
 
+  /// [CompilerGenerated]
   /// @brief Method get_physicalWidth, addr 0x6dbcb74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_physicalWidth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_virtualHeight, addr 0x6dbcb64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_virtualHeight();
 
+  /// [CompilerGenerated]
   /// @brief Method get_virtualWidth, addr 0x6dbcb54, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_virtualWidth();
 
@@ -590,18 +617,23 @@ public:
 
   static inline void setStaticF_s_MarkerTryAllocate(::Unity::Profiling::ProfilerMarker value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6dbcb9c, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_physicalHeight, addr 0x6dbcb8c, size 0x8, virtual false, abstract: false, final false
   inline void set_physicalHeight(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_physicalWidth, addr 0x6dbcb7c, size 0x8, virtual false, abstract: false, final false
   inline void set_physicalWidth(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_virtualHeight, addr 0x6dbcb6c, size 0x8, virtual false, abstract: false, final false
   inline void set_virtualHeight(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_virtualWidth, addr 0x6dbcb5c, size 0x8, virtual false, abstract: false, final false
   inline void set_virtualWidth(int32_t value);
 
@@ -611,35 +643,49 @@ protected:
   constexpr UIRAtlasAllocator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRAtlasAllocator(UIRAtlasAllocator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRAtlasAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRAtlasAllocator(UIRAtlasAllocator const&) = delete;
+  UIRAtlasAllocator(UIRAtlasAllocatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4663 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <maxAtlasSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____maxAtlasSize_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <maxImageWidth>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____maxImageWidth_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <maxImageHeight>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____maxImageHeight_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <virtualWidth>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____virtualWidth_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <virtualHeight>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____virtualHeight_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <physicalWidth>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t ____physicalWidth_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <physicalHeight>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____physicalHeight_k__BackingField;
 
@@ -655,6 +701,8 @@ public:
   /// @brief Field m_2SidePadding, offset: 0x44, size: 0x4, def value: None
   int32_t ___m_2SidePadding;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

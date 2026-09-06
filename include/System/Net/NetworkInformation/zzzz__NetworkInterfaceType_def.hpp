@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\NetworkInterfaceType.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/NetworkInterfaceType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   // @brief default ctor
   constexpr NetworkInterfaceType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NetworkInterfaceType(int32_t value__) noexcept;
 
   /// @brief Field AsymmetricDsl value: I32(94)

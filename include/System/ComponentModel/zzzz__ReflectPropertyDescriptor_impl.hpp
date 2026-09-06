@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ReflectPropertyDescriptor.hpp"
+// IWYU pragma private; include "System/ComponentModel/ReflectPropertyDescriptor.hpp"
 #include "System/Collections/Specialized/zzzz__BitVector32_impl.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"

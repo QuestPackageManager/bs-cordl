@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DBufferRenderPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DBufferRenderPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -189,13 +191,13 @@ protected:
   constexpr DBufferRenderPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DBufferRenderPass_PassData(DBufferRenderPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DBufferRenderPass_PassData(DBufferRenderPass_PassData const&) = delete;
+  DBufferRenderPass_PassData(DBufferRenderPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12674 };
@@ -246,6 +248,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DBufferRenderPass_Pa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DBufferRenderPass_PassData) == 0x58, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -286,13 +289,13 @@ protected:
   constexpr DBufferRenderPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DBufferRenderPass___c(DBufferRenderPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DBufferRenderPass___c(DBufferRenderPass___c const&) = delete;
+  DBufferRenderPass___c(DBufferRenderPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12675 };
@@ -374,6 +377,7 @@ public:
   /// @brief Method Dispose, addr 0x6854098, size 0x78, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6854884, size 0x3ac, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -395,6 +399,7 @@ public:
   /// @brief Method OnCameraCleanup, addr 0x6856b50, size 0xec, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x6854590, size 0x8, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -408,10 +413,10 @@ public:
   static inline void SetKeywords(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DBufferRenderPass_PassData* passData);
 
   /// @brief Method Setup, addr 0x6854110, size 0x138, virtual false, abstract: false, final false
-  inline void Setup(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline void Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
   /// @brief Method Setup, addr 0x6854248, size 0x348, virtual false, abstract: false, final false
-  inline void Setup(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::RTHandle* depthTextureHandle);
+  inline void Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::RTHandle* depthTextureHandle);
 
   constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*> const& __cordl_internal_get__dBufferColorHandles_k__BackingField() const;
 
@@ -495,12 +500,14 @@ public:
 
   static inline int32_t getStaticF_s_SSAOTextureID();
 
+  /// [CompilerGenerated]
   /// @brief Method get_dBufferColorHandles, addr 0x6853a4c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RTHandle*> get_dBufferColorHandles();
 
   /// @brief Method get_dBufferDepth, addr 0x6853a6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_dBufferDepth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_depthHandle, addr 0x6853a5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_depthHandle();
 
@@ -510,9 +517,11 @@ public:
 
   static inline void setStaticF_s_SSAOTextureID(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_dBufferColorHandles, addr 0x6853a54, size 0x8, virtual false, abstract: false, final false
   inline void set_dBufferColorHandles(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_depthHandle, addr 0x6853a64, size 0x8, virtual false, abstract: false, final false
   inline void set_depthHandle(::UnityEngine::Rendering::RTHandle* value);
 
@@ -522,13 +531,13 @@ protected:
   constexpr DBufferRenderPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DBufferRenderPass(DBufferRenderPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DBufferRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DBufferRenderPass(DBufferRenderPass const&) = delete;
+  DBufferRenderPass(DBufferRenderPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12676 };
@@ -560,9 +569,11 @@ public:
   /// @brief Field m_PassData, offset: 0x110, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DBufferRenderPass_PassData* ___m_PassData;
 
+  /// [CompilerGenerated]
   /// @brief Field <dBufferColorHandles>k__BackingField, offset: 0x118, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RTHandle*> ____dBufferColorHandles_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <depthHandle>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____depthHandle_k__BackingField;
 

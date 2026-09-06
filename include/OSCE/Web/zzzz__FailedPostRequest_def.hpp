@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Web\FailedPostRequest.hpp"
+// IWYU pragma private; include "OSCE/Web/FailedPostRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,9 +28,9 @@ public:
   // @brief default ctor
   constexpr FailedPostRequest();
 
-  // Ctor Parameters [CppParam { name: "Path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Json", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "ErrorMessage", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "AttemptsMade", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Batch", ty:
-  // "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Json", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "ErrorMessage", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "AttemptsMade", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "Batch", ty: "::OSCE::Analytics::LoggerAnalyticsBatch*", modifiers: "", def_value: None, comment: None }]
   constexpr FailedPostRequest(::StringW Path, ::StringW Json, ::StringW ErrorMessage, int32_t AttemptsMade, ::OSCE::Analytics::LoggerAnalyticsBatch* Batch) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

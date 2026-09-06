@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\CompilerServices\Constant.hpp"
+// IWYU pragma private; include "Unity/Burst/CompilerServices/Constant.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ class CORDL_TYPE Constant : public ::System::Object {
 public:
   // Declarations
   /// @brief Method IsConstantExpression, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool IsConstantExpression(T t);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline bool IsConstantExpression(T t);
 
   /// @brief Method IsConstantExpression, addr 0x64a7608, size 0x8, virtual false, abstract: false, final false
   static inline bool IsConstantExpression(void* t);
@@ -31,13 +33,13 @@ protected:
   constexpr Constant();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Constant", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Constant", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Constant(Constant&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Constant", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Constant", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Constant(Constant const&) = delete;
+  Constant(Constantconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17370 };

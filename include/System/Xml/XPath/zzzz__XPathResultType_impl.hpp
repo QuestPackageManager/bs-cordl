@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XPath\XPathResultType.hpp"
+// IWYU pragma private; include "System/Xml/XPath/XPathResultType.hpp"
 #include "System/Xml/XPath/zzzz__XPathResultType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XPath::XPathResultType::XPathResultType(int32_t value__) noexcept {
   this->value__ = value__;
 }

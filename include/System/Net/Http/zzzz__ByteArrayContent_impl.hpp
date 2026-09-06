@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\ByteArrayContent.hpp"
+// IWYU pragma private; include "System/Net/Http/ByteArrayContent.hpp"
 #include "System/Net/Http/zzzz__HttpContent_impl.hpp"
 #include "System/Net/Http/zzzz__ByteArrayContent_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

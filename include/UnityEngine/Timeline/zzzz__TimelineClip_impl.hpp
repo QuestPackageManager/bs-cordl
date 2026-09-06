@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineClip.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineClip.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
@@ -12,7 +12,7 @@
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::TimelineClip_Versions::TimelineClip_Versions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -40,7 +40,7 @@ inline void UnityEngine::Timeline::TimelineClip_TimelineClipUpgrade::UpgradeClip
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelineClip_TimelineClipUpgrade::TimelineClip_TimelineClipUpgrade() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation::TimelineClip_ClipExtrapolation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -51,7 +51,7 @@ constexpr ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation UnityEngine::T
 constexpr ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation UnityEngine::Timeline::TimelineClip_ClipExtrapolation::Loop{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation UnityEngine::Timeline::TimelineClip_ClipExtrapolation::PingPong{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation UnityEngine::Timeline::TimelineClip_ClipExtrapolation::Continue{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::TimelineClip_BlendCurveMode::TimelineClip_BlendCurveMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

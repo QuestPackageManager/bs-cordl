@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\FaceInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/FaceInfo.hpp"
 #include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_faceIndex
 template <>
@@ -407,16 +407,18 @@ inline float_t UnityEngine::TextCore::FaceInfo::get_tabWidth() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_tabWidth", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_FaceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FamilyName", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_StyleName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PointSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Scale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UnitsPerEM", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LineHeight", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AscentLine", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CapLine", ty: "float_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_MeanLine", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Baseline", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_DescentLine", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SuperscriptOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_SuperscriptSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SubscriptOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_SubscriptSize", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UnderlineOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_UnderlineThickness", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StrikethroughOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_StrikethroughThickness", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TabWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_FaceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FamilyName", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_StyleName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PointSize", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_Scale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UnitsPerEM", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LineHeight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AscentLine", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CapLine", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MeanLine", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Baseline", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_DescentLine", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SuperscriptOffset", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_SuperscriptSize", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SubscriptOffset", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_SubscriptSize", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UnderlineOffset", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UnderlineThickness", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_StrikethroughOffset", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StrikethroughThickness", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_TabWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::FaceInfo::FaceInfo(int32_t m_FaceIndex, ::StringW m_FamilyName, ::StringW m_StyleName, float_t m_PointSize, float_t m_Scale, int32_t m_UnitsPerEM,
                                                       float_t m_LineHeight, float_t m_AscentLine, float_t m_CapLine, float_t m_MeanLine, float_t m_Baseline, float_t m_DescentLine,
                                                       float_t m_SuperscriptOffset, float_t m_SuperscriptSize, float_t m_SubscriptOffset, float_t m_SubscriptSize, float_t m_UnderlineOffset,

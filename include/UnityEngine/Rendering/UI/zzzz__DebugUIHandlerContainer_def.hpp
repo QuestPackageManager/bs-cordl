@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerContainer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ MARK_REF_T(::UnityEngine::Rendering::UI::DebugUIHandlerContainer*);
 MARK_REF_T(::UnityEngine::Rendering::UI::DebugUIHandlerContainer___c__DisplayClass3_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerContainer*, "UnityEngine.Rendering.UI", "DebugUIHandlerContainer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerContainer___c__DisplayClass3_0*, "UnityEngine.Rendering.UI", "DebugUIHandlerContainer/<>c__DisplayClass3_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::UI {
 // Is value type: false
@@ -60,13 +61,13 @@ protected:
   constexpr DebugUIHandlerContainer___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerContainer___c__DisplayClass3_0(DebugUIHandlerContainer___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerContainer___c__DisplayClass3_0(DebugUIHandlerContainer___c__DisplayClass3_0 const&) = delete;
+  DebugUIHandlerContainer___c__DisplayClass3_0(DebugUIHandlerContainer___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12514 };
@@ -123,17 +124,18 @@ protected:
   constexpr DebugUIHandlerContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerContainer(DebugUIHandlerContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerContainer(DebugUIHandlerContainer const&) = delete;
+  DebugUIHandlerContainer(DebugUIHandlerContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12515 };
 
+  /// [SerializeField]
   /// @brief Field contentHolder, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___contentHolder;
 

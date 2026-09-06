@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ECKeyGenerationParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ECKeyGenerationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,13 +74,13 @@ protected:
   constexpr ECKeyGenerationParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECKeyGenerationParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECKeyGenerationParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECKeyGenerationParameters(ECKeyGenerationParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECKeyGenerationParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECKeyGenerationParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECKeyGenerationParameters(ECKeyGenerationParameters const&) = delete;
+  ECKeyGenerationParameters(ECKeyGenerationParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1036 };

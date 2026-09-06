@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlReflectionImporter.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlReflectionImporter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ MARK_REF_T(::System::Xml::Serialization::XmlReflectionImporter*);
 MARK_REF_T(::System::Xml::Serialization::XmlReflectionImporter___c*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Serialization::XmlReflectionImporter*, "System.Xml.Serialization", "XmlReflectionImporter");
 DEFINE_IL2CPP_CLASS(::System::Xml::Serialization::XmlReflectionImporter___c*, "System.Xml.Serialization", "XmlReflectionImporter/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
@@ -102,13 +103,13 @@ protected:
   constexpr XmlReflectionImporter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlReflectionImporter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlReflectionImporter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlReflectionImporter___c(XmlReflectionImporter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlReflectionImporter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlReflectionImporter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlReflectionImporter___c(XmlReflectionImporter___c const&) = delete;
+  XmlReflectionImporter___c(XmlReflectionImporter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9518 };
@@ -301,13 +302,13 @@ protected:
   constexpr XmlReflectionImporter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlReflectionImporter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlReflectionImporter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlReflectionImporter(XmlReflectionImporter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlReflectionImporter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlReflectionImporter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlReflectionImporter(XmlReflectionImporter const&) = delete;
+  XmlReflectionImporter(XmlReflectionImporterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9519 };

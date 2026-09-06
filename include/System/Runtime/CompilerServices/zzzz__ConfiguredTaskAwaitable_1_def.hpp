@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ConfiguredTaskAwaitable_1.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ConfiguredTaskAwaitable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_GEN_VAL_T(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1);
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter);
 DEFINE_IL2CPP_GEN_CLASS(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable`1");
 DEFINE_IL2CPP_GEN_CLASS(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter");
+// [IsReadOnly]
 // Dependencies
 namespace System::Runtime::CompilerServices {
 // cpp template
@@ -49,6 +50,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
+  /// [StackTraceHidden]
   /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TResult GetResult();
 
@@ -74,8 +76,8 @@ public:
   // @brief default ctor
   constexpr ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter();
 
-  // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task_1<TResult>*", modifiers: "", def_value: None }, CppParam { name: "m_continueOnCapturedContext", ty: "bool",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task_1<TResult>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_continueOnCapturedContext",
+  // ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter(::System::Threading::Tasks::Task_1<TResult>* m_task, bool m_continueOnCapturedContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -94,6 +96,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
+// [IsReadOnly]
 // Dependencies System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace System::Runtime::CompilerServices {
 // cpp template
@@ -115,7 +118,8 @@ public:
   // @brief default ctor
   constexpr ConfiguredTaskAwaitable_1();
 
-  // Ctor Parameters [CppParam { name: "m_configuredTaskAwaiter", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_configuredTaskAwaiter", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ConfiguredTaskAwaitable_1(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

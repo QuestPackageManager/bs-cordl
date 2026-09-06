@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\PointerEventData.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/PointerEventData.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_impl.hpp"
 #include "UnityEngine/zzzz__PenStatus_impl.hpp"
@@ -15,7 +15,7 @@
 #include "UnityEngine/zzzz__PenStatus_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton::PointerEventData_InputButton(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -24,7 +24,7 @@ constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton::PointerEven
 constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton UnityEngine::EventSystems::PointerEventData_InputButton::Left{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton UnityEngine::EventSystems::PointerEventData_InputButton::Right{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton UnityEngine::EventSystems::PointerEventData_InputButton::Middle{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::EventSystems::PointerEventData_FramePressState::PointerEventData_FramePressState(int32_t value__) noexcept {
   this->value__ = value__;
 }

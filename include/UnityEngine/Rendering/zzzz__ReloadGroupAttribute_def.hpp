@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ReloadGroupAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ReloadGroupAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ReloadGroupAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ReloadGroupAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ReloadGroupAttribute*, "UnityEngine.Rendering", "ReloadGroupAttribute");
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr ReloadGroupAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReloadGroupAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReloadGroupAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReloadGroupAttribute(ReloadGroupAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReloadGroupAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReloadGroupAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReloadGroupAttribute(ReloadGroupAttribute const&) = delete;
+  ReloadGroupAttribute(ReloadGroupAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11938 };

@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataStats.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataStats.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Range_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataStats_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataStats_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapDataStats_Objects::BeatmapDataStats_Objects(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -15,7 +15,7 @@ constexpr ::GlobalNamespace::BeatmapDataStats_Objects::BeatmapDataStats_Objects(
 constexpr ::GlobalNamespace::BeatmapDataStats_Objects GlobalNamespace::BeatmapDataStats_Objects::Notes{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::BeatmapDataStats_Objects GlobalNamespace::BeatmapDataStats_Objects::Sliders{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::BeatmapDataStats_Objects GlobalNamespace::BeatmapDataStats_Objects::Obstacles{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapDataStats_Events::BeatmapDataStats_Events(int32_t value__) noexcept {
   this->value__ = value__;
 }

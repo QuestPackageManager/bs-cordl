@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\MethodBase.hpp"
+// IWYU pragma private; include "System/Reflection/MethodBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,13 +100,13 @@ public:
   /// @brief Method GetMethodFromHandle, addr 0x5b7fd9c, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodBase* GetMethodFromHandle(::System::RuntimeMethodHandle handle);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
 
   /// @brief Method GetParameterTypes, addr 0x5b7fc80, size 0x10c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Type*> GetParameterTypes();
 
-  /// @brief Method GetParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*> GetParameters();
 
   /// @brief Method GetParametersCount, addr 0x5b7f8ec, size 0x28, virtual true, abstract: false, final false
@@ -118,10 +118,12 @@ public:
   /// @brief Method GetParametersNoCopy, addr 0x5b7fd8c, size 0x10, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*> GetParametersNoCopy();
 
-  /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
 
+  /// [DebuggerStepThrough]
+  /// [DebuggerHidden]
   /// @brief Method Invoke, addr 0x5b7f82c, size 0x20, virtual true, abstract: false, final true
   inline ::System::Object* Invoke(::System::Object* obj, ::ArrayW<::System::Object*> parameters);
 
@@ -130,7 +132,7 @@ public:
   /// @brief Method .ctor, addr 0x5b7d9bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Attributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodAttributes get_Attributes();
 
   /// @brief Method get_CallingConvention, addr 0x5b7f620, size 0x8, virtual true, abstract: false, final false
@@ -172,7 +174,7 @@ public:
   /// @brief Method get_IsVirtual, addr 0x5b7f730, size 0x20, virtual true, abstract: false, final true
   inline bool get_IsVirtual();
 
-  /// @brief Method get_MethodHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_MethodHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::RuntimeMethodHandle get_MethodHandle();
 
   /// @brief Method op_Equality, addr 0x5b7f3ec, size 0x1b4, virtual false, abstract: false, final false
@@ -187,13 +189,13 @@ protected:
   constexpr MethodBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MethodBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodBase(MethodBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MethodBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MethodBase(MethodBase const&) = delete;
+  MethodBase(MethodBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3501 };

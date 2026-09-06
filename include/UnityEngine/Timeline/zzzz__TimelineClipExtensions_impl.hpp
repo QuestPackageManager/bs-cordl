@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineClipExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineClipExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClipExtensions_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"

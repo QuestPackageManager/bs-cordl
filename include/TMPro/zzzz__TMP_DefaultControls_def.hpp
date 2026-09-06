@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_DefaultControls.hpp"
+// IWYU pragma private; include "TMPro/TMP_DefaultControls.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -52,10 +53,11 @@ public:
   // @brief default ctor
   constexpr TMP_DefaultControls_Resources();
 
-  // Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "background", ty: "::UnityW<::UnityEngine::Sprite>",
-  // modifiers: "", def_value: None }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "knob", ty:
-  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name:
-  // "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "background", ty:
+  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "knob", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "mask", ty:
+  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_DefaultControls_Resources(::UnityW<::UnityEngine::Sprite> standard, ::UnityW<::UnityEngine::Sprite> background, ::UnityW<::UnityEngine::Sprite> inputField,
                                           ::UnityW<::UnityEngine::Sprite> knob, ::UnityW<::UnityEngine::Sprite> checkmark, ::UnityW<::UnityEngine::Sprite> dropdown,
                                           ::UnityW<::UnityEngine::Sprite> mask) noexcept;
@@ -107,7 +109,7 @@ static_assert(offsetof(::TMPro::TMP_DefaultControls_Resources, mask) == 0x30, "O
 static_assert(sizeof(::TMPro::TMP_DefaultControls_Resources) == 0x38, "Size mismatch!");
 
 } // namespace TMPro
-// Dependencies System.Object, UnityEngine.Color, UnityEngine.Vector2
+// Dependencies System.Object, UnityEngine.Color, UnityEngine.Component, UnityEngine.Vector2
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.TMP_DefaultControls
@@ -132,7 +134,9 @@ public:
   __declspec(property(get = getStaticF_s_ThinElementSize, put = setStaticF_s_ThinElementSize)) ::UnityEngine::Vector2 s_ThinElementSize;
 
   /// @brief Method AddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T AddComponent(::UnityEngine::GameObject* go);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  static inline T AddComponent(::UnityEngine::GameObject* go);
 
   /// @brief Method CreateButton, addr 0x694b41c, size 0x328, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateButton(::TMPro::TMP_DefaultControls_Resources resources);
@@ -193,13 +197,13 @@ protected:
   constexpr TMP_DefaultControls();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_DefaultControls", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_DefaultControls", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_DefaultControls(TMP_DefaultControls&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_DefaultControls", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_DefaultControls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_DefaultControls(TMP_DefaultControls const&) = delete;
+  TMP_DefaultControls(TMP_DefaultControlsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15902 };

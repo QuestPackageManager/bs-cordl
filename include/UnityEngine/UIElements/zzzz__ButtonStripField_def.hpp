@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ButtonStripField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ButtonStripField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ MARK_REF_T(::UnityEngine::UIElements::ButtonStripField_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ButtonStripField*, "UnityEngine.UIElements", "ButtonStripField");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ButtonStripField_UxmlFactory*, "UnityEngine.UIElements", "ButtonStripField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ButtonStripField_UxmlTraits*, "UnityEngine.UIElements", "ButtonStripField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -54,13 +55,13 @@ protected:
   constexpr ButtonStripField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonStripField_UxmlFactory(ButtonStripField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonStripField_UxmlFactory(ButtonStripField_UxmlFactory const&) = delete;
+  ButtonStripField_UxmlFactory(ButtonStripField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4146 };
@@ -71,6 +72,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::ButtonStripField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -89,13 +91,13 @@ protected:
   constexpr ButtonStripField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonStripField_UxmlTraits(ButtonStripField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonStripField_UxmlTraits(ButtonStripField_UxmlTraits const&) = delete;
+  ButtonStripField_UxmlTraits(ButtonStripField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4147 };
@@ -143,13 +145,13 @@ protected:
   constexpr ButtonStripField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonStripField(ButtonStripField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonStripField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonStripField(ButtonStripField const&) = delete;
+  ButtonStripField(ButtonStripFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4148 };

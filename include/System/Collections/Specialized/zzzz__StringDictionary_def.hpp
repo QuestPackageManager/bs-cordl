@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Specialized\StringDictionary.hpp"
+// IWYU pragma private; include "System/Collections/Specialized/StringDictionary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class StringDictionary;
 // Write type traits
 MARK_REF_T(::System::Collections::Specialized::StringDictionary*);
 DEFINE_IL2CPP_CLASS(::System::Collections::Specialized::StringDictionary*, "System.Collections.Specialized", "StringDictionary");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Collections::Specialized {
 // Is value type: false
@@ -61,13 +62,13 @@ protected:
   constexpr StringDictionary();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringDictionary", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringDictionary", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringDictionary(StringDictionary&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringDictionary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringDictionary(StringDictionary const&) = delete;
+  StringDictionary(StringDictionaryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11374 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\HapticControl.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/HapticControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class HapticControl;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::OpenXR::Input::HapticControl*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Input::HapticControl*, "UnityEngine.XR.OpenXR.Input", "HapticControl");
+// [Preserve]
 // Dependencies UnityEngine.InputSystem.InputControl`1<TValue>, UnityEngine.XR.OpenXR.Input.Haptic
 namespace UnityEngine::XR::OpenXR::Input {
 // Is value type: false
@@ -37,13 +38,13 @@ protected:
   constexpr HapticControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HapticControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HapticControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HapticControl(HapticControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HapticControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HapticControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HapticControl(HapticControl const&) = delete;
+  HapticControl(HapticControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18541 };

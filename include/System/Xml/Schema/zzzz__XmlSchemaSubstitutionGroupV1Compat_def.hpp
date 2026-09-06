@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSubstitutionGroupV1Compat.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSubstitutionGroupV1Compat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaSubstitutionGroupV1Compat : public ::System::Xml::Schema::XmlSchemaSubstitutionGroup {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Choice)) ::System::Xml::Schema::XmlSchemaChoice* Choice;
 
   /// @brief Field choice, offset 0x48, size 0x8
@@ -47,13 +48,13 @@ protected:
   constexpr XmlSchemaSubstitutionGroupV1Compat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSubstitutionGroupV1Compat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSubstitutionGroupV1Compat", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaSubstitutionGroupV1Compat(XmlSchemaSubstitutionGroupV1Compat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSubstitutionGroupV1Compat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSubstitutionGroupV1Compat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaSubstitutionGroupV1Compat(XmlSchemaSubstitutionGroupV1Compat const&) = delete;
+  XmlSchemaSubstitutionGroupV1Compat(XmlSchemaSubstitutionGroupV1Compatconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9820 };

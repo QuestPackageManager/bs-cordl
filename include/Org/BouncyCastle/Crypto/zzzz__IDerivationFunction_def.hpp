@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\IDerivationFunction.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IDerivationFunction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,18 +28,18 @@ public:
   // Declarations
   __declspec(property(get = get_Digest)) ::Org::BouncyCastle::Crypto::IDigest* Digest;
 
-  /// @brief Method GenerateBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t> output, int32_t outOff, int32_t length);
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method get_Digest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDerivationFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDerivationFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDerivationFunction(IDerivationFunction const&) = delete;
+  IDerivationFunction(IDerivationFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 721 };

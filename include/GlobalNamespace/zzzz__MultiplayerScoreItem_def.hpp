@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerScoreItem.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerScoreItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,9 +77,11 @@ public:
   /// @brief Method SetScore, addr 0x59d70a0, size 0x20, virtual false, abstract: false, final false
   inline void SetScore(::StringW text);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__5_0, addr 0x59e50a4, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__5_0(::UnityEngine::Color val);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__5_1, addr 0x59e50c4, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__5_1(::UnityEngine::Color val);
 
@@ -122,23 +124,26 @@ protected:
   constexpr MultiplayerScoreItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreItem(MultiplayerScoreItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreItem(MultiplayerScoreItem const&) = delete;
+  MultiplayerScoreItem(MultiplayerScoreItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6182 };
 
+  /// [SerializeField]
   /// @brief Field _scoreText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
+  /// [SerializeField]
   /// @brief Field _nameText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

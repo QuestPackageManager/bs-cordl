@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Universal2DResourceData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Universal2DResourceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,13 +152,13 @@ protected:
   constexpr Universal2DResourceData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Universal2DResourceData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Universal2DResourceData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Universal2DResourceData(Universal2DResourceData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Universal2DResourceData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Universal2DResourceData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Universal2DResourceData(Universal2DResourceData const&) = delete;
+  Universal2DResourceData(Universal2DResourceDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12753 };

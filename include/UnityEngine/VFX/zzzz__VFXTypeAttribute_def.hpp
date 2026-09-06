@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXTypeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ MARK_VAL_T(::UnityEngine::VFX::VFXTypeAttribute_Usage);
 MARK_REF_T(::UnityEngine::VFX::VFXTypeAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXTypeAttribute_Usage, "UnityEngine.VFX", "VFXTypeAttribute/Usage");
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXTypeAttribute*, "UnityEngine.VFX", "VFXTypeAttribute");
+// [Flags]
 // Dependencies
 namespace UnityEngine::VFX {
 // Is value type: true
@@ -53,7 +54,7 @@ public:
   // @brief default ctor
   constexpr VFXTypeAttribute_Usage();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VFXTypeAttribute_Usage(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(1)
@@ -82,6 +83,7 @@ static_assert(offsetof(::UnityEngine::VFX::VFXTypeAttribute_Usage, value__) == 0
 static_assert(sizeof(::UnityEngine::VFX::VFXTypeAttribute_Usage) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::VFX
+// [AttributeUsage((System.AttributeTargets)8, AllowMultiple = false)]
 // Dependencies System.Attribute, UnityEngine.VFX.VFXTypeAttribute::Usage
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -118,15 +120,19 @@ public:
   /// @brief Method .ctor, addr 0x69d2234, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::VFX::VFXTypeAttribute_Usage usages, ::StringW name);
 
+  /// [CompilerGenerated]
   /// @brief Method get_name, addr 0x69d2250, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
+  /// [CompilerGenerated]
   /// @brief Method get_usages, addr 0x69d2240, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXTypeAttribute_Usage get_usages();
 
+  /// [CompilerGenerated]
   /// @brief Method set_name, addr 0x69d2258, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_usages, addr 0x69d2248, size 0x8, virtual false, abstract: false, final false
   inline void set_usages(::UnityEngine::VFX::VFXTypeAttribute_Usage value);
 
@@ -136,20 +142,22 @@ protected:
   constexpr VFXTypeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTypeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTypeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXTypeAttribute(VFXTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTypeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTypeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTypeAttribute(VFXTypeAttribute const&) = delete;
+  VFXTypeAttribute(VFXTypeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19929 };
 
+  /// [CompilerGenerated]
   /// @brief Field <usages>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::VFX::VFXTypeAttribute_Usage ____usages_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
 

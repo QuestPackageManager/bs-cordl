@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JsonUtility.hpp"
+// IWYU pragma private; include "UnityEngine/JsonUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class JsonUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::JsonUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::JsonUtility*, "UnityEngine", "JsonUtility");
+// [NativeHeader("Modules/JSONSerialize/Public/JsonUtility.bindings.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -35,6 +36,8 @@ public:
   /// @brief Method FromJson, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FromJson(::StringW json);
 
+  /// [FreeFunction("FromJsonInternal", true, ThrowsException = true)]
+  /// [ThreadSafe]
   /// @brief Method FromJsonInternal, addr 0x6b64184, size 0x144, virtual false, abstract: false, final false
   static inline ::System::Object* FromJsonInternal(::StringW json, ::System::Object* objectToOverwrite, ::System::Type* type);
 
@@ -50,8 +53,10 @@ public:
   /// @brief Method ToJson, addr 0x6b64324, size 0x16c, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj, bool prettyPrint);
 
+  /// [FreeFunction("ToJsonInternal", true)]
+  /// [ThreadSafe]
   /// @brief Method ToJsonInternal, addr 0x6b63ffc, size 0x134, virtual false, abstract: false, final false
-  static inline ::StringW ToJsonInternal(::System::Object* obj, bool prettyPrint);
+  static inline ::StringW ToJsonInternal(/* [NotNull] */ ::System::Object* obj, bool prettyPrint);
 
   /// @brief Method ToJsonInternal_Injected, addr 0x6b64130, size 0x54, virtual false, abstract: false, final false
   static inline void ToJsonInternal_Injected(::System::Object* obj, bool prettyPrint, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
@@ -62,13 +67,13 @@ protected:
   constexpr JsonUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonUtility(JsonUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonUtility(JsonUtility const&) = delete;
+  JsonUtility(JsonUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23307 };

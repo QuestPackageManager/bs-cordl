@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyFlattenedNode.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyFlattenedNode.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNodeType_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNode_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyFlattenedNode_def.hpp"
@@ -160,7 +160,8 @@ inline int32_t Unity::Hierarchy::HierarchyFlattenedNode::get_ChildrenCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { "get_ChildrenCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline bool Unity::Hierarchy::HierarchyFlattenedNode::op_Equality(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> lhs, ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> rhs) {
+inline bool Unity::Hierarchy::HierarchyFlattenedNode::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> lhs,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> rhs) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(),
@@ -184,7 +185,8 @@ inline int32_t Unity::Hierarchy::HierarchyFlattenedNode::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline ::by_ref<::Unity::Hierarchy::HierarchyNode> Unity::Hierarchy::HierarchyFlattenedNode::GetNodeByRef(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> hierarchyFlattenedNode) {
+inline ::by_ref<::Unity::Hierarchy::HierarchyNode>
+Unity::Hierarchy::HierarchyFlattenedNode::GetNodeByRef(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> hierarchyFlattenedNode) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(),
                                                                                          { "GetNodeByRef", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::Unity::Hierarchy::HierarchyNode>>(nullptr, ___internal_method, hierarchyFlattenedNode);
@@ -197,10 +199,10 @@ constexpr Unity::Hierarchy::HierarchyFlattenedNode::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>* Unity::Hierarchy::HierarchyFlattenedNode::i___System__IEquatable_1___Unity__Hierarchy__HierarchyFlattenedNode_() {
   return static_cast<::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Node", ty: "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Type", ty: "::Unity::Hierarchy::HierarchyNodeType",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ParentOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NextSiblingOffset", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_ChildrenCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Depth", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Node", ty: "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Type", ty:
+// "::Unity::Hierarchy::HierarchyNodeType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ParentOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "m_NextSiblingOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ChildrenCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Depth", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyFlattenedNode::HierarchyFlattenedNode(::Unity::Hierarchy::HierarchyNode m_Node, ::Unity::Hierarchy::HierarchyNodeType m_Type, int32_t m_ParentOffset,
                                                                              int32_t m_NextSiblingOffset, int32_t m_ChildrenCount, int32_t m_Depth) noexcept {
   this->m_Node = m_Node;

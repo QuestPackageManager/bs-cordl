@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\ISet_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/ISet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,37 +38,37 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Add(T item);
 
-  /// @brief Method ExceptWith, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExceptWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method IntersectWith, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IntersectWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void IntersectWith(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method IsProperSubsetOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsProperSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsProperSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method IsProperSupersetOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsProperSupersetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsProperSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method IsSubsetOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method IsSupersetOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsSupersetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method Overlaps, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Overlaps, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Overlaps(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method SetEquals, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetEquals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool SetEquals(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method SymmetricExceptWith, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SymmetricExceptWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SymmetricExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method UnionWith, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnionWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnionWith(::System::Collections::Generic::IEnumerable_1<T>* other);
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
@@ -80,9 +80,9 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISet_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISet_1(ISet_1 const&) = delete;
+  ISet_1(ISet_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11431 };

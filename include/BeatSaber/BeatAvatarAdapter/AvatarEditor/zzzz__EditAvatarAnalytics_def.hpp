@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\AvatarEditor\EditAvatarAnalytics.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/AvatarEditor/EditAvatarAnalytics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,23 +112,26 @@ protected:
   constexpr EditAvatarAnalytics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EditAvatarAnalytics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditAvatarAnalytics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditAvatarAnalytics(EditAvatarAnalytics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EditAvatarAnalytics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditAvatarAnalytics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EditAvatarAnalytics(EditAvatarAnalytics const&) = delete;
+  EditAvatarAnalytics(EditAvatarAnalyticsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21698 };
 
+  /// [SerializeField]
   /// @brief Field _avatarEditorFlowCoordinator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> ____avatarEditorFlowCoordinator;
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
+  /// [Inject]
   /// @brief Field _avatarDataModel, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarDataModel* ____avatarDataModel;
 

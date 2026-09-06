@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\RaycastResult.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/RaycastResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,14 @@ public:
   // @brief default ctor
   constexpr RaycastResult();
 
-  // Ctor Parameters [CppParam { name: "m_GameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "_cordl_module", ty:
-  // "::UnityW<::UnityEngine::EventSystems::BaseRaycaster>", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "index",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sortingGroupID", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "sortingGroupOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sortingLayer", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "sortingOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam {
-  // name: "worldNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "screenPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam {
-  // name: "displayIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_GameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cordl_module", ty:
+  // "::UnityW<::UnityEngine::EventSystems::BaseRaycaster>", modifiers: "", def_value: None, comment: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "index", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "sortingGroupID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sortingGroupOrder", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "sortingLayer", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sortingOrder", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldNormal", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "screenPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "displayIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr RaycastResult(::UnityW<::UnityEngine::GameObject> m_GameObject, ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> _cordl_module, float_t distance, float_t index, int32_t depth,
                           int32_t sortingGroupID, int32_t sortingGroupOrder, int32_t sortingLayer, int32_t sortingOrder, ::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldNormal,
                           ::UnityEngine::Vector2 screenPosition, int32_t displayIndex) noexcept;

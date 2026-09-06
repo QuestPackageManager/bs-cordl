@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IRefractorDebuggerSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/IRefractorDebuggerSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +21,15 @@ public:
   // Declarations
   __declspec(property(get = get_addMissingLightActions)) bool addMissingLightActions;
 
-  /// @brief Method InvokeLightRetargetEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InvokeLightRetargetEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InvokeLightRetargetEvent(int32_t lightId, int32_t refractId);
 
-  /// @brief Method get_addMissingLightActions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_addMissingLightActions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_addMissingLightActions();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRefractorDebuggerSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IRefractorDebuggerSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IRefractorDebuggerSettings(IRefractorDebuggerSettings const&) = delete;
+  IRefractorDebuggerSettings(IRefractorDebuggerSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15045 };

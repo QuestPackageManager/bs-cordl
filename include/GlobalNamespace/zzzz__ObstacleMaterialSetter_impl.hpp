@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleMaterialSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleMaterialSetter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleMaterialSetter_def.hpp"
 #include "BeatSaber/Settings/zzzz__QualitySettings_def.hpp"

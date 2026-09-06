@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerTaggedObjectParser.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerTaggedObjectParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerTaggedObjectParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -154,6 +154,7 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::BerTagged
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>(), { "ToAsn1Object", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*>(this, ___internal_method);
 }
+/// @brief [Obsolete]
 inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* Org::BouncyCastle::Asn1::BerTaggedObjectParser::New_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>(baseTag, tagNumber, contentStream));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AddressablesInternalBridge\Runtime\CatalogLocationData.hpp"
+// IWYU pragma private; include "AddressablesInternalBridge/Runtime/CatalogLocationData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "AddressablesInternalBridge/Runtime/zzzz__CatalogLocationData_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"

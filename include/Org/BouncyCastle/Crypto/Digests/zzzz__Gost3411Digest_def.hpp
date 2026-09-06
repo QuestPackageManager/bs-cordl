@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\Gost3411Digest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Gost3411Digest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -292,13 +292,13 @@ protected:
   constexpr Gost3411Digest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3411Digest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3411Digest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost3411Digest(Gost3411Digest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3411Digest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3411Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost3411Digest(Gost3411Digest const&) = delete;
+  Gost3411Digest(Gost3411Digestconst&) = delete;
 
   /// @brief Field DIGEST_LENGTH offset 0xffffffff size 0x4
   static constexpr int32_t DIGEST_LENGTH{ static_cast<int32_t>(0x20) };

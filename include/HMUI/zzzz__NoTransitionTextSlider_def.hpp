@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\NoTransitionTextSlider.hpp"
+// IWYU pragma private; include "HMUI/NoTransitionTextSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   // @brief default ctor
   constexpr NoTransitionTextSlider_SelectionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NoTransitionTextSlider_SelectionState(int32_t value__) noexcept;
 
   /// @brief Field Disabled value: I32(3)
@@ -129,12 +129,14 @@ public:
   /// @brief Method .ctor, addr 0x588c574, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectionStateDidChangeEvent, addr 0x588c3b4, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionTextSlider_SelectionState>* value);
 
   /// @brief Method get_selectionState, addr 0x588c3ac, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::NoTransitionTextSlider_SelectionState get_selectionState();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectionStateDidChangeEvent, addr 0x588c474, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionTextSlider_SelectionState>* value);
 
@@ -144,17 +146,18 @@ protected:
   constexpr NoTransitionTextSlider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionTextSlider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionTextSlider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoTransitionTextSlider(NoTransitionTextSlider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionTextSlider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionTextSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoTransitionTextSlider(NoTransitionTextSlider const&) = delete;
+  NoTransitionTextSlider(NoTransitionTextSliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19121 };
 
+  /// [CompilerGenerated]
   /// @brief Field selectionStateDidChangeEvent, offset: 0x148, size: 0x8, def value: None
   ::System::Action_1<::HMUI::NoTransitionTextSlider_SelectionState>* ___selectionStateDidChangeEvent;
 

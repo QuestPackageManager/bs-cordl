@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpMinIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpMinIntParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class NoInterpMinIntParameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::NoInterpMinIntParameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::NoInterpMinIntParameter*, "UnityEngine.Rendering", "NoInterpMinIntParameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.VolumeParameter`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -48,13 +49,13 @@ protected:
   constexpr NoInterpMinIntParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpMinIntParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoInterpMinIntParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoInterpMinIntParameter(NoInterpMinIntParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpMinIntParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoInterpMinIntParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoInterpMinIntParameter(NoInterpMinIntParameter const&) = delete;
+  NoInterpMinIntParameter(NoInterpMinIntParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12340 };

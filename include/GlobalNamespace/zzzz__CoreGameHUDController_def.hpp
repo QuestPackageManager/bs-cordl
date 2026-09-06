@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CoreGameHUDController.hpp"
+// IWYU pragma private; include "GlobalNamespace/CoreGameHUDController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,13 +73,13 @@ protected:
   constexpr CoreGameHUDController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreGameHUDController_InitData(CoreGameHUDController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreGameHUDController_InitData(CoreGameHUDController_InitData const&) = delete;
+  CoreGameHUDController_InitData(CoreGameHUDController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6006 };
@@ -105,6 +105,7 @@ static_assert(offsetof(::GlobalNamespace::CoreGameHUDController_InitData, ___adv
 static_assert(sizeof(::GlobalNamespace::CoreGameHUDController_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/CoreGameHUDController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -139,6 +140,7 @@ public:
 
   __declspec(property(get = get_songProgressPanelGO)) ::UnityW<::UnityEngine::GameObject> songProgressPanelGO;
 
+  /// [Inject]
   /// @brief Method Initialize, addr 0x59ab464, size 0x90, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::CoreGameHUDController_InitData* initData);
 
@@ -198,29 +200,34 @@ protected:
   constexpr CoreGameHUDController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreGameHUDController(CoreGameHUDController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreGameHUDController(CoreGameHUDController const&) = delete;
+  CoreGameHUDController(CoreGameHUDControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6007 };
 
+  /// [SerializeField]
   /// @brief Field _songProgressPanelGO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____songProgressPanelGO;
 
+  /// [SerializeField]
   /// @brief Field _relativeScoreGO, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____relativeScoreGO;
 
+  /// [SerializeField]
   /// @brief Field _immediateRankGO, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____immediateRankGO;
 
+  /// [SerializeField]
   /// @brief Field _energyPanelGO, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____energyPanelGO;
 
+  /// [SerializeField]
   /// @brief Field _canvasGroup, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 

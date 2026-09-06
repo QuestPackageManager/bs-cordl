@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ForwardRendererData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ForwardRendererData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::ForwardRendererData*);
 MARK_REF_T(::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ForwardRendererData*, "UnityEngine.Rendering.Universal", "ForwardRendererData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderResources*, "UnityEngine.Rendering.Universal", "ForwardRendererData/ShaderResources");
+// [ReloadGroup]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -173,50 +174,65 @@ protected:
   constexpr ForwardRendererData_ShaderResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData_ShaderResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData_ShaderResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ForwardRendererData_ShaderResources(ForwardRendererData_ShaderResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData_ShaderResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData_ShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardRendererData_ShaderResources(ForwardRendererData_ShaderResources const&) = delete;
+  ForwardRendererData_ShaderResources(ForwardRendererData_ShaderResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12751 };
 
+  /// [Reload("Shaders/Utils/Blit.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field blitPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___blitPS;
 
+  /// [Reload("Shaders/Utils/CopyDepth.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field copyDepthPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___copyDepthPS;
 
+  /// [Obsolete("Obsolete, this feature will be supported by new \'ScreenSpaceShadows\' renderer feature", true)]
   /// @brief Field screenSpaceShadowPS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___screenSpaceShadowPS;
 
+  /// [Reload("Shaders/Utils/Sampling.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field samplingPS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___samplingPS;
 
+  /// [Reload("Shaders/Utils/StencilDeferred.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field stencilDeferredPS, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___stencilDeferredPS;
 
+  /// [Reload("Shaders/Utils/FallbackError.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field fallbackErrorPS, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___fallbackErrorPS;
 
+  /// [Reload("Shaders/Utils/FallbackLoading.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field fallbackLoadingPS, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___fallbackLoadingPS;
 
+  /// [Obsolete("Use fallbackErrorPS instead", true)]
+  /// [Reload("Shaders/Utils/MaterialError.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field materialErrorPS, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___materialErrorPS;
 
+  /// [Reload("Shaders/Utils/CoreBlit.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [SerializeField]
   /// @brief Field coreBlitPS, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___coreBlitPS;
 
+  /// [Reload("Shaders/Utils/CoreBlitColorAndDepth.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
+  /// [SerializeField]
   /// @brief Field coreBlitColorAndDepthPS, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___coreBlitColorAndDepthPS;
 
+  /// [Reload("Shaders/CameraMotionVectors.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field cameraMotionVector, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___cameraMotionVector;
 
+  /// [Reload("Shaders/ObjectMotionVectors.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field objectMotionVector, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___objectMotionVector;
 
@@ -250,6 +266,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ForwardRendererData_
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ForwardRendererData_ShaderResources) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [Obsolete("ForwardRendererData has been deprecated (UnityUpgradable) -> UniversalRendererData", true)]
+// [ReloadGroup]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.LayerMask, UnityEngine.Rendering.Universal.DepthPrimingMode, UnityEngine.Rendering.Universal.RenderingMode, UnityEngine.Rendering.Universal.ScriptableRendererData,
 // UnityEngine.Rendering.Universal.TileSize
 namespace UnityEngine::Rendering::Universal {
@@ -430,13 +449,13 @@ protected:
   constexpr ForwardRendererData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ForwardRendererData(ForwardRendererData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardRendererData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardRendererData(ForwardRendererData const&) = delete;
+  ForwardRendererData(ForwardRendererDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12752 };
@@ -453,30 +472,39 @@ public:
   /// @brief Field xrSystemData, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::Universal::XRSystemData> ___xrSystemData;
 
+  /// [SerializeField]
   /// @brief Field m_OpaqueLayerMask, offset: 0x60, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_OpaqueLayerMask;
 
+  /// [SerializeField]
   /// @brief Field m_TransparentLayerMask, offset: 0x64, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_TransparentLayerMask;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultStencilState, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::StencilStateData* ___m_DefaultStencilState;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowTransparentReceive, offset: 0x70, size: 0x1, def value: None
   bool ___m_ShadowTransparentReceive;
 
+  /// [SerializeField]
   /// @brief Field m_RenderingMode, offset: 0x74, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderingMode ___m_RenderingMode;
 
+  /// [SerializeField]
   /// @brief Field m_DepthPrimingMode, offset: 0x78, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DepthPrimingMode ___m_DepthPrimingMode;
 
+  /// [SerializeField]
   /// @brief Field m_AccurateGbufferNormals, offset: 0x7c, size: 0x1, def value: None
   bool ___m_AccurateGbufferNormals;
 
+  /// [SerializeField]
   /// @brief Field m_ClusteredRendering, offset: 0x7d, size: 0x1, def value: None
   bool ___m_ClusteredRendering;
 
+  /// [SerializeField]
   /// @brief Field m_TileSize, offset: 0x80, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::TileSize ___m_TileSize;
 

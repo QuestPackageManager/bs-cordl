@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Expression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Expression.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
@@ -4391,7 +4391,8 @@ System::Linq::Expressions::Expression::Block(::System::Collections::Generic::IEn
                                                            { "Block", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::BlockExpression*>(nullptr, ___internal_method, expressions);
 }
-inline ::System::Linq::Expressions::BlockExpression* System::Linq::Expressions::Expression::Block(::System::Type* type, ::ArrayW<::System::Linq::Expressions::Expression*> expressions) {
+inline ::System::Linq::Expressions::BlockExpression* System::Linq::Expressions::Expression::Block(::System::Type* type,
+                                                                                                  /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::Expression*> expressions) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(),
                                                            { "Block", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Linq::Expressions::Expression*>>() } })));
@@ -4407,7 +4408,7 @@ System::Linq::Expressions::Expression::Block(::System::Type* type, ::System::Col
 }
 inline ::System::Linq::Expressions::BlockExpression*
 System::Linq::Expressions::Expression::Block(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
-                                             ::ArrayW<::System::Linq::Expressions::Expression*> expressions) {
+                                             /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::Expression*> expressions) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(),
                                                            { "Block",
@@ -4418,7 +4419,7 @@ System::Linq::Expressions::Expression::Block(::System::Collections::Generic::IEn
 }
 inline ::System::Linq::Expressions::BlockExpression*
 System::Linq::Expressions::Expression::Block(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
-                                             ::ArrayW<::System::Linq::Expressions::Expression*> expressions) {
+                                             /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::Expression*> expressions) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(),
@@ -4656,7 +4657,7 @@ System::Linq::Expressions::Expression::MakeIndex(::System::Linq::Expressions::Ex
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::IndexExpression*>(nullptr, ___internal_method, instance, indexer, arguments);
 }
 inline ::System::Linq::Expressions::IndexExpression* System::Linq::Expressions::Expression::ArrayAccess(::System::Linq::Expressions::Expression* array,
-                                                                                                        ::ArrayW<::System::Linq::Expressions::Expression*> indexes) {
+                                                                                                        /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::Expression*> indexes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(),
@@ -4849,7 +4850,7 @@ System::Linq::Expressions::Expression::CreateLambda(::System::Type* delegateType
 }
 template <typename TDelegate>
 inline ::System::Linq::Expressions::Expression_1<TDelegate>* System::Linq::Expressions::Expression::Lambda(::System::Linq::Expressions::Expression* body,
-                                                                                                           ::ArrayW<::System::Linq::Expressions::ParameterExpression*> parameters) {
+                                                                                                           /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::ParameterExpression*> parameters) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(),
                                               { "Lambda",
@@ -4898,7 +4899,7 @@ System::Linq::Expressions::Expression::Lambda(::System::Linq::Expressions::Expre
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression_1<TDelegate>*>(nullptr, ___internal_method, body, name, tailCall, parameters);
 }
 inline ::System::Linq::Expressions::LambdaExpression* System::Linq::Expressions::Expression::Lambda(::System::Type* delegateType, ::System::Linq::Expressions::Expression* body,
-                                                                                                    ::ArrayW<::System::Linq::Expressions::ParameterExpression*> parameters) {
+                                                                                                    /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::ParameterExpression*> parameters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(), { "Lambda",
@@ -5028,7 +5029,7 @@ inline ::System::Linq::Expressions::MethodCallExpression* System::Linq::Expressi
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::MethodCallExpression*>(nullptr, ___internal_method, method, arg0, arg1, arg2, arg3, arg4);
 }
 inline ::System::Linq::Expressions::MethodCallExpression* System::Linq::Expressions::Expression::Call(::System::Reflection::MethodInfo* method,
-                                                                                                      ::ArrayW<::System::Linq::Expressions::Expression*> arguments) {
+                                                                                                      /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::Expression*> arguments) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(),
                                               { "Call", {}, { ::i2c::type_of<::System::Reflection::MethodInfo*>(), ::i2c::type_of<::ArrayW<::System::Linq::Expressions::Expression*>>() } })));
@@ -5050,7 +5051,7 @@ inline ::System::Linq::Expressions::MethodCallExpression* System::Linq::Expressi
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::MethodCallExpression*>(nullptr, ___internal_method, instance, method);
 }
 inline ::System::Linq::Expressions::MethodCallExpression* System::Linq::Expressions::Expression::Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
-                                                                                                      ::ArrayW<::System::Linq::Expressions::Expression*> arguments) {
+                                                                                                      /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::Expression*> arguments) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(),
                                                            { "Call",
@@ -5093,7 +5094,7 @@ inline ::System::Linq::Expressions::MethodCallExpression* System::Linq::Expressi
 }
 inline ::System::Linq::Expressions::MethodCallExpression* System::Linq::Expressions::Expression::Call(::System::Linq::Expressions::Expression* instance, ::StringW methodName,
                                                                                                       ::ArrayW<::System::Type*> typeArguments,
-                                                                                                      ::ArrayW<::System::Linq::Expressions::Expression*> arguments) {
+                                                                                                      /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::Expression*> arguments) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(),
                                                            { "Call",
@@ -5205,7 +5206,8 @@ inline ::System::Reflection::MethodInfo* System::Linq::Expressions::Expression::
                                                            { "ApplyTypeArgs", {}, { ::i2c::type_of<::System::Reflection::MethodInfo*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*>(nullptr, ___internal_method, m, typeArgs);
 }
-inline ::System::Linq::Expressions::NewArrayExpression* System::Linq::Expressions::Expression::NewArrayInit(::System::Type* type, ::ArrayW<::System::Linq::Expressions::Expression*> initializers) {
+inline ::System::Linq::Expressions::NewArrayExpression* System::Linq::Expressions::Expression::NewArrayInit(::System::Type* type,
+                                                                                                            /* [ParamArray] */ ::ArrayW<::System::Linq::Expressions::Expression*> initializers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Expression*>(),
                                                            { "NewArrayInit", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Linq::Expressions::Expression*>>() } })));

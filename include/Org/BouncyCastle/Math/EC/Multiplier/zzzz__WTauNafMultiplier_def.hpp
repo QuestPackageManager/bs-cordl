@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\WTauNafMultiplier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WTauNafMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,13 +87,13 @@ protected:
   constexpr WTauNafMultiplier_WTauNafCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier_WTauNafCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier_WTauNafCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WTauNafMultiplier_WTauNafCallback(WTauNafMultiplier_WTauNafCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier_WTauNafCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier_WTauNafCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WTauNafMultiplier_WTauNafCallback(WTauNafMultiplier_WTauNafCallback const&) = delete;
+  WTauNafMultiplier_WTauNafCallback(WTauNafMultiplier_WTauNafCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1547 };
@@ -151,13 +151,13 @@ protected:
   constexpr WTauNafMultiplier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WTauNafMultiplier(WTauNafMultiplier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WTauNafMultiplier(WTauNafMultiplier const&) = delete;
+  WTauNafMultiplier(WTauNafMultiplierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1548 };

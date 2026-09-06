@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HowToPlayViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/HowToPlayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
 #include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::HowToPlayViewController_HowToPlayOptions::HowToPlayViewController_HowToPlayOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }

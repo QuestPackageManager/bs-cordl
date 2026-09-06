@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeColorGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeColorGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   // @brief default ctor
   constexpr CompositeColorGroup_AssignMethod();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CompositeColorGroup_AssignMethod(int32_t value__) noexcept;
 
   /// @brief Field Incremental value: I32(1)
@@ -116,17 +116,19 @@ protected:
   constexpr CompositeColorGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeColorGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeColorGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeColorGroup(CompositeColorGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeColorGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeColorGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeColorGroup(CompositeColorGroup const&) = delete;
+  CompositeColorGroup(CompositeColorGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5819 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field _colorTargets, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> ____colorTargets;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SceneDecoratorContext.hpp"
+// IWYU pragma private; include "Zenject/SceneDecoratorContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,6 +134,7 @@ public:
 
   constexpr void __cordl_internal_set__lateScriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e756a4, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -170,26 +171,31 @@ protected:
   constexpr SceneDecoratorContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneDecoratorContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneDecoratorContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneDecoratorContext(SceneDecoratorContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneDecoratorContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneDecoratorContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneDecoratorContext(SceneDecoratorContext const&) = delete;
+  SceneDecoratorContext(SceneDecoratorContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14481 };
 
+  /// [SerializeField]
   /// @brief Field _lateInstallers, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* ____lateInstallers;
 
+  /// [SerializeField]
   /// @brief Field _lateInstallerPrefabs, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* ____lateInstallerPrefabs;
 
+  /// [SerializeField]
   /// @brief Field _lateScriptableObjectInstallers, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* ____lateScriptableObjectInstallers;
 
+  /// [FormerlySerializedAs("SceneName")]
+  /// [SerializeField]
   /// @brief Field _decoratedContractName, offset: 0x60, size: 0x8, def value: None
   ::StringW ____decoratedContractName;
 

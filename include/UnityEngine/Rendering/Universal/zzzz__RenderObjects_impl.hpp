@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderObjects.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderObjects.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderQueueType_impl.hpp"
@@ -15,7 +15,7 @@
 #include "UnityEngine/Rendering/Universal/zzzz__StencilStateData_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::RenderObjectsSettings_RenderObjects_OverrideMaterialMode::RenderObjectsSettings_RenderObjects_OverrideMaterialMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

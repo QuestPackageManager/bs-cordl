@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\MonoWebRequestHandler.hpp"
+// IWYU pragma private; include "System/Net/Http/MonoWebRequestHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,6 +121,7 @@ MARK_VAL_T(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99);
 DEFINE_IL2CPP_CLASS(::System::Net::Http::MonoWebRequestHandler*, "System.Net.Http", "MonoWebRequestHandler");
 DEFINE_IL2CPP_CLASS(::System::Net::Http::MonoWebRequestHandler___c*, "System.Net.Http", "MonoWebRequestHandler/<>c");
 DEFINE_IL2CPP_CLASS(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, "System.Net.Http", "MonoWebRequestHandler/<SendAsync>d__99");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Http {
 // Is value type: false
@@ -176,13 +177,13 @@ protected:
   constexpr MonoWebRequestHandler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoWebRequestHandler___c(MonoWebRequestHandler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoWebRequestHandler___c(MonoWebRequestHandler___c const&) = delete;
+  MonoWebRequestHandler___c(MonoWebRequestHandler___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20264 };
@@ -193,6 +194,7 @@ public:
 static_assert(sizeof(::System::Net::Http::MonoWebRequestHandler___c) == 0x10, "Size mismatch!");
 
 } // namespace System::Net::Http
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken,
 // System.Threading.CancellationTokenRegistration
@@ -208,6 +210,7 @@ public:
   /// @brief Method MoveNext, addr 0x60d8a44, size 0x1860, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x60da67c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -218,17 +221,18 @@ public:
   // @brief default ctor
   constexpr MonoWebRequestHandler__SendAsync_d__99();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::System::Net::Http::MonoWebRequestHandler*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None
-  // }, CppParam { name: "request", ty: "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: None }, CppParam { name: "_wrequest_5__2", ty: "::System::Net::HttpWebRequest*",
-  // modifiers: "", def_value: None }, CppParam { name: "_wresponse_5__3", ty: "::System::Net::HttpWebResponse*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty:
-  // "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None }, CppParam { name: "_content_5__5", ty: "::System::Net::Http::HttpContent*", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_stream_5__6", ty:
-  // "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*>", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Net::Http::MonoWebRequestHandler*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "request", ty: "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_wrequest_5__2",
+  // ty: "::System::Net::HttpWebRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_wresponse_5__3", ty: "::System::Net::HttpWebResponse*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__7__wrap3", ty: "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None, comment: None }, CppParam { name: "_content_5__5", ty:
+  // "::System::Net::Http::HttpContent*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "_stream_5__6", ty:
+  // "::System::IO::Stream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__4",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None, comment: None }]
   constexpr MonoWebRequestHandler__SendAsync_d__99(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder,
                                                    ::System::Net::Http::MonoWebRequestHandler* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                    ::System::Net::Http::HttpRequestMessage* request, ::System::Net::HttpWebRequest* _wrequest_5__2, ::System::Net::HttpWebResponse* _wresponse_5__3,
@@ -447,6 +451,7 @@ public:
 
   static inline ::System::Net::Http::MonoWebRequestHandler* New_ctor();
 
+  /// [AsyncStateMachine(typeof(System.Net.Http.MonoWebRequestHandler::<SendAsync>d__99))]
   /// @brief Method SendAsync, addr 0x60d86f8, size 0xf8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
@@ -454,6 +459,7 @@ public:
   /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout, addr 0x60d87f0, size 0x60, virtual true, abstract: false, final true
   inline void System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout(::System::TimeSpan timeout);
 
+  /// [CompilerGenerated]
   /// @brief Method <CreateWebRequest>b__96_0, addr 0x60d8850, size 0x64, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _CreateWebRequest_b__96_0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
@@ -640,13 +646,13 @@ protected:
   constexpr MonoWebRequestHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoWebRequestHandler(MonoWebRequestHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoWebRequestHandler(MonoWebRequestHandler const&) = delete;
+  MonoWebRequestHandler(MonoWebRequestHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20266 };

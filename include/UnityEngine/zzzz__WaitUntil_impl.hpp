@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\WaitUntil.hpp"
+// IWYU pragma private; include "UnityEngine/WaitUntil.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__WaitTimeoutMode_impl.hpp"
 #include "UnityEngine/zzzz__WaitUntil_def.hpp"

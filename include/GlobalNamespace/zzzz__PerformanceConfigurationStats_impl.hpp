@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceConfigurationStats.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationStats.hpp"
+#include "System/zzzz__IConvertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__BatteryStatus_impl.hpp"
 #include "UnityEngine/zzzz__NetworkReachability_impl.hpp"
@@ -42,7 +43,8 @@ inline ::StringW GlobalNamespace::PerformanceConfigurationStats_BoolStats::Creat
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats_BoolStats>(), { "CreateLogValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "on", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "on", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::GlobalNamespace::PerformanceConfigurationStats_BoolStats::PerformanceConfigurationStats_BoolStats(int32_t off, int32_t on) noexcept {
   this->off = off;
   this->on = on;
@@ -93,7 +95,8 @@ inline ::StringW GlobalNamespace::PerformanceConfigurationStats_IntStats::Create
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats_IntStats>(), { "CreateLogValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "min", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "min", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::GlobalNamespace::PerformanceConfigurationStats_IntStats::PerformanceConfigurationStats_IntStats(int32_t min, int32_t max) noexcept {
   this->min = min;
   this->max = max;
@@ -145,29 +148,38 @@ inline ::StringW GlobalNamespace::PerformanceConfigurationStats_FloatStats::Crea
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats_FloatStats>(), { "CreateLogValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::GlobalNamespace::PerformanceConfigurationStats_FloatStats::PerformanceConfigurationStats_FloatStats(float_t min, float_t max) noexcept {
   this->min = min;
   this->max = max;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceConfigurationStats_FloatStats::PerformanceConfigurationStats_FloatStats() {}
-template <typename T> inline void GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>::Update(int32_t value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+inline void GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>::Update(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>>(), { "Update", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-template <typename T> inline ::StringW GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>::CreateLogValue() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+inline ::StringW GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>::CreateLogValue() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>>(), { "CreateLogValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-template <typename T> constexpr ::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>::PerformanceConfigurationStats_EnumStats_1(int32_t flags) noexcept {
+// Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+constexpr ::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>::PerformanceConfigurationStats_EnumStats_1(int32_t flags) noexcept {
   this->flags = flags;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>::PerformanceConfigurationStats_EnumStats_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+constexpr ::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>::PerformanceConfigurationStats_EnumStats_1() {}
 //  Writing Method size for method: ::GlobalNamespace::PerformanceConfigurationStats.Update
 template <>
 
@@ -283,13 +295,17 @@ inline void GlobalNamespace::PerformanceConfigurationStats::Update() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats*>(), { "Update", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline int32_t GlobalNamespace::PerformanceConfigurationStats::ConvertEnumToFlag(T value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+inline int32_t GlobalNamespace::PerformanceConfigurationStats::ConvertEnumToFlag(T value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats*>(), { "ConvertEnumToFlag", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, value);
 }
-template <typename T> inline ::StringW GlobalNamespace::PerformanceConfigurationStats::ConvertFlagsToString(int32_t flags) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+inline ::StringW GlobalNamespace::PerformanceConfigurationStats::ConvertFlagsToString(int32_t flags) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats*>(), { "ConvertFlagsToString", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));

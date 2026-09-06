@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexMatchTimeoutException.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexMatchTimeoutException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,12 +88,15 @@ public:
   /// @brief Method .ctor, addr 0x638d758, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Input, addr 0x638dad4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Input();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MatchTimeout, addr 0x638dae4, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_MatchTimeout();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Pattern, addr 0x638dadc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
@@ -106,23 +109,26 @@ protected:
   constexpr RegexMatchTimeoutException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegexMatchTimeoutException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexMatchTimeoutException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexMatchTimeoutException(RegexMatchTimeoutException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegexMatchTimeoutException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexMatchTimeoutException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexMatchTimeoutException(RegexMatchTimeoutException const&) = delete;
+  RegexMatchTimeoutException(RegexMatchTimeoutExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11117 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Input>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::StringW ____Input_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Pattern>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::StringW ____Pattern_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MatchTimeout>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::System::TimeSpan ____MatchTimeout_k__BackingField;
 

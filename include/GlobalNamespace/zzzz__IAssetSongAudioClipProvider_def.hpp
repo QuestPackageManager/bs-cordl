@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IAssetSongAudioClipProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/IAssetSongAudioClipProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +23,12 @@ public:
   // Declarations
   __declspec(property(get = get_songAudioClip)) ::UnityW<::UnityEngine::AudioClip> songAudioClip;
 
-  /// @brief Method get_songAudioClip, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_songAudioClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_songAudioClip();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAssetSongAudioClipProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAssetSongAudioClipProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAssetSongAudioClipProvider(IAssetSongAudioClipProvider const&) = delete;
+  IAssetSongAudioClipProvider(IAssetSongAudioClipProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22841 };

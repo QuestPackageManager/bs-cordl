@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextGenerationSettings.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextGenerationSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ class TextGenerationSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Text::TextGenerationSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextGenerationSettings*, "UnityEngine.TextCore.Text", "TextGenerationSettings");
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object, UnityEngine.Color, UnityEngine.Rect, UnityEngine.TextCore.Text.FontStyles, UnityEngine.TextCore.Text.RenderedText, UnityEngine.TextCore.Text.TextAlignment,
 // UnityEngine.TextCore.Text.TextFontWeight, UnityEngine.TextCore.Text.TextInputSource, UnityEngine.TextCore.Text.TextOverflowMode, UnityEngine.TextCore.Text.TextWrappingMode,
 // UnityEngine.TextCore.Text.TextureMapping, UnityEngine.TextCore.Text.VertexSortingOrder, UnityEngine.Vector4
@@ -624,13 +625,13 @@ protected:
   constexpr TextGenerationSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextGenerationSettings(TextGenerationSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextGenerationSettings(TextGenerationSettings const&) = delete;
+  TextGenerationSettings(TextGenerationSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17251 };

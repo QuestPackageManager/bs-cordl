@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\NeutralRangeReductionModeParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/NeutralRangeReductionModeParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__NeutralRangeReductionMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__NeutralRangeReductionModeParameter_def.hpp"

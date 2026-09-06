@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\DataPlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/DataPlayableOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,13 @@ struct DataPlayableOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Playables::DataPlayableOutput);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::DataPlayableOutput, "UnityEngine.Playables", "DataPlayableOutput");
+// [NativeHeader("Runtime/Director/Core/HPlayableOutput.h")]
+// [RequiredByNativeCode]
+// [NativeHeader("Modules/Director/ScriptBindings/DataPlayableOutput.bindings.h")]
+// [NativeHeader("Modules/Director/ScriptBindings/DataPlayableOutputExtensions.bindings.h")]
+// [NativeHeader("Modules/Director/DataPlayableOutput.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayableGraph.h")]
+// [StaticAccessor("DataPlayableOutputBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies UnityEngine.Playables.PlayableOutputHandle
 namespace UnityEngine::Playables {
 // Is value type: true
@@ -35,6 +42,7 @@ public:
   /// @brief Method GetHandle, addr 0x6b32c18, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
+  /// [RequiredByNativeCode]
   /// @brief Method Internal_CallOnPlayerChanged, addr 0x6b32c24, size 0x184, virtual false, abstract: false, final false
   static inline void Internal_CallOnPlayerChanged(::UnityEngine::Playables::PlayableOutputHandle handle, ::System::Object* previousPlayer, ::System::Object* currentPlayer);
 
@@ -48,7 +56,7 @@ public:
   // @brief default ctor
   constexpr DataPlayableOutput();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None, comment: None }]
   constexpr DataPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

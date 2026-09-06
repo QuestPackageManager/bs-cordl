@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\Assert.hpp"
+// IWYU pragma private; include "ModestTree/Assert.hpp"
+#include "System/zzzz__Exception_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__Assert_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -599,7 +600,9 @@ inline void ModestTree::_cordl_Assert::Throws(::System::Action* action) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::_cordl_Assert*>(), { "Throws", {}, { ::i2c::type_of<::System::Action*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, action);
 }
-template <typename TException> inline void ModestTree::_cordl_Assert::Throws(::System::Action* action) {
+template <typename TException>
+  requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
+inline void ModestTree::_cordl_Assert::Throws(::System::Action* action) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::_cordl_Assert*>(), { "Throws", { ::i2c::class_of<TException>() }, { ::i2c::type_of<::System::Action*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TException>() })));
@@ -613,13 +616,13 @@ inline ::Zenject::ZenjectException* ModestTree::_cordl_Assert::CreateException(:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::_cordl_Assert*>(), { "CreateException", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ZenjectException*>(nullptr, ___internal_method, message);
 }
-inline ::Zenject::ZenjectException* ModestTree::_cordl_Assert::CreateException(::StringW message, ::ArrayW<::System::Object*> parameters) {
+inline ::Zenject::ZenjectException* ModestTree::_cordl_Assert::CreateException(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> parameters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::ModestTree::_cordl_Assert*>(), { "CreateException", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ZenjectException*>(nullptr, ___internal_method, message, parameters);
 }
-inline ::Zenject::ZenjectException* ModestTree::_cordl_Assert::CreateException(::System::Exception* innerException, ::StringW message, ::ArrayW<::System::Object*> parameters) {
+inline ::Zenject::ZenjectException* ModestTree::_cordl_Assert::CreateException(::System::Exception* innerException, ::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> parameters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::_cordl_Assert*>(),
                                               { "CreateException", {}, { ::i2c::type_of<::System::Exception*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));

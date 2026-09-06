@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolableMemoryPool_8.hpp"
+// IWYU pragma private; include "Zenject/PoolableMemoryPool_8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Zenject/zzzz__IPoolable_7_def.hpp"
 #include "Zenject/zzzz__MemoryPool_8_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPool_8)
@@ -14,15 +15,18 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue> class PoolableMemoryPool_8;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>*>)
+class PoolableMemoryPool_8;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableMemoryPool_8);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableMemoryPool_8, "Zenject", "PoolableMemoryPool`8");
-// Dependencies Zenject.MemoryPool`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>
+// Dependencies Zenject.IPoolable`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>, Zenject.MemoryPool`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>*>)
 // Is value type: false
 // CS Name: Zenject.PoolableMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>
 class CORDL_TYPE PoolableMemoryPool_8 : public ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue> {
@@ -39,6 +43,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -51,13 +56,13 @@ protected:
   constexpr PoolableMemoryPool_8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPool_8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPool_8", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolableMemoryPool_8(PoolableMemoryPool_8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPool_8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPool_8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableMemoryPool_8(PoolableMemoryPool_8 const&) = delete;
+  PoolableMemoryPool_8(PoolableMemoryPool_8const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14426 };

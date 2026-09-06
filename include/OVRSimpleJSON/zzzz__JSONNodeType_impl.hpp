@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OVRSimpleJSON\JSONNodeType.hpp"
+// IWYU pragma private; include "OVRSimpleJSON/JSONNodeType.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVRSimpleJSON::JSONNodeType::JSONNodeType(int32_t value__) noexcept {
   this->value__ = value__;
 }

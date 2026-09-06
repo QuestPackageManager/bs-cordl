@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PauseController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PauseController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +104,7 @@ public:
   // @brief default ctor
   constexpr PauseController_PauseState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PauseController_PauseState(int32_t value__) noexcept;
 
   /// @brief Field Paused value: I32(0)
@@ -160,13 +160,13 @@ protected:
   constexpr PauseController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PauseController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PauseController_InitData(PauseController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PauseController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseController_InitData(PauseController_InitData const&) = delete;
+  PauseController_InitData(PauseController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6033 };
@@ -182,6 +182,7 @@ static_assert(offsetof(::GlobalNamespace::PauseController_InitData, ___startPaus
 static_assert(sizeof(::GlobalNamespace::PauseController_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -212,13 +213,13 @@ protected:
   constexpr PauseController___c__DisplayClass30_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PauseController___c__DisplayClass30_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseController___c__DisplayClass30_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PauseController___c__DisplayClass30_0(PauseController___c__DisplayClass30_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PauseController___c__DisplayClass30_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseController___c__DisplayClass30_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseController___c__DisplayClass30_0(PauseController___c__DisplayClass30_0 const&) = delete;
+  PauseController___c__DisplayClass30_0(PauseController___c__DisplayClass30_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6034 };
@@ -234,6 +235,7 @@ static_assert(offsetof(::GlobalNamespace::PauseController___c__DisplayClass30_0,
 static_assert(sizeof(::GlobalNamespace::PauseController___c__DisplayClass30_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/PauseController")]
 // Dependencies BGLib.DotnetExtension.CommandLine.CommandLineParserResult, PauseController::PauseState, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -472,18 +474,23 @@ public:
   /// @brief Method .ctor, addr 0x59b520c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_canPauseEvent, addr 0x59b31d8, size 0xc0, virtual false, abstract: false, final false
   inline void add_canPauseEvent(::System::Action_1<::System::Action_1<bool>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPauseEvent, addr 0x59b2dd0, size 0xac, virtual false, abstract: false, final false
   inline void add_didPauseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didResumeEvent, addr 0x59b3080, size 0xac, virtual false, abstract: false, final false
   inline void add_didResumeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didReturnToMenuEvent, addr 0x59b3358, size 0xac, virtual false, abstract: false, final false
   inline void add_didReturnToMenuEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didStartToResumeEvent, addr 0x59b2f28, size 0xac, virtual false, abstract: false, final false
   inline void add_didStartToResumeEvent(::System::Action* value);
 
@@ -496,18 +503,23 @@ public:
   /// @brief Method get_wantsToPause, addr 0x59b34b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsToPause();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_canPauseEvent, addr 0x59b3298, size 0xc0, virtual false, abstract: false, final false
   inline void remove_canPauseEvent(::System::Action_1<::System::Action_1<bool>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPauseEvent, addr 0x59b2e7c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPauseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didResumeEvent, addr 0x59b312c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didResumeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didReturnToMenuEvent, addr 0x59b3404, size 0xac, virtual false, abstract: false, final false
   inline void remove_didReturnToMenuEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didStartToResumeEvent, addr 0x59b2fd4, size 0xac, virtual false, abstract: false, final false
   inline void remove_didStartToResumeEvent(::System::Action* value);
 
@@ -517,13 +529,13 @@ protected:
   constexpr PauseController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PauseController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PauseController(PauseController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PauseController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseController(PauseController const&) = delete;
+  PauseController(PauseControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6035 };
@@ -531,48 +543,63 @@ public:
   /// @brief Field kChangeStateDelay offset 0xffffffff size 0x4
   static constexpr float_t kChangeStateDelay{ static_cast<float_t>(0.05f) };
 
+  /// [Inject]
   /// @brief Field _pauseMenuManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PauseMenuManager> ____pauseMenuManager;
 
+  /// [Inject]
   /// @brief Field _gamePause, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
+  /// [Inject]
   /// @brief Field _menuButtonTrigger, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IMenuButtonTrigger* ____menuButtonTrigger;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _levelRestartController, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ILevelRestartController* ____levelRestartController;
 
+  /// [Inject]
   /// @brief Field _returnToMenuController, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IReturnToMenuController* ____returnToMenuController;
 
+  /// [Inject]
   /// @brief Field _xrSystemState, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
+  /// [Inject]
   /// @brief Field _levelStartController, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::ILevelStartController* ____levelStartController;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::PauseController_InitData* ____initData;
 
+  /// [InjectOptional]
   /// @brief Field _commandLineParserResult, offset: 0x68, size: 0x18, def value: None
   ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ____commandLineParserResult;
 
+  /// [CompilerGenerated]
   /// @brief Field didPauseEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ___didPauseEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didStartToResumeEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action* ___didStartToResumeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didResumeEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ___didResumeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field canPauseEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::System::Action_1<bool>*>* ___canPauseEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didReturnToMenuEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action* ___didReturnToMenuEvent;
 

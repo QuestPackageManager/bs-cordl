@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaExternal.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaExternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,16 +35,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaExternal : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_BaseUri, put = set_BaseUri)) ::System::Uri* BaseUri;
 
   __declspec(property(get = get_Compositor, put = set_Compositor)) ::System::Xml::Schema::Compositor Compositor;
 
+  /// @brief [XmlAttribute("id", DataType = "ID")]
   __declspec(property(get = get_Id, put = set_Id)) ::StringW Id;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IdAttribute, put = set_IdAttribute)) ::StringW IdAttribute;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Schema, put = set_Schema)) ::System::Xml::Schema::XmlSchema* Schema;
 
+  /// @brief [XmlAttribute("schemaLocation", DataType = "anyURI")]
   __declspec(property(get = get_SchemaLocation, put = set_SchemaLocation)) ::StringW SchemaLocation;
 
   /// @brief Field baseUri, offset 0x40, size 0x8
@@ -151,13 +156,13 @@ protected:
   constexpr XmlSchemaExternal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaExternal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaExternal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaExternal(XmlSchemaExternal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaExternal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaExternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaExternal(XmlSchemaExternal const&) = delete;
+  XmlSchemaExternal(XmlSchemaExternalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9767 };

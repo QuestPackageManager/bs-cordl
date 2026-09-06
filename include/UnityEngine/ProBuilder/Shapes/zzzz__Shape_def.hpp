@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Shape.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Shape.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,12 +31,12 @@ namespace UnityEngine::ProBuilder::Shapes {
 class CORDL_TYPE Shape : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CopyShape, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Shape* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   /// @brief Method UpdateBounds, addr 0x6708bac, size 0x4c, virtual true, abstract: false, final false
@@ -51,13 +51,13 @@ protected:
   constexpr Shape();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Shape", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Shape", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Shape(Shape&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Shape", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Shape", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Shape(Shape const&) = delete;
+  Shape(Shapeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16844 };

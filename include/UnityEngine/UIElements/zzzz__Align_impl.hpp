@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Align.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Align.hpp"
 #include "UnityEngine/UIElements/zzzz__Align_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Align::Align(int32_t value__) noexcept {
   this->value__ = value__;
 }

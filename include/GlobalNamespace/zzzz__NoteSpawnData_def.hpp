@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteSpawnData.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteSpawnData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct NoteSpawnData;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::NoteSpawnData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteSpawnData, "", "NoteSpawnData");
+// [IsReadOnly]
 // Dependencies UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
@@ -31,9 +32,9 @@ public:
   // @brief default ctor
   constexpr NoteSpawnData();
 
-  // Ctor Parameters [CppParam { name: "moveStartOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "moveEndOffset", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "jumpEndOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "gravityBase", ty: "float_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "moveStartOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "moveEndOffset", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "jumpEndOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "gravityBase",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr NoteSpawnData(::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset, ::UnityEngine::Vector3 jumpEndOffset, float_t gravityBase) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

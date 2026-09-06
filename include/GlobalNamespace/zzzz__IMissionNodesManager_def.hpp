@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IMissionNodesManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/IMissionNodesManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,15 +28,15 @@ public:
 
   __declspec(property(get = get_finalMissionNode)) ::GlobalNamespace::IMissionNode* finalMissionNode;
 
-  /// @brief Method get_allMissionNodes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_allMissionNodes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::IMissionNode*>* get_allMissionNodes();
 
-  /// @brief Method get_finalMissionNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_finalMissionNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IMissionNode* get_finalMissionNode();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMissionNodesManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMissionNodesManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMissionNodesManager(IMissionNodesManager const&) = delete;
+  IMissionNodesManager(IMissionNodesManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15258 };

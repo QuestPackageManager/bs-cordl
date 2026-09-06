@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ParticleSystemStopBehavior.hpp"
+// IWYU pragma private; include "UnityEngine/ParticleSystemStopBehavior.hpp"
 #include "UnityEngine/zzzz__ParticleSystemStopBehavior_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystemStopBehavior::ParticleSystemStopBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }

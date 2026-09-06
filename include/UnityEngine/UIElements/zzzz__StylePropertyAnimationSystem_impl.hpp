@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StylePropertyAnimationSystem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StylePropertyAnimationSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPosition_impl.hpp"
@@ -43,7 +43,7 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_TransitionState::StylePropertyAnimationSystem_TransitionState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -137,10 +137,11 @@ inline void UnityEngine::UIElements::StylePropertyAnimationSystem_AnimationDataS
                                                                ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ve, outProperties);
 }
-// Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<::UnityEngine::UIElements::VisualElement*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "properties", ty:
-// "::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId>", modifiers: "", def_value: Some("{}") }, CppParam { name: "timing", ty: "::ArrayW<TTimingData>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "style", ty: "::ArrayW<TStyleData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "indices", ty: "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair,int32_t>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<::UnityEngine::UIElements::VisualElement*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "properties", ty:
+// "::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "timing", ty: "::ArrayW<TTimingData>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "style", ty: "::ArrayW<TStyleData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "count", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indices", ty:
+// "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair,int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TTimingData, typename TStyleData>
 constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_AnimationDataSet_2<TTimingData, TStyleData>::StylePropertyAnimationSystem_AnimationDataSet_2(
     ::ArrayW<::UnityEngine::UIElements::VisualElement*> elements, ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId> properties, ::ArrayW<TTimingData> timing,
@@ -277,8 +278,8 @@ inline void UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropert
                                        { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::StylePropertyId>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, element, property);
 }
-// Ctor Parameters [CppParam { name: "element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "property", ty:
-// "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "property", ty:
+// "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair::StylePropertyAnimationSystem_ElementPropertyPair(
     ::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSheets::StylePropertyId property) noexcept {
   this->element = element;
@@ -634,10 +635,10 @@ UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TransitionEventsF
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState<T>::Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState() {}
-// Ctor Parameters [CppParam { name: "startTimeMs", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "durationMs", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "easingCurve", ty: "::System::Func_2<float_t,float_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "easedProgress", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "reversingShorteningFactor", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "isStarted", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "delayMs", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "startTimeMs", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "durationMs", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "easingCurve", ty: "::System::Func_2<float_t,float_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "easedProgress", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reversingShorteningFactor", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "isStarted", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "delayMs", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
 constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TimingData<T>::Values_1_StylePropertyAnimationSystem_TimingData(int64_t startTimeMs, int32_t durationMs,
                                                                                                                                            ::System::Func_2<float_t, float_t>* easingCurve,
@@ -653,8 +654,9 @@ constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_Timin
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_TimingData<T>::Values_1_StylePropertyAnimationSystem_TimingData() {}
-// Ctor Parameters [CppParam { name: "startValue", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "endValue", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "reversingAdjustedStartValue", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "currentValue", ty: "T", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "startValue", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "endValue", ty: "T", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "reversingAdjustedStartValue", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currentValue", ty: "T", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 template <typename T>
 constexpr ::UnityEngine::UIElements::Values_1_StylePropertyAnimationSystem_StyleData<T>::Values_1_StylePropertyAnimationSystem_StyleData(T startValue, T endValue, T reversingAdjustedStartValue,
                                                                                                                                          T currentValue) noexcept {
@@ -3637,7 +3639,9 @@ inline void UnityEngine::UIElements::StylePropertyAnimationSystem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::UIElements::StylePropertyAnimationSystem::GetOrCreate(::by_ref<T> values) {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::UIElements::StylePropertyAnimationSystem::GetOrCreate(::by_ref<T> values) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(), { "GetOrCreate", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
@@ -3660,7 +3664,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    float_t startValue, float_t endValue, int32_t durationMs, int32_t delayMs,
-                                                                                   ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
@@ -3672,7 +3676,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    int32_t startValue, int32_t endValue, int32_t durationMs, int32_t delayMs,
-                                                                                   ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
@@ -3684,7 +3688,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::Length startValue, ::UnityEngine::UIElements::Length endValue, int32_t durationMs,
-                                                                                   int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3696,7 +3700,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::Color startValue, ::UnityEngine::Color endValue, int32_t durationMs, int32_t delayMs,
-                                                                                   ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3708,7 +3712,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::Background startValue, ::UnityEngine::UIElements::Background endValue, int32_t durationMs,
-                                                                                   int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3720,7 +3724,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::FontDefinition startValue, ::UnityEngine::UIElements::FontDefinition endValue,
-                                                                                   int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3732,7 +3736,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::Font* startValue, ::UnityEngine::Font* endValue, int32_t durationMs, int32_t delayMs,
-                                                                                   ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3744,7 +3748,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::TextShadow startValue, ::UnityEngine::UIElements::TextShadow endValue, int32_t durationMs,
-                                                                                   int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3756,7 +3760,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::Scale startValue, ::UnityEngine::UIElements::Scale endValue, int32_t durationMs,
-                                                                                   int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3768,7 +3772,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::Rotate startValue, ::UnityEngine::UIElements::Rotate endValue, int32_t durationMs,
-                                                                                   int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3780,7 +3784,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::Translate startValue, ::UnityEngine::UIElements::Translate endValue, int32_t durationMs,
-                                                                                   int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3792,7 +3796,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::TransformOrigin startValue, ::UnityEngine::UIElements::TransformOrigin endValue,
-                                                                                   int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3804,7 +3808,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::BackgroundPosition startValue, ::UnityEngine::UIElements::BackgroundPosition endValue,
-                                                                                   int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3816,7 +3820,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::BackgroundRepeat startValue, ::UnityEngine::UIElements::BackgroundRepeat endValue,
-                                                                                   int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",
@@ -3828,7 +3832,7 @@ inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransiti
 }
 inline bool UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop,
                                                                                    ::UnityEngine::UIElements::BackgroundSize startValue, ::UnityEngine::UIElements::BackgroundSize endValue,
-                                                                                   int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) {
+                                                                                   int32_t durationMs, int32_t delayMs, /* [NotNull] */ ::System::Func_2<float_t, float_t>* easingCurve) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
                                                            { "StartTransition",

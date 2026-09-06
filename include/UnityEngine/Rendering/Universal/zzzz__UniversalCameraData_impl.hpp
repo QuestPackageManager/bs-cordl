@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalCameraData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalCameraData.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__AntialiasingMode_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__AntialiasingQuality_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__CameraRenderType_impl.hpp"

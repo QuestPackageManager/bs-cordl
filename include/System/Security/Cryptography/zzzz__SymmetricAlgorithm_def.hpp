@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\SymmetricAlgorithm.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/SymmetricAlgorithm.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class SymmetricAlgorithm;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::SymmetricAlgorithm*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::SymmetricAlgorithm*, "System.Security.Cryptography", "SymmetricAlgorithm");
+// [ComVisible(true)]
 // Dependencies System.Object, System.Security.Cryptography.CipherMode, System.Security.Cryptography.KeySizes, System.Security.Cryptography.PaddingMode
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -95,13 +96,13 @@ public:
   /// @brief Method CreateDecryptor, addr 0x5b079b4, size 0x50, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor();
 
-  /// @brief Method CreateDecryptor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
 
   /// @brief Method CreateEncryptor, addr 0x5b07964, size 0x50, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
 
-  /// @brief Method CreateEncryptor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
 
   /// @brief Method Dispose, addr 0x5b06ff0, size 0x70, virtual true, abstract: false, final true
@@ -110,10 +111,10 @@ public:
   /// @brief Method Dispose, addr 0x5b070f8, size 0x4c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GenerateIV, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::SymmetricAlgorithm* New_ctor();
@@ -229,13 +230,13 @@ protected:
   constexpr SymmetricAlgorithm();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SymmetricAlgorithm", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SymmetricAlgorithm", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SymmetricAlgorithm(SymmetricAlgorithm&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SymmetricAlgorithm", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SymmetricAlgorithm", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SymmetricAlgorithm(SymmetricAlgorithm const&) = delete;
+  SymmetricAlgorithm(SymmetricAlgorithmconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2989 };

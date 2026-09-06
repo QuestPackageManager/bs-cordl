@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\Streams.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Streams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,13 +68,13 @@ protected:
   constexpr Streams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Streams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Streams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Streams(Streams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Streams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Streams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Streams(Streams const&) = delete;
+  Streams(Streamsconst&) = delete;
 
   /// @brief Field BufferSize offset 0xffffffff size 0x4
   static constexpr int32_t BufferSize{ static_cast<int32_t>(0x200) };

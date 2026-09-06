@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\SingleHistoryBase.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/SingleHistoryBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ public:
   /// @brief Method GetCurrentTexture, addr 0x6878978, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCurrentTexture();
 
-  /// @brief Method GetHistoryDescriptor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetHistoryDescriptor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::RenderTextureDescriptor GetHistoryDescriptor(::by_ref<::UnityEngine::RenderTextureDescriptor> cameraDesc);
 
-  /// @brief Method GetHistoryFrameCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetHistoryFrameCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHistoryFrameCount();
 
-  /// @brief Method GetHistoryName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetHistoryName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetHistoryName();
 
   /// @brief Method GetPreviousTexture, addr 0x6878984, size 0x8, virtual false, abstract: false, final false
@@ -106,13 +106,13 @@ protected:
   constexpr SingleHistoryBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SingleHistoryBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SingleHistoryBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SingleHistoryBase(SingleHistoryBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SingleHistoryBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SingleHistoryBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SingleHistoryBase(SingleHistoryBase const&) = delete;
+  SingleHistoryBase(SingleHistoryBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12764 };

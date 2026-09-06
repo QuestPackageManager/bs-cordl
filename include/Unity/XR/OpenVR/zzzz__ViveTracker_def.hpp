@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\XR\OpenVR\ViveTracker.hpp"
+// IWYU pragma private; include "Unity/XR/OpenVR/ViveTracker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class ViveTracker;
 // Write type traits
 MARK_REF_T(::Unity::XR::OpenVR::ViveTracker*);
 DEFINE_IL2CPP_CLASS(::Unity::XR::OpenVR::ViveTracker*, "Unity.XR.OpenVR", "ViveTracker");
+// [InputControlLayout(displayName = "Vive Tracker")]
 // Dependencies UnityEngine.InputSystem.TrackedDevice
 namespace Unity::XR::OpenVR {
 // Is value type: false
@@ -30,8 +31,10 @@ public:
   __declspec(property(get = __cordl_internal_get__deviceVelocity_k__BackingField,
                       put = __cordl_internal_set__deviceVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_deviceAngularVelocity, put = set_deviceAngularVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* deviceAngularVelocity;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_deviceVelocity, put = set_deviceVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* deviceVelocity;
 
   /// @brief Method FinishSetup, addr 0x64d1050, size 0xa8, virtual true, abstract: false, final false
@@ -54,15 +57,19 @@ public:
   /// @brief Method .ctor, addr 0x64d10f8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deviceAngularVelocity, addr 0x64d1040, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deviceVelocity, addr 0x64d1030, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
+  /// [CompilerGenerated]
   /// @brief Method set_deviceAngularVelocity, addr 0x64d1048, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deviceVelocity, addr 0x64d1038, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
@@ -72,20 +79,22 @@ protected:
   constexpr ViveTracker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ViveTracker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViveTracker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViveTracker(ViveTracker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ViveTracker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViveTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViveTracker(ViveTracker const&) = delete;
+  ViveTracker(ViveTrackerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8594 };
 
+  /// [CompilerGenerated]
   /// @brief Field <deviceVelocity>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceVelocity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <deviceAngularVelocity>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceAngularVelocity_k__BackingField;
 

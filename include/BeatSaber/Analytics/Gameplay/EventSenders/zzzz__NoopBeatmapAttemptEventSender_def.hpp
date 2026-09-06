@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\NoopBeatmapAttemptEventSender.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/NoopBeatmapAttemptEventSender.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class NoopBeatmapAttemptEventSender;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::EventSenders::NoopBeatmapAttemptEventSender*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::EventSenders::NoopBeatmapAttemptEventSender*, "BeatSaber.Analytics.Gameplay.EventSenders", "NoopBeatmapAttemptEventSender");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay::EventSenders {
 // Is value type: false
@@ -54,13 +56,13 @@ protected:
   constexpr NoopBeatmapAttemptEventSender();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoopBeatmapAttemptEventSender", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoopBeatmapAttemptEventSender", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoopBeatmapAttemptEventSender(NoopBeatmapAttemptEventSender&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoopBeatmapAttemptEventSender", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoopBeatmapAttemptEventSender", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoopBeatmapAttemptEventSender(NoopBeatmapAttemptEventSender const&) = delete;
+  NoopBeatmapAttemptEventSender(NoopBeatmapAttemptEventSenderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22273 };

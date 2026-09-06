@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HttpWebResponse.hpp"
+// IWYU pragma private; include "System/Net/HttpWebResponse.hpp"
 #include "System/Net/zzzz__HttpStatusCode_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/Net/zzzz__HttpWebResponse_def.hpp"
@@ -472,6 +472,7 @@ inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor(::
                                                                               ::System::Net::CookieContainer* container) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::HttpWebResponse*>(uri, method, stream, container));
 }
+/// @brief [Obsolete("Serialization is obsoleted for this type", false)]
 inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                               ::System::Runtime::Serialization::StreamingContext streamingContext) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Net::HttpWebResponse*>(serializationInfo, streamingContext));

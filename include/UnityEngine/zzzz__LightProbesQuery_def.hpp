@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightProbesQuery.hpp"
+// IWYU pragma private; include "UnityEngine/LightProbesQuery.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +18,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJob;
@@ -58,6 +60,7 @@ MARK_VAL_T(::UnityEngine::LightProbesQuery_LightProbesQueryDisposeJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LightProbesQuery, "UnityEngine", "LightProbesQuery");
 DEFINE_IL2CPP_CLASS(::UnityEngine::LightProbesQuery_LightProbesQueryDispose, "UnityEngine", "LightProbesQuery/LightProbesQueryDispose");
 DEFINE_IL2CPP_CLASS(::UnityEngine::LightProbesQuery_LightProbesQueryDisposeJob, "UnityEngine", "LightProbesQuery/LightProbesQueryDisposeJob");
+// [NativeContainer]
 // Dependencies System.IntPtr
 namespace UnityEngine {
 // Is value type: true
@@ -72,7 +75,7 @@ public:
   // @brief default ctor
   constexpr LightProbesQuery_LightProbesQueryDispose();
 
-  // Ctor Parameters [CppParam { name: "m_LightProbeContextWrapper", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_LightProbeContextWrapper", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr LightProbesQuery_LightProbesQueryDispose(::System::IntPtr m_LightProbeContextWrapper) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -81,6 +84,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_LightProbeContextWrapper, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_LightProbeContextWrapper;
 
@@ -112,7 +116,7 @@ public:
   // @brief default ctor
   constexpr LightProbesQuery_LightProbesQueryDisposeJob();
 
-  // Ctor Parameters [CppParam { name: "Data", ty: "::UnityEngine::LightProbesQuery_LightProbesQueryDispose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Data", ty: "::UnityEngine::LightProbesQuery_LightProbesQueryDispose", modifiers: "", def_value: None, comment: None }]
   constexpr LightProbesQuery_LightProbesQueryDisposeJob(::UnityEngine::LightProbesQuery_LightProbesQueryDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -132,6 +136,9 @@ static_assert(offsetof(::UnityEngine::LightProbesQuery_LightProbesQueryDisposeJo
 static_assert(sizeof(::UnityEngine::LightProbesQuery_LightProbesQueryDisposeJob) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeContainer]
+// [StaticAccessor("LightProbeContextWrapper", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Runtime/Camera/RenderLoops/LightProbeContext.h")]
 // Dependencies System.IntPtr, Unity.Collections.Allocator
 namespace UnityEngine {
 // Is value type: true
@@ -146,6 +153,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// [ThreadSafe]
   /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6a85070, size 0x74, virtual false, abstract: false, final false
   static inline void CalculateInterpolatedLightAndOcclusionProbes(::System::IntPtr lightProbeContextWrapper, ::System::IntPtr positions, ::System::IntPtr tetrahedronIndices,
                                                                   ::System::IntPtr lightProbes, ::System::IntPtr occlusionProbes, int32_t count);
@@ -158,6 +166,7 @@ public:
   /// @brief Method Create, addr 0x6a84c3c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create();
 
+  /// [ThreadSafe]
   /// @brief Method Destroy, addr 0x6a84d70, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr lightProbeContextWrapper);
 
@@ -177,8 +186,8 @@ public:
   // @brief default ctor
   constexpr LightProbesQuery();
 
-  // Ctor Parameters [CppParam { name: "m_LightProbeContextWrapper", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty:
-  // "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_LightProbeContextWrapper", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+  // "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }]
   constexpr LightProbesQuery(::System::IntPtr m_LightProbeContextWrapper, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -187,6 +196,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_LightProbeContextWrapper, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_LightProbeContextWrapper;
 

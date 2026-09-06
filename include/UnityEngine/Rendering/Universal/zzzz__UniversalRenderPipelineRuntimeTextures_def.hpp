@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineRuntimeTextures.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineRuntimeTextures.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,9 @@ class UniversalRenderPipelineRuntimeTextures;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures*, "UnityEngine.Rendering.Universal", "UniversalRenderPipelineRuntimeTextures");
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "R: Runtime Textures", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -122,26 +125,34 @@ protected:
   constexpr UniversalRenderPipelineRuntimeTextures();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeTextures", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeTextures", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineRuntimeTextures(UniversalRenderPipelineRuntimeTextures&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeTextures", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeTextures", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineRuntimeTextures(UniversalRenderPipelineRuntimeTextures const&) = delete;
+  UniversalRenderPipelineRuntimeTextures(UniversalRenderPipelineRuntimeTexturesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12943 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [SerializeField]
+  /// [ResourcePath("Textures/BlueNoise64/L/LDR_LLL1_0.png", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_BlueNoise64LTex, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_BlueNoise64LTex;
 
+  /// [SerializeField]
+  /// [ResourcePath("Textures/BayerMatrix.png", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_BayerMatrixTex, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_BayerMatrixTex;
 
+  /// [SerializeField]
+  /// [ResourcePath("Textures/DebugFont.tga", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_DebugFontTex, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_DebugFontTex;
 

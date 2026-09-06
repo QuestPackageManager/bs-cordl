@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\MissionDestinationParameters.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/MissionDestinationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class MissionDestinationParameters;
 // Write type traits
 MARK_REF_T(::BeatSaber::Destinations::MissionDestinationParameters*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Destinations::MissionDestinationParameters*, "BeatSaber.Destinations", "MissionDestinationParameters");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Destinations.SimpleMissionObjective, System.Object
 namespace BeatSaber::Destinations {
 // Is value type: false
@@ -44,13 +46,13 @@ protected:
   constexpr MissionDestinationParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionDestinationParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionDestinationParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionDestinationParameters(MissionDestinationParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionDestinationParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionDestinationParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionDestinationParameters(MissionDestinationParameters const&) = delete;
+  MissionDestinationParameters(MissionDestinationParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23067 };

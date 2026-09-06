@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Hierarchy\SceneRegistry.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Hierarchy/SceneRegistry.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/zzzz__ItemWithChildren_3_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/zzzz__SceneRegistry_def.hpp"

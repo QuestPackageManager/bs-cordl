@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FadeInOnSceneTransitionFinished.hpp"
+// IWYU pragma private; include "GlobalNamespace/FadeInOnSceneTransitionFinished.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::GlobalNamespace::FadeInOnSceneTransitionFinished*);
 MARK_REF_T(::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FadeInOnSceneTransitionFinished*, "", "FadeInOnSceneTransitionFinished");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4*, "", "FadeInOnSceneTransitionFinished/<FadeCoroutine>d__4");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -72,17 +73,22 @@ public:
   /// @brief Method MoveNext, addr 0x5f42234, size 0xc4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5f422f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5f42300, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5f42338, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5f42230, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -104,6 +110,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FadeInOnSceneTransitionFinished> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5f42220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -122,13 +129,13 @@ protected:
   constexpr FadeInOnSceneTransitionFinished__FadeCoroutine_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FadeInOnSceneTransitionFinished__FadeCoroutine_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FadeInOnSceneTransitionFinished__FadeCoroutine_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FadeInOnSceneTransitionFinished__FadeCoroutine_d__4(FadeInOnSceneTransitionFinished__FadeCoroutine_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FadeInOnSceneTransitionFinished__FadeCoroutine_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FadeInOnSceneTransitionFinished__FadeCoroutine_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FadeInOnSceneTransitionFinished__FadeCoroutine_d__4(FadeInOnSceneTransitionFinished__FadeCoroutine_d__4 const&) = delete;
+  FadeInOnSceneTransitionFinished__FadeCoroutine_d__4(FadeInOnSceneTransitionFinished__FadeCoroutine_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20624 };
@@ -169,6 +176,7 @@ public:
   /// @brief Field _gameScenesManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
+  /// [IteratorStateMachine(typeof(FadeInOnSceneTransitionFinished::<FadeCoroutine>d__4))]
   /// @brief Method FadeCoroutine, addr 0x5f421c4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FadeCoroutine();
 
@@ -201,20 +209,22 @@ protected:
   constexpr FadeInOnSceneTransitionFinished();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FadeInOnSceneTransitionFinished", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FadeInOnSceneTransitionFinished", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FadeInOnSceneTransitionFinished(FadeInOnSceneTransitionFinished&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FadeInOnSceneTransitionFinished", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FadeInOnSceneTransitionFinished", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FadeInOnSceneTransitionFinished(FadeInOnSceneTransitionFinished const&) = delete;
+  FadeInOnSceneTransitionFinished(FadeInOnSceneTransitionFinishedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20625 };
 
+  /// [Inject]
   /// @brief Field _fadeInOut, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOut;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 

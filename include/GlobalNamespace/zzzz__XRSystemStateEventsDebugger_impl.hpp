@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\XRSystemStateEventsDebugger.hpp"
+// IWYU pragma private; include "GlobalNamespace/XRSystemStateEventsDebugger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__XRSystemStateEventsDebugger_def.hpp"
 #include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet\Logging\Debug.hpp"
+// IWYU pragma private; include "BGNet/Logging/Debug.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr Debug_LoggerLinkedList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Debug_LoggerLinkedList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Debug_LoggerLinkedList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Debug_LoggerLinkedList(Debug_LoggerLinkedList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Debug_LoggerLinkedList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Debug_LoggerLinkedList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Debug_LoggerLinkedList(Debug_LoggerLinkedList const&) = delete;
+  Debug_LoggerLinkedList(Debug_LoggerLinkedListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23561 };
@@ -114,21 +114,21 @@ namespace BGNet::Logging {
 class CORDL_TYPE Debug_ILogger {
 public:
   // Declarations
-  /// @brief Method LogError, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogWarning, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogWarning(::StringW message);
 
-  // Ctor Parameters [CppParam { name: "", ty: "Debug_ILogger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Debug_ILogger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Debug_ILogger(Debug_ILogger const&) = delete;
+  Debug_ILogger(Debug_ILoggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23562 };
@@ -137,6 +137,7 @@ public:
 };
 // Non member Declarations
 } // namespace BGNet::Logging
+// [CompilerGenerated]
 // Dependencies
 namespace BGNet::Logging {
 // Is value type: true
@@ -148,7 +149,7 @@ public:
   // @brief default ctor
   constexpr Debug___c__DisplayClass7_0();
 
-  // Ctor Parameters [CppParam { name: "logger", ty: "::BGNet::Logging::Debug_ILogger*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "logger", ty: "::BGNet::Logging::Debug_ILogger*", modifiers: "", def_value: None, comment: None }]
   constexpr Debug___c__DisplayClass7_0(::BGNet::Logging::Debug_ILogger* logger) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -205,12 +206,14 @@ public:
   /// @brief Method LogWarning, addr 0x3344828, size 0x100, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x3343fd8, size 0x80, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   /// @brief Method RemoveAndDisposeLogger, addr 0x334422c, size 0x240, virtual false, abstract: false, final false
   static inline void RemoveAndDisposeLogger(::BGNet::Logging::Debug_ILogger* logger);
 
+  /// [CompilerGenerated]
   /// @brief Method <RemoveAndDisposeLogger>g__DisposeLogger|7_0, addr 0x334446c, size 0xb8, virtual false, abstract: false, final false
   static inline void _RemoveAndDisposeLogger_g__DisposeLogger_7_0(::by_ref<::BGNet::Logging::Debug___c__DisplayClass7_0> _cordl_fixed_empty_name_whitespace);
 
@@ -228,13 +231,13 @@ protected:
   constexpr Debug();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Debug(Debug&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Debug(Debug const&) = delete;
+  Debug(Debugconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23564 };

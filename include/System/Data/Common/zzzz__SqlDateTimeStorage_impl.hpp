@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\SqlDateTimeStorage.hpp"
+// IWYU pragma private; include "System/Data/Common/SqlDateTimeStorage.hpp"
 #include "System/Data/Common/zzzz__DataStorage_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlDateTime_impl.hpp"
 #include "System/Data/Common/zzzz__SqlDateTimeStorage_def.hpp"

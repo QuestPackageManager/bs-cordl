@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames\Analytics\Events\NavigationEventType.hpp"
+// IWYU pragma private; include "BeatGames/Analytics/Events/NavigationEventType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,9 +51,11 @@ public:
   /// @brief Method get_Impression, addr 0x3257b78, size 0x68, virtual false, abstract: false, final false
   static inline ::BeatGames::Analytics::Events::NavigationEventType* get_Impression();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Value, addr 0x325872c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Value, addr 0x3258734, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
@@ -63,17 +65,18 @@ protected:
   constexpr NavigationEventType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationEventType(NavigationEventType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationEventType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationEventType(NavigationEventType const&) = delete;
+  NavigationEventType(NavigationEventTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23329 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Value_k__BackingField;
 

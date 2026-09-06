@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServerBrowserViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServerBrowserViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,32 +97,42 @@ protected:
   constexpr GameServerBrowserViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerBrowserViewController(GameServerBrowserViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerBrowserViewController(GameServerBrowserViewController const&) = delete;
+  GameServerBrowserViewController(GameServerBrowserViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6975 };
 
+  /// [Header("Filtering")]
+  /// [SerializeField]
   /// @brief Field _filterServersButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____filterServersButton;
 
+  /// [SerializeField]
   /// @brief Field _filterText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServersFilterText> ____filterText;
 
+  /// [Header("Buttons")]
+  /// [SerializeField]
   /// @brief Field _createServerButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____createServerButton;
 
+  /// [Header("Game List")]
+  /// [SerializeField]
   /// @brief Field _gameServersListTableView, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServersListTableView> ____gameServersListTableView;
 
+  /// [Header("Loadings")]
+  /// [SerializeField]
   /// @brief Field _mainLoadingControl, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____mainLoadingControl;
 
+  /// [SerializeField]
   /// @brief Field _smallLoadingControl, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____smallLoadingControl;
 

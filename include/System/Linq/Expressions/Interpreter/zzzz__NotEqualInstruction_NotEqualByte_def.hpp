@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NotEqualInstruction_NotEqualByte.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotEqualInstruction_NotEqualByte.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr NotEqualInstruction_NotEqualByte();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualByte", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualByte", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotEqualInstruction_NotEqualByte(NotEqualInstruction_NotEqualByte&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualByte", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualByte", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NotEqualInstruction_NotEqualByte(NotEqualInstruction_NotEqualByte const&) = delete;
+  NotEqualInstruction_NotEqualByte(NotEqualInstruction_NotEqualByteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16523 };

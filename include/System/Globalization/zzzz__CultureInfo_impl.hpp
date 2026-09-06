@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\CultureInfo.hpp"
+// IWYU pragma private; include "System/Globalization/CultureInfo.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -18,9 +18,10 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "ansi", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ebcdic", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "mac", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "oem", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "right_to_left", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "list_sep", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ansi", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ebcdic", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "mac", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "oem", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "right_to_left", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "list_sep", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Globalization::CultureInfo_Data::CultureInfo_Data(int32_t ansi, int32_t ebcdic, int32_t mac, int32_t oem, bool right_to_left, uint8_t list_sep) noexcept {
   this->ansi = ansi;
   this->ebcdic = ebcdic;

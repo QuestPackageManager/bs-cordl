@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EmptyPosesSerializer.hpp"
+// IWYU pragma private; include "GlobalNamespace/EmptyPosesSerializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EmptyPosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"

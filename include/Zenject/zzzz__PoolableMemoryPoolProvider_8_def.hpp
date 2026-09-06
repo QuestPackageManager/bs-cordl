@@ -1,8 +1,10 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolableMemoryPoolProvider_8.hpp"
+// IWYU pragma private; include "Zenject/PoolableMemoryPoolProvider_8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Zenject/zzzz__IPoolable_7_def.hpp"
+#include "Zenject/zzzz__MemoryPool_8_def.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_8)
 namespace System::Collections::Generic {
@@ -21,6 +23,9 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+class IMemoryPool;
+}
+namespace Zenject {
 class IValidatable;
 }
 namespace Zenject {
@@ -31,15 +36,22 @@ struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool> class PoolableMemoryPoolProvider_8;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
+           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
+class PoolableMemoryPoolProvider_8;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolableMemoryPoolProvider_8);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolableMemoryPoolProvider_8, "Zenject", "PoolableMemoryPoolProvider`8");
-// Dependencies Zenject.PoolableMemoryPoolProviderBase`1<TContract>
+// [NoReflectionBaking]
+// Dependencies Zenject.IPoolable`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>, Zenject.MemoryPool`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>,
+// Zenject.PoolableMemoryPoolProviderBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*>*> &&
+           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, ::Zenject::IMemoryPool*, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.PoolableMemoryPoolProvider`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract,TMemoryPool>
 class CORDL_TYPE PoolableMemoryPoolProvider_8 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {
@@ -79,13 +91,13 @@ protected:
   constexpr PoolableMemoryPoolProvider_8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProvider_8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProvider_8", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolableMemoryPoolProvider_8(PoolableMemoryPoolProvider_8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProvider_8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProvider_8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableMemoryPoolProvider_8(PoolableMemoryPoolProvider_8 const&) = delete;
+  PoolableMemoryPoolProvider_8(PoolableMemoryPoolProvider_8const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14580 };

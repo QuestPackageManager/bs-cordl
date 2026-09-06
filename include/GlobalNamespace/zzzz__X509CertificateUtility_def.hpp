@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\X509CertificateUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace/X509CertificateUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr X509CertificateUtility_PasswordFinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_PasswordFinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_PasswordFinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificateUtility_PasswordFinder(X509CertificateUtility_PasswordFinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_PasswordFinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_PasswordFinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateUtility_PasswordFinder(X509CertificateUtility_PasswordFinder const&) = delete;
+  X509CertificateUtility_PasswordFinder(X509CertificateUtility_PasswordFinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18305 };
@@ -183,13 +183,13 @@ protected:
   constexpr X509CertificateUtility_RSACertificateEncryptionProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_RSACertificateEncryptionProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_RSACertificateEncryptionProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificateUtility_RSACertificateEncryptionProvider(X509CertificateUtility_RSACertificateEncryptionProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_RSACertificateEncryptionProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility_RSACertificateEncryptionProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateUtility_RSACertificateEncryptionProvider(X509CertificateUtility_RSACertificateEncryptionProvider const&) = delete;
+  X509CertificateUtility_RSACertificateEncryptionProvider(X509CertificateUtility_RSACertificateEncryptionProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18306 };
@@ -205,6 +205,7 @@ static_assert(offsetof(::GlobalNamespace::X509CertificateUtility_RSACertificateE
 static_assert(sizeof(::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -264,26 +265,33 @@ public:
   /// @brief Method MoveNext, addr 0x3342ac0, size 0x4f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator, addr 0x33430b8, size 0xa0, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
   System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current, addr 0x3343070, size 0x8, virtual true, abstract: false, final
   /// true
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3343158, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3343078, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x33430b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3342aa4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -344,6 +352,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x3342fb0, size 0xc0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x33427c8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -370,13 +379,13 @@ protected:
   constexpr X509CertificateUtility__GetCertificateList_d__5();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility__GetCertificateList_d__5", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility__GetCertificateList_d__5", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificateUtility__GetCertificateList_d__5(X509CertificateUtility__GetCertificateList_d__5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility__GetCertificateList_d__5", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility__GetCertificateList_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateUtility__GetCertificateList_d__5(X509CertificateUtility__GetCertificateList_d__5 const&) = delete;
+  X509CertificateUtility__GetCertificateList_d__5(X509CertificateUtility__GetCertificateList_d__5const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18307 };
@@ -451,6 +460,7 @@ public:
   /// @brief Method GetCertificateEncryptionProvider, addr 0x3342374, size 0xb0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::StringW privateKeyPem, ::StringW password);
 
+  /// [IteratorStateMachine(typeof(X509CertificateUtility::<GetCertificateList>d__5))]
   /// @brief Method GetCertificateList, addr 0x334274c, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GetCertificateList(::StringW certificatePem,
                                                                                                                                                          ::StringW certificateChainPem);
@@ -469,13 +479,13 @@ protected:
   constexpr X509CertificateUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificateUtility(X509CertificateUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateUtility(X509CertificateUtility const&) = delete;
+  X509CertificateUtility(X509CertificateUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18308 };

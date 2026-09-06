@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Object.hpp"
+// IWYU pragma private; include "System/Object.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Object.Equals
@@ -208,6 +208,7 @@ inline void System::Object::FieldSetter(::StringW typeName, ::StringW fieldName,
       (::i2c::find_method(::i2c::class_of<::System::Object*>(), { "FieldSetter", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeName, fieldName, val);
 }
+/// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
 inline ::System::Object* System::Object::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Object*>());
 }

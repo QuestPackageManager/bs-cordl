@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRVirtualKeyboardControllerInputHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboardControllerInputHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,10 @@ class OVRVirtualKeyboardControllerInputHandler;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler*, "", "OVRVirtualKeyboardControllerInputHandler");
+// [Obsolete]
+// [ExecuteInEditMode]
+// [HelpURL("https://developer.oculus.com/documentation/unity/VK-unity-IntegratePrefab/")]
+// [Feature((Meta.XR.Util.Feature)9)]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -33,13 +37,13 @@ protected:
   constexpr OVRVirtualKeyboardControllerInputHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardControllerInputHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardControllerInputHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRVirtualKeyboardControllerInputHandler(OVRVirtualKeyboardControllerInputHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardControllerInputHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardControllerInputHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardControllerInputHandler(OVRVirtualKeyboardControllerInputHandler const&) = delete;
+  OVRVirtualKeyboardControllerInputHandler(OVRVirtualKeyboardControllerInputHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7815 };

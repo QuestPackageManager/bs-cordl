@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceToolLauncher.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceToolLauncher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,9 @@ namespace GlobalNamespace {
 class SongController;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine {
 class Camera;
@@ -86,8 +88,8 @@ public:
   // @brief default ctor
   constexpr PerformanceToolLauncher_Assets();
 
-  // Ctor Parameters [CppParam { name: "visualizer", ty: "::UnityW<::GlobalNamespace::PerformanceVisualizer>", modifiers: "", def_value: None }, CppParam { name: "recorder", ty:
-  // "::UnityW<::GlobalNamespace::PerformanceRecorder>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "visualizer", ty: "::UnityW<::GlobalNamespace::PerformanceVisualizer>", modifiers: "", def_value: None, comment: None }, CppParam { name: "recorder", ty:
+  // "::UnityW<::GlobalNamespace::PerformanceRecorder>", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceToolLauncher_Assets(::UnityW<::GlobalNamespace::PerformanceVisualizer> visualizer, ::UnityW<::GlobalNamespace::PerformanceRecorder> recorder) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,6 +114,7 @@ static_assert(offsetof(::GlobalNamespace::PerformanceToolLauncher_Assets, record
 static_assert(sizeof(::GlobalNamespace::PerformanceToolLauncher_Assets) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -154,13 +157,13 @@ protected:
   constexpr PerformanceToolLauncher___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceToolLauncher___c__DisplayClass3_0(PerformanceToolLauncher___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceToolLauncher___c__DisplayClass3_0(PerformanceToolLauncher___c__DisplayClass3_0 const&) = delete;
+  PerformanceToolLauncher___c__DisplayClass3_0(PerformanceToolLauncher___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6624 };
@@ -195,8 +198,9 @@ public:
   /// @brief Field _assets, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__assets, put = __cordl_internal_set__assets)) ::GlobalNamespace::PerformanceToolLauncher_Assets _assets;
 
+  /// [Inject]
   /// @brief Method Initialize, addr 0x58f888c, size 0x2a4, virtual false, abstract: false, final false
-  inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::UnityEngine::Camera* mainCamera,
+  inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::PlayerDataModel* playerDataModel, /* [Inject(Id = "MainCamera")] */ ::UnityEngine::Camera* mainCamera,
                          ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState, ::GlobalNamespace::SongController* songController, ::GlobalNamespace::AudioTimeSyncController* timeSync,
                          ::GlobalNamespace::IGamePause* gamePause, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData,
                          ::GlobalNamespace::GameplayAdditionalInformationSetupData* additionalInformationSetupData, ::GlobalNamespace::BeatmapObjectManager* objectManager,
@@ -222,17 +226,18 @@ protected:
   constexpr PerformanceToolLauncher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceToolLauncher(PerformanceToolLauncher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceToolLauncher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceToolLauncher(PerformanceToolLauncher const&) = delete;
+  PerformanceToolLauncher(PerformanceToolLauncherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6625 };
 
+  /// [SerializeField]
   /// @brief Field _assets, offset: 0x20, size: 0x10, def value: None
   ::GlobalNamespace::PerformanceToolLauncher_Assets ____assets;
 

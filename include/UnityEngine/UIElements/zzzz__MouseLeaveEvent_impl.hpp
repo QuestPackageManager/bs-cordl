@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseLeaveEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseLeaveEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseLeaveEvent_def.hpp"

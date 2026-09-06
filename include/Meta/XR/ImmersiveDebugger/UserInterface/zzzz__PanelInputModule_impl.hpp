@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\PanelInputModule.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/PanelInputModule.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferContext.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectBufferContext_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectBufferContext_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::IndirectBufferContext_BufferState::IndirectBufferContext_BufferState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -56,9 +56,9 @@ inline bool UnityEngine::Rendering::IndirectBufferContext::Matches(::UnityEngine
                                        { "Matches", {}, { ::i2c::type_of<::UnityEngine::Rendering::IndirectBufferContext_BufferState>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, bufferState, occluderVersion, subviewMask);
 }
-// Ctor Parameters [CppParam { name: "cullingJobHandle", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "bufferState", ty:
-// "::UnityEngine::Rendering::IndirectBufferContext_BufferState", modifiers: "", def_value: Some("{}") }, CppParam { name: "occluderVersion", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "subviewMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "cullingJobHandle", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bufferState", ty:
+// "::UnityEngine::Rendering::IndirectBufferContext_BufferState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occluderVersion", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "subviewMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::IndirectBufferContext::IndirectBufferContext(::Unity::Jobs::JobHandle cullingJobHandle, ::UnityEngine::Rendering::IndirectBufferContext_BufferState bufferState,
                                                                                  int32_t occluderVersion, int32_t subviewMask) noexcept {
   this->cullingJobHandle = cullingJobHandle;

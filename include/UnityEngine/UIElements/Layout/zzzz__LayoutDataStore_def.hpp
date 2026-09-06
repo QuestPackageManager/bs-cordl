@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutDataStore.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutDataStore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   // @brief default ctor
   constexpr LayoutDataStore_Chunk();
 
-  // Ctor Parameters [CppParam { name: "Buffer", ty: "uint8_t*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Buffer", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutDataStore_Chunk(uint8_t* Buffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -71,6 +71,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Buffer, offset: 0x0, size: 0x8, def value: None
   uint8_t* Buffer;
 
@@ -111,9 +112,9 @@ public:
   // @brief default ctor
   constexpr LayoutDataStore_ComponentDataStore();
 
-  // Ctor Parameters [CppParam { name: "Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "ComponentCountPerChunk", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ChunkCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Chunks", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ComponentCountPerChunk", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ChunkCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Chunks", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk*", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutDataStore_ComponentDataStore(::Unity::Collections::Allocator Allocator, int32_t Size, int32_t ComponentCountPerChunk, int32_t ChunkCount,
                                                ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk* m_Chunks) noexcept;
 
@@ -135,6 +136,7 @@ public:
   /// @brief Field ChunkCount, offset: 0xc, size: 0x4, def value: None
   int32_t ChunkCount;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Chunks, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutDataStore_Chunk* m_Chunks;
 
@@ -165,9 +167,9 @@ public:
   // @brief default ctor
   constexpr LayoutDataStore_Data();
 
-  // Ctor Parameters [CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NextFreeIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "ComponentCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Versions", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "Components", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "NextFreeIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "ComponentCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Versions", ty: "int32_t*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "Components", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore*", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutDataStore_Data(int32_t Capacity, int32_t NextFreeIndex, int32_t ComponentCount, int32_t* Versions,
                                  ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* Components) noexcept;
 
@@ -186,9 +188,11 @@ public:
   /// @brief Field ComponentCount, offset: 0x8, size: 0x4, def value: None
   int32_t ComponentCount;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Versions, offset: 0x10, size: 0x8, def value: None
   int32_t* Versions;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Components, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* Components;
 
@@ -227,11 +231,17 @@ public:
   constexpr operator ::System::IDisposable*();
 
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T0> inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(::by_ref<T0> component0);
+  template <typename T0>
+    requires(::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0>)
+  inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(/* [IsReadOnly] */ ::by_ref<T0> component0);
 
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T0, typename T1, typename T2, typename T3>
-  inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(::by_ref<T0> component0, ::by_ref<T1> component1, ::by_ref<T2> component2, ::by_ref<T3> component3);
+    requires(::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> && ::cordl_internals::value_type_constraint<T1> &&
+             ::cordl_internals::default_constructor_constraint<T1> && ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
+             ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
+  inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(/* [IsReadOnly] */ ::by_ref<T0> component0, /* [IsReadOnly] */ ::by_ref<T1> component1, /* [IsReadOnly] */ ::by_ref<T2> component2,
+                                                                  /* [IsReadOnly] */ ::by_ref<T3> component3);
 
   /// @brief Method Allocate, addr 0x6d034a4, size 0x1e4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(uint8_t* data, int32_t count);
@@ -240,11 +250,12 @@ public:
   inline void Dispose();
 
   /// @brief Method Exists, addr 0x6d0340c, size 0x40, virtual false, abstract: false, final false
-  inline bool Exists(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
+  inline bool Exists(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
 
   /// @brief Method Free, addr 0x6cff060, size 0xf8, virtual false, abstract: false, final false
-  inline void Free(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
+  inline void Free(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
 
+  /// [IsReadOnly]
   /// @brief Method GetComponentDataPtr, addr 0x6d0344c, size 0x24, virtual false, abstract: false, final false
   inline void* GetComponentDataPtr(int32_t index, int32_t componentIndex);
 
@@ -276,8 +287,8 @@ public:
   // @brief default ctor
   constexpr LayoutDataStore();
 
-  // Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }, CppParam { name: "m_Data", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutDataStore_Data*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Data", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutDataStore_Data*", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutDataStore(::Unity::Collections::Allocator m_Allocator, ::UnityEngine::UIElements::Layout::LayoutDataStore_Data* m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -292,6 +303,7 @@ public:
   /// @brief Field m_Allocator, offset: 0x0, size: 0x4, def value: None
   ::Unity::Collections::Allocator m_Allocator;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Data, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutDataStore_Data* m_Data;
 

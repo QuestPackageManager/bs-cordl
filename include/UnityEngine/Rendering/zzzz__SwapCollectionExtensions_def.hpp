@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SwapCollectionExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SwapCollectionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class SwapCollectionExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::SwapCollectionExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SwapCollectionExtensions*, "UnityEngine.Rendering", "SwapCollectionExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -26,8 +27,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE SwapCollectionExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
+  /// [CollectionAccess((JetBrains.Annotations.CollectionAccessType)2)]
+  /// [MustUseReturnValue]
   /// @brief Method TrySwap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline bool TrySwap(::System::Collections::Generic::IList_1<TValue>* list, int32_t from, int32_t to, ::by_ref<::System::Exception*> error);
+  template <typename TValue>
+  static inline bool TrySwap(/* [DisallowNull] */ ::System::Collections::Generic::IList_1<TValue>* list, int32_t from, int32_t to, /* [NotNullWhen(false)] */ ::by_ref<::System::Exception*> error);
 
 protected:
   // Ctor Parameters []
@@ -35,13 +40,13 @@ protected:
   constexpr SwapCollectionExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SwapCollectionExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwapCollectionExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SwapCollectionExtensions(SwapCollectionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SwapCollectionExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwapCollectionExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SwapCollectionExtensions(SwapCollectionExtensions const&) = delete;
+  SwapCollectionExtensions(SwapCollectionExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11944 };

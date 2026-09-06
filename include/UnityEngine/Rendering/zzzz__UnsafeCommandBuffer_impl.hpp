@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UnsafeCommandBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UnsafeCommandBuffer.hpp"
 #include "UnityEngine/Rendering/zzzz__BaseCommandBuffer_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__UnsafeCommandBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -3717,6 +3717,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::_ctor(::UnityEngine::Re
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, wrapped, executingPass, isAsync);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::ComputeBuffer* src,
                                                                                              ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback) {
   static auto* ___internal_method_base =
@@ -3729,6 +3730,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::ComputeBuffer* src, int32_t size,
                                                                                              int32_t offset, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3741,6 +3743,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, size, offset, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::GraphicsBuffer* src,
                                                                                              ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback) {
   static auto* ___internal_method_base =
@@ -3753,6 +3756,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::GraphicsBuffer* src, int32_t size,
                                                                                              int32_t offset, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -3765,6 +3769,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, size, offset, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src,
                                                                                              ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback) {
   static auto* ___internal_method_base =
@@ -3777,6 +3782,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
                                                                                              ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback) {
   static auto* ___internal_method_base =
@@ -3789,6 +3795,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, mipIndex, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
                                                                                              ::UnityEngine::TextureFormat dstFormat,
                                                                                              ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback) {
@@ -3802,6 +3809,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, mipIndex, dstFormat, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
                                                                                              ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat,
                                                                                              ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback) {
@@ -3816,6 +3824,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, mipIndex, dstFormat, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
                                                                                              int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth,
                                                                                              ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback) {
@@ -3830,6 +3839,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, mipIndex, x, width, y, height, z, depth, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
                                                                                              int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth,
                                                                                              ::UnityEngine::TextureFormat dstFormat,
@@ -3846,6 +3856,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackInt
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, output, src, mipIndex, x, width, y, height, z, depth, dstFormat, callback);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::RequestAsyncReadbackIntoNativeArray(::by_ref<::Unity::Collections::NativeArray_1<T>> output, ::UnityEngine::Texture* src, int32_t mipIndex,
                                                                                              int32_t x, int32_t width, int32_t y, int32_t height, int32_t z, int32_t depth,
                                                                                              ::UnityEngine::Experimental::Rendering::GraphicsFormat dstFormat,
@@ -3998,18 +4009,18 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::EnableShaderKeyword(::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(), { "EnableShaderKeyword", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::EnableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                                                                          { "EnableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::EnableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::EnableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "EnableKeyword", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::EnableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::EnableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "EnableKeyword", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
@@ -4020,37 +4031,38 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::DisableShaderKeyword(::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(), { "DisableShaderKeyword", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::DisableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                                                                          { "DisableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::DisableKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::DisableKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "DisableKeyword", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::DisableKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::DisableKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "DisableKeyword", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, keyword);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                                            { "SetKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword, value);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetKeyword(::UnityEngine::Material* material, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetKeyword(::UnityEngine::Material* material, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                           { "SetKeyword", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword, value);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetKeyword(::UnityEngine::ComputeShader* computeShader, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetKeyword(::UnityEngine::ComputeShader* computeShader, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword,
+                                                                    bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
@@ -4296,7 +4308,9 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEn
                                                            { "SetBufferData", {}, { ::i2c::type_of<::UnityEngine::ComputeBuffer*>(), ::i2c::type_of<::System::Array*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, data);
 }
-template <typename T> inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::System::Collections::Generic::List_1<T>* data) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::System::Collections::Generic::List_1<T>* data) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
@@ -4304,7 +4318,9 @@ template <typename T> inline void UnityEngine::Rendering::UnsafeCommandBuffer::S
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, data);
 }
-template <typename T> inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
@@ -4323,6 +4339,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEn
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, data, managedBufferStartIndex, graphicsBufferStartIndex, count);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::System::Collections::Generic::List_1<T>* data, int32_t managedBufferStartIndex,
                                                                        int32_t graphicsBufferStartIndex, int32_t count) {
   static auto* ___internal_method_base =
@@ -4335,6 +4352,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEn
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, data, managedBufferStartIndex, graphicsBufferStartIndex, count);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::ComputeBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex,
                                                                        int32_t graphicsBufferStartIndex, int32_t count) {
   static auto* ___internal_method_base =
@@ -4358,7 +4376,9 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEn
                                                            { "SetBufferData", {}, { ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<::System::Array*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, data);
 }
-template <typename T> inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::System::Collections::Generic::List_1<T>* data) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::System::Collections::Generic::List_1<T>* data) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
@@ -4366,7 +4386,9 @@ template <typename T> inline void UnityEngine::Rendering::UnsafeCommandBuffer::S
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, data);
 }
-template <typename T> inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
@@ -4385,6 +4407,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEn
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, data, managedBufferStartIndex, graphicsBufferStartIndex, count);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::System::Collections::Generic::List_1<T>* data, int32_t managedBufferStartIndex,
                                                                        int32_t graphicsBufferStartIndex, int32_t count) {
   static auto* ___internal_method_base =
@@ -4397,6 +4420,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEn
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, data, managedBufferStartIndex, graphicsBufferStartIndex, count);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetBufferData(::UnityEngine::GraphicsBuffer* buffer, ::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex,
                                                                        int32_t graphicsBufferStartIndex, int32_t count) {
   static auto* ___internal_method_base =
@@ -4465,25 +4489,25 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetComputeMatrixArrayPa
                        { "SetComputeMatrixArrayParam", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, name, values);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetComputeFloatParams(::UnityEngine::ComputeShader* computeShader, ::StringW name, ::ArrayW<float_t> values) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetComputeFloatParams(::UnityEngine::ComputeShader* computeShader, ::StringW name, /* [ParamArray] */ ::ArrayW<float_t> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "SetComputeFloatParams", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, name, values);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetComputeFloatParams(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<float_t> values) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetComputeFloatParams(::UnityEngine::ComputeShader* computeShader, int32_t nameID, /* [ParamArray] */ ::ArrayW<float_t> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "SetComputeFloatParams", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, nameID, values);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetComputeIntParams(::UnityEngine::ComputeShader* computeShader, ::StringW name, ::ArrayW<int32_t> values) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetComputeIntParams(::UnityEngine::ComputeShader* computeShader, ::StringW name, /* [ParamArray] */ ::ArrayW<int32_t> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "SetComputeIntParams", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, name, values);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetComputeIntParams(::UnityEngine::ComputeShader* computeShader, int32_t nameID, ::ArrayW<int32_t> values) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetComputeIntParams(::UnityEngine::ComputeShader* computeShader, int32_t nameID, /* [ParamArray] */ ::ArrayW<int32_t> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "SetComputeIntParams", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<int32_t>>() } })));
@@ -4846,14 +4870,16 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingFloatParam
                                        { "SetRayTracingFloatParam", {}, { ::i2c::type_of<::UnityEngine::Rendering::RayTracingShader*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rayTracingShader, nameID, val);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingFloatParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::ArrayW<float_t> values) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingFloatParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name,
+                                                                                  /* [ParamArray] */ ::ArrayW<float_t> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                           { "SetRayTracingFloatParams", {}, { ::i2c::type_of<::UnityEngine::Rendering::RayTracingShader*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rayTracingShader, name, values);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingFloatParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<float_t> values) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingFloatParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID,
+                                                                                  /* [ParamArray] */ ::ArrayW<float_t> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
@@ -4874,14 +4900,16 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingIntParam(:
                                        { "SetRayTracingIntParam", {}, { ::i2c::type_of<::UnityEngine::Rendering::RayTracingShader*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rayTracingShader, nameID, val);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingIntParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name, ::ArrayW<int32_t> values) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingIntParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name,
+                                                                                /* [ParamArray] */ ::ArrayW<int32_t> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                           { "SetRayTracingIntParams", {}, { ::i2c::type_of<::UnityEngine::Rendering::RayTracingShader*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rayTracingShader, name, values);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingIntParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID, ::ArrayW<int32_t> values) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingIntParams(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID,
+                                                                                /* [ParamArray] */ ::ArrayW<int32_t> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
@@ -4904,7 +4932,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingVectorPara
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rayTracingShader, nameID, val);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingVectorArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name,
-                                                                                       ::ArrayW<::UnityEngine::Vector4> values) {
+                                                                                       /* [ParamArray] */ ::ArrayW<::UnityEngine::Vector4> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "SetRayTracingVectorArrayParam",
@@ -4913,7 +4941,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingVectorArra
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rayTracingShader, name, values);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingVectorArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID,
-                                                                                       ::ArrayW<::UnityEngine::Vector4> values) {
+                                                                                       /* [ParamArray] */ ::ArrayW<::UnityEngine::Vector4> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -4938,7 +4966,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingMatrixPara
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rayTracingShader, nameID, val);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingMatrixArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, ::StringW name,
-                                                                                       ::ArrayW<::UnityEngine::Matrix4x4> values) {
+                                                                                       /* [ParamArray] */ ::ArrayW<::UnityEngine::Matrix4x4> values) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
@@ -4948,7 +4976,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingMatrixArra
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rayTracingShader, name, values);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::SetRayTracingMatrixArrayParam(::UnityEngine::Rendering::RayTracingShader* rayTracingShader, int32_t nameID,
-                                                                                       ::ArrayW<::UnityEngine::Matrix4x4> values) {
+                                                                                       /* [ParamArray] */ ::ArrayW<::UnityEngine::Matrix4x4> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "SetRayTracingMatrixArrayParam",
@@ -5565,14 +5593,14 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::IssuePluginCustomTextur
                                        { "IssuePluginCustomTextureUpdateV2", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, targetTexture, userData);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                                            { "UnityEngine.Rendering.IBaseCommandBuffer.EnableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::UnityEngine::Material* material,
-                                                                                                                ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+                                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -5581,7 +5609,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_I
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_EnableKeyword(::UnityEngine::ComputeShader* computeShader,
-                                                                                                                ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+                                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -5589,14 +5617,14 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_I
           { "UnityEngine.Rendering.IBaseCommandBuffer.EnableKeyword", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, keyword);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "UnityEngine.Rendering.IBaseCommandBuffer.DisableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::UnityEngine::Material* material,
-                                                                                                                 ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+                                                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -5605,7 +5633,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_I
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_DisableKeyword(::UnityEngine::ComputeShader* computeShader,
-                                                                                                                 ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+                                                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -5613,7 +5641,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_I
           { "UnityEngine.Rendering.IBaseCommandBuffer.DisableKeyword", {}, { ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, computeShader, keyword);
 }
-inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
+inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
@@ -5621,7 +5649,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_I
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword, value);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::UnityEngine::Material* material,
-                                                                                                             ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+                                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "UnityEngine.Rendering.IBaseCommandBuffer.SetKeyword",
@@ -5630,7 +5658,7 @@ inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_I
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, material, keyword, value);
 }
 inline void UnityEngine::Rendering::UnsafeCommandBuffer::UnityEngine_Rendering_IBaseCommandBuffer_SetKeyword(::UnityEngine::ComputeShader* computeShader,
-                                                                                                             ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+                                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnsafeCommandBuffer*>(),
                                               { "UnityEngine.Rendering.IBaseCommandBuffer.SetKeyword",

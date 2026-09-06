@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\FileNotFoundException.hpp"
+// IWYU pragma private; include "System/IO/FileNotFoundException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,9 +79,11 @@ public:
   /// @brief Method .ctor, addr 0x5bf6d78, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW fileName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_FileName, addr 0x5bf6e3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_FusionLog, addr 0x5bf6e44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FusionLog();
 
@@ -94,20 +96,22 @@ protected:
   constexpr FileNotFoundException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileNotFoundException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileNotFoundException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileNotFoundException(FileNotFoundException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileNotFoundException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileNotFoundException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileNotFoundException(FileNotFoundException const&) = delete;
+  FileNotFoundException(FileNotFoundExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3844 };
 
+  /// [CompilerGenerated]
   /// @brief Field <FileName>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::StringW ____FileName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FusionLog>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::StringW ____FusionLog_k__BackingField;
 

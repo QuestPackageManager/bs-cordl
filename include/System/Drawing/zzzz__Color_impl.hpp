@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Drawing\Color.hpp"
+// IWYU pragma private; include "System/Drawing/Color.hpp"
 #include "System/Drawing/zzzz__Color_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -209,8 +209,9 @@ constexpr System::Drawing::Color::operator ::System::IEquatable_1<::System::Draw
 constexpr ::System::IEquatable_1<::System::Drawing::Color>* System::Drawing::Color::i___System__IEquatable_1___System__Drawing__Color_() {
   return static_cast<::System::IEquatable_1<::System::Drawing::Color>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "knownColor", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "state", ty: "int16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "knownColor", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "state", ty: "int16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Drawing::Color::Color(::StringW name, int64_t value, int16_t knownColor, int16_t state) noexcept {
   this->name = name;
   this->value = value;

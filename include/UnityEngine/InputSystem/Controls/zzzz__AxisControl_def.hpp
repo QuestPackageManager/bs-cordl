@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\AxisControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/AxisControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   // @brief default ctor
   constexpr AxisControl_Clamp();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AxisControl_Clamp(int32_t value__) noexcept;
 
   /// @brief Field AfterNormalize value: I32(2)
@@ -235,13 +235,13 @@ protected:
   constexpr AxisControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AxisControl(AxisControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AxisControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AxisControl(AxisControl const&) = delete;
+  AxisControl(AxisControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9122 };

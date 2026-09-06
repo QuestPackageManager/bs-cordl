@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\XSalsa20Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/XSalsa20Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ protected:
   constexpr XSalsa20Engine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XSalsa20Engine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XSalsa20Engine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XSalsa20Engine(XSalsa20Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XSalsa20Engine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XSalsa20Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XSalsa20Engine(XSalsa20Engine const&) = delete;
+  XSalsa20Engine(XSalsa20Engineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 884 };

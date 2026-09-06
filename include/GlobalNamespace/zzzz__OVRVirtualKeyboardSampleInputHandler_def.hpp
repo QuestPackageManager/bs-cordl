@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRVirtualKeyboardSampleInputHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboardSampleInputHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class OVRVirtualKeyboardSampleInputHandler;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*, "", "OVRVirtualKeyboardSampleInputHandler");
+// [Feature((Meta.XR.Util.Feature)9)]
 // Dependencies OVRInput::Controller, System.Nullable`1<T>, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -155,13 +156,13 @@ protected:
   constexpr OVRVirtualKeyboardSampleInputHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleInputHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleInputHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRVirtualKeyboardSampleInputHandler(OVRVirtualKeyboardSampleInputHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleInputHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleInputHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardSampleInputHandler(OVRVirtualKeyboardSampleInputHandler const&) = delete;
+  OVRVirtualKeyboardSampleInputHandler(OVRVirtualKeyboardSampleInputHandlerconst&) = delete;
 
   /// @brief Field COLLISION_BOUNDS_ADDED_BLEED_PERCENT offset 0xffffffff size 0x4
   static constexpr float_t COLLISION_BOUNDS_ADDED_BLEED_PERCENT{ static_cast<float_t>(0.1f) };
@@ -181,15 +182,19 @@ public:
   /// @brief Field OVRVirtualKeyboard, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> ___OVRVirtualKeyboard;
 
+  /// [SerializeField]
   /// @brief Field raycaster, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRRaycaster> ___raycaster;
 
+  /// [SerializeField]
   /// @brief Field inputModule, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::OVRInputModule> ___inputModule;
 
+  /// [SerializeField]
   /// @brief Field leftLinePointer, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::LineRenderer> ___leftLinePointer;
 
+  /// [SerializeField]
   /// @brief Field rightLinePointer, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::LineRenderer> ___rightLinePointer;
 

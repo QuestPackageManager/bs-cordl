@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeAppendBuffer.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeAppendBuffer.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAppendBuffer_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -95,13 +95,17 @@ inline bool Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::get
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>(), { "get_EndOfBuffer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::ReadNext(::by_ref<T> value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::ReadNext(::by_ref<T> value) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>(),
                                                                                               { "ReadNext", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-template <typename T> inline T Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::ReadNext() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::ReadNext() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>(), { "ReadNext", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -113,6 +117,7 @@ inline void* Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::Re
   return ::cordl_internals::RunMethodRethrow<void*>(*this, ___internal_method, structSize);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::ReadNext(::by_ref<::Unity::Collections::NativeArray_1<T>> value,
                                                                                       ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -123,7 +128,9 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::Rea
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value, allocator);
 }
-template <typename T> inline void* Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::ReadNextArray(::by_ref<int32_t> length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void* Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::ReadNextArray(::by_ref<int32_t> length) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>(),
                                                                                               { "ReadNextArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<int32_t>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -134,8 +141,8 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::Che
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>(), { "CheckBounds", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, structSize);
 }
-// Ctor Parameters [CppParam { name: "Ptr", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Offset", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Ptr", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Offset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::UnsafeAppendBuffer_Reader(uint8_t* Ptr, int32_t Size, int32_t Offset) noexcept {
   this->Ptr = Ptr;
   this->Size = Size;
@@ -362,7 +369,9 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::ResizeUnin
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>(), { "ResizeUninitialized", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, length);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Add(T value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Add(T value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>(), { "Add", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -373,19 +382,25 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Add(void* 
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>(), { "Add", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ptr, structSize);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::AddArray(void* ptr, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::AddArray(void* ptr, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>(),
                                                                                               { "AddArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ptr, length);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Add(::Unity::Collections::NativeArray_1<T> value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Add(::Unity::Collections::NativeArray_1<T> value) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>(),
                                                                                               { "Add", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-template <typename T> inline T Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Pop() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Pop() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>(), { "Pop", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -421,9 +436,10 @@ constexpr Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::operator ::S
 constexpr ::System::IDisposable* Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Ptr", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "Alignment", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Ptr", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Allocator", ty:
+// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Alignment", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::UnsafeAppendBuffer(uint8_t* Ptr, int32_t Length, int32_t Capacity,
                                                                                          ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t Alignment) noexcept {
   this->Ptr = Ptr;

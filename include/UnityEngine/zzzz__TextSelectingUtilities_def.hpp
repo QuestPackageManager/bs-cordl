@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextSelectingUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/TextSelectingUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,7 +89,7 @@ public:
   // @brief default ctor
   constexpr TextSelectingUtilities_CharacterType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextSelectingUtilities_CharacterType(int32_t value__) noexcept;
 
   /// @brief Field LetterLike value: I32(0)
@@ -153,7 +153,7 @@ public:
   // @brief default ctor
   constexpr TextSelectingUtilities_Direction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextSelectingUtilities_Direction(int32_t value__) noexcept;
 
   /// @brief Field Backward value: I32(1)
@@ -179,6 +179,7 @@ static_assert(offsetof(::UnityEngine::TextSelectingUtilities_Direction, value__)
 static_assert(sizeof(::UnityEngine::TextSelectingUtilities_Direction) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.TextEditor::DblClickSnapping
 namespace UnityEngine {
 // Is value type: false
@@ -298,6 +299,7 @@ public:
   /// @brief Method GetGraphicalLineStart, addr 0x6b576ac, size 0x108, virtual false, abstract: false, final false
   inline int32_t GetGraphicalLineStart(int32_t p);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method HandleKeyEvent, addr 0x6b560bc, size 0x128, virtual false, abstract: false, final false
   inline bool HandleKeyEvent(::UnityEngine::Event* e);
 
@@ -580,13 +582,13 @@ protected:
   constexpr TextSelectingUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextSelectingUtilities(TextSelectingUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextSelectingUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextSelectingUtilities(TextSelectingUtilities const&) = delete;
+  TextSelectingUtilities(TextSelectingUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19912 };
@@ -630,12 +632,15 @@ public:
   /// @brief Field m_SelectIndex, offset: 0x38, size: 0x4, def value: None
   int32_t ___m_SelectIndex;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field OnCursorIndexChange, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___OnCursorIndexChange;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field OnSelectIndexChange, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___OnSelectIndexChange;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field OnRevealCursorChange, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___OnRevealCursorChange;
 

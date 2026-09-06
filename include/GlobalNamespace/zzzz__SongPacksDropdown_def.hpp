@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongPacksDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongPacksDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ MARK_REF_T(::GlobalNamespace::SongPacksDropdown*);
 MARK_REF_T(::GlobalNamespace::SongPacksDropdown___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongPacksDropdown*, "", "SongPacksDropdown");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongPacksDropdown___c*, "", "SongPacksDropdown/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -79,13 +80,13 @@ protected:
   constexpr SongPacksDropdown___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPacksDropdown___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPacksDropdown___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPacksDropdown___c(SongPacksDropdown___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPacksDropdown___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPacksDropdown___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPacksDropdown___c(SongPacksDropdown___c const&) = delete;
+  SongPacksDropdown___c(SongPacksDropdown___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6893 };
@@ -180,9 +181,11 @@ public:
   /// @brief Method .ctor, addr 0x5940bdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x59404bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x594057c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
@@ -192,23 +195,26 @@ protected:
   constexpr SongPacksDropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPacksDropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPacksDropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPacksDropdown(SongPacksDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPacksDropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPacksDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPacksDropdown(SongPacksDropdown const&) = delete;
+  SongPacksDropdown(SongPacksDropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6894 };
 
+  /// [SerializeField]
   /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
+  /// [Inject]
   /// @brief Field _songPackMasksModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___didSelectCellWithIdxEvent;
 

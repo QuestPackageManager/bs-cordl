@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\PKCS7.hpp"
+// IWYU pragma private; include "Mono/Security/PKCS7.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -131,13 +131,13 @@ protected:
   constexpr PKCS7_ContentInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_ContentInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_ContentInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS7_ContentInfo(PKCS7_ContentInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_ContentInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_ContentInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7_ContentInfo(PKCS7_ContentInfo const&) = delete;
+  PKCS7_ContentInfo(PKCS7_ContentInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19277 };
@@ -227,13 +227,13 @@ protected:
   constexpr PKCS7_EncryptedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_EncryptedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_EncryptedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS7_EncryptedData(PKCS7_EncryptedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_EncryptedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_EncryptedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7_EncryptedData(PKCS7_EncryptedData const&) = delete;
+  PKCS7_EncryptedData(PKCS7_EncryptedDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19278 };
@@ -368,13 +368,13 @@ protected:
   constexpr PKCS7_SignedData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignedData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignedData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS7_SignedData(PKCS7_SignedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignedData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignedData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7_SignedData(PKCS7_SignedData const&) = delete;
+  PKCS7_SignedData(PKCS7_SignedDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19279 };
@@ -553,13 +553,13 @@ protected:
   constexpr PKCS7_SignerInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignerInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignerInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS7_SignerInfo(PKCS7_SignerInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignerInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7_SignerInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7_SignerInfo(PKCS7_SignerInfo const&) = delete;
+  PKCS7_SignerInfo(PKCS7_SignerInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19280 };
@@ -631,13 +631,13 @@ protected:
   constexpr PKCS7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS7(PKCS7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS7(PKCS7 const&) = delete;
+  PKCS7(PKCS7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19281 };

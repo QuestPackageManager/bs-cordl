@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\DeviceConfigurationEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/DeviceConfigurationEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   // @brief default ctor
   constexpr DeviceConfigurationEvent();
 
-  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None, comment: None }]
   constexpr DeviceConfigurationEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent) noexcept;
 
 private:

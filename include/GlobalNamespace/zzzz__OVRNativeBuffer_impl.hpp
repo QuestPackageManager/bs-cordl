@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRNativeBuffer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRNativeBuffer.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"

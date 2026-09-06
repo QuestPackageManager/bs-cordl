@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\BezierPoint.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/BezierPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,9 +66,9 @@ public:
   // @brief default ctor
   constexpr BezierPoint();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tangentIn", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "tangentOut", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "tangentIn", ty: "::UnityEngine::Vector3", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "tangentOut", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty:
+  // "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }]
   constexpr BezierPoint(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 tangentIn, ::UnityEngine::Vector3 tangentOut, ::UnityEngine::Quaternion rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

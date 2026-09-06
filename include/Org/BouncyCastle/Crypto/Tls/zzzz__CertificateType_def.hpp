@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\CertificateType.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/CertificateType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr CertificateType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateType(CertificateType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateType(CertificateType const&) = delete;
+  CertificateType(CertificateTypeconst&) = delete;
 
   /// @brief Field OpenPGP offset 0xffffffff size 0x1
   static constexpr uint8_t OpenPGP{ static_cast<uint8_t>(0x1u) };

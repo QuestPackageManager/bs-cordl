@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderInteractionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderInteractionManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,24 +129,30 @@ public:
   /// @brief Method .ctor, addr 0x597bb0c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_allSliderWereRemovedFromActiveSlidersEvent, addr 0x597b19c, size 0xc0, virtual false, abstract: false, final false
   inline void add_allSliderWereRemovedFromActiveSlidersEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_sliderWasAddedToActiveSlidersEvent, addr 0x597b0dc, size 0xc0, virtual false, abstract: false, final false
   inline void add_sliderWasAddedToActiveSlidersEvent(::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>* value);
 
   /// @brief Method get_colorType, addr 0x597b4e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_saberInteractionParam, addr 0x597b4e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_saberInteractionParam();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_allSliderWereRemovedFromActiveSlidersEvent, addr 0x597b408, size 0xc0, virtual false, abstract: false, final false
   inline void remove_allSliderWereRemovedFromActiveSlidersEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_sliderWasAddedToActiveSlidersEvent, addr 0x597b348, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sliderWasAddedToActiveSlidersEvent(::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_saberInteractionParam, addr 0x597b4f0, size 0x8, virtual false, abstract: false, final false
   inline void set_saberInteractionParam(float_t value);
 
@@ -156,29 +162,34 @@ protected:
   constexpr SliderInteractionManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderInteractionManager(SliderInteractionManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderInteractionManager(SliderInteractionManager const&) = delete;
+  SliderInteractionManager(SliderInteractionManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5732 };
 
+  /// [SerializeField]
   /// @brief Field _colorType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ____colorType;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [CompilerGenerated]
   /// @brief Field <saberInteractionParam>k__BackingField, offset: 0x30, size: 0x4, def value: None
   float_t ____saberInteractionParam_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field sliderWasAddedToActiveSlidersEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>* ___sliderWasAddedToActiveSlidersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field allSliderWereRemovedFromActiveSlidersEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* ___allSliderWereRemovedFromActiveSlidersEvent;
 

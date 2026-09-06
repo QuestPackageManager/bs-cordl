@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\HijriCalendar.hpp"
+// IWYU pragma private; include "System/Globalization/HijriCalendar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class HijriCalendar;
 // Write type traits
 MARK_REF_T(::System::Globalization::HijriCalendar*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::HijriCalendar*, "System.Globalization", "HijriCalendar");
+// [ComVisible(true)]
 // Dependencies System.DateTime, System.Globalization.Calendar
 namespace System::Globalization {
 // Is value type: false
@@ -38,8 +39,10 @@ public:
   /// @brief Field HijriMonthDays, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_HijriMonthDays, put = setStaticF_HijriMonthDays)) ::ArrayW<int32_t> HijriMonthDays;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MinSupportedDateTime)) ::System::DateTime MinSupportedDateTime;
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
@@ -166,13 +169,13 @@ protected:
   constexpr HijriCalendar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HijriCalendar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HijriCalendar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HijriCalendar(HijriCalendar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HijriCalendar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HijriCalendar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HijriCalendar(HijriCalendar const&) = delete;
+  HijriCalendar(HijriCalendarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3628 };

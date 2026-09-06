@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Unicode.hpp"
+// IWYU pragma private; include "Unity/Collections/Unicode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_VAL_T(::Unity::Collections::Unicode);
 MARK_VAL_T(::Unity::Collections::Unicode_Rune);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::Unicode, "Unity.Collections", "Unicode");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::Unicode_Rune, "Unity.Collections", "Unicode/Rune");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -34,6 +35,7 @@ namespace Unity::Collections {
 struct CORDL_TYPE Unicode_Rune {
 public:
   // Declarations
+  /// [ExcludeFromBurstCompatTesting("Takes managed object")]
   /// @brief Method Equals, addr 0x64c8f2c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
@@ -80,7 +82,7 @@ public:
   // @brief default ctor
   constexpr Unicode_Rune();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Unicode_Rune(int32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -100,6 +102,7 @@ static_assert(offsetof(::Unity::Collections::Unicode_Rune, value) == 0x0, "Offse
 static_assert(sizeof(::Unity::Collections::Unicode_Rune) == 0x4, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true

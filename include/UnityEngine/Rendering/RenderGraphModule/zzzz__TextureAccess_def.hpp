@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TextureAccess.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,9 +35,9 @@ public:
   // @brief default ctor
   constexpr TextureAccess();
 
-  // Ctor Parameters [CppParam { name: "textureHandle", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name: "mipLevel", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::AccessFlags", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "textureHandle", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "mipLevel",
+  // ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::AccessFlags", modifiers: "", def_value: None, comment: None }]
   constexpr TextureAccess(::UnityEngine::Rendering::RenderGraphModule::TextureHandle textureHandle, int32_t mipLevel, int32_t depthSlice,
                           ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags) noexcept;
 

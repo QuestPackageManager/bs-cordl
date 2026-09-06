@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PlaceholderFactoryBase_1.hpp"
+// IWYU pragma private; include "Zenject/PlaceholderFactoryBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ public:
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
 
+  /// [Inject]
   /// @brief Method Construct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Construct(::Zenject::IProvider* provider, ::Zenject::InjectContext* injectContext);
 
@@ -89,6 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__provider(::Zenject::IProvider* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -98,7 +100,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ParamTypes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ParamTypes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ParamTypes();
 
   /// @brief Convert to "::Zenject::IPlaceholderFactory"
@@ -113,13 +115,13 @@ protected:
   constexpr PlaceholderFactoryBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactoryBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactoryBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlaceholderFactoryBase_1(PlaceholderFactoryBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactoryBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactoryBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaceholderFactoryBase_1(PlaceholderFactoryBase_1 const&) = delete;
+  PlaceholderFactoryBase_1(PlaceholderFactoryBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14380 };

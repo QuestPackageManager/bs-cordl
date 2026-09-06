@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TileData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TileData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,9 @@ public:
   // @brief default ctor
   constexpr TileData();
 
-  // Ctor Parameters [CppParam { name: "tileID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "listBitMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "relLightOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "unused", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "tileID", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "listBitMask", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "relLightOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unused", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TileData(uint32_t tileID, uint32_t listBitMask, uint32_t relLightOffset, uint32_t unused) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

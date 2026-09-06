@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameObjectIntSwitchEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameObjectIntSwitchEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,9 +81,11 @@ public:
   /// @brief Method .ctor, addr 0x5994754, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isActive, addr 0x5994744, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
+  /// [CompilerGenerated]
   /// @brief Method set_isActive, addr 0x599474c, size 0x8, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
@@ -93,13 +95,13 @@ protected:
   constexpr GameObjectIntSwitchEventEffect_GameObjectValueList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect_GameObjectValueList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect_GameObjectValueList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameObjectIntSwitchEventEffect_GameObjectValueList(GameObjectIntSwitchEventEffect_GameObjectValueList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect_GameObjectValueList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect_GameObjectValueList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameObjectIntSwitchEventEffect_GameObjectValueList(GameObjectIntSwitchEventEffect_GameObjectValueList const&) = delete;
+  GameObjectIntSwitchEventEffect_GameObjectValueList(GameObjectIntSwitchEventEffect_GameObjectValueListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5844 };
@@ -110,6 +112,7 @@ public:
   /// @brief Field gameObjects, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ___gameObjects;
 
+  /// [CompilerGenerated]
   /// @brief Field <isActive>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____isActive_k__BackingField;
 
@@ -167,6 +170,7 @@ public:
   /// @brief Method HandleBasicBeatmapEventData, addr 0x59945e0, size 0x160, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
+  /// [Inject]
   /// @brief Method Initialize, addr 0x5994344, size 0x208, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -232,26 +236,31 @@ protected:
   constexpr GameObjectIntSwitchEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameObjectIntSwitchEventEffect(GameObjectIntSwitchEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameObjectIntSwitchEventEffect(GameObjectIntSwitchEventEffect const&) = delete;
+  GameObjectIntSwitchEventEffect(GameObjectIntSwitchEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5845 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapEventType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEventType;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _ignoreOnFail, offset: 0x24, size: 0x1, def value: None
   bool ____ignoreOnFail;
 
+  /// [SerializeField]
   /// @brief Field _defaultValue, offset: 0x28, size: 0x4, def value: None
   int32_t ____defaultValue;
 
+  /// [SerializeField]
   /// @brief Field _gameObjectsValueLists, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*> ____gameObjectsValueLists;
 

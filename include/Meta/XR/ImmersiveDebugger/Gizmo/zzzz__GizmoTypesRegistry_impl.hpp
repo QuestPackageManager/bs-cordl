@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\GizmoTypesRegistry.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/GizmoTypesRegistry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Gizmo/zzzz__GizmoTypesRegistry_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/Gizmo/zzzz__GizmoTypeInfo_def.hpp"

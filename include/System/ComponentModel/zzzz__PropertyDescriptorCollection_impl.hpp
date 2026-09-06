@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\PropertyDescriptorCollection.hpp"
+// IWYU pragma private; include "System/ComponentModel/PropertyDescriptorCollection.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"

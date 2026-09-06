@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FadeOutInstantly.hpp"
+// IWYU pragma private; include "GlobalNamespace/FadeOutInstantly.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeOutInstantly_def.hpp"
 #include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"

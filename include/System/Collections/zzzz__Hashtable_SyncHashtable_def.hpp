@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Hashtable_SyncHashtable.hpp"
+// IWYU pragma private; include "System/Collections/Hashtable_SyncHashtable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ class Hashtable_SyncHashtable;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::Hashtable_SyncHashtable*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::Hashtable_SyncHashtable*, "System.Collections", "Hashtable/SyncHashtable");
+// [DefaultMember("Item")]
 // Dependencies System.Collections.Hashtable
 namespace GlobalNamespace {
 // Is value type: false
@@ -154,13 +155,13 @@ protected:
   constexpr Hashtable_SyncHashtable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_SyncHashtable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_SyncHashtable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hashtable_SyncHashtable(Hashtable_SyncHashtable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_SyncHashtable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_SyncHashtable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable_SyncHashtable(Hashtable_SyncHashtable const&) = delete;
+  Hashtable_SyncHashtable(Hashtable_SyncHashtableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3729 };

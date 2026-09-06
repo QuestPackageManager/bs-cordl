@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BackgroundRepeat.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BackgroundRepeat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,8 +93,8 @@ public:
   // @brief default ctor
   constexpr BackgroundRepeat();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::UIElements::Repeat", modifiers: "", def_value: None }, CppParam { name: "y", ty: "::UnityEngine::UIElements::Repeat", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::UIElements::Repeat", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "::UnityEngine::UIElements::Repeat",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr BackgroundRepeat(::UnityEngine::UIElements::Repeat x, ::UnityEngine::UIElements::Repeat y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -159,9 +159,11 @@ public:
   /// @brief Method .ctor, addr 0x6c2fe64, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c2ff34, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c2ff2c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -171,20 +173,24 @@ protected:
   constexpr PropertyBag_BackgroundRepeat_XProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_XProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_XProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_BackgroundRepeat_XProperty(PropertyBag_BackgroundRepeat_XProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_XProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundRepeat_XProperty(PropertyBag_BackgroundRepeat_XProperty const&) = delete;
+  PropertyBag_BackgroundRepeat_XProperty(PropertyBag_BackgroundRepeat_XPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4008 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -238,9 +244,11 @@ public:
   /// @brief Method .ctor, addr 0x6c2fec8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c2ff54, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c2ff4c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -250,20 +258,24 @@ protected:
   constexpr PropertyBag_BackgroundRepeat_YProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_YProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_YProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_BackgroundRepeat_YProperty(PropertyBag_BackgroundRepeat_YProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_YProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundRepeat_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundRepeat_YProperty(PropertyBag_BackgroundRepeat_YProperty const&) = delete;
+  PropertyBag_BackgroundRepeat_YProperty(PropertyBag_BackgroundRepeat_YPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4009 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -299,13 +311,13 @@ protected:
   constexpr BackgroundRepeat_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BackgroundRepeat_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundRepeat_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BackgroundRepeat_PropertyBag(BackgroundRepeat_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BackgroundRepeat_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundRepeat_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BackgroundRepeat_PropertyBag(BackgroundRepeat_PropertyBag const&) = delete;
+  BackgroundRepeat_PropertyBag(BackgroundRepeat_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4010 };

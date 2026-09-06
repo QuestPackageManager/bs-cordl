@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IExperimentData.hpp"
+// IWYU pragma private; include "GlobalNamespace/IExperimentData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ public:
   // Declarations
   __declspec(property(get = get_experimentPlatformKey)) ::StringW experimentPlatformKey;
 
-  /// @brief Method get_experimentPlatformKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_experimentPlatformKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_experimentPlatformKey();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IExperimentData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IExperimentData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IExperimentData(IExperimentData const&) = delete;
+  IExperimentData(IExperimentDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14857 };

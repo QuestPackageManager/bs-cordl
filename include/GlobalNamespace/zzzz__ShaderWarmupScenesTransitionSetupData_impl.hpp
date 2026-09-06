@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ShaderWarmupScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/ShaderWarmupScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__ShaderWarmupScenesTransitionSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__ShaderWarmupSceneSetupData_def.hpp"

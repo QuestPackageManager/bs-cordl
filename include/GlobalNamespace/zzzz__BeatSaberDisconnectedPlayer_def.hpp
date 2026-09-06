@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberDisconnectedPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberDisconnectedPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,9 +70,11 @@ public:
   /// @brief Method .ctor, addr 0x32a8184, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
 
+  /// [CompilerGenerated]
   /// @brief Method get_activeHand, addr 0x32a81a4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerActiveHand get_activeHand();
 
+  /// [CompilerGenerated]
   /// @brief Method get_multiplayerAvatarsData, addr 0x32a8190, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
@@ -88,20 +90,22 @@ protected:
   constexpr BeatSaberDisconnectedPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberDisconnectedPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberDisconnectedPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatSaberDisconnectedPlayer(BeatSaberDisconnectedPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberDisconnectedPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberDisconnectedPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberDisconnectedPlayer(BeatSaberDisconnectedPlayer const&) = delete;
+  BeatSaberDisconnectedPlayer(BeatSaberDisconnectedPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18842 };
 
+  /// [CompilerGenerated]
   /// @brief Field <multiplayerAvatarsData>k__BackingField, offset: 0x28, size: 0x18, def value: None
   ::GlobalNamespace::MultiplayerAvatarsData ____multiplayerAvatarsData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <activeHand>k__BackingField, offset: 0x40, size: 0x1, def value: None
   ::GlobalNamespace::MultiplayerActiveHand ____activeHand_k__BackingField;
 

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\Vendor.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/Vendor.hpp"
 #include "OculusStudios/Platform/Core/zzzz__Vendor_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::Platform::Core::Vendor::Vendor(uint8_t value__) noexcept {
   this->value__ = value__;
 }

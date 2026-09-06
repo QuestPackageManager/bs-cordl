@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\Debugger.hpp"
+// IWYU pragma private; include "System/Diagnostics/Debugger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class Debugger;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::Debugger*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::Debugger*, "System.Diagnostics", "Debugger");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Diagnostics {
 // Is value type: false
@@ -46,13 +47,13 @@ protected:
   constexpr Debugger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Debugger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Debugger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Debugger(Debugger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Debugger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Debugger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Debugger(Debugger const&) = delete;
+  Debugger(Debuggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3665 };

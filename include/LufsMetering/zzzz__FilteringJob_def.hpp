@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering\FilteringJob.hpp"
+// IWYU pragma private; include "LufsMetering/FilteringJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace LufsMetering {
 struct FilterCoefficients;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJob;
@@ -24,6 +26,7 @@ struct FilteringJob;
 // Write type traits
 MARK_VAL_T(::LufsMetering::FilteringJob);
 DEFINE_IL2CPP_CLASS(::LufsMetering::FilteringJob, "LufsMetering", "FilteringJob");
+// [BurstCompile]
 // Dependencies LufsMetering.FilterCoefficients, Unity.Collections.NativeArray`1<T>
 namespace LufsMetering {
 // Is value type: true
@@ -47,8 +50,9 @@ public:
   // @brief default ctor
   constexpr FilteringJob();
 
-  // Ctor Parameters [CppParam { name: "inputData", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "coefficients", ty:
-  // "::LufsMetering::FilterCoefficients", modifiers: "", def_value: None }, CppParam { name: "outputData", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "inputData", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "coefficients", ty:
+  // "::LufsMetering::FilterCoefficients", modifiers: "", def_value: None, comment: None }, CppParam { name: "outputData", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr FilteringJob(::Unity::Collections::NativeArray_1<float_t> inputData, ::LufsMetering::FilterCoefficients coefficients, ::Unity::Collections::NativeArray_1<float_t> outputData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -57,9 +61,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [ReadOnly]
   /// @brief Field inputData, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<float_t> inputData;
 
+  /// [ReadOnly]
   /// @brief Field coefficients, offset: 0x10, size: 0x18, def value: None
   ::LufsMetering::FilterCoefficients coefficients;
 

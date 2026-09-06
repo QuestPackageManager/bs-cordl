@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MonoInstaller.hpp"
+// IWYU pragma private; include "Zenject/MonoInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ public:
   // Declarations
   static inline ::Zenject::MonoInstaller* New_ctor();
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e75e80, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -36,13 +37,13 @@ protected:
   constexpr MonoInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoInstaller(MonoInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoInstaller(MonoInstaller const&) = delete;
+  MonoInstaller(MonoInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14492 };

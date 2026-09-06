@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Configuration\DefaultProxySection.hpp"
+// IWYU pragma private; include "System/Net/Configuration/DefaultProxySection.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_impl.hpp"
 #include "System/Net/Configuration/zzzz__DefaultProxySection_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"

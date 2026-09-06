@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphProfilingScope.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphProfilingScope.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ struct RenderGraphProfilingScope;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphProfilingScope);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraphProfilingScope, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphProfilingScope");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true

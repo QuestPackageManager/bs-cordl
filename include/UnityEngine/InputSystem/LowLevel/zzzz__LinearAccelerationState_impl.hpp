@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\LinearAccelerationState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/LinearAccelerationState.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__LinearAccelerationState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
@@ -47,7 +47,7 @@ constexpr UnityEngine::InputSystem::LowLevel::LinearAccelerationState::operator 
 constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* UnityEngine::InputSystem::LowLevel::LinearAccelerationState::i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "acceleration", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "acceleration", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::LinearAccelerationState::LinearAccelerationState(::UnityEngine::Vector3 acceleration) noexcept {
   this->acceleration = acceleration;
 }

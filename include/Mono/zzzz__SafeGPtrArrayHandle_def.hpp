@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\SafeGPtrArrayHandle.hpp"
+// IWYU pragma private; include "Mono/SafeGPtrArrayHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct SafeGPtrArrayHandle;
 // Write type traits
 MARK_VAL_T(::Mono::SafeGPtrArrayHandle);
 DEFINE_IL2CPP_CLASS(::Mono::SafeGPtrArrayHandle, "Mono", "SafeGPtrArrayHandle");
+// [DefaultMember("Item")]
 // Dependencies Mono.RuntimeGPtrArrayHandle
 namespace Mono {
 // Is value type: true
@@ -53,7 +54,7 @@ public:
   // @brief default ctor
   constexpr SafeGPtrArrayHandle();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "::Mono::RuntimeGPtrArrayHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "::Mono::RuntimeGPtrArrayHandle", modifiers: "", def_value: None, comment: None }]
   constexpr SafeGPtrArrayHandle(::Mono::RuntimeGPtrArrayHandle handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

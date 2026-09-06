@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\HapticState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/HapticState.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticState_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::Haptics::HapticState._ctor
 template <>
@@ -93,8 +93,8 @@ inline void UnityEngine::InputSystem::XR::Haptics::HapticState::set_samplesAvail
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::Haptics::HapticState>(), { "set_samplesAvailable", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_samplesQueued_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_samplesAvailable_k__BackingField", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_samplesQueued_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_samplesAvailable_k__BackingField", ty:
+// "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::Haptics::HapticState::HapticState(uint32_t _samplesQueued_k__BackingField, uint32_t _samplesAvailable_k__BackingField) noexcept {
   this->_samplesQueued_k__BackingField = _samplesQueued_k__BackingField;
   this->_samplesAvailable_k__BackingField = _samplesAvailable_k__BackingField;

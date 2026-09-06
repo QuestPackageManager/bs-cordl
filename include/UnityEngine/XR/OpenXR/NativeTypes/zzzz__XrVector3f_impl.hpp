@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrVector3f.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrVector3f.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrVector3f_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f._ctor
@@ -40,8 +40,8 @@ inline void UnityEngine::XR::OpenXR::NativeTypes::XrVector3f::_ctor(::UnityEngin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "X", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Z", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "X", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "Z", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f::XrVector3f(float_t X, float_t Y, float_t Z) noexcept {
   this->X = X;
   this->Y = Y;

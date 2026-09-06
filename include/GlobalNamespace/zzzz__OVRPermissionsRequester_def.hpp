@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPermissionsRequester.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPermissionsRequester.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   // @brief default ctor
   constexpr OVRPermissionsRequester_Permission();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRPermissionsRequester_Permission(int32_t value__) noexcept;
 
   /// @brief Field BodyTracking value: I32(1)
@@ -107,6 +107,7 @@ static_assert(offsetof(::GlobalNamespace::OVRPermissionsRequester_Permission, va
 static_assert(sizeof(::GlobalNamespace::OVRPermissionsRequester_Permission) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -152,13 +153,13 @@ protected:
   constexpr OVRPermissionsRequester___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPermissionsRequester___c(OVRPermissionsRequester___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPermissionsRequester___c(OVRPermissionsRequester___c const&) = delete;
+  OVRPermissionsRequester___c(OVRPermissionsRequester___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7288 };
@@ -204,11 +205,13 @@ public:
   /// @brief Method ShouldRequestPermission, addr 0x5ea1c50, size 0x12c, virtual false, abstract: false, final false
   static inline bool ShouldRequestPermission(::GlobalNamespace::OVRPermissionsRequester_Permission permission);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PermissionGranted, addr 0x5ea1410, size 0xe0, virtual false, abstract: false, final false
   static inline void add_PermissionGranted(::System::Action_1<::StringW>* value);
 
   static inline ::System::Action_1<::StringW>* getStaticF_PermissionGranted();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PermissionGranted, addr 0x5ea14f0, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_PermissionGranted(::System::Action_1<::StringW>* value);
 
@@ -220,13 +223,13 @@ protected:
   constexpr OVRPermissionsRequester();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPermissionsRequester(OVRPermissionsRequester&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPermissionsRequester", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPermissionsRequester(OVRPermissionsRequester const&) = delete;
+  OVRPermissionsRequester(OVRPermissionsRequesterconst&) = delete;
 
   /// @brief Field BodyTrackingPermission offset 0xffffffff size 0x8
   static constexpr ::ConstString BodyTrackingPermission{ u"com.oculus.permission.BODY_TRACKING" };

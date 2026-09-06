@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Int32.hpp"
+// IWYU pragma private; include "System/Int32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ struct Int32;
 // Write type traits
 MARK_VAL_T(::System::Int32);
 DEFINE_IL2CPP_CLASS(::System::Int32, "System", "Int32");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -94,6 +95,7 @@ public:
   /// @brief Method Equals, addr 0x5c462b4, size 0x34, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NonVersionable]
   /// @brief Method Equals, addr 0x5c462e8, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(int32_t obj);
 
@@ -212,7 +214,7 @@ public:
   // @brief default ctor
   constexpr Int32();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Int32(int32_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

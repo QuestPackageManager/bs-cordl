@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\SpriteState.hpp"
+// IWYU pragma private; include "UnityEngine/UI/SpriteState.hpp"
 #include "UnityEngine/UI/zzzz__SpriteState_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
@@ -165,9 +165,9 @@ constexpr UnityEngine::UI::SpriteState::operator ::System::IEquatable_1<::UnityE
 constexpr ::System::IEquatable_1<::UnityEngine::UI::SpriteState>* UnityEngine::UI::SpriteState::i___System__IEquatable_1___UnityEngine__UI__SpriteState_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UI::SpriteState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_HighlightedSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PressedSprite", ty:
-// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SelectedSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_DisabledSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_HighlightedSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PressedSprite", ty:
+// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SelectedSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_DisabledSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::SpriteState::SpriteState(::UnityW<::UnityEngine::Sprite> m_HighlightedSprite, ::UnityW<::UnityEngine::Sprite> m_PressedSprite,
                                                       ::UnityW<::UnityEngine::Sprite> m_SelectedSprite, ::UnityW<::UnityEngine::Sprite> m_DisabledSprite) noexcept {
   this->m_HighlightedSprite = m_HighlightedSprite;

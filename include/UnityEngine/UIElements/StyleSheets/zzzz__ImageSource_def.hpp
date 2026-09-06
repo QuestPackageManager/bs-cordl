@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\ImageSource.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ImageSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ struct ImageSource;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ImageSource);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::ImageSource, "UnityEngine.UIElements.StyleSheets", "ImageSource");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
@@ -38,9 +39,9 @@ public:
   // @brief default ctor
   constexpr ImageSource();
 
-  // Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>",
-  // modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: None }, CppParam { name: "renderTexture", ty:
-  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sprite", ty:
+  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "renderTexture", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }]
   constexpr ImageSource(::UnityW<::UnityEngine::Texture2D> texture, ::UnityW<::UnityEngine::Sprite> sprite, ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage,
                         ::UnityW<::UnityEngine::RenderTexture> renderTexture) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfileInstaller.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfileInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ControllerProfileInstaller;
 // Write type traits
 MARK_REF_T(::BeatSaber::GameSettings::ControllerProfileInstaller*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::GameSettings::ControllerProfileInstaller*, "BeatSaber.GameSettings", "ControllerProfileInstaller");
+// [Nullable(new[] { 0, 1 })]
 // Dependencies Zenject.Installer`1<TDerived>
 namespace BeatSaber::GameSettings {
 // Is value type: false
@@ -33,13 +34,13 @@ protected:
   constexpr ControllerProfileInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerProfileInstaller(ControllerProfileInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfileInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfileInstaller(ControllerProfileInstaller const&) = delete;
+  ControllerProfileInstaller(ControllerProfileInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22047 };

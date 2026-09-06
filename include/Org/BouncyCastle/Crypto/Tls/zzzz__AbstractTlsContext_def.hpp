@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\AbstractTlsContext.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -154,7 +154,7 @@ public:
   /// @brief Method get_ClientVersion, addr 0x3436094, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ClientVersion();
 
-  /// @brief Method get_IsServer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsServer();
 
   /// @brief Method get_NonceRandomGenerator, addr 0x343607c, size 0x8, virtual true, abstract: false, final false
@@ -189,13 +189,13 @@ protected:
   constexpr AbstractTlsContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractTlsContext(AbstractTlsContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractTlsContext(AbstractTlsContext const&) = delete;
+  AbstractTlsContext(AbstractTlsContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1167 };

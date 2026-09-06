@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ISaberSwingRatingCounter.hpp"
+// IWYU pragma private; include "GlobalNamespace/ISaberSwingRatingCounter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,27 +29,27 @@ public:
 
   __declspec(property(get = get_beforeCutRating)) float_t beforeCutRating;
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterDidChangeReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterDidFinishReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method get_afterCutRating, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_afterCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_afterCutRating();
 
-  /// @brief Method get_beforeCutRating, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_beforeCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_beforeCutRating();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISaberSwingRatingCounter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISaberSwingRatingCounter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISaberSwingRatingCounter(ISaberSwingRatingCounter const&) = delete;
+  ISaberSwingRatingCounter(ISaberSwingRatingCounterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21188 };

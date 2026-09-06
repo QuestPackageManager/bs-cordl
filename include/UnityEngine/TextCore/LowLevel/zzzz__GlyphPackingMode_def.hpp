@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphPackingMode.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphPackingMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct GlyphPackingMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphPackingMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphPackingMode, "UnityEngine.TextCore.LowLevel", "GlyphPackingMode");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr GlyphPackingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GlyphPackingMode(int32_t value__) noexcept;
 
   /// @brief Field BestAreaFit value: I32(2)

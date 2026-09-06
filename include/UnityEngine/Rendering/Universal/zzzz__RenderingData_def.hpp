@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderingData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,10 +75,10 @@ public:
   // @brief default ctor
   constexpr RenderingData();
 
-  // Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None }, CppParam { name: "cameraData", ty:
-  // "::UnityEngine::Rendering::Universal::CameraData", modifiers: "", def_value: None }, CppParam { name: "lightData", ty: "::UnityEngine::Rendering::Universal::LightData", modifiers: "", def_value:
-  // None }, CppParam { name: "shadowData", ty: "::UnityEngine::Rendering::Universal::ShadowData", modifiers: "", def_value: None }, CppParam { name: "postProcessingData", ty:
-  // "::UnityEngine::Rendering::Universal::PostProcessingData", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cameraData", ty:
+  // "::UnityEngine::Rendering::Universal::CameraData", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightData", ty: "::UnityEngine::Rendering::Universal::LightData", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "shadowData", ty: "::UnityEngine::Rendering::Universal::ShadowData", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "postProcessingData", ty: "::UnityEngine::Rendering::Universal::PostProcessingData", modifiers: "", def_value: None, comment: None }]
   constexpr RenderingData(::UnityEngine::Rendering::ContextContainer* frameData, ::UnityEngine::Rendering::Universal::CameraData cameraData, ::UnityEngine::Rendering::Universal::LightData lightData,
                           ::UnityEngine::Rendering::Universal::ShadowData shadowData, ::UnityEngine::Rendering::Universal::PostProcessingData postProcessingData) noexcept;
 

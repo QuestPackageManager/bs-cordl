@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongPackMask.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongPackMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,8 @@ struct SongPackMask;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::SongPackMask);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongPackMask, "", "SongPackMask");
+// [IsReadOnly]
+// [JsonConverter(typeof(SongPackMaskConverter))]
 // Dependencies BitMask256
 namespace GlobalNamespace {
 // Is value type: true
@@ -138,7 +140,7 @@ public:
   // @brief default ctor
   constexpr SongPackMask();
 
-  // Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask256", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask256", modifiers: "", def_value: None, comment: None }]
   constexpr SongPackMask(::GlobalNamespace::BitMask256 _bloomFilter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

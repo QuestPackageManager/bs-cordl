@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerCreatorBindInfo.hpp"
+// IWYU pragma private; include "Zenject/SubContainerCreatorBindInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class SubContainerCreatorBindInfo;
 // Write type traits
 MARK_REF_T(::Zenject::SubContainerCreatorBindInfo*);
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerCreatorBindInfo*, "Zenject", "SubContainerCreatorBindInfo");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -61,21 +62,27 @@ public:
   /// @brief Method .ctor, addr 0x6e8a484, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CreateKernel, addr 0x6e8a464, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateKernel();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DefaultParentName, addr 0x6e8a454, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultParentName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_KernelType, addr 0x6e8a474, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_KernelType();
 
+  /// [CompilerGenerated]
   /// @brief Method set_CreateKernel, addr 0x6e8a46c, size 0x8, virtual false, abstract: false, final false
   inline void set_CreateKernel(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DefaultParentName, addr 0x6e8a45c, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultParentName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_KernelType, addr 0x6e8a47c, size 0x8, virtual false, abstract: false, final false
   inline void set_KernelType(::System::Type* value);
 
@@ -85,23 +92,26 @@ protected:
   constexpr SubContainerCreatorBindInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorBindInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorBindInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorBindInfo(SubContainerCreatorBindInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorBindInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorBindInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorBindInfo(SubContainerCreatorBindInfo const&) = delete;
+  SubContainerCreatorBindInfo(SubContainerCreatorBindInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14596 };
 
+  /// [CompilerGenerated]
   /// @brief Field <DefaultParentName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____DefaultParentName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CreateKernel>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____CreateKernel_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <KernelType>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ____KernelType_k__BackingField;
 

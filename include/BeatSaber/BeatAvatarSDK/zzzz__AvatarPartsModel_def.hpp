@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\AvatarPartsModel.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarPartsModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace BeatSaber::BeatAvatarSDK {
 class AvatarMeshPartSO;
 }
 namespace BeatSaber::BeatAvatarSDK {
-template <typename T> class AvatarPartCollection_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::BeatSaber::BeatAvatarSDK::IAvatarPart*>)
+class AvatarPartCollection_1;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarPartsModelSO;
@@ -170,27 +172,35 @@ public:
   /// @brief Method .ctor, addr 0x327bf98, size 0x278, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* avatarPartData, ::BeatSaber::BeatAvatarSDK::SkinColorSetSO* skinColorSet);
 
+  /// [CompilerGenerated]
   /// @brief Method get_clothesCollection, addr 0x327bf88, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_clothesCollection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_eyesCollection, addr 0x327bf60, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* get_eyesCollection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_facialHairCollection, addr 0x327bf78, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_facialHairCollection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_glassesCollection, addr 0x327bf70, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_glassesCollection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_handsCollection, addr 0x327bf80, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_handsCollection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_headTopCollection, addr 0x327bf58, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_headTopCollection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mouthCollection, addr 0x327bf68, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* get_mouthCollection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_skinColors, addr 0x327bf90, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>> get_skinColors();
 
@@ -200,38 +210,46 @@ protected:
   constexpr AvatarPartsModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarPartsModel(AvatarPartsModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarPartsModel(AvatarPartsModel const&) = delete;
+  AvatarPartsModel(AvatarPartsModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22333 };
 
+  /// [CompilerGenerated]
   /// @brief Field <headTopCollection>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* ____headTopCollection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <eyesCollection>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* ____eyesCollection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mouthCollection>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* ____mouthCollection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <glassesCollection>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* ____glassesCollection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <facialHairCollection>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* ____facialHairCollection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <handsCollection>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* ____handsCollection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <clothesCollection>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* ____clothesCollection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <skinColors>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>> ____skinColors_k__BackingField;
 

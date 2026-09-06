@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,20 +68,23 @@ protected:
   constexpr FloatFxGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxGroup(FloatFxGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxGroup(FloatFxGroup const&) = delete;
+  FloatFxGroup(FloatFxGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5855 };
 
+  /// [SerializeField]
   /// @brief Field _isTriggerOnly, offset: 0x28, size: 0x1, def value: None
   bool ____isTriggerOnly;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _targets, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* ____targets;
 

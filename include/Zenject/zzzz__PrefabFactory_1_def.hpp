@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PrefabFactory_1.hpp"
+// IWYU pragma private; include "Zenject/PrefabFactory_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,6 +65,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -89,17 +90,18 @@ protected:
   constexpr PrefabFactory_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabFactory_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabFactory_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabFactory_1(PrefabFactory_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabFactory_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabFactory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabFactory_1(PrefabFactory_1 const&) = delete;
+  PrefabFactory_1(PrefabFactory_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14454 };
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

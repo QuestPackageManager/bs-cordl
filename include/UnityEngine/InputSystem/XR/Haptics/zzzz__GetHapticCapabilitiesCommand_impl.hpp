@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\GetHapticCapabilitiesCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/GetHapticCapabilitiesCommand.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__GetHapticCapabilitiesCommand_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
@@ -152,10 +152,11 @@ constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*
 UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}") }, CppParam { name: "numChannels", ty:
-// "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportsImpulse", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportsBuffer", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "frequencyHz", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxBufferSize", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "optimalBufferSize", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "numChannels", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "supportsImpulse", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "supportsBuffer", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "frequencyHz", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "maxBufferSize", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "optimalBufferSize", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand::GetHapticCapabilitiesCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand,
                                                                                                               uint32_t numChannels, bool supportsImpulse, bool supportsBuffer, uint32_t frequencyHz,
                                                                                                               uint32_t maxBufferSize, uint32_t optimalBufferSize) noexcept {

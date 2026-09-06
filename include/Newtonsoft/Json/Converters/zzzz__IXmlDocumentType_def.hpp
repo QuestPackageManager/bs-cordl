@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\IXmlDocumentType.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/IXmlDocumentType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class IXmlDocumentType;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::IXmlDocumentType*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::IXmlDocumentType*, "Newtonsoft.Json.Converters", "IXmlDocumentType");
+// [NullableContext(2)]
 // Dependencies
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -24,6 +25,7 @@ public:
   // Declarations
   __declspec(property(get = get_InternalSubset)) ::StringW InternalSubset;
 
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_Name)) ::StringW Name;
 
   __declspec(property(get = get_Public)) ::StringW Public;
@@ -33,24 +35,25 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method get_InternalSubset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_InternalSubset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [NullableContext(1)]
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Public, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Public, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Public();
 
-  /// @brief Method get_System, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_System, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_System();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IXmlDocumentType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IXmlDocumentType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IXmlDocumentType(IXmlDocumentType const&) = delete;
+  IXmlDocumentType(IXmlDocumentTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13676 };

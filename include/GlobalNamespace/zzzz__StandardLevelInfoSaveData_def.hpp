@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelInfoSaveData.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelInfoSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -154,35 +154,42 @@ protected:
   constexpr StandardLevelInfoSaveData_DifficultyBeatmap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelInfoSaveData_DifficultyBeatmap(StandardLevelInfoSaveData_DifficultyBeatmap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelInfoSaveData_DifficultyBeatmap(StandardLevelInfoSaveData_DifficultyBeatmap const&) = delete;
+  StandardLevelInfoSaveData_DifficultyBeatmap(StandardLevelInfoSaveData_DifficultyBeatmapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15200 };
 
+  /// [SerializeField]
   /// @brief Field _difficulty, offset: 0x10, size: 0x8, def value: None
   ::StringW ____difficulty;
 
+  /// [SerializeField]
   /// @brief Field _difficultyRank, offset: 0x18, size: 0x4, def value: None
   int32_t ____difficultyRank;
 
+  /// [SerializeField]
   /// @brief Field _beatmapFilename, offset: 0x20, size: 0x8, def value: None
   ::StringW ____beatmapFilename;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpMovementSpeed, offset: 0x28, size: 0x4, def value: None
   float_t ____noteJumpMovementSpeed;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpStartBeatOffset, offset: 0x2c, size: 0x4, def value: None
   float_t ____noteJumpStartBeatOffset;
 
+  /// [SerializeField]
   /// @brief Field _beatmapColorSchemeIdx, offset: 0x30, size: 0x4, def value: None
   int32_t ____beatmapColorSchemeIdx;
 
+  /// [SerializeField]
   /// @brief Field _environmentNameIdx, offset: 0x34, size: 0x4, def value: None
   int32_t ____environmentNameIdx;
 
@@ -254,20 +261,22 @@ protected:
   constexpr StandardLevelInfoSaveData_DifficultyBeatmapSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmapSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmapSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelInfoSaveData_DifficultyBeatmapSet(StandardLevelInfoSaveData_DifficultyBeatmapSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmapSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmapSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelInfoSaveData_DifficultyBeatmapSet(StandardLevelInfoSaveData_DifficultyBeatmapSet const&) = delete;
+  StandardLevelInfoSaveData_DifficultyBeatmapSet(StandardLevelInfoSaveData_DifficultyBeatmapSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15199 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapCharacteristicName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____beatmapCharacteristicName;
 
+  /// [SerializeField]
   /// @brief Field _difficultyBeatmaps, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*> ____difficultyBeatmaps;
 
@@ -572,13 +581,13 @@ protected:
   constexpr StandardLevelInfoSaveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelInfoSaveData(StandardLevelInfoSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelInfoSaveData(StandardLevelInfoSaveData const&) = delete;
+  StandardLevelInfoSaveData(StandardLevelInfoSaveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15201 };
@@ -589,57 +598,75 @@ public:
   /// @brief Field kDefaultBeatmapCharacteristicName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultBeatmapCharacteristicName{ u"Standard" };
 
+  /// [SerializeField]
   /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
   ::StringW ____version;
 
+  /// [SerializeField]
   /// @brief Field _songName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____songName;
 
+  /// [SerializeField]
   /// @brief Field _songSubName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____songSubName;
 
+  /// [SerializeField]
   /// @brief Field _songAuthorName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____songAuthorName;
 
+  /// [SerializeField]
   /// @brief Field _levelAuthorName, offset: 0x30, size: 0x8, def value: None
   ::StringW ____levelAuthorName;
 
+  /// [SerializeField]
   /// @brief Field _beatsPerMinute, offset: 0x38, size: 0x4, def value: None
   float_t ____beatsPerMinute;
 
+  /// [SerializeField]
   /// @brief Field _songTimeOffset, offset: 0x3c, size: 0x4, def value: None
   float_t ____songTimeOffset;
 
+  /// [SerializeField]
   /// @brief Field _shuffle, offset: 0x40, size: 0x4, def value: None
   float_t ____shuffle;
 
+  /// [SerializeField]
   /// @brief Field _shufflePeriod, offset: 0x44, size: 0x4, def value: None
   float_t ____shufflePeriod;
 
+  /// [SerializeField]
   /// @brief Field _previewStartTime, offset: 0x48, size: 0x4, def value: None
   float_t ____previewStartTime;
 
+  /// [SerializeField]
   /// @brief Field _previewDuration, offset: 0x4c, size: 0x4, def value: None
   float_t ____previewDuration;
 
+  /// [SerializeField]
   /// @brief Field _songFilename, offset: 0x50, size: 0x8, def value: None
   ::StringW ____songFilename;
 
+  /// [SerializeField]
   /// @brief Field _coverImageFilename, offset: 0x58, size: 0x8, def value: None
   ::StringW ____coverImageFilename;
 
+  /// [SerializeField]
   /// @brief Field _environmentName, offset: 0x60, size: 0x8, def value: None
   ::StringW ____environmentName;
 
+  /// [SerializeField]
   /// @brief Field _allDirectionsEnvironmentName, offset: 0x68, size: 0x8, def value: None
   ::StringW ____allDirectionsEnvironmentName;
 
+  /// [SerializeField]
   /// @brief Field _environmentNames, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::StringW> ____environmentNames;
 
+  /// [SerializeField]
   /// @brief Field _colorSchemes, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*> ____colorSchemes;
 
+  /// [SerializeField]
   /// @brief Field _difficultyBeatmapSets, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*> ____difficultyBeatmapSets;
 

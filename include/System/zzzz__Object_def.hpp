@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Object.hpp"
+// IWYU pragma private; include "System/Object.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class Object;
 // Write type traits
 MARK_REF_T(::System::Object*);
 DEFINE_IL2CPP_CLASS(::System::Object*, "System", "Object");
+// [ComVisible(true)]
+// [ClassInterface((System.Runtime.InteropServices.ClassInterfaceType)2)]
 // Dependencies
 namespace System {
 // Is value type: false
@@ -35,6 +37,7 @@ public:
   /// @brief Method FieldSetter, addr 0x5c97878, size 0x4, virtual false, abstract: false, final false
   inline void FieldSetter(::StringW typeName, ::StringW fieldName, ::System::Object* val);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Finalize, addr 0x5c97814, size 0x4, virtual true, abstract: false, final false
   inline void Finalize();
 
@@ -50,14 +53,17 @@ public:
   /// @brief Method MemberwiseClone, addr 0x5c91e34, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* MemberwiseClone();
 
+  /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   static inline ::System::Object* New_ctor();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method ReferenceEquals, addr 0x5c97868, size 0xc, virtual false, abstract: false, final false
   static inline bool ReferenceEquals(::System::Object* objA, ::System::Object* objB);
 
   /// @brief Method ToString, addr 0x5c97840, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method .ctor, addr 0x5c89f1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -67,13 +73,13 @@ protected:
   constexpr Object();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Object(Object&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Object(Object const&) = delete;
+  Object(Objectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2623 };

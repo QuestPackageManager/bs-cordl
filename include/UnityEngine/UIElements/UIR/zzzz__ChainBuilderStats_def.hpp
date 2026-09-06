@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\ChainBuilderStats.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/ChainBuilderStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,18 +24,20 @@ public:
   // @brief default ctor
   constexpr ChainBuilderStats();
 
-  // Ctor Parameters [CppParam { name: "elementsAdded", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "elementsRemoved", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "recursiveClipUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "recursiveClipUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "nonRecursiveClipUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "recursiveTransformUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "recursiveTransformUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "recursiveOpacityUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "recursiveOpacityUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "opacityIdUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "colorUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "colorUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "recursiveVisualUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "recursiveVisualUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "nonRecursiveVisualUpdates", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "dirtyProcessed", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "nudgeTransformed", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "boneTransformed", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "skipTransformed", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "visualUpdateTransformed", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "updatedMeshAllocations", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "newMeshAllocations", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "groupTransformElementsChanged", ty:
-  // "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "elementsAdded", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "elementsRemoved", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "recursiveClipUpdates", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "recursiveClipUpdatesExpanded", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "nonRecursiveClipUpdates", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "recursiveTransformUpdates", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "recursiveTransformUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "recursiveOpacityUpdates", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "recursiveOpacityUpdatesExpanded", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "opacityIdUpdates", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "colorUpdates", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "colorUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "recursiveVisualUpdates", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "recursiveVisualUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "nonRecursiveVisualUpdates", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "dirtyProcessed", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "nudgeTransformed", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "boneTransformed", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "skipTransformed", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "visualUpdateTransformed",
+  // ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "updatedMeshAllocations", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "newMeshAllocations", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "groupTransformElementsChanged", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ChainBuilderStats(uint32_t elementsAdded, uint32_t elementsRemoved, uint32_t recursiveClipUpdates, uint32_t recursiveClipUpdatesExpanded, uint32_t nonRecursiveClipUpdates,
                               uint32_t recursiveTransformUpdates, uint32_t recursiveTransformUpdatesExpanded, uint32_t recursiveOpacityUpdates, uint32_t recursiveOpacityUpdatesExpanded,
                               uint32_t opacityIdUpdates, uint32_t colorUpdates, uint32_t colorUpdatesExpanded, uint32_t recursiveVisualUpdates, uint32_t recursiveVisualUpdatesExpanded,

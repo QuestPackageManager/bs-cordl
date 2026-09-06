@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\IAttributes.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/IAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,24 +32,24 @@ public:
   // Declarations
   __declspec(property(get = get_Attributes, put = set_Attributes)) ::System::Collections::Generic::List_1<::System::Attribute*>* Attributes;
 
-  /// @brief Method AddAttribute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddAttribute(::System::Attribute* attribute);
 
-  /// @brief Method AddAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddAttributes(::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* attributes);
 
-  /// @brief Method CreateAttributesScope, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateAttributesScope, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Properties::AttributesScope CreateAttributesScope(::Unity::Properties::Internal::IAttributes* attributes);
 
-  /// @brief Method get_Attributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::List_1<::System::Attribute*>* get_Attributes();
 
-  /// @brief Method set_Attributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Attributes(::System::Collections::Generic::List_1<::System::Attribute*>* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAttributes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAttributes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAttributes(IAttributes const&) = delete;
+  IAttributes(IAttributesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19711 };

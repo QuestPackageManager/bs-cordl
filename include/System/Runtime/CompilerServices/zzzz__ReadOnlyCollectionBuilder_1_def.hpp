@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ReadOnlyCollectionBuilder_1.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ReadOnlyCollectionBuilder_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,13 +152,13 @@ protected:
   constexpr ReadOnlyCollectionBuilder_1_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1_Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1_Enumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReadOnlyCollectionBuilder_1_Enumerator(ReadOnlyCollectionBuilder_1_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1_Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyCollectionBuilder_1_Enumerator(ReadOnlyCollectionBuilder_1_Enumerator const&) = delete;
+  ReadOnlyCollectionBuilder_1_Enumerator(ReadOnlyCollectionBuilder_1_Enumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16632 };
@@ -179,6 +179,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
@@ -383,13 +384,13 @@ protected:
   constexpr ReadOnlyCollectionBuilder_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReadOnlyCollectionBuilder_1(ReadOnlyCollectionBuilder_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyCollectionBuilder_1(ReadOnlyCollectionBuilder_1 const&) = delete;
+  ReadOnlyCollectionBuilder_1(ReadOnlyCollectionBuilder_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16633 };

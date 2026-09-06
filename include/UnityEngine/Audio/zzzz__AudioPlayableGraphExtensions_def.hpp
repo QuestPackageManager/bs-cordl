@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioPlayableGraphExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioPlayableGraphExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,9 @@ class AudioPlayableGraphExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Audio::AudioPlayableGraphExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Audio::AudioPlayableGraphExtensions*, "UnityEngine.Audio", "AudioPlayableGraphExtensions");
+// [StaticAccessor("AudioPlayableGraphExtensionsBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Runtime/Director/Core/HPlayableOutput.h")]
+// [NativeHeader("Modules/Audio/Public/ScriptBindings/AudioPlayableGraphExtensions.bindings.h")]
 // Dependencies System.Object
 namespace UnityEngine::Audio {
 // Is value type: false
@@ -29,6 +32,7 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [NativeThrows]
   /// @brief Method InternalCreateAudioOutput, addr 0x6a58a40, size 0x148, virtual false, abstract: false, final false
   static inline bool InternalCreateAudioOutput(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ::by_ref<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
@@ -42,13 +46,13 @@ protected:
   constexpr AudioPlayableGraphExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableGraphExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableGraphExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioPlayableGraphExtensions(AudioPlayableGraphExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableGraphExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableGraphExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioPlayableGraphExtensions(AudioPlayableGraphExtensions const&) = delete;
+  AudioPlayableGraphExtensions(AudioPlayableGraphExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21087 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PrivacyPolicyView.hpp"
+// IWYU pragma private; include "GlobalNamespace/PrivacyPolicyView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyView_def.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"

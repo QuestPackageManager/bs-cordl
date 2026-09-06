@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ocsp\OcspObjectIdentifiers.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/OcspObjectIdentifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,13 +90,13 @@ protected:
   constexpr OcspObjectIdentifiers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcspObjectIdentifiers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcspObjectIdentifiers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcspObjectIdentifiers(OcspObjectIdentifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcspObjectIdentifiers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcspObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcspObjectIdentifiers(OcspObjectIdentifiers const&) = delete;
+  OcspObjectIdentifiers(OcspObjectIdentifiersconst&) = delete;
 
   /// @brief Field PkixOcspId offset 0xffffffff size 0x8
   static constexpr ::ConstString PkixOcspId{ u"1.3.6.1.5.5.7.48.1" };

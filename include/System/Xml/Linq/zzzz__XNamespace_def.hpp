@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XNamespace.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XNamespace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,6 +132,7 @@ public:
   /// @brief Method op_Equality, addr 0x61a8bd0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::Linq::XNamespace* left, ::System::Xml::Linq::XNamespace* right);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x61ab108, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* op_Implicit___System__Xml__Linq__XNamespace_(::StringW namespaceName);
 
@@ -152,13 +153,13 @@ protected:
   constexpr XNamespace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XNamespace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XNamespace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XNamespace(XNamespace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XNamespace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XNamespace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XNamespace(XNamespace const&) = delete;
+  XNamespace(XNamespaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21989 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Factory_1.hpp"
+// IWYU pragma private; include "Zenject/Factory_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ template <typename TValue> class Factory_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::Factory_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::Factory_1, "Zenject", "Factory`1");
+// [Obsolete("Zenject.Factory has been renamed to PlaceholderFactory.  Zenject.Factory will be removed in future versions")]
 // Dependencies Zenject.PlaceholderFactory`1<TValue>
 namespace Zenject {
 // cpp template
@@ -33,6 +34,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -45,13 +47,13 @@ protected:
   constexpr Factory_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Factory_1(Factory_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Factory_1(Factory_1 const&) = delete;
+  Factory_1(Factory_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14357 };

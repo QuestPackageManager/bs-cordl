@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialLightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,29 +128,37 @@ protected:
   constexpr MaterialLightWithIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialLightWithIds(MaterialLightWithIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialLightWithIds(MaterialLightWithIds const&) = delete;
+  MaterialLightWithIds(MaterialLightWithIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19547 };
 
+  /// [SerializeField]
   /// @brief Field _meshRenderer, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
+  /// [SerializeField]
   /// @brief Field _setAlphaOnly, offset: 0x58, size: 0x1, def value: None
   bool ____setAlphaOnly;
 
+  /// [SerializeField]
+  /// [DrawIf("_setAlphaOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _alphaIntoColor, offset: 0x59, size: 0x1, def value: None
   bool ____alphaIntoColor;
 
+  /// [SerializeField]
+  /// [DrawIf("_setAlphaOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _setColorOnly, offset: 0x5a, size: 0x1, def value: None
   bool ____setColorOnly;
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromRenderer("_meshRenderer", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)1)]
   /// @brief Field _colorProperty, offset: 0x60, size: 0x8, def value: None
   ::StringW ____colorProperty;
 

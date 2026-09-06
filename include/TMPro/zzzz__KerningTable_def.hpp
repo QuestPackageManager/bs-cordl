@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\KerningTable.hpp"
+// IWYU pragma private; include "TMPro/KerningTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ DEFINE_IL2CPP_CLASS(::TMPro::KerningTable___c*, "TMPro", "KerningTable/<>c");
 DEFINE_IL2CPP_CLASS(::TMPro::KerningTable___c__DisplayClass3_0*, "TMPro", "KerningTable/<>c__DisplayClass3_0");
 DEFINE_IL2CPP_CLASS(::TMPro::KerningTable___c__DisplayClass4_0*, "TMPro", "KerningTable/<>c__DisplayClass4_0");
 DEFINE_IL2CPP_CLASS(::TMPro::KerningTable___c__DisplayClass5_0*, "TMPro", "KerningTable/<>c__DisplayClass5_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -103,13 +104,13 @@ protected:
   constexpr KerningTable___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KerningTable___c(KerningTable___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c(KerningTable___c const&) = delete;
+  KerningTable___c(KerningTable___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15923 };
@@ -120,6 +121,7 @@ public:
 static_assert(sizeof(::TMPro::KerningTable___c) == 0x10, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -159,13 +161,13 @@ protected:
   constexpr KerningTable___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0 const&) = delete;
+  KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15924 };
@@ -186,6 +188,7 @@ static_assert(offsetof(::TMPro::KerningTable___c__DisplayClass3_0, ___second) ==
 static_assert(sizeof(::TMPro::KerningTable___c__DisplayClass3_0) == 0x18, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -225,13 +228,13 @@ protected:
   constexpr KerningTable___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0 const&) = delete;
+  KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15925 };
@@ -252,6 +255,7 @@ static_assert(offsetof(::TMPro::KerningTable___c__DisplayClass4_0, ___second) ==
 static_assert(sizeof(::TMPro::KerningTable___c__DisplayClass4_0) == 0x18, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -291,13 +295,13 @@ protected:
   constexpr KerningTable___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0 const&) = delete;
+  KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15926 };
@@ -371,13 +375,13 @@ protected:
   constexpr KerningTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KerningTable(KerningTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable(KerningTable const&) = delete;
+  KerningTable(KerningTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15927 };

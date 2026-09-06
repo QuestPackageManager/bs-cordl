@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Web\DefaultRequestSender.hpp"
+// IWYU pragma private; include "OSCE/Web/DefaultRequestSender.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OSCE/Web/zzzz__DefaultRequestSender_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"

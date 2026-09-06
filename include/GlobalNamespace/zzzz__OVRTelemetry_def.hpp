@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTelemetry.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTelemetry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,6 +75,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRTelemetry_NullTelemetryClient*, "", "O
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRTelemetry_QPLTelemetryClient*, "", "OVRTelemetry/QPLTelemetryClient");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRTelemetry_TelemetryClient*, "", "OVRTelemetry/TelemetryClient");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRTelemetry_MarkerPoint, "", "OVRTelemetry/MarkerPoint");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -93,6 +94,7 @@ public:
   /// @brief Method .ctor, addr 0x5edeb14, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
+  /// [CompilerGenerated]
   /// @brief Method get_NameHandle, addr 0x5edeb0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NameHandle();
 
@@ -103,7 +105,7 @@ public:
   // @brief default ctor
   constexpr OVRTelemetry_MarkerPoint();
 
-  // Ctor Parameters [CppParam { name: "_NameHandle_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_NameHandle_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTelemetry_MarkerPoint(int32_t _NameHandle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,6 +114,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// [CompilerGenerated]
   /// @brief Field <NameHandle>k__BackingField, offset: 0x0, size: 0x4, def value: None
   int32_t _NameHandle_k__BackingField;
 
@@ -130,13 +133,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRTelemetry_TelemetryClient : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMarkerHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateMarkerHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CreateMarkerHandle(::StringW name, ::by_ref<int32_t> nameHandle);
 
-  /// @brief Method DestroyMarkerHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DestroyMarkerHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool DestroyMarkerHandle(int32_t nameHandle);
 
-  /// @brief Method MarkerAnnotation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarkerAnnotation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey);
 
   /// @brief Method MarkerAnnotation, addr 0x5edec0c, size 0x18, virtual false, abstract: false, final false
@@ -160,22 +163,22 @@ public:
   /// @brief Method MarkerAnnotation, addr 0x5edec54, size 0x1c, virtual false, abstract: false, final false
   inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, uint8_t* annotationValues, int32_t count, int32_t instanceKey);
 
-  /// @brief Method MarkerAnnotation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarkerAnnotation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarkerAnnotation(int32_t markerId, ::StringW key, ::GlobalNamespace::Qpl_OVRPlugin_Variant value, int32_t instanceKey);
 
-  /// @brief Method MarkerEnd, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarkerEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::Qpl_OVRPlugin_ResultType resultTypeId, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarkerPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarkerPoint(int32_t markerId, ::StringW name, ::GlobalNamespace::Qpl_OVRPlugin_Annotation* annotations, int32_t annotationCount, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarkerPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarkerPoint(int32_t markerId, ::StringW name, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerPointCached, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarkerPointCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerStart, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarkerStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs, ::StringW joinId);
 
   static inline ::GlobalNamespace::OVRTelemetry_TelemetryClient* New_ctor();
@@ -189,13 +192,13 @@ protected:
   constexpr OVRTelemetry_TelemetryClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_TelemetryClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_TelemetryClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetry_TelemetryClient(OVRTelemetry_TelemetryClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_TelemetryClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_TelemetryClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry_TelemetryClient(OVRTelemetry_TelemetryClient const&) = delete;
+  OVRTelemetry_TelemetryClient(OVRTelemetry_TelemetryClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7730 };
@@ -251,13 +254,13 @@ protected:
   constexpr OVRTelemetry_NullTelemetryClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_NullTelemetryClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_NullTelemetryClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetry_NullTelemetryClient(OVRTelemetry_NullTelemetryClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_NullTelemetryClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_NullTelemetryClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry_NullTelemetryClient(OVRTelemetry_NullTelemetryClient const&) = delete;
+  OVRTelemetry_NullTelemetryClient(OVRTelemetry_NullTelemetryClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7731 };
@@ -313,13 +316,13 @@ protected:
   constexpr OVRTelemetry_QPLTelemetryClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_QPLTelemetryClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_QPLTelemetryClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetry_QPLTelemetryClient(OVRTelemetry_QPLTelemetryClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_QPLTelemetryClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_QPLTelemetryClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry_QPLTelemetryClient(OVRTelemetry_QPLTelemetryClient const&) = delete;
+  OVRTelemetry_QPLTelemetryClient(OVRTelemetry_QPLTelemetryClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7732 };
@@ -330,6 +333,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetry_QPLTelemetryClient) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute
 namespace GlobalNamespace {
 // Is value type: false
@@ -348,13 +352,13 @@ protected:
   constexpr OVRTelemetry_MarkersAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_MarkersAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_MarkersAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetry_MarkersAttribute(OVRTelemetry_MarkersAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_MarkersAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_MarkersAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry_MarkersAttribute(OVRTelemetry_MarkersAttribute const&) = delete;
+  OVRTelemetry_MarkersAttribute(OVRTelemetry_MarkersAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7733 };
@@ -365,6 +369,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetry_MarkersAttribute) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -391,9 +396,11 @@ public:
   /// @brief Field _sdkVersionString, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__sdkVersionString, put = setStaticF__sdkVersionString)) ::StringW _sdkVersionString;
 
+  /// [Extension]
   /// @brief Method AddPlayModeOrigin, addr 0x5ede94c, size 0xa8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddPlayModeOrigin(::GlobalNamespace::OVRTelemetryMarker marker);
 
+  /// [Extension]
   /// @brief Method AddSDKVersionAnnotation, addr 0x5ede6b4, size 0x140, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddSDKVersionAnnotation(::GlobalNamespace::OVRTelemetryMarker marker);
 
@@ -433,13 +440,13 @@ protected:
   constexpr OVRTelemetry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetry(OVRTelemetry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetry(OVRTelemetry const&) = delete;
+  OVRTelemetry(OVRTelemetryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7734 };

@@ -1,7 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BaseNetworkPlayerModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/BaseNetworkPlayerModel.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_impl.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneMonobehavior_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_def.hpp"
@@ -270,6 +272,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::BaseNetworkPlayerMod
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseNetworkPlayerModel__GetOtherPlayers_d__56*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::BaseNetworkPlayerModel__GetOtherPlayers_d__56* GlobalNamespace::BaseNetworkPlayerModel__GetOtherPlayers_d__56::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BaseNetworkPlayerModel__GetOtherPlayers_d__56*>(__1__state));
 }
@@ -507,6 +510,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::BaseNetworkPlayerMod
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseNetworkPlayerModel__GetPartyPlayers_d__55*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::BaseNetworkPlayerModel__GetPartyPlayers_d__55* GlobalNamespace::BaseNetworkPlayerModel__GetPartyPlayers_d__55::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BaseNetworkPlayerModel__GetPartyPlayers_d__55*>(__1__state));
 }
@@ -1428,7 +1432,9 @@ inline void GlobalNamespace::BaseNetworkPlayerModel::Disconnected(::GlobalNamesp
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseNetworkPlayerModel*>(), 61 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disconnectedReason);
 }
-template <typename T> inline bool GlobalNamespace::BaseNetworkPlayerModel::CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* createConfig) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INetworkPlayerModel*>)
+inline bool GlobalNamespace::BaseNetworkPlayerModel::CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* createConfig) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseNetworkPlayerModel*>(), 62 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
@@ -1443,7 +1449,9 @@ inline void GlobalNamespace::BaseNetworkPlayerModel::DestroyConnectedPlayerManag
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseNetworkPlayerModel*>(), { "DestroyConnectedPlayerManager", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline bool GlobalNamespace::BaseNetworkPlayerModel::CreateConnectedPlayerManager(::GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool GlobalNamespace::BaseNetworkPlayerModel::CreateConnectedPlayerManager(::GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseNetworkPlayerModel*>(),
                                                            { "CreateConnectedPlayerManager", { ::i2c::class_of<T>() }, { ::i2c::type_of<::GlobalNamespace::IConnectionInitParams_1<T>*>() } })));

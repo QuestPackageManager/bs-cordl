@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\EventModifiers.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/EventModifiers.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::EventModifiers_Modifiers::EventModifiers_Modifiers(uint32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -229,7 +229,7 @@ inline ::StringW UnityEngine::InputForUI::EventModifiers::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_state", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_state", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::EventModifiers::EventModifiers(uint32_t _state) noexcept {
   this->_state = _state;
 }

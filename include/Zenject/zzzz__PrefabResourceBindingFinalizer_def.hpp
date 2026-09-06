@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PrefabResourceBindingFinalizer.hpp"
+// IWYU pragma private; include "Zenject/PrefabResourceBindingFinalizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,6 +80,7 @@ DEFINE_IL2CPP_CLASS(::Zenject::PrefabResourceBindingFinalizer___c__DisplayClass5
 DEFINE_IL2CPP_CLASS(::Zenject::PrefabResourceBindingFinalizer___c__DisplayClass5_1*, "Zenject", "PrefabResourceBindingFinalizer/<>c__DisplayClass5_1");
 DEFINE_IL2CPP_CLASS(::Zenject::PrefabResourceBindingFinalizer___c__DisplayClass6_0*, "Zenject", "PrefabResourceBindingFinalizer/<>c__DisplayClass6_0");
 DEFINE_IL2CPP_CLASS(::Zenject::PrefabResourceBindingFinalizer___c__DisplayClass6_1*, "Zenject", "PrefabResourceBindingFinalizer/<>c__DisplayClass6_1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -122,6 +123,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e6545c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e654a0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -134,13 +136,13 @@ protected:
   constexpr PrefabResourceBindingFinalizer___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabResourceBindingFinalizer___c__DisplayClass5_0(PrefabResourceBindingFinalizer___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer___c__DisplayClass5_0(PrefabResourceBindingFinalizer___c__DisplayClass5_0 const&) = delete;
+  PrefabResourceBindingFinalizer___c__DisplayClass5_0(PrefabResourceBindingFinalizer___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14314 };
@@ -166,6 +168,7 @@ static_assert(offsetof(::Zenject::PrefabResourceBindingFinalizer___c__DisplayCla
 static_assert(sizeof(::Zenject::PrefabResourceBindingFinalizer___c__DisplayClass5_0) == 0x28, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -199,6 +202,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e65678, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e656bc, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -211,13 +215,13 @@ protected:
   constexpr PrefabResourceBindingFinalizer___c__DisplayClass5_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabResourceBindingFinalizer___c__DisplayClass5_1(PrefabResourceBindingFinalizer___c__DisplayClass5_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass5_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer___c__DisplayClass5_1(PrefabResourceBindingFinalizer___c__DisplayClass5_1 const&) = delete;
+  PrefabResourceBindingFinalizer___c__DisplayClass5_1(PrefabResourceBindingFinalizer___c__DisplayClass5_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14315 };
@@ -238,6 +242,7 @@ static_assert(offsetof(::Zenject::PrefabResourceBindingFinalizer___c__DisplayCla
 static_assert(sizeof(::Zenject::PrefabResourceBindingFinalizer___c__DisplayClass5_1) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -271,6 +276,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e65964, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e659a8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -283,13 +289,13 @@ protected:
   constexpr PrefabResourceBindingFinalizer___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabResourceBindingFinalizer___c__DisplayClass6_0(PrefabResourceBindingFinalizer___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer___c__DisplayClass6_0(PrefabResourceBindingFinalizer___c__DisplayClass6_0 const&) = delete;
+  PrefabResourceBindingFinalizer___c__DisplayClass6_0(PrefabResourceBindingFinalizer___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14316 };
@@ -310,6 +316,7 @@ static_assert(offsetof(::Zenject::PrefabResourceBindingFinalizer___c__DisplayCla
 static_assert(sizeof(::Zenject::PrefabResourceBindingFinalizer___c__DisplayClass6_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -343,6 +350,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e65b80, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e65bc4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -355,13 +363,13 @@ protected:
   constexpr PrefabResourceBindingFinalizer___c__DisplayClass6_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabResourceBindingFinalizer___c__DisplayClass6_1(PrefabResourceBindingFinalizer___c__DisplayClass6_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer___c__DisplayClass6_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer___c__DisplayClass6_1(PrefabResourceBindingFinalizer___c__DisplayClass6_1 const&) = delete;
+  PrefabResourceBindingFinalizer___c__DisplayClass6_1(PrefabResourceBindingFinalizer___c__DisplayClass6_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14317 };
@@ -382,6 +390,7 @@ static_assert(offsetof(::Zenject::PrefabResourceBindingFinalizer___c__DisplayCla
 static_assert(sizeof(::Zenject::PrefabResourceBindingFinalizer___c__DisplayClass6_1) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies Zenject.ProviderBindingFinalizer
 namespace Zenject {
 // Is value type: false
@@ -447,13 +456,13 @@ protected:
   constexpr PrefabResourceBindingFinalizer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabResourceBindingFinalizer(PrefabResourceBindingFinalizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabResourceBindingFinalizer(PrefabResourceBindingFinalizer const&) = delete;
+  PrefabResourceBindingFinalizer(PrefabResourceBindingFinalizerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14318 };

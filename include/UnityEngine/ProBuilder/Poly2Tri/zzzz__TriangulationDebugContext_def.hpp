@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\TriangulationDebugContext.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/TriangulationDebugContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   /// @brief Field _tcx, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tcx, put = __cordl_internal_set__tcx)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* _tcx;
 
-  /// @brief Method Clear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
@@ -45,13 +45,13 @@ protected:
   constexpr TriangulationDebugContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TriangulationDebugContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TriangulationDebugContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TriangulationDebugContext(TriangulationDebugContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TriangulationDebugContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TriangulationDebugContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TriangulationDebugContext(TriangulationDebugContext const&) = delete;
+  TriangulationDebugContext(TriangulationDebugContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21779 };

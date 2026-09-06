@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PlayerPoseFrames.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PlayerPoseFrames.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,8 +28,9 @@ public:
   // @brief default ctor
   constexpr PlayerPoseFrames();
 
-  // Ctor Parameters [CppParam { name: "head", ty: "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value: None }, CppParam { name: "leftHand", ty:
-  // "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value: None }, CppParam { name: "rightHand", ty: "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "head", ty: "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftHand", ty:
+  // "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "", def_value: None, comment: None }, CppParam { name: "rightHand", ty: "::ArrayW<::BeatSaber::RecPlay::PoseFrame>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr PlayerPoseFrames(::ArrayW<::BeatSaber::RecPlay::PoseFrame> head, ::ArrayW<::BeatSaber::RecPlay::PoseFrame> leftHand, ::ArrayW<::BeatSaber::RecPlay::PoseFrame> rightHand) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

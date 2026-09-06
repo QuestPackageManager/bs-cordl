@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEventPtr.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventPtr.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
 #include <cstddef>
@@ -27,7 +28,7 @@ struct InputEventPtr;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputEventPtr);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::InputEventPtr, "UnityEngine.InputSystem.LowLevel", "InputEventPtr");
-// Dependencies
+// Dependencies UnityEngine.InputSystem.LowLevel.IInputEventTypeInfo
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.InputEventPtr
@@ -77,7 +78,10 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method IsA, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TOtherEvent> inline bool IsA();
+  template <typename TOtherEvent>
+    requires(::cordl_internals::type_constraint<TOtherEvent, ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*> && ::cordl_internals::value_type_constraint<TOtherEvent> &&
+             ::cordl_internals::default_constructor_constraint<TOtherEvent>)
+  inline bool IsA();
 
   /// @brief Method Next, addr 0x65b1334, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr Next();
@@ -161,7 +165,7 @@ public:
   // @brief default ctor
   constexpr InputEventPtr();
 
-  // Ctor Parameters [CppParam { name: "m_EventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_EventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None, comment: None }]
   constexpr InputEventPtr(::UnityEngine::InputSystem::LowLevel::InputEvent* m_EventPtr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

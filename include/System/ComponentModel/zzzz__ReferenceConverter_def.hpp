@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ReferenceConverter.hpp"
+// IWYU pragma private; include "System/ComponentModel/ReferenceConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +77,13 @@ protected:
   constexpr ReferenceConverter_ReferenceComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter_ReferenceComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter_ReferenceComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReferenceConverter_ReferenceComparer(ReferenceConverter_ReferenceComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter_ReferenceComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter_ReferenceComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReferenceConverter_ReferenceComparer(ReferenceConverter_ReferenceComparer const&) = delete;
+  ReferenceConverter_ReferenceComparer(ReferenceConverter_ReferenceComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11290 };
@@ -157,13 +157,13 @@ protected:
   constexpr ReferenceConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReferenceConverter(ReferenceConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReferenceConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReferenceConverter(ReferenceConverter const&) = delete;
+  ReferenceConverter(ReferenceConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11291 };

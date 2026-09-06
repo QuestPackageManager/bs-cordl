@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\SCrypt.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/SCrypt.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   static inline void Clear(::System::Array* array);
 
   /// @brief Method ClearAll, addr 0x33e535c, size 0x5c, virtual false, abstract: false, final false
-  static inline void ClearAll(::ArrayW<::System::Array*> arrays);
+  static inline void ClearAll(/* [ParamArray] */ ::ArrayW<::System::Array*> arrays);
 
   /// @brief Method Generate, addr 0x33e47a4, size 0x2f0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Generate(::ArrayW<uint8_t> P, ::ArrayW<uint8_t> S, int32_t N, int32_t r, int32_t p, int32_t dkLen);
@@ -62,13 +62,13 @@ protected:
   constexpr SCrypt();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SCrypt", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SCrypt", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SCrypt(SCrypt&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SCrypt", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SCrypt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SCrypt(SCrypt const&) = delete;
+  SCrypt(SCryptconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 924 };

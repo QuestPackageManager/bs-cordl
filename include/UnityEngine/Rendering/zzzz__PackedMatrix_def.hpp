@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\PackedMatrix.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/PackedMatrix.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,17 +27,17 @@ struct CORDL_TYPE PackedMatrix {
 public:
   // Declarations
   /// @brief Method FromFloat4x4, addr 0x6827cac, size 0x40, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::PackedMatrix FromFloat4x4(::by_ref<::Unity::Mathematics::float4x4> m);
+  static inline ::UnityEngine::Rendering::PackedMatrix FromFloat4x4(/* [IsReadOnly] */ ::by_ref<::Unity::Mathematics::float4x4> m);
 
   /// @brief Method FromMatrix4x4, addr 0x6827c6c, size 0x40, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::PackedMatrix FromMatrix4x4(::by_ref<::UnityEngine::Matrix4x4> m);
+  static inline ::UnityEngine::Rendering::PackedMatrix FromMatrix4x4(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PackedMatrix();
 
-  // Ctor Parameters [CppParam { name: "packed0", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "packed1", ty: "::Unity::Mathematics::float4", modifiers: "",
-  // def_value: None }, CppParam { name: "packed2", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "packed0", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "packed1", ty: "::Unity::Mathematics::float4",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "packed2", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }]
   constexpr PackedMatrix(::Unity::Mathematics::float4 packed0, ::Unity::Mathematics::float4 packed1, ::Unity::Mathematics::float4 packed2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

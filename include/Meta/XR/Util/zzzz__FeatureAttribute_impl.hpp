@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\Util\FeatureAttribute.hpp"
+// IWYU pragma private; include "Meta/XR/Util/FeatureAttribute.hpp"
 #include "Meta/XR/Util/zzzz__Feature_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Meta/XR/Util/zzzz__FeatureAttribute_def.hpp"

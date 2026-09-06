@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\ReflectionMethodsCache.hpp"
+// IWYU pragma private; include "UnityEngine/UI/ReflectionMethodsCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,13 +115,13 @@ protected:
   constexpr ReflectionMethodsCache_Raycast3DCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast3DCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast3DCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionMethodsCache_Raycast3DCallback(ReflectionMethodsCache_Raycast3DCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast3DCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast3DCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_Raycast3DCallback(ReflectionMethodsCache_Raycast3DCallback const&) = delete;
+  ReflectionMethodsCache_Raycast3DCallback(ReflectionMethodsCache_Raycast3DCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17504 };
@@ -159,13 +159,13 @@ protected:
   constexpr ReflectionMethodsCache_RaycastAllCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_RaycastAllCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_RaycastAllCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionMethodsCache_RaycastAllCallback(ReflectionMethodsCache_RaycastAllCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_RaycastAllCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_RaycastAllCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_RaycastAllCallback(ReflectionMethodsCache_RaycastAllCallback const&) = delete;
+  ReflectionMethodsCache_RaycastAllCallback(ReflectionMethodsCache_RaycastAllCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17505 };
@@ -203,13 +203,13 @@ protected:
   constexpr ReflectionMethodsCache_GetRaycastNonAllocCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRaycastNonAllocCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRaycastNonAllocCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionMethodsCache_GetRaycastNonAllocCallback(ReflectionMethodsCache_GetRaycastNonAllocCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRaycastNonAllocCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRaycastNonAllocCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_GetRaycastNonAllocCallback(ReflectionMethodsCache_GetRaycastNonAllocCallback const&) = delete;
+  ReflectionMethodsCache_GetRaycastNonAllocCallback(ReflectionMethodsCache_GetRaycastNonAllocCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17506 };
@@ -247,13 +247,13 @@ protected:
   constexpr ReflectionMethodsCache_Raycast2DCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast2DCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast2DCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionMethodsCache_Raycast2DCallback(ReflectionMethodsCache_Raycast2DCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast2DCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_Raycast2DCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_Raycast2DCallback(ReflectionMethodsCache_Raycast2DCallback const&) = delete;
+  ReflectionMethodsCache_Raycast2DCallback(ReflectionMethodsCache_Raycast2DCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17507 };
@@ -291,13 +291,13 @@ protected:
   constexpr ReflectionMethodsCache_GetRayIntersectionAllCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionMethodsCache_GetRayIntersectionAllCallback(ReflectionMethodsCache_GetRayIntersectionAllCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_GetRayIntersectionAllCallback(ReflectionMethodsCache_GetRayIntersectionAllCallback const&) = delete;
+  ReflectionMethodsCache_GetRayIntersectionAllCallback(ReflectionMethodsCache_GetRayIntersectionAllCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17508 };
@@ -335,13 +335,13 @@ protected:
   constexpr ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback(ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback(ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback const&) = delete;
+  ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback(ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17509 };
@@ -449,13 +449,13 @@ protected:
   constexpr ReflectionMethodsCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionMethodsCache(ReflectionMethodsCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionMethodsCache(ReflectionMethodsCache const&) = delete;
+  ReflectionMethodsCache(ReflectionMethodsCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17510 };

@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EnumField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EnumField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "UnityEngine/zzzz__EnumData_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -54,7 +55,9 @@ namespace UnityEngine::UIElements {
 class PointerDownEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class PointerEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class PointerEventBase_1;
 }
 namespace UnityEngine::UIElements {
 class PointerMoveEvent;
@@ -96,6 +99,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::EnumField*, "UnityEngine.UIElemen
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::EnumField_UxmlFactory*, "UnityEngine.UIElements", "EnumField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::EnumField_UxmlTraits*, "UnityEngine.UIElements", "EnumField/UxmlTraits");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::EnumField___c*, "UnityEngine.UIElements", "EnumField/<>c");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -114,13 +118,13 @@ protected:
   constexpr EnumField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumField_UxmlFactory(EnumField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField_UxmlFactory(EnumField_UxmlFactory const&) = delete;
+  EnumField_UxmlFactory(EnumField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4185 };
@@ -131,6 +135,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::EnumField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -180,13 +185,13 @@ protected:
   constexpr EnumField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumField_UxmlTraits(EnumField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField_UxmlTraits(EnumField_UxmlTraits const&) = delete;
+  EnumField_UxmlTraits(EnumField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4186 };
@@ -212,6 +217,7 @@ static_assert(offsetof(::UnityEngine::UIElements::EnumField_UxmlTraits, ___m_Inc
 static_assert(sizeof(::UnityEngine::UIElements::EnumField_UxmlTraits) == 0xb0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -247,13 +253,13 @@ protected:
   constexpr EnumField___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumField___c(EnumField___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField___c(EnumField___c const&) = delete;
+  EnumField___c(EnumField___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4187 };
@@ -264,7 +270,8 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::EnumField___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.EnumData, UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
+// Dependencies UnityEngine.EnumData, UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.EnumField
@@ -283,6 +290,7 @@ public:
   /// @brief Field createMenuCallback, offset 0x588, size 0x8
   __declspec(property(get = __cordl_internal_get_createMenuCallback, put = __cordl_internal_set_createMenuCallback)) ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* createMenuCallback;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_includeObsoleteValues)) bool includeObsoleteValues;
 
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
@@ -306,6 +314,7 @@ public:
   /// @brief Field m_TextElement, offset 0x538, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextElement, put = __cordl_internal_set_m_TextElement)) ::UnityEngine::UIElements::TextElement* m_TextElement;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_text)) ::StringW text;
 
   /// @brief Field textProperty, offset 0xffffffff, size 0x98
@@ -345,11 +354,14 @@ public:
   /// @brief Method OnPointerMoveEvent, addr 0x6d3f978, size 0xac, virtual false, abstract: false, final false
   inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method PopulateDataFromType, addr 0x6d3f694, size 0xe8, virtual false, abstract: false, final false
   inline void PopulateDataFromType(::System::Type* enumType);
 
   /// @brief Method ProcessPointerDown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::PointerEventBase_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt);
 
   /// @brief Method SetValueWithoutNotify, addr 0x6d3f848, size 0xd4, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::System::Enum* newValue);
@@ -363,6 +375,7 @@ public:
   /// @brief Method UpdateValueLabel, addr 0x6d3f77c, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateValueLabel(::System::Enum* value);
 
+  /// [CompilerGenerated]
   /// @brief Method <ShowMenu>b__42_0, addr 0x6d404dc, size 0x4, virtual false, abstract: false, final false
   inline void _ShowMenu_b__42_0(::System::Object* contentView);
 
@@ -444,13 +457,13 @@ protected:
   constexpr EnumField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumField(EnumField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumField(EnumField const&) = delete;
+  EnumField(EnumFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4188 };

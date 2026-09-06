@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalScreenSpaceSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalScreenSpaceSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalNormalBlend_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalScreenSpaceSettings_def.hpp"

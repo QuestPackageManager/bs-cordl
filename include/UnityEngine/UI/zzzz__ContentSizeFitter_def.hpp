@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\ContentSizeFitter.hpp"
+// IWYU pragma private; include "UnityEngine/UI/ContentSizeFitter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   // @brief default ctor
   constexpr ContentSizeFitter_FitMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ContentSizeFitter_FitMode(int32_t value__) noexcept;
 
   /// @brief Field MinSize value: I32(1)
@@ -91,6 +91,9 @@ static_assert(offsetof(::UnityEngine::UI::ContentSizeFitter_FitMode, value__) ==
 static_assert(sizeof(::UnityEngine::UI::ContentSizeFitter_FitMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("Layout/Content Size Fitter", 141)]
+// [ExecuteAlways]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.EventSystems.UIBehaviour, UnityEngine.UI.ContentSizeFitter::FitMode
 namespace UnityEngine::UI {
 // Is value type: false
@@ -201,20 +204,22 @@ protected:
   constexpr ContentSizeFitter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContentSizeFitter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentSizeFitter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentSizeFitter(ContentSizeFitter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContentSizeFitter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentSizeFitter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentSizeFitter(ContentSizeFitter const&) = delete;
+  ContentSizeFitter(ContentSizeFitterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17447 };
 
+  /// [SerializeField]
   /// @brief Field m_HorizontalFit, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::UI::ContentSizeFitter_FitMode ___m_HorizontalFit;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalFit, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::UI::ContentSizeFitter_FitMode ___m_VerticalFit;
 

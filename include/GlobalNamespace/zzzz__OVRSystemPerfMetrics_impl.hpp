@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSystemPerfMetrics.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSystemPerfMetrics_def.hpp"

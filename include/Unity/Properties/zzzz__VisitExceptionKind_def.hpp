@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\VisitExceptionKind.hpp"
+// IWYU pragma private; include "Unity/Properties/VisitExceptionKind.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VisitExceptionKind;
 // Write type traits
 MARK_VAL_T(::Unity::Properties::VisitExceptionKind);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::VisitExceptionKind, "Unity.Properties", "VisitExceptionKind");
+// [Flags]
 // Dependencies
 namespace Unity::Properties {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr VisitExceptionKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisitExceptionKind(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(3)

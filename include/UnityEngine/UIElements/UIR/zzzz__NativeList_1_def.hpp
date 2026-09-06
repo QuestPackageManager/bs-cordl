@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\NativeList_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/NativeList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,11 +11,15 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NativeList_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::NativeList_1);
@@ -24,6 +28,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::NativeList_1, "Unity
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.NativeList`1<T>
 class CORDL_TYPE NativeList_1 : public ::System::Object {
@@ -89,12 +94,14 @@ public:
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -104,13 +111,13 @@ protected:
   constexpr NativeList_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeList_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeList_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeList_1(NativeList_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeList_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeList_1(NativeList_1 const&) = delete;
+  NativeList_1(NativeList_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5320 };
@@ -121,6 +128,8 @@ public:
   /// @brief Field m_Count, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_Count;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x24, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

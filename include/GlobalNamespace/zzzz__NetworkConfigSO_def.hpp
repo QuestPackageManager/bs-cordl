@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkConfigSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkConfigSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -251,56 +251,70 @@ protected:
   constexpr NetworkConfigSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkConfigSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkConfigSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkConfigSO(NetworkConfigSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkConfigSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkConfigSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkConfigSO(NetworkConfigSO const&) = delete;
+  NetworkConfigSO(NetworkConfigSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21590 };
 
+  /// [SerializeField]
   /// @brief Field _maxPartySize, offset: 0x18, size: 0x4, def value: None
   int32_t ____maxPartySize;
 
+  /// [SerializeField]
   /// @brief Field _discoveryPort, offset: 0x1c, size: 0x4, def value: None
   int32_t ____discoveryPort;
 
+  /// [SerializeField]
   /// @brief Field _partyPort, offset: 0x20, size: 0x4, def value: None
   int32_t ____partyPort;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerPort, offset: 0x24, size: 0x4, def value: None
   int32_t ____multiplayerPort;
 
+  /// [SerializeField]
   /// @brief Field _masterServerPort, offset: 0x28, size: 0x4, def value: None
   int32_t ____masterServerPort;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerStatusUrl, offset: 0x30, size: 0x8, def value: None
   ::StringW ____multiplayerStatusUrl;
 
+  /// [SerializeField]
   /// @brief Field _quickPlaySetupUrl, offset: 0x38, size: 0x8, def value: None
   ::StringW ____quickPlaySetupUrl;
 
+  /// [SerializeField]
   /// @brief Field _graphUrl, offset: 0x40, size: 0x8, def value: None
   ::StringW ____graphUrl;
 
+  /// [SerializeField]
   /// @brief Field _graphAppId, offset: 0x48, size: 0x8, def value: None
   uint64_t ____graphAppId;
 
+  /// [SerializeField]
   /// @brief Field _forceGameLift, offset: 0x50, size: 0x1, def value: None
   bool ____forceGameLift;
 
+  /// [SerializeField]
   /// @brief Field _useLocalServer, offset: 0x51, size: 0x1, def value: None
   bool ____useLocalServer;
 
+  /// [SerializeField]
   /// @brief Field _localServerPort, offset: 0x54, size: 0x4, def value: None
   int32_t ____localServerPort;
 
+  /// [SerializeField]
   /// @brief Field _serviceEnvironment, offset: 0x58, size: 0x4, def value: None
   ::GlobalNamespace::ServiceEnvironment ____serviceEnvironment;
 
+  /// [SerializeField]
   /// @brief Field _customLocation, offset: 0x60, size: 0x8, def value: None
   ::StringW ____customLocation;
 

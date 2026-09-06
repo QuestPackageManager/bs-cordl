@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\AndInstruction_AndByte.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/AndInstruction_AndByte.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__AndInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__AndInstruction_AndByte_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

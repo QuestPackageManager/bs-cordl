@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonTextReader.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonTextReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -187,7 +187,9 @@ namespace System {
 class Exception;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -389,6 +391,7 @@ DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsyn
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38, "Newtonsoft.Json", "JsonTextReader/<ReadNumberValueAsync>d__38");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9, "Newtonsoft.Json", "JsonTextReader/<ReadStringIntoBufferAsync>d__9");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37, "Newtonsoft.Json", "JsonTextReader/<ReadStringValueAsync>d__37");
+// [CompilerGenerated]
 // Dependencies System.Nullable`1<T>, System.Numerics.BigInteger, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
@@ -404,8 +407,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cebf8c, size 0xe30, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cecdbc, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -414,12 +418,13 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__DoReadAsBooleanAsync_d__40();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<bool>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "_i_5__2", ty:
-  // "::System::Numerics::BigInteger", modifiers: "", def_value: None }, CppParam { name: "_isTrue_5__3", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<bool>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_i_5__2", ty: "::System::Numerics::BigInteger", modifiers: "", def_value: None, comment: None }, CppParam { name: "_isTrue_5__3", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr JsonTextReader__DoReadAsBooleanAsync_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<bool>> __t__builder,
                                                        ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1, ::System::Numerics::BigInteger _i_5__2,
@@ -434,15 +439,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<bool>> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -477,6 +485,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40) == 0x68, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -491,8 +500,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cece3c, size 0xe2c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cedc68, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -501,13 +511,14 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__DoReadAsBytesAsync_d__42();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
-  // modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_isWrapped_5__2", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value:
-  // None }, CppParam { name: "_data_5__3", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_isWrapped_5__2", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_data_5__3", ty:
+  // "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t>>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__DoReadAsBytesAsync_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>> __t__builder,
                                                      ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken, bool _isWrapped_5__2,
                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1, ::ArrayW<uint8_t> _data_5__3,
@@ -523,9 +534,11 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t>> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -535,15 +548,18 @@ public:
   /// @brief Field <isWrapped>5__2, offset: 0x30, size: 0x1, def value: None
   bool _isWrapped_5__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <data>5__3, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<uint8_t> _data_5__3;
 
   /// @brief Field <>u__2, offset: 0x50, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__3, offset: 0x60, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t>> __u__3;
 
@@ -571,6 +587,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d_
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42) == 0x70, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.DateTime, System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -585,8 +602,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cedce8, size 0x3c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cee0b0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -595,10 +613,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__DoReadAsDateTimeAsync_d__45();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTime>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTime>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr JsonTextReader__DoReadAsDateTimeAsync_d__45(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTime>> __t__builder,
                                                         ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                         ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
@@ -612,15 +631,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTime>> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1;
 
@@ -640,6 +662,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.DateTimeOffset, System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -654,8 +677,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cee130, size 0x3b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cee4e4, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -664,10 +688,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTimeOffset>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTimeOffset>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47(int32_t __1__state,
                                                               ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTimeOffset>> __t__builder,
                                                               ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
@@ -682,15 +707,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTimeOffset>> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1;
 
@@ -710,6 +738,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffse
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Decimal, System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -724,8 +753,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cee564, size 0x3b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cee918, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -734,10 +764,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__DoReadAsDecimalAsync_d__49();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Decimal>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Decimal>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr JsonTextReader__DoReadAsDecimalAsync_d__49(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Decimal>> __t__builder,
                                                        ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
@@ -751,15 +782,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Decimal>> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1;
 
@@ -779,6 +813,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -793,8 +828,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cee998, size 0x3c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5ceed60, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -803,10 +839,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__DoReadAsDoubleAsync_d__51();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<double_t>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<double_t>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr JsonTextReader__DoReadAsDoubleAsync_d__51(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<double_t>> __t__builder,
                                                       ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
@@ -820,15 +857,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<double_t>> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1;
 
@@ -848,6 +888,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -862,8 +903,9 @@ public:
   /// @brief Method MoveNext, addr 0x5ceede0, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cef1a4, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -872,10 +914,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__DoReadAsInt32Async_d__53();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr JsonTextReader__DoReadAsInt32Async_d__53(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>> __t__builder,
                                                      ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
@@ -889,15 +932,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1;
 
@@ -917,6 +963,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d_
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -931,8 +978,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cef224, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cef4e0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -941,10 +989,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__DoReadAsStringAsync_d__55();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
-  // "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr JsonTextReader__DoReadAsStringAsync_d__55(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
                                                       ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
@@ -958,15 +1007,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1;
 
@@ -986,6 +1038,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1000,8 +1053,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cef560, size 0x378, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cef8d8, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1010,11 +1064,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__DoReadAsync_d__3();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task_1<bool>*", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task_1<bool>*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__DoReadAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::System::Threading::Tasks::Task_1<bool>* task,
                                              ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                              ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
@@ -1028,18 +1082,22 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field task, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<bool>* task;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -1061,6 +1119,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3, __u
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3) == 0x48, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1075,8 +1134,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cef958, size 0x41c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cefd74, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1085,11 +1145,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__EatWhitespaceAsync_d__17();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__EatWhitespaceAsync_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                      ::System::Threading::CancellationToken cancellationToken,
                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
@@ -1107,12 +1167,14 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
@@ -1137,6 +1199,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d_
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1151,8 +1214,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cefde0, size 0x404, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf01e4, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1161,11 +1225,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__HandleNullAsync_d__35();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__HandleNullAsync_d__35(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                   ::System::Threading::CancellationToken cancellationToken,
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
@@ -1183,12 +1247,14 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -1213,6 +1279,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.JsonToken, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1227,8 +1294,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf0250, size 0x358, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf05a8, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1237,11 +1305,12 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__MatchAndSetAsync_d__21();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-  // None }, CppParam { name: "newToken", ty: "::Newtonsoft::Json::JsonToken", modifiers: "", def_value: None }, CppParam { name: "tokenValue", ty: "::System::Object*", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "newToken", ty: "::Newtonsoft::Json::JsonToken", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "tokenValue", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__MatchAndSetAsync_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                    ::StringW value, ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::JsonToken newToken, ::System::Object* tokenValue,
                                                    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
@@ -1258,9 +1327,11 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
+  /// [Nullable(0)]
   /// @brief Field value, offset: 0x28, size: 0x8, def value: None
   ::StringW value;
 
@@ -1270,9 +1341,11 @@ public:
   /// @brief Field newToken, offset: 0x38, size: 0x4, def value: None
   ::Newtonsoft::Json::JsonToken newToken;
 
+  /// [Nullable(0)]
   /// @brief Field tokenValue, offset: 0x40, size: 0x8, def value: None
   ::System::Object* tokenValue;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -1298,6 +1371,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__2
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21) == 0x58, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1312,8 +1386,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf0614, size 0x2dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf08f0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1322,10 +1397,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__MatchValueAsync_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__MatchValueAsync_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                   ::StringW value, ::System::Threading::CancellationToken cancellationToken,
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
@@ -1339,18 +1415,22 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
+  /// [Nullable(0)]
   /// @brief Field value, offset: 0x28, size: 0x8, def value: None
   ::StringW value;
 
   /// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -1372,6 +1452,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19) == 0x48, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1386,8 +1467,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf0970, size 0x42c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf0d9c, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1396,10 +1478,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                        ::Newtonsoft::Json::JsonTextReader* __4__this, ::StringW value, ::System::Threading::CancellationToken cancellationToken,
                                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
@@ -1413,18 +1496,22 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
+  /// [Nullable(0)]
   /// @brief Field value, offset: 0x28, size: 0x8, def value: None
   ::StringW value;
 
   /// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -1446,6 +1533,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailin
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20) == 0x48, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1460,8 +1548,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf0e1c, size 0x91c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf1738, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1470,13 +1559,14 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseCommentAsync_d__16();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "setToken", ty: "bool", modifiers: "", def_value:
-  // None }, CppParam { name: "_singlelineComment_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_initialPosition_5__3", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "setToken", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_singlelineComment_5__2", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_initialPosition_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseCommentAsync_d__16(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                     ::System::Threading::CancellationToken cancellationToken, bool setToken, bool _singlelineComment_5__2, int32_t _initialPosition_5__3,
                                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
@@ -1495,6 +1585,7 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -1510,9 +1601,11 @@ public:
   /// @brief Field <initialPosition>5__3, offset: 0x34, size: 0x4, def value: None
   int32_t _initialPosition_5__3;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__2;
 
@@ -1545,6 +1638,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16) == 0x68, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1559,8 +1653,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf17a4, size 0x9dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf2180, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1569,13 +1664,14 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseConstructorAsync_d__25();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "_initialPosition_5__2", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "_endPosition_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_constructorName_5__4", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_initialPosition_5__2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_endPosition_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_constructorName_5__4", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseConstructorAsync_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                         ::System::Threading::CancellationToken cancellationToken,
                                                         ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1, int32_t _initialPosition_5__2,
@@ -1595,12 +1691,14 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -1610,12 +1708,14 @@ public:
   /// @brief Field <endPosition>5__3, offset: 0x44, size: 0x4, def value: None
   int32_t _endPosition_5__3;
 
+  /// [Nullable(0)]
   /// @brief Field <constructorName>5__4, offset: 0x48, size: 0x8, def value: None
   ::StringW _constructorName_5__4;
 
   /// @brief Field <>u__2, offset: 0x50, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__3, offset: 0x60, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__3;
 
@@ -1645,6 +1745,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25) == 0x70, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1659,8 +1760,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf21ec, size 0x258, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf2444, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1669,11 +1771,12 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseNumberAsync_d__29();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType",
-  // modifiers: "", def_value: None }, CppParam { name: "_firstChar_5__2", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "_initialPosition_5__3", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "readType", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None }, CppParam { name: "_firstChar_5__2", ty: "char16_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "_initialPosition_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseNumberAsync_d__29(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                    ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType readType, char16_t _firstChar_5__2,
                                                    int32_t _initialPosition_5__3, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -1690,6 +1793,7 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -1730,6 +1834,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__2
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1744,8 +1849,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf24b0, size 0x300, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf27b0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1754,11 +1860,12 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseNumberNaNAsync_d__26();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType", modifiers:
-  // "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "readType", ty:
+  // "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty:
+  // "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseNumberNaNAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder,
                                                       ::Newtonsoft::Json::ReadType readType, ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                       ::Newtonsoft::Json::ReadType __7__wrap1,
@@ -1773,12 +1880,14 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder;
 
   /// @brief Field readType, offset: 0x20, size: 0x4, def value: None
   ::Newtonsoft::Json::ReadType readType;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -1788,6 +1897,7 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x38, size: 0x4, def value: None
   ::Newtonsoft::Json::ReadType __7__wrap1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x40, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -1811,6 +1921,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1825,8 +1936,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf2830, size 0x300, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf2b30, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1835,11 +1947,12 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseNumberNegativeInfinityAsync_d__28();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType", modifiers:
-  // "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "readType", ty:
+  // "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty:
+  // "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseNumberNegativeInfinityAsync_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder,
                                                                    ::Newtonsoft::Json::ReadType readType, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                                    ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType __7__wrap1,
@@ -1854,12 +1967,14 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder;
 
   /// @brief Field readType, offset: 0x20, size: 0x4, def value: None
   ::Newtonsoft::Json::ReadType readType;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -1869,6 +1984,7 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x38, size: 0x4, def value: None
   ::Newtonsoft::Json::ReadType __7__wrap1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x40, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -1892,6 +2008,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeIn
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1906,8 +2023,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf2bb0, size 0x300, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf2eb0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1916,11 +2034,12 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseNumberPositiveInfinityAsync_d__27();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType", modifiers:
-  // "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "readType", ty:
+  // "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty:
+  // "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseNumberPositiveInfinityAsync_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder,
                                                                    ::Newtonsoft::Json::ReadType readType, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                                    ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType __7__wrap1,
@@ -1935,12 +2054,14 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder;
 
   /// @brief Field readType, offset: 0x20, size: 0x4, def value: None
   ::Newtonsoft::Json::ReadType readType;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -1950,6 +2071,7 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x38, size: 0x4, def value: None
   ::Newtonsoft::Json::ReadType __7__wrap1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x40, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -1973,6 +2095,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveIn
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -1987,8 +2110,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf2f30, size 0x688, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf35b8, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -1997,12 +2121,12 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseObjectAsync_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
+  // ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseObjectAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                    ::System::Threading::CancellationToken cancellationToken,
                                                    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
@@ -2018,21 +2142,25 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
   /// @brief Field <>u__2, offset: 0x40, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__3, offset: 0x50, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__3;
 
@@ -2056,6 +2184,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__1
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15) == 0x60, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -2070,8 +2199,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf3638, size 0x6c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf3cfc, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2080,11 +2210,12 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParsePostValueAsync_d__4();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "ignoreComments", ty: "bool", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "ignoreComments", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParsePostValueAsync_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                      ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken, bool ignoreComments,
                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
@@ -2099,9 +2230,11 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -2111,6 +2244,7 @@ public:
   /// @brief Field ignoreComments, offset: 0x30, size: 0x1, def value: None
   bool ignoreComments;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
@@ -2137,6 +2271,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4) == 0x58, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
@@ -2150,8 +2285,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf3d7c, size 0x630, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf43ac, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2160,11 +2296,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParsePropertyAsync_d__31();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_quoteChar_5__2", ty: "char16_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_propertyName_5__3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_quoteChar_5__2", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_propertyName_5__3", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParsePropertyAsync_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                      ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken, char16_t _quoteChar_5__2,
                                                      ::StringW _propertyName_5__3, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -2178,9 +2314,11 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -2190,6 +2328,7 @@ public:
   /// @brief Field <quoteChar>5__2, offset: 0x30, size: 0x2, def value: None
   char16_t _quoteChar_5__2;
 
+  /// [Nullable(0)]
   /// @brief Field <propertyName>5__3, offset: 0x38, size: 0x8, def value: None
   ::StringW _propertyName_5__3;
 
@@ -2216,6 +2355,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d_
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -2230,8 +2370,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf442c, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf4690, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2240,11 +2381,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseStringAsync_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "quote", ty: "char16_t", modifiers: "", def_value:
-  // None }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "quote", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseStringAsync_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                    ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::JsonTextReader* __4__this, char16_t quote,
                                                    ::Newtonsoft::Json::ReadType readType, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -2264,6 +2405,7 @@ public:
   /// @brief Field cancellationToken, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -2296,6 +2438,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__1
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18) == 0x48, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -2310,8 +2453,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf46fc, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf49c0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2320,10 +2464,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseUnicodeAsync_d__12();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
-  // "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr JsonTextReader__ParseUnicodeAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<char16_t> __t__builder,
                                                     ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
@@ -2337,15 +2482,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<char16_t> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -2365,6 +2513,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
@@ -2378,8 +2527,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf4a40, size 0x350, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf4d90, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2388,10 +2538,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseUnquotedPropertyAsync_d__33();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_initialPosition_5__2", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_initialPosition_5__2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseUnquotedPropertyAsync_d__33(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                              ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken, int32_t _initialPosition_5__2,
                                                              ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
@@ -2408,6 +2559,7 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -2417,6 +2569,7 @@ public:
   /// @brief Field <initialPosition>5__2, offset: 0x30, size: 0x4, def value: None
   int32_t _initialPosition_5__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
@@ -2438,6 +2591,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseUnquotedProperty
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33) == 0x48, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -2452,8 +2606,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf4dfc, size 0x116c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf5f68, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2462,13 +2617,13 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ParseValueAsync_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
+  // ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__4", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ParseValueAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                  ::System::Threading::CancellationToken cancellationToken,
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
@@ -2485,24 +2640,29 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
   /// @brief Field <>u__2, offset: 0x40, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__3, offset: 0x50, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__3;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field <>u__4, offset: 0x60, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__4;
 
@@ -2528,6 +2688,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8,
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8) == 0x70, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace Newtonsoft::Json {
 // Is value type: true
@@ -2541,8 +2702,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf5fe8, size 0x26c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf6254, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2551,10 +2713,10 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ProcessCarriageReturnAsync_d__11();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task_1<bool>*", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task_1<bool>*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ProcessCarriageReturnAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                              ::System::Threading::Tasks::Task_1<bool>* task, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                              ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
@@ -2571,12 +2733,15 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field task, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<bool>* task;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -2596,6 +2761,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturn
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -2610,8 +2776,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf62c0, size 0x2f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf65b8, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2620,11 +2787,12 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadCharsAsync_d__14();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "relativePosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "append", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_charsRequired_5__2", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "relativePosition", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "append", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_charsRequired_5__2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ReadCharsAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                  int32_t relativePosition, bool append, ::System::Threading::CancellationToken cancellationToken, int32_t _charsRequired_5__2,
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
@@ -2638,9 +2806,11 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -2656,6 +2826,7 @@ public:
   /// @brief Field <charsRequired>5__2, offset: 0x38, size: 0x4, def value: None
   int32_t _charsRequired_5__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x40, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
@@ -2681,6 +2852,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14,
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -2695,8 +2867,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf6638, size 0x388, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf69c0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2705,11 +2878,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadDataAsync_d__7();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "append", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "charsRequired", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "append", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "charsRequired", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ReadDataAsync_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                bool append, int32_t charsRequired, ::System::Threading::CancellationToken cancellationToken,
                                                ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
@@ -2723,9 +2896,11 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -2738,6 +2913,7 @@ public:
   /// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
@@ -2761,6 +2937,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7, _
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7) == 0x48, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -2775,8 +2952,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf6a40, size 0x520, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf6f60, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2785,11 +2963,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadFinishedAsync_d__36();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ReadFinishedAsync_d__36(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                     ::System::Threading::CancellationToken cancellationToken,
                                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
@@ -2807,12 +2985,14 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -2837,6 +3017,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -2851,8 +3032,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf6fcc, size 0x558, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf7524, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2861,11 +3043,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadFromFinishedAsync_d__5();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ReadFromFinishedAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                        ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
@@ -2880,15 +3062,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -2913,6 +3098,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
@@ -2926,8 +3112,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf75a4, size 0x54c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf7af0, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -2936,10 +3123,10 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                  ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -2956,6 +3143,7 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -2981,6 +3169,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeOb
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -2995,8 +3184,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf7b5c, size 0x2d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf7e34, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -3005,10 +3195,10 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadNullCharAsync_d__34();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ReadNullCharAsync_d__34(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                     ::System::Threading::CancellationToken cancellationToken,
                                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
@@ -3022,15 +3212,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
@@ -3050,6 +3243,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34) == 0x40, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
@@ -3063,8 +3257,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf7eb4, size 0x30c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf81c0, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -3073,10 +3268,11 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadNumberIntoBufferAsync_d__32();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_charPos_5__2", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_charPos_5__2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ReadNumberIntoBufferAsync_d__32(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                             ::System::Threading::CancellationToken cancellationToken, int32_t _charPos_5__2,
                                                             ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
@@ -3093,6 +3289,7 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -3102,6 +3299,7 @@ public:
   /// @brief Field <charPos>5__2, offset: 0x30, size: 0x4, def value: None
   int32_t _charPos_5__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
@@ -3123,6 +3321,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferA
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32) == 0x48, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -3137,8 +3336,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf822c, size 0xfd0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cf91fc, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -3147,12 +3347,13 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadNumberValueAsync_d__38();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
-  // modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "readType", ty:
-  // "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__3", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ReadNumberValueAsync_d__38(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder,
                                                        ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType readType,
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
@@ -3168,9 +3369,11 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -3180,12 +3383,14 @@ public:
   /// @brief Field readType, offset: 0x30, size: 0x4, def value: None
   ::Newtonsoft::Json::ReadType readType;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
   /// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field <>u__3, offset: 0x58, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__3;
 
@@ -3211,6 +3416,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38) == 0x68, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -3225,8 +3431,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cf927c, size 0xe28, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cfa0a4, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -3235,17 +3442,17 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadStringIntoBufferAsync_d__9();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "quote", ty: "char16_t", modifiers: "", def_value:
-  // None }, CppParam { name: "_charPos_5__2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_initialPosition_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_lastWritePosition_5__4", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_escapeStartPos_5__5", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_writeChar_5__6", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_anotherHighSurrogate_5__7", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "_highSurrogate_5__8", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "quote", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_charPos_5__2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_initialPosition_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_lastWritePosition_5__4", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "_escapeStartPos_5__5", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_writeChar_5__6", ty: "char16_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__3", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_anotherHighSurrogate_5__7", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_highSurrogate_5__8", ty: "char16_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__4", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JsonTextReader__ReadStringIntoBufferAsync_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
                                                            ::System::Threading::CancellationToken cancellationToken, char16_t quote, int32_t _charPos_5__2, int32_t _initialPosition_5__3,
                                                            int32_t _lastWritePosition_5__4, int32_t _escapeStartPos_5__5, char16_t _writeChar_5__6,
@@ -3266,6 +3473,7 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -3290,12 +3498,15 @@ public:
   /// @brief Field <writeChar>5__6, offset: 0x44, size: 0x2, def value: None
   char16_t _writeChar_5__6;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x58, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__3, offset: 0x68, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<char16_t> __u__3;
 
@@ -3346,6 +3557,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferA
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9) == 0x90, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
@@ -3360,8 +3572,9 @@ public:
   /// @brief Method MoveNext, addr 0x5cfa110, size 0x11b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5cfb2c8, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -3370,13 +3583,14 @@ public:
   // @brief default ctor
   constexpr JsonTextReader__ReadStringValueAsync_d__37();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
-  // modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "readType", ty:
-  // "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-  // modifiers: "", def_value: None }, CppParam { name: "_expected_5__2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_expected_5__2", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr JsonTextReader__ReadStringValueAsync_d__37(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder,
                                                        ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType readType,
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1, ::StringW _expected_5__2,
@@ -3392,9 +3606,11 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextReader* __4__this;
 
@@ -3404,15 +3620,18 @@ public:
   /// @brief Field readType, offset: 0x30, size: 0x4, def value: None
   ::Newtonsoft::Json::ReadType readType;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <expected>5__2, offset: 0x48, size: 0x8, def value: None
   ::StringW _expected_5__2;
 
   /// @brief Field <>u__2, offset: 0x50, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field <>u__3, offset: 0x60, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__3;
 
@@ -3440,6 +3659,8 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_
 static_assert(sizeof(::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37) == 0x70, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonReader, Newtonsoft.Json.Utilities.StringBuffer, Newtonsoft.Json.Utilities.StringReference
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -3523,12 +3744,14 @@ public:
 
   using _ReadStringValueAsync_d__37 = ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_ArrayPool, put = set_ArrayPool)) ::Newtonsoft::Json::IArrayPool_1<char16_t>* ArrayPool;
 
   __declspec(property(get = get_LineNumber)) int32_t LineNumber;
 
   __declspec(property(get = get_LinePosition)) int32_t LinePosition;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_PropertyNameTable, put = set_PropertyNameTable)) ::Newtonsoft::Json::JsonNameTable* PropertyNameTable;
 
   /// @brief Field <PropertyNameTable>k__BackingField, offset 0xc8, size 0x8
@@ -3589,39 +3812,49 @@ public:
   /// @brief Method CreateUnexpectedCharacterException, addr 0x5ce8570, size 0xbc, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedCharacterException(char16_t c);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<DoReadAsBooleanAsync>d__40))]
   /// @brief Method DoReadAsBooleanAsync, addr 0x5ce50b8, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* DoReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<DoReadAsBytesAsync>d__42))]
   /// @brief Method DoReadAsBytesAsync, addr 0x5ce51bc, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* DoReadAsBytesAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<DoReadAsDateTimeAsync>d__45))]
   /// @brief Method DoReadAsDateTimeAsync, addr 0x5ce5380, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* DoReadAsDateTimeAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<DoReadAsDateTimeOffsetAsync>d__47))]
   /// @brief Method DoReadAsDateTimeOffsetAsync, addr 0x5ce547c, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>* DoReadAsDateTimeOffsetAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<DoReadAsDecimalAsync>d__49))]
   /// @brief Method DoReadAsDecimalAsync, addr 0x5ce5578, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* DoReadAsDecimalAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<DoReadAsDoubleAsync>d__51))]
   /// @brief Method DoReadAsDoubleAsync, addr 0x5ce5674, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* DoReadAsDoubleAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<DoReadAsInt32Async>d__53))]
   /// @brief Method DoReadAsInt32Async, addr 0x5ce5770, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* DoReadAsInt32Async(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<DoReadAsStringAsync>d__55))]
   /// @brief Method DoReadAsStringAsync, addr 0x5ce586c, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* DoReadAsStringAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method DoReadAsync, addr 0x5ce2f94, size 0x238, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* DoReadAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<DoReadAsync>d__3))]
   /// @brief Method DoReadAsync, addr 0x5ce34f4, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* DoReadAsync(::System::Threading::Tasks::Task_1<bool>* task, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method EatWhitespace, addr 0x5ce70bc, size 0xf0, virtual false, abstract: false, final false
   inline void EatWhitespace();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<EatWhitespaceAsync>d__17))]
   /// @brief Method EatWhitespaceAsync, addr 0x5ce3eb8, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* EatWhitespaceAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -3640,9 +3873,11 @@ public:
   /// @brief Method EnsureCharsAsync, addr 0x5ce39f0, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* EnsureCharsAsync(int32_t relativePosition, bool append, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [NullableContext(2)]
   /// @brief Method FinishReadQuotedNumber, addr 0x5ce923c, size 0x190, virtual false, abstract: false, final false
   inline ::System::Object* FinishReadQuotedNumber(::Newtonsoft::Json::ReadType readType);
 
+  /// [NullableContext(2)]
   /// @brief Method FinishReadQuotedStringValue, addr 0x5ce87bc, size 0x23c, virtual false, abstract: false, final false
   inline ::System::Object* FinishReadQuotedStringValue(::Newtonsoft::Json::ReadType readType);
 
@@ -3652,6 +3887,7 @@ public:
   /// @brief Method HandleNull, addr 0x5ce8454, size 0xb8, virtual false, abstract: false, final false
   inline void HandleNull();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<HandleNullAsync>d__35))]
   /// @brief Method HandleNullAsync, addr 0x5ce4d28, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* HandleNullAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -3661,8 +3897,9 @@ public:
   /// @brief Method IsSeparator, addr 0x5ceb88c, size 0x144, virtual false, abstract: false, final false
   inline bool IsSeparator(char16_t c);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<MatchAndSetAsync>d__21))]
   /// @brief Method MatchAndSetAsync, addr 0x5ce4240, size 0xe4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* MatchAndSetAsync(::StringW value, ::Newtonsoft::Json::JsonToken newToken, ::System::Object* tokenValue,
+  inline ::System::Threading::Tasks::Task* MatchAndSetAsync(::StringW value, ::Newtonsoft::Json::JsonToken newToken, /* [Nullable(2)] */ ::System::Object* tokenValue,
                                                             ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method MatchValue, addr 0x5ceb7bc, size 0xd0, virtual false, abstract: false, final false
@@ -3671,12 +3908,14 @@ public:
   /// @brief Method MatchValue, addr 0x5ceb760, size 0x5c, virtual false, abstract: false, final false
   inline bool MatchValue(::StringW value);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<MatchValueAsync>d__19))]
   /// @brief Method MatchValueAsync, addr 0x5ce4058, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MatchValueAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method MatchValueWithTrailingSeparator, addr 0x5ce8ae4, size 0xa4, virtual false, abstract: false, final false
   inline bool MatchValueWithTrailingSeparator(::StringW value);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<MatchValueWithTrailingSeparatorAsync>d__20))]
   /// @brief Method MatchValueWithTrailingSeparatorAsync, addr 0x5ce414c, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MatchValueWithTrailingSeparatorAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
@@ -3688,12 +3927,14 @@ public:
   /// @brief Method ParseComment, addr 0x5ce71ac, size 0x2a8, virtual false, abstract: false, final false
   inline void ParseComment(bool setToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseCommentAsync>d__16))]
   /// @brief Method ParseCommentAsync, addr 0x5ce3de4, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseCommentAsync(bool setToken, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ParseConstructor, addr 0x5cea2fc, size 0x2f0, virtual false, abstract: false, final false
   inline void ParseConstructor();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseConstructorAsync>d__25))]
   /// @brief Method ParseConstructorAsync, addr 0x5ce44cc, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseConstructorAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -3712,6 +3953,7 @@ public:
   /// @brief Method ParseNumber, addr 0x5ce8a7c, size 0x68, virtual false, abstract: false, final false
   inline void ParseNumber(::Newtonsoft::Json::ReadType readType);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseNumberAsync>d__29))]
   /// @brief Method ParseNumberAsync, addr 0x5ce487c, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseNumberAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
@@ -3721,6 +3963,7 @@ public:
   /// @brief Method ParseNumberNaN, addr 0x5cebd18, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNaN(::Newtonsoft::Json::ReadType readType, bool matched);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseNumberNaNAsync>d__26))]
   /// @brief Method ParseNumberNaNAsync, addr 0x5ce4594, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ParseNumberNaNAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
@@ -3730,6 +3973,7 @@ public:
   /// @brief Method ParseNumberNegativeInfinity, addr 0x5ceb9d0, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType, bool matched);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseNumberNegativeInfinityAsync>d__28))]
   /// @brief Method ParseNumberNegativeInfinityAsync, addr 0x5ce4784, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ParseNumberNegativeInfinityAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
@@ -3739,24 +3983,28 @@ public:
   /// @brief Method ParseNumberPositiveInfinity, addr 0x5cebb74, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType, bool matched);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseNumberPositiveInfinityAsync>d__27))]
   /// @brief Method ParseNumberPositiveInfinityAsync, addr 0x5ce468c, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ParseNumberPositiveInfinityAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ParseObject, addr 0x5ce6cdc, size 0x160, virtual false, abstract: false, final false
   inline bool ParseObject();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseObjectAsync>d__15))]
   /// @brief Method ParseObjectAsync, addr 0x5ce3304, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParseObjectAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ParsePostValue, addr 0x5ce6e3c, size 0x280, virtual false, abstract: false, final false
   inline bool ParsePostValue(bool ignoreComments);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParsePostValueAsync>d__4))]
   /// @brief Method ParsePostValueAsync, addr 0x5ce33f4, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParsePostValueAsync(bool ignoreComments, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ParseProperty, addr 0x5ce9c94, size 0x220, virtual false, abstract: false, final false
   inline bool ParseProperty();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParsePropertyAsync>d__31))]
   /// @brief Method ParsePropertyAsync, addr 0x5ce49c4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParsePropertyAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -3769,6 +4017,7 @@ public:
   /// @brief Method ParseString, addr 0x5ce5a08, size 0x48, virtual false, abstract: false, final false
   inline void ParseString(char16_t quote, ::Newtonsoft::Json::ReadType readType);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseStringAsync>d__18))]
   /// @brief Method ParseStringAsync, addr 0x5ce3f7c, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseStringAsync(char16_t quote, ::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
@@ -3787,18 +4036,21 @@ public:
   /// @brief Method ParseUnicode, addr 0x5ce9824, size 0x40, virtual false, abstract: false, final false
   inline char16_t ParseUnicode();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseUnicodeAsync>d__12))]
   /// @brief Method ParseUnicodeAsync, addr 0x5ce3bec, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<char16_t>* ParseUnicodeAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ParseUnquotedProperty, addr 0x5ce9f04, size 0xc4, virtual false, abstract: false, final false
   inline void ParseUnquotedProperty();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseUnquotedPropertyAsync>d__33))]
   /// @brief Method ParseUnquotedPropertyAsync, addr 0x5ce4b78, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseUnquotedPropertyAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ParseValue, addr 0x5ce685c, size 0x480, virtual false, abstract: false, final false
   inline bool ParseValue();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ParseValueAsync>d__8))]
   /// @brief Method ParseValueAsync, addr 0x5ce3210, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParseValueAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -3811,6 +4063,7 @@ public:
   /// @brief Method ProcessCarriageReturnAsync, addr 0x5ce38bc, size 0x134, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessCarriageReturnAsync(bool append, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ProcessCarriageReturnAsync>d__11))]
   /// @brief Method ProcessCarriageReturnAsync, addr 0x5ce3b2c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessCarriageReturnAsync(::System::Threading::Tasks::Task_1<bool>* task);
 
@@ -3829,6 +4082,7 @@ public:
   /// @brief Method ReadAsBooleanAsync, addr 0x5ce50a8, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* ReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [NullableContext(2)]
   /// @brief Method ReadAsBytes, addr 0x5ce7fa0, size 0x464, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadAsBytes();
 
@@ -3865,6 +4119,7 @@ public:
   /// @brief Method ReadAsInt32Async, addr 0x5ce5760, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* ReadAsInt32Async(::System::Threading::CancellationToken cancellationToken);
 
+  /// [NullableContext(2)]
   /// @brief Method ReadAsString, addr 0x5ce7f70, size 0x30, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
@@ -3877,6 +4132,7 @@ public:
   /// @brief Method ReadChars, addr 0x5ce65e0, size 0x70, virtual false, abstract: false, final false
   inline bool ReadChars(int32_t relativePosition, bool append);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadCharsAsync>d__14))]
   /// @brief Method ReadCharsAsync, addr 0x5ce3cd8, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadCharsAsync(int32_t relativePosition, bool append, ::System::Threading::CancellationToken cancellationToken);
 
@@ -3889,24 +4145,29 @@ public:
   /// @brief Method ReadDataAsync, addr 0x5ce36d8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadDataAsync(bool append, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadDataAsync>d__7))]
   /// @brief Method ReadDataAsync, addr 0x5ce36e4, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadDataAsync(bool append, int32_t charsRequired, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ReadFinished, addr 0x5ce8690, size 0x12c, virtual false, abstract: false, final false
   inline void ReadFinished();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadFinishedAsync>d__36))]
   /// @brief Method ReadFinishedAsync, addr 0x5ce4dec, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadFinishedAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadFromFinishedAsync>d__5))]
   /// @brief Method ReadFromFinishedAsync, addr 0x5ce35e8, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadFromFinishedAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadIntoWrappedTypeObjectAsync>d__43))]
   /// @brief Method ReadIntoWrappedTypeObjectAsync, addr 0x5ce52b0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadIntoWrappedTypeObjectAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ReadNullChar, addr 0x5ce8404, size 0x50, virtual false, abstract: false, final false
   inline bool ReadNullChar();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadNullCharAsync>d__34))]
   /// @brief Method ReadNullCharAsync, addr 0x5ce4c3c, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadNullCharAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -3916,24 +4177,30 @@ public:
   /// @brief Method ReadNumberIntoBuffer, addr 0x5ce9aa4, size 0x84, virtual false, abstract: false, final false
   inline void ReadNumberIntoBuffer();
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadNumberIntoBufferAsync>d__32))]
   /// @brief Method ReadNumberIntoBufferAsync, addr 0x5ce4ab4, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadNumberIntoBufferAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [NullableContext(2)]
   /// @brief Method ReadNumberValue, addr 0x5ce756c, size 0x3d0, virtual false, abstract: false, final false
   inline ::System::Object* ReadNumberValue(::Newtonsoft::Json::ReadType readType);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadNumberValueAsync>d__38))]
   /// @brief Method ReadNumberValueAsync, addr 0x5ce4fac, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ReadNumberValueAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method ReadStringIntoBuffer, addr 0x5ce5b14, size 0x4e4, virtual false, abstract: false, final false
   inline void ReadStringIntoBuffer(char16_t quote);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadStringIntoBufferAsync>d__9))]
   /// @brief Method ReadStringIntoBufferAsync, addr 0x5ce37f0, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadStringIntoBufferAsync(char16_t quote, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [NullableContext(2)]
   /// @brief Method ReadStringValue, addr 0x5ce7a54, size 0x51c, virtual false, abstract: false, final false
   inline ::System::Object* ReadStringValue(::Newtonsoft::Json::ReadType readType);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.JsonTextReader::<ReadStringValueAsync>d__37))]
   /// @brief Method ReadStringValueAsync, addr 0x5ce4eb0, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ReadStringValueAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
@@ -3947,7 +4214,7 @@ public:
   inline void ShiftBufferIfNeeded();
 
   /// @brief Method ThrowReaderError, addr 0x5ceb674, size 0x2c, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonReaderException* ThrowReaderError(::StringW message, ::System::Exception* ex);
+  inline ::Newtonsoft::Json::JsonReaderException* ThrowReaderError(::StringW message, /* [Nullable(2)] */ ::System::Exception* ex);
 
   /// @brief Method ValidIdentifierChar, addr 0x5ce9eb4, size 0x50, virtual false, abstract: false, final false
   inline bool ValidIdentifierChar(char16_t value);
@@ -4030,6 +4297,7 @@ public:
   /// @brief Method .ctor, addr 0x5cd5e90, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
+  /// [NullableContext(2)]
   /// @brief Method get_ArrayPool, addr 0x5ce5968, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* get_ArrayPool();
 
@@ -4039,15 +4307,20 @@ public:
   /// @brief Method get_LinePosition, addr 0x5cebf80, size 0xc, virtual true, abstract: false, final true
   inline int32_t get_LinePosition();
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method get_PropertyNameTable, addr 0x5ce5958, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonNameTable* get_PropertyNameTable();
 
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
+  /// [NullableContext(2)]
   /// @brief Method set_ArrayPool, addr 0x5ce5970, size 0x58, virtual false, abstract: false, final false
   inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method set_PropertyNameTable, addr 0x5ce5960, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyNameTable(::Newtonsoft::Json::JsonNameTable* value);
 
@@ -4057,13 +4330,13 @@ protected:
   constexpr JsonTextReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTextReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonTextReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonTextReader(JsonTextReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonTextReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonTextReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonTextReader(JsonTextReader const&) = delete;
+  JsonTextReader(JsonTextReaderconst&) = delete;
 
   /// @brief Field LargeBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t LargeBufferLength{ static_cast<int32_t>(0x3fffffff) };
@@ -4083,6 +4356,7 @@ public:
   /// @brief Field _reader, offset: 0x78, size: 0x8, def value: None
   ::System::IO::TextReader* ____reader;
 
+  /// [Nullable(2)]
   /// @brief Field _chars, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<char16_t> ____chars;
 
@@ -4107,9 +4381,12 @@ public:
   /// @brief Field _stringReference, offset: 0xb0, size: 0x10, def value: None
   ::Newtonsoft::Json::Utilities::StringReference ____stringReference;
 
+  /// [Nullable(2)]
   /// @brief Field _arrayPool, offset: 0xc0, size: 0x8, def value: None
   ::Newtonsoft::Json::IArrayPool_1<char16_t>* ____arrayPool;
 
+  /// [Nullable(2)]
+  /// [CompilerGenerated]
   /// @brief Field <PropertyNameTable>k__BackingField, offset: 0xc8, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonNameTable* ____PropertyNameTable_k__BackingField;
 

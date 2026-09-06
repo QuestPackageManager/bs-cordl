@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpEncryptedDataGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpEncryptedDataGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,7 @@ public:
   /// @brief Field sessionInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_sessionInfo, put = __cordl_internal_set_sessionInfo)) ::ArrayW<uint8_t> sessionInfo;
 
-  /// @brief Method AddSessionInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddSessionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddSessionInfo(::ArrayW<uint8_t> si, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator_EncMethod* New_ctor();
@@ -127,13 +127,13 @@ protected:
   constexpr PgpEncryptedDataGenerator_EncMethod();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_EncMethod", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_EncMethod", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpEncryptedDataGenerator_EncMethod(PgpEncryptedDataGenerator_EncMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_EncMethod", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_EncMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedDataGenerator_EncMethod(PgpEncryptedDataGenerator_EncMethod const&) = delete;
+  PgpEncryptedDataGenerator_EncMethod(PgpEncryptedDataGenerator_EncMethodconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1639 };
@@ -196,13 +196,13 @@ protected:
   constexpr PgpEncryptedDataGenerator_PbeMethod();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PbeMethod", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PbeMethod", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpEncryptedDataGenerator_PbeMethod(PgpEncryptedDataGenerator_PbeMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PbeMethod", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PbeMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedDataGenerator_PbeMethod(PgpEncryptedDataGenerator_PbeMethod const&) = delete;
+  PgpEncryptedDataGenerator_PbeMethod(PgpEncryptedDataGenerator_PbeMethodconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1640 };
@@ -278,13 +278,13 @@ protected:
   constexpr PgpEncryptedDataGenerator_PubMethod();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PubMethod", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PubMethod", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpEncryptedDataGenerator_PubMethod(PgpEncryptedDataGenerator_PubMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PubMethod", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator_PubMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedDataGenerator_PubMethod(PgpEncryptedDataGenerator_PubMethod const&) = delete;
+  PgpEncryptedDataGenerator_PubMethod(PgpEncryptedDataGenerator_PubMethodconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1641 };
@@ -362,6 +362,7 @@ public:
   /// @brief Method AddMethod, addr 0x357ff8c, size 0x144, virtual false, abstract: false, final false
   inline void AddMethod(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* key, bool sessionKeyObfuscation);
 
+  /// [Obsolete("Use version that takes an explicit s2kDigest parameter")]
   /// @brief Method AddMethod, addr 0x357fd94, size 0x30, virtual false, abstract: false, final false
   inline void AddMethod(::ArrayW<char16_t> passPhrase);
 
@@ -483,13 +484,13 @@ protected:
   constexpr PgpEncryptedDataGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpEncryptedDataGenerator(PgpEncryptedDataGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpEncryptedDataGenerator(PgpEncryptedDataGenerator const&) = delete;
+  PgpEncryptedDataGenerator(PgpEncryptedDataGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1642 };

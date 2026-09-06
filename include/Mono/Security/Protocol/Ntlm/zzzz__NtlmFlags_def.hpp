@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\NtlmFlags.hpp"
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/NtlmFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct NtlmFlags;
 // Write type traits
 MARK_VAL_T(::Mono::Security::Protocol::Ntlm::NtlmFlags);
 DEFINE_IL2CPP_CLASS(::Mono::Security::Protocol::Ntlm::NtlmFlags, "Mono.Security.Protocol.Ntlm", "NtlmFlags");
+// [Flags]
 // Dependencies
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr NtlmFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NtlmFlags(int32_t value__) noexcept;
 
   /// @brief Field Negotiate128 value: I32(536870912)

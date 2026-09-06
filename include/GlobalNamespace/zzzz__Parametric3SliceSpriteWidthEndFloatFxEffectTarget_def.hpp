@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Parametric3SliceSpriteWidthEndFloatFxEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/Parametric3SliceSpriteWidthEndFloatFxEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,23 +71,27 @@ protected:
   constexpr Parametric3SliceSpriteWidthEndFloatFxEffectTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceSpriteWidthEndFloatFxEffectTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceSpriteWidthEndFloatFxEffectTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Parametric3SliceSpriteWidthEndFloatFxEffectTarget(Parametric3SliceSpriteWidthEndFloatFxEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceSpriteWidthEndFloatFxEffectTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceSpriteWidthEndFloatFxEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parametric3SliceSpriteWidthEndFloatFxEffectTarget(Parametric3SliceSpriteWidthEndFloatFxEffectTarget const&) = delete;
+  Parametric3SliceSpriteWidthEndFloatFxEffectTarget(Parametric3SliceSpriteWidthEndFloatFxEffectTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5877 };
 
+  /// [SerializeField]
   /// @brief Field _parametric3SliceSpriteController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____parametric3SliceSpriteController;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _valueBounds, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____valueBounds;
 
+  /// [SerializeField]
   /// @brief Field _valueMultiplier, offset: 0x30, size: 0x4, def value: None
   float_t ____valueMultiplier;
 

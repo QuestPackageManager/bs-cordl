@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ColorUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ColorUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,19 +64,21 @@ public:
   static inline float_t ConvertExposureToEV100(float_t exposure);
 
   /// @brief Method Luminance, addr 0x67bd760, size 0x30, virtual false, abstract: false, final false
-  static inline float_t Luminance(::by_ref<::UnityEngine::Color> color);
+  static inline float_t Luminance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color> color);
 
   /// @brief Method PrepareLiftGammaGain, addr 0x67bd3d0, size 0x390, virtual false, abstract: false, final false
-  static inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4>
-  PrepareLiftGammaGain(::by_ref<::UnityEngine::Vector4> inLift, ::by_ref<::UnityEngine::Vector4> inGamma, ::by_ref<::UnityEngine::Vector4> inGain);
+  static inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4> PrepareLiftGammaGain(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inLift,
+                                                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inGamma,
+                                                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inGain);
 
   /// @brief Method PrepareShadowsMidtonesHighlights, addr 0x67bd138, size 0x298, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4>
-  PrepareShadowsMidtonesHighlights(::by_ref<::UnityEngine::Vector4> inShadows, ::by_ref<::UnityEngine::Vector4> inMidtones, ::by_ref<::UnityEngine::Vector4> inHighlights);
+  PrepareShadowsMidtonesHighlights(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inShadows, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inMidtones,
+                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inHighlights);
 
   /// @brief Method PrepareSplitToning, addr 0x67bd790, size 0x8c, virtual false, abstract: false, final false
-  static inline ::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector4> PrepareSplitToning(::by_ref<::UnityEngine::Vector4> inShadows, ::by_ref<::UnityEngine::Vector4> inHighlights,
-                                                                                                          float_t balance);
+  static inline ::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector4> PrepareSplitToning(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inShadows,
+                                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inHighlights, float_t balance);
 
   /// @brief Method StandardIlluminantY, addr 0x67bcf1c, size 0x2c, virtual false, abstract: false, final false
   static inline float_t StandardIlluminantY(float_t x);
@@ -104,13 +106,13 @@ protected:
   constexpr ColorUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorUtils(ColorUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorUtils(ColorUtils const&) = delete;
+  ColorUtils(ColorUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12272 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\Slider2D.hpp"
+// IWYU pragma private; include "HMUI/Slider2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ class Slider2D;
 // Write type traits
 MARK_REF_T(::HMUI::Slider2D*);
 DEFINE_IL2CPP_CLASS(::HMUI::Slider2D*, "HMUI", "Slider2D");
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.UI.Selectable, UnityEngine.Vector2
 namespace HMUI {
 // Is value type: false
@@ -201,6 +202,7 @@ public:
   /// @brief Method .ctor, addr 0x587f4c0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_normalizedValueDidChangeEvent, addr 0x587ed48, size 0xc0, virtual false, abstract: false, final false
   inline void add_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>* value);
 
@@ -225,6 +227,7 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_normalizedValueDidChangeEvent, addr 0x587ee08, size 0xc0, virtual false, abstract: false, final false
   inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>* value);
 
@@ -243,23 +246,27 @@ protected:
   constexpr Slider2D();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Slider2D", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider2D", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Slider2D(Slider2D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Slider2D", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider2D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Slider2D(Slider2D const&) = delete;
+  Slider2D(Slider2Dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19062 };
 
+  /// [SerializeField]
   /// @brief Field _handleRect, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____handleRect;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _normalizedValue, offset: 0x108, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____normalizedValue;
 
+  /// [CompilerGenerated]
   /// @brief Field normalizedValueDidChangeEvent, offset: 0x110, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>* ___normalizedValueDidChangeEvent;
 

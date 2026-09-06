@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\ENetCallbacks.hpp"
+// IWYU pragma private; include "ENet/ENetCallbacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,8 +32,8 @@ public:
   // @brief default ctor
   constexpr ENetCallbacks();
 
-  // Ctor Parameters [CppParam { name: "malloc", ty: "::ENet::AllocCallback*", modifiers: "", def_value: None }, CppParam { name: "free", ty: "::ENet::FreeCallback*", modifiers: "", def_value: None },
-  // CppParam { name: "noMemory", ty: "::ENet::NoMemoryCallback*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "malloc", ty: "::ENet::AllocCallback*", modifiers: "", def_value: None, comment: None }, CppParam { name: "free", ty: "::ENet::FreeCallback*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "noMemory", ty: "::ENet::NoMemoryCallback*", modifiers: "", def_value: None, comment: None }]
   constexpr ENetCallbacks(::ENet::AllocCallback* malloc, ::ENet::FreeCallback* free, ::ENet::NoMemoryCallback* noMemory) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

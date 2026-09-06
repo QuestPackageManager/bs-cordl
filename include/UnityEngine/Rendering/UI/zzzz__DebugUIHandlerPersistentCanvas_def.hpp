@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerPersistentCanvas.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerPersistentCanvas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::Rendering::UI {
 class DebugUIHandlerPersistentCanvas___c__DisplayClass3_0;
@@ -49,6 +51,7 @@ MARK_REF_T(::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__Dis
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas*, "UnityEngine.Rendering.UI", "DebugUIHandlerPersistentCanvas");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0*, "UnityEngine.Rendering.UI", "DebugUIHandlerPersistentCanvas/<>c__DisplayClass3_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0*, "UnityEngine.Rendering.UI", "DebugUIHandlerPersistentCanvas/<>c__DisplayClass5_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::UI {
 // Is value type: false
@@ -79,13 +82,13 @@ protected:
   constexpr DebugUIHandlerPersistentCanvas___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerPersistentCanvas___c__DisplayClass3_0(DebugUIHandlerPersistentCanvas___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerPersistentCanvas___c__DisplayClass3_0(DebugUIHandlerPersistentCanvas___c__DisplayClass3_0 const&) = delete;
+  DebugUIHandlerPersistentCanvas___c__DisplayClass3_0(DebugUIHandlerPersistentCanvas___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12532 };
@@ -101,6 +104,7 @@ static_assert(offsetof(::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCan
 static_assert(sizeof(::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::UI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::UI {
 // Is value type: false
@@ -131,13 +135,13 @@ protected:
   constexpr DebugUIHandlerPersistentCanvas___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerPersistentCanvas___c__DisplayClass5_0(DebugUIHandlerPersistentCanvas___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerPersistentCanvas___c__DisplayClass5_0(DebugUIHandlerPersistentCanvas___c__DisplayClass5_0 const&) = delete;
+  DebugUIHandlerPersistentCanvas___c__DisplayClass5_0(DebugUIHandlerPersistentCanvas___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12533 };
@@ -225,13 +229,13 @@ protected:
   constexpr DebugUIHandlerPersistentCanvas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerPersistentCanvas(DebugUIHandlerPersistentCanvas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerPersistentCanvas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerPersistentCanvas(DebugUIHandlerPersistentCanvas const&) = delete;
+  DebugUIHandlerPersistentCanvas(DebugUIHandlerPersistentCanvasconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12534 };

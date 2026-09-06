@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VisibleLight.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VisibleLight.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ struct VisibleLight;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::VisibleLight);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VisibleLight, "UnityEngine.Rendering", "VisibleLight");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Color, UnityEngine.LightType, UnityEngine.Matrix4x4, UnityEngine.Rect, UnityEngine.Rendering.VisibleLightFlags
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -93,10 +94,11 @@ public:
   // @brief default ctor
   constexpr VisibleLight();
 
-  // Ctor Parameters [CppParam { name: "m_LightType", ty: "::UnityEngine::LightType", modifiers: "", def_value: None }, CppParam { name: "m_FinalColor", ty: "::UnityEngine::Color", modifiers: "",
-  // def_value: None }, CppParam { name: "m_ScreenRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "m_LocalToWorldMatrix", ty: "::UnityEngine::Matrix4x4",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Range", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_SpotAngle", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_InstanceId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::VisibleLightFlags", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_LightType", ty: "::UnityEngine::LightType", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FinalColor", ty: "::UnityEngine::Color",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ScreenRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_LocalToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Range", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_SpotAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_InstanceId", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Flags", ty: "::UnityEngine::Rendering::VisibleLightFlags", modifiers: "", def_value: None, comment: None }]
   constexpr VisibleLight(::UnityEngine::LightType m_LightType, ::UnityEngine::Color m_FinalColor, ::UnityEngine::Rect m_ScreenRect, ::UnityEngine::Matrix4x4 m_LocalToWorldMatrix, float_t m_Range,
                          float_t m_SpotAngle, int32_t m_InstanceId, ::UnityEngine::Rendering::VisibleLightFlags m_Flags) noexcept;
 

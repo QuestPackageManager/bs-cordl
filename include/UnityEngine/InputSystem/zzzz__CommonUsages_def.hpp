@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\CommonUsages.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/CommonUsages.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -215,13 +215,13 @@ protected:
   constexpr CommonUsages();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommonUsages", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommonUsages", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommonUsages(CommonUsages&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommonUsages", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommonUsages", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommonUsages(CommonUsages const&) = delete;
+  CommonUsages(CommonUsagesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8695 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Concurrent\BlockingCollection_1.hpp"
+// IWYU pragma private; include "System/Collections/Concurrent/BlockingCollection_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,8 @@ template <typename T> class BlockingCollection_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Collections::Concurrent::BlockingCollection_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Collections::Concurrent::BlockingCollection_1, "System.Collections.Concurrent", "BlockingCollection`1");
+// [DebuggerTypeProxy(typeof(System.Collections.Concurrent.BlockingCollectionDebugView`1<T>))]
+// [DebuggerDisplay("Count = {Count}, Type = {_collection}")]
 // Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
@@ -255,13 +257,13 @@ protected:
   constexpr BlockingCollection_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlockingCollection_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockingCollection_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlockingCollection_1(BlockingCollection_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlockingCollection_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockingCollection_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlockingCollection_1(BlockingCollection_1 const&) = delete;
+  BlockingCollection_1(BlockingCollection_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11385 };

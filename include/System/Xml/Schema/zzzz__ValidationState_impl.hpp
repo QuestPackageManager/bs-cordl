@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\ValidationState.hpp"
+// IWYU pragma private; include "System/Xml/Schema/ValidationState.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_impl.hpp"
 #include "System/Xml/Schema/zzzz__ConstraintStruct_impl.hpp"
 #include "System/Xml/Schema/zzzz__StateUnion_impl.hpp"

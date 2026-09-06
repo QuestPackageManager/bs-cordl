@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\Token.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/Token.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   // @brief default ctor
   constexpr Token_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Token_Type(int32_t value__) noexcept;
 
   /// @brief Field End value: I32(1)
@@ -135,12 +135,16 @@ public:
 
   static inline ::System::Net::Http::Headers::Token getStaticF_Empty();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_EndPosition, addr 0x60eacac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EndPosition();
 
   /// @brief Method get_Kind, addr 0x60eacbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::Token_Type get_Kind();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_StartPosition, addr 0x60eac9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartPosition();
 
@@ -149,9 +153,11 @@ public:
 
   static inline void setStaticF_Empty(::System::Net::Http::Headers::Token value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_EndPosition, addr 0x60eacb4, size 0x8, virtual false, abstract: false, final false
   inline void set_EndPosition(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_StartPosition, addr 0x60eaca4, size 0x8, virtual false, abstract: false, final false
   inline void set_StartPosition(int32_t value);
 
@@ -159,8 +165,8 @@ public:
   // @brief default ctor
   constexpr Token();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::System::Net::Http::Headers::Token_Type", modifiers: "", def_value: None }, CppParam { name: "_StartPosition_k__BackingField", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_EndPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::System::Net::Http::Headers::Token_Type", modifiers: "", def_value: None, comment: None }, CppParam { name: "_StartPosition_k__BackingField", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_EndPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Token(::System::Net::Http::Headers::Token_Type type, int32_t _StartPosition_k__BackingField, int32_t _EndPosition_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -172,9 +178,11 @@ public:
   /// @brief Field type, offset: 0x0, size: 0x4, def value: None
   ::System::Net::Http::Headers::Token_Type type;
 
+  /// [CompilerGenerated]
   /// @brief Field <StartPosition>k__BackingField, offset: 0x4, size: 0x4, def value: None
   int32_t _StartPosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <EndPosition>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _EndPosition_k__BackingField;
 

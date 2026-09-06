@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeBakingResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeBakingResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,9 @@ class ProbeVolumeBakingResources;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ProbeVolumeBakingResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeBakingResources*, "UnityEngine.Rendering", "ProbeVolumeBakingResources");
+// [SupportedOnRenderPipeline(new[] {  })]
+// [CategoryInfo(Name = "R: Adaptive Probe Volumes", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -153,44 +156,56 @@ protected:
   constexpr ProbeVolumeBakingResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeBakingResources(ProbeVolumeBakingResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeBakingResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeBakingResources(ProbeVolumeBakingResources const&) = delete;
+  ProbeVolumeBakingResources(ProbeVolumeBakingResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12143 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [Header("Baking")]
+  /// [ResourcePath("Editor/Lighting/ProbeVolume/ProbeVolumeCellDilation.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field dilationShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___dilationShader;
 
+  /// [ResourcePath("Editor/Lighting/ProbeVolume/ProbeVolumeSubdivide.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field subdivideSceneCS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___subdivideSceneCS;
 
+  /// [ResourcePath("Editor/Lighting/ProbeVolume/VoxelizeScene.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field voxelizeSceneShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___voxelizeSceneShader;
 
+  /// [ResourcePath("Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field traceVirtualOffsetCS, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___traceVirtualOffsetCS;
 
+  /// [ResourcePath("Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field traceVirtualOffsetRT, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::RayTracingShader> ___traceVirtualOffsetRT;
 
+  /// [ResourcePath("Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field skyOcclusionCS, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___skyOcclusionCS;
 
+  /// [ResourcePath("Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field skyOcclusionRT, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::RayTracingShader> ___skyOcclusionRT;
 
+  /// [ResourcePath("Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field renderingLayerCS, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___renderingLayerCS;
 
+  /// [ResourcePath("Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field renderingLayerRT, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::RayTracingShader> ___renderingLayerRT;
 

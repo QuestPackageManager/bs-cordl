@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\RsaKeyPairGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/RsaKeyPairGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,13 +106,13 @@ protected:
   constexpr RsaKeyPairGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RsaKeyPairGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaKeyPairGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RsaKeyPairGenerator(RsaKeyPairGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RsaKeyPairGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaKeyPairGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RsaKeyPairGenerator(RsaKeyPairGenerator const&) = delete;
+  RsaKeyPairGenerator(RsaKeyPairGeneratorconst&) = delete;
 
   /// @brief Field DefaultTests offset 0xffffffff size 0x4
   static constexpr int32_t DefaultTests{ static_cast<int32_t>(0x64) };

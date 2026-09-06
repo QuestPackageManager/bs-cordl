@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Pen.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Pen.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class Pen;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Pen*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Pen*, "UnityEngine.InputSystem", "Pen");
+// [DefaultMember("Item")]
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.LowLevel.PenState), isGenericTypeOfDevice = true)]
 // Dependencies UnityEngine.InputSystem.Pointer
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -160,65 +162,85 @@ public:
   /// @brief Method get_Item, addr 0x6524c98, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_Item(::UnityEngine::InputSystem::PenButton button);
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6524bfc, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Pen* get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_eraser, addr 0x6524b7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_eraser();
 
+  /// [CompilerGenerated]
   /// @brief Method get_firstBarrelButton, addr 0x6524b8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_firstBarrelButton();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fourthBarrelButton, addr 0x6524bbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_fourthBarrelButton();
 
+  /// [CompilerGenerated]
   /// @brief Method get_inRange, addr 0x6524bcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_inRange();
 
+  /// [CompilerGenerated]
   /// @brief Method get_secondBarrelButton, addr 0x6524b9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_secondBarrelButton();
 
+  /// [CompilerGenerated]
   /// @brief Method get_thirdBarrelButton, addr 0x6524bac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thirdBarrelButton();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tilt, addr 0x6524bdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_tilt();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tip, addr 0x6524b6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_tip();
 
+  /// [CompilerGenerated]
   /// @brief Method get_twist, addr 0x6524bec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_twist();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Pen* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6524c48, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Pen* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_eraser, addr 0x6524b84, size 0x8, virtual false, abstract: false, final false
   inline void set_eraser(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_firstBarrelButton, addr 0x6524b94, size 0x8, virtual false, abstract: false, final false
   inline void set_firstBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_fourthBarrelButton, addr 0x6524bc4, size 0x8, virtual false, abstract: false, final false
   inline void set_fourthBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_inRange, addr 0x6524bd4, size 0x8, virtual false, abstract: false, final false
   inline void set_inRange(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_secondBarrelButton, addr 0x6524ba4, size 0x8, virtual false, abstract: false, final false
   inline void set_secondBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_thirdBarrelButton, addr 0x6524bb4, size 0x8, virtual false, abstract: false, final false
   inline void set_thirdBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tilt, addr 0x6524be4, size 0x8, virtual false, abstract: false, final false
   inline void set_tilt(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tip, addr 0x6524b74, size 0x8, virtual false, abstract: false, final false
   inline void set_tip(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_twist, addr 0x6524bf4, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
@@ -228,41 +250,50 @@ protected:
   constexpr Pen();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pen", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pen", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pen(Pen&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pen", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pen", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pen(Pen const&) = delete;
+  Pen(Penconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8730 };
 
+  /// [CompilerGenerated]
   /// @brief Field <tip>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____tip_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <eraser>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____eraser_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <firstBarrelButton>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____firstBarrelButton_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <secondBarrelButton>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____secondBarrelButton_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <thirdBarrelButton>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____thirdBarrelButton_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <fourthBarrelButton>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____fourthBarrelButton_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <inRange>k__BackingField, offset: 0x1e8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____inRange_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tilt>k__BackingField, offset: 0x1f0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector2Control* ____tilt_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <twist>k__BackingField, offset: 0x1f8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____twist_k__BackingField;
 

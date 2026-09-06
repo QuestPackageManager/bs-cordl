@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\BitField64.hpp"
+// IWYU pragma private; include "Unity/Collections/BitField64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct BitField64;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::BitField64);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::BitField64, "Unity.Collections", "BitField64");
+// [DebuggerTypeProxy(typeof(Unity.Collections.BitField64DebugView))]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -20,6 +22,8 @@ namespace Unity::Collections {
 struct CORDL_TYPE BitField64 {
 public:
   // Declarations
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckArgs, addr 0x64abd48, size 0xbc, virtual false, abstract: false, final false
   static inline void CheckArgs(int32_t pos, int32_t numBits);
 
@@ -63,7 +67,7 @@ public:
   // @brief default ctor
   constexpr BitField64();
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr BitField64(uint64_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

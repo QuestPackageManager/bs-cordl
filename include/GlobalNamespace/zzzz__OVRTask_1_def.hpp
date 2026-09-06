@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTask_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTask_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -228,13 +228,13 @@ protected:
   constexpr OVRTask_1_ContinueWithInvoker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_ContinueWithInvoker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_ContinueWithInvoker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTask_1_ContinueWithInvoker(OVRTask_1_ContinueWithInvoker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_ContinueWithInvoker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_ContinueWithInvoker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_1_ContinueWithInvoker(OVRTask_1_ContinueWithInvoker const&) = delete;
+  OVRTask_1_ContinueWithInvoker(OVRTask_1_ContinueWithInvokerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7847 };
@@ -272,13 +272,13 @@ protected:
   constexpr OVRTask_1_ContinueWithRemover();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_ContinueWithRemover", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_ContinueWithRemover", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTask_1_ContinueWithRemover(OVRTask_1_ContinueWithRemover&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_ContinueWithRemover", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_ContinueWithRemover", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_1_ContinueWithRemover(OVRTask_1_ContinueWithRemover const&) = delete;
+  OVRTask_1_ContinueWithRemover(OVRTask_1_ContinueWithRemoverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7848 };
@@ -316,13 +316,13 @@ protected:
   constexpr OVRTask_1_InternalDataRemover();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_InternalDataRemover", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_InternalDataRemover", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTask_1_InternalDataRemover(OVRTask_1_InternalDataRemover&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_InternalDataRemover", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_InternalDataRemover", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_1_InternalDataRemover(OVRTask_1_InternalDataRemover const&) = delete;
+  OVRTask_1_InternalDataRemover(OVRTask_1_InternalDataRemoverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7849 };
@@ -379,13 +379,13 @@ protected:
   constexpr OVRTask_1_InternalData_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_InternalData_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_InternalData_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTask_1_InternalData_1(OVRTask_1_InternalData_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_InternalData_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_InternalData_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_1_InternalData_1(OVRTask_1_InternalData_1 const&) = delete;
+  OVRTask_1_InternalData_1(OVRTask_1_InternalData_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7850 };
@@ -442,13 +442,13 @@ protected:
   constexpr OVRTask_1_IncrementalResultSubscriber_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_IncrementalResultSubscriber_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_IncrementalResultSubscriber_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTask_1_IncrementalResultSubscriber_1(OVRTask_1_IncrementalResultSubscriber_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_IncrementalResultSubscriber_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_IncrementalResultSubscriber_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_1_IncrementalResultSubscriber_1(OVRTask_1_IncrementalResultSubscriber_1 const&) = delete;
+  OVRTask_1_IncrementalResultSubscriber_1(OVRTask_1_IncrementalResultSubscriber_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7851 };
@@ -457,6 +457,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
@@ -487,13 +488,13 @@ protected:
   constexpr CombinedTaskData_OVRTask_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CombinedTaskData_OVRTask_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CombinedTaskData_OVRTask_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CombinedTaskData_OVRTask_1___c(CombinedTaskData_OVRTask_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CombinedTaskData_OVRTask_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CombinedTaskData_OVRTask_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CombinedTaskData_OVRTask_1___c(CombinedTaskData_OVRTask_1___c const&) = delete;
+  CombinedTaskData_OVRTask_1___c(CombinedTaskData_OVRTask_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7852 };
@@ -502,6 +503,8 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
+// [AsyncMethodBuilder(typeof(OVRTaskBuilder`1<T>))]
 // Dependencies System.Guid
 namespace GlobalNamespace {
 // cpp template
@@ -781,7 +784,7 @@ public:
   // @brief default ctor
   constexpr OVRTask_1();
 
-  // Ctor Parameters [CppParam { name: "_id", ty: "::System::Guid", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_id", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTask_1(::System::Guid _id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -797,6 +800,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies OVRTask`1<TResult>
 namespace GlobalNamespace {
 // cpp template
@@ -835,11 +839,11 @@ public:
   // @brief default ctor
   constexpr OVRTask_1_CombinedTaskData();
 
-  // Ctor Parameters [CppParam { name: "Task", ty: "::GlobalNamespace::OVRTask_1<::System::Collections::Generic::List_1<TResult>*>", modifiers: "", def_value: None }, CppParam { name:
-  // "_remainingTaskIds", ty: "::System::Collections::Generic::HashSet_1<::System::Guid>*", modifiers: "", def_value: None }, CppParam { name: "_originalTaskOrder", ty:
-  // "::System::Collections::Generic::List_1<::System::Guid>*", modifiers: "", def_value: None }, CppParam { name: "_completedTasks", ty:
-  // "::System::Collections::Generic::Dictionary_2<::System::Guid,TResult>*", modifiers: "", def_value: None }, CppParam { name: "_userOwnedResultList", ty:
-  // "::System::Collections::Generic::List_1<TResult>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Task", ty: "::GlobalNamespace::OVRTask_1<::System::Collections::Generic::List_1<TResult>*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_remainingTaskIds", ty: "::System::Collections::Generic::HashSet_1<::System::Guid>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_originalTaskOrder", ty:
+  // "::System::Collections::Generic::List_1<::System::Guid>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_completedTasks", ty:
+  // "::System::Collections::Generic::Dictionary_2<::System::Guid,TResult>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_userOwnedResultList", ty:
+  // "::System::Collections::Generic::List_1<TResult>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTask_1_CombinedTaskData(::GlobalNamespace::OVRTask_1<::System::Collections::Generic::List_1<TResult>*> Task,
                                        ::System::Collections::Generic::HashSet_1<::System::Guid>* _remainingTaskIds, ::System::Collections::Generic::List_1<::System::Guid>* _originalTaskOrder,
                                        ::System::Collections::Generic::Dictionary_2<::System::Guid, TResult>* _completedTasks,
@@ -883,8 +887,8 @@ public:
   // @brief default ctor
   constexpr OVRTask_1_CombinedTaskDataWithCompletedTaskId();
 
-  // Ctor Parameters [CppParam { name: "CompletedTaskId", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "CombinedData", ty:
-  // "::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "CompletedTaskId", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "CombinedData", ty:
+  // "::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTask_1_CombinedTaskDataWithCompletedTaskId(::System::Guid CompletedTaskId, ::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult> CombinedData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -964,6 +968,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<TResult> get_Task();
 
@@ -973,6 +978,7 @@ public:
   /// @brief Convert to "::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>"
   constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* i___System__Threading__Tasks__Sources__IValueTaskSource_1_TResult_() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Task(::System::Threading::Tasks::ValueTask_1<TResult> value);
 
@@ -982,13 +988,13 @@ protected:
   constexpr OVRTask_1_TaskSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_TaskSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_TaskSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTask_1_TaskSource(OVRTask_1_TaskSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_TaskSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_TaskSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_1_TaskSource(OVRTask_1_TaskSource const&) = delete;
+  OVRTask_1_TaskSource(OVRTask_1_TaskSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7855 };
@@ -996,6 +1002,7 @@ public:
   /// @brief Field _manualSource, offset: 0x10, size: 0x40, def value: None
   ::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<TResult> ____manualSource;
 
+  /// [CompilerGenerated]
   /// @brief Field <Task>k__BackingField, offset: 0x50, size: 0x18, def value: None
   ::System::Threading::Tasks::ValueTask_1<TResult> ____Task_k__BackingField;
 
@@ -1024,7 +1031,7 @@ public:
   inline void OnReturn();
 
   /// @brief Method SetResultAndReturnToPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetResultAndReturnToPool(::by_ref<TResult> result);
+  inline void SetResultAndReturnToPool(/* [IsReadOnly] */ ::by_ref<TResult> result);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -1038,13 +1045,13 @@ protected:
   constexpr OVRTask_1_AwaitableSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_AwaitableSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_AwaitableSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTask_1_AwaitableSource(OVRTask_1_AwaitableSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_AwaitableSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1_AwaitableSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_1_AwaitableSource(OVRTask_1_AwaitableSource const&) = delete;
+  OVRTask_1_AwaitableSource(OVRTask_1_AwaitableSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7856 };
@@ -1053,6 +1060,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies OVRTask`1<TResult>
 namespace GlobalNamespace {
 // cpp template
@@ -1086,7 +1094,7 @@ public:
   // @brief default ctor
   constexpr OVRTask_1_Awaiter();
 
-  // Ctor Parameters [CppParam { name: "_task", ty: "::GlobalNamespace::OVRTask_1<TResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_task", ty: "::GlobalNamespace::OVRTask_1<TResult>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTask_1_Awaiter(::GlobalNamespace::OVRTask_1<TResult> _task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1102,6 +1110,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
@@ -1161,7 +1170,7 @@ public:
   // @brief default ctor
   constexpr OVRTask_1_Callback();
 
-  // Ctor Parameters [CppParam { name: "_delegate", ty: "::System::Action_1<TResult>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_delegate", ty: "::System::Action_1<TResult>*", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTask_1_Callback(::System::Action_1<TResult>* _delegate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1177,6 +1186,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // cpp template
@@ -1237,7 +1247,8 @@ public:
   // @brief default ctor
   constexpr OVRTask_1_CallbackWithState_1();
 
-  // Ctor Parameters [CppParam { name: "_data", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_delegate", ty: "::System::Action_2<TResult,T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_data", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "_delegate", ty: "::System::Action_2<TResult,T>*", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr OVRTask_1_CallbackWithState_1(T _data, ::System::Action_2<TResult, T>* _delegate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1256,6 +1267,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
@@ -1289,13 +1301,13 @@ protected:
   constexpr OVRTask_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTask_1___c(OVRTask_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTask_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTask_1___c(OVRTask_1___c const&) = delete;
+  OVRTask_1___c(OVRTask_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7860 };

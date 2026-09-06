@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Experimental\PointerOverLinkTagEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/PointerOverLinkTagEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ MARK_REF_T(::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent*);
 MARK_REF_T(::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent*, "UnityEngine.UIElements.Experimental", "PointerOverLinkTagEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent___c*, "UnityEngine.UIElements.Experimental", "PointerOverLinkTagEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
@@ -53,13 +54,13 @@ protected:
   constexpr PointerOverLinkTagEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOverLinkTagEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOverLinkTagEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerOverLinkTagEvent___c(PointerOverLinkTagEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOverLinkTagEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOverLinkTagEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerOverLinkTagEvent___c(PointerOverLinkTagEvent___c const&) = delete;
+  PointerOverLinkTagEvent___c(PointerOverLinkTagEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5489 };
@@ -70,6 +71,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Experimental
+// [EventCategory((UnityEngine.UIElements.EventCategory)4)]
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
@@ -115,9 +117,11 @@ public:
   /// @brief Method .ctor, addr 0x6d1ecd4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_linkID, addr 0x6d1ebf4, size 0x8, virtual false, abstract: false, final false
   inline void set_linkID(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_linkText, addr 0x6d1ebfc, size 0x8, virtual false, abstract: false, final false
   inline void set_linkText(::StringW value);
 
@@ -127,20 +131,24 @@ protected:
   constexpr PointerOverLinkTagEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOverLinkTagEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOverLinkTagEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerOverLinkTagEvent(PointerOverLinkTagEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOverLinkTagEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOverLinkTagEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerOverLinkTagEvent(PointerOverLinkTagEvent const&) = delete;
+  PointerOverLinkTagEvent(PointerOverLinkTagEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5490 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <linkID>k__BackingField, offset: 0xf8, size: 0x8, def value: None
   ::StringW ____linkID_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <linkText>k__BackingField, offset: 0x100, size: 0x8, def value: None
   ::StringW ____linkText_k__BackingField;
 

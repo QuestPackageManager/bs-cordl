@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XCommentWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XCommentWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class XCommentWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XCommentWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XCommentWrapper*, "Newtonsoft.Json.Converters", "XCommentWrapper");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.XObjectWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -28,18 +30,22 @@ public:
   // Declarations
   __declspec(property(get = get_ParentNode)) ::Newtonsoft::Json::Converters::IXmlNode* ParentNode;
 
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_Text)) ::System::Xml::Linq::XComment* Text;
 
   __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Converters::XCommentWrapper* New_ctor(::System::Xml::Linq::XComment* text);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5da1868, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XComment* text);
 
   /// @brief Method get_ParentNode, addr 0x5da18c4, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
+  /// [NullableContext(1)]
   /// @brief Method get_Text, addr 0x5da17ec, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XComment* get_Text();
 
@@ -55,13 +61,13 @@ protected:
   constexpr XCommentWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XCommentWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XCommentWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XCommentWrapper(XCommentWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XCommentWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XCommentWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XCommentWrapper(XCommentWrapper const&) = delete;
+  XCommentWrapper(XCommentWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13683 };

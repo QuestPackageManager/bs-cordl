@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Utils\G_Singleton_1.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Utils/G_Singleton_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ class Object;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Utils {
-template <typename T> class G_Singleton_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
+class G_Singleton_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Tayx::Graphy::Utils::G_Singleton_1);
@@ -19,6 +21,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Tayx::Graphy::Utils::G_Singleton_1, "Tayx.Graphy.U
 namespace Tayx::Graphy::Utils {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*>)
 // Is value type: false
 // CS Name: Tayx.Graphy.Utils.G_Singleton`1<T>
 class CORDL_TYPE G_Singleton_1 : public ::UnityEngine::MonoBehaviour {
@@ -58,13 +61,13 @@ protected:
   constexpr G_Singleton_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_Singleton_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_Singleton_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_Singleton_1(G_Singleton_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_Singleton_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_Singleton_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_Singleton_1(G_Singleton_1 const&) = delete;
+  G_Singleton_1(G_Singleton_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21488 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Automation\PerformanceToolLauncherOverrideConfig.hpp"
+// IWYU pragma private; include "BeatSaber/Automation/PerformanceToolLauncherOverrideConfig.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,8 @@ public:
   // @brief default ctor
   constexpr PerformanceToolLauncherOverrideConfig();
 
-  // Ctor Parameters [CppParam { name: "enableAutoplay", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableRecording", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "enableAutoplay", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "enableRecording", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr PerformanceToolLauncherOverrideConfig(bool enableAutoplay, bool enableRecording) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

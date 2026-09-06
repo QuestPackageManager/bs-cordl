@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ListViewDraggerExtension.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ListViewDraggerExtension.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class ListViewDraggerExtension;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::ListViewDraggerExtension*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ListViewDraggerExtension*, "UnityEngine.UIElements", "ListViewDraggerExtension");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -26,9 +27,11 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method GetRecycledItemFromId, addr 0x6d8fb28, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t id);
 
+  /// [Extension]
   /// @brief Method GetRecycledItemFromIndex, addr 0x6d8fe24, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
@@ -38,13 +41,13 @@ protected:
   constexpr ListViewDraggerExtension();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListViewDraggerExtension(ListViewDraggerExtension&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListViewDraggerExtension", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListViewDraggerExtension(ListViewDraggerExtension const&) = delete;
+  ListViewDraggerExtension(ListViewDraggerExtensionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4408 };

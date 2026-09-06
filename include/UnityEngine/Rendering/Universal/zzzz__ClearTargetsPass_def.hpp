@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ClearTargetsPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ClearTargetsPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(ClearTargetsPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -109,13 +111,13 @@ protected:
   constexpr ClearTargetsPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClearTargetsPass_PassData(ClearTargetsPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClearTargetsPass_PassData(ClearTargetsPass_PassData const&) = delete;
+  ClearTargetsPass_PassData(ClearTargetsPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13018 };
@@ -146,6 +148,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ClearTargetsPass_Pas
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -186,13 +189,13 @@ protected:
   constexpr ClearTargetsPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClearTargetsPass___c(ClearTargetsPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClearTargetsPass___c(ClearTargetsPass___c const&) = delete;
+  ClearTargetsPass___c(ClearTargetsPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13019 };
@@ -240,13 +243,13 @@ protected:
   constexpr ClearTargetsPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClearTargetsPass(ClearTargetsPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClearTargetsPass(ClearTargetsPass const&) = delete;
+  ClearTargetsPass(ClearTargetsPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13020 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonDynamicContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonDynamicContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace System::Dynamic {
 class IDynamicMetaObjectProvider;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class CallSite_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class CallSite_1;
 }
 namespace System::Runtime::CompilerServices {
 class CallSite;
@@ -43,6 +45,8 @@ class JsonDynamicContract;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::JsonDynamicContract*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonDynamicContract*, "Newtonsoft.Json.Serialization", "JsonDynamicContract");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Serialization.JsonContainerContract
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -52,6 +56,7 @@ public:
   // Declarations
   __declspec(property(get = get_Properties)) ::Newtonsoft::Json::Serialization::JsonPropertyCollection* Properties;
 
+  /// @brief [Nullable(new[] { 2, 1, 1 })]
   __declspec(property(get = get_PropertyNameResolver, put = set_PropertyNameResolver)) ::System::Func_2<::StringW, ::StringW>* PropertyNameResolver;
 
   /// @brief Field <Properties>k__BackingField, offset 0xc0, size 0x8
@@ -82,10 +87,10 @@ public:
   static inline ::Newtonsoft::Json::Serialization::JsonDynamicContract* New_ctor(::System::Type* underlyingType);
 
   /// @brief Method TryGetMember, addr 0x5d43080, size 0x10c, virtual false, abstract: false, final false
-  inline bool TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ::by_ref<::System::Object*> value);
+  inline bool TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, /* [Nullable(2)] */ ::by_ref<::System::Object*> value);
 
   /// @brief Method TrySetMember, addr 0x5d4318c, size 0x108, virtual false, abstract: false, final false
-  inline bool TrySetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ::System::Object* value);
+  inline bool TrySetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, /* [Nullable(2)] */ ::System::Object* value);
 
   constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection* const& __cordl_internal_get__Properties_k__BackingField() const;
 
@@ -127,14 +132,17 @@ public:
   /// @brief Method .ctor, addr 0x5d3d580, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Properties, addr 0x5d42e20, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PropertyNameResolver, addr 0x5d42e28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::StringW, ::StringW>* get_PropertyNameResolver();
 
+  /// [CompilerGenerated]
   /// @brief Method set_PropertyNameResolver, addr 0x5d42e30, size 0x8, virtual false, abstract: false, final false
-  inline void set_PropertyNameResolver(::System::Func_2<::StringW, ::StringW>* value);
+  inline void set_PropertyNameResolver(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Func_2<::StringW, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -142,20 +150,23 @@ protected:
   constexpr JsonDynamicContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonDynamicContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonDynamicContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonDynamicContract(JsonDynamicContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonDynamicContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonDynamicContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonDynamicContract(JsonDynamicContract const&) = delete;
+  JsonDynamicContract(JsonDynamicContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13507 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Properties>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonPropertyCollection* ____Properties_k__BackingField;
 
+  /// [Nullable(new[] { 2, 1, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field <PropertyNameResolver>k__BackingField, offset: 0xc8, size: 0x8, def value: None
   ::System::Func_2<::StringW, ::StringW>* ____PropertyNameResolver_k__BackingField;
 
@@ -163,6 +174,7 @@ public:
   ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>*>* ____callSiteGetters;
 
+  /// [Nullable(new[] { 1, 1, 1, 1, 1, 1, 2, 1 })]
   /// @brief Field _callSiteSetters, offset: 0xd8, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*

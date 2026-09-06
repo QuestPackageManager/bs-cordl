@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_impl.hpp"
@@ -30,7 +30,7 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::TimelineAsset_Versions::TimelineAsset_Versions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -39,7 +39,7 @@ constexpr ::UnityEngine::Timeline::TimelineAsset_Versions::TimelineAsset_Version
 constexpr ::UnityEngine::Timeline::TimelineAsset_Versions UnityEngine::Timeline::TimelineAsset_Versions::Initial{ static_cast<int32_t>(0x0) };
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelineAsset_TimelineAssetUpgrade::TimelineAsset_TimelineAssetUpgrade() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::TimelineAsset_MediaType::TimelineAsset_MediaType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -52,7 +52,7 @@ constexpr ::UnityEngine::Timeline::TimelineAsset_MediaType UnityEngine::Timeline
 constexpr ::UnityEngine::Timeline::TimelineAsset_MediaType UnityEngine::Timeline::TimelineAsset_MediaType::Script{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Timeline::TimelineAsset_MediaType UnityEngine::Timeline::TimelineAsset_MediaType::Hybrid{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Timeline::TimelineAsset_MediaType UnityEngine::Timeline::TimelineAsset_MediaType::Group{ static_cast<int32_t>(0x5) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::TimelineAsset_DurationMode::TimelineAsset_DurationMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -509,6 +509,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::Timeline::TimelineAsset_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineAsset__get_outputs_d__27*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::Timeline::TimelineAsset__get_outputs_d__27* UnityEngine::Timeline::TimelineAsset__get_outputs_d__27::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Timeline::TimelineAsset__get_outputs_d__27*>(__1__state));
 }
@@ -1402,20 +1403,26 @@ inline ::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine::Timeline::Time
                                               { "CreateTrack", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::UnityEngine::Timeline::TrackAsset*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Timeline::TrackAsset>>(this, ___internal_method, type, parent, name);
 }
-template <typename T> inline T UnityEngine::Timeline::TimelineAsset::CreateTrack(::UnityEngine::Timeline::TrackAsset* parent, ::StringW trackName) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::TrackAsset*> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Timeline::TimelineAsset::CreateTrack(::UnityEngine::Timeline::TrackAsset* parent, ::StringW trackName) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineAsset*>(),
                                                            { "CreateTrack", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Timeline::TrackAsset*>(), ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, parent, trackName);
 }
-template <typename T> inline T UnityEngine::Timeline::TimelineAsset::CreateTrack(::StringW trackName) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::TrackAsset*> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Timeline::TimelineAsset::CreateTrack(::StringW trackName) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineAsset*>(), { "CreateTrack", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, trackName);
 }
-template <typename T> inline T UnityEngine::Timeline::TimelineAsset::CreateTrack() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::TrackAsset*> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Timeline::TimelineAsset::CreateTrack() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineAsset*>(), { "CreateTrack", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

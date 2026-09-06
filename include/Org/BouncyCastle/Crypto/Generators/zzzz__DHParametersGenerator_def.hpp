@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\DHParametersGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/DHParametersGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr DHParametersGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DHParametersGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DHParametersGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DHParametersGenerator(DHParametersGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DHParametersGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DHParametersGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DHParametersGenerator(DHParametersGenerator const&) = delete;
+  DHParametersGenerator(DHParametersGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 895 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUResidentDrawerResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUResidentDrawerResources.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUResidentDrawerResources_def.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUResidentDrawerResources_def.hpp"
@@ -7,7 +7,7 @@
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineResources_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUResidentDrawerResources_Version::GPUResidentDrawerResources_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }

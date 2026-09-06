@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleMaterialSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleMaterialSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,35 +111,42 @@ protected:
   constexpr ObstacleMaterialSetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleMaterialSetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleMaterialSetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleMaterialSetter(ObstacleMaterialSetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleMaterialSetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleMaterialSetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleMaterialSetter(ObstacleMaterialSetter const&) = delete;
+  ObstacleMaterialSetter(ObstacleMaterialSetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5706 };
 
+  /// [SerializeField]
   /// @brief Field _lwCoreMaterial, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____lwCoreMaterial;
 
+  /// [SerializeField]
   /// @brief Field _hwCoreMaterial, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____hwCoreMaterial;
 
+  /// [SerializeField]
   /// @brief Field _texturedCoreMaterial, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____texturedCoreMaterial;
 
+  /// [SerializeField]
   /// @brief Field _fakeGlowLWMaterial, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____fakeGlowLWMaterial;
 
+  /// [SerializeField]
   /// @brief Field _fakeGlowTexturedMaterial, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____fakeGlowTexturedMaterial;
 
+  /// [SerializeField]
   /// @brief Field _obstacleCoreRenderer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____obstacleCoreRenderer;
 
+  /// [SerializeField]
   /// @brief Field _obstacleFakeGlowRenderer, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____obstacleFakeGlowRenderer;
 

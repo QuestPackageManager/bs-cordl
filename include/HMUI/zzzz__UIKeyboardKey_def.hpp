@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\UIKeyboardKey.hpp"
+// IWYU pragma private; include "HMUI/UIKeyboardKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,29 +104,36 @@ protected:
   constexpr UIKeyboardKey();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardKey", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardKey", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIKeyboardKey(UIKeyboardKey&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardKey", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboardKey(UIKeyboardKey const&) = delete;
+  UIKeyboardKey(UIKeyboardKeyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19050 };
 
+  /// [SerializeField]
   /// @brief Field _keyCode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
+  /// [SerializeField]
   /// @brief Field _overrideText, offset: 0x30, size: 0x8, def value: None
   ::StringW ____overrideText;
 
+  /// [SerializeField]
   /// @brief Field _canBeUppercase, offset: 0x38, size: 0x1, def value: None
   bool ____canBeUppercase;
 
+  /// [Tooltip("If this is true, text will not be set into the UI of this key, but the key will still exists\r\n                   and report it\'s presses. Intended usage is for example with an icon
+  /// instead of text")] [SerializeField]
   /// @brief Field _dontSetText, offset: 0x39, size: 0x1, def value: None
   bool ____dontSetText;
 

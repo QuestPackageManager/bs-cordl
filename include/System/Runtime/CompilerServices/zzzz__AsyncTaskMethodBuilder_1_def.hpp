@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncTaskMethodBuilder_1.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncTaskMethodBuilder_1)
 namespace System::Runtime::CompilerServices {
@@ -22,7 +25,8 @@ template <typename TResult> struct AsyncTaskMethodBuilder_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1);
 DEFINE_IL2CPP_GEN_CLASS(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1, "System.Runtime.CompilerServices", "AsyncTaskMethodBuilder`1");
-// Dependencies System.Runtime.CompilerServices.AsyncMethodBuilderCore
+// Dependencies System.Runtime.CompilerServices.AsyncMethodBuilderCore, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.ICriticalNotifyCompletion,
+// System.Runtime.CompilerServices.INotifyCompletion
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
@@ -37,10 +41,16 @@ public:
   __declspec(property(get = getStaticF_s_defaultResultTask, put = setStaticF_s_defaultResultTask)) ::System::Threading::Tasks::Task_1<TResult>* s_defaultResultTask;
 
   /// @brief Method AwaitOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::INotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> Create();
@@ -60,8 +70,11 @@ public:
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
+  /// [DebuggerStepThrough]
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TStateMachine> inline void Start(::by_ref<TStateMachine> stateMachine);
+  template <typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void Start(::by_ref<TStateMachine> stateMachine);
 
   static inline ::System::Threading::Tasks::Task_1<TResult>* getStaticF_s_defaultResultTask();
 
@@ -74,8 +87,8 @@ public:
   // @brief default ctor
   constexpr AsyncTaskMethodBuilder_1();
 
-  // Ctor Parameters [CppParam { name: "m_coreState", ty: "::System::Runtime::CompilerServices::AsyncMethodBuilderCore", modifiers: "", def_value: None }, CppParam { name: "m_task", ty:
-  // "::System::Threading::Tasks::Task_1<TResult>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_coreState", ty: "::System::Runtime::CompilerServices::AsyncMethodBuilderCore", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_task", ty:
+  // "::System::Threading::Tasks::Task_1<TResult>*", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncTaskMethodBuilder_1(::System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState, ::System::Threading::Tasks::Task_1<TResult>* m_task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

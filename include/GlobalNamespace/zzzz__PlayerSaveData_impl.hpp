@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerSaveData.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerSaveData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
 #include "GlobalNamespace/zzzz__VersionSaveData_impl.hpp"
@@ -9,7 +9,7 @@
 #include "GlobalNamespace/zzzz__PlayerSaveData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnabledObstacleType::GameplayModifiers_PlayerSaveData_EnabledObstacleType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -18,7 +18,7 @@ constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnabledObstacleTyp
 constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnabledObstacleType GlobalNamespace::GameplayModifiers_PlayerSaveData_EnabledObstacleType::All{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnabledObstacleType GlobalNamespace::GameplayModifiers_PlayerSaveData_EnabledObstacleType::FullHeightOnly{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnabledObstacleType GlobalNamespace::GameplayModifiers_PlayerSaveData_EnabledObstacleType::None{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnergyType::GameplayModifiers_PlayerSaveData_EnergyType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -26,7 +26,7 @@ constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnergyType::Gamepl
 constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnergyType::GameplayModifiers_PlayerSaveData_EnergyType() {}
 constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnergyType GlobalNamespace::GameplayModifiers_PlayerSaveData_EnergyType::Bar{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_EnergyType GlobalNamespace::GameplayModifiers_PlayerSaveData_EnergyType::Battery{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameplayModifiers_PlayerSaveData_SongSpeed::GameplayModifiers_PlayerSaveData_SongSpeed(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -236,7 +236,7 @@ inline ::GlobalNamespace::PlayerSaveData_GameplayModifiers* GlobalNamespace::Pla
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerSaveData_GameplayModifiers::PlayerSaveData_GameplayModifiers() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlayerSaveData_ColorOverrideType::PlayerSaveData_ColorOverrideType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -244,7 +244,7 @@ constexpr ::GlobalNamespace::PlayerSaveData_ColorOverrideType::PlayerSaveData_Co
 constexpr ::GlobalNamespace::PlayerSaveData_ColorOverrideType::PlayerSaveData_ColorOverrideType() {}
 constexpr ::GlobalNamespace::PlayerSaveData_ColorOverrideType GlobalNamespace::PlayerSaveData_ColorOverrideType::All{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::PlayerSaveData_ColorOverrideType GlobalNamespace::PlayerSaveData_ColorOverrideType::NotesOnly{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData(
     int32_t value__) noexcept {
   this->value__ = value__;
@@ -257,7 +257,7 @@ constexpr ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEf
     GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData::StrobeFilter{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData
     GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData::NoEffects{ static_cast<int32_t>(0xa) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -275,7 +275,7 @@ constexpr ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibility
 constexpr ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData::High{
   static_cast<int32_t>(0x3)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_NoteJumpDurationTypeSettingsSaveData::PlayerSpecificSettings_PlayerSaveData_NoteJumpDurationTypeSettingsSaveData(
     int32_t value__) noexcept {
   this->value__ = value__;
@@ -1611,7 +1611,7 @@ inline ::GlobalNamespace::PlayerSaveData_PromoCounterData* GlobalNamespace::Play
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerSaveData_PromoCounterData::PlayerSaveData_PromoCounterData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlayerSaveData_UserAgeCategorySaveData::PlayerSaveData_UserAgeCategorySaveData(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1621,7 +1621,7 @@ constexpr ::GlobalNamespace::PlayerSaveData_UserAgeCategorySaveData GlobalNamesp
 constexpr ::GlobalNamespace::PlayerSaveData_UserAgeCategorySaveData GlobalNamespace::PlayerSaveData_UserAgeCategorySaveData::Child{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::PlayerSaveData_UserAgeCategorySaveData GlobalNamespace::PlayerSaveData_UserAgeCategorySaveData::Teen{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::PlayerSaveData_UserAgeCategorySaveData GlobalNamespace::PlayerSaveData_UserAgeCategorySaveData::Adult{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlayerSaveData_PlayerSensitivityFlagSaveData::PlayerSaveData_PlayerSensitivityFlagSaveData(int32_t value__) noexcept {
   this->value__ = value__;
 }

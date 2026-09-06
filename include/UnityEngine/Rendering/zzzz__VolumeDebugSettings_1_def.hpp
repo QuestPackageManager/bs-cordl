@@ -1,11 +1,13 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeDebugSettings_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeDebugSettings_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IAdditionalData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__Volume_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -39,10 +41,14 @@ namespace UnityEngine::Rendering {
 class VolumeComponent;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class VolumeDebugSettings_1___c__DisplayClass22_0;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
+class VolumeDebugSettings_1___c__DisplayClass22_0;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class VolumeDebugSettings_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
+class VolumeDebugSettings_1___c;
 }
 namespace UnityEngine::Rendering {
 class VolumeParameter;
@@ -64,13 +70,19 @@ struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T> class VolumeDebugSettings_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
+class VolumeDebugSettings_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class VolumeDebugSettings_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
+class VolumeDebugSettings_1___c;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class VolumeDebugSettings_1___c__DisplayClass22_0;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
+class VolumeDebugSettings_1___c__DisplayClass22_0;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::VolumeDebugSettings_1);
@@ -79,10 +91,12 @@ MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::VolumeDebugSettings_1___c__DisplayC
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::VolumeDebugSettings_1, "UnityEngine.Rendering", "VolumeDebugSettings`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::VolumeDebugSettings_1___c, "UnityEngine.Rendering", "VolumeDebugSettings`1/<>c");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::VolumeDebugSettings_1___c__DisplayClass22_0, "UnityEngine.Rendering", "VolumeDebugSettings`1/<>c__DisplayClass22_0");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.MonoBehaviour, UnityEngine.Rendering.IAdditionalData
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeDebugSettings`1/<>c<T>
 class CORDL_TYPE VolumeDebugSettings_1___c : public ::System::Object {
@@ -156,13 +170,13 @@ protected:
   constexpr VolumeDebugSettings_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeDebugSettings_1___c(VolumeDebugSettings_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeDebugSettings_1___c(VolumeDebugSettings_1___c const&) = delete;
+  VolumeDebugSettings_1___c(VolumeDebugSettings_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12059 };
@@ -171,10 +185,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.MonoBehaviour, UnityEngine.Rendering.IAdditionalData
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeDebugSettings`1/<>c__DisplayClass22_0<T>
 class CORDL_TYPE VolumeDebugSettings_1___c__DisplayClass22_0 : public ::System::Object {
@@ -203,13 +219,13 @@ protected:
   constexpr VolumeDebugSettings_1___c__DisplayClass22_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c__DisplayClass22_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeDebugSettings_1___c__DisplayClass22_0(VolumeDebugSettings_1___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c__DisplayClass22_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeDebugSettings_1___c__DisplayClass22_0(VolumeDebugSettings_1___c__DisplayClass22_0 const&) = delete;
+  VolumeDebugSettings_1___c__DisplayClass22_0(VolumeDebugSettings_1___c__DisplayClass22_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12060 };
@@ -221,10 +237,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object, UnityEngine.Camera, UnityEngine.Rendering.Volume
+// Dependencies System.Object, UnityEngine.Camera, UnityEngine.MonoBehaviour, UnityEngine.Rendering.IAdditionalData, UnityEngine.Rendering.Volume
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IAdditionalData*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeDebugSettings`1<T>
 class CORDL_TYPE VolumeDebugSettings_1 : public ::System::Object {
@@ -276,6 +293,8 @@ public:
 
   __declspec(property(get = get_selectedComponentType, put = set_selectedComponentType)) ::System::Type* selectedComponentType;
 
+  /// @brief [Obsolete("This property is obsolete and kept only for not breaking user code. VolumeDebugSettings will use current pipeline when it needs to gather volume component types and paths.
+  /// #from(23.2)", false)]
   __declspec(property(get = get_targetRenderPipeline)) ::System::Type* targetRenderPipeline;
 
   __declspec(property(get = get_volumeComponentsPathAndType)) ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>* volumeComponentsPathAndType;
@@ -292,6 +311,7 @@ public:
   /// @brief Method ChangedStates, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ChangedStates(::System::Object* newStates);
 
+  /// [Obsolete("Please use componentPathAndType instead, and get the first element of the tuple", false)]
   /// @brief Method ComponentDisplayName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::StringW ComponentDisplayName(::System::Type* component);
 
@@ -321,9 +341,11 @@ public:
   /// @brief Method RefreshVolumes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool RefreshVolumes(::ArrayW<::UnityEngine::Rendering::Volume*> newVolumes);
 
+  /// [Obsolete("Cameras are auto registered/unregistered", false)]
   /// @brief Method RegisterCamera, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void RegisterCamera(T additionalCamera);
 
+  /// [Obsolete("Cameras are auto registered/unregistered", false)]
   /// @brief Method UnRegisterCamera, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void UnRegisterCamera(T additionalCamera);
 
@@ -385,6 +407,7 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::System::Type*>* getStaticF_s_ComponentTypes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_additionalCameraDatas, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<T>* get_additionalCameraDatas();
 
@@ -400,21 +423,23 @@ public:
   /// @brief Method get_selectedCameraIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_selectedCameraIndex();
 
-  /// @brief Method get_selectedCameraLayerMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraLayerMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::LayerMask get_selectedCameraLayerMask();
 
-  /// @brief Method get_selectedCameraPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_selectedCameraPosition();
 
-  /// @brief Method get_selectedCameraVolumeStack, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraVolumeStack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::VolumeStack* get_selectedCameraVolumeStack();
 
+  /// [CompilerGenerated]
   /// @brief Method get_selectedComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_selectedComponent();
 
   /// @brief Method get_selectedComponentType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* get_selectedComponentType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_targetRenderPipeline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_targetRenderPipeline();
 
@@ -428,12 +453,14 @@ public:
 
   static inline void setStaticF_s_ComponentTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_additionalCameraDatas, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void set_additionalCameraDatas(::System::Collections::Generic::List_1<T>* value);
 
   /// @brief Method set_selectedCameraIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_selectedCameraIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_selectedComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_selectedComponent(int32_t value);
 
@@ -446,17 +473,18 @@ protected:
   constexpr VolumeDebugSettings_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeDebugSettings_1(VolumeDebugSettings_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeDebugSettings_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeDebugSettings_1(VolumeDebugSettings_1 const&) = delete;
+  VolumeDebugSettings_1(VolumeDebugSettings_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12061 };
 
+  /// [CompilerGenerated]
   /// @brief Field <selectedComponent>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____selectedComponent_k__BackingField;
 
@@ -469,6 +497,7 @@ public:
   /// @brief Field m_Cameras, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* ___m_Cameras;
 
+  /// [CompilerGenerated]
   /// @brief Field <targetRenderPipeline>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Type* ____targetRenderPipeline_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UIntPtr.hpp"
+// IWYU pragma private; include "System/UIntPtr.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,9 @@ struct UIntPtr;
 // Write type traits
 MARK_VAL_T(::System::UIntPtr);
 DEFINE_IL2CPP_CLASS(::System::UIntPtr, "System", "UIntPtr");
+// [CLSCompliant(false)]
+// [ComVisible(true)]
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -57,6 +60,7 @@ public:
   /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5ca090c, size 0xac, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToPointer, addr 0x5ca08e8, size 0x8, virtual false, abstract: false, final false
   inline void* ToPointer();
 
@@ -69,6 +73,7 @@ public:
   /// @brief Method .ctor, addr 0x5ca0888, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5ca08a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* value);
 
@@ -98,6 +103,7 @@ public:
   /// @brief Method op_Explicit, addr 0x5ca09d0, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t op_Explicit_uint64_t(::System::UIntPtr value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Explicit, addr 0x5ca09dc, size 0x4, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::System::UIntPtr value);
 
@@ -110,7 +116,7 @@ public:
   // @brief default ctor
   constexpr UIntPtr();
 
-  // Ctor Parameters [CppParam { name: "_pointer", ty: "void*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_pointer", ty: "void*", modifiers: "", def_value: None, comment: None }]
   constexpr UIntPtr(void* _pointer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

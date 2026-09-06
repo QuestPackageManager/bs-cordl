@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MipmapLimitDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/MipmapLimitDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,9 +27,13 @@ public:
   /// @brief Method .ctor, addr 0x6ac78f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool useMipmapLimit, ::StringW groupName);
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_groupName, addr 0x6ac78f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_useMipmapLimit, addr 0x6ac78e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMipmapLimit();
 
@@ -37,8 +41,8 @@ public:
   // @brief default ctor
   constexpr MipmapLimitDescriptor();
 
-  // Ctor Parameters [CppParam { name: "_useMipmapLimit_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_groupName_k__BackingField", ty: "::StringW", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_useMipmapLimit_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_groupName_k__BackingField", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr MipmapLimitDescriptor(bool _useMipmapLimit_k__BackingField, ::StringW _groupName_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -47,9 +51,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <useMipmapLimit>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _useMipmapLimit_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <groupName>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _groupName_k__BackingField;
 

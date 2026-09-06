@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapEditor3D\BeatmapEditorStandardLevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "BeatmapEditor3D/BeatmapEditorStandardLevelScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupData_impl.hpp"
 #include "BeatmapEditor3D/zzzz__BeatmapEditorStandardLevelScenesTransitionSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
@@ -147,10 +147,11 @@ inline void BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, levelCompletionResults);
 }
 inline void BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::Init(
-    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
     ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-    ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data) {
+    ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\Logger.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/Logger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__Logger_def.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__LogLevel_def.hpp"

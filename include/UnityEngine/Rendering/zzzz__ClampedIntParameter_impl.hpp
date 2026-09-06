@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ClampedIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ClampedIntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__IntParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ClampedIntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ClampedIntParameter.get_value

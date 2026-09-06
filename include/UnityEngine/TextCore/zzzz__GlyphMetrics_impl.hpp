@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\GlyphMetrics.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/GlyphMetrics.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -165,9 +165,9 @@ constexpr UnityEngine::TextCore::GlyphMetrics::operator ::System::IEquatable_1<:
 constexpr ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>* UnityEngine::TextCore::GlyphMetrics::i___System__IEquatable_1___UnityEngine__TextCore__GlyphMetrics_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Width", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Height", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_HorizontalBearingX", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_HorizontalBearingY", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_HorizontalAdvance", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Width", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Height", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_HorizontalBearingX", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_HorizontalBearingY", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_HorizontalAdvance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::GlyphMetrics::GlyphMetrics(float_t m_Width, float_t m_Height, float_t m_HorizontalBearingX, float_t m_HorizontalBearingY, float_t m_HorizontalAdvance) noexcept {
   this->m_Width = m_Width;
   this->m_Height = m_Height;

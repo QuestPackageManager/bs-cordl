@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputStateHistory.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputStateHistory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -157,8 +157,8 @@ public:
   // @brief default ctor
   constexpr InputStateHistory_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputStateHistory_Enumerator(::UnityEngine::InputSystem::LowLevel::InputStateHistory* m_History, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -183,6 +183,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputStateHistory_E
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -195,7 +197,7 @@ public:
   // @brief default ctor
   constexpr RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -216,6 +218,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::RecordHeader_InputS
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -228,7 +232,7 @@ public:
   // @brief default ctor
   constexpr RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -325,10 +329,10 @@ public:
   // @brief default ctor
   constexpr InputStateHistory_RecordHeader();
 
-  // Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "version", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "controlIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_StateWithoutControlIndex", ty:
-  // "::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "m_StateWithControlIndex",
-  // ty: "::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "version", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "controlIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StateWithoutControlIndex", ty:
+  // "::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_StateWithControlIndex", ty: "::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr InputStateHistory_RecordHeader(double_t time, uint32_t version, int32_t controlIndex,
                                            ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer m_StateWithoutControlIndex,
                                            ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer m_StateWithControlIndex) noexcept;
@@ -382,6 +386,7 @@ private:
     struct {
       /// @brief Padding field 0xc
       uint8_t ___m_StateWithoutControlIndex_padding[0xc];
+      /// [FixedBuffer(typeof(System.Byte), 1)]
       /// @brief Field m_StateWithoutControlIndex, offset: 0xc, size: 0x1, def value: None
       ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer ___m_StateWithoutControlIndex;
     };
@@ -389,6 +394,7 @@ private:
     struct {
       /// @brief Padding field 0xc for alignment
       uint8_t ___m_StateWithoutControlIndex_padding_forAlignment[0xc];
+      /// [FixedBuffer(typeof(System.Byte), 1)]
       /// @brief Field m_StateWithoutControlIndex, offset: 0xc, size: 0x1, def value: None
       ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithoutControlIndex_e__FixedBuffer ___m_StateWithoutControlIndex_forAlignment;
     };
@@ -396,6 +402,7 @@ private:
     struct {
       /// @brief Padding field 0x10
       uint8_t ___m_StateWithControlIndex_padding[0x10];
+      /// [FixedBuffer(typeof(System.Byte), 1)]
       /// @brief Field m_StateWithControlIndex, offset: 0x10, size: 0x1, def value: None
       ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer ___m_StateWithControlIndex;
     };
@@ -403,6 +410,7 @@ private:
     struct {
       /// @brief Padding field 0x10 for alignment
       uint8_t ___m_StateWithControlIndex_padding_forAlignment[0x10];
+      /// [FixedBuffer(typeof(System.Byte), 1)]
       /// @brief Field m_StateWithControlIndex, offset: 0x10, size: 0x1, def value: None
       ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer ___m_StateWithControlIndex_forAlignment;
     };
@@ -485,7 +493,9 @@ public:
   inline void* GetUnsafeMemoryPtrUnchecked();
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> inline TValue ReadValue();
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  inline TValue ReadValue();
 
   /// @brief Method ReadValueAsObject, addr 0x65bdc60, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* ReadValueAsObject();
@@ -533,8 +543,8 @@ public:
   // @brief default ctor
   constexpr InputStateHistory_Record();
 
-  // Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: None }, CppParam { name: "m_IndexPlusOne", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IndexPlusOne",
+  // ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputStateHistory_Record(::UnityEngine::InputSystem::LowLevel::InputStateHistory* m_Owner, int32_t m_IndexPlusOne, uint32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -564,6 +574,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputStateHistory_R
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [DefaultMember("Item")]
 // Dependencies System.Nullable`1<T>, System.Object, Unity.Collections.NativeArray`1<T>, UnityEngine.InputSystem.InputControl, UnityEngine.InputSystem.LowLevel.InputUpdateType
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
@@ -691,7 +702,9 @@ public:
   static inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory* New_ctor(::StringW path);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> inline TValue ReadValue(::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* data);
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  inline TValue ReadValue(::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* data);
 
   /// @brief Method ReadValueAsObject, addr 0x65bd5b4, size 0x168, virtual false, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* data);
@@ -836,9 +849,11 @@ public:
   /// @brief Method get_historyDepth, addr 0x65bb910, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_historyDepth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_onRecordAdded, addr 0x65bc3f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>* get_onRecordAdded();
 
+  /// [CompilerGenerated]
   /// @brief Method get_onShouldRecordStateChange, addr 0x65bc408, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* get_onShouldRecordStateChange();
 
@@ -870,9 +885,11 @@ public:
   /// @brief Method set_historyDepth, addr 0x65bb918, size 0xd8, virtual false, abstract: false, final false
   inline void set_historyDepth(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_onRecordAdded, addr 0x65bc400, size 0x8, virtual false, abstract: false, final false
   inline void set_onRecordAdded(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_onShouldRecordStateChange, addr 0x65bc410, size 0x8, virtual false, abstract: false, final false
   inline void set_onShouldRecordStateChange(::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* value);
 
@@ -885,13 +902,13 @@ protected:
   constexpr InputStateHistory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputStateHistory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputStateHistory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputStateHistory(InputStateHistory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputStateHistory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputStateHistory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputStateHistory(InputStateHistory const&) = delete;
+  InputStateHistory(InputStateHistoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9068 };
@@ -899,9 +916,11 @@ public:
   /// @brief Field kDefaultHistorySize offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultHistorySize{ static_cast<int32_t>(0x80) };
 
+  /// [CompilerGenerated]
   /// @brief Field <onRecordAdded>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>* ____onRecordAdded_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <onShouldRecordStateChange>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* ____onShouldRecordStateChange_k__BackingField;
 

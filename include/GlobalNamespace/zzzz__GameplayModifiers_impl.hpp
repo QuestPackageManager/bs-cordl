@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifiers.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifiers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
@@ -10,7 +10,7 @@
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__ValueTuple_4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType::GameplayModifiers_EnabledObstacleType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -19,7 +19,7 @@ constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType::GameplayModi
 constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType GlobalNamespace::GameplayModifiers_EnabledObstacleType::All{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType GlobalNamespace::GameplayModifiers_EnabledObstacleType::FullHeightOnly{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType GlobalNamespace::GameplayModifiers_EnabledObstacleType::NoObstacles{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameplayModifiers_EnergyType::GameplayModifiers_EnergyType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -27,7 +27,7 @@ constexpr ::GlobalNamespace::GameplayModifiers_EnergyType::GameplayModifiers_Ene
 constexpr ::GlobalNamespace::GameplayModifiers_EnergyType::GameplayModifiers_EnergyType() {}
 constexpr ::GlobalNamespace::GameplayModifiers_EnergyType GlobalNamespace::GameplayModifiers_EnergyType::Bar{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::GameplayModifiers_EnergyType GlobalNamespace::GameplayModifiers_EnergyType::Battery{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameplayModifiers_SongSpeed::GameplayModifiers_SongSpeed(int32_t value__) noexcept {
   this->value__ = value__;
 }

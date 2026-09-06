@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\SendEventOptions.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/SendEventOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct SendEventOptions;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Analytics::SendEventOptions);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::SendEventOptions, "UnityEngine.Analytics", "SendEventOptions");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Analytics {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr SendEventOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SendEventOptions(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

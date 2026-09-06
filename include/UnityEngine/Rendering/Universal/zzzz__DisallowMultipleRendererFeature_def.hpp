@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DisallowMultipleRendererFeature.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DisallowMultipleRendererFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class DisallowMultipleRendererFeature;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::DisallowMultipleRendererFeature*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DisallowMultipleRendererFeature*, "UnityEngine.Rendering.Universal", "DisallowMultipleRendererFeature");
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -36,9 +37,11 @@ public:
   /// @brief Method .ctor, addr 0x68af5d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW customTitle);
 
+  /// [CompilerGenerated]
   /// @brief Method get_customTitle, addr 0x68af5d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_customTitle();
 
+  /// [CompilerGenerated]
   /// @brief Method set_customTitle, addr 0x68af5c8, size 0x8, virtual false, abstract: false, final false
   inline void set_customTitle(::StringW value);
 
@@ -48,17 +51,18 @@ protected:
   constexpr DisallowMultipleRendererFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisallowMultipleRendererFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisallowMultipleRendererFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisallowMultipleRendererFeature(DisallowMultipleRendererFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisallowMultipleRendererFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisallowMultipleRendererFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisallowMultipleRendererFeature(DisallowMultipleRendererFeature const&) = delete;
+  DisallowMultipleRendererFeature(DisallowMultipleRendererFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12913 };
 
+  /// [CompilerGenerated]
   /// @brief Field <customTitle>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____customTitle_k__BackingField;
 

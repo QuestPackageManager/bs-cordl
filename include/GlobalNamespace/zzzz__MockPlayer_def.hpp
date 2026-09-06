@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -445,33 +445,40 @@ public:
   /// @brief Method .ctor, addr 0x59cb38c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MockPlayerSettings* settings, bool isLocalPlayer);
 
+  /// [CompilerGenerated]
   /// @brief Method get_activeHand, addr 0x59cabc8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerActiveHand get_activeHand();
 
   /// @brief Method get_autoConnect, addr 0x59cab60, size 0x18, virtual false, abstract: false, final false
   inline bool get_autoConnect();
 
+  /// [CompilerGenerated]
   /// @brief Method get_canBlock, addr 0x59cadc4, size 0x8, virtual true, abstract: false, final true
   inline bool get_canBlock();
 
+  /// [CompilerGenerated]
   /// @brief Method get_canInvite, addr 0x59cad84, size 0x8, virtual true, abstract: false, final true
   inline bool get_canInvite();
 
   /// @brief Method get_canJoin, addr 0x59cad5c, size 0x8, virtual true, abstract: false, final false
   inline bool get_canJoin();
 
+  /// [CompilerGenerated]
   /// @brief Method get_canKick, addr 0x59cada4, size 0x8, virtual true, abstract: false, final true
   inline bool get_canKick();
 
+  /// [CompilerGenerated]
   /// @brief Method get_canLeave, addr 0x59cadb4, size 0x8, virtual true, abstract: false, final true
   inline bool get_canLeave();
 
+  /// [CompilerGenerated]
   /// @brief Method get_canUnblock, addr 0x59cadd4, size 0x8, virtual true, abstract: false, final true
   inline bool get_canUnblock();
 
   /// @brief Method get_compatibilityVersion, addr 0x59cab04, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_compatibilityVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_configuration, addr 0x59cad20, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
@@ -481,6 +488,7 @@ public:
   /// @brief Method get_currentLatency, addr 0x59caca0, size 0x28, virtual true, abstract: false, final true
   inline int64_t get_currentLatency();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentPartySize, addr 0x59cace0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_currentPartySize();
 
@@ -499,21 +507,26 @@ public:
   /// @brief Method get_isActive, addr 0x59cb194, size 0x4c, virtual false, abstract: false, final false
   inline bool get_isActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isConnected, addr 0x59cab90, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isConnectionOwner, addr 0x59cabd8, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
   /// @brief Method get_isDedicatedServer, addr 0x59caf9c, size 0x4c, virtual false, abstract: false, final false
   inline bool get_isDedicatedServer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isKicked, addr 0x59cacd0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isKicked();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isMe, addr 0x59caacc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMe();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isMyPartyOwner, addr 0x59cad48, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMyPartyOwner();
 
@@ -526,21 +539,26 @@ public:
   /// @brief Method get_isTerminating, addr 0x59cb2e4, size 0x4c, virtual false, abstract: false, final false
   inline bool get_isTerminating();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isWaitingOnInvite, addr 0x59cad94, size 0x8, virtual true, abstract: false, final true
   inline bool get_isWaitingOnInvite();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isWaitingOnJoin, addr 0x59cad74, size 0x8, virtual true, abstract: false, final true
   inline bool get_isWaitingOnJoin();
 
+  /// [CompilerGenerated]
   /// @brief Method get_multiplayerAvatarsData, addr 0x59caba0, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
   /// @brief Method get_offsetSyncTime, addr 0x59cabf0, size 0xb0, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_requiresPassword, addr 0x59cad64, size 0x8, virtual true, abstract: false, final true
   inline bool get_requiresPassword();
 
+  /// [CompilerGenerated]
   /// @brief Method get_selectionMask, addr 0x59cacf0, size 0x18, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
@@ -568,27 +586,35 @@ public:
   /// @brief Convert to "::GlobalNamespace::INetworkPlayer"
   constexpr ::GlobalNamespace::INetworkPlayer* i___GlobalNamespace__INetworkPlayer() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_activeHand, addr 0x59cabd0, size 0x8, virtual false, abstract: false, final false
   inline void set_activeHand(::GlobalNamespace::MultiplayerActiveHand value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_canBlock, addr 0x59cadcc, size 0x8, virtual false, abstract: false, final false
   inline void set_canBlock(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_canInvite, addr 0x59cad8c, size 0x8, virtual false, abstract: false, final false
   inline void set_canInvite(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_canKick, addr 0x59cadac, size 0x8, virtual false, abstract: false, final false
   inline void set_canKick(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_canLeave, addr 0x59cadbc, size 0x8, virtual false, abstract: false, final false
   inline void set_canLeave(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_canUnblock, addr 0x59caddc, size 0x8, virtual false, abstract: false, final false
   inline void set_canUnblock(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_configuration, addr 0x59cad34, size 0x14, virtual false, abstract: false, final false
   inline void set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentPartySize, addr 0x59cace8, size 0x8, virtual false, abstract: false, final false
   inline void set_currentPartySize(int32_t value);
 
@@ -598,18 +624,22 @@ public:
   /// @brief Method set_isActive, addr 0x59cb1e0, size 0x5c, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isConnected, addr 0x59cab98, size 0x8, virtual false, abstract: false, final false
   inline void set_isConnected(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isConnectionOwner, addr 0x59cabe0, size 0x8, virtual false, abstract: false, final false
   inline void set_isConnectionOwner(bool value);
 
   /// @brief Method set_isDedicatedServer, addr 0x59cafe8, size 0x5c, virtual false, abstract: false, final false
   inline void set_isDedicatedServer(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isKicked, addr 0x59cacd8, size 0x8, virtual false, abstract: false, final false
   inline void set_isKicked(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isMyPartyOwner, addr 0x59cad50, size 0x8, virtual false, abstract: false, final false
   inline void set_isMyPartyOwner(bool value);
 
@@ -622,18 +652,23 @@ public:
   /// @brief Method set_isTerminating, addr 0x59cb330, size 0x5c, virtual false, abstract: false, final false
   inline void set_isTerminating(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isWaitingOnInvite, addr 0x59cad9c, size 0x8, virtual false, abstract: false, final false
   inline void set_isWaitingOnInvite(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isWaitingOnJoin, addr 0x59cad7c, size 0x8, virtual false, abstract: false, final false
   inline void set_isWaitingOnJoin(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_multiplayerAvatarsData, addr 0x59cabb4, size 0x14, virtual false, abstract: false, final false
   inline void set_multiplayerAvatarsData(::GlobalNamespace::MultiplayerAvatarsData value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_requiresPassword, addr 0x59cad6c, size 0x8, virtual false, abstract: false, final false
   inline void set_requiresPassword(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_selectionMask, addr 0x59cad08, size 0x18, virtual false, abstract: false, final false
   inline void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
@@ -649,68 +684,86 @@ protected:
   constexpr MockPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlayer(MockPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayer(MockPlayer const&) = delete;
+  MockPlayer(MockPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6114 };
 
+  /// [CompilerGenerated]
   /// @brief Field <isMe>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____isMe_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isConnected>k__BackingField, offset: 0x11, size: 0x1, def value: None
   bool ____isConnected_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <multiplayerAvatarsData>k__BackingField, offset: 0x18, size: 0x18, def value: None
   ::GlobalNamespace::MultiplayerAvatarsData ____multiplayerAvatarsData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <activeHand>k__BackingField, offset: 0x30, size: 0x1, def value: None
   ::GlobalNamespace::MultiplayerActiveHand ____activeHand_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isConnectionOwner>k__BackingField, offset: 0x31, size: 0x1, def value: None
   bool ____isConnectionOwner_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isKicked>k__BackingField, offset: 0x32, size: 0x1, def value: None
   bool ____isKicked_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentPartySize>k__BackingField, offset: 0x34, size: 0x4, def value: None
   int32_t ____currentPartySize_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <selectionMask>k__BackingField, offset: 0x38, size: 0x28, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask ____selectionMask_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <configuration>k__BackingField, offset: 0x60, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration ____configuration_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isMyPartyOwner>k__BackingField, offset: 0x78, size: 0x1, def value: None
   bool ____isMyPartyOwner_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <requiresPassword>k__BackingField, offset: 0x79, size: 0x1, def value: None
   bool ____requiresPassword_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isWaitingOnJoin>k__BackingField, offset: 0x7a, size: 0x1, def value: None
   bool ____isWaitingOnJoin_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <canInvite>k__BackingField, offset: 0x7b, size: 0x1, def value: None
   bool ____canInvite_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isWaitingOnInvite>k__BackingField, offset: 0x7c, size: 0x1, def value: None
   bool ____isWaitingOnInvite_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <canKick>k__BackingField, offset: 0x7d, size: 0x1, def value: None
   bool ____canKick_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <canLeave>k__BackingField, offset: 0x7e, size: 0x1, def value: None
   bool ____canLeave_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <canBlock>k__BackingField, offset: 0x7f, size: 0x1, def value: None
   bool ____canBlock_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <canUnblock>k__BackingField, offset: 0x80, size: 0x1, def value: None
   bool ____canUnblock_k__BackingField;
 

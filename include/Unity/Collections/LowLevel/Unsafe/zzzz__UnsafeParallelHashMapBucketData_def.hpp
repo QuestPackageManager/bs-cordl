@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapBucketData.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapBucketData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct UnsafeParallelHashMapBucketData;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData, "Unity.Collections.LowLevel.Unsafe", "UnsafeParallelHashMapBucketData");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -27,9 +28,9 @@ public:
   // @brief default ctor
   constexpr UnsafeParallelHashMapBucketData();
 
-  // Ctor Parameters [CppParam { name: "values", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "keys", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "next",
-  // ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "buckets", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "bucketCapacityMask", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "values", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "keys", ty: "uint8_t*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "next", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "buckets", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "bucketCapacityMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeParallelHashMapBucketData(uint8_t* values, uint8_t* keys, uint8_t* next, uint8_t* buckets, int32_t bucketCapacityMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

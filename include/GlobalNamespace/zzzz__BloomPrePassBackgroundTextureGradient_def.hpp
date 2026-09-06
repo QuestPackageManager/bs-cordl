@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundTextureGradient.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundTextureGradient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundTextureGradient)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
@@ -39,6 +41,7 @@ class BloomPrePassBackgroundTextureGradient;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BloomPrePassBackgroundTextureGradient*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BloomPrePassBackgroundTextureGradient*, "", "BloomPrePassBackgroundTextureGradient");
+// [ExecuteAlways]
 // Dependencies BloomPrePassNonLightPass, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
@@ -89,7 +92,7 @@ public:
   /// @brief Method UpdateGradientTexture, addr 0x5861ae0, size 0x94, virtual false, abstract: false, final false
   inline void UpdateGradientTexture();
 
-  /// @brief Method UpdatePixels, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdatePixels, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -141,13 +144,13 @@ protected:
   constexpr BloomPrePassBackgroundTextureGradient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundTextureGradient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundTextureGradient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundTextureGradient(BloomPrePassBackgroundTextureGradient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundTextureGradient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundTextureGradient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundTextureGradient(BloomPrePassBackgroundTextureGradient const&) = delete;
+  BloomPrePassBackgroundTextureGradient(BloomPrePassBackgroundTextureGradientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19459 };
@@ -161,6 +164,7 @@ public:
   /// @brief Field kUseToneMappingKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kUseToneMappingKeyword{ u"USE_TONE_MAPPING" };
 
+  /// [SerializeField]
   /// @brief Field _tintColor, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ____tintColor;
 

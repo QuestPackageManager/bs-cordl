@@ -1,7 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ILevelPackProductDataContainer_2.hpp"
+// IWYU pragma private; include "GlobalNamespace/ILevelPackProductDataContainer_2.hpp"
+#include "GlobalNamespace/zzzz__ILevelPackProductData_1_impl.hpp"
+#include "GlobalNamespace/zzzz__ILevelProductData_impl.hpp"
 #include "GlobalNamespace/zzzz__ILevelPackProductDataContainer_2_def.hpp"
 template <typename TLevelPackProductData, typename TLevelProductData>
+  requires(::cordl_internals::type_constraint<TLevelPackProductData, ::GlobalNamespace::ILevelPackProductData_1<TLevelProductData>*> &&
+           ::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
 inline TLevelPackProductData GlobalNamespace::ILevelPackProductDataContainer_2<TLevelPackProductData, TLevelProductData>::get_levelPackProductData() {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -9,6 +13,8 @@ inline TLevelPackProductData GlobalNamespace::ILevelPackProductDataContainer_2<T
   return ::cordl_internals::RunMethodRethrow<TLevelPackProductData>(this, ___internal_method);
 }
 template <typename TLevelPackProductData, typename TLevelProductData>
+  requires(::cordl_internals::type_constraint<TLevelPackProductData, ::GlobalNamespace::ILevelPackProductData_1<TLevelProductData>*> &&
+           ::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
 inline void GlobalNamespace::ILevelPackProductDataContainer_2<TLevelPackProductData, TLevelProductData>::SetLevelPackProductData(TLevelPackProductData newProductPack) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},

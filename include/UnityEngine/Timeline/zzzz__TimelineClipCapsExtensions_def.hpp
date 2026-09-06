@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimelineClipCapsExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineClipCapsExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class TimelineClipCapsExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::TimelineClipCapsExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TimelineClipCapsExtensions*, "UnityEngine.Timeline", "TimelineClipCapsExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -25,24 +26,31 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TimelineClipCapsExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method HasAll, addr 0x69c07f4, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAll(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
 
+  /// [Extension]
   /// @brief Method HasAny, addr 0x69b3030, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAny(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
 
+  /// [Extension]
   /// @brief Method SupportsBlending, addr 0x69c07dc, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsBlending(::UnityEngine::Timeline::TimelineClip* clip);
 
+  /// [Extension]
   /// @brief Method SupportsClipIn, addr 0x69c07ac, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsClipIn(::UnityEngine::Timeline::TimelineClip* clip);
 
+  /// [Extension]
   /// @brief Method SupportsExtrapolation, addr 0x69c0794, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsExtrapolation(::UnityEngine::Timeline::TimelineClip* clip);
 
+  /// [Extension]
   /// @brief Method SupportsLooping, addr 0x69c077c, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsLooping(::UnityEngine::Timeline::TimelineClip* clip);
 
+  /// [Extension]
   /// @brief Method SupportsSpeedMultiplier, addr 0x69c07c4, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsSpeedMultiplier(::UnityEngine::Timeline::TimelineClip* clip);
 
@@ -52,13 +60,13 @@ protected:
   constexpr TimelineClipCapsExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineClipCapsExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineClipCapsExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineClipCapsExtensions(TimelineClipCapsExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineClipCapsExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineClipCapsExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineClipCapsExtensions(TimelineClipCapsExtensions const&) = delete;
+  TimelineClipCapsExtensions(TimelineClipCapsExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19195 };

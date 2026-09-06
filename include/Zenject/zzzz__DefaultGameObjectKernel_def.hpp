@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\DefaultGameObjectKernel.hpp"
+// IWYU pragma private; include "Zenject/DefaultGameObjectKernel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ public:
   // Declarations
   static inline ::Zenject::DefaultGameObjectKernel* New_ctor();
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e934cc, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -36,13 +37,13 @@ protected:
   constexpr DefaultGameObjectKernel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectKernel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectKernel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultGameObjectKernel(DefaultGameObjectKernel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectKernel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectKernel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultGameObjectKernel(DefaultGameObjectKernel const&) = delete;
+  DefaultGameObjectKernel(DefaultGameObjectKernelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14675 };

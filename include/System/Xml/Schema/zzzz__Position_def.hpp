@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Position.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Position.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,8 @@ public:
   // @brief default ctor
   constexpr Position();
 
-  // Ctor Parameters [CppParam { name: "symbol", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "particle", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "symbol", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "particle", ty: "::System::Object*", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr Position(int32_t symbol, ::System::Object* particle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

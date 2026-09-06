@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\IndexField.hpp"
+// IWYU pragma private; include "System/Data/IndexField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct IndexField;
 // Write type traits
 MARK_VAL_T(::System::Data::IndexField);
 DEFINE_IL2CPP_CLASS(::System::Data::IndexField, "System.Data", "IndexField");
+// [IsReadOnly]
 // Dependencies
 namespace System::Data {
 // Is value type: true
@@ -42,7 +43,8 @@ public:
   // @brief default ctor
   constexpr IndexField();
 
-  // Ctor Parameters [CppParam { name: "Column", ty: "::System::Data::DataColumn*", modifiers: "", def_value: None }, CppParam { name: "IsDescending", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Column", ty: "::System::Data::DataColumn*", modifiers: "", def_value: None, comment: None }, CppParam { name: "IsDescending", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr IndexField(::System::Data::DataColumn* Column, bool IsDescending) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpawnLaserAnimation.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpawnLaserAnimation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class SpawnLaserAnimation;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SpawnLaserAnimation*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SpawnLaserAnimation*, "", "SpawnLaserAnimation");
+// [ExecuteAlways]
+// [AddComponentMenu("Beat Saber/Gameplay/SpawnLaserAnimation")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -124,35 +126,43 @@ protected:
   constexpr SpawnLaserAnimation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnLaserAnimation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnLaserAnimation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnLaserAnimation(SpawnLaserAnimation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnLaserAnimation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnLaserAnimation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpawnLaserAnimation(SpawnLaserAnimation const&) = delete;
+  SpawnLaserAnimation(SpawnLaserAnimationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5799 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _centerThresholdTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____centerThresholdTransform;
 
+  /// [SerializeField]
   /// @brief Field _horizontalLasersTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____horizontalLasersTransform;
 
+  /// [SerializeField]
   /// @brief Field _leftHorizontalLaser, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____leftHorizontalLaser;
 
+  /// [SerializeField]
   /// @brief Field _rightHorizontalLaser, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____rightHorizontalLaser;
 
+  /// [HideInInspector]
   /// @brief Field _normalizedDistance, offset: 0x40, size: 0x4, def value: None
   float_t ____normalizedDistance;
 
+  /// [HideInInspector]
   /// @brief Field _alphaMultiplier, offset: 0x44, size: 0x4, def value: None
   float_t ____alphaMultiplier;
 
+  /// [HideInInspector]
   /// @brief Field _laserLength, offset: 0x48, size: 0x4, def value: None
   float_t ____laserLength;
 

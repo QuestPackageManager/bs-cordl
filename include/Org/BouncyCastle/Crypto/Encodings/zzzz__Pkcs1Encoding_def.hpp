@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Encodings\Pkcs1Encoding.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Encodings/Pkcs1Encoding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -178,13 +178,13 @@ protected:
   constexpr Pkcs1Encoding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs1Encoding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs1Encoding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs1Encoding(Pkcs1Encoding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs1Encoding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs1Encoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs1Encoding(Pkcs1Encoding const&) = delete;
+  Pkcs1Encoding(Pkcs1Encodingconst&) = delete;
 
   /// @brief Field HeaderLength offset 0xffffffff size 0x4
   static constexpr int32_t HeaderLength{ static_cast<int32_t>(0xa) };

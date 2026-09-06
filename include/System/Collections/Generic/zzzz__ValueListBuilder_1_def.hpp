@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\ValueListBuilder_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/ValueListBuilder_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,9 @@ template <typename T> struct ValueListBuilder_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Collections::Generic::ValueListBuilder_1);
 DEFINE_IL2CPP_GEN_CLASS(::System::Collections::Generic::ValueListBuilder_1, "System.Collections.Generic", "ValueListBuilder`1");
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
+// [DefaultMember("Item")]
 // Dependencies System.Span`1<T>
 namespace System::Collections::Generic {
 // cpp template
@@ -30,6 +33,8 @@ template <typename T>
 struct CORDL_TYPE ValueListBuilder_1 {
 public:
   // Declarations
+  __declspec(property(get = get_Item)) T Item[];
+
   __declspec(property(get = get_Length)) int32_t Length;
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -44,8 +49,14 @@ public:
   /// @brief Method Grow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Grow();
 
+  /// @brief Method Pop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T Pop();
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<T> initialSpan);
+
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::by_ref<T> get_Item(int32_t index);
 
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
@@ -54,12 +65,12 @@ public:
   // @brief default ctor
   constexpr ValueListBuilder_1();
 
-  // Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T>", modifiers: "", def_value: None },
-  // CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ValueListBuilder_1(::System::Span_1<T> _span, ::ArrayW<T> _arrayFromPool, int32_t _pos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11391 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidHingeAngle.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidHingeAngle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AndroidHingeAngle;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Android::AndroidHingeAngle*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::AndroidHingeAngle*, "UnityEngine.InputSystem.Android", "AndroidHingeAngle");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.Android.LowLevel.AndroidSensorState), variants = "HingeAngle", hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.HingeAngle
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AndroidHingeAngle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidHingeAngle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidHingeAngle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidHingeAngle(AndroidHingeAngle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidHingeAngle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidHingeAngle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidHingeAngle(AndroidHingeAngle const&) = delete;
+  AndroidHingeAngle(AndroidHingeAngleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8938 };

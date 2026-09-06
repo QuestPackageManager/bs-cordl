@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\SkinColorSO.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/SkinColorSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,20 +63,22 @@ protected:
   constexpr SkinColorSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkinColorSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkinColorSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkinColorSO(SkinColorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkinColorSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkinColorSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkinColorSO(SkinColorSO const&) = delete;
+  SkinColorSO(SkinColorSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22351 };
 
+  /// [SerializeField]
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;
 
+  /// [SerializeField]
   /// @brief Field _color, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AnalyticsPostResponse.hpp"
+// IWYU pragma private; include "GlobalNamespace/AnalyticsPostResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr AnalyticsPostResponse();
 
-  // Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "error_message", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "success", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "error_message", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr AnalyticsPostResponse(bool success, ::StringW error_message) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

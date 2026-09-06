@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LoadBeatmapLevelDataResult.hpp"
+// IWYU pragma private; include "GlobalNamespace/LoadBeatmapLevelDataResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ namespace GlobalNamespace {
 struct LoadBeatmapLevelDataResult_ErrorType;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,6 +31,7 @@ MARK_VAL_T(::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType);
 MARK_VAL_T(::GlobalNamespace::LoadBeatmapLevelDataResult);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType, "", "LoadBeatmapLevelDataResult/ErrorType");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LoadBeatmapLevelDataResult, "", "LoadBeatmapLevelDataResult");
+// [NullableContext(0)]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -59,7 +62,7 @@ public:
   // @brief default ctor
   constexpr LoadBeatmapLevelDataResult_ErrorType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LoadBeatmapLevelDataResult_ErrorType(int32_t value__) noexcept;
 
   /// @brief Field BeatmapLevelDataNotFound value: I32(2)
@@ -88,6 +91,9 @@ static_assert(offsetof(::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType, 
 static_assert(sizeof(::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
+// [IsReadOnly]
 // Dependencies LoadBeatmapLevelDataResult::ErrorType, System.Nullable`1<T>
 namespace GlobalNamespace {
 // Is value type: true
@@ -111,12 +117,14 @@ public:
 
   __declspec(property(get = get_isError)) bool isError;
 
+  /// [NullableContext(2)]
   /// @brief Method FromValue, addr 0x3730f04, size 0x54, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult FromValue(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   /// @brief Method Success, addr 0x3730ef8, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult Success(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
+  /// [NullableContext(2)]
   /// @brief Method .ctor, addr 0x3730ef0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType> errorType, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
@@ -142,8 +150,8 @@ public:
   // @brief default ctor
   constexpr LoadBeatmapLevelDataResult();
 
-  // Ctor Parameters [CppParam { name: "errorType", ty: "::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType>", modifiers: "", def_value: None }, CppParam { name:
-  // "beatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "errorType", ty: "::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "beatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: None, comment: None }]
   constexpr LoadBeatmapLevelDataResult(::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType> errorType, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -155,6 +163,7 @@ public:
   /// @brief Field errorType, offset: 0x0, size: 0x8, def value: None
   ::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType> errorType;
 
+  /// [Nullable(2)]
   /// @brief Field beatmapLevelData, offset: 0x8, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData;
 

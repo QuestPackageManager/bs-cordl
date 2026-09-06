@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffect.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,9 @@ class VisualEffect;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::VisualEffect*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VisualEffect*, "UnityEngine.VFX", "VisualEffect");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeHeader("Modules/VFX/Public/VisualEffect.h")]
+// [NativeHeader("Modules/VFX/Public/ScriptBindings/VisualEffectBindings.h")]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -71,12 +74,14 @@ public:
   /// @brief Method CreateVFXEventAttribute, addr 0x6e2e348, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXEventAttribute* CreateVFXEventAttribute();
 
+  /// [FreeFunction(Name = "VisualEffectBindings::GetValueFromScript<float>", HasExplicitThis = true)]
   /// @brief Method GetFloat, addr 0x6e2f574, size 0x90, virtual false, abstract: false, final false
   inline float_t GetFloat(int32_t nameID);
 
   /// @brief Method GetFloat_Injected, addr 0x6e2f604, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetFloat_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::HasValueFromScript<bool>", HasExplicitThis = true)]
   /// @brief Method HasBool, addr 0x6e2e6f4, size 0x90, virtual false, abstract: false, final false
   inline bool HasBool(int32_t nameID);
 
@@ -86,12 +91,14 @@ public:
   /// @brief Method HasFloat, addr 0x6e2f66c, size 0x24, virtual false, abstract: false, final false
   inline bool HasFloat(::StringW name);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::HasValueFromScript<float>", HasExplicitThis = true)]
   /// @brief Method HasFloat, addr 0x6e2e970, size 0x90, virtual false, abstract: false, final false
   inline bool HasFloat(int32_t nameID);
 
   /// @brief Method HasFloat_Injected, addr 0x6e2ea00, size 0x44, virtual false, abstract: false, final false
   static inline bool HasFloat_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::HasValueFromScript<int>", HasExplicitThis = true)]
   /// @brief Method HasInt, addr 0x6e2e7c8, size 0x90, virtual false, abstract: false, final false
   inline bool HasInt(int32_t nameID);
 
@@ -101,6 +108,7 @@ public:
   /// @brief Method HasTexture, addr 0x6e2f6b4, size 0x24, virtual false, abstract: false, final false
   inline bool HasTexture(::StringW name);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::HasValueFromScript<Texture*>", HasExplicitThis = true)]
   /// @brief Method HasTexture, addr 0x6e2ecc0, size 0x90, virtual false, abstract: false, final false
   inline bool HasTexture(int32_t nameID);
 
@@ -110,18 +118,21 @@ public:
   /// @brief Method HasUInt, addr 0x6e2f648, size 0x24, virtual false, abstract: false, final false
   inline bool HasUInt(::StringW name);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::HasValueFromScript<UInt32>", HasExplicitThis = true)]
   /// @brief Method HasUInt, addr 0x6e2e89c, size 0x90, virtual false, abstract: false, final false
   inline bool HasUInt(int32_t nameID);
 
   /// @brief Method HasUInt_Injected, addr 0x6e2e92c, size 0x44, virtual false, abstract: false, final false
   static inline bool HasUInt_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::HasValueFromScript<Vector2f>", HasExplicitThis = true)]
   /// @brief Method HasVector2, addr 0x6e2ea44, size 0x90, virtual false, abstract: false, final false
   inline bool HasVector2(int32_t nameID);
 
   /// @brief Method HasVector2_Injected, addr 0x6e2ead4, size 0x44, virtual false, abstract: false, final false
   static inline bool HasVector2_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::HasValueFromScript<Vector3f>", HasExplicitThis = true)]
   /// @brief Method HasVector3, addr 0x6e2eb18, size 0x90, virtual false, abstract: false, final false
   inline bool HasVector3(int32_t nameID);
 
@@ -131,15 +142,18 @@ public:
   /// @brief Method HasVector4, addr 0x6e2f690, size 0x24, virtual false, abstract: false, final false
   inline bool HasVector4(::StringW name);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::HasValueFromScript<Vector4f>", HasExplicitThis = true)]
   /// @brief Method HasVector4, addr 0x6e2ebec, size 0x90, virtual false, abstract: false, final false
   inline bool HasVector4(int32_t nameID);
 
   /// @brief Method HasVector4_Injected, addr 0x6e2ec7c, size 0x44, virtual false, abstract: false, final false
   static inline bool HasVector4_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeGetCachedEventAttributeForOutputEvent_Internal, addr 0x6e2f9ac, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXEventAttribute* InvokeGetCachedEventAttributeForOutputEvent_Internal(::UnityEngine::VFX::VisualEffect* source);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeOutputEventReceived_Internal, addr 0x6e2f9e8, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeOutputEventReceived_Internal(::UnityEngine::VFX::VisualEffect* source, int32_t eventNameId);
 
@@ -160,6 +174,7 @@ public:
   /// @brief Method SendEvent, addr 0x6e2e5a0, size 0x34, virtual false, abstract: false, final false
   inline void SendEvent(int32_t eventNameID, ::UnityEngine::VFX::VFXEventAttribute* eventAttribute);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::SendEventFromScript", HasExplicitThis = true)]
   /// @brief Method SendEventFromScript, addr 0x6e2e4ac, size 0xa0, virtual false, abstract: false, final false
   inline void SendEventFromScript(int32_t eventNameID, ::UnityEngine::VFX::VFXEventAttribute* eventAttribute);
 
@@ -169,6 +184,7 @@ public:
   /// @brief Method SetBool, addr 0x6e2f7c8, size 0x34, virtual false, abstract: false, final false
   inline void SetBool(::StringW name, bool b);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::SetValueFromScript<bool>", HasExplicitThis = true)]
   /// @brief Method SetBool, addr 0x6e2ed94, size 0x98, virtual false, abstract: false, final false
   inline void SetBool(int32_t nameID, bool b);
 
@@ -178,12 +194,14 @@ public:
   /// @brief Method SetFloat, addr 0x6e2f70c, size 0x34, virtual false, abstract: false, final false
   inline void SetFloat(::StringW name, float_t f);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::SetValueFromScript<float>", HasExplicitThis = true)]
   /// @brief Method SetFloat, addr 0x6e2f058, size 0xa0, virtual false, abstract: false, final false
   inline void SetFloat(int32_t nameID, float_t f);
 
   /// @brief Method SetFloat_Injected, addr 0x6e2f0f8, size 0x54, virtual false, abstract: false, final false
   static inline void SetFloat_Injected(::System::IntPtr _unity_self, int32_t nameID, float_t f);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::SetValueFromScript<int>", HasExplicitThis = true)]
   /// @brief Method SetInt, addr 0x6e2ee80, size 0x98, virtual false, abstract: false, final false
   inline void SetInt(int32_t nameID, int32_t i);
 
@@ -193,8 +211,9 @@ public:
   /// @brief Method SetTexture, addr 0x6e2f794, size 0x34, virtual false, abstract: false, final false
   inline void SetTexture(::StringW name, ::UnityEngine::Texture* t);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::SetValueFromScript<Texture*>", HasExplicitThis = true)]
   /// @brief Method SetTexture, addr 0x6e2f434, size 0xec, virtual false, abstract: false, final false
-  inline void SetTexture(int32_t nameID, ::UnityEngine::Texture* t);
+  inline void SetTexture(int32_t nameID, /* [NotNull] */ ::UnityEngine::Texture* t);
 
   /// @brief Method SetTexture_Injected, addr 0x6e2f520, size 0x54, virtual false, abstract: false, final false
   static inline void SetTexture_Injected(::System::IntPtr _unity_self, int32_t nameID, ::System::IntPtr t);
@@ -202,18 +221,21 @@ public:
   /// @brief Method SetUInt, addr 0x6e2f6d8, size 0x34, virtual false, abstract: false, final false
   inline void SetUInt(::StringW name, uint32_t i);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::SetValueFromScript<UInt32>", HasExplicitThis = true)]
   /// @brief Method SetUInt, addr 0x6e2ef6c, size 0x98, virtual false, abstract: false, final false
   inline void SetUInt(int32_t nameID, uint32_t i);
 
   /// @brief Method SetUInt_Injected, addr 0x6e2f004, size 0x54, virtual false, abstract: false, final false
   static inline void SetUInt_Injected(::System::IntPtr _unity_self, int32_t nameID, uint32_t i);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::SetValueFromScript<Vector2f>", HasExplicitThis = true)]
   /// @brief Method SetVector2, addr 0x6e2f14c, size 0x9c, virtual false, abstract: false, final false
   inline void SetVector2(int32_t nameID, ::UnityEngine::Vector2 v);
 
   /// @brief Method SetVector2_Injected, addr 0x6e2f1e8, size 0x54, virtual false, abstract: false, final false
   static inline void SetVector2_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector2> v);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::SetValueFromScript<Vector3f>", HasExplicitThis = true)]
   /// @brief Method SetVector3, addr 0x6e2f23c, size 0xa8, virtual false, abstract: false, final false
   inline void SetVector3(int32_t nameID, ::UnityEngine::Vector3 v);
 
@@ -223,6 +245,7 @@ public:
   /// @brief Method SetVector4, addr 0x6e2f740, size 0x54, virtual false, abstract: false, final false
   inline void SetVector4(::StringW name, ::UnityEngine::Vector4 v);
 
+  /// [FreeFunction(Name = "VisualEffectBindings::SetValueFromScript<Vector4f>", HasExplicitThis = true)]
   /// @brief Method SetVector4, addr 0x6e2f338, size 0xa8, virtual false, abstract: false, final false
   inline void SetVector4(int32_t nameID, ::UnityEngine::Vector4 v);
 
@@ -298,13 +321,13 @@ protected:
   constexpr VisualEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffect(VisualEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffect(VisualEffect const&) = delete;
+  VisualEffect(VisualEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22411 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\AnimationTrack.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/AnimationTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,9 @@ namespace UnityEngine::Timeline {
 class IPropertyCollector;
 }
 namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
+class IntervalTree_1;
 }
 namespace UnityEngine::Timeline {
 struct MatchTargetFields;
@@ -151,13 +153,13 @@ protected:
   constexpr AnimationTrack_AnimationTrackUpgrade();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack_AnimationTrackUpgrade", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack_AnimationTrackUpgrade", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationTrack_AnimationTrackUpgrade(AnimationTrack_AnimationTrackUpgrade&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack_AnimationTrackUpgrade", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack_AnimationTrackUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationTrack_AnimationTrackUpgrade(AnimationTrack_AnimationTrackUpgrade const&) = delete;
+  AnimationTrack_AnimationTrackUpgrade(AnimationTrack_AnimationTrackUpgradeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19164 };
@@ -168,6 +170,7 @@ public:
 static_assert(sizeof(::UnityEngine::Timeline::AnimationTrack_AnimationTrackUpgrade) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Playables.PlayableBinding
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -210,23 +213,30 @@ public:
   /// @brief Method MoveNext, addr 0x69b2ae0, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x69b2c0c, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x69b2b60, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69b2ca4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69b2b70, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69b2ba8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69b2adc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -254,6 +264,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69ae9b0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -280,13 +291,13 @@ protected:
   constexpr AnimationTrack__get_outputs_d__49();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack__get_outputs_d__49", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack__get_outputs_d__49", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationTrack__get_outputs_d__49(AnimationTrack__get_outputs_d__49&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack__get_outputs_d__49", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack__get_outputs_d__49", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationTrack__get_outputs_d__49(AnimationTrack__get_outputs_d__49 const&) = delete;
+  AnimationTrack__get_outputs_d__49(AnimationTrack__get_outputs_d__49const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19165 };
@@ -317,6 +328,9 @@ static_assert(offsetof(::UnityEngine::Timeline::AnimationTrack__get_outputs_d__4
 static_assert(sizeof(::UnityEngine::Timeline::AnimationTrack__get_outputs_d__49) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [TrackClipType(typeof(UnityEngine.Timeline.AnimationPlayableAsset), false)]
+// [TrackBindingType(typeof(UnityEngine.Animator))]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Quaternion, UnityEngine.Timeline.AnimationPlayableAsset::LoopMode, UnityEngine.Timeline.MatchTargetFields, UnityEngine.Timeline.TimelineClip::ClipExtrapolation,
 // UnityEngine.Timeline.TrackAsset, UnityEngine.Timeline.TrackOffset, UnityEngine.Vector3
 namespace UnityEngine::Timeline {
@@ -331,6 +345,7 @@ public:
 
   __declspec(property(get = get_applyAvatarMask, put = set_applyAvatarMask)) bool applyAvatarMask;
 
+  /// @brief [Obsolete("applyOffset is deprecated. Use trackOffset instead", true)]
   __declspec(property(get = get_applyOffsets, put = set_applyOffsets)) bool applyOffsets;
 
   __declspec(property(get = get_avatarMask, put = set_avatarMask)) ::UnityW<::UnityEngine::AvatarMask> avatarMask;
@@ -417,14 +432,24 @@ public:
 
   __declspec(property(get = get_matchTargetFields, put = set_matchTargetFields)) ::UnityEngine::Timeline::MatchTargetFields matchTargetFields;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("openClipOffsetEulerAngles has been deprecated. Use infiniteClipOffsetEulerAngles instead. (UnityUpgradable) -> infiniteClipOffsetEulerAngles", true)]
   __declspec(property(get = get_openClipOffsetEulerAngles, put = set_openClipOffsetEulerAngles)) ::UnityEngine::Vector3 openClipOffsetEulerAngles;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("openClipOffsetPosition has been deprecated. Use infiniteClipOffsetPosition instead. (UnityUpgradable) -> infiniteClipOffsetPosition", true)]
   __declspec(property(get = get_openClipOffsetPosition, put = set_openClipOffsetPosition)) ::UnityEngine::Vector3 openClipOffsetPosition;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("openClipOffsetRotation has been deprecated. Use infiniteClipOffsetRotation instead. (UnityUpgradable) -> infiniteClipOffsetRotation", true)]
   __declspec(property(get = get_openClipOffsetRotation, put = set_openClipOffsetRotation)) ::UnityEngine::Quaternion openClipOffsetRotation;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("openClipPostExtrapolation has been deprecated. Use infiniteClipPostExtrapolation instead. (UnityUpgradable) -> infiniteClipPostExtrapolation", true)]
   __declspec(property(get = get_openClipPostExtrapolation, put = set_openClipPostExtrapolation)) ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation openClipPostExtrapolation;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("openClipPreExtrapolation has been deprecated. Use infiniteClipPreExtrapolation instead. (UnityUpgradable) -> infiniteClipPreExtrapolation", true)]
   __declspec(property(get = get_openClipPreExtrapolation, put = set_openClipPreExtrapolation)) ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation openClipPreExtrapolation;
 
   __declspec(property(get = get_outputs)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
@@ -534,6 +559,7 @@ public:
   /// @brief Method RequiresMotionXPlayable, addr 0x69b1444, size 0x118, virtual false, abstract: false, final false
   inline bool RequiresMotionXPlayable(::UnityEngine::Timeline::AppliedOffsetMode mode, ::UnityEngine::GameObject* gameObject);
 
+  /// [ContextMenu("Reset Offsets")]
   /// @brief Method ResetOffsets, addr 0x69aeba8, size 0x70, virtual false, abstract: false, final false
   inline void ResetOffsets();
 
@@ -722,6 +748,7 @@ public:
   /// @brief Method get_openClipPreExtrapolation, addr 0x69b26f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation get_openClipPreExtrapolation();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.Timeline.AnimationTrack::<get_outputs>d__49))]
   /// @brief Method get_outputs, addr 0x69ae940, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
@@ -814,13 +841,13 @@ protected:
   constexpr AnimationTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationTrack(AnimationTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationTrack(AnimationTrack const&) = delete;
+  AnimationTrack(AnimationTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19166 };
@@ -831,57 +858,89 @@ public:
   /// @brief Field k_DefaultRecordableClipName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_DefaultRecordableClipName{ u"Recorded" };
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_OpenClipPreExtrapolation")]
   /// @brief Field m_InfiniteClipPreExtrapolation, offset: 0xa0, size: 0x4, def value: None
   ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation ___m_InfiniteClipPreExtrapolation;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_OpenClipPostExtrapolation")]
   /// @brief Field m_InfiniteClipPostExtrapolation, offset: 0xa4, size: 0x4, def value: None
   ::UnityEngine::Timeline::TimelineClip_ClipExtrapolation ___m_InfiniteClipPostExtrapolation;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_OpenClipOffsetPosition")]
   /// @brief Field m_InfiniteClipOffsetPosition, offset: 0xa8, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_InfiniteClipOffsetPosition;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_OpenClipOffsetEulerAngles")]
   /// @brief Field m_InfiniteClipOffsetEulerAngles, offset: 0xb4, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_InfiniteClipOffsetEulerAngles;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_OpenClipTimeOffset")]
   /// @brief Field m_InfiniteClipTimeOffset, offset: 0xc0, size: 0x8, def value: None
   double_t ___m_InfiniteClipTimeOffset;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_OpenClipRemoveOffset")]
   /// @brief Field m_InfiniteClipRemoveOffset, offset: 0xc8, size: 0x1, def value: None
   bool ___m_InfiniteClipRemoveOffset;
 
+  /// [SerializeField]
   /// @brief Field m_InfiniteClipApplyFootIK, offset: 0xc9, size: 0x1, def value: None
   bool ___m_InfiniteClipApplyFootIK;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field mInfiniteClipLoop, offset: 0xcc, size: 0x4, def value: None
   ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode ___mInfiniteClipLoop;
 
+  /// [SerializeField]
   /// @brief Field m_MatchTargetFields, offset: 0xd0, size: 0x4, def value: None
   ::UnityEngine::Timeline::MatchTargetFields ___m_MatchTargetFields;
 
+  /// [SerializeField]
   /// @brief Field m_Position, offset: 0xd4, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_Position;
 
+  /// [SerializeField]
   /// @brief Field m_EulerAngles, offset: 0xe0, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_EulerAngles;
 
+  /// [SerializeField]
   /// @brief Field m_AvatarMask, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AvatarMask> ___m_AvatarMask;
 
+  /// [SerializeField]
   /// @brief Field m_ApplyAvatarMask, offset: 0xf8, size: 0x1, def value: None
   bool ___m_ApplyAvatarMask;
 
+  /// [SerializeField]
   /// @brief Field m_TrackOffset, offset: 0xfc, size: 0x4, def value: None
   ::UnityEngine::Timeline::TrackOffset ___m_TrackOffset;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_InfiniteClip, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ___m_InfiniteClip;
 
+  /// [SerializeField]
+  /// [Obsolete("Use m_InfiniteClipOffsetEulerAngles Instead", false)]
+  /// [HideInInspector]
   /// @brief Field m_OpenClipOffsetRotation, offset: 0x108, size: 0x10, def value: None
   ::UnityEngine::Quaternion ___m_OpenClipOffsetRotation;
 
+  /// [SerializeField]
+  /// [Obsolete("Use m_RotationEuler Instead", false)]
+  /// [HideInInspector]
   /// @brief Field m_Rotation, offset: 0x118, size: 0x10, def value: None
   ::UnityEngine::Quaternion ___m_Rotation;
 
+  /// [SerializeField]
+  /// [Obsolete("Use m_RootTransformOffsetMode", false)]
+  /// [HideInInspector]
   /// @brief Field m_ApplyOffsets, offset: 0x128, size: 0x1, def value: None
   bool ___m_ApplyOffsets;
 

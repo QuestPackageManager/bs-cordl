@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarSystem.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,26 +97,26 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarSystemMetadata"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarSystemMetadata*() noexcept;
 
-  /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist();
 
-  /// @brief Method DeleteUserCreatedAvatar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DeleteUserCreatedAvatar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DeleteUserCreatedAvatar();
 
-  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider();
 
-  /// @brief Method GetMultiplayerAvatarsData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMultiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* GetMultiplayerAvatarsData();
 
-  /// @brief Method InstantiateAvatar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAvatar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail,
                                                                                                           ::Zenject::DiContainer* container);
 
-  /// @brief Method InstantiateAvatarEditorUI, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAvatarEditorUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container);
 
-  /// @brief Method InstantiateAvatarSelectionView, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAvatarSelectionView, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container);
 
   static inline ::BeatSaber::AvatarCore::AvatarSystem* New_ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
@@ -125,7 +125,7 @@ public:
   /// @brief Method RaiseAvatarDidChangeEvent, addr 0x326c67c, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseAvatarDidChangeEvent();
 
-  /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* __GetRandomizedMultiplayerAvatarsData();
 
   constexpr bool const& __cordl_internal_get__isFallbackSystem() const;
@@ -168,10 +168,11 @@ public:
   inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
                     ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataTypes);
 
+  /// [CompilerGenerated]
   /// @brief Method add_avatarDidChangeEvent, addr 0x326c4f8, size 0xac, virtual true, abstract: false, final true
   inline void add_avatarDidChangeEvent(::System::Action* value);
 
-  /// @brief Method get_avatarCreated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_avatarCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
   /// @brief Method get_isFallbackSystem, addr 0x326c664, size 0x8, virtual true, abstract: false, final true
@@ -195,6 +196,7 @@ public:
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarSystemMetadata"
   constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata* i___BeatSaber__AvatarCore__IAvatarSystemMetadata() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_avatarDidChangeEvent, addr 0x326c5a4, size 0xac, virtual true, abstract: false, final true
   inline void remove_avatarDidChangeEvent(::System::Action* value);
 
@@ -204,17 +206,18 @@ protected:
   constexpr AvatarSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarSystem(AvatarSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarSystem(AvatarSystem const&) = delete;
+  AvatarSystem(AvatarSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21645 };
 
+  /// [CompilerGenerated]
   /// @brief Field avatarDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___avatarDidChangeEvent;
 

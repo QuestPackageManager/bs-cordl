@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderTargetHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderTargetHandle.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderTargetHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -323,8 +323,8 @@ inline bool UnityEngine::Rendering::Universal::RenderTargetHandle::op_Inequality
           { "op_Inequality", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderTargetHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, c1, c2);
 }
-// Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_rtid_k__BackingField", ty:
-// "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_rtid_k__BackingField", ty:
+// "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::RenderTargetHandle::RenderTargetHandle(int32_t _id_k__BackingField, ::UnityEngine::Rendering::RenderTargetIdentifier _rtid_k__BackingField) noexcept {
   this->_id_k__BackingField = _id_k__BackingField;
   this->_rtid_k__BackingField = _rtid_k__BackingField;

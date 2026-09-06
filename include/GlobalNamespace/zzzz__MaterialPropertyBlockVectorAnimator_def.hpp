@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockVectorAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockVectorAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class MaterialPropertyBlockVectorAnimator;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MaterialPropertyBlockVectorAnimator*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MaterialPropertyBlockVectorAnimator*, "", "MaterialPropertyBlockVectorAnimator");
+// [ExecuteAlways]
 // Dependencies MaterialPropertyBlockAnimator, UnityEngine.Vector4
 namespace GlobalNamespace {
 // Is value type: false
@@ -43,17 +44,19 @@ protected:
   constexpr MaterialPropertyBlockVectorAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockVectorAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockVectorAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockVectorAnimator(MaterialPropertyBlockVectorAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockVectorAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockVectorAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockVectorAnimator(MaterialPropertyBlockVectorAnimator const&) = delete;
+  MaterialPropertyBlockVectorAnimator(MaterialPropertyBlockVectorAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19577 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _vector, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Vector4 ____vector;
 

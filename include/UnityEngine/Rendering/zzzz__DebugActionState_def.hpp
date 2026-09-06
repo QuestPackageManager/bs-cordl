@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugActionState.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugActionState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr DebugActionState_DebugActionKeyType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugActionState_DebugActionKeyType(int32_t value__) noexcept;
 
   /// @brief Field Axis value: I32(1)
@@ -173,15 +173,19 @@ public:
   /// @brief Method .ctor, addr 0x6763690, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_actionState, addr 0x6767968, size 0x8, virtual false, abstract: false, final false
   inline float_t get_actionState();
 
+  /// [CompilerGenerated]
   /// @brief Method get_runningAction, addr 0x6767958, size 0x8, virtual false, abstract: false, final false
   inline bool get_runningAction();
 
+  /// [CompilerGenerated]
   /// @brief Method set_actionState, addr 0x6767970, size 0x8, virtual false, abstract: false, final false
   inline void set_actionState(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_runningAction, addr 0x6767960, size 0x8, virtual false, abstract: false, final false
   inline void set_runningAction(bool value);
 
@@ -191,13 +195,13 @@ protected:
   constexpr DebugActionState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugActionState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugActionState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugActionState(DebugActionState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugActionState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugActionState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugActionState(DebugActionState const&) = delete;
+  DebugActionState(DebugActionStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11986 };
@@ -214,9 +218,11 @@ public:
   /// @brief Field m_Timer, offset: 0x28, size: 0x4, def value: None
   float_t ___m_Timer;
 
+  /// [CompilerGenerated]
   /// @brief Field <runningAction>k__BackingField, offset: 0x2c, size: 0x1, def value: None
   bool ____runningAction_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <actionState>k__BackingField, offset: 0x30, size: 0x4, def value: None
   float_t ____actionState_k__BackingField;
 

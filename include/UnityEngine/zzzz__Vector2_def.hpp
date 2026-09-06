@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Vector2.hpp"
+// IWYU pragma private; include "UnityEngine/Vector2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,10 @@ struct Vector2;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Vector2);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Vector2, "UnityEngine", "Vector2");
+// [NativeClass("Vector2f")]
+// [DefaultMember("Item")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -252,7 +256,7 @@ public:
   // @brief default ctor
   constexpr Vector2();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector2(float_t x, float_t y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

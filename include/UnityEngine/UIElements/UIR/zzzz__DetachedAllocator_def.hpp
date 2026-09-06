@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\DetachedAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/DetachedAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class TempAllocator_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class TempAllocator_1;
 }
 namespace UnityEngine::UIElements {
 class MeshWriteData;
@@ -104,13 +106,13 @@ protected:
   constexpr DetachedAllocator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DetachedAllocator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DetachedAllocator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DetachedAllocator(DetachedAllocator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DetachedAllocator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DetachedAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DetachedAllocator(DetachedAllocator const&) = delete;
+  DetachedAllocator(DetachedAllocatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5284 };

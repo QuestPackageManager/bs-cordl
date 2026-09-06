@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\Calendar.hpp"
+// IWYU pragma private; include "System/Globalization/Calendar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ class Calendar;
 // Write type traits
 MARK_REF_T(::System::Globalization::Calendar*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::Calendar*, "System.Globalization", "Calendar");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Globalization {
 // Is value type: false
@@ -39,8 +40,10 @@ public:
 
   __declspec(property(get = get_Eras)) ::ArrayW<int32_t> Eras;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_MinSupportedDateTime)) ::System::DateTime MinSupportedDateTime;
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
@@ -59,40 +62,41 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// [ComVisible(false)]
   /// @brief Method Clone, addr 0x5bc4f6c, size 0x88, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method GetDayOfMonth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfMonth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetDayOfMonth(::System::DateTime time);
 
-  /// @brief Method GetDayOfWeek, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfWeek, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime time);
 
-  /// @brief Method GetDaysInMonth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInMonth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method GetDaysInYear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInYear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetDaysInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetEra, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetEra, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetEra(::System::DateTime time);
 
-  /// @brief Method GetMonth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMonth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetMonth(::System::DateTime time);
 
-  /// @brief Method GetMonthsInYear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMonthsInYear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetMonthsInYear(int32_t year, int32_t era);
 
   /// @brief Method GetSystemTwoDigitYearSetting, addr 0x5bc5770, size 0x58, virtual false, abstract: false, final false
   static inline int32_t GetSystemTwoDigitYearSetting(int32_t CalID, int32_t defaultYearValue);
 
-  /// @brief Method GetYear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetYear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetYear(::System::DateTime time);
 
   /// @brief Method IsLeapYear, addr 0x5bc5198, size 0x14, virtual true, abstract: false, final false
   inline bool IsLeapYear(int32_t year);
 
-  /// @brief Method IsLeapYear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsLeapYear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsLeapYear(int32_t year, int32_t era);
 
   /// @brief Method IsValidDay, addr 0x5bc5438, size 0x80, virtual true, abstract: false, final false
@@ -115,7 +119,7 @@ public:
   /// @brief Method ToDateTime, addr 0x5bc51ac, size 0x28, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond);
 
-  /// @brief Method ToDateTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
   /// @brief Method ToFourDigitYear, addr 0x5bc54e4, size 0xf0, virtual true, abstract: false, final false
@@ -154,7 +158,7 @@ public:
   /// @brief Method get_CurrentEraValue, addr 0x5bc5058, size 0x90, virtual true, abstract: false, final false
   inline int32_t get_CurrentEraValue();
 
-  /// @brief Method get_Eras, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Eras, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<int32_t> get_Eras();
 
   /// @brief Method get_ID, addr 0x5bc4f58, size 0x8, virtual true, abstract: false, final false
@@ -181,13 +185,13 @@ protected:
   constexpr Calendar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Calendar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Calendar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Calendar(Calendar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Calendar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Calendar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Calendar(Calendar const&) = delete;
+  Calendar(Calendarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3622 };
@@ -195,6 +199,7 @@ public:
   /// @brief Field m_currentEraValue, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_currentEraValue;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_isReadOnly, offset: 0x14, size: 0x1, def value: None
   bool ___m_isReadOnly;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\BSLeaderboardHealthModel.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/BSLeaderboardHealthModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace BeatSaber::Main::GraphQL::Models {
 class BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace BeatSaber::Main::GraphQL::Models {
@@ -29,6 +31,8 @@ MARK_REF_T(::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatG
 DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel*, "BeatSaber.Main.GraphQL.Models", "BSLeaderboardHealthModel");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel*, "BeatSaber.Main.GraphQL.Models",
                     "BSLeaderboardHealthModel/XocBeatGamesLeaderboardHealthModel");
+// [NullableContext(0)]
+// [Preserve]
 // Dependencies BeatSaber.Main.GraphQL.Enums.XOCBeatGamesHealthCheckStatusValue, OculusStudios.GraphQL.Client.GraphQLModel, System.Nullable`1<T>
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -36,6 +40,9 @@ namespace BeatSaber::Main::GraphQL::Models {
 class CORDL_TYPE BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
   // Declarations
+  /// [Preserve]
+  /// [JsonProperty("status", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
+  /// @brief [JsonConverter(typeof(OculusStudios.GraphQL.Client.EnumConverter`1<T>))]
   __declspec(property(get = get_Status, put = set_Status)) ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesHealthCheckStatusValue> Status;
 
   /// @brief Field <Status>k__BackingField, offset 0x10, size 0x8
@@ -54,9 +61,11 @@ public:
   /// @brief Method .ctor, addr 0x32a0b98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Status, addr 0x32a0b90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesHealthCheckStatusValue> get_Status();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Status, addr 0x32a0b88, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesHealthCheckStatusValue> value);
 
@@ -66,17 +75,18 @@ protected:
   constexpr BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel(BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel(BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel const&) = delete;
+  BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel(BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20558 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Status>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesHealthCheckStatusValue> ____Status_k__BackingField;
 
@@ -88,6 +98,9 @@ static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthMo
 static_assert(sizeof(::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel) == 0x18, "Size mismatch!");
 
 } // namespace BeatSaber::Main::GraphQL::Models
+// [NullableContext(2)]
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -97,6 +110,8 @@ public:
   // Declarations
   using XocBeatGamesLeaderboardHealthModel = ::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("xoc_beat_games_leaderboard_health", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_XocBeatGamesLeaderboardHealth,
                       put = set_XocBeatGamesLeaderboardHealth)) ::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel* XocBeatGamesLeaderboardHealth;
 
@@ -116,9 +131,11 @@ public:
   /// @brief Method .ctor, addr 0x32a0b84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_XocBeatGamesLeaderboardHealth, addr 0x32a0b7c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel* get_XocBeatGamesLeaderboardHealth();
 
+  /// [CompilerGenerated]
   /// @brief Method set_XocBeatGamesLeaderboardHealth, addr 0x32a0b74, size 0x8, virtual false, abstract: false, final false
   inline void set_XocBeatGamesLeaderboardHealth(::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel* value);
 
@@ -128,17 +145,18 @@ protected:
   constexpr BSLeaderboardHealthModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealthModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealthModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BSLeaderboardHealthModel(BSLeaderboardHealthModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealthModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealthModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSLeaderboardHealthModel(BSLeaderboardHealthModel const&) = delete;
+  BSLeaderboardHealthModel(BSLeaderboardHealthModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20559 };
 
+  /// [CompilerGenerated]
   /// @brief Field <XocBeatGamesLeaderboardHealth>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel* ____XocBeatGamesLeaderboardHealth_k__BackingField;
 

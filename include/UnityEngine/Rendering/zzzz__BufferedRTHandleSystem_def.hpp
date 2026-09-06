@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BufferedRTHandleSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BufferedRTHandleSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ MARK_REF_T(::UnityEngine::Rendering::BufferedRTHandleSystem*);
 MARK_VAL_T(::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BufferedRTHandleSystem*, "UnityEngine.Rendering", "BufferedRTHandleSystem");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0, "UnityEngine.Rendering", "BufferedRTHandleSystem/<>c__DisplayClass12_0");
+// [CompilerGenerated]
 // Dependencies UnityEngine.Experimental.Rendering.GraphicsFormat
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -70,8 +71,8 @@ public:
   // @brief default ctor
   constexpr BufferedRTHandleSystem___c__DisplayClass12_0();
 
-  // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::BufferedRTHandleSystem*", modifiers: "", def_value: None }, CppParam { name: "format", ty:
-  // "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::BufferedRTHandleSystem*", modifiers: "", def_value: None, comment: None }, CppParam { name: "format", ty:
+  // "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None, comment: None }]
   constexpr BufferedRTHandleSystem___c__DisplayClass12_0(::UnityEngine::Rendering::BufferedRTHandleSystem* __4__this, ::UnityEngine::Experimental::Rendering::GraphicsFormat format) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -166,6 +167,7 @@ public:
   /// @brief Method SwapAndSetReferenceSize, addr 0x67a8fe4, size 0x3c, virtual false, abstract: false, final false
   inline void SwapAndSetReferenceSize(int32_t width, int32_t height);
 
+  /// [CompilerGenerated]
   /// @brief Method <AllocBuffer>g__Alloc|12_0, addr 0x67a8e3c, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* _AllocBuffer_g__Alloc_12_0(::by_ref<::UnityEngine::RenderTextureDescriptor> d, ::UnityEngine::FilterMode fMode, ::UnityEngine::TextureWrapMode wMode,
                                                                         bool isShadow, int32_t aniso, float_t mipBias, ::StringW n,
@@ -210,13 +212,13 @@ protected:
   constexpr BufferedRTHandleSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedRTHandleSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedRTHandleSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedRTHandleSystem(BufferedRTHandleSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedRTHandleSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedRTHandleSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedRTHandleSystem(BufferedRTHandleSystem const&) = delete;
+  BufferedRTHandleSystem(BufferedRTHandleSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12234 };

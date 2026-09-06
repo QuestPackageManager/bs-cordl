@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Awaitable.hpp"
+// IWYU pragma private; include "UnityEngine/Awaitable.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_impl.hpp"
 #include "System/Threading/zzzz__SpinLock_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
@@ -21,7 +21,7 @@
 #include "UnityEngine/zzzz__Awaitable_1_def.hpp"
 #include "UnityEngine/zzzz__Awaitable_def.hpp"
 #include "UnityEngine/zzzz__UnitySynchronizationContext_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Awaitable_AwaiterCompletionThreadAffinity::Awaitable_AwaiterCompletionThreadAffinity(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -38,8 +38,8 @@ constexpr UnityEngine::AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox::o
 constexpr ::System::IDisposable* UnityEngine::AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-// Ctor Parameters [CppParam { name: "_stateMachineBox", ty: "::UnityEngine::AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_resultingCoroutine", ty: "::UnityEngine::Awaitable*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_stateMachineBox", ty: "::UnityEngine::AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_resultingCoroutine", ty: "::UnityEngine::Awaitable*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Awaitable_AwaitableAsyncMethodBuilder::Awaitable_AwaitableAsyncMethodBuilder(::UnityEngine::AwaitableAsyncMethodBuilder_Awaitable_IStateMachineBox* _stateMachineBox,
                                                                                                       ::UnityEngine::Awaitable* _resultingCoroutine) noexcept {
   this->_stateMachineBox = _stateMachineBox;
@@ -55,8 +55,8 @@ template <typename T> constexpr UnityEngine::AwaitableAsyncMethodBuilder_1_Await
 template <typename T> constexpr ::System::IDisposable* UnityEngine::AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-// Ctor Parameters [CppParam { name: "_stateMachineBox", ty: "::UnityEngine::AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_resultingCoroutine", ty: "::UnityEngine::Awaitable_1<T>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_stateMachineBox", ty: "::UnityEngine::AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox<T>*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_resultingCoroutine", ty: "::UnityEngine::Awaitable_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
 constexpr ::UnityEngine::Awaitable_AwaitableAsyncMethodBuilder_1<T>::Awaitable_AwaitableAsyncMethodBuilder_1(
     ::UnityEngine::AwaitableAsyncMethodBuilder_1_Awaitable_IStateMachineBox<T>* _stateMachineBox, ::UnityEngine::Awaitable_1<T>* _resultingCoroutine) noexcept {
@@ -98,8 +98,8 @@ inline int32_t UnityEngine::Awaitable_AwaitableAndFrameIndex::get_FrameIndex() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable_AwaitableAndFrameIndex>(), { "get_FrameIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_Awaitable_k__BackingField", ty: "::UnityEngine::Awaitable*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_FrameIndex_k__BackingField", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Awaitable_k__BackingField", ty: "::UnityEngine::Awaitable*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_FrameIndex_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Awaitable_AwaitableAndFrameIndex::Awaitable_AwaitableAndFrameIndex(::UnityEngine::Awaitable* _Awaitable_k__BackingField, int32_t _FrameIndex_k__BackingField) noexcept {
   this->_Awaitable_k__BackingField = _Awaitable_k__BackingField;
   this->_FrameIndex_k__BackingField = _FrameIndex_k__BackingField;
@@ -263,7 +263,7 @@ inline ::System::IntPtr UnityEngine::Awaitable_AwaitableHandle::op_Implicit___Sy
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable_AwaitableHandle>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Awaitable_AwaitableHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, handle);
 }
-// Ctor Parameters [CppParam { name: "_handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Awaitable_AwaitableHandle::Awaitable_AwaitableHandle(::System::IntPtr _handle) noexcept {
   this->_handle = _handle;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineVolumeDebugSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineVolumeDebugSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,8 @@ public:
 
   __declspec(property(get = get_selectedCameraVolumeStack)) ::UnityEngine::Rendering::VolumeStack* selectedCameraVolumeStack;
 
+  /// @brief [Obsolete("This property is obsolete and kept only for not breaking user code. VolumeDebugSettings will use current pipeline when it needs to gather volume component types and paths.
+  /// #from(23.2)", false)]
   __declspec(property(get = get_targetRenderPipeline)) ::System::Type* targetRenderPipeline;
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings* New_ctor();
@@ -65,13 +67,13 @@ protected:
   constexpr UniversalRenderPipelineVolumeDebugSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineVolumeDebugSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineVolumeDebugSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineVolumeDebugSettings(UniversalRenderPipelineVolumeDebugSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineVolumeDebugSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineVolumeDebugSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineVolumeDebugSettings(UniversalRenderPipelineVolumeDebugSettings const&) = delete;
+  UniversalRenderPipelineVolumeDebugSettings(UniversalRenderPipelineVolumeDebugSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12671 };

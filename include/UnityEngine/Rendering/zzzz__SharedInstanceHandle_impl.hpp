@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SharedInstanceHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SharedInstanceHandle.hpp"
 #include "UnityEngine/Rendering/zzzz__SharedInstanceHandle_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -137,7 +137,7 @@ constexpr ::System::IComparable_1<::UnityEngine::Rendering::SharedInstanceHandle
 UnityEngine::Rendering::SharedInstanceHandle::i___System__IComparable_1___UnityEngine__Rendering__SharedInstanceHandle_() {
   return static_cast<::System::IComparable_1<::UnityEngine::Rendering::SharedInstanceHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_index_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_index_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SharedInstanceHandle::SharedInstanceHandle(int32_t _index_k__BackingField) noexcept {
   this->_index_k__BackingField = _index_k__BackingField;
 }

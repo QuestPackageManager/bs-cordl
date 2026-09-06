@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LookDev\StageRuntimeInterface.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LookDev/StageRuntimeInterface.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/LookDev/zzzz__StageRuntimeInterface_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"

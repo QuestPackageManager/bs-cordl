@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NatPunchModule.hpp"
+// IWYU pragma private; include "LiteNetLib/NatPunchModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,8 +91,8 @@ public:
   // @brief default ctor
   constexpr NatPunchModule_RequestEventData();
 
-  // Ctor Parameters [CppParam { name: "LocalEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: None }, CppParam { name: "RemoteEndPoint", ty: "::System::Net::IPEndPoint*",
-  // modifiers: "", def_value: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "LocalEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: None, comment: None }, CppParam { name: "RemoteEndPoint", ty:
+  // "::System::Net::IPEndPoint*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr NatPunchModule_RequestEventData(::System::Net::IPEndPoint* LocalEndPoint, ::System::Net::IPEndPoint* RemoteEndPoint, ::StringW Token) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -133,8 +133,8 @@ public:
   // @brief default ctor
   constexpr NatPunchModule_SuccessEventData();
 
-  // Ctor Parameters [CppParam { name: "TargetEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: None }, CppParam { name: "Type", ty: "::LiteNetLib::NatAddressType", modifiers: "",
-  // def_value: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "TargetEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Type", ty: "::LiteNetLib::NatAddressType",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr NatPunchModule_SuccessEventData(::System::Net::IPEndPoint* TargetEndPoint, ::LiteNetLib::NatAddressType Type, ::StringW Token) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -198,15 +198,19 @@ public:
   /// @brief Method .ctor, addr 0x589cd80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Internal, addr 0x589d420, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Token, addr 0x589d430, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Internal, addr 0x589d428, size 0x8, virtual false, abstract: false, final false
   inline void set_Internal(::System::Net::IPEndPoint* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Token, addr 0x589d438, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
@@ -216,20 +220,22 @@ protected:
   constexpr NatPunchModule_NatIntroduceRequestPacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceRequestPacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceRequestPacket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NatPunchModule_NatIntroduceRequestPacket(NatPunchModule_NatIntroduceRequestPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceRequestPacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceRequestPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NatPunchModule_NatIntroduceRequestPacket(NatPunchModule_NatIntroduceRequestPacket const&) = delete;
+  NatPunchModule_NatIntroduceRequestPacket(NatPunchModule_NatIntroduceRequestPacketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20049 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Internal>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPEndPoint* ____Internal_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Token>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Token_k__BackingField;
 
@@ -288,21 +294,27 @@ public:
   /// @brief Method .ctor, addr 0x589c59c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_External, addr 0x589d450, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_External();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Internal, addr 0x589d440, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Token, addr 0x589d460, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
+  /// [CompilerGenerated]
   /// @brief Method set_External, addr 0x589d458, size 0x8, virtual false, abstract: false, final false
   inline void set_External(::System::Net::IPEndPoint* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Internal, addr 0x589d448, size 0x8, virtual false, abstract: false, final false
   inline void set_Internal(::System::Net::IPEndPoint* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Token, addr 0x589d468, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
@@ -312,23 +324,26 @@ protected:
   constexpr NatPunchModule_NatIntroduceResponsePacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceResponsePacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceResponsePacket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NatPunchModule_NatIntroduceResponsePacket(NatPunchModule_NatIntroduceResponsePacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceResponsePacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceResponsePacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NatPunchModule_NatIntroduceResponsePacket(NatPunchModule_NatIntroduceResponsePacket const&) = delete;
+  NatPunchModule_NatIntroduceResponsePacket(NatPunchModule_NatIntroduceResponsePacketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20050 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Internal>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPEndPoint* ____Internal_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <External>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Net::IPEndPoint* ____External_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Token>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Token_k__BackingField;
 
@@ -378,15 +393,19 @@ public:
   /// @brief Method .ctor, addr 0x589cff8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsExternal, addr 0x589d480, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsExternal();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Token, addr 0x589d470, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsExternal, addr 0x589d488, size 0x8, virtual false, abstract: false, final false
   inline void set_IsExternal(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Token, addr 0x589d478, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
@@ -396,20 +415,22 @@ protected:
   constexpr NatPunchModule_NatPunchPacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatPunchPacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatPunchPacket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NatPunchModule_NatPunchPacket(NatPunchModule_NatPunchPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatPunchPacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatPunchPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NatPunchModule_NatPunchPacket(NatPunchModule_NatPunchPacket const&) = delete;
+  NatPunchModule_NatPunchPacket(NatPunchModule_NatPunchPacketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20051 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Token>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Token_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsExternal>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____IsExternal_k__BackingField;
 
@@ -488,7 +509,9 @@ public:
   inline void ProcessMessage(::System::Net::IPEndPoint* senderEndPoint, ::LiteNetLib::NetPacket* packet);
 
   /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Send(T packet, ::System::Net::IPEndPoint* target);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Send(T packet, ::System::Net::IPEndPoint* target);
 
   /// @brief Method SendNatIntroduceRequest, addr 0x589c914, size 0x88, virtual false, abstract: false, final false
   inline void SendNatIntroduceRequest(::StringW host, int32_t port, ::StringW additionalInfo);
@@ -547,13 +570,13 @@ protected:
   constexpr NatPunchModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NatPunchModule(NatPunchModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NatPunchModule(NatPunchModule const&) = delete;
+  NatPunchModule(NatPunchModuleconst&) = delete;
 
   /// @brief Field MaxTokenLength offset 0xffffffff size 0x4
   static constexpr int32_t MaxTokenLength{ static_cast<int32_t>(0x100) };

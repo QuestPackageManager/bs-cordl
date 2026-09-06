@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimatorOverrideController.hpp"
+// IWYU pragma private; include "UnityEngine/AnimatorOverrideController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,13 +60,13 @@ protected:
   constexpr AnimatorOverrideController_OnOverrideControllerDirtyCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController_OnOverrideControllerDirtyCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController_OnOverrideControllerDirtyCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatorOverrideController_OnOverrideControllerDirtyCallback(AnimatorOverrideController_OnOverrideControllerDirtyCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController_OnOverrideControllerDirtyCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController_OnOverrideControllerDirtyCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatorOverrideController_OnOverrideControllerDirtyCallback(AnimatorOverrideController_OnOverrideControllerDirtyCallback const&) = delete;
+  AnimatorOverrideController_OnOverrideControllerDirtyCallback(AnimatorOverrideController_OnOverrideControllerDirtyCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20228 };
@@ -77,6 +77,10 @@ public:
 static_assert(sizeof(::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine
+// [DefaultMember("Item")]
+// [NativeHeader("Modules/Animation/AnimatorOverrideController.h")]
+// [UsedByNativeCode]
+// [NativeHeader("Modules/Animation/ScriptBindings/Animation.bindings.h")]
 // Dependencies UnityEngine.RuntimeAnimatorController
 namespace UnityEngine {
 // Is value type: false
@@ -94,14 +98,17 @@ public:
   inline void
   ApplyOverrides(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityW<::UnityEngine::AnimationClip>, ::UnityW<::UnityEngine::AnimationClip>>>* overrides);
 
+  /// [FreeFunction("AnimationBindings::CreateAnimatorOverrideController")]
   /// @brief Method Internal_Create, addr 0x6a459c8, size 0x90, virtual false, abstract: false, final false
-  static inline void Internal_Create(::UnityEngine::AnimatorOverrideController* self, ::UnityEngine::RuntimeAnimatorController* controller);
+  static inline void Internal_Create(/* [Writable] */ ::UnityEngine::AnimatorOverrideController* self, ::UnityEngine::RuntimeAnimatorController* controller);
 
   /// @brief Method Internal_Create_Injected, addr 0x6a45a58, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_Create_Injected(::UnityEngine::AnimatorOverrideController* self, ::System::IntPtr controller);
+  static inline void Internal_Create_Injected(/* [Writable] */ ::UnityEngine::AnimatorOverrideController* self, ::System::IntPtr controller);
 
   static inline ::UnityEngine::AnimatorOverrideController* New_ctor(::UnityEngine::RuntimeAnimatorController* controller);
 
+  /// [RequiredByNativeCode]
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method OnInvalidateOverrideController, addr 0x6a45ec8, size 0x28, virtual false, abstract: false, final false
   static inline void OnInvalidateOverrideController(::UnityEngine::AnimatorOverrideController* controller);
 
@@ -132,13 +139,13 @@ protected:
   constexpr AnimatorOverrideController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatorOverrideController(AnimatorOverrideController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatorOverrideController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatorOverrideController(AnimatorOverrideController const&) = delete;
+  AnimatorOverrideController(AnimatorOverrideControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20229 };

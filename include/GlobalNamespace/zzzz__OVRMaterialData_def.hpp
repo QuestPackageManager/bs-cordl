@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMaterialData.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMaterialData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,9 +29,9 @@ public:
   // @brief default ctor
   constexpr OVRMaterialData();
 
-  // Ctor Parameters [CppParam { name: "shader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None }, CppParam { name: "textureId", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "texture", ty: "::GlobalNamespace::OVRTextureData", modifiers: "", def_value: None }, CppParam { name: "baseColorFactor", ty: "::UnityEngine::Color", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "shader", ty: "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "textureId", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "texture", ty: "::GlobalNamespace::OVRTextureData", modifiers: "", def_value: None, comment: None }, CppParam { name: "baseColorFactor", ty:
+  // "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMaterialData(::UnityW<::UnityEngine::Shader> shader, int32_t textureId, ::GlobalNamespace::OVRTextureData texture, ::UnityEngine::Color baseColorFactor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

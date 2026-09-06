@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\FrameSample.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/FrameSample.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr FrameSample();
 
-  // Ctor Parameters [CppParam { name: "previous", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "alpha",
-  // ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "previous", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr FrameSample(int32_t previous, int32_t next, float_t alpha) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

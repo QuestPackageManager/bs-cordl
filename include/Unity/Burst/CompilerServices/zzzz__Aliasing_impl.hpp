@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\CompilerServices\Aliasing.hpp"
+// IWYU pragma private; include "Unity/Burst/CompilerServices/Aliasing.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__Aliasing_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::Aliasing.ExpectAliased
@@ -33,21 +33,28 @@ inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(void* a, voi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectAliased", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template <typename A, typename B> inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(::by_ref<A> a, ::by_ref<B> b) {
+template <typename A, typename B>
+  requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A> && ::cordl_internals::value_type_constraint<B> &&
+           ::cordl_internals::default_constructor_constraint<B>)
+inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(/* [IsReadOnly] */ ::by_ref<A> a, /* [IsReadOnly] */ ::by_ref<B> b) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(),
                                                            { "ExpectAliased", { ::i2c::class_of<A>(), ::i2c::class_of<B>() }, { ::i2c::type_of<::by_ref<A>>(), ::i2c::type_of<::by_ref<B>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<A>(), ::i2c::class_of<B>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template <typename B> inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(void* a, ::by_ref<B> b) {
+template <typename B>
+  requires(::cordl_internals::value_type_constraint<B> && ::cordl_internals::default_constructor_constraint<B>)
+inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(void* a, /* [IsReadOnly] */ ::by_ref<B> b) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectAliased", { ::i2c::class_of<B>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<B>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<B>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template <typename A> inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(::by_ref<A> a, void* b) {
+template <typename A>
+  requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A>)
+inline void Unity::Burst::CompilerServices::Aliasing::ExpectAliased(/* [IsReadOnly] */ ::by_ref<A> a, void* b) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectAliased", { ::i2c::class_of<A>() }, { ::i2c::type_of<::by_ref<A>>(), ::i2c::type_of<void*>() } })));
@@ -59,21 +66,28 @@ inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(void* a, 
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(), { "ExpectNotAliased", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template <typename A, typename B> inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(::by_ref<A> a, ::by_ref<B> b) {
+template <typename A, typename B>
+  requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A> && ::cordl_internals::value_type_constraint<B> &&
+           ::cordl_internals::default_constructor_constraint<B>)
+inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(/* [IsReadOnly] */ ::by_ref<A> a, /* [IsReadOnly] */ ::by_ref<B> b) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(),
                                                            { "ExpectNotAliased", { ::i2c::class_of<A>(), ::i2c::class_of<B>() }, { ::i2c::type_of<::by_ref<A>>(), ::i2c::type_of<::by_ref<B>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<A>(), ::i2c::class_of<B>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template <typename B> inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(void* a, ::by_ref<B> b) {
+template <typename B>
+  requires(::cordl_internals::value_type_constraint<B> && ::cordl_internals::default_constructor_constraint<B>)
+inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(void* a, /* [IsReadOnly] */ ::by_ref<B> b) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(),
                                                            { "ExpectNotAliased", { ::i2c::class_of<B>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<B>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<B>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, a, b);
 }
-template <typename A> inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(::by_ref<A> a, void* b) {
+template <typename A>
+  requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A>)
+inline void Unity::Burst::CompilerServices::Aliasing::ExpectNotAliased(/* [IsReadOnly] */ ::by_ref<A> a, void* b) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Aliasing*>(),
                                                            { "ExpectNotAliased", { ::i2c::class_of<A>() }, { ::i2c::type_of<::by_ref<A>>(), ::i2c::type_of<void*>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\DebuggerBrowsableState.hpp"
+// IWYU pragma private; include "System/Diagnostics/DebuggerBrowsableState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DebuggerBrowsableState;
 // Write type traits
 MARK_VAL_T(::System::Diagnostics::DebuggerBrowsableState);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::DebuggerBrowsableState, "System.Diagnostics", "DebuggerBrowsableState");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Diagnostics {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr DebuggerBrowsableState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebuggerBrowsableState(int32_t value__) noexcept;
 
   /// @brief Field Collapsed value: I32(2)

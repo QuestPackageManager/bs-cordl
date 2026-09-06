@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRManager.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -49,7 +49,7 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_XrApi::OVRManager_XrApi(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -59,7 +59,7 @@ constexpr ::GlobalNamespace::OVRManager_XrApi GlobalNamespace::OVRManager_XrApi:
 constexpr ::GlobalNamespace::OVRManager_XrApi GlobalNamespace::OVRManager_XrApi::CAPI{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRManager_XrApi GlobalNamespace::OVRManager_XrApi::VRAPI{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRManager_XrApi GlobalNamespace::OVRManager_XrApi::OpenXR{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_TrackingOrigin::OVRManager_TrackingOrigin(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -68,7 +68,7 @@ constexpr ::GlobalNamespace::OVRManager_TrackingOrigin::OVRManager_TrackingOrigi
 constexpr ::GlobalNamespace::OVRManager_TrackingOrigin GlobalNamespace::OVRManager_TrackingOrigin::EyeLevel{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_TrackingOrigin GlobalNamespace::OVRManager_TrackingOrigin::FloorLevel{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRManager_TrackingOrigin GlobalNamespace::OVRManager_TrackingOrigin::Stage{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_EyeTextureFormat::OVRManager_EyeTextureFormat(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -77,7 +77,7 @@ constexpr ::GlobalNamespace::OVRManager_EyeTextureFormat::OVRManager_EyeTextureF
 constexpr ::GlobalNamespace::OVRManager_EyeTextureFormat GlobalNamespace::OVRManager_EyeTextureFormat::Default{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_EyeTextureFormat GlobalNamespace::OVRManager_EyeTextureFormat::R16G16B16A16_FP{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRManager_EyeTextureFormat GlobalNamespace::OVRManager_EyeTextureFormat::R11G11B10_FP{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_FoveatedRenderingLevel::OVRManager_FoveatedRenderingLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -88,7 +88,7 @@ constexpr ::GlobalNamespace::OVRManager_FoveatedRenderingLevel GlobalNamespace::
 constexpr ::GlobalNamespace::OVRManager_FoveatedRenderingLevel GlobalNamespace::OVRManager_FoveatedRenderingLevel::Medium{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRManager_FoveatedRenderingLevel GlobalNamespace::OVRManager_FoveatedRenderingLevel::High{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRManager_FoveatedRenderingLevel GlobalNamespace::OVRManager_FoveatedRenderingLevel::HighTop{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel::OVRManager_FixedFoveatedRenderingLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -99,7 +99,7 @@ constexpr ::GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel GlobalNamesp
 constexpr ::GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel::Medium{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel::High{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel::HighTop{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_TiledMultiResLevel::OVRManager_TiledMultiResLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -110,7 +110,7 @@ constexpr ::GlobalNamespace::OVRManager_TiledMultiResLevel GlobalNamespace::OVRM
 constexpr ::GlobalNamespace::OVRManager_TiledMultiResLevel GlobalNamespace::OVRManager_TiledMultiResLevel::LMSMedium{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRManager_TiledMultiResLevel GlobalNamespace::OVRManager_TiledMultiResLevel::LMSHigh{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRManager_TiledMultiResLevel GlobalNamespace::OVRManager_TiledMultiResLevel::LMSHighTop{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_SystemHeadsetType::OVRManager_SystemHeadsetType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -148,7 +148,7 @@ constexpr ::GlobalNamespace::OVRManager_SystemHeadsetType GlobalNamespace::OVRMa
 constexpr ::GlobalNamespace::OVRManager_SystemHeadsetType GlobalNamespace::OVRManager_SystemHeadsetType::PC_Placeholder_4111{ static_cast<int32_t>(0x100f) };
 constexpr ::GlobalNamespace::OVRManager_SystemHeadsetType GlobalNamespace::OVRManager_SystemHeadsetType::PC_Placeholder_4112{ static_cast<int32_t>(0x1010) };
 constexpr ::GlobalNamespace::OVRManager_SystemHeadsetType GlobalNamespace::OVRManager_SystemHeadsetType::PC_Placeholder_4113{ static_cast<int32_t>(0x1011) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_SystemHeadsetTheme::OVRManager_SystemHeadsetTheme(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -156,7 +156,7 @@ constexpr ::GlobalNamespace::OVRManager_SystemHeadsetTheme::OVRManager_SystemHea
 constexpr ::GlobalNamespace::OVRManager_SystemHeadsetTheme::OVRManager_SystemHeadsetTheme() {}
 constexpr ::GlobalNamespace::OVRManager_SystemHeadsetTheme GlobalNamespace::OVRManager_SystemHeadsetTheme::Dark{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_SystemHeadsetTheme GlobalNamespace::OVRManager_SystemHeadsetTheme::Light{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_XRDevice::OVRManager_XRDevice(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -165,7 +165,7 @@ constexpr ::GlobalNamespace::OVRManager_XRDevice::OVRManager_XRDevice() {}
 constexpr ::GlobalNamespace::OVRManager_XRDevice GlobalNamespace::OVRManager_XRDevice::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_XRDevice GlobalNamespace::OVRManager_XRDevice::Oculus{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRManager_XRDevice GlobalNamespace::OVRManager_XRDevice::OpenVR{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_ColorSpace::OVRManager_ColorSpace(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -180,7 +180,7 @@ constexpr ::GlobalNamespace::OVRManager_ColorSpace GlobalNamespace::OVRManager_C
 constexpr ::GlobalNamespace::OVRManager_ColorSpace GlobalNamespace::OVRManager_ColorSpace::Quest{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::OVRManager_ColorSpace GlobalNamespace::OVRManager_ColorSpace::P3{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::OVRManager_ColorSpace GlobalNamespace::OVRManager_ColorSpace::Adobe_RGB{ static_cast<int32_t>(0x8) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_ProcessorPerformanceLevel::OVRManager_ProcessorPerformanceLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -190,7 +190,7 @@ constexpr ::GlobalNamespace::OVRManager_ProcessorPerformanceLevel GlobalNamespac
 constexpr ::GlobalNamespace::OVRManager_ProcessorPerformanceLevel GlobalNamespace::OVRManager_ProcessorPerformanceLevel::SustainedLow{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRManager_ProcessorPerformanceLevel GlobalNamespace::OVRManager_ProcessorPerformanceLevel::SustainedHigh{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRManager_ProcessorPerformanceLevel GlobalNamespace::OVRManager_ProcessorPerformanceLevel::Boost{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_ControllerDrivenHandPosesType::OVRManager_ControllerDrivenHandPosesType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -218,7 +218,7 @@ inline void GlobalNamespace::OVRManager_EventListener::OnEvent(::GlobalNamespace
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::OVRManager_EventListener*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData);
 }
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_CompositionMethod::OVRManager_CompositionMethod(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -226,7 +226,7 @@ constexpr ::GlobalNamespace::OVRManager_CompositionMethod::OVRManager_Compositio
 constexpr ::GlobalNamespace::OVRManager_CompositionMethod::OVRManager_CompositionMethod() {}
 constexpr ::GlobalNamespace::OVRManager_CompositionMethod GlobalNamespace::OVRManager_CompositionMethod::External{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_CompositionMethod GlobalNamespace::OVRManager_CompositionMethod::Direct{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_CameraDevice::OVRManager_CameraDevice(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -235,7 +235,7 @@ constexpr ::GlobalNamespace::OVRManager_CameraDevice::OVRManager_CameraDevice() 
 constexpr ::GlobalNamespace::OVRManager_CameraDevice GlobalNamespace::OVRManager_CameraDevice::WebCamera0{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_CameraDevice GlobalNamespace::OVRManager_CameraDevice::WebCamera1{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRManager_CameraDevice GlobalNamespace::OVRManager_CameraDevice::ZEDCamera{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_DepthQuality::OVRManager_DepthQuality(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -244,7 +244,7 @@ constexpr ::GlobalNamespace::OVRManager_DepthQuality::OVRManager_DepthQuality() 
 constexpr ::GlobalNamespace::OVRManager_DepthQuality GlobalNamespace::OVRManager_DepthQuality::Low{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_DepthQuality GlobalNamespace::OVRManager_DepthQuality::Medium{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRManager_DepthQuality GlobalNamespace::OVRManager_DepthQuality::High{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_VirtualGreenScreenType::OVRManager_VirtualGreenScreenType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -253,7 +253,7 @@ constexpr ::GlobalNamespace::OVRManager_VirtualGreenScreenType::OVRManager_Virtu
 constexpr ::GlobalNamespace::OVRManager_VirtualGreenScreenType GlobalNamespace::OVRManager_VirtualGreenScreenType::Off{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_VirtualGreenScreenType GlobalNamespace::OVRManager_VirtualGreenScreenType::OuterBoundary{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRManager_VirtualGreenScreenType GlobalNamespace::OVRManager_VirtualGreenScreenType::PlayArea{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_MrcActivationMode::OVRManager_MrcActivationMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -261,7 +261,7 @@ constexpr ::GlobalNamespace::OVRManager_MrcActivationMode::OVRManager_MrcActivat
 constexpr ::GlobalNamespace::OVRManager_MrcActivationMode::OVRManager_MrcActivationMode() {}
 constexpr ::GlobalNamespace::OVRManager_MrcActivationMode GlobalNamespace::OVRManager_MrcActivationMode::Automatic{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_MrcActivationMode GlobalNamespace::OVRManager_MrcActivationMode::Disabled{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_MrcCameraType::OVRManager_MrcCameraType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -355,7 +355,7 @@ inline ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* GlobalNamespa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::OVRManager_InstantiateMrcCameraDelegate() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRManager_PassthroughInitializationState::OVRManager_PassthroughInitializationState(int32_t value__) noexcept {
   this->value__ = value__;
 }

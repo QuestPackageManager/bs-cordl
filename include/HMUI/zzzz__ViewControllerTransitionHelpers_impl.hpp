@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ViewControllerTransitionHelpers.hpp"
+// IWYU pragma private; include "HMUI/ViewControllerTransitionHelpers.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__ViewControllerTransitionHelpers_def.hpp"
@@ -353,6 +353,7 @@ inline ::System::Object* HMUI::ViewControllerTransitionHelpers__AnimationCorouti
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8* HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8*>(__1__state));
 }
@@ -569,6 +570,7 @@ inline ::System::Object* HMUI::ViewControllerTransitionHelpers__DoDismissTransit
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4* HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4*>(__1__state));
 }
@@ -785,6 +787,7 @@ inline ::System::Object* HMUI::ViewControllerTransitionHelpers__DoHorizontalTran
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5* HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5*>(__1__state));
 }
@@ -1001,6 +1004,7 @@ inline ::System::Object* HMUI::ViewControllerTransitionHelpers__DoPresentTransit
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3* HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3*>(__1__state));
 }
@@ -1217,6 +1221,7 @@ inline ::System::Object* HMUI::ViewControllerTransitionHelpers__DoVerticalTransi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6* HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6*>(__1__state));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SchemaNames.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SchemaNames.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaNames_def.hpp"
@@ -7,7 +7,7 @@
 #include "System/Xml/Schema/zzzz__SchemaType_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::SchemaNames_Token::SchemaNames_Token(int32_t value__) noexcept {
   this->value__ = value__;
 }

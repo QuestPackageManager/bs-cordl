@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseTreeViewController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseTreeViewController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyFlattenedNodeChildren_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyFlattenedNode_impl.hpp"
@@ -360,6 +360,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::BaseTreeView
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseTreeViewController__GetAllItemIds_d__23*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UIElements::BaseTreeViewController__GetAllItemIds_d__23* UnityEngine::UIElements::BaseTreeViewController__GetAllItemIds_d__23::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseTreeViewController__GetAllItemIds_d__23*>(__1__state));
 }
@@ -683,6 +684,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::BaseTreeView
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIds_d__25*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIds_d__25* UnityEngine::UIElements::BaseTreeViewController__GetChildrenIds_d__25::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIds_d__25*>(__1__state));
 }
@@ -993,6 +995,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::BaseTreeView
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIdsByIndex_d__41* UnityEngine::UIElements::BaseTreeViewController__GetChildrenIdsByIndex_d__41::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIdsByIndex_d__41*>(__1__state));
 }
@@ -2048,13 +2051,13 @@ inline void UnityEngine::UIElements::BaseTreeViewController::CollapseItem(int32_
                                                                                          { "CollapseItem", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, id, collapseAllChildren, refresh);
 }
-inline void UnityEngine::UIElements::BaseTreeViewController::ExpandItemByNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool expandAllChildren, bool refresh) {
+inline void UnityEngine::UIElements::BaseTreeViewController::ExpandItemByNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool expandAllChildren, bool refresh) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseTreeViewController*>(),
                                               { "ExpandItemByNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, expandAllChildren, refresh);
 }
-inline void UnityEngine::UIElements::BaseTreeViewController::CollapseItemByNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool collapseAllChildren, bool refresh) {
+inline void UnityEngine::UIElements::BaseTreeViewController::CollapseItemByNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool collapseAllChildren, bool refresh) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseTreeViewController*>(),
                                               { "CollapseItemByNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
@@ -2089,12 +2092,12 @@ inline void UnityEngine::UIElements::BaseTreeViewController::RaiseItemParentChan
                                                                                          { "RaiseItemParentChanged", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, id, newParentId);
 }
-inline ::Unity::Hierarchy::HierarchyNode UnityEngine::UIElements::BaseTreeViewController::CreateNode(::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
+inline ::Unity::Hierarchy::HierarchyNode UnityEngine::UIElements::BaseTreeViewController::CreateNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseTreeViewController*>(),
                                                                                          { "CreateNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNode>(this, ___internal_method, parent);
 }
-inline void UnityEngine::UIElements::BaseTreeViewController::UpdateIdToNodeDictionary(int32_t id, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool isAdd) {
+inline void UnityEngine::UIElements::BaseTreeViewController::UpdateIdToNodeDictionary(int32_t id, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool isAdd) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseTreeViewController*>(),
@@ -2106,8 +2109,8 @@ inline void UnityEngine::UIElements::BaseTreeViewController::ClearIdToNodeDictio
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseTreeViewController*>(), { "ClearIdToNodeDictionary", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::BaseTreeViewController::UpdateSortOrder(::by_ref<::Unity::Hierarchy::HierarchyNode> newParent, ::by_ref<::Unity::Hierarchy::HierarchyNode> insertedNode,
-                                                                             int32_t insertedIndex) {
+inline void UnityEngine::UIElements::BaseTreeViewController::UpdateSortOrder(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> newParent,
+                                                                             /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> insertedNode, int32_t insertedIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

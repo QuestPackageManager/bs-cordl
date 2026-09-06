@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LoadingControl.hpp"
+// IWYU pragma private; include "GlobalNamespace/LoadingControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,6 +91,7 @@ public:
   /// @brief Method ShowText, addr 0x5a0345c, size 0xb0, virtual false, abstract: false, final false
   inline void ShowText(::StringW text, bool showRefreshButton);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__14_0, addr 0x5a035e0, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__14_0();
 
@@ -157,12 +158,14 @@ public:
   /// @brief Method .ctor, addr 0x5a035dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressRefreshButtonEvent, addr 0x5a03180, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressRefreshButtonEvent(::System::Action* value);
 
   /// @brief Method get_isLoading, addr 0x5a032d8, size 0x18, virtual false, abstract: false, final false
   inline bool get_isLoading();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressRefreshButtonEvent, addr 0x5a0322c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressRefreshButtonEvent(::System::Action* value);
 
@@ -172,41 +175,52 @@ protected:
   constexpr LoadingControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LoadingControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoadingControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LoadingControl(LoadingControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LoadingControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LoadingControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LoadingControl(LoadingControl const&) = delete;
+  LoadingControl(LoadingControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6329 };
 
+  /// [SerializeField]
   /// @brief Field _loadingContainer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____loadingContainer;
 
+  /// [SerializeField]
   /// @brief Field _loadingText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____loadingText;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _refreshText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____refreshText;
 
+  /// [SerializeField]
   /// @brief Field _refreshButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____refreshButton;
 
+  /// [SerializeField]
   /// @brief Field _refreshContainer, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____refreshContainer;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _downloadingContainer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____downloadingContainer;
 
+  /// [SerializeField]
   /// @brief Field _downloadingText, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____downloadingText;
 
+  /// [SerializeField]
   /// @brief Field _donwloadingProgressImage, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____donwloadingProgressImage;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressRefreshButtonEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___didPressRefreshButtonEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerBmpString.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerBmpString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerBmpString* New_ctor(::ArrayW<char16_t> str);
 
+  /// @brief [Obsolete("Will become internal")]
   static inline ::Org::BouncyCastle::Asn1::DerBmpString* New_ctor(::ArrayW<uint8_t> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerBmpString* New_ctor(::StringW str);
@@ -67,6 +68,7 @@ public:
   /// @brief Method .ctor, addr 0x3684784, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t> str);
 
+  /// [Obsolete("Will become internal")]
   /// @brief Method .ctor, addr 0x368db3c, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> str);
 
@@ -79,13 +81,13 @@ protected:
   constexpr DerBmpString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerBmpString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerBmpString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerBmpString(DerBmpString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerBmpString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerBmpString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerBmpString(DerBmpString const&) = delete;
+  DerBmpString(DerBmpStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 502 };

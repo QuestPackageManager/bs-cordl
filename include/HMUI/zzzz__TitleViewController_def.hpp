@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\TitleViewController.hpp"
+// IWYU pragma private; include "HMUI/TitleViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,17 +46,18 @@ protected:
   constexpr TitleViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TitleViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TitleViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TitleViewController(TitleViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TitleViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TitleViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TitleViewController(TitleViewController const&) = delete;
+  TitleViewController(TitleViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20967 };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\SubsystemsAnalyticStart.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/SubsystemsAnalyticStart.hpp"
 #include "UnityEngine/Analytics/zzzz__SubsystemsAnalyticBase_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__SubsystemsAnalyticStart_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Analytics::SubsystemsAnalyticStart._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\Pem\PemWriter.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,13 +89,13 @@ protected:
   constexpr PemWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PemWriter(PemWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PemWriter(PemWriter const&) = delete;
+  PemWriter(PemWriterconst&) = delete;
 
   /// @brief Field LineLength offset 0xffffffff size 0x4
   static constexpr int32_t LineLength{ static_cast<int32_t>(0x40) };

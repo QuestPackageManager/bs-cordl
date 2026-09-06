@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TouchScreenTextEditorEventHandler.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TouchScreenTextEditorEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,6 +115,7 @@ public:
 
   static inline ::UnityEngine::TouchScreenKeyboard* getStaticF__activeTouchScreenKeyboard_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Frame, addr 0x6d4c7f0, size 0x4c, virtual false, abstract: false, final false
   static inline int64_t get_Frame();
 
@@ -122,9 +123,11 @@ public:
 
   static inline void setStaticF__activeTouchScreenKeyboard_k__BackingField(::UnityEngine::TouchScreenKeyboard* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Frame, addr 0x6d4c83c, size 0x50, virtual false, abstract: false, final false
   static inline void set_Frame(int64_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_activeTouchScreenKeyboard, addr 0x6d4c88c, size 0x50, virtual false, abstract: false, final false
   static inline void set_activeTouchScreenKeyboard(::UnityEngine::TouchScreenKeyboard* value);
 
@@ -134,13 +137,13 @@ protected:
   constexpr TouchScreenTextEditorEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TouchScreenTextEditorEventHandler(TouchScreenTextEditorEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TouchScreenTextEditorEventHandler(TouchScreenTextEditorEventHandler const&) = delete;
+  TouchScreenTextEditorEventHandler(TouchScreenTextEditorEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4231 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElementFocusChangeTarget.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementFocusChangeTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace UnityEngine::UIElements {
 class Focusable;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElementFocusChangeTarget___c;
@@ -30,6 +32,7 @@ MARK_REF_T(::UnityEngine::UIElements::VisualElementFocusChangeTarget*);
 MARK_REF_T(::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElementFocusChangeTarget*, "UnityEngine.UIElements", "VisualElementFocusChangeTarget");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*, "UnityEngine.UIElements", "VisualElementFocusChangeTarget/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -58,13 +61,13 @@ protected:
   constexpr VisualElementFocusChangeTarget___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___c const&) = delete;
+  VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5241 };
@@ -114,11 +117,13 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* getStaticF_Pool();
 
+  /// [CompilerGenerated]
   /// @brief Method get_target, addr 0x6ccb3bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* get_target();
 
   static inline void setStaticF_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_target, addr 0x6ccb3c4, size 0x8, virtual false, abstract: false, final false
   inline void set_target(::UnityEngine::UIElements::Focusable* value);
 
@@ -128,17 +133,19 @@ protected:
   constexpr VisualElementFocusChangeTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementFocusChangeTarget(VisualElementFocusChangeTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusChangeTarget(VisualElementFocusChangeTarget const&) = delete;
+  VisualElementFocusChangeTarget(VisualElementFocusChangeTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5242 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <target>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ____target_k__BackingField;
 

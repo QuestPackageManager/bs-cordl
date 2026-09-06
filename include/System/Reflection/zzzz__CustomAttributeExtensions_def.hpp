@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\CustomAttributeExtensions.hpp"
+// IWYU pragma private; include "System/Reflection/CustomAttributeExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CustomAttributeExtensions)
 namespace System::Collections::Generic {
@@ -27,49 +28,73 @@ class CustomAttributeExtensions;
 // Write type traits
 MARK_REF_T(::System::Reflection::CustomAttributeExtensions*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::CustomAttributeExtensions*, "System.Reflection", "CustomAttributeExtensions");
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Attribute, System.Object
 namespace System::Reflection {
 // Is value type: false
 // CS Name: System.Reflection.CustomAttributeExtensions
 class CORDL_TYPE CustomAttributeExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method GetCustomAttribute, addr 0x5b85b6c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::Assembly* element, ::System::Type* attributeType);
 
+  /// [Extension]
   /// @brief Method GetCustomAttribute, addr 0x5b85b74, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
+  /// [Extension]
   /// @brief Method GetCustomAttribute, addr 0x5b85b7c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
 
+  /// [Extension]
   /// @brief Method GetCustomAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetCustomAttribute(::System::Reflection::Assembly* element);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T GetCustomAttribute(::System::Reflection::Assembly* element);
 
+  /// [Extension]
   /// @brief Method GetCustomAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetCustomAttribute(::System::Reflection::MemberInfo* element);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T GetCustomAttribute(::System::Reflection::MemberInfo* element);
 
+  /// [Extension]
   /// @brief Method GetCustomAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetCustomAttribute(::System::Reflection::MemberInfo* element, bool inherit);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T GetCustomAttribute(::System::Reflection::MemberInfo* element, bool inherit);
 
+  /// [Extension]
   /// @brief Method GetCustomAttributes, addr 0x5b85b84, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::Assembly* element);
 
+  /// [Extension]
   /// @brief Method GetCustomAttributes, addr 0x5b85b8c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::MemberInfo* element);
 
+  /// [Extension]
   /// @brief Method GetCustomAttributes, addr 0x5b85b94, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
+  /// [Extension]
   /// @brief Method GetCustomAttributes, addr 0x5b85b9c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
 
+  /// [Extension]
   /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* GetCustomAttributes(::System::Reflection::MemberInfo* element);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline ::System::Collections::Generic::IEnumerable_1<T>* GetCustomAttributes(::System::Reflection::MemberInfo* element);
 
+  /// [Extension]
   /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* GetCustomAttributes(::System::Reflection::MemberInfo* element, bool inherit);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline ::System::Collections::Generic::IEnumerable_1<T>* GetCustomAttributes(::System::Reflection::MemberInfo* element, bool inherit);
 
+  /// [Extension]
   /// @brief Method IsDefined, addr 0x5b85ba4, size 0x8, virtual false, abstract: false, final false
   static inline bool IsDefined(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
@@ -79,13 +104,13 @@ protected:
   constexpr CustomAttributeExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomAttributeExtensions(CustomAttributeExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomAttributeExtensions(CustomAttributeExtensions const&) = delete;
+  CustomAttributeExtensions(CustomAttributeExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3532 };

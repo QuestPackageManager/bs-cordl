@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PackDefinitionExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/PackDefinitionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsSO_def.hpp"
@@ -272,6 +272,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>(__1__state));
 }
@@ -580,6 +581,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>(__1__state));
 }
@@ -886,6 +888,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0* GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0*>(__1__state));
 }
@@ -1190,6 +1193,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1* GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1*>(__1__state));
 }
@@ -1494,6 +1498,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2* GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2*>(__1__state));
 }
@@ -1800,6 +1805,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>(__1__state));
 }

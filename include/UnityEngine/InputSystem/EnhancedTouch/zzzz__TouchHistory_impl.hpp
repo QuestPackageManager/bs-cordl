@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\EnhancedTouch\TouchHistory.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/EnhancedTouch/TouchHistory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -170,9 +170,9 @@ UnityEngine::InputSystem::EnhancedTouch::TouchHistory::i___System__Collections__
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "m_History", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_Finger", ty: "::UnityEngine::InputSystem::EnhancedTouch::Finger*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Some("{}"), comment: None }, CppParam { name: "m_Finger", ty: "::UnityEngine::InputSystem::EnhancedTouch::Finger*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_Version", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory::TouchHistory(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* m_History,
                                                                                 ::UnityEngine::InputSystem::EnhancedTouch::Finger* m_Finger, int32_t m_Count, int32_t m_StartIndex,
                                                                                 uint32_t m_Version) noexcept {

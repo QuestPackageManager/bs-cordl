@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplayGPUResidentDrawer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplayGPUResidentDrawer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugDisplaySettingsPanel_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugUI_impl.hpp"
@@ -2008,25 +2008,25 @@ inline ::UnityEngine::Rendering::Table_DebugUI_Row* UnityEngine::Rendering::Debu
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(), { "AddInstanceCullerViewDataRow", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::Table_DebugUI_Row*>(nullptr, ___internal_method, viewIndex);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
                                                            { "OccluderVersionString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
                                                            { "OcclusionTestString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
                                                            { "VisibleInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, stats);
 }
-inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
+inline ::System::Object* UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats> stats) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
                                                            { "CulledInstancesString", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\HttpHeaderKind.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/HttpHeaderKind.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct HttpHeaderKind;
 // Write type traits
 MARK_VAL_T(::System::Net::Http::Headers::HttpHeaderKind);
 DEFINE_IL2CPP_CLASS(::System::Net::Http::Headers::HttpHeaderKind, "System.Net.Http.Headers", "HttpHeaderKind");
+// [Flags]
 // Dependencies
 namespace System::Net::Http::Headers {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr HttpHeaderKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HttpHeaderKind(int32_t value__) noexcept;
 
   /// @brief Field Content value: I32(4)

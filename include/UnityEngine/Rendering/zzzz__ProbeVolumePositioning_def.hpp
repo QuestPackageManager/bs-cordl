@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumePositioning.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumePositioning.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,19 +40,21 @@ public:
   __declspec(property(get = getStaticF_m_Axes, put = setStaticF_m_Axes)) ::ArrayW<::UnityEngine::Vector3> m_Axes;
 
   /// @brief Method OBBAABBIntersect, addr 0x67977e4, size 0x544, virtual false, abstract: false, final false
-  static inline bool OBBAABBIntersect(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::by_ref<::UnityEngine::Bounds> b, ::by_ref<::UnityEngine::Bounds> aAABB);
+  static inline bool OBBAABBIntersect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> b,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> aAABB);
 
   /// @brief Method OBBContains, addr 0x679770c, size 0xd8, virtual false, abstract: false, final false
-  static inline bool OBBContains(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> obb, ::UnityEngine::Vector3 point);
+  static inline bool OBBContains(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> obb, ::UnityEngine::Vector3 point);
 
   /// @brief Method OBBIntersect, addr 0x6796f48, size 0x6dc, virtual false, abstract: false, final false
-  static inline bool OBBIntersect(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> b);
+  static inline bool OBBIntersect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a,
+                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> b);
 
   /// @brief Method ProjectAABB, addr 0x6797d28, size 0xa0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 ProjectAABB(::by_ref<::ArrayW<::UnityEngine::Vector3>> corners, ::UnityEngine::Vector3 axis);
+  static inline ::UnityEngine::Vector2 ProjectAABB(/* [IsReadOnly] */ ::by_ref<::ArrayW<::UnityEngine::Vector3>> corners, ::UnityEngine::Vector3 axis);
 
   /// @brief Method ProjectOBB, addr 0x6797624, size 0xe8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 ProjectOBB(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::UnityEngine::Vector3 axis);
+  static inline ::UnityEngine::Vector2 ProjectOBB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::UnityEngine::Vector3 axis);
 
   static inline ::ArrayW<::UnityEngine::Vector3> getStaticF_m_AABBCorners();
 
@@ -68,13 +70,13 @@ protected:
   constexpr ProbeVolumePositioning();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePositioning", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePositioning", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumePositioning(ProbeVolumePositioning&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePositioning", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePositioning", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumePositioning(ProbeVolumePositioning const&) = delete;
+  ProbeVolumePositioning(ProbeVolumePositioningconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12148 };

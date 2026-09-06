@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextMeshProUGUI.hpp"
+// IWYU pragma private; include "TMPro/TextMeshProUGUI.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_SubMeshUI_impl.hpp"
 #include "TMPro/zzzz__TMP_Text_impl.hpp"
@@ -180,6 +180,7 @@ inline ::System::Object* TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::Sy
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18* TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18*>(__1__state));
 }
@@ -358,6 +359,7 @@ inline ::System::Object* TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19* TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19*>(__1__state));
 }

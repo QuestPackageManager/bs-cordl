@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayCoreInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayCoreInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -247,65 +247,84 @@ protected:
   constexpr GameplayCoreInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayCoreInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayCoreInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayCoreInstaller(GameplayCoreInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayCoreInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayCoreInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayCoreInstaller(GameplayCoreInstaller const&) = delete;
+  GameplayCoreInstaller(GameplayCoreInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6305 };
 
+  /// [SerializeField]
   /// @brief Field _beatLineManagerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatLineManager> ____beatLineManagerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _songTimeTweeningManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____songTimeTweeningManager;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _playerHeightDetectorPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeightDetector> ____playerHeightDetectorPrefab;
 
+  /// [SerializeField]
   /// @brief Field _noteCutScoreSpawnerPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteCutScoreSpawner> ____noteCutScoreSpawnerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _badNoteCutEffectSpawnerPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BadNoteCutEffectSpawner> ____badNoteCutEffectSpawnerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _missedNoteEffectSpawnerPrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissedNoteEffectSpawner> ____missedNoteEffectSpawnerPrefab;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _effectPoolsManualInstaller, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> ____effectPoolsManualInstaller;
 
+  /// [SerializeField]
   /// @brief Field _arcAndObstacleHapticManagerEffectPrefab, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager> ____arcAndObstacleHapticManagerEffectPrefab;
 
+  /// [SerializeField]
   /// @brief Field _songProfilingControllerPrefab, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongProfilingController> ____songProfilingControllerPrefab;
 
+  /// [Inject]
   /// @brief Field _audioManager, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::AudioManager* ____audioManager;
 
+  /// [Inject]
   /// @brief Field _sceneSetupData, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
+  /// [Inject]
   /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::PerceivedLoudnessPerLevelModel* ____perceivedLoudnessPerLevelModel;
 
+  /// [Inject]
   /// @brief Field _commandLineArguments, offset: 0x88, size: 0x18, def value: None
   ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ____commandLineArguments;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [Inject]
   /// @brief Field _gameplayAdditionalInformationSetupData, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::GameplayAdditionalInformationSetupData* ____gameplayAdditionalInformationSetupData;
 
+  /// [InjectOptional]
   /// @brief Field _performanceToolConfig, offset: 0xb0, size: 0x3, def value: None
   ::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig> ____performanceToolConfig;
 
+  /// [Inject]
   /// @brief Field _featureFlagService, offset: 0xb8, size: 0x8, def value: None
   ::BeatSaber::FeatureFlags::IFeatureFlagService* ____featureFlagService;
 

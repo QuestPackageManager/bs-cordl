@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ECPrivateKeyParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ECPrivateKeyParameters.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECKeyParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -192,6 +192,7 @@ inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*
 Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>(d, parameters));
 }
+/// @brief [Obsolete("Use version with explicit \'algorithm\' parameter")]
 inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*
 Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>(d, publicKeyParamSet));

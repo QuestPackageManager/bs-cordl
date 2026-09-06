@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\GameMode.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/GameMode.hpp"
 #include "BeatSaber/Destinations/zzzz__GameMode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::Destinations::GameMode::GameMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

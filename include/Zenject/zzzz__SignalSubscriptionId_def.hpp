@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalSubscriptionId.hpp"
+// IWYU pragma private; include "Zenject/SignalSubscriptionId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ struct SignalSubscriptionId;
 // Write type traits
 MARK_VAL_T(::Zenject::SignalSubscriptionId);
 DEFINE_IL2CPP_CLASS(::Zenject::SignalSubscriptionId, "Zenject", "SignalSubscriptionId");
+// [DebuggerStepThrough]
 // Dependencies Zenject.BindingId
 namespace Zenject {
 // Is value type: true
@@ -68,8 +69,8 @@ public:
   // @brief default ctor
   constexpr SignalSubscriptionId();
 
-  // Ctor Parameters [CppParam { name: "_signalId", ty: "::Zenject::BindingId", modifiers: "", def_value: None }, CppParam { name: "_callback", ty: "::System::Object*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "_signalId", ty: "::Zenject::BindingId", modifiers: "", def_value: None, comment: None }, CppParam { name: "_callback", ty: "::System::Object*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr SignalSubscriptionId(::Zenject::BindingId _signalId, ::System::Object* _callback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

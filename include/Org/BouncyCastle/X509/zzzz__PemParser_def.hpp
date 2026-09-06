@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\X509\PemParser.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/X509/PemParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,13 +79,13 @@ protected:
   constexpr PemParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PemParser(PemParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PemParser(PemParser const&) = delete;
+  PemParser(PemParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1855 };

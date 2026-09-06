@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleValueHandle.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleValueHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct StyleValueHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleValueHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleValueHandle, "UnityEngine.UIElements", "StyleValueHandle");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies UnityEngine.UIElements.StyleValueType
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -36,8 +37,8 @@ public:
   // @brief default ctor
   constexpr StyleValueHandle();
 
-  // Ctor Parameters [CppParam { name: "m_ValueType", ty: "::UnityEngine::UIElements::StyleValueType", modifiers: "", def_value: None }, CppParam { name: "valueIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ValueType", ty: "::UnityEngine::UIElements::StyleValueType", modifiers: "", def_value: None, comment: None }, CppParam { name: "valueIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr StyleValueHandle(::UnityEngine::UIElements::StyleValueType m_ValueType, int32_t valueIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -46,9 +47,12 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [SerializeField]
   /// @brief Field m_ValueType, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleValueType m_ValueType;
 
+  /// [SerializeField]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field valueIndex, offset: 0x4, size: 0x4, def value: None
   int32_t valueIndex;
 

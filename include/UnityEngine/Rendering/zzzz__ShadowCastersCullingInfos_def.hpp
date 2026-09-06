@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShadowCastersCullingInfos.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShadowCastersCullingInfos.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,8 @@ public:
   // @brief default ctor
   constexpr ShadowCastersCullingInfos();
 
-  // Ctor Parameters [CppParam { name: "splitBuffer", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShadowSplitData>", modifiers: "", def_value: None }, CppParam { name:
-  // "perLightInfos", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LightShadowCasterCullingInfo>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "splitBuffer", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShadowSplitData>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "perLightInfos", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LightShadowCasterCullingInfo>", modifiers: "", def_value: None, comment: None }]
   constexpr ShadowCastersCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShadowSplitData> splitBuffer,
                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LightShadowCasterCullingInfo> perLightInfos) noexcept;
 

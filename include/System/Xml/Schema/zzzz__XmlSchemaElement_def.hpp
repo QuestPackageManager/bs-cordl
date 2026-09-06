@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaElement.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,52 +46,84 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaElement : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
   // Declarations
+  /// [DefaultValue((System.Xml.Schema.XmlSchemaDerivationMethod)256)]
+  /// @brief [XmlAttribute("block")]
   __declspec(property(get = get_Block, put = set_Block)) ::System::Xml::Schema::XmlSchemaDerivationMethod Block;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_BlockResolved)) ::System::Xml::Schema::XmlSchemaDerivationMethod BlockResolved;
 
+  /// [XmlElement("key", typeof(System.Xml.Schema.XmlSchemaKey))]
+  /// [XmlElement("keyref", typeof(System.Xml.Schema.XmlSchemaKeyref))]
+  /// @brief [XmlElement("unique", typeof(System.Xml.Schema.XmlSchemaUnique))]
   __declspec(property(get = get_Constraints)) ::System::Xml::Schema::XmlSchemaObjectCollection* Constraints;
 
+  /// [XmlAttribute("default")]
+  /// @brief [DefaultValue(null)]
   __declspec(property(get = get_DefaultValue, put = set_DefaultValue)) ::StringW DefaultValue;
 
   __declspec(property(get = get_ElementDecl, put = set_ElementDecl)) ::System::Xml::Schema::SchemaElementDecl* ElementDecl;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_ElementSchemaType)) ::System::Xml::Schema::XmlSchemaType* ElementSchemaType;
 
+  /// [DefaultValue((System.Xml.Schema.XmlSchemaDerivationMethod)256)]
+  /// @brief [XmlAttribute("final")]
   __declspec(property(get = get_Final, put = set_Final)) ::System::Xml::Schema::XmlSchemaDerivationMethod Final;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_FinalResolved)) ::System::Xml::Schema::XmlSchemaDerivationMethod FinalResolved;
 
+  /// [DefaultValue(null)]
+  /// @brief [XmlAttribute("fixed")]
   __declspec(property(get = get_FixedValue, put = set_FixedValue)) ::StringW FixedValue;
 
+  /// [DefaultValue((System.Xml.Schema.XmlSchemaForm)0)]
+  /// @brief [XmlAttribute("form")]
   __declspec(property(get = get_Form, put = set_Form)) ::System::Xml::Schema::XmlSchemaForm Form;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_HasAbstractAttribute)) bool HasAbstractAttribute;
 
   __declspec(property(get = get_HasConstraints)) bool HasConstraints;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_HasNillableAttribute)) bool HasNillableAttribute;
 
+  /// [DefaultValue(false)]
+  /// @brief [XmlAttribute("abstract")]
   __declspec(property(get = get_IsAbstract, put = set_IsAbstract)) bool IsAbstract;
 
   __declspec(property(get = get_IsLocalTypeDerivationChecked, put = set_IsLocalTypeDerivationChecked)) bool IsLocalTypeDerivationChecked;
 
+  /// [XmlAttribute("nillable")]
+  /// @brief [DefaultValue(false)]
   __declspec(property(get = get_IsNillable, put = set_IsNillable)) bool IsNillable;
 
+  /// [XmlAttribute("name")]
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_NameAttribute, put = set_NameAttribute)) ::StringW NameAttribute;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_NameString)) ::StringW NameString;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_QualifiedName)) ::System::Xml::XmlQualifiedName* QualifiedName;
 
+  /// @brief [XmlAttribute("ref")]
   __declspec(property(get = get_RefName, put = set_RefName)) ::System::Xml::XmlQualifiedName* RefName;
 
+  /// [XmlElement("simpleType", typeof(System.Xml.Schema.XmlSchemaSimpleType))]
+  /// @brief [XmlElement("complexType", typeof(System.Xml.Schema.XmlSchemaComplexType))]
   __declspec(property(get = get_SchemaType, put = set_SchemaType)) ::System::Xml::Schema::XmlSchemaType* SchemaType;
 
+  /// @brief [XmlAttribute("type")]
   __declspec(property(get = get_SchemaTypeName, put = set_SchemaTypeName)) ::System::Xml::XmlQualifiedName* SchemaTypeName;
 
+  /// @brief [XmlAttribute("substitutionGroup")]
   __declspec(property(get = get_SubstitutionGroup, put = set_SubstitutionGroup)) ::System::Xml::XmlQualifiedName* SubstitutionGroup;
 
   /// @brief Field block, offset 0x7c, size 0x4
@@ -429,13 +461,13 @@ protected:
   constexpr XmlSchemaElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaElement(XmlSchemaElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaElement(XmlSchemaElement const&) = delete;
+  XmlSchemaElement(XmlSchemaElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9765 };

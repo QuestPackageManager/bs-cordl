@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolWrapperFactory_1.hpp"
+// IWYU pragma private; include "Zenject/PoolWrapperFactory_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(PoolWrapperFactory_1)
@@ -23,15 +24,18 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename T> class PoolWrapperFactory_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IDisposable*>)
+class PoolWrapperFactory_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::PoolWrapperFactory_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PoolWrapperFactory_1, "Zenject", "PoolWrapperFactory`1");
-// Dependencies System.Object
+// Dependencies System.IDisposable, System.Object
 namespace Zenject {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IDisposable*>)
 // Is value type: false
 // CS Name: Zenject.PoolWrapperFactory`1<T>
 class CORDL_TYPE PoolWrapperFactory_1 : public ::System::Object {
@@ -60,6 +64,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -78,13 +83,13 @@ protected:
   constexpr PoolWrapperFactory_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolWrapperFactory_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolWrapperFactory_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolWrapperFactory_1(PoolWrapperFactory_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolWrapperFactory_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolWrapperFactory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolWrapperFactory_1(PoolWrapperFactory_1 const&) = delete;
+  PoolWrapperFactory_1(PoolWrapperFactory_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14428 };

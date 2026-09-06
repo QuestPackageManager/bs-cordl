@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\GraphQLClientProvider.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/GraphQLClientProvider.hpp"
 #include "BeatSaber/GraphQL/zzzz__BSClientProviderInitializationState_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
@@ -117,10 +117,11 @@ constexpr BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::o
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BeatSaber::GraphQL::GraphQLClientProvider*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_appVersion_5__2", ty:
-// "::System::Version*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::BeatSaber::GraphQL::GraphQLClientProvider*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_appVersion_5__2", ty: "::System::Version*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializationTask_d__24::GraphQLClientProvider__InitializationTask_d__24(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::GraphQL::GraphQLClientProvider* __4__this, ::System::Threading::CancellationToken ctx,
     ::System::Version* _appVersion_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
@@ -179,10 +180,10 @@ constexpr BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::oper
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BeatSaber::GraphQL::GraphQLClientProvider*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::BeatSaber::GraphQL::GraphQLClientProvider*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ctx", ty: "::System::Threading::CancellationToken", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::GraphQL::GraphQLClientProvider__InitializeAsync_d__23::GraphQLClientProvider__InitializeAsync_d__23(int32_t __1__state,
                                                                                                                            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                                            ::BeatSaber::GraphQL::GraphQLClientProvider* __4__this,

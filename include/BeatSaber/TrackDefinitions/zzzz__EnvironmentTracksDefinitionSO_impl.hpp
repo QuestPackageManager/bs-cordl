@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\TrackDefinitions\EnvironmentTracksDefinitionSO.hpp"
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/EnvironmentTracksDefinitionSO.hpp"
 #include "BeatSaber/TrackDefinitions/DataModels/zzzz__TrackToolbarType_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_impl.hpp"
@@ -14,7 +14,7 @@
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackPage::EnvironmentTracksDefinitionSO_BasicEventTrackPage(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -26,7 +26,7 @@ constexpr ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEven
     0x1) };
 constexpr ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackPage BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackPage::Count{ static_cast<int32_t>(
     0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_OverrideDefaultLightAxis::EnvironmentTracksDefinitionSO_OverrideDefaultLightAxis(int32_t value__) noexcept {
   this->value__ = value__;
 }

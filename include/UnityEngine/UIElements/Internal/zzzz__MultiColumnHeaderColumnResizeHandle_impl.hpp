@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnHeaderColumnResizeHandle.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumnResizeHandle.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__MultiColumnHeaderColumnResizeHandle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"

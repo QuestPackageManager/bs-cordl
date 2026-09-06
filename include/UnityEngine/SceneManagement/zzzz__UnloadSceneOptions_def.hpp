@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\UnloadSceneOptions.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/UnloadSceneOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct UnloadSceneOptions;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SceneManagement::UnloadSceneOptions);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SceneManagement::UnloadSceneOptions, "UnityEngine.SceneManagement", "UnloadSceneOptions");
+// [Flags]
 // Dependencies
 namespace UnityEngine::SceneManagement {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr UnloadSceneOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnloadSceneOptions(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)

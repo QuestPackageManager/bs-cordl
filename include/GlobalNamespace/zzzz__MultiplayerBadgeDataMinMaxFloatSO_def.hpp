@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataMinMaxFloatSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataMinMaxFloatSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
 
   /// @brief Method CalculateBadgeData, addr 0x3733670, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
 
   /// @brief Method CalculateMax, addr 0x3733684, size 0x560, virtual false, abstract: false, final false
@@ -55,7 +55,7 @@ public:
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMin(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                     float_t randomMultiplier);
 
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO* New_ctor();
@@ -81,20 +81,23 @@ protected:
   constexpr MultiplayerBadgeDataMinMaxFloatSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataMinMaxFloatSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataMinMaxFloatSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgeDataMinMaxFloatSO(MultiplayerBadgeDataMinMaxFloatSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataMinMaxFloatSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataMinMaxFloatSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBadgeDataMinMaxFloatSO(MultiplayerBadgeDataMinMaxFloatSO const&) = delete;
+  MultiplayerBadgeDataMinMaxFloatSO(MultiplayerBadgeDataMinMaxFloatSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15075 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _minMax, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerBadgeMinMax ____minMax;
 
+  /// [SerializeField]
   /// @brief Field _weightMultiplier, offset: 0x34, size: 0x4, def value: None
   float_t ____weightMultiplier;
 

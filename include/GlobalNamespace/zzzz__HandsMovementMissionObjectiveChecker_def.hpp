@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HandsMovementMissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace/HandsMovementMissionObjectiveChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,17 +52,18 @@ protected:
   constexpr HandsMovementMissionObjectiveChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HandsMovementMissionObjectiveChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandsMovementMissionObjectiveChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HandsMovementMissionObjectiveChecker(HandsMovementMissionObjectiveChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HandsMovementMissionObjectiveChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandsMovementMissionObjectiveChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandsMovementMissionObjectiveChecker(HandsMovementMissionObjectiveChecker const&) = delete;
+  HandsMovementMissionObjectiveChecker(HandsMovementMissionObjectiveCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6793 };
 
+  /// [Inject]
   /// @brief Field _saberActivityCounter, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberActivityCounter> ____saberActivityCounter;
 

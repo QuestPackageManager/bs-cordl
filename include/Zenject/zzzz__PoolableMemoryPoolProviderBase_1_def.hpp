@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolableMemoryPoolProviderBase_1.hpp"
+// IWYU pragma private; include "Zenject/PoolableMemoryPoolProviderBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::by_ref<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
@@ -90,18 +90,21 @@ public:
 
   constexpr void __cordl_internal_set__PoolId_k__BackingField(::System::Guid value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Method get_IsCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PoolId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Guid get_PoolId();
 
@@ -111,9 +114,11 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Container(::Zenject::DiContainer* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_PoolId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_PoolId(::System::Guid value);
 
@@ -123,20 +128,22 @@ protected:
   constexpr PoolableMemoryPoolProviderBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProviderBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProviderBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolableMemoryPoolProviderBase_1(PoolableMemoryPoolProviderBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProviderBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProviderBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolableMemoryPoolProviderBase_1(PoolableMemoryPoolProviderBase_1 const&) = delete;
+  PoolableMemoryPoolProviderBase_1(PoolableMemoryPoolProviderBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14573 };
 
+  /// [CompilerGenerated]
   /// @brief Field <PoolId>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ____PoolId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Container>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____Container_k__BackingField;
 

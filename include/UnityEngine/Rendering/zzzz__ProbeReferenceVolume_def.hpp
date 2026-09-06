@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeReferenceVolume.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeReferenceVolume.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,9 @@ namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::IO::LowLevel::Unsafe {
 struct FileHandle;
@@ -86,7 +88,9 @@ namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RenderGraphContext;
@@ -119,13 +123,19 @@ namespace UnityEngine::Rendering {
 template <typename T> class DebugUI_Field_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1_SortComparer;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1_SortComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::Rendering {
 class ProbeBrickBlendingPool;
@@ -544,13 +554,13 @@ protected:
   constexpr ProbeReferenceVolume_ShaderIDs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_ShaderIDs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_ShaderIDs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_ShaderIDs(ProbeReferenceVolume_ShaderIDs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_ShaderIDs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_ShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_ShaderIDs(ProbeReferenceVolume_ShaderIDs const&) = delete;
+  ProbeReferenceVolume_ShaderIDs(ProbeReferenceVolume_ShaderIDsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12088 };
@@ -572,9 +582,10 @@ public:
   // @brief default ctor
   constexpr ProbeReferenceVolume_IndirectionEntryInfo();
 
-  // Ctor Parameters [CppParam { name: "positionInBricks", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "minSubdiv", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "minBrickPos", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "maxBrickPosPlusOne", ty: "::UnityEngine::Vector3Int", modifiers: "",
-  // def_value: None }, CppParam { name: "hasMinMax", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hasOnlyBiggerBricks", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "positionInBricks", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "minSubdiv", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "minBrickPos", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxBrickPosPlusOne", ty:
+  // "::UnityEngine::Vector3Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "hasMinMax", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "hasOnlyBiggerBricks", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeReferenceVolume_IndirectionEntryInfo(::UnityEngine::Vector3Int positionInBricks, int32_t minSubdiv, ::UnityEngine::Vector3Int minBrickPos,
                                                       ::UnityEngine::Vector3Int maxBrickPosPlusOne, bool hasMinMax, bool hasOnlyBiggerBricks) noexcept;
 
@@ -714,13 +725,13 @@ protected:
   constexpr ProbeReferenceVolume_CellDesc();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellDesc", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellDesc", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_CellDesc(ProbeReferenceVolume_CellDesc&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellDesc", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellDesc", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellDesc(ProbeReferenceVolume_CellDesc const&) = delete;
+  ProbeReferenceVolume_CellDesc(ProbeReferenceVolume_CellDescconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12090 };
@@ -782,12 +793,12 @@ public:
   // @brief default ctor
   constexpr CellData_ProbeReferenceVolume_PerScenarioData();
 
-  // Ctor Parameters [CppParam { name: "shL0L1RxData", ty: "::Unity::Collections::NativeArray_1<uint16_t>", modifiers: "", def_value: None }, CppParam { name: "shL1GL1RyData", ty:
-  // "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "shL1BL1RzData", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value:
-  // None }, CppParam { name: "shL2Data_0", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "shL2Data_1", ty:
-  // "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "shL2Data_2", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None
-  // }, CppParam { name: "shL2Data_3", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "probeOcclusion", ty:
-  // "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "shL0L1RxData", ty: "::Unity::Collections::NativeArray_1<uint16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "shL1GL1RyData", ty:
+  // "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "shL1BL1RzData", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "shL2Data_0", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "shL2Data_1", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "shL2Data_2", ty:
+  // "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "shL2Data_3", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "probeOcclusion", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr CellData_ProbeReferenceVolume_PerScenarioData(::Unity::Collections::NativeArray_1<uint16_t> shL0L1RxData, ::Unity::Collections::NativeArray_1<uint8_t> shL1GL1RyData,
                                                           ::Unity::Collections::NativeArray_1<uint8_t> shL1BL1RzData, ::Unity::Collections::NativeArray_1<uint8_t> shL2Data_0,
                                                           ::Unity::Collections::NativeArray_1<uint8_t> shL2Data_1, ::Unity::Collections::NativeArray_1<uint8_t> shL2Data_2,
@@ -917,7 +928,7 @@ public:
   inline void Cleanup(bool cleanScenarioList);
 
   /// @brief Method CleanupPerScenarioData, addr 0x678ef9c, size 0x144, virtual false, abstract: false, final false
-  inline void CleanupPerScenarioData(::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData> data);
+  inline void CleanupPerScenarioData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData> data);
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellData* New_ctor();
 
@@ -984,51 +995,67 @@ public:
   /// @brief Method .ctor, addr 0x678f4b0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_bricks, addr 0x678ef24, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> get_bricks();
 
+  /// [CompilerGenerated]
   /// @brief Method get_layer, addr 0x678ef88, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> get_layer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_offsetVectors, addr 0x678ef60, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> get_offsetVectors();
 
+  /// [CompilerGenerated]
   /// @brief Method get_probePositions, addr 0x678ef38, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> get_probePositions();
 
+  /// [CompilerGenerated]
   /// @brief Method get_skyOcclusionDataL0L1, addr 0x678eefc, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint16_t> get_skyOcclusionDataL0L1();
 
+  /// [CompilerGenerated]
   /// @brief Method get_skyShadingDirectionIndices, addr 0x678ef10, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> get_skyShadingDirectionIndices();
 
+  /// [CompilerGenerated]
   /// @brief Method get_touchupVolumeInteraction, addr 0x678ef4c, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<float_t> get_touchupVolumeInteraction();
 
+  /// [CompilerGenerated]
   /// @brief Method get_validity, addr 0x678ef74, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<float_t> get_validity();
 
+  /// [CompilerGenerated]
   /// @brief Method set_bricks, addr 0x678ef30, size 0x8, virtual false, abstract: false, final false
   inline void set_bricks(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_layer, addr 0x678ef94, size 0x8, virtual false, abstract: false, final false
   inline void set_layer(::Unity::Collections::NativeArray_1<uint8_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_offsetVectors, addr 0x678ef6c, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetVectors(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_probePositions, addr 0x678ef44, size 0x8, virtual false, abstract: false, final false
   inline void set_probePositions(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_skyOcclusionDataL0L1, addr 0x678ef08, size 0x8, virtual false, abstract: false, final false
   inline void set_skyOcclusionDataL0L1(::Unity::Collections::NativeArray_1<uint16_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_skyShadingDirectionIndices, addr 0x678ef1c, size 0x8, virtual false, abstract: false, final false
   inline void set_skyShadingDirectionIndices(::Unity::Collections::NativeArray_1<uint8_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_touchupVolumeInteraction, addr 0x678ef58, size 0x8, virtual false, abstract: false, final false
   inline void set_touchupVolumeInteraction(::Unity::Collections::NativeArray_1<float_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_validity, addr 0x678ef80, size 0x8, virtual false, abstract: false, final false
   inline void set_validity(::Unity::Collections::NativeArray_1<float_t> value);
 
@@ -1038,13 +1065,13 @@ protected:
   constexpr ProbeReferenceVolume_CellData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_CellData(ProbeReferenceVolume_CellData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellData(ProbeReferenceVolume_CellData const&) = delete;
+  ProbeReferenceVolume_CellData(ProbeReferenceVolume_CellDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12092 };
@@ -1052,30 +1079,38 @@ public:
   /// @brief Field validityNeighMaskData, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ___validityNeighMaskData;
 
+  /// [CompilerGenerated]
   /// @brief Field <skyOcclusionDataL0L1>k__BackingField, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint16_t> ____skyOcclusionDataL0L1_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <skyShadingDirectionIndices>k__BackingField, offset: 0x30, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ____skyShadingDirectionIndices_k__BackingField;
 
   /// @brief Field scenarios, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData>* ___scenarios;
 
+  /// [CompilerGenerated]
   /// @brief Field <bricks>k__BackingField, offset: 0x48, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> ____bricks_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <probePositions>k__BackingField, offset: 0x58, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> ____probePositions_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <touchupVolumeInteraction>k__BackingField, offset: 0x68, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<float_t> ____touchupVolumeInteraction_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <offsetVectors>k__BackingField, offset: 0x78, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> ____offsetVectors_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <validity>k__BackingField, offset: 0x88, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<float_t> ____validity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <layer>k__BackingField, offset: 0x98, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ____layer_k__BackingField;
 
@@ -1145,13 +1180,13 @@ protected:
   constexpr ProbeReferenceVolume_CellPoolInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellPoolInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellPoolInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_CellPoolInfo(ProbeReferenceVolume_CellPoolInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellPoolInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellPoolInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellPoolInfo(ProbeReferenceVolume_CellPoolInfo const&) = delete;
+  ProbeReferenceVolume_CellPoolInfo(ProbeReferenceVolume_CellPoolInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12093 };
@@ -1239,13 +1274,13 @@ protected:
   constexpr ProbeReferenceVolume_CellIndexInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellIndexInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellIndexInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_CellIndexInfo(ProbeReferenceVolume_CellIndexInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellIndexInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellIndexInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellIndexInfo(ProbeReferenceVolume_CellIndexInfo const&) = delete;
+  ProbeReferenceVolume_CellIndexInfo(ProbeReferenceVolume_CellIndexInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12094 };
@@ -1357,13 +1392,13 @@ protected:
   constexpr ProbeReferenceVolume_CellBlendingInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellBlendingInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellBlendingInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_CellBlendingInfo(ProbeReferenceVolume_CellBlendingInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellBlendingInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellBlendingInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellBlendingInfo(ProbeReferenceVolume_CellBlendingInfo const&) = delete;
+  ProbeReferenceVolume_CellBlendingInfo(ProbeReferenceVolume_CellBlendingInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12095 };
@@ -1457,13 +1492,13 @@ protected:
   constexpr ProbeReferenceVolume_CellStreamingInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_CellStreamingInfo(ProbeReferenceVolume_CellStreamingInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellStreamingInfo(ProbeReferenceVolume_CellStreamingInfo const&) = delete;
+  ProbeReferenceVolume_CellStreamingInfo(ProbeReferenceVolume_CellStreamingInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12096 };
@@ -1494,6 +1529,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeReferenceVolume_CellStream
 static_assert(sizeof(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [DebuggerDisplay("Index = {desc.index} Loaded = {loaded}")]
 // Dependencies System.Object, UnityEngine.Rendering.ProbeReferenceVolume::CellData::PerScenarioData
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -1635,13 +1671,13 @@ protected:
   constexpr ProbeReferenceVolume_Cell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_Cell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_Cell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_Cell(ProbeReferenceVolume_Cell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_Cell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_Cell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_Cell(ProbeReferenceVolume_Cell const&) = delete;
+  ProbeReferenceVolume_Cell(ProbeReferenceVolume_Cellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12097 };
@@ -1756,9 +1792,10 @@ public:
   // @brief default ctor
   constexpr ProbeReferenceVolume_Volume();
 
-  // Ctor Parameters [CppParam { name: "corner", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "X", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
-  // CppParam { name: "Y", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "Z", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name:
-  // "maxSubdivisionMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "minSubdivisionMultiplier", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "corner", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "X", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Y", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "Z", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "maxSubdivisionMultiplier", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "minSubdivisionMultiplier", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeReferenceVolume_Volume(::UnityEngine::Vector3 corner, ::UnityEngine::Vector3 X, ::UnityEngine::Vector3 Y, ::UnityEngine::Vector3 Z, float_t maxSubdivisionMultiplier,
                                         float_t minSubdivisionMultiplier) noexcept;
 
@@ -1815,8 +1852,8 @@ public:
   // @brief default ctor
   constexpr ProbeReferenceVolume_RefVolTransform();
 
-  // Ctor Parameters [CppParam { name: "posWS", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rot", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None
-  // }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "posWS", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rot", ty: "::UnityEngine::Quaternion", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeReferenceVolume_RefVolTransform(::UnityEngine::Vector3 posWS, ::UnityEngine::Quaternion rot, float_t scale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1857,15 +1894,17 @@ public:
   // @brief default ctor
   constexpr ProbeReferenceVolume_RuntimeResources();
 
-  // Ctor Parameters [CppParam { name: "index", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None }, CppParam { name: "cellIndices", ty: "::UnityEngine::ComputeBuffer*", modifiers:
-  // "", def_value: None }, CppParam { name: "L0_L1rx", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "L1_G_ry", ty:
-  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "L1_B_rz", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam {
-  // name: "L2_0", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "L2_1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None
-  // }, CppParam { name: "L2_2", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "L2_3", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "",
-  // def_value: None }, CppParam { name: "ProbeOcclusion", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "Validity", ty:
-  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "SkyOcclusionL0L1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None },
-  // CppParam { name: "SkyShadingDirectionIndices", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "SkyPrecomputedDirections", ty:
-  // "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None }, CppParam { name: "QualityLeakReductionData", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "index", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cellIndices", ty:
+  // "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "L0_L1rx", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "L1_G_ry", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "L1_B_rz", ty:
+  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "L2_0", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "L2_1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "L2_2", ty:
+  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "L2_3", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "ProbeOcclusion", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Validity", ty:
+  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "SkyOcclusionL0L1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "SkyShadingDirectionIndices", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "SkyPrecomputedDirections", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "QualityLeakReductionData", ty: "::UnityEngine::ComputeBuffer*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ProbeReferenceVolume_RuntimeResources(::UnityEngine::ComputeBuffer* index, ::UnityEngine::ComputeBuffer* cellIndices, ::UnityW<::UnityEngine::RenderTexture> L0_L1rx,
                                                   ::UnityW<::UnityEngine::RenderTexture> L1_G_ry, ::UnityW<::UnityEngine::RenderTexture> L1_B_rz, ::UnityW<::UnityEngine::RenderTexture> L2_0,
                                                   ::UnityW<::UnityEngine::RenderTexture> L2_1, ::UnityW<::UnityEngine::RenderTexture> L2_2, ::UnityW<::UnityEngine::RenderTexture> L2_3,
@@ -2033,13 +2072,13 @@ protected:
   constexpr ProbeReferenceVolume_CellInstancedDebugProbes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellInstancedDebugProbes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellInstancedDebugProbes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_CellInstancedDebugProbes(ProbeReferenceVolume_CellInstancedDebugProbes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellInstancedDebugProbes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellInstancedDebugProbes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellInstancedDebugProbes(ProbeReferenceVolume_CellInstancedDebugProbes const&) = delete;
+  ProbeReferenceVolume_CellInstancedDebugProbes(ProbeReferenceVolume_CellInstancedDebugProbesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12102 };
@@ -2137,13 +2176,13 @@ protected:
   constexpr ProbeReferenceVolume_RenderFragmentationOverlayPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_RenderFragmentationOverlayPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_RenderFragmentationOverlayPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_RenderFragmentationOverlayPassData(ProbeReferenceVolume_RenderFragmentationOverlayPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_RenderFragmentationOverlayPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_RenderFragmentationOverlayPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_RenderFragmentationOverlayPassData(ProbeReferenceVolume_RenderFragmentationOverlayPassData const&) = delete;
+  ProbeReferenceVolume_RenderFragmentationOverlayPassData(ProbeReferenceVolume_RenderFragmentationOverlayPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12103 };
@@ -2260,13 +2299,13 @@ protected:
   constexpr ProbeReferenceVolume_DiskStreamingRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_DiskStreamingRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_DiskStreamingRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_DiskStreamingRequest(ProbeReferenceVolume_DiskStreamingRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_DiskStreamingRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_DiskStreamingRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_DiskStreamingRequest(ProbeReferenceVolume_DiskStreamingRequest const&) = delete;
+  ProbeReferenceVolume_DiskStreamingRequest(ProbeReferenceVolume_DiskStreamingRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12104 };
@@ -2297,6 +2336,8 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeReferenceVolume_DiskStream
 static_assert(sizeof(::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\Lighting\\ProbeVolume\\ProbeReferenceVolume.Streaming.cs", needAccessors = false, generateCBuffer = true)]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -2308,19 +2349,22 @@ public:
   // @brief default ctor
   constexpr ProbeReferenceVolume_CellStreamingScratchBufferLayout();
 
-  // Ctor Parameters [CppParam { name: "_SharedDestChunksOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_L0L1rxOffset", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_L1GryOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_L1BrzOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_ValidityOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_ProbeOcclusionOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_SkyOcclusionOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_SkyShadingDirectionOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_L2_0Offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_L2_1Offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_L2_2Offset", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_L2_3Offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_L0Size", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_L0ProbeSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_L1Size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_L1ProbeSize", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "_ValiditySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_ValidityProbeSize", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "_ProbeOcclusionSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_ProbeOcclusionProbeSize", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_SkyOcclusionSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_SkyOcclusionProbeSize", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "_SkyShadingDirectionSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_SkyShadingDirectionProbeSize", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_L2Size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_L2ProbeSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_ProbeCountInChunkLine", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_ProbeCountInChunkSlice", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_SharedDestChunksOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_L0L1rxOffset", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_L1GryOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_L1BrzOffset", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_ValidityOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ProbeOcclusionOffset", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_SkyOcclusionOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_SkyShadingDirectionOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_L2_0Offset", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_L2_1Offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_L2_2Offset", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_L2_3Offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_L0Size", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_L0ProbeSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_L1Size", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_L1ProbeSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ValiditySize", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_ValidityProbeSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ProbeOcclusionSize", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_ProbeOcclusionProbeSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_SkyOcclusionSize", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_SkyOcclusionProbeSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_SkyShadingDirectionSize", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_SkyShadingDirectionProbeSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_L2Size", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_L2ProbeSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_ProbeCountInChunkLine", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ProbeCountInChunkSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr ProbeReferenceVolume_CellStreamingScratchBufferLayout(int32_t _SharedDestChunksOffset, int32_t _L0L1rxOffset, int32_t _L1GryOffset, int32_t _L1BrzOffset, int32_t _ValidityOffset,
                                                                   int32_t _ProbeOcclusionOffset, int32_t _SkyOcclusionOffset, int32_t _SkyShadingDirectionOffset, int32_t _L2_0Offset,
                                                                   int32_t _L2_1Offset, int32_t _L2_2Offset, int32_t _L2_3Offset, int32_t _L0Size, int32_t _L0ProbeSize, int32_t _L1Size,
@@ -2553,9 +2597,11 @@ public:
   /// @brief Method get_buffer, addr 0x678bff0, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_buffer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_chunkCount, addr 0x679070c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunkCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_chunkSize, addr 0x6790714, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunkSize();
 
@@ -2565,13 +2611,13 @@ protected:
   constexpr ProbeReferenceVolume_CellStreamingScratchBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingScratchBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingScratchBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_CellStreamingScratchBuffer(ProbeReferenceVolume_CellStreamingScratchBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingScratchBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingScratchBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellStreamingScratchBuffer(ProbeReferenceVolume_CellStreamingScratchBuffer const&) = delete;
+  ProbeReferenceVolume_CellStreamingScratchBuffer(ProbeReferenceVolume_CellStreamingScratchBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12106 };
@@ -2579,9 +2625,11 @@ public:
   /// @brief Field stagingBuffer, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ___stagingBuffer;
 
+  /// [CompilerGenerated]
   /// @brief Field <chunkCount>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____chunkCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <chunkSize>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t ____chunkSize_k__BackingField;
 
@@ -2639,7 +2687,7 @@ public:
   // @brief default ctor
   constexpr CellStreamingRequest_ProbeReferenceVolume_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CellStreamingRequest_ProbeReferenceVolume_State(int32_t value__) noexcept;
 
   /// @brief Field Active value: I32(1)
@@ -2702,13 +2750,13 @@ protected:
   constexpr CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate(CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate(CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate const&) = delete;
+  CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate(CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12108 };
@@ -2719,6 +2767,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [DebuggerDisplay("Index = {cell.desc.index} State = {state}")]
 // Dependencies System.Object, UnityEngine.Rendering.ProbeReferenceVolume::CellStreamingRequest::State, UnityEngine.Rendering.ProbeReferenceVolume::CellStreamingScratchBufferLayout
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -2920,45 +2969,59 @@ public:
   /// @brief Method .ctor, addr 0x6790b14, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cell, addr 0x679071c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_Cell* get_cell();
 
+  /// [CompilerGenerated]
   /// @brief Method get_poolIndex, addr 0x6790778, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_poolIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_scenarioData, addr 0x6790768, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* get_scenarioData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_scratchBuffer, addr 0x679073c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* get_scratchBuffer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_scratchBufferLayout, addr 0x679074c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout get_scratchBufferLayout();
 
+  /// [CompilerGenerated]
   /// @brief Method get_state, addr 0x679072c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_State get_state();
 
+  /// [CompilerGenerated]
   /// @brief Method get_streamSharedData, addr 0x6790788, size 0x8, virtual false, abstract: false, final false
   inline bool get_streamSharedData();
 
+  /// [CompilerGenerated]
   /// @brief Method set_cell, addr 0x6790724, size 0x8, virtual false, abstract: false, final false
   inline void set_cell(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_poolIndex, addr 0x6790780, size 0x8, virtual false, abstract: false, final false
   inline void set_poolIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_scenarioData, addr 0x6790770, size 0x8, virtual false, abstract: false, final false
   inline void set_scenarioData(::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_scratchBuffer, addr 0x6790744, size 0x8, virtual false, abstract: false, final false
   inline void set_scratchBuffer(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_scratchBufferLayout, addr 0x679075c, size 0xc, virtual false, abstract: false, final false
   inline void set_scratchBufferLayout(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_state, addr 0x6790734, size 0x8, virtual false, abstract: false, final false
   inline void set_state(::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_State value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_streamSharedData, addr 0x6790790, size 0x8, virtual false, abstract: false, final false
   inline void set_streamSharedData(bool value);
 
@@ -2968,35 +3031,42 @@ protected:
   constexpr ProbeReferenceVolume_CellStreamingRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume_CellStreamingRequest(ProbeReferenceVolume_CellStreamingRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume_CellStreamingRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume_CellStreamingRequest(ProbeReferenceVolume_CellStreamingRequest const&) = delete;
+  ProbeReferenceVolume_CellStreamingRequest(ProbeReferenceVolume_CellStreamingRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12109 };
 
+  /// [CompilerGenerated]
   /// @brief Field <cell>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeReferenceVolume_Cell* ____cell_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <state>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_State ____state_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <scratchBuffer>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* ____scratchBuffer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <scratchBufferLayout>k__BackingField, offset: 0x28, size: 0x70, def value: None
   ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout ____scratchBufferLayout_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <scenarioData>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* ____scenarioData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <poolIndex>k__BackingField, offset: 0xa0, size: 0x4, def value: None
   int32_t ____poolIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <streamSharedData>k__BackingField, offset: 0xa4, size: 0x1, def value: None
   bool ____streamSharedData_k__BackingField;
 
@@ -3060,6 +3130,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeReferenceVolume_CellStream
 static_assert(sizeof(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest) == 0xe8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -3431,13 +3502,13 @@ protected:
   constexpr ProbeReferenceVolume___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume___c(ProbeReferenceVolume___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume___c(ProbeReferenceVolume___c const&) = delete;
+  ProbeReferenceVolume___c(ProbeReferenceVolume___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12110 };
@@ -3448,6 +3519,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::ProbeReferenceVolume___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -3478,13 +3550,13 @@ protected:
   constexpr ProbeReferenceVolume___c__DisplayClass314_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c__DisplayClass314_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c__DisplayClass314_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume___c__DisplayClass314_0(ProbeReferenceVolume___c__DisplayClass314_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c__DisplayClass314_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume___c__DisplayClass314_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume___c__DisplayClass314_0(ProbeReferenceVolume___c__DisplayClass314_0 const&) = delete;
+  ProbeReferenceVolume___c__DisplayClass314_0(ProbeReferenceVolume___c__DisplayClass314_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12111 };
@@ -4109,7 +4181,7 @@ public:
   inline void InitStreaming();
 
   /// @brief Method Initialize, addr 0x6775bbc, size 0x4a0, virtual false, abstract: false, final false
-  inline void Initialize(::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters> parameters);
+  inline void Initialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters> parameters);
 
   /// @brief Method InitializeDebug, addr 0x677605c, size 0x24, virtual false, abstract: false, final false
   inline void InitializeDebug();
@@ -4129,6 +4201,8 @@ public:
   /// @brief Method LoadCells, addr 0x6778f78, size 0xd0, virtual false, abstract: false, final false
   inline bool LoadCells(::System::Collections::Generic::List_1<int32_t>* cellIndices);
 
+  /// [Conditional("UNITY_EDITOR")]
+  /// [Conditional("DEVELOPMENT_BUILD")]
   /// @brief Method LogStreaming, addr 0x67864b4, size 0x5c, virtual false, abstract: false, final false
   inline void LogStreaming(::StringW log);
 
@@ -4198,6 +4272,7 @@ public:
   /// @brief Method RemovePendingScene, addr 0x6778ac4, size 0x170, virtual false, abstract: false, final false
   inline void RemovePendingScene(::StringW sceneGUID, ::System::Collections::Generic::List_1<int32_t>* cellList);
 
+  /// [Obsolete("Use the other override to support sampling offset in debug modes.")]
   /// @brief Method RenderDebug, addr 0x677f42c, size 0xc, virtual false, abstract: false, final false
   inline void RenderDebug(::UnityEngine::Camera* camera, ::UnityEngine::Texture* exposureTexture);
 
@@ -4311,7 +4386,9 @@ public:
   inline void UpdateConstantBuffer(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ProbeVolumeShadingParameters parameters);
 
   /// @brief Method UpdateDataLocationTexture, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void UpdateDataLocationTexture(::UnityEngine::Texture* output, ::Unity::Collections::NativeArray_1<T> input);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void UpdateDataLocationTexture(::UnityEngine::Texture* output, ::Unity::Collections::NativeArray_1<T> input);
 
   /// @brief Method UpdateDebugFromSelection, addr 0x67813e8, size 0x3c, virtual false, abstract: false, final false
   static inline void UpdateDebugFromSelection(::by_ref<::ArrayW<::UnityEngine::Vector4>> _AdjustmentVolumeBounds, ::by_ref<int32_t> _AdjustmentVolumeCount);
@@ -4349,186 +4426,247 @@ public:
   /// @brief Method UpdateValidityTextureWithoutMask, addr 0x677dae4, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateValidityTextureWithoutMask(::UnityEngine::Texture* output, ::Unity::Collections::NativeArray_1<uint8_t> input);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_10, addr 0x6786764, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_10(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_11, addr 0x6786780, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_11();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_12, addr 0x67867a0, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__219_12();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_13, addr 0x67867b8, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_13(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_14, addr 0x67867d0, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__219_14();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_15, addr 0x67867e8, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_15(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_16, addr 0x6786800, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__219_16();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_17, addr 0x6786818, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_17(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_2, addr 0x67866b4, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_20, addr 0x6786830, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__219_20();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_21, addr 0x6786848, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_21(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_22, addr 0x6786860, size 0x30, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_22();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_23, addr 0x6786890, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__219_23();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_24, addr 0x67868a8, size 0x2c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_24(int32_t v);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_26, addr 0x67868d4, size 0x10, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__219_26();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_27, addr 0x67868e4, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__219_27();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_28, addr 0x67868fc, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_28(int32_t v);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_3, addr 0x67866cc, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_3(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_30, addr 0x6786918, size 0x10, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__219_30();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_31, addr 0x6786928, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_31();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_32, addr 0x6786940, size 0x90, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_32(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_33, addr 0x67869d0, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_33();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_34, addr 0x67869f0, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__219_34();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_35, addr 0x6786a08, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_35(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_38, addr 0x6786a20, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_38();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_39, addr 0x6786a38, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_39(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_4, addr 0x67866e8, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_4();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_40, addr 0x6786a54, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_40();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_41, addr 0x6786a6c, size 0x114, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_41(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_42, addr 0x6786b80, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_42();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_43, addr 0x6786ba0, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__219_43();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_44, addr 0x6786bb8, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_44(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_47, addr 0x6786bd0, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_47();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_48, addr 0x6786bf0, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__219_48();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_49, addr 0x6786c08, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_49(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_5, addr 0x6786700, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_5(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_51, addr 0x6786c20, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_51();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_52, addr 0x6786c38, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_52(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_53, addr 0x6786c54, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_53();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_54, addr 0x6786c6c, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_54(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_55, addr 0x6786c88, size 0x30, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_55();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_56, addr 0x6786cb8, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_56();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_57, addr 0x6786cd0, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_57(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_58, addr 0x6786cec, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_58();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_59, addr 0x6786d04, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_59(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_6, addr 0x678671c, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__219_6();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_67, addr 0x6786d20, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_67();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_68, addr 0x6786d38, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_68(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_69, addr 0x6786d54, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_69();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_7, addr 0x6786734, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_7(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_71, addr 0x6786d74, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_71();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_72, addr 0x6786d8c, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_72(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_73, addr 0x6786da8, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_73();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_74, addr 0x6786dc0, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_74(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_83, addr 0x6787528, size 0x178, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__219_83();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_84, addr 0x67876a0, size 0x74, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_84(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_85, addr 0x6787714, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__219_85();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_86, addr 0x678772c, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__219_86(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>b__219_9, addr 0x678674c, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__219_9();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>g__RefreshDebug|219_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void _RegisterDebug_g__RefreshDebug_219_0(::UnityEngine::Rendering::DebugUI_Field_1<T>* field, T value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebug>g__RefreshScenarioNames|219_75, addr 0x6786ddc, size 0x74c, virtual false, abstract: false, final false
   inline void _RegisterDebug_g__RefreshScenarioNames_219_75(::StringW guid);
 
@@ -5161,12 +5299,14 @@ public:
   /// @brief Method get_otherScenario, addr 0x6774b00, size 0x80, virtual false, abstract: false, final false
   inline ::StringW get_otherScenario();
 
+  /// [CompilerGenerated]
   /// @brief Method get_perSceneDataList, addr 0x6774db0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::ProbeVolumePerSceneData>>* get_perSceneDataList();
 
   /// @brief Method get_probeOcclusion, addr 0x677491c, size 0x88, virtual false, abstract: false, final false
   inline bool get_probeOcclusion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_probeVolumeDebug, addr 0x677f2a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeDebug* get_probeVolumeDebug();
 
@@ -5182,6 +5322,7 @@ public:
   /// @brief Method get_skyOcclusionShadingDirection, addr 0x67744d8, size 0x88, virtual false, abstract: false, final false
   inline bool get_skyOcclusionShadingDirection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_subdivisionDebugColors, addr 0x677f2ac, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color> get_subdivisionDebugColors();
 
@@ -5226,6 +5367,7 @@ public:
   /// @brief Method set_numberOfCellsBlendedPerFrame, addr 0x67826e0, size 0x10, virtual false, abstract: false, final false
   inline void set_numberOfCellsBlendedPerFrame(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_perSceneDataList, addr 0x6774db8, size 0x8, virtual false, abstract: false, final false
   inline void set_perSceneDataList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::ProbeVolumePerSceneData>>* value);
 
@@ -5241,13 +5383,13 @@ protected:
   constexpr ProbeReferenceVolume();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeReferenceVolume(ProbeReferenceVolume&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeReferenceVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeReferenceVolume(ProbeReferenceVolume const&) = delete;
+  ProbeReferenceVolume(ProbeReferenceVolumeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12112 };
@@ -5327,6 +5469,7 @@ public:
   /// @brief Field m_TemporaryDataLocationMemCost, offset: 0xf8, size: 0x4, def value: None
   int32_t ___m_TemporaryDataLocationMemCost;
 
+  /// [Obsolete("This field is only kept for migration purpose.")]
   /// @brief Field sceneData, offset: 0x100, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeSceneData* ___sceneData;
 
@@ -5388,12 +5531,15 @@ public:
   /// @brief Field clearAssetsOnVolumeClear, offset: 0x168, size: 0x1, def value: None
   bool ___clearAssetsOnVolumeClear;
 
+  /// [CompilerGenerated]
   /// @brief Field <perSceneDataList>k__BackingField, offset: 0x170, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::ProbeVolumePerSceneData>>* ____perSceneDataList_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <probeVolumeDebug>k__BackingField, offset: 0x178, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeDebug* ____probeVolumeDebug_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <subdivisionDebugColors>k__BackingField, offset: 0x180, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color> ____subdivisionDebugColors_k__BackingField;
 

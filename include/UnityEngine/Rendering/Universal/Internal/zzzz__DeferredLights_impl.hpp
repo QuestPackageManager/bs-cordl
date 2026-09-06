@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\DeferredLights.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DeferredLights.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
@@ -279,7 +279,7 @@ inline int32_t UnityEngine::Rendering::Universal::Internal::DeferredLights_Shade
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ShaderConstants::DeferredLights_ShaderConstants() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses::DeferredLights_StencilDeferredPasses(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -309,8 +309,8 @@ constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilD
 constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses::SSAOOnly{
   static_cast<int32_t>(0x7)
 };
-// Ctor Parameters [CppParam { name: "stencilDeferredMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightCookieManager", ty:
-// "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "stencilDeferredMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightCookieManager",
+// ty: "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::Internal::DeferredLights_InitParams::DeferredLights_InitParams(::UnityW<::UnityEngine::Material> stencilDeferredMaterial,
                                                                                                               ::UnityEngine::Rendering::Universal::LightCookieManager* lightCookieManager) noexcept {
   this->stencilDeferredMaterial = stencilDeferredMaterial;

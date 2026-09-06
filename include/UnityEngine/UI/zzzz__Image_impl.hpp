@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Image.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Image.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -20,7 +20,7 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Image_Type::Image_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -30,7 +30,7 @@ constexpr ::UnityEngine::UI::Image_Type UnityEngine::UI::Image_Type::Simple{ sta
 constexpr ::UnityEngine::UI::Image_Type UnityEngine::UI::Image_Type::Sliced{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UI::Image_Type UnityEngine::UI::Image_Type::Tiled{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UI::Image_Type UnityEngine::UI::Image_Type::Filled{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Image_FillMethod::Image_FillMethod(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -41,7 +41,7 @@ constexpr ::UnityEngine::UI::Image_FillMethod UnityEngine::UI::Image_FillMethod:
 constexpr ::UnityEngine::UI::Image_FillMethod UnityEngine::UI::Image_FillMethod::Radial90{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UI::Image_FillMethod UnityEngine::UI::Image_FillMethod::Radial180{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UI::Image_FillMethod UnityEngine::UI::Image_FillMethod::Radial360{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Image_OriginHorizontal::Image_OriginHorizontal(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -49,7 +49,7 @@ constexpr ::UnityEngine::UI::Image_OriginHorizontal::Image_OriginHorizontal(int3
 constexpr ::UnityEngine::UI::Image_OriginHorizontal::Image_OriginHorizontal() {}
 constexpr ::UnityEngine::UI::Image_OriginHorizontal UnityEngine::UI::Image_OriginHorizontal::Left{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UI::Image_OriginHorizontal UnityEngine::UI::Image_OriginHorizontal::Right{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Image_OriginVertical::Image_OriginVertical(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -57,7 +57,7 @@ constexpr ::UnityEngine::UI::Image_OriginVertical::Image_OriginVertical(int32_t 
 constexpr ::UnityEngine::UI::Image_OriginVertical::Image_OriginVertical() {}
 constexpr ::UnityEngine::UI::Image_OriginVertical UnityEngine::UI::Image_OriginVertical::Bottom{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UI::Image_OriginVertical UnityEngine::UI::Image_OriginVertical::Top{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Image_Origin90::Image_Origin90(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -67,7 +67,7 @@ constexpr ::UnityEngine::UI::Image_Origin90 UnityEngine::UI::Image_Origin90::Bot
 constexpr ::UnityEngine::UI::Image_Origin90 UnityEngine::UI::Image_Origin90::TopLeft{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UI::Image_Origin90 UnityEngine::UI::Image_Origin90::TopRight{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UI::Image_Origin90 UnityEngine::UI::Image_Origin90::BottomRight{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Image_Origin180::Image_Origin180(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -77,7 +77,7 @@ constexpr ::UnityEngine::UI::Image_Origin180 UnityEngine::UI::Image_Origin180::B
 constexpr ::UnityEngine::UI::Image_Origin180 UnityEngine::UI::Image_Origin180::Left{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UI::Image_Origin180 UnityEngine::UI::Image_Origin180::Top{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UI::Image_Origin180 UnityEngine::UI::Image_Origin180::Right{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Image_Origin360::Image_Origin360(int32_t value__) noexcept {
   this->value__ = value__;
 }

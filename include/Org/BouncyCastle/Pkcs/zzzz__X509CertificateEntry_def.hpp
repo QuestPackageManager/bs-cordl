@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkcs\X509CertificateEntry.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/X509CertificateEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 
+  /// @brief [Obsolete]
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
@@ -58,6 +59,7 @@ public:
   /// @brief Method .ctor, addr 0x35bc584, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 
+  /// [Obsolete]
   /// @brief Method .ctor, addr 0x35bc600, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
 
@@ -73,13 +75,13 @@ protected:
   constexpr X509CertificateEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificateEntry(X509CertificateEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificateEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificateEntry(X509CertificateEntry const&) = delete;
+  X509CertificateEntry(X509CertificateEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1708 };

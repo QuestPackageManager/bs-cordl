@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LabelScopeKind.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LabelScopeKind.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LabelScopeKind_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Linq::Expressions::Interpreter::LabelScopeKind::LabelScopeKind(int32_t value__) noexcept {
   this->value__ = value__;
 }

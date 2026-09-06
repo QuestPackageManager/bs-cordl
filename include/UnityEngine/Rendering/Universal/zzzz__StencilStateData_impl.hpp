@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\StencilStateData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/StencilStateData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CompareFunction_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__StencilOp_impl.hpp"

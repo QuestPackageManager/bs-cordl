@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameSettingsCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameSettingsCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
+#include "System/zzzz__IConvertible_impl.hpp"
 #include "GlobalNamespace/zzzz__GameSettingsCommand_def.hpp"
 #include "GlobalNamespace/zzzz__ConsoleMessage_def.hpp"
 #include "GlobalNamespace/zzzz__GameSettingsCommand_def.hpp"
@@ -61,11 +62,11 @@ constexpr GlobalNamespace::GameSettingsCommand__ExecuteAsync_d__13::operator ::S
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::GameSettingsCommand__ExecuteAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameSettingsCommand*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "messages", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_success_5__2", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::GameSettingsCommand*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "messages", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_success_5__2", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameSettingsCommand__ExecuteAsync_d__13::GameSettingsCommand__ExecuteAsync_d__13(int32_t __1__state,
                                                                                                               ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                                                               ::GlobalNamespace::GameSettingsCommand* __4__this,
@@ -125,9 +126,9 @@ constexpr GlobalNamespace::GameSettingsCommand__SaveSettingsAsync_d__14::operato
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::GameSettingsCommand__SaveSettingsAsync_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameSettingsCommand*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameSettingsCommand*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameSettingsCommand__SaveSettingsAsync_d__14::GameSettingsCommand__SaveSettingsAsync_d__14(int32_t __1__state,
                                                                                                                         ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                                         ::GlobalNamespace::GameSettingsCommand* __4__this,
@@ -1934,7 +1935,9 @@ inline bool GlobalNamespace::GameSettingsCommand::SetPropertyValue(::StringW pro
                                                            { "SetPropertyValue", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, propertyName, propertyValue, log);
 }
-template <typename T> inline ::StringW GlobalNamespace::GameSettingsCommand::ToString(::by_ref<T> value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+inline ::StringW GlobalNamespace::GameSettingsCommand::ToString(/* [IsReadOnly] */ ::by_ref<T> value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameSettingsCommand*>(), { "ToString", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

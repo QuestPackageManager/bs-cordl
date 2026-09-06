@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TreeView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TreeView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,9 @@ namespace UnityEngine::UIElements {
 class TreeView_UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlAssetAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+class UxmlAssetAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -58,6 +60,7 @@ MARK_REF_T(::UnityEngine::UIElements::TreeView_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TreeView*, "UnityEngine.UIElements", "TreeView");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TreeView_UxmlFactory*, "UnityEngine.UIElements", "TreeView/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TreeView_UxmlTraits*, "UnityEngine.UIElements", "TreeView/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -76,13 +79,13 @@ protected:
   constexpr TreeView_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TreeView_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeView_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TreeView_UxmlFactory(TreeView_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TreeView_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeView_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeView_UxmlFactory(TreeView_UxmlFactory const&) = delete;
+  TreeView_UxmlFactory(TreeView_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4347 };
@@ -93,6 +96,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::TreeView_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseTreeView::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -124,13 +128,13 @@ protected:
   constexpr TreeView_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TreeView_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeView_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TreeView_UxmlTraits(TreeView_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TreeView_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeView_UxmlTraits(TreeView_UxmlTraits const&) = delete;
+  TreeView_UxmlTraits(TreeView_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4348 };
@@ -157,16 +161,19 @@ public:
 
   using UxmlTraits = ::UnityEngine::UIElements::TreeView_UxmlTraits;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_bindItem, put = set_bindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* bindItem;
 
   /// @brief Field bindItemProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_bindItemProperty, put = setStaticF_bindItemProperty)) ::UnityEngine::UIElements::BindingId bindItemProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_destroyItem, put = set_destroyItem)) ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* destroyItem;
 
   /// @brief Field destroyItemProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_destroyItemProperty, put = setStaticF_destroyItemProperty)) ::UnityEngine::UIElements::BindingId destroyItemProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_itemTemplate, put = set_itemTemplate)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> itemTemplate;
 
   /// @brief Field itemTemplateProperty, offset 0xffffffff, size 0x98
@@ -190,11 +197,13 @@ public:
   /// @brief Field m_UnbindItem, offset 0x5c8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UnbindItem, put = __cordl_internal_set_m_UnbindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* m_UnbindItem;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_makeItem, put = set_makeItem)) ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* makeItem;
 
   /// @brief Field makeItemProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_makeItemProperty, put = setStaticF_makeItemProperty)) ::UnityEngine::UIElements::BindingId makeItemProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_unbindItem, put = set_unbindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* unbindItem;
 
   /// @brief Field unbindItemProperty, offset 0xffffffff, size 0x98
@@ -312,13 +321,13 @@ protected:
   constexpr TreeView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TreeView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TreeView(TreeView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TreeView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeView(TreeView const&) = delete;
+  TreeView(TreeViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4349 };

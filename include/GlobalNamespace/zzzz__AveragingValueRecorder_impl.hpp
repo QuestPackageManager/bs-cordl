@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AveragingValueRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/AveragingValueRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
@@ -97,8 +97,8 @@ inline void GlobalNamespace::AveragingValueRecorder_AverageValueData::_ctor(floa
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AveragingValueRecorder_AverageValueData>(), { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value, time);
 }
-// Ctor Parameters [CppParam { name: "_value_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_time_k__BackingField", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_value_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_time_k__BackingField", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::AveragingValueRecorder_AverageValueData::AveragingValueRecorder_AverageValueData(float_t _value_k__BackingField, float_t _time_k__BackingField) noexcept {
   this->_value_k__BackingField = _value_k__BackingField;
   this->_time_k__BackingField = _time_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SimpleAudioPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/SimpleAudioPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,26 +114,30 @@ protected:
   constexpr SimpleAudioPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleAudioPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleAudioPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleAudioPlayer(SimpleAudioPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleAudioPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleAudioPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleAudioPlayer(SimpleAudioPlayer const&) = delete;
+  SimpleAudioPlayer(SimpleAudioPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5581 };
 
+  /// [SerializeField]
   /// @brief Field _audioClip, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [SerializeField]
   /// @brief Field _targetVolume, offset: 0x30, size: 0x4, def value: None
   float_t ____targetVolume;
 
+  /// [SerializeField]
   /// @brief Field _loop, offset: 0x34, size: 0x1, def value: None
   bool ____loop;
 

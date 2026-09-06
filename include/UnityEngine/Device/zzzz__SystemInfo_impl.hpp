@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Device\SystemInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Device/SystemInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Device/zzzz__SystemInfo_def.hpp"
 #include "UnityEngine/zzzz__DeviceType_def.hpp"

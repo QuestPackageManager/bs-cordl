@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\AvatarEditor\EditAvatarHistorySnapshot.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/AvatarEditor/EditAvatarHistorySnapshot.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct EditAvatarHistorySnapshot;
 // Write type traits
 MARK_VAL_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot);
 DEFINE_IL2CPP_CLASS(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot, "BeatSaber.BeatAvatarAdapter.AvatarEditor", "EditAvatarHistorySnapshot");
+// [IsReadOnly]
 // Dependencies BeatSaber.BeatAvatarSDK.AvatarPart
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: true
@@ -33,8 +34,8 @@ public:
   // @brief default ctor
   constexpr EditAvatarHistorySnapshot();
 
-  // Ctor Parameters [CppParam { name: "avatarEditPart", ty: "::BeatSaber::BeatAvatarSDK::AvatarPart", modifiers: "", def_value: None }, CppParam { name: "avatarData", ty:
-  // "::BeatSaber::BeatAvatarSDK::AvatarData*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "avatarEditPart", ty: "::BeatSaber::BeatAvatarSDK::AvatarPart", modifiers: "", def_value: None, comment: None }, CppParam { name: "avatarData", ty:
+  // "::BeatSaber::BeatAvatarSDK::AvatarData*", modifiers: "", def_value: None, comment: None }]
   constexpr EditAvatarHistorySnapshot(::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart, ::BeatSaber::BeatAvatarSDK::AvatarData* avatarData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

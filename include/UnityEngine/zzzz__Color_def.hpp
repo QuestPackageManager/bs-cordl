@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Color.hpp"
+// IWYU pragma private; include "UnityEngine/Color.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,10 @@ struct Color;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Color);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Color, "UnityEngine", "Color");
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [DefaultMember("Item")]
+// [NativeHeader("Runtime/Math/Color.h")]
+// [NativeClass("ColorRGBAf")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -74,6 +78,7 @@ public:
   /// @brief Method LerpUnclamped, addr 0x6acab50, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color LerpUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method RGBMultiplied, addr 0x6acab88, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color RGBMultiplied(float_t multiplier);
 
@@ -186,8 +191,8 @@ public:
   // @brief default ctor
   constexpr Color();
 
-  // Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "b", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Color(float_t r, float_t g, float_t b, float_t a) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

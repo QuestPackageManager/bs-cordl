@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ScrollView.hpp"
+// IWYU pragma private; include "HMUI/ScrollView.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"
@@ -18,7 +18,7 @@
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::ScrollView_ScrollType::ScrollView_ScrollType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -27,7 +27,7 @@ constexpr ::HMUI::ScrollView_ScrollType::ScrollView_ScrollType() {}
 constexpr ::HMUI::ScrollView_ScrollType HMUI::ScrollView_ScrollType::PageSize{ static_cast<int32_t>(0x0) };
 constexpr ::HMUI::ScrollView_ScrollType HMUI::ScrollView_ScrollType::FixedCellSize{ static_cast<int32_t>(0x1) };
 constexpr ::HMUI::ScrollView_ScrollType HMUI::ScrollView_ScrollType::FocusItems{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::ScrollView_ScrollDirection::ScrollView_ScrollDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -38,7 +38,7 @@ constexpr ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView_ScrollDirection::U
 constexpr ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView_ScrollDirection::Down{ static_cast<int32_t>(0x2) };
 constexpr ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView_ScrollDirection::Left{ static_cast<int32_t>(0x3) };
 constexpr ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView_ScrollDirection::Right{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::ScrollView_ScrollViewDirection::ScrollView_ScrollViewDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }

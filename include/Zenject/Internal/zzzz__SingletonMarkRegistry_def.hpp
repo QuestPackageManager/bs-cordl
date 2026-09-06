@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Internal\SingletonMarkRegistry.hpp"
+// IWYU pragma private; include "Zenject/Internal/SingletonMarkRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class SingletonMarkRegistry;
 // Write type traits
 MARK_REF_T(::Zenject::Internal::SingletonMarkRegistry*);
 DEFINE_IL2CPP_CLASS(::Zenject::Internal::SingletonMarkRegistry*, "Zenject.Internal", "SingletonMarkRegistry");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
@@ -63,13 +64,13 @@ protected:
   constexpr SingletonMarkRegistry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SingletonMarkRegistry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SingletonMarkRegistry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SingletonMarkRegistry(SingletonMarkRegistry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SingletonMarkRegistry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SingletonMarkRegistry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SingletonMarkRegistry(SingletonMarkRegistry const&) = delete;
+  SingletonMarkRegistry(SingletonMarkRegistryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14722 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Kernel.hpp"
+// IWYU pragma private; include "Zenject/Kernel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ class Kernel;
 // Write type traits
 MARK_REF_T(::Zenject::Kernel*);
 DEFINE_IL2CPP_CLASS(::Zenject::Kernel*, "Zenject", "Kernel");
+// [DebuggerStepThrough]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -121,6 +122,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e938a0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e93c50, size 0x478, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -160,23 +162,26 @@ protected:
   constexpr Kernel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Kernel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Kernel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Kernel(Kernel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Kernel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Kernel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Kernel(Kernel const&) = delete;
+  Kernel(Kernelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14676 };
 
+  /// [InjectLocal]
   /// @brief Field _tickableManager, offset: 0x10, size: 0x8, def value: None
   ::Zenject::TickableManager* ____tickableManager;
 
+  /// [InjectLocal]
   /// @brief Field _initializableManager, offset: 0x18, size: 0x8, def value: None
   ::Zenject::InitializableManager* ____initializableManager;
 
+  /// [InjectLocal]
   /// @brief Field _disposablesManager, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DisposableManager* ____disposablesManager;
 

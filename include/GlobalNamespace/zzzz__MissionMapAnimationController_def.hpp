@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionMapAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionMapAnimationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,6 +90,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionMapAnimationController__UpdateMiss
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15*, "", "MissionMapAnimationController/<UpdateNodesAndConnectionCoroutine>d__15");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14*, "", "MissionMapAnimationController/<UpdateStageCoroutine>d__14");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionMapAnimationController___c*, "", "MissionMapAnimationController/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -135,13 +136,13 @@ protected:
   constexpr MissionMapAnimationController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionMapAnimationController___c(MissionMapAnimationController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController___c(MissionMapAnimationController___c const&) = delete;
+  MissionMapAnimationController___c(MissionMapAnimationController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6865 };
@@ -152,6 +153,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::MissionMapAnimationController___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -187,17 +189,22 @@ public:
   /// @brief Method MoveNext, addr 0x593af78, size 0xfc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x593b080, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x593b088, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x593b0c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x593af74, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -225,6 +232,7 @@ public:
 
   constexpr void __cordl_internal_set_lastClearedMissionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x593adec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -243,13 +251,13 @@ protected:
   constexpr MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13(MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13(MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13 const&) = delete;
+  MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13(MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6866 };
@@ -280,6 +288,7 @@ static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController__UpdateC
 static_assert(sizeof(::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -318,17 +327,22 @@ public:
   /// @brief Method MoveNext, addr 0x593b0cc, size 0x1e8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x593b2b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x593b2bc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x593b2f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x593b0c8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -362,6 +376,7 @@ public:
 
   constexpr void __cordl_internal_set_lastClearedMissionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x593ad84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -380,13 +395,13 @@ protected:
   constexpr MissionMapAnimationController__UpdateMissionMapCoroutine_d__12();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateMissionMapCoroutine_d__12", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateMissionMapCoroutine_d__12", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionMapAnimationController__UpdateMissionMapCoroutine_d__12(MissionMapAnimationController__UpdateMissionMapCoroutine_d__12&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateMissionMapCoroutine_d__12", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateMissionMapCoroutine_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController__UpdateMissionMapCoroutine_d__12(MissionMapAnimationController__UpdateMissionMapCoroutine_d__12 const&) = delete;
+  MissionMapAnimationController__UpdateMissionMapCoroutine_d__12(MissionMapAnimationController__UpdateMissionMapCoroutine_d__12const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6867 };
@@ -422,6 +437,7 @@ static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController__UpdateM
 static_assert(sizeof(::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies MissionNodeConnection, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -464,17 +480,22 @@ public:
   /// @brief Method MoveNext, addr 0x593b300, size 0x320, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x593b890, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x593b898, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x593b8d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x593b2fc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -514,6 +535,7 @@ public:
 
   constexpr void __cordl_internal_set__newEnabledConnection_5__2(::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x593aea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -532,13 +554,13 @@ protected:
   constexpr MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15(MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15(MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15 const&) = delete;
+  MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15(MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6868 };
@@ -579,6 +601,7 @@ static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController__UpdateN
 static_assert(sizeof(::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -611,17 +634,22 @@ public:
   /// @brief Method MoveNext, addr 0x593b8dc, size 0x9c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x593bb64, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x593bb6c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x593bba4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x593b8d8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -643,6 +671,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionMapAnimationController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x593ae48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -661,13 +690,13 @@ protected:
   constexpr MissionMapAnimationController__UpdateStageCoroutine_d__14();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateStageCoroutine_d__14", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateStageCoroutine_d__14", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionMapAnimationController__UpdateStageCoroutine_d__14(MissionMapAnimationController__UpdateStageCoroutine_d__14&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateStageCoroutine_d__14", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController__UpdateStageCoroutine_d__14", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController__UpdateStageCoroutine_d__14(MissionMapAnimationController__UpdateStageCoroutine_d__14 const&) = delete;
+  MissionMapAnimationController__UpdateStageCoroutine_d__14(MissionMapAnimationController__UpdateStageCoroutine_d__14const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6869 };
@@ -743,18 +772,22 @@ public:
   /// @brief Method ScrollToTopMostNotClearedMission, addr 0x593a9c0, size 0xd0, virtual false, abstract: false, final false
   inline void ScrollToTopMostNotClearedMission();
 
+  /// [IteratorStateMachine(typeof(MissionMapAnimationController::<UpdateClearedNodeStateCoroutine>d__13))]
   /// @brief Method UpdateClearedNodeStateCoroutine, addr 0x593ad8c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode);
 
   /// @brief Method UpdateMissionMapAfterMissionWasCleared, addr 0x593abf0, size 0xf0, virtual false, abstract: false, final false
   inline void UpdateMissionMapAfterMissionWasCleared(bool animated, ::System::Action* finishCallback);
 
+  /// [IteratorStateMachine(typeof(MissionMapAnimationController::<UpdateMissionMapCoroutine>d__12))]
   /// @brief Method UpdateMissionMapCoroutine, addr 0x593ad1c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateMissionMapCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode, ::System::Action* finishCallback);
 
+  /// [IteratorStateMachine(typeof(MissionMapAnimationController::<UpdateNodesAndConnectionCoroutine>d__15))]
   /// @brief Method UpdateNodesAndConnectionCoroutine, addr 0x593ae50, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
 
+  /// [IteratorStateMachine(typeof(MissionMapAnimationController::<UpdateStageCoroutine>d__14))]
   /// @brief Method UpdateStageCoroutine, addr 0x593adf4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateStageCoroutine();
 
@@ -818,38 +851,47 @@ protected:
   constexpr MissionMapAnimationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionMapAnimationController(MissionMapAnimationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionMapAnimationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionMapAnimationController(MissionMapAnimationController const&) = delete;
+  MissionMapAnimationController(MissionMapAnimationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6870 };
 
+  /// [SerializeField]
   /// @brief Field _missionNodesManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;
 
+  /// [SerializeField]
   /// @brief Field _mapScrollView, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::ScrollView> ____mapScrollView;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _startDelay, offset: 0x30, size: 0x4, def value: None
   float_t ____startDelay;
 
+  /// [SerializeField]
   /// @brief Field _stageAnimationStartDelay, offset: 0x34, size: 0x4, def value: None
   float_t ____stageAnimationStartDelay;
 
+  /// [SerializeField]
   /// @brief Field _missionConnectionAnimationStartDelay, offset: 0x38, size: 0x4, def value: None
   float_t ____missionConnectionAnimationStartDelay;
 
+  /// [SerializeField]
   /// @brief Field _missionConnectionAnimationSeparationTime, offset: 0x3c, size: 0x4, def value: None
   float_t ____missionConnectionAnimationSeparationTime;
 
+  /// [SerializeField]
   /// @brief Field _stageAnimationDuration, offset: 0x40, size: 0x4, def value: None
   float_t ____stageAnimationDuration;
 
+  /// [Inject]
   /// @brief Field _shockwaveEffect, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuShockwave> ____shockwaveEffect;
 

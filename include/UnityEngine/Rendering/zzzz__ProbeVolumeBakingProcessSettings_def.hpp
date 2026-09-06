@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeBakingProcessSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeBakingProcessSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr ProbeVolumeBakingProcessSettings_SettingsVersion();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolumeBakingProcessSettings_SettingsVersion(int32_t value__) noexcept;
 
   /// @brief Field Current value: I32(1)
@@ -117,9 +117,9 @@ public:
   // @brief default ctor
   constexpr ProbeVolumeBakingProcessSettings();
 
-  // Ctor Parameters [CppParam { name: "m_Version", ty: "::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion", modifiers: "", def_value: None }, CppParam { name:
-  // "dilationSettings", ty: "::UnityEngine::Rendering::ProbeDilationSettings", modifiers: "", def_value: None }, CppParam { name: "virtualOffsetSettings", ty:
-  // "::UnityEngine::Rendering::VirtualOffsetSettings", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Version", ty: "::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "dilationSettings", ty: "::UnityEngine::Rendering::ProbeDilationSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "virtualOffsetSettings", ty:
+  // "::UnityEngine::Rendering::VirtualOffsetSettings", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolumeBakingProcessSettings(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion m_Version, ::UnityEngine::Rendering::ProbeDilationSettings dilationSettings,
                                              ::UnityEngine::Rendering::VirtualOffsetSettings virtualOffsetSettings) noexcept;
 
@@ -129,6 +129,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
+  /// [SerializeField]
   /// @brief Field m_Version, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion m_Version;
 

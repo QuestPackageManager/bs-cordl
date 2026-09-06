@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\ValidationEventHandler.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/ValidationEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class ValidationEventHandler;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Schema::ValidationEventHandler*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::ValidationEventHandler*, "Newtonsoft.Json.Schema", "ValidationEventHandler");
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies System.MulticastDelegate
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -54,13 +55,13 @@ protected:
   constexpr ValidationEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidationEventHandler(ValidationEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValidationEventHandler(ValidationEventHandler const&) = delete;
+  ValidationEventHandler(ValidationEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13562 };

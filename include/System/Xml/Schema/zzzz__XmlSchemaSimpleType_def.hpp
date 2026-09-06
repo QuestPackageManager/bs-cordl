@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSimpleType.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSimpleType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,9 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaSimpleType : public ::System::Xml::Schema::XmlSchemaType {
 public:
   // Declarations
+  /// [XmlElement("restriction", typeof(System.Xml.Schema.XmlSchemaSimpleTypeRestriction))]
+  /// [XmlElement("list", typeof(System.Xml.Schema.XmlSchemaSimpleTypeList))]
+  /// @brief [XmlElement("union", typeof(System.Xml.Schema.XmlSchemaSimpleTypeUnion))]
   __declspec(property(get = get_Content, put = set_Content)) ::System::Xml::Schema::XmlSchemaSimpleTypeContent* Content;
 
   /// @brief Field content, offset 0x98, size 0x8
@@ -56,13 +59,13 @@ protected:
   constexpr XmlSchemaSimpleType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaSimpleType(XmlSchemaSimpleType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaSimpleType(XmlSchemaSimpleType const&) = delete;
+  XmlSchemaSimpleType(XmlSchemaSimpleTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9814 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpawnRotationChevronManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpawnRotationChevronManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,13 +122,13 @@ protected:
   constexpr SpawnRotationChevronManager_DirectionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager_DirectionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager_DirectionData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnRotationChevronManager_DirectionData(SpawnRotationChevronManager_DirectionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager_DirectionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager_DirectionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpawnRotationChevronManager_DirectionData(SpawnRotationChevronManager_DirectionData const&) = delete;
+  SpawnRotationChevronManager_DirectionData(SpawnRotationChevronManager_DirectionDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5979 };
@@ -159,6 +159,7 @@ static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager_DirectionD
 static_assert(sizeof(::GlobalNamespace::SpawnRotationChevronManager_DirectionData) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -173,8 +174,8 @@ public:
   // @brief default ctor
   constexpr SpawnRotationChevronManager_QueuedDirectionData();
 
-  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rotation", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SpawnRotationChevronManager_QueuedDirectionData(float_t time, float_t duration, int32_t rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -204,6 +205,7 @@ static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager_QueuedDire
 static_assert(sizeof(::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData) == 0xc, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/SpawnRotationChevronManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -399,44 +401,54 @@ protected:
   constexpr SpawnRotationChevronManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnRotationChevronManager(SpawnRotationChevronManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpawnRotationChevronManager(SpawnRotationChevronManager const&) = delete;
+  SpawnRotationChevronManager(SpawnRotationChevronManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5981 };
 
+  /// [SerializeField]
   /// @brief Field _fadeInTime, offset: 0x20, size: 0x4, def value: None
   float_t ____fadeInTime;
 
+  /// [SerializeField]
   /// @brief Field _fadeOutTime, offset: 0x24, size: 0x4, def value: None
   float_t ____fadeOutTime;
 
+  /// [SerializeField]
   /// @brief Field _jumpStartOffsetTime, offset: 0x28, size: 0x4, def value: None
   float_t ____jumpStartOffsetTime;
 
+  /// [SerializeField]
   /// @brief Field _cutOffsetTime, offset: 0x2c, size: 0x4, def value: None
   float_t ____cutOffsetTime;
 
+  /// [SerializeField]
   /// @brief Field _fadeInLightAmountCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeInLightAmountCurve;
 
+  /// [SerializeField]
   /// @brief Field _fadeOutLightAmountCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeOutLightAmountCurve;
 
+  /// [Inject]
   /// @brief Field _chevronPool, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::SpawnRotationChevron_Pool* ____chevronPool;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 

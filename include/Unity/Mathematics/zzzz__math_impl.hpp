@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\math.hpp"
+// IWYU pragma private; include "Unity/Mathematics/math.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Mathematics/zzzz__math_def.hpp"
 #include "Unity/Mathematics/zzzz__AffineTransform_def.hpp"
@@ -70,7 +70,7 @@
 #include "Unity/Mathematics/zzzz__uint4x2_def.hpp"
 #include "Unity/Mathematics/zzzz__uint4x3_def.hpp"
 #include "Unity/Mathematics/zzzz__uint4x4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::math_RotationOrder::math_RotationOrder(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -83,7 +83,7 @@ constexpr ::Unity::Mathematics::math_RotationOrder Unity::Mathematics::math_Rota
 constexpr ::Unity::Mathematics::math_RotationOrder Unity::Mathematics::math_RotationOrder::ZXY{ static_cast<uint8_t>(0x4u) };
 constexpr ::Unity::Mathematics::math_RotationOrder Unity::Mathematics::math_RotationOrder::ZYX{ static_cast<uint8_t>(0x5u) };
 constexpr ::Unity::Mathematics::math_RotationOrder Unity::Mathematics::math_RotationOrder::Default{ static_cast<uint8_t>(0x4u) };
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::math_ShuffleComponent::math_ShuffleComponent(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -115,7 +115,8 @@ constexpr double_t const& Unity::Mathematics::math_LongDoubleUnion::__cordl_inte
 constexpr void Unity::Mathematics::math_LongDoubleUnion::__cordl_internal_set_doubleValue(double_t value) {
   this->___doubleValue = value;
 }
-// Ctor Parameters [CppParam { name: "longValue", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "doubleValue", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "longValue", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "doubleValue", ty: "double_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::math_LongDoubleUnion::math_LongDoubleUnion(int64_t longValue, double_t doubleValue) noexcept {
   this->longValue = longValue;
   this->doubleValue = doubleValue;

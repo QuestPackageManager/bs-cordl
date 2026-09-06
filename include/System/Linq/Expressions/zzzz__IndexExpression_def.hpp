@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\IndexExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/IndexExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class IndexExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::IndexExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::IndexExpression*, "System.Linq.Expressions", "IndexExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::IndexExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -102,12 +103,14 @@ public:
   /// @brief Method get_ArgumentCount, addr 0x5f83ffc, size 0xa4, virtual true, abstract: false, final true
   inline int32_t get_ArgumentCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Indexer, addr 0x5f85a1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::PropertyInfo* get_Indexer();
 
   /// @brief Method get_NodeType, addr 0x5f859bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Object, addr 0x5f85a14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Object();
 
@@ -123,13 +126,13 @@ protected:
   constexpr IndexExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IndexExpression(IndexExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexExpression(IndexExpression const&) = delete;
+  IndexExpression(IndexExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16172 };
@@ -137,9 +140,11 @@ public:
   /// @brief Field _arguments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* ____arguments;
 
+  /// [CompilerGenerated]
   /// @brief Field <Object>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Object_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Indexer>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ____Indexer_k__BackingField;
 

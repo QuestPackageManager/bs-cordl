@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Internal\InputUnsafeUtility.hpp"
+// IWYU pragma private; include "UnityEngine/Internal/InputUnsafeUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Internal/zzzz__InputUnsafeUtility_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"

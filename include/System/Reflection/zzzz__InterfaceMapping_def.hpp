@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\InterfaceMapping.hpp"
+// IWYU pragma private; include "System/Reflection/InterfaceMapping.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,9 +31,9 @@ public:
   // @brief default ctor
   constexpr InterfaceMapping();
 
-  // Ctor Parameters [CppParam { name: "TargetType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "InterfaceType", ty: "::System::Type*", modifiers: "", def_value: None },
-  // CppParam { name: "TargetMethods", ty: "::ArrayW<::System::Reflection::MethodInfo*>", modifiers: "", def_value: None }, CppParam { name: "InterfaceMethods", ty:
-  // "::ArrayW<::System::Reflection::MethodInfo*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "TargetType", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "InterfaceType", ty: "::System::Type*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "TargetMethods", ty: "::ArrayW<::System::Reflection::MethodInfo*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "InterfaceMethods", ty: "::ArrayW<::System::Reflection::MethodInfo*>", modifiers: "", def_value: None, comment: None }]
   constexpr InterfaceMapping(::System::Type* TargetType, ::System::Type* InterfaceType, ::ArrayW<::System::Reflection::MethodInfo*> TargetMethods,
                              ::ArrayW<::System::Reflection::MethodInfo*> InterfaceMethods) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidProximity.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidProximity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AndroidProximity;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Android::AndroidProximity*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::AndroidProximity*, "UnityEngine.InputSystem.Android", "AndroidProximity");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.Android.LowLevel.AndroidSensorState), variants = "Proximity", hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.ProximitySensor
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AndroidProximity();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidProximity", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidProximity", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidProximity(AndroidProximity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidProximity", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidProximity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidProximity(AndroidProximity const&) = delete;
+  AndroidProximity(AndroidProximityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8930 };

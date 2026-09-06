@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Long1024.hpp"
+// IWYU pragma private; include "Unity/Collections/Long1024.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Long1024)
 namespace Unity::Collections {
-template <typename T> class IIndexable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IIndexable_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -45,8 +47,8 @@ public:
   // @brief default ctor
   constexpr Long1024();
 
-  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::Long512", modifiers: "", def_value: None }, CppParam { name: "f1", ty: "::Unity::Collections::Long512", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "f0", ty: "::Unity::Collections::Long512", modifiers: "", def_value: None, comment: None }, CppParam { name: "f1", ty: "::Unity::Collections::Long512",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr Long1024(::Unity::Collections::Long512 f0, ::Unity::Collections::Long512 f1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

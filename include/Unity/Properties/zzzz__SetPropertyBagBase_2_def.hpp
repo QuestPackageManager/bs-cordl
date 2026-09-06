@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\SetPropertyBagBase_2.hpp"
+// IWYU pragma private; include "Unity/Properties/SetPropertyBagBase_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
@@ -34,7 +35,9 @@ namespace Unity::Properties {
 class ICollectionPropertyBagVisitor;
 }
 namespace Unity::Properties {
-template <typename TCollection, typename TElement> class ICollectionPropertyBag_2;
+template <typename TCollection, typename TElement>
+  requires(::cordl_internals::type_constraint<TCollection, ::System::Collections::Generic::ICollection_1<TElement>*>)
+class ICollectionPropertyBag_2;
 }
 namespace Unity::Properties {
 template <typename TContainer, typename TKey> class IKeyedProperties_2;
@@ -58,26 +61,38 @@ namespace Unity::Properties {
 class ISetPropertyBagVisitor;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement> class ISetPropertyBag_2;
+template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
+class ISetPropertyBag_2;
 }
 namespace Unity::Properties {
 template <typename TContainer> struct PropertyCollection_1;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement> class SetPropertyBagBase_2_SetElementProperty;
+template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
+class SetPropertyBagBase_2_SetElementProperty;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement> class SetPropertyBagBase_2__GetPropertiesEnumerable_d__4;
+template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
+class SetPropertyBagBase_2__GetPropertiesEnumerable_d__4;
 }
 // Forward declare root types
 namespace Unity::Properties {
-template <typename TSet, typename TElement> class SetPropertyBagBase_2;
+template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
+class SetPropertyBagBase_2;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement> class SetPropertyBagBase_2_SetElementProperty;
+template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
+class SetPropertyBagBase_2_SetElementProperty;
 }
 namespace Unity::Properties {
-template <typename TSet, typename TElement> class SetPropertyBagBase_2__GetPropertiesEnumerable_d__4;
+template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
+class SetPropertyBagBase_2__GetPropertiesEnumerable_d__4;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::SetPropertyBagBase_2);
@@ -86,10 +101,11 @@ MARK_GEN_REF_T_PTR(::Unity::Properties::SetPropertyBagBase_2__GetPropertiesEnume
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::SetPropertyBagBase_2, "Unity.Properties", "SetPropertyBagBase`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::SetPropertyBagBase_2_SetElementProperty, "Unity.Properties", "SetPropertyBagBase`2/SetElementProperty");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::SetPropertyBagBase_2__GetPropertiesEnumerable_d__4, "Unity.Properties", "SetPropertyBagBase`2/<GetPropertiesEnumerable>d__4");
-// Dependencies Unity.Properties.Property`2<TContainer, TValue>
+// Dependencies System.Collections.Generic.ISet`1<T>, Unity.Properties.Property`2<TContainer, TValue>
 namespace Unity::Properties {
 // cpp template
 template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.SetPropertyBagBase`2/SetElementProperty<TSet,TElement>
 class CORDL_TYPE SetPropertyBagBase_2_SetElementProperty : public ::Unity::Properties::Property_2<TSet, TElement> {
@@ -142,13 +158,13 @@ protected:
   constexpr SetPropertyBagBase_2_SetElementProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2_SetElementProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2_SetElementProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetPropertyBagBase_2_SetElementProperty(SetPropertyBagBase_2_SetElementProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2_SetElementProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2_SetElementProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetPropertyBagBase_2_SetElementProperty(SetPropertyBagBase_2_SetElementProperty const&) = delete;
+  SetPropertyBagBase_2_SetElementProperty(SetPropertyBagBase_2_SetElementPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19670 };
@@ -160,10 +176,12 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Collections.Generic.ISet`1<T>, System.Object
 namespace Unity::Properties {
 // cpp template
 template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.SetPropertyBagBase`2/<GetPropertiesEnumerable>d__4<TSet,TElement>
 class CORDL_TYPE SetPropertyBagBase_2__GetPropertiesEnumerable_d__4 : public ::System::Object {
@@ -216,23 +234,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Unity::Properties::SetPropertyBagBase_2__GetPropertiesEnumerable_d__4<TSet, TElement>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<Unity.Properties.IProperty<TSet>>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Unity::Properties::IProperty_1<TSet>*>* System_Collections_Generic_IEnumerable_Unity_Properties_IProperty_TSet___GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<Unity.Properties.IProperty<TSet>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::Unity::Properties::IProperty_1<TSet>* System_Collections_Generic_IEnumerator_Unity_Properties_IProperty_TSet___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -287,6 +312,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -311,13 +337,13 @@ protected:
   constexpr SetPropertyBagBase_2__GetPropertiesEnumerable_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2__GetPropertiesEnumerable_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2__GetPropertiesEnumerable_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetPropertyBagBase_2__GetPropertiesEnumerable_d__4(SetPropertyBagBase_2__GetPropertiesEnumerable_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2__GetPropertiesEnumerable_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2__GetPropertiesEnumerable_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetPropertyBagBase_2__GetPropertiesEnumerable_d__4(SetPropertyBagBase_2__GetPropertiesEnumerable_d__4 const&) = delete;
+  SetPropertyBagBase_2__GetPropertiesEnumerable_d__4(SetPropertyBagBase_2__GetPropertiesEnumerable_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19671 };
@@ -350,10 +376,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Properties
-// Dependencies Unity.Properties.PropertyBag`1<TContainer>
+// Dependencies System.Collections.Generic.ISet`1<T>, Unity.Properties.PropertyBag`1<TContainer>
 namespace Unity::Properties {
 // cpp template
 template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
 // Is value type: false
 // CS Name: Unity.Properties.SetPropertyBagBase`2<TSet,TElement>
 class CORDL_TYPE SetPropertyBagBase_2 : public ::Unity::Properties::PropertyBag_1<TSet> {
@@ -393,6 +420,7 @@ public:
   /// @brief Method GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Unity::Properties::PropertyCollection_1<TSet> GetProperties(::by_ref<TSet> container);
 
+  /// [IteratorStateMachine(typeof(Unity.Properties.SetPropertyBagBase`2::<GetPropertiesEnumerable>d__4<TSet, TElement>))]
   /// @brief Method GetPropertiesEnumerable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Unity::Properties::IProperty_1<TSet>*>* GetPropertiesEnumerable(TSet container);
 
@@ -443,13 +471,13 @@ protected:
   constexpr SetPropertyBagBase_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetPropertyBagBase_2(SetPropertyBagBase_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyBagBase_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetPropertyBagBase_2(SetPropertyBagBase_2 const&) = delete;
+  SetPropertyBagBase_2(SetPropertyBagBase_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19672 };

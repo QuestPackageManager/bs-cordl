@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FixedSizeQueue_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/FixedSizeQueue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr FixedSizeQueue_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedSizeQueue_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedSizeQueue_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedSizeQueue_1(FixedSizeQueue_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedSizeQueue_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedSizeQueue_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedSizeQueue_1(FixedSizeQueue_1 const&) = delete;
+  FixedSizeQueue_1(FixedSizeQueue_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15153 };

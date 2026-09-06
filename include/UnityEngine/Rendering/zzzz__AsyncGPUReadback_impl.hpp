@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AsyncGPUReadback.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AsyncGPUReadback.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AsyncGPUReadback_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -129,7 +129,7 @@ inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest UnityEngine::Rendering:
                                                                                              ::i2c::type_of<::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(nullptr, ___internal_method, src, size, offset, callback);
 }
-inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest UnityEngine::Rendering::AsyncGPUReadback::Request_Internal_GraphicsBuffer_1(::UnityEngine::GraphicsBuffer* buffer,
+inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest UnityEngine::Rendering::AsyncGPUReadback::Request_Internal_GraphicsBuffer_1(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* buffer,
                                                                                                                                      ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -138,7 +138,8 @@ inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest UnityEngine::Rendering:
                        { "Request_Internal_GraphicsBuffer_1", {}, { ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::AsyncRequestNativeArrayData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(nullptr, ___internal_method, buffer, data);
 }
-inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest UnityEngine::Rendering::AsyncGPUReadback::Request_Internal_GraphicsBuffer_2(::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset,
+inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest UnityEngine::Rendering::AsyncGPUReadback::Request_Internal_GraphicsBuffer_2(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* src, int32_t size,
+                                                                                                                                     int32_t offset,
                                                                                                                                      ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadback*>(),
                                                                                          { "Request_Internal_GraphicsBuffer_2",

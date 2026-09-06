@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Composites\ButtonWithOneModifier.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/ButtonWithOneModifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   // @brief default ctor
   constexpr ButtonWithOneModifier_ModifiersOrder();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ButtonWithOneModifier_ModifiersOrder(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(0)
@@ -85,6 +85,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::ButtonWithOneModi
 static_assert(sizeof(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Composites
+// [DesignTimeVisible(false)]
+// [DisplayStringFormat("{modifier}+{button}")]
 // Dependencies UnityEngine.InputSystem.Composites.ButtonWithOneModifier::ModifiersOrder, UnityEngine.InputSystem.InputBindingComposite`1<TValue>
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
@@ -154,26 +156,31 @@ protected:
   constexpr ButtonWithOneModifier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonWithOneModifier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonWithOneModifier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonWithOneModifier(ButtonWithOneModifier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonWithOneModifier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonWithOneModifier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonWithOneModifier(ButtonWithOneModifier const&) = delete;
+  ButtonWithOneModifier(ButtonWithOneModifierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9211 };
 
+  /// [InputControl(layout = "Button")]
   /// @brief Field modifier, offset: 0x10, size: 0x4, def value: None
   int32_t ___modifier;
 
+  /// [InputControl(layout = "Button")]
   /// @brief Field button, offset: 0x14, size: 0x4, def value: None
   int32_t ___button;
 
+  /// [Tooltip("Obsolete please use modifiers Order. If enabled, this will override the Input Consumption setting, allowing the modifier keys to be pressed after the button and the composite will
+  /// still trigger.")] [Obsolete("Use ModifiersOrder.Unordered with \'modifiersOrder\' instead")]
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset: 0x18, size: 0x1, def value: None
   bool ___overrideModifiersNeedToBePressedFirst;
 
+  /// [Tooltip("By default it follows the Input Consumption setting to determine if the modifers keys need to be pressed first.")]
   /// @brief Field modifiersOrder, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder ___modifiersOrder;
 

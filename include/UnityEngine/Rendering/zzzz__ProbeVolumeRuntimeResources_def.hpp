@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeRuntimeResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeRuntimeResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,9 @@ class ProbeVolumeRuntimeResources;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ProbeVolumeRuntimeResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeRuntimeResources*, "UnityEngine.Rendering", "ProbeVolumeRuntimeResources");
+// [SupportedOnRenderPipeline(new[] {  })]
+// [CategoryInfo(Name = "R: Adaptive Probe Volumes", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -93,26 +96,32 @@ protected:
   constexpr ProbeVolumeRuntimeResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeRuntimeResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeRuntimeResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeRuntimeResources(ProbeVolumeRuntimeResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeRuntimeResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeRuntimeResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeRuntimeResources(ProbeVolumeRuntimeResources const&) = delete;
+  ProbeVolumeRuntimeResources(ProbeVolumeRuntimeResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12141 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [Header("Runtime")]
+  /// [ResourcePath("Runtime/Lighting/ProbeVolume/ProbeVolumeBlendStates.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field probeVolumeBlendStatesCS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___probeVolumeBlendStatesCS;
 
+  /// [ResourcePath("Runtime/Lighting/ProbeVolume/ProbeVolumeUploadData.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field probeVolumeUploadDataCS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___probeVolumeUploadDataCS;
 
+  /// [ResourcePath("Runtime/Lighting/ProbeVolume/ProbeVolumeUploadDataL2.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field probeVolumeUploadDataL2CS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___probeVolumeUploadDataL2CS;
 

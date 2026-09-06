@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightmappingSongController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightmappingSongController.hpp"
 #include "GlobalNamespace/zzzz__SongController_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmappingSongController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightmappingSongController.StopSong

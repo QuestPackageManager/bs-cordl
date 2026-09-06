@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Custom\Djb\Curve25519.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/Djb/Curve25519.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,13 +105,13 @@ protected:
   constexpr Curve25519_Curve25519LookupTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Curve25519_Curve25519LookupTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Curve25519_Curve25519LookupTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Curve25519_Curve25519LookupTable(Curve25519_Curve25519LookupTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Curve25519_Curve25519LookupTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Curve25519_Curve25519LookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Curve25519_Curve25519LookupTable(Curve25519_Curve25519LookupTable const&) = delete;
+  Curve25519_Curve25519LookupTable(Curve25519_Curve25519LookupTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1365 };
@@ -234,13 +234,13 @@ protected:
   constexpr Curve25519();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Curve25519", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Curve25519", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Curve25519(Curve25519&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Curve25519", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Curve25519", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Curve25519(Curve25519 const&) = delete;
+  Curve25519(Curve25519const&) = delete;
 
   /// @brief Field CURVE25519_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t CURVE25519_DEFAULT_COORDS{ static_cast<int32_t>(0x4) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\HDRDebugViewPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/HDRDebugViewPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__HDRDebugMode_impl.hpp"
@@ -22,7 +22,7 @@
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::HDRDebugViewPass_HDRDebugPassId::HDRDebugViewPass_HDRDebugPassId(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\SelectedProfile.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/SelectedProfile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // @brief default ctor
   constexpr SelectedProfile();
 
-  // Ctor Parameters [CppParam { name: "builtIn", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "builtIn", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SelectedProfile(bool builtIn, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerDataAsyncLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerDataAsyncLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_REF_T(::GlobalNamespace::PlayerDataAsyncLoader*);
 MARK_VAL_T(::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__1);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerDataAsyncLoader*, "", "PlayerDataAsyncLoader");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__1, "", "PlayerDataAsyncLoader/<LoadResourcesBeforeInstallAsync>d__1");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -50,6 +51,7 @@ public:
   /// @brief Method MoveNext, addr 0x3779b58, size 0x28c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3779de4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -60,10 +62,10 @@ public:
   // @brief default ctor
   constexpr PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None },
-  // CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlayerDataAsyncLoader>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlayerDataAsyncLoader>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Zenject::DiContainer* container,
                                                                         ::UnityW<::GlobalNamespace::PlayerDataAsyncLoader> __4__this,
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
@@ -120,6 +122,7 @@ public:
   /// @brief Method InstallBindings, addr 0x3779a80, size 0xd4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
+  /// [AsyncStateMachine(typeof(PlayerDataAsyncLoader::<LoadResourcesBeforeInstallAsync>d__1))]
   /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x37799bc, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
@@ -140,13 +143,13 @@ protected:
   constexpr PlayerDataAsyncLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataAsyncLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataAsyncLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerDataAsyncLoader(PlayerDataAsyncLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataAsyncLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataAsyncLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerDataAsyncLoader(PlayerDataAsyncLoader const&) = delete;
+  PlayerDataAsyncLoader(PlayerDataAsyncLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21043 };

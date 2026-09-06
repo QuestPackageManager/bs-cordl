@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMeshJobs.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMeshJobs.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -37,14 +37,15 @@ constexpr GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob::operator ::Unit
 constexpr ::Unity::Jobs::IJobParallelFor* GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Normals", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "UV", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "BoneWeights", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "MeshVerticesPosition", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "MeshNormals", ty:
-// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "MeshUV", ty:
-// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector2f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "MeshBoneWeights", ty:
-// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4f>", modifiers: "", def_value: Some("{}") }, CppParam { name: "MeshBoneIndices", ty:
-// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4s>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Normals",
+// ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "UV", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BoneWeights", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MeshVerticesPosition", ty:
+// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MeshNormals", ty:
+// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MeshUV", ty:
+// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector2f>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MeshBoneWeights", ty:
+// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4f>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MeshBoneIndices", ty:
+// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4s>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob::OVRMeshJobs_TransformToUnitySpaceJob(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Normals,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> UV, ::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight> BoneWeights,
@@ -89,8 +90,9 @@ constexpr GlobalNamespace::OVRMeshJobs_TransformTrianglesJob::operator ::Unity::
 constexpr ::Unity::Jobs::IJobParallelFor* GlobalNamespace::OVRMeshJobs_TransformTrianglesJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "MeshIndices", ty:
-// "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumIndices", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MeshIndices", ty:
+// "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NumIndices", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob::OVRMeshJobs_TransformTrianglesJob(::Unity::Collections::NativeArray_1<uint32_t> Triangles,
                                                                                                   ::Unity::Collections::NativeArray_1<int16_t> MeshIndices, int32_t NumIndices) noexcept {
   this->Triangles = Triangles;
@@ -99,34 +101,45 @@ constexpr ::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob::OVRMeshJobs_Tran
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob::OVRMeshJobs_TransformTrianglesJob() {}
-template <typename T> inline void GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::_ctor(::ArrayW<T> ovrArray, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::_ctor(::ArrayW<T> ovrArray, int32_t length) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ovrArray, length);
 }
-template <typename T> inline void GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::Dispose() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::operator ::System::IDisposable*() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::operator ::System::IDisposable*() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::i___System__IDisposable() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::System::IDisposable* GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty:
-// "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_handle", ty:
+// "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::OVRMeshJobs_NativeArrayHelper_1(::Unity::Collections::NativeArray_1<T> UnityNativeArray,
                                                                                                  ::System::Runtime::InteropServices::GCHandle _handle) noexcept {
   this->UnityNativeArray = UnityNativeArray;
   this->_handle = _handle;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::OVRMeshJobs_NativeArrayHelper_1() {}
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>::OVRMeshJobs_NativeArrayHelper_1() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRMeshJobs._ctor
 template <>
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerStartServerPackageAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerStartServerPackageAnalytic.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerBaseAnalytic_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerStartServerPackageAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::PackageManagerStartServerPackageAnalytic._ctor

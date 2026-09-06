@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\ScopeWithType.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/ScopeWithType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ public:
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions, ::System::Type* type);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f79e54, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
@@ -69,17 +70,18 @@ protected:
   constexpr ScopeWithType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScopeWithType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScopeWithType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScopeWithType(ScopeWithType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScopeWithType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScopeWithType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScopeWithType(ScopeWithType const&) = delete;
+  ScopeWithType(ScopeWithTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16149 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 

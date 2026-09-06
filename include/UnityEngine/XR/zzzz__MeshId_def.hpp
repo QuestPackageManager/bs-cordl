@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\MeshId.hpp"
+// IWYU pragma private; include "UnityEngine/XR/MeshId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ struct MeshId;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::MeshId);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::MeshId, "UnityEngine.XR", "MeshId");
+// [NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -56,7 +58,8 @@ public:
   // @brief default ctor
   constexpr MeshId();
 
-  // Ctor Parameters [CppParam { name: "m_SubId1", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_SubId2", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_SubId1", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SubId2", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr MeshId(uint64_t m_SubId1, uint64_t m_SubId2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

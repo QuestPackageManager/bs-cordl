@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElementStyleSheetSet.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementStyleSheetSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ struct VisualElementStyleSheetSet;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VisualElementStyleSheetSet);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElementStyleSheetSet, "UnityEngine.UIElements", "VisualElementStyleSheetSet");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -60,7 +61,7 @@ public:
   // @brief default ctor
   constexpr VisualElementStyleSheetSet();
 
-  // Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }]
   constexpr VisualElementStyleSheetSet(::UnityEngine::UIElements::VisualElement* m_Element) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

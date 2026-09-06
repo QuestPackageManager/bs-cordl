@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\KdTree\Math\DoubleMath.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/Math/DoubleMath.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +76,13 @@ protected:
   constexpr DoubleMath();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleMath", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleMath", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DoubleMath(DoubleMath&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleMath", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleMath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleMath(DoubleMath const&) = delete;
+  DoubleMath(DoubleMathconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22691 };

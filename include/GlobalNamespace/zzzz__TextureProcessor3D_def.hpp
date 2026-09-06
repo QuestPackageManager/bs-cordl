@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextureProcessor3D.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextureProcessor3D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,9 @@ namespace GlobalNamespace {
 struct TextureProcessor3D_MotionPreset;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine {
 class ComputeShader;
@@ -109,7 +111,7 @@ public:
   // @brief default ctor
   constexpr TextureProcessor3D_ComputeKernel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextureProcessor3D_ComputeKernel(int32_t value__) noexcept;
 
   /// @brief Field Constant value: I32(0)
@@ -176,10 +178,11 @@ public:
   // @brief default ctor
   constexpr TextureProcessor3D_ChannelParams();
 
-  // Ctor Parameters [CppParam { name: "_computeKernel", ty: "::GlobalNamespace::TextureProcessor3D_ComputeKernel", modifiers: "", def_value: None }, CppParam { name: "_inputTextureIndex", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "_speed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_spatialScale", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "_phase", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_param1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_param2", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "_outputOffset", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_computeKernel", ty: "::GlobalNamespace::TextureProcessor3D_ComputeKernel", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_inputTextureIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_speed", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_spatialScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_phase", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_param1", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_param2", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_outputOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextureProcessor3D_ChannelParams(::GlobalNamespace::TextureProcessor3D_ComputeKernel _computeKernel, int32_t _inputTextureIndex, float_t _speed, float_t _spatialScale, float_t _phase,
                                              float_t _param1, float_t _param2, float_t _outputOffset) noexcept;
 
@@ -246,9 +249,9 @@ public:
   // @brief default ctor
   constexpr TextureProcessor3D_MotionPreset();
 
-  // Ctor Parameters [CppParam { name: "channelA", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: None }, CppParam { name: "channelB", ty:
-  // "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: None }, CppParam { name: "channelC", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "",
-  // def_value: None }, CppParam { name: "channelD", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "channelA", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: None, comment: None }, CppParam { name: "channelB", ty:
+  // "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: None, comment: None }, CppParam { name: "channelC", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "channelD", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: None, comment: None }]
   constexpr TextureProcessor3D_MotionPreset(::GlobalNamespace::TextureProcessor3D_ChannelParams channelA, ::GlobalNamespace::TextureProcessor3D_ChannelParams channelB,
                                             ::GlobalNamespace::TextureProcessor3D_ChannelParams channelC, ::GlobalNamespace::TextureProcessor3D_ChannelParams channelD) noexcept;
 
@@ -295,11 +298,12 @@ public:
   // @brief default ctor
   constexpr TextureProcessor3D_ChannelParamsChangeIntention();
 
-  // Ctor Parameters [CppParam { name: "_computeKernel", ty: "::System::Nullable_1<::GlobalNamespace::TextureProcessor3D_ComputeKernel>", modifiers: "", def_value: None }, CppParam { name:
-  // "_inputTextureIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_speed", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: None },
-  // CppParam { name: "_spatialScale", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "_phase", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value:
-  // None }, CppParam { name: "_param1", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "_param2", ty: "::System::Nullable_1<float_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "_outputOffset", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_computeKernel", ty: "::System::Nullable_1<::GlobalNamespace::TextureProcessor3D_ComputeKernel>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_inputTextureIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_speed", ty: "::System::Nullable_1<float_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_spatialScale", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_phase", ty:
+  // "::System::Nullable_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_param1", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_param2", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_outputOffset", ty: "::System::Nullable_1<float_t>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr TextureProcessor3D_ChannelParamsChangeIntention(::System::Nullable_1<::GlobalNamespace::TextureProcessor3D_ComputeKernel> _computeKernel, ::System::Nullable_1<int32_t> _inputTextureIndex,
                                                             ::System::Nullable_1<float_t> _speed, ::System::Nullable_1<float_t> _spatialScale, ::System::Nullable_1<float_t> _phase,
                                                             ::System::Nullable_1<float_t> _param1, ::System::Nullable_1<float_t> _param2, ::System::Nullable_1<float_t> _outputOffset) noexcept;
@@ -367,10 +371,10 @@ public:
   // @brief default ctor
   constexpr TextureProcessor3D_MotionPresetChangeIntention();
 
-  // Ctor Parameters [CppParam { name: "channelA", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: None }, CppParam { name: "channelB", ty:
-  // "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: None }, CppParam { name: "channelC", ty:
-  // "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: None }, CppParam { name: "channelD", ty:
-  // "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "channelA", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "channelB", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: None, comment: None }, CppParam { name: "channelC", ty:
+  // "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: None, comment: None }, CppParam { name: "channelD", ty:
+  // "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: None, comment: None }]
   constexpr TextureProcessor3D_MotionPresetChangeIntention(::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention channelA,
                                                            ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention channelB,
                                                            ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention channelC,
@@ -408,6 +412,7 @@ static_assert(offsetof(::GlobalNamespace::TextureProcessor3D_MotionPresetChangeI
 static_assert(sizeof(::GlobalNamespace::TextureProcessor3D_MotionPresetChangeIntention) == 0x100, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteInEditMode]
 // Dependencies TextureProcessor3D::MotionPreset, TextureProcessor3D::MotionPresetChangeIntention, UnityEngine.Material, UnityEngine.Matrix4x4, UnityEngine.MonoBehaviour, UnityEngine.Texture2D
 namespace GlobalNamespace {
 // Is value type: false
@@ -664,12 +669,16 @@ public:
   /// @brief Method UpdateBuffers, addr 0x5f513f4, size 0x174, virtual false, abstract: false, final false
   inline void UpdateBuffers();
 
+  /// [CompilerGenerated]
   /// @brief Method <ApplyIntention>g__ApplyChannelIntention|163_0, addr 0x5f51ff0, size 0x1c8, virtual false, abstract: false, final false
   static inline void _ApplyIntention_g__ApplyChannelIntention_163_0(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams> channel,
                                                                     ::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention> channelIntention);
 
+  /// [CompilerGenerated]
   /// @brief Method <ApplyIntention>g__ApplyParamIntention|163_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void _ApplyIntention_g__ApplyParamIntention_163_1(::by_ref<T> param, ::by_ref<::System::Nullable_1<T>> intention);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void _ApplyIntention_g__ApplyParamIntention_163_1(::by_ref<T> param, ::by_ref<::System::Nullable_1<T>> intention);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Material>> const& __cordl_internal_get__MaterialsUsingOutput() const;
 
@@ -1097,44 +1106,55 @@ protected:
   constexpr TextureProcessor3D();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3D", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3D", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureProcessor3D(TextureProcessor3D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3D", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureProcessor3D(TextureProcessor3D const&) = delete;
+  TextureProcessor3D(TextureProcessor3Dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20703 };
 
+  /// [Header("General Setup")]
+  /// [SerializeField]
   /// @brief Field _textureGenCompute, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ____textureGenCompute;
 
+  /// [SerializeField]
   /// @brief Field _writeTexturesCompute, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ____writeTexturesCompute;
 
+  /// [SerializeField]
   /// @brief Field _inputTextures, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ____inputTextures;
 
+  /// [Header("Grid Size/Spacing")]
+  /// [SerializeField]
   /// @brief Field _rowSize, offset: 0x38, size: 0x4, def value: None
   int32_t ____rowSize;
 
+  /// [SerializeField]
   /// @brief Field _columnSize, offset: 0x3c, size: 0x4, def value: None
   int32_t ____columnSize;
 
+  /// [SerializeField]
   /// @brief Field _depthSize, offset: 0x40, size: 0x4, def value: None
   int32_t ____depthSize;
 
   /// @brief Field _presetArray, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::TextureProcessor3D_MotionPreset> ____presetArray;
 
+  /// [SerializeField]
   /// @brief Field _activePresetIndex, offset: 0x50, size: 0x4, def value: None
   int32_t ____activePresetIndex;
 
   /// @brief Field _activePresetIndexOld, offset: 0x54, size: 0x4, def value: None
   int32_t ____activePresetIndexOld;
 
+  /// [SerializeField]
+  /// [Header("Debugging")]
   /// @brief Field _MaterialsUsingOutput, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Material>> ____MaterialsUsingOutput;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioRandomContainer.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioRandomContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,7 @@ public:
   // @brief default ctor
   constexpr AudioRandomContainer_ChangeEventType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AudioRandomContainer_ChangeEventType(int32_t value__) noexcept;
 
   /// @brief Field List value: I32(2)
@@ -104,6 +104,8 @@ static_assert(offsetof(::UnityEngine::Audio::AudioRandomContainer_ChangeEventTyp
 static_assert(sizeof(::UnityEngine::Audio::AudioRandomContainer_ChangeEventType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Audio
+// [NativeHeader("Modules/Audio/Public/AudioRandomContainer.h")]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Audio.AudioResource
 namespace UnityEngine::Audio {
 // Is value type: false
@@ -150,7 +152,7 @@ public:
   __declspec(property(get = get_volumeRandomizationRange, put = set_volumeRandomizationRange)) ::UnityEngine::Vector2 volumeRandomizationRange;
 
   /// @brief Method Internal_Create, addr 0x6a597e0, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Create(::UnityEngine::Audio::AudioRandomContainer* self);
+  static inline void Internal_Create(/* [Writable] */ ::UnityEngine::Audio::AudioRandomContainer* self);
 
   static inline ::UnityEngine::Audio::AudioRandomContainer* New_ctor();
 
@@ -385,13 +387,13 @@ protected:
   constexpr AudioRandomContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioRandomContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioRandomContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioRandomContainer(AudioRandomContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioRandomContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioRandomContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioRandomContainer(AudioRandomContainer const&) = delete;
+  AudioRandomContainer(AudioRandomContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21095 };

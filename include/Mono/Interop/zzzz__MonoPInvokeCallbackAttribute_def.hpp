@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Interop\MonoPInvokeCallbackAttribute.hpp"
+// IWYU pragma private; include "Mono/Interop/MonoPInvokeCallbackAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class MonoPInvokeCallbackAttribute;
 // Write type traits
 MARK_REF_T(::Mono::Interop::MonoPInvokeCallbackAttribute*);
 DEFINE_IL2CPP_CLASS(::Mono::Interop::MonoPInvokeCallbackAttribute*, "Mono.Interop", "MonoPInvokeCallbackAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute
 namespace Mono::Interop {
 // Is value type: false
@@ -33,13 +34,13 @@ protected:
   constexpr MonoPInvokeCallbackAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoPInvokeCallbackAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoPInvokeCallbackAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoPInvokeCallbackAttribute(MonoPInvokeCallbackAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoPInvokeCallbackAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoPInvokeCallbackAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoPInvokeCallbackAttribute(MonoPInvokeCallbackAttribute const&) = delete;
+  MonoPInvokeCallbackAttribute(MonoPInvokeCallbackAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2256 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\LicensingErrorAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/LicensingErrorAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__LicensingErrorAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::LicensingErrorAnalytic._ctor

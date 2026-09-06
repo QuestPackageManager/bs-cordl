@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Rotate.hpp"
+// IWYU pragma private; include "GlobalNamespace/Rotate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,13 +122,13 @@ protected:
   constexpr Rotate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Rotate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rotate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Rotate(Rotate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Rotate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rotate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Rotate(Rotate const&) = delete;
+  Rotate(Rotateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21420 };
@@ -142,9 +142,11 @@ public:
   /// @brief Field _randomize, offset: 0x30, size: 0x1, def value: None
   bool ____randomize;
 
+  /// [DrawIf("_randomize", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _randomMinMultiplier, offset: 0x34, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____randomMinMultiplier;
 
+  /// [DrawIf("_randomize", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _randomMaxMultiplier, offset: 0x40, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____randomMaxMultiplier;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrVector3f.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrVector3f.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,8 +33,8 @@ public:
   // @brief default ctor
   constexpr XrVector3f();
 
-  // Ctor Parameters [CppParam { name: "X", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Z", ty: "float_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "X", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Y", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Z", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr XrVector3f(float_t X, float_t Y, float_t Z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

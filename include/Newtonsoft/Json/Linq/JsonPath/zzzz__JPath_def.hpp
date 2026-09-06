@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\JPath.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/JPath.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,8 @@ class JPath;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Linq::JsonPath::JPath*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JsonPath::JPath*, "Newtonsoft.Json.Linq.JsonPath", "JPath");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
@@ -65,7 +67,7 @@ public:
   __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression)) ::StringW _expression;
 
   /// @brief Method CreatePathFilter, addr 0x5d90754, size 0x80, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* CreatePathFilter(::StringW member, bool scan);
+  static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* CreatePathFilter(/* [Nullable(2)] */ ::StringW member, bool scan);
 
   /// @brief Method CreateUnexpectedCharacterException, addr 0x5d91d7c, size 0xf0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonException* CreateUnexpectedCharacterException();
@@ -79,11 +81,11 @@ public:
   /// @brief Method Evaluate, addr 0x5d92af8, size 0x19c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
   Evaluate(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* filters, ::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t,
-           ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
+           /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   /// @brief Method Evaluate, addr 0x5d92a74, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Evaluate(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t,
-                                                                                                    ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
+                                                                                                    /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   /// @brief Method Match, addr 0x5d92564, size 0xbc, virtual false, abstract: false, final false
   inline bool Match(::StringW s);
@@ -124,8 +126,9 @@ public:
   inline ::StringW ReadRegexString();
 
   /// @brief Method TryParseExpression, addr 0x5d91b80, size 0x1fc, virtual false, abstract: false, final false
-  inline bool TryParseExpression(::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*> expressionPath);
+  inline bool TryParseExpression(/* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*> expressionPath);
 
+  /// [NullableContext(2)]
   /// @brief Method TryParseValue, addr 0x5d91f84, size 0x34c, virtual false, abstract: false, final false
   inline bool TryParseValue(::by_ref<::System::Object*> value);
 
@@ -152,6 +155,7 @@ public:
 
   static inline ::ArrayW<char16_t> getStaticF_FloatCharacters();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Filters, addr 0x5d8ff14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* get_Filters();
 
@@ -163,13 +167,13 @@ protected:
   constexpr JPath();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JPath", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPath", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JPath(JPath&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JPath", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JPath(JPath const&) = delete;
+  JPath(JPathconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13634 };
@@ -177,6 +181,7 @@ public:
   /// @brief Field _expression, offset: 0x10, size: 0x8, def value: None
   ::StringW ____expression;
 
+  /// [CompilerGenerated]
   /// @brief Field <Filters>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* ____Filters_k__BackingField;
 

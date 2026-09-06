@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AttachmentIndexArray.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AttachmentIndexArray.hpp"
 #include "UnityEngine/Rendering/zzzz__AttachmentIndexArray_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::AttachmentIndexArray._ctor
 template <>
@@ -78,10 +78,11 @@ inline int32_t UnityEngine::Rendering::AttachmentIndexArray::get_Length() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AttachmentIndexArray>(), { "get_Length", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "a0", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a1", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a2",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a3", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a4", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "a5", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a6", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a7", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "activeAttachments", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "a0", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "a1", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "a2", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "a3", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "a4", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "a5", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "a6", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "a7", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "activeAttachments", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::AttachmentIndexArray::AttachmentIndexArray(int32_t a0, int32_t a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5, int32_t a6, int32_t a7,
                                                                                int32_t activeAttachments) noexcept {
   this->a0 = a0;

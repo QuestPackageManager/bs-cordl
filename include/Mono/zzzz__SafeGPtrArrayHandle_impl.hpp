@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\SafeGPtrArrayHandle.hpp"
+// IWYU pragma private; include "Mono/SafeGPtrArrayHandle.hpp"
 #include "Mono/zzzz__RuntimeGPtrArrayHandle_impl.hpp"
 #include "Mono/zzzz__SafeGPtrArrayHandle_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -76,7 +76,7 @@ constexpr Mono::SafeGPtrArrayHandle::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* Mono::SafeGPtrArrayHandle::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "::Mono::RuntimeGPtrArrayHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "handle", ty: "::Mono::RuntimeGPtrArrayHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::SafeGPtrArrayHandle::SafeGPtrArrayHandle(::Mono::RuntimeGPtrArrayHandle handle) noexcept {
   this->handle = handle;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\KnownTerminals.hpp"
+// IWYU pragma private; include "System/KnownTerminals.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +36,13 @@ protected:
   constexpr KnownTerminals();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KnownTerminals(KnownTerminals&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KnownTerminals(KnownTerminals const&) = delete;
+  KnownTerminals(KnownTerminalsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2614 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\GradientSettingsAtlas.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GradientSettingsAtlas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,8 +64,8 @@ public:
   // @brief default ctor
   constexpr GradientSettingsAtlas_RawTexture();
 
-  // Ctor Parameters [CppParam { name: "rgba", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rgba", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GradientSettingsAtlas_RawTexture(::ArrayW<::UnityEngine::Color32> rgba, int32_t width, int32_t height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -219,12 +219,14 @@ public:
 
   static inline int32_t getStaticF_s_TextureCounter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MustCommit, addr 0x6cdd758, size 0x8, virtual false, abstract: false, final false
   inline bool get_MustCommit();
 
   /// @brief Method get_atlas, addr 0x6cdd1d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cdd004, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
@@ -240,9 +242,11 @@ public:
 
   static inline void setStaticF_s_TextureCounter(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MustCommit, addr 0x6cdd760, size 0x8, virtual false, abstract: false, final false
   inline void set_MustCommit(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cdd00c, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -252,13 +256,13 @@ protected:
   constexpr GradientSettingsAtlas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GradientSettingsAtlas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientSettingsAtlas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GradientSettingsAtlas(GradientSettingsAtlas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GradientSettingsAtlas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientSettingsAtlas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GradientSettingsAtlas(GradientSettingsAtlas const&) = delete;
+  GradientSettingsAtlas(GradientSettingsAtlasconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5298 };
@@ -278,9 +282,13 @@ public:
   /// @brief Field m_RawAtlas, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture ___m_RawAtlas;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <MustCommit>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____MustCommit_k__BackingField;
 

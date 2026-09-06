@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeGPtrArrayHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimeGPtrArrayHandle.hpp"
 #include "Mono/zzzz__RuntimeGPtrArrayHandle_def.hpp"
 #include "Mono/zzzz__RuntimeStructs_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -104,7 +104,7 @@ inline void Mono::RuntimeGPtrArrayHandle::DestroyAndFree(::by_ref<::Mono::Runtim
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeGPtrArrayHandle>(), { "DestroyAndFree", {}, { ::i2c::type_of<::by_ref<::Mono::RuntimeGPtrArrayHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, h);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GPtrArray*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GPtrArray*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::RuntimeGPtrArrayHandle::RuntimeGPtrArrayHandle(::Mono::RuntimeStructs_GPtrArray* value) noexcept {
   this->value = value;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\SerpentEngineBase.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/SerpentEngineBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method DecryptBlock, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DecryptBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EncryptBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
   /// @brief Method GetBlockSize, addr 0x33c18e8, size 0x5c, virtual true, abstract: false, final false
@@ -98,7 +98,7 @@ public:
   /// @brief Method LT, addr 0x33c1f68, size 0xa0, virtual false, abstract: false, final false
   inline void LT();
 
-  /// @brief Method MakeWorkingKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MakeWorkingKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<int32_t> MakeWorkingKey(::ArrayW<uint8_t> key);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase* New_ctor();
@@ -197,13 +197,13 @@ protected:
   constexpr SerpentEngineBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerpentEngineBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerpentEngineBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerpentEngineBase(SerpentEngineBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerpentEngineBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerpentEngineBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerpentEngineBase(SerpentEngineBase const&) = delete;
+  SerpentEngineBase(SerpentEngineBaseconst&) = delete;
 
   /// @brief Field PHI offset 0xffffffff size 0x4
   static constexpr int32_t PHI{ static_cast<int32_t>(0x9e3779b9) };

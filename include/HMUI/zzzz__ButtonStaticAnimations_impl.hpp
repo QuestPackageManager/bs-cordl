@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ButtonStaticAnimations.hpp"
+// IWYU pragma private; include "HMUI/ButtonStaticAnimations.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ButtonStaticAnimations_def.hpp"
 #include "HMUI/zzzz__NoTransitionsButton_def.hpp"

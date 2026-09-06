@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerEffectsSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerEffectsSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,23 +79,26 @@ protected:
   constexpr MultiplayerConnectedPlayerEffectsSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerEffectsSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerEffectsSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerEffectsSpawner(MultiplayerConnectedPlayerEffectsSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerEffectsSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerEffectsSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerEffectsSpawner(MultiplayerConnectedPlayerEffectsSpawner const&) = delete;
+  MultiplayerConnectedPlayerEffectsSpawner(MultiplayerConnectedPlayerEffectsSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6054 };
 
+  /// [SerializeField]
   /// @brief Field _noteDebrisSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebrisSpawner> ____noteDebrisSpawner;
 
+  /// [SerializeField]
   /// @brief Field _bombExplosionEffect, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BombExplosionEffect> ____bombExplosionEffect;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectEventManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* ____beatmapObjectEventManager;
 

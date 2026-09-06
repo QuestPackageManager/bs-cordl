@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeBitArray.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeBitArray.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeBitArray_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -277,7 +277,8 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::Check
                                                                                          { "CheckArgsUlong", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, pos, numBits);
 }
-// Ctor Parameters [CppParam { name: "Ptr", ty: "uint64_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Ptr", ty: "uint64_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::UnsafeBitArray_ReadOnly(uint64_t* Ptr, int32_t Length) noexcept {
   this->Ptr = Ptr;
   this->Length = Length;
@@ -975,9 +976,9 @@ constexpr Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::operator ::Syste
 constexpr ::System::IDisposable* Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Ptr", ty: "uint64_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "Ptr", ty: "uint64_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Allocator", ty:
+// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::UnsafeBitArray(uint64_t* Ptr, int32_t Length, int32_t Capacity,
                                                                                  ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator) noexcept {
   this->Ptr = Ptr;

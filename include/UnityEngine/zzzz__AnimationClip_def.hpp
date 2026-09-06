@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimationClip.hpp"
+// IWYU pragma private; include "UnityEngine/AnimationClip.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,8 @@ class AnimationClip;
 // Write type traits
 MARK_REF_T(::UnityEngine::AnimationClip*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AnimationClip*, "UnityEngine", "AnimationClip");
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationClip.bindings.h")]
+// [NativeType("Modules/Animation/AnimationClip.h")]
 // Dependencies UnityEngine.Motion
 namespace UnityEngine {
 // Is value type: false
@@ -54,6 +56,7 @@ public:
 
   __declspec(property(get = get_events, put = set_events)) ::ArrayW<::UnityEngine::AnimationEvent*> events;
 
+  /// @brief [NativeProperty("SampleRate", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_frameRate, put = set_frameRate)) float_t frameRate;
 
   __declspec(property(get = get_hasGenericRootTransform)) bool hasGenericRootTransform;
@@ -70,19 +73,25 @@ public:
 
   __declspec(property(get = get_legacy, put = set_legacy)) bool legacy;
 
+  /// @brief [NativeProperty("Length", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_length)) float_t length;
 
+  /// @brief [NativeProperty("Bounds", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_localBounds, put = set_localBounds)) ::UnityEngine::Bounds localBounds;
 
+  /// @brief [NativeProperty("StartTime", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_startTime)) float_t startTime;
 
+  /// @brief [NativeProperty("StopTime", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_stopTime)) float_t stopTime;
 
+  /// @brief [NativeProperty("WrapMode", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_wrapMode, put = set_wrapMode)) ::UnityEngine::WrapMode wrapMode;
 
   /// @brief Method AddEvent, addr 0x6a3af48, size 0x100, virtual false, abstract: false, final false
   inline void AddEvent(::UnityEngine::AnimationEvent* evt);
 
+  /// [FreeFunction(Name = "AnimationClipBindings::AddEventInternal", HasExplicitThis = true)]
   /// @brief Method AddEventInternal, addr 0x6a3b048, size 0x90, virtual false, abstract: false, final false
   inline void AddEventInternal(::System::Object* evt);
 
@@ -101,33 +110,39 @@ public:
   /// @brief Method EnsureQuaternionContinuity_Injected, addr 0x6a3a4c4, size 0x3c, virtual false, abstract: false, final false
   static inline void EnsureQuaternionContinuity_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "AnimationClipBindings::GetEventsInternal", HasExplicitThis = true)]
   /// @brief Method GetEventsInternal, addr 0x6a3b168, size 0x98, virtual false, abstract: false, final false
   inline void GetEventsInternal(::by_ref<::System::IntPtr> values, ::by_ref<int32_t> size);
 
   /// @brief Method GetEventsInternal_Injected, addr 0x6a3b450, size 0x54, virtual false, abstract: false, final false
   static inline void GetEventsInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::System::IntPtr> values, ::by_ref<int32_t> size);
 
+  /// [FreeFunction("AnimationClipBindings::Internal_CreateAnimationClip")]
   /// @brief Method Internal_CreateAnimationClip, addr 0x6a39b28, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_CreateAnimationClip(::UnityEngine::AnimationClip* self);
+  static inline void Internal_CreateAnimationClip(/* [Writable] */ ::UnityEngine::AnimationClip* self);
 
   static inline ::UnityEngine::AnimationClip* New_ctor();
-
-  /// @brief Method SampleAnimation, addr 0x6a39c20, size 0x128, virtual false, abstract: false, final false
-  static inline void SampleAnimation(::UnityEngine::GameObject* go, ::UnityEngine::AnimationClip* clip, float_t inTime, ::UnityEngine::WrapMode wrapMode);
 
   /// @brief Method SampleAnimation, addr 0x6a39b64, size 0x3c, virtual false, abstract: false, final false
   inline void SampleAnimation(::UnityEngine::GameObject* go, float_t time);
 
+  /// [NativeHeader("Modules/Animation/AnimationUtility.h")]
+  /// [FreeFunction]
+  /// @brief Method SampleAnimation, addr 0x6a39c20, size 0x128, virtual false, abstract: false, final false
+  static inline void SampleAnimation(/* [NotNull] */ ::UnityEngine::GameObject* go, /* [NotNull] */ ::UnityEngine::AnimationClip* clip, float_t inTime, ::UnityEngine::WrapMode wrapMode);
+
   /// @brief Method SampleAnimation_Injected, addr 0x6a39d48, size 0x64, virtual false, abstract: false, final false
   static inline void SampleAnimation_Injected(::System::IntPtr go, ::System::IntPtr clip, float_t inTime, ::UnityEngine::WrapMode wrapMode);
 
+  /// [FreeFunction("AnimationClipBindings::Internal_SetCurve", HasExplicitThis = true)]
   /// @brief Method SetCurve, addr 0x6a3a178, size 0x260, virtual false, abstract: false, final false
-  inline void SetCurve(::StringW relativePath, ::System::Type* type, ::StringW propertyName, ::UnityEngine::AnimationCurve* curve);
+  inline void SetCurve(/* [NotNull] */ ::StringW relativePath, /* [NotNull] */ ::System::Type* type, /* [NotNull] */ ::StringW propertyName, ::UnityEngine::AnimationCurve* curve);
 
   /// @brief Method SetCurve_Injected, addr 0x6a3a3d8, size 0x6c, virtual false, abstract: false, final false
   static inline void SetCurve_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> relativePath, ::System::Type* type,
                                        ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> propertyName, ::System::IntPtr curve);
 
+  /// [FreeFunction(Name = "AnimationClipBindings::SetEventsInternal", HasExplicitThis = true)]
   /// @brief Method SetEventsInternal, addr 0x6a3b364, size 0x98, virtual false, abstract: false, final false
   inline void SetEventsInternal(void* data, int32_t length);
 
@@ -137,6 +152,7 @@ public:
   /// @brief Method .ctor, addr 0x6a39a90, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NativeMethod("IsEmpty")]
   /// @brief Method get_empty, addr 0x6a3aae0, size 0x80, virtual false, abstract: false, final false
   inline bool get_empty();
 
@@ -152,42 +168,49 @@ public:
   /// @brief Method get_frameRate_Injected, addr 0x6a3a060, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_frameRate_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("HasGenericRootTransform")]
   /// @brief Method get_hasGenericRootTransform, addr 0x6a3ab9c, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasGenericRootTransform();
 
   /// @brief Method get_hasGenericRootTransform_Injected, addr 0x6a3ac1c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasGenericRootTransform_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("HasMotionCurves")]
   /// @brief Method get_hasMotionCurves, addr 0x6a3ad14, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasMotionCurves();
 
   /// @brief Method get_hasMotionCurves_Injected, addr 0x6a3ad94, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasMotionCurves_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("HasMotionFloatCurves")]
   /// @brief Method get_hasMotionFloatCurves, addr 0x6a3ac58, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasMotionFloatCurves();
 
   /// @brief Method get_hasMotionFloatCurves_Injected, addr 0x6a3acd8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasMotionFloatCurves_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("HasRootCurves")]
   /// @brief Method get_hasRootCurves, addr 0x6a3add0, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasRootCurves();
 
   /// @brief Method get_hasRootCurves_Injected, addr 0x6a3ae50, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasRootCurves_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "AnimationClipBindings::Internal_GetHasRootMotion", HasExplicitThis = true)]
   /// @brief Method get_hasRootMotion, addr 0x6a3ae8c, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasRootMotion();
 
   /// @brief Method get_hasRootMotion_Injected, addr 0x6a3af0c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasRootMotion_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsHumanMotion")]
   /// @brief Method get_humanMotion, addr 0x6a3aa24, size 0x80, virtual false, abstract: false, final false
   inline bool get_humanMotion();
 
   /// @brief Method get_humanMotion_Injected, addr 0x6a3aaa4, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_humanMotion_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsLegacy")]
   /// @brief Method get_legacy, addr 0x6a3a894, size 0x80, virtual false, abstract: false, final false
   inline bool get_legacy();
 
@@ -233,6 +256,7 @@ public:
   /// @brief Method set_frameRate_Injected, addr 0x6a3a12c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_frameRate_Injected(::System::IntPtr _unity_self, float_t value);
 
+  /// [NativeMethod("SetLegacy")]
   /// @brief Method set_legacy, addr 0x6a3a950, size 0x90, virtual false, abstract: false, final false
   inline void set_legacy(bool value);
 
@@ -257,13 +281,13 @@ protected:
   constexpr AnimationClip();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationClip", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationClip", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationClip(AnimationClip&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationClip", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationClip(AnimationClip const&) = delete;
+  AnimationClip(AnimationClipconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20212 };

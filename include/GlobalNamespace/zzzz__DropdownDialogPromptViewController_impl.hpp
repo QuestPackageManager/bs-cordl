@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DropdownDialogPromptViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/DropdownDialogPromptViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"
@@ -141,7 +141,7 @@ inline void GlobalNamespace::DropdownDialogPromptViewController___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::DropdownDialogPromptViewController___c::_Init_b__12_0(::System::ValueTuple_2<::StringW, int32_t> e) {
+inline ::StringW GlobalNamespace::DropdownDialogPromptViewController___c::_Init_b__12_0(/* [TupleElementNames(new[] { "text", "index" })] */ ::System::ValueTuple_2<::StringW, int32_t> e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController___c*>(),
                                                                                          { "<Init>b__12_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::StringW, int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, e);
@@ -424,20 +424,24 @@ inline int32_t GlobalNamespace::DropdownDialogPromptViewController::get_selected
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController*>(), { "get_selectedValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::DropdownDialogPromptViewController::add__didFinishAction(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value) {
+inline void GlobalNamespace::DropdownDialogPromptViewController::add__didFinishAction(
+    /* [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })] */ ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController*>(),
                                                            { "add__didFinishAction", {}, { ::i2c::type_of<::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::DropdownDialogPromptViewController::remove__didFinishAction(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value) {
+inline void GlobalNamespace::DropdownDialogPromptViewController::remove__didFinishAction(
+    /* [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })] */ ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController*>(),
                                                            { "remove__didFinishAction", {}, { ::i2c::type_of<::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::DropdownDialogPromptViewController::Init(::StringW title, ::StringW message, ::StringW dropdownLabel, ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>> dropdownValues,
-                                                                      ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* didFinishAction, ::ArrayW<::StringW> buttonTexts) {
+inline void GlobalNamespace::DropdownDialogPromptViewController::Init(
+    ::StringW title, ::StringW message, ::StringW dropdownLabel, /* [TupleElementNames(new[] { "text", "index" })] */ ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>> dropdownValues,
+    /* [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })] */ ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* didFinishAction,
+    /* [ParamArray] */ ::ArrayW<::StringW> buttonTexts) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownDialogPromptViewController*>(),

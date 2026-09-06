@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainCamera.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainCamera.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class MainCamera;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MainCamera*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MainCamera*, "", "MainCamera");
+// [ExecuteInEditMode]
+// [RequireComponent(typeof(UnityEngine.Camera))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -83,13 +85,13 @@ protected:
   constexpr MainCamera();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainCamera", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainCamera", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainCamera(MainCamera&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainCamera", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainCamera", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainCamera(MainCamera const&) = delete;
+  MainCamera(MainCameraconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6558 };

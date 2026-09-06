@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchCullingContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingContext.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingFlags_impl.hpp"
@@ -65,16 +65,17 @@ inline void UnityEngine::Rendering::BatchCullingContext::_ctor(::Unity::Collecti
                                                    inBatchCullingFlags, inViewID, inCullingLayerMask, inSceneCullingMask, inExclusionSplitMask, inReceiverPlaneOffset, inReceiverPlaneCount,
                                                    inOcclusionBuffer);
 }
-// Ctor Parameters [CppParam { name: "cullingPlanes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cullingSplits", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lodParameters", ty:
-// "::UnityEngine::Rendering::LODParameters", modifiers: "", def_value: Some("{}") }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "viewType", ty: "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: Some("{}") }, CppParam { name: "projectionType", ty:
-// "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "", def_value: Some("{}") }, CppParam { name: "cullingFlags", ty: "::UnityEngine::Rendering::BatchCullingFlags", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "viewID", ty: "::UnityEngine::Rendering::BatchPackedCullingViewID", modifiers: "", def_value: Some("{}") }, CppParam { name: "cullingLayerMask", ty:
-// "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "splitExclusionMask", ty:
-// "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "isOrthographic", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "receiverPlaneOffset", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "receiverPlaneCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "occlusionBuffer", ty: "::System::IntPtr",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "cullingPlanes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cullingSplits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodParameters", ty:
+// "::UnityEngine::Rendering::LODParameters", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "viewType", ty: "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "projectionType", ty: "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingFlags", ty:
+// "::UnityEngine::Rendering::BatchCullingFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewID", ty: "::UnityEngine::Rendering::BatchPackedCullingViewID", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sceneCullingMask", ty:
+// "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "splitExclusionMask", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "isOrthographic", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "receiverPlaneOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "receiverPlaneCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occlusionBuffer", ty: "::System::IntPtr", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BatchCullingContext::BatchCullingContext(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> cullingPlanes,
                                                                              ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit> cullingSplits,
                                                                              ::UnityEngine::Rendering::LODParameters lodParameters, ::UnityEngine::Matrix4x4 localToWorldMatrix,

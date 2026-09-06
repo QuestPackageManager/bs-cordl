@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceNumInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceNumInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ MARK_VAL_T(::UnityEngine::Rendering::InstanceNumInfo);
 MARK_VAL_T(::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::InstanceNumInfo, "UnityEngine.Rendering", "InstanceNumInfo");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer, "UnityEngine.Rendering", "InstanceNumInfo/<InstanceNums>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -36,7 +38,7 @@ public:
   // @brief default ctor
   constexpr InstanceNumInfo__InstanceNums_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceNumInfo__InstanceNums_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -91,7 +93,7 @@ public:
   // @brief default ctor
   constexpr InstanceNumInfo();
 
-  // Ctor Parameters [CppParam { name: "InstanceNums", ty: "::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "InstanceNums", ty: "::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceNumInfo(::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer InstanceNums) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -100,6 +102,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [FixedBuffer(typeof(System.Int32), 2)]
   /// @brief Field InstanceNums, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer InstanceNums;
 

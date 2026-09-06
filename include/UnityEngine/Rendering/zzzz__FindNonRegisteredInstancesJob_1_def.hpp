@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FindNonRegisteredInstancesJob_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FindNonRegisteredInstancesJob_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,15 +14,19 @@ class IJobParallelForBatch;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T> struct FindNonRegisteredInstancesJob_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FindNonRegisteredInstancesJob_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::FindNonRegisteredInstancesJob_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::FindNonRegisteredInstancesJob_1, "UnityEngine.Rendering", "FindNonRegisteredInstancesJob`1");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1::ParallelWriter<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.FindNonRegisteredInstancesJob`1<T>
 struct CORDL_TYPE FindNonRegisteredInstancesJob_1 {
@@ -41,9 +45,9 @@ public:
   // @brief default ctor
   constexpr FindNonRegisteredInstancesJob_1();
 
-  // Ctor Parameters [CppParam { name: "instanceIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "hashMap", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2<int32_t,T>", modifiers: "", def_value: None }, CppParam { name: "outInstancesWriter", ty:
-  // "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instanceIDs", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "hashMap", ty:
+  // "::Unity::Collections::NativeParallelHashMap_2<int32_t,T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "outInstancesWriter", ty:
+  // "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr FindNonRegisteredInstancesJob_1(::Unity::Collections::NativeArray_1<int32_t> instanceIDs, ::Unity::Collections::NativeParallelHashMap_2<int32_t, T> hashMap,
                                             ::Unity::Collections::NativeList_1_ParallelWriter<int32_t> outInstancesWriter) noexcept;
 
@@ -56,12 +60,15 @@ public:
   /// @brief Field k_BatchSize offset 0xffffffff size 0x4
   static constexpr int32_t k_BatchSize{ static_cast<int32_t>(0x80) };
 
+  /// [ReadOnly]
   /// @brief Field instanceIDs, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> instanceIDs;
 
+  /// [ReadOnly]
   /// @brief Field hashMap, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2<int32_t, T> hashMap;
 
+  /// [WriteOnly]
   /// @brief Field outInstancesWriter, offset: 0x20, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1_ParallelWriter<int32_t> outInstancesWriter;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -131,38 +131,47 @@ protected:
   constexpr TutorialInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialInstaller(TutorialInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialInstaller(TutorialInstaller const&) = delete;
+  TutorialInstaller(TutorialInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6316 };
 
+  /// [SerializeField]
   /// @brief Field _audioClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
+  /// [SerializeField]
   /// @brief Field _songBPM, offset: 0x30, size: 0x4, def value: None
   float_t ____songBPM;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _playerHeightDetectorPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeightDetector> ____playerHeightDetectorPrefab;
 
+  /// [SerializeField]
   /// @brief Field _effectPoolsManualInstaller, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> ____effectPoolsManualInstaller;
 
+  /// [Inject]
   /// @brief Field _sceneSetupData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::TutorialSceneSetupData* ____sceneSetupData;
 
+  /// [Inject]
   /// @brief Field _environmentSceneSetupData, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentSceneSetupData* ____environmentSceneSetupData;
 
+  /// [Inject]
   /// @brief Field _gameplayAdditionalInformationSetupData, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::GameplayAdditionalInformationSetupData* ____gameplayAdditionalInformationSetupData;
 
+  /// [Inject]
   /// @brief Field _environmentsList, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsList;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputInteractionContext.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputInteractionContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct InputInteractionContext_Flags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::InputInteractionContext_Flags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputInteractionContext_Flags, "UnityEngine.InputSystem", "InputInteractionContext/Flags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -41,7 +42,7 @@ public:
   // @brief default ctor
   constexpr InputInteractionContext_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputInteractionContext_Flags(int32_t value__) noexcept;
 
   /// @brief Field TimerHasExpired value: I32(2)

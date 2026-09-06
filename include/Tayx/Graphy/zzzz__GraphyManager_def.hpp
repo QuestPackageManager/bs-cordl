@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\GraphyManager.hpp"
+// IWYU pragma private; include "Tayx/Graphy/GraphyManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,7 +129,7 @@ public:
   // @brief default ctor
   constexpr GraphyManager_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyManager_Mode(int32_t value__) noexcept;
 
   /// @brief Field FULL value: I32(0)
@@ -186,7 +186,7 @@ public:
   // @brief default ctor
   constexpr GraphyManager_ModuleType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyManager_ModuleType(int32_t value__) noexcept;
 
   /// @brief Field ADVANCED value: I32(3)
@@ -250,7 +250,7 @@ public:
   // @brief default ctor
   constexpr GraphyManager_ModuleState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyManager_ModuleState(int32_t value__) noexcept;
 
   /// @brief Field BACKGROUND value: I32(3)
@@ -317,7 +317,7 @@ public:
   // @brief default ctor
   constexpr GraphyManager_ModulePosition();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyManager_ModulePosition(int32_t value__) noexcept;
 
   /// @brief Field BOTTOM_LEFT value: I32(3)
@@ -382,7 +382,7 @@ public:
   // @brief default ctor
   constexpr GraphyManager_LookForAudioListener();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyManager_LookForAudioListener(int32_t value__) noexcept;
 
   /// @brief Field ALWAYS value: I32(0)
@@ -450,7 +450,7 @@ public:
   // @brief default ctor
   constexpr GraphyManager_ModulePreset();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphyManager_ModulePreset(int32_t value__) noexcept;
 
   /// @brief Field FPS_BASIC value: I32(0)
@@ -1303,125 +1303,169 @@ protected:
   constexpr GraphyManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphyManager(GraphyManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphyManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphyManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphyManager(GraphyManager const&) = delete;
+  GraphyManager(GraphyManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21485 };
 
+  /// [SerializeField]
   /// @brief Field m_graphyMode, offset: 0x20, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyManager_Mode ___m_graphyMode;
 
+  /// [SerializeField]
   /// @brief Field m_enableOnStartup, offset: 0x24, size: 0x1, def value: None
   bool ___m_enableOnStartup;
 
+  /// [SerializeField]
   /// @brief Field m_keepAlive, offset: 0x25, size: 0x1, def value: None
   bool ___m_keepAlive;
 
+  /// [SerializeField]
   /// @brief Field m_background, offset: 0x26, size: 0x1, def value: None
   bool ___m_background;
 
+  /// [SerializeField]
   /// @brief Field m_backgroundColor, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ___m_backgroundColor;
 
+  /// [SerializeField]
   /// @brief Field m_enableHotkeys, offset: 0x38, size: 0x1, def value: None
   bool ___m_enableHotkeys;
 
+  /// [SerializeField]
   /// @brief Field m_toggleModeKeyCode, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Key ___m_toggleModeKeyCode;
 
+  /// [SerializeField]
   /// @brief Field m_toggleModeCtrl, offset: 0x40, size: 0x1, def value: None
   bool ___m_toggleModeCtrl;
 
+  /// [SerializeField]
   /// @brief Field m_toggleModeAlt, offset: 0x41, size: 0x1, def value: None
   bool ___m_toggleModeAlt;
 
+  /// [SerializeField]
   /// @brief Field m_toggleActiveKeyCode, offset: 0x44, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Key ___m_toggleActiveKeyCode;
 
+  /// [SerializeField]
   /// @brief Field m_toggleActiveCtrl, offset: 0x48, size: 0x1, def value: None
   bool ___m_toggleActiveCtrl;
 
+  /// [SerializeField]
   /// @brief Field m_toggleActiveAlt, offset: 0x49, size: 0x1, def value: None
   bool ___m_toggleActiveAlt;
 
+  /// [SerializeField]
   /// @brief Field m_graphModulePosition, offset: 0x4c, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyManager_ModulePosition ___m_graphModulePosition;
 
+  /// [SerializeField]
   /// @brief Field m_fpsModuleState, offset: 0x50, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyManager_ModuleState ___m_fpsModuleState;
 
+  /// [SerializeField]
   /// @brief Field m_goodFpsColor, offset: 0x54, size: 0x10, def value: None
   ::UnityEngine::Color ___m_goodFpsColor;
 
+  /// [SerializeField]
   /// @brief Field m_goodFpsThreshold, offset: 0x64, size: 0x4, def value: None
   int32_t ___m_goodFpsThreshold;
 
+  /// [SerializeField]
   /// @brief Field m_cautionFpsColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ___m_cautionFpsColor;
 
+  /// [SerializeField]
   /// @brief Field m_cautionFpsThreshold, offset: 0x78, size: 0x4, def value: None
   int32_t ___m_cautionFpsThreshold;
 
+  /// [SerializeField]
   /// @brief Field m_criticalFpsColor, offset: 0x7c, size: 0x10, def value: None
   ::UnityEngine::Color ___m_criticalFpsColor;
 
+  /// [Range(10, 300)]
+  /// [SerializeField]
   /// @brief Field m_fpsGraphResolution, offset: 0x8c, size: 0x4, def value: None
   int32_t ___m_fpsGraphResolution;
 
+  /// [Range(1, 200)]
+  /// [SerializeField]
   /// @brief Field m_fpsTextUpdateRate, offset: 0x90, size: 0x4, def value: None
   int32_t ___m_fpsTextUpdateRate;
 
+  /// [SerializeField]
   /// @brief Field m_ramModuleState, offset: 0x94, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyManager_ModuleState ___m_ramModuleState;
 
+  /// [SerializeField]
   /// @brief Field m_allocatedRamColor, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ___m_allocatedRamColor;
 
+  /// [SerializeField]
   /// @brief Field m_reservedRamColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ___m_reservedRamColor;
 
+  /// [SerializeField]
   /// @brief Field m_monoRamColor, offset: 0xb8, size: 0x10, def value: None
   ::UnityEngine::Color ___m_monoRamColor;
 
+  /// [Range(10, 300)]
+  /// [SerializeField]
   /// @brief Field m_ramGraphResolution, offset: 0xc8, size: 0x4, def value: None
   int32_t ___m_ramGraphResolution;
 
+  /// [Range(1, 200)]
+  /// [SerializeField]
   /// @brief Field m_ramTextUpdateRate, offset: 0xcc, size: 0x4, def value: None
   int32_t ___m_ramTextUpdateRate;
 
+  /// [SerializeField]
   /// @brief Field m_audioModuleState, offset: 0xd0, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyManager_ModuleState ___m_audioModuleState;
 
+  /// [SerializeField]
   /// @brief Field m_findAudioListenerInCameraIfNull, offset: 0xd4, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyManager_LookForAudioListener ___m_findAudioListenerInCameraIfNull;
 
+  /// [SerializeField]
   /// @brief Field m_audioListener, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioListener> ___m_audioListener;
 
+  /// [SerializeField]
   /// @brief Field m_audioGraphColor, offset: 0xe0, size: 0x10, def value: None
   ::UnityEngine::Color ___m_audioGraphColor;
 
+  /// [Range(10, 300)]
+  /// [SerializeField]
   /// @brief Field m_audioGraphResolution, offset: 0xf0, size: 0x4, def value: None
   int32_t ___m_audioGraphResolution;
 
+  /// [Range(1, 200)]
+  /// [SerializeField]
   /// @brief Field m_audioTextUpdateRate, offset: 0xf4, size: 0x4, def value: None
   int32_t ___m_audioTextUpdateRate;
 
+  /// [SerializeField]
   /// @brief Field m_FFTWindow, offset: 0xf8, size: 0x4, def value: None
   ::UnityEngine::FFTWindow ___m_FFTWindow;
 
+  /// [Tooltip("Must be a power of 2 and between 64-8192")]
+  /// [SerializeField]
   /// @brief Field m_spectrumSize, offset: 0xfc, size: 0x4, def value: None
   int32_t ___m_spectrumSize;
 
+  /// [SerializeField]
   /// @brief Field m_advancedModulePosition, offset: 0x100, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyManager_ModulePosition ___m_advancedModulePosition;
 
+  /// [SerializeField]
   /// @brief Field m_advancedModuleState, offset: 0x104, size: 0x4, def value: None
   ::Tayx::Graphy::GraphyManager_ModuleState ___m_advancedModuleState;
 

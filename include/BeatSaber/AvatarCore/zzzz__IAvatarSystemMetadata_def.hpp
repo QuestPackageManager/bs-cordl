@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\IAvatarSystemMetadata.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/IAvatarSystemMetadata.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,15 +28,15 @@ public:
 
   __declspec(property(get = get_typeIdentifier)) ::BeatSaber::AvatarCore::AvatarSystemIdentifier typeIdentifier;
 
-  /// @brief Method get_avatarCreated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_avatarCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
-  /// @brief Method get_typeIdentifier, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_typeIdentifier, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::BeatSaber::AvatarCore::AvatarSystemIdentifier get_typeIdentifier();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAvatarSystemMetadata", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAvatarSystemMetadata", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAvatarSystemMetadata(IAvatarSystemMetadata const&) = delete;
+  IAvatarSystemMetadata(IAvatarSystemMetadataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21660 };

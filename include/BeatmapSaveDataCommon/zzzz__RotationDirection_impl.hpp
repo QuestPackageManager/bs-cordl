@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon\RotationDirection.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon/RotationDirection.hpp"
 #include "BeatmapSaveDataCommon/zzzz__RotationDirection_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatmapSaveDataCommon::RotationDirection::RotationDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }

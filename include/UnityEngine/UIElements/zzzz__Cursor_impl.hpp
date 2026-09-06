@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Cursor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Cursor.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -208,8 +208,9 @@ constexpr UnityEngine::UIElements::Cursor::operator ::System::IEquatable_1<::Uni
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>* UnityEngine::UIElements::Cursor::i___System__IEquatable_1___UnityEngine__UIElements__Cursor_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::Cursor>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_texture_k__BackingField", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_hotspot_k__BackingField", ty:
-// "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "_defaultCursorId_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_texture_k__BackingField", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_hotspot_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_defaultCursorId_k__BackingField", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Cursor::Cursor(::UnityW<::UnityEngine::Texture2D> _texture_k__BackingField, ::UnityEngine::Vector2 _hotspot_k__BackingField,
                                                     int32_t _defaultCursorId_k__BackingField) noexcept {
   this->_texture_k__BackingField = _texture_k__BackingField;

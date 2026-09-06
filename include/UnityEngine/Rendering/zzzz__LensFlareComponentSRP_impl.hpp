@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LensFlareComponentSRP.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LensFlareComponentSRP.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LensFlareComponentSRP_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LensFlareComponentSRP_def.hpp"
@@ -8,7 +8,7 @@
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Light_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::LensFlareComponentSRP_Version::LensFlareComponentSRP_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }

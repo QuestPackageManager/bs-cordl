@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\CommandLine\CommandLineParserResult.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/CommandLineParserResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_def.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentOption_def.hpp"
@@ -241,7 +241,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::Dotne
   }
 };
 inline void
-BGLib::DotnetExtension::CommandLine::CommandLineParserResult::_ctor(::StringW applicationPath,
+BGLib::DotnetExtension::CommandLine::CommandLineParserResult::_ctor(/* [Nullable(2)] */ ::StringW applicationPath,
                                                                     ::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>* parsed,
                                                                     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* unexpectedArguments) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -283,9 +283,9 @@ inline ::StringW BGLib::DotnetExtension::CommandLine::CommandLineParserResult::T
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "applicationPath", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_parsed", ty:
-// "::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption,::StringW>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "unexpectedArguments", ty: "::System::Collections::Generic::IReadOnlyList_1<::StringW>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "applicationPath", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_parsed", ty:
+// "::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption,::StringW>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "unexpectedArguments", ty: "::System::Collections::Generic::IReadOnlyList_1<::StringW>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::CommandLineParserResult(
     ::StringW applicationPath, ::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>* _parsed,
     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* unexpectedArguments) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ServerPlayerListViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ServerPlayerListViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -222,27 +222,35 @@ public:
   /// @brief Method .ctor, addr 0x5965778, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didOpenInvitePanelEvent, addr 0x59647f0, size 0xac, virtual false, abstract: false, final false
   inline void add_didOpenInvitePanelEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_kickPlayerEvent, addr 0x5964670, size 0xc0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectSuggestedBeatmapEvent, addr 0x5964370, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x59644f0, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didOpenInvitePanelEvent, addr 0x596489c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didOpenInvitePanelEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_kickPlayerEvent, addr 0x5964730, size 0xc0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectSuggestedBeatmapEvent, addr 0x5964430, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x59645b0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
@@ -252,13 +260,13 @@ protected:
   constexpr ServerPlayerListViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServerPlayerListViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerPlayerListViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerPlayerListViewController(ServerPlayerListViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServerPlayerListViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerPlayerListViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServerPlayerListViewController(ServerPlayerListViewController const&) = delete;
+  ServerPlayerListViewController(ServerPlayerListViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6985 };
@@ -269,39 +277,53 @@ public:
   /// @brief Field kLabelCantInvitePlayersNotLobbyOwnerLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kLabelCantInvitePlayersNotLobbyOwnerLocalizationKey{ u"LABEL_CANT_INVITE_PLAYERS_NOT_LOBBY_OWNER" };
 
+  /// [SerializeField]
   /// @brief Field _gameServerPlayersTableView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerPlayersTableView> ____gameServerPlayersTableView;
 
+  /// [Header("Button")]
+  /// [SerializeField]
   /// @brief Field _invitePlayerButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____invitePlayerButton;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _cantInvitePlayerHoverHint, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____cantInvitePlayerHoverHint;
 
+  /// [Inject]
   /// @brief Field _invitePlatformHandler, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::IInvitePlatformHandler* ____invitePlatformHandler;
 
+  /// [Inject]
   /// @brief Field _lobbyPlayersDataModel, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyPlayersDataModel* ____lobbyPlayersDataModel;
 
+  /// [Inject]
   /// @brief Field _lobbyStateDataModel, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;
 
+  /// [Inject]
   /// @brief Field _lobbyPlayerPermissionsModel, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::LobbyPlayerPermissionsModel* ____lobbyPlayerPermissionsModel;
 
+  /// [Inject]
   /// @brief Field _lobbyGameStateController, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyGameStateController* ____lobbyGameStateController;
 
+  /// [CompilerGenerated]
   /// @brief Field selectSuggestedBeatmapEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapKey>* ___selectSuggestedBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field selectSuggestedGameplayModifiersEvent, offset: 0xc0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::GameplayModifiers*>* ___selectSuggestedGameplayModifiersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field kickPlayerEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___kickPlayerEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didOpenInvitePanelEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action* ___didOpenInvitePanelEvent;
 

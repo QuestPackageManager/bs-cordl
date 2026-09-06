@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TrackAssetExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TrackAssetExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class TrackAssetExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::TrackAssetExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::TrackAssetExtensions*, "UnityEngine.Timeline", "TrackAssetExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -25,9 +26,11 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TrackAssetExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method GetGroup, addr 0x69c79c0, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::GroupTrack> GetGroup(::UnityEngine::Timeline::TrackAsset* asset);
 
+  /// [Extension]
   /// @brief Method SetGroup, addr 0x69c7a8c, size 0x32c, virtual false, abstract: false, final false
   static inline void SetGroup(::UnityEngine::Timeline::TrackAsset* asset, ::UnityEngine::Timeline::GroupTrack* group);
 
@@ -37,13 +40,13 @@ protected:
   constexpr TrackAssetExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAssetExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAssetExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackAssetExtensions(TrackAssetExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAssetExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAssetExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackAssetExtensions(TrackAssetExtensions const&) = delete;
+  TrackAssetExtensions(TrackAssetExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19220 };

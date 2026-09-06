@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextWrappingModes.hpp"
+// IWYU pragma private; include "TMPro/TextWrappingModes.hpp"
 #include "TMPro/zzzz__TextWrappingModes_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TextWrappingModes::TextWrappingModes(int32_t value__) noexcept {
   this->value__ = value__;
 }

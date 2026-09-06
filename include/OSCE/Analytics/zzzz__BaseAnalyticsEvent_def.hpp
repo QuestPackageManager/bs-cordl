@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\BaseAnalyticsEvent.hpp"
+// IWYU pragma private; include "OSCE/Analytics/BaseAnalyticsEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ namespace OSCE::Analytics {
 class CORDL_TYPE BaseAnalyticsEvent : public ::System::Object {
 public:
   // Declarations
+  /// @brief [JsonIgnore]
   __declspec(property(get = get_CreatedByPool, put = set_CreatedByPool)) bool CreatedByPool;
 
   /// @brief Field <CreatedByPool>k__BackingField, offset 0x20, size 0x1
@@ -44,6 +45,7 @@ public:
   /// @brief Field client_time, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_client_time, put = __cordl_internal_set_client_time)) int32_t client_time;
 
+  /// @brief [JsonIgnore]
   __declspec(property(get = get_logger, put = set_logger)) ::StringW logger;
 
   /// @brief Convert operator to "::OSCE::Networking::IPureCSharpPoolElement"
@@ -93,18 +95,22 @@ public:
   /// @brief Method .ctor, addr 0x5f39780, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CreatedByPool, addr 0x5f39570, size 0x8, virtual true, abstract: false, final true
   inline bool get_CreatedByPool();
 
+  /// [CompilerGenerated]
   /// @brief Method get_logger, addr 0x5f39560, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_logger();
 
   /// @brief Convert to "::OSCE::Networking::IPureCSharpPoolElement"
   constexpr ::OSCE::Networking::IPureCSharpPoolElement* i___OSCE__Networking__IPureCSharpPoolElement() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_CreatedByPool, addr 0x5f39578, size 0x8, virtual true, abstract: false, final true
   inline void set_CreatedByPool(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_logger, addr 0x5f39568, size 0x8, virtual false, abstract: false, final false
   inline void set_logger(::StringW value);
 
@@ -114,13 +120,13 @@ protected:
   constexpr BaseAnalyticsEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseAnalyticsEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseAnalyticsEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseAnalyticsEvent(BaseAnalyticsEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseAnalyticsEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseAnalyticsEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseAnalyticsEvent(BaseAnalyticsEvent const&) = delete;
+  BaseAnalyticsEvent(BaseAnalyticsEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21900 };
@@ -128,9 +134,11 @@ public:
   /// @brief Field client_time, offset: 0x10, size: 0x4, def value: None
   int32_t ___client_time;
 
+  /// [CompilerGenerated]
   /// @brief Field <logger>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____logger_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CreatedByPool>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____CreatedByPool_k__BackingField;
 

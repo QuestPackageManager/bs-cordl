@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Contexts\CrossContextDelegate.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/CrossContextDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__CrossContextDelegate_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Dropdown.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Dropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -51,7 +52,10 @@ namespace UnityEngine::UI::CoroutineTween {
 struct FloatTween;
 }
 namespace UnityEngine::UI::CoroutineTween {
-template <typename T> class TweenRunner_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+class TweenRunner_1;
 }
 namespace UnityEngine::UI {
 class Dropdown_DropdownEvent;
@@ -239,26 +243,30 @@ protected:
   constexpr Dropdown_DropdownItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_DropdownItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_DropdownItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dropdown_DropdownItem(Dropdown_DropdownItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_DropdownItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_DropdownItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown_DropdownItem(Dropdown_DropdownItem const&) = delete;
+  Dropdown_DropdownItem(Dropdown_DropdownItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17403 };
 
+  /// [SerializeField]
   /// @brief Field m_Text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_Text;
 
+  /// [SerializeField]
   /// @brief Field m_Image, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_Image;
 
+  /// [SerializeField]
   /// @brief Field m_RectTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_RectTransform;
 
+  /// [SerializeField]
   /// @brief Field m_Toggle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ___m_Toggle;
 
@@ -343,20 +351,22 @@ protected:
   constexpr Dropdown_OptionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_OptionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_OptionData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dropdown_OptionData(Dropdown_OptionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_OptionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_OptionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown_OptionData(Dropdown_OptionData const&) = delete;
+  Dropdown_OptionData(Dropdown_OptionDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17404 };
 
+  /// [SerializeField]
   /// @brief Field m_Text, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Text;
 
+  /// [SerializeField]
   /// @brief Field m_Image, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___m_Image;
 
@@ -405,17 +415,18 @@ protected:
   constexpr Dropdown_OptionDataList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_OptionDataList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_OptionDataList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dropdown_OptionDataList(Dropdown_OptionDataList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_OptionDataList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_OptionDataList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown_OptionDataList(Dropdown_OptionDataList const&) = delete;
+  Dropdown_OptionDataList(Dropdown_OptionDataListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17405 };
 
+  /// [SerializeField]
   /// @brief Field m_Options, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>* ___m_Options;
 
@@ -445,13 +456,13 @@ protected:
   constexpr Dropdown_DropdownEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_DropdownEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_DropdownEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dropdown_DropdownEvent(Dropdown_DropdownEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_DropdownEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown_DropdownEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown_DropdownEvent(Dropdown_DropdownEvent const&) = delete;
+  Dropdown_DropdownEvent(Dropdown_DropdownEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17406 };
@@ -462,6 +473,7 @@ public:
 static_assert(sizeof(::UnityEngine::UI::Dropdown_DropdownEvent) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -501,13 +513,13 @@ protected:
   constexpr Dropdown___c__DisplayClass63_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown___c__DisplayClass63_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown___c__DisplayClass63_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dropdown___c__DisplayClass63_0(Dropdown___c__DisplayClass63_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown___c__DisplayClass63_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown___c__DisplayClass63_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown___c__DisplayClass63_0(Dropdown___c__DisplayClass63_0 const&) = delete;
+  Dropdown___c__DisplayClass63_0(Dropdown___c__DisplayClass63_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17407 };
@@ -528,6 +540,7 @@ static_assert(offsetof(::UnityEngine::UI::Dropdown___c__DisplayClass63_0, _____4
 static_assert(sizeof(::UnityEngine::UI::Dropdown___c__DisplayClass63_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -563,17 +576,22 @@ public:
   /// @brief Method MoveNext, addr 0x6c2330c, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UI::Dropdown__DelayedDestroyDropdownList_d__75* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6c233b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6c233c0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6c233f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6c23308, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -601,6 +619,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6c22f88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -619,13 +638,13 @@ protected:
   constexpr Dropdown__DelayedDestroyDropdownList_d__75();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown__DelayedDestroyDropdownList_d__75", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown__DelayedDestroyDropdownList_d__75", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dropdown__DelayedDestroyDropdownList_d__75(Dropdown__DelayedDestroyDropdownList_d__75&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown__DelayedDestroyDropdownList_d__75", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown__DelayedDestroyDropdownList_d__75", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown__DelayedDestroyDropdownList_d__75(Dropdown__DelayedDestroyDropdownList_d__75 const&) = delete;
+  Dropdown__DelayedDestroyDropdownList_d__75(Dropdown__DelayedDestroyDropdownList_d__75const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17408 };
@@ -656,7 +675,9 @@ static_assert(offsetof(::UnityEngine::UI::Dropdown__DelayedDestroyDropdownList_d
 static_assert(sizeof(::UnityEngine::UI::Dropdown__DelayedDestroyDropdownList_d__75) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UI
-// Dependencies UnityEngine.UI.Selectable
+// [AddComponentMenu("UI/Legacy/Dropdown", 102)]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
+// Dependencies UnityEngine.Component, UnityEngine.UI.Selectable
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: UnityEngine.UI.Dropdown
@@ -785,6 +806,7 @@ public:
   /// @brief Method CreateItem, addr 0x6c22d6c, size 0x74, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Dropdown_DropdownItem> CreateItem(::UnityEngine::UI::Dropdown_DropdownItem* itemTemplate);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UI.Dropdown::<DelayedDestroyDropdownList>d__75))]
   /// @brief Method DelayedDestroyDropdownList, addr 0x6c22f24, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedDestroyDropdownList(float_t delay);
 
@@ -798,7 +820,9 @@ public:
   inline void DestroyItem(::UnityEngine::UI::Dropdown_DropdownItem* item);
 
   /// @brief Method GetOrAddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
 
   /// @brief Method Hide, addr 0x6c221ac, size 0x100, virtual false, abstract: false, final false
   inline void Hide();
@@ -1007,13 +1031,13 @@ protected:
   constexpr Dropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dropdown(Dropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown(Dropdown const&) = delete;
+  Dropdown(Dropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17409 };
@@ -1021,30 +1045,43 @@ public:
   /// @brief Field kHighSortingLayer offset 0xffffffff size 0x4
   static constexpr int32_t kHighSortingLayer{ static_cast<int32_t>(0x7530) };
 
+  /// [SerializeField]
   /// @brief Field m_Template, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_Template;
 
+  /// [SerializeField]
   /// @brief Field m_CaptionText, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_CaptionText;
 
+  /// [SerializeField]
   /// @brief Field m_CaptionImage, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_CaptionImage;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_ItemText, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_ItemText;
 
+  /// [SerializeField]
   /// @brief Field m_ItemImage, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_ItemImage;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x128, size: 0x4, def value: None
   int32_t ___m_Value;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_Options, offset: 0x130, size: 0x8, def value: None
   ::UnityEngine::UI::Dropdown_OptionDataList* ___m_Options;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_OnValueChanged, offset: 0x138, size: 0x8, def value: None
   ::UnityEngine::UI::Dropdown_DropdownEvent* ___m_OnValueChanged;
 
+  /// [SerializeField]
   /// @brief Field m_AlphaFadeSpeed, offset: 0x140, size: 0x4, def value: None
   float_t ___m_AlphaFadeSpeed;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BlockLevelGameplayAnalyticsEventsCache.hpp"
+// IWYU pragma private; include "GlobalNamespace/BlockLevelGameplayAnalyticsEventsCache.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BlockLevelGameplayAnalyticsEventsCache_def.hpp"
@@ -59,9 +59,10 @@ inline void GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlock
                                                                                          { "WriteFieldsToJson", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonWriter*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, jsonWriter);
 }
-// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Score", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "ColorType", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LineIndex", ty:
-// "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "LineLayer", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Score", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "ColorType", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "LineIndex", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LineLayer", ty:
+// "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData(float_t Beat, float_t Score, uint8_t ColorType,
                                                                                                                                               uint8_t GameplayType,
                                                                                                                                               ::System::Nullable_1<uint8_t> LineIndex,
@@ -121,9 +122,10 @@ inline void GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockD
                                                                                          { "WriteFieldsToJson", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonWriter*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, jsonWriter);
 }
-// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "FailReason", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "ColorType", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LineIndex", ty:
-// "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "LineLayer", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FailReason", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "ColorType", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "LineIndex", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LineLayer", ty:
+// "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData(float_t Beat, uint8_t FailReason, uint8_t ColorType,
                                                                                                                                             uint8_t GameplayType,
                                                                                                                                             ::System::Nullable_1<uint8_t> LineIndex,
@@ -182,9 +184,9 @@ inline void GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockD
                                                                                          { "WriteFieldsToJson", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonWriter*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, jsonWriter);
 }
-// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ColorType", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "GameplayType", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "LineIndex", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "LineLayer", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ColorType", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "GameplayType", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LineIndex", ty: "::System::Nullable_1<uint8_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "LineLayer", ty: "::System::Nullable_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData(float_t Beat, uint8_t ColorType, uint8_t GameplayType,
                                                                                                                                             ::System::Nullable_1<uint8_t> LineIndex,
                                                                                                                                             ::System::Nullable_1<uint8_t> LineLayer) noexcept {
@@ -234,7 +236,7 @@ inline void GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData:
                                                                                          { "WriteFieldsToJson", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonWriter*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, jsonWriter);
 }
-// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData::BlockLevelGameplayAnalyticsEventsCache_BombHitData(float_t Beat) noexcept {
   this->Beat = Beat;
 }
@@ -278,7 +280,8 @@ inline void GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitD
                                                                                          { "WriteFieldsToJson", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonWriter*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, jsonWriter);
 }
-// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Duration", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Beat", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Duration", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData(float_t Beat, float_t Duration) noexcept {
   this->Beat = Beat;
   this->Duration = Duration;

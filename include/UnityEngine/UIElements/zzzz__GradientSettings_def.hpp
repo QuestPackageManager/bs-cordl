@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\GradientSettings.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/GradientSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,9 +27,9 @@ public:
   // @brief default ctor
   constexpr GradientSettings();
 
-  // Ctor Parameters [CppParam { name: "gradientType", ty: "::UnityEngine::UIElements::GradientType", modifiers: "", def_value: None }, CppParam { name: "addressMode", ty:
-  // "::UnityEngine::UIElements::AddressMode", modifiers: "", def_value: None }, CppParam { name: "radialFocus", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name:
-  // "location", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "gradientType", ty: "::UnityEngine::UIElements::GradientType", modifiers: "", def_value: None, comment: None }, CppParam { name: "addressMode", ty:
+  // "::UnityEngine::UIElements::AddressMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "radialFocus", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "location", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None, comment: None }]
   constexpr GradientSettings(::UnityEngine::UIElements::GradientType gradientType, ::UnityEngine::UIElements::AddressMode addressMode, ::UnityEngine::Vector2 radialFocus,
                              ::UnityEngine::RectInt location) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\NoAllocHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/NoAllocHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,13 +73,13 @@ protected:
   constexpr NoAllocHelpers_ListPrivateFieldAccess_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers_ListPrivateFieldAccess_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers_ListPrivateFieldAccess_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoAllocHelpers_ListPrivateFieldAccess_1(NoAllocHelpers_ListPrivateFieldAccess_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers_ListPrivateFieldAccess_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers_ListPrivateFieldAccess_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoAllocHelpers_ListPrivateFieldAccess_1(NoAllocHelpers_ListPrivateFieldAccess_1 const&) = delete;
+  NoAllocHelpers_ListPrivateFieldAccess_1(NoAllocHelpers_ListPrivateFieldAccess_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10354 };
@@ -116,7 +116,9 @@ public:
   template <typename T> static inline void ResetListContents(::System::Collections::Generic::List_1<T>* list, ::System::ReadOnlySpan_1<T> span);
 
   /// @brief Method ResetListSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void ResetListSize(::System::Collections::Generic::List_1<T>* list, int32_t size);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void ResetListSize(::System::Collections::Generic::List_1<T>* list, int32_t size);
 
   /// @brief Method SafeLength, addr 0x6ae5c90, size 0x10, virtual false, abstract: false, final false
   static inline int32_t SafeLength(::System::Array* values);
@@ -130,13 +132,13 @@ protected:
   constexpr NoAllocHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoAllocHelpers(NoAllocHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoAllocHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoAllocHelpers(NoAllocHelpers const&) = delete;
+  NoAllocHelpers(NoAllocHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10355 };

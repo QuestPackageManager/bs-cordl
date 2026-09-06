@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\StringUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringUtils_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringUtils_def.hpp"
@@ -8,7 +8,7 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState::StringUtils_SeparatedCaseState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -354,18 +354,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, 
     return ___internal_method;
   }
 };
-inline bool Newtonsoft::Json::Utilities::StringUtils::IsNullOrEmpty(::StringW value) {
+inline bool Newtonsoft::Json::Utilities::StringUtils::IsNullOrEmpty(/* [NotNullWhen(false)] */ ::StringW value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringUtils*>(), { "IsNullOrEmpty", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, value);
 }
-inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0) {
+inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW format, ::System::IFormatProvider* provider, /* [Nullable(2)] */ ::System::Object* arg0) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringUtils*>(),
                                                            { "FormatWith", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::IFormatProvider*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, format, provider, arg0);
 }
-inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1) {
+inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW format, ::System::IFormatProvider* provider, /* [Nullable(2)] */ ::System::Object* arg0,
+                                                                      /* [Nullable(2)] */ ::System::Object* arg1) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -373,7 +374,8 @@ inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW 
                        { "FormatWith", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::IFormatProvider*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, format, provider, arg0, arg1);
 }
-inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2) {
+inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW format, ::System::IFormatProvider* provider, /* [Nullable(2)] */ ::System::Object* arg0,
+                                                                      /* [Nullable(2)] */ ::System::Object* arg1, /* [Nullable(2)] */ ::System::Object* arg2) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringUtils*>(),
                                                            { "FormatWith",
@@ -382,8 +384,8 @@ inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW 
                                                                ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, format, provider, arg0, arg1, arg2);
 }
-inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2,
-                                                                      ::System::Object* arg3) {
+inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(/* [Nullable(1)] */ ::StringW format, /* [Nullable(1)] */ ::System::IFormatProvider* provider, ::System::Object* arg0,
+                                                                      ::System::Object* arg1, ::System::Object* arg2, ::System::Object* arg3) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringUtils*>(),
                                                            { "FormatWith",
@@ -392,7 +394,8 @@ inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW 
                                                                ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, format, provider, arg0, arg1, arg2, arg3);
 }
-inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW format, ::System::IFormatProvider* provider, ::ArrayW<::System::Object*> args) {
+inline ::StringW Newtonsoft::Json::Utilities::StringUtils::FormatWith(::StringW format, ::System::IFormatProvider* provider,
+                                                                      /* [ParamArray] [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringUtils*>(),
                                               { "FormatWith", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::IFormatProvider*>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));

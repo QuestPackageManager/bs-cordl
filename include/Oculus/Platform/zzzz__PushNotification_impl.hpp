@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\PushNotification.hpp"
+// IWYU pragma private; include "Oculus/Platform/PushNotification.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__PushNotification_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PushNotificationResult_def.hpp"

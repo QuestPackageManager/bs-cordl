@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\TaskScheduler.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/TaskScheduler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ protected:
   constexpr TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView(TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView(TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView const&) = delete;
+  TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView(TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2827 };
@@ -66,6 +66,8 @@ public:
 static_assert(sizeof(::System::Threading::Tasks::TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView) == 0x10, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
+// [DebuggerDisplay("Id={Id}")]
+// [DebuggerTypeProxy(typeof(System.Threading.Tasks.TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView))]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -103,13 +105,13 @@ public:
   /// @brief Method PublishUnobservedTaskException, addr 0x5cc7558, size 0x130, virtual false, abstract: false, final false
   static inline void PublishUnobservedTaskException(::System::Object* sender, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* ueea);
 
-  /// @brief Method QueueTask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method QueueTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void QueueTask(::System::Threading::Tasks::Task* task);
 
   /// @brief Method TryDequeue, addr 0x5cc855c, size 0x8, virtual true, abstract: false, final false
   inline bool TryDequeue(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TryExecuteTaskInline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryExecuteTaskInline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
   /// @brief Method TryRunInline, addr 0x5cbe4e4, size 0x1d8, virtual false, abstract: false, final false
@@ -161,13 +163,13 @@ protected:
   constexpr TaskScheduler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskScheduler(TaskScheduler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskScheduler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskScheduler(TaskScheduler const&) = delete;
+  TaskScheduler(TaskSchedulerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2828 };

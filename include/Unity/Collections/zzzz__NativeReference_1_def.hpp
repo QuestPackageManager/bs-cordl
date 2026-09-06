@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeReference_1.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeReference_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,27 +26,37 @@ namespace Unity::Collections {
 struct NativeArrayOptions;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeReference_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeReference_1_ReadOnly;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct NativeReference_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeReference_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeReference_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeReference_1_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeReference_1);
 MARK_GEN_VAL_T(::Unity::Collections::NativeReference_1_ReadOnly);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeReference_1, "Unity.Collections", "NativeReference`1");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeReference_1_ReadOnly, "Unity.Collections", "NativeReference`1/ReadOnly");
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeReference`1/ReadOnly<T>
 struct CORDL_TYPE NativeReference_1_ReadOnly {
@@ -64,7 +74,7 @@ public:
   // @brief default ctor
   constexpr NativeReference_1_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: None, comment: None }]
   constexpr NativeReference_1_ReadOnly(void* m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -73,6 +83,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Data, offset: 0x0, size: 0x8, def value: None
   void* m_Data;
 
@@ -80,10 +91,13 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [NativeContainer]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeReference`1<T>
 struct CORDL_TYPE NativeReference_1 {
@@ -125,9 +139,11 @@ public:
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [ExcludeFromBurstCompatTesting("Takes managed object")]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [ExcludeFromBurstCompatTesting("Equals boxes because Value does not implement IEquatable<T>")]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Collections::NativeReference_1<T> other);
 
@@ -140,6 +156,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
@@ -171,8 +188,8 @@ public:
   // @brief default ctor
   constexpr NativeReference_1();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr NativeReference_1(void* m_Data, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -181,6 +198,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Data, offset: 0x0, size: 0x8, def value: None
   void* m_Data;
 

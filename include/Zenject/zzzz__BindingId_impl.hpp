@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\BindingId.hpp"
+// IWYU pragma private; include "Zenject/BindingId.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -195,8 +195,8 @@ constexpr Zenject::BindingId::operator ::System::IEquatable_1<::Zenject::Binding
 constexpr ::System::IEquatable_1<::Zenject::BindingId>* Zenject::BindingId::i___System__IEquatable_1___Zenject__BindingId_() {
   return static_cast<::System::IEquatable_1<::Zenject::BindingId>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_identifier", ty: "::System::Object*", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_identifier", ty: "::System::Object*", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Zenject::BindingId::BindingId(::System::Type* _type, ::System::Object* _identifier) noexcept {
   this->_type = _type;
   this->_identifier = _identifier;

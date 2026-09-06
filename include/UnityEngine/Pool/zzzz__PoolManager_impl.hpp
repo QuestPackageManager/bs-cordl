@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Pool\PoolManager.hpp"
+// IWYU pragma private; include "UnityEngine/Pool/PoolManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Pool/zzzz__PoolManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

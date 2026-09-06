@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EditAvatarFlowCoordinatorHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/EditAvatarFlowCoordinatorHelper.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -15,7 +15,7 @@
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction::EditAvatarFlowCoordinatorHelper_FinishAction(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -69,10 +69,11 @@ constexpr GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13::op
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::EditAvatarFlowCoordinatorHelper*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_avatarSystem_5__2", ty: "::BeatSaber::AvatarCore::IAvatarSystem*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::EditAvatarFlowCoordinatorHelper*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_avatarSystem_5__2", ty: "::BeatSaber::AvatarCore::IAvatarSystem*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13::EditAvatarFlowCoordinatorHelper__Initialize_d__13(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this,
     ::BeatSaber::AvatarCore::IAvatarSystem* _avatarSystem_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1) noexcept {
@@ -128,11 +129,12 @@ constexpr GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12::operator
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::EditAvatarFlowCoordinatorHelper*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "parentFlowCoordinator", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers: "", def_value: Some("{}") }, CppParam { name: "immediately",
-// ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "replaceTopViewController", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "backButtonVisible", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::EditAvatarFlowCoordinatorHelper*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "parentFlowCoordinator", ty: "::UnityW<::HMUI::FlowCoordinator>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "replaceTopViewController", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "backButtonVisible", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12::EditAvatarFlowCoordinatorHelper__Show_d__12(int32_t __1__state,
                                                                                                                       ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                                                       ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this,

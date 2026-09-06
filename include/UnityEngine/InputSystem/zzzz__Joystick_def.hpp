@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Joystick.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Joystick.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class Joystick;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Joystick*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Joystick*, "UnityEngine.InputSystem", "Joystick");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.LowLevel.JoystickState), isGenericTypeOfDevice = true)]
 // Dependencies UnityEngine.InputSystem.InputDevice
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -117,18 +118,23 @@ public:
   /// @brief Method get_all, addr 0x6521ca4, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Joystick*> get_all();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6521c08, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Joystick* get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hatswitch, addr 0x6521bf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_hatswitch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_stick, addr 0x6521bd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::StickControl* get_stick();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trigger, addr 0x6521bc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trigger();
 
+  /// [CompilerGenerated]
   /// @brief Method get_twist, addr 0x6521be8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_twist();
 
@@ -138,18 +144,23 @@ public:
 
   static inline void setStaticF_s_Joysticks(::ArrayW<::UnityEngine::InputSystem::Joystick*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6521c54, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Joystick* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hatswitch, addr 0x6521c00, size 0x8, virtual false, abstract: false, final false
   inline void set_hatswitch(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_stick, addr 0x6521be0, size 0x8, virtual false, abstract: false, final false
   inline void set_stick(::UnityEngine::InputSystem::Controls::StickControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trigger, addr 0x6521bd0, size 0x8, virtual false, abstract: false, final false
   inline void set_trigger(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_twist, addr 0x6521bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
@@ -159,26 +170,30 @@ protected:
   constexpr Joystick();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Joystick", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Joystick", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Joystick(Joystick&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Joystick", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Joystick", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Joystick(Joystick const&) = delete;
+  Joystick(Joystickconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8725 };
 
+  /// [CompilerGenerated]
   /// @brief Field <trigger>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____trigger_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <stick>k__BackingField, offset: 0x190, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::StickControl* ____stick_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <twist>k__BackingField, offset: 0x198, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____twist_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hatswitch>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector2Control* ____hatswitch_k__BackingField;
 

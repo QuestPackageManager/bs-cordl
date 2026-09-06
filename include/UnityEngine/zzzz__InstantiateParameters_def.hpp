@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InstantiateParameters.hpp"
+// IWYU pragma private; include "UnityEngine/InstantiateParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr InstantiateParameters();
 
-  // Ctor Parameters [CppParam { name: "parent", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "scene", ty: "::UnityEngine::SceneManagement::Scene",
-  // modifiers: "", def_value: None }, CppParam { name: "worldSpace", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "parent", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "scene", ty:
+  // "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldSpace", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr InstantiateParameters(::UnityW<::UnityEngine::Transform> parent, ::UnityEngine::SceneManagement::Scene scene, bool worldSpace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EnumDataUtility.hpp"
+// IWYU pragma private; include "UnityEngine/EnumDataUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__EnumDataUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +10,7 @@
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "UnityEngine/zzzz__EnumDataUtility_def.hpp"
 #include "UnityEngine/zzzz__EnumData_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::EnumDataUtility_CachedType::EnumDataUtility_CachedType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -224,8 +224,8 @@ inline ::UnityEngine::EnumDataUtility___c__DisplayClass2_0* UnityEngine::EnumDat
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EnumDataUtility___c__DisplayClass2_0::EnumDataUtility___c__DisplayClass2_0() {}
-// Ctor Parameters [CppParam { name: "nicifyName", ty: "::System::Func_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "field", ty:
-// "::System::Reflection::FieldInfo*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "nicifyName", ty: "::System::Func_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "field", ty:
+// "::System::Reflection::FieldInfo*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::EnumDataUtility___c__DisplayClass8_0::EnumDataUtility___c__DisplayClass8_0(::System::Func_2<::StringW, ::StringW>* nicifyName,
                                                                                                     ::System::Reflection::FieldInfo* field) noexcept {
   this->nicifyName = nicifyName;

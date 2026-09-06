@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TagHandle.hpp"
+// IWYU pragma private; include "UnityEngine/TagHandle.hpp"
 #include "UnityEngine/zzzz__TagHandle_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TagHandle.ToString
@@ -54,7 +54,7 @@ inline void UnityEngine::TagHandle::TagToString_Injected(uint32_t tagIndex, ::by
                                                            { "TagToString_Injected", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, tagIndex, ret);
 }
-// Ctor Parameters [CppParam { name: "_tagIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_tagIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TagHandle::TagHandle(uint32_t _tagIndex) noexcept {
   this->_tagIndex = _tagIndex;
 }

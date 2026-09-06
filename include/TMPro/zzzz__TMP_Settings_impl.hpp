@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Settings.hpp"
+// IWYU pragma private; include "TMPro/TMP_Settings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TextWrappingModes_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"

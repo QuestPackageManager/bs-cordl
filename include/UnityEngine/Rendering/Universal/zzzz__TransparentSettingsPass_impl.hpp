@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TransparentSettingsPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TransparentSettingsPass.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__TransparentSettingsPass_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_def.hpp"

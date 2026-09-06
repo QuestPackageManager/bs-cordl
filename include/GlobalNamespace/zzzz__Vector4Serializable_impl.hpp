@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Vector4Serializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/Vector4Serializable.hpp"
 #include "GlobalNamespace/zzzz__Vector4Serializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
@@ -279,8 +279,8 @@ constexpr GlobalNamespace::Vector4Serializable::operator ::System::IEquatable_1<
 constexpr ::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>* GlobalNamespace::Vector4Serializable::i___System__IEquatable_1___GlobalNamespace__Vector4Serializable_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_x", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_y", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_z",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_w", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_x", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_y", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_z", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_w", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Vector4Serializable::Vector4Serializable(int32_t _x, int32_t _y, int32_t _z, int32_t _w) noexcept {
   this->_x = _x;
   this->_y = _y;

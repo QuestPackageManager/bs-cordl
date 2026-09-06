@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\StringHandle.hpp"
+// IWYU pragma private; include "System/Xml/StringHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   // @brief default ctor
   constexpr StringHandle_StringHandleType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StringHandle_StringHandleType(int32_t value__) noexcept;
 
   /// @brief Field ConstString value: I32(3)
@@ -247,13 +247,13 @@ protected:
   constexpr StringHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringHandle(StringHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringHandle(StringHandle const&) = delete;
+  StringHandle(StringHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16937 };

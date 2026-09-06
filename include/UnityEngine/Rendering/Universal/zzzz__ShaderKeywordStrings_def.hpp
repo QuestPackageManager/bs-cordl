@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderKeywordStrings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderKeywordStrings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ protected:
   constexpr ShaderKeywordStrings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderKeywordStrings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderKeywordStrings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderKeywordStrings(ShaderKeywordStrings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderKeywordStrings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderKeywordStrings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderKeywordStrings(ShaderKeywordStrings const&) = delete;
+  ShaderKeywordStrings(ShaderKeywordStringsconst&) = delete;
 
   /// @brief Field AdditionalLightShadows offset 0xffffffff size 0x8
   static constexpr ::ConstString AdditionalLightShadows{ u"_ADDITIONAL_LIGHT_SHADOWS" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Init\BSRuntimePlatform.hpp"
+// IWYU pragma private; include "BeatSaber/Init/BSRuntimePlatform.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Init/zzzz__BSRuntimePlatform_def.hpp"
 #include "BeatSaber/Init/zzzz__RuntimePlatformType_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\BMPAlloc.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BMPAlloc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,8 +42,9 @@ public:
   // @brief default ctor
   constexpr BMPAlloc();
 
-  // Ctor Parameters [CppParam { name: "page", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageLine", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "bitIndex", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "ownedState", ty: "::UnityEngine::UIElements::UIR::OwnedState", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "page", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pageLine", ty: "uint16_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "bitIndex", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ownedState", ty: "::UnityEngine::UIElements::UIR::OwnedState", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr BMPAlloc(int32_t page, uint16_t pageLine, uint8_t bitIndex, ::UnityEngine::UIElements::UIR::OwnedState ownedState) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

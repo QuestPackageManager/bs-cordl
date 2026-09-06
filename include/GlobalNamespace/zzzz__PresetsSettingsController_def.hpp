@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PresetsSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PresetsSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,9 +98,11 @@ public:
   /// @brief Method .ctor, addr 0x5a150cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_valueDidChangeEvent, addr 0x5a14d38, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_valueDidChangeEvent, addr 0x5a14df8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
@@ -110,29 +112,34 @@ protected:
   constexpr PresetsSettingsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PresetsSettingsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PresetsSettingsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PresetsSettingsController(PresetsSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PresetsSettingsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PresetsSettingsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PresetsSettingsController(PresetsSettingsController const&) = delete;
+  PresetsSettingsController(PresetsSettingsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6404 };
 
+  /// [SerializeField]
   /// @brief Field _presets, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedPresetsSO> ____presets;
 
+  /// [SerializeField]
   /// @brief Field _limitNumberOfElements, offset: 0x38, size: 0x1, def value: None
   bool ____limitNumberOfElements;
 
+  /// [SerializeField]
+  /// [DrawIf("_limitNumberOfElements", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _numberOfElementsLimit, offset: 0x3c, size: 0x4, def value: None
   int32_t ____numberOfElementsLimit;
 
   /// @brief Field _customIndex, offset: 0x40, size: 0x4, def value: None
   int32_t ____customIndex;
 
+  /// [CompilerGenerated]
   /// @brief Field valueDidChangeEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___valueDidChangeEvent;
 

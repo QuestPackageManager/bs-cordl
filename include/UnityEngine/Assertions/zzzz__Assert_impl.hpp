@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Assertions\Assert.hpp"
+// IWYU pragma private; include "UnityEngine/Assertions/Assert.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Assertions/zzzz__Assert_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
@@ -181,13 +181,17 @@ inline void UnityEngine::Assertions::_cordl_Assert::AreEqual(::UnityEngine::Obje
                                                            { "AreEqual", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, expected, actual, message);
 }
-template <typename T> inline void UnityEngine::Assertions::_cordl_Assert::IsNull(T value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::Assertions::_cordl_Assert::IsNull(T value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Assertions::_cordl_Assert*>(), { "IsNull", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-template <typename T> inline void UnityEngine::Assertions::_cordl_Assert::IsNull(T value, ::StringW message) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::Assertions::_cordl_Assert::IsNull(T value, ::StringW message) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Assertions::_cordl_Assert*>(), { "IsNull", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<::StringW>() } })));
@@ -200,13 +204,17 @@ inline void UnityEngine::Assertions::_cordl_Assert::IsNull(::UnityEngine::Object
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Assertions::_cordl_Assert*>(), { "IsNull", {}, { ::i2c::type_of<::UnityEngine::Object*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value, message);
 }
-template <typename T> inline void UnityEngine::Assertions::_cordl_Assert::IsNotNull(T value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::Assertions::_cordl_Assert::IsNotNull(T value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Assertions::_cordl_Assert*>(), { "IsNotNull", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-template <typename T> inline void UnityEngine::Assertions::_cordl_Assert::IsNotNull(T value, ::StringW message) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::Assertions::_cordl_Assert::IsNotNull(T value, ::StringW message) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Assertions::_cordl_Assert*>(), { "IsNotNull", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<::StringW>() } })));

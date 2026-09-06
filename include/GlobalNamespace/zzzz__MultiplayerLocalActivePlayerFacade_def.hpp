@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerFacade.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerFacade.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,13 +85,13 @@ protected:
   constexpr MultiplayerLocalActivePlayerFacade_Factory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerFacade_Factory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerFacade_Factory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActivePlayerFacade_Factory(MultiplayerLocalActivePlayerFacade_Factory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerFacade_Factory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerFacade_Factory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerFacade_Factory(MultiplayerLocalActivePlayerFacade_Factory const&) = delete;
+  MultiplayerLocalActivePlayerFacade_Factory(MultiplayerLocalActivePlayerFacade_Factoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6088 };
@@ -257,12 +257,15 @@ public:
   /// @brief Method .ctor, addr 0x59c6140, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerDidFinishEvent, addr 0x59c5d20, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerNetworkDidFailedEvent, addr 0x59c5ea0, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerWillBeInactivatedEvent, addr 0x59c5bc8, size 0xac, virtual false, abstract: false, final false
   inline void add_playerWillBeInactivatedEvent(::System::Action* value);
 
@@ -287,12 +290,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr ::GlobalNamespace::IStartSeekSongControllerProvider* i___GlobalNamespace__IStartSeekSongControllerProvider() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerDidFinishEvent, addr 0x59c5de0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x59c5f60, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerWillBeInactivatedEvent, addr 0x59c5c74, size 0xac, virtual false, abstract: false, final false
   inline void remove_playerWillBeInactivatedEvent(::System::Action* value);
 
@@ -302,47 +308,58 @@ protected:
   constexpr MultiplayerLocalActivePlayerFacade();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerFacade", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerFacade", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActivePlayerFacade(MultiplayerLocalActivePlayerFacade&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerFacade", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerFacade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerFacade(MultiplayerLocalActivePlayerFacade const&) = delete;
+  MultiplayerLocalActivePlayerFacade(MultiplayerLocalActivePlayerFacadeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6089 };
 
+  /// [SerializeField]
   /// @brief Field _activeOnlyGameObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____activeOnlyGameObjects;
 
+  /// [SerializeField]
   /// @brief Field _outroAnimator, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____outroAnimator;
 
+  /// [Inject]
   /// @brief Field _songController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IStartSeekSongController* ____songController;
 
+  /// [Inject]
   /// @brief Field _introAnimator, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator> ____introAnimator;
 
+  /// [Inject]
   /// @brief Field _gameSongController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _prepareLevelCompletionResults, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksUpdater, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> ____beatmapCallbacksUpdater;
 
+  /// [CompilerGenerated]
   /// @brief Field playerWillBeInactivatedEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___playerWillBeInactivatedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerDidFinishEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* ___playerDidFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field playerNetworkDidFailedEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* ___playerNetworkDidFailedEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\QualitySettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/QualitySettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
   // @brief default ctor
   constexpr QualitySettings_MainEffectOption();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr QualitySettings_MainEffectOption(int32_t value__) noexcept;
 
   /// @brief Field Game value: I32(1)
@@ -134,7 +134,7 @@ public:
   // @brief default ctor
   constexpr QualitySettings_BloomQuality();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr QualitySettings_BloomQuality(int32_t value__) noexcept;
 
   /// @brief Field Game value: I32(0)
@@ -191,7 +191,7 @@ public:
   // @brief default ctor
   constexpr QualitySettings_MirrorQuality();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr QualitySettings_MirrorQuality(int32_t value__) noexcept;
 
   /// @brief Field High value: I32(3)
@@ -253,7 +253,7 @@ public:
   // @brief default ctor
   constexpr QualitySettings_ObstacleQuality();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr QualitySettings_ObstacleQuality(int32_t value__) noexcept;
 
   /// @brief Field High value: I32(2)
@@ -302,15 +302,16 @@ public:
   // @brief default ctor
   constexpr QualitySettings();
 
-  // Ctor Parameters [CppParam { name: "renderViewportScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vrResolutionScale", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "menuVRResolutionScaleMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "antiAliasingLevel", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "targetFramerate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vSyncCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "maxQueuedFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mainEffect", ty: "::BeatSaber::Settings::QualitySettings_MainEffectOption", modifiers: "", def_value: None },
-  // CppParam { name: "bloom", ty: "::BeatSaber::Settings::QualitySettings_BloomQuality", modifiers: "", def_value: None }, CppParam { name: "mirror", ty:
-  // "::BeatSaber::Settings::QualitySettings_MirrorQuality", modifiers: "", def_value: None }, CppParam { name: "obstacles", ty: "::BeatSaber::Settings::QualitySettings_ObstacleQuality", modifiers:
-  // "", def_value: None }, CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smokeGraphics", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "burnMarkTrails", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "renderViewportScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vrResolutionScale", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "menuVRResolutionScaleMultiplier", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "antiAliasingLevel", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "targetFramerate", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vSyncCount", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxQueuedFrames", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "mainEffect", ty:
+  // "::BeatSaber::Settings::QualitySettings_MainEffectOption", modifiers: "", def_value: None, comment: None }, CppParam { name: "bloom", ty: "::BeatSaber::Settings::QualitySettings_BloomQuality",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "mirror", ty: "::BeatSaber::Settings::QualitySettings_MirrorQuality", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "obstacles", ty: "::BeatSaber::Settings::QualitySettings_ObstacleQuality", modifiers: "", def_value: None, comment: None }, CppParam { name: "screenDisplacementEffects", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "smokeGraphics", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "burnMarkTrails", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr QualitySettings(float_t renderViewportScale, float_t vrResolutionScale, float_t menuVRResolutionScaleMultiplier, int32_t antiAliasingLevel, int32_t targetFramerate, int32_t vSyncCount,
                             int32_t maxQueuedFrames, ::BeatSaber::Settings::QualitySettings_MainEffectOption mainEffect, ::BeatSaber::Settings::QualitySettings_BloomQuality bloom,
                             ::BeatSaber::Settings::QualitySettings_MirrorQuality mirror, ::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacles, bool screenDisplacementEffects,

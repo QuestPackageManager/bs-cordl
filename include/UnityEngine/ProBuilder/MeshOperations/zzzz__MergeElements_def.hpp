@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\MergeElements.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MergeElements.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__Display
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::MergeElements*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c__DisplayClass0_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -85,13 +86,13 @@ protected:
   constexpr MergeElements___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MergeElements___c(MergeElements___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MergeElements___c(MergeElements___c const&) = delete;
+  MergeElements___c(MergeElements___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16878 };
@@ -102,6 +103,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -132,13 +134,13 @@ protected:
   constexpr MergeElements___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MergeElements___c__DisplayClass0_0(MergeElements___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MergeElements___c__DisplayClass0_0(MergeElements___c__DisplayClass0_0 const&) = delete;
+  MergeElements___c__DisplayClass0_0(MergeElements___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16879 };
@@ -183,13 +185,13 @@ protected:
   constexpr MergeElements();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MergeElements", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MergeElements(MergeElements&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MergeElements", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MergeElements(MergeElements const&) = delete;
+  MergeElements(MergeElementsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16880 };

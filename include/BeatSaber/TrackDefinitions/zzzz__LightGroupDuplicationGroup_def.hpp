@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\TrackDefinitions\LightGroupDuplicationGroup.hpp"
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/LightGroupDuplicationGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class LightGroupDuplicationGroup;
 // Write type traits
 MARK_REF_T(::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup*, "BeatSaber.TrackDefinitions", "LightGroupDuplicationGroup");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies LightGroupSO, PersistentScriptableObject
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
@@ -64,20 +66,22 @@ protected:
   constexpr LightGroupDuplicationGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupDuplicationGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupDuplicationGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupDuplicationGroup(LightGroupDuplicationGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupDuplicationGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupDuplicationGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightGroupDuplicationGroup(LightGroupDuplicationGroup const&) = delete;
+  LightGroupDuplicationGroup(LightGroupDuplicationGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22957 };
 
+  /// [SerializeField]
   /// @brief Field _duplicationGroupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____duplicationGroupName;
 
+  /// [SerializeField]
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>> ____lightGroups;
 

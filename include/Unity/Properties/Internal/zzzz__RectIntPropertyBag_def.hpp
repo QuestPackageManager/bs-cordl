@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\RectIntPropertyBag.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/RectIntPropertyBag.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,13 +85,13 @@ protected:
   constexpr RectIntPropertyBag_XProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_XProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_XProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectIntPropertyBag_XProperty(RectIntPropertyBag_XProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_XProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectIntPropertyBag_XProperty(RectIntPropertyBag_XProperty const&) = delete;
+  RectIntPropertyBag_XProperty(RectIntPropertyBag_XPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19742 };
@@ -136,13 +136,13 @@ protected:
   constexpr RectIntPropertyBag_YProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_YProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_YProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectIntPropertyBag_YProperty(RectIntPropertyBag_YProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_YProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectIntPropertyBag_YProperty(RectIntPropertyBag_YProperty const&) = delete;
+  RectIntPropertyBag_YProperty(RectIntPropertyBag_YPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19743 };
@@ -187,13 +187,13 @@ protected:
   constexpr RectIntPropertyBag_WidthProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_WidthProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_WidthProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectIntPropertyBag_WidthProperty(RectIntPropertyBag_WidthProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_WidthProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_WidthProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectIntPropertyBag_WidthProperty(RectIntPropertyBag_WidthProperty const&) = delete;
+  RectIntPropertyBag_WidthProperty(RectIntPropertyBag_WidthPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19744 };
@@ -238,13 +238,13 @@ protected:
   constexpr RectIntPropertyBag_HeightProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_HeightProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_HeightProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectIntPropertyBag_HeightProperty(RectIntPropertyBag_HeightProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_HeightProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag_HeightProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectIntPropertyBag_HeightProperty(RectIntPropertyBag_HeightProperty const&) = delete;
+  RectIntPropertyBag_HeightProperty(RectIntPropertyBag_HeightPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19745 };
@@ -281,13 +281,13 @@ protected:
   constexpr RectIntPropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectIntPropertyBag(RectIntPropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectIntPropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectIntPropertyBag(RectIntPropertyBag const&) = delete;
+  RectIntPropertyBag(RectIntPropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19746 };

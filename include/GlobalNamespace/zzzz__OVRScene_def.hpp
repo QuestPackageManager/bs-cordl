@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRScene.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRScene.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class OVRScene;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRScene*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRScene*, "", "OVRScene");
+// [Feature((Meta.XR.Util.Feature)7)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -35,9 +36,11 @@ public:
   /// @brief Method RequestSpaceSetup, addr 0x5e18198, size 0x108, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup();
 
+  /// [Obsolete("Requesting space setup with labels is deprecated (v71) with no replacement.")]
   /// @brief Method RequestSpaceSetup, addr 0x5e182a0, size 0x5c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSemanticLabels_Classification>* classifications);
 
+  /// [Obsolete("Requesting space setup with labels is deprecated (v71) with no replacement.")]
   /// @brief Method RequestSpaceSetup, addr 0x5e18094, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::StringW labels);
 
@@ -50,13 +53,13 @@ protected:
   constexpr OVRScene();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScene", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScene", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRScene(OVRScene&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScene", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScene", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRScene(OVRScene const&) = delete;
+  OVRScene(OVRSceneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7121 };

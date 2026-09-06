@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TransitionTimingSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/TransitionTimingSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,23 +80,27 @@ protected:
   constexpr TransitionTimingSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransitionTimingSO(TransitionTimingSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransitionTimingSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransitionTimingSO(TransitionTimingSO const&) = delete;
+  TransitionTimingSO(TransitionTimingSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22385 };
 
+  /// [SerializeField]
   /// @brief Field _easeType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType;
 
+  /// [SerializeField]
   /// @brief Field _easeDuration, offset: 0x1c, size: 0x4, def value: None
   float_t ____easeDuration;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _animationCurve, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____animationCurve;
 

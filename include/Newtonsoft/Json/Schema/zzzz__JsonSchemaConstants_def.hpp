@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaConstants.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaConstants.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class JsonSchemaConstants;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaConstants*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaConstants*, "Newtonsoft.Json.Schema", "JsonSchemaConstants");
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -40,13 +41,13 @@ protected:
   constexpr JsonSchemaConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaConstants(JsonSchemaConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaConstants(JsonSchemaConstants const&) = delete;
+  JsonSchemaConstants(JsonSchemaConstantsconst&) = delete;
 
   /// @brief Field AdditionalItemsPropertyName offset 0xffffffff size 0x8
   static constexpr ::ConstString AdditionalItemsPropertyName{ u"additionalItems" };

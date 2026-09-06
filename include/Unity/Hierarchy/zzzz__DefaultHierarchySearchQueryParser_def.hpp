@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\DefaultHierarchySearchQueryParser.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/DefaultHierarchySearchQueryParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ protected:
   constexpr DefaultHierarchySearchQueryParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultHierarchySearchQueryParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultHierarchySearchQueryParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultHierarchySearchQueryParser(DefaultHierarchySearchQueryParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultHierarchySearchQueryParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultHierarchySearchQueryParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultHierarchySearchQueryParser(DefaultHierarchySearchQueryParser const&) = delete;
+  DefaultHierarchySearchQueryParser(DefaultHierarchySearchQueryParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21933 };

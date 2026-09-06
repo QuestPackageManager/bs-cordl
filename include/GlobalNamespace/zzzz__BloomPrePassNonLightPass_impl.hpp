@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassNonLightPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassNonLightPass.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
@@ -7,7 +7,7 @@
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType::BloomPrePassNonLightPass_ExecutionTimeType(int32_t value__) noexcept {
   this->value__ = value__;
 }

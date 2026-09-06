@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\InputTypes\XOCBeatGamesUserUpsertData.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/InputTypes/XOCBeatGamesUserUpsertData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Main/GraphQL/InputTypes/zzzz__XOCBeatGamesUserUpsertData_def.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__ISOCountryCode_def.hpp"

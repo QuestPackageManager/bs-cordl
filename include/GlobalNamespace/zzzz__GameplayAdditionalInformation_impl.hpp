@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayAdditionalInformation.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayAdditionalInformation.hpp"
 #include "GlobalNamespace/zzzz__PlaymodeOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformation_def.hpp"
@@ -107,7 +107,7 @@ constexpr void GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_
   this->___reportDescriptor = value;
 }
 inline void GlobalNamespace::GameplayAdditionalInformation::_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions,
-                                                                  ::StringW recordingRelativePath, bool profileSong, ::StringW reportDescriptor) {
+                                                                  ::StringW recordingRelativePath, bool profileSong, /* [Nullable(1)] */ ::StringW reportDescriptor) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayAdditionalInformation*>(),
                                                            { ".ctor",
@@ -117,9 +117,10 @@ inline void GlobalNamespace::GameplayAdditionalInformation::_ctor(::StringW back
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions, recordingRelativePath, profileSong,
                                                    reportDescriptor);
 }
+/// @brief [NullableContext(2)]
 inline ::GlobalNamespace::GameplayAdditionalInformation* GlobalNamespace::GameplayAdditionalInformation::New_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
                                                                                                                   ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath,
-                                                                                                                  bool profileSong, ::StringW reportDescriptor) {
+                                                                                                                  bool profileSong, /* [Nullable(1)] */ ::StringW reportDescriptor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameplayAdditionalInformation*>(backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions,
                                                                                                              recordingRelativePath, profileSong, reportDescriptor));
 }

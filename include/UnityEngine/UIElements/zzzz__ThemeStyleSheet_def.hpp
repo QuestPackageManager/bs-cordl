@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ThemeStyleSheet.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ThemeStyleSheet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ThemeStyleSheet;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::ThemeStyleSheet*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ThemeStyleSheet*, "UnityEngine.UIElements", "ThemeStyleSheet");
+// [HelpURL("UIE-tss")]
 // Dependencies UnityEngine.UIElements.StyleSheet
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -33,13 +34,13 @@ protected:
   constexpr ThemeStyleSheet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThemeStyleSheet(ThemeStyleSheet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThemeStyleSheet(ThemeStyleSheet const&) = delete;
+  ThemeStyleSheet(ThemeStyleSheetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5084 };

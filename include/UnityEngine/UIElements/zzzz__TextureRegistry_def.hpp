@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextureRegistry.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextureRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,8 +48,8 @@ public:
   // @brief default ctor
   constexpr TextureRegistry_TextureInfo();
 
-  // Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "dynamic", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "dynamic", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextureRegistry_TextureInfo(::UnityW<::UnityEngine::Texture> texture, bool dynamic, int32_t refCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -145,6 +145,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TextureRegistry* getStaticF__instance_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_instance, addr 0x6dd7ee4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextureRegistry* get_instance();
 
@@ -156,13 +157,13 @@ protected:
   constexpr TextureRegistry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureRegistry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureRegistry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureRegistry(TextureRegistry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureRegistry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureRegistry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureRegistry(TextureRegistry const&) = delete;
+  TextureRegistry(TextureRegistryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4684 };

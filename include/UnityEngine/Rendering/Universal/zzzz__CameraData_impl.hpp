@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\CameraData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/CameraData.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__CameraData_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
@@ -1332,7 +1332,7 @@ inline ::by_ref<::UnityW<::UnityEngine::Camera>> UnityEngine::Rendering::Univers
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::CameraData>(), { "get_baseCamera", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityW<::UnityEngine::Camera>>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::CameraData::CameraData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept {
   this->frameData = frameData;
 }

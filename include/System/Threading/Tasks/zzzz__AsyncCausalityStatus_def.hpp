@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\AsyncCausalityStatus.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/AsyncCausalityStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct AsyncCausalityStatus;
 // Write type traits
 MARK_VAL_T(::System::Threading::Tasks::AsyncCausalityStatus);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::AsyncCausalityStatus, "System.Threading.Tasks", "AsyncCausalityStatus");
+// [FriendAccessAllowed]
 // Dependencies
 namespace System::Threading::Tasks {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr AsyncCausalityStatus();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncCausalityStatus(int32_t value__) noexcept;
 
   /// @brief Field Canceled value: I32(2)

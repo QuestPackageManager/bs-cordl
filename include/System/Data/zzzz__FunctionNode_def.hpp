@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\FunctionNode.hpp"
+// IWYU pragma private; include "System/Data/FunctionNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -168,13 +168,13 @@ protected:
   constexpr FunctionNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FunctionNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FunctionNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FunctionNode(FunctionNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FunctionNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FunctionNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FunctionNode(FunctionNode const&) = delete;
+  FunctionNode(FunctionNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13746 };
@@ -191,6 +191,7 @@ public:
   /// @brief Field _arguments, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Data::ExpressionNode*> ____arguments;
 
+  /// [Nullable(2)]
   /// @brief Field _capturedLimiter, offset: 0x30, size: 0x8, def value: None
   ::System::Data::TypeLimiter* ____capturedLimiter;
 

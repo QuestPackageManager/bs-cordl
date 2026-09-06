@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\RangeContentValidator.hpp"
+// IWYU pragma private; include "System/Xml/Schema/RangeContentValidator.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_impl.hpp"
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__RangeContentValidator_def.hpp"

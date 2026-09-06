@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\AutoUnwrapSettings.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/AutoUnwrapSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   // @brief default ctor
   constexpr AutoUnwrapSettings_Anchor();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AutoUnwrapSettings_Anchor(int32_t value__) noexcept;
 
   /// @brief Field LowerCenter value: I32(7)
@@ -152,7 +152,7 @@ public:
   // @brief default ctor
   constexpr AutoUnwrapSettings_Fill();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AutoUnwrapSettings_Fill(int32_t value__) noexcept;
 
   /// @brief Field Fit value: I32(0)
@@ -289,11 +289,11 @@ public:
   // @brief default ctor
   constexpr AutoUnwrapSettings();
 
-  // Ctor Parameters [CppParam { name: "m_UseWorldSpace", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_FlipU", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "m_FlipV", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_SwapUV", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Fill", ty:
-  // "::UnityEngine::ProBuilder::AutoUnwrapSettings_Fill", modifiers: "", def_value: None }, CppParam { name: "m_Scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Anchor", ty:
-  // "::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_UseWorldSpace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FlipU", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_FlipV", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SwapUV", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "m_Fill", ty: "::UnityEngine::ProBuilder::AutoUnwrapSettings_Fill", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Scale", ty: "::UnityEngine::Vector2", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_Offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Rotation", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Anchor", ty: "::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor", modifiers: "", def_value: None, comment: None }]
   constexpr AutoUnwrapSettings(bool m_UseWorldSpace, bool m_FlipU, bool m_FlipV, bool m_SwapUV, ::UnityEngine::ProBuilder::AutoUnwrapSettings_Fill m_Fill, ::UnityEngine::Vector2 m_Scale,
                                ::UnityEngine::Vector2 m_Offset, float_t m_Rotation, ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor m_Anchor) noexcept;
 
@@ -303,30 +303,48 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("useWorldSpace")]
   /// @brief Field m_UseWorldSpace, offset: 0x0, size: 0x1, def value: None
   bool m_UseWorldSpace;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("flipU")]
   /// @brief Field m_FlipU, offset: 0x1, size: 0x1, def value: None
   bool m_FlipU;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("flipV")]
   /// @brief Field m_FlipV, offset: 0x2, size: 0x1, def value: None
   bool m_FlipV;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("swapUV")]
   /// @brief Field m_SwapUV, offset: 0x3, size: 0x1, def value: None
   bool m_SwapUV;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("fill")]
   /// @brief Field m_Fill, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::AutoUnwrapSettings_Fill m_Fill;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("scale")]
   /// @brief Field m_Scale, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_Scale;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("offset")]
   /// @brief Field m_Offset, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_Offset;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("rotation")]
   /// @brief Field m_Rotation, offset: 0x18, size: 0x4, def value: None
   float_t m_Rotation;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("anchor")]
   /// @brief Field m_Anchor, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor m_Anchor;
 

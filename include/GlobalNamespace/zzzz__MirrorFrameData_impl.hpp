@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirrorFrameData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirrorFrameData.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextItem_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "GlobalNamespace/zzzz__MirrorFrameData_def.hpp"

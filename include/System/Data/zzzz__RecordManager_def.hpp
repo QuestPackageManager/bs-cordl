@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\RecordManager.hpp"
+// IWYU pragma private; include "System/Data/RecordManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class RecordManager;
 // Write type traits
 MARK_REF_T(::System::Data::RecordManager*);
 DEFINE_IL2CPP_CLASS(::System::Data::RecordManager*, "System.Data", "RecordManager");
+// [DefaultMember("Item")]
 // Dependencies System.Data.DataRow, System.Object
 namespace System::Data {
 // Is value type: false
@@ -152,13 +153,13 @@ protected:
   constexpr RecordManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordManager(RecordManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordManager(RecordManager const&) = delete;
+  RecordManager(RecordManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13848 };

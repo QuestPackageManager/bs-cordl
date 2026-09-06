@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionRebindingExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionRebindingExtensions.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_impl.hpp"
@@ -8,6 +8,7 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionRebindingExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -41,8 +42,8 @@
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-// Ctor Parameters [CppParam { name: "instance", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "field", ty: "::System::Reflection::FieldInfo*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "bindingIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instance", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "field", ty: "::System::Reflection::FieldInfo*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bindingIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter::InputActionRebindingExtensions_Parameter(::System::Object* instance, ::System::Reflection::FieldInfo* field,
                                                                                                                          int32_t bindingIndex) noexcept {
   this->instance = instance;
@@ -222,9 +223,9 @@ UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride::Pick
                                                                ::i2c::type_of<::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>>(nullptr, ___internal_method, first, second);
 }
-// Ctor Parameters [CppParam { name: "objectRegistrationName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "parameter", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "bindingMask", ty: "::UnityEngine::InputSystem::InputBinding", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty:
-// "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "objectRegistrationName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "parameter", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "bindingMask", ty: "::UnityEngine::InputSystem::InputBinding", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "value", ty: "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride::InputActionRebindingExtensions_ParameterOverride(
     ::StringW objectRegistrationName, ::StringW parameter, ::UnityEngine::InputSystem::InputBinding bindingMask, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value) noexcept {
   this->objectRegistrationName = objectRegistrationName;
@@ -346,9 +347,9 @@ constexpr UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnum
 constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerable::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Parameter", ty:
-// "::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MapIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Parameter", ty:
+// "::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MapIndex", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerable::InputActionRebindingExtensions_ParameterEnumerable(
     ::UnityEngine::InputSystem::InputActionState* m_State, ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride m_Parameter, int32_t m_MapIndex) noexcept {
   this->m_State = m_State;
@@ -586,15 +587,17 @@ constexpr UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnum
 constexpr ::System::IDisposable* UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MapIndex", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_BindingCurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingEndIndex", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_InteractionCurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InteractionEndIndex", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_ProcessorCurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ProcessorEndIndex", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_BindingMask", ty: "::UnityEngine::InputSystem::InputBinding", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ObjectType", ty:
-// "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ParameterName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MayBeInteraction", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MayBeProcessor", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MayBeComposite", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_CurrentBindingIsComposite", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentObject", ty: "::System::Object*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentParameter", ty: "::System::Reflection::FieldInfo*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MapIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BindingCurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_BindingEndIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InteractionCurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_InteractionEndIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ProcessorCurrentIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ProcessorEndIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_BindingMask", ty: "::UnityEngine::InputSystem::InputBinding", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ObjectType", ty: "::System::Type*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_ParameterName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MayBeInteraction", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MayBeProcessor", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_MayBeComposite", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentBindingIsComposite", ty: "bool", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_CurrentObject", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentParameter", ty:
+// "::System::Reflection::FieldInfo*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator::InputActionRebindingExtensions_ParameterEnumerator(
     ::UnityEngine::InputSystem::InputActionState* m_State, int32_t m_MapIndex, int32_t m_BindingCurrentIndex, int32_t m_BindingEndIndex, int32_t m_InteractionCurrentIndex,
     int32_t m_InteractionEndIndex, int32_t m_ProcessorCurrentIndex, int32_t m_ProcessorEndIndex, ::UnityEngine::InputSystem::InputBinding m_BindingMask, ::System::Type* m_ObjectType,
@@ -620,7 +623,7 @@ constexpr ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator::InputActionRebindingExtensions_ParameterEnumerator() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions_Flags::RebindingOperation_InputActionRebindingExtensions_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2046,6 +2049,7 @@ UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation::Wit
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>(this, ___internal_method, type);
 }
 template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation::WithExpectedControlType() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>(),
                                                                                               { "WithExpectedControlType", { ::i2c::class_of<TControl>() }, {} })));
@@ -3161,6 +3165,7 @@ UnityEngine::InputSystem::InputActionRebindingExtensions::GetParameterValue(::Un
   return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>>(nullptr, ___internal_method, action, name, bindingIndex);
 }
 template <typename TObject, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline ::System::Nullable_1<TValue> UnityEngine::InputSystem::InputActionRebindingExtensions::GetParameterValue(::UnityEngine::InputSystem::InputAction* action,
                                                                                                                 ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr,
                                                                                                                 ::UnityEngine::InputSystem::InputBinding bindingMask) {
@@ -3175,6 +3180,7 @@ inline ::System::Nullable_1<TValue> UnityEngine::InputSystem::InputActionRebindi
   return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<TValue>>(nullptr, ___internal_method, action, expr, bindingMask);
 }
 template <typename TObject, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline void UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParameterOverride(::UnityEngine::InputSystem::InputAction* action,
                                                                                              ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, TValue value,
                                                                                              ::UnityEngine::InputSystem::InputBinding bindingMask) {
@@ -3189,6 +3195,7 @@ inline void UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParam
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, action, expr, value, bindingMask);
 }
 template <typename TObject, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline void UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParameterOverride(::UnityEngine::InputSystem::InputActionMap* actionMap,
                                                                                              ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, TValue value,
                                                                                              ::UnityEngine::InputSystem::InputBinding bindingMask) {
@@ -3202,6 +3209,7 @@ inline void UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParam
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, actionMap, expr, value, bindingMask);
 }
 template <typename TObject, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline void UnityEngine::InputSystem::InputActionRebindingExtensions::ApplyParameterOverride(::UnityEngine::InputSystem::InputActionAsset* asset,
                                                                                              ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, TValue value,
                                                                                              ::UnityEngine::InputSystem::InputBinding bindingMask) {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrPosef.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrPosef.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrQuaternionf_impl.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrVector3f_impl.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrPosef_def.hpp"
@@ -25,8 +25,8 @@ inline void UnityEngine::XR::OpenXR::NativeTypes::XrPosef::_ctor(::UnityEngine::
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Quaternion>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, vec3, quaternion);
 }
-// Ctor Parameters [CppParam { name: "Orientation", ty: "::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf", modifiers: "", def_value: Some("{}") }, CppParam { name: "Position", ty:
-// "::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Orientation", ty: "::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Position", ty:
+// "::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::XrPosef(::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf Orientation,
                                                                    ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f Position) noexcept {
   this->Orientation = Orientation;

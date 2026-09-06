@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HLSLArray.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HLSLArray.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__HLSLArray_def.hpp"
 #include "System/zzzz__Type_def.hpp"

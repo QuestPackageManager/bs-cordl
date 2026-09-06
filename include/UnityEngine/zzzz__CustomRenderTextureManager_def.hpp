@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CustomRenderTextureManager.hpp"
+// IWYU pragma private; include "UnityEngine/CustomRenderTextureManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class CustomRenderTextureManager;
 // Write type traits
 MARK_REF_T(::UnityEngine::CustomRenderTextureManager*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CustomRenderTextureManager*, "UnityEngine", "CustomRenderTextureManager");
+// [NativeHeader("Runtime/Graphics/CustomRenderTextureManager.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -31,9 +32,11 @@ public:
   /// @brief Field textureUnloaded, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_textureUnloaded, put = setStaticF_textureUnloaded)) ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* textureUnloaded;
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x6a84220, size 0x70, virtual false, abstract: false, final false
   static inline void InvokeOnTextureLoaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x6a84290, size 0x70, virtual false, abstract: false, final false
   static inline void InvokeOnTextureUnloaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
@@ -51,13 +54,13 @@ protected:
   constexpr CustomRenderTextureManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTextureManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTextureManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomRenderTextureManager(CustomRenderTextureManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTextureManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomRenderTextureManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomRenderTextureManager(CustomRenderTextureManager const&) = delete;
+  CustomRenderTextureManager(CustomRenderTextureManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10128 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeElement.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeElement.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CompositeElement_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CompositeElement._ctor

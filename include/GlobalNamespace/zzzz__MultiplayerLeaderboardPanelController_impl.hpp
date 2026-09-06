@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLeaderboardPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLeaderboardPanelController.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLeaderboardPanelItem_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLeaderboardPanelController_def.hpp"

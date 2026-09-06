@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\NormalizedStringDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/NormalizedStringDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ protected:
   constexpr NormalizedStringDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NormalizedStringDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NormalizedStringDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NormalizedStringDataContract(NormalizedStringDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NormalizedStringDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NormalizedStringDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NormalizedStringDataContract(NormalizedStringDataContract const&) = delete;
+  NormalizedStringDataContract(NormalizedStringDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17091 };

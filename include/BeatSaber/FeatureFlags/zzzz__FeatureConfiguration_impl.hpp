@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureConfiguration.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureConfiguration.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_def.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_Hardcoded_def.hpp"

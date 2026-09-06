@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\LightCookieManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/LightCookieManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -238,13 +238,13 @@ protected:
   constexpr LightCookieManager_ShaderProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_ShaderProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_ShaderProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightCookieManager_ShaderProperty(LightCookieManager_ShaderProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_ShaderProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_ShaderProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieManager_ShaderProperty(LightCookieManager_ShaderProperty const&) = delete;
+  LightCookieManager_ShaderProperty(LightCookieManager_ShaderPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12768 };
@@ -286,7 +286,7 @@ public:
   // @brief default ctor
   constexpr LightCookieManager_LightCookieShaderFormat();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LightCookieManager_LightCookieShaderFormat(int32_t value__) noexcept;
 
   /// @brief Field Alpha value: I32(1)
@@ -339,8 +339,8 @@ public:
   // @brief default ctor
   constexpr Settings_LightCookieManager_AtlasSettings();
 
-  // Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "format", ty:
-  // "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "format", ty:
+  // "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None, comment: None }]
   constexpr Settings_LightCookieManager_AtlasSettings(::UnityEngine::Vector2Int resolution, ::UnityEngine::Experimental::Rendering::GraphicsFormat format) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -381,9 +381,9 @@ public:
   // @brief default ctor
   constexpr LightCookieManager_Settings();
 
-  // Ctor Parameters [CppParam { name: "atlas", ty: "::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings", modifiers: "", def_value: None }, CppParam { name:
-  // "maxAdditionalLights", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cubeOctahedralSizeScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "useStructuredBuffer", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "atlas", ty: "::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "maxAdditionalLights", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cubeOctahedralSizeScale", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "useStructuredBuffer", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr LightCookieManager_Settings(::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings atlas, int32_t maxAdditionalLights, float_t cubeOctahedralSizeScale,
                                         bool useStructuredBuffer) noexcept;
 
@@ -419,6 +419,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::LightCookieManager_S
 static_assert(sizeof(::UnityEngine::Rendering::Universal::LightCookieManager_Settings) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -450,13 +451,13 @@ protected:
   constexpr LightCookieMapping_LightCookieManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieMapping_LightCookieManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieMapping_LightCookieManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightCookieMapping_LightCookieManager___c(LightCookieMapping_LightCookieManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieMapping_LightCookieManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieMapping_LightCookieManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieMapping_LightCookieManager___c(LightCookieMapping_LightCookieManager___c const&) = delete;
+  LightCookieMapping_LightCookieManager___c(LightCookieMapping_LightCookieManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12772 };
@@ -502,8 +503,8 @@ public:
   // @brief default ctor
   constexpr LightCookieManager_LightCookieMapping();
 
-  // Ctor Parameters [CppParam { name: "visibleLightIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "lightBufferIndex", ty: "uint16_t", modifiers: "", def_value: None },
-  // CppParam { name: "light", ty: "::UnityW<::UnityEngine::Light>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "visibleLightIndex", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lightBufferIndex", ty: "uint16_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "light", ty: "::UnityW<::UnityEngine::Light>", modifiers: "", def_value: None, comment: None }]
   constexpr LightCookieManager_LightCookieMapping(uint16_t visibleLightIndex, uint16_t lightBufferIndex, ::UnityW<::UnityEngine::Light> light) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -533,6 +534,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::LightCookieManager_L
 static_assert(sizeof(::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [IsReadOnly]
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // cpp template
@@ -573,8 +576,8 @@ public:
   // @brief default ctor
   constexpr LightCookieManager_WorkSlice_1();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "m_Start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::ArrayW<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Start", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LightCookieManager_WorkSlice_1(::ArrayW<T> m_Data, int32_t m_Start, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -636,13 +639,13 @@ protected:
   constexpr LightCookieManager_WorkMemory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_WorkMemory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_WorkMemory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightCookieManager_WorkMemory(LightCookieManager_WorkMemory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_WorkMemory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_WorkMemory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieManager_WorkMemory(LightCookieManager_WorkMemory const&) = delete;
+  LightCookieManager_WorkMemory(LightCookieManager_WorkMemoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12775 };
@@ -797,6 +800,7 @@ public:
   /// @brief Method get_cookieEnableBits, addr 0x687c170, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ShaderBitArray get_cookieEnableBits();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isUploaded, addr 0x687c188, size 0x8, virtual false, abstract: false, final false
   inline bool get_isUploaded();
 
@@ -809,6 +813,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_isUploaded, addr 0x687c190, size 0x8, virtual false, abstract: false, final false
   inline void set_isUploaded(bool value);
 
@@ -818,13 +823,13 @@ protected:
   constexpr LightCookieManager_LightCookieShaderData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_LightCookieShaderData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_LightCookieShaderData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightCookieManager_LightCookieShaderData(LightCookieManager_LightCookieShaderData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_LightCookieShaderData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager_LightCookieShaderData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieManager_LightCookieShaderData(LightCookieManager_LightCookieShaderData const&) = delete;
+  LightCookieManager_LightCookieShaderData(LightCookieManager_LightCookieShaderDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12776 };
@@ -856,6 +861,7 @@ public:
   /// @brief Field m_LightTypeBuffer, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::ComputeBuffer* ___m_LightTypeBuffer;
 
+  /// [CompilerGenerated]
   /// @brief Field <isUploaded>k__BackingField, offset: 0x50, size: 0x1, def value: None
   bool ____isUploaded_k__BackingField;
 
@@ -1079,6 +1085,7 @@ public:
   /// @brief Method get_AdditionalLightsCookieAtlasTexture, addr 0x68793e0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_AdditionalLightsCookieAtlasTexture();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsKeywordLightCookieEnabled, addr 0x68793d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsKeywordLightCookieEnabled();
 
@@ -1090,6 +1097,7 @@ public:
 
   static inline void setStaticF_s_DirLightProj(::UnityEngine::Matrix4x4 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsKeywordLightCookieEnabled, addr 0x68793d8, size 0x8, virtual false, abstract: false, final false
   inline void set_IsKeywordLightCookieEnabled(bool value);
 
@@ -1099,13 +1107,13 @@ protected:
   constexpr LightCookieManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightCookieManager(LightCookieManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightCookieManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightCookieManager(LightCookieManager const&) = delete;
+  LightCookieManager(LightCookieManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12777 };
@@ -1137,6 +1145,7 @@ public:
   /// @brief Field m_PrevWarnFrame, offset: 0x50, size: 0x4, def value: None
   int32_t ___m_PrevWarnFrame;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsKeywordLightCookieEnabled>k__BackingField, offset: 0x54, size: 0x1, def value: None
   bool ____IsKeywordLightCookieEnabled_k__BackingField;
 

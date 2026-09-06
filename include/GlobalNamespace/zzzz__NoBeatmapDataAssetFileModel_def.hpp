@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoBeatmapDataAssetFileModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoBeatmapDataAssetFileModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ MARK_REF_T(::GlobalNamespace::NoBeatmapDataAssetFileModel*);
 MARK_VAL_T(::GlobalNamespace::NoBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__3);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoBeatmapDataAssetFileModel*, "", "NoBeatmapDataAssetFileModel");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__3, "", "NoBeatmapDataAssetFileModel/<GetAssetBundleFileForBeatmapLevelAsync>d__3");
+// [CompilerGenerated]
 // Dependencies GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -66,6 +67,7 @@ public:
   /// @brief Method MoveNext, addr 0x37312e4, size 0x304, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x37315e8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -76,10 +78,10 @@ public:
   // @brief default ctor
   constexpr NoBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__3();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None, comment: None }]
   constexpr NoBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__3(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder,
       ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __u__1) noexcept;
@@ -132,6 +134,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr operator ::GlobalNamespace::IBeatmapDataAssetFileModel*() noexcept;
 
+  /// [AsyncStateMachine(typeof(NoBeatmapDataAssetFileModel::<GetAssetBundleFileForBeatmapLevelAsync>d__3))]
   /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x373115c, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                                  ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
@@ -153,12 +156,14 @@ public:
   /// @brief Method .ctor, addr 0x37312e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x3730fdc, size 0xc0, virtual true, abstract: false, final true
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x373109c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
@@ -168,17 +173,18 @@ protected:
   constexpr NoBeatmapDataAssetFileModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoBeatmapDataAssetFileModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoBeatmapDataAssetFileModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoBeatmapDataAssetFileModel(NoBeatmapDataAssetFileModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoBeatmapDataAssetFileModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoBeatmapDataAssetFileModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoBeatmapDataAssetFileModel(NoBeatmapDataAssetFileModel const&) = delete;
+  NoBeatmapDataAssetFileModel(NoBeatmapDataAssetFileModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15049 };
 
+  /// [CompilerGenerated]
   /// @brief Field levelDataAssetDownloadUpdateEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* ___levelDataAssetDownloadUpdateEvent;
 

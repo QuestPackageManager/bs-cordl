@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\AllocatorHelper_1.hpp"
+// IWYU pragma private; include "Unity/Collections/AllocatorHelper_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,15 +15,21 @@ struct AllocatorManager_AllocatorHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct AllocatorHelper_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+struct AllocatorHelper_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::AllocatorHelper_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::AllocatorHelper_1, "Unity.Collections", "AllocatorHelper`1");
-// Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.AllocatorManager::AllocatorHandle) })]
+// Dependencies Unity.Collections.AllocatorManager::AllocatorHandle, Unity.Collections.AllocatorManager::IAllocator
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.AllocatorHelper`1<T>
 struct CORDL_TYPE AllocatorHelper_1 {
@@ -34,9 +40,11 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// [ExcludeFromBurstCompatTesting("DestroyAllocator is unburstable")]
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [ExcludeFromBurstCompatTesting("CreateAllocator is unburstable")]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::AllocatorManager_AllocatorHandle backingAllocator, bool isGlobal, int32_t globalIndex);
 
@@ -50,8 +58,8 @@ public:
   // @brief default ctor
   constexpr AllocatorHelper_1();
 
-  // Ctor Parameters [CppParam { name: "m_allocator", ty: "T*", modifiers: "", def_value: None }, CppParam { name: "m_backingAllocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_allocator", ty: "T*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_backingAllocator", ty:
+  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AllocatorHelper_1(T* m_allocator, ::Unity::Collections::AllocatorManager_AllocatorHandle m_backingAllocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

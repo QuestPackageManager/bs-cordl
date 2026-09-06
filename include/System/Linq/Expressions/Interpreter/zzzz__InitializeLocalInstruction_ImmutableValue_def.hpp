@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InitializeLocalInstruction_ImmutableValue.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InitializeLocalInstruction_ImmutableValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr InitializeLocalInstruction_ImmutableValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializeLocalInstruction_ImmutableValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializeLocalInstruction_ImmutableValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializeLocalInstruction_ImmutableValue(InitializeLocalInstruction_ImmutableValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializeLocalInstruction_ImmutableValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializeLocalInstruction_ImmutableValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializeLocalInstruction_ImmutableValue(InitializeLocalInstruction_ImmutableValue const&) = delete;
+  InitializeLocalInstruction_ImmutableValue(InitializeLocalInstruction_ImmutableValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16467 };

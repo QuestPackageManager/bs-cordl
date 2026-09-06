@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\ChannelData.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/ChannelData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

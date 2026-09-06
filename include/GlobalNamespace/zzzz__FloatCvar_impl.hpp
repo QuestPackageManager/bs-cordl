@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatCvar.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatCvar.hpp"
 #include "GlobalNamespace/zzzz__Cvar_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatCvar_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatCvar.Init

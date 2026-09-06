@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\SerializableHashSetBase.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/SerializableHashSetBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +56,13 @@ protected:
   constexpr SerializableHashSetBase_Storage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase_Storage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase_Storage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializableHashSetBase_Storage(SerializableHashSetBase_Storage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase_Storage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase_Storage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableHashSetBase_Storage(SerializableHashSetBase_Storage const&) = delete;
+  SerializableHashSetBase_Storage(SerializableHashSetBase_Storageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20809 };
@@ -104,13 +104,13 @@ protected:
   constexpr SerializableHashSetBase_HashSet_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase_HashSet_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase_HashSet_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializableHashSetBase_HashSet_1(SerializableHashSetBase_HashSet_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase_HashSet_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase_HashSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableHashSetBase_HashSet_1(SerializableHashSetBase_HashSet_1 const&) = delete;
+  SerializableHashSetBase_HashSet_1(SerializableHashSetBase_HashSet_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20810 };
@@ -141,13 +141,13 @@ protected:
   constexpr SerializableHashSetBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializableHashSetBase(SerializableHashSetBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableHashSetBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableHashSetBase(SerializableHashSetBase const&) = delete;
+  SerializableHashSetBase(SerializableHashSetBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20811 };

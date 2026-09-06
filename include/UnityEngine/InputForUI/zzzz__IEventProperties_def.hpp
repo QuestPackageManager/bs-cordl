@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\IEventProperties.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/IEventProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,15 +28,15 @@ public:
 
   __declspec(property(get = get_eventSource)) ::UnityEngine::InputForUI::EventSource eventSource;
 
-  /// @brief Method get_eventModifiers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_eventModifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
-  /// @brief Method get_eventSource, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_eventSource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IEventProperties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IEventProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IEventProperties(IEventProperties const&) = delete;
+  IEventProperties(IEventPropertiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21805 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\FORMATFLAGS.hpp"
+// IWYU pragma private; include "System/Globalization/FORMATFLAGS.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   // @brief default ctor
   constexpr FORMATFLAGS();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FORMATFLAGS(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)

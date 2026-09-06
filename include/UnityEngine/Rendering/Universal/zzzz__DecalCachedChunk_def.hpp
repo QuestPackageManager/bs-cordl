@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalCachedChunk.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalCachedChunk.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -271,13 +271,13 @@ protected:
   constexpr DecalCachedChunk();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalCachedChunk", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalCachedChunk", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalCachedChunk(DecalCachedChunk&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalCachedChunk", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalCachedChunk", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalCachedChunk(DecalCachedChunk const&) = delete;
+  DecalCachedChunk(DecalCachedChunkconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12703 };

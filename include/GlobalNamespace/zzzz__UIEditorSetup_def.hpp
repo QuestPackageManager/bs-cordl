@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UIEditorSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace/UIEditorSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ public:
   /// @brief Field TweakableFloat, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_TweakableFloat, put = __cordl_internal_set_TweakableFloat)) float_t TweakableFloat;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
   /// @brief Method Method, addr 0x5a3f730, size 0x4, virtual false, abstract: false, final false
   inline void Method();
 
@@ -71,26 +72,30 @@ protected:
   constexpr UIEditorSetup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIEditorSetup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIEditorSetup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIEditorSetup(UIEditorSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIEditorSetup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIEditorSetup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIEditorSetup(UIEditorSetup const&) = delete;
+  UIEditorSetup(UIEditorSetupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18322 };
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
   /// @brief Field Float, offset: 0x20, size: 0x4, def value: None
   float_t ___Float;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
   /// @brief Field Bool, offset: 0x24, size: 0x1, def value: None
   bool ___Bool;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1, Tweakable = true, Min = 0, Max = 1)]
   /// @brief Field TweakableFloat, offset: 0x28, size: 0x4, def value: None
   float_t ___TweakableFloat;
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)0, GizmoType = (Meta.XR.ImmersiveDebugger.DebugGizmoType)2)]
   /// @brief Field Position, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___Position;
 

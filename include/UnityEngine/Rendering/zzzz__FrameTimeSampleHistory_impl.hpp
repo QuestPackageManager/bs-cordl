@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FrameTimeSampleHistory.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FrameTimeSampleHistory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FrameTimeSample_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FrameTimeSampleHistory_def.hpp"

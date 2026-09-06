@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\DebugInfo.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/DebugInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr DebugInfo_DebugInfoComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInfo_DebugInfoComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInfo_DebugInfoComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugInfo_DebugInfoComparer(DebugInfo_DebugInfoComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInfo_DebugInfoComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInfo_DebugInfoComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInfo_DebugInfoComparer(DebugInfo_DebugInfoComparer const&) = delete;
+  DebugInfo_DebugInfoComparer(DebugInfo_DebugInfoComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16438 };
@@ -150,13 +150,13 @@ protected:
   constexpr DebugInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugInfo(DebugInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugInfo(DebugInfo const&) = delete;
+  DebugInfo(DebugInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16439 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRendererResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRendererResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,9 @@ class UniversalRendererResources;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalRendererResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRendererResources*, "UnityEngine.Rendering.Universal", "UniversalRendererResources");
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "R: Universal Renderer Shaders", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -139,29 +142,40 @@ protected:
   constexpr UniversalRendererResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRendererResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRendererResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRendererResources(UniversalRendererResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRendererResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRendererResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRendererResources(UniversalRendererResources const&) = delete;
+  UniversalRendererResources(UniversalRendererResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12940 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Utils/CopyDepth.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_CopyDepthPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_CopyDepthPS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/CameraMotionVectors.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_CameraMotionVector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_CameraMotionVector;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Utils/StencilDeferred.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_StencilDeferredPS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_StencilDeferredPS;
 
+  /// [Header("Decal Renderer Feature Specific")]
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/Decal/DBuffer/DBufferClear.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_DBufferClear, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_DBufferClear;
 

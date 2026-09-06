@@ -1,35 +1,51 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\AotHelper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/AotHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__AotHelper_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__AotHelper_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>* value) {
   ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*, "<>9", ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>(
       std::forward<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>(value));
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>* Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::getStaticF___9() {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>* Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*, "<>9", ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>();
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::setStaticF___9__1_0(::System::Action* value) {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::setStaticF___9__1_0(::System::Action* value) {
   ::cordl_internals::setStaticField<::System::Action*, "<>9__1_0", ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>(std::forward<::System::Action*>(value));
 }
-template <typename T> inline ::System::Action* Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::getStaticF___9__1_0() {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline ::System::Action* Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::getStaticF___9__1_0() {
   return ::cordl_internals::getStaticField<::System::Action*, "<>9__1_0", ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>();
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::_EnsureType_b__1_0() {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::_EnsureType_b__1_0() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>(), { "<EnsureType>b__1_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>* Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>* Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::AotHelper___c__1_1() {}
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+constexpr ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::AotHelper___c__1_1() {}
 template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>* value) {
   ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*, "<>9", ::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>(
       std::forward<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>(value));
@@ -120,7 +136,9 @@ inline void Newtonsoft::Json::Utilities::AotHelper::Ensure(::System::Action* act
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::AotHelper*>(), { "Ensure", {}, { ::i2c::type_of<::System::Action*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, action);
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper::EnsureType() {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline void Newtonsoft::Json::Utilities::AotHelper::EnsureType() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::AotHelper*>(), { "EnsureType", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

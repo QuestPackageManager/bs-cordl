@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConcreteBinderNonGeneric.hpp"
+// IWYU pragma private; include "Zenject/ConcreteBinderNonGeneric.hpp"
 #include "Zenject/zzzz__FromBinderNonGeneric_impl.hpp"
 #include "Zenject/zzzz__ConcreteBinderNonGeneric_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -112,7 +112,7 @@ template <typename TConcrete> inline ::Zenject::FromBinderNonGeneric* Zenject::C
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TConcrete>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FromBinderNonGeneric*>(this, ___internal_method);
 }
-inline ::Zenject::FromBinderNonGeneric* Zenject::ConcreteBinderNonGeneric::To(::ArrayW<::System::Type*> concreteTypes) {
+inline ::Zenject::FromBinderNonGeneric* Zenject::ConcreteBinderNonGeneric::To(/* [ParamArray] */ ::ArrayW<::System::Type*> concreteTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConcreteBinderNonGeneric*>(), { "To", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FromBinderNonGeneric*>(this, ___internal_method, concreteTypes);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourcesAPIInternal.hpp"
+// IWYU pragma private; include "UnityEngine/ResourcesAPIInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ResourcesAPIInternal_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -113,12 +113,12 @@ inline ::UnityW<::UnityEngine::Shader> UnityEngine::ResourcesAPIInternal::FindSh
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(), { "FindShaderByName", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>>(nullptr, ___internal_method, name);
 }
-inline ::UnityW<::UnityEngine::Object> UnityEngine::ResourcesAPIInternal::Load(::StringW path, ::System::Type* systemTypeInstance) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::ResourcesAPIInternal::Load(::StringW path, /* [NotNull] */ ::System::Type* systemTypeInstance) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(), { "Load", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, path, systemTypeInstance);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Object>> UnityEngine::ResourcesAPIInternal::LoadAll(::StringW path, ::System::Type* systemTypeInstance) {
+inline ::ArrayW<::UnityW<::UnityEngine::Object>> UnityEngine::ResourcesAPIInternal::LoadAll(/* [NotNull] */ ::StringW path, /* [NotNull] */ ::System::Type* systemTypeInstance) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPIInternal*>(), { "LoadAll", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>>>(nullptr, ___internal_method, path, systemTypeInstance);

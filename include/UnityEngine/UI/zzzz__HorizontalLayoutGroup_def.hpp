@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\HorizontalLayoutGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UI/HorizontalLayoutGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class HorizontalLayoutGroup;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::HorizontalLayoutGroup*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::HorizontalLayoutGroup*, "UnityEngine.UI", "HorizontalLayoutGroup");
+// [AddComponentMenu("Layout/Horizontal Layout Group", 150)]
 // Dependencies UnityEngine.UI.HorizontalOrVerticalLayoutGroup
 namespace UnityEngine::UI {
 // Is value type: false
@@ -42,13 +43,13 @@ protected:
   constexpr HorizontalLayoutGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HorizontalLayoutGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HorizontalLayoutGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HorizontalLayoutGroup(HorizontalLayoutGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HorizontalLayoutGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HorizontalLayoutGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HorizontalLayoutGroup(HorizontalLayoutGroup const&) = delete;
+  HorizontalLayoutGroup(HorizontalLayoutGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17452 };

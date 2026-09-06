@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Collision.hpp"
+// IWYU pragma private; include "UnityEngine/Collision.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,10 +72,14 @@ public:
 
   __declspec(property(get = get_contacts)) ::ArrayW<::UnityEngine::ContactPoint> contacts;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("Will always return zero.", true)]
   __declspec(property(get = get_frictionForceSum)) ::UnityEngine::Vector3 frictionForceSum;
 
   __declspec(property(get = get_gameObject)) ::UnityW<::UnityEngine::GameObject> gameObject;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("Use Collision.relativeVelocity instead. (UnityUpgradable) -> relativeVelocity", false)]
   __declspec(property(get = get_impactForceSum)) ::UnityEngine::Vector3 impactForceSum;
 
   __declspec(property(get = get_impulse)) ::UnityEngine::Vector3 impulse;
@@ -92,6 +96,8 @@ public:
   /// @brief Field m_Pair, offset 0x38, size 0x28
   __declspec(property(get = __cordl_internal_get_m_Pair, put = __cordl_internal_set_m_Pair)) ::UnityEngine::ContactPair m_Pair;
 
+  /// [Obsolete("Please use Collision.rigidbody, Collision.transform or Collision.collider instead", false)]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_other)) ::UnityW<::UnityEngine::Component> other;
 
   __declspec(property(get = get_relativeVelocity)) ::UnityEngine::Vector3 relativeVelocity;
@@ -109,15 +115,17 @@ public:
   /// @brief Method GetContacts, addr 0x6b71e6c, size 0x168, virtual false, abstract: false, final false
   inline int32_t GetContacts(::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* contacts);
 
+  /// [Obsolete("Do not use Collision.GetEnumerator(), enumerate using non-allocating array returned by Collision.GetContacts() or enumerate using Collision.GetContact(index) instead.", false)]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method GetEnumerator, addr 0x6b721b8, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::UnityEngine::Collision* New_ctor();
 
-  static inline ::UnityEngine::Collision* New_ctor(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair, bool flipped);
+  static inline ::UnityEngine::Collision* New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair, bool flipped);
 
   /// @brief Method Reuse, addr 0x6b71b9c, size 0x30, virtual false, abstract: false, final false
-  inline void Reuse(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair);
+  inline void Reuse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair);
 
   constexpr bool const& __cordl_internal_get_m_Flipped() const;
 
@@ -147,7 +155,7 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x6b71aec, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::ContactPairHeader> header, ::by_ref<::UnityEngine::ContactPair> pair, bool flipped);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair, bool flipped);
 
   /// @brief Method get_Flipped, addr 0x6b71904, size 0x8, virtual false, abstract: false, final false
   inline bool get_Flipped();
@@ -200,13 +208,13 @@ protected:
   constexpr Collision();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Collision", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Collision", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Collision(Collision&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Collision", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Collision", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Collision(Collision const&) = delete;
+  Collision(Collisionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18611 };

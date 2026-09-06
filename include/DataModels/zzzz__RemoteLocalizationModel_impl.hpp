@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "DataModels\RemoteLocalizationModel.hpp"
+// IWYU pragma private; include "DataModels/RemoteLocalizationModel.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
@@ -48,7 +48,7 @@ inline void DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
@@ -62,13 +62,14 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "prevLoadingTask", ty: "::System::Threading::Tasks::Task*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::DataModels::RemoteLocalizationModel*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_loadAdditionalLocalizationHandle_5__2", ty:
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prevLoadingTask", ty: "::System::Threading::Tasks::Task*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::DataModels::RemoteLocalizationModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_loadAdditionalLocalizationHandle_5__2", ty:
 // "::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>", modifiers: "", def_value: Some("{}") }]
+// def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::DataModels::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6::RemoteLocalizationModel__LoadAdditionalLocalizationAsync_d__6(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* prevLoadingTask, ::DataModels::RemoteLocalizationModel* __4__this,
     ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>>
@@ -188,7 +189,7 @@ inline void DataModels::RemoteLocalizationModel::HandleDidCatalogLoadOrUpdate() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::DataModels::RemoteLocalizationModel*>(), { "HandleDidCatalogLoadOrUpdate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* DataModels::RemoteLocalizationModel::LoadAdditionalLocalizationAsync(::System::Threading::Tasks::Task* prevLoadingTask) {
+inline ::System::Threading::Tasks::Task* DataModels::RemoteLocalizationModel::LoadAdditionalLocalizationAsync(/* [Nullable(2)] */ ::System::Threading::Tasks::Task* prevLoadingTask) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::DataModels::RemoteLocalizationModel*>(), { "LoadAdditionalLocalizationAsync", {}, { ::i2c::type_of<::System::Threading::Tasks::Task*>() } })));

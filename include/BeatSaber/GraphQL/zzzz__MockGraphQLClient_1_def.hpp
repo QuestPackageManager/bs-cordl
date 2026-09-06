@@ -1,15 +1,18 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GraphQL\MockGraphQLClient_1.hpp"
+// IWYU pragma private; include "BeatSaber/GraphQL/MockGraphQLClient_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLModel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockGraphQLClient_1)
 namespace BeatSaber::GraphQL {
-template <typename T, typename TDomainModel> class MockGraphQLClient_1___c__12_1;
+template <typename T, typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
+class MockGraphQLClient_1___c__12_1;
 }
 namespace OculusStudios::GraphQL::ClientInterface {
 class IGraphQLClientEvents;
@@ -46,17 +49,21 @@ namespace BeatSaber::GraphQL {
 template <typename T> class MockGraphQLClient_1;
 }
 namespace BeatSaber::GraphQL {
-template <typename T, typename TDomainModel> class MockGraphQLClient_1___c__12_1;
+template <typename T, typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
+class MockGraphQLClient_1___c__12_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BeatSaber::GraphQL::MockGraphQLClient_1);
 MARK_GEN_REF_T_PTR(::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BeatSaber::GraphQL::MockGraphQLClient_1, "BeatSaber.GraphQL", "MockGraphQLClient`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1, "BeatSaber.GraphQL", "MockGraphQLClient`1/<>c__12`1");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
 namespace BeatSaber::GraphQL {
 // cpp template
 template <typename T, typename TDomainModel>
+  requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
 // Is value type: false
 // CS Name: BeatSaber.GraphQL.MockGraphQLClient`1/<>c__12`1<T,TDomainModel>
 class CORDL_TYPE MockGraphQLClient_1___c__12_1 : public ::System::Object {
@@ -90,13 +97,13 @@ protected:
   constexpr MockGraphQLClient_1___c__12_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClient_1___c__12_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClient_1___c__12_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockGraphQLClient_1___c__12_1(MockGraphQLClient_1___c__12_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClient_1___c__12_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClient_1___c__12_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockGraphQLClient_1___c__12_1(MockGraphQLClient_1___c__12_1 const&) = delete;
+  MockGraphQLClient_1___c__12_1(MockGraphQLClient_1___c__12_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22668 };
@@ -105,7 +112,7 @@ public:
 };
 // Non member Declarations
 } // namespace BeatSaber::GraphQL
-// Dependencies System.Object
+// Dependencies OculusStudios.GraphQL.ClientInterface.IGraphQLModel, System.Object
 namespace BeatSaber::GraphQL {
 // cpp template
 template <typename T>
@@ -114,7 +121,9 @@ template <typename T>
 class CORDL_TYPE MockGraphQLClient_1 : public ::System::Object {
 public:
   // Declarations
-  template <typename TDomainModel> using __c__12_1 = ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>;
+  template <typename TDomainModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
+  using __c__12_1 = ::BeatSaber::GraphQL::MockGraphQLClient_1___c__12_1<T, TDomainModel>;
 
   /// @brief Field QueryCompletionSource, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_QueryCompletionSource, put = __cordl_internal_set_QueryCompletionSource)) ::System::Threading::Tasks::TaskCompletionSource_1<T>* QueryCompletionSource;
@@ -133,10 +142,15 @@ public:
                          ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
   /// @brief Method Mutate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TDomainModel> inline ::System::Threading::Tasks::Task_1<TDomainModel>* Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request);
+  template <typename TDomainModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
+  inline ::System::Threading::Tasks::Task_1<TDomainModel>* Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request);
 
   /// @brief Method Mutate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TDomainModel, typename TViewModel> inline ::System::Threading::Tasks::Task_1<TViewModel>* Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request);
+  template <typename TDomainModel, typename TViewModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+             ::cordl_internals::reference_type_constraint<TViewModel>)
+  inline ::System::Threading::Tasks::Task_1<TViewModel>* Mutate(::OculusStudios::GraphQL::ClientInterface::IMutationRequest* request);
 
   static inline ::BeatSaber::GraphQL::MockGraphQLClient_1<T>* New_ctor();
 
@@ -150,10 +164,15 @@ public:
   inline void PauseRequestQueue();
 
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TDomainModel> inline ::System::Threading::Tasks::Task_1<TDomainModel>* Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request);
+  template <typename TDomainModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel>)
+  inline ::System::Threading::Tasks::Task_1<TDomainModel>* Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request);
 
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename TDomainModel, typename TViewModel> inline ::System::Threading::Tasks::Task_1<TViewModel>* Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request);
+  template <typename TDomainModel, typename TViewModel>
+    requires(::cordl_internals::type_constraint<TDomainModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*> && ::cordl_internals::reference_type_constraint<TDomainModel> &&
+             ::cordl_internals::reference_type_constraint<TViewModel>)
+  inline ::System::Threading::Tasks::Task_1<TViewModel>* Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* request);
 
   /// @brief Method ResetRequestForUserInitiatedRetryAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* ResetRequestForUserInitiatedRetryAsync(::OculusStudios::GraphQL::ClientInterface::Request* request);
@@ -200,13 +219,13 @@ protected:
   constexpr MockGraphQLClient_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClient_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClient_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockGraphQLClient_1(MockGraphQLClient_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClient_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockGraphQLClient_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockGraphQLClient_1(MockGraphQLClient_1 const&) = delete;
+  MockGraphQLClient_1(MockGraphQLClient_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22669 };

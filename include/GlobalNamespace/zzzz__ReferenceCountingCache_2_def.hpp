@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ReferenceCountingCache_2.hpp"
+// IWYU pragma private; include "GlobalNamespace/ReferenceCountingCache_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ public:
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t Insert(TKey key, TValue item);
 
+  /// [Conditional("REFERENCE_COUNTING_CACHE_LOG_ENABLED")]
   /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
@@ -90,13 +91,13 @@ protected:
   constexpr ReferenceCountingCache_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceCountingCache_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReferenceCountingCache_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReferenceCountingCache_2(ReferenceCountingCache_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReferenceCountingCache_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReferenceCountingCache_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReferenceCountingCache_2(ReferenceCountingCache_2 const&) = delete;
+  ReferenceCountingCache_2(ReferenceCountingCache_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22854 };

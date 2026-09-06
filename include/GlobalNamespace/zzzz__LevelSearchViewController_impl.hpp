@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelSearchViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelSearchViewController.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_impl.hpp"
@@ -75,10 +75,10 @@ constexpr GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42::operat
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelSearchViewController>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::LevelSearchViewController>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__42::LevelSearchViewController__RefreshAsync_d__42(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelSearchViewController> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>> __u__1) noexcept {
@@ -714,7 +714,7 @@ inline void GlobalNamespace::LevelSearchViewController::Refresh() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(), { "Refresh", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelSearchViewController::Refresh(::by_ref<::GlobalNamespace::LevelFilter> filter) {
+inline void GlobalNamespace::LevelSearchViewController::Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(), { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, filter);
@@ -753,10 +753,9 @@ inline void GlobalNamespace::LevelSearchViewController::SearchTextInputFieldView
                                                                                          { "SearchTextInputFieldViewOnValueChanged", {}, { ::i2c::type_of<::HMUI::InputFieldView*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inputFieldView);
 }
-inline ::StringW
-GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription(::by_ref<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
-                                                                                  ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>* characteristics,
-                                                                                  bool isPlayerSensitivityForced) {
+inline ::StringW GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription(
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>* characteristics, bool isPlayerSensitivityForced) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(),
                                               { "LocalizedLevelFilterParamsDescription",

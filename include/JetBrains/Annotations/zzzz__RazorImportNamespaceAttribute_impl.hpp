@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\RazorImportNamespaceAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/RazorImportNamespaceAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__RazorImportNamespaceAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::RazorImportNamespaceAttribute._ctor
@@ -53,7 +53,7 @@ constexpr void JetBrains::Annotations::RazorImportNamespaceAttribute::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Name_k__BackingField = value;
 }
-inline void JetBrains::Annotations::RazorImportNamespaceAttribute::_ctor(::StringW name) {
+inline void JetBrains::Annotations::RazorImportNamespaceAttribute::_ctor(/* [NotNull] */ ::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::RazorImportNamespaceAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name);
@@ -67,7 +67,7 @@ inline void JetBrains::Annotations::RazorImportNamespaceAttribute::set_Name(::St
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::RazorImportNamespaceAttribute*>(), { "set_Name", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::JetBrains::Annotations::RazorImportNamespaceAttribute* JetBrains::Annotations::RazorImportNamespaceAttribute::New_ctor(::StringW name) {
+inline ::JetBrains::Annotations::RazorImportNamespaceAttribute* JetBrains::Annotations::RazorImportNamespaceAttribute::New_ctor(/* [NotNull] */ ::StringW name) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::RazorImportNamespaceAttribute*>(name));
 }
 // Ctor Parameters []

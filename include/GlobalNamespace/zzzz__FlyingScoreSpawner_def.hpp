@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlyingScoreSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlyingScoreSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,7 +96,7 @@ public:
   // @brief default ctor
   constexpr FlyingScoreSpawner_SpawnPosition();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FlyingScoreSpawner_SpawnPosition(int32_t value__) noexcept;
 
   /// @brief Field AboveGround value: I32(1)
@@ -149,13 +149,13 @@ protected:
   constexpr FlyingScoreSpawner_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingScoreSpawner_InitData(FlyingScoreSpawner_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreSpawner_InitData(FlyingScoreSpawner_InitData const&) = delete;
+  FlyingScoreSpawner_InitData(FlyingScoreSpawner_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5804 };
@@ -171,6 +171,7 @@ static_assert(offsetof(::GlobalNamespace::FlyingScoreSpawner_InitData, ___spawnP
 static_assert(sizeof(::GlobalNamespace::FlyingScoreSpawner_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
@@ -209,17 +210,22 @@ public:
   /// @brief Method MoveNext, addr 0x598a0e8, size 0x5c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x598a144, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x598a14c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x598a184, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x598a0e4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -253,6 +259,7 @@ public:
 
   constexpr void __cordl_internal_set_cutScoreBuffer(::GlobalNamespace::IReadonlyCutScoreBuffer* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5989d18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -271,13 +278,13 @@ protected:
   constexpr FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5(FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5(FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5 const&) = delete;
+  FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5(FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5805 };
@@ -313,6 +320,7 @@ static_assert(offsetof(::GlobalNamespace::FlyingScoreSpawner__SpawnFlyingScoreNe
 static_assert(sizeof(::GlobalNamespace::FlyingScoreSpawner__SpawnFlyingScoreNextFrameCoroutine_d__5) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/FlyingScoreSpawner")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -346,6 +354,7 @@ public:
   /// @brief Method SpawnFlyingScoreNextFrame, addr 0x5989c70, size 0x20, virtual false, abstract: false, final false
   inline void SpawnFlyingScoreNextFrame(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
+  /// [IteratorStateMachine(typeof(FlyingScoreSpawner::<SpawnFlyingScoreNextFrameCoroutine>d__5))]
   /// @brief Method SpawnFlyingScoreNextFrameCoroutine, addr 0x5989c90, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawnFlyingScoreNextFrameCoroutine(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
@@ -373,20 +382,22 @@ protected:
   constexpr FlyingScoreSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingScoreSpawner(FlyingScoreSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingScoreSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingScoreSpawner(FlyingScoreSpawner const&) = delete;
+  FlyingScoreSpawner(FlyingScoreSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5806 };
 
+  /// [Inject]
   /// @brief Field _flyingScoreEffectPool, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::FlyingScoreEffect_Pool* ____flyingScoreEffectPool;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::FlyingScoreSpawner_InitData* ____initData;
 

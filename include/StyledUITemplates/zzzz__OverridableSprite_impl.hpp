@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "StyledUITemplates\OverridableSprite.hpp"
+// IWYU pragma private; include "StyledUITemplates/OverridableSprite.hpp"
 #include "StyledUITemplates/zzzz__OverridableData_1_impl.hpp"
 #include "StyledUITemplates/zzzz__OverridableSprite_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"

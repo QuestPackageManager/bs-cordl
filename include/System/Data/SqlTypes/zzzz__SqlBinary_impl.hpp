@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlBinary.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlBinary.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBinary_def.hpp"
 #include "System/Data/SqlTypes/zzzz__EComparison_def.hpp"
 #include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
@@ -393,7 +393,7 @@ constexpr System::Data::SqlTypes::SqlBinary::operator ::System::Xml::Serializati
 constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlBinary::i___System__Xml__Serialization__IXmlSerializable() {
   return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::SqlTypes::SqlBinary::SqlBinary(::ArrayW<uint8_t> _value) noexcept {
   this->_value = _value;
 }

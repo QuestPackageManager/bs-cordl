@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\FileStream.hpp"
+// IWYU pragma private; include "System/IO/FileStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,13 +102,13 @@ protected:
   constexpr FileStream_ReadDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStream_ReadDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStream_ReadDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStream_ReadDelegate(FileStream_ReadDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStream_ReadDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStream_ReadDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStream_ReadDelegate(FileStream_ReadDelegate const&) = delete;
+  FileStream_ReadDelegate(FileStream_ReadDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3909 };
@@ -146,13 +146,13 @@ protected:
   constexpr FileStream_WriteDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStream_WriteDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStream_WriteDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStream_WriteDelegate(FileStream_WriteDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStream_WriteDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStream_WriteDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStream_WriteDelegate(FileStream_WriteDelegate const&) = delete;
+  FileStream_WriteDelegate(FileStream_WriteDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3910 };
@@ -163,6 +163,7 @@ public:
 static_assert(sizeof(::System::IO::FileStream_WriteDelegate) == 0x80, "Size mismatch!");
 
 } // namespace System::IO
+// [ComVisible(true)]
 // Dependencies System.IO.FileAccess, System.IO.Stream
 namespace System::IO {
 // Is value type: false
@@ -284,6 +285,7 @@ public:
   /// @brief Method InitBuffer, addr 0x5c1b56c, size 0x294, virtual false, abstract: false, final false
   inline void InitBuffer(int32_t size, bool isZeroSize);
 
+  /// @brief [Obsolete("Use FileStream(SafeFileHandle handle, FileAccess access, int bufferSize) instead")]
   static inline ::System::IO::FileStream* New_ctor(::System::IntPtr handle, ::System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize);
 
   static inline ::System::IO::FileStream* New_ctor(::System::IntPtr handle, ::System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize, bool isAsync, bool isConsoleWrapper);
@@ -437,6 +439,7 @@ public:
 
   constexpr void __cordl_internal_set_safeHandle(::Microsoft::Win32::SafeHandles::SafeFileHandle* value);
 
+  /// [Obsolete("Use FileStream(SafeFileHandle handle, FileAccess access, int bufferSize) instead")]
   /// @brief Method .ctor, addr 0x5c196d0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr handle, ::System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize);
 
@@ -502,13 +505,13 @@ protected:
   constexpr FileStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStream(FileStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStream(FileStream const&) = delete;
+  FileStream(FileStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3911 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\SXprUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/SXprUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,13 +65,13 @@ protected:
   constexpr SXprUtilities_MyS2k();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SXprUtilities_MyS2k", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SXprUtilities_MyS2k", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SXprUtilities_MyS2k(SXprUtilities_MyS2k&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SXprUtilities_MyS2k", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SXprUtilities_MyS2k", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SXprUtilities_MyS2k(SXprUtilities_MyS2k const&) = delete;
+  SXprUtilities_MyS2k(SXprUtilities_MyS2kconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1676 };
@@ -125,13 +125,13 @@ protected:
   constexpr SXprUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SXprUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SXprUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SXprUtilities(SXprUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SXprUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SXprUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SXprUtilities(SXprUtilities const&) = delete;
+  SXprUtilities(SXprUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1677 };

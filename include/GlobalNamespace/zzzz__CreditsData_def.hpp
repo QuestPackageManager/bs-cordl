@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CreditsData.hpp"
+// IWYU pragma private; include "GlobalNamespace/CreditsData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
   // @brief default ctor
   constexpr CreditsData_TextStyle();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CreditsData_TextStyle(int32_t value__) noexcept;
 
   /// @brief Field Header value: I32(2)
@@ -158,13 +158,13 @@ protected:
   constexpr CreditsData_Text();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_Text", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_Text", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreditsData_Text(CreditsData_Text&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_Text", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_Text", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsData_Text(CreditsData_Text const&) = delete;
+  CreditsData_Text(CreditsData_Textconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23226 };
@@ -232,13 +232,13 @@ protected:
   constexpr CreditsData_ChildCreditsItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_ChildCreditsItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_ChildCreditsItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreditsData_ChildCreditsItem(CreditsData_ChildCreditsItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_ChildCreditsItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_ChildCreditsItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsData_ChildCreditsItem(CreditsData_ChildCreditsItem const&) = delete;
+  CreditsData_ChildCreditsItem(CreditsData_ChildCreditsItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23228 };
@@ -322,13 +322,13 @@ protected:
   constexpr CreditsData_RootCreditsItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_RootCreditsItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_RootCreditsItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreditsData_RootCreditsItem(CreditsData_RootCreditsItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_RootCreditsItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsData_RootCreditsItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsData_RootCreditsItem(CreditsData_RootCreditsItem const&) = delete;
+  CreditsData_RootCreditsItem(CreditsData_RootCreditsItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23227 };
@@ -397,13 +397,13 @@ protected:
   constexpr CreditsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreditsData(CreditsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsData(CreditsData const&) = delete;
+  CreditsData(CreditsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23229 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\Util\UnityUtil.hpp"
+// IWYU pragma private; include "ModestTree/Util/UnityUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,6 +98,7 @@ DEFINE_IL2CPP_CLASS(::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17*, "Mo
 DEFINE_IL2CPP_CLASS(::ModestTree::Util::UnityUtil__GetParents_d__16*, "ModestTree.Util", "UnityUtil/<GetParents>d__16");
 DEFINE_IL2CPP_CLASS(::ModestTree::Util::UnityUtil___c*, "ModestTree.Util", "UnityUtil/<>c");
 DEFINE_IL2CPP_CLASS(::ModestTree::Util::UnityUtil__get_AllScenes_d__1*, "ModestTree.Util", "UnityUtil/<get_AllScenes>d__1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree::Util {
 // Is value type: false
@@ -183,13 +184,13 @@ protected:
   constexpr UnityUtil___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityUtil___c(UnityUtil___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil___c(UnityUtil___c const&) = delete;
+  UnityUtil___c(UnityUtil___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13983 };
@@ -200,6 +201,7 @@ public:
 static_assert(sizeof(::ModestTree::Util::UnityUtil___c) == 0x10, "Size mismatch!");
 
 } // namespace ModestTree::Util
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree::Util {
 // Is value type: false
@@ -248,23 +250,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e43a5c, size 0x288, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::ModestTree::Util::UnityUtil__GetDirectChildren_d__21* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator, addr 0x6e43dec, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>* System_Collections_Generic_IEnumerable_UnityEngine_GameObject__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current, addr 0x6e43da4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> System_Collections_Generic_IEnumerator_UnityEngine_GameObject__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e43e84, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e43dac, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e43de4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e43a40, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -307,6 +316,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6e43ce4, size 0xc0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e43540, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -331,13 +341,13 @@ protected:
   constexpr UnityUtil__GetDirectChildren_d__21();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildren_d__21", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildren_d__21", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityUtil__GetDirectChildren_d__21(UnityUtil__GetDirectChildren_d__21&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildren_d__21", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildren_d__21", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__GetDirectChildren_d__21(UnityUtil__GetDirectChildren_d__21 const&) = delete;
+  UnityUtil__GetDirectChildren_d__21(UnityUtil__GetDirectChildren_d__21const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13984 };
@@ -378,6 +388,7 @@ static_assert(offsetof(::ModestTree::Util::UnityUtil__GetDirectChildren_d__21, _
 static_assert(sizeof(::ModestTree::Util::UnityUtil__GetDirectChildren_d__21) == 0x40, "Size mismatch!");
 
 } // namespace ModestTree::Util
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree::Util {
 // Is value type: false
@@ -426,23 +437,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e43ea4, size 0x2a4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator, addr 0x6e44250, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>* System_Collections_Generic_IEnumerable_UnityEngine_GameObject__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current, addr 0x6e44208, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> System_Collections_Generic_IEnumerator_UnityEngine_GameObject__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e442e8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e44210, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e44248, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e43e88, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -485,6 +503,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6e44148, size 0xc0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e434b0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -509,13 +528,13 @@ protected:
   constexpr UnityUtil__GetDirectChildrenAndSelf_d__20();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildrenAndSelf_d__20", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildrenAndSelf_d__20", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityUtil__GetDirectChildrenAndSelf_d__20(UnityUtil__GetDirectChildrenAndSelf_d__20&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildrenAndSelf_d__20", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetDirectChildrenAndSelf_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__GetDirectChildrenAndSelf_d__20(UnityUtil__GetDirectChildrenAndSelf_d__20 const&) = delete;
+  UnityUtil__GetDirectChildrenAndSelf_d__20(UnityUtil__GetDirectChildrenAndSelf_d__20const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13985 };
@@ -556,6 +575,7 @@ static_assert(offsetof(::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d
 static_assert(sizeof(::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20) == 0x40, "Size mismatch!");
 
 } // namespace ModestTree::Util
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree::Util {
 // Is value type: false
@@ -604,23 +624,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e44308, size 0x2f8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::ModestTree::Util::UnityUtil__GetParents_d__16* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator, addr 0x6e446fc, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>* System_Collections_Generic_IEnumerable_UnityEngine_Transform__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current, addr 0x6e446b4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> System_Collections_Generic_IEnumerator_UnityEngine_Transform__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e44794, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e446bc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e446f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e442ec, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -663,6 +690,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6e44600, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e43180, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -687,13 +715,13 @@ protected:
   constexpr UnityUtil__GetParents_d__16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParents_d__16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParents_d__16", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityUtil__GetParents_d__16(UnityUtil__GetParents_d__16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParents_d__16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParents_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__GetParents_d__16(UnityUtil__GetParents_d__16 const&) = delete;
+  UnityUtil__GetParents_d__16(UnityUtil__GetParents_d__16const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13986 };
@@ -734,6 +762,7 @@ static_assert(offsetof(::ModestTree::Util::UnityUtil__GetParents_d__16, _____7__
 static_assert(sizeof(::ModestTree::Util::UnityUtil__GetParents_d__16) == 0x40, "Size mismatch!");
 
 } // namespace ModestTree::Util
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree::Util {
 // Is value type: false
@@ -782,23 +811,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e447b4, size 0x31c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator, addr 0x6e44bcc, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>* System_Collections_Generic_IEnumerable_UnityEngine_Transform__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current, addr 0x6e44b84, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> System_Collections_Generic_IEnumerator_UnityEngine_Transform__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e44c64, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e44b8c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e44bc4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e44798, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -841,6 +877,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x6e44ad0, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e431a0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -865,13 +902,13 @@ protected:
   constexpr UnityUtil__GetParentsAndSelf_d__17();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParentsAndSelf_d__17", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParentsAndSelf_d__17", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityUtil__GetParentsAndSelf_d__17(UnityUtil__GetParentsAndSelf_d__17&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParentsAndSelf_d__17", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__GetParentsAndSelf_d__17", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__GetParentsAndSelf_d__17(UnityUtil__GetParentsAndSelf_d__17 const&) = delete;
+  UnityUtil__GetParentsAndSelf_d__17(UnityUtil__GetParentsAndSelf_d__17const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13987 };
@@ -912,6 +949,7 @@ static_assert(offsetof(::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17, _
 static_assert(sizeof(::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17) == 0x40, "Size mismatch!");
 
 } // namespace ModestTree::Util
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.SceneManagement.Scene
 namespace ModestTree::Util {
 // Is value type: false
@@ -954,23 +992,30 @@ public:
   /// @brief Method MoveNext, addr 0x6e44c6c, size 0xf0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::ModestTree::Util::UnityUtil__get_AllScenes_d__1* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.SceneManagement.Scene>.GetEnumerator, addr 0x6e44dfc, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>* System_Collections_Generic_IEnumerable_UnityEngine_SceneManagement_Scene__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.SceneManagement.Scene>.get_Current, addr 0x6e44d5c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::SceneManagement::Scene System_Collections_Generic_IEnumerator_UnityEngine_SceneManagement_Scene__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e44e88, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e44d64, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e44d9c, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6e44c68, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -998,6 +1043,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6e42b9c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -1022,13 +1068,13 @@ protected:
   constexpr UnityUtil__get_AllScenes_d__1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__get_AllScenes_d__1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__get_AllScenes_d__1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityUtil__get_AllScenes_d__1(UnityUtil__get_AllScenes_d__1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__get_AllScenes_d__1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil__get_AllScenes_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil__get_AllScenes_d__1(UnityUtil__get_AllScenes_d__1 const&) = delete;
+  UnityUtil__get_AllScenes_d__1(UnityUtil__get_AllScenes_d__1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13988 };
@@ -1093,15 +1139,19 @@ public:
   /// @brief Method GetDepthLevel, addr 0x6e42ebc, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t GetDepthLevel(::UnityEngine::Transform* transform);
 
+  /// [IteratorStateMachine(typeof(ModestTree.Util.UnityUtil::<GetDirectChildren>d__21))]
   /// @brief Method GetDirectChildren, addr 0x6e434d0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetDirectChildren(::UnityEngine::GameObject* obj);
 
+  /// [IteratorStateMachine(typeof(ModestTree.Util.UnityUtil::<GetDirectChildrenAndSelf>d__20))]
   /// @brief Method GetDirectChildrenAndSelf, addr 0x6e43440, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetDirectChildrenAndSelf(::UnityEngine::GameObject* obj);
 
+  /// [IteratorStateMachine(typeof(ModestTree.Util.UnityUtil::<GetParents>d__16))]
   /// @brief Method GetParents, addr 0x6e43110, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* GetParents(::UnityEngine::Transform* transform);
 
+  /// [IteratorStateMachine(typeof(ModestTree.Util.UnityUtil::<GetParentsAndSelf>d__17))]
   /// @brief Method GetParentsAndSelf, addr 0x6e430a0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* GetParentsAndSelf(::UnityEngine::Transform* transform);
 
@@ -1111,6 +1161,7 @@ public:
   /// @brief Method get_AllLoadedScenes, addr 0x6e42bbc, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* get_AllLoadedScenes();
 
+  /// [IteratorStateMachine(typeof(ModestTree.Util.UnityUtil::<get_AllScenes>d__1))]
   /// @brief Method get_AllScenes, addr 0x6e42b34, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* get_AllScenes();
 
@@ -1135,13 +1186,13 @@ protected:
   constexpr UnityUtil();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityUtil(UnityUtil&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityUtil", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityUtil(UnityUtil const&) = delete;
+  UnityUtil(UnityUtilconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13989 };

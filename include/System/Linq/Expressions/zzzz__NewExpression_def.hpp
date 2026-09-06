@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\NewExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/NewExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class NewExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::NewExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::NewExpression*, "System.Linq.Expressions", "NewExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::NewExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -54,6 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Constructor, addr 0x5f88dd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* get_Constructor();
 
@@ -63,13 +65,13 @@ protected:
   constexpr NewExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NewExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NewExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NewExpression(NewExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NewExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NewExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NewExpression(NewExpression const&) = delete;
+  NewExpression(NewExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16220 };
@@ -77,6 +79,7 @@ public:
   /// @brief Field _arguments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* ____arguments;
 
+  /// [CompilerGenerated]
   /// @brief Field <Constructor>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ____Constructor_k__BackingField;
 

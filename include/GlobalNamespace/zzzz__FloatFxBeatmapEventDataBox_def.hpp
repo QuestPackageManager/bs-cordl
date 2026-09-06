@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxBeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxBeatmapEventDataBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ protected:
   constexpr FloatFxBeatmapEventDataBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxBeatmapEventDataBox(FloatFxBeatmapEventDataBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBeatmapEventDataBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxBeatmapEventDataBox(FloatFxBeatmapEventDataBox const&) = delete;
+  FloatFxBeatmapEventDataBox(FloatFxBeatmapEventDataBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14921 };

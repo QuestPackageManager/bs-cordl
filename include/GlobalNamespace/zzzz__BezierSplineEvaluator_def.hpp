@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BezierSplineEvaluator.hpp"
+// IWYU pragma private; include "GlobalNamespace/BezierSplineEvaluator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,8 +55,9 @@ public:
   // @brief default ctor
   constexpr BezierSplineEvaluator_CubicSolveResult();
 
-  // Ctor Parameters [CppParam { name: "numberOfSolutions", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "solution1", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "solution2", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "solution3", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "numberOfSolutions", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "solution1", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "solution2", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "solution3", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BezierSplineEvaluator_CubicSolveResult(int32_t numberOfSolutions, float_t solution1, float_t solution2, float_t solution3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -159,13 +160,13 @@ protected:
   constexpr BezierSplineEvaluator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BezierSplineEvaluator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierSplineEvaluator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BezierSplineEvaluator(BezierSplineEvaluator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BezierSplineEvaluator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierSplineEvaluator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BezierSplineEvaluator(BezierSplineEvaluator const&) = delete;
+  BezierSplineEvaluator(BezierSplineEvaluatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22026 };

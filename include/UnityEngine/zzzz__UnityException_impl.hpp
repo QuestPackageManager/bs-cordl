@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UnityException.hpp"
+// IWYU pragma private; include "UnityEngine/UnityException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/zzzz__UnityException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

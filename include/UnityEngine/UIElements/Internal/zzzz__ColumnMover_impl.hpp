@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\ColumnMover.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/ColumnMover.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerManipulator_impl.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__ColumnMover_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\SignatureHasElementType.hpp"
+// IWYU pragma private; include "System/Reflection/SignatureHasElementType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   /// @brief Field _elementType, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__elementType, put = __cordl_internal_set__elementType)) ::System::Reflection::SignatureType* _elementType;
 
-  /// @brief Method GetArrayRank, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetArrayRank, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetArrayRank();
 
   /// @brief Method GetGenericArguments, addr 0x5b81d28, size 0x98, virtual true, abstract: false, final true
@@ -69,13 +69,13 @@ public:
   /// @brief Method HasElementTypeImpl, addr 0x5b81c94, size 0x8, virtual true, abstract: false, final true
   inline bool HasElementTypeImpl();
 
-  /// @brief Method IsArrayImpl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsArrayImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsArrayImpl();
 
-  /// @brief Method IsByRefImpl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsByRefImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsByRefImpl();
 
-  /// @brief Method IsPointerImpl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsPointerImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsPointerImpl();
 
   static inline ::System::Reflection::SignatureHasElementType* New_ctor(::System::Reflection::SignatureType* elementType);
@@ -116,10 +116,10 @@ public:
   /// @brief Method get_IsGenericTypeDefinition, addr 0x5b81c8c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsGenericTypeDefinition();
 
-  /// @brief Method get_IsSZArray, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsSZArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsSZArray();
 
-  /// @brief Method get_IsVariableBoundArray, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsVariableBoundArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsVariableBoundArray();
 
   /// @brief Method get_Name, addr 0x5b81ea4, size 0x54, virtual true, abstract: false, final true
@@ -128,7 +128,7 @@ public:
   /// @brief Method get_Namespace, addr 0x5b81ef8, size 0x20, virtual true, abstract: false, final true
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Suffix, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Suffix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Suffix();
 
 protected:
@@ -137,13 +137,13 @@ protected:
   constexpr SignatureHasElementType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignatureHasElementType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignatureHasElementType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignatureHasElementType(SignatureHasElementType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignatureHasElementType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignatureHasElementType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignatureHasElementType(SignatureHasElementType const&) = delete;
+  SignatureHasElementType(SignatureHasElementTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3518 };

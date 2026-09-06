@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "MS\Internal\Xml\XPath\Operator.hpp"
+// IWYU pragma private; include "MS/Internal/Xml/XPath/Operator.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Operator_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Operator_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathResultType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::MS::Internal::Xml::XPath::Operator_Op::Operator_Op(int32_t value__) noexcept {
   this->value__ = value__;
 }

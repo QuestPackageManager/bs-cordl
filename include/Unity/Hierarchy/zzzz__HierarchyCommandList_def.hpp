@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyCommandList.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyCommandList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ protected:
   constexpr HierarchyCommandList_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshaller const&) = delete;
+  HierarchyCommandList_BindingsMarshaller(HierarchyCommandList_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21940 };
@@ -60,6 +60,9 @@ public:
 static_assert(sizeof(::Unity::Hierarchy::HierarchyCommandList_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Hierarchy
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [NativeHeader("Modules/HierarchyCore/HierarchyCommandListBindings.h")]
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchyCommandList.h")]
 // Dependencies System.IntPtr, System.Object
 namespace Unity::Hierarchy {
 // Is value type: false
@@ -78,9 +81,11 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateCommandList, addr 0x6b3974c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateCommandList(::System::IntPtr nativePtr);
 
+  /// [FreeFunction("HierarchyCommandListBindings::Destroy", IsThreadSafe = true)]
   /// @brief Method Destroy, addr 0x6b39688, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr nativePtr);
 
@@ -122,13 +127,13 @@ protected:
   constexpr HierarchyCommandList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyCommandList(HierarchyCommandList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyCommandList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyCommandList(HierarchyCommandList const&) = delete;
+  HierarchyCommandList(HierarchyCommandListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21941 };

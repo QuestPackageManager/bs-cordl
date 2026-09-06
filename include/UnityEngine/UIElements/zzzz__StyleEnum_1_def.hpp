@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleEnum_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleEnum_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IConvertible_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -22,15 +23,18 @@ struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> struct StyleEnum_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct StyleEnum_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::StyleEnum_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::StyleEnum_1, "UnityEngine.UIElements", "StyleEnum`1");
-// Dependencies UnityEngine.UIElements.StyleKeyword
+// Dependencies System.IConvertible, UnityEngine.UIElements.StyleKeyword
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.StyleEnum`1<T>
 struct CORDL_TYPE StyleEnum_1 {
@@ -101,8 +105,8 @@ public:
   // @brief default ctor
   constexpr StyleEnum_1();
 
-  // Ctor Parameters [CppParam { name: "m_Value", ty: "T", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "m_Value", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr StyleEnum_1(T m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

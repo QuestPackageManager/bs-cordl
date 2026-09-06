@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\SendOrPostCallback.hpp"
+// IWYU pragma private; include "System/Threading/SendOrPostCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ protected:
   constexpr SendOrPostCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SendOrPostCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SendOrPostCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SendOrPostCallback(SendOrPostCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SendOrPostCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SendOrPostCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SendOrPostCallback(SendOrPostCallback const&) = delete;
+  SendOrPostCallback(SendOrPostCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2680 };

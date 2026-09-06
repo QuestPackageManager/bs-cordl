@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BlendShape.hpp"
+// IWYU pragma private; include "UnityEngine/BlendShape.hpp"
 #include "UnityEngine/zzzz__BlendShape_def.hpp"
 //  Writing Method size for method: ::UnityEngine::BlendShape.get_firstVertex
 template <>
@@ -33,8 +33,9 @@ inline uint32_t UnityEngine::BlendShape::get_vertexCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BlendShape>(), { "get_vertexCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_FirstVertex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_VertexCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_HasNormals", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_HasTangents", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_FirstVertex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_VertexCount", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_HasNormals", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_HasTangents", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::BlendShape::BlendShape(uint32_t m_FirstVertex, uint32_t m_VertexCount, bool m_HasNormals, bool m_HasTangents) noexcept {
   this->m_FirstVertex = m_FirstVertex;
   this->m_VertexCount = m_VertexCount;

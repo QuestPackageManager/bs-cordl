@@ -1,6 +1,26 @@
 #pragma once
-// IWYU pragma private; include "Zenject\DiContainer.hpp"
+// IWYU pragma private; include "Zenject/DiContainer.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
+#include "Zenject/zzzz__IFactory_impl.hpp"
+#include "Zenject/zzzz__IFixedTickable_impl.hpp"
+#include "Zenject/zzzz__IInitializable_impl.hpp"
+#include "Zenject/zzzz__ILateDisposable_impl.hpp"
+#include "Zenject/zzzz__ILateTickable_impl.hpp"
+#include "Zenject/zzzz__IMemoryPool_impl.hpp"
+#include "Zenject/zzzz__IPoolable_impl.hpp"
+#include "Zenject/zzzz__ITickable_impl.hpp"
+#include "Zenject/zzzz__Installer_impl.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_11_impl.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_1_impl.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_2_impl.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_3_impl.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_4_impl.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_5_impl.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_6_impl.hpp"
+#include "Zenject/zzzz__PlaceholderFactory_7_impl.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -914,6 +934,7 @@ inline ::System::Collections::IEnumerator* Zenject::DiContainer__GetDependencyCo
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer__GetDependencyContracts_d__96*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Zenject::DiContainer__GetDependencyContracts_d__96* Zenject::DiContainer__GetDependencyContracts_d__96::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::DiContainer__GetDependencyContracts_d__96*>(__1__state));
 }
@@ -3353,12 +3374,16 @@ inline void Zenject::DiContainer::GetProvidersForContract(::Zenject::BindingId b
                                                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::Zenject::DiContainer_ProviderInfo*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bindingId, sourceType, buffer);
 }
-template <typename TInstaller> inline void Zenject::DiContainer::Install() {
+template <typename TInstaller>
+  requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::Installer*>)
+inline void Zenject::DiContainer::Install() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "Install", { ::i2c::class_of<TInstaller>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TInstaller>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TInstaller> inline void Zenject::DiContainer::Install(::ArrayW<::System::Object*> extraArgs) {
+template <typename TInstaller>
+  requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::Installer*>)
+inline void Zenject::DiContainer::Install(::ArrayW<::System::Object*> extraArgs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "Install", { ::i2c::class_of<TInstaller>() }, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TInstaller>() })));
@@ -3592,7 +3617,9 @@ inline ::System::Object* Zenject::DiContainer::Instantiate(::System::Type* concr
                                               { "Instantiate", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, concreteType, extraArgs);
 }
-template <typename TContract> inline TContract Zenject::DiContainer::InstantiateComponent(::UnityEngine::GameObject* gameObject) {
+template <typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*>)
+inline TContract Zenject::DiContainer::InstantiateComponent(::UnityEngine::GameObject* gameObject) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "InstantiateComponent", { ::i2c::class_of<TContract>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
@@ -3600,6 +3627,7 @@ template <typename TContract> inline TContract Zenject::DiContainer::Instantiate
   return ::cordl_internals::RunMethodRethrow<TContract>(this, ___internal_method, gameObject);
 }
 template <typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*>)
 inline TContract Zenject::DiContainer::InstantiateComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
@@ -3624,13 +3652,17 @@ inline ::UnityW<::UnityEngine::Component> Zenject::DiContainer::InstantiateCompo
                                                                                                            ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Component>>(this, ___internal_method, componentType, gameObject, extraArgs);
 }
-template <typename T> inline T Zenject::DiContainer::InstantiateComponentOnNewGameObject() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::DiContainer::InstantiateComponentOnNewGameObject() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "InstantiateComponentOnNewGameObject", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline T Zenject::DiContainer::InstantiateComponentOnNewGameObject(::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::DiContainer::InstantiateComponentOnNewGameObject(::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
@@ -3638,13 +3670,17 @@ template <typename T> inline T Zenject::DiContainer::InstantiateComponentOnNewGa
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, extraArgs);
 }
-template <typename T> inline T Zenject::DiContainer::InstantiateComponentOnNewGameObject(::StringW gameObjectName) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::DiContainer::InstantiateComponentOnNewGameObject(::StringW gameObjectName) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "InstantiateComponentOnNewGameObject", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, gameObjectName);
 }
-template <typename T> inline T Zenject::DiContainer::InstantiateComponentOnNewGameObject(::StringW gameObjectName, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::DiContainer::InstantiateComponentOnNewGameObject(::StringW gameObjectName, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -3850,13 +3886,17 @@ inline ::System::Object* Zenject::DiContainer::InstantiatePrefabResourceForCompo
                                                                                        ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Object*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, concreteType, resourcePath, parentTransform, extraArgs);
 }
-template <typename T> inline T Zenject::DiContainer::InstantiateScriptableObjectResource(::StringW resourcePath) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
+inline T Zenject::DiContainer::InstantiateScriptableObjectResource(::StringW resourcePath) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "InstantiateScriptableObjectResource", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, resourcePath);
 }
-template <typename T> inline T Zenject::DiContainer::InstantiateScriptableObjectResource(::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
+inline T Zenject::DiContainer::InstantiateScriptableObjectResource(::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -3885,14 +3925,18 @@ inline void Zenject::DiContainer::InjectGameObject(::UnityEngine::GameObject* ga
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "InjectGameObject", {}, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gameObject);
 }
-template <typename T> inline T Zenject::DiContainer::InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::DiContainer::InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "InjectGameObjectForComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, gameObject);
 }
-template <typename T> inline T Zenject::DiContainer::InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T Zenject::DiContainer::InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
                                                            { "InjectGameObjectForComponent",
@@ -3951,7 +3995,9 @@ inline ::System::Object* Zenject::DiContainer::ResolveId(::System::Type* contrac
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "ResolveId", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, contractType, identifier);
 }
-template <typename TContract> inline TContract Zenject::DiContainer::TryResolve() {
+template <typename TContract>
+  requires(::cordl_internals::reference_type_constraint<TContract>)
+inline TContract Zenject::DiContainer::TryResolve() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "TryResolve", { ::i2c::class_of<TContract>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContract>() })));
   return ::cordl_internals::RunMethodRethrow<TContract>(this, ___internal_method);
@@ -3960,7 +4006,9 @@ inline ::System::Object* Zenject::DiContainer::TryResolve(::System::Type* contra
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "TryResolve", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, contractType);
 }
-template <typename TContract> inline TContract Zenject::DiContainer::TryResolveId(::System::Object* identifier) {
+template <typename TContract>
+  requires(::cordl_internals::reference_type_constraint<TContract>)
+inline TContract Zenject::DiContainer::TryResolveId(::System::Object* identifier) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "TryResolveId", { ::i2c::class_of<TContract>() }, { ::i2c::type_of<::System::Object*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContract>() })));
@@ -4130,7 +4178,7 @@ template <typename TContract> inline ::Zenject::ConcreteIdBinderGeneric_1<TContr
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContract>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConcreteIdBinderGeneric_1<TContract>*>(this, ___internal_method, bindStatement);
 }
-inline ::Zenject::ConcreteIdBinderNonGeneric* Zenject::DiContainer::Bind(::ArrayW<::System::Type*> contractTypes) {
+inline ::Zenject::ConcreteIdBinderNonGeneric* Zenject::DiContainer::Bind(/* [ParamArray] */ ::ArrayW<::System::Type*> contractTypes) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "Bind", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConcreteIdBinderNonGeneric*>(this, ___internal_method, contractTypes);
 }
@@ -4177,12 +4225,15 @@ template <typename TContract> inline ::Zenject::IdScopeConcreteIdArgConditionCop
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContract>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder*>(this, ___internal_method, instance);
 }
-inline void Zenject::DiContainer::BindInstances(::ArrayW<::System::Object*> instances) {
+inline void Zenject::DiContainer::BindInstances(/* [ParamArray] */ ::ArrayW<::System::Object*> instances) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindInstances", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, instances);
 }
-template <typename TContract, typename TFactoryContract, typename TFactoryConcrete> inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* Zenject::DiContainer::BindFactoryInternal() {
+template <typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+  requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
+inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* Zenject::DiContainer::BindFactoryInternal() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
                                                            { "BindFactoryInternal", { ::i2c::class_of<TContract>(), ::i2c::class_of<TFactoryContract>(), ::i2c::class_of<TFactoryConcrete>() }, {} })));
@@ -4195,13 +4246,18 @@ template <typename TContract> inline ::Zenject::FactoryToChoiceIdBinder_1<TContr
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContract>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_1<TContract>*>(this, ___internal_method);
 }
-template <typename TContract, typename TFactory> inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* Zenject::DiContainer::BindFactory() {
+template <typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_1<TContract>*>)
+inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* Zenject::DiContainer::BindFactory() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindFactory", { ::i2c::class_of<TContract>(), ::i2c::class_of<TFactory>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContract>(), ::i2c::class_of<TFactory>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_1<TContract>*>(this, ___internal_method);
 }
-template <typename TContract, typename TFactoryConcrete, typename TFactoryContract> inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* Zenject::DiContainer::BindFactoryCustomInterface() {
+template <typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+  requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_1<TContract>*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
+inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* Zenject::DiContainer::BindFactoryCustomInterface() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
                                               { "BindFactoryCustomInterface", { ::i2c::class_of<TContract>(), ::i2c::class_of<TFactoryConcrete>(), ::i2c::class_of<TFactoryContract>() }, {} })));
@@ -4215,13 +4271,17 @@ template <typename TItemContract> inline ::Zenject::MemoryPoolIdInitialSizeMaxSi
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TItemContract>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*>(this, ___internal_method);
 }
-template <typename TItemContract, typename TPool> inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* Zenject::DiContainer::BindMemoryPool() {
+template <typename TItemContract, typename TPool>
+  requires(::cordl_internals::type_constraint<TPool, ::Zenject::IMemoryPool*>)
+inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* Zenject::DiContainer::BindMemoryPool() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindMemoryPool", { ::i2c::class_of<TItemContract>(), ::i2c::class_of<TPool>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TItemContract>(), ::i2c::class_of<TPool>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*>(this, ___internal_method);
 }
 template <typename TItemContract, typename TPoolConcrete, typename TPoolContract>
+  requires(::cordl_internals::type_constraint<TPoolConcrete, TPoolContract> && ::cordl_internals::type_constraint<TPoolConcrete, ::Zenject::IMemoryPool*> &&
+           ::cordl_internals::type_constraint<TPoolContract, ::Zenject::IMemoryPool*>)
 inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* Zenject::DiContainer::BindMemoryPoolCustomInterface(bool includeConcreteType) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4232,6 +4292,8 @@ inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* Zenject
   return ::cordl_internals::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*>(this, ___internal_method, includeConcreteType);
 }
 template <typename TItemContract, typename TPoolConcrete, typename TPoolContract>
+  requires(::cordl_internals::type_constraint<TPoolConcrete, TPoolContract> && ::cordl_internals::type_constraint<TPoolConcrete, ::Zenject::IMemoryPool*> &&
+           ::cordl_internals::type_constraint<TPoolContract, ::Zenject::IMemoryPool*>)
 inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* Zenject::DiContainer::BindMemoryPoolCustomInterfaceNoFlush(bool includeConcreteType) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindMemoryPoolCustomInterfaceNoFlush",
@@ -4242,6 +4304,8 @@ inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* Zenject
   return ::cordl_internals::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*>(this, ___internal_method, includeConcreteType);
 }
 template <typename TItemContract, typename TPoolConcrete, typename TPoolContract>
+  requires(::cordl_internals::type_constraint<TPoolConcrete, TPoolContract> && ::cordl_internals::type_constraint<TPoolConcrete, ::Zenject::IMemoryPool*> &&
+           ::cordl_internals::type_constraint<TPoolContract, ::Zenject::IMemoryPool*>)
 inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* Zenject::DiContainer::BindMemoryPoolCustomInterfaceInternal(bool includeConcreteType, ::Zenject::BindStatement* statement) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindMemoryPoolCustomInterfaceInternal",
@@ -4252,6 +4316,8 @@ inline ::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>* Zenject
   return ::cordl_internals::RunMethodRethrow<::Zenject::MemoryPoolIdInitialSizeMaxSizeBinder_1<TItemContract>*>(this, ___internal_method, includeConcreteType, statement);
 }
 template <typename TParam1, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+  requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* Zenject::DiContainer::BindFactoryInternal() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4267,7 +4333,9 @@ template <typename TParam1, typename TContract> inline ::Zenject::FactoryToChoic
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TParam1>(), ::i2c::class_of<TContract>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*>(this, ___internal_method);
 }
-template <typename TParam1, typename TContract, typename TFactory> inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* Zenject::DiContainer::BindFactory() {
+template <typename TParam1, typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_2<TParam1, TContract>*>)
+inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* Zenject::DiContainer::BindFactory() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindFactory", { ::i2c::class_of<TParam1>(), ::i2c::class_of<TContract>(), ::i2c::class_of<TFactory>() }, {} })));
@@ -4276,6 +4344,8 @@ template <typename TParam1, typename TContract, typename TFactory> inline ::Zenj
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+  requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_2<TParam1, TContract>*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* Zenject::DiContainer::BindFactoryCustomInterface() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -4287,6 +4357,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>* Zenject::DiCont
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_2<TParam1, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+  requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* Zenject::DiContainer::BindFactoryInternal() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindFactoryInternal",
@@ -4306,7 +4378,9 @@ template <typename TParam1, typename TParam2, typename TContract> inline ::Zenje
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TContract>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*>(this, ___internal_method);
 }
-template <typename TParam1, typename TParam2, typename TContract, typename TFactory> inline ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* Zenject::DiContainer::BindFactory() {
+template <typename TParam1, typename TParam2, typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_3<TParam1, TParam2, TContract>*>)
+inline ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* Zenject::DiContainer::BindFactory() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
                                               { "BindFactory", { ::i2c::class_of<TParam1>(), ::i2c::class_of<TParam2>(), ::i2c::class_of<TContract>(), ::i2c::class_of<TFactory>() }, {} })));
@@ -4315,6 +4389,8 @@ template <typename TParam1, typename TParam2, typename TContract, typename TFact
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+  requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_3<TParam1, TParam2, TContract>*> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* Zenject::DiContainer::BindFactoryCustomInterface() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindFactoryCustomInterface",
@@ -4327,6 +4403,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>* Zenjec
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_3<TParam1, TParam2, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+  requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* Zenject::DiContainer::BindFactoryInternal() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindFactoryInternal",
@@ -4348,6 +4426,7 @@ inline ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_4<TParam1, TParam2, TParam3, TContract>*>)
 inline ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* Zenject::DiContainer::BindFactory() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4358,6 +4437,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+  requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_4<TParam1, TParam2, TParam3, TContract>*> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>* Zenject::DiContainer::BindFactoryCustomInterface() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindFactoryCustomInterface",
@@ -4370,6 +4451,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_4<TParam1, TParam2, TParam3, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+  requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* Zenject::DiContainer::BindFactoryInternal() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -4393,6 +4476,7 @@ inline ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, 
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TContract>*>)
 inline ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* Zenject::DiContainer::BindFactory() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindFactory",
@@ -4405,6 +4489,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, 
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+  requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TContract>*> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* Zenject::DiContainer::BindFactoryCustomInterface() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -4418,6 +4504,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, 
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+  requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* Zenject::DiContainer::BindFactoryInternal() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
@@ -4444,6 +4532,7 @@ inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, 
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*>)
 inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* Zenject::DiContainer::BindFactory() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -4457,6 +4546,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, 
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+  requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* Zenject::DiContainer::BindFactoryCustomInterface() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
@@ -4471,6 +4562,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, 
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+  requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* Zenject::DiContainer::BindFactoryInternal() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
@@ -4498,6 +4591,7 @@ inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, 
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>)
 inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* Zenject::DiContainer::BindFactory() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4511,6 +4605,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, 
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+  requires(::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* Zenject::DiContainer::BindFactoryCustomInterface() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
@@ -4526,6 +4622,8 @@ inline ::Zenject::FactoryToChoiceIdBinder_7<TParam1, TParam2, TParam3, TParam4, 
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract, typename TFactoryContract, typename TFactoryConcrete>
+  requires(::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*> && ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> &&
+           ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* Zenject::DiContainer::BindFactoryInternal() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
@@ -4561,6 +4659,7 @@ inline ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4,
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::PlaceholderFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>)
 inline ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* Zenject::DiContainer::BindFactory() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4578,6 +4677,9 @@ inline ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4,
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract, typename TFactoryConcrete, typename TFactoryContract>
+  requires(
+      ::cordl_internals::type_constraint<TFactoryConcrete, ::Zenject::PlaceholderFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*> &&
+      ::cordl_internals::type_constraint<TFactoryConcrete, TFactoryContract> && ::cordl_internals::type_constraint<TFactoryContract, ::Zenject::IFactory*>)
 inline ::Zenject::FactoryToChoiceIdBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* Zenject::DiContainer::BindFactoryCustomInterface() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(),
@@ -4724,7 +4826,9 @@ inline void Zenject::DiContainer::BindExecutionOrder(::System::Type* type, int32
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindExecutionOrder", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type, order);
 }
-template <typename T> inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindTickableExecutionOrder(int32_t order) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Zenject::ITickable*>)
+inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindTickableExecutionOrder(int32_t order) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindTickableExecutionOrder", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -4735,7 +4839,9 @@ inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindTickableExecution
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindTickableExecutionOrder", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::CopyNonLazyBinder*>(this, ___internal_method, type, order);
 }
-template <typename T> inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindInitializableExecutionOrder(int32_t order) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Zenject::IInitializable*>)
+inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindInitializableExecutionOrder(int32_t order) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindInitializableExecutionOrder", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -4747,13 +4853,17 @@ inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindInitializableExec
                    (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindInitializableExecutionOrder", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::CopyNonLazyBinder*>(this, ___internal_method, type, order);
 }
-template <typename T> inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindDisposableExecutionOrder(int32_t order) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IDisposable*>)
+inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindDisposableExecutionOrder(int32_t order) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindDisposableExecutionOrder", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::CopyNonLazyBinder*>(this, ___internal_method, order);
 }
-template <typename T> inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindLateDisposableExecutionOrder(int32_t order) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Zenject::ILateDisposable*>)
+inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindLateDisposableExecutionOrder(int32_t order) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindLateDisposableExecutionOrder", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -4770,7 +4880,9 @@ inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindLateDisposableExe
                    (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindLateDisposableExecutionOrder", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::CopyNonLazyBinder*>(this, ___internal_method, type, order);
 }
-template <typename T> inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindFixedTickableExecutionOrder(int32_t order) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Zenject::IFixedTickable*>)
+inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindFixedTickableExecutionOrder(int32_t order) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindFixedTickableExecutionOrder", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -4782,7 +4894,9 @@ inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindFixedTickableExec
                    (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindFixedTickableExecutionOrder", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::CopyNonLazyBinder*>(this, ___internal_method, type, order);
 }
-template <typename T> inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindLateTickableExecutionOrder(int32_t order) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Zenject::ILateTickable*>)
+inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindLateTickableExecutionOrder(int32_t order) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindLateTickableExecutionOrder", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -4793,7 +4907,9 @@ inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindLateTickableExecu
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindLateTickableExecutionOrder", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::CopyNonLazyBinder*>(this, ___internal_method, type, order);
 }
-template <typename T> inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindPoolableExecutionOrder(int32_t order) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Zenject::IPoolable*>)
+inline ::Zenject::CopyNonLazyBinder* Zenject::DiContainer::BindPoolableExecutionOrder(int32_t order) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DiContainer*>(), { "BindPoolableExecutionOrder", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

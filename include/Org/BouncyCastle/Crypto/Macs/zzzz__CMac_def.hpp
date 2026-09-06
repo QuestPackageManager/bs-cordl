@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Macs\CMac.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/CMac.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -163,13 +163,13 @@ protected:
   constexpr CMac();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CMac", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CMac", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CMac(CMac&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CMac", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CMac", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CMac(CMac const&) = delete;
+  CMac(CMacconst&) = delete;
 
   /// @brief Field CONSTANT_128 offset 0xffffffff size 0x1
   static constexpr uint8_t CONSTANT_128{ static_cast<uint8_t>(0x87u) };

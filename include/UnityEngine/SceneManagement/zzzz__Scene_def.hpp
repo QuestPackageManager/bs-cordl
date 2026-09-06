@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\Scene.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/Scene.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ struct Scene;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SceneManagement::Scene);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SceneManagement::Scene, "UnityEngine.SceneManagement", "Scene");
+// [NativeHeader("Runtime/Export/SceneManager/Scene.bindings.h")]
 // Dependencies
 namespace UnityEngine::SceneManagement {
 // Is value type: true
@@ -49,6 +50,7 @@ public:
   /// @brief Method Equals, addr 0x6affa2c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
+  /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method GetGUIDInternal, addr 0x6aff408, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW GetGUIDInternal(int32_t sceneHandle);
 
@@ -58,21 +60,25 @@ public:
   /// @brief Method GetHashCode, addr 0x6affa24, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method GetIsLoadedInternal, addr 0x6aff514, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetIsLoadedInternal(int32_t sceneHandle);
 
+  /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method GetNameInternal, addr 0x6aff2fc, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW GetNameInternal(int32_t sceneHandle);
 
   /// @brief Method GetNameInternal_Injected, addr 0x6aff3c4, size 0x44, virtual false, abstract: false, final false
   static inline void GetNameInternal_Injected(int32_t sceneHandle, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method GetPathInternal, addr 0x6aff1f0, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW GetPathInternal(int32_t sceneHandle);
 
   /// @brief Method GetPathInternal_Injected, addr 0x6aff2b8, size 0x44, virtual false, abstract: false, final false
   static inline void GetPathInternal_Injected(int32_t sceneHandle, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method GetRootCountInternal, addr 0x6aff550, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetRootCountInternal(int32_t sceneHandle);
 
@@ -82,12 +88,14 @@ public:
   /// @brief Method GetRootGameObjects, addr 0x6aff780, size 0x298, virtual false, abstract: false, final false
   inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* rootGameObjects);
 
+  /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method GetRootGameObjectsInternal, addr 0x6aff58c, size 0x44, virtual false, abstract: false, final false
   static inline void GetRootGameObjectsInternal(int32_t sceneHandle, ::System::Object* resultRootList);
 
   /// @brief Method IsValid, addr 0x6aff5e0, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
+  /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method IsValidInternal, addr 0x6aff1b4, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValidInternal(int32_t sceneHandle);
 
@@ -116,7 +124,7 @@ public:
   // @brief default ctor
   constexpr Scene();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Scene(int32_t m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -125,6 +133,8 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_Handle, offset: 0x0, size: 0x4, def value: None
   int32_t m_Handle;
 

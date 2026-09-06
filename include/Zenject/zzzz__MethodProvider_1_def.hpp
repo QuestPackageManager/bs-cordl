@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MethodProvider_1.hpp"
+// IWYU pragma private; include "Zenject/MethodProvider_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ template <typename TReturn> class MethodProvider_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::MethodProvider_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::MethodProvider_1, "Zenject", "MethodProvider`1");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -100,13 +101,13 @@ protected:
   constexpr MethodProvider_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MethodProvider_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodProvider_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodProvider_1(MethodProvider_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MethodProvider_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodProvider_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MethodProvider_1(MethodProvider_1 const&) = delete;
+  MethodProvider_1(MethodProvider_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14561 };

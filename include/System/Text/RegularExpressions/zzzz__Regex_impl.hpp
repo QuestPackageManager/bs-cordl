@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\Regex.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/Regex.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
@@ -135,8 +135,8 @@ constexpr ::System::IEquatable_1<::System::Text::RegularExpressions::Regex_Cache
 System::Text::RegularExpressions::Regex_CachedCodeEntryKey::i___System__IEquatable_1___System__Text__RegularExpressions__Regex_CachedCodeEntryKey_() {
   return static_cast<::System::IEquatable_1<::System::Text::RegularExpressions::Regex_CachedCodeEntryKey>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_options", ty: "::System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: Some("{}") }, CppParam { name: "_cultureKey", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_pattern", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_options", ty: "::System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_cultureKey", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_pattern", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Text::RegularExpressions::Regex_CachedCodeEntryKey::Regex_CachedCodeEntryKey(::System::Text::RegularExpressions::RegexOptions _options, ::StringW _cultureKey,
                                                                                                  ::StringW _pattern) noexcept {
   this->_options = _options;

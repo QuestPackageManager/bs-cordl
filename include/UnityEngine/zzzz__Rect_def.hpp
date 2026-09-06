@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rect.hpp"
+// IWYU pragma private; include "UnityEngine/Rect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,9 @@ struct Rect;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rect);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rect, "UnityEngine", "Rect");
+// [NativeClass("Rectf", "template<typename T> class RectT; typedef RectT<float> Rectf;")]
+// [NativeHeader("Runtime/Math/Rect.h")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -208,8 +211,8 @@ public:
   // @brief default ctor
   constexpr Rect();
 
-  // Ctor Parameters [CppParam { name: "m_XMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_XMin", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_YMin", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_Width", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Height", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Rect(float_t m_XMin, float_t m_YMin, float_t m_Width, float_t m_Height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -218,15 +221,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeName("x")]
   /// @brief Field m_XMin, offset: 0x0, size: 0x4, def value: None
   float_t m_XMin;
 
+  /// [NativeName("y")]
   /// @brief Field m_YMin, offset: 0x4, size: 0x4, def value: None
   float_t m_YMin;
 
+  /// [NativeName("width")]
   /// @brief Field m_Width, offset: 0x8, size: 0x4, def value: None
   float_t m_Width;
 
+  /// [NativeName("height")]
   /// @brief Field m_Height, offset: 0xc, size: 0x4, def value: None
   float_t m_Height;
 

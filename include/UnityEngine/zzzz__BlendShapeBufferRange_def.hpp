@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BlendShapeBufferRange.hpp"
+// IWYU pragma private; include "UnityEngine/BlendShapeBufferRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,8 @@ public:
   // @brief default ctor
   constexpr BlendShapeBufferRange();
 
-  // Ctor Parameters [CppParam { name: "m_StartIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_EndIndex", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_StartIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_EndIndex", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BlendShapeBufferRange(uint32_t m_StartIndex, uint32_t m_EndIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -43,9 +44,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [SerializeField]
   /// @brief Field m_StartIndex, offset: 0x0, size: 0x4, def value: None
   uint32_t m_StartIndex;
 
+  /// [SerializeField]
   /// @brief Field m_EndIndex, offset: 0x4, size: 0x4, def value: None
   uint32_t m_EndIndex;
 

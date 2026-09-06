@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\BinaryDataProvider.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/BinaryDataProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,6 +99,7 @@ public:
   /// @brief Method WaitForCompletionHandler, addr 0x691d980, size 0x74, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
+  /// [CompilerGenerated]
   /// @brief Method <SendWebRequest>b__13_0, addr 0x691df2c, size 0x9c, virtual false, abstract: false, final false
   inline void _SendWebRequest_b__13_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
 
@@ -153,13 +154,13 @@ protected:
   constexpr BinaryDataProvider_InternalOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider_InternalOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider_InternalOp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryDataProvider_InternalOp(BinaryDataProvider_InternalOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider_InternalOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider_InternalOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryDataProvider_InternalOp(BinaryDataProvider_InternalOp const&) = delete;
+  BinaryDataProvider_InternalOp(BinaryDataProvider_InternalOpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18772 };
@@ -205,6 +206,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Bin
 static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
+// [DisplayName("Binary Data Provider")]
 // Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
@@ -236,9 +238,11 @@ public:
   /// @brief Method .ctor, addr 0x691d7b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreFailures, addr 0x691d238, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
+  /// [CompilerGenerated]
   /// @brief Method set_IgnoreFailures, addr 0x691d240, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
@@ -248,17 +252,18 @@ protected:
   constexpr BinaryDataProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryDataProvider(BinaryDataProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryDataProvider(BinaryDataProvider const&) = delete;
+  BinaryDataProvider(BinaryDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18773 };
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreFailures>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   bool ____IgnoreFailures_k__BackingField;
 

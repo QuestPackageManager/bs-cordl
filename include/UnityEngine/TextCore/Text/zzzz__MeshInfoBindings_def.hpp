@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\MeshInfoBindings.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/MeshInfoBindings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,9 @@ struct MeshInfoBindings;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::MeshInfoBindings);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::MeshInfoBindings, "UnityEngine.TextCore.Text", "MeshInfoBindings");
+// [UsedByNativeCode("MeshInfo")]
+// [NativeHeader("Modules/TextCoreTextEngine/Native/MeshInfo.h")]
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
 // Dependencies UnityEngine.TextCore.Text.TextCoreVertex
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -32,8 +35,8 @@ public:
   // @brief default ctor
   constexpr MeshInfoBindings();
 
-  // Ctor Parameters [CppParam { name: "vertexData", ty: "::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex>", modifiers: "", def_value: None }, CppParam { name: "material", ty:
-  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vertexData", ty: "::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex>", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty:
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MeshInfoBindings(::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex> vertexData, ::UnityW<::UnityEngine::Material> material, int32_t vertexCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

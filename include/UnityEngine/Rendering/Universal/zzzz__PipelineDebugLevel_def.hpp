@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PipelineDebugLevel.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PipelineDebugLevel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct PipelineDebugLevel;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::PipelineDebugLevel);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::PipelineDebugLevel, "UnityEngine.Rendering.Universal", "PipelineDebugLevel");
+// [Obsolete("PipelineDebugLevel is replaced to use the profiler and has no effect.", true)]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr PipelineDebugLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PipelineDebugLevel(int32_t value__) noexcept;
 
   /// @brief Field Disabled value: I32(0)

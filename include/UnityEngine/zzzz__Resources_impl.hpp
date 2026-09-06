@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Resources.hpp"
+// IWYU pragma private; include "UnityEngine/Resources.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Resources_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -123,7 +124,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&
     return ___internal_method;
   }
 };
-template <typename T> inline ::ArrayW<T> UnityEngine::Resources::ConvertObjects(::ArrayW<::UnityEngine::Object*> rawObjects) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline ::ArrayW<T> UnityEngine::Resources::ConvertObjects(::ArrayW<::UnityEngine::Object*> rawObjects) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "ConvertObjects", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<::UnityEngine::Object*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -134,7 +137,9 @@ inline ::ArrayW<::UnityW<::UnityEngine::Object>> UnityEngine::Resources::FindObj
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "FindObjectsOfTypeAll", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>>>(nullptr, ___internal_method, type);
 }
-template <typename T> inline ::ArrayW<T> UnityEngine::Resources::FindObjectsOfTypeAll() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline ::ArrayW<T> UnityEngine::Resources::FindObjectsOfTypeAll() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "FindObjectsOfTypeAll", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(nullptr, ___internal_method);
@@ -143,7 +148,9 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::Resources::Load(::StringW pa
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "Load", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, path);
 }
-template <typename T> inline T UnityEngine::Resources::Load(::StringW path) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline T UnityEngine::Resources::Load(::StringW path) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "Load", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -163,12 +170,14 @@ inline ::ArrayW<::UnityW<::UnityEngine::Object>> UnityEngine::Resources::LoadAll
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "LoadAll", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>>>(nullptr, ___internal_method, path);
 }
-inline ::UnityW<::UnityEngine::Object> UnityEngine::Resources::GetBuiltinResource(::System::Type* type, ::StringW path) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Resources::GetBuiltinResource(/* [NotNull] */ ::System::Type* type, ::StringW path) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "GetBuiltinResource", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, type, path);
 }
-template <typename T> inline T UnityEngine::Resources::GetBuiltinResource(::StringW path) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline T UnityEngine::Resources::GetBuiltinResource(::StringW path) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "GetBuiltinResource", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DropdownMenuAction.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DropdownMenuAction.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuItem_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuAction_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -7,7 +7,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuAction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuEventInfo_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::DropdownMenuAction_Status::DropdownMenuAction_Status(int32_t value__) noexcept {
   this->value__ = value__;
 }

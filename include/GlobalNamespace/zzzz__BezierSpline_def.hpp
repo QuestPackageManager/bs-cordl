@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BezierSpline.hpp"
+// IWYU pragma private; include "GlobalNamespace/BezierSpline.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_VAL_T(::GlobalNamespace::BezierSpline_ComputeControlPointsResults);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BezierSpline*, "", "BezierSpline");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BezierSpline___c*, "", "BezierSpline/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BezierSpline_ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -64,7 +65,8 @@ public:
   // @brief default ctor
   constexpr BezierSpline_ComputeControlPointsResults();
 
-  // Ctor Parameters [CppParam { name: "p1", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }, CppParam { name: "p2", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "p1", ty: "::ArrayW<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "p2", ty: "::ArrayW<float_t>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BezierSpline_ComputeControlPointsResults(::ArrayW<float_t> p1, ::ArrayW<float_t> p2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -89,6 +91,7 @@ static_assert(offsetof(::GlobalNamespace::BezierSpline_ComputeControlPointsResul
 static_assert(sizeof(::GlobalNamespace::BezierSpline_ComputeControlPointsResults) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -154,13 +157,13 @@ protected:
   constexpr BezierSpline___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BezierSpline___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierSpline___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BezierSpline___c(BezierSpline___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BezierSpline___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierSpline___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BezierSpline___c(BezierSpline___c const&) = delete;
+  BezierSpline___c(BezierSpline___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22023 };
@@ -234,13 +237,13 @@ protected:
   constexpr BezierSpline();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BezierSpline", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierSpline", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BezierSpline(BezierSpline&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BezierSpline", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierSpline", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BezierSpline(BezierSpline const&) = delete;
+  BezierSpline(BezierSplineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22024 };

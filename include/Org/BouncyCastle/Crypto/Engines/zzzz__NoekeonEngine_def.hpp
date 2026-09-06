@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\NoekeonEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/NoekeonEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,13 +107,13 @@ protected:
   constexpr NoekeonEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoekeonEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoekeonEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoekeonEngine(NoekeonEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoekeonEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoekeonEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoekeonEngine(NoekeonEngine const&) = delete;
+  NoekeonEngine(NoekeonEngineconst&) = delete;
 
   /// @brief Field Size offset 0xffffffff size 0x4
   static constexpr int32_t Size{ static_cast<int32_t>(0x10) };

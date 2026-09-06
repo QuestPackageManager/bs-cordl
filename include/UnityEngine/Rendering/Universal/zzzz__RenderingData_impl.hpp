@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderingData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderingData.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__CameraData_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__LightData_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PostProcessingData_impl.hpp"
@@ -139,10 +139,10 @@ inline ::by_ref<bool> UnityEngine::Rendering::Universal::RenderingData::get_post
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingData>(), { "get_postProcessingEnabled", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<bool>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cameraData", ty:
-// "::UnityEngine::Rendering::Universal::CameraData", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightData", ty: "::UnityEngine::Rendering::Universal::LightData", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "shadowData", ty: "::UnityEngine::Rendering::Universal::ShadowData", modifiers: "", def_value: Some("{}") }, CppParam { name: "postProcessingData", ty:
-// "::UnityEngine::Rendering::Universal::PostProcessingData", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cameraData", ty:
+// "::UnityEngine::Rendering::Universal::CameraData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightData", ty: "::UnityEngine::Rendering::Universal::LightData",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shadowData", ty: "::UnityEngine::Rendering::Universal::ShadowData", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "postProcessingData", ty: "::UnityEngine::Rendering::Universal::PostProcessingData", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::RenderingData::RenderingData(::UnityEngine::Rendering::ContextContainer* frameData, ::UnityEngine::Rendering::Universal::CameraData cameraData,
                                                                             ::UnityEngine::Rendering::Universal::LightData lightData, ::UnityEngine::Rendering::Universal::ShadowData shadowData,
                                                                             ::UnityEngine::Rendering::Universal::PostProcessingData postProcessingData) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectPlayableSerializedEventNoColor.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectPlayableSerializedEventNoColor.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributes_impl.hpp"
 #include "UnityEngine/VFX/zzzz__PlayableTimeSpace_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectPlayableSerializedEventNoColor_def.hpp"
@@ -26,9 +26,9 @@ UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor::op_Implicit___Unit
                                                                                          { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>(nullptr, ___internal_method, evt);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "timeSpace", ty: "::UnityEngine::VFX::PlayableTimeSpace", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "name", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "eventAttributes", ty:
-// "::UnityEngine::VFX::EventAttributes", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "timeSpace", ty: "::UnityEngine::VFX::PlayableTimeSpace",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "name", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "eventAttributes", ty: "::UnityEngine::VFX::EventAttributes", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor::VisualEffectPlayableSerializedEventNoColor(double_t time, ::UnityEngine::VFX::PlayableTimeSpace timeSpace,
                                                                                                                      ::UnityEngine::VFX::Utility::ExposedProperty* name,
                                                                                                                      ::UnityEngine::VFX::EventAttributes eventAttributes) noexcept {

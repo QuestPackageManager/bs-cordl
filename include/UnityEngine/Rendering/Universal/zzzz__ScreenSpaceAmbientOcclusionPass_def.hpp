@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceAmbientOcclusionPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceAmbientOcclusionPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenSpaceAmbientOcclusionPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph;
@@ -143,7 +145,7 @@ public:
   // @brief default ctor
   constexpr ScreenSpaceAmbientOcclusionPass_BlurTypes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenSpaceAmbientOcclusionPass_BlurTypes(int32_t value__) noexcept;
 
   /// @brief Field Bilateral value: I32(0)
@@ -209,7 +211,7 @@ public:
   // @brief default ctor
   constexpr ScreenSpaceAmbientOcclusionPass_ShaderPasses();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenSpaceAmbientOcclusionPass_ShaderPasses(int32_t value__) noexcept;
 
   /// @brief Field AmbientOcclusion value: I32(0)
@@ -276,11 +278,12 @@ public:
   // @brief default ctor
   constexpr ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams();
 
-  // Ctor Parameters [CppParam { name: "orthographicCamera", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "aoBlueNoise", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "aoInterleavedGradient", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sampleCountHigh", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "sampleCountMedium", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sampleCountLow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sourceDepthNormals", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "sourceDepthHigh", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sourceDepthMedium", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "sourceDepthLow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ssaoParams", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "orthographicCamera", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "aoBlueNoise", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "aoInterleavedGradient", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "sampleCountHigh", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "sampleCountMedium", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "sampleCountLow", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "sourceDepthNormals", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "sourceDepthHigh", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "sourceDepthMedium", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "sourceDepthLow", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ssaoParams", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams(bool orthographicCamera, bool aoBlueNoise, bool aoInterleavedGradient, bool sampleCountHigh, bool sampleCountMedium, bool sampleCountLow,
                                                                bool sourceDepthNormals, bool sourceDepthHigh, bool sourceDepthMedium, bool sourceDepthLow, ::UnityEngine::Vector4 ssaoParams) noexcept;
 
@@ -452,13 +455,13 @@ protected:
   constexpr ScreenSpaceAmbientOcclusionPass_SSAOPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass_SSAOPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass_SSAOPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceAmbientOcclusionPass_SSAOPassData(ScreenSpaceAmbientOcclusionPass_SSAOPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass_SSAOPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass_SSAOPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceAmbientOcclusionPass_SSAOPassData(ScreenSpaceAmbientOcclusionPass_SSAOPassData const&) = delete;
+  ScreenSpaceAmbientOcclusionPass_SSAOPassData(ScreenSpaceAmbientOcclusionPass_SSAOPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12881 };
@@ -514,6 +517,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOc
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData) == 0x78, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -555,13 +559,13 @@ protected:
   constexpr ScreenSpaceAmbientOcclusionPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceAmbientOcclusionPass___c(ScreenSpaceAmbientOcclusionPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceAmbientOcclusionPass___c(ScreenSpaceAmbientOcclusionPass___c const&) = delete;
+  ScreenSpaceAmbientOcclusionPass___c(ScreenSpaceAmbientOcclusionPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12882 };
@@ -729,6 +733,7 @@ public:
   /// @brief Method Dispose, addr 0x68a7e3c, size 0xb0, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68a7234, size 0x65c, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -747,6 +752,7 @@ public:
   /// @brief Method OnCameraCleanup, addr 0x68a7d64, size 0xd8, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x68a6b24, size 0x324, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -969,13 +975,13 @@ protected:
   constexpr ScreenSpaceAmbientOcclusionPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceAmbientOcclusionPass(ScreenSpaceAmbientOcclusionPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceAmbientOcclusionPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceAmbientOcclusionPass(ScreenSpaceAmbientOcclusionPass const&) = delete;
+  ScreenSpaceAmbientOcclusionPass(ScreenSpaceAmbientOcclusionPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12883 };

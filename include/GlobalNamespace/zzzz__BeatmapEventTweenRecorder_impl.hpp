@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventTweenRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventTweenRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventTweenRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
@@ -7,8 +7,9 @@
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventTweenRecorder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-// Ctor Parameters [CppParam { name: "color", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "translation", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fx", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "color", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "translation", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fx", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::BeatmapEventTweenRecorder_EventTweens::BeatmapEventTweenRecorder_EventTweens(int32_t color, int32_t rotation, int32_t translation, int32_t fx) noexcept {
   this->color = color;
   this->rotation = rotation;

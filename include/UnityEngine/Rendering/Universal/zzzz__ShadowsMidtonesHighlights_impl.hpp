@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowsMidtonesHighlights.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowsMidtonesHighlights.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShadowsMidtonesHighlights_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IPostProcessComponent_def.hpp"

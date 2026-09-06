@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\CookieContainer.hpp"
+// IWYU pragma private; include "System/Net/CookieContainer.hpp"
 #include "System/Net/zzzz__HeaderVariantInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CookieContainer_def.hpp"

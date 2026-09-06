@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventCategoryAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventCategoryAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class EventCategoryAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::EventCategoryAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::EventCategoryAttribute*, "UnityEngine.UIElements", "EventCategoryAttribute");
+// [AttributeUsage((System.AttributeTargets)4)]
 // Dependencies System.Attribute, UnityEngine.UIElements.EventCategory
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -43,13 +44,13 @@ protected:
   constexpr EventCategoryAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventCategoryAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventCategoryAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventCategoryAttribute(EventCategoryAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventCategoryAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventCategoryAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventCategoryAttribute(EventCategoryAttribute const&) = delete;
+  EventCategoryAttribute(EventCategoryAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5238 };

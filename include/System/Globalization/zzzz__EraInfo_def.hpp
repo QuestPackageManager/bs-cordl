@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\EraInfo.hpp"
+// IWYU pragma private; include "System/Globalization/EraInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,13 +111,13 @@ protected:
   constexpr EraInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EraInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EraInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EraInfo(EraInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EraInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EraInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EraInfo(EraInfo const&) = delete;
+  EraInfo(EraInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3625 };
@@ -137,12 +137,15 @@ public:
   /// @brief Field maxEraYear, offset: 0x28, size: 0x4, def value: None
   int32_t ___maxEraYear;
 
+  /// [OptionalField(VersionAdded = 4)]
   /// @brief Field eraName, offset: 0x30, size: 0x8, def value: None
   ::StringW ___eraName;
 
+  /// [OptionalField(VersionAdded = 4)]
   /// @brief Field abbrevEraName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___abbrevEraName;
 
+  /// [OptionalField(VersionAdded = 4)]
   /// @brief Field englishEraName, offset: 0x40, size: 0x8, def value: None
   ::StringW ___englishEraName;
 

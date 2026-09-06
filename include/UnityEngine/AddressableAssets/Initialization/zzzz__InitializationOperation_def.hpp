@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\Initialization\InitializationOperation.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Initialization/InitializationOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,6 +79,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::Initialization::Initializa
                     "InitializationOperation/<>c__DisplayClass15_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0*, "UnityEngine.AddressableAssets.Initialization",
                     "InitializationOperation/<>c__DisplayClass17_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
@@ -114,13 +115,13 @@ protected:
   constexpr InitializationOperation___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializationOperation___c(InitializationOperation___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationOperation___c(InitializationOperation___c const&) = delete;
+  InitializationOperation___c(InitializationOperation___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19855 };
@@ -131,6 +132,7 @@ public:
 static_assert(sizeof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::Initialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
@@ -181,13 +183,13 @@ protected:
   constexpr InitializationOperation___c__DisplayClass15_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass15_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass15_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializationOperation___c__DisplayClass15_0(InitializationOperation___c__DisplayClass15_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass15_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass15_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationOperation___c__DisplayClass15_0(InitializationOperation___c__DisplayClass15_0 const&) = delete;
+  InitializationOperation___c__DisplayClass15_0(InitializationOperation___c__DisplayClass15_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19856 };
@@ -213,6 +215,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::Initial
 static_assert(sizeof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::Initialization
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
@@ -281,13 +284,13 @@ protected:
   constexpr InitializationOperation___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializationOperation___c__DisplayClass17_0(InitializationOperation___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationOperation___c__DisplayClass17_0(InitializationOperation___c__DisplayClass17_0 const&) = delete;
+  InitializationOperation___c__DisplayClass17_0(InitializationOperation___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19857 };
@@ -455,13 +458,13 @@ protected:
   constexpr InitializationOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InitializationOperation(InitializationOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializationOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InitializationOperation(InitializationOperation const&) = delete;
+  InitializationOperation(InitializationOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19858 };

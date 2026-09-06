@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\LinqExtensions.hpp"
+// IWYU pragma private; include "ModestTree/LinqExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,7 @@ DEFINE_IL2CPP_CLASS(::ModestTree::LinqExtensions*, "ModestTree", "LinqExtensions
 DEFINE_IL2CPP_GEN_CLASS_PTR(::ModestTree::LinqExtensions__Yield_d__0_1, "ModestTree", "LinqExtensions/<Yield>d__0`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::ModestTree::LinqExtensions___c__8_1, "ModestTree", "LinqExtensions/<>c__8`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::ModestTree::LinqExtensions___c__DisplayClass10_0_1, "ModestTree", "LinqExtensions/<>c__DisplayClass10_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree {
 // cpp template
@@ -121,13 +122,13 @@ protected:
   constexpr LinqExtensions___c__8_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__8_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__8_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinqExtensions___c__8_1(LinqExtensions___c__8_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__8_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__8_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinqExtensions___c__8_1(LinqExtensions___c__8_1 const&) = delete;
+  LinqExtensions___c__8_1(LinqExtensions___c__8_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13963 };
@@ -136,6 +137,7 @@ public:
 };
 // Non member Declarations
 } // namespace ModestTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree {
 // cpp template
@@ -168,13 +170,13 @@ protected:
   constexpr LinqExtensions___c__DisplayClass10_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__DisplayClass10_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__DisplayClass10_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinqExtensions___c__DisplayClass10_0_1(LinqExtensions___c__DisplayClass10_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__DisplayClass10_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions___c__DisplayClass10_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinqExtensions___c__DisplayClass10_0_1(LinqExtensions___c__DisplayClass10_0_1 const&) = delete;
+  LinqExtensions___c__DisplayClass10_0_1(LinqExtensions___c__DisplayClass10_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13964 };
@@ -186,6 +188,7 @@ public:
 };
 // Non member Declarations
 } // namespace ModestTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace ModestTree {
 // cpp template
@@ -232,23 +235,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::ModestTree::LinqExtensions__Yield_d__0_1<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -282,6 +292,7 @@ public:
 
   constexpr void __cordl_internal_set_item(T value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -306,13 +317,13 @@ protected:
   constexpr LinqExtensions__Yield_d__0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions__Yield_d__0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions__Yield_d__0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinqExtensions__Yield_d__0_1(LinqExtensions__Yield_d__0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions__Yield_d__0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions__Yield_d__0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinqExtensions__Yield_d__0_1(LinqExtensions__Yield_d__0_1 const&) = delete;
+  LinqExtensions__Yield_d__0_1(LinqExtensions__Yield_d__0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13965 };
@@ -336,6 +347,7 @@ public:
 };
 // Non member Declarations
 } // namespace ModestTree
+// [Extension]
 // Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
@@ -349,36 +361,48 @@ public:
 
   template <typename T> using __c__DisplayClass10_0_1 = ::ModestTree::LinqExtensions___c__DisplayClass10_0_1<T>;
 
+  /// [Extension]
   /// @brief Method ContainsItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ContainsItem(::System::Collections::Generic::IEnumerable_1<T>* list, T value);
 
+  /// [Extension]
   /// @brief Method Except, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* Except(::System::Collections::Generic::IEnumerable_1<T>* list, T item);
 
+  /// [Extension]
   /// @brief Method GetDuplicates, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* GetDuplicates(::System::Collections::Generic::IEnumerable_1<T>* list);
 
+  /// [Extension]
   /// @brief Method HasAtLeast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasAtLeast(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t amount);
 
+  /// [Extension]
   /// @brief Method HasAtMost, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasAtMost(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t amount);
 
+  /// [Extension]
   /// @brief Method HasLessThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasLessThan(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t amount);
 
+  /// [Extension]
   /// @brief Method HasMoreThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasMoreThan(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t amount);
 
+  /// [Extension]
   /// @brief Method IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsEmpty(::System::Collections::Generic::IEnumerable_1<T>* enumerable);
 
+  /// [Extension]
   /// @brief Method IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsEmpty(::System::Collections::Generic::List_1<T>* list);
 
+  /// [Extension]
   /// @brief Method OnlyOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline TSource OnlyOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>* source);
 
+  /// [Extension]
+  /// [IteratorStateMachine(typeof(ModestTree.LinqExtensions::<Yield>d__0`1<T>))]
   /// @brief Method Yield, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* Yield(T item);
 
@@ -388,13 +412,13 @@ protected:
   constexpr LinqExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinqExtensions(LinqExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinqExtensions(LinqExtensions const&) = delete;
+  LinqExtensions(LinqExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13966 };

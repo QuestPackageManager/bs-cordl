@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Categorization\ElementInfoAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Categorization/ElementInfoAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Categorization/zzzz__ElementInfoAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Categorization::ElementInfoAttribute.set_Order

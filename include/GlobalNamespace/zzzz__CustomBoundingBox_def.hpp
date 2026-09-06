@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomBoundingBox.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomBoundingBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,23 +64,26 @@ protected:
   constexpr CustomBoundingBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomBoundingBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomBoundingBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomBoundingBox(CustomBoundingBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomBoundingBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomBoundingBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomBoundingBox(CustomBoundingBox const&) = delete;
+  CustomBoundingBox(CustomBoundingBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21403 };
 
+  /// [SerializeField]
   /// @brief Field _boundingBoxCenter, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____boundingBoxCenter;
 
+  /// [SerializeField]
   /// @brief Field _boundingBoxSize, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____boundingBoxSize;
 
+  /// [SerializeField]
   /// @brief Field _meshRenderer, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 

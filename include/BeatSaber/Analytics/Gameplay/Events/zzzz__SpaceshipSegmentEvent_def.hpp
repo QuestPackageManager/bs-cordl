@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipSegmentEvent.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipSegmentEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ class SpaceshipSegmentEvent;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEvent*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEvent*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipSegmentEvent");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Analytics.Gameplay.Events.SpaceshipUserEventBase
 namespace BeatSaber::Analytics::Gameplay::Events {
 // Is value type: false
@@ -45,6 +47,7 @@ public:
   /// @brief Field settings, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings)) ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings;
 
+  /// [NullableContext(1)]
   /// @brief Method ApplyBasicFields, addr 0x32659c0, size 0x1c, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
@@ -95,13 +98,13 @@ protected:
   constexpr SpaceshipSegmentEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpaceshipSegmentEvent(SpaceshipSegmentEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipSegmentEvent(SpaceshipSegmentEvent const&) = delete;
+  SpaceshipSegmentEvent(SpaceshipSegmentEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22282 };

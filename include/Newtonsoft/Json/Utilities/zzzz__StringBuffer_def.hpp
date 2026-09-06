@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\StringBuffer.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ struct StringBuffer;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::Utilities::StringBuffer);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::StringBuffer, "Newtonsoft.Json.Utilities", "StringBuffer");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
@@ -31,11 +33,12 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int32_t Position;
 
-  /// @brief Method Append, addr 0x5d33768, size 0x80, virtual false, abstract: false, final false
-  inline void Append(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t> buffer, int32_t startIndex, int32_t count);
-
   /// @brief Method Append, addr 0x5d33680, size 0x7c, virtual false, abstract: false, final false
   inline void Append(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, char16_t value);
+
+  /// [NullableContext(1)]
+  /// @brief Method Append, addr 0x5d33768, size 0x80, virtual false, abstract: false, final false
+  inline void Append(/* [Nullable(2)] */ ::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t> buffer, int32_t startIndex, int32_t count);
 
   /// @brief Method Clear, addr 0x5d337e8, size 0x30, virtual false, abstract: false, final false
   inline void Clear(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool);
@@ -43,12 +46,15 @@ public:
   /// @brief Method EnsureSize, addr 0x5d336fc, size 0x6c, virtual false, abstract: false, final false
   inline void EnsureSize(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t appendLength);
 
+  /// [NullableContext(1)]
   /// @brief Method ToString, addr 0x5d33818, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [NullableContext(1)]
   /// @brief Method ToString, addr 0x5d33828, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToString(int32_t start, int32_t length);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d33674, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t> buffer);
 
@@ -71,7 +77,8 @@ public:
   // @brief default ctor
   constexpr StringBuffer();
 
-  // Ctor Parameters [CppParam { name: "_buffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_position", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_buffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_position", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr StringBuffer(::ArrayW<char16_t> _buffer, int32_t _position) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

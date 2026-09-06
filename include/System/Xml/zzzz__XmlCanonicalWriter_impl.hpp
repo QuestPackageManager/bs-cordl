@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlCanonicalWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlCanonicalWriter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlCanonicalWriter_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
@@ -86,16 +86,17 @@ constexpr ::System::Collections::IComparer* System::Xml::XmlCanonicalWriter_Attr
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlCanonicalWriter_AttributeSorter::XmlCanonicalWriter_AttributeSorter() {}
-// Ctor Parameters [CppParam { name: "xmlnsAttributeCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "xmlnsOffset", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "xmlnsAttributeCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xmlnsOffset", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlCanonicalWriter_Scope::XmlCanonicalWriter_Scope(int32_t xmlnsAttributeCount, int32_t xmlnsOffset) noexcept {
   this->xmlnsAttributeCount = xmlnsAttributeCount;
   this->xmlnsOffset = xmlnsOffset;
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlCanonicalWriter_Scope::XmlCanonicalWriter_Scope() {}
-// Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "localNameOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "localNameLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "localNameOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localNameLength", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlCanonicalWriter_Element::XmlCanonicalWriter_Element(int32_t prefixOffset, int32_t prefixLength, int32_t localNameOffset, int32_t localNameLength) noexcept {
   this->prefixOffset = prefixOffset;
   this->prefixLength = prefixLength;
@@ -104,10 +105,11 @@ constexpr ::System::Xml::XmlCanonicalWriter_Element::XmlCanonicalWriter_Element(
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlCanonicalWriter_Element::XmlCanonicalWriter_Element() {}
-// Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "localNameOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "localNameLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "nsOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nsLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "offset", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "localNameOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localNameLength", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "nsOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nsLength", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlCanonicalWriter_Attribute::XmlCanonicalWriter_Attribute(int32_t prefixOffset, int32_t prefixLength, int32_t localNameOffset, int32_t localNameLength, int32_t nsOffset,
                                                                                     int32_t nsLength, int32_t offset, int32_t length) noexcept {
   this->prefixOffset = prefixOffset;
@@ -121,9 +123,9 @@ constexpr ::System::Xml::XmlCanonicalWriter_Attribute::XmlCanonicalWriter_Attrib
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlCanonicalWriter_Attribute::XmlCanonicalWriter_Attribute() {}
-// Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "nsOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nsLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "referred",
-// ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "nsOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nsLength", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "referred", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlCanonicalWriter_XmlnsAttribute::XmlCanonicalWriter_XmlnsAttribute(int32_t prefixOffset, int32_t prefixLength, int32_t nsOffset, int32_t nsLength, bool referred) noexcept {
   this->prefixOffset = prefixOffset;
   this->prefixLength = prefixLength;

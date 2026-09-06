@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlEnumAttribute.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlEnumAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class XmlEnumAttribute;
 // Write type traits
 MARK_REF_T(::System::Xml::Serialization::XmlEnumAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Serialization::XmlEnumAttribute*, "System.Xml.Serialization", "XmlEnumAttribute");
+// [AttributeUsage((System.AttributeTargets)256)]
 // Dependencies System.Attribute
 namespace System::Xml::Serialization {
 // Is value type: false
@@ -51,13 +52,13 @@ protected:
   constexpr XmlEnumAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlEnumAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlEnumAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlEnumAttribute(XmlEnumAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlEnumAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlEnumAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlEnumAttribute(XmlEnumAttribute const&) = delete;
+  XmlEnumAttribute(XmlEnumAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9509 };

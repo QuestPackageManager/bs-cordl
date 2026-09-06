@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Boolean.hpp"
+// IWYU pragma private; include "System/Boolean.hpp"
 #include "System/zzzz__Boolean_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
@@ -545,7 +545,7 @@ constexpr System::Boolean::operator ::System::IEquatable_1<bool>*() {
 constexpr ::System::IEquatable_1<bool>* System::Boolean::i___System__IEquatable_1_bool_() {
   return static_cast<::System::IEquatable_1<bool>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Boolean::Boolean(bool m_value) noexcept {
   this->m_value = m_value;
 }

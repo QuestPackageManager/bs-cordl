@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\CAPI.hpp"
+// IWYU pragma private; include "Oculus/Platform/CAPI.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -224,9 +224,9 @@ public:
   // @brief default ctor
   constexpr CAPI_ovrKeyValuePair();
 
-  // Ctor Parameters [CppParam { name: "key_", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType_", ty: "::Oculus::Platform::KeyValuePairType", modifiers: "", def_value:
-  // None }, CppParam { name: "stringValue_", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "intValue_", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "doubleValue_", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "key_", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "valueType_", ty: "::Oculus::Platform::KeyValuePairType", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "stringValue_", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "intValue_", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "doubleValue_", ty: "double_t", modifiers: "", def_value: None, comment: None }]
   constexpr CAPI_ovrKeyValuePair(::StringW key_, ::Oculus::Platform::KeyValuePairType valueType_, ::StringW stringValue_, int32_t intValue_, double_t doubleValue_) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -277,8 +277,8 @@ public:
   // @brief default ctor
   constexpr CAPI_ovrNetSyncVec3();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr CAPI_ovrNetSyncVec3(float_t x, float_t y, float_t z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -319,9 +319,9 @@ public:
   // @brief default ctor
   constexpr CAPI_OculusInitParams();
 
-  // Ctor Parameters [CppParam { name: "sType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "email", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "appId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "uriPrefixOverride", ty: "::StringW",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sType", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "email", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "appId", ty: "uint64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "uriPrefixOverride", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr CAPI_OculusInitParams(int32_t sType, ::StringW email, ::StringW password, uint64_t appId, ::StringW uriPrefixOverride) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -361,6 +361,7 @@ static_assert(offsetof(::Oculus::Platform::CAPI_OculusInitParams, uriPrefixOverr
 static_assert(sizeof(::Oculus::Platform::CAPI_OculusInitParams) == 0x28, "Size mismatch!");
 
 } // namespace Oculus::Platform
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Oculus::Platform {
 // Is value type: false
@@ -389,13 +390,13 @@ protected:
   constexpr CAPI_FilterCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CAPI_FilterCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CAPI_FilterCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CAPI_FilterCallback(CAPI_FilterCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CAPI_FilterCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CAPI_FilterCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CAPI_FilterCallback(CAPI_FilterCallback const&) = delete;
+  CAPI_FilterCallback(CAPI_FilterCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17832 };
@@ -3392,13 +3393,13 @@ protected:
   constexpr CAPI();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CAPI", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CAPI", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CAPI(CAPI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CAPI", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CAPI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CAPI(CAPI const&) = delete;
+  CAPI(CAPIconst&) = delete;
 
   /// @brief Field DLL_NAME offset 0xffffffff size 0x8
   static constexpr ::ConstString DLL_NAME{ u"ovrplatformloader" };

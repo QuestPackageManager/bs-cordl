@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\FileStatus.hpp"
+// IWYU pragma private; include "System/IO/FileStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,9 +59,12 @@ public:
   /// @brief Method UnixTimeToDateTimeOffset, addr 0x5c0a0d8, size 0xb8, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset UnixTimeToDateTimeOffset(int64_t seconds, int64_t nanoseconds);
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_InitiallyDirectory, addr 0x5c09ba4, size 0x8, virtual false, abstract: false, final false
   inline bool get_InitiallyDirectory();
 
+  /// [CompilerGenerated]
   /// @brief Method set_InitiallyDirectory, addr 0x5c09bac, size 0x8, virtual false, abstract: false, final false
   inline void set_InitiallyDirectory(bool value);
 
@@ -69,9 +72,9 @@ public:
   // @brief default ctor
   constexpr FileStatus();
 
-  // Ctor Parameters [CppParam { name: "_fileStatus", ty: "::GlobalNamespace::Sys_Interop_FileStatus", modifiers: "", def_value: None }, CppParam { name: "_fileStatusInitialized", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_InitiallyDirectory_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_isDirectory", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "_exists", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_fileStatus", ty: "::GlobalNamespace::Sys_Interop_FileStatus", modifiers: "", def_value: None, comment: None }, CppParam { name: "_fileStatusInitialized", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_InitiallyDirectory_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_isDirectory", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_exists", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr FileStatus(::GlobalNamespace::Sys_Interop_FileStatus _fileStatus, int32_t _fileStatusInitialized, bool _InitiallyDirectory_k__BackingField, bool _isDirectory, bool _exists) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -86,6 +89,7 @@ public:
   /// @brief Field _fileStatusInitialized, offset: 0x70, size: 0x4, def value: None
   int32_t _fileStatusInitialized;
 
+  /// [CompilerGenerated]
   /// @brief Field <InitiallyDirectory>k__BackingField, offset: 0x74, size: 0x1, def value: None
   bool _InitiallyDirectory_k__BackingField;
 

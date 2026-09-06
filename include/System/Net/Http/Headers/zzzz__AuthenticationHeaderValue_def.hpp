@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\AuthenticationHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/AuthenticationHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,18 +93,22 @@ public:
   /// @brief Method .ctor, addr 0x60e2308, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW scheme, ::StringW parameter);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Parameter, addr 0x60e2338, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Parameter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Scheme, addr 0x60e2348, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Scheme();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Parameter, addr 0x60e2340, size 0x8, virtual false, abstract: false, final false
   inline void set_Parameter(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Scheme, addr 0x60e2350, size 0x8, virtual false, abstract: false, final false
   inline void set_Scheme(::StringW value);
 
@@ -114,20 +118,22 @@ protected:
   constexpr AuthenticationHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AuthenticationHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AuthenticationHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AuthenticationHeaderValue(AuthenticationHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AuthenticationHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AuthenticationHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AuthenticationHeaderValue(AuthenticationHeaderValue const&) = delete;
+  AuthenticationHeaderValue(AuthenticationHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20293 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Parameter>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Parameter_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Scheme>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Scheme_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\UnsafeRenderGraphPass_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/UnsafeRenderGraphPass_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,15 +16,19 @@ class UnsafeGraphContext;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData> class UnsafeRenderGraphPass_1;
+template <typename PassData>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class UnsafeRenderGraphPass_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1, "UnityEngine.Rendering.RenderGraphModule", "UnsafeRenderGraphPass`1");
+// [DebuggerDisplay("RenderPass: {name} (Index:{index} Async:{enableAsyncCompute})")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.BaseRenderGraphPass`2<PassData, TRenderGraphContext>
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename PassData>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.UnsafeRenderGraphPass`1<PassData>
 class CORDL_TYPE UnsafeRenderGraphPass_1 : public ::UnityEngine::Rendering::RenderGraphModule::BaseRenderGraphPass_2<PassData, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*> {
@@ -54,13 +58,13 @@ protected:
   constexpr UnsafeRenderGraphPass_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeRenderGraphPass_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeRenderGraphPass_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeRenderGraphPass_1(UnsafeRenderGraphPass_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeRenderGraphPass_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeRenderGraphPass_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeRenderGraphPass_1(UnsafeRenderGraphPass_1 const&) = delete;
+  UnsafeRenderGraphPass_1(UnsafeRenderGraphPass_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12433 };

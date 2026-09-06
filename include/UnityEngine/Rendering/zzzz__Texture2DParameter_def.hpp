@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Texture2DParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Texture2DParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class Texture2DParameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Texture2DParameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Texture2DParameter*, "UnityEngine.Rendering", "Texture2DParameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.VolumeParameter`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -37,13 +38,13 @@ protected:
   constexpr Texture2DParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Texture2DParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Texture2DParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Texture2DParameter(Texture2DParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Texture2DParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Texture2DParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Texture2DParameter(Texture2DParameter const&) = delete;
+  Texture2DParameter(Texture2DParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12365 };

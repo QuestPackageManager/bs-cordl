@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RunLevelMenuDestination.hpp"
+// IWYU pragma private; include "GlobalNamespace/RunLevelMenuDestination.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"

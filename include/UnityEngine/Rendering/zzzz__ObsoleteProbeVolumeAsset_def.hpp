@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ObsoleteProbeVolumeAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ObsoleteProbeVolumeAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ObsoleteProbeVolumeAsset;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ObsoleteProbeVolumeAsset*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ObsoleteProbeVolumeAsset*, "UnityEngine.Rendering", "ObsoleteProbeVolumeAsset");
+// [PreferBinarySerialization]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr ObsoleteProbeVolumeAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObsoleteProbeVolumeAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObsoleteProbeVolumeAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObsoleteProbeVolumeAsset(ObsoleteProbeVolumeAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObsoleteProbeVolumeAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObsoleteProbeVolumeAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObsoleteProbeVolumeAsset(ObsoleteProbeVolumeAsset const&) = delete;
+  ObsoleteProbeVolumeAsset(ObsoleteProbeVolumeAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12127 };

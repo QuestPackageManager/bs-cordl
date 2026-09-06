@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\RefreshMask.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/RefreshMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RefreshMask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::RefreshMask);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::RefreshMask, "UnityEngine.ProBuilder", "RefreshMask");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr RefreshMask();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RefreshMask(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(31)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\StaticMemoryPool_7.hpp"
+// IWYU pragma private; include "Zenject/StaticMemoryPool_7.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +22,19 @@ class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class StaticMemoryPool_7;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class StaticMemoryPool_7;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::StaticMemoryPool_7);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::StaticMemoryPool_7, "Zenject", "StaticMemoryPool`7");
+// [NoReflectionBaking]
 // Dependencies Zenject.StaticMemoryPoolBase`1<TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Zenject.StaticMemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>
 class CORDL_TYPE StaticMemoryPool_7 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {
@@ -84,13 +88,13 @@ protected:
   constexpr StaticMemoryPool_7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPool_7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPool_7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticMemoryPool_7(StaticMemoryPool_7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPool_7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPool_7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticMemoryPool_7(StaticMemoryPool_7 const&) = delete;
+  StaticMemoryPool_7(StaticMemoryPool_7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14446 };

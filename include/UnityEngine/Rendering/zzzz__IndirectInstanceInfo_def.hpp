@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectInstanceInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectInstanceInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct IndirectInstanceInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::IndirectInstanceInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::IndirectInstanceInfo, "UnityEngine.Rendering", "IndirectInstanceInfo");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceOcclusionCuller.cs", needAccessors = false)] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.IndirectInstanceInfo
@@ -24,8 +25,8 @@ public:
   // @brief default ctor
   constexpr IndirectInstanceInfo();
 
-  // Ctor Parameters [CppParam { name: "drawOffsetAndSplitMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceIndexAndCrossFade", ty: "int32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "drawOffsetAndSplitMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceIndexAndCrossFade", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr IndirectInstanceInfo(int32_t drawOffsetAndSplitMask, int32_t instanceIndexAndCrossFade) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

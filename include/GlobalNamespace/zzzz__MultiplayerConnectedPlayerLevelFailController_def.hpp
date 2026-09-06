@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerLevelFailController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerLevelFailController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class MultiplayerConnectedPlayerLevelFailController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*, "", "MultiplayerConnectedPlayerLevelFailController");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerConnectedPlayerLevelFailController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -112,9 +113,11 @@ public:
   /// @brief Method .ctor, addr 0x59bc920, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_playerDidFailEvent, addr 0x59bb6a4, size 0xac, virtual false, abstract: false, final false
   inline void add_playerDidFailEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_playerDidFailEvent, addr 0x59bb180, size 0xac, virtual false, abstract: false, final false
   inline void remove_playerDidFailEvent(::System::Action* value);
 
@@ -124,29 +127,34 @@ protected:
   constexpr MultiplayerConnectedPlayerLevelFailController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerLevelFailController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerLevelFailController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerLevelFailController(MultiplayerConnectedPlayerLevelFailController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerLevelFailController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerLevelFailController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerLevelFailController(MultiplayerConnectedPlayerLevelFailController const&) = delete;
+  MultiplayerConnectedPlayerLevelFailController(MultiplayerConnectedPlayerLevelFailControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6060 };
 
+  /// [SerializeField]
   /// @brief Field _failVFXController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VFXController> ____failVFXController;
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _connectedPlayer, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
+  /// [CompilerGenerated]
   /// @brief Field playerDidFailEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___playerDidFailEvent;
 

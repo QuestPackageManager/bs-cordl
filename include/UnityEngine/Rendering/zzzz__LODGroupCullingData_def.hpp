@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LODGroupCullingData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LODGroupCullingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LODGroupCullingData, "UnityEngine.
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer, "UnityEngine.Rendering", "LODGroupCullingData/<percentageFlags>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer, "UnityEngine.Rendering", "LODGroupCullingData/<sqrDistances>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__FixedBuffer, "UnityEngine.Rendering", "LODGroupCullingData/<transitionDistances>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -51,7 +53,7 @@ public:
   // @brief default ctor
   constexpr LODGroupCullingData__percentageFlags_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr LODGroupCullingData__percentageFlags_e__FixedBuffer(bool FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -75,6 +77,8 @@ static_assert(offsetof(::UnityEngine::Rendering::LODGroupCullingData__percentage
 static_assert(sizeof(::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -87,7 +91,7 @@ public:
   // @brief default ctor
   constexpr LODGroupCullingData__sqrDistances_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LODGroupCullingData__sqrDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -111,6 +115,8 @@ static_assert(offsetof(::UnityEngine::Rendering::LODGroupCullingData__sqrDistanc
 static_assert(sizeof(::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -123,7 +129,7 @@ public:
   // @brief default ctor
   constexpr LODGroupCullingData__transitionDistances_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LODGroupCullingData__transitionDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -165,10 +171,11 @@ public:
   // @brief default ctor
   constexpr LODGroupCullingData();
 
-  // Ctor Parameters [CppParam { name: "worldSpaceReferencePoint", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }, CppParam { name: "lodCount", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "sqrDistances", ty: "::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "transitionDistances", ty: "::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "worldSpaceSize", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "percentageFlags", ty: "::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "worldSpaceReferencePoint", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "sqrDistances", ty: "::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "transitionDistances", ty: "::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__FixedBuffer", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "worldSpaceSize", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "percentageFlags", ty:
+  // "::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr LODGroupCullingData(::Unity::Mathematics::float3 worldSpaceReferencePoint, int32_t lodCount, ::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer sqrDistances,
                                 ::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__FixedBuffer transitionDistances, float_t worldSpaceSize,
                                 ::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer percentageFlags) noexcept;
@@ -185,15 +192,18 @@ public:
   /// @brief Field lodCount, offset: 0xc, size: 0x4, def value: None
   int32_t lodCount;
 
+  /// [FixedBuffer(typeof(System.Single), 8)]
   /// @brief Field sqrDistances, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::Rendering::LODGroupCullingData__sqrDistances_e__FixedBuffer sqrDistances;
 
+  /// [FixedBuffer(typeof(System.Single), 8)]
   /// @brief Field transitionDistances, offset: 0x30, size: 0x20, def value: None
   ::UnityEngine::Rendering::LODGroupCullingData__transitionDistances_e__FixedBuffer transitionDistances;
 
   /// @brief Field worldSpaceSize, offset: 0x50, size: 0x4, def value: None
   float_t worldSpaceSize;
 
+  /// [FixedBuffer(typeof(System.Boolean), 8)]
   /// @brief Field percentageFlags, offset: 0x54, size: 0x8, def value: None
   ::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer percentageFlags;
 

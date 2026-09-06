@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\Archive\ArchiveFileInfo.hpp"
+// IWYU pragma private; include "Unity/IO/Archive/ArchiveFileInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ struct ArchiveFileInfo;
 // Write type traits
 MARK_VAL_T(::Unity::IO::Archive::ArchiveFileInfo);
 DEFINE_IL2CPP_CLASS(::Unity::IO::Archive::ArchiveFileInfo, "Unity.IO.Archive", "ArchiveFileInfo");
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
 // Dependencies
 namespace Unity::IO::Archive {
 // Is value type: true
@@ -25,7 +27,8 @@ public:
   // @brief default ctor
   constexpr ArchiveFileInfo();
 
-  // Ctor Parameters [CppParam { name: "Filename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "FileSize", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Filename", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "FileSize", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ArchiveFileInfo(::StringW Filename, uint64_t FileSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

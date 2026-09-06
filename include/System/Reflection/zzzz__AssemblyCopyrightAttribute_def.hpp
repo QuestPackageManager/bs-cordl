@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\AssemblyCopyrightAttribute.hpp"
+// IWYU pragma private; include "System/Reflection/AssemblyCopyrightAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AssemblyCopyrightAttribute;
 // Write type traits
 MARK_REF_T(::System::Reflection::AssemblyCopyrightAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::AssemblyCopyrightAttribute*, "System.Reflection", "AssemblyCopyrightAttribute");
+// [AttributeUsage((System.AttributeTargets)1, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Reflection {
 // Is value type: false
@@ -40,17 +41,18 @@ protected:
   constexpr AssemblyCopyrightAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyCopyrightAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyCopyrightAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyCopyrightAttribute(AssemblyCopyrightAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyCopyrightAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyCopyrightAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyCopyrightAttribute(AssemblyCopyrightAttribute const&) = delete;
+  AssemblyCopyrightAttribute(AssemblyCopyrightAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3466 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Copyright>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Copyright_k__BackingField;
 

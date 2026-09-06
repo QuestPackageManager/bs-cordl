@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\MergeArrayHandling.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/MergeArrayHandling.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__MergeArrayHandling_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling::MergeArrayHandling(int32_t value__) noexcept {
   this->value__ = value__;
 }

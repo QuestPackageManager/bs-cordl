@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRControllerHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRControllerHelper.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRControllerHelper_def.hpp"
@@ -12,7 +12,7 @@
 #include "UnityEngine/zzzz__Animator_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType::OVRControllerHelper_ControllerType(int32_t value__) noexcept {
   this->value__ = value__;
 }

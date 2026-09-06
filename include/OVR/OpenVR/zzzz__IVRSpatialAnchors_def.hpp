@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRSpatialAnchors.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRSpatialAnchors.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPos
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor*, "OVR.OpenVR", "IVRSpatialAnchors/_GetSpatialAnchorDescriptor");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose*, "OVR.OpenVR", "IVRSpatialAnchors/_GetSpatialAnchorPose");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRSpatialAnchors, "OVR.OpenVR", "IVRSpatialAnchors");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -98,13 +99,13 @@ protected:
   constexpr IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor(IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor(IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor const&) = delete;
+  IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor(IVRSpatialAnchors__CreateSpatialAnchorFromDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8365 };
@@ -115,6 +116,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -144,13 +146,13 @@ protected:
   constexpr IVRSpatialAnchors__CreateSpatialAnchorFromPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSpatialAnchors__CreateSpatialAnchorFromPose(IVRSpatialAnchors__CreateSpatialAnchorFromPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__CreateSpatialAnchorFromPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSpatialAnchors__CreateSpatialAnchorFromPose(IVRSpatialAnchors__CreateSpatialAnchorFromPose const&) = delete;
+  IVRSpatialAnchors__CreateSpatialAnchorFromPose(IVRSpatialAnchors__CreateSpatialAnchorFromPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8366 };
@@ -161,6 +163,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -189,13 +192,13 @@ protected:
   constexpr IVRSpatialAnchors__GetSpatialAnchorPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSpatialAnchors__GetSpatialAnchorPose(IVRSpatialAnchors__GetSpatialAnchorPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSpatialAnchors__GetSpatialAnchorPose(IVRSpatialAnchors__GetSpatialAnchorPose const&) = delete;
+  IVRSpatialAnchors__GetSpatialAnchorPose(IVRSpatialAnchors__GetSpatialAnchorPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8367 };
@@ -206,6 +209,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -234,13 +238,13 @@ protected:
   constexpr IVRSpatialAnchors__GetSpatialAnchorDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRSpatialAnchors__GetSpatialAnchorDescriptor(IVRSpatialAnchors__GetSpatialAnchorDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRSpatialAnchors__GetSpatialAnchorDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRSpatialAnchors__GetSpatialAnchorDescriptor(IVRSpatialAnchors__GetSpatialAnchorDescriptor const&) = delete;
+  IVRSpatialAnchors__GetSpatialAnchorDescriptor(IVRSpatialAnchors__GetSpatialAnchorDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8368 };
@@ -270,10 +274,10 @@ public:
   // @brief default ctor
   constexpr IVRSpatialAnchors();
 
-  // Ctor Parameters [CppParam { name: "CreateSpatialAnchorFromDescriptor", ty: "::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor*", modifiers: "", def_value: None }, CppParam {
-  // name: "CreateSpatialAnchorFromPose", ty: "::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose*", modifiers: "", def_value: None }, CppParam { name: "GetSpatialAnchorPose", ty:
-  // "::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose*", modifiers: "", def_value: None }, CppParam { name: "GetSpatialAnchorDescriptor", ty:
-  // "::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "CreateSpatialAnchorFromDescriptor", ty: "::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "CreateSpatialAnchorFromPose", ty: "::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "GetSpatialAnchorPose", ty: "::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetSpatialAnchorDescriptor", ty:
+  // "::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRSpatialAnchors(::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor* CreateSpatialAnchorFromDescriptor,
                               ::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose* CreateSpatialAnchorFromPose, ::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose* GetSpatialAnchorPose,
                               ::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor* GetSpatialAnchorDescriptor) noexcept;

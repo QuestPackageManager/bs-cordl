@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffect.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffect.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffect_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -1094,7 +1094,7 @@ inline void UnityEngine::VFX::VisualEffect::SetVector4(int32_t nameID, ::UnityEn
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffect*>(), { "SetVector4", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector4>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nameID, v);
 }
-inline void UnityEngine::VFX::VisualEffect::SetTexture(int32_t nameID, ::UnityEngine::Texture* t) {
+inline void UnityEngine::VFX::VisualEffect::SetTexture(int32_t nameID, /* [NotNull] */ ::UnityEngine::Texture* t) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffect*>(), { "SetTexture", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Texture*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nameID, t);

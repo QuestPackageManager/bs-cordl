@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ParticleSystemRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/ParticleSystemRenderer.hpp"
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystemRenderer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -22,8 +22,8 @@
 #include "UnityEngine/zzzz__SpriteMaskInteraction_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "vertices", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "indices", ty: "::UnityW<::UnityEngine::Texture2D>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "vertices", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indices", ty:
+// "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystemRenderer_BakeTextureOutput::ParticleSystemRenderer_BakeTextureOutput(::UnityW<::UnityEngine::Texture2D> vertices,
                                                                                                             ::UnityW<::UnityEngine::Texture2D> indices) noexcept {
   this->vertices = vertices;
@@ -2220,12 +2220,12 @@ inline void UnityEngine::ParticleSystemRenderer::set_mesh(::UnityEngine::Mesh* v
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "set_mesh", {}, { ::i2c::type_of<::UnityEngine::Mesh*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline int32_t UnityEngine::ParticleSystemRenderer::GetMeshes(::by_ref<::ArrayW<::UnityEngine::Mesh*>> meshes) {
+inline int32_t UnityEngine::ParticleSystemRenderer::GetMeshes(/* [NotNull] */ ::by_ref<::ArrayW<::UnityEngine::Mesh*>> meshes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "GetMeshes", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Mesh*>>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, meshes);
 }
-inline void UnityEngine::ParticleSystemRenderer::SetMeshes(::ArrayW<::UnityEngine::Mesh*> meshes, int32_t size) {
+inline void UnityEngine::ParticleSystemRenderer::SetMeshes(/* [NotNull] */ ::ArrayW<::UnityEngine::Mesh*> meshes, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
                                                                                          { "SetMeshes", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Mesh*>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, meshes, size);
@@ -2235,12 +2235,12 @@ inline void UnityEngine::ParticleSystemRenderer::SetMeshes(::ArrayW<::UnityEngin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "SetMeshes", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Mesh*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, meshes);
 }
-inline int32_t UnityEngine::ParticleSystemRenderer::GetMeshWeightings(::by_ref<::ArrayW<float_t>> weightings) {
+inline int32_t UnityEngine::ParticleSystemRenderer::GetMeshWeightings(/* [NotNull] */ ::by_ref<::ArrayW<float_t>> weightings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "GetMeshWeightings", {}, { ::i2c::type_of<::by_ref<::ArrayW<float_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, weightings);
 }
-inline void UnityEngine::ParticleSystemRenderer::SetMeshWeightings(::ArrayW<float_t> weightings, int32_t size) {
+inline void UnityEngine::ParticleSystemRenderer::SetMeshWeightings(/* [NotNull] */ ::ArrayW<float_t> weightings, int32_t size) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "SetMeshWeightings", {}, { ::i2c::type_of<::ArrayW<float_t>>(), ::i2c::type_of<int32_t>() } })));
@@ -2261,7 +2261,8 @@ inline void UnityEngine::ParticleSystemRenderer::BakeMesh(::UnityEngine::Mesh* m
                                                            { "BakeMesh", {}, { ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<::UnityEngine::ParticleSystemBakeMeshOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mesh, options);
 }
-inline void UnityEngine::ParticleSystemRenderer::BakeMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Camera* camera, ::UnityEngine::ParticleSystemBakeMeshOptions options) {
+inline void UnityEngine::ParticleSystemRenderer::BakeMesh(/* [NotNull] */ ::UnityEngine::Mesh* mesh, /* [NotNull] */ ::UnityEngine::Camera* camera,
+                                                          ::UnityEngine::ParticleSystemBakeMeshOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
@@ -2274,7 +2275,8 @@ inline void UnityEngine::ParticleSystemRenderer::BakeTrailsMesh(::UnityEngine::M
                                                            { "BakeTrailsMesh", {}, { ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<::UnityEngine::ParticleSystemBakeMeshOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mesh, options);
 }
-inline void UnityEngine::ParticleSystemRenderer::BakeTrailsMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Camera* camera, ::UnityEngine::ParticleSystemBakeMeshOptions options) {
+inline void UnityEngine::ParticleSystemRenderer::BakeTrailsMesh(/* [NotNull] */ ::UnityEngine::Mesh* mesh, /* [NotNull] */ ::UnityEngine::Camera* camera,
+                                                                ::UnityEngine::ParticleSystemBakeMeshOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -2298,7 +2300,7 @@ inline int32_t UnityEngine::ParticleSystemRenderer::BakeTexture(::by_ref<::Unity
                             { ::i2c::type_of<::by_ref<::UnityEngine::Texture2D*>>(), ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::ParticleSystemBakeTextureOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, verticesTexture, camera, options);
 }
-inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::ParticleSystemRenderer::BakeTextureNoIndicesInternal(::UnityEngine::Texture2D* verticesTexture, ::UnityEngine::Camera* camera,
+inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::ParticleSystemRenderer::BakeTextureNoIndicesInternal(::UnityEngine::Texture2D* verticesTexture, /* [NotNull] */ ::UnityEngine::Camera* camera,
                                                                                                             ::UnityEngine::ParticleSystemBakeTextureOptions options, ::by_ref<int32_t> indexCount) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -2328,10 +2330,9 @@ inline int32_t UnityEngine::ParticleSystemRenderer::BakeTexture(::by_ref<::Unity
                                                                ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::ParticleSystemBakeTextureOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, verticesTexture, indicesTexture, camera, options);
 }
-inline ::UnityEngine::ParticleSystemRenderer_BakeTextureOutput UnityEngine::ParticleSystemRenderer::BakeTextureInternal(::UnityEngine::Texture2D* verticesTexture,
-                                                                                                                        ::UnityEngine::Texture2D* indicesTexture, ::UnityEngine::Camera* camera,
-                                                                                                                        ::UnityEngine::ParticleSystemBakeTextureOptions options,
-                                                                                                                        ::by_ref<int32_t> indexCount) {
+inline ::UnityEngine::ParticleSystemRenderer_BakeTextureOutput
+UnityEngine::ParticleSystemRenderer::BakeTextureInternal(::UnityEngine::Texture2D* verticesTexture, ::UnityEngine::Texture2D* indicesTexture, /* [NotNull] */ ::UnityEngine::Camera* camera,
+                                                         ::UnityEngine::ParticleSystemBakeTextureOptions options, ::by_ref<int32_t> indexCount) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
                                                            { "BakeTextureInternal",
@@ -2360,10 +2361,9 @@ inline int32_t UnityEngine::ParticleSystemRenderer::BakeTrailsTexture(::by_ref<:
                                                                ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::ParticleSystemBakeTextureOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, verticesTexture, indicesTexture, camera, options);
 }
-inline ::UnityEngine::ParticleSystemRenderer_BakeTextureOutput UnityEngine::ParticleSystemRenderer::BakeTrailsTextureInternal(::UnityEngine::Texture2D* verticesTexture,
-                                                                                                                              ::UnityEngine::Texture2D* indicesTexture, ::UnityEngine::Camera* camera,
-                                                                                                                              ::UnityEngine::ParticleSystemBakeTextureOptions options,
-                                                                                                                              ::by_ref<int32_t> indexCount) {
+inline ::UnityEngine::ParticleSystemRenderer_BakeTextureOutput
+UnityEngine::ParticleSystemRenderer::BakeTrailsTextureInternal(::UnityEngine::Texture2D* verticesTexture, ::UnityEngine::Texture2D* indicesTexture, /* [NotNull] */ ::UnityEngine::Camera* camera,
+                                                               ::UnityEngine::ParticleSystemBakeTextureOptions options, ::by_ref<int32_t> indexCount) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
                                                            { "BakeTrailsTextureInternal",
@@ -2376,13 +2376,13 @@ inline int32_t UnityEngine::ParticleSystemRenderer::get_activeVertexStreamsCount
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_activeVertexStreamsCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void UnityEngine::ParticleSystemRenderer::SetActiveVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams) {
+inline void UnityEngine::ParticleSystemRenderer::SetActiveVertexStreams(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
                                               { "SetActiveVertexStreams", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, streams);
 }
-inline void UnityEngine::ParticleSystemRenderer::GetActiveVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams) {
+inline void UnityEngine::ParticleSystemRenderer::GetActiveVertexStreams(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
                                               { "GetActiveVertexStreams", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>*>() } })));
@@ -2392,13 +2392,13 @@ inline int32_t UnityEngine::ParticleSystemRenderer::get_activeTrailVertexStreams
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(), { "get_activeTrailVertexStreamsCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void UnityEngine::ParticleSystemRenderer::SetActiveTrailVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams) {
+inline void UnityEngine::ParticleSystemRenderer::SetActiveTrailVertexStreams(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
                                               { "SetActiveTrailVertexStreams", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, streams);
 }
-inline void UnityEngine::ParticleSystemRenderer::GetActiveTrailVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams) {
+inline void UnityEngine::ParticleSystemRenderer::GetActiveTrailVertexStreams(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystemRenderer*>(),
                                               { "GetActiveTrailVertexStreams", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>*>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rigidbody.hpp"
+// IWYU pragma private; include "UnityEngine/Rigidbody.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,8 @@ class Rigidbody;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rigidbody*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rigidbody*, "UnityEngine", "Rigidbody");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeHeader("Modules/Physics/Rigidbody.h")]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -60,6 +62,8 @@ public:
   // Declarations
   __declspec(property(get = get_angularDamping, put = set_angularDamping)) float_t angularDamping;
 
+  /// [Obsolete("Please use Rigidbody.angularDamping instead. (UnityUpgradable) -> angularDamping")]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_angularDrag, put = set_angularDrag)) float_t angularDrag;
 
   __declspec(property(get = get_angularVelocity, put = set_angularVelocity)) ::UnityEngine::Vector3 angularVelocity;
@@ -76,6 +80,8 @@ public:
 
   __declspec(property(get = get_detectCollisions, put = set_detectCollisions)) bool detectCollisions;
 
+  /// [Obsolete("Please use Rigidbody.linearDamping instead. (UnityUpgradable) -> linearDamping")]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_drag, put = set_drag)) float_t drag;
 
   __declspec(property(get = get_excludeLayers, put = set_excludeLayers)) ::UnityEngine::LayerMask excludeLayers;
@@ -108,132 +114,159 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("The sleepAngularVelocity is no longer supported. Use sleepThreshold to specify energy.", true)]
   __declspec(property(get = get_sleepAngularVelocity, put = set_sleepAngularVelocity)) float_t sleepAngularVelocity;
 
   __declspec(property(get = get_sleepThreshold, put = set_sleepThreshold)) float_t sleepThreshold;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("The sleepVelocity is no longer supported. Use sleepThreshold. Note that sleepThreshold is energy but not velocity.", true)]
   __declspec(property(get = get_sleepVelocity, put = set_sleepVelocity)) float_t sleepVelocity;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("Please use Rigidbody.solverIterations instead. (UnityUpgradable) -> solverIterations", true)]
   __declspec(property(get = get_solverIterationCount, put = set_solverIterationCount)) int32_t solverIterationCount;
 
   __declspec(property(get = get_solverIterations, put = set_solverIterations)) int32_t solverIterations;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("Please use Rigidbody.solverVelocityIterations instead. (UnityUpgradable) -> solverVelocityIterations", true)]
   __declspec(property(get = get_solverVelocityIterationCount, put = set_solverVelocityIterationCount)) int32_t solverVelocityIterationCount;
 
   __declspec(property(get = get_solverVelocityIterations, put = set_solverVelocityIterations)) int32_t solverVelocityIterations;
 
+  /// [Obsolete("Cone friction is no longer supported.", true)]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_useConeFriction, put = set_useConeFriction)) bool useConeFriction;
 
   __declspec(property(get = get_useGravity, put = set_useGravity)) bool useGravity;
 
+  /// [Obsolete("Please use Rigidbody.linearVelocity instead. (UnityUpgradable) -> linearVelocity")]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_velocity, put = set_velocity)) ::UnityEngine::Vector3 velocity;
 
   __declspec(property(get = get_worldCenterOfMass)) ::UnityEngine::Vector3 worldCenterOfMass;
 
   __declspec(property(get = get_worldInertiaTensorMatrix)) ::UnityEngine::Matrix4x4 worldInertiaTensorMatrix;
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddExplosionForce, addr 0x6b9cef8, size 0xc, virtual false, abstract: false, final false
   inline void AddExplosionForce(float_t explosionForce, ::UnityEngine::Vector3 explosionPosition, float_t explosionRadius);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddExplosionForce, addr 0x6b9cef0, size 0x8, virtual false, abstract: false, final false
   inline void AddExplosionForce(float_t explosionForce, ::UnityEngine::Vector3 explosionPosition, float_t explosionRadius, float_t upwardsModifier);
 
   /// @brief Method AddExplosionForce, addr 0x6b9cda4, size 0xd0, virtual false, abstract: false, final false
-  inline void AddExplosionForce(float_t explosionForce, ::UnityEngine::Vector3 explosionPosition, float_t explosionRadius, float_t upwardsModifier, ::UnityEngine::ForceMode mode);
+  inline void AddExplosionForce(float_t explosionForce, ::UnityEngine::Vector3 explosionPosition, float_t explosionRadius, /* [DefaultValue("0.0f")] */ float_t upwardsModifier,
+                                /* [DefaultValue("ForceMode.Force)")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddExplosionForce_Injected, addr 0x6b9ce74, size 0x7c, virtual false, abstract: false, final false
   static inline void AddExplosionForce_Injected(::System::IntPtr _unity_self, float_t explosionForce, ::by_ref<::UnityEngine::Vector3> explosionPosition, float_t explosionRadius,
-                                                float_t upwardsModifier, ::UnityEngine::ForceMode mode);
+                                                /* [DefaultValue("0.0f")] */ float_t upwardsModifier, /* [DefaultValue("ForceMode.Force)")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddForce, addr 0x6b9c948, size 0x8, virtual false, abstract: false, final false
   inline void AddForce(::UnityEngine::Vector3 force);
 
   /// @brief Method AddForce, addr 0x6b9c84c, size 0xa8, virtual false, abstract: false, final false
-  inline void AddForce(::UnityEngine::Vector3 force, ::UnityEngine::ForceMode mode);
+  inline void AddForce(::UnityEngine::Vector3 force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddForce, addr 0x6b9c954, size 0x8, virtual false, abstract: false, final false
   inline void AddForce(float_t x, float_t y, float_t z);
 
   /// @brief Method AddForce, addr 0x6b9c950, size 0x4, virtual false, abstract: false, final false
-  inline void AddForce(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode);
+  inline void AddForce(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddForceAtPosition, addr 0x6b9cd9c, size 0x8, virtual false, abstract: false, final false
   inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position);
 
   /// @brief Method AddForceAtPosition, addr 0x6b9cc8c, size 0xb4, virtual false, abstract: false, final false
-  inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position, ::UnityEngine::ForceMode mode);
+  inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddForceAtPosition_Injected, addr 0x6b9cd40, size 0x5c, virtual false, abstract: false, final false
-  static inline void AddForceAtPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::by_ref<::UnityEngine::Vector3> position, ::UnityEngine::ForceMode mode);
+  static inline void AddForceAtPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::by_ref<::UnityEngine::Vector3> position,
+                                                 /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddForce_Injected, addr 0x6b9c8f4, size 0x54, virtual false, abstract: false, final false
-  static inline void AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::UnityEngine::ForceMode mode);
+  static inline void AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddRelativeForce, addr 0x6b9ca58, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeForce(::UnityEngine::Vector3 force);
 
   /// @brief Method AddRelativeForce, addr 0x6b9c95c, size 0xa8, virtual false, abstract: false, final false
-  inline void AddRelativeForce(::UnityEngine::Vector3 force, ::UnityEngine::ForceMode mode);
+  inline void AddRelativeForce(::UnityEngine::Vector3 force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddRelativeForce, addr 0x6b9ca64, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeForce(float_t x, float_t y, float_t z);
 
   /// @brief Method AddRelativeForce, addr 0x6b9ca60, size 0x4, virtual false, abstract: false, final false
-  inline void AddRelativeForce(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode);
+  inline void AddRelativeForce(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddRelativeForce_Injected, addr 0x6b9ca04, size 0x54, virtual false, abstract: false, final false
-  static inline void AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::UnityEngine::ForceMode mode);
+  static inline void AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddRelativeTorque, addr 0x6b9cc78, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeTorque(::UnityEngine::Vector3 torque);
 
   /// @brief Method AddRelativeTorque, addr 0x6b9cb7c, size 0xa8, virtual false, abstract: false, final false
-  inline void AddRelativeTorque(::UnityEngine::Vector3 torque, ::UnityEngine::ForceMode mode);
+  inline void AddRelativeTorque(::UnityEngine::Vector3 torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddRelativeTorque, addr 0x6b9cc84, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeTorque(float_t x, float_t y, float_t z);
 
   /// @brief Method AddRelativeTorque, addr 0x6b9cc80, size 0x4, virtual false, abstract: false, final false
-  inline void AddRelativeTorque(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode);
+  inline void AddRelativeTorque(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddRelativeTorque_Injected, addr 0x6b9cc24, size 0x54, virtual false, abstract: false, final false
-  static inline void AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, ::UnityEngine::ForceMode mode);
+  static inline void AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddTorque, addr 0x6b9cb68, size 0x8, virtual false, abstract: false, final false
   inline void AddTorque(::UnityEngine::Vector3 torque);
 
   /// @brief Method AddTorque, addr 0x6b9ca6c, size 0xa8, virtual false, abstract: false, final false
-  inline void AddTorque(::UnityEngine::Vector3 torque, ::UnityEngine::ForceMode mode);
+  inline void AddTorque(::UnityEngine::Vector3 torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddTorque, addr 0x6b9cb74, size 0x8, virtual false, abstract: false, final false
   inline void AddTorque(float_t x, float_t y, float_t z);
 
   /// @brief Method AddTorque, addr 0x6b9cb70, size 0x4, virtual false, abstract: false, final false
-  inline void AddTorque(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode);
+  inline void AddTorque(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddTorque_Injected, addr 0x6b9cb14, size 0x54, virtual false, abstract: false, final false
-  static inline void AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, ::UnityEngine::ForceMode mode);
+  static inline void AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method ClosestPointOnBounds, addr 0x6b9d010, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPointOnBounds(::UnityEngine::Vector3 position);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetAccumulatedForce, addr 0x6b9c6c8, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetAccumulatedForce();
 
   /// @brief Method GetAccumulatedForce, addr 0x6b9c5c4, size 0xb0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetAccumulatedForce(float_t step);
+  inline ::UnityEngine::Vector3 GetAccumulatedForce(/* [DefaultValue("Time.fixedDeltaTime")] */ float_t step);
 
   /// @brief Method GetAccumulatedForce_Injected, addr 0x6b9c674, size 0x54, virtual false, abstract: false, final false
-  static inline void GetAccumulatedForce_Injected(::System::IntPtr _unity_self, float_t step, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void GetAccumulatedForce_Injected(::System::IntPtr _unity_self, /* [DefaultValue("Time.fixedDeltaTime")] */ float_t step, ::by_ref<::UnityEngine::Vector3> ret);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetAccumulatedTorque, addr 0x6b9c80c, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetAccumulatedTorque();
 
   /// @brief Method GetAccumulatedTorque, addr 0x6b9c708, size 0xb0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetAccumulatedTorque(float_t step);
+  inline ::UnityEngine::Vector3 GetAccumulatedTorque(/* [DefaultValue("Time.fixedDeltaTime")] */ float_t step);
 
   /// @brief Method GetAccumulatedTorque_Injected, addr 0x6b9c7b8, size 0x54, virtual false, abstract: false, final false
-  static inline void GetAccumulatedTorque_Injected(::System::IntPtr _unity_self, float_t step, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void GetAccumulatedTorque_Injected(::System::IntPtr _unity_self, /* [DefaultValue("Time.fixedDeltaTime")] */ float_t step, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method GetPointVelocity, addr 0x6b9bf10, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPointVelocity(::UnityEngine::Vector3 worldPoint);
@@ -247,12 +280,14 @@ public:
   /// @brief Method GetRelativePointVelocity_Injected, addr 0x6b9bebc, size 0x54, virtual false, abstract: false, final false
   static inline void GetRelativePointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> relativePoint, ::by_ref<::UnityEngine::Vector3> ret);
 
+  /// [NativeName("ClosestPointOnBounds")]
   /// @brief Method Internal_ClosestPointOnBounds, addr 0x6b9cf04, size 0xb0, virtual false, abstract: false, final false
   inline void Internal_ClosestPointOnBounds(::UnityEngine::Vector3 point, ::by_ref<::UnityEngine::Vector3> outPos, ::by_ref<float_t> distance);
 
   /// @brief Method Internal_ClosestPointOnBounds_Injected, addr 0x6b9cfb4, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_ClosestPointOnBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> point, ::by_ref<::UnityEngine::Vector3> outPos, ::by_ref<float_t> distance);
 
+  /// [NativeName("SweepTestAll")]
   /// @brief Method Internal_SweepTestAll, addr 0x6b9d350, size 0x18c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit> Internal_SweepTestAll(::UnityEngine::Vector3 direction, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
@@ -310,6 +345,8 @@ public:
   /// @brief Method SetDensity_Injected, addr 0x6b99810, size 0x4c, virtual false, abstract: false, final false
   static inline void SetDensity_Injected(::System::IntPtr _unity_self, float_t density);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("Use Rigidbody.maxAngularVelocity instead.")]
   /// @brief Method SetMaxAngularVelocity, addr 0x6b9d69c, size 0x4, virtual false, abstract: false, final false
   inline void SetMaxAngularVelocity(float_t a);
 
@@ -322,23 +359,29 @@ public:
   /// @brief Method SweepTest, addr 0x6b9d0c0, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit SweepTest(::UnityEngine::Vector3 direction, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction, ::by_ref<bool> hasHit);
 
+  /// [ExcludeFromDocs]
   /// @brief Method SweepTest, addr 0x6b9d340, size 0x10, virtual false, abstract: false, final false
   inline bool SweepTest(::UnityEngine::Vector3 direction, ::by_ref<::UnityEngine::RaycastHit> hitInfo);
 
+  /// [ExcludeFromDocs]
   /// @brief Method SweepTest, addr 0x6b9d338, size 0x8, virtual false, abstract: false, final false
   inline bool SweepTest(::UnityEngine::Vector3 direction, ::by_ref<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance);
 
   /// @brief Method SweepTest, addr 0x6b9d228, size 0x110, virtual false, abstract: false, final false
-  inline bool SweepTest(::UnityEngine::Vector3 direction, ::by_ref<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+  inline bool SweepTest(::UnityEngine::Vector3 direction, ::by_ref<::UnityEngine::RaycastHit> hitInfo, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                        /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
+  /// [ExcludeFromDocs]
   /// @brief Method SweepTestAll, addr 0x6b9d65c, size 0x10, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit> SweepTestAll(::UnityEngine::Vector3 direction);
 
+  /// [ExcludeFromDocs]
   /// @brief Method SweepTestAll, addr 0x6b9d654, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit> SweepTestAll(::UnityEngine::Vector3 direction, float_t maxDistance);
 
   /// @brief Method SweepTestAll, addr 0x6b9d548, size 0x10c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::RaycastHit> SweepTestAll(::UnityEngine::Vector3 direction, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+  inline ::ArrayW<::UnityEngine::RaycastHit> SweepTestAll(::UnityEngine::Vector3 direction, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                                          /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
   /// @brief Method SweepTest_Injected, addr 0x6b9d1ac, size 0x7c, virtual false, abstract: false, final false
   static inline void SweepTest_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> direction, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction,
@@ -737,13 +780,13 @@ protected:
   constexpr Rigidbody();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Rigidbody", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rigidbody", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Rigidbody(Rigidbody&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Rigidbody", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rigidbody", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Rigidbody(Rigidbody const&) = delete;
+  Rigidbody(Rigidbodyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18690 };

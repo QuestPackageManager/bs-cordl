@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\ISimpleCollator.hpp"
+// IWYU pragma private; include "System/Globalization/ISimpleCollator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,27 +26,27 @@ namespace System::Globalization {
 class CORDL_TYPE ISimpleCollator {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(::StringW s1, int32_t idx1, int32_t len1, ::StringW s2, int32_t idx2, int32_t len2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method GetSortKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetSortKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Globalization::SortKey* GetSortKey(::StringW source, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method IndexOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t IndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method IsPrefix, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsPrefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsPrefix(::StringW src, ::StringW target, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method IsSuffix, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsSuffix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsSuffix(::StringW src, ::StringW target, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method LastIndexOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t LastIndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, ::System::Globalization::CompareOptions opt);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISimpleCollator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISimpleCollator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISimpleCollator(ISimpleCollator const&) = delete;
+  ISimpleCollator(ISimpleCollatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3638 };

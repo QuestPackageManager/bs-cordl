@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\GizmoTypesRegistry.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/GizmoTypesRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypesRegistry*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypesRegistry___c*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypesRegistry*, "Meta.XR.ImmersiveDebugger.Gizmo", "GizmoTypesRegistry");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypesRegistry___c*, "Meta.XR.ImmersiveDebugger.Gizmo", "GizmoTypesRegistry/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Gizmo {
 // Is value type: false
@@ -166,13 +167,13 @@ protected:
   constexpr GizmoTypesRegistry___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GizmoTypesRegistry___c(GizmoTypesRegistry___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoTypesRegistry___c(GizmoTypesRegistry___c const&) = delete;
+  GizmoTypesRegistry___c(GizmoTypesRegistry___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18480 };
@@ -197,6 +198,7 @@ public:
                       put = setStaticF_GizmoTypeInfos)) ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::Meta::XR::ImmersiveDebugger::DebugGizmoType, ::System::Type*>,
                                                                                                      ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypeInfo>* GizmoTypeInfos;
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x5a6fb74, size 0x88, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -225,13 +227,13 @@ protected:
   constexpr GizmoTypesRegistry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GizmoTypesRegistry(GizmoTypesRegistry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoTypesRegistry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoTypesRegistry(GizmoTypesRegistry const&) = delete;
+  GizmoTypesRegistry(GizmoTypesRegistryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18481 };

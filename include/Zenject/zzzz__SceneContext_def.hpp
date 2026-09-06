@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SceneContext.hpp"
+// IWYU pragma private; include "Zenject/SceneContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,6 +78,7 @@ DEFINE_IL2CPP_CLASS(::Zenject::SceneContext*, "Zenject", "SceneContext");
 DEFINE_IL2CPP_CLASS(::Zenject::SceneContext___c*, "Zenject", "SceneContext/<>c");
 DEFINE_IL2CPP_CLASS(::Zenject::SceneContext___c__DisplayClass50_0*, "Zenject", "SceneContext/<>c__DisplayClass50_0");
 DEFINE_IL2CPP_CLASS(::Zenject::SceneContext___c__DisplayClass52_0*, "Zenject", "SceneContext/<>c__DisplayClass52_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -130,6 +131,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e74b4c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e74b90, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -166,13 +168,13 @@ protected:
   constexpr SceneContext___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneContext___c(SceneContext___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext___c(SceneContext___c const&) = delete;
+  SceneContext___c(SceneContext___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14477 };
@@ -183,6 +185,7 @@ public:
 static_assert(sizeof(::Zenject::SceneContext___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -219,6 +222,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e74e60, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e74ea4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -231,13 +235,13 @@ protected:
   constexpr SceneContext___c__DisplayClass50_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass50_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass50_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneContext___c__DisplayClass50_0(SceneContext___c__DisplayClass50_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass50_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass50_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext___c__DisplayClass50_0(SceneContext___c__DisplayClass50_0 const&) = delete;
+  SceneContext___c__DisplayClass50_0(SceneContext___c__DisplayClass50_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14478 };
@@ -258,6 +262,7 @@ static_assert(offsetof(::Zenject::SceneContext___c__DisplayClass50_0, _____9__4)
 static_assert(sizeof(::Zenject::SceneContext___c__DisplayClass50_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -282,6 +287,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e750bc, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e75100, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -294,13 +300,13 @@ protected:
   constexpr SceneContext___c__DisplayClass52_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass52_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass52_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneContext___c__DisplayClass52_0(SceneContext___c__DisplayClass52_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass52_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext___c__DisplayClass52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext___c__DisplayClass52_0(SceneContext___c__DisplayClass52_0 const&) = delete;
+  SceneContext___c__DisplayClass52_0(SceneContext___c__DisplayClass52_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14479 };
@@ -430,6 +436,7 @@ public:
 
   static inline ::Zenject::SceneContext* New_ctor();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e72ad8, size 0x60, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -442,6 +449,7 @@ public:
   /// @brief Method Validate, addr 0x6e72d68, size 0x2c, virtual false, abstract: false, final false
   inline void Validate();
 
+  /// [CompilerGenerated]
   /// @brief Method <LookupDecoratorContexts>b__51_2, addr 0x6e74844, size 0x68, virtual false, abstract: false, final false
   inline bool _LookupDecoratorContexts_b__51_2(::Zenject::SceneDecoratorContext* decoratorContext);
 
@@ -535,21 +543,26 @@ public:
 
   constexpr void __cordl_internal_set__parentNewObjectsUnderSceneContext(bool value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e748ac, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x6e74734, size 0x110, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_PostInstall, addr 0x6e726d0, size 0xac, virtual false, abstract: false, final false
   inline void add_PostInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PostResolve, addr 0x6e72980, size 0xac, virtual false, abstract: false, final false
   inline void add_PostResolve(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PreInstall, addr 0x6e72578, size 0xac, virtual false, abstract: false, final false
   inline void add_PreInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PreResolve, addr 0x6e72828, size 0xac, virtual false, abstract: false, final false
   inline void add_PreResolve(::System::Action* value);
 
@@ -584,15 +597,19 @@ public:
   /// @brief Method get_ParentNewObjectsUnderSceneContext, addr 0x6e72d54, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParentNewObjectsUnderSceneContext();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PostInstall, addr 0x6e7277c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PostResolve, addr 0x6e72a2c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostResolve(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PreInstall, addr 0x6e72624, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreInstall(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PreResolve, addr 0x6e728d4, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreResolve(::System::Action* value);
 
@@ -621,26 +638,30 @@ protected:
   constexpr SceneContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneContext(SceneContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneContext(SceneContext const&) = delete;
+  SceneContext(SceneContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14480 };
 
+  /// [CompilerGenerated]
   /// @brief Field PreInstall, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___PreInstall;
 
+  /// [CompilerGenerated]
   /// @brief Field PostInstall, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___PostInstall;
 
+  /// [CompilerGenerated]
   /// @brief Field PreResolve, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___PreResolve;
 
+  /// [CompilerGenerated]
   /// @brief Field PostResolve, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___PostResolve;
 
@@ -656,12 +677,20 @@ public:
   /// @brief Field OnPostResolve, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent* ___OnPostResolve;
 
+  /// [FormerlySerializedAs("_parentNewObjectsUnderRoot")]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("ParentNewObjectsUnderRoot")]
+  /// [Tooltip("When true, objects that are created at runtime will be parented to the SceneContext")]
   /// @brief Field _parentNewObjectsUnderSceneContext, offset: 0x90, size: 0x1, def value: None
   bool ____parentNewObjectsUnderSceneContext;
 
+  /// [Tooltip("Optional contract names for this SceneContext, allowing contexts in subsequently loaded scenes to depend on it and be parented to it, and also for previously loaded decorators to be
+  /// included")] [SerializeField]
   /// @brief Field _contractNames, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____contractNames;
 
+  /// [Tooltip("Optional contract names of SceneContexts in previously loaded scenes that this context depends on and to which it should be parented")]
+  /// [SerializeField]
   /// @brief Field _parentContractNames, offset: 0xa0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____parentContractNames;
 

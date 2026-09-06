@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonRegex.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonRegex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,18 +55,22 @@ public:
   /// @brief Method .ctor, addr 0x5dae8c4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, ::StringW options);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Options, addr 0x5dae8b4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Options();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Pattern, addr 0x5dae8a4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Pattern();
 
   /// @brief Method get_Type, addr 0x5dae950, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Options, addr 0x5dae8bc, size 0x8, virtual false, abstract: false, final false
   inline void set_Options(::Newtonsoft::Json::Bson::BsonString* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Pattern, addr 0x5dae8ac, size 0x8, virtual false, abstract: false, final false
   inline void set_Pattern(::Newtonsoft::Json::Bson::BsonString* value);
 
@@ -76,20 +80,22 @@ protected:
   constexpr BsonRegex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonRegex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonRegex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonRegex(BsonRegex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonRegex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonRegex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonRegex(BsonRegex const&) = delete;
+  BsonRegex(BsonRegexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13704 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Pattern>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::Bson::BsonString* ____Pattern_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Options>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::Bson::BsonString* ____Options_k__BackingField;
 

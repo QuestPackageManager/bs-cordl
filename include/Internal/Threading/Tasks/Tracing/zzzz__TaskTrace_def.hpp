@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal\Threading\Tasks\Tracing\TaskTrace.hpp"
+// IWYU pragma private; include "Internal/Threading/Tasks/Tracing/TaskTrace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ protected:
   constexpr TaskTrace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskTrace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskTrace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskTrace(TaskTrace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskTrace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskTrace(TaskTrace const&) = delete;
+  TaskTrace(TaskTraceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2303 };

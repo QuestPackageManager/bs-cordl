@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutValue.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,8 +66,8 @@ public:
   // @brief default ctor
   constexpr LayoutValue();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "unit", ty: "::UnityEngine::UIElements::Layout::LayoutUnit", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unit", ty: "::UnityEngine::UIElements::Layout::LayoutUnit", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr LayoutValue(float_t value, ::UnityEngine::UIElements::Layout::LayoutUnit unit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

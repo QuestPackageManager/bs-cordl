@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\ObjectBasedBezierCurveData.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/ObjectBasedBezierCurveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,20 +69,22 @@ protected:
   constexpr ObjectBasedBezierCurveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectBasedBezierCurveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectBasedBezierCurveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectBasedBezierCurveData(ObjectBasedBezierCurveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectBasedBezierCurveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectBasedBezierCurveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectBasedBezierCurveData(ObjectBasedBezierCurveData const&) = delete;
+  ObjectBasedBezierCurveData(ObjectBasedBezierCurveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20833 };
 
+  /// [SerializeField]
   /// @brief Field _startPointTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____startPointTransform;
 
+  /// [SerializeField]
   /// @brief Field _endPointTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____endPointTransform;
 

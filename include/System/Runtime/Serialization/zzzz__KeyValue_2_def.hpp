@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\KeyValue_2.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/KeyValue_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ template <typename K, typename V> struct KeyValue_2;
 // Write type traits
 MARK_GEN_VAL_T(::System::Runtime::Serialization::KeyValue_2);
 DEFINE_IL2CPP_GEN_CLASS(::System::Runtime::Serialization::KeyValue_2, "System.Runtime.Serialization", "KeyValue`2");
+// [DataContract(Namespace = "http://schemas.microsoft.com/2003/10/Serialization/Arrays")]
 // Dependencies
 namespace System::Runtime::Serialization {
 // cpp template
@@ -28,7 +29,7 @@ public:
   // @brief default ctor
   constexpr KeyValue_2();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "K", modifiers: "", def_value: None }, CppParam { name: "value", ty: "V", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "key", ty: "K", modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "V", modifiers: "", def_value: None, comment: None }]
   constexpr KeyValue_2(K key, V value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

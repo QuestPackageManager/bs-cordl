@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CutScoreBuffer.hpp"
+// IWYU pragma private; include "GlobalNamespace/CutScoreBuffer.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
@@ -461,7 +461,7 @@ inline void GlobalNamespace::CutScoreBuffer::UnregisterDidFinishReceiver(::Globa
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "UnregisterDidFinishReceiver", {}, { ::i2c::type_of<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, receiver);
 }
-inline bool GlobalNamespace::CutScoreBuffer::Init(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline bool GlobalNamespace::CutScoreBuffer::Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "Init", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, noteCutInfo);

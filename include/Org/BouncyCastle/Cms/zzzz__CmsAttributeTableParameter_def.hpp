@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsAttributeTableParameter.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAttributeTableParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   // @brief default ctor
   constexpr CmsAttributeTableParameter();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CmsAttributeTableParameter(int32_t value__) noexcept;
 
   /// @brief Field ContentType value: I32(0)

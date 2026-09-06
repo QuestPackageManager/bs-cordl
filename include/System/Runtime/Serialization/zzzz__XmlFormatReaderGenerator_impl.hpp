@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlFormatReaderGenerator.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlFormatReaderGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlFormatReaderGenerator_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ClassDataContract_def.hpp"

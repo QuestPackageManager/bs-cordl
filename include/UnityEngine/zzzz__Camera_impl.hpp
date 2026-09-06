@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Camera.hpp"
+// IWYU pragma private; include "UnityEngine/Camera.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
@@ -36,7 +36,7 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Camera_ProjectionMatrixMode::Camera_ProjectionMatrixMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -45,7 +45,7 @@ constexpr ::UnityEngine::Camera_ProjectionMatrixMode::Camera_ProjectionMatrixMod
 constexpr ::UnityEngine::Camera_ProjectionMatrixMode UnityEngine::Camera_ProjectionMatrixMode::Explicit{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Camera_ProjectionMatrixMode UnityEngine::Camera_ProjectionMatrixMode::Implicit{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Camera_ProjectionMatrixMode UnityEngine::Camera_ProjectionMatrixMode::PhysicalPropertiesBased{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Camera_GateFitMode::Camera_GateFitMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -88,15 +88,15 @@ inline float_t UnityEngine::Camera_GateFitParameters::get_aspect() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera_GateFitParameters>(), { "get_aspect", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_mode_k__BackingField", ty: "::UnityEngine::Camera_GateFitMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "_aspect_k__BackingField", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_mode_k__BackingField", ty: "::UnityEngine::Camera_GateFitMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_aspect_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Camera_GateFitParameters::Camera_GateFitParameters(::UnityEngine::Camera_GateFitMode _mode_k__BackingField, float_t _aspect_k__BackingField) noexcept {
   this->_mode_k__BackingField = _mode_k__BackingField;
   this->_aspect_k__BackingField = _aspect_k__BackingField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Camera_GateFitParameters::Camera_GateFitParameters() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Camera_StereoscopicEye::Camera_StereoscopicEye(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -104,7 +104,7 @@ constexpr ::UnityEngine::Camera_StereoscopicEye::Camera_StereoscopicEye(int32_t 
 constexpr ::UnityEngine::Camera_StereoscopicEye::Camera_StereoscopicEye() {}
 constexpr ::UnityEngine::Camera_StereoscopicEye UnityEngine::Camera_StereoscopicEye::Left{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Camera_StereoscopicEye UnityEngine::Camera_StereoscopicEye::Right{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Camera_MonoOrStereoscopicEye::Camera_MonoOrStereoscopicEye(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -113,7 +113,7 @@ constexpr ::UnityEngine::Camera_MonoOrStereoscopicEye::Camera_MonoOrStereoscopic
 constexpr ::UnityEngine::Camera_MonoOrStereoscopicEye UnityEngine::Camera_MonoOrStereoscopicEye::Left{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Camera_MonoOrStereoscopicEye UnityEngine::Camera_MonoOrStereoscopicEye::Right{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Camera_MonoOrStereoscopicEye UnityEngine::Camera_MonoOrStereoscopicEye::Mono{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Camera_SceneViewFilterMode::Camera_SceneViewFilterMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -121,7 +121,7 @@ constexpr ::UnityEngine::Camera_SceneViewFilterMode::Camera_SceneViewFilterMode(
 constexpr ::UnityEngine::Camera_SceneViewFilterMode::Camera_SceneViewFilterMode() {}
 constexpr ::UnityEngine::Camera_SceneViewFilterMode UnityEngine::Camera_SceneViewFilterMode::Off{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Camera_SceneViewFilterMode UnityEngine::Camera_SceneViewFilterMode::ShowFiltered{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Camera_RenderRequestMode::Camera_RenderRequestMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -141,7 +141,7 @@ constexpr ::UnityEngine::Camera_RenderRequestMode UnityEngine::Camera_RenderRequ
 constexpr ::UnityEngine::Camera_RenderRequestMode UnityEngine::Camera_RenderRequestMode::Smoothness{ static_cast<int32_t>(0xb) };
 constexpr ::UnityEngine::Camera_RenderRequestMode UnityEngine::Camera_RenderRequestMode::Occlusion{ static_cast<int32_t>(0xc) };
 constexpr ::UnityEngine::Camera_RenderRequestMode UnityEngine::Camera_RenderRequestMode::DiffuseColor{ static_cast<int32_t>(0xd) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Camera_RenderRequestOutputSpace::Camera_RenderRequestOutputSpace(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -157,9 +157,9 @@ constexpr ::UnityEngine::Camera_RenderRequestOutputSpace UnityEngine::Camera_Ren
 constexpr ::UnityEngine::Camera_RenderRequestOutputSpace UnityEngine::Camera_RenderRequestOutputSpace::UV6{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::Camera_RenderRequestOutputSpace UnityEngine::Camera_RenderRequestOutputSpace::UV7{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::Camera_RenderRequestOutputSpace UnityEngine::Camera_RenderRequestOutputSpace::UV8{ static_cast<int32_t>(0x8) };
-// Ctor Parameters [CppParam { name: "m_CameraRenderMode", ty: "::UnityEngine::Camera_RenderRequestMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ResultRT", ty:
-// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OutputSpace", ty: "::UnityEngine::Camera_RenderRequestOutputSpace", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_CameraRenderMode", ty: "::UnityEngine::Camera_RenderRequestMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ResultRT", ty:
+// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OutputSpace", ty: "::UnityEngine::Camera_RenderRequestOutputSpace", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Camera_RenderRequest::Camera_RenderRequest(::UnityEngine::Camera_RenderRequestMode m_CameraRenderMode, ::UnityW<::UnityEngine::RenderTexture> m_ResultRT,
                                                                     ::UnityEngine::Camera_RenderRequestOutputSpace m_OutputSpace) noexcept {
   this->m_CameraRenderMode = m_CameraRenderMode;
@@ -5884,7 +5884,7 @@ inline ::ArrayW<float_t> UnityEngine::Camera::GetLayerCullDistances() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(), { "GetLayerCullDistances", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t>>(this, ___internal_method);
 }
-inline void UnityEngine::Camera::SetLayerCullDistances(::ArrayW<float_t> d) {
+inline void UnityEngine::Camera::SetLayerCullDistances(/* [NotNull] */ ::ArrayW<float_t> d) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(), { "SetLayerCullDistances", {}, { ::i2c::type_of<::ArrayW<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, d);
@@ -6500,7 +6500,7 @@ inline int32_t UnityEngine::Camera::GetAllCamerasCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(), { "GetAllCamerasCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
-inline int32_t UnityEngine::Camera::GetAllCamerasImpl(::by_ref<::ArrayW<::UnityEngine::Camera*>> cam) {
+inline int32_t UnityEngine::Camera::GetAllCamerasImpl(/* [NotNull] */ ::by_ref<::ArrayW<::UnityEngine::Camera*>> cam) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(), { "GetAllCamerasImpl", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Camera*>>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, cam);
@@ -6518,7 +6518,7 @@ inline int32_t UnityEngine::Camera::GetAllCameras(::ArrayW<::UnityEngine::Camera
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(), { "GetAllCameras", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Camera*>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, cameras);
 }
-inline bool UnityEngine::Camera::RenderToCubemapImpl(::UnityEngine::Texture* tex, int32_t faceMask) {
+inline bool UnityEngine::Camera::RenderToCubemapImpl(::UnityEngine::Texture* tex, /* [DefaultValue("63")] */ int32_t faceMask) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(), { "RenderToCubemapImpl", {}, { ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, tex, faceMask);
@@ -6645,14 +6645,14 @@ inline void UnityEngine::Camera::RemoveAllCommandBuffers() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(), { "RemoveAllCommandBuffers", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Camera::AddCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer) {
+inline void UnityEngine::Camera::AddCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, /* [NotNull] */ ::UnityEngine::Rendering::CommandBuffer* buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(),
                                        { "AddCommandBufferImpl", {}, { ::i2c::type_of<::UnityEngine::Rendering::CameraEvent>(), ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt, buffer);
 }
-inline void UnityEngine::Camera::AddCommandBufferAsyncImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer,
+inline void UnityEngine::Camera::AddCommandBufferAsyncImpl(::UnityEngine::Rendering::CameraEvent evt, /* [NotNull] */ ::UnityEngine::Rendering::CommandBuffer* buffer,
                                                            ::UnityEngine::Rendering::ComputeQueueType queueType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -6662,7 +6662,7 @@ inline void UnityEngine::Camera::AddCommandBufferAsyncImpl(::UnityEngine::Render
                                                                          ::i2c::type_of<::UnityEngine::Rendering::ComputeQueueType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt, buffer, queueType);
 }
-inline void UnityEngine::Camera::RemoveCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer) {
+inline void UnityEngine::Camera::RemoveCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, /* [NotNull] */ ::UnityEngine::Rendering::CommandBuffer* buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(),
@@ -7672,7 +7672,7 @@ inline int32_t UnityEngine::Camera::GetAllCamerasImpl_Injected(::by_ref<::ArrayW
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(), { "GetAllCamerasImpl_Injected", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Camera*>>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, cam);
 }
-inline bool UnityEngine::Camera::RenderToCubemapImpl_Injected(::System::IntPtr _unity_self, ::System::IntPtr tex, int32_t faceMask) {
+inline bool UnityEngine::Camera::RenderToCubemapImpl_Injected(::System::IntPtr _unity_self, ::System::IntPtr tex, /* [DefaultValue("63")] */ int32_t faceMask) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Camera*>(),
                                               { "RenderToCubemapImpl_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));

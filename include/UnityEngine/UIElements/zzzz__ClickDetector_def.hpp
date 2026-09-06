@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ClickDetector.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ClickDetector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClickDetector)
@@ -20,7 +21,9 @@ namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class PointerEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class PointerEventBase_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -94,13 +97,13 @@ protected:
   constexpr ClickDetector_ButtonClickStatus();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector_ButtonClickStatus", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector_ButtonClickStatus", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClickDetector_ButtonClickStatus(ClickDetector_ButtonClickStatus&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector_ButtonClickStatus", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector_ButtonClickStatus", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClickDetector_ButtonClickStatus(ClickDetector_ButtonClickStatus const&) = delete;
+  ClickDetector_ButtonClickStatus(ClickDetector_ButtonClickStatusconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4069 };
@@ -131,7 +134,7 @@ static_assert(offsetof(::UnityEngine::UIElements::ClickDetector_ButtonClickStatu
 static_assert(sizeof(::UnityEngine::UIElements::ClickDetector_ButtonClickStatus) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ClickDetector
@@ -159,7 +162,9 @@ public:
   static inline ::UnityEngine::UIElements::ClickDetector* New_ctor();
 
   /// @brief Method ProcessEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TEvent> inline void ProcessEvent(::UnityEngine::UIElements::PointerEventBase_1<TEvent>* evt);
+  template <typename TEvent>
+    requires(::cordl_internals::type_constraint<TEvent, ::UnityEngine::UIElements::PointerEventBase_1<TEvent>*> && ::cordl_internals::default_constructor_constraint<TEvent>)
+  inline void ProcessEvent(::UnityEngine::UIElements::PointerEventBase_1<TEvent>* evt);
 
   /// @brief Method SendClickEvent, addr 0x6c49790, size 0x2a8, virtual false, abstract: false, final false
   inline void SendClickEvent(::UnityEngine::UIElements::EventBase* evt);
@@ -178,11 +183,13 @@ public:
 
   static inline int32_t getStaticF__s_DoubleClickTime_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_s_DoubleClickTime, addr 0x6c491cc, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_s_DoubleClickTime();
 
   static inline void setStaticF__s_DoubleClickTime_k__BackingField(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_s_DoubleClickTime, addr 0x6c49228, size 0x60, virtual false, abstract: false, final false
   static inline void set_s_DoubleClickTime(int32_t value);
 
@@ -192,13 +199,13 @@ protected:
   constexpr ClickDetector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClickDetector(ClickDetector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClickDetector(ClickDetector const&) = delete;
+  ClickDetector(ClickDetectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4070 };

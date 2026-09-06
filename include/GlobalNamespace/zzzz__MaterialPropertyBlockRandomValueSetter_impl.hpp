@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockRandomValueSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockRandomValueSetter.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Renderer_impl.hpp"

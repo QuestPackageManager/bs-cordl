@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\WindowResolutionSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/WindowResolutionSettingsController.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__WindowResolutionSettingsController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"

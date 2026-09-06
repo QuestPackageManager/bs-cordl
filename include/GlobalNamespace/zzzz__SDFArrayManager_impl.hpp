@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SDFArrayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/SDFArrayManager.hpp"
 #include "GlobalNamespace/zzzz__SDFPoint_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"

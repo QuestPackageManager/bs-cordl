@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\XRSystemUniversal.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRSystemUniversal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__XRSystemUniversal_def.hpp"

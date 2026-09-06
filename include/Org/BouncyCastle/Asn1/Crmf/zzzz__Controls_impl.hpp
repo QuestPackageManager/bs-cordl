@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Crmf\Controls.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/Controls.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__Controls_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__AttributeTypeAndValue_def.hpp"
@@ -97,7 +97,7 @@ inline ::Org::BouncyCastle::Asn1::Crmf::Controls* Org::BouncyCastle::Asn1::Crmf:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::Controls*>(), { "GetInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Crmf::Controls*>(nullptr, ___internal_method, obj);
 }
-inline void Org::BouncyCastle::Asn1::Crmf::Controls::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*> atvs) {
+inline void Org::BouncyCastle::Asn1::Crmf::Controls::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*> atvs) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::Controls*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, atvs);
@@ -113,7 +113,7 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Crmf::Con
 inline ::Org::BouncyCastle::Asn1::Crmf::Controls* Org::BouncyCastle::Asn1::Crmf::Controls::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Crmf::Controls*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::Crmf::Controls* Org::BouncyCastle::Asn1::Crmf::Controls::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*> atvs) {
+inline ::Org::BouncyCastle::Asn1::Crmf::Controls* Org::BouncyCastle::Asn1::Crmf::Controls::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*> atvs) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Crmf::Controls*>(atvs));
 }
 // Ctor Parameters []

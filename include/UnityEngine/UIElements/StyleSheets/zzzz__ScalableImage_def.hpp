@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\ScalableImage.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ScalableImage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct ScalableImage;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ScalableImage);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::ScalableImage, "UnityEngine.UIElements.StyleSheets", "ScalableImage");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
@@ -30,8 +31,8 @@ public:
   // @brief default ctor
   constexpr ScalableImage();
 
-  // Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "highResolutionImage", ty:
-  // "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "normalImage", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name: "highResolutionImage", ty:
+  // "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }]
   constexpr ScalableImage(::UnityW<::UnityEngine::Texture2D> normalImage, ::UnityW<::UnityEngine::Texture2D> highResolutionImage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

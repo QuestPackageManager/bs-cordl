@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Font.hpp"
+// IWYU pragma private; include "UnityEngine/Font.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr Font_FontTextureRebuildCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Font_FontTextureRebuildCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Font_FontTextureRebuildCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Font_FontTextureRebuildCallback(Font_FontTextureRebuildCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Font_FontTextureRebuildCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Font_FontTextureRebuildCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Font_FontTextureRebuildCallback(Font_FontTextureRebuildCallback const&) = delete;
+  Font_FontTextureRebuildCallback(Font_FontTextureRebuildCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22428 };
@@ -86,6 +86,10 @@ public:
 static_assert(sizeof(::UnityEngine::Font_FontTextureRebuildCallback) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine
+// [StaticAccessor("TextRenderingPrivate", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Modules/TextRendering/Public/FontImpl.h")]
+// [NativeHeader("Modules/TextRendering/Public/Font.h")]
+// [NativeClass("TextRendering::Font")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -105,6 +109,7 @@ public:
 
   __declspec(property(get = get_fontSize)) int32_t fontSize;
 
+  /// @brief [NativeProperty("LineSpacing", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_lineHeight)) int32_t lineHeight;
 
   /// @brief Field m_FontTextureRebuildCallback, offset 0x18, size 0x8
@@ -113,6 +118,7 @@ public:
 
   __declspec(property(get = get_material, put = set_material)) ::UnityW<::UnityEngine::Material> material;
 
+  /// @brief [Obsolete("Font.textureRebuildCallback has been deprecated. Use Font.textureRebuilt instead.")]
   __declspec(property(get = get_textureRebuildCallback, put = set_textureRebuildCallback)) ::UnityEngine::Font_FontTextureRebuildCallback* textureRebuildCallback;
 
   /// @brief Field textureRebuilt, offset 0xffffffff, size 0x8
@@ -124,17 +130,22 @@ public:
   /// @brief Method CreateDynamicFontFromOSFont, addr 0x6c1809c, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Font> CreateDynamicFontFromOSFont(::ArrayW<::StringW> fontnames, int32_t size);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetCharacterInfo, addr 0x6c185f0, size 0xc, virtual false, abstract: false, final false
   inline bool GetCharacterInfo(char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetCharacterInfo, addr 0x6c185e8, size 0x8, virtual false, abstract: false, final false
   inline bool GetCharacterInfo(char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info, int32_t size);
 
+  /// [FreeFunction("TextRenderingPrivate::GetCharacterInfo", HasExplicitThis = true)]
   /// @brief Method GetCharacterInfo, addr 0x6c184cc, size 0xb0, virtual false, abstract: false, final false
-  inline bool GetCharacterInfo(char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info, int32_t size, ::UnityEngine::FontStyle style);
+  inline bool GetCharacterInfo(char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info, /* [DefaultValue("0")] */ int32_t size,
+                               /* [DefaultValue("FontStyle.Normal")] */ ::UnityEngine::FontStyle style);
 
   /// @brief Method GetCharacterInfo_Injected, addr 0x6c1857c, size 0x6c, virtual false, abstract: false, final false
-  static inline bool GetCharacterInfo_Injected(::System::IntPtr _unity_self, char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info, int32_t size, ::UnityEngine::FontStyle style);
+  static inline bool GetCharacterInfo_Injected(::System::IntPtr _unity_self, char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info, /* [DefaultValue("0")] */ int32_t size,
+                                               /* [DefaultValue("FontStyle.Normal")] */ ::UnityEngine::FontStyle style);
 
   /// @brief Method GetDefault, addr 0x6c181b4, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Font> GetDefault();
@@ -145,6 +156,7 @@ public:
   /// @brief Method GetMaxVertsForString, addr 0x6c18198, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetMaxVertsForString(::StringW str);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetOSFallbacks, addr 0x6c1841c, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetOSFallbacks();
 
@@ -164,20 +176,21 @@ public:
   static inline bool HasCharacter_Injected(::System::IntPtr _unity_self, int32_t c);
 
   /// @brief Method Internal_CreateDynamicFont, addr 0x6c17f9c, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_CreateDynamicFont(::UnityEngine::Font* self, ::ArrayW<::StringW> _names, int32_t size);
+  static inline void Internal_CreateDynamicFont(/* [Writable] */ ::UnityEngine::Font* self, /* [Unmarshalled] */ ::ArrayW<::StringW> _names, int32_t size);
 
   /// @brief Method Internal_CreateFont, addr 0x6c17bd8, size 0x134, virtual false, abstract: false, final false
-  static inline void Internal_CreateFont(::UnityEngine::Font* self, ::StringW name);
+  static inline void Internal_CreateFont(/* [Writable] */ ::UnityEngine::Font* self, ::StringW name);
 
   /// @brief Method Internal_CreateFontFromPath, addr 0x6c17dd8, size 0x134, virtual false, abstract: false, final false
-  static inline void Internal_CreateFontFromPath(::UnityEngine::Font* self, ::StringW fontPath);
+  static inline void Internal_CreateFontFromPath(/* [Writable] */ ::UnityEngine::Font* self, ::StringW fontPath);
 
   /// @brief Method Internal_CreateFontFromPath_Injected, addr 0x6c18488, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_CreateFontFromPath_Injected(::UnityEngine::Font* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fontPath);
+  static inline void Internal_CreateFontFromPath_Injected(/* [Writable] */ ::UnityEngine::Font* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fontPath);
 
   /// @brief Method Internal_CreateFont_Injected, addr 0x6c18444, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_CreateFont_Injected(::UnityEngine::Font* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
+  static inline void Internal_CreateFont_Injected(/* [Writable] */ ::UnityEngine::Font* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeTextureRebuilt_Internal, addr 0x6c18108, size 0x90, virtual false, abstract: false, final false
   static inline void InvokeTextureRebuilt_Internal(::UnityEngine::Font* font);
 
@@ -187,17 +200,20 @@ public:
 
   static inline ::UnityEngine::Font* New_ctor(::ArrayW<::StringW> names, int32_t size);
 
+  /// [ExcludeFromDocs]
   /// @brief Method RequestCharactersInTexture, addr 0x6c187e4, size 0xc, virtual false, abstract: false, final false
   inline void RequestCharactersInTexture(::StringW characters);
 
+  /// [ExcludeFromDocs]
   /// @brief Method RequestCharactersInTexture, addr 0x6c187dc, size 0x8, virtual false, abstract: false, final false
   inline void RequestCharactersInTexture(::StringW characters, int32_t size);
 
   /// @brief Method RequestCharactersInTexture, addr 0x6c185fc, size 0x184, virtual false, abstract: false, final false
-  inline void RequestCharactersInTexture(::StringW characters, int32_t size, ::UnityEngine::FontStyle style);
+  inline void RequestCharactersInTexture(::StringW characters, /* [DefaultValue("0")] */ int32_t size, /* [DefaultValue("FontStyle.Normal")] */ ::UnityEngine::FontStyle style);
 
   /// @brief Method RequestCharactersInTexture_Injected, addr 0x6c18780, size 0x5c, virtual false, abstract: false, final false
-  static inline void RequestCharactersInTexture_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> characters, int32_t size, ::UnityEngine::FontStyle style);
+  static inline void RequestCharactersInTexture_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> characters, /* [DefaultValue("0")] */ int32_t size,
+                                                         /* [DefaultValue("FontStyle.Normal")] */ ::UnityEngine::FontStyle style);
 
   constexpr ::UnityEngine::Font_FontTextureRebuildCallback* const& __cordl_internal_get_m_FontTextureRebuildCallback() const;
 
@@ -214,9 +230,11 @@ public:
   /// @brief Method .ctor, addr 0x6c17f0c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> names, int32_t size);
 
+  /// [CompilerGenerated]
   /// @brief Method add_m_FontTextureRebuildCallback, addr 0x6c17098, size 0xac, virtual false, abstract: false, final false
   inline void add_m_FontTextureRebuildCallback(::UnityEngine::Font_FontTextureRebuildCallback* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_textureRebuilt, addr 0x6c16ed8, size 0xe0, virtual false, abstract: false, final false
   static inline void add_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value);
 
@@ -228,6 +246,7 @@ public:
   /// @brief Method get_ascent_Injected, addr 0x6c176cc, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_ascent_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("TextRenderingPrivate::GetFontCharacterInfo", HasExplicitThis = true)]
   /// @brief Method get_characterInfo, addr 0x6c177c4, size 0x160, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::CharacterInfo> get_characterInfo();
 
@@ -267,14 +286,17 @@ public:
   /// @brief Method get_textureRebuildCallback, addr 0x6c17b6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Font_FontTextureRebuildCallback* get_textureRebuildCallback();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_m_FontTextureRebuildCallback, addr 0x6c17144, size 0xac, virtual false, abstract: false, final false
   inline void remove_m_FontTextureRebuildCallback(::UnityEngine::Font_FontTextureRebuildCallback* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_textureRebuilt, addr 0x6c16fb8, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value);
 
   static inline void setStaticF_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value);
 
+  /// [FreeFunction("TextRenderingPrivate::SetFontCharacterInfo", HasExplicitThis = true)]
   /// @brief Method set_characterInfo, addr 0x6c17968, size 0x104, virtual false, abstract: false, final false
   inline void set_characterInfo(::ArrayW<::UnityEngine::CharacterInfo> value);
 
@@ -282,7 +304,7 @@ public:
   static inline void set_characterInfo_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
   /// @brief Method set_fontNames, addr 0x6c1753c, size 0x90, virtual false, abstract: false, final false
-  inline void set_fontNames(::ArrayW<::StringW> value);
+  inline void set_fontNames(/* [Unmarshalled] */ ::ArrayW<::StringW> value);
 
   /// @brief Method set_fontNames_Injected, addr 0x6c175cc, size 0x44, virtual false, abstract: false, final false
   static inline void set_fontNames_Injected(::System::IntPtr _unity_self, ::ArrayW<::StringW> value);
@@ -302,17 +324,19 @@ protected:
   constexpr Font();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Font", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Font", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Font(Font&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Font", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Font", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Font(Font const&) = delete;
+  Font(Fontconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22429 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field m_FontTextureRebuildCallback, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Font_FontTextureRebuildCallback* ___m_FontTextureRebuildCallback;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Buffers\MemoryPool_1.hpp"
+// IWYU pragma private; include "System/Buffers/MemoryPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,12 +37,12 @@ public:
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Buffers::MemoryPool_1<T>* New_ctor();
 
-  /// @brief Method Rent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Rent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Buffers::IMemoryOwner_1<T>* Rent(int32_t minBufferSize);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -64,13 +64,13 @@ protected:
   constexpr MemoryPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPool_1(MemoryPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemoryPool_1(MemoryPool_1 const&) = delete;
+  MemoryPool_1(MemoryPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3834 };

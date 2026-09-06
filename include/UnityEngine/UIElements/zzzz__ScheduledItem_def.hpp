@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ScheduledItem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ScheduledItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::UnityEngine::UIElements::ScheduledItem*);
 MARK_REF_T(::UnityEngine::UIElements::ScheduledItem___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ScheduledItem*, "UnityEngine.UIElements", "ScheduledItem");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ScheduledItem___c*, "UnityEngine.UIElements", "ScheduledItem/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -58,13 +59,13 @@ protected:
   constexpr ScheduledItem___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScheduledItem___c(ScheduledItem___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScheduledItem___c(ScheduledItem___c const&) = delete;
+  ScheduledItem___c(ScheduledItem___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4688 };
@@ -118,7 +119,7 @@ public:
   /// @brief Method OnItemUnscheduled, addr 0x6dd97f4, size 0x4, virtual true, abstract: false, final false
   inline void OnItemUnscheduled();
 
-  /// @brief Method PerformTimerUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PerformTimerUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PerformTimerUpdate(::UnityEngine::UIElements::TimerState state);
 
   /// @brief Method ResetStartTime, addr 0x6dd9794, size 0x60, virtual false, abstract: false, final false
@@ -164,15 +165,19 @@ public:
 
   static inline ::System::Func_1<bool>* getStaticF_OnceCondition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_delayMs, addr 0x6dd9700, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_delayMs();
 
+  /// [CompilerGenerated]
   /// @brief Method get_endTimeMs, addr 0x6dd9720, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_endTimeMs();
 
+  /// [CompilerGenerated]
   /// @brief Method get_intervalMs, addr 0x6dd9710, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_intervalMs();
 
+  /// [CompilerGenerated]
   /// @brief Method get_startMs, addr 0x6dd96f0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_startMs();
 
@@ -180,12 +185,15 @@ public:
 
   static inline void setStaticF_OnceCondition(::System::Func_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_delayMs, addr 0x6dd9708, size 0x8, virtual false, abstract: false, final false
   inline void set_delayMs(int64_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_intervalMs, addr 0x6dd9718, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalMs(int64_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_startMs, addr 0x6dd96f8, size 0x8, virtual false, abstract: false, final false
   inline void set_startMs(int64_t value);
 
@@ -195,13 +203,13 @@ protected:
   constexpr ScheduledItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScheduledItem(ScheduledItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScheduledItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScheduledItem(ScheduledItem const&) = delete;
+  ScheduledItem(ScheduledItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4689 };
@@ -209,15 +217,23 @@ public:
   /// @brief Field timerUpdateStopCondition, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<bool>* ___timerUpdateStopCondition;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <startMs>k__BackingField, offset: 0x18, size: 0x8, def value: None
   int64_t ____startMs_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <delayMs>k__BackingField, offset: 0x20, size: 0x8, def value: None
   int64_t ____delayMs_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <intervalMs>k__BackingField, offset: 0x28, size: 0x8, def value: None
   int64_t ____intervalMs_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <endTimeMs>k__BackingField, offset: 0x30, size: 0x8, def value: None
   int64_t ____endTimeMs_k__BackingField;
 

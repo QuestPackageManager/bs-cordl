@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\DpadControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/DpadControl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DpadControl_def.hpp"
@@ -117,7 +117,7 @@ inline ::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl* UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::DpadControl_DpadAxisControl() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Controls::DpadControl_ButtonBits::DpadControl_ButtonBits(int32_t value__) noexcept {
   this->value__ = value__;
 }

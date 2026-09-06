@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RoomMeshAnchor.hpp"
+// IWYU pragma private; include "GlobalNamespace/RoomMeshAnchor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSemanticLabels_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
@@ -37,7 +38,9 @@ namespace GlobalNamespace {
 struct RoomMeshAnchor_PopulateMeshDataJob;
 }
 namespace GlobalNamespace {
-template <typename T> struct RoomMeshAnchor__EnableComponent_d__16_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct RoomMeshAnchor__EnableComponent_d__16_1;
 }
 namespace GlobalNamespace {
 class RoomMeshAnchor__GenerateRoomMesh_d__15;
@@ -98,7 +101,9 @@ namespace GlobalNamespace {
 struct RoomMeshAnchor_PopulateMeshDataJob;
 }
 namespace GlobalNamespace {
-template <typename T> struct RoomMeshAnchor__EnableComponent_d__16_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct RoomMeshAnchor__EnableComponent_d__16_1;
 }
 namespace GlobalNamespace {
 struct RoomMeshAnchor__Initialize_d__14;
@@ -140,8 +145,8 @@ public:
   // @brief default ctor
   constexpr RoomMeshAnchor_GetTriangleMeshCountsJob();
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Results", ty: "::Unity::Collections::NativeArray_1<int32_t>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "Results", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr RoomMeshAnchor_GetTriangleMeshCountsJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<int32_t> Results) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -153,6 +158,7 @@ public:
   /// @brief Field Space, offset: 0x0, size: 0x8, def value: None
   ::GlobalNamespace::OVRSpace Space;
 
+  /// [WriteOnly]
   /// @brief Field Results, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Results;
 
@@ -186,9 +192,9 @@ public:
   // @brief default ctor
   constexpr RoomMeshAnchor_GetTriangleMeshJob();
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Vertices", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "Vertices", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr RoomMeshAnchor_GetTriangleMeshJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices,
                                               ::Unity::Collections::NativeArray_1<int32_t> Triangles) noexcept;
 
@@ -201,9 +207,11 @@ public:
   /// @brief Field Space, offset: 0x0, size: 0x8, def value: None
   ::GlobalNamespace::OVRSpace Space;
 
+  /// [WriteOnly]
   /// @brief Field Vertices, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices;
 
+  /// [WriteOnly]
   /// @brief Field Triangles, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Triangles;
 
@@ -239,8 +247,9 @@ public:
   // @brief default ctor
   constexpr RoomMeshAnchor_PopulateMeshDataJob();
 
-  // Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "Triangles", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "MeshData", ty: "::UnityEngine::Mesh_MeshData", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Triangles", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "MeshData", ty: "::UnityEngine::Mesh_MeshData", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr RoomMeshAnchor_PopulateMeshDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices, ::Unity::Collections::NativeArray_1<int32_t> Triangles,
                                                ::UnityEngine::Mesh_MeshData MeshData) noexcept;
 
@@ -250,12 +259,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [ReadOnly]
   /// @brief Field Vertices, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices;
 
+  /// [ReadOnly]
   /// @brief Field Triangles, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Triangles;
 
+  /// [WriteOnly]
   /// @brief Field MeshData, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Mesh_MeshData MeshData;
 
@@ -291,7 +303,7 @@ public:
   // @brief default ctor
   constexpr RoomMeshAnchor_BakeMeshJob();
 
-  // Ctor Parameters [CppParam { name: "MeshID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Convex", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "MeshID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Convex", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr RoomMeshAnchor_BakeMeshJob(int32_t MeshID, bool Convex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -316,10 +328,12 @@ static_assert(offsetof(::GlobalNamespace::RoomMeshAnchor_BakeMeshJob, Convex) ==
 static_assert(sizeof(::GlobalNamespace::RoomMeshAnchor_BakeMeshJob) == 0x8, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies OVRTask`1::Awaiter<TResult>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>
+// [CompilerGenerated]
+// Dependencies IOVRAnchorComponent`1<T>, OVRTask`1::Awaiter<TResult>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: RoomMeshAnchor/<EnableComponent>d__16`1<T>
 struct CORDL_TYPE RoomMeshAnchor__EnableComponent_d__16_1 {
@@ -331,6 +345,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -341,10 +356,10 @@ public:
   // @brief default ctor
   constexpr RoomMeshAnchor__EnableComponent_d__16_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::RoomMeshAnchor>", modifiers:
-  // "", def_value: None }, CppParam { name: "_component_5__2", ty: "T", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::RoomMeshAnchor>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_component_5__2", ty: "T", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr RoomMeshAnchor__EnableComponent_d__16_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder,
                                                     ::UnityW<::GlobalNamespace::RoomMeshAnchor> __4__this, T _component_5__2, ::GlobalNamespace::OVRTask_1_Awaiter<bool> __u__1) noexcept;
 
@@ -373,6 +388,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle, UnityEngine.Mesh::MeshDataArray
 namespace GlobalNamespace {
 // Is value type: false
@@ -420,17 +436,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a32424, size 0x61c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a32a94, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a32a9c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a32ad4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a32408, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -485,6 +506,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x5a32a40, size 0x54, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a31c98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -503,13 +525,13 @@ protected:
   constexpr RoomMeshAnchor__GenerateRoomMesh_d__15();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor__GenerateRoomMesh_d__15", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor__GenerateRoomMesh_d__15", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RoomMeshAnchor__GenerateRoomMesh_d__15(RoomMeshAnchor__GenerateRoomMesh_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor__GenerateRoomMesh_d__15", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor__GenerateRoomMesh_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshAnchor__GenerateRoomMesh_d__15(RoomMeshAnchor__GenerateRoomMesh_d__15 const&) = delete;
+  RoomMeshAnchor__GenerateRoomMesh_d__15(RoomMeshAnchor__GenerateRoomMesh_d__15const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21346 };
@@ -560,6 +582,7 @@ static_assert(offsetof(::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15
 static_assert(sizeof(::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15) == 0x70, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies OVRAnchor, OVRSemanticLabels, OVRTriangleMesh, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -573,6 +596,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a32adc, size 0x59c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a33078, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -583,11 +607,11 @@ public:
   // @brief default ctor
   constexpr RoomMeshAnchor__Initialize_d__14();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::RoomMeshAnchor>", modifiers: "",
-  // def_value: None }, CppParam { name: "anchor", ty: "::GlobalNamespace::OVRAnchor", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRSemanticLabels>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRTriangleMesh>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::RoomMeshAnchor>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "anchor", ty: "::GlobalNamespace::OVRAnchor", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRSemanticLabels>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRTriangleMesh>", modifiers: "", def_value: None, comment: None }]
   constexpr RoomMeshAnchor__Initialize_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::RoomMeshAnchor> __4__this,
                                              ::GlobalNamespace::OVRAnchor anchor, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRSemanticLabels> __u__1,
                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRTriangleMesh> __u__2) noexcept;
@@ -634,7 +658,7 @@ static_assert(offsetof(::GlobalNamespace::RoomMeshAnchor__Initialize_d__14, __u_
 static_assert(sizeof(::GlobalNamespace::RoomMeshAnchor__Initialize_d__14) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies OVRAnchor, OVRSemanticLabels, OVRTriangleMesh, UnityEngine.MonoBehaviour, UnityEngine.Quaternion
+// Dependencies IOVRAnchorComponent`1<T>, OVRAnchor, OVRSemanticLabels, OVRTriangleMesh, UnityEngine.MonoBehaviour, UnityEngine.Quaternion
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: RoomMeshAnchor
@@ -649,7 +673,9 @@ public:
 
   using PopulateMeshDataJob = ::GlobalNamespace::RoomMeshAnchor_PopulateMeshDataJob;
 
-  template <typename T> using _EnableComponent_d__16_1 = ::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using _EnableComponent_d__16_1 = ::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>;
 
   using _GenerateRoomMesh_d__15 = ::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15;
 
@@ -683,17 +709,24 @@ public:
   /// @brief Method Awake, addr 0x5a31a84, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
+  /// [AsyncStateMachine(typeof(RoomMeshAnchor::<EnableComponent>d__16`1<T>))]
   /// @brief Method EnableComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Threading::Tasks::Task_1<T>* EnableComponent();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::System::Threading::Tasks::Task_1<T>* EnableComponent();
 
+  /// [IteratorStateMachine(typeof(RoomMeshAnchor::<GenerateRoomMesh>d__15))]
   /// @brief Method GenerateRoomMesh, addr 0x5a31c44, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GenerateRoomMesh();
 
+  /// [AsyncStateMachine(typeof(RoomMeshAnchor::<Initialize>d__14))]
   /// @brief Method Initialize, addr 0x5a31b80, size 0xc4, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::OVRAnchor anchor);
 
   /// @brief Method IsComponentEnabled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool IsComponentEnabled();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline bool IsComponentEnabled();
 
   /// @brief Method IsJobDone, addr 0x5a31f50, size 0x84, virtual false, abstract: false, final false
   static inline bool IsJobDone(::Unity::Jobs::JobHandle job);
@@ -747,6 +780,7 @@ public:
 
   static inline ::UnityEngine::Quaternion getStaticF_RotateY180();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsCompleted, addr 0x5a31a14, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
@@ -755,6 +789,7 @@ public:
 
   static inline void setStaticF_RotateY180(::UnityEngine::Quaternion value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsCompleted, addr 0x5a31a1c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
@@ -764,17 +799,18 @@ protected:
   constexpr RoomMeshAnchor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RoomMeshAnchor(RoomMeshAnchor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RoomMeshAnchor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RoomMeshAnchor(RoomMeshAnchor const&) = delete;
+  RoomMeshAnchor(RoomMeshAnchorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21348 };
 
+  /// [CompilerGenerated]
   /// @brief Field <IsCompleted>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsCompleted_k__BackingField;
 

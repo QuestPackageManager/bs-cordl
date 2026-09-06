@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongPackMasksModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongPackMasksModel.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMasksModel_def.hpp"
@@ -49,7 +49,8 @@ inline void GlobalNamespace::SongPackMasksModel_LocalizedText::_ctor(::StringW t
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPackMasksModel_LocalizedText>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, textKey, isPlural);
 }
-// Ctor Parameters [CppParam { name: "textKey", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPlural", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "textKey", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isPlural", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::SongPackMasksModel_LocalizedText::SongPackMasksModel_LocalizedText(::StringW textKey, bool isPlural) noexcept {
   this->textKey = textKey;
   this->isPlural = isPlural;
@@ -77,8 +78,8 @@ inline void GlobalNamespace::SongPackMasksModel_MaskInfo::_ctor(::GlobalNamespac
                                               { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::SongPackMasksModel_LocalizedText>(), ::i2c::type_of<::GlobalNamespace::SongPackMask>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, localizedText, mask);
 }
-// Ctor Parameters [CppParam { name: "localizedText", ty: "::GlobalNamespace::SongPackMasksModel_LocalizedText", modifiers: "", def_value: Some("{}") }, CppParam { name: "mask", ty:
-// "::GlobalNamespace::SongPackMask", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "localizedText", ty: "::GlobalNamespace::SongPackMasksModel_LocalizedText", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mask", ty:
+// "::GlobalNamespace::SongPackMask", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SongPackMasksModel_MaskInfo::SongPackMasksModel_MaskInfo(::GlobalNamespace::SongPackMasksModel_LocalizedText localizedText,
                                                                                       ::GlobalNamespace::SongPackMask mask) noexcept {
   this->localizedText = localizedText;

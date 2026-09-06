@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\STAThreadAttribute.hpp"
+// IWYU pragma private; include "System/STAThreadAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class STAThreadAttribute;
 // Write type traits
 MARK_REF_T(::System::STAThreadAttribute*);
 DEFINE_IL2CPP_CLASS(::System::STAThreadAttribute*, "System", "STAThreadAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute
 namespace System {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr STAThreadAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STAThreadAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STAThreadAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STAThreadAttribute(STAThreadAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STAThreadAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STAThreadAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STAThreadAttribute(STAThreadAttribute const&) = delete;
+  STAThreadAttribute(STAThreadAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2487 };

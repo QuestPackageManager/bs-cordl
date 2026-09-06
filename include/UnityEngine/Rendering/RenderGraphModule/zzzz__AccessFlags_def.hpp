@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\AccessFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/AccessFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct AccessFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::AccessFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::AccessFlags, "UnityEngine.Rendering.RenderGraphModule", "AccessFlags");
+// [Flags]
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -46,7 +48,7 @@ public:
   // @brief default ctor
   constexpr AccessFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AccessFlags(int32_t value__) noexcept;
 
   /// @brief Field Discard value: I32(4)

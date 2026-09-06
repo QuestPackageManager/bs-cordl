@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DownloadSongConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/DownloadSongConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_impl.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
@@ -22,7 +22,7 @@
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__ValueTuple_3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::DownloadSongConsoleCommand_AssetLookup::DownloadSongConsoleCommand_AssetLookup(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -77,16 +77,17 @@ constexpr GlobalNamespace::DownloadSongConsoleCommand__ExecuteAsync_d__12::opera
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DownloadSongConsoleCommand__ExecuteAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::DownloadSongConsoleCommand*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "messages", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_levelId_5__2", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_cancellationTokenSource_5__3", ty: "::System::Threading::CancellationTokenSource*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_cancellationToken_5__4", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_assetBundleName_5__5", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_3<::GlobalNamespace::DownloadSongConsoleCommand_AssetLookup,uint64_t,::StringW>>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__4", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::DownloadSongConsoleCommand*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "messages", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_levelId_5__2", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_cancellationTokenSource_5__3", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_cancellationToken_5__4", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_assetBundleName_5__5",
+// ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_3<::GlobalNamespace::DownloadSongConsoleCommand_AssetLookup,uint64_t,::StringW>>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__4", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::DownloadSongConsoleCommand__ExecuteAsync_d__12::DownloadSongConsoleCommand__ExecuteAsync_d__12(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::DownloadSongConsoleCommand* __4__this,
     ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages, ::StringW _levelId_5__2, ::System::Threading::CancellationTokenSource* _cancellationTokenSource_5__3,
@@ -156,11 +157,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::DownloadSongConsoleCommand__FindAssetByBundleNameAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::GlobalNamespace::DownloadSongConsoleCommand_AssetLookup,uint64_t,::StringW>>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "assetBundleName", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*>", modifiers: "", def_value: Some("{}") }]
+// Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "assetBundleName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::DownloadSongConsoleCommand__FindAssetByBundleNameAsync_d__13::DownloadSongConsoleCommand__FindAssetByBundleNameAsync_d__13(
     int32_t __1__state,
     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::GlobalNamespace::DownloadSongConsoleCommand_AssetLookup, uint64_t, ::StringW>> __t__builder,

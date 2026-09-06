@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TrueOverdraw\TrueOverdraw.hpp"
+// IWYU pragma private; include "TrueOverdraw/TrueOverdraw.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Material_impl.hpp"
@@ -10,7 +10,7 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TrueOverdraw::TrueOverdraw_OverdrawType::TrueOverdraw_OverdrawType(int32_t value__) noexcept {
   this->value__ = value__;
 }

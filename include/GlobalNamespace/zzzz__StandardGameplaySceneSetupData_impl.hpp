@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardGameplaySceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardGameplaySceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardGameplaySceneSetupData_def.hpp"
@@ -72,8 +72,8 @@ constexpr void GlobalNamespace::StandardGameplaySceneSetupData::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gameplayModifiers = value;
 }
-inline void GlobalNamespace::StandardGameplaySceneSetupData::_ctor(bool autoRestart, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline void GlobalNamespace::StandardGameplaySceneSetupData::_ctor(bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                   ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardGameplaySceneSetupData*>(),
                                                            { ".ctor",
@@ -82,7 +82,8 @@ inline void GlobalNamespace::StandardGameplaySceneSetupData::_ctor(bool autoRest
                                                                ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, autoRestart, beatmapKey, beatmapLevel, gameplayModifiers);
 }
-inline ::GlobalNamespace::StandardGameplaySceneSetupData* GlobalNamespace::StandardGameplaySceneSetupData::New_ctor(bool autoRestart, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+inline ::GlobalNamespace::StandardGameplaySceneSetupData* GlobalNamespace::StandardGameplaySceneSetupData::New_ctor(bool autoRestart,
+                                                                                                                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                                                                     ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::StandardGameplaySceneSetupData*>(autoRestart, beatmapKey, beatmapLevel, gameplayModifiers));

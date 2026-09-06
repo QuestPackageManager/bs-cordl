@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BitArray128.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BitArray128.hpp"
 #include "UnityEngine/Rendering/zzzz__BitArray128_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -339,7 +339,8 @@ constexpr UnityEngine::Rendering::BitArray128::operator ::UnityEngine::Rendering
 constexpr ::UnityEngine::Rendering::IBitArray* UnityEngine::Rendering::BitArray128::i___UnityEngine__Rendering__IBitArray() {
   return static_cast<::UnityEngine::Rendering::IBitArray*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "data1", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "data2", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "data1", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "data2", ty: "uint64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::BitArray128::BitArray128(uint64_t data1, uint64_t data2) noexcept {
   this->data1 = data1;
   this->data2 = data2;

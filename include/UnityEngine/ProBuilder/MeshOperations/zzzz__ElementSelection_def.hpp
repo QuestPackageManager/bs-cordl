@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\ElementSelection.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/ElementSelection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,6 +82,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ElementSelection*
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass25_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass27_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -268,13 +269,13 @@ protected:
   constexpr ElementSelection___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElementSelection___c(ElementSelection___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementSelection___c(ElementSelection___c const&) = delete;
+  ElementSelection___c(ElementSelection___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16870 };
@@ -285,6 +286,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -315,13 +317,13 @@ protected:
   constexpr ElementSelection___c__DisplayClass25_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass25_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass25_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElementSelection___c__DisplayClass25_0(ElementSelection___c__DisplayClass25_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass25_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementSelection___c__DisplayClass25_0(ElementSelection___c__DisplayClass25_0 const&) = delete;
+  ElementSelection___c__DisplayClass25_0(ElementSelection___c__DisplayClass25_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16871 };
@@ -337,6 +339,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ElementSelecti
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -388,13 +391,13 @@ protected:
   constexpr ElementSelection___c__DisplayClass27_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass27_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass27_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElementSelection___c__DisplayClass27_0(ElementSelection___c__DisplayClass27_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass27_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection___c__DisplayClass27_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementSelection___c__DisplayClass27_0(ElementSelection___c__DisplayClass27_0 const&) = delete;
+  ElementSelection___c__DisplayClass27_0(ElementSelection___c__DisplayClass27_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16872 };
@@ -420,6 +423,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::ElementSelecti
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [Extension]
 // Dependencies System.Object, UnityEngine.Vector3
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -513,6 +517,7 @@ public:
   /// @brief Method GetPerimeterEdges, addr 0x6725cb8, size 0x39c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> GetPerimeterEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges);
 
+  /// [Extension]
   /// @brief Method GetPerimeterEdges, addr 0x672563c, size 0x67c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
   GetPerimeterEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
@@ -544,13 +549,13 @@ protected:
   constexpr ElementSelection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElementSelection(ElementSelection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ElementSelection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ElementSelection(ElementSelection const&) = delete;
+  ElementSelection(ElementSelectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16873 };

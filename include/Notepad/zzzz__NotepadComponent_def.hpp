@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Notepad\NotepadComponent.hpp"
+// IWYU pragma private; include "Notepad/NotepadComponent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class NotepadComponent;
 // Write type traits
 MARK_REF_T(::Notepad::NotepadComponent*);
 DEFINE_IL2CPP_CLASS(::Notepad::NotepadComponent*, "Notepad", "NotepadComponent");
+// [HierarchyIcon("Contains a note", (OculusStudios.HierarchyIcons.Icon)3, "#828282", "Some child contains a note", (OculusStudios.HierarchyIcons.Icon)4, "#5f5f5f")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace Notepad {
 // Is value type: false
@@ -42,13 +43,13 @@ protected:
   constexpr NotepadComponent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NotepadComponent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotepadComponent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotepadComponent(NotepadComponent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NotepadComponent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotepadComponent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NotepadComponent(NotepadComponent const&) = delete;
+  NotepadComponent(NotepadComponentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23743 };

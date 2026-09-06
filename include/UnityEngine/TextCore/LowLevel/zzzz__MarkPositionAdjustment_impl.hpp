@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\MarkPositionAdjustment.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/MarkPositionAdjustment.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__MarkPositionAdjustment_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment.get_xPositionAdjustment
 template <>
@@ -77,8 +77,8 @@ inline void UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::set_yPositi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment>(), { "set_yPositionAdjustment", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_XPositionAdjustment", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YPositionAdjustment", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_XPositionAdjustment", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YPositionAdjustment", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::MarkPositionAdjustment(float_t m_XPositionAdjustment, float_t m_YPositionAdjustment) noexcept {
   this->m_XPositionAdjustment = m_XPositionAdjustment;
   this->m_YPositionAdjustment = m_YPositionAdjustment;

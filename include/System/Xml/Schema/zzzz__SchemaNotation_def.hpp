@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SchemaNotation.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SchemaNotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ protected:
   constexpr SchemaNotation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaNotation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaNotation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SchemaNotation(SchemaNotation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaNotation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaNotation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SchemaNotation(SchemaNotation const&) = delete;
+  SchemaNotation(SchemaNotationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9717 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRVirtualKeyboard.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboard.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFScene_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPose_impl.hpp"
@@ -45,7 +45,7 @@
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRVirtualKeyboard_KeyboardPosition::OVRVirtualKeyboard_KeyboardPosition(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -711,8 +711,9 @@ inline ::GlobalNamespace::OVRVirtualKeyboard_WaitUntilKeyboardVisible* GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVirtualKeyboard_WaitUntilKeyboardVisible::OVRVirtualKeyboard_WaitUntilKeyboardVisible() {}
-// Ctor Parameters [CppParam { name: "root", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "originalPose", ty: "::GlobalNamespace::OVRPose",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "targetPose", ty: "::GlobalNamespace::OVRPose", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "root", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "originalPose", ty:
+// "::GlobalNamespace::OVRPose", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "targetPose", ty: "::GlobalNamespace::OVRPose", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::GlobalNamespace::InteractorRootTransformOverride_OVRVirtualKeyboard_InteractorRootOverrideData::InteractorRootTransformOverride_OVRVirtualKeyboard_InteractorRootOverrideData(
     ::UnityW<::UnityEngine::Transform> root, ::GlobalNamespace::OVRPose originalPose, ::GlobalNamespace::OVRPose targetPose) noexcept {
   this->root = root;
@@ -885,6 +886,7 @@ inline ::System::Object* GlobalNamespace::InteractorRootTransformOverride_OVRVir
                                                            { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::InteractorRootTransformOverride_OVRVirtualKeyboard__RevertInteractorOverrides_d__6*
 GlobalNamespace::InteractorRootTransformOverride_OVRVirtualKeyboard__RevertInteractorOverrides_d__6::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::InteractorRootTransformOverride_OVRVirtualKeyboard__RevertInteractorOverrides_d__6*>(__1__state));
@@ -1070,7 +1072,7 @@ inline ::GlobalNamespace::OVRVirtualKeyboard_InteractorRootTransformOverride* Gl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVirtualKeyboard_InteractorRootTransformOverride::OVRVirtualKeyboard_InteractorRootTransformOverride() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRVirtualKeyboard_InputSource::OVRVirtualKeyboard_InputSource(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1662,9 +1664,10 @@ constexpr ::GlobalNamespace::OVRManager_EventListener* GlobalNamespace::OVRVirtu
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVirtualKeyboard_KeyboardEventListener::OVRVirtualKeyboard_KeyboardEventListener() {}
-// Ctor Parameters [CppParam { name: "buffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "bufferLength", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "hasTexture", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "materials", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "buffer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bufferLength", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hasTexture", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "materials", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRVirtualKeyboard_VirtualKeyboardTextureInfo::OVRVirtualKeyboard_VirtualKeyboardTextureInfo(
     ::System::IntPtr buffer, uint32_t bufferLength, ::UnityW<::UnityEngine::Texture2D> texture, bool hasTexture,
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials) noexcept {
@@ -1937,6 +1940,7 @@ inline ::System::Object* GlobalNamespace::OVRVirtualKeyboard__InitializeGlTFMode
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboard__InitializeGlTFModel_d__92*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRVirtualKeyboard__InitializeGlTFModel_d__92* GlobalNamespace::OVRVirtualKeyboard__InitializeGlTFModel_d__92::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRVirtualKeyboard__InitializeGlTFModel_d__92*>(__1__state));
 }

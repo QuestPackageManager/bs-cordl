@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\CodeTypeReference.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/CodeTypeReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,8 +30,10 @@ public:
   // Declarations
   __declspec(property(get = get_BaseType)) ::StringW BaseType;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_Options, put = set_Options)) ::System::Runtime::Serialization::CodeTypeReferenceOptions Options;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_TypeArguments)) ::System::Collections::Generic::List_1<::System::Runtime::Serialization::CodeTypeReference*>* TypeArguments;
 
   /// @brief Field arrayElementType, offset 0x20, size 0x8
@@ -131,13 +133,13 @@ protected:
   constexpr CodeTypeReference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CodeTypeReference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CodeTypeReference", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CodeTypeReference(CodeTypeReference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CodeTypeReference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CodeTypeReference", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CodeTypeReference(CodeTypeReference const&) = delete;
+  CodeTypeReference(CodeTypeReferenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17157 };
@@ -151,12 +153,15 @@ public:
   /// @brief Field arrayElementType, offset: 0x20, size: 0x8, def value: None
   ::System::Runtime::Serialization::CodeTypeReference* ___arrayElementType;
 
+  /// [OptionalField]
   /// @brief Field typeArguments, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Runtime::Serialization::CodeTypeReference*>* ___typeArguments;
 
+  /// [OptionalField]
   /// @brief Field referenceOptions, offset: 0x30, size: 0x4, def value: None
   ::System::Runtime::Serialization::CodeTypeReferenceOptions ___referenceOptions;
 
+  /// [OptionalField]
   /// @brief Field needsFixup, offset: 0x34, size: 0x1, def value: None
   bool ___needsFixup;
 

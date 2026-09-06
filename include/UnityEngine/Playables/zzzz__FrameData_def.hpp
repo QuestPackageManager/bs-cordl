@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\FrameData.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/FrameData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_VAL_T(::UnityEngine::Playables::FrameData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::FrameData_EvaluationType, "UnityEngine.Playables", "FrameData/EvaluationType");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::FrameData_Flags, "UnityEngine.Playables", "FrameData/Flags");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::FrameData, "UnityEngine.Playables", "FrameData");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Playables {
 // Is value type: true
@@ -70,7 +71,7 @@ public:
   // @brief default ctor
   constexpr FrameData_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FrameData_Flags(int32_t value__) noexcept;
 
   /// @brief Field EffectivePlayStateDelayed value: I32(16)
@@ -137,7 +138,7 @@ public:
   // @brief default ctor
   constexpr FrameData_EvaluationType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FrameData_EvaluationType(int32_t value__) noexcept;
 
   /// @brief Field Evaluate value: I32(0)
@@ -221,11 +222,12 @@ public:
   // @brief default ctor
   constexpr FrameData();
 
-  // Ctor Parameters [CppParam { name: "m_FrameID", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_DeltaTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Weight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_EffectiveWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_EffectiveParentDelay", ty:
-  // "double_t", modifiers: "", def_value: None }, CppParam { name: "m_EffectiveParentSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_EffectiveSpeed", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::Playables::FrameData_Flags", modifiers: "", def_value: None }, CppParam { name: "m_Output", ty:
-  // "::UnityEngine::Playables::PlayableOutput", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_FrameID", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DeltaTime", ty: "double_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_EffectiveWeight", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_EffectiveParentDelay", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_EffectiveParentSpeed", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_EffectiveSpeed", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Flags", ty:
+  // "::UnityEngine::Playables::FrameData_Flags", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Output", ty: "::UnityEngine::Playables::PlayableOutput", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr FrameData(uint64_t m_FrameID, double_t m_DeltaTime, float_t m_Weight, float_t m_EffectiveWeight, double_t m_EffectiveParentDelay, float_t m_EffectiveParentSpeed, float_t m_EffectiveSpeed,
                       ::UnityEngine::Playables::FrameData_Flags m_Flags, ::UnityEngine::Playables::PlayableOutput m_Output) noexcept;
 

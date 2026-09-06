@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConditionalActiveByLayout.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConditionalActiveByLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerConditionalActiveByLayout_Condition();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerConditionalActiveByLayout_Condition(int32_t value__) noexcept;
 
   /// @brief Field HideIf value: I32(1)
@@ -137,23 +137,26 @@ protected:
   constexpr MultiplayerConditionalActiveByLayout();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConditionalActiveByLayout", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConditionalActiveByLayout", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConditionalActiveByLayout(MultiplayerConditionalActiveByLayout&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConditionalActiveByLayout", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConditionalActiveByLayout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConditionalActiveByLayout(MultiplayerConditionalActiveByLayout const&) = delete;
+  MultiplayerConditionalActiveByLayout(MultiplayerConditionalActiveByLayoutconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6131 };
 
+  /// [SerializeField]
   /// @brief Field _condition, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition ____condition;
 
+  /// [SerializeField]
   /// @brief Field _layout, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlayerLayout ____layout;
 
+  /// [Inject]
   /// @brief Field _layoutProvider, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 

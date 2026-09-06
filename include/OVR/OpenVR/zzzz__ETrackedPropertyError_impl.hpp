@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\ETrackedPropertyError.hpp"
+// IWYU pragma private; include "OVR/OpenVR/ETrackedPropertyError.hpp"
 #include "OVR/OpenVR/zzzz__ETrackedPropertyError_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::ETrackedPropertyError::ETrackedPropertyError(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RuntimeAnimatorController.hpp"
+// IWYU pragma private; include "UnityEngine/RuntimeAnimatorController.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeAnimatorController_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

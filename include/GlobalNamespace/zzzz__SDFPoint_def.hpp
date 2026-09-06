@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SDFPoint.hpp"
+// IWYU pragma private; include "GlobalNamespace/SDFPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,17 +57,19 @@ protected:
   constexpr SDFPoint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SDFPoint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SDFPoint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SDFPoint(SDFPoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SDFPoint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SDFPoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SDFPoint(SDFPoint const&) = delete;
+  SDFPoint(SDFPointconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19586 };
 
+  /// [InfoBox("Use negative radius for the SDF to act as a negative force (multiplying rather than subtracting)", (BGLib.UnityExtension.InfoBoxAttribute::Type)1)]
+  /// [SerializeField]
   /// @brief Field _radius, offset: 0x20, size: 0x4, def value: None
   float_t ____radius;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\DefaultDependencyAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/DefaultDependencyAttribute.hpp"
 #include "System/Runtime/CompilerServices/zzzz__LoadHint_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__DefaultDependencyAttribute_def.hpp"

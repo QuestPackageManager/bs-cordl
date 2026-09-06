@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderBufferLoadAction.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderBufferLoadAction.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferLoadAction_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderBufferLoadAction::RenderBufferLoadAction(int32_t value__) noexcept {
   this->value__ = value__;
 }

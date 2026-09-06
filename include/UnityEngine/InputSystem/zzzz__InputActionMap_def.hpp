@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionMap.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -184,6 +186,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputActionMap_ReadMapJson, "Uni
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputActionMap_WriteActionJson, "UnityEngine.InputSystem", "InputActionMap/WriteActionJson");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputActionMap_WriteFileJson, "UnityEngine.InputSystem", "InputActionMap/WriteFileJson");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputActionMap_WriteMapJson, "UnityEngine.InputSystem", "InputActionMap/WriteMapJson");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -215,7 +218,7 @@ public:
   // @brief default ctor
   constexpr InputActionMap_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_Flags(int32_t value__) noexcept;
 
   /// @brief Field BindingResolutionNeedsFullReResolve value: I32(2)
@@ -270,8 +273,8 @@ public:
   // @brief default ctor
   constexpr InputActionMap_DeviceArray();
 
-  // Ctor Parameters [CppParam { name: "m_HaveValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_DeviceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_DeviceArray", ty: "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_HaveValue", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DeviceCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_DeviceArray", ty: "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_DeviceArray(bool m_HaveValue, int32_t m_DeviceCount, ::ArrayW<::UnityEngine::InputSystem::InputDevice*> m_DeviceArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -312,7 +315,8 @@ public:
   // @brief default ctor
   constexpr InputActionMap_BindingOverrideListJson();
 
-  // Ctor Parameters [CppParam { name: "bindings", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bindings", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson>*", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr InputActionMap_BindingOverrideListJson(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson>* bindings) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -352,9 +356,9 @@ public:
   // @brief default ctor
   constexpr InputActionMap_BindingOverrideJson();
 
-  // Ctor Parameters [CppParam { name: "action", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "path",
-  // ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "processors", ty: "::StringW", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "action", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_BindingOverrideJson(::StringW action, ::StringW id, ::StringW path, ::StringW interactions, ::StringW processors) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -411,10 +415,11 @@ public:
   // @brief default ctor
   constexpr InputActionMap_BindingJson();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "path", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "processors", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "groups", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "action", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "isComposite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPartOfComposite", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "groups", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "action", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "isComposite", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "isPartOfComposite", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_BindingJson(::StringW name, ::StringW id, ::StringW path, ::StringW interactions, ::StringW processors, ::StringW groups, ::StringW action, bool isComposite,
                                        bool isPartOfComposite) noexcept;
 
@@ -489,11 +494,12 @@ public:
   // @brief default ctor
   constexpr InputActionMap_ReadActionJson();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "expectedControlLayout", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "passThrough", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "initialStateCheck", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "bindings", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "expectedControlLayout", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "passThrough", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "initialStateCheck", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindings", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_ReadActionJson(::StringW name, ::StringW type, ::StringW id, ::StringW expectedControlType, ::StringW expectedControlLayout, ::StringW processors, ::StringW interactions,
                                           bool passThrough, bool initialStateCheck, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson> bindings) noexcept;
 
@@ -573,10 +579,10 @@ public:
   // @brief default ctor
   constexpr InputActionMap_WriteActionJson();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "processors", ty: "::StringW",
-  // modifiers: "", def_value: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "initialStateCheck", ty: "bool", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "expectedControlType", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "processors", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "interactions", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "initialStateCheck", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_WriteActionJson(::StringW name, ::StringW type, ::StringW id, ::StringW expectedControlType, ::StringW processors, ::StringW interactions, bool initialStateCheck) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -637,9 +643,9 @@ public:
   // @brief default ctor
   constexpr InputActionMap_ReadMapJson();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "actions",
-  // ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson>", modifiers: "", def_value: None }, CppParam { name: "bindings", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson>", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindings", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_ReadMapJson(::StringW name, ::StringW id, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson> actions,
                                        ::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson> bindings) noexcept;
 
@@ -689,9 +695,9 @@ public:
   // @brief default ctor
   constexpr InputActionMap_WriteMapJson();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "actions",
-  // ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteActionJson>", modifiers: "", def_value: None }, CppParam { name: "bindings", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteActionJson>", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindings", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_WriteMapJson(::StringW name, ::StringW id, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteActionJson> actions,
                                         ::ArrayW<::UnityEngine::InputSystem::InputActionMap_BindingJson> bindings) noexcept;
 
@@ -744,7 +750,7 @@ public:
   // @brief default ctor
   constexpr InputActionMap_WriteFileJson();
 
-  // Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_WriteFileJson(::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson> maps) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -778,8 +784,8 @@ public:
   // @brief default ctor
   constexpr InputActionMap_ReadFileJson();
 
-  // Ctor Parameters [CppParam { name: "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson>", modifiers: "", def_value: None }, CppParam { name: "maps", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "actions", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson>", modifiers: "", def_value: None, comment: None }, CppParam { name: "maps",
+  // ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionMap_ReadFileJson(::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadActionJson> actions, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson> maps) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -804,6 +810,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputActionMap_ReadFileJson, 
 static_assert(sizeof(::UnityEngine::InputSystem::InputActionMap_ReadFileJson) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [DefaultMember("Item")]
 // Dependencies System.Nullable`1<T>, System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.InputSystem.InputAction, UnityEngine.InputSystem.InputActionMap::DeviceArray,
 // UnityEngine.InputSystem.InputActionMap::Flags, UnityEngine.InputSystem.InputActionRebindingExtensions::ParameterOverride, UnityEngine.InputSystem.InputBinding, UnityEngine.InputSystem.InputControl,
 // UnityEngine.InputSystem.Utilities.CallbackArray`1<TDelegate>
@@ -1292,29 +1299,34 @@ protected:
   constexpr InputActionMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputActionMap(InputActionMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionMap(InputActionMap const&) = delete;
+  InputActionMap(InputActionMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8634 };
 
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
 
+  /// [SerializeField]
   /// @brief Field m_Id, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_Id;
 
+  /// [SerializeField]
   /// @brief Field m_Asset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ___m_Asset;
 
+  /// [SerializeField]
   /// @brief Field m_Actions, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::InputAction*> ___m_Actions;
 
+  /// [SerializeField]
   /// @brief Field m_Bindings, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::InputBinding> ___m_Bindings;
 

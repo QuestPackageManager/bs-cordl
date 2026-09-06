@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Toggle.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Toggle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,12 +64,14 @@ public:
   /// @brief Method get_State, addr 0x5a5e854, size 0x8, virtual false, abstract: false, final false
   inline bool get_State();
 
+  /// [CompilerGenerated]
   /// @brief Method get_StateChanged, addr 0x5a5e8d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<bool>* get_StateChanged();
 
   /// @brief Method set_State, addr 0x5a5e85c, size 0x1c, virtual false, abstract: false, final false
   inline void set_State(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_StateChanged, addr 0x5a5e8d8, size 0x8, virtual false, abstract: false, final false
   inline void set_StateChanged(::System::Action_1<bool>* value);
 
@@ -79,13 +81,13 @@ protected:
   constexpr Toggle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Toggle(Toggle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Toggle(Toggle const&) = delete;
+  Toggle(Toggleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18409 };
@@ -93,6 +95,7 @@ public:
   /// @brief Field _state, offset: 0xa8, size: 0x1, def value: None
   bool ____state;
 
+  /// [CompilerGenerated]
   /// @brief Field <StateChanged>k__BackingField, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_1<bool>* ____StateChanged_k__BackingField;
 

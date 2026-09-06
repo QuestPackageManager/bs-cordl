@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\ResourceReaderData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourceReaderData.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__ResourceReaderData_def.hpp"
-// Ctor Parameters [CppParam { name: "passId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputSlot", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "passId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputSlot", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceReaderData::ResourceReaderData(int32_t passId, int32_t inputSlot) noexcept {
   this->passId = passId;
   this->inputSlot = inputSlot;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\AttributeProviderAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/AttributeProviderAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AttributeProviderAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::AttributeProviderAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::AttributeProviderAttribute*, "System.ComponentModel", "AttributeProviderAttribute");
+// [AttributeUsage((System.AttributeTargets)128)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -42,9 +43,11 @@ public:
 
   constexpr void __cordl_internal_set__TypeName_k__BackingField(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_PropertyName, addr 0x63b64b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TypeName, addr 0x63b64ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
@@ -54,20 +57,22 @@ protected:
   constexpr AttributeProviderAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeProviderAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttributeProviderAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AttributeProviderAttribute(AttributeProviderAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeProviderAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttributeProviderAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AttributeProviderAttribute(AttributeProviderAttribute const&) = delete;
+  AttributeProviderAttribute(AttributeProviderAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11241 };
 
+  /// [CompilerGenerated]
   /// @brief Field <TypeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____TypeName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <PropertyName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____PropertyName_k__BackingField;
 

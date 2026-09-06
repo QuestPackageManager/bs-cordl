@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FtpWebResponse.hpp"
+// IWYU pragma private; include "System/Net/FtpWebResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,13 +61,13 @@ protected:
   constexpr FtpWebResponse_EmptyStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse_EmptyStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse_EmptyStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FtpWebResponse_EmptyStream(FtpWebResponse_EmptyStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse_EmptyStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse_EmptyStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpWebResponse_EmptyStream(FtpWebResponse_EmptyStream const&) = delete;
+  FtpWebResponse_EmptyStream(FtpWebResponse_EmptyStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11476 };
@@ -223,13 +223,13 @@ protected:
   constexpr FtpWebResponse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FtpWebResponse(FtpWebResponse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpWebResponse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpWebResponse(FtpWebResponse const&) = delete;
+  FtpWebResponse(FtpWebResponseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11477 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\DebugMember.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/DebugMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class DebugMember;
 // Write type traits
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::DebugMember*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::DebugMember*, "Meta.XR.ImmersiveDebugger", "DebugMember");
+// [AttributeUsage((System.AttributeTargets)464)]
 // Dependencies Meta.XR.ImmersiveDebugger.DebugGizmoType, UnityEngine.Color, UnityEngine.Scripting.PreserveAttribute
 namespace Meta::XR::ImmersiveDebugger {
 // Is value type: false
@@ -137,13 +138,13 @@ protected:
   constexpr DebugMember();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugMember", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugMember", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugMember(DebugMember&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugMember", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugMember", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugMember(DebugMember const&) = delete;
+  DebugMember(DebugMemberconst&) = delete;
 
   /// @brief Field DisplayNameTooltip offset 0xffffffff size 0x8
   static constexpr ::ConstString DisplayNameTooltip{ u"Optional name override to be used in the Inspector Panel" };
@@ -175,6 +176,7 @@ public:
   /// @brief Field Description, offset: 0x40, size: 0x8, def value: None
   ::StringW ___Description;
 
+  /// [Tooltip("Optional name override to be used in the Inspector Panel")]
   /// @brief Field DisplayName, offset: 0x48, size: 0x8, def value: None
   ::StringW ___DisplayName;
 

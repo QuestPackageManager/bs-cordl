@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRControllerDrivenHandPosesSample.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRControllerDrivenHandPosesSample.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class OVRControllerDrivenHandPosesSample;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRControllerDrivenHandPosesSample*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRControllerDrivenHandPosesSample*, "", "OVRControllerDrivenHandPosesSample");
+// [DisallowMultipleComponent]
+// [HelpURL("https://developer.oculus.com/documentation/unity/move-body-tracking/#appendix-b-isdk-integration")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -84,23 +86,26 @@ protected:
   constexpr OVRControllerDrivenHandPosesSample();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerDrivenHandPosesSample", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerDrivenHandPosesSample", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerDrivenHandPosesSample", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerDrivenHandPosesSample", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample const&) = delete;
+  OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSampleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7136 };
 
+  /// [SerializeField]
   /// @brief Field buttonOff, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___buttonOff;
 
+  /// [SerializeField]
   /// @brief Field buttonConforming, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___buttonConforming;
 
+  /// [SerializeField]
   /// @brief Field buttonNatural, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___buttonNatural;
 

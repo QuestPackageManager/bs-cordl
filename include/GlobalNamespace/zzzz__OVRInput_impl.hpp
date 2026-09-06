@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRInput.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRInput.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_impl.hpp"
@@ -17,7 +17,7 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_Button::OVRInput_Button(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -57,7 +57,7 @@ constexpr ::GlobalNamespace::OVRInput_Button GlobalNamespace::OVRInput_Button::D
 constexpr ::GlobalNamespace::OVRInput_Button GlobalNamespace::OVRInput_Button::Left{ static_cast<int32_t>(0x40000000) };
 constexpr ::GlobalNamespace::OVRInput_Button GlobalNamespace::OVRInput_Button::Right{ static_cast<int32_t>(0x80000000) };
 constexpr ::GlobalNamespace::OVRInput_Button GlobalNamespace::OVRInput_Button::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_RawButton::OVRInput_RawButton(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -93,7 +93,7 @@ constexpr ::GlobalNamespace::OVRInput_RawButton GlobalNamespace::OVRInput_RawBut
 constexpr ::GlobalNamespace::OVRInput_RawButton GlobalNamespace::OVRInput_RawButton::DpadLeft{ static_cast<int32_t>(0x40000) };
 constexpr ::GlobalNamespace::OVRInput_RawButton GlobalNamespace::OVRInput_RawButton::DpadRight{ static_cast<int32_t>(0x80000) };
 constexpr ::GlobalNamespace::OVRInput_RawButton GlobalNamespace::OVRInput_RawButton::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_Touch::OVRInput_Touch(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -113,7 +113,7 @@ constexpr ::GlobalNamespace::OVRInput_Touch GlobalNamespace::OVRInput_Touch::Sec
 constexpr ::GlobalNamespace::OVRInput_Touch GlobalNamespace::OVRInput_Touch::SecondaryThumbRest{ static_cast<int32_t>(0x100000) };
 constexpr ::GlobalNamespace::OVRInput_Touch GlobalNamespace::OVRInput_Touch::SecondaryTouchpad{ static_cast<int32_t>(0x800) };
 constexpr ::GlobalNamespace::OVRInput_Touch GlobalNamespace::OVRInput_Touch::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_RawTouch::OVRInput_RawTouch(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -133,7 +133,7 @@ constexpr ::GlobalNamespace::OVRInput_RawTouch GlobalNamespace::OVRInput_RawTouc
 constexpr ::GlobalNamespace::OVRInput_RawTouch GlobalNamespace::OVRInput_RawTouch::RThumbRest{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::OVRInput_RawTouch GlobalNamespace::OVRInput_RawTouch::RTouchpad{ static_cast<int32_t>(0x80000000) };
 constexpr ::GlobalNamespace::OVRInput_RawTouch GlobalNamespace::OVRInput_RawTouch::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_NearTouch::OVRInput_NearTouch(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -145,7 +145,7 @@ constexpr ::GlobalNamespace::OVRInput_NearTouch GlobalNamespace::OVRInput_NearTo
 constexpr ::GlobalNamespace::OVRInput_NearTouch GlobalNamespace::OVRInput_NearTouch::SecondaryIndexTrigger{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRInput_NearTouch GlobalNamespace::OVRInput_NearTouch::SecondaryThumbButtons{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::OVRInput_NearTouch GlobalNamespace::OVRInput_NearTouch::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_RawNearTouch::OVRInput_RawNearTouch(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -157,7 +157,7 @@ constexpr ::GlobalNamespace::OVRInput_RawNearTouch GlobalNamespace::OVRInput_Raw
 constexpr ::GlobalNamespace::OVRInput_RawNearTouch GlobalNamespace::OVRInput_RawNearTouch::RIndexTrigger{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRInput_RawNearTouch GlobalNamespace::OVRInput_RawNearTouch::RThumbButtons{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::OVRInput_RawNearTouch GlobalNamespace::OVRInput_RawNearTouch::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_Axis1D::OVRInput_Axis1D(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -179,7 +179,7 @@ constexpr ::GlobalNamespace::OVRInput_Axis1D GlobalNamespace::OVRInput_Axis1D::S
 constexpr ::GlobalNamespace::OVRInput_Axis1D GlobalNamespace::OVRInput_Axis1D::PrimaryIndexTriggerForce{ static_cast<int32_t>(0x1000) };
 constexpr ::GlobalNamespace::OVRInput_Axis1D GlobalNamespace::OVRInput_Axis1D::SecondaryIndexTriggerForce{ static_cast<int32_t>(0x2000) };
 constexpr ::GlobalNamespace::OVRInput_Axis1D GlobalNamespace::OVRInput_Axis1D::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_RawAxis1D::OVRInput_RawAxis1D(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -201,7 +201,7 @@ constexpr ::GlobalNamespace::OVRInput_RawAxis1D GlobalNamespace::OVRInput_RawAxi
 constexpr ::GlobalNamespace::OVRInput_RawAxis1D GlobalNamespace::OVRInput_RawAxis1D::LIndexTriggerForce{ static_cast<int32_t>(0x1000) };
 constexpr ::GlobalNamespace::OVRInput_RawAxis1D GlobalNamespace::OVRInput_RawAxis1D::RIndexTriggerForce{ static_cast<int32_t>(0x2000) };
 constexpr ::GlobalNamespace::OVRInput_RawAxis1D GlobalNamespace::OVRInput_RawAxis1D::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_Axis2D::OVRInput_Axis2D(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -213,7 +213,7 @@ constexpr ::GlobalNamespace::OVRInput_Axis2D GlobalNamespace::OVRInput_Axis2D::P
 constexpr ::GlobalNamespace::OVRInput_Axis2D GlobalNamespace::OVRInput_Axis2D::SecondaryThumbstick{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRInput_Axis2D GlobalNamespace::OVRInput_Axis2D::SecondaryTouchpad{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::OVRInput_Axis2D GlobalNamespace::OVRInput_Axis2D::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_RawAxis2D::OVRInput_RawAxis2D(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -225,7 +225,7 @@ constexpr ::GlobalNamespace::OVRInput_RawAxis2D GlobalNamespace::OVRInput_RawAxi
 constexpr ::GlobalNamespace::OVRInput_RawAxis2D GlobalNamespace::OVRInput_RawAxis2D::RThumbstick{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRInput_RawAxis2D GlobalNamespace::OVRInput_RawAxis2D::RTouchpad{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::OVRInput_RawAxis2D GlobalNamespace::OVRInput_RawAxis2D::Any{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_OpenVRButton::OVRInput_OpenVRButton(uint64_t value__) noexcept {
   this->value__ = value__;
 }
@@ -235,7 +235,7 @@ constexpr ::GlobalNamespace::OVRInput_OpenVRButton GlobalNamespace::OVRInput_Ope
 constexpr ::GlobalNamespace::OVRInput_OpenVRButton GlobalNamespace::OVRInput_OpenVRButton::Two{ static_cast<uint64_t>(0x2u) };
 constexpr ::GlobalNamespace::OVRInput_OpenVRButton GlobalNamespace::OVRInput_OpenVRButton::Thumbstick{ static_cast<uint64_t>(0x100000000u) };
 constexpr ::GlobalNamespace::OVRInput_OpenVRButton GlobalNamespace::OVRInput_OpenVRButton::Grip{ static_cast<uint64_t>(0x4u) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_Controller::OVRInput_Controller(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -252,7 +252,7 @@ constexpr ::GlobalNamespace::OVRInput_Controller GlobalNamespace::OVRInput_Contr
 constexpr ::GlobalNamespace::OVRInput_Controller GlobalNamespace::OVRInput_Controller::RHand{ static_cast<int32_t>(0x40) };
 constexpr ::GlobalNamespace::OVRInput_Controller GlobalNamespace::OVRInput_Controller::Active{ static_cast<int32_t>(0x80000000) };
 constexpr ::GlobalNamespace::OVRInput_Controller GlobalNamespace::OVRInput_Controller::All{ static_cast<int32_t>(0xffffffff) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_Handedness::OVRInput_Handedness(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -261,7 +261,7 @@ constexpr ::GlobalNamespace::OVRInput_Handedness::OVRInput_Handedness() {}
 constexpr ::GlobalNamespace::OVRInput_Handedness GlobalNamespace::OVRInput_Handedness::Unsupported{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRInput_Handedness GlobalNamespace::OVRInput_Handedness::LeftHanded{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRInput_Handedness GlobalNamespace::OVRInput_Handedness::RightHanded{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_HapticsLocation::OVRInput_HapticsLocation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -271,7 +271,7 @@ constexpr ::GlobalNamespace::OVRInput_HapticsLocation GlobalNamespace::OVRInput_
 constexpr ::GlobalNamespace::OVRInput_HapticsLocation GlobalNamespace::OVRInput_HapticsLocation::Hand{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRInput_HapticsLocation GlobalNamespace::OVRInput_HapticsLocation::Thumb{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRInput_HapticsLocation GlobalNamespace::OVRInput_HapticsLocation::Index{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_InteractionProfile::OVRInput_InteractionProfile(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -281,7 +281,7 @@ constexpr ::GlobalNamespace::OVRInput_InteractionProfile GlobalNamespace::OVRInp
 constexpr ::GlobalNamespace::OVRInput_InteractionProfile GlobalNamespace::OVRInput_InteractionProfile::Touch{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRInput_InteractionProfile GlobalNamespace::OVRInput_InteractionProfile::TouchPro{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRInput_InteractionProfile GlobalNamespace::OVRInput_InteractionProfile::TouchPlus{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_Hand::OVRInput_Hand(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -290,7 +290,7 @@ constexpr ::GlobalNamespace::OVRInput_Hand::OVRInput_Hand() {}
 constexpr ::GlobalNamespace::OVRInput_Hand GlobalNamespace::OVRInput_Hand::None{ static_cast<int32_t>(0xffffffff) };
 constexpr ::GlobalNamespace::OVRInput_Hand GlobalNamespace::OVRInput_Hand::HandLeft{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRInput_Hand GlobalNamespace::OVRInput_Hand::HandRight{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_InputDeviceShowState::OVRInput_InputDeviceShowState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -301,7 +301,7 @@ constexpr ::GlobalNamespace::OVRInput_InputDeviceShowState GlobalNamespace::OVRI
 constexpr ::GlobalNamespace::OVRInput_InputDeviceShowState GlobalNamespace::OVRInput_InputDeviceShowState::ControllerInHand{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRInput_InputDeviceShowState GlobalNamespace::OVRInput_InputDeviceShowState::ControllerNotInHand{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRInput_InputDeviceShowState GlobalNamespace::OVRInput_InputDeviceShowState::NoHand{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_ControllerInHandState::OVRInput_ControllerInHandState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -310,8 +310,8 @@ constexpr ::GlobalNamespace::OVRInput_ControllerInHandState::OVRInput_Controller
 constexpr ::GlobalNamespace::OVRInput_ControllerInHandState GlobalNamespace::OVRInput_ControllerInHandState::NoHand{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRInput_ControllerInHandState GlobalNamespace::OVRInput_ControllerInHandState::ControllerInHand{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRInput_ControllerInHandState GlobalNamespace::OVRInput_ControllerInHandState::ControllerNotInHand{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Samples", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Duration", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Samples", ty: "::ArrayW<float_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Duration", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_HapticsAmplitudeEnvelopeVibration::OVRInput_HapticsAmplitudeEnvelopeVibration(int32_t SamplesCount, ::ArrayW<float_t> Samples, float_t Duration) noexcept {
   this->SamplesCount = SamplesCount;
   this->Samples = Samples;
@@ -319,8 +319,9 @@ constexpr ::GlobalNamespace::OVRInput_HapticsAmplitudeEnvelopeVibration::OVRInpu
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRInput_HapticsAmplitudeEnvelopeVibration::OVRInput_HapticsAmplitudeEnvelopeVibration() {}
-// Ctor Parameters [CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Samples", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "SampleRateHz", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Append", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "SamplesCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Samples", ty: "::ArrayW<float_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "SampleRateHz", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Append", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_HapticsPcmVibration::OVRInput_HapticsPcmVibration(int32_t SamplesCount, ::ArrayW<float_t> Samples, float_t SampleRateHz, bool Append) noexcept {
   this->SamplesCount = SamplesCount;
   this->Samples = Samples;
@@ -329,7 +330,7 @@ constexpr ::GlobalNamespace::OVRInput_HapticsPcmVibration::OVRInput_HapticsPcmVi
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRInput_HapticsPcmVibration::OVRInput_HapticsPcmVibration() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_OpenVRController::OVRInput_OpenVRController(uint64_t value__) noexcept {
   this->value__ = value__;
 }
@@ -339,9 +340,10 @@ constexpr ::GlobalNamespace::OVRInput_OpenVRController GlobalNamespace::OVRInput
 constexpr ::GlobalNamespace::OVRInput_OpenVRController GlobalNamespace::OVRInput_OpenVRController::OculusTouch{ static_cast<uint64_t>(0x1u) };
 constexpr ::GlobalNamespace::OVRInput_OpenVRController GlobalNamespace::OVRInput_OpenVRController::ViveController{ static_cast<uint64_t>(0x2u) };
 constexpr ::GlobalNamespace::OVRInput_OpenVRController GlobalNamespace::OVRInput_OpenVRController::WindowsMRController{ static_cast<uint64_t>(0x3u) };
-// Ctor Parameters [CppParam { name: "state", ty: "::OVR::OpenVR::VRControllerState_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "controllerType", ty:
-// "::GlobalNamespace::OVRInput_OpenVRController", modifiers: "", def_value: Some("{}") }, CppParam { name: "deviceID", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "localPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "localOrientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "state", ty: "::OVR::OpenVR::VRControllerState_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controllerType", ty:
+// "::GlobalNamespace::OVRInput_OpenVRController", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "deviceID", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "localPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localOrientation", ty: "::UnityEngine::Quaternion",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRInput_OpenVRControllerDetails::OVRInput_OpenVRControllerDetails(::OVR::OpenVR::VRControllerState_t state, ::GlobalNamespace::OVRInput_OpenVRController controllerType,
                                                                                                 uint32_t deviceID, ::UnityEngine::Vector3 localPosition,
                                                                                                 ::UnityEngine::Quaternion localOrientation) noexcept {

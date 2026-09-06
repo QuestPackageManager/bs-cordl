@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_LinkInfo.hpp"
+// IWYU pragma private; include "TMPro/TMP_LinkInfo.hpp"
 #include "TMPro/zzzz__TMP_LinkInfo_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_LinkInfo.SetLinkID
@@ -70,10 +70,11 @@ inline ::StringW TMPro::TMP_LinkInfo::GetLinkID() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_LinkInfo>(), { "GetLinkID", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "textComponent", ty: "::UnityW<::TMPro::TMP_Text>", modifiers: "", def_value: Some("{}") }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "linkTextLength", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "linkID", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "textComponent", ty: "::UnityW<::TMPro::TMP_Text>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "linkIdLength", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "linkTextLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "linkID", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::TMPro::TMP_LinkInfo::TMP_LinkInfo(::UnityW<::TMPro::TMP_Text> textComponent, int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex,
                                               int32_t linkTextLength, ::ArrayW<char16_t> linkID) noexcept {
   this->textComponent = textComponent;

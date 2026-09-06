@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\DisconnectInfo.hpp"
+// IWYU pragma private; include "LiteNetLib/DisconnectInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,8 +28,9 @@ public:
   // @brief default ctor
   constexpr DisconnectInfo();
 
-  // Ctor Parameters [CppParam { name: "Reason", ty: "::LiteNetLib::DisconnectReason", modifiers: "", def_value: None }, CppParam { name: "SocketErrorCode", ty: "::System::Net::Sockets::SocketError",
-  // modifiers: "", def_value: None }, CppParam { name: "AdditionalData", ty: "::LiteNetLib::NetPacketReader*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Reason", ty: "::LiteNetLib::DisconnectReason", modifiers: "", def_value: None, comment: None }, CppParam { name: "SocketErrorCode", ty:
+  // "::System::Net::Sockets::SocketError", modifiers: "", def_value: None, comment: None }, CppParam { name: "AdditionalData", ty: "::LiteNetLib::NetPacketReader*", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr DisconnectInfo(::LiteNetLib::DisconnectReason Reason, ::System::Net::Sockets::SocketError SocketErrorCode, ::LiteNetLib::NetPacketReader* AdditionalData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

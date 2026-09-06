@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\ResourcesData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourcesData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class ResourcesData;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData*, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "ResourcesData");
+// [DefaultMember("Item")]
 // Dependencies System.Object, Unity.Collections.NativeList`1<T>, UnityEngine.Rendering.DynamicArray`1<T>, UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.Name,
 // UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.ResourceReaderData, UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.ResourceUnversionedData,
 // UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.ResourceVersionedData
@@ -136,13 +137,13 @@ protected:
   constexpr ResourcesData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourcesData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourcesData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourcesData(ResourcesData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourcesData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourcesData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourcesData(ResourcesData const&) = delete;
+  ResourcesData(ResourcesDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12503 };

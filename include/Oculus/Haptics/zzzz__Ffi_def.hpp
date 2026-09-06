@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Haptics\Ffi.hpp"
+// IWYU pragma private; include "Oculus/Haptics/Ffi.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,7 +130,7 @@ public:
   // @brief default ctor
   constexpr Ffi_Result();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Ffi_Result(int32_t value__) noexcept;
 
   /// @brief Field ClipIdInvalid value: I32(-9)
@@ -212,8 +212,8 @@ public:
   // @brief default ctor
   constexpr Ffi_SdkVersion();
 
-  // Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "patch",
-  // ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "patch", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr Ffi_SdkVersion(uint16_t major, uint16_t minor, uint16_t patch) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -273,7 +273,7 @@ public:
   // @brief default ctor
   constexpr Ffi_Controller();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Ffi_Controller(int32_t value__) noexcept;
 
   /// @brief Field Both value: I32(2)
@@ -334,7 +334,7 @@ public:
   // @brief default ctor
   constexpr Ffi_LogLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Ffi_LogLevel(int32_t value__) noexcept;
 
   /// @brief Field Debug value: I32(1)
@@ -396,13 +396,13 @@ protected:
   constexpr Ffi_LogCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ffi_LogCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ffi_LogCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ffi_LogCallback(Ffi_LogCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ffi_LogCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ffi_LogCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ffi_LogCallback(Ffi_LogCallback const&) = delete;
+  Ffi_LogCallback(Ffi_LogCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22798 };
@@ -441,13 +441,13 @@ protected:
   constexpr Ffi_HapticsSdkPlayCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ffi_HapticsSdkPlayCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ffi_HapticsSdkPlayCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ffi_HapticsSdkPlayCallback(Ffi_HapticsSdkPlayCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ffi_HapticsSdkPlayCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ffi_HapticsSdkPlayCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ffi_HapticsSdkPlayCallback(Ffi_HapticsSdkPlayCallback const&) = delete;
+  Ffi_HapticsSdkPlayCallback(Ffi_HapticsSdkPlayCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22799 };
@@ -469,7 +469,8 @@ public:
   // @brief default ctor
   constexpr Ffi_NullBackendStatistics();
 
-  // Ctor Parameters [CppParam { name: "stream_count", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "play_call_count", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "stream_count", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "play_call_count", ty: "int64_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr Ffi_NullBackendStatistics(int64_t stream_count, int64_t play_call_count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -544,9 +545,11 @@ public:
   /// @brief Method haptics_sdk_error_message_length, addr 0x5db30a0, size 0x64, virtual false, abstract: false, final false
   static inline int32_t haptics_sdk_error_message_length();
 
+  /// [NullableContext(2)]
   /// @brief Method initialize_logging, addr 0x5db2eac, size 0x80, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result initialize_logging(::Oculus::Haptics::Ffi_LogCallback* logCallback);
 
+  /// [NullableContext(2)]
   /// @brief Method initialize_with_callback_backend, addr 0x5db1adc, size 0x8c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result initialize_with_callback_backend(::System::IntPtr context, ::Oculus::Haptics::Ffi_HapticsSdkPlayCallback* playCallback);
 
@@ -632,13 +635,13 @@ protected:
   constexpr Ffi();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ffi", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ffi", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ffi(Ffi&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ffi", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ffi", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ffi(Ffi const&) = delete;
+  Ffi(Fficonst&) = delete;
 
   /// @brief Field InvalidId offset 0xffffffff size 0x4
   static constexpr int32_t InvalidId{ static_cast<int32_t>(0xffffffff) };

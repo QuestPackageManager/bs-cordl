@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\HID\HIDSupport.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/HID/HIDSupport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,8 +50,8 @@ public:
   // @brief default ctor
   constexpr HIDSupport_HIDPageUsage();
 
-  // Ctor Parameters [CppParam { name: "page", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "page", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: None, comment: None }, CppParam { name: "usage", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HIDSupport_HIDPageUsage(::UnityEngine::InputSystem::HID::HID_UsagePage page, int32_t usage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -107,13 +107,13 @@ protected:
   constexpr HIDSupport();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HIDSupport", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HIDSupport", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HIDSupport(HIDSupport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HIDSupport", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HIDSupport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HIDSupport(HIDSupport const&) = delete;
+  HIDSupport(HIDSupportconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8905 };

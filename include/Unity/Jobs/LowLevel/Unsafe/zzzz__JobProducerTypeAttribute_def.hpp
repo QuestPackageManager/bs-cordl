@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\LowLevel\Unsafe\JobProducerTypeAttribute.hpp"
+// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/JobProducerTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class JobProducerTypeAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute*, "Unity.Jobs.LowLevel.Unsafe", "JobProducerTypeAttribute");
+// [AttributeUsage((System.AttributeTargets)1024)]
 // Dependencies System.Attribute
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: false
@@ -42,17 +43,19 @@ protected:
   constexpr JobProducerTypeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobProducerTypeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobProducerTypeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JobProducerTypeAttribute(JobProducerTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobProducerTypeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobProducerTypeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobProducerTypeAttribute(JobProducerTypeAttribute const&) = delete;
+  JobProducerTypeAttribute(JobProducerTypeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9930 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ProducerType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____ProducerType_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifierParamsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierParamsSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"

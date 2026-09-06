@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\DateTimeFormatFlags.hpp"
+// IWYU pragma private; include "System/Globalization/DateTimeFormatFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DateTimeFormatFlags;
 // Write type traits
 MARK_VAL_T(::System::Globalization::DateTimeFormatFlags);
 DEFINE_IL2CPP_CLASS(::System::Globalization::DateTimeFormatFlags, "System.Globalization", "DateTimeFormatFlags");
+// [Flags]
 // Dependencies
 namespace System::Globalization {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr DateTimeFormatFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DateTimeFormatFlags(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)

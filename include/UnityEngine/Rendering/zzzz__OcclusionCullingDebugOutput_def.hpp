@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingDebugOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingDebugOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,8 +30,9 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingDebugOutput();
 
-  // Ctor Parameters [CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None }, CppParam { name: "occlusionDebugOverlay", ty:
-  // "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None }, CppParam { name: "cb", ty: "::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionDebugOverlay", ty:
+  // "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cb", ty: "::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr OcclusionCullingDebugOutput(::UnityEngine::Rendering::RTHandle* occluderDepthPyramid, ::UnityEngine::GraphicsBuffer* occlusionDebugOverlay,
                                         ::UnityEngine::Rendering::OcclusionCullingDebugShaderVariables cb) noexcept;
 

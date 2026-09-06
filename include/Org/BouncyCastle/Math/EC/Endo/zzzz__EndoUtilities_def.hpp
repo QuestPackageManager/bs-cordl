@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Endo\EndoUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/EndoUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,13 +93,13 @@ protected:
   constexpr EndoUtilities_MapPointCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EndoUtilities_MapPointCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EndoUtilities_MapPointCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EndoUtilities_MapPointCallback(EndoUtilities_MapPointCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EndoUtilities_MapPointCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EndoUtilities_MapPointCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EndoUtilities_MapPointCallback(EndoUtilities_MapPointCallback const&) = delete;
+  EndoUtilities_MapPointCallback(EndoUtilities_MapPointCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1518 };
@@ -156,13 +156,13 @@ protected:
   constexpr EndoUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EndoUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EndoUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EndoUtilities(EndoUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EndoUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EndoUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EndoUtilities(EndoUtilities const&) = delete;
+  EndoUtilities(EndoUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1519 };

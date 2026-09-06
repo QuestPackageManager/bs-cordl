@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXOutputEventArgs.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXOutputEventArgs.hpp"
 #include "UnityEngine/VFX/zzzz__VFXOutputEventArgs_def.hpp"
 #include "UnityEngine/VFX/zzzz__VFXEventAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::VFX::VFXOutputEventArgs.get_nameId
@@ -54,8 +54,8 @@ inline void UnityEngine::VFX::VFXOutputEventArgs::_ctor(int32_t nameId, ::UnityE
                                                                                          { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::VFX::VFXEventAttribute*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, nameId, eventAttribute);
 }
-// Ctor Parameters [CppParam { name: "_nameId_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_eventAttribute_k__BackingField", ty:
-// "::UnityEngine::VFX::VFXEventAttribute*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_nameId_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_eventAttribute_k__BackingField", ty:
+// "::UnityEngine::VFX::VFXEventAttribute*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::VFXOutputEventArgs::VFXOutputEventArgs(int32_t _nameId_k__BackingField, ::UnityEngine::VFX::VFXEventAttribute* _eventAttribute_k__BackingField) noexcept {
   this->_nameId_k__BackingField = _nameId_k__BackingField;
   this->_eventAttribute_k__BackingField = _eventAttribute_k__BackingField;

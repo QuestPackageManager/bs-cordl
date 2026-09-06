@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ConstantForce.hpp"
+// IWYU pragma private; include "UnityEngine/ConstantForce.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class ConstantForce;
 // Write type traits
 MARK_REF_T(::UnityEngine::ConstantForce*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ConstantForce*, "UnityEngine", "ConstantForce");
+// [NativeHeader("Modules/Physics/ConstantForce.h")]
+// [RequireComponent(typeof(UnityEngine.Rigidbody))]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -92,13 +94,13 @@ protected:
   constexpr ConstantForce();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConstantForce", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstantForce", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConstantForce(ConstantForce&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConstantForce", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstantForce", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConstantForce(ConstantForce const&) = delete;
+  ConstantForce(ConstantForceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18642 };

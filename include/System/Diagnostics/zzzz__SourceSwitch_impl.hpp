@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\SourceSwitch.hpp"
+// IWYU pragma private; include "System/Diagnostics/SourceSwitch.hpp"
 #include "System/Diagnostics/zzzz__Switch_impl.hpp"
 #include "System/Diagnostics/zzzz__SourceSwitch_def.hpp"
 #include "System/Diagnostics/zzzz__SourceLevels_def.hpp"

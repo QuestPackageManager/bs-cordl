@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\NonPositiveIntegerDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/NonPositiveIntegerDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ protected:
   constexpr NonPositiveIntegerDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NonPositiveIntegerDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NonPositiveIntegerDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NonPositiveIntegerDataContract(NonPositiveIntegerDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NonPositiveIntegerDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NonPositiveIntegerDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NonPositiveIntegerDataContract(NonPositiveIntegerDataContract const&) = delete;
+  NonPositiveIntegerDataContract(NonPositiveIntegerDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17075 };

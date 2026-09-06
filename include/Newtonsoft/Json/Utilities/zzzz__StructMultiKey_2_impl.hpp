@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\StructMultiKey_2.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StructMultiKey_2.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StructMultiKey_2_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -18,7 +18,8 @@ template <typename T1, typename T2> inline bool Newtonsoft::Json::Utilities::Str
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
 }
-template <typename T1, typename T2> inline bool Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>::Equals(::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2> other) {
+template <typename T1, typename T2>
+inline bool Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>::Equals(/* [Nullable(new[] { 0, 1, 1 })] */ ::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>>(),
                                                                                          { "Equals", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
@@ -33,7 +34,8 @@ constexpr ::System::IEquatable_1<::Newtonsoft::Json::Utilities::StructMultiKey_2
 Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>::i___System__IEquatable_1___Newtonsoft__Json__Utilities__StructMultiKey_2_T1_T2__() {
   return static_cast<::System::IEquatable_1<::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Value1", ty: "T1", modifiers: "", def_value: Some("{}") }, CppParam { name: "Value2", ty: "T2", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Value1", ty: "T1", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Value2", ty: "T2", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 template <typename T1, typename T2> constexpr ::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>::StructMultiKey_2(T1 Value1, T2 Value2) noexcept {
   this->Value1 = Value1;
   this->Value2 = Value2;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FrameTimeSample.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FrameTimeSample.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,9 +27,10 @@ public:
   // @brief default ctor
   constexpr FrameTimeSample();
 
-  // Ctor Parameters [CppParam { name: "FramesPerSecond", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "FullFrameTime", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "MainThreadCPUFrameTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "MainThreadCPUPresentWaitTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "RenderThreadCPUFrameTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "GPUFrameTime", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FramesPerSecond", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "FullFrameTime", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "MainThreadCPUFrameTime", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "MainThreadCPUPresentWaitTime", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "RenderThreadCPUFrameTime", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "GPUFrameTime", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr FrameTimeSample(float_t FramesPerSecond, float_t FullFrameTime, float_t MainThreadCPUFrameTime, float_t MainThreadCPUPresentWaitTime, float_t RenderThreadCPUFrameTime,
                             float_t GPUFrameTime) noexcept;
 

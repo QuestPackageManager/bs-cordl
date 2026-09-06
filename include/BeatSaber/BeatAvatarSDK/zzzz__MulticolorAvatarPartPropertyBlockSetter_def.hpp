@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\MulticolorAvatarPartPropertyBlockSetter.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/MulticolorAvatarPartPropertyBlockSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,23 +106,26 @@ protected:
   constexpr MulticolorAvatarPartPropertyBlockSetter_ColorData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter_ColorData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter_ColorData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MulticolorAvatarPartPropertyBlockSetter_ColorData(MulticolorAvatarPartPropertyBlockSetter_ColorData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter_ColorData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter_ColorData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulticolorAvatarPartPropertyBlockSetter_ColorData(MulticolorAvatarPartPropertyBlockSetter_ColorData const&) = delete;
+  MulticolorAvatarPartPropertyBlockSetter_ColorData(MulticolorAvatarPartPropertyBlockSetter_ColorDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22347 };
 
+  /// [SerializeField]
   /// @brief Field _defaultColor, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ____defaultColor;
 
+  /// [SerializeField]
   /// @brief Field _darkerColorMultiplier, offset: 0x20, size: 0x4, def value: None
   float_t ____darkerColorMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _whiteBoost, offset: 0x24, size: 0x4, def value: None
   float_t ____whiteBoost;
 
@@ -138,6 +141,7 @@ static_assert(offsetof(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyB
 static_assert(sizeof(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData) == 0x28, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
@@ -174,13 +178,13 @@ protected:
   constexpr MulticolorAvatarPartPropertyBlockSetter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MulticolorAvatarPartPropertyBlockSetter___c(MulticolorAvatarPartPropertyBlockSetter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulticolorAvatarPartPropertyBlockSetter___c(MulticolorAvatarPartPropertyBlockSetter___c const&) = delete;
+  MulticolorAvatarPartPropertyBlockSetter___c(MulticolorAvatarPartPropertyBlockSetter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22348 };
@@ -236,7 +240,7 @@ public:
   inline void OnValidate();
 
   /// @brief Method SetColors, addr 0x327deb8, size 0x208, virtual false, abstract: false, final false
-  inline void SetColors(::ArrayW<::UnityEngine::Color> colors);
+  inline void SetColors(/* [ParamArray] */ ::ArrayW<::UnityEngine::Color> colors);
 
   /// @brief Method SetHighlight, addr 0x327e1e0, size 0xc, virtual false, abstract: false, final false
   inline void SetHighlight(bool highlighted, int32_t uvSegment);
@@ -305,23 +309,28 @@ protected:
   constexpr MulticolorAvatarPartPropertyBlockSetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MulticolorAvatarPartPropertyBlockSetter(MulticolorAvatarPartPropertyBlockSetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulticolorAvatarPartPropertyBlockSetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulticolorAvatarPartPropertyBlockSetter(MulticolorAvatarPartPropertyBlockSetter const&) = delete;
+  MulticolorAvatarPartPropertyBlockSetter(MulticolorAvatarPartPropertyBlockSetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22349 };
 
+  /// [SerializeField]
   /// @brief Field _colorDataList, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*> ____colorDataList;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _renderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _editInPlayMode, offset: 0x30, size: 0x1, def value: None
   bool ____editInPlayMode;
 

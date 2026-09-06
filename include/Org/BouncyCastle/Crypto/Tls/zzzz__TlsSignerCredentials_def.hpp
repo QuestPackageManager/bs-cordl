@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsSignerCredentials.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsSignerCredentials.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,18 +31,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept;
 
-  /// @brief Method GenerateCertificateSignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GenerateCertificateSignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> GenerateCertificateSignature(::ArrayW<uint8_t> hash);
 
-  /// @brief Method get_SignatureAndHashAlgorithm, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureAndHashAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_SignatureAndHashAlgorithm();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* i___Org__BouncyCastle__Crypto__Tls__TlsCredentials() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsSignerCredentials", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsSignerCredentials", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsSignerCredentials(TlsSignerCredentials const&) = delete;
+  TlsSignerCredentials(TlsSignerCredentialsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1176 };

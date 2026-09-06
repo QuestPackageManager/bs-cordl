@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\FastAction.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FastAction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FastAction_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

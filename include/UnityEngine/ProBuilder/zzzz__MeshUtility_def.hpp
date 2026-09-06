@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -59,6 +60,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshUtility*);
 MARK_REF_T(::UnityEngine::ProBuilder::MeshUtility___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshUtility*, "UnityEngine.ProBuilder", "MeshUtility");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshUtility___c*, "UnityEngine.ProBuilder", "MeshUtility/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -99,13 +101,13 @@ protected:
   constexpr MeshUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshUtility___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshUtility___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshUtility___c(MeshUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshUtility___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshUtility___c(MeshUtility___c const&) = delete;
+  MeshUtility___c(MeshUtility___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16754 };
@@ -116,7 +118,8 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshUtility___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Collections.IList, System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: UnityEngine.ProBuilder.MeshUtility
@@ -146,6 +149,7 @@ public:
   /// @brief Method GenerateTangent, addr 0x66cc718, size 0x560, virtual false, abstract: false, final false
   static inline void GenerateTangent(::UnityEngine::Mesh* mesh);
 
+  /// [Extension]
   /// @brief Method GetBounds, addr 0x66cffa4, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Bounds GetBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
@@ -153,11 +157,14 @@ public:
   static inline uint32_t GetIndexCount(::UnityEngine::Mesh* mesh);
 
   /// @brief Method GetMeshChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityW<::UnityEngine::Mesh>, T>* attributeGetter);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Collections::IList*>)
+  static inline T GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityW<::UnityEngine::Mesh>, T>* attributeGetter);
 
   /// @brief Method GetPrimitiveCount, addr 0x66cdfd4, size 0x118, virtual false, abstract: false, final false
   static inline uint32_t GetPrimitiveCount(::UnityEngine::Mesh* mesh);
 
+  /// [Extension]
   /// @brief Method GetVertices, addr 0x66cc1a8, size 0x570, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*> GetVertices(::UnityEngine::Mesh* mesh);
 
@@ -188,13 +195,13 @@ protected:
   constexpr MeshUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshUtility(MeshUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshUtility(MeshUtility const&) = delete;
+  MeshUtility(MeshUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16755 };

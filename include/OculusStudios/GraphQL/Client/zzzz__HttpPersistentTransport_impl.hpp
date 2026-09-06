@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\HttpPersistentTransport.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/HttpPersistentTransport.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
@@ -305,12 +305,13 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "graphQLRequest",
-// ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::HttpPersistentTransport*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "MinimalMainThreadExecutor", ty: "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_responseStream_5__2", ty: "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "graphQLRequest", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OculusStudios::GraphQL::Client::HttpPersistentTransport*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MinimalMainThreadExecutor", ty:
+// "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_responseStream_5__2", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ExecuteAsync_d__15::HttpPersistentTransport__ExecuteAsync_d__15(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
     ::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest, ::OculusStudios::GraphQL::Client::HttpPersistentTransport* __4__this,
@@ -373,22 +374,24 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "responseStream", ty:
-// "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "liveQuery", ty: "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::HttpPersistentTransport*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__8__1", ty: "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__2", ty:
-// "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*", modifiers: "", def_value: Some("{}") }, CppParam { name: "MinimalMainThreadExecutor", ty:
-// "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_buf_5__2", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_total_len_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_b_5__4", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "__7__wrap4", ty: "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_stopWatch_5__6", ty: "::System::Diagnostics::Stopwatch*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_response_5__7", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_latency_5__8", ty: "::System::TimeSpan",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_body_5__9", ty: "::System::IO::Stream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::IO::Stream*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap9", ty:
-// "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__4", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "responseStream", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "liveQuery", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OculusStudios::GraphQL::Client::HttpPersistentTransport*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
+// "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__2", ty:
+// "::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass17_1*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MinimalMainThreadExecutor", ty:
+// "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_buf_5__2", ty: "::ArrayW<char16_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_total_len_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_b_5__4", ty:
+// "::System::Text::StringBuilder*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap4", ty: "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "_stopWatch_5__6", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_response_5__7", ty:
+// "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_latency_5__8", ty:
+// "::System::TimeSpan", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_body_5__9", ty: "::System::IO::Stream*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::IO::Stream*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap9", ty:
+// "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__4", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport__ReadFromStream_d__17::HttpPersistentTransport__ReadFromStream_d__17(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::GraphQLResponseStream* responseStream,
     ::OculusStudios::GraphQL::Client::GraphQLLiveQuery* liveQuery, ::OculusStudios::GraphQL::Client::HttpPersistentTransport* __4__this,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Numerics\DoubleUlong.hpp"
+// IWYU pragma private; include "System/Numerics/DoubleUlong.hpp"
 #include "System/Numerics/zzzz__DoubleUlong_def.hpp"
 constexpr double_t& System::Numerics::DoubleUlong::__cordl_internal_get_dbl() {
   return this->___dbl;
@@ -19,7 +19,8 @@ constexpr uint64_t const& System::Numerics::DoubleUlong::__cordl_internal_get_uu
 constexpr void System::Numerics::DoubleUlong::__cordl_internal_set_uu(uint64_t value) {
   this->___uu = value;
 }
-// Ctor Parameters [CppParam { name: "dbl", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uu", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "dbl", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uu", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::System::Numerics::DoubleUlong::DoubleUlong(double_t dbl, uint64_t uu) noexcept {
   this->dbl = dbl;
   this->uu = uu;

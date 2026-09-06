@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\EmptyGameObjectProvider.hpp"
+// IWYU pragma private; include "Zenject/EmptyGameObjectProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ class EmptyGameObjectProvider;
 // Write type traits
 MARK_REF_T(::Zenject::EmptyGameObjectProvider*);
 DEFINE_IL2CPP_CLASS(::Zenject::EmptyGameObjectProvider*, "Zenject", "EmptyGameObjectProvider");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -98,13 +99,13 @@ protected:
   constexpr EmptyGameObjectProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EmptyGameObjectProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EmptyGameObjectProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EmptyGameObjectProvider(EmptyGameObjectProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EmptyGameObjectProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EmptyGameObjectProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EmptyGameObjectProvider(EmptyGameObjectProvider const&) = delete;
+  EmptyGameObjectProvider(EmptyGameObjectProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14545 };

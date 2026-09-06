@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerModeSelectionViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerModeSelectionViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerModeSelectionViewController_MenuButton();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerModeSelectionViewController_MenuButton(int32_t value__) noexcept;
 
   /// @brief Field CreateServer value: I32(1)
@@ -147,15 +147,19 @@ public:
   /// @brief Method SetData, addr 0x5963088, size 0x2b0, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__12_0, addr 0x5963364, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__12_1, addr 0x5963388, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__12_2, addr 0x59633ac, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__12_3, addr 0x59633d0, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_3();
 
@@ -213,9 +217,11 @@ public:
   /// @brief Method .ctor, addr 0x5963360, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5962b80, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5962c40, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
@@ -226,13 +232,13 @@ protected:
   constexpr MultiplayerModeSelectionViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerModeSelectionViewController(MultiplayerModeSelectionViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerModeSelectionViewController(MultiplayerModeSelectionViewController const&) = delete;
+  MultiplayerModeSelectionViewController(MultiplayerModeSelectionViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6980 };
@@ -240,27 +246,36 @@ public:
   /// @brief Field kLabelMultiplayerMaintenanceUpcomingLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kLabelMultiplayerMaintenanceUpcomingLocalizationKey{ u"LABEL_MULTIPLAYER_MAINTENANCE_UPCOMING" };
 
+  /// [SerializeField]
   /// @brief Field _quickPlayButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____quickPlayButton;
 
+  /// [SerializeField]
   /// @brief Field _gameBrowserButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____gameBrowserButton;
 
+  /// [SerializeField]
   /// @brief Field _joinWithCodeButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____joinWithCodeButton;
 
+  /// [SerializeField]
   /// @brief Field _createServerButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____createServerButton;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _maintenanceMessageText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____maintenanceMessageText;
 
+  /// [SerializeField]
   /// @brief Field _customServerEndPointText, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____customServerEndPointText;
 
+  /// [Inject]
   /// @brief Field _networkConfig, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* ___didFinishEvent;
 

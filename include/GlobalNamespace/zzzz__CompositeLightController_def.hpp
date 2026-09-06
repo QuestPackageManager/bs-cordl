@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeLightController.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeLightController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,6 +111,7 @@ MARK_REF_T(::GlobalNamespace::CompositeLightController___c__DisplayClass22_1*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CompositeLightController*, "", "CompositeLightController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CompositeLightController___c__DisplayClass22_0*, "", "CompositeLightController/<>c__DisplayClass22_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CompositeLightController___c__DisplayClass22_1*, "", "CompositeLightController/<>c__DisplayClass22_1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -138,13 +139,13 @@ protected:
   constexpr CompositeLightController___c__DisplayClass22_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController___c__DisplayClass22_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeLightController___c__DisplayClass22_0(CompositeLightController___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController___c__DisplayClass22_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeLightController___c__DisplayClass22_0(CompositeLightController___c__DisplayClass22_0 const&) = delete;
+  CompositeLightController___c__DisplayClass22_0(CompositeLightController___c__DisplayClass22_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5823 };
@@ -160,6 +161,7 @@ static_assert(offsetof(::GlobalNamespace::CompositeLightController___c__DisplayC
 static_assert(sizeof(::GlobalNamespace::CompositeLightController___c__DisplayClass22_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies FloatFxGroupEffectTarget, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -208,13 +210,13 @@ protected:
   constexpr CompositeLightController___c__DisplayClass22_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController___c__DisplayClass22_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController___c__DisplayClass22_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeLightController___c__DisplayClass22_1(CompositeLightController___c__DisplayClass22_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController___c__DisplayClass22_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController___c__DisplayClass22_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeLightController___c__DisplayClass22_1(CompositeLightController___c__DisplayClass22_1 const&) = delete;
+  CompositeLightController___c__DisplayClass22_1(CompositeLightController___c__DisplayClass22_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5824 };
@@ -240,6 +242,7 @@ static_assert(offsetof(::GlobalNamespace::CompositeLightController___c__DisplayC
 static_assert(sizeof(::GlobalNamespace::CompositeLightController___c__DisplayClass22_1) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [RequireComponent(typeof(CompositeColorGroup))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -310,6 +313,8 @@ public:
   /// @brief Method HandleTranslationChangeBeatmapEvent, addr 0x5991f60, size 0x15c, virtual false, abstract: false, final false
   inline void HandleTranslationChangeBeatmapEvent(::GlobalNamespace::LightTranslationBeatmapEventData* data);
 
+  /// [Inject]
+  /// [UsedImplicitly]
   /// @brief Method Initialize, addr 0x598dbd8, size 0x770, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::ColorManager* colorManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                          ::GlobalNamespace::LightWithIdManager* lightManager, ::GlobalNamespace::IBpmController* bpmController);
@@ -448,20 +453,22 @@ protected:
   constexpr CompositeLightController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeLightController(CompositeLightController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLightController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeLightController(CompositeLightController const&) = delete;
+  CompositeLightController(CompositeLightControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5825 };
 
+  /// [SerializeField]
   /// @brief Field _sets, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::CompositeLightControllerSet*>* ____sets;
 
+  /// [SerializeReference]
   /// @brief Field _layout, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::CompositeLayoutBase* ____layout;
 

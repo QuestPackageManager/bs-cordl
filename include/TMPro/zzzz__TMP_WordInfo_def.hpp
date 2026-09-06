@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_WordInfo.hpp"
+// IWYU pragma private; include "TMPro/TMP_WordInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,8 +31,9 @@ public:
   // @brief default ctor
   constexpr TMP_WordInfo();
 
-  // Ctor Parameters [CppParam { name: "textComponent", ty: "::UnityW<::TMPro::TMP_Text>", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "textComponent", ty: "::UnityW<::TMPro::TMP_Text>", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "characterCount", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_WordInfo(::UnityW<::TMPro::TMP_Text> textComponent, int32_t firstCharacterIndex, int32_t lastCharacterIndex, int32_t characterCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ComputeShader.hpp"
+// IWYU pragma private; include "UnityEngine/ComputeShader.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -1654,13 +1654,13 @@ inline void UnityEngine::ComputeShader::SetMatrixArray(int32_t nameID, ::ArrayW<
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "SetMatrixArray", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nameID, values);
 }
-inline void UnityEngine::ComputeShader::SetTexture(int32_t kernelIndex, int32_t nameID, ::UnityEngine::Texture* texture, int32_t mipLevel) {
+inline void UnityEngine::ComputeShader::SetTexture(int32_t kernelIndex, int32_t nameID, /* [NotNull] */ ::UnityEngine::Texture* texture, int32_t mipLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
                                               { "SetTexture", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Texture*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, kernelIndex, nameID, texture, mipLevel);
 }
-inline void UnityEngine::ComputeShader::SetRenderTexture(int32_t kernelIndex, int32_t nameID, ::UnityEngine::RenderTexture* texture, int32_t mipLevel,
+inline void UnityEngine::ComputeShader::SetRenderTexture(int32_t kernelIndex, int32_t nameID, /* [NotNull] */ ::UnityEngine::RenderTexture* texture, int32_t mipLevel,
                                                          ::UnityEngine::Rendering::RenderTextureSubElement element) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -1676,20 +1676,20 @@ inline void UnityEngine::ComputeShader::SetTextureFromGlobal(int32_t kernelIndex
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "SetTextureFromGlobal", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, kernelIndex, nameID, globalTextureNameID);
 }
-inline void UnityEngine::ComputeShader::Internal_SetBuffer(int32_t kernelIndex, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer) {
+inline void UnityEngine::ComputeShader::Internal_SetBuffer(int32_t kernelIndex, int32_t nameID, /* [NotNull] */ ::UnityEngine::ComputeBuffer* buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
                                                            { "Internal_SetBuffer", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::ComputeBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, kernelIndex, nameID, buffer);
 }
-inline void UnityEngine::ComputeShader::Internal_SetGraphicsBuffer(int32_t kernelIndex, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer) {
+inline void UnityEngine::ComputeShader::Internal_SetGraphicsBuffer(int32_t kernelIndex, int32_t nameID, /* [NotNull] */ ::UnityEngine::GraphicsBuffer* buffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
                                               { "Internal_SetGraphicsBuffer", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, kernelIndex, nameID, buffer);
 }
 inline void UnityEngine::ComputeShader::Internal_SetRayTracingAccelerationStructure(int32_t kernelIndex, int32_t nameID,
-                                                                                    ::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure) {
+                                                                                    /* [NotNull] */ ::UnityEngine::Rendering::RayTracingAccelerationStructure* accelerationStructure) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
                                               { "Internal_SetRayTracingAccelerationStructure",
@@ -1717,14 +1717,14 @@ inline void UnityEngine::ComputeShader::SetBuffer(int32_t kernelIndex, int32_t n
                                                            { "SetBuffer", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, kernelIndex, nameID, buffer);
 }
-inline void UnityEngine::ComputeShader::SetConstantComputeBuffer(int32_t nameID, ::UnityEngine::ComputeBuffer* buffer, int32_t offset, int32_t size) {
+inline void UnityEngine::ComputeShader::SetConstantComputeBuffer(int32_t nameID, /* [NotNull] */ ::UnityEngine::ComputeBuffer* buffer, int32_t offset, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
                           { "SetConstantComputeBuffer", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::ComputeBuffer*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nameID, buffer, offset, size);
 }
-inline void UnityEngine::ComputeShader::SetConstantGraphicsBuffer(int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer, int32_t offset, int32_t size) {
+inline void UnityEngine::ComputeShader::SetConstantGraphicsBuffer(int32_t nameID, /* [NotNull] */ ::UnityEngine::GraphicsBuffer* buffer, int32_t offset, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
@@ -1745,13 +1745,13 @@ inline void UnityEngine::ComputeShader::Dispatch(int32_t kernelIndex, int32_t th
                                                            { "Dispatch", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, kernelIndex, threadGroupsX, threadGroupsY, threadGroupsZ);
 }
-inline void UnityEngine::ComputeShader::Internal_DispatchIndirect(int32_t kernelIndex, ::UnityEngine::ComputeBuffer* argsBuffer, uint32_t argsOffset) {
+inline void UnityEngine::ComputeShader::Internal_DispatchIndirect(int32_t kernelIndex, /* [NotNull] */ ::UnityEngine::ComputeBuffer* argsBuffer, uint32_t argsOffset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
                                               { "Internal_DispatchIndirect", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::ComputeBuffer*>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, kernelIndex, argsBuffer, argsOffset);
 }
-inline void UnityEngine::ComputeShader::Internal_DispatchIndirectGraphicsBuffer(int32_t kernelIndex, ::UnityEngine::GraphicsBuffer* argsBuffer, uint32_t argsOffset) {
+inline void UnityEngine::ComputeShader::Internal_DispatchIndirectGraphicsBuffer(int32_t kernelIndex, /* [NotNull] */ ::UnityEngine::GraphicsBuffer* argsBuffer, uint32_t argsOffset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
@@ -1796,23 +1796,23 @@ inline bool UnityEngine::ComputeShader::IsLocalKeywordEnabled(::UnityEngine::Ren
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "IsLocalKeywordEnabled", {}, { ::i2c::type_of<::UnityEngine::Rendering::LocalKeyword>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::ComputeShader::EnableKeyword(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::ComputeShader::EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "EnableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::ComputeShader::DisableKeyword(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::ComputeShader::DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "DisableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::ComputeShader::SetKeyword(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+inline void UnityEngine::ComputeShader::SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "SetKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword, value);
 }
-inline bool UnityEngine::ComputeShader::IsKeywordEnabled(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline bool UnityEngine::ComputeShader::IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "IsKeywordEnabled", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, keyword);
@@ -1894,22 +1894,22 @@ inline void UnityEngine::ComputeShader::SetMatrixArray(::StringW name, ::ArrayW<
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "SetMatrixArray", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, values);
 }
-inline void UnityEngine::ComputeShader::SetFloats(::StringW name, ::ArrayW<float_t> values) {
+inline void UnityEngine::ComputeShader::SetFloats(::StringW name, /* [ParamArray] */ ::ArrayW<float_t> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "SetFloats", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, values);
 }
-inline void UnityEngine::ComputeShader::SetFloats(int32_t nameID, ::ArrayW<float_t> values) {
+inline void UnityEngine::ComputeShader::SetFloats(int32_t nameID, /* [ParamArray] */ ::ArrayW<float_t> values) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "SetFloats", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nameID, values);
 }
-inline void UnityEngine::ComputeShader::SetInts(::StringW name, ::ArrayW<int32_t> values) {
+inline void UnityEngine::ComputeShader::SetInts(::StringW name, /* [ParamArray] */ ::ArrayW<int32_t> values) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "SetInts", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, values);
 }
-inline void UnityEngine::ComputeShader::SetInts(int32_t nameID, ::ArrayW<int32_t> values) {
+inline void UnityEngine::ComputeShader::SetInts(int32_t nameID, /* [ParamArray] */ ::ArrayW<int32_t> values) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "SetInts", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, nameID, values);
@@ -2016,7 +2016,7 @@ inline void UnityEngine::ComputeShader::SetConstantBuffer(::StringW name, ::Unit
                           { "SetConstantBuffer", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name, buffer, offset, size);
 }
-inline void UnityEngine::ComputeShader::DispatchIndirect(int32_t kernelIndex, ::UnityEngine::ComputeBuffer* argsBuffer, uint32_t argsOffset) {
+inline void UnityEngine::ComputeShader::DispatchIndirect(int32_t kernelIndex, ::UnityEngine::ComputeBuffer* argsBuffer, /* [DefaultValue("0")] */ uint32_t argsOffset) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
                                                            { "DispatchIndirect", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::ComputeBuffer*>(), ::i2c::type_of<uint32_t>() } })));
@@ -2028,7 +2028,7 @@ inline void UnityEngine::ComputeShader::DispatchIndirect(int32_t kernelIndex, ::
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(), { "DispatchIndirect", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::ComputeBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, kernelIndex, argsBuffer);
 }
-inline void UnityEngine::ComputeShader::DispatchIndirect(int32_t kernelIndex, ::UnityEngine::GraphicsBuffer* argsBuffer, uint32_t argsOffset) {
+inline void UnityEngine::ComputeShader::DispatchIndirect(int32_t kernelIndex, ::UnityEngine::GraphicsBuffer* argsBuffer, /* [DefaultValue("0")] */ uint32_t argsOffset) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeShader*>(),
                                                            { "DispatchIndirect", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::GraphicsBuffer*>(), ::i2c::type_of<uint32_t>() } })));

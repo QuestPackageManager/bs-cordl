@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\AssetImportAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/AssetImportAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ class AssetImportAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::AssetImportAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::AssetImportAnalytic*, "UnityEditor.Analytics", "AssetImportAnalytic");
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -27,6 +29,7 @@ public:
   /// @brief Field package_name, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_package_name, put = __cordl_internal_set_package_name)) ::StringW package_name;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateAssetImportAnalytic, addr 0x6e25c68, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::AssetImportAnalytic* CreateAssetImportAnalytic();
 
@@ -53,13 +56,13 @@ protected:
   constexpr AssetImportAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetImportAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetImportAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetImportAnalytic(AssetImportAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetImportAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetImportAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetImportAnalytic(AssetImportAnalytic const&) = delete;
+  AssetImportAnalytic(AssetImportAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23018 };

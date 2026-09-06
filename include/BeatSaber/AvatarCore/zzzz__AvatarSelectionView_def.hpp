@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarSelectionView.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarSelectionView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,12 +93,15 @@ public:
   /// @brief Method Start, addr 0x326bfa4, size 0x1a8, virtual true, abstract: false, final false
   inline void Start();
 
+  /// [CompilerGenerated]
   /// @brief Method <Start>b__20_0, addr 0x326c2d4, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__20_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <Start>b__20_1, addr 0x326c2f0, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__20_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <Start>b__20_2, addr 0x326c30c, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__20_2();
 
@@ -177,24 +180,30 @@ public:
   /// @brief Method .ctor, addr 0x326c278, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressCreateButtonEvent, addr 0x326bcec, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressCreateButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressEditButtonEvent, addr 0x326bb94, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressEditButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressPreferredButtonEvent, addr 0x326be44, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressPreferredButtonEvent(::System::Action* value);
 
   /// @brief Method get_rectTransform, addr 0x326bf9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressCreateButtonEvent, addr 0x326bd98, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressCreateButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressEditButtonEvent, addr 0x326bc40, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressEditButtonEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressPreferredButtonEvent, addr 0x326bef0, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressPreferredButtonEvent(::System::Action* value);
 
@@ -204,47 +213,59 @@ protected:
   constexpr AvatarSelectionView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSelectionView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSelectionView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarSelectionView(AvatarSelectionView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarSelectionView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarSelectionView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarSelectionView(AvatarSelectionView const&) = delete;
+  AvatarSelectionView(AvatarSelectionViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21643 };
 
+  /// [SerializeField]
   /// @brief Field _createButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____createButton;
 
+  /// [SerializeField]
   /// @brief Field _editButton, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editButton;
 
+  /// [SerializeField]
   /// @brief Field _setAsPreferredButton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____setAsPreferredButton;
 
+  /// [SerializeField]
   /// @brief Field _currentlyPreferredText, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____currentlyPreferredText;
 
+  /// [SerializeField]
   /// @brief Field _rectTransform, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _backgroundImageView, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____backgroundImageView;
 
+  /// [SerializeField]
   /// @brief Field _preferredColor, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____preferredColor;
 
+  /// [SerializeField]
   /// @brief Field _normalColor, offset: 0x60, size: 0x10, def value: None
   ::UnityEngine::Color ____normalColor;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressEditButtonEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action* ___didPressEditButtonEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressCreateButtonEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action* ___didPressCreateButtonEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressPreferredButtonEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ___didPressPreferredButtonEvent;
 

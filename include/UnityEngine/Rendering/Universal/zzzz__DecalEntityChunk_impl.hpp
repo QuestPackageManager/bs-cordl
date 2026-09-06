@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalEntityChunk.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalEntityChunk.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Jobs/zzzz__TransformAccessArray_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalChunk_impl.hpp"

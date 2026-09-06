@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UpdatePackedMaterialDataCacheJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UpdatePackedMaterialDataCacheJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenPackedMaterialData_impl.hpp"
@@ -48,9 +48,10 @@ constexpr UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::operator ::U
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "packedMaterialDatas", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "packedMaterialHash", ty:
-// "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "packedMaterialDatas", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "packedMaterialHash", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::Rendering::UpdatePackedMaterialDataCacheJob::UpdatePackedMaterialDataCacheJob(
     ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas,
     ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\half.hpp"
+// IWYU pragma private; include "Unity/Mathematics/half.hpp"
 #include "Unity/Mathematics/zzzz__half_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -333,7 +333,7 @@ constexpr Unity::Mathematics::half::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* Unity::Mathematics::half::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "value", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::half::half(uint16_t value) noexcept {
   this->value = value;
 }

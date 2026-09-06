@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\FacetsChecker.hpp"
+// IWYU pragma private; include "System/Xml/Schema/FacetsChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,7 +100,8 @@ public:
   // @brief default ctor
   constexpr FacetsCompiler_FacetsChecker_Map();
 
-  // Ctor Parameters [CppParam { name: "match", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "match", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr FacetsCompiler_FacetsChecker_Map(char16_t match, ::StringW replacement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -215,13 +216,14 @@ public:
   // @brief default ctor
   constexpr FacetsChecker_FacetsCompiler();
 
-  // Ctor Parameters [CppParam { name: "datatype", ty: "::System::Xml::Schema::DatatypeImplementation*", modifiers: "", def_value: None }, CppParam { name: "derivedRestriction", ty:
-  // "::System::Xml::Schema::RestrictionFacets*", modifiers: "", def_value: None }, CppParam { name: "baseFlags", ty: "::System::Xml::Schema::RestrictionFlags", modifiers: "", def_value: None },
-  // CppParam { name: "baseFixedFlags", ty: "::System::Xml::Schema::RestrictionFlags", modifiers: "", def_value: None }, CppParam { name: "validRestrictionFlags", ty:
-  // "::System::Xml::Schema::RestrictionFlags", modifiers: "", def_value: None }, CppParam { name: "nonNegativeInt", ty: "::System::Xml::Schema::XmlSchemaDatatype*", modifiers: "", def_value: None },
-  // CppParam { name: "builtInType", ty: "::System::Xml::Schema::XmlSchemaDatatype*", modifiers: "", def_value: None }, CppParam { name: "builtInEnum", ty: "::System::Xml::Schema::XmlTypeCode",
-  // modifiers: "", def_value: None }, CppParam { name: "firstPattern", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "regStr", ty: "::System::Text::StringBuilder*", modifiers: "",
-  // def_value: None }, CppParam { name: "pattern_facet", ty: "::System::Xml::Schema::XmlSchemaPatternFacet*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "datatype", ty: "::System::Xml::Schema::DatatypeImplementation*", modifiers: "", def_value: None, comment: None }, CppParam { name: "derivedRestriction", ty:
+  // "::System::Xml::Schema::RestrictionFacets*", modifiers: "", def_value: None, comment: None }, CppParam { name: "baseFlags", ty: "::System::Xml::Schema::RestrictionFlags", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "baseFixedFlags", ty: "::System::Xml::Schema::RestrictionFlags", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "validRestrictionFlags", ty: "::System::Xml::Schema::RestrictionFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "nonNegativeInt", ty:
+  // "::System::Xml::Schema::XmlSchemaDatatype*", modifiers: "", def_value: None, comment: None }, CppParam { name: "builtInType", ty: "::System::Xml::Schema::XmlSchemaDatatype*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "builtInEnum", ty: "::System::Xml::Schema::XmlTypeCode", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstPattern", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "regStr", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "pattern_facet", ty: "::System::Xml::Schema::XmlSchemaPatternFacet*", modifiers: "", def_value: None, comment: None }]
   constexpr FacetsChecker_FacetsCompiler(::System::Xml::Schema::DatatypeImplementation* datatype, ::System::Xml::Schema::RestrictionFacets* derivedRestriction,
                                          ::System::Xml::Schema::RestrictionFlags baseFlags, ::System::Xml::Schema::RestrictionFlags baseFixedFlags,
                                          ::System::Xml::Schema::RestrictionFlags validRestrictionFlags, ::System::Xml::Schema::XmlSchemaDatatype* nonNegativeInt,
@@ -370,13 +372,13 @@ protected:
   constexpr FacetsChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FacetsChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FacetsChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FacetsChecker(FacetsChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FacetsChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FacetsChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FacetsChecker(FacetsChecker const&) = delete;
+  FacetsChecker(FacetsCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9680 };

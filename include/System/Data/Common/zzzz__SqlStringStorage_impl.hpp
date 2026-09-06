@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\SqlStringStorage.hpp"
+// IWYU pragma private; include "System/Data/Common/SqlStringStorage.hpp"
 #include "System/Data/Common/zzzz__DataStorage_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlString_impl.hpp"
 #include "System/Data/Common/zzzz__SqlStringStorage_def.hpp"

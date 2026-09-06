@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Operators\WrapperProvider.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/WrapperProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +24,12 @@ namespace Org::BouncyCastle::Crypto::Operators {
 class CORDL_TYPE WrapperProvider {
 public:
   // Declarations
-  /// @brief Method CreateWrapper, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateWrapper, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* CreateWrapper(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  // Ctor Parameters [CppParam { name: "", ty: "WrapperProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WrapperProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WrapperProvider(WrapperProvider const&) = delete;
+  WrapperProvider(WrapperProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 986 };

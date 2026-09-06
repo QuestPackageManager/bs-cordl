@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ExceptionHandlingClauseOptions.hpp"
+// IWYU pragma private; include "System/Reflection/ExceptionHandlingClauseOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ExceptionHandlingClauseOptions;
 // Write type traits
 MARK_VAL_T(::System::Reflection::ExceptionHandlingClauseOptions);
 DEFINE_IL2CPP_CLASS(::System::Reflection::ExceptionHandlingClauseOptions, "System.Reflection", "ExceptionHandlingClauseOptions");
+// [Flags]
 // Dependencies
 namespace System::Reflection {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr ExceptionHandlingClauseOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ExceptionHandlingClauseOptions(int32_t value__) noexcept;
 
   /// @brief Field Clause value: I32(0)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchRendererGroupCreateInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchRendererGroupCreateInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,9 +30,9 @@ public:
   // @brief default ctor
   constexpr BatchRendererGroupCreateInfo();
 
-  // Ctor Parameters [CppParam { name: "cullingCallback", ty: "::UnityEngine::Rendering::BatchRendererGroup_OnPerformCulling*", modifiers: "", def_value: None }, CppParam { name:
-  // "finishedCullingCallback", ty: "::UnityEngine::Rendering::BatchRendererGroup_OnFinishedCulling*", modifiers: "", def_value: None }, CppParam { name: "userContext", ty: "::System::IntPtr",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cullingCallback", ty: "::UnityEngine::Rendering::BatchRendererGroup_OnPerformCulling*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "finishedCullingCallback", ty: "::UnityEngine::Rendering::BatchRendererGroup_OnFinishedCulling*", modifiers: "", def_value: None, comment: None }, CppParam { name: "userContext", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr BatchRendererGroupCreateInfo(::UnityEngine::Rendering::BatchRendererGroup_OnPerformCulling* cullingCallback,
                                          ::UnityEngine::Rendering::BatchRendererGroup_OnFinishedCulling* finishedCullingCallback, ::System::IntPtr userContext) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\LowLevel\Unsafe\JobsUtility.hpp"
+// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/JobsUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,8 +65,9 @@ public:
   // @brief default ctor
   constexpr JobsUtility_JobScheduleParameters();
 
-  // Ctor Parameters [CppParam { name: "Dependency", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: None }, CppParam { name: "ScheduleMode", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "ReflectionData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "JobDataPtr", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Dependency", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "ScheduleMode", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ReflectionData", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "JobDataPtr", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr JobsUtility_JobScheduleParameters(::Unity::Jobs::JobHandle Dependency, int32_t ScheduleMode, ::System::IntPtr ReflectionData, ::System::IntPtr JobDataPtr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -122,13 +123,13 @@ protected:
   constexpr JobsUtility_PanicFunction_();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobsUtility_PanicFunction_", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobsUtility_PanicFunction_", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JobsUtility_PanicFunction_(JobsUtility_PanicFunction_&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobsUtility_PanicFunction_", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobsUtility_PanicFunction_", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobsUtility_PanicFunction_(JobsUtility_PanicFunction_ const&) = delete;
+  JobsUtility_PanicFunction_(JobsUtility_PanicFunction_const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9934 };
@@ -139,6 +140,8 @@ public:
 static_assert(sizeof(::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_) == 0x80, "Size mismatch!");
 
 } // namespace Unity::Jobs::LowLevel::Unsafe
+// [NativeHeader("Runtime/Jobs/JobSystem.h")]
+// [NativeType(Header = "Runtime/Jobs/ScriptBindings/JobsBindings.h")]
 // Dependencies System.Object
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: false
@@ -159,28 +162,35 @@ public:
   /// @brief Method CreateJobReflectionData, addr 0x6a5c1c4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJobReflectionData(::System::Type* wrapperJobType, ::System::Type* userJobType, ::System::Object* managedJobFunction0);
 
+  /// [FreeFunction(ThrowsException = true, IsThreadSafe = true)]
   /// @brief Method CreateJobReflectionData, addr 0x6a5c0f8, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJobReflectionData(::System::Type* wrapperJobType, ::System::Type* userJobType, ::System::Object* managedJobFunction0, ::System::Object* managedJobFunction1,
                                                          ::System::Object* managedJobFunction2);
 
+  /// [FreeFunction("JobSystem::GetJobQueueWorkerThreadCount")]
   /// @brief Method GetJobQueueWorkerThreadCount, addr 0x6a5c284, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetJobQueueWorkerThreadCount();
 
   /// @brief Method GetJobRange, addr 0x6a5bcc0, size 0x24, virtual false, abstract: false, final false
   static inline void GetJobRange(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex, ::by_ref<int32_t> beginIndex, ::by_ref<int32_t> endIndex);
 
+  /// [NativeMethod(IsFreeFunction = true, IsThreadSafe = true)]
   /// @brief Method GetWorkStealingRange, addr 0x6a5bce4, size 0x5c, virtual false, abstract: false, final false
   static inline bool GetWorkStealingRange(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex, ::by_ref<int32_t> beginIndex, ::by_ref<int32_t> endIndex);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokePanicFunction, addr 0x6a5c324, size 0x68, virtual false, abstract: false, final false
   static inline void InvokePanicFunction();
 
+  /// [FreeFunction("ScheduleManagedJob", ThrowsException = true, IsThreadSafe = true)]
   /// @brief Method Schedule, addr 0x6a5bd40, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle Schedule(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters);
 
+  /// [FreeFunction("ScheduleManagedJobParallelFor", ThrowsException = true, IsThreadSafe = true)]
   /// @brief Method ScheduleParallelFor, addr 0x6a5bdd8, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleParallelFor(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, int32_t arrayLength, int32_t innerloopBatchCount);
 
+  /// [FreeFunction("ScheduleManagedJobParallelForDeferArraySize", ThrowsException = true, IsThreadSafe = true)]
   /// @brief Method ScheduleParallelForDeferArraySize, addr 0x6a5bea0, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleParallelForDeferArraySize(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, int32_t innerloopBatchCount,
                                                                            void* listData, void* listDataAtomicSafetyHandle);
@@ -189,9 +199,11 @@ public:
   static inline void ScheduleParallelForDeferArraySize_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, int32_t innerloopBatchCount, void* listData,
                                                                 void* listDataAtomicSafetyHandle, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
+  /// [FreeFunction("ScheduleManagedJobParallelForTransform", ThrowsException = true)]
   /// @brief Method ScheduleParallelForTransform, addr 0x6a5bf80, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleParallelForTransform(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, ::System::IntPtr transfromAccesssArray);
 
+  /// [FreeFunction("ScheduleManagedJobParallelForTransformReadOnly", ThrowsException = true)]
   /// @brief Method ScheduleParallelForTransformReadOnly, addr 0x6a5c030, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleParallelForTransformReadOnly(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters,
                                                                               ::System::IntPtr transfromAccesssArray, int32_t innerloopBatchCount);
@@ -213,20 +225,26 @@ public:
 
   static inline ::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_* getStaticF_PanicFunction();
 
+  /// [NativeMethod(IsFreeFunction = true, IsThreadSafe = true)]
   /// @brief Method get_IsExecutingJob, addr 0x6a5c220, size 0x28, virtual false, abstract: false, final false
   static inline bool get_IsExecutingJob();
 
   /// @brief Method get_JobWorkerCount, addr 0x6a5c2ac, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_JobWorkerCount();
 
+  /// [BurstAuthorizedExternalMethod]
+  /// [FreeFunction("GetJobWorkerIndex", IsThreadSafe = true)]
   /// @brief Method get_ThreadIndex, addr 0x6a5c2d4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_ThreadIndex();
 
+  /// [FreeFunction("GetJobWorkerIndexCount", IsThreadSafe = true)]
+  /// [BurstAuthorizedExternalMethod]
   /// @brief Method get_ThreadIndexCount, addr 0x6a5c2fc, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_ThreadIndexCount();
 
   static inline void setStaticF_PanicFunction(::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_* value);
 
+  /// [FreeFunction]
   /// @brief Method set_JobCompilerEnabled, addr 0x6a5c248, size 0x3c, virtual false, abstract: false, final false
   static inline void set_JobCompilerEnabled(bool value);
 
@@ -236,13 +254,13 @@ protected:
   constexpr JobsUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobsUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobsUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JobsUtility(JobsUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobsUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobsUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobsUtility(JobsUtility const&) = delete;
+  JobsUtility(JobsUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9935 };

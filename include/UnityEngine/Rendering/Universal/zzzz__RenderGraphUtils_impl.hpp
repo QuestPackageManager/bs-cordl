@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderGraphUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderGraphUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderGraphUtils_def.hpp"
@@ -179,7 +179,8 @@ inline void UnityEngine::Rendering::Universal::RenderGraphUtils::UseDBufferIfVal
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, builder, resourceData);
 }
 inline void UnityEngine::Rendering::Universal::RenderGraphUtils::SetGlobalTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, int32_t nameId,
-                                                                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle handle, ::StringW passName, ::StringW file, int32_t line) {
+                                                                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle handle, ::StringW passName,
+                                                                                  /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderGraphUtils*>(),
                                                                                          { "SetGlobalTexture",
                                                                                            {},

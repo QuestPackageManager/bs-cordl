@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\LeaderboardEntry.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/LeaderboardEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,13 +125,13 @@ protected:
   constexpr LeaderboardEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardEntry(LeaderboardEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardEntry(LeaderboardEntry const&) = delete;
+  LeaderboardEntry(LeaderboardEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18058 };
@@ -154,6 +154,7 @@ public:
   /// @brief Field SupplementaryMetricOptional, offset: 0x38, size: 0x8, def value: None
   ::Oculus::Platform::Models::SupplementaryMetric* ___SupplementaryMetricOptional;
 
+  /// [Obsolete("Deprecated in favor of SupplementaryMetricOptional")]
   /// @brief Field SupplementaryMetric, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::SupplementaryMetric* ___SupplementaryMetric;
 

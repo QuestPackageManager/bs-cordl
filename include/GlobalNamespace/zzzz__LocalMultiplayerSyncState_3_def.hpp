@@ -1,40 +1,86 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalMultiplayerSyncState_3.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalMultiplayerSyncState_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IEquatableByReference_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
+#include "GlobalNamespace/zzzz__IStateTable_3_def.hpp"
+#include "GlobalNamespace/zzzz__ISyncStateDeltaSerializable_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISyncStateSerializable_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalMultiplayerSyncState_3)
 namespace GlobalNamespace {
 class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*>)
+class IPacketPool_1;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class LocalStateBuffer_3;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class LocalStateBuffer_3;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3_InterpolationDelegate;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class StateBuffer_3_InterpolationDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3_SmoothingDelegate;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class StateBuffer_3_SmoothingDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class StateBuffer_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class LocalMultiplayerSyncState_3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::LocalMultiplayerSyncState_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::LocalMultiplayerSyncState_3, "", "LocalMultiplayerSyncState`3");
-// Dependencies MultiplayerSyncState`3<TStateTable, TType, TState>
+// [DefaultMember("Item")]
+// Dependencies IEquatableByReference`1<T>, IPoolablePacket, IStateTable`3<TStateTable, TType, TState>, ISyncStateDeltaSerializable`1<T>, ISyncStateSerializable`1<T>,
+// LiteNetLib.Utils.INetSerializable, MultiplayerSyncState`3<TStateTable, TType, TState>, System.IConvertible
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
 // Is value type: false
 // CS Name: LocalMultiplayerSyncState`3<TStateTable,TType,TState>
 class CORDL_TYPE LocalMultiplayerSyncState_3 : public ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState> {
@@ -70,10 +116,14 @@ public:
   inline void SetState(TType type, TState state);
 
   /// @brief Method TryGetSerializedState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetSerializedState(::GlobalNamespace::IPacketPool_1<T>* pool, ::by_ref<T> serializable);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::ISyncStateSerializable_1<TStateTable>*>)
+  inline bool TryGetSerializedState(::GlobalNamespace::IPacketPool_1<T>* pool, ::by_ref<T> serializable);
 
   /// @brief Method TryGetSerializedStateDelta, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetSerializedStateDelta(::GlobalNamespace::IPacketPool_1<T>* pool, ::by_ref<T> serializable);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::ISyncStateDeltaSerializable_1<TStateTable>*>)
+  inline bool TryGetSerializedStateDelta(::GlobalNamespace::IPacketPool_1<T>* pool, ::by_ref<T> serializable);
 
   constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__player() const;
 
@@ -110,13 +160,13 @@ protected:
   constexpr LocalMultiplayerSyncState_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalMultiplayerSyncState_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalMultiplayerSyncState_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalMultiplayerSyncState_3(LocalMultiplayerSyncState_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalMultiplayerSyncState_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalMultiplayerSyncState_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalMultiplayerSyncState_3(LocalMultiplayerSyncState_3 const&) = delete;
+  LocalMultiplayerSyncState_3(LocalMultiplayerSyncState_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21586 };

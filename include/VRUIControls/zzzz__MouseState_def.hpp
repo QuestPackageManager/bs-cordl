@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls\MouseState.hpp"
+// IWYU pragma private; include "VRUIControls/MouseState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +67,13 @@ protected:
   constexpr MouseState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseState(MouseState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseState(MouseState const&) = delete;
+  MouseState(MouseStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22822 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyPropertyId.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyPropertyId.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyPropertyId_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -125,7 +125,8 @@ inline void Unity::Hierarchy::HierarchyPropertyId::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline bool Unity::Hierarchy::HierarchyPropertyId::op_Equality(::by_ref<::Unity::Hierarchy::HierarchyPropertyId> lhs, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> rhs) {
+inline bool Unity::Hierarchy::HierarchyPropertyId::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> lhs,
+                                                               /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> rhs) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyId>(),
@@ -157,7 +158,7 @@ constexpr Unity::Hierarchy::HierarchyPropertyId::operator ::System::IEquatable_1
 constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>* Unity::Hierarchy::HierarchyPropertyId::i___System__IEquatable_1___Unity__Hierarchy__HierarchyPropertyId_() {
   return static_cast<::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyPropertyId::HierarchyPropertyId(int32_t m_Id) noexcept {
   this->m_Id = m_Id;
 }

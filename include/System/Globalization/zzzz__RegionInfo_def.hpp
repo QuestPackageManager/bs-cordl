@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\RegionInfo.hpp"
+// IWYU pragma private; include "System/Globalization/RegionInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class RegionInfo;
 // Write type traits
 MARK_REF_T(::System::Globalization::RegionInfo*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Globalization {
 // Is value type: false
@@ -27,16 +28,20 @@ namespace System::Globalization {
 class CORDL_TYPE RegionInfo : public ::System::Object {
 public:
   // Declarations
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_CurrencyEnglishName)) ::StringW CurrencyEnglishName;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_CurrencyNativeName)) ::StringW CurrencyNativeName;
 
   __declspec(property(get = get_CurrencySymbol)) ::StringW CurrencySymbol;
 
+  /// @brief [MonoTODO("DisplayName currently only returns the EnglishName")]
   __declspec(property(get = get_DisplayName)) ::StringW DisplayName;
 
   __declspec(property(get = get_EnglishName)) ::StringW EnglishName;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_GeoId)) int32_t GeoId;
 
   __declspec(property(get = get_ISOCurrencySymbol)) ::StringW ISOCurrencySymbol;
@@ -45,6 +50,7 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_NativeName)) ::StringW NativeName;
 
   __declspec(property(get = get_ThreeLetterISORegionName)) ::StringW ThreeLetterISORegionName;
@@ -231,13 +237,13 @@ protected:
   constexpr RegionInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegionInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegionInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegionInfo(RegionInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegionInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegionInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegionInfo(RegionInfo const&) = delete;
+  RegionInfo(RegionInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3653 };

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpriteMeshType.hpp"
+// IWYU pragma private; include "UnityEngine/SpriteMeshType.hpp"
 #include "UnityEngine/zzzz__SpriteMeshType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SpriteMeshType::SpriteMeshType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\HashSet_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/HashSet_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -18,15 +18,16 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
-// Ctor Parameters [CppParam { name: "uniqueCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unfoundCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "uniqueCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unfoundCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 template <typename T> constexpr ::System::Collections::Generic::HashSet_1_ElementCount<T>::HashSet_1_ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept {
   this->uniqueCount = uniqueCount;
   this->unfoundCount = unfoundCount;
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::HashSet_1_ElementCount<T>::HashSet_1_ElementCount() {}
-// Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "value", ty: "T", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::System::Collections::Generic::HashSet_1_Slot<T>::HashSet_1_Slot(int32_t hashCode, int32_t next, T value) noexcept {
   this->hashCode = hashCode;
   this->next = next;
@@ -85,8 +86,9 @@ template <typename T> constexpr System::Collections::Generic::HashSet_1_Enumerat
 template <typename T> constexpr ::System::Collections::IEnumerator* System::Collections::Generic::HashSet_1_Enumerator<T>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_index", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_current", ty: "T",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
 constexpr ::System::Collections::Generic::HashSet_1_Enumerator<T>::HashSet_1_Enumerator(::System::Collections::Generic::HashSet_1<T>* _set, int32_t _index, int32_t _version, T _current) noexcept {
   this->_set = _set;

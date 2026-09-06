@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteMovement.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteMovement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ class NoteMovement;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NoteMovement*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteMovement*, "", "NoteMovement");
+// [AddComponentMenu("Beat Saber/Gameplay/NoteMovement")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -142,8 +143,8 @@ public:
   inline void HandleNoteJumpNoteJumpDidPassHalf();
 
   /// @brief Method Init, addr 0x58d40bc, size 0x188, virtual false, abstract: false, final false
-  inline void Init(float_t noteTime, float_t worldRotation, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t flipYSide, float_t endRotation, bool rotateTowardsPlayer,
-                   bool useRandomRotation);
+  inline void Init(float_t noteTime, float_t worldRotation, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t flipYSide, float_t endRotation,
+                   bool rotateTowardsPlayer, bool useRandomRotation);
 
   /// @brief Method ManualUpdate, addr 0x58d3a6c, size 0xec, virtual false, abstract: false, final false
   inline void ManualUpdate();
@@ -258,24 +259,31 @@ public:
   /// @brief Method .ctor, addr 0x58d886c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didInitEvent, addr 0x58d7d40, size 0xac, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_noteDidFinishJumpEvent, addr 0x58d34d4, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidFinishJumpEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_noteDidMoveInJumpPhaseEvent, addr 0x58d7f44, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidMoveInJumpPhaseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_noteDidPassHalfJumpEvent, addr 0x58cef34, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidPassHalfJumpEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_noteDidPassJumpThreeQuartersEvent, addr 0x58d362c, size 0xc0, virtual false, abstract: false, final false
   inline void add_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_noteDidPassMissedMarkerEvent, addr 0x58d36ec, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidPassMissedMarkerEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_noteDidStartJumpEvent, addr 0x58d3580, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidStartJumpEvent(::System::Action* value);
 
@@ -312,24 +320,31 @@ public:
   /// @brief Method get_worldRotation, addr 0x58d330c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didInitEvent, addr 0x58d7dec, size 0xac, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_noteDidFinishJumpEvent, addr 0x58d3798, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidFinishJumpEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_noteDidMoveInJumpPhaseEvent, addr 0x58d7ff0, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidMoveInJumpPhaseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_noteDidPassHalfJumpEvent, addr 0x58d7e98, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidPassHalfJumpEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_noteDidPassJumpThreeQuartersEvent, addr 0x58d38f0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_noteDidPassMissedMarkerEvent, addr 0x58d39b0, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidPassMissedMarkerEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_noteDidStartJumpEvent, addr 0x58d3844, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidStartJumpEvent(::System::Action* value);
 
@@ -339,50 +354,63 @@ protected:
   constexpr NoteMovement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteMovement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteMovement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteMovement(NoteMovement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteMovement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteMovement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteMovement(NoteMovement const&) = delete;
+  NoteMovement(NoteMovementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5692 };
 
+  /// [SerializeField]
   /// @brief Field _waiting, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteWaiting> ____waiting;
 
+  /// [SerializeField]
   /// @brief Field _floorMovement, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteFloorMovement> ____floorMovement;
 
+  /// [SerializeField]
   /// @brief Field _jump, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteJump> ____jump;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _zOffset, offset: 0x38, size: 0x4, def value: None
   float_t ____zOffset;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
+  /// [CompilerGenerated]
   /// @brief Field didInitEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___didInitEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field noteDidStartJumpEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___noteDidStartJumpEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field noteDidFinishJumpEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___noteDidFinishJumpEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field noteDidPassMissedMarkerEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___noteDidPassMissedMarkerEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field noteDidPassHalfJumpEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___noteDidPassHalfJumpEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field noteDidPassJumpThreeQuartersEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* ___noteDidPassJumpThreeQuartersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field noteDidMoveInJumpPhaseEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action* ___noteDidMoveInJumpPhaseEvent;
 

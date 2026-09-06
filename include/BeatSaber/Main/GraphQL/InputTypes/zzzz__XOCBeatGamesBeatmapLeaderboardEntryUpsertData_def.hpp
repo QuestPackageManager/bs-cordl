@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\InputTypes\XOCBeatGamesBeatmapLeaderboardEntryUpsertData.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/InputTypes/XOCBeatGamesBeatmapLeaderboardEntryUpsertData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,9 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class SortedDictionary_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -54,8 +56,10 @@ public:
 
   __declspec(property(put = set_Characteristic)) ::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic Characteristic;
 
+  /// @brief [Nullable(2)]
   __declspec(property(put = set_ClientMutationId)) ::StringW ClientMutationId;
 
+  /// @brief [Nullable(1)]
   __declspec(property(put = set_ClientSongId)) ::StringW ClientSongId;
 
   __declspec(property(put = set_CutAngle)) ::System::Nullable_1<int64_t> CutAngle;
@@ -70,6 +74,7 @@ public:
 
   __declspec(property(put = set_PausesCount)) ::System::Nullable_1<int64_t> PausesCount;
 
+  /// @brief [Nullable(2)]
   __declspec(property(put = set_PlayerRoot)) ::StringW PlayerRoot;
 
   __declspec(property(put = set_Score)) int64_t Score;
@@ -120,9 +125,11 @@ public:
   /// @brief Method set_Characteristic, addr 0x32a1314, size 0xac, virtual true, abstract: false, final true
   inline void set_Characteristic(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic value);
 
+  /// [NullableContext(2)]
   /// @brief Method set_ClientMutationId, addr 0x32a13c0, size 0x80, virtual true, abstract: false, final true
   inline void set_ClientMutationId(::StringW value);
 
+  /// [NullableContext(1)]
   /// @brief Method set_ClientSongId, addr 0x32a1440, size 0x80, virtual true, abstract: false, final true
   inline void set_ClientSongId(::StringW value);
 
@@ -144,6 +151,7 @@ public:
   /// @brief Method set_PausesCount, addr 0x32a180c, size 0xb8, virtual true, abstract: false, final true
   inline void set_PausesCount(::System::Nullable_1<int64_t> value);
 
+  /// [NullableContext(2)]
   /// @brief Method set_PlayerRoot, addr 0x32a18c4, size 0x80, virtual true, abstract: false, final true
   inline void set_PlayerRoot(::StringW value);
 
@@ -159,17 +167,18 @@ protected:
   constexpr XOCBeatGamesBeatmapLeaderboardEntryUpsertData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XOCBeatGamesBeatmapLeaderboardEntryUpsertData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XOCBeatGamesBeatmapLeaderboardEntryUpsertData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XOCBeatGamesBeatmapLeaderboardEntryUpsertData(XOCBeatGamesBeatmapLeaderboardEntryUpsertData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XOCBeatGamesBeatmapLeaderboardEntryUpsertData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XOCBeatGamesBeatmapLeaderboardEntryUpsertData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XOCBeatGamesBeatmapLeaderboardEntryUpsertData(XOCBeatGamesBeatmapLeaderboardEntryUpsertData const&) = delete;
+  XOCBeatGamesBeatmapLeaderboardEntryUpsertData(XOCBeatGamesBeatmapLeaderboardEntryUpsertDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20582 };
 
+  /// [Nullable(new[] { 1, 1, 2 })]
   /// @brief Field _params, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* ____params;
 

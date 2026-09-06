@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameScenesManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameScenesManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_impl.hpp"
@@ -29,7 +29,7 @@
 #include "UnityEngine/zzzz__WaitUntil_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__ZenjectSceneLoader_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameScenesManager_SceneTransitionType::GameScenesManager_SceneTransitionType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -147,7 +147,7 @@ inline ::GlobalNamespace::GameScenesManager_ScenesStackData* GlobalNamespace::Ga
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameScenesManager_ScenesStackData::GameScenesManager_ScenesStackData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameScenesManager_ScenePresentType::GameScenesManager_ScenePresentType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -157,7 +157,7 @@ constexpr ::GlobalNamespace::GameScenesManager_ScenePresentType GlobalNamespace:
 constexpr ::GlobalNamespace::GameScenesManager_ScenePresentType GlobalNamespace::GameScenesManager_ScenePresentType::Load{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::GameScenesManager_ScenePresentType GlobalNamespace::GameScenesManager_ScenePresentType::LoadAndDoNotActivate{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::GameScenesManager_ScenePresentType GlobalNamespace::GameScenesManager_ScenePresentType::Activate{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameScenesManager_SceneDismissType::GameScenesManager_SceneDismissType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1370,6 +1370,7 @@ inline ::System::Object* GlobalNamespace::GameScenesManager__LoadOneScene_d__55:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__55*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::GameScenesManager__LoadOneScene_d__55* GlobalNamespace::GameScenesManager__LoadOneScene_d__55::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__LoadOneScene_d__55*>(__1__state));
 }
@@ -1786,6 +1787,7 @@ inline ::System::Object* GlobalNamespace::GameScenesManager__ScenesTransitionCor
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57* GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57*>(__1__state));
 }
@@ -1975,6 +1977,7 @@ inline ::System::Object* GlobalNamespace::GameScenesManager__UnloadOneScene_d__5
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56* GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56*>(__1__state));
 }
@@ -2167,6 +2170,7 @@ inline ::System::Object* GlobalNamespace::GameScenesManager__WaitUntilTaskComple
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60* GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60*>(__1__state));
 }

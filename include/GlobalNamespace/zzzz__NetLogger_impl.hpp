@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetLogger.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetLogger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetLogger_def.hpp"
 #include "LiteNetLib/zzzz__INetLogger_def.hpp"
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::NetLogger::WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*> args) {
+inline void GlobalNamespace::NetLogger::WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetLogger*>(),
                                               { "WriteNet", {}, { ::i2c::type_of<::LiteNetLib::NetLogLevel>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));

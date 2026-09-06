@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IntervalTree\RangeValuePair_2.hpp"
+// IWYU pragma private; include "IntervalTree/RangeValuePair_2.hpp"
 #include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -30,7 +30,7 @@ template <typename TKey, typename TValue> inline int32_t IntervalTree::RangeValu
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::IntervalTree::RangeValuePair_2<TKey, TValue>>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline bool IntervalTree::RangeValuePair_2<TKey, TValue>::Equals(::IntervalTree::RangeValuePair_2<TKey, TValue> other) {
+template <typename TKey, typename TValue> inline bool IntervalTree::RangeValuePair_2<TKey, TValue>::Equals(/* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::IntervalTree::RangeValuePair_2<TKey, TValue>>(), { "Equals", {}, { ::i2c::type_of<::IntervalTree::RangeValuePair_2<TKey, TValue>>() } })));
@@ -42,7 +42,8 @@ template <typename TKey, typename TValue> inline bool IntervalTree::RangeValuePa
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
 }
 template <typename TKey, typename TValue>
-inline bool IntervalTree::RangeValuePair_2<TKey, TValue>::op_Equality(::IntervalTree::RangeValuePair_2<TKey, TValue> left, ::IntervalTree::RangeValuePair_2<TKey, TValue> right) {
+inline bool IntervalTree::RangeValuePair_2<TKey, TValue>::op_Equality(/* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> left,
+                                                                      /* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> right) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::IntervalTree::RangeValuePair_2<TKey, TValue>>(),
@@ -50,7 +51,8 @@ inline bool IntervalTree::RangeValuePair_2<TKey, TValue>::op_Equality(::Interval
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, left, right);
 }
 template <typename TKey, typename TValue>
-inline bool IntervalTree::RangeValuePair_2<TKey, TValue>::op_Inequality(::IntervalTree::RangeValuePair_2<TKey, TValue> left, ::IntervalTree::RangeValuePair_2<TKey, TValue> right) {
+inline bool IntervalTree::RangeValuePair_2<TKey, TValue>::op_Inequality(/* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> left,
+                                                                        /* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> right) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::IntervalTree::RangeValuePair_2<TKey, TValue>>(),
@@ -67,8 +69,8 @@ constexpr ::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>
 IntervalTree::RangeValuePair_2<TKey, TValue>::i___System__IEquatable_1___IntervalTree__RangeValuePair_2_TKey_TValue__() {
   return static_cast<::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_From_k__BackingField", ty: "TKey", modifiers: "", def_value: Some("{}") }, CppParam { name: "_To_k__BackingField", ty: "TKey", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_Value_k__BackingField", ty: "TValue", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_From_k__BackingField", ty: "TKey", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_To_k__BackingField", ty: "TKey", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_Value_k__BackingField", ty: "TValue", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TKey, typename TValue>
 constexpr ::IntervalTree::RangeValuePair_2<TKey, TValue>::RangeValuePair_2(TKey _From_k__BackingField, TKey _To_k__BackingField, TValue _Value_k__BackingField) noexcept {
   this->_From_k__BackingField = _From_k__BackingField;

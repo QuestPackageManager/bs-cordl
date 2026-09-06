@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\SceneManagerAPIInternal.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/SceneManagerAPIInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,9 @@ class SceneManagerAPIInternal;
 // Write type traits
 MARK_REF_T(::UnityEngine::SceneManagement::SceneManagerAPIInternal*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SceneManagement::SceneManagerAPIInternal*, "UnityEngine.SceneManagement", "SceneManagerAPIInternal");
+// [NativeHeader("Runtime/Export/SceneManager/SceneManager.bindings.h")]
+// [NativeHeader("Runtime/SceneManager/SceneManager.h")]
+// [StaticAccessor("SceneManagerBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies System.Object
 namespace UnityEngine::SceneManagement {
 // Is value type: false
@@ -36,6 +39,7 @@ public:
   /// @brief Method GetNumScenesInBuildSettings, addr 0x6affaa8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetNumScenesInBuildSettings();
 
+  /// [NativeThrows]
   /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x6affad0, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                                bool mustCompleteNextFrame);
@@ -50,13 +54,13 @@ protected:
   constexpr SceneManagerAPIInternal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPIInternal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPIInternal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneManagerAPIInternal(SceneManagerAPIInternal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPIInternal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPIInternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneManagerAPIInternal(SceneManagerAPIInternal const&) = delete;
+  SceneManagerAPIInternal(SceneManagerAPIInternalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10486 };

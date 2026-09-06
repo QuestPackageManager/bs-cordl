@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ToggleButtonGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ToggleButtonGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_REF_T(::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ToggleButtonGroup*, "UnityEngine.UIElements", "ToggleButtonGroup");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory*, "UnityEngine.UIElements", "ToggleButtonGroup/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*, "UnityEngine.UIElements", "ToggleButtonGroup/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -76,13 +77,13 @@ protected:
   constexpr ToggleButtonGroup_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleButtonGroup_UxmlFactory(ToggleButtonGroup_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleButtonGroup_UxmlFactory(ToggleButtonGroup_UxmlFactory const&) = delete;
+  ToggleButtonGroup_UxmlFactory(ToggleButtonGroup_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4343 };
@@ -93,6 +94,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>, UnityEngine.UIElements.ToggleButtonGroupState
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -134,13 +136,13 @@ protected:
   constexpr ToggleButtonGroup_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleButtonGroup_UxmlTraits(ToggleButtonGroup_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleButtonGroup_UxmlTraits(ToggleButtonGroup_UxmlTraits const&) = delete;
+  ToggleButtonGroup_UxmlTraits(ToggleButtonGroup_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4344 };
@@ -172,6 +174,7 @@ public:
 
   using UxmlTraits = ::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_allowEmptySelection, put = set_allowEmptySelection)) bool allowEmptySelection;
 
   /// @brief Field allowEmptySelectionProperty, offset 0xffffffff, size 0x98
@@ -203,6 +206,7 @@ public:
   /// @brief Field emptyStateLabelClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_emptyStateLabelClassName, put = setStaticF_emptyStateLabelClassName)) ::StringW emptyStateLabelClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_isMultipleSelection, put = set_isMultipleSelection)) bool isMultipleSelection;
 
   /// @brief Field isMultipleSelectionProperty, offset 0xffffffff, size 0x98
@@ -367,13 +371,13 @@ protected:
   constexpr ToggleButtonGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleButtonGroup(ToggleButtonGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleButtonGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleButtonGroup(ToggleButtonGroup const&) = delete;
+  ToggleButtonGroup(ToggleButtonGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4345 };

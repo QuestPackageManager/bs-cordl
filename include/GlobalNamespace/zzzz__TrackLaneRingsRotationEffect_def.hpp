@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TrackLaneRingsRotationEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/TrackLaneRingsRotationEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr TrackLaneRingsRotationEffect_RingRotationEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect_RingRotationEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect_RingRotationEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackLaneRingsRotationEffect_RingRotationEffect(TrackLaneRingsRotationEffect_RingRotationEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect_RingRotationEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect_RingRotationEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackLaneRingsRotationEffect_RingRotationEffect(TrackLaneRingsRotationEffect_RingRotationEffect const&) = delete;
+  TrackLaneRingsRotationEffect_RingRotationEffect(TrackLaneRingsRotationEffect_RingRotationEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5991 };
@@ -134,6 +134,8 @@ static_assert(offsetof(::GlobalNamespace::TrackLaneRingsRotationEffect_RingRotat
 static_assert(sizeof(::GlobalNamespace::TrackLaneRingsRotationEffect_RingRotationEffect) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DefaultExecutionOrder(-3)]
+// [AddComponentMenu("Beat Saber/Gameplay/TrackLaneRingsRotationEffect")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -255,29 +257,35 @@ protected:
   constexpr TrackLaneRingsRotationEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffect const&) = delete;
+  TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5992 };
 
+  /// [SerializeField]
   /// @brief Field _trackLaneRingsManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRingsManager> ____trackLaneRingsManager;
 
+  /// [Header("Startup buildup")]
+  /// [SerializeField]
   /// @brief Field _startupRotationAngle, offset: 0x28, size: 0x4, def value: None
   float_t ____startupRotationAngle;
 
+  /// [SerializeField]
   /// @brief Field _startupRotationStep, offset: 0x2c, size: 0x4, def value: None
   float_t ____startupRotationStep;
 
+  /// [SerializeField]
   /// @brief Field _startupRotationPropagationSpeed, offset: 0x30, size: 0x4, def value: None
   int32_t ____startupRotationPropagationSpeed;
 
+  /// [SerializeField]
   /// @brief Field _startupRotationFlexySpeed, offset: 0x34, size: 0x4, def value: None
   float_t ____startupRotationFlexySpeed;
 

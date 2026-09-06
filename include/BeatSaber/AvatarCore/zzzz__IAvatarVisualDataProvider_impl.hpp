@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\IAvatarVisualDataProvider.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/IAvatarVisualDataProvider.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarVisualDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +86,9 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Version;
@@ -123,6 +125,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformed
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13, "", "BeatmapDataLoader/<LoadAndTransformAsync>d__13");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5, "", "BeatmapDataLoader/<LoadBasicBeatmapDataAsync>d__5");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8, "", "BeatmapDataLoader/<LoadBeatmapDataAsync>d__8");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -139,7 +142,7 @@ public:
   static inline ::GlobalNamespace::BeatmapDataLoader___c* New_ctor();
 
   /// @brief Method <CreateOrGetTransformedBeatmapDataAsync>b__10_0, addr 0x37120a4, size 0x28, virtual false, abstract: false, final false
-  inline void _CreateOrGetTransformedBeatmapDataAsync_b__10_0(::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* t);
+  inline void _CreateOrGetTransformedBeatmapDataAsync_b__10_0(/* [Nullable(new[] { 0, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* t);
 
   /// @brief Method .ctor, addr 0x37120a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -158,13 +161,13 @@ protected:
   constexpr BeatmapDataLoader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataLoader___c(BeatmapDataLoader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader___c(BeatmapDataLoader___c const&) = delete;
+  BeatmapDataLoader___c(BeatmapDataLoader___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14891 };
@@ -175,6 +178,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::BeatmapDataLoader___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapKey, BeatmapLevelDataVersion, System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -188,8 +192,9 @@ public:
   /// @brief Method MoveNext, addr 0x37120cc, size 0x8ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3712a78, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -198,17 +203,18 @@ public:
   // @brief default ctor
   constexpr BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelDataVersion", ty:
-  // "::System::Nullable_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BeatmapDataLoader*", modifiers: "",
-  // def_value: None }, CppParam { name: "preloadedBeatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: None }, CppParam { name: "beatmapKey", ty:
-  // "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "useCache", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty:
-  // "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None }, CppParam
-  // { name: "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None }, CppParam { name: "targetEnvironmentInfo", ty:
-  // "::UnityW<::GlobalNamespace::EnvironmentInfoSO>", modifiers: "", def_value: None }, CppParam { name: "originalEnvironmentInfo", ty: "::UnityW<::GlobalNamespace::EnvironmentInfoSO>", modifiers:
-  // "", def_value: None }, CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "beatmapLevelDataVersion", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::BeatmapDataLoader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "preloadedBeatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "useCache", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None, comment: None }, CppParam { name: "playerSpecificSettings", ty:
+  // "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None, comment: None }, CppParam { name: "targetEnvironmentInfo", ty: "::UnityW<::GlobalNamespace::EnvironmentInfoSO>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "originalEnvironmentInfo", ty: "::UnityW<::GlobalNamespace::EnvironmentInfoSO>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10(int32_t __1__state,
                                                                             ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder,
                                                                             ::System::Nullable_1<::GlobalNamespace::BeatmapLevelDataVersion> beatmapLevelDataVersion,
@@ -229,15 +235,18 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder;
 
   /// @brief Field beatmapLevelDataVersion, offset: 0x20, size: 0x8, def value: None
   ::System::Nullable_1<::GlobalNamespace::BeatmapLevelDataVersion> beatmapLevelDataVersion;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataLoader* __4__this;
 
+  /// [Nullable(0)]
   /// @brief Field preloadedBeatmapLevelData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData;
 
@@ -247,27 +256,34 @@ public:
   /// @brief Field useCache, offset: 0x48, size: 0x1, def value: None
   bool useCache;
 
+  /// [Nullable(0)]
   /// @brief Field beatmapLevel, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
+  /// [Nullable(0)]
   /// @brief Field gameplayModifiers, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
+  /// [Nullable(0)]
   /// @brief Field playerSpecificSettings, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
+  /// [Nullable(0)]
   /// @brief Field targetEnvironmentInfo, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> targetEnvironmentInfo;
 
+  /// [Nullable(0)]
   /// @brief Field originalEnvironmentInfo, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> originalEnvironmentInfo;
 
   /// @brief Field screenDisplacementEffects, offset: 0x78, size: 0x1, def value: None
   bool screenDisplacementEffects;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x80, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__2, offset: 0x88, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__2;
 
@@ -307,6 +323,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransfor
 static_assert(sizeof(::GlobalNamespace::BeatmapDataLoader__CreateOrGetTransformedBeatmapDataAsync_d__10) == 0x90, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapKey, BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
@@ -321,8 +338,9 @@ public:
   /// @brief Method MoveNext, addr 0x3712af8, size 0x738, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x37133c4, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -331,16 +349,17 @@ public:
   // @brief default ctor
   constexpr BeatmapDataLoader__LoadAndTransformAsync_d__13();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None }, CppParam { name: "preloadedBeatmapLevelData", ty:
-  // "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BeatmapDataLoader*", modifiers: "", def_value: None }, CppParam {
-  // name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "version", ty: "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value:
-  // None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "targetEnvironmentInfo", ty:
-  // "::UnityW<::GlobalNamespace::EnvironmentInfoSO>", modifiers: "", def_value: None }, CppParam { name: "originalEnvironmentInfo", ty: "::UnityW<::GlobalNamespace::EnvironmentInfoSO>", modifiers:
-  // "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty:
-  // "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None }, CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "preloadedBeatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::BeatmapDataLoader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "version", ty: "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapLevel", ty:
+  // "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "targetEnvironmentInfo", ty: "::UnityW<::GlobalNamespace::EnvironmentInfoSO>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "originalEnvironmentInfo", ty: "::UnityW<::GlobalNamespace::EnvironmentInfoSO>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None, comment: None }, CppParam { name: "playerSpecificSettings", ty:
+  // "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None, comment: None }, CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapDataLoader__LoadAndTransformAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder,
                                                            ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData, ::GlobalNamespace::BeatmapDataLoader* __4__this,
                                                            ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevelDataVersion version, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
@@ -358,12 +377,15 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field preloadedBeatmapLevelData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataLoader* __4__this;
 
@@ -373,27 +395,34 @@ public:
   /// @brief Field version, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapLevelDataVersion version;
 
+  /// [Nullable(0)]
   /// @brief Field beatmapLevel, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
+  /// [Nullable(0)]
   /// @brief Field targetEnvironmentInfo, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> targetEnvironmentInfo;
 
+  /// [Nullable(0)]
   /// @brief Field originalEnvironmentInfo, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> originalEnvironmentInfo;
 
+  /// [Nullable(0)]
   /// @brief Field gameplayModifiers, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
+  /// [Nullable(0)]
   /// @brief Field playerSpecificSettings, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
   /// @brief Field screenDisplacementEffects, offset: 0x70, size: 0x1, def value: None
   bool screenDisplacementEffects;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x78, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__1;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__2, offset: 0x80, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__2;
 
@@ -431,6 +460,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsy
 static_assert(sizeof(::GlobalNamespace::BeatmapDataLoader__LoadAndTransformAsync_d__13) == 0x88, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapKey, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -444,8 +474,9 @@ public:
   /// @brief Method MoveNext, addr 0x3713444, size 0x6c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3713b08, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -454,12 +485,13 @@ public:
   // @brief default ctor
   constexpr BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelData", ty:
-  // "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name:
-  // "_beatmapJson_5__2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapLevelData",
+  // ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_beatmapJson_5__2", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*>", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*> __t__builder,
                                                               ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, ::StringW _beatmapJson_5__2,
                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
@@ -475,24 +507,30 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapDataBasicInfo*> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field beatmapLevelData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData;
 
   /// @brief Field beatmapKey, offset: 0x28, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey beatmapKey;
 
+  /// [Nullable(0)]
   /// @brief Field <beatmapJson>5__2, offset: 0x38, size: 0x8, def value: None
   ::StringW _beatmapJson_5__2;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*> __u__2;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__3, offset: 0x50, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__3;
 
@@ -518,6 +556,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDat
 static_assert(sizeof(::GlobalNamespace::BeatmapDataLoader__LoadBasicBeatmapDataAsync_d__5) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapKey, BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -531,8 +570,9 @@ public:
   /// @brief Method MoveNext, addr 0x3713b88, size 0xc34, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x37148f0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -541,15 +581,16 @@ public:
   // @brief default ctor
   constexpr BeatmapDataLoader__LoadBeatmapDataAsync_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty:
-  // "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam {
-  // name: "targetEnvironmentInfo", ty: "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*",
-  // modifiers: "", def_value: None }, CppParam { name: "startBpm", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "loadingForDesignatedEnvironment", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapLevelDataVersion", ty: "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: None }, CppParam { name: "originalEnvironmentInfo", ty:
-  // "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW>>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapData*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "targetEnvironmentInfo", ty: "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "beatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "startBpm", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "loadingForDesignatedEnvironment", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapLevelDataVersion", ty:
+  // "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: None, comment: None }, CppParam { name: "originalEnvironmentInfo", ty: "::GlobalNamespace::IEnvironmentInfo*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapData*>", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapDataLoader__LoadBeatmapDataAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder,
                                                          ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::BeatmapKey beatmapKey,
                                                          ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, float_t startBpm,
@@ -567,18 +608,22 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field playerSpecificSettings, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
   /// @brief Field beatmapKey, offset: 0x28, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey beatmapKey;
 
+  /// [Nullable(0)]
   /// @brief Field targetEnvironmentInfo, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo;
 
+  /// [Nullable(0)]
   /// @brief Field beatmapLevelData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData;
 
@@ -591,15 +636,19 @@ public:
   /// @brief Field beatmapLevelDataVersion, offset: 0x50, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion;
 
+  /// [Nullable(0)]
   /// @brief Field originalEnvironmentInfo, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo;
 
+  /// [Nullable(0)]
   /// @brief Field gameplayModifiers, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x68, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW>> __u__1;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__2, offset: 0x70, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapData*> __u__2;
 
@@ -635,6 +684,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsyn
 static_assert(sizeof(::GlobalNamespace::BeatmapDataLoader__LoadBeatmapDataAsync_d__8) == 0x78, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -669,29 +720,33 @@ public:
   /// @brief Method ClearLastUsedBeatmapCache, addr 0x3711ef8, size 0x8, virtual false, abstract: false, final false
   inline void ClearLastUsedBeatmapCache();
 
+  /// [AsyncStateMachine(typeof(BeatmapDataLoader::<CreateOrGetTransformedBeatmapDataAsync>d__10))]
   /// @brief Method CreateOrGetTransformedBeatmapDataAsync, addr 0x3711ce8, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   CreateOrGetTransformedBeatmapDataAsync(::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                          ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
                                          ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, bool useCache, bool screenDisplacementEffects,
-                                         ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData, ::System::Nullable_1<::GlobalNamespace::BeatmapLevelDataVersion> beatmapLevelDataVersion);
+                                         /* [Nullable(2)] */ ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData,
+                                         ::System::Nullable_1<::GlobalNamespace::BeatmapLevelDataVersion> beatmapLevelDataVersion);
 
   /// @brief Method IsCachedEntryStale, addr 0x3711e34, size 0xc4, virtual false, abstract: false, final false
-  static inline bool IsCachedEntryStale(::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* task);
+  static inline bool IsCachedEntryStale(/* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* task);
 
+  /// [AsyncStateMachine(typeof(BeatmapDataLoader::<LoadAndTransformAsync>d__13))]
   /// @brief Method LoadAndTransformAsync, addr 0x3711f00, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   LoadAndTransformAsync(::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                         ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
-                        ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData,
+                        ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, /* [Nullable(2)] */ ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData,
                         ::GlobalNamespace::BeatmapLevelDataVersion version, bool screenDisplacementEffects);
 
   /// @brief Method LoadBasicBeatmapData, addr 0x3711604, size 0xf4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataBasicInfo* LoadBasicBeatmapData(::StringW beatmapJson);
 
   /// @brief Method LoadBasicBeatmapData, addr 0x3711528, size 0xdc, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataBasicInfo* LoadBasicBeatmapData(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline ::GlobalNamespace::BeatmapDataBasicInfo* LoadBasicBeatmapData(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
+  /// [AsyncStateMachine(typeof(BeatmapDataLoader::<LoadBasicBeatmapDataAsync>d__5))]
   /// @brief Method LoadBasicBeatmapDataAsync, addr 0x3711430, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* LoadBasicBeatmapDataAsync(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
                                                                                                                  ::GlobalNamespace::BeatmapKey beatmapKey);
@@ -700,15 +755,20 @@ public:
   inline ::GlobalNamespace::IReadonlyBeatmapData* LoadBeatmapData(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm,
                                                                   bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                   ::GlobalNamespace::IEnvironmentInfo* lightshowEnvironmentInfo, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
-                                                                  ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+                                                                  /* [Nullable(2)] */ ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                                                                  /* [Nullable(2)] */ ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
+  /// [NullableContext(2)]
+  /// [AsyncStateMachine(typeof(BeatmapDataLoader::<LoadBeatmapDataAsync>d__8))]
   /// @brief Method LoadBeatmapDataAsync, addr 0x37116f8, size 0x144, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
-  LoadBeatmapDataAsync(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm, bool loadingForDesignatedEnvironment,
+  LoadBeatmapDataAsync(/* [Nullable(1)] */ ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm, bool loadingForDesignatedEnvironment,
                        ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo, ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo,
                        ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                        ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
+  /// [NullableContext(2)]
+  /// @brief [Inject]
   static inline ::GlobalNamespace::BeatmapDataLoader* New_ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
                                                                ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel);
 
@@ -736,6 +796,8 @@ public:
 
   constexpr void __cordl_internal_set__refractorDebuggerSettings(::GlobalNamespace::IRefractorDebuggerSettings* value);
 
+  /// [NullableContext(2)]
+  /// [Inject]
   /// @brief Method .ctor, addr 0x3711428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel);
 
@@ -745,26 +807,30 @@ protected:
   constexpr BeatmapDataLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataLoader(BeatmapDataLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataLoader(BeatmapDataLoader const&) = delete;
+  BeatmapDataLoader(BeatmapDataLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14896 };
 
+  /// [Nullable(2)]
   /// @brief Field _lastUsedBeatmapDataCache, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCache* ____lastUsedBeatmapDataCache;
 
+  /// [Nullable(2)]
   /// @brief Field _beatmapLevelsModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [Nullable(2)]
   /// @brief Field _beatmapLevelsEntitlementModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsEntitlementModel* ____beatmapLevelsEntitlementModel;
 
+  /// [Nullable(2)]
   /// @brief Field _refractorDebuggerSettings, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IRefractorDebuggerSettings* ____refractorDebuggerSettings;
 

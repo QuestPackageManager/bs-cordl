@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\StickControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/StickControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,12 +35,18 @@ public:
   /// @brief Field <up>k__BackingField, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__up_k__BackingField, put = __cordl_internal_set__up_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _up_k__BackingField;
 
+  /// @brief [InputControl(useStateFrom = "y", processors = "axisDeadzone", parameters = "clamp=2,clampMin=-1,clampMax=0,invert", synthetic = true, displayName = "Down")]
   __declspec(property(get = get_down, put = set_down)) ::UnityEngine::InputSystem::Controls::ButtonControl* down;
 
+  /// @brief [InputControl(useStateFrom = "x", processors = "axisDeadzone", parameters = "clamp=2,clampMin=-1,clampMax=0,invert", synthetic = true, displayName = "Left")]
   __declspec(property(get = get_left, put = set_left)) ::UnityEngine::InputSystem::Controls::ButtonControl* left;
 
+  /// @brief [InputControl(useStateFrom = "x", processors = "axisDeadzone", parameters = "clamp=2,clampMin=0,clampMax=1", synthetic = true, displayName = "Right")]
   __declspec(property(get = get_right, put = set_right)) ::UnityEngine::InputSystem::Controls::ButtonControl* right;
 
+  /// [InputControl(useStateFrom = "y", processors = "axisDeadzone", parameters = "clamp=2,clampMin=0,clampMax=1", synthetic = true, displayName = "Up")]
+  /// [InputControl(name = "x", minValue = -1, maxValue = 1, layout = "Axis", processors = "axisDeadzone")]
+  /// @brief [InputControl(name = "y", minValue = -1, maxValue = 1, layout = "Axis", processors = "axisDeadzone")]
   __declspec(property(get = get_up, put = set_up)) ::UnityEngine::InputSystem::Controls::ButtonControl* up;
 
   /// @brief Method FinishSetup, addr 0x64fc884, size 0xfc, virtual true, abstract: false, final false
@@ -75,27 +81,35 @@ public:
   /// @brief Method .ctor, addr 0x64fc980, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_down, addr 0x64fc854, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_down();
 
+  /// [CompilerGenerated]
   /// @brief Method get_left, addr 0x64fc864, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_left();
 
+  /// [CompilerGenerated]
   /// @brief Method get_right, addr 0x64fc874, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_right();
 
+  /// [CompilerGenerated]
   /// @brief Method get_up, addr 0x64fc844, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_up();
 
+  /// [CompilerGenerated]
   /// @brief Method set_down, addr 0x64fc85c, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_left, addr 0x64fc86c, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_right, addr 0x64fc87c, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_up, addr 0x64fc84c, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
@@ -105,26 +119,30 @@ protected:
   constexpr StickControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StickControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StickControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StickControl(StickControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StickControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StickControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StickControl(StickControl const&) = delete;
+  StickControl(StickControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9134 };
 
+  /// [CompilerGenerated]
   /// @brief Field <up>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____up_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <down>k__BackingField, offset: 0x128, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____down_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <left>k__BackingField, offset: 0x130, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____left_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <right>k__BackingField, offset: 0x138, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____right_k__BackingField;
 

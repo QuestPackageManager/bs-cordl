@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\DefaultInputActions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/DefaultInputActions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__DefaultInputActions_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -199,7 +199,7 @@ inline void UnityEngine::InputSystem::DefaultInputActions_PlayerActions::SetCall
                                                            { "SetCallbacks", {}, { ::i2c::type_of<::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance);
 }
-// Ctor Parameters [CppParam { name: "m_Wrapper", ty: "::UnityEngine::InputSystem::DefaultInputActions*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Wrapper", ty: "::UnityEngine::InputSystem::DefaultInputActions*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::DefaultInputActions_PlayerActions::DefaultInputActions_PlayerActions(::UnityEngine::InputSystem::DefaultInputActions* m_Wrapper) noexcept {
   this->m_Wrapper = m_Wrapper;
 }
@@ -506,7 +506,7 @@ inline void UnityEngine::InputSystem::DefaultInputActions_UIActions::SetCallback
                                                                                          { "SetCallbacks", {}, { ::i2c::type_of<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance);
 }
-// Ctor Parameters [CppParam { name: "m_Wrapper", ty: "::UnityEngine::InputSystem::DefaultInputActions*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Wrapper", ty: "::UnityEngine::InputSystem::DefaultInputActions*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::DefaultInputActions_UIActions::DefaultInputActions_UIActions(::UnityEngine::InputSystem::DefaultInputActions* m_Wrapper) noexcept {
   this->m_Wrapper = m_Wrapper;
 }

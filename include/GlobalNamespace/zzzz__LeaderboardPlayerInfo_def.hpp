@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LeaderboardPlayerInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/LeaderboardPlayerInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,39 +100,51 @@ public:
   /// @brief Method .ctor, addr 0x3756a44, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends);
 
+  /// [CompilerGenerated]
   /// @brief Method get_authType, addr 0x3756a14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_authType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_playerFriends, addr 0x3756a24, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerFriends();
 
+  /// [CompilerGenerated]
   /// @brief Method get_playerId, addr 0x37569e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_playerKey, addr 0x3756a04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_playerName, addr 0x37569f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_succeeded, addr 0x3756a34, size 0x8, virtual false, abstract: false, final false
   inline bool get_succeeded();
 
+  /// [CompilerGenerated]
   /// @brief Method set_authType, addr 0x3756a1c, size 0x8, virtual false, abstract: false, final false
   inline void set_authType(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerFriends, addr 0x3756a2c, size 0x8, virtual false, abstract: false, final false
   inline void set_playerFriends(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerId, addr 0x37569ec, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerKey, addr 0x3756a0c, size 0x8, virtual false, abstract: false, final false
   inline void set_playerKey(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerName, addr 0x37569fc, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_succeeded, addr 0x3756a3c, size 0x8, virtual false, abstract: false, final false
   inline void set_succeeded(bool value);
 
@@ -142,13 +154,13 @@ protected:
   constexpr LeaderboardPlayerInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardPlayerInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardPlayerInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardPlayerInfo(LeaderboardPlayerInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardPlayerInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardPlayerInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardPlayerInfo(LeaderboardPlayerInfo const&) = delete;
+  LeaderboardPlayerInfo(LeaderboardPlayerInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15273 };
@@ -156,21 +168,27 @@ public:
   /// @brief Field serverKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ___serverKey;
 
+  /// [CompilerGenerated]
   /// @brief Field <playerId>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____playerId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <playerName>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____playerName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <playerKey>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____playerKey_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <authType>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____authType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <playerFriends>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____playerFriends_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <succeeded>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____succeeded_k__BackingField;
 

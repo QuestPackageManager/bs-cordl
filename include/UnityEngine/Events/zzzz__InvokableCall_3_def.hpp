@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Events\InvokableCall_3.hpp"
+// IWYU pragma private; include "UnityEngine/Events/InvokableCall_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,17 +60,19 @@ protected:
   constexpr InvokableCall_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvokableCall_3(InvokableCall_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokableCall_3(InvokableCall_3 const&) = delete;
+  InvokableCall_3(InvokableCall_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10446 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction_3<T1, T2, T3>* ___Delegate;
 

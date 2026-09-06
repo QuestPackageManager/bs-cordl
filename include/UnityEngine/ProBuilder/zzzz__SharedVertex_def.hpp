@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\SharedVertex.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/SharedVertex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::SharedVertex*);
 MARK_REF_T(::UnityEngine::ProBuilder::SharedVertex___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::SharedVertex*, "UnityEngine.ProBuilder", "SharedVertex");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::SharedVertex___c*, "UnityEngine.ProBuilder", "SharedVertex/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -91,13 +92,13 @@ protected:
   constexpr SharedVertex___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedVertex___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedVertex___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedVertex___c(SharedVertex___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedVertex___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedVertex___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedVertex___c(SharedVertex___c const&) = delete;
+  SharedVertex___c(SharedVertex___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16810 };
@@ -108,6 +109,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::SharedVertex___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -235,17 +237,20 @@ protected:
   constexpr SharedVertex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SharedVertex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedVertex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedVertex(SharedVertex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SharedVertex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SharedVertex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SharedVertex(SharedVertex const&) = delete;
+  SharedVertex(SharedVertexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16811 };
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("array")]
+  /// [FormerlySerializedAs("m_Vertexes")]
   /// @brief Field m_Vertices, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_Vertices;
 

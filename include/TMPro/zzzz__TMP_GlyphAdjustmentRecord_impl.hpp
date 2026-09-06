@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_GlyphAdjustmentRecord.hpp"
+// IWYU pragma private; include "TMPro/TMP_GlyphAdjustmentRecord.hpp"
 #include "TMPro/zzzz__TMP_GlyphValueRecord_impl.hpp"
 #include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphValueRecord_def.hpp"
@@ -112,8 +112,8 @@ inline void TMPro::TMP_GlyphAdjustmentRecord::_ctor(::UnityEngine::TextCore::Low
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphAdjustmentRecord>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, adjustmentRecord);
 }
-// Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_GlyphValueRecord", ty: "::TMPro::TMP_GlyphValueRecord", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_GlyphValueRecord", ty: "::TMPro::TMP_GlyphValueRecord",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::TMPro::TMP_GlyphValueRecord m_GlyphValueRecord) noexcept {
   this->m_GlyphIndex = m_GlyphIndex;
   this->m_GlyphValueRecord = m_GlyphValueRecord;

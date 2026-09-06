@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DiscoveryPolicy.hpp"
+// IWYU pragma private; include "GlobalNamespace/DiscoveryPolicy.hpp"
 #include "GlobalNamespace/zzzz__DiscoveryPolicy_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::DiscoveryPolicy::DiscoveryPolicy(uint8_t value__) noexcept {
   this->value__ = value__;
 }

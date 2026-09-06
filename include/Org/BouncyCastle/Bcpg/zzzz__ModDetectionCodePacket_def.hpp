@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\ModDetectionCodePacket.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ModDetectionCodePacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,13 +58,13 @@ protected:
   constexpr ModDetectionCodePacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModDetectionCodePacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModDetectionCodePacket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ModDetectionCodePacket(ModDetectionCodePacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModDetectionCodePacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModDetectionCodePacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModDetectionCodePacket(ModDetectionCodePacket const&) = delete;
+  ModDetectionCodePacket(ModDetectionCodePacketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 575 };

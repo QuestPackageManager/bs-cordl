@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FPSCounterUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FPSCounterUIController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ MARK_REF_T(::GlobalNamespace::FPSCounterUIController*);
 MARK_REF_T(::GlobalNamespace::FPSCounterUIController__Start_d__9*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FPSCounterUIController*, "", "FPSCounterUIController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FPSCounterUIController__Start_d__9*, "", "FPSCounterUIController/<Start>d__9");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -76,17 +77,22 @@ public:
   /// @brief Method MoveNext, addr 0x5852294, size 0x98, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FPSCounterUIController__Start_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x585232c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5852334, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x585236c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5852290, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -108,6 +114,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FPSCounterUIController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5852114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -126,13 +133,13 @@ protected:
   constexpr FPSCounterUIController__Start_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController__Start_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController__Start_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FPSCounterUIController__Start_d__9(FPSCounterUIController__Start_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController__Start_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController__Start_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FPSCounterUIController__Start_d__9(FPSCounterUIController__Start_d__9 const&) = delete;
+  FPSCounterUIController__Start_d__9(FPSCounterUIController__Start_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22761 };
@@ -158,6 +165,7 @@ static_assert(offsetof(::GlobalNamespace::FPSCounterUIController__Start_d__9, __
 static_assert(sizeof(::GlobalNamespace::FPSCounterUIController__Start_d__9) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [RequireComponent(typeof(FPSCounter))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -199,6 +207,7 @@ public:
 
   static inline ::GlobalNamespace::FPSCounterUIController* New_ctor();
 
+  /// [IteratorStateMachine(typeof(FPSCounterUIController::<Start>d__9))]
   /// @brief Method Start, addr 0x58520c0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
@@ -259,32 +268,38 @@ protected:
   constexpr FPSCounterUIController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FPSCounterUIController(FPSCounterUIController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FPSCounterUIController(FPSCounterUIController const&) = delete;
+  FPSCounterUIController(FPSCounterUIControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22762 };
 
+  /// [SerializeField]
   /// @brief Field _uiUpdateTimeInterval, offset: 0x20, size: 0x4, def value: None
   float_t ____uiUpdateTimeInterval;
 
+  /// [SerializeField]
   /// @brief Field _currentFPSText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____currentFPSText;
 
+  /// [SerializeField]
   /// @brief Field _lowestFPSText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____lowestFPSText;
 
+  /// [SerializeField]
   /// @brief Field _highestFPSText, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____highestFPSText;
 
+  /// [SerializeField]
   /// @brief Field _droppedFramesText, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____droppedFramesText;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\Settings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/Settings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +36,14 @@ public:
   // @brief default ctor
   constexpr Settings();
 
-  // Ctor Parameters [CppParam { name: "room", ty: "::BeatSaber::Settings::RoomSettings", modifiers: "", def_value: None }, CppParam { name: "controller", ty:
-  // "::BeatSaber::Settings::ControllerSettings", modifiers: "", def_value: None }, CppParam { name: "smoothCamera", ty: "::BeatSaber::Settings::SmoothCameraSettings", modifiers: "", def_value: None
-  // }, CppParam { name: "audio", ty: "::BeatSaber::Settings::AudioSettings", modifiers: "", def_value: None }, CppParam { name: "misc", ty: "::BeatSaber::Settings::MiscSettings", modifiers: "",
-  // def_value: None }, CppParam { name: "quality", ty: "::BeatSaber::Settings::QualitySettings", modifiers: "", def_value: None }, CppParam { name: "quest", ty:
-  // "::BeatSaber::Settings::QuestSettings", modifiers: "", def_value: None }, CppParam { name: "window", ty: "::BeatSaber::Settings::WindowSettings", modifiers: "", def_value: None }, CppParam {
-  // name: "customServer", ty: "::BeatSaber::Settings::CustomServerSettings", modifiers: "", def_value: None }, CppParam { name: "performanceTools", ty:
-  // "::BeatSaber::Settings::PerformanceToolSettings", modifiers: "", def_value: None }, CppParam { name: "debug", ty: "::BeatSaber::Settings::DebugSettings", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "room", ty: "::BeatSaber::Settings::RoomSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "controller", ty:
+  // "::BeatSaber::Settings::ControllerSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "smoothCamera", ty: "::BeatSaber::Settings::SmoothCameraSettings", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "audio", ty: "::BeatSaber::Settings::AudioSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "misc", ty:
+  // "::BeatSaber::Settings::MiscSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "quality", ty: "::BeatSaber::Settings::QualitySettings", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "quest", ty: "::BeatSaber::Settings::QuestSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "window", ty:
+  // "::BeatSaber::Settings::WindowSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "customServer", ty: "::BeatSaber::Settings::CustomServerSettings", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "performanceTools", ty: "::BeatSaber::Settings::PerformanceToolSettings", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "debug", ty: "::BeatSaber::Settings::DebugSettings", modifiers: "", def_value: None, comment: None }]
   constexpr Settings(::BeatSaber::Settings::RoomSettings room, ::BeatSaber::Settings::ControllerSettings controller, ::BeatSaber::Settings::SmoothCameraSettings smoothCamera,
                      ::BeatSaber::Settings::AudioSettings audio, ::BeatSaber::Settings::MiscSettings misc, ::BeatSaber::Settings::QualitySettings quality, ::BeatSaber::Settings::QuestSettings quest,
                      ::BeatSaber::Settings::WindowSettings window, ::BeatSaber::Settings::CustomServerSettings customServer, ::BeatSaber::Settings::PerformanceToolSettings performanceTools,

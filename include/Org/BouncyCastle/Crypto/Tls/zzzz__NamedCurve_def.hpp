@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\NamedCurve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/NamedCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr NamedCurve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamedCurve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedCurve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamedCurve(NamedCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamedCurve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedCurve(NamedCurve const&) = delete;
+  NamedCurve(NamedCurveconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1255 };

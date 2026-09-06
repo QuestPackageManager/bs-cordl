@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BakedLightsNormalizer.hpp"
+// IWYU pragma private; include "GlobalNamespace/BakedLightsNormalizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -131,13 +131,13 @@ protected:
   constexpr BakedLightsNormalizer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightsNormalizer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BakedLightsNormalizer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BakedLightsNormalizer(BakedLightsNormalizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightsNormalizer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BakedLightsNormalizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BakedLightsNormalizer(BakedLightsNormalizer const&) = delete;
+  BakedLightsNormalizer(BakedLightsNormalizerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19509 };
@@ -145,6 +145,7 @@ public:
   /// @brief Field kMaxFramesWithoutUpdate offset 0xffffffff size 0x4
   static constexpr int32_t kMaxFramesWithoutUpdate{ static_cast<int32_t>(0x5) };
 
+  /// [SerializeField]
   /// @brief Field _maxTotalIntensity, offset: 0x20, size: 0x4, def value: None
   float_t ____maxTotalIntensity;
 

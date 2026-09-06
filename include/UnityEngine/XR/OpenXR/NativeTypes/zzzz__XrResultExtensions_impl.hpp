@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrResultExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrResultExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrResultExtensions_def.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrResult_def.hpp"

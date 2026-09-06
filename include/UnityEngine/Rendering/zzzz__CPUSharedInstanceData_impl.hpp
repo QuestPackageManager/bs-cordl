@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CPUSharedInstanceData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CPUSharedInstanceData.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AABB_impl.hpp"
@@ -142,7 +142,7 @@ inline int32_t UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::get_insta
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(), { "get_instancesLength", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::_ctor(::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> instanceData) {
+inline void UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData> instanceData) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instanceData);
@@ -167,7 +167,7 @@ inline bool UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::IsValidIndex
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly>(), { "IsValidIndex", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, index);
 }
-inline int32_t UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::InstanceToIndex(::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
+inline int32_t UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly> instanceData,
                                                                                        ::UnityEngine::Rendering::InstanceHandle instance) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -175,15 +175,16 @@ inline int32_t UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::InstanceT
                           { "InstanceToIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, instanceData, instance);
 }
-// Ctor Parameters [CppParam { name: "instanceIndices", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererGroupIDs", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialIDArrays", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: Some("{}") }, CppParam { name: "meshIDs", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "localAABBs", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::AABB>", modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::CPUSharedInstanceFlags>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lodGroupAndMasks", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<uint32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameObjectLayers", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "refCounts", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instanceIndices", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "instances", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rendererGroupIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "materialIDArrays", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "meshIDs", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localAABBs", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::AABB>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flags", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::CPUSharedInstanceFlags>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupAndMasks", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameObjectLayers", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "refCounts", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly::CPUSharedInstanceData_ReadOnly(
     ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> instanceIndices, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle> instances,
     ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> rendererGroupIDs, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray> materialIDArrays,
@@ -806,7 +807,8 @@ inline ::UnityEngine::Rendering::SharedInstanceHandle UnityEngine::Rendering::CP
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(), { "IndexToSharedInstance", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::SharedInstanceHandle>(*this, ___internal_method, index);
 }
-inline int32_t UnityEngine::Rendering::CPUSharedInstanceData::InstanceToIndex(::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData, ::UnityEngine::Rendering::InstanceHandle instance) {
+inline int32_t UnityEngine::Rendering::CPUSharedInstanceData::InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData,
+                                                                              ::UnityEngine::Rendering::InstanceHandle instance) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
@@ -908,7 +910,8 @@ inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_MeshID(::UnityEng
                                                            { "Set_MeshID", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, meshID);
 }
-inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_LocalAABB(::UnityEngine::Rendering::SharedInstanceHandle instance, ::by_ref<::UnityEngine::Rendering::AABB> localAABB) {
+inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_LocalAABB(::UnityEngine::Rendering::SharedInstanceHandle instance,
+                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> localAABB) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
@@ -940,7 +943,8 @@ inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_RefCount(::UnityE
                                                            { "Set_RefCount", {}, { ::i2c::type_of<::UnityEngine::Rendering::SharedInstanceHandle>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, refCount);
 }
-inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_MaterialIDs(::UnityEngine::Rendering::SharedInstanceHandle instance, ::by_ref<::UnityEngine::Rendering::SmallIntegerArray> materialIDs) {
+inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_MaterialIDs(::UnityEngine::Rendering::SharedInstanceHandle instance,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallIntegerArray> materialIDs) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CPUSharedInstanceData>(),
@@ -948,7 +952,8 @@ inline void UnityEngine::Rendering::CPUSharedInstanceData::Set_MaterialIDs(::Uni
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instance, materialIDs);
 }
 inline void UnityEngine::Rendering::CPUSharedInstanceData::Set(::UnityEngine::Rendering::SharedInstanceHandle instance, int32_t rendererGroupID,
-                                                               ::by_ref<::UnityEngine::Rendering::SmallIntegerArray> materialIDs, int32_t meshID, ::by_ref<::UnityEngine::Rendering::AABB> localAABB,
+                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallIntegerArray> materialIDs, int32_t meshID,
+                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> localAABB,
                                                                ::UnityEngine::Rendering::TransformUpdateFlags transformUpdateFlags, ::UnityEngine::Rendering::InstanceFlags instanceFlags,
                                                                uint32_t lodGroupAndMask, int32_t gameObjectLayer, int32_t refCount) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -979,16 +984,16 @@ constexpr UnityEngine::Rendering::CPUSharedInstanceData::operator ::System::IDis
 constexpr ::System::IDisposable* UnityEngine::Rendering::CPUSharedInstanceData::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_StructData", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InstanceIndices", ty:
-// "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererGroupIDs", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialIDArrays", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: Some("{}") }, CppParam { name: "meshIDs", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "localAABBs", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AABB>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CPUSharedInstanceFlags>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "lodGroupAndMasks", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameObjectLayers", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "refCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_StructData", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InstanceIndices",
+// ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instances", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererGroupIDs", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "materialIDArrays", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "meshIDs", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localAABBs", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AABB>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flags", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CPUSharedInstanceFlags>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupAndMasks", ty:
+// "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameObjectLayers", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "refCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CPUSharedInstanceData::CPUSharedInstanceData(
     ::Unity::Collections::NativeArray_1<int32_t> m_StructData, ::Unity::Collections::NativeList_1<int32_t> m_InstanceIndices,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle> instances, ::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,

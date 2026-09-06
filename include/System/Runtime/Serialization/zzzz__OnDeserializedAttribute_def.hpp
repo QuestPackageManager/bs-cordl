@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\OnDeserializedAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/OnDeserializedAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class OnDeserializedAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::Serialization::OnDeserializedAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::OnDeserializedAttribute*, "System.Runtime.Serialization", "OnDeserializedAttribute");
+// [ComVisible(true)]
+// [AttributeUsage((System.AttributeTargets)64, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::Serialization {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr OnDeserializedAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OnDeserializedAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OnDeserializedAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OnDeserializedAttribute(OnDeserializedAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OnDeserializedAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OnDeserializedAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OnDeserializedAttribute(OnDeserializedAttribute const&) = delete;
+  OnDeserializedAttribute(OnDeserializedAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3248 };

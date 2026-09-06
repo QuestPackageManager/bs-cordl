@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlDecimal.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlDecimal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,6 +70,7 @@ struct SqlDecimal;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlDecimal);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlDecimal, "System.Data.SqlTypes", "SqlDecimal");
+// [XmlSchemaProvider("GetXsdType")]
 // Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -687,10 +688,10 @@ public:
   // @brief default ctor
   constexpr SqlDecimal();
 
-  // Ctor Parameters [CppParam { name: "_bStatus", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_bLen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_bPrec", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_bScale", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_data1", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_data2", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_data3", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_data4", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_bStatus", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_bLen", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_bPrec", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_bScale", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_data1", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_data2", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_data3", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_data4", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SqlDecimal(uint8_t _bStatus, uint8_t _bLen, uint8_t _bPrec, uint8_t _bScale, uint32_t _data1, uint32_t _data2, uint32_t _data3, uint32_t _data4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\BindSignalFromBinder_2.hpp"
+// IWYU pragma private; include "Zenject/BindSignalFromBinder_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ MARK_GEN_REF_T_PTR(::Zenject::BindSignalFromBinder_2___c__DisplayClass8_0);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::BindSignalFromBinder_2, "Zenject", "BindSignalFromBinder`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::BindSignalFromBinder_2___c, "Zenject", "BindSignalFromBinder`2/<>c");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::BindSignalFromBinder_2___c__DisplayClass8_0, "Zenject", "BindSignalFromBinder`2/<>c__DisplayClass8_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -91,6 +92,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -119,13 +121,13 @@ protected:
   constexpr BindSignalFromBinder_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindSignalFromBinder_2___c(BindSignalFromBinder_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindSignalFromBinder_2___c(BindSignalFromBinder_2___c const&) = delete;
+  BindSignalFromBinder_2___c(BindSignalFromBinder_2___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13990 };
@@ -134,6 +136,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -169,6 +172,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -181,13 +185,13 @@ protected:
   constexpr BindSignalFromBinder_2___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindSignalFromBinder_2___c__DisplayClass8_0(BindSignalFromBinder_2___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindSignalFromBinder_2___c__DisplayClass8_0(BindSignalFromBinder_2___c__DisplayClass8_0 const&) = delete;
+  BindSignalFromBinder_2___c__DisplayClass8_0(BindSignalFromBinder_2___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13991 };
@@ -242,6 +246,7 @@ public:
   static inline ::Zenject::BindSignalFromBinder_2<TObject, TSignal>* New_ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::Zenject::BindStatement* bindStatement,
                                                                               ::System::Func_2<TObject, ::System::Action_1<TSignal>*>* methodGetter, ::Zenject::DiContainer* container);
 
+  /// [CompilerGenerated]
   /// @brief Method <From>b__8_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action_1<::System::Object*>* _From_b__8_0(::System::Object* obj);
 
@@ -272,6 +277,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -285,13 +291,13 @@ protected:
   constexpr BindSignalFromBinder_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindSignalFromBinder_2(BindSignalFromBinder_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindSignalFromBinder_2(BindSignalFromBinder_2 const&) = delete;
+  BindSignalFromBinder_2(BindSignalFromBinder_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13992 };

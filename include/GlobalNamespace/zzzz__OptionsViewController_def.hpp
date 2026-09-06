@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OptionsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/OptionsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   // @brief default ctor
   constexpr OptionsViewController_OptionsButton();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OptionsViewController_OptionsButton(int32_t value__) noexcept;
 
   /// @brief Field EditAvatar value: I32(0)
@@ -113,12 +113,15 @@ public:
 
   static inline ::GlobalNamespace::OptionsViewController* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__7_0, addr 0x5965b18, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__7_1, addr 0x5965b38, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__7_2, addr 0x5965b58, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
@@ -149,9 +152,11 @@ public:
   /// @brief Method .ctor, addr 0x5965b14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x59657d4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5965894, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* value);
 
@@ -161,26 +166,30 @@ protected:
   constexpr OptionsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OptionsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OptionsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OptionsViewController(OptionsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OptionsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OptionsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OptionsViewController(OptionsViewController const&) = delete;
+  OptionsViewController(OptionsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6987 };
 
+  /// [SerializeField]
   /// @brief Field _editAvatarButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editAvatarButton;
 
+  /// [SerializeField]
   /// @brief Field _playerOptionsButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____playerOptionsButton;
 
+  /// [SerializeField]
   /// @brief Field _settingsButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____settingsButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* ___didFinishEvent;
 

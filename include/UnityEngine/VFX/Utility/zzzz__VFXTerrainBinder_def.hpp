@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXTerrainBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXTerrainBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class VFXTerrainBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXTerrainBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXTerrainBinder*, "UnityEngine.VFX.Utility", "VFXTerrainBinder");
+// [AddComponentMenu("VFX/Property Binders/Terrain Binder")]
+// [VFXBinder("Utility/Terrain")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -120,17 +122,19 @@ protected:
   constexpr VFXTerrainBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTerrainBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTerrainBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXTerrainBinder(VFXTerrainBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTerrainBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTerrainBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTerrainBinder(VFXTerrainBinder const&) = delete;
+  VFXTerrainBinder(VFXTerrainBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20008 };
 
+  /// [VFXPropertyBinding(new[] { "UnityEditor.VFX.TerrainType" })]
+  /// [FormerlySerializedAs("TerrainParameter")]
   /// @brief Field m_Property, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

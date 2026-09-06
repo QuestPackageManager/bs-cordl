@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,17 +137,18 @@ protected:
   constexpr LightWithIds_LightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIds_LightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIds_LightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightWithIds_LightWithId(LightWithIds_LightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIds_LightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIds_LightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightWithIds_LightWithId(LightWithIds_LightWithId const&) = delete;
+  LightWithIds_LightWithId(LightWithIds_LightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19544 };
 
+  /// [SerializeField]
   /// @brief Field _lightId, offset: 0x10, size: 0x4, def value: None
   int32_t ____lightId;
 
@@ -174,6 +175,7 @@ static_assert(offsetof(::GlobalNamespace::LightWithIds_LightWithId, ____parentLi
 static_assert(sizeof(::GlobalNamespace::LightWithIds_LightWithId) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -201,7 +203,7 @@ public:
   /// @brief Method Awake, addr 0x586d838, size 0x38, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetLightWithIds, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   /// @brief Method HandleLightManagerDidChangeSomeColorsThisFrame, addr 0x586fb30, size 0x1c, virtual false, abstract: false, final false
@@ -218,7 +220,7 @@ public:
   /// @brief Method OnEnable, addr 0x586c450, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ProcessNewColorData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessNewColorData();
 
   /// @brief Method RegisterForColorChanges, addr 0x586f394, size 0x3dc, virtual false, abstract: false, final false
@@ -269,17 +271,18 @@ protected:
   constexpr LightWithIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightWithIds(LightWithIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightWithIds(LightWithIds const&) = delete;
+  LightWithIds(LightWithIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19545 };
 
+  /// [Inject]
   /// @brief Field _lightManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 

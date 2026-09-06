@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\GlyphRect.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/GlyphRect.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -169,8 +169,9 @@ constexpr UnityEngine::TextCore::GlyphRect::operator ::System::IEquatable_1<::Un
 constexpr ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>* UnityEngine::TextCore::GlyphRect::i___System__IEquatable_1___UnityEngine__TextCore__GlyphRect_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Width", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::TextCore::GlyphRect::GlyphRect(int32_t m_X, int32_t m_Y, int32_t m_Width, int32_t m_Height) noexcept {
   this->m_X = m_X;
   this->m_Y = m_Y;

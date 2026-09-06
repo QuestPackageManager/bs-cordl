@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Utilities\FilterStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Utilities/FilterStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class FilterStream;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Asn1::Utilities::FilterStream*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Asn1::Utilities::FilterStream*, "Org.BouncyCastle.Asn1.Utilities", "FilterStream");
+// [Obsolete("Use Org.BouncyCastle.Utilities.IO.FilterStream")]
 // Dependencies System.IO.Stream
 namespace Org::BouncyCastle::Asn1::Utilities {
 // Is value type: false
@@ -46,6 +47,7 @@ public:
   /// @brief Method Flush, addr 0x35562b8, size 0x20, virtual true, abstract: false, final false
   inline void Flush();
 
+  /// @brief [Obsolete("Use Org.BouncyCastle.Utilities.IO.FilterStream")]
   static inline ::Org::BouncyCastle::Asn1::Utilities::FilterStream* New_ctor(::System::IO::Stream* s);
 
   /// @brief Method Read, addr 0x3556318, size 0x20, virtual true, abstract: false, final false
@@ -72,6 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_s(::System::IO::Stream* value);
 
+  /// [Obsolete("Use Org.BouncyCastle.Utilities.IO.FilterStream")]
   /// @brief Method .ctor, addr 0x3556128, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* s);
 
@@ -99,13 +102,13 @@ protected:
   constexpr FilterStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FilterStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FilterStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FilterStream(FilterStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FilterStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FilterStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FilterStream(FilterStream const&) = delete;
+  FilterStream(FilterStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 322 };

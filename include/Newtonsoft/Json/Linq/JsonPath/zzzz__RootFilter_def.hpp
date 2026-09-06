@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\RootFilter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/RootFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class RootFilter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Linq::JsonPath::RootFilter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JsonPath::RootFilter*, "Newtonsoft.Json.Linq.JsonPath", "RootFilter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Linq.JsonPath.PathFilter
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
@@ -34,7 +36,7 @@ public:
   /// @brief Method ExecuteFilter, addr 0x5d953bc, size 0x94, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
-                                                                                                         ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
+                                                                                                         /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::RootFilter* New_ctor();
 
@@ -51,13 +53,13 @@ protected:
   constexpr RootFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RootFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RootFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RootFilter(RootFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RootFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RootFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RootFilter(RootFilter const&) = delete;
+  RootFilter(RootFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13644 };

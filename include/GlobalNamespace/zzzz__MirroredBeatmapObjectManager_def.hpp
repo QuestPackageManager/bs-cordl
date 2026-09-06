@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirroredBeatmapObjectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirroredBeatmapObjectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,9 +152,12 @@ public:
   /// @brief Method HandleSliderWasSpawned, addr 0x58cc3b8, size 0xb8, virtual false, abstract: false, final false
   inline void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
 
+  /// [Inject]
   /// @brief Method Init, addr 0x58cb5a8, size 0x464, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, ::GlobalNamespace::MirroredGameNoteController_Pool* mirroredBasicGameNotePool,
-                   ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderGameNotePool,
+  inline void Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager,
+                   /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::MirroredGameNoteController_Pool* mirroredBasicGameNotePool,
+                   /* [Inject(Id = (NoteData::GameplayType)2)] */ ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderHeadGameNotePool,
+                   /* [Inject(Id = (NoteData::GameplayType)3)] */ ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderGameNotePool,
                    ::GlobalNamespace::MirroredBombNoteController_Pool* mirroredBombNotePool, ::GlobalNamespace::MirroredObstacleController_Pool* mirroredObstaclePool,
                    ::GlobalNamespace::MirroredSliderController_Pool* mirroredSlidersPool);
 
@@ -262,13 +265,13 @@ protected:
   constexpr MirroredBeatmapObjectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredBeatmapObjectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredBeatmapObjectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirroredBeatmapObjectManager(MirroredBeatmapObjectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredBeatmapObjectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredBeatmapObjectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredBeatmapObjectManager(MirroredBeatmapObjectManager const&) = delete;
+  MirroredBeatmapObjectManager(MirroredBeatmapObjectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5635 };

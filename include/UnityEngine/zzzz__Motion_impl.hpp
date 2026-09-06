@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Motion.hpp"
+// IWYU pragma private; include "UnityEngine/Motion.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Motion_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

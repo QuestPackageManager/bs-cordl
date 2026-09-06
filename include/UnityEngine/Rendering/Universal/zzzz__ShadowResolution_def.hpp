@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowResolution.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowResolution.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   // @brief default ctor
   constexpr ShadowResolution();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ShadowResolution(int32_t value__) noexcept;
 
   /// @brief Field _1024 value: I32(1024)

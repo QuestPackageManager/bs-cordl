@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\TypeTraits.hpp"
+// IWYU pragma private; include "Unity/Properties/TypeTraits.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__TypeTraits_def.hpp"
 #include "System/zzzz__Type_def.hpp"

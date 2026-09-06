@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\BundleOptions.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/BundleOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct BundleOptions;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ResourceManagement::Profiling::BundleOptions);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::Profiling::BundleOptions, "UnityEngine.ResourceManagement.Profiling", "BundleOptions");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ResourceManagement::Profiling {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr BundleOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: None, comment: None }]
   constexpr BundleOptions(int16_t value__) noexcept;
 
   /// @brief Field CachingEnabled value: I16(1)

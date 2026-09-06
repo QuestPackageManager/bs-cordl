@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BezierSplineEvaluator.hpp"
+// IWYU pragma private; include "GlobalNamespace/BezierSplineEvaluator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
@@ -66,8 +66,9 @@ inline void GlobalNamespace::BezierSplineEvaluator_CubicSolveResult::_ctor(float
                                                                                          { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, solution1, solution2, solution3);
 }
-// Ctor Parameters [CppParam { name: "numberOfSolutions", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "solution1", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "solution2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "solution3", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "numberOfSolutions", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "solution1", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "solution2", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "solution3", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult::BezierSplineEvaluator_CubicSolveResult(int32_t numberOfSolutions, float_t solution1, float_t solution2,
                                                                                                             float_t solution3) noexcept {
   this->numberOfSolutions = numberOfSolutions;

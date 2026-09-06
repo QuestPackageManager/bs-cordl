@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\SafeHandleAccess.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/SafeHandleAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
   // @brief default ctor
   constexpr SafeHandleAccess();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr SafeHandleAccess(::System::IntPtr m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

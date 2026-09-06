@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\RequestStateExtensions.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/RequestStateExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class RequestStateExtensions;
 // Write type traits
 MARK_REF_T(::OculusStudios::GraphQL::ClientInterface::RequestStateExtensions*);
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::ClientInterface::RequestStateExtensions*, "OculusStudios.GraphQL.ClientInterface", "RequestStateExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::ClientInterface {
 // Is value type: false
@@ -23,6 +24,7 @@ namespace OculusStudios::GraphQL::ClientInterface {
 class CORDL_TYPE RequestStateExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ToVerboseLogFormat, addr 0x5f2d794, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW ToVerboseLogFormat(::OculusStudios::GraphQL::ClientInterface::RequestState state);
 
@@ -32,13 +34,13 @@ protected:
   constexpr RequestStateExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RequestStateExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RequestStateExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RequestStateExtensions(RequestStateExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RequestStateExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RequestStateExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RequestStateExtensions(RequestStateExtensions const&) = delete;
+  RequestStateExtensions(RequestStateExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22888 };

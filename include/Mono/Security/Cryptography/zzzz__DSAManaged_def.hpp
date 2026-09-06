@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Cryptography\DSAManaged.hpp"
+// IWYU pragma private; include "Mono/Security/Cryptography/DSAManaged.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr DSAManaged_KeyGeneratedEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DSAManaged_KeyGeneratedEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DSAManaged_KeyGeneratedEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DSAManaged_KeyGeneratedEventHandler(DSAManaged_KeyGeneratedEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DSAManaged_KeyGeneratedEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DSAManaged_KeyGeneratedEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DSAManaged_KeyGeneratedEventHandler(DSAManaged_KeyGeneratedEventHandler const&) = delete;
+  DSAManaged_KeyGeneratedEventHandler(DSAManaged_KeyGeneratedEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2285 };
@@ -246,6 +246,7 @@ public:
   /// @brief Method add, addr 0x5ac24c8, size 0x98, virtual false, abstract: false, final false
   inline void add(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b, int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_KeyGenerated, addr 0x5ac3580, size 0xac, virtual false, abstract: false, final false
   inline void add_KeyGenerated(::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler* value);
 
@@ -258,6 +259,7 @@ public:
   /// @brief Method get_Random, addr 0x5ac2560, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RandomNumberGenerator* get_Random();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_KeyGenerated, addr 0x5ac362c, size 0xac, virtual false, abstract: false, final false
   inline void remove_KeyGenerated(::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler* value);
 
@@ -267,13 +269,13 @@ protected:
   constexpr DSAManaged();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DSAManaged", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DSAManaged", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DSAManaged(DSAManaged&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DSAManaged", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DSAManaged", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DSAManaged(DSAManaged const&) = delete;
+  DSAManaged(DSAManagedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2286 };
@@ -314,6 +316,7 @@ public:
   /// @brief Field rng, offset: 0x68, size: 0x8, def value: None
   ::System::Security::Cryptography::RandomNumberGenerator* ___rng;
 
+  /// [CompilerGenerated]
   /// @brief Field KeyGenerated, offset: 0x70, size: 0x8, def value: None
   ::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler* ___KeyGenerated;
 

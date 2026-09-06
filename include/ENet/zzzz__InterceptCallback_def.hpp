@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\InterceptCallback.hpp"
+// IWYU pragma private; include "ENet/InterceptCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,13 +59,13 @@ protected:
   constexpr InterceptCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InterceptCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InterceptCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InterceptCallback(InterceptCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InterceptCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InterceptCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InterceptCallback(InterceptCallback const&) = delete;
+  InterceptCallback(InterceptCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21722 };

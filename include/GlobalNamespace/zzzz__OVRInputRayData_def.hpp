@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRInputRayData.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRInputRayData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,10 @@ public:
   // @brief default ctor
   constexpr OVRInputRayData();
 
-  // Ctor Parameters [CppParam { name: "IsActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ActivationStrength", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "IsOverCanvas", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "DistanceToCanvas", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "WorldPosition", ty:
-  // "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "WorldNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "IsActive", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "ActivationStrength", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "IsOverCanvas", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "DistanceToCanvas", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "WorldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "WorldNormal", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRInputRayData(bool IsActive, float_t ActivationStrength, bool IsOverCanvas, float_t DistanceToCanvas, ::UnityEngine::Vector3 WorldPosition, ::UnityEngine::Vector3 WorldNormal) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

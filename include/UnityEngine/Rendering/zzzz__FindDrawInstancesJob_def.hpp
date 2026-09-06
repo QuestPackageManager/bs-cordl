@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FindDrawInstancesJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FindDrawInstancesJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct FindDrawInstancesJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::FindDrawInstancesJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::FindDrawInstancesJob, "UnityEngine.Rendering", "FindDrawInstancesJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1::ParallelWriter<T>, Unity.Collections.NativeList`1<T>, UnityEngine.Rendering.DrawInstance,
 // UnityEngine.Rendering.InstanceHandle
 namespace UnityEngine::Rendering {
@@ -41,9 +42,9 @@ public:
   // @brief default ctor
   constexpr FindDrawInstancesJob();
 
-  // Ctor Parameters [CppParam { name: "instancesSorted", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: None }, CppParam { name:
-  // "drawInstances", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: None }, CppParam { name: "outDrawInstanceIndicesWriter", ty:
-  // "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instancesSorted", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "drawInstances", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "outDrawInstanceIndicesWriter", ty: "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr FindDrawInstancesJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instancesSorted,
                                  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances,
                                  ::Unity::Collections::NativeList_1_ParallelWriter<int32_t> outDrawInstanceIndicesWriter) noexcept;
@@ -57,12 +58,17 @@ public:
   /// @brief Field k_BatchSize offset 0xffffffff size 0x4
   static constexpr int32_t k_BatchSize{ static_cast<int32_t>(0x80) };
 
+  /// [ReadOnly]
   /// @brief Field instancesSorted, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instancesSorted;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [ReadOnly]
   /// @brief Field drawInstances, offset: 0x10, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances;
 
+  /// [WriteOnly]
   /// @brief Field outDrawInstanceIndicesWriter, offset: 0x18, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1_ParallelWriter<int32_t> outDrawInstanceIndicesWriter;
 

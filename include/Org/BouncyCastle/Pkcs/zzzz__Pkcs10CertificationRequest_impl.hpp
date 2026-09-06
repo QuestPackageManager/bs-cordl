@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkcs\Pkcs10CertificationRequest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs10CertificationRequest.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__CertificationRequest_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs10CertificationRequest_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsassaPssParameters_def.hpp"
@@ -438,6 +438,7 @@ inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* Org::BouncyCastle:
                                                                                                                             ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest*>(signatureAlgorithm, subject, publicKey, attributes, signingKey));
 }
+/// @brief [Obsolete("Use constructor without \'signingKey\' parameter (ignored here)")]
 inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::New_ctor(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureFactory,
                                                                                                                             ::Org::BouncyCastle::Asn1::X509::X509Name* subject,
                                                                                                                             ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,

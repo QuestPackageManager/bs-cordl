@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScriptableRendererFeature.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScriptableRendererFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class ScriptableRendererFeature;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::ScriptableRendererFeature*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScriptableRendererFeature*, "UnityEngine.Rendering.Universal", "ScriptableRendererFeature");
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -45,10 +46,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddRenderPasses, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Create();
 
   /// @brief Method Dispose, addr 0x68ba0c0, size 0x70, virtual true, abstract: false, final true
@@ -60,7 +61,7 @@ public:
   static inline ::UnityEngine::Rendering::Universal::ScriptableRendererFeature* New_ctor();
 
   /// @brief Method OnCameraPreCull, addr 0x68b9ec8, size 0x4, virtual true, abstract: false, final false
-  inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
   /// @brief Method OnEnable, addr 0x68b9ed0, size 0xe8, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -76,7 +77,7 @@ public:
   inline void SetActive(bool active);
 
   /// @brief Method SetupRenderPasses, addr 0x68b9ecc, size 0x4, virtual true, abstract: false, final false
-  inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+  inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// @brief Method SupportsNativeRenderPass, addr 0x68ba0a0, size 0x8, virtual true, abstract: false, final false
   inline bool SupportsNativeRenderPass();
@@ -102,17 +103,19 @@ protected:
   constexpr ScriptableRendererFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRendererFeature(ScriptableRendererFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRendererFeature(ScriptableRendererFeature const&) = delete;
+  ScriptableRendererFeature(ScriptableRendererFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12948 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Active, offset: 0x18, size: 0x1, def value: None
   bool ___m_Active;
 

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\OfferTerm.hpp"
+// IWYU pragma private; include "Oculus/Platform/OfferTerm.hpp"
 #include "Oculus/Platform/zzzz__OfferTerm_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::OfferTerm::OfferTerm(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyViewNodesEnumerable.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyViewNodesEnumerable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ class CORDL_TYPE HierarchyViewNodesEnumerable_Predicate : public ::System::Multi
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6b383b4, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline bool Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   static inline ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -73,13 +73,13 @@ protected:
   constexpr HierarchyViewNodesEnumerable_Predicate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewNodesEnumerable_Predicate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewNodesEnumerable_Predicate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyViewNodesEnumerable_Predicate(HierarchyViewNodesEnumerable_Predicate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewNodesEnumerable_Predicate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewNodesEnumerable_Predicate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyViewNodesEnumerable_Predicate(HierarchyViewNodesEnumerable_Predicate const&) = delete;
+  HierarchyViewNodesEnumerable_Predicate(HierarchyViewNodesEnumerable_Predicateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21934 };
@@ -97,6 +97,7 @@ namespace Unity::Hierarchy {
 struct CORDL_TYPE HierarchyViewNodesEnumerable_Enumerator {
 public:
   // Declarations
+  /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::Unity::Hierarchy::HierarchyNode Current;
 
   /// @brief Method MoveNext, addr 0x6b38454, size 0xd4, virtual false, abstract: false, final false
@@ -115,10 +116,11 @@ public:
   // @brief default ctor
   constexpr HierarchyViewNodesEnumerable_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: None }, CppParam { name: "m_Predicate", ty:
-  // "::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "::Unity::Hierarchy::HierarchyNodeFlags", modifiers: "",
-  // def_value: None }, CppParam { name: "m_NodesPtr", ty: "::Unity::Hierarchy::HierarchyFlattenedNode*", modifiers: "", def_value: None }, CppParam { name: "m_NodesCount", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Predicate", ty:
+  // "::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Flags", ty: "::Unity::Hierarchy::HierarchyNodeFlags",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NodesPtr", ty: "::Unity::Hierarchy::HierarchyFlattenedNode*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_NodesCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyViewNodesEnumerable_Enumerator(::Unity::Hierarchy::HierarchyFlattened* m_HierarchyFlattened, ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate* m_Predicate,
                                                     ::Unity::Hierarchy::HierarchyNodeFlags m_Flags, ::Unity::Hierarchy::HierarchyFlattenedNode* m_NodesPtr, int32_t m_NodesCount, int32_t m_Version,
                                                     int32_t m_Index) noexcept;
@@ -170,6 +172,7 @@ static_assert(offsetof(::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerat
 static_assert(sizeof(::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator) == 0x30, "Size mismatch!");
 
 } // namespace Unity::Hierarchy
+// [IsReadOnly]
 // Dependencies Unity.Hierarchy.HierarchyNodeFlags
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -191,9 +194,9 @@ public:
   // @brief default ctor
   constexpr HierarchyViewNodesEnumerable();
 
-  // Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: None }, CppParam { name: "m_Predicate", ty:
-  // "::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "::Unity::Hierarchy::HierarchyNodeFlags", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Predicate", ty:
+  // "::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Flags", ty: "::Unity::Hierarchy::HierarchyNodeFlags",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyViewNodesEnumerable(::Unity::Hierarchy::HierarchyViewModel* m_HierarchyViewModel, ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate* m_Predicate,
                                          ::Unity::Hierarchy::HierarchyNodeFlags m_Flags) noexcept;
 

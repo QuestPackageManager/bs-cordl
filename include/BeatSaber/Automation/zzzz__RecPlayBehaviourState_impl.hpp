@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Automation\RecPlayBehaviourState.hpp"
+// IWYU pragma private; include "BeatSaber/Automation/RecPlayBehaviourState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Automation/zzzz__RecPlayBehaviourState_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Automation::RecPlayBehaviourState._ctor

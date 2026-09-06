@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssetBundleUnloadOperation.hpp"
+// IWYU pragma private; include "UnityEngine/AssetBundleUnloadOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ protected:
   constexpr AssetBundleUnloadOperation_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleUnloadOperation_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleUnloadOperation_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleUnloadOperation_BindingsMarshaller(AssetBundleUnloadOperation_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleUnloadOperation_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleUnloadOperation_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleUnloadOperation_BindingsMarshaller(AssetBundleUnloadOperation_BindingsMarshaller const&) = delete;
+  AssetBundleUnloadOperation_BindingsMarshaller(AssetBundleUnloadOperation_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23098 };
@@ -60,6 +60,8 @@ public:
 static_assert(sizeof(::UnityEngine::AssetBundleUnloadOperation_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleUnloadOperation.h")]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.AsyncOperation
 namespace UnityEngine {
 // Is value type: false
@@ -71,6 +73,7 @@ public:
 
   static inline ::UnityEngine::AssetBundleUnloadOperation* New_ctor(::System::IntPtr ptr);
 
+  /// [NativeMethod("WaitForCompletion")]
   /// @brief Method WaitForCompletion, addr 0x6a4c348, size 0x50, virtual false, abstract: false, final false
   inline void WaitForCompletion();
 
@@ -86,13 +89,13 @@ protected:
   constexpr AssetBundleUnloadOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleUnloadOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleUnloadOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleUnloadOperation(AssetBundleUnloadOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleUnloadOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleUnloadOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleUnloadOperation(AssetBundleUnloadOperation const&) = delete;
+  AssetBundleUnloadOperation(AssetBundleUnloadOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23099 };

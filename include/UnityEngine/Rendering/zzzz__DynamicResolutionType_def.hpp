@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DynamicResolutionType.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DynamicResolutionType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   // @brief default ctor
   constexpr DynamicResolutionType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr DynamicResolutionType(uint8_t value__) noexcept;
 
   /// @brief Field Hardware value: U8(1)

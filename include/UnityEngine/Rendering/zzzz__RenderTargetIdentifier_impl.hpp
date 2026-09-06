@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderTargetIdentifier.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BuiltinRenderTextureType_impl.hpp"
 #include "UnityEngine/zzzz__CubemapFace_impl.hpp"
@@ -382,10 +382,11 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifie
 UnityEngine::Rendering::RenderTargetIdentifier::i___System__IEquatable_1___UnityEngine__Rendering__RenderTargetIdentifier_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::Rendering::BuiltinRenderTextureType", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NameID", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_InstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BufferPointer", ty: "::System::IntPtr", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_MipLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CubeFace", ty: "::UnityEngine::CubemapFace", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_DepthSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::Rendering::BuiltinRenderTextureType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NameID", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_BufferPointer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MipLevel", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "m_CubeFace", ty: "::UnityEngine::CubemapFace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DepthSlice", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderTargetIdentifier::RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType m_Type, int32_t m_NameID, int32_t m_InstanceID,
                                                                                    ::System::IntPtr m_BufferPointer, int32_t m_MipLevel, ::UnityEngine::CubemapFace m_CubeFace,
                                                                                    int32_t m_DepthSlice) noexcept {

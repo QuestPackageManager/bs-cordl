@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\float4.hpp"
+// IWYU pragma private; include "Unity/Mathematics/float4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,13 +117,13 @@ protected:
   constexpr float4_DebuggerProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "float4_DebuggerProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "float4_DebuggerProxy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   float4_DebuggerProxy(float4_DebuggerProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "float4_DebuggerProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "float4_DebuggerProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  float4_DebuggerProxy(float4_DebuggerProxy const&) = delete;
+  float4_DebuggerProxy(float4_DebuggerProxyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13168 };
@@ -154,6 +154,9 @@ static_assert(offsetof(::Unity::Mathematics::float4_DebuggerProxy, ___w) == 0x1c
 static_assert(sizeof(::Unity::Mathematics::float4_DebuggerProxy) == 0x20, "Size mismatch!");
 
 } // namespace Unity::Mathematics
+// [DefaultMember("Item")]
+// [DebuggerTypeProxy(typeof(Unity.Mathematics.float4::DebuggerProxy))]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies
 namespace Unity::Mathematics {
 // Is value type: true
@@ -165,679 +168,1015 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) float_t Item[];
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ww)) ::Unity::Mathematics::float2 ww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_www)) ::Unity::Mathematics::float3 www;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwww)) ::Unity::Mathematics::float4 wwww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwwx)) ::Unity::Mathematics::float4 wwwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwwy)) ::Unity::Mathematics::float4 wwwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwwz)) ::Unity::Mathematics::float4 wwwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwx)) ::Unity::Mathematics::float3 wwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwxw)) ::Unity::Mathematics::float4 wwxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwxx)) ::Unity::Mathematics::float4 wwxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwxy)) ::Unity::Mathematics::float4 wwxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwxz)) ::Unity::Mathematics::float4 wwxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwy)) ::Unity::Mathematics::float3 wwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwyw)) ::Unity::Mathematics::float4 wwyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwyx)) ::Unity::Mathematics::float4 wwyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwyy)) ::Unity::Mathematics::float4 wwyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwyz)) ::Unity::Mathematics::float4 wwyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwz)) ::Unity::Mathematics::float3 wwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwzw)) ::Unity::Mathematics::float4 wwzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwzx)) ::Unity::Mathematics::float4 wwzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwzy)) ::Unity::Mathematics::float4 wwzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwzz)) ::Unity::Mathematics::float4 wwzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wx, put = set_wx)) ::Unity::Mathematics::float2 wx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxw)) ::Unity::Mathematics::float3 wxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxww)) ::Unity::Mathematics::float4 wxww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxwx)) ::Unity::Mathematics::float4 wxwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxwy)) ::Unity::Mathematics::float4 wxwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxwz)) ::Unity::Mathematics::float4 wxwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxx)) ::Unity::Mathematics::float3 wxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxxw)) ::Unity::Mathematics::float4 wxxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxxx)) ::Unity::Mathematics::float4 wxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxxy)) ::Unity::Mathematics::float4 wxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxxz)) ::Unity::Mathematics::float4 wxxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxy, put = set_wxy)) ::Unity::Mathematics::float3 wxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxyw)) ::Unity::Mathematics::float4 wxyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxyx)) ::Unity::Mathematics::float4 wxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxyy)) ::Unity::Mathematics::float4 wxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxyz, put = set_wxyz)) ::Unity::Mathematics::float4 wxyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxz, put = set_wxz)) ::Unity::Mathematics::float3 wxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxzw)) ::Unity::Mathematics::float4 wxzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxzx)) ::Unity::Mathematics::float4 wxzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxzy, put = set_wxzy)) ::Unity::Mathematics::float4 wxzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxzz)) ::Unity::Mathematics::float4 wxzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wy, put = set_wy)) ::Unity::Mathematics::float2 wy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyw)) ::Unity::Mathematics::float3 wyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyww)) ::Unity::Mathematics::float4 wyww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wywx)) ::Unity::Mathematics::float4 wywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wywy)) ::Unity::Mathematics::float4 wywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wywz)) ::Unity::Mathematics::float4 wywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyx, put = set_wyx)) ::Unity::Mathematics::float3 wyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyxw)) ::Unity::Mathematics::float4 wyxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyxx)) ::Unity::Mathematics::float4 wyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyxy)) ::Unity::Mathematics::float4 wyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyxz, put = set_wyxz)) ::Unity::Mathematics::float4 wyxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyy)) ::Unity::Mathematics::float3 wyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyyw)) ::Unity::Mathematics::float4 wyyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyyx)) ::Unity::Mathematics::float4 wyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyyy)) ::Unity::Mathematics::float4 wyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyyz)) ::Unity::Mathematics::float4 wyyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyz, put = set_wyz)) ::Unity::Mathematics::float3 wyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyzw)) ::Unity::Mathematics::float4 wyzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyzx, put = set_wyzx)) ::Unity::Mathematics::float4 wyzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyzy)) ::Unity::Mathematics::float4 wyzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyzz)) ::Unity::Mathematics::float4 wyzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wz, put = set_wz)) ::Unity::Mathematics::float2 wz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzw)) ::Unity::Mathematics::float3 wzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzww)) ::Unity::Mathematics::float4 wzww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzwx)) ::Unity::Mathematics::float4 wzwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzwy)) ::Unity::Mathematics::float4 wzwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzwz)) ::Unity::Mathematics::float4 wzwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzx, put = set_wzx)) ::Unity::Mathematics::float3 wzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzxw)) ::Unity::Mathematics::float4 wzxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzxx)) ::Unity::Mathematics::float4 wzxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzxy, put = set_wzxy)) ::Unity::Mathematics::float4 wzxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzxz)) ::Unity::Mathematics::float4 wzxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzy, put = set_wzy)) ::Unity::Mathematics::float3 wzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzyw)) ::Unity::Mathematics::float4 wzyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzyx, put = set_wzyx)) ::Unity::Mathematics::float4 wzyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzyy)) ::Unity::Mathematics::float4 wzyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzyz)) ::Unity::Mathematics::float4 wzyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzz)) ::Unity::Mathematics::float3 wzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzzw)) ::Unity::Mathematics::float4 wzzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzzx)) ::Unity::Mathematics::float4 wzzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzzy)) ::Unity::Mathematics::float4 wzzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzzz)) ::Unity::Mathematics::float4 wzzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xw, put = set_xw)) ::Unity::Mathematics::float2 xw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xww)) ::Unity::Mathematics::float3 xww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwww)) ::Unity::Mathematics::float4 xwww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwwx)) ::Unity::Mathematics::float4 xwwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwwy)) ::Unity::Mathematics::float4 xwwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwwz)) ::Unity::Mathematics::float4 xwwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwx)) ::Unity::Mathematics::float3 xwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwxw)) ::Unity::Mathematics::float4 xwxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwxx)) ::Unity::Mathematics::float4 xwxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwxy)) ::Unity::Mathematics::float4 xwxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwxz)) ::Unity::Mathematics::float4 xwxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwy, put = set_xwy)) ::Unity::Mathematics::float3 xwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwyw)) ::Unity::Mathematics::float4 xwyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwyx)) ::Unity::Mathematics::float4 xwyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwyy)) ::Unity::Mathematics::float4 xwyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwyz, put = set_xwyz)) ::Unity::Mathematics::float4 xwyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwz, put = set_xwz)) ::Unity::Mathematics::float3 xwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwzw)) ::Unity::Mathematics::float4 xwzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwzx)) ::Unity::Mathematics::float4 xwzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwzy, put = set_xwzy)) ::Unity::Mathematics::float4 xwzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwzz)) ::Unity::Mathematics::float4 xwzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xx)) ::Unity::Mathematics::float2 xx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxw)) ::Unity::Mathematics::float3 xxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxww)) ::Unity::Mathematics::float4 xxww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxwx)) ::Unity::Mathematics::float4 xxwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxwy)) ::Unity::Mathematics::float4 xxwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxwz)) ::Unity::Mathematics::float4 xxwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxx)) ::Unity::Mathematics::float3 xxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxw)) ::Unity::Mathematics::float4 xxxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxx)) ::Unity::Mathematics::float4 xxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxy)) ::Unity::Mathematics::float4 xxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxz)) ::Unity::Mathematics::float4 xxxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxy)) ::Unity::Mathematics::float3 xxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyw)) ::Unity::Mathematics::float4 xxyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyx)) ::Unity::Mathematics::float4 xxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyy)) ::Unity::Mathematics::float4 xxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyz)) ::Unity::Mathematics::float4 xxyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxz)) ::Unity::Mathematics::float3 xxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxzw)) ::Unity::Mathematics::float4 xxzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxzx)) ::Unity::Mathematics::float4 xxzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxzy)) ::Unity::Mathematics::float4 xxzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxzz)) ::Unity::Mathematics::float4 xxzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xy, put = set_xy)) ::Unity::Mathematics::float2 xy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyw, put = set_xyw)) ::Unity::Mathematics::float3 xyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyww)) ::Unity::Mathematics::float4 xyww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xywx)) ::Unity::Mathematics::float4 xywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xywy)) ::Unity::Mathematics::float4 xywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xywz, put = set_xywz)) ::Unity::Mathematics::float4 xywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyx)) ::Unity::Mathematics::float3 xyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxw)) ::Unity::Mathematics::float4 xyxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxx)) ::Unity::Mathematics::float4 xyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxy)) ::Unity::Mathematics::float4 xyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxz)) ::Unity::Mathematics::float4 xyxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyy)) ::Unity::Mathematics::float3 xyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyw)) ::Unity::Mathematics::float4 xyyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyx)) ::Unity::Mathematics::float4 xyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyy)) ::Unity::Mathematics::float4 xyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyz)) ::Unity::Mathematics::float4 xyyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyz, put = set_xyz)) ::Unity::Mathematics::float3 xyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyzw, put = set_xyzw)) ::Unity::Mathematics::float4 xyzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyzx)) ::Unity::Mathematics::float4 xyzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyzy)) ::Unity::Mathematics::float4 xyzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyzz)) ::Unity::Mathematics::float4 xyzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xz, put = set_xz)) ::Unity::Mathematics::float2 xz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzw, put = set_xzw)) ::Unity::Mathematics::float3 xzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzww)) ::Unity::Mathematics::float4 xzww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzwx)) ::Unity::Mathematics::float4 xzwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzwy, put = set_xzwy)) ::Unity::Mathematics::float4 xzwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzwz)) ::Unity::Mathematics::float4 xzwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzx)) ::Unity::Mathematics::float3 xzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzxw)) ::Unity::Mathematics::float4 xzxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzxx)) ::Unity::Mathematics::float4 xzxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzxy)) ::Unity::Mathematics::float4 xzxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzxz)) ::Unity::Mathematics::float4 xzxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzy, put = set_xzy)) ::Unity::Mathematics::float3 xzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzyw, put = set_xzyw)) ::Unity::Mathematics::float4 xzyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzyx)) ::Unity::Mathematics::float4 xzyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzyy)) ::Unity::Mathematics::float4 xzyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzyz)) ::Unity::Mathematics::float4 xzyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzz)) ::Unity::Mathematics::float3 xzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzzw)) ::Unity::Mathematics::float4 xzzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzzx)) ::Unity::Mathematics::float4 xzzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzzy)) ::Unity::Mathematics::float4 xzzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzzz)) ::Unity::Mathematics::float4 xzzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yw, put = set_yw)) ::Unity::Mathematics::float2 yw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yww)) ::Unity::Mathematics::float3 yww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywww)) ::Unity::Mathematics::float4 ywww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywwx)) ::Unity::Mathematics::float4 ywwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywwy)) ::Unity::Mathematics::float4 ywwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywwz)) ::Unity::Mathematics::float4 ywwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywx, put = set_ywx)) ::Unity::Mathematics::float3 ywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywxw)) ::Unity::Mathematics::float4 ywxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywxx)) ::Unity::Mathematics::float4 ywxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywxy)) ::Unity::Mathematics::float4 ywxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywxz, put = set_ywxz)) ::Unity::Mathematics::float4 ywxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywy)) ::Unity::Mathematics::float3 ywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywyw)) ::Unity::Mathematics::float4 ywyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywyx)) ::Unity::Mathematics::float4 ywyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywyy)) ::Unity::Mathematics::float4 ywyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywyz)) ::Unity::Mathematics::float4 ywyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywz, put = set_ywz)) ::Unity::Mathematics::float3 ywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywzw)) ::Unity::Mathematics::float4 ywzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywzx, put = set_ywzx)) ::Unity::Mathematics::float4 ywzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywzy)) ::Unity::Mathematics::float4 ywzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywzz)) ::Unity::Mathematics::float4 ywzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yx, put = set_yx)) ::Unity::Mathematics::float2 yx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxw, put = set_yxw)) ::Unity::Mathematics::float3 yxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxww)) ::Unity::Mathematics::float4 yxww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxwx)) ::Unity::Mathematics::float4 yxwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxwy)) ::Unity::Mathematics::float4 yxwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxwz, put = set_yxwz)) ::Unity::Mathematics::float4 yxwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxx)) ::Unity::Mathematics::float3 yxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxw)) ::Unity::Mathematics::float4 yxxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxx)) ::Unity::Mathematics::float4 yxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxy)) ::Unity::Mathematics::float4 yxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxz)) ::Unity::Mathematics::float4 yxxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxy)) ::Unity::Mathematics::float3 yxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyw)) ::Unity::Mathematics::float4 yxyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyx)) ::Unity::Mathematics::float4 yxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyy)) ::Unity::Mathematics::float4 yxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyz)) ::Unity::Mathematics::float4 yxyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxz, put = set_yxz)) ::Unity::Mathematics::float3 yxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxzw, put = set_yxzw)) ::Unity::Mathematics::float4 yxzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxzx)) ::Unity::Mathematics::float4 yxzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxzy)) ::Unity::Mathematics::float4 yxzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxzz)) ::Unity::Mathematics::float4 yxzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yy)) ::Unity::Mathematics::float2 yy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyw)) ::Unity::Mathematics::float3 yyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyww)) ::Unity::Mathematics::float4 yyww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yywx)) ::Unity::Mathematics::float4 yywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yywy)) ::Unity::Mathematics::float4 yywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yywz)) ::Unity::Mathematics::float4 yywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyx)) ::Unity::Mathematics::float3 yyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxw)) ::Unity::Mathematics::float4 yyxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxx)) ::Unity::Mathematics::float4 yyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxy)) ::Unity::Mathematics::float4 yyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxz)) ::Unity::Mathematics::float4 yyxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyy)) ::Unity::Mathematics::float3 yyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyw)) ::Unity::Mathematics::float4 yyyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyx)) ::Unity::Mathematics::float4 yyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyy)) ::Unity::Mathematics::float4 yyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyz)) ::Unity::Mathematics::float4 yyyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyz)) ::Unity::Mathematics::float3 yyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyzw)) ::Unity::Mathematics::float4 yyzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyzx)) ::Unity::Mathematics::float4 yyzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyzy)) ::Unity::Mathematics::float4 yyzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyzz)) ::Unity::Mathematics::float4 yyzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yz, put = set_yz)) ::Unity::Mathematics::float2 yz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzw, put = set_yzw)) ::Unity::Mathematics::float3 yzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzww)) ::Unity::Mathematics::float4 yzww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzwx, put = set_yzwx)) ::Unity::Mathematics::float4 yzwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzwy)) ::Unity::Mathematics::float4 yzwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzwz)) ::Unity::Mathematics::float4 yzwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzx, put = set_yzx)) ::Unity::Mathematics::float3 yzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzxw, put = set_yzxw)) ::Unity::Mathematics::float4 yzxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzxx)) ::Unity::Mathematics::float4 yzxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzxy)) ::Unity::Mathematics::float4 yzxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzxz)) ::Unity::Mathematics::float4 yzxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzy)) ::Unity::Mathematics::float3 yzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzyw)) ::Unity::Mathematics::float4 yzyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzyx)) ::Unity::Mathematics::float4 yzyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzyy)) ::Unity::Mathematics::float4 yzyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzyz)) ::Unity::Mathematics::float4 yzyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzz)) ::Unity::Mathematics::float3 yzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzzw)) ::Unity::Mathematics::float4 yzzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzzx)) ::Unity::Mathematics::float4 yzzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzzy)) ::Unity::Mathematics::float4 yzzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzzz)) ::Unity::Mathematics::float4 yzzz;
 
   /// @brief Field zero, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_zero, put = setStaticF_zero)) ::Unity::Mathematics::float4 zero;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zw, put = set_zw)) ::Unity::Mathematics::float2 zw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zww)) ::Unity::Mathematics::float3 zww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwww)) ::Unity::Mathematics::float4 zwww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwwx)) ::Unity::Mathematics::float4 zwwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwwy)) ::Unity::Mathematics::float4 zwwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwwz)) ::Unity::Mathematics::float4 zwwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwx, put = set_zwx)) ::Unity::Mathematics::float3 zwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwxw)) ::Unity::Mathematics::float4 zwxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwxx)) ::Unity::Mathematics::float4 zwxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwxy, put = set_zwxy)) ::Unity::Mathematics::float4 zwxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwxz)) ::Unity::Mathematics::float4 zwxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwy, put = set_zwy)) ::Unity::Mathematics::float3 zwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwyw)) ::Unity::Mathematics::float4 zwyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwyx, put = set_zwyx)) ::Unity::Mathematics::float4 zwyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwyy)) ::Unity::Mathematics::float4 zwyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwyz)) ::Unity::Mathematics::float4 zwyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwz)) ::Unity::Mathematics::float3 zwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwzw)) ::Unity::Mathematics::float4 zwzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwzx)) ::Unity::Mathematics::float4 zwzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwzy)) ::Unity::Mathematics::float4 zwzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwzz)) ::Unity::Mathematics::float4 zwzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zx, put = set_zx)) ::Unity::Mathematics::float2 zx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxw, put = set_zxw)) ::Unity::Mathematics::float3 zxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxww)) ::Unity::Mathematics::float4 zxww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxwx)) ::Unity::Mathematics::float4 zxwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxwy, put = set_zxwy)) ::Unity::Mathematics::float4 zxwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxwz)) ::Unity::Mathematics::float4 zxwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxx)) ::Unity::Mathematics::float3 zxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxxw)) ::Unity::Mathematics::float4 zxxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxxx)) ::Unity::Mathematics::float4 zxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxxy)) ::Unity::Mathematics::float4 zxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxxz)) ::Unity::Mathematics::float4 zxxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxy, put = set_zxy)) ::Unity::Mathematics::float3 zxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxyw, put = set_zxyw)) ::Unity::Mathematics::float4 zxyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxyx)) ::Unity::Mathematics::float4 zxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxyy)) ::Unity::Mathematics::float4 zxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxyz)) ::Unity::Mathematics::float4 zxyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxz)) ::Unity::Mathematics::float3 zxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxzw)) ::Unity::Mathematics::float4 zxzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxzx)) ::Unity::Mathematics::float4 zxzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxzy)) ::Unity::Mathematics::float4 zxzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxzz)) ::Unity::Mathematics::float4 zxzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zy, put = set_zy)) ::Unity::Mathematics::float2 zy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyw, put = set_zyw)) ::Unity::Mathematics::float3 zyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyww)) ::Unity::Mathematics::float4 zyww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zywx, put = set_zywx)) ::Unity::Mathematics::float4 zywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zywy)) ::Unity::Mathematics::float4 zywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zywz)) ::Unity::Mathematics::float4 zywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyx, put = set_zyx)) ::Unity::Mathematics::float3 zyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyxw, put = set_zyxw)) ::Unity::Mathematics::float4 zyxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyxx)) ::Unity::Mathematics::float4 zyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyxy)) ::Unity::Mathematics::float4 zyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyxz)) ::Unity::Mathematics::float4 zyxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyy)) ::Unity::Mathematics::float3 zyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyyw)) ::Unity::Mathematics::float4 zyyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyyx)) ::Unity::Mathematics::float4 zyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyyy)) ::Unity::Mathematics::float4 zyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyyz)) ::Unity::Mathematics::float4 zyyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyz)) ::Unity::Mathematics::float3 zyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyzw)) ::Unity::Mathematics::float4 zyzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyzx)) ::Unity::Mathematics::float4 zyzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyzy)) ::Unity::Mathematics::float4 zyzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyzz)) ::Unity::Mathematics::float4 zyzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zz)) ::Unity::Mathematics::float2 zz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzw)) ::Unity::Mathematics::float3 zzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzww)) ::Unity::Mathematics::float4 zzww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzwx)) ::Unity::Mathematics::float4 zzwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzwy)) ::Unity::Mathematics::float4 zzwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzwz)) ::Unity::Mathematics::float4 zzwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzx)) ::Unity::Mathematics::float3 zzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzxw)) ::Unity::Mathematics::float4 zzxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzxx)) ::Unity::Mathematics::float4 zzxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzxy)) ::Unity::Mathematics::float4 zzxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzxz)) ::Unity::Mathematics::float4 zzxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzy)) ::Unity::Mathematics::float3 zzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzyw)) ::Unity::Mathematics::float4 zzyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzyx)) ::Unity::Mathematics::float4 zzyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzyy)) ::Unity::Mathematics::float4 zzyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzyz)) ::Unity::Mathematics::float4 zzyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzz)) ::Unity::Mathematics::float3 zzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzzw)) ::Unity::Mathematics::float4 zzzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzzx)) ::Unity::Mathematics::float4 zzzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzzy)) ::Unity::Mathematics::float4 zzzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzzz)) ::Unity::Mathematics::float4 zzzz;
 
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Mathematics::float4>"
@@ -2276,8 +2615,8 @@ public:
   // @brief default ctor
   constexpr float4();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr float4(float_t x, float_t y, float_t z, float_t w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

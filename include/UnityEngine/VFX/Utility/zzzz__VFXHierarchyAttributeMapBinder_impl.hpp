@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXHierarchyAttributeMapBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXHierarchyAttributeMapBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXHierarchyAttributeMapBinder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -8,7 +8,7 @@
 #include "UnityEngine/VFX/zzzz__VisualEffect_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_RadiusMode::VFXHierarchyAttributeMapBinder_RadiusMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -16,9 +16,9 @@ constexpr ::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_RadiusMode
 constexpr ::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_RadiusMode::VFXHierarchyAttributeMapBinder_RadiusMode() {}
 constexpr ::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_RadiusMode UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_RadiusMode::Fixed{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_RadiusMode UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_RadiusMode::Interpolate{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "source", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sourceRadius", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "target", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "targetRadius", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "source", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sourceRadius", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "target", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "targetRadius", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_Bone::VFXHierarchyAttributeMapBinder_Bone(::UnityW<::UnityEngine::Transform> source, float_t sourceRadius,
                                                                                                                 ::UnityW<::UnityEngine::Transform> target, float_t targetRadius) noexcept {
   this->source = source;

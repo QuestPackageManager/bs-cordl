@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SafeAreaRectChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace/SafeAreaRectChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,13 +60,13 @@ protected:
   constexpr SafeAreaRectChecker_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeAreaRectChecker_InitData(SafeAreaRectChecker_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeAreaRectChecker_InitData(SafeAreaRectChecker_InitData const&) = delete;
+  SafeAreaRectChecker_InitData(SafeAreaRectChecker_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6331 };
@@ -200,44 +200,53 @@ protected:
   constexpr SafeAreaRectChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeAreaRectChecker(SafeAreaRectChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeAreaRectChecker(SafeAreaRectChecker const&) = delete;
+  SafeAreaRectChecker(SafeAreaRectCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };
 
+  /// [SerializeField]
   /// @brief Field _minAngleX, offset: 0x20, size: 0x4, def value: None
   float_t ____minAngleX;
 
+  /// [SerializeField]
   /// @brief Field _maxAngleX, offset: 0x24, size: 0x4, def value: None
   float_t ____maxAngleX;
 
+  /// [SerializeField]
   /// @brief Field _minAngleY, offset: 0x28, size: 0x4, def value: None
   float_t ____minAngleY;
 
+  /// [SerializeField]
   /// @brief Field _maxAngleY, offset: 0x2c, size: 0x4, def value: None
   float_t ____maxAngleY;
 
+  /// [SerializeField]
   /// @brief Field _activeObjectWhenInsideSafeArea, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____activeObjectWhenInsideSafeArea;
 
+  /// [SerializeField]
   /// @brief Field _activeObjectWhenNotInsideSafeArea, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____activeObjectWhenNotInsideSafeArea;
 
+  /// [SerializeField]
   /// @brief Field _rectTransformToCheck, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransformToCheck;
 
   /// @brief Field _corners, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> ____corners;
 
+  /// [Inject]
   /// @brief Field _mainCamera, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::SafeAreaRectChecker_InitData* ____initData;
 

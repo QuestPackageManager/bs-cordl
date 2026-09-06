@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindableElement.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindableElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::UnityEngine::UIElements::BindableElement_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BindableElement*, "UnityEngine.UIElements", "BindableElement");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BindableElement_UxmlFactory*, "UnityEngine.UIElements", "BindableElement/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BindableElement_UxmlTraits*, "UnityEngine.UIElements", "BindableElement/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -66,13 +67,13 @@ protected:
   constexpr BindableElement_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindableElement_UxmlFactory(BindableElement_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindableElement_UxmlFactory(BindableElement_UxmlFactory const&) = delete;
+  BindableElement_UxmlFactory(BindableElement_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4017 };
@@ -83,6 +84,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::BindableElement_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -113,13 +115,13 @@ protected:
   constexpr BindableElement_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindableElement_UxmlTraits(BindableElement_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindableElement_UxmlTraits(BindableElement_UxmlTraits const&) = delete;
+  BindableElement_UxmlTraits(BindableElement_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4018 };
@@ -176,12 +178,14 @@ public:
   /// @brief Method .ctor, addr 0x6c305c4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_binding, addr 0x6c305b4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IBinding* get_binding();
 
   /// @brief Convert to "::UnityEngine::UIElements::IBindable"
   constexpr ::UnityEngine::UIElements::IBindable* i___UnityEngine__UIElements__IBindable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_bindingPath, addr 0x6c305bc, size 0x8, virtual true, abstract: false, final true
   inline void set_bindingPath(::StringW value);
 
@@ -191,13 +195,13 @@ protected:
   constexpr BindableElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindableElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindableElement(BindableElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindableElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindableElement(BindableElement const&) = delete;
+  BindableElement(BindableElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4019 };
@@ -205,9 +209,13 @@ public:
   /// @brief Field k_BindingPathTooltip offset 0xffffffff size 0x8
   static constexpr ::ConstString k_BindingPathTooltip{ u"Default method to define a path to a serialized property. Most often used for Editor extensions and inspectors." };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <binding>k__BackingField, offset: 0x4a8, size: 0x8, def value: None
   ::UnityEngine::UIElements::IBinding* ____binding_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <bindingPath>k__BackingField, offset: 0x4b0, size: 0x8, def value: None
   ::StringW ____bindingPath_k__BackingField;
 

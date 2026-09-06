@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\DaylightTimeStruct.hpp"
+// IWYU pragma private; include "System/Globalization/DaylightTimeStruct.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Globalization/zzzz__DaylightTimeStruct_def.hpp"
@@ -26,8 +26,8 @@ inline void System::Globalization::DaylightTimeStruct::_ctor(::System::DateTime 
                                                            { ".ctor", {}, { ::i2c::type_of<::System::DateTime>(), ::i2c::type_of<::System::DateTime>(), ::i2c::type_of<::System::TimeSpan>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, start, end, delta);
 }
-// Ctor Parameters [CppParam { name: "Start", ty: "::System::DateTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "End", ty: "::System::DateTime", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "Delta", ty: "::System::TimeSpan", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Start", ty: "::System::DateTime", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "End", ty: "::System::DateTime", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Delta", ty: "::System::TimeSpan", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::DaylightTimeStruct::DaylightTimeStruct(::System::DateTime Start, ::System::DateTime End, ::System::TimeSpan Delta) noexcept {
   this->Start = Start;
   this->End = End;

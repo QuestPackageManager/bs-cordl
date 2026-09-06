@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightProbeProxyVolume.hpp"
+// IWYU pragma private; include "UnityEngine/LightProbeProxyVolume.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class LightProbeProxyVolume;
 // Write type traits
 MARK_REF_T(::UnityEngine::LightProbeProxyVolume*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LightProbeProxyVolume*, "UnityEngine", "LightProbeProxyVolume");
+// [NativeHeader("Runtime/Camera/LightProbeProxyVolume.h")]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -25,13 +26,13 @@ protected:
   constexpr LightProbeProxyVolume();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightProbeProxyVolume", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightProbeProxyVolume", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightProbeProxyVolume(LightProbeProxyVolume&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightProbeProxyVolume", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightProbeProxyVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightProbeProxyVolume(LightProbeProxyVolume const&) = delete;
+  LightProbeProxyVolume(LightProbeProxyVolumeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10208 };

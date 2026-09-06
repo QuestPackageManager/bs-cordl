@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\RangeItemHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/RangeItemHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -73,18 +75,22 @@ public:
   /// @brief Method .ctor, addr 0x60eef40, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 
+  /// [CompilerGenerated]
   /// @brief Method get_From, addr 0x60ef074, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_From();
 
+  /// [CompilerGenerated]
   /// @brief Method get_To, addr 0x60ef088, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_To();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_From, addr 0x60ef080, size 0x8, virtual false, abstract: false, final false
   inline void set_From(::System::Nullable_1<int64_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_To, addr 0x60ef094, size 0x8, virtual false, abstract: false, final false
   inline void set_To(::System::Nullable_1<int64_t> value);
 
@@ -94,20 +100,22 @@ protected:
   constexpr RangeItemHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RangeItemHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RangeItemHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RangeItemHeaderValue(RangeItemHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RangeItemHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RangeItemHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RangeItemHeaderValue(RangeItemHeaderValue const&) = delete;
+  RangeItemHeaderValue(RangeItemHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20340 };
 
+  /// [CompilerGenerated]
   /// @brief Field <From>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Nullable_1<int64_t> ____From_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <To>k__BackingField, offset: 0x20, size: 0x10, def value: None
   ::System::Nullable_1<int64_t> ____To_k__BackingField;
 

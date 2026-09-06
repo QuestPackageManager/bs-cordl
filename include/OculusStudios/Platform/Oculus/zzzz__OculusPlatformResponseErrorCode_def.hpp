@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Oculus\OculusPlatformResponseErrorCode.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Oculus/OculusPlatformResponseErrorCode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   // @brief default ctor
   constexpr OculusPlatformResponseErrorCode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OculusPlatformResponseErrorCode(int32_t value__) noexcept;
 
   /// @brief Field AUTHENTICATION_ERROR value: I32(2)

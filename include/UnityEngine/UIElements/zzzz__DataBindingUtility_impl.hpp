@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DataBindingUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DataBindingUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DataBindingUtility_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
@@ -154,7 +154,7 @@ inline void UnityEngine::UIElements::DataBindingUtility::setStaticF_s_ReplaceInd
 inline ::System::Text::RegularExpressions::Regex* UnityEngine::UIElements::DataBindingUtility::getStaticF_s_ReplaceIndices() {
   return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::Regex*, "s_ReplaceIndices", ::UnityEngine::UIElements::DataBindingUtility*>();
 }
-inline bool UnityEngine::UIElements::DataBindingUtility::TryGetBinding(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline bool UnityEngine::UIElements::DataBindingUtility::TryGetBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                                                        ::by_ref<::UnityEngine::UIElements::BindingInfo> bindingInfo) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility*>(),

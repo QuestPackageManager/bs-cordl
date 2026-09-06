@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorTargetsBucket.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorTargetsBucket.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorTargetsBucket_def.hpp"

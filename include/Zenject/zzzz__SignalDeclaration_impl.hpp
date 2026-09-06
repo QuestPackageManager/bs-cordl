@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalDeclaration.hpp"
+// IWYU pragma private; include "Zenject/SignalDeclaration.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindingId_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_impl.hpp"
@@ -321,7 +321,7 @@ constexpr void Zenject::SignalDeclaration::__cordl_internal_set__TickPriority_k_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____TickPriority_k__BackingField = value;
 }
-inline void Zenject::SignalDeclaration::_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings) {
+inline void Zenject::SignalDeclaration::_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclaration*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::Zenject::SignalDeclarationBindInfo*>(), ::i2c::type_of<::Zenject::ZenjectSettings*>() } })));
@@ -381,7 +381,7 @@ inline ::Zenject::InjectTypeInfo* Zenject::SignalDeclaration::__zenCreateInjectT
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclaration*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::SignalDeclaration* Zenject::SignalDeclaration::New_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings) {
+inline ::Zenject::SignalDeclaration* Zenject::SignalDeclaration::New_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::SignalDeclaration*>(bindInfo, zenjectSettings));
 }
 /// @brief Convert operator to "::Zenject::ITickable"

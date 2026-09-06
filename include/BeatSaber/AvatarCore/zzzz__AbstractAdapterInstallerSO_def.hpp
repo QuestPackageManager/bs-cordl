@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AbstractAdapterInstallerSO.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AbstractAdapterInstallerSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace BeatSaber::AvatarCore {
 class CORDL_TYPE AbstractAdapterInstallerSO : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::BeatSaber::AvatarCore::AbstractAdapterInstallerSO* New_ctor();
@@ -36,13 +36,13 @@ protected:
   constexpr AbstractAdapterInstallerSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractAdapterInstallerSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractAdapterInstallerSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractAdapterInstallerSO(AbstractAdapterInstallerSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractAdapterInstallerSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractAdapterInstallerSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractAdapterInstallerSO(AbstractAdapterInstallerSO const&) = delete;
+  AbstractAdapterInstallerSO(AbstractAdapterInstallerSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21631 };

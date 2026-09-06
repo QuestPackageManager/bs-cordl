@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Manipulator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Manipulator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Manipulator* New_ctor();
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterCallbacksFromTarget();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Target() const;
@@ -65,13 +65,13 @@ protected:
   constexpr Manipulator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Manipulator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Manipulator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Manipulator(Manipulator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Manipulator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Manipulator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Manipulator(Manipulator const&) = delete;
+  Manipulator(Manipulatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4620 };

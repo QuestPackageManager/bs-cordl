@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingId.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingId.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -178,17 +178,17 @@ inline void UnityEngine::UIElements::BindingId::_ctor(::StringW path) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingId>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, path);
 }
-inline void UnityEngine::UIElements::BindingId::_ctor(::by_ref<::Unity::Properties::PropertyPath> path) {
+inline void UnityEngine::UIElements::BindingId::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingId>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, path);
 }
-inline ::Unity::Properties::PropertyPath UnityEngine::UIElements::BindingId::op_Implicit___Unity__Properties__PropertyPath(::by_ref<::UnityEngine::UIElements::BindingId> vep) {
+inline ::Unity::Properties::PropertyPath UnityEngine::UIElements::BindingId::op_Implicit___Unity__Properties__PropertyPath(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> vep) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingId>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, vep);
 }
-inline ::StringW UnityEngine::UIElements::BindingId::op_Implicit___StringW(::by_ref<::UnityEngine::UIElements::BindingId> vep) {
+inline ::StringW UnityEngine::UIElements::BindingId::op_Implicit___StringW(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> vep) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingId>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, vep);
@@ -198,7 +198,7 @@ inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BindingId::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingId>(), { "op_Implicit", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingId>(nullptr, ___internal_method, name);
 }
-inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BindingId::op_Implicit___UnityEngine__UIElements__BindingId(::by_ref<::Unity::Properties::PropertyPath> path) {
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BindingId::op_Implicit___UnityEngine__UIElements__BindingId(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingId>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingId>(nullptr, ___internal_method, path);
@@ -220,14 +220,16 @@ inline int32_t UnityEngine::UIElements::BindingId::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::BindingId>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::BindingId::op_Equality(::by_ref<::UnityEngine::UIElements::BindingId> lhs, ::by_ref<::UnityEngine::UIElements::BindingId> rhs) {
+inline bool UnityEngine::UIElements::BindingId::op_Equality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> lhs,
+                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> rhs) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingId>(),
                                        { "op_Equality", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
 }
-inline bool UnityEngine::UIElements::BindingId::op_Inequality(::by_ref<::UnityEngine::UIElements::BindingId> lhs, ::by_ref<::UnityEngine::UIElements::BindingId> rhs) {
+inline bool UnityEngine::UIElements::BindingId::op_Inequality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> lhs,
+                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> rhs) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingId>(),
@@ -242,8 +244,8 @@ constexpr UnityEngine::UIElements::BindingId::operator ::System::IEquatable_1<::
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BindingId>* UnityEngine::UIElements::BindingId::i___System__IEquatable_1___UnityEngine__UIElements__BindingId_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::BindingId>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_PropertyPath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Path", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_PropertyPath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Path", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BindingId::BindingId(::Unity::Properties::PropertyPath m_PropertyPath, ::StringW m_Path) noexcept {
   this->m_PropertyPath = m_PropertyPath;
   this->m_Path = m_Path;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalTickPriorityCopyBinder.hpp"
+// IWYU pragma private; include "Zenject/SignalTickPriorityCopyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class SignalTickPriorityCopyBinder;
 // Write type traits
 MARK_REF_T(::Zenject::SignalTickPriorityCopyBinder*);
 DEFINE_IL2CPP_CLASS(::Zenject::SignalTickPriorityCopyBinder*, "Zenject", "SignalTickPriorityCopyBinder");
+// [NoReflectionBaking]
 // Dependencies Zenject.SignalCopyBinder
 namespace Zenject {
 // Is value type: false
@@ -46,9 +47,11 @@ public:
   /// @brief Method .ctor, addr 0x6e46080, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
+  /// [CompilerGenerated]
   /// @brief Method get_SignalBindInfo, addr 0x6e46574, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalDeclarationBindInfo* get_SignalBindInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method set_SignalBindInfo, addr 0x6e4657c, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalBindInfo(::Zenject::SignalDeclarationBindInfo* value);
 
@@ -58,17 +61,18 @@ protected:
   constexpr SignalTickPriorityCopyBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalTickPriorityCopyBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalTickPriorityCopyBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalTickPriorityCopyBinder(SignalTickPriorityCopyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalTickPriorityCopyBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalTickPriorityCopyBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalTickPriorityCopyBinder(SignalTickPriorityCopyBinder const&) = delete;
+  SignalTickPriorityCopyBinder(SignalTickPriorityCopyBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14010 };
 
+  /// [CompilerGenerated]
   /// @brief Field <SignalBindInfo>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Zenject::SignalDeclarationBindInfo* ____SignalBindInfo_k__BackingField;
 

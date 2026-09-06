@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\Utility\SerializationUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Utility/SerializationUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,7 +64,7 @@ public:
   // @brief default ctor
   constexpr SerializationUtilities_ObjectType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SerializationUtilities_ObjectType(int32_t value__) noexcept;
 
   /// @brief Field AsciiString value: I32(0)
@@ -135,13 +135,13 @@ protected:
   constexpr SerializationUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializationUtilities(SerializationUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializationUtilities(SerializationUtilities const&) = delete;
+  SerializationUtilities(SerializationUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19837 };

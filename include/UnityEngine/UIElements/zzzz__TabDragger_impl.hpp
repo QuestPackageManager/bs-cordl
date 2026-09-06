@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TabDragger.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TabDragger.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerManipulator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TabDragger_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"

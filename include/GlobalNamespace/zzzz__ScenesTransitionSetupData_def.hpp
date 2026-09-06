@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,19 +45,19 @@ public:
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
   /// @brief Method Init, addr 0x3308330, size 0x8, virtual false, abstract: false, final false
-  inline void Init(::ArrayW<::StringW> newScenes, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
+  inline void Init(::ArrayW<::StringW> newScenes, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
 
   /// @brief Method Init, addr 0x330814c, size 0x7c, virtual false, abstract: false, final false
-  inline void Init(::StringW scene, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
+  inline void Init(::StringW scene, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
 
   /// @brief Method InstallBindings, addr 0x3305530, size 0x148, virtual false, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::ScenesTransitionSetupData* New_ctor();
 
-  static inline ::GlobalNamespace::ScenesTransitionSetupData* New_ctor(::StringW scene, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
+  static inline ::GlobalNamespace::ScenesTransitionSetupData* New_ctor(::StringW scene, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
 
-  static inline ::GlobalNamespace::ScenesTransitionSetupData* New_ctor(::ArrayW<::StringW> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
+  static inline ::GlobalNamespace::ScenesTransitionSetupData* New_ctor(::ArrayW<::StringW> scenes, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
 
   constexpr ::ArrayW<::GlobalNamespace::SceneSetupData*> const& __cordl_internal_get__sceneSetupDataArray() const;
 
@@ -75,17 +75,19 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x330832c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW scene, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
+  inline void _ctor(::StringW scene, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
 
   /// @brief Method .ctor, addr 0x3308324, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::StringW> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
+  inline void _ctor(::ArrayW<::StringW> scenes, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData);
 
   /// @brief Method get_name, addr 0x33082ec, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
+  /// [CompilerGenerated]
   /// @brief Method get_scenes, addr 0x3308314, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_scenes();
 
+  /// [CompilerGenerated]
   /// @brief Method set_scenes, addr 0x330831c, size 0x8, virtual false, abstract: false, final false
   inline void set_scenes(::ArrayW<::StringW> value);
 
@@ -95,17 +97,18 @@ protected:
   constexpr ScenesTransitionSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScenesTransitionSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScenesTransitionSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScenesTransitionSetupData(ScenesTransitionSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScenesTransitionSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScenesTransitionSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScenesTransitionSetupData(ScenesTransitionSetupData const&) = delete;
+  ScenesTransitionSetupData(ScenesTransitionSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21543 };
 
+  /// [CompilerGenerated]
   /// @brief Field <scenes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW> ____scenes_k__BackingField;
 

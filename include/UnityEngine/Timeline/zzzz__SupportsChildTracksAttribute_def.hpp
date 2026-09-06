@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\SupportsChildTracksAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/SupportsChildTracksAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class SupportsChildTracksAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::SupportsChildTracksAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::SupportsChildTracksAttribute*, "UnityEngine.Timeline", "SupportsChildTracksAttribute");
+// [AttributeUsage((System.AttributeTargets)4, Inherited = false)]
 // Dependencies System.Attribute
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -52,13 +53,13 @@ protected:
   constexpr SupportsChildTracksAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SupportsChildTracksAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportsChildTracksAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SupportsChildTracksAttribute(SupportsChildTracksAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SupportsChildTracksAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SupportsChildTracksAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SupportsChildTracksAttribute(SupportsChildTracksAttribute const&) = delete;
+  SupportsChildTracksAttribute(SupportsChildTracksAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19243 };

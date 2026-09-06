@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OculusDeeplinkManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/OculusDeeplinkManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,12 +53,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IDeeplinkManager"
   constexpr operator ::GlobalNamespace::IDeeplinkManager*() noexcept;
 
+  /// [Inject]
   /// @brief Method Init, addr 0x37081a4, size 0x80, virtual false, abstract: false, final false
   inline void Init();
 
   /// @brief Method IsAtLeastOneFieldPopulated, addr 0x3708590, size 0x6c, virtual false, abstract: false, final false
   inline bool IsAtLeastOneFieldPopulated(::GlobalNamespace::Deeplink* deeplink);
 
+  /// [Conditional("OculusDeeplinkManagerLogging")]
   /// @brief Method Log, addr 0x37082f8, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
@@ -94,6 +96,7 @@ public:
   /// @brief Method .ctor, addr 0x37085fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didReceiveDeeplinkEvent, addr 0x370801c, size 0xc0, virtual true, abstract: false, final true
   inline void add_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
 
@@ -103,6 +106,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::IDeeplinkManager"
   constexpr ::GlobalNamespace::IDeeplinkManager* i___GlobalNamespace__IDeeplinkManager() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didReceiveDeeplinkEvent, addr 0x37080dc, size 0xc0, virtual true, abstract: false, final true
   inline void remove_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
 
@@ -112,17 +116,18 @@ protected:
   constexpr OculusDeeplinkManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusDeeplinkManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusDeeplinkManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusDeeplinkManager(OculusDeeplinkManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusDeeplinkManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusDeeplinkManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusDeeplinkManager(OculusDeeplinkManager const&) = delete;
+  OculusDeeplinkManager(OculusDeeplinkManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14830 };
 
+  /// [CompilerGenerated]
   /// @brief Field didReceiveDeeplinkEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::Deeplink*>* ___didReceiveDeeplinkEvent;
 

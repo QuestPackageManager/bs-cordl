@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRSystem.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRSystem.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRSystem_def.hpp"
 #include "OVR/OpenVR/zzzz__DistortionCoordinates_t_def.hpp"
@@ -3915,45 +3915,50 @@ inline ::OVR::OpenVR::IVRSystem__AcknowledgeQuit_UserPrompt* OVR::OpenVR::IVRSys
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRSystem__AcknowledgeQuit_UserPrompt::IVRSystem__AcknowledgeQuit_UserPrompt() {}
-// Ctor Parameters [CppParam { name: "GetRecommendedRenderTargetSize", ty: "::OVR::OpenVR::IVRSystem__GetRecommendedRenderTargetSize*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetProjectionMatrix", ty: "::OVR::OpenVR::IVRSystem__GetProjectionMatrix*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetProjectionRaw", ty:
-// "::OVR::OpenVR::IVRSystem__GetProjectionRaw*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ComputeDistortion", ty: "::OVR::OpenVR::IVRSystem__ComputeDistortion*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "GetEyeToHeadTransform", ty: "::OVR::OpenVR::IVRSystem__GetEyeToHeadTransform*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetTimeSinceLastVsync", ty: "::OVR::OpenVR::IVRSystem__GetTimeSinceLastVsync*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetD3D9AdapterIndex", ty:
-// "::OVR::OpenVR::IVRSystem__GetD3D9AdapterIndex*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetDXGIOutputInfo", ty: "::OVR::OpenVR::IVRSystem__GetDXGIOutputInfo*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "GetOutputDevice", ty: "::OVR::OpenVR::IVRSystem__GetOutputDevice*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsDisplayOnDesktop", ty:
-// "::OVR::OpenVR::IVRSystem__IsDisplayOnDesktop*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetDisplayVisibility", ty: "::OVR::OpenVR::IVRSystem__SetDisplayVisibility*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "GetDeviceToAbsoluteTrackingPose", ty: "::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "ResetSeatedZeroPose", ty: "::OVR::OpenVR::IVRSystem__ResetSeatedZeroPose*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetSeatedZeroPoseToStandingAbsoluteTrackingPose", ty:
-// "::OVR::OpenVR::IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetRawZeroPoseToStandingAbsoluteTrackingPose", ty:
-// "::OVR::OpenVR::IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetSortedTrackedDeviceIndicesOfClass", ty:
-// "::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetTrackedDeviceActivityLevel", ty:
-// "::OVR::OpenVR::IVRSystem__GetTrackedDeviceActivityLevel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ApplyTransform", ty: "::OVR::OpenVR::IVRSystem__ApplyTransform*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "GetTrackedDeviceIndexForControllerRole", ty: "::OVR::OpenVR::IVRSystem__GetTrackedDeviceIndexForControllerRole*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "GetControllerRoleForTrackedDeviceIndex", ty: "::OVR::OpenVR::IVRSystem__GetControllerRoleForTrackedDeviceIndex*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetTrackedDeviceClass", ty: "::OVR::OpenVR::IVRSystem__GetTrackedDeviceClass*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsTrackedDeviceConnected", ty:
-// "::OVR::OpenVR::IVRSystem__IsTrackedDeviceConnected*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetBoolTrackedDeviceProperty", ty:
-// "::OVR::OpenVR::IVRSystem__GetBoolTrackedDeviceProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetFloatTrackedDeviceProperty", ty:
-// "::OVR::OpenVR::IVRSystem__GetFloatTrackedDeviceProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetInt32TrackedDeviceProperty", ty:
-// "::OVR::OpenVR::IVRSystem__GetInt32TrackedDeviceProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetUint64TrackedDeviceProperty", ty:
-// "::OVR::OpenVR::IVRSystem__GetUint64TrackedDeviceProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetMatrix34TrackedDeviceProperty", ty:
-// "::OVR::OpenVR::IVRSystem__GetMatrix34TrackedDeviceProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetArrayTrackedDeviceProperty", ty:
-// "::OVR::OpenVR::IVRSystem__GetArrayTrackedDeviceProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetStringTrackedDeviceProperty", ty:
-// "::OVR::OpenVR::IVRSystem__GetStringTrackedDeviceProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetPropErrorNameFromEnum", ty:
-// "::OVR::OpenVR::IVRSystem__GetPropErrorNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name: "PollNextEvent", ty: "::OVR::OpenVR::IVRSystem__PollNextEvent*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "PollNextEventWithPose", ty: "::OVR::OpenVR::IVRSystem__PollNextEventWithPose*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetEventTypeNameFromEnum", ty: "::OVR::OpenVR::IVRSystem__GetEventTypeNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetHiddenAreaMesh", ty:
-// "::OVR::OpenVR::IVRSystem__GetHiddenAreaMesh*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetControllerState", ty: "::OVR::OpenVR::IVRSystem__GetControllerState*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "GetControllerStateWithPose", ty: "::OVR::OpenVR::IVRSystem__GetControllerStateWithPose*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "TriggerHapticPulse", ty: "::OVR::OpenVR::IVRSystem__TriggerHapticPulse*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetButtonIdNameFromEnum", ty:
-// "::OVR::OpenVR::IVRSystem__GetButtonIdNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetControllerAxisTypeNameFromEnum", ty:
-// "::OVR::OpenVR::IVRSystem__GetControllerAxisTypeNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsInputAvailable", ty: "::OVR::OpenVR::IVRSystem__IsInputAvailable*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "IsSteamVRDrawingControllers", ty: "::OVR::OpenVR::IVRSystem__IsSteamVRDrawingControllers*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "ShouldApplicationPause", ty: "::OVR::OpenVR::IVRSystem__ShouldApplicationPause*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ShouldApplicationReduceRenderingWork",
-// ty: "::OVR::OpenVR::IVRSystem__ShouldApplicationReduceRenderingWork*", modifiers: "", def_value: Some("{}") }, CppParam { name: "DriverDebugRequest", ty:
-// "::OVR::OpenVR::IVRSystem__DriverDebugRequest*", modifiers: "", def_value: Some("{}") }, CppParam { name: "PerformFirmwareUpdate", ty: "::OVR::OpenVR::IVRSystem__PerformFirmwareUpdate*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "AcknowledgeQuit_Exiting", ty: "::OVR::OpenVR::IVRSystem__AcknowledgeQuit_Exiting*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "AcknowledgeQuit_UserPrompt", ty: "::OVR::OpenVR::IVRSystem__AcknowledgeQuit_UserPrompt*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "GetRecommendedRenderTargetSize", ty: "::OVR::OpenVR::IVRSystem__GetRecommendedRenderTargetSize*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "GetProjectionMatrix", ty: "::OVR::OpenVR::IVRSystem__GetProjectionMatrix*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetProjectionRaw", ty:
+// "::OVR::OpenVR::IVRSystem__GetProjectionRaw*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ComputeDistortion", ty: "::OVR::OpenVR::IVRSystem__ComputeDistortion*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetEyeToHeadTransform", ty: "::OVR::OpenVR::IVRSystem__GetEyeToHeadTransform*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "GetTimeSinceLastVsync", ty: "::OVR::OpenVR::IVRSystem__GetTimeSinceLastVsync*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetD3D9AdapterIndex", ty: "::OVR::OpenVR::IVRSystem__GetD3D9AdapterIndex*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetDXGIOutputInfo", ty:
+// "::OVR::OpenVR::IVRSystem__GetDXGIOutputInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetOutputDevice", ty: "::OVR::OpenVR::IVRSystem__GetOutputDevice*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsDisplayOnDesktop", ty: "::OVR::OpenVR::IVRSystem__IsDisplayOnDesktop*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "SetDisplayVisibility", ty: "::OVR::OpenVR::IVRSystem__SetDisplayVisibility*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetDeviceToAbsoluteTrackingPose", ty: "::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ResetSeatedZeroPose",
+// ty: "::OVR::OpenVR::IVRSystem__ResetSeatedZeroPose*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetSeatedZeroPoseToStandingAbsoluteTrackingPose", ty:
+// "::OVR::OpenVR::IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetRawZeroPoseToStandingAbsoluteTrackingPose",
+// ty: "::OVR::OpenVR::IVRSystem__GetRawZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetSortedTrackedDeviceIndicesOfClass", ty:
+// "::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetTrackedDeviceActivityLevel", ty:
+// "::OVR::OpenVR::IVRSystem__GetTrackedDeviceActivityLevel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ApplyTransform", ty:
+// "::OVR::OpenVR::IVRSystem__ApplyTransform*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetTrackedDeviceIndexForControllerRole", ty:
+// "::OVR::OpenVR::IVRSystem__GetTrackedDeviceIndexForControllerRole*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetControllerRoleForTrackedDeviceIndex", ty:
+// "::OVR::OpenVR::IVRSystem__GetControllerRoleForTrackedDeviceIndex*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetTrackedDeviceClass", ty:
+// "::OVR::OpenVR::IVRSystem__GetTrackedDeviceClass*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsTrackedDeviceConnected", ty:
+// "::OVR::OpenVR::IVRSystem__IsTrackedDeviceConnected*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetBoolTrackedDeviceProperty", ty:
+// "::OVR::OpenVR::IVRSystem__GetBoolTrackedDeviceProperty*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetFloatTrackedDeviceProperty", ty:
+// "::OVR::OpenVR::IVRSystem__GetFloatTrackedDeviceProperty*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetInt32TrackedDeviceProperty", ty:
+// "::OVR::OpenVR::IVRSystem__GetInt32TrackedDeviceProperty*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetUint64TrackedDeviceProperty", ty:
+// "::OVR::OpenVR::IVRSystem__GetUint64TrackedDeviceProperty*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetMatrix34TrackedDeviceProperty", ty:
+// "::OVR::OpenVR::IVRSystem__GetMatrix34TrackedDeviceProperty*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetArrayTrackedDeviceProperty", ty:
+// "::OVR::OpenVR::IVRSystem__GetArrayTrackedDeviceProperty*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetStringTrackedDeviceProperty", ty:
+// "::OVR::OpenVR::IVRSystem__GetStringTrackedDeviceProperty*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetPropErrorNameFromEnum", ty:
+// "::OVR::OpenVR::IVRSystem__GetPropErrorNameFromEnum*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PollNextEvent", ty: "::OVR::OpenVR::IVRSystem__PollNextEvent*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PollNextEventWithPose", ty: "::OVR::OpenVR::IVRSystem__PollNextEventWithPose*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "GetEventTypeNameFromEnum", ty: "::OVR::OpenVR::IVRSystem__GetEventTypeNameFromEnum*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetHiddenAreaMesh", ty: "::OVR::OpenVR::IVRSystem__GetHiddenAreaMesh*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetControllerState", ty:
+// "::OVR::OpenVR::IVRSystem__GetControllerState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetControllerStateWithPose", ty:
+// "::OVR::OpenVR::IVRSystem__GetControllerStateWithPose*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TriggerHapticPulse", ty:
+// "::OVR::OpenVR::IVRSystem__TriggerHapticPulse*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetButtonIdNameFromEnum", ty:
+// "::OVR::OpenVR::IVRSystem__GetButtonIdNameFromEnum*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetControllerAxisTypeNameFromEnum", ty:
+// "::OVR::OpenVR::IVRSystem__GetControllerAxisTypeNameFromEnum*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsInputAvailable", ty:
+// "::OVR::OpenVR::IVRSystem__IsInputAvailable*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsSteamVRDrawingControllers", ty:
+// "::OVR::OpenVR::IVRSystem__IsSteamVRDrawingControllers*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShouldApplicationPause", ty:
+// "::OVR::OpenVR::IVRSystem__ShouldApplicationPause*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShouldApplicationReduceRenderingWork", ty:
+// "::OVR::OpenVR::IVRSystem__ShouldApplicationReduceRenderingWork*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "DriverDebugRequest", ty:
+// "::OVR::OpenVR::IVRSystem__DriverDebugRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PerformFirmwareUpdate", ty:
+// "::OVR::OpenVR::IVRSystem__PerformFirmwareUpdate*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AcknowledgeQuit_Exiting", ty:
+// "::OVR::OpenVR::IVRSystem__AcknowledgeQuit_Exiting*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AcknowledgeQuit_UserPrompt", ty:
+// "::OVR::OpenVR::IVRSystem__AcknowledgeQuit_UserPrompt*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IVRSystem::IVRSystem(
     ::OVR::OpenVR::IVRSystem__GetRecommendedRenderTargetSize* GetRecommendedRenderTargetSize, ::OVR::OpenVR::IVRSystem__GetProjectionMatrix* GetProjectionMatrix,
     ::OVR::OpenVR::IVRSystem__GetProjectionRaw* GetProjectionRaw, ::OVR::OpenVR::IVRSystem__ComputeDistortion* ComputeDistortion,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Material.hpp"
+// IWYU pragma private; include "UnityEngine/Material.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -4211,19 +4211,19 @@ inline ::UnityW<::UnityEngine::Material> UnityEngine::Material::Create(::StringW
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "Create", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>>(nullptr, ___internal_method, scriptContents);
 }
-inline void UnityEngine::Material::CreateWithShader(::UnityEngine::Material* self, ::UnityEngine::Shader* shader) {
+inline void UnityEngine::Material::CreateWithShader(/* [Writable] */ ::UnityEngine::Material* self, /* [NotNull] */ ::UnityEngine::Shader* shader) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "CreateWithShader", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Shader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, shader);
 }
-inline void UnityEngine::Material::CreateWithMaterial(::UnityEngine::Material* self, ::UnityEngine::Material* source) {
+inline void UnityEngine::Material::CreateWithMaterial(/* [Writable] */ ::UnityEngine::Material* self, /* [NotNull] */ ::UnityEngine::Material* source) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "CreateWithMaterial", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::UnityEngine::Material*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, source);
 }
-inline void UnityEngine::Material::CreateWithString(::UnityEngine::Material* self) {
+inline void UnityEngine::Material::CreateWithString(/* [Writable] */ ::UnityEngine::Material* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "CreateWithString", {}, { ::i2c::type_of<::UnityEngine::Material*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self);
@@ -4457,23 +4457,23 @@ inline bool UnityEngine::Material::IsLocalKeywordEnabled(::UnityEngine::Renderin
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "IsLocalKeywordEnabled", {}, { ::i2c::type_of<::UnityEngine::Rendering::LocalKeyword>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Material::EnableKeyword(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Material::EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "EnableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Material::DisableKeyword(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline void UnityEngine::Material::DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "DisableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword);
 }
-inline void UnityEngine::Material::SetKeyword(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+inline void UnityEngine::Material::SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "SetKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keyword, value);
 }
-inline bool UnityEngine::Material::IsKeywordEnabled(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
+inline bool UnityEngine::Material::IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "IsKeywordEnabled", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, keyword);
@@ -5286,13 +5286,13 @@ inline ::ArrayW<::StringW> UnityEngine::Material::GetPropertyNames(::UnityEngine
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "GetPropertyNames", {}, { ::i2c::type_of<::UnityEngine::MaterialPropertyType>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(this, ___internal_method, type);
 }
-inline void UnityEngine::Material::CreateWithShader_Injected(::UnityEngine::Material* self, ::System::IntPtr shader) {
+inline void UnityEngine::Material::CreateWithShader_Injected(/* [Writable] */ ::UnityEngine::Material* self, ::System::IntPtr shader) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "CreateWithShader_Injected", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, shader);
 }
-inline void UnityEngine::Material::CreateWithMaterial_Injected(::UnityEngine::Material* self, ::System::IntPtr source) {
+inline void UnityEngine::Material::CreateWithMaterial_Injected(/* [Writable] */ ::UnityEngine::Material* self, ::System::IntPtr source) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Material*>(), { "CreateWithMaterial_Injected", {}, { ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<::System::IntPtr>() } })));
@@ -5851,9 +5851,12 @@ inline void UnityEngine::Material::SetTextureScaleImpl_Injected(::System::IntPtr
 inline ::UnityEngine::Material* UnityEngine::Material::New_ctor(::UnityEngine::Shader* shader) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Material*>(shader));
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::Material* UnityEngine::Material::New_ctor(::UnityEngine::Material* source) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Material*>(source));
 }
+/// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+/// @brief [Obsolete("Creating materials from shader source string is no longer supported. Use Shader assets instead.", false)]
 inline ::UnityEngine::Material* UnityEngine::Material::New_ctor(::StringW contents) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Material*>(contents));
 }

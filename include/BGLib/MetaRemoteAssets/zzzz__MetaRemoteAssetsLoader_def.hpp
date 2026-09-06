@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\MetaRemoteAssets\MetaRemoteAssetsLoader.hpp"
+// IWYU pragma private; include "BGLib/MetaRemoteAssets/MetaRemoteAssetsLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader__LoadInternalAsync_
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader*, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsLoader");
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader___c*, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsLoader/<>c");
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader__LoadInternalAsync_d__3, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsLoader/<LoadInternalAsync>d__3");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
@@ -98,13 +99,13 @@ protected:
   constexpr MetaRemoteAssetsLoader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MetaRemoteAssetsLoader___c(MetaRemoteAssetsLoader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsLoader___c(MetaRemoteAssetsLoader___c const&) = delete;
+  MetaRemoteAssetsLoader___c(MetaRemoteAssetsLoader___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21047 };
@@ -115,6 +116,7 @@ public:
 static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader___c) == 0x10, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
@@ -128,6 +130,7 @@ public:
   /// @brief Method MoveNext, addr 0x377a53c, size 0x5cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x377ab08, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -138,11 +141,12 @@ public:
   // @brief default ctor
   constexpr MetaRemoteAssetsLoader__LoadInternalAsync_d__3();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader>",
-  // modifiers: "", def_value: None }, CppParam { name: "registry", ty: "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None }, CppParam { name:
-  // "_shouldUseMock_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "registry", ty:
+  // "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_shouldUseMock_5__2", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr MetaRemoteAssetsLoader__LoadInternalAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                            ::UnityW<::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader> __4__this, ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry,
                                                            bool _shouldUseMock_5__2,
@@ -209,6 +213,7 @@ public:
   /// @brief Method ApplyAddressablesOverrides, addr 0x377a054, size 0x100, virtual false, abstract: false, final false
   inline void ApplyAddressablesOverrides();
 
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsLoader::<LoadInternalAsync>d__3))]
   /// @brief Method LoadInternalAsync, addr 0x3779f94, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadInternalAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container,
                                                              ::System::Threading::CancellationToken cancellationToken);
@@ -236,17 +241,18 @@ protected:
   constexpr MetaRemoteAssetsLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MetaRemoteAssetsLoader(MetaRemoteAssetsLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MetaRemoteAssetsLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MetaRemoteAssetsLoader(MetaRemoteAssetsLoader const&) = delete;
+  MetaRemoteAssetsLoader(MetaRemoteAssetsLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21049 };
 
+  /// [SerializeField]
   /// @brief Field _networkConfig, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NetworkConfigSO> ____networkConfig;
 

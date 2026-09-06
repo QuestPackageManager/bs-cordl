@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SortingLayerRange.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SortingLayerRange.hpp"
 #include "UnityEngine/Rendering/zzzz__SortingLayerRange_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -82,7 +82,8 @@ constexpr UnityEngine::Rendering::SortingLayerRange::operator ::System::IEquatab
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SortingLayerRange>* UnityEngine::Rendering::SortingLayerRange::i___System__IEquatable_1___UnityEngine__Rendering__SortingLayerRange_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::SortingLayerRange>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_LowerBound", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UpperBound", ty: "int16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_LowerBound", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UpperBound", ty: "int16_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SortingLayerRange::SortingLayerRange(int16_t m_LowerBound, int16_t m_UpperBound) noexcept {
   this->m_LowerBound = m_LowerBound;
   this->m_UpperBound = m_UpperBound;

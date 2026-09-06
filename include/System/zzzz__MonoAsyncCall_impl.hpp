@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\MonoAsyncCall.hpp"
+// IWYU pragma private; include "System/MonoAsyncCall.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__MonoAsyncCall_def.hpp"

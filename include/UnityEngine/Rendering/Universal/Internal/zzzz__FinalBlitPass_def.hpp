@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\FinalBlitPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/FinalBlitPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FinalBlitPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -126,13 +128,13 @@ protected:
   constexpr FinalBlitPass_BlitPassNames();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_BlitPassNames", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_BlitPassNames", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FinalBlitPass_BlitPassNames(FinalBlitPass_BlitPassNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_BlitPassNames", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_BlitPassNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FinalBlitPass_BlitPassNames(FinalBlitPass_BlitPassNames const&) = delete;
+  FinalBlitPass_BlitPassNames(FinalBlitPass_BlitPassNamesconst&) = delete;
 
   /// @brief Field BilinearSampler offset 0xffffffff size 0x8
   static constexpr ::ConstString BilinearSampler{ u"BilinearDebugDraw" };
@@ -179,7 +181,7 @@ public:
   // @brief default ctor
   constexpr FinalBlitPass_BlitType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FinalBlitPass_BlitType(int32_t value__) noexcept;
 
   /// @brief Field Core value: I32(0)
@@ -219,8 +221,8 @@ public:
   // @brief default ctor
   constexpr FinalBlitPass_BlitMaterialData();
 
-  // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "nearestSamplerPass", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "bilinearSamplerPass", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "nearestSamplerPass", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "bilinearSamplerPass", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FinalBlitPass_BlitMaterialData(::UnityW<::UnityEngine::Material> material, int32_t nearestSamplerPass, int32_t bilinearSamplerPass) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -341,13 +343,13 @@ protected:
   constexpr FinalBlitPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FinalBlitPass_PassData(FinalBlitPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FinalBlitPass_PassData(FinalBlitPass_PassData const&) = delete;
+  FinalBlitPass_PassData(FinalBlitPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13099 };
@@ -398,6 +400,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::FinalBlitP
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -438,13 +441,13 @@ protected:
   constexpr FinalBlitPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FinalBlitPass___c(FinalBlitPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FinalBlitPass___c(FinalBlitPass___c const&) = delete;
+  FinalBlitPass___c(FinalBlitPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13100 };
@@ -489,6 +492,7 @@ public:
   /// @brief Method Dispose, addr 0x6903f08, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6904170, size 0x9dc, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -503,17 +507,19 @@ public:
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* blitMaterial,
                                                                                        ::UnityEngine::Material* blitHDRMaterial);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x690409c, size 0xd4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// @brief Method Render, addr 0x6904e08, size 0xa04, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                     ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> src,
-                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dest, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture);
+                     ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> src,
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dest, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture);
 
   /// @brief Method Setup, addr 0x6903f58, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::RTHandle* colorHandle);
 
+  /// [Obsolete("Use RTHandles for colorHandle", true)]
   /// @brief Method Setup, addr 0x6903f0c, size 0x4c, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::Universal::RenderTargetHandle colorHandle);
 
@@ -552,13 +558,13 @@ protected:
   constexpr FinalBlitPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FinalBlitPass(FinalBlitPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FinalBlitPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FinalBlitPass(FinalBlitPass const&) = delete;
+  FinalBlitPass(FinalBlitPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13101 };

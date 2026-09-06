@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBufferBuilder.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBufferBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,11 +49,12 @@ public:
 
   /// @brief Method AddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void AddComponent(int32_t propertyID, bool isOverriden, bool isPerInstance, ::UnityEngine::Rendering::InstanceType instanceType,
                            ::UnityEngine::Rendering::InstanceComponentGroup componentGroup);
 
   /// @brief Method Build, addr 0x6820fa8, size 0x88c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* Build(::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
+  inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* Build(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
   /// @brief Method CreateMetadataValue, addr 0x6820e60, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::MetadataValue CreateMetadataValue(int32_t nameID, int32_t gpuAddress, bool isOverridden);
@@ -68,7 +69,7 @@ public:
   // @brief default ctor
   constexpr GPUInstanceDataBufferBuilder();
 
-  // Ctor Parameters [CppParam { name: "m_Components", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Components", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>", modifiers: "", def_value: None, comment: None }]
   constexpr GPUInstanceDataBufferBuilder(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> m_Components) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

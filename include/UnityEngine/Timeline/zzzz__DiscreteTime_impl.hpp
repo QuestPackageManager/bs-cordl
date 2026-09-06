@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\DiscreteTime.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/DiscreteTime.hpp"
 #include "UnityEngine/Timeline/zzzz__DiscreteTime_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -763,7 +763,7 @@ constexpr UnityEngine::Timeline::DiscreteTime::operator ::System::IComparable*()
 constexpr ::System::IComparable* UnityEngine::Timeline::DiscreteTime::i___System__IComparable() {
   return static_cast<::System::IComparable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_DiscreteTime", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_DiscreteTime", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::DiscreteTime::DiscreteTime(int64_t m_DiscreteTime) noexcept {
   this->m_DiscreteTime = m_DiscreteTime;
 }

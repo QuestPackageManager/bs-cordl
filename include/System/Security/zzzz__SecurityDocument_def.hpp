@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\SecurityDocument.hpp"
+// IWYU pragma private; include "System/Security/SecurityDocument.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,13 +72,13 @@ protected:
   constexpr SecurityDocument();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityDocument", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityDocument", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecurityDocument(SecurityDocument&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityDocument", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityDocument", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecurityDocument(SecurityDocument const&) = delete;
+  SecurityDocument(SecurityDocumentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2901 };

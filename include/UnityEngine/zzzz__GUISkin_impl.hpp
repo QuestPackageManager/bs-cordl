@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUISkin.hpp"
+// IWYU pragma private; include "UnityEngine/GUISkin.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__GUIStyle_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"

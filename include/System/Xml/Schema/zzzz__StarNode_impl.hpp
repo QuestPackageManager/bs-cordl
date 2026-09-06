@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\StarNode.hpp"
+// IWYU pragma private; include "System/Xml/Schema/StarNode.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__StarNode_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"

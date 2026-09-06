@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRCursor.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRCursor.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRCursor_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"

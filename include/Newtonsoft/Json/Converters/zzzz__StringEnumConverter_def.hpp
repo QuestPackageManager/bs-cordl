@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\StringEnumConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/StringEnumConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,8 @@ class StringEnumConverter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::StringEnumConverter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::StringEnumConverter*, "Newtonsoft.Json.Converters", "StringEnumConverter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -40,8 +42,10 @@ public:
   // Declarations
   __declspec(property(get = get_AllowIntegerValues, put = set_AllowIntegerValues)) bool AllowIntegerValues;
 
+  /// @brief [Obsolete("StringEnumConverter.CamelCaseText is obsolete. Set StringEnumConverter.NamingStrategy with CamelCaseNamingStrategy instead.")]
   __declspec(property(get = get_CamelCaseText, put = set_CamelCaseText)) bool CamelCaseText;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_NamingStrategy, put = set_NamingStrategy)) ::Newtonsoft::Json::Serialization::NamingStrategy* NamingStrategy;
 
   /// @brief Field <AllowIntegerValues>k__BackingField, offset 0x18, size 0x1
@@ -56,6 +60,7 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::StringEnumConverter* New_ctor();
 
+  /// @brief [Obsolete("StringEnumConverter(bool) is obsolete. Create a converter with StringEnumConverter(NamingStrategy, bool) instead.")]
   static inline ::Newtonsoft::Json::Converters::StringEnumConverter* New_ctor(bool camelCaseText);
 
   static inline ::Newtonsoft::Json::Converters::StringEnumConverter* New_ctor(::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, bool allowIntegerValues);
@@ -67,10 +72,11 @@ public:
   static inline ::Newtonsoft::Json::Converters::StringEnumConverter* New_ctor(::System::Type* namingStrategyType, ::ArrayW<::System::Object*> namingStrategyParameters, bool allowIntegerValues);
 
   /// @brief Method ReadJson, addr 0x5d9dcb4, size 0x4b0, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
+                                    ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method WriteJson, addr 0x5d9dacc, size 0x1e8, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   constexpr bool const& __cordl_internal_get__AllowIntegerValues_k__BackingField() const;
 
@@ -87,6 +93,7 @@ public:
   /// @brief Method .ctor, addr 0x5d9d844, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [Obsolete("StringEnumConverter(bool) is obsolete. Create a converter with StringEnumConverter(NamingStrategy, bool) instead.")]
   /// @brief Method .ctor, addr 0x5d9d850, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool camelCaseText);
 
@@ -102,21 +109,27 @@ public:
   /// @brief Method .ctor, addr 0x5d9da10, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* namingStrategyType, ::ArrayW<::System::Object*> namingStrategyParameters, bool allowIntegerValues);
 
+  /// [CompilerGenerated]
   /// @brief Method get_AllowIntegerValues, addr 0x5d9d834, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowIntegerValues();
 
   /// @brief Method get_CamelCaseText, addr 0x5d9d6dc, size 0x80, virtual false, abstract: false, final false
   inline bool get_CamelCaseText();
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method get_NamingStrategy, addr 0x5d9d824, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::NamingStrategy* get_NamingStrategy();
 
+  /// [CompilerGenerated]
   /// @brief Method set_AllowIntegerValues, addr 0x5d9d83c, size 0x8, virtual false, abstract: false, final false
   inline void set_AllowIntegerValues(bool value);
 
   /// @brief Method set_CamelCaseText, addr 0x5d9d75c, size 0xc8, virtual false, abstract: false, final false
   inline void set_CamelCaseText(bool value);
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method set_NamingStrategy, addr 0x5d9d82c, size 0x8, virtual false, abstract: false, final false
   inline void set_NamingStrategy(::Newtonsoft::Json::Serialization::NamingStrategy* value);
 
@@ -126,20 +139,23 @@ protected:
   constexpr StringEnumConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringEnumConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringEnumConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringEnumConverter(StringEnumConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringEnumConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringEnumConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringEnumConverter(StringEnumConverter const&) = delete;
+  StringEnumConverter(StringEnumConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13666 };
 
+  /// [Nullable(2)]
+  /// [CompilerGenerated]
   /// @brief Field <NamingStrategy>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::NamingStrategy* ____NamingStrategy_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AllowIntegerValues>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____AllowIntegerValues_k__BackingField;
 

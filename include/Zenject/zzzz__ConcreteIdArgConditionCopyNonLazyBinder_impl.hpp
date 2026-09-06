@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConcreteIdArgConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject/ConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "Zenject/zzzz__ArgConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__ConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "System/zzzz__Object_def.hpp"

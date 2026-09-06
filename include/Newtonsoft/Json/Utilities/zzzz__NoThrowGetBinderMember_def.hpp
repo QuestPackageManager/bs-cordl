@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\NoThrowGetBinderMember.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/NoThrowGetBinderMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class NoThrowGetBinderMember;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Utilities::NoThrowGetBinderMember*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::NoThrowGetBinderMember*, "Newtonsoft.Json.Utilities", "NoThrowGetBinderMember");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Dynamic.GetMemberBinder
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -29,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get__innerBinder, put = __cordl_internal_set__innerBinder)) ::System::Dynamic::GetMemberBinder* _innerBinder;
 
   /// @brief Method FallbackGetMember, addr 0x5d25f34, size 0x14c, virtual true, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* errorSuggestion);
+  inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, /* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   static inline ::Newtonsoft::Json::Utilities::NoThrowGetBinderMember* New_ctor(::System::Dynamic::GetMemberBinder* innerBinder);
 
@@ -48,13 +50,13 @@ protected:
   constexpr NoThrowGetBinderMember();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoThrowGetBinderMember", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoThrowGetBinderMember", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoThrowGetBinderMember(NoThrowGetBinderMember&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoThrowGetBinderMember", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoThrowGetBinderMember", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoThrowGetBinderMember(NoThrowGetBinderMember const&) = delete;
+  NoThrowGetBinderMember(NoThrowGetBinderMemberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13412 };

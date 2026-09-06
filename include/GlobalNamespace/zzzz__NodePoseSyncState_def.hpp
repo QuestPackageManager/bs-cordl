@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NodePoseSyncState.hpp"
+// IWYU pragma private; include "GlobalNamespace/NodePoseSyncState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,10 +8,15 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NodePoseSyncState)
 namespace GlobalNamespace {
-template <typename T> class IEquatableByReference_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IEquatableByReference_1;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class IStateTable_3;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> && ::cordl_internals::default_constructor_constraint<TType> &&
+           ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class IStateTable_3;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState_NodePose;
@@ -71,7 +76,7 @@ public:
   // @brief default ctor
   constexpr NodePoseSyncState_NodePose();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NodePoseSyncState_NodePose(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(3)
@@ -122,16 +127,16 @@ public:
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
   /// @brief Method ApplyDelta, addr 0x32bdb6c, size 0x124, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NodePoseSyncState ApplyDelta(::by_ref<::GlobalNamespace::NodePoseSyncState> delta);
+  inline ::GlobalNamespace::NodePoseSyncState ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> delta);
 
   /// @brief Method Deserialize, addr 0x32bd8dc, size 0x58, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method Equals, addr 0x32bd9b4, size 0x94, virtual false, abstract: false, final false
-  inline bool Equals(::by_ref<::GlobalNamespace::NodePoseSyncState> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> other);
 
   /// @brief Method GetDelta, addr 0x32bda48, size 0x124, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NodePoseSyncState GetDelta(::by_ref<::GlobalNamespace::NodePoseSyncState> latest);
+  inline ::GlobalNamespace::NodePoseSyncState GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> latest);
 
   /// @brief Method GetSize, addr 0x32bdc90, size 0x7c, virtual true, abstract: false, final true
   inline int32_t GetSize();
@@ -140,13 +145,15 @@ public:
   inline ::GlobalNamespace::PoseSerializable GetState(::GlobalNamespace::NodePoseSyncState_NodePose nodePose);
 
   /// @brief Method IEquatableByReference<NodePoseSyncState>.Equals, addr 0x32bdd6c, size 0x4, virtual true, abstract: false, final true
-  inline bool IEquatableByReference_NodePoseSyncState__Equals(::by_ref<::GlobalNamespace::NodePoseSyncState> other);
+  inline bool IEquatableByReference_NodePoseSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> other);
 
   /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta, addr 0x32bdd3c, size 0x30, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::NodePoseSyncState IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta(::by_ref<::GlobalNamespace::NodePoseSyncState> delta);
+  inline ::GlobalNamespace::NodePoseSyncState
+  IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> delta);
 
   /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta, addr 0x32bdd0c, size 0x30, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::NodePoseSyncState IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta(::by_ref<::GlobalNamespace::NodePoseSyncState> stateTable);
+  inline ::GlobalNamespace::NodePoseSyncState
+  IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> stateTable);
 
   /// @brief Method Serialize, addr 0x32bd884, size 0x58, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
@@ -168,8 +175,9 @@ public:
   // @brief default ctor
   constexpr NodePoseSyncState();
 
-  // Ctor Parameters [CppParam { name: "_head", ty: "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: None }, CppParam { name: "_leftController", ty:
-  // "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: None }, CppParam { name: "_rightController", ty: "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_head", ty: "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: None, comment: None }, CppParam { name: "_leftController", ty:
+  // "::GlobalNamespace::PoseSerializable", modifiers: "", def_value: None, comment: None }, CppParam { name: "_rightController", ty: "::GlobalNamespace::PoseSerializable", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr NodePoseSyncState(::GlobalNamespace::PoseSerializable _head, ::GlobalNamespace::PoseSerializable _leftController, ::GlobalNamespace::PoseSerializable _rightController) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

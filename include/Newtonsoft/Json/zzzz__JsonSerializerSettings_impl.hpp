@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonSerializerSettings.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonSerializerSettings.hpp"
 #include "Newtonsoft/Json/zzzz__ConstructorHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DateFormatHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DateParseHandling_impl.hpp"
@@ -1579,7 +1579,7 @@ inline ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArg
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializerSettings*>(), { "get_Error", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonSerializerSettings::set_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
+inline void Newtonsoft::Json::JsonSerializerSettings::set_Error(/* [Nullable(new[] { 2, 1 })] */ ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializerSettings*>(),
                                                            { "set_Error", {}, { ::i2c::type_of<::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*>() } })));
@@ -1703,9 +1703,11 @@ inline void Newtonsoft::Json::JsonSerializerSettings::_ctor(::Newtonsoft::Json::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonSerializerSettings*>(), { ".ctor", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonSerializerSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, original);
 }
+/// @brief [DebuggerStepThrough]
 inline ::Newtonsoft::Json::JsonSerializerSettings* Newtonsoft::Json::JsonSerializerSettings::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonSerializerSettings*>());
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::JsonSerializerSettings* Newtonsoft::Json::JsonSerializerSettings::New_ctor(::Newtonsoft::Json::JsonSerializerSettings* original) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonSerializerSettings*>(original));
 }

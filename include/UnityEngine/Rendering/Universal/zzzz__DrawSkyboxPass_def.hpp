@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DrawSkyboxPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DrawSkyboxPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace UnityEngine::Experimental::Rendering {
 class XRPass;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -118,13 +120,13 @@ protected:
   constexpr DrawSkyboxPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawSkyboxPass_PassData(DrawSkyboxPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawSkyboxPass_PassData(DrawSkyboxPass_PassData const&) = delete;
+  DrawSkyboxPass_PassData(DrawSkyboxPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12832 };
@@ -150,6 +152,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassD
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -190,13 +193,13 @@ protected:
   constexpr DrawSkyboxPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawSkyboxPass___c(DrawSkyboxPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawSkyboxPass___c(DrawSkyboxPass___c const&) = delete;
+  DrawSkyboxPass___c(DrawSkyboxPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12833 };
@@ -226,6 +229,7 @@ public:
   inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                          ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6883fd4, size 0x138, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -233,8 +237,8 @@ public:
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Rendering::RendererList rendererList);
 
   /// @brief Method InitPassData, addr 0x688453c, size 0x38, virtual false, abstract: false, final false
-  inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*> passData, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr,
-                           ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> handle);
+  inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*> passData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr,
+                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> handle);
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
@@ -252,13 +256,13 @@ protected:
   constexpr DrawSkyboxPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawSkyboxPass(DrawSkyboxPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawSkyboxPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawSkyboxPass(DrawSkyboxPass const&) = delete;
+  DrawSkyboxPass(DrawSkyboxPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12834 };

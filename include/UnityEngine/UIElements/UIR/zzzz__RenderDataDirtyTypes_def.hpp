@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\RenderDataDirtyTypes.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderDataDirtyTypes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RenderDataDirtyTypes;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderDataDirtyTypes);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::RenderDataDirtyTypes, "UnityEngine.UIElements.UIR", "RenderDataDirtyTypes");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
@@ -52,7 +53,7 @@ public:
   // @brief default ctor
   constexpr RenderDataDirtyTypes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderDataDirtyTypes(int32_t value__) noexcept;
 
   /// @brief Field AllVisuals value: I32(112)

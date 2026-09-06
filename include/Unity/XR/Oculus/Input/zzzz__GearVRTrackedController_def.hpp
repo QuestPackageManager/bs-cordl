@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\XR\Oculus\Input\GearVRTrackedController.hpp"
+// IWYU pragma private; include "Unity/XR/Oculus/Input/GearVRTrackedController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class GearVRTrackedController;
 // Write type traits
 MARK_REF_T(::Unity::XR::Oculus::Input::GearVRTrackedController*);
 DEFINE_IL2CPP_CLASS(::Unity::XR::Oculus::Input::GearVRTrackedController*, "Unity.XR.Oculus.Input", "GearVRTrackedController");
+// [InputControlLayout(displayName = "GearVR Controller", commonUsages = new[] { "LeftHand", "RightHand" }, hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.XR.XRController
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
@@ -66,22 +67,31 @@ public:
   __declspec(property(get = __cordl_internal_get__trigger_k__BackingField,
                       put = __cordl_internal_set__trigger_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _trigger_k__BackingField;
 
+  /// @brief [InputControl]
   __declspec(property(get = get_back, put = set_back)) ::UnityEngine::InputSystem::Controls::ButtonControl* back;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_deviceAcceleration, put = set_deviceAcceleration)) ::UnityEngine::InputSystem::Controls::Vector3Control* deviceAcceleration;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_deviceAngularAcceleration, put = set_deviceAngularAcceleration)) ::UnityEngine::InputSystem::Controls::Vector3Control* deviceAngularAcceleration;
 
+  /// @brief [InputControl(noisy = true)]
   __declspec(property(get = get_deviceAngularVelocity, put = set_deviceAngularVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* deviceAngularVelocity;
 
+  /// @brief [InputControl]
   __declspec(property(get = get_touchpad, put = set_touchpad)) ::UnityEngine::InputSystem::Controls::Vector2Control* touchpad;
 
+  /// @brief [InputControl]
   __declspec(property(get = get_touchpadClicked, put = set_touchpadClicked)) ::UnityEngine::InputSystem::Controls::ButtonControl* touchpadClicked;
 
+  /// @brief [InputControl]
   __declspec(property(get = get_touchpadTouched, put = set_touchpadTouched)) ::UnityEngine::InputSystem::Controls::ButtonControl* touchpadTouched;
 
+  /// @brief [InputControl]
   __declspec(property(get = get_trigger, put = set_trigger)) ::UnityEngine::InputSystem::Controls::AxisControl* trigger;
 
+  /// @brief [InputControl]
   __declspec(property(get = get_triggerPressed, put = set_triggerPressed)) ::UnityEngine::InputSystem::Controls::ButtonControl* triggerPressed;
 
   /// @brief Method FinishSetup, addr 0x64d2218, size 0x224, virtual true, abstract: false, final false
@@ -146,57 +156,75 @@ public:
   /// @brief Method .ctor, addr 0x64d243c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_back, addr 0x64d21a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deviceAcceleration, addr 0x64d21f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAcceleration();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deviceAngularAcceleration, addr 0x64d2208, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularAcceleration();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deviceAngularVelocity, addr 0x64d21e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_touchpad, addr 0x64d2188, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
+  /// [CompilerGenerated]
   /// @brief Method get_touchpadClicked, addr 0x64d21c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadClicked();
 
+  /// [CompilerGenerated]
   /// @brief Method get_touchpadTouched, addr 0x64d21d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadTouched();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trigger, addr 0x64d2198, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger();
 
+  /// [CompilerGenerated]
   /// @brief Method get_triggerPressed, addr 0x64d21b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
 
+  /// [CompilerGenerated]
   /// @brief Method set_back, addr 0x64d21b0, size 0x8, virtual false, abstract: false, final false
   inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deviceAcceleration, addr 0x64d2200, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deviceAngularAcceleration, addr 0x64d2210, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deviceAngularVelocity, addr 0x64d21f0, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_touchpad, addr 0x64d2190, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_touchpadClicked, addr 0x64d21d0, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpadClicked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_touchpadTouched, addr 0x64d21e0, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpadTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trigger, addr 0x64d21a0, size 0x8, virtual false, abstract: false, final false
   inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_triggerPressed, addr 0x64d21c0, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
@@ -206,41 +234,50 @@ protected:
   constexpr GearVRTrackedController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GearVRTrackedController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GearVRTrackedController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GearVRTrackedController(GearVRTrackedController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GearVRTrackedController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GearVRTrackedController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GearVRTrackedController(GearVRTrackedController const&) = delete;
+  GearVRTrackedController(GearVRTrackedControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8602 };
 
+  /// [CompilerGenerated]
   /// @brief Field <touchpad>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector2Control* ____touchpad_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trigger>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____trigger_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <back>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____back_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <triggerPressed>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____triggerPressed_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <touchpadClicked>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____touchpadClicked_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <touchpadTouched>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____touchpadTouched_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <deviceAngularVelocity>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceAngularVelocity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <deviceAcceleration>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceAcceleration_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <deviceAngularAcceleration>k__BackingField, offset: 0x1e8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceAngularAcceleration_k__BackingField;
 

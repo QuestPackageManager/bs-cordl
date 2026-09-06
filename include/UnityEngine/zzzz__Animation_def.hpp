@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animation.hpp"
+// IWYU pragma private; include "UnityEngine/Animation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,13 +119,13 @@ protected:
   constexpr Animation_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Animation_Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Animation_Enumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Animation_Enumerator(Animation_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Animation_Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Animation_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Animation_Enumerator(Animation_Enumerator const&) = delete;
+  Animation_Enumerator(Animation_Enumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20206 };
@@ -146,6 +146,8 @@ static_assert(offsetof(::UnityEngine::Animation_Enumerator, ___m_CurrentIndex) =
 static_assert(sizeof(::UnityEngine::Animation_Enumerator) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/Animation/Animation.h")]
+// [DefaultMember("Item")]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -157,6 +159,7 @@ public:
 
   __declspec(property(get = get_Item)) ::UnityEngine::AnimationState* Item[];
 
+  /// @brief [Obsolete("Use cullingType instead")]
   __declspec(property(get = get_animateOnlyIfVisible, put = set_animateOnlyIfVisible)) bool animateOnlyIfVisible;
 
   __declspec(property(get = get_animatePhysics, put = set_animatePhysics)) bool animatePhysics;
@@ -181,55 +184,70 @@ public:
   /// @brief Method AddClip, addr 0x6a379f4, size 0x10, virtual false, abstract: false, final false
   inline void AddClip(::UnityEngine::AnimationClip* clip, ::StringW newName);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddClip, addr 0x6a37a04, size 0x8, virtual false, abstract: false, final false
   inline void AddClip(::UnityEngine::AnimationClip* clip, ::StringW newName, int32_t firstFrame, int32_t lastFrame);
 
   /// @brief Method AddClip, addr 0x6a37a0c, size 0x1fc, virtual false, abstract: false, final false
-  inline void AddClip(::UnityEngine::AnimationClip* clip, ::StringW newName, int32_t firstFrame, int32_t lastFrame, bool addLoopFrame);
+  inline void AddClip(/* [NotNull] */ ::UnityEngine::AnimationClip* clip, ::StringW newName, int32_t firstFrame, int32_t lastFrame, /* [DefaultValue("false")] */ bool addLoopFrame);
 
   /// @brief Method AddClip_Injected, addr 0x6a37c08, size 0x74, virtual false, abstract: false, final false
   static inline void AddClip_Injected(::System::IntPtr _unity_self, ::System::IntPtr clip, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> newName, int32_t firstFrame, int32_t lastFrame,
-                                      bool addLoopFrame);
+                                      /* [DefaultValue("false")] */ bool addLoopFrame);
 
+  /// [ExcludeFromDocs]
   /// @brief Method Blend, addr 0x6a373cc, size 0x10, virtual false, abstract: false, final false
   inline void Blend(::StringW animation);
 
+  /// [ExcludeFromDocs]
   /// @brief Method Blend, addr 0x6a373dc, size 0xc, virtual false, abstract: false, final false
   inline void Blend(::StringW animation, float_t targetWeight);
 
   /// @brief Method Blend, addr 0x6a373e8, size 0x184, virtual false, abstract: false, final false
-  inline void Blend(::StringW animation, float_t targetWeight, float_t fadeLength);
+  inline void Blend(::StringW animation, /* [DefaultValue("1.0F")] */ float_t targetWeight, /* [DefaultValue("0.3F")] */ float_t fadeLength);
 
   /// @brief Method Blend_Injected, addr 0x6a3756c, size 0x5c, virtual false, abstract: false, final false
-  static inline void Blend_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, float_t targetWeight, float_t fadeLength);
+  static inline void Blend_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, /* [DefaultValue("1.0F")] */ float_t targetWeight,
+                                    /* [DefaultValue("0.3F")] */ float_t fadeLength);
 
+  /// [ExcludeFromDocs]
   /// @brief Method CrossFade, addr 0x6a371cc, size 0x10, virtual false, abstract: false, final false
   inline void CrossFade(::StringW animation);
 
+  /// [ExcludeFromDocs]
   /// @brief Method CrossFade, addr 0x6a371dc, size 0x8, virtual false, abstract: false, final false
   inline void CrossFade(::StringW animation, float_t fadeLength);
 
   /// @brief Method CrossFade, addr 0x6a371e4, size 0x184, virtual false, abstract: false, final false
-  inline void CrossFade(::StringW animation, float_t fadeLength, ::UnityEngine::PlayMode mode);
+  inline void CrossFade(::StringW animation, /* [DefaultValue("0.3F")] */ float_t fadeLength, /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method CrossFadeQueued, addr 0x6a375c8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* CrossFadeQueued(::StringW animation);
 
+  /// [ExcludeFromDocs]
   /// @brief Method CrossFadeQueued, addr 0x6a375dc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* CrossFadeQueued(::StringW animation, float_t fadeLength);
 
+  /// [ExcludeFromDocs]
   /// @brief Method CrossFadeQueued, addr 0x6a375e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* CrossFadeQueued(::StringW animation, float_t fadeLength, ::UnityEngine::QueueMode queue);
 
+  /// [FreeFunction("AnimationBindings::CrossFadeQueuedImpl", HasExplicitThis = true)]
   /// @brief Method CrossFadeQueued, addr 0x6a375f0, size 0x19c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AnimationState* CrossFadeQueued(::StringW animation, float_t fadeLength, ::UnityEngine::QueueMode queue, ::UnityEngine::PlayMode mode);
+  inline ::UnityEngine::AnimationState* CrossFadeQueued(::StringW animation, /* [DefaultValue("0.3F")] */ float_t fadeLength,
+                                                        /* [DefaultValue("QueueMode.CompleteOthers")] */ ::UnityEngine::QueueMode queue,
+                                                        /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode);
 
   /// @brief Method CrossFadeQueued_Injected, addr 0x6a3778c, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationState* CrossFadeQueued_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, float_t fadeLength,
-                                                                        ::UnityEngine::QueueMode queue, ::UnityEngine::PlayMode mode);
+  static inline ::UnityEngine::AnimationState* CrossFadeQueued_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation,
+                                                                        /* [DefaultValue("0.3F")] */ float_t fadeLength,
+                                                                        /* [DefaultValue("QueueMode.CompleteOthers")] */ ::UnityEngine::QueueMode queue,
+                                                                        /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode);
 
   /// @brief Method CrossFade_Injected, addr 0x6a37368, size 0x64, virtual false, abstract: false, final false
-  static inline void CrossFade_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, float_t fadeLength, ::UnityEngine::PlayMode mode);
+  static inline void CrossFade_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, /* [DefaultValue("0.3F")] */ float_t fadeLength,
+                                        /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode);
 
   /// @brief Method GetClip, addr 0x6a38328, size 0x28, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> GetClip(::StringW name);
@@ -243,15 +261,18 @@ public:
   /// @brief Method GetEnumerator, addr 0x6a380ec, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
+  /// [FreeFunction("AnimationBindings::GetState", HasExplicitThis = true)]
   /// @brief Method GetState, addr 0x6a36d9c, size 0x174, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* GetState(::StringW name);
 
+  /// [FreeFunction("AnimationBindings::GetStateAtIndex", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method GetStateAtIndex, addr 0x6a38198, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* GetStateAtIndex(int32_t index);
 
   /// @brief Method GetStateAtIndex_Injected, addr 0x6a38228, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationState* GetStateAtIndex_Injected(::System::IntPtr _unity_self, int32_t index);
 
+  /// [NativeName("GetAnimationStateCount")]
   /// @brief Method GetStateCount, addr 0x6a3826c, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetStateCount();
 
@@ -269,52 +290,64 @@ public:
 
   static inline ::UnityEngine::Animation* New_ctor();
 
+  /// [ExcludeFromDocs]
   /// @brief Method Play, addr 0x6a36f10, size 0x8, virtual false, abstract: false, final false
   inline bool Play();
 
+  /// [ExcludeFromDocs]
   /// @brief Method Play, addr 0x6a36ff0, size 0x8, virtual false, abstract: false, final false
   inline bool Play(::StringW animation);
 
+  /// [Obsolete("use PlayMode instead of AnimationPlayMode.")]
   /// @brief Method Play, addr 0x6a38014, size 0x4, virtual false, abstract: false, final false
   inline bool Play(::StringW animation, ::UnityEngine::AnimationPlayMode mode);
 
   /// @brief Method Play, addr 0x6a36ff8, size 0x180, virtual false, abstract: false, final false
-  inline bool Play(::StringW animation, ::UnityEngine::PlayMode mode);
+  inline bool Play(::StringW animation, /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode);
 
+  /// [Obsolete("use PlayMode instead of AnimationPlayMode.")]
   /// @brief Method Play, addr 0x6a38010, size 0x4, virtual false, abstract: false, final false
   inline bool Play(::UnityEngine::AnimationPlayMode mode);
 
   /// @brief Method Play, addr 0x6a36f18, size 0x4, virtual false, abstract: false, final false
-  inline bool Play(::UnityEngine::PlayMode mode);
+  inline bool Play(/* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode);
 
+  /// [NativeName("Play")]
   /// @brief Method PlayDefaultAnimation, addr 0x6a36f1c, size 0x90, virtual false, abstract: false, final false
   inline bool PlayDefaultAnimation(::UnityEngine::PlayMode mode);
 
   /// @brief Method PlayDefaultAnimation_Injected, addr 0x6a36fac, size 0x44, virtual false, abstract: false, final false
   static inline bool PlayDefaultAnimation_Injected(::System::IntPtr _unity_self, ::UnityEngine::PlayMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method PlayQueued, addr 0x6a377f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* PlayQueued(::StringW animation);
 
+  /// [ExcludeFromDocs]
   /// @brief Method PlayQueued, addr 0x6a37804, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* PlayQueued(::StringW animation, ::UnityEngine::QueueMode queue);
 
+  /// [FreeFunction("AnimationBindings::PlayQueuedImpl", HasExplicitThis = true)]
   /// @brief Method PlayQueued, addr 0x6a3780c, size 0x18c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AnimationState* PlayQueued(::StringW animation, ::UnityEngine::QueueMode queue, ::UnityEngine::PlayMode mode);
+  inline ::UnityEngine::AnimationState* PlayQueued(::StringW animation, /* [DefaultValue("QueueMode.CompleteOthers")] */ ::UnityEngine::QueueMode queue,
+                                                   /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode);
 
   /// @brief Method PlayQueued_Injected, addr 0x6a37998, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationState* PlayQueued_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, ::UnityEngine::QueueMode queue,
-                                                                   ::UnityEngine::PlayMode mode);
+  static inline ::UnityEngine::AnimationState* PlayQueued_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation,
+                                                                   /* [DefaultValue("QueueMode.CompleteOthers")] */ ::UnityEngine::QueueMode queue,
+                                                                   /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode);
 
   /// @brief Method Play_Injected, addr 0x6a37178, size 0x54, virtual false, abstract: false, final false
-  static inline bool Play_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation, ::UnityEngine::PlayMode mode);
+  static inline bool Play_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> animation,
+                                   /* [DefaultValue("PlayMode.StopSameLayer")] */ ::UnityEngine::PlayMode mode);
 
   /// @brief Method RemoveClip, addr 0x6a37c7c, size 0xe4, virtual false, abstract: false, final false
-  inline void RemoveClip(::UnityEngine::AnimationClip* clip);
+  inline void RemoveClip(/* [NotNull] */ ::UnityEngine::AnimationClip* clip);
 
   /// @brief Method RemoveClip, addr 0x6a37da4, size 0x4, virtual false, abstract: false, final false
   inline void RemoveClip(::StringW clipName);
 
+  /// [NativeName("RemoveClip")]
   /// @brief Method RemoveClipNamed, addr 0x6a37da8, size 0x168, virtual false, abstract: false, final false
   inline void RemoveClipNamed(::StringW clipName);
 
@@ -330,6 +363,7 @@ public:
   /// @brief Method Rewind, addr 0x6a368b4, size 0x4, virtual false, abstract: false, final false
   inline void Rewind(::StringW name);
 
+  /// [NativeName("Rewind")]
   /// @brief Method RewindNamed, addr 0x6a368b8, size 0x168, virtual false, abstract: false, final false
   inline void RewindNamed(::StringW name);
 
@@ -351,6 +385,7 @@ public:
   /// @brief Method Stop, addr 0x6a36648, size 0x4, virtual false, abstract: false, final false
   inline void Stop(::StringW name);
 
+  /// [NativeName("Stop")]
   /// @brief Method StopNamed, addr 0x6a3664c, size 0x168, virtual false, abstract: false, final false
   inline void StopNamed(::StringW name);
 
@@ -372,6 +407,7 @@ public:
   /// @brief Method get_Item, addr 0x6a36d98, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* get_Item(::StringW name);
 
+  /// [FreeFunction("AnimationBindings::GetAnimateOnlyIfVisible", HasExplicitThis = true)]
   /// @brief Method get_animateOnlyIfVisible, addr 0x6a387ac, size 0x80, virtual false, abstract: false, final false
   inline bool get_animateOnlyIfVisible();
 
@@ -396,12 +432,14 @@ public:
   /// @brief Method get_cullingType_Injected, addr 0x6a389bc, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCullingType get_cullingType_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("IsPlaying")]
   /// @brief Method get_isPlaying, addr 0x6a36b20, size 0x80, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
   /// @brief Method get_isPlaying_Injected, addr 0x6a36ba0, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isPlaying_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("GetLocalAABB")]
   /// @brief Method get_localBounds, addr 0x6a38acc, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_localBounds();
 
@@ -429,6 +467,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
+  /// [FreeFunction("AnimationBindings::SetAnimateOnlyIfVisible", HasExplicitThis = true)]
   /// @brief Method set_animateOnlyIfVisible, addr 0x6a38868, size 0x90, virtual false, abstract: false, final false
   inline void set_animateOnlyIfVisible(bool value);
 
@@ -453,6 +492,7 @@ public:
   /// @brief Method set_cullingType_Injected, addr 0x6a38a88, size 0x44, virtual false, abstract: false, final false
   static inline void set_cullingType_Injected(::System::IntPtr _unity_self, ::UnityEngine::AnimationCullingType value);
 
+  /// [NativeName("SetLocalAABB")]
   /// @brief Method set_localBounds, addr 0x6a38bc0, size 0x90, virtual false, abstract: false, final false
   inline void set_localBounds(::UnityEngine::Bounds value);
 
@@ -483,13 +523,13 @@ protected:
   constexpr Animation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Animation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Animation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Animation(Animation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Animation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Animation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Animation(Animation const&) = delete;
+  Animation(Animationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20207 };

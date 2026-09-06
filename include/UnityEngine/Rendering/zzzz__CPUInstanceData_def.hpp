@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CPUInstanceData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CPUInstanceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_VAL_T(::UnityEngine::Rendering::CPUInstanceData);
 MARK_VAL_T(::UnityEngine::Rendering::CPUInstanceData_ReadOnly);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CPUInstanceData, "UnityEngine.Rendering", "CPUInstanceData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CPUInstanceData_ReadOnly, "UnityEngine.Rendering", "CPUInstanceData/ReadOnly");
+// [IsReadOnly]
 // Dependencies Unity.Collections.NativeArray`1::ReadOnly<T>, UnityEngine.Rendering.AABB, UnityEngine.Rendering.EditorInstanceDataArrays::ReadOnly, UnityEngine.Rendering.InstanceHandle,
 // UnityEngine.Rendering.ParallelBitArray, UnityEngine.Rendering.SharedInstanceHandle
 namespace UnityEngine::Rendering {
@@ -65,7 +66,7 @@ public:
   inline bool IsValidInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
   /// @brief Method .ctor, addr 0x68250b8, size 0x340, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData);
 
   /// @brief Method get_handlesLength, addr 0x68253f8, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_handlesLength();
@@ -77,14 +78,15 @@ public:
   // @brief default ctor
   constexpr CPUInstanceData_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "instanceIndices", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None }, CppParam { name: "instances", ty:
-  // "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: None }, CppParam { name: "sharedInstances", ty:
-  // "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: None }, CppParam { name: "localToWorldIsFlippedBits", ty:
-  // "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None }, CppParam { name: "worldAABBs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::AABB>",
-  // modifiers: "", def_value: None }, CppParam { name: "tetrahedronCacheIndices", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "movedInCurrentFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None }, CppParam { name: "movedInPreviousFrameBits", ty:
-  // "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None }, CppParam { name: "visibleInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "",
-  // def_value: None }, CppParam { name: "editorData", ty: "::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instanceIndices", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "instances",
+  // ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sharedInstances", ty:
+  // "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: None, comment: None }, CppParam { name: "localToWorldIsFlippedBits", ty:
+  // "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldAABBs", ty:
+  // "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::AABB>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tetrahedronCacheIndices", ty:
+  // "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "movedInCurrentFrameBits", ty:
+  // "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None, comment: None }, CppParam { name: "movedInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "editorData", ty: "::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly", modifiers: "", def_value: None, comment: None }]
   constexpr CPUInstanceData_ReadOnly(::Unity::Collections::NativeArray_1_ReadOnly<int32_t> instanceIndices,
                                      ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::InstanceHandle> instances,
                                      ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SharedInstanceHandle> sharedInstances,
@@ -245,7 +247,8 @@ public:
 
   /// @brief Method Set, addr 0x6824cb0, size 0xd4, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::Rendering::InstanceHandle instance, ::UnityEngine::Rendering::SharedInstanceHandle sharedInstance, bool localToWorldIsFlipped,
-                  ::by_ref<::UnityEngine::Rendering::AABB> worldAABB, int32_t tetrahedronCacheIndex, bool movedInCurrentFrame, bool movedInPreviousFrame, bool visibleInPreviousFrame);
+                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> worldAABB, int32_t tetrahedronCacheIndex, bool movedInCurrentFrame, bool movedInPreviousFrame,
+                  bool visibleInPreviousFrame);
 
   /// @brief Method SetDefault, addr 0x68249c8, size 0xa0, virtual false, abstract: false, final false
   inline void SetDefault(::UnityEngine::Rendering::InstanceHandle instance);
@@ -269,7 +272,7 @@ public:
   inline void Set_VisibleInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance, bool visibleInPreviousFrame);
 
   /// @brief Method Set_WorldAABB, addr 0x6824f78, size 0x44, virtual false, abstract: false, final false
-  inline void Set_WorldAABB(::UnityEngine::Rendering::InstanceHandle instance, ::by_ref<::UnityEngine::Rendering::AABB> worldBounds);
+  inline void Set_WorldAABB(::UnityEngine::Rendering::InstanceHandle instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> worldBounds);
 
   /// @brief Method get_handlesLength, addr 0x6823c7c, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_handlesLength();
@@ -293,15 +296,16 @@ public:
   // @brief default ctor
   constexpr CPUInstanceData();
 
-  // Ctor Parameters [CppParam { name: "m_StructData", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_InstanceIndices", ty:
-  // "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "instances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>",
-  // modifiers: "", def_value: None }, CppParam { name: "sharedInstances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: None },
-  // CppParam { name: "localToWorldIsFlippedBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None }, CppParam { name: "worldAABBs", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AABB>", modifiers: "", def_value: None }, CppParam { name: "tetrahedronCacheIndices", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "movedInCurrentFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "",
-  // def_value: None }, CppParam { name: "movedInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None }, CppParam { name: "visibleInPreviousFrameBits",
-  // ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None }, CppParam { name: "editorData", ty: "::UnityEngine::Rendering::EditorInstanceDataArrays", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_StructData", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_InstanceIndices", ty:
+  // "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "instances", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sharedInstances", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle>", modifiers: "", def_value: None, comment: None }, CppParam { name: "localToWorldIsFlippedBits", ty:
+  // "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldAABBs", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AABB>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tetrahedronCacheIndices", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "movedInCurrentFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "movedInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "visibleInPreviousFrameBits", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: None, comment: None }, CppParam { name: "editorData", ty:
+  // "::UnityEngine::Rendering::EditorInstanceDataArrays", modifiers: "", def_value: None, comment: None }]
   constexpr CPUInstanceData(::Unity::Collections::NativeArray_1<int32_t> m_StructData, ::Unity::Collections::NativeList_1<int32_t> m_InstanceIndices,
                             ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                             ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SharedInstanceHandle> sharedInstances, ::UnityEngine::Rendering::ParallelBitArray localToWorldIsFlippedBits,

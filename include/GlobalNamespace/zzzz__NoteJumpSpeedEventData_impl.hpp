@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteJumpSpeedEventData.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteJumpSpeedEventData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpSpeedEventData_def.hpp"

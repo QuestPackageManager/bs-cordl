@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputMetrics.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputMetrics.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputMetrics_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputMetrics.get_maxNumDevices
 template <>
@@ -459,13 +459,14 @@ inline double_t UnityEngine::InputSystem::LowLevel::InputMetrics::get_averageLag
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputMetrics>(), { "get_averageLagTimePerEvent", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<double_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_maxNumDevices_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_currentNumDevices_k__BackingField", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_maxStateSizeInBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_currentStateSizeInBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_currentControlCount_k__BackingField", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_currentLayoutCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_totalEventBytes_k__BackingField", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_totalEventCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_totalUpdateCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_totalEventProcessingTime_k__BackingField", ty: "double_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_totalEventLagTime_k__BackingField", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_maxNumDevices_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_currentNumDevices_k__BackingField", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_maxStateSizeInBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_currentStateSizeInBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_currentControlCount_k__BackingField", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_currentLayoutCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_totalEventBytes_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_totalEventCount_k__BackingField", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_totalUpdateCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_totalEventProcessingTime_k__BackingField", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_totalEventLagTime_k__BackingField", ty: "double_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputMetrics::InputMetrics(int32_t _maxNumDevices_k__BackingField, int32_t _currentNumDevices_k__BackingField,
                                                                            int32_t _maxStateSizeInBytes_k__BackingField, int32_t _currentStateSizeInBytes_k__BackingField,
                                                                            int32_t _currentControlCount_k__BackingField, int32_t _currentLayoutCount_k__BackingField,

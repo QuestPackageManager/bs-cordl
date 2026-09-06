@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\ValueProviderAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/ValueProviderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__ValueProviderAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::ValueProviderAttribute._ctor
@@ -52,7 +52,7 @@ constexpr void JetBrains::Annotations::ValueProviderAttribute::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Name_k__BackingField = value;
 }
-inline void JetBrains::Annotations::ValueProviderAttribute::_ctor(::StringW name) {
+inline void JetBrains::Annotations::ValueProviderAttribute::_ctor(/* [NotNull] */ ::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::ValueProviderAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name);
@@ -66,7 +66,7 @@ inline void JetBrains::Annotations::ValueProviderAttribute::set_Name(::StringW v
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::ValueProviderAttribute*>(), { "set_Name", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::JetBrains::Annotations::ValueProviderAttribute* JetBrains::Annotations::ValueProviderAttribute::New_ctor(::StringW name) {
+inline ::JetBrains::Annotations::ValueProviderAttribute* JetBrains::Annotations::ValueProviderAttribute::New_ctor(/* [NotNull] */ ::StringW name) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::JetBrains::Annotations::ValueProviderAttribute*>(name));
 }
 // Ctor Parameters []

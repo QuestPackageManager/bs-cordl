@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DrawSkyboxPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DrawSkyboxPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
@@ -312,8 +312,8 @@ inline void UnityEngine::Rendering::Universal::DrawSkyboxPass::ExecutePass(::Uni
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, xr, rendererList);
 }
 inline void UnityEngine::Rendering::Universal::DrawSkyboxPass::InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*> passData,
-                                                                            ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr,
-                                                                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> handle) {
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr,
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> handle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawSkyboxPass*>(),
                                                                                          { "InitPassData",
                                                                                            {},

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformInitParams.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformInitParams.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PlatformInitParams_def.hpp"

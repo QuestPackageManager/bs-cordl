@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\ProfilerFrameData_2.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/ProfilerFrameData_2.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -143,6 +143,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::ResourceManagement::Prof
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename T1, typename T2>
 inline ::UnityEngine::ResourceManagement::Profiling::ProfilerFrameData_2__Enumerate_d__17<T1, T2>*
 UnityEngine::ResourceManagement::Profiling::ProfilerFrameData_2__Enumerate_d__17<T1, T2>::New_ctor(int32_t __1__state) {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\Qualified\TypeOfBiometricData.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Qualified/TypeOfBiometricData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,13 +87,13 @@ protected:
   constexpr TypeOfBiometricData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeOfBiometricData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeOfBiometricData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeOfBiometricData(TypeOfBiometricData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeOfBiometricData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeOfBiometricData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeOfBiometricData(TypeOfBiometricData const&) = delete;
+  TypeOfBiometricData(TypeOfBiometricDataconst&) = delete;
 
   /// @brief Field HandwrittenSignature offset 0xffffffff size 0x4
   static constexpr int32_t HandwrittenSignature{ static_cast<int32_t>(0x1) };

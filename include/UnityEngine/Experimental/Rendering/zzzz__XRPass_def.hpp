@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRPass.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -318,21 +318,26 @@ public:
   /// @brief Method .ctor, addr 0x6749828, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_copyDepth, addr 0x6749ce0, size 0x8, virtual false, abstract: false, final false
   inline bool get_copyDepth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cullingParams, addr 0x6749e6c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ScriptableCullingParameters get_cullingParams();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cullingPassId, addr 0x6749d8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cullingPassId();
 
   /// @brief Method get_enabled, addr 0x6745d24, size 0x18, virtual false, abstract: false, final false
   inline bool get_enabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_foveatedRenderingInfo, addr 0x6749e88, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_foveatedRenderingInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasMotionVectorPass, addr 0x6749cf0, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasMotionVectorPass();
 
@@ -354,21 +359,27 @@ public:
   /// @brief Method get_isLastCameraPass, addr 0x6749d10, size 0x6c, virtual false, abstract: false, final false
   inline bool get_isLastCameraPass();
 
+  /// [CompilerGenerated]
   /// @brief Method get_motionVectorRenderTarget, addr 0x6749e04, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_motionVectorRenderTarget();
 
+  /// [CompilerGenerated]
   /// @brief Method get_motionVectorRenderTargetDesc, addr 0x6749e2c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureDescriptor get_motionVectorRenderTargetDesc();
 
+  /// [CompilerGenerated]
   /// @brief Method get_multipassId, addr 0x6749d7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multipassId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_occlusionMeshScale, addr 0x674a23c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_occlusionMeshScale();
 
+  /// [CompilerGenerated]
   /// @brief Method get_renderTarget, addr 0x6749d9c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_renderTarget();
 
+  /// [CompilerGenerated]
   /// @brief Method get_renderTargetDesc, addr 0x6749dc4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureDescriptor get_renderTargetDesc();
 
@@ -381,36 +392,47 @@ public:
   /// @brief Method get_viewCount, addr 0x6747468, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_viewCount();
 
+  /// [CompilerGenerated]
   /// @brief Method set_copyDepth, addr 0x6749ce8, size 0x8, virtual false, abstract: false, final false
   inline void set_copyDepth(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_cullingParams, addr 0x6749e7c, size 0xc, virtual false, abstract: false, final false
   inline void set_cullingParams(::UnityEngine::Rendering::ScriptableCullingParameters value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_cullingPassId, addr 0x6749d94, size 0x8, virtual false, abstract: false, final false
   inline void set_cullingPassId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_foveatedRenderingInfo, addr 0x6749e90, size 0x8, virtual false, abstract: false, final false
   inline void set_foveatedRenderingInfo(::System::IntPtr value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasMotionVectorPass, addr 0x6749cf8, size 0x8, virtual false, abstract: false, final false
   inline void set_hasMotionVectorPass(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_motionVectorRenderTarget, addr 0x6749e18, size 0x14, virtual false, abstract: false, final false
   inline void set_motionVectorRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_motionVectorRenderTargetDesc, addr 0x6749e4c, size 0x20, virtual false, abstract: false, final false
   inline void set_motionVectorRenderTargetDesc(::UnityEngine::RenderTextureDescriptor value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_multipassId, addr 0x6749d84, size 0x8, virtual false, abstract: false, final false
   inline void set_multipassId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_occlusionMeshScale, addr 0x674a244, size 0x8, virtual false, abstract: false, final false
   inline void set_occlusionMeshScale(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_renderTarget, addr 0x6749db0, size 0x14, virtual false, abstract: false, final false
   inline void set_renderTarget(::UnityEngine::Rendering::RenderTargetIdentifier value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_renderTargetDesc, addr 0x6749de4, size 0x20, virtual false, abstract: false, final false
   inline void set_renderTargetDesc(::UnityEngine::RenderTextureDescriptor value);
 
@@ -420,13 +442,13 @@ protected:
   constexpr XRPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRPass(XRPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRPass(XRPass const&) = delete;
+  XRPass(XRPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11858 };
@@ -437,36 +459,47 @@ public:
   /// @brief Field m_OcclusionMesh, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::XROcclusionMesh* ___m_OcclusionMesh;
 
+  /// [CompilerGenerated]
   /// @brief Field <copyDepth>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____copyDepth_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasMotionVectorPass>k__BackingField, offset: 0x21, size: 0x1, def value: None
   bool ____hasMotionVectorPass_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <multipassId>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t ____multipassId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <cullingPassId>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____cullingPassId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <renderTarget>k__BackingField, offset: 0x30, size: 0x28, def value: None
   ::UnityEngine::Rendering::RenderTargetIdentifier ____renderTarget_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <renderTargetDesc>k__BackingField, offset: 0x58, size: 0x34, def value: None
   ::UnityEngine::RenderTextureDescriptor ____renderTargetDesc_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <motionVectorRenderTarget>k__BackingField, offset: 0x90, size: 0x28, def value: None
   ::UnityEngine::Rendering::RenderTargetIdentifier ____motionVectorRenderTarget_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <motionVectorRenderTargetDesc>k__BackingField, offset: 0xb8, size: 0x34, def value: None
   ::UnityEngine::RenderTextureDescriptor ____motionVectorRenderTargetDesc_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <cullingParams>k__BackingField, offset: 0xf0, size: 0x638, def value: None
   ::UnityEngine::Rendering::ScriptableCullingParameters ____cullingParams_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <foveatedRenderingInfo>k__BackingField, offset: 0x728, size: 0x8, def value: None
   ::System::IntPtr ____foveatedRenderingInfo_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <occlusionMeshScale>k__BackingField, offset: 0x730, size: 0x4, def value: None
   float_t ____occlusionMeshScale_k__BackingField;
 

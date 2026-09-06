@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\CommandLine\CommandLineParseException.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/CommandLineParseException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParseException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -22,6 +22,7 @@ inline void BGLib::DotnetExtension::CommandLine::CommandLineParseException::_cto
                                                                                          { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Exception*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, hint, innerException);
 }
+/// @brief [NullableContext(1)]
 inline ::BGLib::DotnetExtension::CommandLine::CommandLineParseException* BGLib::DotnetExtension::CommandLine::CommandLineParseException::New_ctor(::StringW hint, ::System::Exception* innerException) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGLib::DotnetExtension::CommandLine::CommandLineParseException*>(hint, innerException));
 }

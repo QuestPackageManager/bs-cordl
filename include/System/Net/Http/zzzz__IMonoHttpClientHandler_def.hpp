@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\IMonoHttpClientHandler.hpp"
+// IWYU pragma private; include "System/Net/Http/IMonoHttpClientHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,31 +48,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method SendAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SetWebRequestTimeout, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetWebRequestTimeout, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetWebRequestTimeout(::System::TimeSpan timeout);
 
-  /// @brief Method get_SslOptions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SslOptions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::Security::SslClientAuthenticationOptions* get_SslOptions();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_AllowAutoRedirect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_AllowAutoRedirect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_AllowAutoRedirect(bool value);
 
-  /// @brief Method set_SslOptions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_SslOptions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
 
-  /// @brief Method set_UseProxy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_UseProxy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_UseProxy(bool value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMonoHttpClientHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMonoHttpClientHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMonoHttpClientHandler(IMonoHttpClientHandler const&) = delete;
+  IMonoHttpClientHandler(IMonoHttpClientHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20263 };

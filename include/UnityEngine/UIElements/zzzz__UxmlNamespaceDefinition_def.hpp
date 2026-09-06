@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlNamespaceDefinition.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlNamespaceDefinition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct UxmlNamespaceDefinition;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UxmlNamespaceDefinition);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlNamespaceDefinition, "UnityEngine.UIElements", "UxmlNamespaceDefinition");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -56,7 +57,8 @@ public:
   // @brief default ctor
   constexpr UxmlNamespaceDefinition();
 
-  // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "resolvedNamespace", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "resolvedNamespace", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr UxmlNamespaceDefinition(::StringW prefix, ::StringW resolvedNamespace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

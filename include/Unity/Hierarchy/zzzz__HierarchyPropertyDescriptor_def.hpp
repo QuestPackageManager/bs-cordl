@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyPropertyDescriptor.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyPropertyDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct HierarchyPropertyDescriptor;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchyPropertyDescriptor);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyPropertyDescriptor, "Unity.Hierarchy", "HierarchyPropertyDescriptor");
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchyPropertyDescriptor.h")]
 // Dependencies Unity.Hierarchy.HierarchyPropertyStorageType
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -38,8 +39,8 @@ public:
   // @brief default ctor
   constexpr HierarchyPropertyDescriptor();
 
-  // Ctor Parameters [CppParam { name: "m_Size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Type", ty: "::Unity::Hierarchy::HierarchyPropertyStorageType", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Size", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Type", ty: "::Unity::Hierarchy::HierarchyPropertyStorageType",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyPropertyDescriptor(int32_t m_Size, ::Unity::Hierarchy::HierarchyPropertyStorageType m_Type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

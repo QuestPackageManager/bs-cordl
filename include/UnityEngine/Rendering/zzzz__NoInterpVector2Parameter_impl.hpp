@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpVector2Parameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpVector2Parameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpVector2Parameter_def.hpp"

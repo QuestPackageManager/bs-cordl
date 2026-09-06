@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4\BeatmapDataLoader.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/BeatmapDataLoader.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -509,7 +509,7 @@ inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapData*>* Beat
     ::StringW audioDataJson, ::StringW beatmapJson, ::StringW lightshowJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
     bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo, ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo,
     ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-    ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
+    /* [Nullable(1)] */ ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader*>(),
                                                            { "GetBeatmapDataFromSaveDataJsonAsync",
@@ -533,7 +533,7 @@ inline ::GlobalNamespace::BeatmapData* BeatmapDataLoaderVersion4::BeatmapDataLoa
     ::StringW audioDataJson, ::StringW beatmapJson, ::StringW lightshowJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
     bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo, ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo,
     ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-    ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
+    /* [Nullable(1)] */ ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader*>(),
                                                            { "GetBeatmapDataFromSaveDataJson",
@@ -568,10 +568,11 @@ inline ::GlobalNamespace::BeatmapDataBasicInfo* BeatmapDataLoaderVersion4::Beatm
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataBasicInfo*>(nullptr, ___internal_method, beatmapDataJson);
 }
 inline ::GlobalNamespace::BeatmapData* BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataFromSaveData(
-    ::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData, ::BeatmapSaveDataVersion4::BeatmapSaveData* beatmapSaveData, ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
-    ::BeatmapSaveDataVersion4::LightshowSaveData* defaultLightshowSaveData, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, bool loadingForDesignatedEnvironment,
-    ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups,
-    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
+    /* [Nullable(1)] */ ::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData, ::BeatmapSaveDataVersion4::BeatmapSaveData* beatmapSaveData,
+    ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::BeatmapSaveDataVersion4::LightshowSaveData* defaultLightshowSaveData, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
+    bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo, /* [Nullable(1)] */ ::GlobalNamespace::EnvironmentKeywords* environmentKeywords,
+    /* [Nullable(1)] */ ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, /* [Nullable(1)] */ ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader*>(),
                                                            { "GetBeatmapDataFromSaveData",
@@ -587,7 +588,7 @@ inline ::GlobalNamespace::BeatmapData* BeatmapDataLoaderVersion4::BeatmapDataLoa
                                                                               gameplayModifiers, playerSpecificSettings, lightEventConverter);
 }
 inline void BeatmapDataLoaderVersion4::BeatmapDataLoader::ConvertBeatmapObjects(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion4::BeatmapSaveData* beatmapSaveData,
-                                                                                ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
+                                                                                /* [Nullable(2)] */ ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                 ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader*>(),

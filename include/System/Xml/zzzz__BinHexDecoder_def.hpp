@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\BinHexDecoder.hpp"
+// IWYU pragma private; include "System/Xml/BinHexDecoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,13 +119,13 @@ protected:
   constexpr BinHexDecoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinHexDecoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinHexDecoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinHexDecoder(BinHexDecoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinHexDecoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinHexDecoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinHexDecoder(BinHexDecoder const&) = delete;
+  BinHexDecoder(BinHexDecoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9246 };

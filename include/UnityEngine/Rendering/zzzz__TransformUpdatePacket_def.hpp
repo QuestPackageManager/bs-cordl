@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\TransformUpdatePacket.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/TransformUpdatePacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct TransformUpdatePacket;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::TransformUpdatePacket);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::TransformUpdatePacket, "UnityEngine.Rendering", "TransformUpdatePacket");
-// Dependencies Unity.Mathematics.float4
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceData\\InstanceTransformUpdateDefs.cs")] Dependencies Unity.Mathematics.float4
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.TransformUpdatePacket
@@ -24,8 +25,9 @@ public:
   // @brief default ctor
   constexpr TransformUpdatePacket();
 
-  // Ctor Parameters [CppParam { name: "localToWorld0", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "localToWorld1", ty: "::Unity::Mathematics::float4",
-  // modifiers: "", def_value: None }, CppParam { name: "localToWorld2", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "localToWorld0", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "localToWorld1", ty:
+  // "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "localToWorld2", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr TransformUpdatePacket(::Unity::Mathematics::float4 localToWorld0, ::Unity::Mathematics::float4 localToWorld1, ::Unity::Mathematics::float4 localToWorld2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

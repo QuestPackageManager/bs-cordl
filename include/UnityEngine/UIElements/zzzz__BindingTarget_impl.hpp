@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingTarget.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingTarget.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingTarget_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
@@ -19,14 +19,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::BindingTarget::_ctor(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId) {
+inline void UnityEngine::UIElements::BindingTarget::_ctor(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingTarget>(),
                                               { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, element, bindingId);
 }
-// Ctor Parameters [CppParam { name: "element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "bindingId", ty:
-// "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bindingId", ty:
+// "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BindingTarget::BindingTarget(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::BindingId bindingId) noexcept {
   this->element = element;
   this->bindingId = bindingId;

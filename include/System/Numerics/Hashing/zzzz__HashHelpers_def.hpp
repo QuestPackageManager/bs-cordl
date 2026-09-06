@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Numerics\Hashing\HashHelpers.hpp"
+// IWYU pragma private; include "System/Numerics/Hashing/HashHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +36,13 @@ protected:
   constexpr HashHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HashHelpers(HashHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HashHelpers(HashHelpers const&) = delete;
+  HashHelpers(HashHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21615 };

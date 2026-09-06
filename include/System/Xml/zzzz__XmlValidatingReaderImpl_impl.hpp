@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlValidatingReaderImpl.hpp"
+// IWYU pragma private; include "System/Xml/XmlValidatingReaderImpl.hpp"
 #include "System/Xml/zzzz__ValidationType_impl.hpp"
 #include "System/Xml/zzzz__XmlReader_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -31,7 +31,7 @@
 #include "System/Xml/zzzz__XmlValidatingReaderImpl_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlValidatingReaderImpl_ParsingFunction::XmlValidatingReaderImpl_ParsingFunction(int32_t value__) noexcept {
   this->value__ = value__;
 }

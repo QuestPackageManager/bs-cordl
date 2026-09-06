@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorTransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,32 +121,38 @@ protected:
   constexpr ColorTransitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorTransitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorTransitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorTransitionSO(ColorTransitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorTransitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorTransitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorTransitionSO(ColorTransitionSO const&) = delete;
+  ColorTransitionSO(ColorTransitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22379 };
 
+  /// [SerializeField]
   /// @brief Field _normalColor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____normalColor;
 
+  /// [SerializeField]
   /// @brief Field _highlightedColor, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____highlightedColor;
 
+  /// [SerializeField]
   /// @brief Field _pressedColor, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____pressedColor;
 
+  /// [SerializeField]
   /// @brief Field _disabledColor, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____disabledColor;
 
+  /// [SerializeField]
   /// @brief Field _selectedColor, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____selectedColor;
 
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedColor, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____selectedAndHighlightedColor;
 

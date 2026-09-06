@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RenderTextureExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/RenderTextureExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class RenderTextureExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::RenderTextureExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RenderTextureExtensions*, "", "RenderTextureExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -25,6 +26,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE RenderTextureExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method GetTexture2D, addr 0x3326960, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> GetTexture2D(::UnityEngine::RenderTexture* rt);
 
@@ -34,13 +36,13 @@ protected:
   constexpr RenderTextureExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderTextureExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderTextureExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderTextureExtensions(RenderTextureExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderTextureExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderTextureExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderTextureExtensions(RenderTextureExtensions const&) = delete;
+  RenderTextureExtensions(RenderTextureExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20754 };

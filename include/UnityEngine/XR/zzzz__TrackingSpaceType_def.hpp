@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\TrackingSpaceType.hpp"
+// IWYU pragma private; include "UnityEngine/XR/TrackingSpaceType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TrackingSpaceType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::TrackingSpaceType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::TrackingSpaceType, "UnityEngine.XR", "TrackingSpaceType");
+// [Obsolete("This is obsolete, and should no longer be used.  Please use InputTrackingModeFlags.")]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr TrackingSpaceType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackingSpaceType(int32_t value__) noexcept;
 
   /// @brief Field RoomScale value: I32(1)

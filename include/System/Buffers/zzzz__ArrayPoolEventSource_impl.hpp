@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\Buffers\ArrayPoolEventSource.hpp"
+// IWYU pragma private; include "System/Buffers/ArrayPoolEventSource.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/Buffers/zzzz__ArrayPoolEventSource_def.hpp"
 #include "System/Buffers/zzzz__ArrayPoolEventSource_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason::ArrayPoolEventSource_BufferAllocatedReason(int32_t value__) noexcept {
   this->value__ = value__;
 }

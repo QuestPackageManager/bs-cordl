@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformInitFailedException.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformInitFailedException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PlatformInitFailedException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

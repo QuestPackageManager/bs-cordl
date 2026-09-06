@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Syntax\ExpressionMultiplier.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/ExpressionMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,8 +42,8 @@ public:
   // @brief default ctor
   constexpr ExpressionMultiplier();
 
-  // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType", modifiers: "", def_value: None }, CppParam { name: "min", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "min", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ExpressionMultiplier(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType m_Type, int32_t min, int32_t max) noexcept;
 
   /// @brief Field Infinity offset 0xffffffff size 0x4

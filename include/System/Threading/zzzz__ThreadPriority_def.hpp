@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ThreadPriority.hpp"
+// IWYU pragma private; include "System/Threading/ThreadPriority.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   // @brief default ctor
   constexpr ThreadPriority();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ThreadPriority(int32_t value__) noexcept;
 
   /// @brief Field AboveNormal value: I32(3)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\TouchInputModule.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/TouchInputModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class TouchInputModule;
 // Write type traits
 MARK_REF_T(::UnityEngine::EventSystems::TouchInputModule*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::TouchInputModule*, "UnityEngine.EventSystems", "TouchInputModule");
+// [Obsolete("TouchInputModule is no longer required as Touch input is now handled in StandaloneInputModule.")]
+// [AddComponentMenu("Event/Touch Input Module")]
 // Dependencies UnityEngine.EventSystems.PointerInputModule, UnityEngine.Vector2
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -24,6 +26,7 @@ namespace UnityEngine::EventSystems {
 class CORDL_TYPE TouchInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
 public:
   // Declarations
+  /// @brief [Obsolete("allowActivationOnStandalone has been deprecated. Use forceModuleActive instead (UnityUpgradable) -> forceModuleActive")]
   __declspec(property(get = get_allowActivationOnStandalone, put = set_allowActivationOnStandalone)) bool allowActivationOnStandalone;
 
   __declspec(property(get = get_forceModuleActive, put = set_forceModuleActive)) bool forceModuleActive;
@@ -117,13 +120,13 @@ protected:
   constexpr TouchInputModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TouchInputModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchInputModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TouchInputModule(TouchInputModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TouchInputModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchInputModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TouchInputModule(TouchInputModule const&) = delete;
+  TouchInputModule(TouchInputModuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17575 };
@@ -137,6 +140,8 @@ public:
   /// @brief Field m_InputPointerEvent, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::EventSystems::PointerEventData* ___m_InputPointerEvent;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_AllowActivationOnStandalone")]
   /// @brief Field m_ForceModuleActive, offset: 0x80, size: 0x1, def value: None
   bool ___m_ForceModuleActive;
 

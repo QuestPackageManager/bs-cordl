@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\CustomAttributeNamedArgument.hpp"
+// IWYU pragma private; include "System/Reflection/CustomAttributeNamedArgument.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,15 +60,21 @@ public:
   /// @brief Method .ctor, addr 0x5b845a8, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Object* value);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_IsField, addr 0x5b8491c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsField();
 
   /// @brief Method get_MemberInfo, addr 0x5b8492c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_MemberName, addr 0x5b84924, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_TypedValue, addr 0x5b84910, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::CustomAttributeTypedArgument get_TypedValue();
 
@@ -82,9 +88,10 @@ public:
   // @brief default ctor
   constexpr CustomAttributeNamedArgument();
 
-  // Ctor Parameters [CppParam { name: "_TypedValue_k__BackingField", ty: "::System::Reflection::CustomAttributeTypedArgument", modifiers: "", def_value: None }, CppParam { name:
-  // "_IsField_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_MemberName_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "_attributeType", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_lazyMemberInfo", ty: "::System::Reflection::MemberInfo*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_TypedValue_k__BackingField", ty: "::System::Reflection::CustomAttributeTypedArgument", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_IsField_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_MemberName_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_attributeType", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_lazyMemberInfo", ty: "::System::Reflection::MemberInfo*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr CustomAttributeNamedArgument(::System::Reflection::CustomAttributeTypedArgument _TypedValue_k__BackingField, bool _IsField_k__BackingField, ::StringW _MemberName_k__BackingField,
                                          ::System::Type* _attributeType, ::System::Reflection::MemberInfo* _lazyMemberInfo) noexcept;
 
@@ -94,12 +101,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
+  /// [CompilerGenerated]
   /// @brief Field <TypedValue>k__BackingField, offset: 0x0, size: 0x10, def value: None
   ::System::Reflection::CustomAttributeTypedArgument _TypedValue_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsField>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool _IsField_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MemberName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW _MemberName_k__BackingField;
 

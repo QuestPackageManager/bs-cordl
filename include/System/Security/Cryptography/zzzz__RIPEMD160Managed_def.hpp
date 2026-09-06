@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\RIPEMD160Managed.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/RIPEMD160Managed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class RIPEMD160Managed;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::RIPEMD160Managed*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::RIPEMD160Managed*, "System.Security.Cryptography", "RIPEMD160Managed");
+// [ComVisible(true)]
 // Dependencies System.Security.Cryptography.RIPEMD160
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -104,13 +105,13 @@ protected:
   constexpr RIPEMD160Managed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160Managed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160Managed", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RIPEMD160Managed(RIPEMD160Managed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160Managed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160Managed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RIPEMD160Managed(RIPEMD160Managed const&) = delete;
+  RIPEMD160Managed(RIPEMD160Managedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2970 };

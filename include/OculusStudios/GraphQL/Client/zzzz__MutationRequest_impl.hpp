@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\MutationRequest.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/MutationRequest.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__Request_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__MutationRequest_def.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLMutationOperation_def.hpp"

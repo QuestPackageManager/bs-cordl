@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationPlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,13 @@ struct AnimationPlayableOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationPlayableOutput);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");
+// [StaticAccessor("AnimationPlayableOutputBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Runtime/Director/Core/HPlayableOutput.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayableGraph.h")]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationPlayableOutput.bindings.h")]
+// [NativeHeader("Modules/Animation/Director/AnimationPlayableOutput.h")]
+// [NativeHeader("Modules/Animation/Animator.h")]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.Playables.PlayableOutputHandle
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -51,12 +58,14 @@ public:
   /// @brief Method GetTarget, addr 0x6a49854, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animator> GetTarget();
 
+  /// [NativeThrows]
   /// @brief Method InternalGetTarget, addr 0x6a49858, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Animator> InternalGetTarget(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
   /// @brief Method InternalGetTarget_Injected, addr 0x6a49a08, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr InternalGetTarget_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
+  /// [NativeThrows]
   /// @brief Method InternalSetTarget, addr 0x6a49978, size 0x90, virtual false, abstract: false, final false
   static inline void InternalSetTarget(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> handle, ::UnityEngine::Animator* target);
 
@@ -85,7 +94,7 @@ public:
   // @brief default ctor
   constexpr AnimationPlayableOutput();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

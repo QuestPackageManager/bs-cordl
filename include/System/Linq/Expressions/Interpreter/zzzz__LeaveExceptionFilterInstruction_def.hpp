@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LeaveExceptionFilterInstruction.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LeaveExceptionFilterInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LeaveExceptionFilterInstruction* New_ctor();
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method Run, addr 0x5f90f3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
@@ -55,13 +56,13 @@ protected:
   constexpr LeaveExceptionFilterInstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaveExceptionFilterInstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaveExceptionFilterInstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaveExceptionFilterInstruction(LeaveExceptionFilterInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaveExceptionFilterInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaveExceptionFilterInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaveExceptionFilterInstruction(LeaveExceptionFilterInstruction const&) = delete;
+  LeaveExceptionFilterInstruction(LeaveExceptionFilterInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16288 };

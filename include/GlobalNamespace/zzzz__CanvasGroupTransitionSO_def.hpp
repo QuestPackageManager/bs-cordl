@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CanvasGroupTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/CanvasGroupTransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,32 +115,38 @@ protected:
   constexpr CanvasGroupTransitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupTransitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupTransitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CanvasGroupTransitionSO(CanvasGroupTransitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupTransitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupTransitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CanvasGroupTransitionSO(CanvasGroupTransitionSO const&) = delete;
+  CanvasGroupTransitionSO(CanvasGroupTransitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22378 };
 
+  /// [SerializeField]
   /// @brief Field _normalAlpha, offset: 0x20, size: 0x4, def value: None
   float_t ____normalAlpha;
 
+  /// [SerializeField]
   /// @brief Field _highlightedAlpha, offset: 0x24, size: 0x4, def value: None
   float_t ____highlightedAlpha;
 
+  /// [SerializeField]
   /// @brief Field _pressedAlpha, offset: 0x28, size: 0x4, def value: None
   float_t ____pressedAlpha;
 
+  /// [SerializeField]
   /// @brief Field _disabledAlpha, offset: 0x2c, size: 0x4, def value: None
   float_t ____disabledAlpha;
 
+  /// [SerializeField]
   /// @brief Field _selectedAlpha, offset: 0x30, size: 0x4, def value: None
   float_t ____selectedAlpha;
 
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedAlpha, offset: 0x34, size: 0x4, def value: None
   float_t ____selectedAndHighlightedAlpha;
 

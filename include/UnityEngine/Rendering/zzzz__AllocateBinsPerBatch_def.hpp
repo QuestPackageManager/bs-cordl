@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AllocateBinsPerBatch.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AllocateBinsPerBatch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ struct AllocateBinsPerBatch;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::AllocateBinsPerBatch);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::AllocateBinsPerBatch, "UnityEngine.Rendering", "AllocateBinsPerBatch");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, UnityEngine.Rendering.BinningConfig, UnityEngine.Rendering.CPUInstanceData::ReadOnly,
 // UnityEngine.Rendering.DrawBatch
 namespace UnityEngine::Rendering {
@@ -45,15 +46,15 @@ public:
   // @brief default ctor
   constexpr AllocateBinsPerBatch();
 
-  // Ctor Parameters [CppParam { name: "binningConfig", ty: "::UnityEngine::Rendering::BinningConfig", modifiers: "", def_value: None }, CppParam { name: "drawBatches", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None }, CppParam { name: "drawInstanceIndices", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly", modifiers: "",
-  // def_value: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "batchBinAllocOffsets", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "batchBinCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value:
-  // None }, CppParam { name: "binAllocCounter", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "binConfigIndices", ty:
-  // "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None }, CppParam { name: "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "debugCounterIndexBase", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "splitDebugCounters", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "binningConfig", ty: "::UnityEngine::Rendering::BinningConfig", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawBatches", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawInstanceIndices", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "batchBinAllocOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchBinCounts", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "binAllocCounter", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "binConfigIndices", ty: "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "debugCounterIndexBase", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "splitDebugCounters", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr AllocateBinsPerBatch(::UnityEngine::Rendering::BinningConfig binningConfig, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches,
                                  ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices, ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData,
                                  ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets,
@@ -67,39 +68,62 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x170 };
 
+  /// [ReadOnly]
   /// @brief Field binningConfig, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Rendering::BinningConfig binningConfig;
 
+  /// [ReadOnly]
   /// @brief Field drawBatches, offset: 0x8, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches;
 
+  /// [ReadOnly]
   /// @brief Field drawInstanceIndices, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices;
 
+  /// [ReadOnly]
   /// @brief Field instanceData, offset: 0x20, size: 0xd8, def value: None
   ::UnityEngine::Rendering::CPUInstanceData_ReadOnly instanceData;
 
+  /// [ReadOnly]
   /// @brief Field rendererVisibilityMasks, offset: 0xf8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field batchBinAllocOffsets, offset: 0x108, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field batchBinCounts, offset: 0x118, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [DeallocateOnJobCompletion]
   /// @brief Field binAllocCounter, offset: 0x128, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> binAllocCounter;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field binConfigIndices, offset: 0x138, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int16_t> binConfigIndices;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field binVisibleInstanceCounts, offset: 0x148, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts;
 
+  /// [ReadOnly]
   /// @brief Field debugCounterIndexBase, offset: 0x158, size: 0x4, def value: None
   int32_t debugCounterIndexBase;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field splitDebugCounters, offset: 0x160, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> splitDebugCounters;
 

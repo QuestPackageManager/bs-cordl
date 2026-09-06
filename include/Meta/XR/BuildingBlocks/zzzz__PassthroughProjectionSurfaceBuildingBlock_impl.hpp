@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\PassthroughProjectionSurfaceBuildingBlock.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/PassthroughProjectionSurfaceBuildingBlock.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__PassthroughProjectionSurfaceBuildingBlock_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"

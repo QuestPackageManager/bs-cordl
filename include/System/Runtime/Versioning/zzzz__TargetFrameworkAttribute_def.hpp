@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Versioning\TargetFrameworkAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Versioning/TargetFrameworkAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class TargetFrameworkAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::Versioning::TargetFrameworkAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Versioning::TargetFrameworkAttribute*, "System.Runtime.Versioning", "TargetFrameworkAttribute");
+// [AttributeUsage((System.AttributeTargets)1, AllowMultiple = false, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::Versioning {
 // Is value type: false
@@ -54,13 +55,13 @@ protected:
   constexpr TargetFrameworkAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TargetFrameworkAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TargetFrameworkAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TargetFrameworkAttribute(TargetFrameworkAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TargetFrameworkAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TargetFrameworkAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TargetFrameworkAttribute(TargetFrameworkAttribute const&) = delete;
+  TargetFrameworkAttribute(TargetFrameworkAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3208 };

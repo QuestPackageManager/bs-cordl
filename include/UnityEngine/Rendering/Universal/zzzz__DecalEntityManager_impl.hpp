@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalEntityManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalEntityManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalEntityManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -17,10 +17,11 @@
 #include "UnityEngine/Rendering/zzzz__ProfilingSampler_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
-// Ctor Parameters [CppParam { name: "entityChunk", ty: "::UnityEngine::Rendering::Universal::DecalEntityChunk*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cachedChunk", ty:
-// "::UnityEngine::Rendering::Universal::DecalCachedChunk*", modifiers: "", def_value: Some("{}") }, CppParam { name: "culledChunk", ty: "::UnityEngine::Rendering::Universal::DecalCulledChunk*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "drawCallChunk", ty: "::UnityEngine::Rendering::Universal::DecalDrawCallChunk*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "previousChunkIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "valid", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "entityChunk", ty: "::UnityEngine::Rendering::Universal::DecalEntityChunk*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cachedChunk",
+// ty: "::UnityEngine::Rendering::Universal::DecalCachedChunk*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "culledChunk", ty:
+// "::UnityEngine::Rendering::Universal::DecalCulledChunk*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawCallChunk", ty:
+// "::UnityEngine::Rendering::Universal::DecalDrawCallChunk*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "previousChunkIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "valid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager_CombinedChunks::DecalEntityManager_CombinedChunks(::UnityEngine::Rendering::Universal::DecalEntityChunk* entityChunk,
                                                                                                                     ::UnityEngine::Rendering::Universal::DecalCachedChunk* cachedChunk,
                                                                                                                     ::UnityEngine::Rendering::Universal::DecalCulledChunk* culledChunk,

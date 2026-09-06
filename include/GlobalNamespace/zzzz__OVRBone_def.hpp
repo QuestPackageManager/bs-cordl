@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBone.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,24 +79,30 @@ public:
   /// @brief Method .ctor, addr 0x5f11d9c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRSkeleton_BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Id, addr 0x5f11d6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_BoneId get_Id();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ParentBoneIndex, addr 0x5f11d7c, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_ParentBoneIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Transform, addr 0x5f11d8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Transform();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Id, addr 0x5f11d74, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::GlobalNamespace::OVRSkeleton_BoneId value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ParentBoneIndex, addr 0x5f11d84, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentBoneIndex(int16_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Transform, addr 0x5f11d94, size 0x8, virtual false, abstract: false, final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
@@ -106,23 +112,26 @@ protected:
   constexpr OVRBone();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBone", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBone", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRBone(OVRBone&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBone", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBone", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRBone(OVRBone const&) = delete;
+  OVRBone(OVRBoneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7986 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::OVRSkeleton_BoneId ____Id_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ParentBoneIndex>k__BackingField, offset: 0x14, size: 0x2, def value: None
   int16_t ____ParentBoneIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Transform>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____Transform_k__BackingField;
 

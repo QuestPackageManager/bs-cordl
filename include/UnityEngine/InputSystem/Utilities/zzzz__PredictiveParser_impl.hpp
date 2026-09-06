@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\PredictiveParser.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/PredictiveParser.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PredictiveParser_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::PredictiveParser.ExpectSingleChar
@@ -127,7 +127,7 @@ inline void UnityEngine::InputSystem::Utilities::PredictiveParser::AcceptInt(::S
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PredictiveParser>(), { "AcceptInt", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::PredictiveParser::PredictiveParser(int32_t m_Position) noexcept {
   this->m_Position = m_Position;
 }

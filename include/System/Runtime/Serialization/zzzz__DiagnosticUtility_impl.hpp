@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\DiagnosticUtility.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/DiagnosticUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__DiagnosticUtility_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::Syste
     return ___internal_method;
   }
 };
-inline void System::Runtime::Serialization::DiagnosticUtility_DiagnosticTrace::TraceEvent(::ArrayW<::System::Object*> args) {
+inline void System::Runtime::Serialization::DiagnosticUtility_DiagnosticTrace::TraceEvent(/* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DiagnosticUtility_DiagnosticTrace*>(),
                                                                                          { "TraceEvent", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, args);

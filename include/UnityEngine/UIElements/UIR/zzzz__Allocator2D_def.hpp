@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\Allocator2D.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Allocator2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,9 @@ namespace UnityEngine::UIElements::UIR {
 class BestFitAllocator;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class LinkedPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
+class LinkedPool_1;
 }
 namespace UnityEngine {
 struct RectInt;
@@ -97,13 +99,13 @@ protected:
   constexpr Allocator2D_Area();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Area", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Area", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Allocator2D_Area(Allocator2D_Area&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Area", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Area", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Allocator2D_Area(Allocator2D_Area const&) = delete;
+  Allocator2D_Area(Allocator2D_Areaconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5276 };
@@ -200,13 +202,13 @@ protected:
   constexpr Allocator2D_Row();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Row", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Row", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Allocator2D_Row(Allocator2D_Row&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Row", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D_Row", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Allocator2D_Row(Allocator2D_Row const&) = delete;
+  Allocator2D_Row(Allocator2D_Rowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5277 };
@@ -256,8 +258,9 @@ public:
   // @brief default ctor
   constexpr Allocator2D_Alloc2D();
 
-  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None }, CppParam { name: "row", ty: "::UnityEngine::UIElements::UIR::Allocator2D_Row*",
-  // modifiers: "", def_value: None }, CppParam { name: "alloc", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::RectInt", modifiers: "", def_value: None, comment: None }, CppParam { name: "row", ty:
+  // "::UnityEngine::UIElements::UIR::Allocator2D_Row*", modifiers: "", def_value: None, comment: None }, CppParam { name: "alloc", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr Allocator2D_Alloc2D(::UnityEngine::RectInt rect, ::UnityEngine::UIElements::UIR::Allocator2D_Row* row, ::UnityEngine::UIElements::UIR::Alloc alloc) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -380,13 +383,13 @@ protected:
   constexpr Allocator2D();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Allocator2D(Allocator2D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Allocator2D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Allocator2D(Allocator2D const&) = delete;
+  Allocator2D(Allocator2Dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5279 };

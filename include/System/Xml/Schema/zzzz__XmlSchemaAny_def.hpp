@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaAny.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAny.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,14 +32,20 @@ public:
   // Declarations
   __declspec(property(get = get_NameString)) ::StringW NameString;
 
+  /// @brief [XmlAttribute("namespace")]
   __declspec(property(get = get_Namespace, put = set_Namespace)) ::StringW Namespace;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_NamespaceList)) ::System::Xml::Schema::NamespaceList* NamespaceList;
 
+  /// [XmlAttribute("processContents")]
+  /// @brief [DefaultValue((System.Xml.Schema.XmlSchemaContentProcessing)0)]
   __declspec(property(put = set_ProcessContents)) ::System::Xml::Schema::XmlSchemaContentProcessing ProcessContents;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_ProcessContentsCorrect)) ::System::Xml::Schema::XmlSchemaContentProcessing ProcessContentsCorrect;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_ResolvedNamespace)) ::StringW ResolvedNamespace;
 
   /// @brief Field namespaceList, offset 0x88, size 0x8
@@ -110,13 +116,13 @@ protected:
   constexpr XmlSchemaAny();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAny", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAny", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaAny(XmlSchemaAny&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAny", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAny", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaAny(XmlSchemaAny const&) = delete;
+  XmlSchemaAny(XmlSchemaAnyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9743 };

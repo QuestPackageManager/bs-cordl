@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\SubsystemsAnalyticStop.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/SubsystemsAnalyticStop.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class SubsystemsAnalyticStop;
 // Write type traits
 MARK_REF_T(::UnityEngine::Analytics::SubsystemsAnalyticStop*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::SubsystemsAnalyticStop*, "UnityEngine.Analytics", "SubsystemsAnalyticStop");
+// [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.SubsystemsAnalyticBase
 namespace UnityEngine::Analytics {
 // Is value type: false
@@ -19,6 +21,7 @@ namespace UnityEngine::Analytics {
 class CORDL_TYPE SubsystemsAnalyticStop : public ::UnityEngine::Analytics::SubsystemsAnalyticBase {
 public:
   // Declarations
+  /// [RequiredByNativeCode]
   /// @brief Method CreateSubsystemsAnalyticStop, addr 0x6e24938, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::SubsystemsAnalyticStop* CreateSubsystemsAnalyticStop();
 
@@ -33,13 +36,13 @@ protected:
   constexpr SubsystemsAnalyticStop();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStop", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStop", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubsystemsAnalyticStop(SubsystemsAnalyticStop&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStop", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStop", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubsystemsAnalyticStop(SubsystemsAnalyticStop const&) = delete;
+  SubsystemsAnalyticStop(SubsystemsAnalyticStopconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22992 };

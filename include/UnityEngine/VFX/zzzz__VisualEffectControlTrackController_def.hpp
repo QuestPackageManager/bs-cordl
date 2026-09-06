@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlTrackController.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlTrackController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -154,7 +154,7 @@ public:
   // @brief default ctor
   constexpr Event_VisualEffectControlTrackController_ClipType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Event_VisualEffectControlTrackController_ClipType(int32_t value__) noexcept;
 
   /// @brief Field Enter value: I32(1)
@@ -196,9 +196,9 @@ public:
   // @brief default ctor
   constexpr VisualEffectControlTrackController_Event();
 
-  // Ctor Parameters [CppParam { name: "nameId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "attribute", ty: "::UnityEngine::VFX::VFXEventAttribute*", modifiers: "", def_value:
-  // None }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "clipIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "clipType", ty:
-  // "::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nameId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "attribute", ty: "::UnityEngine::VFX::VFXEventAttribute*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "clipIndex", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "clipType", ty: "::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType", modifiers: "", def_value: None, comment: None }]
   constexpr VisualEffectControlTrackController_Event(int32_t nameId, ::UnityEngine::VFX::VFXEventAttribute* attribute, double_t time, int32_t clipIndex,
                                                      ::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType clipType) noexcept;
 
@@ -250,7 +250,7 @@ public:
   // @brief default ctor
   constexpr VisualEffectControlTrackController_Clip();
 
-  // Ctor Parameters [CppParam { name: "enter", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "exit", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "enter", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "exit", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualEffectControlTrackController_Clip(int32_t enter, int32_t exit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -286,12 +286,13 @@ public:
   // @brief default ctor
   constexpr VisualEffectControlTrackController_Chunk();
 
-  // Ctor Parameters [CppParam { name: "scrubbing", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "reinitEnter", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "reinitExit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "startSeed", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "begin", ty: "double_t", modifiers:
-  // "", def_value: None }, CppParam { name: "end", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "prewarmCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "prewarmDeltaTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "prewarmOffset", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "prewarmEvent", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "events", ty: "::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Event>", modifiers: "", def_value: None }, CppParam {
-  // name: "clips", ty: "::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Clip>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "scrubbing", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "reinitEnter", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "reinitExit", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "startSeed", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "begin", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "end", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "prewarmCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "prewarmDeltaTime", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "prewarmOffset", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "prewarmEvent", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "events", ty: "::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Event>", modifiers: "", def_value: None, comment: None }, CppParam { name: "clips", ty:
+  // "::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Clip>", modifiers: "", def_value: None, comment: None }]
   constexpr VisualEffectControlTrackController_Chunk(bool scrubbing, bool reinitEnter, bool reinitExit, uint32_t startSeed, double_t begin, double_t end, uint32_t prewarmCount,
                                                      float_t prewarmDeltaTime, double_t prewarmOffset, int32_t prewarmEvent,
                                                      ::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Event> events,
@@ -397,13 +398,13 @@ protected:
   constexpr VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer(VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer(VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer const&) = delete;
+  VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer(VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19966 };
@@ -414,6 +415,7 @@ public:
 static_assert(sizeof(::UnityEngine::VFX::VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::VFX
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -437,8 +439,8 @@ public:
   inline int32_t _Init_b__24_0(::UnityEngine::VFX::VisualEffectControlTrackController_Event x, ::UnityEngine::VFX::VisualEffectControlTrackController_Event y);
 
   /// @brief Method <Init>b__24_1, addr 0x69d760c, size 0x64, virtual false, abstract: false, final false
-  inline int32_t _Init_b__24_1(::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> x,
-                               ::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> y);
+  inline int32_t _Init_b__24_1(/* [TupleElementNames(new[] { "evt", "sourceIndex" })] */ ::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> x,
+                               /* [TupleElementNames(new[] { "evt", "sourceIndex" })] */ ::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> y);
 
   /// @brief Method .ctor, addr 0x69d7608, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -461,13 +463,13 @@ protected:
   constexpr VisualEffectControlTrackController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffectControlTrackController___c(VisualEffectControlTrackController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrackController___c(VisualEffectControlTrackController___c const&) = delete;
+  VisualEffectControlTrackController___c(VisualEffectControlTrackController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19967 };
@@ -478,6 +480,7 @@ public:
 static_assert(sizeof(::UnityEngine::VFX::VisualEffectControlTrackController___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::VFX
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.VFX.VisualEffectControlTrackController::Event
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -533,24 +536,31 @@ public:
   /// @brief Method MoveNext, addr 0x69d76f0, size 0x388, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.VFX.VisualEffectControlTrackController.Event>.GetEnumerator, addr 0x69d7bd8, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::VFX::VisualEffectControlTrackController_Event>*
   System_Collections_Generic_IEnumerable_UnityEngine_VFX_VisualEffectControlTrackController_Event__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.VFX.VisualEffectControlTrackController.Event>.get_Current, addr 0x69d7b2c, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::VFX::VisualEffectControlTrackController_Event System_Collections_Generic_IEnumerator_UnityEngine_VFX_VisualEffectControlTrackController_Event__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69d7c78, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69d7b3c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69d7b74, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69d76d4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -605,6 +615,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x69d7a78, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69d6100, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -631,13 +642,13 @@ protected:
   constexpr VisualEffectControlTrackController__ComputeRuntimeEvent_d__21();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController__ComputeRuntimeEvent_d__21", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController__ComputeRuntimeEvent_d__21", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffectControlTrackController__ComputeRuntimeEvent_d__21(VisualEffectControlTrackController__ComputeRuntimeEvent_d__21&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController__ComputeRuntimeEvent_d__21", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController__ComputeRuntimeEvent_d__21", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrackController__ComputeRuntimeEvent_d__21(VisualEffectControlTrackController__ComputeRuntimeEvent_d__21 const&) = delete;
+  VisualEffectControlTrackController__ComputeRuntimeEvent_d__21(VisualEffectControlTrackController__ComputeRuntimeEvent_d__21const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19968 };
@@ -737,6 +748,7 @@ public:
   /// @brief Method ComputeAttribute, addr 0x69d5fe4, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXEventAttribute* ComputeAttribute(::UnityEngine::VFX::VisualEffect* vfx, ::UnityEngine::VFX::EventAttributes attributes);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.VFX.VisualEffectControlTrackController::<ComputeRuntimeEvent>d__21))]
   /// @brief Method ComputeRuntimeEvent, addr 0x69d6084, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectControlTrackController_Event>*
   ComputeRuntimeEvent(::UnityEngine::VFX::VisualEffectControlPlayableBehaviour* behavior, ::UnityEngine::VFX::VisualEffect* vfx);
@@ -835,13 +847,13 @@ protected:
   constexpr VisualEffectControlTrackController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffectControlTrackController(VisualEffectControlTrackController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectControlTrackController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectControlTrackController(VisualEffectControlTrackController const&) = delete;
+  VisualEffectControlTrackController(VisualEffectControlTrackControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19969 };

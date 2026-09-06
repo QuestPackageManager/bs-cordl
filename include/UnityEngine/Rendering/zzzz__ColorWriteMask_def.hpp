@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ColorWriteMask.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ColorWriteMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ColorWriteMask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ColorWriteMask);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ColorWriteMask, "UnityEngine.Rendering", "ColorWriteMask");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr ColorWriteMask();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ColorWriteMask(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(15)

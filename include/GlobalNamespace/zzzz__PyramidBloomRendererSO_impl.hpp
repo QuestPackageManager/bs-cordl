@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PyramidBloomRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PyramidBloomRendererSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GlobalKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_impl.hpp"
@@ -12,7 +12,7 @@
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass::PyramidBloomRendererSO_Pass(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -32,7 +32,7 @@ constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::Pyrami
 constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleTentAndReinhardToneMapping{ static_cast<int32_t>(0xb) };
 constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleTentAndACESToneMapping{ static_cast<int32_t>(0xc) };
 constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleTentAndACESToneMappingGlobalIntensity{ static_cast<int32_t>(0xd) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PyramidBloomRendererSO_TextureType::PyramidBloomRendererSO_TextureType(int32_t value__) noexcept {
   this->value__ = value__;
 }

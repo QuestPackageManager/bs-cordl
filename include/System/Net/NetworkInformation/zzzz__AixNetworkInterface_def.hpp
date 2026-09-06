@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\AixNetworkInterface.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/AixNetworkInterface.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,13 +64,13 @@ protected:
   constexpr AixNetworkInterface();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AixNetworkInterface", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AixNetworkInterface", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AixNetworkInterface(AixNetworkInterface&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AixNetworkInterface", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AixNetworkInterface", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AixNetworkInterface(AixNetworkInterface const&) = delete;
+  AixNetworkInterface(AixNetworkInterfaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11685 };

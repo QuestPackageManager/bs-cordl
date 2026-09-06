@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataTable.hpp"
+// IWYU pragma private; include "System/Data/DataTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -239,7 +239,7 @@ public:
   // @brief default ctor
   constexpr DataTable_RowDiffIdUsageSection();
 
-  // Ctor Parameters [CppParam { name: "_targetTable", ty: "::System::Data::DataTable*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_targetTable", ty: "::System::Data::DataTable*", modifiers: "", def_value: None, comment: None }]
   constexpr DataTable_RowDiffIdUsageSection(::System::Data::DataTable* _targetTable) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -273,7 +273,7 @@ public:
   // @brief default ctor
   constexpr DataTable_DSRowDiffIdUsageSection();
 
-  // Ctor Parameters [CppParam { name: "_targetDS", ty: "::System::Data::DataSet*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_targetDS", ty: "::System::Data::DataSet*", modifiers: "", def_value: None, comment: None }]
   constexpr DataTable_DSRowDiffIdUsageSection(::System::Data::DataSet* _targetDS) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -293,6 +293,11 @@ static_assert(offsetof(::System::Data::DataTable_DSRowDiffIdUsageSection, _targe
 static_assert(sizeof(::System::Data::DataTable_DSRowDiffIdUsageSection) == 0x8, "Size mismatch!");
 
 } // namespace System::Data
+// [DesignTimeVisible(false)]
+// [DefaultProperty("TableName")]
+// [DefaultEvent("RowChanging")]
+// [XmlSchemaProvider("GetDataTableSchema")]
+// [ToolboxItem(false)]
 // Dependencies System.ComponentModel.MarshalByValueComponent, System.Data.DataColumn, System.Data.DataRelation, System.Data.DataRow, System.Data.IndexField, System.Data.SerializationFormat,
 // System.Decimal, System.Globalization.CompareOptions
 namespace System::Data {
@@ -309,14 +314,20 @@ public:
 
   __declspec(property(get = get_CaseSensitive, put = set_CaseSensitive)) bool CaseSensitive;
 
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_ChildRelations)) ::System::Data::DataRelationCollection* ChildRelations;
 
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)2)]
   __declspec(property(get = get_Columns)) ::System::Data::DataColumnCollection* Columns;
 
   __declspec(property(get = get_CompareInfo)) ::System::Globalization::CompareInfo* CompareInfo;
 
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)2)]
   __declspec(property(get = get_Constraints)) ::System::Data::ConstraintCollection* Constraints;
 
+  /// [Browsable(false)]
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
   __declspec(property(get = get_DataSet)) ::System::Data::DataSet* DataSet;
 
   __declspec(property(get = get_DisplayExpressionInternal)) ::StringW DisplayExpressionInternal;
@@ -327,12 +338,14 @@ public:
 
   __declspec(property(get = get_EnforceConstraints, put = set_EnforceConstraints)) bool EnforceConstraints;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_ExtendedProperties)) ::System::Data::PropertyCollection* ExtendedProperties;
 
   __declspec(property(get = get_FormatProvider)) ::System::IFormatProvider* FormatProvider;
 
   __declspec(property(get = get_IsTypedDataTable)) bool IsTypedDataTable;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   __declspec(property(get = get_LiveIndexes)) ::System::Collections::Generic::List_1<::System::Data::Index*>* LiveIndexes;
 
   __declspec(property(get = get_Locale, put = set_Locale)) ::System::Globalization::CultureInfo* Locale;
@@ -343,6 +356,7 @@ public:
 
   __declspec(property(get = get_MinOccurs, put = set_MinOccurs)) ::System::Decimal MinOccurs;
 
+  /// @brief [DefaultValue(50)]
   __declspec(property(get = get_MinimumCapacity, put = set_MinimumCapacity)) int32_t MinimumCapacity;
 
   __declspec(property(get = get_Namespace, put = set_Namespace)) ::StringW Namespace;
@@ -355,28 +369,38 @@ public:
 
   __declspec(property(get = get_ObjectID)) int32_t ObjectID;
 
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_ParentRelations)) ::System::Data::DataRelationCollection* ParentRelations;
 
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_Prefix, put = set_Prefix)) ::StringW Prefix;
 
+  /// @brief [TypeConverter(typeof(System.Data.PrimaryKeyTypeConverter))]
   __declspec(property(get = get_PrimaryKey, put = set_PrimaryKey)) ::ArrayW<::System::Data::DataColumn*> PrimaryKey;
 
   __declspec(property(get = get_RecordCapacity)) int32_t RecordCapacity;
 
+  /// @brief [DefaultValue((System.Data.SerializationFormat)0)]
   __declspec(property(get = get_RemotingFormat, put = set_RemotingFormat)) ::System::Data::SerializationFormat RemotingFormat;
 
   __declspec(property(get = get_RowDiffId)) ::System::Collections::Hashtable* RowDiffId;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_Rows)) ::System::Data::DataRowCollection* Rows;
 
   __declspec(property(get = get_SchemaLoading)) bool SchemaLoading;
 
   __declspec(property(get = get_SelfNested)) bool SelfNested;
 
+  /// [Browsable(false)]
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
   __declspec(property(get = get_Site)) ::System::ComponentModel::ISite* Site;
 
   __declspec(property(get = get_SuspendEnforceConstraints, put = set_SuspendEnforceConstraints)) bool SuspendEnforceConstraints;
 
+  /// [DefaultValue("")]
+  /// @brief [RefreshProperties((System.ComponentModel.RefreshProperties)1)]
   __declspec(property(get = get_TableName, put = set_TableName)) ::StringW TableName;
 
   __declspec(property(get = get_TypeName, put = set_TypeName)) ::System::Xml::XmlQualifiedName* TypeName;
@@ -1698,13 +1722,13 @@ protected:
   constexpr DataTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataTable(DataTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataTable(DataTable const&) = delete;
+  DataTable(DataTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13745 };

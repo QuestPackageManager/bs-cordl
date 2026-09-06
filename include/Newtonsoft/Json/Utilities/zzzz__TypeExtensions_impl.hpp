@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\TypeExtensions.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/TypeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__TypeExtensions_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -320,7 +320,8 @@ inline bool Newtonsoft::Json::Utilities::TypeExtensions::IsPrimitive(::System::T
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::TypeExtensions*>(), { "IsPrimitive", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
-inline bool Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, bool searchInterfaces, ::by_ref<::System::Type*> match) {
+inline bool Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName(::System::Type* type, ::StringW fullTypeName, bool searchInterfaces,
+                                                                              /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Type*> match) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::TypeExtensions*>(),

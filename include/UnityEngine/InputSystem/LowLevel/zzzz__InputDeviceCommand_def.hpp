@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputDeviceCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputDeviceCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceCommand)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
@@ -80,8 +82,8 @@ public:
   // @brief default ctor
   constexpr InputDeviceCommand();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "sizeInBytes", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None, comment: None }, CppParam { name: "sizeInBytes", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr InputDeviceCommand(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes) noexcept;
 
 private:

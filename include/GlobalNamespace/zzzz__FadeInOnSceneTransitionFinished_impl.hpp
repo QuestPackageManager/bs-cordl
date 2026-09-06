@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FadeInOnSceneTransitionFinished.hpp"
+// IWYU pragma private; include "GlobalNamespace/FadeInOnSceneTransitionFinished.hpp"
 #include "GlobalNamespace/zzzz__ZenjectSafeBehaviour_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeInOnSceneTransitionFinished_def.hpp"
@@ -160,6 +160,7 @@ inline ::System::Object* GlobalNamespace::FadeInOnSceneTransitionFinished__FadeC
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4* GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4*>(__1__state));
 }

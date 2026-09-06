@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTelemetryConstants.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTelemetryConstants.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -304,6 +304,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::Utils_OVRTelemetryConstants_AnnotationTyp
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::Utils_OVRTelemetryConstants_MarkerId*, "", "OVRTelemetryConstants/Utils/MarkerId");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::XRSim_OVRTelemetryConstants_AnnotationType*, "", "OVRTelemetryConstants/XRSim/AnnotationType");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::XRSim_OVRTelemetryConstants_MarkerId*, "", "OVRTelemetryConstants/XRSim/MarkerId");
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -317,13 +318,13 @@ protected:
   constexpr OVRManager_OVRTelemetryConstants_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRManager_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRManager_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRManager_OVRTelemetryConstants_MarkerId(OVRManager_OVRTelemetryConstants_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRManager_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRManager_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRManager_OVRTelemetryConstants_MarkerId(OVRManager_OVRTelemetryConstants_MarkerId const&) = delete;
+  OVRManager_OVRTelemetryConstants_MarkerId(OVRManager_OVRTelemetryConstants_MarkerIdconst&) = delete;
 
   /// @brief Field Consent offset 0xffffffff size 0x4
   static constexpr int32_t Consent{ static_cast<int32_t>(0x9b80c82) };
@@ -353,13 +354,13 @@ protected:
   constexpr OVRManager_OVRTelemetryConstants_AnnotationTypes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRManager_OVRTelemetryConstants_AnnotationTypes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRManager_OVRTelemetryConstants_AnnotationTypes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRManager_OVRTelemetryConstants_AnnotationTypes(OVRManager_OVRTelemetryConstants_AnnotationTypes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRManager_OVRTelemetryConstants_AnnotationTypes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRManager_OVRTelemetryConstants_AnnotationTypes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRManager_OVRTelemetryConstants_AnnotationTypes(OVRManager_OVRTelemetryConstants_AnnotationTypes const&) = delete;
+  OVRManager_OVRTelemetryConstants_AnnotationTypes(OVRManager_OVRTelemetryConstants_AnnotationTypesconst&) = delete;
 
   /// @brief Field BatchMode offset 0xffffffff size 0x8
   static constexpr ::ConstString BatchMode{ u"BatchMode" };
@@ -415,7 +416,7 @@ public:
   // @brief default ctor
   constexpr OVRManager_OVRTelemetryConstants_ConsentOrigins();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRManager_OVRTelemetryConstants_ConsentOrigins(int32_t value__) noexcept;
 
   /// @brief Field Legacy value: I32(2)
@@ -477,13 +478,13 @@ protected:
   constexpr OVRTelemetryConstants_OVRManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_OVRManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_OVRManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants_OVRManager(OVRTelemetryConstants_OVRManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_OVRManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_OVRManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants_OVRManager(OVRTelemetryConstants_OVRManager const&) = delete;
+  OVRTelemetryConstants_OVRManager(OVRTelemetryConstants_OVRManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7738 };
@@ -494,6 +495,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetryConstants_OVRManager) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -507,13 +509,13 @@ protected:
   constexpr Editor_OVRTelemetryConstants_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Editor_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Editor_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Editor_OVRTelemetryConstants_MarkerId(Editor_OVRTelemetryConstants_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Editor_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Editor_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Editor_OVRTelemetryConstants_MarkerId(Editor_OVRTelemetryConstants_MarkerId const&) = delete;
+  Editor_OVRTelemetryConstants_MarkerId(Editor_OVRTelemetryConstants_MarkerIdconst&) = delete;
 
   /// @brief Field Build offset 0xffffffff size 0x4
   static constexpr int32_t Build{ static_cast<int32_t>(0x9b8336d) };
@@ -549,13 +551,13 @@ protected:
   constexpr Editor_OVRTelemetryConstants_AnnotationType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Editor_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Editor_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Editor_OVRTelemetryConstants_AnnotationType(Editor_OVRTelemetryConstants_AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Editor_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Editor_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Editor_OVRTelemetryConstants_AnnotationType(Editor_OVRTelemetryConstants_AnnotationType const&) = delete;
+  Editor_OVRTelemetryConstants_AnnotationType(Editor_OVRTelemetryConstants_AnnotationTypeconst&) = delete;
 
   /// @brief Field AssemblyName offset 0xffffffff size 0x8
   static constexpr ::ConstString AssemblyName{ u"AssemblyName" };
@@ -607,7 +609,7 @@ public:
   // @brief default ctor
   constexpr Editor_OVRTelemetryConstants_AnnotationVariant();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Editor_OVRTelemetryConstants_AnnotationVariant(int32_t value__) noexcept;
 
   /// @brief Field Optional value: I32(1)
@@ -652,13 +654,13 @@ protected:
   constexpr OVRTelemetryConstants_Editor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Editor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Editor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants_Editor(OVRTelemetryConstants_Editor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Editor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Editor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants_Editor(OVRTelemetryConstants_Editor const&) = delete;
+  OVRTelemetryConstants_Editor(OVRTelemetryConstants_Editorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7742 };
@@ -669,6 +671,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetryConstants_Editor) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -682,13 +685,13 @@ protected:
   constexpr BB_OVRTelemetryConstants_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BB_OVRTelemetryConstants_MarkerId(BB_OVRTelemetryConstants_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BB_OVRTelemetryConstants_MarkerId(BB_OVRTelemetryConstants_MarkerId const&) = delete;
+  BB_OVRTelemetryConstants_MarkerId(BB_OVRTelemetryConstants_MarkerIdconst&) = delete;
 
   /// @brief Field AddBlock offset 0xffffffff size 0x4
   static constexpr int32_t AddBlock{ static_cast<int32_t>(0x9b81ac4) };
@@ -742,13 +745,13 @@ protected:
   constexpr BB_OVRTelemetryConstants_AnnotationType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BB_OVRTelemetryConstants_AnnotationType(BB_OVRTelemetryConstants_AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BB_OVRTelemetryConstants_AnnotationType(BB_OVRTelemetryConstants_AnnotationType const&) = delete;
+  BB_OVRTelemetryConstants_AnnotationType(BB_OVRTelemetryConstants_AnnotationTypeconst&) = delete;
 
   /// @brief Field ActionTrigger offset 0xffffffff size 0x8
   static constexpr ::ConstString ActionTrigger{ u"action_trigger" };
@@ -802,13 +805,13 @@ protected:
   constexpr BB_OVRTelemetryConstants_Origins();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_Origins", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_Origins", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BB_OVRTelemetryConstants_Origins(BB_OVRTelemetryConstants_Origins&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_Origins", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BB_OVRTelemetryConstants_Origins", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BB_OVRTelemetryConstants_Origins(BB_OVRTelemetryConstants_Origins const&) = delete;
+  BB_OVRTelemetryConstants_Origins(BB_OVRTelemetryConstants_Originsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7745 };
@@ -838,13 +841,13 @@ protected:
   constexpr OVRTelemetryConstants_BB();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_BB", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_BB", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants_BB(OVRTelemetryConstants_BB&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_BB", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_BB", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants_BB(OVRTelemetryConstants_BB const&) = delete;
+  OVRTelemetryConstants_BB(OVRTelemetryConstants_BBconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7746 };
@@ -855,6 +858,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetryConstants_BB) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -868,13 +872,13 @@ protected:
   constexpr GuidedSetup_OVRTelemetryConstants_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GuidedSetup_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuidedSetup_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuidedSetup_OVRTelemetryConstants_MarkerId(GuidedSetup_OVRTelemetryConstants_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GuidedSetup_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuidedSetup_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GuidedSetup_OVRTelemetryConstants_MarkerId(GuidedSetup_OVRTelemetryConstants_MarkerId const&) = delete;
+  GuidedSetup_OVRTelemetryConstants_MarkerId(GuidedSetup_OVRTelemetryConstants_MarkerIdconst&) = delete;
 
   /// @brief Field SetAppIdFromGuidedSetup offset 0xffffffff size 0x4
   static constexpr int32_t SetAppIdFromGuidedSetup{ static_cast<int32_t>(0x9b81f2c) };
@@ -901,13 +905,13 @@ protected:
   constexpr GuidedSetup_OVRTelemetryConstants_AnnotationType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GuidedSetup_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuidedSetup_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuidedSetup_OVRTelemetryConstants_AnnotationType(GuidedSetup_OVRTelemetryConstants_AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GuidedSetup_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuidedSetup_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GuidedSetup_OVRTelemetryConstants_AnnotationType(GuidedSetup_OVRTelemetryConstants_AnnotationType const&) = delete;
+  GuidedSetup_OVRTelemetryConstants_AnnotationType(GuidedSetup_OVRTelemetryConstants_AnnotationTypeconst&) = delete;
 
   /// @brief Field HasAppId offset 0xffffffff size 0x8
   static constexpr ::ConstString HasAppId{ u"app_id_exist" };
@@ -941,13 +945,13 @@ protected:
   constexpr OVRTelemetryConstants_GuidedSetup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_GuidedSetup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_GuidedSetup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants_GuidedSetup(OVRTelemetryConstants_GuidedSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_GuidedSetup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_GuidedSetup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants_GuidedSetup(OVRTelemetryConstants_GuidedSetup const&) = delete;
+  OVRTelemetryConstants_GuidedSetup(OVRTelemetryConstants_GuidedSetupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7749 };
@@ -958,6 +962,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetryConstants_GuidedSetup) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -971,13 +976,13 @@ protected:
   constexpr XRSim_OVRTelemetryConstants_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRSim_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSim_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRSim_OVRTelemetryConstants_MarkerId(XRSim_OVRTelemetryConstants_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRSim_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSim_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRSim_OVRTelemetryConstants_MarkerId(XRSim_OVRTelemetryConstants_MarkerId const&) = delete;
+  XRSim_OVRTelemetryConstants_MarkerId(XRSim_OVRTelemetryConstants_MarkerIdconst&) = delete;
 
   /// @brief Field EditorRun offset 0xffffffff size 0x4
   static constexpr int32_t EditorRun{ static_cast<int32_t>(0x9b824e7) };
@@ -1010,13 +1015,13 @@ protected:
   constexpr XRSim_OVRTelemetryConstants_AnnotationType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRSim_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSim_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRSim_OVRTelemetryConstants_AnnotationType(XRSim_OVRTelemetryConstants_AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRSim_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSim_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRSim_OVRTelemetryConstants_AnnotationType(XRSim_OVRTelemetryConstants_AnnotationType const&) = delete;
+  XRSim_OVRTelemetryConstants_AnnotationType(XRSim_OVRTelemetryConstants_AnnotationTypeconst&) = delete;
 
   /// @brief Field Action offset 0xffffffff size 0x8
   static constexpr ::ConstString Action{ u"action" };
@@ -1056,13 +1061,13 @@ protected:
   constexpr OVRTelemetryConstants_XRSim();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_XRSim", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_XRSim", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants_XRSim(OVRTelemetryConstants_XRSim&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_XRSim", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_XRSim", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants_XRSim(OVRTelemetryConstants_XRSim const&) = delete;
+  OVRTelemetryConstants_XRSim(OVRTelemetryConstants_XRSimconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7752 };
@@ -1073,6 +1078,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetryConstants_XRSim) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1086,13 +1092,13 @@ protected:
   constexpr Scene_OVRTelemetryConstants_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scene_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scene_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scene_OVRTelemetryConstants_MarkerId(Scene_OVRTelemetryConstants_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scene_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scene_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scene_OVRTelemetryConstants_MarkerId(Scene_OVRTelemetryConstants_MarkerId const&) = delete;
+  Scene_OVRTelemetryConstants_MarkerId(Scene_OVRTelemetryConstants_MarkerIdconst&) = delete;
 
   /// @brief Field SceneClose offset 0xffffffff size 0x4
   static constexpr int32_t SceneClose{ static_cast<int32_t>(0x9b83a92) };
@@ -1128,13 +1134,13 @@ protected:
   constexpr Scene_OVRTelemetryConstants_AnnotationType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scene_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scene_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scene_OVRTelemetryConstants_AnnotationType(Scene_OVRTelemetryConstants_AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scene_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scene_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scene_OVRTelemetryConstants_AnnotationType(Scene_OVRTelemetryConstants_AnnotationType const&) = delete;
+  Scene_OVRTelemetryConstants_AnnotationType(Scene_OVRTelemetryConstants_AnnotationTypeconst&) = delete;
 
   /// @brief Field ActiveRoomsOnly offset 0xffffffff size 0x8
   static constexpr ::ConstString ActiveRoomsOnly{ u"active_rooms_only" };
@@ -1186,13 +1192,13 @@ protected:
   constexpr OVRTelemetryConstants_Scene();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Scene", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Scene", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants_Scene(OVRTelemetryConstants_Scene&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Scene", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Scene", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants_Scene(OVRTelemetryConstants_Scene const&) = delete;
+  OVRTelemetryConstants_Scene(OVRTelemetryConstants_Sceneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7755 };
@@ -1203,6 +1209,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetryConstants_Scene) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1216,13 +1223,13 @@ protected:
   constexpr Feedback_OVRTelemetryConstants_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Feedback_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Feedback_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Feedback_OVRTelemetryConstants_MarkerId(Feedback_OVRTelemetryConstants_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Feedback_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Feedback_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Feedback_OVRTelemetryConstants_MarkerId(Feedback_OVRTelemetryConstants_MarkerId const&) = delete;
+  Feedback_OVRTelemetryConstants_MarkerId(Feedback_OVRTelemetryConstants_MarkerIdconst&) = delete;
 
   /// @brief Field SubmitFeedback offset 0xffffffff size 0x4
   static constexpr int32_t SubmitFeedback{ static_cast<int32_t>(0x9b8190a) };
@@ -1249,13 +1256,13 @@ protected:
   constexpr Feedback_OVRTelemetryConstants_AnnotationType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Feedback_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Feedback_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Feedback_OVRTelemetryConstants_AnnotationType(Feedback_OVRTelemetryConstants_AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Feedback_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Feedback_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Feedback_OVRTelemetryConstants_AnnotationType(Feedback_OVRTelemetryConstants_AnnotationType const&) = delete;
+  Feedback_OVRTelemetryConstants_AnnotationType(Feedback_OVRTelemetryConstants_AnnotationTypeconst&) = delete;
 
   /// @brief Field ToolName offset 0xffffffff size 0x8
   static constexpr ::ConstString ToolName{ u"ToolName" };
@@ -1286,13 +1293,13 @@ protected:
   constexpr OVRTelemetryConstants_Feedback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Feedback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Feedback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants_Feedback(OVRTelemetryConstants_Feedback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Feedback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Feedback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants_Feedback(OVRTelemetryConstants_Feedback const&) = delete;
+  OVRTelemetryConstants_Feedback(OVRTelemetryConstants_Feedbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7758 };
@@ -1303,6 +1310,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetryConstants_Feedback) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1316,13 +1324,13 @@ protected:
   constexpr Utils_OVRTelemetryConstants_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Utils_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utils_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Utils_OVRTelemetryConstants_MarkerId(Utils_OVRTelemetryConstants_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Utils_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utils_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Utils_OVRTelemetryConstants_MarkerId(Utils_OVRTelemetryConstants_MarkerId const&) = delete;
+  Utils_OVRTelemetryConstants_MarkerId(Utils_OVRTelemetryConstants_MarkerIdconst&) = delete;
 
   /// @brief Field DownloadContent offset 0xffffffff size 0x4
   static constexpr int32_t DownloadContent{ static_cast<int32_t>(0x9b83591) };
@@ -1349,13 +1357,13 @@ protected:
   constexpr Utils_OVRTelemetryConstants_AnnotationType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Utils_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utils_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Utils_OVRTelemetryConstants_AnnotationType(Utils_OVRTelemetryConstants_AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Utils_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utils_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Utils_OVRTelemetryConstants_AnnotationType(Utils_OVRTelemetryConstants_AnnotationType const&) = delete;
+  Utils_OVRTelemetryConstants_AnnotationType(Utils_OVRTelemetryConstants_AnnotationTypeconst&) = delete;
 
   /// @brief Field ContentType offset 0xffffffff size 0x8
   static constexpr ::ConstString ContentType{ u"content_type" };
@@ -1392,13 +1400,13 @@ protected:
   constexpr OVRTelemetryConstants_Utils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Utils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Utils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants_Utils(OVRTelemetryConstants_Utils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Utils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_Utils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants_Utils(OVRTelemetryConstants_Utils const&) = delete;
+  OVRTelemetryConstants_Utils(OVRTelemetryConstants_Utilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7761 };
@@ -1409,6 +1417,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRTelemetryConstants_Utils) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1422,13 +1431,13 @@ protected:
   constexpr ProjectSettings_OVRTelemetryConstants_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectSettings_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectSettings_OVRTelemetryConstants_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProjectSettings_OVRTelemetryConstants_MarkerId(ProjectSettings_OVRTelemetryConstants_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectSettings_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectSettings_OVRTelemetryConstants_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProjectSettings_OVRTelemetryConstants_MarkerId(ProjectSettings_OVRTelemetryConstants_MarkerId const&) = delete;
+  ProjectSettings_OVRTelemetryConstants_MarkerId(ProjectSettings_OVRTelemetryConstants_MarkerIdconst&) = delete;
 
   /// @brief Field RenderThreadingMode offset 0xffffffff size 0x4
   static constexpr int32_t RenderThreadingMode{ static_cast<int32_t>(0x9b81d02) };
@@ -1461,13 +1470,13 @@ protected:
   constexpr ProjectSettings_OVRTelemetryConstants_AnnotationType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectSettings_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectSettings_OVRTelemetryConstants_AnnotationType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProjectSettings_OVRTelemetryConstants_AnnotationType(ProjectSettings_OVRTelemetryConstants_AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProjectSettings_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProjectSettings_OVRTelemetryConstants_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProjectSettings_OVRTelemetryConstants_AnnotationType(ProjectSettings_OVRTelemetryConstants_AnnotationType const&) = delete;
+  ProjectSettings_OVRTelemetryConstants_AnnotationType(ProjectSettings_OVRTelemetryConstants_AnnotationTypeconst&) = delete;
 
   /// @brief Field RenderThreadingMode offset 0xffffffff size 0x8
   static constexpr ::ConstString RenderThreadingMode{ u"render_threading_mode" };
@@ -1517,7 +1526,7 @@ public:
   // @brief default ctor
   constexpr ProjectSettings_OVRTelemetryConstants_FoveatedRenderingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProjectSettings_OVRTelemetryConstants_FoveatedRenderingMode(int32_t value__) noexcept;
 
   /// @brief Field EyeTrackedFoveatedRendering value: I32(2)
@@ -1576,7 +1585,7 @@ public:
   // @brief default ctor
   constexpr ProjectSettings_OVRTelemetryConstants_FoveatedRenderingAPI();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProjectSettings_OVRTelemetryConstants_FoveatedRenderingAPI(int32_t value__) noexcept;
 
   /// @brief Field Legacy value: I32(1)
@@ -1636,7 +1645,7 @@ public:
   // @brief default ctor
   constexpr ProjectSettings_OVRTelemetryConstants_DepthSubmissionMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProjectSettings_OVRTelemetryConstants_DepthSubmissionMode(int32_t value__) noexcept;
 
   /// @brief Field Depth16Bit value: I32(2)
@@ -1699,7 +1708,7 @@ public:
   // @brief default ctor
   constexpr ProjectSettings_OVRTelemetryConstants_RenderThreadingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProjectSettings_OVRTelemetryConstants_RenderThreadingMode(int32_t value__) noexcept;
 
   /// @brief Field LegacyGraphicsJobs value: I32(2)
@@ -1762,7 +1771,7 @@ public:
   // @brief default ctor
   constexpr ProjectSettings_OVRTelemetryConstants_RenderingPath();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProjectSettings_OVRTelemetryConstants_RenderingPath(int32_t value__) noexcept;
 
   /// @brief Field Deferred value: I32(3)
@@ -1824,7 +1833,7 @@ public:
   // @brief default ctor
   constexpr ProjectSettings_OVRTelemetryConstants_XrPlugin();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProjectSettings_OVRTelemetryConstants_XrPlugin(int32_t value__) noexcept;
 
   /// @brief Field Oculus value: I32(1)
@@ -1882,13 +1891,13 @@ protected:
   constexpr OVRTelemetryConstants_ProjectSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_ProjectSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_ProjectSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants_ProjectSettings(OVRTelemetryConstants_ProjectSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_ProjectSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants_ProjectSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants_ProjectSettings(OVRTelemetryConstants_ProjectSettings const&) = delete;
+  OVRTelemetryConstants_ProjectSettings(OVRTelemetryConstants_ProjectSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7770 };
@@ -1930,13 +1939,13 @@ protected:
   constexpr OVRTelemetryConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTelemetryConstants(OVRTelemetryConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants(OVRTelemetryConstants const&) = delete;
+  OVRTelemetryConstants(OVRTelemetryConstantsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7771 };

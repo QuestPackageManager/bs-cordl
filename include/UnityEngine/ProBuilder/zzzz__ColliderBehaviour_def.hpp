@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ColliderBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ColliderBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class ColliderBehaviour;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::ColliderBehaviour*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::ColliderBehaviour*, "UnityEngine.ProBuilder", "ColliderBehaviour");
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.ProBuilder.EntityBehaviour
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -45,13 +46,13 @@ protected:
   constexpr ColliderBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColliderBehaviour(ColliderBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColliderBehaviour(ColliderBehaviour const&) = delete;
+  ColliderBehaviour(ColliderBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16722 };

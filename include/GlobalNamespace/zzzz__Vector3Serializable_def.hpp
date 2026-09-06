@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Vector3Serializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/Vector3Serializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,8 +97,8 @@ public:
   // @brief default ctor
   constexpr Vector3Serializable();
 
-  // Ctor Parameters [CppParam { name: "_x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_z", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_x", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_y", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_z", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vector3Serializable(int32_t _x, int32_t _y, int32_t _z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

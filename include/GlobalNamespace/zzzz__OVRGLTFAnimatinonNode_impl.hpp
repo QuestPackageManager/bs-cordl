@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGLTFAnimatinonNode.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFAnimatinonNode.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFInputNode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -16,7 +16,7 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::OVRGLTFAnimatinonNode_ThumbstickDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -31,7 +31,7 @@ constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNam
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::SouthWest{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::West{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection::NorthWest{ static_cast<int32_t>(0x8) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::OVRGLTFAnimatinonNode_OVRGLTFTransformType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -42,7 +42,7 @@ constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNa
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Rotation{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Scale{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType::Weights{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::OVRGLTFAnimatinonNode_OVRInterpolationType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -52,8 +52,8 @@ constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNa
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::LINEAR{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::STEP{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType::CUBICSPLINE{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "down", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "t", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vecT",
-// ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "down", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "t", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "vecT", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRGLTFAnimatinonNode_InputNodeState::OVRGLTFAnimatinonNode_InputNodeState(bool down, float_t t, ::UnityEngine::Vector2 vecT) noexcept {
   this->down = down;
   this->t = t;

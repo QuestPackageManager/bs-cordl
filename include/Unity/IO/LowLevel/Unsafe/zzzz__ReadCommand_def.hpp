@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\ReadCommand.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/ReadCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr ReadCommand();
 
-  // Ctor Parameters [CppParam { name: "Buffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "Offset", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "Size", ty:
-  // "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Buffer", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Offset", ty: "int64_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "Size", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr ReadCommand(void* Buffer, int64_t Offset, int64_t Size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

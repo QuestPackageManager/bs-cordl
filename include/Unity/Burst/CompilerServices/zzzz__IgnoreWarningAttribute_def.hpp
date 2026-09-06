@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\CompilerServices\IgnoreWarningAttribute.hpp"
+// IWYU pragma private; include "Unity/Burst/CompilerServices/IgnoreWarningAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class IgnoreWarningAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Burst::CompilerServices::IgnoreWarningAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Burst::CompilerServices::IgnoreWarningAttribute*, "Unity.Burst.CompilerServices", "IgnoreWarningAttribute");
+// [AttributeUsage((System.AttributeTargets)64, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace Unity::Burst::CompilerServices {
 // Is value type: false
@@ -31,13 +32,13 @@ protected:
   constexpr IgnoreWarningAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoreWarningAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoreWarningAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoreWarningAttribute(IgnoreWarningAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoreWarningAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoreWarningAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoreWarningAttribute(IgnoreWarningAttribute const&) = delete;
+  IgnoreWarningAttribute(IgnoreWarningAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17372 };

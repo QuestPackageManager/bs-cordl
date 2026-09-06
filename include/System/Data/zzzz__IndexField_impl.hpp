@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\IndexField.hpp"
+// IWYU pragma private; include "System/Data/IndexField.hpp"
 #include "System/Data/zzzz__IndexField_def.hpp"
 #include "System/Data/zzzz__DataColumn_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -73,8 +73,8 @@ inline int32_t System::Data::IndexField::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Data::IndexField>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Column", ty: "::System::Data::DataColumn*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsDescending", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "Column", ty: "::System::Data::DataColumn*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsDescending", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::IndexField::IndexField(::System::Data::DataColumn* Column, bool IsDescending) noexcept {
   this->Column = Column;
   this->IsDescending = IsDescending;

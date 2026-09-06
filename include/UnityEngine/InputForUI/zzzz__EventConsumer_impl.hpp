@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\EventConsumer.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/EventConsumer.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventConsumer_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -39,7 +39,7 @@ inline void UnityEngine::InputForUI::EventConsumer::_ctor(::System::Object* obje
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventConsumer*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool UnityEngine::InputForUI::EventConsumer::Invoke(::by_ref<::UnityEngine::InputForUI::Event> ev) {
+inline bool UnityEngine::InputForUI::EventConsumer::Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputForUI::EventConsumer*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, ev);
 }

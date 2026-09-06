@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\AnimatorMoveHandlerManager.hpp"
+// IWYU pragma private; include "Zenject/AnimatorMoveHandlerManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,8 +35,9 @@ public:
   /// @brief Field _handlers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__handlers, put = __cordl_internal_set__handlers)) ::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* _handlers;
 
+  /// [Inject]
   /// @brief Method Construct, addr 0x6e8dc80, size 0x8, virtual false, abstract: false, final false
-  inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* handlers);
+  inline void Construct(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* handlers);
 
   static inline ::Zenject::AnimatorMoveHandlerManager* New_ctor();
 
@@ -49,6 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8dee8, size 0x2d8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -64,13 +66,13 @@ protected:
   constexpr AnimatorMoveHandlerManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorMoveHandlerManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatorMoveHandlerManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatorMoveHandlerManager(AnimatorMoveHandlerManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorMoveHandlerManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatorMoveHandlerManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatorMoveHandlerManager(AnimatorMoveHandlerManager const&) = delete;
+  AnimatorMoveHandlerManager(AnimatorMoveHandlerManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14656 };

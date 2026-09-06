@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActiveClient.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActiveClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ class MultiplayerLocalActiveClient;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerLocalActiveClient*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLocalActiveClient*, "", "MultiplayerLocalActiveClient");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerLocalActiveClient")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -105,7 +106,7 @@ public:
   inline void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::NoteSpawnData noteSpawnData);
 
   /// @brief Method HandleNoteWasCut, addr 0x59c51d8, size 0x1c4, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method HandleNoteWasMissed, addr 0x59c50c8, size 0x110, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
@@ -187,38 +188,46 @@ protected:
   constexpr MultiplayerLocalActiveClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActiveClient(MultiplayerLocalActiveClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActiveClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActiveClient(MultiplayerLocalActiveClient const&) = delete;
+  MultiplayerLocalActiveClient(MultiplayerLocalActiveClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6085 };
 
+  /// [Inject]
   /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _scoreSyncStateManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IScoreSyncStateManager* ____scoreSyncStateManager;
 
+  /// [Inject]
   /// @brief Field _nodePoseSyncStateManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::INodePoseSyncStateManager* ____nodePoseSyncStateManager;
 
+  /// [Inject]
   /// @brief Field _rpcManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____rpcManager;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _scoreController, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;
 
+  /// [Inject]
   /// @brief Field _comboController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ComboController> ____comboController;
 

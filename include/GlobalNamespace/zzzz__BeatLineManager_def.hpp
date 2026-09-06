@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatLineManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatLineManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ class BeatLineManager;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatLineManager*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatLineManager*, "", "BeatLineManager");
+// [AddComponentMenu("Beat Saber/Gameplay/BeatLineManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -166,26 +167,30 @@ protected:
   constexpr BeatLineManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLineManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLineManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLineManager(BeatLineManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLineManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLineManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLineManager(BeatLineManager const&) = delete;
+  BeatLineManager(BeatLineManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5610 };
 
+  /// [SerializeField]
   /// @brief Field _linesYPosition, offset: 0x20, size: 0x4, def value: None
   float_t ____linesYPosition;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _beatLinePool, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatLine_Pool* ____beatLinePool;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 

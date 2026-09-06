@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\ServicePoint.hpp"
+// IWYU pragma private; include "System/Net/ServicePoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -327,12 +327,14 @@ public:
   /// @brief Method get_HostEntry, addr 0x633d3fc, size 0x3ac, virtual false, abstract: false, final false
   inline ::System::Net::IPHostEntry* get_HostEntry();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Key, addr 0x633d048, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePointManager_SPKey* get_Key();
 
   /// @brief Method get_ProtocolVersion, addr 0x633d078, size 0x8, virtual true, abstract: false, final false
   inline ::System::Version* get_ProtocolVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Scheduler, addr 0x633d050, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePointScheduler* get_Scheduler();
 
@@ -354,6 +356,7 @@ public:
   /// @brief Method set_Expect100Continue, addr 0x633d080, size 0x8, virtual false, abstract: false, final false
   inline void set_Expect100Continue(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Scheduler, addr 0x633d058, size 0x8, virtual false, abstract: false, final false
   inline void set_Scheduler(::System::Net::ServicePointScheduler* value);
 
@@ -375,13 +378,13 @@ protected:
   constexpr ServicePoint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePoint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServicePoint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServicePoint(ServicePoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePoint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServicePoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServicePoint(ServicePoint const&) = delete;
+  ServicePoint(ServicePointconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11624 };
@@ -434,9 +437,11 @@ public:
   /// @brief Field receiveBufferSize, offset: 0x64, size: 0x4, def value: None
   int32_t ___receiveBufferSize;
 
+  /// [CompilerGenerated]
   /// @brief Field <Key>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::System::Net::ServicePointManager_SPKey* ____Key_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Scheduler>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::System::Net::ServicePointScheduler* ____Scheduler_k__BackingField;
 

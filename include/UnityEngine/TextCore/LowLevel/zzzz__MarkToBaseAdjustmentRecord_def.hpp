@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\MarkToBaseAdjustmentRecord.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/MarkToBaseAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ struct MarkToBaseAdjustmentRecord;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "MarkToBaseAdjustmentRecord");
+// [UsedByNativeCode]
+// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
 // Dependencies UnityEngine.TextCore.LowLevel.GlyphAnchorPoint, UnityEngine.TextCore.LowLevel.MarkPositionAdjustment
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -64,9 +66,9 @@ public:
   // @brief default ctor
   constexpr MarkToBaseAdjustmentRecord();
 
-  // Ctor Parameters [CppParam { name: "m_BaseGlyphID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_BaseGlyphAnchorPoint", ty:
-  // "::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint", modifiers: "", def_value: None }, CppParam { name: "m_MarkGlyphID", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_MarkPositionAdjustment", ty: "::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BaseGlyphID", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BaseGlyphAnchorPoint", ty:
+  // "::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MarkGlyphID", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_MarkPositionAdjustment", ty: "::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment", modifiers: "", def_value: None, comment: None }]
   constexpr MarkToBaseAdjustmentRecord(uint32_t m_BaseGlyphID, ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint m_BaseGlyphAnchorPoint, uint32_t m_MarkGlyphID,
                                        ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment m_MarkPositionAdjustment) noexcept;
 
@@ -76,15 +78,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [SerializeField]
+  /// [NativeName("baseGlyphID")]
   /// @brief Field m_BaseGlyphID, offset: 0x0, size: 0x4, def value: None
   uint32_t m_BaseGlyphID;
 
+  /// [SerializeField]
+  /// [NativeName("baseAnchor")]
   /// @brief Field m_BaseGlyphAnchorPoint, offset: 0x4, size: 0x8, def value: None
   ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint m_BaseGlyphAnchorPoint;
 
+  /// [SerializeField]
+  /// [NativeName("markGlyphID")]
   /// @brief Field m_MarkGlyphID, offset: 0xc, size: 0x4, def value: None
   uint32_t m_MarkGlyphID;
 
+  /// [SerializeField]
+  /// [NativeName("markPositionAdjustment")]
   /// @brief Field m_MarkPositionAdjustment, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment m_MarkPositionAdjustment;
 

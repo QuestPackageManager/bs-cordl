@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ValueTuple_7.hpp"
+// IWYU pragma private; include "System/ValueTuple_7.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,9 +140,10 @@ public:
   // @brief default ctor
   constexpr ValueTuple_7();
 
-  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "T3",
-  // modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None }, CppParam { name: "Item5", ty: "T5", modifiers: "", def_value: None }, CppParam { name:
-  // "Item6", ty: "T6", modifiers: "", def_value: None }, CppParam { name: "Item7", ty: "T7", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "Item3", ty: "T3", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item5", ty:
+  // "T5", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item6", ty: "T6", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item7", ty: "T7", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ValueTuple_7(T1 Item1, T2 Item2, T3 Item3, T4 Item4, T5 Item5, T6 Item6, T7 Item7) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

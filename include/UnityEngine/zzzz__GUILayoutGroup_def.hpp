@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUILayoutGroup.hpp"
+// IWYU pragma private; include "UnityEngine/GUILayoutGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class GUILayoutGroup;
 // Write type traits
 MARK_REF_T(::UnityEngine::GUILayoutGroup*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GUILayoutGroup*, "UnityEngine", "GUILayoutGroup");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEditor.CoreModule" })]
 // Dependencies UnityEngine.GUILayoutEntry
 namespace UnityEngine {
 // Is value type: false
@@ -283,13 +284,13 @@ protected:
   constexpr GUILayoutGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUILayoutGroup(GUILayoutGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUILayoutGroup(GUILayoutGroup const&) = delete;
+  GUILayoutGroup(GUILayoutGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19898 };

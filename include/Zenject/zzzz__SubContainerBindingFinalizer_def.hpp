@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerBindingFinalizer.hpp"
+// IWYU pragma private; include "Zenject/SubContainerBindingFinalizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,7 @@ DEFINE_IL2CPP_CLASS(::Zenject::SubContainerBindingFinalizer___c__DisplayClass5_0
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerBindingFinalizer___c__DisplayClass5_1*, "Zenject", "SubContainerBindingFinalizer/<>c__DisplayClass5_1");
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerBindingFinalizer___c__DisplayClass6_0*, "Zenject", "SubContainerBindingFinalizer/<>c__DisplayClass6_0");
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerBindingFinalizer___c__DisplayClass6_1*, "Zenject", "SubContainerBindingFinalizer/<>c__DisplayClass6_1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -109,6 +110,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e67f50, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e67f94, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -121,13 +123,13 @@ protected:
   constexpr SubContainerBindingFinalizer___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerBindingFinalizer___c__DisplayClass5_0(SubContainerBindingFinalizer___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerBindingFinalizer___c__DisplayClass5_0(SubContainerBindingFinalizer___c__DisplayClass5_0 const&) = delete;
+  SubContainerBindingFinalizer___c__DisplayClass5_0(SubContainerBindingFinalizer___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14325 };
@@ -148,6 +150,7 @@ static_assert(offsetof(::Zenject::SubContainerBindingFinalizer___c__DisplayClass
 static_assert(sizeof(::Zenject::SubContainerBindingFinalizer___c__DisplayClass5_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -181,6 +184,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e681ac, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e681f0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -193,13 +197,13 @@ protected:
   constexpr SubContainerBindingFinalizer___c__DisplayClass5_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass5_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass5_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerBindingFinalizer___c__DisplayClass5_1(SubContainerBindingFinalizer___c__DisplayClass5_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass5_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass5_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerBindingFinalizer___c__DisplayClass5_1(SubContainerBindingFinalizer___c__DisplayClass5_1 const&) = delete;
+  SubContainerBindingFinalizer___c__DisplayClass5_1(SubContainerBindingFinalizer___c__DisplayClass5_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14326 };
@@ -220,6 +224,7 @@ static_assert(offsetof(::Zenject::SubContainerBindingFinalizer___c__DisplayClass
 static_assert(sizeof(::Zenject::SubContainerBindingFinalizer___c__DisplayClass5_1) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -253,6 +258,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e68424, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e68468, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -265,13 +271,13 @@ protected:
   constexpr SubContainerBindingFinalizer___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerBindingFinalizer___c__DisplayClass6_0(SubContainerBindingFinalizer___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerBindingFinalizer___c__DisplayClass6_0(SubContainerBindingFinalizer___c__DisplayClass6_0 const&) = delete;
+  SubContainerBindingFinalizer___c__DisplayClass6_0(SubContainerBindingFinalizer___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14327 };
@@ -292,6 +298,7 @@ static_assert(offsetof(::Zenject::SubContainerBindingFinalizer___c__DisplayClass
 static_assert(sizeof(::Zenject::SubContainerBindingFinalizer___c__DisplayClass6_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -325,6 +332,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e68680, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e686c4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -337,13 +345,13 @@ protected:
   constexpr SubContainerBindingFinalizer___c__DisplayClass6_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass6_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass6_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerBindingFinalizer___c__DisplayClass6_1(SubContainerBindingFinalizer___c__DisplayClass6_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass6_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer___c__DisplayClass6_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerBindingFinalizer___c__DisplayClass6_1(SubContainerBindingFinalizer___c__DisplayClass6_1 const&) = delete;
+  SubContainerBindingFinalizer___c__DisplayClass6_1(SubContainerBindingFinalizer___c__DisplayClass6_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14328 };
@@ -364,6 +372,7 @@ static_assert(offsetof(::Zenject::SubContainerBindingFinalizer___c__DisplayClass
 static_assert(sizeof(::Zenject::SubContainerBindingFinalizer___c__DisplayClass6_1) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies Zenject.ProviderBindingFinalizer
 namespace Zenject {
 // Is value type: false
@@ -428,13 +437,13 @@ protected:
   constexpr SubContainerBindingFinalizer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerBindingFinalizer(SubContainerBindingFinalizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerBindingFinalizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerBindingFinalizer(SubContainerBindingFinalizer const&) = delete;
+  SubContainerBindingFinalizer(SubContainerBindingFinalizerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14329 };

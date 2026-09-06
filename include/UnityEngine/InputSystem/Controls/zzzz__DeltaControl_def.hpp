@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\DeltaControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/DeltaControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class DeltaControl;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Controls::DeltaControl*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Controls::DeltaControl*, "UnityEngine.InputSystem.Controls", "DeltaControl");
+// [Preserve]
 // Dependencies UnityEngine.InputSystem.Controls.Vector2Control
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
@@ -34,12 +35,20 @@ public:
   /// @brief Field <up>k__BackingField, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__up_k__BackingField, put = __cordl_internal_set__up_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _up_k__BackingField;
 
+  /// [InputControl(useStateFrom = "y", parameters = "clamp=1,clampMin=-3.402823E+38,clampMax=0,invert", synthetic = true, displayName = "Down")]
+  /// @brief [Preserve]
   __declspec(property(get = get_down, put = set_down)) ::UnityEngine::InputSystem::Controls::AxisControl* down;
 
+  /// [InputControl(useStateFrom = "x", parameters = "clamp=1,clampMin=-3.402823E+38,clampMax=0,invert", synthetic = true, displayName = "Left")]
+  /// @brief [Preserve]
   __declspec(property(get = get_left, put = set_left)) ::UnityEngine::InputSystem::Controls::AxisControl* left;
 
+  /// [InputControl(useStateFrom = "x", parameters = "clamp=1,clampMin=0,clampMax=3.402823E+38", synthetic = true, displayName = "Right")]
+  /// @brief [Preserve]
   __declspec(property(get = get_right, put = set_right)) ::UnityEngine::InputSystem::Controls::AxisControl* right;
 
+  /// [InputControl(useStateFrom = "y", parameters = "clamp=1,clampMin=0,clampMax=3.402823E+38", synthetic = true, displayName = "Up")]
+  /// @brief [Preserve]
   __declspec(property(get = get_up, put = set_up)) ::UnityEngine::InputSystem::Controls::AxisControl* up;
 
   /// @brief Method FinishSetup, addr 0x64fade0, size 0xfc, virtual true, abstract: false, final false
@@ -74,27 +83,35 @@ public:
   /// @brief Method .ctor, addr 0x64faf9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_down, addr 0x64fadb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_down();
 
+  /// [CompilerGenerated]
   /// @brief Method get_left, addr 0x64fadc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_left();
 
+  /// [CompilerGenerated]
   /// @brief Method get_right, addr 0x64fadd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_right();
 
+  /// [CompilerGenerated]
   /// @brief Method get_up, addr 0x64fada0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_up();
 
+  /// [CompilerGenerated]
   /// @brief Method set_down, addr 0x64fadb8, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_left, addr 0x64fadc8, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_right, addr 0x64fadd8, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_up, addr 0x64fada8, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
@@ -104,26 +121,30 @@ protected:
   constexpr DeltaControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeltaControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeltaControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeltaControl(DeltaControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeltaControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeltaControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeltaControl(DeltaControl const&) = delete;
+  DeltaControl(DeltaControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9124 };
 
+  /// [CompilerGenerated]
   /// @brief Field <up>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____up_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <down>k__BackingField, offset: 0x128, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____down_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <left>k__BackingField, offset: 0x130, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____left_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <right>k__BackingField, offset: 0x138, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____right_k__BackingField;
 

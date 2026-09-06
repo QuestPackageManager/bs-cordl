@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerEnumHistory.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerEnumHistory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerEnumField_impl.hpp"
 #include "UnityEngine/UI/zzzz__Text_impl.hpp"
@@ -164,6 +164,7 @@ inline ::System::Object* UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__
                                                                                          { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4*
 UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4*>(__1__state));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuickPlaySetupModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuickPlaySetupModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ MARK_VAL_T(::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::QuickPlaySetupModel*, "", "QuickPlaySetupModel");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupDataFB*, "", "QuickPlaySetupModel/QuickPlaySetupDataFB");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10, "", "QuickPlaySetupModel/<GetQuickPlaySetupInternal>d__10");
+// [Preserve]
 // Dependencies QuickPlaySetupData, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -87,13 +88,13 @@ protected:
   constexpr QuickPlaySetupModel_QuickPlaySetupDataFB();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel_QuickPlaySetupDataFB", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel_QuickPlaySetupDataFB", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySetupModel_QuickPlaySetupDataFB(QuickPlaySetupModel_QuickPlaySetupDataFB&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel_QuickPlaySetupDataFB", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel_QuickPlaySetupDataFB", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySetupModel_QuickPlaySetupDataFB(QuickPlaySetupModel_QuickPlaySetupDataFB const&) = delete;
+  QuickPlaySetupModel_QuickPlaySetupDataFB(QuickPlaySetupModel_QuickPlaySetupDataFBconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15068 };
@@ -109,6 +110,7 @@ static_assert(offsetof(::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupData
 static_assert(sizeof(::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupDataFB) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -122,6 +124,7 @@ public:
   /// @brief Method MoveNext, addr 0x37327f8, size 0x8bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x37330b4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -132,10 +135,10 @@ public:
   // @brief default ctor
   constexpr QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::QuickPlaySetupData*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::QuickPlaySetupModel*", modifiers: "", def_value: None }, CppParam { name: "_uriBuilder_5__2", ty: "::System::UriBuilder*", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::QuickPlaySetupData*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::QuickPlaySetupModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_uriBuilder_5__2", ty: "::System::UriBuilder*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::QuickPlaySetupData*> __t__builder,
                                                                  ::GlobalNamespace::QuickPlaySetupModel* __4__this, ::System::UriBuilder* _uriBuilder_5__2,
                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
@@ -206,9 +209,11 @@ public:
   /// @brief Method GetQuickPlaySetupAsync, addr 0x373246c, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(QuickPlaySetupModel::<GetQuickPlaySetupInternal>d__10))]
   /// @brief Method GetQuickPlaySetupInternal, addr 0x3732658, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
 
+  /// [Inject]
   /// @brief Method Init, addr 0x3732654, size 0x4, virtual false, abstract: false, final false
   inline void Init();
 
@@ -259,13 +264,13 @@ protected:
   constexpr QuickPlaySetupModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySetupModel(QuickPlaySetupModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySetupModel(QuickPlaySetupModel const&) = delete;
+  QuickPlaySetupModel(QuickPlaySetupModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15070 };
@@ -276,6 +281,7 @@ public:
   /// @brief Field kRequestTimeoutSeconds offset 0xffffffff size 0x4
   static constexpr int32_t kRequestTimeoutSeconds{ static_cast<int32_t>(0x3c) };
 
+  /// [Inject]
   /// @brief Field _networkConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 

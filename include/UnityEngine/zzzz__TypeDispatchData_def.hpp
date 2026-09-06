@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TypeDispatchData.hpp"
+// IWYU pragma private; include "UnityEngine/TypeDispatchData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,9 +42,9 @@ public:
   // @brief default ctor
   constexpr TypeDispatchData();
 
-  // Ctor Parameters [CppParam { name: "changed", ty: "::ArrayW<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: None }, CppParam { name: "changedID", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "destroyedID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "changed", ty: "::ArrayW<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "changedID", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "destroyedID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TypeDispatchData(::ArrayW<::UnityW<::UnityEngine::Object>> changed, ::Unity::Collections::NativeArray_1<int32_t> changedID,
                              ::Unity::Collections::NativeArray_1<int32_t> destroyedID) noexcept;
 

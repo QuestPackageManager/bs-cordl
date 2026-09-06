@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +88,7 @@ public:
   // @brief default ctor
   constexpr AudioManager_AudioFadeType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AudioManager_AudioFadeType(int32_t value__) noexcept;
 
   /// @brief Field FadeIn value: I32(0)
@@ -114,6 +114,7 @@ static_assert(offsetof(::GlobalNamespace::AudioManager_AudioFadeType, value__) =
 static_assert(sizeof(::GlobalNamespace::AudioManager_AudioFadeType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies AudioManager::AudioFadeType, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -161,17 +162,22 @@ public:
   /// @brief Method MoveNext, addr 0x3266f78, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::AudioManager__FadeMainVolume_d__46* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32670a4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32670ac, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32670e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3266f74, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -223,6 +229,7 @@ public:
 
   constexpr void __cordl_internal_set_fadeType(::GlobalNamespace::AudioManager_AudioFadeType value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3266f3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -241,13 +248,13 @@ protected:
   constexpr AudioManager__FadeMainVolume_d__46();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioManager__FadeMainVolume_d__46", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioManager__FadeMainVolume_d__46", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioManager__FadeMainVolume_d__46(AudioManager__FadeMainVolume_d__46&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioManager__FadeMainVolume_d__46", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioManager__FadeMainVolume_d__46", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioManager__FadeMainVolume_d__46(AudioManager__FadeMainVolume_d__46 const&) = delete;
+  AudioManager__FadeMainVolume_d__46(AudioManager__FadeMainVolume_d__46const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22626 };
@@ -367,6 +374,7 @@ public:
 
   __declspec(property(get = get_sfxVolume, put = set_sfxVolume)) float_t sfxVolume;
 
+  /// [IteratorStateMachine(typeof(AudioManager::<FadeMainVolume>d__46))]
   /// @brief Method FadeMainVolume, addr 0x3266ec8, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FadeMainVolume(::GlobalNamespace::AudioManager_AudioFadeType fadeType, float_t duration);
 
@@ -520,13 +528,13 @@ protected:
   constexpr AudioManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioManager(AudioManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioManager(AudioManager const&) = delete;
+  AudioManager(AudioManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22627 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\LocaleHelper.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/LocaleHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__LocaleHelper_def.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"

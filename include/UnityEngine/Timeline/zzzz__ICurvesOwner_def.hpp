@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\ICurvesOwner.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/ICurvesOwner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,33 +43,33 @@ public:
 
   __declspec(property(get = get_targetTrack)) ::UnityW<::UnityEngine::Timeline::TrackAsset> targetTrack;
 
-  /// @brief Method CreateCurves, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateCurves, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CreateCurves(::StringW curvesClipName);
 
-  /// @brief Method get_asset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_asset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
-  /// @brief Method get_assetOwner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_assetOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Object> get_assetOwner();
 
-  /// @brief Method get_curves, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_curves, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_curves();
 
-  /// @brief Method get_defaultCurvesName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_defaultCurvesName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_defaultCurvesName();
 
-  /// @brief Method get_duration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline double_t get_duration();
 
-  /// @brief Method get_hasCurves, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_hasCurves, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasCurves();
 
-  /// @brief Method get_targetTrack, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_targetTrack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_targetTrack();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICurvesOwner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICurvesOwner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICurvesOwner(ICurvesOwner const&) = delete;
+  ICurvesOwner(ICurvesOwnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19167 };

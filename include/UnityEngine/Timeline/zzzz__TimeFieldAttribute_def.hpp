@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimeFieldAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimeFieldAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
   // @brief default ctor
   constexpr TimeFieldAttribute_UseEditMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimeFieldAttribute_UseEditMode(int32_t value__) noexcept;
 
   /// @brief Field ApplyEditMode value: I32(1)
@@ -103,6 +103,7 @@ public:
   /// @brief Method .ctor, addr 0x69cb440, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode useEditMode);
 
+  /// [CompilerGenerated]
   /// @brief Method get_useEditMode, addr 0x69cb438, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode get_useEditMode();
 
@@ -112,17 +113,18 @@ protected:
   constexpr TimeFieldAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeFieldAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeFieldAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeFieldAttribute(TimeFieldAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeFieldAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeFieldAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeFieldAttribute(TimeFieldAttribute const&) = delete;
+  TimeFieldAttribute(TimeFieldAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19246 };
 
+  /// [CompilerGenerated]
   /// @brief Field <useEditMode>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode ____useEditMode_k__BackingField;
 

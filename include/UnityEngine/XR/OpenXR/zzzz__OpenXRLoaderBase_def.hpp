@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRLoaderBase.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRLoaderBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_def.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -142,13 +144,13 @@ protected:
   constexpr OpenXRLoaderBase_FeatureLoggingInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_FeatureLoggingInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_FeatureLoggingInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRLoaderBase_FeatureLoggingInfo(OpenXRLoaderBase_FeatureLoggingInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_FeatureLoggingInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_FeatureLoggingInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRLoaderBase_FeatureLoggingInfo(OpenXRLoaderBase_FeatureLoggingInfo const&) = delete;
+  OpenXRLoaderBase_FeatureLoggingInfo(OpenXRLoaderBase_FeatureLoggingInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18504 };
@@ -214,7 +216,7 @@ public:
   // @brief default ctor
   constexpr OpenXRLoaderBase_LoaderState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRLoaderBase_LoaderState(int32_t value__) noexcept;
 
   /// @brief Field DeinitializeAttempted value: I32(7)
@@ -285,13 +287,13 @@ protected:
   constexpr OpenXRLoaderBase_ReceiveNativeEventDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_ReceiveNativeEventDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_ReceiveNativeEventDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRLoaderBase_ReceiveNativeEventDelegate(OpenXRLoaderBase_ReceiveNativeEventDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_ReceiveNativeEventDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase_ReceiveNativeEventDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRLoaderBase_ReceiveNativeEventDelegate(OpenXRLoaderBase_ReceiveNativeEventDelegate const&) = delete;
+  OpenXRLoaderBase_ReceiveNativeEventDelegate(OpenXRLoaderBase_ReceiveNativeEventDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18506 };
@@ -302,6 +304,7 @@ public:
 static_assert(sizeof(::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR {
 // Is value type: false
@@ -357,13 +360,13 @@ protected:
   constexpr OpenXRLoaderBase___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRLoaderBase___c(OpenXRLoaderBase___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRLoaderBase___c(OpenXRLoaderBase___c const&) = delete;
+  OpenXRLoaderBase___c(OpenXRLoaderBase___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18507 };
@@ -374,7 +377,8 @@ public:
 static_assert(sizeof(::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR
-// Dependencies UnityEngine.XR.Management.XRLoaderHelper, UnityEngine.XR.OpenXR.Features.OpenXRFeature::NativeEvent, UnityEngine.XR.OpenXR.OpenXRLoaderBase::LoaderState
+// Dependencies UnityEngine.ISubsystem, UnityEngine.ISubsystemDescriptor, UnityEngine.XR.Management.XRLoaderHelper, UnityEngine.XR.OpenXR.Features.OpenXRFeature::NativeEvent,
+// UnityEngine.XR.OpenXR.OpenXRLoaderBase::LoaderState
 namespace UnityEngine::XR::OpenXR {
 // Is value type: false
 // CS Name: UnityEngine.XR.OpenXR.OpenXRLoaderBase
@@ -454,7 +458,9 @@ public:
                       put = __cordl_internal_set_validLoaderStopStates)) ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState>* validLoaderStopStates;
 
   /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
+  template <typename TDescriptor, typename TSubsystem>
+    requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::ISubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::ISubsystem*>)
+  inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
   /// @brief Method CreateSubsystems, addr 0x69f0fc4, size 0x12c, virtual false, abstract: false, final false
   inline bool CreateSubsystems();
@@ -466,7 +472,9 @@ public:
   inline bool Deinitialize();
 
   /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void DestroySubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void DestroySubsystem();
 
   /// @brief Method ExceptionHandler, addr 0x69efc14, size 0x258, virtual false, abstract: false, final false
   static inline void ExceptionHandler(::System::Object* sender, ::System::UnhandledExceptionEventArgs* args);
@@ -530,6 +538,7 @@ public:
   /// @brief Method ProcessOpenXRMessageLoop, addr 0x69f1658, size 0xb8, virtual false, abstract: false, final false
   inline void ProcessOpenXRMessageLoop();
 
+  /// [MonoPInvokeCallback(typeof(UnityEngine.XR.OpenXR.OpenXRLoaderBase::ReceiveNativeEventDelegate))]
   /// @brief Method ReceiveNativeEvent, addr 0x69ef68c, size 0x304, virtual false, abstract: false, final false
   static inline void ReceiveNativeEvent(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent e, uint64_t payload);
 
@@ -549,7 +558,9 @@ public:
   inline bool StartInternal();
 
   /// @brief Method StartSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void StartSubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void StartSubsystem();
 
   /// @brief Method Stop, addr 0x69f26cc, size 0x134, virtual true, abstract: false, final false
   inline bool Stop();
@@ -558,7 +569,9 @@ public:
   inline void StopInternal();
 
   /// @brief Method StopSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void StopSubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void StopSubsystem();
 
   /// @brief Method StringToWCHAR_T, addr 0x69f2db8, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> StringToWCHAR_T(::StringW s);
@@ -644,9 +657,11 @@ public:
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_InputSubsystemDescriptors();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Instance, addr 0x69ef990, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRLoaderBase> get_Instance();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentLoaderState, addr 0x69efa4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState get_currentLoaderState();
 
@@ -668,9 +683,11 @@ public:
 
   static inline void setStaticF_s_InputSubsystemDescriptors(::System::Collections::Generic::List_1<Il2CppObject*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Instance, addr 0x69ef9ec, size 0x60, virtual false, abstract: false, final false
   static inline void set_Instance(::UnityEngine::XR::OpenXR::OpenXRLoaderBase* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentLoaderState, addr 0x69efa54, size 0x8, virtual false, abstract: false, final false
   inline void set_currentLoaderState(::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState value);
 
@@ -680,13 +697,13 @@ protected:
   constexpr OpenXRLoaderBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRLoaderBase(OpenXRLoaderBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRLoaderBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRLoaderBase(OpenXRLoaderBase const&) = delete;
+  OpenXRLoaderBase(OpenXRLoaderBaseconst&) = delete;
 
   /// @brief Field LibraryName offset 0xffffffff size 0x8
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
@@ -700,6 +717,7 @@ public:
   /// @brief Field featureLoggingInfo, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::OpenXRLoaderBase_FeatureLoggingInfo*>* ___featureLoggingInfo;
 
+  /// [CompilerGenerated]
   /// @brief Field <currentLoaderState>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState ____currentLoaderState_k__BackingField;
 

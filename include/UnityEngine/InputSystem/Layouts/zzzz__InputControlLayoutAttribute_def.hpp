@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Layouts\InputControlLayoutAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Layouts/InputControlLayoutAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class InputControlLayoutAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute*, "UnityEngine.InputSystem.Layouts", "InputControlLayoutAttribute");
+// [AttributeUsage((System.AttributeTargets)4, Inherited = false)]
 // Dependencies System.Attribute, System.Nullable`1<T>
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
@@ -155,66 +156,84 @@ public:
   /// @brief Method get_canRunInBackground, addr 0x65c83b0, size 0x54, virtual false, abstract: false, final false
   inline bool get_canRunInBackground();
 
+  /// [CompilerGenerated]
   /// @brief Method get_commonUsages, addr 0x65c8380, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_commonUsages();
 
+  /// [CompilerGenerated]
   /// @brief Method get_description, addr 0x65c8530, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_description();
 
+  /// [CompilerGenerated]
   /// @brief Method get_displayName, addr 0x65c8520, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hideInUI, addr 0x65c8540, size 0x8, virtual false, abstract: false, final false
   inline bool get_hideInUI();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isGenericTypeOfDevice, addr 0x65c8510, size 0x8, virtual false, abstract: false, final false
   inline bool get_isGenericTypeOfDevice();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isNoisy, addr 0x65c83a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isNoisy();
 
+  /// [CompilerGenerated]
   /// @brief Method get_stateFormat, addr 0x65c8370, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stateFormat();
 
+  /// [CompilerGenerated]
   /// @brief Method get_stateType, addr 0x65c8360, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_stateType();
 
   /// @brief Method get_updateBeforeRender, addr 0x65c8460, size 0x54, virtual false, abstract: false, final false
   inline bool get_updateBeforeRender();
 
+  /// [CompilerGenerated]
   /// @brief Method get_variants, addr 0x65c8390, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_variants();
 
   /// @brief Method set_canRunInBackground, addr 0x65c8404, size 0x5c, virtual false, abstract: false, final false
   inline void set_canRunInBackground(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_commonUsages, addr 0x65c8388, size 0x8, virtual false, abstract: false, final false
   inline void set_commonUsages(::ArrayW<::StringW> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_description, addr 0x65c8538, size 0x8, virtual false, abstract: false, final false
   inline void set_description(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_displayName, addr 0x65c8528, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hideInUI, addr 0x65c8548, size 0x8, virtual false, abstract: false, final false
   inline void set_hideInUI(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isGenericTypeOfDevice, addr 0x65c8518, size 0x8, virtual false, abstract: false, final false
   inline void set_isGenericTypeOfDevice(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isNoisy, addr 0x65c83a8, size 0x8, virtual false, abstract: false, final false
   inline void set_isNoisy(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_stateFormat, addr 0x65c8378, size 0x8, virtual false, abstract: false, final false
   inline void set_stateFormat(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_stateType, addr 0x65c8368, size 0x8, virtual false, abstract: false, final false
   inline void set_stateType(::System::Type* value);
 
   /// @brief Method set_updateBeforeRender, addr 0x65c84b4, size 0x5c, virtual false, abstract: false, final false
   inline void set_updateBeforeRender(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_variants, addr 0x65c8398, size 0x8, virtual false, abstract: false, final false
   inline void set_variants(::StringW value);
 
@@ -224,29 +243,34 @@ protected:
   constexpr InputControlLayoutAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayoutAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayoutAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputControlLayoutAttribute(InputControlLayoutAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayoutAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayoutAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControlLayoutAttribute(InputControlLayoutAttribute const&) = delete;
+  InputControlLayoutAttribute(InputControlLayoutAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9110 };
 
+  /// [CompilerGenerated]
   /// @brief Field <stateType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____stateType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <stateFormat>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____stateFormat_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <commonUsages>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::StringW> ____commonUsages_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <variants>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____variants_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isNoisy>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____isNoisy_k__BackingField;
 
@@ -256,15 +280,19 @@ public:
   /// @brief Field updateBeforeRenderInternal, offset: 0x33, size: 0x2, def value: None
   ::System::Nullable_1<bool> ___updateBeforeRenderInternal;
 
+  /// [CompilerGenerated]
   /// @brief Field <isGenericTypeOfDevice>k__BackingField, offset: 0x35, size: 0x1, def value: None
   bool ____isGenericTypeOfDevice_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <displayName>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <description>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::StringW ____description_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hideInUI>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____hideInUI_k__BackingField;
 

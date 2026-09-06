@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DefaultBinder.hpp"
+// IWYU pragma private; include "System/DefaultBinder.hpp"
 #include "System/Reflection/zzzz__Binder_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__DefaultBinder_def.hpp"
@@ -75,7 +75,7 @@ inline ::System::DefaultBinder_BinderState* System::DefaultBinder_BinderState::N
 }
 // Ctor Parameters []
 constexpr ::System::DefaultBinder_BinderState::DefaultBinder_BinderState() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::DefaultBinder_Primitives::DefaultBinder_Primitives(int32_t value__) noexcept {
   this->value__ = value__;
 }

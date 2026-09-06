@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioClipPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioClipPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioClipPlayable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -756,7 +756,7 @@ inline void UnityEngine::Audio::AudioClipPlayable::Seek(double_t startTime, doub
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "Seek", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<double_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, startTime, startDelay);
 }
-inline void UnityEngine::Audio::AudioClipPlayable::Seek(double_t startTime, double_t startDelay, double_t duration) {
+inline void UnityEngine::Audio::AudioClipPlayable::Seek(double_t startTime, double_t startDelay, /* [DefaultValue("0")] */ double_t duration) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),
                                                                                          { "Seek", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<double_t>(), ::i2c::type_of<double_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, startTime, startDelay, duration);
@@ -903,7 +903,7 @@ constexpr UnityEngine::Audio::AudioClipPlayable::operator ::System::IEquatable_1
 constexpr ::System::IEquatable_1<::UnityEngine::Audio::AudioClipPlayable>* UnityEngine::Audio::AudioClipPlayable::i___System__IEquatable_1___UnityEngine__Audio__AudioClipPlayable_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Audio::AudioClipPlayable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Audio::AudioClipPlayable::AudioClipPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept {
   this->m_Handle = m_Handle;
 }

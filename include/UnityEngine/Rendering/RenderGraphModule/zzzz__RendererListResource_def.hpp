@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RendererListResource.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RendererListResource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,14 +25,14 @@ struct CORDL_TYPE RendererListResource {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x67e7b40, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::Rendering::RendererListParams> desc);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererListParams> desc);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RendererListResource();
 
-  // Ctor Parameters [CppParam { name: "desc", ty: "::UnityEngine::Rendering::RendererListParams", modifiers: "", def_value: None }, CppParam { name: "rendererList", ty:
-  // "::UnityEngine::Rendering::RendererList", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "desc", ty: "::UnityEngine::Rendering::RendererListParams", modifiers: "", def_value: None, comment: None }, CppParam { name: "rendererList", ty:
+  // "::UnityEngine::Rendering::RendererList", modifiers: "", def_value: None, comment: None }]
   constexpr RendererListResource(::UnityEngine::Rendering::RendererListParams desc, ::UnityEngine::Rendering::RendererList rendererList) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

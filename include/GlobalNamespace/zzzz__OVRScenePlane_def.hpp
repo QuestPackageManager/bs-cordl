@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRScenePlane.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRScenePlane.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJob;
@@ -77,8 +79,8 @@ public:
   // @brief default ctor
   constexpr OVRScenePlane_GetBoundaryLengthJob();
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "::Unity::Collections::NativeArray_1<int32_t>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "Length", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRScenePlane_GetBoundaryLengthJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<int32_t> Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -90,6 +92,7 @@ public:
   /// @brief Field Space, offset: 0x0, size: 0x8, def value: None
   ::GlobalNamespace::OVRSpace Space;
 
+  /// [WriteOnly]
   /// @brief Field Length, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Length;
 
@@ -129,9 +132,9 @@ public:
   // @brief default ctor
   constexpr OVRScenePlane_GetBoundaryJob();
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Boundary", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "PreviousBoundary", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "Boundary", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None, comment: None }, CppParam { name: "PreviousBoundary", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRScenePlane_GetBoundaryJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> Boundary,
                                          ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> PreviousBoundary) noexcept;
 
@@ -162,6 +165,11 @@ static_assert(offsetof(::GlobalNamespace::OVRScenePlane_GetBoundaryJob, Previous
 static_assert(sizeof(::GlobalNamespace::OVRScenePlane_GetBoundaryJob) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(OVRSceneAnchor))]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-scene-use-scene-anchors/#further-scene-model-unity-components")]
+// [Obsolete("OVRSceneManager and associated classes are deprecated (v65), please use MR Utility Kit instead (https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview)")]
+// [Feature((Meta.XR.Util.Feature)7)]
 // Dependencies System.Nullable`1<T>, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle, UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
@@ -339,9 +347,11 @@ public:
   /// @brief Method get_Dimensions, addr 0x5ecbd9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Dimensions();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Height, addr 0x5ecbd7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Height();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Offset, addr 0x5ecbd8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Offset();
 
@@ -351,15 +361,18 @@ public:
   /// @brief Method get_ScaleChildren, addr 0x5ecbdac, size 0x8, virtual false, abstract: false, final false
   inline bool get_ScaleChildren();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Width, addr 0x5ecbd6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Width();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
   constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Height, addr 0x5ecbd84, size 0x8, virtual false, abstract: false, final false
   inline void set_Height(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Offset, addr 0x5ecbd94, size 0x8, virtual false, abstract: false, final false
   inline void set_Offset(::UnityEngine::Vector2 value);
 
@@ -369,6 +382,7 @@ public:
   /// @brief Method set_ScaleChildren, addr 0x5ecbdb4, size 0x28, virtual false, abstract: false, final false
   inline void set_ScaleChildren(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Width, addr 0x5ecbd74, size 0x8, virtual false, abstract: false, final false
   inline void set_Width(float_t value);
 
@@ -378,29 +392,36 @@ protected:
   constexpr OVRScenePlane();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePlane", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePlane", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRScenePlane(OVRScenePlane&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePlane", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScenePlane", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRScenePlane(OVRScenePlane const&) = delete;
+  OVRScenePlane(OVRScenePlaneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7687 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Width>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____Width_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Height>k__BackingField, offset: 0x24, size: 0x4, def value: None
   float_t ____Height_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Offset>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____Offset_k__BackingField;
 
+  /// [Tooltip("When enabled, scales the child transforms according to the dimensions of this plane. If both Volume and Plane components exist on the game object, the volume takes precedence.")]
+  /// [SerializeField]
   /// @brief Field _scaleChildren, offset: 0x30, size: 0x1, def value: None
   bool ____scaleChildren;
 
+  /// [Tooltip("When enabled, offsets the child transforms according to the offset of this plane. If both Volume and Plane components exist on the game object, the volume takes precedence.")]
+  /// [SerializeField]
   /// @brief Field _offsetChildren, offset: 0x31, size: 0x1, def value: None
   bool ____offsetChildren;
 

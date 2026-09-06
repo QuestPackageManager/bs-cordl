@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BlueNoiseDitheringUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace/BlueNoiseDitheringUpdater.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BlueNoiseDitheringUpdater_def.hpp"
 #include "GlobalNamespace/zzzz__BlueNoiseDithering_def.hpp"

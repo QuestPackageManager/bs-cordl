@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\InputActions.hpp"
+// IWYU pragma private; include "GlobalNamespace/InputActions.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__InputActions_def.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_def.hpp"

@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\ExpressionStringBuilder.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/ExpressionStringBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__ExpressionVisitor_def.hpp"
+#include "System/Linq/Expressions/zzzz__Expression_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExpressionStringBuilder)
@@ -92,7 +93,7 @@ class ExpressionStringBuilder;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::ExpressionStringBuilder*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::ExpressionStringBuilder*, "System.Linq.Expressions", "ExpressionStringBuilder");
-// Dependencies System.Linq.Expressions.ExpressionVisitor
+// Dependencies System.Linq.Expressions.Expression, System.Linq.Expressions.ExpressionVisitor
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: System.Linq.Expressions.ExpressionStringBuilder
@@ -159,10 +160,14 @@ public:
   inline ::System::Linq::Expressions::Expression* VisitDefault(::System::Linq::Expressions::DefaultExpression* node);
 
   /// @brief Method VisitExpressions, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void VisitExpressions(char16_t open, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* expressions, char16_t close);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Linq::Expressions::Expression*>)
+  inline void VisitExpressions(char16_t open, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* expressions, char16_t close);
 
   /// @brief Method VisitExpressions, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void VisitExpressions(char16_t open, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* expressions, char16_t close, ::StringW seperator);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Linq::Expressions::Expression*>)
+  inline void VisitExpressions(char16_t open, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* expressions, char16_t close, ::StringW seperator);
 
   /// @brief Method VisitExtension, addr 0x5f84154, size 0x1fc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitExtension(::System::Linq::Expressions::Expression* node);
@@ -227,13 +232,13 @@ protected:
   constexpr ExpressionStringBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionStringBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionStringBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpressionStringBuilder(ExpressionStringBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionStringBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionStringBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionStringBuilder(ExpressionStringBuilder const&) = delete;
+  ExpressionStringBuilder(ExpressionStringBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16165 };

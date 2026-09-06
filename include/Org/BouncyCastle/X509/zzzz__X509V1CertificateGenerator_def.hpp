@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\X509\X509V1CertificateGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/X509/X509V1CertificateGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,9 +72,11 @@ public:
   /// @brief Field tbsGen, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tbsGen, put = __cordl_internal_set_tbsGen)) ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* tbsGen;
 
+  /// [Obsolete("Use Generate with an ISignatureFactory")]
   /// @brief Method Generate, addr 0x3652aa4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
+  /// [Obsolete("Use Generate with an ISignatureFactory")]
   /// @brief Method Generate, addr 0x3652aac, size 0x80, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
@@ -105,6 +107,7 @@ public:
   /// @brief Method SetSerialNumber, addr 0x3652614, size 0xec, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
+  /// [Obsolete("Not needed if Generate used with an ISignatureFactory")]
   /// @brief Method SetSignatureAlgorithm, addr 0x3652930, size 0x174, virtual false, abstract: false, final false
   inline void SetSignatureAlgorithm(::StringW signatureAlgorithm);
 
@@ -147,13 +150,13 @@ protected:
   constexpr X509V1CertificateGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509V1CertificateGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509V1CertificateGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509V1CertificateGenerator(X509V1CertificateGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509V1CertificateGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509V1CertificateGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509V1CertificateGenerator(X509V1CertificateGenerator const&) = delete;
+  X509V1CertificateGenerator(X509V1CertificateGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1870 };

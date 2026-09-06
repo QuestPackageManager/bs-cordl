@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\SparselyPopulatedArrayAddInfo_1.hpp"
+// IWYU pragma private; include "System/Threading/SparselyPopulatedArrayAddInfo_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,11 +7,15 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SparselyPopulatedArrayAddInfo_1)
 namespace System::Threading {
-template <typename T> class SparselyPopulatedArrayFragment_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class SparselyPopulatedArrayFragment_1;
 }
 // Forward declare root types
 namespace System::Threading {
-template <typename T> struct SparselyPopulatedArrayAddInfo_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct SparselyPopulatedArrayAddInfo_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Threading::SparselyPopulatedArrayAddInfo_1);
@@ -20,6 +24,7 @@ DEFINE_IL2CPP_GEN_CLASS(::System::Threading::SparselyPopulatedArrayAddInfo_1, "S
 namespace System::Threading {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: System.Threading.SparselyPopulatedArrayAddInfo`1<T>
 struct CORDL_TYPE SparselyPopulatedArrayAddInfo_1 {
@@ -42,8 +47,8 @@ public:
   // @brief default ctor
   constexpr SparselyPopulatedArrayAddInfo_1();
 
-  // Ctor Parameters [CppParam { name: "_source", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_source", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SparselyPopulatedArrayAddInfo_1(::System::Threading::SparselyPopulatedArrayFragment_1<T>* _source, int32_t _index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

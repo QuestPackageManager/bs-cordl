@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IValueField_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IValueField_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ template <typename T> class IValueField_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::IValueField_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::IValueField_1, "UnityEngine.UIElements", "IValueField`1");
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
@@ -28,24 +29,24 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) T value;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, T startValue);
 
-  /// @brief Method StartDragging, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartDragging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartDragging();
 
-  /// @brief Method StopDragging, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StopDragging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StopDragging();
 
-  /// @brief Method get_value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_value();
 
-  /// @brief Method set_value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_value(T value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IValueField_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IValueField_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IValueField_1(IValueField_1 const&) = delete;
+  IValueField_1(IValueField_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4336 };

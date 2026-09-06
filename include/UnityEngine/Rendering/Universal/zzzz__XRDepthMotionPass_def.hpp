@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\XRDepthMotionPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRDepthMotionPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,13 +124,13 @@ protected:
   constexpr XRDepthMotionPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRDepthMotionPass_PassData(XRDepthMotionPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRDepthMotionPass_PassData(XRDepthMotionPass_PassData const&) = delete;
+  XRDepthMotionPass_PassData(XRDepthMotionPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12889 };
@@ -161,6 +161,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::XRDepthMotionPass_Pa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -191,13 +192,13 @@ protected:
   constexpr XRDepthMotionPass___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRDepthMotionPass___c__DisplayClass17_0(XRDepthMotionPass___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRDepthMotionPass___c__DisplayClass17_0(XRDepthMotionPass___c__DisplayClass17_0 const&) = delete;
+  XRDepthMotionPass___c__DisplayClass17_0(XRDepthMotionPass___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12890 };
@@ -348,13 +349,13 @@ protected:
   constexpr XRDepthMotionPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRDepthMotionPass(XRDepthMotionPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRDepthMotionPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRDepthMotionPass(XRDepthMotionPass const&) = delete;
+  XRDepthMotionPass(XRDepthMotionPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12891 };

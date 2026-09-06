@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\IEventProviderImpl.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/IEventProviderImpl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,21 +18,21 @@ namespace UnityEngine::InputForUI {
 class CORDL_TYPE IEventProviderImpl {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Initialize();
 
-  /// @brief Method OnFocusChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnFocusChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnFocusChanged(bool focus);
 
-  /// @brief Method Shutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Shutdown();
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IEventProviderImpl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IEventProviderImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IEventProviderImpl(IEventProviderImpl const&) = delete;
+  IEventProviderImpl(IEventProviderImplconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21825 };

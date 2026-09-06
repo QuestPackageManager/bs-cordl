@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXSpawnerState.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXSpawnerState.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXSpawnerState_def.hpp"

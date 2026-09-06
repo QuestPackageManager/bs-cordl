@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X9ObjectIdentifiers.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9ObjectIdentifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -476,13 +476,13 @@ protected:
   constexpr X9ObjectIdentifiers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X9ObjectIdentifiers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X9ObjectIdentifiers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X9ObjectIdentifiers(X9ObjectIdentifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X9ObjectIdentifiers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X9ObjectIdentifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X9ObjectIdentifiers(X9ObjectIdentifiers const&) = delete;
+  X9ObjectIdentifiers(X9ObjectIdentifiersconst&) = delete;
 
   /// @brief Field AnsiX962 offset 0xffffffff size 0x8
   static constexpr ::ConstString AnsiX962{ u"1.2.840.10045" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\SelectManyObservable_2.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/SelectManyObservable_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr SelectManyObservable_2_Select();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2_Select", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2_Select", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectManyObservable_2_Select(SelectManyObservable_2_Select&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2_Select", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2_Select", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectManyObservable_2_Select(SelectManyObservable_2_Select const&) = delete;
+  SelectManyObservable_2_Select(SelectManyObservable_2_Selectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9184 };
@@ -163,13 +163,13 @@ protected:
   constexpr SelectManyObservable_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectManyObservable_2(SelectManyObservable_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectManyObservable_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectManyObservable_2(SelectManyObservable_2 const&) = delete;
+  SelectManyObservable_2(SelectManyObservable_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9185 };

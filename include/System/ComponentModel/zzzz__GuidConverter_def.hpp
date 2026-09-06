@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\GuidConverter.hpp"
+// IWYU pragma private; include "System/ComponentModel/GuidConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr GuidConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GuidConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuidConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuidConverter(GuidConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GuidConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuidConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GuidConverter(GuidConverter const&) = delete;
+  GuidConverter(GuidConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11268 };

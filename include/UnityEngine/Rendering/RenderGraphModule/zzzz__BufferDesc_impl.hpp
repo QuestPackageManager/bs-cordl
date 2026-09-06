@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BufferDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BufferDesc.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferDesc_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
@@ -62,9 +62,9 @@ inline int32_t UnityEngine::Rendering::RenderGraphModule::BufferDesc::GetHashCod
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferDesc>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "stride", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "target", ty: "::UnityEngine::GraphicsBuffer_Target", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "usageFlags", ty: "::UnityEngine::GraphicsBuffer_UsageFlags", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stride", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "target", ty: "::UnityEngine::GraphicsBuffer_Target", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "usageFlags", ty: "::UnityEngine::GraphicsBuffer_UsageFlags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::BufferDesc::BufferDesc(int32_t count, int32_t stride, ::StringW name, ::UnityEngine::GraphicsBuffer_Target target,
                                                                               ::UnityEngine::GraphicsBuffer_UsageFlags usageFlags) noexcept {
   this->count = count;

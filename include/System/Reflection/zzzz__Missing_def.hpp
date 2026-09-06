@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Missing.hpp"
+// IWYU pragma private; include "System/Reflection/Missing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr Missing();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Missing", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Missing", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Missing(Missing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Missing", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Missing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Missing(Missing const&) = delete;
+  Missing(Missingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3504 };

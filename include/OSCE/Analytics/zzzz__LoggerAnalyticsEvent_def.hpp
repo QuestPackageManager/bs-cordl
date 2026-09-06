@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\LoggerAnalyticsEvent.hpp"
+// IWYU pragma private; include "OSCE/Analytics/LoggerAnalyticsEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr LoggerAnalyticsEvent();
 
-  // Ctor Parameters [CppParam { name: "logger", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "analytics_event", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "logger", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "analytics_event", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr LoggerAnalyticsEvent(::StringW logger, ::StringW analytics_event) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

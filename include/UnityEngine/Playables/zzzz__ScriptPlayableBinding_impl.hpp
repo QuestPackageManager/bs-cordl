@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\ScriptPlayableBinding.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/ScriptPlayableBinding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayableBinding_def.hpp"
 #include "System/zzzz__Type_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TestSceneUsage.hpp"
+// IWYU pragma private; include "GlobalNamespace/TestSceneUsage.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"

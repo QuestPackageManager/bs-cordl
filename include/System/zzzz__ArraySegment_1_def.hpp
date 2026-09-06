@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ArraySegment_1.hpp"
+// IWYU pragma private; include "System/ArraySegment_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,8 +105,8 @@ public:
   // @brief default ctor
   constexpr ArraySegment_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_end", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_start", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_current", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ArraySegment_1_Enumerator(::ArrayW<T> _array, int32_t _start, int32_t _end, int32_t _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -131,6 +131,8 @@ public:
 };
 // Non member Declarations
 } // namespace System
+// [DefaultMember("Item")]
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // cpp template
@@ -246,6 +248,7 @@ public:
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Empty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::ArraySegment_1<T> get_Empty();
 
@@ -276,8 +279,8 @@ public:
   // @brief default ctor
   constexpr ArraySegment_1();
 
-  // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_count", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_offset", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ArraySegment_1(::ArrayW<T> _array, int32_t _offset, int32_t _count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

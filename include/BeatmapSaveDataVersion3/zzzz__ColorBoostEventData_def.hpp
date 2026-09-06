@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\ColorBoostEventData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/ColorBoostEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,17 +45,18 @@ protected:
   constexpr ColorBoostEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorBoostEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorBoostEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorBoostEventData(ColorBoostEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorBoostEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorBoostEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorBoostEventData(ColorBoostEventData const&) = delete;
+  ColorBoostEventData(ColorBoostEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15369 };
 
+  /// [SerializeField]
   /// @brief Field o, offset: 0x14, size: 0x1, def value: None
   bool ___o;
 

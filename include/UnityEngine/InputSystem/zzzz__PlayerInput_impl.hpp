@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\PlayerInput.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/PlayerInput.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/InputSystem/Users/zzzz__InputUser_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_impl.hpp"
@@ -1922,7 +1922,9 @@ inline bool UnityEngine::InputSystem::PlayerInput::get_isSinglePlayer() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInput*>(), { "get_isSinglePlayer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-template <typename TDevice> inline TDevice UnityEngine::InputSystem::PlayerInput::GetDevice() {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+inline TDevice UnityEngine::InputSystem::PlayerInput::GetDevice() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInput*>(), { "GetDevice", { ::i2c::class_of<TDevice>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDevice>() })));
@@ -1944,13 +1946,13 @@ inline void UnityEngine::InputSystem::PlayerInput::PassivateInput() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInput*>(), { "PassivateInput", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::PlayerInput::SwitchCurrentControlScheme(::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices) {
+inline bool UnityEngine::InputSystem::PlayerInput::SwitchCurrentControlScheme(/* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInput*>(),
                                                            { "SwitchCurrentControlScheme", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::InputSystem::InputDevice*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, devices);
 }
-inline void UnityEngine::InputSystem::PlayerInput::SwitchCurrentControlScheme(::StringW controlScheme, ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices) {
+inline void UnityEngine::InputSystem::PlayerInput::SwitchCurrentControlScheme(::StringW controlScheme, /* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInput*>(),
                                               { "SwitchCurrentControlScheme", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::UnityEngine::InputSystem::InputDevice*>>() } })));
@@ -1982,7 +1984,7 @@ inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> UnityEngine::InputSyste
 }
 inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> UnityEngine::InputSystem::PlayerInput::Instantiate(::UnityEngine::GameObject* prefab, int32_t playerIndex, ::StringW controlScheme,
                                                                                                             int32_t splitScreenIndex,
-                                                                                                            ::ArrayW<::UnityEngine::InputSystem::InputDevice*> pairWithDevices) {
+                                                                                                            /* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> pairWithDevices) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInput*>(),
                                                                                          { "Instantiate",
                                                                                            {},
@@ -2123,7 +2125,7 @@ inline void UnityEngine::InputSystem::PlayerInput::OnDeviceChange(::UnityEngine:
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, device, change);
 }
 inline void UnityEngine::InputSystem::PlayerInput::SwitchControlSchemeInternal(::by_ref<::UnityEngine::InputSystem::InputControlScheme> controlScheme,
-                                                                               ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices) {
+                                                                               /* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> devices) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInput*>(), { "SwitchControlSchemeInternal",
                                                                                                                           {},

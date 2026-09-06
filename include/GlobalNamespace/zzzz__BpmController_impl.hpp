@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BpmController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BpmController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BpmController_def.hpp"
 #include "GlobalNamespace/zzzz__BPMChangeBeatmapEventData_def.hpp"
@@ -168,6 +168,7 @@ inline void GlobalNamespace::BpmController::HandleBpmChangeBeatmapEvent(::Global
                                                                                          { "HandleBpmChangeBeatmapEvent", {}, { ::i2c::type_of<::GlobalNamespace::BPMChangeBeatmapEventData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bpmChangeBeatmapEventData);
 }
+/// @brief [Inject]
 inline ::GlobalNamespace::BpmController* GlobalNamespace::BpmController::New_ctor(::GlobalNamespace::BpmController_InitData* initData,
                                                                                   ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BpmController*>(initData, beatmapCallbacksController));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRHumanBodyBonesMappingsInterface.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRHumanBodyBonesMappingsInterface.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,30 +51,30 @@ public:
   __declspec(property(get = get_GetFullBodyBoneIdToJointPair)) ::System::Collections::Generic::Dictionary_2<
       ::GlobalNamespace::OVRSkeleton_BoneId, ::System::Tuple_2<::GlobalNamespace::OVRSkeleton_BoneId, ::GlobalNamespace::OVRSkeleton_BoneId>*>* GetFullBodyBoneIdToJointPair;
 
-  /// @brief Method get_GetBoneIdToHumanBodyBone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_GetBoneIdToHumanBodyBone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSkeleton_BoneId, ::UnityEngine::HumanBodyBones>* get_GetBoneIdToHumanBodyBone();
 
-  /// @brief Method get_GetBoneIdToJointPair, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_GetBoneIdToJointPair, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSkeleton_BoneId, ::System::Tuple_2<::GlobalNamespace::OVRSkeleton_BoneId, ::GlobalNamespace::OVRSkeleton_BoneId>*>*
   get_GetBoneIdToJointPair();
 
-  /// @brief Method get_GetBoneToBodySection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_GetBoneToBodySection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection>*
   get_GetBoneToBodySection();
 
-  /// @brief Method get_GetBoneToJointPair, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_GetBoneToJointPair, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::System::Tuple_2<::UnityEngine::HumanBodyBones, ::UnityEngine::HumanBodyBones>*>* get_GetBoneToJointPair();
 
-  /// @brief Method get_GetFullBodyBoneIdToHumanBodyBone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_GetFullBodyBoneIdToHumanBodyBone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSkeleton_BoneId, ::UnityEngine::HumanBodyBones>* get_GetFullBodyBoneIdToHumanBodyBone();
 
-  /// @brief Method get_GetFullBodyBoneIdToJointPair, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_GetFullBodyBoneIdToJointPair, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSkeleton_BoneId, ::System::Tuple_2<::GlobalNamespace::OVRSkeleton_BoneId, ::GlobalNamespace::OVRSkeleton_BoneId>*>*
   get_GetFullBodyBoneIdToJointPair();
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHumanBodyBonesMappingsInterface", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHumanBodyBonesMappingsInterface", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHumanBodyBonesMappingsInterface(OVRHumanBodyBonesMappingsInterface const&) = delete;
+  OVRHumanBodyBonesMappingsInterface(OVRHumanBodyBonesMappingsInterfaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7066 };

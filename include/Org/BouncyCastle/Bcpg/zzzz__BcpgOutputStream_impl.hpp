@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\BcpgOutputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/BcpgOutputStream.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_def.hpp"
@@ -492,7 +492,7 @@ inline void Org::BouncyCastle::Bcpg::BcpgOutputStream::WriteObject(::Org::Bouncy
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::BcpgOutputStream*>(), { "WriteObject", {}, { ::i2c::type_of<::Org::BouncyCastle::Bcpg::BcpgObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bcpgObject);
 }
-inline void Org::BouncyCastle::Bcpg::BcpgOutputStream::WriteObjects(::ArrayW<::Org::BouncyCastle::Bcpg::BcpgObject*> v) {
+inline void Org::BouncyCastle::Bcpg::BcpgOutputStream::WriteObjects(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Bcpg::BcpgObject*> v) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::BcpgOutputStream*>(),
                                                                                          { "WriteObjects", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Bcpg::BcpgObject*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, v);

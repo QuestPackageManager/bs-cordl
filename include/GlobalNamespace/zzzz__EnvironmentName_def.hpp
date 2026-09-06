@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentName.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   // @brief default ctor
   constexpr EnvironmentName();
 
-  // Ctor Parameters [CppParam { name: "_environmentName", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_environmentName", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr EnvironmentName(::StringW _environmentName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -71,6 +71,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [SerializeField]
   /// @brief Field _environmentName, offset: 0x0, size: 0x8, def value: None
   ::StringW _environmentName;
 

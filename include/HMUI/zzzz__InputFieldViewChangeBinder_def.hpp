@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\InputFieldViewChangeBinder.hpp"
+// IWYU pragma private; include "HMUI/InputFieldViewChangeBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,13 +85,13 @@ protected:
   constexpr InputFieldViewChangeBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldViewChangeBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldViewChangeBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputFieldViewChangeBinder(InputFieldViewChangeBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldViewChangeBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldViewChangeBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldViewChangeBinder(InputFieldViewChangeBinder const&) = delete;
+  InputFieldViewChangeBinder(InputFieldViewChangeBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19026 };

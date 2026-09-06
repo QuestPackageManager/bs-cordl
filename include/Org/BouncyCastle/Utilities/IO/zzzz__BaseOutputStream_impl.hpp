@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\BaseOutputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/BaseOutputStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
@@ -265,7 +265,7 @@ inline void Org::BouncyCastle::Utilities::IO::BaseOutputStream::Write(::ArrayW<u
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Utilities::IO::BaseOutputStream*>(), 38 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer, offset, count);
 }
-inline void Org::BouncyCastle::Utilities::IO::BaseOutputStream::Write(::ArrayW<uint8_t> buffer) {
+inline void Org::BouncyCastle::Utilities::IO::BaseOutputStream::Write(/* [ParamArray] */ ::ArrayW<uint8_t> buffer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Utilities::IO::BaseOutputStream*>(), 42 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, buffer);

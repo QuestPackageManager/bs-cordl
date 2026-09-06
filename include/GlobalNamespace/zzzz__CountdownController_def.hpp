@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CountdownController.hpp"
+// IWYU pragma private; include "GlobalNamespace/CountdownController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,13 +136,13 @@ protected:
   constexpr CountdownController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CountdownController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CountdownController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CountdownController(CountdownController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CountdownController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CountdownController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CountdownController(CountdownController const&) = delete;
+  CountdownController(CountdownControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6379 };
@@ -150,12 +150,15 @@ public:
   /// @brief Field kGongTime offset 0xffffffff size 0x8
   static constexpr int64_t kGongTime{ static_cast<int64_t>(0x1388) };
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [SerializeField]
   /// @brief Field _countdownElementControllers, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>> ____countdownElementControllers;
 
+  /// [Inject]
   /// @brief Field _timeProvider, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ITimeProvider* ____timeProvider;
 

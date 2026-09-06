@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Keyboard.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Keyboard.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"

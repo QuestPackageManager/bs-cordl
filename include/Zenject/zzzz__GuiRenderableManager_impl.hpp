@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\GuiRenderableManager.hpp"
+// IWYU pragma private; include "Zenject/GuiRenderableManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__GuiRenderableManager_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
@@ -364,8 +364,9 @@ constexpr void Zenject::GuiRenderableManager::__cordl_internal_set__renderables(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____renderables = value;
 }
-inline void Zenject::GuiRenderableManager::_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
-                                                 ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
+inline void Zenject::GuiRenderableManager::_ctor(
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::GuiRenderableManager*>(),
                                                            { ".ctor",
@@ -387,8 +388,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::GuiRenderableManager::__zenCreateInje
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::GuiRenderableManager*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::GuiRenderableManager* Zenject::GuiRenderableManager::New_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
-                                                                                ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
+inline ::Zenject::GuiRenderableManager* Zenject::GuiRenderableManager::New_ctor(
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::GuiRenderableManager*>(renderables, priorities));
 }
 // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\TextInfo.hpp"
+// IWYU pragma private; include "System/Globalization/TextInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ class TextInfo;
 // Write type traits
 MARK_REF_T(::System::Globalization::TextInfo*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::TextInfo*, "System.Globalization", "TextInfo");
+// [ComVisible(true)]
 // Dependencies System.Nullable`1<T>, System.Object
 namespace System::Globalization {
 // Is value type: false
@@ -49,6 +50,7 @@ namespace System::Globalization {
 class CORDL_TYPE TextInfo : public ::System::Object {
 public:
   // Declarations
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_CultureName)) ::StringW CultureName;
 
   __declspec(property(get = get_IsAsciiCasingSameAsInvariant)) bool IsAsciiCasingSameAsInvariant;
@@ -95,6 +97,7 @@ public:
   /// @brief Method ChangeCase, addr 0x5bcf800, size 0xf4, virtual false, abstract: false, final false
   inline void ChangeCase(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination, bool toUpper);
 
+  /// [ComVisible(false)]
   /// @brief Method Clone, addr 0x5bce368, size 0x88, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
@@ -120,12 +123,15 @@ public:
   /// @brief Method OnDeserialized, addr 0x5bce1e8, size 0xf0, virtual false, abstract: false, final false
   inline void OnDeserialized();
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x5bce2d8, size 0x4, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnDeserializing]
   /// @brief Method OnDeserializing, addr 0x5bce1e0, size 0x8, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnSerializing]
   /// @brief Method OnSerializing, addr 0x5bce2dc, size 0x84, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
@@ -253,20 +259,22 @@ protected:
   constexpr TextInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextInfo(TextInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextInfo(TextInfo const&) = delete;
+  TextInfo(TextInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3633 };
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_isReadOnly, offset: 0x10, size: 0x1, def value: None
   bool ___m_isReadOnly;
 
+  /// [OptionalField(VersionAdded = 3)]
   /// @brief Field m_cultureName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_cultureName;
 
@@ -279,12 +287,15 @@ public:
   /// @brief Field m_IsAsciiCasingSameAsInvariant, offset: 0x30, size: 0x2, def value: None
   ::System::Nullable_1<bool> ___m_IsAsciiCasingSameAsInvariant;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field customCultureName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___customCultureName;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field m_useUserOverride, offset: 0x40, size: 0x1, def value: None
   bool ___m_useUserOverride;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field m_win32LangID, offset: 0x44, size: 0x4, def value: None
   int32_t ___m_win32LangID;
 

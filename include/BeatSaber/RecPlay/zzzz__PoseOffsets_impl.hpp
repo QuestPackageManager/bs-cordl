@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PoseOffsets.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseOffsets.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseOffsets_def.hpp"
 #include "BeatSaber/RecPlay/zzzz__PlayerPose_def.hpp"
@@ -27,8 +27,8 @@ inline void BeatSaber::RecPlay::PoseOffsets::Adjust(::by_ref<::BeatSaber::RecPla
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::RecPlay::PoseOffsets>(), { "Adjust", {}, { ::i2c::type_of<::by_ref<::BeatSaber::RecPlay::PlayerPose>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, pose);
 }
-// Ctor Parameters [CppParam { name: "room", ty: "::UnityEngine::Pose", modifiers: "", def_value: Some("{}") }, CppParam { name: "leftController", ty: "::UnityEngine::Pose", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rightController", ty: "::UnityEngine::Pose", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "room", ty: "::UnityEngine::Pose", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "leftController", ty: "::UnityEngine::Pose", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "rightController", ty: "::UnityEngine::Pose", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::RecPlay::PoseOffsets::PoseOffsets(::UnityEngine::Pose room, ::UnityEngine::Pose leftController, ::UnityEngine::Pose rightController) noexcept {
   this->room = room;
   this->leftController = leftController;

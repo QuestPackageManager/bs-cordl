@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "StyledUITemplates\ColorOverrideOption.hpp"
+// IWYU pragma private; include "StyledUITemplates/ColorOverrideOption.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,26 +137,31 @@ protected:
   constexpr ColorOverrideOption();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorOverrideOption", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorOverrideOption", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorOverrideOption(ColorOverrideOption&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorOverrideOption", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorOverrideOption", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorOverrideOption(ColorOverrideOption const&) = delete;
+  ColorOverrideOption(ColorOverrideOptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23649 };
 
+  /// [SerializeField]
   /// @brief Field _override, offset: 0x10, size: 0x1, def value: None
   bool ____override;
 
+  /// [SerializeField]
   /// @brief Field _useFixedColor, offset: 0x11, size: 0x1, def value: None
   bool ____useFixedColor;
 
+  /// [SerializeField]
   /// @brief Field _fixedColor, offset: 0x14, size: 0x10, def value: None
   ::UnityEngine::Color ____fixedColor;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _scriptableObjectColor, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____scriptableObjectColor;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchySearchFilterOperator.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchySearchFilterOperator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct HierarchySearchFilterOperator;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchySearchFilterOperator);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchySearchFilterOperator, "Unity.Hierarchy", "HierarchySearchFilterOperator");
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchySearch.h")]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr HierarchySearchFilterOperator();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchySearchFilterOperator(int32_t value__) noexcept;
 
   /// @brief Field Contains value: I32(1)

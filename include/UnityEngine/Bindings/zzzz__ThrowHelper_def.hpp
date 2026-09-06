@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\ThrowHelper.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/ThrowHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class ThrowHelper;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::ThrowHelper*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::ThrowHelper*, "UnityEngine.Bindings", "ThrowHelper");
+// [VisibleToOtherModules]
 // Dependencies System.Object
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -23,9 +24,11 @@ namespace UnityEngine::Bindings {
 class CORDL_TYPE ThrowHelper : public ::System::Object {
 public:
   // Declarations
+  /// [DoesNotReturn]
   /// @brief Method ThrowArgumentNullException, addr 0x6afa2e4, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowArgumentNullException(::System::Object* obj, ::StringW parameterName);
 
+  /// [DoesNotReturn]
   /// @brief Method ThrowNullReferenceException, addr 0x6af4468, size 0x44, virtual false, abstract: false, final false
   static inline void ThrowNullReferenceException(::System::Object* obj);
 
@@ -35,13 +38,13 @@ protected:
   constexpr ThrowHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThrowHelper(ThrowHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThrowHelper(ThrowHelper const&) = delete;
+  ThrowHelper(ThrowHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10468 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessPasses.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessPasses.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PostProcessPasses_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__ColorGradingLutPass_def.hpp"
@@ -214,13 +214,13 @@ constexpr UnityEngine::Rendering::Universal::PostProcessPasses::operator ::Syste
 constexpr ::System::IDisposable* UnityEngine::Rendering::Universal::PostProcessPasses::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_ColorGradingLutPass", ty: "::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_PostProcessPass", ty: "::UnityEngine::Rendering::Universal::PostProcessPass*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FinalPostProcessPass", ty:
-// "::UnityEngine::Rendering::Universal::PostProcessPass*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AfterPostProcessColor", ty: "::UnityEngine::Rendering::RTHandle*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_ColorGradingLut", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RendererPostProcessData",
-// ty: "::UnityW<::UnityEngine::Rendering::Universal::PostProcessData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentPostProcessData", ty:
-// "::UnityW<::UnityEngine::Rendering::Universal::PostProcessData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlitMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ColorGradingLutPass", ty: "::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "m_PostProcessPass", ty: "::UnityEngine::Rendering::Universal::PostProcessPass*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FinalPostProcessPass", ty:
+// "::UnityEngine::Rendering::Universal::PostProcessPass*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AfterPostProcessColor", ty:
+// "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ColorGradingLut", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_RendererPostProcessData", ty: "::UnityW<::UnityEngine::Rendering::Universal::PostProcessData>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_CurrentPostProcessData", ty: "::UnityW<::UnityEngine::Rendering::Universal::PostProcessData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_BlitMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::PostProcessPasses::PostProcessPasses(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass* m_ColorGradingLutPass,
                                                                                     ::UnityEngine::Rendering::Universal::PostProcessPass* m_PostProcessPass,
                                                                                     ::UnityEngine::Rendering::Universal::PostProcessPass* m_FinalPostProcessPass,

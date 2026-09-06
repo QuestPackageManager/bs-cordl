@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\CategoryButton.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/CategoryButton.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__Category_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Toggle_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__CategoryButton_def.hpp"

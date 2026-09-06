@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ValueTuple_1.hpp"
+// IWYU pragma private; include "System/ValueTuple_1.hpp"
 #include "System/zzzz__ValueTuple_1_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
@@ -133,7 +133,7 @@ template <typename T1> constexpr System::ValueTuple_1<T1>::operator ::System::Ru
 template <typename T1> constexpr ::System::Runtime::CompilerServices::ITuple* System::ValueTuple_1<T1>::i___System__Runtime__CompilerServices__ITuple() {
   return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T1> constexpr ::System::ValueTuple_1<T1>::ValueTuple_1(T1 Item1) noexcept {
   this->Item1 = Item1;
 }

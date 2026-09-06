@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlTemplateTraits.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlTemplateTraits.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class UxmlTemplateTraits;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UxmlTemplateTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlTemplateTraits*, "UnityEngine.UIElements", "UxmlTemplateTraits");
+// [Obsolete("UxmlTemplateTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -60,13 +61,13 @@ protected:
   constexpr UxmlTemplateTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlTemplateTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlTemplateTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlTemplateTraits(UxmlTemplateTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlTemplateTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlTemplateTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlTemplateTraits(UxmlTemplateTraits const&) = delete;
+  UxmlTemplateTraits(UxmlTemplateTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5140 };

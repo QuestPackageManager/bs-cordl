@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\UnityWebRequestResult.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/UnityWebRequestResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,21 +95,27 @@ public:
   /// @brief Method .ctor, addr 0x69189f8, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Error, addr 0x6918e20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Error();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Method, addr 0x6918e40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ResponseCode, addr 0x6918e30, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ResponseCode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Result, addr 0x6918e38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_Result get_Result();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Url, addr 0x6918e48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Url();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Error, addr 0x6918e28, size 0x8, virtual false, abstract: false, final false
   inline void set_Error(::StringW value);
 
@@ -119,29 +125,34 @@ protected:
   constexpr UnityWebRequestResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestResult(UnityWebRequestResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequestResult(UnityWebRequestResult const&) = delete;
+  UnityWebRequestResult(UnityWebRequestResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18761 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Error>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Error_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ResponseCode>k__BackingField, offset: 0x18, size: 0x8, def value: None
   int64_t ____ResponseCode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Result>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Networking::UnityWebRequest_Result ____Result_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Method>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____Method_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Url>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____Url_k__BackingField;
 

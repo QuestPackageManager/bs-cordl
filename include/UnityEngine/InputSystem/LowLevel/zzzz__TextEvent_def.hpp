@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\TextEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TextEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,8 +74,8 @@ public:
   // @brief default ctor
   constexpr TextEvent();
 
-  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "character", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None, comment: None }, CppParam { name: "character", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, int32_t character) noexcept;
 
 private:

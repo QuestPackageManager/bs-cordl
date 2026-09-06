@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StringBuilderExtension.hpp"
+// IWYU pragma private; include "GlobalNamespace/StringBuilderExtension.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,9 @@ class StringBuilderExtension;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StringBuilderExtension*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StringBuilderExtension*, "", "StringBuilderExtension");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -23,12 +26,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AppendNumber, addr 0x330d2b4, size 0x10, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
+  /// [Extension]
   /// @brief Method AppendNumber, addr 0x330d2dc, size 0x88, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
 
+  /// [Extension]
   /// @brief Method Swap, addr 0x330d0bc, size 0x1f8, virtual false, abstract: false, final false
   static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
 
@@ -38,13 +44,13 @@ protected:
   constexpr StringBuilderExtension();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringBuilderExtension(StringBuilderExtension&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringBuilderExtension(StringBuilderExtension const&) = delete;
+  StringBuilderExtension(StringBuilderExtensionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20472 };

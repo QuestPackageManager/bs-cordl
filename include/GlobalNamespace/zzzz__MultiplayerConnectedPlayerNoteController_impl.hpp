@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerNoteController.hpp"
 #include "GlobalNamespace/zzzz__NoteController_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerNoteController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"

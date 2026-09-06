@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\PbeUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/PbeUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -157,13 +157,13 @@ protected:
   constexpr PbeUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PbeUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PbeUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PbeUtilities(PbeUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PbeUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PbeUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PbeUtilities(PbeUtilities const&) = delete;
+  PbeUtilities(PbeUtilitiesconst&) = delete;
 
   /// @brief Field OpenSsl offset 0xffffffff size 0x8
   static constexpr ::ConstString OpenSsl{ u"OpenSsl" };

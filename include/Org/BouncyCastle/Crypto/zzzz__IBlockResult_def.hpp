@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\IBlockResult.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IBlockResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,15 +20,15 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IBlockResult {
 public:
   // Declarations
-  /// @brief Method Collect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Collect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> Collect();
 
-  /// @brief Method Collect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Collect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Collect(::ArrayW<uint8_t> destination, int32_t offset);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBlockResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBlockResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBlockResult(IBlockResult const&) = delete;
+  IBlockResult(IBlockResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 709 };

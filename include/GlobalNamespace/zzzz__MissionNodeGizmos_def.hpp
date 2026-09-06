@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionNodeGizmos.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionNodeGizmos.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,23 +67,26 @@ protected:
   constexpr MissionNodeGizmos();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionNodeGizmos(MissionNodeGizmos&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionNodeGizmos(MissionNodeGizmos const&) = delete;
+  MissionNodeGizmos(MissionNodeGizmosconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6873 };
 
+  /// [SerializeField]
   /// @brief Field _missionNode, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
+  /// [Inject]
   /// @brief Field _missionProgressModel, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignProgressModel> ____missionProgressModel;
 

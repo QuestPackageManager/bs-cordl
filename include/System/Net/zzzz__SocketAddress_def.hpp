@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\SocketAddress.hpp"
+// IWYU pragma private; include "System/Net/SocketAddress.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class SocketAddress;
 // Write type traits
 MARK_REF_T(::System::Net::SocketAddress*);
 DEFINE_IL2CPP_CLASS(::System::Net::SocketAddress*, "System.Net", "SocketAddress");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Net {
 // Is value type: false
@@ -121,13 +122,13 @@ protected:
   constexpr SocketAddress();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SocketAddress", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAddress", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SocketAddress(SocketAddress&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SocketAddress", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAddress", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SocketAddress(SocketAddress const&) = delete;
+  SocketAddress(SocketAddressconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11507 };

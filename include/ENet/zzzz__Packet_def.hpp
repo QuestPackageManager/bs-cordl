@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\Packet.hpp"
+// IWYU pragma private; include "ENet/Packet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,7 +119,7 @@ public:
   // @brief default ctor
   constexpr Packet();
 
-  // Ctor Parameters [CppParam { name: "nativePacket", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nativePacket", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr Packet(::System::IntPtr nativePacket) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

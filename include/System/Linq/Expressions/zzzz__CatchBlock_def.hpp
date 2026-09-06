@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\CatchBlock.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/CatchBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class CatchBlock;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::CatchBlock*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::CatchBlock*, "System.Linq.Expressions", "CatchBlock");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::CatchBlockProxy))]
 // Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -87,15 +88,19 @@ public:
   /// @brief Method .ctor, addr 0x5f7a44c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* test, ::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* filter);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Body, addr 0x5f7a468, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Filter, addr 0x5f7a470, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Filter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Test, addr 0x5f7a460, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Test();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Variable, addr 0x5f7a458, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* get_Variable();
 
@@ -105,26 +110,30 @@ protected:
   constexpr CatchBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CatchBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CatchBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CatchBlock(CatchBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CatchBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CatchBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CatchBlock(CatchBlock const&) = delete;
+  CatchBlock(CatchBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16152 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Variable>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::ParameterExpression* ____Variable_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Test>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____Test_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Body>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Body_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Filter>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Filter_k__BackingField;
 

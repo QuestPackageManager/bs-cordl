@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Color32.hpp"
+// IWYU pragma private; include "UnityEngine/Color32.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -241,9 +241,9 @@ constexpr UnityEngine::Color32::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::Color32::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "rgba", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "r", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "g",
-// ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "b", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "rgba", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "r", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "g", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "b", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "a", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Color32::Color32(int32_t rgba, uint8_t r, uint8_t g, uint8_t b, uint8_t a) noexcept {
   this->rgba = rgba;
   this->r = r;

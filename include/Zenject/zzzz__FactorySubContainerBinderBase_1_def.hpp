@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FactorySubContainerBinderBase_1.hpp"
+// IWYU pragma private; include "Zenject/FactorySubContainerBinderBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InstallerBase_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(FactorySubContainerBinderBase_1)
@@ -85,6 +86,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactorySubContainerBinderBase_1___c__Disp
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactorySubContainerBinderBase_1___c__DisplayClass25_0, "Zenject", "FactorySubContainerBinderBase`1/<>c__DisplayClass25_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactorySubContainerBinderBase_1___c__DisplayClass27_0, "Zenject", "FactorySubContainerBinderBase`1/<>c__DisplayClass27_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactorySubContainerBinderBase_1___c__DisplayClass29_0, "Zenject", "FactorySubContainerBinderBase`1/<>c__DisplayClass29_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -129,6 +131,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -141,13 +144,13 @@ protected:
   constexpr FactorySubContainerBinderBase_1___c__DisplayClass23_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass23_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinderBase_1___c__DisplayClass23_0(FactorySubContainerBinderBase_1___c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass23_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinderBase_1___c__DisplayClass23_0(FactorySubContainerBinderBase_1___c__DisplayClass23_0 const&) = delete;
+  FactorySubContainerBinderBase_1___c__DisplayClass23_0(FactorySubContainerBinderBase_1___c__DisplayClass23_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14176 };
@@ -165,6 +168,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -209,6 +213,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -221,13 +226,13 @@ protected:
   constexpr FactorySubContainerBinderBase_1___c__DisplayClass25_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass25_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass25_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinderBase_1___c__DisplayClass25_0(FactorySubContainerBinderBase_1___c__DisplayClass25_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass25_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinderBase_1___c__DisplayClass25_0(FactorySubContainerBinderBase_1___c__DisplayClass25_0 const&) = delete;
+  FactorySubContainerBinderBase_1___c__DisplayClass25_0(FactorySubContainerBinderBase_1___c__DisplayClass25_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14177 };
@@ -245,6 +250,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -298,6 +304,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -310,13 +317,13 @@ protected:
   constexpr FactorySubContainerBinderBase_1___c__DisplayClass27_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass27_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass27_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinderBase_1___c__DisplayClass27_0(FactorySubContainerBinderBase_1___c__DisplayClass27_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass27_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass27_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinderBase_1___c__DisplayClass27_0(FactorySubContainerBinderBase_1___c__DisplayClass27_0 const&) = delete;
+  FactorySubContainerBinderBase_1___c__DisplayClass27_0(FactorySubContainerBinderBase_1___c__DisplayClass27_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14178 };
@@ -337,6 +344,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -390,6 +398,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -402,13 +411,13 @@ protected:
   constexpr FactorySubContainerBinderBase_1___c__DisplayClass29_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass29_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass29_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinderBase_1___c__DisplayClass29_0(FactorySubContainerBinderBase_1___c__DisplayClass29_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass29_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1___c__DisplayClass29_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinderBase_1___c__DisplayClass29_0(FactorySubContainerBinderBase_1___c__DisplayClass29_0 const&) = delete;
+  FactorySubContainerBinderBase_1___c__DisplayClass29_0(FactorySubContainerBinderBase_1___c__DisplayClass29_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14179 };
@@ -429,7 +438,8 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies System.Object
+// [NoReflectionBaking]
+// Dependencies System.Object, Zenject.InstallerBase
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -472,25 +482,33 @@ public:
   __declspec(property(get = __cordl_internal_get__SubIdentifier_k__BackingField, put = __cordl_internal_set__SubIdentifier_k__BackingField)) ::System::Object* _SubIdentifier_k__BackingField;
 
   /// @brief Method ByInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TInstaller> inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller();
+  template <typename TInstaller>
+    requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::InstallerBase*>)
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller();
 
   /// @brief Method ByInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller(::System::Type* installerType);
 
   /// @brief Method ByNewGameObjectInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller();
+  template <typename TInstaller>
+    requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::InstallerBase*>)
+  inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller();
 
   /// @brief Method ByNewGameObjectInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewGameObjectInstaller(::System::Type* installerType);
 
   /// @brief Method ByNewPrefabInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabInstaller(::UnityEngine::Object* prefab);
+  template <typename TInstaller>
+    requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::InstallerBase*>)
+  inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabInstaller(::UnityEngine::Object* prefab);
 
   /// @brief Method ByNewPrefabInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabInstaller(::UnityEngine::Object* prefab, ::System::Type* installerType);
 
   /// @brief Method ByNewPrefabResourceInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceInstaller(::StringW resourcePath);
+  template <typename TInstaller>
+    requires(::cordl_internals::type_constraint<TInstaller, ::Zenject::InstallerBase*>)
+  inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceInstaller(::StringW resourcePath);
 
   /// @brief Method ByNewPrefabResourceInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResourceInstaller(::StringW resourcePath, ::System::Type* installerType);
@@ -525,36 +543,44 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::System::Object* subIdentifier);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BindContainer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_BindContainer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_BindInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::BindInfo* get_BindInfo();
 
   /// @brief Method get_ContractType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Type* get_ContractType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_FactoryBindInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryBindInfo* get_FactoryBindInfo();
 
   /// @brief Method get_ProviderFunc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* get_ProviderFunc();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SubIdentifier, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* get_SubIdentifier();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BindContainer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_BindContainer(::Zenject::DiContainer* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_BindInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_BindInfo(::Zenject::BindInfo* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_FactoryBindInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_FactoryBindInfo(::Zenject::FactoryBindInfo* value);
 
   /// @brief Method set_ProviderFunc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_ProviderFunc(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SubIdentifier, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_SubIdentifier(::System::Object* value);
 
@@ -564,26 +590,30 @@ protected:
   constexpr FactorySubContainerBinderBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactorySubContainerBinderBase_1(FactorySubContainerBinderBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactorySubContainerBinderBase_1(FactorySubContainerBinderBase_1 const&) = delete;
+  FactorySubContainerBinderBase_1(FactorySubContainerBinderBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14180 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BindContainer>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____BindContainer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FactoryBindInfo>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Zenject::FactoryBindInfo* ____FactoryBindInfo_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <BindInfo>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::BindInfo* ____BindInfo_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SubIdentifier>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ____SubIdentifier_k__BackingField;
 

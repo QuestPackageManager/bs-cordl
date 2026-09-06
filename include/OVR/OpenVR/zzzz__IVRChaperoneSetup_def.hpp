@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRChaperoneSetup.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRChaperoneSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -201,6 +201,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize*, "
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose*, "OVR.OpenVR", "IVRChaperoneSetup/_SetWorkingSeatedZeroPoseToRawTrackingPose");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose*, "OVR.OpenVR", "IVRChaperoneSetup/_SetWorkingStandingZeroPoseToRawTrackingPose");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRChaperoneSetup, "OVR.OpenVR", "IVRChaperoneSetup");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -228,13 +229,13 @@ protected:
   constexpr IVRChaperoneSetup__CommitWorkingCopy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__CommitWorkingCopy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__CommitWorkingCopy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__CommitWorkingCopy(IVRChaperoneSetup__CommitWorkingCopy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__CommitWorkingCopy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__CommitWorkingCopy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__CommitWorkingCopy(IVRChaperoneSetup__CommitWorkingCopy const&) = delete;
+  IVRChaperoneSetup__CommitWorkingCopy(IVRChaperoneSetup__CommitWorkingCopyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8141 };
@@ -245,6 +246,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -272,13 +274,13 @@ protected:
   constexpr IVRChaperoneSetup__RevertWorkingCopy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__RevertWorkingCopy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__RevertWorkingCopy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__RevertWorkingCopy(IVRChaperoneSetup__RevertWorkingCopy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__RevertWorkingCopy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__RevertWorkingCopy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__RevertWorkingCopy(IVRChaperoneSetup__RevertWorkingCopy const&) = delete;
+  IVRChaperoneSetup__RevertWorkingCopy(IVRChaperoneSetup__RevertWorkingCopyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8142 };
@@ -289,6 +291,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -316,13 +319,13 @@ protected:
   constexpr IVRChaperoneSetup__GetWorkingPlayAreaSize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaSize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaSize", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__GetWorkingPlayAreaSize(IVRChaperoneSetup__GetWorkingPlayAreaSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaSize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingPlayAreaSize(IVRChaperoneSetup__GetWorkingPlayAreaSize const&) = delete;
+  IVRChaperoneSetup__GetWorkingPlayAreaSize(IVRChaperoneSetup__GetWorkingPlayAreaSizeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8143 };
@@ -333,6 +336,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -360,13 +364,13 @@ protected:
   constexpr IVRChaperoneSetup__GetWorkingPlayAreaRect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaRect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaRect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__GetWorkingPlayAreaRect(IVRChaperoneSetup__GetWorkingPlayAreaRect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaRect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingPlayAreaRect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingPlayAreaRect(IVRChaperoneSetup__GetWorkingPlayAreaRect const&) = delete;
+  IVRChaperoneSetup__GetWorkingPlayAreaRect(IVRChaperoneSetup__GetWorkingPlayAreaRectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8144 };
@@ -377,6 +381,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -404,13 +409,13 @@ protected:
   constexpr IVRChaperoneSetup__GetWorkingCollisionBoundsInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingCollisionBoundsInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingCollisionBoundsInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__GetWorkingCollisionBoundsInfo(IVRChaperoneSetup__GetWorkingCollisionBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingCollisionBoundsInfo(IVRChaperoneSetup__GetWorkingCollisionBoundsInfo const&) = delete;
+  IVRChaperoneSetup__GetWorkingCollisionBoundsInfo(IVRChaperoneSetup__GetWorkingCollisionBoundsInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8145 };
@@ -421,6 +426,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -448,13 +454,13 @@ protected:
   constexpr IVRChaperoneSetup__GetLiveCollisionBoundsInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__GetLiveCollisionBoundsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLiveCollisionBoundsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsInfo const&) = delete;
+  IVRChaperoneSetup__GetLiveCollisionBoundsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8146 };
@@ -465,6 +471,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -492,13 +499,13 @@ protected:
   constexpr IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose const&) = delete;
+  IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8147 };
@@ -509,6 +516,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -536,13 +544,13 @@ protected:
   constexpr IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose const&) = delete;
+  IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8148 };
@@ -553,6 +561,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -580,13 +589,13 @@ protected:
   constexpr IVRChaperoneSetup__SetWorkingPlayAreaSize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPlayAreaSize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPlayAreaSize", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__SetWorkingPlayAreaSize(IVRChaperoneSetup__SetWorkingPlayAreaSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPlayAreaSize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPlayAreaSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingPlayAreaSize(IVRChaperoneSetup__SetWorkingPlayAreaSize const&) = delete;
+  IVRChaperoneSetup__SetWorkingPlayAreaSize(IVRChaperoneSetup__SetWorkingPlayAreaSizeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8149 };
@@ -597,6 +606,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -624,13 +634,13 @@ protected:
   constexpr IVRChaperoneSetup__SetWorkingCollisionBoundsInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__SetWorkingCollisionBoundsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingCollisionBoundsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsInfo const&) = delete;
+  IVRChaperoneSetup__SetWorkingCollisionBoundsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8150 };
@@ -641,6 +651,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -668,13 +679,13 @@ protected:
   constexpr IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose const&) = delete;
+  IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8151 };
@@ -685,6 +696,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -712,13 +724,13 @@ protected:
   constexpr IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose const&) = delete;
+  IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose(IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8152 };
@@ -729,6 +741,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -756,13 +769,13 @@ protected:
   constexpr IVRChaperoneSetup__ReloadFromDisk();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ReloadFromDisk", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ReloadFromDisk", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__ReloadFromDisk(IVRChaperoneSetup__ReloadFromDisk&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ReloadFromDisk", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ReloadFromDisk", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__ReloadFromDisk(IVRChaperoneSetup__ReloadFromDisk const&) = delete;
+  IVRChaperoneSetup__ReloadFromDisk(IVRChaperoneSetup__ReloadFromDiskconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8153 };
@@ -773,6 +786,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -800,13 +814,13 @@ protected:
   constexpr IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose const&) = delete;
+  IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose(IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPoseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8154 };
@@ -817,6 +831,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -844,13 +859,13 @@ protected:
   constexpr IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo const&) = delete;
+  IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo(IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8155 };
@@ -861,6 +876,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -888,13 +904,13 @@ protected:
   constexpr IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo const&) = delete;
+  IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo(IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8156 };
@@ -905,6 +921,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -932,13 +949,13 @@ protected:
   constexpr IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo(IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo(IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo const&) = delete;
+  IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo(IVRChaperoneSetup__SetWorkingPhysicalBoundsInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8157 };
@@ -949,6 +966,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -976,13 +994,13 @@ protected:
   constexpr IVRChaperoneSetup__GetLivePhysicalBoundsInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLivePhysicalBoundsInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLivePhysicalBoundsInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__GetLivePhysicalBoundsInfo(IVRChaperoneSetup__GetLivePhysicalBoundsInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLivePhysicalBoundsInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__GetLivePhysicalBoundsInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__GetLivePhysicalBoundsInfo(IVRChaperoneSetup__GetLivePhysicalBoundsInfo const&) = delete;
+  IVRChaperoneSetup__GetLivePhysicalBoundsInfo(IVRChaperoneSetup__GetLivePhysicalBoundsInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8158 };
@@ -993,6 +1011,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1020,13 +1039,13 @@ protected:
   constexpr IVRChaperoneSetup__ExportLiveToBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ExportLiveToBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ExportLiveToBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__ExportLiveToBuffer(IVRChaperoneSetup__ExportLiveToBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ExportLiveToBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ExportLiveToBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__ExportLiveToBuffer(IVRChaperoneSetup__ExportLiveToBuffer const&) = delete;
+  IVRChaperoneSetup__ExportLiveToBuffer(IVRChaperoneSetup__ExportLiveToBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8159 };
@@ -1037,6 +1056,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1064,13 +1084,13 @@ protected:
   constexpr IVRChaperoneSetup__ImportFromBufferToWorking();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ImportFromBufferToWorking", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ImportFromBufferToWorking", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRChaperoneSetup__ImportFromBufferToWorking(IVRChaperoneSetup__ImportFromBufferToWorking&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ImportFromBufferToWorking", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperoneSetup__ImportFromBufferToWorking", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRChaperoneSetup__ImportFromBufferToWorking(IVRChaperoneSetup__ImportFromBufferToWorking const&) = delete;
+  IVRChaperoneSetup__ImportFromBufferToWorking(IVRChaperoneSetup__ImportFromBufferToWorkingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8160 };
@@ -1132,26 +1152,26 @@ public:
   // @brief default ctor
   constexpr IVRChaperoneSetup();
 
-  // Ctor Parameters [CppParam { name: "CommitWorkingCopy", ty: "::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy*", modifiers: "", def_value: None }, CppParam { name: "RevertWorkingCopy", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingPlayAreaSize", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingPlayAreaRect", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingCollisionBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetLiveCollisionBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingSeatedZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "GetWorkingStandingZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingPlayAreaSize", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingCollisionBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingSeatedZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingStandingZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "ReloadFromDisk", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk*", modifiers: "", def_value: None }, CppParam { name: "GetLiveSeatedZeroPoseToRawTrackingPose", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingCollisionBoundsTagsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetLiveCollisionBoundsTagsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*", modifiers: "", def_value: None }, CppParam { name: "SetWorkingPhysicalBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "GetLivePhysicalBoundsInfo", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*", modifiers: "", def_value: None }, CppParam { name: "ExportLiveToBuffer", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer*", modifiers: "", def_value: None }, CppParam { name: "ImportFromBufferToWorking", ty:
-  // "::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "CommitWorkingCopy", ty: "::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "RevertWorkingCopy", ty: "::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetWorkingPlayAreaSize", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetWorkingPlayAreaRect", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetWorkingCollisionBoundsInfo", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetLiveCollisionBoundsInfo", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetWorkingSeatedZeroPoseToRawTrackingPose", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetWorkingStandingZeroPoseToRawTrackingPose",
+  // ty: "::OVR::OpenVR::IVRChaperoneSetup__GetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetWorkingPlayAreaSize", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPlayAreaSize*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetWorkingCollisionBoundsInfo", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetWorkingSeatedZeroPoseToRawTrackingPose", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetWorkingStandingZeroPoseToRawTrackingPose",
+  // ty: "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingStandingZeroPoseToRawTrackingPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ReloadFromDisk", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__ReloadFromDisk*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetLiveSeatedZeroPoseToRawTrackingPose", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__GetLiveSeatedZeroPoseToRawTrackingPose*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetWorkingCollisionBoundsTagsInfo", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetLiveCollisionBoundsTagsInfo", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetWorkingPhysicalBoundsInfo", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetLivePhysicalBoundsInfo", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ExportLiveToBuffer", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__ExportLiveToBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ImportFromBufferToWorking", ty:
+  // "::OVR::OpenVR::IVRChaperoneSetup__ImportFromBufferToWorking*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRChaperoneSetup(
       ::OVR::OpenVR::IVRChaperoneSetup__CommitWorkingCopy* CommitWorkingCopy, ::OVR::OpenVR::IVRChaperoneSetup__RevertWorkingCopy* RevertWorkingCopy,
       ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaSize* GetWorkingPlayAreaSize, ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingPlayAreaRect* GetWorkingPlayAreaRect,

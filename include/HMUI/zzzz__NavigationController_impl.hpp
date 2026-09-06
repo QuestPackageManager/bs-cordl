@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\NavigationController.hpp"
+// IWYU pragma private; include "HMUI/NavigationController.hpp"
 #include "HMUI/zzzz__ContainerViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__NavigationController_def.hpp"
@@ -9,7 +9,7 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::NavigationController_Orientation::NavigationController_Orientation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -17,7 +17,7 @@ constexpr ::HMUI::NavigationController_Orientation::NavigationController_Orienta
 constexpr ::HMUI::NavigationController_Orientation::NavigationController_Orientation() {}
 constexpr ::HMUI::NavigationController_Orientation HMUI::NavigationController_Orientation::Horizontal{ static_cast<int32_t>(0x0) };
 constexpr ::HMUI::NavigationController_Orientation HMUI::NavigationController_Orientation::Vertical{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::NavigationController_Alignment::NavigationController_Alignment(int32_t value__) noexcept {
   this->value__ = value__;
 }

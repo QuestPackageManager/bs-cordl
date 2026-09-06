@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\InvokeOnRenderObjectCallbackPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/InvokeOnRenderObjectCallbackPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_def.hpp"
 CORDL_MODULE_EXPORT(InvokeOnRenderObjectCallbackPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph;
@@ -87,13 +89,13 @@ protected:
   constexpr InvokeOnRenderObjectCallbackPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvokeOnRenderObjectCallbackPass_PassData(InvokeOnRenderObjectCallbackPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokeOnRenderObjectCallbackPass_PassData(InvokeOnRenderObjectCallbackPass_PassData const&) = delete;
+  InvokeOnRenderObjectCallbackPass_PassData(InvokeOnRenderObjectCallbackPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12841 };
@@ -114,6 +116,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::InvokeOnRenderObject
 static_assert(sizeof(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -154,13 +157,13 @@ protected:
   constexpr InvokeOnRenderObjectCallbackPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvokeOnRenderObjectCallbackPass___c(InvokeOnRenderObjectCallbackPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokeOnRenderObjectCallbackPass___c(InvokeOnRenderObjectCallbackPass___c const&) = delete;
+  InvokeOnRenderObjectCallbackPass___c(InvokeOnRenderObjectCallbackPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12842 };
@@ -182,6 +185,7 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6886c10, size 0x38, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -200,13 +204,13 @@ protected:
   constexpr InvokeOnRenderObjectCallbackPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvokeOnRenderObjectCallbackPass(InvokeOnRenderObjectCallbackPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeOnRenderObjectCallbackPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokeOnRenderObjectCallbackPass(InvokeOnRenderObjectCallbackPass const&) = delete;
+  InvokeOnRenderObjectCallbackPass(InvokeOnRenderObjectCallbackPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12843 };

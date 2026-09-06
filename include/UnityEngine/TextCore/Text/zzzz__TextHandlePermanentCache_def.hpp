@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextHandlePermanentCache.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextHandlePermanentCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class TextHandlePermanentCache;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Text::TextHandlePermanentCache*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextHandlePermanentCache*, "UnityEngine.TextCore.Text", "TextHandlePermanentCache");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -43,6 +44,7 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextHandlePermanentCache* New_ctor();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method RemoveTextInfoFromCache, addr 0x6c10c8c, size 0x12c, virtual false, abstract: false, final false
   inline void RemoveTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
@@ -67,13 +69,13 @@ protected:
   constexpr TextHandlePermanentCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextHandlePermanentCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextHandlePermanentCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextHandlePermanentCache(TextHandlePermanentCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextHandlePermanentCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextHandlePermanentCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextHandlePermanentCache(TextHandlePermanentCache const&) = delete;
+  TextHandlePermanentCache(TextHandlePermanentCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17274 };

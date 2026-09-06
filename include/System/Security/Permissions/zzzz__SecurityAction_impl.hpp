@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Permissions\SecurityAction.hpp"
+// IWYU pragma private; include "System/Security/Permissions/SecurityAction.hpp"
 #include "System/Security/Permissions/zzzz__SecurityAction_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Security::Permissions::SecurityAction::SecurityAction(int32_t value__) noexcept {
   this->value__ = value__;
 }

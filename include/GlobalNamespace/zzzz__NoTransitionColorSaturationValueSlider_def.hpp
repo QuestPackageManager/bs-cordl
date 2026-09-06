@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoTransitionColorSaturationValueSlider.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoTransitionColorSaturationValueSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,10 +111,12 @@ public:
   /// @brief Method .ctor, addr 0x5a2e334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x5a2de94, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorSaturationOrValueDidChangeEvent(
       ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x5a2df54, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorSaturationOrValueDidChangeEvent(
       ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
@@ -125,29 +127,34 @@ protected:
   constexpr NoTransitionColorSaturationValueSlider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionColorSaturationValueSlider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionColorSaturationValueSlider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoTransitionColorSaturationValueSlider(NoTransitionColorSaturationValueSlider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionColorSaturationValueSlider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoTransitionColorSaturationValueSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoTransitionColorSaturationValueSlider(NoTransitionColorSaturationValueSlider const&) = delete;
+  NoTransitionColorSaturationValueSlider(NoTransitionColorSaturationValueSliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23177 };
 
+  /// [SerializeField]
   /// @brief Field _hue, offset: 0x13c, size: 0x4, def value: None
   float_t ____hue;
 
+  /// [SerializeField]
   /// @brief Field _graphics, offset: 0x140, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>> ____graphics;
 
+  /// [SerializeField]
   /// @brief Field _darkColor, offset: 0x148, size: 0x10, def value: None
   ::UnityEngine::Color ____darkColor;
 
+  /// [SerializeField]
   /// @brief Field _lightColor, offset: 0x158, size: 0x10, def value: None
   ::UnityEngine::Color ____lightColor;
 
+  /// [CompilerGenerated]
   /// @brief Field colorSaturationOrValueDidChangeEvent, offset: 0x168, size: 0x8, def value: None
   ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* ___colorSaturationOrValueDidChangeEvent;
 

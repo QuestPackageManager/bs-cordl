@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Transform.hpp"
+// IWYU pragma private; include "UnityEngine/Transform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,13 +113,13 @@ protected:
   constexpr Transform_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Transform_Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Transform_Enumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Transform_Enumerator(Transform_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Transform_Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Transform_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Transform_Enumerator(Transform_Enumerator const&) = delete;
+  Transform_Enumerator(Transform_Enumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10424 };
@@ -140,6 +140,10 @@ static_assert(offsetof(::UnityEngine::Transform_Enumerator, ___currentIndex) == 
 static_assert(sizeof(::UnityEngine::Transform_Enumerator) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Transform/ScriptBindings/TransformScriptBindings.h")]
+// [NativeHeader("Runtime/Transform/Transform.h")]
+// [RequiredByNativeCode]
+// [NativeHeader("Configuration/UnityConfigure.h")]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -151,12 +155,14 @@ public:
 
   __declspec(property(get = get_childCount)) int32_t childCount;
 
+  /// @brief [NativeConditional("UNITY_EDITOR")]
   __declspec(property(get = get_constrainProportionsScale, put = set_constrainProportionsScale)) bool constrainProportionsScale;
 
   __declspec(property(get = get_eulerAngles, put = set_eulerAngles)) ::UnityEngine::Vector3 eulerAngles;
 
   __declspec(property(get = get_forward, put = set_forward)) ::UnityEngine::Vector3 forward;
 
+  /// @brief [NativeProperty("HasChangedDeprecated")]
   __declspec(property(get = get_hasChanged, put = set_hasChanged)) bool hasChanged;
 
   __declspec(property(get = get_hierarchyCapacity, put = set_hierarchyCapacity)) int32_t hierarchyCapacity;
@@ -187,6 +193,7 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
+  /// @brief [NativeConditional("UNITY_EDITOR")]
   __declspec(property(get = get_rotationOrder, put = set_rotationOrder)) ::UnityEngine::RotationOrder rotationOrder;
 
   __declspec(property(get = get_up, put = set_up)) ::UnityEngine::Vector3 up;
@@ -196,6 +203,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// [FreeFunction("DetachChildren", HasExplicitThis = true)]
   /// @brief Method DetachChildren, addr 0x6af98ac, size 0x78, virtual false, abstract: false, final false
   inline void DetachChildren();
 
@@ -205,18 +213,25 @@ public:
   /// @brief Method Find, addr 0x6afa048, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> Find(::StringW n);
 
+  /// [Obsolete("FindChild has been deprecated. Use Find instead (UnityUpgradable) -> Find([mscorlib] System.String)", false)]
   /// @brief Method FindChild, addr 0x6afa4f8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> FindChild(::StringW n);
 
+  /// [FreeFunction(HasExplicitThis = true)]
   /// @brief Method FindRelativeTransformWithPath, addr 0x6af9d5c, size 0x298, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> FindRelativeTransformWithPath(::StringW path, bool isActiveOnly);
+  inline ::UnityW<::UnityEngine::Transform> FindRelativeTransformWithPath(::StringW path, /* [DefaultValue("false")] */ bool isActiveOnly);
 
   /// @brief Method FindRelativeTransformWithPath_Injected, addr 0x6af9ff4, size 0x54, virtual false, abstract: false, final false
-  static inline ::System::IntPtr FindRelativeTransformWithPath_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path, bool isActiveOnly);
+  static inline ::System::IntPtr FindRelativeTransformWithPath_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path,
+                                                                        /* [DefaultValue("false")] */ bool isActiveOnly);
 
+  /// [NativeThrows]
+  /// [FreeFunction("GetChild", HasExplicitThis = true)]
   /// @brief Method GetChild, addr 0x6afa74c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetChild(int32_t index);
 
+  /// [NativeMethod("GetChildrenCount")]
+  /// [Obsolete("warning use Transform.childCount instead (UnityUpgradable) -> Transform.childCount", false)]
   /// @brief Method GetChildCount, addr 0x6afa8e0, size 0x78, virtual false, abstract: false, final false
   inline int32_t GetChildCount();
 
@@ -259,6 +274,8 @@ public:
   /// @brief Method GetRoot_Injected, addr 0x6af97bc, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetRoot_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("GetRotationOrder")]
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method GetRotationOrderInternal, addr 0x6af6a80, size 0x78, virtual false, abstract: false, final false
   inline int32_t GetRotationOrderInternal();
 
@@ -271,6 +288,7 @@ public:
   /// @brief Method GetSiblingIndex_Injected, addr 0x6af9d20, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetSiblingIndex_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("Internal_LookAt", HasExplicitThis = true)]
   /// @brief Method Internal_LookAt, addr 0x6af7edc, size 0x9c, virtual false, abstract: false, final false
   inline void Internal_LookAt(::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldUp);
 
@@ -292,6 +310,7 @@ public:
   /// @brief Method InverseTransformDirections, addr 0x6af86c0, size 0x80, virtual false, abstract: false, final false
   inline void InverseTransformDirections(::System::Span_1<::UnityEngine::Vector3> directions);
 
+  /// [NativeMethod(Name = "InverseTransformDirections")]
   /// @brief Method InverseTransformDirectionsInternal, addr 0x6af8470, size 0x124, virtual false, abstract: false, final false
   inline void InverseTransformDirectionsInternal(::System::ReadOnlySpan_1<::UnityEngine::Vector3> directions, ::System::Span_1<::UnityEngine::Vector3> transformedDirections);
 
@@ -314,6 +333,7 @@ public:
   /// @brief Method InverseTransformPoints, addr 0x6af95f0, size 0x80, virtual false, abstract: false, final false
   inline void InverseTransformPoints(::System::Span_1<::UnityEngine::Vector3> positions);
 
+  /// [NativeMethod(Name = "InverseTransformPoints")]
   /// @brief Method InverseTransformPointsInternal, addr 0x6af93a0, size 0x124, virtual false, abstract: false, final false
   inline void InverseTransformPointsInternal(::System::ReadOnlySpan_1<::UnityEngine::Vector3> positions, ::System::Span_1<::UnityEngine::Vector3> transformedPositions);
 
@@ -336,6 +356,7 @@ public:
   /// @brief Method InverseTransformVectors, addr 0x6af8e58, size 0x80, virtual false, abstract: false, final false
   inline void InverseTransformVectors(::System::Span_1<::UnityEngine::Vector3> vectors);
 
+  /// [NativeMethod(Name = "InverseTransformVectors")]
   /// @brief Method InverseTransformVectorsInternal, addr 0x6af8c08, size 0x124, virtual false, abstract: false, final false
   inline void InverseTransformVectorsInternal(::System::ReadOnlySpan_1<::UnityEngine::Vector3> vectors, ::System::Span_1<::UnityEngine::Vector3> transformedVectors);
 
@@ -343,18 +364,22 @@ public:
   static inline void InverseTransformVectorsInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> vectors,
                                                               ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> transformedVectors);
 
+  /// [FreeFunction("Internal_IsChildOrSameTransform", HasExplicitThis = true)]
   /// @brief Method IsChildOf, addr 0x6afa230, size 0xb4, virtual false, abstract: false, final false
-  inline bool IsChildOf(::UnityEngine::Transform* parent);
+  inline bool IsChildOf(/* [NotNull] */ ::UnityEngine::Transform* parent);
 
   /// @brief Method IsChildOf_Injected, addr 0x6afa334, size 0x44, virtual false, abstract: false, final false
   static inline bool IsChildOf_Injected(::System::IntPtr _unity_self, ::System::IntPtr parent);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method IsConstrainProportionsScale, addr 0x6afac8c, size 0x78, virtual false, abstract: false, final false
   inline bool IsConstrainProportionsScale();
 
   /// @brief Method IsConstrainProportionsScale_Injected, addr 0x6afadd4, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsConstrainProportionsScale_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("IsNonUniformScaleTransform", HasExplicitThis = true)]
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method IsNonUniformScaleTransform, addr 0x6afabd4, size 0x78, virtual false, abstract: false, final false
   inline bool IsNonUniformScaleTransform();
 
@@ -365,14 +390,15 @@ public:
   inline void LookAt(::UnityEngine::Transform* target);
 
   /// @brief Method LookAt, addr 0x6af7d14, size 0xc4, virtual false, abstract: false, final false
-  inline void LookAt(::UnityEngine::Transform* target, ::UnityEngine::Vector3 worldUp);
+  inline void LookAt(::UnityEngine::Transform* target, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 worldUp);
 
   /// @brief Method LookAt, addr 0x6af7f78, size 0x80, virtual false, abstract: false, final false
   inline void LookAt(::UnityEngine::Vector3 worldPosition);
 
   /// @brief Method LookAt, addr 0x6af7dd8, size 0x4, virtual false, abstract: false, final false
-  inline void LookAt(::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldUp);
+  inline void LookAt(::UnityEngine::Vector3 worldPosition, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 worldUp);
 
+  /// [NativeMethod("MoveAfterSiblingInternal")]
   /// @brief Method MoveAfterSibling, addr 0x6af9b94, size 0xc0, virtual false, abstract: false, final false
   inline void MoveAfterSibling(::UnityEngine::Transform* transform, bool notifyEditorAndMarkDirty);
 
@@ -385,32 +411,35 @@ public:
   inline void Rotate(::UnityEngine::Vector3 axis, float_t angle);
 
   /// @brief Method Rotate, addr 0x6af7bbc, size 0x8c, virtual false, abstract: false, final false
-  inline void Rotate(::UnityEngine::Vector3 axis, float_t angle, ::UnityEngine::Space relativeTo);
+  inline void Rotate(::UnityEngine::Vector3 axis, float_t angle, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo);
 
   /// @brief Method Rotate, addr 0x6af7ab4, size 0x8, virtual false, abstract: false, final false
   inline void Rotate(::UnityEngine::Vector3 eulers);
 
   /// @brief Method Rotate, addr 0x6af782c, size 0x288, virtual false, abstract: false, final false
-  inline void Rotate(::UnityEngine::Vector3 eulers, ::UnityEngine::Space relativeTo);
+  inline void Rotate(::UnityEngine::Vector3 eulers, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo);
 
   /// @brief Method Rotate, addr 0x6af7ac0, size 0x8, virtual false, abstract: false, final false
   inline void Rotate(float_t xAngle, float_t yAngle, float_t zAngle);
 
   /// @brief Method Rotate, addr 0x6af7abc, size 0x4, virtual false, abstract: false, final false
-  inline void Rotate(float_t xAngle, float_t yAngle, float_t zAngle, ::UnityEngine::Space relativeTo);
+  inline void Rotate(float_t xAngle, float_t yAngle, float_t zAngle, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo);
 
+  /// [Obsolete("warning use Transform.Rotate instead.")]
   /// @brief Method RotateAround, addr 0x6afa564, size 0xa0, virtual false, abstract: false, final false
   inline void RotateAround(::UnityEngine::Vector3 axis, float_t angle);
 
   /// @brief Method RotateAround, addr 0x6af7c50, size 0xc4, virtual false, abstract: false, final false
   inline void RotateAround(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 axis, float_t angle);
 
+  /// [NativeMethod("RotateAround")]
   /// @brief Method RotateAroundInternal, addr 0x6af7ac8, size 0xa0, virtual false, abstract: false, final false
   inline void RotateAroundInternal(::UnityEngine::Vector3 axis, float_t angle);
 
   /// @brief Method RotateAroundInternal_Injected, addr 0x6af7b68, size 0x54, virtual false, abstract: false, final false
   static inline void RotateAroundInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> axis, float_t angle);
 
+  /// [Obsolete("warning use Transform.Rotate instead.")]
   /// @brief Method RotateAroundLocal, addr 0x6afa658, size 0xa0, virtual false, abstract: false, final false
   inline void RotateAroundLocal(::UnityEngine::Vector3 axis, float_t angle);
 
@@ -420,6 +449,7 @@ public:
   /// @brief Method RotateAround_Injected, addr 0x6afa604, size 0x54, virtual false, abstract: false, final false
   static inline void RotateAround_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> axis, float_t angle);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method SendTransformChangedScale, addr 0x6afa0a0, size 0x78, virtual false, abstract: false, final false
   inline void SendTransformChangedScale();
 
@@ -438,6 +468,7 @@ public:
   /// @brief Method SetAsLastSibling_Injected, addr 0x6af9a8c, size 0x3c, virtual false, abstract: false, final false
   static inline void SetAsLastSibling_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method SetConstrainProportionsScale, addr 0x6afad08, size 0x88, virtual false, abstract: false, final false
   inline void SetConstrainProportionsScale(bool isLinked);
 
@@ -450,6 +481,7 @@ public:
   /// @brief Method SetLocalEulerAngles_Injected, addr 0x6af6278, size 0x54, virtual false, abstract: false, final false
   static inline void SetLocalEulerAngles_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> euler, ::UnityEngine::RotationOrder order);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method SetLocalEulerHint, addr 0x6af62cc, size 0x90, virtual false, abstract: false, final false
   inline void SetLocalEulerHint(::UnityEngine::Vector3 euler);
 
@@ -465,6 +497,7 @@ public:
   /// @brief Method SetParent, addr 0x6af6fc8, size 0x8, virtual false, abstract: false, final false
   inline void SetParent(::UnityEngine::Transform* p);
 
+  /// [FreeFunction("SetParent", HasExplicitThis = true)]
   /// @brief Method SetParent, addr 0x6af700c, size 0xc0, virtual false, abstract: false, final false
   inline void SetParent(::UnityEngine::Transform* parent, bool worldPositionStays);
 
@@ -477,6 +510,8 @@ public:
   /// @brief Method SetPositionAndRotation_Injected, addr 0x6af72f4, size 0x54, virtual false, abstract: false, final false
   static inline void SetPositionAndRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation);
 
+  /// [NativeMethod("SetRotationOrder")]
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method SetRotationOrderInternal, addr 0x6af6afc, size 0x88, virtual false, abstract: false, final false
   inline void SetRotationOrderInternal(::UnityEngine::RotationOrder rotationOrder);
 
@@ -504,6 +539,7 @@ public:
   /// @brief Method TransformDirections, addr 0x6af82f4, size 0x80, virtual false, abstract: false, final false
   inline void TransformDirections(::System::Span_1<::UnityEngine::Vector3> directions);
 
+  /// [NativeMethod(Name = "TransformDirections")]
   /// @brief Method TransformDirectionsInternal, addr 0x6af80a4, size 0x124, virtual false, abstract: false, final false
   inline void TransformDirectionsInternal(::System::ReadOnlySpan_1<::UnityEngine::Vector3> directions, ::System::Span_1<::UnityEngine::Vector3> transformedDirections);
 
@@ -526,6 +562,7 @@ public:
   /// @brief Method TransformPoints, addr 0x6af9224, size 0x80, virtual false, abstract: false, final false
   inline void TransformPoints(::System::Span_1<::UnityEngine::Vector3> positions);
 
+  /// [NativeMethod(Name = "TransformPoints")]
   /// @brief Method TransformPointsInternal, addr 0x6af8fd4, size 0x124, virtual false, abstract: false, final false
   inline void TransformPointsInternal(::System::ReadOnlySpan_1<::UnityEngine::Vector3> positions, ::System::Span_1<::UnityEngine::Vector3> transformedPositions);
 
@@ -548,6 +585,7 @@ public:
   /// @brief Method TransformVectors, addr 0x6af8a8c, size 0x80, virtual false, abstract: false, final false
   inline void TransformVectors(::System::Span_1<::UnityEngine::Vector3> vectors);
 
+  /// [NativeMethod(Name = "TransformVectors")]
   /// @brief Method TransformVectorsInternal, addr 0x6af883c, size 0x124, virtual false, abstract: false, final false
   inline void TransformVectorsInternal(::System::ReadOnlySpan_1<::UnityEngine::Vector3> vectors, ::System::Span_1<::UnityEngine::Vector3> transformedVectors);
 
@@ -559,7 +597,7 @@ public:
   inline void Translate(::UnityEngine::Vector3 translation);
 
   /// @brief Method Translate, addr 0x6af7600, size 0x88, virtual false, abstract: false, final false
-  inline void Translate(::UnityEngine::Vector3 translation, ::UnityEngine::Space relativeTo);
+  inline void Translate(::UnityEngine::Vector3 translation, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo);
 
   /// @brief Method Translate, addr 0x6af7740, size 0xe8, virtual false, abstract: false, final false
   inline void Translate(::UnityEngine::Vector3 translation, ::UnityEngine::Transform* relativeTo);
@@ -568,7 +606,7 @@ public:
   inline void Translate(float_t x, float_t y, float_t z);
 
   /// @brief Method Translate, addr 0x6af7734, size 0x4, virtual false, abstract: false, final false
-  inline void Translate(float_t x, float_t y, float_t z, ::UnityEngine::Space relativeTo);
+  inline void Translate(float_t x, float_t y, float_t z, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo);
 
   /// @brief Method Translate, addr 0x6af7828, size 0x4, virtual false, abstract: false, final false
   inline void Translate(float_t x, float_t y, float_t z, ::UnityEngine::Transform* relativeTo);
@@ -576,6 +614,7 @@ public:
   /// @brief Method .ctor, addr 0x6af5e0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NativeMethod("GetChildrenCount")]
   /// @brief Method get_childCount, addr 0x6af97f8, size 0x78, virtual false, abstract: false, final false
   inline int32_t get_childCount();
 
@@ -630,6 +669,7 @@ public:
   /// @brief Method get_localToWorldMatrix_Injected, addr 0x6af7214, size 0x44, virtual false, abstract: false, final false
   static inline void get_localToWorldMatrix_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
+  /// [NativeMethod("GetWorldScaleLossy")]
   /// @brief Method get_lossyScale, addr 0x6afa154, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_lossyScale();
 
@@ -675,18 +715,21 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
+  /// [FreeFunction("GetHierarchyCapacity", HasExplicitThis = true)]
   /// @brief Method internal_getHierarchyCapacity, addr 0x6afa998, size 0x78, virtual false, abstract: false, final false
   inline int32_t internal_getHierarchyCapacity();
 
   /// @brief Method internal_getHierarchyCapacity_Injected, addr 0x6afaa9c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t internal_getHierarchyCapacity_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("GetHierarchyCount", HasExplicitThis = true)]
   /// @brief Method internal_getHierarchyCount, addr 0x6afab20, size 0x78, virtual false, abstract: false, final false
   inline int32_t internal_getHierarchyCount();
 
   /// @brief Method internal_getHierarchyCount_Injected, addr 0x6afab98, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t internal_getHierarchyCount_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("SetHierarchyCapacity", HasExplicitThis = true)]
   /// @brief Method internal_setHierarchyCapacity, addr 0x6afaa14, size 0x88, virtual false, abstract: false, final false
   inline void internal_setHierarchyCapacity(int32_t value);
 
@@ -765,13 +808,13 @@ protected:
   constexpr Transform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Transform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Transform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Transform(Transform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Transform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Transform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Transform(Transform const&) = delete;
+  Transform(Transformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10425 };

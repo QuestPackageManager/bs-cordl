@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSpaceUser.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSpaceUser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ public:
   /// @brief Method TryCreate, addr 0x5ed3254, size 0x70, virtual false, abstract: false, final false
   static inline bool TryCreate(uint64_t platformUserId, ::by_ref<::GlobalNamespace::OVRSpaceUser> spaceUser);
 
+  /// [Obsolete("Constructor ignores validation. Use TryCreate(*) methods instead.", false)]
   /// @brief Method .ctor, addr 0x5ed33c0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t spaceUserId);
 
@@ -56,7 +57,7 @@ public:
   // @brief default ctor
   constexpr OVRSpaceUser();
 
-  // Ctor Parameters [CppParam { name: "_handle", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_handle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpaceUser(uint64_t _handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

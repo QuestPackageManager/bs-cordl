@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SettingsApplicatorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/SettingsApplicatorSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
 #include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"
@@ -244,17 +244,17 @@ inline void GlobalNamespace::SettingsApplicatorSO::remove_roomTransformOffsetDid
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), { "remove_roomTransformOffsetDidUpdateEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings(::by_ref<::BeatSaber::Settings::Settings> settings) {
+inline void GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), { "ApplyGameSettings", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings);
 }
-inline void GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType) {
+inline void GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings, sceneType);
 }
-inline void GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings(::by_ref<::BeatSaber::Settings::WindowSettings> settings) {
+inline void GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings> settings) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SettingsApplicatorSO*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, settings);
 }

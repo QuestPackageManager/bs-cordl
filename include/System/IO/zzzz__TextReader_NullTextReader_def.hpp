@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\TextReader_NullTextReader.hpp"
+// IWYU pragma private; include "System/IO/TextReader_NullTextReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ protected:
   constexpr TextReader_NullTextReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader_NullTextReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextReader_NullTextReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextReader_NullTextReader(TextReader_NullTextReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader_NullTextReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextReader_NullTextReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextReader_NullTextReader(TextReader_NullTextReader const&) = delete;
+  TextReader_NullTextReader(TextReader_NullTextReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3864 };

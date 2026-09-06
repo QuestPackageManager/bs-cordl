@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ServerCodeView.hpp"
+// IWYU pragma private; include "GlobalNamespace/ServerCodeView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerCodeView_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"

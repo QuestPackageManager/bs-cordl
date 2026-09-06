@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SupportedRenderingFeatures.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SupportedRenderingFeatures.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LightmapBakeType_impl.hpp"
 #include "UnityEngine/zzzz__LightmapsMode_impl.hpp"
@@ -9,7 +9,7 @@
 #include "UnityEngine/zzzz__LightmapBakeType_def.hpp"
 #include "UnityEngine/zzzz__LightmapsMode_def.hpp"
 #include "UnityEngine/zzzz__MixedLightingMode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes::SupportedRenderingFeatures_ReflectionProbeModes(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -17,7 +17,7 @@ constexpr ::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeMo
 constexpr ::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes::SupportedRenderingFeatures_ReflectionProbeModes() {}
 constexpr ::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes::Rotation{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes::SupportedRenderingFeatures_LightmapMixedBakeModes(int32_t value__) noexcept {
   this->value__ = value__;
 }

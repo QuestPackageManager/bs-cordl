@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MenuRpcManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MenuRpcManager.hpp"
 #include "GlobalNamespace/zzzz__CannotStartGameReason_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerGameState_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_1_impl.hpp"
@@ -29,7 +29,7 @@
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MenuRpcManager_RpcType::MenuRpcManager_RpcType(uint8_t value__) noexcept {
   this->value__ = value__;
 }

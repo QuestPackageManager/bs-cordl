@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonDictionaryContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonDictionaryContract.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonDictionaryContract_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
@@ -399,7 +399,7 @@ inline ::System::Func_2<::StringW, ::StringW>* Newtonsoft::Json::Serialization::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>(), { "get_DictionaryKeyResolver", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Func_2<::StringW, ::StringW>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::JsonDictionaryContract::set_DictionaryKeyResolver(::System::Func_2<::StringW, ::StringW>* value) {
+inline void Newtonsoft::Json::Serialization::JsonDictionaryContract::set_DictionaryKeyResolver(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Func_2<::StringW, ::StringW>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>(),
                                                                                          { "set_DictionaryKeyResolver", {}, { ::i2c::type_of<::System::Func_2<::StringW, ::StringW>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
@@ -439,7 +439,8 @@ inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>(), { "get_OverrideCreator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::JsonDictionaryContract::set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value) {
+inline void
+Newtonsoft::Json::Serialization::JsonDictionaryContract::set_OverrideCreator(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>(),
                                                            { "set_OverrideCreator", {}, { ::i2c::type_of<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>() } })));
@@ -475,6 +476,7 @@ inline ::System::Collections::IDictionary* Newtonsoft::Json::Serialization::Json
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>(), { "CreateTemporaryDictionary", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*>(this, ___internal_method);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Serialization::JsonDictionaryContract* Newtonsoft::Json::Serialization::JsonDictionaryContract::New_ctor(::System::Type* underlyingType) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>(underlyingType));
 }

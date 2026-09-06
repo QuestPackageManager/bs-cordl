@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\RC2CryptoServiceProvider.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/RC2CryptoServiceProvider.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RC2_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RC2CryptoServiceProvider_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ValueTuple_3.hpp"
+// IWYU pragma private; include "System/ValueTuple_3.hpp"
 #include "System/zzzz__ValueTuple_3_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
@@ -144,8 +144,8 @@ template <typename T1, typename T2, typename T3> constexpr System::ValueTuple_3<
 template <typename T1, typename T2, typename T3> constexpr ::System::Runtime::CompilerServices::ITuple* System::ValueTuple_3<T1, T2, T3>::i___System__Runtime__CompilerServices__ITuple() {
   return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: Some("{}") }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: Some("{}") }, CppParam { name: "Item3",
-// ty: "T3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "Item3", ty: "T3", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T1, typename T2, typename T3> constexpr ::System::ValueTuple_3<T1, T2, T3>::ValueTuple_3(T1 Item1, T2 Item2, T3 Item3) noexcept {
   this->Item1 = Item1;
   this->Item2 = Item2;

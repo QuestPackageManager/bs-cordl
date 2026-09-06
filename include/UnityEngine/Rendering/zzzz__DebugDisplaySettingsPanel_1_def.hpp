@@ -1,21 +1,25 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplaySettingsPanel_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplaySettingsPanel_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__DebugDisplaySettingsPanel_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsData_def.hpp"
 CORDL_MODULE_EXPORT(DebugDisplaySettingsPanel_1)
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T> class DebugDisplaySettingsPanel_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettingsData*>)
+class DebugDisplaySettingsPanel_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DebugDisplaySettingsPanel_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::DebugDisplaySettingsPanel_1, "UnityEngine.Rendering", "DebugDisplaySettingsPanel`1");
-// Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel
+// Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel, UnityEngine.Rendering.IDebugDisplaySettingsData
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IDebugDisplaySettingsData*>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DebugDisplaySettingsPanel`1<T>
 class CORDL_TYPE DebugDisplaySettingsPanel_1 : public ::UnityEngine::Rendering::DebugDisplaySettingsPanel {
@@ -49,13 +53,13 @@ protected:
   constexpr DebugDisplaySettingsPanel_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsPanel_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsPanel_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsPanel_1(DebugDisplaySettingsPanel_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsPanel_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsPanel_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsPanel_1(DebugDisplaySettingsPanel_1 const&) = delete;
+  DebugDisplaySettingsPanel_1(DebugDisplaySettingsPanel_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11952 };

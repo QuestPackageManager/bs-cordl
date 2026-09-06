@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Ocsp\CertificateID.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Ocsp/CertificateID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,13 +101,13 @@ protected:
   constexpr CertificateID();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateID", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateID", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateID(CertificateID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateID", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateID(CertificateID const&) = delete;
+  CertificateID(CertificateIDconst&) = delete;
 
   /// @brief Field HashSha1 offset 0xffffffff size 0x8
   static constexpr ::ConstString HashSha1{ u"1.3.14.3.2.26" };

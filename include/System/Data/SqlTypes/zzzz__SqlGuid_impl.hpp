@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlGuid.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlGuid.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlGuid_def.hpp"
 #include "System/Data/SqlTypes/zzzz__EComparison_def.hpp"
 #include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
@@ -388,7 +388,7 @@ constexpr System::Data::SqlTypes::SqlGuid::operator ::System::Xml::Serialization
 constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlGuid::i___System__Xml__Serialization__IXmlSerializable() {
   return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::SqlTypes::SqlGuid::SqlGuid(::ArrayW<uint8_t> m_value) noexcept {
   this->m_value = m_value;
 }

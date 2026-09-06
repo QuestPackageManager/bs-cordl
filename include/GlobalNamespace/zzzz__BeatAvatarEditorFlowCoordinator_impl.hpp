@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatAvatarEditorFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatAvatarEditorFlowCoordinator.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPart_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

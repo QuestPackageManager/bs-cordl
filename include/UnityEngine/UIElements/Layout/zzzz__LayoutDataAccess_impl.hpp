@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutDataAccess.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutDataAccess.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutDataStore_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutDataAccess_def.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutBaselineFunction_def.hpp"
@@ -187,6 +187,7 @@ inline void UnityEngine::UIElements::Layout::LayoutDataAccess::_ctor(int32_t man
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, manager, nodes, configs);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::by_ref<T> UnityEngine::UIElements::Layout::LayoutDataAccess::GetTypedNodeDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle,
                                                                                           ::UnityEngine::UIElements::Layout::LayoutNodeDataType type) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -198,6 +199,7 @@ inline ::by_ref<T> UnityEngine::UIElements::Layout::LayoutDataAccess::GetTypedNo
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method, handle, type);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::by_ref<T> UnityEngine::UIElements::Layout::LayoutDataAccess::GetTypedConfigDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle,
                                                                                             ::UnityEngine::UIElements::Layout::LayoutConfigDataType type) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -258,8 +260,9 @@ inline ::UnityEngine::UIElements::Layout::LayoutBaselineFunction* UnityEngine::U
                                                                                          { "GetBaselineFunction", {}, { ::i2c::type_of<::UnityEngine::UIElements::Layout::LayoutHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutBaselineFunction*>(*this, ___internal_method, handle);
 }
-// Ctor Parameters [CppParam { name: "m_Manager", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Nodes", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Configs", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Manager", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Nodes", ty:
+// "::UnityEngine::UIElements::Layout::LayoutDataStore", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Configs", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutDataAccess::LayoutDataAccess(int32_t m_Manager, ::UnityEngine::UIElements::Layout::LayoutDataStore m_Nodes,
                                                                                 ::UnityEngine::UIElements::Layout::LayoutDataStore m_Configs) noexcept {
   this->m_Manager = m_Manager;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBufferGrower.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBufferGrower.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -135,13 +135,13 @@ protected:
   constexpr GPUInstanceDataBufferGrower_CopyInstancesKernelIDs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBufferGrower_CopyInstancesKernelIDs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBufferGrower_CopyInstancesKernelIDs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUInstanceDataBufferGrower_CopyInstancesKernelIDs(GPUInstanceDataBufferGrower_CopyInstancesKernelIDs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBufferGrower_CopyInstancesKernelIDs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUInstanceDataBufferGrower_CopyInstancesKernelIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUInstanceDataBufferGrower_CopyInstancesKernelIDs(GPUInstanceDataBufferGrower_CopyInstancesKernelIDs const&) = delete;
+  GPUInstanceDataBufferGrower_CopyInstancesKernelIDs(GPUInstanceDataBufferGrower_CopyInstancesKernelIDsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17686 };
@@ -178,8 +178,8 @@ public:
   // @brief default ctor
   constexpr GPUInstanceDataBufferGrower_GPUResources();
 
-  // Ctor Parameters [CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None }, CppParam { name: "kernelId", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "kernelId", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr GPUInstanceDataBufferGrower_GPUResources(::UnityW<::UnityEngine::ComputeShader> cs, int32_t kernelId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -225,7 +225,7 @@ public:
   inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* SubmitToGpu(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources> gpuResources);
 
   /// @brief Method .ctor, addr 0x682286c, size 0x18c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::GPUInstanceDataBuffer* sourceBuffer, ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
+  inline void _ctor(::UnityEngine::Rendering::GPUInstanceDataBuffer* sourceBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
@@ -234,8 +234,8 @@ public:
   // @brief default ctor
   constexpr GPUInstanceDataBufferGrower();
 
-  // Ctor Parameters [CppParam { name: "m_SrcBuffer", ty: "::UnityEngine::Rendering::GPUInstanceDataBuffer*", modifiers: "", def_value: None }, CppParam { name: "m_DstBuffer", ty:
-  // "::UnityEngine::Rendering::GPUInstanceDataBuffer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_SrcBuffer", ty: "::UnityEngine::Rendering::GPUInstanceDataBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DstBuffer", ty:
+  // "::UnityEngine::Rendering::GPUInstanceDataBuffer*", modifiers: "", def_value: None, comment: None }]
   constexpr GPUInstanceDataBufferGrower(::UnityEngine::Rendering::GPUInstanceDataBuffer* m_SrcBuffer, ::UnityEngine::Rendering::GPUInstanceDataBuffer* m_DstBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

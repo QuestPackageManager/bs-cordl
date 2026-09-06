@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\CollectionParser.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/CollectionParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ public:
   // Declarations
   /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>* parser, ::by_ref<::System::Collections::Generic::List_1<T>*> result);
 
   /// @brief Method TryParse, addr 0x60e4dd0, size 0xb4, virtual false, abstract: false, final false
@@ -49,13 +50,13 @@ protected:
   constexpr CollectionParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionParser(CollectionParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionParser(CollectionParser const&) = delete;
+  CollectionParser(CollectionParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20297 };

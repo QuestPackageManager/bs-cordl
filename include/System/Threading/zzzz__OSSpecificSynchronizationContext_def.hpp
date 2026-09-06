@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\OSSpecificSynchronizationContext.hpp"
+// IWYU pragma private; include "System/Threading/OSSpecificSynchronizationContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,10 +8,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OSSpecificSynchronizationContext)
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2_CreateValueCallback;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2_CreateValueCallback;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2;
 }
 namespace System::Threading {
 class OSSpecificSynchronizationContext_InvocationContext;
@@ -77,13 +81,13 @@ protected:
   constexpr OSSpecificSynchronizationContext_InvocationEntryDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationEntryDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationEntryDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OSSpecificSynchronizationContext_InvocationEntryDelegate(OSSpecificSynchronizationContext_InvocationEntryDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationEntryDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationEntryDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OSSpecificSynchronizationContext_InvocationEntryDelegate(OSSpecificSynchronizationContext_InvocationEntryDelegate const&) = delete;
+  OSSpecificSynchronizationContext_InvocationEntryDelegate(OSSpecificSynchronizationContext_InvocationEntryDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2731 };
@@ -133,13 +137,13 @@ protected:
   constexpr OSSpecificSynchronizationContext_InvocationContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OSSpecificSynchronizationContext_InvocationContext(OSSpecificSynchronizationContext_InvocationContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext_InvocationContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OSSpecificSynchronizationContext_InvocationContext(OSSpecificSynchronizationContext_InvocationContext const&) = delete;
+  OSSpecificSynchronizationContext_InvocationContext(OSSpecificSynchronizationContext_InvocationContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2732 };
@@ -160,6 +164,7 @@ static_assert(offsetof(::System::Threading::OSSpecificSynchronizationContext_Inv
 static_assert(sizeof(::System::Threading::OSSpecificSynchronizationContext_InvocationContext) == 0x20, "Size mismatch!");
 
 } // namespace System::Threading
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
@@ -198,13 +203,13 @@ protected:
   constexpr OSSpecificSynchronizationContext___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OSSpecificSynchronizationContext___c(OSSpecificSynchronizationContext___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OSSpecificSynchronizationContext___c(OSSpecificSynchronizationContext___c const&) = delete;
+  OSSpecificSynchronizationContext___c(OSSpecificSynchronizationContext___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2733 };
@@ -245,6 +250,7 @@ public:
   /// @brief Method GetOSContext, addr 0x5cb2460, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* GetOSContext();
 
+  /// [MonoPInvokeCallback(typeof(System.Threading.OSSpecificSynchronizationContext::InvocationEntryDelegate))]
   /// @brief Method InvocationEntry, addr 0x5cb227c, size 0x1dc, virtual false, abstract: false, final false
   static inline void InvocationEntry(::System::IntPtr arg);
 
@@ -278,13 +284,13 @@ protected:
   constexpr OSSpecificSynchronizationContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OSSpecificSynchronizationContext(OSSpecificSynchronizationContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OSSpecificSynchronizationContext(OSSpecificSynchronizationContext const&) = delete;
+  OSSpecificSynchronizationContext(OSSpecificSynchronizationContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2734 };

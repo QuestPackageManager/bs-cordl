@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Interop\UnsafeNativeMethods.hpp"
+// IWYU pragma private; include "System/Runtime/Interop/UnsafeNativeMethods.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Interop/zzzz__UnsafeNativeMethods_def.hpp"
@@ -38,8 +38,8 @@ constexpr int32_t const& System::Runtime::Interop::UnsafeNativeMethods_EventData
 constexpr void System::Runtime::Interop::UnsafeNativeMethods_EventData::__cordl_internal_set_Reserved(int32_t value) {
   this->___Reserved = value;
 }
-// Ctor Parameters [CppParam { name: "DataPointer", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Size", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Reserved", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "DataPointer", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Reserved", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Interop::UnsafeNativeMethods_EventData::UnsafeNativeMethods_EventData(uint64_t DataPointer, uint32_t Size, int32_t Reserved) noexcept {
   this->DataPointer = DataPointer;
   this->Size = Size;

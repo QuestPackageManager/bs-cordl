@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConventionBindInfo.hpp"
+// IWYU pragma private; include "Zenject/ConventionBindInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ MARK_REF_T(::Zenject::ConventionBindInfo___c__DisplayClass8_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionBindInfo*, "Zenject", "ConventionBindInfo");
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionBindInfo___c__DisplayClass7_0*, "Zenject", "ConventionBindInfo/<>c__DisplayClass7_0");
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionBindInfo___c__DisplayClass8_0*, "Zenject", "ConventionBindInfo/<>c__DisplayClass8_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -77,6 +78,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e4c6ec, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4c730, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -89,13 +91,13 @@ protected:
   constexpr ConventionBindInfo___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConventionBindInfo___c__DisplayClass7_0(ConventionBindInfo___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionBindInfo___c__DisplayClass7_0(ConventionBindInfo___c__DisplayClass7_0 const&) = delete;
+  ConventionBindInfo___c__DisplayClass7_0(ConventionBindInfo___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14038 };
@@ -111,6 +113,7 @@ static_assert(offsetof(::Zenject::ConventionBindInfo___c__DisplayClass7_0, ___as
 static_assert(sizeof(::Zenject::ConventionBindInfo___c__DisplayClass7_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -135,6 +138,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e4c8e8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4c92c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -147,13 +151,13 @@ protected:
   constexpr ConventionBindInfo___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConventionBindInfo___c__DisplayClass8_0(ConventionBindInfo___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionBindInfo___c__DisplayClass8_0(ConventionBindInfo___c__DisplayClass8_0 const&) = delete;
+  ConventionBindInfo___c__DisplayClass8_0(ConventionBindInfo___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14039 };
@@ -169,6 +173,7 @@ static_assert(offsetof(::Zenject::ConventionBindInfo___c__DisplayClass8_0, ___ty
 static_assert(sizeof(::Zenject::ConventionBindInfo___c__DisplayClass8_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -205,6 +210,7 @@ public:
 
   static inline ::Zenject::ConventionBindInfo* New_ctor();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e4c198, size 0xc4, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -217,6 +223,7 @@ public:
   /// @brief Method ShouldIncludeType, addr 0x6e4c40c, size 0xdc, virtual false, abstract: false, final false
   inline bool ShouldIncludeType(::System::Type* type);
 
+  /// [CompilerGenerated]
   /// @brief Method <ResolveTypes>b__10_0, addr 0x6e4c6c4, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* _ResolveTypes_b__10_0(::System::Reflection::Assembly* assembly);
 
@@ -245,13 +252,13 @@ protected:
   constexpr ConventionBindInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConventionBindInfo(ConventionBindInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionBindInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionBindInfo(ConventionBindInfo const&) = delete;
+  ConventionBindInfo(ConventionBindInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14040 };

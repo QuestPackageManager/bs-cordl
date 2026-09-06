@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlayer.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerActiveHand_impl.hpp"

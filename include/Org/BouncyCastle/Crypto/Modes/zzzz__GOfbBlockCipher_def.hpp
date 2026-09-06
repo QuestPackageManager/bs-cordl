@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\GOfbBlockCipher.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/GOfbBlockCipher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -148,13 +148,13 @@ protected:
   constexpr GOfbBlockCipher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GOfbBlockCipher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GOfbBlockCipher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GOfbBlockCipher(GOfbBlockCipher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GOfbBlockCipher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GOfbBlockCipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GOfbBlockCipher(GOfbBlockCipher const&) = delete;
+  GOfbBlockCipher(GOfbBlockCipherconst&) = delete;
 
   /// @brief Field C1 offset 0xffffffff size 0x4
   static constexpr int32_t C1{ static_cast<int32_t>(0x1010104) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Endo\GlvTypeBParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/GlvTypeBParameters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeBParameters_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__ScalarSplitParameters_def.hpp"
@@ -253,6 +253,7 @@ inline int32_t Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Bits()
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
+/// @brief [Obsolete("Use constructor taking a ScalarSplitParameters instead")]
 inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*
 Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v1, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v2,

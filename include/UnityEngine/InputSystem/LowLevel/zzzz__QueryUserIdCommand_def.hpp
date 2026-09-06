@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\QueryUserIdCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryUserIdCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand, "UnityEngine.InputSystem.LowLevel", "QueryUserIdCommand");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "QueryUserIdCommand/<idBuffer>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -41,7 +43,7 @@ public:
   // @brief default ctor
   constexpr QueryUserIdCommand__idBuffer_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr QueryUserIdCommand__idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -117,8 +119,8 @@ public:
   // @brief default ctor
   constexpr QueryUserIdCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "idBuffer", ty:
-  // "::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name: "idBuffer", ty:
+  // "::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr QueryUserIdCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand,
                                ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer idBuffer) noexcept;
 
@@ -143,6 +145,7 @@ private:
     struct {
       /// @brief Padding field 0x8
       uint8_t ___idBuffer_padding[0x8];
+      /// [FixedBuffer(typeof(System.Byte), 512)]
       /// @brief Field idBuffer, offset: 0x8, size: 0x200, def value: None
       ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer ___idBuffer;
     };
@@ -150,6 +153,7 @@ private:
     struct {
       /// @brief Padding field 0x8 for alignment
       uint8_t ___idBuffer_padding_forAlignment[0x8];
+      /// [FixedBuffer(typeof(System.Byte), 512)]
       /// @brief Field idBuffer, offset: 0x8, size: 0x200, def value: None
       ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer ___idBuffer_forAlignment;
     };

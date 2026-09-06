@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ClampedFloatParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ClampedFloatParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__FloatParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ClampedFloatParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ClampedFloatParameter.get_value

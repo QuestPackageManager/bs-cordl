@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\LargeArrayBuilder_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/LargeArrayBuilder_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,9 +58,10 @@ public:
   // @brief default ctor
   constexpr LargeArrayBuilder_1();
 
-  // Ctor Parameters [CppParam { name: "_maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_first", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name:
-  // "_buffers", ty: "::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>>", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "::ArrayW<T>", modifiers: "", def_value: None },
-  // CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_maxCapacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_first", ty: "::ArrayW<T>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_buffers", ty: "::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_current", ty:
+  // "::ArrayW<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_count", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LargeArrayBuilder_1(int32_t _maxCapacity, ::ArrayW<T> _first, ::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T>> _buffers, ::ArrayW<T> _current, int32_t _index,
                                 int32_t _count) noexcept;
 

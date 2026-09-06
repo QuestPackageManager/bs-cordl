@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\List_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/List_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,8 +136,9 @@ public:
   // @brief default ctor
   constexpr List_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_current", ty: "T", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr List_1_Enumerator(::System::Collections::Generic::List_1<T>* _list, int32_t _index, int32_t _version, T _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -162,6 +163,9 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.ICollectionDebugView`1<T>))]
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -486,13 +490,13 @@ protected:
   constexpr List_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "List_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "List_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   List_1(List_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "List_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "List_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  List_1(List_1 const&) = delete;
+  List_1(List_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3782 };

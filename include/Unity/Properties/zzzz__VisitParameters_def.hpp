@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\VisitParameters.hpp"
+// IWYU pragma private; include "Unity/Properties/VisitParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ public:
   // Declarations
   __declspec(property(get = get_IgnoreExceptions)) ::Unity::Properties::VisitExceptionKind IgnoreExceptions;
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreExceptions, addr 0x6b9e224, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Properties::VisitExceptionKind get_IgnoreExceptions();
 
@@ -32,7 +34,7 @@ public:
   // @brief default ctor
   constexpr VisitParameters();
 
-  // Ctor Parameters [CppParam { name: "_IgnoreExceptions_k__BackingField", ty: "::Unity::Properties::VisitExceptionKind", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_IgnoreExceptions_k__BackingField", ty: "::Unity::Properties::VisitExceptionKind", modifiers: "", def_value: None, comment: None }]
   constexpr VisitParameters(::Unity::Properties::VisitExceptionKind _IgnoreExceptions_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -41,6 +43,8 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IgnoreExceptions>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::Unity::Properties::VisitExceptionKind _IgnoreExceptions_k__BackingField;
 

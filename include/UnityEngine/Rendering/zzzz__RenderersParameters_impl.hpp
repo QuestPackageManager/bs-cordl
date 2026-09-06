@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderersParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderersParameters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderersParameters_def.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceDataBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceNumInfo_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderersParameters_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderersParameters_Flags::RenderersParameters_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -97,8 +97,8 @@ inline bool UnityEngine::Rendering::RenderersParameters_ParamInfo::get_valid() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersParameters_ParamInfo>(), { "get_valid", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpuAddress", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "uintOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gpuAddress", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "uintOffset", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderersParameters_ParamInfo::RenderersParameters_ParamInfo(int32_t index, int32_t gpuAddress, int32_t uintOffset) noexcept {
   this->index = index;
   this->gpuAddress = gpuAddress;
@@ -161,8 +161,9 @@ inline void UnityEngine::Rendering::RenderersParameters::setStaticF_s_uintSize(i
 inline int32_t UnityEngine::Rendering::RenderersParameters::getStaticF_s_uintSize() {
   return ::cordl_internals::getStaticField<int32_t, "s_uintSize", ::UnityEngine::Rendering::RenderersParameters>();
 }
-inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* UnityEngine::Rendering::RenderersParameters::CreateInstanceDataBuffer(::UnityEngine::Rendering::RenderersParameters_Flags flags,
-                                                                                                                              ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
+inline ::UnityEngine::Rendering::GPUInstanceDataBuffer*
+UnityEngine::Rendering::RenderersParameters::CreateInstanceDataBuffer(::UnityEngine::Rendering::RenderersParameters_Flags flags,
+                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -170,26 +171,29 @@ inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* UnityEngine::Rendering::
           { "CreateInstanceDataBuffer", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderersParameters_Flags>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(nullptr, ___internal_method, flags, instanceNumInfo);
 }
-inline void UnityEngine::Rendering::RenderersParameters::_ctor(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer) {
+inline void UnityEngine::Rendering::RenderersParameters::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instanceDataBuffer);
 }
 inline ::UnityEngine::Rendering::RenderersParameters_ParamInfo
-UnityEngine::Rendering::RenderersParameters::__ctor_g__GetParamInfo_14_0(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer, int32_t paramNameIdx, bool assertOnFail) {
+UnityEngine::Rendering::RenderersParameters::__ctor_g__GetParamInfo_14_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer, int32_t paramNameIdx,
+                                                                         bool assertOnFail) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
                           { "<.ctor>g__GetParamInfo|14_0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderersParameters_ParamInfo>(nullptr, ___internal_method, instanceDataBuffer, paramNameIdx, assertOnFail);
 }
-// Ctor Parameters [CppParam { name: "lightmapScale", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}") }, CppParam { name: "localToWorld", ty:
-// "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}") }, CppParam { name: "worldToLocal", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "matrixPreviousM", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "matrixPreviousMI", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}") }, CppParam { name: "shCoefficients", ty:
-// "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}") }, CppParam { name: "boundingSphere", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "windParams", ty: "::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "windHistoryParams", ty: "::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "lightmapScale", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "localToWorld", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "worldToLocal", ty:
+// "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "matrixPreviousM", ty:
+// "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "matrixPreviousMI", ty:
+// "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shCoefficients", ty:
+// "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "boundingSphere", ty:
+// "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "windParams", ty:
+// "::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "windHistoryParams", ty:
+// "::ArrayW<::UnityEngine::Rendering::RenderersParameters_ParamInfo>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderersParameters::RenderersParameters(
     ::UnityEngine::Rendering::RenderersParameters_ParamInfo lightmapScale, ::UnityEngine::Rendering::RenderersParameters_ParamInfo localToWorld,
     ::UnityEngine::Rendering::RenderersParameters_ParamInfo worldToLocal, ::UnityEngine::Rendering::RenderersParameters_ParamInfo matrixPreviousM,

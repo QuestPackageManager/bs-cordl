@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VideoProjectionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/VideoProjectionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -131,13 +131,13 @@ protected:
   constexpr VideoProjectionEffect_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionEffect_InitData(VideoProjectionEffect_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect_InitData(VideoProjectionEffect_InitData const&) = delete;
+  VideoProjectionEffect_InitData(VideoProjectionEffect_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5957 };
@@ -153,6 +153,7 @@ static_assert(offsetof(::GlobalNamespace::VideoProjectionEffect_InitData, ___bea
 static_assert(sizeof(::GlobalNamespace::VideoProjectionEffect_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -183,13 +184,13 @@ protected:
   constexpr VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0(VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0(VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0 const&) = delete;
+  VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0(VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5958 };
@@ -205,6 +206,7 @@ static_assert(offsetof(::GlobalNamespace::VideoProjectionBehavior_VideoProjectio
 static_assert(sizeof(::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -218,6 +220,7 @@ public:
   /// @brief Method MoveNext, addr 0x59a44d4, size 0x2c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x59a479c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -228,10 +231,10 @@ public:
   // @brief default ctor
   constexpr VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None, comment: None }]
   constexpr VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                       ::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior* __4__this,
                                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
@@ -302,6 +305,7 @@ public:
   /// @brief Method Dispose, addr 0x59a3fbc, size 0xd8, virtual true, abstract: false, final false
   inline void Dispose();
 
+  /// [AsyncStateMachine(typeof(VideoProjectionEffect::VideoProjectionBehavior::<LoadPreviewCoverAsset>d__9))]
   /// @brief Method LoadPreviewCoverAsset, addr 0x59a4410, size 0xa4, virtual false, abstract: false, final false
   inline void LoadPreviewCoverAsset();
 
@@ -359,13 +363,13 @@ protected:
   constexpr VideoProjectionEffect_VideoProjectionBehavior();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_VideoProjectionBehavior", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_VideoProjectionBehavior", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionEffect_VideoProjectionBehavior(VideoProjectionEffect_VideoProjectionBehavior&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_VideoProjectionBehavior", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_VideoProjectionBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect_VideoProjectionBehavior(VideoProjectionEffect_VideoProjectionBehavior const&) = delete;
+  VideoProjectionEffect_VideoProjectionBehavior(VideoProjectionEffect_VideoProjectionBehaviorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5960 };
@@ -452,13 +456,13 @@ protected:
   constexpr VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior(VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior(VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior const&) = delete;
+  VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior(VideoProjectionEffect_BeatmapEditorVideoProjectionBehaviorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5961 };
@@ -500,13 +504,13 @@ protected:
   constexpr VideoProjectionEffect_GameplayVideoProjectionBehavior();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_GameplayVideoProjectionBehavior", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_GameplayVideoProjectionBehavior", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionEffect_GameplayVideoProjectionBehavior(VideoProjectionEffect_GameplayVideoProjectionBehavior&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_GameplayVideoProjectionBehavior", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect_GameplayVideoProjectionBehavior", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect_GameplayVideoProjectionBehavior(VideoProjectionEffect_GameplayVideoProjectionBehavior const&) = delete;
+  VideoProjectionEffect_GameplayVideoProjectionBehavior(VideoProjectionEffect_GameplayVideoProjectionBehaviorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5962 };
@@ -623,35 +627,42 @@ protected:
   constexpr VideoProjectionEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionEffect(VideoProjectionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionEffect(VideoProjectionEffect const&) = delete;
+  VideoProjectionEffect(VideoProjectionEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5963 };
 
+  /// [SerializeField]
   /// @brief Field _videoProjectionDataModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> ____videoProjectionDataModel;
 
+  /// [SerializeField]
   /// @brief Field _videoPlayer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> ____videoPlayer;
 
+  /// [SerializeField]
   /// @brief Field _videoEventType, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____videoEventType;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::VideoProjectionEffect_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _environmentContext, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentContext ____environmentContext;
 
+  /// [Inject]
   /// @brief Field _beatmapData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____beatmapData;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 

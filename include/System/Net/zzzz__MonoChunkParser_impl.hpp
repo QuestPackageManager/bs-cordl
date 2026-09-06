@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "System\Net\MonoChunkParser.hpp"
+// IWYU pragma private; include "System/Net/MonoChunkParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__MonoChunkParser_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Net/zzzz__MonoChunkParser_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::MonoChunkParser_State::MonoChunkParser_State(int32_t value__) noexcept {
   this->value__ = value__;
 }

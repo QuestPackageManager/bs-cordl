@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioMixerSnapshot.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioMixerSnapshot.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class AudioMixerSnapshot;
 // Write type traits
 MARK_REF_T(::UnityEngine::Audio::AudioMixerSnapshot*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Audio::AudioMixerSnapshot*, "UnityEngine.Audio", "AudioMixerSnapshot");
+// [NativeHeader("Modules/Audio/Public/AudioMixerSnapshot.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine::Audio {
 // Is value type: false
@@ -29,6 +30,7 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioMixerSnapshot : public ::UnityEngine::Object {
 public:
   // Declarations
+  /// @brief [NativeProperty]
   __declspec(property(get = get_audioMixer)) ::UnityW<::UnityEngine::Audio::AudioMixer> audioMixer;
 
   /// @brief Convert operator to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
@@ -57,13 +59,13 @@ protected:
   constexpr AudioMixerSnapshot();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerSnapshot", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerSnapshot", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioMixerSnapshot(AudioMixerSnapshot&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerSnapshot", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioMixerSnapshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioMixerSnapshot(AudioMixerSnapshot const&) = delete;
+  AudioMixerSnapshot(AudioMixerSnapshotconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21085 };

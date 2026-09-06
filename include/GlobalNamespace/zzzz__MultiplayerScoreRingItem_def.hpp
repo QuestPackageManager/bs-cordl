@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerScoreRingItem.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerScoreRingItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ protected:
   constexpr MultiplayerScoreRingItem_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreRingItem_Pool(MultiplayerScoreRingItem_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreRingItem_Pool(MultiplayerScoreRingItem_Pool const&) = delete;
+  MultiplayerScoreRingItem_Pool(MultiplayerScoreRingItem_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6187 };
@@ -76,13 +76,13 @@ protected:
   constexpr MultiplayerScoreRingItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreRingItem(MultiplayerScoreRingItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreRingItem(MultiplayerScoreRingItem const&) = delete;
+  MultiplayerScoreRingItem(MultiplayerScoreRingItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6188 };

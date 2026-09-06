@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ByReference_1.hpp"
+// IWYU pragma private; include "System/ByReference_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ template <typename T> struct ByReference_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::ByReference_1);
 DEFINE_IL2CPP_GEN_CLASS(::System::ByReference_1, "System", "ByReference`1");
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
+// [IsByRefLike]
 // Dependencies System.IntPtr
 namespace System {
 // cpp template
@@ -24,9 +26,11 @@ public:
   // Declarations
   __declspec(property(get = get_Value)) T Value;
 
+  /// [Intrinsic]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<T> value);
 
+  /// [Intrinsic]
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::by_ref<T> get_Value();
 
@@ -34,7 +38,7 @@ public:
   // @brief default ctor
   constexpr ByReference_1();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr ByReference_1(::System::IntPtr _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

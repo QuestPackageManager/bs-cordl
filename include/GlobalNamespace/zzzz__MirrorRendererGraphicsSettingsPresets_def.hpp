@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirrorRendererGraphicsSettingsPresets.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirrorRendererGraphicsSettingsPresets.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,13 +109,13 @@ protected:
   constexpr MirrorRendererGraphicsSettingsPresets_Preset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets_Preset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets_Preset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererGraphicsSettingsPresets_Preset(MirrorRendererGraphicsSettingsPresets_Preset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets_Preset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets_Preset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererGraphicsSettingsPresets_Preset(MirrorRendererGraphicsSettingsPresets_Preset const&) = delete;
+  MirrorRendererGraphicsSettingsPresets_Preset(MirrorRendererGraphicsSettingsPresets_Presetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15055 };
@@ -200,17 +200,18 @@ protected:
   constexpr MirrorRendererGraphicsSettingsPresets();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererGraphicsSettingsPresets(MirrorRendererGraphicsSettingsPresets&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererGraphicsSettingsPresets(MirrorRendererGraphicsSettingsPresets const&) = delete;
+  MirrorRendererGraphicsSettingsPresets(MirrorRendererGraphicsSettingsPresetsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15056 };
 
+  /// [SerializeField]
   /// @brief Field _presets, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*> ____presets;
 

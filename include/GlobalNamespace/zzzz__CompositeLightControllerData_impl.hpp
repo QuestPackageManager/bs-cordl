@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeLightControllerData.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeLightControllerData.hpp"
 #include "GlobalNamespace/zzzz__ColorTargetsBucket_impl.hpp"
 #include "GlobalNamespace/zzzz__CompositeColorGroup_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxTargetsBucket_impl.hpp"

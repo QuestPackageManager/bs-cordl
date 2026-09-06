@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Scripting\APIUpdating\MovedFromAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Scripting/APIUpdating/MovedFromAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class MovedFromAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute*, "UnityEngine.Scripting.APIUpdating", "MovedFromAttribute");
+// [AttributeUsage((System.AttributeTargets)5148)]
 // Dependencies System.Attribute, UnityEngine.Scripting.APIUpdating.MovedFromAttributeData
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: false
@@ -46,17 +47,18 @@ protected:
   constexpr MovedFromAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MovedFromAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MovedFromAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MovedFromAttribute(MovedFromAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MovedFromAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MovedFromAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MovedFromAttribute(MovedFromAttribute const&) = delete;
+  MovedFromAttribute(MovedFromAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10484 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field data, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData ___data;
 

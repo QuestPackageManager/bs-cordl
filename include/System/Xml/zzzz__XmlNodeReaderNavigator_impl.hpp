@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlNodeReaderNavigator.hpp"
+// IWYU pragma private; include "System/Xml/XmlNodeReaderNavigator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeReaderNavigator_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
@@ -35,7 +35,8 @@ inline void System::Xml::XmlNodeReaderNavigator_VirtualAttribute::_ctor(::String
                    (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeReaderNavigator_VirtualAttribute>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, name, value);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Xml::XmlNodeReaderNavigator_VirtualAttribute::XmlNodeReaderNavigator_VirtualAttribute(::StringW name, ::StringW value) noexcept {
   this->name = name;
   this->value = value;

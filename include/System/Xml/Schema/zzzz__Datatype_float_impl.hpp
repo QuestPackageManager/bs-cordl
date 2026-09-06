@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Datatype_float.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Datatype_float.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_float_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"

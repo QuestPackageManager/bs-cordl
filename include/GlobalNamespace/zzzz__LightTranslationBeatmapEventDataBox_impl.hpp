@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightTranslationBeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightTranslationBeatmapEventDataBox.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -521,6 +521,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::LightTranslationBeat
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9* GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9*>(__1__state));
 }

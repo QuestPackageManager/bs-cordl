@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionAsset.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionAsset.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_impl.hpp"
@@ -27,8 +27,9 @@
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "controlSchemes", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maps", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlSchemes", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJson::InputActionAsset_WriteFileJson(::StringW name, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson> maps,
                                                                                                      ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson> controlSchemes) noexcept {
   this->name = name;
@@ -37,8 +38,8 @@ constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJson::InputActio
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJson::InputActionAsset_WriteFileJson() {}
-// Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: Some("{}") }, CppParam { name: "controlSchemes", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "controlSchemes", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJsonNoName::InputActionAsset_WriteFileJsonNoName(
     ::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson> maps, ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson> controlSchemes) noexcept {
   this->maps = maps;
@@ -65,8 +66,9 @@ inline void UnityEngine::InputSystem::InputActionAsset_ReadFileJson::ToAsset(::U
                                                                                          { "ToAsset", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputActionAsset*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, asset);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "controlSchemes", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maps", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlSchemes", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::InputActionAsset_ReadFileJson(::StringW name, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson> maps,
                                                                                                    ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson> controlSchemes) noexcept {
   this->name = name;
@@ -277,6 +279,7 @@ inline ::System::Object* UnityEngine::InputSystem::InputActionAsset__GetEnumerat
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(__1__state));
 }
@@ -569,6 +572,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputAction
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>(__1__state));
 }

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryType.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::EntryType::EntryType(uint16_t value__) noexcept {
   this->value__ = value__;
 }

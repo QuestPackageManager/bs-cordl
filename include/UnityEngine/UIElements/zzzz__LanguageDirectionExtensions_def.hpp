@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\LanguageDirectionExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/LanguageDirectionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class LanguageDirectionExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::LanguageDirectionExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::LanguageDirectionExtensions*, "UnityEngine.UIElements", "LanguageDirectionExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -25,6 +26,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE LanguageDirectionExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method toTextCore, addr 0x6cc93e4, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::LanguageDirection toTextCore(::UnityEngine::UIElements::LanguageDirection dir);
 
@@ -34,13 +36,13 @@ protected:
   constexpr LanguageDirectionExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageDirectionExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageDirectionExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LanguageDirectionExtensions(LanguageDirectionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageDirectionExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageDirectionExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LanguageDirectionExtensions(LanguageDirectionExtensions const&) = delete;
+  LanguageDirectionExtensions(LanguageDirectionExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5222 };

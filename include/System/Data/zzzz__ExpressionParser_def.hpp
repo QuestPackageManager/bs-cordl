@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\ExpressionParser.hpp"
+// IWYU pragma private; include "System/Data/ExpressionParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::System::Data::ExpressionParser*);
 MARK_VAL_T(::System::Data::ExpressionParser_ReservedWords);
 DEFINE_IL2CPP_CLASS(::System::Data::ExpressionParser*, "System.Data", "ExpressionParser");
 DEFINE_IL2CPP_CLASS(::System::Data::ExpressionParser_ReservedWords, "System.Data", "ExpressionParser/ReservedWords");
+// [IsReadOnly]
 // Dependencies System.Data.Tokens
 namespace System::Data {
 // Is value type: true
@@ -53,8 +54,8 @@ public:
   // @brief default ctor
   constexpr ExpressionParser_ReservedWords();
 
-  // Ctor Parameters [CppParam { name: "_word", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_token", ty: "::System::Data::Tokens", modifiers: "", def_value: None }, CppParam {
-  // name: "_op", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_word", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_token", ty: "::System::Data::Tokens", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_op", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ExpressionParser_ReservedWords(::StringW _word, ::System::Data::Tokens _token, int32_t _op) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -333,13 +334,13 @@ protected:
   constexpr ExpressionParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpressionParser(ExpressionParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionParser(ExpressionParser const&) = delete;
+  ExpressionParser(ExpressionParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13818 };

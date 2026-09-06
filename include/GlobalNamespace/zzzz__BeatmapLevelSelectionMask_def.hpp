@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelSelectionMask.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelSelectionMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ struct BeatmapLevelSelectionMask;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::BeatmapLevelSelectionMask);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelSelectionMask, "", "BeatmapLevelSelectionMask");
+// [IsReadOnly]
 // Dependencies BeatmapDifficultyMask, GameplayModifierMask, SongPackMask
 namespace GlobalNamespace {
 // Is value type: true
@@ -62,6 +63,7 @@ public:
   /// @brief Method Serialize, addr 0x32a6b8c, size 0x4c, virtual false, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t version);
 
+  /// [JsonConstructor]
   /// @brief Method .ctor, addr 0x32a6978, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapDifficultyMask difficulties, ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks);
 
@@ -78,8 +80,9 @@ public:
   // @brief default ctor
   constexpr BeatmapLevelSelectionMask();
 
-  // Ctor Parameters [CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "modifiers", ty:
-  // "::GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: None }, CppParam { name: "songPacks", ty: "::GlobalNamespace::SongPackMask", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None, comment: None }, CppParam { name: "modifiers", ty:
+  // "::GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: None, comment: None }, CppParam { name: "songPacks", ty: "::GlobalNamespace::SongPackMask", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BeatmapLevelSelectionMask(::GlobalNamespace::BeatmapDifficultyMask difficulties, ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -88,12 +91,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [JsonProperty("difficulties")]
   /// @brief Field difficulties, offset: 0x0, size: 0x1, def value: None
   ::GlobalNamespace::BeatmapDifficultyMask difficulties;
 
+  /// [JsonProperty("modifiers")]
   /// @brief Field modifiers, offset: 0x2, size: 0x2, def value: None
   ::GlobalNamespace::GameplayModifierMask modifiers;
 
+  /// [JsonProperty("song_packs")]
   /// @brief Field songPacks, offset: 0x8, size: 0x20, def value: None
   ::GlobalNamespace::SongPackMask songPacks;
 

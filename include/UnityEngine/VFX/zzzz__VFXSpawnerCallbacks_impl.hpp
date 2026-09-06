@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXSpawnerCallbacks.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXSpawnerCallbacks.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXSpawnerCallbacks_def.hpp"
 #include "UnityEngine/VFX/zzzz__VFXExpressionValues_def.hpp"

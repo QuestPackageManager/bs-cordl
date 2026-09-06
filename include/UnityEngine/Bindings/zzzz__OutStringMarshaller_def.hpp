@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\OutStringMarshaller.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/OutStringMarshaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,9 @@ struct OutStringMarshaller;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Bindings::OutStringMarshaller);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::OutStringMarshaller, "UnityEngine.Bindings", "OutStringMarshaller");
+// [VisibleToOtherModules]
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies
 namespace UnityEngine::Bindings {
 // Is value type: true

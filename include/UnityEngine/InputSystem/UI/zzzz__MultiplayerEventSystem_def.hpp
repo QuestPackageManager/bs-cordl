@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\MultiplayerEventSystem.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/MultiplayerEventSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class MultiplayerEventSystem;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::UI::MultiplayerEventSystem*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::UI::MultiplayerEventSystem*, "UnityEngine.InputSystem.UI", "MultiplayerEventSystem");
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/UISupport.html#multiplayer-uis")]
 // Dependencies UnityEngine.EventSystems.EventSystem
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
@@ -62,17 +63,19 @@ protected:
   constexpr MultiplayerEventSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEventSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEventSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerEventSystem(MultiplayerEventSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEventSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEventSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerEventSystem(MultiplayerEventSystem const&) = delete;
+  MultiplayerEventSystem(MultiplayerEventSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8867 };
 
+  /// [Tooltip("If set, only process mouse and navigation events for any game objects which are children of this game object.")]
+  /// [SerializeField]
   /// @brief Field m_PlayerRoot, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_PlayerRoot;
 

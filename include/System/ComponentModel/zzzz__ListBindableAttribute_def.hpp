@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ListBindableAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/ListBindableAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class ListBindableAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::ListBindableAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::ListBindableAttribute*, "System.ComponentModel", "ListBindableAttribute");
+// [AttributeUsage((System.AttributeTargets)32767)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -72,6 +73,7 @@ public:
 
   static inline ::System::ComponentModel::ListBindableAttribute* getStaticF_Yes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ListBindable, addr 0x63c2b64, size 0x8, virtual false, abstract: false, final false
   inline bool get_ListBindable();
 
@@ -87,13 +89,13 @@ protected:
   constexpr ListBindableAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListBindableAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListBindableAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListBindableAttribute(ListBindableAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListBindableAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListBindableAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListBindableAttribute(ListBindableAttribute const&) = delete;
+  ListBindableAttribute(ListBindableAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11278 };
@@ -101,6 +103,7 @@ public:
   /// @brief Field _isDefault, offset: 0x10, size: 0x1, def value: None
   bool ____isDefault;
 
+  /// [CompilerGenerated]
   /// @brief Field <ListBindable>k__BackingField, offset: 0x11, size: 0x1, def value: None
   bool ____ListBindable_k__BackingField;
 

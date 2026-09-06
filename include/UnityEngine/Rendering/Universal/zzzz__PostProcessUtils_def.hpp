@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,13 +97,13 @@ protected:
   constexpr PostProcessUtils_ShaderConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils_ShaderConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils_ShaderConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessUtils_ShaderConstants(PostProcessUtils_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils_ShaderConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessUtils_ShaderConstants(PostProcessUtils_ShaderConstants const&) = delete;
+  PostProcessUtils_ShaderConstants(PostProcessUtils_ShaderConstantsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12897 };
@@ -123,6 +123,7 @@ public:
   // Declarations
   using ShaderConstants = ::UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants;
 
+  /// [Obsolete("This method is obsolete. Use ConfigureDithering override that takes camera pixel width and height instead.")]
   /// @brief Method ConfigureDithering, addr 0x68ab408, size 0x64, virtual false, abstract: false, final false
   static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, ::UnityEngine::Camera* camera, ::UnityEngine::Material* material);
 
@@ -130,6 +131,7 @@ public:
   static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, int32_t cameraPixelWidth, int32_t cameraPixelHeight,
                                            ::UnityEngine::Material* material);
 
+  /// [Obsolete("This method is obsolete. Use ConfigureFilmGrain override that takes camera pixel width and height instead.")]
   /// @brief Method ConfigureFilmGrain, addr 0x68ab690, size 0x64, virtual false, abstract: false, final false
   static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData* data, ::UnityEngine::Rendering::Universal::FilmGrain* settings, ::UnityEngine::Camera* camera,
                                         ::UnityEngine::Material* material);
@@ -150,13 +152,13 @@ protected:
   constexpr PostProcessUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessUtils(PostProcessUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessUtils(PostProcessUtils const&) = delete;
+  PostProcessUtils(PostProcessUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12898 };

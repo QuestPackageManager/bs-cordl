@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UIExtensionMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace/UIExtensionMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UIExtensionMethods_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"

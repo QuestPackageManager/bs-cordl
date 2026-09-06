@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextureProcessor3DAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextureProcessor3DAsset.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TextureProcessor3DAsset_def.hpp"
 #include "GlobalNamespace/zzzz__TextureProcessor3DBehaviour_def.hpp"

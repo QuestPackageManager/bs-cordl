@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\VertexPositioning.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/VertexPositioning.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class VertexPositioning;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::VertexPositioning*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::VertexPositioning*, "UnityEngine.ProBuilder", "VertexPositioning");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -46,32 +47,40 @@ public:
   /// @brief Field s_CoincidentVertices, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_CoincidentVertices, put = setStaticF_s_CoincidentVertices)) ::System::Collections::Generic::List_1<int32_t>* s_CoincidentVertices;
 
+  /// [Extension]
   /// @brief Method SetSharedVertexPosition, addr 0x66ffe34, size 0x36c, virtual false, abstract: false, final false
   static inline void SetSharedVertexPosition(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t sharedVertexHandle, ::UnityEngine::Vector3 position);
 
+  /// [Extension]
   /// @brief Method SetSharedVertexValues, addr 0x67001a0, size 0x2b8, virtual false, abstract: false, final false
   static inline void SetSharedVertexValues(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t sharedVertexHandle, ::UnityEngine::ProBuilder::Vertex* vertex);
 
+  /// [Extension]
   /// @brief Method TranslateVertices, addr 0x66ffbcc, size 0x134, virtual false, abstract: false, final false
   static inline void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                        ::UnityEngine::Vector3 offset);
 
+  /// [Extension]
   /// @brief Method TranslateVertices, addr 0x66ffd00, size 0x134, virtual false, abstract: false, final false
   static inline void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                        ::UnityEngine::Vector3 offset);
 
+  /// [Extension]
   /// @brief Method TranslateVertices, addr 0x66ff924, size 0x134, virtual false, abstract: false, final false
   static inline void TranslateVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes, ::UnityEngine::Vector3 offset);
 
+  /// [Extension]
   /// @brief Method TranslateVerticesInWorldSpace, addr 0x66ff288, size 0x11c, virtual false, abstract: false, final false
   static inline void TranslateVerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes, ::UnityEngine::Vector3 offset);
 
+  /// [Extension]
   /// @brief Method TranslateVerticesInWorldSpace, addr 0x66ff3a4, size 0x580, virtual false, abstract: false, final false
   static inline void TranslateVerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes, ::UnityEngine::Vector3 offset, float_t snapValue, bool snapAxisOnly);
 
   /// @brief Method TranslateVerticesInternal, addr 0x66ffa58, size 0x174, virtual false, abstract: false, final false
   static inline void TranslateVerticesInternal(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indices, ::UnityEngine::Vector3 offset);
 
+  /// [Extension]
   /// @brief Method VerticesInWorldSpace, addr 0x66ff108, size 0x180, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> VerticesInWorldSpace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
@@ -85,13 +94,13 @@ protected:
   constexpr VertexPositioning();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VertexPositioning", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VertexPositioning", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VertexPositioning(VertexPositioning&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VertexPositioning", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VertexPositioning", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VertexPositioning(VertexPositioning const&) = delete;
+  VertexPositioning(VertexPositioningconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16830 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRelation.hpp"
+// IWYU pragma private; include "System/Data/DataRelation.hpp"
 #include "System/Data/zzzz__DataKey_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__DataRelation_def.hpp"
@@ -1051,10 +1051,12 @@ inline ::System::Data::DataRelation* System::Data::DataRelation::New_ctor(::Stri
                                                                           ::ArrayW<::System::Data::DataColumn*> childColumns, bool createConstraints) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::DataRelation*>(relationName, parentColumns, childColumns, createConstraints));
 }
+/// @brief [Browsable(false)]
 inline ::System::Data::DataRelation* System::Data::DataRelation::New_ctor(::StringW relationName, ::StringW parentTableName, ::StringW childTableName, ::ArrayW<::StringW> parentColumnNames,
                                                                           ::ArrayW<::StringW> childColumnNames, bool nested) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::DataRelation*>(relationName, parentTableName, childTableName, parentColumnNames, childColumnNames, nested));
 }
+/// @brief [Browsable(false)]
 inline ::System::Data::DataRelation* System::Data::DataRelation::New_ctor(::StringW relationName, ::StringW parentTableName, ::StringW parentTableNamespace, ::StringW childTableName,
                                                                           ::StringW childTableNamespace, ::ArrayW<::StringW> parentColumnNames, ::ArrayW<::StringW> childColumnNames, bool nested) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::DataRelation*>(relationName, parentTableName, parentTableNamespace, childTableName, childTableNamespace, parentColumnNames,

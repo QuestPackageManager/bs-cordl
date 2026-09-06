@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerEnvironmentSpectatingSpot.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerEnvironmentSpectatingSpot.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class MultiplayerEnvironmentSpectatingSpot;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*, "", "MultiplayerEnvironmentSpectatingSpot");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerEnvironmentSpectatingSpot")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -122,6 +123,7 @@ public:
   /// @brief Method .ctor, addr 0x59e96b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_hasBeenRemovedEvent, addr 0x59e9410, size 0xc0, virtual true, abstract: false, final true
   inline void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
@@ -137,6 +139,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* i___GlobalNamespace__IMultiplayerSpectatingSpot() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_hasBeenRemovedEvent, addr 0x59e94d0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
@@ -146,13 +149,13 @@ protected:
   constexpr MultiplayerEnvironmentSpectatingSpot();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentSpectatingSpot", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentSpectatingSpot", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerEnvironmentSpectatingSpot(MultiplayerEnvironmentSpectatingSpot&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentSpectatingSpot", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentSpectatingSpot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerEnvironmentSpectatingSpot(MultiplayerEnvironmentSpectatingSpot const&) = delete;
+  MultiplayerEnvironmentSpectatingSpot(MultiplayerEnvironmentSpectatingSpotconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6195 };
@@ -160,21 +163,28 @@ public:
   /// @brief Field kLabelGrandstandLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kLabelGrandstandLocalizationKey{ u"LABEL_GRANDSTAND" };
 
+  /// [SerializeField]
   /// @brief Field _preferredSpectatingSpot, offset: 0x20, size: 0x1, def value: None
   bool ____preferredSpectatingSpot;
 
+  /// [SerializeField]
   /// @brief Field _displaySpotNumber, offset: 0x21, size: 0x1, def value: None
   bool ____displaySpotNumber;
 
+  /// [DrawIf("_displaySpotNumber", true, (DrawIfAttribute::DisablingType)1)]
+  /// [SerializeField]
   /// @brief Field _spotNumber, offset: 0x24, size: 0x4, def value: None
   int32_t ____spotNumber;
 
+  /// [Inject]
   /// @brief Field _spectatingSpotManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerSpectatingSpotManager* ____spectatingSpotManager;
 
+  /// [Inject]
   /// @brief Field _activePlayersTimeOffsetAverage, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage* ____activePlayersTimeOffsetAverage;
 
+  /// [CompilerGenerated]
   /// @brief Field hasBeenRemovedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* ___hasBeenRemovedEvent;
 

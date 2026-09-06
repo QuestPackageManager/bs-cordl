@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObjectsMovementRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObjectsMovementRecorder.hpp"
 #include "GlobalNamespace/zzzz__PlaybackRenderer_impl.hpp"
 #include "GlobalNamespace/zzzz__PoseObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -15,7 +15,7 @@
 #include "GlobalNamespace/zzzz__PosesPlayback_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecorder_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode::ObjectsMovementRecorder_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -24,7 +24,7 @@ constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode::ObjectsMovementRecord
 constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode GlobalNamespace::ObjectsMovementRecorder_Mode::Record{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode GlobalNamespace::ObjectsMovementRecorder_Mode::Playback{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode GlobalNamespace::ObjectsMovementRecorder_Mode::Off{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView::ObjectsMovementRecorder_CameraView(int32_t value__) noexcept {
   this->value__ = value__;
 }

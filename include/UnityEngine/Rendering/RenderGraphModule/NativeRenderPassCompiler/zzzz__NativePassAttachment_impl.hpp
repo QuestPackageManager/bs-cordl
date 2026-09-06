@@ -1,13 +1,14 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\NativePassAttachment.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/NativePassAttachment.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferLoadAction_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferStoreAction_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__NativePassAttachment_def.hpp"
-// Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "loadAction", ty:
-// "::UnityEngine::Rendering::RenderBufferLoadAction", modifiers: "", def_value: Some("{}") }, CppParam { name: "storeAction", ty: "::UnityEngine::Rendering::RenderBufferStoreAction", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "memoryless", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "mipLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "loadAction",
+// ty: "::UnityEngine::Rendering::RenderBufferLoadAction", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "storeAction", ty:
+// "::UnityEngine::Rendering::RenderBufferStoreAction", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "memoryless", ty: "bool", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "mipLevel", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassAttachment::NativePassAttachment(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle handle,
                                                                                                                             ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                                                                                                                             ::UnityEngine::Rendering::RenderBufferStoreAction storeAction,

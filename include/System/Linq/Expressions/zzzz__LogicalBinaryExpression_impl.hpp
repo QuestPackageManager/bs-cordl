@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\LogicalBinaryExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/LogicalBinaryExpression.hpp"
 #include "System/Linq/Expressions/zzzz__BinaryExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_impl.hpp"
 #include "System/Linq/Expressions/zzzz__LogicalBinaryExpression_def.hpp"

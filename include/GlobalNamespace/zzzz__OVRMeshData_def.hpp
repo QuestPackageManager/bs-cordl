@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMeshData.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMeshData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,9 +34,9 @@ public:
   // @brief default ctor
   constexpr OVRMeshData();
 
-  // Ctor Parameters [CppParam { name: "mesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers:
-  // "", def_value: None }, CppParam { name: "baseAttributes", ty: "::GlobalNamespace::OVRMeshAttributes", modifiers: "", def_value: None }, CppParam { name: "morphTargets", ty:
-  // "::ArrayW<::GlobalNamespace::OVRMeshAttributes>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "mesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty:
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "baseAttributes", ty: "::GlobalNamespace::OVRMeshAttributes", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "morphTargets", ty: "::ArrayW<::GlobalNamespace::OVRMeshAttributes>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMeshData(::UnityW<::UnityEngine::Mesh> mesh, ::UnityW<::UnityEngine::Material> material, ::GlobalNamespace::OVRMeshAttributes baseAttributes,
                         ::ArrayW<::GlobalNamespace::OVRMeshAttributes> morphTargets) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceAmbientOcclusion.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceAmbientOcclusion.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceAmbientOcclusion_def.hpp"

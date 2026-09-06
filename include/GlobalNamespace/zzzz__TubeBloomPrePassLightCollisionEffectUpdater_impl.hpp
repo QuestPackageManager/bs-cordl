@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLightCollisionEffectUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLightCollisionEffectUpdater.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLightCollisionEffect_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
@@ -14,9 +14,10 @@
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLightCollisionEffect_def.hpp"
 #include "UnityEngine/Jobs/zzzz__IJobParallelForTransform_def.hpp"
 #include "UnityEngine/Jobs/zzzz__TransformAccess_def.hpp"
-// Ctor Parameters [CppParam { name: "environmentLayerMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "showHit", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "useScale", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "hit", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "environmentLayerMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "showHit", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "useScale", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hit", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "length", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty: "::Unity::Mathematics::float3",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData::TubeBloomPrePassLightCollisionEffectUpdater_EffectData(int32_t environmentLayerMask, bool showHit, bool useScale,
                                                                                                                                             bool hit, float_t length,
                                                                                                                                             ::Unity::Mathematics::float3 scale) noexcept {
@@ -57,7 +58,7 @@ constexpr ::UnityEngine::Jobs::IJobParallelForTransform* GlobalNamespace::TubeBl
   return static_cast<::UnityEngine::Jobs::IJobParallelForTransform*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "effectData", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData>", modifiers: "", def_value:
-// Some("{}") }]
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_ExtractScaleJob::TubeBloomPrePassLightCollisionEffectUpdater_ExtractScaleJob(
     ::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData> effectData) noexcept {
   this->effectData = effectData;
@@ -92,7 +93,7 @@ constexpr ::UnityEngine::Jobs::IJobParallelForTransform* GlobalNamespace::TubeBl
   return static_cast<::UnityEngine::Jobs::IJobParallelForTransform*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "effectData", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "raycastCommands", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::RaycastCommand>", modifiers: "", def_value: Some("{}") }]
+// Some("{}"), comment: None }, CppParam { name: "raycastCommands", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::RaycastCommand>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_InitialiseRaycastsJob::TubeBloomPrePassLightCollisionEffectUpdater_InitialiseRaycastsJob(
     ::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData> effectData,
     ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastCommand> raycastCommands) noexcept {
@@ -129,7 +130,7 @@ constexpr ::UnityEngine::Jobs::IJobParallelForTransform* GlobalNamespace::TubeBl
   return static_cast<::UnityEngine::Jobs::IJobParallelForTransform*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "effectData", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "raycastHits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>", modifiers: "", def_value: Some("{}") }]
+// Some("{}"), comment: None }, CppParam { name: "raycastHits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_UpdateHitPointsJob::TubeBloomPrePassLightCollisionEffectUpdater_UpdateHitPointsJob(
     ::Unity::Collections::NativeArray_1<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_EffectData> effectData,
     ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit> raycastHits) noexcept {

@@ -1,6 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\GroupBoxUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/GroupBoxUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupBoxOption_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__GroupBoxUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -78,19 +80,25 @@ inline void UnityEngine::UIElements::GroupBoxUtility::setStaticF_k_GenericGroupB
 inline ::System::Type* UnityEngine::UIElements::GroupBoxUtility::getStaticF_k_GenericGroupBoxType() {
   return ::cordl_internals::getStaticField<::System::Type*, "k_GenericGroupBoxType", ::UnityEngine::UIElements::GroupBoxUtility*>();
 }
-template <typename T> inline void UnityEngine::UIElements::GroupBoxUtility::RegisterGroupBoxOption(T option) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IGroupBoxOption*>)
+inline void UnityEngine::UIElements::GroupBoxUtility::RegisterGroupBoxOption(T option) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GroupBoxUtility*>(), { "RegisterGroupBoxOption", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, option);
 }
-template <typename T> inline void UnityEngine::UIElements::GroupBoxUtility::UnregisterGroupBoxOption(T option) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IGroupBoxOption*>)
+inline void UnityEngine::UIElements::GroupBoxUtility::UnregisterGroupBoxOption(T option) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GroupBoxUtility*>(), { "UnregisterGroupBoxOption", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, option);
 }
-template <typename T> inline void UnityEngine::UIElements::GroupBoxUtility::OnOptionSelected(T selectedOption) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IGroupBoxOption*>)
+inline void UnityEngine::UIElements::GroupBoxUtility::OnOptionSelected(T selectedOption) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GroupBoxUtility*>(), { "OnOptionSelected", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StylePropertyValue.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StylePropertyValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct StylePropertyValue;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StylePropertyValue);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::StylePropertyValue, "UnityEngine.UIElements.StyleSheets", "StylePropertyValue");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies UnityEngine.UIElements.StyleValueHandle
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
@@ -27,8 +28,8 @@ public:
   // @brief default ctor
   constexpr StylePropertyValue();
 
-  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "handle", ty:
-  // "::UnityEngine::UIElements::StyleValueHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None, comment: None }, CppParam { name: "handle", ty:
+  // "::UnityEngine::UIElements::StyleValueHandle", modifiers: "", def_value: None, comment: None }]
   constexpr StylePropertyValue(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleValueHandle handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

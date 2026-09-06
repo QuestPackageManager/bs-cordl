@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextAsset.hpp"
+// IWYU pragma private; include "UnityEngine/TextAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,9 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -78,7 +80,7 @@ public:
   // @brief default ctor
   constexpr TextAsset_CreateOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextAsset_CreateOptions(int32_t value__) noexcept;
 
   /// @brief Field CreateNativeObject value: I32(1)
@@ -132,13 +134,13 @@ protected:
   constexpr TextAsset_EncodingUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextAsset_EncodingUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextAsset_EncodingUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextAsset_EncodingUtility(TextAsset_EncodingUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextAsset_EncodingUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextAsset_EncodingUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextAsset_EncodingUtility(TextAsset_EncodingUtility const&) = delete;
+  TextAsset_EncodingUtility(TextAsset_EncodingUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10369 };
@@ -149,6 +151,7 @@ public:
 static_assert(sizeof(::UnityEngine::TextAsset_EncodingUtility) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Scripting/TextAsset.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -170,7 +173,9 @@ public:
   static inline ::StringW DecodeString(::ArrayW<uint8_t> bytes);
 
   /// @brief Method GetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetData();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeArray_1<T> GetData();
 
   /// @brief Method GetDataPtr, addr 0x6ae735c, size 0x80, virtual false, abstract: false, final false
   inline ::System::IntPtr GetDataPtr();
@@ -194,16 +199,16 @@ public:
   static inline ::ArrayW<uint8_t> GetPreviewBytes_Injected(::System::IntPtr _unity_self, int32_t maxByteCount);
 
   /// @brief Method Internal_CreateInstance, addr 0x6ae70f8, size 0x134, virtual false, abstract: false, final false
-  static inline void Internal_CreateInstance(::UnityEngine::TextAsset* self, ::StringW text);
+  static inline void Internal_CreateInstance(/* [Writable] */ ::UnityEngine::TextAsset* self, ::StringW text);
 
   /// @brief Method Internal_CreateInstanceFromBytes, addr 0x6ae7270, size 0xa8, virtual false, abstract: false, final false
-  static inline void Internal_CreateInstanceFromBytes(::UnityEngine::TextAsset* self, ::System::ReadOnlySpan_1<uint8_t> bytes);
+  static inline void Internal_CreateInstanceFromBytes(/* [Writable] */ ::UnityEngine::TextAsset* self, ::System::ReadOnlySpan_1<uint8_t> bytes);
 
   /// @brief Method Internal_CreateInstanceFromBytes_Injected, addr 0x6ae7318, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_CreateInstanceFromBytes_Injected(::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> bytes);
+  static inline void Internal_CreateInstanceFromBytes_Injected(/* [Writable] */ ::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> bytes);
 
   /// @brief Method Internal_CreateInstance_Injected, addr 0x6ae722c, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_CreateInstance_Injected(::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> text);
+  static inline void Internal_CreateInstance_Injected(/* [Writable] */ ::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> text);
 
   static inline ::UnityEngine::TextAsset* New_ctor();
 
@@ -251,13 +256,13 @@ protected:
   constexpr TextAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextAsset(TextAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextAsset(TextAsset const&) = delete;
+  TextAsset(TextAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10370 };

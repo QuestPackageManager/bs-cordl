@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerLevelStatsData.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerLevelStatsData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +87,7 @@ public:
   /// @brief Method IncreaseNumberOfGameplays, addr 0x3748620, size 0x10, virtual false, abstract: false, final false
   inline void IncreaseNumberOfGameplays();
 
-  static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
@@ -152,7 +152,7 @@ public:
   constexpr void __cordl_internal_set__validScore(bool value);
 
   /// @brief Method .ctor, addr 0x3748220, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   /// @brief Method .ctor, addr 0x374e0bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
@@ -194,41 +194,50 @@ protected:
   constexpr PlayerLevelStatsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerLevelStatsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerLevelStatsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerLevelStatsData(PlayerLevelStatsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerLevelStatsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerLevelStatsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerLevelStatsData(PlayerLevelStatsData const&) = delete;
+  PlayerLevelStatsData(PlayerLevelStatsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15169 };
 
+  /// [SerializeField]
   /// @brief Field _highScore, offset: 0x10, size: 0x4, def value: None
   int32_t ____highScore;
 
+  /// [SerializeField]
   /// @brief Field _maxCombo, offset: 0x14, size: 0x4, def value: None
   int32_t ____maxCombo;
 
+  /// [SerializeField]
   /// @brief Field _fullCombo, offset: 0x18, size: 0x1, def value: None
   bool ____fullCombo;
 
+  /// [SerializeField]
   /// @brief Field _maxRank, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::RankModel_Rank ____maxRank;
 
+  /// [SerializeField]
   /// @brief Field _validScore, offset: 0x20, size: 0x1, def value: None
   bool ____validScore;
 
+  /// [SerializeField]
   /// @brief Field _playCount, offset: 0x24, size: 0x4, def value: None
   int32_t ____playCount;
 
+  /// [SerializeField]
   /// @brief Field _levelID, offset: 0x28, size: 0x8, def value: None
   ::StringW ____levelID;
 
+  /// [SerializeField]
   /// @brief Field _difficulty, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____difficulty;
 
+  /// [SerializeField]
   /// @brief Field _beatmapCharacteristic, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapCharacteristic ____beatmapCharacteristic;
 

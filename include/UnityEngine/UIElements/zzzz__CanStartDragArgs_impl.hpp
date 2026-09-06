@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CanStartDragArgs.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CanStartDragArgs.hpp"
 #include "UnityEngine/UIElements/zzzz__CanStartDragArgs_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
@@ -29,8 +29,9 @@ inline void UnityEngine::UIElements::CanStartDragArgs::_ctor(::UnityEngine::UIEl
           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<int32_t>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, draggedElement, id, selectedIds);
 }
-// Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "id", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "selectedIds", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "id", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "selectedIds", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::UIElements::CanStartDragArgs::CanStartDragArgs(::UnityEngine::UIElements::VisualElement* draggedElement, int32_t id,
                                                                         ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds) noexcept {
   this->draggedElement = draggedElement;

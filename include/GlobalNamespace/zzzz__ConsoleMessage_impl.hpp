@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConsoleMessage.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConsoleMessage.hpp"
 #include "UnityEngine/zzzz__LogType_impl.hpp"
 #include "GlobalNamespace/zzzz__ConsoleMessage_def.hpp"
 #include "UnityEngine/zzzz__LogType_def.hpp"
@@ -38,7 +38,8 @@ inline ::StringW GlobalNamespace::ConsoleMessage::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ConsoleMessage>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "::UnityEngine::LogType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty: "::UnityEngine::LogType", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ConsoleMessage::ConsoleMessage(::StringW message, ::UnityEngine::LogType type) noexcept {
   this->message = message;
   this->type = type;

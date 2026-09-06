@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\TraceJsonWriter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/TraceJsonWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,9 @@ namespace System {
 struct Guid;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -49,6 +51,8 @@ class TraceJsonWriter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::TraceJsonWriter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::TraceJsonWriter*, "Newtonsoft.Json.Serialization", "TraceJsonWriter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonWriter
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -76,6 +80,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::TraceJsonWriter* New_ctor(::Newtonsoft::Json::JsonWriter* innerWriter);
 
+  /// [NullableContext(2)]
   /// @brief Method WriteComment, addr 0x5d5c95c, size 0x5c, virtual true, abstract: false, final false
   inline void WriteComment(::StringW text);
 
@@ -97,9 +102,11 @@ public:
   /// @brief Method WritePropertyName, addr 0x5d5cb60, size 0x6c, virtual true, abstract: false, final false
   inline void WritePropertyName(::StringW name, bool escape);
 
+  /// [NullableContext(2)]
   /// @brief Method WriteRaw, addr 0x5d5ccd8, size 0x50, virtual true, abstract: false, final false
   inline void WriteRaw(::StringW json);
 
+  /// [NullableContext(2)]
   /// @brief Method WriteRawValue, addr 0x5d5cc68, size 0x70, virtual true, abstract: false, final false
   inline void WriteRawValue(::StringW json);
 
@@ -115,9 +122,11 @@ public:
   /// @brief Method WriteUndefined, addr 0x5d5b980, size 0x60, virtual true, abstract: false, final false
   inline void WriteUndefined();
 
+  /// [NullableContext(2)]
   /// @brief Method WriteValue, addr 0x5d5b518, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValue(::ArrayW<uint8_t> value);
 
+  /// [NullableContext(2)]
   /// @brief Method WriteValue, addr 0x5d5c2cc, size 0x70, virtual true, abstract: false, final false
   inline void WriteValue(::StringW value);
 
@@ -184,12 +193,14 @@ public:
   /// @brief Method WriteValue, addr 0x5d5b320, size 0xc4, virtual true, abstract: false, final false
   inline void WriteValue(::System::Nullable_1<uint8_t> value);
 
+  /// [NullableContext(2)]
   /// @brief Method WriteValue, addr 0x5d5bf54, size 0x110, virtual true, abstract: false, final false
   inline void WriteValue(::System::Object* value);
 
   /// @brief Method WriteValue, addr 0x5d5c33c, size 0x70, virtual true, abstract: false, final false
   inline void WriteValue(::System::TimeSpan value);
 
+  /// [NullableContext(2)]
   /// @brief Method WriteValue, addr 0x5d5c6f0, size 0xdc, virtual true, abstract: false, final false
   inline void WriteValue(::System::Uri* value);
 
@@ -259,13 +270,13 @@ protected:
   constexpr TraceJsonWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TraceJsonWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceJsonWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TraceJsonWriter(TraceJsonWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TraceJsonWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceJsonWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TraceJsonWriter(TraceJsonWriter const&) = delete;
+  TraceJsonWriter(TraceJsonWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13538 };

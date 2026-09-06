@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DocumentationInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DocumentationInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DocumentationInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::DocumentationInfo.get_version

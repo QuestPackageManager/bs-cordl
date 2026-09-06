@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\RenderTargetBufferSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/RenderTargetBufferSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,8 +48,9 @@ public:
   // @brief default ctor
   constexpr RenderTargetBufferSystem_SwapBuffer();
 
-  // Ctor Parameters [CppParam { name: "rtMSAA", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None }, CppParam { name: "rtResolve", ty: "::UnityEngine::Rendering::RTHandle*",
-  // modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "msaa", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rtMSAA", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name: "rtResolve", ty:
+  // "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "msaa", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderTargetBufferSystem_SwapBuffer(::UnityEngine::Rendering::RTHandle* rtMSAA, ::UnityEngine::Rendering::RTHandle* rtResolve, ::StringW name, int32_t msaa) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -194,13 +195,13 @@ protected:
   constexpr RenderTargetBufferSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderTargetBufferSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderTargetBufferSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderTargetBufferSystem(RenderTargetBufferSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderTargetBufferSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderTargetBufferSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderTargetBufferSystem(RenderTargetBufferSystem const&) = delete;
+  RenderTargetBufferSystem(RenderTargetBufferSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13110 };

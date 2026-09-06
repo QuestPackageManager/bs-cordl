@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Unity\UnityTlsContext.hpp"
+// IWYU pragma private; include "Mono/Unity/UnityTlsContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -146,6 +146,7 @@ public:
   inline void CertificateCallback(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509name* caList, ::System::IntPtr caListLen,
                                   ::Mono::Unity::UnityTls_unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls_unitytls_key_ref* key, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
+  /// [MonoPInvokeCallback(typeof(Mono.Unity.UnityTls::unitytls_tlsctx_certificate_callback))]
   /// @brief Method CertificateCallback, addr 0x5fd2a58, size 0x110, virtual false, abstract: false, final false
   static inline void CertificateCallback(void* userData, ::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509name* caList,
                                          ::System::IntPtr caListLen, ::Mono::Unity::UnityTls_unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls_unitytls_key_ref* key,
@@ -175,6 +176,7 @@ public:
   /// @brief Method ReadCallback, addr 0x5fd4380, size 0x298, virtual false, abstract: false, final false
   inline ::System::IntPtr ReadCallback(uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
+  /// [MonoPInvokeCallback(typeof(Mono.Unity.UnityTls::unitytls_tlsctx_read_callback))]
   /// @brief Method ReadCallback, addr 0x5fd2850, size 0x110, virtual false, abstract: false, final false
   static inline ::System::IntPtr ReadCallback(void* userData, uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
@@ -190,6 +192,7 @@ public:
   /// @brief Method VerifyCallback, addr 0x5fd4734, size 0x364, virtual false, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
+  /// [MonoPInvokeCallback(typeof(Mono.Unity.UnityTls::unitytls_tlsctx_x509verify_callback))]
   /// @brief Method VerifyCallback, addr 0x5fd2960, size 0xf8, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(void* userData, ::Mono::Unity::UnityTls_unitytls_x509list_ref chain,
                                                                                   ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
@@ -200,6 +203,7 @@ public:
   /// @brief Method WriteCallback, addr 0x5fd3fa8, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::IntPtr WriteCallback(uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
+  /// [MonoPInvokeCallback(typeof(Mono.Unity.UnityTls::unitytls_tlsctx_write_callback))]
   /// @brief Method WriteCallback, addr 0x5fd2740, size 0x110, virtual false, abstract: false, final false
   static inline ::System::IntPtr WriteCallback(void* userData, uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
@@ -323,13 +327,13 @@ protected:
   constexpr UnityTlsContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTlsContext(UnityTlsContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTlsContext(UnityTlsContext const&) = delete;
+  UnityTlsContext(UnityTlsContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11001 };

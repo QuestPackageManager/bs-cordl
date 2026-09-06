@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseBoolField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseBoolField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,16 +59,19 @@ public:
   /// @brief Field m_OriginalText, offset 0x548, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OriginalText, put = __cordl_internal_set_m_OriginalText)) ::StringW m_OriginalText;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
   /// @brief Field textProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_textProperty, put = setStaticF_textProperty)) ::UnityEngine::UIElements::BindingId textProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_toggleOnLabelClick, put = set_toggleOnLabelClick)) bool toggleOnLabelClick;
 
   /// @brief Field toggleOnLabelClickProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_toggleOnLabelClickProperty, put = setStaticF_toggleOnLabelClickProperty)) ::UnityEngine::UIElements::BindingId toggleOnLabelClickProperty;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_toggleOnTextClick, put = set_toggleOnTextClick)) bool toggleOnTextClick;
 
   /// @brief Method InitLabel, addr 0x6c58024, size 0xfc, virtual true, abstract: false, final false
@@ -146,9 +149,11 @@ public:
   /// @brief Method get_text, addr 0x6c58008, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
+  /// [CompilerGenerated]
   /// @brief Method get_toggleOnLabelClick, addr 0x6c57c18, size 0x8, virtual false, abstract: false, final false
   inline bool get_toggleOnLabelClick();
 
+  /// [CompilerGenerated]
   /// @brief Method get_toggleOnTextClick, addr 0x6c57c28, size 0x8, virtual false, abstract: false, final false
   inline bool get_toggleOnTextClick();
 
@@ -162,9 +167,11 @@ public:
   /// @brief Method set_text, addr 0x6c57ed4, size 0xfc, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_toggleOnLabelClick, addr 0x6c57c20, size 0x8, virtual false, abstract: false, final false
   inline void set_toggleOnLabelClick(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_toggleOnTextClick, addr 0x6c57c30, size 0x8, virtual false, abstract: false, final false
   inline void set_toggleOnTextClick(bool value);
 
@@ -174,13 +181,13 @@ protected:
   constexpr BaseBoolField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseBoolField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseBoolField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseBoolField(BaseBoolField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseBoolField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseBoolField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseBoolField(BaseBoolField const&) = delete;
+  BaseBoolField(BaseBoolFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4103 };
@@ -194,9 +201,13 @@ public:
   /// @brief Field m_Clickable, offset: 0x538, size: 0x8, def value: None
   ::UnityEngine::UIElements::Clickable* ___m_Clickable;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <toggleOnLabelClick>k__BackingField, offset: 0x540, size: 0x1, def value: None
   bool ____toggleOnLabelClick_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <toggleOnTextClick>k__BackingField, offset: 0x541, size: 0x1, def value: None
   bool ____toggleOnTextClick_k__BackingField;
 

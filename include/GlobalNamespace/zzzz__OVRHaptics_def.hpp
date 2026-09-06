@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRHaptics.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRHaptics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,21 +96,27 @@ public:
 
   static inline int32_t getStaticF__SampleSizeInBytes_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MaximumBufferSamplesCount, addr 0x5e58530, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_MaximumBufferSamplesCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MinimumBufferSamplesCount, addr 0x5e583b8, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_MinimumBufferSamplesCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MinimumSafeSamplesQueued, addr 0x5e582fc, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_MinimumSafeSamplesQueued();
 
+  /// [CompilerGenerated]
   /// @brief Method get_OptimalBufferSamplesCount, addr 0x5e58474, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_OptimalBufferSamplesCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SampleRateHz, addr 0x5e58184, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_SampleRateHz();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SampleSizeInBytes, addr 0x5e58240, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_SampleSizeInBytes();
 
@@ -126,21 +132,27 @@ public:
 
   static inline void setStaticF__SampleSizeInBytes_k__BackingField(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MaximumBufferSamplesCount, addr 0x5e5858c, size 0x60, virtual false, abstract: false, final false
   static inline void set_MaximumBufferSamplesCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MinimumBufferSamplesCount, addr 0x5e58414, size 0x60, virtual false, abstract: false, final false
   static inline void set_MinimumBufferSamplesCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MinimumSafeSamplesQueued, addr 0x5e58358, size 0x60, virtual false, abstract: false, final false
   static inline void set_MinimumSafeSamplesQueued(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_OptimalBufferSamplesCount, addr 0x5e584d0, size 0x60, virtual false, abstract: false, final false
   static inline void set_OptimalBufferSamplesCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SampleRateHz, addr 0x5e581e0, size 0x60, virtual false, abstract: false, final false
   static inline void set_SampleRateHz(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SampleSizeInBytes, addr 0x5e5829c, size 0x60, virtual false, abstract: false, final false
   static inline void set_SampleSizeInBytes(int32_t value);
 
@@ -150,13 +162,13 @@ protected:
   constexpr OVRHaptics_Config();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_Config", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_Config", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHaptics_Config(OVRHaptics_Config&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_Config", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_Config", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHaptics_Config(OVRHaptics_Config const&) = delete;
+  OVRHaptics_Config(OVRHaptics_Configconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7178 };
@@ -206,13 +218,13 @@ protected:
   constexpr OVRHaptics_OVRHapticsChannel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsChannel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsChannel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHaptics_OVRHapticsChannel(OVRHaptics_OVRHapticsChannel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsChannel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsChannel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHaptics_OVRHapticsChannel(OVRHaptics_OVRHapticsChannel const&) = delete;
+  OVRHaptics_OVRHapticsChannel(OVRHaptics_OVRHapticsChannelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7179 };
@@ -262,15 +274,19 @@ public:
   /// @brief Method .ctor, addr 0x5e58d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRHapticsClip* clip);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Clip, addr 0x5e58fc4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRHapticsClip* get_Clip();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReadCount, addr 0x5e58fb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ReadCount();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Clip, addr 0x5e58fcc, size 0x8, virtual false, abstract: false, final false
   inline void set_Clip(::GlobalNamespace::OVRHapticsClip* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReadCount, addr 0x5e58fbc, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadCount(int32_t value);
 
@@ -280,20 +296,22 @@ protected:
   constexpr OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker(OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker(OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker const&) = delete;
+  OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker(OVRHapticsOutput_OVRHaptics_ClipPlaybackTrackerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7180 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ReadCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____ReadCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Clip>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::OVRHapticsClip* ____Clip_k__BackingField;
 
@@ -433,13 +451,13 @@ protected:
   constexpr OVRHaptics_OVRHapticsOutput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsOutput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsOutput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHaptics_OVRHapticsOutput(OVRHaptics_OVRHapticsOutput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsOutput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics_OVRHapticsOutput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHaptics_OVRHapticsOutput(OVRHaptics_OVRHapticsOutput const&) = delete;
+  OVRHaptics_OVRHapticsOutput(OVRHaptics_OVRHapticsOutputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7181 };
@@ -500,6 +518,7 @@ static_assert(offsetof(::GlobalNamespace::OVRHaptics_OVRHapticsOutput, ___PrevSa
 static_assert(sizeof(::GlobalNamespace::OVRHaptics_OVRHapticsOutput) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-haptics-apis/")]
 // Dependencies OVRHaptics::OVRHapticsChannel, OVRHaptics::OVRHapticsOutput, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -550,13 +569,13 @@ protected:
   constexpr OVRHaptics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHaptics(OVRHaptics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHaptics(OVRHaptics const&) = delete;
+  OVRHaptics(OVRHapticsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7182 };

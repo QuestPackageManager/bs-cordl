@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\IXmlDictionary.hpp"
+// IWYU pragma private; include "System/Xml/IXmlDictionary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +22,12 @@ namespace System::Xml {
 class CORDL_TYPE IXmlDictionary {
 public:
   // Declarations
-  /// @brief Method TryLookup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryLookup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryLookup(int32_t key, ::by_ref<::System::Xml::XmlDictionaryString*> result);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IXmlDictionary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IXmlDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IXmlDictionary(IXmlDictionary const&) = delete;
+  IXmlDictionary(IXmlDictionaryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16933 };

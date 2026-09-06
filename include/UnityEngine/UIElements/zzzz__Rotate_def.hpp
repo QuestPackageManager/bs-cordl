@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Rotate.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Rotate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,8 +125,8 @@ public:
   // @brief default ctor
   constexpr Rotate();
 
-  // Ctor Parameters [CppParam { name: "m_Angle", ty: "::UnityEngine::UIElements::Angle", modifiers: "", def_value: None }, CppParam { name: "m_Axis", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Angle", ty: "::UnityEngine::UIElements::Angle", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Axis", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr Rotate(::UnityEngine::UIElements::Angle m_Angle, ::UnityEngine::Vector3 m_Axis, bool m_IsNone) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -196,9 +196,11 @@ public:
   /// @brief Method .ctor, addr 0x6c91d3c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c91e0c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c91e04, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -208,20 +210,24 @@ protected:
   constexpr PropertyBag_Rotate_AngleProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AngleProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AngleProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_Rotate_AngleProperty(PropertyBag_Rotate_AngleProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AngleProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AngleProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Rotate_AngleProperty(PropertyBag_Rotate_AngleProperty const&) = delete;
+  PropertyBag_Rotate_AngleProperty(PropertyBag_Rotate_AnglePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4955 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -275,9 +281,11 @@ public:
   /// @brief Method .ctor, addr 0x6c91da0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c91e2c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c91e24, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -287,20 +295,24 @@ protected:
   constexpr PropertyBag_Rotate_AxisProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AxisProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AxisProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_Rotate_AxisProperty(PropertyBag_Rotate_AxisProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AxisProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Rotate_AxisProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Rotate_AxisProperty(PropertyBag_Rotate_AxisProperty const&) = delete;
+  PropertyBag_Rotate_AxisProperty(PropertyBag_Rotate_AxisPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4956 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -336,13 +348,13 @@ protected:
   constexpr Rotate_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Rotate_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rotate_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Rotate_PropertyBag(Rotate_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Rotate_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rotate_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Rotate_PropertyBag(Rotate_PropertyBag const&) = delete;
+  Rotate_PropertyBag(Rotate_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4957 };

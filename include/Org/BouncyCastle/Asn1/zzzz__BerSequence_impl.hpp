@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerSequence.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerSequence.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerSequence_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerSequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
@@ -109,7 +109,7 @@ inline void Org::BouncyCastle::Asn1::BerSequence::_ctor(::Org::BouncyCastle::Asn
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerSequence*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Encodable*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element);
 }
-inline void Org::BouncyCastle::Asn1::BerSequence::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
+inline void Org::BouncyCastle::Asn1::BerSequence::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerSequence*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, elements);
@@ -129,7 +129,7 @@ inline ::Org::BouncyCastle::Asn1::BerSequence* Org::BouncyCastle::Asn1::BerSeque
 inline ::Org::BouncyCastle::Asn1::BerSequence* Org::BouncyCastle::Asn1::BerSequence::New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::BerSequence*>(element));
 }
-inline ::Org::BouncyCastle::Asn1::BerSequence* Org::BouncyCastle::Asn1::BerSequence::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
+inline ::Org::BouncyCastle::Asn1::BerSequence* Org::BouncyCastle::Asn1::BerSequence::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::BerSequence*>(elements));
 }
 inline ::Org::BouncyCastle::Asn1::BerSequence* Org::BouncyCastle::Asn1::BerSequence::New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector) {

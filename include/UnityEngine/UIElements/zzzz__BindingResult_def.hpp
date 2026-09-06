@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingResult.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct BindingResult;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::BindingResult);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BindingResult, "UnityEngine.UIElements", "BindingResult");
+// [IsReadOnly]
 // Dependencies UnityEngine.UIElements.BindingStatus
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -31,9 +32,11 @@ public:
   /// @brief Method .ctor, addr 0x6c30b68, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BindingStatus status, ::StringW message);
 
+  /// [CompilerGenerated]
   /// @brief Method get_message, addr 0x6c30b60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_message();
 
+  /// [CompilerGenerated]
   /// @brief Method get_status, addr 0x6c30b58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingStatus get_status();
 
@@ -41,8 +44,8 @@ public:
   // @brief default ctor
   constexpr BindingResult();
 
-  // Ctor Parameters [CppParam { name: "_status_k__BackingField", ty: "::UnityEngine::UIElements::BindingStatus", modifiers: "", def_value: None }, CppParam { name: "_message_k__BackingField", ty:
-  // "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_status_k__BackingField", ty: "::UnityEngine::UIElements::BindingStatus", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_message_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr BindingResult(::UnityEngine::UIElements::BindingStatus _status_k__BackingField, ::StringW _message_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -51,9 +54,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <status>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::BindingStatus _status_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <message>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _message_k__BackingField;
 

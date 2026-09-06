@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\SCrypt.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/SCrypt.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__SCrypt_def.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -200,7 +200,7 @@ inline void Org::BouncyCastle::Crypto::Generators::SCrypt::Clear(::System::Array
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::SCrypt*>(), { "Clear", {}, { ::i2c::type_of<::System::Array*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array);
 }
-inline void Org::BouncyCastle::Crypto::Generators::SCrypt::ClearAll(::ArrayW<::System::Array*> arrays) {
+inline void Org::BouncyCastle::Crypto::Generators::SCrypt::ClearAll(/* [ParamArray] */ ::ArrayW<::System::Array*> arrays) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::SCrypt*>(), { "ClearAll", {}, { ::i2c::type_of<::ArrayW<::System::Array*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, arrays);

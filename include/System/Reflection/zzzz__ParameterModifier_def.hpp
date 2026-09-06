@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ParameterModifier.hpp"
+// IWYU pragma private; include "System/Reflection/ParameterModifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct ParameterModifier;
 // Write type traits
 MARK_VAL_T(::System::Reflection::ParameterModifier);
 DEFINE_IL2CPP_CLASS(::System::Reflection::ParameterModifier, "System.Reflection", "ParameterModifier");
+// [DefaultMember("Item")]
+// [IsReadOnly]
 // Dependencies
 namespace System::Reflection {
 // Is value type: true
@@ -24,7 +26,7 @@ public:
   // @brief default ctor
   constexpr ParameterModifier();
 
-  // Ctor Parameters [CppParam { name: "_byRef", ty: "::ArrayW<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_byRef", ty: "::ArrayW<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr ParameterModifier(::ArrayW<bool> _byRef) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

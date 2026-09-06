@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\DataStreamWriter.hpp"
+// IWYU pragma private; include "Unity/Collections/DataStreamWriter.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__DataStreamWriter_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
@@ -12,9 +12,10 @@
 #include "Unity/Collections/zzzz__FixedString64Bytes_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__StreamCompressionModel_def.hpp"
-// Ctor Parameters [CppParam { name: "buffer", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bitBuffer", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bitIndex", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "failedWrites", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "buffer", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bitBuffer", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "bitIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "failedWrites", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::DataStreamWriter_StreamData::DataStreamWriter_StreamData(uint8_t* buffer, int32_t length, int32_t capacity, uint64_t bitBuffer, int32_t bitIndex,
                                                                                          int32_t failedWrites) noexcept {
   this->buffer = buffer;
@@ -1065,78 +1066,78 @@ inline bool Unity::Collections::DataStreamWriter::WriteRawBits(uint32_t value, i
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "WriteRawBits", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, numbits);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedUInt(uint32_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedUInt(uint32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedUInt", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedULong(uint64_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedULong(uint64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedULong", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedInt(int32_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedInt(int32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedInt", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedLong(int64_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedLong(int64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedLong", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedFloat(float_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedFloat(float_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFloat", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedDouble(double_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedDouble(double_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedDouble", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedUIntDelta(uint32_t value, uint32_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedUIntDelta(uint32_t value, uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                           { "WritePackedUIntDelta", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedIntDelta(int32_t value, int32_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedIntDelta(int32_t value, int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                           { "WritePackedIntDelta", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedLongDelta(int64_t value, int64_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedLongDelta(int64_t value, int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                           { "WritePackedLongDelta", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedULongDelta(uint64_t value, uint64_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedULongDelta(uint64_t value, uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                           { "WritePackedULongDelta", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedFloatDelta(float_t value, float_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedFloatDelta(float_t value, float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                           { "WritePackedFloatDelta", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedDoubleDelta(double_t value, double_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedDoubleDelta(double_t value, double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
@@ -1174,7 +1175,7 @@ inline bool Unity::Collections::DataStreamWriter::WriteFixedString4096(::Unity::
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString32Delta(::Unity::Collections::FixedString32Bytes str, ::Unity::Collections::FixedString32Bytes baseline,
-                                                                                ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString32Delta",
@@ -1184,7 +1185,7 @@ inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString32Delta(
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString64Delta(::Unity::Collections::FixedString64Bytes str, ::Unity::Collections::FixedString64Bytes baseline,
-                                                                                ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString64Delta",
@@ -1194,7 +1195,7 @@ inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString64Delta(
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString128Delta(::Unity::Collections::FixedString128Bytes str, ::Unity::Collections::FixedString128Bytes baseline,
-                                                                                 ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString128Delta",
@@ -1204,7 +1205,7 @@ inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString128Delta
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString512Delta(::Unity::Collections::FixedString512Bytes str, ::Unity::Collections::FixedString512Bytes baseline,
-                                                                                 ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString512Delta",
@@ -1214,7 +1215,7 @@ inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString512Delta
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes str, ::Unity::Collections::FixedString4096Bytes baseline,
-                                                                                  ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString4096Delta",
@@ -1224,7 +1225,7 @@ inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString4096Delt
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedStringDelta(uint8_t* data, uint32_t length, uint8_t* baseData, uint32_t baseLength,
-                                                                              ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "WritePackedFixedStringDelta",
@@ -1255,8 +1256,8 @@ inline void Unity::Collections::DataStreamWriter::CheckBits(uint32_t value, int3
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "CheckBits", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value, numBits);
 }
-// Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::DataStreamWriter_StreamData", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SendHandleData", ty:
-// "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::DataStreamWriter_StreamData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SendHandleData", ty:
+// "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::DataStreamWriter::DataStreamWriter(::Unity::Collections::DataStreamWriter_StreamData m_Data, ::System::IntPtr m_SendHandleData) noexcept {
   this->m_Data = m_Data;
   this->m_SendHandleData = m_SendHandleData;

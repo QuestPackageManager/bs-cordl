@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\DtdValidator.hpp"
+// IWYU pragma private; include "System/Xml/Schema/DtdValidator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,13 +79,13 @@ protected:
   constexpr DtdValidator_NamespaceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtdValidator_NamespaceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtdValidator_NamespaceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtdValidator_NamespaceManager(DtdValidator_NamespaceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtdValidator_NamespaceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtdValidator_NamespaceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtdValidator_NamespaceManager(DtdValidator_NamespaceManager const&) = delete;
+  DtdValidator_NamespaceManager(DtdValidator_NamespaceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9676 };
@@ -249,13 +249,13 @@ protected:
   constexpr DtdValidator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtdValidator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtdValidator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtdValidator(DtdValidator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtdValidator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtdValidator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtdValidator(DtdValidator const&) = delete;
+  DtdValidator(DtdValidatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9677 };

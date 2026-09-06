@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ErrorEventArgs.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ErrorEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ErrorEventArgs_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ErrorContext_def.hpp"
@@ -77,13 +77,13 @@ inline ::Newtonsoft::Json::Serialization::ErrorContext* Newtonsoft::Json::Serial
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorEventArgs*>(), { "get_ErrorContext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::ErrorContext*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::ErrorEventArgs::_ctor(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
+inline void Newtonsoft::Json::Serialization::ErrorEventArgs::_ctor(/* [Nullable(2)] */ ::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorEventArgs*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::Newtonsoft::Json::Serialization::ErrorContext*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentObject, errorContext);
 }
-inline ::Newtonsoft::Json::Serialization::ErrorEventArgs* Newtonsoft::Json::Serialization::ErrorEventArgs::New_ctor(::System::Object* currentObject,
+inline ::Newtonsoft::Json::Serialization::ErrorEventArgs* Newtonsoft::Json::Serialization::ErrorEventArgs::New_ctor(/* [Nullable(2)] */ ::System::Object* currentObject,
                                                                                                                     ::Newtonsoft::Json::Serialization::ErrorContext* errorContext) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Serialization::ErrorEventArgs*>(currentObject, errorContext));
 }

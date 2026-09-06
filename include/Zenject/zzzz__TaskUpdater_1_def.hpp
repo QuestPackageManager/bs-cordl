@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\TaskUpdater_1.hpp"
+// IWYU pragma private; include "Zenject/TaskUpdater_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,6 +97,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -109,13 +110,13 @@ protected:
   constexpr TaskUpdater_1_TaskInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1_TaskInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1_TaskInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskUpdater_1_TaskInfo(TaskUpdater_1_TaskInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1_TaskInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1_TaskInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskUpdater_1_TaskInfo(TaskUpdater_1_TaskInfo const&) = delete;
+  TaskUpdater_1_TaskInfo(TaskUpdater_1_TaskInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14688 };
@@ -133,6 +134,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -156,6 +158,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -176,13 +179,13 @@ protected:
   constexpr TaskUpdater_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskUpdater_1___c(TaskUpdater_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskUpdater_1___c(TaskUpdater_1___c const&) = delete;
+  TaskUpdater_1___c(TaskUpdater_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14689 };
@@ -191,6 +194,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -217,6 +221,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -229,13 +234,13 @@ protected:
   constexpr TaskUpdater_1___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskUpdater_1___c__DisplayClass8_0(TaskUpdater_1___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskUpdater_1___c__DisplayClass8_0(TaskUpdater_1___c__DisplayClass8_0 const&) = delete;
+  TaskUpdater_1___c__DisplayClass8_0(TaskUpdater_1___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14690 };
@@ -247,6 +252,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [DebuggerStepThrough]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -299,7 +305,7 @@ public:
   /// @brief Method UpdateAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateAll();
 
-  /// @brief Method UpdateItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateItem(TTask task);
 
   /// @brief Method UpdateRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -317,6 +323,7 @@ public:
 
   constexpr void __cordl_internal_set__tasks(::System::Collections::Generic::LinkedList_1<::Zenject::TaskUpdater_1_TaskInfo<TTask>*>* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -335,13 +342,13 @@ protected:
   constexpr TaskUpdater_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskUpdater_1(TaskUpdater_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskUpdater_1(TaskUpdater_1 const&) = delete;
+  TaskUpdater_1(TaskUpdater_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };

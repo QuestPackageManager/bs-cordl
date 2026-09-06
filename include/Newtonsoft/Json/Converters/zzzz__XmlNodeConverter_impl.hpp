@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XmlNodeConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XmlNodeConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeConverter_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDocument_def.hpp"
@@ -716,7 +716,8 @@ inline void Newtonsoft::Json::Converters::XmlNodeConverter::set_EncodeSpecialCha
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XmlNodeConverter*>(), { "set_EncodeSpecialCharacters", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void Newtonsoft::Json::Converters::XmlNodeConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer) {
+inline void Newtonsoft::Json::Converters::XmlNodeConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value,
+                                                                      ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::XmlNodeConverter*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
@@ -796,8 +797,8 @@ inline bool Newtonsoft::Json::Converters::XmlNodeConverter::AllSameName(::Newton
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XmlNodeConverter*>(), { "AllSameName", {}, { ::i2c::type_of<::Newtonsoft::Json::Converters::IXmlNode*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, node);
 }
-inline ::System::Object* Newtonsoft::Json::Converters::XmlNodeConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue,
-                                                                                  ::Newtonsoft::Json::JsonSerializer* serializer) {
+inline ::System::Object* Newtonsoft::Json::Converters::XmlNodeConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
+                                                                                  /* [Nullable(2)] */ ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::XmlNodeConverter*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, existingValue, serializer);
@@ -827,7 +828,8 @@ inline void Newtonsoft::Json::Converters::XmlNodeConverter::ReadElement(::Newton
 }
 inline void Newtonsoft::Json::Converters::XmlNodeConverter::CreateElement(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document,
                                                                           ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW elementName, ::System::Xml::XmlNamespaceManager* manager,
-                                                                          ::StringW elementPrefix, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* attributeNameValues) {
+                                                                          /* [Nullable(2)] */ ::StringW elementPrefix,
+                                                                          /* [Nullable(new[] { 2, 1, 2 })] */ ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* attributeNameValues) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XmlNodeConverter*>(),
                                               { "CreateElement",
@@ -839,7 +841,7 @@ inline void Newtonsoft::Json::Converters::XmlNodeConverter::CreateElement(::Newt
 }
 inline void Newtonsoft::Json::Converters::XmlNodeConverter::AddAttribute(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Converters::IXmlDocument* document,
                                                                          ::Newtonsoft::Json::Converters::IXmlNode* currentNode, ::StringW propertyName, ::StringW attributeName,
-                                                                         ::System::Xml::XmlNamespaceManager* manager, ::StringW attributePrefix) {
+                                                                         ::System::Xml::XmlNamespaceManager* manager, /* [Nullable(2)] */ ::StringW attributePrefix) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XmlNodeConverter*>(),
                                                            { "AddAttribute",
@@ -905,7 +907,8 @@ inline void Newtonsoft::Json::Converters::XmlNodeConverter::CreateDocumentType(:
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, document, currentNode);
 }
 inline ::Newtonsoft::Json::Converters::IXmlElement* Newtonsoft::Json::Converters::XmlNodeConverter::CreateElement(::StringW elementName, ::Newtonsoft::Json::Converters::IXmlDocument* document,
-                                                                                                                  ::StringW elementPrefix, ::System::Xml::XmlNamespaceManager* manager) {
+                                                                                                                  /* [Nullable(2)] */ ::StringW elementPrefix,
+                                                                                                                  ::System::Xml::XmlNamespaceManager* manager) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XmlNodeConverter*>(),
                                                                                          { "CreateElement",
                                                                                            {},
@@ -923,7 +926,7 @@ inline void Newtonsoft::Json::Converters::XmlNodeConverter::DeserializeNode(::Ne
                                                                ::i2c::type_of<::System::Xml::XmlNamespaceManager*>(), ::i2c::type_of<::Newtonsoft::Json::Converters::IXmlNode*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, document, manager, currentNode);
 }
-inline bool Newtonsoft::Json::Converters::XmlNodeConverter::IsNamespaceAttribute(::StringW attributeName, ::by_ref<::StringW> prefix) {
+inline bool Newtonsoft::Json::Converters::XmlNodeConverter::IsNamespaceAttribute(::StringW attributeName, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::StringW> prefix) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XmlNodeConverter*>(),
                                                                                          { "IsNamespaceAttribute", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, attributeName, prefix);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\NativeArrayExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/NativeArrayExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,7 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArrayExtensions)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::Universal {
@@ -16,6 +18,7 @@ class NativeArrayExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::NativeArrayExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::NativeArrayExtensions*, "UnityEngine.Rendering.Universal", "NativeArrayExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -23,11 +26,17 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE NativeArrayExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method UnsafeElementAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::by_ref<T> UnsafeElementAt(::Unity::Collections::NativeArray_1<T> array, int32_t index);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::by_ref<T> UnsafeElementAt(::Unity::Collections::NativeArray_1<T> array, int32_t index);
 
+  /// [Extension]
   /// @brief Method UnsafeElementAtMutable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::by_ref<T> UnsafeElementAtMutable(::Unity::Collections::NativeArray_1<T> array, int32_t index);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::by_ref<T> UnsafeElementAtMutable(::Unity::Collections::NativeArray_1<T> array, int32_t index);
 
 protected:
   // Ctor Parameters []
@@ -35,13 +44,13 @@ protected:
   constexpr NativeArrayExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeArrayExtensions(NativeArrayExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeArrayExtensions(NativeArrayExtensions const&) = delete;
+  NativeArrayExtensions(NativeArrayExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13032 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\BarrierPostPhaseException.hpp"
+// IWYU pragma private; include "System/Threading/BarrierPostPhaseException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Threading/zzzz__BarrierPostPhaseException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

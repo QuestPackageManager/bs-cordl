@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\MonoCustomAttrs.hpp"
+// IWYU pragma private; include "System/MonoCustomAttrs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,13 +107,13 @@ protected:
   constexpr MonoCustomAttrs_AttributeInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs_AttributeInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs_AttributeInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoCustomAttrs_AttributeInfo(MonoCustomAttrs_AttributeInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs_AttributeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs_AttributeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoCustomAttrs_AttributeInfo(MonoCustomAttrs_AttributeInfo const&) = delete;
+  MonoCustomAttrs_AttributeInfo(MonoCustomAttrs_AttributeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2617 };
@@ -232,13 +232,13 @@ protected:
   constexpr MonoCustomAttrs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoCustomAttrs(MonoCustomAttrs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoCustomAttrs(MonoCustomAttrs const&) = delete;
+  MonoCustomAttrs(MonoCustomAttrsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2618 };

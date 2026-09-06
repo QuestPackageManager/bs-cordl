@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ColorGamutUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ColorGamutUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,12 +31,15 @@ namespace UnityEngine {
 class CORDL_TYPE ColorGamutUtility : public ::System::Object {
 public:
   // Declarations
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetColorPrimaries, addr 0x6a8c0cc, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorPrimaries GetColorPrimaries(::UnityEngine::ColorGamut gamut);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetTransferFunction, addr 0x6a8c144, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TransferFunction GetTransferFunction(::UnityEngine::ColorGamut gamut);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method GetWhitePoint, addr 0x6a8c108, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::WhitePoint GetWhitePoint(::UnityEngine::ColorGamut gamut);
 
@@ -46,13 +49,13 @@ protected:
   constexpr ColorGamutUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGamutUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGamutUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorGamutUtility(ColorGamutUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorGamutUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorGamutUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorGamutUtility(ColorGamutUtility const&) = delete;
+  ColorGamutUtility(ColorGamutUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10148 };

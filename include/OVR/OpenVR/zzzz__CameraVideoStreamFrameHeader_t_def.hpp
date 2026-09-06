@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\CameraVideoStreamFrameHeader_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/CameraVideoStreamFrameHeader_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,9 +26,10 @@ public:
   // @brief default ctor
   constexpr CameraVideoStreamFrameHeader_t();
 
-  // Ctor Parameters [CppParam { name: "eFrameType", ty: "::OVR::OpenVR::EVRTrackedCameraFrameType", modifiers: "", def_value: None }, CppParam { name: "nWidth", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "nHeight", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nBytesPerPixel", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "nFrameSequence", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "standingTrackedDevicePose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "eFrameType", ty: "::OVR::OpenVR::EVRTrackedCameraFrameType", modifiers: "", def_value: None, comment: None }, CppParam { name: "nWidth", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "nHeight", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nBytesPerPixel", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "nFrameSequence", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "standingTrackedDevicePose",
+  // ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None, comment: None }]
   constexpr CameraVideoStreamFrameHeader_t(::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint32_t nWidth, uint32_t nHeight, uint32_t nBytesPerPixel, uint32_t nFrameSequence,
                                            ::OVR::OpenVR::TrackedDevicePose_t standingTrackedDevicePose) noexcept;
 

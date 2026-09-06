@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerVector4.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerVector4.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerVector4_def.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerContainer_def.hpp"

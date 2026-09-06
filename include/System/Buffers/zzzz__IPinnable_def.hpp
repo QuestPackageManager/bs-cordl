@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Buffers\IPinnable.hpp"
+// IWYU pragma private; include "System/Buffers/IPinnable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +18,12 @@ namespace System::Buffers {
 class CORDL_TYPE IPinnable {
 public:
   // Declarations
-  /// @brief Method Unpin, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Unpin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Unpin();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPinnable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPinnable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPinnable(IPinnable const&) = delete;
+  IPinnable(IPinnableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3824 };

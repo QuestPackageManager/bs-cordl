@@ -1,12 +1,15 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue\IFixedSizePriorityQueue_2.hpp"
+// IWYU pragma private; include "Priority_Queue/IFixedSizePriorityQueue_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IComparable_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IFixedSizePriorityQueue_2)
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class IPriorityQueue_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -16,15 +19,18 @@ class IEnumerable;
 }
 // Forward declare root types
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class IFixedSizePriorityQueue_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::IFixedSizePriorityQueue_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::IFixedSizePriorityQueue_2, "Priority_Queue", "IFixedSizePriorityQueue`2");
-// Dependencies
+// Dependencies System.IComparable`1<T>
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.IFixedSizePriorityQueue`2<TItem,TPriority>
 class CORDL_TYPE IFixedSizePriorityQueue_2 {
@@ -41,13 +47,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method ResetNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ResetNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetNode(TItem node);
 
-  /// @brief Method Resize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resize(int32_t maxNodes);
 
-  /// @brief Method get_MaxSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_MaxSize();
 
   /// @brief Convert to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
@@ -59,9 +65,9 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IFixedSizePriorityQueue_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IFixedSizePriorityQueue_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IFixedSizePriorityQueue_2(IFixedSizePriorityQueue_2 const&) = delete;
+  IFixedSizePriorityQueue_2(IFixedSizePriorityQueue_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20491 };

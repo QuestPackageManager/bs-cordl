@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityXRSystemState.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityXRSystemState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   constexpr operator ::GlobalNamespace::IXRSystemState*() noexcept;
 
   /// @brief Method AddListener, addr 0x59fa838, size 0x9c, virtual true, abstract: false, final true
-  inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
+  inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
 
   /// @brief Method Awake, addr 0x59fa990, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
@@ -121,6 +121,7 @@ public:
   /// @brief Method .ctor, addr 0x59fabc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add__onChangeStateEvent, addr 0x59fa698, size 0xc0, virtual false, abstract: false, final false
   inline void add__onChangeStateEvent(::System::Action_1<::GlobalNamespace::XRSystemEventType>* value);
 
@@ -130,15 +131,18 @@ public:
   /// @brief Method get_hasInputFocus, addr 0x59fa818, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasInputFocus();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasVrFocus, addr 0x59fa820, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasVrFocus();
 
   /// @brief Convert to "::GlobalNamespace::IXRSystemState"
   constexpr ::GlobalNamespace::IXRSystemState* i___GlobalNamespace__IXRSystemState() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove__onChangeStateEvent, addr 0x59fa758, size 0xc0, virtual false, abstract: false, final false
   inline void remove__onChangeStateEvent(::System::Action_1<::GlobalNamespace::XRSystemEventType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasVrFocus, addr 0x59fa828, size 0x8, virtual false, abstract: false, final false
   inline void set_hasVrFocus(bool value);
 
@@ -148,17 +152,18 @@ protected:
   constexpr UnityXRSystemState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityXRSystemState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityXRSystemState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityXRSystemState(UnityXRSystemState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityXRSystemState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityXRSystemState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityXRSystemState(UnityXRSystemState const&) = delete;
+  UnityXRSystemState(UnityXRSystemStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6298 };
 
+  /// [CompilerGenerated]
   /// @brief Field _onChangeStateEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::XRSystemEventType>* ____onChangeStateEvent;
 
@@ -168,6 +173,7 @@ public:
   /// @brief Field _hasInputFocus, offset: 0x29, size: 0x1, def value: None
   bool ____hasInputFocus;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasVrFocus>k__BackingField, offset: 0x2a, size: 0x1, def value: None
   bool ____hasVrFocus_k__BackingField;
 

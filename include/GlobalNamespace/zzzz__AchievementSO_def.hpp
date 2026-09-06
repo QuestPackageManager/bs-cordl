@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AchievementSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/AchievementSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,17 +45,18 @@ protected:
   constexpr AchievementSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AchievementSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AchievementSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AchievementSO(AchievementSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AchievementSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AchievementSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AchievementSO(AchievementSO const&) = delete;
+  AchievementSO(AchievementSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14762 };
 
+  /// [SerializeField]
   /// @brief Field _achievementId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____achievementId;
 

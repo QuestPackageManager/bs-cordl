@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BitMaskArray.hpp"
+// IWYU pragma private; include "GlobalNamespace/BitMaskArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,6 +89,7 @@ public:
   /// @brief Method .ctor, addr 0x377c234, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitCount);
 
+  /// [CompilerGenerated]
   /// @brief Method get_bitCount, addr 0x377c22c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
@@ -107,17 +108,18 @@ protected:
   constexpr BitMaskArray();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitMaskArray", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitMaskArray", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitMaskArray(BitMaskArray&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitMaskArray", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitMaskArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitMaskArray(BitMaskArray const&) = delete;
+  BitMaskArray(BitMaskArrayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21163 };
 
+  /// [CompilerGenerated]
   /// @brief Field <bitCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____bitCount_k__BackingField;
 

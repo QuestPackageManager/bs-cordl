@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RandomizedPitch.hpp"
+// IWYU pragma private; include "GlobalNamespace/RandomizedPitch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ MARK_REF_T(::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RandomizedPitch*, "", "RandomizedPitch");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9*, "", "RandomizedPitch/<PlayDelayedCoroutine>d__9");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10*, "", "RandomizedPitch/<RestorePitchWithDelay>d__10");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -84,17 +85,22 @@ public:
   /// @brief Method MoveNext, addr 0x3321ea8, size 0xa4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3321f4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3321f54, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3321f8c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3321ea4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -122,6 +128,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3321e7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -140,13 +147,13 @@ protected:
   constexpr RandomizedPitch__PlayDelayedCoroutine_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__PlayDelayedCoroutine_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__PlayDelayedCoroutine_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RandomizedPitch__PlayDelayedCoroutine_d__9(RandomizedPitch__PlayDelayedCoroutine_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__PlayDelayedCoroutine_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__PlayDelayedCoroutine_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RandomizedPitch__PlayDelayedCoroutine_d__9(RandomizedPitch__PlayDelayedCoroutine_d__9 const&) = delete;
+  RandomizedPitch__PlayDelayedCoroutine_d__9(RandomizedPitch__PlayDelayedCoroutine_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20720 };
@@ -177,6 +184,7 @@ static_assert(offsetof(::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_
 static_assert(sizeof(::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -212,17 +220,22 @@ public:
   /// @brief Method MoveNext, addr 0x3321f98, size 0xb0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3322048, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3322050, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3322088, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3321f94, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -250,6 +263,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3321e84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -268,13 +282,13 @@ protected:
   constexpr RandomizedPitch__RestorePitchWithDelay_d__10();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__RestorePitchWithDelay_d__10", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__RestorePitchWithDelay_d__10", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RandomizedPitch__RestorePitchWithDelay_d__10(RandomizedPitch__RestorePitchWithDelay_d__10&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__RestorePitchWithDelay_d__10", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch__RestorePitchWithDelay_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RandomizedPitch__RestorePitchWithDelay_d__10(RandomizedPitch__RestorePitchWithDelay_d__10 const&) = delete;
+  RandomizedPitch__RestorePitchWithDelay_d__10(RandomizedPitch__RestorePitchWithDelay_d__10const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20721 };
@@ -345,9 +359,11 @@ public:
   /// @brief Method PlayDelayed, addr 0x3321de0, size 0x38, virtual false, abstract: false, final false
   inline void PlayDelayed(float_t delay);
 
+  /// [IteratorStateMachine(typeof(RandomizedPitch::<PlayDelayedCoroutine>d__9))]
   /// @brief Method PlayDelayedCoroutine, addr 0x3321e18, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayDelayedCoroutine(float_t delay);
 
+  /// [IteratorStateMachine(typeof(RandomizedPitch::<RestorePitchWithDelay>d__10))]
   /// @brief Method RestorePitchWithDelay, addr 0x3321d7c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RestorePitchWithDelay(float_t delay);
 
@@ -396,26 +412,30 @@ protected:
   constexpr RandomizedPitch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RandomizedPitch(RandomizedPitch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomizedPitch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RandomizedPitch(RandomizedPitch const&) = delete;
+  RandomizedPitch(RandomizedPitchconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20722 };
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [SerializeField]
   /// @brief Field _minPitchMultiplier, offset: 0x28, size: 0x4, def value: None
   float_t ____minPitchMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _maxPitchMultiplier, offset: 0x2c, size: 0x4, def value: None
   float_t ____maxPitchMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _playOnAwake, offset: 0x30, size: 0x1, def value: None
   bool ____playOnAwake;
 

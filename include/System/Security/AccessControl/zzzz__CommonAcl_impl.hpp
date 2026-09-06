@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\CommonAcl.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/CommonAcl.hpp"
+#include "System/Security/AccessControl/zzzz__GenericAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAcl_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAcl_def.hpp"
@@ -588,7 +589,9 @@ inline void System::Security::AccessControl::CommonAcl::ApplyCanonicalSortToExpl
                                                                                          { "ApplyCanonicalSortToExplicitAces", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, start, count);
 }
-template <typename T> inline void System::Security::AccessControl::CommonAcl::RemoveAces(::System::Security::AccessControl::CommonAcl_RemoveAcesCallback_1<T>* callback) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Security::AccessControl::GenericAce*>)
+inline void System::Security::AccessControl::CommonAcl::RemoveAces(::System::Security::AccessControl::CommonAcl_RemoveAcesCallback_1<T>* callback) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::CommonAcl*>(),
                                                            { "RemoveAces", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Security::AccessControl::CommonAcl_RemoveAcesCallback_1<T>*>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayAudioOnGameEventController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayAudioOnGameEventController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,23 +110,27 @@ protected:
   constexpr PlayAudioOnGameEventController_EventAudioBinding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController_EventAudioBinding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController_EventAudioBinding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayAudioOnGameEventController_EventAudioBinding(PlayAudioOnGameEventController_EventAudioBinding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController_EventAudioBinding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController_EventAudioBinding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayAudioOnGameEventController_EventAudioBinding(PlayAudioOnGameEventController_EventAudioBinding const&) = delete;
+  PlayAudioOnGameEventController_EventAudioBinding(PlayAudioOnGameEventController_EventAudioBindingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5577 };
 
+  /// [Header("==================")]
+  /// [SerializeField]
   /// @brief Field _signal, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____signal;
 
+  /// [SerializeField]
   /// @brief Field _delay, offset: 0x18, size: 0x4, def value: None
   float_t ____delay;
 
+  /// [SerializeField]
   /// @brief Field _localizedAudioClips, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LocalizedAudioClipSO>> ____localizedAudioClips;
 
@@ -197,20 +201,22 @@ protected:
   constexpr PlayAudioOnGameEventController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayAudioOnGameEventController(PlayAudioOnGameEventController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayAudioOnGameEventController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayAudioOnGameEventController(PlayAudioOnGameEventController const&) = delete;
+  PlayAudioOnGameEventController(PlayAudioOnGameEventControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5578 };
 
+  /// [SerializeField]
   /// @brief Field _audioClipQueue, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioClipQueue> ____audioClipQueue;
 
+  /// [SerializeField]
   /// @brief Field _eventAudioBindings, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding*> ____eventAudioBindings;
 

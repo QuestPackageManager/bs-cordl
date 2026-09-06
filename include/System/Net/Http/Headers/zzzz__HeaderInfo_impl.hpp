@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\HeaderInfo.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/HeaderInfo.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaderKind_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_def.hpp"
@@ -206,6 +206,7 @@ inline ::System::Net::Http::Headers::HeaderInfo* System::Net::Http::Headers::Hea
   return ::cordl_internals::RunMethodRethrow<::System::Net::Http::Headers::HeaderInfo*>(nullptr, ___internal_method, name, parser, headerKind, toString);
 }
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 inline ::System::Net::Http::Headers::HeaderInfo* System::Net::Http::Headers::HeaderInfo::CreateMulti(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* elementParser,
                                                                                                      ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount,
                                                                                                      ::StringW separator) {

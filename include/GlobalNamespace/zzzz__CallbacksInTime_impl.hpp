@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CallbacksInTime.hpp"
+// IWYU pragma private; include "GlobalNamespace/CallbacksInTime.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CallbacksInTime_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
@@ -233,7 +233,9 @@ inline void GlobalNamespace::CallbacksInTime::CallCallbacks(int32_t typeId, ::Gl
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CallbacksInTime*>(), { "CallCallbacks", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::GlobalNamespace::BeatmapDataItem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, typeId, beatmapDataItem);
 }
-template <typename T> inline void GlobalNamespace::CallbacksInTime::EnsureCapacity(::System::Collections::Generic::List_1<T>* list, int32_t index) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void GlobalNamespace::CallbacksInTime::EnsureCapacity(::System::Collections::Generic::List_1<T>* list, int32_t index) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CallbacksInTime*>(),
                                               { "EnsureCapacity", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>(), ::i2c::type_of<int32_t>() } })));

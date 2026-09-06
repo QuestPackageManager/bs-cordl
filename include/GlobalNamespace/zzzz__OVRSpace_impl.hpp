@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSpace.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSpace.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSpace_StorageLocation::OVRSpace_StorageLocation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -227,7 +227,7 @@ constexpr GlobalNamespace::OVRSpace::operator ::System::IEquatable_1<::GlobalNam
 constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSpace>* GlobalNamespace::OVRSpace::i___System__IEquatable_1___GlobalNamespace__OVRSpace_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRSpace>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSpace::OVRSpace(uint64_t _Handle_k__BackingField) noexcept {
   this->_Handle_k__BackingField = _Handle_k__BackingField;
 }

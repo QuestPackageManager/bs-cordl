@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIRRepaintUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIRRepaintUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -191,12 +191,15 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
+  /// [CompilerGenerated]
   /// @brief Method get_breakBatches, addr 0x6dd6fb4, size 0x8, virtual false, abstract: false, final false
   inline bool get_breakBatches();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6dd7cac, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_drawStats, addr 0x6dd6fac, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawStats();
 
@@ -216,6 +219,7 @@ public:
 
   static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6dd7cb4, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -231,13 +235,13 @@ protected:
   constexpr UIRRepaintUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRRepaintUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRRepaintUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRRepaintUpdater(UIRRepaintUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRRepaintUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRRepaintUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRRepaintUpdater(UIRRepaintUpdater const&) = delete;
+  UIRRepaintUpdater(UIRRepaintUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4680 };
@@ -254,12 +258,18 @@ public:
   /// @brief Field m_VertexBudget, offset: 0x3c, size: 0x4, def value: None
   uint32_t ___m_VertexBudget;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <drawStats>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____drawStats_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <breakBatches>k__BackingField, offset: 0x41, size: 0x1, def value: None
   bool ____breakBatches_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x42, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

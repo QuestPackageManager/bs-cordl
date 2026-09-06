@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TimelinePauseMarker.hpp"
+// IWYU pragma private; include "GlobalNamespace/TimelinePauseMarker.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "GlobalNamespace/zzzz__TimelinePauseMarker_def.hpp"

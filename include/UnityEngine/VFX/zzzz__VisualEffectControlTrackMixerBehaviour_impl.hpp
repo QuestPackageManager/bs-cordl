@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlTrackMixerBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlTrackMixerBehaviour.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectControlTrackMixerBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"

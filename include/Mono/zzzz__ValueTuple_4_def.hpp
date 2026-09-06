@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\ValueTuple_4.hpp"
+// IWYU pragma private; include "Mono/ValueTuple_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr ValueTuple_4();
 
-  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "T3",
-  // modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "Item3", ty: "T3", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None, comment: None }]
   constexpr ValueTuple_4(T1 Item1, T2 Item2, T3 Item3, T4 Item4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioPlayableGraphExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioPlayableGraphExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioPlayableGraphExtensions_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"

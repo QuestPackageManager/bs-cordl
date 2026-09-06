@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\HingeAngle.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/HingeAngle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class HingeAngle;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::HingeAngle*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::HingeAngle*, "UnityEngine.InputSystem", "HingeAngle");
+// [InputControlLayout(displayName = "Hinge Angle")]
 // Dependencies UnityEngine.InputSystem.Sensor
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -52,17 +53,21 @@ public:
 
   static inline ::UnityEngine::InputSystem::HingeAngle* getStaticF__current_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_angle, addr 0x6567354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_angle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6567364, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::HingeAngle* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::HingeAngle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_angle, addr 0x656735c, size 0x8, virtual false, abstract: false, final false
   inline void set_angle(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x65673b0, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::HingeAngle* value);
 
@@ -72,17 +77,18 @@ protected:
   constexpr HingeAngle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HingeAngle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HingeAngle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HingeAngle(HingeAngle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HingeAngle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HingeAngle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HingeAngle(HingeAngle const&) = delete;
+  HingeAngle(HingeAngleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8771 };
 
+  /// [CompilerGenerated]
   /// @brief Field <angle>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____angle_k__BackingField;
 

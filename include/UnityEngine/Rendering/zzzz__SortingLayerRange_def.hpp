@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SortingLayerRange.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SortingLayerRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,8 @@ public:
   // @brief default ctor
   constexpr SortingLayerRange();
 
-  // Ctor Parameters [CppParam { name: "m_LowerBound", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "m_UpperBound", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_LowerBound", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UpperBound", ty: "int16_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr SortingLayerRange(int16_t m_LowerBound, int16_t m_UpperBound) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

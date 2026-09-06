@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\Random.hpp"
+// IWYU pragma private; include "Unity/Mathematics/Random.hpp"
 #include "Unity/Mathematics/zzzz__Random_def.hpp"
 #include "Unity/Mathematics/zzzz__bool2_def.hpp"
 #include "Unity/Mathematics/zzzz__bool3_def.hpp"
@@ -1204,7 +1204,7 @@ inline void Unity::Mathematics::Random::CheckNextUIntMinMax(uint32_t min, uint32
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "CheckNextUIntMinMax", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, min, max);
 }
-// Ctor Parameters [CppParam { name: "state", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "state", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::Random::Random(uint32_t state) noexcept {
   this->state = state;
 }

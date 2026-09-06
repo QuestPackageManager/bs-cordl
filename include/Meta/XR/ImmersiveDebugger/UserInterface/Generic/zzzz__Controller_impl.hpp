@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Controller.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Controller.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Controller_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__LayoutStyle_def.hpp"
@@ -767,19 +767,24 @@ inline void Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::Set
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, owner);
 }
-template <typename T> inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::Append(::StringW childName) {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::Append(::StringW childName) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>(),
                                                                                               { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, childName);
 }
-template <typename T> inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::Prepend(::StringW childName) {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::Prepend(::StringW childName) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>(),
                                                                                               { "Prepend", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, childName);
 }
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::InsertAfter(::StringW childName, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* previous) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -789,6 +794,7 @@ inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::Insert
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, childName, previous);
 }
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::InsertBefore(::StringW childName, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* next) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -797,7 +803,9 @@ inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::Insert
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, childName, next);
 }
-template <typename T> inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::SetupChildController(::StringW childName) {
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+inline T Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller::SetupChildController(::StringW childName) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*>(),
                                                                                               { "SetupChildController", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

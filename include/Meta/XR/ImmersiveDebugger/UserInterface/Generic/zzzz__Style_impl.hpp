@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Style.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Style.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Style_def.hpp"
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Style.get_Instantiated

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Notepad\NoteSO.hpp"
+// IWYU pragma private; include "Notepad/NoteSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,23 +60,26 @@ protected:
   constexpr NoteSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteSO(NoteSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteSO(NoteSO const&) = delete;
+  NoteSO(NoteSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23745 };
 
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field title, offset: 0x18, size: 0x8, def value: None
   ::StringW ___title;
 
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field content, offset: 0x20, size: 0x8, def value: None
   ::StringW ___content;
 
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field urls, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::Notepad::NoteURL> ___urls;
 

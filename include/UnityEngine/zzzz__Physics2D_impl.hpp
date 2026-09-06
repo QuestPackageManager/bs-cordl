@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Physics2D.hpp"
+// IWYU pragma private; include "UnityEngine/Physics2D.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Physics2D_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -346,8 +346,9 @@ inline ::UnityEngine::RaycastHit2D UnityEngine::Physics2D::Raycast(::UnityEngine
           { "Raycast", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::RaycastHit2D>(nullptr, ___internal_method, origin, direction, distance, layerMask, minDepth);
 }
-inline ::UnityEngine::RaycastHit2D UnityEngine::Physics2D::Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance, int32_t layerMask, float_t minDepth,
-                                                                   float_t maxDepth) {
+inline ::UnityEngine::RaycastHit2D UnityEngine::Physics2D::Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, /* [DefaultValue("Mathf.Infinity")] */ float_t distance,
+                                                                   /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask, /* [DefaultValue("-Mathf.Infinity")] */ float_t minDepth,
+                                                                   /* [DefaultValue("Mathf.Infinity")] */ float_t maxDepth) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(), { "Raycast",
@@ -367,7 +368,7 @@ inline int32_t UnityEngine::Physics2D::Raycast(::UnityEngine::Vector2 origin, ::
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, origin, direction, contactFilter, results);
 }
 inline int32_t UnityEngine::Physics2D::Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, ::UnityEngine::ContactFilter2D contactFilter,
-                                               ::ArrayW<::UnityEngine::RaycastHit2D> results, float_t distance) {
+                                               ::ArrayW<::UnityEngine::RaycastHit2D> results, /* [DefaultValue("Mathf.Infinity")] */ float_t distance) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(),
                                                            { "Raycast",
@@ -377,7 +378,7 @@ inline int32_t UnityEngine::Physics2D::Raycast(::UnityEngine::Vector2 origin, ::
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, origin, direction, contactFilter, results, distance);
 }
 inline int32_t UnityEngine::Physics2D::Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, ::UnityEngine::ContactFilter2D contactFilter,
-                                               ::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>* results, float_t distance) {
+                                               ::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>* results, /* [DefaultValue("Mathf.Infinity")] */ float_t distance) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(),
                                                            { "Raycast",
@@ -386,7 +387,8 @@ inline int32_t UnityEngine::Physics2D::Raycast(::UnityEngine::Vector2 origin, ::
                                                                ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, origin, direction, contactFilter, results, distance);
 }
-inline ::UnityEngine::RaycastHit2D UnityEngine::Physics2D::GetRayIntersection(::UnityEngine::Ray ray, float_t distance, int32_t layerMask) {
+inline ::UnityEngine::RaycastHit2D UnityEngine::Physics2D::GetRayIntersection(::UnityEngine::Ray ray, /* [DefaultValue("Mathf.Infinity")] */ float_t distance,
+                                                                              /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(), { "GetRayIntersection", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
@@ -402,7 +404,8 @@ inline ::ArrayW<::UnityEngine::RaycastHit2D> UnityEngine::Physics2D::GetRayInter
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(), { "GetRayIntersectionAll", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit2D>>(nullptr, ___internal_method, ray, distance);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit2D> UnityEngine::Physics2D::GetRayIntersectionAll(::UnityEngine::Ray ray, float_t distance, int32_t layerMask) {
+inline ::ArrayW<::UnityEngine::RaycastHit2D> UnityEngine::Physics2D::GetRayIntersectionAll(::UnityEngine::Ray ray, /* [DefaultValue("Mathf.Infinity")] */ float_t distance,
+                                                                                           /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(),
                                                            { "GetRayIntersectionAll", {}, { ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
@@ -417,7 +420,8 @@ inline ::ArrayW<::UnityEngine::RaycastHit2D> UnityEngine::Physics2D::GetRayInter
                                                                                                 ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit2D>>(nullptr, ___internal_method, physicsScene, origin, direction, distance, layerMask);
 }
-inline int32_t UnityEngine::Physics2D::GetRayIntersectionNonAlloc(::UnityEngine::Ray ray, ::ArrayW<::UnityEngine::RaycastHit2D> results, float_t distance, int32_t layerMask) {
+inline int32_t UnityEngine::Physics2D::GetRayIntersectionNonAlloc(::UnityEngine::Ray ray, ::ArrayW<::UnityEngine::RaycastHit2D> results, /* [DefaultValue("Mathf.Infinity")] */ float_t distance,
+                                                                  /* [DefaultValue("DefaultRaycastLayers")] */ int32_t layerMask) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics2D*>(),

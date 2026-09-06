@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ArticulationBody.hpp"
+// IWYU pragma private; include "UnityEngine/ArticulationBody.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,9 @@ class ArticulationBody;
 // Write type traits
 MARK_REF_T(::UnityEngine::ArticulationBody*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ArticulationBody*, "UnityEngine", "ArticulationBody");
+// [NativeClass("Physics::ArticulationBody")]
+// [NativeHeader("Modules/Physics/ArticulationBody.h")]
+// [RequireComponent(typeof(UnityEngine.Transform))]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -82,6 +85,7 @@ public:
 
   __declspec(property(get = get_collisionDetectionMode, put = set_collisionDetectionMode)) ::UnityEngine::CollisionDetectionMode collisionDetectionMode;
 
+  /// @brief [Obsolete("computeParentAnchor has been renamed to matchAnchors (UnityUpgradable) -> matchAnchors")]
   __declspec(property(get = get_computeParentAnchor, put = set_computeParentAnchor)) bool computeParentAnchor;
 
   __declspec(property(get = get_dofCount)) int32_t dofCount;
@@ -154,6 +158,8 @@ public:
 
   __declspec(property(get = get_useGravity, put = set_useGravity)) bool useGravity;
 
+  /// [Obsolete("Please use ArticulationBody.linearVelocity instead. (UnityUpgradable) -> linearVelocity")]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_velocity, put = set_velocity)) ::UnityEngine::Vector3 velocity;
 
   __declspec(property(get = get_worldCenterOfMass)) ::UnityEngine::Vector3 worldCenterOfMass;
@@ -166,68 +172,76 @@ public:
 
   __declspec(property(get = get_zDrive, put = set_zDrive)) ::UnityEngine::ArticulationDrive zDrive;
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddForce, addr 0x6b75084, size 0x8, virtual false, abstract: false, final false
   inline void AddForce(::UnityEngine::Vector3 force);
 
   /// @brief Method AddForce, addr 0x6b74f88, size 0xa8, virtual false, abstract: false, final false
-  inline void AddForce(::UnityEngine::Vector3 force, ::UnityEngine::ForceMode mode);
+  inline void AddForce(::UnityEngine::Vector3 force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddForceAtPosition, addr 0x6b754a8, size 0x8, virtual false, abstract: false, final false
   inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position);
 
   /// @brief Method AddForceAtPosition, addr 0x6b75398, size 0xb4, virtual false, abstract: false, final false
-  inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position, ::UnityEngine::ForceMode mode);
+  inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddForceAtPosition_Injected, addr 0x6b7544c, size 0x5c, virtual false, abstract: false, final false
-  static inline void AddForceAtPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::by_ref<::UnityEngine::Vector3> position, ::UnityEngine::ForceMode mode);
+  static inline void AddForceAtPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::by_ref<::UnityEngine::Vector3> position,
+                                                 /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddForce_Injected, addr 0x6b75030, size 0x54, virtual false, abstract: false, final false
-  static inline void AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::UnityEngine::ForceMode mode);
+  static inline void AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddRelativeForce, addr 0x6b75188, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeForce(::UnityEngine::Vector3 force);
 
   /// @brief Method AddRelativeForce, addr 0x6b7508c, size 0xa8, virtual false, abstract: false, final false
-  inline void AddRelativeForce(::UnityEngine::Vector3 force, ::UnityEngine::ForceMode mode);
+  inline void AddRelativeForce(::UnityEngine::Vector3 force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddRelativeForce_Injected, addr 0x6b75134, size 0x54, virtual false, abstract: false, final false
-  static inline void AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::UnityEngine::ForceMode mode);
+  static inline void AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddRelativeTorque, addr 0x6b75390, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeTorque(::UnityEngine::Vector3 torque);
 
   /// @brief Method AddRelativeTorque, addr 0x6b75294, size 0xa8, virtual false, abstract: false, final false
-  inline void AddRelativeTorque(::UnityEngine::Vector3 torque, ::UnityEngine::ForceMode mode);
+  inline void AddRelativeTorque(::UnityEngine::Vector3 torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddRelativeTorque_Injected, addr 0x6b7533c, size 0x54, virtual false, abstract: false, final false
-  static inline void AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, ::UnityEngine::ForceMode mode);
+  static inline void AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method AddTorque, addr 0x6b7528c, size 0x8, virtual false, abstract: false, final false
   inline void AddTorque(::UnityEngine::Vector3 torque);
 
   /// @brief Method AddTorque, addr 0x6b75190, size 0xa8, virtual false, abstract: false, final false
-  inline void AddTorque(::UnityEngine::Vector3 torque, ::UnityEngine::ForceMode mode);
+  inline void AddTorque(::UnityEngine::Vector3 torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddTorque_Injected, addr 0x6b75238, size 0x54, virtual false, abstract: false, final false
-  static inline void AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, ::UnityEngine::ForceMode mode);
+  static inline void AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetAccumulatedForce, addr 0x6b74e04, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetAccumulatedForce();
 
   /// @brief Method GetAccumulatedForce, addr 0x6b74d00, size 0xb0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetAccumulatedForce(float_t step);
+  inline ::UnityEngine::Vector3 GetAccumulatedForce(/* [DefaultValue("Time.fixedDeltaTime")] */ float_t step);
 
   /// @brief Method GetAccumulatedForce_Injected, addr 0x6b74db0, size 0x54, virtual false, abstract: false, final false
-  static inline void GetAccumulatedForce_Injected(::System::IntPtr _unity_self, float_t step, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void GetAccumulatedForce_Injected(::System::IntPtr _unity_self, /* [DefaultValue("Time.fixedDeltaTime")] */ float_t step, ::by_ref<::UnityEngine::Vector3> ret);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetAccumulatedTorque, addr 0x6b74f48, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetAccumulatedTorque();
 
   /// @brief Method GetAccumulatedTorque, addr 0x6b74e44, size 0xb0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetAccumulatedTorque(float_t step);
+  inline ::UnityEngine::Vector3 GetAccumulatedTorque(/* [DefaultValue("Time.fixedDeltaTime")] */ float_t step);
 
   /// @brief Method GetAccumulatedTorque_Injected, addr 0x6b74ef4, size 0x54, virtual false, abstract: false, final false
-  static inline void GetAccumulatedTorque_Injected(::System::IntPtr _unity_self, float_t step, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void GetAccumulatedTorque_Injected(::System::IntPtr _unity_self, /* [DefaultValue("Time.fixedDeltaTime")] */ float_t step, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method GetClosestPoint, addr 0x6b77f6c, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetClosestPoint(::UnityEngine::Vector3 point);
@@ -238,6 +252,7 @@ public:
   /// @brief Method GetDenseJacobian, addr 0x6b78340, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetDenseJacobian(::by_ref<::UnityEngine::ArticulationJacobian> jacobian);
 
+  /// [NativeMethod("GetDenseJacobian")]
   /// @brief Method GetDenseJacobian_Internal, addr 0x6b7826c, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetDenseJacobian_Internal(::by_ref<::UnityEngine::ArticulationJacobian> jacobian);
 
@@ -403,6 +418,7 @@ public:
   /// @brief Method SetDriveTargets_Injected, addr 0x6b7a0ac, size 0x44, virtual false, abstract: false, final false
   static inline void SetDriveTargets_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> targets);
 
+  /// [Obsolete("Setting joint accelerations is not supported in forward kinematics. To have inverse dynamics take acceleration into account, use GetJointForcesForAcceleration instead", true)]
   /// @brief Method SetJointAccelerations, addr 0x6b7b280, size 0x1d4, virtual false, abstract: false, final false
   inline void SetJointAccelerations(::System::Collections::Generic::List_1<float_t>* accelerations);
 
@@ -532,6 +548,7 @@ public:
   /// @brief Method get_includeLayers_Injected, addr 0x6b74be4, size 0x44, virtual false, abstract: false, final false
   static inline void get_includeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask> ret);
 
+  /// [NativeMethod("GetBodyIndex")]
   /// @brief Method get_index, addr 0x6b77db8, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_index();
 
@@ -826,6 +843,7 @@ public:
   /// @brief Method set_inertiaTensor_Injected, addr 0x6b76108, size 0x44, virtual false, abstract: false, final false
   static inline void set_inertiaTensor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
+  /// [Obsolete("Setting joint accelerations is not supported in forward kinematics. To have inverse dynamics take acceleration into account, use GetJointForcesForAcceleration instead", true)]
   /// @brief Method set_jointAcceleration, addr 0x6b77874, size 0xdc, virtual false, abstract: false, final false
   inline void set_jointAcceleration(::UnityEngine::ArticulationReducedSpace value);
 
@@ -1009,13 +1027,13 @@ protected:
   constexpr ArticulationBody();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArticulationBody", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArticulationBody", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArticulationBody(ArticulationBody&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArticulationBody", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArticulationBody", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArticulationBody(ArticulationBody const&) = delete;
+  ArticulationBody(ArticulationBodyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18630 };

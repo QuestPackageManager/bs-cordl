@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\SpatialAnchorLoaderBuildingBlock.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/SpatialAnchorLoaderBuildingBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class SpatialAnchorLoaderBuildingBlock;
 // Write type traits
 MARK_REF_T(::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::BuildingBlocks::SpatialAnchorLoaderBuildingBlock*, "Meta.XR.BuildingBlocks", "SpatialAnchorLoaderBuildingBlock");
+// [RequireComponent(typeof(Meta.XR.BuildingBlocks.SpatialAnchorSpawnerBuildingBlock))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace Meta::XR::BuildingBlocks {
 // Is value type: false
@@ -71,13 +72,13 @@ protected:
   constexpr SpatialAnchorLoaderBuildingBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorLoaderBuildingBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorLoaderBuildingBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpatialAnchorLoaderBuildingBlock(SpatialAnchorLoaderBuildingBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorLoaderBuildingBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorLoaderBuildingBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpatialAnchorLoaderBuildingBlock(SpatialAnchorLoaderBuildingBlock const&) = delete;
+  SpatialAnchorLoaderBuildingBlock(SpatialAnchorLoaderBuildingBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21364 };

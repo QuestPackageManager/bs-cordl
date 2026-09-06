@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPlatformMenu.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPlatformMenu.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlatformMenu_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlatformMenu_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlatformMenu_eHandler::OVRPlatformMenu_eHandler(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -14,7 +14,7 @@ constexpr ::GlobalNamespace::OVRPlatformMenu_eHandler::OVRPlatformMenu_eHandler(
 constexpr ::GlobalNamespace::OVRPlatformMenu_eHandler::OVRPlatformMenu_eHandler() {}
 constexpr ::GlobalNamespace::OVRPlatformMenu_eHandler GlobalNamespace::OVRPlatformMenu_eHandler::ShowConfirmQuit{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRPlatformMenu_eHandler GlobalNamespace::OVRPlatformMenu_eHandler::RetreatOneLevel{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRPlatformMenu_eBackButtonAction::OVRPlatformMenu_eBackButtonAction(int32_t value__) noexcept {
   this->value__ = value__;
 }

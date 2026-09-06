@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkConfigSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkConfigSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"

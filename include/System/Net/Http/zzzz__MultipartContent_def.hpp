@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\MultipartContent.hpp"
+// IWYU pragma private; include "System/Net/Http/MultipartContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ MARK_REF_T(::System::Net::Http::MultipartContent*);
 MARK_VAL_T(::System::Net::Http::MultipartContent__SerializeToStreamAsync_d__8);
 DEFINE_IL2CPP_CLASS(::System::Net::Http::MultipartContent*, "System.Net.Http", "MultipartContent");
 DEFINE_IL2CPP_CLASS(::System::Net::Http::MultipartContent__SerializeToStreamAsync_d__8, "System.Net.Http", "MultipartContent/<SerializeToStreamAsync>d__8");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
 namespace System::Net::Http {
 // Is value type: true
@@ -71,6 +72,7 @@ public:
   /// @brief Method MoveNext, addr 0x60e0bfc, size 0xd58, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x60e1954, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -81,12 +83,12 @@ public:
   // @brief default ctor
   constexpr MultipartContent__SerializeToStreamAsync_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::MultipartContent*", modifiers: "",
-  // def_value: None }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Net::TransportContext*", modifiers: "",
-  // def_value: None }, CppParam { name: "_sb_5__2", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: None }, CppParam { name: "_i_5__3", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "_c_5__4", ty: "::System::Net::Http::HttpContent*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::MultipartContent*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "context", ty:
+  // "::System::Net::TransportContext*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_sb_5__2", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_i_5__3", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_c_5__4", ty: "::System::Net::Http::HttpContent*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr MultipartContent__SerializeToStreamAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                           ::System::Net::Http::MultipartContent* __4__this, ::System::IO::Stream* stream, ::System::Net::TransportContext* context,
                                                           ::System::Text::StringBuilder* _sb_5__2, int32_t _i_5__3, ::System::Net::Http::HttpContent* _c_5__4,
@@ -186,6 +188,7 @@ public:
 
   static inline ::System::Net::Http::MultipartContent* New_ctor(::StringW subtype, ::StringW boundary);
 
+  /// [AsyncStateMachine(typeof(System.Net.Http.MultipartContent::<SerializeToStreamAsync>d__8))]
   /// @brief Method SerializeToStreamAsync, addr 0x60e0408, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
@@ -225,13 +228,13 @@ protected:
   constexpr MultipartContent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultipartContent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultipartContent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultipartContent(MultipartContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultipartContent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultipartContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultipartContent(MultipartContent const&) = delete;
+  MultipartContent(MultipartContentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20289 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\LevelStartDestinationParameters.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/LevelStartDestinationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,8 @@ class LevelStartDestinationParameters;
 // Write type traits
 MARK_REF_T(::BeatSaber::Destinations::LevelStartDestinationParameters*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Destinations::LevelStartDestinationParameters*, "BeatSaber.Destinations", "LevelStartDestinationParameters");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Destinations.GameMode, BeatmapKey, System.Object
 namespace BeatSaber::Destinations {
 // Is value type: false
@@ -60,9 +62,11 @@ public:
 
   static inline ::BeatSaber::Destinations::LevelStartDestinationParameters* New_ctor();
 
-  static inline ::BeatSaber::Destinations::LevelStartDestinationParameters*
-  New_ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
-           ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings);
+  static inline ::BeatSaber::Destinations::LevelStartDestinationParameters* New_ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey,
+                                                                                     ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
+                                                                                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                                                                                     /* [Nullable(2)] */ ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
+                                                                                     /* [Nullable(2)] */ ::GlobalNamespace::PracticeSettings* practiceSettings);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
 
@@ -105,8 +109,8 @@ public:
 
   /// @brief Method .ctor, addr 0x32812d0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
-                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
-                    ::GlobalNamespace::PracticeSettings* practiceSettings);
+                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, /* [Nullable(2)] */ ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
+                    /* [Nullable(2)] */ ::GlobalNamespace::PracticeSettings* practiceSettings);
 
 protected:
   // Ctor Parameters []
@@ -114,13 +118,13 @@ protected:
   constexpr LevelStartDestinationParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelStartDestinationParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelStartDestinationParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelStartDestinationParameters(LevelStartDestinationParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelStartDestinationParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelStartDestinationParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelStartDestinationParameters(LevelStartDestinationParameters const&) = delete;
+  LevelStartDestinationParameters(LevelStartDestinationParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23064 };
@@ -137,9 +141,11 @@ public:
   /// @brief Field gameplayModifiers, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ___gameplayModifiers;
 
+  /// [Nullable(2)]
   /// @brief Field customPlayerSpecificSettings, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ___customPlayerSpecificSettings;
 
+  /// [Nullable(2)]
   /// @brief Field practiceSettings, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::PracticeSettings* ___practiceSettings;
 

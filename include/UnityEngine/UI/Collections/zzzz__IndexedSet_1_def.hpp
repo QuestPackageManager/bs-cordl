@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Collections\IndexedSet_1.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Collections/IndexedSet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ template <typename T> class IndexedSet_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UI::Collections::IndexedSet_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UI::Collections::IndexedSet_1, "UnityEngine.UI.Collections", "IndexedSet`1");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace UnityEngine::UI::Collections {
 // cpp template
@@ -189,13 +190,13 @@ protected:
   constexpr IndexedSet_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexedSet_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexedSet_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IndexedSet_1(IndexedSet_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexedSet_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexedSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexedSet_1(IndexedSet_1 const&) = delete;
+  IndexedSet_1(IndexedSet_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17519 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\ImageSource.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ImageSource.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__ImageSource_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
@@ -21,9 +21,9 @@ inline bool UnityEngine::UIElements::StyleSheets::ImageSource::IsNull() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ImageSource>(), { "IsNull", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "renderTexture", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sprite", ty:
+// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "renderTexture", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::ImageSource::ImageSource(::UnityW<::UnityEngine::Texture2D> texture, ::UnityW<::UnityEngine::Sprite> sprite,
                                                                            ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage,
                                                                            ::UnityW<::UnityEngine::RenderTexture> renderTexture) noexcept {

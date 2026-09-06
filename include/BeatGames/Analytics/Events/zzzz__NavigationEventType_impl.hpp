@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames\Analytics\Events\NavigationEventType.hpp"
+// IWYU pragma private; include "BeatGames/Analytics/Events/NavigationEventType.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatGames/Analytics/Events/zzzz__NavigationEventType_def.hpp"
 //  Writing Method size for method: ::BeatGames::Analytics::Events::NavigationEventType._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\BinaryOperationBinder.hpp"
+// IWYU pragma private; include "System/Dynamic/BinaryOperationBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
   /// @brief Method FallbackBinaryOperation, addr 0x5fc1890, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackBinaryOperation(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* arg);
 
-  /// @brief Method FallbackBinaryOperation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FallbackBinaryOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackBinaryOperation(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* arg,
                                                                        ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
@@ -49,6 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__Operation_k__BackingField(::System::Linq::Expressions::ExpressionType value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Operation, addr 0x5fc1888, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ExpressionType get_Operation();
 
@@ -58,17 +59,18 @@ protected:
   constexpr BinaryOperationBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryOperationBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryOperationBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryOperationBinder(BinaryOperationBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryOperationBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryOperationBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryOperationBinder(BinaryOperationBinder const&) = delete;
+  BinaryOperationBinder(BinaryOperationBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16638 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Operation>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::System::Linq::Expressions::ExpressionType ____Operation_k__BackingField;
 

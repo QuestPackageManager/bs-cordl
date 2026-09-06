@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\SmallRect.hpp"
+// IWYU pragma private; include "System/SmallRect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr SmallRect();
 
-  // Ctor Parameters [CppParam { name: "Left", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "Top", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "Right", ty:
-  // "int16_t", modifiers: "", def_value: None }, CppParam { name: "Bottom", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Left", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Top", ty: "int16_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Right", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Bottom", ty: "int16_t", modifiers: "", def_value: None, comment: None }]
   constexpr SmallRect(int16_t Left, int16_t Top, int16_t Right, int16_t Bottom) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

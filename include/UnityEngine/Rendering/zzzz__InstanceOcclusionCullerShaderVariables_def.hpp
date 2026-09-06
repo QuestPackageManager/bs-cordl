@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceOcclusionCullerShaderVariables.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceOcclusionCullerShaderVariables.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct InstanceOcclusionCullerShaderVariables;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables, "UnityEngine.Rendering", "InstanceOcclusionCullerShaderVariables");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceOcclusionCullerShaderVariables.cs", needAccessors = false, generateCBuffer = true)] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.InstanceOcclusionCullerShaderVariables
@@ -24,10 +25,11 @@ public:
   // @brief default ctor
   constexpr InstanceOcclusionCullerShaderVariables();
 
-  // Ctor Parameters [CppParam { name: "_DrawInfoAllocIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_DrawInfoCount", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_InstanceInfoAllocIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_InstanceInfoCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_BoundingSphereInstanceDataAddress", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_DebugCounterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_InstanceMultiplierShift", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_InstanceOcclusionCullerPad0", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_DrawInfoAllocIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_DrawInfoCount", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_InstanceInfoAllocIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_InstanceInfoCount", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_BoundingSphereInstanceDataAddress", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_DebugCounterIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_InstanceMultiplierShift", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_InstanceOcclusionCullerPad0", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceOcclusionCullerShaderVariables(uint32_t _DrawInfoAllocIndex, uint32_t _DrawInfoCount, uint32_t _InstanceInfoAllocIndex, uint32_t _InstanceInfoCount,
                                                    int32_t _BoundingSphereInstanceDataAddress, int32_t _DebugCounterIndex, int32_t _InstanceMultiplierShift,
                                                    int32_t _InstanceOcclusionCullerPad0) noexcept;

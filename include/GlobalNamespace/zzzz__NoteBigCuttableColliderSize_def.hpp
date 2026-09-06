@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteBigCuttableColliderSize.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteBigCuttableColliderSize.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class NoteBigCuttableColliderSize;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NoteBigCuttableColliderSize*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteBigCuttableColliderSize*, "", "NoteBigCuttableColliderSize");
+// [AddComponentMenu("Beat Saber/Gameplay/NoteBigCuttableColliderSize")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -85,20 +86,22 @@ protected:
   constexpr NoteBigCuttableColliderSize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteBigCuttableColliderSize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteBigCuttableColliderSize", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteBigCuttableColliderSize(NoteBigCuttableColliderSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteBigCuttableColliderSize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteBigCuttableColliderSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteBigCuttableColliderSize(NoteBigCuttableColliderSize const&) = delete;
+  NoteBigCuttableColliderSize(NoteBigCuttableColliderSizeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5671 };
 
+  /// [SerializeField]
   /// @brief Field _noteController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteController> ____noteController;
 
+  /// [SerializeField]
   /// @brief Field _boxCollider, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::BoxCollider> ____boxCollider;
 

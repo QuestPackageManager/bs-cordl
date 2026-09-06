@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\MouseBinder.hpp"
+// IWYU pragma private; include "HMUI/MouseBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
   // @brief default ctor
   constexpr MouseBinder_MouseEventType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MouseBinder_MouseEventType(int32_t value__) noexcept;
 
   /// @brief Field ButtonDown value: I32(0)
@@ -135,7 +135,7 @@ public:
   // @brief default ctor
   constexpr MouseBinder_ButtonType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MouseBinder_ButtonType(int32_t value__) noexcept;
 
   /// @brief Field Middle value: I32(2)
@@ -242,9 +242,11 @@ public:
   /// @brief Method .ctor, addr 0x5877588, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_enabled, addr 0x5877578, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
+  /// [CompilerGenerated]
   /// @brief Method set_enabled, addr 0x5877580, size 0x8, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
@@ -254,23 +256,25 @@ protected:
   constexpr MouseBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseBinder(MouseBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseBinder(MouseBinder const&) = delete;
+  MouseBinder(MouseBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19031 };
 
+  /// [CompilerGenerated]
   /// @brief Field <enabled>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____enabled_k__BackingField;
 
   /// @brief Field _scrollBindings, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* ____scrollBindings;
 
+  /// [TupleElementNames(new[] { "buttonType", "mouseEventType", "action" })]
   /// @brief Field _buttonBindings, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::MouseBinder_ButtonType, ::HMUI::MouseBinder_MouseEventType, ::UnityEngine::Events::UnityAction*>>* ____buttonBindings;
 

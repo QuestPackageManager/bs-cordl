@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StepValuePicker.hpp"
+// IWYU pragma private; include "GlobalNamespace/StepValuePicker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,18 +97,22 @@ public:
   /// @brief Method .ctor, addr 0x5a30820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_decButtonWasPressedEvent, addr 0x5a2f890, size 0xac, virtual false, abstract: false, final false
   inline void add_decButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_incButtonWasPressedEvent, addr 0x5a2f93c, size 0xac, virtual false, abstract: false, final false
   inline void add_incButtonWasPressedEvent(::System::Action* value);
 
   /// @brief Method get_text, addr 0x5a30520, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_decButtonWasPressedEvent, addr 0x5a2fb54, size 0xac, virtual false, abstract: false, final false
   inline void remove_decButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_incButtonWasPressedEvent, addr 0x5a2fc00, size 0xac, virtual false, abstract: false, final false
   inline void remove_incButtonWasPressedEvent(::System::Action* value);
 
@@ -127,29 +131,34 @@ protected:
   constexpr StepValuePicker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StepValuePicker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StepValuePicker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StepValuePicker(StepValuePicker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StepValuePicker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StepValuePicker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StepValuePicker(StepValuePicker const&) = delete;
+  StepValuePicker(StepValuePickerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23346 };
 
+  /// [SerializeField]
   /// @brief Field _decButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____decButton;
 
+  /// [SerializeField]
   /// @brief Field _incButton, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____incButton;
 
+  /// [SerializeField]
   /// @brief Field _valueText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____valueText;
 
+  /// [CompilerGenerated]
   /// @brief Field decButtonWasPressedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action* ___decButtonWasPressedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field incButtonWasPressedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___incButtonWasPressedEvent;
 

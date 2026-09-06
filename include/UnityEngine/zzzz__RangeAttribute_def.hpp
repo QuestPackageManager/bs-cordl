@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RangeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/RangeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class RangeAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::RangeAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RangeAttribute*, "UnityEngine", "RangeAttribute");
+// [AttributeUsage((System.AttributeTargets)384, Inherited = true, AllowMultiple = false)]
 // Dependencies UnityEngine.PropertyAttribute
 namespace UnityEngine {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr RangeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RangeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RangeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RangeAttribute(RangeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RangeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RangeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RangeAttribute(RangeAttribute const&) = delete;
+  RangeAttribute(RangeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10281 };

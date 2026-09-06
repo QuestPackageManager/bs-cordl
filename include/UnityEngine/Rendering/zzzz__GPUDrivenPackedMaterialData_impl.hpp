@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenPackedMaterialData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenPackedMaterialData.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenPackedMaterialData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenPackedMaterialData.get_isTransparent
 template <>
@@ -90,7 +90,7 @@ inline bool UnityEngine::Rendering::GPUDrivenPackedMaterialData::Equals(::UnityE
                                                                                          { "Equals", {}, { ::i2c::type_of<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUDrivenPackedMaterialData::GPUDrivenPackedMaterialData(uint32_t data) noexcept {
   this->data = data;
 }

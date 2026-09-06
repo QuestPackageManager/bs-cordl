@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderingData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,21 +117,27 @@ public:
   /// @brief Method get_commandBuffer, addr 0x6876ca0, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* get_commandBuffer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_opaqueLayerMask, addr 0x6876d34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_opaqueLayerMask();
 
+  /// [CompilerGenerated]
   /// @brief Method get_renderingMode, addr 0x6876d24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingMode get_renderingMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_transparentLayerMask, addr 0x6876d44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_transparentLayerMask();
 
+  /// [CompilerGenerated]
   /// @brief Method set_opaqueLayerMask, addr 0x6876d3c, size 0x8, virtual false, abstract: false, final false
   inline void set_opaqueLayerMask(::UnityEngine::LayerMask value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_renderingMode, addr 0x6876d2c, size 0x8, virtual false, abstract: false, final false
   inline void set_renderingMode(::UnityEngine::Rendering::Universal::RenderingMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_transparentLayerMask, addr 0x6876d4c, size 0x8, virtual false, abstract: false, final false
   inline void set_transparentLayerMask(::UnityEngine::LayerMask value);
 
@@ -141,13 +147,13 @@ protected:
   constexpr UniversalRenderingData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderingData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderingData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderingData(UniversalRenderingData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderingData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderingData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderingData(UniversalRenderingData const&) = delete;
+  UniversalRenderingData(UniversalRenderingDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12757 };
@@ -164,12 +170,15 @@ public:
   /// @brief Field perObjectData, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::Rendering::PerObjectData ___perObjectData;
 
+  /// [CompilerGenerated]
   /// @brief Field <renderingMode>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderingMode ____renderingMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <opaqueLayerMask>k__BackingField, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____opaqueLayerMask_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <transparentLayerMask>k__BackingField, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____transparentLayerMask_k__BackingField;
 

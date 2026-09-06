@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalSurfaceData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalSurfaceData.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalSurfaceData_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::DecalSurfaceData::DecalSurfaceData(int32_t value__) noexcept {
   this->value__ = value__;
 }

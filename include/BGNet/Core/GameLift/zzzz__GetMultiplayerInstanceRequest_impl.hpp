@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet\Core\GameLift\GetMultiplayerInstanceRequest.hpp"
+// IWYU pragma private; include "BGNet/Core/GameLift/GetMultiplayerInstanceRequest.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
@@ -51,13 +51,15 @@ inline void BGNet::Core::GameLift::GetMultiplayerInstanceRequest::_ctor(::String
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, version, serviceEnvironment, userId, beatmapLevelSelectionMask, gameplayServerConfiguration, platform, privateGameSecret,
                                                    privateGameCode, gameliftRegionLatencies, ticketId, placementId, customLocation);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "serviceEnvironment", ty: "::GlobalNamespace::ServiceEnvironment", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "beatmapLevelSelectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: Some("{}") }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameliftRegionLatencies", ty:
-// "::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "customLocation", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "serviceEnvironment", ty:
+// "::GlobalNamespace::ServiceEnvironment", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapLevelSelectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "platform", ty:
+// "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameliftRegionLatencies", ty:
+// "::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "customLocation", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::GetMultiplayerInstanceRequest(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment,
                                                                                                 ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                                                                                                 ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW userId,

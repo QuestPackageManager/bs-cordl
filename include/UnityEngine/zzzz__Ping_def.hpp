@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Ping.hpp"
+// IWYU pragma private; include "UnityEngine/Ping.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ protected:
   constexpr Ping_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ping_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ping_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ping_BindingsMarshaller(Ping_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ping_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ping_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ping_BindingsMarshaller(Ping_BindingsMarshaller const&) = delete;
+  Ping_BindingsMarshaller(Ping_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10269 };
@@ -62,6 +62,7 @@ public:
 static_assert(sizeof(::UnityEngine::Ping_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Export/Networking/Ping.bindings.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -78,21 +79,25 @@ public:
 
   __declspec(property(get = get_time)) int32_t time;
 
+  /// [ThreadAndSerializationSafe]
   /// @brief Method DestroyPing, addr 0x6ad633c, size 0x4c, virtual false, abstract: false, final false
   inline void DestroyPing();
 
   /// @brief Method Finalize, addr 0x6ad62bc, size 0x80, virtual true, abstract: false, final false
   inline void Finalize();
 
+  /// [FreeFunction("CreatePing")]
   /// @brief Method Internal_Create, addr 0x6ad6190, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(::StringW address);
 
   /// @brief Method Internal_Create_Injected, addr 0x6ad63c4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> address);
 
+  /// [FreeFunction("DestroyPing", IsThreadSafe = true)]
   /// @brief Method Internal_Destroy, addr 0x6ad6388, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
+  /// [NativeName("GetIsDone")]
   /// @brief Method Internal_IsDone, addr 0x6ad6414, size 0x50, virtual false, abstract: false, final false
   inline bool Internal_IsDone();
 
@@ -125,13 +130,13 @@ protected:
   constexpr Ping();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ping(Ping&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ping(Ping const&) = delete;
+  Ping(Pingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10270 };

@@ -1,18 +1,22 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\NestedFragmentListConverter_1.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/NestedFragmentListConverter_1.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
+#include "OculusStudios/GraphQL/Client/zzzz__IFragment_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__NestedFragmentListConverter_1_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-template <typename T> inline bool OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::CanConvert(::System::Type* objectType) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
+inline bool OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::CanConvert(::System::Type* objectType) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, objectType);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
 inline ::System::Object* OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue,
                                                                                                     ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method = THROW_UNLESS(
@@ -20,18 +24,25 @@ inline ::System::Object* OculusStudios::GraphQL::Client::NestedFragmentListConve
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, existingValue, serializer);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
 inline void OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value,
                                                                                         ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
 }
-template <typename T> inline void OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
+inline void OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline ::OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>* OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
+inline ::OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>* OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::NestedFragmentListConverter_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
+constexpr ::OculusStudios::GraphQL::Client::NestedFragmentListConverter_1<T>::NestedFragmentListConverter_1() {}

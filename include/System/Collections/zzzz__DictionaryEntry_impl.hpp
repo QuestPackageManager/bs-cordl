@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\DictionaryEntry.hpp"
+// IWYU pragma private; include "System/Collections/DictionaryEntry.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Collections::DictionaryEntry._ctor
@@ -54,8 +54,8 @@ inline ::System::Object* System::Collections::DictionaryEntry::get_Value() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::DictionaryEntry>(), { "get_Value", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_key", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "_key", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Collections::DictionaryEntry::DictionaryEntry(::System::Object* _key, ::System::Object* _value) noexcept {
   this->_key = _key;
   this->_value = _value;

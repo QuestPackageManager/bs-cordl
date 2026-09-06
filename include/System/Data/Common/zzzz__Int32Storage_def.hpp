@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\Int32Storage.hpp"
+// IWYU pragma private; include "System/Data/Common/Int32Storage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,13 +93,13 @@ protected:
   constexpr Int32Storage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Int32Storage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Int32Storage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Int32Storage(Int32Storage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Int32Storage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Int32Storage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Int32Storage(Int32Storage const&) = delete;
+  Int32Storage(Int32Storageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13925 };

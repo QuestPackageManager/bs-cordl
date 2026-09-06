@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RemoveDrawInstanceIndicesJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RemoveDrawInstanceIndicesJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ struct RemoveDrawInstanceIndicesJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob, "UnityEngine.Rendering", "RemoveDrawInstanceIndicesJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.DrawBatch,
 // UnityEngine.Rendering.DrawInstance, UnityEngine.Rendering.DrawKey, UnityEngine.Rendering.DrawRange, UnityEngine.Rendering.RangeKey
 namespace UnityEngine::Rendering {
@@ -45,10 +46,10 @@ public:
   inline void Execute();
 
   /// @brief Method RemoveDrawBatch, addr 0x681c770, size 0x270, virtual false, abstract: false, final false
-  inline void RemoveDrawBatch(::by_ref<::UnityEngine::Rendering::DrawKey> key);
+  inline void RemoveDrawBatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::DrawKey> key);
 
   /// @brief Method RemoveDrawRange, addr 0x681c5cc, size 0x1a4, virtual false, abstract: false, final false
-  inline void RemoveDrawRange(::by_ref<::UnityEngine::Rendering::RangeKey> key);
+  inline void RemoveDrawRange(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RangeKey> key);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
   constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
@@ -57,12 +58,12 @@ public:
   // @brief default ctor
   constexpr RemoveDrawInstanceIndicesJob();
 
-  // Ctor Parameters [CppParam { name: "drawInstanceIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "drawInstances", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: None }, CppParam { name: "rangeHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>", modifiers: "", def_value: None }, CppParam { name: "batchHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>", modifiers: "", def_value: None }, CppParam { name: "drawRanges", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: None }, CppParam { name: "drawBatches", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "drawInstanceIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawInstances", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: None, comment: None }, CppParam { name: "rangeHash", ty:
+  // "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchHash", ty:
+  // "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawRanges", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawBatches", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None, comment: None }]
   constexpr RemoveDrawInstanceIndicesJob(::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances,
                                          ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> rangeHash,
                                          ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> batchHash,
@@ -75,6 +76,9 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [ReadOnly]
   /// @brief Field drawInstanceIndices, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices;
 

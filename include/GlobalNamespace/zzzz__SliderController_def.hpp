@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,7 +124,9 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace Zenject {
-template <typename TValue> class MonoMemoryPool_1;
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::UnityEngine::Component*>)
+class MonoMemoryPool_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -193,7 +195,7 @@ public:
   // @brief default ctor
   constexpr SliderController_LengthType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SliderController_LengthType(int32_t value__) noexcept;
 
   /// @brief Field Long value: I32(2)
@@ -240,13 +242,13 @@ protected:
   constexpr Pool_SliderController_Short();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Short", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Short", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pool_SliderController_Short(Pool_SliderController_Short&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Short", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Short", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pool_SliderController_Short(Pool_SliderController_Short const&) = delete;
+  Pool_SliderController_Short(Pool_SliderController_Shortconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5718 };
@@ -275,13 +277,13 @@ protected:
   constexpr Pool_SliderController_Medium();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Medium", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Medium", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pool_SliderController_Medium(Pool_SliderController_Medium&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Medium", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Medium", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pool_SliderController_Medium(Pool_SliderController_Medium const&) = delete;
+  Pool_SliderController_Medium(Pool_SliderController_Mediumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5719 };
@@ -310,13 +312,13 @@ protected:
   constexpr Pool_SliderController_Long();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Long", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Long", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pool_SliderController_Long(Pool_SliderController_Long&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Long", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pool_SliderController_Long", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pool_SliderController_Long(Pool_SliderController_Long const&) = delete;
+  Pool_SliderController_Long(Pool_SliderController_Longconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5720 };
@@ -397,13 +399,13 @@ protected:
   constexpr SliderController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderController_Pool(SliderController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderController_Pool(SliderController_Pool const&) = delete;
+  SliderController_Pool(SliderController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5721 };
@@ -440,6 +442,7 @@ static_assert(offsetof(::GlobalNamespace::SliderController_Pool, ____longPool) =
 static_assert(sizeof(::GlobalNamespace::SliderController_Pool) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -475,17 +478,22 @@ public:
   /// @brief Method MoveNext, addr 0x597a114, size 0x35c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SliderController__DissolveCoroutine_d__72* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x597a470, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x597a478, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x597a4b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x597a110, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -513,6 +521,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x597949c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -531,13 +540,13 @@ protected:
   constexpr SliderController__DissolveCoroutine_d__72();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderController__DissolveCoroutine_d__72", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderController__DissolveCoroutine_d__72", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderController__DissolveCoroutine_d__72(SliderController__DissolveCoroutine_d__72&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderController__DissolveCoroutine_d__72", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderController__DissolveCoroutine_d__72", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderController__DissolveCoroutine_d__72(SliderController__DissolveCoroutine_d__72 const&) = delete;
+  SliderController__DissolveCoroutine_d__72(SliderController__DissolveCoroutine_d__72const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5722 };
@@ -713,6 +722,7 @@ public:
   /// @brief Method Dissolve, addr 0x59794a4, size 0x58, virtual true, abstract: false, final true
   inline void Dissolve(float_t duration);
 
+  /// [IteratorStateMachine(typeof(SliderController::<DissolveCoroutine>d__72))]
   /// @brief Method DissolveCoroutine, addr 0x5979438, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DissolveCoroutine(float_t duration);
 
@@ -732,7 +742,7 @@ public:
   inline void HandleMovementDidFinish();
 
   /// @brief Method HandleNoteWasCut, addr 0x5979be8, size 0x90, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method HandleNoteWasMissed, addr 0x5979b6c, size 0x4c, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
@@ -744,8 +754,8 @@ public:
   inline void Hide(bool hide);
 
   /// @brief Method Init, addr 0x5976804, size 0x478, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::SliderController_LengthType lengthType, ::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData,
-                   float_t noteUniformScale, float_t randomValue);
+  inline void Init(::GlobalNamespace::SliderController_LengthType lengthType, ::GlobalNamespace::SliderData* sliderData,
+                   /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, float_t noteUniformScale, float_t randomValue);
 
   /// @brief Method IsNoteStartOfThisSlider, addr 0x5979558, size 0xf4, virtual false, abstract: false, final false
   inline bool IsNoteStartOfThisSlider(::GlobalNamespace::NoteData* noteData);
@@ -995,13 +1005,13 @@ protected:
   constexpr SliderController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderController(SliderController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderController(SliderController const&) = delete;
+  SliderController(SliderControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5723 };
@@ -1009,33 +1019,44 @@ public:
   /// @brief Field kSaberAttractPointNormalizedPosition offset 0xffffffff size 0x4
   static constexpr float_t kSaberAttractPointNormalizedPosition{ static_cast<float_t>(0.7f) };
 
+  /// [SerializeField]
   /// @brief Field _sliderIntensityEffect, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderIntensityEffect> ____sliderIntensityEffect;
 
+  /// [SerializeField]
   /// @brief Field _sliderMeshController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderMeshController> ____sliderMeshController;
 
+  /// [SerializeField]
   /// @brief Field _sliderMovement, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderMovement> ____sliderMovement;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _closeInteractionSaberPosSmoothParam, offset: 0x50, size: 0x4, def value: None
   float_t ____closeInteractionSaberPosSmoothParam;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
+  /// [Inject]
   /// @brief Field _jumpOffsetYProvider, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::IJumpOffsetYProvider* ____jumpOffsetYProvider;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 

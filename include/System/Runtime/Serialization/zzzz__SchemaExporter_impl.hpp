@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SchemaExporter.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SchemaExporter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SchemaExporter_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotation_def.hpp"
@@ -184,7 +184,7 @@ inline bool System::Runtime::Serialization::SchemaExporter::IsSpecialXmlType(::S
                                                                                              ::i2c::type_of<::by_ref<::System::Xml::Schema::XmlSchemaType*>>(), ::i2c::type_of<::by_ref<bool>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type, typeName, xsdType, hasRoot);
 }
-inline ::System::Xml::Schema::XmlSchemaAnnotation* System::Runtime::Serialization::SchemaExporter::GetSchemaAnnotation(::ArrayW<::System::Xml::XmlNode*> nodes) {
+inline ::System::Xml::Schema::XmlSchemaAnnotation* System::Runtime::Serialization::SchemaExporter::GetSchemaAnnotation(/* [ParamArray] */ ::ArrayW<::System::Xml::XmlNode*> nodes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SchemaExporter*>(), { "GetSchemaAnnotation", {}, { ::i2c::type_of<::ArrayW<::System::Xml::XmlNode*>>() } })));

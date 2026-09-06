@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputStateBlock.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputStateBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -186,6 +186,8 @@ public:
   /// @brief Method get_alignedSizeInBytes, addr 0x65b89dc, size 0x60, virtual false, abstract: false, final false
   inline uint32_t get_alignedSizeInBytes();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_bitOffset, addr 0x65b89bc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bitOffset();
 
@@ -198,9 +200,13 @@ public:
   /// @brief Method get_effectiveByteOffset, addr 0x65b8a3c, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t get_effectiveByteOffset();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_format, addr 0x65b899c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_sizeInBits, addr 0x65b89cc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBits();
 
@@ -246,15 +252,18 @@ public:
 
   static inline void setStaticF_FormatVector3Short(::UnityEngine::InputSystem::Utilities::FourCC value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_bitOffset, addr 0x65b89c4, size 0x8, virtual false, abstract: false, final false
   inline void set_bitOffset(uint32_t value);
 
   /// @brief Method set_byteOffset, addr 0x65b89b4, size 0x8, virtual false, abstract: false, final false
   inline void set_byteOffset(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_format, addr 0x65b89a4, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::UnityEngine::InputSystem::Utilities::FourCC value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_sizeInBits, addr 0x65b89d4, size 0x8, virtual false, abstract: false, final false
   inline void set_sizeInBits(uint32_t value);
 
@@ -262,9 +271,9 @@ public:
   // @brief default ctor
   constexpr InputStateBlock();
 
-  // Ctor Parameters [CppParam { name: "_format_k__BackingField", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "m_ByteOffset", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_bitOffset_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_sizeInBits_k__BackingField", ty:
-  // "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_format_k__BackingField", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ByteOffset",
+  // ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_bitOffset_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_sizeInBits_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputStateBlock(::UnityEngine::InputSystem::Utilities::FourCC _format_k__BackingField, uint32_t m_ByteOffset, uint32_t _bitOffset_k__BackingField,
                             uint32_t _sizeInBits_k__BackingField) noexcept;
 
@@ -331,15 +340,18 @@ public:
   /// @brief Field kFormatVector3 offset 0xffffffff size 0x4
   static constexpr int32_t kFormatVector3{ static_cast<int32_t>(0x56454333) };
 
+  /// [CompilerGenerated]
   /// @brief Field <format>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Utilities::FourCC _format_k__BackingField;
 
   /// @brief Field m_ByteOffset, offset: 0x4, size: 0x4, def value: None
   uint32_t m_ByteOffset;
 
+  /// [CompilerGenerated]
   /// @brief Field <bitOffset>k__BackingField, offset: 0x8, size: 0x4, def value: None
   uint32_t _bitOffset_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <sizeInBits>k__BackingField, offset: 0xc, size: 0x4, def value: None
   uint32_t _sizeInBits_k__BackingField;
 

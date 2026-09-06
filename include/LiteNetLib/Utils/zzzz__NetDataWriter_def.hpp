@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NetDataWriter.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NetDataWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -22,7 +23,7 @@ class NetDataWriter;
 // Write type traits
 MARK_REF_T(::LiteNetLib::Utils::NetDataWriter*);
 DEFINE_IL2CPP_CLASS(::LiteNetLib::Utils::NetDataWriter*, "LiteNetLib.Utils", "NetDataWriter");
-// Dependencies System.Object
+// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetDataWriter
@@ -72,7 +73,9 @@ public:
   inline void Put(::System::Net::IPEndPoint* endPoint);
 
   /// @brief Method Put, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Put(T obj);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+  inline void Put(T obj);
 
   /// @brief Method Put, addr 0x58ab618, size 0xc4, virtual false, abstract: false, final false
   inline void Put(::StringW value);
@@ -218,13 +221,13 @@ protected:
   constexpr NetDataWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetDataWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetDataWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetDataWriter(NetDataWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetDataWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetDataWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetDataWriter(NetDataWriter const&) = delete;
+  NetDataWriter(NetDataWriterconst&) = delete;
 
   /// @brief Field InitialSize offset 0xffffffff size 0x4
   static constexpr int32_t InitialSize{ static_cast<int32_t>(0x40) };

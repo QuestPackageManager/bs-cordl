@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\TextureCreationFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/TextureCreationFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TextureCreationFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Rendering::TextureCreationFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Rendering::TextureCreationFlags, "UnityEngine.Experimental.Rendering", "TextureCreationFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr TextureCreationFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextureCreationFlags(int32_t value__) noexcept;
 
   /// @brief Field Crunch value: I32(64)

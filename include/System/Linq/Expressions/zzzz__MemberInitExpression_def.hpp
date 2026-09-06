@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\MemberInitExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/MemberInitExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class MemberInitExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::MemberInitExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::MemberInitExpression*, "System.Linq.Expressions", "MemberInitExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::MemberInitExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -53,9 +54,11 @@ public:
 
   constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Bindings, addr 0x5f86e54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* get_Bindings();
 
+  /// [CompilerGenerated]
   /// @brief Method get_NewExpression, addr 0x5f86e4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::NewExpression* get_NewExpression();
 
@@ -65,20 +68,22 @@ protected:
   constexpr MemberInitExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemberInitExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberInitExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemberInitExpression(MemberInitExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemberInitExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberInitExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemberInitExpression(MemberInitExpression const&) = delete;
+  MemberInitExpression(MemberInitExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16200 };
 
+  /// [CompilerGenerated]
   /// @brief Field <NewExpression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::NewExpression* ____NewExpression_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Bindings>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* ____Bindings_k__BackingField;
 

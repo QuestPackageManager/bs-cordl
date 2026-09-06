@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DMappingVectorEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DMappingVectorEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   // @brief default ctor
   constexpr FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DMapping();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DMapping(int32_t value__) noexcept;
 
   /// @brief Field Emissive value: I32(6)
@@ -144,7 +144,7 @@ public:
   // @brief default ctor
   constexpr FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DChannel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DChannel(int32_t value__) noexcept;
 
   /// @brief Field A value: I32(0)
@@ -305,38 +305,48 @@ protected:
   constexpr FloatTextureProcessor3DMappingVectorEffectTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMappingVectorEffectTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMappingVectorEffectTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatTextureProcessor3DMappingVectorEffectTarget(FloatTextureProcessor3DMappingVectorEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMappingVectorEffectTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMappingVectorEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatTextureProcessor3DMappingVectorEffectTarget(FloatTextureProcessor3DMappingVectorEffectTarget const&) = delete;
+  FloatTextureProcessor3DMappingVectorEffectTarget(FloatTextureProcessor3DMappingVectorEffectTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5870 };
 
+  /// [SerializeField]
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 
+  /// [SerializeField]
   /// @brief Field _useSlave, offset: 0x28, size: 0x1, def value: None
   bool ____useSlave;
 
+  /// [SerializeField]
   /// @brief Field _slaveMaterial, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____slaveMaterial;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _mapping, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DMapping ____mapping;
 
+  /// [SerializeField]
   /// @brief Field _channel, offset: 0x3c, size: 0x4, def value: None
   ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DChannel ____channel;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _valueBounds, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____valueBounds;
 
+  /// [SerializeField]
   /// @brief Field _invertAxis, offset: 0x48, size: 0x1, def value: None
   bool ____invertAxis;
 
+  /// [SerializeField]
   /// @brief Field _invertAxisSlave, offset: 0x49, size: 0x1, def value: None
   bool ____invertAxisSlave;
 

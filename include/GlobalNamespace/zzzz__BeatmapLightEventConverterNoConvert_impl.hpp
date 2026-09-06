@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLightEventConverterNoConvert.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLightEventConverterNoConvert.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_impl.hpp"
@@ -325,6 +325,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::BeatmapLightEventCon
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12*
 GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12*>(__1__state));
@@ -834,6 +835,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::BeatmapLightEventCon
                                                            { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13*
 GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13*>(__1__state));
@@ -1323,6 +1325,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::BeatmapLightEventCon
                                                            { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14*
 GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14*>(__1__state));
@@ -1772,6 +1775,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::BeatmapLightEventCon
                                                            { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15*
 GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15*>(__1__state));

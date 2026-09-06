@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_Mouse_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Mouse_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr VREvent_Mouse_t();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "button", ty:
-  // "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "button", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VREvent_Mouse_t(float_t x, float_t y, uint32_t button) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

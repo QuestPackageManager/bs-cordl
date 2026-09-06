@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\IesEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/IesEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -158,13 +158,13 @@ protected:
   constexpr IesEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IesEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IesEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IesEngine(IesEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IesEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IesEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IesEngine(IesEngine const&) = delete;
+  IesEngine(IesEngineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 849 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\AchievementDefinition.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/AchievementDefinition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,13 +72,13 @@ protected:
   constexpr AchievementDefinition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AchievementDefinition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AchievementDefinition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AchievementDefinition(AchievementDefinition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AchievementDefinition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AchievementDefinition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AchievementDefinition(AchievementDefinition const&) = delete;
+  AchievementDefinition(AchievementDefinitionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18009 };

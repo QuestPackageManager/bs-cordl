@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PrefabInstantiatorCached.hpp"
+// IWYU pragma private; include "Zenject/PrefabInstantiatorCached.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ class PrefabInstantiatorCached;
 // Write type traits
 MARK_REF_T(::Zenject::PrefabInstantiatorCached*);
 DEFINE_IL2CPP_CLASS(::Zenject::PrefabInstantiatorCached*, "Zenject", "PrefabInstantiatorCached");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -103,13 +104,13 @@ protected:
   constexpr PrefabInstantiatorCached();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiatorCached", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiatorCached", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabInstantiatorCached(PrefabInstantiatorCached&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiatorCached", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiatorCached", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabInstantiatorCached(PrefabInstantiatorCached const&) = delete;
+  PrefabInstantiatorCached(PrefabInstantiatorCachedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14584 };

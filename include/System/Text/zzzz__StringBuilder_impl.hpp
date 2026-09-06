@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "System\Text\StringBuilder.hpp"
+// IWYU pragma private; include "System/Text/StringBuilder.hpp"
+#include "System/zzzz__IFormattable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
@@ -1186,7 +1187,9 @@ inline ::System::Text::StringBuilder* System::Text::StringBuilder::Append(uint32
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::StringBuilder*>(), { "Append", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Text::StringBuilder*>(this, ___internal_method, value);
 }
-template <typename T> inline ::System::Text::StringBuilder* System::Text::StringBuilder::AppendSpanFormattable(T value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IFormattable*>)
+inline ::System::Text::StringBuilder* System::Text::StringBuilder::AppendSpanFormattable(T value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::StringBuilder*>(), { "AppendSpanFormattable", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1240,7 +1243,7 @@ inline ::System::Text::StringBuilder* System::Text::StringBuilder::AppendFormat(
                           { "AppendFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Text::StringBuilder*>(this, ___internal_method, format, arg0, arg1, arg2);
 }
-inline ::System::Text::StringBuilder* System::Text::StringBuilder::AppendFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline ::System::Text::StringBuilder* System::Text::StringBuilder::AppendFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Text::StringBuilder*>(), { "AppendFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\SharedStatic_1.hpp"
+// IWYU pragma private; include "Unity/Burst/SharedStatic_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,15 +11,19 @@ class Type;
 }
 // Forward declare root types
 namespace Unity::Burst {
-template <typename T> struct SharedStatic_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct SharedStatic_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Burst::SharedStatic_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Burst::SharedStatic_1, "Unity.Burst", "SharedStatic`1");
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Burst {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Burst.SharedStatic`1<T>
 struct CORDL_TYPE SharedStatic_1 {
@@ -29,6 +33,7 @@ public:
 
   __declspec(property(get = get_UnsafeDataPointer)) void* UnsafeDataPointer;
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckIf_T_IsUnmanagedOrThrow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CheckIf_T_IsUnmanagedOrThrow();
 
@@ -66,7 +71,7 @@ public:
   // @brief default ctor
   constexpr SharedStatic_1();
 
-  // Ctor Parameters [CppParam { name: "_buffer", ty: "void*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_buffer", ty: "void*", modifiers: "", def_value: None, comment: None }]
   constexpr SharedStatic_1(void* _buffer) noexcept;
 
   /// @brief Field DefaultAlignment offset 0xffffffff size 0x4

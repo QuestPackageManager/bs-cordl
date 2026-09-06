@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Main\GraphQL\Queries\FeatureFlagsEnabled.hpp"
+// IWYU pragma private; include "Main/GraphQL/Queries/FeatureFlagsEnabled.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLQueryOperation_impl.hpp"
 #include "Main/GraphQL/Queries/zzzz__FeatureFlagsEnabled_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -74,7 +74,7 @@ inline ::System::Collections::Generic::List_1<::StringW>* Main::GraphQL::Queries
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Main::GraphQL::Queries::FeatureFlagsEnabled*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*>(this, ___internal_method);
 }
-inline void Main::GraphQL::Queries::FeatureFlagsEnabled::set_Features(::System::Collections::Generic::List_1<::StringW>* value) {
+inline void Main::GraphQL::Queries::FeatureFlagsEnabled::set_Features(/* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<::StringW>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Main::GraphQL::Queries::FeatureFlagsEnabled*>(),
                                                                                          { "set_Features", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::StringW>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);

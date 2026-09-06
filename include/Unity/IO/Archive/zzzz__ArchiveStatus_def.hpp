@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\Archive\ArchiveStatus.hpp"
+// IWYU pragma private; include "Unity/IO/Archive/ArchiveStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ArchiveStatus;
 // Write type traits
 MARK_VAL_T(::Unity::IO::Archive::ArchiveStatus);
 DEFINE_IL2CPP_CLASS(::Unity::IO::Archive::ArchiveStatus, "Unity.IO.Archive", "ArchiveStatus");
+// [RequiredByNativeCode]
 // Dependencies
 namespace Unity::IO::Archive {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ArchiveStatus();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ArchiveStatus(int32_t value__) noexcept;
 
   /// @brief Field Complete value: I32(1)

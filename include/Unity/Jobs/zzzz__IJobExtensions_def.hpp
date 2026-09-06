@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\IJobExtensions.hpp"
+// IWYU pragma private; include "Unity/Jobs/IJobExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstLike_def.hpp"
+#include "Unity/Jobs/zzzz__IJob_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IJobExtensions)
@@ -20,23 +21,31 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
 namespace Unity::Jobs {
-template <typename T> struct IJobExtensions_JobStruct_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobExtensions_JobStruct_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 namespace Unity::Jobs {
-template <typename T> class JobStruct_1_IJobExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class JobStruct_1_IJobExtensions_ExecuteJobFunction;
 }
 // Forward declare root types
 namespace Unity::Jobs {
 class IJobExtensions;
 }
 namespace Unity::Jobs {
-template <typename T> class JobStruct_1_IJobExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class JobStruct_1_IJobExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T> struct IJobExtensions_JobStruct_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobExtensions_JobStruct_1;
 }
 // Write type traits
 MARK_REF_T(::Unity::Jobs::IJobExtensions*);
@@ -45,10 +54,11 @@ MARK_GEN_VAL_T(::Unity::Jobs::IJobExtensions_JobStruct_1);
 DEFINE_IL2CPP_CLASS(::Unity::Jobs::IJobExtensions*, "Unity.Jobs", "IJobExtensions");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Jobs::JobStruct_1_IJobExtensions_ExecuteJobFunction, "Unity.Jobs", "IJobExtensions/JobStruct`1/ExecuteJobFunction");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::IJobExtensions_JobStruct_1, "Unity.Jobs", "IJobExtensions/JobStruct`1");
-// Dependencies System.MulticastDelegate
+// Dependencies System.MulticastDelegate, Unity.Jobs.IJob
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Jobs.IJobExtensions/JobStruct`1/ExecuteJobFunction<T>
 class CORDL_TYPE JobStruct_1_IJobExtensions_ExecuteJobFunction : public ::System::MulticastDelegate {
@@ -68,13 +78,13 @@ protected:
   constexpr JobStruct_1_IJobExtensions_ExecuteJobFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobStruct_1_IJobExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobStruct_1_IJobExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JobStruct_1_IJobExtensions_ExecuteJobFunction(JobStruct_1_IJobExtensions_ExecuteJobFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobStruct_1_IJobExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobStruct_1_IJobExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobStruct_1_IJobExtensions_ExecuteJobFunction(JobStruct_1_IJobExtensions_ExecuteJobFunction const&) = delete;
+  JobStruct_1_IJobExtensions_ExecuteJobFunction(JobStruct_1_IJobExtensions_ExecuteJobFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9916 };
@@ -83,10 +93,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.IntPtr, Unity.Collections.LowLevel.Unsafe.BurstLike::SharedStatic`1<T>
+// Dependencies System.IntPtr, Unity.Collections.LowLevel.Unsafe.BurstLike::SharedStatic`1<T>, Unity.Jobs.IJob
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobExtensions/JobStruct`1<T>
 #pragma pack(push, 0)
@@ -101,6 +112,7 @@ public:
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Execute(::by_ref<T> data, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData, ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
 
+  /// [BurstDiscard]
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Initialize();
 
@@ -123,26 +135,39 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, Unity.Jobs.IJob
 namespace Unity::Jobs {
 // Is value type: false
 // CS Name: Unity.Jobs.IJobExtensions
 class CORDL_TYPE IJobExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using JobStruct_1 = ::Unity::Jobs::IJobExtensions_JobStruct_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using JobStruct_1 = ::Unity::Jobs::IJobExtensions_JobStruct_1<T>;
 
   /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void EarlyJobInit();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void EarlyJobInit();
 
   /// @brief Method GetReflectionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::IntPtr GetReflectionData();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::System::IntPtr GetReflectionData();
 
+  /// [Extension]
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Run(T jobData);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Run(T jobData);
 
+  /// [Extension]
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJob*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle Schedule(T jobData, ::Unity::Jobs::JobHandle dependsOn);
 
 protected:
   // Ctor Parameters []
@@ -150,13 +175,13 @@ protected:
   constexpr IJobExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IJobExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IJobExtensions(IJobExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJobExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobExtensions(IJobExtensions const&) = delete;
+  IJobExtensions(IJobExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9918 };

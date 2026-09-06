@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,10 @@ public:
   // @brief default ctor
   constexpr BeatmapObjectRecorder_ObjectCounts();
 
-  // Ctor Parameters [CppParam { name: "note", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bomb", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "burstSliderHead", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "burstSliderElement", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "slider", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "burstSlider", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obstacle", ty: "int32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "note", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bomb", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "burstSliderHead", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "burstSliderElement", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "slider", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "burstSlider", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "obstacle", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapObjectRecorder_ObjectCounts(int32_t note, int32_t bomb, int32_t burstSliderHead, int32_t burstSliderElement, int32_t slider, int32_t burstSlider, int32_t obstacle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -199,13 +199,13 @@ protected:
   constexpr BeatmapObjectRecorder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectRecorder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectRecorder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectRecorder(BeatmapObjectRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectRecorder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectRecorder(BeatmapObjectRecorder const&) = delete;
+  BeatmapObjectRecorder(BeatmapObjectRecorderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6598 };

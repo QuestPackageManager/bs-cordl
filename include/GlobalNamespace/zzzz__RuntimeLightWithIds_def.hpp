@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RuntimeLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/RuntimeLightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,17 +71,18 @@ protected:
   constexpr RuntimeLightWithIds_LightIntensitiesWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds_LightIntensitiesWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds_LightIntensitiesWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeLightWithIds_LightIntensitiesWithId(RuntimeLightWithIds_LightIntensitiesWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds_LightIntensitiesWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeLightWithIds_LightIntensitiesWithId(RuntimeLightWithIds_LightIntensitiesWithId const&) = delete;
+  RuntimeLightWithIds_LightIntensitiesWithId(RuntimeLightWithIds_LightIntensitiesWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19552 };
 
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x30, size: 0x4, def value: None
   float_t ____intensity;
 
@@ -120,7 +121,7 @@ public:
 
   __declspec(property(get = get_mixType)) ::GlobalNamespace::ColorMixAndWeightingApproach mixType;
 
-  /// @brief Method ColorWasSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   /// @brief Method GetLightWithIds, addr 0x58708b0, size 0x8, virtual true, abstract: false, final false
@@ -176,29 +177,35 @@ protected:
   constexpr RuntimeLightWithIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeLightWithIds(RuntimeLightWithIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeLightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeLightWithIds(RuntimeLightWithIds const&) = delete;
+  RuntimeLightWithIds(RuntimeLightWithIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19553 };
 
+  /// [SerializeField]
   /// @brief Field _lightIntensityData, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId*> ____lightIntensityData;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x40, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
   /// @brief Field _maxIntensity, offset: 0x44, size: 0x4, def value: None
   float_t ____maxIntensity;
 
+  /// [SerializeField]
   /// @brief Field _multiplyColorByAlpha, offset: 0x48, size: 0x1, def value: None
   bool ____multiplyColorByAlpha;
 
+  /// [SerializeField]
   /// @brief Field _mixType, offset: 0x4c, size: 0x4, def value: None
   ::GlobalNamespace::ColorMixAndWeightingApproach ____mixType;
 

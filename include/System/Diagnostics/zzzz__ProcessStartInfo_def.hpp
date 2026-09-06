@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\ProcessStartInfo.hpp"
+// IWYU pragma private; include "System/Diagnostics/ProcessStartInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ class ProcessStartInfo;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::ProcessStartInfo*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::ProcessStartInfo*, "System.Diagnostics", "ProcessStartInfo");
+// [TypeConverter(typeof(System.ComponentModel.ExpandableObjectConverter))]
 // Dependencies System.Diagnostics.ProcessWindowStyle, System.IntPtr, System.Object
 namespace System::Diagnostics {
 // Is value type: false
@@ -49,26 +50,56 @@ public:
   // Declarations
   __declspec(property(get = get_ArgumentList)) ::System::Collections::ObjectModel::Collection_1<::StringW>* ArgumentList;
 
+  /// [DefaultValue("")]
+  /// [MonitoringDescription("Command line arguments that will be passed to the application specified by the FileName property.")]
+  /// [SettingsBindable(true)]
+  /// [TypeConverter("System.Diagnostics.Design.StringValueConverter, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+  /// @brief [NotifyParentProperty(true)]
   __declspec(property(get = get_Arguments, put = set_Arguments)) ::StringW Arguments;
 
+  /// [NotifyParentProperty(true)]
+  /// [MonitoringDescription("Whether to start the process without creating a new window to contain it.")]
+  /// @brief [DefaultValue(false)]
   __declspec(property(put = set_CreateNoWindow)) bool CreateNoWindow;
 
+  /// @brief [NotifyParentProperty(true)]
   __declspec(property(get = get_Domain)) ::StringW Domain;
 
+  /// [Editor("System.Diagnostics.Design.StringDictionaryEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing,
+  /// Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")] [DefaultValue(null)] [MonitoringDescription("Set of environment variables that apply to this process and child processes.")]
+  /// [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)2)]
+  /// @brief [NotifyParentProperty(true)]
   __declspec(property(get = get_EnvironmentVariables)) ::System::Collections::Specialized::StringDictionary* EnvironmentVariables;
 
+  /// [SettingsBindable(true)]
+  /// [NotifyParentProperty(true)]
+  /// [TypeConverter("System.Diagnostics.Design.StringValueConverter, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+  /// [MonitoringDescription("The name of the application, document or URL to start.")]
+  /// [Editor("System.Diagnostics.Design.StartFileNameEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing,
+  /// Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_FileName, put = set_FileName)) ::StringW FileName;
 
   __declspec(property(get = get_HaveEnvVars)) bool HaveEnvVars;
 
+  /// @brief [NotifyParentProperty(true)]
   __declspec(property(get = get_LoadUserProfile)) bool LoadUserProfile;
 
   __declspec(property(get = get_Password)) ::System::Security::SecureString* Password;
 
+  /// [DefaultValue(false)]
+  /// [MonitoringDescription("Whether the process\'s error output is written to the Process instance\'s StandardError member.")]
+  /// @brief [NotifyParentProperty(true)]
   __declspec(property(get = get_RedirectStandardError, put = set_RedirectStandardError)) bool RedirectStandardError;
 
+  /// [DefaultValue(false)]
+  /// [MonitoringDescription("Whether the process command input is read from the Process instance\'s StandardInput member.")]
+  /// @brief [NotifyParentProperty(true)]
   __declspec(property(get = get_RedirectStandardInput, put = set_RedirectStandardInput)) bool RedirectStandardInput;
 
+  /// [DefaultValue(false)]
+  /// [NotifyParentProperty(true)]
+  /// @brief [MonitoringDescription("Whether the process output is written to the Process instance\'s StandardOutput member.")]
   __declspec(property(get = get_RedirectStandardOutput, put = set_RedirectStandardOutput)) bool RedirectStandardOutput;
 
   __declspec(property(get = get_StandardErrorEncoding)) ::System::Text::Encoding* StandardErrorEncoding;
@@ -77,12 +108,25 @@ public:
 
   __declspec(property(get = get_StandardOutputEncoding)) ::System::Text::Encoding* StandardOutputEncoding;
 
+  /// [DefaultValue(true)]
+  /// [MonitoringDescription("Whether to use the operating system shell to start the process.")]
+  /// @brief [NotifyParentProperty(true)]
   __declspec(property(get = get_UseShellExecute, put = set_UseShellExecute)) bool UseShellExecute;
 
+  /// @brief [NotifyParentProperty(true)]
   __declspec(property(get = get_UserName)) ::StringW UserName;
 
+  /// [NotifyParentProperty(true)]
+  /// [DefaultValue((System.Diagnostics.ProcessWindowStyle)0)]
+  /// @brief [MonitoringDescription("How the main window should be created when the process starts.")]
   __declspec(property(put = set_WindowStyle)) ::System::Diagnostics::ProcessWindowStyle WindowStyle;
 
+  /// [NotifyParentProperty(true)]
+  /// [TypeConverter("System.Diagnostics.Design.StringValueConverter, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+  /// [SettingsBindable(true)]
+  /// [Editor("System.Diagnostics.Design.WorkingDirectoryEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing,
+  /// Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")] [DefaultValue("")]
+  /// @brief [MonitoringDescription("The initial working directory for the process.")]
   __declspec(property(get = get_WorkingDirectory)) ::StringW WorkingDirectory;
 
   /// @brief Field <StandardInputEncoding>k__BackingField, offset 0xa8, size 0x8
@@ -353,6 +397,7 @@ public:
   /// @brief Method get_StandardErrorEncoding, addr 0x639f8a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardErrorEncoding();
 
+  /// [CompilerGenerated]
   /// @brief Method get_StandardInputEncoding, addr 0x639fa38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardInputEncoding();
 
@@ -400,13 +445,13 @@ protected:
   constexpr ProcessStartInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProcessStartInfo(ProcessStartInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProcessStartInfo(ProcessStartInfo const&) = delete;
+  ProcessStartInfo(ProcessStartInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11153 };
@@ -480,6 +525,7 @@ public:
   /// @brief Field environment, offset: 0xa0, size: 0x8, def value: None
   ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* ___environment;
 
+  /// [CompilerGenerated]
   /// @brief Field <StandardInputEncoding>k__BackingField, offset: 0xa8, size: 0x8, def value: None
   ::System::Text::Encoding* ____StandardInputEncoding_k__BackingField;
 

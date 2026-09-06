@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EmitParticles.hpp"
+// IWYU pragma private; include "GlobalNamespace/EmitParticles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class EmitParticles;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::EmitParticles*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EmitParticles*, "", "EmitParticles");
+// [AddComponentMenu("Beat Saber/Gameplay/EmitParticles")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -46,17 +47,18 @@ protected:
   constexpr EmitParticles();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EmitParticles", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EmitParticles", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EmitParticles(EmitParticles&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EmitParticles", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EmitParticles", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EmitParticles(EmitParticles const&) = delete;
+  EmitParticles(EmitParticlesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5762 };
 
+  /// [SerializeField]
   /// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 

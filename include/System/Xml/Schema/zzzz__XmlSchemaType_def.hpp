@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaType.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,32 +49,45 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaType : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_BaseXmlSchemaType)) ::System::Xml::Schema::XmlSchemaType* BaseXmlSchemaType;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Datatype)) ::System::Xml::Schema::XmlSchemaDatatype* Datatype;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_DerivedBy)) ::System::Xml::Schema::XmlSchemaDerivationMethod DerivedBy;
 
   __declspec(property(get = get_ElementDecl, put = set_ElementDecl)) ::System::Xml::Schema::SchemaElementDecl* ElementDecl;
 
+  /// [XmlAttribute("final")]
+  /// @brief [DefaultValue((System.Xml.Schema.XmlSchemaDerivationMethod)256)]
   __declspec(property(get = get_Final, put = set_Final)) ::System::Xml::Schema::XmlSchemaDerivationMethod Final;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_FinalResolved)) ::System::Xml::Schema::XmlSchemaDerivationMethod FinalResolved;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IsMixed, put = set_IsMixed)) bool IsMixed;
 
+  /// @brief [XmlAttribute("name")]
   __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_NameAttribute, put = set_NameAttribute)) ::StringW NameAttribute;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_QualifiedName)) ::System::Xml::XmlQualifiedName* QualifiedName;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Redefined, put = set_Redefined)) ::System::Xml::Schema::XmlSchemaType* Redefined;
 
   __declspec(property(get = get_SchemaContentType)) ::System::Xml::Schema::XmlSchemaContentType SchemaContentType;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_ValueConverter)) ::System::Xml::Schema::XmlValueConverter* ValueConverter;
 
   /// @brief Field baseSchemaType, offset 0x60, size 0x8
@@ -272,13 +285,13 @@ protected:
   constexpr XmlSchemaType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaType(XmlSchemaType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaType(XmlSchemaType const&) = delete;
+  XmlSchemaType(XmlSchemaTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9821 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NullAllowedIfAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/NullAllowedIfAttribute.hpp"
 #include "GlobalNamespace/zzzz__ComparisonOperation_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowedAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowedIfAttribute_def.hpp"

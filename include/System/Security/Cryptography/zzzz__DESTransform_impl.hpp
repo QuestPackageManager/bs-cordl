@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\DESTransform.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/DESTransform.hpp"
 #include "Mono/Security/Cryptography/zzzz__SymmetricTransform_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DESTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"

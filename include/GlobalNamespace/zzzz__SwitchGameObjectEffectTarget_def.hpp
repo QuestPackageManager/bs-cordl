@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SwitchGameObjectEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/SwitchGameObjectEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,20 +62,24 @@ protected:
   constexpr SwitchGameObjectEffectTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchGameObjectEffectTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchGameObjectEffectTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SwitchGameObjectEffectTarget(SwitchGameObjectEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchGameObjectEffectTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchGameObjectEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SwitchGameObjectEffectTarget(SwitchGameObjectEffectTarget const&) = delete;
+  SwitchGameObjectEffectTarget(SwitchGameObjectEffectTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5882 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _gameObject01, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____gameObject01;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _gameObject02, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____gameObject02;
 

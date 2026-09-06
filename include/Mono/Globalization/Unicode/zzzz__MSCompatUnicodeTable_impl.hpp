@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Globalization\Unicode\MSCompatUnicodeTable.hpp"
+// IWYU pragma private; include "Mono/Globalization/Unicode/MSCompatUnicodeTable.hpp"
 #include "Mono/Globalization/Unicode/zzzz__TailoringInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__MSCompatUnicodeTable_def.hpp"

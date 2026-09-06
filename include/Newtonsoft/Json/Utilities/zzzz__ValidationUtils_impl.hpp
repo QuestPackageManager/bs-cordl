@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ValidationUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ValidationUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ValidationUtils_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::Utilities::ValidationUtils::ArgumentNotNull(::System::Object* value, ::StringW parameterName) {
+inline void Newtonsoft::Json::Utilities::ValidationUtils::ArgumentNotNull(/* [Nullable(2)] [NotNull] */ ::System::Object* value, ::StringW parameterName) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ValidationUtils*>(),
                                                                                          { "ArgumentNotNull", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value, parameterName);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Vector3Mask.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Vector3Mask.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Vector3Mask_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -427,7 +427,7 @@ constexpr UnityEngine::ProBuilder::Vector3Mask::operator ::System::IEquatable_1<
 constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>* UnityEngine::ProBuilder::Vector3Mask::i___System__IEquatable_1___UnityEngine__ProBuilder__Vector3Mask_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Vector3Mask>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mask", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::Vector3Mask::Vector3Mask(uint8_t m_Mask) noexcept {
   this->m_Mask = m_Mask;
 }

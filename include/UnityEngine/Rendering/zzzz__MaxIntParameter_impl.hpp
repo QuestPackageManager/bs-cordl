@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MaxIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MaxIntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__IntParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MaxIntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::MaxIntParameter.get_value

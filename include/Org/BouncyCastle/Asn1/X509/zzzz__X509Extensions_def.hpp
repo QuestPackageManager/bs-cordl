@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\X509Extensions.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/X509Extensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -196,20 +196,24 @@ public:
   /// @brief Method GetNonCriticalExtensionOids, addr 0x366ec3c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> GetNonCriticalExtensionOids();
 
+  /// @brief [Obsolete]
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::System::Collections::Hashtable* extensions);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::System::Collections::IDictionary* extensions);
 
+  /// @brief [Obsolete]
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::System::Collections::ArrayList* oids, ::System::Collections::ArrayList* values);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::System::Collections::IList* oids, ::System::Collections::IList* values);
 
+  /// @brief [Obsolete]
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::System::Collections::ArrayList* ordering, ::System::Collections::Hashtable* extensions);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* extensions);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
+  /// [Obsolete("Use ExtensionOids IEnumerable property")]
   /// @brief Method Oids, addr 0x366de1c, size 0xac, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Oids();
 
@@ -231,18 +235,21 @@ public:
 
   constexpr void __cordl_internal_set_ordering(::System::Collections::IList* value);
 
+  /// [Obsolete]
   /// @brief Method .ctor, addr 0x366d4e8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* extensions);
 
   /// @brief Method .ctor, addr 0x366cfa4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* extensions);
 
+  /// [Obsolete]
   /// @brief Method .ctor, addr 0x366d9a0, size 0x47c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* oids, ::System::Collections::ArrayList* values);
 
   /// @brief Method .ctor, addr 0x366aa34, size 0x4d4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* oids, ::System::Collections::IList* values);
 
+  /// [Obsolete]
   /// @brief Method .ctor, addr 0x366d4f4, size 0x4ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* ordering, ::System::Collections::Hashtable* extensions);
 
@@ -389,13 +396,13 @@ protected:
   constexpr X509Extensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509Extensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Extensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Extensions(X509Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509Extensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509Extensions(X509Extensions const&) = delete;
+  X509Extensions(X509Extensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 406 };

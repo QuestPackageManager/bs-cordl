@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X9FieldElement.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9FieldElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,8 +39,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f);
 
+  /// @brief [Obsolete("Will be removed")]
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
+  /// @brief [Obsolete("Will be removed")]
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
   /// @brief Method ToAsn1Object, addr 0x367fa34, size 0xb0, virtual true, abstract: false, final false
@@ -55,9 +57,11 @@ public:
   /// @brief Method .ctor, addr 0x367e51c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f);
 
+  /// [Obsolete("Will be removed")]
   /// @brief Method .ctor, addr 0x367f93c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
+  /// [Obsolete("Will be removed")]
   /// @brief Method .ctor, addr 0x367f868, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
@@ -70,13 +74,13 @@ protected:
   constexpr X9FieldElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X9FieldElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X9FieldElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X9FieldElement(X9FieldElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X9FieldElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X9FieldElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X9FieldElement(X9FieldElement const&) = delete;
+  X9FieldElement(X9FieldElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 445 };

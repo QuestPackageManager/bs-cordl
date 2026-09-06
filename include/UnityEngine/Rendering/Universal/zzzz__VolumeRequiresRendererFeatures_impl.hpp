@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\VolumeRequiresRendererFeatures.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/VolumeRequiresRendererFeatures.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__VolumeRequiresRendererFeatures_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -31,13 +31,14 @@ constexpr void UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TargetFeatureTypes = value;
 }
-inline void UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures::_ctor(::ArrayW<::System::Type*> featureTypes) {
+inline void UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures::_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> featureTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, featureTypes);
 }
-inline ::UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures* UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures::New_ctor(::ArrayW<::System::Type*> featureTypes) {
+inline ::UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures*
+UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures::New_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> featureTypes) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures*>(featureTypes));
 }
 // Ctor Parameters []

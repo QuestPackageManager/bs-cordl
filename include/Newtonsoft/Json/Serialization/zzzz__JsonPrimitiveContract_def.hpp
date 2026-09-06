@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonPrimitiveContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonPrimitiveContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class JsonPrimitiveContract;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::JsonPrimitiveContract*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonPrimitiveContract*, "Newtonsoft.Json.Serialization", "JsonPrimitiveContract");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Serialization.JsonContract, Newtonsoft.Json.Utilities.PrimitiveTypeCode
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -54,11 +56,13 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* getStaticF_ReadTypeMap();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TypeCode, addr 0x5d44174, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
   static inline void setStaticF_ReadTypeMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TypeCode, addr 0x5d4417c, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
@@ -68,17 +72,18 @@ protected:
   constexpr JsonPrimitiveContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonPrimitiveContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonPrimitiveContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonPrimitiveContract(JsonPrimitiveContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonPrimitiveContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonPrimitiveContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonPrimitiveContract(JsonPrimitiveContract const&) = delete;
+  JsonPrimitiveContract(JsonPrimitiveContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13512 };
 
+  /// [CompilerGenerated]
   /// @brief Field <TypeCode>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   ::Newtonsoft::Json::Utilities::PrimitiveTypeCode ____TypeCode_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\SpriteAsset.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/SpriteAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ MARK_REF_T(::UnityEngine::TextCore::Text::SpriteAsset*);
 MARK_REF_T(::UnityEngine::TextCore::Text::SpriteAsset___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::SpriteAsset*, "UnityEngine.TextCore.Text", "SpriteAsset");
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::SpriteAsset___c*, "UnityEngine.TextCore.Text", "SpriteAsset/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -97,13 +98,13 @@ protected:
   constexpr SpriteAsset___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsset___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsset___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpriteAsset___c(SpriteAsset___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsset___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpriteAsset___c(SpriteAsset___c const&) = delete;
+  SpriteAsset___c(SpriteAsset___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17231 };
@@ -114,6 +115,8 @@ public:
 static_assert(sizeof(::UnityEngine::TextCore::Text::SpriteAsset___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
+// [HelpURL("https://docs.unity3d.com/2023.3/Documentation/Manual/UIE-sprite.html")]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.TextCore.FaceInfo, UnityEngine.TextCore.Text.TextAsset
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -313,6 +316,7 @@ public:
   /// @brief Method get_faceInfo, addr 0x6bffc9c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::FaceInfo get_faceInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method get_height, addr 0x6bffd24, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
@@ -328,12 +332,14 @@ public:
   /// @brief Method get_spriteSheet, addr 0x6bffcb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_spriteSheet();
 
+  /// [CompilerGenerated]
   /// @brief Method get_width, addr 0x6bffd14, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
   /// @brief Method set_faceInfo, addr 0x6bffcac, size 0xc, virtual false, abstract: false, final false
   inline void set_faceInfo(::UnityEngine::TextCore::FaceInfo value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_height, addr 0x6bffd2c, size 0x8, virtual false, abstract: false, final false
   inline void set_height(float_t value);
 
@@ -349,6 +355,7 @@ public:
   /// @brief Method set_spriteSheet, addr 0x6bffcc0, size 0x54, virtual false, abstract: false, final false
   inline void set_spriteSheet(::UnityEngine::Texture* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_width, addr 0x6bffd1c, size 0x8, virtual false, abstract: false, final false
   inline void set_width(float_t value);
 
@@ -358,13 +365,13 @@ protected:
   constexpr SpriteAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpriteAsset(SpriteAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpriteAsset(SpriteAsset const&) = delete;
+  SpriteAsset(SpriteAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17232 };
@@ -375,30 +382,40 @@ public:
   /// @brief Field m_GlyphIndexLookup, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint32_t, int32_t>* ___m_GlyphIndexLookup;
 
+  /// [SerializeField]
   /// @brief Field m_FaceInfo, offset: 0x48, size: 0x60, def value: None
   ::UnityEngine::TextCore::FaceInfo ___m_FaceInfo;
 
+  /// [FormerlySerializedAs("spriteSheet")]
+  /// [SerializeField]
   /// @brief Field m_SpriteAtlasTexture, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> ___m_SpriteAtlasTexture;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <width>k__BackingField, offset: 0xb0, size: 0x4, def value: None
   float_t ____width_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <height>k__BackingField, offset: 0xb4, size: 0x4, def value: None
   float_t ____height_k__BackingField;
 
+  /// [SerializeField]
   /// @brief Field m_SpriteCharacterTable, offset: 0xb8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteCharacter*>* ___m_SpriteCharacterTable;
 
   /// @brief Field m_SpriteCharacterLookup, offset: 0xc0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::SpriteCharacter*>* ___m_SpriteCharacterLookup;
 
+  /// [SerializeField]
   /// @brief Field m_SpriteGlyphTable, offset: 0xc8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteGlyph*>* ___m_SpriteGlyphTable;
 
   /// @brief Field m_SpriteGlyphLookup, offset: 0xd0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::SpriteGlyph*>* ___m_SpriteGlyphLookup;
 
+  /// [SerializeField]
   /// @brief Field fallbackSpriteAssets, offset: 0xd8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* ___fallbackSpriteAssets;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\XROcclusionMeshPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/XROcclusionMeshPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
@@ -268,8 +268,8 @@ inline void UnityEngine::Rendering::Universal::XROcclusionMeshPass::Execute(::Un
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::XROcclusionMeshPass::Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                                                                           ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraColorAttachment,
-                                                                           ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraDepthAttachment) {
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraColorAttachment,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraDepthAttachment) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XROcclusionMeshPass*>(),
                                               { "Render",

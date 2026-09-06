@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\BooleanSwitch.hpp"
+// IWYU pragma private; include "System/Diagnostics/BooleanSwitch.hpp"
 #include "System/Diagnostics/zzzz__Switch_impl.hpp"
 #include "System/Diagnostics/zzzz__BooleanSwitch_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::BooleanSwitch._ctor

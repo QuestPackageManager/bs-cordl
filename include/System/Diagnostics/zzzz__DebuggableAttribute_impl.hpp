@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\DebuggableAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/DebuggableAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__DebuggableAttribute_def.hpp"
 #include "System/Diagnostics/zzzz__DebuggableAttribute_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Diagnostics::DebuggableAttribute_DebuggingModes::DebuggableAttribute_DebuggingModes(int32_t value__) noexcept {
   this->value__ = value__;
 }

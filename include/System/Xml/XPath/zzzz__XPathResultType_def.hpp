@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XPath\XPathResultType.hpp"
+// IWYU pragma private; include "System/Xml/XPath/XPathResultType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   // @brief default ctor
   constexpr XPathResultType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XPathResultType(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(5)

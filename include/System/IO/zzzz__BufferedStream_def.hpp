@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\BufferedStream.hpp"
+// IWYU pragma private; include "System/IO/BufferedStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -135,6 +135,7 @@ DEFINE_IL2CPP_CLASS(::System::IO::BufferedStream__FlushAsyncInternal_d__38, "Sys
 DEFINE_IL2CPP_CLASS(::System::IO::BufferedStream__FlushWriteAsync_d__42, "System.IO", "BufferedStream/<FlushWriteAsync>d__42");
 DEFINE_IL2CPP_CLASS(::System::IO::BufferedStream__ReadFromUnderlyingStreamAsync_d__51, "System.IO", "BufferedStream/<ReadFromUnderlyingStreamAsync>d__51");
 DEFINE_IL2CPP_CLASS(::System::IO::BufferedStream__WriteToUnderlyingStreamAsync_d__63, "System.IO", "BufferedStream/<WriteToUnderlyingStreamAsync>d__63");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::IO {
 // Is value type: false
@@ -170,13 +171,13 @@ protected:
   constexpr BufferedStream___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedStream___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedStream___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedStream___c(BufferedStream___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedStream___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedStream___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedStream___c(BufferedStream___c const&) = delete;
+  BufferedStream___c(BufferedStream___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3885 };
@@ -187,6 +188,7 @@ public:
 static_assert(sizeof(::System::IO::BufferedStream___c) == 0x10, "Size mismatch!");
 
 } // namespace System::IO
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable::ConfiguredValueTaskAwaiter
 namespace System::IO {
@@ -201,6 +203,7 @@ public:
   /// @brief Method MoveNext, addr 0x5c0e1e0, size 0x460, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5c0e6a8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -211,11 +214,12 @@ public:
   // @brief default ctor
   constexpr BufferedStream__DisposeAsync_d__34();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "__7__wrap1", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr BufferedStream__DisposeAsync_d__34(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder __t__builder, ::System::IO::BufferedStream* __4__this,
                                                ::System::Object* __7__wrap1, int32_t __7__wrap2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
                                                ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter __u__2) noexcept;
@@ -267,6 +271,7 @@ static_assert(offsetof(::System::IO::BufferedStream__DisposeAsync_d__34, __u__2)
 static_assert(sizeof(::System::IO::BufferedStream__DisposeAsync_d__34) == 0x60, "Size mismatch!");
 
 } // namespace System::IO
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace System::IO {
 // Is value type: true
@@ -280,6 +285,7 @@ public:
   /// @brief Method MoveNext, addr 0x5c0e6b4, size 0x59c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5c0ec50, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -290,10 +296,11 @@ public:
   // @brief default ctor
   constexpr BufferedStream__FlushAsyncInternal_d__38();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "", def_value: None
-  // }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_sem_5__2", ty: "::System::Threading::SemaphoreSlim*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_sem_5__2", ty: "::System::Threading::SemaphoreSlim*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr BufferedStream__FlushAsyncInternal_d__38(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::IO::BufferedStream* __4__this,
                                                      ::System::Threading::CancellationToken cancellationToken, ::System::Threading::SemaphoreSlim* _sem_5__2,
                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -340,6 +347,7 @@ static_assert(offsetof(::System::IO::BufferedStream__FlushAsyncInternal_d__38, _
 static_assert(sizeof(::System::IO::BufferedStream__FlushAsyncInternal_d__38) == 0x48, "Size mismatch!");
 
 } // namespace System::IO
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable::ConfiguredValueTaskAwaiter, System.Threading.CancellationToken
 namespace System::IO {
@@ -354,6 +362,7 @@ public:
   /// @brief Method MoveNext, addr 0x5c0ecbc, size 0x358, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5c0f014, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -364,11 +373,11 @@ public:
   // @brief default ctor
   constexpr BufferedStream__FlushWriteAsync_d__42();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "", def_value: None
-  // }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1",
+  // ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr BufferedStream__FlushWriteAsync_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::IO::BufferedStream* __4__this,
                                                   ::System::Threading::CancellationToken cancellationToken,
                                                   ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter __u__1,
@@ -416,6 +425,7 @@ static_assert(offsetof(::System::IO::BufferedStream__FlushWriteAsync_d__42, __u_
 static_assert(sizeof(::System::IO::BufferedStream__FlushWriteAsync_d__42) == 0x50, "Size mismatch!");
 
 } // namespace System::IO
+// [CompilerGenerated]
 // Dependencies System.Memory`1<T>, System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1::ConfiguredValueTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace System::IO {
@@ -430,6 +440,7 @@ public:
   /// @brief Method MoveNext, addr 0x5c0f080, size 0x800, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5c0f880, size 0x5c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -440,13 +451,14 @@ public:
   // @brief default ctor
   constexpr BufferedStream__ReadFromUnderlyingStreamAsync_d__51();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "semaphoreLockTask", ty: "::System::Threading::Tasks::Task*",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "", def_value: None }, CppParam { name: "buffer", ty:
-  // "::System::Memory_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "bytesAlreadySatisfied", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cancellationToken",
-  // ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "semaphoreLockTask", ty:
+  // "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "buffer", ty: "::System::Memory_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "bytesAlreadySatisfied", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1",
+  // ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap1", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<int32_t>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr BufferedStream__ReadFromUnderlyingStreamAsync_d__51(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> __t__builder,
                                                                 ::System::Threading::Tasks::Task* semaphoreLockTask, ::System::IO::BufferedStream* __4__this, ::System::Memory_1<uint8_t> buffer,
                                                                 int32_t bytesAlreadySatisfied, ::System::Threading::CancellationToken cancellationToken,
@@ -515,6 +527,7 @@ static_assert(offsetof(::System::IO::BufferedStream__ReadFromUnderlyingStreamAsy
 static_assert(sizeof(::System::IO::BufferedStream__ReadFromUnderlyingStreamAsync_d__51) == 0x80, "Size mismatch!");
 
 } // namespace System::IO
+// [CompilerGenerated]
 // Dependencies System.ReadOnlyMemory`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable::ConfiguredValueTaskAwaiter, System.Threading.CancellationToken
 namespace System::IO {
@@ -529,6 +542,7 @@ public:
   /// @brief Method MoveNext, addr 0x5c0f8dc, size 0xa64, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5c10340, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -539,12 +553,12 @@ public:
   // @brief default ctor
   constexpr BufferedStream__WriteToUnderlyingStreamAsync_d__63();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "semaphoreLockTask", ty: "::System::Threading::Tasks::Task*", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::System::ReadOnlyMemory_1<uint8_t>",
-  // modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "semaphoreLockTask", ty: "::System::Threading::Tasks::Task*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty:
+  // "::System::ReadOnlyMemory_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr BufferedStream__WriteToUnderlyingStreamAsync_d__63(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                ::System::Threading::Tasks::Task* semaphoreLockTask, ::System::IO::BufferedStream* __4__this, ::System::ReadOnlyMemory_1<uint8_t> buffer,
                                                                ::System::Threading::CancellationToken cancellationToken,
@@ -603,6 +617,7 @@ static_assert(offsetof(::System::IO::BufferedStream__WriteToUnderlyingStreamAsyn
 static_assert(sizeof(::System::IO::BufferedStream__WriteToUnderlyingStreamAsync_d__63) == 0x68, "Size mismatch!");
 
 } // namespace System::IO
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable::ConfiguredValueTaskAwaiter, System.Threading.CancellationToken
 namespace System::IO {
@@ -617,6 +632,7 @@ public:
   /// @brief Method MoveNext, addr 0x5c103ac, size 0x5a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5c1094c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -627,12 +643,12 @@ public:
   // @brief default ctor
   constexpr BufferedStream__CopyToAsyncCore_d__71();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "", def_value: None
-  // }, CppParam { name: "destination", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
-  // "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::IO::BufferedStream*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "destination", ty: "::System::IO::Stream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr BufferedStream__CopyToAsyncCore_d__71(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::IO::BufferedStream* __4__this,
                                                   ::System::IO::Stream* destination, ::System::Threading::CancellationToken cancellationToken, int32_t bufferSize,
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
@@ -761,12 +777,14 @@ public:
   /// @brief Method CopyToAsync, addr 0x5c0df40, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(System.IO.BufferedStream::<CopyToAsyncCore>d__71))]
   /// @brief Method CopyToAsyncCore, addr 0x5c0e04c, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsyncCore(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Dispose, addr 0x5c0b7c4, size 0x11c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
+  /// [AsyncStateMachine(typeof(System.IO.BufferedStream::<DisposeAsync>d__34))]
   /// @brief Method DisposeAsync, addr 0x5c0b6ec, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
@@ -800,6 +818,7 @@ public:
   /// @brief Method FlushAsync, addr 0x5c0b9e8, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(System.IO.BufferedStream::<FlushAsyncInternal>d__38))]
   /// @brief Method FlushAsyncInternal, addr 0x5c0bacc, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsyncInternal(::System::Threading::CancellationToken cancellationToken);
 
@@ -809,6 +828,7 @@ public:
   /// @brief Method FlushWrite, addr 0x5c0b590, size 0x50, virtual false, abstract: false, final false
   inline void FlushWrite();
 
+  /// [AsyncStateMachine(typeof(System.IO.BufferedStream::<FlushWriteAsync>d__42))]
   /// @brief Method FlushWriteAsync, addr 0x5c0bc20, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushWriteAsync(::System::Threading::CancellationToken cancellationToken);
 
@@ -849,6 +869,7 @@ public:
   /// @brief Method ReadFromBuffer, addr 0x5c0bd48, size 0x120, virtual false, abstract: false, final false
   inline int32_t ReadFromBuffer(::System::Span_1<uint8_t> destination);
 
+  /// [AsyncStateMachine(typeof(System.IO.BufferedStream::<ReadFromUnderlyingStreamAsync>d__51))]
   /// @brief Method ReadFromUnderlyingStreamAsync, addr 0x5c0c7bc, size 0x148, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadFromUnderlyingStreamAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken,
                                                                                         int32_t bytesAlreadySatisfied, ::System::Threading::Tasks::Task* semaphoreLockTask);
@@ -880,6 +901,7 @@ public:
   /// @brief Method WriteToBuffer, addr 0x5c0ce30, size 0xd8, virtual false, abstract: false, final false
   inline void WriteToBuffer(::ArrayW<uint8_t> array, ::by_ref<int32_t> offset, ::by_ref<int32_t> count);
 
+  /// [AsyncStateMachine(typeof(System.IO.BufferedStream::<WriteToUnderlyingStreamAsync>d__63))]
   /// @brief Method WriteToUnderlyingStreamAsync, addr 0x5c0daa0, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteToUnderlyingStreamAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken,
                                                                         ::System::Threading::Tasks::Task* semaphoreLockTask);
@@ -962,13 +984,13 @@ protected:
   constexpr BufferedStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedStream(BufferedStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedStream(BufferedStream const&) = delete;
+  BufferedStream(BufferedStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3892 };

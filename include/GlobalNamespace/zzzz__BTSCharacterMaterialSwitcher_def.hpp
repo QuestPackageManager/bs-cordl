@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BTSCharacterMaterialSwitcher.hpp"
+// IWYU pragma private; include "GlobalNamespace/BTSCharacterMaterialSwitcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,20 +87,22 @@ protected:
   constexpr BTSCharacterMaterialSwitcher_RendererMaterialsPairs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_RendererMaterialsPairs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_RendererMaterialsPairs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterMaterialSwitcher_RendererMaterialsPairs(BTSCharacterMaterialSwitcher_RendererMaterialsPairs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_RendererMaterialsPairs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_RendererMaterialsPairs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterMaterialSwitcher_RendererMaterialsPairs(BTSCharacterMaterialSwitcher_RendererMaterialsPairs const&) = delete;
+  BTSCharacterMaterialSwitcher_RendererMaterialsPairs(BTSCharacterMaterialSwitcher_RendererMaterialsPairsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22009 };
 
+  /// [SerializeField]
   /// @brief Field _renderer, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 
+  /// [SerializeField]
   /// @brief Field _materialPairs, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher_MaterialPairs*>* ____materialPairs;
 
@@ -159,13 +161,13 @@ protected:
   constexpr BTSCharacterMaterialSwitcher_MaterialPairs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_MaterialPairs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_MaterialPairs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterMaterialSwitcher_MaterialPairs(BTSCharacterMaterialSwitcher_MaterialPairs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_MaterialPairs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher_MaterialPairs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterMaterialSwitcher_MaterialPairs(BTSCharacterMaterialSwitcher_MaterialPairs const&) = delete;
+  BTSCharacterMaterialSwitcher_MaterialPairs(BTSCharacterMaterialSwitcher_MaterialPairsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22010 };
@@ -227,17 +229,18 @@ protected:
   constexpr BTSCharacterMaterialSwitcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterMaterialSwitcher(BTSCharacterMaterialSwitcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterMaterialSwitcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterMaterialSwitcher(BTSCharacterMaterialSwitcher const&) = delete;
+  BTSCharacterMaterialSwitcher(BTSCharacterMaterialSwitcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22011 };
 
+  /// [SerializeField]
   /// @brief Field _rendererMaterialsPairs, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BTSCharacterMaterialSwitcher_RendererMaterialsPairs*> ____rendererMaterialsPairs;
 

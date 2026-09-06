@@ -1,8 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DisappearingArrowControllerBase_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/DisappearingArrowControllerBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
+#include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -17,15 +20,20 @@ class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T> class DisappearingArrowControllerBase_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::ICubeNoteControllerInitializable_1<T>*> &&
+           ::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteVisualModifierTypeProvider*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteMovementProvider*>)
+class DisappearingArrowControllerBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::DisappearingArrowControllerBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::DisappearingArrowControllerBase_1, "", "DisappearingArrowControllerBase`1");
-// Dependencies MaterialPropertyBlockController, UnityEngine.MonoBehaviour
+// Dependencies ICubeNoteControllerInitializable`1<T>, INoteMovementProvider, INoteVisualModifierTypeProvider, MaterialPropertyBlockController, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::ICubeNoteControllerInitializable_1<T>*> &&
+           ::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteVisualModifierTypeProvider*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteMovementProvider*>)
 // Is value type: false
 // CS Name: DisappearingArrowControllerBase`1<T>
 class CORDL_TYPE DisappearingArrowControllerBase_1 : public ::UnityEngine::MonoBehaviour {
@@ -171,7 +179,7 @@ public:
 
   static inline int32_t getStaticF__colorId();
 
-  /// @brief Method get_gameNoteController, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_gameNoteController();
 
   static inline void setStaticF__colorId(int32_t value);
@@ -182,35 +190,44 @@ protected:
   constexpr DisappearingArrowControllerBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowControllerBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowControllerBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisappearingArrowControllerBase_1(DisappearingArrowControllerBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowControllerBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowControllerBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisappearingArrowControllerBase_1(DisappearingArrowControllerBase_1 const&) = delete;
+  DisappearingArrowControllerBase_1(DisappearingArrowControllerBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5654 };
 
+  /// [SerializeField]
   /// @brief Field _transparentObjectMaterialPropertyBlocks, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> ____transparentObjectMaterialPropertyBlocks;
 
+  /// [SerializeField]
   /// @brief Field _cubeMeshRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____cubeMeshRenderer;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _arrowCutoutEffect, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CutoutEffect> ____arrowCutoutEffect;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _disappearingNormalStart, offset: 0x38, size: 0x4, def value: None
   float_t ____disappearingNormalStart;
 
+  /// [SerializeField]
   /// @brief Field _disappearingNormalEnd, offset: 0x3c, size: 0x4, def value: None
   float_t ____disappearingNormalEnd;
 
+  /// [SerializeField]
   /// @brief Field _disappearingGhostStart, offset: 0x40, size: 0x4, def value: None
   float_t ____disappearingGhostStart;
 
+  /// [SerializeField]
   /// @brief Field _disappearingGhostEnd, offset: 0x44, size: 0x4, def value: None
   float_t ____disappearingGhostEnd;
 

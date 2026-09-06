@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\BeatAvatar.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/BeatAvatar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,20 +89,22 @@ protected:
   constexpr BeatAvatar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatAvatar(BeatAvatar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatar(BeatAvatar const&) = delete;
+  BeatAvatar(BeatAvatarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21684 };
 
+  /// [SerializeField]
   /// @brief Field _avatarVisualController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> ____avatarVisualController;
 
+  /// [SerializeField]
   /// @brief Field _avatarPoseController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController> ____avatarPoseController;
 

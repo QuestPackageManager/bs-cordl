@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationMixerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationMixerPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,11 @@ struct AnimationMixerPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationMixerPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationMixerPlayable, "UnityEngine.Animations", "AnimationMixerPlayable");
+// [RequiredByNativeCode]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationMixerPlayable.bindings.h")]
+// [NativeHeader("Modules/Animation/Director/AnimationMixerPlayable.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [StaticAccessor("AnimationMixerPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Animations {
 // Is value type: true
@@ -51,6 +56,7 @@ public:
   /// @brief Method CreateHandle, addr 0x6a482b8, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
+  /// [NativeThrows]
   /// @brief Method CreateHandleInternal, addr 0x6a484dc, size 0x90, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
@@ -83,7 +89,7 @@ public:
   // @brief default ctor
   constexpr AnimationMixerPlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

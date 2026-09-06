@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneObjectTransformType.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneObjectTransformType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   // @brief default ctor
   constexpr OVRSceneObjectTransformType_Transformation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSceneObjectTransformType_Transformation(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(2)
@@ -81,6 +81,8 @@ static_assert(offsetof(::GlobalNamespace::OVRSceneObjectTransformType_Transforma
 static_assert(sizeof(::GlobalNamespace::OVRSceneObjectTransformType_Transformation) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-scene-use-scene-anchors/#further-scene-model-unity-components")]
+// [Obsolete("OVRSceneManager and associated classes are deprecated (v65), please use MR Utility Kit instead (https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview)")]
 // Dependencies OVRSceneObjectTransformType::Transformation, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -110,17 +112,18 @@ protected:
   constexpr OVRSceneObjectTransformType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneObjectTransformType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneObjectTransformType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSceneObjectTransformType(OVRSceneObjectTransformType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneObjectTransformType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneObjectTransformType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneObjectTransformType(OVRSceneObjectTransformType const&) = delete;
+  OVRSceneObjectTransformType(OVRSceneObjectTransformTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7684 };
 
+  /// [Tooltip("Choose the type of scene anchor (volume/plane) that may modify this transform.")]
   /// @brief Field TransformType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRSceneObjectTransformType_Transformation ___TransformType;
 

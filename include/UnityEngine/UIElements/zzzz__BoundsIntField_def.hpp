@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BoundsIntField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BoundsIntField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ MARK_REF_T(::UnityEngine::UIElements::BoundsIntField_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BoundsIntField*, "UnityEngine.UIElements", "BoundsIntField");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BoundsIntField_UxmlFactory*, "UnityEngine.UIElements", "BoundsIntField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BoundsIntField_UxmlTraits*, "UnityEngine.UIElements", "BoundsIntField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -73,13 +74,13 @@ protected:
   constexpr BoundsIntField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoundsIntField_UxmlFactory(BoundsIntField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsIntField_UxmlFactory(BoundsIntField_UxmlFactory const&) = delete;
+  BoundsIntField_UxmlFactory(BoundsIntField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4138 };
@@ -90,6 +91,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::BoundsIntField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.BoundsInt, UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -165,13 +167,13 @@ protected:
   constexpr BoundsIntField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoundsIntField_UxmlTraits(BoundsIntField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsIntField_UxmlTraits(BoundsIntField_UxmlTraits const&) = delete;
+  BoundsIntField_UxmlTraits(BoundsIntField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4139 };
@@ -212,6 +214,7 @@ static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___
 static_assert(sizeof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits) == 0xc8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.BoundsInt, UnityEngine.UIElements.BaseField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -266,9 +269,11 @@ public:
 
   constexpr void __cordl_internal_set_m_SizeField(::UnityEngine::UIElements::Vector3IntField* value);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__11_0, addr 0x6d37bd0, size 0xbc, virtual false, abstract: false, final false
   inline void __ctor_b__11_0(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>* e);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__11_1, addr 0x6d37c8c, size 0xbc, virtual false, abstract: false, final false
   inline void __ctor_b__11_1(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>* e);
 
@@ -304,13 +309,13 @@ protected:
   constexpr BoundsIntField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoundsIntField(BoundsIntField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsIntField(BoundsIntField const&) = delete;
+  BoundsIntField(BoundsIntFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4140 };

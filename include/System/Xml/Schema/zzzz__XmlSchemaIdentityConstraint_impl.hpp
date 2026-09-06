@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaIdentityConstraint.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaIdentityConstraint.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaIdentityConstraint_def.hpp"
 #include "System/Xml/Schema/zzzz__CompiledIdentityConstraint_def.hpp"

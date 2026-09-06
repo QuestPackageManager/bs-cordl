@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerVisibleString.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerVisibleString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr DerVisibleString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DerVisibleString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerVisibleString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerVisibleString(DerVisibleString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DerVisibleString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DerVisibleString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DerVisibleString(DerVisibleString const&) = delete;
+  DerVisibleString(DerVisibleStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 522 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomControlTrack.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomControlTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class CustomControlTrack;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CustomControlTrack*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CustomControlTrack*, "", "CustomControlTrack");
+// [TrackClipType(typeof(CustomControlPlayableAsset), false)]
 // Dependencies UnityEngine.Timeline.ControlTrack
 namespace GlobalNamespace {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr CustomControlTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomControlTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomControlTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomControlTrack(CustomControlTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomControlTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomControlTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomControlTrack(CustomControlTrack const&) = delete;
+  CustomControlTrack(CustomControlTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6690 };

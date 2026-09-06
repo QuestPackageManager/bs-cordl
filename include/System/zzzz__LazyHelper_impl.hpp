@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\LazyHelper.hpp"
+// IWYU pragma private; include "System/LazyHelper.hpp"
 #include "System/zzzz__LazyState_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__LazyHelper_def.hpp"

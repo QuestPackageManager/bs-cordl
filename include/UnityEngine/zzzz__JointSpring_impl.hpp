@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JointSpring.hpp"
+// IWYU pragma private; include "UnityEngine/JointSpring.hpp"
 #include "UnityEngine/zzzz__JointSpring_def.hpp"
-// Ctor Parameters [CppParam { name: "spring", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "damper", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "targetPosition", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "spring", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "damper", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "targetPosition", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::JointSpring::JointSpring(float_t spring, float_t damper, float_t targetPosition) noexcept {
   this->spring = spring;
   this->damper = damper;

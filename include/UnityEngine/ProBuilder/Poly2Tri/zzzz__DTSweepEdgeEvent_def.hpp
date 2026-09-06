@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\DTSweepEdgeEvent.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/DTSweepEdgeEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ protected:
   constexpr DTSweepEdgeEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweepEdgeEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweepEdgeEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DTSweepEdgeEvent(DTSweepEdgeEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweepEdgeEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweepEdgeEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DTSweepEdgeEvent(DTSweepEdgeEvent const&) = delete;
+  DTSweepEdgeEvent(DTSweepEdgeEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21769 };

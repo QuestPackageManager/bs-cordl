@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\V1TbsCertificateGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/V1TbsCertificateGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -156,13 +156,13 @@ protected:
   constexpr V1TbsCertificateGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "V1TbsCertificateGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "V1TbsCertificateGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   V1TbsCertificateGenerator(V1TbsCertificateGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "V1TbsCertificateGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "V1TbsCertificateGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  V1TbsCertificateGenerator(V1TbsCertificateGenerator const&) = delete;
+  V1TbsCertificateGenerator(V1TbsCertificateGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 396 };

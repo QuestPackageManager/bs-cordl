@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,17 +46,18 @@ protected:
   constexpr LocalLeaderboardsInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardsInstaller(LocalLeaderboardsInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsInstaller(LocalLeaderboardsInstaller const&) = delete;
+  LocalLeaderboardsInstaller(LocalLeaderboardsInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21024 };
 
+  /// [SerializeField]
   /// @brief Field _localLeaderboardsSettings, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalLeaderboardsSettingsSO> ____localLeaderboardsSettings;
 

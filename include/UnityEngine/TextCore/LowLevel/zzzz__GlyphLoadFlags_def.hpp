@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphLoadFlags.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphLoadFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct GlyphLoadFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, "UnityEngine.TextCore.LowLevel", "GlyphLoadFlags");
+// [Flags]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -51,7 +53,7 @@ public:
   // @brief default ctor
   constexpr GlyphLoadFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GlyphLoadFlags(int32_t value__) noexcept;
 
   /// @brief Field LOAD_BITMAP_METRICS_ONLY value: I32(4194304)

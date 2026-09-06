@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Offset.hpp"
+// IWYU pragma private; include "TMPro/TMP_Offset.hpp"
 #include "TMPro/zzzz__TMP_Offset_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_Offset.get_left
@@ -356,8 +356,9 @@ inline bool TMPro::TMP_Offset::Equals(::TMPro::TMP_Offset other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Offset>(), { "Equals", {}, { ::i2c::type_of<::TMPro::TMP_Offset>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "m_Left", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Right", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Top", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Bottom", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Left", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Right", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_Top", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Bottom", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::TMPro::TMP_Offset::TMP_Offset(float_t m_Left, float_t m_Right, float_t m_Top, float_t m_Bottom) noexcept {
   this->m_Left = m_Left;
   this->m_Right = m_Right;

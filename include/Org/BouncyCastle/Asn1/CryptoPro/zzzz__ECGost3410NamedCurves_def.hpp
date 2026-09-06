@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\CryptoPro\ECGost3410NamedCurves.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/CryptoPro/ECGost3410NamedCurves.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,12 +60,14 @@ public:
   /// @brief Method ConfigureCurve, addr 0x336aa18, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
+  /// [Obsolete("Use \'GetByNameX9\' instead")]
   /// @brief Method GetByName, addr 0x336cc70, size 0x1fc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* GetByName(::StringW name);
 
   /// @brief Method GetByNameX9, addr 0x336ce6c, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByNameX9(::StringW name);
 
+  /// [Obsolete("Use \'GetByOidX9\' instead")]
   /// @brief Method GetByOid, addr 0x336c85c, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
@@ -104,13 +106,13 @@ protected:
   constexpr ECGost3410NamedCurves();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECGost3410NamedCurves", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECGost3410NamedCurves", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECGost3410NamedCurves(ECGost3410NamedCurves&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECGost3410NamedCurves", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECGost3410NamedCurves", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECGost3410NamedCurves(ECGost3410NamedCurves const&) = delete;
+  ECGost3410NamedCurves(ECGost3410NamedCurvesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 126 };

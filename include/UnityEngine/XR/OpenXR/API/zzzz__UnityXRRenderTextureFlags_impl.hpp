@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\API\UnityXRRenderTextureFlags.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/API/UnityXRRenderTextureFlags.hpp"
 #include "UnityEngine/XR/OpenXR/API/zzzz__UnityXRRenderTextureFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::API::UnityXRRenderTextureFlags::UnityXRRenderTextureFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

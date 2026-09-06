@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BoundsInt.hpp"
+// IWYU pragma private; include "UnityEngine/BoundsInt.hpp"
 #include "UnityEngine/zzzz__Vector3Int_impl.hpp"
 #include "UnityEngine/zzzz__BoundsInt_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -195,8 +195,8 @@ constexpr UnityEngine::BoundsInt::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::BoundsInt::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Size", ty: "::UnityEngine::Vector3Int", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Size", ty: "::UnityEngine::Vector3Int",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::BoundsInt::BoundsInt(::UnityEngine::Vector3Int m_Position, ::UnityEngine::Vector3Int m_Size) noexcept {
   this->m_Position = m_Position;
   this->m_Size = m_Size;

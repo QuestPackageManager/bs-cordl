@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UntypedUnsafeParallelHashMap.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UntypedUnsafeParallelHashMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr UntypedUnsafeParallelHashMap();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty:
-  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_AllocatorLabel", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr UntypedUnsafeParallelHashMap(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -37,6 +37,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer;
 

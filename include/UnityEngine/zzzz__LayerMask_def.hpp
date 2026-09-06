@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LayerMask.hpp"
+// IWYU pragma private; include "UnityEngine/LayerMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,10 @@ struct LayerMask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::LayerMask);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LayerMask, "UnityEngine", "LayerMask");
+// [NativeClass("BitField", "struct BitField;")]
+// [NativeHeader("Runtime/BaseClasses/BitField.h")]
+// [NativeHeader("Runtime/BaseClasses/TagManager.h")]
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -28,8 +32,10 @@ public:
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
   /// @brief Method GetMask, addr 0x6ae3e10, size 0xcc, virtual false, abstract: false, final false
-  static inline int32_t GetMask(::ArrayW<::StringW> layerNames);
+  static inline int32_t GetMask(/* [ParamArray] */ ::ArrayW<::StringW> layerNames);
 
+  /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
+  /// [NativeMethod("StringToLayer")]
   /// @brief Method NameToLayer, addr 0x6ae3ca8, size 0x12c, virtual false, abstract: false, final false
   static inline int32_t NameToLayer(::StringW layerName);
 
@@ -52,7 +58,7 @@ public:
   // @brief default ctor
   constexpr LayerMask();
 
-  // Ctor Parameters [CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayerMask(int32_t m_Mask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -61,6 +67,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// [NativeName("m_Bits")]
   /// @brief Field m_Mask, offset: 0x0, size: 0x4, def value: None
   int32_t m_Mask;
 

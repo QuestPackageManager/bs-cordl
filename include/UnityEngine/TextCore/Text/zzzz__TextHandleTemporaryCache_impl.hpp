@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextHandleTemporaryCache.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextHandleTemporaryCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextHandleTemporaryCache_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"

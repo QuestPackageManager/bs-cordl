@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SmoothCameraController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SmoothCameraController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class SmoothCameraController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SmoothCameraController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SmoothCameraController*, "", "SmoothCameraController");
+// [AddComponentMenu("Beat Saber/Gameplay/SmoothCameraController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -69,20 +70,22 @@ protected:
   constexpr SmoothCameraController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SmoothCameraController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmoothCameraController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmoothCameraController(SmoothCameraController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SmoothCameraController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmoothCameraController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmoothCameraController(SmoothCameraController const&) = delete;
+  SmoothCameraController(SmoothCameraControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6273 };
 
+  /// [SerializeField]
   /// @brief Field _smoothCamera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SmoothCamera> ____smoothCamera;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

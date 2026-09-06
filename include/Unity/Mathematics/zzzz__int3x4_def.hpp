@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\int3x4.hpp"
+// IWYU pragma private; include "Unity/Mathematics/int3x4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,8 @@ struct int3x4;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::int3x4);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::int3x4, "Unity.Mathematics", "int3x4");
+// [DefaultMember("Item")]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies Unity.Mathematics.int3
 namespace Unity::Mathematics {
 // Is value type: true
@@ -300,8 +302,9 @@ public:
   // @brief default ctor
   constexpr int3x4();
 
-  // Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::int3", modifiers: "", def_value: None }, CppParam { name: "c1", ty: "::Unity::Mathematics::int3", modifiers: "", def_value: None
-  // }, CppParam { name: "c2", ty: "::Unity::Mathematics::int3", modifiers: "", def_value: None }, CppParam { name: "c3", ty: "::Unity::Mathematics::int3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "c0", ty: "::Unity::Mathematics::int3", modifiers: "", def_value: None, comment: None }, CppParam { name: "c1", ty: "::Unity::Mathematics::int3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "c2", ty: "::Unity::Mathematics::int3", modifiers: "", def_value: None, comment: None }, CppParam { name: "c3", ty:
+  // "::Unity::Mathematics::int3", modifiers: "", def_value: None, comment: None }]
   constexpr int3x4(::Unity::Mathematics::int3 c0, ::Unity::Mathematics::int3 c1, ::Unity::Mathematics::int3 c2, ::Unity::Mathematics::int3 c3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

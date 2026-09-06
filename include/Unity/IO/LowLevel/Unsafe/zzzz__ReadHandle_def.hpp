@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\ReadHandle.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/ReadHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ public:
   /// @brief Method Cancel, addr 0x6a5f33c, size 0xcc, virtual false, abstract: false, final false
   inline void Cancel();
 
+  /// [FreeFunction("AsyncReadManagerManaged::CancelReadRequest")]
   /// @brief Method CancelInternal, addr 0x6a5f408, size 0x40, virtual false, abstract: false, final false
   static inline void CancelInternal(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
@@ -49,18 +50,24 @@ public:
   /// @brief Method Dispose, addr 0x6a5f134, size 0xfc, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [ThreadAndSerializationSafe]
+  /// [FreeFunction("AsyncReadManagerManaged::GetJobHandle", IsThreadSafe = true)]
   /// @brief Method GetJobHandle, addr 0x6a5f528, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle GetJobHandle(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
   /// @brief Method GetJobHandle_Injected, addr 0x6a5f668, size 0x44, virtual false, abstract: false, final false
   static inline void GetJobHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
+  /// [FreeFunction("AsyncReadManagerManaged::GetReadStatus", IsThreadSafe = true)]
+  /// [ThreadAndSerializationSafe]
   /// @brief Method GetReadStatus, addr 0x6a5f574, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadStatus GetReadStatus(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
   /// @brief Method GetReadStatus_Injected, addr 0x6a5f5b4, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadStatus GetReadStatus_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle);
 
+  /// [ThreadAndSerializationSafe]
+  /// [FreeFunction("AsyncReadManagerManaged::IsReadHandleValid", IsThreadSafe = true)]
   /// @brief Method IsReadHandleValid, addr 0x6a5f0f0, size 0x44, virtual false, abstract: false, final false
   static inline bool IsReadHandleValid(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
@@ -70,6 +77,8 @@ public:
   /// @brief Method IsValid, addr 0x6a5f0a8, size 0x48, virtual false, abstract: false, final false
   inline bool IsValid();
 
+  /// [FreeFunction("AsyncReadManagerManaged::ReleaseReadHandle", IsThreadSafe = true)]
+  /// [ThreadAndSerializationSafe]
   /// @brief Method ReleaseReadHandle, addr 0x6a5f2fc, size 0x40, virtual false, abstract: false, final false
   static inline void ReleaseReadHandle(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
@@ -89,7 +98,8 @@ public:
   // @brief default ctor
   constexpr ReadHandle();
 
-  // Ctor Parameters [CppParam { name: "ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ptr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ReadHandle(::System::IntPtr ptr, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -98,6 +108,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field ptr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr ptr;
 

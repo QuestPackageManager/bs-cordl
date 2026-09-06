@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsProtocolHandler.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsProtocolHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class TlsProtocolHandler;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler*, "Org.BouncyCastle.Crypto.Tls", "TlsProtocolHandler");
+// [Obsolete("Use \'TlsClientProtocol\' instead")]
 // Dependencies Org.BouncyCastle.Crypto.Tls.TlsClientProtocol
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
@@ -41,13 +42,13 @@ protected:
   constexpr TlsProtocolHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocolHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocolHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsProtocolHandler(TlsProtocolHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocolHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsProtocolHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsProtocolHandler(TlsProtocolHandler const&) = delete;
+  TlsProtocolHandler(TlsProtocolHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1315 };

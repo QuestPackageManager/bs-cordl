@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMeshRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMeshRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRMeshRenderer_IOVRMeshRendererDataProvider {
 public:
   // Declarations
-  /// @brief Method GetMeshRendererData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMeshRendererData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::OVRMeshRenderer_MeshRendererData GetMeshRendererData();
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer_IOVRMeshRendererDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer_IOVRMeshRendererDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMeshRenderer_IOVRMeshRendererDataProvider(OVRMeshRenderer_IOVRMeshRendererDataProvider const&) = delete;
+  OVRMeshRenderer_IOVRMeshRendererDataProvider(OVRMeshRenderer_IOVRMeshRendererDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7933 };
@@ -93,21 +93,30 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataHighConfidence, addr 0x5f026a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataValid, addr 0x5f02698, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x5f026b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataHighConfidence, addr 0x5f026b0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataValid, addr 0x5f026a0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x5f026c0, size 0x8, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
@@ -115,8 +124,8 @@ public:
   // @brief default ctor
   constexpr OVRMeshRenderer_MeshRendererData();
 
-  // Ctor Parameters [CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers:
-  // "", def_value: None }, CppParam { name: "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMeshRenderer_MeshRendererData(bool _IsDataValid_k__BackingField, bool _IsDataHighConfidence_k__BackingField, bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -125,12 +134,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3 };
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataValid>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _IsDataValid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataHighConfidence>k__BackingField, offset: 0x1, size: 0x1, def value: None
   bool _IsDataHighConfidence_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ShouldUseSystemGestureMaterial>k__BackingField, offset: 0x2, size: 0x1, def value: None
   bool _ShouldUseSystemGestureMaterial_k__BackingField;
 
@@ -175,7 +187,7 @@ public:
   // @brief default ctor
   constexpr OVRMeshRenderer_ConfidenceBehavior();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMeshRenderer_ConfidenceBehavior(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -230,7 +242,7 @@ public:
   // @brief default ctor
   constexpr OVRMeshRenderer_SystemGestureBehavior();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMeshRenderer_SystemGestureBehavior(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -417,29 +429,37 @@ public:
 
   static inline ::UnityEngine::Matrix4x4 getStaticF__openXRFixup();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataHighConfidence, addr 0x5f01b74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataValid, addr 0x5f01b64, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsInitialized, addr 0x5f01b54, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x5f01b84, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
   static inline void setStaticF__openXRFixup(::UnityEngine::Matrix4x4 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataHighConfidence, addr 0x5f01b7c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataValid, addr 0x5f01b6c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsInitialized, addr 0x5f01b5c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x5f01b8c, size 0x8, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
@@ -449,32 +469,38 @@ protected:
   constexpr OVRMeshRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRMeshRenderer(OVRMeshRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMeshRenderer(OVRMeshRenderer const&) = delete;
+  OVRMeshRenderer(OVRMeshRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7937 };
 
+  /// [SerializeField]
   /// @brief Field _dataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRMeshRenderer_IOVRMeshRendererDataProvider* ____dataProvider;
 
+  /// [SerializeField]
   /// @brief Field _ovrMesh, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRMesh> ____ovrMesh;
 
+  /// [SerializeField]
   /// @brief Field _ovrSkeleton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSkeleton> ____ovrSkeleton;
 
+  /// [SerializeField]
   /// @brief Field _confidenceBehavior, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior ____confidenceBehavior;
 
+  /// [SerializeField]
   /// @brief Field _systemGestureBehavior, offset: 0x3c, size: 0x4, def value: None
   ::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior ____systemGestureBehavior;
 
+  /// [SerializeField]
   /// @brief Field _systemGestureMaterial, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____systemGestureMaterial;
 
@@ -484,15 +510,19 @@ public:
   /// @brief Field _skinnedMeshRenderer, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SkinnedMeshRenderer> ____skinnedMeshRenderer;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsInitialized>k__BackingField, offset: 0x58, size: 0x1, def value: None
   bool ____IsInitialized_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataValid>k__BackingField, offset: 0x59, size: 0x1, def value: None
   bool ____IsDataValid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataHighConfidence>k__BackingField, offset: 0x5a, size: 0x1, def value: None
   bool ____IsDataHighConfidence_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ShouldUseSystemGestureMaterial>k__BackingField, offset: 0x5b, size: 0x1, def value: None
   bool ____ShouldUseSystemGestureMaterial_k__BackingField;
 

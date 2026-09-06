@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CompactVisibilityMasksJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CompactVisibilityMasksJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ParallelBitArray_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CompactVisibilityMasksJob_def.hpp"
@@ -31,8 +31,8 @@ constexpr UnityEngine::Rendering::CompactVisibilityMasksJob::operator ::Unity::J
 constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::CompactVisibilityMasksJob::i___Unity__Jobs__IJobParallelForBatch() {
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "compactedVisibilityMasks",
-// ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "compactedVisibilityMasks", ty: "::UnityEngine::Rendering::ParallelBitArray", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CompactVisibilityMasksJob::CompactVisibilityMasksJob(::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks,
                                                                                          ::UnityEngine::Rendering::ParallelBitArray compactedVisibilityMasks) noexcept {
   this->rendererVisibilityMasks = rendererVisibilityMasks;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlCharacterData.hpp"
+// IWYU pragma private; include "System/Xml/XmlCharacterData.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_impl.hpp"
 #include "System/Xml/zzzz__XmlCharacterData_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"

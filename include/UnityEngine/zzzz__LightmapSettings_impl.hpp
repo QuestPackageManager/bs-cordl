@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightmapSettings.hpp"
+// IWYU pragma private; include "UnityEngine/LightmapSettings.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LightmapSettings_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -190,7 +190,7 @@ inline ::ArrayW<::UnityEngine::LightmapData*> UnityEngine::LightmapSettings::get
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { "get_lightmaps", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::LightmapData*>>(nullptr, ___internal_method);
 }
-inline void UnityEngine::LightmapSettings::set_lightmaps(::ArrayW<::UnityEngine::LightmapData*> value) {
+inline void UnityEngine::LightmapSettings::set_lightmaps(/* [Unmarshalled] */ ::ArrayW<::UnityEngine::LightmapData*> value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { "set_lightmaps", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::LightmapData*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLevelCompletionResults.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
@@ -10,7 +10,7 @@
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -25,7 +25,7 @@ constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayer
 constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState::NotStarted{
   static_cast<int32_t>(0x2)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -310,6 +310,7 @@ inline bool GlobalNamespace::MultiplayerLevelCompletionResults::HasAnyResult(::G
                                                            { "HasAnyResult", {}, { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, playerLevelEndState);
 }
+/// @brief [Preserve]
 inline ::GlobalNamespace::MultiplayerLevelCompletionResults* GlobalNamespace::MultiplayerLevelCompletionResults::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerLevelCompletionResults*>());
 }

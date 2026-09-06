@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\DebuggableAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/DebuggableAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ MARK_VAL_T(::System::Diagnostics::DebuggableAttribute_DebuggingModes);
 MARK_REF_T(::System::Diagnostics::DebuggableAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::DebuggableAttribute_DebuggingModes, "System.Diagnostics", "DebuggableAttribute/DebuggingModes");
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::DebuggableAttribute*, "System.Diagnostics", "DebuggableAttribute");
+// [ComVisible(true)]
+// [Flags]
 // Dependencies
 namespace System::Diagnostics {
 // Is value type: true
@@ -54,7 +56,7 @@ public:
   // @brief default ctor
   constexpr DebuggableAttribute_DebuggingModes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebuggableAttribute_DebuggingModes(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(1)
@@ -89,6 +91,8 @@ static_assert(offsetof(::System::Diagnostics::DebuggableAttribute_DebuggingModes
 static_assert(sizeof(::System::Diagnostics::DebuggableAttribute_DebuggingModes) == 0x4, "Size mismatch!");
 
 } // namespace System::Diagnostics
+// [ComVisible(true)]
+// [AttributeUsage((System.AttributeTargets)3, AllowMultiple = false)]
 // Dependencies System.Attribute, System.Diagnostics.DebuggableAttribute::DebuggingModes
 namespace System::Diagnostics {
 // Is value type: false
@@ -118,13 +122,13 @@ protected:
   constexpr DebuggableAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebuggableAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebuggableAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebuggableAttribute(DebuggableAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebuggableAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebuggableAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebuggableAttribute(DebuggableAttribute const&) = delete;
+  DebuggableAttribute(DebuggableAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3660 };

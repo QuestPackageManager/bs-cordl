@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainSettingsAsyncLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainSettingsAsyncLoader.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncLoader_impl.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
@@ -137,11 +137,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::SettingsManager*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "container", ty:
-// "::Zenject::DiContainer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_result_5__2", ty: "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "__7__wrap2", ty: "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::SettingsManager*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "container", ty:
+// "::Zenject::DiContainer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_result_5__2", ty: "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__7__wrap2", ty: "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d::MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::SettingsManager*> __t__builder, ::Zenject::DiContainer* container,
     ::GlobalNamespace::SettingsManager* _result_5__2, ::GlobalNamespace::SettingsManager* __7__wrap2,
@@ -201,11 +201,11 @@ constexpr GlobalNamespace::MainSettingsAsyncLoader__LoadInternalAsync_d__8::oper
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MainSettingsAsyncLoader__LoadInternalAsync_d__8::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainSettingsAsyncLoader>", modifiers: "", def_value: Some("{}") }, CppParam { name: "registry", ty:
-// "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::SettingsManager*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainSettingsAsyncLoader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "registry", ty: "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::SettingsManager*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MainSettingsAsyncLoader__LoadInternalAsync_d__8::MainSettingsAsyncLoader__LoadInternalAsync_d__8(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Zenject::DiContainer* container, ::UnityW<::GlobalNamespace::MainSettingsAsyncLoader> __4__this,
     ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::SettingsManager*> __u__1) noexcept {

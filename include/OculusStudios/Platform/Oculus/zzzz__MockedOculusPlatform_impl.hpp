@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Oculus\MockedOculusPlatform.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Oculus/MockedOculusPlatform.hpp"
 #include "OculusStudios/Platform/Core/zzzz__MockedPlatform_impl.hpp"
 #include "OculusStudios/Platform/Oculus/zzzz__MockedOculusPlatform_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatformInternal_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\InputRecord.hpp"
+// IWYU pragma private; include "System/InputRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +24,11 @@ public:
   // @brief default ctor
   constexpr InputRecord();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "KeyDown", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "RepeatCount", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "VirtualKeyCode", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "VirtualScanCode", ty:
-  // "int16_t", modifiers: "", def_value: None }, CppParam { name: "Character", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "ControlKeyState", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "pad1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pad2", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "KeyDown", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "RepeatCount", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "VirtualKeyCode", ty: "int16_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "VirtualScanCode", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Character", ty: "char16_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "ControlKeyState", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pad1", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "pad2", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr InputRecord(int16_t EventType, bool KeyDown, int16_t RepeatCount, int16_t VirtualKeyCode, int16_t VirtualScanCode, char16_t Character, int32_t ControlKeyState, int32_t pad1,
                         bool pad2) noexcept;
 

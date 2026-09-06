@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DateTimeToken.hpp"
+// IWYU pragma private; include "System/DateTimeToken.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,8 @@ public:
   // @brief default ctor
   constexpr DateTimeToken();
 
-  // Ctor Parameters [CppParam { name: "dtt", ty: "::System::DateTimeParse_DTT", modifiers: "", def_value: None }, CppParam { name: "suffix", ty: "::System::TokenType", modifiers: "", def_value: None
-  // }, CppParam { name: "num", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "dtt", ty: "::System::DateTimeParse_DTT", modifiers: "", def_value: None, comment: None }, CppParam { name: "suffix", ty: "::System::TokenType", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "num", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DateTimeToken(::System::DateTimeParse_DTT dtt, ::System::TokenType suffix, int32_t num) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

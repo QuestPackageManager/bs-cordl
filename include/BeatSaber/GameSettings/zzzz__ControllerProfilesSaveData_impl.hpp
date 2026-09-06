@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfilesSaveData.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfilesSaveData.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfileSaveData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfilesSaveData_def.hpp"
@@ -44,14 +44,15 @@ constexpr void BeatSaber::GameSettings::ControllerProfilesSaveData::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___profiles = value;
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSaveData::_ctor(::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles) {
+inline void BeatSaber::GameSettings::ControllerProfilesSaveData::_ctor(
+    /* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesSaveData*>(),
                                               { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, profiles);
 }
-inline ::BeatSaber::GameSettings::ControllerProfilesSaveData*
-BeatSaber::GameSettings::ControllerProfilesSaveData::New_ctor(::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles) {
+inline ::BeatSaber::GameSettings::ControllerProfilesSaveData* BeatSaber::GameSettings::ControllerProfilesSaveData::New_ctor(
+    /* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::GameSettings::ControllerProfilesSaveData*>(profiles));
 }
 // Ctor Parameters []

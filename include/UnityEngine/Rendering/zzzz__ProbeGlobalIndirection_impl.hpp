@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeGlobalIndirection.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeGlobalIndirection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3Int_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeGlobalIndirection_def.hpp"
@@ -33,9 +33,9 @@ inline void UnityEngine::Rendering::ProbeGlobalIndirection_IndexMetaData::Pack(:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeGlobalIndirection_IndexMetaData>(), { "Pack", {}, { ::i2c::type_of<::by_ref<::ArrayW<uint32_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, vals);
 }
-// Ctor Parameters [CppParam { name: "minLocalIdx", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxLocalIdxPlusOne", ty: "::UnityEngine::Vector3Int",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "firstChunkIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minSubdiv", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "minLocalIdx", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxLocalIdxPlusOne", ty:
+// "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstChunkIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "minSubdiv", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeGlobalIndirection_IndexMetaData::ProbeGlobalIndirection_IndexMetaData(::UnityEngine::Vector3Int minLocalIdx, ::UnityEngine::Vector3Int maxLocalIdxPlusOne,
                                                                                                                int32_t firstChunkIndex, int32_t minSubdiv) noexcept {
   this->minLocalIdx = minLocalIdx;

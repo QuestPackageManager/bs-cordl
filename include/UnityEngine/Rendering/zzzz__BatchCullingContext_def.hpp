@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchCullingContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering {
 struct BatchCullingFlags;
@@ -50,6 +52,8 @@ struct BatchCullingContext;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchCullingContext);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BatchCullingContext, "UnityEngine.Rendering", "BatchCullingContext");
+// [NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
+// [UsedByNativeCode]
 // Dependencies System.IntPtr, Unity.Collections.NativeArray`1<T>, UnityEngine.Matrix4x4, UnityEngine.Plane, UnityEngine.Rendering.BatchCullingFlags, UnityEngine.Rendering.BatchCullingProjectionType,
 // UnityEngine.Rendering.BatchCullingViewType, UnityEngine.Rendering.BatchPackedCullingViewID, UnityEngine.Rendering.CullingSplit, UnityEngine.Rendering.LODParameters
 namespace UnityEngine::Rendering {
@@ -69,15 +73,16 @@ public:
   // @brief default ctor
   constexpr BatchCullingContext();
 
-  // Ctor Parameters [CppParam { name: "cullingPlanes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Plane>", modifiers: "", def_value: None }, CppParam { name: "cullingSplits", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit>", modifiers: "", def_value: None }, CppParam { name: "lodParameters", ty: "::UnityEngine::Rendering::LODParameters",
-  // modifiers: "", def_value: None }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "viewType", ty:
-  // "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: None }, CppParam { name: "projectionType", ty: "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "",
-  // def_value: None }, CppParam { name: "cullingFlags", ty: "::UnityEngine::Rendering::BatchCullingFlags", modifiers: "", def_value: None }, CppParam { name: "viewID", ty:
-  // "::UnityEngine::Rendering::BatchPackedCullingViewID", modifiers: "", def_value: None }, CppParam { name: "cullingLayerMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "splitExclusionMask", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "isOrthographic",
-  // ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "receiverPlaneOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "receiverPlaneCount", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "occlusionBuffer", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cullingPlanes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Plane>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "cullingSplits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodParameters", ty:
+  // "::UnityEngine::Rendering::LODParameters", modifiers: "", def_value: None, comment: None }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "viewType", ty: "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: None, comment: None }, CppParam { name: "projectionType", ty:
+  // "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingFlags", ty: "::UnityEngine::Rendering::BatchCullingFlags",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "viewID", ty: "::UnityEngine::Rendering::BatchPackedCullingViewID", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "cullingLayerMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "splitExclusionMask", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "isOrthographic", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "receiverPlaneOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "receiverPlaneCount", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "occlusionBuffer", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr BatchCullingContext(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> cullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit> cullingSplits,
                                 ::UnityEngine::Rendering::LODParameters lodParameters, ::UnityEngine::Matrix4x4 localToWorldMatrix, ::UnityEngine::Rendering::BatchCullingViewType viewType,
                                 ::UnityEngine::Rendering::BatchCullingProjectionType projectionType, ::UnityEngine::Rendering::BatchCullingFlags cullingFlags,
@@ -123,6 +128,7 @@ public:
   /// @brief Field splitExclusionMask, offset: 0xa0, size: 0x2, def value: None
   uint16_t splitExclusionMask;
 
+  /// [Obsolete("BatchCullingContext.isOrthographic is deprecated. Use BatchCullingContext.projectionType instead.")]
   /// @brief Field isOrthographic, offset: 0xa2, size: 0x1, def value: None
   uint8_t isOrthographic;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\GenericDropdownMenu.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/GenericDropdownMenu.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -92,8 +92,8 @@ inline ::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* UnityEngine::UIE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::GenericDropdownMenu_MenuItem::GenericDropdownMenu_MenuItem() {}
-// Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::GenericDropdownMenu*", modifiers: "", def_value: Some("{}") }, CppParam { name: "selectedIndex", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::UIElements::GenericDropdownMenu*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "selectedIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass48_0::GenericDropdownMenu___c__DisplayClass48_0(::UnityEngine::UIElements::GenericDropdownMenu* __4__this,
                                                                                                                           int32_t selectedIndex) noexcept {
   this->__4__this = __4__this;

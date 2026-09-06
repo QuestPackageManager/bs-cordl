@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyViewModel.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyViewModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,13 +74,13 @@ protected:
   constexpr HierarchyViewModel_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyViewModel_BindingsMarshaller(HierarchyViewModel_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyViewModel_BindingsMarshaller(HierarchyViewModel_BindingsMarshaller const&) = delete;
+  HierarchyViewModel_BindingsMarshaller(HierarchyViewModel_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21956 };
@@ -98,6 +98,7 @@ namespace Unity::Hierarchy {
 struct CORDL_TYPE HierarchyViewModel_Enumerator {
 public:
   // Declarations
+  /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::Unity::Hierarchy::HierarchyNode Current;
 
   /// @brief Method MoveNext, addr 0x6b3c8f0, size 0x5c4, virtual false, abstract: false, final false
@@ -113,10 +114,10 @@ public:
   // @brief default ctor
   constexpr HierarchyViewModel_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_ViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: None }, CppParam { name: "m_HierarchyFlattened", ty:
-  // "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: None }, CppParam { name: "m_NodesPtr", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "m_NodesCount", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "m_ViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_HierarchyFlattened", ty:
+  // "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NodesPtr", ty: "int32_t*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_NodesCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyViewModel_Enumerator(::Unity::Hierarchy::HierarchyViewModel* m_ViewModel, ::Unity::Hierarchy::HierarchyFlattened* m_HierarchyFlattened, int32_t* m_NodesPtr, int32_t m_NodesCount,
                                           int32_t m_Version, int32_t m_Index) noexcept;
 
@@ -162,6 +163,10 @@ static_assert(offsetof(::Unity::Hierarchy::HierarchyViewModel_Enumerator, m_Inde
 static_assert(sizeof(::Unity::Hierarchy::HierarchyViewModel_Enumerator) == 0x28, "Size mismatch!");
 
 } // namespace Unity::Hierarchy
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchyViewModel.h")]
+// [NativeHeader("Modules/HierarchyCore/HierarchyViewModelBindings.h")]
+// [DefaultMember("Item")]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies System.IntPtr, System.Object
 namespace Unity::Hierarchy {
 // Is value type: false
@@ -179,6 +184,7 @@ public:
 
   __declspec(property(get = get_IsCreated)) bool IsCreated;
 
+  /// @brief [IsReadOnly]
   __declspec(property(get = get_Item)) ::Unity::Hierarchy::HierarchyNode Item[];
 
   __declspec(property(get = get_Query)) ::Unity::Hierarchy::HierarchySearchQueryDescriptor* Query;
@@ -218,24 +224,29 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method ClearFlags, addr 0x6b3c0ec, size 0x4, virtual false, abstract: false, final false
-  inline void ClearFlags(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
+  inline void ClearFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
 
+  /// [FreeFunction("HierarchyViewModelBindings::ClearFlagsNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method ClearFlagsNode, addr 0x6b3c0f0, size 0x70, virtual false, abstract: false, final false
-  inline void ClearFlagsNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
+  inline void ClearFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
 
   /// @brief Method ClearFlagsNode_Injected, addr 0x6b3c498, size 0x5c, virtual false, abstract: false, final false
-  static inline void ClearFlagsNode_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
+  static inline void ClearFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+                                             bool recurse);
 
+  /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method Contains, addr 0x6b3bed4, size 0x58, virtual false, abstract: false, final false
-  inline bool Contains(::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline bool Contains(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
   /// @brief Method Contains_Injected, addr 0x6b3bf2c, size 0x44, virtual false, abstract: false, final false
-  static inline bool Contains_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline bool Contains_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
+  /// [FreeFunction("HierarchyViewModelBindings::Create", IsThreadSafe = true)]
   /// @brief Method Create, addr 0x6b3bb08, size 0x80, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::System::IntPtr handlePtr, ::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags,
                                         ::by_ref<::System::IntPtr> nodesPtr, ::by_ref<int32_t> nodesCount, ::by_ref<int32_t> version);
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateHierarchyViewModel, addr 0x6b3c4f4, size 0x104, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateHierarchyViewModel(::System::IntPtr nativePtr, ::System::IntPtr flattenedPtr, ::System::IntPtr nodesPtr, int32_t nodesCount, int32_t version);
 
@@ -243,6 +254,7 @@ public:
   static inline ::System::IntPtr Create_Injected(::System::IntPtr handlePtr, ::System::IntPtr hierarchyFlattened, ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags,
                                                  ::by_ref<::System::IntPtr> nodesPtr, ::by_ref<int32_t> nodesCount, ::by_ref<int32_t> version);
 
+  /// [FreeFunction("HierarchyViewModelBindings::Destroy", IsThreadSafe = true)]
   /// @brief Method Destroy, addr 0x6b3bd28, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr nativePtr);
 
@@ -261,50 +273,58 @@ public:
   /// @brief Method FromIntPtr, addr 0x6b3c2ec, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Hierarchy::HierarchyViewModel* FromIntPtr(::System::IntPtr handlePtr);
 
+  /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetChildrenCount, addr 0x6b3bf70, size 0x58, virtual false, abstract: false, final false
-  inline int32_t GetChildrenCount(::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline int32_t GetChildrenCount(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
   /// @brief Method GetChildrenCount_Injected, addr 0x6b3bfc8, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t GetChildrenCount_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline int32_t GetChildrenCount_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
   /// @brief Method GetEnumerator, addr 0x6b3c288, size 0x38, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyViewModel_Enumerator GetEnumerator();
 
   /// @brief Method HasAllFlags, addr 0x6b3c080, size 0x4, virtual false, abstract: false, final false
-  inline bool HasAllFlags(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline bool HasAllFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
+  /// [FreeFunction("HierarchyViewModelBindings::HasAllFlagsNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method HasAllFlagsNode, addr 0x6b3c084, size 0x68, virtual false, abstract: false, final false
-  inline bool HasAllFlagsNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline bool HasAllFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// @brief Method HasAllFlagsNode_Injected, addr 0x6b3c444, size 0x54, virtual false, abstract: false, final false
-  static inline bool HasAllFlagsNode_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  static inline bool HasAllFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
+  /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method IndexOf, addr 0x6b3be38, size 0x58, virtual false, abstract: false, final false
-  inline int32_t IndexOf(::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline int32_t IndexOf(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
   /// @brief Method IndexOf_Injected, addr 0x6b3be90, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t IndexOf_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline int32_t IndexOf_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
   static inline ::Unity::Hierarchy::HierarchyViewModel* New_ctor(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags);
 
   static inline ::Unity::Hierarchy::HierarchyViewModel* New_ctor(::System::IntPtr nativePtr, ::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, ::System::IntPtr nodesPtr, int32_t nodesCount,
                                                                  int32_t version);
 
+  /// [RequiredByNativeCode]
   /// @brief Method SearchBegin, addr 0x6b3c69c, size 0x160, virtual false, abstract: false, final false
   static inline void SearchBegin(::System::IntPtr handlePtr);
 
   /// @brief Method SetFlags, addr 0x6b3c00c, size 0x4, virtual false, abstract: false, final false
-  inline void SetFlags(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
+  inline void SetFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
 
+  /// [FreeFunction("HierarchyViewModelBindings::SetFlagsNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method SetFlagsNode, addr 0x6b3c010, size 0x70, virtual false, abstract: false, final false
-  inline void SetFlagsNode(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
+  inline void SetFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
 
   /// @brief Method SetFlagsNode_Injected, addr 0x6b3c3e8, size 0x5c, virtual false, abstract: false, final false
-  static inline void SetFlagsNode_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags, bool recurse);
+  static inline void SetFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+                                           bool recurse);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method Update, addr 0x6b3c1fc, size 0x50, virtual false, abstract: false, final false
   inline void Update();
 
+  /// [RequiredByNativeCode]
   /// @brief Method UpdateHierarchyViewModel, addr 0x6b3c5f8, size 0xa4, virtual false, abstract: false, final false
   static inline void UpdateHierarchyViewModel(::System::IntPtr handlePtr, ::System::IntPtr nodesPtr, int32_t nodesCount, int32_t version);
 
@@ -377,24 +397,30 @@ public:
   /// @brief Method get_Item, addr 0x6b3bd64, size 0xd4, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Hierarchy::HierarchyNode> get_Item(int32_t index);
 
+  /// [NativeMethod(IsThreadSafe = true)]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.HierarchyModule" })]
   /// @brief Method get_Query, addr 0x6b3b978, size 0x50, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor* get_Query();
 
   /// @brief Method get_Query_Injected, addr 0x6b3b9c8, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor* get_Query_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("UpdateNeeded", IsThreadSafe = true)]
   /// @brief Method get_UpdateNeeded, addr 0x6b3b8d4, size 0x50, virtual false, abstract: false, final false
   inline bool get_UpdateNeeded();
 
   /// @brief Method get_UpdateNeeded_Injected, addr 0x6b3b924, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_UpdateNeeded_Injected(::System::IntPtr _unity_self);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.HierarchyModule" })]
   /// @brief Method get_Version, addr 0x6b3b968, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.HierarchyModule" })]
+  /// [CompilerGenerated]
   /// @brief Method set_QueryParser, addr 0x6b3b970, size 0x8, virtual false, abstract: false, final false
   inline void set_QueryParser(::Unity::Hierarchy::IHierarchySearchQueryParser* value);
 
@@ -404,13 +430,13 @@ protected:
   constexpr HierarchyViewModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyViewModel(HierarchyViewModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyViewModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyViewModel(HierarchyViewModel const&) = delete;
+  HierarchyViewModel(HierarchyViewModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21958 };
@@ -436,6 +462,8 @@ public:
   /// @brief Field m_IsOwner, offset: 0x38, size: 0x1, def value: None
   bool ___m_IsOwner;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <QueryParser>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::Unity::Hierarchy::IHierarchySearchQueryParser* ____QueryParser_k__BackingField;
 

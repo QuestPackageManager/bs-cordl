@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerResultsPyramidViewAvatar.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerResultsPyramidViewAvatar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr MultiplayerResultsPyramidViewAvatar_Factory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar_Factory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar_Factory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerResultsPyramidViewAvatar_Factory(MultiplayerResultsPyramidViewAvatar_Factory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar_Factory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar_Factory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerResultsPyramidViewAvatar_Factory(MultiplayerResultsPyramidViewAvatar_Factory const&) = delete;
+  MultiplayerResultsPyramidViewAvatar_Factory(MultiplayerResultsPyramidViewAvatar_Factoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6179 };
@@ -459,89 +459,121 @@ protected:
   constexpr MultiplayerResultsPyramidViewAvatar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerResultsPyramidViewAvatar(MultiplayerResultsPyramidViewAvatar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerResultsPyramidViewAvatar(MultiplayerResultsPyramidViewAvatar const&) = delete;
+  MultiplayerResultsPyramidViewAvatar(MultiplayerResultsPyramidViewAvatarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6180 };
 
+  /// [Header("New")]
+  /// [SerializeField]
   /// @brief Field _badgeDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____badgeDirector;
 
+  /// [SerializeField]
   /// @brief Field _ghostFirstTrackName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____ghostFirstTrackName;
 
+  /// [SerializeField]
   /// @brief Field _ghostSecondTrackName, offset: 0x30, size: 0x8, def value: None
   ::StringW ____ghostSecondTrackName;
 
+  /// [Header("Old")]
+  /// [SerializeField]
   /// @brief Field _standWithAvatarTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____standWithAvatarTransform;
 
+  /// [SerializeField]
   /// @brief Field _perPositionRotation, offset: 0x40, size: 0x4, def value: None
   float_t ____perPositionRotation;
 
+  /// [SerializeField]
   /// @brief Field _localPlayerColor, offset: 0x44, size: 0x10, def value: None
   ::UnityEngine::Color ____localPlayerColor;
 
+  /// [Header("Name")]
+  /// [SerializeField]
   /// @brief Field _positionText, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____positionText;
 
+  /// [SerializeField]
   /// @brief Field _nameText, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
+  /// [SerializeField]
   /// @brief Field _nameBackground, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____nameBackground;
 
+  /// [Header("Badge Tweens")]
+  /// [SerializeField]
   /// @brief Field _badgeCanvas, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____badgeCanvas;
 
+  /// [SerializeField]
   /// @brief Field _badgeTitles, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>> ____badgeTitles;
 
+  /// [SerializeField]
   /// @brief Field _badgeImages, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::UnityW<::HMUI::ImageView>> ____badgeImages;
 
+  /// [Header("Subtitle")]
+  /// [SerializeField]
   /// @brief Field _badgeSubtitleText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____badgeSubtitleText;
 
+  /// [SerializeField]
   /// @brief Field _badgeSubtitleCanvas, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____badgeSubtitleCanvas;
 
+  /// [Header("Ghost Effect")]
+  /// [SerializeField]
   /// @brief Field _ghostDuplicationEffect, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GhostDuplicationEffect> ____ghostDuplicationEffect;
 
+  /// [SerializeField]
   /// @brief Field _ghostAppear, offset: 0xa0, size: 0x48, def value: None
   ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams ____ghostAppear;
 
+  /// [SerializeField]
   /// @brief Field _ghostReceive, offset: 0xe8, size: 0x48, def value: None
   ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams ____ghostReceive;
 
+  /// [Header("Trophy")]
+  /// [SerializeField]
   /// @brief Field _trophyImage, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____trophyImage;
 
+  /// [SerializeField]
   /// @brief Field _firstPlaceTrophy, offset: 0x138, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____firstPlaceTrophy;
 
+  /// [SerializeField]
   /// @brief Field _secondPlaceTrophy, offset: 0x140, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____secondPlaceTrophy;
 
+  /// [SerializeField]
   /// @brief Field _thirdPlaceTrophy, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____thirdPlaceTrophy;
 
+  /// [SerializeField]
   /// @brief Field _firstPlaceColor, offset: 0x150, size: 0x10, def value: None
   ::UnityEngine::Color ____firstPlaceColor;
 
+  /// [SerializeField]
   /// @brief Field _personalBestVisual, offset: 0x160, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____personalBestVisual;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x168, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _beatmapKey, offset: 0x170, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey;
 
@@ -572,6 +604,7 @@ public:
   /// @brief Field _originalBadgeLocalPos, offset: 0x1c0, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____originalBadgeLocalPos;
 
+  /// [Inject]
   /// @brief Field _connectedPlayer, offset: 0x1d0, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 

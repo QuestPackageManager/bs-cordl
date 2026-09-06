@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectDrawInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectDrawInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct IndirectDrawInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::IndirectDrawInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::IndirectDrawInfo, "UnityEngine.Rendering", "IndirectDrawInfo");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceOcclusionCuller.cs", needAccessors = false)] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.IndirectDrawInfo
@@ -24,9 +25,9 @@ public:
   // @brief default ctor
   constexpr IndirectDrawInfo();
 
-  // Ctor Parameters [CppParam { name: "indexCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "firstIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "baseVertex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "firstInstanceGlobalIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxInstanceCount",
-  // ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "indexCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstIndex", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "baseVertex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstInstanceGlobalIndex", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "maxInstanceCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IndirectDrawInfo(uint32_t indexCount, uint32_t firstIndex, uint32_t baseVertex, uint32_t firstInstanceGlobalIndex, uint32_t maxInstanceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

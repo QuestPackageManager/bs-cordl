@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandaloneMonobehaviorExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandaloneMonobehaviorExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneMonobehaviorExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"

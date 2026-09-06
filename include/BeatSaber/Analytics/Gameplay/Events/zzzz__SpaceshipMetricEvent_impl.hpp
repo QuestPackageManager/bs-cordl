@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipMetricEvent.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipMetricEvent.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipUserEventBase_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipMetricEvent_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"

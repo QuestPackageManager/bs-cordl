@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUResidentBatcher.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUResidentBatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -140,7 +142,7 @@ public:
   inline void FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs);
 
   /// @brief Method InstanceOcclusionTest, addr 0x6811524, size 0x3c, virtual false, abstract: false, final false
-  inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+  inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests);
 
   static inline ::UnityEngine::Rendering::GPUResidentBatcher* New_ctor(::UnityEngine::Rendering::RenderersBatchersContext* batcherContext,
@@ -179,15 +181,16 @@ public:
   inline void UpdateFrame();
 
   /// @brief Method UpdateInstanceOccluders, addr 0x6811a34, size 0x3c, virtual false, abstract: false, final false
-  inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+  inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                       ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
   /// @brief Method UpdateRendererBatches, addr 0x6811df4, size 0x148, virtual false, abstract: false, final false
-  inline void UpdateRendererBatches(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
+  inline void UpdateRendererBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+                                    ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
   /// @brief Method UpdateRendererInstancesAndBatches, addr 0x6811b9c, size 0x258, virtual false, abstract: false, final false
-  inline void UpdateRendererInstancesAndBatches(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+  inline void UpdateRendererInstancesAndBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                 ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                 ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
@@ -256,13 +259,13 @@ protected:
   constexpr GPUResidentBatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentBatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentBatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUResidentBatcher(GPUResidentBatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentBatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUResidentBatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUResidentBatcher(GPUResidentBatcher const&) = delete;
+  GPUResidentBatcher(GPUResidentBatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17615 };

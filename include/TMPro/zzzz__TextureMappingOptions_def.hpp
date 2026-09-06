@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextureMappingOptions.hpp"
+// IWYU pragma private; include "TMPro/TextureMappingOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   // @brief default ctor
   constexpr TextureMappingOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextureMappingOptions(int32_t value__) noexcept;
 
   /// @brief Field Character value: I32(0)

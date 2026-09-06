@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\ScriptableObjectReferenceAsyncInstaller_1.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/ScriptableObjectReferenceAsyncInstaller_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -15,7 +16,9 @@ namespace BGLib::AppFlow::Initialization {
 class IInstallerRegistry;
 }
 namespace BGLib::AppFlow::Initialization {
-template <typename T> struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
+struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -31,10 +34,14 @@ class DiContainer;
 }
 // Forward declare root types
 namespace BGLib::AppFlow::Initialization {
-template <typename T> class ScriptableObjectReferenceAsyncInstaller_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
+class ScriptableObjectReferenceAsyncInstaller_1;
 }
 namespace BGLib::AppFlow::Initialization {
-template <typename T> struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
+struct ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1);
@@ -42,10 +49,12 @@ MARK_GEN_VAL_T(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncI
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1, "BGLib.AppFlow.Initialization", "ScriptableObjectReferenceAsyncInstaller`1");
 DEFINE_IL2CPP_GEN_CLASS(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3, "BGLib.AppFlow.Initialization",
                         "ScriptableObjectReferenceAsyncInstaller`1/<LoadResourcesBeforeInstallAsync>d__3");
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// [CompilerGenerated]
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, UnityEngine.ScriptableObject
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
 // Is value type: true
 // CS Name: BGLib.AppFlow.Initialization.ScriptableObjectReferenceAsyncInstaller`1/<LoadResourcesBeforeInstallAsync>d__3<T>
 struct CORDL_TYPE ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3 {
@@ -57,6 +66,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -67,9 +77,9 @@ public:
   // @brief default ctor
   constexpr ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<T>", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<T>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<T>", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                             ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept;
 
@@ -95,10 +105,11 @@ public:
 };
 // Non member Declarations
 } // namespace BGLib::AppFlow::Initialization
-// Dependencies BGLib.AppFlow.Initialization.AsyncInstaller, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
+// Dependencies BGLib.AppFlow.Initialization.AsyncInstaller, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>, UnityEngine.ScriptableObject
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*>)
 // Is value type: false
 // CS Name: BGLib.AppFlow.Initialization.ScriptableObjectReferenceAsyncInstaller`1<T>
 class CORDL_TYPE ScriptableObjectReferenceAsyncInstaller_1 : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
@@ -118,6 +129,7 @@ public:
   /// @brief Method LoadAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> LoadAsync(::StringW runtimeKey);
 
+  /// [AsyncStateMachine(typeof(BGLib.AppFlow.Initialization.ScriptableObjectReferenceAsyncInstaller`1::<LoadResourcesBeforeInstallAsync>d__3<T>))]
   /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* _);
 
@@ -135,7 +147,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetRuntimeKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_assetRuntimeKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_assetRuntimeKey();
 
 protected:
@@ -144,13 +156,13 @@ protected:
   constexpr ScriptableObjectReferenceAsyncInstaller_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectReferenceAsyncInstaller_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectReferenceAsyncInstaller_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableObjectReferenceAsyncInstaller_1(ScriptableObjectReferenceAsyncInstaller_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectReferenceAsyncInstaller_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectReferenceAsyncInstaller_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableObjectReferenceAsyncInstaller_1(ScriptableObjectReferenceAsyncInstaller_1 const&) = delete;
+  ScriptableObjectReferenceAsyncInstaller_1(ScriptableObjectReferenceAsyncInstaller_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21568 };

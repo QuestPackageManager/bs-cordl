@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Interface\CipherSuiteCode.hpp"
+// IWYU pragma private; include "Mono/Security/Interface/CipherSuiteCode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CipherSuiteCode;
 // Write type traits
 MARK_VAL_T(::Mono::Security::Interface::CipherSuiteCode);
 DEFINE_IL2CPP_CLASS(::Mono::Security::Interface::CipherSuiteCode, "Mono.Security.Interface", "CipherSuiteCode");
+// [CLSCompliant(false)]
 // Dependencies
 namespace Mono::Security::Interface {
 // Is value type: true
@@ -306,7 +307,7 @@ public:
   // @brief default ctor
   constexpr CipherSuiteCode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr CipherSuiteCode(uint16_t value__) noexcept;
 
   /// @brief Field TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA value: U16(17)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HttpListenerRequestUriBuilder.hpp"
+// IWYU pragma private; include "System/Net/HttpListenerRequestUriBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpListenerRequestUriBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -9,7 +9,7 @@
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::HttpListenerRequestUriBuilder_ParsingResult::HttpListenerRequestUriBuilder_ParsingResult(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -18,7 +18,7 @@ constexpr ::System::Net::HttpListenerRequestUriBuilder_ParsingResult::HttpListen
 constexpr ::System::Net::HttpListenerRequestUriBuilder_ParsingResult System::Net::HttpListenerRequestUriBuilder_ParsingResult::Success{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::HttpListenerRequestUriBuilder_ParsingResult System::Net::HttpListenerRequestUriBuilder_ParsingResult::InvalidString{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::HttpListenerRequestUriBuilder_ParsingResult System::Net::HttpListenerRequestUriBuilder_ParsingResult::EncodingError{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::HttpListenerRequestUriBuilder_EncodingType::HttpListenerRequestUriBuilder_EncodingType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -463,7 +463,7 @@ inline ::StringW System::Net::HttpListenerRequestUriBuilder::AddSlashToAsteriskO
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerRequestUriBuilder*>(), { "AddSlashToAsteriskOnlyPath", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, path);
 }
-inline void System::Net::HttpListenerRequestUriBuilder::LogWarning(::StringW methodName, ::StringW message, ::ArrayW<::System::Object*> args) {
+inline void System::Net::HttpListenerRequestUriBuilder::LogWarning(::StringW methodName, ::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerRequestUriBuilder*>(),
                                                            { "LogWarning", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));

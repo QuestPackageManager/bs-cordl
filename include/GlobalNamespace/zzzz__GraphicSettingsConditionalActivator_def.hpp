@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GraphicSettingsConditionalActivator.hpp"
+// IWYU pragma private; include "GlobalNamespace/GraphicSettingsConditionalActivator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   // @brief default ctor
   constexpr GraphicSettingsConditionalActivator_ActivatorType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphicSettingsConditionalActivator_ActivatorType(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -91,6 +91,7 @@ static_assert(offsetof(::GlobalNamespace::GraphicSettingsConditionalActivator_Ac
 static_assert(sizeof(::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Obsolete]
 // Dependencies GraphicSettingsConditionalActivator::ActivatorType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -153,26 +154,30 @@ protected:
   constexpr GraphicSettingsConditionalActivator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicSettingsConditionalActivator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicSettingsConditionalActivator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphicSettingsConditionalActivator(GraphicSettingsConditionalActivator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicSettingsConditionalActivator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicSettingsConditionalActivator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphicSettingsConditionalActivator(GraphicSettingsConditionalActivator const&) = delete;
+  GraphicSettingsConditionalActivator(GraphicSettingsConditionalActivatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6661 };
 
+  /// [SerializeField]
   /// @brief Field _activatorType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::GraphicSettingsConditionalActivator_ActivatorType ____activatorType;
 
+  /// [SerializeField]
   /// @brief Field _activateOnFalse, offset: 0x24, size: 0x1, def value: None
   bool ____activateOnFalse;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [InjectOptional]
   /// @brief Field _sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 

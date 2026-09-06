@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRComposition.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRComposition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,10 @@ public:
   /// @brief Field usingLastAttachedNodePose, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_usingLastAttachedNodePose, put = __cordl_internal_set_usingLastAttachedNodePose)) bool usingLastAttachedNodePose;
 
-  /// @brief Method Cleanup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cleanup();
 
-  /// @brief Method CompositionMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CompositionMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::OVRManager_CompositionMethod CompositionMethod();
 
   /// @brief Method ComputeCameraTrackingSpacePose, addr 0x5df3984, size 0x2ac, virtual false, abstract: false, final false
@@ -77,7 +77,7 @@ public:
   /// @brief Method RefreshCameraRig, addr 0x5df3740, size 0x1d4, virtual false, abstract: false, final false
   inline void RefreshCameraRig(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera);
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update(::UnityEngine::GameObject* gameObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration,
                      ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
 
@@ -114,13 +114,13 @@ protected:
   constexpr OVRComposition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRComposition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRComposition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRComposition(OVRComposition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRComposition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRComposition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRComposition(OVRComposition const&) = delete;
+  OVRComposition(OVRCompositionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7044 };

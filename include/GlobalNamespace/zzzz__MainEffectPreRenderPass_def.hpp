@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectPreRenderPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectPreRenderPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace GlobalNamespace {
 class MainEffectPreRenderPass___c;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -74,13 +76,13 @@ protected:
   constexpr MainEffectPreRenderPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectPreRenderPass_PassData(MainEffectPreRenderPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectPreRenderPass_PassData(MainEffectPreRenderPass_PassData const&) = delete;
+  MainEffectPreRenderPass_PassData(MainEffectPreRenderPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20637 };
@@ -96,6 +98,7 @@ static_assert(offsetof(::GlobalNamespace::MainEffectPreRenderPass_PassData, ___e
 static_assert(sizeof(::GlobalNamespace::MainEffectPreRenderPass_PassData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -135,13 +138,13 @@ protected:
   constexpr MainEffectPreRenderPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectPreRenderPass___c(MainEffectPreRenderPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectPreRenderPass___c(MainEffectPreRenderPass___c const&) = delete;
+  MainEffectPreRenderPass___c(MainEffectPreRenderPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20638 };
@@ -177,13 +180,13 @@ protected:
   constexpr MainEffectPreRenderPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectPreRenderPass(MainEffectPreRenderPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPreRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectPreRenderPass(MainEffectPreRenderPass const&) = delete;
+  MainEffectPreRenderPass(MainEffectPreRenderPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20639 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MaxFloatParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MaxFloatParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class MaxFloatParameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::MaxFloatParameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::MaxFloatParameter*, "UnityEngine.Rendering", "MaxFloatParameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.FloatParameter
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -48,13 +49,13 @@ protected:
   constexpr MaxFloatParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaxFloatParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaxFloatParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaxFloatParameter(MaxFloatParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaxFloatParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaxFloatParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaxFloatParameter(MaxFloatParameter const&) = delete;
+  MaxFloatParameter(MaxFloatParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12349 };

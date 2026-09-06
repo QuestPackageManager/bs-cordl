@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\SelectorMatchRecord.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/SelectorMatchRecord.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__SelectorMatchRecord_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleComplexSelector_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
@@ -48,8 +48,9 @@ inline int32_t UnityEngine::UIElements::StyleSheets::SelectorMatchRecord::Compar
           { "Compare", {}, { ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>(), ::i2c::type_of<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, a, b);
 }
-// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("{}") }, CppParam { name: "styleSheetIndexInStack", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "complexSelector", ty: "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "styleSheetIndexInStack",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "complexSelector", ty: "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord::SelectorMatchRecord(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, int32_t styleSheetIndexInStack,
                                                                                            ::UnityEngine::UIElements::StyleComplexSelector* complexSelector) noexcept {
   this->sheet = sheet;

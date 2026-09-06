@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LightUnit.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LightUnit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct LightUnit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::LightUnit);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LightUnit, "UnityEngine.Rendering", "LightUnit");
+// [MovedFrom(true, "UnityEngine.Rendering.HighDefinition", "Unity.RenderPipelines.HighDefinition.Runtime", null)]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr LightUnit();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LightUnit(int32_t value__) noexcept;
 
   /// @brief Field Candela value: I32(1)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaGroupBase.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaGroupBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,17 +22,18 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaGroupBase : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Items)) ::System::Xml::Schema::XmlSchemaObjectCollection* Items;
 
   static inline ::System::Xml::Schema::XmlSchemaGroupBase* New_ctor();
 
-  /// @brief Method SetItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection* newItems);
 
   /// @brief Method .ctor, addr 0x622bdb0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Items, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
 protected:
@@ -41,13 +42,13 @@ protected:
   constexpr XmlSchemaGroupBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaGroupBase(XmlSchemaGroupBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaGroupBase(XmlSchemaGroupBase const&) = delete;
+  XmlSchemaGroupBase(XmlSchemaGroupBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9785 };

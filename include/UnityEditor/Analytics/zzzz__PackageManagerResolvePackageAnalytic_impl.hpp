@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerResolvePackageAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerResolvePackageAnalytic.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerBaseAnalytic_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerResolvePackageAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic._ctor

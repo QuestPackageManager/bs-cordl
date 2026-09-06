@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Skybox.hpp"
+// IWYU pragma private; include "UnityEngine/Skybox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class Skybox;
 // Write type traits
 MARK_REF_T(::UnityEngine::Skybox*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Skybox*, "UnityEngine", "Skybox");
+// [NativeHeader("Runtime/Camera/Skybox.h")]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -39,13 +40,13 @@ protected:
   constexpr Skybox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Skybox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Skybox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Skybox(Skybox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Skybox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Skybox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Skybox(Skybox const&) = delete;
+  Skybox(Skyboxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10169 };

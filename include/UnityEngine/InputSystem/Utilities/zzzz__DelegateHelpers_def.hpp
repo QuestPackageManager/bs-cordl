@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\DelegateHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/DelegateHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,9 @@ namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate> struct CallbackArray_1;
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+struct CallbackArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -79,13 +81,13 @@ protected:
   constexpr DelegateHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelegateHelpers(DelegateHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelegateHelpers(DelegateHelpers const&) = delete;
+  DelegateHelpers(DelegateHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9158 };

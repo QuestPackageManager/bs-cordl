@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\Party.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/Party.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,13 +103,13 @@ protected:
   constexpr Party();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Party", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Party", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Party(Party&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Party", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Party", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Party(Party const&) = delete;
+  Party(Partyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18077 };
@@ -120,18 +120,21 @@ public:
   /// @brief Field InvitedUsersOptional, offset: 0x18, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___InvitedUsersOptional;
 
+  /// [Obsolete("Deprecated in favor of InvitedUsersOptional")]
   /// @brief Field InvitedUsers, offset: 0x20, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___InvitedUsers;
 
   /// @brief Field LeaderOptional, offset: 0x28, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___LeaderOptional;
 
+  /// [Obsolete("Deprecated in favor of LeaderOptional")]
   /// @brief Field Leader, offset: 0x30, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___Leader;
 
   /// @brief Field UsersOptional, offset: 0x38, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___UsersOptional;
 
+  /// [Obsolete("Deprecated in favor of UsersOptional")]
   /// @brief Field Users, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___Users;
 

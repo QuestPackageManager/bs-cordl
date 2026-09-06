@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IActivationFactory.hpp"
+// IWYU pragma private; include "GlobalNamespace/IActivationFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   /// @brief Method ActivateInstance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ActivateInstance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IActivationFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IActivationFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IActivationFactory(IActivationFactory const&) = delete;
+  IActivationFactory(IActivationFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23790 };

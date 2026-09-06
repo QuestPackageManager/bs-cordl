@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionResultsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionResultsViewController.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveResult_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
@@ -282,6 +282,7 @@ inline ::System::Object* GlobalNamespace::MissionResultsViewController__StartFir
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30* GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(__1__state));
 }

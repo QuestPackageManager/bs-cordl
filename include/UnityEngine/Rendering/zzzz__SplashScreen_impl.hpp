@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SplashScreen.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SplashScreen.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SplashScreen_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::SplashScreen.get_isFinished

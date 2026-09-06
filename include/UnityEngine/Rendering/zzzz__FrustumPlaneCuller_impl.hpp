@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FrustumPlaneCuller.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FrustumPlaneCuller.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Mathematics/zzzz__float4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FrustumPlaneCuller_def.hpp"
@@ -33,10 +33,11 @@ inline void UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4::_ctor(::Uni
                                               { ".ctor", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, planes, offset, limit);
 }
-// Ctor Parameters [CppParam { name: "nx", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}") }, CppParam { name: "ny", ty: "::Unity::Mathematics::float4", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "nz", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}") }, CppParam { name: "d", ty: "::Unity::Mathematics::float4", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "nxAbs", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}") }, CppParam { name: "nyAbs", ty: "::Unity::Mathematics::float4",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "nzAbs", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "nx", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ny", ty: "::Unity::Mathematics::float4",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nz", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "d", ty:
+// "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nxAbs", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "nyAbs", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nzAbs", ty: "::Unity::Mathematics::float4", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4::FrustumPlaneCuller_PlanePacket4(::Unity::Mathematics::float4 nx, ::Unity::Mathematics::float4 ny, ::Unity::Mathematics::float4 nz,
                                                                                                      ::Unity::Mathematics::float4 d, ::Unity::Mathematics::float4 nxAbs,
                                                                                                      ::Unity::Mathematics::float4 nyAbs, ::Unity::Mathematics::float4 nzAbs) noexcept {
@@ -50,7 +51,7 @@ constexpr ::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4::FrustumPlan
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4::FrustumPlaneCuller_PlanePacket4() {}
-// Ctor Parameters [CppParam { name: "packetCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "packetCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo::FrustumPlaneCuller_SplitInfo(int32_t packetCount) noexcept {
   this->packetCount = packetCount;
 }
@@ -114,9 +115,9 @@ inline void UnityEngine::Rendering::FrustumPlaneCuller::Dispose(::Unity::Jobs::J
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrustumPlaneCuller>(), { "Dispose", {}, { ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, job);
 }
-inline ::UnityEngine::Rendering::FrustumPlaneCuller UnityEngine::Rendering::FrustumPlaneCuller::Create(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
+inline ::UnityEngine::Rendering::FrustumPlaneCuller UnityEngine::Rendering::FrustumPlaneCuller::Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
                                                                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> receiverPlanes,
-                                                                                                       ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller> receiverSphereCuller,
+                                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller> receiverSphereCuller,
                                                                                                        ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -129,7 +130,7 @@ inline ::UnityEngine::Rendering::FrustumPlaneCuller UnityEngine::Rendering::Frus
 }
 inline uint32_t UnityEngine::Rendering::FrustumPlaneCuller::ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4> planePackets,
                                                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo> splitInfos,
-                                                                                       ::by_ref<::UnityEngine::Rendering::AABB> bounds) {
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> bounds) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrustumPlaneCuller>(),
                                                            { "ComputeSplitVisibilityMask",
@@ -139,8 +140,8 @@ inline uint32_t UnityEngine::Rendering::FrustumPlaneCuller::ComputeSplitVisibili
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, planePackets, splitInfos, bounds);
 }
-// Ctor Parameters [CppParam { name: "planePackets", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "splitInfos", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "planePackets", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "splitInfos", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::FrustumPlaneCuller::FrustumPlaneCuller(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4> planePackets,
                                                                            ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo> splitInfos) noexcept {
   this->planePackets = planePackets;

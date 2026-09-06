@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\MotionBlur.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/MotionBlur.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class MotionBlur;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::MotionBlur*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::MotionBlur*, "UnityEngine.Rendering.Universal", "MotionBlur");
+// [VolumeComponentMenu("Post-processing/Motion Blur")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -49,6 +51,7 @@ public:
   /// @brief Method IsActive, addr 0x687f04c, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687f07c, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -90,26 +93,30 @@ protected:
   constexpr MotionBlur();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MotionBlur", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionBlur", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MotionBlur(MotionBlur&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MotionBlur", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MotionBlur", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MotionBlur(MotionBlur const&) = delete;
+  MotionBlur(MotionBlurconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12803 };
 
+  /// [Tooltip("The motion blur technique to use. If you don\'t need object motion blur, CameraOnly will result in better performance.")]
   /// @brief Field mode, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::MotionBlurModeParameter* ___mode;
 
+  /// [Tooltip("The quality of the effect. Lower presets will result in better performance at the expense of visual quality.")]
   /// @brief Field quality, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::MotionBlurQualityParameter* ___quality;
 
+  /// [Tooltip("The strength of the motion blur filter. Acts as a multiplier for velocities.")]
   /// @brief Field intensity, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___intensity;
 
+  /// [Tooltip("Sets the maximum length, as a fraction of the screen\'s full resolution, that the velocity resulting from Camera rotation can have. Lower values will improve performance.")]
   /// @brief Field clamp, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___clamp;
 

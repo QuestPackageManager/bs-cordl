@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Quaternion.hpp"
+// IWYU pragma private; include "UnityEngine/Quaternion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,11 @@ struct Quaternion;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Quaternion);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Quaternion, "UnityEngine", "Quaternion");
+// [NativeHeader("Runtime/Math/MathScripting.h")]
+// [DefaultMember("Item")]
+// [NativeType(Header = "Runtime/Math/Quaternion.h")]
+// [Il2CppEagerStaticClassConstruction]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -51,6 +56,7 @@ public:
   /// @brief Method Angle, addr 0x6ad078c, size 0x60, virtual false, abstract: false, final false
   static inline float_t Angle(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
 
+  /// [FreeFunction("QuaternionScripting::AngleAxis", IsThreadSafe = true)]
   /// @brief Method AngleAxis, addr 0x6ad02fc, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion AngleAxis(float_t angle, ::UnityEngine::Vector3 axis);
 
@@ -72,6 +78,7 @@ public:
   /// @brief Method Euler, addr 0x6ad08d0, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Euler(float_t x, float_t y, float_t z);
 
+  /// [FreeFunction("FromToQuaternionSafe", IsThreadSafe = true)]
   /// @brief Method FromToRotation, addr 0x6acfd44, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FromToRotation(::UnityEngine::Vector3 fromDirection, ::UnityEngine::Vector3 toDirection);
 
@@ -81,6 +88,7 @@ public:
   /// @brief Method GetHashCode, addr 0x6ad0bf0, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [FreeFunction("EulerToQuaternion", IsThreadSafe = true)]
   /// @brief Method Internal_FromEulerRad, addr 0x6ad0118, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Internal_FromEulerRad(::UnityEngine::Vector3 euler);
 
@@ -90,18 +98,21 @@ public:
   /// @brief Method Internal_MakePositive, addr 0x6ad07ec, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Internal_MakePositive(::UnityEngine::Vector3 euler);
 
+  /// [FreeFunction("QuaternionScripting::ToAxisAngle", IsThreadSafe = true)]
   /// @brief Method Internal_ToAxisAngleRad, addr 0x6ad024c, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_ToAxisAngleRad(::UnityEngine::Quaternion q, ::by_ref<::UnityEngine::Vector3> axis, ::by_ref<float_t> angle);
 
   /// @brief Method Internal_ToAxisAngleRad_Injected, addr 0x6ad02a8, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_ToAxisAngleRad_Injected(::by_ref<::UnityEngine::Quaternion> q, ::by_ref<::UnityEngine::Vector3> axis, ::by_ref<float_t> angle);
 
+  /// [FreeFunction("QuaternionScripting::ToEuler", IsThreadSafe = true)]
   /// @brief Method Internal_ToEulerRad, addr 0x6ad01b0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Internal_ToEulerRad(::UnityEngine::Quaternion rotation);
 
   /// @brief Method Internal_ToEulerRad_Injected, addr 0x6ad0208, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_ToEulerRad_Injected(::by_ref<::UnityEngine::Quaternion> rotation, ::by_ref<::UnityEngine::Vector3> ret);
 
+  /// [FreeFunction(IsThreadSafe = true)]
   /// @brief Method Inverse, addr 0x6acfdf8, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Inverse(::UnityEngine::Quaternion rotation);
 
@@ -111,20 +122,24 @@ public:
   /// @brief Method IsEqualUsingDot, addr 0x6ad0654, size 0x14, virtual false, abstract: false, final false
   static inline bool IsEqualUsingDot(float_t dot);
 
+  /// [FreeFunction("QuaternionScripting::Lerp", IsThreadSafe = true)]
   /// @brief Method Lerp, addr 0x6ad0040, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Lerp(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float_t t);
 
   /// @brief Method Lerp_Injected, addr 0x6ad00b4, size 0x64, virtual false, abstract: false, final false
   static inline void Lerp_Injected(::by_ref<::UnityEngine::Quaternion> a, ::by_ref<::UnityEngine::Quaternion> b, float_t t, ::by_ref<::UnityEngine::Quaternion> ret);
 
+  /// [ExcludeFromDocs]
   /// @brief Method LookRotation, addr 0x6ad0468, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion LookRotation(::UnityEngine::Vector3 forward);
 
+  /// [FreeFunction("QuaternionScripting::LookRotation", IsThreadSafe = true)]
   /// @brief Method LookRotation, addr 0x6ad03b4, size 0x60, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion LookRotation(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 upwards);
+  static inline ::UnityEngine::Quaternion LookRotation(::UnityEngine::Vector3 forward, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 upwards);
 
   /// @brief Method LookRotation_Injected, addr 0x6ad0414, size 0x54, virtual false, abstract: false, final false
-  static inline void LookRotation_Injected(::by_ref<::UnityEngine::Vector3> forward, ::by_ref<::UnityEngine::Vector3> upwards, ::by_ref<::UnityEngine::Quaternion> ret);
+  static inline void LookRotation_Injected(::by_ref<::UnityEngine::Vector3> forward, /* [DefaultValue("Vector3.up")] */ ::by_ref<::UnityEngine::Vector3> upwards,
+                                           ::by_ref<::UnityEngine::Quaternion> ret);
 
   /// @brief Method Normalize, addr 0x6ad0a38, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Normalize(::UnityEngine::Quaternion q);
@@ -135,15 +150,18 @@ public:
   /// @brief Method RotateTowards, addr 0x6ad0934, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion RotateTowards(::UnityEngine::Quaternion from, ::UnityEngine::Quaternion to, float_t maxDegreesDelta);
 
+  /// [ExcludeFromDocs]
   /// @brief Method SetLookRotation, addr 0x6ad06e8, size 0x88, virtual false, abstract: false, final false
   inline void SetLookRotation(::UnityEngine::Vector3 view);
 
   /// @brief Method SetLookRotation, addr 0x6ad0770, size 0x1c, virtual false, abstract: false, final false
-  inline void SetLookRotation(::UnityEngine::Vector3 view, ::UnityEngine::Vector3 up);
+  inline void SetLookRotation(::UnityEngine::Vector3 view, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 up);
 
+  /// [FreeFunction("QuaternionScripting::Slerp", IsThreadSafe = true)]
   /// @brief Method Slerp, addr 0x6acfe90, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Slerp(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float_t t);
 
+  /// [FreeFunction("QuaternionScripting::SlerpUnclamped", IsThreadSafe = true)]
   /// @brief Method SlerpUnclamped, addr 0x6acff68, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion SlerpUnclamped(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float_t t);
 
@@ -200,8 +218,8 @@ public:
   // @brief default ctor
   constexpr Quaternion();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Quaternion(float_t x, float_t y, float_t z, float_t w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

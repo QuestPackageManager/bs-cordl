@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\float2.hpp"
+// IWYU pragma private; include "Unity/Mathematics/float2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,13 +99,13 @@ protected:
   constexpr float2_DebuggerProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "float2_DebuggerProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "float2_DebuggerProxy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   float2_DebuggerProxy(float2_DebuggerProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "float2_DebuggerProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "float2_DebuggerProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  float2_DebuggerProxy(float2_DebuggerProxy const&) = delete;
+  float2_DebuggerProxy(float2_DebuggerProxyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13158 };
@@ -126,6 +126,9 @@ static_assert(offsetof(::Unity::Mathematics::float2_DebuggerProxy, ___y) == 0x14
 static_assert(sizeof(::Unity::Mathematics::float2_DebuggerProxy) == 0x18, "Size mismatch!");
 
 } // namespace Unity::Mathematics
+// [DefaultMember("Item")]
+// [DebuggerTypeProxy(typeof(Unity.Mathematics.float2::DebuggerProxy))]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies
 namespace Unity::Mathematics {
 // Is value type: true
@@ -137,60 +140,88 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) float_t Item[];
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xx)) ::Unity::Mathematics::float2 xx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxx)) ::Unity::Mathematics::float3 xxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxx)) ::Unity::Mathematics::float4 xxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxy)) ::Unity::Mathematics::float4 xxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxy)) ::Unity::Mathematics::float3 xxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyx)) ::Unity::Mathematics::float4 xxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyy)) ::Unity::Mathematics::float4 xxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xy, put = set_xy)) ::Unity::Mathematics::float2 xy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyx)) ::Unity::Mathematics::float3 xyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxx)) ::Unity::Mathematics::float4 xyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxy)) ::Unity::Mathematics::float4 xyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyy)) ::Unity::Mathematics::float3 xyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyx)) ::Unity::Mathematics::float4 xyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyy)) ::Unity::Mathematics::float4 xyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yx, put = set_yx)) ::Unity::Mathematics::float2 yx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxx)) ::Unity::Mathematics::float3 yxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxx)) ::Unity::Mathematics::float4 yxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxy)) ::Unity::Mathematics::float4 yxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxy)) ::Unity::Mathematics::float3 yxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyx)) ::Unity::Mathematics::float4 yxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyy)) ::Unity::Mathematics::float4 yxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yy)) ::Unity::Mathematics::float2 yy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyx)) ::Unity::Mathematics::float3 yyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxx)) ::Unity::Mathematics::float4 yyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxy)) ::Unity::Mathematics::float4 yyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyy)) ::Unity::Mathematics::float3 yyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyx)) ::Unity::Mathematics::float4 yyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyy)) ::Unity::Mathematics::float4 yyyy;
 
   /// @brief Field zero, offset 0xffffffff, size 0x8
@@ -516,7 +547,7 @@ public:
   // @brief default ctor
   constexpr float2();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr float2(float_t x, float_t y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

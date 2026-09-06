@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PoseSampler.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseSampler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseSampler_def.hpp"
 #include "BeatSaber/RecPlay/zzzz__FrameSample_def.hpp"
@@ -64,7 +64,8 @@ inline ::BeatSaber::RecPlay::FrameSample BeatSaber::RecPlay::PoseSampler::FindPo
                                               { "FindPoseSample", {}, { ::i2c::type_of<::ArrayW<::BeatSaber::RecPlay::PoseFrame>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::RecPlay::FrameSample>(nullptr, ___internal_method, frames, time, nearest);
 }
-inline ::UnityEngine::Pose BeatSaber::RecPlay::PoseSampler::InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, ::by_ref<::BeatSaber::RecPlay::FrameSample> sample) {
+inline ::UnityEngine::Pose BeatSaber::RecPlay::PoseSampler::InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::FrameSample> sample) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::BeatSaber::RecPlay::PoseSampler*>(),

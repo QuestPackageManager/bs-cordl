@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutNodeDataType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutNodeDataType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct LayoutNodeDataType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutNodeDataType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutNodeDataType, "UnityEngine.UIElements.Layout", "LayoutNodeDataType");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr LayoutNodeDataType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutNodeDataType(int32_t value__) noexcept;
 
   /// @brief Field Cache value: I32(3)

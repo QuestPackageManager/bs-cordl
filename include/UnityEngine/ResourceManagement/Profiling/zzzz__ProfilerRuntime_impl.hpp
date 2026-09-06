@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\ProfilerRuntime.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/ProfilerRuntime.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCounterValue_1_impl.hpp"
@@ -379,10 +379,9 @@ inline void UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::AddCata
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime*>(), { "AddCatalog", {}, { ::i2c::type_of<::UnityEngine::Hash128>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, buildHash);
 }
-inline void UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::AddBundleOperation(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle handle,
-                                                                                            ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* requestOptions,
-                                                                                            ::UnityEngine::ResourceManagement::Profiling::ContentStatus status,
-                                                                                            ::UnityEngine::ResourceManagement::Util::BundleSource source) {
+inline void UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::AddBundleOperation(
+    ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle handle, /* [NotNull] */ ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* requestOptions,
+    ::UnityEngine::ResourceManagement::Profiling::ContentStatus status, ::UnityEngine::ResourceManagement::Util::BundleSource source) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime*>(),
                                                                                          { "AddBundleOperation",
                                                                                            {},

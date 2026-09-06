@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +67,13 @@ protected:
   constexpr SaberManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberManager_InitData(SaberManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberManager_InitData(SaberManager_InitData const&) = delete;
+  SaberManager_InitData(SaberManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6230 };
@@ -94,6 +94,7 @@ static_assert(offsetof(::GlobalNamespace::SaberManager_InitData, ___oneSaberType
 static_assert(sizeof(::GlobalNamespace::SaberManager_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/SaberManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -179,6 +180,7 @@ public:
   /// @brief Method .ctor, addr 0x59f0628, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x59ee8dc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
@@ -188,6 +190,7 @@ public:
   /// @brief Method get_rightSaber, addr 0x59f03c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_rightSaber();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x59eea28, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
@@ -200,29 +203,33 @@ protected:
   constexpr SaberManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberManager(SaberManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberManager(SaberManager const&) = delete;
+  SaberManager(SaberManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6231 };
 
+  /// [SerializeField]
   /// @brief Field _leftSaber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Saber> ____leftSaber;
 
+  /// [SerializeField]
   /// @brief Field _rightSaber, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Saber> ____rightSaber;
 
+  /// [InjectOptional]
   /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SaberManager_InitData* ____initData;
 
   /// @brief Field _started, offset: 0x38, size: 0x1, def value: None
   bool ____started;
 
+  /// [CompilerGenerated]
   /// @brief Field didUpdateSaberPositionsEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* ___didUpdateSaberPositionsEvent;
 

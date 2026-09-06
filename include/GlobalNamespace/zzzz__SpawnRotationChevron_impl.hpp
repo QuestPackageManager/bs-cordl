@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpawnRotationChevron.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpawnRotationChevron.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

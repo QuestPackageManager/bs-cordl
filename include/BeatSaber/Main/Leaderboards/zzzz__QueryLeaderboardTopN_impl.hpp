@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\Leaderboards\QueryLeaderboardTopN.hpp"
+// IWYU pragma private; include "BeatSaber/Main/Leaderboards/QueryLeaderboardTopN.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__QueryRequest_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__QueryLeaderboardTopN_def.hpp"
 #include "BeatSaber/Main/GraphQL/InputTypes/zzzz__XOCBeatGamesBeatmapLeaderboardEntryOrder_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\DataStreamWriter.hpp"
+// IWYU pragma private; include "Unity/Collections/DataStreamWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,9 @@ namespace Unity::Collections {
 struct FixedString64Bytes;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
 struct StreamCompressionModel;
@@ -61,9 +63,9 @@ public:
   // @brief default ctor
   constexpr DataStreamWriter_StreamData();
 
-  // Ctor Parameters [CppParam { name: "buffer", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bitBuffer", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "bitIndex", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "failedWrites", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "buffer", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bitBuffer", ty: "uint64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "bitIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "failedWrites", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DataStreamWriter_StreamData(uint8_t* buffer, int32_t length, int32_t capacity, uint64_t bitBuffer, int32_t bitIndex, int32_t failedWrites) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -108,6 +110,8 @@ static_assert(offsetof(::Unity::Collections::DataStreamWriter_StreamData, failed
 static_assert(sizeof(::Unity::Collections::DataStreamWriter_StreamData) == 0x20, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [MovedFrom(true, "Unity.Networking.Transport", "Unity.Networking.Transport", null)]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.IntPtr, Unity.Collections.DataStreamWriter::StreamData
 namespace Unity::Collections {
 // Is value type: true
@@ -136,15 +140,22 @@ public:
   /// @brief Method ByteSwap, addr 0x64adcdc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ByteSwap(int32_t val);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckAllocator, addr 0x64ae710, size 0x58, virtual false, abstract: false, final false
   static inline void CheckAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckBits, addr 0x64ae768, size 0x11c, virtual false, abstract: false, final false
   static inline void CheckBits(uint32_t value, int32_t numBits);
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x64ae708, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckWrite, addr 0x64ae70c, size 0x4, virtual false, abstract: false, final false
   inline void CheckWrite();
 
@@ -206,63 +217,63 @@ public:
   inline bool WriteLong(int64_t value);
 
   /// @brief Method WritePackedDouble, addr 0x64ae3d8, size 0x8, virtual false, abstract: false, final false
-  inline bool WritePackedDouble(double_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedDouble(double_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedDoubleDelta, addr 0x64ae3e0, size 0xcc, virtual false, abstract: false, final false
-  inline bool WritePackedDoubleDelta(double_t value, double_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedDoubleDelta(double_t value, double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedFixedString128Delta, addr 0x64ae6c0, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString128Delta(::Unity::Collections::FixedString128Bytes str, ::Unity::Collections::FixedString128Bytes baseline,
-                                             ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedFixedString32Delta, addr 0x64ae538, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString32Delta(::Unity::Collections::FixedString32Bytes str, ::Unity::Collections::FixedString32Bytes baseline,
-                                            ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedFixedString4096Delta, addr 0x64ae6e8, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes str, ::Unity::Collections::FixedString4096Bytes baseline,
-                                              ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedFixedString512Delta, addr 0x64ae6d4, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString512Delta(::Unity::Collections::FixedString512Bytes str, ::Unity::Collections::FixedString512Bytes baseline,
-                                             ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedFixedString64Delta, addr 0x64ae6ac, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString64Delta(::Unity::Collections::FixedString64Bytes str, ::Unity::Collections::FixedString64Bytes baseline,
-                                            ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                            /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedFixedStringDelta, addr 0x64ae54c, size 0x160, virtual false, abstract: false, final false
-  inline bool WritePackedFixedStringDelta(uint8_t* data, uint32_t length, uint8_t* baseData, uint32_t baseLength, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedFixedStringDelta(uint8_t* data, uint32_t length, uint8_t* baseData, uint32_t baseLength, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedFloat, addr 0x64ae348, size 0x8, virtual false, abstract: false, final false
-  inline bool WritePackedFloat(float_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedFloat(float_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedFloatDelta, addr 0x64ae350, size 0x88, virtual false, abstract: false, final false
-  inline bool WritePackedFloatDelta(float_t value, float_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedFloatDelta(float_t value, float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedInt, addr 0x64ae330, size 0xc, virtual false, abstract: false, final false
-  inline bool WritePackedInt(int32_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedInt(int32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedIntDelta, addr 0x64ae4c0, size 0x14, virtual false, abstract: false, final false
-  inline bool WritePackedIntDelta(int32_t value, int32_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedIntDelta(int32_t value, int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedLong, addr 0x64ae33c, size 0xc, virtual false, abstract: false, final false
-  inline bool WritePackedLong(int64_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedLong(int64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedLongDelta, addr 0x64ae4d4, size 0x14, virtual false, abstract: false, final false
-  inline bool WritePackedLongDelta(int64_t value, int64_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedLongDelta(int64_t value, int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedUInt, addr 0x64ae1f4, size 0xf4, virtual false, abstract: false, final false
-  inline bool WritePackedUInt(uint32_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedUInt(uint32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedUIntDelta, addr 0x64ae4ac, size 0x14, virtual false, abstract: false, final false
-  inline bool WritePackedUIntDelta(uint32_t value, uint32_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedUIntDelta(uint32_t value, uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedULong, addr 0x64ae2e8, size 0x48, virtual false, abstract: false, final false
-  inline bool WritePackedULong(uint64_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedULong(uint64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WritePackedULongDelta, addr 0x64ae4e8, size 0x14, virtual false, abstract: false, final false
-  inline bool WritePackedULongDelta(uint64_t value, uint64_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline bool WritePackedULongDelta(uint64_t value, uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method WriteRawBits, addr 0x64ae190, size 0x64, virtual false, abstract: false, final false
   inline bool WriteRawBits(uint32_t value, int32_t numbits);
@@ -300,12 +311,15 @@ public:
   /// @brief Method .ctor, addr 0x64ada38, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t length, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x64add04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_HasFailedWrites, addr 0x64adcf4, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasFailedWrites();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64adce4, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
@@ -322,8 +336,8 @@ public:
   // @brief default ctor
   constexpr DataStreamWriter();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::DataStreamWriter_StreamData", modifiers: "", def_value: None }, CppParam { name: "m_SendHandleData", ty: "::System::IntPtr",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::DataStreamWriter_StreamData", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SendHandleData", ty:
+  // "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr DataStreamWriter(::Unity::Collections::DataStreamWriter_StreamData m_Data, ::System::IntPtr m_SendHandleData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -332,6 +346,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Data, offset: 0x0, size: 0x20, def value: None
   ::Unity::Collections::DataStreamWriter_StreamData m_Data;
 

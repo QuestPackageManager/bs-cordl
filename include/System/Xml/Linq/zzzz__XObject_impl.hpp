@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XObject.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XObject.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
 #include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
@@ -261,7 +261,9 @@ inline ::System::Object* System::Xml::Linq::XObject::AnnotationForSealedType(::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XObject*>(), { "AnnotationForSealedType", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, type);
 }
-template <typename T> inline T System::Xml::Linq::XObject::Annotation() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Xml::Linq::XObject::Annotation() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XObject*>(), { "Annotation", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);

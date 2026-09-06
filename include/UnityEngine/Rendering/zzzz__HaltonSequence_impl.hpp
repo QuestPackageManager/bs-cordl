@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HaltonSequence.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HaltonSequence.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__HaltonSequence_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::HaltonSequence.Get

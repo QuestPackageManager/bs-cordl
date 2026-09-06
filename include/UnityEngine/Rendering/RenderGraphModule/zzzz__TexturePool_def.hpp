@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TexturePool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TexturePool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ class CORDL_TYPE TexturePool : public ::UnityEngine::Rendering::RenderGraphModul
 public:
   // Declarations
   /// @brief Method GetResourceName, addr 0x67eb668, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW GetResourceName(::by_ref<::UnityEngine::Rendering::RTHandle*> res);
+  inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res);
 
   /// @brief Method GetResourceSize, addr 0x67eb688, size 0x1c, virtual true, abstract: false, final false
-  inline int64_t GetResourceSize(::by_ref<::UnityEngine::Rendering::RTHandle*> res);
+  inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> res);
 
   /// @brief Method GetResourceTypeName, addr 0x67eb6a4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceTypeName();
@@ -50,13 +50,13 @@ protected:
   constexpr TexturePool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TexturePool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TexturePool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TexturePool(TexturePool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TexturePool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TexturePool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TexturePool(TexturePool const&) = delete;
+  TexturePool(TexturePoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12467 };

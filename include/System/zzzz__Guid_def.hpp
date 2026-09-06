@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Guid.hpp"
+// IWYU pragma private; include "System/Guid.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,6 +77,7 @@ DEFINE_IL2CPP_CLASS(::System::Guid_GuidStyles, "System", "Guid/GuidStyles");
 DEFINE_IL2CPP_CLASS(::System::Guid_ParseFailureKind, "System", "Guid/ParseFailureKind");
 DEFINE_IL2CPP_CLASS(::System::Guid, "System", "Guid");
 DEFINE_IL2CPP_CLASS(::System::Guid_GuidResult, "System", "Guid/GuidResult");
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -119,7 +120,7 @@ public:
   // @brief default ctor
   constexpr Guid_GuidStyles();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Guid_GuidStyles(int32_t value__) noexcept;
 
   /// @brief Field AllowBraces value: I32(2)
@@ -214,7 +215,7 @@ public:
   // @brief default ctor
   constexpr Guid_GuidParseThrowStyle();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Guid_GuidParseThrowStyle(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(1)
@@ -276,7 +277,7 @@ public:
   // @brief default ctor
   constexpr Guid_ParseFailureKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Guid_ParseFailureKind(int32_t value__) noexcept;
 
   /// @brief Field ArgumentNull value: I32(1)
@@ -314,6 +315,7 @@ static_assert(offsetof(::System::Guid_ParseFailureKind, value__) == 0x0, "Offset
 static_assert(sizeof(::System::Guid_ParseFailureKind) == 0x4, "Size mismatch!");
 
 } // namespace System
+// [NonVersionable]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -492,11 +494,12 @@ public:
   // @brief default ctor
   constexpr Guid();
 
-  // Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_b", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "_c", ty:
-  // "int16_t", modifiers: "", def_value: None }, CppParam { name: "_d", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_e", ty: "uint8_t", modifiers: "", def_value: None },
-  // CppParam { name: "_f", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_g", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_h", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "_i", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_j", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_k", ty:
-  // "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_b", ty: "int16_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_c", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_d", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_e", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_f", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_g", ty: "uint8_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_h", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_i", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_j", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_k", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr Guid(int32_t _a, int16_t _b, int16_t _c, uint8_t _d, uint8_t _e, uint8_t _f, uint8_t _g, uint8_t _h, uint8_t _i, uint8_t _j, uint8_t _k) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -596,10 +599,11 @@ public:
   // @brief default ctor
   constexpr Guid_GuidResult();
 
-  // Ctor Parameters [CppParam { name: "_parsedGuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "_throwStyle", ty: "::System::Guid_GuidParseThrowStyle", modifiers: "",
-  // def_value: None }, CppParam { name: "_failure", ty: "::System::Guid_ParseFailureKind", modifiers: "", def_value: None }, CppParam { name: "_failureMessageID", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "_failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_failureArgumentName", ty: "::StringW",
-  // modifiers: "", def_value: None }, CppParam { name: "_innerException", ty: "::System::Exception*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_parsedGuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "_throwStyle", ty: "::System::Guid_GuidParseThrowStyle",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_failure", ty: "::System::Guid_ParseFailureKind", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_failureMessageID", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_failureArgumentName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_innerException", ty: "::System::Exception*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr Guid_GuidResult(::System::Guid _parsedGuid, ::System::Guid_GuidParseThrowStyle _throwStyle, ::System::Guid_ParseFailureKind _failure, ::StringW _failureMessageID,
                             ::System::Object* _failureMessageFormatArgument, ::StringW _failureArgumentName, ::System::Exception* _innerException) noexcept;
 

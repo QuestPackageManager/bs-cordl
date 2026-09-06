@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirroredNoteController_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirroredNoteController_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredNoteController_1)
@@ -32,15 +33,18 @@ class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T> class MirroredNoteController_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteMirrorable*>)
+class MirroredNoteController_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::MirroredNoteController_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::MirroredNoteController_1, "", "MirroredNoteController`1");
-// Dependencies NoteControllerBase
+// Dependencies INoteMirrorable, NoteControllerBase
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INoteMirrorable*>)
 // Is value type: false
 // CS Name: MirroredNoteController`1<T>
 class CORDL_TYPE MirroredNoteController_1 : public ::GlobalNamespace::NoteControllerBase {
@@ -173,17 +177,18 @@ protected:
   constexpr MirroredNoteController_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredNoteController_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredNoteController_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirroredNoteController_1(MirroredNoteController_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredNoteController_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredNoteController_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredNoteController_1(MirroredNoteController_1 const&) = delete;
+  MirroredNoteController_1(MirroredNoteController_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5668 };
 
+  /// [SerializeField]
   /// @brief Field _noteTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____noteTransform;
 

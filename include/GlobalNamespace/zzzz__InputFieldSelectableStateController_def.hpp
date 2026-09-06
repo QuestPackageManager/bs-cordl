@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\InputFieldSelectableStateController.hpp"
+// IWYU pragma private; include "GlobalNamespace/InputFieldSelectableStateController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ protected:
   constexpr InputFieldSelectableStateController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldSelectableStateController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldSelectableStateController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputFieldSelectableStateController(InputFieldSelectableStateController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputFieldSelectableStateController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputFieldSelectableStateController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputFieldSelectableStateController(InputFieldSelectableStateController const&) = delete;
+  InputFieldSelectableStateController(InputFieldSelectableStateControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22370 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\DefaultJsonNameTable.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/DefaultJsonNameTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ MARK_REF_T(::Newtonsoft::Json::DefaultJsonNameTable*);
 MARK_REF_T(::Newtonsoft::Json::DefaultJsonNameTable_Entry*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::DefaultJsonNameTable*, "Newtonsoft.Json", "DefaultJsonNameTable");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::DefaultJsonNameTable_Entry*, "Newtonsoft.Json", "DefaultJsonNameTable/Entry");
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -69,13 +70,13 @@ protected:
   constexpr DefaultJsonNameTable_Entry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable_Entry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable_Entry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultJsonNameTable_Entry(DefaultJsonNameTable_Entry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable_Entry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultJsonNameTable_Entry(DefaultJsonNameTable_Entry const&) = delete;
+  DefaultJsonNameTable_Entry(DefaultJsonNameTable_Entryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13237 };
@@ -101,6 +102,8 @@ static_assert(offsetof(::Newtonsoft::Json::DefaultJsonNameTable_Entry, ___Next) 
 static_assert(sizeof(::Newtonsoft::Json::DefaultJsonNameTable_Entry) == 0x28, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.DefaultJsonNameTable::Entry, Newtonsoft.Json.JsonNameTable
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -170,13 +173,13 @@ protected:
   constexpr DefaultJsonNameTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultJsonNameTable(DefaultJsonNameTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultJsonNameTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultJsonNameTable(DefaultJsonNameTable const&) = delete;
+  DefaultJsonNameTable(DefaultJsonNameTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13238 };

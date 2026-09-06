@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ICloudBackground.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ICloudBackground.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +18,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE ICloudBackground {
 public:
   // Declarations
-  /// @brief Method IsCloudBackgroundUsable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsCloudBackgroundUsable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsCloudBackgroundUsable();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICloudBackground", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICloudBackground", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICloudBackground(ICloudBackground const&) = delete;
+  ICloudBackground(ICloudBackgroundconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12185 };

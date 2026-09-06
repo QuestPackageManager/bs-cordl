@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ModifiableMassProperties.hpp"
+// IWYU pragma private; include "UnityEngine/ModifiableMassProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,9 @@ public:
   // @brief default ctor
   constexpr ModifiableMassProperties();
 
-  // Ctor Parameters [CppParam { name: "inverseMassScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "inverseInertiaScale", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "otherInverseMassScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "otherInverseInertiaScale", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "inverseMassScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "inverseInertiaScale", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "otherInverseMassScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "otherInverseInertiaScale", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ModifiableMassProperties(float_t inverseMassScale, float_t inverseInertiaScale, float_t otherInverseMassScale, float_t otherInverseInertiaScale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

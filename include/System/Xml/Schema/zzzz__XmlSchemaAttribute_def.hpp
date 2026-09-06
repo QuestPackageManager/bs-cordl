@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaAttribute.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,28 +45,44 @@ public:
   // Declarations
   __declspec(property(get = get_AttDef, put = set_AttDef)) ::System::Xml::Schema::SchemaAttDef* AttDef;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_AttributeSchemaType)) ::System::Xml::Schema::XmlSchemaSimpleType* AttributeSchemaType;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Datatype)) ::System::Xml::Schema::XmlSchemaDatatype* Datatype;
 
+  /// [XmlAttribute("default")]
+  /// @brief [DefaultValue(null)]
   __declspec(property(get = get_DefaultValue, put = set_DefaultValue)) ::StringW DefaultValue;
 
+  /// [DefaultValue(null)]
+  /// @brief [XmlAttribute("fixed")]
   __declspec(property(get = get_FixedValue, put = set_FixedValue)) ::StringW FixedValue;
 
+  /// [DefaultValue((System.Xml.Schema.XmlSchemaForm)0)]
+  /// @brief [XmlAttribute("form")]
   __declspec(property(get = get_Form, put = set_Form)) ::System::Xml::Schema::XmlSchemaForm Form;
 
+  /// @brief [XmlAttribute("name")]
   __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_NameAttribute, put = set_NameAttribute)) ::StringW NameAttribute;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_QualifiedName)) ::System::Xml::XmlQualifiedName* QualifiedName;
 
+  /// @brief [XmlAttribute("ref")]
   __declspec(property(get = get_RefName, put = set_RefName)) ::System::Xml::XmlQualifiedName* RefName;
 
+  /// @brief [XmlElement("simpleType")]
   __declspec(property(get = get_SchemaType, put = set_SchemaType)) ::System::Xml::Schema::XmlSchemaSimpleType* SchemaType;
 
+  /// @brief [XmlAttribute("type")]
   __declspec(property(get = get_SchemaTypeName, put = set_SchemaTypeName)) ::System::Xml::XmlQualifiedName* SchemaTypeName;
 
+  /// [DefaultValue((System.Xml.Schema.XmlSchemaUse)0)]
+  /// @brief [XmlAttribute("use")]
   __declspec(property(get = get_Use, put = set_Use)) ::System::Xml::Schema::XmlSchemaUse Use;
 
   /// @brief Field attDef, offset 0x98, size 0x8
@@ -257,13 +273,13 @@ protected:
   constexpr XmlSchemaAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaAttribute(XmlSchemaAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaAttribute(XmlSchemaAttribute const&) = delete;
+  XmlSchemaAttribute(XmlSchemaAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9746 };

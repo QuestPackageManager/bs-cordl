@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BottleneckHistogram.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BottleneckHistogram.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr BottleneckHistogram();
 
-  // Ctor Parameters [CppParam { name: "PresentLimited", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "CPU", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "GPU", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Balanced", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "PresentLimited", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "CPU", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "GPU", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Balanced", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr BottleneckHistogram(float_t PresentLimited, float_t CPU, float_t GPU, float_t Balanced) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

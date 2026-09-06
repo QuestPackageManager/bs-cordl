@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LookDev\IDataProvider.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LookDev/IDataProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,33 +37,33 @@ public:
   // Declarations
   __declspec(property(get = get_supportedDebugModes)) ::System::Collections::Generic::IEnumerable_1<::StringW>* supportedDebugModes;
 
-  /// @brief Method Cleanup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cleanup(::UnityEngine::Rendering::LookDev::StageRuntimeInterface* SRI);
 
-  /// @brief Method FirstInitScene, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FirstInitScene, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FirstInitScene(::UnityEngine::Rendering::LookDev::StageRuntimeInterface* stage);
 
-  /// @brief Method GetShadowMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetShadowMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetShadowMask(::by_ref<::UnityEngine::RenderTexture*> output, ::UnityEngine::Rendering::LookDev::StageRuntimeInterface* stage);
 
-  /// @brief Method OnBeginRendering, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnBeginRendering, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnBeginRendering(::UnityEngine::Rendering::LookDev::StageRuntimeInterface* stage);
 
-  /// @brief Method OnEndRendering, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnEndRendering, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnEndRendering(::UnityEngine::Rendering::LookDev::StageRuntimeInterface* stage);
 
-  /// @brief Method UpdateDebugMode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateDebugMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateDebugMode(int32_t debugIndex);
 
-  /// @brief Method UpdateSky, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateSky, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateSky(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::LookDev::Sky sky, ::UnityEngine::Rendering::LookDev::StageRuntimeInterface* stage);
 
-  /// @brief Method get_supportedDebugModes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_supportedDebugModes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_supportedDebugModes();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDataProvider(IDataProvider const&) = delete;
+  IDataProvider(IDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12504 };

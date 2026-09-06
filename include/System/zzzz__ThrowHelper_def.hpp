@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ThrowHelper.hpp"
+// IWYU pragma private; include "System/ThrowHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ class ThrowHelper;
 // Write type traits
 MARK_REF_T(::System::ThrowHelper*);
 DEFINE_IL2CPP_CLASS(::System::ThrowHelper*, "System", "ThrowHelper");
+// [StackTraceHidden]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -213,13 +214,13 @@ protected:
   constexpr ThrowHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThrowHelper(ThrowHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThrowHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThrowHelper(ThrowHelper const&) = delete;
+  ThrowHelper(ThrowHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2530 };

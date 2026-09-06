@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\DownloadStatus.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/DownloadStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,8 +30,8 @@ public:
   // @brief default ctor
   constexpr DownloadStatus();
 
-  // Ctor Parameters [CppParam { name: "TotalBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "DownloadedBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "IsDone", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "TotalBytes", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "DownloadedBytes", ty: "int64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "IsDone", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr DownloadStatus(int64_t TotalBytes, int64_t DownloadedBytes, bool IsDone) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

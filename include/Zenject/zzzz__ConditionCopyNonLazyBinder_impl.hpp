@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject/ConditionCopyNonLazyBinder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "Zenject/zzzz__CopyNonLazyBinder_impl.hpp"
@@ -430,7 +430,7 @@ inline ::Zenject::CopyNonLazyBinder* Zenject::ConditionCopyNonLazyBinder::WhenIn
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConditionCopyNonLazyBinder*>(), { "WhenInjectedIntoInstance", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::CopyNonLazyBinder*>(this, ___internal_method, instance);
 }
-inline ::Zenject::CopyNonLazyBinder* Zenject::ConditionCopyNonLazyBinder::WhenInjectedInto(::ArrayW<::System::Type*> targets) {
+inline ::Zenject::CopyNonLazyBinder* Zenject::ConditionCopyNonLazyBinder::WhenInjectedInto(/* [ParamArray] */ ::ArrayW<::System::Type*> targets) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConditionCopyNonLazyBinder*>(), { "WhenInjectedInto", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::CopyNonLazyBinder*>(this, ___internal_method, targets);

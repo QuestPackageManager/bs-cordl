@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PhysicsMaterial.hpp"
+// IWYU pragma private; include "UnityEngine/PhysicsMaterial.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__PhysicsMaterial_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -326,7 +326,7 @@ inline void UnityEngine::PhysicsMaterial::_ctor(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name);
 }
-inline void UnityEngine::PhysicsMaterial::Internal_CreateDynamicsMaterial(::UnityEngine::PhysicsMaterial* mat, ::StringW name) {
+inline void UnityEngine::PhysicsMaterial::Internal_CreateDynamicsMaterial(/* [Writable] */ ::UnityEngine::PhysicsMaterial* mat, ::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(),
                                                            { "Internal_CreateDynamicsMaterial", {}, { ::i2c::type_of<::UnityEngine::PhysicsMaterial*>(), ::i2c::type_of<::StringW>() } })));
@@ -376,7 +376,7 @@ inline void UnityEngine::PhysicsMaterial::set_bounceCombine(::UnityEngine::Physi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(), { "set_bounceCombine", {}, { ::i2c::type_of<::UnityEngine::PhysicsMaterialCombine>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::PhysicsMaterial::Internal_CreateDynamicsMaterial_Injected(::UnityEngine::PhysicsMaterial* mat, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name) {
+inline void UnityEngine::PhysicsMaterial::Internal_CreateDynamicsMaterial_Injected(/* [Writable] */ ::UnityEngine::PhysicsMaterial* mat, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\FileInfoResult.hpp"
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/FileInfoResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr FileInfoResult();
 
-  // Ctor Parameters [CppParam { name: "FileSize", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "FileState", ty: "::Unity::IO::LowLevel::Unsafe::FileState", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "FileSize", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "FileState", ty: "::Unity::IO::LowLevel::Unsafe::FileState",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr FileInfoResult(int64_t FileSize, ::Unity::IO::LowLevel::Unsafe::FileState FileState) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

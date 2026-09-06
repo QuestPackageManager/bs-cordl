@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceManager.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IAsyncOperation_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_impl.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
@@ -42,7 +43,7 @@
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneParameters_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType::ResourceManager_DiagnosticEventType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -61,8 +62,8 @@ constexpr ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType
 };
 constexpr ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType::AsyncOperationDestroy{ static_cast<int32_t>(
     0x5) };
-// Ctor Parameters [CppParam { name: "operation", ty: "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "incrementRefCount", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "operation", ty: "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "incrementRefCount", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::ResourceManager_DeferredCallbackRegisterRequest::ResourceManager_DeferredCallbackRegisterRequest(
     ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* operation, bool incrementRefCount) noexcept {
   this->operation = operation;
@@ -1874,6 +1875,7 @@ inline void UnityEngine::ResourceManagement::ResourceManager::OnOperationDestroy
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, o);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>)
 inline T UnityEngine::ResourceManagement::ResourceManager::CreateOperation(::System::Type* actualType, int32_t typeHash, ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* cacheKey,
                                                                            ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* onDestroyAction) {
   static auto* ___internal_method_base = THROW_UNLESS(

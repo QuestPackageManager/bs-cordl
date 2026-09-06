@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\LowLevel\Unsafe\ProfilerRecorderHandle.hpp"
+// IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerRecorderHandle.hpp"
 #include "Unity/Profiling/LowLevel/Unsafe/zzzz__ProfilerRecorderHandle_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Unity/Profiling/LowLevel/Unsafe/zzzz__ProfilerRecorderDescription_def.hpp"
@@ -218,8 +218,8 @@ Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetDescription(::Uni
                                                            { "GetDescription", {}, { ::i2c::type_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>(nullptr, ___internal_method, handle);
 }
-inline void
-Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetAvailable(::System::Collections::Generic::List_1<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>* outRecorderHandleList) {
+inline void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetAvailable(
+    /* [NotNull] */ ::System::Collections::Generic::List_1<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>* outRecorderHandleList) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>(),
                                               { "GetAvailable", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>*>() } })));
@@ -288,7 +288,7 @@ inline void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetDescr
                                                                                              ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, ret);
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::ProfilerRecorderHandle(uint64_t handle) noexcept {
   this->handle = handle;
 }

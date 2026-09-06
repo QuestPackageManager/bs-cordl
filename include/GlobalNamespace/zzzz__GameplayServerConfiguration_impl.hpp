@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayServerConfiguration.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayServerConfiguration.hpp"
 #include "GlobalNamespace/zzzz__DiscoveryPolicy_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerControlSettings_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerMode_impl.hpp"
@@ -194,7 +194,7 @@ inline void GlobalNamespace::GameplayServerConfiguration::_ctor(int32_t maxPlaye
                                                                ::i2c::type_of<::GlobalNamespace::GameplayServerControlSettings>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, maxPlayerCount, discoveryPolicy, invitePolicy, gameplayServerMode, songSelectionMode, gameplayServerControlSettings);
 }
-inline bool GlobalNamespace::GameplayServerConfiguration::Equals(::by_ref<::GlobalNamespace::GameplayServerConfiguration> other) {
+inline bool GlobalNamespace::GameplayServerConfiguration::Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(),
                                                                                          { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
@@ -215,7 +215,8 @@ inline int32_t GlobalNamespace::GameplayServerConfiguration::GetHashCode() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline bool GlobalNamespace::GameplayServerConfiguration::op_Equality(::by_ref<::GlobalNamespace::GameplayServerConfiguration> a, ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b) {
+inline bool GlobalNamespace::GameplayServerConfiguration::op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> a,
+                                                                      /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -223,7 +224,8 @@ inline bool GlobalNamespace::GameplayServerConfiguration::op_Equality(::by_ref<:
           { "op_Equality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool GlobalNamespace::GameplayServerConfiguration::op_Inequality(::by_ref<::GlobalNamespace::GameplayServerConfiguration> a, ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b) {
+inline bool GlobalNamespace::GameplayServerConfiguration::op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> a,
+                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -277,10 +279,11 @@ constexpr GlobalNamespace::GameplayServerConfiguration::operator ::LiteNetLib::U
 constexpr ::LiteNetLib::Utils::INetImmutableSerializable* GlobalNamespace::GameplayServerConfiguration::i___LiteNetLib__Utils__INetImmutableSerializable() {
   return static_cast<::LiteNetLib::Utils::INetImmutableSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "maxPlayerCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "discoveryPolicy", ty: "::GlobalNamespace::DiscoveryPolicy", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "invitePolicy", ty: "::GlobalNamespace::InvitePolicy", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameplayServerMode", ty:
-// "::GlobalNamespace::GameplayServerMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "songSelectionMode", ty: "::GlobalNamespace::SongSelectionMode", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "gameplayServerControlSettings", ty: "::GlobalNamespace::GameplayServerControlSettings", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "maxPlayerCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "discoveryPolicy", ty:
+// "::GlobalNamespace::DiscoveryPolicy", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "invitePolicy", ty: "::GlobalNamespace::InvitePolicy", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "gameplayServerMode", ty: "::GlobalNamespace::GameplayServerMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "songSelectionMode", ty: "::GlobalNamespace::SongSelectionMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameplayServerControlSettings", ty:
+// "::GlobalNamespace::GameplayServerControlSettings", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::GameplayServerConfiguration::GameplayServerConfiguration(int32_t maxPlayerCount, ::GlobalNamespace::DiscoveryPolicy discoveryPolicy,
                                                                                       ::GlobalNamespace::InvitePolicy invitePolicy, ::GlobalNamespace::GameplayServerMode gameplayServerMode,
                                                                                       ::GlobalNamespace::SongSelectionMode songSelectionMode,

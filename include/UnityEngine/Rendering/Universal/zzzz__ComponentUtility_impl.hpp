@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ComponentUtility.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ComponentUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ComponentUtility_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"

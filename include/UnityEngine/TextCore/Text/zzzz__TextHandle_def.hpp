@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextHandle.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,6 +73,7 @@ MARK_REF_T(::UnityEngine::TextCore::Text::TextHandle*);
 MARK_REF_T(::UnityEngine::TextCore::Text::TextHandle___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextHandle*, "UnityEngine.TextCore.Text", "TextHandle");
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextHandle___c*, "UnityEngine.TextCore.Text", "TextHandle/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -158,13 +159,13 @@ protected:
   constexpr TextHandle___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextHandle___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextHandle___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextHandle___c(TextHandle___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextHandle___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextHandle___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextHandle___c(TextHandle___c const&) = delete;
+  TextHandle___c(TextHandle___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17272 };
@@ -175,6 +176,8 @@ public:
 static_assert(sizeof(::UnityEngine::TextCore::Text::TextHandle___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
+// [DebuggerDisplay("{settings.text}")]
 // Dependencies System.IntPtr, System.Object, UnityEngine.Rect, UnityEngine.TextCore.NativeTextGenerationSettings, UnityEngine.TextCore.Text.TextGenerationSettings,
 // UnityEngine.TextCore.Text.TextGenerator, UnityEngine.TextCore.Text.TextInfo, UnityEngine.Vector2
 namespace UnityEngine::TextCore::Text {
@@ -234,6 +237,7 @@ public:
   /// @brief Field nativeSettings, offset 0x10, size 0x60
   __declspec(property(get = __cordl_internal_get_nativeSettings, put = __cordl_internal_set_nativeSettings)) ::UnityEngine::TextCore::NativeTextGenerationSettings nativeSettings;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   __declspec(property(get = get_preferredSize, put = set_preferredSize)) ::UnityEngine::Vector2 preferredSize;
 
   /// @brief Field s_Generators, offset 0xffffffff, size 0x8
@@ -264,6 +268,7 @@ public:
   /// @brief Method AddTextInfoToTemporaryCache, addr 0x6c0e6a0, size 0xa4, virtual false, abstract: false, final false
   inline void AddTextInfoToTemporaryCache(int32_t hashCode);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method ConvertPixelUnitsToTextCoreRelativeUnits, addr 0x6c0f060, size 0x2c, virtual false, abstract: false, final false
   static inline float_t ConvertPixelUnitsToTextCoreRelativeUnits(float_t fontSize, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
@@ -294,6 +299,7 @@ public:
   /// @brief Method GetFirstCharacterIndexOnLine, addr 0x6c0fc44, size 0xd8, virtual false, abstract: false, final false
   inline int32_t GetFirstCharacterIndexOnLine(int32_t currentIndex);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method GetHighlightRectangles, addr 0x6c0f1a4, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rect> GetHighlightRectangles(int32_t cursorIndex, int32_t selectIndex);
 
@@ -303,6 +309,7 @@ public:
   /// @brief Method GetLineHeight, addr 0x6c0f6fc, size 0x80, virtual false, abstract: false, final false
   inline float_t GetLineHeight(int32_t lineNumber);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
   /// @brief Method GetLineHeightDefault, addr 0x6c0eb58, size 0xa0, virtual false, abstract: false, final false
   static inline float_t GetLineHeightDefault(::UnityEngine::TextCore::Text::TextGenerationSettings* settings);
 
@@ -324,6 +331,7 @@ public:
   /// @brief Method InitArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void InitArray(::by_ref<::ArrayW<T>> array, ::System::Func_1<T>* createInstance);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method InitThreadArrays, addr 0x6c0db28, size 0x34c, virtual false, abstract: false, final false
   static inline void InitThreadArrays();
 
@@ -350,6 +358,7 @@ public:
   /// @brief Method NextCodePointIndex, addr 0x6c0f9bc, size 0xd8, virtual false, abstract: false, final false
   inline int32_t NextCodePointIndex(int32_t currentIndex);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method PrepareFontAsset, addr 0x6c0ebf8, size 0x130, virtual false, abstract: false, final false
   inline bool PrepareFontAsset();
 
@@ -386,18 +395,21 @@ public:
   /// @brief Method Substring, addr 0x6c0f87c, size 0x68, virtual false, abstract: false, final false
   inline ::StringW Substring(int32_t startIndex, int32_t length);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method Update, addr 0x6c0e8ec, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* Update();
 
   /// @brief Method UpdateCurrentFrame, addr 0x6c0e744, size 0x88, virtual false, abstract: false, final false
   static inline void UpdateCurrentFrame();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
   /// @brief Method UpdatePreferredSize, addr 0x6c0ed28, size 0x338, virtual false, abstract: false, final false
   inline void UpdatePreferredSize();
 
   /// @brief Method UpdatePreferredValues, addr 0x6c0e860, size 0x8c, virtual false, abstract: false, final false
   inline void UpdatePreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method UpdateWithHash, addr 0x6c0e960, size 0x1f8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* UpdateWithHash(int32_t hashCode);
 
@@ -488,18 +500,22 @@ public:
 
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextInfo*> getStaticF_s_TextInfosCommon();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsCachedPermanent, addr 0x6c0e4dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCachedPermanent();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsCachedTemporary, addr 0x6c0e4ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCachedTemporary();
 
   /// @brief Method get_IsPlaceholder, addr 0x6c0e814, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPlaceholder();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TextInfoNode, addr 0x6c0e4cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextInfo*>* get_TextInfoNode();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method get_characterCount, addr 0x6c0e508, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_characterCount();
 
@@ -509,15 +525,18 @@ public:
   /// @brief Method get_generators, addr 0x6c0dff0, size 0x17c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextGenerator*> get_generators();
 
+  /// [CompilerGenerated]
   /// @brief Method get_preferredSize, addr 0x6c0e4bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_preferredSize();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method get_settings, addr 0x6c0e420, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* get_settings();
 
   /// @brief Method get_settingsArray, addr 0x6c0de74, size 0x17c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextGenerationSettings*> get_settingsArray();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method get_textInfo, addr 0x6c0e550, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfo();
 
@@ -527,6 +546,7 @@ public:
   /// @brief Method get_textInfosCommon, addr 0x6c0e16c, size 0x17c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextInfo*> get_textInfosCommon();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method get_useAdvancedText, addr 0x6c0e4fc, size 0xc, virtual false, abstract: false, final false
   inline bool get_useAdvancedText();
 
@@ -542,15 +562,19 @@ public:
 
   static inline void setStaticF_s_TextInfosCommon(::ArrayW<::UnityEngine::TextCore::Text::TextInfo*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsCachedPermanent, addr 0x6c0e4e4, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCachedPermanent(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsCachedTemporary, addr 0x6c0e4f4, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCachedTemporary(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TextInfoNode, addr 0x6c0e4d4, size 0x8, virtual false, abstract: false, final false
   inline void set_TextInfoNode(::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextInfo*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_preferredSize, addr 0x6c0e4c4, size 0x8, virtual false, abstract: false, final false
   inline void set_preferredSize(::UnityEngine::Vector2 value);
 
@@ -560,20 +584,23 @@ protected:
   constexpr TextHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextHandle(TextHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextHandle(TextHandle const&) = delete;
+  TextHandle(TextHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17273 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field nativeSettings, offset: 0x10, size: 0x60, def value: None
   ::UnityEngine::TextCore::NativeTextGenerationSettings ___nativeSettings;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <preferredSize>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____preferredSize_k__BackingField;
 
@@ -589,18 +616,26 @@ public:
   /// @brief Field m_IsEllided, offset: 0x8d, size: 0x1, def value: None
   bool ___m_IsEllided;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Field textGenerationInfo, offset: 0x90, size: 0x8, def value: None
   ::System::IntPtr ___textGenerationInfo;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <TextInfoNode>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextInfo*>* ____TextInfoNode_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsCachedPermanent>k__BackingField, offset: 0xa0, size: 0x1, def value: None
   bool ____IsCachedPermanent_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsCachedTemporary>k__BackingField, offset: 0xa1, size: 0x1, def value: None
   bool ____IsCachedTemporary_k__BackingField;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field m_PreviousGenerationSettingsHash, offset: 0xa4, size: 0x4, def value: None
   int32_t ___m_PreviousGenerationSettingsHash;
 

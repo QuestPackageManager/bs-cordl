@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutDataAccess.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutDataAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,8 @@ struct LayoutDataAccess;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutDataAccess);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutDataAccess, "UnityEngine.UIElements.Layout", "LayoutDataAccess");
+// [RequiredByNativeCode]
+// [IsReadOnly]
 // Dependencies UnityEngine.UIElements.Layout.LayoutDataStore
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -78,10 +80,14 @@ public:
   inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutStyleData> GetStyleData(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
   /// @brief Method GetTypedConfigDataRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::by_ref<T> GetTypedConfigDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutConfigDataType type);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::by_ref<T> GetTypedConfigDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutConfigDataType type);
 
   /// @brief Method GetTypedNodeDataRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::by_ref<T> GetTypedNodeDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutNodeDataType type);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::by_ref<T> GetTypedNodeDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutNodeDataType type);
 
   /// @brief Method SetMeasureFunction, addr 0x6d02fcc, size 0x80, virtual false, abstract: false, final false
   inline void SetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* value);
@@ -99,8 +105,9 @@ public:
   // @brief default ctor
   constexpr LayoutDataAccess();
 
-  // Ctor Parameters [CppParam { name: "m_Manager", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Nodes", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore", modifiers:
-  // "", def_value: None }, CppParam { name: "m_Configs", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Manager", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Nodes", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutDataStore", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Configs", ty: "::UnityEngine::UIElements::Layout::LayoutDataStore",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr LayoutDataAccess(int32_t m_Manager, ::UnityEngine::UIElements::Layout::LayoutDataStore m_Nodes, ::UnityEngine::UIElements::Layout::LayoutDataStore m_Configs) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeHashSet_1.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeHashSet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__HashMapHelper_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -26,13 +27,19 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey> struct HashMapHelper_1;
+template <typename TKey>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
+struct HashMapHelper_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeHashSet_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeHashSet_1_Enumerator;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeHashSet_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeHashSet_1_ReadOnly;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
@@ -41,20 +48,28 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeHashSet_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeHashSet_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeHashSet_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeHashSet_1_Enumerator;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeHashSet_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeHashSet_1_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1);
@@ -63,10 +78,11 @@ MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly)
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1, "Unity.Collections.LowLevel.Unsafe", "UnsafeHashSet`1");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_Enumerator, "Unity.Collections.LowLevel.Unsafe", "UnsafeHashSet`1/Enumerator");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_ReadOnly, "Unity.Collections.LowLevel.Unsafe", "UnsafeHashSet`1/ReadOnly");
-// Dependencies Unity.Collections.LowLevel.Unsafe.HashMapHelper`1::Enumerator<TKey>
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1::Enumerator<TKey>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeHashSet`1/Enumerator<T>
 struct CORDL_TYPE UnsafeHashSet_1_Enumerator {
@@ -113,7 +129,7 @@ public:
   // @brief default ctor
   constexpr UnsafeHashSet_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<T>", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeHashSet_1_Enumerator(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1_Enumerator<T> m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -129,10 +145,12 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections::LowLevel::Unsafe
-// Dependencies Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeHashSet`1/ReadOnly<T>
 struct CORDL_TYPE UnsafeHashSet_1_ReadOnly {
@@ -152,9 +170,11 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// [IsReadOnly]
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Contains(T item);
 
+  /// [IsReadOnly]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1_Enumerator<T> GetEnumerator();
 
@@ -164,21 +184,26 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [IsReadOnly]
   /// @brief Method ToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T>> data);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
@@ -192,7 +217,7 @@ public:
   // @brief default ctor
   constexpr UnsafeHashSet_1_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T>", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeHashSet_1_ReadOnly(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -208,10 +233,13 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections::LowLevel::Unsafe
-// Dependencies Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
+// [DebuggerTypeProxy(typeof(Unity.Collections.LowLevel.Unsafe.UnsafeHashSetDebuggerTypeProxy`1<T>))]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeHashSet`1<T>
 struct CORDL_TYPE UnsafeHashSet_1 {
@@ -280,15 +308,19 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
@@ -311,7 +343,7 @@ public:
   // @brief default ctor
   constexpr UnsafeHashSet_1();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T>", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeHashSet_1(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<T> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

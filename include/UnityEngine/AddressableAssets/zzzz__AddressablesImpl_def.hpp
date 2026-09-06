@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\AddressablesImpl.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/AddressableAssets/zzzz__Addressables_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneReleaseMode_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneParameters_def.hpp"
@@ -456,13 +457,13 @@ protected:
   constexpr AddressablesImpl_LoadResourceLocationKeyOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeyOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeyOp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl_LoadResourceLocationKeyOp(AddressablesImpl_LoadResourceLocationKeyOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeyOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeyOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl_LoadResourceLocationKeyOp(AddressablesImpl_LoadResourceLocationKeyOp const&) = delete;
+  AddressablesImpl_LoadResourceLocationKeyOp(AddressablesImpl_LoadResourceLocationKeyOpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19783 };
@@ -573,13 +574,13 @@ protected:
   constexpr AddressablesImpl_LoadResourceLocationKeysOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeysOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeysOp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl_LoadResourceLocationKeysOp(AddressablesImpl_LoadResourceLocationKeysOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeysOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl_LoadResourceLocationKeysOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl_LoadResourceLocationKeysOp(AddressablesImpl_LoadResourceLocationKeysOp const&) = delete;
+  AddressablesImpl_LoadResourceLocationKeysOp(AddressablesImpl_LoadResourceLocationKeysOpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19784 };
@@ -615,6 +616,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl_LoadRe
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl_LoadResourceLocationKeysOp) == 0xc0, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -682,13 +684,13 @@ protected:
   constexpr AddressablesImpl___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c(AddressablesImpl___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c(AddressablesImpl___c const&) = delete;
+  AddressablesImpl___c(AddressablesImpl___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19785 };
@@ -699,6 +701,7 @@ public:
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // cpp template
@@ -736,13 +739,13 @@ protected:
   constexpr AddressablesImpl___c__115_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__115_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__115_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__115_1(AddressablesImpl___c__115_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__115_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__115_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__115_1(AddressablesImpl___c__115_1 const&) = delete;
+  AddressablesImpl___c__115_1(AddressablesImpl___c__115_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19786 };
@@ -751,6 +754,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -791,13 +795,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass100_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass100_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass100_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass100_0(AddressablesImpl___c__DisplayClass100_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass100_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass100_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass100_0(AddressablesImpl___c__DisplayClass100_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass100_0(AddressablesImpl___c__DisplayClass100_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19787 };
@@ -818,6 +822,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass100_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -858,13 +863,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass103_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass103_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass103_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass103_0(AddressablesImpl___c__DisplayClass103_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass103_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass103_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass103_0(AddressablesImpl___c__DisplayClass103_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass103_0(AddressablesImpl___c__DisplayClass103_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19788 };
@@ -885,6 +890,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass103_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -926,13 +932,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass106_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass106_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass106_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass106_0(AddressablesImpl___c__DisplayClass106_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass106_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass106_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass106_0(AddressablesImpl___c__DisplayClass106_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass106_0(AddressablesImpl___c__DisplayClass106_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19789 };
@@ -953,6 +959,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass106_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -995,13 +1002,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass110_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass110_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass110_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass110_0(AddressablesImpl___c__DisplayClass110_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass110_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass110_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass110_0(AddressablesImpl___c__DisplayClass110_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass110_0(AddressablesImpl___c__DisplayClass110_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19790 };
@@ -1022,6 +1029,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass110_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.AddressableAssets.Addressables::MergeMode
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1072,13 +1080,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass112_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass112_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass112_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass112_0(AddressablesImpl___c__DisplayClass112_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass112_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass112_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass112_0(AddressablesImpl___c__DisplayClass112_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass112_0(AddressablesImpl___c__DisplayClass112_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19791 };
@@ -1104,6 +1112,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass112_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1152,13 +1161,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass116_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass116_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass116_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass116_0(AddressablesImpl___c__DisplayClass116_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass116_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass116_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass116_0(AddressablesImpl___c__DisplayClass116_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass116_0(AddressablesImpl___c__DisplayClass116_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19792 };
@@ -1184,6 +1193,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass116_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1233,13 +1243,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass117_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass117_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass117_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass117_0(AddressablesImpl___c__DisplayClass117_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass117_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass117_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass117_0(AddressablesImpl___c__DisplayClass117_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass117_0(AddressablesImpl___c__DisplayClass117_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19793 };
@@ -1265,6 +1275,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass117_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1313,13 +1324,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass118_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass118_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass118_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass118_0(AddressablesImpl___c__DisplayClass118_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass118_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass118_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass118_0(AddressablesImpl___c__DisplayClass118_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass118_0(AddressablesImpl___c__DisplayClass118_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19794 };
@@ -1345,6 +1356,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass118_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1395,13 +1407,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass123_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass123_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass123_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass123_0(AddressablesImpl___c__DisplayClass123_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass123_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass123_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass123_0(AddressablesImpl___c__DisplayClass123_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass123_0(AddressablesImpl___c__DisplayClass123_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19795 };
@@ -1427,6 +1439,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass123_0) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1477,13 +1490,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass125_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass125_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass125_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass125_0(AddressablesImpl___c__DisplayClass125_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass125_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass125_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass125_0(AddressablesImpl___c__DisplayClass125_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass125_0(AddressablesImpl___c__DisplayClass125_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19796 };
@@ -1509,6 +1522,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass125_0) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.SceneReleaseMode, UnityEngine.SceneManagement.LoadSceneParameters
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1585,13 +1599,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass128_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass128_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass128_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass128_0(AddressablesImpl___c__DisplayClass128_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass128_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass128_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass128_0(AddressablesImpl___c__DisplayClass128_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass128_0(AddressablesImpl___c__DisplayClass128_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19797 };
@@ -1632,6 +1646,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass128_0) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.ResourceProviders.SceneReleaseMode, UnityEngine.SceneManagement.LoadSceneParameters
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1708,13 +1723,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass129_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass129_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass129_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass129_0(AddressablesImpl___c__DisplayClass129_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass129_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass129_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass129_0(AddressablesImpl___c__DisplayClass129_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass129_0(AddressablesImpl___c__DisplayClass129_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19798 };
@@ -1755,6 +1770,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass129_0) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.SceneManagement.UnloadSceneOptions
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1804,13 +1820,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass135_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass135_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass135_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass135_0(AddressablesImpl___c__DisplayClass135_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass135_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass135_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass135_0(AddressablesImpl___c__DisplayClass135_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass135_0(AddressablesImpl___c__DisplayClass135_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19799 };
@@ -1836,6 +1852,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass135_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.SceneManagement.UnloadSceneOptions
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1885,13 +1902,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass136_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass136_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass136_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass136_0(AddressablesImpl___c__DisplayClass136_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass136_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass136_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass136_0(AddressablesImpl___c__DisplayClass136_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass136_0(AddressablesImpl___c__DisplayClass136_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19800 };
@@ -1917,6 +1934,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass136_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -1957,13 +1975,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass140_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass140_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass140_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass140_0(AddressablesImpl___c__DisplayClass140_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass140_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass140_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass140_0(AddressablesImpl___c__DisplayClass140_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass140_0(AddressablesImpl___c__DisplayClass140_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19801 };
@@ -1984,6 +2002,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass140_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -2033,13 +2052,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass144_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass144_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass144_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass144_0(AddressablesImpl___c__DisplayClass144_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass144_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass144_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass144_0(AddressablesImpl___c__DisplayClass144_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass144_0(AddressablesImpl___c__DisplayClass144_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19802 };
@@ -2065,6 +2084,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass144_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -2121,13 +2141,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass149_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass149_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass149_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass149_0(AddressablesImpl___c__DisplayClass149_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass149_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass149_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass149_0(AddressablesImpl___c__DisplayClass149_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass149_0(AddressablesImpl___c__DisplayClass149_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19803 };
@@ -2154,6 +2174,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass149_0) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -2202,13 +2223,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass150_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass150_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass150_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass150_0(AddressablesImpl___c__DisplayClass150_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass150_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass150_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass150_0(AddressablesImpl___c__DisplayClass150_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass150_0(AddressablesImpl___c__DisplayClass150_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19804 };
@@ -2234,6 +2255,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass150_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -2264,13 +2286,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass61_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass61_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass61_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass61_0(AddressablesImpl___c__DisplayClass61_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass61_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass61_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass61_0(AddressablesImpl___c__DisplayClass61_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass61_0(AddressablesImpl___c__DisplayClass61_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19805 };
@@ -2286,6 +2308,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass61_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -2344,13 +2367,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass72_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass72_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass72_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass72_0(AddressablesImpl___c__DisplayClass72_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass72_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass72_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass72_0(AddressablesImpl___c__DisplayClass72_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass72_0(AddressablesImpl___c__DisplayClass72_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19806 };
@@ -2381,6 +2404,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass72_0) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // cpp template
@@ -2422,13 +2446,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass78_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass78_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass78_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass78_0_1(AddressablesImpl___c__DisplayClass78_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass78_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass78_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass78_0_1(AddressablesImpl___c__DisplayClass78_0_1 const&) = delete;
+  AddressablesImpl___c__DisplayClass78_0_1(AddressablesImpl___c__DisplayClass78_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19807 };
@@ -2443,6 +2467,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // cpp template
@@ -2484,13 +2509,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass79_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass79_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass79_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass79_0_1(AddressablesImpl___c__DisplayClass79_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass79_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass79_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass79_0_1(AddressablesImpl___c__DisplayClass79_0_1 const&) = delete;
+  AddressablesImpl___c__DisplayClass79_0_1(AddressablesImpl___c__DisplayClass79_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19808 };
@@ -2505,6 +2530,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.AddressableAssets.Addressables::MergeMode
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -2563,13 +2589,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass83_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass83_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass83_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass83_0(AddressablesImpl___c__DisplayClass83_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass83_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass83_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass83_0(AddressablesImpl___c__DisplayClass83_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass83_0(AddressablesImpl___c__DisplayClass83_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19809 };
@@ -2600,6 +2626,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass83_0) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -2649,13 +2676,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass85_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass85_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass85_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass85_0(AddressablesImpl___c__DisplayClass85_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass85_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass85_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass85_0(AddressablesImpl___c__DisplayClass85_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass85_0(AddressablesImpl___c__DisplayClass85_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19810 };
@@ -2681,6 +2708,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass85_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // cpp template
@@ -2742,13 +2770,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass88_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass88_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass88_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass88_0_1(AddressablesImpl___c__DisplayClass88_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass88_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass88_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass88_0_1(AddressablesImpl___c__DisplayClass88_0_1 const&) = delete;
+  AddressablesImpl___c__DisplayClass88_0_1(AddressablesImpl___c__DisplayClass88_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19811 };
@@ -2769,6 +2797,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.AddressableAssets.Addressables::MergeMode
 namespace UnityEngine::AddressableAssets {
 // cpp template
@@ -2838,13 +2867,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass89_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass89_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass89_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass89_0_1(AddressablesImpl___c__DisplayClass89_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass89_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass89_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass89_0_1(AddressablesImpl___c__DisplayClass89_0_1 const&) = delete;
+  AddressablesImpl___c__DisplayClass89_0_1(AddressablesImpl___c__DisplayClass89_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19812 };
@@ -2868,6 +2897,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // cpp template
@@ -2928,13 +2958,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass91_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass91_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass91_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass91_0_1(AddressablesImpl___c__DisplayClass91_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass91_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass91_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass91_0_1(AddressablesImpl___c__DisplayClass91_0_1 const&) = delete;
+  AddressablesImpl___c__DisplayClass91_0_1(AddressablesImpl___c__DisplayClass91_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19813 };
@@ -2955,6 +2985,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::AddressableAssets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
@@ -2995,13 +3026,13 @@ protected:
   constexpr AddressablesImpl___c__DisplayClass99_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass99_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass99_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl___c__DisplayClass99_0(AddressablesImpl___c__DisplayClass99_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass99_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl___c__DisplayClass99_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl___c__DisplayClass99_0(AddressablesImpl___c__DisplayClass99_0 const&) = delete;
+  AddressablesImpl___c__DisplayClass99_0(AddressablesImpl___c__DisplayClass99_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19814 };
@@ -3022,7 +3053,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::AddressablesImpl___c__D
 static_assert(sizeof(::UnityEngine::AddressableAssets::AddressablesImpl___c__DisplayClass99_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
-// Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
+// Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>, UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: UnityEngine.AddressableAssets.AddressablesImpl
@@ -3247,15 +3278,20 @@ public:
   ComputeCatalogSizeWithChain(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLoc);
 
   /// @brief Method CreateCatalogLocationWithHashDependencies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* CreateCatalogLocationWithHashDependencies(::StringW catalogLocation);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
+  inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* CreateCatalogLocationWithHashDependencies(::StringW catalogLocation);
 
   /// @brief Method CreateCatalogLocationWithHashDependencies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
   inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
   CreateCatalogLocationWithHashDependencies(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLocation);
 
   /// @brief Method CreateCatalogLocationWithHashDependencies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* CreateCatalogLocationWithHashDependencies(::StringW catalogPath, ::StringW hashFilePath);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
+  inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* CreateCatalogLocationWithHashDependencies(::StringW catalogPath, ::StringW hashFilePath);
 
   /// @brief Method CreateUnloadSceneWithChain, addr 0x645d15c, size 0x17c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
@@ -3488,7 +3524,7 @@ public:
   inline void LogError(::StringW msg);
 
   /// @brief Method LogErrorFormat, addr 0x6450064, size 0x6c, virtual false, abstract: false, final false
-  inline void LogErrorFormat(::StringW format, ::ArrayW<::System::Object*> args);
+  inline void LogErrorFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method LogException, addr 0x6450568, size 0x4, virtual false, abstract: false, final false
   inline void LogException(::System::Exception* ex);
@@ -3497,13 +3533,13 @@ public:
   inline void LogException(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, ::System::Exception* ex);
 
   /// @brief Method LogFormat, addr 0x64500d0, size 0x6c, virtual false, abstract: false, final false
-  inline void LogFormat(::StringW format, ::ArrayW<::System::Object*> args);
+  inline void LogFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method LogWarning, addr 0x644fdbc, size 0x5c, virtual false, abstract: false, final false
   inline void LogWarning(::StringW msg);
 
   /// @brief Method LogWarningFormat, addr 0x644fff8, size 0x6c, virtual false, abstract: false, final false
-  inline void LogWarningFormat(::StringW format, ::ArrayW<::System::Object*> args);
+  inline void LogWarningFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   static inline ::UnityEngine::AddressableAssets::AddressablesImpl* New_ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc);
 
@@ -3519,6 +3555,7 @@ public:
   /// @brief Method OnSceneUnloaded, addr 0x6457a90, size 0x390, virtual false, abstract: false, final false
   inline void OnSceneUnloaded(::UnityEngine::SceneManagement::Scene scene);
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method QueueEditorUpdateIfNeeded, addr 0x6459610, size 0x4, virtual false, abstract: false, final false
   inline void QueueEditorUpdateIfNeeded();
 
@@ -3574,10 +3611,12 @@ public:
   /// @brief Method WrapAsDownloadLocations, addr 0x645b5d0, size 0xf8, virtual false, abstract: false, final false
   static inline void WrapAsDownloadLocations(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetRemoteCatalogHeaderSize>b__102_0, addr 0x645f068, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t>
   _GetRemoteCatalogHeaderSize_b__102_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::Networking::UnityWebRequest*> getOp);
 
+  /// [CompilerGenerated]
   /// @brief Method <TrackHandle>b__73_0, addr 0x645efe0, size 0x88, virtual false, abstract: false, final false
   inline void _TrackHandle_b__73_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneHandle);
 
@@ -3752,13 +3791,13 @@ protected:
   constexpr AddressablesImpl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesImpl(AddressablesImpl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesImpl(AddressablesImpl const&) = delete;
+  AddressablesImpl(AddressablesImplconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19815 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\HapticCapabilities.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/HapticCapabilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,21 +38,33 @@ public:
   /// @brief Method .ctor, addr 0x658c33c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, bool supportsImpulse, bool supportsBuffer, uint32_t frequencyHz, uint32_t maxBufferSize, uint32_t optimalBufferSize);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_frequencyHz, addr 0x658c380, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frequencyHz();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_maxBufferSize, addr 0x658c388, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxBufferSize();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_numChannels, addr 0x658c368, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_numChannels();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_optimalBufferSize, addr 0x658c390, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_optimalBufferSize();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_supportsBuffer, addr 0x658c378, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsBuffer();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_supportsImpulse, addr 0x658c370, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsImpulse();
 
@@ -60,10 +72,10 @@ public:
   // @brief default ctor
   constexpr HapticCapabilities();
 
-  // Ctor Parameters [CppParam { name: "_numChannels_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_supportsImpulse_k__BackingField", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "_supportsBuffer_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_frequencyHz_k__BackingField", ty: "uint32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "_maxBufferSize_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_optimalBufferSize_k__BackingField", ty: "uint32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_numChannels_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_supportsImpulse_k__BackingField", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_supportsBuffer_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_frequencyHz_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_maxBufferSize_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_optimalBufferSize_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HapticCapabilities(uint32_t _numChannels_k__BackingField, bool _supportsImpulse_k__BackingField, bool _supportsBuffer_k__BackingField, uint32_t _frequencyHz_k__BackingField,
                                uint32_t _maxBufferSize_k__BackingField, uint32_t _optimalBufferSize_k__BackingField) noexcept;
 
@@ -73,21 +85,27 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
+  /// [CompilerGenerated]
   /// @brief Field <numChannels>k__BackingField, offset: 0x0, size: 0x4, def value: None
   uint32_t _numChannels_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <supportsImpulse>k__BackingField, offset: 0x4, size: 0x1, def value: None
   bool _supportsImpulse_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <supportsBuffer>k__BackingField, offset: 0x5, size: 0x1, def value: None
   bool _supportsBuffer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <frequencyHz>k__BackingField, offset: 0x8, size: 0x4, def value: None
   uint32_t _frequencyHz_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <maxBufferSize>k__BackingField, offset: 0xc, size: 0x4, def value: None
   uint32_t _maxBufferSize_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <optimalBufferSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   uint32_t _optimalBufferSize_k__BackingField;
 

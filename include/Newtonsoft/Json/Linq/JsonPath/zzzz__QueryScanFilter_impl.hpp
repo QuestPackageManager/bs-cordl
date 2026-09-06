@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\QueryScanFilter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/QueryScanFilter.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryScanFilter_def.hpp"
@@ -361,6 +361,7 @@ inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JsonPath::Que
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::QueryScanFilter__ExecuteFilter_d__2*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Newtonsoft::Json::Linq::JsonPath::QueryScanFilter__ExecuteFilter_d__2* Newtonsoft::Json::Linq::JsonPath::QueryScanFilter__ExecuteFilter_d__2::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JsonPath::QueryScanFilter__ExecuteFilter_d__2*>(__1__state));
 }
@@ -456,7 +457,7 @@ inline void Newtonsoft::Json::Linq::JsonPath::QueryScanFilter::_ctor(::Newtonsof
 }
 inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
 Newtonsoft::Json::Linq::JsonPath::QueryScanFilter::ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
-                                                                 ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+                                                                 /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::QueryScanFilter*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(this, ___internal_method, root, current, settings);

@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\InternalUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/InternalUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(InternalUtility)
@@ -43,6 +45,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::InternalUtility*);
 MARK_REF_T(::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::InternalUtility*, "UnityEngine.ProBuilder", "InternalUtility");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0*, "UnityEngine.ProBuilder", "InternalUtility/<>c__DisplayClass6_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -73,13 +76,13 @@ protected:
   constexpr InternalUtility___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternalUtility___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalUtility___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalUtility___c__DisplayClass6_0(InternalUtility___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternalUtility___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalUtility___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalUtility___c__DisplayClass6_0(InternalUtility___c__DisplayClass6_0 const&) = delete;
+  InternalUtility___c__DisplayClass6_0(InternalUtility___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16741 };
@@ -95,7 +98,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::InternalUtility___c__DisplayCl
 static_assert(sizeof(::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.IConvertible, System.Object, UnityEngine.Component
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: UnityEngine.ProBuilder.InternalUtility
@@ -107,27 +111,41 @@ public:
   /// @brief Method ControlKeyString, addr 0x66c27b4, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW ControlKeyString(char16_t character);
 
+  /// [Extension]
   /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T DemandComponent(::UnityEngine::Component* component);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  static inline T DemandComponent(::UnityEngine::Component* component);
 
+  /// [Extension]
   /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T DemandComponent(::UnityEngine::GameObject* gameObject);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  static inline T DemandComponent(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method EmptyGameObjectWithTransform, addr 0x66c25b4, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> EmptyGameObjectWithTransform(::UnityEngine::Transform* t);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T> GetComponents(::UnityEngine::GameObject* go);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  static inline ::ArrayW<T> GetComponents(::UnityEngine::GameObject* go);
 
+  /// [Extension]
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  static inline ::ArrayW<T> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms);
 
   /// @brief Method MeshGameObjectWithTransform, addr 0x66c26a0, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform* t, ::UnityEngine::Mesh* mesh, ::UnityEngine::Material* mat,
                                                                                 bool inheritParent);
 
+  /// [Extension]
   /// @brief Method NextEnumValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T NextEnumValue(T current);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+  static inline T NextEnumValue(T current);
 
   /// @brief Method TryParseColor, addr 0x66c28d8, size 0x28c, virtual false, abstract: false, final false
   static inline bool TryParseColor(::StringW value, ::by_ref<::UnityEngine::Color> col);
@@ -138,13 +156,13 @@ protected:
   constexpr InternalUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternalUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalUtility(InternalUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternalUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalUtility(InternalUtility const&) = delete;
+  InternalUtility(InternalUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16742 };

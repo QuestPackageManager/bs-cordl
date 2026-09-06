@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\SafeHandle.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/SafeHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,24 +46,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Close, addr 0x5b6c6f0, size 0x10, virtual false, abstract: false, final false
   inline void Close();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method DangerousAddRef, addr 0x5b6c0a0, size 0xbc, virtual false, abstract: false, final false
   inline void DangerousAddRef(::by_ref<bool> success);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method DangerousGetHandle, addr 0x5b6c6dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr DangerousGetHandle();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method DangerousRelease, addr 0x5b6c200, size 0x8, virtual false, abstract: false, final false
   inline void DangerousRelease();
 
   /// @brief Method DangerousReleaseInternal, addr 0x5b6c860, size 0x154, virtual false, abstract: false, final false
   inline void DangerousReleaseInternal(bool dispose);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Dispose, addr 0x5b6c700, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Dispose, addr 0x5b6c710, size 0x1c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
@@ -76,14 +82,18 @@ public:
   /// @brief Method InternalFinalize, addr 0x5b6c7d0, size 0x14, virtual false, abstract: false, final false
   inline void InternalFinalize();
 
+  /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   static inline ::System::Runtime::InteropServices::SafeHandle* New_ctor(::System::IntPtr invalidHandleValue, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
+  /// @brief Method ReleaseHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ReleaseHandle();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method SetHandle, addr 0x5b6c6d4, size 0x8, virtual false, abstract: false, final false
   inline void SetHandle(::System::IntPtr handle);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method SetHandleAsInvalid, addr 0x5b6c7e4, size 0x7c, virtual false, abstract: false, final false
   inline void SetHandleAsInvalid();
 
@@ -111,13 +121,16 @@ public:
 
   constexpr void __cordl_internal_set_handle(::System::IntPtr value);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method .ctor, addr 0x5b6c5ec, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr invalidHandleValue, bool ownsHandle);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_IsClosed, addr 0x5b6c6e4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsClosed();
 
-  /// @brief Method get_IsInvalid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
+  /// @brief Method get_IsInvalid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsInvalid();
 
   /// @brief Convert to "::System::IDisposable"
@@ -129,13 +142,13 @@ protected:
   constexpr SafeHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeHandle(SafeHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeHandle(SafeHandle const&) = delete;
+  SafeHandle(SafeHandleconst&) = delete;
 
   /// @brief Field RefCount_Mask offset 0xffffffff size 0x4
   static constexpr int32_t RefCount_Mask{ static_cast<int32_t>(0x7ffffffc) };

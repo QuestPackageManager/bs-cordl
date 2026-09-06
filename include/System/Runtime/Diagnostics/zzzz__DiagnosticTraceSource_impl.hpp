@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\DiagnosticTraceSource.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/DiagnosticTraceSource.hpp"
 #include "System/Diagnostics/zzzz__TraceSource_impl.hpp"
 #include "System/Runtime/Diagnostics/zzzz__DiagnosticTraceSource_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Diagnostics::DiagnosticTraceSource._ctor

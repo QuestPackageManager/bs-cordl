@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IDiffieHellmanKeyPair.hpp"
+// IWYU pragma private; include "GlobalNamespace/IDiffieHellmanKeyPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,18 +28,18 @@ public:
   // Declarations
   __declspec(property(get = get_publicKey)) ::ArrayW<uint8_t> publicKey;
 
-  /// @brief Method GetPreMasterSecret, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetPreMasterSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> GetPreMasterSecret(::ArrayW<uint8_t> clientPublicKey);
 
-  /// @brief Method GetPreMasterSecretAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetPreMasterSecretAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t> clientPublicKey);
 
-  /// @brief Method get_publicKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_publicKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> get_publicKey();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDiffieHellmanKeyPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDiffieHellmanKeyPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDiffieHellmanKeyPair(IDiffieHellmanKeyPair const&) = delete;
+  IDiffieHellmanKeyPair(IDiffieHellmanKeyPairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18138 };

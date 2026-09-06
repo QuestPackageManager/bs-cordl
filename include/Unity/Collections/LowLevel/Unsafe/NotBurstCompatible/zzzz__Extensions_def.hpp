@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NotBurstCompatible\Extensions.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NotBurstCompatible/Extensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -15,7 +16,9 @@ namespace Unity::Collections::LowLevel::Unsafe {
 struct UnsafeAppendBuffer;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeParallelHashSet_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeParallelHashSet_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe::NotBurstCompatible {
@@ -24,22 +27,32 @@ class Extensions;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*, "Unity.Collections.LowLevel.Unsafe.NotBurstCompatible", "Extensions");
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.IEquatable`1<T>, System.Object
 namespace Unity::Collections::LowLevel::Unsafe::NotBurstCompatible {
 // Is value type: false
 // CS Name: Unity.Collections.LowLevel.Unsafe.NotBurstCompatible.Extensions
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
+  /// [ExcludeFromBurstCompatTesting("Takes managed string")]
   /// @brief Method AddNBC, addr 0x64cfe58, size 0x90, virtual false, abstract: false, final false
   static inline void AddNBC(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer, ::StringW value);
 
+  /// [Extension]
+  /// [ExcludeFromBurstCompatTesting("Managed string out argument")]
   /// @brief Method ReadNextNBC, addr 0x64cff9c, size 0xe4, virtual false, abstract: false, final false
   static inline void ReadNextNBC(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader> reader, ::by_ref<::StringW> value);
 
+  /// [Extension]
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T> ToArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> set);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::ArrayW<T> ToArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> set);
 
+  /// [Extension]
+  /// [ExcludeFromBurstCompatTesting("Returns managed array")]
   /// @brief Method ToBytesNBC, addr 0x64cfee8, size 0xb4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ToBytesNBC(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer);
 
@@ -49,13 +62,13 @@ protected:
   constexpr Extensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extensions(Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Extensions(Extensions const&) = delete;
+  Extensions(Extensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15830 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\ArrayList.hpp"
+// IWYU pragma private; include "System/Collections/ArrayList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -159,13 +159,13 @@ protected:
   constexpr ArrayList_ArrayListEnumeratorSimple();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListEnumeratorSimple", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListEnumeratorSimple", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayList_ArrayListEnumeratorSimple(ArrayList_ArrayListEnumeratorSimple&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListEnumeratorSimple", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListEnumeratorSimple", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayList_ArrayListEnumeratorSimple(ArrayList_ArrayListEnumeratorSimple const&) = delete;
+  ArrayList_ArrayListEnumeratorSimple(ArrayList_ArrayListEnumeratorSimpleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3723 };
@@ -214,13 +214,13 @@ protected:
   constexpr ArrayList_ArrayListDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListDebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayList_ArrayListDebugView(ArrayList_ArrayListDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ArrayListDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayList_ArrayListDebugView(ArrayList_ArrayListDebugView const&) = delete;
+  ArrayList_ArrayListDebugView(ArrayList_ArrayListDebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3724 };
@@ -231,6 +231,9 @@ public:
 static_assert(sizeof(::System::Collections::ArrayList_ArrayListDebugView) == 0x10, "Size mismatch!");
 
 } // namespace System::Collections
+// [DebuggerDisplay("Count = {Count}")]
+// [DefaultMember("Item")]
+// [DebuggerTypeProxy(typeof(System.Collections.ArrayList::ArrayListDebugView))]
 // Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
@@ -437,13 +440,13 @@ protected:
   constexpr ArrayList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayList(ArrayList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayList(ArrayList const&) = delete;
+  ArrayList(ArrayListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3725 };

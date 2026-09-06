@@ -1,5 +1,8 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\ReflectedPropertyBagProvider.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/ReflectedPropertyBagProvider.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_impl.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__ISet_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/Internal/zzzz__ReflectedPropertyBagProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -457,6 +460,7 @@ inline ::System::Collections::IEnumerator* Unity::Properties::Internal::Reflecte
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*
 Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*>(__1__state));
@@ -718,20 +722,25 @@ inline void Unity::Properties::Internal::ReflectedPropertyBagProvider::CreatePro
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TContainer>(), ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, member, propertyBag);
 }
-template <typename TList, typename TElement> inline ::Unity::Properties::IPropertyBag_1<TList>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateIndexedCollectionPropertyBag() {
+template <typename TList, typename TElement>
+  requires(::cordl_internals::type_constraint<TList, ::System::Collections::Generic::IList_1<TElement>*>)
+inline ::Unity::Properties::IPropertyBag_1<TList>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateIndexedCollectionPropertyBag() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
                                                            { "CreateIndexedCollectionPropertyBag", { ::i2c::class_of<TList>(), ::i2c::class_of<TElement>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TList>(), ::i2c::class_of<TElement>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<TList>*>(this, ___internal_method);
 }
-template <typename TSet, typename TValue> inline ::Unity::Properties::IPropertyBag_1<TSet>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateSetPropertyBag() {
+template <typename TSet, typename TValue>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TValue>*>)
+inline ::Unity::Properties::IPropertyBag_1<TSet>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateSetPropertyBag() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),
                                                                                               { "CreateSetPropertyBag", { ::i2c::class_of<TSet>(), ::i2c::class_of<TValue>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TSet>(), ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::IPropertyBag_1<TSet>*>(this, ___internal_method);
 }
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline ::Unity::Properties::IPropertyBag_1<TDictionary>* Unity::Properties::Internal::ReflectedPropertyBagProvider::CreateKeyValueCollectionPropertyBag() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ReflectedPropertyBagProvider*>(),

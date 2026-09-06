@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IGamePause.hpp"
+// IWYU pragma private; include "GlobalNamespace/IGamePause.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,39 +23,45 @@ public:
   // Declarations
   __declspec(property(get = get_isPaused)) bool isPaused;
 
-  /// @brief Method Pause, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Resume, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resume();
 
-  /// @brief Method WillResume, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WillResume, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WillResume();
 
-  /// @brief Method add_didPauseEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_didPauseEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_didResumeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_willResumeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method get_isPaused, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isPaused, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isPaused();
 
-  /// @brief Method remove_didPauseEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_didPauseEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_didResumeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_willResumeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_willResumeEvent(::System::Action* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IGamePause", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IGamePause", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGamePause(IGamePause const&) = delete;
+  IGamePause(IGamePauseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6024 };

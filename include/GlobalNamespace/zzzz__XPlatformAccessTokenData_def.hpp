@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\XPlatformAccessTokenData.hpp"
+// IWYU pragma private; include "GlobalNamespace/XPlatformAccessTokenData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ struct XPlatformAccessTokenData;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::XPlatformAccessTokenData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::XPlatformAccessTokenData, "", "XPlatformAccessTokenData");
+// [IsReadOnly]
 // Dependencies PlatformEnvironment
 namespace GlobalNamespace {
 // Is value type: true
@@ -42,8 +43,8 @@ public:
   // @brief default ctor
   constexpr XPlatformAccessTokenData();
 
-  // Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformEnvironment", ty: "::GlobalNamespace::PlatformEnvironment", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "platformEnvironment", ty: "::GlobalNamespace::PlatformEnvironment",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr XPlatformAccessTokenData(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

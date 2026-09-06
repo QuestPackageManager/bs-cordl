@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StaticBatchableMesh.hpp"
+// IWYU pragma private; include "GlobalNamespace/StaticBatchableMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,9 @@ class StaticBatchableMesh;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StaticBatchableMesh*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StaticBatchableMesh*, "", "StaticBatchableMesh");
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(UnityEngine.MeshFilter))]
+// [RequireComponent(typeof(UnityEngine.MeshRenderer))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -30,13 +33,13 @@ protected:
   constexpr StaticBatchableMesh();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticBatchableMesh", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticBatchableMesh", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticBatchableMesh(StaticBatchableMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticBatchableMesh", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticBatchableMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticBatchableMesh(StaticBatchableMesh const&) = delete;
+  StaticBatchableMesh(StaticBatchableMeshconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23733 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Line.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Line.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__Line_def.hpp"
 #include "Unity/Mathematics/zzzz__float3_def.hpp"
@@ -69,8 +69,8 @@ inline ::Unity::Mathematics::float4 UnityEngine::Rendering::Line::PlaneContainin
                           { "PlaneContainingLineWithNormalPerpendicularToVector", {}, { ::i2c::type_of<::UnityEngine::Rendering::Line>(), ::i2c::type_of<::Unity::Mathematics::float3>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::float4>(nullptr, ___internal_method, a, b);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}") }, CppParam { name: "t", ty: "::Unity::Mathematics::float3", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "t", ty: "::Unity::Mathematics::float3",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Line::Line(::Unity::Mathematics::float3 m, ::Unity::Mathematics::float3 t) noexcept {
   this->m = m;
   this->t = t;

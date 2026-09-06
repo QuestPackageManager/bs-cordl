@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\ResourceLocators\ContentCatalogData.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/ResourceLocators/ContentCatalogData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,8 @@ public:
   // @brief default ctor
   constexpr ContentCatalogData_Bucket();
 
-  // Ctor Parameters [CppParam { name: "dataOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entries", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "dataOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "entries", ty: "::ArrayW<int32_t>", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr ContentCatalogData_Bucket(int32_t dataOffset, ::ArrayW<int32_t> entries) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -262,13 +263,13 @@ protected:
   constexpr ContentCatalogData_CompactLocation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData_CompactLocation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData_CompactLocation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentCatalogData_CompactLocation(ContentCatalogData_CompactLocation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData_CompactLocation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData_CompactLocation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogData_CompactLocation(ContentCatalogData_CompactLocation const&) = delete;
+  ContentCatalogData_CompactLocation(ContentCatalogData_CompactLocationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19844 };
@@ -324,6 +325,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::Conte
 static_assert(sizeof(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData_CompactLocation) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::ResourceLocators
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
@@ -359,13 +361,13 @@ protected:
   constexpr ContentCatalogData___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentCatalogData___c(ContentCatalogData___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogData___c(ContentCatalogData___c const&) = delete;
+  ContentCatalogData___c(ContentCatalogData___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19845 };
@@ -633,13 +635,13 @@ protected:
   constexpr ContentCatalogData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentCatalogData(ContentCatalogData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogData(ContentCatalogData const&) = delete;
+  ContentCatalogData(ContentCatalogDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19846 };
@@ -659,45 +661,64 @@ public:
   /// @brief Field location, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ___location;
 
+  /// [SerializeField]
   /// @brief Field m_LocatorId, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_LocatorId;
 
+  /// [SerializeField]
   /// @brief Field m_BuildResultHash, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_BuildResultHash;
 
+  /// [SerializeField]
   /// @brief Field m_InstanceProviderData, offset: 0x30, size: 0x30, def value: None
   ::UnityEngine::ResourceManagement::Util::ObjectInitializationData ___m_InstanceProviderData;
 
+  /// [SerializeField]
   /// @brief Field m_SceneProviderData, offset: 0x60, size: 0x30, def value: None
   ::UnityEngine::ResourceManagement::Util::ObjectInitializationData ___m_SceneProviderData;
 
+  /// [SerializeField]
   /// @brief Field m_ResourceProviderData, offset: 0x90, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* ___m_ResourceProviderData;
 
   /// @brief Field m_Entries, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*>* ___m_Entries;
 
+  /// [FormerlySerializedAs("m_providerIds")]
+  /// [SerializeField]
   /// @brief Field m_ProviderIds, offset: 0xa0, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_ProviderIds;
 
+  /// [FormerlySerializedAs("m_internalIds")]
+  /// [SerializeField]
   /// @brief Field m_InternalIds, offset: 0xa8, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_InternalIds;
 
+  /// [FormerlySerializedAs("m_keyDataString")]
+  /// [SerializeField]
   /// @brief Field m_KeyDataString, offset: 0xb0, size: 0x8, def value: None
   ::StringW ___m_KeyDataString;
 
+  /// [FormerlySerializedAs("m_bucketDataString")]
+  /// [SerializeField]
   /// @brief Field m_BucketDataString, offset: 0xb8, size: 0x8, def value: None
   ::StringW ___m_BucketDataString;
 
+  /// [FormerlySerializedAs("m_entryDataString")]
+  /// [SerializeField]
   /// @brief Field m_EntryDataString, offset: 0xc0, size: 0x8, def value: None
   ::StringW ___m_EntryDataString;
 
+  /// [FormerlySerializedAs("m_extraDataString")]
+  /// [SerializeField]
   /// @brief Field m_ExtraDataString, offset: 0xc8, size: 0x8, def value: None
   ::StringW ___m_ExtraDataString;
 
+  /// [SerializeField]
   /// @brief Field m_resourceTypes, offset: 0xd0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType> ___m_resourceTypes;
 
+  /// [SerializeField]
   /// @brief Field m_InternalIdPrefixes, offset: 0xd8, size: 0x8, def value: None
   ::ArrayW<::StringW> ___m_InternalIdPrefixes;
 

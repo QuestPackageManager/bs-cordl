@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataCache.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataCache.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_impl.hpp"
@@ -76,9 +76,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::BeatmapDataCache_CacheKey::_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
-                                                              ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                                                              ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, bool screenDisplacementEffects) {
+inline void GlobalNamespace::BeatmapDataCache_CacheKey::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                              /* [Nullable(2)] */ ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                                                              ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
+                                                              bool screenDisplacementEffects) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataCache_CacheKey>(),
                                                            { ".ctor",
@@ -112,11 +113,11 @@ constexpr GlobalNamespace::BeatmapDataCache_CacheKey::operator ::System::IEquata
 constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapDataCache_CacheKey>* GlobalNamespace::BeatmapDataCache_CacheKey::i___System__IEquatable_1___GlobalNamespace__BeatmapDataCache_CacheKey_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapDataCache_CacheKey>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: Some("{}") }, CppParam { name: "_environmentInfo", ty:
-// "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_leftHanded", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_effectsFilterPreset", ty: "::GlobalNamespace::EnvironmentEffectsFilterPreset",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_screenDisplacementEffects", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_beatmapLevelDataVersion", ty:
-// "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_environmentInfo", ty:
+// "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_leftHanded", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_effectsFilterPreset", ty:
+// "::GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_screenDisplacementEffects", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_beatmapLevelDataVersion", ty: "::GlobalNamespace::BeatmapLevelDataVersion", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapDataCache_CacheKey::BeatmapDataCache_CacheKey(::GlobalNamespace::BeatmapKey _beatmapKey, ::GlobalNamespace::IEnvironmentInfo* _environmentInfo,
                                                                                   ::GlobalNamespace::GameplayModifiers* _gameplayModifiers, bool _leftHanded,
                                                                                   ::GlobalNamespace::EnvironmentEffectsFilterPreset _effectsFilterPreset, bool _screenDisplacementEffects,
@@ -187,8 +188,8 @@ constexpr void GlobalNamespace::BeatmapDataCache::__cordl_internal_set__key(::Gl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____key = value;
 }
-inline void GlobalNamespace::BeatmapDataCache::_ctor(::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
-                                                     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask) {
+inline void GlobalNamespace::BeatmapDataCache::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
+                                                     /* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataCache*>(),
                                                                                          { ".ctor",
                                                                                            {},
@@ -196,14 +197,15 @@ inline void GlobalNamespace::BeatmapDataCache::_ctor(::by_ref<::GlobalNamespace:
                                                                                              ::i2c::type_of<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key, transformedBeatmapDataTask);
 }
-inline bool GlobalNamespace::BeatmapDataCache::AreSameBeatmapDataCached(::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key) {
+inline bool GlobalNamespace::BeatmapDataCache::AreSameBeatmapDataCached(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataCache*>(), { "AreSameBeatmapDataCached", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key);
 }
-inline ::GlobalNamespace::BeatmapDataCache* GlobalNamespace::BeatmapDataCache::New_ctor(::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
-                                                                                        ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask) {
+inline ::GlobalNamespace::BeatmapDataCache*
+GlobalNamespace::BeatmapDataCache::New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey> key,
+                                            /* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapDataCache*>(key, transformedBeatmapDataTask));
 }
 // Ctor Parameters []

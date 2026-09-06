@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TestAnalyticsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/TestAnalyticsModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_REF_T(::GlobalNamespace::TestAnalyticsModel*);
 MARK_REF_T(::GlobalNamespace::TestAnalyticsModel___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TestAnalyticsModel*, "", "TestAnalyticsModel");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TestAnalyticsModel___c*, "", "TestAnalyticsModel/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -72,13 +73,13 @@ protected:
   constexpr TestAnalyticsModel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TestAnalyticsModel___c(TestAnalyticsModel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TestAnalyticsModel___c(TestAnalyticsModel___c const&) = delete;
+  TestAnalyticsModel___c(TestAnalyticsModel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23430 };
@@ -141,13 +142,13 @@ protected:
   constexpr TestAnalyticsModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TestAnalyticsModel(TestAnalyticsModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TestAnalyticsModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TestAnalyticsModel(TestAnalyticsModel const&) = delete;
+  TestAnalyticsModel(TestAnalyticsModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23431 };

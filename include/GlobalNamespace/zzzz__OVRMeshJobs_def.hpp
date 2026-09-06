@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMeshJobs.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMeshJobs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMeshJobs)
 namespace GlobalNamespace {
-template <typename T> struct OVRMeshJobs_NativeArrayHelper_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct OVRMeshJobs_NativeArrayHelper_1;
 }
 namespace GlobalNamespace {
 struct OVRMeshJobs_TransformToUnitySpaceJob;
@@ -34,7 +36,9 @@ namespace GlobalNamespace {
 class OVRMeshJobs;
 }
 namespace GlobalNamespace {
-template <typename T> struct OVRMeshJobs_NativeArrayHelper_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct OVRMeshJobs_NativeArrayHelper_1;
 }
 namespace GlobalNamespace {
 struct OVRMeshJobs_TransformToUnitySpaceJob;
@@ -71,14 +75,15 @@ public:
   // @brief default ctor
   constexpr OVRMeshJobs_TransformToUnitySpaceJob();
 
-  // Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "Normals", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "UV", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>",
-  // modifiers: "", def_value: None }, CppParam { name: "BoneWeights", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight>", modifiers: "", def_value: None }, CppParam { name:
-  // "MeshVerticesPosition", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: None }, CppParam { name: "MeshNormals", ty:
-  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: None }, CppParam { name: "MeshUV", ty:
-  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector2f>", modifiers: "", def_value: None }, CppParam { name: "MeshBoneWeights", ty:
-  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4f>", modifiers: "", def_value: None }, CppParam { name: "MeshBoneIndices", ty:
-  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4s>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Normals", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "UV", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None, comment: None }, CppParam { name: "BoneWeights", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight>", modifiers: "", def_value: None, comment: None }, CppParam { name: "MeshVerticesPosition", ty:
+  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: None, comment: None }, CppParam { name: "MeshNormals", ty:
+  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: None, comment: None }, CppParam { name: "MeshUV", ty:
+  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector2f>", modifiers: "", def_value: None, comment: None }, CppParam { name: "MeshBoneWeights", ty:
+  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4f>", modifiers: "", def_value: None, comment: None }, CppParam { name: "MeshBoneIndices", ty:
+  // "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4s>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMeshJobs_TransformToUnitySpaceJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Normals,
                                                  ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> UV, ::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight> BoneWeights,
                                                  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector3f> MeshVerticesPosition,
@@ -164,8 +169,8 @@ public:
   // @brief default ctor
   constexpr OVRMeshJobs_TransformTrianglesJob();
 
-  // Ctor Parameters [CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "MeshIndices", ty:
-  // "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None }, CppParam { name: "NumIndices", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "MeshIndices", ty:
+  // "::Unity::Collections::NativeArray_1<int16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "NumIndices", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMeshJobs_TransformTrianglesJob(::Unity::Collections::NativeArray_1<uint32_t> Triangles, ::Unity::Collections::NativeArray_1<int16_t> MeshIndices, int32_t NumIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -177,6 +182,7 @@ public:
   /// @brief Field Triangles, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint32_t> Triangles;
 
+  /// [ReadOnly]
   /// @brief Field MeshIndices, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int16_t> MeshIndices;
 
@@ -199,6 +205,7 @@ static_assert(sizeof(::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob) == 0x
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: OVRMeshJobs/NativeArrayHelper`1<T>
 struct CORDL_TYPE OVRMeshJobs_NativeArrayHelper_1 {
@@ -220,8 +227,8 @@ public:
   // @brief default ctor
   constexpr OVRMeshJobs_NativeArrayHelper_1();
 
-  // Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty:
-  // "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "UnityNativeArray", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_handle", ty:
+  // "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMeshJobs_NativeArrayHelper_1(::Unity::Collections::NativeArray_1<T> UnityNativeArray, ::System::Runtime::InteropServices::GCHandle _handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -247,7 +254,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRMeshJobs : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using NativeArrayHelper_1 = ::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using NativeArrayHelper_1 = ::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1<T>;
 
   using TransformToUnitySpaceJob = ::GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob;
 
@@ -264,13 +273,13 @@ protected:
   constexpr OVRMeshJobs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshJobs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshJobs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRMeshJobs(OVRMeshJobs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshJobs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMeshJobs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMeshJobs(OVRMeshJobs const&) = delete;
+  OVRMeshJobs(OVRMeshJobsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7932 };

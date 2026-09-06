@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\Alloc.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Alloc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr Alloc();
 
-  // Ctor Parameters [CppParam { name: "start", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "handle",
-  // ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "shortLived", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "start", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "handle", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "shortLived", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr Alloc(uint32_t start, uint32_t size, ::System::Object* handle, bool shortLived) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

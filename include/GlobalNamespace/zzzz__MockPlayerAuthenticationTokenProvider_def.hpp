@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlayerAuthenticationTokenProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlayerAuthenticationTokenProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,12 +103,15 @@ public:
   /// @brief Method .ctor, addr 0x5a82b64, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, ::GlobalNamespace::XPlatformAccessTokenData mockTokenData);
 
+  /// [CompilerGenerated]
   /// @brief Method get_hashedUserId, addr 0x5a82b4c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_platformType, addr 0x5a82b5c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken_PlatformType get_platformType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userName, addr 0x5a82b54, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
@@ -124,23 +127,26 @@ protected:
   constexpr MockPlayerAuthenticationTokenProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerAuthenticationTokenProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerAuthenticationTokenProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlayerAuthenticationTokenProvider(MockPlayerAuthenticationTokenProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerAuthenticationTokenProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerAuthenticationTokenProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayerAuthenticationTokenProvider(MockPlayerAuthenticationTokenProvider const&) = delete;
+  MockPlayerAuthenticationTokenProvider(MockPlayerAuthenticationTokenProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22228 };
 
+  /// [CompilerGenerated]
   /// @brief Field <hashedUserId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____hashedUserId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <userName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____userName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <platformType>k__BackingField, offset: 0x20, size: 0x1, def value: None
   ::GlobalNamespace::AuthenticationToken_PlatformType ____platformType_k__BackingField;
 

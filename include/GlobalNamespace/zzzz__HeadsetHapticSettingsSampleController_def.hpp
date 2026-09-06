@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HeadsetHapticSettingsSampleController.hpp"
+// IWYU pragma private; include "GlobalNamespace/HeadsetHapticSettingsSampleController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class HeadsetHapticSettingsSampleController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::HeadsetHapticSettingsSampleController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::HeadsetHapticSettingsSampleController*, "", "HeadsetHapticSettingsSampleController");
+// [RequireComponent(typeof(FormattedFloatListSettingsController))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -118,29 +119,34 @@ protected:
   constexpr HeadsetHapticSettingsSampleController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeadsetHapticSettingsSampleController(HeadsetHapticSettingsSampleController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HeadsetHapticSettingsSampleController(HeadsetHapticSettingsSampleController const&) = delete;
+  HeadsetHapticSettingsSampleController(HeadsetHapticSettingsSampleControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6408 };
 
+  /// [SerializeField]
   /// @brief Field _formattedFloatListSettingsController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____formattedFloatListSettingsController;
 
+  /// [SerializeField]
   /// @brief Field _hapticSamplePlayDelay, offset: 0x28, size: 0x4, def value: None
   float_t ____hapticSamplePlayDelay;
 
+  /// [SerializeField]
   /// @brief Field _hapticSampleDuration, offset: 0x2c, size: 0x4, def value: None
   float_t ____hapticSampleDuration;
 
+  /// [SerializeField]
   /// @brief Field _headHapticPreset, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____headHapticPreset;
 
+  /// [Inject]
   /// @brief Field _hapticFeedbackManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 

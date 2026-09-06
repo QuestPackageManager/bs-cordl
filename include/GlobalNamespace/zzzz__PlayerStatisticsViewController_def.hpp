@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerStatisticsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerStatisticsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,15 +57,21 @@ public:
   /// @brief Method .ctor, addr 0x5966150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* playerOverallStatsDataFunc);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_playerOverallStatsDataFunc, addr 0x59667b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_text, addr 0x59667a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerOverallStatsDataFunc, addr 0x59667bc, size 0x8, virtual false, abstract: false, final false
   inline void set_playerOverallStatsDataFunc(::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_text, addr 0x59667ac, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
@@ -73,8 +79,8 @@ public:
   // @brief default ctor
   constexpr PlayerStatisticsViewController_StatsScopeData();
 
-  // Ctor Parameters [CppParam { name: "_text_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_playerOverallStatsDataFunc_k__BackingField", ty:
-  // "::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_text_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_playerOverallStatsDataFunc_k__BackingField", ty:
+  // "::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>*", modifiers: "", def_value: None, comment: None }]
   constexpr PlayerStatisticsViewController_StatsScopeData(::StringW _text_k__BackingField,
                                                           ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* _playerOverallStatsDataFunc_k__BackingField) noexcept;
 
@@ -84,9 +90,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [CompilerGenerated]
   /// @brief Field <text>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _text_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <playerOverallStatsDataFunc>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* _playerOverallStatsDataFunc_k__BackingField;
 
@@ -164,18 +172,23 @@ public:
   /// @brief Method UpdateView, addr 0x5966158, size 0x46c, virtual false, abstract: false, final false
   inline void UpdateView(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* playerOverallStatsData);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_0, addr 0x5966778, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_1, addr 0x59666c8, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_2, addr 0x59666f4, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_3, addr 0x5966720, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_3();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_4, addr 0x596674c, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__19_4();
 
@@ -266,13 +279,13 @@ protected:
   constexpr PlayerStatisticsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerStatisticsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerStatisticsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerStatisticsViewController(PlayerStatisticsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerStatisticsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerStatisticsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerStatisticsViewController(PlayerStatisticsViewController const&) = delete;
+  PlayerStatisticsViewController(PlayerStatisticsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6989 };
@@ -292,39 +305,52 @@ public:
   /// @brief Field kTitleSoloLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitleSoloLocalizationKey{ u"TITLE_SOLO" };
 
+  /// [SerializeField]
   /// @brief Field _statsScopeSegmentedControl, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____statsScopeSegmentedControl;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _playedLevelsCountText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playedLevelsCountText;
 
+  /// [SerializeField]
   /// @brief Field _clearedLevelsCountText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____clearedLevelsCountText;
 
+  /// [SerializeField]
   /// @brief Field _failedLevelsCountText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____failedLevelsCountText;
 
+  /// [SerializeField]
   /// @brief Field _timePlayedText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____timePlayedText;
 
+  /// [SerializeField]
   /// @brief Field _goodCutsCountText, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____goodCutsCountText;
 
+  /// [SerializeField]
   /// @brief Field _badCutsCountCountText, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____badCutsCountCountText;
 
+  /// [SerializeField]
   /// @brief Field _missedCountText, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____missedCountText;
 
+  /// [SerializeField]
   /// @brief Field _totalScoreText, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____totalScoreText;
 
+  /// [SerializeField]
   /// @brief Field _fullComboCountText, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____fullComboCountText;
 
+  /// [SerializeField]
   /// @brief Field _handDistanceTravelledText, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____handDistanceTravelledText;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\LoopAndDelay.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/LoopAndDelay.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXSpawnerCallbacks_impl.hpp"
 #include "UnityEngine/VFX/zzzz__LoopAndDelay_def.hpp"

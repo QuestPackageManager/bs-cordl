@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarPoseData.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarPoseData.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
@@ -24,8 +24,8 @@ inline void BeatSaber::AvatarCore::AvatarPoseData::_ctor(::UnityEngine::Pose hea
                                                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Pose>(), ::i2c::type_of<::UnityEngine::Pose>(), ::i2c::type_of<::UnityEngine::Pose>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, headPose, leftHandPose, rightHandPose);
 }
-// Ctor Parameters [CppParam { name: "headPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: Some("{}") }, CppParam { name: "leftHandPose", ty: "::UnityEngine::Pose", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "rightHandPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "headPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "leftHandPose", ty: "::UnityEngine::Pose",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightHandPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::AvatarCore::AvatarPoseData::AvatarPoseData(::UnityEngine::Pose headPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose) noexcept {
   this->headPose = headPose;
   this->leftHandPose = leftHandPose;

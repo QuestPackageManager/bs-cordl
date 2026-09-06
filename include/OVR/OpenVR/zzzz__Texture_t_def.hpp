@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\Texture_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/Texture_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,8 @@ public:
   // @brief default ctor
   constexpr Texture_t();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "eType", ty: "::OVR::OpenVR::ETextureType", modifiers: "", def_value: None
-  // }, CppParam { name: "eColorSpace", ty: "::OVR::OpenVR::EColorSpace", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "eType", ty: "::OVR::OpenVR::ETextureType", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "eColorSpace", ty: "::OVR::OpenVR::EColorSpace", modifiers: "", def_value: None, comment: None }]
   constexpr Texture_t(::System::IntPtr handle, ::OVR::OpenVR::ETextureType eType, ::OVR::OpenVR::EColorSpace eColorSpace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

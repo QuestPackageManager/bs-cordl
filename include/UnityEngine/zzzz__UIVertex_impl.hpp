@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIVertex.hpp"
+// IWYU pragma private; include "UnityEngine/UIVertex.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
@@ -22,11 +22,11 @@ inline void UnityEngine::UIVertex::setStaticF_simpleVert(::UnityEngine::UIVertex
 inline ::UnityEngine::UIVertex UnityEngine::UIVertex::getStaticF_simpleVert() {
   return ::cordl_internals::getStaticField<::UnityEngine::UIVertex, "simpleVert", ::UnityEngine::UIVertex>();
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "tangent", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "uv0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv1", ty: "::UnityEngine::Vector4", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "uv2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv3", ty: "::UnityEngine::Vector4", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tangent", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "color", ty:
+// "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uv0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "uv1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uv2", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "uv3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIVertex::UIVertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0,
                                             ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector4 uv2, ::UnityEngine::Vector4 uv3) noexcept {
   this->position = position;

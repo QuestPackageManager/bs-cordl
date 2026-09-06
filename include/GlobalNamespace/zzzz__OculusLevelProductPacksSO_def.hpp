@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OculusLevelProductPacksSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/OculusLevelProductPacksSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(OculusLevelProductPacksSO)
 namespace GlobalNamespace {
-template <typename TLevelPackProductData, typename TLevelProductData> class ILevelPackProductDataContainer_2;
+template <typename TLevelPackProductData, typename TLevelProductData>
+  requires(::cordl_internals::type_constraint<TLevelPackProductData, ::GlobalNamespace::ILevelPackProductData_1<TLevelProductData>*> &&
+           ::cordl_internals::type_constraint<TLevelProductData, ::GlobalNamespace::ILevelProductData*>)
+class ILevelPackProductDataContainer_2;
 }
 namespace GlobalNamespace {
 class OculusLevelProductCollectionModel_LevelPackProductData;
@@ -95,20 +98,22 @@ protected:
   constexpr OculusLevelProductPacksSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductPacksSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductPacksSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusLevelProductPacksSO(OculusLevelProductPacksSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductPacksSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductPacksSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusLevelProductPacksSO(OculusLevelProductPacksSO const&) = delete;
+  OculusLevelProductPacksSO(OculusLevelProductPacksSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15141 };
 
+  /// [SerializeField]
   /// @brief Field _levelPackProductData, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* ____levelPackProductData;
 
+  /// [SerializeField]
   /// @brief Field _levelPackRedirectionData, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*> ____levelPackRedirectionData;
 

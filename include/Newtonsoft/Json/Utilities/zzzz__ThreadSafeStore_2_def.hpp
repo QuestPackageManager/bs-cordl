@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ThreadSafeStore_2.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ThreadSafeStore_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ template <typename TKey, typename TValue> class ThreadSafeStore_2;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Utilities::ThreadSafeStore_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::ThreadSafeStore_2, "Newtonsoft.Json.Utilities", "ThreadSafeStore`2");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -60,13 +62,13 @@ protected:
   constexpr ThreadSafeStore_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadSafeStore_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadSafeStore_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadSafeStore_2(ThreadSafeStore_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadSafeStore_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadSafeStore_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadSafeStore_2(ThreadSafeStore_2 const&) = delete;
+  ThreadSafeStore_2(ThreadSafeStore_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13466 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\NamingStrategy.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/NamingStrategy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class NamingStrategy;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::NamingStrategy*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::NamingStrategy*, "Newtonsoft.Json.Serialization", "NamingStrategy");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -42,9 +44,11 @@ public:
   __declspec(property(get = __cordl_internal_get__ProcessExtensionDataNames_k__BackingField,
                       put = __cordl_internal_set__ProcessExtensionDataNames_k__BackingField)) bool _ProcessExtensionDataNames_k__BackingField;
 
+  /// [NullableContext(2)]
   /// @brief Method Equals, addr 0x5d59e5c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [NullableContext(2)]
   /// @brief Method Equals, addr 0x5d59ee8, size 0xd4, virtual false, abstract: false, final false
   inline bool Equals(::Newtonsoft::Json::Serialization::NamingStrategy* other);
 
@@ -62,7 +66,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::NamingStrategy* New_ctor();
 
-  /// @brief Method ResolvePropertyName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
   constexpr bool const& __cordl_internal_get__OverrideSpecifiedNames_k__BackingField() const;
@@ -86,21 +90,27 @@ public:
   /// @brief Method .ctor, addr 0x5d59724, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_OverrideSpecifiedNames, addr 0x5d59d78, size 0x8, virtual false, abstract: false, final false
   inline bool get_OverrideSpecifiedNames();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ProcessDictionaryKeys, addr 0x5d59d58, size 0x8, virtual false, abstract: false, final false
   inline bool get_ProcessDictionaryKeys();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ProcessExtensionDataNames, addr 0x5d59d68, size 0x8, virtual false, abstract: false, final false
   inline bool get_ProcessExtensionDataNames();
 
+  /// [CompilerGenerated]
   /// @brief Method set_OverrideSpecifiedNames, addr 0x5d59d80, size 0x8, virtual false, abstract: false, final false
   inline void set_OverrideSpecifiedNames(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ProcessDictionaryKeys, addr 0x5d59d60, size 0x8, virtual false, abstract: false, final false
   inline void set_ProcessDictionaryKeys(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ProcessExtensionDataNames, addr 0x5d59d70, size 0x8, virtual false, abstract: false, final false
   inline void set_ProcessExtensionDataNames(bool value);
 
@@ -110,23 +120,26 @@ protected:
   constexpr NamingStrategy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamingStrategy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamingStrategy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamingStrategy(NamingStrategy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamingStrategy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamingStrategy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamingStrategy(NamingStrategy const&) = delete;
+  NamingStrategy(NamingStrategyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13530 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ProcessDictionaryKeys>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ProcessDictionaryKeys_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ProcessExtensionDataNames>k__BackingField, offset: 0x11, size: 0x1, def value: None
   bool ____ProcessExtensionDataNames_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <OverrideSpecifiedNames>k__BackingField, offset: 0x12, size: 0x1, def value: None
   bool ____OverrideSpecifiedNames_k__BackingField;
 

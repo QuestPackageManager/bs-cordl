@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\HashHelpers.hpp"
+// IWYU pragma private; include "System/Collections/HashHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashHelpers)
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -64,13 +66,13 @@ protected:
   constexpr HashHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HashHelpers(HashHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HashHelpers(HashHelpers const&) = delete;
+  HashHelpers(HashHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3686 };

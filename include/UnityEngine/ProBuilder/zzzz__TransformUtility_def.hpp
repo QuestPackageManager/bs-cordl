@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\TransformUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/TransformUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class TransformUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::TransformUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::TransformUtility*, "UnityEngine.ProBuilder", "TransformUtility");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -33,12 +34,14 @@ public:
   __declspec(property(get = getStaticF_s_ChildStack,
                       put = setStaticF_s_ChildStack)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>>>* s_ChildStack;
 
+  /// [Extension]
   /// @brief Method InverseTransformVertex, addr 0x66f8694, size 0x1b4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InverseTransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
   /// @brief Method ReparentChildren, addr 0x66f8398, size 0x140, virtual false, abstract: false, final false
   static inline void ReparentChildren(::UnityEngine::Transform* t);
 
+  /// [Extension]
   /// @brief Method TransformVertex, addr 0x66f84d8, size 0x1bc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* TransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
@@ -55,13 +58,13 @@ protected:
   constexpr TransformUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransformUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransformUtility(TransformUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransformUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransformUtility(TransformUtility const&) = delete;
+  TransformUtility(TransformUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16819 };

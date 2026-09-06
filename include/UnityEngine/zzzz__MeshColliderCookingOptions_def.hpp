@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MeshColliderCookingOptions.hpp"
+// IWYU pragma private; include "UnityEngine/MeshColliderCookingOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MeshColliderCookingOptions;
 // Write type traits
 MARK_VAL_T(::UnityEngine::MeshColliderCookingOptions);
 DEFINE_IL2CPP_CLASS(::UnityEngine::MeshColliderCookingOptions, "UnityEngine", "MeshColliderCookingOptions");
+// [Flags]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr MeshColliderCookingOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MeshColliderCookingOptions(int32_t value__) noexcept;
 
   /// @brief Field CookForFasterSimulation value: I32(2)

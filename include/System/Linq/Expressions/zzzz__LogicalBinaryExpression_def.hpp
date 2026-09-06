@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\LogicalBinaryExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/LogicalBinaryExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ public:
   /// @brief Method .ctor, addr 0x5f62f60, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
+  /// [CompilerGenerated]
   /// @brief Method get_NodeType, addr 0x5f62fbc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
@@ -61,17 +62,18 @@ protected:
   constexpr LogicalBinaryExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LogicalBinaryExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LogicalBinaryExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LogicalBinaryExpression(LogicalBinaryExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LogicalBinaryExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LogicalBinaryExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LogicalBinaryExpression(LogicalBinaryExpression const&) = delete;
+  LogicalBinaryExpression(LogicalBinaryExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16106 };
 
+  /// [CompilerGenerated]
   /// @brief Field <NodeType>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::System::Linq::Expressions::ExpressionType ____NodeType_k__BackingField;
 

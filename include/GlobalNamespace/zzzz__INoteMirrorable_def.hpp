@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\INoteMirrorable.hpp"
+// IWYU pragma private; include "GlobalNamespace/INoteMirrorable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,18 +36,18 @@ public:
 
   __declspec(property(get = get_noteTransform)) ::UnityW<::UnityEngine::Transform> noteTransform;
 
-  /// @brief Method get_noteData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_noteData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::NoteData* get_noteData();
 
-  /// @brief Method get_noteDidStartDissolvingEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_noteDidStartDissolvingEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
 
-  /// @brief Method get_noteTransform, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_noteTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Transform> get_noteTransform();
 
-  // Ctor Parameters [CppParam { name: "", ty: "INoteMirrorable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INoteMirrorable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INoteMirrorable(INoteMirrorable const&) = delete;
+  INoteMirrorable(INoteMirrorableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5659 };

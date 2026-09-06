@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FilteringSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FilteringSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -55,7 +57,8 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method .ctor, addr 0x6b21788, size 0xf0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange> renderQueueRange, int32_t layerMask, uint32_t renderingLayerMask, int32_t excludeMotionVectorObjects);
+  inline void _ctor(/* [DefaultValue("RenderQueueRange.all")] */ ::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange> renderQueueRange, int32_t layerMask, uint32_t renderingLayerMask,
+                    int32_t excludeMotionVectorObjects);
 
   /// @brief Method get_renderQueueRange, addr 0x6b21888, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderQueueRange get_renderQueueRange();
@@ -79,10 +82,11 @@ public:
   // @brief default ctor
   constexpr FilteringSettings();
 
-  // Ctor Parameters [CppParam { name: "m_RenderQueueRange", ty: "::UnityEngine::Rendering::RenderQueueRange", modifiers: "", def_value: None }, CppParam { name: "m_LayerMask", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_RenderingLayerMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_BatchLayerMask", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_ExcludeMotionVectorObjects", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ForceAllMotionVectorObjects", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_SortingLayerRange", ty: "::UnityEngine::Rendering::SortingLayerRange", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_RenderQueueRange", ty: "::UnityEngine::Rendering::RenderQueueRange", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LayerMask", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RenderingLayerMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_BatchLayerMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ExcludeMotionVectorObjects", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_ForceAllMotionVectorObjects", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SortingLayerRange", ty:
+  // "::UnityEngine::Rendering::SortingLayerRange", modifiers: "", def_value: None, comment: None }]
   constexpr FilteringSettings(::UnityEngine::Rendering::RenderQueueRange m_RenderQueueRange, int32_t m_LayerMask, uint32_t m_RenderingLayerMask, uint32_t m_BatchLayerMask,
                               int32_t m_ExcludeMotionVectorObjects, int32_t m_ForceAllMotionVectorObjects, ::UnityEngine::Rendering::SortingLayerRange m_SortingLayerRange) noexcept;
 

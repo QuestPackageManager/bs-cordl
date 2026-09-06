@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\VisibleToOtherModulesAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/VisibleToOtherModulesAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__VisibleToOtherModulesAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::VisibleToOtherModulesAttribute._ctor
@@ -32,7 +32,7 @@ inline void UnityEngine::Bindings::VisibleToOtherModulesAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::VisibleToOtherModulesAttribute*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Bindings::VisibleToOtherModulesAttribute::_ctor(::ArrayW<::StringW> modules) {
+inline void UnityEngine::Bindings::VisibleToOtherModulesAttribute::_ctor(/* [ParamArray] */ ::ArrayW<::StringW> modules) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::VisibleToOtherModulesAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, modules);
@@ -40,7 +40,7 @@ inline void UnityEngine::Bindings::VisibleToOtherModulesAttribute::_ctor(::Array
 inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* UnityEngine::Bindings::VisibleToOtherModulesAttribute::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Bindings::VisibleToOtherModulesAttribute*>());
 }
-inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* UnityEngine::Bindings::VisibleToOtherModulesAttribute::New_ctor(::ArrayW<::StringW> modules) {
+inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* UnityEngine::Bindings::VisibleToOtherModulesAttribute::New_ctor(/* [ParamArray] */ ::ArrayW<::StringW> modules) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Bindings::VisibleToOtherModulesAttribute*>(modules));
 }
 // Ctor Parameters []

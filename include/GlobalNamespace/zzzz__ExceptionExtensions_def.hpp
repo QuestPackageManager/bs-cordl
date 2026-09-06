@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ExceptionExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ExceptionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class ExceptionExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ExceptionExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ExceptionExtensions*, "", "ExceptionExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -23,6 +24,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE ExceptionExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [NullableContext(1)]
+  /// [Extension]
   /// @brief Method GenerateFullStackMessage, addr 0x330bd64, size 0x1bc, virtual false, abstract: false, final false
   static inline ::StringW GenerateFullStackMessage(::System::Exception* e);
 
@@ -32,13 +35,13 @@ protected:
   constexpr ExceptionExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExceptionExtensions(ExceptionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExceptionExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExceptionExtensions(ExceptionExtensions const&) = delete;
+  ExceptionExtensions(ExceptionExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20459 };

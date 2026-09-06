@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SchemaExporter.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SchemaExporter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   static inline ::System::Xml::XmlElement* ExportActualType(::System::Xml::XmlQualifiedName* typeName, ::System::Xml::XmlDocument* xmlDoc);
 
   /// @brief Method GetSchemaAnnotation, addr 0x6160578, size 0xe0, virtual false, abstract: false, final false
-  static inline ::System::Xml::Schema::XmlSchemaAnnotation* GetSchemaAnnotation(::ArrayW<::System::Xml::XmlNode*> nodes);
+  static inline ::System::Xml::Schema::XmlSchemaAnnotation* GetSchemaAnnotation(/* [ParamArray] */ ::ArrayW<::System::Xml::XmlNode*> nodes);
 
   /// @brief Method GetXmlTypeInfo, addr 0x615f464, size 0x174, virtual false, abstract: false, final false
   static inline void GetXmlTypeInfo(::System::Type* type, ::by_ref<::System::Xml::XmlQualifiedName*> stableName, ::by_ref<::System::Xml::Schema::XmlSchemaType*> xsdType, ::by_ref<bool> hasRoot);
@@ -85,13 +85,13 @@ protected:
   constexpr SchemaExporter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaExporter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaExporter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SchemaExporter(SchemaExporter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaExporter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaExporter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SchemaExporter(SchemaExporter const&) = delete;
+  SchemaExporter(SchemaExporterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17110 };

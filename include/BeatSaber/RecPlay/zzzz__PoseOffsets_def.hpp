@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PoseOffsets.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseOffsets.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ public:
   /// @brief Field kDefault, offset 0xffffffff, size 0x54
   __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault)) ::BeatSaber::RecPlay::PoseOffsets kDefault;
 
+  /// [IsReadOnly]
   /// @brief Method Adjust, addr 0x32c5554, size 0x198, virtual false, abstract: false, final false
   inline void Adjust(::by_ref<::BeatSaber::RecPlay::PlayerPose> pose);
 
@@ -37,8 +38,8 @@ public:
   // @brief default ctor
   constexpr PoseOffsets();
 
-  // Ctor Parameters [CppParam { name: "room", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "leftController", ty: "::UnityEngine::Pose", modifiers: "", def_value: None
-  // }, CppParam { name: "rightController", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "room", ty: "::UnityEngine::Pose", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftController", ty: "::UnityEngine::Pose", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "rightController", ty: "::UnityEngine::Pose", modifiers: "", def_value: None, comment: None }]
   constexpr PoseOffsets(::UnityEngine::Pose room, ::UnityEngine::Pose leftController, ::UnityEngine::Pose rightController) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

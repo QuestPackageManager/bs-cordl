@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ResolveProvider.hpp"
+// IWYU pragma private; include "Zenject/ResolveProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ class ResolveProvider;
 // Write type traits
 MARK_REF_T(::Zenject::ResolveProvider*);
 DEFINE_IL2CPP_CLASS(::Zenject::ResolveProvider*, "Zenject", "ResolveProvider");
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.InjectSources
 namespace Zenject {
 // Is value type: false
@@ -139,13 +140,13 @@ protected:
   constexpr ResolveProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResolveProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResolveProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResolveProvider(ResolveProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResolveProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResolveProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResolveProvider(ResolveProvider const&) = delete;
+  ResolveProvider(ResolveProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14589 };

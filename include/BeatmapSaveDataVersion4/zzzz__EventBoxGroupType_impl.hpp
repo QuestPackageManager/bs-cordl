@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\EventBoxGroupType.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/EventBoxGroupType.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__EventBoxGroupType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatmapSaveDataVersion4::EventBoxGroupType::EventBoxGroupType(int32_t value__) noexcept {
   this->value__ = value__;
 }

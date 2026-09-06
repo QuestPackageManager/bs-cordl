@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ParametricBoxController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ParametricBoxController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,9 @@ class ParametricBoxController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ParametricBoxController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ParametricBoxController*, "", "ParametricBoxController");
+// [RequireComponent(typeof(UnityEngine.MeshRenderer))]
+// [RequireComponent(typeof(UnityEngine.MeshFilter))]
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -229,9 +232,11 @@ public:
 
   static inline int32_t getStaticF__widthStartID();
 
+  /// [CompilerGenerated]
   /// @brief Method get_collisionHeight, addr 0x58669fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionHeight();
 
+  /// [CompilerGenerated]
   /// @brief Method get_useCollision, addr 0x58669ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
@@ -247,9 +252,11 @@ public:
 
   static inline void setStaticF__widthStartID(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_collisionHeight, addr 0x5866a04, size 0x8, virtual false, abstract: false, final false
   inline void set_collisionHeight(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_useCollision, addr 0x58669f4, size 0x8, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
@@ -259,13 +266,13 @@ protected:
   constexpr ParametricBoxController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParametricBoxController(ParametricBoxController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParametricBoxController(ParametricBoxController const&) = delete;
+  ParametricBoxController(ParametricBoxControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19484 };
@@ -279,6 +286,7 @@ public:
   /// @brief Field length, offset: 0x28, size: 0x4, def value: None
   float_t ___length;
 
+  /// [Range(0, 1)]
   /// @brief Field heightCenter, offset: 0x2c, size: 0x4, def value: None
   float_t ___heightCenter;
 
@@ -291,9 +299,12 @@ public:
   /// @brief Field minAlpha, offset: 0x44, size: 0x4, def value: None
   float_t ___minAlpha;
 
+  /// [Space]
+  /// [Range(0, 1)]
   /// @brief Field alphaStart, offset: 0x48, size: 0x4, def value: None
   float_t ___alphaStart;
 
+  /// [Range(0, 1)]
   /// @brief Field alphaEnd, offset: 0x4c, size: 0x4, def value: None
   float_t ___alphaEnd;
 
@@ -303,12 +314,16 @@ public:
   /// @brief Field widthEnd, offset: 0x54, size: 0x4, def value: None
   float_t ___widthEnd;
 
+  /// [CompilerGenerated]
   /// @brief Field <useCollision>k__BackingField, offset: 0x58, size: 0x1, def value: None
   bool ____useCollision_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <collisionHeight>k__BackingField, offset: 0x5c, size: 0x4, def value: None
   float_t ____collisionHeight_k__BackingField;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _meshRenderer, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 

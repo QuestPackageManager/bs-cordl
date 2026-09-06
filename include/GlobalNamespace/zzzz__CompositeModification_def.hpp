@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeModification.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeModification.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,17 +51,18 @@ protected:
   constexpr CompositeModification();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeModification", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeModification", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeModification(CompositeModification&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeModification", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeModification", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeModification(CompositeModification const&) = delete;
+  CompositeModification(CompositeModificationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5831 };
 
+  /// [SerializeField]
   /// @brief Field _flags, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::CompositeModificationFlags ____flags;
 

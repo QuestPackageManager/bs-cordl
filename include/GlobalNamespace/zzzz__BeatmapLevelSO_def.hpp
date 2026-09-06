@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,6 +89,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelSO_ColorScheme*, "", "Beatmap
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelSO_PreviewDifficultyBeatmap*, "", "BeatmapLevelSO/PreviewDifficultyBeatmap");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelSO_PreviewDifficultyBeatmapSet*, "", "BeatmapLevelSO/PreviewDifficultyBeatmapSet");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PreviewDifficultyBeatmapSet_BeatmapLevelSO___c*, "", "BeatmapLevelSO/PreviewDifficultyBeatmapSet/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -124,13 +125,13 @@ protected:
   constexpr PreviewDifficultyBeatmapSet_BeatmapLevelSO___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreviewDifficultyBeatmapSet_BeatmapLevelSO___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreviewDifficultyBeatmapSet_BeatmapLevelSO___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreviewDifficultyBeatmapSet_BeatmapLevelSO___c(PreviewDifficultyBeatmapSet_BeatmapLevelSO___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreviewDifficultyBeatmapSet_BeatmapLevelSO___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreviewDifficultyBeatmapSet_BeatmapLevelSO___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreviewDifficultyBeatmapSet_BeatmapLevelSO___c(PreviewDifficultyBeatmapSet_BeatmapLevelSO___c const&) = delete;
+  PreviewDifficultyBeatmapSet_BeatmapLevelSO___c(PreviewDifficultyBeatmapSet_BeatmapLevelSO___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14988 };
@@ -203,20 +204,22 @@ protected:
   constexpr BeatmapLevelSO_PreviewDifficultyBeatmapSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmapSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmapSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelSO_PreviewDifficultyBeatmapSet(BeatmapLevelSO_PreviewDifficultyBeatmapSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmapSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmapSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSO_PreviewDifficultyBeatmapSet(BeatmapLevelSO_PreviewDifficultyBeatmapSet const&) = delete;
+  BeatmapLevelSO_PreviewDifficultyBeatmapSet(BeatmapLevelSO_PreviewDifficultyBeatmapSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14989 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapCharacteristic, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
 
+  /// [SerializeField]
   /// @brief Field _previewDifficultyBeatmaps, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO_PreviewDifficultyBeatmap*>* ____previewDifficultyBeatmaps;
 
@@ -377,41 +380,51 @@ protected:
   constexpr BeatmapLevelSO_PreviewDifficultyBeatmap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelSO_PreviewDifficultyBeatmap(BeatmapLevelSO_PreviewDifficultyBeatmap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_PreviewDifficultyBeatmap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSO_PreviewDifficultyBeatmap(BeatmapLevelSO_PreviewDifficultyBeatmap const&) = delete;
+  BeatmapLevelSO_PreviewDifficultyBeatmap(BeatmapLevelSO_PreviewDifficultyBeatmapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14990 };
 
+  /// [SerializeField]
   /// @brief Field _difficulty, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____difficulty;
 
+  /// [SerializeField]
   /// @brief Field _environmentNameIdx, offset: 0x14, size: 0x4, def value: None
   int32_t ____environmentNameIdx;
 
+  /// [SerializeField]
   /// @brief Field _beatmapColorSchemeIdx, offset: 0x18, size: 0x4, def value: None
   int32_t ____beatmapColorSchemeIdx;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpMovementSpeed, offset: 0x1c, size: 0x4, def value: None
   float_t ____noteJumpMovementSpeed;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpStartBeatOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____noteJumpStartBeatOffset;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _notesCount, offset: 0x24, size: 0x4, def value: None
   int32_t ____notesCount;
 
+  /// [SerializeField]
   /// @brief Field _obstaclesCount, offset: 0x28, size: 0x4, def value: None
   int32_t ____obstaclesCount;
 
+  /// [SerializeField]
   /// @brief Field _bombsCount, offset: 0x2c, size: 0x4, def value: None
   int32_t ____bombsCount;
 
+  /// [SerializeField]
   /// @brief Field _cuttableBeatmapObjectsCount, offset: 0x30, size: 0x4, def value: None
   int32_t ____cuttableBeatmapObjectsCount;
 
@@ -601,44 +614,54 @@ protected:
   constexpr BeatmapLevelSO_ColorScheme();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_ColorScheme", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_ColorScheme", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelSO_ColorScheme(BeatmapLevelSO_ColorScheme&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_ColorScheme", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO_ColorScheme", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSO_ColorScheme(BeatmapLevelSO_ColorScheme const&) = delete;
+  BeatmapLevelSO_ColorScheme(BeatmapLevelSO_ColorSchemeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14991 };
 
+  /// [SerializeField]
   /// @brief Field _colorSchemeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____colorSchemeId;
 
+  /// [SerializeField]
   /// @brief Field _overrideNotes, offset: 0x18, size: 0x1, def value: None
   bool ____overrideNotes;
 
+  /// [SerializeField]
   /// @brief Field _saberAColor, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Color ____saberAColor;
 
+  /// [SerializeField]
   /// @brief Field _saberBColor, offset: 0x2c, size: 0x10, def value: None
   ::UnityEngine::Color ____saberBColor;
 
+  /// [SerializeField]
   /// @brief Field _obstaclesColor, offset: 0x3c, size: 0x10, def value: None
   ::UnityEngine::Color ____obstaclesColor;
 
+  /// [SerializeField]
   /// @brief Field _overrideLights, offset: 0x4c, size: 0x1, def value: None
   bool ____overrideLights;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor0, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColor0;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor1, offset: 0x60, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColor1;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor0Boost, offset: 0x70, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColor0Boost;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor1Boost, offset: 0x80, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColor1Boost;
 
@@ -1042,80 +1065,103 @@ protected:
   constexpr BeatmapLevelSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelSO(BeatmapLevelSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelSO(BeatmapLevelSO const&) = delete;
+  BeatmapLevelSO(BeatmapLevelSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14992 };
 
+  /// [SerializeField]
   /// @brief Field _version, offset: 0x18, size: 0x4, def value: None
   int32_t ____version;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _levelID, offset: 0x20, size: 0x8, def value: None
   ::StringW ____levelID;
 
+  /// [SerializeField]
   /// @brief Field _songName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____songName;
 
+  /// [SerializeField]
   /// @brief Field _songSubName, offset: 0x30, size: 0x8, def value: None
   ::StringW ____songSubName;
 
+  /// [SerializeField]
   /// @brief Field _songAuthorName, offset: 0x38, size: 0x8, def value: None
   ::StringW ____songAuthorName;
 
+  /// [SerializeField]
   /// @brief Field _levelAuthorName, offset: 0x40, size: 0x8, def value: None
   ::StringW ____levelAuthorName;
 
+  /// [SerializeField]
   /// @brief Field _previewAudioClip, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____previewAudioClip;
 
+  /// [SerializeField]
   /// @brief Field _beatsPerMinute, offset: 0x50, size: 0x4, def value: None
   float_t ____beatsPerMinute;
 
+  /// [SerializeField]
   /// @brief Field _integratedLufs, offset: 0x54, size: 0x4, def value: None
   float_t ____integratedLufs;
 
+  /// [SerializeField]
   /// @brief Field _songTimeOffset, offset: 0x58, size: 0x4, def value: None
   float_t ____songTimeOffset;
 
+  /// [SerializeField]
   /// @brief Field _shuffle, offset: 0x5c, size: 0x4, def value: None
   float_t ____shuffle;
 
+  /// [SerializeField]
   /// @brief Field _shufflePeriod, offset: 0x60, size: 0x4, def value: None
   float_t ____shufflePeriod;
 
+  /// [SerializeField]
   /// @brief Field _previewStartTime, offset: 0x64, size: 0x4, def value: None
   float_t ____previewStartTime;
 
+  /// [SerializeField]
   /// @brief Field _previewDuration, offset: 0x68, size: 0x4, def value: None
   float_t ____previewDuration;
 
+  /// [SerializeField]
   /// @brief Field _songDuration, offset: 0x6c, size: 0x4, def value: None
   float_t ____songDuration;
 
+  /// [SerializeField]
   /// @brief Field _coverImage, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____coverImage;
 
+  /// [SerializeField]
   /// @brief Field _environmentName, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentName ____environmentName;
 
+  /// [SerializeField]
   /// @brief Field _allDirectionsEnvironmentName, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentName ____allDirectionsEnvironmentName;
 
+  /// [SerializeField]
   /// @brief Field _environmentNames, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::EnvironmentName> ____environmentNames;
 
+  /// [SerializeField]
   /// @brief Field _colorSchemes, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapLevelSO_ColorScheme*> ____colorSchemes;
 
+  /// [SerializeField]
   /// @brief Field _previewDifficultyBeatmapSets, offset: 0x98, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapLevelSO_PreviewDifficultyBeatmapSet*> ____previewDifficultyBeatmapSets;
 
+  /// [SerializeField]
   /// @brief Field _contentRating, offset: 0xa0, size: 0x4, def value: None
   ::GlobalNamespace::PlayerSensitivityFlag ____contentRating;
 

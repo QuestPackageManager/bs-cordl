@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatTransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,32 +115,38 @@ protected:
   constexpr FloatTransitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTransitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTransitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatTransitionSO(FloatTransitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTransitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTransitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatTransitionSO(FloatTransitionSO const&) = delete;
+  FloatTransitionSO(FloatTransitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22381 };
 
+  /// [SerializeField]
   /// @brief Field _normalState, offset: 0x20, size: 0x4, def value: None
   float_t ____normalState;
 
+  /// [SerializeField]
   /// @brief Field _highlightedState, offset: 0x24, size: 0x4, def value: None
   float_t ____highlightedState;
 
+  /// [SerializeField]
   /// @brief Field _pressedState, offset: 0x28, size: 0x4, def value: None
   float_t ____pressedState;
 
+  /// [SerializeField]
   /// @brief Field _disabledState, offset: 0x2c, size: 0x4, def value: None
   float_t ____disabledState;
 
+  /// [SerializeField]
   /// @brief Field _selectedState, offset: 0x30, size: 0x4, def value: None
   float_t ____selectedState;
 
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedState, offset: 0x34, size: 0x4, def value: None
   float_t ____selectedAndHighlightedState;
 

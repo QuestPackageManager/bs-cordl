@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\CultureData.hpp"
+// IWYU pragma private; include "System/Globalization/CultureData.hpp"
 #include "System/Globalization/zzzz__CalendarData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CultureData_def.hpp"
@@ -7,18 +7,20 @@
 #include "System/Globalization/zzzz__CalendarId_def.hpp"
 #include "System/Globalization/zzzz__CultureData_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
-// Ctor Parameters [CppParam { name: "currency_decimal_digits", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "currency_decimal_separator", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "currency_group_separator", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "currency_group_sizes0", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "currency_group_sizes1", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "currency_negative_pattern", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "currency_positive_pattern", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "currency_symbol", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "nan_symbol", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "negative_infinity_symbol", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "negative_sign", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "number_decimal_digits", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "number_decimal_separator", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "number_group_separator", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "number_group_sizes0", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "number_group_sizes1", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "number_negative_pattern", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "per_mille_symbol", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "percent_negative_pattern", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "percent_positive_pattern", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "percent_symbol", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "positive_infinity_symbol", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "positive_sign", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "currency_decimal_digits", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currency_decimal_separator", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currency_group_separator", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "currency_group_sizes0", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currency_group_sizes1", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "currency_negative_pattern", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currency_positive_pattern", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currency_symbol", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nan_symbol", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "negative_infinity_symbol", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "negative_sign", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "number_decimal_digits", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "number_decimal_separator", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "number_group_separator", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "number_group_sizes0", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "number_group_sizes1", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "number_negative_pattern", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "per_mille_symbol", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "percent_negative_pattern", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "percent_positive_pattern", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "percent_symbol", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "positive_infinity_symbol", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "positive_sign", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Globalization::CultureData_NumberFormatEntryManaged::CultureData_NumberFormatEntryManaged(
     int32_t currency_decimal_digits, int32_t currency_decimal_separator, int32_t currency_group_separator, int32_t currency_group_sizes0, int32_t currency_group_sizes1,
     int32_t currency_negative_pattern, int32_t currency_positive_pattern, int32_t currency_symbol, int32_t nan_symbol, int32_t negative_infinity_symbol, int32_t negative_sign,

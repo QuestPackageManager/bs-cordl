@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Spinner.hpp"
+// IWYU pragma private; include "Unity/Collections/Spinner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct Spinner;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::Spinner);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::Spinner, "Unity.Collections", "Spinner");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -36,7 +37,7 @@ public:
   // @brief default ctor
   constexpr Spinner();
 
-  // Ctor Parameters [CppParam { name: "m_Lock", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Lock", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Spinner(int32_t m_Lock) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

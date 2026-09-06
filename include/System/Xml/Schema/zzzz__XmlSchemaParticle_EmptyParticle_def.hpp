@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaParticle_EmptyParticle.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaParticle_EmptyParticle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ protected:
   constexpr XmlSchemaParticle_EmptyParticle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle_EmptyParticle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle_EmptyParticle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaParticle_EmptyParticle(XmlSchemaParticle_EmptyParticle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle_EmptyParticle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle_EmptyParticle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaParticle_EmptyParticle(XmlSchemaParticle_EmptyParticle const&) = delete;
+  XmlSchemaParticle_EmptyParticle(XmlSchemaParticle_EmptyParticleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9806 };

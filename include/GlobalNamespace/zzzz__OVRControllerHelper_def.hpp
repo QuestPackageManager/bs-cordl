@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRControllerHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRControllerHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   // @brief default ctor
   constexpr OVRControllerHelper_ControllerType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRControllerHelper_ControllerType(int32_t value__) noexcept;
 
   /// @brief Field Quest2 value: I32(3)
@@ -114,6 +114,7 @@ static_assert(offsetof(::GlobalNamespace::OVRControllerHelper_ControllerType, va
 static_assert(sizeof(::GlobalNamespace::OVRControllerHelper_ControllerType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/controller-animations/")]
 // Dependencies OVRControllerHelper::ControllerType, OVRInput::Controller, OVRInput::ControllerInHandState, OVRInput::InputDeviceShowState, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -415,13 +416,13 @@ protected:
   constexpr OVRControllerHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerHelper(OVRControllerHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerHelper(OVRControllerHelper const&) = delete;
+  OVRControllerHelper(OVRControllerHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7869 };

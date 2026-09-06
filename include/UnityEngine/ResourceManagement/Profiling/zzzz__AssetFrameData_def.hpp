@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\AssetFrameData.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/AssetFrameData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,9 +35,9 @@ public:
   // @brief default ctor
   constexpr AssetFrameData();
 
-  // Ctor Parameters [CppParam { name: "AssetCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "BundleCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "ReferenceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PercentComplete", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Status", ty:
-  // "::UnityEngine::ResourceManagement::Profiling::ContentStatus", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "AssetCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "BundleCode", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "ReferenceCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "PercentComplete", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "Status", ty: "::UnityEngine::ResourceManagement::Profiling::ContentStatus", modifiers: "", def_value: None, comment: None }]
   constexpr AssetFrameData(int32_t AssetCode, int32_t BundleCode, int32_t ReferenceCount, float_t PercentComplete, ::UnityEngine::ResourceManagement::Profiling::ContentStatus Status) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

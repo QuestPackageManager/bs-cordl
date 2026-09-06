@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DirectionalLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/DirectionalLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,23 +67,26 @@ protected:
   constexpr DirectionalLightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLightWithId(DirectionalLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLightWithId(DirectionalLightWithId const&) = delete;
+  DirectionalLightWithId(DirectionalLightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19519 };
 
+  /// [SerializeField]
   /// @brief Field _light, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLight> ____light;
 
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x48, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
   /// @brief Field _minIntensity, offset: 0x4c, size: 0x4, def value: None
   float_t ____minIntensity;
 

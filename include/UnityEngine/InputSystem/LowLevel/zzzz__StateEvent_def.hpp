@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\StateEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/StateEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include <cstddef>
@@ -12,7 +13,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
@@ -41,6 +44,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::StateEvent);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::StateEvent, "UnityEngine.InputSystem.LowLevel", "StateEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "StateEvent/<stateData>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -53,7 +58,7 @@ public:
   // @brief default ctor
   constexpr StateEvent__stateData_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr StateEvent__stateData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -74,7 +79,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::StateEvent__stateDa
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Dependencies UnityEngine.InputSystem.LowLevel.InputEvent, UnityEngine.InputSystem.LowLevel.StateEvent::<stateData>e__FixedBuffer, UnityEngine.InputSystem.Utilities.FourCC
+// Dependencies UnityEngine.InputSystem.LowLevel.IInputStateTypeInfo, UnityEngine.InputSystem.LowLevel.InputEvent, UnityEngine.InputSystem.LowLevel.StateEvent::<stateData>e__FixedBuffer,
+// UnityEngine.InputSystem.Utilities.FourCC
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.StateEvent
@@ -121,13 +127,21 @@ public:
   static inline ::UnityEngine::InputSystem::LowLevel::StateEvent* FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
   /// @brief Method GetEventSizeWithPayload, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TState> static inline int32_t GetEventSizeWithPayload();
+  template <typename TState>
+    requires(::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+  static inline int32_t GetEventSizeWithPayload();
 
   /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TState> inline TState GetState();
+  template <typename TState>
+    requires(::cordl_internals::type_constraint<TState, ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*> && ::cordl_internals::value_type_constraint<TState> &&
+             ::cordl_internals::default_constructor_constraint<TState>)
+  inline TState GetState();
 
   /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TState> static inline TState GetState(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
+  template <typename TState>
+    requires(::cordl_internals::type_constraint<TState, ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*> && ::cordl_internals::value_type_constraint<TState> &&
+             ::cordl_internals::default_constructor_constraint<TState>)
+  static inline TState GetState(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
   /// @brief Method ToEventPtr, addr 0x65b5a68, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
@@ -166,9 +180,9 @@ public:
   // @brief default ctor
   constexpr StateEvent();
 
-  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "stateFormat", ty:
-  // "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "stateData", ty: "::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None, comment: None }, CppParam { name: "stateFormat", ty:
+  // "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None, comment: None }, CppParam { name: "stateData", ty:
+  // "::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr StateEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, ::UnityEngine::InputSystem::Utilities::FourCC stateFormat,
                        ::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer stateData) noexcept;
 
@@ -207,6 +221,7 @@ private:
     struct {
       /// @brief Padding field 0x18
       uint8_t ___stateData_padding[0x18];
+      /// [FixedBuffer(typeof(System.Byte), 1)]
       /// @brief Field stateData, offset: 0x18, size: 0x1, def value: None
       ::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer ___stateData;
     };
@@ -214,6 +229,7 @@ private:
     struct {
       /// @brief Padding field 0x18 for alignment
       uint8_t ___stateData_padding_forAlignment[0x18];
+      /// [FixedBuffer(typeof(System.Byte), 1)]
       /// @brief Field stateData, offset: 0x18, size: 0x1, def value: None
       ::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer ___stateData_forAlignment;
     };

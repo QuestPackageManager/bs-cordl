@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\LowLevel\Unsafe\ProfilerCategoryDescription.hpp"
+// IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerCategoryDescription.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "Unity/Profiling/LowLevel/Unsafe/zzzz__ProfilerCategoryDescription_def.hpp"
 constexpr uint16_t& Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_get_Id() {
@@ -56,9 +56,10 @@ constexpr uint8_t* const& Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDe
 constexpr void Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_set_NameUtf8(uint8_t* value) {
   this->___NameUtf8 = value;
 }
-// Ctor Parameters [CppParam { name: "Id", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Flags", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "reserved0", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NameUtf8Len",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NameUtf8", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Id", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Flags", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reserved0", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "NameUtf8Len", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NameUtf8", ty: "uint8_t*", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::ProfilerCategoryDescription(uint16_t Id, uint16_t Flags, ::UnityEngine::Color32 Color, int32_t reserved0,
                                                                                                          int32_t NameUtf8Len, uint8_t* NameUtf8) noexcept {
   this->Id = Id;

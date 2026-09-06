@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\LocalizedTextMeshPro.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/LocalizedTextMeshPro.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,10 @@ class LocalizedTextMeshPro;
 // Write type traits
 MARK_REF_T(::BGLib::Polyglot::LocalizedTextMeshPro*);
 DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::LocalizedTextMeshPro*, "BGLib.Polyglot", "LocalizedTextMeshPro");
+// [NullableContext(1)]
+// [Nullable(new[] { 0, 1 })]
+// [AddComponentMenu("UI/Localized TextMesh Pro", 13)]
+// [RequireComponent(typeof(TMPro.TextMeshPro))]
 // Dependencies BGLib.Polyglot.LocalizedTextComponent`1<T>
 namespace BGLib::Polyglot {
 // Is value type: false
@@ -55,13 +59,13 @@ protected:
   constexpr LocalizedTextMeshPro();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedTextMeshPro(LocalizedTextMeshPro&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextMeshPro(LocalizedTextMeshPro const&) = delete;
+  LocalizedTextMeshPro(LocalizedTextMeshProconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22201 };

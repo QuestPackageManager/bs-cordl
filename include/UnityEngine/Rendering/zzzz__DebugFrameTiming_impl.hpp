@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugFrameTiming.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugFrameTiming.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FrameTimeSample_impl.hpp"
 #include "UnityEngine/zzzz__FrameTiming_impl.hpp"

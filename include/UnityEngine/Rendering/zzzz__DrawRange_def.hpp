@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DrawRange.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DrawRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr DrawRange();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "::UnityEngine::Rendering::RangeKey", modifiers: "", def_value: None }, CppParam { name: "drawCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "drawOffset", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "key", ty: "::UnityEngine::Rendering::RangeKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "drawOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DrawRange(::UnityEngine::Rendering::RangeKey key, int32_t drawCount, int32_t drawOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

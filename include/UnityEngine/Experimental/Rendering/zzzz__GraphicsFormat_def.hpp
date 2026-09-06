@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\GraphicsFormat.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/GraphicsFormat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -188,7 +188,7 @@ public:
   // @brief default ctor
   constexpr GraphicsFormat();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphicsFormat(int32_t value__) noexcept;
 
   /// @brief Field A10R10G10B10_XRSRGBPack32 value: I32(85)

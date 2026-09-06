@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlDictionaryReaderQuotas.hpp"
+// IWYU pragma private; include "System/Xml/XmlDictionaryReaderQuotas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,14 +24,19 @@ namespace System::Xml {
 class CORDL_TYPE XmlDictionaryReaderQuotas : public ::System::Object {
 public:
   // Declarations
+  /// @brief [DefaultValue(16384)]
   __declspec(property(get = get_MaxArrayLength)) int32_t MaxArrayLength;
 
+  /// @brief [DefaultValue(4096)]
   __declspec(property(get = get_MaxBytesPerRead)) int32_t MaxBytesPerRead;
 
+  /// @brief [DefaultValue(32)]
   __declspec(property(get = get_MaxDepth)) int32_t MaxDepth;
 
+  /// @brief [DefaultValue(16384)]
   __declspec(property(get = get_MaxNameTableCharCount)) int32_t MaxNameTableCharCount;
 
+  /// @brief [DefaultValue(8192)]
   __declspec(property(get = get_MaxStringContentLength)) int32_t MaxStringContentLength;
 
   /// @brief Field defaultQuota, offset 0xffffffff, size 0x8
@@ -156,13 +161,13 @@ protected:
   constexpr XmlDictionaryReaderQuotas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryReaderQuotas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryReaderQuotas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDictionaryReaderQuotas(XmlDictionaryReaderQuotas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryReaderQuotas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryReaderQuotas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDictionaryReaderQuotas(XmlDictionaryReaderQuotas const&) = delete;
+  XmlDictionaryReaderQuotas(XmlDictionaryReaderQuotasconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16985 };

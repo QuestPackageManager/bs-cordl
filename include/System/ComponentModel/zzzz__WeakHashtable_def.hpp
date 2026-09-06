@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\WeakHashtable.hpp"
+// IWYU pragma private; include "System/ComponentModel/WeakHashtable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,13 +58,13 @@ protected:
   constexpr WeakHashtable_WeakKeyComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable_WeakKeyComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable_WeakKeyComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WeakHashtable_WeakKeyComparer(WeakHashtable_WeakKeyComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable_WeakKeyComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable_WeakKeyComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WeakHashtable_WeakKeyComparer(WeakHashtable_WeakKeyComparer const&) = delete;
+  WeakHashtable_WeakKeyComparer(WeakHashtable_WeakKeyComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11345 };
@@ -108,13 +108,13 @@ protected:
   constexpr WeakHashtable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WeakHashtable(WeakHashtable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WeakHashtable(WeakHashtable const&) = delete;
+  WeakHashtable(WeakHashtableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11346 };

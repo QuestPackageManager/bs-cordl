@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\DllImportAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/DllImportAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class DllImportAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::InteropServices::DllImportAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::DllImportAttribute*, "System.Runtime.InteropServices", "DllImportAttribute");
+// [ComVisible(true)]
+// [AttributeUsage((System.AttributeTargets)64, Inherited = false)]
 // Dependencies System.Attribute, System.Runtime.InteropServices.CallingConvention, System.Runtime.InteropServices.CharSet
 namespace System::Runtime::InteropServices {
 // Is value type: false
@@ -145,13 +147,13 @@ protected:
   constexpr DllImportAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DllImportAttribute(DllImportAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DllImportAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DllImportAttribute(DllImportAttribute const&) = delete;
+  DllImportAttribute(DllImportAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3343 };

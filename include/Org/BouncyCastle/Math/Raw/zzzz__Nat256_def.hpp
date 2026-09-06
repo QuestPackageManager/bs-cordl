@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\Raw\Nat256.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/Raw/Nat256.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -182,13 +182,13 @@ protected:
   constexpr Nat256();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Nat256", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Nat256", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Nat256(Nat256&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Nat256", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Nat256", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Nat256(Nat256 const&) = delete;
+  Nat256(Nat256const&) = delete;
 
   /// @brief Field M offset 0xffffffff size 0x8
   static constexpr uint64_t M{ static_cast<uint64_t>(0xffffffffu) };

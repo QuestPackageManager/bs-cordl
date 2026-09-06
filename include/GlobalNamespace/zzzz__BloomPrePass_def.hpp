@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePass.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   // @brief default ctor
   constexpr BloomPrePass_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BloomPrePass_Mode(int32_t value__) noexcept;
 
   /// @brief Field RenderAndSetData value: I32(0)
@@ -89,6 +89,8 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePass_Mode, value__) == 0x0, "O
 static_assert(sizeof(::GlobalNamespace::BloomPrePass_Mode) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteAlways]
+// [RequireComponent(typeof(UnityEngine.Camera))]
 // Dependencies BloomPrePass::Mode, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -186,26 +188,32 @@ protected:
   constexpr BloomPrePass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePass(BloomPrePass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePass(BloomPrePass const&) = delete;
+  BloomPrePass(BloomPrePassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19446 };
 
+  /// [SerializeField]
   /// @brief Field _bloomPrepassRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> ____bloomPrepassRenderer;
 
+  /// [SerializeField]
   /// @brief Field _bloomPrePassEffectContainer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> ____bloomPrePassEffectContainer;
 
+  /// [Tooltip("This is used to share same render data with two BloomPrePass objects. We need this for efficient implementation of mixed reality background and foreground camera. Null is allowed.")]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _bloomPrePassRenderData, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassRenderDataSO> ____bloomPrePassRenderData;
 
+  /// [SerializeField]
   /// @brief Field _mode, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::BloomPrePass_Mode ____mode;
 

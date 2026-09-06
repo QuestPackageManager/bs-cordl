@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkStatisticsDelta.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkStatisticsDelta.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct NetworkStatisticsDelta;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::NetworkStatisticsDelta);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NetworkStatisticsDelta, "", "NetworkStatisticsDelta");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -29,13 +30,14 @@ public:
   // @brief default ctor
   constexpr NetworkStatisticsDelta();
 
-  // Ctor Parameters [CppParam { name: "packetsSentDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceivedDelta", ty: "int64_t", modifiers: "", def_value: None },
-  // CppParam { name: "bytesSentDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "bytesReceivedDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "packetsLostDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsSentEncryptedDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "packetsSentPlaintextDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsSentRejectedDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "packetsReceivedEncryptedDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceivedPlaintextDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "packetsReceivedRejectedDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "encryptionProcessingTimeDelta", ty: "int64_t", modifiers: "", def_value: None }, CppParam
-  // { name: "decryptionProcessingTimeDelta", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "packetsSentDelta", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsReceivedDelta", ty: "int64_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "bytesSentDelta", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bytesReceivedDelta", ty: "int64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsLostDelta", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsSentEncryptedDelta",
+  // ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsSentPlaintextDelta", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "packetsSentRejectedDelta", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsReceivedEncryptedDelta", ty: "int64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "packetsReceivedPlaintextDelta", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "packetsReceivedRejectedDelta", ty: "int64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "encryptionProcessingTimeDelta", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "decryptionProcessingTimeDelta", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr NetworkStatisticsDelta(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta,
                                    int64_t packetsSentEncryptedDelta, int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta,
                                    int64_t packetsReceivedPlaintextDelta, int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta) noexcept;

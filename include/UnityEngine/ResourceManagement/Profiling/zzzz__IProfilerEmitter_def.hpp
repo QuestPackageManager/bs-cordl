@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\IProfilerEmitter.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/IProfilerEmitter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,18 +31,18 @@ public:
   // Declarations
   __declspec(property(get = get_IsEnabled)) bool IsEnabled;
 
-  /// @brief Method EmitFrameMetaData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EmitFrameMetaData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EmitFrameMetaData(::System::Guid id, int32_t tag, ::System::Array* data);
 
-  /// @brief Method InitialiseCallbacks, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InitialiseCallbacks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InitialiseCallbacks(::System::Action_1<float_t>* onLateUpdateDelegate);
 
-  /// @brief Method get_IsEnabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsEnabled();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IProfilerEmitter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IProfilerEmitter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IProfilerEmitter(IProfilerEmitter const&) = delete;
+  IProfilerEmitter(IProfilerEmitterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18808 };

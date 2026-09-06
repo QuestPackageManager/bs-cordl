@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HSVPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/HSVPanelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,12 +103,14 @@ public:
   /// @brief Method .ctor, addr 0x5a2d308, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_colorDidChangeEvent, addr 0x5a2cd50, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   /// @brief Method get_color, addr 0x5a2ced0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_colorDidChangeEvent, addr 0x5a2ce10, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
@@ -121,23 +123,26 @@ protected:
   constexpr HSVPanelController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HSVPanelController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HSVPanelController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HSVPanelController(HSVPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HSVPanelController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HSVPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HSVPanelController(HSVPanelController const&) = delete;
+  HSVPanelController(HSVPanelControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23174 };
 
+  /// [SerializeField]
   /// @brief Field _colorSaturationValueSlider, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSaturationValueSlider> ____colorSaturationValueSlider;
 
+  /// [SerializeField]
   /// @brief Field _colorHueSlider, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorHueSlider> ____colorHueSlider;
 
+  /// [CompilerGenerated]
   /// @brief Field colorDidChangeEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* ___colorDidChangeEvent;
 

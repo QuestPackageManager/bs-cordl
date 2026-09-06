@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlTextWriterBase64Encoder.hpp"
+// IWYU pragma private; include "System/Xml/XmlTextWriterBase64Encoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ protected:
   constexpr XmlTextWriterBase64Encoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextWriterBase64Encoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextWriterBase64Encoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextWriterBase64Encoder(XmlTextWriterBase64Encoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextWriterBase64Encoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextWriterBase64Encoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextWriterBase64Encoder(XmlTextWriterBase64Encoder const&) = delete;
+  XmlTextWriterBase64Encoder(XmlTextWriterBase64Encoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9245 };

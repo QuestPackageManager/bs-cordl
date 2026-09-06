@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ScriptableObject.hpp"
+// IWYU pragma private; include "UnityEngine/ScriptableObject.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -86,7 +86,7 @@ template <typename T> inline T UnityEngine::ScriptableObject::CreateInstance() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method);
 }
-inline void UnityEngine::ScriptableObject::CreateScriptableObject(::UnityEngine::ScriptableObject* self) {
+inline void UnityEngine::ScriptableObject::CreateScriptableObject(/* [Writable] */ ::UnityEngine::ScriptableObject* self) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ScriptableObject*>(), { "CreateScriptableObject", {}, { ::i2c::type_of<::UnityEngine::ScriptableObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self);

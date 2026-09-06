@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\EventDescriptor.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/EventDescriptor.hpp"
 #include "System/Runtime/Diagnostics/zzzz__EventDescriptor_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Diagnostics::EventDescriptor._ctor
@@ -228,10 +228,10 @@ inline bool System::Runtime::Diagnostics::EventDescriptor::Equals(::System::Runt
                    (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::EventDescriptor>(), { "Equals", {}, { ::i2c::type_of<::System::Runtime::Diagnostics::EventDescriptor>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "m_id", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_version", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_channel", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_level", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_opcode", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_task", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_keywords", ty: "int64_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_id", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_version", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_channel", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_level", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_opcode", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_task", ty: "uint16_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_keywords", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Diagnostics::EventDescriptor::EventDescriptor(uint16_t m_id, uint8_t m_version, uint8_t m_channel, uint8_t m_level, uint8_t m_opcode, uint16_t m_task,
                                                                            int64_t m_keywords) noexcept {
   this->m_id = m_id;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Scripting\GarbageCollector.hpp"
+// IWYU pragma private; include "UnityEngine/Scripting/GarbageCollector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
   // @brief default ctor
   constexpr GarbageCollector_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GarbageCollector_Mode(int32_t value__) noexcept;
 
   /// @brief Field Disabled value: I32(0)
@@ -84,6 +84,7 @@ static_assert(offsetof(::UnityEngine::Scripting::GarbageCollector_Mode, value__)
 static_assert(sizeof(::UnityEngine::Scripting::GarbageCollector_Mode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Scripting
+// [NativeHeader("Runtime/Scripting/GarbageCollector.h")]
 // Dependencies System.Object
 namespace UnityEngine::Scripting {
 // Is value type: false
@@ -99,6 +100,7 @@ public:
   /// @brief Method GetMode, addr 0x6aff0bc, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Scripting::GarbageCollector_Mode GetMode();
 
+  /// [NativeThrows]
   /// @brief Method SetMode, addr 0x6aff0e4, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMode(::UnityEngine::Scripting::GarbageCollector_Mode mode);
 
@@ -115,13 +117,13 @@ protected:
   constexpr GarbageCollector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GarbageCollector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GarbageCollector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GarbageCollector(GarbageCollector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GarbageCollector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GarbageCollector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GarbageCollector(GarbageCollector const&) = delete;
+  GarbageCollector(GarbageCollectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10480 };

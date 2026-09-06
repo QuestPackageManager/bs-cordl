@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\InvokeMemberBinder.hpp"
+// IWYU pragma private; include "System/Dynamic/InvokeMemberBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,14 +37,14 @@ public:
   /// @brief Method Bind, addr 0x5fc8aa4, size 0xbc, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
 
-  /// @brief Method FallbackInvoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FallbackInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackInvoke(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args,
                                                               ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   /// @brief Method FallbackInvokeMember, addr 0x5fc76d0, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackInvokeMember(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
 
-  /// @brief Method FallbackInvokeMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FallbackInvokeMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackInvokeMember(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args,
                                                                     ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
@@ -60,9 +60,11 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreCase, addr 0x5fc8a9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x5fc8a94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -72,20 +74,22 @@ protected:
   constexpr InvokeMemberBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeMemberBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeMemberBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvokeMemberBinder(InvokeMemberBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeMemberBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvokeMemberBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvokeMemberBinder(InvokeMemberBinder const&) = delete;
+  InvokeMemberBinder(InvokeMemberBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16670 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreCase>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IgnoreCase_k__BackingField;
 

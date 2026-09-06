@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\AssetDatabaseRefreshAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/AssetDatabaseRefreshAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__AssetDatabaseRefreshAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::AssetDatabaseRefreshAnalytic._ctor

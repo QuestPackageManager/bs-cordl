@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipeline.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,14 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightDataGI;
@@ -292,13 +296,13 @@ protected:
   constexpr CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry(CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry(CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry const&) = delete;
+  CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry(CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13021 };
@@ -355,13 +359,13 @@ protected:
   constexpr UniversalRenderPipeline_CameraMetadataCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_CameraMetadataCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_CameraMetadataCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipeline_CameraMetadataCache(UniversalRenderPipeline_CameraMetadataCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_CameraMetadataCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_CameraMetadataCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline_CameraMetadataCache(UniversalRenderPipeline_CameraMetadataCache const&) = delete;
+  UniversalRenderPipeline_CameraMetadataCache(UniversalRenderPipeline_CameraMetadataCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13022 };
@@ -399,13 +403,13 @@ protected:
   constexpr Pipeline_Profiling_UniversalRenderPipeline_Renderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Renderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Renderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pipeline_Profiling_UniversalRenderPipeline_Renderer(Pipeline_Profiling_UniversalRenderPipeline_Renderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Renderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Renderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pipeline_Profiling_UniversalRenderPipeline_Renderer(Pipeline_Profiling_UniversalRenderPipeline_Renderer const&) = delete;
+  Pipeline_Profiling_UniversalRenderPipeline_Renderer(Pipeline_Profiling_UniversalRenderPipeline_Rendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13023 };
@@ -439,13 +443,13 @@ protected:
   constexpr Pipeline_Profiling_UniversalRenderPipeline_Context();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Context", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Context", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pipeline_Profiling_UniversalRenderPipeline_Context(Pipeline_Profiling_UniversalRenderPipeline_Context&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Context", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pipeline_Profiling_UniversalRenderPipeline_Context", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pipeline_Profiling_UniversalRenderPipeline_Context(Pipeline_Profiling_UniversalRenderPipeline_Context const&) = delete;
+  Pipeline_Profiling_UniversalRenderPipeline_Context(Pipeline_Profiling_UniversalRenderPipeline_Contextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13024 };
@@ -554,13 +558,13 @@ protected:
   constexpr Profiling_UniversalRenderPipeline_Pipeline();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Profiling_UniversalRenderPipeline_Pipeline", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Profiling_UniversalRenderPipeline_Pipeline", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Profiling_UniversalRenderPipeline_Pipeline(Profiling_UniversalRenderPipeline_Pipeline&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Profiling_UniversalRenderPipeline_Pipeline", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Profiling_UniversalRenderPipeline_Pipeline", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Profiling_UniversalRenderPipeline_Pipeline(Profiling_UniversalRenderPipeline_Pipeline const&) = delete;
+  Profiling_UniversalRenderPipeline_Pipeline(Profiling_UniversalRenderPipeline_Pipelineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13025 };
@@ -589,13 +593,13 @@ protected:
   constexpr UniversalRenderPipeline_Profiling();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_Profiling", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_Profiling", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipeline_Profiling(UniversalRenderPipeline_Profiling&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_Profiling", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_Profiling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline_Profiling(UniversalRenderPipeline_Profiling const&) = delete;
+  UniversalRenderPipeline_Profiling(UniversalRenderPipeline_Profilingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13026 };
@@ -606,6 +610,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipeline_Profiling) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [IsReadOnly]
 // Dependencies UnityEngine.Rendering.ScriptableRenderContext
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -643,8 +648,8 @@ public:
   // @brief default ctor
   constexpr UniversalRenderPipeline_CameraRenderingScope();
 
-  // Ctor Parameters [CppParam { name: "m_Context", ty: "::UnityEngine::Rendering::ScriptableRenderContext", modifiers: "", def_value: None }, CppParam { name: "m_Camera", ty:
-  // "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Context", ty: "::UnityEngine::Rendering::ScriptableRenderContext", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Camera", ty:
+  // "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: None, comment: None }]
   constexpr UniversalRenderPipeline_CameraRenderingScope(::UnityEngine::Rendering::ScriptableRenderContext m_Context, ::UnityW<::UnityEngine::Camera> m_Camera) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -669,6 +674,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderPipel
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipeline_CameraRenderingScope) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [IsReadOnly]
 // Dependencies UnityEngine.Rendering.ScriptableRenderContext
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -706,8 +712,8 @@ public:
   // @brief default ctor
   constexpr UniversalRenderPipeline_ContextRenderingScope();
 
-  // Ctor Parameters [CppParam { name: "m_Context", ty: "::UnityEngine::Rendering::ScriptableRenderContext", modifiers: "", def_value: None }, CppParam { name: "m_Cameras", ty:
-  // "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Context", ty: "::UnityEngine::Rendering::ScriptableRenderContext", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Cameras", ty:
+  // "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*", modifiers: "", def_value: None, comment: None }]
   constexpr UniversalRenderPipeline_ContextRenderingScope(::UnityEngine::Rendering::ScriptableRenderContext m_Context,
                                                           ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* m_Cameras) noexcept;
 
@@ -787,13 +793,13 @@ protected:
   constexpr UniversalRenderPipeline_SingleCameraRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_SingleCameraRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_SingleCameraRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipeline_SingleCameraRequest(UniversalRenderPipeline_SingleCameraRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_SingleCameraRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline_SingleCameraRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline_SingleCameraRequest(UniversalRenderPipeline_SingleCameraRequest const&) = delete;
+  UniversalRenderPipeline_SingleCameraRequest(UniversalRenderPipeline_SingleCameraRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13029 };
@@ -824,6 +830,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderPipel
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipeline_SingleCameraRequest) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -862,13 +869,13 @@ protected:
   constexpr UniversalRenderPipeline___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipeline___c(UniversalRenderPipeline___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline___c(UniversalRenderPipeline___c const&) = delete;
+  UniversalRenderPipeline___c(UniversalRenderPipeline___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13030 };
@@ -1126,6 +1133,7 @@ public:
   /// @brief Method RenderCameraStack, addr 0x68da738, size 0x14b8, virtual false, abstract: false, final false
   static inline void RenderCameraStack(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* baseCamera);
 
+  /// [Obsolete("RenderSingleCamera is obsolete, please use RenderPipeline.SubmitRenderRequest with UniversalRenderer.SingleCameraRequest as RequestData type")]
   /// @brief Method RenderSingleCamera, addr 0x68dbf6c, size 0x68, virtual false, abstract: false, final false
   static inline void RenderSingleCamera(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
@@ -1168,7 +1176,7 @@ public:
   static inline bool TryGetCullingParameters(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParams);
 
   /// @brief Method UpdateCameraData, addr 0x68e04a8, size 0x370, virtual false, abstract: false, final false
-  static inline void UpdateCameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* baseCameraData, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr);
+  static inline void UpdateCameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* baseCameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr);
 
   /// @brief Method UpdateCameraStereoMatrices, addr 0x68e0334, size 0x174, virtual false, abstract: false, final false
   static inline void UpdateCameraStereoMatrices(::UnityEngine::Camera* camera, ::UnityEngine::Experimental::Rendering::XRPass* xr);
@@ -1259,6 +1267,7 @@ public:
   /// @brief Method get_asset, addr 0x68cb10c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset> get_asset();
 
+  /// [CompilerGenerated]
   /// @brief Method get_canOptimizeScreenMSAASamples, addr 0x68d8a54, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_canOptimizeScreenMSAASamples();
 
@@ -1295,9 +1304,11 @@ public:
   /// @brief Method get_minRenderScale, addr 0x68d88e0, size 0xc, virtual false, abstract: false, final false
   static inline float_t get_minRenderScale();
 
+  /// [CompilerGenerated]
   /// @brief Method get_runtimeTextures, addr 0x68d8a3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* get_runtimeTextures();
 
+  /// [CompilerGenerated]
   /// @brief Method get_startFrameScreenMSAASamples, addr 0x68d8b14, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_startFrameScreenMSAASamples();
 
@@ -1329,12 +1340,15 @@ public:
 
   static inline void setStaticF_useRenderGraph(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_canOptimizeScreenMSAASamples, addr 0x68d8ab0, size 0x64, virtual false, abstract: false, final false
   static inline void set_canOptimizeScreenMSAASamples(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_runtimeTextures, addr 0x68d8a44, size 0x8, virtual false, abstract: false, final false
   inline void set_runtimeTextures(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_startFrameScreenMSAASamples, addr 0x68d8b70, size 0x60, virtual false, abstract: false, final false
   static inline void set_startFrameScreenMSAASamples(int32_t value);
 
@@ -1344,13 +1358,13 @@ protected:
   constexpr UniversalRenderPipeline();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipeline(UniversalRenderPipeline&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipeline", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipeline(UniversalRenderPipeline const&) = delete;
+  UniversalRenderPipeline(UniversalRenderPipelineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13031 };
@@ -1367,6 +1381,7 @@ public:
   /// @brief Field m_GlobalSettings, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings> ___m_GlobalSettings;
 
+  /// [CompilerGenerated]
   /// @brief Field <runtimeTextures>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* ____runtimeTextures_k__BackingField;
 

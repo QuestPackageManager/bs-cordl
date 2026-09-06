@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering\LoudnessData.hpp"
+// IWYU pragma private; include "LufsMetering/LoudnessData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct LoudnessData;
 // Write type traits
 MARK_VAL_T(::LufsMetering::LoudnessData);
 DEFINE_IL2CPP_CLASS(::LufsMetering::LoudnessData, "LufsMetering", "LoudnessData");
+// [IsReadOnly]
 // Dependencies
 namespace LufsMetering {
 // Is value type: true
@@ -28,8 +29,8 @@ public:
   // @brief default ctor
   constexpr LoudnessData();
 
-  // Ctor Parameters [CppParam { name: "lufs", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "blockDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "momentaryValues", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "lufs", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "blockDuration", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "momentaryValues", ty: "::ArrayW<float_t>", modifiers: "", def_value: None, comment: None }]
   constexpr LoudnessData(float_t lufs, float_t blockDuration, ::ArrayW<float_t> momentaryValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

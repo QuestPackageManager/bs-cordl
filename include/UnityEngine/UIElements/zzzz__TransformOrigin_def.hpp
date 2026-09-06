@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TransformOrigin.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TransformOrigin.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,8 +132,8 @@ public:
   // @brief default ctor
   constexpr TransformOrigin();
 
-  // Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr TransformOrigin(::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y, float_t m_Z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -203,9 +203,11 @@ public:
   /// @brief Method .ctor, addr 0x6c95c48, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c95d7c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c95d74, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -215,20 +217,24 @@ protected:
   constexpr PropertyBag_TransformOrigin_XProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_XProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_XProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_TransformOrigin_XProperty(PropertyBag_TransformOrigin_XProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_XProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TransformOrigin_XProperty(PropertyBag_TransformOrigin_XProperty const&) = delete;
+  PropertyBag_TransformOrigin_XProperty(PropertyBag_TransformOrigin_XPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4993 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -282,9 +288,11 @@ public:
   /// @brief Method .ctor, addr 0x6c95cac, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c95d9c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c95d94, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -294,20 +302,24 @@ protected:
   constexpr PropertyBag_TransformOrigin_YProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_YProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_YProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_TransformOrigin_YProperty(PropertyBag_TransformOrigin_YProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_YProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TransformOrigin_YProperty(PropertyBag_TransformOrigin_YProperty const&) = delete;
+  PropertyBag_TransformOrigin_YProperty(PropertyBag_TransformOrigin_YPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4994 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -361,9 +373,11 @@ public:
   /// @brief Method .ctor, addr 0x6c95d10, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c95dbc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c95db4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -373,20 +387,24 @@ protected:
   constexpr PropertyBag_TransformOrigin_ZProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_ZProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_ZProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_TransformOrigin_ZProperty(PropertyBag_TransformOrigin_ZProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_ZProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TransformOrigin_ZProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TransformOrigin_ZProperty(PropertyBag_TransformOrigin_ZProperty const&) = delete;
+  PropertyBag_TransformOrigin_ZProperty(PropertyBag_TransformOrigin_ZPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4995 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -424,13 +442,13 @@ protected:
   constexpr TransformOrigin_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransformOrigin_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformOrigin_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransformOrigin_PropertyBag(TransformOrigin_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransformOrigin_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformOrigin_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransformOrigin_PropertyBag(TransformOrigin_PropertyBag const&) = delete;
+  TransformOrigin_PropertyBag(TransformOrigin_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4996 };

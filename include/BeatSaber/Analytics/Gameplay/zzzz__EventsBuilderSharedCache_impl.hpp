@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventsBuilderSharedCache.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventsBuilderSharedCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__EventsBuilderSharedCache_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipSegmentEventSettingsField_def.hpp"
@@ -194,7 +194,7 @@ inline void BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::Clear() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::AddSegment(::StringW segmentId, ::StringW segmentName, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* type,
-                                                                                 ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings) {
+                                                                                 /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache*>(),
                                               { "AddSegment",

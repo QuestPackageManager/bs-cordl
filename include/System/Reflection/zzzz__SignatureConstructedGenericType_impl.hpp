@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\SignatureConstructedGenericType.hpp"
+// IWYU pragma private; include "System/Reflection/SignatureConstructedGenericType.hpp"
 #include "System/Reflection/zzzz__SignatureType_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Reflection/zzzz__SignatureConstructedGenericType_def.hpp"

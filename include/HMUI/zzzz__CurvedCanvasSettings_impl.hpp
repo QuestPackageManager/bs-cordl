@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\CurvedCanvasSettings.hpp"
+// IWYU pragma private; include "HMUI/CurvedCanvasSettings.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettings_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"

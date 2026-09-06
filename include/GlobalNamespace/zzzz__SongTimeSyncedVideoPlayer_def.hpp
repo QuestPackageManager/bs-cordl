@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongTimeSyncedVideoPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongTimeSyncedVideoPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ MARK_REF_T(::GlobalNamespace::SongTimeSyncedVideoPlayer*);
 MARK_REF_T(::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongTimeSyncedVideoPlayer*, "", "SongTimeSyncedVideoPlayer");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20*, "", "SongTimeSyncedVideoPlayer/<WaitForDependenciesAndPlay>d__20");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -92,17 +93,22 @@ public:
   /// @brief Method MoveNext, addr 0x5906424, size 0x21c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5906640, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5906648, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5906680, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5906420, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -124,6 +130,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5906204, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -142,13 +149,13 @@ protected:
   constexpr SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20(SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20(SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20 const&) = delete;
+  SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20(SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6675 };
@@ -248,9 +255,11 @@ public:
   /// @brief Method Update, addr 0x5905be4, size 0x208, virtual false, abstract: false, final false
   inline void Update();
 
+  /// [IteratorStateMachine(typeof(SongTimeSyncedVideoPlayer::<WaitForDependenciesAndPlay>d__20))]
   /// @brief Method WaitForDependenciesAndPlay, addr 0x59058e0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitForDependenciesAndPlay();
 
+  /// [CompilerGenerated]
   /// @brief Method <WaitForDependenciesAndPlay>b__20_0, addr 0x5906300, size 0x120, virtual false, abstract: false, final false
   inline bool _WaitForDependenciesAndPlay_b__20_0();
 
@@ -317,29 +326,35 @@ protected:
   constexpr SongTimeSyncedVideoPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongTimeSyncedVideoPlayer(SongTimeSyncedVideoPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeSyncedVideoPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongTimeSyncedVideoPlayer(SongTimeSyncedVideoPlayer const&) = delete;
+  SongTimeSyncedVideoPlayer(SongTimeSyncedVideoPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6676 };
 
+  /// [SerializeField]
   /// @brief Field _videoPlayer, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Video::VideoPlayer> ____videoPlayer;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
+  /// [Inject]
   /// @brief Field _gamePause, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
+  /// [Inject]
   /// @brief Field _environmentContext, offset: 0x60, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentContext ____environmentContext;
 

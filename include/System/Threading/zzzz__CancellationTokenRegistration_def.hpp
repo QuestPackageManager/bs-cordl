@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\CancellationTokenRegistration.hpp"
+// IWYU pragma private; include "System/Threading/CancellationTokenRegistration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace System::Threading {
 class CancellationCallbackInfo;
 }
 namespace System::Threading {
-template <typename T> struct SparselyPopulatedArrayAddInfo_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct SparselyPopulatedArrayAddInfo_1;
 }
 namespace System {
 class IAsyncDisposable;
@@ -35,6 +37,7 @@ struct CancellationTokenRegistration;
 // Write type traits
 MARK_VAL_T(::System::Threading::CancellationTokenRegistration);
 DEFINE_IL2CPP_CLASS(::System::Threading::CancellationTokenRegistration, "System.Threading", "CancellationTokenRegistration");
+// [IsReadOnly]
 // Dependencies System.Threading.SparselyPopulatedArrayAddInfo`1<T>
 namespace System::Threading {
 // Is value type: true
@@ -85,8 +88,8 @@ public:
   // @brief default ctor
   constexpr CancellationTokenRegistration();
 
-  // Ctor Parameters [CppParam { name: "m_callbackInfo", ty: "::System::Threading::CancellationCallbackInfo*", modifiers: "", def_value: None }, CppParam { name: "m_registrationInfo", ty:
-  // "::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_callbackInfo", ty: "::System::Threading::CancellationCallbackInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_registrationInfo",
+  // ty: "::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*>", modifiers: "", def_value: None, comment: None }]
   constexpr CancellationTokenRegistration(::System::Threading::CancellationCallbackInfo* m_callbackInfo,
                                           ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> m_registrationInfo) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MathfExtra.hpp"
+// IWYU pragma private; include "GlobalNamespace/MathfExtra.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class MathfExtra;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MathfExtra*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MathfExtra*, "", "MathfExtra");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -39,6 +40,7 @@ public:
   /// @brief Method Repeat, addr 0x3325e74, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t Repeat(int32_t t, int32_t length);
 
+  /// [Extension]
   /// @brief Method Round, addr 0x3325c30, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 Round(::UnityEngine::Vector4 value, int32_t digits);
 
@@ -54,13 +56,13 @@ protected:
   constexpr MathfExtra();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MathfExtra(MathfExtra&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MathfExtra(MathfExtra const&) = delete;
+  MathfExtra(MathfExtraconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20745 };

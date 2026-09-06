@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\PureAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/PureAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__PureAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::PureAttribute._ctor

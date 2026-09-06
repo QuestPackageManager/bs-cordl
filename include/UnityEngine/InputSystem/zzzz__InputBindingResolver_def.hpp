@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputBindingResolver.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputBindingResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,14 +125,16 @@ public:
   // @brief default ctor
   constexpr InputBindingResolver();
 
-  // Ctor Parameters [CppParam { name: "totalProcessorCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalCompositeCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "totalInteractionCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap*>", modifiers: "",
-  // def_value: None }, CppParam { name: "controls", ty: "::ArrayW<::UnityEngine::InputSystem::InputControl*>", modifiers: "", def_value: None }, CppParam { name: "memory", ty:
-  // "::UnityEngine::InputSystem::InputActionState_UnmanagedMemory", modifiers: "", def_value: None }, CppParam { name: "interactions", ty: "::ArrayW<Il2CppObject*>", modifiers: "", def_value: None },
-  // CppParam { name: "processors", ty: "::ArrayW<::UnityEngine::InputSystem::InputProcessor*>", modifiers: "", def_value: None }, CppParam { name: "composites", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*>", modifiers: "", def_value: None }, CppParam { name: "bindingMask", ty:
-  // "::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>", modifiers: "", def_value: None }, CppParam { name: "m_IsControlOnlyResolve", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "m_Parameters", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "totalProcessorCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "totalCompositeCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "totalInteractionCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maps", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputActionMap*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "controls", ty: "::ArrayW<::UnityEngine::InputSystem::InputControl*>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "memory", ty: "::UnityEngine::InputSystem::InputActionState_UnmanagedMemory", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "interactions", ty: "::ArrayW<Il2CppObject*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "processors", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputProcessor*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "composites", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindingMask", ty:
+  // "::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IsControlOnlyResolve", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_Parameters", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr InputBindingResolver(int32_t totalProcessorCount, int32_t totalCompositeCount, int32_t totalInteractionCount, ::ArrayW<::UnityEngine::InputSystem::InputActionMap*> maps,
                                  ::ArrayW<::UnityEngine::InputSystem::InputControl*> controls, ::UnityEngine::InputSystem::InputActionState_UnmanagedMemory memory,
                                  ::ArrayW<Il2CppObject*> interactions, ::ArrayW<::UnityEngine::InputSystem::InputProcessor*> processors,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeDataBindingsUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeDataBindingsUpdater.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
@@ -40,7 +40,8 @@ inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater_VersionInfo::
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, source, version);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "source", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "version", ty: "int64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualTreeDataBindingsUpdater_VersionInfo::VisualTreeDataBindingsUpdater_VersionInfo(::System::Object* source, int64_t version) noexcept {
   this->source = source;
   this->version = version;
@@ -545,8 +546,9 @@ inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::OnVersionCha
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, versionChangeType);
 }
-inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::CacheAndLogBindingResult(bool appliedOnUiCache, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData,
-                                                                                             ::by_ref<::UnityEngine::UIElements::BindingResult> result) {
+inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::CacheAndLogBindingResult(bool appliedOnUiCache,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult> result) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
                                                            { "CacheAndLogBindingResult",
@@ -555,7 +557,7 @@ inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::CacheAndLogB
                                                                ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, appliedOnUiCache, bindingData, result);
 }
-inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::LogResult(::by_ref<::UnityEngine::UIElements::BindingResult> result) {
+inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::LogResult(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult> result) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
                                                                                          { "LogResult", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, result);
@@ -570,7 +572,8 @@ inline ::System::ValueTuple_2<bool, int64_t> UnityEngine::UIElements::VisualTree
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(), { "GetDataSourceVersion", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<bool, int64_t>>(this, ___internal_method, source);
 }
-inline bool UnityEngine::UIElements::VisualTreeDataBindingsUpdater::IsPrefix(::by_ref<::Unity::Properties::PropertyPath> prefix, ::by_ref<::Unity::Properties::PropertyPath> path) {
+inline bool UnityEngine::UIElements::VisualTreeDataBindingsUpdater::IsPrefix(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> prefix,
+                                                                             /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
                                               { "IsPrefix", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));

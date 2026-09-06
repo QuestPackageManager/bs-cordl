@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\LocalizationRequiredAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/LocalizationRequiredAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class LocalizationRequiredAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::LocalizationRequiredAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::LocalizationRequiredAttribute*, "JetBrains.Annotations", "LocalizationRequiredAttribute");
+// [AttributeUsage((System.AttributeTargets)32767)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -40,9 +41,11 @@ public:
   /// @brief Method .ctor, addr 0x6e3defc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool required);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Required, addr 0x6e3df04, size 0x8, virtual false, abstract: false, final false
   inline bool get_Required();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Required, addr 0x6e3df0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Required(bool value);
 
@@ -52,17 +55,18 @@ protected:
   constexpr LocalizationRequiredAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationRequiredAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationRequiredAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizationRequiredAttribute(LocalizationRequiredAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationRequiredAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationRequiredAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizationRequiredAttribute(LocalizationRequiredAttribute const&) = delete;
+  LocalizationRequiredAttribute(LocalizationRequiredAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22546 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Required>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Required_k__BackingField;
 

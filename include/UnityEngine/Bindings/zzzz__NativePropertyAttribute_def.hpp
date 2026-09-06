@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\NativePropertyAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/NativePropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class NativePropertyAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativePropertyAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativePropertyAttribute*, "UnityEngine.Bindings", "NativePropertyAttribute");
+// [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)128)]
 // Dependencies UnityEngine.Bindings.NativeMethodAttribute, UnityEngine.Bindings.TargetType
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -55,6 +57,7 @@ public:
   /// @brief Method .ctor, addr 0x6bb635c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType, bool isThreadSafe);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TargetType, addr 0x6bb6320, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetType(::UnityEngine::Bindings::TargetType value);
 
@@ -64,17 +67,19 @@ protected:
   constexpr NativePropertyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativePropertyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativePropertyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativePropertyAttribute(NativePropertyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativePropertyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativePropertyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativePropertyAttribute(NativePropertyAttribute const&) = delete;
+  NativePropertyAttribute(NativePropertyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23113 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <TargetType>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::Bindings::TargetType ____TargetType_k__BackingField;
 

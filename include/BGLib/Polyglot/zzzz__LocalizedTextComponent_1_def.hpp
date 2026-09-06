@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\LocalizedTextComponent_1.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/LocalizedTextComponent_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextComponent_1)
@@ -23,15 +24,20 @@ class Object;
 }
 // Forward declare root types
 namespace BGLib::Polyglot {
-template <typename T> class LocalizedTextComponent_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+class LocalizedTextComponent_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BGLib::Polyglot::LocalizedTextComponent_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::Polyglot::LocalizedTextComponent_1, "BGLib.Polyglot", "LocalizedTextComponent`1");
-// Dependencies UnityEngine.MonoBehaviour
+// [NullableContext(1)]
+// [Nullable(0)]
+// Dependencies UnityEngine.Component, UnityEngine.MonoBehaviour
 namespace BGLib::Polyglot {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
 // Is value type: false
 // CS Name: BGLib.Polyglot.LocalizedTextComponent`1<T>
 class CORDL_TYPE LocalizedTextComponent_1 : public ::UnityEngine::MonoBehaviour {
@@ -69,13 +75,13 @@ public:
   /// @brief Method OnLocalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method SetText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetText(T component, ::StringW value);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateAlignment, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAlignment(T component, ::BGLib::Polyglot::LanguageDirection direction);
 
   constexpr ::StringW const& __cordl_internal_get_key() const;
@@ -126,23 +132,30 @@ protected:
   constexpr LocalizedTextComponent_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextComponent_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextComponent_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedTextComponent_1(LocalizedTextComponent_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextComponent_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextComponent_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextComponent_1(LocalizedTextComponent_1 const&) = delete;
+  LocalizedTextComponent_1(LocalizedTextComponent_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22199 };
 
+  /// [Tooltip("The text component to localize")]
+  /// [SerializeField]
   /// @brief Field localizedComponent, offset: 0x20, size: 0x8, def value: None
   T ___localizedComponent;
 
+  /// [Tooltip("Maintain original text alignment. If set to false, localization will determine whether text is left or right aligned")]
+  /// [SerializeField]
   /// @brief Field maintainTextAlignment, offset: 0x28, size: 0x1, def value: None
   bool ___maintainTextAlignment;
 
+  /// [Tooltip("The key to localize with")]
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field key, offset: 0x30, size: 0x8, def value: None
   ::StringW ___key;
 

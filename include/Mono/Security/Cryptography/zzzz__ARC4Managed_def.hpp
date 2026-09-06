@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Cryptography\ARC4Managed.hpp"
+// IWYU pragma private; include "Mono/Security/Cryptography/ARC4Managed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -151,13 +151,13 @@ protected:
   constexpr ARC4Managed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ARC4Managed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ARC4Managed", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ARC4Managed(ARC4Managed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ARC4Managed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ARC4Managed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ARC4Managed(ARC4Managed const&) = delete;
+  ARC4Managed(ARC4Managedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19324 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AudioClip.hpp"
+// IWYU pragma private; include "UnityEngine/AudioClip.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,13 +75,13 @@ protected:
   constexpr AudioClip_PCMReaderCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMReaderCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMReaderCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClip_PCMReaderCallback(AudioClip_PCMReaderCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMReaderCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMReaderCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClip_PCMReaderCallback(AudioClip_PCMReaderCallback const&) = delete;
+  AudioClip_PCMReaderCallback(AudioClip_PCMReaderCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21068 };
@@ -113,13 +113,13 @@ protected:
   constexpr AudioClip_PCMSetPositionCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMSetPositionCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMSetPositionCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClip_PCMSetPositionCallback(AudioClip_PCMSetPositionCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMSetPositionCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClip_PCMSetPositionCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClip_PCMSetPositionCallback(AudioClip_PCMSetPositionCallback const&) = delete;
+  AudioClip_PCMSetPositionCallback(AudioClip_PCMSetPositionCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21069 };
@@ -130,6 +130,8 @@ public:
 static_assert(sizeof(::UnityEngine::AudioClip_PCMSetPositionCallback) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine
+// [StaticAccessor("AudioClipBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Modules/Audio/Public/ScriptBindings/Audio.bindings.h")]
 // Dependencies UnityEngine.Audio.AudioResource
 namespace UnityEngine {
 // Is value type: false
@@ -143,12 +145,15 @@ public:
 
   __declspec(property(get = get_ambisonic)) bool ambisonic;
 
+  /// @brief [NativeProperty("ChannelCount")]
   __declspec(property(get = get_channels)) int32_t channels;
 
   __declspec(property(get = get_frequency)) int32_t frequency;
 
+  /// @brief [Obsolete("Use AudioClip.loadState instead to get more detailed information about the loading process.")]
   __declspec(property(get = get_isReadyToPlay)) bool isReadyToPlay;
 
+  /// @brief [NativeProperty("LengthSec")]
   __declspec(property(get = get_length)) float_t length;
 
   __declspec(property(get = get_loadInBackground)) bool loadInBackground;
@@ -166,6 +171,7 @@ public:
 
   __declspec(property(get = get_preloadAudioData)) bool preloadAudioData;
 
+  /// @brief [NativeProperty("SampleCount")]
   __declspec(property(get = get_samples)) int32_t samples;
 
   /// @brief Method Construct_Internal, addr 0x6a4d068, size 0x114, virtual false, abstract: false, final false
@@ -174,13 +180,16 @@ public:
   /// @brief Method Construct_Internal_Injected, addr 0x6a4d17c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Construct_Internal_Injected();
 
+  /// [Obsolete("The _3D argument of AudioClip is deprecated. Use the spatialBlend property of AudioSource instead to morph between 2D and 3D playback.")]
   /// @brief Method Create, addr 0x6a4e3c0, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream);
 
+  /// [Obsolete("The _3D argument of AudioClip is deprecated. Use the spatialBlend property of AudioSource instead to morph between 2D and 3D playback.")]
   /// @brief Method Create, addr 0x6a4e3dc, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
                                                           ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback);
 
+  /// [Obsolete("The _3D argument of AudioClip is deprecated. Use the spatialBlend property of AudioSource instead to morph between 2D and 3D playback.")]
   /// @brief Method Create, addr 0x6a4e554, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
                                                           ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback, ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback);
@@ -204,7 +213,7 @@ public:
                                               bool stream);
 
   /// @brief Method GetData, addr 0x6a4cd98, size 0x114, virtual false, abstract: false, final false
-  static inline bool GetData(::UnityEngine::AudioClip* clip, ::System::Span_1<float_t> data, int32_t samplesOffset);
+  static inline bool GetData(/* [NotNull] */ ::UnityEngine::AudioClip* clip, ::System::Span_1<float_t> data, int32_t samplesOffset);
 
   /// @brief Method GetData, addr 0x6a4df08, size 0x138, virtual false, abstract: false, final false
   inline bool GetData(::ArrayW<float_t> data, int32_t offsetSamples);
@@ -221,9 +230,11 @@ public:
   /// @brief Method GetName_Injected, addr 0x6a4d2d8, size 0x44, virtual false, abstract: false, final false
   static inline void GetName_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokePCMReaderCallback_Internal, addr 0x6a4e81c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokePCMReaderCallback_Internal(::ArrayW<float_t> data);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokePCMSetPositionCallback_Internal, addr 0x6a4e838, size 0x1c, virtual false, abstract: false, final false
   inline void InvokePCMSetPositionCallback_Internal(int32_t position);
 
@@ -236,7 +247,7 @@ public:
   static inline ::UnityEngine::AudioClip* New_ctor();
 
   /// @brief Method SetData, addr 0x6a4cf00, size 0x114, virtual false, abstract: false, final false
-  static inline bool SetData(::UnityEngine::AudioClip* clip, ::System::ReadOnlySpan_1<float_t> data, int32_t samplesOffset);
+  static inline bool SetData(/* [NotNull] */ ::UnityEngine::AudioClip* clip, ::System::ReadOnlySpan_1<float_t> data, int32_t samplesOffset);
 
   /// @brief Method SetData, addr 0x6a4e040, size 0x1e0, virtual false, abstract: false, final false
   inline bool SetData(::ArrayW<float_t> data, int32_t offsetSamples);
@@ -268,9 +279,11 @@ public:
   /// @brief Method .ctor, addr 0x6a4cd38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_m_PCMReaderCallback, addr 0x6a4e56c, size 0xac, virtual false, abstract: false, final false
   inline void add_m_PCMReaderCallback(::UnityEngine::AudioClip_PCMReaderCallback* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_m_PCMSetPositionCallback, addr 0x6a4e618, size 0xac, virtual false, abstract: false, final false
   inline void add_m_PCMSetPositionCallback(::UnityEngine::AudioClip_PCMSetPositionCallback* value);
 
@@ -292,6 +305,7 @@ public:
   /// @brief Method get_frequency_Injected, addr 0x6a4d7e0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_frequency_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("ReadyToPlay")]
   /// @brief Method get_isReadyToPlay, addr 0x6a4d81c, size 0x80, virtual false, abstract: false, final false
   inline bool get_isReadyToPlay();
 
@@ -310,6 +324,7 @@ public:
   /// @brief Method get_loadInBackground_Injected, addr 0x6a4dd04, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_loadInBackground_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod(Name = "AudioClipBindings::GetLoadState", HasExplicitThis = true)]
   /// @brief Method get_loadState, addr 0x6a4dd40, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioDataLoadState get_loadState();
 
@@ -334,9 +349,11 @@ public:
   /// @brief Method get_samples_Injected, addr 0x6a4d668, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_samples_Injected(::System::IntPtr _unity_self);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_m_PCMReaderCallback, addr 0x6a4e6c4, size 0xac, virtual false, abstract: false, final false
   inline void remove_m_PCMReaderCallback(::UnityEngine::AudioClip_PCMReaderCallback* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_m_PCMSetPositionCallback, addr 0x6a4e770, size 0xac, virtual false, abstract: false, final false
   inline void remove_m_PCMSetPositionCallback(::UnityEngine::AudioClip_PCMSetPositionCallback* value);
 
@@ -346,20 +363,24 @@ protected:
   constexpr AudioClip();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClip", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClip", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClip(AudioClip&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClip", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioClip(AudioClip const&) = delete;
+  AudioClip(AudioClipconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21070 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field m_PCMReaderCallback, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AudioClip_PCMReaderCallback* ___m_PCMReaderCallback;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field m_PCMSetPositionCallback, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AudioClip_PCMSetPositionCallback* ___m_PCMSetPositionCallback;
 

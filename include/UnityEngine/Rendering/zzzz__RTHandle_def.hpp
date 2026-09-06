@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RTHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RTHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,7 +140,7 @@ public:
   inline void Release();
 
   /// @brief Method SetCustomHandleProperties, addr 0x67ab034, size 0x20, virtual false, abstract: false, final false
-  inline void SetCustomHandleProperties(::by_ref<::UnityEngine::Rendering::RTHandleProperties> properties);
+  inline void SetCustomHandleProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandleProperties> properties);
 
   /// @brief Method SetRenderTexture, addr 0x67ab1d0, size 0x4c, virtual false, abstract: false, final false
   inline void SetRenderTexture(::UnityEngine::RenderTexture* rt, bool transferOwnership);
@@ -262,6 +262,7 @@ public:
   /// @brief Method get_nameID, addr 0x67ab0d8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_nameID();
 
+  /// [CompilerGenerated]
   /// @brief Method get_referenceSize, addr 0x67ab07c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int get_referenceSize();
 
@@ -271,9 +272,11 @@ public:
   /// @brief Method get_rtHandleProperties, addr 0x67ab08c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandleProperties get_rtHandleProperties();
 
+  /// [CompilerGenerated]
   /// @brief Method get_scaleFactor, addr 0x67ab05c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_scaleFactor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_useScaling, addr 0x67ab06c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScaling();
 
@@ -286,12 +289,15 @@ public:
   /// @brief Method op_Implicit, addr 0x67ab13c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture> op_Implicit___UnityW___UnityEngine__Texture_(::UnityEngine::Rendering::RTHandle* handle);
 
+  /// [CompilerGenerated]
   /// @brief Method set_referenceSize, addr 0x67ab084, size 0x8, virtual false, abstract: false, final false
   inline void set_referenceSize(::UnityEngine::Vector2Int value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_scaleFactor, addr 0x67ab064, size 0x8, virtual false, abstract: false, final false
   inline void set_scaleFactor(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_useScaling, addr 0x67ab074, size 0x8, virtual false, abstract: false, final false
   inline void set_useScaling(bool value);
 
@@ -301,13 +307,13 @@ protected:
   constexpr RTHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RTHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RTHandle(RTHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RTHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RTHandle(RTHandle const&) = delete;
+  RTHandle(RTHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12241 };
@@ -345,15 +351,18 @@ public:
   /// @brief Field m_CustomHandleProperties, offset: 0x64, size: 0x30, def value: None
   ::UnityEngine::Rendering::RTHandleProperties ___m_CustomHandleProperties;
 
+  /// [CompilerGenerated]
   /// @brief Field <scaleFactor>k__BackingField, offset: 0x94, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____scaleFactor_k__BackingField;
 
   /// @brief Field scaleFunc, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::Rendering::ScaleFunc* ___scaleFunc;
 
+  /// [CompilerGenerated]
   /// @brief Field <useScaling>k__BackingField, offset: 0xa8, size: 0x1, def value: None
   bool ____useScaling_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <referenceSize>k__BackingField, offset: 0xac, size: 0x8, def value: None
   ::UnityEngine::Vector2Int ____referenceSize_k__BackingField;
 

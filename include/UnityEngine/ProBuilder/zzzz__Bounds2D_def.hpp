@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Bounds2D.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Bounds2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -158,13 +158,13 @@ protected:
   constexpr Bounds2D();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Bounds2D", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bounds2D", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Bounds2D(Bounds2D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Bounds2D", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bounds2D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bounds2D(Bounds2D const&) = delete;
+  Bounds2D(Bounds2Dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16716 };
@@ -172,9 +172,11 @@ public:
   /// @brief Field center, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___center;
 
+  /// [SerializeField]
   /// @brief Field m_Size, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_Size;
 
+  /// [SerializeField]
   /// @brief Field m_Extents, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_Extents;
 

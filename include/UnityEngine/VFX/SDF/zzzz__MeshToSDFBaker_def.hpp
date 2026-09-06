@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\SDF\MeshToSDFBaker.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/SDF/MeshToSDFBaker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -440,13 +440,13 @@ protected:
   constexpr MeshToSDFBaker_ShaderProperties();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker_ShaderProperties", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker_ShaderProperties", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshToSDFBaker_ShaderProperties(MeshToSDFBaker_ShaderProperties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker_ShaderProperties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker_ShaderProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshToSDFBaker_ShaderProperties(MeshToSDFBaker_ShaderProperties const&) = delete;
+  MeshToSDFBaker_ShaderProperties(MeshToSDFBaker_ShaderPropertiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19972 };
@@ -664,13 +664,13 @@ protected:
   constexpr MeshToSDFBaker_Kernels();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker_Kernels", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker_Kernels", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshToSDFBaker_Kernels(MeshToSDFBaker_Kernels&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker_Kernels", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker_Kernels", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshToSDFBaker_Kernels(MeshToSDFBaker_Kernels const&) = delete;
+  MeshToSDFBaker_Kernels(MeshToSDFBaker_Kernelsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19973 };
@@ -1416,13 +1416,13 @@ protected:
   constexpr MeshToSDFBaker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshToSDFBaker(MeshToSDFBaker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshToSDFBaker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshToSDFBaker(MeshToSDFBaker const&) = delete;
+  MeshToSDFBaker(MeshToSDFBakerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19974 };

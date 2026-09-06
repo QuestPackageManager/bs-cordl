@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentShaderWarmupDebugger.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentShaderWarmupDebugger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentShaderWarmupDebugger_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentShaderWarmupDebugger_def.hpp"

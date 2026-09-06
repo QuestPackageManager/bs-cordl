@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JPropertyKeyedCollection.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JPropertyKeyedCollection.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JPropertyKeyedCollection_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
@@ -357,7 +357,7 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JPropertyKeyedC
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>(), { "get_Item", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(this, ___internal_method, key);
 }
-inline bool Newtonsoft::Json::Linq::JPropertyKeyedCollection::TryGetValue(::StringW key, ::by_ref<::Newtonsoft::Json::Linq::JToken*> value) {
+inline bool Newtonsoft::Json::Linq::JPropertyKeyedCollection::TryGetValue(::StringW key, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::Newtonsoft::Json::Linq::JToken*> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>(),
                                                            { "TryGetValue", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::Newtonsoft::Json::Linq::JToken*>>() } })));

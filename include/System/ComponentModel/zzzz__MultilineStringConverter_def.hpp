@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\MultilineStringConverter.hpp"
+// IWYU pragma private; include "System/ComponentModel/MultilineStringConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,13 +60,13 @@ protected:
   constexpr MultilineStringConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultilineStringConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultilineStringConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultilineStringConverter(MultilineStringConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultilineStringConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultilineStringConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultilineStringConverter(MultilineStringConverter const&) = delete;
+  MultilineStringConverter(MultilineStringConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11284 };

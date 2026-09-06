@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509ChainStatus.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509ChainStatus.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
@@ -106,8 +106,8 @@ inline ::StringW System::Security::Cryptography::X509Certificates::X509ChainStat
                                                            { "GetInformation", {}, { ::i2c::type_of<::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, flags);
 }
-// Ctor Parameters [CppParam { name: "status", ty: "::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "info", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "status", ty: "::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "info", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatus::X509ChainStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags status,
                                                                                                ::StringW info) noexcept {
   this->status = status;

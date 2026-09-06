@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\TypeConverterAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/TypeConverterAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class TypeConverterAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::TypeConverterAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::TypeConverterAttribute*, "System.ComponentModel", "TypeConverterAttribute");
+// [AttributeUsage((System.AttributeTargets)32767)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -64,6 +65,7 @@ public:
 
   static inline ::System::ComponentModel::TypeConverterAttribute* getStaticF_Default();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ConverterTypeName, addr 0x63c9318, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ConverterTypeName();
 
@@ -75,17 +77,18 @@ protected:
   constexpr TypeConverterAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeConverterAttribute(TypeConverterAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConverterAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConverterAttribute(TypeConverterAttribute const&) = delete;
+  TypeConverterAttribute(TypeConverterAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11300 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ConverterTypeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____ConverterTypeName_k__BackingField;
 

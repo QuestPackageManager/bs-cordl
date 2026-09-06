@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ReflectionProbe.hpp"
+// IWYU pragma private; include "UnityEngine/ReflectionProbe.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,7 +120,7 @@ public:
   // @brief default ctor
   constexpr ReflectionProbe_ReflectionProbeEvent();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ReflectionProbe_ReflectionProbeEvent(int32_t value__) noexcept;
 
   /// @brief Field ReflectionProbeAdded value: I32(0)
@@ -146,6 +146,7 @@ static_assert(offsetof(::UnityEngine::ReflectionProbe_ReflectionProbeEvent, valu
 static_assert(sizeof(::UnityEngine::ReflectionProbe_ReflectionProbeEvent) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -179,13 +180,13 @@ protected:
   constexpr ReflectionProbe___c__DisplayClass95_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe___c__DisplayClass95_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe___c__DisplayClass95_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionProbe___c__DisplayClass95_0(ReflectionProbe___c__DisplayClass95_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe___c__DisplayClass95_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe___c__DisplayClass95_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionProbe___c__DisplayClass95_0(ReflectionProbe___c__DisplayClass95_0 const&) = delete;
+  ReflectionProbe___c__DisplayClass95_0(ReflectionProbe___c__DisplayClass95_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10099 };
@@ -201,6 +202,7 @@ static_assert(offsetof(::UnityEngine::ReflectionProbe___c__DisplayClass95_0, ___
 static_assert(sizeof(::UnityEngine::ReflectionProbe___c__DisplayClass95_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -231,13 +233,13 @@ protected:
   constexpr ReflectionProbe___c__DisplayClass98_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe___c__DisplayClass98_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe___c__DisplayClass98_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionProbe___c__DisplayClass98_0(ReflectionProbe___c__DisplayClass98_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe___c__DisplayClass98_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe___c__DisplayClass98_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionProbe___c__DisplayClass98_0(ReflectionProbe___c__DisplayClass98_0 const&) = delete;
+  ReflectionProbe___c__DisplayClass98_0(ReflectionProbe___c__DisplayClass98_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10100 };
@@ -253,6 +255,7 @@ static_assert(offsetof(::UnityEngine::ReflectionProbe___c__DisplayClass98_0, ___
 static_assert(sizeof(::UnityEngine::ReflectionProbe___c__DisplayClass98_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Camera/ReflectionProbes.h")]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -272,10 +275,12 @@ public:
 
   __declspec(property(get = get_blendDistance, put = set_blendDistance)) float_t blendDistance;
 
+  /// @brief [NativeName("GlobalAABB")]
   __declspec(property(get = get_bounds)) ::UnityEngine::Bounds bounds;
 
   __declspec(property(get = get_boxProjection, put = set_boxProjection)) bool boxProjection;
 
+  /// @brief [NativeName("BoxOffset")]
   __declspec(property(get = get_center, put = set_center)) ::UnityEngine::Vector3 center;
 
   __declspec(property(get = get_clearFlags, put = set_clearFlags)) ::UnityEngine::Rendering::ReflectionProbeClearFlags clearFlags;
@@ -284,16 +289,20 @@ public:
 
   __declspec(property(get = get_customBakedTexture, put = set_customBakedTexture)) ::UnityW<::UnityEngine::Texture> customBakedTexture;
 
+  /// @brief [NativeName("Far")]
   __declspec(property(get = get_farClipPlane, put = set_farClipPlane)) float_t farClipPlane;
 
+  /// @brief [NativeName("HDR")]
   __declspec(property(get = get_hdr, put = set_hdr)) bool hdr;
 
   __declspec(property(get = get_importance, put = set_importance)) int32_t importance;
 
+  /// @brief [NativeName("IntensityMultiplier")]
   __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
 
   __declspec(property(get = get_mode, put = set_mode)) ::UnityEngine::Rendering::ReflectionProbeMode mode;
 
+  /// @brief [NativeName("Near")]
   __declspec(property(get = get_nearClipPlane, put = set_nearClipPlane)) float_t nearClipPlane;
 
   __declspec(property(get = get_realtimeTexture, put = set_realtimeTexture)) ::UnityW<::UnityEngine::RenderTexture> realtimeTexture;
@@ -315,12 +324,14 @@ public:
                       put = setStaticF_registeredDefaultReflectionTextureActions)) ::System::Collections::Generic::List_1<::System::Action_1<::UnityW<::UnityEngine::Texture>>*>*
       registeredDefaultReflectionTextureActions;
 
+  /// @brief [NativeName("RenderDynamicObjects")]
   __declspec(property(get = get_renderDynamicObjects, put = set_renderDynamicObjects)) bool renderDynamicObjects;
 
   __declspec(property(get = get_resolution, put = set_resolution)) int32_t resolution;
 
   __declspec(property(get = get_shadowDistance, put = set_shadowDistance)) float_t shadowDistance;
 
+  /// @brief [NativeName("BoxSize")]
   __declspec(property(get = get_size, put = set_size)) ::UnityEngine::Vector3 size;
 
   __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::Texture> texture;
@@ -329,17 +340,24 @@ public:
 
   __declspec(property(get = get_timeSlicingMode, put = set_timeSlicingMode)) ::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode timeSlicingMode;
 
+  /// [Obsolete("type property has been deprecated. Starting with Unity 5.4, the only supported reflection probe type is Cube.", true)]
+  /// [NativeName("ProbeType")]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_type, put = set_type)) ::UnityEngine::Rendering::ReflectionProbeType type;
 
+  /// [NativeHeader("Runtime/Camera/CubemapGPUUtility.h")]
+  /// [FreeFunction("CubemapGPUBlend")]
   /// @brief Method BlendCubemap, addr 0x6a7987c, size 0x118, virtual false, abstract: false, final false
   static inline bool BlendCubemap(::UnityEngine::Texture* src, ::UnityEngine::Texture* dst, float_t blend, ::UnityEngine::RenderTexture* target);
 
   /// @brief Method BlendCubemap_Injected, addr 0x6a79994, size 0x64, virtual false, abstract: false, final false
   static inline bool BlendCubemap_Injected(::System::IntPtr src, ::System::IntPtr dst, float_t blend, ::System::IntPtr target);
 
+  /// [RequiredByNativeCode]
   /// @brief Method CallReflectionProbeEvent, addr 0x6a79ea4, size 0x94, virtual false, abstract: false, final false
   static inline void CallReflectionProbeEvent(::UnityEngine::ReflectionProbe* probe, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent probeEvent);
 
+  /// [RequiredByNativeCode]
   /// @brief Method CallSetDefaultReflection, addr 0x6a7a520, size 0x144, virtual false, abstract: false, final false
   static inline void CallSetDefaultReflection(::UnityEngine::Texture* defaultReflectionCubemap);
 
@@ -355,7 +373,7 @@ public:
   inline int32_t RenderProbe();
 
   /// @brief Method RenderProbe, addr 0x6a79610, size 0x2c, virtual false, abstract: false, final false
-  inline int32_t RenderProbe(::UnityEngine::RenderTexture* targetTexture);
+  inline int32_t RenderProbe(/* [DefaultValue("null")] */ ::UnityEngine::RenderTexture* targetTexture);
 
   /// @brief Method Reset, addr 0x6a7950c, size 0xa8, virtual false, abstract: false, final false
   inline void Reset();
@@ -369,6 +387,8 @@ public:
   /// @brief Method ScheduleRender_Injected, addr 0x6a79828, size 0x54, virtual false, abstract: false, final false
   static inline int32_t ScheduleRender_Injected(::System::IntPtr _unity_self, ::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode timeSlicingMode, ::System::IntPtr targetTexture);
 
+  /// [NativeMethod("UpdateSampleData")]
+  /// [StaticAccessor("GetReflectionProbes()")]
   /// @brief Method UpdateCachedState, addr 0x6a799f8, size 0x28, virtual false, abstract: false, final false
   static inline void UpdateCachedState();
 
@@ -381,6 +401,7 @@ public:
   /// @brief Method add_defaultReflectionTexture, addr 0x6a7a12c, size 0x220, virtual false, abstract: false, final false
   static inline void add_defaultReflectionTexture(::System::Action_1<::UnityW<::UnityEngine::Texture>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_reflectionProbeChanged, addr 0x6a79c9c, size 0x104, virtual false, abstract: false, final false
   static inline void add_reflectionProbeChanged(::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
 
@@ -537,6 +558,7 @@ public:
   /// @brief Method get_texture, addr 0x6a79250, size 0x178, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_texture();
 
+  /// [NativeName("CalculateHDRDecodeValues")]
   /// @brief Method get_textureHDRDecodeValues, addr 0x6a79404, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_textureHDRDecodeValues();
 
@@ -564,6 +586,7 @@ public:
   /// @brief Method remove_defaultReflectionTexture, addr 0x6a7a494, size 0x88, virtual false, abstract: false, final false
   static inline void remove_defaultReflectionTexture(::System::Action_1<::UnityW<::UnityEngine::Texture>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_reflectionProbeChanged, addr 0x6a79da0, size 0x104, virtual false, abstract: false, final false
   static inline void remove_reflectionProbeChanged(::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
 
@@ -711,13 +734,13 @@ protected:
   constexpr ReflectionProbe();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionProbe(ReflectionProbe&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionProbe(ReflectionProbe const&) = delete;
+  ReflectionProbe(ReflectionProbeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10101 };

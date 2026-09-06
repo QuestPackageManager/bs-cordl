@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\LightDataGI.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LightDataGI.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__FalloffType_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightType_impl.hpp"
@@ -228,15 +228,17 @@ inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::InitNoBa
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>(), { "InitNoBake", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, lightInstanceID);
 }
-// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cookieID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "cookieScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "indirectColor", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: Some("{}") }, CppParam { name: "orientation", ty:
-// "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "range", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "coneAngle", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "innerConeAngle", ty: "float_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "shape0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shape1", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "type", ty: "::UnityEngine::Experimental::GlobalIllumination::LightType", modifiers: "", def_value: Some("{}") }, CppParam { name: "mode", ty:
-// "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "shadow", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "falloff", ty: "::UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cookieID", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "cookieScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "color", ty:
+// "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectColor", ty:
+// "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "range", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "coneAngle", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "innerConeAngle", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shape0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "shape1", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty: "::UnityEngine::Experimental::GlobalIllumination::LightType", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "shadow", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "falloff", ty: "::UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightDataGI::LightDataGI(int32_t instanceID, int32_t cookieID, float_t cookieScale,
                                                                                     ::UnityEngine::Experimental::GlobalIllumination::LinearColor color,
                                                                                     ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, ::UnityEngine::Quaternion orientation,

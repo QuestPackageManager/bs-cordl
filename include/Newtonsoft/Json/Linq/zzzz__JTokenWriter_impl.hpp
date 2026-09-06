@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JTokenWriter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JTokenWriter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenWriter_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
@@ -790,6 +790,7 @@ inline void Newtonsoft::Json::Linq::JTokenWriter::WriteToken(::Newtonsoft::Json:
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JTokenWriter*>(), 77 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader, writeChildren, writeDateConstructorAsDate, writeComments);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Linq::JTokenWriter* Newtonsoft::Json::Linq::JTokenWriter::New_ctor(::Newtonsoft::Json::Linq::JContainer* container) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Linq::JTokenWriter*>(container));
 }

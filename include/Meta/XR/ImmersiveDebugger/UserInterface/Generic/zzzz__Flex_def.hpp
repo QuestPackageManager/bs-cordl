@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Flex.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Flex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,6 +104,7 @@ public:
   /// @brief Method .ctor, addr 0x5a5c588, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ScrollViewport, addr 0x5a5b924, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> get_ScrollViewport();
 
@@ -113,6 +114,7 @@ public:
   /// @brief Method get_SizeDeltaWithMargin, addr 0x5a5b8a4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_SizeDeltaWithMargin();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ScrollViewport, addr 0x5a5b92c, size 0x8, virtual false, abstract: false, final false
   inline void set_ScrollViewport(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport* value);
 
@@ -122,13 +124,13 @@ protected:
   constexpr Flex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Flex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Flex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Flex(Flex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Flex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Flex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Flex(Flex const&) = delete;
+  Flex(Flexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18398 };
@@ -136,6 +138,7 @@ public:
   /// @brief Field _sizeDelta, offset: 0x6c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____sizeDelta;
 
+  /// [CompilerGenerated]
   /// @brief Field <ScrollViewport>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> ____ScrollViewport_k__BackingField;
 

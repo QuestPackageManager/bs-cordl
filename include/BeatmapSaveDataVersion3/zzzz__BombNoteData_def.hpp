@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\BombNoteData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BombNoteData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,20 +60,22 @@ protected:
   constexpr BombNoteData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BombNoteData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombNoteData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BombNoteData(BombNoteData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BombNoteData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BombNoteData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BombNoteData(BombNoteData const&) = delete;
+  BombNoteData(BombNoteDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15373 };
 
+  /// [SerializeField]
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;
 
+  /// [SerializeField]
   /// @brief Field y, offset: 0x18, size: 0x4, def value: None
   int32_t ___y;
 

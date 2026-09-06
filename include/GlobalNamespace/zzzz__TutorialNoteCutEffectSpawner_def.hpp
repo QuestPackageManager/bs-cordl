@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialNoteCutEffectSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialNoteCutEffectSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class TutorialNoteCutEffectSpawner;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TutorialNoteCutEffectSpawner*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TutorialNoteCutEffectSpawner*, "", "TutorialNoteCutEffectSpawner");
+// [AddComponentMenu("Beat Saber/Gameplay/TutorialNoteCutEffectSpawner")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -39,7 +40,7 @@ public:
   __declspec(property(get = __cordl_internal_get__failFlyingTextSpawner, put = __cordl_internal_set__failFlyingTextSpawner)) ::UnityW<::GlobalNamespace::FlyingTextSpawner> _failFlyingTextSpawner;
 
   /// @brief Method HandleNoteWasCut, addr 0x59f88fc, size 0x278, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::TutorialNoteCutEffectSpawner* New_ctor();
 
@@ -70,13 +71,13 @@ protected:
   constexpr TutorialNoteCutEffectSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteCutEffectSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteCutEffectSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteCutEffectSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteCutEffectSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawner const&) = delete;
+  TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6284 };
@@ -96,9 +97,11 @@ public:
   /// @brief Field kWrongDirectionFlyingTextLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kWrongDirectionFlyingTextLocalizationKey{ u"WRONG_DIRECTION_FLYING_TEXT" };
 
+  /// [SerializeField]
   /// @brief Field _failFlyingTextSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingTextSpawner> ____failFlyingTextSpawner;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 

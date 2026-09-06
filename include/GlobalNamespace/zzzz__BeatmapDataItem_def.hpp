@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataItem.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,7 +64,7 @@ public:
   // @brief default ctor
   constexpr BeatmapDataItem_BeatmapDataItemType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapDataItem_BeatmapDataItemType(int32_t value__) noexcept;
 
   /// @brief Field BeatmapEvent value: I32(1)
@@ -146,7 +146,7 @@ public:
   /// @brief Method CompareTo, addr 0x3258f84, size 0x48, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::BeatmapDataItem* b);
 
-  /// @brief Method GetCopy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
   /// @brief Method GetTypeId, addr 0x3258c44, size 0x1d8, virtual false, abstract: false, final false
@@ -199,24 +199,30 @@ public:
 
   static inline ::System::Object* getStaticF__typeIdMapLock();
 
+  /// [CompilerGenerated]
   /// @brief Method get_baseTypeId, addr 0x3258e44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_baseTypeId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_executionOrder, addr 0x3258e2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_executionOrder();
 
+  /// [CompilerGenerated]
   /// @brief Method get_itemTypeId, addr 0x3258e34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_itemTypeId();
 
   /// @brief Method get_subtypeGroupIdentifier, addr 0x3258e54, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeGroupIdentifier();
 
+  /// [CompilerGenerated]
   /// @brief Method get_subtypeIdentifier, addr 0x3258e5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
+  /// [CompilerGenerated]
   /// @brief Method get_time, addr 0x3258e1c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
+  /// [CompilerGenerated]
   /// @brief Method get_type, addr 0x3258e6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem_BeatmapDataItemType get_type();
 
@@ -232,18 +238,23 @@ public:
 
   static inline void setStaticF__typeIdMapLock(::System::Object* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_baseTypeId, addr 0x3258e4c, size 0x8, virtual false, abstract: false, final false
   inline void set_baseTypeId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_itemTypeId, addr 0x3258e3c, size 0x8, virtual false, abstract: false, final false
   inline void set_itemTypeId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_subtypeIdentifier, addr 0x3258e64, size 0x8, virtual false, abstract: false, final false
   inline void set_subtypeIdentifier(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_time, addr 0x3258e24, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_type, addr 0x3258e74, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::GlobalNamespace::BeatmapDataItem_BeatmapDataItemType value);
 
@@ -253,32 +264,38 @@ protected:
   constexpr BeatmapDataItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataItem(BeatmapDataItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataItem(BeatmapDataItem const&) = delete;
+  BeatmapDataItem(BeatmapDataItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21229 };
 
+  /// [CompilerGenerated]
   /// @brief Field <time>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____time_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <executionOrder>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____executionOrder_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <itemTypeId>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____itemTypeId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <baseTypeId>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____baseTypeId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <subtypeIdentifier>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____subtypeIdentifier_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <type>k__BackingField, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDataItem_BeatmapDataItemType ____type_k__BackingField;
 

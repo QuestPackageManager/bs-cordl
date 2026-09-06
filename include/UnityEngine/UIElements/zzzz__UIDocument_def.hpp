@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIDocument.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIDocument.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
   // @brief default ctor
   constexpr UIDocument_WorldSpaceSizeMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UIDocument_WorldSpaceSizeMode(int32_t value__) noexcept;
 
   /// @brief Field Dynamic value: I32(0)
@@ -109,6 +109,11 @@ static_assert(offsetof(::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode,
 static_assert(sizeof(::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [HelpURL("UIE-get-started-with-runtime-ui")]
+// [AddComponentMenu("UI Toolkit/UI Document")]
+// [ExecuteAlways]
+// [DisallowMultipleComponent]
+// [DefaultExecutionOrder(-100)]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.UIElements.UIDocument::WorldSpaceSizeMode
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -411,13 +416,13 @@ protected:
   constexpr UIDocument();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIDocument", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIDocument", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIDocument(UIDocument&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIDocument", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIDocument", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIDocument(UIDocument const&) = delete;
+  UIDocument(UIDocumentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4599 };
@@ -434,12 +439,14 @@ public:
   /// @brief Field m_UIDocumentCreationIndex, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_UIDocumentCreationIndex;
 
+  /// [SerializeField]
   /// @brief Field m_PanelSettings, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::PanelSettings> ___m_PanelSettings;
 
   /// @brief Field m_PreviousPanelSettings, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::PanelSettings> ___m_PreviousPanelSettings;
 
+  /// [SerializeField]
   /// @brief Field m_ParentUI, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::UIDocument> ___m_ParentUI;
 
@@ -449,6 +456,7 @@ public:
   /// @brief Field m_ChildrenContentCopy, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* ___m_ChildrenContentCopy;
 
+  /// [SerializeField]
   /// @brief Field sourceAsset, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ___sourceAsset;
 
@@ -461,15 +469,19 @@ public:
   /// @brief Field m_FirstChildInsertIndex, offset: 0x68, size: 0x4, def value: None
   int32_t ___m_FirstChildInsertIndex;
 
+  /// [SerializeField]
   /// @brief Field m_SortingOrder, offset: 0x6c, size: 0x4, def value: None
   float_t ___m_SortingOrder;
 
+  /// [SerializeField]
   /// @brief Field m_WorldSpaceSizeMode, offset: 0x70, size: 0x4, def value: None
   ::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode ___m_WorldSpaceSizeMode;
 
+  /// [SerializeField]
   /// @brief Field m_WorldSpaceWidth, offset: 0x74, size: 0x4, def value: None
   float_t ___m_WorldSpaceWidth;
 
+  /// [SerializeField]
   /// @brief Field m_WorldSpaceHeight, offset: 0x78, size: 0x4, def value: None
   float_t ___m_WorldSpaceHeight;
 

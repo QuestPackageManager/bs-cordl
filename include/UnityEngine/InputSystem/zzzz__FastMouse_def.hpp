@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\FastMouse.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/FastMouse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -212,13 +212,13 @@ protected:
   constexpr FastMouse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FastMouse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FastMouse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FastMouse(FastMouse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FastMouse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FastMouse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FastMouse(FastMouse const&) = delete;
+  FastMouse(FastMouseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8733 };

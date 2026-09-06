@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XsdDateTimeFlags.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XsdDateTimeFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct XsdDateTimeFlags;
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::XsdDateTimeFlags);
 DEFINE_IL2CPP_CLASS(::System::Xml::Schema::XsdDateTimeFlags, "System.Xml.Schema", "XsdDateTimeFlags");
+// [Flags]
 // Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
@@ -52,7 +53,7 @@ public:
   // @brief default ctor
   constexpr XsdDateTimeFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XsdDateTimeFlags(int32_t value__) noexcept;
 
   /// @brief Field AllXsd value: I32(255)

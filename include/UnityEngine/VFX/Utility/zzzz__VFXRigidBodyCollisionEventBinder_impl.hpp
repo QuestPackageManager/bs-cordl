@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXRigidBodyCollisionEventBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXRigidBodyCollisionEventBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXEventBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXRigidBodyCollisionEventBinder_def.hpp"
 #include "System/zzzz__Object_def.hpp"

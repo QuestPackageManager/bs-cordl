@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerCenterResizeController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerCenterResizeController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,21 +96,27 @@ public:
   /// @brief Method .ctor, addr 0x59d0780, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x59d023c, size 0xc0, virtual false, abstract: false, final false
   inline void add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_edgeDistanceFromCenter, addr 0x59d03cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_edgeDistanceFromCenter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isEdgeDistanceFromCenterCalculated, addr 0x59d03bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEdgeDistanceFromCenterCalculated();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent, addr 0x59d02fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_edgeDistanceFromCenter, addr 0x59d03d4, size 0x8, virtual false, abstract: false, final false
   inline void set_edgeDistanceFromCenter(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isEdgeDistanceFromCenterCalculated, addr 0x59d03c4, size 0x8, virtual false, abstract: false, final false
   inline void set_isEdgeDistanceFromCenterCalculated(bool value);
 
@@ -120,29 +126,34 @@ protected:
   constexpr MultiplayerCenterResizeController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterResizeController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterResizeController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerCenterResizeController(MultiplayerCenterResizeController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterResizeController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterResizeController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerCenterResizeController(MultiplayerCenterResizeController const&) = delete;
+  MultiplayerCenterResizeController(MultiplayerCenterResizeControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6128 };
 
+  /// [SerializeField]
   /// @brief Field _platformWidth, offset: 0x20, size: 0x4, def value: None
   float_t ____platformWidth;
 
+  /// [Inject]
   /// @brief Field _layoutProvider, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 
+  /// [CompilerGenerated]
   /// @brief Field edgeDistanceFromCenterWasCalculatedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___edgeDistanceFromCenterWasCalculatedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <isEdgeDistanceFromCenterCalculated>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____isEdgeDistanceFromCenterCalculated_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <edgeDistanceFromCenter>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   float_t ____edgeDistanceFromCenter_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\TypeConversion.hpp"
+// IWYU pragma private; include "Unity/Properties/TypeConversion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ MARK_REF_T(::Unity::Properties::TypeConversion_PrimitiveConverters*);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::PrimitiveConverters_TypeConversion___c*, "Unity.Properties", "TypeConversion/PrimitiveConverters/<>c");
 DEFINE_IL2CPP_CLASS(::Unity::Properties::TypeConversion*, "Unity.Properties", "TypeConversion");
 DEFINE_IL2CPP_CLASS(::Unity::Properties::TypeConversion_PrimitiveConverters*, "Unity.Properties", "TypeConversion/PrimitiveConverters");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Unity::Properties {
 // Is value type: false
@@ -1899,13 +1900,13 @@ protected:
   constexpr PrimitiveConverters_TypeConversion___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveConverters_TypeConversion___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveConverters_TypeConversion___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrimitiveConverters_TypeConversion___c(PrimitiveConverters_TypeConversion___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveConverters_TypeConversion___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveConverters_TypeConversion___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrimitiveConverters_TypeConversion___c(PrimitiveConverters_TypeConversion___c const&) = delete;
+  PrimitiveConverters_TypeConversion___c(PrimitiveConverters_TypeConversion___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19694 };
@@ -1976,13 +1977,13 @@ protected:
   constexpr TypeConversion_PrimitiveConverters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConversion_PrimitiveConverters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConversion_PrimitiveConverters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeConversion_PrimitiveConverters(TypeConversion_PrimitiveConverters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConversion_PrimitiveConverters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConversion_PrimitiveConverters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConversion_PrimitiveConverters(TypeConversion_PrimitiveConverters const&) = delete;
+  TypeConversion_PrimitiveConverters(TypeConversion_PrimitiveConvertersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19695 };
@@ -2030,13 +2031,13 @@ protected:
   constexpr TypeConversion();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConversion", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConversion", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeConversion(TypeConversion&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeConversion", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeConversion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeConversion(TypeConversion const&) = delete;
+  TypeConversion(TypeConversionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19696 };

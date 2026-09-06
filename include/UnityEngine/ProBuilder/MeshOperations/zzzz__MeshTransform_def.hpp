@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\MeshTransform.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MeshTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class MeshTransform;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::MeshTransform*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::MeshTransform*, "UnityEngine.ProBuilder.MeshOperations", "MeshTransform");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -30,15 +31,19 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE MeshTransform : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method CenterPivot, addr 0x6730dec, size 0x300, virtual false, abstract: false, final false
   static inline void CenterPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes);
 
+  /// [Extension]
   /// @brief Method FreezeScaleTransform, addr 0x6735804, size 0x164, virtual false, abstract: false, final false
   static inline void FreezeScaleTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
+  /// [Extension]
   /// @brief Method SetPivot, addr 0x67355c8, size 0xa0, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::PivotLocation pivotLocation);
 
+  /// [Extension]
   /// @brief Method SetPivot, addr 0x6735668, size 0x19c, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 worldPosition);
 
@@ -48,13 +53,13 @@ protected:
   constexpr MeshTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshTransform(MeshTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshTransform(MeshTransform const&) = delete;
+  MeshTransform(MeshTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16884 };

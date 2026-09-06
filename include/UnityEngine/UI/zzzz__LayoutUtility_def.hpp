@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\LayoutUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UI/LayoutUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ MARK_REF_T(::UnityEngine::UI::LayoutUtility*);
 MARK_REF_T(::UnityEngine::UI::LayoutUtility___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::LayoutUtility*, "UnityEngine.UI", "LayoutUtility");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::LayoutUtility___c*, "UnityEngine.UI", "LayoutUtility/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -136,13 +137,13 @@ protected:
   constexpr LayoutUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutUtility___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutUtility___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutUtility___c(LayoutUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutUtility___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutUtility___c(LayoutUtility___c const&) = delete;
+  LayoutUtility___c(LayoutUtility___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17464 };
@@ -202,13 +203,13 @@ protected:
   constexpr LayoutUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutUtility(LayoutUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutUtility(LayoutUtility const&) = delete;
+  LayoutUtility(LayoutUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17465 };

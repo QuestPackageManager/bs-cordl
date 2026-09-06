@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\DefaultNamingStrategy.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultNamingStrategy.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__NamingStrategy_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultNamingStrategy_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::DefaultNamingStrategy.ResolvePropertyName

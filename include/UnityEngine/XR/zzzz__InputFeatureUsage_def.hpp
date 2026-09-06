@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\InputFeatureUsage.hpp"
+// IWYU pragma private; include "UnityEngine/XR/InputFeatureUsage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,9 @@ struct InputFeatureUsage;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::InputFeatureUsage);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::InputFeatureUsage, "UnityEngine.XR", "InputFeatureUsage");
+// [NativeConditional("ENABLE_VR")]
+// [NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.XR.InputFeatureType
 namespace UnityEngine::XR {
 // Is value type: true
@@ -60,8 +63,8 @@ public:
   // @brief default ctor
   constexpr InputFeatureUsage();
 
-  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_InternalType", ty: "::UnityEngine::XR::InputFeatureType", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_InternalType", ty: "::UnityEngine::XR::InputFeatureType",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr InputFeatureUsage(::StringW m_Name, ::UnityEngine::XR::InputFeatureType m_InternalType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -73,6 +76,7 @@ public:
   /// @brief Field m_Name, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Name;
 
+  /// [NativeName("m_FeatureType")]
   /// @brief Field m_InternalType, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::XR::InputFeatureType m_InternalType;
 

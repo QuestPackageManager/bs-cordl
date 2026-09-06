@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ResultsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ResultsViewController.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -186,6 +186,7 @@ inline ::System::Object* GlobalNamespace::ResultsViewController__StartFireworksA
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResultsViewController__StartFireworksAfterDelay_d__35*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::ResultsViewController__StartFireworksAfterDelay_d__35* GlobalNamespace::ResultsViewController__StartFireworksAfterDelay_d__35::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ResultsViewController__StartFireworksAfterDelay_d__35*>(__1__state));
 }
@@ -727,7 +728,8 @@ inline bool GlobalNamespace::ResultsViewController::get_practice() {
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void GlobalNamespace::ResultsViewController::Init(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
-                                                         ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool practice, bool newHighScore) {
+                                                         /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool practice,
+                                                         bool newHighScore) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResultsViewController*>(),

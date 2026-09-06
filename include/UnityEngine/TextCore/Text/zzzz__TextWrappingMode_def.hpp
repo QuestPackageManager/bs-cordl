@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextWrappingMode.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextWrappingMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TextWrappingMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextWrappingMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextWrappingMode, "UnityEngine.TextCore.Text", "TextWrappingMode");
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 // Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr TextWrappingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextWrappingMode(int32_t value__) noexcept;
 
   /// @brief Field NoWrap value: I32(0)

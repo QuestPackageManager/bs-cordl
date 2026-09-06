@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteLODGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteLODGroup.hpp"
 #include "GlobalNamespace/zzzz__CustomLODGroup_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteLODGroup_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"

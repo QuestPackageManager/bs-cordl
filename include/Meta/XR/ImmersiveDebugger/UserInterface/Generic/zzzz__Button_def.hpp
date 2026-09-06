@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Button.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Button.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ public:
   /// @brief Field _hapticsClip, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__hapticsClip, put = setStaticF__hapticsClip)) ::GlobalNamespace::OVRHapticsClip* _hapticsClip;
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x5a595dc, size 0x4c, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -55,6 +56,7 @@ public:
 
   static inline ::GlobalNamespace::OVRHapticsClip* getStaticF__hapticsClip();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Callback, addr 0x5a59780, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_Callback();
 
@@ -63,6 +65,7 @@ public:
 
   static inline void setStaticF__hapticsClip(::GlobalNamespace::OVRHapticsClip* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Callback, addr 0x5a59788, size 0x8, virtual false, abstract: false, final false
   inline void set_Callback(::System::Action* value);
 
@@ -72,17 +75,18 @@ protected:
   constexpr Button();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Button(Button&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button(Button const&) = delete;
+  Button(Buttonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18392 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Callback>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ____Callback_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CastHelper_1.hpp"
+// IWYU pragma private; include "UnityEngine/CastHelper_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,8 @@ public:
   // @brief default ctor
   constexpr CastHelper_1();
 
-  // Ctor Parameters [CppParam { name: "t", ty: "T", modifiers: "", def_value: None }, CppParam { name: "onePointerFurtherThanT", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "t", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "onePointerFurtherThanT", ty: "::System::IntPtr", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr CastHelper_1(T t, ::System::IntPtr onePointerFurtherThanT) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

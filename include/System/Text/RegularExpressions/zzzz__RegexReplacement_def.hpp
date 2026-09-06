@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexReplacement.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexReplacement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,9 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace System {
-template <typename T> class WeakReference_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class WeakReference_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -93,6 +95,7 @@ public:
   /// @brief Method .ctor, addr 0x638f9f0, size 0x4e0, virtual false, abstract: false, final false
   inline void _ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Pattern, addr 0x6394600, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
@@ -102,13 +105,13 @@ protected:
   constexpr RegexReplacement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegexReplacement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexReplacement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexReplacement(RegexReplacement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegexReplacement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexReplacement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexReplacement(RegexReplacement const&) = delete;
+  RegexReplacement(RegexReplacementconst&) = delete;
 
   /// @brief Field LastGroup offset 0xffffffff size 0x4
   static constexpr int32_t LastGroup{ static_cast<int32_t>(0xfffffffd) };
@@ -134,6 +137,7 @@ public:
   /// @brief Field _rules, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ____rules;
 
+  /// [CompilerGenerated]
   /// @brief Field <Pattern>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Pattern_k__BackingField;
 

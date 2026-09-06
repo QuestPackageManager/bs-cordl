@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\CVRSettingHelper.hpp"
+// IWYU pragma private; include "OVR/OpenVR/CVRSettingHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // @brief default ctor
   constexpr CVRSettingHelper();
 
-  // Ctor Parameters [CppParam { name: "m_pSettings", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_pSettings", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr CVRSettingHelper(::System::IntPtr m_pSettings) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

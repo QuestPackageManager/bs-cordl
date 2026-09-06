@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\CsvWriter.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/CsvWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,9 @@ class CsvWriter;
 // Write type traits
 MARK_REF_T(::BGLib::Polyglot::CsvWriter*);
 DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::CsvWriter*, "BGLib.Polyglot", "CsvWriter");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
@@ -30,9 +33,11 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE CsvWriter : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AppendCSVLine, addr 0x3321768, size 0x2c, virtual false, abstract: false, final false
-  static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, ::ArrayW<::StringW> values);
+  static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, /* [ParamArray] */ ::ArrayW<::StringW> values);
 
+  /// [Extension]
   /// @brief Method AppendCSVLine, addr 0x332173c, size 0x2c, virtual false, abstract: false, final false
   static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
@@ -54,13 +59,13 @@ protected:
   constexpr CsvWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CsvWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CsvWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CsvWriter(CsvWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CsvWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CsvWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CsvWriter(CsvWriter const&) = delete;
+  CsvWriter(CsvWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22215 };

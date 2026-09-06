@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\X509\PKCS12.hpp"
+// IWYU pragma private; include "Mono/Security/X509/PKCS12.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -172,13 +172,13 @@ protected:
   constexpr PKCS12_DeriveBytes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS12_DeriveBytes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS12_DeriveBytes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS12_DeriveBytes(PKCS12_DeriveBytes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS12_DeriveBytes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS12_DeriveBytes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS12_DeriveBytes(PKCS12_DeriveBytes const&) = delete;
+  PKCS12_DeriveBytes(PKCS12_DeriveBytesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19283 };
@@ -430,13 +430,13 @@ protected:
   constexpr PKCS12();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS12", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS12", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PKCS12(PKCS12&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PKCS12", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PKCS12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PKCS12(PKCS12 const&) = delete;
+  PKCS12(PKCS12const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19284 };

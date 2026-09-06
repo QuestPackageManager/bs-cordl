@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Numerics\Register.hpp"
+// IWYU pragma private; include "System/Numerics/Register.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -619,33 +619,38 @@ public:
   // @brief default ctor
   constexpr Register();
 
-  // Ctor Parameters [CppParam { name: "byte_0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_2",
-  // ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_3", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_4", ty: "uint8_t", modifiers: "", def_value:
-  // None }, CppParam { name: "byte_5", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_6", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_7", ty:
-  // "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_8", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_9", ty: "uint8_t", modifiers: "", def_value: None
-  // }, CppParam { name: "byte_10", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_11", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_12", ty:
-  // "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_13", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_14", ty: "uint8_t", modifiers: "", def_value: None
-  // }, CppParam { name: "byte_15", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_0", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_1", ty:
-  // "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_2", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_3", ty: "int8_t", modifiers: "", def_value: None },
-  // CppParam { name: "sbyte_4", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_5", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_6", ty: "int8_t",
-  // modifiers: "", def_value: None }, CppParam { name: "sbyte_7", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_8", ty: "int8_t", modifiers: "", def_value: None }, CppParam
-  // { name: "sbyte_9", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_10", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_11", ty: "int8_t",
-  // modifiers: "", def_value: None }, CppParam { name: "sbyte_12", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_13", ty: "int8_t", modifiers: "", def_value: None },
-  // CppParam { name: "sbyte_14", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "sbyte_15", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "uint16_0", ty:
-  // "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uint16_1", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uint16_2", ty: "uint16_t", modifiers: "", def_value:
-  // None }, CppParam { name: "uint16_3", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uint16_4", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uint16_5",
-  // ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uint16_6", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uint16_7", ty: "uint16_t", modifiers: "",
-  // def_value: None }, CppParam { name: "int16_0", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "int16_1", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "int16_2", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "int16_3", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "int16_4", ty: "int16_t", modifiers: "",
-  // def_value: None }, CppParam { name: "int16_5", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "int16_6", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "int16_7", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "uint32_0", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "uint32_1", ty: "uint32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "uint32_2", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "uint32_3", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "int32_0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "int32_1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "int32_2", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "int32_3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uint64_0", ty: "uint64_t", modifiers: "", def_value: None },
-  // CppParam { name: "uint64_1", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "int64_0", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "int64_1", ty:
-  // "int64_t", modifiers: "", def_value: None }, CppParam { name: "single_0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "single_1", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "single_2", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "single_3", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "double_0",
-  // ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "double_1", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "byte_0", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_1", ty: "uint8_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "byte_2", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_3", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "byte_4", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_5", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "byte_6", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_7", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_8", ty:
+  // "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_9", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_10", ty: "uint8_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_11", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_12", ty: "uint8_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "byte_13", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte_14", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "byte_15", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_0", ty: "int8_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "sbyte_1", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_2", ty: "int8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "sbyte_3", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_4", ty: "int8_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "sbyte_5", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_6", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "sbyte_7", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_8", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "sbyte_9", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_10", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_11",
+  // ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_12", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_13", ty:
+  // "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_14", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sbyte_15", ty: "int8_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "uint16_0", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uint16_1", ty: "uint16_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "uint16_2", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uint16_3", ty: "uint16_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "uint16_4", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uint16_5", ty: "uint16_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "uint16_6", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uint16_7", ty: "uint16_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "int16_0", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "int16_1", ty: "int16_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "int16_2", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "int16_3", ty: "int16_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "int16_4", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "int16_5", ty: "int16_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "int16_6", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "int16_7", ty: "int16_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "uint32_0", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uint32_1", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "uint32_2", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uint32_3", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "int32_0", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "int32_1", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "int32_2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "int32_3", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "uint64_0", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uint64_1", ty: "uint64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "int64_0", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "int64_1", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "single_0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "single_1", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "single_2", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "single_3", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "double_0", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "double_1", ty: "double_t", modifiers: "", def_value: None, comment: None }]
   constexpr Register(uint8_t byte_0, uint8_t byte_1, uint8_t byte_2, uint8_t byte_3, uint8_t byte_4, uint8_t byte_5, uint8_t byte_6, uint8_t byte_7, uint8_t byte_8, uint8_t byte_9, uint8_t byte_10,
                      uint8_t byte_11, uint8_t byte_12, uint8_t byte_13, uint8_t byte_14, uint8_t byte_15, int8_t sbyte_0, int8_t sbyte_1, int8_t sbyte_2, int8_t sbyte_3, int8_t sbyte_4,
                      int8_t sbyte_5, int8_t sbyte_6, int8_t sbyte_7, int8_t sbyte_8, int8_t sbyte_9, int8_t sbyte_10, int8_t sbyte_11, int8_t sbyte_12, int8_t sbyte_13, int8_t sbyte_14,

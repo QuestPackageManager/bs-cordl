@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightGroupSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightGroupSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -151,38 +151,54 @@ protected:
   constexpr LightGroupSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupSO(LightGroupSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightGroupSO(LightGroupSO const&) = delete;
+  LightGroupSO(LightGroupSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19506 };
 
+  /// [SerializeField]
+  /// [Tooltip("Automatically updated based on file name")]
   /// @brief Field _groupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____groupName;
 
+  /// [SerializeField]
+  /// [TextArea]
+  /// [Tooltip("Only used for own descriptive purposes")]
   /// @brief Field _groupDescription, offset: 0x20, size: 0x8, def value: None
   ::StringW ____groupDescription;
 
+  /// [SerializeField]
+  /// [Min(0)]
   /// @brief Field _groupId, offset: 0x28, size: 0x4, def value: None
   int32_t ____groupId;
 
+  /// [SerializeField]
+  /// [Min(0)]
   /// @brief Field _startLightId, offset: 0x2c, size: 0x4, def value: None
   int32_t ____startLightId;
 
+  /// [SerializeField]
+  /// [Min(0)]
   /// @brief Field _numberOfElements, offset: 0x30, size: 0x4, def value: None
   int32_t ____numberOfElements;
 
+  /// [SerializeField]
+  /// [Min(1)]
   /// @brief Field _sameIdElements, offset: 0x34, size: 0x4, def value: None
   int32_t ____sameIdElements;
 
+  /// [SerializeField]
   /// @brief Field _ignoreLightGroupEffectManager, offset: 0x38, size: 0x1, def value: None
   bool ____ignoreLightGroupEffectManager;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _compositeLimits, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::LightGroupTranslationLimits* ____compositeLimits;
 

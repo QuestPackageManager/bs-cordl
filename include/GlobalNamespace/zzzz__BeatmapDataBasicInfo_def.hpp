@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataBasicInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataBasicInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,18 +81,23 @@ public:
   /// @brief Method .ctor, addr 0x3711098, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t cuttableScoringObjectsCount, int32_t obstaclesCount, int32_t bombsCount);
 
+  /// [CompilerGenerated]
   /// @brief Method get_bombsCount, addr 0x3711090, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bombsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cuttableNotesCount, addr 0x3711078, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cuttableScoringObjectsCount, addr 0x3711080, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableScoringObjectsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_numberOfLines, addr 0x3711070, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
+  /// [CompilerGenerated]
   /// @brief Method get_obstaclesCount, addr 0x3711088, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_obstaclesCount();
 
@@ -102,29 +107,34 @@ protected:
   constexpr BeatmapDataBasicInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataBasicInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataBasicInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataBasicInfo(BeatmapDataBasicInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataBasicInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataBasicInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataBasicInfo(BeatmapDataBasicInfo const&) = delete;
+  BeatmapDataBasicInfo(BeatmapDataBasicInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14884 };
 
+  /// [CompilerGenerated]
   /// @brief Field <numberOfLines>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____numberOfLines_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <cuttableNotesCount>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____cuttableNotesCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <cuttableScoringObjectsCount>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____cuttableScoringObjectsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <obstaclesCount>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____obstaclesCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <bombsCount>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____bombsCount_k__BackingField;
 

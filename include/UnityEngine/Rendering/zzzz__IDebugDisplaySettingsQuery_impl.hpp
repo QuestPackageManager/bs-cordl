@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IDebugDisplaySettingsQuery.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IDebugDisplaySettingsQuery.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsQuery_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IDebugDisplaySettingsQuery.get_AreAnySettingsActive

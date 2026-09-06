@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\CustomServerSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/CustomServerSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr CustomServerSettings();
 
-  // Ctor Parameters [CppParam { name: "useCustomEnvironment", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "forceGameLiftEnvironment", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "useCustomEnvironment", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "forceGameLiftEnvironment", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr CustomServerSettings(bool useCustomEnvironment, bool forceGameLiftEnvironment, ::StringW hostName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -40,6 +40,7 @@ public:
   /// @brief Field forceGameLiftEnvironment, offset: 0x1, size: 0x1, def value: None
   bool forceGameLiftEnvironment;
 
+  /// [Nullable(1)]
   /// @brief Field hostName, offset: 0x8, size: 0x8, def value: None
   ::StringW hostName;
 

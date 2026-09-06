@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayLevelSceneTransitionEvents.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayLevelSceneTransitionEvents.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayLevelSceneTransitionEvents_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\RemotingSurrogateSelector.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/RemotingSurrogateSelector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class RemotingSurrogateSelector;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*, "System.Runtime.Remoting.Messaging", "RemotingSurrogateSelector");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
@@ -88,13 +89,13 @@ protected:
   constexpr RemotingSurrogateSelector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RemotingSurrogateSelector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemotingSurrogateSelector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemotingSurrogateSelector(RemotingSurrogateSelector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RemotingSurrogateSelector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RemotingSurrogateSelector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RemotingSurrogateSelector(RemotingSurrogateSelector const&) = delete;
+  RemotingSurrogateSelector(RemotingSurrogateSelectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3201 };

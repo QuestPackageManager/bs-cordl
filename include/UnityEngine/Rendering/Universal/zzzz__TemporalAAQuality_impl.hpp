@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TemporalAAQuality.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TemporalAAQuality.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__TemporalAAQuality_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::TemporalAAQuality::TemporalAAQuality(int32_t value__) noexcept {
   this->value__ = value__;
 }

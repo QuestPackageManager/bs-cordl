@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplayStats_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplayStats_1.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugDisplayStats_1_def.hpp"
@@ -55,7 +55,7 @@ inline ::UnityEngine::Rendering::DebugDisplayStats_1_AccumulatedTiming<TProfileI
 }
 // Ctor Parameters []
 template <typename TProfileId> constexpr ::UnityEngine::Rendering::DebugDisplayStats_1_AccumulatedTiming<TProfileId>::DebugDisplayStats_1_AccumulatedTiming() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TProfileId> constexpr ::UnityEngine::Rendering::DebugDisplayStats_1_DebugProfilingType<TProfileId>::DebugDisplayStats_1_DebugProfilingType(int32_t value__) noexcept {
   this->value__ = value__;
 }

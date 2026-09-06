@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayAdditionalInformationSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayAdditionalInformationSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformationSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformation_def.hpp"

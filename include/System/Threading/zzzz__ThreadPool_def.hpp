@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ThreadPool.hpp"
+// IWYU pragma private; include "System/Threading/ThreadPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ MARK_GEN_REF_T_PTR(::System::Threading::ThreadPool___c__DisplayClass18_0_1);
 DEFINE_IL2CPP_CLASS(::System::Threading::ThreadPool*, "System.Threading", "ThreadPool");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::ThreadPool___c__DisplayClass17_0_1, "System.Threading", "ThreadPool/<>c__DisplayClass17_0`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::ThreadPool___c__DisplayClass18_0_1, "System.Threading", "ThreadPool/<>c__DisplayClass18_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading {
 // cpp template
@@ -88,13 +89,13 @@ protected:
   constexpr ThreadPool___c__DisplayClass17_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass17_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass17_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPool___c__DisplayClass17_0_1(ThreadPool___c__DisplayClass17_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass17_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass17_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPool___c__DisplayClass17_0_1(ThreadPool___c__DisplayClass17_0_1 const&) = delete;
+  ThreadPool___c__DisplayClass17_0_1(ThreadPool___c__DisplayClass17_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2751 };
@@ -106,6 +107,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading {
 // cpp template
@@ -138,13 +140,13 @@ protected:
   constexpr ThreadPool___c__DisplayClass18_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass18_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass18_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPool___c__DisplayClass18_0_1(ThreadPool___c__DisplayClass18_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass18_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool___c__DisplayClass18_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPool___c__DisplayClass18_0_1(ThreadPool___c__DisplayClass18_0_1 const&) = delete;
+  ThreadPool___c__DisplayClass18_0_1(ThreadPool___c__DisplayClass18_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2752 };
@@ -238,13 +240,13 @@ protected:
   constexpr ThreadPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPool(ThreadPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPool(ThreadPool const&) = delete;
+  ThreadPool(ThreadPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2753 };

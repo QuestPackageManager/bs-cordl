@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Assets\OVR\Scripts\RangedRecord.hpp"
+// IWYU pragma private; include "Assets/OVR/Scripts/RangedRecord.hpp"
 #include "Assets/OVR/Scripts/zzzz__Record_impl.hpp"
 #include "Assets/OVR/Scripts/zzzz__RangedRecord_def.hpp"
 //  Writing Method size for method: ::Assets::OVR::Scripts::RangedRecord._ctor

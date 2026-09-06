@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Attributes\ToggleLeftAttribute.hpp"
+// IWYU pragma private; include "BGLib/Attributes/ToggleLeftAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/Attributes/zzzz__ToggleLeftAttribute_def.hpp"
 //  Writing Method size for method: ::BGLib::Attributes::ToggleLeftAttribute._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugActionDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugActionDesc.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugActionRepeatMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugActionDesc_def.hpp"

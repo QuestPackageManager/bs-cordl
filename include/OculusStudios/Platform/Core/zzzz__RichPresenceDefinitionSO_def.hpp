@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\RichPresenceDefinitionSO.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/RichPresenceDefinitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IRichPresenceDefinition"
   constexpr operator ::OculusStudios::Platform::Core::IRichPresenceDefinition*() noexcept;
 
-  /// @brief Method CreateRuntime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateRuntime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::OculusStudios::Platform::Core::RichPresenceRuntimeInstance CreateRuntime();
 
   static inline ::OculusStudios::Platform::Core::RichPresenceDefinitionSO* New_ctor();
@@ -102,26 +102,30 @@ protected:
   constexpr RichPresenceDefinitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceDefinitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceDefinitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RichPresenceDefinitionSO(RichPresenceDefinitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceDefinitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RichPresenceDefinitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RichPresenceDefinitionSO(RichPresenceDefinitionSO const&) = delete;
+  RichPresenceDefinitionSO(RichPresenceDefinitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22442 };
 
+  /// [SerializeField]
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;
 
+  /// [SerializeField]
   /// @brief Field _activity, offset: 0x20, size: 0x8, def value: None
   ::StringW ____activity;
 
+  /// [SerializeField]
   /// @brief Field _imageIdSmall, offset: 0x28, size: 0x8, def value: None
   ::StringW ____imageIdSmall;
 
+  /// [SerializeField]
   /// @brief Field _imageIdLarge, offset: 0x30, size: 0x8, def value: None
   ::StringW ____imageIdLarge;
 

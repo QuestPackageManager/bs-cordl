@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HumanDescription.hpp"
+// IWYU pragma private; include "UnityEngine/HumanDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ struct HumanDescription;
 // Write type traits
 MARK_VAL_T(::UnityEngine::HumanDescription);
 DEFINE_IL2CPP_CLASS(::UnityEngine::HumanDescription, "UnityEngine", "HumanDescription");
+// [NativeHeader("Modules/Animation/ScriptBindings/AvatarBuilder.bindings.h")]
+// [NativeHeader("Modules/Animation/HumanDescription.h")]
 // Dependencies UnityEngine.HumanBone, UnityEngine.SkeletonBone
 namespace UnityEngine {
 // Is value type: true
@@ -34,13 +36,14 @@ public:
   // @brief default ctor
   constexpr HumanDescription();
 
-  // Ctor Parameters [CppParam { name: "human", ty: "::ArrayW<::UnityEngine::HumanBone>", modifiers: "", def_value: None }, CppParam { name: "skeleton", ty: "::ArrayW<::UnityEngine::SkeletonBone>",
-  // modifiers: "", def_value: None }, CppParam { name: "m_ArmTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ForeArmTwist", ty: "float_t", modifiers: "", def_value: None
-  // }, CppParam { name: "m_UpperLegTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_LegTwist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_ArmStretch", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_LegStretch", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_FeetSpacing", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_GlobalScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_RootMotionBoneName", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "m_HasTranslationDoF", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_HasExtraRoot", ty: "bool", modifiers: "", def_value: None }, CppParam
-  // { name: "m_SkeletonHasParents", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "human", ty: "::ArrayW<::UnityEngine::HumanBone>", modifiers: "", def_value: None, comment: None }, CppParam { name: "skeleton", ty:
+  // "::ArrayW<::UnityEngine::SkeletonBone>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ArmTwist", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_ForeArmTwist", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UpperLegTwist", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_LegTwist", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ArmStretch", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_LegStretch", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FeetSpacing", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_GlobalScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RootMotionBoneName", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_HasTranslationDoF", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_HasExtraRoot", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_SkeletonHasParents", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr HumanDescription(::ArrayW<::UnityEngine::HumanBone> human, ::ArrayW<::UnityEngine::SkeletonBone> skeleton, float_t m_ArmTwist, float_t m_ForeArmTwist, float_t m_UpperLegTwist,
                              float_t m_LegTwist, float_t m_ArmStretch, float_t m_LegStretch, float_t m_FeetSpacing, float_t m_GlobalScale, ::StringW m_RootMotionBoneName, bool m_HasTranslationDoF,
                              bool m_HasExtraRoot, bool m_SkeletonHasParents) noexcept;
@@ -51,9 +54,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
+  /// [NativeName("m_Human")]
   /// @brief Field human, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::HumanBone> human;
 
+  /// [NativeName("m_Skeleton")]
   /// @brief Field skeleton, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::SkeletonBone> skeleton;
 

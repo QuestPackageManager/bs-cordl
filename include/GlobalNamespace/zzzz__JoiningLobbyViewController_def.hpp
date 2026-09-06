@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\JoiningLobbyViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/JoiningLobbyViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ public:
 
   static inline ::GlobalNamespace::JoiningLobbyViewController* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__8_0, addr 0x5a1b6cc, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
@@ -82,9 +83,11 @@ public:
   /// @brief Method .ctor, addr 0x5a1b6c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didCancelEvent, addr 0x5a1b3fc, size 0xac, virtual false, abstract: false, final false
   inline void add_didCancelEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didCancelEvent, addr 0x5a1b4a8, size 0xac, virtual false, abstract: false, final false
   inline void remove_didCancelEvent(::System::Action* value);
 
@@ -94,26 +97,29 @@ protected:
   constexpr JoiningLobbyViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JoiningLobbyViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JoiningLobbyViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JoiningLobbyViewController(JoiningLobbyViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JoiningLobbyViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JoiningLobbyViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JoiningLobbyViewController(JoiningLobbyViewController const&) = delete;
+  JoiningLobbyViewController(JoiningLobbyViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6450 };
 
+  /// [SerializeField]
   /// @brief Field _cancelJoiningButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____cancelJoiningButton;
 
+  /// [SerializeField]
   /// @brief Field _loadingControl, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____loadingControl;
 
   /// @brief Field _text, offset: 0x88, size: 0x8, def value: None
   ::StringW ____text;
 
+  /// [CompilerGenerated]
   /// @brief Field didCancelEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ___didCancelEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberModelContainer.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberModelContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +66,13 @@ protected:
   constexpr SaberModelContainer_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberModelContainer_InitData(SaberModelContainer_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberModelContainer_InitData(SaberModelContainer_InitData const&) = delete;
+  SaberModelContainer_InitData(SaberModelContainer_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6232 };
@@ -88,6 +88,7 @@ static_assert(offsetof(::GlobalNamespace::SaberModelContainer_InitData, ___trail
 static_assert(sizeof(::GlobalNamespace::SaberModelContainer_InitData) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/SaberModelContainer")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -148,26 +149,30 @@ protected:
   constexpr SaberModelContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberModelContainer(SaberModelContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberModelContainer(SaberModelContainer const&) = delete;
+  SaberModelContainer(SaberModelContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6233 };
 
+  /// [SerializeField]
   /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Saber> ____saber;
 
+  /// [SerializeField]
   /// @brief Field _saberModelControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberModelController> ____saberModelControllerPrefab;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x30, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
+  /// [InjectOptional]
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SaberModelContainer_InitData* ____initData;
 

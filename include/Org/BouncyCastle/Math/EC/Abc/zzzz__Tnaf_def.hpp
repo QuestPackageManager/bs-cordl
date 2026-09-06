@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Abc\Tnaf.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Abc/Tnaf.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -171,13 +171,13 @@ protected:
   constexpr Tnaf();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tnaf", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tnaf", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tnaf(Tnaf&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tnaf", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tnaf", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tnaf(Tnaf const&) = delete;
+  Tnaf(Tnafconst&) = delete;
 
   /// @brief Field Pow2Width offset 0xffffffff size 0x1
   static constexpr int8_t Pow2Width{ static_cast<int8_t>(0x10) };

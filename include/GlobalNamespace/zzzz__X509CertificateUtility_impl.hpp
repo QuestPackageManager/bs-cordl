@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\X509CertificateUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace/X509CertificateUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__X509CertificateUtility_def.hpp"
 #include "GlobalNamespace/zzzz__ICertificateEncryptionProvider_def.hpp"
@@ -480,6 +480,7 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::X509CertificateUtili
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5* GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5*>(__1__state));
 }

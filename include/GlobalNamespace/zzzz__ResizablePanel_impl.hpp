@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ResizablePanel.hpp"
+// IWYU pragma private; include "GlobalNamespace/ResizablePanel.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResizablePanel_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"

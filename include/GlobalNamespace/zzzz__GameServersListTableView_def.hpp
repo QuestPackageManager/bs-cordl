@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServersListTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServersListTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -167,12 +167,14 @@ public:
   /// @brief Method .ctor, addr 0x596cbb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_joinButtonPressedEvent, addr 0x596c31c, size 0xc0, virtual false, abstract: false, final false
   inline void add_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
   /// @brief Convert to "::GlobalNamespace::TableViewWithDetailCell_IDataSource"
   constexpr ::GlobalNamespace::TableViewWithDetailCell_IDataSource* i___GlobalNamespace__TableViewWithDetailCell_IDataSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_joinButtonPressedEvent, addr 0x596c3dc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
@@ -182,13 +184,13 @@ protected:
   constexpr GameServersListTableView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServersListTableView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServersListTableView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServersListTableView(GameServersListTableView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServersListTableView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServersListTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServersListTableView(GameServersListTableView const&) = delete;
+  GameServersListTableView(GameServersListTableViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7006 };
@@ -199,18 +201,23 @@ public:
   /// @brief Field kDetailCellReuseIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kDetailCellReuseIdentifier{ u"DetailCell" };
 
+  /// [SerializeField]
   /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TableViewWithDetailCell> ____tableView;
 
+  /// [SerializeField]
   /// @brief Field _gameServerListCellPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerListTableCell> ____gameServerListCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _gameServerDetailCellPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerListDetailTableCell> ____gameServerDetailCellPrefab;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x38, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
+  /// [CompilerGenerated]
   /// @brief Field joinButtonPressedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::INetworkPlayer*>* ___joinButtonPressedEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRHand.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRHand.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -17,7 +17,7 @@
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRHand_Hand::OVRHand_Hand(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -26,7 +26,7 @@ constexpr ::GlobalNamespace::OVRHand_Hand::OVRHand_Hand() {}
 constexpr ::GlobalNamespace::OVRHand_Hand GlobalNamespace::OVRHand_Hand::None{ static_cast<int32_t>(0xffffffff) };
 constexpr ::GlobalNamespace::OVRHand_Hand GlobalNamespace::OVRHand_Hand::HandLeft{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRHand_Hand GlobalNamespace::OVRHand_Hand::HandRight{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRHand_HandFinger::OVRHand_HandFinger(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -38,7 +38,7 @@ constexpr ::GlobalNamespace::OVRHand_HandFinger GlobalNamespace::OVRHand_HandFin
 constexpr ::GlobalNamespace::OVRHand_HandFinger GlobalNamespace::OVRHand_HandFinger::Ring{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRHand_HandFinger GlobalNamespace::OVRHand_HandFinger::Pinky{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRHand_HandFinger GlobalNamespace::OVRHand_HandFinger::Max{ static_cast<int32_t>(0x5) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRHand_TrackingConfidence::OVRHand_TrackingConfidence(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -46,7 +46,7 @@ constexpr ::GlobalNamespace::OVRHand_TrackingConfidence::OVRHand_TrackingConfide
 constexpr ::GlobalNamespace::OVRHand_TrackingConfidence::OVRHand_TrackingConfidence() {}
 constexpr ::GlobalNamespace::OVRHand_TrackingConfidence GlobalNamespace::OVRHand_TrackingConfidence::Low{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRHand_TrackingConfidence GlobalNamespace::OVRHand_TrackingConfidence::High{ static_cast<int32_t>(0x3f800000) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRHand_MicrogestureType::OVRHand_MicrogestureType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Plugins\InputForUI\InputSystemProvider.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Plugins/InputForUI/InputSystemProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerState_impl.hpp"
 #include "UnityEngine/InputSystem/Plugins/InputForUI/zzzz__InputSystemProvider_def.hpp"
@@ -43,11 +43,12 @@ inline ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Conf
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration>(), { "GetDefaultConfiguration", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "ActionAsset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "PointAction", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "MoveAction", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "SubmitAction", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "CancelAction", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "LeftClickAction", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "MiddleClickAction", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "RightClickAction", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "ScrollWheelAction", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ActionAsset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PointAction",
+// ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MoveAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "SubmitAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CancelAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "LeftClickAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MiddleClickAction", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "RightClickAction", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ScrollWheelAction", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration::InputSystemProvider_Configuration(::UnityW<::UnityEngine::InputSystem::InputActionAsset> ActionAsset,
                                                                                                                                 ::StringW PointAction, ::StringW MoveAction, ::StringW SubmitAction,
                                                                                                                                 ::StringW CancelAction, ::StringW LeftClickAction,
@@ -1026,9 +1027,8 @@ inline ::UnityEngine::Vector2 UnityEngine::InputSystem::Plugins::InputForUI::Inp
                                                            { "ScreenBottomLeftToPanelPosition", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, position, targetDisplay);
 }
-inline ::UnityEngine::InputForUI::PointerEvent UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ToPointerStateEvent(::Unity::IntegerTime::DiscreteTime currentTime,
-                                                                                                                                       ::by_ref<::UnityEngine::InputForUI::PointerState> state,
-                                                                                                                                       ::UnityEngine::InputForUI::EventSource eventSource) {
+inline ::UnityEngine::InputForUI::PointerEvent UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ToPointerStateEvent(
+    ::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::PointerState> state, ::UnityEngine::InputForUI::EventSource eventSource) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
                                                            { "ToPointerStateEvent",
@@ -1053,7 +1053,7 @@ UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetPointerSt
                                                                                          { "GetPointerStateForSource", {}, { ::i2c::type_of<::UnityEngine::InputForUI::EventSource>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::InputForUI::PointerState>>(this, ___internal_method, eventSource);
 }
-inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::DispatchFromCallback(::by_ref<::UnityEngine::InputForUI::Event> ev) {
+inline void UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::DispatchFromCallback(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
                                                                                          { "DispatchFromCallback", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ev);

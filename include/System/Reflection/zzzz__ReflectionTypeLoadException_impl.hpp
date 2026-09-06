@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ReflectionTypeLoadException.hpp"
+// IWYU pragma private; include "System/Reflection/ReflectionTypeLoadException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"

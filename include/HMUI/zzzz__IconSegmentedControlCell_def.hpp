@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\IconSegmentedControlCell.hpp"
+// IWYU pragma private; include "HMUI/IconSegmentedControlCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,23 +94,27 @@ protected:
   constexpr IconSegmentedControlCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControlCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControlCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IconSegmentedControlCell(IconSegmentedControlCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControlCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControlCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IconSegmentedControlCell(IconSegmentedControlCell const&) = delete;
+  IconSegmentedControlCell(IconSegmentedControlCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23136 };
 
+  /// [SerializeField]
   /// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;
 
+  /// [SerializeField]
   /// @brief Field _hoverHint, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____hoverHint;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _backgroundGameObject, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
 

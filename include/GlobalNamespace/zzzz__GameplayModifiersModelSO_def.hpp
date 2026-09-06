@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifiersModelSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifiersModelSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr GameplayModifiersModelSO_GameplayModifierBoolGetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO_GameplayModifierBoolGetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO_GameplayModifierBoolGetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersModelSO_GameplayModifierBoolGetter(GameplayModifiersModelSO_GameplayModifierBoolGetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO_GameplayModifierBoolGetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO_GameplayModifierBoolGetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersModelSO_GameplayModifierBoolGetter(GameplayModifiersModelSO_GameplayModifierBoolGetter const&) = delete;
+  GameplayModifiersModelSO_GameplayModifierBoolGetter(GameplayModifiersModelSO_GameplayModifierBoolGetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14871 };
@@ -109,6 +109,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -294,13 +295,13 @@ protected:
   constexpr GameplayModifiersModelSO___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersModelSO___c(GameplayModifiersModelSO___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersModelSO___c(GameplayModifiersModelSO___c const&) = delete;
+  GameplayModifiersModelSO___c(GameplayModifiersModelSO___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14872 };
@@ -531,13 +532,13 @@ protected:
   constexpr GameplayModifiersModelSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersModelSO(GameplayModifiersModelSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersModelSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersModelSO(GameplayModifiersModelSO const&) = delete;
+  GameplayModifiersModelSO(GameplayModifiersModelSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14873 };
@@ -545,51 +546,67 @@ public:
   /// @brief Field kMaxPossibleMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kMaxPossibleMultiplier{ static_cast<float_t>(1.21f) };
 
+  /// [SerializeField]
   /// @brief Field _batteryEnergy, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____batteryEnergy;
 
+  /// [SerializeField]
   /// @brief Field _instaFail, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____instaFail;
 
+  /// [SerializeField]
   /// @brief Field _noObstacles, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____noObstacles;
 
+  /// [SerializeField]
   /// @brief Field _noBombs, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____noBombs;
 
+  /// [SerializeField]
   /// @brief Field _fastNotes, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____fastNotes;
 
+  /// [SerializeField]
   /// @brief Field _strictAngles, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____strictAngles;
 
+  /// [SerializeField]
   /// @brief Field _disappearingArrows, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____disappearingArrows;
 
+  /// [SerializeField]
   /// @brief Field _fasterSong, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____fasterSong;
 
+  /// [SerializeField]
   /// @brief Field _slowerSong, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____slowerSong;
 
+  /// [SerializeField]
   /// @brief Field _noArrows, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____noArrows;
 
+  /// [SerializeField]
   /// @brief Field _ghostNotes, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____ghostNotes;
 
+  /// [SerializeField]
   /// @brief Field _noFailOn0Energy, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____noFailOn0Energy;
 
+  /// [SerializeField]
   /// @brief Field _superFastSong, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____superFastSong;
 
+  /// [SerializeField]
   /// @brief Field _proMode, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____proMode;
 
+  /// [SerializeField]
   /// @brief Field _zenMode, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____zenMode;
 
+  /// [SerializeField]
   /// @brief Field _smallCubes, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____smallCubes;
 

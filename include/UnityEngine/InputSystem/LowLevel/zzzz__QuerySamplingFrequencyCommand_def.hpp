@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\QuerySamplingFrequencyCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QuerySamplingFrequencyCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,8 +68,8 @@ public:
   // @brief default ctor
   constexpr QuerySamplingFrequencyCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "frequency", ty: "float_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name: "frequency", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr QuerySamplingFrequencyCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, float_t frequency) noexcept;
 
 private:

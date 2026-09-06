@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\IMacDerivationFunction.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IMacDerivationFunction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method GetMac, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMac, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMacDerivationFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMacDerivationFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMacDerivationFunction(IMacDerivationFunction const&) = delete;
+  IMacDerivationFunction(IMacDerivationFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 909 };

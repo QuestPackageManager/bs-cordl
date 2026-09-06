@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\DeserializableList_1.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/DeserializableList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ template <typename T> class DeserializableList_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Oculus::Platform::Models::DeserializableList_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Oculus::Platform::Models::DeserializableList_1, "Oculus.Platform.Models", "DeserializableList`1");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace Oculus::Platform::Models {
 // cpp template
@@ -47,6 +48,7 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
+  /// @brief [Obsolete("Use IList interface on the DeserializableList object instead.", false)]
   __declspec(property(get = get_Data)) ::System::Collections::Generic::List_1<T>* Data;
 
   __declspec(property(get = get_HasNextPage)) bool HasNextPage;
@@ -183,13 +185,13 @@ protected:
   constexpr DeserializableList_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeserializableList_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeserializableList_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeserializableList_1(DeserializableList_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeserializableList_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeserializableList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeserializableList_1(DeserializableList_1 const&) = delete;
+  DeserializableList_1(DeserializableList_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18039 };

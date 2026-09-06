@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\SocketAsyncEventArgs.hpp"
+// IWYU pragma private; include "System/Net/Sockets/SocketAsyncEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,6 +92,7 @@ public:
 
   __declspec(property(put = set_RemoteEndPoint)) ::System::Net::EndPoint* RemoteEndPoint;
 
+  /// @brief [MonoTODO("unused property")]
   __declspec(property(put = set_SendPacketsSendSize)) int32_t SendPacketsSendSize;
 
   __declspec(property(get = get_SocketError, put = set_SocketError)) ::System::Net::Sockets::SocketError SocketError;
@@ -364,15 +365,18 @@ public:
   /// @brief Method .ctor, addr 0x6365360, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(bool flowExecutionContext);
 
+  /// [CompilerGenerated]
   /// @brief Method add_Completed, addr 0x636ce5c, size 0xc0, virtual false, abstract: false, final false
   inline void add_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_AcceptSocket, addr 0x636cdfc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_AcceptSocket();
 
   /// @brief Method get_BufferList, addr 0x636d214, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* get_BufferList();
 
+  /// [CompilerGenerated]
   /// @brief Method get_BytesTransferred, addr 0x636ce0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BytesTransferred();
 
@@ -388,39 +392,49 @@ public:
   /// @brief Method get_Offset, addr 0x636d204, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Offset();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SocketError, addr 0x636ce34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_SocketError();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UserToken, addr 0x636ce4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_UserToken();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_Completed, addr 0x636cf1c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_AcceptSocket, addr 0x636ce04, size 0x8, virtual false, abstract: false, final false
   inline void set_AcceptSocket(::System::Net::Sockets::Socket* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_BytesTransferred, addr 0x636ce14, size 0x8, virtual false, abstract: false, final false
   inline void set_BytesTransferred(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LastOperation, addr 0x636ce1c, size 0x8, virtual false, abstract: false, final false
   inline void set_LastOperation(::System::Net::Sockets::SocketAsyncOperation value);
 
   /// @brief Method set_RemoteEndPoint, addr 0x636ce24, size 0x8, virtual false, abstract: false, final false
   inline void set_RemoteEndPoint(::System::Net::EndPoint* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SendPacketsSendSize, addr 0x636ce2c, size 0x8, virtual false, abstract: false, final false
   inline void set_SendPacketsSendSize(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SocketError, addr 0x636ce3c, size 0x8, virtual false, abstract: false, final false
   inline void set_SocketError(::System::Net::Sockets::SocketError value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SocketFlags, addr 0x636ce44, size 0x8, virtual false, abstract: false, final false
   inline void set_SocketFlags(::System::Net::Sockets::SocketFlags value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_UserToken, addr 0x636ce54, size 0x8, virtual false, abstract: false, final false
   inline void set_UserToken(::System::Object* value);
 
@@ -430,13 +444,13 @@ protected:
   constexpr SocketAsyncEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SocketAsyncEventArgs(SocketAsyncEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SocketAsyncEventArgs(SocketAsyncEventArgs const&) = delete;
+  SocketAsyncEventArgs(SocketAsyncEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11784 };
@@ -456,42 +470,55 @@ public:
   /// @brief Field socket_async_result, offset: 0x28, size: 0x8, def value: None
   ::System::Net::Sockets::SocketAsyncResult* ___socket_async_result;
 
+  /// [CompilerGenerated]
   /// @brief Field <ConnectByNameError>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Exception* ____ConnectByNameError_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AcceptSocket>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ____AcceptSocket_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <BytesTransferred>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____BytesTransferred_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DisconnectReuseSocket>k__BackingField, offset: 0x44, size: 0x1, def value: None
   bool ____DisconnectReuseSocket_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <LastOperation>k__BackingField, offset: 0x48, size: 0x4, def value: None
   ::System::Net::Sockets::SocketAsyncOperation ____LastOperation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ReceiveMessageFromPacketInfo>k__BackingField, offset: 0x50, size: 0x10, def value: None
   ::System::Net::Sockets::IPPacketInformation ____ReceiveMessageFromPacketInfo_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SendPacketsElements>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::System::Net::Sockets::SendPacketsElement*> ____SendPacketsElements_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SendPacketsFlags>k__BackingField, offset: 0x68, size: 0x4, def value: None
   ::System::Net::Sockets::TransmitFileOptions ____SendPacketsFlags_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SendPacketsSendSize>k__BackingField, offset: 0x6c, size: 0x4, def value: None
   int32_t ____SendPacketsSendSize_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SocketError>k__BackingField, offset: 0x70, size: 0x4, def value: None
   ::System::Net::Sockets::SocketError ____SocketError_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SocketFlags>k__BackingField, offset: 0x74, size: 0x4, def value: None
   ::System::Net::Sockets::SocketFlags ____SocketFlags_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <UserToken>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::System::Object* ____UserToken_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field Completed, offset: 0x80, size: 0x8, def value: None
   ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* ___Completed;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ListChangedEventArgs.hpp"
+// IWYU pragma private; include "System/ComponentModel/ListChangedEventArgs.hpp"
 #include "System/ComponentModel/zzzz__ListChangedType_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/ComponentModel/zzzz__ListChangedEventArgs_def.hpp"

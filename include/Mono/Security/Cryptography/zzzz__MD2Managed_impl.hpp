@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Cryptography\MD2Managed.hpp"
+// IWYU pragma private; include "Mono/Security/Cryptography/MD2Managed.hpp"
 #include "Mono/Security/Cryptography/zzzz__MD2_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__MD2Managed_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Cryptography::MD2Managed.Padding

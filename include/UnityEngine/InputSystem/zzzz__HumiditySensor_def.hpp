@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\HumiditySensor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/HumiditySensor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class HumiditySensor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::HumiditySensor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::HumiditySensor*, "UnityEngine.InputSystem", "HumiditySensor");
+// [InputControlLayout(displayName = "Humidity")]
 // Dependencies UnityEngine.InputSystem.Sensor
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -29,6 +30,7 @@ public:
   __declspec(property(get = __cordl_internal_get__relativeHumidity_k__BackingField,
                       put = __cordl_internal_set__relativeHumidity_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _relativeHumidity_k__BackingField;
 
+  /// @brief [InputControl(displayName = "Relative Humidity", noisy = true)]
   __declspec(property(get = get_relativeHumidity, put = set_relativeHumidity)) ::UnityEngine::InputSystem::Controls::AxisControl* relativeHumidity;
 
   /// @brief Method FinishSetup, addr 0x6566e8c, size 0x70, virtual true, abstract: false, final false
@@ -53,17 +55,21 @@ public:
 
   static inline ::UnityEngine::InputSystem::HumiditySensor* getStaticF__current_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6566d10, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::HumiditySensor* get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_relativeHumidity, addr 0x6566d00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_relativeHumidity();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::HumiditySensor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6566d5c, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::HumiditySensor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_relativeHumidity, addr 0x6566d08, size 0x8, virtual false, abstract: false, final false
   inline void set_relativeHumidity(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
@@ -73,17 +79,18 @@ protected:
   constexpr HumiditySensor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HumiditySensor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HumiditySensor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HumiditySensor(HumiditySensor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HumiditySensor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HumiditySensor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HumiditySensor(HumiditySensor const&) = delete;
+  HumiditySensor(HumiditySensorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8768 };
 
+  /// [CompilerGenerated]
   /// @brief Field <relativeHumidity>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____relativeHumidity_k__BackingField;
 

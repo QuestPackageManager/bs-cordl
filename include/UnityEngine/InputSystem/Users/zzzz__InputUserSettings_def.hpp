@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Users\InputUserSettings.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Users/InputUserSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(InputUserSettings)
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::InputSystem {
 class IInputActionCollection;
@@ -179,75 +181,99 @@ public:
   /// @brief Method .ctor, addr 0x6592144, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_customBindings, addr 0x6592080, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_customBindings();
 
+  /// [CompilerGenerated]
   /// @brief Method get_invertMouseX, addr 0x6592090, size 0x8, virtual false, abstract: false, final false
   inline bool get_invertMouseX();
 
+  /// [CompilerGenerated]
   /// @brief Method get_invertMouseY, addr 0x65920a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_invertMouseY();
 
+  /// [CompilerGenerated]
   /// @brief Method get_invertStickX, addr 0x65920d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_invertStickX();
 
+  /// [CompilerGenerated]
   /// @brief Method get_invertStickY, addr 0x65920e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_invertStickY();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mouseSensitivity, addr 0x65920c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<float_t> get_mouseSensitivity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mouseSmoothing, addr 0x65920b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<float_t> get_mouseSmoothing();
 
+  /// [CompilerGenerated]
   /// @brief Method get_swapBumpers, addr 0x6592100, size 0x8, virtual false, abstract: false, final false
   inline bool get_swapBumpers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_swapDpadAndLeftStick, addr 0x6592120, size 0x8, virtual false, abstract: false, final false
   inline bool get_swapDpadAndLeftStick();
 
+  /// [CompilerGenerated]
   /// @brief Method get_swapSticks, addr 0x65920f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_swapSticks();
 
+  /// [CompilerGenerated]
   /// @brief Method get_swapTriggers, addr 0x6592110, size 0x8, virtual false, abstract: false, final false
   inline bool get_swapTriggers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_vibrationStrength, addr 0x6592130, size 0x8, virtual false, abstract: false, final false
   inline float_t get_vibrationStrength();
 
+  /// [CompilerGenerated]
   /// @brief Method set_customBindings, addr 0x6592088, size 0x8, virtual false, abstract: false, final false
   inline void set_customBindings(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_invertMouseX, addr 0x6592098, size 0x8, virtual false, abstract: false, final false
   inline void set_invertMouseX(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_invertMouseY, addr 0x65920a8, size 0x8, virtual false, abstract: false, final false
   inline void set_invertMouseY(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_invertStickX, addr 0x65920d8, size 0x8, virtual false, abstract: false, final false
   inline void set_invertStickX(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_invertStickY, addr 0x65920e8, size 0x8, virtual false, abstract: false, final false
   inline void set_invertStickY(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mouseSensitivity, addr 0x65920c8, size 0x8, virtual false, abstract: false, final false
   inline void set_mouseSensitivity(::System::Nullable_1<float_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mouseSmoothing, addr 0x65920b8, size 0x8, virtual false, abstract: false, final false
   inline void set_mouseSmoothing(::System::Nullable_1<float_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_swapBumpers, addr 0x6592108, size 0x8, virtual false, abstract: false, final false
   inline void set_swapBumpers(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_swapDpadAndLeftStick, addr 0x6592128, size 0x8, virtual false, abstract: false, final false
   inline void set_swapDpadAndLeftStick(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_swapSticks, addr 0x65920f8, size 0x8, virtual false, abstract: false, final false
   inline void set_swapSticks(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_swapTriggers, addr 0x6592118, size 0x8, virtual false, abstract: false, final false
   inline void set_swapTriggers(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_vibrationStrength, addr 0x6592138, size 0x8, virtual false, abstract: false, final false
   inline void set_vibrationStrength(float_t value);
 
@@ -257,53 +283,66 @@ protected:
   constexpr InputUserSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputUserSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputUserSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputUserSettings(InputUserSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputUserSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputUserSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputUserSettings(InputUserSettings const&) = delete;
+  InputUserSettings(InputUserSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8856 };
 
+  /// [CompilerGenerated]
   /// @brief Field <customBindings>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____customBindings_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <invertMouseX>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____invertMouseX_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <invertMouseY>k__BackingField, offset: 0x19, size: 0x1, def value: None
   bool ____invertMouseY_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mouseSmoothing>k__BackingField, offset: 0x1c, size: 0x8, def value: None
   ::System::Nullable_1<float_t> ____mouseSmoothing_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <mouseSensitivity>k__BackingField, offset: 0x24, size: 0x8, def value: None
   ::System::Nullable_1<float_t> ____mouseSensitivity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <invertStickX>k__BackingField, offset: 0x2c, size: 0x1, def value: None
   bool ____invertStickX_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <invertStickY>k__BackingField, offset: 0x2d, size: 0x1, def value: None
   bool ____invertStickY_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <swapSticks>k__BackingField, offset: 0x2e, size: 0x1, def value: None
   bool ____swapSticks_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <swapBumpers>k__BackingField, offset: 0x2f, size: 0x1, def value: None
   bool ____swapBumpers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <swapTriggers>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____swapTriggers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <swapDpadAndLeftStick>k__BackingField, offset: 0x31, size: 0x1, def value: None
   bool ____swapDpadAndLeftStick_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <vibrationStrength>k__BackingField, offset: 0x34, size: 0x4, def value: None
   float_t ____vibrationStrength_k__BackingField;
 
+  /// [SerializeField]
   /// @brief Field m_CustomBindings, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_CustomBindings;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUIClip.hpp"
+// IWYU pragma private; include "UnityEngine/GUIClip.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ MARK_REF_T(::UnityEngine::GUIClip*);
 MARK_VAL_T(::UnityEngine::GUIClip_ParentClipScope);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GUIClip*, "UnityEngine", "GUIClip");
 DEFINE_IL2CPP_CLASS(::UnityEngine::GUIClip_ParentClipScope, "UnityEngine", "GUIClip/ParentClipScope");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -57,7 +58,7 @@ public:
   // @brief default ctor
   constexpr GUIClip_ParentClipScope();
 
-  // Ctor Parameters [CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr GUIClip_ParentClipScope(bool m_Disposed) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -77,6 +78,9 @@ static_assert(offsetof(::UnityEngine::GUIClip_ParentClipScope, m_Disposed) == 0x
 static_assert(sizeof(::UnityEngine::GUIClip_ParentClipScope) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/IMGUI/GUIClip.h")]
+// [NativeHeader("Modules/IMGUI/GUIState.h")]
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -86,15 +90,19 @@ public:
   // Declarations
   using ParentClipScope = ::UnityEngine::GUIClip_ParentClipScope;
 
+  /// [FreeFunction("GetGUIState().m_CanvasGUIState.m_GUIClipState.GetUserMatrix")]
   /// @brief Method GetMatrix, addr 0x6b41cdc, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetMatrix();
 
   /// @brief Method GetMatrix_Injected, addr 0x6b43a5c, size 0x3c, virtual false, abstract: false, final false
   static inline void GetMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> ret);
 
+  /// [FreeFunction("GetGUIState().m_CanvasGUIState.m_GUIClipState.GetCount")]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method Internal_GetCount, addr 0x6b43a34, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Internal_GetCount();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method Internal_Pop, addr 0x6b42e70, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_Pop();
 
@@ -125,6 +133,7 @@ public:
   /// @brief Method SetMatrix_Injected, addr 0x6b43a98, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> m);
 
+  /// [FreeFunction("GetGUIState().m_CanvasGUIState.m_GUIClipState.GetVisibleRect")]
   /// @brief Method get_visibleRect, addr 0x6b42684, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect get_visibleRect();
 
@@ -137,13 +146,13 @@ protected:
   constexpr GUIClip();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUIClip", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIClip", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUIClip(GUIClip&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUIClip", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIClip", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUIClip(GUIClip const&) = delete;
+  GUIClip(GUIClipconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19873 };

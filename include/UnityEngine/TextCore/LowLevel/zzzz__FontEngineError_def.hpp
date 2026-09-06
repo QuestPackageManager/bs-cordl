@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\FontEngineError.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/FontEngineError.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
   // @brief default ctor
   constexpr FontEngineError();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FontEngineError(int32_t value__) noexcept;
 
   /// @brief Field Atlas_Generation_Cancelled value: I32(100)

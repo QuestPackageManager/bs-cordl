@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\AssetImportStatusAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/AssetImportStatusAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,8 @@ class AssetImportStatusAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::AssetImportStatusAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::AssetImportStatusAnalytic*, "UnityEditor.Analytics", "AssetImportStatusAnalytic");
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -52,6 +54,7 @@ public:
   /// @brief Field unselected_assets_count, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_unselected_assets_count, put = __cordl_internal_set_unselected_assets_count)) int32_t unselected_assets_count;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateAssetImportStatusAnalytic, addr 0x6e25b9c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::AssetImportStatusAnalytic* CreateAssetImportStatusAnalytic();
 
@@ -126,13 +129,13 @@ protected:
   constexpr AssetImportStatusAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetImportStatusAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetImportStatusAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetImportStatusAnalytic(AssetImportStatusAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetImportStatusAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetImportStatusAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetImportStatusAnalytic(AssetImportStatusAnalytic const&) = delete;
+  AssetImportStatusAnalytic(AssetImportStatusAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23017 };

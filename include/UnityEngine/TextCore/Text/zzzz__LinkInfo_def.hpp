@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\LinkInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/LinkInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ struct LinkInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::LinkInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::LinkInfo, "UnityEngine.TextCore.Text", "LinkInfo");
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 // Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -38,10 +39,11 @@ public:
   // @brief default ctor
   constexpr LinkInfo();
 
-  // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "linkTextLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkId", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "m_LinkIdString", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_LinkTextString", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "linkTextLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "linkId", ty:
+  // "::ArrayW<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LinkIdString", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_LinkTextString", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr LinkInfo(int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex, int32_t linkTextLength, ::ArrayW<char16_t> linkId,
                      ::StringW m_LinkIdString, ::StringW m_LinkTextString) noexcept;
 
@@ -66,6 +68,7 @@ public:
   /// @brief Field linkTextLength, offset: 0x10, size: 0x4, def value: None
   int32_t linkTextLength;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Field linkId, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<char16_t> linkId;
 

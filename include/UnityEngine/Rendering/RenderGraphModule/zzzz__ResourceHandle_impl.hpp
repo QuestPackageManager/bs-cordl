@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\ResourceHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/ResourceHandle.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphResourceType_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -228,7 +228,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor(int
                           { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value, type, shared);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t version) {
+inline void UnityEngine::Rendering::RenderGraphModule::ResourceHandle::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t version) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<int32_t>() } })));
@@ -266,8 +266,9 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::Re
 UnityEngine::Rendering::RenderGraphModule::ResourceHandle::i___System__IEquatable_1___UnityEngine__Rendering__RenderGraphModule__ResourceHandle_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_type_k__BackingField", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Value", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_type_k__BackingField", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle::ResourceHandle(uint32_t m_Value, int32_t m_Version,
                                                                                       ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType _type_k__BackingField) noexcept {
   this->m_Value = m_Value;

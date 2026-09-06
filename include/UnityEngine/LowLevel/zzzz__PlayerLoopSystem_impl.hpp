@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LowLevel\PlayerLoopSystem.hpp"
+// IWYU pragma private; include "UnityEngine/LowLevel/PlayerLoopSystem.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/LowLevel/zzzz__PlayerLoopSystem_def.hpp"
@@ -66,9 +66,10 @@ inline ::StringW UnityEngine::LowLevel::PlayerLoopSystem::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::LowLevel::PlayerLoopSystem>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "subSystemList", ty: "::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "updateDelegate", ty: "::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "updateFunction", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "subSystemList", ty:
+// "::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "updateDelegate", ty:
+// "::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "updateFunction", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::LowLevel::PlayerLoopSystem::PlayerLoopSystem(::System::Type* type, ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem> subSystemList,
                                                                       ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* updateDelegate, ::System::IntPtr updateFunction,
                                                                       ::System::IntPtr loopConditionFunction) noexcept {

@@ -1,13 +1,16 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PacketPool_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/PacketPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PacketPool_1)
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*>)
+class IPacketPool_1;
 }
 namespace GlobalNamespace {
 class IPacketPool;
@@ -20,15 +23,18 @@ template <typename T> class ConcurrentBag_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
+class PacketPool_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::PacketPool_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::PacketPool_1, "", "PacketPool`1");
-// Dependencies System.Object
+// Dependencies IPoolablePacket, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: PacketPool`1<T>
 class CORDL_TYPE PacketPool_1 : public ::System::Object {
@@ -81,13 +87,13 @@ protected:
   constexpr PacketPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PacketPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PacketPool_1(PacketPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PacketPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PacketPool_1(PacketPool_1 const&) = delete;
+  PacketPool_1(PacketPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18194 };

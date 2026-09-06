@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FireworksItemPoolInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/FireworksItemPoolInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__FireworksItemPoolInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"

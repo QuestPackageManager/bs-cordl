@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLeaderboardPanelItem.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLeaderboardPanelItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class MultiplayerLeaderboardPanelItem;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerLeaderboardPanelItem*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLeaderboardPanelItem*, "", "MultiplayerLeaderboardPanelItem");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerLeaderboardPanelItem")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -164,38 +165,46 @@ protected:
   constexpr MultiplayerLeaderboardPanelItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLeaderboardPanelItem(MultiplayerLeaderboardPanelItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLeaderboardPanelItem(MultiplayerLeaderboardPanelItem const&) = delete;
+  MultiplayerLeaderboardPanelItem(MultiplayerLeaderboardPanelItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6011 };
 
+  /// [SerializeField]
   /// @brief Field _playerNameText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
 
+  /// [SerializeField]
   /// @brief Field _scoreText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
+  /// [SerializeField]
   /// @brief Field _positionText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____positionText;
 
+  /// [SerializeField]
   /// @brief Field _backgroundImage, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
+  /// [SerializeField]
   /// @brief Field _normalPlayerTextColor, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Color ____normalPlayerTextColor;
 
+  /// [SerializeField]
   /// @brief Field _failedPlayerTextColor, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____failedPlayerTextColor;
 
+  /// [SerializeField]
   /// @brief Field _firstPlayerBackgroundColor, offset: 0x60, size: 0x10, def value: None
   ::UnityEngine::Color ____firstPlayerBackgroundColor;
 
+  /// [SerializeField]
   /// @brief Field _lastPlayerBackgroundColor, offset: 0x70, size: 0x10, def value: None
   ::UnityEngine::Color ____lastPlayerBackgroundColor;
 

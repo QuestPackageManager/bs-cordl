@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\IdeaEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/IdeaEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,13 +117,13 @@ protected:
   constexpr IdeaEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdeaEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdeaEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IdeaEngine(IdeaEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdeaEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdeaEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IdeaEngine(IdeaEngine const&) = delete;
+  IdeaEngine(IdeaEngineconst&) = delete;
 
   /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x8) };

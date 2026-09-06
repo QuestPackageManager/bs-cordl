@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\SendEventOptions.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/SendEventOptions.hpp"
 #include "UnityEngine/Analytics/zzzz__SendEventOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Analytics::SendEventOptions::SendEventOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }

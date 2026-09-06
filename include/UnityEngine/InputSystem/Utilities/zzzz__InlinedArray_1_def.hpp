@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\InlinedArray_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/InlinedArray_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::InlinedArray_1);
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::InlinedArray_1_Enumerator);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::Utilities::InlinedArray_1, "UnityEngine.InputSystem.Utilities", "InlinedArray`1");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::Utilities::InlinedArray_1_Enumerator, "UnityEngine.InputSystem.Utilities", "InlinedArray`1/Enumerator");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
@@ -128,7 +129,7 @@ public:
   inline ::ArrayW<TValue> ToArray();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(TValue firstValue, ::ArrayW<TValue> additionalValues);
+  inline void _ctor(TValue firstValue, /* [ParamArray] */ ::ArrayW<TValue> additionalValues);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TValue value);
@@ -155,8 +156,8 @@ public:
   // @brief default ctor
   constexpr InlinedArray_1();
 
-  // Ctor Parameters [CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstValue", ty: "TValue", modifiers: "", def_value: None }, CppParam { name:
-  // "additionalValues", ty: "::ArrayW<TValue>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstValue", ty: "TValue", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "additionalValues", ty: "::ArrayW<TValue>", modifiers: "", def_value: None, comment: None }]
   constexpr InlinedArray_1(int32_t length, TValue firstValue, ::ArrayW<TValue> additionalValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -228,8 +229,8 @@ public:
   // @brief default ctor
   constexpr InlinedArray_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InlinedArray_1_Enumerator(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

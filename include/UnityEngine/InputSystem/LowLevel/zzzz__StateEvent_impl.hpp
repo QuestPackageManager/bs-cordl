@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\StateEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/StateEvent.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__StateEvent_def.hpp"
@@ -10,7 +11,7 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__StateEvent_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer::StateEvent__stateData_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -194,20 +195,28 @@ inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::L
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::StateEvent>(), { "get_typeStatic", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::FourCC>(*this, ___internal_method);
 }
-template <typename TState> inline TState UnityEngine::InputSystem::LowLevel::StateEvent::GetState() {
+template <typename TState>
+  requires(::cordl_internals::type_constraint<TState, ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*> && ::cordl_internals::value_type_constraint<TState> &&
+           ::cordl_internals::default_constructor_constraint<TState>)
+inline TState UnityEngine::InputSystem::LowLevel::StateEvent::GetState() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::StateEvent>(), { "GetState", { ::i2c::class_of<TState>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TState>() })));
   return ::cordl_internals::RunMethodRethrow<TState>(*this, ___internal_method);
 }
-template <typename TState> inline TState UnityEngine::InputSystem::LowLevel::StateEvent::GetState(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr) {
+template <typename TState>
+  requires(::cordl_internals::type_constraint<TState, ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*> && ::cordl_internals::value_type_constraint<TState> &&
+           ::cordl_internals::default_constructor_constraint<TState>)
+inline TState UnityEngine::InputSystem::LowLevel::StateEvent::GetState(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::StateEvent>(),
                                                            { "GetState", { ::i2c::class_of<TState>() }, { ::i2c::type_of<::UnityEngine::InputSystem::LowLevel::InputEventPtr>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TState>() })));
   return ::cordl_internals::RunMethodRethrow<TState>(nullptr, ___internal_method, ptr);
 }
-template <typename TState> inline int32_t UnityEngine::InputSystem::LowLevel::StateEvent::GetEventSizeWithPayload() {
+template <typename TState>
+  requires(::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+inline int32_t UnityEngine::InputSystem::LowLevel::StateEvent::GetEventSizeWithPayload() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::StateEvent>(), { "GetEventSizeWithPayload", { ::i2c::class_of<TState>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TState>() })));
@@ -264,9 +273,9 @@ constexpr UnityEngine::InputSystem::LowLevel::StateEvent::operator ::UnityEngine
 constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* UnityEngine::InputSystem::LowLevel::StateEvent::i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: Some("{}") }, CppParam { name: "stateFormat", ty:
-// "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: Some("{}") }, CppParam { name: "stateData", ty:
-// "::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stateFormat", ty:
+// "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stateData", ty:
+// "::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::StateEvent::StateEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, ::UnityEngine::InputSystem::Utilities::FourCC stateFormat,
                                                                        ::UnityEngine::InputSystem::LowLevel::StateEvent__stateData_e__FixedBuffer stateData) noexcept {
   this->baseEvent = baseEvent;

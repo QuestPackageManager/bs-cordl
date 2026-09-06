@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\CompilerServices\Aliasing.hpp"
+// IWYU pragma private; include "Unity/Burst/CompilerServices/Aliasing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,25 +20,39 @@ class CORDL_TYPE Aliasing : public ::System::Object {
 public:
   // Declarations
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename A, typename B> static inline void ExpectAliased(::by_ref<A> a, ::by_ref<B> b);
+  template <typename A, typename B>
+    requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A> && ::cordl_internals::value_type_constraint<B> &&
+             ::cordl_internals::default_constructor_constraint<B>)
+  static inline void ExpectAliased(/* [IsReadOnly] */ ::by_ref<A> a, /* [IsReadOnly] */ ::by_ref<B> b);
 
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename A> static inline void ExpectAliased(::by_ref<A> a, void* b);
+  template <typename A>
+    requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A>)
+  static inline void ExpectAliased(/* [IsReadOnly] */ ::by_ref<A> a, void* b);
 
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename B> static inline void ExpectAliased(void* a, ::by_ref<B> b);
+  template <typename B>
+    requires(::cordl_internals::value_type_constraint<B> && ::cordl_internals::default_constructor_constraint<B>)
+  static inline void ExpectAliased(void* a, /* [IsReadOnly] */ ::by_ref<B> b);
 
   /// @brief Method ExpectAliased, addr 0x64a75f8, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectAliased(void* a, void* b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename A, typename B> static inline void ExpectNotAliased(::by_ref<A> a, ::by_ref<B> b);
+  template <typename A, typename B>
+    requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A> && ::cordl_internals::value_type_constraint<B> &&
+             ::cordl_internals::default_constructor_constraint<B>)
+  static inline void ExpectNotAliased(/* [IsReadOnly] */ ::by_ref<A> a, /* [IsReadOnly] */ ::by_ref<B> b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename A> static inline void ExpectNotAliased(::by_ref<A> a, void* b);
+  template <typename A>
+    requires(::cordl_internals::value_type_constraint<A> && ::cordl_internals::default_constructor_constraint<A>)
+  static inline void ExpectNotAliased(/* [IsReadOnly] */ ::by_ref<A> a, void* b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename B> static inline void ExpectNotAliased(void* a, ::by_ref<B> b);
+  template <typename B>
+    requires(::cordl_internals::value_type_constraint<B> && ::cordl_internals::default_constructor_constraint<B>)
+  static inline void ExpectNotAliased(void* a, /* [IsReadOnly] */ ::by_ref<B> b);
 
   /// @brief Method ExpectNotAliased, addr 0x64a75fc, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectNotAliased(void* a, void* b);
@@ -49,13 +63,13 @@ protected:
   constexpr Aliasing();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Aliasing", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Aliasing", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Aliasing(Aliasing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Aliasing", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Aliasing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Aliasing(Aliasing const&) = delete;
+  Aliasing(Aliasingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17368 };

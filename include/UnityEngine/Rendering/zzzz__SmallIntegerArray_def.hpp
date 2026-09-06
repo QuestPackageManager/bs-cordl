@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SmallIntegerArray.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SmallIntegerArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ struct SmallIntegerArray;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::SmallIntegerArray);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SmallIntegerArray, "UnityEngine.Rendering", "SmallIntegerArray");
+// [DefaultMember("Item")]
 // Dependencies Unity.Collections.FixedList32Bytes`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -44,6 +45,8 @@ public:
   /// @brief Method get_Item, addr 0x6827b44, size 0x90, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Valid, addr 0x6827978, size 0x8, virtual false, abstract: false, final false
   inline bool get_Valid();
 
@@ -53,6 +56,7 @@ public:
   /// @brief Method set_Item, addr 0x6827bd4, size 0x98, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Valid, addr 0x6827980, size 0x8, virtual false, abstract: false, final false
   inline void set_Valid(bool value);
 
@@ -60,9 +64,10 @@ public:
   // @brief default ctor
   constexpr SmallIntegerArray();
 
-  // Ctor Parameters [CppParam { name: "m_FixedArray", ty: "::Unity::Collections::FixedList32Bytes_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_List", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_IsEmbedded", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "_Valid_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_FixedArray", ty: "::Unity::Collections::FixedList32Bytes_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_List", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IsEmbedded", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_Valid_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "Length", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr SmallIntegerArray(::Unity::Collections::FixedList32Bytes_1<int32_t> m_FixedArray, ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<int32_t> m_List, bool m_IsEmbedded,
                               bool _Valid_k__BackingField, int32_t Length) noexcept;
 
@@ -81,6 +86,7 @@ public:
   /// @brief Field m_IsEmbedded, offset: 0x38, size: 0x1, def value: None
   bool m_IsEmbedded;
 
+  /// [CompilerGenerated]
   /// @brief Field <Valid>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool _Valid_k__BackingField;
 

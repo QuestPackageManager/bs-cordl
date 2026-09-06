@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\HmdVector3d_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/HmdVector3d_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr HmdVector3d_t();
 
-  // Ctor Parameters [CppParam { name: "v0", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "v1", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "v2", ty:
-  // "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "v0", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "v1", ty: "double_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "v2", ty: "double_t", modifiers: "", def_value: None, comment: None }]
   constexpr HmdVector3d_t(double_t v0, double_t v1, double_t v2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

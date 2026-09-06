@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_LineInfo.hpp"
+// IWYU pragma private; include "TMPro/TMP_LineInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,16 +27,18 @@ public:
   // @brief default ctor
   constexpr TMP_LineInfo();
 
-  // Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "spaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "visibleSpaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "lastVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "lineHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "baseline", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxAdvance", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginLeft", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "marginRight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "alignment", ty: "::TMPro::HorizontalAlignmentOptions", modifiers: "", def_value: None },
-  // CppParam { name: "lineExtents", ty: "::TMPro::Extents", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "spaceCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "visibleSpaceCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "wordCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "firstVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "lastVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "lineHeight", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "baseline", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "maxAdvance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "marginLeft", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "marginRight", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "alignment", ty: "::TMPro::HorizontalAlignmentOptions", modifiers: "", def_value: None, comment: None }, CppParam { name: "lineExtents", ty: "::TMPro::Extents", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TMP_LineInfo(int32_t controlCharacterCount, int32_t characterCount, int32_t visibleCharacterCount, int32_t spaceCount, int32_t visibleSpaceCount, int32_t wordCount,
                          int32_t firstCharacterIndex, int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharacterIndex, float_t length, float_t lineHeight,
                          float_t ascender, float_t baseline, float_t descender, float_t maxAdvance, float_t width, float_t marginLeft, float_t marginRight,

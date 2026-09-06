@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Display.hpp"
+// IWYU pragma private; include "UnityEngine/Display.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ protected:
   constexpr Display_DisplaysUpdatedDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Display_DisplaysUpdatedDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Display_DisplaysUpdatedDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Display_DisplaysUpdatedDelegate(Display_DisplaysUpdatedDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Display_DisplaysUpdatedDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Display_DisplaysUpdatedDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Display_DisplaysUpdatedDelegate(Display_DisplaysUpdatedDelegate const&) = delete;
+  Display_DisplaysUpdatedDelegate(Display_DisplaysUpdatedDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10129 };
@@ -71,6 +71,8 @@ public:
 static_assert(sizeof(::UnityEngine::Display_DisplaysUpdatedDelegate) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Graphics/DisplayManager.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -105,12 +107,15 @@ public:
 
   __declspec(property(get = get_systemWidth)) int32_t systemWidth;
 
+  /// [RequiredByNativeCode]
   /// @brief Method FireDisplaysUpdated, addr 0x6a849c0, size 0x98, virtual false, abstract: false, final false
   static inline void FireDisplaysUpdated();
 
+  /// [FreeFunction("UnityDisplayManager_DisplayRenderingResolution")]
   /// @brief Method GetRenderingExtImpl, addr 0x6a843a8, size 0x54, virtual false, abstract: false, final false
   static inline void GetRenderingExtImpl(::System::IntPtr nativeDisplay, ::by_ref<int32_t> w, ::by_ref<int32_t> h);
 
+  /// [FreeFunction("UnityDisplayManager_DisplaySystemResolution")]
   /// @brief Method GetSystemExtImpl, addr 0x6a8452c, size 0x54, virtual false, abstract: false, final false
   static inline void GetSystemExtImpl(::System::IntPtr nativeDisplay, ::by_ref<int32_t> w, ::by_ref<int32_t> h);
 
@@ -118,15 +123,18 @@ public:
 
   static inline ::UnityEngine::Display* New_ctor(::System::IntPtr nativeDisplay);
 
+  /// [RequiredByNativeCode]
   /// @brief Method RecreateDisplayList, addr 0x6a8484c, size 0x174, virtual false, abstract: false, final false
   static inline void RecreateDisplayList(::ArrayW<::System::IntPtr> nativeDisplay);
 
   /// @brief Method RelativeMouseAt, addr 0x6a846d0, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAt(::UnityEngine::Vector3 inputMouseCoordinates);
 
+  /// [FreeFunction("UnityDisplayManager_RelativeMouseAt")]
   /// @brief Method RelativeMouseAtImpl, addr 0x6a84794, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t RelativeMouseAtImpl(int32_t x, int32_t y, ::by_ref<int32_t> rx, ::by_ref<int32_t> ry);
 
+  /// [FreeFunction("UnityDisplayManager_RequiresSRGBBlitToBackbuffer")]
   /// @brief Method RequiresSrgbBlitToBackbufferImpl, addr 0x6a84694, size 0x3c, virtual false, abstract: false, final false
   static inline bool RequiresSrgbBlitToBackbufferImpl(::System::IntPtr nativeDisplay);
 
@@ -182,13 +190,13 @@ protected:
   constexpr Display();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Display", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Display", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Display(Display&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Display", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Display", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Display(Display const&) = delete;
+  Display(Displayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10130 };

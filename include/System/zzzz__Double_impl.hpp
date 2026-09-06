@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Double.hpp"
+// IWYU pragma private; include "System/Double.hpp"
 #include "System/zzzz__Double_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
@@ -743,7 +743,7 @@ constexpr System::Double::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::Double::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Double::Double(double_t m_value) noexcept {
   this->m_value = m_value;
 }

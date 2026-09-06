@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Sprite.hpp"
+// IWYU pragma private; include "UnityEngine/Sprite.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -1282,7 +1282,7 @@ inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::CreateSpriteWithoutT
 }
 inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::CreateSprite(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit,
                                                                          uint32_t extrude, ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape,
-                                                                         ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture) {
+                                                                         /* [Unmarshalled] */ ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(),
                                               { "CreateSprite",
@@ -1317,7 +1317,7 @@ inline int32_t UnityEngine::Sprite::GetSecondaryTextureCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "GetSecondaryTextureCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Sprite::GetSecondaryTextures(::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture) {
+inline int32_t UnityEngine::Sprite::GetSecondaryTextures(/* [Unmarshalled] [NotNull] */ ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "GetSecondaryTextures", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::SecondarySpriteTexture>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, secondaryTexture);
@@ -1378,12 +1378,12 @@ inline uint32_t UnityEngine::Sprite::GetScriptableObjectsCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "GetScriptableObjectsCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method);
 }
-inline uint32_t UnityEngine::Sprite::GetScriptableObjects(::ArrayW<::UnityEngine::ScriptableObject*> scriptableObjects) {
+inline uint32_t UnityEngine::Sprite::GetScriptableObjects(/* [Unmarshalled] [NotNull] */ ::ArrayW<::UnityEngine::ScriptableObject*> scriptableObjects) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "GetScriptableObjects", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ScriptableObject*>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, scriptableObjects);
 }
-inline bool UnityEngine::Sprite::AddScriptableObject(::UnityEngine::ScriptableObject* obj) {
+inline bool UnityEngine::Sprite::AddScriptableObject(/* [NotNull] */ ::UnityEngine::ScriptableObject* obj) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "AddScriptableObject", {}, { ::i2c::type_of<::UnityEngine::ScriptableObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, obj);
@@ -1393,7 +1393,7 @@ inline bool UnityEngine::Sprite::RemoveScriptableObjectAt(uint32_t i) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "RemoveScriptableObjectAt", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, i);
 }
-inline bool UnityEngine::Sprite::SetScriptableObjectAt(::UnityEngine::ScriptableObject* obj, uint32_t i) {
+inline bool UnityEngine::Sprite::SetScriptableObjectAt(/* [NotNull] */ ::UnityEngine::ScriptableObject* obj, uint32_t i) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "SetScriptableObjectAt", {}, { ::i2c::type_of<::UnityEngine::ScriptableObject*>(), ::i2c::type_of<uint32_t>() } })));
@@ -1415,7 +1415,7 @@ inline int32_t UnityEngine::Sprite::GetPhysicsShape(int32_t shapeIdx, ::System::
                                               { "GetPhysicsShape", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, shapeIdx, physicsShape);
 }
-inline void UnityEngine::Sprite::GetPhysicsShapeImpl(::UnityEngine::Sprite* sprite, int32_t shapeIdx, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* physicsShape) {
+inline void UnityEngine::Sprite::GetPhysicsShapeImpl(::UnityEngine::Sprite* sprite, int32_t shapeIdx, /* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* physicsShape) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -1435,14 +1435,14 @@ inline void UnityEngine::Sprite::OverridePhysicsShapeCount(::UnityEngine::Sprite
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "OverridePhysicsShapeCount", {}, { ::i2c::type_of<::UnityEngine::Sprite*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sprite, physicsShapeCount);
 }
-inline void UnityEngine::Sprite::OverridePhysicsShape(::UnityEngine::Sprite* sprite, ::ArrayW<::UnityEngine::Vector2> physicsShape, int32_t idx) {
+inline void UnityEngine::Sprite::OverridePhysicsShape(::UnityEngine::Sprite* sprite, /* [NotNull] */ ::ArrayW<::UnityEngine::Vector2> physicsShape, int32_t idx) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(),
                                        { "OverridePhysicsShape", {}, { ::i2c::type_of<::UnityEngine::Sprite*>(), ::i2c::type_of<::ArrayW<::UnityEngine::Vector2>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sprite, physicsShape, idx);
 }
-inline void UnityEngine::Sprite::OverrideGeometry(::ArrayW<::UnityEngine::Vector2> vertices, ::ArrayW<uint16_t> triangles) {
+inline void UnityEngine::Sprite::OverrideGeometry(/* [NotNull] */ ::ArrayW<::UnityEngine::Vector2> vertices, /* [NotNull] */ ::ArrayW<uint16_t> triangles) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Sprite*>(), { "OverrideGeometry", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Vector2>>(), ::i2c::type_of<::ArrayW<uint16_t>>() } })));
@@ -1744,6 +1744,7 @@ inline void UnityEngine::Sprite::OverrideGeometry_Injected(::System::IntPtr _uni
                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, vertices, triangles);
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::Sprite* UnityEngine::Sprite::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Sprite*>());
 }

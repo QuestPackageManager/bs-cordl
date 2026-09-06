@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\DetachedAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/DetachedAllocator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__DetachedAllocator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

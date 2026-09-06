@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafeWaitHandle.hpp"
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeWaitHandle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -39,6 +39,7 @@ inline bool Microsoft::Win32::SafeHandles::SafeWaitHandle::ReleaseHandle() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Microsoft::Win32::SafeHandles::SafeWaitHandle*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
+/// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
 inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* Microsoft::Win32::SafeHandles::SafeWaitHandle::New_ctor(::System::IntPtr existingHandle, bool ownsHandle) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Microsoft::Win32::SafeHandles::SafeWaitHandle*>(existingHandle, ownsHandle));
 }

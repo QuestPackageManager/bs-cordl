@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\PolylineRenderer.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/PolylineRenderer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

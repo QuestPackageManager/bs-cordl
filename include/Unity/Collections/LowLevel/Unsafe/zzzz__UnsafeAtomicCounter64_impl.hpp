@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeAtomicCounter64.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeAtomicCounter64.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAtomicCounter64_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64._ctor
 template <>
@@ -117,7 +117,7 @@ inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::SubS
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>(), { "SubSat", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(*this, ___internal_method, value, min);
 }
-// Ctor Parameters [CppParam { name: "Counter", ty: "int64_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Counter", ty: "int64_t*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::UnsafeAtomicCounter64(int64_t* Counter) noexcept {
   this->Counter = Counter;
 }

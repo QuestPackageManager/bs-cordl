@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\InternalThread.hpp"
+// IWYU pragma private; include "System/Threading/InternalThread.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -147,6 +147,7 @@ public:
   /// @brief Field threadpool_thread, offset 0xa8, size 0x1
   __declspec(property(get = __cordl_internal_get_threadpool_thread, put = __cordl_internal_set_threadpool_thread)) bool threadpool_thread;
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Finalize, addr 0x5cb9cec, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
@@ -404,13 +405,13 @@ protected:
   constexpr InternalThread();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternalThread", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalThread", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalThread(InternalThread&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternalThread", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalThread", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalThread(InternalThread const&) = delete;
+  InternalThread(InternalThreadconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2761 };

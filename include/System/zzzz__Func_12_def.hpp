@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Func_12.hpp"
+// IWYU pragma private; include "System/Func_12.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ protected:
   constexpr Func_12();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Func_12", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Func_12", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Func_12(Func_12&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Func_12", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Func_12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Func_12(Func_12 const&) = delete;
+  Func_12(Func_12const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16050 };

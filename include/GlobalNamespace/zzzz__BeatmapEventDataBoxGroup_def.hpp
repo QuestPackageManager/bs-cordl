@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventDataBoxGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventDataBoxGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -187,13 +187,13 @@ protected:
   constexpr BeatmapEventDataBoxGroup_ElementData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup_ElementData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup_ElementData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventDataBoxGroup_ElementData(BeatmapEventDataBoxGroup_ElementData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup_ElementData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup_ElementData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataBoxGroup_ElementData(BeatmapEventDataBoxGroup_ElementData const&) = delete;
+  BeatmapEventDataBoxGroup_ElementData(BeatmapEventDataBoxGroup_ElementDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14913 };
@@ -281,6 +281,7 @@ public:
 
   __declspec(property(get = get_beatmapEventDataBoxList)) ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>* beatmapEventDataBoxList;
 
+  /// @brief [TupleElementNames(new[] { "elementId", "boxType", "subtypeIdentifier" })]
   __declspec(property(get = get_elementDataDict)) ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_3<int32_t, ::System::Type*, int32_t>,
                                                                                                         ::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData*>* elementDataDict;
 
@@ -349,13 +350,13 @@ protected:
   constexpr BeatmapEventDataBoxGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventDataBoxGroup(BeatmapEventDataBoxGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataBoxGroup(BeatmapEventDataBoxGroup const&) = delete;
+  BeatmapEventDataBoxGroup(BeatmapEventDataBoxGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14914 };
@@ -363,6 +364,7 @@ public:
   /// @brief Field _beat, offset: 0x10, size: 0x4, def value: None
   float_t ____beat;
 
+  /// [TupleElementNames(new[] { "elementId", "boxType", "subtypeIdentifier" })]
   /// @brief Field _elementDataDict, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<int32_t, ::System::Type*, int32_t>, ::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData*>* ____elementDataDict;
 

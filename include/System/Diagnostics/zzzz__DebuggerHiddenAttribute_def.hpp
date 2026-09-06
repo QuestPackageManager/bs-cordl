@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\DebuggerHiddenAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/DebuggerHiddenAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class DebuggerHiddenAttribute;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::DebuggerHiddenAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::DebuggerHiddenAttribute*, "System.Diagnostics", "DebuggerHiddenAttribute");
+// [AttributeUsage((System.AttributeTargets)224, Inherited = false)]
+// [ComVisible(true)]
 // Dependencies System.Attribute
 namespace System::Diagnostics {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr DebuggerHiddenAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebuggerHiddenAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebuggerHiddenAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebuggerHiddenAttribute(DebuggerHiddenAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebuggerHiddenAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebuggerHiddenAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebuggerHiddenAttribute(DebuggerHiddenAttribute const&) = delete;
+  DebuggerHiddenAttribute(DebuggerHiddenAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3657 };

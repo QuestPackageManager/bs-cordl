@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\Cast5Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/Cast5Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -212,13 +212,13 @@ protected:
   constexpr Cast5Engine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Cast5Engine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cast5Engine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cast5Engine(Cast5Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Cast5Engine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cast5Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cast5Engine(Cast5Engine const&) = delete;
+  Cast5Engine(Cast5Engineconst&) = delete;
 
   /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x8) };

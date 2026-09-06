@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BTSCharacter.hpp"
+// IWYU pragma private; include "GlobalNamespace/BTSCharacter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ class BTSCharacter;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BTSCharacter*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BTSCharacter*, "", "BTSCharacter");
+// [RequireComponent(typeof(MaterialPropertyBlockController))]
+// [RequireComponent(typeof(BTSCharacterMaterialSwitcher))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -117,29 +119,35 @@ protected:
   constexpr BTSCharacter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacter(BTSCharacter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacter(BTSCharacter const&) = delete;
+  BTSCharacter(BTSCharacterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22005 };
 
+  /// [SerializeField]
   /// @brief Field _characterName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____characterName;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _animator, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 
+  /// [SerializeField]
   /// @brief Field _btsCharacterMaterialSwitcher, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BTSCharacterMaterialSwitcher> ____btsCharacterMaterialSwitcher;
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [SerializeField]
   /// @brief Field _headTransform, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headTransform;
 

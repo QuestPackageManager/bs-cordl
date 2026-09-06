@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\WaypointData.hpp"
+// IWYU pragma private; include "GlobalNamespace/WaypointData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,21 +81,27 @@ public:
   /// @brief Method .ctor, addr 0x325e098, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection);
 
+  /// [CompilerGenerated]
   /// @brief Method get_lineIndex, addr 0x325dfe4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lineLayer, addr 0x325dff4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_offsetDirection, addr 0x325dfd4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OffsetDirection get_offsetDirection();
 
+  /// [CompilerGenerated]
   /// @brief Method set_lineIndex, addr 0x325dfec, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lineLayer, addr 0x325dffc, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_offsetDirection, addr 0x325dfdc, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetDirection(::GlobalNamespace::OffsetDirection value);
 
@@ -105,23 +111,26 @@ protected:
   constexpr WaypointData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaypointData(WaypointData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WaypointData(WaypointData const&) = delete;
+  WaypointData(WaypointDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21279 };
 
+  /// [CompilerGenerated]
   /// @brief Field <offsetDirection>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::OffsetDirection ____offsetDirection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <lineIndex>k__BackingField, offset: 0x34, size: 0x4, def value: None
   int32_t ____lineIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <lineLayer>k__BackingField, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ____lineLayer_k__BackingField;
 

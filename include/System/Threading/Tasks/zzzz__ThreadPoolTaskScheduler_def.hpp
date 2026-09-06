@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\ThreadPoolTaskScheduler.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/ThreadPoolTaskScheduler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ MARK_REF_T(::System::Threading::Tasks::ThreadPoolTaskScheduler*);
 MARK_REF_T(::System::Threading::Tasks::ThreadPoolTaskScheduler___c*);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::ThreadPoolTaskScheduler*, "System.Threading.Tasks", "ThreadPoolTaskScheduler");
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::ThreadPoolTaskScheduler___c*, "System.Threading.Tasks", "ThreadPoolTaskScheduler/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -58,13 +59,13 @@ protected:
   constexpr ThreadPoolTaskScheduler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPoolTaskScheduler___c(ThreadPoolTaskScheduler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolTaskScheduler___c(ThreadPoolTaskScheduler___c const&) = delete;
+  ThreadPoolTaskScheduler___c(ThreadPoolTaskScheduler___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2830 };
@@ -119,13 +120,13 @@ protected:
   constexpr ThreadPoolTaskScheduler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPoolTaskScheduler(ThreadPoolTaskScheduler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadPoolTaskScheduler(ThreadPoolTaskScheduler const&) = delete;
+  ThreadPoolTaskScheduler(ThreadPoolTaskSchedulerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2831 };

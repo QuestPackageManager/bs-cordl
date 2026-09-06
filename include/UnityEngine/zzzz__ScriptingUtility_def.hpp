@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ScriptingUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ScriptingUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
   // @brief default ctor
   constexpr ScriptingUtility_TestClass();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptingUtility_TestClass(int32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -65,9 +65,11 @@ public:
   // Declarations
   using TestClass = ::UnityEngine::ScriptingUtility_TestClass;
 
+  /// [RequiredByNativeCode]
   /// @brief Method IsManagedCodeWorking, addr 0x6ae5f1c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsManagedCodeWorking();
 
+  /// [RequiredByNativeCode]
   /// @brief Method SetupCallbacks, addr 0x6ae5f24, size 0x4, virtual false, abstract: false, final false
   static inline void SetupCallbacks(::System::IntPtr p);
 
@@ -77,13 +79,13 @@ protected:
   constexpr ScriptingUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptingUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptingUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptingUtility(ScriptingUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptingUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptingUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptingUtility(ScriptingUtility const&) = delete;
+  ScriptingUtility(ScriptingUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10362 };

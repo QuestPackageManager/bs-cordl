@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchRendererGroup.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchRendererGroup.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -606,7 +606,7 @@ inline ::UnityEngine::Rendering::BatchBufferTarget UnityEngine::Rendering::Batch
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(), { "get_BufferTarget", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::BatchBufferTarget>(nullptr, ___internal_method);
 }
-inline ::System::IntPtr UnityEngine::Rendering::BatchRendererGroup::Create(::UnityEngine::Rendering::BatchRendererGroup* group, void* userContext) {
+inline ::System::IntPtr UnityEngine::Rendering::BatchRendererGroup::Create(/* [Unmarshalled] */ ::UnityEngine::Rendering::BatchRendererGroup* group, void* userContext) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
                                                            { "Create", {}, { ::i2c::type_of<::UnityEngine::Rendering::BatchRendererGroup*>(), ::i2c::type_of<void*>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\FixedBitArray3.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/FixedBitArray3.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__FixedBitArray3_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -184,8 +184,8 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::operator ::System::
 constexpr ::System::Collections::IEnumerable* UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_0", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_1", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_2", ty:
-// "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_0", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_1", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_2", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::FixedBitArray3(bool _0, bool _1, bool _2) noexcept {
   this->_0 = _0;
   this->_1 = _1;
@@ -417,6 +417,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::ProBuilder::Poly2Tri::Fi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10* UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10*>(__1__state));
 }

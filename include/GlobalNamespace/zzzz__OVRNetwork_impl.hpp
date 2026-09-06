@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRNetwork.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRNetwork.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRNetwork_def.hpp"
 #include "GlobalNamespace/zzzz__OVRNetwork_def.hpp"
@@ -45,8 +45,8 @@ inline ::GlobalNamespace::OVRNetwork_FrameHeader GlobalNamespace::OVRNetwork_Fra
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRNetwork_FrameHeader>(), { "FromBytes", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRNetwork_FrameHeader>(nullptr, ___internal_method, arr);
 }
-// Ctor Parameters [CppParam { name: "protocolIdentifier", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "payloadType", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "payloadLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "protocolIdentifier", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "payloadType", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "payloadLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRNetwork_FrameHeader::OVRNetwork_FrameHeader(uint32_t protocolIdentifier, int32_t payloadType, int32_t payloadLength) noexcept {
   this->protocolIdentifier = protocolIdentifier;
   this->payloadType = payloadType;
@@ -220,7 +220,7 @@ inline ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* GlobalNamespace::OVRNe
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer::OVRNetwork_OVRNetworkTcpServer() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRNetworkTcpClient_OVRNetwork_ConnectionState::OVRNetworkTcpClient_OVRNetwork_ConnectionState(int32_t value__) noexcept {
   this->value__ = value__;
 }

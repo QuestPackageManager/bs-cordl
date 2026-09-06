@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DeeplinkManagerToDestinationRequestManagerAdapter.hpp"
+// IWYU pragma private; include "GlobalNamespace/DeeplinkManagerToDestinationRequestManagerAdapter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,7 @@ public:
   /// @brief Method HandleDeeplinkManagerDidReceiveDeeplink, addr 0x597e4d8, size 0x69c, virtual false, abstract: false, final false
   inline void HandleDeeplinkManagerDidReceiveDeeplink(::GlobalNamespace::Deeplink* deeplink);
 
+  /// [Inject]
   /// @brief Method Init, addr 0x597e304, size 0x1d4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IDeeplinkManager* deeplinkManager);
 
@@ -109,6 +110,7 @@ public:
   /// @brief Method .ctor, addr 0x597eb7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x597e15c, size 0xc0, virtual true, abstract: false, final true
   inline void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
@@ -118,6 +120,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::IDestinationRequestManager"
   constexpr ::GlobalNamespace::IDestinationRequestManager* i___GlobalNamespace__IDestinationRequestManager() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0x597e21c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
@@ -130,26 +133,30 @@ protected:
   constexpr DeeplinkManagerToDestinationRequestManagerAdapter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeeplinkManagerToDestinationRequestManagerAdapter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeeplinkManagerToDestinationRequestManagerAdapter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeeplinkManagerToDestinationRequestManagerAdapter(DeeplinkManagerToDestinationRequestManagerAdapter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeeplinkManagerToDestinationRequestManagerAdapter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeeplinkManagerToDestinationRequestManagerAdapter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeeplinkManagerToDestinationRequestManagerAdapter(DeeplinkManagerToDestinationRequestManagerAdapter const&) = delete;
+  DeeplinkManagerToDestinationRequestManagerAdapter(DeeplinkManagerToDestinationRequestManagerAdapterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5749 };
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _telemetryModel, offset: 0x20, size: 0x8, def value: None
   ::Analytics::Model::TelemetryModel* ____telemetryModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didSendMenuDestinationRequestEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MenuDestination*>* ___didSendMenuDestinationRequestEvent;
 

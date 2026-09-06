@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Renderer2DResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Renderer2DResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,9 @@ class Renderer2DResources;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::Renderer2DResources*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::Renderer2DResources*, "UnityEngine.Rendering.Universal", "Renderer2DResources");
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "R: 2D Renderer", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -210,41 +213,60 @@ protected:
   constexpr Renderer2DResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Renderer2DResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Renderer2DResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Renderer2DResources(Renderer2DResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Renderer2DResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Renderer2DResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Renderer2DResources(Renderer2DResources const&) = delete;
+  Renderer2DResources(Renderer2DResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12939 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/2D/Light2D.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_LightShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_LightShader;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/2D/Shadow2D-Projected.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_ProjectedShadowShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_ProjectedShadowShader;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/2D/Shadow2D-Shadow-Sprite.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_SpriteShadowShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_SpriteShadowShader;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/2D/Shadow2D-Unshadow-Sprite.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_SpriteUnshadowShader, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_SpriteUnshadowShader;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/2D/Shadow2D-Shadow-Geometry.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_GeometryShadowShader, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_GeometryShadowShader;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/2D/Shadow2D-Unshadow-Geometry.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_GeometryUnshadowShader, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_GeometryUnshadowShader;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/2D/Data/Textures/FalloffLookupTexture.png", (UnityEngine.Rendering.SearchType)0)]
+  /// [HideInInspector]
   /// @brief Field m_FallOffLookup, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_FallOffLookup;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Utils/CopyDepth.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_CopyDepthPS, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_CopyDepthPS;
 

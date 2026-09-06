@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tweening\QuaternionTween.hpp"
+// IWYU pragma private; include "Tweening/QuaternionTween.hpp"
 #include "Tweening/zzzz__Tween_1_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "Tweening/zzzz__QuaternionTween_def.hpp"

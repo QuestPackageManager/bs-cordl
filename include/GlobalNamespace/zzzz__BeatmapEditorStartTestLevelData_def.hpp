@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEditorStartTestLevelData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEditorStartTestLevelData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,8 @@ public:
   // @brief default ctor
   constexpr BeatmapEditorStartTestLevelData_FpfcData();
 
-  // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cameraFov", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "cameraFov", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr BeatmapEditorStartTestLevelData_FpfcData(bool enabled, int32_t cameraFov) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -91,8 +92,9 @@ public:
   // @brief default ctor
   constexpr BeatmapEditorStartTestLevelData_OverdrawData();
 
-  // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "computeBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: None },
-  // CppParam { name: "audioClipFrequency", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "samplesPerOverdrawBucket", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "computeBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "audioClipFrequency", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "samplesPerOverdrawBucket", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapEditorStartTestLevelData_OverdrawData(bool enabled, ::UnityEngine::ComputeBuffer* computeBuffer, int32_t audioClipFrequency, float_t samplesPerOverdrawBucket) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -138,11 +140,12 @@ public:
   // @brief default ctor
   constexpr BeatmapEditorStartTestLevelData_RecordingData();
 
-  // Ctor Parameters [CppParam { name: "recorderMode", ty: "::GlobalNamespace::VRControllersRecorder_Mode", modifiers: "", def_value: None }, CppParam { name: "positionOffset", ty:
-  // "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotationOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "headSmoothing",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "controllersSmoothing", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "controllersTimeOffset", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "cameraFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fpfc", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "recordingPath", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "recorderMode", ty: "::GlobalNamespace::VRControllersRecorder_Mode", modifiers: "", def_value: None, comment: None }, CppParam { name: "positionOffset", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotationOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "headSmoothing", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "controllersSmoothing", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "controllersTimeOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cameraFov", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "fpfc", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "recordingPath", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr BeatmapEditorStartTestLevelData_RecordingData(::GlobalNamespace::VRControllersRecorder_Mode recorderMode, ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Vector3 rotationOffset,
                                                           float_t headSmoothing, float_t controllersSmoothing, float_t controllersTimeOffset, float_t cameraFov, bool fpfc,
                                                           ::StringW recordingPath) noexcept;
@@ -221,9 +224,9 @@ public:
   // @brief default ctor
   constexpr BeatmapEditorStartTestLevelData();
 
-  // Ctor Parameters [CppParam { name: "fpfc", ty: "::GlobalNamespace::BeatmapEditorStartTestLevelData_FpfcData", modifiers: "", def_value: None }, CppParam { name: "overdrawData", ty:
-  // "::GlobalNamespace::BeatmapEditorStartTestLevelData_OverdrawData", modifiers: "", def_value: None }, CppParam { name: "recordingData", ty:
-  // "::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "fpfc", ty: "::GlobalNamespace::BeatmapEditorStartTestLevelData_FpfcData", modifiers: "", def_value: None, comment: None }, CppParam { name: "overdrawData", ty:
+  // "::GlobalNamespace::BeatmapEditorStartTestLevelData_OverdrawData", modifiers: "", def_value: None, comment: None }, CppParam { name: "recordingData", ty:
+  // "::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapEditorStartTestLevelData(::GlobalNamespace::BeatmapEditorStartTestLevelData_FpfcData fpfc, ::GlobalNamespace::BeatmapEditorStartTestLevelData_OverdrawData overdrawData,
                                             ::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData recordingData) noexcept;
 

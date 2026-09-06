@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentStartEndSongAudioEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentStartEndSongAudioEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -202,13 +202,13 @@ protected:
   constexpr EnvironmentStartEndSongAudioEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentStartEndSongAudioEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentStartEndSongAudioEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentStartEndSongAudioEffect(EnvironmentStartEndSongAudioEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentStartEndSongAudioEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentStartEndSongAudioEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentStartEndSongAudioEffect(EnvironmentStartEndSongAudioEffect const&) = delete;
+  EnvironmentStartEndSongAudioEffect(EnvironmentStartEndSongAudioEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5564 };
@@ -216,42 +216,57 @@ public:
   /// @brief Field kSmallSongTime offset 0xffffffff size 0x4
   static constexpr float_t kSmallSongTime{ static_cast<float_t>(0.5f) };
 
+  /// [SerializeField]
   /// @brief Field _playStartSongForNonZeroStartSongTime, offset: 0x20, size: 0x1, def value: None
   bool ____playStartSongForNonZeroStartSongTime;
 
+  /// [SerializeField]
   /// @brief Field _songFinishedAheadTime, offset: 0x24, size: 0x4, def value: None
   float_t ____songFinishedAheadTime;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _songStartAudioClipVolume, offset: 0x28, size: 0x4, def value: None
   float_t ____songStartAudioClipVolume;
 
+  /// [SerializeField]
   /// @brief Field _songFinishedAudioClipVolume, offset: 0x2c, size: 0x4, def value: None
   float_t ____songFinishedAudioClipVolume;
 
+  /// [SerializeField]
   /// @brief Field _songFailedAudioClipVolume, offset: 0x30, size: 0x4, def value: None
   float_t ____songFailedAudioClipVolume;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _songStartAudioClips, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____songStartAudioClips;
 
+  /// [SerializeField]
   /// @brief Field _songFinishedAudioClips, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____songFinishedAudioClips;
 
+  /// [SerializeField]
   /// @brief Field _songFailedAudioClips, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>> ____songFailedAudioClips;
 
+  /// [Inject]
   /// @brief Field _levelEndActions, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____levelEndActions;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
+  /// [Inject]
   /// @brief Field _gamePause, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
+  /// [Inject]
   /// @brief Field _audioEffectsPlayer, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> ____audioEffectsPlayer;
 
+  /// [Inject]
   /// @brief Field _environmentContext, offset: 0x70, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentContext ____environmentContext;
 

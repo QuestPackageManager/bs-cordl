@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerSpectatorController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerSpectatorController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ MARK_REF_T(::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpo
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerSpectatorController*, "", "MultiplayerSpectatorController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotCoroutine>d__18");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*, "", "MultiplayerSpectatorController/<SwitchToDefaultSpotWithFadeCoroutine>d__17");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -98,17 +99,22 @@ public:
   /// @brief Method MoveNext, addr 0x59ea530, size 0x68, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59ea598, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59ea5a0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59ea5d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59ea52c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -130,6 +136,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59ea4f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -148,13 +155,13 @@ protected:
   constexpr MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18(MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18(MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18 const&) = delete;
+  MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18(MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6198 };
@@ -180,6 +187,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatorController__Switch
 static_assert(sizeof(::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -215,17 +223,22 @@ public:
   /// @brief Method MoveNext, addr 0x59ea5e4, size 0xec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59ea6d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59ea6d8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59ea710, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59ea5e0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -253,6 +266,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultSpot_5__2(::GlobalNamespace::IMultiplayerSpectatingSpot* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59ea4ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -271,13 +285,13 @@ protected:
   constexpr MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17(MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17(MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17 const&) = delete;
+  MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17(MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6199 };
@@ -308,6 +322,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerSpectatorController__Switch
 static_assert(sizeof(::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerSpectatorController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -361,9 +376,11 @@ public:
   /// @brief Method SwitchToDefaultSpot, addr 0x59ea164, size 0x20, virtual false, abstract: false, final false
   inline void SwitchToDefaultSpot();
 
+  /// [IteratorStateMachine(typeof(MultiplayerSpectatorController::<SwitchToDefaultSpotCoroutine>d__18))]
   /// @brief Method SwitchToDefaultSpotCoroutine, addr 0x59ea184, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SwitchToDefaultSpotCoroutine();
 
+  /// [IteratorStateMachine(typeof(MultiplayerSpectatorController::<SwitchToDefaultSpotWithFadeCoroutine>d__17))]
   /// @brief Method SwitchToDefaultSpotWithFadeCoroutine, addr 0x59ea498, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SwitchToDefaultSpotWithFadeCoroutine();
 
@@ -421,12 +438,14 @@ public:
   /// @brief Method .ctor, addr 0x59ea528, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_spectatingSpotDidChangeEvent, addr 0x59e9e1c, size 0xc0, virtual false, abstract: false, final false
   inline void add_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
   /// @brief Method get_currentSpot, addr 0x59e9f9c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSpectatingSpot* get_currentSpot();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_spectatingSpotDidChangeEvent, addr 0x59e9edc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
@@ -436,29 +455,34 @@ protected:
   constexpr MultiplayerSpectatorController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerSpectatorController(MultiplayerSpectatorController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatorController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSpectatorController(MultiplayerSpectatorController const&) = delete;
+  MultiplayerSpectatorController(MultiplayerSpectatorControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6200 };
 
+  /// [Inject]
   /// @brief Field _spotManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerSpectatingSpotManager* ____spotManager;
 
+  /// [Inject]
   /// @brief Field _songController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> ____songController;
 
+  /// [Inject]
   /// @brief Field _multiplayerController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
+  /// [Inject]
   /// @brief Field _fadeInOutController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOutController;
 
+  /// [CompilerGenerated]
   /// @brief Field spectatingSpotDidChangeEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* ___spectatingSpotDidChangeEvent;
 

@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputDevice.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputDevice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -65,6 +66,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputDevice_DeviceFlags, "UnityEngine.InputSystem", "InputDevice/DeviceFlags");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputDevice*, "UnityEngine.InputSystem", "InputDevice");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, "UnityEngine.InputSystem", "InputDevice/ControlBitRangeNode");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -106,7 +108,7 @@ public:
   // @brief default ctor
   constexpr InputDevice_DeviceFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputDevice_DeviceFlags(int32_t value__) noexcept;
 
   /// @brief Field CanRunInBackground value: I32(2048)
@@ -183,8 +185,9 @@ public:
   // @brief default ctor
   constexpr InputDevice_ControlBitRangeNode();
 
-  // Ctor Parameters [CppParam { name: "endBitOffset", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "leftChildIndex", ty: "int16_t", modifiers: "", def_value: None }, CppParam {
-  // name: "controlStartIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "controlCount", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "endBitOffset", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftChildIndex", ty: "int16_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "controlStartIndex", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "controlCount", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr InputDevice_ControlBitRangeNode(uint16_t endBitOffset, int16_t leftChildIndex, uint16_t controlStartIndex, uint8_t controlCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -221,7 +224,7 @@ static_assert(sizeof(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode
 
 } // namespace UnityEngine::InputSystem
 // Dependencies UnityEngine.InputSystem.InputControl, UnityEngine.InputSystem.InputDevice::ControlBitRangeNode, UnityEngine.InputSystem.InputDevice::DeviceFlags,
-// UnityEngine.InputSystem.Layouts.InputDeviceDescription, UnityEngine.InputSystem.Utilities.InternedString
+// UnityEngine.InputSystem.Layouts.InputDeviceDescription, UnityEngine.InputSystem.LowLevel.IInputDeviceCommandInfo, UnityEngine.InputSystem.Utilities.InternedString
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputDevice
@@ -366,7 +369,10 @@ public:
   static inline uint32_t EncodeStateOffsetToControlMapEntry(uint32_t controlIndex, uint32_t stateOffsetInBits, uint32_t stateSizeInBits);
 
   /// @brief Method ExecuteCommand, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TCommand> inline int64_t ExecuteCommand(::by_ref<TCommand> command);
+  template <typename TCommand>
+    requires(::cordl_internals::type_constraint<TCommand, ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*> && ::cordl_internals::value_type_constraint<TCommand> &&
+             ::cordl_internals::default_constructor_constraint<TCommand>)
+  inline int64_t ExecuteCommand(::by_ref<TCommand> command);
 
   /// @brief Method ExecuteCommand, addr 0x65201b0, size 0xe0, virtual true, abstract: false, final false
   inline int64_t ExecuteCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand* commandPtr);
@@ -644,13 +650,13 @@ protected:
   constexpr InputDevice();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputDevice", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputDevice", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputDevice(InputDevice&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputDevice", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputDevice(InputDevice const&) = delete;
+  InputDevice(InputDeviceconst&) = delete;
 
   /// @brief Field InvalidDeviceId offset 0xffffffff size 0x4
   static constexpr int32_t InvalidDeviceId{ static_cast<int32_t>(0x0) };

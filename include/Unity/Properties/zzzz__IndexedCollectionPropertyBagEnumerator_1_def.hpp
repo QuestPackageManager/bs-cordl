@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IndexedCollectionPropertyBagEnumerator_1.hpp"
+// IWYU pragma private; include "Unity/Properties/IndexedCollectionPropertyBagEnumerator_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,9 +86,9 @@ public:
   // @brief default ctor
   constexpr IndexedCollectionPropertyBagEnumerator_1();
 
-  // Ctor Parameters [CppParam { name: "m_Impl", ty: "::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>*", modifiers: "", def_value: None }, CppParam { name: "m_Previous", ty:
-  // "::Unity::Properties::IndexedCollectionSharedPropertyState", modifiers: "", def_value: None }, CppParam { name: "m_Container", ty: "TContainer", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Position", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Impl", ty: "::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Previous", ty: "::Unity::Properties::IndexedCollectionSharedPropertyState", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Container", ty: "TContainer", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Position", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IndexedCollectionPropertyBagEnumerator_1(::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>* m_Impl,
                                                      ::Unity::Properties::IndexedCollectionSharedPropertyState m_Previous, TContainer m_Container, int32_t m_Position) noexcept;
 

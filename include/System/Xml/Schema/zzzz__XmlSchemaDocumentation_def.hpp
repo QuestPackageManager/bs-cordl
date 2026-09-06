@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaDocumentation.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaDocumentation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,14 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaDocumentation : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
+  /// @brief [XmlAttribute("xml:lang")]
   __declspec(property(put = set_Language)) ::StringW Language;
 
+  /// [XmlAnyElement]
+  /// @brief [XmlText]
   __declspec(property(put = set_Markup)) ::ArrayW<::System::Xml::XmlNode*> Markup;
 
+  /// @brief [XmlAttribute("source", DataType = "anyURI")]
   __declspec(property(put = set_Source)) ::StringW Source;
 
   /// @brief Field language, offset 0x40, size 0x8
@@ -88,13 +92,13 @@ protected:
   constexpr XmlSchemaDocumentation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaDocumentation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaDocumentation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaDocumentation(XmlSchemaDocumentation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaDocumentation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaDocumentation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaDocumentation(XmlSchemaDocumentation const&) = delete;
+  XmlSchemaDocumentation(XmlSchemaDocumentationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9764 };

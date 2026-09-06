@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainMenuViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainMenuViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   // @brief default ctor
   constexpr MainMenuViewController_MenuButton();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MainMenuViewController_MenuButton(int32_t value__) noexcept;
 
   /// @brief Field BeatmapEditor value: I32(2)
@@ -200,27 +200,35 @@ public:
   /// @brief Method Update, addr 0x595d91c, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_0, addr 0x595db88, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_1, addr 0x595db90, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_2, addr 0x595db98, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_3, addr 0x595dba0, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_3();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_4, addr 0x595dba8, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_4();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_5, addr 0x595dbb0, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_5();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_6, addr 0x595dbb8, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_6();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__19_7, addr 0x595dbc0, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_7();
 
@@ -311,15 +319,19 @@ public:
   /// @brief Method .ctor, addr 0x595db84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x595ccac, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_promoButtonWasPressedEvent, addr 0x595ce2c, size 0xc0, virtual false, abstract: false, final false
   inline void add_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x595cd6c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_promoButtonWasPressedEvent, addr 0x595ceec, size 0xc0, virtual false, abstract: false, final false
   inline void remove_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* value);
 
@@ -329,56 +341,70 @@ protected:
   constexpr MainMenuViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainMenuViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainMenuViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainMenuViewController(MainMenuViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainMenuViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainMenuViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainMenuViewController(MainMenuViewController const&) = delete;
+  MainMenuViewController(MainMenuViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6957 };
 
+  /// [SerializeField]
   /// @brief Field _soloButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____soloButton;
 
+  /// [SerializeField]
   /// @brief Field _partyButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____partyButton;
 
+  /// [SerializeField]
   /// @brief Field _campaignButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____campaignButton;
 
+  /// [SerializeField]
   /// @brief Field _quitButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____quitButton;
 
+  /// [SerializeField]
   /// @brief Field _howToPlayButton, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____howToPlayButton;
 
+  /// [SerializeField]
   /// @brief Field _beatmapEditorButton, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____beatmapEditorButton;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerButton, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____multiplayerButton;
 
+  /// [SerializeField]
   /// @brief Field _optionsButton, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____optionsButton;
 
+  /// [SerializeField]
   /// @brief Field _musicPackPromoButton, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____musicPackPromoButton;
 
+  /// [SerializeField]
   /// @brief Field _musicPackPromoBanner, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MusicPackPromoBanner> ____musicPackPromoBanner;
 
+  /// [Inject]
   /// @brief Field _dlcPromoPanelModel, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel* ____dlcPromoPanelModel;
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0xd8, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* ___didFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field promoButtonWasPressedEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* ___promoButtonWasPressedEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingContext.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ struct BindingContext;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::BindingContext);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BindingContext, "UnityEngine.UIElements", "BindingContext");
+// [IsReadOnly]
 // Dependencies Unity.Properties.PropertyPath, UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -42,8 +43,8 @@ public:
   __declspec(property(get = get_targetElement)) ::UnityEngine::UIElements::VisualElement* targetElement;
 
   /// @brief Method .ctor, addr 0x6c30b14, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::VisualElement* targetElement, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
-                    ::by_ref<::Unity::Properties::PropertyPath> resolvedDataSourcePath, ::System::Object* resolvedDataSource);
+  inline void _ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+                    /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> resolvedDataSourcePath, ::System::Object* resolvedDataSource);
 
   /// @brief Method get_bindingId, addr 0x6c30aec, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_bindingId();
@@ -61,9 +62,9 @@ public:
   // @brief default ctor
   constexpr BindingContext();
 
-  // Ctor Parameters [CppParam { name: "m_TargetElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "m_BindingId", ty:
-  // "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: None }, CppParam { name: "m_DataSourcePath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: None }, CppParam
-  // { name: "m_DataSource", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_TargetElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BindingId", ty:
+  // "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DataSourcePath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_DataSource", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr BindingContext(::UnityEngine::UIElements::VisualElement* m_TargetElement, ::UnityEngine::UIElements::BindingId m_BindingId, ::Unity::Properties::PropertyPath m_DataSourcePath,
                            ::System::Object* m_DataSource) noexcept;
 

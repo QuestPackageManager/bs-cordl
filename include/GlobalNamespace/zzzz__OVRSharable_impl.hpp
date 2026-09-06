@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSharable.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSharable.hpp"
 #include "GlobalNamespace/zzzz__OVRSharable_def.hpp"
 #include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
@@ -309,7 +309,7 @@ constexpr GlobalNamespace::OVRSharable::operator ::System::IEquatable_1<::Global
 constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSharable>* GlobalNamespace::OVRSharable::i___System__IEquatable_1___GlobalNamespace__OVRSharable_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRSharable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSharable::OVRSharable(uint64_t _Handle_k__BackingField) noexcept {
   this->_Handle_k__BackingField = _Handle_k__BackingField;
 }

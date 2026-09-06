@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RendererListHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RendererListHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ struct RendererListHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle, "UnityEngine.Rendering.RenderGraphModule", "RendererListHandle");
+// [DebuggerDisplay("RendererList ({handle})")]
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.RendererListHandleType
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -35,6 +37,8 @@ public:
   /// @brief Method .ctor, addr 0x67e7b60, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType type);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_handle, addr 0x67e9b4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();
 
@@ -44,6 +48,7 @@ public:
   /// @brief Method op_Implicit, addr 0x67e5148, size 0x8, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle handle);
 
+  /// [CompilerGenerated]
   /// @brief Method set_handle, addr 0x67e9b54, size 0x8, virtual false, abstract: false, final false
   inline void set_handle(int32_t value);
 
@@ -51,8 +56,8 @@ public:
   // @brief default ctor
   constexpr RendererListHandle();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType", modifiers: "", def_value: None }, CppParam { name: "m_IsValid", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "_handle_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IsValid",
+  // ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_handle_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RendererListHandle(::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType type, bool m_IsValid, int32_t _handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -67,6 +72,7 @@ public:
   /// @brief Field m_IsValid, offset: 0x4, size: 0x1, def value: None
   bool m_IsValid;
 
+  /// [CompilerGenerated]
   /// @brief Field <handle>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _handle_k__BackingField;
 

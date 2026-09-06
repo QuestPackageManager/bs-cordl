@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_ListPool_1.hpp"
+// IWYU pragma private; include "TMPro/TMP_ListPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace TMPro {
 template <typename T> class TMP_ListPool_1___c;
 }
 namespace TMPro {
-template <typename T> class TMP_ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class TMP_ObjectPool_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -26,6 +28,7 @@ MARK_GEN_REF_T_PTR(::TMPro::TMP_ListPool_1);
 MARK_GEN_REF_T_PTR(::TMPro::TMP_ListPool_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::TMPro::TMP_ListPool_1, "TMPro", "TMP_ListPool`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::TMPro::TMP_ListPool_1___c, "TMPro", "TMP_ListPool`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // cpp template
@@ -56,13 +59,13 @@ protected:
   constexpr TMP_ListPool_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_ListPool_1___c(TMP_ListPool_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_ListPool_1___c(TMP_ListPool_1___c const&) = delete;
+  TMP_ListPool_1___c(TMP_ListPool_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15954 };
@@ -101,13 +104,13 @@ protected:
   constexpr TMP_ListPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_ListPool_1(TMP_ListPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_ListPool_1(TMP_ListPool_1 const&) = delete;
+  TMP_ListPool_1(TMP_ListPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15955 };

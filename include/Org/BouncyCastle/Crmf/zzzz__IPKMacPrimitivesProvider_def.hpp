@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crmf\IPKMacPrimitivesProvider.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crmf/IPKMacPrimitivesProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ namespace Org::BouncyCastle::Crmf {
 class CORDL_TYPE IPKMacPrimitivesProvider {
 public:
   // Declarations
-  /// @brief Method CreateDigest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateDigest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);
 
-  /// @brief Method CreateMac, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateMac, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IMac* CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPKMacPrimitivesProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPKMacPrimitivesProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPKMacPrimitivesProvider(IPKMacPrimitivesProvider const&) = delete;
+  IPKMacPrimitivesProvider(IPKMacPrimitivesProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 699 };

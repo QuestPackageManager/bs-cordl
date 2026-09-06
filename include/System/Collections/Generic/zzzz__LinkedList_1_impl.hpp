@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\LinkedList_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/LinkedList_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
@@ -110,9 +110,10 @@ template <typename T>
 constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Collections::Generic::LinkedList_1_Enumerator<T>::i___System__Runtime__Serialization__IDeserializationCallback() {
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LinkedList_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_node", ty:
-// "::System::Collections::Generic::LinkedListNode_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_current", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LinkedList_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_node", ty:
+// "::System::Collections::Generic::LinkedListNode_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 template <typename T>
 constexpr ::System::Collections::Generic::LinkedList_1_Enumerator<T>::LinkedList_1_Enumerator(::System::Collections::Generic::LinkedList_1<T>* _list,
                                                                                               ::System::Collections::Generic::LinkedListNode_1<T>* _node, int32_t _version, T _current,

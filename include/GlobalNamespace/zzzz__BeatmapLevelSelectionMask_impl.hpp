@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelSelectionMask.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelSelectionMask.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_impl.hpp"
@@ -190,8 +190,9 @@ constexpr GlobalNamespace::BeatmapLevelSelectionMask::operator ::System::IEquata
 constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>* GlobalNamespace::BeatmapLevelSelectionMask::i___System__IEquatable_1___GlobalNamespace__BeatmapLevelSelectionMask_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelSelectionMask>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "modifiers", ty:
-// "::GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "songPacks", ty: "::GlobalNamespace::SongPackMask", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "modifiers", ty:
+// "::GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "songPacks", ty: "::GlobalNamespace::SongPackMask", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapLevelSelectionMask::BeatmapLevelSelectionMask(::GlobalNamespace::BeatmapDifficultyMask difficulties, ::GlobalNamespace::GameplayModifierMask modifiers,
                                                                                   ::GlobalNamespace::SongPackMask songPacks) noexcept {
   this->difficulties = difficulties;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\SetupDragAndDropArgs.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/SetupDragAndDropArgs.hpp"
 #include "UnityEngine/UIElements/zzzz__StartDragArgs_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SetupDragAndDropArgs_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -34,9 +34,9 @@ inline void UnityEngine::UIElements::SetupDragAndDropArgs::_ctor(::UnityEngine::
                                                                ::i2c::type_of<::UnityEngine::UIElements::StartDragArgs>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, draggedElement, selectedIds, startDragArgs);
 }
-// Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "selectedIds", ty:
-// "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "startDragArgs", ty: "::UnityEngine::UIElements::StartDragArgs", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "selectedIds", ty:
+// "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "startDragArgs", ty: "::UnityEngine::UIElements::StartDragArgs",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::SetupDragAndDropArgs::SetupDragAndDropArgs(::UnityEngine::UIElements::VisualElement* draggedElement,
                                                                                 ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds,
                                                                                 ::UnityEngine::UIElements::StartDragArgs startDragArgs) noexcept {

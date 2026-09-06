@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VideoProjectionDataModelSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/VideoProjectionDataModelSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,20 +72,22 @@ protected:
   constexpr VideoProjectionDataModelSO_VideoClipWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO_VideoClipWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO_VideoClipWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionDataModelSO_VideoClipWithId(VideoProjectionDataModelSO_VideoClipWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO_VideoClipWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO_VideoClipWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionDataModelSO_VideoClipWithId(VideoProjectionDataModelSO_VideoClipWithId const&) = delete;
+  VideoProjectionDataModelSO_VideoClipWithId(VideoProjectionDataModelSO_VideoClipWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5955 };
 
+  /// [SerializeField]
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
 
+  /// [SerializeField]
   /// @brief Field _videoAssetReference, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReference* ____videoAssetReference;
 
@@ -134,17 +136,18 @@ protected:
   constexpr VideoProjectionDataModelSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionDataModelSO(VideoProjectionDataModelSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionDataModelSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoProjectionDataModelSO(VideoProjectionDataModelSO const&) = delete;
+  VideoProjectionDataModelSO(VideoProjectionDataModelSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5956 };
 
+  /// [SerializeField]
   /// @brief Field _videoClipsWithId, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*> ____videoClipsWithId;
 

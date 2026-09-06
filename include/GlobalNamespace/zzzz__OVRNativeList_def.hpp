@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRNativeList.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRNativeList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace GlobalNamespace {
 template <typename T> struct OVREnumerable_1;
 }
 namespace GlobalNamespace {
-template <typename T> struct OVRNativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct OVRNativeList_1;
 }
 namespace GlobalNamespace {
 struct OVRNativeList_CapacityHelper;
@@ -21,7 +23,9 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace Unity::Collections {
 struct Allocator;
@@ -38,6 +42,7 @@ MARK_REF_T(::GlobalNamespace::OVRNativeList*);
 MARK_VAL_T(::GlobalNamespace::OVRNativeList_CapacityHelper);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRNativeList*, "", "OVRNativeList");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRNativeList_CapacityHelper, "", "OVRNativeList/CapacityHelper");
+// [IsReadOnly]
 // Dependencies System.Nullable`1<T>
 namespace GlobalNamespace {
 // Is value type: true
@@ -46,7 +51,9 @@ struct CORDL_TYPE OVRNativeList_CapacityHelper {
 public:
   // Declarations
   /// @brief Method AllocateEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::GlobalNamespace::OVRNativeList_1<T> AllocateEmpty(::Unity::Collections::Allocator allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::GlobalNamespace::OVRNativeList_1<T> AllocateEmpty(::Unity::Collections::Allocator allocator);
 
   /// @brief Method .ctor, addr 0x5f04e84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<int32_t> count);
@@ -55,7 +62,7 @@ public:
   // @brief default ctor
   constexpr OVRNativeList_CapacityHelper();
 
-  // Ctor Parameters [CppParam { name: "_count", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_count", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRNativeList_CapacityHelper(::System::Nullable_1<int32_t> _count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -75,6 +82,7 @@ static_assert(offsetof(::GlobalNamespace::OVRNativeList_CapacityHelper, _count) 
 static_assert(sizeof(::GlobalNamespace::OVRNativeList_CapacityHelper) == 0x8, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -84,15 +92,18 @@ public:
   // Declarations
   using CapacityHelper = ::GlobalNamespace::OVRNativeList_CapacityHelper;
 
+  /// [Extension]
   /// @brief Method ToNativeList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::GlobalNamespace::OVRNativeList_1<T> ToNativeList(::System::Collections::Generic::IEnumerable_1<T>* collection, ::Unity::Collections::Allocator allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::GlobalNamespace::OVRNativeList_1<T> ToNativeList(::System::Collections::Generic::IEnumerable_1<T>* collection, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method WithSuggestedCapacityFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::GlobalNamespace::OVRNativeList_CapacityHelper WithSuggestedCapacityFrom(::System::Collections::Generic::IEnumerable_1<T>* collection);
+  template <typename T> static inline ::GlobalNamespace::OVRNativeList_CapacityHelper WithSuggestedCapacityFrom(/* [NoEnumeration] */ ::System::Collections::Generic::IEnumerable_1<T>* collection);
 
   /// @brief Method WithSuggestedCapacityFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline ::GlobalNamespace::OVRNativeList_CapacityHelper WithSuggestedCapacityFrom(::System::Collections::Generic::IEnumerable_1<T>* collection,
+  static inline ::GlobalNamespace::OVRNativeList_CapacityHelper WithSuggestedCapacityFrom(/* [NoEnumeration] */ ::System::Collections::Generic::IEnumerable_1<T>* collection,
                                                                                           ::by_ref<::GlobalNamespace::OVREnumerable_1<T>> nonAllocatingEnumerable);
 
 protected:
@@ -101,13 +112,13 @@ protected:
   constexpr OVRNativeList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRNativeList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRNativeList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRNativeList(OVRNativeList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRNativeList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRNativeList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRNativeList(OVRNativeList const&) = delete;
+  OVRNativeList(OVRNativeListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7947 };

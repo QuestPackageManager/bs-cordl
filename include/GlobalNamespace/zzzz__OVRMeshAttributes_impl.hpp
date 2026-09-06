@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMeshAttributes.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMeshAttributes.hpp"
 #include "UnityEngine/zzzz__BoneWeight_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -11,10 +11,11 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "normals", ty: "::ArrayW<::UnityEngine::Vector3>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "texcoords", ty:
-// "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: Some("{}") }, CppParam { name: "colors", ty: "::ArrayW<::UnityEngine::Color>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "boneWeights", ty: "::ArrayW<::UnityEngine::BoneWeight>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "normals", ty:
+// "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "texcoords", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "colors", ty:
+// "::ArrayW<::UnityEngine::Color>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "boneWeights", ty: "::ArrayW<::UnityEngine::BoneWeight>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRMeshAttributes::OVRMeshAttributes(::ArrayW<::UnityEngine::Vector3> vertices, ::ArrayW<::UnityEngine::Vector3> normals, ::ArrayW<::UnityEngine::Vector4> tangents,
                                                                   ::ArrayW<::UnityEngine::Vector2> texcoords, ::ArrayW<::UnityEngine::Color> colors,
                                                                   ::ArrayW<::UnityEngine::BoneWeight> boneWeights) noexcept {

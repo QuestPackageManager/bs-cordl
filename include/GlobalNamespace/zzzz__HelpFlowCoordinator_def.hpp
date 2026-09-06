@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HelpFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/HelpFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,9 +138,11 @@ public:
   /// @brief Method .ctor, addr 0x5a0d4a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5a0ce78, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5a0cf38, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
@@ -150,13 +152,13 @@ protected:
   constexpr HelpFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HelpFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpFlowCoordinator(HelpFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HelpFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpFlowCoordinator(HelpFlowCoordinator const&) = delete;
+  HelpFlowCoordinator(HelpFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6365 };
@@ -179,24 +181,31 @@ public:
   /// @brief Field kPrivacyPolicyMenu offset 0xffffffff size 0x8
   static constexpr ::ConstString kPrivacyPolicyMenu{ u"PRIVACY_POLICY_MENU" };
 
+  /// [Inject]
   /// @brief Field _helpMenuViewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HelpMenuViewController> ____helpMenuViewController;
 
+  /// [Inject]
   /// @brief Field _menuTransitionsHelper, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
+  /// [Inject]
   /// @brief Field _howToPlayViewController, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HowToPlayViewController> ____howToPlayViewController;
 
+  /// [Inject]
   /// @brief Field _helpNavigationController, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HelpNavigationController> ____helpNavigationController;
 
+  /// [Inject]
   /// @brief Field _playerStatisticsViewController, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerStatisticsViewController> ____playerStatisticsViewController;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* ___didFinishEvent;
 

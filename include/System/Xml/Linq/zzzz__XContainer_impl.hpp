@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XContainer.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XContainer.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceCache_impl.hpp"
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -385,6 +385,7 @@ inline ::System::Collections::IEnumerator* System::Xml::Linq::XContainer__Nodes_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XContainer__Nodes_d__18*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::System::Xml::Linq::XContainer__Nodes_d__18* System::Xml::Linq::XContainer__Nodes_d__18::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Linq::XContainer__Nodes_d__18*>(__1__state));
 }

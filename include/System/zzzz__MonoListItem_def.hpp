@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\MonoListItem.hpp"
+// IWYU pragma private; include "System/MonoListItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ protected:
   constexpr MonoListItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoListItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoListItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoListItem(MonoListItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoListItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoListItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoListItem(MonoListItem const&) = delete;
+  MonoListItem(MonoListItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2619 };

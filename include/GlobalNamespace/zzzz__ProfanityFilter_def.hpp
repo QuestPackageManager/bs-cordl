@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ProfanityFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/ProfanityFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,13 +94,13 @@ protected:
   constexpr ProfanityFilter_TrieNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter_TrieNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter_TrieNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProfanityFilter_TrieNode(ProfanityFilter_TrieNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter_TrieNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter_TrieNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfanityFilter_TrieNode(ProfanityFilter_TrieNode const&) = delete;
+  ProfanityFilter_TrieNode(ProfanityFilter_TrieNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18258 };
@@ -121,6 +121,7 @@ static_assert(offsetof(::GlobalNamespace::ProfanityFilter_TrieNode, ____shortest
 static_assert(sizeof(::GlobalNamespace::ProfanityFilter_TrieNode) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -165,23 +166,30 @@ public:
   /// @brief Method MoveNext, addr 0x33404f4, size 0x98, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator, addr 0x33405f0, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<char16_t>* System_Collections_Generic_IEnumerable_System_Char__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Char>.get_Current, addr 0x334058c, size 0x8, virtual true, abstract: false, final true
   inline char16_t System_Collections_Generic_IEnumerator_System_Char__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3340688, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3340594, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x33405cc, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x33404f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -215,6 +223,7 @@ public:
 
   constexpr void __cordl_internal_set_c(char16_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x33404ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -239,13 +248,13 @@ protected:
   constexpr ProfanityFilter__GetLookalikeLetters_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter__GetLookalikeLetters_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter__GetLookalikeLetters_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProfanityFilter__GetLookalikeLetters_d__4(ProfanityFilter__GetLookalikeLetters_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter__GetLookalikeLetters_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter__GetLookalikeLetters_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfanityFilter__GetLookalikeLetters_d__4(ProfanityFilter__GetLookalikeLetters_d__4 const&) = delete;
+  ProfanityFilter__GetLookalikeLetters_d__4(ProfanityFilter__GetLookalikeLetters_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18259 };
@@ -298,6 +307,7 @@ public:
   /// @brief Method GetLeetEquivalent, addr 0x33404cc, size 0x24, virtual false, abstract: false, final false
   static inline char16_t GetLeetEquivalent(char16_t c);
 
+  /// [IteratorStateMachine(typeof(ProfanityFilter::<GetLookalikeLetters>d__4))]
   /// @brief Method GetLookalikeLetters, addr 0x334043c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<char16_t>* GetLookalikeLetters(char16_t c);
 
@@ -321,13 +331,13 @@ protected:
   constexpr ProfanityFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProfanityFilter(ProfanityFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfanityFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfanityFilter(ProfanityFilter const&) = delete;
+  ProfanityFilter(ProfanityFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18260 };

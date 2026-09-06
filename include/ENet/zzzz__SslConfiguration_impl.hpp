@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\SslConfiguration.hpp"
+// IWYU pragma private; include "ENet/SslConfiguration.hpp"
 #include "ENet/zzzz__ENetSslConfiguration_impl.hpp"
 #include "ENet/zzzz__SslConfiguration_def.hpp"
 #include "ENet/zzzz__ENetSslConfiguration_def.hpp"
@@ -375,7 +375,7 @@ constexpr ENet::SslConfiguration::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* ENet::SslConfiguration::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "nativeSslConfiguration", ty: "::ENet::ENetSslConfiguration", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "nativeSslConfiguration", ty: "::ENet::ENetSslConfiguration", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::ENet::SslConfiguration::SslConfiguration(::ENet::ENetSslConfiguration nativeSslConfiguration) noexcept {
   this->nativeSslConfiguration = nativeSslConfiguration;
 }

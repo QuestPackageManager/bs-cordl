@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\DiagnosticId.hpp"
+// IWYU pragma private; include "Unity/Burst/DiagnosticId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -166,7 +166,7 @@ public:
   // @brief default ctor
   constexpr DiagnosticId();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DiagnosticId(int32_t value__) noexcept;
 
   /// @brief Field ERR_AccessingManagedArrayNotSupported value: I32(1022)

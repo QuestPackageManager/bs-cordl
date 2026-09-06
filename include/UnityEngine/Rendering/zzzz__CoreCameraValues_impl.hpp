@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CoreCameraValues.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CoreCameraValues.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreCameraValues_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -64,8 +64,8 @@ constexpr UnityEngine::Rendering::CoreCameraValues::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>* UnityEngine::Rendering::CoreCameraValues::i___System__IEquatable_1___UnityEngine__Rendering__CoreCameraValues_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "filterMode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cullingMask", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "filterMode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingMask", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CoreCameraValues::CoreCameraValues(int32_t filterMode, uint32_t cullingMask, int32_t instanceID) noexcept {
   this->filterMode = filterMode;
   this->cullingMask = cullingMask;

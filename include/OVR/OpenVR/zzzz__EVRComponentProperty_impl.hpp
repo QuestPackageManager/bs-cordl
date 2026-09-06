@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\EVRComponentProperty.hpp"
+// IWYU pragma private; include "OVR/OpenVR/EVRComponentProperty.hpp"
 #include "OVR/OpenVR/zzzz__EVRComponentProperty_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::EVRComponentProperty::EVRComponentProperty(int32_t value__) noexcept {
   this->value__ = value__;
 }

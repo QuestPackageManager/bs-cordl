@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\IClippable.hpp"
+// IWYU pragma private; include "UnityEngine/UI/IClippable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,27 +34,27 @@ public:
 
   __declspec(property(get = get_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  /// @brief Method Cull, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Cull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
-  /// @brief Method RecalculateClipping, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RecalculateClipping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RecalculateClipping();
 
-  /// @brief Method SetClipRect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetClipRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetClipRect(::UnityEngine::Rect value, bool validRect);
 
-  /// @brief Method SetClipSoftness, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetClipSoftness, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetClipSoftness(::UnityEngine::Vector2 clipSoftness);
 
-  /// @brief Method get_gameObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_rectTransform, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IClippable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IClippable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IClippable(IClippable const&) = delete;
+  IClippable(IClippableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17397 };

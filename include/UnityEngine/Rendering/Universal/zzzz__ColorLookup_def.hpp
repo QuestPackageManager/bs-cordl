@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ColorLookup.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ColorLookup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class ColorLookup;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::ColorLookup*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ColorLookup*, "UnityEngine.Rendering.Universal", "ColorLookup");
+// [VolumeComponentMenu("Post-processing/Color Lookup")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -40,6 +42,7 @@ public:
   /// @brief Method IsActive, addr 0x687e3dc, size 0x44, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687e698, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -72,20 +75,22 @@ protected:
   constexpr ColorLookup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorLookup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorLookup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorLookup(ColorLookup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorLookup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorLookup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorLookup(ColorLookup const&) = delete;
+  ColorLookup(ColorLookupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12792 };
 
+  /// [Tooltip("A 2D Lookup Texture (LUT) to use for color grading.")]
   /// @brief Field texture, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureParameter* ___texture;
 
+  /// [Tooltip("How much of the lookup texture will contribute to the color grading effect.")]
   /// @brief Field contribution, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___contribution;
 

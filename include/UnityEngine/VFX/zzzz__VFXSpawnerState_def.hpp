@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXSpawnerState.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXSpawnerState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ protected:
   constexpr VFXSpawnerState_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerState_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerState_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXSpawnerState_BindingsMarshaller(VFXSpawnerState_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerState_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerState_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXSpawnerState_BindingsMarshaller(VFXSpawnerState_BindingsMarshaller const&) = delete;
+  VFXSpawnerState_BindingsMarshaller(VFXSpawnerState_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22406 };
@@ -67,6 +67,8 @@ public:
 static_assert(sizeof(::UnityEngine::VFX::VFXSpawnerState_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::VFX
+// [NativeType(Header = "Modules/VFX/Public/VFXSpawnerState.h")]
+// [RequiredByNativeCode]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -100,6 +102,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateSpawnerStateWrapper, addr 0x6e2d3cc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXSpawnerState* CreateSpawnerStateWrapper();
 
@@ -109,6 +112,7 @@ public:
   /// @brief Method Finalize, addr 0x6e2d5e0, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method Internal_Destroy, addr 0x6e2d5a4, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
@@ -126,6 +130,7 @@ public:
   /// @brief Method Release, addr 0x6e2d54c, size 0x58, virtual false, abstract: false, final false
   inline void Release();
 
+  /// [RequiredByNativeCode]
   /// @brief Method SetWrapValue, addr 0x6e2d4b8, size 0x94, virtual false, abstract: false, final false
   inline void SetWrapValue(::System::IntPtr ptrToSpawnerState, ::System::IntPtr ptrToEventAttribute);
 
@@ -210,13 +215,13 @@ protected:
   constexpr VFXSpawnerState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXSpawnerState(VFXSpawnerState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXSpawnerState(VFXSpawnerState const&) = delete;
+  VFXSpawnerState(VFXSpawnerStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22407 };

@@ -1,10 +1,17 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IConnectedPlayerFactory_3.hpp"
+// IWYU pragma private; include "GlobalNamespace/IConnectedPlayerFactory_3.hpp"
+#include "GlobalNamespace/zzzz__ConnectedPlayer_3_impl.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_impl.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayerFactory_3_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_3_def.hpp"
 #include "GlobalNamespace/zzzz__IConnection_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerConnectedPacket_def.hpp"
 template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline TConnectedPlayerImpl GlobalNamespace::IConnectedPlayerFactory_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::CreateLocalPlayer(
     ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>* manager, ::StringW userId, ::StringW userName, bool isConnectionOwner,
     ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random, ::StringW compatibilityVersion) {
@@ -14,6 +21,10 @@ inline TConnectedPlayerImpl GlobalNamespace::IConnectedPlayerFactory_3<TConnecte
   return ::cordl_internals::RunMethodRethrow<TConnectedPlayerImpl>(this, ___internal_method, manager, userId, userName, isConnectionOwner, publicEncryptionKey, random, compatibilityVersion);
 }
 template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline TConnectedPlayerImpl GlobalNamespace::IConnectedPlayerFactory_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::CreateDirectlyConnectedPlayer(
     ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>* manager, uint8_t connectionId, ::GlobalNamespace::IConnection* connection) {
   auto* ___internal_method = THROW_UNLESS(
@@ -22,6 +33,10 @@ inline TConnectedPlayerImpl GlobalNamespace::IConnectedPlayerFactory_3<TConnecte
   return ::cordl_internals::RunMethodRethrow<TConnectedPlayerImpl>(this, ___internal_method, manager, connectionId, connection);
 }
 template <typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 inline TConnectedPlayerImpl GlobalNamespace::IConnectedPlayerFactory_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>::CreateRemoteConnectedPlayer(
     ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>* manager, uint8_t connectionId, ::GlobalNamespace::PlayerConnectedPacket* packet,
     TConnectedPlayerImpl parent) {

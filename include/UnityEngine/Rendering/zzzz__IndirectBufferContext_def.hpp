@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   // @brief default ctor
   constexpr IndirectBufferContext_BufferState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IndirectBufferContext_BufferState(int32_t value__) noexcept;
 
   /// @brief Field AllInstancesOcclusionTested value: I32(3)
@@ -111,9 +111,9 @@ public:
   // @brief default ctor
   constexpr IndirectBufferContext();
 
-  // Ctor Parameters [CppParam { name: "cullingJobHandle", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: None }, CppParam { name: "bufferState", ty:
-  // "::UnityEngine::Rendering::IndirectBufferContext_BufferState", modifiers: "", def_value: None }, CppParam { name: "occluderVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "subviewMask", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cullingJobHandle", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "bufferState", ty:
+  // "::UnityEngine::Rendering::IndirectBufferContext_BufferState", modifiers: "", def_value: None, comment: None }, CppParam { name: "occluderVersion", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "subviewMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IndirectBufferContext(::Unity::Jobs::JobHandle cullingJobHandle, ::UnityEngine::Rendering::IndirectBufferContext_BufferState bufferState, int32_t occluderVersion,
                                   int32_t subviewMask) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\ScriptableRuntimeReflectionSystemSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/ScriptableRuntimeReflectionSystemSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class ScriptableRuntimeReflectionSystemSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemSettings");
+// [NativeHeader("Runtime/Camera/ScriptableRuntimeReflectionSystem.h")]
+// [RequiredByNativeCode]
 // Dependencies System.Object
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
@@ -28,16 +30,20 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* s_Instance;
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)0)]
+  /// [StaticAccessor("ScriptableRuntimeReflectionSystem", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x6b30c94, size 0x28, virtual false, abstract: false, final false
   static inline void ScriptingDirtyReflectionSystemInstance();
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* getStaticF_s_Instance();
 
+  /// [RequiredByNativeCode]
   /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x6b30c38, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* value);
 
+  /// [RequiredByNativeCode]
   /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x6b30ae0, size 0x158, virtual false, abstract: false, final false
   static inline void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
@@ -47,13 +53,13 @@ protected:
   constexpr ScriptableRuntimeReflectionSystemSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRuntimeReflectionSystemSettings(ScriptableRuntimeReflectionSystemSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRuntimeReflectionSystemSettings(ScriptableRuntimeReflectionSystemSettings const&) = delete;
+  ScriptableRuntimeReflectionSystemSettings(ScriptableRuntimeReflectionSystemSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10920 };

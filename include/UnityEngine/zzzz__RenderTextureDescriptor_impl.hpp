@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RenderTextureDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/RenderTextureDescriptor.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShadowSamplingMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureDimension_impl.hpp"
@@ -883,8 +883,9 @@ inline void UnityEngine::RenderTextureDescriptor::_ctor(int32_t width, int32_t h
           { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::RenderTextureFormat>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, width, height, colorFormat, depthBufferBits, mipCount);
 }
-inline void UnityEngine::RenderTextureDescriptor::_ctor(int32_t width, int32_t height, ::UnityEngine::RenderTextureFormat colorFormat, int32_t depthBufferBits, int32_t mipCount,
-                                                        ::UnityEngine::RenderTextureReadWrite readWrite) {
+inline void UnityEngine::RenderTextureDescriptor::_ctor(int32_t width, int32_t height, /* [DefaultValue("RenderTextureFormat.Default")] */ ::UnityEngine::RenderTextureFormat colorFormat,
+                                                        /* [DefaultValue("0")] */ int32_t depthBufferBits, /* [DefaultValue("Texture.GenerateAllMips")] */ int32_t mipCount,
+                                                        /* [DefaultValue("RenderTextureReadWrite.Linear")] */ ::UnityEngine::RenderTextureReadWrite readWrite) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderTextureDescriptor>(),
                                                            { ".ctor",
@@ -986,15 +987,16 @@ inline void UnityEngine::RenderTextureDescriptor::set_useDynamicScaleExplicit(bo
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderTextureDescriptor>(), { "set_useDynamicScaleExplicit", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_width_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_height_k__BackingField", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_msaaSamples_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_volumeDepth_k__BackingField", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_mipCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_graphicsFormat", ty:
-// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "_stencilFormat_k__BackingField", ty:
-// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "_depthStencilFormat_k__BackingField", ty:
-// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "_dimension_k__BackingField", ty: "::UnityEngine::Rendering::TextureDimension",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_shadowSamplingMode_k__BackingField", ty: "::UnityEngine::Rendering::ShadowSamplingMode", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "_vrUsage_k__BackingField", ty: "::UnityEngine::VRTextureUsage", modifiers: "", def_value: Some("{}") }, CppParam { name: "_flags", ty: "::UnityEngine::RenderTextureCreationFlags",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_memoryless_k__BackingField", ty: "::UnityEngine::RenderTextureMemoryless", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_width_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_height_k__BackingField", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_msaaSamples_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_volumeDepth_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_mipCount_k__BackingField", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_graphicsFormat", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_stencilFormat_k__BackingField", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_depthStencilFormat_k__BackingField", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_dimension_k__BackingField", ty: "::UnityEngine::Rendering::TextureDimension", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_shadowSamplingMode_k__BackingField", ty:
+// "::UnityEngine::Rendering::ShadowSamplingMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_vrUsage_k__BackingField", ty: "::UnityEngine::VRTextureUsage", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_flags", ty: "::UnityEngine::RenderTextureCreationFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_memoryless_k__BackingField", ty: "::UnityEngine::RenderTextureMemoryless", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RenderTextureDescriptor::RenderTextureDescriptor(
     int32_t _width_k__BackingField, int32_t _height_k__BackingField, int32_t _msaaSamples_k__BackingField, int32_t _volumeDepth_k__BackingField, int32_t _mipCount_k__BackingField,
     ::UnityEngine::Experimental::Rendering::GraphicsFormat _graphicsFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat _stencilFormat_k__BackingField,

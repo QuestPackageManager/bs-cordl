@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BurstFireEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/BurstFireEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,32 +134,39 @@ protected:
   constexpr BurstFireEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstFireEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstFireEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstFireEffect(BurstFireEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstFireEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstFireEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstFireEffect(BurstFireEffect const&) = delete;
+  BurstFireEffect(BurstFireEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5597 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _fadeOutDuration, offset: 0x98, size: 0x4, def value: None
   float_t ____fadeOutDuration;
 
+  /// [SerializeField]
   /// @brief Field _flipbookFadeOutCurve, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____flipbookFadeOutCurve;
 
+  /// [SerializeField]
   /// @brief Field _bloomFadeOutCurve, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____bloomFadeOutCurve;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
+  /// [Inject]
   /// @brief Field _songTimeTweeningManager, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____songTimeTweeningManager;
 
+  /// [Inject]
   /// @brief Field _environmentContext, offset: 0xc0, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentContext ____environmentContext;
 

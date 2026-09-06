@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NetDataReader.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NetDataReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -25,7 +26,7 @@ class NetDataReader;
 // Write type traits
 MARK_REF_T(::LiteNetLib::Utils::NetDataReader*);
 DEFINE_IL2CPP_CLASS(::LiteNetLib::Utils::NetDataReader*, "LiteNetLib.Utils", "NetDataReader");
-// Dependencies System.Object
+// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetDataReader
@@ -64,7 +65,9 @@ public:
   inline void Clear();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Get();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T Get();
 
   /// @brief Method GetBool, addr 0x58aa678, size 0x48, virtual false, abstract: false, final false
   inline bool GetBool();
@@ -341,13 +344,13 @@ protected:
   constexpr NetDataReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetDataReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetDataReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetDataReader(NetDataReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetDataReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetDataReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetDataReader(NetDataReader const&) = delete;
+  NetDataReader(NetDataReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20093 };

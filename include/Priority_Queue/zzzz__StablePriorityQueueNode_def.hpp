@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue\StablePriorityQueueNode.hpp"
+// IWYU pragma private; include "Priority_Queue/StablePriorityQueueNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,9 +36,11 @@ public:
   /// @brief Method .ctor, addr 0x330f0f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_InsertionIndex, addr 0x330f0e8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_InsertionIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method set_InsertionIndex, addr 0x330f0f0, size 0x8, virtual false, abstract: false, final false
   inline void set_InsertionIndex(int64_t value);
 
@@ -48,17 +50,18 @@ protected:
   constexpr StablePriorityQueueNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueueNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueueNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StablePriorityQueueNode(StablePriorityQueueNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueueNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueueNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StablePriorityQueueNode(StablePriorityQueueNode const&) = delete;
+  StablePriorityQueueNode(StablePriorityQueueNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20498 };
 
+  /// [CompilerGenerated]
   /// @brief Field <InsertionIndex>k__BackingField, offset: 0x18, size: 0x8, def value: None
   int64_t ____InsertionIndex_k__BackingField;
 

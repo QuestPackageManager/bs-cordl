@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BezierCurve.hpp"
+// IWYU pragma private; include "GlobalNamespace/BezierCurve.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -28,9 +28,9 @@ inline void GlobalNamespace::BezierCurve::_ctor(::UnityEngine::Vector3 p0, ::Uni
                                                                                                      ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, p0, p1, p2, p3);
 }
-// Ctor Parameters [CppParam { name: "p0", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "p1", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "p2", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "p3", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "p0", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "p1", ty: "::UnityEngine::Vector3", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "p2", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "p3", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BezierCurve::BezierCurve(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3) noexcept {
   this->p0 = p0;
   this->p1 = p1;

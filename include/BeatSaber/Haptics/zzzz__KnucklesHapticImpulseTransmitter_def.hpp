@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\KnucklesHapticImpulseTransmitter.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/KnucklesHapticImpulseTransmitter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_REF_T(::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter*);
 MARK_REF_T(::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter*, "BeatSaber.Haptics", "KnucklesHapticImpulseTransmitter");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9*, "BeatSaber.Haptics", "KnucklesHapticImpulseTransmitter/<HapticsCoroutine>d__9");
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.XR.InputDevice
 namespace BeatSaber::Haptics {
 // Is value type: false
@@ -89,17 +90,22 @@ public:
   /// @brief Method MoveNext, addr 0x329946c, size 0x134, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32995a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32995a8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32995e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3299468, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -133,6 +139,7 @@ public:
 
   constexpr void __cordl_internal_set__waiter_5__3(::UnityEngine::WaitForSecondsRealtime* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32993d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -151,13 +158,13 @@ protected:
   constexpr KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9(KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9(KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9 const&) = delete;
+  KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9(KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23197 };
@@ -226,6 +233,7 @@ public:
   /// @brief Method Dispose, addr 0x32993e0, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [IteratorStateMachine(typeof(BeatSaber.Haptics.KnucklesHapticImpulseTransmitter::<HapticsCoroutine>d__9))]
   /// @brief Method HapticsCoroutine, addr 0x3299348, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HapticsCoroutine();
 
@@ -282,13 +290,13 @@ protected:
   constexpr KnucklesHapticImpulseTransmitter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KnucklesHapticImpulseTransmitter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KnucklesHapticImpulseTransmitter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KnucklesHapticImpulseTransmitter(KnucklesHapticImpulseTransmitter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KnucklesHapticImpulseTransmitter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KnucklesHapticImpulseTransmitter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KnucklesHapticImpulseTransmitter(KnucklesHapticImpulseTransmitter const&) = delete;
+  KnucklesHapticImpulseTransmitter(KnucklesHapticImpulseTransmitterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23198 };

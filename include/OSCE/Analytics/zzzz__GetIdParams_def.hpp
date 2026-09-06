@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\GetIdParams.hpp"
+// IWYU pragma private; include "OSCE/Analytics/GetIdParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ public:
   // @brief default ctor
   constexpr GetIdParams();
 
-  // Ctor Parameters [CppParam { name: "replace_rid", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "replace_rid", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr GetIdParams(bool replace_rid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

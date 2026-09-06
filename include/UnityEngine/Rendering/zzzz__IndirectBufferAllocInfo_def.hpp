@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferAllocInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferAllocInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,14 +30,15 @@ public:
   inline bool IsEmpty();
 
   /// @brief Method IsWithinLimits, addr 0x682e9d8, size 0x34, virtual false, abstract: false, final false
-  inline bool IsWithinLimits(::by_ref<::UnityEngine::Rendering::IndirectBufferLimits> limits);
+  inline bool IsWithinLimits(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferLimits> limits);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr IndirectBufferAllocInfo();
 
-  // Ctor Parameters [CppParam { name: "drawAllocIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "drawCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "instanceAllocIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "drawAllocIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "instanceAllocIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr IndirectBufferAllocInfo(int32_t drawAllocIndex, int32_t drawCount, int32_t instanceAllocIndex, int32_t instanceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

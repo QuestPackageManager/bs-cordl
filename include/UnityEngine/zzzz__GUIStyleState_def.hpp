@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUIStyleState.hpp"
+// IWYU pragma private; include "UnityEngine/GUIStyleState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ protected:
   constexpr GUIStyleState_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUIStyleState_BindingsMarshaller(GUIStyleState_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUIStyleState_BindingsMarshaller(GUIStyleState_BindingsMarshaller const&) = delete;
+  GUIStyleState_BindingsMarshaller(GUIStyleState_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19885 };
@@ -63,6 +63,7 @@ public:
 static_assert(sizeof(::UnityEngine::GUIStyleState_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/IMGUI/GUIStyle.bindings.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -78,8 +79,10 @@ public:
   /// @brief Field m_SourceStyle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SourceStyle, put = __cordl_internal_set_m_SourceStyle)) ::UnityEngine::GUIStyle* m_SourceStyle;
 
+  /// @brief [NativeProperty("textColor", false, (UnityEngine.Bindings.TargetType)1)]
   __declspec(property(put = set_textColor)) ::UnityEngine::Color textColor;
 
+  /// [FreeFunction(Name = "GUIStyleState_Bindings::Cleanup", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method Cleanup, addr 0x6b49488, size 0x50, virtual false, abstract: false, final false
   inline void Cleanup();
 
@@ -92,6 +95,7 @@ public:
   /// @brief Method GetGUIStyleState, addr 0x6b4955c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
 
+  /// [FreeFunction(Name = "GUIStyleState_Bindings::Init", IsThreadSafe = true)]
   /// @brief Method Init, addr 0x6b49460, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Init();
 
@@ -129,13 +133,13 @@ protected:
   constexpr GUIStyleState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUIStyleState(GUIStyleState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUIStyleState(GUIStyleState const&) = delete;
+  GUIStyleState(GUIStyleStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19886 };

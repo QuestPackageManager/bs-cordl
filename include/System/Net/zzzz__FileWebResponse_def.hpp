@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FileWebResponse.hpp"
+// IWYU pragma private; include "System/Net/FileWebResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,6 +93,7 @@ public:
 
   static inline ::System::Net::FileWebResponse* New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
 
+  /// @brief [Obsolete("Serialization is obsoleted for this type. http://go.microsoft.com/fwlink/?linkid=14202")]
   static inline ::System::Net::FileWebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x6424b38, size 0x164, virtual true, abstract: false, final true
@@ -141,6 +142,7 @@ public:
   /// @brief Method .ctor, addr 0x64236dc, size 0x2e0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
 
+  /// [Obsolete("Serialization is obsoleted for this type. http://go.microsoft.com/fwlink/?linkid=14202")]
   /// @brief Method .ctor, addr 0x6424624, size 0x240, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -162,13 +164,13 @@ protected:
   constexpr FileWebResponse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileWebResponse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileWebResponse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileWebResponse(FileWebResponse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileWebResponse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileWebResponse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileWebResponse(FileWebResponse const&) = delete;
+  FileWebResponse(FileWebResponseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11561 };

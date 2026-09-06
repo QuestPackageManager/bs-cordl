@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Text.hpp"
+// IWYU pragma private; include "TMPro/TMP_Text.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -269,13 +269,13 @@ protected:
   constexpr TMP_Text_MissingCharacterEventCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text_MissingCharacterEventCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text_MissingCharacterEventCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Text_MissingCharacterEventCallback(TMP_Text_MissingCharacterEventCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text_MissingCharacterEventCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text_MissingCharacterEventCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Text_MissingCharacterEventCallback(TMP_Text_MissingCharacterEventCallback const&) = delete;
+  TMP_Text_MissingCharacterEventCallback(TMP_Text_MissingCharacterEventCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16001 };
@@ -300,7 +300,8 @@ public:
   // @brief default ctor
   constexpr TMP_Text_CharacterSubstitution();
 
-  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr TMP_Text_CharacterSubstitution(int32_t index, uint32_t unicode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -356,7 +357,7 @@ public:
   // @brief default ctor
   constexpr TMP_Text_TextInputSources();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_Text_TextInputSources(int32_t value__) noexcept;
 
   /// @brief Field SetText value: I32(1)
@@ -388,6 +389,7 @@ static_assert(offsetof(::TMPro::TMP_Text_TextInputSources, value__) == 0x0, "Off
 static_assert(sizeof(::TMPro::TMP_Text_TextInputSources) == 0x4, "Size mismatch!");
 
 } // namespace TMPro
+// [DebuggerDisplay("Unicode ({unicode})  \'{(char)unicode}\'")]
 // Dependencies TMPro.TextProcessingElementType
 namespace TMPro {
 // Is value type: true
@@ -399,8 +401,9 @@ public:
   // @brief default ctor
   constexpr TMP_Text_TextProcessingElement();
 
-  // Ctor Parameters [CppParam { name: "elementType", ty: "::TMPro::TextProcessingElementType", modifiers: "", def_value: None }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "stringIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "elementType", ty: "::TMPro::TextProcessingElementType", modifiers: "", def_value: None, comment: None }, CppParam { name: "unicode", ty: "uint32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "stringIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TMP_Text_TextProcessingElement(::TMPro::TextProcessingElementType elementType, uint32_t unicode, int32_t stringIndex, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -449,9 +452,9 @@ public:
   // @brief default ctor
   constexpr TMP_Text_SpecialCharacter();
 
-  // Ctor Parameters [CppParam { name: "character", ty: "::TMPro::TMP_Character*", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers:
-  // "", def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "materialIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "character", ty: "::TMPro::TMP_Character*", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontAsset", ty:
+  // "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "materialIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_Text_SpecialCharacter(::TMPro::TMP_Character* character, ::UnityW<::TMPro::TMP_FontAsset> fontAsset, ::UnityW<::UnityEngine::Material> material, int32_t materialIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -486,6 +489,7 @@ static_assert(offsetof(::TMPro::TMP_Text_SpecialCharacter, materialIndex) == 0x1
 static_assert(sizeof(::TMPro::TMP_Text_SpecialCharacter) == 0x20, "Size mismatch!");
 
 } // namespace TMPro
+// [DefaultMember("Item")]
 // Dependencies
 namespace TMPro {
 // Is value type: true
@@ -529,7 +533,8 @@ public:
   // @brief default ctor
   constexpr TMP_Text_TextBackingContainer();
 
-  // Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TMP_Text_TextBackingContainer(::ArrayW<uint32_t> m_Array, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -554,6 +559,7 @@ static_assert(offsetof(::TMPro::TMP_Text_TextBackingContainer, m_Index) == 0x8, 
 static_assert(sizeof(::TMPro::TMP_Text_TextBackingContainer) == 0x10, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -589,13 +595,13 @@ protected:
   constexpr TMP_Text___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Text___c(TMP_Text___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Text___c(TMP_Text___c const&) = delete;
+  TMP_Text___c(TMP_Text___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16007 };
@@ -674,10 +680,12 @@ public:
 
   __declspec(property(get = get_enableCulling, put = set_enableCulling)) bool enableCulling;
 
+  /// @brief [Obsolete("The \"enableKerning\" property has been deprecated. Use the \"fontFeatures\" property to control what features are enabled on the text component.")]
   __declspec(property(get = get_enableKerning, put = set_enableKerning)) bool enableKerning;
 
   __declspec(property(get = get_enableVertexGradient, put = set_enableVertexGradient)) bool enableVertexGradient;
 
+  /// @brief [Obsolete("The enabledWordWrapping property is now obsolete. Please use the textWrappingMode property instead.")]
   __declspec(property(get = get_enableWordWrapping, put = set_enableWordWrapping)) bool enableWordWrapping;
 
   __declspec(property(get = get_extraPadding, put = set_extraPadding)) bool extraPadding;
@@ -1919,6 +1927,7 @@ public:
   /// @brief Method SetText, addr 0x6971a38, size 0x348, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0, float_t arg1, float_t arg2, float_t arg3, float_t arg4, float_t arg5, float_t arg6, float_t arg7);
 
+  /// [Obsolete("Use the SetText(string) function instead.")]
   /// @brief Method SetText, addr 0x697199c, size 0x7c, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, bool syncTextInputBox);
 
@@ -3248,15 +3257,19 @@ public:
   /// @brief Method .ctor, addr 0x6980928, size 0x89c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnFontAssetRequest, addr 0x696ef9c, size 0x108, virtual false, abstract: false, final false
   static inline void add_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnMissingCharacter, addr 0x696f3bc, size 0xf0, virtual false, abstract: false, final false
   static inline void add_OnMissingCharacter(::TMPro::TMP_Text_MissingCharacterEventCallback* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnPreRenderText, addr 0x696f59c, size 0xc0, virtual true, abstract: false, final false
   inline void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnSpriteAssetRequest, addr 0x696f1ac, size 0x108, virtual false, abstract: false, final false
   static inline void add_OnSpriteAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>* value);
 
@@ -3314,6 +3327,7 @@ public:
   /// @brief Method get_alpha, addr 0x696d154, size 0x8, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
+  /// [CompilerGenerated]
   /// @brief Method get_autoSizeTextContainer, addr 0x696ecac, size 0x8, virtual true, abstract: false, final false
   inline bool get_autoSizeTextContainer();
 
@@ -3587,15 +3601,19 @@ public:
   /// @brief Method get_wordWrappingRatios, addr 0x696def0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_wordWrappingRatios();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnFontAssetRequest, addr 0x696f0a4, size 0x108, virtual false, abstract: false, final false
   static inline void remove_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnMissingCharacter, addr 0x696f4ac, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_OnMissingCharacter(::TMPro::TMP_Text_MissingCharacterEventCallback* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnPreRenderText, addr 0x696f65c, size 0xc0, virtual true, abstract: false, final false
   inline void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnSpriteAssetRequest, addr 0x696f2b4, size 0x108, virtual false, abstract: false, final false
   static inline void remove_OnSpriteAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>* value);
 
@@ -3653,6 +3671,7 @@ public:
   /// @brief Method set_alpha, addr 0x696d15c, size 0x2c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_autoSizeTextContainer, addr 0x696ecb4, size 0x8, virtual true, abstract: false, final false
   inline void set_autoSizeTextContainer(bool value);
 
@@ -3860,29 +3879,34 @@ protected:
   constexpr TMP_Text();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Text(TMP_Text&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Text", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Text(TMP_Text const&) = delete;
+  TMP_Text(TMP_Textconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16008 };
 
+  /// [SerializeField]
+  /// [TextArea(5, 10)]
   /// @brief Field m_text, offset: 0xd8, size: 0x8, def value: None
   ::StringW ___m_text;
 
   /// @brief Field m_IsTextBackingStringDirty, offset: 0xe0, size: 0x1, def value: None
   bool ___m_IsTextBackingStringDirty;
 
+  /// [SerializeField]
   /// @brief Field m_TextPreprocessor, offset: 0xe8, size: 0x8, def value: None
   ::TMPro::ITextPreprocessor* ___m_TextPreprocessor;
 
+  /// [SerializeField]
   /// @brief Field m_isRightToLeft, offset: 0xf0, size: 0x1, def value: None
   bool ___m_isRightToLeft;
 
+  /// [SerializeField]
   /// @brief Field m_fontAsset, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_FontAsset> ___m_fontAsset;
 
@@ -3892,6 +3916,7 @@ public:
   /// @brief Field m_isSDFShader, offset: 0x108, size: 0x1, def value: None
   bool ___m_isSDFShader;
 
+  /// [SerializeField]
   /// @brief Field m_sharedMaterial, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_sharedMaterial;
 
@@ -3901,21 +3926,26 @@ public:
   /// @brief Field m_currentMaterialIndex, offset: 0x120, size: 0x4, def value: None
   int32_t ___m_currentMaterialIndex;
 
+  /// [SerializeField]
   /// @brief Field m_fontSharedMaterials, offset: 0x128, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Material>> ___m_fontSharedMaterials;
 
+  /// [SerializeField]
   /// @brief Field m_fontMaterial, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_fontMaterial;
 
+  /// [SerializeField]
   /// @brief Field m_fontMaterials, offset: 0x138, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Material>> ___m_fontMaterials;
 
   /// @brief Field m_isMaterialDirty, offset: 0x140, size: 0x1, def value: None
   bool ___m_isMaterialDirty;
 
+  /// [SerializeField]
   /// @brief Field m_fontColor32, offset: 0x144, size: 0x4, def value: None
   ::UnityEngine::Color32 ___m_fontColor32;
 
+  /// [SerializeField]
   /// @brief Field m_fontColor, offset: 0x148, size: 0x10, def value: None
   ::UnityEngine::Color ___m_fontColor;
 
@@ -3931,21 +3961,27 @@ public:
   /// @brief Field m_ConvertToLinearSpace, offset: 0x174, size: 0x1, def value: None
   bool ___m_ConvertToLinearSpace;
 
+  /// [SerializeField]
   /// @brief Field m_enableVertexGradient, offset: 0x175, size: 0x1, def value: None
   bool ___m_enableVertexGradient;
 
+  /// [SerializeField]
   /// @brief Field m_colorMode, offset: 0x178, size: 0x4, def value: None
   ::TMPro::ColorMode ___m_colorMode;
 
+  /// [SerializeField]
   /// @brief Field m_fontColorGradient, offset: 0x17c, size: 0x40, def value: None
   ::TMPro::VertexGradient ___m_fontColorGradient;
 
+  /// [SerializeField]
   /// @brief Field m_fontColorGradientPreset, offset: 0x1c0, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_ColorGradient> ___m_fontColorGradientPreset;
 
+  /// [SerializeField]
   /// @brief Field m_spriteAsset, offset: 0x1c8, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_SpriteAsset> ___m_spriteAsset;
 
+  /// [SerializeField]
   /// @brief Field m_tintAllSprites, offset: 0x1d0, size: 0x1, def value: None
   bool ___m_tintAllSprites;
 
@@ -3955,18 +3991,22 @@ public:
   /// @brief Field m_spriteColor, offset: 0x1d4, size: 0x4, def value: None
   ::UnityEngine::Color32 ___m_spriteColor;
 
+  /// [SerializeField]
   /// @brief Field m_StyleSheet, offset: 0x1d8, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_StyleSheet> ___m_StyleSheet;
 
   /// @brief Field m_TextStyle, offset: 0x1e0, size: 0x8, def value: None
   ::TMPro::TMP_Style* ___m_TextStyle;
 
+  /// [SerializeField]
   /// @brief Field m_TextStyleHashCode, offset: 0x1e8, size: 0x4, def value: None
   int32_t ___m_TextStyleHashCode;
 
+  /// [SerializeField]
   /// @brief Field m_overrideHtmlColors, offset: 0x1ec, size: 0x1, def value: None
   bool ___m_overrideHtmlColors;
 
+  /// [SerializeField]
   /// @brief Field m_faceColor, offset: 0x1f0, size: 0x4, def value: None
   ::UnityEngine::Color32 ___m_faceColor;
 
@@ -3982,18 +4022,21 @@ public:
   /// @brief Field m_hasEnvMapProperty, offset: 0x208, size: 0x1, def value: None
   bool ___m_hasEnvMapProperty;
 
+  /// [SerializeField]
   /// @brief Field m_fontSize, offset: 0x20c, size: 0x4, def value: None
   float_t ___m_fontSize;
 
   /// @brief Field m_currentFontSize, offset: 0x210, size: 0x4, def value: None
   float_t ___m_currentFontSize;
 
+  /// [SerializeField]
   /// @brief Field m_fontSizeBase, offset: 0x214, size: 0x4, def value: None
   float_t ___m_fontSizeBase;
 
   /// @brief Field m_sizeStack, offset: 0x218, size: 0x20, def value: None
   ::TMPro::TMP_TextProcessingStack_1<float_t> ___m_sizeStack;
 
+  /// [SerializeField]
   /// @brief Field m_fontWeight, offset: 0x238, size: 0x4, def value: None
   ::TMPro::FontWeight ___m_fontWeight;
 
@@ -4003,6 +4046,7 @@ public:
   /// @brief Field m_FontWeightStack, offset: 0x240, size: 0x20, def value: None
   ::TMPro::TMP_TextProcessingStack_1<::TMPro::FontWeight> ___m_FontWeightStack;
 
+  /// [SerializeField]
   /// @brief Field m_enableAutoSizing, offset: 0x260, size: 0x1, def value: None
   bool ___m_enableAutoSizing;
 
@@ -4021,12 +4065,15 @@ public:
   /// @brief Field m_IsAutoSizePointSizeSet, offset: 0x274, size: 0x1, def value: None
   bool ___m_IsAutoSizePointSizeSet;
 
+  /// [SerializeField]
   /// @brief Field m_fontSizeMin, offset: 0x278, size: 0x4, def value: None
   float_t ___m_fontSizeMin;
 
+  /// [SerializeField]
   /// @brief Field m_fontSizeMax, offset: 0x27c, size: 0x4, def value: None
   float_t ___m_fontSizeMax;
 
+  /// [SerializeField]
   /// @brief Field m_fontStyle, offset: 0x280, size: 0x4, def value: None
   ::TMPro::FontStyles ___m_fontStyle;
 
@@ -4039,12 +4086,16 @@ public:
   /// @brief Field m_isUsingBold, offset: 0x292, size: 0x1, def value: None
   bool ___m_isUsingBold;
 
+  /// [SerializeField]
   /// @brief Field m_HorizontalAlignment, offset: 0x294, size: 0x4, def value: None
   ::TMPro::HorizontalAlignmentOptions ___m_HorizontalAlignment;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalAlignment, offset: 0x298, size: 0x4, def value: None
   ::TMPro::VerticalAlignmentOptions ___m_VerticalAlignment;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_lineJustification")]
   /// @brief Field m_textAlignment, offset: 0x29c, size: 0x4, def value: None
   ::TMPro::TextAlignmentOptions ___m_textAlignment;
 
@@ -4057,6 +4108,7 @@ public:
   /// @brief Field m_textContainerLocalCorners, offset: 0x2c8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> ___m_textContainerLocalCorners;
 
+  /// [SerializeField]
   /// @brief Field m_characterSpacing, offset: 0x2d0, size: 0x4, def value: None
   float_t ___m_characterSpacing;
 
@@ -4069,9 +4121,11 @@ public:
   /// @brief Field m_duoSpace, offset: 0x2dc, size: 0x1, def value: None
   bool ___m_duoSpace;
 
+  /// [SerializeField]
   /// @brief Field m_wordSpacing, offset: 0x2e0, size: 0x4, def value: None
   float_t ___m_wordSpacing;
 
+  /// [SerializeField]
   /// @brief Field m_lineSpacing, offset: 0x2e4, size: 0x4, def value: None
   float_t ___m_lineSpacing;
 
@@ -4084,18 +4138,23 @@ public:
   /// @brief Field m_IsDrivenLineSpacing, offset: 0x2f0, size: 0x1, def value: None
   bool ___m_IsDrivenLineSpacing;
 
+  /// [SerializeField]
   /// @brief Field m_lineSpacingMax, offset: 0x2f4, size: 0x4, def value: None
   float_t ___m_lineSpacingMax;
 
+  /// [SerializeField]
   /// @brief Field m_paragraphSpacing, offset: 0x2f8, size: 0x4, def value: None
   float_t ___m_paragraphSpacing;
 
+  /// [SerializeField]
   /// @brief Field m_charWidthMaxAdj, offset: 0x2fc, size: 0x4, def value: None
   float_t ___m_charWidthMaxAdj;
 
   /// @brief Field m_charWidthAdjDelta, offset: 0x300, size: 0x4, def value: None
   float_t ___m_charWidthAdjDelta;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_enableWordWrapping")]
   /// @brief Field m_TextWrappingMode, offset: 0x304, size: 0x4, def value: None
   ::TMPro::TextWrappingModes ___m_TextWrappingMode;
 
@@ -4108,54 +4167,67 @@ public:
   /// @brief Field m_isIgnoringAlignment, offset: 0x30a, size: 0x1, def value: None
   bool ___m_isIgnoringAlignment;
 
+  /// [SerializeField]
   /// @brief Field m_wordWrappingRatios, offset: 0x30c, size: 0x4, def value: None
   float_t ___m_wordWrappingRatios;
 
+  /// [SerializeField]
   /// @brief Field m_overflowMode, offset: 0x310, size: 0x4, def value: None
   ::TMPro::TextOverflowModes ___m_overflowMode;
 
   /// @brief Field m_firstOverflowCharacterIndex, offset: 0x314, size: 0x4, def value: None
   int32_t ___m_firstOverflowCharacterIndex;
 
+  /// [SerializeField]
   /// @brief Field m_linkedTextComponent, offset: 0x318, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ___m_linkedTextComponent;
 
+  /// [SerializeField]
   /// @brief Field parentLinkedComponent, offset: 0x320, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ___parentLinkedComponent;
 
   /// @brief Field m_isTextTruncated, offset: 0x328, size: 0x1, def value: None
   bool ___m_isTextTruncated;
 
+  /// [SerializeField]
   /// @brief Field m_enableKerning, offset: 0x329, size: 0x1, def value: None
   bool ___m_enableKerning;
 
   /// @brief Field m_LastBaseGlyphIndex, offset: 0x32c, size: 0x4, def value: None
   int32_t ___m_LastBaseGlyphIndex;
 
+  /// [SerializeField]
   /// @brief Field m_ActiveFontFeatures, offset: 0x330, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* ___m_ActiveFontFeatures;
 
+  /// [SerializeField]
   /// @brief Field m_enableExtraPadding, offset: 0x338, size: 0x1, def value: None
   bool ___m_enableExtraPadding;
 
+  /// [SerializeField]
   /// @brief Field checkPaddingRequired, offset: 0x339, size: 0x1, def value: None
   bool ___checkPaddingRequired;
 
+  /// [SerializeField]
   /// @brief Field m_isRichText, offset: 0x33a, size: 0x1, def value: None
   bool ___m_isRichText;
 
+  /// [SerializeField]
   /// @brief Field m_EmojiFallbackSupport, offset: 0x33b, size: 0x1, def value: None
   bool ___m_EmojiFallbackSupport;
 
+  /// [SerializeField]
   /// @brief Field m_parseCtrlCharacters, offset: 0x33c, size: 0x1, def value: None
   bool ___m_parseCtrlCharacters;
 
   /// @brief Field m_isOverlay, offset: 0x33d, size: 0x1, def value: None
   bool ___m_isOverlay;
 
+  /// [SerializeField]
   /// @brief Field m_isOrthographic, offset: 0x33e, size: 0x1, def value: None
   bool ___m_isOrthographic;
 
+  /// [SerializeField]
   /// @brief Field m_isCullingEnabled, offset: 0x33f, size: 0x1, def value: None
   bool ___m_isCullingEnabled;
 
@@ -4168,24 +4240,30 @@ public:
   /// @brief Field m_ignoreCulling, offset: 0x342, size: 0x1, def value: None
   bool ___m_ignoreCulling;
 
+  /// [SerializeField]
   /// @brief Field m_horizontalMapping, offset: 0x344, size: 0x4, def value: None
   ::TMPro::TextureMappingOptions ___m_horizontalMapping;
 
+  /// [SerializeField]
   /// @brief Field m_verticalMapping, offset: 0x348, size: 0x4, def value: None
   ::TMPro::TextureMappingOptions ___m_verticalMapping;
 
+  /// [SerializeField]
   /// @brief Field m_uvLineOffset, offset: 0x34c, size: 0x4, def value: None
   float_t ___m_uvLineOffset;
 
   /// @brief Field m_renderMode, offset: 0x350, size: 0x4, def value: None
   ::TMPro::TextRenderFlags ___m_renderMode;
 
+  /// [SerializeField]
   /// @brief Field m_geometrySortingOrder, offset: 0x354, size: 0x4, def value: None
   ::TMPro::VertexSortingOrder ___m_geometrySortingOrder;
 
+  /// [SerializeField]
   /// @brief Field m_IsTextObjectScaleStatic, offset: 0x358, size: 0x1, def value: None
   bool ___m_IsTextObjectScaleStatic;
 
+  /// [SerializeField]
   /// @brief Field m_VertexBufferAutoSizeReduction, offset: 0x359, size: 0x1, def value: None
   bool ___m_VertexBufferAutoSizeReduction;
 
@@ -4201,15 +4279,18 @@ public:
   /// @brief Field m_maxVisibleLines, offset: 0x368, size: 0x4, def value: None
   int32_t ___m_maxVisibleLines;
 
+  /// [SerializeField]
   /// @brief Field m_useMaxVisibleDescender, offset: 0x36c, size: 0x1, def value: None
   bool ___m_useMaxVisibleDescender;
 
+  /// [SerializeField]
   /// @brief Field m_pageToDisplay, offset: 0x370, size: 0x4, def value: None
   int32_t ___m_pageToDisplay;
 
   /// @brief Field m_isNewPage, offset: 0x374, size: 0x1, def value: None
   bool ___m_isNewPage;
 
+  /// [SerializeField]
   /// @brief Field m_margin, offset: 0x378, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_margin;
 
@@ -4234,6 +4315,7 @@ public:
   /// @brief Field m_havePropertiesChanged, offset: 0x3a8, size: 0x1, def value: None
   bool ___m_havePropertiesChanged;
 
+  /// [SerializeField]
   /// @brief Field m_isUsingLegacyAnimationComponent, offset: 0x3a9, size: 0x1, def value: None
   bool ___m_isUsingLegacyAnimationComponent;
 
@@ -4249,6 +4331,7 @@ public:
   /// @brief Field m_PreviousPivotPosition, offset: 0x3c8, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_PreviousPivotPosition;
 
+  /// [CompilerGenerated]
   /// @brief Field <autoSizeTextContainer>k__BackingField, offset: 0x3d0, size: 0x1, def value: None
   bool ____autoSizeTextContainer_k__BackingField;
 
@@ -4258,9 +4341,11 @@ public:
   /// @brief Field m_mesh, offset: 0x3d8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___m_mesh;
 
+  /// [SerializeField]
   /// @brief Field m_isVolumetricText, offset: 0x3e0, size: 0x1, def value: None
   bool ___m_isVolumetricText;
 
+  /// [CompilerGenerated]
   /// @brief Field OnPreRenderText, offset: 0x3e8, size: 0x8, def value: None
   ::System::Action_1<::TMPro::TMP_TextInfo*>* ___OnPreRenderText;
 

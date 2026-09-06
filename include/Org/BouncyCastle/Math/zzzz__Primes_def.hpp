@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\Primes.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/Primes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,13 +100,13 @@ protected:
   constexpr Primes_MROutput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Primes_MROutput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Primes_MROutput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Primes_MROutput(Primes_MROutput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Primes_MROutput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Primes_MROutput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Primes_MROutput(Primes_MROutput const&) = delete;
+  Primes_MROutput(Primes_MROutputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1602 };
@@ -187,13 +187,13 @@ protected:
   constexpr Primes_STOutput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Primes_STOutput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Primes_STOutput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Primes_STOutput(Primes_STOutput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Primes_STOutput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Primes_STOutput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Primes_STOutput(Primes_STOutput const&) = delete;
+  Primes_STOutput(Primes_STOutputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1603 };
@@ -313,13 +313,13 @@ protected:
   constexpr Primes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Primes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Primes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Primes(Primes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Primes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Primes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Primes(Primes const&) = delete;
+  Primes(Primesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1604 };

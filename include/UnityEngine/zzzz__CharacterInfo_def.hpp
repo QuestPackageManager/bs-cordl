@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CharacterInfo.hpp"
+// IWYU pragma private; include "UnityEngine/CharacterInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct CharacterInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::CharacterInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CharacterInfo, "UnityEngine", "CharacterInfo");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.FontStyle, UnityEngine.Rect
 namespace UnityEngine {
 // Is value type: true
@@ -27,9 +28,10 @@ public:
   // @brief default ctor
   constexpr CharacterInfo();
 
-  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name:
-  // "vert", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "style", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "flipped", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "vert", ty: "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "style", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "flipped", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr CharacterInfo(int32_t index, ::UnityEngine::Rect uv, ::UnityEngine::Rect vert, float_t width, int32_t size, ::UnityEngine::FontStyle style, bool flipped) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -41,12 +43,16 @@ public:
   /// @brief Field index, offset: 0x0, size: 0x4, def value: None
   int32_t index;
 
+  /// [Obsolete("CharacterInfo.uv is deprecated. Use uvBottomLeft, uvBottomRight, uvTopRight or uvTopLeft instead.")]
   /// @brief Field uv, offset: 0x4, size: 0x10, def value: None
   ::UnityEngine::Rect uv;
 
+  /// [Obsolete("CharacterInfo.vert is deprecated. Use minX, maxX, minY, maxY instead.")]
   /// @brief Field vert, offset: 0x14, size: 0x10, def value: None
   ::UnityEngine::Rect vert;
 
+  /// [Obsolete("CharacterInfo.width is deprecated. Use advance instead.")]
+  /// [NativeName("advance")]
   /// @brief Field width, offset: 0x24, size: 0x4, def value: None
   float_t width;
 
@@ -56,6 +62,7 @@ public:
   /// @brief Field style, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::FontStyle style;
 
+  /// [Obsolete("CharacterInfo.flipped is deprecated. Use uvBottomLeft, uvBottomRight, uvTopRight or uvTopLeft instead, which will be correct regardless of orientation.")]
   /// @brief Field flipped, offset: 0x30, size: 0x1, def value: None
   bool flipped;
 

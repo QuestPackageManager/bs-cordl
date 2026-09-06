@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\EncodingHelper.hpp"
+// IWYU pragma private; include "System/Text/EncodingHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__EncodingHelper_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -93,7 +93,7 @@ inline ::System::Text::Encoding* System::Text::EncodingHelper::GetDefaultEncodin
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncodingHelper*>(), { "GetDefaultEncoding", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Text::Encoding*>(nullptr, ___internal_method);
 }
-inline ::System::Object* System::Text::EncodingHelper::InvokeI18N(::StringW name, ::ArrayW<::System::Object*> args) {
+inline ::System::Object* System::Text::EncodingHelper::InvokeI18N(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Text::EncodingHelper*>(), { "InvokeI18N", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));

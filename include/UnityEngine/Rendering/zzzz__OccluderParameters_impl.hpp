@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderParameters.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OccluderParameters_def.hpp"
@@ -21,9 +21,10 @@ inline void UnityEngine::Rendering::OccluderParameters::_ctor(int32_t viewInstan
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderParameters>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, viewInstanceID);
 }
-// Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "subviewCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "depthTexture", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "depthSize", ty:
-// "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "depthIsArray", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "subviewCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "depthTexture", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "depthSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "depthIsArray", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::OccluderParameters::OccluderParameters(int32_t viewInstanceID, int32_t subviewCount, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTexture,
                                                                            ::UnityEngine::Vector2Int depthSize, bool depthIsArray) noexcept {
   this->viewInstanceID = viewInstanceID;

@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IBitMaskUtil.hpp"
+// IWYU pragma private; include "GlobalNamespace/IBitMaskUtil.hpp"
+#include "GlobalNamespace/zzzz__IBitMask_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__IBitMaskUtil_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IBitMaskUtil.GetHexDigit
@@ -41,32 +42,42 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(uint64_t)>(&
     return ___internal_method;
   }
 };
-template <typename T> inline int32_t GlobalNamespace::IBitMaskUtil::NumberOfSetBits(T bitMask) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*>)
+inline int32_t GlobalNamespace::IBitMaskUtil::NumberOfSetBits(T bitMask) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IBitMaskUtil*>(), { "NumberOfSetBits", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, bitMask);
 }
-template <typename T> inline ::StringW GlobalNamespace::IBitMaskUtil::ToShortString(T bitMask) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*>)
+inline ::StringW GlobalNamespace::IBitMaskUtil::ToShortString(T bitMask) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IBitMaskUtil*>(), { "ToShortString", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, bitMask);
 }
-template <typename T> inline ::ArrayW<uint8_t> GlobalNamespace::IBitMaskUtil::ToBytes(T bitMask) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*>)
+inline ::ArrayW<uint8_t> GlobalNamespace::IBitMaskUtil::ToBytes(T bitMask) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IBitMaskUtil*>(), { "ToBytes", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, bitMask);
 }
-template <typename T> inline bool GlobalNamespace::IBitMaskUtil::TryParse(::StringW stringSerializedMask, ::by_ref<T> bitMask) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool GlobalNamespace::IBitMaskUtil::TryParse(::StringW stringSerializedMask, ::by_ref<T> bitMask) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IBitMaskUtil*>(), { "TryParse", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, stringSerializedMask, bitMask);
 }
-template <typename T> inline bool GlobalNamespace::IBitMaskUtil::TryParse(::StringW stringSerializedMask, int32_t offset, int32_t length, ::by_ref<T> bitMask) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool GlobalNamespace::IBitMaskUtil::TryParse(::StringW stringSerializedMask, int32_t offset, int32_t length, ::by_ref<T> bitMask) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IBitMaskUtil*>(),
@@ -74,7 +85,9 @@ template <typename T> inline bool GlobalNamespace::IBitMaskUtil::TryParse(::Stri
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, stringSerializedMask, offset, length, bitMask);
 }
-template <typename T> inline T GlobalNamespace::IBitMaskUtil::FromBytes(::ArrayW<uint8_t> bytes, int32_t offset) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IBitMask_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
+inline T GlobalNamespace::IBitMaskUtil::FromBytes(::ArrayW<uint8_t> bytes, int32_t offset) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IBitMaskUtil*>(), { "FromBytes", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));

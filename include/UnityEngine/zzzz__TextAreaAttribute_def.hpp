@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextAreaAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/TextAreaAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class TextAreaAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextAreaAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextAreaAttribute*, "UnityEngine", "TextAreaAttribute");
+// [AttributeUsage((System.AttributeTargets)384, Inherited = true, AllowMultiple = false)]
 // Dependencies UnityEngine.PropertyAttribute
 namespace UnityEngine {
 // Is value type: false
@@ -54,13 +55,13 @@ protected:
   constexpr TextAreaAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextAreaAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextAreaAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextAreaAttribute(TextAreaAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextAreaAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextAreaAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextAreaAttribute(TextAreaAttribute const&) = delete;
+  TextAreaAttribute(TextAreaAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10284 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlWellFormedWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlWellFormedWriter.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_impl.hpp"
 #include "System/Xml/zzzz__WriteState_impl.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"
@@ -25,7 +25,7 @@
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlWellFormedWriter_State::XmlWellFormedWriter_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -64,7 +64,7 @@ constexpr ::System::Xml::XmlWellFormedWriter_State System::Xml::XmlWellFormedWri
 constexpr ::System::Xml::XmlWellFormedWriter_State System::Xml::XmlWellFormedWriter_State::StartFragCont{ static_cast<int32_t>(0x74) };
 constexpr ::System::Xml::XmlWellFormedWriter_State System::Xml::XmlWellFormedWriter_State::StartFragB64{ static_cast<int32_t>(0x75) };
 constexpr ::System::Xml::XmlWellFormedWriter_State System::Xml::XmlWellFormedWriter_State::StartRootLevelAttr{ static_cast<int32_t>(0x76) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlWellFormedWriter_Token::XmlWellFormedWriter_Token(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -252,9 +252,10 @@ inline void System::Xml::XmlWellFormedWriter_ElementScope::WriteFullEndElement(:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlWellFormedWriter_ElementScope>(), { "WriteFullEndElement", {}, { ::i2c::type_of<::System::Xml::XmlRawWriter*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, rawWriter);
 }
-// Ctor Parameters [CppParam { name: "prevNSTop", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "localName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "namespaceUri", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "xmlSpace",
-// ty: "::System::Xml::XmlSpace", modifiers: "", def_value: Some("{}") }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prevNSTop", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "namespaceUri", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "xmlSpace", ty: "::System::Xml::XmlSpace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xmlLang", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlWellFormedWriter_ElementScope::XmlWellFormedWriter_ElementScope(int32_t prevNSTop, ::StringW prefix, ::StringW localName, ::StringW namespaceUri,
                                                                                             ::System::Xml::XmlSpace xmlSpace, ::StringW xmlLang) noexcept {
   this->prevNSTop = prevNSTop;
@@ -266,7 +267,7 @@ constexpr ::System::Xml::XmlWellFormedWriter_ElementScope::XmlWellFormedWriter_E
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlWellFormedWriter_ElementScope::XmlWellFormedWriter_ElementScope() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlWellFormedWriter_NamespaceKind::XmlWellFormedWriter_NamespaceKind(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -318,9 +319,9 @@ inline void System::Xml::XmlWellFormedWriter_Namespace::WriteDecl(::System::Xml:
                                                            { "WriteDecl", {}, { ::i2c::type_of<::System::Xml::XmlWriter*>(), ::i2c::type_of<::System::Xml::XmlRawWriter*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, writer, rawWriter);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "namespaceUri", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "kind", ty: "::System::Xml::XmlWellFormedWriter_NamespaceKind", modifiers: "", def_value: Some("{}") }, CppParam { name: "prevNsIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "namespaceUri", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "kind", ty: "::System::Xml::XmlWellFormedWriter_NamespaceKind", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prevNsIndex",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlWellFormedWriter_Namespace::XmlWellFormedWriter_Namespace(::StringW prefix, ::StringW namespaceUri, ::System::Xml::XmlWellFormedWriter_NamespaceKind kind,
                                                                                       int32_t prevNsIndex) noexcept {
   this->prefix = prefix;
@@ -369,8 +370,9 @@ inline bool System::Xml::XmlWellFormedWriter_AttrName::IsDuplicate(::StringW pre
                                                            { "IsDuplicate", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, prefix, localName, namespaceUri);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "namespaceUri", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "prev", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "namespaceUri", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prev", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlWellFormedWriter_AttrName::XmlWellFormedWriter_AttrName(::StringW prefix, ::StringW namespaceUri, ::StringW localName, int32_t prev) noexcept {
   this->prefix = prefix;
   this->namespaceUri = namespaceUri;
@@ -379,7 +381,7 @@ constexpr ::System::Xml::XmlWellFormedWriter_AttrName::XmlWellFormedWriter_AttrN
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlWellFormedWriter_AttrName::XmlWellFormedWriter_AttrName() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlWellFormedWriter_SpecialAttribute::XmlWellFormedWriter_SpecialAttribute(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -390,7 +392,7 @@ constexpr ::System::Xml::XmlWellFormedWriter_SpecialAttribute System::Xml::XmlWe
 constexpr ::System::Xml::XmlWellFormedWriter_SpecialAttribute System::Xml::XmlWellFormedWriter_SpecialAttribute::PrefixedXmlns{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::XmlWellFormedWriter_SpecialAttribute System::Xml::XmlWellFormedWriter_SpecialAttribute::XmlSpace{ static_cast<int32_t>(0x3) };
 constexpr ::System::Xml::XmlWellFormedWriter_SpecialAttribute System::Xml::XmlWellFormedWriter_SpecialAttribute::XmlLang{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::AttributeValueCache_XmlWellFormedWriter_ItemType::AttributeValueCache_XmlWellFormedWriter_ItemType(int32_t value__) noexcept {
   this->value__ = value__;
 }

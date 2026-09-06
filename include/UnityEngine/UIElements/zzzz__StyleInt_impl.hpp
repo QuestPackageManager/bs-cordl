@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleInt.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleInt.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleInt_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -233,8 +233,8 @@ constexpr UnityEngine::UIElements::StyleInt::operator ::System::IEquatable_1<::U
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleInt>* UnityEngine::UIElements::StyleInt::i___System__IEquatable_1___UnityEngine__UIElements__StyleInt_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleInt>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Value", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleInt::StyleInt(int32_t m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept {
   this->m_Value = m_Value;
   this->m_Keyword = m_Keyword;

@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMPro_ExtensionMethods.hpp"
+// IWYU pragma private; include "TMPro/TMPro_ExtensionMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMPro_ExtensionMethods_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
@@ -277,7 +278,9 @@ inline ::StringW TMPro::TMPro_ExtensionMethods::IntToString(::ArrayW<int32_t> un
       (::i2c::find_method(::i2c::class_of<::TMPro::TMPro_ExtensionMethods*>(), { "IntToString", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, unicodes, start, length);
 }
-template <typename T> inline int32_t TMPro::TMPro_ExtensionMethods::FindInstanceID(::System::Collections::Generic::List_1<T>* list, T target) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline int32_t TMPro::TMPro_ExtensionMethods::FindInstanceID(::System::Collections::Generic::List_1<T>* list, T target) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMPro_ExtensionMethods*>(),
                                                            { "FindInstanceID", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>(), ::i2c::type_of<T>() } })));

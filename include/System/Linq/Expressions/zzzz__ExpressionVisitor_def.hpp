@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\ExpressionVisitor.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/ExpressionVisitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Linq/Expressions/zzzz__Expression_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -92,7 +93,7 @@ class ExpressionVisitor;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::ExpressionVisitor*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::ExpressionVisitor*, "System.Linq.Expressions", "ExpressionVisitor");
-// Dependencies System.Object
+// Dependencies System.Linq.Expressions.Expression, System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: System.Linq.Expressions.ExpressionVisitor
@@ -122,10 +123,14 @@ public:
   inline ::System::Linq::Expressions::Expression* Visit(::System::Linq::Expressions::Expression* node);
 
   /// @brief Method VisitAndConvert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* VisitAndConvert(::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* nodes, ::StringW callerName);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Linq::Expressions::Expression*>)
+  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* VisitAndConvert(::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* nodes, ::StringW callerName);
 
   /// @brief Method VisitAndConvert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T VisitAndConvert(T node, ::StringW callerName);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Linq::Expressions::Expression*>)
+  inline T VisitAndConvert(T node, ::StringW callerName);
 
   /// @brief Method VisitArguments, addr 0x5f845b0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Expression*> VisitArguments(::System::Linq::Expressions::IArgumentProvider* nodes);
@@ -205,13 +210,13 @@ protected:
   constexpr ExpressionVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionVisitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExpressionVisitor(ExpressionVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExpressionVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionVisitor(ExpressionVisitor const&) = delete;
+  ExpressionVisitor(ExpressionVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16167 };

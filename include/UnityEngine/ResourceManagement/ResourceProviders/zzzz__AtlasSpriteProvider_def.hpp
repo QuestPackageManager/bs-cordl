@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\AtlasSpriteProvider.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/AtlasSpriteProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class AtlasSpriteProvider;
 // Write type traits
 MARK_REF_T(::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "AtlasSpriteProvider");
+// [DisplayName("Sprites from Atlases Provider")]
 // Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
@@ -45,13 +46,13 @@ protected:
   constexpr AtlasSpriteProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AtlasSpriteProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AtlasSpriteProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AtlasSpriteProvider(AtlasSpriteProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AtlasSpriteProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AtlasSpriteProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AtlasSpriteProvider(AtlasSpriteProvider const&) = delete;
+  AtlasSpriteProvider(AtlasSpriteProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18771 };

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MeshColliderCookingOptions.hpp"
+// IWYU pragma private; include "UnityEngine/MeshColliderCookingOptions.hpp"
 #include "UnityEngine/zzzz__MeshColliderCookingOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::MeshColliderCookingOptions::MeshColliderCookingOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }

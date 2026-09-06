@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Screen.hpp"
+// IWYU pragma private; include "UnityEngine/Screen.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Screen_def.hpp"
 #include "UnityEngine/Bindings/zzzz__BlittableArrayWrapper_def.hpp"
@@ -308,7 +308,7 @@ inline void UnityEngine::Screen::SetResolution(int32_t width, int32_t height, ::
           { "SetResolution", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::FullScreenMode>(), ::i2c::type_of<::UnityEngine::RefreshRate>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, width, height, fullscreenMode, preferredRefreshRate);
 }
-inline void UnityEngine::Screen::SetResolution(int32_t width, int32_t height, bool fullscreen, int32_t preferredRefreshRate) {
+inline void UnityEngine::Screen::SetResolution(int32_t width, int32_t height, bool fullscreen, /* [DefaultValue("0")] */ int32_t preferredRefreshRate) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Screen*>(),
                                                            { "SetResolution", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));

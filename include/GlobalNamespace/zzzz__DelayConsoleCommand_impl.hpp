@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DelayConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/DelayConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DelayConsoleCommand_def.hpp"
@@ -255,6 +255,7 @@ inline ::System::Object* GlobalNamespace::DelayConsoleCommand__CoroutineControls
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9* GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9*>(__1__state));
 }

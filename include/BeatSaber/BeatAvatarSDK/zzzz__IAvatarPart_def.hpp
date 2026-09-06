@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\IAvatarPart.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/IAvatarPart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,15 +23,15 @@ public:
 
   __declspec(property(get = get_localizationKey)) ::StringW localizationKey;
 
-  /// @brief Method get_id, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_localizationKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_localizationKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_localizationKey();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAvatarPart", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAvatarPart", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAvatarPart(IAvatarPart const&) = delete;
+  IAvatarPart(IAvatarPartconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22346 };

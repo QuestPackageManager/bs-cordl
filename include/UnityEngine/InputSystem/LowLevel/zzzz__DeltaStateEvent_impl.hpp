@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\DeltaStateEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/DeltaStateEvent.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeltaStateEvent_def.hpp"
@@ -10,7 +10,7 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer::DeltaStateEvent__stateData_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -197,9 +197,9 @@ constexpr UnityEngine::InputSystem::LowLevel::DeltaStateEvent::operator ::UnityE
 constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* UnityEngine::InputSystem::LowLevel::DeltaStateEvent::i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: Some("{}") }, CppParam { name: "stateFormat", ty:
-// "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: Some("{}") }, CppParam { name: "stateOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "stateData", ty: "::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stateFormat", ty:
+// "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stateOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "stateData", ty: "::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::DeltaStateEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, ::UnityEngine::InputSystem::Utilities::FourCC stateFormat,
                                                                                  uint32_t stateOffset,
                                                                                  ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer stateData) noexcept {

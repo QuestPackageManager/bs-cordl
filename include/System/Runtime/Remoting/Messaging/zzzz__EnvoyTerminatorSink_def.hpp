@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\EnvoyTerminatorSink.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/EnvoyTerminatorSink.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,13 +59,13 @@ protected:
   constexpr EnvoyTerminatorSink();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvoyTerminatorSink", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvoyTerminatorSink", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvoyTerminatorSink(EnvoyTerminatorSink&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvoyTerminatorSink", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvoyTerminatorSink", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvoyTerminatorSink(EnvoyTerminatorSink const&) = delete;
+  EnvoyTerminatorSink(EnvoyTerminatorSinkconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3179 };

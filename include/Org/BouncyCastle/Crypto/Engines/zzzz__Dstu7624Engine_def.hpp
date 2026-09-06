@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\Dstu7624Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/Dstu7624Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -252,13 +252,13 @@ protected:
   constexpr Dstu7624Engine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dstu7624Engine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dstu7624Engine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dstu7624Engine(Dstu7624Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dstu7624Engine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dstu7624Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dstu7624Engine(Dstu7624Engine const&) = delete;
+  Dstu7624Engine(Dstu7624Engineconst&) = delete;
 
   /// @brief Field ROUNDS_128 offset 0xffffffff size 0x4
   static constexpr int32_t ROUNDS_128{ static_cast<int32_t>(0xa) };

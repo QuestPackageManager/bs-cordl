@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLevelLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,7 +100,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerLevelLoader_MultiplayerBeatmapLoaderState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerLevelLoader_MultiplayerBeatmapLoaderState(int32_t value__) noexcept;
 
   /// @brief Field LoadingBeatmap value: I32(1)
@@ -129,6 +129,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeat
 static_assert(sizeof(::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -142,6 +143,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a10f20, size 0x4dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a113fc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -152,11 +154,12 @@ public:
   // @brief default ctor
   constexpr MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::MultiplayerLevelLoader*", modifiers: "", def_value: None }, CppParam { name: "gameplaySetupData", ty: "::GlobalNamespace::ILevelGameplaySetupData*", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::MultiplayerLevelLoader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "gameplaySetupData", ty: "::GlobalNamespace::ILevelGameplaySetupData*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21(int32_t __1__state,
                                                                     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __t__builder,
                                                                     ::GlobalNamespace::MultiplayerLevelLoader* __4__this, ::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData,
@@ -264,6 +267,7 @@ public:
   /// @brief Method ClearLoading, addr 0x5a10c64, size 0x48, virtual false, abstract: false, final false
   inline void ClearLoading();
 
+  /// [AsyncStateMachine(typeof(MultiplayerLevelLoader::<LoadBeatmapLevelDataAsync>d__21))]
   /// @brief Method LoadBeatmapLevelDataAsync, addr 0x5a10b70, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData);
 
@@ -353,18 +357,22 @@ public:
   /// @brief Method .ctor, addr 0x5a10f1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_countdownFinishedEvent, addr 0x5a10954, size 0xc0, virtual false, abstract: false, final false
   inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_stillDownloadingSongEvent, addr 0x5a107fc, size 0xac, virtual false, abstract: false, final false
   inline void add_stillDownloadingSongEvent(::System::Action* value);
 
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_countdownFinishedEvent, addr 0x5a10a14, size 0xc0, virtual false, abstract: false, final false
   inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_stillDownloadingSongEvent, addr 0x5a108a8, size 0xac, virtual false, abstract: false, final false
   inline void remove_stillDownloadingSongEvent(::System::Action* value);
 
@@ -374,29 +382,34 @@ protected:
   constexpr MultiplayerLevelLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLevelLoader(MultiplayerLevelLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLevelLoader(MultiplayerLevelLoader const&) = delete;
+  MultiplayerLevelLoader(MultiplayerLevelLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6389 };
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsEntitlementModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsEntitlementModel* ____beatmapLevelsEntitlementModel;
 
+  /// [CompilerGenerated]
   /// @brief Field stillDownloadingSongEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___stillDownloadingSongEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field countdownFinishedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* ___countdownFinishedEvent;
 

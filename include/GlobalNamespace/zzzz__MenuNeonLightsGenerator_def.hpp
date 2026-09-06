@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MenuNeonLightsGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MenuNeonLightsGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class MenuNeonLightsGenerator;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MenuNeonLightsGenerator*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MenuNeonLightsGenerator*, "", "MenuNeonLightsGenerator");
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -147,50 +148,62 @@ protected:
   constexpr MenuNeonLightsGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MenuNeonLightsGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuNeonLightsGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuNeonLightsGenerator(MenuNeonLightsGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MenuNeonLightsGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MenuNeonLightsGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MenuNeonLightsGenerator(MenuNeonLightsGenerator const&) = delete;
+  MenuNeonLightsGenerator(MenuNeonLightsGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5606 };
 
+  /// [SerializeField]
   /// @brief Field _generate, offset: 0x20, size: 0x1, def value: None
   bool ____generate;
 
+  /// [SerializeField]
   /// @brief Field _radius, offset: 0x24, size: 0x4, def value: None
   float_t ____radius;
 
+  /// [SerializeField]
   /// @brief Field _angle, offset: 0x28, size: 0x4, def value: None
   float_t ____angle;
 
+  /// [SerializeField]
   /// @brief Field _numberOfElements, offset: 0x2c, size: 0x4, def value: None
   int32_t ____numberOfElements;
 
+  /// [SerializeField]
   /// @brief Field _intensityCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____intensityCurve;
 
+  /// [SerializeField]
   /// @brief Field _intensityMultiplier, offset: 0x38, size: 0x4, def value: None
   float_t ____intensityMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _lengthCurve, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____lengthCurve;
 
+  /// [SerializeField]
   /// @brief Field _lengthMultiplier, offset: 0x48, size: 0x4, def value: None
   float_t ____lengthMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _widthCurve, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____widthCurve;
 
+  /// [SerializeField]
   /// @brief Field _widthMultiplier, offset: 0x58, size: 0x4, def value: None
   float_t ____widthMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _neonLightPrefab, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____neonLightPrefab;
 
+  /// [SerializeField]
   /// @brief Field _afterSpawnRotation, offset: 0x68, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____afterSpawnRotation;
 

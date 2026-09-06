@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseEventBase_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseEventBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,15 +43,19 @@ struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class MouseEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class MouseEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::MouseEventBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::MouseEventBase_1, "UnityEngine.UIElements", "MouseEventBase`1");
+// [EventCategory((UnityEngine.UIElements.EventCategory)1)]
 // Dependencies UnityEngine.EventModifiers, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.MouseEventBase`1<T>
 class CORDL_TYPE MouseEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
@@ -153,15 +157,19 @@ public:
   /// @brief Method PreDispatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IPointerEvent* UnityEngine_UIElements_IMouseEventInternal_get_sourcePointerEvent();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IMouseEventInternal_get_triggeredByOS();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IMouseEventInternal_set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent* value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IMouseEventInternal_set_triggeredByOS(bool value);
 
@@ -228,27 +236,34 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_button, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_button();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clickCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_clickCount();
 
   /// @brief Method get_currentTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* get_currentTarget();
 
+  /// [CompilerGenerated]
   /// @brief Method get_localMousePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_localMousePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mouseDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_mouseDelta();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mousePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_mousePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pressedButtons, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_pressedButtons();
 
@@ -261,27 +276,34 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IPointerOrMouseEvent"
   constexpr ::UnityEngine::UIElements::IPointerOrMouseEvent* i___UnityEngine__UIElements__IPointerOrMouseEvent() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_button, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_button(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clickCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_clickCount(int32_t value);
 
   /// @brief Method set_currentTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_currentTarget(::UnityEngine::UIElements::IEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_localMousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_localMousePosition(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_modifiers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mouseDelta, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_mouseDelta(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_mousePosition(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pressedButtons, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_pressedButtons(int32_t value);
 
@@ -291,41 +313,59 @@ protected:
   constexpr MouseEventBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseEventBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEventBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseEventBase_1(MouseEventBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseEventBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEventBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseEventBase_1(MouseEventBase_1 const&) = delete;
+  MouseEventBase_1(MouseEventBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4488 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <modifiers>k__BackingField, offset: 0x64, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <mousePosition>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____mousePosition_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <localMousePosition>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____localMousePosition_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <mouseDelta>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____mouseDelta_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <clickCount>k__BackingField, offset: 0x80, size: 0x4, def value: None
   int32_t ____clickCount_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <button>k__BackingField, offset: 0x84, size: 0x4, def value: None
   int32_t ____button_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <pressedButtons>k__BackingField, offset: 0x88, size: 0x4, def value: None
   int32_t ____pressedButtons_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField, offset: 0x8c, size: 0x1, def value: None
   bool ____UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPointerEvent* ____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
 

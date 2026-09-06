@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Custom\GM\SM2P256V1Curve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/GM/SM2P256V1Curve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,13 +105,13 @@ protected:
   constexpr SM2P256V1Curve_SM2P256V1LookupTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Curve_SM2P256V1LookupTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Curve_SM2P256V1LookupTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SM2P256V1Curve_SM2P256V1LookupTable(SM2P256V1Curve_SM2P256V1LookupTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Curve_SM2P256V1LookupTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Curve_SM2P256V1LookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SM2P256V1Curve_SM2P256V1LookupTable(SM2P256V1Curve_SM2P256V1LookupTable const&) = delete;
+  SM2P256V1Curve_SM2P256V1LookupTable(SM2P256V1Curve_SM2P256V1LookupTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1377 };
@@ -220,13 +220,13 @@ protected:
   constexpr SM2P256V1Curve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Curve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Curve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SM2P256V1Curve(SM2P256V1Curve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Curve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SM2P256V1Curve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SM2P256V1Curve(SM2P256V1Curve const&) = delete;
+  SM2P256V1Curve(SM2P256V1Curveconst&) = delete;
 
   /// @brief Field SM2P256V1_DEFAULT_COORDS offset 0xffffffff size 0x4
   static constexpr int32_t SM2P256V1_DEFAULT_COORDS{ static_cast<int32_t>(0x2) };

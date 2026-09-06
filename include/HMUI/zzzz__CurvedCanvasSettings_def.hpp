@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\CurvedCanvasSettings.hpp"
+// IWYU pragma private; include "HMUI/CurvedCanvasSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class CurvedCanvasSettings;
 // Write type traits
 MARK_REF_T(::HMUI::CurvedCanvasSettings*);
 DEFINE_IL2CPP_CLASS(::HMUI::CurvedCanvasSettings*, "HMUI", "CurvedCanvasSettings");
+// [RequireComponent(typeof(UnityEngine.Canvas))]
+// [RequireComponent(typeof(UnityEngine.CanvasRenderer))]
 // Dependencies UnityEngine.UI.Graphic
 namespace HMUI {
 // Is value type: false
@@ -81,13 +83,13 @@ protected:
   constexpr CurvedCanvasSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurvedCanvasSettings(CurvedCanvasSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurvedCanvasSettings(CurvedCanvasSettings const&) = delete;
+  CurvedCanvasSettings(CurvedCanvasSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19036 };
@@ -95,9 +97,11 @@ public:
   /// @brief Field kMaxElementWidth offset 0xffffffff size 0x4
   static constexpr float_t kMaxElementWidth{ static_cast<float_t>(10.0f) };
 
+  /// [SerializeField]
   /// @brief Field _radius, offset: 0xa4, size: 0x4, def value: None
   float_t ____radius;
 
+  /// [SerializeField]
   /// @brief Field _useFlatInEditMode, offset: 0xa8, size: 0x1, def value: None
   bool ____useFlatInEditMode;
 

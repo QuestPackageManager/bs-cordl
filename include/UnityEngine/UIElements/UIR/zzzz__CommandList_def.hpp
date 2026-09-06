@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\CommandList.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/CommandList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,19 +20,25 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct DrawBufferRange;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NativeList_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct SerializedCommand;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class Utility_GPUBuffer_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class Utility_GPUBuffer_1;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
@@ -187,12 +193,14 @@ public:
   /// @brief Method .ctor, addr 0x6cd41bc, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* owner, ::System::IntPtr vertexDecl, ::System::IntPtr stencilState);
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cd4c48, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cd4c50, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -202,13 +210,13 @@ protected:
   constexpr CommandList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandList(CommandList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandList(CommandList const&) = delete;
+  CommandList(CommandListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5282 };
@@ -240,6 +248,8 @@ public:
   /// @brief Field m_DrawRanges, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::NativeList_1<::UnityEngine::UIElements::UIR::DrawBufferRange>* ___m_DrawRanges;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x58, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

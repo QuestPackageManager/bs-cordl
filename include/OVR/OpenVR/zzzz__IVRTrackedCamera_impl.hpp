@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRTrackedCamera.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRTrackedCamera.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRTrackedCamera_def.hpp"
 #include "OVR/OpenVR/zzzz__CameraVideoStreamFrameHeader_t_def.hpp"
@@ -1051,17 +1051,18 @@ inline ::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamTextureGL* OVR::OpenVR
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamTextureGL::IVRTrackedCamera__ReleaseVideoStreamTextureGL() {}
-// Ctor Parameters [CppParam { name: "GetCameraErrorNameFromEnum", ty: "::OVR::OpenVR::IVRTrackedCamera__GetCameraErrorNameFromEnum*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "HasCamera", ty: "::OVR::OpenVR::IVRTrackedCamera__HasCamera*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetCameraFrameSize", ty:
-// "::OVR::OpenVR::IVRTrackedCamera__GetCameraFrameSize*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetCameraIntrinsics", ty: "::OVR::OpenVR::IVRTrackedCamera__GetCameraIntrinsics*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "GetCameraProjection", ty: "::OVR::OpenVR::IVRTrackedCamera__GetCameraProjection*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "AcquireVideoStreamingService", ty: "::OVR::OpenVR::IVRTrackedCamera__AcquireVideoStreamingService*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ReleaseVideoStreamingService", ty:
-// "::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamingService*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetVideoStreamFrameBuffer", ty:
-// "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamFrameBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetVideoStreamTextureSize", ty:
-// "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureSize*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetVideoStreamTextureD3D11", ty:
-// "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureD3D11*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetVideoStreamTextureGL", ty:
-// "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureGL*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ReleaseVideoStreamTextureGL", ty:
-// "::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamTextureGL*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "GetCameraErrorNameFromEnum", ty: "::OVR::OpenVR::IVRTrackedCamera__GetCameraErrorNameFromEnum*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "HasCamera", ty: "::OVR::OpenVR::IVRTrackedCamera__HasCamera*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetCameraFrameSize", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__GetCameraFrameSize*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetCameraIntrinsics", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__GetCameraIntrinsics*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetCameraProjection", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__GetCameraProjection*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AcquireVideoStreamingService", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__AcquireVideoStreamingService*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ReleaseVideoStreamingService", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamingService*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetVideoStreamFrameBuffer", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamFrameBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetVideoStreamTextureSize", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureSize*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetVideoStreamTextureD3D11", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureD3D11*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetVideoStreamTextureGL", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureGL*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ReleaseVideoStreamTextureGL", ty:
+// "::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamTextureGL*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IVRTrackedCamera::IVRTrackedCamera(
     ::OVR::OpenVR::IVRTrackedCamera__GetCameraErrorNameFromEnum* GetCameraErrorNameFromEnum, ::OVR::OpenVR::IVRTrackedCamera__HasCamera* HasCamera,
     ::OVR::OpenVR::IVRTrackedCamera__GetCameraFrameSize* GetCameraFrameSize, ::OVR::OpenVR::IVRTrackedCamera__GetCameraIntrinsics* GetCameraIntrinsics,

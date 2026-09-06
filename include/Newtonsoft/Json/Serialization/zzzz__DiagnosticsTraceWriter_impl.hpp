@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\DiagnosticsTraceWriter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DiagnosticsTraceWriter.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DiagnosticsTraceWriter_def.hpp"
@@ -103,7 +103,7 @@ inline ::System::Diagnostics::TraceEventType Newtonsoft::Json::Serialization::Di
                                                                                          { "GetTraceEventType", {}, { ::i2c::type_of<::System::Diagnostics::TraceLevel>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::TraceEventType>(this, ___internal_method, level);
 }
-inline void Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex) {
+inline void Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::Trace(::System::Diagnostics::TraceLevel level, ::StringW message, /* [Nullable(2)] */ ::System::Exception* ex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter*>(),
                                               { "Trace", {}, { ::i2c::type_of<::System::Diagnostics::TraceLevel>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Exception*>() } })));

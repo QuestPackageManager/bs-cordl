@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeReferenceDispose.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeReferenceDispose.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct NativeReferenceDispose;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeReferenceDispose);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeReferenceDispose, "Unity.Collections", "NativeReferenceDispose");
+// [NativeContainer]
 // Dependencies Unity.Collections.AllocatorManager::AllocatorHandle
 namespace Unity::Collections {
 // Is value type: true
@@ -27,8 +28,8 @@ public:
   // @brief default ctor
   constexpr NativeReferenceDispose();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr NativeReferenceDispose(void* m_Data, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -37,6 +38,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Data, offset: 0x0, size: 0x8, def value: None
   void* m_Data;
 

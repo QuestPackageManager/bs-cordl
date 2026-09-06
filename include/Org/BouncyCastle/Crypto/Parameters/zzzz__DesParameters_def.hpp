@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\DesParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/DesParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,13 +59,13 @@ protected:
   constexpr DesParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesParameters(DesParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesParameters(DesParameters const&) = delete;
+  DesParameters(DesParametersconst&) = delete;
 
   /// @brief Field DesKeyLength offset 0xffffffff size 0x4
   static constexpr int32_t DesKeyLength{ static_cast<int32_t>(0x8) };

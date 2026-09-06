@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MusicPackPromoBanner.hpp"
+// IWYU pragma private; include "GlobalNamespace/MusicPackPromoBanner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,9 +117,11 @@ public:
   /// @brief Method get_promoButtonText, addr 0x5a24f44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_promoButtonText();
 
+  /// [CompilerGenerated]
   /// @brief Method get_promoInfo, addr 0x5a24f34, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* get_promoInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method set_promoInfo, addr 0x5a24f3c, size 0x8, virtual false, abstract: false, final false
   inline void set_promoInfo(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* value);
 
@@ -129,13 +131,13 @@ protected:
   constexpr MusicPackPromoBanner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MusicPackPromoBanner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MusicPackPromoBanner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MusicPackPromoBanner(MusicPackPromoBanner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MusicPackPromoBanner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MusicPackPromoBanner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MusicPackPromoBanner(MusicPackPromoBanner const&) = delete;
+  MusicPackPromoBanner(MusicPackPromoBannerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6490 };
@@ -146,21 +148,27 @@ public:
   /// @brief Field kPlayNow offset 0xffffffff size 0x8
   static constexpr ::ConstString kPlayNow{ u"PROMO_BANNER_PLAY_NOW_LABEL" };
 
+  /// [SerializeField]
   /// @brief Field _promoBannerGo, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____promoBannerGo;
 
+  /// [SerializeField]
   /// @brief Field _loadingIndicator, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____loadingIndicator;
 
+  /// [SerializeField]
   /// @brief Field _promoText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____promoText;
 
+  /// [SerializeField]
   /// @brief Field _backgroundImage, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
+  /// [SerializeField]
   /// @brief Field _goButton, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____goButton;
 
+  /// [CompilerGenerated]
   /// @brief Field <promoInfo>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* ____promoInfo_k__BackingField;
 

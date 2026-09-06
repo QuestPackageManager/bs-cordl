@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ITextSelection.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ITextSelection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,81 +50,81 @@ public:
 
   __declspec(property(get = get_tripleClickSelectsLine, put = set_tripleClickSelectsLine)) bool tripleClickSelectsLine;
 
-  /// @brief Method HasSelection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HasSelection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasSelection();
 
-  /// @brief Method SelectAll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SelectAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SelectAll();
 
-  /// @brief Method SelectNone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SelectNone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SelectNone();
 
-  /// @brief Method get_cursorColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_cursorColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_cursorColor();
 
-  /// @brief Method get_cursorIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_cursorIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_cursorIndex();
 
-  /// @brief Method get_cursorPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_cursorPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 get_cursorPosition();
 
-  /// @brief Method get_cursorWidth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_cursorWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_cursorWidth();
 
-  /// @brief Method get_doubleClickSelectsWord, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_doubleClickSelectsWord, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_doubleClickSelectsWord();
 
-  /// @brief Method get_isSelectable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isSelectable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isSelectable();
 
-  /// @brief Method get_lineHeightAtCursorPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_lineHeightAtCursorPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_lineHeightAtCursorPosition();
 
-  /// @brief Method get_selectAllOnFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectAllOnFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_selectAllOnFocus();
 
-  /// @brief Method get_selectAllOnMouseUp, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectAllOnMouseUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_selectAllOnMouseUp();
 
-  /// @brief Method get_selectIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_selectIndex();
 
-  /// @brief Method get_selectionColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_selectionColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_selectionColor();
 
-  /// @brief Method get_tripleClickSelectsLine, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_tripleClickSelectsLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_tripleClickSelectsLine();
 
-  /// @brief Method set_cursorColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_cursorColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_cursorColor(::UnityEngine::Color value);
 
-  /// @brief Method set_cursorIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_cursorIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_cursorIndex(int32_t value);
 
-  /// @brief Method set_doubleClickSelectsWord, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_doubleClickSelectsWord, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_doubleClickSelectsWord(bool value);
 
-  /// @brief Method set_isSelectable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_isSelectable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isSelectable(bool value);
 
-  /// @brief Method set_selectAllOnFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_selectAllOnFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_selectAllOnFocus(bool value);
 
-  /// @brief Method set_selectAllOnMouseUp, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_selectAllOnMouseUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_selectAllOnMouseUp(bool value);
 
-  /// @brief Method set_selectIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_selectIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_selectIndex(int32_t value);
 
-  /// @brief Method set_selectionColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_selectionColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_selectionColor(::UnityEngine::Color value);
 
-  /// @brief Method set_tripleClickSelectsLine, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_tripleClickSelectsLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_tripleClickSelectsLine(bool value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITextSelection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITextSelection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITextSelection(ITextSelection const&) = delete;
+  ITextSelection(ITextSelectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5104 };

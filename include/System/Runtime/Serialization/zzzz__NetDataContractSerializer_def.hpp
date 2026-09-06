@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\NetDataContractSerializer.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/NetDataContractSerializer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -204,13 +204,13 @@ protected:
   constexpr NetDataContractSerializer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetDataContractSerializer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetDataContractSerializer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetDataContractSerializer(NetDataContractSerializer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetDataContractSerializer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetDataContractSerializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetDataContractSerializer(NetDataContractSerializer const&) = delete;
+  NetDataContractSerializer(NetDataContractSerializerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17057 };

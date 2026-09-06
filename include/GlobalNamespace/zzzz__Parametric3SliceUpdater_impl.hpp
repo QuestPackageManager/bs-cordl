@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Parametric3SliceUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace/Parametric3SliceUpdater.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Parametric3SliceUpdater_def.hpp"
 #include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"

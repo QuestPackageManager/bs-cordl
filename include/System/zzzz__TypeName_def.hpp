@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TypeName.hpp"
+// IWYU pragma private; include "System/TypeName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
   constexpr operator ::System::IEquatable_1<::System::TypeName*>*() noexcept;
 
-  /// @brief Method get_DisplayName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DisplayName();
 
   /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
   constexpr ::System::IEquatable_1<::System::TypeName*>* i___System__IEquatable_1___System__TypeName__() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeName(TypeName const&) = delete;
+  TypeName(TypeNameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2637 };

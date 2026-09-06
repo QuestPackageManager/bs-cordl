@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RaycastHit.hpp"
+// IWYU pragma private; include "UnityEngine/RaycastHit.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
@@ -357,9 +357,10 @@ inline void UnityEngine::RaycastHit::CalculateRaycastTexCoord_Injected(int32_t c
                                                                ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, colliderInstanceID, uv, pos, face, textcoord, ret);
 }
-// Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_FaceID", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_UV", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FaceID", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Distance", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UV", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Collider", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RaycastHit::RaycastHit(::UnityEngine::Vector3 m_Point, ::UnityEngine::Vector3 m_Normal, uint32_t m_FaceID, float_t m_Distance, ::UnityEngine::Vector2 m_UV,
                                                 int32_t m_Collider) noexcept {
   this->m_Point = m_Point;

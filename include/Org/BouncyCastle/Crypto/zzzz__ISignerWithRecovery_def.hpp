@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\ISignerWithRecovery.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/ISignerWithRecovery.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,21 +26,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method GetRecoveredMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetRecoveredMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> GetRecoveredMessage();
 
-  /// @brief Method HasFullMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HasFullMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasFullMessage();
 
-  /// @brief Method UpdateWithRecoveredMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateWithRecoveredMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateWithRecoveredMessage(::ArrayW<uint8_t> signature);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISignerWithRecovery", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISignerWithRecovery", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISignerWithRecovery(ISignerWithRecovery const&) = delete;
+  ISignerWithRecovery(ISignerWithRecoveryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1145 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Ocsp\BasicOcspResp.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Ocsp/BasicOcspResp.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,6 +96,7 @@ public:
   /// @brief Method GetHashCode, addr 0x35731d4, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [Obsolete("RespData class is no longer required as all functionality is available on this class")]
   /// @brief Method GetResponseData, addr 0x357243c, size 0x54, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::RespData* GetResponseData();
 
@@ -155,13 +156,13 @@ protected:
   constexpr BasicOcspResp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicOcspResp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicOcspResp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicOcspResp(BasicOcspResp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicOcspResp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicOcspResp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicOcspResp(BasicOcspResp const&) = delete;
+  BasicOcspResp(BasicOcspRespconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1607 };

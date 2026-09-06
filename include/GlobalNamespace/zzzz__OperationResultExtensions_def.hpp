@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OperationResultExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/OperationResultExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class OperationResultExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OperationResultExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OperationResultExtensions*, "", "OperationResultExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -22,12 +23,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE OperationResultExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method IsError, addr 0x5ede1b4, size 0x8, virtual false, abstract: false, final false
   static inline bool IsError(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
+  /// [Extension]
   /// @brief Method IsSuccess, addr 0x5ede1a8, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
+  /// [Extension]
+  /// [Obsolete("There are no OperationResults that are considered warnings so this method will always return False.")]
   /// @brief Method IsWarning, addr 0x5ede1bc, size 0xc, virtual false, abstract: false, final false
   static inline bool IsWarning(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
@@ -37,13 +42,13 @@ protected:
   constexpr OperationResultExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OperationResultExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OperationResultExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OperationResultExtensions(OperationResultExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OperationResultExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OperationResultExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OperationResultExtensions(OperationResultExtensions const&) = delete;
+  OperationResultExtensions(OperationResultExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7727 };

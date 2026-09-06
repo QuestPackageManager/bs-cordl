@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\_AndroidJNIHelper.hpp"
+// IWYU pragma private; include "UnityEngine/_AndroidJNIHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ class _AndroidJNIHelper;
 // Write type traits
 MARK_REF_T(::UnityEngine::_AndroidJNIHelper*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::_AndroidJNIHelper*, "UnityEngine", "_AndroidJNIHelper");
+// [UsedByNativeCode]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -103,6 +104,7 @@ public:
   /// @brief Method GetSignature, addr 0x6a21500, size 0xe0c, virtual false, abstract: false, final false
   static inline ::StringW GetSignature(::System::Object* obj);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeJavaProxyMethod, addr 0x6a32440, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::IntPtr InvokeJavaProxyMethod(::UnityEngine::AndroidJavaProxy* proxy, ::System::IntPtr jmethodName, ::System::IntPtr jargs);
 
@@ -127,13 +129,13 @@ protected:
   constexpr _AndroidJNIHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "_AndroidJNIHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "_AndroidJNIHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   _AndroidJNIHelper(_AndroidJNIHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "_AndroidJNIHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "_AndroidJNIHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  _AndroidJNIHelper(_AndroidJNIHelper const&) = delete;
+  _AndroidJNIHelper(_AndroidJNIHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20163 };

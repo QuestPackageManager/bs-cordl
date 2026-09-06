@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongTimeSyncedVideoPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongTimeSyncedVideoPlayer.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentContext_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -170,6 +170,7 @@ inline ::System::Object* GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDepe
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20* GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20*>(__1__state));
 }

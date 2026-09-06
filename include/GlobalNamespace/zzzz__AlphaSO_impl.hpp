@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AlphaSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/AlphaSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AlphaSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AlphaSO.op_Implicit_float_t

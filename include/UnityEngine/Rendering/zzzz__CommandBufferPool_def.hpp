@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CommandBufferPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CommandBufferPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -27,6 +29,7 @@ MARK_REF_T(::UnityEngine::Rendering::CommandBufferPool*);
 MARK_REF_T(::UnityEngine::Rendering::CommandBufferPool___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CommandBufferPool*, "UnityEngine.Rendering", "CommandBufferPool");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CommandBufferPool___c*, "UnityEngine.Rendering", "CommandBufferPool/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -55,13 +58,13 @@ protected:
   constexpr CommandBufferPool___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandBufferPool___c(CommandBufferPool___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandBufferPool___c(CommandBufferPool___c const&) = delete;
+  CommandBufferPool___c(CommandBufferPool___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11879 };
@@ -103,13 +106,13 @@ protected:
   constexpr CommandBufferPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandBufferPool(CommandBufferPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandBufferPool(CommandBufferPool const&) = delete;
+  CommandBufferPool(CommandBufferPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11880 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Vertex.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Vertex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,11 +35,12 @@ public:
   // @brief default ctor
   constexpr Vertex();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "", def_value: None
-  // }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "xformClipPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: None },
-  // CppParam { name: "ids", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name:
-  // "opacityColorPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "settingIndex", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam {
-  // name: "circle", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "textureId", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "xformClipPages", ty:
+  // "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "ids", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "opacityColorPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "settingIndex", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "circle", ty: "::UnityEngine::Vector4",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "textureId", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, ::UnityEngine::Color32 xformClipPages, ::UnityEngine::Color32 ids,
                    ::UnityEngine::Color32 flags, ::UnityEngine::Color32 opacityColorPages, ::UnityEngine::Color32 settingIndex, ::UnityEngine::Vector4 circle, float_t textureId) noexcept;
 

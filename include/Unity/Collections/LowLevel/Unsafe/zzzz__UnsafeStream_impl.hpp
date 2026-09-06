@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeStream.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeStream.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeStream_def.hpp"
@@ -197,6 +197,7 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeStream::_ctor(int32_t bu
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, bufferCount, allocator);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Jobs::JobHandle Unity::Collections::LowLevel::Unsafe::UnsafeStream::ScheduleConstruct(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeStream> stream,
                                                                                                       ::Unity::Collections::NativeList_1<T> bufferCount, ::Unity::Jobs::JobHandle dependency,
                                                                                                       ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
@@ -259,6 +260,7 @@ inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeStream::Count() {
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::LowLevel::Unsafe::UnsafeStream::ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream>(),
@@ -295,7 +297,7 @@ constexpr Unity::Collections::LowLevel::Unsafe::UnsafeStream::operator ::System:
 constexpr ::System::IDisposable* Unity::Collections::LowLevel::Unsafe::UnsafeStream::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeStream::UnsafeStream(::Unity::Collections::AllocatorManager_Block m_BlockData) noexcept {
   this->m_BlockData = m_BlockData;
 }
@@ -326,7 +328,7 @@ constexpr Unity::Collections::LowLevel::Unsafe::UnsafeStream_DisposeJob::operato
 constexpr ::Unity::Jobs::IJob* Unity::Collections::LowLevel::Unsafe::UnsafeStream_DisposeJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeStream_DisposeJob::UnsafeStream_DisposeJob(::Unity::Collections::LowLevel::Unsafe::UnsafeStream Container) noexcept {
   this->Container = Container;
 }
@@ -359,8 +361,8 @@ constexpr Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJobList::o
 constexpr ::Unity::Jobs::IJob* Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJobList::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: Some("{}") }, CppParam { name: "List", ty:
-// "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "List", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJobList::UnsafeStream_ConstructJobList(::Unity::Collections::LowLevel::Unsafe::UnsafeStream Container,
                                                                                                                ::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList* List) noexcept {
   this->Container = Container;
@@ -394,8 +396,8 @@ constexpr Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJob::opera
 constexpr ::Unity::Jobs::IJob* Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: Some("{}") }, CppParam { name: "Length", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Length", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJob::UnsafeStream_ConstructJob(::Unity::Collections::LowLevel::Unsafe::UnsafeStream Container,
                                                                                                        ::Unity::Collections::NativeArray_1<int32_t> Length) noexcept {
   this->Container = Container;
@@ -493,13 +495,17 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::EndForEac
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer>(), { "EndForEachIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::Write(T value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::Write(T value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer>(), { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-template <typename T> inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::Allocate() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::Allocate() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer>(), { "Allocate", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -510,12 +516,13 @@ inline uint8_t* Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::Alloc
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer>(), { "Allocate", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint8_t*>(*this, ___internal_method, size);
 }
-// Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentBlock", ty:
-// "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentPtr", ty: "uint8_t*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_CurrentBlockEnd", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ForeachIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_ElementCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FirstBlock", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_FirstOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NumberOfBlocks", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_ThreadIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentBlock", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentPtr", ty: "uint8_t*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_CurrentBlockEnd", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ForeachIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ElementCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FirstBlock", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FirstOffset", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_NumberOfBlocks", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ThreadIndex", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer::UnsafeStream_Writer(::Unity::Collections::AllocatorManager_Block m_BlockData,
                                                                                            ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* m_CurrentBlock, uint8_t* m_CurrentPtr,
                                                                                            uint8_t* m_CurrentBlockEnd, int32_t m_ForeachIndex, int32_t m_ElementCount,
@@ -661,13 +668,17 @@ inline uint8_t* Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::ReadU
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader>(), { "ReadUnsafePtr", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint8_t*>(*this, ___internal_method, size);
 }
-template <typename T> inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::Read() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::Read() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader>(), { "Read", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method);
 }
-template <typename T> inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::Peek() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::Peek() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader>(), { "Peek", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -677,10 +688,10 @@ inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::Count(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader>(), { "Count", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentBlock", ty:
-// "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentPtr", ty: "uint8_t*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_CurrentBlockEnd", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RemainingItemCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_LastBlockSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentBlock", ty:
+// "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentPtr", ty: "uint8_t*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_CurrentBlockEnd", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RemainingItemCount", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LastBlockSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader::UnsafeStream_Reader(::Unity::Collections::AllocatorManager_Block m_BlockData,
                                                                                            ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* m_CurrentBlock, uint8_t* m_CurrentPtr,
                                                                                            uint8_t* m_CurrentBlockEnd, int32_t m_RemainingItemCount, int32_t m_LastBlockSize) noexcept {

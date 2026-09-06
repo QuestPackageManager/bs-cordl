@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalDeclarationBindInfo.hpp"
+// IWYU pragma private; include "Zenject/SignalDeclarationBindInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class SignalDeclarationBindInfo;
 // Write type traits
 MARK_REF_T(::Zenject::SignalDeclarationBindInfo*);
 DEFINE_IL2CPP_CLASS(::Zenject::SignalDeclarationBindInfo*, "Zenject", "SignalDeclarationBindInfo");
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.SignalMissingHandlerResponses
 namespace Zenject {
 // Is value type: false
@@ -91,33 +92,43 @@ public:
   /// @brief Method .ctor, addr 0x6e461b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* signalType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Identifier, addr 0x6e461b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MissingHandlerResponse, addr 0x6e461f8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalMissingHandlerResponses get_MissingHandlerResponse();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RunAsync, addr 0x6e461d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_RunAsync();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SignalType, addr 0x6e461c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_SignalType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TickPriority, addr 0x6e461e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TickPriority();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Identifier, addr 0x6e461c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MissingHandlerResponse, addr 0x6e46200, size 0x8, virtual false, abstract: false, final false
   inline void set_MissingHandlerResponse(::Zenject::SignalMissingHandlerResponses value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RunAsync, addr 0x6e461e0, size 0x8, virtual false, abstract: false, final false
   inline void set_RunAsync(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_SignalType, addr 0x6e461d0, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalType(::System::Type* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TickPriority, addr 0x6e461f0, size 0x8, virtual false, abstract: false, final false
   inline void set_TickPriority(int32_t value);
 
@@ -127,29 +138,34 @@ protected:
   constexpr SignalDeclarationBindInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationBindInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationBindInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalDeclarationBindInfo(SignalDeclarationBindInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationBindInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationBindInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalDeclarationBindInfo(SignalDeclarationBindInfo const&) = delete;
+  SignalDeclarationBindInfo(SignalDeclarationBindInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14007 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Identifier>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____Identifier_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SignalType>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____SignalType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RunAsync>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____RunAsync_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TickPriority>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t ____TickPriority_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MissingHandlerResponse>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::Zenject::SignalMissingHandlerResponses ____MissingHandlerResponse_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,13 +120,13 @@ protected:
   constexpr PlatformInstaller_Arguments();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller_Arguments", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller_Arguments", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInstaller_Arguments(PlatformInstaller_Arguments&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller_Arguments", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller_Arguments", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInstaller_Arguments(PlatformInstaller_Arguments const&) = delete;
+  PlatformInstaller_Arguments(PlatformInstaller_Argumentsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21032 };
@@ -196,6 +196,7 @@ public:
 
   static inline ::GlobalNamespace::PlatformInstaller* New_ctor(::GlobalNamespace::PlatformInstaller_Arguments* arguments);
 
+  /// [CompilerGenerated]
   /// @brief Method <InstallBindings>b__3_0, addr 0x3777ba8, size 0x88, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* _InstallBindings_b__3_0(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlagService);
 
@@ -214,13 +215,13 @@ protected:
   constexpr PlatformInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInstaller(PlatformInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInstaller(PlatformInstaller const&) = delete;
+  PlatformInstaller(PlatformInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21033 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ProbeVolumeDebugPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ProbeVolumeDebugPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 CORDL_MODULE_EXPORT(ProbeVolumeDebugPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class ComputeGraphContext;
@@ -125,13 +127,13 @@ protected:
   constexpr ProbeVolumeDebugPass_WriteApvData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass_WriteApvData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass_WriteApvData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeDebugPass_WriteApvData(ProbeVolumeDebugPass_WriteApvData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass_WriteApvData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass_WriteApvData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeDebugPass_WriteApvData(ProbeVolumeDebugPass_WriteApvData const&) = delete;
+  ProbeVolumeDebugPass_WriteApvData(ProbeVolumeDebugPass_WriteApvDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12872 };
@@ -167,6 +169,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -207,13 +210,13 @@ protected:
   constexpr ProbeVolumeDebugPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeDebugPass___c(ProbeVolumeDebugPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeDebugPass___c(ProbeVolumeDebugPass___c const&) = delete;
+  ProbeVolumeDebugPass___c(ProbeVolumeDebugPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12873 };
@@ -244,6 +247,7 @@ public:
   /// @brief Field m_NormalTexture, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_NormalTexture, put = __cordl_internal_set_m_NormalTexture)) ::UnityEngine::Rendering::RTHandle* m_NormalTexture;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68a1844, size 0x348, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -283,13 +287,13 @@ protected:
   constexpr ProbeVolumeDebugPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeDebugPass(ProbeVolumeDebugPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeDebugPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeDebugPass(ProbeVolumeDebugPass const&) = delete;
+  ProbeVolumeDebugPass(ProbeVolumeDebugPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12874 };

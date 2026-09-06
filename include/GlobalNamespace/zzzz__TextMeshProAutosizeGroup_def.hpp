@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextMeshProAutosizeGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextMeshProAutosizeGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,17 +44,18 @@ protected:
   constexpr TextMeshProAutosizeGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProAutosizeGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProAutosizeGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextMeshProAutosizeGroup(TextMeshProAutosizeGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProAutosizeGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshProAutosizeGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextMeshProAutosizeGroup(TextMeshProAutosizeGroup const&) = delete;
+  TextMeshProAutosizeGroup(TextMeshProAutosizeGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19006 };
 
+  /// [SerializeField]
   /// @brief Field _texts, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TMP_Text>> ____texts;
 

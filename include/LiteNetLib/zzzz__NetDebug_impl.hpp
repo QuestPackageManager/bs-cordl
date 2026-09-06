@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NetDebug.hpp"
+// IWYU pragma private; include "LiteNetLib/NetDebug.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetDebug_def.hpp"
 #include "LiteNetLib/zzzz__INetLogger_def.hpp"
@@ -98,35 +98,35 @@ inline void LiteNetLib::NetDebug::setStaticF_DebugLogLock(::System::Object* valu
 inline ::System::Object* LiteNetLib::NetDebug::getStaticF_DebugLogLock() {
   return ::cordl_internals::getStaticField<::System::Object*, "DebugLogLock", ::LiteNetLib::NetDebug*>();
 }
-inline void LiteNetLib::NetDebug::WriteLogic(::LiteNetLib::NetLogLevel logLevel, ::StringW str, ::ArrayW<::System::Object*> args) {
+inline void LiteNetLib::NetDebug::WriteLogic(::LiteNetLib::NetLogLevel logLevel, ::StringW str, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetDebug*>(),
                                               { "WriteLogic", {}, { ::i2c::type_of<::LiteNetLib::NetLogLevel>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, logLevel, str, args);
 }
-inline void LiteNetLib::NetDebug::Write(::StringW str, ::ArrayW<::System::Object*> args) {
+inline void LiteNetLib::NetDebug::Write(::StringW str, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetDebug*>(), { "Write", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, str, args);
 }
-inline void LiteNetLib::NetDebug::Write(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*> args) {
+inline void LiteNetLib::NetDebug::Write(::LiteNetLib::NetLogLevel level, ::StringW str, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetDebug*>(),
                                               { "Write", {}, { ::i2c::type_of<::LiteNetLib::NetLogLevel>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, level, str, args);
 }
-inline void LiteNetLib::NetDebug::WriteForce(::StringW str, ::ArrayW<::System::Object*> args) {
+inline void LiteNetLib::NetDebug::WriteForce(::StringW str, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetDebug*>(), { "WriteForce", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, str, args);
 }
-inline void LiteNetLib::NetDebug::WriteForce(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*> args) {
+inline void LiteNetLib::NetDebug::WriteForce(::LiteNetLib::NetLogLevel level, ::StringW str, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetDebug*>(),
                                               { "WriteForce", {}, { ::i2c::type_of<::LiteNetLib::NetLogLevel>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, level, str, args);
 }
-inline void LiteNetLib::NetDebug::WriteError(::StringW str, ::ArrayW<::System::Object*> args) {
+inline void LiteNetLib::NetDebug::WriteError(::StringW str, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetDebug*>(), { "WriteError", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, str, args);

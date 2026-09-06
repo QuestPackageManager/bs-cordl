@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\TimeSpanParse.hpp"
+// IWYU pragma private; include "System/Globalization/TimeSpanParse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,7 +138,7 @@ public:
   // @brief default ctor
   constexpr TimeSpanParse_ParseFailureKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimeSpanParse_ParseFailureKind(uint8_t value__) noexcept;
 
   /// @brief Field ArgumentNull value: U8(1)
@@ -173,6 +173,7 @@ static_assert(offsetof(::System::Globalization::TimeSpanParse_ParseFailureKind, 
 static_assert(sizeof(::System::Globalization::TimeSpanParse_ParseFailureKind) == 0x1, "Size mismatch!");
 
 } // namespace System::Globalization
+// [Flags]
 // Dependencies
 namespace System::Globalization {
 // Is value type: true
@@ -205,7 +206,7 @@ public:
   // @brief default ctor
   constexpr TimeSpanParse_TimeSpanStandardStyles();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimeSpanParse_TimeSpanStandardStyles(uint8_t value__) noexcept;
 
   /// @brief Field Any value: U8(3)
@@ -272,7 +273,7 @@ public:
   // @brief default ctor
   constexpr TimeSpanParse_TTT();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimeSpanParse_TTT(uint8_t value__) noexcept;
 
   /// @brief Field End value: U8(1)
@@ -307,6 +308,8 @@ static_assert(offsetof(::System::Globalization::TimeSpanParse_TTT, value__) == 0
 static_assert(sizeof(::System::Globalization::TimeSpanParse_TTT) == 0x1, "Size mismatch!");
 
 } // namespace System::Globalization
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies System.Globalization.TimeSpanParse::TTT, System.ReadOnlySpan`1<T>
 namespace System::Globalization {
 // Is value type: true
@@ -333,8 +336,9 @@ public:
   // @brief default ctor
   constexpr TimeSpanParse_TimeSpanToken();
 
-  // Ctor Parameters [CppParam { name: "_ttt", ty: "::System::Globalization::TimeSpanParse_TTT", modifiers: "", def_value: None }, CppParam { name: "_num", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "_zeroes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_sep", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_ttt", ty: "::System::Globalization::TimeSpanParse_TTT", modifiers: "", def_value: None, comment: None }, CppParam { name: "_num", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_zeroes", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_sep", ty: "::System::ReadOnlySpan_1<char16_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr TimeSpanParse_TimeSpanToken(::System::Globalization::TimeSpanParse_TTT _ttt, int32_t _num, int32_t _zeroes, ::System::ReadOnlySpan_1<char16_t> _sep) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -369,6 +373,8 @@ static_assert(offsetof(::System::Globalization::TimeSpanParse_TimeSpanToken, _se
 static_assert(sizeof(::System::Globalization::TimeSpanParse_TimeSpanToken) == 0x20, "Size mismatch!");
 
 } // namespace System::Globalization
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
+// [IsByRefLike]
 // Dependencies System.ReadOnlySpan`1<T>
 namespace System::Globalization {
 // Is value type: true
@@ -402,7 +408,8 @@ public:
   // @brief default ctor
   constexpr TimeSpanParse_TimeSpanTokenizer();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TimeSpanParse_TimeSpanTokenizer(::System::ReadOnlySpan_1<char16_t> _value, int32_t _pos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -427,6 +434,8 @@ static_assert(offsetof(::System::Globalization::TimeSpanParse_TimeSpanTokenizer,
 static_assert(sizeof(::System::Globalization::TimeSpanParse_TimeSpanTokenizer) == 0x18, "Size mismatch!");
 
 } // namespace System::Globalization
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies System.Globalization.TimeSpanFormat::FormatLiterals, System.Globalization.TimeSpanParse::TTT, System.Globalization.TimeSpanParse::TimeSpanToken, System.ReadOnlySpan`1<T>
 namespace System::Globalization {
 // Is value type: true
@@ -497,19 +506,20 @@ public:
   // @brief default ctor
   constexpr TimeSpanParse_TimeSpanRawInfo();
 
-  // Ctor Parameters [CppParam { name: "_lastSeenTTT", ty: "::System::Globalization::TimeSpanParse_TTT", modifiers: "", def_value: None }, CppParam { name: "_tokenCount", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_sepCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_numCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_posLoc", ty: "::System::Globalization::TimeSpanFormat_FormatLiterals", modifiers: "", def_value: None }, CppParam { name: "_negLoc", ty:
-  // "::System::Globalization::TimeSpanFormat_FormatLiterals", modifiers: "", def_value: None }, CppParam { name: "_posLocInit", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "_negLocInit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_fullPosPattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_fullNegPattern", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "_numbers0", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: None }, CppParam { name:
-  // "_numbers1", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: None }, CppParam { name: "_numbers2", ty:
-  // "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: None }, CppParam { name: "_numbers3", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "",
-  // def_value: None }, CppParam { name: "_numbers4", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: None }, CppParam { name: "_literals0", ty:
-  // "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_literals1", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "_literals2", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_literals3", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None
-  // }, CppParam { name: "_literals4", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_literals5", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_lastSeenTTT", ty: "::System::Globalization::TimeSpanParse_TTT", modifiers: "", def_value: None, comment: None }, CppParam { name: "_tokenCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_sepCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_numCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_posLoc", ty: "::System::Globalization::TimeSpanFormat_FormatLiterals", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_negLoc", ty: "::System::Globalization::TimeSpanFormat_FormatLiterals", modifiers: "", def_value: None, comment: None }, CppParam { name: "_posLocInit", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_negLocInit", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_fullPosPattern", ty: "::StringW", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_fullNegPattern", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_numbers0", ty:
+  // "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_numbers1", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_numbers2", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_numbers3", ty: "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_numbers4", ty:
+  // "::System::Globalization::TimeSpanParse_TimeSpanToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_literals0", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_literals1", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_literals2", ty:
+  // "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_literals3", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_literals4", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_literals5", ty:
+  // "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }]
   constexpr TimeSpanParse_TimeSpanRawInfo(::System::Globalization::TimeSpanParse_TTT _lastSeenTTT, int32_t _tokenCount, int32_t _sepCount, int32_t _numCount,
                                           ::System::Globalization::TimeSpanFormat_FormatLiterals _posLoc, ::System::Globalization::TimeSpanFormat_FormatLiterals _negLoc, bool _posLocInit,
                                           bool _negLocInit, ::StringW _fullPosPattern, ::StringW _fullNegPattern, ::System::Globalization::TimeSpanParse_TimeSpanToken _numbers0,
@@ -652,7 +662,8 @@ public:
   // @brief default ctor
   constexpr TimeSpanParse_TimeSpanResult();
 
-  // Ctor Parameters [CppParam { name: "parsedTimeSpan", ty: "::System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "_throwOnFailure", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "parsedTimeSpan", ty: "::System::TimeSpan", modifiers: "", def_value: None, comment: None }, CppParam { name: "_throwOnFailure", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TimeSpanParse_TimeSpanResult(::System::TimeSpan parsedTimeSpan, bool _throwOnFailure) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -677,6 +688,8 @@ static_assert(offsetof(::System::Globalization::TimeSpanParse_TimeSpanResult, _t
 static_assert(sizeof(::System::Globalization::TimeSpanParse_TimeSpanResult) == 0x10, "Size mismatch!");
 
 } // namespace System::Globalization
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies System.ReadOnlySpan`1<T>
 namespace System::Globalization {
 // Is value type: true
@@ -706,8 +719,9 @@ public:
   // @brief default ctor
   constexpr TimeSpanParse_StringParser();
 
-  // Ctor Parameters [CppParam { name: "_str", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_ch", ty: "char16_t", modifiers: "", def_value: None },
-  // CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_len", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_str", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ch", ty: "char16_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_len", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TimeSpanParse_StringParser(::System::ReadOnlySpan_1<char16_t> _str, char16_t _ch, int32_t _pos, int32_t _len) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -835,13 +849,13 @@ protected:
   constexpr TimeSpanParse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanParse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanParse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeSpanParse(TimeSpanParse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanParse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanParse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeSpanParse(TimeSpanParse const&) = delete;
+  TimeSpanParse(TimeSpanParseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3618 };

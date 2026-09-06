@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockBeatmapLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockBeatmapLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_REF_T(::GlobalNamespace::MockBeatmapLoader*);
 MARK_VAL_T(::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MockBeatmapLoader*, "", "MockBeatmapLoader");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__4, "", "MockBeatmapLoader/<GetBeatmapData>d__4");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -70,6 +71,7 @@ public:
   /// @brief Method MoveNext, addr 0x59ca2e4, size 0x51c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x59ca800, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -80,10 +82,11 @@ public:
   // @brief default ctor
   constexpr MockBeatmapLoader__GetBeatmapData_d__4();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MockBeatmapData*>", modifiers: "", def_value: None }, CppParam { name: "beatmap", ty:
-  // "::GlobalNamespace::BeatmapKeyNetSerializable*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockBeatmapLoader*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MockBeatmapData*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmap", ty:
+  // "::GlobalNamespace::BeatmapKeyNetSerializable*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockBeatmapLoader*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr MockBeatmapLoader__GetBeatmapData_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MockBeatmapData*> __t__builder,
                                                    ::GlobalNamespace::BeatmapKeyNetSerializable* beatmap, ::GlobalNamespace::MockBeatmapLoader* __4__this,
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__1) noexcept;
@@ -106,6 +109,7 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MockBeatmapLoader* __4__this;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__1;
 
@@ -152,6 +156,7 @@ public:
   /// @brief Method Dispose, addr 0x59ca2e0, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [AsyncStateMachine(typeof(MockBeatmapLoader::<GetBeatmapData>d__4))]
   /// @brief Method GetBeatmapData, addr 0x59ca1f0, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapKeyNetSerializable* beatmap,
                                                                                                  ::System::Threading::CancellationToken cancellationToken);
@@ -193,13 +198,13 @@ protected:
   constexpr MockBeatmapLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockBeatmapLoader(MockBeatmapLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockBeatmapLoader(MockBeatmapLoader const&) = delete;
+  MockBeatmapLoader(MockBeatmapLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6111 };

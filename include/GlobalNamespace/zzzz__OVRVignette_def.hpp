@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRVignette.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRVignette.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,7 +91,7 @@ public:
   // @brief default ctor
   constexpr OVRVignette_MeshComplexityLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRVignette_MeshComplexityLevel(int32_t value__) noexcept;
 
   /// @brief Field Detailed value: I32(3)
@@ -155,7 +155,7 @@ public:
   // @brief default ctor
   constexpr OVRVignette_FalloffType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRVignette_FalloffType(int32_t value__) noexcept;
 
   /// @brief Field Linear value: I32(0)
@@ -181,6 +181,9 @@ static_assert(offsetof(::GlobalNamespace::OVRVignette_FalloffType, value__) == 0
 static_assert(sizeof(::GlobalNamespace::OVRVignette_FalloffType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [RequireComponent(typeof(UnityEngine.Camera))]
+// [ExecuteAlways]
+// [HelpURL("https://developer.oculus.com/reference/unity/latest/class_o_v_r_vignette")]
 // Dependencies OVRVignette::FalloffType, OVRVignette::MeshComplexityLevel, UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.Vector4
 namespace GlobalNamespace {
 // Is value type: false
@@ -537,47 +540,62 @@ protected:
   constexpr OVRVignette();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVignette", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVignette", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRVignette(OVRVignette&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVignette", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVignette", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVignette(OVRVignette const&) = delete;
+  OVRVignette(OVRVignetteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8002 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field VignetteShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___VignetteShader;
 
+  /// [SerializeField]
+  /// [Tooltip("Controls the number of triangles used for the vignette mesh. Normal is best for most purposes.")]
   /// @brief Field MeshComplexity, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::OVRVignette_MeshComplexityLevel ___MeshComplexity;
 
+  /// [SerializeField]
+  /// [Tooltip("Controls how the falloff looks.")]
   /// @brief Field Falloff, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::OVRVignette_FalloffType ___Falloff;
 
+  /// [Tooltip("The Vertical FOV of the vignette")]
   /// @brief Field VignetteFieldOfView, offset: 0x30, size: 0x4, def value: None
   float_t ___VignetteFieldOfView;
 
+  /// [Tooltip("The Aspect ratio of the vignette controls the Horizontal FOV. (Larger numbers are wider)")]
   /// @brief Field VignetteAspectRatio, offset: 0x34, size: 0x4, def value: None
   float_t ___VignetteAspectRatio;
 
+  /// [Tooltip("The width of the falloff for the vignette in degrees")]
   /// @brief Field VignetteFalloffDegrees, offset: 0x38, size: 0x4, def value: None
   float_t ___VignetteFalloffDegrees;
 
+  /// [ColorUsage(false)]
+  /// [Tooltip("The color of the vignette. Alpha value is ignored")]
   /// @brief Field VignetteColor, offset: 0x3c, size: 0x10, def value: None
   ::UnityEngine::Color ___VignetteColor;
 
+  /// [Tooltip("Whether the Vignette Should write to the Stencil Buffer.")]
   /// @brief Field WriteStencil, offset: 0x4c, size: 0x1, def value: None
   bool ___WriteStencil;
 
+  /// [Tooltip("If WriteStencil is enabled, the stencil value for the opaque portion of the vignette")]
   /// @brief Field OpaqueStencilValue, offset: 0x50, size: 0x4, def value: None
   int32_t ___OpaqueStencilValue;
 
+  /// [Tooltip("If WriteStencil is enabled, the stencil value for the transparent portion of the vignette")]
   /// @brief Field TransparentStencilValue, offset: 0x54, size: 0x4, def value: None
   int32_t ___TransparentStencilValue;
 
+  /// [Tooltip("If the Vignette should write color, or only depth/stencil.")]
   /// @brief Field WriteColor, offset: 0x58, size: 0x1, def value: None
   bool ___WriteColor;
 

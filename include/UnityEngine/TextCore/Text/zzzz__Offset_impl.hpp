@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\Offset.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/Offset.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Offset_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::Offset.get_left
@@ -183,8 +183,9 @@ inline bool UnityEngine::TextCore::Text::Offset::Equals(::System::Object* obj) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::TextCore::Text::Offset>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "m_Left", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Right", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Top", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Bottom", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Left", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Right", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_Top", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Bottom", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::TextCore::Text::Offset::Offset(float_t m_Left, float_t m_Right, float_t m_Top, float_t m_Bottom) noexcept {
   this->m_Left = m_Left;
   this->m_Right = m_Right;

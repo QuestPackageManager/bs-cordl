@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\FBUserAgent.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/FBUserAgent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::OculusStudios::GraphQL::Client::FBUserAgent*);
 MARK_REF_T(::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7*);
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::FBUserAgent*, "OculusStudios.GraphQL.Client", "FBUserAgent");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7*, "OculusStudios.GraphQL.Client", "FBUserAgent/<EncodedPropertyKeys>d__7");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
@@ -83,23 +84,30 @@ public:
   /// @brief Method MoveNext, addr 0x5f23bf8, size 0x198, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::OculusStudios::GraphQL::Client::FBUserAgent__EncodedPropertyKeys_d__7* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x5f23dd8, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x5f23d90, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5f23e64, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5f23d98, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5f23dd0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5f23bf4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -121,6 +129,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5f22f5c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -145,13 +154,13 @@ protected:
   constexpr FBUserAgent__EncodedPropertyKeys_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent__EncodedPropertyKeys_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent__EncodedPropertyKeys_d__7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FBUserAgent__EncodedPropertyKeys_d__7(FBUserAgent__EncodedPropertyKeys_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent__EncodedPropertyKeys_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent__EncodedPropertyKeys_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FBUserAgent__EncodedPropertyKeys_d__7(FBUserAgent__EncodedPropertyKeys_d__7 const&) = delete;
+  FBUserAgent__EncodedPropertyKeys_d__7(FBUserAgent__EncodedPropertyKeys_d__7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20409 };
@@ -212,6 +221,7 @@ public:
   /// @brief Method AddFriendlyNames, addr 0x5f23670, size 0xb4, virtual false, abstract: false, final false
   inline void AddFriendlyNames();
 
+  /// [IteratorStateMachine(typeof(OculusStudios.GraphQL.Client.FBUserAgent::<EncodedPropertyKeys>d__7))]
   /// @brief Method EncodedPropertyKeys, addr 0x5f22ef4, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* EncodedPropertyKeys();
 
@@ -286,13 +296,13 @@ protected:
   constexpr FBUserAgent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FBUserAgent(FBUserAgent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FBUserAgent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FBUserAgent(FBUserAgent const&) = delete;
+  FBUserAgent(FBUserAgentconst&) = delete;
 
   /// @brief Field APP_NAME offset 0xffffffff size 0x8
   static constexpr ::ConstString APP_NAME{ u"FBAN" };

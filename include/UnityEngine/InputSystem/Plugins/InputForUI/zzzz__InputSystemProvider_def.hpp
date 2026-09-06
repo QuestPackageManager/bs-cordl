@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Plugins\InputForUI\InputSystemProvider.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Plugins/InputForUI/InputSystemProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,11 +116,12 @@ public:
   // @brief default ctor
   constexpr InputSystemProvider_Configuration();
 
-  // Ctor Parameters [CppParam { name: "ActionAsset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: None }, CppParam { name: "PointAction", ty: "::StringW",
-  // modifiers: "", def_value: None }, CppParam { name: "MoveAction", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "SubmitAction", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "CancelAction", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "LeftClickAction", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "MiddleClickAction", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "RightClickAction", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "ScrollWheelAction", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ActionAsset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: None, comment: None }, CppParam { name: "PointAction", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "MoveAction", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "SubmitAction", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "CancelAction", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "LeftClickAction", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "MiddleClickAction", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "RightClickAction", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "ScrollWheelAction", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr InputSystemProvider_Configuration(::UnityW<::UnityEngine::InputSystem::InputActionAsset> ActionAsset, ::StringW PointAction, ::StringW MoveAction, ::StringW SubmitAction,
                                               ::StringW CancelAction, ::StringW LeftClickAction, ::StringW MiddleClickAction, ::StringW RightClickAction, ::StringW ScrollWheelAction) noexcept;
 
@@ -181,6 +182,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Plugins::InputForUI::InputSys
 static_assert(sizeof(::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Plugins::InputForUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Plugins::InputForUI {
 // Is value type: false
@@ -216,13 +218,13 @@ protected:
   constexpr InputSystemProvider___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputSystemProvider___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputSystemProvider___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputSystemProvider___c(InputSystemProvider___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputSystemProvider___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputSystemProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputSystemProvider___c(InputSystemProvider___c const&) = delete;
+  InputSystemProvider___c(InputSystemProvider___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23086 };
@@ -320,6 +322,7 @@ public:
   /// @brief Method ActionAssetIsNotNull, addr 0x64e5928, size 0x64, virtual false, abstract: false, final false
   inline bool ActionAssetIsNotNull();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Bootstrap, addr 0x64e3e0c, size 0x4, virtual false, abstract: false, final false
   static inline void Bootstrap();
 
@@ -327,7 +330,7 @@ public:
   inline void DirectionNavigation(::Unity::IntegerTime::DiscreteTime currentTime);
 
   /// @brief Method DispatchFromCallback, addr 0x64e6638, size 0x124, virtual false, abstract: false, final false
-  inline void DispatchFromCallback(::by_ref<::UnityEngine::InputForUI::Event> ev);
+  inline void DispatchFromCallback(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
 
   /// @brief Method FindTouchFingerIndex, addr 0x64e675c, size 0x310, virtual false, abstract: false, final false
   static inline int32_t FindTouchFingerIndex(::UnityEngine::InputSystem::Touchscreen* touchscreen, ::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
@@ -410,7 +413,7 @@ public:
   static inline int32_t SortEvents(::UnityEngine::InputForUI::Event a, ::UnityEngine::InputForUI::Event b);
 
   /// @brief Method ToPointerStateEvent, addr 0x64e63dc, size 0x104, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::PointerEvent ToPointerStateEvent(::Unity::IntegerTime::DiscreteTime currentTime, ::by_ref<::UnityEngine::InputForUI::PointerState> state,
+  inline ::UnityEngine::InputForUI::PointerEvent ToPointerStateEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::PointerState> state,
                                                                      ::UnityEngine::InputForUI::EventSource eventSource);
 
   /// @brief Method UnregisterActions, addr 0x64e4bcc, size 0x6a8, virtual false, abstract: false, final false
@@ -567,13 +570,13 @@ protected:
   constexpr InputSystemProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputSystemProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputSystemProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputSystemProvider(InputSystemProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputSystemProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputSystemProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputSystemProvider(InputSystemProvider const&) = delete;
+  InputSystemProvider(InputSystemProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23087 };

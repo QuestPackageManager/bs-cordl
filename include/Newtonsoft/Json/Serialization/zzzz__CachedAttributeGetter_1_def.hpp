@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\CachedAttributeGetter_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/CachedAttributeGetter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CachedAttributeGetter_1)
 namespace Newtonsoft::Json::Utilities {
@@ -13,15 +14,18 @@ class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
-template <typename T> class CachedAttributeGetter_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+class CachedAttributeGetter_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Serialization::CachedAttributeGetter_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Serialization::CachedAttributeGetter_1, "Newtonsoft.Json.Serialization", "CachedAttributeGetter`1");
-// Dependencies System.Object
+// Dependencies System.Attribute, System.Object
 namespace Newtonsoft::Json::Serialization {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Serialization.CachedAttributeGetter`1<T>
 class CORDL_TYPE CachedAttributeGetter_1 : public ::System::Object {
@@ -30,6 +34,7 @@ public:
   /// @brief Field TypeAttributeCache, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_TypeAttributeCache, put = setStaticF_TypeAttributeCache)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, T>* TypeAttributeCache;
 
+  /// [NullableContext(1)]
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetAttribute(::System::Object* type);
 
@@ -43,13 +48,13 @@ protected:
   constexpr CachedAttributeGetter_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CachedAttributeGetter_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CachedAttributeGetter_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CachedAttributeGetter_1(CachedAttributeGetter_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CachedAttributeGetter_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CachedAttributeGetter_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CachedAttributeGetter_1(CachedAttributeGetter_1 const&) = delete;
+  CachedAttributeGetter_1(CachedAttributeGetter_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13469 };

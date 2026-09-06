@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapLevelSaveDataVersion4\LufsData.hpp"
+// IWYU pragma private; include "BeatmapLevelSaveDataVersion4/LufsData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr LufsData();
 
-  // Ctor Parameters [CppParam { name: "si", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ei", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "l", ty:
-  // "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "si", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ei", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "l", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LufsData(int32_t si, int32_t ei, float_t l) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

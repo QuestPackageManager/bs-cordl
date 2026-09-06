@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerIdentityPacket_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerIdentityPacket_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PlayerStateHash_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
@@ -15,7 +16,9 @@ namespace GlobalNamespace {
 class IPoolablePacket;
 }
 namespace GlobalNamespace {
-template <typename T> class PacketPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
+class PacketPool_1;
 }
 namespace GlobalNamespace {
 struct PlayerStateHash;
@@ -31,15 +34,20 @@ class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TGameSpecificIdentityData> class PlayerIdentityPacket_1;
+template <typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> &&
+           ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class PlayerIdentityPacket_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::PlayerIdentityPacket_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::PlayerIdentityPacket_1, "", "PlayerIdentityPacket`1");
-// Dependencies PlayerStateHash, System.Object
+// Dependencies LiteNetLib.Utils.INetSerializable, PlayerStateHash, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> &&
+           ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 // Is value type: false
 // CS Name: PlayerIdentityPacket`1<TGameSpecificIdentityData>
 class CORDL_TYPE PlayerIdentityPacket_1 : public ::System::Object {
@@ -120,13 +128,13 @@ protected:
   constexpr PlayerIdentityPacket_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerIdentityPacket_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerIdentityPacket_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerIdentityPacket_1(PlayerIdentityPacket_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerIdentityPacket_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerIdentityPacket_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerIdentityPacket_1(PlayerIdentityPacket_1 const&) = delete;
+  PlayerIdentityPacket_1(PlayerIdentityPacket_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18126 };

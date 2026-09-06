@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\ExtendedAxisEventData.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/ExtendedAxisEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,12 +51,14 @@ public:
   /// @brief Method .ctor, addr 0x6592164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
+  /// [CompilerGenerated]
   /// @brief Method get_device, addr 0x6592154, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
   /// @brief Convert to "::UnityEngine::InputSystem::UI::INavigationEventData"
   constexpr ::UnityEngine::InputSystem::UI::INavigationEventData* i___UnityEngine__InputSystem__UI__INavigationEventData() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_device, addr 0x659215c, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
@@ -66,17 +68,18 @@ protected:
   constexpr ExtendedAxisEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedAxisEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtendedAxisEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtendedAxisEventData(ExtendedAxisEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedAxisEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtendedAxisEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtendedAxisEventData(ExtendedAxisEventData const&) = delete;
+  ExtendedAxisEventData(ExtendedAxisEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8858 };
 
+  /// [CompilerGenerated]
   /// @brief Field <device>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputDevice* ____device_k__BackingField;
 

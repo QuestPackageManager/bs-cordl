@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\DesignOnlyAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/DesignOnlyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class DesignOnlyAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::DesignOnlyAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::DesignOnlyAttribute*, "System.ComponentModel", "DesignOnlyAttribute");
+// [AttributeUsage((System.AttributeTargets)32767)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -63,6 +64,7 @@ public:
 
   static inline ::System::ComponentModel::DesignOnlyAttribute* getStaticF_Yes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDesignOnly, addr 0x63b42f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDesignOnly();
 
@@ -78,17 +80,18 @@ protected:
   constexpr DesignOnlyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesignOnlyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignOnlyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignOnlyAttribute(DesignOnlyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesignOnlyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignOnlyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesignOnlyAttribute(DesignOnlyAttribute const&) = delete;
+  DesignOnlyAttribute(DesignOnlyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11222 };
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDesignOnly>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____IsDesignOnly_k__BackingField;
 

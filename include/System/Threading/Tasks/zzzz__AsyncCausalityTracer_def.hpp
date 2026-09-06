@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\AsyncCausalityTracer.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/AsyncCausalityTracer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class AsyncCausalityTracer;
 // Write type traits
 MARK_REF_T(::System::Threading::Tasks::AsyncCausalityTracer*);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::AsyncCausalityTracer*, "System.Threading.Tasks", "AsyncCausalityTracer");
+// [FriendAccessAllowed]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -30,9 +31,11 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE AsyncCausalityTracer : public ::System::Object {
 public:
   // Declarations
+  /// [FriendAccessAllowed]
   /// @brief Method TraceOperationCompletion, addr 0x5cc8b88, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status);
 
+  /// [FriendAccessAllowed]
   /// @brief Method TraceOperationCreation, addr 0x5cc8b84, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
 
@@ -42,6 +45,7 @@ public:
   /// @brief Method TraceSynchronousWorkStart, addr 0x5cc8b8c, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
+  /// [FriendAccessAllowed]
   /// @brief Method get_LoggingOn, addr 0x5cc544c, size 0x8, virtual false, abstract: false, final false
   static inline bool get_LoggingOn();
 
@@ -51,13 +55,13 @@ protected:
   constexpr AsyncCausalityTracer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncCausalityTracer(AsyncCausalityTracer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncCausalityTracer(AsyncCausalityTracer const&) = delete;
+  AsyncCausalityTracer(AsyncCausalityTracerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2836 };

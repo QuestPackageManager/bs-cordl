@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TerrainUtils\TerrainTileCoord.hpp"
+// IWYU pragma private; include "UnityEngine/TerrainUtils/TerrainTileCoord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TerrainTileCoord;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TerrainUtils::TerrainTileCoord);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TerrainUtils::TerrainTileCoord, "UnityEngine.TerrainUtils", "TerrainTileCoord");
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::TerrainUtils {
 // Is value type: true
@@ -27,7 +28,8 @@ public:
   // @brief default ctor
   constexpr TerrainTileCoord();
 
-  // Ctor Parameters [CppParam { name: "tileX", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tileZ", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "tileX", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "tileZ", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr TerrainTileCoord(int32_t tileX, int32_t tileZ) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

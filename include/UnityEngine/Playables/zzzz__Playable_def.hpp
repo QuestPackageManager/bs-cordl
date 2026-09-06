@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\Playable.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/Playable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -29,7 +30,8 @@ struct Playable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Playables::Playable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::Playable, "UnityEngine.Playables", "Playable");
-// Dependencies UnityEngine.Playables.PlayableHandle
+// [RequiredByNativeCode]
+// Dependencies UnityEngine.Playables.IPlayable, UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Playables {
 // Is value type: true
 // CS Name: UnityEngine.Playables.Playable
@@ -58,8 +60,11 @@ public:
   inline ::System::Type* GetPlayableType();
 
   /// @brief Method IsPlayableOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool IsPlayableOfType();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayable*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline bool IsPlayableOfType();
 
+  /// [VisibleToOtherModules]
   /// @brief Method .ctor, addr 0x6b041d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
@@ -80,7 +85,7 @@ public:
   // @brief default ctor
   constexpr Playable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr Playable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

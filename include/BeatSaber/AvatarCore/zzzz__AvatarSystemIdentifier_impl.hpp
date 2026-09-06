@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarSystemIdentifier.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarSystemIdentifier.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -151,7 +151,8 @@ constexpr ::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier
 BeatSaber::AvatarCore::AvatarSystemIdentifier::i___System__IEquatable_1___BeatSaber__AvatarCore__AvatarSystemIdentifier_() {
   return static_cast<::System::IEquatable_1<::BeatSaber::AvatarCore::AvatarSystemIdentifier>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "hash", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hash", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::BeatSaber::AvatarCore::AvatarSystemIdentifier::AvatarSystemIdentifier(::StringW value, uint32_t hash) noexcept {
   this->value = value;
   this->hash = hash;

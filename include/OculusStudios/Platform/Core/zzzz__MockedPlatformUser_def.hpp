@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\MockedPlatformUser.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/MockedPlatformUser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,9 +127,11 @@ public:
   /// @brief Method .ctor, addr 0x5f30510, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
+  /// [CompilerGenerated]
   /// @brief Method get_displayName, addr 0x5f309ec, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_displayName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userId, addr 0x5f309e4, size 0x8, virtual true, abstract: false, final true
   inline uint64_t get_userId();
 
@@ -142,13 +144,13 @@ protected:
   constexpr MockedPlatformUser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockedPlatformUser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockedPlatformUser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockedPlatformUser(MockedPlatformUser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockedPlatformUser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockedPlatformUser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockedPlatformUser(MockedPlatformUser const&) = delete;
+  MockedPlatformUser(MockedPlatformUserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22473 };
@@ -162,9 +164,11 @@ public:
   /// @brief Field unfinishedTask, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::StringW>* ___unfinishedTask;
 
+  /// [CompilerGenerated]
   /// @brief Field <userId>k__BackingField, offset: 0x28, size: 0x8, def value: None
   uint64_t ____userId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <displayName>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 

@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlayerInstance.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlayerInstance.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_impl.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_impl.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
@@ -131,45 +132,64 @@ constexpr ::System::IDisposable* GlobalNamespace::MockPlayerInstance_FsmTickRunn
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerInstance_FsmTickRunnable::MockPlayerInstance_FsmTickRunnable() {}
-template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::GlobalNamespace::MockPlayerInstance*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::GlobalNamespace::MockPlayerInstance* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set___4__this(::GlobalNamespace::MockPlayerInstance* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set___4__this(::GlobalNamespace::MockPlayerInstance* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T> constexpr ::GlobalNamespace::IConnectionInitParams_1<T>*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get_connectionInitParams() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::GlobalNamespace::IConnectionInitParams_1<T>*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get_connectionInitParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionInitParams;
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
 constexpr ::GlobalNamespace::IConnectionInitParams_1<T>* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get_connectionInitParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionInitParams;
 }
-template <typename T> constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set_connectionInitParams(::GlobalNamespace::IConnectionInitParams_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set_connectionInitParams(::GlobalNamespace::IConnectionInitParams_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___connectionInitParams = value;
 }
-template <typename T> inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ConnectToServer_b__0() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ConnectToServer_b__0() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>*>(), { "<ConnectToServer>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>* GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+inline ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>* GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::MockPlayerInstance___c__DisplayClass26_0_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+constexpr ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::MockPlayerInstance___c__DisplayClass26_0_1() {}
 //  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33.MoveNext
 template <>
 
@@ -213,9 +233,9 @@ constexpr GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::operator ::Sy
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::MockPlayerInstance__DisposeAsync_d__33(int32_t __1__state,
                                                                                                             ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                             ::GlobalNamespace::MockPlayerInstance* __4__this,
@@ -270,11 +290,11 @@ constexpr GlobalNamespace::MockPlayerInstance__RunAsync_d__27::operator ::System
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockPlayerInstance__RunAsync_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "token", ty: "::System::Threading::CancellationToken", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*", modifiers: "", def_value: Some("{}") }, CppParam { name: "runner", ty:
-// "::GlobalNamespace::IStandaloneThreadRunner*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "token", ty: "::System::Threading::CancellationToken",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "runner", ty: "::GlobalNamespace::IStandaloneThreadRunner*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MockPlayerInstance__RunAsync_d__27::MockPlayerInstance__RunAsync_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                     ::System::Threading::CancellationToken token, ::GlobalNamespace::MockPlayerInstance* __4__this,
                                                                                                     ::GlobalNamespace::IStandaloneThreadRunner* runner,
@@ -331,9 +351,9 @@ constexpr GlobalNamespace::MockPlayerInstance__Stop_d__30::operator ::System::Ru
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockPlayerInstance__Stop_d__30::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MockPlayerInstance__Stop_d__30::MockPlayerInstance__Stop_d__30(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                             ::GlobalNamespace::MockPlayerInstance* __4__this,
                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -776,7 +796,9 @@ inline void GlobalNamespace::MockPlayerInstance::Tick() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "Tick", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::MockPlayerInstance::ConnectToServer(::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*> && ::cordl_internals::reference_type_constraint<T>)
+inline void GlobalNamespace::MockPlayerInstance::ConnectToServer(::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(),
                                                            { "ConnectToServer", { ::i2c::class_of<T>() }, { ::i2c::type_of<::GlobalNamespace::IConnectionInitParams_1<T>*>() } })));

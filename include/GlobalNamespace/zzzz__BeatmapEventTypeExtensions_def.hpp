@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventTypeExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventTypeExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class BeatmapEventTypeExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatmapEventTypeExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapEventTypeExtensions*, "", "BeatmapEventTypeExtensions");
+// [Extension]
 // Dependencies BasicBeatmapEventType, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -23,6 +24,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x3259bf0, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
 
@@ -32,13 +34,13 @@ protected:
   constexpr BeatmapEventTypeExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTypeExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTypeExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventTypeExtensions(BeatmapEventTypeExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTypeExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventTypeExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventTypeExtensions(BeatmapEventTypeExtensions const&) = delete;
+  BeatmapEventTypeExtensions(BeatmapEventTypeExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21238 };

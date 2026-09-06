@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRColocationSession.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRColocationSession.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRColocationSession_def.hpp"
@@ -79,15 +79,15 @@ inline void GlobalNamespace::OVRColocationSession_Data::set_Metadata(::ArrayW<ui
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRColocationSession_Data>(), { "set_Metadata", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_AdvertisementUuid_k__BackingField", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Metadata_k__BackingField", ty:
-// "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_AdvertisementUuid_k__BackingField", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Metadata_k__BackingField",
+// ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRColocationSession_Data::OVRColocationSession_Data(::System::Guid _AdvertisementUuid_k__BackingField, ::ArrayW<uint8_t> _Metadata_k__BackingField) noexcept {
   this->_AdvertisementUuid_k__BackingField = _AdvertisementUuid_k__BackingField;
   this->_Metadata_k__BackingField = _Metadata_k__BackingField;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRColocationSession_Data::OVRColocationSession_Data() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRColocationSession_Result::OVRColocationSession_Result(int32_t value__) noexcept {
   this->value__ = value__;
 }

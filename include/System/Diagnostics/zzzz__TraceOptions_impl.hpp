@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\TraceOptions.hpp"
+// IWYU pragma private; include "System/Diagnostics/TraceOptions.hpp"
 #include "System/Diagnostics/zzzz__TraceOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Diagnostics::TraceOptions::TraceOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }

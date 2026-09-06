@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\BurstCompiler.hpp"
+// IWYU pragma private; include "Unity/Burst/BurstCompiler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -164,13 +164,13 @@ protected:
   constexpr BurstCompiler_CommandBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_CommandBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_CommandBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstCompiler_CommandBuilder(BurstCompiler_CommandBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_CommandBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_CommandBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler_CommandBuilder(BurstCompiler_CommandBuilder const&) = delete;
+  BurstCompiler_CommandBuilder(BurstCompiler_CommandBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17299 };
@@ -191,6 +191,7 @@ static_assert(offsetof(::Unity::Burst::BurstCompiler_CommandBuilder, ____hasArgs
 static_assert(sizeof(::Unity::Burst::BurstCompiler_CommandBuilder) == 0x20, "Size mismatch!");
 
 } // namespace Unity::Burst
+// [AttributeUsage((System.AttributeTargets)1, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace Unity::Burst {
 // Is value type: false
@@ -218,13 +219,13 @@ protected:
   constexpr BurstCompiler_StaticTypeReinitAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_StaticTypeReinitAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_StaticTypeReinitAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstCompiler_StaticTypeReinitAttribute(BurstCompiler_StaticTypeReinitAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_StaticTypeReinitAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_StaticTypeReinitAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler_StaticTypeReinitAttribute(BurstCompiler_StaticTypeReinitAttribute const&) = delete;
+  BurstCompiler_StaticTypeReinitAttribute(BurstCompiler_StaticTypeReinitAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17300 };
@@ -240,6 +241,7 @@ static_assert(offsetof(::Unity::Burst::BurstCompiler_StaticTypeReinitAttribute, 
 static_assert(sizeof(::Unity::Burst::BurstCompiler_StaticTypeReinitAttribute) == 0x18, "Size mismatch!");
 
 } // namespace Unity::Burst
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Unity::Burst {
 // Is value type: false
@@ -267,13 +269,13 @@ protected:
   constexpr BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate(BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate(BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate const&) = delete;
+  BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate(BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17301 };
@@ -284,6 +286,7 @@ public:
 static_assert(sizeof(::Unity::Burst::BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate) == 0x80, "Size mismatch!");
 
 } // namespace Unity::Burst
+// [BurstCompile]
 // Dependencies System.Object
 namespace Unity::Burst {
 // Is value type: false
@@ -299,9 +302,12 @@ public:
   /// @brief Field IsBurstGenerated, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_IsBurstGenerated, put = setStaticF_IsBurstGenerated)) bool IsBurstGenerated;
 
+  /// [BurstDiscard]
   /// @brief Method DiscardedMethod, addr 0x6471784, size 0x8, virtual false, abstract: false, final false
   static inline void DiscardedMethod(::by_ref<bool> value);
 
+  /// [BurstCompile]
+  /// [MonoPInvokeCallback(typeof(Unity.Burst.BurstCompiler::BurstCompilerHelper::IsBurstEnabledDelegate))]
   /// @brief Method IsBurstEnabled, addr 0x6471730, size 0x54, virtual false, abstract: false, final false
   static inline bool IsBurstEnabled();
 
@@ -322,13 +328,13 @@ protected:
   constexpr BurstCompiler_BurstCompilerHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_BurstCompilerHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_BurstCompilerHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstCompiler_BurstCompilerHelper(BurstCompiler_BurstCompilerHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_BurstCompilerHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_BurstCompilerHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler_BurstCompilerHelper(BurstCompiler_BurstCompilerHelper const&) = delete;
+  BurstCompiler_BurstCompilerHelper(BurstCompiler_BurstCompilerHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17302 };
@@ -346,6 +352,7 @@ namespace Unity::Burst {
 class CORDL_TYPE BurstCompiler_FakeDelegate : public ::System::Object {
 public:
   // Declarations
+  /// @brief [Preserve]
   __declspec(property(get = get_Method)) ::System::Reflection::MethodInfo* Method;
 
   /// @brief Field <Method>k__BackingField, offset 0x10, size 0x8
@@ -362,6 +369,7 @@ public:
   /// @brief Method .ctor, addr 0x647024c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Method, addr 0x64719a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Method();
 
@@ -371,17 +379,18 @@ protected:
   constexpr BurstCompiler_FakeDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_FakeDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_FakeDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstCompiler_FakeDelegate(BurstCompiler_FakeDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_FakeDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler_FakeDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler_FakeDelegate(BurstCompiler_FakeDelegate const&) = delete;
+  BurstCompiler_FakeDelegate(BurstCompiler_FakeDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17303 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Method>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____Method_k__BackingField;
 
@@ -393,6 +402,7 @@ static_assert(offsetof(::Unity::Burst::BurstCompiler_FakeDelegate, ____Method_k_
 static_assert(sizeof(::Unity::Burst::BurstCompiler_FakeDelegate) == 0x18, "Size mismatch!");
 
 } // namespace Unity::Burst
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Unity::Burst {
 // Is value type: false
@@ -438,13 +448,13 @@ protected:
   constexpr BurstCompiler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstCompiler___c(BurstCompiler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler___c(BurstCompiler___c const&) = delete;
+  BurstCompiler___c(BurstCompiler___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17304 };
@@ -503,17 +513,23 @@ public:
   static inline void* Compile(::System::Object* delegateObj, ::System::Reflection::MethodInfo* methodInfo, bool isFunctionPointer, bool isILPostProcessing);
 
   /// @brief Method CompileDelegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T CompileDelegate(T delegateMethod);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T CompileDelegate(T delegateMethod);
 
   /// @brief Method CompileFunctionPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Burst::FunctionPointer_1<T> CompileFunctionPointer(T delegateMethod);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline ::Unity::Burst::FunctionPointer_1<T> CompileFunctionPointer(T delegateMethod);
 
+  /// [Obsolete("This method will be removed in a future version of Burst")]
   /// @brief Method CompileILPPMethod, addr 0x64700a8, size 0x38, virtual false, abstract: false, final false
   static inline ::System::IntPtr CompileILPPMethod(::System::RuntimeMethodHandle burstMethodHandle, ::System::RuntimeMethodHandle managedMethodHandle, ::System::RuntimeTypeHandle delegateTypeHandle);
 
   /// @brief Method CompileILPPMethod2, addr 0x64700e0, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CompileILPPMethod2(::System::RuntimeMethodHandle burstMethodHandle);
 
+  /// [Obsolete("This method will be removed in a future version of Burst")]
   /// @brief Method CompileUnsafeStaticMethod, addr 0x64707d4, size 0x38, virtual false, abstract: false, final false
   static inline void* CompileUnsafeStaticMethod(::System::RuntimeMethodHandle handle);
 
@@ -529,6 +545,7 @@ public:
   /// @brief Method GetExecutionMode, addr 0x6470080, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Burst::BurstExecutionEnvironment GetExecutionMode();
 
+  /// [Obsolete("This method will be removed in a future version of Burst")]
   /// @brief Method GetILPPMethodFunctionPointer, addr 0x64706fc, size 0x38, virtual false, abstract: false, final false
   static inline void* GetILPPMethodFunctionPointer(::System::IntPtr ilppMethod);
 
@@ -592,11 +609,17 @@ public:
   /// @brief Method UnloadAdditionalLibraries, addr 0x6470f28, size 0x70, virtual false, abstract: false, final false
   static inline void UnloadAdditionalLibraries();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method VerifyDelegateHasCorrectUnmanagedFunctionPointerAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void VerifyDelegateHasCorrectUnmanagedFunctionPointerAttribute(T delegateMethod);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline void VerifyDelegateHasCorrectUnmanagedFunctionPointerAttribute(T delegateMethod);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method VerifyDelegateIsNotMulticast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void VerifyDelegateIsNotMulticast(T delegateMethod);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline void VerifyDelegateIsNotMulticast(T delegateMethod);
 
   static inline ::System::Reflection::MethodInfo* getStaticF_DummyMethodInfo();
 
@@ -627,13 +650,13 @@ protected:
   constexpr BurstCompiler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstCompiler(BurstCompiler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstCompiler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstCompiler(BurstCompiler const&) = delete;
+  BurstCompiler(BurstCompilerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17305 };

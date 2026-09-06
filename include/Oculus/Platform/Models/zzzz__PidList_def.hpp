@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\PidList.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/PidList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +36,13 @@ protected:
   constexpr PidList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PidList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PidList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PidList(PidList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PidList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PidList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PidList(PidList const&) = delete;
+  PidList(PidListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18081 };

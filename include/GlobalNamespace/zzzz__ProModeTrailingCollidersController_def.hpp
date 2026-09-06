@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ProModeTrailingCollidersController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ProModeTrailingCollidersController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class ProModeTrailingCollidersController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ProModeTrailingCollidersController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ProModeTrailingCollidersController*, "", "ProModeTrailingCollidersController");
+// [AddComponentMenu("Beat Saber/Gameplay/ProModeTrailingCollidersController")]
 // Dependencies BoxCuttableBySaber, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -89,23 +90,26 @@ protected:
   constexpr ProModeTrailingCollidersController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProModeTrailingCollidersController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProModeTrailingCollidersController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProModeTrailingCollidersController(ProModeTrailingCollidersController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProModeTrailingCollidersController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProModeTrailingCollidersController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProModeTrailingCollidersController(ProModeTrailingCollidersController const&) = delete;
+  ProModeTrailingCollidersController(ProModeTrailingCollidersControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5694 };
 
+  /// [SerializeField]
   /// @brief Field _mainSmallCuttableBySaber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____mainSmallCuttableBySaber;
 
+  /// [SerializeField]
   /// @brief Field _trailingSmallCuttableBySaberList, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>> ____trailingSmallCuttableBySaberList;
 
+  /// [SerializeField]
   /// @brief Field _noteMovement, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteMovement> ____noteMovement;
 

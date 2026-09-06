@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\StallSummaryAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/StallSummaryAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class StallSummaryAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::StallSummaryAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::StallSummaryAnalytic*, "UnityEditor.Analytics", "StallSummaryAnalytic");
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -23,6 +25,7 @@ public:
   /// @brief Field Duration, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_Duration, put = __cordl_internal_set_Duration)) double_t Duration;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateStallSummaryAnalytic, addr 0x6e25e00, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::StallSummaryAnalytic* CreateStallSummaryAnalytic();
 
@@ -43,13 +46,13 @@ protected:
   constexpr StallSummaryAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StallSummaryAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StallSummaryAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StallSummaryAnalytic(StallSummaryAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StallSummaryAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StallSummaryAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StallSummaryAnalytic(StallSummaryAnalytic const&) = delete;
+  StallSummaryAnalytic(StallSummaryAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23020 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\BuiltinRuntimeReflectionSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/BuiltinRuntimeReflectionSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class BuiltinRuntimeReflectionSystem;
 // Write type traits
 MARK_REF_T(::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*, "UnityEngine.Experimental.Rendering", "BuiltinRuntimeReflectionSystem");
+// [NativeHeader("Runtime/Camera/ReflectionProbes.h")]
 // Dependencies System.Object
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
@@ -31,6 +32,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem"
   constexpr operator ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() noexcept;
 
+  /// [StaticAccessor("GetReflectionProbes()", Type = (UnityEngine.Bindings.StaticAccessorType)0)]
   /// @brief Method BuiltinUpdate, addr 0x6b30a68, size 0x28, virtual false, abstract: false, final false
   static inline bool BuiltinUpdate();
 
@@ -40,6 +42,7 @@ public:
   /// @brief Method Dispose, addr 0x6b30a94, size 0x4, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
+  /// [RequiredByNativeCode]
   /// @brief Method Internal_BuiltinRuntimeReflectionSystem_New, addr 0x6b30a98, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* Internal_BuiltinRuntimeReflectionSystem_New();
 
@@ -63,13 +66,13 @@ protected:
   constexpr BuiltinRuntimeReflectionSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BuiltinRuntimeReflectionSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BuiltinRuntimeReflectionSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BuiltinRuntimeReflectionSystem(BuiltinRuntimeReflectionSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BuiltinRuntimeReflectionSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BuiltinRuntimeReflectionSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BuiltinRuntimeReflectionSystem(BuiltinRuntimeReflectionSystem const&) = delete;
+  BuiltinRuntimeReflectionSystem(BuiltinRuntimeReflectionSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10918 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MeshWriteDataInterface.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MeshWriteDataInterface.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,9 @@ public:
   // @brief default ctor
   constexpr MeshWriteDataInterface();
 
-  // Ctor Parameters [CppParam { name: "vertices", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "indices", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vertices", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "indices", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr MeshWriteDataInterface(::System::IntPtr vertices, ::System::IntPtr indices, int32_t vertexCount, int32_t indexCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

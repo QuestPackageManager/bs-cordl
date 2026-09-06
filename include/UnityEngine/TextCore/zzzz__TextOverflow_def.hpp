@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\TextOverflow.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/TextOverflow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TextOverflow;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::TextOverflow);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::TextOverflow, "UnityEngine.TextCore", "TextOverflow");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies
 namespace UnityEngine::TextCore {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr TextOverflow();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextOverflow(int32_t value__) noexcept;
 
   /// @brief Field Clip value: I32(0)

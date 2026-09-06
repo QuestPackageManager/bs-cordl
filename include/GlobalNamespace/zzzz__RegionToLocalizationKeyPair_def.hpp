@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RegionToLocalizationKeyPair.hpp"
+// IWYU pragma private; include "GlobalNamespace/RegionToLocalizationKeyPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,8 +31,8 @@ public:
   // @brief default ctor
   constexpr RegionToLocalizationKeyPair();
 
-  // Ctor Parameters [CppParam { name: "region", ty: "::GlobalNamespace::Region", modifiers: "", def_value: None }, CppParam { name: "localizationKey", ty: "::StringW", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "region", ty: "::GlobalNamespace::Region", modifiers: "", def_value: None, comment: None }, CppParam { name: "localizationKey", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr RegionToLocalizationKeyPair(::GlobalNamespace::Region region, ::StringW localizationKey) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

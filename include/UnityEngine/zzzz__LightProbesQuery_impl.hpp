@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightProbesQuery.hpp"
+// IWYU pragma private; include "UnityEngine/LightProbesQuery.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "UnityEngine/zzzz__LightProbesQuery_def.hpp"
@@ -29,7 +29,7 @@ inline void UnityEngine::LightProbesQuery_LightProbesQueryDispose::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbesQuery_LightProbesQueryDispose>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_LightProbeContextWrapper", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_LightProbeContextWrapper", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::LightProbesQuery_LightProbesQueryDispose::LightProbesQuery_LightProbesQueryDispose(::System::IntPtr m_LightProbeContextWrapper) noexcept {
   this->m_LightProbeContextWrapper = m_LightProbeContextWrapper;
 }
@@ -59,7 +59,7 @@ constexpr UnityEngine::LightProbesQuery_LightProbesQueryDisposeJob::operator ::U
 constexpr ::Unity::Jobs::IJob* UnityEngine::LightProbesQuery_LightProbesQueryDisposeJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Data", ty: "::UnityEngine::LightProbesQuery_LightProbesQueryDispose", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Data", ty: "::UnityEngine::LightProbesQuery_LightProbesQueryDispose", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::LightProbesQuery_LightProbesQueryDisposeJob::LightProbesQuery_LightProbesQueryDisposeJob(::UnityEngine::LightProbesQuery_LightProbesQueryDispose Data) noexcept {
   this->Data = Data;
 }
@@ -219,8 +219,8 @@ constexpr UnityEngine::LightProbesQuery::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* UnityEngine::LightProbesQuery::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_LightProbeContextWrapper", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AllocatorLabel", ty:
-// "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_LightProbeContextWrapper", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+// "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::LightProbesQuery::LightProbesQuery(::System::IntPtr m_LightProbeContextWrapper, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept {
   this->m_LightProbeContextWrapper = m_LightProbeContextWrapper;
   this->m_AllocatorLabel = m_AllocatorLabel;

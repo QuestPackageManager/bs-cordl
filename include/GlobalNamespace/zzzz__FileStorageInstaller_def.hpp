@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FileStorageInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/FileStorageInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ protected:
   constexpr FileStorageInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStorageInstaller(FileStorageInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageInstaller(FileStorageInstaller const&) = delete;
+  FileStorageInstaller(FileStorageInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21007 };

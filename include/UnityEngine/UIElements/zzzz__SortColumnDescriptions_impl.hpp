@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\SortColumnDescriptions.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/SortColumnDescriptions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SortColumnDescriptions_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlObjectFactory_2_impl.hpp"
@@ -17,75 +17,6 @@
 #include "UnityEngine/UIElements/zzzz__SortColumnDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SortColumnDescriptions_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlObjectListAttributeDescription_1_def.hpp"
-template <typename T> inline void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-template <typename T> inline ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>* UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>*>());
-}
-// Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>::SortColumnDescriptions_UxmlObjectFactory_1() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::*)()>(
-    &::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d63680;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-inline void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory* UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory*>());
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::SortColumnDescriptions_UxmlObjectFactory() {}
-template <typename T>
-constexpr ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::SortColumnDescription*>*&
-UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::__cordl_internal_get_m_SortColumnDescriptions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_SortColumnDescriptions;
-}
-template <typename T>
-constexpr ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::SortColumnDescription*>* const&
-UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::__cordl_internal_get_m_SortColumnDescriptions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_SortColumnDescriptions;
-}
-template <typename T>
-constexpr void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::__cordl_internal_set_m_SortColumnDescriptions(
-    ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::SortColumnDescription*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_SortColumnDescriptions = value;
-}
-template <typename T>
-inline void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::Init(::by_ref<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag,
-                                                                                        ::UnityEngine::UIElements::CreationContext cc) {
-  auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>*>(), 4 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj, bag, cc);
-}
-template <typename T> inline void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-template <typename T> inline ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>* UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>*>());
-}
-// Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::SortColumnDescriptions_UxmlObjectTraits_1() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescriptions.add_changed
 template <>
 
@@ -399,3 +330,88 @@ constexpr ::System::Collections::IEnumerable* UnityEngine::UIElements::SortColum
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::SortColumnDescriptions::SortColumnDescriptions() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>* UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>*>());
+}
+// Ctor Parameters []
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>::SortColumnDescriptions_UxmlObjectFactory_1() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::*)()>(
+    &::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::_ctor)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6d63680;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory* UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::SortColumnDescriptions_UxmlObjectFactory() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*>)
+constexpr ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::SortColumnDescription*>*&
+UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::__cordl_internal_get_m_SortColumnDescriptions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SortColumnDescriptions;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*>)
+constexpr ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::SortColumnDescription*>* const&
+UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::__cordl_internal_get_m_SortColumnDescriptions() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SortColumnDescriptions;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*>)
+constexpr void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::__cordl_internal_set_m_SortColumnDescriptions(
+    ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::SortColumnDescription*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SortColumnDescriptions = value;
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*>)
+inline void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::Init(::by_ref<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag,
+                                                                                        ::UnityEngine::UIElements::CreationContext cc) {
+  auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obj, bag, cc);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*>)
+inline void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*>)
+inline ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>* UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>*>());
+}
+// Ctor Parameters []
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::SortColumnDescriptions*>)
+constexpr ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::SortColumnDescriptions_UxmlObjectTraits_1() {}

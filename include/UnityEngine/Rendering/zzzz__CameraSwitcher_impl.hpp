@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CameraSwitcher.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CameraSwitcher.hpp"
 #include "UnityEngine/zzzz__Camera_impl.hpp"
 #include "UnityEngine/zzzz__GUIContent_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

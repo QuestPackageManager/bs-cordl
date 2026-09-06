@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NotEqualInstruction_NotEqualUInt16LiftedToNull.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotEqualInstruction_NotEqualUInt16LiftedToNull.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr NotEqualInstruction_NotEqualUInt16LiftedToNull();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualUInt16LiftedToNull", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualUInt16LiftedToNull", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotEqualInstruction_NotEqualUInt16LiftedToNull(NotEqualInstruction_NotEqualUInt16LiftedToNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualUInt16LiftedToNull", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualUInt16LiftedToNull", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NotEqualInstruction_NotEqualUInt16LiftedToNull(NotEqualInstruction_NotEqualUInt16LiftedToNull const&) = delete;
+  NotEqualInstruction_NotEqualUInt16LiftedToNull(NotEqualInstruction_NotEqualUInt16LiftedToNullconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16536 };

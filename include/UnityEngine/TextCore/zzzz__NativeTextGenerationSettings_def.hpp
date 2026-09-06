@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\NativeTextGenerationSettings.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/NativeTextGenerationSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ MARK_REF_T(::UnityEngine::TextCore::NativeTextGenerationSettings___c*);
 MARK_VAL_T(::UnityEngine::TextCore::NativeTextGenerationSettings);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::NativeTextGenerationSettings___c*, "UnityEngine.TextCore", "NativeTextGenerationSettings/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::NativeTextGenerationSettings, "UnityEngine.TextCore", "NativeTextGenerationSettings");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::TextCore {
 // Is value type: false
@@ -78,13 +79,13 @@ protected:
   constexpr NativeTextGenerationSettings___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeTextGenerationSettings___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeTextGenerationSettings___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeTextGenerationSettings___c(NativeTextGenerationSettings___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeTextGenerationSettings___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeTextGenerationSettings___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeTextGenerationSettings___c(NativeTextGenerationSettings___c const&) = delete;
+  NativeTextGenerationSettings___c(NativeTextGenerationSettings___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17184 };
@@ -95,6 +96,9 @@ public:
 static_assert(sizeof(::UnityEngine::TextCore::NativeTextGenerationSettings___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
+// [UsedByNativeCode("TextGenerationSettings")]
+// [NativeHeader("Modules/TextCoreTextEngine/Native/TextGenerationSettings.h")]
 // Dependencies System.IntPtr, UnityEngine.Color32, UnityEngine.TextCore.HorizontalAlignment, UnityEngine.TextCore.LanguageDirection, UnityEngine.TextCore.Text.FontStyles,
 // UnityEngine.TextCore.Text.TextFontWeight, UnityEngine.TextCore.TextOverflow, UnityEngine.TextCore.TextSpan, UnityEngine.TextCore.VerticalAlignment, UnityEngine.TextCore.WhiteSpace
 namespace UnityEngine::TextCore {
@@ -107,6 +111,7 @@ public:
 
   __declspec(property(get = get_hasLink)) bool hasLink;
 
+  /// [IsReadOnly]
   /// @brief Method CreateTextSpan, addr 0x6bc1658, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::TextSpan CreateTextSpan();
 
@@ -123,16 +128,18 @@ public:
   // @brief default ctor
   constexpr NativeTextGenerationSettings();
 
-  // Ctor Parameters [CppParam { name: "fontAsset", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "globalFontAssetFallbacks", ty: "::ArrayW<::System::IntPtr>", modifiers:
-  // "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "screenWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "screenHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordWrap", ty: "::UnityEngine::TextCore::WhiteSpace", modifiers: "", def_value: None }, CppParam { name:
-  // "overflow", ty: "::UnityEngine::TextCore::TextOverflow", modifiers: "", def_value: None }, CppParam { name: "languageDirection", ty: "::UnityEngine::TextCore::LanguageDirection", modifiers: "",
-  // def_value: None }, CppParam { name: "vertexPadding", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "horizontalAlignment", ty: "::UnityEngine::TextCore::HorizontalAlignment",
-  // modifiers: "", def_value: None }, CppParam { name: "verticalAlignment", ty: "::UnityEngine::TextCore::VerticalAlignment", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::TextCore::Text::FontStyles", modifiers: "", def_value: None }, CppParam { name: "fontWeight", ty:
-  // "::UnityEngine::TextCore::Text::TextFontWeight", modifiers: "", def_value: None }, CppParam { name: "textSpans", ty: "::ArrayW<::UnityEngine::TextCore::TextSpan>", modifiers: "", def_value: None
-  // }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "characterSpacing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "wordSpacing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "paragraphSpacing", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "fontAsset", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "globalFontAssetFallbacks", ty:
+  // "::ArrayW<::System::IntPtr>", modifiers: "", def_value: None, comment: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "screenWidth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "screenHeight", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "wordWrap", ty: "::UnityEngine::TextCore::WhiteSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "overflow", ty: "::UnityEngine::TextCore::TextOverflow", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "languageDirection", ty: "::UnityEngine::TextCore::LanguageDirection", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "vertexPadding", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "horizontalAlignment", ty: "::UnityEngine::TextCore::HorizontalAlignment", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "verticalAlignment", ty: "::UnityEngine::TextCore::VerticalAlignment", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "fontSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::TextCore::Text::FontStyles", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "fontWeight", ty: "::UnityEngine::TextCore::Text::TextFontWeight", modifiers: "", def_value: None, comment: None }, CppParam { name: "textSpans", ty:
+  // "::ArrayW<::UnityEngine::TextCore::TextSpan>", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "characterSpacing", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "wordSpacing", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "paragraphSpacing", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NativeTextGenerationSettings(::System::IntPtr fontAsset, ::ArrayW<::System::IntPtr> globalFontAssetFallbacks, ::StringW text, int32_t screenWidth, int32_t screenHeight,
                                          ::UnityEngine::TextCore::WhiteSpace wordWrap, ::UnityEngine::TextCore::TextOverflow overflow, ::UnityEngine::TextCore::LanguageDirection languageDirection,
                                          int32_t vertexPadding, ::UnityEngine::TextCore::HorizontalAlignment horizontalAlignment, ::UnityEngine::TextCore::VerticalAlignment verticalAlignment,
@@ -173,9 +180,11 @@ public:
   /// @brief Field vertexPadding, offset: 0x2c, size: 0x4, def value: None
   int32_t vertexPadding;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field horizontalAlignment, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::TextCore::HorizontalAlignment horizontalAlignment;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field verticalAlignment, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::TextCore::VerticalAlignment verticalAlignment;
 

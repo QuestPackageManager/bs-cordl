@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GeometryUtility.hpp"
+// IWYU pragma private; include "UnityEngine/GeometryUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,8 @@ class GeometryUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::GeometryUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GeometryUtility*, "UnityEngine", "GeometryUtility");
+// [StaticAccessor("GeometryUtilityScripting", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -44,6 +46,7 @@ public:
   /// @brief Method CalculateFrustumPlanes, addr 0x6a80720, size 0xdc, virtual false, abstract: false, final false
   static inline void CalculateFrustumPlanes(::UnityEngine::Matrix4x4 worldToProjectionMatrix, ::ArrayW<::UnityEngine::Plane> planes);
 
+  /// [NativeName("ExtractPlanes")]
   /// @brief Method Internal_ExtractPlanes, addr 0x6a807fc, size 0x128, virtual false, abstract: false, final false
   static inline void Internal_ExtractPlanes(::by_ref<::ArrayW<::UnityEngine::Plane>> planes, ::UnityEngine::Matrix4x4 worldToProjectionMatrix);
 
@@ -62,13 +65,13 @@ protected:
   constexpr GeometryUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GeometryUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeometryUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GeometryUtility(GeometryUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GeometryUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeometryUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GeometryUtility(GeometryUtility const&) = delete;
+  GeometryUtility(GeometryUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10116 };

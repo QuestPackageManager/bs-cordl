@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\PlayerConnection\PlayerConnection.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/PlayerConnection/PlayerConnection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,6 +68,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Networking::PlayerConnection::PlayerConnectio
 DEFINE_IL2CPP_CLASS(::UnityEngine::Networking::PlayerConnection::PlayerConnection___c__DisplayClass12_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass12_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Networking::PlayerConnection::PlayerConnection___c__DisplayClass13_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass13_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Networking::PlayerConnection::PlayerConnection___c__DisplayClass20_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass20_0");
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Object
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
@@ -98,13 +99,13 @@ protected:
   constexpr PlayerConnection___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerConnection___c__DisplayClass12_0(PlayerConnection___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerConnection___c__DisplayClass12_0(PlayerConnection___c__DisplayClass12_0 const&) = delete;
+  PlayerConnection___c__DisplayClass12_0(PlayerConnection___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10650 };
@@ -120,6 +121,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::PlayerConnec
 static_assert(sizeof(::UnityEngine::Networking::PlayerConnection::PlayerConnection___c__DisplayClass12_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Networking::PlayerConnection
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Object
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
@@ -150,13 +152,13 @@ protected:
   constexpr PlayerConnection___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerConnection___c__DisplayClass13_0(PlayerConnection___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerConnection___c__DisplayClass13_0(PlayerConnection___c__DisplayClass13_0 const&) = delete;
+  PlayerConnection___c__DisplayClass13_0(PlayerConnection___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10651 };
@@ -172,6 +174,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::PlayerConnec
 static_assert(sizeof(::UnityEngine::Networking::PlayerConnection::PlayerConnection___c__DisplayClass13_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Networking::PlayerConnection
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
@@ -202,13 +205,13 @@ protected:
   constexpr PlayerConnection___c__DisplayClass20_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass20_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass20_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerConnection___c__DisplayClass20_0(PlayerConnection___c__DisplayClass20_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass20_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection___c__DisplayClass20_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerConnection___c__DisplayClass20_0(PlayerConnection___c__DisplayClass20_0 const&) = delete;
+  PlayerConnection___c__DisplayClass20_0(PlayerConnection___c__DisplayClass20_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10652 };
@@ -261,6 +264,7 @@ public:
   /// @brief Method BlockUntilRecvMsg, addr 0x6b02b78, size 0x260, virtual false, abstract: false, final false
   inline bool BlockUntilRecvMsg(::System::Guid messageId, int32_t timeout);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ConnectedCallbackInternal, addr 0x6b03130, size 0xe0, virtual false, abstract: false, final false
   static inline void ConnectedCallbackInternal(int32_t playerId);
 
@@ -270,12 +274,14 @@ public:
   /// @brief Method DisconnectAll, addr 0x6b02ddc, size 0xa8, virtual true, abstract: false, final true
   inline void DisconnectAll();
 
+  /// [RequiredByNativeCode]
   /// @brief Method DisconnectedCallback, addr 0x6b03210, size 0x9c, virtual false, abstract: false, final false
   static inline void DisconnectedCallback(int32_t playerId);
 
   /// @brief Method GetConnectionNativeApi, addr 0x6b01dbc, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::IPlayerEditorConnectionNative* GetConnectionNativeApi();
 
+  /// [RequiredByNativeCode]
   /// @brief Method MessageCallbackInternal, addr 0x6b02e84, size 0x128, virtual false, abstract: false, final false
   static inline void MessageCallbackInternal(::System::IntPtr data, uint64_t size, uint64_t guid, ::StringW messageId);
 
@@ -352,20 +358,22 @@ protected:
   constexpr PlayerConnection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerConnection(PlayerConnection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerConnection(PlayerConnection const&) = delete;
+  PlayerConnection(PlayerConnectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10653 };
 
+  /// [SerializeField]
   /// @brief Field m_PlayerEditorConnectionEvents, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* ___m_PlayerEditorConnectionEvents;
 
+  /// [SerializeField]
   /// @brief Field m_connectedPlayers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___m_connectedPlayers;
 

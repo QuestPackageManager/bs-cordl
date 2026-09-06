@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ReloadAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ReloadAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ReloadAttribute_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ReloadAttribute_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ReloadAttribute_Package::ReloadAttribute_Package(int32_t value__) noexcept {
   this->value__ = value__;
 }

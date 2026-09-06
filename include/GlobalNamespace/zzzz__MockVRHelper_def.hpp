@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockVRHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockVRHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -170,27 +170,35 @@ public:
   /// @brief Method .ctor, addr 0x585b8ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_controllersDidChangeReferenceEvent, addr 0x585b338, size 0xac, virtual false, abstract: false, final false
   inline void add_controllersDidChangeReferenceEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_controllersDidDisconnectEvent, addr 0x585b490, size 0xac, virtual false, abstract: false, final false
   inline void add_controllersDidDisconnectEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_hmdMountedEvent, addr 0x585b1e0, size 0xac, virtual false, abstract: false, final false
   inline void add_hmdMountedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_hmdUnmountedEvent, addr 0x585b088, size 0xac, virtual false, abstract: false, final false
   inline void add_hmdUnmountedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_inputFocusWasCapturedEvent, addr 0x585ab28, size 0xac, virtual false, abstract: false, final false
   inline void add_inputFocusWasCapturedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_inputFocusWasReleasedEvent, addr 0x585ac80, size 0xac, virtual false, abstract: false, final false
   inline void add_inputFocusWasReleasedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_vrFocusWasCapturedEvent, addr 0x585add8, size 0xac, virtual false, abstract: false, final false
   inline void add_vrFocusWasCapturedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_vrFocusWasReleasedEvent, addr 0x585af30, size 0xac, virtual false, abstract: false, final false
   inline void add_vrFocusWasReleasedEvent(::System::Action* value);
 
@@ -209,27 +217,35 @@ public:
   /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
   constexpr ::GlobalNamespace::IVRPlatformHelper* i___GlobalNamespace__IVRPlatformHelper() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_controllersDidChangeReferenceEvent, addr 0x585b3e4, size 0xac, virtual false, abstract: false, final false
   inline void remove_controllersDidChangeReferenceEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_controllersDidDisconnectEvent, addr 0x585b53c, size 0xac, virtual false, abstract: false, final false
   inline void remove_controllersDidDisconnectEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_hmdMountedEvent, addr 0x585b28c, size 0xac, virtual false, abstract: false, final false
   inline void remove_hmdMountedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_hmdUnmountedEvent, addr 0x585b134, size 0xac, virtual false, abstract: false, final false
   inline void remove_hmdUnmountedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_inputFocusWasCapturedEvent, addr 0x585abd4, size 0xac, virtual false, abstract: false, final false
   inline void remove_inputFocusWasCapturedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_inputFocusWasReleasedEvent, addr 0x585ad2c, size 0xac, virtual false, abstract: false, final false
   inline void remove_inputFocusWasReleasedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_vrFocusWasCapturedEvent, addr 0x585ae84, size 0xac, virtual false, abstract: false, final false
   inline void remove_vrFocusWasCapturedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_vrFocusWasReleasedEvent, addr 0x585afdc, size 0xac, virtual false, abstract: false, final false
   inline void remove_vrFocusWasReleasedEvent(::System::Action* value);
 
@@ -239,38 +255,46 @@ protected:
   constexpr MockVRHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockVRHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockVRHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockVRHelper(MockVRHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockVRHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockVRHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockVRHelper(MockVRHelper const&) = delete;
+  MockVRHelper(MockVRHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21451 };
 
+  /// [CompilerGenerated]
   /// @brief Field inputFocusWasCapturedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___inputFocusWasCapturedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field inputFocusWasReleasedEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___inputFocusWasReleasedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field vrFocusWasCapturedEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___vrFocusWasCapturedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field vrFocusWasReleasedEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___vrFocusWasReleasedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field hmdUnmountedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___hmdUnmountedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field hmdMountedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action* ___hmdMountedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field controllersDidChangeReferenceEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___controllersDidChangeReferenceEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field controllersDidDisconnectEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___controllersDidDisconnectEvent;
 

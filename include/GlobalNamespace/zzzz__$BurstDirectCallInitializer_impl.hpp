@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\$BurstDirectCallInitializer.hpp"
+// IWYU pragma private; include "GlobalNamespace/$BurstDirectCallInitializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__$BurstDirectCallInitializer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::$BurstDirectCallInitializer.Initialize

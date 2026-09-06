@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HttpWebResponse.hpp"
+// IWYU pragma private; include "System/Net/HttpWebResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,6 +128,7 @@ public:
 
   static inline ::System::Net::HttpWebResponse* New_ctor();
 
+  /// @brief [Obsolete("Serialization is obsoleted for this type", false)]
   static inline ::System::Net::HttpWebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Net::HttpWebResponse* New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers);
@@ -216,6 +217,7 @@ public:
   /// @brief Method .ctor, addr 0x6337820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [Obsolete("Serialization is obsoleted for this type", false)]
   /// @brief Method .ctor, addr 0x6337af4, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -249,13 +251,13 @@ protected:
   constexpr HttpWebResponse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpWebResponse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpWebResponse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpWebResponse(HttpWebResponse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpWebResponse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpWebResponse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpWebResponse(HttpWebResponse const&) = delete;
+  HttpWebResponse(HttpWebResponseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11611 };

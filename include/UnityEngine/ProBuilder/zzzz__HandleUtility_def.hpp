@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\HandleUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/HandleUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ class HandleUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::HandleUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::HandleUtility*, "UnityEngine.ProBuilder", "HandleUtility");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -122,6 +123,7 @@ public:
   /// @brief Method GetVertexRotation, addr 0x66c1c5c, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetVertexRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t vertex);
 
+  /// [Extension]
   /// @brief Method InverseTransformRay, addr 0x66bffdc, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray InverseTransformRay(::UnityEngine::Transform* transform, ::UnityEngine::Ray InWorldRay);
 
@@ -134,6 +136,7 @@ public:
   /// @brief Method PointIsOccluded, addr 0x66c07f8, size 0x2c4, virtual false, abstract: false, final false
   static inline bool PointIsOccluded(::UnityEngine::Camera* cam, ::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::UnityEngine::Vector3 worldPoint);
 
+  /// [Extension]
   /// @brief Method ScreenToGuiPoint, addr 0x66becb4, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ScreenToGuiPoint(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 point, float_t pixelsPerPoint);
 
@@ -143,13 +146,13 @@ protected:
   constexpr HandleUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HandleUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandleUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HandleUtility(HandleUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HandleUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandleUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandleUtility(HandleUtility const&) = delete;
+  HandleUtility(HandleUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16739 };

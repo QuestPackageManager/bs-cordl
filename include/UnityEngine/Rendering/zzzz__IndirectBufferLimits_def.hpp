@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferLimits.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferLimits.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr IndirectBufferLimits();
 
-  // Ctor Parameters [CppParam { name: "maxInstanceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxDrawCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "maxInstanceCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxDrawCount", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr IndirectBufferLimits(int32_t maxInstanceCount, int32_t maxDrawCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

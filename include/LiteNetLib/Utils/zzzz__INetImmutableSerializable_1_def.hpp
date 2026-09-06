@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\INetImmutableSerializable_1.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/INetImmutableSerializable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,15 +29,15 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable*() noexcept;
 
-  /// @brief Method CreateFromSerializedData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateFromSerializedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable"
   constexpr ::LiteNetLib::Utils::INetImmutableSerializable* i___LiteNetLib__Utils__INetImmutableSerializable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "INetImmutableSerializable_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INetImmutableSerializable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INetImmutableSerializable_1(INetImmutableSerializable_1 const&) = delete;
+  INetImmutableSerializable_1(INetImmutableSerializable_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20090 };

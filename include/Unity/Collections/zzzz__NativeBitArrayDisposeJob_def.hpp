@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeBitArrayDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeBitArrayDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct NativeBitArrayDisposeJob;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeBitArrayDisposeJob);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeBitArrayDisposeJob, "Unity.Collections", "NativeBitArrayDisposeJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeBitArrayDispose
 namespace Unity::Collections {
 // Is value type: true
@@ -36,7 +37,7 @@ public:
   // @brief default ctor
   constexpr NativeBitArrayDisposeJob();
 
-  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeBitArrayDispose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeBitArrayDispose", modifiers: "", def_value: None, comment: None }]
   constexpr NativeBitArrayDisposeJob(::Unity::Collections::NativeBitArrayDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

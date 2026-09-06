@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TransitionData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TransitionData.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -136,10 +136,10 @@ constexpr UnityEngine::UIElements::TransitionData::operator ::System::IEquatable
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>* UnityEngine::UIElements::TransitionData::i___System__IEquatable_1___UnityEngine__UIElements__TransitionData_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "transitionDelay", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "transitionDuration", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "transitionProperty", ty:
-// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "transitionTimingFunction", ty:
-// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "transitionDelay", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "transitionDuration", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "transitionProperty", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "transitionTimingFunction", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TransitionData::TransitionData(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* transitionDelay,
                                                                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* transitionDuration,
                                                                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* transitionProperty,

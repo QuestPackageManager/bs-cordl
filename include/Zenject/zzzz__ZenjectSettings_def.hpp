@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ZenjectSettings.hpp"
+// IWYU pragma private; include "Zenject/ZenjectSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,6 +80,7 @@ public:
   static inline ::Zenject::ZenjectSettings_SignalSettings* New_ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse,
                                                                     bool requireStrictUnsubscribe, int32_t defaultAsyncTickPriority);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method SignalSettingsNoDomainReloadInit, addr 0x6e8414c, size 0x80, virtual false, abstract: false, final false
   static inline void SignalSettingsNoDomainReloadInit();
 
@@ -110,6 +111,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e84284, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e842e4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -142,26 +144,30 @@ protected:
   constexpr ZenjectSettings_SignalSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings_SignalSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings_SignalSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings_SignalSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings_SignalSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettings const&) = delete;
+  ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14529 };
 
+  /// [SerializeField]
   /// @brief Field _defaultSyncMode, offset: 0x10, size: 0x4, def value: None
   ::Zenject::SignalDefaultSyncModes ____defaultSyncMode;
 
+  /// [SerializeField]
   /// @brief Field _missingHandlerDefaultResponse, offset: 0x14, size: 0x4, def value: None
   ::Zenject::SignalMissingHandlerResponses ____missingHandlerDefaultResponse;
 
+  /// [SerializeField]
   /// @brief Field _requireStrictUnsubscribe, offset: 0x18, size: 0x1, def value: None
   bool ____requireStrictUnsubscribe;
 
+  /// [SerializeField]
   /// @brief Field _defaultAsyncTickPriority, offset: 0x1c, size: 0x4, def value: None
   int32_t ____defaultAsyncTickPriority;
 
@@ -179,6 +185,8 @@ static_assert(offsetof(::Zenject::ZenjectSettings_SignalSettings, ____defaultAsy
 static_assert(sizeof(::Zenject::ZenjectSettings_SignalSettings) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [ZenjectAllowDuringValidation]
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.RootResolveMethods, Zenject.ValidationErrorResponses
 namespace Zenject {
 // Is value type: false
@@ -224,6 +232,7 @@ public:
                                                      bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit,
                                                      ::Zenject::ZenjectSettings_SignalSettings* signalSettings);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e83f7c, size 0x80, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -289,29 +298,34 @@ protected:
   constexpr ZenjectSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectSettings(ZenjectSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectSettings(ZenjectSettings const&) = delete;
+  ZenjectSettings(ZenjectSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14530 };
 
+  /// [SerializeField]
   /// @brief Field _ensureDeterministicDestructionOrderOnApplicationQuit, offset: 0x10, size: 0x1, def value: None
   bool ____ensureDeterministicDestructionOrderOnApplicationQuit;
 
+  /// [SerializeField]
   /// @brief Field _displayWarningWhenResolvingDuringInstall, offset: 0x11, size: 0x1, def value: None
   bool ____displayWarningWhenResolvingDuringInstall;
 
+  /// [SerializeField]
   /// @brief Field _validationRootResolveMethod, offset: 0x14, size: 0x4, def value: None
   ::Zenject::RootResolveMethods ____validationRootResolveMethod;
 
+  /// [SerializeField]
   /// @brief Field _validationErrorResponse, offset: 0x18, size: 0x4, def value: None
   ::Zenject::ValidationErrorResponses ____validationErrorResponse;
 
+  /// [SerializeField]
   /// @brief Field _signalSettings, offset: 0x20, size: 0x8, def value: None
   ::Zenject::ZenjectSettings_SignalSettings* ____signalSettings;
 

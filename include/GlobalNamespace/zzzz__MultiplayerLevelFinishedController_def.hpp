@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLevelFinishedController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelFinishedController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_REF_T(::GlobalNamespace::MultiplayerLevelFinishedController*);
 MARK_REF_T(::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLevelFinishedController*, "", "MultiplayerLevelFinishedController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*, "", "MultiplayerLevelFinishedController/<StartLevelFinished>d__20");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -101,17 +102,22 @@ public:
   /// @brief Method MoveNext, addr 0x59b6368, size 0x4f8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59b6860, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59b6868, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59b68a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59b6364, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -157,6 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59b6088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -175,13 +182,13 @@ protected:
   constexpr MultiplayerLevelFinishedController__StartLevelFinished_d__20();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController__StartLevelFinished_d__20", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController__StartLevelFinished_d__20", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLevelFinishedController__StartLevelFinished_d__20(MultiplayerLevelFinishedController__StartLevelFinished_d__20&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController__StartLevelFinished_d__20", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController__StartLevelFinished_d__20", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLevelFinishedController__StartLevelFinished_d__20(MultiplayerLevelFinishedController__StartLevelFinished_d__20 const&) = delete;
+  MultiplayerLevelFinishedController__StartLevelFinished_d__20(MultiplayerLevelFinishedController__StartLevelFinished_d__20const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6038 };
@@ -227,6 +234,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController__St
 static_assert(sizeof(::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerLevelFinishedController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -292,6 +300,7 @@ public:
   /// @brief Method Start, addr 0x59b5b28, size 0x288, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [IteratorStateMachine(typeof(MultiplayerLevelFinishedController::<StartLevelFinished>d__20))]
   /// @brief Method StartLevelFinished, addr 0x59b6028, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevelFinished(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults);
 
@@ -357,6 +366,7 @@ public:
   /// @brief Method .ctor, addr 0x59b62c8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_allResultsCollectedEvent, addr 0x59b5990, size 0xc0, virtual false, abstract: false, final false
   inline void add_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                               ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
@@ -370,6 +380,7 @@ public:
   /// @brief Method get_otherPlayersCompletionResults, addr 0x59b5b18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* get_otherPlayersCompletionResults();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_allResultsCollectedEvent, addr 0x59b5a50, size 0xc0, virtual false, abstract: false, final false
   inline void remove_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
@@ -380,13 +391,13 @@ protected:
   constexpr MultiplayerLevelFinishedController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLevelFinishedController(MultiplayerLevelFinishedController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLevelFinishedController(MultiplayerLevelFinishedController const&) = delete;
+  MultiplayerLevelFinishedController(MultiplayerLevelFinishedControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6039 };
@@ -394,18 +405,23 @@ public:
   /// @brief Field kMinSceneDuration offset 0xffffffff size 0x4
   static constexpr float_t kMinSceneDuration{ static_cast<float_t>(2.0f) };
 
+  /// [Inject]
   /// @brief Field _levelEndActionsPublisher, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* ____levelEndActionsPublisher;
 
+  /// [Inject]
   /// @brief Field _rpcManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____rpcManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _beatmapBasicData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapBasicData* ____beatmapBasicData;
 
+  /// [CompilerGenerated]
   /// @brief Field allResultsCollectedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*
       ___allResultsCollectedEvent;

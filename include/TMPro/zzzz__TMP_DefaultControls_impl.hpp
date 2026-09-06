@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_DefaultControls.hpp"
+// IWYU pragma private; include "TMPro/TMP_DefaultControls.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/zzzz__TMP_DefaultControls_def.hpp"
 #include "TMPro/zzzz__TMP_DefaultControls_def.hpp"
@@ -10,11 +11,11 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "background", ty: "::UnityW<::UnityEngine::Sprite>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "knob", ty:
-// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "background", ty:
+// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "knob", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "checkmark", ty:
+// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_DefaultControls_Resources::TMP_DefaultControls_Resources(::UnityW<::UnityEngine::Sprite> standard, ::UnityW<::UnityEngine::Sprite> background,
                                                                                 ::UnityW<::UnityEngine::Sprite> inputField, ::UnityW<::UnityEngine::Sprite> knob,
                                                                                 ::UnityW<::UnityEngine::Sprite> checkmark, ::UnityW<::UnityEngine::Sprite> dropdown,
@@ -265,7 +266,9 @@ inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateDro
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "CreateDropdown", {}, { ::i2c::type_of<::TMPro::TMP_DefaultControls_Resources>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, resources);
 }
-template <typename T> inline T TMPro::TMP_DefaultControls::AddComponent(::UnityEngine::GameObject* go) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T TMPro::TMP_DefaultControls::AddComponent(::UnityEngine::GameObject* go) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_DefaultControls*>(), { "AddComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

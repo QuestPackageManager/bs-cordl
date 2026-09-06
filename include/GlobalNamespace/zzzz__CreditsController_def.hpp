@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CreditsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/CreditsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,6 +99,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::CreditsController*, "", "CreditsControlle
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CreditsController__ScrollCoroutine_d__18*, "", "CreditsController/<ScrollCoroutine>d__18");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CreditsController___c*, "", "CreditsController/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CreditsController__StartAsync_d__15, "", "CreditsController/<StartAsync>d__15");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -165,13 +166,13 @@ protected:
   constexpr CreditsController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreditsController___c(CreditsController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsController___c(CreditsController___c const&) = delete;
+  CreditsController___c(CreditsController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23221 };
@@ -182,6 +183,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::CreditsController___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -226,17 +228,22 @@ public:
   /// @brief Method MoveNext, addr 0x328000c, size 0x240, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::CreditsController__ScrollCoroutine_d__18* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x328024c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3280254, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x328028c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3280008, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -282,6 +289,7 @@ public:
 
   constexpr void __cordl_internal_set__scrollingSpeed_5__5(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x327f8a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -300,13 +308,13 @@ protected:
   constexpr CreditsController__ScrollCoroutine_d__18();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsController__ScrollCoroutine_d__18", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsController__ScrollCoroutine_d__18", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreditsController__ScrollCoroutine_d__18(CreditsController__ScrollCoroutine_d__18&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsController__ScrollCoroutine_d__18", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsController__ScrollCoroutine_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsController__ScrollCoroutine_d__18(CreditsController__ScrollCoroutine_d__18 const&) = delete;
+  CreditsController__ScrollCoroutine_d__18(CreditsController__ScrollCoroutine_d__18const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23222 };
@@ -352,6 +360,7 @@ static_assert(offsetof(::GlobalNamespace::CreditsController__ScrollCoroutine_d__
 static_assert(sizeof(::GlobalNamespace::CreditsController__ScrollCoroutine_d__18) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -365,6 +374,7 @@ public:
   /// @brief Method MoveNext, addr 0x3280294, size 0x768, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32809fc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -375,9 +385,10 @@ public:
   // @brief default ctor
   constexpr CreditsController__StartAsync_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::CreditsController>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::UnityEngine::GameObject>>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::CreditsController>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::UnityEngine::GameObject>>>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr CreditsController__StartAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::CreditsController> __4__this,
                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::UnityEngine::GameObject>>> __u__1) noexcept;
 
@@ -484,6 +495,7 @@ public:
   /// @brief Method PauseCredits, addr 0x327f924, size 0x30, virtual false, abstract: false, final false
   inline void PauseCredits();
 
+  /// [IteratorStateMachine(typeof(CreditsController::<ScrollCoroutine>d__18))]
   /// @brief Method ScrollCoroutine, addr 0x327f854, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ScrollCoroutine();
 
@@ -496,6 +508,7 @@ public:
   /// @brief Method Start, addr 0x327f0d4, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [AsyncStateMachine(typeof(CreditsController::<StartAsync>d__15))]
   /// @brief Method StartAsync, addr 0x327f154, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartAsync();
 
@@ -593,44 +606,55 @@ protected:
   constexpr CreditsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreditsController(CreditsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsController(CreditsController const&) = delete;
+  CreditsController(CreditsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23224 };
 
+  /// [SerializeField]
   /// @brief Field _audioPlayer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPlayerBase> ____audioPlayer;
 
+  /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
+  /// [SerializeField]
   /// @brief Field _contentRectTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentRectTransform;
 
+  /// [SerializeField]
   /// @brief Field _overflowHeight, offset: 0x38, size: 0x4, def value: None
   float_t ____overflowHeight;
 
+  /// [SerializeField]
   /// @brief Field _contentWrapper, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentWrapper;
 
+  /// [Header("Game Credits")]
+  /// [SerializeField]
   /// @brief Field _beforeMusicPacksCredits, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____beforeMusicPacksCredits;
 
+  /// [SerializeField]
   /// @brief Field _afterMusicPacksCredits, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____afterMusicPacksCredits;
 
+  /// [Inject]
   /// @brief Field _xrSystemState, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
+  /// [Inject]
   /// @brief Field _packDefinitions, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ____packDefinitions;
 
+  /// [Inject]
   /// @brief Field _creditsSceneSetupData, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::CreditsScenesTransitionSetupData* ____creditsSceneSetupData;
 

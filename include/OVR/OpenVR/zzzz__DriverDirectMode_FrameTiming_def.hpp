@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\DriverDirectMode_FrameTiming.hpp"
+// IWYU pragma private; include "OVR/OpenVR/DriverDirectMode_FrameTiming.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,9 @@ public:
   // @brief default ctor
   constexpr DriverDirectMode_FrameTiming();
 
-  // Ctor Parameters [CppParam { name: "m_nSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumFramePresents", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_nNumMisPresented", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumDroppedFrames", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_nReprojectionFlags", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_nSize", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_nNumFramePresents", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_nNumMisPresented", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_nNumDroppedFrames", ty: "uint32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_nReprojectionFlags", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DriverDirectMode_FrameTiming(uint32_t m_nSize, uint32_t m_nNumFramePresents, uint32_t m_nNumMisPresented, uint32_t m_nNumDroppedFrames, uint32_t m_nReprojectionFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

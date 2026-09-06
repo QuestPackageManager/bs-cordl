@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Texture2DArray.hpp"
+// IWYU pragma private; include "UnityEngine/Texture2DArray.hpp"
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__Texture2DArray_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -386,7 +386,7 @@ inline bool UnityEngine::Texture2DArray::get_isReadable() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Texture2DArray*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline bool UnityEngine::Texture2DArray::Internal_CreateImpl(::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount,
+inline bool UnityEngine::Texture2DArray::Internal_CreateImpl(/* [Writable] */ ::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount,
                                                              ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
                                                              ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, bool ignoreMipmapLimit, ::StringW mipmapLimitGroupName) {
   static auto* ___internal_method =
@@ -399,7 +399,7 @@ inline bool UnityEngine::Texture2DArray::Internal_CreateImpl(::UnityEngine::Text
                                            ::i2c::type_of<::UnityEngine::Experimental::Rendering::TextureCreationFlags>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, mono, w, h, d, mipCount, format, colorSpace, flags, ignoreMipmapLimit, mipmapLimitGroupName);
 }
-inline void UnityEngine::Texture2DArray::Internal_Create(::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount,
+inline void UnityEngine::Texture2DArray::Internal_Create(/* [Writable] */ ::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount,
                                                          ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
                                                          ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, bool ignoreMipmapLimit, ::StringW mipmapLimitGroupName) {
   static auto* ___internal_method =
@@ -517,7 +517,8 @@ inline void UnityEngine::Texture2DArray::_ctor(int32_t width, int32_t height, in
                                                                                               ::i2c::type_of<::UnityEngine::TextureFormat>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, depth, textureFormat, mipCount, linear);
 }
-inline void UnityEngine::Texture2DArray::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear, bool createUninitialized) {
+inline void UnityEngine::Texture2DArray::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, /* [DefaultValue("false")] */ bool linear,
+                                               /* [DefaultValue("false")] */ bool createUninitialized) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2DArray*>(),
                                                            { ".ctor",
@@ -526,7 +527,7 @@ inline void UnityEngine::Texture2DArray::_ctor(int32_t width, int32_t height, in
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, depth, textureFormat, mipChain, linear, createUninitialized);
 }
-inline void UnityEngine::Texture2DArray::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) {
+inline void UnityEngine::Texture2DArray::_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, /* [DefaultValue("false")] */ bool linear) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2DArray*>(), { ".ctor",
@@ -554,7 +555,7 @@ inline bool UnityEngine::Texture2DArray::get_isReadable_Injected(::System::IntPt
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture2DArray*>(), { "get_isReadable_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self);
 }
-inline bool UnityEngine::Texture2DArray::Internal_CreateImpl_Injected(::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount,
+inline bool UnityEngine::Texture2DArray::Internal_CreateImpl_Injected(/* [Writable] */ ::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount,
                                                                       ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
                                                                       ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, bool ignoreMipmapLimit,
                                                                       ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> mipmapLimitGroupName) {
@@ -568,27 +569,33 @@ inline bool UnityEngine::Texture2DArray::Internal_CreateImpl_Injected(::UnityEng
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, mono, w, h, d, mipCount, format, colorSpace, flags, ignoreMipmapLimit, mipmapLimitGroupName);
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
                                                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2DArray*>(width, height, depth, format, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
                                                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2DArray*>(width, height, depth, format, flags, mipCount));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format,
                                                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount,
                                                                             ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2DArray*>(width, height, depth, format, flags, mipCount, mipmapLimitDescriptor));
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2DArray*>(width, height, depth, format, flags));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2DArray*>(width, height, depth, format, flags, mipCount));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                             ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount,
                                                                             ::UnityEngine::MipmapLimitDescriptor mipmapLimitDescriptor) {
@@ -605,13 +612,15 @@ inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int3
 inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2DArray*>(width, height, depth, textureFormat, mipCount, linear));
 }
-inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear,
-                                                                            bool createUninitialized) {
+inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain,
+                                                                            /* [DefaultValue("false")] */ bool linear, /* [DefaultValue("false")] */ bool createUninitialized) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2DArray*>(width, height, depth, textureFormat, mipChain, linear, createUninitialized));
 }
-inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear) {
+inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain,
+                                                                            /* [DefaultValue("false")] */ bool linear) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2DArray*>(width, height, depth, textureFormat, mipChain, linear));
 }
+/// @brief [ExcludeFromDocs]
 inline ::UnityEngine::Texture2DArray* UnityEngine::Texture2DArray::New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Texture2DArray*>(width, height, depth, textureFormat, mipChain));
 }

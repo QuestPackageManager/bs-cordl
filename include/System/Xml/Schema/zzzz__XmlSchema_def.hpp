@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchema.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchema.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,6 +72,7 @@ class XmlSchema;
 // Write type traits
 MARK_REF_T(::System::Xml::Schema::XmlSchema*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Schema::XmlSchema*, "System.Xml.Schema", "XmlSchema");
+// [XmlRoot("schema", Namespace = "http://www.w3.org/2001/XMLSchema")]
 // Dependencies System.Xml.Schema.XmlSchemaDerivationMethod, System.Xml.Schema.XmlSchemaForm, System.Xml.Schema.XmlSchemaObject, System.Xml.XmlAttribute
 namespace System::Xml::Schema {
 // Is value type: false
@@ -79,60 +80,99 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchema : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
+  /// [XmlAttribute("attributeFormDefault")]
+  /// @brief [DefaultValue((System.Xml.Schema.XmlSchemaForm)0)]
   __declspec(property(get = get_AttributeFormDefault, put = set_AttributeFormDefault)) ::System::Xml::Schema::XmlSchemaForm AttributeFormDefault;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_AttributeGroups)) ::System::Xml::Schema::XmlSchemaObjectTable* AttributeGroups;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Attributes)) ::System::Xml::Schema::XmlSchemaObjectTable* Attributes;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_BaseUri, put = set_BaseUri)) ::System::Uri* BaseUri;
 
+  /// [DefaultValue((System.Xml.Schema.XmlSchemaDerivationMethod)256)]
+  /// @brief [XmlAttribute("blockDefault")]
   __declspec(property(get = get_BlockDefault, put = set_BlockDefault)) ::System::Xml::Schema::XmlSchemaDerivationMethod BlockDefault;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Document)) ::System::Xml::XmlDocument* Document;
 
+  /// [XmlAttribute("elementFormDefault")]
+  /// @brief [DefaultValue((System.Xml.Schema.XmlSchemaForm)0)]
   __declspec(property(get = get_ElementFormDefault, put = set_ElementFormDefault)) ::System::Xml::Schema::XmlSchemaForm ElementFormDefault;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Elements)) ::System::Xml::Schema::XmlSchemaObjectTable* Elements;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_ErrorCount, put = set_ErrorCount)) int32_t ErrorCount;
 
+  /// [XmlAttribute("finalDefault")]
+  /// @brief [DefaultValue((System.Xml.Schema.XmlSchemaDerivationMethod)256)]
   __declspec(property(get = get_FinalDefault, put = set_FinalDefault)) ::System::Xml::Schema::XmlSchemaDerivationMethod FinalDefault;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Groups)) ::System::Xml::Schema::XmlSchemaObjectTable* Groups;
 
+  /// @brief [XmlAttribute("id", DataType = "ID")]
   __declspec(property(get = get_Id, put = set_Id)) ::StringW Id;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IdAttribute, put = set_IdAttribute)) ::StringW IdAttribute;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IdentityConstraints)) ::System::Xml::Schema::XmlSchemaObjectTable* IdentityConstraints;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Ids)) ::System::Collections::Hashtable* Ids;
 
   __declspec(property(get = get_ImportedNamespaces)) ::System::Collections::ArrayList* ImportedNamespaces;
 
   __declspec(property(get = get_ImportedSchemas)) ::System::Collections::ArrayList* ImportedSchemas;
 
+  /// [XmlElement("import", typeof(System.Xml.Schema.XmlSchemaImport))]
+  /// [XmlElement("include", typeof(System.Xml.Schema.XmlSchemaInclude))]
+  /// @brief [XmlElement("redefine", typeof(System.Xml.Schema.XmlSchemaRedefine))]
   __declspec(property(get = get_Includes)) ::System::Xml::Schema::XmlSchemaObjectCollection* Includes;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IsChameleon, put = set_IsChameleon)) bool IsChameleon;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IsCompiledBySet, put = set_IsCompiledBySet)) bool IsCompiledBySet;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IsPreprocessed, put = set_IsPreprocessed)) bool IsPreprocessed;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IsRedefined, put = set_IsRedefined)) bool IsRedefined;
 
+  /// [XmlElement("attributeGroup", typeof(System.Xml.Schema.XmlSchemaAttributeGroup))]
+  /// [XmlElement("annotation", typeof(System.Xml.Schema.XmlSchemaAnnotation))]
+  /// [XmlElement("notation", typeof(System.Xml.Schema.XmlSchemaNotation))]
+  /// [XmlElement("attribute", typeof(System.Xml.Schema.XmlSchemaAttribute))]
+  /// [XmlElement("group", typeof(System.Xml.Schema.XmlSchemaGroup))]
+  /// [XmlElement("element", typeof(System.Xml.Schema.XmlSchemaElement))]
+  /// [XmlElement("complexType", typeof(System.Xml.Schema.XmlSchemaComplexType))]
+  /// @brief [XmlElement("simpleType", typeof(System.Xml.Schema.XmlSchemaSimpleType))]
   __declspec(property(get = get_Items)) ::System::Xml::Schema::XmlSchemaObjectCollection* Items;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Notations)) ::System::Xml::Schema::XmlSchemaObjectTable* Notations;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_SchemaId)) int32_t SchemaId;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_SchemaTypes)) ::System::Xml::Schema::XmlSchemaObjectTable* SchemaTypes;
 
+  /// @brief [XmlAttribute("targetNamespace", DataType = "anyURI")]
   __declspec(property(get = get_TargetNamespace, put = set_TargetNamespace)) ::StringW TargetNamespace;
 
+  /// @brief [XmlAttribute("version", DataType = "token")]
   __declspec(property(get = get_Version, put = set_Version)) ::StringW Version;
 
   /// @brief Field attributeFormDefault, offset 0x34, size 0x4
@@ -569,13 +609,13 @@ protected:
   constexpr XmlSchema();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchema", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchema", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchema(XmlSchema&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchema", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchema", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchema(XmlSchema const&) = delete;
+  XmlSchema(XmlSchemaconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9739 };

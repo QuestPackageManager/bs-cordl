@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\BindingRestrictions_MergedRestriction.hpp"
+// IWYU pragma private; include "System/Dynamic/BindingRestrictions_MergedRestriction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,13 +57,13 @@ protected:
   constexpr BindingRestrictions_MergedRestriction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_MergedRestriction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_MergedRestriction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingRestrictions_MergedRestriction(BindingRestrictions_MergedRestriction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_MergedRestriction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_MergedRestriction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions_MergedRestriction(BindingRestrictions_MergedRestriction const&) = delete;
+  BindingRestrictions_MergedRestriction(BindingRestrictions_MergedRestrictionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16641 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\StaticAccessorAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/StaticAccessorAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class StaticAccessorAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::StaticAccessorAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::StaticAccessorAttribute*, "UnityEngine.Bindings", "StaticAccessorAttribute");
+// [AttributeUsage((System.AttributeTargets)204)]
+// [VisibleToOtherModules]
 // Dependencies System.Attribute, UnityEngine.Bindings.StaticAccessorType
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -34,6 +36,7 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::UnityEngine::Bindings::StaticAccessorType _Type_k__BackingField;
 
+  /// @brief [VisibleToOtherModules]
   static inline ::UnityEngine::Bindings::StaticAccessorAttribute* New_ctor(::StringW name);
 
   static inline ::UnityEngine::Bindings::StaticAccessorAttribute* New_ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
@@ -50,15 +53,18 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
 
+  /// [VisibleToOtherModules]
   /// @brief Method .ctor, addr 0x6bb6544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   /// @brief Method .ctor, addr 0x6bb654c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x6bb6534, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Type, addr 0x6bb653c, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::UnityEngine::Bindings::StaticAccessorType value);
 
@@ -68,20 +74,24 @@ protected:
   constexpr StaticAccessorAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticAccessorAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticAccessorAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticAccessorAttribute(StaticAccessorAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticAccessorAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticAccessorAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticAccessorAttribute(StaticAccessorAttribute const&) = delete;
+  StaticAccessorAttribute(StaticAccessorAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23122 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Type>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Bindings::StaticAccessorType ____Type_k__BackingField;
 

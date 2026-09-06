@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\LockHolder.hpp"
+// IWYU pragma private; include "System/Threading/LockHolder.hpp"
 #include "System/Threading/zzzz__LockHolder_def.hpp"
 #include "System/Threading/zzzz__Lock_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -45,7 +45,7 @@ constexpr System::Threading::LockHolder::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* System::Threading::LockHolder::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_lock", ty: "::System::Threading::Lock*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_lock", ty: "::System::Threading::Lock*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Threading::LockHolder::LockHolder(::System::Threading::Lock* _lock) noexcept {
   this->_lock = _lock;
 }

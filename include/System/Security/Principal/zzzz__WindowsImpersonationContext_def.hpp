@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Principal\WindowsImpersonationContext.hpp"
+// IWYU pragma private; include "System/Security/Principal/WindowsImpersonationContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class WindowsImpersonationContext;
 // Write type traits
 MARK_REF_T(::System::Security::Principal::WindowsImpersonationContext*);
 DEFINE_IL2CPP_CLASS(::System::Security::Principal::WindowsImpersonationContext*, "System.Security.Principal", "WindowsImpersonationContext");
+// [ComVisible(true)]
 // Dependencies System.IntPtr, System.Object
 namespace System::Security::Principal {
 // Is value type: false
@@ -38,6 +39,7 @@ public:
   /// @brief Method CloseToken, addr 0x5b17c9c, size 0x8, virtual false, abstract: false, final false
   static inline bool CloseToken(::System::IntPtr token);
 
+  /// [ComVisible(false)]
   /// @brief Method Dispose, addr 0x5b17c4c, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
@@ -79,13 +81,13 @@ protected:
   constexpr WindowsImpersonationContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsImpersonationContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsImpersonationContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WindowsImpersonationContext(WindowsImpersonationContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsImpersonationContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsImpersonationContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WindowsImpersonationContext(WindowsImpersonationContext const&) = delete;
+  WindowsImpersonationContext(WindowsImpersonationContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3023 };

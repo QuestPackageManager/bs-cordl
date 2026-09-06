@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevel.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevel.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
@@ -140,8 +140,8 @@ inline void GlobalNamespace::BeatmapLevel___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapDifficulty
-GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_1(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
+inline ::GlobalNamespace::BeatmapDifficulty GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_1(
+    /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */ ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
@@ -154,8 +154,8 @@ inline int32_t GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__23_2(::Glo
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(), { "<GetDifficulties>b__23_2", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, difficulty);
 }
-inline ::GlobalNamespace::BeatmapCharacteristic
-GlobalNamespace::BeatmapLevel___c::_GetCharacteristics_b__24_0(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
+inline ::GlobalNamespace::BeatmapCharacteristic GlobalNamespace::BeatmapLevel___c::_GetCharacteristics_b__24_0(
+    /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */ ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
@@ -216,7 +216,8 @@ inline void GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::_GetDifficulties_b__0(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
+inline bool GlobalNamespace::BeatmapLevel___c__DisplayClass23_0::_GetDifficulties_b__0(
+    /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */ ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass23_0*>(),
@@ -646,7 +647,7 @@ GlobalNamespace::BeatmapLevel::get_beatmapBasicData() {
 inline void GlobalNamespace::BeatmapLevel::_ctor(int32_t version, bool hasPrecalculatedData, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName,
                                                  ::ArrayW<::StringW> allMappers, ::ArrayW<::StringW> allLighters, float_t beatsPerMinute, float_t integratedLufs, float_t songTimeOffset,
                                                  float_t previewStartTime, float_t previewDuration, float_t songDuration, ::GlobalNamespace::PlayerSensitivityFlag contentRating,
-                                                 ::GlobalNamespace::IPreviewMediaData* previewMediaData,
+                                                 ::GlobalNamespace::IPreviewMediaData* previewMediaData, /* [Nullable(new[] { 1, 0, 1 })] */
                                                  ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>,
                                                                                               ::GlobalNamespace::BeatmapBasicData*>* beatmapBasicData) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -713,8 +714,8 @@ inline void GlobalNamespace::BeatmapLevel::RemoveBeatmapBasicData(::GlobalNamesp
                                        { "RemoveBeatmapBasicData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, characteristic, difficulty);
 }
-inline ::GlobalNamespace::BeatmapKey
-GlobalNamespace::BeatmapLevel::_GetBeatmapKeys_b__25_0(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
+inline ::GlobalNamespace::BeatmapKey GlobalNamespace::BeatmapLevel::_GetBeatmapKeys_b__25_0(
+    /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */ ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
@@ -724,7 +725,7 @@ GlobalNamespace::BeatmapLevel::_GetBeatmapKeys_b__25_0(::System::ValueTuple_2<::
 inline ::GlobalNamespace::BeatmapLevel* GlobalNamespace::BeatmapLevel::New_ctor(
     int32_t version, bool hasPrecalculatedData, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::ArrayW<::StringW> allMappers, ::ArrayW<::StringW> allLighters,
     float_t beatsPerMinute, float_t integratedLufs, float_t songTimeOffset, float_t previewStartTime, float_t previewDuration, float_t songDuration,
-    ::GlobalNamespace::PlayerSensitivityFlag contentRating, ::GlobalNamespace::IPreviewMediaData* previewMediaData,
+    ::GlobalNamespace::PlayerSensitivityFlag contentRating, ::GlobalNamespace::IPreviewMediaData* previewMediaData, /* [Nullable(new[] { 1, 0, 1 })] */
     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>*
         beatmapBasicData) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapLevel*>(version, hasPrecalculatedData, levelID, songName, songSubName, songAuthorName, allMappers, allLighters,

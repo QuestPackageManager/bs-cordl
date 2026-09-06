@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlDouble.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlDouble.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ struct SqlDouble;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlDouble);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlDouble, "System.Data.SqlTypes", "SqlDouble");
+// [XmlSchemaProvider("GetXsdType")]
 // Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -223,7 +224,8 @@ public:
   // @brief default ctor
   constexpr SqlDouble();
 
-  // Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_value", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_value", ty: "double_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SqlDouble(bool m_fNotNull, double_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

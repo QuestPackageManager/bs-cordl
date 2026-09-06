@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\DefaultControls.hpp"
+// IWYU pragma private; include "UnityEngine/UI/DefaultControls.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::G
     return ___internal_method;
   }
 };
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls_IFactoryControls::CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls_IFactoryControls::CreateGameObject(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Type*> components) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UI::DefaultControls_IFactoryControls*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(this, ___internal_method, name, components);
@@ -63,7 +63,7 @@ inline void UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::setStaticF_D
 inline ::UnityEngine::UI::DefaultControls_IFactoryControls* UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::getStaticF_Default() {
   return ::cordl_internals::getStaticField<::UnityEngine::UI::DefaultControls_IFactoryControls*, "Default", ::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>();
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::CreateGameObject(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Type*> components) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>(),
                                                                                          { "CreateGameObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(this, ___internal_method, name, components);
@@ -85,11 +85,11 @@ constexpr ::UnityEngine::UI::DefaultControls_IFactoryControls* UnityEngine::UI::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::DefaultControls_DefaultRuntimeFactory() {}
-// Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "background", ty: "::UnityW<::UnityEngine::Sprite>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "knob", ty:
-// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "background", ty:
+// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "knob", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "checkmark", ty:
+// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::DefaultControls_Resources::DefaultControls_Resources(::UnityW<::UnityEngine::Sprite> standard, ::UnityW<::UnityEngine::Sprite> background,
                                                                                   ::UnityW<::UnityEngine::Sprite> inputField, ::UnityW<::UnityEngine::Sprite> knob,
                                                                                   ::UnityW<::UnityEngine::Sprite> checkmark, ::UnityW<::UnityEngine::Sprite> dropdown,
@@ -395,13 +395,14 @@ inline ::UnityEngine::UI::DefaultControls_IFactoryControls* UnityEngine::UI::Def
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::DefaultControls*>(), { "get_factory", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::DefaultControls_IFactoryControls*>(nullptr, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size, ::ArrayW<::System::Type*> components) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size, /* [ParamArray] */ ::ArrayW<::System::Type*> components) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::DefaultControls*>(),
                                               { "CreateUIElementRoot", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, name, size, components);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent, ::ArrayW<::System::Type*> components) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent,
+                                                                                            /* [ParamArray] */ ::ArrayW<::System::Type*> components) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::DefaultControls*>(),
                                               { "CreateUIObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));

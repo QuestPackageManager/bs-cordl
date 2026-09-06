@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderKeywordSet.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderKeywordSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ struct ShaderKeywordSet;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ShaderKeywordSet);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ShaderKeywordSet, "UnityEngine.Rendering", "ShaderKeywordSet");
+// [NativeHeader("Editor/Src/Graphics/ShaderCompilerData.h")]
+// [UsedByNativeCode]
 // Dependencies System.IntPtr
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -34,6 +36,7 @@ public:
   /// @brief Method IsEnabled, addr 0x6b2e2d4, size 0x40, virtual false, abstract: false, final false
   inline bool IsEnabled(::UnityEngine::Rendering::ShaderKeyword keyword);
 
+  /// [FreeFunction("keywords::IsKeywordEnabled")]
   /// @brief Method IsKeywordNameEnabled, addr 0x6b2e08c, size 0x140, virtual false, abstract: false, final false
   static inline bool IsKeywordNameEnabled(::UnityEngine::Rendering::ShaderKeywordSet state, ::StringW name);
 
@@ -44,8 +47,9 @@ public:
   // @brief default ctor
   constexpr ShaderKeywordSet();
 
-  // Ctor Parameters [CppParam { name: "m_KeywordState", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_Shader", ty: "::System::IntPtr", modifiers: "", def_value: None
-  // }, CppParam { name: "m_ComputeShader", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_StateIndex", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_KeywordState", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Shader", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_ComputeShader", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StateIndex", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ShaderKeywordSet(::System::IntPtr m_KeywordState, ::System::IntPtr m_Shader, ::System::IntPtr m_ComputeShader, uint64_t m_StateIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

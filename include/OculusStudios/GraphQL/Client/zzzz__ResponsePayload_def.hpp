@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\ResponsePayload.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/ResponsePayload.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,16 @@ public:
   __declspec(property(get = __cordl_internal_get__errors_k__BackingField,
                       put = __cordl_internal_set__errors_k__BackingField)) ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>* _errors_k__BackingField;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("data", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_data, put = set_data)) ::Newtonsoft::Json::Linq::JRaw* data;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("error", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_error, put = set_error)) ::OculusStudios::GraphQL::Client::GraphQLError* error;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("errors", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_errors, put = set_errors)) ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>* errors;
 
   static inline ::OculusStudios::GraphQL::Client::ResponsePayload* New_ctor();
@@ -67,21 +73,27 @@ public:
   /// @brief Method .ctor, addr 0x5f22ef0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_data, addr 0x5f22ee0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JRaw* get_data();
 
+  /// [CompilerGenerated]
   /// @brief Method get_error, addr 0x5f22ec0, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::GraphQL::Client::GraphQLError* get_error();
 
+  /// [CompilerGenerated]
   /// @brief Method get_errors, addr 0x5f22ed0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>* get_errors();
 
+  /// [CompilerGenerated]
   /// @brief Method set_data, addr 0x5f22ee8, size 0x8, virtual false, abstract: false, final false
   inline void set_data(::Newtonsoft::Json::Linq::JRaw* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_error, addr 0x5f22ec8, size 0x8, virtual false, abstract: false, final false
   inline void set_error(::OculusStudios::GraphQL::Client::GraphQLError* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_errors, addr 0x5f22ed8, size 0x8, virtual false, abstract: false, final false
   inline void set_errors(::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>* value);
 
@@ -91,23 +103,26 @@ protected:
   constexpr ResponsePayload();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResponsePayload", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResponsePayload", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResponsePayload(ResponsePayload&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResponsePayload", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResponsePayload", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResponsePayload(ResponsePayload const&) = delete;
+  ResponsePayload(ResponsePayloadconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20408 };
 
+  /// [CompilerGenerated]
   /// @brief Field <error>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLError* ____error_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <errors>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>* ____errors_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <data>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JRaw* ____data_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\BurstCompiler.hpp"
+// IWYU pragma private; include "Unity/Burst/BurstCompiler.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -964,19 +964,25 @@ inline ::Unity::Burst::BurstExecutionEnvironment Unity::Burst::BurstCompiler::Ge
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompiler*>(), { "GetExecutionMode", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::BurstExecutionEnvironment>(nullptr, ___internal_method);
 }
-template <typename T> inline T Unity::Burst::BurstCompiler::CompileDelegate(T delegateMethod) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T Unity::Burst::BurstCompiler::CompileDelegate(T delegateMethod) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompiler*>(), { "CompileDelegate", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, delegateMethod);
 }
-template <typename T> inline void Unity::Burst::BurstCompiler::VerifyDelegateIsNotMulticast(T delegateMethod) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void Unity::Burst::BurstCompiler::VerifyDelegateIsNotMulticast(T delegateMethod) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompiler*>(), { "VerifyDelegateIsNotMulticast", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, delegateMethod);
 }
-template <typename T> inline void Unity::Burst::BurstCompiler::VerifyDelegateHasCorrectUnmanagedFunctionPointerAttribute(T delegateMethod) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void Unity::Burst::BurstCompiler::VerifyDelegateHasCorrectUnmanagedFunctionPointerAttribute(T delegateMethod) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompiler*>(), { "VerifyDelegateHasCorrectUnmanagedFunctionPointerAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
@@ -1016,7 +1022,9 @@ inline void* Unity::Burst::BurstCompiler::CompileUnsafeStaticMethod(::System::Ru
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompiler*>(), { "CompileUnsafeStaticMethod", {}, { ::i2c::type_of<::System::RuntimeMethodHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, handle);
 }
-template <typename T> inline ::Unity::Burst::FunctionPointer_1<T> Unity::Burst::BurstCompiler::CompileFunctionPointer(T delegateMethod) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline ::Unity::Burst::FunctionPointer_1<T> Unity::Burst::BurstCompiler::CompileFunctionPointer(T delegateMethod) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompiler*>(), { "CompileFunctionPointer", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

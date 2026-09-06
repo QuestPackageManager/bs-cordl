@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XCommentWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XCommentWrapper.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XCommentWrapper_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
@@ -95,6 +95,7 @@ inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::X
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::XCommentWrapper*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::IXmlNode*>(this, ___internal_method);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Converters::XCommentWrapper* Newtonsoft::Json::Converters::XCommentWrapper::New_ctor(::System::Xml::Linq::XComment* text) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::XCommentWrapper*>(text));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Globalization\Unicode\SimpleCollator.hpp"
+// IWYU pragma private; include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Contraction_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Level2Map_impl.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
@@ -42,10 +42,10 @@ inline void Mono::Globalization::Unicode::SimpleCollator_Context::_ctor(::System
                                                                ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint8_t*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, opt, alwaysMatchFlags, neverMatchFlags, buffer1, buffer2, prev1);
 }
-// Ctor Parameters [CppParam { name: "Option", ty: "::System::Globalization::CompareOptions", modifiers: "", def_value: Some("{}") }, CppParam { name: "NeverMatchFlags", ty: "uint8_t*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "AlwaysMatchFlags", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buffer1", ty: "uint8_t*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "Buffer2", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "PrevCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "PrevSortKey", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Option", ty: "::System::Globalization::CompareOptions", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NeverMatchFlags", ty: "uint8_t*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AlwaysMatchFlags", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buffer1", ty:
+// "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Buffer2", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PrevCode",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PrevSortKey", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Globalization::Unicode::SimpleCollator_Context::SimpleCollator_Context(::System::Globalization::CompareOptions Option, uint8_t* NeverMatchFlags, uint8_t* AlwaysMatchFlags,
                                                                                          uint8_t* Buffer1, uint8_t* Buffer2, int32_t PrevCode, uint8_t* PrevSortKey) noexcept {
   this->Option = Option;
@@ -77,16 +77,17 @@ inline void Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::_ctor(boo
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SimpleCollator_PreviousInfo>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, dummy);
 }
-// Ctor Parameters [CppParam { name: "Code", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SortKey", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Code", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SortKey", ty: "uint8_t*", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::SimpleCollator_PreviousInfo(int32_t Code, uint8_t* SortKey) noexcept {
   this->Code = Code;
   this->SortKey = SortKey;
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::SimpleCollator_PreviousInfo() {}
-// Ctor Parameters [CppParam { name: "Source", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Start", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Optional", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Source", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Start", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Optional", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Globalization::Unicode::SimpleCollator_Escape::SimpleCollator_Escape(::StringW Source, int32_t Index, int32_t Start, int32_t End, int32_t Optional) noexcept {
   this->Source = Source;
   this->Index = Index;
@@ -96,7 +97,7 @@ constexpr ::Mono::Globalization::Unicode::SimpleCollator_Escape::SimpleCollator_
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::SimpleCollator_Escape::SimpleCollator_Escape() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType::SimpleCollator_ExtenderType(int32_t value__) noexcept {
   this->value__ = value__;
 }

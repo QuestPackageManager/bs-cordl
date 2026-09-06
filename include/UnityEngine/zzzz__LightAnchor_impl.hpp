@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightAnchor.hpp"
+// IWYU pragma private; include "UnityEngine/LightAnchor.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__LightAnchor_def.hpp"
@@ -7,7 +7,7 @@
 #include "UnityEngine/zzzz__LightAnchor_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::LightAnchor_UpDirection::LightAnchor_UpDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -15,8 +15,8 @@ constexpr ::UnityEngine::LightAnchor_UpDirection::LightAnchor_UpDirection(int32_
 constexpr ::UnityEngine::LightAnchor_UpDirection::LightAnchor_UpDirection() {}
 constexpr ::UnityEngine::LightAnchor_UpDirection UnityEngine::LightAnchor_UpDirection::World{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::LightAnchor_UpDirection UnityEngine::LightAnchor_UpDirection::Local{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "up", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "right", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "forward", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "up", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "right", ty: "::UnityEngine::Vector3", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "forward", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::LightAnchor_Axes::LightAnchor_Axes(::UnityEngine::Vector3 up, ::UnityEngine::Vector3 right, ::UnityEngine::Vector3 forward) noexcept {
   this->up = up;
   this->right = right;

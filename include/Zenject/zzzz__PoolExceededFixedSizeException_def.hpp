@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolExceededFixedSizeException.hpp"
+// IWYU pragma private; include "Zenject/PoolExceededFixedSizeException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class PoolExceededFixedSizeException;
 // Write type traits
 MARK_REF_T(::Zenject::PoolExceededFixedSizeException*);
 DEFINE_IL2CPP_CLASS(::Zenject::PoolExceededFixedSizeException*, "Zenject", "PoolExceededFixedSizeException");
+// [NoReflectionBaking]
 // Dependencies System.Exception
 namespace Zenject {
 // Is value type: false
@@ -31,13 +32,13 @@ protected:
   constexpr PoolExceededFixedSizeException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolExceededFixedSizeException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolExceededFixedSizeException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolExceededFixedSizeException(PoolExceededFixedSizeException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolExceededFixedSizeException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolExceededFixedSizeException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolExceededFixedSizeException(PoolExceededFixedSizeException const&) = delete;
+  PoolExceededFixedSizeException(PoolExceededFixedSizeExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14401 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\Request.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/Request.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,7 +109,7 @@ public:
   /// @brief Method Cancel, addr 0x5f2d76c, size 0x28, virtual false, abstract: false, final false
   inline void Cancel();
 
-  /// @brief Method GetCodeGenInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCodeGenInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation* GetCodeGenInfo();
 
   /// @brief Method GetFailureHandlingMethod, addr 0x5f2ce64, size 0x8, virtual true, abstract: false, final false
@@ -126,7 +126,7 @@ public:
   /// @brief Method OnRequestStateChanged, addr 0x5f2d448, size 0x12c, virtual false, abstract: false, final false
   inline void OnRequestStateChanged(::OculusStudios::GraphQL::ClientInterface::RequestState requestState);
 
-  /// @brief Method PerformRequest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PerformRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PerformRequest();
 
   /// @brief Method RegisterException, addr 0x5f2d648, size 0xd4, virtual false, abstract: false, final false
@@ -144,7 +144,7 @@ public:
   /// @brief Method SetRequestState, addr 0x5f2d33c, size 0x10c, virtual false, abstract: false, final false
   inline void SetRequestState(::OculusStudios::GraphQL::ClientInterface::RequestState requestState);
 
-  /// @brief Method SupportsClientMutationId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SupportsClientMutationId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool SupportsClientMutationId();
 
   /// @brief Method System.IDisposable.Dispose, addr 0x5f2d71c, size 0x50, virtual true, abstract: false, final true
@@ -207,6 +207,7 @@ public:
   /// @brief Method .ctor, addr 0x5f2cd18, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(bool forceRequestWhenOffline, ::OculusStudios::GraphQL::ClientInterface::RequestType requestType);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onRequestStateUpdated, addr 0x5f2cb10, size 0xc0, virtual false, abstract: false, final false
   inline void add_onRequestStateUpdated(::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::OculusStudios::GraphQL::ClientInterface::RequestState>* value);
 
@@ -228,6 +229,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onRequestStateUpdated, addr 0x5f2cbd0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onRequestStateUpdated(::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::OculusStudios::GraphQL::ClientInterface::RequestState>* value);
 
@@ -237,17 +239,18 @@ protected:
   constexpr Request();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Request(Request&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Request(Request const&) = delete;
+  Request(Requestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22886 };
 
+  /// [CompilerGenerated]
   /// @brief Field onRequestStateUpdated, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::OculusStudios::GraphQL::ClientInterface::Request*, ::OculusStudios::GraphQL::ClientInterface::RequestState>* ___onRequestStateUpdated;
 

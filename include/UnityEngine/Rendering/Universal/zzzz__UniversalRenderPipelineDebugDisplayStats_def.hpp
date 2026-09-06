@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineDebugDisplayStats.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineDebugDisplayStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,15 +53,19 @@ public:
   /// @brief Method Update, addr 0x6853220, size 0x64, virtual true, abstract: false, final false
   inline void Update();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebugUI>b__4_0, addr 0x6853284, size 0x8, virtual false, abstract: false, final false
   inline bool _RegisterDebugUI_b__4_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebugUI>b__4_1, addr 0x685328c, size 0x8, virtual false, abstract: false, final false
   inline void _RegisterDebugUI_b__4_1(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebugUI>b__4_2, addr 0x6853294, size 0x8, virtual false, abstract: false, final false
   inline bool _RegisterDebugUI_b__4_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <RegisterDebugUI>b__4_3, addr 0x685329c, size 0x8, virtual false, abstract: false, final false
   inline void _RegisterDebugUI_b__4_3(bool value);
 
@@ -86,13 +90,13 @@ protected:
   constexpr UniversalRenderPipelineDebugDisplayStats();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineDebugDisplayStats", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineDebugDisplayStats", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineDebugDisplayStats(UniversalRenderPipelineDebugDisplayStats&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineDebugDisplayStats", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineDebugDisplayStats", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineDebugDisplayStats(UniversalRenderPipelineDebugDisplayStats const&) = delete;
+  UniversalRenderPipelineDebugDisplayStats(UniversalRenderPipelineDebugDisplayStatsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12670 };

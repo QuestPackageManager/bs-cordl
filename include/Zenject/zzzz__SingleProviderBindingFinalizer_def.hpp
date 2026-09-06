@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SingleProviderBindingFinalizer.hpp"
+// IWYU pragma private; include "Zenject/SingleProviderBindingFinalizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class SingleProviderBindingFinalizer;
 // Write type traits
 MARK_REF_T(::Zenject::SingleProviderBindingFinalizer*);
 DEFINE_IL2CPP_CLASS(::Zenject::SingleProviderBindingFinalizer*, "Zenject", "SingleProviderBindingFinalizer");
+// [NoReflectionBaking]
 // Dependencies Zenject.ProviderBindingFinalizer
 namespace Zenject {
 // Is value type: false
@@ -58,13 +59,13 @@ protected:
   constexpr SingleProviderBindingFinalizer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SingleProviderBindingFinalizer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SingleProviderBindingFinalizer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SingleProviderBindingFinalizer(SingleProviderBindingFinalizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SingleProviderBindingFinalizer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SingleProviderBindingFinalizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SingleProviderBindingFinalizer(SingleProviderBindingFinalizer const&) = delete;
+  SingleProviderBindingFinalizer(SingleProviderBindingFinalizerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14324 };

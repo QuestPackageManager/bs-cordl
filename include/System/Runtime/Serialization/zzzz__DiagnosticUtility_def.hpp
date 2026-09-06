@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\DiagnosticUtility.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/DiagnosticUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ class CORDL_TYPE DiagnosticUtility_DiagnosticTrace : public ::System::Object {
 public:
   // Declarations
   /// @brief Method TraceEvent, addr 0x617c298, size 0x4, virtual false, abstract: false, final false
-  static inline void TraceEvent(::ArrayW<::System::Object*> args);
+  static inline void TraceEvent(/* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
 protected:
   // Ctor Parameters []
@@ -55,13 +55,13 @@ protected:
   constexpr DiagnosticUtility_DiagnosticTrace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_DiagnosticTrace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_DiagnosticTrace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTrace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_DiagnosticTrace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_DiagnosticTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTrace const&) = delete;
+  DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTraceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17151 };
@@ -100,13 +100,13 @@ protected:
   constexpr DiagnosticUtility_ExceptionUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_ExceptionUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_ExceptionUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_ExceptionUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility_ExceptionUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtility const&) = delete;
+  DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17152 };
@@ -162,13 +162,13 @@ protected:
   constexpr DiagnosticUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticUtility(DiagnosticUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticUtility(DiagnosticUtility const&) = delete;
+  DiagnosticUtility(DiagnosticUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17153 };

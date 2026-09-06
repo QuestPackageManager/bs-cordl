@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ComputedTransitionProperty.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ComputedTransitionProperty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,9 +29,9 @@ public:
   // @brief default ctor
   constexpr ComputedTransitionProperty();
 
-  // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "durationMs", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "delayMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "easingCurve", ty: "::System::Func_2<float_t,float_t>*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None, comment: None }, CppParam { name: "durationMs", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "delayMs", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "easingCurve", ty:
+  // "::System::Func_2<float_t,float_t>*", modifiers: "", def_value: None, comment: None }]
   constexpr ComputedTransitionProperty(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

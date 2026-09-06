@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConditionalMaterialSwitcher.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConditionalMaterialSwitcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class ConditionalMaterialSwitcher;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ConditionalMaterialSwitcher*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConditionalMaterialSwitcher*, "", "ConditionalMaterialSwitcher");
+// [Obsolete]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -78,26 +79,33 @@ protected:
   constexpr ConditionalMaterialSwitcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMaterialSwitcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMaterialSwitcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalMaterialSwitcher(ConditionalMaterialSwitcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMaterialSwitcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalMaterialSwitcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalMaterialSwitcher(ConditionalMaterialSwitcher const&) = delete;
+  ConditionalMaterialSwitcher(ConditionalMaterialSwitcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6657 };
 
+  /// [Header("False")]
+  /// [SerializeField]
   /// @brief Field _material0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material0;
 
+  /// [Header("True")]
+  /// [SerializeField]
   /// @brief Field _material1, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material1;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _value, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____value;
 
+  /// [SerializeField]
   /// @brief Field _renderer, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 

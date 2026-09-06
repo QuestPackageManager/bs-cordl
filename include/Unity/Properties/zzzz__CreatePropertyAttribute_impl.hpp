@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\CreatePropertyAttribute.hpp"
+// IWYU pragma private; include "Unity/Properties/CreatePropertyAttribute.hpp"
 #include "UnityEngine/Scripting/zzzz__RequiredMemberAttribute_impl.hpp"
 #include "Unity/Properties/zzzz__CreatePropertyAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Properties::CreatePropertyAttribute.get_ReadOnly

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomFogParamsAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomFogParamsAsset.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsAsset_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsBehaviour_def.hpp"

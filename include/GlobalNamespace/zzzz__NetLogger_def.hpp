@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetLogger.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetLogger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
   static inline ::GlobalNamespace::NetLogger* New_ctor();
 
   /// @brief Method WriteNet, addr 0x333b3c8, size 0x18c, virtual true, abstract: false, final true
-  inline void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*> args);
+  inline void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method .ctor, addr 0x333738c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -50,13 +50,13 @@ protected:
   constexpr NetLogger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetLogger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetLogger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetLogger(NetLogger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetLogger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetLogger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetLogger(NetLogger const&) = delete;
+  NetLogger(NetLoggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18222 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberSwingRatingCounter.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberSwingRatingCounter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -297,13 +297,13 @@ protected:
   constexpr SaberSwingRatingCounter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberSwingRatingCounter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberSwingRatingCounter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberSwingRatingCounter(SaberSwingRatingCounter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberSwingRatingCounter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberSwingRatingCounter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberSwingRatingCounter(SaberSwingRatingCounter const&) = delete;
+  SaberSwingRatingCounter(SaberSwingRatingCounterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14865 };

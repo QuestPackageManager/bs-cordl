@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FileBrowserTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/FileBrowserTableView.hpp"
 #include "GlobalNamespace/zzzz__FileBrowserItem_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FileBrowserTableView_def.hpp"

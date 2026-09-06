@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ImmutableCollectionsUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ImmutableCollectionsUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ImmutableCollectionsUtils_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
@@ -453,9 +453,9 @@ Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::getStaticF_DictionaryCon
   return ::cordl_internals::getStaticField<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*,
                                            "DictionaryContractImmutableCollectionDefinitions", ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*>();
 }
-inline bool
-Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract(::System::Type* underlyingType, ::System::Type* collectionItemType, ::by_ref<::System::Type*> createdType,
-                                                                                          ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator) {
+inline bool Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract(
+    ::System::Type* underlyingType, ::System::Type* collectionItemType, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Type*> createdType,
+    /* [Nullable(new[] { 2, 1 })] [NotNullWhen(true)] */ ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*>(),
                                                            { "TryBuildImmutableForArrayContract",
@@ -465,8 +465,8 @@ Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArra
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, underlyingType, collectionItemType, createdType, parameterizedCreator);
 }
 inline bool Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForDictionaryContract(
-    ::System::Type* underlyingType, ::System::Type* keyItemType, ::System::Type* valueItemType, ::by_ref<::System::Type*> createdType,
-    ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator) {
+    ::System::Type* underlyingType, ::System::Type* keyItemType, ::System::Type* valueItemType, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Type*> createdType,
+    /* [Nullable(new[] { 2, 1 })] [NotNullWhen(true)] */ ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils*>(),
                                               { "TryBuildImmutableForDictionaryContract",

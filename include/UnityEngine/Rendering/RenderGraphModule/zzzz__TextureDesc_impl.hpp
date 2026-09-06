@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TextureDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureDesc.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__FastMemoryDesc_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureSizeMode_impl.hpp"
@@ -274,22 +274,24 @@ inline ::UnityEngine::Vector2Int UnityEngine::Rendering::RenderGraphModule::Text
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>(), { "CalculateFinalDimensions", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2Int>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sizeMode", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "width", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "slices", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "func", ty: "::UnityEngine::Rendering::ScaleFunc*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "format", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "filterMode", ty:
-// "::UnityEngine::FilterMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "wrapMode", ty: "::UnityEngine::TextureWrapMode", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "dimension", ty: "::UnityEngine::Rendering::TextureDimension", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableRandomWrite", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "useMipMap", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "autoGenerateMips", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "isShadowMap", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "anisoLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "mipMapBias", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "msaaSamples", ty: "::UnityEngine::Rendering::MSAASamples", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "bindTextureMS", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "useDynamicScale", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "useDynamicScaleExplicit", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "memoryless", ty: "::UnityEngine::RenderTextureMemoryless", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "vrUsage", ty: "::UnityEngine::VRTextureUsage", modifiers: "", def_value: Some("{}") }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "fastMemoryDesc", ty: "::UnityEngine::Rendering::RenderGraphModule::FastMemoryDesc", modifiers: "", def_value: Some("{}") }, CppParam { name: "fallBackToBlackTexture", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "disableFallBackToImportedTexture", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "clearBuffer", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "discardBuffer", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "sizeMode", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "width",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "slices", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "func", ty: "::UnityEngine::Rendering::ScaleFunc*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "format", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "filterMode", ty: "::UnityEngine::FilterMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "wrapMode", ty: "::UnityEngine::TextureWrapMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dimension", ty: "::UnityEngine::Rendering::TextureDimension", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "enableRandomWrite", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "useMipMap", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "autoGenerateMips", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isShadowMap", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "anisoLevel", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mipMapBias",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "msaaSamples", ty: "::UnityEngine::Rendering::MSAASamples", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "bindTextureMS", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "useDynamicScale", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "useDynamicScaleExplicit", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "memoryless", ty:
+// "::UnityEngine::RenderTextureMemoryless", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vrUsage", ty: "::UnityEngine::VRTextureUsage", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fastMemoryDesc", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::FastMemoryDesc", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fallBackToBlackTexture", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "disableFallBackToImportedTexture", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clearBuffer", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clearColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "discardBuffer", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureDesc::TextureDesc(::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode sizeMode, int32_t width, int32_t height, int32_t slices,
                                                                                 ::UnityEngine::Vector2 scale, ::UnityEngine::Rendering::ScaleFunc* func,
                                                                                 ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::FilterMode filterMode,

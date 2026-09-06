@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ListBuffer_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ListBuffer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,15 +8,19 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ListBuffer_1)
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T> struct ListBuffer_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct ListBuffer_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Rendering::ListBuffer_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::ListBuffer_1, "UnityEngine.Rendering", "ListBuffer`1");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ListBuffer`1<T>
 struct CORDL_TYPE ListBuffer_1 {
@@ -34,10 +38,10 @@ public:
   inline void CopyTo(T* dstBuffer, int32_t startDstIndex, int32_t copyCount);
 
   /// @brief Method GetUnchecked, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::by_ref<T> GetUnchecked(::by_ref<int32_t> index);
+  inline ::by_ref<T> GetUnchecked(/* [IsReadOnly] */ ::by_ref<int32_t> index);
 
   /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryAdd(::by_ref<T> value);
+  inline bool TryAdd(/* [IsReadOnly] */ ::by_ref<T> value);
 
   /// @brief Method TryCopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryCopyFrom(T* srcPtr, int32_t count);
@@ -58,14 +62,14 @@ public:
   inline int32_t get_Count();
 
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::by_ref<T> get_Item(::by_ref<int32_t> index);
+  inline ::by_ref<T> get_Item(/* [IsReadOnly] */ ::by_ref<int32_t> index);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ListBuffer_1();
 
-  // Ctor Parameters [CppParam { name: "m_BufferPtr", ty: "T*", modifiers: "", def_value: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_CountPtr", ty: "int32_t*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BufferPtr", ty: "T*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_CountPtr", ty: "int32_t*", modifiers: "", def_value: None, comment: None }]
   constexpr ListBuffer_1(T* m_BufferPtr, int32_t m_Capacity, int32_t* m_CountPtr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\InputAnalogActionData_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/InputAnalogActionData_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,11 @@ public:
   // @brief default ctor
   constexpr InputAnalogActionData_t();
 
-  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "x",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "deltaX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deltaY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deltaZ", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "fUpdateTime", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "z", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "deltaX", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "deltaY",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "deltaZ", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fUpdateTime", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputAnalogActionData_t(bool bActive, uint64_t activeOrigin, float_t x, float_t y, float_t z, float_t deltaX, float_t deltaY, float_t deltaZ, float_t fUpdateTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

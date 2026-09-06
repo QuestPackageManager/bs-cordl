@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\CryptoConfig.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/CryptoConfig.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__CryptoConfig_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -101,7 +101,7 @@ inline ::System::Object* System::Security::Cryptography::CryptoConfig::CreateFro
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::CryptoConfig*>(), { "CreateFromName", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, name);
 }
-inline ::System::Object* System::Security::Cryptography::CryptoConfig::CreateFromName(::StringW name, ::ArrayW<::System::Object*> args) {
+inline ::System::Object* System::Security::Cryptography::CryptoConfig::CreateFromName(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::CryptoConfig*>(),
                                                                                          { "CreateFromName", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, name, args);

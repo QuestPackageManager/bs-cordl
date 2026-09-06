@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerSpectatingSpotManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerSpectatingSpotManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ MARK_REF_T(::GlobalNamespace::MultiplayerSpectatingSpotManager*);
 MARK_REF_T(::GlobalNamespace::MultiplayerSpectatingSpotManager___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerSpectatingSpotManager*, "", "MultiplayerSpectatingSpotManager");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerSpectatingSpotManager___c*, "", "MultiplayerSpectatingSpotManager/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -71,13 +72,13 @@ protected:
   constexpr MultiplayerSpectatingSpotManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerSpectatingSpotManager___c(MultiplayerSpectatingSpotManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSpectatingSpotManager___c(MultiplayerSpectatingSpotManager___c const&) = delete;
+  MultiplayerSpectatingSpotManager___c(MultiplayerSpectatingSpotManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6196 };
@@ -153,13 +154,13 @@ protected:
   constexpr MultiplayerSpectatingSpotManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerSpectatingSpotManager(MultiplayerSpectatingSpotManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSpectatingSpotManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSpectatingSpotManager(MultiplayerSpectatingSpotManager const&) = delete;
+  MultiplayerSpectatingSpotManager(MultiplayerSpectatingSpotManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6197 };

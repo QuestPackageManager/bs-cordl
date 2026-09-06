@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScriptableRenderPassInput.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScriptableRenderPassInput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ScriptableRenderPassInput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::ScriptableRenderPassInput);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScriptableRenderPassInput, "UnityEngine.Rendering.Universal", "ScriptableRenderPassInput");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr ScriptableRenderPassInput();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptableRenderPassInput(int32_t value__) noexcept;
 
   /// @brief Field Color value: I32(4)

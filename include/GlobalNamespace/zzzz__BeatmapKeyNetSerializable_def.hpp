@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapKeyNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapKeyNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class BeatmapKeyNetSerializable;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatmapKeyNetSerializable*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapKeyNetSerializable*, "", "BeatmapKeyNetSerializable");
+// [Preserve]
 // Dependencies BeatmapDifficulty, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -108,12 +109,15 @@ public:
   /// @brief Method .ctor, addr 0x377aba8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
+  /// [CompilerGenerated]
   /// @brief Method get_beatmapCharacteristicSerializedName, addr 0x377ab84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_beatmapCharacteristicSerializedName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_difficulty, addr 0x377ab94, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_difficulty();
 
+  /// [CompilerGenerated]
   /// @brief Method get_levelID, addr 0x377ab74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
@@ -123,12 +127,15 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapKeyNetSerializable*>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapKeyNetSerializable*>* i___System__IEquatable_1___GlobalNamespace__BeatmapKeyNetSerializable__() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_beatmapCharacteristicSerializedName, addr 0x377ab8c, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapCharacteristicSerializedName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_difficulty, addr 0x377ab9c, size 0x8, virtual false, abstract: false, final false
   inline void set_difficulty(::GlobalNamespace::BeatmapDifficulty value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_levelID, addr 0x377ab7c, size 0x8, virtual false, abstract: false, final false
   inline void set_levelID(::StringW value);
 
@@ -138,23 +145,26 @@ protected:
   constexpr BeatmapKeyNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapKeyNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapKeyNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapKeyNetSerializable(BeatmapKeyNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapKeyNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapKeyNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapKeyNetSerializable(BeatmapKeyNetSerializable const&) = delete;
+  BeatmapKeyNetSerializable(BeatmapKeyNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21159 };
 
+  /// [CompilerGenerated]
   /// @brief Field <levelID>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelID_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <beatmapCharacteristicSerializedName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____beatmapCharacteristicSerializedName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <difficulty>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____difficulty_k__BackingField;
 

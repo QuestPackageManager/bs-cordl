@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlSqlBinaryReader.hpp"
+// IWYU pragma private; include "System/Xml/XmlSqlBinaryReader.hpp"
 #include "System/Xml/zzzz__BinXmlToken_impl.hpp"
 #include "System/Xml/zzzz__DtdProcessing_impl.hpp"
 #include "System/Xml/zzzz__ReadState_impl.hpp"
@@ -33,7 +33,7 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlSqlBinaryReader_ScanState::XmlSqlBinaryReader_ScanState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -246,8 +246,8 @@ inline bool System::Xml::XmlSqlBinaryReader_QName::op_Equality(::System::Xml::Xm
                                               { "op_Equality", {}, { ::i2c::type_of<::System::Xml::XmlSqlBinaryReader_QName>(), ::i2c::type_of<::System::Xml::XmlSqlBinaryReader_QName>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "localname", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "namespaceUri", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localname", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "namespaceUri", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlSqlBinaryReader_QName::XmlSqlBinaryReader_QName(::StringW prefix, ::StringW localname, ::StringW namespaceUri) noexcept {
   this->prefix = prefix;
   this->localname = localname;
@@ -291,9 +291,10 @@ inline ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* System::Xml::XmlSqlBinar
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlSqlBinaryReader_ElemInfo>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlSqlBinaryReader_NamespaceDecl*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlSqlBinaryReader_QName", modifiers: "", def_value: Some("{}") }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "xmlSpace", ty: "::System::Xml::XmlSpace", modifiers: "", def_value: Some("{}") }, CppParam { name: "xmlspacePreserve", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "nsdecls", ty: "::System::Xml::XmlSqlBinaryReader_NamespaceDecl*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlSqlBinaryReader_QName", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xmlLang", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xmlSpace", ty: "::System::Xml::XmlSpace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "xmlspacePreserve", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nsdecls", ty: "::System::Xml::XmlSqlBinaryReader_NamespaceDecl*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlSqlBinaryReader_ElemInfo::XmlSqlBinaryReader_ElemInfo(::System::Xml::XmlSqlBinaryReader_QName name, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace,
                                                                                   bool xmlspacePreserve, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl* nsdecls) noexcept {
   this->name = name;
@@ -445,9 +446,9 @@ inline void System::Xml::XmlSqlBinaryReader_AttrInfo::AdjustPosition(int32_t adj
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlSqlBinaryReader_AttrInfo>(), { "AdjustPosition", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, adj);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlSqlBinaryReader_QName", modifiers: "", def_value: Some("{}") }, CppParam { name: "val", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "contentPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "prevHash", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlSqlBinaryReader_QName", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "val", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "contentPos", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hashCode", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prevHash", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlSqlBinaryReader_AttrInfo::XmlSqlBinaryReader_AttrInfo(::System::Xml::XmlSqlBinaryReader_QName name, ::StringW val, int32_t contentPos, int32_t hashCode,
                                                                                   int32_t prevHash) noexcept {
   this->name = name;
@@ -583,9 +584,9 @@ inline void System::Xml::XmlSqlBinaryReader_SymbolTables::Init() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlSqlBinaryReader_SymbolTables>(), { "Init", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "symtable", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "symCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "qnametable", ty: "::ArrayW<::System::Xml::XmlSqlBinaryReader_QName>", modifiers: "", def_value: Some("{}") }, CppParam { name: "qnameCount", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "symtable", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "symCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "qnametable", ty: "::ArrayW<::System::Xml::XmlSqlBinaryReader_QName>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "qnameCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlSqlBinaryReader_SymbolTables::XmlSqlBinaryReader_SymbolTables(::ArrayW<::StringW> symtable, int32_t symCount, ::ArrayW<::System::Xml::XmlSqlBinaryReader_QName> qnametable,
                                                                                           int32_t qnameCount) noexcept {
   this->symtable = symtable;

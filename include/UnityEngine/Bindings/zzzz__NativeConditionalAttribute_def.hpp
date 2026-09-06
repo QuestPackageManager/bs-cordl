@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\NativeConditionalAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/NativeConditionalAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class NativeConditionalAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativeConditionalAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");
+// [AttributeUsage((System.AttributeTargets)204)]
+// [VisibleToOtherModules]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -63,12 +65,15 @@ public:
   /// @brief Method .ctor, addr 0x6bb5f9c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition, ::StringW stubReturnStatement);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Condition, addr 0x6bb5f74, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Enabled, addr 0x6bb5f84, size 0x8, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_StubReturnStatement, addr 0x6bb5f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_StubReturnStatement(::StringW value);
 
@@ -78,23 +83,29 @@ protected:
   constexpr NativeConditionalAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeConditionalAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeConditionalAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeConditionalAttribute(NativeConditionalAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeConditionalAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeConditionalAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeConditionalAttribute(NativeConditionalAttribute const&) = delete;
+  NativeConditionalAttribute(NativeConditionalAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23108 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Condition>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Condition_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <StubReturnStatement>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____StubReturnStatement_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Enabled>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____Enabled_k__BackingField;
 

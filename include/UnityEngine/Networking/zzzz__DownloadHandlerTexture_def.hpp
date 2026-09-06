@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerTexture.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerTexture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Networking {
 class DownloadHandlerTexture_BindingsMarshaller;
@@ -54,13 +56,13 @@ protected:
   constexpr DownloadHandlerTexture_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DownloadHandlerTexture_BindingsMarshaller(DownloadHandlerTexture_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerTexture_BindingsMarshaller(DownloadHandlerTexture_BindingsMarshaller const&) = delete;
+  DownloadHandlerTexture_BindingsMarshaller(DownloadHandlerTexture_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23315 };
@@ -71,6 +73,7 @@ public:
 static_assert(sizeof(::UnityEngine::Networking::DownloadHandlerTexture_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
+// [NativeHeader("Modules/UnityWebRequestTexture/Public/DownloadHandlerTexture.h")]
 // Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Networking.DownloadHandler
 namespace UnityEngine::Networking {
 // Is value type: false
@@ -86,7 +89,7 @@ public:
   __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::Texture2D> texture;
 
   /// @brief Method Create, addr 0x6e2b554, size 0x48, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerTexture* obj, ::UnityEngine::Networking::DownloadedTextureParams parameters);
+  static inline ::System::IntPtr Create(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerTexture* obj, ::UnityEngine::Networking::DownloadedTextureParams parameters);
 
   /// @brief Method Create_Injected, addr 0x6e2b59c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create_Injected(::UnityEngine::Networking::DownloadHandlerTexture* obj, ::by_ref<::UnityEngine::Networking::DownloadedTextureParams> parameters);
@@ -103,6 +106,7 @@ public:
   /// @brief Method InternalCreateTexture, addr 0x6e2b5e0, size 0x4c, virtual false, abstract: false, final false
   inline void InternalCreateTexture(::UnityEngine::Networking::DownloadedTextureParams parameters);
 
+  /// [NativeThrows]
   /// @brief Method InternalGetTextureNative, addr 0x6e2b6f8, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> InternalGetTextureNative();
 
@@ -129,13 +133,13 @@ protected:
   constexpr DownloadHandlerTexture();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DownloadHandlerTexture(DownloadHandlerTexture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerTexture(DownloadHandlerTexture const&) = delete;
+  DownloadHandlerTexture(DownloadHandlerTextureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23316 };

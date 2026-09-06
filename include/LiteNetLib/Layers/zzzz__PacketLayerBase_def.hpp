@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Layers\PacketLayerBase.hpp"
+// IWYU pragma private; include "LiteNetLib/Layers/PacketLayerBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ public:
 
   static inline ::LiteNetLib::Layers::PacketLayerBase* New_ctor(int32_t extraPacketSizeForLayer);
 
-  /// @brief Method ProcessInboundPacket, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessInboundPacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::by_ref<::ArrayW<uint8_t>> data, ::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
-  /// @brief Method ProcessOutBoundPacket, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessOutBoundPacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::by_ref<::ArrayW<uint8_t>> data, ::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
   constexpr int32_t const& __cordl_internal_get_ExtraPacketSizeForLayer() const;
@@ -50,13 +50,13 @@ protected:
   constexpr PacketLayerBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PacketLayerBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketLayerBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PacketLayerBase(PacketLayerBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PacketLayerBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PacketLayerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PacketLayerBase(PacketLayerBase const&) = delete;
+  PacketLayerBase(PacketLayerBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20141 };

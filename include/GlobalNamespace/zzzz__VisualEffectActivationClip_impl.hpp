@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VisualEffectActivationClip.hpp"
+// IWYU pragma private; include "GlobalNamespace/VisualEffectActivationClip.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__VisualEffectActivationClip_def.hpp"
 #include "GlobalNamespace/zzzz__VisualEffectActivationBehaviour_def.hpp"

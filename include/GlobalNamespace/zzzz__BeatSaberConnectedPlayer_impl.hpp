@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberConnectedPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberConnectedPlayer.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberPlayerIdentityPacketData_impl.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayer_3_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerActiveHand_impl.hpp"

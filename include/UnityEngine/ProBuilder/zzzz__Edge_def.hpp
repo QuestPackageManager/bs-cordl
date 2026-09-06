@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Edge.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Edge.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,7 +110,7 @@ public:
   // @brief default ctor
   constexpr Edge();
 
-  // Ctor Parameters [CppParam { name: "a", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "a", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Edge(int32_t a, int32_t b) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FastMemoryFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FastMemoryFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FastMemoryFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::FastMemoryFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::FastMemoryFlags, "UnityEngine.Rendering", "FastMemoryFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr FastMemoryFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FastMemoryFlags(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)

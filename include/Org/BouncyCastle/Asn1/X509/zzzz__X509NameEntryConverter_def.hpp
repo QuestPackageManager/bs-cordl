@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\X509NameEntryConverter.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/X509NameEntryConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   /// @brief Method ConvertHexEncoded, addr 0x366c1b8, size 0x84, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertHexEncoded(::StringW hexString, int32_t offset);
 
-  /// @brief Method GetConvertedValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetConvertedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* New_ctor();
@@ -47,13 +47,13 @@ protected:
   constexpr X509NameEntryConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509NameEntryConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509NameEntryConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509NameEntryConverter(X509NameEntryConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509NameEntryConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509NameEntryConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509NameEntryConverter(X509NameEntryConverter const&) = delete;
+  X509NameEntryConverter(X509NameEntryConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 403 };

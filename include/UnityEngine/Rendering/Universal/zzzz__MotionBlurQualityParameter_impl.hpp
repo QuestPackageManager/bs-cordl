@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\MotionBlurQualityParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/MotionBlurQualityParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__MotionBlurQuality_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__MotionBlurQualityParameter_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CuttingManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/CuttingManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class CuttingManager;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CuttingManager*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CuttingManager*, "", "CuttingManager");
+// [AddComponentMenu("Beat Saber/Gameplay/CuttingManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -66,20 +67,22 @@ protected:
   constexpr CuttingManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CuttingManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CuttingManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CuttingManager(CuttingManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CuttingManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CuttingManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CuttingManager(CuttingManager const&) = delete;
+  CuttingManager(CuttingManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6222 };
 
+  /// [SerializeField]
   /// @brief Field _saberManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _noteCutter, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::NoteCutter* ____noteCutter;
 

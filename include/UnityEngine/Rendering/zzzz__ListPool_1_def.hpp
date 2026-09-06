@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ListPool_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ListPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,10 +12,14 @@ namespace UnityEngine::Rendering {
 template <typename T> class ListPool_1___c;
 }
 namespace UnityEngine::Rendering {
-template <typename T> struct ObjectPool_1_PooledObject;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+struct ObjectPool_1_PooledObject;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -29,6 +33,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ListPool_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ListPool_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::ListPool_1, "UnityEngine.Rendering", "ListPool`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::ListPool_1___c, "UnityEngine.Rendering", "ListPool`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
@@ -59,13 +64,13 @@ protected:
   constexpr ListPool_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListPool_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListPool_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListPool_1___c(ListPool_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListPool_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListPool_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListPool_1___c(ListPool_1___c const&) = delete;
+  ListPool_1___c(ListPool_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11926 };
@@ -107,13 +112,13 @@ protected:
   constexpr ListPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListPool_1(ListPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListPool_1(ListPool_1 const&) = delete;
+  ListPool_1(ListPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11927 };

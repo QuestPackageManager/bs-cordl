@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexCharClass.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexCharClass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::RegexCharClass*, "System
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::RegexCharClass_SingleRangeComparer*, "System.Text.RegularExpressions", "RegexCharClass/SingleRangeComparer");
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::RegexCharClass_LowerCaseMapping, "System.Text.RegularExpressions", "RegexCharClass/LowerCaseMapping");
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::RegexCharClass_SingleRange, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
+// [IsReadOnly]
 // Dependencies
 namespace System::Text::RegularExpressions {
 // Is value type: true
@@ -72,8 +73,8 @@ public:
   // @brief default ctor
   constexpr RegexCharClass_LowerCaseMapping();
 
-  // Ctor Parameters [CppParam { name: "ChMin", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "ChMax", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "LcOp",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Data", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ChMin", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ChMax", ty: "char16_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "LcOp", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Data", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RegexCharClass_LowerCaseMapping(char16_t ChMin, char16_t ChMax, int32_t LcOp, int32_t Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -143,13 +144,13 @@ protected:
   constexpr RegexCharClass_SingleRangeComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegexCharClass_SingleRangeComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexCharClass_SingleRangeComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexCharClass_SingleRangeComparer(RegexCharClass_SingleRangeComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegexCharClass_SingleRangeComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexCharClass_SingleRangeComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexCharClass_SingleRangeComparer(RegexCharClass_SingleRangeComparer const&) = delete;
+  RegexCharClass_SingleRangeComparer(RegexCharClass_SingleRangeComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11110 };
@@ -160,6 +161,7 @@ public:
 static_assert(sizeof(::System::Text::RegularExpressions::RegexCharClass_SingleRangeComparer) == 0x10, "Size mismatch!");
 
 } // namespace System::Text::RegularExpressions
+// [IsReadOnly]
 // Dependencies
 namespace System::Text::RegularExpressions {
 // Is value type: true
@@ -174,7 +176,8 @@ public:
   // @brief default ctor
   constexpr RegexCharClass_SingleRange();
 
-  // Ctor Parameters [CppParam { name: "First", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "Last", ty: "char16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "First", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Last", ty: "char16_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr RegexCharClass_SingleRange(char16_t First, char16_t Last) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -487,13 +490,13 @@ protected:
   constexpr RegexCharClass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegexCharClass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexCharClass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexCharClass(RegexCharClass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegexCharClass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexCharClass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexCharClass(RegexCharClass const&) = delete;
+  RegexCharClass(RegexCharClassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11112 };

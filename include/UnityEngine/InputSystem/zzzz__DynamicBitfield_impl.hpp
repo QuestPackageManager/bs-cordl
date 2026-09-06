@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\DynamicBitfield.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/DynamicBitfield.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__DynamicBitfield_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::DynamicBitfield.SetLength
@@ -108,8 +108,8 @@ inline int32_t UnityEngine::InputSystem::DynamicBitfield::BitCountToULongCount(i
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::DynamicBitfield>(), { "BitCountToULongCount", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, bitCount);
 }
-// Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::DynamicBitfield::DynamicBitfield(::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> array, int32_t length) noexcept {
   this->array = array;
   this->length = length;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RasterState.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RasterState.hpp"
 #include "UnityEngine/Rendering/zzzz__CullMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RasterState_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -94,10 +94,10 @@ constexpr UnityEngine::Rendering::RasterState::operator ::System::IEquatable_1<:
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RasterState>* UnityEngine::Rendering::RasterState::i___System__IEquatable_1___UnityEngine__Rendering__RasterState_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RasterState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_CullingMode", ty: "::UnityEngine::Rendering::CullMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OffsetUnits", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_OffsetFactor", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DepthClip", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_Conservative", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Padding1", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Padding2", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_CullingMode", ty: "::UnityEngine::Rendering::CullMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OffsetUnits", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OffsetFactor", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DepthClip", ty:
+// "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Conservative", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Padding1", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Padding2", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RasterState::RasterState(::UnityEngine::Rendering::CullMode m_CullingMode, int32_t m_OffsetUnits, float_t m_OffsetFactor, uint8_t m_DepthClip,
                                                              uint8_t m_Conservative, uint8_t m_Padding1, uint8_t m_Padding2) noexcept {
   this->m_CullingMode = m_CullingMode;

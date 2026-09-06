@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\Leaderboards\UpsertLeaderboardEntryMutation.hpp"
+// IWYU pragma private; include "BeatSaber/Main/Leaderboards/UpsertLeaderboardEntryMutation.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__MutationRequest_1_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__UpsertLeaderboardEntryMutation_def.hpp"
 #include "BeatSaber/Main/GraphQL/InputTypes/zzzz__XOCBeatGamesBeatmapLeaderboardEntryUpsertData_def.hpp"

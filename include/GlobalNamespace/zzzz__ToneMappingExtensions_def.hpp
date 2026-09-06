@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ToneMappingExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ToneMappingExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class ToneMappingExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ToneMappingExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ToneMappingExtensions*, "", "ToneMappingExtensions");
+// [Extension]
 // Dependencies System.Object, UnityEngine.Rendering.GlobalKeyword
 namespace GlobalNamespace {
 // Is value type: false
@@ -30,9 +31,11 @@ public:
   /// @brief Field _acesToneMappingKeyword, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF__acesToneMappingKeyword, put = setStaticF__acesToneMappingKeyword)) ::UnityEngine::Rendering::GlobalKeyword _acesToneMappingKeyword;
 
+  /// [Extension]
   /// @brief Method SetShaderKeyword, addr 0x5867400, size 0x64, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
 
+  /// [Extension]
   /// @brief Method SetShaderKeyword, addr 0x5865160, size 0xac, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
@@ -46,13 +49,13 @@ protected:
   constexpr ToneMappingExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToneMappingExtensions(ToneMappingExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToneMappingExtensions(ToneMappingExtensions const&) = delete;
+  ToneMappingExtensions(ToneMappingExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19488 };

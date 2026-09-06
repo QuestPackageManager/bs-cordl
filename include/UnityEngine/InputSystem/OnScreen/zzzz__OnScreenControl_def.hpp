@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\OnScreen\OnScreenControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/OnScreen/OnScreenControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,9 +52,9 @@ public:
   // @brief default ctor
   constexpr OnScreenControl_OnScreenDeviceInfo();
 
-  // Ctor Parameters [CppParam { name: "eventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: None }, CppParam { name: "buffer", ty:
-  // "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None },
-  // CppParam { name: "firstControl", ty: "::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "eventPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEventPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "buffer", ty:
+  // "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "firstControl", ty: "::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl>", modifiers: "", def_value: None, comment: None }]
   constexpr OnScreenControl_OnScreenDeviceInfo(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::Unity::Collections::NativeArray_1<uint8_t> buffer,
                                                ::UnityEngine::InputSystem::InputDevice* device, ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> firstControl) noexcept;
 
@@ -136,7 +136,9 @@ public:
   inline void OnEnable();
 
   /// @brief Method SendValueToControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> inline void SendValueToControl(TValue value);
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  inline void SendValueToControl(TValue value);
 
   /// @brief Method SentDefaultValueToControl, addr 0x659d36c, size 0x130, virtual false, abstract: false, final false
   inline void SentDefaultValueToControl();
@@ -178,7 +180,7 @@ public:
   /// @brief Method get_controlPath, addr 0x659cab8, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_controlPath();
 
-  /// @brief Method get_controlPathInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_controlPathInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_controlPathInternal();
 
   static inline void setStaticF_s_OnScreenDevices(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::OnScreen::OnScreenControl_OnScreenDeviceInfo> value);
@@ -188,7 +190,7 @@ public:
   /// @brief Method set_controlPath, addr 0x659cac4, size 0x38, virtual false, abstract: false, final false
   inline void set_controlPath(::StringW value);
 
-  /// @brief Method set_controlPathInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_controlPathInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_controlPathInternal(::StringW value);
 
 protected:
@@ -197,13 +199,13 @@ protected:
   constexpr OnScreenControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OnScreenControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OnScreenControl(OnScreenControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OnScreenControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OnScreenControl(OnScreenControl const&) = delete;
+  OnScreenControl(OnScreenControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8879 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelGameplaySetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelGameplaySetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelGameplaySetupData_def.hpp"
@@ -136,7 +136,7 @@ inline void GlobalNamespace::LevelGameplaySetupData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelGameplaySetupData::_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
+inline void GlobalNamespace::LevelGameplaySetupData::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
@@ -146,7 +146,7 @@ inline void GlobalNamespace::LevelGameplaySetupData::ClearGameplaySetupData() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { "ClearGameplaySetupData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelGameplaySetupData::SetBeatmapKey(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::LevelGameplaySetupData::SetBeatmapKey(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { "SetBeatmapKey", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey);
@@ -160,7 +160,7 @@ inline void GlobalNamespace::LevelGameplaySetupData::SetGameplayModifiers(::Glob
 inline ::GlobalNamespace::LevelGameplaySetupData* GlobalNamespace::LevelGameplaySetupData::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LevelGameplaySetupData*>());
 }
-inline ::GlobalNamespace::LevelGameplaySetupData* GlobalNamespace::LevelGameplaySetupData::New_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+inline ::GlobalNamespace::LevelGameplaySetupData* GlobalNamespace::LevelGameplaySetupData::New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                                                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LevelGameplaySetupData*>(beatmapKey, gameplayModifiers));
 }

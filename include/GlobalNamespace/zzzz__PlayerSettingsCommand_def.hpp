@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerSettingsCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerSettingsCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace GlobalNamespace {
 struct ConsoleMessage;
 }
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class OptionalArgument_1;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
@@ -43,6 +45,7 @@ MARK_REF_T(::GlobalNamespace::PlayerSettingsCommand*);
 MARK_VAL_T(::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d__8);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerSettingsCommand*, "", "PlayerSettingsCommand");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d__8, "", "PlayerSettingsCommand/<ExecuteAsync>d__8");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -56,6 +59,7 @@ public:
   /// @brief Method MoveNext, addr 0x32e2488, size 0x42c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32e2904, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -66,10 +70,11 @@ public:
   // @brief default ctor
   constexpr PlayerSettingsCommand__ExecuteAsync_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::PlayerSettingsCommand*", modifiers:
-  // "", def_value: None }, CppParam { name: "messages", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None }, CppParam { name: "__u__1",
-  // ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::PlayerSettingsCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "messages", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr PlayerSettingsCommand__ExecuteAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                      ::GlobalNamespace::PlayerSettingsCommand* __4__this, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages,
                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -111,6 +116,7 @@ static_assert(offsetof(::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d_
 static_assert(sizeof(::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d__8) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -136,6 +142,7 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
+  /// [AsyncStateMachine(typeof(PlayerSettingsCommand::<ExecuteAsync>d__8))]
   /// @brief Method ExecuteAsync, addr 0x32e0104, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
@@ -186,17 +193,18 @@ protected:
   constexpr PlayerSettingsCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSettingsCommand(PlayerSettingsCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSettingsCommand(PlayerSettingsCommand const&) = delete;
+  PlayerSettingsCommand(PlayerSettingsCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19407 };
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 

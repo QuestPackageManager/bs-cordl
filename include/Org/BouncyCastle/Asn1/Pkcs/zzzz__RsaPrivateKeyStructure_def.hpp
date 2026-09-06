@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\RsaPrivateKeyStructure.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/RsaPrivateKeyStructure.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,6 +85,7 @@ public:
                                                                                   ::Org::BouncyCastle::Math::BigInteger* prime2, ::Org::BouncyCastle::Math::BigInteger* exponent1,
                                                                                   ::Org::BouncyCastle::Math::BigInteger* exponent2, ::Org::BouncyCastle::Math::BigInteger* coefficient);
 
+  /// @brief [Obsolete("Use \'GetInstance\' method(s) instead")]
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// @brief Method ToAsn1Object, addr 0x34688b4, size 0x31c, virtual true, abstract: false, final false
@@ -143,6 +144,7 @@ public:
                     ::Org::BouncyCastle::Math::BigInteger* prime1, ::Org::BouncyCastle::Math::BigInteger* prime2, ::Org::BouncyCastle::Math::BigInteger* exponent1,
                     ::Org::BouncyCastle::Math::BigInteger* exponent2, ::Org::BouncyCastle::Math::BigInteger* coefficient);
 
+  /// [Obsolete("Use \'GetInstance\' method(s) instead")]
   /// @brief Method .ctor, addr 0x34684dc, size 0x380, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -176,13 +178,13 @@ protected:
   constexpr RsaPrivateKeyStructure();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RsaPrivateKeyStructure", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaPrivateKeyStructure", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RsaPrivateKeyStructure(RsaPrivateKeyStructure&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RsaPrivateKeyStructure", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaPrivateKeyStructure", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RsaPrivateKeyStructure(RsaPrivateKeyStructure const&) = delete;
+  RsaPrivateKeyStructure(RsaPrivateKeyStructureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 249 };

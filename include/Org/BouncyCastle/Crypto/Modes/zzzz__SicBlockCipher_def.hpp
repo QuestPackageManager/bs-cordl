@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\SicBlockCipher.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/SicBlockCipher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,13 +115,13 @@ protected:
   constexpr SicBlockCipher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SicBlockCipher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SicBlockCipher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SicBlockCipher(SicBlockCipher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SicBlockCipher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SicBlockCipher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SicBlockCipher(SicBlockCipher const&) = delete;
+  SicBlockCipher(SicBlockCipherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 977 };

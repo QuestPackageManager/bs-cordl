@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\ManagerUtils.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/ManagerUtils.hpp"
+#include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__ManagerUtils_def.hpp"
@@ -51,6 +52,7 @@ inline ::Meta::XR::ImmersiveDebugger::Manager::ManagerUtils_RegisterMember_1<T>*
 // Ctor Parameters []
 template <typename T> constexpr ::Meta::XR::ImmersiveDebugger::Manager::ManagerUtils_RegisterMember_1<T>::ManagerUtils_RegisterMember_1() {}
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Reflection::MemberInfo*>)
 inline void
 Meta::XR::ImmersiveDebugger::Manager::ManagerUtils::RebuildInspectorForType(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* panel,
                                                                             ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* cache, ::System::Type* type,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Experimental\ITransitionAnimations.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/ITransitionAnimations.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ namespace UnityEngine::UIElements::Experimental {
 class CORDL_TYPE ITransitionAnimations {
 public:
   // Declarations
-  /// @brief Method Start, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* Start(::UnityEngine::UIElements::Experimental::StyleValues to,
                                                                                                                                 int32_t durationMs);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITransitionAnimations", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITransitionAnimations", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITransitionAnimations(ITransitionAnimations const&) = delete;
+  ITransitionAnimations(ITransitionAnimationsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5500 };

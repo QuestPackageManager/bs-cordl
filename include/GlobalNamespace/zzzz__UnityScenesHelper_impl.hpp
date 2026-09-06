@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\UnityScenesHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/UnityScenesHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityScenesHelper_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
@@ -19,6 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::S
   }
 };
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
 inline void GlobalNamespace::UnityScenesHelper::GetComponentsInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<T>* components, bool includeInactive) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityScenesHelper*>(),

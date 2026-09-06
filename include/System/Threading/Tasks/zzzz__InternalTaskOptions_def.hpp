@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\InternalTaskOptions.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/InternalTaskOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct InternalTaskOptions;
 // Write type traits
 MARK_VAL_T(::System::Threading::Tasks::InternalTaskOptions);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::InternalTaskOptions, "System.Threading.Tasks", "InternalTaskOptions");
+// [Flags]
 // Dependencies
 namespace System::Threading::Tasks {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr InternalTaskOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InternalTaskOptions(int32_t value__) noexcept;
 
   /// @brief Field ContinuationTask value: I32(512)

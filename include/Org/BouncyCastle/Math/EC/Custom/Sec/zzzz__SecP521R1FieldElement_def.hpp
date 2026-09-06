@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Custom\Sec\SecP521R1FieldElement.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/Sec/SecP521R1FieldElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,13 +133,13 @@ protected:
   constexpr SecP521R1FieldElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecP521R1FieldElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecP521R1FieldElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecP521R1FieldElement(SecP521R1FieldElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecP521R1FieldElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecP521R1FieldElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecP521R1FieldElement(SecP521R1FieldElement const&) = delete;
+  SecP521R1FieldElement(SecP521R1FieldElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1438 };

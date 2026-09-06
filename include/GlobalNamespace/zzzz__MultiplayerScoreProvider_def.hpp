@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerScoreProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerScoreProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,13 @@ namespace GlobalNamespace {
 class MultiplayerScoreProvider___c__DisplayClass18_0;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
 struct StandardScoreSyncState_Score;
@@ -172,13 +178,13 @@ protected:
   constexpr MultiplayerScoreProvider_RankedPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider_RankedPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider_RankedPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreProvider_RankedPlayer(MultiplayerScoreProvider_RankedPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider_RankedPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider_RankedPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreProvider_RankedPlayer(MultiplayerScoreProvider_RankedPlayer const&) = delete;
+  MultiplayerScoreProvider_RankedPlayer(MultiplayerScoreProvider_RankedPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6183 };
@@ -199,6 +205,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer,
 static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -234,13 +241,13 @@ protected:
   constexpr MultiplayerScoreProvider___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreProvider___c(MultiplayerScoreProvider___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreProvider___c(MultiplayerScoreProvider___c const&) = delete;
+  MultiplayerScoreProvider___c(MultiplayerScoreProvider___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6184 };
@@ -251,6 +258,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -281,13 +289,13 @@ protected:
   constexpr MultiplayerScoreProvider___c__DisplayClass18_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c__DisplayClass18_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreProvider___c__DisplayClass18_0(MultiplayerScoreProvider___c__DisplayClass18_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c__DisplayClass18_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreProvider___c__DisplayClass18_0(MultiplayerScoreProvider___c__DisplayClass18_0 const&) = delete;
+  MultiplayerScoreProvider___c__DisplayClass18_0(MultiplayerScoreProvider___c__DisplayClass18_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6185 };
@@ -394,9 +402,11 @@ public:
   /// @brief Method .ctor, addr 0x59e59f8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_firstPlayerDidChangeEvent, addr 0x59db41c, size 0xc0, virtual false, abstract: false, final false
   inline void add_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_firstPlayer, addr 0x59e50e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* get_firstPlayer();
 
@@ -406,9 +416,11 @@ public:
   /// @brief Method get_scoresAvailable, addr 0x59e3960, size 0x20, virtual false, abstract: false, final false
   inline bool get_scoresAvailable();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_firstPlayerDidChangeEvent, addr 0x59dafb0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_firstPlayer, addr 0x59e50ec, size 0x8, virtual false, abstract: false, final false
   inline void set_firstPlayer(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* value);
 
@@ -418,23 +430,26 @@ protected:
   constexpr MultiplayerScoreProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreProvider(MultiplayerScoreProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerScoreProvider(MultiplayerScoreProvider const&) = delete;
+  MultiplayerScoreProvider(MultiplayerScoreProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6186 };
 
+  /// [Inject]
   /// @brief Field _scoreSyncStateManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IScoreSyncStateManager* ____scoreSyncStateManager;
 
+  /// [CompilerGenerated]
   /// @brief Field <firstPlayer>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* ____firstPlayer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field firstPlayerDidChangeEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* ___firstPlayerDidChangeEvent;
 

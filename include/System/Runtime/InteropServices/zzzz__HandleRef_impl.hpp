@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\HandleRef.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/HandleRef.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__HandleRef_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -39,8 +39,8 @@ inline ::System::IntPtr System::Runtime::InteropServices::HandleRef::get_Handle(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::HandleRef>(), { "get_Handle", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_wrapper", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handle", ty: "::System::IntPtr", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_wrapper", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_handle", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::InteropServices::HandleRef::HandleRef(::System::Object* _wrapper, ::System::IntPtr _handle) noexcept {
   this->_wrapper = _wrapper;
   this->_handle = _handle;

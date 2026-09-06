@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\EncodingTable.hpp"
+// IWYU pragma private; include "System/Globalization/EncodingTable.hpp"
 #include "System/Globalization/zzzz__InternalCodePageDataItem_impl.hpp"
 #include "System/Globalization/zzzz__InternalEncodingDataItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

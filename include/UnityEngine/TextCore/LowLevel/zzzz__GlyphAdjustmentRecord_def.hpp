@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphAdjustmentRecord.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ struct GlyphAdjustmentRecord;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.TextCore.LowLevel.GlyphValueRecord
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -37,12 +38,15 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>*();
 
+  /// [ExcludeFromDocs]
   /// @brief Method Equals, addr 0x6bc08a4, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [ExcludeFromDocs]
   /// @brief Method Equals, addr 0x6bc091c, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord other);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetHashCode, addr 0x6bc0838, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -62,8 +66,8 @@ public:
   // @brief default ctor
   constexpr GlyphAdjustmentRecord();
 
-  // Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_GlyphValueRecord", ty:
-  // "::UnityEngine::TextCore::LowLevel::GlyphValueRecord", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_GlyphValueRecord", ty:
+  // "::UnityEngine::TextCore::LowLevel::GlyphValueRecord", modifiers: "", def_value: None, comment: None }]
   constexpr GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -72,9 +76,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
+  /// [SerializeField]
+  /// [NativeName("glyphIndex")]
   /// @brief Field m_GlyphIndex, offset: 0x0, size: 0x4, def value: None
   uint32_t m_GlyphIndex;
 
+  /// [NativeName("glyphValueRecord")]
+  /// [SerializeField]
   /// @brief Field m_GlyphValueRecord, offset: 0x4, size: 0x10, def value: None
   ::UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord;
 

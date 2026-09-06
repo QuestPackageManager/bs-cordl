@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ParametricBoxFrameController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ParametricBoxFrameController.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ParametricBoxFrameController_def.hpp"

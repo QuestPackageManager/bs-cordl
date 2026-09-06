@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ObjectListPool_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ObjectListPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace UnityEngine::UIElements {
 template <typename T> class ObjectListPool_1___c;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,6 +28,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::ObjectListPool_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::ObjectListPool_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::ObjectListPool_1, "UnityEngine.UIElements", "ObjectListPool`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::ObjectListPool_1___c, "UnityEngine.UIElements", "ObjectListPool`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
@@ -56,13 +59,13 @@ protected:
   constexpr ObjectListPool_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectListPool_1___c(ObjectListPool_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectListPool_1___c(ObjectListPool_1___c const&) = delete;
+  ObjectListPool_1___c(ObjectListPool_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5225 };
@@ -71,6 +74,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
@@ -101,13 +105,13 @@ protected:
   constexpr ObjectListPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectListPool_1(ObjectListPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectListPool_1(ObjectListPool_1 const&) = delete;
+  ObjectListPool_1(ObjectListPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5226 };

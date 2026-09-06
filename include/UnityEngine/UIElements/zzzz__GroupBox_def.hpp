@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\GroupBox.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/GroupBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ MARK_REF_T(::UnityEngine::UIElements::GroupBox_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GroupBox*, "UnityEngine.UIElements", "GroupBox");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GroupBox_UxmlFactory*, "UnityEngine.UIElements", "GroupBox/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GroupBox_UxmlTraits*, "UnityEngine.UIElements", "GroupBox/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -70,13 +71,13 @@ protected:
   constexpr GroupBox_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupBox_UxmlFactory(GroupBox_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupBox_UxmlFactory(GroupBox_UxmlFactory const&) = delete;
+  GroupBox_UxmlFactory(GroupBox_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4201 };
@@ -87,6 +88,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::GroupBox_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BindableElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -117,13 +119,13 @@ protected:
   constexpr GroupBox_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupBox_UxmlTraits(GroupBox_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupBox_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupBox_UxmlTraits(GroupBox_UxmlTraits const&) = delete;
+  GroupBox_UxmlTraits(GroupBox_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4202 };
@@ -156,6 +158,7 @@ public:
   /// @brief Field m_TitleLabel, offset 0x4b8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TitleLabel, put = __cordl_internal_set_m_TitleLabel)) ::UnityEngine::UIElements::Label* m_TitleLabel;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
   /// @brief Field textProperty, offset 0xffffffff, size 0x98
@@ -216,13 +219,13 @@ protected:
   constexpr GroupBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupBox(GroupBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupBox(GroupBox const&) = delete;
+  GroupBox(GroupBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4203 };

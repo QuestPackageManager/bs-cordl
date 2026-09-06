@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\AbstractF2mCurve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/AbstractF2mCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ public:
   /// @brief Method BuildField, addr 0x34dac20, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* BuildField(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
+  /// [Obsolete("Per-point compression property will be removed")]
   /// @brief Method CreatePoint, addr 0x34dae34, size 0x160, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
 
@@ -92,13 +93,13 @@ protected:
   constexpr AbstractF2mCurve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractF2mCurve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractF2mCurve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractF2mCurve(AbstractF2mCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractF2mCurve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractF2mCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractF2mCurve(AbstractF2mCurve const&) = delete;
+  AbstractF2mCurve(AbstractF2mCurveconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1443 };

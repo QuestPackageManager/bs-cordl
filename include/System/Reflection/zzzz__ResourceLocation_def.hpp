@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ResourceLocation.hpp"
+// IWYU pragma private; include "System/Reflection/ResourceLocation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ResourceLocation;
 // Write type traits
 MARK_VAL_T(::System::Reflection::ResourceLocation);
 DEFINE_IL2CPP_CLASS(::System::Reflection::ResourceLocation, "System.Reflection", "ResourceLocation");
+// [Flags]
 // Dependencies
 namespace System::Reflection {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ResourceLocation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ResourceLocation(int32_t value__) noexcept;
 
   /// @brief Field ContainedInAnotherAssembly value: I32(2)

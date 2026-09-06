@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\ActivatedClientTypeEntry.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/ActivatedClientTypeEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class ActivatedClientTypeEntry;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::ActivatedClientTypeEntry*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::ActivatedClientTypeEntry*, "System.Runtime.Remoting", "ActivatedClientTypeEntry");
+// [ComVisible(true)]
 // Dependencies System.Runtime.Remoting.TypeEntry
 namespace System::Runtime::Remoting {
 // Is value type: false
@@ -74,13 +75,13 @@ protected:
   constexpr ActivatedClientTypeEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActivatedClientTypeEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActivatedClientTypeEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActivatedClientTypeEntry(ActivatedClientTypeEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActivatedClientTypeEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActivatedClientTypeEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActivatedClientTypeEntry(ActivatedClientTypeEntry const&) = delete;
+  ActivatedClientTypeEntry(ActivatedClientTypeEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3069 };

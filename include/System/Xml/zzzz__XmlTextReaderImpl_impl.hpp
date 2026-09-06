@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlTextReaderImpl.hpp"
+// IWYU pragma private; include "System/Xml/XmlTextReaderImpl.hpp"
 #include "System/Xml/zzzz__DtdProcessing_impl.hpp"
 #include "System/Xml/zzzz__EntityHandling_impl.hpp"
 #include "System/Xml/zzzz__LineInfo_impl.hpp"
@@ -58,7 +58,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Tuple_4_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextReaderImpl_ParsingFunction::XmlTextReaderImpl_ParsingFunction(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -90,7 +90,7 @@ constexpr ::System::Xml::XmlTextReaderImpl_ParsingFunction System::Xml::XmlTextR
 constexpr ::System::Xml::XmlTextReaderImpl_ParsingFunction System::Xml::XmlTextReaderImpl_ParsingFunction::InReadValueChunk{ static_cast<int32_t>(0x17) };
 constexpr ::System::Xml::XmlTextReaderImpl_ParsingFunction System::Xml::XmlTextReaderImpl_ParsingFunction::InReadContentAsBinary{ static_cast<int32_t>(0x18) };
 constexpr ::System::Xml::XmlTextReaderImpl_ParsingFunction System::Xml::XmlTextReaderImpl_ParsingFunction::InReadElementContentAsBinary{ static_cast<int32_t>(0x19) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextReaderImpl_ParsingMode::XmlTextReaderImpl_ParsingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -99,7 +99,7 @@ constexpr ::System::Xml::XmlTextReaderImpl_ParsingMode::XmlTextReaderImpl_Parsin
 constexpr ::System::Xml::XmlTextReaderImpl_ParsingMode System::Xml::XmlTextReaderImpl_ParsingMode::Full{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::XmlTextReaderImpl_ParsingMode System::Xml::XmlTextReaderImpl_ParsingMode::SkipNode{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::XmlTextReaderImpl_ParsingMode System::Xml::XmlTextReaderImpl_ParsingMode::SkipContent{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextReaderImpl_EntityType::XmlTextReaderImpl_EntityType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -113,7 +113,7 @@ constexpr ::System::Xml::XmlTextReaderImpl_EntityType System::Xml::XmlTextReader
 constexpr ::System::Xml::XmlTextReaderImpl_EntityType System::Xml::XmlTextReaderImpl_EntityType::FakeExpanded{ static_cast<int32_t>(0x5) };
 constexpr ::System::Xml::XmlTextReaderImpl_EntityType System::Xml::XmlTextReaderImpl_EntityType::Unexpanded{ static_cast<int32_t>(0x6) };
 constexpr ::System::Xml::XmlTextReaderImpl_EntityType System::Xml::XmlTextReaderImpl_EntityType::ExpandedInAttribute{ static_cast<int32_t>(0x7) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextReaderImpl_EntityExpandType::XmlTextReaderImpl_EntityExpandType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -122,7 +122,7 @@ constexpr ::System::Xml::XmlTextReaderImpl_EntityExpandType::XmlTextReaderImpl_E
 constexpr ::System::Xml::XmlTextReaderImpl_EntityExpandType System::Xml::XmlTextReaderImpl_EntityExpandType::All{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::XmlTextReaderImpl_EntityExpandType System::Xml::XmlTextReaderImpl_EntityExpandType::OnlyGeneral{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::XmlTextReaderImpl_EntityExpandType System::Xml::XmlTextReaderImpl_EntityExpandType::OnlyCharacter{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextReaderImpl_IncrementalReadState::XmlTextReaderImpl_IncrementalReadState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -143,7 +143,7 @@ constexpr ::System::Xml::XmlTextReaderImpl_IncrementalReadState System::Xml::Xml
 constexpr ::System::Xml::XmlTextReaderImpl_IncrementalReadState System::Xml::XmlTextReaderImpl_IncrementalReadState::ReadContentAsBinary_OnCachedValue{ static_cast<int32_t>(0xc) };
 constexpr ::System::Xml::XmlTextReaderImpl_IncrementalReadState System::Xml::XmlTextReaderImpl_IncrementalReadState::ReadContentAsBinary_OnPartialValue{ static_cast<int32_t>(0xd) };
 constexpr ::System::Xml::XmlTextReaderImpl_IncrementalReadState System::Xml::XmlTextReaderImpl_IncrementalReadState::ReadContentAsBinary_End{ static_cast<int32_t>(0xe) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextReaderImpl_InitInputType::XmlTextReaderImpl_InitInputType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -360,16 +360,18 @@ inline int32_t System::Xml::XmlTextReaderImpl_ParsingState::get_LinePos() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlTextReaderImpl_ParsingState>(), { "get_LinePos", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "chars", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "charsUsed", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "encoding", ty: "::System::Text::Encoding*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "appendMode", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "decoder",
-// ty: "::System::Text::Decoder*", modifiers: "", def_value: Some("{}") }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "bytePos", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bytesUsed", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "textReader", ty:
-// "::System::IO::TextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lineStartPos", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "baseUriStr", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "baseUri", ty: "::System::Uri*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "isEof", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isStreamEof", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "entity", ty: "::System::Xml::IDtdEntityInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "entityId", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "eolNormalized", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "entityResolvedManually", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "chars", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "charsUsed", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "appendMode", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stream", ty:
+// "::System::IO::Stream*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "decoder", ty: "::System::Text::Decoder*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bytePos", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "bytesUsed", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "textReader", ty: "::System::IO::TextReader*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lineStartPos", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "baseUriStr", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "baseUri", ty: "::System::Uri*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isEof", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isStreamEof", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "entity", ty: "::System::Xml::IDtdEntityInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "entityId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "eolNormalized", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "entityResolvedManually", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextReaderImpl_ParsingState::XmlTextReaderImpl_ParsingState(::ArrayW<char16_t> chars, int32_t charPos, int32_t charsUsed, ::System::Text::Encoding* encoding,
                                                                                         bool appendMode, ::System::IO::Stream* stream, ::System::Text::Decoder* decoder, ::ArrayW<uint8_t> bytes,
                                                                                         int32_t bytePos, int32_t bytesUsed, ::System::IO::TextReader* textReader, int32_t lineNo, int32_t lineStartPos,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion2_6_0AndEarlier\BeatmapDataLoader.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion2_6_0AndEarlier/BeatmapDataLoader.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeAndRotationConverter_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
@@ -831,9 +831,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoader
   }
 };
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapData*>* BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader::GetBeatmapDataFromSaveDataJsonAsync(
-    ::StringW beatmapJson, ::StringW defaultLightshowSaveDataJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm, bool loadingForDesignatedEnvironment,
+    /* [Nullable(1)] */ ::StringW beatmapJson, ::StringW defaultLightshowSaveDataJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm, bool loadingForDesignatedEnvironment,
     ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-    ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
+    /* [Nullable(1)] */ ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader*>(),
                                               { "GetBeatmapDataFromSaveDataJsonAsync",
@@ -857,9 +857,9 @@ inline ::GlobalNamespace::BeatmapDataBasicInfo* BeatmapDataLoaderVersion2_6_0And
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataBasicInfo*>(nullptr, ___internal_method, beatmapSaveDataJson);
 }
 inline ::GlobalNamespace::BeatmapData* BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader::GetBeatmapDataFromSaveDataJson(
-    ::StringW beatmapJson, ::StringW defaultLightshowSaveDataJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm, bool loadingForDesignatedEnvironment,
+    /* [Nullable(1)] */ ::StringW beatmapJson, ::StringW defaultLightshowSaveDataJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm, bool loadingForDesignatedEnvironment,
     ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-    ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
+    /* [Nullable(1)] */ ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader*>(),
                                               { "GetBeatmapDataFromSaveDataJson",
@@ -877,9 +877,9 @@ inline void BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader::ConvertB
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, beatmapSaveData);
 }
 inline ::GlobalNamespace::BeatmapData* BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader::GetBeatmapDataFromSaveData(
-    ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* beatmapSaveData, ::BeatmapSaveDataVersion4::LightshowSaveData* defaultLightshowSaveData,
+    ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* beatmapSaveData, /* [Nullable(2)] */ ::BeatmapSaveDataVersion4::LightshowSaveData* defaultLightshowSaveData,
     ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords,
-    ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+    ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups, /* [Nullable(2)] */ ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
     ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader*>(),
@@ -894,7 +894,7 @@ inline ::GlobalNamespace::BeatmapData* BeatmapDataLoaderVersion2_6_0AndEarlier::
                                                                               lightEventConverter);
 }
 inline bool BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader::BeatmapSaveDataAreSorted(
-    ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>* beatmapSaveData) {
+    /* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*>* beatmapSaveData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader*>(),

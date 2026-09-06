@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ShapeFactory.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ShapeFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ShapeFactory_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
@@ -35,7 +36,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::P
     return ___internal_method;
   }
 };
-template <typename T> inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> UnityEngine::ProBuilder::ShapeFactory::Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ProBuilder::Shapes::Shape*> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> UnityEngine::ProBuilder::ShapeFactory::Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ShapeFactory*>(), { "Instantiate", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::ProBuilder::PivotLocation>() } })));

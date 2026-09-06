@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CloudsMeshGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace/CloudsMeshGenerator.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -10,11 +10,11 @@
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "precisionOpaqueMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lowPolyMesh", ty:
-// "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sizeModifier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomThreshold",
-// ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "weight", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "precisionVertexCount", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "lowPolyVertexCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "generatedCount", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "precisionOpaqueMesh", ty: "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lowPolyMesh", ty:
+// "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sizeModifier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "bottomThreshold", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "weight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "precisionVertexCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lowPolyVertexCount", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "generatedCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::CloudsMeshGenerator_Cloud::CloudsMeshGenerator_Cloud(::UnityW<::UnityEngine::Mesh> precisionOpaqueMesh, ::UnityW<::UnityEngine::Mesh> lowPolyMesh, float_t sizeModifier,
                                                                                   float_t bottomThreshold, int32_t weight, int32_t precisionVertexCount, int32_t lowPolyVertexCount,
                                                                                   int32_t generatedCount) noexcept {
@@ -29,9 +29,9 @@ constexpr ::GlobalNamespace::CloudsMeshGenerator_Cloud::CloudsMeshGenerator_Clou
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CloudsMeshGenerator_Cloud::CloudsMeshGenerator_Cloud() {}
-// Ctor Parameters [CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "normalizedRadius", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "meshCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cloudIDs", ty: "::ArrayW<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "sizeMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "normalizedRadius", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "meshCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cloudIDs", ty: "::ArrayW<int32_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "sizeMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::CloudsMeshGenerator_Ring::CloudsMeshGenerator_Ring(float_t radius, float_t normalizedRadius, int32_t meshCount, ::ArrayW<int32_t> cloudIDs,
                                                                                 float_t sizeMultiplier) noexcept {
   this->radius = radius;
@@ -42,8 +42,8 @@ constexpr ::GlobalNamespace::CloudsMeshGenerator_Ring::CloudsMeshGenerator_Ring(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CloudsMeshGenerator_Ring::CloudsMeshGenerator_Ring() {}
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "distance", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "transform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "distance", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::CloudsMeshGenerator_ProhibitedRadius::CloudsMeshGenerator_ProhibitedRadius(::UnityW<::UnityEngine::Transform> transform, float_t distance, float_t radius) noexcept {
   this->transform = transform;
   this->distance = distance;
@@ -51,8 +51,9 @@ constexpr ::GlobalNamespace::CloudsMeshGenerator_ProhibitedRadius::CloudsMeshGen
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CloudsMeshGenerator_ProhibitedRadius::CloudsMeshGenerator_ProhibitedRadius() {}
-// Ctor Parameters [CppParam { name: "normalizedStart", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "normalizedEnd", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "absoluteStart", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "absoluteEnd", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "normalizedStart", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "normalizedEnd", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "absoluteStart", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "absoluteEnd", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::CloudsMeshGenerator_RadiusChunk::CloudsMeshGenerator_RadiusChunk(float_t normalizedStart, float_t normalizedEnd, float_t absoluteStart, float_t absoluteEnd) noexcept {
   this->normalizedStart = normalizedStart;
   this->normalizedEnd = normalizedEnd;

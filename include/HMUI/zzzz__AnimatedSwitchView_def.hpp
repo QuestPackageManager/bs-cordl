@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\AnimatedSwitchView.hpp"
+// IWYU pragma private; include "HMUI/AnimatedSwitchView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,13 +152,13 @@ protected:
   constexpr AnimatedSwitchView_ColorBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_ColorBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_ColorBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatedSwitchView_ColorBlock(AnimatedSwitchView_ColorBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_ColorBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_ColorBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatedSwitchView_ColorBlock(AnimatedSwitchView_ColorBlock const&) = delete;
+  AnimatedSwitchView_ColorBlock(AnimatedSwitchView_ColorBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20982 };
@@ -172,6 +172,7 @@ public:
   /// @brief Field knobColor1, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ___knobColor1;
 
+  /// [Space]
   /// @brief Field backgroundColor, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Color ___backgroundColor;
 
@@ -199,6 +200,7 @@ static_assert(offsetof(::HMUI::AnimatedSwitchView_ColorBlock, ___backgroundColor
 static_assert(sizeof(::HMUI::AnimatedSwitchView_ColorBlock) == 0x70, "Size mismatch!");
 
 } // namespace HMUI
+// [Flags]
 // Dependencies
 namespace HMUI {
 // Is value type: true
@@ -233,7 +235,7 @@ public:
   // @brief default ctor
   constexpr AnimatedSwitchView_AnimationState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AnimatedSwitchView_AnimationState(int32_t value__) noexcept;
 
   /// @brief Field DisablingOff value: I32(32)
@@ -301,13 +303,13 @@ protected:
   constexpr AnimatedSwitchView_GetColorDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_GetColorDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_GetColorDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatedSwitchView_GetColorDelegate(AnimatedSwitchView_GetColorDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_GetColorDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView_GetColorDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatedSwitchView_GetColorDelegate(AnimatedSwitchView_GetColorDelegate const&) = delete;
+  AnimatedSwitchView_GetColorDelegate(AnimatedSwitchView_GetColorDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20984 };
@@ -318,6 +320,7 @@ public:
 static_assert(sizeof(::HMUI::AnimatedSwitchView_GetColorDelegate) == 0x80, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -403,13 +406,13 @@ protected:
   constexpr AnimatedSwitchView___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatedSwitchView___c(AnimatedSwitchView___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatedSwitchView___c(AnimatedSwitchView___c const&) = delete;
+  AnimatedSwitchView___c(AnimatedSwitchView___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20985 };
@@ -420,6 +423,8 @@ public:
 static_assert(sizeof(::HMUI::AnimatedSwitchView___c) == 0x10, "Size mismatch!");
 
 } // namespace HMUI
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(HMUI.ToggleWithCallbacks))]
 // Dependencies HMUI.AnimatedSwitchView::AnimationState, UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
@@ -674,59 +679,78 @@ protected:
   constexpr AnimatedSwitchView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatedSwitchView(AnimatedSwitchView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatedSwitchView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatedSwitchView(AnimatedSwitchView const&) = delete;
+  AnimatedSwitchView(AnimatedSwitchViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20986 };
 
+  /// [SerializeField]
   /// @brief Field _knobRectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____knobRectTransform;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _backgroundImage, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____backgroundImage;
 
+  /// [SerializeField]
   /// @brief Field _knobImage, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____knobImage;
 
+  /// [SerializeField]
   /// @brief Field _onText, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____onText;
 
+  /// [SerializeField]
   /// @brief Field _offText, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____offText;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _switchAnimationSmooth, offset: 0x48, size: 0x4, def value: None
   float_t ____switchAnimationSmooth;
 
+  /// [SerializeField]
   /// @brief Field _disableAnimationDuration, offset: 0x4c, size: 0x4, def value: None
   float_t ____disableAnimationDuration;
 
+  /// [SerializeField]
   /// @brief Field _highlightAnimationDuration, offset: 0x50, size: 0x4, def value: None
   float_t ____highlightAnimationDuration;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _horizontalStretchAmount, offset: 0x54, size: 0x4, def value: None
   float_t ____horizontalStretchAmount;
 
+  /// [SerializeField]
   /// @brief Field _verticalStretchAmount, offset: 0x58, size: 0x4, def value: None
   float_t ____verticalStretchAmount;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _onColors, offset: 0x60, size: 0x8, def value: None
   ::HMUI::AnimatedSwitchView_ColorBlock* ____onColors;
 
+  /// [SerializeField]
   /// @brief Field _offColors, offset: 0x68, size: 0x8, def value: None
   ::HMUI::AnimatedSwitchView_ColorBlock* ____offColors;
 
+  /// [SerializeField]
   /// @brief Field _onHighlightedColors, offset: 0x70, size: 0x8, def value: None
   ::HMUI::AnimatedSwitchView_ColorBlock* ____onHighlightedColors;
 
+  /// [SerializeField]
   /// @brief Field _offHighlightedColors, offset: 0x78, size: 0x8, def value: None
   ::HMUI::AnimatedSwitchView_ColorBlock* ____offHighlightedColors;
 
+  /// [SerializeField]
   /// @brief Field _disabledColors, offset: 0x80, size: 0x8, def value: None
   ::HMUI::AnimatedSwitchView_ColorBlock* ____disabledColors;
 

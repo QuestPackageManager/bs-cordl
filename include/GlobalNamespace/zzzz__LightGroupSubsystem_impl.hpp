@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightGroupSubsystem.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightGroupSubsystem.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroup_def.hpp"

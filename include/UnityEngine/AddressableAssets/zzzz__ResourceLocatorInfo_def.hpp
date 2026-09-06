@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\ResourceLocatorInfo.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/ResourceLocatorInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,30 +91,38 @@ public:
   /// @brief Method get_CanUpdateContent, addr 0x644a66c, size 0x1ac, virtual false, abstract: false, final false
   inline bool get_CanUpdateContent();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CatalogLocation, addr 0x644ba54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_CatalogLocation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ContentUpdateAvailable, addr 0x644ba64, size 0x8, virtual false, abstract: false, final false
   inline bool get_ContentUpdateAvailable();
 
   /// @brief Method get_HashLocation, addr 0x644a904, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_HashLocation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LocalHash, addr 0x644ba44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalHash();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Locator, addr 0x644ba34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* get_Locator();
 
+  /// [CompilerGenerated]
   /// @brief Method set_CatalogLocation, addr 0x644ba5c, size 0x8, virtual false, abstract: false, final false
   inline void set_CatalogLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ContentUpdateAvailable, addr 0x644ba6c, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentUpdateAvailable(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LocalHash, addr 0x644ba4c, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalHash(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Locator, addr 0x644ba3c, size 0x8, virtual false, abstract: false, final false
   inline void set_Locator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
 
@@ -124,26 +132,30 @@ protected:
   constexpr ResourceLocatorInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocatorInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocatorInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceLocatorInfo(ResourceLocatorInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocatorInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocatorInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceLocatorInfo(ResourceLocatorInfo const&) = delete;
+  ResourceLocatorInfo(ResourceLocatorInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19778 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Locator>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* ____Locator_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <LocalHash>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____LocalHash_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CatalogLocation>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ____CatalogLocation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ContentUpdateAvailable>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____ContentUpdateAvailable_k__BackingField;
 

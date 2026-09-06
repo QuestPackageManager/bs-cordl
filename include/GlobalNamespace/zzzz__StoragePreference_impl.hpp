@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StoragePreference.hpp"
+// IWYU pragma private; include "GlobalNamespace/StoragePreference.hpp"
 #include "GlobalNamespace/zzzz__StoragePreference_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::StoragePreference::StoragePreference(int32_t value__) noexcept {
   this->value__ = value__;
 }

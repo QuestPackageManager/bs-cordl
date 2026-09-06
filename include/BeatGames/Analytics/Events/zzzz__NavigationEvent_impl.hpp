@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames\Analytics\Events\NavigationEvent.hpp"
+// IWYU pragma private; include "BeatGames/Analytics/Events/NavigationEvent.hpp"
 #include "BeatGames/Analytics/Events/zzzz__BasePlatformSessionAnalyticsEvent_impl.hpp"
 #include "BeatGames/Analytics/Events/zzzz__NavigationEvent_def.hpp"
 //  Writing Method size for method: ::BeatGames::Analytics::Events::NavigationEvent.SetEventData

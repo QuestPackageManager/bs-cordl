@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\DeleteElements.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/DeleteElements.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::DeleteElements*, 
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass0_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass2_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -94,13 +95,13 @@ protected:
   constexpr DeleteElements___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeleteElements___c(DeleteElements___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteElements___c(DeleteElements___c const&) = delete;
+  DeleteElements___c(DeleteElements___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16866 };
@@ -111,6 +112,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -159,13 +161,13 @@ protected:
   constexpr DeleteElements___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeleteElements___c__DisplayClass0_0(DeleteElements___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteElements___c__DisplayClass0_0(DeleteElements___c__DisplayClass0_0 const&) = delete;
+  DeleteElements___c__DisplayClass0_0(DeleteElements___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16867 };
@@ -186,6 +188,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::DeleteElements
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c__DisplayClass0_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -216,13 +219,13 @@ protected:
   constexpr DeleteElements___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeleteElements___c__DisplayClass2_0(DeleteElements___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteElements___c__DisplayClass2_0(DeleteElements___c__DisplayClass2_0 const&) = delete;
+  DeleteElements___c__DisplayClass2_0(DeleteElements___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16868 };
@@ -238,6 +241,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::DeleteElements
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c__DisplayClass2_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -251,21 +255,31 @@ public:
 
   using __c__DisplayClass2_0 = ::UnityEngine::ProBuilder::MeshOperations::DeleteElements___c__DisplayClass2_0;
 
+  /// [Extension]
   /// @brief Method DeleteFace, addr 0x6712e84, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> DeleteFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
+  /// [Extension]
   /// @brief Method DeleteFaces, addr 0x6723f70, size 0x664, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* faceIndexes);
 
+  /// [Extension]
   /// @brief Method DeleteFaces, addr 0x671aebc, size 0x104, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
+  /// [Extension]
   /// @brief Method DeleteVertices, addr 0x6714bf8, size 0x5e8, virtual false, abstract: false, final false
   static inline void DeleteVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* distinctIndexes);
 
+  /// [Extension]
+  /// [Obsolete("Use MeshValidation.RemoveDegenerateTriangles")]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method RemoveDegenerateTriangles, addr 0x67245d4, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
+  /// [Extension]
+  /// [Obsolete("Use MeshValidation.RemoveUnusedVertices")]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method RemoveUnusedVertices, addr 0x672467c, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
@@ -275,13 +289,13 @@ protected:
   constexpr DeleteElements();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DeleteElements(DeleteElements&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DeleteElements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DeleteElements(DeleteElements const&) = delete;
+  DeleteElements(DeleteElementsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16869 };

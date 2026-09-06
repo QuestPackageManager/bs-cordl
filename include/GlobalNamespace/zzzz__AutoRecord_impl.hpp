@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AutoRecord.hpp"
+// IWYU pragma private; include "GlobalNamespace/AutoRecord.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
@@ -15,8 +15,8 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "noteLineCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "items", ty: "::ArrayW<::GlobalNamespace::BeatmapDataItem*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "noteLineCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "items", ty: "::ArrayW<::GlobalNamespace::BeatmapDataItem*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::AutoRecord_Beatmap::AutoRecord_Beatmap(float_t beatsPerMinute, int32_t noteLineCount, ::ArrayW<::GlobalNamespace::BeatmapDataItem*> items) noexcept {
   this->beatsPerMinute = beatsPerMinute;
   this->noteLineCount = noteLineCount;
@@ -119,7 +119,7 @@ inline void GlobalNamespace::AutoRecord::setStaticF_kCutEndOffset(::UnityEngine:
 inline ::UnityEngine::Pose GlobalNamespace::AutoRecord::getStaticF_kCutEndOffset() {
   return ::cordl_internals::getStaticField<::UnityEngine::Pose, "kCutEndOffset", ::GlobalNamespace::AutoRecord*>();
 }
-inline ::BeatSaber::RecPlay::PlayerPoseFrames GlobalNamespace::AutoRecord::CreatePlayerPoseFrames(::by_ref<::GlobalNamespace::AutoRecord_Beatmap> beatmap) {
+inline ::BeatSaber::RecPlay::PlayerPoseFrames GlobalNamespace::AutoRecord::CreatePlayerPoseFrames(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::AutoRecord_Beatmap> beatmap) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoRecord*>(), { "CreatePlayerPoseFrames", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::AutoRecord_Beatmap>>() } })));

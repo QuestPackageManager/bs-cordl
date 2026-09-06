@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceIndex.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceIndex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,8 @@ public:
 
   static inline ::UnityEngine::Rendering::GPUInstanceIndex getStaticF_Invalid();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_index, addr 0x6823388, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
@@ -64,6 +66,7 @@ public:
 
   static inline void setStaticF_Invalid(::UnityEngine::Rendering::GPUInstanceIndex value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_index, addr 0x6823390, size 0x8, virtual false, abstract: false, final false
   inline void set_index(int32_t value);
 
@@ -71,7 +74,7 @@ public:
   // @brief default ctor
   constexpr GPUInstanceIndex();
 
-  // Ctor Parameters [CppParam { name: "_index_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_index_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GPUInstanceIndex(int32_t _index_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,6 +83,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// [CompilerGenerated]
   /// @brief Field <index>k__BackingField, offset: 0x0, size: 0x4, def value: None
   int32_t _index_k__BackingField;
 

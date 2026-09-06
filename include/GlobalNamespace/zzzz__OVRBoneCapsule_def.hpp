@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBoneCapsule.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBoneCapsule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,21 +74,27 @@ public:
   /// @brief Method .ctor, addr 0x5f11ddc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BoneIndex, addr 0x5f11dac, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_BoneIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CapsuleCollider, addr 0x5f11dcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::CapsuleCollider> get_CapsuleCollider();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CapsuleRigidbody, addr 0x5f11dbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_CapsuleRigidbody();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BoneIndex, addr 0x5f11db4, size 0x8, virtual false, abstract: false, final false
   inline void set_BoneIndex(int16_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CapsuleCollider, addr 0x5f11dd4, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleCollider(::UnityEngine::CapsuleCollider* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CapsuleRigidbody, addr 0x5f11dc4, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleRigidbody(::UnityEngine::Rigidbody* value);
 
@@ -98,23 +104,26 @@ protected:
   constexpr OVRBoneCapsule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBoneCapsule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBoneCapsule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRBoneCapsule(OVRBoneCapsule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBoneCapsule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBoneCapsule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRBoneCapsule(OVRBoneCapsule const&) = delete;
+  OVRBoneCapsule(OVRBoneCapsuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7987 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BoneIndex>k__BackingField, offset: 0x10, size: 0x2, def value: None
   int16_t ____BoneIndex_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CapsuleRigidbody>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rigidbody> ____CapsuleRigidbody_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CapsuleCollider>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CapsuleCollider> ____CapsuleCollider_k__BackingField;
 

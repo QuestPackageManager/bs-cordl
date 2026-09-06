@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_InputActionManifestLoad_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_InputActionManifestLoad_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,9 @@ public:
   // @brief default ctor
   constexpr VREvent_InputActionManifestLoad_t();
 
-  // Ctor Parameters [CppParam { name: "pathAppKey", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "pathMessage", ty: "uint64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "pathMessageParam", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "pathManifestPath", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pathAppKey", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pathMessage", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "pathMessageParam", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pathManifestPath", ty: "uint64_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr VREvent_InputActionManifestLoad_t(uint64_t pathAppKey, uint64_t pathMessage, uint64_t pathMessageParam, uint64_t pathManifestPath) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

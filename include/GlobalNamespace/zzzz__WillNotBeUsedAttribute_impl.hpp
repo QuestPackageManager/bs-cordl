@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\WillNotBeUsedAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/WillNotBeUsedAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__WillNotBeUsedAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::WillNotBeUsedAttribute._ctor

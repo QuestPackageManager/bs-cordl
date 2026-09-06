@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\SqlMoneyStorage.hpp"
+// IWYU pragma private; include "System/Data/Common/SqlMoneyStorage.hpp"
 #include "System/Data/Common/zzzz__DataStorage_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlMoney_impl.hpp"
 #include "System/Data/Common/zzzz__SqlMoneyStorage_def.hpp"

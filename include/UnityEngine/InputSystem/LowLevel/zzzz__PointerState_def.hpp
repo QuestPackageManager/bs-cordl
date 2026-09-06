@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\PointerState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/PointerState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,10 +46,10 @@ public:
   // @brief default ctor
   constexpr PointerState();
 
-  // Ctor Parameters [CppParam { name: "pointerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
-  // CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius",
-  // ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "displayIndex", ty: "uint16_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pointerId", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "pressure", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "radius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "buttons", ty: "uint16_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "displayIndex", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr PointerState(uint32_t pointerId, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 delta, float_t pressure, ::UnityEngine::Vector2 radius, uint16_t buttons,
                          uint16_t displayIndex) noexcept;
 
@@ -62,21 +62,27 @@ public:
   /// @brief Field pointerId, offset: 0x0, size: 0x4, def value: None
   uint32_t pointerId;
 
+  /// [InputControl(layout = "Vector2", displayName = "Position", usage = "Point", dontReset = true)]
   /// @brief Field position, offset: 0x4, size: 0x8, def value: None
   ::UnityEngine::Vector2 position;
 
+  /// [InputControl(layout = "Delta", displayName = "Delta", usage = "Secondary2DMotion")]
   /// @brief Field delta, offset: 0xc, size: 0x8, def value: None
   ::UnityEngine::Vector2 delta;
 
+  /// [InputControl(layout = "Analog", displayName = "Pressure", usage = "Pressure", defaultState = 1)]
   /// @brief Field pressure, offset: 0x14, size: 0x4, def value: None
   float_t pressure;
 
+  /// [InputControl(layout = "Vector2", displayName = "Radius", usage = "Radius")]
   /// @brief Field radius, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Vector2 radius;
 
+  /// [InputControl(name = "press", displayName = "Press", layout = "Button", format = "BIT", bit = 0)]
   /// @brief Field buttons, offset: 0x20, size: 0x2, def value: None
   uint16_t buttons;
 
+  /// [InputControl(name = "displayIndex", layout = "Integer", displayName = "Display Index")]
   /// @brief Field displayIndex, offset: 0x22, size: 0x2, def value: None
   uint16_t displayIndex;
 

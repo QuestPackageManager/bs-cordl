@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\WaypointData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/WaypointData.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteLineLayer_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__OffsetDirection_impl.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveDataItem_impl.hpp"

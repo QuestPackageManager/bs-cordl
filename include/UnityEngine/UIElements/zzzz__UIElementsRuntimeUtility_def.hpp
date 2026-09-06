@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIElementsRuntimeUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIElementsRuntimeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,9 @@ namespace System {
 struct IntPtr;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -102,13 +104,13 @@ protected:
   constexpr UIElementsRuntimeUtility_CreateRuntimePanelDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility_CreateRuntimePanelDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility_CreateRuntimePanelDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIElementsRuntimeUtility_CreateRuntimePanelDelegate(UIElementsRuntimeUtility_CreateRuntimePanelDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility_CreateRuntimePanelDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility_CreateRuntimePanelDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIElementsRuntimeUtility_CreateRuntimePanelDelegate(UIElementsRuntimeUtility_CreateRuntimePanelDelegate const&) = delete;
+  UIElementsRuntimeUtility_CreateRuntimePanelDelegate(UIElementsRuntimeUtility_CreateRuntimePanelDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5113 };
@@ -119,6 +121,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::UIElementsRuntimeUtility_CreateRuntimePanelDelegate) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -157,13 +160,13 @@ protected:
   constexpr UIElementsRuntimeUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIElementsRuntimeUtility___c(UIElementsRuntimeUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIElementsRuntimeUtility___c(UIElementsRuntimeUtility___c const&) = delete;
+  UIElementsRuntimeUtility___c(UIElementsRuntimeUtility___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5114 };
@@ -298,6 +301,7 @@ public:
   /// @brief Method UpdatePanels, addr 0x6cb6e28, size 0x274, virtual false, abstract: false, final false
   static inline void UpdatePanels();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onCreatePanel, addr 0x6cb4b10, size 0x104, virtual false, abstract: false, final false
   static inline void add_onCreatePanel(::System::Action_1<::UnityEngine::UIElements::BaseRuntimePanel*>* value);
 
@@ -323,6 +327,7 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* getStaticF_s_SortedRuntimePanels();
 
+  /// [CompilerGenerated]
   /// @brief Method get_activeEventSystem, addr 0x6cb6880, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> get_activeEventSystem();
 
@@ -332,6 +337,7 @@ public:
   /// @brief Method get_useDefaultEventSystem, addr 0x6cb693c, size 0xcc, virtual false, abstract: false, final false
   static inline bool get_useDefaultEventSystem();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onCreatePanel, addr 0x6cb4c14, size 0x104, virtual false, abstract: false, final false
   static inline void remove_onCreatePanel(::System::Action_1<::UnityEngine::UIElements::BaseRuntimePanel*>* value);
 
@@ -357,6 +363,7 @@ public:
 
   static inline void setStaticF_s_SortedRuntimePanels(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_activeEventSystem, addr 0x6cb68dc, size 0x60, virtual false, abstract: false, final false
   static inline void set_activeEventSystem(::UnityEngine::Object* value);
 
@@ -366,13 +373,13 @@ protected:
   constexpr UIElementsRuntimeUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIElementsRuntimeUtility(UIElementsRuntimeUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIElementsRuntimeUtility(UIElementsRuntimeUtility const&) = delete;
+  UIElementsRuntimeUtility(UIElementsRuntimeUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5115 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\ShareAndLocalizeParams.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/ShareAndLocalizeParams.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__ShareAndLocalizeParams_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
@@ -65,9 +65,9 @@ inline ::StringW Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "requestingPlayerId", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "requestingPlayerOculusId", ty: "uint64_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "anchorUUID", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "anchorFlowSucceeded", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "requestingPlayerId", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestingPlayerOculusId", ty: "uint64_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "anchorUUID", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "anchorFlowSucceeded", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::ShareAndLocalizeParams(uint64_t requestingPlayerId, uint64_t requestingPlayerOculusId, ::System::Guid anchorUUID,
                                                                                                     bool anchorFlowSucceeded) noexcept {
   this->requestingPlayerId = requestingPlayerId;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassBloomTextureEffectSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBloomTextureEffectSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -187,53 +187,68 @@ protected:
   constexpr BloomPrePassBloomTextureEffectSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBloomTextureEffectSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBloomTextureEffectSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBloomTextureEffectSO(BloomPrePassBloomTextureEffectSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBloomTextureEffectSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBloomTextureEffectSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBloomTextureEffectSO(BloomPrePassBloomTextureEffectSO const&) = delete;
+  BloomPrePassBloomTextureEffectSO(BloomPrePassBloomTextureEffectSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20696 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _radius, offset: 0x2c, size: 0x4, def value: None
   float_t ____radius;
 
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x30, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
   /// @brief Field _downBloomIntensityOffset, offset: 0x34, size: 0x4, def value: None
   float_t ____downBloomIntensityOffset;
 
+  /// [SerializeField]
   /// @brief Field _uniformPyramidWeights, offset: 0x38, size: 0x1, def value: None
   bool ____uniformPyramidWeights;
 
+  /// [SerializeField]
   /// @brief Field _pyramidWeightsParam, offset: 0x3c, size: 0x4, def value: None
   float_t ____pyramidWeightsParam;
 
+  /// [SerializeField]
   /// @brief Field _firstUpsampleBrightness, offset: 0x40, size: 0x4, def value: None
   float_t ____firstUpsampleBrightness;
 
+  /// [SerializeField]
   /// @brief Field _finalUpsampleBrightness, offset: 0x44, size: 0x4, def value: None
   float_t ____finalUpsampleBrightness;
 
+  /// [SerializeField]
   /// @brief Field _prefilterPass, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::PyramidBloomRendererSO_Pass ____prefilterPass;
 
+  /// [SerializeField]
   /// @brief Field _downsamplePass, offset: 0x4c, size: 0x4, def value: None
   ::GlobalNamespace::PyramidBloomRendererSO_Pass ____downsamplePass;
 
+  /// [SerializeField]
   /// @brief Field _upsamplePass, offset: 0x50, size: 0x4, def value: None
   ::GlobalNamespace::PyramidBloomRendererSO_Pass ____upsamplePass;
 
+  /// [SerializeField]
   /// @brief Field _finalUpsamplePass, offset: 0x54, size: 0x4, def value: None
   ::GlobalNamespace::PyramidBloomRendererSO_Pass ____finalUpsamplePass;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _bloomRenderer, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PyramidBloomRendererSO> ____bloomRenderer;
 
+  /// [SerializeField]
   /// @brief Field _bloomFog, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 

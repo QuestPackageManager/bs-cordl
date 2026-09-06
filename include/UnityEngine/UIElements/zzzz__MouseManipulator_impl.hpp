@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseManipulator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseManipulator.hpp"
 #include "UnityEngine/UIElements/zzzz__Manipulator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseManipulator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

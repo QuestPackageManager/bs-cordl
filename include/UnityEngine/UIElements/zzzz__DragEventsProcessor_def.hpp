@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DragEventsProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DragEventsProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
   // @brief default ctor
   constexpr DragEventsProcessor_DragState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DragEventsProcessor_DragState(int32_t value__) noexcept;
 
   /// @brief Field CanStartDrag value: I32(1)
@@ -150,10 +150,10 @@ public:
 
   __declspec(property(get = get_useDragEvents)) bool useDragEvents;
 
-  /// @brief Method CanStartDrag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CanStartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanStartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method ClearDragAndDropUI, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ClearDragAndDropUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ClearDragAndDropUI(bool dragCancelled);
 
   /// @brief Method GetDropTarget, addr 0x6d8b398, size 0xec, virtual false, abstract: false, final false
@@ -161,7 +161,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DragEventsProcessor* New_ctor(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method OnDrop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
   /// @brief Method OnPointerCancelEvent, addr 0x6d8b494, size 0x144, virtual false, abstract: false, final false
@@ -188,7 +188,7 @@ public:
   /// @brief Method RegisterCallbacksFromTarget, addr 0x6d8acd4, size 0x4, virtual false, abstract: false, final false
   inline void RegisterCallbacksFromTarget(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method StartDrag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StartDragArgs StartDrag(::UnityEngine::Vector3 pointerPosition);
 
   /// @brief Method UnregisterCallbacksFromTarget, addr 0x6d8acd8, size 0x8, virtual false, abstract: false, final false
@@ -197,7 +197,7 @@ public:
   /// @brief Method UnregisterCallbacksFromTarget, addr 0x6d8ace0, size 0x450, virtual false, abstract: false, final false
   inline void UnregisterCallbacksFromTarget(bool unregisterPanelEvents);
 
-  /// @brief Method UpdateDrag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
   constexpr ::UnityEngine::UIElements::DragEventsProcessor_DragState const& __cordl_internal_get_m_DragState() const;
@@ -245,13 +245,13 @@ protected:
   constexpr DragEventsProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DragEventsProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DragEventsProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DragEventsProcessor(DragEventsProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DragEventsProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DragEventsProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DragEventsProcessor(DragEventsProcessor const&) = delete;
+  DragEventsProcessor(DragEventsProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4392 };

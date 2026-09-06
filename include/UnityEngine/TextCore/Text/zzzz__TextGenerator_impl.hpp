@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextGenerator.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextGenerator.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Extents_impl.hpp"
@@ -107,9 +107,9 @@ inline void UnityEngine::TextCore::Text::TextGenerator_SpecialCharacter::_ctor(:
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::Character*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, character, materialIndex);
 }
-// Ctor Parameters [CppParam { name: "character", ty: "::UnityEngine::TextCore::Text::Character*", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontAsset", ty:
-// "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "materialIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "character", ty: "::UnityEngine::TextCore::Text::Character*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontAsset", ty:
+// "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "materialIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::TextGenerator_SpecialCharacter::TextGenerator_SpecialCharacter(::UnityEngine::TextCore::Text::Character* character,
                                                                                                         ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset,
                                                                                                         ::UnityW<::UnityEngine::Material> material, int32_t materialIndex) noexcept {
@@ -2293,7 +2293,7 @@ inline ::UnityEngine::TextCore::Text::TextElement* UnityEngine::TextCore::Text::
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::TextElement*>(this, ___internal_method, generationSettings, unicode, fontAsset, fontStyle, fontWeight,
                                                                                           isUsingAlternativeTypeface, populateLigatures);
 }
-inline void UnityEngine::TextCore::Text::TextGenerator::PopulateTextBackingArray(::by_ref<::UnityEngine::TextCore::Text::RenderedText> sourceText) {
+inline void UnityEngine::TextCore::Text::TextGenerator::PopulateTextBackingArray(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> sourceText) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGenerator*>(),
                                                            { "PopulateTextBackingArray", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>() } })));

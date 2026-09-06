@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\CoroutineTween\FloatTween.hpp"
+// IWYU pragma private; include "UnityEngine/UI/CoroutineTween/FloatTween.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ protected:
   constexpr FloatTween_FloatTweenCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTween_FloatTweenCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTween_FloatTweenCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatTween_FloatTweenCallback(FloatTween_FloatTweenCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTween_FloatTweenCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTween_FloatTweenCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatTween_FloatTweenCallback(FloatTween_FloatTweenCallback const&) = delete;
+  FloatTween_FloatTweenCallback(FloatTween_FloatTweenCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17524 };
@@ -129,9 +129,9 @@ public:
   // @brief default ctor
   constexpr FloatTween();
 
-  // Ctor Parameters [CppParam { name: "m_Target", ty: "::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback*", modifiers: "", def_value: None }, CppParam { name: "m_StartValue", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Target", ty: "::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_StartValue", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Duration", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr FloatTween(::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback* m_Target, float_t m_StartValue, float_t m_TargetValue, float_t m_Duration, bool m_IgnoreTimeScale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

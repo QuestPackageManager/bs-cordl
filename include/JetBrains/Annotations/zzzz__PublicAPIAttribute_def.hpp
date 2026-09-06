@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\PublicAPIAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/PublicAPIAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class PublicAPIAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::PublicAPIAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::PublicAPIAttribute*, "JetBrains.Annotations", "PublicAPIAttribute");
+// [MeansImplicitUse((JetBrains.Annotations.ImplicitUseTargetFlags)3)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -20,6 +21,7 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE PublicAPIAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [CanBeNull]
   __declspec(property(get = get_Comment, put = set_Comment)) ::StringW Comment;
 
   /// @brief Field <Comment>k__BackingField, offset 0x10, size 0x8
@@ -27,7 +29,7 @@ public:
 
   static inline ::JetBrains::Annotations::PublicAPIAttribute* New_ctor();
 
-  static inline ::JetBrains::Annotations::PublicAPIAttribute* New_ctor(::StringW comment);
+  static inline ::JetBrains::Annotations::PublicAPIAttribute* New_ctor(/* [NotNull] */ ::StringW comment);
 
   constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
 
@@ -39,11 +41,13 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x6e3dfd4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW comment);
+  inline void _ctor(/* [NotNull] */ ::StringW comment);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Comment, addr 0x6e3dfdc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Comment, addr 0x6e3dfe4, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
@@ -53,17 +57,18 @@ protected:
   constexpr PublicAPIAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PublicAPIAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PublicAPIAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PublicAPIAttribute(PublicAPIAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PublicAPIAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PublicAPIAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PublicAPIAttribute(PublicAPIAttribute const&) = delete;
+  PublicAPIAttribute(PublicAPIAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22553 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Comment>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Comment_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\NumberFormatInfo.hpp"
+// IWYU pragma private; include "System/Globalization/NumberFormatInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ class NumberFormatInfo;
 // Write type traits
 MARK_REF_T(::System::Globalization::NumberFormatInfo*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::NumberFormatInfo*, "System.Globalization", "NumberFormatInfo");
+// [ComVisible(true)]
 // Dependencies System.Globalization.NumberStyles, System.Object
 namespace System::Globalization {
 // Is value type: false
@@ -220,12 +221,15 @@ public:
 
   static inline ::System::Globalization::NumberFormatInfo* New_ctor(::System::Globalization::CultureData* cultureData);
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x5bcca60, size 0x4, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnDeserializing]
   /// @brief Method OnDeserializing, addr 0x5bcca5c, size 0x4, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnSerializing]
   /// @brief Method OnSerializing, addr 0x5bcc9ec, size 0x70, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
@@ -560,13 +564,13 @@ protected:
   constexpr NumberFormatInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NumberFormatInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumberFormatInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NumberFormatInfo(NumberFormatInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NumberFormatInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumberFormatInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NumberFormatInfo(NumberFormatInfo const&) = delete;
+  NumberFormatInfo(NumberFormatInfoconst&) = delete;
 
   /// @brief Field InvalidNumberStyles value: I32(-1024)
   static ::System::Globalization::NumberStyles const InvalidNumberStyles;
@@ -628,9 +632,11 @@ public:
   /// @brief Field perMilleSymbol, offset: 0x98, size: 0x8, def value: None
   ::StringW ___perMilleSymbol;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field nativeDigits, offset: 0xa0, size: 0x8, def value: None
   ::ArrayW<::StringW> ___nativeDigits;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field m_dataItem, offset: 0xa8, size: 0x4, def value: None
   int32_t ___m_dataItem;
 
@@ -658,21 +664,26 @@ public:
   /// @brief Field percentDecimalDigits, offset: 0xc8, size: 0x4, def value: None
   int32_t ___percentDecimalDigits;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field digitSubstitution, offset: 0xcc, size: 0x4, def value: None
   int32_t ___digitSubstitution;
 
   /// @brief Field isReadOnly, offset: 0xd0, size: 0x1, def value: None
   bool ___isReadOnly;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field m_useUserOverride, offset: 0xd1, size: 0x1, def value: None
   bool ___m_useUserOverride;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_isInvariant, offset: 0xd2, size: 0x1, def value: None
   bool ___m_isInvariant;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field validForParseAsNumber, offset: 0xd3, size: 0x1, def value: None
   bool ___validForParseAsNumber;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field validForParseAsCurrency, offset: 0xd4, size: 0x1, def value: None
   bool ___validForParseAsCurrency;
 

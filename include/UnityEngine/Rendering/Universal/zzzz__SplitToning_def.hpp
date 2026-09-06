@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\SplitToning.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/SplitToning.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class SplitToning;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::SplitToning*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::SplitToning*, "UnityEngine.Rendering.Universal", "SplitToning");
+// [VolumeComponentMenu("Post-processing/Split Toning")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -43,6 +45,7 @@ public:
   /// @brief Method IsActive, addr 0x687f9a4, size 0x8c, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687fa30, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -78,23 +81,26 @@ protected:
   constexpr SplitToning();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SplitToning", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SplitToning", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SplitToning(SplitToning&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SplitToning", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SplitToning", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SplitToning(SplitToning const&) = delete;
+  SplitToning(SplitToningconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12811 };
 
+  /// [Tooltip("The color to use for shadows.")]
   /// @brief Field shadows, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ColorParameter* ___shadows;
 
+  /// [Tooltip("The color to use for highlights.")]
   /// @brief Field highlights, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ColorParameter* ___highlights;
 
+  /// [Tooltip("Balance between the colors in the highlights and shadows.")]
   /// @brief Field balance, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___balance;
 

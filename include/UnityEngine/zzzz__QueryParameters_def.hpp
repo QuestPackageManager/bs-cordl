@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\QueryParameters.hpp"
+// IWYU pragma private; include "UnityEngine/QueryParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,8 +34,9 @@ public:
   // @brief default ctor
   constexpr QueryParameters();
 
-  // Ctor Parameters [CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hitMultipleFaces", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "hitTriggers", ty: "::UnityEngine::QueryTriggerInteraction", modifiers: "", def_value: None }, CppParam { name: "hitBackfaces", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "hitMultipleFaces", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "hitTriggers", ty: "::UnityEngine::QueryTriggerInteraction", modifiers: "", def_value: None, comment: None }, CppParam { name: "hitBackfaces", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr QueryParameters(int32_t layerMask, bool hitMultipleFaces, ::UnityEngine::QueryTriggerInteraction hitTriggers, bool hitBackfaces) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

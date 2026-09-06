@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Buffer.hpp"
+// IWYU pragma private; include "System/Buffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class Buffer;
 // Write type traits
 MARK_REF_T(::System::Buffer*);
 DEFINE_IL2CPP_CLASS(::System::Buffer*, "System", "Buffer");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -42,6 +43,7 @@ public:
   /// @brief Method Memcpy, addr 0x5c74cd0, size 0xfc, virtual false, abstract: false, final false
   static inline void Memcpy(uint8_t* dest, uint8_t* src, int32_t len);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Memcpy, addr 0x5c74c9c, size 0x34, virtual false, abstract: false, final false
   static inline void Memcpy(uint8_t* pDest, int32_t destIndex, ::ArrayW<uint8_t> src, int32_t srcIndex, int32_t len);
 
@@ -51,6 +53,7 @@ public:
   /// @brief Method Memmove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Memmove(::by_ref<T> destination, ::by_ref<T> source, uint64_t elementCount);
 
+  /// [CLSCompliant(false)]
   /// @brief Method MemoryCopy, addr 0x5c75010, size 0xfc, virtual false, abstract: false, final false
   static inline void MemoryCopy(void* source, void* destination, int64_t destinationSizeInBytes, int64_t sourceBytesToCopy);
 
@@ -75,13 +78,13 @@ protected:
   constexpr Buffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Buffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Buffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Buffer(Buffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Buffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Buffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Buffer(Buffer const&) = delete;
+  Buffer(Bufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2558 };

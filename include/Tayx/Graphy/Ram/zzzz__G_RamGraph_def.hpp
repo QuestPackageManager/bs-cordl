@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Ram\G_RamGraph.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Ram/G_RamGraph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -207,32 +207,38 @@ protected:
   constexpr G_RamGraph();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_RamGraph", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_RamGraph", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_RamGraph(G_RamGraph&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_RamGraph", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_RamGraph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_RamGraph(G_RamGraph const&) = delete;
+  G_RamGraph(G_RamGraphconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21493 };
 
+  /// [SerializeField]
   /// @brief Field m_imageAllocated, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_imageAllocated;
 
+  /// [SerializeField]
   /// @brief Field m_imageReserved, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_imageReserved;
 
+  /// [SerializeField]
   /// @brief Field m_imageMono, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_imageMono;
 
+  /// [SerializeField]
   /// @brief Field ShaderFull, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___ShaderFull;
 
+  /// [SerializeField]
   /// @brief Field ShaderLight, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___ShaderLight;
 
+  /// [SerializeField]
   /// @brief Field m_isInitialized, offset: 0x48, size: 0x1, def value: None
   bool ___m_isInitialized;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Unity\UnityTlsConversions.hpp"
+// IWYU pragma private; include "Mono/Unity/UnityTlsConversions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,13 +65,13 @@ protected:
   constexpr UnityTlsConversions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsConversions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsConversions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTlsConversions(UnityTlsConversions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsConversions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsConversions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTlsConversions(UnityTlsConversions const&) = delete;
+  UnityTlsConversions(UnityTlsConversionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11002 };

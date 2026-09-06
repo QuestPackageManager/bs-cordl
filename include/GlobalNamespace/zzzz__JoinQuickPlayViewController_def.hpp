@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\JoinQuickPlayViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/JoinQuickPlayViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,9 +75,11 @@ public:
   /// @brief Method Setup, addr 0x5961454, size 0x90, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::QuickPlaySetupData* quickPlaySetupData, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__12_0, addr 0x59616b8, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__12_1, addr 0x59616c0, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_1();
 
@@ -126,12 +128,14 @@ public:
   /// @brief Method .ctor, addr 0x59616b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x59612cc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<bool>* value);
 
   /// @brief Method get_multiplayerModeSettings, addr 0x596144c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x596138c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<bool>* value);
 
@@ -141,32 +145,38 @@ protected:
   constexpr JoinQuickPlayViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JoinQuickPlayViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JoinQuickPlayViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JoinQuickPlayViewController(JoinQuickPlayViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JoinQuickPlayViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JoinQuickPlayViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JoinQuickPlayViewController(JoinQuickPlayViewController const&) = delete;
+  JoinQuickPlayViewController(JoinQuickPlayViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6977 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapDifficultyDropdown, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> ____beatmapDifficultyDropdown;
 
+  /// [SerializeField]
   /// @brief Field _songPacksDropdown, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::QuickPlaySongPacksDropdown> ____songPacksDropdown;
 
+  /// [SerializeField]
   /// @brief Field _levelSelectionToggle, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____levelSelectionToggle;
 
+  /// [SerializeField]
   /// @brief Field _joinButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____joinButton;
 
+  /// [SerializeField]
   /// @brief Field _cancelJoinButton, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____cancelJoinButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_1<bool>* ___didFinishEvent;
 

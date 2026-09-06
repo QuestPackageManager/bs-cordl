@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BpmTimeProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace/BpmTimeProcessor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BpmTimeProcessor_def.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__AudioSaveData_def.hpp"
@@ -29,8 +29,8 @@ inline void GlobalNamespace::BpmTimeProcessor_BpmChangeData::_ctor(float_t bpmCh
                                                                                          { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, bpmChangeStartTime, bpmChangeStartBpmTime, bpm);
 }
-// Ctor Parameters [CppParam { name: "bpmChangeStartTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bpmChangeStartBpmTime", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "bpmChangeStartTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bpmChangeStartBpmTime", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BpmTimeProcessor_BpmChangeData::BpmTimeProcessor_BpmChangeData(float_t bpmChangeStartTime, float_t bpmChangeStartBpmTime, float_t bpm) noexcept {
   this->bpmChangeStartTime = bpmChangeStartTime;
   this->bpmChangeStartBpmTime = bpmChangeStartBpmTime;

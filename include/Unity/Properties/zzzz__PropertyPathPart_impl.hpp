@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PropertyPathPart.hpp"
+// IWYU pragma private; include "Unity/Properties/PropertyPathPart.hpp"
 #include "Unity/Properties/zzzz__PropertyPathPartKind_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyPathPart_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -247,9 +247,9 @@ constexpr Unity::Properties::PropertyPathPart::operator ::System::IEquatable_1<:
 constexpr ::System::IEquatable_1<::Unity::Properties::PropertyPathPart>* Unity::Properties::PropertyPathPart::i___System__IEquatable_1___Unity__Properties__PropertyPathPart_() {
   return static_cast<::System::IEquatable_1<::Unity::Properties::PropertyPathPart>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Kind", ty: "::Unity::Properties::PropertyPathPartKind", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Key", ty: "::System::Object*", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "m_Kind", ty: "::Unity::Properties::PropertyPathPartKind", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Name", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Key", ty:
+// "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Properties::PropertyPathPart::PropertyPathPart(::Unity::Properties::PropertyPathPartKind m_Kind, ::StringW m_Name, int32_t m_Index, ::System::Object* m_Key) noexcept {
   this->m_Kind = m_Kind;
   this->m_Name = m_Name;

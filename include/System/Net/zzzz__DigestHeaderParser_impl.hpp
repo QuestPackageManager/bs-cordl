@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\DigestHeaderParser.hpp"
+// IWYU pragma private; include "System/Net/DigestHeaderParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__DigestHeaderParser_def.hpp"
 //  Writing Method size for method: ::System::Net::DigestHeaderParser._ctor

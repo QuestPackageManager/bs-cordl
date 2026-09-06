@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelOrPackIdFilterExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelOrPackIdFilterExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class BeatmapLevelOrPackIdFilterExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*, "", "BeatmapLevelOrPackIdFilterExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -22,12 +23,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapLevelOrPackIdFilterExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ShouldAllowEmpty, addr 0x374e578, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldAllowEmpty(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
+  /// [Extension]
   /// @brief Method ShouldAllowLevels, addr 0x374e564, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldAllowLevels(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
+  /// [Extension]
   /// @brief Method ShouldAllowPacks, addr 0x374e550, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldAllowPacks(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
@@ -37,13 +41,13 @@ protected:
   constexpr BeatmapLevelOrPackIdFilterExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelOrPackIdFilterExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelOrPackIdFilterExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelOrPackIdFilterExtensions(BeatmapLevelOrPackIdFilterExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelOrPackIdFilterExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelOrPackIdFilterExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelOrPackIdFilterExtensions(BeatmapLevelOrPackIdFilterExtensions const&) = delete;
+  BeatmapLevelOrPackIdFilterExtensions(BeatmapLevelOrPackIdFilterExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15176 };

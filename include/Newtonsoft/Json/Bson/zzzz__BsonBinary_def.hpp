@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonBinary.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonBinary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,9 +42,11 @@ public:
   /// @brief Method .ctor, addr 0x5dae890, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> value, ::Newtonsoft::Json::Bson::BsonBinaryType binaryType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BinaryType, addr 0x5dae880, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonBinaryType get_BinaryType();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BinaryType, addr 0x5dae888, size 0x8, virtual false, abstract: false, final false
   inline void set_BinaryType(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
@@ -54,17 +56,18 @@ protected:
   constexpr BsonBinary();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonBinary", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonBinary", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonBinary(BsonBinary&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonBinary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonBinary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonBinary(BsonBinary const&) = delete;
+  BsonBinary(BsonBinaryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13703 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BinaryType>k__BackingField, offset: 0x29, size: 0x1, def value: None
   ::Newtonsoft::Json::Bson::BsonBinaryType ____BinaryType_k__BackingField;
 

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\StoreName.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/StoreName.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__StoreName_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Security::Cryptography::X509Certificates::StoreName::StoreName(int32_t value__) noexcept {
   this->value__ = value__;
 }

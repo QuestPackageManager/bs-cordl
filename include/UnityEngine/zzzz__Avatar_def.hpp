@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Avatar.hpp"
+// IWYU pragma private; include "UnityEngine/Avatar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,8 @@ class Avatar;
 // Write type traits
 MARK_REF_T(::UnityEngine::Avatar*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Avatar*, "UnityEngine", "Avatar");
+// [NativeHeader("Modules/Animation/Avatar.h")]
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -57,30 +59,35 @@ public:
   /// @brief Method GetZYRoll, addr 0x6a4676c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetZYRoll(int32_t humanId, ::UnityEngine::Vector3 uvw);
 
+  /// [NativeMethod("GetAxisLength")]
   /// @brief Method Internal_GetAxisLength, addr 0x6a4637c, size 0x90, virtual false, abstract: false, final false
   inline float_t Internal_GetAxisLength(int32_t humanId);
 
   /// @brief Method Internal_GetAxisLength_Injected, addr 0x6a46994, size 0x44, virtual false, abstract: false, final false
   static inline float_t Internal_GetAxisLength_Injected(::System::IntPtr _unity_self, int32_t humanId);
 
+  /// [NativeMethod("GetLimitSign")]
   /// @brief Method Internal_GetLimitSign, addr 0x6a468e4, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Internal_GetLimitSign(int32_t humanId);
 
   /// @brief Method Internal_GetLimitSign_Injected, addr 0x6a46b48, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_GetLimitSign_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Vector3> ret);
 
+  /// [NativeMethod("GetPostRotation")]
   /// @brief Method Internal_GetPostRotation, addr 0x6a46550, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion Internal_GetPostRotation(int32_t humanId);
 
   /// @brief Method Internal_GetPostRotation_Injected, addr 0x6a46a2c, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_GetPostRotation_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Quaternion> ret);
 
+  /// [NativeMethod("GetPreRotation")]
   /// @brief Method Internal_GetPreRotation, addr 0x6a46458, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion Internal_GetPreRotation(int32_t humanId);
 
   /// @brief Method Internal_GetPreRotation_Injected, addr 0x6a469d8, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_GetPreRotation_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Quaternion> ret);
 
+  /// [NativeMethod("GetZYPostQ")]
   /// @brief Method Internal_GetZYPostQ, addr 0x6a466a8, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion Internal_GetZYPostQ(int32_t humanId, ::UnityEngine::Quaternion parentQ, ::UnityEngine::Quaternion q);
 
@@ -88,6 +95,7 @@ public:
   static inline void Internal_GetZYPostQ_Injected(::System::IntPtr _unity_self, int32_t humanId, ::by_ref<::UnityEngine::Quaternion> parentQ, ::by_ref<::UnityEngine::Quaternion> q,
                                                   ::by_ref<::UnityEngine::Quaternion> ret);
 
+  /// [NativeMethod("GetZYRoll")]
   /// @brief Method Internal_GetZYRoll, addr 0x6a467e0, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion Internal_GetZYRoll(int32_t humanId, ::UnityEngine::Vector3 uvw);
 
@@ -117,12 +125,14 @@ public:
   /// @brief Method get_humanDescription_Injected, addr 0x6a460f4, size 0x44, virtual false, abstract: false, final false
   static inline void get_humanDescription_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::HumanDescription> ret);
 
+  /// [NativeMethod("IsHuman")]
   /// @brief Method get_isHuman, addr 0x6a4299c, size 0x80, virtual false, abstract: false, final false
   inline bool get_isHuman();
 
   /// @brief Method get_isHuman_Injected, addr 0x6a46000, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isHuman_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsValid")]
   /// @brief Method get_isValid, addr 0x6a4291c, size 0x80, virtual false, abstract: false, final false
   inline bool get_isValid();
 
@@ -135,13 +145,13 @@ protected:
   constexpr Avatar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Avatar(Avatar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Avatar(Avatar const&) = delete;
+  Avatar(Avatarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20231 };

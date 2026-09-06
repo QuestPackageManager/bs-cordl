@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Number.hpp"
+// IWYU pragma private; include "System/Number.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Number_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
@@ -60,9 +60,10 @@ inline char16_t* System::Number_NumberBuffer::get_digits() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Number_NumberBuffer>(), { "get_digits", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<char16_t*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_sign", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_digits", ty: "::System::NumberBuffer_Number_DigitsAndNullTerminator", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_allDigits", ty: "char16_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_sign", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_digits", ty:
+// "::System::NumberBuffer_Number_DigitsAndNullTerminator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_allDigits", ty: "char16_t*", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Number_NumberBuffer::Number_NumberBuffer(int32_t precision, int32_t scale, int32_t _sign, ::System::NumberBuffer_Number_DigitsAndNullTerminator _digits,
                                                              char16_t* _allDigits) noexcept {
   this->precision = precision;

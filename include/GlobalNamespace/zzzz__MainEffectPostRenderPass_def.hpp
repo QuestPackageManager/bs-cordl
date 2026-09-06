@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectPostRenderPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectPostRenderPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,9 @@ namespace GlobalNamespace {
 class MainEffectPostRenderPass___c;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -125,13 +127,13 @@ protected:
   constexpr MainEffectPostRenderPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectPostRenderPass_PassData(MainEffectPostRenderPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectPostRenderPass_PassData(MainEffectPostRenderPass_PassData const&) = delete;
+  MainEffectPostRenderPass_PassData(MainEffectPostRenderPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20640 };
@@ -172,6 +174,7 @@ static_assert(offsetof(::GlobalNamespace::MainEffectPostRenderPass_PassData, ___
 static_assert(sizeof(::GlobalNamespace::MainEffectPostRenderPass_PassData) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -225,13 +228,13 @@ protected:
   constexpr MainEffectPostRenderPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectPostRenderPass___c(MainEffectPostRenderPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectPostRenderPass___c(MainEffectPostRenderPass___c const&) = delete;
+  MainEffectPostRenderPass___c(MainEffectPostRenderPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20641 };
@@ -273,13 +276,13 @@ protected:
   constexpr MainEffectPostRenderPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectPostRenderPass(MainEffectPostRenderPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainEffectPostRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainEffectPostRenderPass(MainEffectPostRenderPass const&) = delete;
+  MainEffectPostRenderPass(MainEffectPostRenderPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20642 };

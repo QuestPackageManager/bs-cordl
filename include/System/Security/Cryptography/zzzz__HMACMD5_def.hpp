@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\HMACMD5.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/HMACMD5.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class HMACMD5;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::HMACMD5*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::HMACMD5*, "System.Security.Cryptography", "HMACMD5");
+// [ComVisible(true)]
 // Dependencies System.Security.Cryptography.HMAC
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -37,13 +38,13 @@ protected:
   constexpr HMACMD5();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HMACMD5", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMACMD5", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMACMD5(HMACMD5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HMACMD5", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMACMD5", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMACMD5(HMACMD5 const&) = delete;
+  HMACMD5(HMACMD5const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2951 };

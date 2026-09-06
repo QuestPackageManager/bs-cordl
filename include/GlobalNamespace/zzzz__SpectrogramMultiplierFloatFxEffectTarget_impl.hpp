@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpectrogramMultiplierFloatFxEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpectrogramMultiplierFloatFxEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__SpectrogramMultiplierFloatFxEffectTarget_def.hpp"
 #include "GlobalNamespace/zzzz__SpectrogramRowPropertyAnimator_def.hpp"

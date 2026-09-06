@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DebugSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/DebugSettingsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,32 +112,38 @@ protected:
   constexpr DebugSettingsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugSettingsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugSettingsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugSettingsViewController(DebugSettingsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugSettingsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugSettingsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugSettingsViewController(DebugSettingsViewController const&) = delete;
+  DebugSettingsViewController(DebugSettingsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6464 };
 
+  /// [SerializeField]
   /// @brief Field _fpsCounter, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____fpsCounter;
 
+  /// [SerializeField]
   /// @brief Field _fpsRecorder, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____fpsRecorder;
 
+  /// [SerializeField]
   /// @brief Field _memoryTracker, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____memoryTracker;
 
+  /// [SerializeField]
   /// @brief Field _showBeatmapLevelVersions, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____showBeatmapLevelVersions;
 
+  /// [SerializeField]
   /// @brief Field _disableVRTrackingInAutoplay, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____disableVRTrackingInAutoplay;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

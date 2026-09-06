@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BaseTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BaseTransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,17 +45,18 @@ protected:
   constexpr BaseTransitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTransitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTransitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseTransitionSO(BaseTransitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTransitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTransitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseTransitionSO(BaseTransitionSO const&) = delete;
+  BaseTransitionSO(BaseTransitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22377 };
 
+  /// [SerializeField]
   /// @brief Field _transitionTiming, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TransitionTimingSO> ____transitionTiming;
 

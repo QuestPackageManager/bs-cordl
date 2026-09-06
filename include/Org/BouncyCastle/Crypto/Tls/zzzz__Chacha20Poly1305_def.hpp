@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\Chacha20Poly1305.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/Chacha20Poly1305.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,13 +138,13 @@ protected:
   constexpr Chacha20Poly1305();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Chacha20Poly1305", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Chacha20Poly1305", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Chacha20Poly1305(Chacha20Poly1305&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Chacha20Poly1305", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Chacha20Poly1305", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Chacha20Poly1305(Chacha20Poly1305 const&) = delete;
+  Chacha20Poly1305(Chacha20Poly1305const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1195 };

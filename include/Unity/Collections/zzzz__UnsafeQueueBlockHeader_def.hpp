@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnsafeQueueBlockHeader.hpp"
+// IWYU pragma private; include "Unity/Collections/UnsafeQueueBlockHeader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr UnsafeQueueBlockHeader();
 
-  // Ctor Parameters [CppParam { name: "m_NextBlock", ty: "::Unity::Collections::UnsafeQueueBlockHeader*", modifiers: "", def_value: None }, CppParam { name: "m_NumItems", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_NextBlock", ty: "::Unity::Collections::UnsafeQueueBlockHeader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NumItems", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeQueueBlockHeader(::Unity::Collections::UnsafeQueueBlockHeader* m_NextBlock, int32_t m_NumItems) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

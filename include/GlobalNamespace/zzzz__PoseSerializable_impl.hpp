@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PoseSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/PoseSerializable.hpp"
 #include "GlobalNamespace/zzzz__QuaternionSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector3Serializable_impl.hpp"
 #include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"
@@ -264,8 +264,8 @@ constexpr GlobalNamespace::PoseSerializable::operator ::System::IEquatable_1<::G
 constexpr ::System::IEquatable_1<::GlobalNamespace::PoseSerializable>* GlobalNamespace::PoseSerializable::i___System__IEquatable_1___GlobalNamespace__PoseSerializable_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::PoseSerializable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::GlobalNamespace::Vector3Serializable", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty:
-// "::GlobalNamespace::QuaternionSerializable", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::GlobalNamespace::Vector3Serializable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotation", ty:
+// "::GlobalNamespace::QuaternionSerializable", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PoseSerializable::PoseSerializable(::GlobalNamespace::Vector3Serializable position, ::GlobalNamespace::QuaternionSerializable rotation) noexcept {
   this->position = position;
   this->rotation = rotation;

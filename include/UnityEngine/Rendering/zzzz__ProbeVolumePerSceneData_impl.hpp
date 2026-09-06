@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumePerSceneData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumePerSceneData.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumePerSceneData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -7,8 +7,8 @@
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeBakingSet_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumePerSceneData_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
-// Ctor Parameters [CppParam { name: "sceneHash", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cellDataAsset", ty: "::UnityW<::UnityEngine::TextAsset>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "cellOptionalDataAsset", ty: "::UnityW<::UnityEngine::TextAsset>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sceneHash", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cellDataAsset", ty: "::UnityW<::UnityEngine::TextAsset>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cellOptionalDataAsset", ty: "::UnityW<::UnityEngine::TextAsset>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioData::ProbeVolumePerSceneData_ObsoletePerScenarioData(
     int32_t sceneHash, ::UnityW<::UnityEngine::TextAsset> cellDataAsset, ::UnityW<::UnityEngine::TextAsset> cellOptionalDataAsset) noexcept {
   this->sceneHash = sceneHash;
@@ -17,8 +17,8 @@ constexpr ::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioD
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioData::ProbeVolumePerSceneData_ObsoletePerScenarioData() {}
-// Ctor Parameters [CppParam { name: "scenario", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty:
-// "::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioData", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "scenario", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "data", ty:
+// "::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioData", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoleteSerializablePerScenarioDataItem::ProbeVolumePerSceneData_ObsoleteSerializablePerScenarioDataItem(
     ::StringW scenario, ::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioData data) noexcept {
   this->scenario = scenario;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceLocations\ResourceLocationBase.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceLocations/ResourceLocationBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ResourceLocationBase_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -385,8 +385,9 @@ inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLoc
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::_ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
-                                                                                            ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies) {
+inline void
+UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::_ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
+                                                                                /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(),
                                                            { ".ctor",
@@ -402,7 +403,7 @@ inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocation
 }
 inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
 UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::New_ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
-                                                                                   ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies) {
+                                                                                   /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(name, id, providerId, t, dependencies));
 }
 /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"

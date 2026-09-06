@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AchievementsEvaluationHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/AchievementsEvaluationHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -366,98 +366,133 @@ protected:
   constexpr AchievementsEvaluationHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AchievementsEvaluationHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AchievementsEvaluationHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AchievementsEvaluationHandler(AchievementsEvaluationHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AchievementsEvaluationHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AchievementsEvaluationHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AchievementsEvaluationHandler(AchievementsEvaluationHandler const&) = delete;
+  AchievementsEvaluationHandler(AchievementsEvaluationHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14761 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _clearedLevel100Achievement, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevel100Achievement;
 
+  /// [SerializeField]
   /// @brief Field _totalScore100MillionAchievement, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____totalScore100MillionAchievement;
 
+  /// [SerializeField]
   /// @brief Field _24HoursPlayedAchievement, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____24HoursPlayedAchievement;
 
+  /// [SerializeField]
   /// @brief Field _kilometersTravelled100Achievement, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____kilometersTravelled100Achievement;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _15ExpertLevelsRankSAchievement, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____15ExpertLevelsRankSAchievement;
 
+  /// [SerializeField]
   /// @brief Field _15ExpertLevelsFullComboAchievement, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____15ExpertLevelsFullComboAchievement;
 
+  /// [SerializeField]
   /// @brief Field _15HardLevelsRankSAchievement, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____15HardLevelsRankSAchievement;
 
+  /// [SerializeField]
   /// @brief Field _15HardLevelsFullComboAchievement, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____15HardLevelsFullComboAchievement;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _expertLevelClearedWithoutModifiersAchievement, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____expertLevelClearedWithoutModifiersAchievement;
 
+  /// [SerializeField]
   /// @brief Field _fullComboExpertWithoutModifiersAchievement, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____fullComboExpertWithoutModifiersAchievement;
 
+  /// [SerializeField]
   /// @brief Field _goodCuts10000Achievement, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____goodCuts10000Achievement;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _resultMinRankANormalWithoutModifiersAchievement, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____resultMinRankANormalWithoutModifiersAchievement;
 
+  /// [SerializeField]
   /// @brief Field _resultMinRankSHardWithoutModifiersAchievement, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____resultMinRankSHardWithoutModifiersAchievement;
 
+  /// [SerializeField]
   /// @brief Field _resultMinRankSSExpertWithoutModifiersAchievement, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____resultMinRankSSExpertWithoutModifiersAchievement;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _combo50NormalWithoutModifiersAchievement, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____combo50NormalWithoutModifiersAchievement;
 
+  /// [SerializeField]
   /// @brief Field _combo100HardWithoutModifiersAchievement, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____combo100HardWithoutModifiersAchievement;
 
+  /// [SerializeField]
   /// @brief Field _combo500ExpertWithoutModifiersAchievement, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____combo500ExpertWithoutModifiersAchievement;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _clearedLevelWithoutModifiersAchievement, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithoutModifiersAchievement;
 
+  /// [SerializeField]
   /// @brief Field _clearedLevelWithSongSpeedFasterModifierAchievement, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithSongSpeedFasterModifierAchievement;
 
+  /// [SerializeField]
   /// @brief Field _clearedLevelWithInstaFailModifierAchievement, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithInstaFailModifierAchievement;
 
+  /// [SerializeField]
   /// @brief Field _clearedLevelWithDisappearingArrowsModifierAchievement, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithDisappearingArrowsModifierAchievement;
 
+  /// [SerializeField]
   /// @brief Field _clearedLevelWithBatteryEnergyModifierAchievement, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithBatteryEnergyModifierAchievement;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _cleared30MissionsAchievement, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____cleared30MissionsAchievement;
 
+  /// [SerializeField]
   /// @brief Field _finalMissionClearedAchievement, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____finalMissionClearedAchievement;
 
+  /// [SerializeField]
   /// @brief Field _allMissionClearedAchievement, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____allMissionClearedAchievement;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _platform, offset: 0xf0, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ____platform;
 
+  /// [Inject]
   /// @brief Field _missionNodesManager, offset: 0xf8, size: 0x8, def value: None
   ::GlobalNamespace::IMissionNodesManager* ____missionNodesManager;
 

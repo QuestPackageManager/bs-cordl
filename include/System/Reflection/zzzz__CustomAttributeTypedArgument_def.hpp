@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\CustomAttributeTypedArgument.hpp"
+// IWYU pragma private; include "System/Reflection/CustomAttributeTypedArgument.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,9 +52,13 @@ public:
   /// @brief Method .ctor, addr 0x5b85870, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_ArgumentType, addr 0x5b85978, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ArgumentType();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Value, addr 0x5b85980, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
@@ -68,8 +72,8 @@ public:
   // @brief default ctor
   constexpr CustomAttributeTypedArgument();
 
-  // Ctor Parameters [CppParam { name: "_ArgumentType_k__BackingField", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_Value_k__BackingField", ty: "::System::Object*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_ArgumentType_k__BackingField", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Value_k__BackingField", ty:
+  // "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr CustomAttributeTypedArgument(::System::Type* _ArgumentType_k__BackingField, ::System::Object* _Value_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -78,9 +82,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ArgumentType>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::System::Type* _ArgumentType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::System::Object* _Value_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\TraceFilter.hpp"
+// IWYU pragma private; include "System/Diagnostics/TraceFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   /// @brief Method ShouldTrace, addr 0x6398848, size 0x30, virtual false, abstract: false, final false
   inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage);
 
-  /// @brief Method ShouldTrace, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ShouldTrace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage,
                           ::ArrayW<::System::Object*> args, ::System::Object* data1, ::ArrayW<::System::Object*> data);
 
@@ -44,13 +44,13 @@ protected:
   constexpr TraceFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TraceFilter(TraceFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TraceFilter(TraceFilter const&) = delete;
+  TraceFilter(TraceFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11137 };

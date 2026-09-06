@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\ResourceLocators\ResourceLocationMap.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/ResourceLocators/ResourceLocationMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,12 +106,14 @@ public:
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*
   get_Locations();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LocatorId, addr 0x646b364, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_LocatorId, addr 0x646b36c, size 0x8, virtual false, abstract: false, final false
   inline void set_LocatorId(::StringW value);
 
@@ -121,17 +123,18 @@ protected:
   constexpr ResourceLocationMap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationMap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationMap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceLocationMap(ResourceLocationMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationMap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationMap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceLocationMap(ResourceLocationMap const&) = delete;
+  ResourceLocationMap(ResourceLocationMapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19849 };
 
+  /// [CompilerGenerated]
   /// @brief Field <LocatorId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____LocatorId_k__BackingField;
 

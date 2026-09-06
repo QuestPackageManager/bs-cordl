@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\TracePayload.hpp"
+// IWYU pragma private; include "System/Runtime/TracePayload.hpp"
 #include "System/Runtime/zzzz__TracePayload_def.hpp"
 //  Writing Method size for method: ::System::Runtime::TracePayload._ctor
 template <>
@@ -87,9 +87,9 @@ inline ::StringW System::Runtime::TracePayload::get_ExtendedData() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::TracePayload>(), { "get_ExtendedData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "serializedException", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "eventSource", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "appDomainFriendlyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "extendedData", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "hostReference", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "serializedException", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "eventSource", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "appDomainFriendlyName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "extendedData", ty:
+// "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hostReference", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::TracePayload::TracePayload(::StringW serializedException, ::StringW eventSource, ::StringW appDomainFriendlyName, ::StringW extendedData,
                                                         ::StringW hostReference) noexcept {
   this->serializedException = serializedException;

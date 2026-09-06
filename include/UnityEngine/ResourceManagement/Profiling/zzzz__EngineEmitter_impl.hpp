@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\EngineEmitter.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/EngineEmitter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Profiling/zzzz__EngineEmitter_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

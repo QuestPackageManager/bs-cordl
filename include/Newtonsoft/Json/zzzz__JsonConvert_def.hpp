@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonConvert.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonConvert.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,6 +85,8 @@ class JsonConvert;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::JsonConvert*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonConvert*, "Newtonsoft.Json", "JsonConvert");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -117,59 +119,77 @@ public:
   __declspec(property(get = getStaticF__DefaultSettings_k__BackingField,
                       put = setStaticF__DefaultSettings_k__BackingField)) ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* _DefaultSettings_k__BackingField;
 
+  /// [DebuggerStepThrough]
   /// @brief Method DeserializeAnonymousType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T DeserializeAnonymousType(::StringW value, T anonymousTypeObject);
 
+  /// [DebuggerStepThrough]
   /// @brief Method DeserializeAnonymousType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T DeserializeAnonymousType(::StringW value, T anonymousTypeObject, ::Newtonsoft::Json::JsonSerializerSettings* settings);
 
+  /// [DebuggerStepThrough]
   /// @brief Method DeserializeObject, addr 0x5cd5a38, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Object* DeserializeObject(::StringW value);
 
+  /// [DebuggerStepThrough]
   /// @brief Method DeserializeObject, addr 0x5cd5cbc, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Object* DeserializeObject(::StringW value, ::Newtonsoft::Json::JsonSerializerSettings* settings);
 
+  /// [DebuggerStepThrough]
   /// @brief Method DeserializeObject, addr 0x5cd5d28, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Object* DeserializeObject(::StringW value, ::System::Type* type);
 
+  /// [DebuggerStepThrough]
   /// @brief Method DeserializeObject, addr 0x5cd5d94, size 0xb8, virtual false, abstract: false, final false
-  static inline ::System::Object* DeserializeObject(::StringW value, ::System::Type* type, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
+  static inline ::System::Object* DeserializeObject(::StringW value, ::System::Type* type, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
 
+  /// [NullableContext(2)]
   /// @brief Method DeserializeObject, addr 0x5cd5a98, size 0x224, virtual false, abstract: false, final false
-  static inline ::System::Object* DeserializeObject(::StringW value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializerSettings* settings);
+  static inline ::System::Object* DeserializeObject(/* [Nullable(1)] */ ::StringW value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializerSettings* settings);
 
+  /// [DebuggerStepThrough]
   /// @brief Method DeserializeObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T DeserializeObject(::StringW value);
+  template <typename T> static inline T DeserializeObject(::StringW value, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
 
+  /// [NullableContext(2)]
+  /// [DebuggerStepThrough]
   /// @brief Method DeserializeObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T DeserializeObject(::StringW value, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
+  template <typename T> static inline T DeserializeObject(/* [Nullable(1)] */ ::StringW value);
 
+  /// [NullableContext(2)]
+  /// [DebuggerStepThrough]
   /// @brief Method DeserializeObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T DeserializeObject(::StringW value, ::Newtonsoft::Json::JsonSerializerSettings* settings);
+  template <typename T> static inline T DeserializeObject(/* [Nullable(1)] */ ::StringW value, ::Newtonsoft::Json::JsonSerializerSettings* settings);
 
   /// @brief Method DeserializeXNode, addr 0x5cd69e0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XDocument* DeserializeXNode(::StringW value);
 
+  /// [NullableContext(2)]
   /// @brief Method DeserializeXNode, addr 0x5cd6a3c, size 0x6c, virtual false, abstract: false, final false
-  static inline ::System::Xml::Linq::XDocument* DeserializeXNode(::StringW value, ::StringW deserializeRootElementName);
+  static inline ::System::Xml::Linq::XDocument* DeserializeXNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName);
 
+  /// [NullableContext(2)]
   /// @brief Method DeserializeXNode, addr 0x5cd6aa8, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::Xml::Linq::XDocument* DeserializeXNode(::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute);
+  static inline ::System::Xml::Linq::XDocument* DeserializeXNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute);
 
+  /// [NullableContext(2)]
   /// @brief Method DeserializeXNode, addr 0x5cd6b1c, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::System::Xml::Linq::XDocument* DeserializeXNode(::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute, bool encodeSpecialCharacters);
+  static inline ::System::Xml::Linq::XDocument* DeserializeXNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute, bool encodeSpecialCharacters);
 
   /// @brief Method DeserializeXmlNode, addr 0x5cd6530, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDocument* DeserializeXmlNode(::StringW value);
 
+  /// [NullableContext(2)]
   /// @brief Method DeserializeXmlNode, addr 0x5cd658c, size 0x6c, virtual false, abstract: false, final false
-  static inline ::System::Xml::XmlDocument* DeserializeXmlNode(::StringW value, ::StringW deserializeRootElementName);
+  static inline ::System::Xml::XmlDocument* DeserializeXmlNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName);
 
+  /// [NullableContext(2)]
   /// @brief Method DeserializeXmlNode, addr 0x5cd65f8, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::Xml::XmlDocument* DeserializeXmlNode(::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute);
+  static inline ::System::Xml::XmlDocument* DeserializeXmlNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute);
 
+  /// [NullableContext(2)]
   /// @brief Method DeserializeXmlNode, addr 0x5cd666c, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::System::Xml::XmlDocument* DeserializeXmlNode(::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute, bool encodeSpecialCharacters);
+  static inline ::System::Xml::XmlDocument* DeserializeXmlNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute, bool encodeSpecialCharacters);
 
   /// @brief Method EnsureDecimalPlace, addr 0x5cd44c4, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW EnsureDecimalPlace(::StringW text);
@@ -180,65 +200,79 @@ public:
   /// @brief Method EnsureFloatFormat, addr 0x5cd41e4, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW EnsureFloatFormat(double_t value, ::StringW text, ::Newtonsoft::Json::FloatFormatHandling floatFormatHandling, char16_t quoteChar, bool nullable);
 
+  /// [DebuggerStepThrough]
   /// @brief Method PopulateObject, addr 0x5cd5f94, size 0x6c, virtual false, abstract: false, final false
   static inline void PopulateObject(::StringW value, ::System::Object* target);
 
   /// @brief Method PopulateObject, addr 0x5cd6000, size 0x280, virtual false, abstract: false, final false
-  static inline void PopulateObject(::StringW value, ::System::Object* target, ::Newtonsoft::Json::JsonSerializerSettings* settings);
+  static inline void PopulateObject(::StringW value, ::System::Object* target, /* [Nullable(2)] */ ::Newtonsoft::Json::JsonSerializerSettings* settings);
 
-  /// @brief Method SerializeObject, addr 0x5cd52dc, size 0x60, virtual false, abstract: false, final false
-  static inline ::StringW SerializeObject(::System::Object* value);
-
-  /// @brief Method SerializeObject, addr 0x5cd549c, size 0xb4, virtual false, abstract: false, final false
-  static inline ::StringW SerializeObject(::System::Object* value, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
-
-  /// @brief Method SerializeObject, addr 0x5cd53bc, size 0x6c, virtual false, abstract: false, final false
-  static inline ::StringW SerializeObject(::System::Object* value, ::Newtonsoft::Json::Formatting formatting);
-
-  /// @brief Method SerializeObject, addr 0x5cd55c4, size 0xbc, virtual false, abstract: false, final false
-  static inline ::StringW SerializeObject(::System::Object* value, ::Newtonsoft::Json::Formatting formatting, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
-
+  /// [NullableContext(2)]
+  /// [DebuggerStepThrough]
   /// @brief Method SerializeObject, addr 0x5cd5428, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW SerializeObject(::System::Object* value, ::Newtonsoft::Json::Formatting formatting, ::Newtonsoft::Json::JsonSerializerSettings* settings);
 
+  /// [NullableContext(2)]
+  /// [DebuggerStepThrough]
   /// @brief Method SerializeObject, addr 0x5cd5724, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW SerializeObject(::System::Object* value, ::Newtonsoft::Json::JsonSerializerSettings* settings);
 
+  /// [NullableContext(2)]
+  /// [DebuggerStepThrough]
   /// @brief Method SerializeObject, addr 0x5cd5680, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW SerializeObject(::System::Object* value, ::System::Type* type, ::Newtonsoft::Json::Formatting formatting, ::Newtonsoft::Json::JsonSerializerSettings* settings);
 
+  /// [NullableContext(2)]
+  /// [DebuggerStepThrough]
   /// @brief Method SerializeObject, addr 0x5cd533c, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW SerializeObject(::System::Object* value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializerSettings* settings);
 
+  /// [DebuggerStepThrough]
+  /// @brief Method SerializeObject, addr 0x5cd52dc, size 0x60, virtual false, abstract: false, final false
+  static inline ::StringW SerializeObject(/* [Nullable(2)] */ ::System::Object* value);
+
+  /// [DebuggerStepThrough]
+  /// @brief Method SerializeObject, addr 0x5cd549c, size 0xb4, virtual false, abstract: false, final false
+  static inline ::StringW SerializeObject(/* [Nullable(2)] */ ::System::Object* value, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
+
+  /// [DebuggerStepThrough]
+  /// @brief Method SerializeObject, addr 0x5cd53bc, size 0x6c, virtual false, abstract: false, final false
+  static inline ::StringW SerializeObject(/* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::Formatting formatting);
+
+  /// [DebuggerStepThrough]
+  /// @brief Method SerializeObject, addr 0x5cd55c4, size 0xbc, virtual false, abstract: false, final false
+  static inline ::StringW SerializeObject(/* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::Formatting formatting,
+                                          /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
+
   /// @brief Method SerializeObjectInternal, addr 0x5cd57c4, size 0x264, virtual false, abstract: false, final false
-  static inline ::StringW SerializeObjectInternal(::System::Object* value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializer* jsonSerializer);
+  static inline ::StringW SerializeObjectInternal(/* [Nullable(2)] */ ::System::Object* value, /* [Nullable(2)] */ ::System::Type* type, ::Newtonsoft::Json::JsonSerializer* jsonSerializer);
 
   /// @brief Method SerializeXNode, addr 0x5cd6818, size 0x5c, virtual false, abstract: false, final false
-  static inline ::StringW SerializeXNode(::System::Xml::Linq::XObject* node);
+  static inline ::StringW SerializeXNode(/* [Nullable(2)] */ ::System::Xml::Linq::XObject* node);
 
   /// @brief Method SerializeXNode, addr 0x5cd6874, size 0x6c, virtual false, abstract: false, final false
-  static inline ::StringW SerializeXNode(::System::Xml::Linq::XObject* node, ::Newtonsoft::Json::Formatting formatting);
+  static inline ::StringW SerializeXNode(/* [Nullable(2)] */ ::System::Xml::Linq::XObject* node, ::Newtonsoft::Json::Formatting formatting);
 
   /// @brief Method SerializeXNode, addr 0x5cd68e0, size 0x100, virtual false, abstract: false, final false
-  static inline ::StringW SerializeXNode(::System::Xml::Linq::XObject* node, ::Newtonsoft::Json::Formatting formatting, bool omitRootObject);
+  static inline ::StringW SerializeXNode(/* [Nullable(2)] */ ::System::Xml::Linq::XObject* node, ::Newtonsoft::Json::Formatting formatting, bool omitRootObject);
 
   /// @brief Method SerializeXmlNode, addr 0x5cd62dc, size 0x5c, virtual false, abstract: false, final false
-  static inline ::StringW SerializeXmlNode(::System::Xml::XmlNode* node);
+  static inline ::StringW SerializeXmlNode(/* [Nullable(2)] */ ::System::Xml::XmlNode* node);
 
   /// @brief Method SerializeXmlNode, addr 0x5cd6338, size 0xf8, virtual false, abstract: false, final false
-  static inline ::StringW SerializeXmlNode(::System::Xml::XmlNode* node, ::Newtonsoft::Json::Formatting formatting);
+  static inline ::StringW SerializeXmlNode(/* [Nullable(2)] */ ::System::Xml::XmlNode* node, ::Newtonsoft::Json::Formatting formatting);
 
   /// @brief Method SerializeXmlNode, addr 0x5cd6430, size 0x100, virtual false, abstract: false, final false
-  static inline ::StringW SerializeXmlNode(::System::Xml::XmlNode* node, ::Newtonsoft::Json::Formatting formatting, bool omitRootObject);
+  static inline ::StringW SerializeXmlNode(/* [Nullable(2)] */ ::System::Xml::XmlNode* node, ::Newtonsoft::Json::Formatting formatting, bool omitRootObject);
 
   /// @brief Method ToString, addr 0x5cd3b48, size 0x5c, virtual false, abstract: false, final false
-  static inline ::StringW ToString(::StringW value);
+  static inline ::StringW ToString(/* [Nullable(2)] */ ::StringW value);
 
   /// @brief Method ToString, addr 0x5cd495c, size 0x6c, virtual false, abstract: false, final false
-  static inline ::StringW ToString(::StringW value, char16_t delimiter);
+  static inline ::StringW ToString(/* [Nullable(2)] */ ::StringW value, char16_t delimiter);
 
   /// @brief Method ToString, addr 0x5cd4b00, size 0xe8, virtual false, abstract: false, final false
-  static inline ::StringW ToString(::StringW value, char16_t delimiter, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
+  static inline ::StringW ToString(/* [Nullable(2)] */ ::StringW value, char16_t delimiter, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
 
   /// @brief Method ToString, addr 0x5cd3520, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::DateTime value);
@@ -265,7 +299,7 @@ public:
   static inline ::StringW ToString(::System::Guid value, char16_t quoteChar);
 
   /// @brief Method ToString, addr 0x5cd4be8, size 0x6f4, virtual false, abstract: false, final false
-  static inline ::StringW ToString(::System::Object* value);
+  static inline ::StringW ToString(/* [Nullable(2)] */ ::System::Object* value);
 
   /// @brief Method ToString, addr 0x5cd485c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::TimeSpan value);
@@ -273,11 +307,11 @@ public:
   /// @brief Method ToString, addr 0x5cd48b8, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::TimeSpan value, char16_t quoteChar);
 
-  /// @brief Method ToString, addr 0x5cd49c8, size 0xa8, virtual false, abstract: false, final false
-  static inline ::StringW ToString(::System::Uri* value);
-
   /// @brief Method ToString, addr 0x5cd4a70, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Uri* value, char16_t quoteChar);
+
+  /// @brief Method ToString, addr 0x5cd49c8, size 0xa8, virtual false, abstract: false, final false
+  static inline ::StringW ToString(/* [Nullable(2)] */ ::System::Uri* value);
 
   /// @brief Method ToString, addr 0x5cd3a44, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ToString(bool value);
@@ -306,15 +340,19 @@ public:
   /// @brief Method ToString, addr 0x5cd3dbc, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToString(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToString, addr 0x5cd45ac, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToString(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToString, addr 0x5cd3cdc, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToString, addr 0x5cd3d4c, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToString, addr 0x5cd3ee0, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint64_t value);
 
@@ -340,6 +378,7 @@ public:
 
   static inline ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* getStaticF__DefaultSettings_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DefaultSettings, addr 0x5cd3464, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* get_DefaultSettings();
 
@@ -359,8 +398,9 @@ public:
 
   static inline void setStaticF__DefaultSettings_k__BackingField(::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DefaultSettings, addr 0x5cd34c0, size 0x60, virtual false, abstract: false, final false
-  static inline void set_DefaultSettings(::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* value);
+  static inline void set_DefaultSettings(/* [Nullable(new[] { 2, 1 })] */ ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* value);
 
 protected:
   // Ctor Parameters []
@@ -368,13 +408,13 @@ protected:
   constexpr JsonConvert();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConvert", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonConvert", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonConvert(JsonConvert&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConvert", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonConvert", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonConvert(JsonConvert const&) = delete;
+  JsonConvert(JsonConvertconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13248 };

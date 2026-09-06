@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\TaskFactory_1.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/TaskFactory_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace System::Threading::Tasks {
 struct TaskCreationOptions;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TInstance> class TaskFactory_1_FromAsyncTrimPromise_1;
+template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
+class TaskFactory_1_FromAsyncTrimPromise_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskFactory_1___c__DisplayClass32_0;
@@ -77,7 +79,9 @@ namespace System::Threading::Tasks {
 template <typename TResult> class TaskFactory_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TInstance> class TaskFactory_1_FromAsyncTrimPromise_1;
+template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
+class TaskFactory_1_FromAsyncTrimPromise_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskFactory_1___c__DisplayClass32_0;
@@ -113,6 +117,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::Tasks::TaskFactory_1___c__Displ
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TInstance>
+  requires(::cordl_internals::reference_type_constraint<TInstance>)
 // Is value type: false
 // CS Name: System.Threading.Tasks.TaskFactory`1/FromAsyncTrimPromise`1<TResult,TInstance>
 class CORDL_TYPE TaskFactory_1_FromAsyncTrimPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
@@ -161,13 +166,13 @@ protected:
   constexpr TaskFactory_1_FromAsyncTrimPromise_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1_FromAsyncTrimPromise_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1_FromAsyncTrimPromise_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskFactory_1_FromAsyncTrimPromise_1(TaskFactory_1_FromAsyncTrimPromise_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1_FromAsyncTrimPromise_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1_FromAsyncTrimPromise_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1_FromAsyncTrimPromise_1(TaskFactory_1_FromAsyncTrimPromise_1 const&) = delete;
+  TaskFactory_1_FromAsyncTrimPromise_1(TaskFactory_1_FromAsyncTrimPromise_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2789 };
@@ -182,6 +187,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
@@ -262,13 +268,13 @@ protected:
   constexpr TaskFactory_1___c__DisplayClass32_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass32_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass32_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskFactory_1___c__DisplayClass32_0(TaskFactory_1___c__DisplayClass32_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass32_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass32_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass32_0(TaskFactory_1___c__DisplayClass32_0 const&) = delete;
+  TaskFactory_1___c__DisplayClass32_0(TaskFactory_1___c__DisplayClass32_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2790 };
@@ -295,6 +301,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
@@ -345,13 +352,13 @@ protected:
   constexpr TaskFactory_1___c__DisplayClass35_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass35_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass35_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskFactory_1___c__DisplayClass35_0(TaskFactory_1___c__DisplayClass35_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass35_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass35_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass35_0(TaskFactory_1___c__DisplayClass35_0 const&) = delete;
+  TaskFactory_1___c__DisplayClass35_0(TaskFactory_1___c__DisplayClass35_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2791 };
@@ -369,6 +376,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
@@ -419,13 +427,13 @@ protected:
   constexpr TaskFactory_1___c__DisplayClass38_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass38_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass38_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskFactory_1___c__DisplayClass38_0_1(TaskFactory_1___c__DisplayClass38_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass38_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass38_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass38_0_1(TaskFactory_1___c__DisplayClass38_0_1 const&) = delete;
+  TaskFactory_1___c__DisplayClass38_0_1(TaskFactory_1___c__DisplayClass38_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2792 };
@@ -443,6 +451,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
@@ -493,13 +502,13 @@ protected:
   constexpr TaskFactory_1___c__DisplayClass41_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass41_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass41_0_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskFactory_1___c__DisplayClass41_0_2(TaskFactory_1___c__DisplayClass41_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass41_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass41_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass41_0_2(TaskFactory_1___c__DisplayClass41_0_2 const&) = delete;
+  TaskFactory_1___c__DisplayClass41_0_2(TaskFactory_1___c__DisplayClass41_0_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2793 };
@@ -517,6 +526,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
@@ -567,13 +577,13 @@ protected:
   constexpr TaskFactory_1___c__DisplayClass44_0_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass44_0_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass44_0_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskFactory_1___c__DisplayClass44_0_3(TaskFactory_1___c__DisplayClass44_0_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass44_0_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass44_0_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass44_0_3(TaskFactory_1___c__DisplayClass44_0_3 const&) = delete;
+  TaskFactory_1___c__DisplayClass44_0_3(TaskFactory_1___c__DisplayClass44_0_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2794 };
@@ -600,7 +610,9 @@ template <typename TResult>
 class CORDL_TYPE TaskFactory_1 : public ::System::Object {
 public:
   // Declarations
-  template <typename TInstance> using FromAsyncTrimPromise_1 = ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>;
+  template <typename TInstance>
+    requires(::cordl_internals::reference_type_constraint<TInstance>)
+  using FromAsyncTrimPromise_1 = ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>;
 
   using __c__DisplayClass32_0 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>;
 
@@ -675,6 +687,7 @@ public:
 
   /// @brief Method FromAsyncTrim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstance, typename TArgs>
+    requires(::cordl_internals::reference_type_constraint<TInstance>)
   static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncTrim(TInstance thisRef, TArgs args,
                                                                            ::System::Func_5<TInstance, TArgs, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
                                                                            ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod);
@@ -727,13 +740,13 @@ protected:
   constexpr TaskFactory_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskFactory_1(TaskFactory_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1(TaskFactory_1 const&) = delete;
+  TaskFactory_1(TaskFactory_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2795 };

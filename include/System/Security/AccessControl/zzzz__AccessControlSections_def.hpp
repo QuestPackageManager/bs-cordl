@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\AccessControlSections.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/AccessControlSections.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct AccessControlSections;
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::AccessControlSections);
 DEFINE_IL2CPP_CLASS(::System::Security::AccessControl::AccessControlSections, "System.Security.AccessControl", "AccessControlSections");
+// [Flags]
 // Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr AccessControlSections();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AccessControlSections(int32_t value__) noexcept;
 
   /// @brief Field Access value: I32(2)

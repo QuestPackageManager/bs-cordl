@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenCaptureCache.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenCaptureCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   // @brief default ctor
   constexpr ScreenCaptureCache_ScreenshotType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenCaptureCache_ScreenshotType(int32_t value__) noexcept;
 
   /// @brief Field Game value: I32(0)
@@ -124,13 +124,13 @@ protected:
   constexpr ScreenCaptureCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenCaptureCache(ScreenCaptureCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenCaptureCache(ScreenCaptureCache const&) = delete;
+  ScreenCaptureCache(ScreenCaptureCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20675 };

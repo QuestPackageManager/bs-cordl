@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Property_2.hpp"
+// IWYU pragma private; include "Unity/Properties/Property_2.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -95,13 +96,19 @@ inline void Unity::Properties::Property_2<TContainer, TValue>::Unity_Properties_
                                        { "Unity.Properties.Internal.IAttributes.AddAttributes", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, attributes);
 }
-template <typename TContainer, typename TValue> template <typename TAttribute> inline bool Unity::Properties::Property_2<TContainer, TValue>::HasAttribute() {
+template <typename TContainer, typename TValue>
+template <typename TAttribute>
+  requires(::cordl_internals::type_constraint<TAttribute, ::System::Attribute*>)
+inline bool Unity::Properties::Property_2<TContainer, TValue>::HasAttribute() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Property_2<TContainer, TValue>*>(), { "HasAttribute", { ::i2c::class_of<TAttribute>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TAttribute>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename TContainer, typename TValue> template <typename TAttribute> inline TAttribute Unity::Properties::Property_2<TContainer, TValue>::GetAttribute() {
+template <typename TContainer, typename TValue>
+template <typename TAttribute>
+  requires(::cordl_internals::type_constraint<TAttribute, ::System::Attribute*>)
+inline TAttribute Unity::Properties::Property_2<TContainer, TValue>::GetAttribute() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Property_2<TContainer, TValue>*>(), { "GetAttribute", { ::i2c::class_of<TAttribute>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TAttribute>() })));

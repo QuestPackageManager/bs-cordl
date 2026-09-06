@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FadeInOutController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FadeInOutController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
@@ -243,6 +243,7 @@ inline ::System::Object* GlobalNamespace::FadeInOutController__Fade_d__19::Syste
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::FadeInOutController__Fade_d__19* GlobalNamespace::FadeInOutController__Fade_d__19::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::FadeInOutController__Fade_d__19*>(__1__state));
 }

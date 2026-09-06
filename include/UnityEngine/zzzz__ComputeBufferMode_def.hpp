@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ComputeBufferMode.hpp"
+// IWYU pragma private; include "UnityEngine/ComputeBufferMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ComputeBufferMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ComputeBufferMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ComputeBufferMode, "UnityEngine", "ComputeBufferMode");
+// [NativeType("Runtime/GfxDevice/GfxDeviceTypes.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr ComputeBufferMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ComputeBufferMode(int32_t value__) noexcept;
 
   /// @brief Field Circular value: I32(2)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DeactivateVRControllersOnFocusCapture.hpp"
+// IWYU pragma private; include "GlobalNamespace/DeactivateVRControllersOnFocusCapture.hpp"
 #include "GlobalNamespace/zzzz__VRController_impl.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

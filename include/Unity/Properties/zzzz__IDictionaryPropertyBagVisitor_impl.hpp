@@ -1,8 +1,10 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IDictionaryPropertyBagVisitor.hpp"
+// IWYU pragma private; include "Unity/Properties/IDictionaryPropertyBagVisitor.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_impl.hpp"
 #include "Unity/Properties/zzzz__IDictionaryPropertyBagVisitor_def.hpp"
 #include "Unity/Properties/zzzz__IDictionaryPropertyBag_3_def.hpp"
 template <typename TDictionary, typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TDictionary, ::System::Collections::Generic::IDictionary_2<TKey, TValue>*>)
 inline void Unity::Properties::IDictionaryPropertyBagVisitor::Visit(::Unity::Properties::IDictionaryPropertyBag_3<TDictionary, TKey, TValue>* properties, ::by_ref<TDictionary> container) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Properties::IDictionaryPropertyBagVisitor*>(), 0 })));

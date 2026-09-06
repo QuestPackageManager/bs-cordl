@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HumanBone.hpp"
+// IWYU pragma private; include "UnityEngine/HumanBone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,9 @@ struct HumanBone;
 // Write type traits
 MARK_VAL_T(::UnityEngine::HumanBone);
 DEFINE_IL2CPP_CLASS(::UnityEngine::HumanBone, "UnityEngine", "HumanBone");
+// [NativeHeader("Modules/Animation/HumanDescription.h")]
+// [RequiredByNativeCode]
+// [NativeType((UnityEngine.Bindings.CodegenOptions)1, "MonoHumanBone")]
 // Dependencies UnityEngine.HumanLimit
 namespace UnityEngine {
 // Is value type: true
@@ -25,8 +28,8 @@ public:
   // @brief default ctor
   constexpr HumanBone();
 
-  // Ctor Parameters [CppParam { name: "m_BoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_HumanName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "limit", ty: "::UnityEngine::HumanLimit", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BoneName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_HumanName", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "limit", ty: "::UnityEngine::HumanLimit", modifiers: "", def_value: None, comment: None }]
   constexpr HumanBone(::StringW m_BoneName, ::StringW m_HumanName, ::UnityEngine::HumanLimit limit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -41,6 +44,7 @@ public:
   /// @brief Field m_HumanName, offset: 0x8, size: 0x8, def value: None
   ::StringW m_HumanName;
 
+  /// [NativeName("m_Limit")]
   /// @brief Field limit, offset: 0x10, size: 0x2c, def value: None
   ::UnityEngine::HumanLimit limit;
 

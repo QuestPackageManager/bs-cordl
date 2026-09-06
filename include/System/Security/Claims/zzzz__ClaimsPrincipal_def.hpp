@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Claims\ClaimsPrincipal.hpp"
+// IWYU pragma private; include "System/Security/Claims/ClaimsPrincipal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ class ClaimsPrincipal;
 // Write type traits
 MARK_REF_T(::System::Security::Claims::ClaimsPrincipal*);
 DEFINE_IL2CPP_CLASS(::System::Security::Claims::ClaimsPrincipal*, "System.Security.Claims", "ClaimsPrincipal");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Security::Claims {
 // Is value type: false
@@ -75,9 +76,11 @@ public:
 
   static inline ::System::Security::Claims::ClaimsPrincipal* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserializedMethod, addr 0x5b1bfd0, size 0x64, virtual false, abstract: false, final false
   inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
 
+  /// [OnSerializing]
   /// @brief Method OnSerializingMethod, addr 0x5b1b640, size 0x60, virtual false, abstract: false, final false
   inline void OnSerializingMethod(::System::Runtime::Serialization::StreamingContext context);
 
@@ -133,20 +136,22 @@ protected:
   constexpr ClaimsPrincipal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClaimsPrincipal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClaimsPrincipal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClaimsPrincipal(ClaimsPrincipal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClaimsPrincipal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClaimsPrincipal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ClaimsPrincipal(ClaimsPrincipal const&) = delete;
+  ClaimsPrincipal(ClaimsPrincipalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3027 };
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_version, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_version;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_serializedClaimsIdentities, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_serializedClaimsIdentities;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SliderState.hpp"
+// IWYU pragma private; include "UnityEngine/SliderState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SliderState_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SliderState._ctor
@@ -18,6 +18,7 @@ inline void UnityEngine::SliderState::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SliderState*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::SliderState* UnityEngine::SliderState::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::SliderState*>());
 }

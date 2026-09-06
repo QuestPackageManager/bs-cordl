@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScriptableRendererData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScriptableRendererData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScriptableRendererData)
@@ -51,6 +52,8 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolu
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScriptableRendererData*, "UnityEngine.Rendering.Universal", "ScriptableRendererData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScriptableRendererData_DebugShaderResources*, "UnityEngine.Rendering.Universal", "ScriptableRendererData/DebugShaderResources");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolumeResources*, "UnityEngine.Rendering.Universal", "ScriptableRendererData/ProbeVolumeResources");
+// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)", false)]
+// [ReloadGroup]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -87,20 +90,24 @@ protected:
   constexpr ScriptableRendererData_DebugShaderResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_DebugShaderResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_DebugShaderResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRendererData_DebugShaderResources(ScriptableRendererData_DebugShaderResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_DebugShaderResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_DebugShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRendererData_DebugShaderResources(ScriptableRendererData_DebugShaderResources const&) = delete;
+  ScriptableRendererData_DebugShaderResources(ScriptableRendererData_DebugShaderResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12737 };
 
+  /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Reload("Shaders/Debug/DebugReplacement.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field debugReplacementPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___debugReplacementPS;
 
+  /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)", false)]
+  /// [Reload("Shaders/Debug/HDRDebugView.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field hdrDebugViewPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___hdrDebugViewPS;
 
@@ -114,6 +121,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRendererDa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScriptableRendererData_DebugShaderResources) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [ReloadGroup]
+// [Obsolete("Probe volume debug resource are now in the ProbeVolumeDebugResources class.")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -197,35 +206,42 @@ protected:
   constexpr ScriptableRendererData_ProbeVolumeResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_ProbeVolumeResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_ProbeVolumeResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRendererData_ProbeVolumeResources(ScriptableRendererData_ProbeVolumeResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_ProbeVolumeResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData_ProbeVolumeResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRendererData_ProbeVolumeResources(ScriptableRendererData_ProbeVolumeResources const&) = delete;
+  ScriptableRendererData_ProbeVolumeResources(ScriptableRendererData_ProbeVolumeResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12738 };
 
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
   /// @brief Field probeVolumeDebugShader, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeDebugShader;
 
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
   /// @brief Field probeVolumeFragmentationDebugShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeFragmentationDebugShader;
 
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
   /// @brief Field probeVolumeOffsetDebugShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeOffsetDebugShader;
 
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
   /// @brief Field probeVolumeSamplingDebugShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___probeVolumeSamplingDebugShader;
 
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
   /// @brief Field probeSamplingDebugMesh, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___probeSamplingDebugMesh;
 
+  /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class.")]
   /// @brief Field probeSamplingDebugTexture, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___probeSamplingDebugTexture;
 
+  /// [Obsolete("This shader is now in the ProbeVolumeRuntimeResources class.")]
   /// @brief Field probeVolumeBlendStatesCS, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___probeVolumeBlendStatesCS;
 
@@ -249,7 +265,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRendererDa
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolumeResources) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
-// Dependencies UnityEngine.ScriptableObject
+// Dependencies UnityEngine.Rendering.Universal.ScriptableRendererFeature, UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.ScriptableRendererData
@@ -287,7 +303,7 @@ public:
 
   __declspec(property(get = get_useNativeRenderPass, put = set_useNativeRenderPass)) bool useNativeRenderPass;
 
-  /// @brief Method Create, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* Create();
 
   /// @brief Method InternalCreateRenderer, addr 0x6873df8, size 0x10, virtual false, abstract: false, final false
@@ -305,7 +321,9 @@ public:
   inline void SetDirty();
 
   /// @brief Method TryGetRendererFeature, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetRendererFeature(::by_ref<T> rendererFeature);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::Universal::ScriptableRendererFeature*>)
+  inline bool TryGetRendererFeature(::by_ref<T> rendererFeature);
 
   constexpr bool const& __cordl_internal_get__isInvalidated_k__BackingField() const;
 
@@ -346,6 +364,7 @@ public:
   /// @brief Method .ctor, addr 0x6873e38, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isInvalidated, addr 0x6873dd4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInvalidated();
 
@@ -355,6 +374,7 @@ public:
   /// @brief Method get_useNativeRenderPass, addr 0x6873e20, size 0x8, virtual false, abstract: false, final false
   inline bool get_useNativeRenderPass();
 
+  /// [CompilerGenerated]
   /// @brief Method set_isInvalidated, addr 0x6873ddc, size 0x8, virtual false, abstract: false, final false
   inline void set_isInvalidated(bool value);
 
@@ -367,32 +387,38 @@ protected:
   constexpr ScriptableRendererData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRendererData(ScriptableRendererData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRendererData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRendererData(ScriptableRendererData const&) = delete;
+  ScriptableRendererData(ScriptableRendererDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12739 };
 
+  /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)", false)]
   /// @brief Field debugShaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScriptableRendererData_DebugShaderResources* ___debugShaders;
 
+  /// [Obsolete("Probe volume debug resource are now in the ProbeVolumeDebugResources class.")]
   /// @brief Field probeVolumeResources, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolumeResources* ___probeVolumeResources;
 
+  /// [CompilerGenerated]
   /// @brief Field <isInvalidated>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____isInvalidated_k__BackingField;
 
+  /// [SerializeField]
   /// @brief Field m_RendererFeatures, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* ___m_RendererFeatures;
 
+  /// [SerializeField]
   /// @brief Field m_RendererFeatureMap, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int64_t>* ___m_RendererFeatureMap;
 
+  /// [SerializeField]
   /// @brief Field m_UseNativeRenderPass, offset: 0x40, size: 0x1, def value: None
   bool ___m_UseNativeRenderPass;
 

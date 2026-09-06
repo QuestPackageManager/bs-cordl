@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeDilationSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeDilationSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeDilationSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeBakingProcessSettings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeDilationSettings.SetDefaults
@@ -45,9 +45,9 @@ inline void UnityEngine::Rendering::ProbeDilationSettings::UpgradeFromTo(::Unity
                                                                                              ::i2c::type_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, from, to);
 }
-// Ctor Parameters [CppParam { name: "enableDilation", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "dilationDistance", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "dilationValidityThreshold", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "dilationIterations", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "squaredDistWeighting", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "enableDilation", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dilationDistance", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "dilationValidityThreshold", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dilationIterations", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "squaredDistWeighting", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeDilationSettings::ProbeDilationSettings(bool enableDilation, float_t dilationDistance, float_t dilationValidityThreshold, int32_t dilationIterations,
                                                                                  bool squaredDistWeighting) noexcept {
   this->enableDilation = enableDilation;

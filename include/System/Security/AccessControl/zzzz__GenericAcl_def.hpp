@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\GenericAcl.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/GenericAcl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class GenericAcl;
 // Write type traits
 MARK_REF_T(::System::Security::AccessControl::GenericAcl*);
 DEFINE_IL2CPP_CLASS(::System::Security::AccessControl::GenericAcl*, "System.Security.AccessControl", "GenericAcl");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Security::AccessControl {
 // Is value type: false
@@ -88,13 +89,13 @@ public:
 
   static inline int32_t getStaticF_MaxBinaryLength();
 
-  /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
   /// @brief Method get_IsSynchronized, addr 0x5b1fd24, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
   /// @brief Method get_SyncRoot, addr 0x5b1fd2c, size 0x4, virtual true, abstract: false, final false
@@ -112,7 +113,7 @@ public:
 
   static inline void setStaticF_MaxBinaryLength(int32_t value);
 
-  /// @brief Method set_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce* value);
 
 protected:
@@ -121,13 +122,13 @@ protected:
   constexpr GenericAcl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericAcl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericAcl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericAcl(GenericAcl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericAcl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericAcl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericAcl(GenericAcl const&) = delete;
+  GenericAcl(GenericAclconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3052 };

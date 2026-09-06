@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\ActivationTrack.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/ActivationTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   // @brief default ctor
   constexpr ActivationTrack_PostPlaybackState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ActivationTrack_PostPlaybackState(int32_t value__) noexcept;
 
   /// @brief Field Active value: I32(0)
@@ -106,6 +106,9 @@ static_assert(offsetof(::UnityEngine::Timeline::ActivationTrack_PostPlaybackStat
 static_assert(sizeof(::UnityEngine::Timeline::ActivationTrack_PostPlaybackState) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [TrackClipType(typeof(UnityEngine.Timeline.ActivationPlayableAsset))]
+// [TrackBindingType(typeof(UnityEngine.GameObject))]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Timeline.ActivationTrack::PostPlaybackState, UnityEngine.Timeline.TrackAsset
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -167,17 +170,18 @@ protected:
   constexpr ActivationTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActivationTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActivationTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActivationTrack(ActivationTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActivationTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActivationTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActivationTrack(ActivationTrack const&) = delete;
+  ActivationTrack(ActivationTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19151 };
 
+  /// [SerializeField]
   /// @brief Field m_PostPlaybackState, offset: 0xa0, size: 0x4, def value: None
   ::UnityEngine::Timeline::ActivationTrack_PostPlaybackState ___m_PostPlaybackState;
 

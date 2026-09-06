@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockNodePoseSyncStateSender.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockNodePoseSyncStateSender.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockNodePoseSyncStateSender_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"

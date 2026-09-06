@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\XROcclusionMeshPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/XROcclusionMeshPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace UnityEngine::Experimental::Rendering {
 class XRPass;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -116,13 +118,13 @@ protected:
   constexpr XROcclusionMeshPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XROcclusionMeshPass_PassData(XROcclusionMeshPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XROcclusionMeshPass_PassData(XROcclusionMeshPass_PassData const&) = delete;
+  XROcclusionMeshPass_PassData(XROcclusionMeshPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12892 };
@@ -153,6 +155,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_
 static_assert(sizeof(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -193,13 +196,13 @@ protected:
   constexpr XROcclusionMeshPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XROcclusionMeshPass___c(XROcclusionMeshPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XROcclusionMeshPass___c(XROcclusionMeshPass___c const&) = delete;
+  XROcclusionMeshPass___c(XROcclusionMeshPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12893 };
@@ -227,6 +230,7 @@ public:
   /// @brief Field m_PassData, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* m_PassData;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68aa928, size 0xb0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -237,8 +241,8 @@ public:
 
   /// @brief Method Render, addr 0x68aa9d8, size 0x6a0, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraColorAttachment,
-                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraDepthAttachment);
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraColorAttachment,
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraDepthAttachment);
 
   constexpr bool const& __cordl_internal_get_m_IsActiveTargetBackBuffer() const;
 
@@ -261,13 +265,13 @@ protected:
   constexpr XROcclusionMeshPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XROcclusionMeshPass(XROcclusionMeshPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XROcclusionMeshPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XROcclusionMeshPass(XROcclusionMeshPass const&) = delete;
+  XROcclusionMeshPass(XROcclusionMeshPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12894 };

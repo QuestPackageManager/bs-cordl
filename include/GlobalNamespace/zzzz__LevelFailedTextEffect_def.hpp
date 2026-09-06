@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelFailedTextEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelFailedTextEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class LevelFailedTextEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LevelFailedTextEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelFailedTextEffect*, "", "LevelFailedTextEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/LevelFailedTextEffect")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -45,17 +46,18 @@ protected:
   constexpr LevelFailedTextEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelFailedTextEffect(LevelFailedTextEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelFailedTextEffect(LevelFailedTextEffect const&) = delete;
+  LevelFailedTextEffect(LevelFailedTextEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5785 };
 
+  /// [SerializeField]
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 

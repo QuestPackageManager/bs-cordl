@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\DefaultContractResolver.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultContractResolver.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/Reflection/zzzz__BindingFlags_impl.hpp"
@@ -177,6 +177,7 @@ Newtonsoft::Json::Serialization::EnumerableDictionaryWrapper_2_DefaultContractRe
                           { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 inline ::Newtonsoft::Json::Serialization::EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>*
 Newtonsoft::Json::Serialization::EnumerableDictionaryWrapper_2_DefaultContractResolver__GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>::New_ctor(int32_t __1__state) {
@@ -243,7 +244,7 @@ constexpr void Newtonsoft::Json::Serialization::DefaultContractResolver_Enumerab
 }
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 inline void Newtonsoft::Json::Serialization::DefaultContractResolver_EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>::_ctor(
-    ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e) {
+    /* [Nullable(new[] { 1, 0, 1, 1 })] */ ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultContractResolver_EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*>(),
@@ -270,7 +271,7 @@ Newtonsoft::Json::Serialization::DefaultContractResolver_EnumerableDictionaryWra
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 inline ::Newtonsoft::Json::Serialization::DefaultContractResolver_EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*
 Newtonsoft::Json::Serialization::DefaultContractResolver_EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>::New_ctor(
-    ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e) {
+    /* [Nullable(new[] { 1, 0, 1, 1 })] */ ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Serialization::DefaultContractResolver_EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*>(e));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*,::System::Object*>>"
@@ -687,7 +688,8 @@ inline void Newtonsoft::Json::Serialization::DefaultContractResolver___c__Displa
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_1*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_1::_SetExtensionDataDelegates_b__0(::System::Object* o, ::StringW key, ::System::Object* value) {
+inline void Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_1::_SetExtensionDataDelegates_b__0(::System::Object* o, ::StringW key,
+                                                                                                                            /* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultContractResolver___c__DisplayClass45_1*>(),
                                               { "<SetExtensionDataDelegates>b__0", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
@@ -2226,7 +2228,7 @@ inline ::Newtonsoft::Json::Serialization::JsonProperty* Newtonsoft::Json::Serial
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::JsonProperty*>(this, ___internal_method, properties, name, type);
 }
 inline ::Newtonsoft::Json::Serialization::JsonProperty*
-Newtonsoft::Json::Serialization::DefaultContractResolver::CreatePropertyFromConstructorParameter(::Newtonsoft::Json::Serialization::JsonProperty* matchingMemberProperty,
+Newtonsoft::Json::Serialization::DefaultContractResolver::CreatePropertyFromConstructorParameter(/* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* matchingMemberProperty,
                                                                                                  ::System::Reflection::ParameterInfo* parameterInfo) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultContractResolver*>(), 9 })));
@@ -2254,11 +2256,11 @@ inline void Newtonsoft::Json::Serialization::DefaultContractResolver::ResolveCal
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, contract, t);
 }
 inline void Newtonsoft::Json::Serialization::DefaultContractResolver::GetCallbackMethodsForType(
-    ::System::Type* type, ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerializing,
-    ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerialized,
-    ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserializing,
-    ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserialized,
-    ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*> onError) {
+    ::System::Type* type, /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerializing,
+    /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onSerialized,
+    /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserializing,
+    /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationCallback*>*> onDeserialized,
+    /* [Nullable(new[] { 2, 1 })] */ ::by_ref<::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::SerializationErrorCallback*>*> onError) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultContractResolver*>(),
@@ -2349,8 +2351,8 @@ inline bool Newtonsoft::Json::Serialization::DefaultContractResolver::CanConvert
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type);
 }
 inline bool Newtonsoft::Json::Serialization::DefaultContractResolver::IsValidCallback(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*> parameters,
-                                                                                      ::System::Type* attributeType, ::System::Reflection::MethodInfo* currentCallback,
-                                                                                      ::by_ref<::System::Type*> prevAttributeType) {
+                                                                                      ::System::Type* attributeType, /* [Nullable(2)] */ ::System::Reflection::MethodInfo* currentCallback,
+                                                                                      /* [Nullable(2)] */ ::by_ref<::System::Type*> prevAttributeType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultContractResolver*>(),
                                               { "IsValidCallback",

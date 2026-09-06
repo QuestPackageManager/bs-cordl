@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\SByte.hpp"
+// IWYU pragma private; include "System/SByte.hpp"
 #include "System/zzzz__SByte_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
@@ -640,7 +640,7 @@ constexpr System::SByte::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::SByte::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "int8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "int8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::SByte::SByte(int8_t m_value) noexcept {
   this->m_value = m_value;
 }

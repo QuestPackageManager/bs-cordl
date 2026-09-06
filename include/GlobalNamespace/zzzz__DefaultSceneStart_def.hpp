@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DefaultSceneStart.hpp"
+// IWYU pragma private; include "GlobalNamespace/DefaultSceneStart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ MARK_REF_T(::GlobalNamespace::DefaultSceneStart*);
 MARK_REF_T(::GlobalNamespace::DefaultSceneStart__Start_d__3*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DefaultSceneStart*, "", "DefaultSceneStart");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DefaultSceneStart__Start_d__3*, "", "DefaultSceneStart/<Start>d__3");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -75,17 +76,22 @@ public:
   /// @brief Method MoveNext, addr 0x590b63c, size 0x84, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::DefaultSceneStart__Start_d__3* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x590b6c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x590b6c8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x590b700, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x590b638, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -107,6 +113,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::DefaultSceneStart> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x590b62c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -125,13 +132,13 @@ protected:
   constexpr DefaultSceneStart__Start_d__3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart__Start_d__3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart__Start_d__3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultSceneStart__Start_d__3(DefaultSceneStart__Start_d__3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart__Start_d__3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart__Start_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultSceneStart__Start_d__3(DefaultSceneStart__Start_d__3 const&) = delete;
+  DefaultSceneStart__Start_d__3(DefaultSceneStart__Start_d__3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6713 };
@@ -177,6 +184,7 @@ public:
 
   static inline ::GlobalNamespace::DefaultSceneStart* New_ctor();
 
+  /// [IteratorStateMachine(typeof(DefaultSceneStart::<Start>d__3))]
   /// @brief Method Start, addr 0x590b5d8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
@@ -207,23 +215,26 @@ protected:
   constexpr DefaultSceneStart();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultSceneStart(DefaultSceneStart&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultSceneStart", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultSceneStart(DefaultSceneStart const&) = delete;
+  DefaultSceneStart(DefaultSceneStartconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6714 };
 
+  /// [SerializeField]
   /// @brief Field _flowCoordinator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::FlowCoordinator> ____flowCoordinator;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
+  /// [Inject]
   /// @brief Field _hierarchyManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::HMUI::HierarchyManager> ____hierarchyManager;
 

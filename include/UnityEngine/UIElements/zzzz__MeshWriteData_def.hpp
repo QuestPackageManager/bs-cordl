@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MeshWriteData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MeshWriteData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr MeshWriteData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshWriteData(MeshWriteData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshWriteData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshWriteData(MeshWriteData const&) = delete;
+  MeshWriteData(MeshWriteDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4668 };
@@ -89,6 +89,7 @@ public:
   /// @brief Field currentIndex, offset: 0x30, size: 0x4, def value: None
   int32_t ___currentIndex;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field currentVertex, offset: 0x34, size: 0x4, def value: None
   int32_t ___currentVertex;
 

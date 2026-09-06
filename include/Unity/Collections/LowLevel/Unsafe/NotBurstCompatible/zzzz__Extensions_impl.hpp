@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NotBurstCompatible\Extensions.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NotBurstCompatible/Extensions.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/NotBurstCompatible/zzzz__Extensions_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAppendBuffer_def.hpp"
@@ -50,7 +51,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     return ___internal_method;
   }
 };
-template <typename T> inline ::ArrayW<T> Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> set) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::ArrayW<T> Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> set) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions*>(),
                                                            { "ToArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>>() } })));

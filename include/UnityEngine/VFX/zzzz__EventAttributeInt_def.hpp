@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\EventAttributeInt.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/EventAttributeInt.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ MARK_REF_T(::UnityEngine::VFX::EventAttributeInt*);
 MARK_REF_T(::UnityEngine::VFX::EventAttributeInt___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::EventAttributeInt*, "UnityEngine.VFX", "EventAttributeInt");
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::EventAttributeInt___c*, "UnityEngine.VFX", "EventAttributeInt/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -76,13 +77,13 @@ protected:
   constexpr EventAttributeInt___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeInt___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeInt___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventAttributeInt___c(EventAttributeInt___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeInt___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeInt___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventAttributeInt___c(EventAttributeInt___c const&) = delete;
+  EventAttributeInt___c(EventAttributeInt___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19946 };
@@ -113,13 +114,13 @@ protected:
   constexpr EventAttributeInt();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeInt", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeInt", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventAttributeInt(EventAttributeInt&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeInt", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeInt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventAttributeInt(EventAttributeInt const&) = delete;
+  EventAttributeInt(EventAttributeIntconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19947 };

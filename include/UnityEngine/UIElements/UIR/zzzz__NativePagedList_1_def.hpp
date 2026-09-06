@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\NativePagedList_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/NativePagedList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,20 +19,30 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> struct NativePagedList_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativePagedList_1_Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class NativePagedList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class NativePagedList_1;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> struct NativePagedList_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativePagedList_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UIR::NativePagedList_1);
@@ -43,6 +53,7 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::UIR::NativePagedList_1_Enumer
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.NativePagedList`1/Enumerator<T>
 struct CORDL_TYPE NativePagedList_1_Enumerator {
@@ -61,9 +72,10 @@ public:
   // @brief default ctor
   constexpr NativePagedList_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_NativePagedList", ty: "::UnityEngine::UIElements::UIR::NativePagedList_1<T>*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentPage", ty:
-  // "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }, CppParam { name: "m_IndexInCurrentPage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_IndexOfCurrentPage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CountInCurrentPage", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_NativePagedList", ty: "::UnityEngine::UIElements::UIR::NativePagedList_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_CurrentPage", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IndexInCurrentPage", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_IndexOfCurrentPage", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CountInCurrentPage", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr NativePagedList_1_Enumerator(::UnityEngine::UIElements::UIR::NativePagedList_1<T>* m_NativePagedList, ::Unity::Collections::NativeArray_1<T> m_CurrentPage, int32_t m_IndexInCurrentPage,
                                          int32_t m_IndexOfCurrentPage, int32_t m_CountInCurrentPage) noexcept;
 
@@ -96,6 +108,7 @@ public:
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.NativePagedList`1<T>
 class CORDL_TYPE NativePagedList_1 : public ::System::Object {
@@ -207,12 +220,14 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t poolCapacity, ::Unity::Collections::Allocator firstPageAllocator, ::Unity::Collections::Allocator otherPagesAllocator);
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -222,13 +237,13 @@ protected:
   constexpr NativePagedList_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativePagedList_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativePagedList_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativePagedList_1(NativePagedList_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativePagedList_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativePagedList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativePagedList_1(NativePagedList_1 const&) = delete;
+  NativePagedList_1(NativePagedList_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5322 };
@@ -254,6 +269,8 @@ public:
   /// @brief Field m_Enumerator, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>* ___m_Enumerator;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

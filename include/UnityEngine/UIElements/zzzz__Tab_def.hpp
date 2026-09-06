@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Tab.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Tab.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,6 +86,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Tab*, "UnityEngine.UIElements", "
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Tab_UxmlFactory*, "UnityEngine.UIElements", "Tab/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Tab_UxmlTraits*, "UnityEngine.UIElements", "Tab/UxmlTraits");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Tab___c*, "UnityEngine.UIElements", "Tab/<>c");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -104,13 +105,13 @@ protected:
   constexpr Tab_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tab_UxmlFactory(Tab_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tab_UxmlFactory(Tab_UxmlFactory const&) = delete;
+  Tab_UxmlFactory(Tab_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4321 };
@@ -121,6 +122,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Tab_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -169,13 +171,13 @@ protected:
   constexpr Tab_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tab_UxmlTraits(Tab_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tab_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tab_UxmlTraits(Tab_UxmlTraits const&) = delete;
+  Tab_UxmlTraits(Tab_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4322 };
@@ -201,6 +203,7 @@ static_assert(offsetof(::UnityEngine::UIElements::Tab_UxmlTraits, ___m_Closeable
 static_assert(sizeof(::UnityEngine::UIElements::Tab_UxmlTraits) == 0xa0, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -236,13 +239,13 @@ protected:
   constexpr Tab___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tab___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tab___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tab___c(Tab___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tab___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tab___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tab___c(Tab___c const&) = delete;
+  Tab___c(Tab___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4323 };
@@ -272,6 +275,7 @@ public:
   /// @brief Field closeButtonUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_closeButtonUssClassName, put = setStaticF_closeButtonUssClassName)) ::StringW closeButtonUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_closeable, put = set_closeable)) bool closeable;
 
   /// @brief Field closeableProperty, offset 0xffffffff, size 0x98
@@ -294,11 +298,13 @@ public:
   /// @brief Field draggingUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_draggingUssClassName, put = setStaticF_draggingUssClassName)) ::StringW draggingUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_iconImage, put = set_iconImage)) ::UnityEngine::UIElements::Background iconImage;
 
   /// @brief Field iconImageProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_iconImageProperty, put = setStaticF_iconImageProperty)) ::UnityEngine::UIElements::BindingId iconImageProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_label, put = set_label)) ::StringW label;
 
   /// @brief Field labelProperty, offset 0xffffffff, size 0x98
@@ -490,9 +496,11 @@ public:
   /// @brief Method .ctor, addr 0x6d7304c, size 0xabc, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::UnityEngine::UIElements::Background iconImage);
 
+  /// [CompilerGenerated]
   /// @brief Method add_closed, addr 0x6d729b8, size 0xc0, virtual false, abstract: false, final false
   inline void add_closed(::System::Action_1<::UnityEngine::UIElements::Tab*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_selected, addr 0x6d72838, size 0xc0, virtual false, abstract: false, final false
   inline void add_selected(::System::Action_1<::UnityEngine::UIElements::Tab*>* value);
 
@@ -547,9 +555,11 @@ public:
   /// @brief Method get_tabHeader, addr 0x6d72b38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_tabHeader();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_closed, addr 0x6d72a78, size 0xc0, virtual false, abstract: false, final false
   inline void remove_closed(::System::Action_1<::UnityEngine::UIElements::Tab*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selected, addr 0x6d728f8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selected(::System::Action_1<::UnityEngine::UIElements::Tab*>* value);
 
@@ -604,23 +614,29 @@ protected:
   constexpr Tab();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tab", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tab", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tab(Tab&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tab", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tab", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tab(Tab const&) = delete;
+  Tab(Tabconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4324 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field selected, offset: 0x4a8, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::Tab*>* ___selected;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field closing, offset: 0x4b0, size: 0x8, def value: None
   ::System::Func_1<bool>* ___closing;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field closed, offset: 0x4b8, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::Tab*>* ___closed;
 
@@ -651,6 +667,8 @@ public:
   /// @brief Field m_TabHeaderLabel, offset: 0x518, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_TabHeaderLabel;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dragger>k__BackingField, offset: 0x520, size: 0x8, def value: None
   ::UnityEngine::UIElements::TabDragger* ____dragger_k__BackingField;
 

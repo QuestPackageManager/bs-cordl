@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameCoreSceneSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameCoreSceneSetup.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__GameCoreSceneSetup_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"

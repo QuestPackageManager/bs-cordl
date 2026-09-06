@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PunctualLightData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PunctualLightData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,11 @@ public:
   // @brief default ctor
   constexpr PunctualLightData();
 
-  // Ctor Parameters [CppParam { name: "wsPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "color", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "attenuation", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name:
-  // "spotDirection", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occlusionProbeInfo",
-  // ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "wsPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "color", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "attenuation", ty: "::UnityEngine::Vector4", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "spotDirection", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionProbeInfo", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "layerMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PunctualLightData(::UnityEngine::Vector3 wsPos, float_t radius, ::UnityEngine::Vector4 color, ::UnityEngine::Vector4 attenuation, ::UnityEngine::Vector3 spotDirection, int32_t flags,
                               ::UnityEngine::Vector4 occlusionProbeInfo, uint32_t layerMask) noexcept;
 

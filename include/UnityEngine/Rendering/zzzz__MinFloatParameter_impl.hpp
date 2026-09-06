@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MinFloatParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MinFloatParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__FloatParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MinFloatParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::MinFloatParameter.get_value

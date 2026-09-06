@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindablePropertyChangedEventArgs.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindablePropertyChangedEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct BindablePropertyChangedEventArgs;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::BindablePropertyChangedEventArgs);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BindablePropertyChangedEventArgs, "UnityEngine.UIElements", "BindablePropertyChangedEventArgs");
+// [IsReadOnly]
 // Dependencies UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -26,7 +27,7 @@ public:
   __declspec(property(get = get_propertyName)) ::UnityEngine::UIElements::BindingId propertyName;
 
   /// @brief Method .ctor, addr 0x6c45430, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::UIElements::BindingId> propertyName);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> propertyName);
 
   /// @brief Method get_propertyName, addr 0x6c45438, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_propertyName();
@@ -35,7 +36,7 @@ public:
   // @brief default ctor
   constexpr BindablePropertyChangedEventArgs();
 
-  // Ctor Parameters [CppParam { name: "m_PropertyName", ty: "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_PropertyName", ty: "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: None, comment: None }]
   constexpr BindablePropertyChangedEventArgs(::UnityEngine::UIElements::BindingId m_PropertyName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

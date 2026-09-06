@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\DebugGizmos.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/DebugGizmos.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Gizmo/zzzz__DebugGizmos_def.hpp"
@@ -59,7 +59,7 @@ constexpr Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorScope::operator :
 constexpr ::System::IDisposable* Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_savedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_savedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorScope::DebugGizmos_ColorScope(::UnityEngine::Color _savedColor) noexcept {
   this->_savedColor = _savedColor;
 }

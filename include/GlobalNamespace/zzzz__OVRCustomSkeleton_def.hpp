@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRCustomSkeleton.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRCustomSkeleton.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   // @brief default ctor
   constexpr OVRCustomSkeleton_RetargetingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRCustomSkeleton_RetargetingType(int32_t value__) noexcept;
 
   /// @brief Field OculusSkeleton value: I32(0)
@@ -88,6 +88,8 @@ static_assert(offsetof(::GlobalNamespace::OVRCustomSkeleton_RetargetingType, val
 static_assert(sizeof(::GlobalNamespace::OVRCustomSkeleton_RetargetingType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/move-samples/")]
+// [Feature((Meta.XR.Util.Feature)1)]
 // Dependencies OVRCustomSkeleton::RetargetingType, OVRSkeleton
 namespace GlobalNamespace {
 // Is value type: false
@@ -153,20 +155,24 @@ protected:
   constexpr OVRCustomSkeleton();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomSkeleton", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomSkeleton", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRCustomSkeleton(OVRCustomSkeleton&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomSkeleton", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomSkeleton", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRCustomSkeleton(OVRCustomSkeleton const&) = delete;
+  OVRCustomSkeleton(OVRCustomSkeletonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7878 };
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field _customBones_V2, offset: 0xc0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____customBones_V2;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field retargetingType, offset: 0xc8, size: 0x4, def value: None
   ::GlobalNamespace::OVRCustomSkeleton_RetargetingType ___retargetingType;
 

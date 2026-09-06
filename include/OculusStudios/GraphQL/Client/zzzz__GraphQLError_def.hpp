@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLError.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLError.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace OculusStudios::GraphQL::Client {
 class GraphQLErrorException;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace OculusStudios::GraphQL::Client {
@@ -28,34 +30,49 @@ namespace OculusStudios::GraphQL::Client {
 class CORDL_TYPE GraphQLError : public ::System::Object {
 public:
   // Declarations
+  /// @brief [JsonProperty("api_error_code")]
   __declspec(property(get = get_APIErrorCode, put = set_APIErrorCode)) ::System::Nullable_1<int32_t> APIErrorCode;
 
+  /// @brief [JsonProperty("allow_user_retry")]
   __declspec(property(get = get_AllowUserRetry, put = set_AllowUserRetry)) bool AllowUserRetry;
 
+  /// @brief [JsonProperty("code")]
   __declspec(property(get = get_Code, put = set_Code)) ::System::Nullable_1<int32_t> Code;
 
+  /// @brief [JsonProperty("debug_info")]
   __declspec(property(get = get_DebugInfo, put = set_DebugInfo)) ::StringW DebugInfo;
 
+  /// @brief [JsonProperty("description")]
   __declspec(property(get = get_Description, put = set_Description)) ::StringW Description;
 
+  /// @brief [JsonProperty("exception")]
   __declspec(property(get = get_Exception, put = set_Exception)) ::OculusStudios::GraphQL::Client::GraphQLErrorException* Exception;
 
+  /// @brief [JsonProperty("fbtrace_id")]
   __declspec(property(get = get_FBTraceId, put = set_FBTraceId)) ::StringW FBTraceId;
 
+  /// @brief [JsonProperty("is_silent")]
   __declspec(property(get = get_IsSilent, put = set_IsSilent)) bool IsSilent;
 
+  /// @brief [JsonProperty("is_transient")]
   __declspec(property(get = get_IsTransient, put = set_IsTransient)) bool IsTransient;
 
+  /// @brief [JsonProperty("message")]
   __declspec(property(get = get_Message, put = set_Message)) ::StringW Message;
 
+  /// @brief [JsonProperty("query_path")]
   __declspec(property(get = get_QueryPath, put = set_QueryPath)) ::StringW QueryPath;
 
+  /// @brief [JsonProperty("requires_reauth")]
   __declspec(property(get = get_RequiresReauth, put = set_RequiresReauth)) bool RequiresReauth;
 
+  /// @brief [JsonProperty("severity")]
   __declspec(property(get = get_Severity, put = set_Severity)) ::StringW Severity;
 
+  /// @brief [JsonProperty("summary")]
   __declspec(property(get = get_Summary, put = set_Summary)) ::StringW Summary;
 
+  /// @brief [JsonProperty("type")]
   __declspec(property(get = get_Type, put = set_Type)) ::StringW Type;
 
   /// @brief Field <APIErrorCode>k__BackingField, offset 0x30, size 0x8
@@ -199,93 +216,123 @@ public:
   /// @brief Method .ctor, addr 0x5f21a24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_APIErrorCode, addr 0x5f21974, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_APIErrorCode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AllowUserRetry, addr 0x5f219e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowUserRetry();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Code, addr 0x5f21964, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Code();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DebugInfo, addr 0x5f219a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DebugInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Description, addr 0x5f21994, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Exception, addr 0x5f21a14, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::GraphQL::Client::GraphQLErrorException* get_Exception();
 
+  /// [CompilerGenerated]
   /// @brief Method get_FBTraceId, addr 0x5f21a04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FBTraceId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsSilent, addr 0x5f219b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSilent();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsTransient, addr 0x5f219c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTransient();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Message, addr 0x5f21934, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
+  /// [CompilerGenerated]
   /// @brief Method get_QueryPath, addr 0x5f219f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_QueryPath();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RequiresReauth, addr 0x5f219d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequiresReauth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Severity, addr 0x5f21944, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Severity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Summary, addr 0x5f21984, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Summary();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f21954, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
+  /// [CompilerGenerated]
   /// @brief Method set_APIErrorCode, addr 0x5f2197c, size 0x8, virtual false, abstract: false, final false
   inline void set_APIErrorCode(::System::Nullable_1<int32_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_AllowUserRetry, addr 0x5f219ec, size 0x8, virtual false, abstract: false, final false
   inline void set_AllowUserRetry(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Code, addr 0x5f2196c, size 0x8, virtual false, abstract: false, final false
   inline void set_Code(::System::Nullable_1<int32_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DebugInfo, addr 0x5f219ac, size 0x8, virtual false, abstract: false, final false
   inline void set_DebugInfo(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Description, addr 0x5f2199c, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Exception, addr 0x5f21a1c, size 0x8, virtual false, abstract: false, final false
   inline void set_Exception(::OculusStudios::GraphQL::Client::GraphQLErrorException* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_FBTraceId, addr 0x5f21a0c, size 0x8, virtual false, abstract: false, final false
   inline void set_FBTraceId(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsSilent, addr 0x5f219bc, size 0x8, virtual false, abstract: false, final false
   inline void set_IsSilent(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsTransient, addr 0x5f219cc, size 0x8, virtual false, abstract: false, final false
   inline void set_IsTransient(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Message, addr 0x5f2193c, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_QueryPath, addr 0x5f219fc, size 0x8, virtual false, abstract: false, final false
   inline void set_QueryPath(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RequiresReauth, addr 0x5f219dc, size 0x8, virtual false, abstract: false, final false
   inline void set_RequiresReauth(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Severity, addr 0x5f2194c, size 0x8, virtual false, abstract: false, final false
   inline void set_Severity(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Summary, addr 0x5f2198c, size 0x8, virtual false, abstract: false, final false
   inline void set_Summary(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Type, addr 0x5f2195c, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
@@ -295,59 +342,74 @@ protected:
   constexpr GraphQLError();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLError", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLError", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphQLError(GraphQLError&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLError", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphQLError", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLError(GraphQLError const&) = delete;
+  GraphQLError(GraphQLErrorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20384 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Message>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Message_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Severity>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Severity_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Code>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Nullable_1<int32_t> ____Code_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <APIErrorCode>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Nullable_1<int32_t> ____APIErrorCode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Summary>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____Summary_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Description>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::StringW ____Description_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DebugInfo>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::StringW ____DebugInfo_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsSilent>k__BackingField, offset: 0x50, size: 0x1, def value: None
   bool ____IsSilent_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsTransient>k__BackingField, offset: 0x51, size: 0x1, def value: None
   bool ____IsTransient_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RequiresReauth>k__BackingField, offset: 0x52, size: 0x1, def value: None
   bool ____RequiresReauth_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AllowUserRetry>k__BackingField, offset: 0x53, size: 0x1, def value: None
   bool ____AllowUserRetry_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <QueryPath>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::StringW ____QueryPath_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FBTraceId>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::StringW ____FBTraceId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Exception>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLErrorException* ____Exception_k__BackingField;
 

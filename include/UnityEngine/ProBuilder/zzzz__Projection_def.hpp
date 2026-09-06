@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Projection.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Projection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::Projection*);
 MARK_REF_T(::UnityEngine::ProBuilder::Projection___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Projection*, "UnityEngine.ProBuilder", "Projection");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Projection___c*, "UnityEngine.ProBuilder", "Projection/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -108,13 +109,13 @@ protected:
   constexpr Projection___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Projection___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Projection___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Projection___c(Projection___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Projection___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Projection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Projection___c(Projection___c const&) = delete;
+  Projection___c(Projection___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16790 };
@@ -179,13 +180,13 @@ protected:
   constexpr Projection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Projection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Projection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Projection(Projection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Projection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Projection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Projection(Projection const&) = delete;
+  Projection(Projectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16791 };

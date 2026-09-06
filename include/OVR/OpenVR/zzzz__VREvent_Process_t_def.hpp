@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_Process_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Process_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr VREvent_Process_t();
 
-  // Ctor Parameters [CppParam { name: "pid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "oldPid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "bForced",
-  // ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pid", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "oldPid", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "bForced", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr VREvent_Process_t(uint32_t pid, uint32_t oldPid, bool bForced) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

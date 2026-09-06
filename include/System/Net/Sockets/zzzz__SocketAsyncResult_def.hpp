@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\SocketAsyncResult.hpp"
+// IWYU pragma private; include "System/Net/Sockets/SocketAsyncResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ MARK_REF_T(::System::Net::Sockets::SocketAsyncResult*);
 MARK_REF_T(::System::Net::Sockets::SocketAsyncResult___c*);
 DEFINE_IL2CPP_CLASS(::System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
 DEFINE_IL2CPP_CLASS(::System::Net::Sockets::SocketAsyncResult___c*, "System.Net.Sockets", "SocketAsyncResult/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
@@ -95,13 +96,13 @@ protected:
   constexpr SocketAsyncResult___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SocketAsyncResult___c(SocketAsyncResult___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SocketAsyncResult___c(SocketAsyncResult___c const&) = delete;
+  SocketAsyncResult___c(SocketAsyncResult___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11785 };
@@ -340,13 +341,13 @@ protected:
   constexpr SocketAsyncResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SocketAsyncResult(SocketAsyncResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SocketAsyncResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SocketAsyncResult(SocketAsyncResult const&) = delete;
+  SocketAsyncResult(SocketAsyncResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11786 };

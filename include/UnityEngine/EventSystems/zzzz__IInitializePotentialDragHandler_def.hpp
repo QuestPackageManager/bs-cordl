@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\IInitializePotentialDragHandler.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/IInitializePotentialDragHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnInitializePotentialDrag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IInitializePotentialDragHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IInitializePotentialDragHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IInitializePotentialDragHandler(IInitializePotentialDragHandler const&) = delete;
+  IInitializePotentialDragHandler(IInitializePotentialDragHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17547 };

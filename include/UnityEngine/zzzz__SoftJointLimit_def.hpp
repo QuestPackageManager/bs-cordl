@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SoftJointLimit.hpp"
+// IWYU pragma private; include "UnityEngine/SoftJointLimit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,8 +48,8 @@ public:
   // @brief default ctor
   constexpr SoftJointLimit();
 
-  // Ctor Parameters [CppParam { name: "m_Limit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Bounciness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_ContactDistance", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Limit", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Bounciness", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_ContactDistance", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr SoftJointLimit(float_t m_Limit, float_t m_Bounciness, float_t m_ContactDistance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

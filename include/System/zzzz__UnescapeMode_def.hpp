@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UnescapeMode.hpp"
+// IWYU pragma private; include "System/UnescapeMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct UnescapeMode;
 // Write type traits
 MARK_VAL_T(::System::UnescapeMode);
 DEFINE_IL2CPP_CLASS(::System::UnescapeMode, "System", "UnescapeMode");
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr UnescapeMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnescapeMode(int32_t value__) noexcept;
 
   /// @brief Field CopyOnly value: I32(0)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CreateDrawBatchesJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CreateDrawBatchesJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -75,13 +75,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-inline ::by_ref<::UnityEngine::Rendering::DrawRange> UnityEngine::Rendering::CreateDrawBatchesJob::EditDrawRange(::by_ref<::UnityEngine::Rendering::RangeKey> key) {
+inline ::by_ref<::UnityEngine::Rendering::DrawRange> UnityEngine::Rendering::CreateDrawBatchesJob::EditDrawRange(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RangeKey> key) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CreateDrawBatchesJob>(),
                                                                                          { "EditDrawRange", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RangeKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::UnityEngine::Rendering::DrawRange>>(*this, ___internal_method, key);
 }
-inline ::by_ref<::UnityEngine::Rendering::DrawBatch> UnityEngine::Rendering::CreateDrawBatchesJob::EditDrawBatch(::by_ref<::UnityEngine::Rendering::DrawKey> key,
-                                                                                                                 ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> subMeshDescriptor) {
+inline ::by_ref<::UnityEngine::Rendering::DrawBatch>
+UnityEngine::Rendering::CreateDrawBatchesJob::EditDrawBatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::DrawKey> key,
+                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> subMeshDescriptor) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CreateDrawBatchesJob>(),
@@ -105,17 +106,17 @@ constexpr UnityEngine::Rendering::CreateDrawBatchesJob::operator ::Unity::Jobs::
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::CreateDrawBatchesJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "implicitInstanceIndices", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "instances", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererData", ty:
-// "::UnityEngine::Rendering::GPUDrivenRendererGroupData", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchMeshHash", ty:
-// "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMeshID>", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchMaterialHash", ty:
-// "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMaterialID>", modifiers: "", def_value: Some("{}") }, CppParam { name: "packedMaterialDataHash", ty:
-// "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rangeHash", ty:
-// "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawRanges", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchHash", ty:
-// "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawBatches", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawInstances", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "implicitInstanceIndices", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instances", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererData", ty:
+// "::UnityEngine::Rendering::GPUDrivenRendererGroupData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchMeshHash", ty:
+// "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMeshID>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchMaterialHash",
+// ty: "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMaterialID>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "packedMaterialDataHash", ty: "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "rangeHash", ty: "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey,int32_t>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "drawRanges", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchHash",
+// ty: "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawBatches", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawInstances", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CreateDrawBatchesJob::CreateDrawBatchesJob(
     bool implicitInstanceIndices, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances, ::UnityEngine::Rendering::GPUDrivenRendererGroupData rendererData,
     ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::BatchMeshID> batchMeshHash,

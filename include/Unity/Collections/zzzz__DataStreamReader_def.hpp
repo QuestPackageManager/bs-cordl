@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\DataStreamReader.hpp"
+// IWYU pragma private; include "Unity/Collections/DataStreamReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,9 @@ namespace Unity::Collections {
 struct FixedString64Bytes;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
 struct StreamCompressionModel;
@@ -57,8 +59,9 @@ public:
   // @brief default ctor
   constexpr DataStreamReader_Context();
 
-  // Ctor Parameters [CppParam { name: "m_ReadByteIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BitIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_BitBuffer", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FailedReads", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ReadByteIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BitIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_BitBuffer", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FailedReads", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr DataStreamReader_Context(int32_t m_ReadByteIndex, int32_t m_BitIndex, uint64_t m_BitBuffer, int32_t m_FailedReads) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -93,6 +96,8 @@ static_assert(offsetof(::Unity::Collections::DataStreamReader_Context, m_FailedR
 static_assert(sizeof(::Unity::Collections::DataStreamReader_Context) == 0x18, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [MovedFrom(true, "Unity.Networking.Transport", null, null)]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.DataStreamReader::Context
 namespace Unity::Collections {
 // Is value type: true
@@ -114,9 +119,13 @@ public:
   /// @brief Method ByteSwap, addr 0x64ac9b8, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ByteSwap(int32_t val);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckBits, addr 0x64ad9b4, size 0x84, virtual false, abstract: false, final false
   static inline void CheckBits(int32_t numBits);
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x64ad9b0, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
@@ -184,65 +193,71 @@ public:
   inline int64_t ReadLong();
 
   /// @brief Method ReadPackedDouble, addr 0x64ad090, size 0x8, virtual false, abstract: false, final false
-  inline double_t ReadPackedDouble(::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline double_t ReadPackedDouble(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedDoubleDelta, addr 0x64ad098, size 0xe0, virtual false, abstract: false, final false
-  inline double_t ReadPackedDoubleDelta(double_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline double_t ReadPackedDoubleDelta(double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedFixedString128Delta, addr 0x64ad760, size 0x84, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FixedString128Bytes ReadPackedFixedString128Delta(::Unity::Collections::FixedString128Bytes baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline ::Unity::Collections::FixedString128Bytes ReadPackedFixedString128Delta(::Unity::Collections::FixedString128Bytes baseline,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedFixedString32Delta, addr 0x64ad52c, size 0x70, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FixedString32Bytes ReadPackedFixedString32Delta(::Unity::Collections::FixedString32Bytes baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline ::Unity::Collections::FixedString32Bytes ReadPackedFixedString32Delta(::Unity::Collections::FixedString32Bytes baseline,
+                                                                               /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedFixedString4096Delta, addr 0x64ad884, size 0xa8, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FixedString4096Bytes ReadPackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline ::Unity::Collections::FixedString4096Bytes ReadPackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes baseline,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedFixedString512Delta, addr 0x64ad7e4, size 0xa0, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FixedString512Bytes ReadPackedFixedString512Delta(::Unity::Collections::FixedString512Bytes baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline ::Unity::Collections::FixedString512Bytes ReadPackedFixedString512Delta(::Unity::Collections::FixedString512Bytes baseline,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedFixedString64Delta, addr 0x64ad6e4, size 0x7c, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FixedString64Bytes ReadPackedFixedString64Delta(::Unity::Collections::FixedString64Bytes baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline ::Unity::Collections::FixedString64Bytes ReadPackedFixedString64Delta(::Unity::Collections::FixedString64Bytes baseline,
+                                                                               /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedFixedStringDelta, addr 0x64ad92c, size 0x84, virtual false, abstract: false, final false
   inline uint16_t ReadPackedFixedStringDelta(::Unity::Collections::NativeArray_1<uint8_t> data, ::Unity::Collections::NativeArray_1<uint8_t> baseData,
-                                             ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedFixedStringDeltaInternal, addr 0x64ad59c, size 0x148, virtual false, abstract: false, final false
-  inline uint16_t ReadPackedFixedStringDeltaInternal(uint8_t* data, int32_t maxLength, uint8_t* baseData, uint16_t baseLength, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint16_t ReadPackedFixedStringDeltaInternal(uint8_t* data, int32_t maxLength, uint8_t* baseData, uint16_t baseLength,
+                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedFloat, addr 0x64ad008, size 0x8, virtual false, abstract: false, final false
-  inline float_t ReadPackedFloat(::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline float_t ReadPackedFloat(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedFloatDelta, addr 0x64ad010, size 0x80, virtual false, abstract: false, final false
-  inline float_t ReadPackedFloatDelta(float_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline float_t ReadPackedFloatDelta(float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedInt, addr 0x64acfc8, size 0x24, virtual false, abstract: false, final false
-  inline int32_t ReadPackedInt(::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline int32_t ReadPackedInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedIntDelta, addr 0x64ad178, size 0x28, virtual false, abstract: false, final false
-  inline int32_t ReadPackedIntDelta(int32_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline int32_t ReadPackedIntDelta(int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedLong, addr 0x64acfec, size 0x1c, virtual false, abstract: false, final false
-  inline int64_t ReadPackedLong(::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline int64_t ReadPackedLong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedLongDelta, addr 0x64ad1c8, size 0x28, virtual false, abstract: false, final false
-  inline int64_t ReadPackedLongDelta(int64_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline int64_t ReadPackedLongDelta(int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedUInt, addr 0x64acda8, size 0xc, virtual false, abstract: false, final false
-  inline uint32_t ReadPackedUInt(::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint32_t ReadPackedUInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedUIntDelta, addr 0x64ad1a0, size 0x28, virtual false, abstract: false, final false
-  inline uint32_t ReadPackedUIntDelta(uint32_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint32_t ReadPackedUIntDelta(uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedUIntInternal, addr 0x64acdb4, size 0xbc, virtual false, abstract: false, final false
-  inline uint32_t ReadPackedUIntInternal(int32_t maxSymbolLength, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint32_t ReadPackedUIntInternal(int32_t maxSymbolLength, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedULong, addr 0x64acf78, size 0x50, virtual false, abstract: false, final false
-  inline uint64_t ReadPackedULong(::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint64_t ReadPackedULong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadPackedULongDelta, addr 0x64ad1f0, size 0x28, virtual false, abstract: false, final false
-  inline uint64_t ReadPackedULongDelta(uint64_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint64_t ReadPackedULongDelta(uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
   /// @brief Method ReadRawBits, addr 0x64acf1c, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t ReadRawBits(int32_t numbits);
@@ -277,15 +292,18 @@ public:
   /// @brief Method .ctor, addr 0x64ac8e4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<uint8_t> array);
 
+  /// [IsReadOnly]
   /// @brief Method get_HasFailedReads, addr 0x64ac9c0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasFailedReads();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64ac9d8, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   /// @brief Method get_IsLittleEndian, addr 0x64ac99c, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsLittleEndian();
 
+  /// [IsReadOnly]
   /// @brief Method get_Length, addr 0x64ac9d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
@@ -293,8 +311,8 @@ public:
   // @brief default ctor
   constexpr DataStreamReader();
 
-  // Ctor Parameters [CppParam { name: "m_BufferPtr", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_Context", ty: "::Unity::Collections::DataStreamReader_Context", modifiers:
-  // "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BufferPtr", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Context", ty:
+  // "::Unity::Collections::DataStreamReader_Context", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DataStreamReader(uint8_t* m_BufferPtr, ::Unity::Collections::DataStreamReader_Context m_Context, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -303,6 +321,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_BufferPtr, offset: 0x0, size: 0x8, def value: None
   uint8_t* m_BufferPtr;
 

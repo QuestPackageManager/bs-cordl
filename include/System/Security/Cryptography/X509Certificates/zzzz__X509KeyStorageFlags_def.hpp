@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509KeyStorageFlags.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509KeyStorageFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct X509KeyStorageFlags;
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, "System.Security.Cryptography.X509Certificates", "X509KeyStorageFlags");
+// [Flags]
 // Dependencies
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr X509KeyStorageFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr X509KeyStorageFlags(int32_t value__) noexcept;
 
   /// @brief Field DefaultKeySet value: I32(0)

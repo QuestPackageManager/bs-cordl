@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ActionInstaller.hpp"
+// IWYU pragma private; include "Zenject/ActionInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9b304, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9b3e8, size 0x248, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -61,13 +62,13 @@ protected:
   constexpr ActionInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActionInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActionInstaller(ActionInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActionInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActionInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActionInstaller(ActionInstaller const&) = delete;
+  ActionInstaller(ActionInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14700 };

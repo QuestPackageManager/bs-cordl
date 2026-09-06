@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Console.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Console.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,12 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class Label;
 }
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
-template <typename ControllerType, typename ProxyControllerType> class ProxyFlex_2;
+template <typename ControllerType, typename ProxyControllerType>
+  requires(::cordl_internals::type_constraint<ControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*> &&
+           ::cordl_internals::default_constructor_constraint<ControllerType> &&
+           ::cordl_internals::type_constraint<ProxyControllerType, ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ProxyController_1<ControllerType>*> &&
+           ::cordl_internals::default_constructor_constraint<ProxyControllerType>)
+class ProxyFlex_2;
 }
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 class ScrollView;
@@ -82,6 +87,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::UserInterface::Console*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::UserInterface::Console___c__DisplayClass47_0*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::Console*, "Meta.XR.ImmersiveDebugger.UserInterface", "Console");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::Console___c__DisplayClass47_0*, "Meta.XR.ImmersiveDebugger.UserInterface", "Console/<>c__DisplayClass47_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface {
 // Is value type: false
@@ -112,13 +118,13 @@ protected:
   constexpr Console___c__DisplayClass47_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Console___c__DisplayClass47_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Console___c__DisplayClass47_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Console___c__DisplayClass47_0(Console___c__DisplayClass47_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Console___c__DisplayClass47_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Console___c__DisplayClass47_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Console___c__DisplayClass47_0(Console___c__DisplayClass47_0 const&) = delete;
+  Console___c__DisplayClass47_0(Console___c__DisplayClass47_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18360 };
@@ -134,6 +140,7 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::Console___c
 static_assert(sizeof(::Meta::XR::ImmersiveDebugger::UserInterface::Console___c__DisplayClass47_0) == 0x18, "Size mismatch!");
 
 } // namespace Meta::XR::ImmersiveDebugger::UserInterface
+// [DefaultExecutionOrder(1)]
 // Dependencies Meta.XR.ImmersiveDebugger.UserInterface.DebugPanel, UnityEngine.Vector3
 namespace Meta::XR::ImmersiveDebugger::UserInterface {
 // Is value type: false
@@ -459,24 +466,30 @@ public:
   /// @brief Method .ctor, addr 0x5a4c748, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Dirty, addr 0x5a494cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Dirty();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LogCollapseMode, addr 0x5a49558, size 0x8, virtual false, abstract: false, final false
   inline bool get_LogCollapseMode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MaximumNumberOfLogEntries, addr 0x5a49568, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaximumNumberOfLogEntries();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Dirty, addr 0x5a494d4, size 0x8, virtual false, abstract: false, final false
   inline void set_Dirty(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LogCollapseMode, addr 0x5a49560, size 0x8, virtual false, abstract: false, final false
   inline void set_LogCollapseMode(bool value);
 
   /// @brief Method set_LogDetailBackgroundStyle, addr 0x5a49578, size 0x9c, virtual false, abstract: false, final false
   inline void set_LogDetailBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MaximumNumberOfLogEntries, addr 0x5a49570, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumNumberOfLogEntries(int32_t value);
 
@@ -486,13 +499,13 @@ protected:
   constexpr Console();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Console(Console&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Console(Console const&) = delete;
+  Console(Consoleconst&) = delete;
 
   /// @brief Field ContractedLogPanelBottomMargin offset 0xffffffff size 0x4
   static constexpr int32_t ContractedLogPanelBottomMargin{ static_cast<int32_t>(0x8c) };
@@ -506,6 +519,7 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18361 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Dirty>k__BackingField, offset: 0xe0, size: 0x1, def value: None
   bool ____Dirty_k__BackingField;
 
@@ -573,9 +587,11 @@ public:
   /// @brief Field _logDetailPaneBackgroundImageStyle, offset: 0x188, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> ____logDetailPaneBackgroundImageStyle;
 
+  /// [CompilerGenerated]
   /// @brief Field <LogCollapseMode>k__BackingField, offset: 0x190, size: 0x1, def value: None
   bool ____LogCollapseMode_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MaximumNumberOfLogEntries>k__BackingField, offset: 0x194, size: 0x4, def value: None
   int32_t ____MaximumNumberOfLogEntries_k__BackingField;
 

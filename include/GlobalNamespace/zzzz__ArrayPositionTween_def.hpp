@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ArrayPositionTween.hpp"
+// IWYU pragma private; include "GlobalNamespace/ArrayPositionTween.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,17 +95,18 @@ protected:
   constexpr ArrayPositionTween();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayPositionTween", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayPositionTween", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayPositionTween(ArrayPositionTween&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayPositionTween", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayPositionTween", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayPositionTween(ArrayPositionTween const&) = delete;
+  ArrayPositionTween(ArrayPositionTweenconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6683 };
 
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field arrayReference, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> ___arrayReference;
 

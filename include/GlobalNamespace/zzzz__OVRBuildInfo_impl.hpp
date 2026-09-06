@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBuildInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBuildInfo.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRBuildInfo_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"

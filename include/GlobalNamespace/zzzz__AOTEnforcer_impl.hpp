@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AOTEnforcer.hpp"
+// IWYU pragma private; include "GlobalNamespace/AOTEnforcer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AOTEnforcer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AOTEnforcer.Awake

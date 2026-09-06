@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\XYZColor.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/XYZColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,13 +71,13 @@ protected:
   constexpr XYZColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XYZColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XYZColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XYZColor(XYZColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XYZColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XYZColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XYZColor(XYZColor const&) = delete;
+  XYZColor(XYZColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16725 };

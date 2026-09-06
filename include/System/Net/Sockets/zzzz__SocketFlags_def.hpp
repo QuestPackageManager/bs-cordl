@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\SocketFlags.hpp"
+// IWYU pragma private; include "System/Net/Sockets/SocketFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct SocketFlags;
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::SocketFlags);
 DEFINE_IL2CPP_CLASS(::System::Net::Sockets::SocketFlags, "System.Net.Sockets", "SocketFlags");
+// [Flags]
 // Dependencies
 namespace System::Net::Sockets {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr SocketFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SocketFlags(int32_t value__) noexcept;
 
   /// @brief Field Broadcast value: I32(1024)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VROverlayIntersectionResults_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VROverlayIntersectionResults_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,9 @@ public:
   // @brief default ctor
   constexpr VROverlayIntersectionResults_t();
 
-  // Ctor Parameters [CppParam { name: "vPoint", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vNormal", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "",
-  // def_value: None }, CppParam { name: "vUVs", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "fDistance", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vPoint", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vNormal", ty: "::OVR::OpenVR::HmdVector3_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "vUVs", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fDistance", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr VROverlayIntersectionResults_t(::OVR::OpenVR::HmdVector3_t vPoint, ::OVR::OpenVR::HmdVector3_t vNormal, ::OVR::OpenVR::HmdVector2_t vUVs, float_t fDistance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerSpecificSettingsAtStartNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerSpecificSettingsAtStartNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class PlayerSpecificSettingsAtStartNetSerializable;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, "", "PlayerSpecificSettingsAtStartNetSerializable");
+// [Preserve]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -91,6 +92,7 @@ public:
   /// @brief Method .ctor, addr 0x32b9084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* activePlayerSpecificSettingsAtGameStart);
 
+  /// [CompilerGenerated]
   /// @brief Method get_activePlayerSpecificSettingsAtGameStart, addr 0x32b9070, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* get_activePlayerSpecificSettingsAtGameStart();
 
@@ -100,6 +102,7 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_activePlayerSpecificSettingsAtGameStart, addr 0x32b9078, size 0x8, virtual false, abstract: false, final false
   inline void set_activePlayerSpecificSettingsAtGameStart(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
@@ -109,17 +112,18 @@ protected:
   constexpr PlayerSpecificSettingsAtStartNetSerializable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettingsAtStartNetSerializable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettingsAtStartNetSerializable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSpecificSettingsAtStartNetSerializable(PlayerSpecificSettingsAtStartNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettingsAtStartNetSerializable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSpecificSettingsAtStartNetSerializable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSpecificSettingsAtStartNetSerializable(PlayerSpecificSettingsAtStartNetSerializable const&) = delete;
+  PlayerSpecificSettingsAtStartNetSerializable(PlayerSpecificSettingsAtStartNetSerializableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18967 };
 
+  /// [CompilerGenerated]
   /// @brief Field <activePlayerSpecificSettingsAtGameStart>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* ____activePlayerSpecificSettingsAtGameStart_k__BackingField;
 

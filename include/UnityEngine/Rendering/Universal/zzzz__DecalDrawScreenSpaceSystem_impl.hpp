@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalDrawScreenSpaceSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalDrawScreenSpaceSystem.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawSystem_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawScreenSpaceSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalCachedChunk_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TimelineArrayReference.hpp"
+// IWYU pragma private; include "GlobalNamespace/TimelineArrayReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr TimelineArrayReference_ArrayTypes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimelineArrayReference_ArrayTypes(int32_t value__) noexcept;
 
   /// @brief Field Canvas value: I32(2)
@@ -169,17 +169,18 @@ protected:
   constexpr TimelineArrayReference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineArrayReference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineArrayReference", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineArrayReference(TimelineArrayReference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineArrayReference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineArrayReference", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineArrayReference(TimelineArrayReference const&) = delete;
+  TimelineArrayReference(TimelineArrayReferenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6704 };
 
+  /// [SerializeField]
   /// @brief Field arrayType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::TimelineArrayReference_ArrayTypes ___arrayType;
 

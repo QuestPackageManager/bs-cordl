@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\ListExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/ListExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__ListExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -30,6 +30,7 @@ template <typename T> inline void Unity::Collections::ListExtensions::RemoveAtSw
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, list, index);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeList_1<T> Unity::Collections::ListExtensions::ToNativeList(::System::Collections::Generic::List_1<T>* list,
                                                                                               ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -41,6 +42,7 @@ inline ::Unity::Collections::NativeList_1<T> Unity::Collections::ListExtensions:
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeList_1<T>>(nullptr, ___internal_method, list, allocator);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::ListExtensions::ToNativeArray(::System::Collections::Generic::List_1<T>* list,
                                                                                                 ::Unity::Collections::AllocatorManager_AllocatorHandle allocator) {
   static auto* ___internal_method_base = THROW_UNLESS(

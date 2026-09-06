@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\UnwrapPromise_1.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/UnwrapPromise_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ MARK_GEN_REF_T_PTR(::System::Threading::Tasks::UnwrapPromise_1);
 MARK_GEN_REF_T_PTR(::System::Threading::Tasks::UnwrapPromise_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::Tasks::UnwrapPromise_1, "System.Threading.Tasks", "UnwrapPromise`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Threading::Tasks::UnwrapPromise_1___c, "System.Threading.Tasks", "UnwrapPromise`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
@@ -71,13 +72,13 @@ protected:
   constexpr UnwrapPromise_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnwrapPromise_1___c(UnwrapPromise_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnwrapPromise_1___c(UnwrapPromise_1___c const&) = delete;
+  UnwrapPromise_1___c(UnwrapPromise_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2812 };
@@ -155,13 +156,13 @@ protected:
   constexpr UnwrapPromise_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnwrapPromise_1(UnwrapPromise_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnwrapPromise_1(UnwrapPromise_1 const&) = delete;
+  UnwrapPromise_1(UnwrapPromise_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2813 };

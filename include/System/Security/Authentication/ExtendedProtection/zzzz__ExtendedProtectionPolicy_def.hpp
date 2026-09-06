@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Authentication\ExtendedProtection\ExtendedProtectionPolicy.hpp"
+// IWYU pragma private; include "System/Security/Authentication/ExtendedProtection/ExtendedProtectionPolicy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class ExtendedProtectionPolicy;
 // Write type traits
 MARK_REF_T(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*);
 DEFINE_IL2CPP_CLASS(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*, "System.Security.Authentication.ExtendedProtection", "ExtendedProtectionPolicy");
+// [TypeConverter(typeof(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicyTypeConverter))]
+// [MonoTODO]
 // Dependencies System.Object
 namespace System::Security::Authentication::ExtendedProtection {
 // Is value type: false
@@ -38,17 +40,20 @@ public:
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                                            ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief [MonoTODO("Not implemented.")]
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* New_ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
   /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x63a08a8, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// [MonoTODO]
   /// @brief Method ToString, addr 0x63a08a0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method .ctor, addr 0x63a0868, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// [MonoTODO("Not implemented.")]
   /// @brief Method .ctor, addr 0x63a0864, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
@@ -61,13 +66,13 @@ protected:
   constexpr ExtendedProtectionPolicy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedProtectionPolicy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtendedProtectionPolicy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtendedProtectionPolicy(ExtendedProtectionPolicy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedProtectionPolicy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtendedProtectionPolicy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtendedProtectionPolicy(ExtendedProtectionPolicy const&) = delete;
+  ExtendedProtectionPolicy(ExtendedProtectionPolicyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11164 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MetadataValue.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MetadataValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr MetadataValue();
 
-  // Ctor Parameters [CppParam { name: "NameID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "NameID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Value", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr MetadataValue(int32_t NameID, uint32_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

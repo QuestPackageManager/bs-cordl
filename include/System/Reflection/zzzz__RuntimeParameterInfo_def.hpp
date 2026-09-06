@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\RuntimeParameterInfo.hpp"
+// IWYU pragma private; include "System/Reflection/RuntimeParameterInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,9 @@ class RuntimeParameterInfo;
 // Write type traits
 MARK_REF_T(::System::Reflection::RuntimeParameterInfo*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::RuntimeParameterInfo*, "System.Reflection", "RuntimeParameterInfo");
+// [ClassInterface((System.Runtime.InteropServices.ClassInterfaceType)0)]
+// [ComDefaultInterface(typeof(System.Runtime.InteropServices._ParameterInfo))]
+// [ComVisible(true)]
 // Dependencies System.Reflection.ParameterInfo
 namespace System::Reflection {
 // Is value type: false
@@ -111,13 +114,13 @@ protected:
   constexpr RuntimeParameterInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeParameterInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeParameterInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeParameterInfo(RuntimeParameterInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeParameterInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeParameterInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeParameterInfo(RuntimeParameterInfo const&) = delete;
+  RuntimeParameterInfo(RuntimeParameterInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3553 };

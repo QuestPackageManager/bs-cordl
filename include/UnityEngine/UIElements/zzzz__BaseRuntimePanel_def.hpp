@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseRuntimePanel.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseRuntimePanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ MARK_REF_T(::UnityEngine::UIElements::BaseRuntimePanel*);
 MARK_REF_T(::UnityEngine::UIElements::BaseRuntimePanel___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseRuntimePanel*, "UnityEngine.UIElements", "BaseRuntimePanel");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseRuntimePanel___c*, "UnityEngine.UIElements", "BaseRuntimePanel/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -72,13 +73,13 @@ protected:
   constexpr BaseRuntimePanel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseRuntimePanel___c(BaseRuntimePanel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseRuntimePanel___c(BaseRuntimePanel___c const&) = delete;
+  BaseRuntimePanel___c(BaseRuntimePanel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4649 };
@@ -263,9 +264,11 @@ public:
   /// @brief Method .ctor, addr 0x6dadf98, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
 
+  /// [CompilerGenerated]
   /// @brief Method add_destroyed, addr 0x6dbab9c, size 0xac, virtual false, abstract: false, final false
   inline void add_destroyed(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_drawsInCamerasChanged, addr 0x6dbad40, size 0xac, virtual false, abstract: false, final false
   inline void add_drawsInCamerasChanged(::System::Action* value);
 
@@ -300,12 +303,15 @@ public:
   /// @brief Method get_sortingPriority, addr 0x6dbab94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sortingPriority();
 
+  /// [CompilerGenerated]
   /// @brief Method get_targetDisplay, addr 0x6dbaeb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_targetDisplay();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_destroyed, addr 0x6dbac48, size 0xac, virtual false, abstract: false, final false
   inline void remove_destroyed(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_drawsInCamerasChanged, addr 0x6dbadec, size 0xac, virtual false, abstract: false, final false
   inline void remove_drawsInCamerasChanged(::System::Action* value);
 
@@ -328,6 +334,7 @@ public:
   /// @brief Method set_sortingPriority, addr 0x6dad9a4, size 0x104, virtual false, abstract: false, final false
   inline void set_sortingPriority(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_targetDisplay, addr 0x6dbaebc, size 0x8, virtual false, abstract: false, final false
   inline void set_targetDisplay(int32_t value);
 
@@ -337,13 +344,13 @@ protected:
   constexpr BaseRuntimePanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseRuntimePanel(BaseRuntimePanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseRuntimePanel(BaseRuntimePanel const&) = delete;
+  BaseRuntimePanel(BaseRuntimePanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4650 };
@@ -360,9 +367,13 @@ public:
   /// @brief Field resolvedSortingIndex, offset: 0x1c8, size: 0x4, def value: None
   int32_t ___resolvedSortingIndex;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field destroyed, offset: 0x1d0, size: 0x8, def value: None
   ::System::Action* ___destroyed;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field drawsInCamerasChanged, offset: 0x1d8, size: 0x8, def value: None
   ::System::Action* ___drawsInCamerasChanged;
 
@@ -378,6 +389,8 @@ public:
   /// @brief Field worldSpaceLayer, offset: 0x1f0, size: 0x4, def value: None
   int32_t ___worldSpaceLayer;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <targetDisplay>k__BackingField, offset: 0x1f4, size: 0x4, def value: None
   int32_t ____targetDisplay_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InterpretedFrameInfo.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InterpretedFrameInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct InterpretedFrameInfo;
 // Write type traits
 MARK_VAL_T(::System::Linq::Expressions::Interpreter::InterpretedFrameInfo);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::Interpreter::InterpretedFrameInfo, "System.Linq.Expressions.Interpreter", "InterpretedFrameInfo");
+// [IsReadOnly]
 // Dependencies
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: true
@@ -33,8 +34,8 @@ public:
   // @brief default ctor
   constexpr InterpretedFrameInfo();
 
-  // Ctor Parameters [CppParam { name: "_methodName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_debugInfo", ty: "::System::Linq::Expressions::Interpreter::DebugInfo*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_methodName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_debugInfo", ty:
+  // "::System::Linq::Expressions::Interpreter::DebugInfo*", modifiers: "", def_value: None, comment: None }]
   constexpr InterpretedFrameInfo(::StringW _methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* _debugInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

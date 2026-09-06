@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpriteLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpriteLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SpriteLightWithId_MultiplyColorByAlphaType::SpriteLightWithId_MultiplyColorByAlphaType(int32_t value__) noexcept {
   this->value__ = value__;
 }

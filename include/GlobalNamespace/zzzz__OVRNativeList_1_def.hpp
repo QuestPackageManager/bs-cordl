@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRNativeList_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRNativeList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
@@ -42,25 +44,33 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T> struct OVRNativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct OVRNativeList_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::GlobalNamespace::OVRNativeList_1);
 DEFINE_IL2CPP_GEN_CLASS(::GlobalNamespace::OVRNativeList_1, "", "OVRNativeList`1");
+// [DefaultMember("Item")]
 // Dependencies Unity.Collections.Allocator, Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: OVRNativeList`1<T>
 struct CORDL_TYPE OVRNativeList_1 {
@@ -139,6 +149,8 @@ public:
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
@@ -175,6 +187,7 @@ public:
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Span_1<T> op_Implicit___System__Span_1_T_(::GlobalNamespace::OVRNativeList_1<T> list);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
@@ -185,8 +198,8 @@ public:
   // @brief default ctor
   constexpr OVRNativeList_1();
 
-  // Ctor Parameters [CppParam { name: "_array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }, CppParam { name: "_allocator", ty: "::Unity::Collections::Allocator",
-  // modifiers: "", def_value: None }, CppParam { name: "_Count_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_allocator", ty:
+  // "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Count_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRNativeList_1(::Unity::Collections::NativeArray_1<T> _array, ::Unity::Collections::Allocator _allocator, int32_t _Count_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -201,6 +214,7 @@ public:
   /// @brief Field _allocator, offset: 0x10, size: 0x4, def value: None
   ::Unity::Collections::Allocator _allocator;
 
+  /// [CompilerGenerated]
   /// @brief Field <Count>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t _Count_k__BackingField;
 

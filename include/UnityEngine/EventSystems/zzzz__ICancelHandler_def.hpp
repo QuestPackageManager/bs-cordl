@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\ICancelHandler.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/ICancelHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnCancel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnCancel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICancelHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICancelHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICancelHandler(ICancelHandler const&) = delete;
+  ICancelHandler(ICancelHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17557 };

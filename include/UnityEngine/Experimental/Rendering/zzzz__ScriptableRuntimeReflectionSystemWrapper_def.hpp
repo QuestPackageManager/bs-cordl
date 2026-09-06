@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\ScriptableRuntimeReflectionSystemWrapper.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/ScriptableRuntimeReflectionSystemWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class ScriptableRuntimeReflectionSystemWrapper;
 // Write type traits
 MARK_REF_T(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemWrapper");
+// [RequiredByNativeCode]
 // Dependencies System.Object
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
@@ -28,6 +29,7 @@ public:
 
   __declspec(property(get = get_implementation, put = set_implementation)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
 
+  /// [RequiredByNativeCode]
   /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x6b30d3c, size 0xcc, virtual false, abstract: false, final false
   inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(::by_ref<bool> result);
 
@@ -42,9 +44,11 @@ public:
   /// @brief Method .ctor, addr 0x6b30d28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_implementation, addr 0x6b30d2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
 
+  /// [CompilerGenerated]
   /// @brief Method set_implementation, addr 0x6b30d34, size 0x8, virtual false, abstract: false, final false
   inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
@@ -54,17 +58,19 @@ protected:
   constexpr ScriptableRuntimeReflectionSystemWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRuntimeReflectionSystemWrapper(ScriptableRuntimeReflectionSystemWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRuntimeReflectionSystemWrapper(ScriptableRuntimeReflectionSystemWrapper const&) = delete;
+  ScriptableRuntimeReflectionSystemWrapper(ScriptableRuntimeReflectionSystemWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10921 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <implementation>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* ____implementation_k__BackingField;
 

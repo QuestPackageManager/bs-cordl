@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Users\InputUser.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Users/InputUser.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
@@ -51,13 +51,13 @@ inline ::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax Un
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax>(), { "AndPairRemainingDevices", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_UserIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_UserIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax::InputUser_ControlSchemeChangeSyntax(int32_t m_UserIndex) noexcept {
   this->m_UserIndex = m_UserIndex;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax::InputUser_ControlSchemeChangeSyntax() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Users::InputUser_UserFlags::InputUser_UserFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -65,14 +65,14 @@ constexpr ::UnityEngine::InputSystem::Users::InputUser_UserFlags::InputUser_User
 constexpr ::UnityEngine::InputSystem::Users::InputUser_UserFlags::InputUser_UserFlags() {}
 constexpr ::UnityEngine::InputSystem::Users::InputUser_UserFlags UnityEngine::InputSystem::Users::InputUser_UserFlags::BindToAllDevices{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::Users::InputUser_UserFlags UnityEngine::InputSystem::Users::InputUser_UserFlags::UserAccountSelectionInProgress{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "platformUserAccountHandle", ty: "::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "platformUserAccountName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "platformUserAccountId", ty: "::StringW", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "deviceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "deviceStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "actions", ty: "::UnityEngine::InputSystem::IInputActionCollection*", modifiers: "", def_value: Some("{}") }, CppParam { name: "controlScheme", ty:
-// "::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme>", modifiers: "", def_value: Some("{}") }, CppParam { name: "controlSchemeMatch", ty:
-// "::UnityEngine::InputSystem::InputControlScheme_MatchResult", modifiers: "", def_value: Some("{}") }, CppParam { name: "lostDeviceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "lostDeviceStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty: "::UnityEngine::InputSystem::Users::InputUser_UserFlags", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "platformUserAccountHandle", ty: "::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "platformUserAccountName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "platformUserAccountId", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "deviceCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "deviceStartIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "actions", ty: "::UnityEngine::InputSystem::IInputActionCollection*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "controlScheme", ty: "::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "controlSchemeMatch", ty: "::UnityEngine::InputSystem::InputControlScheme_MatchResult", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lostDeviceCount", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lostDeviceStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flags", ty:
+// "::UnityEngine::InputSystem::Users::InputUser_UserFlags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Users::InputUser_UserData::InputUser_UserData(::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> platformUserAccountHandle,
                                                                                     ::StringW platformUserAccountName, ::StringW platformUserAccountId, int32_t deviceCount, int32_t deviceStartIndex,
                                                                                     ::UnityEngine::InputSystem::IInputActionCollection* actions,
@@ -143,15 +143,15 @@ constexpr ::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem
 UnityEngine::InputSystem::Users::InputUser_CompareDevicesByUserAccount::i___System__Collections__Generic__IComparer_1___UnityEngine__InputSystem__InputDevice__() {
   return static_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "platformUserAccountHandle", ty: "::UnityEngine::InputSystem::Users::InputUserAccountHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "platformUserAccountHandle", ty: "::UnityEngine::InputSystem::Users::InputUserAccountHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Users::InputUser_CompareDevicesByUserAccount::InputUser_CompareDevicesByUserAccount(
     ::UnityEngine::InputSystem::Users::InputUserAccountHandle platformUserAccountHandle) noexcept {
   this->platformUserAccountHandle = platformUserAccountHandle;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Users::InputUser_CompareDevicesByUserAccount::InputUser_CompareDevicesByUserAccount() {}
-// Ctor Parameters [CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}") }, CppParam { name: "userId", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "userId", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Users::InputUser_OngoingAccountSelection::InputUser_OngoingAccountSelection(::UnityEngine::InputSystem::InputDevice* device, uint32_t userId) noexcept {
   this->device = device;
   this->userId = userId;
@@ -1559,30 +1559,33 @@ constexpr UnityEngine::InputSystem::Users::InputUser::operator ::System::IEquata
 constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>* UnityEngine::InputSystem::Users::InputUser::i___System__IEquatable_1___UnityEngine__InputSystem__Users__InputUser_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Id", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Id", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Users::InputUser::InputUser(uint32_t m_Id) noexcept {
   this->m_Id = m_Id;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Users::InputUser::InputUser() {}
-// Ctor Parameters [CppParam { name: "pairingStateVersion", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastUserId", ty: "uint32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "allUserCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "allPairedDeviceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "allLostDeviceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "allUsers", ty: "::ArrayW<::UnityEngine::InputSystem::Users::InputUser>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "allUserData", ty: "::ArrayW<::UnityEngine::InputSystem::Users::InputUser_UserData>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "allPairedDevices", ty: "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "allLostDevices", ty:
-// "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "ongoingAccountSelections", ty:
-// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Users::InputUser_OngoingAccountSelection>", modifiers: "", def_value: Some("{}") }, CppParam { name: "onChange",
-// ty:
+// Ctor Parameters [CppParam { name: "pairingStateVersion", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastUserId", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "allUserCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "allPairedDeviceCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "allLostDeviceCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "allUsers", ty: "::ArrayW<::UnityEngine::InputSystem::Users::InputUser>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "allUserData", ty:
+// "::ArrayW<::UnityEngine::InputSystem::Users::InputUser_UserData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "allPairedDevices", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "allLostDevices", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputDevice*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ongoingAccountSelections", ty:
+// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Users::InputUser_OngoingAccountSelection>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "onChange", ty:
 // "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_3<::UnityEngine::InputSystem::Users::InputUser,::UnityEngine::InputSystem::Users::InputUserChange,::UnityEngine::InputSystem::InputDevice*>*>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "onUnpairedDeviceUsed", ty:
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "onUnpairedDeviceUsed", ty:
 // "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputControl*,::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "onPreFilterUnpairedDeviceUsed", ty:
+// def_value: Some("{}"), comment: None }, CppParam { name: "onPreFilterUnpairedDeviceUsed", ty:
 // "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_3<::UnityEngine::InputSystem::InputDevice*,::UnityEngine::InputSystem::LowLevel::InputEventPtr,bool>*>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "actionChangeDelegate", ty: "::System::Action_2<::System::Object*,::UnityEngine::InputSystem::InputActionChange>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "onDeviceChangeDelegate", ty: "::System::Action_2<::UnityEngine::InputSystem::InputDevice*,::UnityEngine::InputSystem::InputDeviceChange>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "onEventDelegate", ty: "::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr,::UnityEngine::InputSystem::InputDevice*>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "onActionChangeHooked", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "onDeviceChangeHooked", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "onEventHooked", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "listenForUnpairedDeviceActivity", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// def_value: Some("{}"), comment: None }, CppParam { name: "actionChangeDelegate", ty: "::System::Action_2<::System::Object*,::UnityEngine::InputSystem::InputActionChange>*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "onDeviceChangeDelegate", ty: "::System::Action_2<::UnityEngine::InputSystem::InputDevice*,::UnityEngine::InputSystem::InputDeviceChange>*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "onEventDelegate", ty:
+// "::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr,::UnityEngine::InputSystem::InputDevice*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "onActionChangeHooked", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "onDeviceChangeHooked", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "onEventHooked", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "listenForUnpairedDeviceActivity", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Users::InputUser_GlobalState::InputUser_GlobalState(
     int32_t pairingStateVersion, uint32_t lastUserId, int32_t allUserCount, int32_t allPairedDeviceCount, int32_t allLostDeviceCount, ::ArrayW<::UnityEngine::InputSystem::Users::InputUser> allUsers,
     ::ArrayW<::UnityEngine::InputSystem::Users::InputUser_UserData> allUserData, ::ArrayW<::UnityEngine::InputSystem::InputDevice*> allPairedDevices,

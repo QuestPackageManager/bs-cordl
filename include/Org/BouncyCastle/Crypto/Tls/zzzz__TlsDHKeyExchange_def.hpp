@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsDHKeyExchange.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsDHKeyExchange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,6 +97,7 @@ public:
   /// @brief Method Init, addr 0x347d65c, size 0xd0, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
+  /// @brief [Obsolete("Use constructor that takes a TlsDHVerifier")]
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                              ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
@@ -167,6 +168,7 @@ public:
 
   constexpr void __cordl_internal_set_mTlsSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
 
+  /// [Obsolete("Use constructor that takes a TlsDHVerifier")]
   /// @brief Method .ctor, addr 0x347d4b0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
@@ -183,13 +185,13 @@ protected:
   constexpr TlsDHKeyExchange();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDHKeyExchange", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsDHKeyExchange", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsDHKeyExchange(TlsDHKeyExchange&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDHKeyExchange", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsDHKeyExchange", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsDHKeyExchange(TlsDHKeyExchange const&) = delete;
+  TlsDHKeyExchange(TlsDHKeyExchangeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1298 };

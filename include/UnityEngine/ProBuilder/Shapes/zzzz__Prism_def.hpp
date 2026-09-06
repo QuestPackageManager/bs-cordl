@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Prism.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Prism.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class Prism;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Shapes::Prism*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Shapes::Prism*, "UnityEngine.ProBuilder.Shapes", "Prism");
+// [Shape("Prism")]
 // Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
@@ -51,13 +52,13 @@ protected:
   constexpr Prism();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Prism", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Prism", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Prism(Prism&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Prism", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Prism", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Prism(Prism const&) = delete;
+  Prism(Prismconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16842 };

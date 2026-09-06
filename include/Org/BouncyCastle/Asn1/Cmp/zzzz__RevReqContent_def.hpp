@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\RevReqContent.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/RevReqContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Method GetInstance, addr 0x334c280, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* GetInstance(::System::Object* obj);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*> revDetails);
+  static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*> revDetails);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevReqContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -55,7 +55,7 @@ public:
   constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method .ctor, addr 0x3351e0c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*> revDetails);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::RevDetails*> revDetails);
 
   /// @brief Method .ctor, addr 0x3351e04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -66,13 +66,13 @@ protected:
   constexpr RevReqContent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RevReqContent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RevReqContent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RevReqContent(RevReqContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RevReqContent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RevReqContent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RevReqContent(RevReqContent const&) = delete;
+  RevReqContent(RevReqContentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 53 };

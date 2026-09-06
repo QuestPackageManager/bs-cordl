@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Component.hpp"
+// IWYU pragma private; include "UnityEngine/Component.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -370,7 +370,7 @@ inline ::UnityW<::UnityEngine::Component> UnityEngine::Component::GetComponentIn
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Component*>(), { "GetComponentInChildren", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Component>>(this, ___internal_method, t, includeInactive);
 }
-template <typename T> inline T UnityEngine::Component::GetComponentInChildren(bool includeInactive) {
+template <typename T> inline T UnityEngine::Component::GetComponentInChildren(/* [DefaultValue("false")] */ bool includeInactive) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Component*>(), { "GetComponentInChildren", { ::i2c::class_of<T>() }, { ::i2c::type_of<bool>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -423,7 +423,7 @@ template <typename T> inline T UnityEngine::Component::GetComponentInParent() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Component>> UnityEngine::Component::GetComponentsInParent(::System::Type* t, bool includeInactive) {
+inline ::ArrayW<::UnityW<::UnityEngine::Component>> UnityEngine::Component::GetComponentsInParent(::System::Type* t, /* [DefaultValue("false")] */ bool includeInactive) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Component*>(), { "GetComponentsInParent", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Component>>>(this, ___internal_method, t, includeInactive);
@@ -491,7 +491,8 @@ inline void UnityEngine::Component::SendMessage(::StringW methodName, ::System::
                                               { "SendMessage", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::SendMessageOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodName, value, options);
 }
-inline void UnityEngine::Component::BroadcastMessage(::StringW methodName, ::System::Object* parameter, ::UnityEngine::SendMessageOptions options) {
+inline void UnityEngine::Component::BroadcastMessage(::StringW methodName, /* [DefaultValue("null")] */ ::System::Object* parameter,
+                                                     /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Component*>(),
                                               { "BroadcastMessage", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::SendMessageOptions>() } })));
@@ -534,8 +535,9 @@ inline void UnityEngine::Component::SendMessage_Injected(::System::IntPtr _unity
                                                                                          ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::UnityEngine::SendMessageOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, methodName, value, options);
 }
-inline void UnityEngine::Component::BroadcastMessage_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName, ::System::Object* parameter,
-                                                              ::UnityEngine::SendMessageOptions options) {
+inline void UnityEngine::Component::BroadcastMessage_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName,
+                                                              /* [DefaultValue("null")] */ ::System::Object* parameter,
+                                                              /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Component*>(), { "BroadcastMessage_Injected",

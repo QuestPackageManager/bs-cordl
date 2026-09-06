@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeStack.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeStack_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -170,7 +171,9 @@ inline void UnityEngine::Rendering::VolumeStack::Reload(::ArrayW<::System::Type*
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeStack*>(), { "Reload", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, componentTypes);
 }
-template <typename T> inline T UnityEngine::Rendering::VolumeStack::GetComponent() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+inline T UnityEngine::Rendering::VolumeStack::GetComponent() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeStack*>(), { "GetComponent", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

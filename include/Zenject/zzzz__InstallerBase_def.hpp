@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InstallerBase.hpp"
+// IWYU pragma private; include "Zenject/InstallerBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
 
-  /// @brief Method InstallBindings, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InstallBindings();
 
   static inline ::Zenject::InstallerBase* New_ctor();
@@ -52,6 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e75c00, size 0x278, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -76,17 +77,18 @@ protected:
   constexpr InstallerBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstallerBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstallerBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstallerBase(InstallerBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstallerBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstallerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstallerBase(InstallerBase const&) = delete;
+  InstallerBase(InstallerBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14491 };
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

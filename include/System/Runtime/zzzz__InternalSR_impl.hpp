@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InternalSR.hpp"
+// IWYU pragma private; include "System/Runtime/InternalSR.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__InternalSR_def.hpp"
 #include "System/zzzz__Object_def.hpp"

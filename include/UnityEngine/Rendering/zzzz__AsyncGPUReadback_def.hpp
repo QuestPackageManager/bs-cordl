@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AsyncGPUReadback.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AsyncGPUReadback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class AsyncGPUReadback;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::AsyncGPUReadback*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::AsyncGPUReadback*, "UnityEngine.Rendering", "AsyncGPUReadback");
+// [StaticAccessor("AsyncGPUReadbackManager::GetInstance()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -42,15 +43,18 @@ public:
   static inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request(::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset,
                                                                           ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
+  /// [NativeMethod("Request")]
   /// @brief Method Request_Internal_GraphicsBuffer_1, addr 0x6b08bdc, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request_Internal_GraphicsBuffer_1(::UnityEngine::GraphicsBuffer* buffer, ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data);
+  static inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request_Internal_GraphicsBuffer_1(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* buffer,
+                                                                                                    ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data);
 
   /// @brief Method Request_Internal_GraphicsBuffer_1_Injected, addr 0x6b08d98, size 0x54, virtual false, abstract: false, final false
   static inline void Request_Internal_GraphicsBuffer_1_Injected(::System::IntPtr buffer, ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data,
                                                                 ::by_ref<::UnityEngine::Rendering::AsyncGPUReadbackRequest> ret);
 
+  /// [NativeMethod("Request")]
   /// @brief Method Request_Internal_GraphicsBuffer_2, addr 0x6b08cdc, size 0xbc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request_Internal_GraphicsBuffer_2(::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset,
+  static inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request_Internal_GraphicsBuffer_2(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset,
                                                                                                     ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data);
 
   /// @brief Method Request_Internal_GraphicsBuffer_2_Injected, addr 0x6b08dec, size 0x6c, virtual false, abstract: false, final false
@@ -63,13 +67,13 @@ protected:
   constexpr AsyncGPUReadback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncGPUReadback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncGPUReadback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncGPUReadback(AsyncGPUReadback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncGPUReadback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncGPUReadback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncGPUReadback(AsyncGPUReadback const&) = delete;
+  AsyncGPUReadback(AsyncGPUReadbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10701 };

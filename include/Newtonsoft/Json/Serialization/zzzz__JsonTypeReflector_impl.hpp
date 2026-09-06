@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonTypeReflector.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonTypeReflector.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonTypeReflector_def.hpp"
@@ -130,7 +131,7 @@ inline void Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0::_GetCreator_b__0(::ArrayW<::System::Object*> parameters) {
+inline ::System::Object* Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0::_GetCreator_b__0(/* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> parameters) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector___c__DisplayClass22_0*>(),
                                                                                          { "<GetCreator>b__0", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, parameters);
@@ -398,7 +399,9 @@ inline void Newtonsoft::Json::Serialization::JsonTypeReflector::setStaticF__meta
 inline ::Newtonsoft::Json::Utilities::ReflectionObject* Newtonsoft::Json::Serialization::JsonTypeReflector::getStaticF__metadataTypeAttributeReflectionObject() {
   return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::ReflectionObject*, "_metadataTypeAttributeReflectionObject", ::Newtonsoft::Json::Serialization::JsonTypeReflector*>();
 }
-template <typename T> inline T Newtonsoft::Json::Serialization::JsonTypeReflector::GetCachedAttribute(::System::Object* attributeProvider) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T Newtonsoft::Json::Serialization::JsonTypeReflector::GetCachedAttribute(::System::Object* attributeProvider) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector*>(),
                                                                                               { "GetCachedAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -430,14 +433,15 @@ inline ::Newtonsoft::Json::JsonConverter* Newtonsoft::Json::Serialization::JsonT
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector*>(), { "GetJsonConverter", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonConverter*>(nullptr, ___internal_method, attributeProvider);
 }
-inline ::Newtonsoft::Json::JsonConverter* Newtonsoft::Json::Serialization::JsonTypeReflector::CreateJsonConverterInstance(::System::Type* converterType, ::ArrayW<::System::Object*> args) {
+inline ::Newtonsoft::Json::JsonConverter* Newtonsoft::Json::Serialization::JsonTypeReflector::CreateJsonConverterInstance(::System::Type* converterType,
+                                                                                                                          /* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector*>(),
                                                            { "CreateJsonConverterInstance", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonConverter*>(nullptr, ___internal_method, converterType, args);
 }
-inline ::Newtonsoft::Json::Serialization::NamingStrategy* Newtonsoft::Json::Serialization::JsonTypeReflector::CreateNamingStrategyInstance(::System::Type* namingStrategyType,
-                                                                                                                                           ::ArrayW<::System::Object*> args) {
+inline ::Newtonsoft::Json::Serialization::NamingStrategy*
+Newtonsoft::Json::Serialization::JsonTypeReflector::CreateNamingStrategyInstance(::System::Type* namingStrategyType, /* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector*>(),
                                                            { "CreateNamingStrategyInstance", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -464,14 +468,18 @@ inline ::System::Type* Newtonsoft::Json::Serialization::JsonTypeReflector::GetAs
                                                                                          { "GetAssociateMetadataTypeFromAttribute", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, type);
 }
-template <typename T> inline T Newtonsoft::Json::Serialization::JsonTypeReflector::GetAttribute(::System::Type* type) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T Newtonsoft::Json::Serialization::JsonTypeReflector::GetAttribute(::System::Type* type) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector*>(), { "GetAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Type*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, type);
 }
-template <typename T> inline T Newtonsoft::Json::Serialization::JsonTypeReflector::GetAttribute(::System::Reflection::MemberInfo* memberInfo) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T Newtonsoft::Json::Serialization::JsonTypeReflector::GetAttribute(::System::Reflection::MemberInfo* memberInfo) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector*>(),
                                                                                               { "GetAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -487,7 +495,9 @@ inline bool Newtonsoft::Json::Serialization::JsonTypeReflector::IsSerializable(:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector*>(), { "IsSerializable", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, provider);
 }
-template <typename T> inline T Newtonsoft::Json::Serialization::JsonTypeReflector::GetAttribute(::System::Object* provider) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T Newtonsoft::Json::Serialization::JsonTypeReflector::GetAttribute(::System::Object* provider) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonTypeReflector*>(),
                                                                                               { "GetAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

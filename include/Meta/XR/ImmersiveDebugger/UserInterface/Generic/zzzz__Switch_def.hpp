@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Switch.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Switch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,18 +90,22 @@ public:
   /// @brief Method get_State, addr 0x5a5e0a4, size 0xac, virtual false, abstract: false, final false
   inline bool get_State();
 
+  /// [CompilerGenerated]
   /// @brief Method get_StateChanged, addr 0x5a5e1e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<bool>* get_StateChanged();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Tweak, addr 0x5a5e094, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* get_Tweak();
 
   /// @brief Method set_State, addr 0x5a5e150, size 0x3c, virtual false, abstract: false, final false
   inline void set_State(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_StateChanged, addr 0x5a5e1f0, size 0x8, virtual false, abstract: false, final false
   inline void set_StateChanged(::System::Action_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Tweak, addr 0x5a5e09c, size 0x8, virtual false, abstract: false, final false
   inline void set_Tweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak* value);
 
@@ -111,13 +115,13 @@ protected:
   constexpr Switch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Switch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Switch", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Switch(Switch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Switch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Switch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Switch(Switch const&) = delete;
+  Switch(Switchconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18407 };
@@ -128,9 +132,11 @@ public:
   /// @brief Field _toggleIconOff, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____toggleIconOff;
 
+  /// [CompilerGenerated]
   /// @brief Field <Tweak>k__BackingField, offset: 0xb8, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::Tweak* ____Tweak_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <StateChanged>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::System::Action_1<bool>* ____StateChanged_k__BackingField;
 

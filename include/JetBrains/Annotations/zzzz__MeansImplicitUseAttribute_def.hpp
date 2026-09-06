@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\MeansImplicitUseAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/MeansImplicitUseAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class MeansImplicitUseAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::MeansImplicitUseAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::MeansImplicitUseAttribute*, "JetBrains.Annotations", "MeansImplicitUseAttribute");
+// [AttributeUsage((System.AttributeTargets)16388)]
 // Dependencies JetBrains.Annotations.ImplicitUseKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags, System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -27,8 +28,10 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE MeansImplicitUseAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [UsedImplicitly]
   __declspec(property(get = get_TargetFlags, put = set_TargetFlags)) ::JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
 
+  /// @brief [UsedImplicitly]
   __declspec(property(get = get_UseKindFlags, put = set_UseKindFlags)) ::JetBrains::Annotations::ImplicitUseKindFlags UseKindFlags;
 
   /// @brief Field <TargetFlags>k__BackingField, offset 0x14, size 0x4
@@ -72,15 +75,19 @@ public:
   /// @brief Method .ctor, addr 0x6e3df90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
+  /// [CompilerGenerated]
   /// @brief Method get_TargetFlags, addr 0x6e3dfc0, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UseKindFlags, addr 0x6e3dfb0, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
 
+  /// [CompilerGenerated]
   /// @brief Method set_TargetFlags, addr 0x6e3dfc8, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_UseKindFlags, addr 0x6e3dfb8, size 0x8, virtual false, abstract: false, final false
   inline void set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
@@ -90,20 +97,22 @@ protected:
   constexpr MeansImplicitUseAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeansImplicitUseAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeansImplicitUseAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeansImplicitUseAttribute(MeansImplicitUseAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeansImplicitUseAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeansImplicitUseAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeansImplicitUseAttribute(MeansImplicitUseAttribute const&) = delete;
+  MeansImplicitUseAttribute(MeansImplicitUseAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22550 };
 
+  /// [CompilerGenerated]
   /// @brief Field <UseKindFlags>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::ImplicitUseKindFlags ____UseKindFlags_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TargetFlags>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::JetBrains::Annotations::ImplicitUseTargetFlags ____TargetFlags_k__BackingField;
 

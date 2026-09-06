@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlBooleanConverter.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlBooleanConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr XmlBooleanConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlBooleanConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlBooleanConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlBooleanConverter(XmlBooleanConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlBooleanConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlBooleanConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlBooleanConverter(XmlBooleanConverter const&) = delete;
+  XmlBooleanConverter(XmlBooleanConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9837 };

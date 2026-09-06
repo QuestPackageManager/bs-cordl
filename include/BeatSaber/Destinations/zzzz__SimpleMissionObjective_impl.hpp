@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\SimpleMissionObjective.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/SimpleMissionObjective.hpp"
 #include "BeatSaber/Destinations/zzzz__MissionObjectiveType_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

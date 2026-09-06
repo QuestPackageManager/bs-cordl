@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObjectiveListItem.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObjectiveListItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,20 +67,22 @@ protected:
   constexpr ObjectiveListItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectiveListItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectiveListItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectiveListItem(ObjectiveListItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectiveListItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectiveListItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectiveListItem(ObjectiveListItem const&) = delete;
+  ObjectiveListItem(ObjectiveListItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7013 };
 
+  /// [SerializeField]
   /// @brief Field _titleText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
+  /// [SerializeField]
   /// @brief Field _conditionText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____conditionText;
 

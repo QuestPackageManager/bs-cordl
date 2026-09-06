@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\OperatorInfo.hpp"
+// IWYU pragma private; include "System/Data/OperatorInfo.hpp"
 #include "System/Data/zzzz__Nodes_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__OperatorInfo_def.hpp"

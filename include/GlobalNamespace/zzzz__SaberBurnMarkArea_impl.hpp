@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberBurnMarkArea.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberBurnMarkArea.hpp"
 #include "GlobalNamespace/zzzz__Saber_impl.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -346,8 +346,9 @@ inline ::UnityEngine::Vector2 GlobalNamespace::SaberBurnMarkArea::WorldToNormali
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "WorldToNormalized", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, worldPos);
 }
-inline bool GlobalNamespace::SaberBurnMarkArea::GetBurnMarkPos(::UnityEngine::Transform* transform, ::by_ref<::UnityEngine::Bounds> bounds, ::by_ref<::UnityEngine::Plane> plane,
-                                                               ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos) {
+inline bool GlobalNamespace::SaberBurnMarkArea::GetBurnMarkPos(::UnityEngine::Transform* transform, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds,
+                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane> plane, ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos,
+                                                               ::by_ref<::UnityEngine::Vector3> burnMarkPos) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(),
                                               { "GetBurnMarkPos",

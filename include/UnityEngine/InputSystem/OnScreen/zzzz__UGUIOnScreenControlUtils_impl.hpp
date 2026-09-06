@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\OnScreen\UGUIOnScreenControlUtils.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/OnScreen/UGUIOnScreenControlUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__UGUIOnScreenControlUtils_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"

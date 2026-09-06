@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\AccessControlType.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/AccessControlType.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Security::AccessControl::AccessControlType::AccessControlType(int32_t value__) noexcept {
   this->value__ = value__;
 }

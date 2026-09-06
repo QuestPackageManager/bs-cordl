@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ScreenCapture.hpp"
+// IWYU pragma private; include "UnityEngine/ScreenCapture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   // @brief default ctor
   constexpr ScreenCapture_StereoScreenCaptureMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenCapture_StereoScreenCaptureMode(int32_t value__) noexcept;
 
   /// @brief Field BothEyes value: I32(3)
@@ -89,6 +89,7 @@ static_assert(offsetof(::UnityEngine::ScreenCapture_StereoScreenCaptureMode, val
 static_assert(sizeof(::UnityEngine::ScreenCapture_StereoScreenCaptureMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/ScreenCapture/Public/CaptureScreenshot.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -102,10 +103,11 @@ public:
   static inline void CaptureScreenshot(::StringW filename);
 
   /// @brief Method CaptureScreenshot, addr 0x6bb5cbc, size 0x13c, virtual false, abstract: false, final false
-  static inline void CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
+  static inline void CaptureScreenshot(::StringW filename, /* [DefaultValue("1")] */ int32_t superSize, /* [DefaultValue("1")] */ ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
 
   /// @brief Method CaptureScreenshot_Injected, addr 0x6bb5df8, size 0x54, virtual false, abstract: false, final false
-  static inline void CaptureScreenshot_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> filename, int32_t superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
+  static inline void CaptureScreenshot_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> filename, /* [DefaultValue("1")] */ int32_t superSize,
+                                                /* [DefaultValue("1")] */ ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
 
 protected:
   // Ctor Parameters []
@@ -113,13 +115,13 @@ protected:
   constexpr ScreenCapture();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenCapture(ScreenCapture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenCapture(ScreenCapture const&) = delete;
+  ScreenCapture(ScreenCaptureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23415 };

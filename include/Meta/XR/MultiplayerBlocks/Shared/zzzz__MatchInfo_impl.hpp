@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\MatchInfo.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/MatchInfo.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__MatchInfo_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::MatchInfo._ctor
 template <>
@@ -21,8 +21,8 @@ inline void Meta::XR::MultiplayerBlocks::Shared::MatchInfo::_ctor(::StringW room
                                                                                          { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, roomId, roomPassword, extra);
 }
-// Ctor Parameters [CppParam { name: "RoomId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "RoomPassword", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Extra", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "RoomId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "RoomPassword", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Extra", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::MultiplayerBlocks::Shared::MatchInfo::MatchInfo(::StringW RoomId, ::StringW RoomPassword, ::StringW Extra) noexcept {
   this->RoomId = RoomId;
   this->RoomPassword = RoomPassword;

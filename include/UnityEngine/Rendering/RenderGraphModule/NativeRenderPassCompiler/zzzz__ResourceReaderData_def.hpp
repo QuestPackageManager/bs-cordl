@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\ResourceReaderData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourceReaderData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,8 @@ public:
   // @brief default ctor
   constexpr ResourceReaderData();
 
-  // Ctor Parameters [CppParam { name: "passId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "inputSlot", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "passId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputSlot", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ResourceReaderData(int32_t passId, int32_t inputSlot) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

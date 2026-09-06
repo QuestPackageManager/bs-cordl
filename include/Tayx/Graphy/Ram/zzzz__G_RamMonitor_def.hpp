@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Ram\G_RamMonitor.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Ram/G_RamMonitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,21 +64,27 @@ public:
   /// @brief Method .ctor, addr 0x643fa20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AllocatedRam, addr 0x643f95c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_AllocatedRam();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MonoRam, addr 0x643f97c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MonoRam();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReservedRam, addr 0x643f96c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ReservedRam();
 
+  /// [CompilerGenerated]
   /// @brief Method set_AllocatedRam, addr 0x643f964, size 0x8, virtual false, abstract: false, final false
   inline void set_AllocatedRam(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MonoRam, addr 0x643f984, size 0x8, virtual false, abstract: false, final false
   inline void set_MonoRam(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReservedRam, addr 0x643f974, size 0x8, virtual false, abstract: false, final false
   inline void set_ReservedRam(float_t value);
 
@@ -88,23 +94,26 @@ protected:
   constexpr G_RamMonitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_RamMonitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_RamMonitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_RamMonitor(G_RamMonitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_RamMonitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_RamMonitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_RamMonitor(G_RamMonitor const&) = delete;
+  G_RamMonitor(G_RamMonitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21495 };
 
+  /// [CompilerGenerated]
   /// @brief Field <AllocatedRam>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____AllocatedRam_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ReservedRam>k__BackingField, offset: 0x24, size: 0x4, def value: None
   float_t ____ReservedRam_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MonoRam>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____MonoRam_k__BackingField;
 

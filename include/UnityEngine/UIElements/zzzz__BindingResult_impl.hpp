@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BindingResult.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BindingResult.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingStatus_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingResult_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingStatus_def.hpp"
@@ -57,8 +57,8 @@ inline void UnityEngine::UIElements::BindingResult::_ctor(::UnityEngine::UIEleme
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingResult>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::BindingStatus>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, status, message);
 }
-// Ctor Parameters [CppParam { name: "_status_k__BackingField", ty: "::UnityEngine::UIElements::BindingStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "_message_k__BackingField", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_status_k__BackingField", ty: "::UnityEngine::UIElements::BindingStatus", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_message_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BindingResult::BindingResult(::UnityEngine::UIElements::BindingStatus _status_k__BackingField, ::StringW _message_k__BackingField) noexcept {
   this->_status_k__BackingField = _status_k__BackingField;
   this->_message_k__BackingField = _message_k__BackingField;

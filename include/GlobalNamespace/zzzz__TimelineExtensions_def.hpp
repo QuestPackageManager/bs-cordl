@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TimelineExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/TimelineExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ MARK_REF_T(::GlobalNamespace::TimelineExtensions*);
 MARK_REF_T(::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TimelineExtensions*, "", "TimelineExtensions");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0*, "", "TimelineExtensions/<>c__DisplayClass0_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -59,13 +60,13 @@ protected:
   constexpr TimelineExtensions___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineExtensions___c__DisplayClass0_0(TimelineExtensions___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineExtensions___c__DisplayClass0_0(TimelineExtensions___c__DisplayClass0_0 const&) = delete;
+  TimelineExtensions___c__DisplayClass0_0(TimelineExtensions___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6680 };
@@ -81,6 +82,7 @@ static_assert(offsetof(::GlobalNamespace::TimelineExtensions___c__DisplayClass0_
 static_assert(sizeof(::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -90,6 +92,7 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0;
 
+  /// [Extension]
   /// @brief Method JumpToTimelineMarker, addr 0x59069b0, size 0x1d4, virtual false, abstract: false, final false
   static inline void JumpToTimelineMarker(::UnityEngine::Playables::PlayableDirector* playableDirector, ::System::Type* markerType);
 
@@ -99,13 +102,13 @@ protected:
   constexpr TimelineExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineExtensions(TimelineExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimelineExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimelineExtensions(TimelineExtensions const&) = delete;
+  TimelineExtensions(TimelineExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6681 };

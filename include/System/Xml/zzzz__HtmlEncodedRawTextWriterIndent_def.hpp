@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\HtmlEncodedRawTextWriterIndent.hpp"
+// IWYU pragma private; include "System/Xml/HtmlEncodedRawTextWriterIndent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,13 +106,13 @@ protected:
   constexpr HtmlEncodedRawTextWriterIndent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HtmlEncodedRawTextWriterIndent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HtmlEncodedRawTextWriterIndent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HtmlEncodedRawTextWriterIndent(HtmlEncodedRawTextWriterIndent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HtmlEncodedRawTextWriterIndent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HtmlEncodedRawTextWriterIndent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HtmlEncodedRawTextWriterIndent(HtmlEncodedRawTextWriterIndent const&) = delete;
+  HtmlEncodedRawTextWriterIndent(HtmlEncodedRawTextWriterIndentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9269 };

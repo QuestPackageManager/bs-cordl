@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMicrogesturesSample.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMicrogesturesSample.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -204,6 +204,7 @@ inline ::System::Object* GlobalNamespace::OVRMicrogesturesSample__HighlightIconC
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22* GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22*>(__1__state));
 }
@@ -408,6 +409,7 @@ inline ::System::Object* GlobalNamespace::OVRMicrogesturesSample__ShowGestureLab
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26* GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26*>(__1__state));
 }

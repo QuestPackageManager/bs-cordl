@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidGyroscope.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidGyroscope.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AndroidGyroscope;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Android::AndroidGyroscope*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::AndroidGyroscope*, "UnityEngine.InputSystem.Android", "AndroidGyroscope");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.Android.LowLevel.AndroidSensorState), variants = "Gyroscope", hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.Gyroscope
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AndroidGyroscope();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGyroscope", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGyroscope", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidGyroscope(AndroidGyroscope&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGyroscope", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGyroscope", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidGyroscope(AndroidGyroscope const&) = delete;
+  AndroidGyroscope(AndroidGyroscopeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8927 };

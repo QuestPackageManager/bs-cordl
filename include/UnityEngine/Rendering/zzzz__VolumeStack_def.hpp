@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeStack.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeStack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__VolumeComponent_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(VolumeStack)
@@ -26,7 +27,7 @@ class VolumeStack;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::VolumeStack*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeStack*, "UnityEngine.Rendering", "VolumeStack");
-// Dependencies System.Object, UnityEngine.Rendering.VolumeParameter
+// Dependencies System.Object, UnityEngine.Rendering.VolumeComponent, UnityEngine.Rendering.VolumeParameter
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.VolumeStack
@@ -64,7 +65,9 @@ public:
   inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> GetComponent(::System::Type* type);
 
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetComponent();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
+  inline T GetComponent();
 
   static inline ::UnityEngine::Rendering::VolumeStack* New_ctor();
 
@@ -104,12 +107,14 @@ public:
   /// @brief Method .ctor, addr 0x67cf0b8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isValid, addr 0x67cf568, size 0x8, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_isValid, addr 0x67cf570, size 0x8, virtual false, abstract: false, final false
   inline void set_isValid(bool value);
 
@@ -119,13 +124,13 @@ protected:
   constexpr VolumeStack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeStack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeStack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VolumeStack(VolumeStack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VolumeStack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VolumeStack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VolumeStack(VolumeStack const&) = delete;
+  VolumeStack(VolumeStackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12377 };
@@ -142,6 +147,7 @@ public:
   /// @brief Field requiresResetForAllProperties, offset: 0x21, size: 0x1, def value: None
   bool ___requiresResetForAllProperties;
 
+  /// [CompilerGenerated]
   /// @brief Field <isValid>k__BackingField, offset: 0x22, size: 0x1, def value: None
   bool ____isValid_k__BackingField;
 

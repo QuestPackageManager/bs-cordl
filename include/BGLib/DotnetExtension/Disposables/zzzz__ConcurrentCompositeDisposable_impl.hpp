@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\Disposables\ConcurrentCompositeDisposable.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/Disposables/ConcurrentCompositeDisposable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/Disposables/zzzz__ConcurrentCompositeDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
@@ -254,7 +254,7 @@ inline void BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, capacity);
 }
-inline void BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable::_ctor(::ArrayW<::System::IDisposable*> checkers) {
+inline void BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable::_ctor(/* [ParamArray] */ ::ArrayW<::System::IDisposable*> checkers) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::IDisposable*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, checkers);
@@ -313,7 +313,8 @@ inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* BGL
 inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable::New_ctor(int32_t capacity) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*>(capacity));
 }
-inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable::New_ctor(::ArrayW<::System::IDisposable*> checkers) {
+inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*
+BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable::New_ctor(/* [ParamArray] */ ::ArrayW<::System::IDisposable*> checkers) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*>(checkers));
 }
 inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*

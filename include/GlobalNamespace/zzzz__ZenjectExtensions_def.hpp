@@ -1,12 +1,15 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ZenjectExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ZenjectExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 CORDL_MODULE_EXPORT(ZenjectExtensions)
 namespace GlobalNamespace {
-template <typename T> class ZenjectExtensions___c__DisplayClass0_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+class ZenjectExtensions___c__DisplayClass0_0_1;
 }
 namespace UnityEngine {
 class Object;
@@ -31,17 +34,21 @@ namespace GlobalNamespace {
 class ZenjectExtensions;
 }
 namespace GlobalNamespace {
-template <typename T> class ZenjectExtensions___c__DisplayClass0_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+class ZenjectExtensions___c__DisplayClass0_0_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ZenjectExtensions*);
 MARK_GEN_REF_T_PTR(::GlobalNamespace::ZenjectExtensions___c__DisplayClass0_0_1);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ZenjectExtensions*, "", "ZenjectExtensions");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::ZenjectExtensions___c__DisplayClass0_0_1, "", "ZenjectExtensions/<>c__DisplayClass0_0`1");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.Component
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
 // Is value type: false
 // CS Name: ZenjectExtensions/<>c__DisplayClass0_0`1<T>
 class CORDL_TYPE ZenjectExtensions___c__DisplayClass0_0_1 : public ::System::Object {
@@ -70,13 +77,13 @@ protected:
   constexpr ZenjectExtensions___c__DisplayClass0_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectExtensions___c__DisplayClass0_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectExtensions___c__DisplayClass0_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectExtensions___c__DisplayClass0_0_1(ZenjectExtensions___c__DisplayClass0_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectExtensions___c__DisplayClass0_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectExtensions___c__DisplayClass0_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectExtensions___c__DisplayClass0_0_1(ZenjectExtensions___c__DisplayClass0_0_1 const&) = delete;
+  ZenjectExtensions___c__DisplayClass0_0_1(ZenjectExtensions___c__DisplayClass0_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23697 };
@@ -88,17 +95,22 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, UnityEngine.Component
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ZenjectExtensions
 class CORDL_TYPE ZenjectExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using __c__DisplayClass0_0_1 = ::GlobalNamespace::ZenjectExtensions___c__DisplayClass0_0_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  using __c__DisplayClass0_0_1 = ::GlobalNamespace::ZenjectExtensions___c__DisplayClass0_0_1<T>;
 
+  /// [Extension]
   /// @brief Method InstantiatePrefabForComponentAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
   static inline T InstantiatePrefabForComponentAt(::Zenject::DiContainer* container, ::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                   ::UnityEngine::Transform* parent);
 
@@ -108,13 +120,13 @@ protected:
   constexpr ZenjectExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectExtensions(ZenjectExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectExtensions(ZenjectExtensions const&) = delete;
+  ZenjectExtensions(ZenjectExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23698 };

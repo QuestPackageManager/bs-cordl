@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GetAssetBundleFileResult.hpp"
+// IWYU pragma private; include "GlobalNamespace/GetAssetBundleFileResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct GetAssetBundleFileResult;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::GetAssetBundleFileResult);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -37,7 +38,8 @@ public:
   // @brief default ctor
   constexpr GetAssetBundleFileResult();
 
-  // Ctor Parameters [CppParam { name: "isError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "isError", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr GetAssetBundleFileResult(bool isError, ::StringW assetBundlePath) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

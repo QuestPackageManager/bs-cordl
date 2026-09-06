@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenLODGroupDataNative.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenLODGroupDataNative.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct GPUDrivenLODGroupDataNative;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GPUDrivenLODGroupDataNative, "UnityEngine.Rendering", "GPUDrivenLODGroupDataNative");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -31,14 +32,15 @@ public:
   // @brief default ctor
   constexpr GPUDrivenLODGroupDataNative();
 
-  // Ctor Parameters [CppParam { name: "lodGroupID", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "lodOffset", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name:
-  // "lodCount", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "fadeMode", ty: "::UnityEngine::LODFadeMode*", modifiers: "", def_value: None }, CppParam { name:
-  // "worldSpaceReferencePoint", ty: "::UnityEngine::Vector3*", modifiers: "", def_value: None }, CppParam { name: "worldSpaceSize", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name:
-  // "renderersCount", ty: "int16_t*", modifiers: "", def_value: None }, CppParam { name: "lastLODIsBillboard", ty: "bool*", modifiers: "", def_value: None }, CppParam { name: "lodGroupCount", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "invalidLODGroupID", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "invalidLODGroupCount", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "lodRenderersCount", ty: "int16_t*", modifiers: "", def_value: None }, CppParam { name: "lodScreenRelativeTransitionHeight", ty: "float_t*",
-  // modifiers: "", def_value: None }, CppParam { name: "lodFadeTransitionWidth", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "lodDataCount", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "lodGroupID", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodOffset", ty: "int32_t*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "lodCount", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "fadeMode", ty: "::UnityEngine::LODFadeMode*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "worldSpaceReferencePoint", ty: "::UnityEngine::Vector3*", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldSpaceSize",
+  // ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderersCount", ty: "int16_t*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "lastLODIsBillboard", ty: "bool*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodGroupCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "invalidLODGroupID", ty: "int32_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "invalidLODGroupCount", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "lodRenderersCount", ty: "int16_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodScreenRelativeTransitionHeight", ty: "float_t*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "lodFadeTransitionWidth", ty: "float_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodDataCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr GPUDrivenLODGroupDataNative(int32_t* lodGroupID, int32_t* lodOffset, int32_t* lodCount, ::UnityEngine::LODFadeMode* fadeMode, ::UnityEngine::Vector3* worldSpaceReferencePoint,
                                         float_t* worldSpaceSize, int16_t* renderersCount, bool* lastLODIsBillboard, int32_t lodGroupCount, int32_t* invalidLODGroupID, int32_t invalidLODGroupCount,
                                         int16_t* lodRenderersCount, float_t* lodScreenRelativeTransitionHeight, float_t* lodFadeTransitionWidth, int32_t lodDataCount) noexcept;

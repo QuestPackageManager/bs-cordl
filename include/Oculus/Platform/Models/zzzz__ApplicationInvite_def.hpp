@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\ApplicationInvite.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/ApplicationInvite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,13 +113,13 @@ protected:
   constexpr ApplicationInvite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ApplicationInvite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ApplicationInvite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ApplicationInvite(ApplicationInvite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ApplicationInvite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ApplicationInvite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ApplicationInvite(ApplicationInvite const&) = delete;
+  ApplicationInvite(ApplicationInviteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18016 };
@@ -127,6 +127,7 @@ public:
   /// @brief Field DestinationOptional, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Models::Destination* ___DestinationOptional;
 
+  /// [Obsolete("Deprecated in favor of DestinationOptional")]
   /// @brief Field Destination, offset: 0x18, size: 0x8, def value: None
   ::Oculus::Platform::Models::Destination* ___Destination;
 
@@ -145,6 +146,7 @@ public:
   /// @brief Field RecipientOptional, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___RecipientOptional;
 
+  /// [Obsolete("Deprecated in favor of RecipientOptional")]
   /// @brief Field Recipient, offset: 0x48, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___Recipient;
 

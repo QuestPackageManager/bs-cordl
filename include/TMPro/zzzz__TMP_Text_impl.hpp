@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Text.hpp"
+// IWYU pragma private; include "TMPro/TMP_Text.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -182,14 +182,15 @@ inline void TMPro::TMP_Text_CharacterSubstitution::_ctor(int32_t index, uint32_t
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Text_CharacterSubstitution>(), { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, unicode);
 }
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::TMPro::TMP_Text_CharacterSubstitution::TMP_Text_CharacterSubstitution(int32_t index, uint32_t unicode) noexcept {
   this->index = index;
   this->unicode = unicode;
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Text_CharacterSubstitution::TMP_Text_CharacterSubstitution() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_Text_TextInputSources::TMP_Text_TextInputSources(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -199,8 +200,9 @@ constexpr ::TMPro::TMP_Text_TextInputSources TMPro::TMP_Text_TextInputSources::T
 constexpr ::TMPro::TMP_Text_TextInputSources TMPro::TMP_Text_TextInputSources::SetText{ static_cast<int32_t>(0x1) };
 constexpr ::TMPro::TMP_Text_TextInputSources TMPro::TMP_Text_TextInputSources::SetTextArray{ static_cast<int32_t>(0x2) };
 constexpr ::TMPro::TMP_Text_TextInputSources TMPro::TMP_Text_TextInputSources::TextString{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "elementType", ty: "::TMPro::TextProcessingElementType", modifiers: "", def_value: Some("{}") }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "stringIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "elementType", ty: "::TMPro::TextProcessingElementType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unicode", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stringIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_Text_TextProcessingElement::TMP_Text_TextProcessingElement(::TMPro::TextProcessingElementType elementType, uint32_t unicode, int32_t stringIndex, int32_t length) noexcept {
   this->elementType = elementType;
   this->unicode = unicode;
@@ -227,9 +229,9 @@ inline void TMPro::TMP_Text_SpecialCharacter::_ctor(::TMPro::TMP_Character* char
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Text_SpecialCharacter>(), { ".ctor", {}, { ::i2c::type_of<::TMPro::TMP_Character*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, character, materialIndex);
 }
-// Ctor Parameters [CppParam { name: "character", ty: "::TMPro::TMP_Character*", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialIndex", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "character", ty: "::TMPro::TMP_Character*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontAsset", ty:
+// "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "materialIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_Text_SpecialCharacter::TMP_Text_SpecialCharacter(::TMPro::TMP_Character* character, ::UnityW<::TMPro::TMP_FontAsset> fontAsset, ::UnityW<::UnityEngine::Material> material,
                                                                         int32_t materialIndex) noexcept {
   this->character = character;
@@ -374,7 +376,8 @@ inline void TMPro::TMP_Text_TextBackingContainer::Resize(int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Text_TextBackingContainer>(), { "Resize", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, size);
 }
-// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_Text_TextBackingContainer::TMP_Text_TextBackingContainer(::ArrayW<uint32_t> m_Array, int32_t m_Index) noexcept {
   this->m_Array = m_Array;
   this->m_Index = m_Index;

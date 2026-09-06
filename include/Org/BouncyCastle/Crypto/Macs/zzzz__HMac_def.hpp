@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Macs\HMac.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/HMac.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -143,13 +143,13 @@ protected:
   constexpr HMac();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HMac", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMac", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMac(HMac&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HMac", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMac", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMac(HMac const&) = delete;
+  HMac(HMacconst&) = delete;
 
   /// @brief Field IPAD offset 0xffffffff size 0x1
   static constexpr uint8_t IPAD{ static_cast<uint8_t>(0x36u) };

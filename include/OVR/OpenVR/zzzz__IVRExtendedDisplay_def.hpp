@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRExtendedDisplay.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRExtendedDisplay.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRExtendedDisplay__GetDXGIOutputInfo*, "OVR.
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRExtendedDisplay__GetEyeOutputViewport*, "OVR.OpenVR", "IVRExtendedDisplay/_GetEyeOutputViewport");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRExtendedDisplay__GetWindowBounds*, "OVR.OpenVR", "IVRExtendedDisplay/_GetWindowBounds");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRExtendedDisplay, "OVR.OpenVR", "IVRExtendedDisplay");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -81,13 +82,13 @@ protected:
   constexpr IVRExtendedDisplay__GetWindowBounds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetWindowBounds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetWindowBounds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRExtendedDisplay__GetWindowBounds(IVRExtendedDisplay__GetWindowBounds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetWindowBounds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetWindowBounds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRExtendedDisplay__GetWindowBounds(IVRExtendedDisplay__GetWindowBounds const&) = delete;
+  IVRExtendedDisplay__GetWindowBounds(IVRExtendedDisplay__GetWindowBoundsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8083 };
@@ -98,6 +99,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRExtendedDisplay__GetWindowBounds) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -126,13 +128,13 @@ protected:
   constexpr IVRExtendedDisplay__GetEyeOutputViewport();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetEyeOutputViewport", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetEyeOutputViewport", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRExtendedDisplay__GetEyeOutputViewport(IVRExtendedDisplay__GetEyeOutputViewport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetEyeOutputViewport", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetEyeOutputViewport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRExtendedDisplay__GetEyeOutputViewport(IVRExtendedDisplay__GetEyeOutputViewport const&) = delete;
+  IVRExtendedDisplay__GetEyeOutputViewport(IVRExtendedDisplay__GetEyeOutputViewportconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8084 };
@@ -143,6 +145,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRExtendedDisplay__GetEyeOutputViewport) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -170,13 +173,13 @@ protected:
   constexpr IVRExtendedDisplay__GetDXGIOutputInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetDXGIOutputInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetDXGIOutputInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRExtendedDisplay__GetDXGIOutputInfo(IVRExtendedDisplay__GetDXGIOutputInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetDXGIOutputInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRExtendedDisplay__GetDXGIOutputInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRExtendedDisplay__GetDXGIOutputInfo(IVRExtendedDisplay__GetDXGIOutputInfo const&) = delete;
+  IVRExtendedDisplay__GetDXGIOutputInfo(IVRExtendedDisplay__GetDXGIOutputInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8085 };
@@ -204,9 +207,9 @@ public:
   // @brief default ctor
   constexpr IVRExtendedDisplay();
 
-  // Ctor Parameters [CppParam { name: "GetWindowBounds", ty: "::OVR::OpenVR::IVRExtendedDisplay__GetWindowBounds*", modifiers: "", def_value: None }, CppParam { name: "GetEyeOutputViewport", ty:
-  // "::OVR::OpenVR::IVRExtendedDisplay__GetEyeOutputViewport*", modifiers: "", def_value: None }, CppParam { name: "GetDXGIOutputInfo", ty: "::OVR::OpenVR::IVRExtendedDisplay__GetDXGIOutputInfo*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "GetWindowBounds", ty: "::OVR::OpenVR::IVRExtendedDisplay__GetWindowBounds*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "GetEyeOutputViewport", ty: "::OVR::OpenVR::IVRExtendedDisplay__GetEyeOutputViewport*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetDXGIOutputInfo", ty:
+  // "::OVR::OpenVR::IVRExtendedDisplay__GetDXGIOutputInfo*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRExtendedDisplay(::OVR::OpenVR::IVRExtendedDisplay__GetWindowBounds* GetWindowBounds, ::OVR::OpenVR::IVRExtendedDisplay__GetEyeOutputViewport* GetEyeOutputViewport,
                                ::OVR::OpenVR::IVRExtendedDisplay__GetDXGIOutputInfo* GetDXGIOutputInfo) noexcept;
 

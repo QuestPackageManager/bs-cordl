@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FtpLoginState.hpp"
+// IWYU pragma private; include "System/Net/FtpLoginState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   // @brief default ctor
   constexpr FtpLoginState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr FtpLoginState(uint8_t value__) noexcept;
 
   /// @brief Field LoggedIn value: U8(1)

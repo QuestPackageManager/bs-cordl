@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlFormatCollectionReaderDelegate.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlFormatCollectionReaderDelegate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,13 @@ protected:
   constexpr XmlFormatCollectionReaderDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionReaderDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionReaderDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlFormatCollectionReaderDelegate(XmlFormatCollectionReaderDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionReaderDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlFormatCollectionReaderDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlFormatCollectionReaderDelegate(XmlFormatCollectionReaderDelegate const&) = delete;
+  XmlFormatCollectionReaderDelegate(XmlFormatCollectionReaderDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17123 };

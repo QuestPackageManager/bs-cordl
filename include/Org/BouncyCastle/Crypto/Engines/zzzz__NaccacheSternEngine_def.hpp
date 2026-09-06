@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\NaccacheSternEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/NaccacheSternEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
+  /// @brief [Obsolete("Remove: no longer used")]
   __declspec(property(put = set_Debug)) bool Debug;
 
   /// @brief Field forEncryption, offset 0x10, size 0x1
@@ -116,13 +117,13 @@ protected:
   constexpr NaccacheSternEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NaccacheSternEngine(NaccacheSternEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NaccacheSternEngine(NaccacheSternEngine const&) = delete;
+  NaccacheSternEngine(NaccacheSternEngineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 851 };

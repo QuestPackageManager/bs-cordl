@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeBitArrayDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeBitArrayDisposeJob.hpp"
 #include "Unity/Collections/zzzz__NativeBitArrayDispose_impl.hpp"
 #include "Unity/Collections/zzzz__NativeBitArrayDisposeJob_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
@@ -27,7 +27,7 @@ constexpr Unity::Collections::NativeBitArrayDisposeJob::operator ::Unity::Jobs::
 constexpr ::Unity::Jobs::IJob* Unity::Collections::NativeBitArrayDisposeJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeBitArrayDispose", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeBitArrayDispose", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::NativeBitArrayDisposeJob::NativeBitArrayDisposeJob(::Unity::Collections::NativeBitArrayDispose Data) noexcept {
   this->Data = Data;
 }

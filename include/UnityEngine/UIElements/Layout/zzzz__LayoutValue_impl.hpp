@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutValue.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutValue.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutUnit_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutValue_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -181,8 +181,8 @@ inline ::UnityEngine::UIElements::Layout::LayoutValue UnityEngine::UIElements::L
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutValue>(), { "op_Implicit", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutValue>(nullptr, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unit", ty: "::UnityEngine::UIElements::Layout::LayoutUnit", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unit", ty: "::UnityEngine::UIElements::Layout::LayoutUnit",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutValue::LayoutValue(float_t value, ::UnityEngine::UIElements::Layout::LayoutUnit unit) noexcept {
   this->value = value;
   this->unit = unit;

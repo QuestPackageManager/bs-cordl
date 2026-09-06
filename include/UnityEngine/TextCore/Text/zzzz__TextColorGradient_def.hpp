@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextColorGradient.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextColorGradient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ class TextColorGradient;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Text::TextColorGradient*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextColorGradient*, "UnityEngine.TextCore.Text", "TextColorGradient");
+// [ExcludeFromObjectFactory]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Color, UnityEngine.ScriptableObject, UnityEngine.TextCore.Text.ColorGradientMode
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -97,13 +99,13 @@ protected:
   constexpr TextColorGradient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextColorGradient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextColorGradient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextColorGradient(TextColorGradient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextColorGradient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextColorGradient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextColorGradient(TextColorGradient const&) = delete;
+  TextColorGradient(TextColorGradientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17237 };

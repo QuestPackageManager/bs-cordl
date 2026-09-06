@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HashFNV1A32.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HashFNV1A32.hpp"
 #include "UnityEngine/Rendering/zzzz__HashFNV1A32_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -176,47 +176,49 @@ inline ::UnityEngine::Rendering::HashFNV1A32 UnityEngine::Rendering::HashFNV1A32
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::HashFNV1A32>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(::by_ref<int32_t> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<int32_t> input) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(::by_ref<uint32_t> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<uint32_t> input) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<uint32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(::by_ref<bool> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<bool> input) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<bool>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(::by_ref<float_t> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<float_t> input) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(::by_ref<double_t> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<double_t> input) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<double_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(::by_ref<::UnityEngine::Vector2> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> input) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(::by_ref<::UnityEngine::Vector3> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> input) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(::by_ref<::UnityEngine::Vector4> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> input) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-template <typename T> inline void UnityEngine::Rendering::HashFNV1A32::Append(T input) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::HashFNV1A32::Append(T input) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -240,7 +242,7 @@ inline int32_t UnityEngine::Rendering::HashFNV1A32::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Hash", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Hash", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::HashFNV1A32::HashFNV1A32(uint32_t m_Hash) noexcept {
   this->m_Hash = m_Hash;
 }

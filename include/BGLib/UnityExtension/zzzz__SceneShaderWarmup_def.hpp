@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\SceneShaderWarmup.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/SceneShaderWarmup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,7 +100,7 @@ public:
   // @brief default ctor
   constexpr SceneShaderWarmup_LogLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SceneShaderWarmup_LogLevel(int32_t value__) noexcept;
 
   /// @brief Field Error value: I32(0)
@@ -132,6 +132,7 @@ static_assert(offsetof(::BGLib::UnityExtension::SceneShaderWarmup_LogLevel, valu
 static_assert(sizeof(::BGLib::UnityExtension::SceneShaderWarmup_LogLevel) == 0x4, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::UnityExtension {
 // Is value type: false
@@ -168,17 +169,22 @@ public:
   /// @brief Method MoveNext, addr 0x3329590, size 0x142c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x332a9bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x332a9c4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x332a9fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x332958c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -206,6 +212,7 @@ public:
 
   constexpr void __cordl_internal_set__shaderVariants_5__3(::UnityW<::UnityEngine::ShaderVariantCollection> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x33292ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -224,13 +231,13 @@ protected:
   constexpr SceneShaderWarmup__WarmupShaders_d__8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup__WarmupShaders_d__8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup__WarmupShaders_d__8", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneShaderWarmup__WarmupShaders_d__8(SceneShaderWarmup__WarmupShaders_d__8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup__WarmupShaders_d__8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup__WarmupShaders_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneShaderWarmup__WarmupShaders_d__8(SceneShaderWarmup__WarmupShaders_d__8 const&) = delete;
+  SceneShaderWarmup__WarmupShaders_d__8(SceneShaderWarmup__WarmupShaders_d__8const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20799 };
@@ -292,12 +299,14 @@ public:
   /// @brief Field _variantsPerStep, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__variantsPerStep, put = setStaticF__variantsPerStep)) ::GlobalNamespace::IntCvar* _variantsPerStep;
 
+  /// [RuntimeInitializeOnLoadMethod]
   /// @brief Method Initialize, addr 0x332919c, size 0xc4, virtual false, abstract: false, final false
   static inline void Initialize();
 
   /// @brief Method Log, addr 0x33292b4, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
+  /// [IteratorStateMachine(typeof(BGLib.UnityExtension.SceneShaderWarmup::<WarmupShaders>d__8))]
   /// @brief Method WarmupShaders, addr 0x3329260, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* WarmupShaders();
 
@@ -331,13 +340,13 @@ protected:
   constexpr SceneShaderWarmup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneShaderWarmup(SceneShaderWarmup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneShaderWarmup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneShaderWarmup(SceneShaderWarmup const&) = delete;
+  SceneShaderWarmup(SceneShaderWarmupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20800 };

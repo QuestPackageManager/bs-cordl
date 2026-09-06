@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\YieldAwaitable.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/YieldAwaitable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::YieldAwaitable);
 MARK_VAL_T(::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::YieldAwaitable, "System.Runtime.CompilerServices", "YieldAwaitable");
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter, "System.Runtime.CompilerServices", "YieldAwaitable/YieldAwaiter");
+// [IsReadOnly]
 // Dependencies
 namespace System::Runtime::CompilerServices {
 // Is value type: true
@@ -109,6 +110,7 @@ public:
 static_assert(sizeof(::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter) == 0x1, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
+// [IsReadOnly]
 // Dependencies
 namespace System::Runtime::CompilerServices {
 // Is value type: true

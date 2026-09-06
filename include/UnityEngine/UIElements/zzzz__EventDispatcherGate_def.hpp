@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventDispatcherGate.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventDispatcherGate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   // @brief default ctor
   constexpr EventDispatcherGate();
 
-  // Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: None, comment: None }]
   constexpr EventDispatcherGate(::UnityEngine::UIElements::EventDispatcher* m_Dispatcher) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TemplateAsset.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TemplateAsset.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementAsset_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -30,8 +30,9 @@ inline bool UnityEngine::UIElements::TemplateAsset_AttributeOverride::NamesPathM
                                                            { "NamesPathMatchesElementNamesPath", {}, { ::i2c::type_of<::System::Collections::Generic::IList_1<::StringW>*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, elementNamesPath);
 }
-// Ctor Parameters [CppParam { name: "m_ElementName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NamesPath", ty: "::ArrayW<::StringW>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_AttributeName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ElementName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NamesPath", ty: "::ArrayW<::StringW>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_AttributeName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Value", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TemplateAsset_AttributeOverride::TemplateAsset_AttributeOverride(::StringW m_ElementName, ::ArrayW<::StringW> m_NamesPath, ::StringW m_AttributeName,
                                                                                                       ::StringW m_Value) noexcept {
   this->m_ElementName = m_ElementName;
@@ -41,8 +42,9 @@ constexpr ::UnityEngine::UIElements::TemplateAsset_AttributeOverride::TemplateAs
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TemplateAsset_AttributeOverride::TemplateAsset_AttributeOverride() {}
-// Ctor Parameters [CppParam { name: "m_ElementId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ElementIdsPath", ty: "::System::Collections::Generic::List_1<int32_t>*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SerializedData", ty: "::UnityEngine::UIElements::UxmlSerializedData*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ElementId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ElementIdsPath", ty:
+// "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SerializedData", ty: "::UnityEngine::UIElements::UxmlSerializedData*",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride::TemplateAsset_UxmlSerializedDataOverride(int32_t m_ElementId,
                                                                                                                         ::System::Collections::Generic::List_1<int32_t>* m_ElementIdsPath,
                                                                                                                         ::UnityEngine::UIElements::UxmlSerializedData* m_SerializedData) noexcept {

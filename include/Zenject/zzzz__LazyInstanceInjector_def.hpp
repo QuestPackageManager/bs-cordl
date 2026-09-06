@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\LazyInstanceInjector.hpp"
+// IWYU pragma private; include "Zenject/LazyInstanceInjector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class LazyInstanceInjector;
 // Write type traits
 MARK_REF_T(::Zenject::LazyInstanceInjector*);
 DEFINE_IL2CPP_CLASS(::Zenject::LazyInstanceInjector*, "Zenject", "LazyInstanceInjector");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr LazyInstanceInjector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LazyInstanceInjector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyInstanceInjector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LazyInstanceInjector(LazyInstanceInjector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LazyInstanceInjector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LazyInstanceInjector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LazyInstanceInjector(LazyInstanceInjector const&) = delete;
+  LazyInstanceInjector(LazyInstanceInjectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14524 };

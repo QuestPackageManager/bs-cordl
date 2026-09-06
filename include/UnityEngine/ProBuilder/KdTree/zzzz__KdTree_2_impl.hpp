@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\KdTree\KdTree_2.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/KdTree_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__AddDuplicateBehavior_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__KdTree_2_def.hpp"
@@ -212,6 +212,7 @@ template <typename TKey, typename TValue> inline ::System::Object* UnityEngine::
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33<TKey, TValue>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TKey, typename TValue>
 inline ::UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33<TKey, TValue>* UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33<TKey, TValue>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33<TKey, TValue>*>(__1__state));

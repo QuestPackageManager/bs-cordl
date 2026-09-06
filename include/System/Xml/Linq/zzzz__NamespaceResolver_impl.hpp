@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\NamespaceResolver.hpp"
+// IWYU pragma private; include "System/Xml/Linq/NamespaceResolver.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
@@ -164,9 +164,9 @@ inline ::StringW System::Xml::Linq::NamespaceResolver::GetPrefixOfNamespace(::Sy
       (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::NamespaceResolver>(), { "GetPrefixOfNamespace", {}, { ::i2c::type_of<::System::Xml::Linq::XNamespace*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, ns, allowDefaultNamespace);
 }
-// Ctor Parameters [CppParam { name: "_scope", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_declaration", ty:
-// "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_rover", ty:
-// "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_scope", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_declaration", ty:
+// "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_rover", ty:
+// "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Linq::NamespaceResolver::NamespaceResolver(int32_t _scope, ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* _declaration,
                                                                     ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* _rover) noexcept {
   this->_scope = _scope;

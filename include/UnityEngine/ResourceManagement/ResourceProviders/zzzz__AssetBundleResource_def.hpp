@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\AssetBundleResource.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleResource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,7 +121,7 @@ public:
   // @brief default ctor
   constexpr AssetBundleResource_LoadType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AssetBundleResource_LoadType(int32_t value__) noexcept;
 
   /// @brief Field Local value: I32(1)
@@ -150,6 +150,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Ass
 static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
@@ -185,13 +186,13 @@ protected:
   constexpr AssetBundleResource___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleResource___c(AssetBundleResource___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleResource___c(AssetBundleResource___c const&) = delete;
+  AssetBundleResource___c(AssetBundleResource___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18767 };
@@ -368,9 +369,11 @@ public:
   /// @brief Method WebRequestOperationCompleted, addr 0x691ae04, size 0x728, virtual false, abstract: false, final false
   inline void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
+  /// [CompilerGenerated]
   /// @brief Method <AddBeginWebRequestHandler>b__45_0, addr 0x691c1f8, size 0x4, virtual false, abstract: false, final false
   inline void _AddBeginWebRequestHandler_b__45_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
+  /// [CompilerGenerated]
   /// @brief Method <GetAssetPreloadRequest>b__30_0, addr 0x691c1ec, size 0xc, virtual false, abstract: false, final false
   inline void _GetAssetPreloadRequest_b__30_0(::UnityEngine::AsyncOperation* operation);
 
@@ -527,13 +530,13 @@ protected:
   constexpr AssetBundleResource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleResource(AssetBundleResource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleResource(AssetBundleResource const&) = delete;
+  AssetBundleResource(AssetBundleResourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18768 };

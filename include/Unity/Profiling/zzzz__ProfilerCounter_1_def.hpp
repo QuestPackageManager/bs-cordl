@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerCounter_1.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerCounter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,20 +14,25 @@ struct ProfilerMarkerDataUnit;
 }
 // Forward declare root types
 namespace Unity::Profiling {
-template <typename T> struct ProfilerCounter_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct ProfilerCounter_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerCounter_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Profiling::ProfilerCounter_1, "Unity.Profiling", "ProfilerCounter`1");
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Profiling {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerCounter`1<T>
 struct CORDL_TYPE ProfilerCounter_1 {
 public:
   // Declarations
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Sample, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Sample(T value);
 

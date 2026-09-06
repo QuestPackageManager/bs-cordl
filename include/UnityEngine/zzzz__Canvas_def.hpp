@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Canvas.hpp"
+// IWYU pragma private; include "UnityEngine/Canvas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,13 +81,13 @@ protected:
   constexpr Canvas_WillRenderCanvases();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Canvas_WillRenderCanvases", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Canvas_WillRenderCanvases", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Canvas_WillRenderCanvases(Canvas_WillRenderCanvases&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Canvas_WillRenderCanvases", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Canvas_WillRenderCanvases", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Canvas_WillRenderCanvases(Canvas_WillRenderCanvases const&) = delete;
+  Canvas_WillRenderCanvases(Canvas_WillRenderCanvasesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22118 };
@@ -98,6 +98,11 @@ public:
 static_assert(sizeof(::UnityEngine::Canvas_WillRenderCanvases) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/UI/UIStructs.h")]
+// [NativeHeader("Modules/UI/CanvasManager.h")]
+// [NativeHeader("Modules/UI/Canvas.h")]
+// [NativeClass("UI::Canvas")]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
@@ -125,6 +130,7 @@ public:
 
   __declspec(property(get = get_isRootCanvas)) bool isRootCanvas;
 
+  /// @brief [NativeProperty("SortingBucketNormalizedSize", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_normalizedSortingGridSize, put = set_normalizedSortingGridSize)) float_t normalizedSortingGridSize;
 
   __declspec(property(get = get_overridePixelPerfect, put = set_overridePixelPerfect)) bool overridePixelPerfect;
@@ -152,6 +158,8 @@ public:
 
   __declspec(property(get = get_scaleFactor, put = set_scaleFactor)) float_t scaleFactor;
 
+  /// [NativeProperty("SortingBucketNormalizedSize", false, (UnityEngine.Bindings.TargetType)0)]
+  /// @brief [Obsolete("Setting normalizedSize via a int is not supported. Please use normalizedSortingGridSize", false)]
   __declspec(property(get = get_sortingGridNormalizedSize, put = set_sortingGridNormalizedSize)) int32_t sortingGridNormalizedSize;
 
   __declspec(property(get = get_sortingLayerID, put = set_sortingLayerID)) int32_t sortingLayerID;
@@ -169,29 +177,36 @@ public:
   /// @brief Field willRenderCanvases, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_willRenderCanvases, put = setStaticF_willRenderCanvases)) ::UnityEngine::Canvas_WillRenderCanvases* willRenderCanvases;
 
+  /// @brief [NativeProperty("Camera", false, (UnityEngine.Bindings.TargetType)0)]
   __declspec(property(get = get_worldCamera, put = set_worldCamera)) ::UnityW<::UnityEngine::Camera> worldCamera;
 
+  /// [RequiredByNativeCode]
   /// @brief Method BeginRenderExtraOverlays, addr 0x6ded640, size 0x70, virtual false, abstract: false, final false
   static inline void BeginRenderExtraOverlays(int32_t displayIndex);
 
+  /// [RequiredByNativeCode]
   /// @brief Method EndRenderExtraOverlays, addr 0x6ded734, size 0x70, virtual false, abstract: false, final false
   static inline void EndRenderExtraOverlays(int32_t displayIndex);
 
   /// @brief Method ForceUpdateCanvases, addr 0x6ded560, size 0x10, virtual false, abstract: false, final false
   static inline void ForceUpdateCanvases();
 
+  /// [FreeFunction("UI::GetDefaultUIMaterial")]
   /// @brief Method GetDefaultCanvasMaterial, addr 0x6ded214, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetDefaultCanvasMaterial();
 
   /// @brief Method GetDefaultCanvasMaterial_Injected, addr 0x6ded328, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetDefaultCanvasMaterial_Injected();
 
+  /// [FreeFunction("UI::GetDefaultUIMaterial")]
+  /// [Obsolete("Shared default material now used for text and general UI elements, call Canvas.GetDefaultCanvasMaterial()", false)]
   /// @brief Method GetDefaultCanvasTextMaterial, addr 0x6ded0d8, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetDefaultCanvasTextMaterial();
 
   /// @brief Method GetDefaultCanvasTextMaterial_Injected, addr 0x6ded1ec, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetDefaultCanvasTextMaterial_Injected();
 
+  /// [FreeFunction("UI::GetETC1SupportedCanvasMaterial")]
   /// @brief Method GetETC1SupportedCanvasMaterial, addr 0x6ded350, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetETC1SupportedCanvasMaterial();
 
@@ -200,15 +215,20 @@ public:
 
   static inline ::UnityEngine::Canvas* New_ctor();
 
+  /// [RequiredByNativeCode]
   /// @brief Method RenderExtraOverlaysBefore, addr 0x6ded6b0, size 0x84, virtual false, abstract: false, final false
   static inline void RenderExtraOverlaysBefore(int32_t displayIndex, int32_t sortingOrder);
 
+  /// [RequiredByNativeCode]
   /// @brief Method SendPreWillRenderCanvases, addr 0x6ded570, size 0x68, virtual false, abstract: false, final false
   static inline void SendPreWillRenderCanvases();
 
+  /// [RequiredByNativeCode]
   /// @brief Method SendWillRenderCanvases, addr 0x6ded5d8, size 0x68, virtual false, abstract: false, final false
   static inline void SendWillRenderCanvases();
 
+  /// [FreeFunction("UI::CanvasManager::SetExternalCanvasEnabled")]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method SetExternalCanvasEnabled, addr 0x6decae4, size 0x3c, virtual false, abstract: false, final false
   static inline void SetExternalCanvasEnabled(bool enabled);
 
@@ -221,9 +241,11 @@ public:
   /// @brief Method .ctor, addr 0x6ded7a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_preWillRenderCanvases, addr 0x6dea8d0, size 0xcc, virtual false, abstract: false, final false
   static inline void add_preWillRenderCanvases(::UnityEngine::Canvas_WillRenderCanvases* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_willRenderCanvases, addr 0x6deaa68, size 0xd0, virtual false, abstract: false, final false
   static inline void add_willRenderCanvases(::UnityEngine::Canvas_WillRenderCanvases* value);
 
@@ -249,12 +271,15 @@ public:
   /// @brief Method get_cachedSortingLayerValue_Injected, addr 0x6dec028, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_cachedSortingLayerValue_Injected(::System::IntPtr _unity_self);
 
+  /// [CompilerGenerated]
   /// @brief Method get_externBeginRenderOverlays, addr 0x6dec910, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Action_1<int32_t>* get_externBeginRenderOverlays();
 
+  /// [CompilerGenerated]
   /// @brief Method get_externEndRenderOverlays, addr 0x6deca48, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Action_1<int32_t>* get_externEndRenderOverlays();
 
+  /// [CompilerGenerated]
   /// @brief Method get_externRenderOverlaysBefore, addr 0x6dec9ac, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Action_2<int32_t, int32_t>* get_externRenderOverlaysBefore();
 
@@ -384,9 +409,11 @@ public:
   /// @brief Method get_worldCamera_Injected, addr 0x6decc70, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_worldCamera_Injected(::System::IntPtr _unity_self);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_preWillRenderCanvases, addr 0x6dea99c, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_preWillRenderCanvases(::UnityEngine::Canvas_WillRenderCanvases* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_willRenderCanvases, addr 0x6deab38, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_willRenderCanvases(::UnityEngine::Canvas_WillRenderCanvases* value);
 
@@ -406,12 +433,18 @@ public:
   /// @brief Method set_additionalShaderChannels_Injected, addr 0x6dec1b0, size 0x44, virtual false, abstract: false, final false
   static inline void set_additionalShaderChannels_Injected(::System::IntPtr _unity_self, ::UnityEngine::AdditionalCanvasShaderChannels value);
 
+  /// [CompilerGenerated]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method set_externBeginRenderOverlays, addr 0x6dec95c, size 0x50, virtual false, abstract: false, final false
   static inline void set_externBeginRenderOverlays(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method set_externEndRenderOverlays, addr 0x6deca94, size 0x50, virtual false, abstract: false, final false
   static inline void set_externEndRenderOverlays(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method set_externRenderOverlaysBefore, addr 0x6dec9f8, size 0x50, virtual false, abstract: false, final false
   static inline void set_externRenderOverlaysBefore(::System::Action_2<int32_t, int32_t>* value);
 
@@ -517,13 +550,13 @@ protected:
   constexpr Canvas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Canvas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Canvas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Canvas(Canvas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Canvas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Canvas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Canvas(Canvas const&) = delete;
+  Canvas(Canvasconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22119 };

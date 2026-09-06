@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrSwapchainCreateInfo.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrSwapchainCreateInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,11 +24,12 @@ public:
   // @brief default ctor
   constexpr XrSwapchainCreateInfo();
 
-  // Ctor Parameters [CppParam { name: "Type", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Next", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "CreateFlags",
-  // ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "UsageFlags", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Format", ty: "int64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "SampleCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Width", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Height", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "FaceCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ArraySize", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "MipCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Type", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Next", ty: "void*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "CreateFlags", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "UsageFlags", ty: "uint64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Format", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SampleCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Width", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Height", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "FaceCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ArraySize", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "MipCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XrSwapchainCreateInfo(uint32_t Type, void* Next, uint64_t CreateFlags, uint64_t UsageFlags, int64_t Format, uint32_t SampleCount, uint32_t Width, uint32_t Height, uint32_t FaceCount,
                                   uint32_t ArraySize, uint32_t MipCount) noexcept;
 

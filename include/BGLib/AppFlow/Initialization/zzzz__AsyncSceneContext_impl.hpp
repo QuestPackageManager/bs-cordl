@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncSceneContext.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncSceneContext.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncLoader_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
@@ -21,7 +21,7 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::AppFlow::Initialization::AsyncSceneContext_State::AsyncSceneContext_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -85,7 +85,8 @@ inline void BGLib::AppFlow::Initialization::AsyncSceneContext___c::_ctor() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task* BGLib::AppFlow::Initialization::AsyncSceneContext___c::_LoadInstallersAsync_b__15_2(
-    ::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*> loadingRequest) {
+    /* [TupleElementNames(new[] { "asyncLoader", "loadingTask" })] */ ::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*>
+        loadingRequest) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -235,7 +236,8 @@ inline void BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass1
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline bool BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_1::_LoadInstallersAsync_b__1(
-    ::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*> loadingRequest) {
+    /* [TupleElementNames(new[] { "asyncLoader", "loadingTask" })] */ ::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*>
+        loadingRequest) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -295,15 +297,16 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty:
-// "::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_loadersStopwatch_5__2", ty:
-// "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_queue_5__3", ty:
-// "::System::Collections::Generic::IReadOnlyList_1<::BGLib::AppFlow::Initialization::ConcurrentAsyncLoaders*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_loadingRequests_5__4", ty:
-// "::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>,::System::Threading::Tasks::Task*>>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_count_5__5", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_loadersEndStepIndex_5__6", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "_i_5__7", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__4__this", ty: "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
+// "::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_loadersStopwatch_5__2", ty:
+// "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_queue_5__3", ty:
+// "::System::Collections::Generic::IReadOnlyList_1<::BGLib::AppFlow::Initialization::ConcurrentAsyncLoaders*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_loadingRequests_5__4", ty: "::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>,::System::Threading::Tasks::Task*>>*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_count_5__5", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_loadersEndStepIndex_5__6", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_i_5__7", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::AppFlow::Initialization::AsyncSceneContext__LoadInstallersAsync_d__15::AsyncSceneContext__LoadInstallersAsync_d__15(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> __t__builder,
     ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> __4__this, ::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0* __8__1,
@@ -370,10 +373,10 @@ constexpr BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__14::ope
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::AppFlow::Initialization::AsyncSceneContext__RunAsync_d__14::AsyncSceneContext__RunAsync_d__14(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> __u__1) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorNoAlphaSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorNoAlphaSerializable.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorNoAlphaSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
@@ -193,7 +193,7 @@ constexpr GlobalNamespace::ColorNoAlphaSerializable::operator ::System::IEquatab
 constexpr ::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>* GlobalNamespace::ColorNoAlphaSerializable::i___System__IEquatable_1___GlobalNamespace__ColorNoAlphaSerializable_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::ColorNoAlphaSerializable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ColorNoAlphaSerializable::ColorNoAlphaSerializable(::UnityEngine::Color _color) noexcept {
   this->_color = _color;
 }

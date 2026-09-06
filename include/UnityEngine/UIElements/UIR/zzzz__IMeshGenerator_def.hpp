@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\IMeshGenerator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/IMeshGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphRenderMode;
@@ -58,36 +60,36 @@ public:
 
   __declspec(property(get = get_textJobSystem)) ::UnityEngine::UIElements::UITKTextJobSystem* textJobSystem;
 
-  /// @brief Method DrawBorder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DrawBorder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawBorder(::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams borderParams);
 
-  /// @brief Method DrawNativeText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DrawNativeText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawNativeText(::ValueW<8, "UnityEngine.TextCore.Text", "NativeTextInfo"> textInfo, ::UnityEngine::Vector2 pos);
 
-  /// @brief Method DrawRectangle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DrawRectangle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawRectangle(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams rectParams);
 
-  /// @brief Method DrawRectangleRepeat, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DrawRectangleRepeat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawRectangleRepeat(::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams rectParams, ::UnityEngine::Rect totalRect, float_t scaledPixelsPerPoint);
 
-  /// @brief Method DrawText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DrawText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawText(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>* vertices,
                        ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>* indices,
                        ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                        ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>* renderModes);
 
-  /// @brief Method ScheduleJobs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ScheduleJobs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ScheduleJobs(Il2CppObject* mgc);
 
-  /// @brief Method get_textJobSystem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_textJobSystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::UITKTextJobSystem* get_textJobSystem();
 
-  /// @brief Method set_currentElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_currentElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_currentElement(::UnityEngine::UIElements::VisualElement* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMeshGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMeshGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMeshGenerator(IMeshGenerator const&) = delete;
+  IMeshGenerator(IMeshGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5312 };

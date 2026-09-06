@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\Raw\Nat576.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/Raw/Nat576.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr Nat576();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Nat576", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Nat576", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Nat576(Nat576&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Nat576", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Nat576", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Nat576(Nat576 const&) = delete;
+  Nat576(Nat576const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1600 };

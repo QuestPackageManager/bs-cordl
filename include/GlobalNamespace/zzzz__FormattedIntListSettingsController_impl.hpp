@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FormattedIntListSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FormattedIntListSettingsController.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__FormattedIntListSettingsController_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"

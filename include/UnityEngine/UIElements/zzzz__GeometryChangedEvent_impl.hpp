@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\GeometryChangedEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/GeometryChangedEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"

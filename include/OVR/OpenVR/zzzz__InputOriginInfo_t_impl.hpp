@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\InputOriginInfo_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/InputOriginInfo_t.hpp"
 #include "OVR/OpenVR/zzzz__InputOriginInfo_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::InputOriginInfo_t.get_rchRenderModelComponentName
 template <>
@@ -17,78 +17,93 @@ inline ::StringW OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::InputOriginInfo_t>(), { "get_rchRenderModelComponentName", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "devicePath", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "rchRenderModelComponentName0", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName1", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName2", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName3", ty: "uint8_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName4", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName5", ty: "uint8_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName6", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName7", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName8", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName9", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName10", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName11", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName12", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName13", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName14", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName15", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName16", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName17", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName18", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName19", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName20", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName21", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName22", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName23", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName24", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName25", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName26", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName27", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName28", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName29", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName30", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName31", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName32", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName33", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName34", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName35", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName36", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName37", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName38", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName39", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName40", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName41", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName42", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName43", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName44", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName45", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName46", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName47", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName48", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName49", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName50", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName51", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName52", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName53", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName54", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName55", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName56", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName57", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName58", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName59", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName60", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName61", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName62", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName63", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName64", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName65", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName66", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName67", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName68", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName69", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName70", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName71", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName72", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName73", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName74", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName75", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName76", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName77", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName78", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName79", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName80", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName81", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName82", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName83", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName84", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName85", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName86", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName87", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName88", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName89", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName90", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName91", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName92", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName93", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName94", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName95", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName96", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName97", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName98", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName99", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName100", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName101", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName102", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName103", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName104", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName105", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName106", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName107", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName108", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName109", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName110", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName111", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName112", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName113", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName114", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName115", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName116", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName117", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName118", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rchRenderModelComponentName119", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName120", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "rchRenderModelComponentName121", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName122", ty: "uint8_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName123", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName124", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName125", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rchRenderModelComponentName126", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rchRenderModelComponentName127", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "devicePath", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "trackedDeviceIndex", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName0", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName1", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName2", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName3", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName4",
+// ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName5", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "rchRenderModelComponentName6", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName7", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName8", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName9", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName10", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName11", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName12", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName13", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName14", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName15", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName16", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName17", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName18", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName19", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName20", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName21", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName22", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName23", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName24", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName25", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName26", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName27", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName28", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName29", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName30", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName31", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName32", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName33", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName34", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName35", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName36", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName37", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName38", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName39", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName40", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName41", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName42", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName43", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName44", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName45", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName46", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName47", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName48", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName49", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName50", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName51", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName52", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName53", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName54", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName55", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName56", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName57", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName58", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName59", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName60", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName61", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName62", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName63", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName64", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName65", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName66", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName67", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName68", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName69", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName70", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName71", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName72", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName73", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName74", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName75", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName76", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName77", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName78", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName79", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName80", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName81", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName82", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName83", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName84", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName85", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName86", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName87", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName88", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName89", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName90", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName91", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName92", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName93", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName94", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName95", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName96", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName97", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName98", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName99", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName100", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName101", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName102", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName103", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName104", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName105", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName106", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName107", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName108", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName109", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName110", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName111", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName112", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName113", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName114", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName115", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName116", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName117", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName118", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName119", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName120", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName121", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName122", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName123", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName124", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName125", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rchRenderModelComponentName126", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rchRenderModelComponentName127", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::InputOriginInfo_t::InputOriginInfo_t(
     uint64_t devicePath, uint32_t trackedDeviceIndex, uint8_t rchRenderModelComponentName0, uint8_t rchRenderModelComponentName1, uint8_t rchRenderModelComponentName2,
     uint8_t rchRenderModelComponentName3, uint8_t rchRenderModelComponentName4, uint8_t rchRenderModelComponentName5, uint8_t rchRenderModelComponentName6, uint8_t rchRenderModelComponentName7,

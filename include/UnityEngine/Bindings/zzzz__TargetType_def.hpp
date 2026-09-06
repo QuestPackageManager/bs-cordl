@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\TargetType.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/TargetType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TargetType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Bindings::TargetType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::TargetType, "UnityEngine.Bindings", "TargetType");
+// [VisibleToOtherModules]
 // Dependencies
 namespace UnityEngine::Bindings {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr TargetType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TargetType(int32_t value__) noexcept;
 
   /// @brief Field Field value: I32(1)

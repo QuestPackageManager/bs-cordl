@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\AddInstruction_AddInt16.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/AddInstruction_AddInt16.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr AddInstruction_AddInt16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddInt16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddInt16", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddInstruction_AddInt16(AddInstruction_AddInt16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddInt16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddInt16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddInstruction_AddInt16(AddInstruction_AddInt16 const&) = delete;
+  AddInstruction_AddInt16(AddInstruction_AddInt16const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16236 };

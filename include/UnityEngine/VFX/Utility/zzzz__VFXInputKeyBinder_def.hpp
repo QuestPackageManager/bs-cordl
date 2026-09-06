@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXInputKeyBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXInputKeyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class VFXInputKeyBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXInputKeyBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXInputKeyBinder*, "UnityEngine.VFX.Utility", "VFXInputKeyBinder");
+// [AddComponentMenu("VFX/Property Binders/Input Key Press Binder")]
+// [VFXBinder("Input/Key")]
 // Dependencies UnityEngine.KeyCode, UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -121,20 +123,26 @@ protected:
   constexpr VFXInputKeyBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXInputKeyBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXInputKeyBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXInputKeyBinder(VFXInputKeyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXInputKeyBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXInputKeyBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXInputKeyBinder(VFXInputKeyBinder const&) = delete;
+  VFXInputKeyBinder(VFXInputKeyBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19994 };
 
+  /// [VFXPropertyBinding(new[] { "System.Boolean" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_KeyParameter")]
   /// @brief Field m_KeyProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_KeyProperty;
 
+  /// [VFXPropertyBinding(new[] { "System.Single" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_KeySmoothParameter")]
   /// @brief Field m_KeySmoothProperty, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_KeySmoothProperty;
 

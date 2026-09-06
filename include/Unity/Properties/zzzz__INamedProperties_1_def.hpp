@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\INamedProperties_1.hpp"
+// IWYU pragma private; include "Unity/Properties/INamedProperties_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +24,12 @@ template <typename TContainer>
 class CORDL_TYPE INamedProperties_1 {
 public:
   // Declarations
-  /// @brief Method TryGetProperty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryGetProperty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetProperty(::by_ref<TContainer> container, ::StringW name, ::by_ref<::Unity::Properties::IProperty_1<TContainer>*> property);
 
-  // Ctor Parameters [CppParam { name: "", ty: "INamedProperties_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INamedProperties_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INamedProperties_1(INamedProperties_1 const&) = delete;
+  INamedProperties_1(INamedProperties_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19643 };

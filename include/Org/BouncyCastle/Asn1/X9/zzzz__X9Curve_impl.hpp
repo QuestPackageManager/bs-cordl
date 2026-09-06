@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X9Curve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9Curve.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9Curve_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9FieldID_def.hpp"
@@ -188,6 +188,7 @@ inline ::Org::BouncyCastle::Asn1::X9::X9Curve* Org::BouncyCastle::Asn1::X9::X9Cu
 inline ::Org::BouncyCastle::Asn1::X9::X9Curve* Org::BouncyCastle::Asn1::X9::X9Curve::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::ArrayW<uint8_t> seed) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X9::X9Curve*>(curve, seed));
 }
+/// @brief [Obsolete("Use constructor including order/cofactor")]
 inline ::Org::BouncyCastle::Asn1::X9::X9Curve* Org::BouncyCastle::Asn1::X9::X9Curve::New_ctor(::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID, ::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X9::X9Curve*>(fieldID, seq));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\DictionaryWrapper_2.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DictionaryWrapper_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DictionaryWrapper_2_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DictionaryWrapper_2_def.hpp"
@@ -21,7 +21,7 @@
 #include "System/zzzz__Object_def.hpp"
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
 inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2_DictionaryEnumerator_2<TKey, TValue, TEnumeratorKey, TEnumeratorValue>::_ctor(
-    ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e) {
+    /* [Nullable(new[] { 1, 0, 1, 1 })] */ ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2_DictionaryEnumerator_2<TKey, TValue, TEnumeratorKey, TEnumeratorValue>>(),
@@ -93,7 +93,7 @@ Newtonsoft::Json::Utilities::DictionaryWrapper_2_DictionaryEnumerator_2<TKey, TV
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "_e", ty: "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>*", modifiers: "",
-// def_value: Some("{}") }]
+// def_value: Some("{}"), comment: None }]
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
 constexpr ::Newtonsoft::Json::Utilities::DictionaryWrapper_2_DictionaryEnumerator_2<TKey, TValue, TEnumeratorKey, TEnumeratorValue>::DictionaryWrapper_2_DictionaryEnumerator_2(
     ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _e) noexcept {
@@ -238,7 +238,7 @@ template <typename TKey, typename TValue> inline bool Newtonsoft::Json::Utilitie
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(), { "Remove", {}, { ::i2c::type_of<TKey>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key);
 }
-template <typename TKey, typename TValue> inline bool Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::TryGetValue(TKey key, ::by_ref<TValue> value) {
+template <typename TKey, typename TValue> inline bool Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::TryGetValue(TKey key, /* [Nullable(2)] */ ::by_ref<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(),
                                                                                          { "TryGetValue", {}, { ::i2c::type_of<TKey>(), ::i2c::type_of<::by_ref<TValue>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key, value);
@@ -258,7 +258,8 @@ template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilitie
                                                                                          { "set_Item", {}, { ::i2c::type_of<TKey>(), ::i2c::type_of<TValue>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, key, value);
 }
-template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::Add(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item) {
+template <typename TKey, typename TValue>
+inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::Add(/* [Nullable(new[] { 0, 1, 1 })] */ ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(),
                                                                                          { "Add", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, item);
@@ -267,13 +268,15 @@ template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilitie
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline bool Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::Contains(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item) {
+template <typename TKey, typename TValue>
+inline bool Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::Contains(/* [Nullable(new[] { 0, 1, 1 })] */ ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(),
                                                                                          { "Contains", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item);
 }
 template <typename TKey, typename TValue>
-inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::CopyTo(::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int32_t arrayIndex) {
+inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::CopyTo(/* [Nullable(new[] { 1, 0, 1, 1 })] */ ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array,
+                                                                                   int32_t arrayIndex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(),
                                                            { "CopyTo", {}, { ::i2c::type_of<::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>>(), ::i2c::type_of<int32_t>() } })));
@@ -289,7 +292,8 @@ template <typename TKey, typename TValue> inline bool Newtonsoft::Json::Utilitie
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(), { "get_IsReadOnly", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline bool Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::Remove(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item) {
+template <typename TKey, typename TValue>
+inline bool Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::Remove(/* [Nullable(new[] { 0, 1, 1 })] */ ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(),
                                                                                          { "Remove", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item);
@@ -306,7 +310,7 @@ template <typename TKey, typename TValue> inline ::System::Collections::IEnumera
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
-inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::System_Collections_IDictionary_Add(::System::Object* key, ::System::Object* value) {
+inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::System_Collections_IDictionary_Add(::System::Object* key, /* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(),
                                                            { "System.Collections.IDictionary.Add", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
@@ -318,7 +322,7 @@ template <typename TKey, typename TValue> inline ::System::Object* Newtonsoft::J
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, key);
 }
 template <typename TKey, typename TValue>
-inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::System_Collections_IDictionary_set_Item(::System::Object* key, ::System::Object* value) {
+inline void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::System_Collections_IDictionary_set_Item(::System::Object* key, /* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>*>(),
                                                            { "System.Collections.IDictionary.set_Item", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));

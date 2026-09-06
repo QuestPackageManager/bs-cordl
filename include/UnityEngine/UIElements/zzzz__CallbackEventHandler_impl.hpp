@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CallbackEventHandler.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CallbackEventHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CallbackEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
@@ -289,6 +290,7 @@ constexpr void UnityEngine::UIElements::CallbackEventHandler::__cordl_internal_s
   this->___m_CallbackRegistry = value;
 }
 template <typename TEventType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
 inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
@@ -298,7 +300,9 @@ inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::Un
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEventType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, useTrickleDown);
 }
-template <typename TEventType> inline void UnityEngine::UIElements::CallbackEventHandler::AddEventCategories(::UnityEngine::UIElements::TrickleDown useTrickleDown) {
+template <typename TEventType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
+inline void UnityEngine::UIElements::CallbackEventHandler::AddEventCategories(::UnityEngine::UIElements::TrickleDown useTrickleDown) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
                                                            { "AddEventCategories", { ::i2c::class_of<TEventType>() }, { ::i2c::type_of<::UnityEngine::UIElements::TrickleDown>() } })));
@@ -306,6 +310,7 @@ template <typename TEventType> inline void UnityEngine::UIElements::CallbackEven
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, useTrickleDown);
 }
 template <typename TEventType, typename TUserArgsType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
 inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType, TUserArgsType>* callback, TUserArgsType userArgs,
                                                                             ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
@@ -317,6 +322,7 @@ inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::Un
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, userArgs, useTrickleDown);
 }
 template <typename TEventType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
 inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::InvokePolicy invokePolicy,
                                                                             ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
   static auto* ___internal_method_base =
@@ -329,6 +335,7 @@ inline void UnityEngine::UIElements::CallbackEventHandler::RegisterCallback(::Un
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, invokePolicy, useTrickleDown);
 }
 template <typename TEventType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
 inline void UnityEngine::UIElements::CallbackEventHandler::UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
@@ -339,6 +346,7 @@ inline void UnityEngine::UIElements::CallbackEventHandler::UnregisterCallback(::
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, callback, useTrickleDown);
 }
 template <typename TEventType, typename TUserArgsType>
+  requires(::cordl_internals::type_constraint<TEventType, ::UnityEngine::UIElements::EventBase_1<TEventType>*> && ::cordl_internals::default_constructor_constraint<TEventType>)
 inline void UnityEngine::UIElements::CallbackEventHandler::UnregisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType, TUserArgsType>* callback,
                                                                               ::UnityEngine::UIElements::TrickleDown useTrickleDown) {
   static auto* ___internal_method_base =
@@ -431,7 +439,7 @@ inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionD
                                                            { "ExecuteDefaultActionDisabledAtTargetInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::NotifyPropertyChanged(::by_ref<::UnityEngine::UIElements::BindingId> property) {
+inline void UnityEngine::UIElements::CallbackEventHandler::NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
                                                                                          { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, property);

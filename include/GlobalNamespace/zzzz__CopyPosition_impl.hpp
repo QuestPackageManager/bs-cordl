@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CopyPosition.hpp"
+// IWYU pragma private; include "GlobalNamespace/CopyPosition.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CopyPosition_def.hpp"
 #include "GlobalNamespace/zzzz__CopyPosition_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\CancellationCallbackCoreWorkArguments.hpp"
+// IWYU pragma private; include "System/Threading/CancellationCallbackCoreWorkArguments.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ namespace System::Threading {
 class CancellationCallbackInfo;
 }
 namespace System::Threading {
-template <typename T> class SparselyPopulatedArrayFragment_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class SparselyPopulatedArrayFragment_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -34,7 +36,7 @@ public:
   constexpr CancellationCallbackCoreWorkArguments();
 
   // Ctor Parameters [CppParam { name: "_currArrayFragment", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>*", modifiers: "", def_value:
-  // None }, CppParam { name: "_currArrayIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // None, comment: None }, CppParam { name: "_currArrayIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CancellationCallbackCoreWorkArguments(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* _currArrayFragment,
                                                   int32_t _currArrayIndex) noexcept;
 

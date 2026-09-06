@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidJoystick.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidJoystick.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AndroidJoystick;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Android::AndroidJoystick*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::AndroidJoystick*, "UnityEngine.InputSystem.Android", "AndroidJoystick");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.Android.LowLevel.AndroidGameControllerState), variants = "Joystick")]
 // Dependencies UnityEngine.InputSystem.Joystick
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AndroidJoystick();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJoystick", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJoystick", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidJoystick(AndroidJoystick&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJoystick", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJoystick", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidJoystick(AndroidJoystick const&) = delete;
+  AndroidJoystick(AndroidJoystickconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8922 };

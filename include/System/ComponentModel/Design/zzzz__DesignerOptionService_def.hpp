@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\Design\DesignerOptionService.hpp"
+// IWYU pragma private; include "System/ComponentModel/Design/DesignerOptionService.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -159,13 +159,13 @@ protected:
   constexpr DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor(DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor(DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor const&) = delete;
+  DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor(DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11355 };
@@ -186,6 +186,9 @@ static_assert(offsetof(::System::ComponentModel::Design::DesignerOptionCollectio
 static_assert(sizeof(::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor) == 0x98, "Size mismatch!");
 
 } // namespace System::ComponentModel::Design
+// [DefaultMember("Item")]
+// [TypeConverter(typeof(System.ComponentModel.Design.DesignerOptionService::DesignerOptionConverter))]
+// [Editor("", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 // Dependencies System.Object
 namespace System::ComponentModel::Design {
 // Is value type: false
@@ -286,13 +289,13 @@ protected:
   constexpr DesignerOptionService_DesignerOptionCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService_DesignerOptionCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService_DesignerOptionCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignerOptionService_DesignerOptionCollection(DesignerOptionService_DesignerOptionCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService_DesignerOptionCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService_DesignerOptionCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesignerOptionService_DesignerOptionCollection(DesignerOptionService_DesignerOptionCollection const&) = delete;
+  DesignerOptionService_DesignerOptionCollection(DesignerOptionService_DesignerOptionCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11356 };
@@ -386,13 +389,13 @@ protected:
   constexpr DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor(DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor(DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor const&) = delete;
+  DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor(DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11357 };
@@ -438,13 +441,13 @@ protected:
   constexpr DesignerOptionService_DesignerOptionConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService_DesignerOptionConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService_DesignerOptionConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignerOptionService_DesignerOptionConverter(DesignerOptionService_DesignerOptionConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService_DesignerOptionConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService_DesignerOptionConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesignerOptionService_DesignerOptionConverter(DesignerOptionService_DesignerOptionConverter const&) = delete;
+  DesignerOptionService_DesignerOptionConverter(DesignerOptionService_DesignerOptionConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11358 };
@@ -475,13 +478,13 @@ protected:
   constexpr DesignerOptionService();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignerOptionService(DesignerOptionService&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesignerOptionService(DesignerOptionService const&) = delete;
+  DesignerOptionService(DesignerOptionServiceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11359 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\OculusAdvancedHapticFeedbackPlayer.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/OculusAdvancedHapticFeedbackPlayer.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Haptics/zzzz__OculusAdvancedHapticFeedbackPlayer_def.hpp"

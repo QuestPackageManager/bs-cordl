@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1Exception.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Exception.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ protected:
   constexpr Asn1Exception();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Exception", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Exception", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Exception(Asn1Exception&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Exception", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Exception", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Exception(Asn1Exception const&) = delete;
+  Asn1Exception(Asn1Exceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 450 };

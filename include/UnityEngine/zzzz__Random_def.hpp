@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Random.hpp"
+// IWYU pragma private; include "UnityEngine/Random.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,8 +43,8 @@ public:
   // @brief default ctor
   constexpr Random_State();
 
-  // Ctor Parameters [CppParam { name: "s0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "s1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "s2", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "s3", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "s0", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "s1", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "s2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "s3", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Random_State(int32_t s0, int32_t s1, int32_t s2, int32_t s3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -53,15 +53,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
   /// @brief Field s0, offset: 0x0, size: 0x4, def value: None
   int32_t s0;
 
+  /// [SerializeField]
   /// @brief Field s1, offset: 0x4, size: 0x4, def value: None
   int32_t s1;
 
+  /// [SerializeField]
   /// @brief Field s2, offset: 0x8, size: 0x4, def value: None
   int32_t s2;
 
+  /// [SerializeField]
   /// @brief Field s3, offset: 0xc, size: 0x4, def value: None
   int32_t s3;
 
@@ -79,6 +83,7 @@ static_assert(offsetof(::UnityEngine::Random_State, s3) == 0xc, "Offset mismatch
 static_assert(sizeof(::UnityEngine::Random_State) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Export/Random/Random.bindings.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -94,24 +99,30 @@ public:
   /// @brief Method ColorHSV, addr 0x6ad8708, size 0x180, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorHSV(float_t hueMin, float_t hueMax, float_t saturationMin, float_t saturationMax, float_t valueMin, float_t valueMax, float_t alphaMin, float_t alphaMax);
 
+  /// [NativeMethod("SetSeed")]
+  /// [StaticAccessor("GetScriptingRand()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// @brief Method InitState, addr 0x6ad83b0, size 0x3c, virtual false, abstract: false, final false
   static inline void InitState(int32_t seed);
 
+  /// [FreeFunction]
   /// @brief Method RandomRangeInt, addr 0x6ad856c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t RandomRangeInt(int32_t minInclusive, int32_t maxExclusive);
 
+  /// [FreeFunction]
   /// @brief Method Range, addr 0x6ad84e8, size 0x40, virtual false, abstract: false, final false
   static inline float_t Range(float_t minInclusive, float_t maxInclusive);
 
   /// @brief Method Range, addr 0x6ad8528, size 0x44, virtual false, abstract: false, final false
   static inline int32_t Range(int32_t minInclusive, int32_t maxExclusive);
 
+  /// [FreeFunction]
   /// @brief Method get_onUnitSphere, addr 0x6ad85d8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 get_onUnitSphere();
 
   /// @brief Method get_onUnitSphere_Injected, addr 0x6ad8624, size 0x3c, virtual false, abstract: false, final false
   static inline void get_onUnitSphere_Injected(::by_ref<::UnityEngine::Vector3> ret);
 
+  /// [FreeFunction]
   /// @brief Method get_rotation, addr 0x6ad8660, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion get_rotation();
 
@@ -124,6 +135,7 @@ public:
   /// @brief Method get_state_Injected, addr 0x6ad8430, size 0x3c, virtual false, abstract: false, final false
   static inline void get_state_Injected(::by_ref<::UnityEngine::Random_State> ret);
 
+  /// [FreeFunction]
   /// @brief Method get_value, addr 0x6ad85b0, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_value();
 
@@ -139,13 +151,13 @@ protected:
   constexpr Random();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Random(Random&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Random(Random const&) = delete;
+  Random(Randomconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10290 };

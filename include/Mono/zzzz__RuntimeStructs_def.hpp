@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeStructs.hpp"
+// IWYU pragma private; include "Mono/RuntimeStructs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,9 +61,9 @@ public:
   // @brief default ctor
   constexpr RuntimeStructs_RemoteClass();
 
-  // Ctor Parameters [CppParam { name: "default_vtable", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "xdomain_vtable", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }, CppParam { name: "proxy_class", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None }, CppParam { name: "proxy_class_name", ty: "::System::IntPtr", modifiers: "",
-  // def_value: None }, CppParam { name: "interface_count", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "default_vtable", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "xdomain_vtable", ty: "::System::IntPtr", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "proxy_class", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "proxy_class_name", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "interface_count", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeStructs_RemoteClass(::System::IntPtr default_vtable, ::System::IntPtr xdomain_vtable, ::Mono::RuntimeStructs_MonoClass* proxy_class, ::System::IntPtr proxy_class_name,
                                        uint32_t interface_count) noexcept;
 
@@ -143,9 +143,9 @@ public:
   // @brief default ctor
   constexpr RuntimeStructs_GenericParamInfo();
 
-  // Ctor Parameters [CppParam { name: "pklass", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }, CppParam { name: "flags", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "token", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "constraints", ty:
-  // "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pklass", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None, comment: None }, CppParam { name: "name", ty: "::System::IntPtr", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "flags", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "token", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "constraints", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeStructs_GenericParamInfo(::Mono::RuntimeStructs_MonoClass* pklass, ::System::IntPtr name, uint16_t flags, uint32_t token, ::Mono::RuntimeStructs_MonoClass* constraints) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -196,7 +196,8 @@ public:
   // @brief default ctor
   constexpr RuntimeStructs_GPtrArray();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "::System::IntPtr*", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "::System::IntPtr*", modifiers: "", def_value: None, comment: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr RuntimeStructs_GPtrArray(::System::IntPtr* data, int32_t len) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -242,13 +243,13 @@ protected:
   constexpr RuntimeStructs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeStructs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeStructs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeStructs(RuntimeStructs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeStructs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeStructs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeStructs(RuntimeStructs const&) = delete;
+  RuntimeStructs(RuntimeStructsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2239 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\DataSetConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/DataSetConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class DataSetConverter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::DataSetConverter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::DataSetConverter*, "Newtonsoft.Json.Converters", "DataSetConverter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -40,10 +42,11 @@ public:
   static inline ::Newtonsoft::Json::Converters::DataSetConverter* New_ctor();
 
   /// @brief Method ReadJson, addr 0x5d97604, size 0x2d4, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
+                                    ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method WriteJson, addr 0x5d97190, size 0x470, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method .ctor, addr 0x5d97958, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -54,13 +57,13 @@ protected:
   constexpr DataSetConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataSetConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataSetConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataSetConverter(DataSetConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataSetConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataSetConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataSetConverter(DataSetConverter const&) = delete;
+  DataSetConverter(DataSetConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13652 };

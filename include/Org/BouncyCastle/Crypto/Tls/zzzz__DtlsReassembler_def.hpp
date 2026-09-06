@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DtlsReassembler.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DtlsReassembler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +77,13 @@ protected:
   constexpr DtlsReassembler_Range();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler_Range", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler_Range", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsReassembler_Range(DtlsReassembler_Range&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler_Range", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler_Range", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReassembler_Range(DtlsReassembler_Range const&) = delete;
+  DtlsReassembler_Range(DtlsReassembler_Rangeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1227 };
@@ -165,13 +165,13 @@ protected:
   constexpr DtlsReassembler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsReassembler(DtlsReassembler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DtlsReassembler(DtlsReassembler const&) = delete;
+  DtlsReassembler(DtlsReassemblerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1228 };

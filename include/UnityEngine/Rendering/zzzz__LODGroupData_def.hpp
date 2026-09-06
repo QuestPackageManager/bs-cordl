@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LODGroupData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LODGroupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,8 @@ MARK_VAL_T(::UnityEngine::Rendering::LODGroupData__screenRelativeTransitionHeigh
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LODGroupData, "UnityEngine.Rendering", "LODGroupData");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LODGroupData__fadeTransitionWidth_e__FixedBuffer, "UnityEngine.Rendering", "LODGroupData/<fadeTransitionWidth>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::LODGroupData__screenRelativeTransitionHeights_e__FixedBuffer, "UnityEngine.Rendering", "LODGroupData/<screenRelativeTransitionHeights>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -42,7 +44,7 @@ public:
   // @brief default ctor
   constexpr LODGroupData__fadeTransitionWidth_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LODGroupData__fadeTransitionWidth_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -66,6 +68,8 @@ static_assert(offsetof(::UnityEngine::Rendering::LODGroupData__fadeTransitionWid
 static_assert(sizeof(::UnityEngine::Rendering::LODGroupData__fadeTransitionWidth_e__FixedBuffer) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -78,7 +82,7 @@ public:
   // @brief default ctor
   constexpr LODGroupData__screenRelativeTransitionHeights_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LODGroupData__screenRelativeTransitionHeights_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -117,10 +121,10 @@ public:
   // @brief default ctor
   constexpr LODGroupData();
 
-  // Ctor Parameters [CppParam { name: "valid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "lodCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rendererCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "screenRelativeTransitionHeights", ty:
-  // "::UnityEngine::Rendering::LODGroupData__screenRelativeTransitionHeights_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "fadeTransitionWidth", ty:
-  // "::UnityEngine::Rendering::LODGroupData__fadeTransitionWidth_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "valid", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodCount", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "rendererCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "screenRelativeTransitionHeights", ty:
+  // "::UnityEngine::Rendering::LODGroupData__screenRelativeTransitionHeights_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "fadeTransitionWidth", ty:
+  // "::UnityEngine::Rendering::LODGroupData__fadeTransitionWidth_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr LODGroupData(bool valid, int32_t lodCount, int32_t rendererCount, ::UnityEngine::Rendering::LODGroupData__screenRelativeTransitionHeights_e__FixedBuffer screenRelativeTransitionHeights,
                          ::UnityEngine::Rendering::LODGroupData__fadeTransitionWidth_e__FixedBuffer fadeTransitionWidth) noexcept;
 
@@ -142,9 +146,11 @@ public:
   /// @brief Field rendererCount, offset: 0x8, size: 0x4, def value: None
   int32_t rendererCount;
 
+  /// [FixedBuffer(typeof(System.Single), 8)]
   /// @brief Field screenRelativeTransitionHeights, offset: 0xc, size: 0x20, def value: None
   ::UnityEngine::Rendering::LODGroupData__screenRelativeTransitionHeights_e__FixedBuffer screenRelativeTransitionHeights;
 
+  /// [FixedBuffer(typeof(System.Single), 8)]
   /// @brief Field fadeTransitionWidth, offset: 0x2c, size: 0x20, def value: None
   ::UnityEngine::Rendering::LODGroupData__fadeTransitionWidth_e__FixedBuffer fadeTransitionWidth;
 

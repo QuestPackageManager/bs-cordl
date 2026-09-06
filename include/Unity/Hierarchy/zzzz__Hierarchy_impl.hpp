@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\Hierarchy.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/Hierarchy.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Hierarchy/zzzz__Hierarchy_def.hpp"
@@ -801,55 +801,56 @@ inline ::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable Unity::Hierarc
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "EnumerateNodeTypeHandlersBase", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable>(this, ___internal_method);
 }
-inline bool Unity::Hierarchy::Hierarchy::Exists(::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline bool Unity::Hierarchy::Hierarchy::Exists(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "Exists", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node);
 }
-inline ::Unity::Hierarchy::HierarchyNode Unity::Hierarchy::Hierarchy::Add(::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
+inline ::Unity::Hierarchy::HierarchyNode Unity::Hierarchy::Hierarchy::Add(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "Add", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNode>(this, ___internal_method, parent);
 }
-inline bool Unity::Hierarchy::Hierarchy::SetParent(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
+inline bool Unity::Hierarchy::Hierarchy::SetParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
                                               { "SetParent", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node, parent);
 }
-inline ::Unity::Hierarchy::HierarchyNode Unity::Hierarchy::Hierarchy::GetParent(::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline ::Unity::Hierarchy::HierarchyNode Unity::Hierarchy::Hierarchy::GetParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "GetParent", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNode>(this, ___internal_method, node);
 }
-inline ::ArrayW<::Unity::Hierarchy::HierarchyNode> Unity::Hierarchy::Hierarchy::GetChildren(::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline ::ArrayW<::Unity::Hierarchy::HierarchyNode> Unity::Hierarchy::Hierarchy::GetChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "GetChildren", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::Unity::Hierarchy::HierarchyNode>>(this, ___internal_method, node);
 }
-inline ::Unity::Hierarchy::HierarchyNodeChildren Unity::Hierarchy::Hierarchy::EnumerateChildren(::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline ::Unity::Hierarchy::HierarchyNodeChildren Unity::Hierarchy::Hierarchy::EnumerateChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "EnumerateChildren", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNodeChildren>(this, ___internal_method, node);
 }
-inline int32_t Unity::Hierarchy::Hierarchy::GetChildrenCount(::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline int32_t Unity::Hierarchy::Hierarchy::GetChildrenCount(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "GetChildrenCount", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, node);
 }
-inline void Unity::Hierarchy::Hierarchy::SetSortIndex(::by_ref<::Unity::Hierarchy::HierarchyNode> node, int32_t sortIndex) {
+inline void Unity::Hierarchy::Hierarchy::SetSortIndex(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, int32_t sortIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "SetSortIndex", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, sortIndex);
 }
-inline void Unity::Hierarchy::Hierarchy::SortChildren(::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool recurse) {
+inline void Unity::Hierarchy::Hierarchy::SortChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool recurse) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "SortChildren", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, recurse);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T> Unity::Hierarchy::Hierarchy::GetOrCreatePropertyUnmanaged(::StringW name, ::Unity::Hierarchy::HierarchyPropertyStorageType type) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -887,23 +888,25 @@ inline int32_t Unity::Hierarchy::Hierarchy::GetNodeTypeHandlersBaseSpan(::System
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "GetNodeTypeHandlersBaseSpan", {}, { ::i2c::type_of<::System::Span_1<::System::IntPtr>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, outHandlers);
 }
-inline ::Unity::Hierarchy::HierarchyNode Unity::Hierarchy::Hierarchy::AddNode(::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
+inline ::Unity::Hierarchy::HierarchyNode Unity::Hierarchy::Hierarchy::AddNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "AddNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNode>(this, ___internal_method, parent);
 }
-inline ::System::IntPtr Unity::Hierarchy::Hierarchy::EnumerateChildrenPtr(::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline ::System::IntPtr Unity::Hierarchy::Hierarchy::EnumerateChildrenPtr(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "EnumerateChildrenPtr", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(this, ___internal_method, node);
 }
-inline ::Unity::Hierarchy::HierarchyPropertyId Unity::Hierarchy::Hierarchy::GetOrCreateProperty(::StringW name, ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor> descriptor) {
+inline ::Unity::Hierarchy::HierarchyPropertyId Unity::Hierarchy::Hierarchy::GetOrCreateProperty(::StringW name,
+                                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor> descriptor) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
                                               { "GetOrCreateProperty", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyPropertyId>(this, ___internal_method, name, descriptor);
 }
-inline void Unity::Hierarchy::Hierarchy::SetPropertyRaw(::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, void* ptr, int32_t size) {
+inline void Unity::Hierarchy::Hierarchy::SetPropertyRaw(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property,
+                                                        /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, void* ptr, int32_t size) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
                                                            { "SetPropertyRaw",
@@ -912,7 +915,8 @@ inline void Unity::Hierarchy::Hierarchy::SetPropertyRaw(::by_ref<::Unity::Hierar
                                                                ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, property, node, ptr, size);
 }
-inline void* Unity::Hierarchy::Hierarchy::GetPropertyRaw(::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::by_ref<int32_t> size) {
+inline void* Unity::Hierarchy::Hierarchy::GetPropertyRaw(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property,
+                                                         /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::by_ref<int32_t> size) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "GetPropertyRaw",
@@ -932,13 +936,14 @@ inline bool Unity::Hierarchy::Hierarchy::get_UpdateNeeded_Injected(::System::Int
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "get_UpdateNeeded_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self);
 }
-inline bool Unity::Hierarchy::Hierarchy::Exists_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline bool Unity::Hierarchy::Hierarchy::Exists_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
                                                            { "Exists_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, node);
 }
-inline bool Unity::Hierarchy::Hierarchy::SetParent_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
+inline bool Unity::Hierarchy::Hierarchy::SetParent_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+                                                            /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "SetParent_Injected",
                                                                                                    {},
@@ -946,7 +951,8 @@ inline bool Unity::Hierarchy::Hierarchy::SetParent_Injected(::System::IntPtr _un
                                                                                                      ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, node, parent);
 }
-inline void Unity::Hierarchy::Hierarchy::GetParent_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::by_ref<::Unity::Hierarchy::HierarchyNode> ret) {
+inline void Unity::Hierarchy::Hierarchy::GetParent_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+                                                            ::by_ref<::Unity::Hierarchy::HierarchyNode> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "GetParent_Injected",
                                                                                                    {},
@@ -954,7 +960,7 @@ inline void Unity::Hierarchy::Hierarchy::GetParent_Injected(::System::IntPtr _un
                                                                                                      ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, node, ret);
 }
-inline void Unity::Hierarchy::Hierarchy::GetChildren_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+inline void Unity::Hierarchy::Hierarchy::GetChildren_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
                                                               ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "GetChildren_Injected",
@@ -963,20 +969,20 @@ inline void Unity::Hierarchy::Hierarchy::GetChildren_Injected(::System::IntPtr _
                                                                                                      ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, node, ret);
 }
-inline int32_t Unity::Hierarchy::Hierarchy::GetChildrenCount_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline int32_t Unity::Hierarchy::Hierarchy::GetChildrenCount_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
                                               { "GetChildrenCount_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, _unity_self, node);
 }
-inline void Unity::Hierarchy::Hierarchy::SetSortIndex_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, int32_t sortIndex) {
+inline void Unity::Hierarchy::Hierarchy::SetSortIndex_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, int32_t sortIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
                           { "SetSortIndex_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, node, sortIndex);
 }
-inline void Unity::Hierarchy::Hierarchy::SortChildren_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool recurse) {
+inline void Unity::Hierarchy::Hierarchy::SortChildren_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, bool recurse) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
@@ -1000,7 +1006,8 @@ inline int32_t Unity::Hierarchy::Hierarchy::GetNodeTypeHandlersBaseSpan_Injected
                           { "GetNodeTypeHandlersBaseSpan_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, _unity_self, outHandlers);
 }
-inline void Unity::Hierarchy::Hierarchy::AddNode_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> parent, ::by_ref<::Unity::Hierarchy::HierarchyNode> ret) {
+inline void Unity::Hierarchy::Hierarchy::AddNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> parent,
+                                                          ::by_ref<::Unity::Hierarchy::HierarchyNode> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "AddNode_Injected",
                                                                                                    {},
@@ -1008,14 +1015,15 @@ inline void Unity::Hierarchy::Hierarchy::AddNode_Injected(::System::IntPtr _unit
                                                                                                      ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, parent, ret);
 }
-inline ::System::IntPtr Unity::Hierarchy::Hierarchy::EnumerateChildrenPtr_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline ::System::IntPtr Unity::Hierarchy::Hierarchy::EnumerateChildrenPtr_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
                                               { "EnumerateChildrenPtr_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, _unity_self, node);
 }
 inline void Unity::Hierarchy::Hierarchy::GetOrCreateProperty_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name,
-                                                                      ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor> descriptor, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> ret) {
+                                                                      /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor> descriptor,
+                                                                      ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
@@ -1025,8 +1033,8 @@ inline void Unity::Hierarchy::Hierarchy::GetOrCreateProperty_Injected(::System::
                                            ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor>>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyPropertyId>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, name, descriptor, ret);
 }
-inline void Unity::Hierarchy::Hierarchy::SetPropertyRaw_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property,
-                                                                 ::by_ref<::Unity::Hierarchy::HierarchyNode> node, void* ptr, int32_t size) {
+inline void Unity::Hierarchy::Hierarchy::SetPropertyRaw_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property,
+                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, void* ptr, int32_t size) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(),
                                                            { "SetPropertyRaw_Injected",
@@ -1035,8 +1043,8 @@ inline void Unity::Hierarchy::Hierarchy::SetPropertyRaw_Injected(::System::IntPt
                                                                ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, property, node, ptr, size);
 }
-inline void* Unity::Hierarchy::Hierarchy::GetPropertyRaw_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property,
-                                                                  ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::by_ref<int32_t> size) {
+inline void* Unity::Hierarchy::Hierarchy::GetPropertyRaw_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::by_ref<int32_t> size) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::Hierarchy*>(), { "GetPropertyRaw_Injected",

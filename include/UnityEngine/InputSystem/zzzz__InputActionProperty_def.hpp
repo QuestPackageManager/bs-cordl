@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionProperty.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionProperty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,8 +101,8 @@ public:
   // @brief default ctor
   constexpr InputActionProperty();
 
-  // Ctor Parameters [CppParam { name: "m_UseReference", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Reference", ty: "::UnityW<::UnityEngine::InputSystem::InputActionReference>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_UseReference", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Reference", ty: "::UnityW<::UnityEngine::InputSystem::InputActionReference>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionProperty(bool m_UseReference, ::UnityEngine::InputSystem::InputAction* m_Action, ::UnityW<::UnityEngine::InputSystem::InputActionReference> m_Reference) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -111,12 +111,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [SerializeField]
   /// @brief Field m_UseReference, offset: 0x0, size: 0x1, def value: None
   bool m_UseReference;
 
+  /// [SerializeField]
   /// @brief Field m_Action, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* m_Action;
 
+  /// [SerializeField]
   /// @brief Field m_Reference, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> m_Reference;
 

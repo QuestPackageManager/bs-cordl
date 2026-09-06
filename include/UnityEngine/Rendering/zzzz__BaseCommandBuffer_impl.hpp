@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BaseCommandBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BaseCommandBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BaseCommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphPass_def.hpp"

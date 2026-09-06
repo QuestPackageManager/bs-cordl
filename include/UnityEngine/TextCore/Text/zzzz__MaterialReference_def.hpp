@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\MaterialReference.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/MaterialReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,11 +51,11 @@ public:
   // @brief default ctor
   constexpr MaterialReference();
 
-  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "",
-  // def_value: None }, CppParam { name: "spriteAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: None }, CppParam { name: "material", ty:
-  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "isFallbackMaterial", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fallbackMaterial",
-  // ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "referenceCount", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "spriteAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "isFallbackMaterial", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "fallbackMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "padding", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "referenceCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MaterialReference(int32_t index, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset,
                               ::UnityW<::UnityEngine::Material> material, bool isFallbackMaterial, ::UnityW<::UnityEngine::Material> fallbackMaterial, float_t padding,
                               int32_t referenceCount) noexcept;

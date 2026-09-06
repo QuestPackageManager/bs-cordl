@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\Design\IDesignerHost.hpp"
+// IWYU pragma private; include "System/ComponentModel/Design/IDesignerHost.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,18 +32,18 @@ public:
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
 
-  /// @brief Method GetDesigner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDesigner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::Design::IDesigner* GetDesigner(::System::ComponentModel::IComponent* component);
 
-  /// @brief Method get_RootComponent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_RootComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::IComponent* get_RootComponent();
 
   /// @brief Convert to "::System::IServiceProvider"
   constexpr ::System::IServiceProvider* i___System__IServiceProvider() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDesignerHost", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDesignerHost", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDesignerHost(IDesignerHost const&) = delete;
+  IDesignerHost(IDesignerHostconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11350 };

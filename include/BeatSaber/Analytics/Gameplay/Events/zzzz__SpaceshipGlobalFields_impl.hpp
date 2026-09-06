@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipGlobalFields.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipGlobalFields.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipGlobalFields_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields.SetGlobalAppID

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\StreamContent.hpp"
+// IWYU pragma private; include "System/Net/Http/StreamContent.hpp"
 #include "System/Net/Http/zzzz__HttpContent_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/Net/Http/zzzz__StreamContent_def.hpp"

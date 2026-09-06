@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\EventTrigger.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/EventTrigger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,13 +118,13 @@ protected:
   constexpr EventTrigger_TriggerEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_TriggerEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_TriggerEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventTrigger_TriggerEvent(EventTrigger_TriggerEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_TriggerEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_TriggerEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventTrigger_TriggerEvent(EventTrigger_TriggerEvent const&) = delete;
+  EventTrigger_TriggerEvent(EventTrigger_TriggerEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17561 };
@@ -171,13 +171,13 @@ protected:
   constexpr EventTrigger_Entry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_Entry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_Entry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventTrigger_Entry(EventTrigger_Entry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_Entry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventTrigger_Entry(EventTrigger_Entry const&) = delete;
+  EventTrigger_Entry(EventTrigger_Entryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17562 };
@@ -198,6 +198,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::EventTrigger_Entry, ___callb
 static_assert(sizeof(::UnityEngine::EventSystems::EventTrigger_Entry) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
+// [AddComponentMenu("Event/Event Trigger")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -209,6 +210,8 @@ public:
 
   using TriggerEvent = ::UnityEngine::EventSystems::EventTrigger_TriggerEvent;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("Please use triggers instead (UnityUpgradable) -> triggers", true)]
   __declspec(property(get = get_delegates, put = set_delegates)) ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>* delegates;
 
   /// @brief Field m_Delegates, offset 0x20, size 0x8
@@ -408,17 +411,19 @@ protected:
   constexpr EventTrigger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventTrigger(EventTrigger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventTrigger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventTrigger(EventTrigger const&) = delete;
+  EventTrigger(EventTriggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17563 };
 
+  /// [FormerlySerializedAs("delegates")]
+  /// [SerializeField]
   /// @brief Field m_Delegates, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>* ___m_Delegates;
 

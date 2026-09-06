@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\SerializedType.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/SerializedType.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__SerializedType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::SerializedType.get_AssemblyName
@@ -128,8 +128,9 @@ inline void UnityEngine::ResourceManagement::Util::SerializedType::set_ValueChan
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::SerializedType>(), { "set_ValueChanged", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_AssemblyName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ClassName", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_CachedType", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ValueChanged_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_AssemblyName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ClassName", ty: "::StringW", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_CachedType", ty: "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_ValueChanged_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::Util::SerializedType::SerializedType(::StringW m_AssemblyName, ::StringW m_ClassName, ::System::Type* m_CachedType,
                                                                                   bool _ValueChanged_k__BackingField) noexcept {
   this->m_AssemblyName = m_AssemblyName;

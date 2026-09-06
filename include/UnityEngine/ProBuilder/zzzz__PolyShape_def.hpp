@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\PolyShape.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/PolyShape.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   // @brief default ctor
   constexpr PolyShape_PolyEditMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PolyShape_PolyEditMode(int32_t value__) noexcept;
 
   /// @brief Field Edit value: I32(3)
@@ -102,6 +102,11 @@ static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape_PolyEditMode, value_
 static_assert(sizeof(::UnityEngine::ProBuilder::PolyShape_PolyEditMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [AddComponentMenu("")]
+// [DisallowMultipleComponent]
+// [ExcludeFromPreset]
+// [ExcludeFromObjectFactory]
+// [ProGridsConditionalSnap]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.ProBuilder.PolyShape::PolyEditMode
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -219,13 +224,13 @@ protected:
   constexpr PolyShape();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PolyShape", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PolyShape", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PolyShape(PolyShape&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PolyShape", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PolyShape", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PolyShape(PolyShape const&) = delete;
+  PolyShape(PolyShapeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16761 };
@@ -236,18 +241,27 @@ public:
   /// @brief Field m_Mesh, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___m_Mesh;
 
+  /// [FormerlySerializedAs("points")]
+  /// [SerializeField]
   /// @brief Field m_Points, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___m_Points;
 
+  /// [FormerlySerializedAs("extrude")]
+  /// [SerializeField]
   /// @brief Field m_Extrude, offset: 0x30, size: 0x4, def value: None
   float_t ___m_Extrude;
 
+  /// [FormerlySerializedAs("polyEditMode")]
+  /// [SerializeField]
   /// @brief Field m_EditMode, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::PolyShape_PolyEditMode ___m_EditMode;
 
+  /// [FormerlySerializedAs("flipNormals")]
+  /// [SerializeField]
   /// @brief Field m_FlipNormals, offset: 0x38, size: 0x1, def value: None
   bool ___m_FlipNormals;
 
+  /// [SerializeField]
   /// @brief Field isOnGrid, offset: 0x39, size: 0x1, def value: None
   bool ___isOnGrid;
 

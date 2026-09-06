@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MovementBeatmapEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/MovementBeatmapEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,17 +74,18 @@ protected:
   constexpr MovementBeatmapEventEffect_MovementData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect_MovementData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect_MovementData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MovementBeatmapEventEffect_MovementData(MovementBeatmapEventEffect_MovementData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect_MovementData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect_MovementData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MovementBeatmapEventEffect_MovementData(MovementBeatmapEventEffect_MovementData const&) = delete;
+  MovementBeatmapEventEffect_MovementData(MovementBeatmapEventEffect_MovementDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5971 };
 
+  /// [SerializeField]
   /// @brief Field _localPositionOffset, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localPositionOffset;
 
@@ -96,6 +97,7 @@ static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect_MovementDat
 static_assert(sizeof(::GlobalNamespace::MovementBeatmapEventEffect_MovementData) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MovementBeatmapEventEffect")]
 // Dependencies BasicBeatmapEventType, MovementBeatmapEventEffect::MovementData, UnityEngine.MonoBehaviour, UnityEngine.Transform, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -235,32 +237,40 @@ protected:
   constexpr MovementBeatmapEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MovementBeatmapEventEffect(MovementBeatmapEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MovementBeatmapEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MovementBeatmapEventEffect(MovementBeatmapEventEffect const&) = delete;
+  MovementBeatmapEventEffect(MovementBeatmapEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5972 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapEventType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEventType;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _transitionSpeed, offset: 0x24, size: 0x4, def value: None
   float_t ____transitionSpeed;
 
+  /// [SerializeField]
   /// @brief Field _movementData, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MovementBeatmapEventEffect_MovementData*> ____movementData;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _transforms, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____transforms;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 

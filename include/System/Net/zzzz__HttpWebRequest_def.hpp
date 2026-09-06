@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HttpWebRequest.hpp"
+// IWYU pragma private; include "System/Net/HttpWebRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -153,7 +153,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -245,7 +247,7 @@ public:
   // @brief default ctor
   constexpr HttpWebRequest_NtlmAuthState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HttpWebRequest_NtlmAuthState(int32_t value__) noexcept;
 
   /// @brief Field Challenge value: I32(1)
@@ -312,9 +314,9 @@ public:
   // @brief default ctor
   constexpr HttpWebRequest_AuthorizationState();
 
-  // Ctor Parameters [CppParam { name: "request", ty: "::System::Net::HttpWebRequest*", modifiers: "", def_value: None }, CppParam { name: "isProxy", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "isCompleted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ntlm_auth_state", ty: "::System::Net::HttpWebRequest_NtlmAuthState", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "request", ty: "::System::Net::HttpWebRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "isProxy", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "isCompleted", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "ntlm_auth_state", ty:
+  // "::System::Net::HttpWebRequest_NtlmAuthState", modifiers: "", def_value: None, comment: None }]
   constexpr HttpWebRequest_AuthorizationState(::System::Net::HttpWebRequest* request, bool isProxy, bool isCompleted, ::System::Net::HttpWebRequest_NtlmAuthState ntlm_auth_state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -349,6 +351,7 @@ static_assert(offsetof(::System::Net::HttpWebRequest_AuthorizationState, ntlm_au
 static_assert(sizeof(::System::Net::HttpWebRequest_AuthorizationState) == 0x10, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net {
 // cpp template
@@ -386,13 +389,13 @@ protected:
   constexpr HttpWebRequest___c__241_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpWebRequest___c__241_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpWebRequest___c__241_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpWebRequest___c__241_1(HttpWebRequest___c__241_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpWebRequest___c__241_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpWebRequest___c__241_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpWebRequest___c__241_1(HttpWebRequest___c__241_1 const&) = delete;
+  HttpWebRequest___c__241_1(HttpWebRequest___c__241_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11605 };
@@ -401,6 +404,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace System::Net {
 // cpp template
@@ -416,6 +420,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -426,11 +431,12 @@ public:
   // @brief default ctor
   constexpr HttpWebRequest__RunWithTimeoutWorker_d__241_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None }, CppParam { name: "workerTask", ty: "::System::Threading::Tasks::Task_1<T>*", modifiers: "",
-  // def_value: None }, CppParam { name: "timeout", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cts", ty: "::System::Threading::CancellationTokenSource*", modifiers: "",
-  // def_value: None }, CppParam { name: "abort", ty: "::System::Action*", modifiers: "", def_value: None }, CppParam { name: "aborted", ty: "::System::Func_1<bool>*", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "workerTask", ty: "::System::Threading::Tasks::Task_1<T>*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "timeout", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cts", ty:
+  // "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None, comment: None }, CppParam { name: "abort", ty: "::System::Action*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "aborted", ty: "::System::Func_1<bool>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr HttpWebRequest__RunWithTimeoutWorker_d__241_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder,
                                                           ::System::Threading::Tasks::Task_1<T>* workerTask, int32_t timeout, ::System::Threading::CancellationTokenSource* cts,
                                                           ::System::Action* abort, ::System::Func_1<bool>* aborted,
@@ -470,6 +476,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken,
 // System.ValueTuple`5<T1, T2, T3, T4, T5>
@@ -485,6 +492,7 @@ public:
   /// @brief Method MoveNext, addr 0x6335828, size 0xefc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x6336774, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -495,19 +503,20 @@ public:
   // @brief default ctor
   constexpr HttpWebRequest__MyGetResponseAsync_d__243();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::HttpWebResponse*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::System::Net::HttpWebRequest*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam
-  // { name: "_completion_5__2", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: None }, CppParam { name: "_operation_5__3", ty: "::System::Net::WebOperation*", modifiers: "",
-  // def_value: None }, CppParam { name: "_throwMe_5__4", ty: "::System::Net::WebException*", modifiers: "", def_value: None }, CppParam { name: "_response_5__5", ty:
-  // "::System::Net::HttpWebResponse*", modifiers: "", def_value: None }, CppParam { name: "_stream_5__6", ty: "::System::Net::WebResponseStream*", modifiers: "", def_value: None }, CppParam { name:
-  // "_redirect_5__7", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_mustReadAll_5__8", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_ntlm_5__9", ty:
-  // "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "_writeBuffer_5__10", ty: "::System::Net::BufferOffsetSize*", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebRequestStream*>", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::WebResponseStream*>", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::HttpWebResponse*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Net::HttpWebRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_completion_5__2", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_operation_5__3", ty:
+  // "::System::Net::WebOperation*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_throwMe_5__4", ty: "::System::Net::WebException*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_response_5__5", ty: "::System::Net::HttpWebResponse*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_stream_5__6", ty:
+  // "::System::Net::WebResponseStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_redirect_5__7", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_mustReadAll_5__8", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ntlm_5__9", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_writeBuffer_5__10", ty: "::System::Net::BufferOffsetSize*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebRequestStream*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::WebResponseStream*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__4", ty:
   // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::ValueTuple_5<::System::Net::HttpWebResponse*,bool,bool,::System::Net::BufferOffsetSize*,::System::Net::WebOperation*>>",
-  // modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HttpWebRequest__MyGetResponseAsync_d__243(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::HttpWebResponse*> __t__builder,
                                                       ::System::Net::HttpWebRequest* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                       ::System::Net::WebCompletionSource* _completion_5__2, ::System::Net::WebOperation* _operation_5__3, ::System::Net::WebException* _throwMe_5__4,
@@ -574,6 +583,7 @@ public:
   /// @brief Field <>u__3, offset: 0x90, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::WebResponseStream*> __u__3;
 
+  /// [TupleElementNames(new[] { "response", "redirect", "mustReadAll", "writeBuffer", "ntlm" })]
   /// @brief Field <>u__4, offset: 0x98, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<
       ::System::ValueTuple_5<::System::Net::HttpWebResponse*, bool, bool, ::System::Net::BufferOffsetSize*, ::System::Net::WebOperation*>>
@@ -619,6 +629,7 @@ static_assert(offsetof(::System::Net::HttpWebRequest__MyGetResponseAsync_d__243,
 static_assert(sizeof(::System::Net::HttpWebRequest__MyGetResponseAsync_d__243) == 0xa8, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken, System.ValueTuple`5<T1, T2, T3, T4, T5>
 namespace System::Net {
@@ -633,6 +644,7 @@ public:
   /// @brief Method MoveNext, addr 0x63367f4, size 0x7ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x63372d0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -643,14 +655,15 @@ public:
   // @brief default ctor
   constexpr HttpWebRequest__GetResponseFromData_d__244();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_5<::System::Net::HttpWebResponse*,bool,bool,::System::Net::BufferOffsetSize*,::System::Net::WebOperation*>>",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::HttpWebRequest*", modifiers: "", def_value: None }, CppParam { name: "stream", ty:
-  // "::System::Net::WebResponseStream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "_response_5__2", ty: "::System::Net::HttpWebResponse*", modifiers: "", def_value: None }, CppParam { name: "_throwMe_5__3", ty: "::System::Net::WebException*", modifiers: "",
-  // def_value: None }, CppParam { name: "_redirect_5__4", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_mustReadAll_5__5", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::BufferOffsetSize*>", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::HttpWebRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "stream",
+  // ty: "::System::Net::WebResponseStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_response_5__2", ty: "::System::Net::HttpWebResponse*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_throwMe_5__3", ty:
+  // "::System::Net::WebException*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_redirect_5__4", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_mustReadAll_5__5", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::BufferOffsetSize*>", modifiers: "", def_value: None, comment: None }]
   constexpr HttpWebRequest__GetResponseFromData_d__244(
       int32_t __1__state,
       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_5<::System::Net::HttpWebResponse*, bool, bool, ::System::Net::BufferOffsetSize*, ::System::Net::WebOperation*>>
@@ -668,6 +681,7 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [TupleElementNames(new[] { "response", "redirect", "mustReadAll", "writeBuffer", "ntlm" })]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_5<::System::Net::HttpWebResponse*, bool, bool, ::System::Net::BufferOffsetSize*, ::System::Net::WebOperation*>>
       __t__builder;
@@ -727,6 +741,7 @@ static_assert(offsetof(::System::Net::HttpWebRequest__GetResponseFromData_d__244
 static_assert(sizeof(::System::Net::HttpWebRequest__GetResponseFromData_d__244) == 0x70, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
 namespace System::Net {
 // Is value type: true
@@ -740,6 +755,7 @@ public:
   /// @brief Method MoveNext, addr 0x6337350, size 0x450, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x63377a0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -750,10 +766,10 @@ public:
   // @brief default ctor
   constexpr HttpWebRequest___GetRewriteHandler_b__271_0_d();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::BufferOffsetSize*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::System::Net::HttpWebRequest*", modifiers: "", def_value: None }, CppParam { name: "_ms_5__2", ty: "::System::IO::MemoryStream*", modifiers: "", def_value: None }, CppParam { name: "__u__1",
-  // ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::BufferOffsetSize*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Net::HttpWebRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ms_5__2", ty: "::System::IO::MemoryStream*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr HttpWebRequest___GetRewriteHandler_b__271_0_d(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::BufferOffsetSize*> __t__builder,
                                                           ::System::Net::HttpWebRequest* __4__this, ::System::IO::MemoryStream* _ms_5__2,
                                                           ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -1122,6 +1138,7 @@ public:
   /// @brief Method GetResponse, addr 0x6333444, size 0x128, virtual true, abstract: false, final false
   inline ::System::Net::WebResponse* GetResponse();
 
+  /// [AsyncStateMachine(typeof(System.Net.HttpWebRequest::<GetResponseFromData>d__244))]
   /// @brief Method GetResponseFromData, addr 0x6332df0, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_5<::System::Net::HttpWebResponse*, bool, bool, ::System::Net::BufferOffsetSize*, ::System::Net::WebOperation*>>*
   GetResponseFromData(::System::Net::WebResponseStream* stream, ::System::Threading::CancellationToken cancellationToken);
@@ -1146,11 +1163,15 @@ public:
   /// @brief Method MyGetRequestStreamAsync, addr 0x633257c, size 0x384, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* MyGetRequestStreamAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(System.Net.HttpWebRequest::<MyGetResponseAsync>d__243))]
   /// @brief Method MyGetResponseAsync, addr 0x6332d00, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::HttpWebResponse*>* MyGetResponseAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.", true)]
   static inline ::System::Net::HttpWebRequest* New_ctor();
 
+  /// @brief [Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]
   static inline ::System::Net::HttpWebRequest* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Net::HttpWebRequest* New_ctor(::System::Uri* uri);
@@ -1174,6 +1195,7 @@ public:
   static inline ::System::Threading::Tasks::Task_1<T>* RunWithTimeout(::System::Func_2<::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<T>*>* func, int32_t timeout,
                                                                       ::System::Action* abort, ::System::Func_1<bool>* aborted, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(System.Net.HttpWebRequest::<RunWithTimeoutWorker>d__241`1<T>))]
   /// @brief Method RunWithTimeoutWorker, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Threading::Tasks::Task_1<T>* RunWithTimeoutWorker(::System::Threading::Tasks::Task_1<T>* workerTask, int32_t timeout, ::System::Action* abort,
@@ -1189,9 +1211,12 @@ public:
   /// @brief Method TryGetHostUri, addr 0x6331248, size 0xd8, virtual false, abstract: false, final false
   inline bool TryGetHostUri(::StringW hostName, ::by_ref<::System::Uri*> hostUri);
 
+  /// [CompilerGenerated]
+  /// [AsyncStateMachine(typeof(System.Net.HttpWebRequest::<<GetRewriteHandler>b__271_0>d))]
   /// @brief Method <GetRewriteHandler>b__271_0, addr 0x63355bc, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::BufferOffsetSize*>* _GetRewriteHandler_b__271_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <RunWithTimeout>b__242_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool _RunWithTimeout_b__242_0();
 
@@ -1519,9 +1544,12 @@ public:
 
   constexpr void __cordl_internal_set_writeStream(::System::Net::WebRequestStream* value);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.", true)]
   /// @brief Method .ctor, addr 0x633569c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]
   /// @brief Method .ctor, addr 0x6330b38, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -1618,6 +1646,7 @@ public:
   /// @brief Method get_ServicePointNoLock, addr 0x6331904, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePointNoLock();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ThrowOnError, addr 0x6330f38, size 0x8, virtual false, abstract: false, final false
   inline bool get_ThrowOnError();
 
@@ -1705,6 +1734,7 @@ public:
   /// @brief Method set_ServerCertificateValidationCallback, addr 0x6331abc, size 0x78, virtual false, abstract: false, final false
   inline void set_ServerCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ThrowOnError, addr 0x6330f40, size 0x8, virtual false, abstract: false, final false
   inline void set_ThrowOnError(bool value);
 
@@ -1717,13 +1747,13 @@ protected:
   constexpr HttpWebRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpWebRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpWebRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpWebRequest(HttpWebRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpWebRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpWebRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpWebRequest(HttpWebRequest const&) = delete;
+  HttpWebRequest(HttpWebRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11610 };
@@ -1884,6 +1914,7 @@ public:
   /// @brief Field ResendContentFactory, offset: 0x188, size: 0x8, def value: None
   ::System::Func_2<::System::IO::Stream*, ::System::Threading::Tasks::Task*>* ___ResendContentFactory;
 
+  /// [CompilerGenerated]
   /// @brief Field <ThrowOnError>k__BackingField, offset: 0x190, size: 0x1, def value: None
   bool ____ThrowOnError_k__BackingField;
 

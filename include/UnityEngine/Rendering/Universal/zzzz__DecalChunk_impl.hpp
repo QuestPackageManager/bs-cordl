@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalChunk.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalChunk.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalChunk_def.hpp"
@@ -261,7 +261,9 @@ inline void UnityEngine::Rendering::Universal::DecalChunk::ResizeNativeArray(::b
                                                                ::i2c::type_of<::ArrayW<::UnityEngine::Rendering::Universal::DecalProjector*>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, array, decalProjectors, capacity);
 }
-template <typename T> inline void UnityEngine::Rendering::Universal::DecalChunk::RemoveAtSwapBack(::by_ref<::Unity::Collections::NativeArray_1<T>> array, int32_t index, int32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::Universal::DecalChunk::RemoveAtSwapBack(::by_ref<::Unity::Collections::NativeArray_1<T>> array, int32_t index, int32_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

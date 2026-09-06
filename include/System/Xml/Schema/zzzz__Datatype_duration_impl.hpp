@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Datatype_duration.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Datatype_duration.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_duration_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"

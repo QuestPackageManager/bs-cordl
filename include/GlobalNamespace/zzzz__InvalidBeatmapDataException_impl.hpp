@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\InvalidBeatmapDataException.hpp"
+// IWYU pragma private; include "GlobalNamespace/InvalidBeatmapDataException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "GlobalNamespace/zzzz__InvalidBeatmapDataException_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InvalidBeatmapDataException._ctor

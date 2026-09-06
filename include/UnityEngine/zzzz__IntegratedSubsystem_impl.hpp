@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\IntegratedSubsystem.hpp"
+// IWYU pragma private; include "UnityEngine/IntegratedSubsystem.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
@@ -201,7 +201,7 @@ constexpr void UnityEngine::IntegratedSubsystem::__cordl_internal_set_m_Subsyste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SubsystemDescriptor = value;
 }
-inline void UnityEngine::IntegratedSubsystem::SetHandle(::UnityEngine::IntegratedSubsystem* subsystem) {
+inline void UnityEngine::IntegratedSubsystem::SetHandle(/* [Unmarshalled] */ ::UnityEngine::IntegratedSubsystem* subsystem) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegratedSubsystem*>(), { "SetHandle", {}, { ::i2c::type_of<::UnityEngine::IntegratedSubsystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, subsystem);

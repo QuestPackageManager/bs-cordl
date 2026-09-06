@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AudioListener.hpp"
+// IWYU pragma private; include "UnityEngine/AudioListener.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class AudioListener;
 // Write type traits
 MARK_REF_T(::UnityEngine::AudioListener*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AudioListener*, "UnityEngine", "AudioListener");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [StaticAccessor("AudioListenerBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies UnityEngine.AudioBehaviour
 namespace UnityEngine {
 // Is value type: false
@@ -36,24 +38,28 @@ public:
   // Declarations
   __declspec(property(get = get_velocityUpdateMode, put = set_velocityUpdateMode)) ::UnityEngine::AudioVelocityUpdateMode velocityUpdateMode;
 
+  /// [Obsolete("GetOutputData returning a float[] is deprecated, use GetOutputData and pass a pre allocated array instead.")]
   /// @brief Method GetOutputData, addr 0x6a4eea8, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t> GetOutputData(int32_t numSamples, int32_t channel);
 
   /// @brief Method GetOutputData, addr 0x6a4ef14, size 0x4, virtual false, abstract: false, final false
   static inline void GetOutputData(::ArrayW<float_t> samples, int32_t channel);
 
+  /// [NativeThrows]
   /// @brief Method GetOutputDataHelper, addr 0x6a4e968, size 0x128, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper(::by_ref<::ArrayW<float_t>> samples, int32_t channel);
 
   /// @brief Method GetOutputDataHelper_Injected, addr 0x6a4ea90, size 0x44, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel);
 
+  /// [Obsolete("GetSpectrumData returning a float[] is deprecated, use GetSpectrumData and pass a pre allocated array instead.")]
   /// @brief Method GetSpectrumData, addr 0x6a4ef18, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t> GetSpectrumData(int32_t numSamples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   /// @brief Method GetSpectrumData, addr 0x6a4ef8c, size 0x4, virtual false, abstract: false, final false
   static inline void GetSpectrumData(::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
+  /// [NativeThrows]
   /// @brief Method GetSpectrumDataHelper, addr 0x6a4ead4, size 0x12c, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper(::by_ref<::ArrayW<float_t>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
@@ -95,13 +101,13 @@ protected:
   constexpr AudioListener();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioListener", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioListener", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioListener(AudioListener&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioListener", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioListener", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioListener(AudioListener const&) = delete;
+  AudioListener(AudioListenerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21072 };

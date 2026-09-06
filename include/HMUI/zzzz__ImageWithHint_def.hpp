@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ImageWithHint.hpp"
+// IWYU pragma private; include "HMUI/ImageWithHint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,20 +90,22 @@ protected:
   constexpr ImageWithHint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImageWithHint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImageWithHint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImageWithHint(ImageWithHint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImageWithHint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImageWithHint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImageWithHint(ImageWithHint const&) = delete;
+  ImageWithHint(ImageWithHintconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19086 };
 
+  /// [SerializeField]
   /// @brief Field _image, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____image;
 
+  /// [SerializeField]
   /// @brief Field _hoverHint, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____hoverHint;
 

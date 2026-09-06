@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\OriginatorIdentifierOrKey.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/OriginatorIdentifierOrKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ public:
   // Declarations
   __declspec(property(get = get_IssuerAndSerialNumber)) ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* IssuerAndSerialNumber;
 
+  /// @brief [Obsolete("Use \'OriginatorPublicKey\' property")]
   __declspec(property(get = get_OriginatorKey)) ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* OriginatorKey;
 
   __declspec(property(get = get_OriginatorPublicKey)) ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* OriginatorPublicKey;
@@ -68,8 +69,10 @@ public:
   /// @brief Method GetInstance, addr 0x335d330, size 0x2ac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* GetInstance(::System::Object* o);
 
+  /// @brief [Obsolete("Use more specific version")]
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
+  /// @brief [Obsolete("Use version taking a \'SubjectKeyIdentifier\'")]
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* id);
@@ -89,9 +92,11 @@ public:
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
+  /// [Obsolete("Use more specific version")]
   /// @brief Method .ctor, addr 0x335d320, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
+  /// [Obsolete("Use version taking a \'SubjectKeyIdentifier\'")]
   /// @brief Method .ctor, addr 0x335d1d0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
@@ -131,13 +136,13 @@ protected:
   constexpr OriginatorIdentifierOrKey();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OriginatorIdentifierOrKey", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OriginatorIdentifierOrKey", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OriginatorIdentifierOrKey(OriginatorIdentifierOrKey&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OriginatorIdentifierOrKey", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OriginatorIdentifierOrKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OriginatorIdentifierOrKey(OriginatorIdentifierOrKey const&) = delete;
+  OriginatorIdentifierOrKey(OriginatorIdentifierOrKeyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 81 };

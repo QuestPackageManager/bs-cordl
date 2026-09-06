@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\MemoryProfiler\MetadataInjector.hpp"
+// IWYU pragma private; include "Unity/MemoryProfiler/MetadataInjector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/MemoryProfiler/zzzz__MetadataInjector_def.hpp"
 #include "Unity/MemoryProfiler/zzzz__DefaultMetadataCollect_def.hpp"

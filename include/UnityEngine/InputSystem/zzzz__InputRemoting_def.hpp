@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputRemoting.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputRemoting.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,9 @@ namespace System {
 template <typename T> class IObserver_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
@@ -254,7 +256,7 @@ public:
   // @brief default ctor
   constexpr InputRemoting_MessageType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputRemoting_MessageType(int32_t value__) noexcept;
 
   /// @brief Field ChangeUsages value: I32(7)
@@ -315,8 +317,9 @@ public:
   // @brief default ctor
   constexpr InputRemoting_Message();
 
-  // Ctor Parameters [CppParam { name: "participantId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::UnityEngine::InputSystem::InputRemoting_MessageType",
-  // modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "participantId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty:
+  // "::UnityEngine::InputSystem::InputRemoting_MessageType", modifiers: "", def_value: None, comment: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr InputRemoting_Message(int32_t participantId, ::UnityEngine::InputSystem::InputRemoting_MessageType type, ::ArrayW<uint8_t> data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -346,6 +349,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputRemoting_Message, data) 
 static_assert(sizeof(::UnityEngine::InputSystem::InputRemoting_Message) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -375,7 +379,7 @@ public:
   // @brief default ctor
   constexpr InputRemoting_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputRemoting_Flags(int32_t value__) noexcept;
 
   /// @brief Field Sending value: I32(1)
@@ -412,8 +416,8 @@ public:
   // @brief default ctor
   constexpr InputRemoting_RemoteInputDevice();
 
-  // Ctor Parameters [CppParam { name: "remoteId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "localId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "remoteId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "localId", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: None, comment: None }]
   constexpr InputRemoting_RemoteInputDevice(int32_t remoteId, int32_t localId, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription description) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -454,8 +458,9 @@ public:
   // @brief default ctor
   constexpr InputRemoting_RemoteSender();
 
-  // Ctor Parameters [CppParam { name: "senderId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "layouts", ty: "::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString>",
-  // modifiers: "", def_value: None }, CppParam { name: "devices", ty: "::ArrayW<::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "senderId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "layouts", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString>", modifiers: "", def_value: None, comment: None }, CppParam { name: "devices", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice>", modifiers: "", def_value: None, comment: None }]
   constexpr InputRemoting_RemoteSender(int32_t senderId, ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString> layouts,
                                        ::ArrayW<::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice> devices) noexcept;
 
@@ -531,13 +536,13 @@ protected:
   constexpr InputRemoting_Subscriber();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_Subscriber", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_Subscriber", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_Subscriber(InputRemoting_Subscriber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_Subscriber", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_Subscriber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_Subscriber(InputRemoting_Subscriber const&) = delete;
+  InputRemoting_Subscriber(InputRemoting_Subscriberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8740 };
@@ -574,13 +579,13 @@ protected:
   constexpr InputRemoting_ConnectMsg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ConnectMsg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ConnectMsg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_ConnectMsg(InputRemoting_ConnectMsg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ConnectMsg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ConnectMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_ConnectMsg(InputRemoting_ConnectMsg const&) = delete;
+  InputRemoting_ConnectMsg(InputRemoting_ConnectMsgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8741 };
@@ -607,13 +612,13 @@ protected:
   constexpr InputRemoting_StartSendingMsg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StartSendingMsg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StartSendingMsg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_StartSendingMsg(InputRemoting_StartSendingMsg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StartSendingMsg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StartSendingMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_StartSendingMsg(InputRemoting_StartSendingMsg const&) = delete;
+  InputRemoting_StartSendingMsg(InputRemoting_StartSendingMsgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8742 };
@@ -640,13 +645,13 @@ protected:
   constexpr InputRemoting_StopSendingMsg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StopSendingMsg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StopSendingMsg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_StopSendingMsg(InputRemoting_StopSendingMsg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StopSendingMsg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_StopSendingMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_StopSendingMsg(InputRemoting_StopSendingMsg const&) = delete;
+  InputRemoting_StopSendingMsg(InputRemoting_StopSendingMsgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8743 };
@@ -673,13 +678,13 @@ protected:
   constexpr InputRemoting_DisconnectMsg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_DisconnectMsg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_DisconnectMsg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_DisconnectMsg(InputRemoting_DisconnectMsg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_DisconnectMsg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_DisconnectMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_DisconnectMsg(InputRemoting_DisconnectMsg const&) = delete;
+  InputRemoting_DisconnectMsg(InputRemoting_DisconnectMsgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8744 };
@@ -701,8 +706,8 @@ public:
   // @brief default ctor
   constexpr NewLayoutMsg_InputRemoting_Data();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "layoutJson", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "isOverride", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "layoutJson", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "isOverride", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr NewLayoutMsg_InputRemoting_Data(::StringW name, ::StringW layoutJson, bool isOverride) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -753,13 +758,13 @@ protected:
   constexpr InputRemoting_NewLayoutMsg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewLayoutMsg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewLayoutMsg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_NewLayoutMsg(InputRemoting_NewLayoutMsg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewLayoutMsg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewLayoutMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_NewLayoutMsg(InputRemoting_NewLayoutMsg const&) = delete;
+  InputRemoting_NewLayoutMsg(InputRemoting_NewLayoutMsgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8746 };
@@ -781,9 +786,9 @@ public:
   // @brief default ctor
   constexpr NewDeviceMsg_InputRemoting_Data();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "layout", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "deviceId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usages", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "description", ty:
-  // "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "layout", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "deviceId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "usages", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: None, comment: None }]
   constexpr NewDeviceMsg_InputRemoting_Data(::StringW name, ::StringW layout, int32_t deviceId, ::ArrayW<::StringW> usages,
                                             ::UnityEngine::InputSystem::Layouts::InputDeviceDescription description) noexcept;
 
@@ -824,6 +829,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting_Da
 static_assert(sizeof(::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting_Data) == 0x58, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -859,13 +865,13 @@ protected:
   constexpr NewDeviceMsg_InputRemoting___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NewDeviceMsg_InputRemoting___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NewDeviceMsg_InputRemoting___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NewDeviceMsg_InputRemoting___c(NewDeviceMsg_InputRemoting___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NewDeviceMsg_InputRemoting___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NewDeviceMsg_InputRemoting___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NewDeviceMsg_InputRemoting___c(NewDeviceMsg_InputRemoting___c const&) = delete;
+  NewDeviceMsg_InputRemoting___c(NewDeviceMsg_InputRemoting___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8748 };
@@ -899,13 +905,13 @@ protected:
   constexpr InputRemoting_NewDeviceMsg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewDeviceMsg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewDeviceMsg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_NewDeviceMsg(InputRemoting_NewDeviceMsg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewDeviceMsg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewDeviceMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_NewDeviceMsg(InputRemoting_NewDeviceMsg const&) = delete;
+  InputRemoting_NewDeviceMsg(InputRemoting_NewDeviceMsgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8749 };
@@ -941,13 +947,13 @@ protected:
   constexpr InputRemoting_NewEventsMsg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewEventsMsg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewEventsMsg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_NewEventsMsg(InputRemoting_NewEventsMsg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewEventsMsg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_NewEventsMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_NewEventsMsg(InputRemoting_NewEventsMsg const&) = delete;
+  InputRemoting_NewEventsMsg(InputRemoting_NewEventsMsgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8750 };
@@ -969,7 +975,8 @@ public:
   // @brief default ctor
   constexpr ChangeUsageMsg_InputRemoting_Data();
 
-  // Ctor Parameters [CppParam { name: "deviceId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usages", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "deviceId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "usages", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ChangeUsageMsg_InputRemoting_Data(int32_t deviceId, ::ArrayW<::StringW> usages) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -994,6 +1001,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting_
 static_assert(sizeof(::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting_Data) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -1029,13 +1037,13 @@ protected:
   constexpr ChangeUsageMsg_InputRemoting___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChangeUsageMsg_InputRemoting___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangeUsageMsg_InputRemoting___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChangeUsageMsg_InputRemoting___c(ChangeUsageMsg_InputRemoting___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChangeUsageMsg_InputRemoting___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangeUsageMsg_InputRemoting___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChangeUsageMsg_InputRemoting___c(ChangeUsageMsg_InputRemoting___c const&) = delete;
+  ChangeUsageMsg_InputRemoting___c(ChangeUsageMsg_InputRemoting___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8752 };
@@ -1069,13 +1077,13 @@ protected:
   constexpr InputRemoting_ChangeUsageMsg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ChangeUsageMsg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ChangeUsageMsg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_ChangeUsageMsg(InputRemoting_ChangeUsageMsg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ChangeUsageMsg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_ChangeUsageMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_ChangeUsageMsg(InputRemoting_ChangeUsageMsg const&) = delete;
+  InputRemoting_ChangeUsageMsg(InputRemoting_ChangeUsageMsgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8753 };
@@ -1105,13 +1113,13 @@ protected:
   constexpr InputRemoting_RemoveDeviceMsg();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_RemoveDeviceMsg", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_RemoveDeviceMsg", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting_RemoveDeviceMsg(InputRemoting_RemoveDeviceMsg&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_RemoveDeviceMsg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting_RemoveDeviceMsg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting_RemoveDeviceMsg(InputRemoting_RemoveDeviceMsg const&) = delete;
+  InputRemoting_RemoveDeviceMsg(InputRemoting_RemoveDeviceMsgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8754 };
@@ -1297,13 +1305,13 @@ protected:
   constexpr InputRemoting();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputRemoting(InputRemoting&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputRemoting", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputRemoting(InputRemoting const&) = delete;
+  InputRemoting(InputRemotingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8755 };

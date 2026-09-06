@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\NavigateFocusRing.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/NavigateFocusRing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,13 +74,13 @@ protected:
   constexpr NavigateFocusRing_ChangeDirection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing_ChangeDirection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing_ChangeDirection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigateFocusRing_ChangeDirection(NavigateFocusRing_ChangeDirection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing_ChangeDirection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing_ChangeDirection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigateFocusRing_ChangeDirection(NavigateFocusRing_ChangeDirection const&) = delete;
+  NavigateFocusRing_ChangeDirection(NavigateFocusRing_ChangeDirectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4585 };
@@ -123,9 +123,9 @@ public:
   // @brief default ctor
   constexpr NavigateFocusRing_FocusableHierarchyTraversal();
 
-  // Ctor Parameters [CppParam { name: "currentFocusable", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "validRect", ty: "::UnityEngine::Rect",
-  // modifiers: "", def_value: None }, CppParam { name: "firstPass", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "direction", ty:
-  // "::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "currentFocusable", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "validRect", ty:
+  // "::UnityEngine::Rect", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstPass", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "direction",
+  // ty: "::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*", modifiers: "", def_value: None, comment: None }]
   constexpr NavigateFocusRing_FocusableHierarchyTraversal(::UnityEngine::UIElements::VisualElement* currentFocusable, ::UnityEngine::Rect validRect, bool firstPass,
                                                           ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* direction) noexcept;
 
@@ -269,13 +269,13 @@ protected:
   constexpr NavigateFocusRing();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigateFocusRing(NavigateFocusRing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigateFocusRing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigateFocusRing(NavigateFocusRing const&) = delete;
+  NavigateFocusRing(NavigateFocusRingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4587 };

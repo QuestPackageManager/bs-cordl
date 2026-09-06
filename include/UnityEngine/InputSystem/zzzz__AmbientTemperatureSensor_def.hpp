@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\AmbientTemperatureSensor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/AmbientTemperatureSensor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class AmbientTemperatureSensor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::AmbientTemperatureSensor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::AmbientTemperatureSensor*, "UnityEngine.InputSystem", "AmbientTemperatureSensor");
+// [InputControlLayout(displayName = "Ambient Temperature")]
 // Dependencies UnityEngine.InputSystem.Sensor
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -29,6 +30,7 @@ public:
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField)) ::UnityEngine::InputSystem::AmbientTemperatureSensor* _current_k__BackingField;
 
+  /// @brief [InputControl(displayName = "Ambient Temperature", noisy = true)]
   __declspec(property(get = get_ambientTemperature, put = set_ambientTemperature)) ::UnityEngine::InputSystem::Controls::AxisControl* ambientTemperature;
 
   /// @brief Method FinishSetup, addr 0x65670a8, size 0x70, virtual true, abstract: false, final false
@@ -53,17 +55,21 @@ public:
 
   static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* getStaticF__current_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ambientTemperature, addr 0x6566f1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_ambientTemperature();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6566f2c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::AmbientTemperatureSensor* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::AmbientTemperatureSensor* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ambientTemperature, addr 0x6566f24, size 0x8, virtual false, abstract: false, final false
   inline void set_ambientTemperature(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6566f78, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::AmbientTemperatureSensor* value);
 
@@ -73,17 +79,18 @@ protected:
   constexpr AmbientTemperatureSensor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AmbientTemperatureSensor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AmbientTemperatureSensor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AmbientTemperatureSensor(AmbientTemperatureSensor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AmbientTemperatureSensor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AmbientTemperatureSensor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AmbientTemperatureSensor(AmbientTemperatureSensor const&) = delete;
+  AmbientTemperatureSensor(AmbientTemperatureSensorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8769 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ambientTemperature>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____ambientTemperature_k__BackingField;
 

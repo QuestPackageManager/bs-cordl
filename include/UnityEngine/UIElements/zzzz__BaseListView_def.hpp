@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseListView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseListView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,9 @@ namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -98,6 +100,7 @@ MARK_REF_T(::UnityEngine::UIElements::BaseListView*);
 MARK_REF_T(::UnityEngine::UIElements::BaseListView_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseListView*, "UnityEngine.UIElements", "BaseListView");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseListView_UxmlTraits*, "UnityEngine.UIElements", "BaseListView/UxmlTraits");
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseVerticalCollectionView::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -196,13 +199,13 @@ protected:
   constexpr BaseListView_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseListView_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseListView_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseListView_UxmlTraits(BaseListView_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseListView_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseListView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseListView_UxmlTraits(BaseListView_UxmlTraits const&) = delete;
+  BaseListView_UxmlTraits(BaseListView_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4109 };
@@ -262,11 +265,13 @@ public:
   // Declarations
   using UxmlTraits = ::UnityEngine::UIElements::BaseListView_UxmlTraits;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_allowAdd, put = set_allowAdd)) bool allowAdd;
 
   /// @brief Field allowAddProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_allowAddProperty, put = setStaticF_allowAddProperty)) ::UnityEngine::UIElements::BindingId allowAddProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_allowRemove, put = set_allowRemove)) bool allowRemove;
 
   /// @brief Field allowRemoveProperty, offset 0xffffffff, size 0x98
@@ -283,6 +288,7 @@ public:
 
   __declspec(property(get = get_autoAssignSource)) bool autoAssignSource;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_bindingSourceSelectionMode, put = set_bindingSourceSelectionMode)) ::UnityEngine::UIElements::BindingSourceSelectionMode bindingSourceSelectionMode;
 
   /// @brief Field bindingSourceSelectionModeProperty, offset 0xffffffff, size 0x98
@@ -312,6 +318,7 @@ public:
   /// @brief Field footerUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_footerUssClassName, put = setStaticF_footerUssClassName)) ::StringW footerUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_headerTitle, put = set_headerTitle)) ::StringW headerTitle;
 
   /// @brief Field headerTitleProperty, offset 0xffffffff, size 0x98
@@ -433,26 +440,31 @@ public:
   /// @brief Field m_WhileAutoAssign, offset 0x5f0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WhileAutoAssign, put = __cordl_internal_set_m_WhileAutoAssign)) ::System::Func_1<bool>* m_WhileAutoAssign;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_makeFooter, put = set_makeFooter)) ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* makeFooter;
 
   /// @brief Field makeFooterProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_makeFooterProperty, put = setStaticF_makeFooterProperty)) ::UnityEngine::UIElements::BindingId makeFooterProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_makeHeader, put = set_makeHeader)) ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* makeHeader;
 
   /// @brief Field makeHeaderProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_makeHeaderProperty, put = setStaticF_makeHeaderProperty)) ::UnityEngine::UIElements::BindingId makeHeaderProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_makeNoneElement, put = set_makeNoneElement)) ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* makeNoneElement;
 
   /// @brief Field makeNoneElementProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_makeNoneElementProperty, put = setStaticF_makeNoneElementProperty)) ::UnityEngine::UIElements::BindingId makeNoneElementProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_onAdd, put = set_onAdd)) ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* onAdd;
 
   /// @brief Field onAddProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_onAddProperty, put = setStaticF_onAddProperty)) ::UnityEngine::UIElements::BindingId onAddProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_onRemove, put = set_onRemove)) ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* onRemove;
 
   /// @brief Field onRemoveProperty, offset 0xffffffff, size 0x98
@@ -461,6 +473,7 @@ public:
   /// @brief Field overMaxMultiEditLimitClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_overMaxMultiEditLimitClassName, put = setStaticF_overMaxMultiEditLimitClassName)) ::StringW overMaxMultiEditLimitClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_overridingAddButtonBehavior,
                       put = set_overridingAddButtonBehavior)) ::System::Action_2<::UnityEngine::UIElements::BaseListView*, ::UnityEngine::UIElements::Button*>* overridingAddButtonBehavior;
 
@@ -468,6 +481,7 @@ public:
   __declspec(property(get = getStaticF_overridingAddButtonBehaviorProperty,
                       put = setStaticF_overridingAddButtonBehaviorProperty)) ::UnityEngine::UIElements::BindingId overridingAddButtonBehaviorProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_reorderMode, put = set_reorderMode)) ::UnityEngine::UIElements::ListViewReorderMode reorderMode;
 
   /// @brief Field reorderModeChanged, offset 0x658, size 0x8
@@ -494,16 +508,19 @@ public:
   /// @brief Field scrollViewWithFooterUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_scrollViewWithFooterUssClassName, put = setStaticF_scrollViewWithFooterUssClassName)) ::StringW scrollViewWithFooterUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_showAddRemoveFooter, put = set_showAddRemoveFooter)) bool showAddRemoveFooter;
 
   /// @brief Field showAddRemoveFooterProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_showAddRemoveFooterProperty, put = setStaticF_showAddRemoveFooterProperty)) ::UnityEngine::UIElements::BindingId showAddRemoveFooterProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_showBoundCollectionSize, put = set_showBoundCollectionSize)) bool showBoundCollectionSize;
 
   /// @brief Field showBoundCollectionSizeProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_showBoundCollectionSizeProperty, put = setStaticF_showBoundCollectionSizeProperty)) ::UnityEngine::UIElements::BindingId showBoundCollectionSizeProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_showFoldoutHeader, put = set_showFoldoutHeader)) bool showFoldoutHeader;
 
   /// @brief Field showFoldoutHeaderProperty, offset 0xffffffff, size 0x98
@@ -581,6 +598,7 @@ public:
   /// @brief Method UpdateListViewLabel, addr 0x6c59390, size 0x320, virtual false, abstract: false, final false
   inline void UpdateListViewLabel();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnAddClicked>b__81_0, addr 0x6c5cd5c, size 0x1b0, virtual false, abstract: false, final false
   inline void _OnAddClicked_b__81_0();
 
@@ -800,12 +818,15 @@ public:
   /// @brief Method .ctor, addr 0x6c5b7cc, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* itemsSource, float_t itemHeight);
 
+  /// [CompilerGenerated]
   /// @brief Method <get_trackCount>b__65_0, addr 0x6c5cc34, size 0x118, virtual false, abstract: false, final false
   inline void _get_trackCount_b__65_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <get_untilManualBindingSourceSelectionMode>b__68_0, addr 0x6c5cd4c, size 0x10, virtual false, abstract: false, final false
   inline bool _get_untilManualBindingSourceSelectionMode_b__68_0();
 
+  /// [CompilerGenerated]
   /// @brief Method add_reorderModeChanged, addr 0x6c54468, size 0xac, virtual false, abstract: false, final false
   inline void add_reorderModeChanged(::System::Action* value);
 
@@ -939,6 +960,7 @@ public:
   /// @brief Method get_viewController, addr 0x6c5a7b0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseListViewController* get_viewController();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_reorderModeChanged, addr 0x6c545cc, size 0xac, virtual false, abstract: false, final false
   inline void remove_reorderModeChanged(::System::Action* value);
 
@@ -1060,13 +1082,13 @@ protected:
   constexpr BaseListView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseListView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseListView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseListView(BaseListView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseListView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseListView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseListView(BaseListView const&) = delete;
+  BaseListView(BaseListViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4110 };
@@ -1095,12 +1117,18 @@ public:
   /// @brief Field m_ShowAddRemoveFooter, offset: 0x5c0, size: 0x1, def value: None
   bool ___m_ShowAddRemoveFooter;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field itemsAdded, offset: 0x5c8, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* ___itemsAdded;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field itemsRemoved, offset: 0x5d0, size: 0x8, def value: None
   ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* ___itemsRemoved;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field itemsSourceSizeChanged, offset: 0x5d8, size: 0x8, def value: None
   ::System::Action* ___itemsSourceSizeChanged;
 
@@ -1149,6 +1177,8 @@ public:
   /// @brief Field m_ReorderMode, offset: 0x650, size: 0x4, def value: None
   ::UnityEngine::UIElements::ListViewReorderMode ___m_ReorderMode;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field reorderModeChanged, offset: 0x658, size: 0x8, def value: None
   ::System::Action* ___reorderModeChanged;
 

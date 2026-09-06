@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerDataFileModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerDataFileModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
@@ -109,6 +111,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerDataFileModel*, "", "PlayerDataFile
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerDataFileModel___c*, "", "PlayerDataFileModel/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35, "", "PlayerDataFileModel/<LoadAsStringAsync>d__35");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21, "", "PlayerDataFileModel/<LoadAsync>d__21");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -156,13 +159,13 @@ protected:
   constexpr PlayerDataFileModel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileModel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileModel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerDataFileModel___c(PlayerDataFileModel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileModel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerDataFileModel___c(PlayerDataFileModel___c const&) = delete;
+  PlayerDataFileModel___c(PlayerDataFileModel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15162 };
@@ -173,6 +176,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::PlayerDataFileModel___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -186,6 +190,7 @@ public:
   /// @brief Method MoveNext, addr 0x374d060, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x374d42c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -196,9 +201,10 @@ public:
   // @brief default ctor
   constexpr PlayerDataFileModel__LoadAsStringAsync_d__35();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "fileStorage", ty:
+  // "::GlobalNamespace::IFileStorage*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr PlayerDataFileModel__LoadAsStringAsync_d__35(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
                                                          ::GlobalNamespace::IFileStorage* fileStorage, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
@@ -217,6 +223,7 @@ public:
   /// @brief Field fileStorage, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* fileStorage;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
 
@@ -234,6 +241,7 @@ static_assert(offsetof(::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync
 static_assert(sizeof(::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -247,6 +255,7 @@ public:
   /// @brief Method MoveNext, addr 0x374d4ac, size 0x29c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x374d748, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -257,10 +266,10 @@ public:
   // @brief default ctor
   constexpr PlayerDataFileModel__LoadAsync_d__21();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PlayerData*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::PlayerDataFileModel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PlayerData*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::PlayerDataFileModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr PlayerDataFileModel__LoadAsync_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PlayerData*> __t__builder,
                                                  ::GlobalNamespace::PlayerDataFileModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
@@ -360,18 +369,23 @@ public:
   /// @brief Method GetPlayerSaveData, addr 0x3748dec, size 0xfc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSaveData* GetPlayerSaveData(::GlobalNamespace::PlayerData* playerData);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x3748c18, size 0x78, virtual false, abstract: false, final false
   static inline void Init();
 
+  /// [NullableContext(1)]
   /// @brief Method Load, addr 0x374a16c, size 0x68, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* Load();
 
   /// @brief Method LoadAsString, addr 0x374a1d4, size 0x128, virtual false, abstract: false, final false
   static inline ::StringW LoadAsString(::GlobalNamespace::IFileStorage* fileStorage);
 
+  /// [AsyncStateMachine(typeof(PlayerDataFileModel::<LoadAsStringAsync>d__35))]
   /// @brief Method LoadAsStringAsync, addr 0x374ccc8, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* LoadAsStringAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
+  /// [NullableContext(1)]
+  /// [AsyncStateMachine(typeof(PlayerDataFileModel::<LoadAsync>d__21))]
   /// @brief Method LoadAsync, addr 0x374a320, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlayerData*>* LoadAsync();
 
@@ -381,14 +395,16 @@ public:
   /// @brief Method LoadFromCurrentVersion, addr 0x374b03c, size 0x1008, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData);
 
+  /// [NullableContext(2)]
   /// @brief Method LoadFromJSONString, addr 0x374a3fc, size 0x1d8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
 
   /// @brief Method LoadFromVersionV1_0_1, addr 0x374a684, size 0x9b8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
 
+  /// [NullableContext(1)]
   /// @brief Method LoadOrCreateFromJsonString, addr 0x374a2fc, size 0x24, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerData* LoadOrCreateFromJsonString(::StringW jsonString);
+  inline ::GlobalNamespace::PlayerData* LoadOrCreateFromJsonString(/* [Nullable(2)] */ ::StringW jsonString);
 
   static inline ::GlobalNamespace::PlayerDataFileModel* New_ctor(::GlobalNamespace::PlayerDataFileManagerSO* playerDataFileManager, ::GlobalNamespace::IFileStorage* fileStorage,
                                                                  ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
@@ -462,13 +478,13 @@ protected:
   constexpr PlayerDataFileModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerDataFileModel(PlayerDataFileModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerDataFileModel(PlayerDataFileModel const&) = delete;
+  PlayerDataFileModel(PlayerDataFileModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15165 };

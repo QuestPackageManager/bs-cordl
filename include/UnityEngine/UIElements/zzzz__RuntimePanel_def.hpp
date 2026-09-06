@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RuntimePanel.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RuntimePanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::UnityEngine::UIElements::RuntimePanel*);
 MARK_REF_T(::UnityEngine::UIElements::RuntimePanel___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RuntimePanel*, "UnityEngine.UIElements", "RuntimePanel");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RuntimePanel___c*, "UnityEngine.UIElements", "RuntimePanel/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -81,13 +82,13 @@ protected:
   constexpr RuntimePanel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimePanel___c(RuntimePanel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePanel___c(RuntimePanel___c const&) = delete;
+  RuntimePanel___c(RuntimePanel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4595 };
@@ -166,13 +167,13 @@ protected:
   constexpr RuntimePanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimePanel(RuntimePanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimePanel(RuntimePanel const&) = delete;
+  RuntimePanel(RuntimePanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4596 };

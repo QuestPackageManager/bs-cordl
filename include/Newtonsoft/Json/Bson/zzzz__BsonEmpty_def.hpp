@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonEmpty.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonEmpty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ public:
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Undefined();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5dae6dc, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
@@ -65,17 +66,18 @@ protected:
   constexpr BsonEmpty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonEmpty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonEmpty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonEmpty(BsonEmpty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonEmpty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonEmpty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonEmpty(BsonEmpty const&) = delete;
+  BsonEmpty(BsonEmptyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13699 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   ::Newtonsoft::Json::Bson::BsonType ____Type_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidStepCounter.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidStepCounter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AndroidStepCounter;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Android::AndroidStepCounter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::AndroidStepCounter*, "UnityEngine.InputSystem.Android", "AndroidStepCounter");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.Android.LowLevel.AndroidSensorState), variants = "StepCounter", hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.StepCounter
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AndroidStepCounter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidStepCounter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidStepCounter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidStepCounter(AndroidStepCounter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidStepCounter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidStepCounter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidStepCounter(AndroidStepCounter const&) = delete;
+  AndroidStepCounter(AndroidStepCounterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8937 };

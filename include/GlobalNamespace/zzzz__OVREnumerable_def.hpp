@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVREnumerable.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVREnumerable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class OVREnumerable;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVREnumerable*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVREnumerable*, "", "OVREnumerable");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -23,8 +24,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVREnumerable : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t CopyTo(::GlobalNamespace::OVREnumerable_1<T> enumerable, T* memory);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t CopyTo(::GlobalNamespace::OVREnumerable_1<T> enumerable, T* memory);
 
 protected:
   // Ctor Parameters []
@@ -32,13 +36,13 @@ protected:
   constexpr OVREnumerable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVREnumerable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVREnumerable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVREnumerable(OVREnumerable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVREnumerable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVREnumerable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVREnumerable(OVREnumerable const&) = delete;
+  OVREnumerable(OVREnumerableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7911 };

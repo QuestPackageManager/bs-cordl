@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AudioVelocityUpdateMode.hpp"
+// IWYU pragma private; include "UnityEngine/AudioVelocityUpdateMode.hpp"
 #include "UnityEngine/zzzz__AudioVelocityUpdateMode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::AudioVelocityUpdateMode::AudioVelocityUpdateMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

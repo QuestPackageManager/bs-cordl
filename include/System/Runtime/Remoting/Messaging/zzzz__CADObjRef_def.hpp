@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\CADObjRef.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADObjRef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr CADObjRef();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CADObjRef", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CADObjRef", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CADObjRef(CADObjRef&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CADObjRef", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CADObjRef", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CADObjRef(CADObjRef const&) = delete;
+  CADObjRef(CADObjRefconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3169 };

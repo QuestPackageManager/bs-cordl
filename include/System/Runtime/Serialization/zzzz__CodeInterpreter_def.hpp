@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\CodeInterpreter.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/CodeInterpreter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ protected:
   constexpr CodeInterpreter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CodeInterpreter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CodeInterpreter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CodeInterpreter(CodeInterpreter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CodeInterpreter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CodeInterpreter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CodeInterpreter(CodeInterpreter const&) = delete;
+  CodeInterpreter(CodeInterpreterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17150 };

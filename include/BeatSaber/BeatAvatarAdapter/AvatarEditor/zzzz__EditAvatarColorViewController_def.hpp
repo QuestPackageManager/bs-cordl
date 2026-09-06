@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\AvatarEditor\EditAvatarColorViewController.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/AvatarEditor/EditAvatarColorViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -166,18 +166,22 @@ public:
   /// @brief Method .ctor, addr 0x327a008, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didChangeColorEvent, addr 0x3272958, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x3272a18, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<bool>* value);
 
   /// @brief Method get_color, addr 0x3273c3c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didChangeColorEvent, addr 0x32736ec, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x32737ac, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<bool>* value);
 
@@ -187,32 +191,39 @@ protected:
   constexpr EditAvatarColorViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EditAvatarColorViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditAvatarColorViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditAvatarColorViewController(EditAvatarColorViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EditAvatarColorViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditAvatarColorViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EditAvatarColorViewController(EditAvatarColorViewController const&) = delete;
+  EditAvatarColorViewController(EditAvatarColorViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21699 };
 
+  /// [SerializeField]
   /// @brief Field _hsvPanelController, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HSVPanelController> ____hsvPanelController;
 
+  /// [SerializeField]
   /// @brief Field _previousColorPanelController, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PreviousColorPanelController> ____previousColorPanelController;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _cancelButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____cancelButton;
 
+  /// [SerializeField]
   /// @brief Field _applyButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____applyButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didChangeColorEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Color>* ___didChangeColorEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_1<bool>* ___didFinishEvent;
 

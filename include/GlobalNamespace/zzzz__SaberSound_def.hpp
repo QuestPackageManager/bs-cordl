@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberSound.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberSound.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class SaberSound;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SaberSound*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SaberSound*, "", "SaberSound");
+// [AddComponentMenu("Beat Saber/Gameplay/SaberSound")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -137,38 +138,47 @@ protected:
   constexpr SaberSound();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberSound", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberSound", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberSound(SaberSound&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberSound", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberSound", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberSound(SaberSound const&) = delete;
+  SaberSound(SaberSoundconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6235 };
 
+  /// [SerializeField]
   /// @brief Field _saberTop, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____saberTop;
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [SerializeField]
   /// @brief Field _pitchBySpeedCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____pitchBySpeedCurve;
 
+  /// [SerializeField]
   /// @brief Field _gainBySpeedCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____gainBySpeedCurve;
 
+  /// [SerializeField]
   /// @brief Field _speedMultiplier, offset: 0x40, size: 0x4, def value: None
   float_t ____speedMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _upSmooth, offset: 0x44, size: 0x4, def value: None
   float_t ____upSmooth;
 
+  /// [SerializeField]
   /// @brief Field _downSmooth, offset: 0x48, size: 0x4, def value: None
   float_t ____downSmooth;
 
+  /// [Tooltip("No sound is produced if saber point moves more than this distance in one frame. This basically fixes the start sound problem.")]
+  /// [SerializeField]
   /// @brief Field _noSoundTopThresholdSqr, offset: 0x4c, size: 0x4, def value: None
   float_t ____noSoundTopThresholdSqr;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\AnimationPlayableAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/AnimationPlayableAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -146,7 +146,7 @@ public:
   // @brief default ctor
   constexpr AnimationPlayableAsset_LoopMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationPlayableAsset_LoopMode(int32_t value__) noexcept;
 
   /// @brief Field Off value: I32(2)
@@ -204,7 +204,7 @@ public:
   // @brief default ctor
   constexpr AnimationPlayableAsset_Versions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AnimationPlayableAsset_Versions(int32_t value__) noexcept;
 
   /// @brief Field Initial value: I32(0)
@@ -246,13 +246,13 @@ protected:
   constexpr AnimationPlayableAsset_AnimationPlayableAssetUpgrade();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset_AnimationPlayableAssetUpgrade", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset_AnimationPlayableAssetUpgrade", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationPlayableAsset_AnimationPlayableAssetUpgrade(AnimationPlayableAsset_AnimationPlayableAssetUpgrade&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset_AnimationPlayableAssetUpgrade", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset_AnimationPlayableAssetUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableAsset_AnimationPlayableAssetUpgrade(AnimationPlayableAsset_AnimationPlayableAssetUpgrade const&) = delete;
+  AnimationPlayableAsset_AnimationPlayableAssetUpgrade(AnimationPlayableAsset_AnimationPlayableAssetUpgradeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19156 };
@@ -263,6 +263,7 @@ public:
 static_assert(sizeof(::UnityEngine::Timeline::AnimationPlayableAsset_AnimationPlayableAssetUpgrade) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Playables.PlayableBinding
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -305,23 +306,30 @@ public:
   /// @brief Method MoveNext, addr 0x69ae0a8, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Timeline::AnimationPlayableAsset__get_outputs_d__45* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x69ae1d4, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x69ae128, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69ae26c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69ae138, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69ae170, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69ae0a4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -349,6 +357,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69ad5ec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -375,13 +384,13 @@ protected:
   constexpr AnimationPlayableAsset__get_outputs_d__45();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset__get_outputs_d__45", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset__get_outputs_d__45", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationPlayableAsset__get_outputs_d__45(AnimationPlayableAsset__get_outputs_d__45&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset__get_outputs_d__45", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset__get_outputs_d__45", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableAsset__get_outputs_d__45(AnimationPlayableAsset__get_outputs_d__45 const&) = delete;
+  AnimationPlayableAsset__get_outputs_d__45(AnimationPlayableAsset__get_outputs_d__45const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19157 };
@@ -412,6 +421,7 @@ static_assert(offsetof(::UnityEngine::Timeline::AnimationPlayableAsset__get_outp
 static_assert(sizeof(::UnityEngine::Timeline::AnimationPlayableAsset__get_outputs_d__45) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [NotKeyable]
 // Dependencies UnityEngine.Playables.PlayableAsset, UnityEngine.Quaternion, UnityEngine.Timeline.AnimationPlayableAsset::LoopMode, UnityEngine.Timeline.AppliedOffsetMode,
 // UnityEngine.Timeline.MatchTargetFields, UnityEngine.Vector3
 namespace UnityEngine::Timeline {
@@ -607,6 +617,7 @@ public:
 
   static inline int32_t getStaticF_k_LatestVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_appliedOffsetMode, addr 0x69ad41c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::AppliedOffsetMode get_appliedOffsetMode();
 
@@ -634,6 +645,7 @@ public:
   /// @brief Method get_matchTargetFields, addr 0x69ad260, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::MatchTargetFields get_matchTargetFields();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.Timeline.AnimationPlayableAsset::<get_outputs>d__45))]
   /// @brief Method get_outputs, addr 0x69ad57c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
@@ -660,6 +672,7 @@ public:
 
   static inline void setStaticF_k_LatestVersion(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_appliedOffsetMode, addr 0x69ad424, size 0x8, virtual false, abstract: false, final false
   inline void set_appliedOffsetMode(::UnityEngine::Timeline::AppliedOffsetMode value);
 
@@ -696,47 +709,61 @@ protected:
   constexpr AnimationPlayableAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationPlayableAsset(AnimationPlayableAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableAsset(AnimationPlayableAsset const&) = delete;
+  AnimationPlayableAsset(AnimationPlayableAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19158 };
 
+  /// [SerializeField]
   /// @brief Field m_Clip, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ___m_Clip;
 
+  /// [SerializeField]
   /// @brief Field m_Position, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_Position;
 
+  /// [SerializeField]
   /// @brief Field m_EulerAngles, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_EulerAngles;
 
+  /// [SerializeField]
   /// @brief Field m_UseTrackMatchFields, offset: 0x38, size: 0x1, def value: None
   bool ___m_UseTrackMatchFields;
 
+  /// [SerializeField]
   /// @brief Field m_MatchTargetFields, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::Timeline::MatchTargetFields ___m_MatchTargetFields;
 
+  /// [SerializeField]
   /// @brief Field m_RemoveStartOffset, offset: 0x40, size: 0x1, def value: None
   bool ___m_RemoveStartOffset;
 
+  /// [SerializeField]
   /// @brief Field m_ApplyFootIK, offset: 0x41, size: 0x1, def value: None
   bool ___m_ApplyFootIK;
 
+  /// [SerializeField]
   /// @brief Field m_Loop, offset: 0x44, size: 0x4, def value: None
   ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode ___m_Loop;
 
+  /// [CompilerGenerated]
   /// @brief Field <appliedOffsetMode>k__BackingField, offset: 0x48, size: 0x4, def value: None
   ::UnityEngine::Timeline::AppliedOffsetMode ____appliedOffsetMode_k__BackingField;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x4c, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [SerializeField]
+  /// [Obsolete("Use m_RotationEuler Instead", false)]
+  /// [HideInInspector]
   /// @brief Field m_Rotation, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Quaternion ___m_Rotation;
 

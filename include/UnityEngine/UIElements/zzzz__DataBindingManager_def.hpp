@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DataBindingManager.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DataBindingManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -164,6 +164,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBi
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DataBindingManager_BindingDataCollection, "UnityEngine.UIElements", "DataBindingManager/BindingDataCollection");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DataBindingManager_BindingRequest, "UnityEngine.UIElements", "DataBindingManager/BindingRequest");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DataBindingManager_ChangesFromUI, "UnityEngine.UIElements", "DataBindingManager/ChangesFromUI");
+// [IsReadOnly]
 // Dependencies UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -175,14 +176,14 @@ public:
   inline ::UnityEngine::UIElements::DataBindingManager_BindingRequest CancelRequest();
 
   /// @brief Method .ctor, addr 0x6c423b8, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding, bool shouldProcess);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding, bool shouldProcess);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr DataBindingManager_BindingRequest();
 
-  // Ctor Parameters [CppParam { name: "bindingId", ty: "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: None }, CppParam { name: "binding", ty: "::UnityEngine::UIElements::Binding*",
-  // modifiers: "", def_value: None }, CppParam { name: "shouldProcess", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bindingId", ty: "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: None, comment: None }, CppParam { name: "binding", ty:
+  // "::UnityEngine::UIElements::Binding*", modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldProcess", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr DataBindingManager_BindingRequest(::UnityEngine::UIElements::BindingId bindingId, ::UnityEngine::UIElements::Binding* binding, bool shouldProcess) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -241,7 +242,7 @@ public:
   inline bool RemoveBindingData(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData);
 
   /// @brief Method TryGetBindingData, addr 0x6c406cc, size 0x90, virtual false, abstract: false, final false
-  inline bool TryGetBindingData(::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> data);
+  inline bool TryGetBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> data);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
@@ -251,8 +252,8 @@ public:
   constexpr DataBindingManager_BindingDataCollection();
 
   // Ctor Parameters [CppParam { name: "m_BindingPerId", ty:
-  // "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::BindingId,::UnityEngine::UIElements::DataBindingManager_BindingData*>*", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Bindings", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>*", modifiers: "", def_value: None }]
+  // "::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::BindingId,::UnityEngine::UIElements::DataBindingManager_BindingData*>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Bindings", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>*", modifiers: "", def_value: None, comment: None }]
   constexpr DataBindingManager_BindingDataCollection(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::BindingId, ::UnityEngine::UIElements::DataBindingManager_BindingData*>* m_BindingPerId,
       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>* m_Bindings) noexcept;
@@ -363,12 +364,14 @@ public:
   /// @brief Method .ctor, addr 0x6c43564, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_localDataSource, addr 0x6c43bbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_localDataSource();
 
   /// @brief Method set_context, addr 0x6c43bcc, size 0x104, virtual false, abstract: false, final false
   inline void set_context(::UnityEngine::UIElements::DataSourceContext value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_localDataSource, addr 0x6c43bc4, size 0x8, virtual false, abstract: false, final false
   inline void set_localDataSource(::System::Object* value);
 
@@ -378,13 +381,13 @@ protected:
   constexpr DataBindingManager_BindingData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_BindingData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_BindingData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataBindingManager_BindingData(DataBindingManager_BindingData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_BindingData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_BindingData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingManager_BindingData(DataBindingManager_BindingData const&) = delete;
+  DataBindingManager_BindingData(DataBindingManager_BindingDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4042 };
@@ -401,6 +404,8 @@ public:
   /// @brief Field m_LastContext, offset: 0xc0, size: 0x98, def value: None
   ::UnityEngine::UIElements::DataSourceContext ___m_LastContext;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <localDataSource>k__BackingField, offset: 0x158, size: 0x8, def value: None
   ::System::Object* ____localDataSource_k__BackingField;
 
@@ -430,6 +435,7 @@ static_assert(offsetof(::UnityEngine::UIElements::DataBindingManager_BindingData
 static_assert(sizeof(::UnityEngine::UIElements::DataBindingManager_BindingData) == 0x190, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -449,8 +455,8 @@ public:
   // @brief default ctor
   constexpr DataBindingManager_ChangesFromUI();
 
-  // Ctor Parameters [CppParam { name: "version", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "binding", ty: "::UnityEngine::UIElements::Binding*", modifiers: "", def_value: None
-  // }, CppParam { name: "bindingData", ty: "::UnityEngine::UIElements::DataBindingManager_BindingData*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "version", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "binding", ty: "::UnityEngine::UIElements::Binding*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "bindingData", ty: "::UnityEngine::UIElements::DataBindingManager_BindingData*", modifiers: "", def_value: None, comment: None }]
   constexpr DataBindingManager_ChangesFromUI(int64_t version, ::UnityEngine::UIElements::Binding* binding, ::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -519,15 +525,19 @@ public:
   /// @brief Method .ctor, addr 0x6c43dcc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_boundElements, addr 0x6c44020, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* get_boundElements();
 
+  /// [CompilerGenerated]
   /// @brief Method get_results, addr 0x6c44030, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* get_results();
 
+  /// [CompilerGenerated]
   /// @brief Method set_boundElements, addr 0x6c44028, size 0x8, virtual false, abstract: false, final false
   inline void set_boundElements(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_results, addr 0x6c44038, size 0x8, virtual false, abstract: false, final false
   inline void set_results(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
@@ -537,20 +547,24 @@ protected:
   constexpr HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter(HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter(HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter const&) = delete;
+  HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter(HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4044 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <boundElements>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* ____boundElements_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <results>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* ____results_k__BackingField;
 
@@ -706,13 +720,13 @@ protected:
   constexpr DataBindingManager_HierarchyBindingTracker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyBindingTracker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyBindingTracker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataBindingManager_HierarchyBindingTracker(DataBindingManager_HierarchyBindingTracker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyBindingTracker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyBindingTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingManager_HierarchyBindingTracker(DataBindingManager_HierarchyBindingTracker const&) = delete;
+  DataBindingManager_HierarchyBindingTracker(DataBindingManager_HierarchyBindingTrackerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4045 };
@@ -814,15 +828,19 @@ public:
   /// @brief Method get_detectedChangesNoAlloc, addr 0x6c44afc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* get_detectedChangesNoAlloc();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lastVersion, addr 0x6c44adc, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_lastVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_refCount, addr 0x6c44aec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_refCount();
 
+  /// [CompilerGenerated]
   /// @brief Method set_lastVersion, addr 0x6c44ae4, size 0x8, virtual false, abstract: false, final false
   inline void set_lastVersion(int64_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_refCount, addr 0x6c44af4, size 0x8, virtual false, abstract: false, final false
   inline void set_refCount(int32_t value);
 
@@ -832,13 +850,13 @@ protected:
   constexpr HierarchyDataSourceTracker_DataBindingManager_SourceInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_SourceInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_SourceInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyDataSourceTracker_DataBindingManager_SourceInfo(HierarchyDataSourceTracker_DataBindingManager_SourceInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_SourceInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_SourceInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyDataSourceTracker_DataBindingManager_SourceInfo(HierarchyDataSourceTracker_DataBindingManager_SourceInfo const&) = delete;
+  HierarchyDataSourceTracker_DataBindingManager_SourceInfo(HierarchyDataSourceTracker_DataBindingManager_SourceInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4046 };
@@ -846,9 +864,13 @@ public:
   /// @brief Field m_DetectedChanges, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* ___m_DetectedChanges;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <lastVersion>k__BackingField, offset: 0x18, size: 0x8, def value: None
   int64_t ____lastVersion_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <refCount>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____refCount_k__BackingField;
 
@@ -910,13 +932,13 @@ protected:
   constexpr HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal(HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal(HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal const&) = delete;
+  HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal(HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4047 };
@@ -967,13 +989,13 @@ protected:
   constexpr HierarchyDataSourceTracker_DataBindingManager_ObjectComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_ObjectComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_ObjectComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyDataSourceTracker_DataBindingManager_ObjectComparer(HierarchyDataSourceTracker_DataBindingManager_ObjectComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_ObjectComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyDataSourceTracker_DataBindingManager_ObjectComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyDataSourceTracker_DataBindingManager_ObjectComparer(HierarchyDataSourceTracker_DataBindingManager_ObjectComparer const&) = delete;
+  HierarchyDataSourceTracker_DataBindingManager_ObjectComparer(HierarchyDataSourceTracker_DataBindingManager_ObjectComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4048 };
@@ -1174,13 +1196,13 @@ protected:
   constexpr DataBindingManager_HierarchyDataSourceTracker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyDataSourceTracker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyDataSourceTracker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataBindingManager_HierarchyDataSourceTracker(DataBindingManager_HierarchyDataSourceTracker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyDataSourceTracker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager_HierarchyDataSourceTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingManager_HierarchyDataSourceTracker(DataBindingManager_HierarchyDataSourceTracker const&) = delete;
+  DataBindingManager_HierarchyDataSourceTracker(DataBindingManager_HierarchyDataSourceTrackerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4049 };
@@ -1313,7 +1335,8 @@ public:
   inline void ClearSourceCache();
 
   /// @brief Method CreateBindingRequest, addr 0x6c41994, size 0x320, virtual false, abstract: false, final false
-  static inline void CreateBindingRequest(::UnityEngine::UIElements::VisualElement* target, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding);
+  static inline void CreateBindingRequest(::UnityEngine::UIElements::VisualElement* target, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+                                          ::UnityEngine::UIElements::Binding* binding);
 
   /// @brief Method DirtyBindingOrder, addr 0x6c42e18, size 0x1c, virtual false, abstract: false, final false
   inline void DirtyBindingOrder();
@@ -1356,7 +1379,8 @@ public:
   inline void ProcessBindingRequests(::UnityEngine::UIElements::VisualElement* element);
 
   /// @brief Method RegisterBinding, addr 0x6c4075c, size 0x474, virtual false, abstract: false, final false
-  inline void RegisterBinding(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding);
+  inline void RegisterBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+                              ::UnityEngine::UIElements::Binding* binding);
 
   /// @brief Method ReleasePoolBindingData, addr 0x6c4170c, size 0xd4, virtual false, abstract: false, final false
   inline void ReleasePoolBindingData(::UnityEngine::UIElements::DataBindingManager_BindingData* data);
@@ -1371,11 +1395,11 @@ public:
   inline void TransferBindingRequests(::UnityEngine::UIElements::VisualElement* element);
 
   /// @brief Method TryGetBindingData, addr 0x6c40654, size 0x78, virtual false, abstract: false, final false
-  inline bool TryGetBindingData(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+  inline bool TryGetBindingData(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                 ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData);
 
   /// @brief Method TryGetBindingRequest, addr 0x6c42c74, size 0x1a4, virtual false, abstract: false, final false
-  static inline bool TryGetBindingRequest(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+  static inline bool TryGetBindingRequest(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                           ::by_ref<::UnityEngine::UIElements::Binding*> binding);
 
   /// @brief Method TryGetLastSourceBindingResult, addr 0x6c3fdf8, size 0x88, virtual false, abstract: false, final false
@@ -1388,7 +1412,7 @@ public:
   inline bool TryGetLastVersion(::System::Object* source, ::by_ref<int64_t> version);
 
   /// @brief Method UnregisterBinding, addr 0x6c41274, size 0x300, virtual false, abstract: false, final false
-  inline void UnregisterBinding(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId);
+  inline void UnregisterBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId);
 
   /// @brief Method UpdateVersion, addr 0x6c3fbc8, size 0x14, virtual false, abstract: false, final false
   inline void UpdateVersion(::System::Object* source, int64_t version);
@@ -1463,13 +1487,13 @@ protected:
   constexpr DataBindingManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataBindingManager(DataBindingManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingManager(DataBindingManager const&) = delete;
+  DataBindingManager(DataBindingManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4050 };

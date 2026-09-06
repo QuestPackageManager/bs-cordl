@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\UniqueConstraint.hpp"
+// IWYU pragma private; include "System/Data/UniqueConstraint.hpp"
 #include "System/Data/zzzz__Constraint_impl.hpp"
 #include "System/Data/zzzz__DataKey_impl.hpp"
 #include "System/Data/zzzz__UniqueConstraint_def.hpp"
@@ -581,6 +581,7 @@ inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_cto
 inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::ArrayW<::System::Data::DataColumn*> columns) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::UniqueConstraint*>(columns));
 }
+/// @brief [Browsable(false)]
 inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::StringW name, ::ArrayW<::StringW> columnNames, bool isPrimaryKey) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::UniqueConstraint*>(name, columnNames, isPrimaryKey));
 }

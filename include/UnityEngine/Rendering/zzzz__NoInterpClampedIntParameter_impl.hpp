@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpClampedIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpClampedIntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpClampedIntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::NoInterpClampedIntParameter.get_value

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\IPlatformLogger.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/IPlatformLogger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,24 +19,24 @@ namespace OculusStudios::Platform::Core {
 class CORDL_TYPE IPlatformLogger {
 public:
   // Declarations
-  /// @brief Method LogError, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::StringW message);
 
-  /// @brief Method LogInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogSensitive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogSensitive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogSensitive(::StringW message);
 
-  /// @brief Method LogVerbose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogVerbose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogVerbose(::StringW message);
 
-  /// @brief Method LogWarning, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogWarning(::StringW message);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPlatformLogger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPlatformLogger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPlatformLogger(IPlatformLogger const&) = delete;
+  IPlatformLogger(IPlatformLoggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22464 };

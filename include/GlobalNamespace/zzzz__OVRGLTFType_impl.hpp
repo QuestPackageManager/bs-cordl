@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGLTFType.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFType.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRGLTFType::OVRGLTFType(int32_t value__) noexcept {
   this->value__ = value__;
 }

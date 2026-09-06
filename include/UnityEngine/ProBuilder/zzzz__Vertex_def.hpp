@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Vertex.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Vertex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -380,41 +380,50 @@ protected:
   constexpr Vertex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vertex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vertex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vertex(Vertex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vertex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vertex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vertex(Vertex const&) = delete;
+  Vertex(Vertexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16829 };
 
+  /// [SerializeField]
   /// @brief Field m_Position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_Position;
 
+  /// [SerializeField]
   /// @brief Field m_Color, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Color ___m_Color;
 
+  /// [SerializeField]
   /// @brief Field m_Normal, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_Normal;
 
+  /// [SerializeField]
   /// @brief Field m_Tangent, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_Tangent;
 
+  /// [SerializeField]
   /// @brief Field m_UV0, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_UV0;
 
+  /// [SerializeField]
   /// @brief Field m_UV2, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_UV2;
 
+  /// [SerializeField]
   /// @brief Field m_UV3, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_UV3;
 
+  /// [SerializeField]
   /// @brief Field m_UV4, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_UV4;
 
+  /// [SerializeField]
   /// @brief Field m_Attributes, offset: 0x78, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::MeshArrays ___m_Attributes;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IVariableMovementDataProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/IVariableMovementDataProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,53 +47,53 @@ public:
 
   __declspec(property(get = get_wasUpdatedThisFrame)) bool wasUpdatedThisFrame;
 
-  /// @brief Method CalculateCurrentNoteJumpGravity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CalculateCurrentNoteJumpGravity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t CalculateCurrentNoteJumpGravity(float_t gravityBase);
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t minRelativeNoteJumpSpeed, float_t bpm,
                    ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType noteJumpValueType, float_t noteJumpValue, ::UnityEngine::Vector3 centerPosition,
                    ::UnityEngine::Vector3 forwardVector);
 
-  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(float_t highestJumpPosY, float_t distanceFromPlayer);
 
-  /// @brief Method get_halfJumpDuration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_halfJumpDuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_halfJumpDuration();
 
-  /// @brief Method get_jumpDistance, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_jumpDistance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_jumpDistance();
 
-  /// @brief Method get_jumpDuration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_jumpDuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_jumpDuration();
 
-  /// @brief Method get_jumpEndPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_jumpEndPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_jumpEndPosition();
 
-  /// @brief Method get_moveDuration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_moveDuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_moveDuration();
 
-  /// @brief Method get_moveEndPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_moveEndPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_moveEndPosition();
 
-  /// @brief Method get_moveStartPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_moveStartPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_moveStartPosition();
 
-  /// @brief Method get_noteJumpSpeed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_noteJumpSpeed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_noteJumpSpeed();
 
-  /// @brief Method get_spawnAheadTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_spawnAheadTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_spawnAheadTime();
 
-  /// @brief Method get_waitingDuration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_waitingDuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_waitingDuration();
 
-  /// @brief Method get_wasUpdatedThisFrame, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_wasUpdatedThisFrame, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_wasUpdatedThisFrame();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVariableMovementDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVariableMovementDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVariableMovementDataProvider(IVariableMovementDataProvider const&) = delete;
+  IVariableMovementDataProvider(IVariableMovementDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5642 };

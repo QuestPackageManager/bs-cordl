@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\SHA256.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/SHA256.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class SHA256;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::SHA256*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::SHA256*, "System.Security.Cryptography", "SHA256");
+// [ComVisible(true)]
 // Dependencies System.Security.Cryptography.HashAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -33,13 +34,13 @@ protected:
   constexpr SHA256();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SHA256", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SHA256", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SHA256(SHA256&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SHA256", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SHA256", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SHA256(SHA256 const&) = delete;
+  SHA256(SHA256const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2976 };

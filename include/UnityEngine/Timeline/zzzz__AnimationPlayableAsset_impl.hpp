@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\AnimationPlayableAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/AnimationPlayableAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_impl.hpp"
@@ -30,7 +30,7 @@
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode::AnimationPlayableAsset_LoopMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -39,7 +39,7 @@ constexpr ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode::AnimationPla
 constexpr ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode UnityEngine::Timeline::AnimationPlayableAsset_LoopMode::UseSourceAsset{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode UnityEngine::Timeline::AnimationPlayableAsset_LoopMode::On{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Timeline::AnimationPlayableAsset_LoopMode UnityEngine::Timeline::AnimationPlayableAsset_LoopMode::Off{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::AnimationPlayableAsset_Versions::AnimationPlayableAsset_Versions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -271,6 +271,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::Timeline::AnimationPlaya
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationPlayableAsset__get_outputs_d__45*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::Timeline::AnimationPlayableAsset__get_outputs_d__45* UnityEngine::Timeline::AnimationPlayableAsset__get_outputs_d__45::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Timeline::AnimationPlayableAsset__get_outputs_d__45*>(__1__state));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SchemaElementDecl.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SchemaElementDecl.hpp"
 #include "System/Xml/Schema/zzzz__CompiledIdentityConstraint_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaDeclBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDerivationMethod_impl.hpp"

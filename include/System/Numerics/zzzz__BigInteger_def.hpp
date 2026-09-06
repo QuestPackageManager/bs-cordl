@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Numerics\BigInteger.hpp"
+// IWYU pragma private; include "System/Numerics/BigInteger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,7 +84,7 @@ public:
   // @brief default ctor
   constexpr BigInteger_GetBytesMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BigInteger_GetBytesMode(int32_t value__) noexcept;
 
   /// @brief Field AllocateArray value: I32(0)
@@ -113,6 +113,7 @@ static_assert(offsetof(::System::Numerics::BigInteger_GetBytesMode, value__) == 
 static_assert(sizeof(::System::Numerics::BigInteger_GetBytesMode) == 0x4, "Size mismatch!");
 
 } // namespace System::Numerics
+// [IsReadOnly]
 // Dependencies
 namespace System::Numerics {
 // Is value type: true
@@ -220,6 +221,7 @@ public:
   /// @brief Method .ctor, addr 0x60f2794, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint32_t> value, bool negative);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x60f20d4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> value);
 
@@ -241,9 +243,11 @@ public:
   /// @brief Method .ctor, addr 0x60f1988, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x60f18f8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x60f1aac, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
@@ -305,15 +309,19 @@ public:
   /// @brief Method op_Explicit, addr 0x60f4674, size 0xa8, virtual false, abstract: false, final false
   static inline int64_t op_Explicit_int64_t(::System::Numerics::BigInteger value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Explicit, addr 0x60f43f4, size 0x98, virtual false, abstract: false, final false
   static inline int8_t op_Explicit_int8_t(::System::Numerics::BigInteger value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Explicit, addr 0x60f4524, size 0x98, virtual false, abstract: false, final false
   static inline uint16_t op_Explicit_uint16_t(::System::Numerics::BigInteger value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Explicit, addr 0x60f45bc, size 0xb8, virtual false, abstract: false, final false
   static inline uint32_t op_Explicit_uint32_t(::System::Numerics::BigInteger value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Explicit, addr 0x60f471c, size 0xcc, virtual false, abstract: false, final false
   static inline uint64_t op_Explicit_uint64_t(::System::Numerics::BigInteger value);
 
@@ -329,15 +337,19 @@ public:
   /// @brief Method op_Implicit, addr 0x60f3ae4, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_Implicit___System__Numerics__BigInteger(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x60f41a8, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_Implicit___System__Numerics__BigInteger(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x60f41f8, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_Implicit___System__Numerics__BigInteger(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x60f424c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_Implicit___System__Numerics__BigInteger(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method op_Implicit, addr 0x60f1edc, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_Implicit___System__Numerics__BigInteger(uint64_t value);
 
@@ -397,7 +409,8 @@ public:
   // @brief default ctor
   constexpr BigInteger();
 
-  // Ctor Parameters [CppParam { name: "_sign", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_bits", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_sign", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_bits", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BigInteger(int32_t _sign, ::ArrayW<uint32_t> _bits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

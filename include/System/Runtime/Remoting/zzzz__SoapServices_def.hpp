@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\SoapServices.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/SoapServices.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr SoapServices_TypeInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoapServices_TypeInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoapServices_TypeInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoapServices_TypeInfo(SoapServices_TypeInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoapServices_TypeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoapServices_TypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoapServices_TypeInfo(SoapServices_TypeInfo const&) = delete;
+  SoapServices_TypeInfo(SoapServices_TypeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3093 };
@@ -96,6 +96,7 @@ static_assert(offsetof(::System::Runtime::Remoting::SoapServices_TypeInfo, ___El
 static_assert(sizeof(::System::Runtime::Remoting::SoapServices_TypeInfo) == 0x20, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
@@ -191,13 +192,13 @@ protected:
   constexpr SoapServices();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoapServices", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoapServices", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoapServices(SoapServices&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoapServices", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoapServices", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoapServices(SoapServices const&) = delete;
+  SoapServices(SoapServicesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3094 };

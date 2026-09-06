@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\API\UnityXRTextureData.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/API/UnityXRTextureData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,8 @@ public:
   // @brief default ctor
   constexpr UnityXRTextureData();
 
-  // Ctor Parameters [CppParam { name: "nativePtr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "referenceTextureId", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nativePtr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "referenceTextureId", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr UnityXRTextureData(::System::IntPtr nativePtr, uint32_t referenceTextureId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

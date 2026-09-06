@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ReceiverSphereCuller.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ReceiverSphereCuller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -60,8 +62,8 @@ public:
   // @brief default ctor
   constexpr ReceiverSphereCuller_SplitInfo();
 
-  // Ctor Parameters [CppParam { name: "receiverSphereLightSpace", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "cascadeBlendCullingFactor", ty: "float_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "receiverSphereLightSpace", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "cascadeBlendCullingFactor",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ReceiverSphereCuller_SplitInfo(::Unity::Mathematics::float4 receiverSphereLightSpace, float_t cascadeBlendCullingFactor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -98,10 +100,10 @@ public:
   /// @brief Method ComputeSplitVisibilityMask, addr 0x6810e0c, size 0x28c, virtual false, abstract: false, final false
   static inline uint32_t ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> lightFacingFrustumPlanes,
                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo> splitInfos,
-                                                    ::Unity::Mathematics::float3x3 worldToLightSpaceRotation, ::by_ref<::UnityEngine::Rendering::AABB> bounds);
+                                                    ::Unity::Mathematics::float3x3 worldToLightSpaceRotation, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> bounds);
 
   /// @brief Method Create, addr 0x6810ab0, size 0x230, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::ReceiverSphereCuller Create(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator);
+  static inline ::UnityEngine::Rendering::ReceiverSphereCuller Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method CreateEmptyForTesting, addr 0x68109a8, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverSphereCuller CreateEmptyForTesting(::Unity::Collections::Allocator allocator);
@@ -120,8 +122,8 @@ public:
   // @brief default ctor
   constexpr ReceiverSphereCuller();
 
-  // Ctor Parameters [CppParam { name: "splitInfos", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>", modifiers: "", def_value: None }, CppParam {
-  // name: "worldToLightSpaceRotation", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "splitInfos", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "worldToLightSpaceRotation", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: None, comment: None }]
   constexpr ReceiverSphereCuller(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo> splitInfos,
                                  ::Unity::Mathematics::float3x3 worldToLightSpaceRotation) noexcept;
 

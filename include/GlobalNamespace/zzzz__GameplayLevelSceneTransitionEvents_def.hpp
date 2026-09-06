@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayLevelSceneTransitionEvents.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayLevelSceneTransitionEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,12 +119,14 @@ public:
                     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* multiplayerLevelScenesTransitionSetupData,
                     ::GlobalNamespace::MissionLevelScenesTransitionSetupData* missionLevelScenesTransitionSetupData);
 
+  /// [CompilerGenerated]
   /// @brief Method add_anyGameplayLevelDidFinishEvent, addr 0x590e20c, size 0xac, virtual false, abstract: false, final false
   inline void add_anyGameplayLevelDidFinishEvent(::System::Action* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_anyGameplayLevelDidFinishEvent, addr 0x590e2b8, size 0xac, virtual false, abstract: false, final false
   inline void remove_anyGameplayLevelDidFinishEvent(::System::Action* value);
 
@@ -134,13 +136,13 @@ protected:
   constexpr GameplayLevelSceneTransitionEvents();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayLevelSceneTransitionEvents", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayLevelSceneTransitionEvents", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayLevelSceneTransitionEvents(GameplayLevelSceneTransitionEvents&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayLevelSceneTransitionEvents", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayLevelSceneTransitionEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayLevelSceneTransitionEvents(GameplayLevelSceneTransitionEvents const&) = delete;
+  GameplayLevelSceneTransitionEvents(GameplayLevelSceneTransitionEventsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6737 };
@@ -154,6 +156,7 @@ public:
   /// @brief Field _missionLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::MissionLevelScenesTransitionSetupData* ____missionLevelScenesTransitionSetupData;
 
+  /// [CompilerGenerated]
   /// @brief Field anyGameplayLevelDidFinishEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___anyGameplayLevelDidFinishEvent;
 

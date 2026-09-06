@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatAvatarEditorFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatAvatarEditorFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -191,13 +191,13 @@ protected:
   constexpr BeatAvatarEditorFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatAvatarEditorFlowCoordinator(BeatAvatarEditorFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarEditorFlowCoordinator(BeatAvatarEditorFlowCoordinator const&) = delete;
+  BeatAvatarEditorFlowCoordinator(BeatAvatarEditorFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21679 };
@@ -205,21 +205,27 @@ public:
   /// @brief Field kTitleAvatarLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitleAvatarLocalizationKey{ u"TITLE_AVATAR" };
 
+  /// [SerializeField]
   /// @brief Field _avatarTweenController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> ____avatarTweenController;
 
+  /// [SerializeField]
   /// @brief Field _avatarContainerGameObject, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____avatarContainerGameObject;
 
+  /// [SerializeField]
   /// @brief Field _avatarVisualController, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> ____avatarVisualController;
 
+  /// [Inject]
   /// @brief Field _beatAvatarEditorViewController, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> ____beatAvatarEditorViewController;
 
+  /// [Inject]
   /// @brief Field _editAvatarColorViewController, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> ____editAvatarColorViewController;
 
+  /// [Inject]
   /// @brief Field _avatarDataModel, offset: 0x100, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarDataModel* ____avatarDataModel;
 

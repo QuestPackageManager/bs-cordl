@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServersFilterViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServersFilterViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,12 +98,15 @@ public:
   /// @brief Method SetupGameServersFilter, addr 0x5960f04, size 0x4, virtual false, abstract: false, final false
   inline void SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__16_0, addr 0x5961278, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_0(bool isOn);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__16_1, addr 0x5961294, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_1(bool isOn);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__16_2, addr 0x59612b0, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_2(bool isOn);
 
@@ -197,47 +200,62 @@ protected:
   constexpr GameServersFilterViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServersFilterViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServersFilterViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServersFilterViewController(GameServersFilterViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServersFilterViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServersFilterViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServersFilterViewController(GameServersFilterViewController const&) = delete;
+  GameServersFilterViewController(GameServersFilterViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6976 };
 
+  /// [Header("Filter By Difficulty")]
+  /// [SerializeField]
   /// @brief Field _filterByDifficultyToggle, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByDifficultyToggle;
 
+  /// [SerializeField]
   /// @brief Field _filterByDifficultyButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____filterByDifficultyButton;
 
+  /// [SerializeField]
   /// @brief Field _beatmapDifficultyDropdown, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> ____beatmapDifficultyDropdown;
 
+  /// [Header("Filter By Modifiers")]
+  /// [SerializeField]
   /// @brief Field _filterByModifiersToggle, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByModifiersToggle;
 
+  /// [SerializeField]
   /// @brief Field _filterByModifiersButton, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____filterByModifiersButton;
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersDropdown, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersDropdown> ____gameplayModifiersDropdown;
 
+  /// [Header("Filter By Songs")]
+  /// [SerializeField]
   /// @brief Field _filterBySongsToggle, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterBySongsToggle;
 
+  /// [SerializeField]
   /// @brief Field _filterBySongsButton, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____filterBySongsButton;
 
+  /// [SerializeField]
   /// @brief Field _songPacksDropdown, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPacksDropdown> ____songPacksDropdown;
 
+  /// [Header("Others")]
+  /// [SerializeField]
   /// @brief Field _showFullToggle, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____showFullToggle;
 
+  /// [SerializeField]
   /// @brief Field _showPasswordProtectedToggle, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____showPasswordProtectedToggle;
 

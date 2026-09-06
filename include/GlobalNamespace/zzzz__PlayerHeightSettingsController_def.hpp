@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerHeightSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerHeightSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,12 +120,14 @@ public:
   /// @brief Method .ctor, addr 0x5a15f48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_valueDidChangeEvent, addr 0x5a15b1c, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
   /// @brief Method get_value, addr 0x5a15c9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_valueDidChangeEvent, addr 0x5a15bdc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
@@ -135,29 +137,34 @@ protected:
   constexpr PlayerHeightSettingsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightSettingsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightSettingsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerHeightSettingsController(PlayerHeightSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightSettingsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightSettingsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerHeightSettingsController(PlayerHeightSettingsController const&) = delete;
+  PlayerHeightSettingsController(PlayerHeightSettingsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6412 };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
+  /// [SerializeField]
   /// @brief Field _setButton, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____setButton;
 
+  /// [Inject]
   /// @brief Field _vrPlatformHelper, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [CompilerGenerated]
   /// @brief Field valueDidChangeEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___valueDidChangeEvent;
 

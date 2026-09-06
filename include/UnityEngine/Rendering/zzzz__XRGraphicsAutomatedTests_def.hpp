@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\XRGraphicsAutomatedTests.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/XRGraphicsAutomatedTests.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ public:
   /// @brief Method get_activatedFromCommandLine, addr 0x67cf578, size 0x8, virtual false, abstract: false, final false
   static inline bool get_activatedFromCommandLine();
 
+  /// [CompilerGenerated]
   /// @brief Method get_enabled, addr 0x67cf580, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
@@ -54,13 +55,13 @@ protected:
   constexpr XRGraphicsAutomatedTests();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRGraphicsAutomatedTests", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRGraphicsAutomatedTests", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRGraphicsAutomatedTests(XRGraphicsAutomatedTests&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRGraphicsAutomatedTests", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRGraphicsAutomatedTests", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRGraphicsAutomatedTests(XRGraphicsAutomatedTests const&) = delete;
+  XRGraphicsAutomatedTests(XRGraphicsAutomatedTestsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12378 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\NativeListExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/NativeListExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
@@ -20,6 +22,7 @@ class NativeListExtensions;
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativeListExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativeListExtensions*, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler",
                     "NativeListExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: false
@@ -27,11 +30,17 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 class CORDL_TYPE NativeListExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method LastIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t LastIndex(::by_ref<::Unity::Collections::NativeList_1<T>> list);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t LastIndex(::by_ref<::Unity::Collections::NativeList_1<T>> list);
 
+  /// [Extension]
   /// @brief Method MakeReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::ReadOnlySpan_1<T> MakeReadOnlySpan(::by_ref<::Unity::Collections::NativeList_1<T>> list, int32_t first, int32_t numElements);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::System::ReadOnlySpan_1<T> MakeReadOnlySpan(::by_ref<::Unity::Collections::NativeList_1<T>> list, int32_t first, int32_t numElements);
 
 protected:
   // Ctor Parameters []
@@ -39,13 +48,13 @@ protected:
   constexpr NativeListExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeListExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeListExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeListExtensions(NativeListExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeListExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeListExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeListExtensions(NativeListExtensions const&) = delete;
+  NativeListExtensions(NativeListExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12479 };

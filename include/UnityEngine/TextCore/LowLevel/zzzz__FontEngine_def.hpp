@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\FontEngine.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/FontEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,6 +86,7 @@ class FontEngine;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::LowLevel::FontEngine*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::FontEngine*, "UnityEngine.TextCore.LowLevel", "FontEngine");
+// [NativeHeader("Modules/TextCoreFontEngine/Native/FontEngine.h")]
 // Dependencies System.Object, UnityEngine.TextCore.Glyph, UnityEngine.TextCore.GlyphRect, UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct,
 // UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord, UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord, UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord,
 // UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord
@@ -142,21 +143,29 @@ public:
   /// @brief Method GenericListToMarshallingArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GenericListToMarshallingArray(::by_ref<::System::Collections::Generic::List_1<T>*> srcList, ::by_ref<::ArrayW<T>> dstArray);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetAllLigatureSubstitutionRecords", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method GetAllLigatureSubstitutionRecords, addr 0x6bbecac, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord> GetAllLigatureSubstitutionRecords();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetAllMarkToBaseAdjustmentRecords", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method GetAllMarkToBaseAdjustmentRecords, addr 0x6bbf900, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord> GetAllMarkToBaseAdjustmentRecords();
 
   /// @brief Method GetAllMarkToBaseAdjustmentRecords_Injected, addr 0x6bbfa3c, size 0x3c, virtual false, abstract: false, final false
   static inline void GetAllMarkToBaseAdjustmentRecords_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetAllMarkToMarkAdjustmentRecords", IsThreadSafe = true, IsFreeFunction = true)]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetAllMarkToMarkAdjustmentRecords, addr 0x6bbfe78, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord> GetAllMarkToMarkAdjustmentRecords();
 
   /// @brief Method GetAllMarkToMarkAdjustmentRecords_Injected, addr 0x6bbffb4, size 0x3c, virtual false, abstract: false, final false
   static inline void GetAllMarkToMarkAdjustmentRecords_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetAllPairAdjustmentRecords", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method GetAllPairAdjustmentRecords, addr 0x6bbf44c, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> GetAllPairAdjustmentRecords();
 
@@ -166,39 +175,49 @@ public:
   /// @brief Method GetFaceInfo, addr 0x6bbd338, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::FaceInfo GetFaceInfo();
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetFaceInfo", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method GetFaceInfo_Internal, addr 0x6bbd3dc, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetFaceInfo_Internal(::by_ref<::UnityEngine::TextCore::FaceInfo> faceInfo);
 
   /// @brief Method GetFontFaces, addr 0x6bbd418, size 0x80, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetFontFaces();
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetFontFaces", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method GetFontFaces_Internal, addr 0x6bbd498, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetFontFaces_Internal();
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetGlyphIndex", IsThreadSafe = true, IsFreeFunction = true)]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetGlyphIndex, addr 0x6bbd504, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetGlyphIndex(uint32_t unicode);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetGlyphPairAdjustmentTable, addr 0x6bbf114, size 0x130, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> GetGlyphPairAdjustmentTable(::ArrayW<uint32_t> glyphIndexes);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetLigatureSubstitutionRecords, addr 0x6bbecd4, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord> GetLigatureSubstitutionRecords(uint32_t glyphIndex);
 
   /// @brief Method GetLigatureSubstitutionRecords, addr 0x6bbede0, size 0x128, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord> GetLigatureSubstitutionRecords(::ArrayW<uint32_t> glyphIndexes);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetLigatureSubstitutionRecords, addr 0x6bbef08, size 0x90, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord> GetLigatureSubstitutionRecords(::System::Collections::Generic::List_1<uint32_t>* glyphIndexes);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetLigatureSubstitutionRecordsFromMarshallingArray", IsFreeFunction = true)]
   /// @brief Method GetLigatureSubstitutionRecordsFromMarshallingArray, addr 0x6bbf094, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLigatureSubstitutionRecordsFromMarshallingArray(::by_ref<::ArrayW<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>> ligatureSubstitutionRecords);
 
   /// @brief Method GetMarkToBaseAdjustmentRecords, addr 0x6bbfb08, size 0x12c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord> GetMarkToBaseAdjustmentRecords(::ArrayW<uint32_t> glyphIndexes);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetMarkToBaseAdjustmentRecords, addr 0x6bbfa78, size 0x90, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord> GetMarkToBaseAdjustmentRecords(::System::Collections::Generic::List_1<uint32_t>* glyphIndexes);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetMarkToBaseAdjustmentRecordsFromMarshallingArray", IsFreeFunction = true)]
   /// @brief Method GetMarkToBaseAdjustmentRecordsFromMarshallingArray, addr 0x6bbfd30, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t GetMarkToBaseAdjustmentRecordsFromMarshallingArray(::System::Span_1<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord> adjustmentRecords);
 
@@ -208,9 +227,11 @@ public:
   /// @brief Method GetMarkToMarkAdjustmentRecords, addr 0x6bc0074, size 0x128, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord> GetMarkToMarkAdjustmentRecords(::ArrayW<uint32_t> glyphIndexes);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetMarkToMarkAdjustmentRecords, addr 0x6bbfff0, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord> GetMarkToMarkAdjustmentRecords(::System::Collections::Generic::List_1<uint32_t>* glyphIndexes);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetMarkToMarkAdjustmentRecordsFromMarshallingArray", IsFreeFunction = true)]
   /// @brief Method GetMarkToMarkAdjustmentRecordsFromMarshallingArray, addr 0x6bc0298, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t GetMarkToMarkAdjustmentRecordsFromMarshallingArray(::System::Span_1<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord> adjustmentRecords);
 
@@ -220,15 +241,19 @@ public:
   /// @brief Method GetPairAdjustmentRecords, addr 0x6bbf654, size 0x130, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> GetPairAdjustmentRecords(::ArrayW<uint32_t> glyphIndexes);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetPairAdjustmentRecords, addr 0x6bbf5c4, size 0x90, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> GetPairAdjustmentRecords(::System::Collections::Generic::List_1<uint32_t>* glyphIndexes);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetGlyphPairAdjustmentRecordsFromMarshallingArray", IsFreeFunction = true)]
   /// @brief Method GetPairAdjustmentRecordsFromMarshallingArray, addr 0x6bbf340, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t GetPairAdjustmentRecordsFromMarshallingArray(::System::Span_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> glyphPairAdjustmentRecords);
 
   /// @brief Method GetPairAdjustmentRecordsFromMarshallingArray_Injected, addr 0x6bbf8c4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetPairAdjustmentRecordsFromMarshallingArray_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> glyphPairAdjustmentRecords);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::GetVariantGlyphIndex", IsThreadSafe = true, IsFreeFunction = true)]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method GetVariantGlyphIndex, addr 0x6bbd4c0, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetVariantGlyphIndex(uint32_t unicode, uint32_t variantSelectorUnicode);
 
@@ -247,24 +272,28 @@ public:
   /// @brief Method LoadFontFace, addr 0x6bbca94, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace(::UnityEngine::Font* font, float_t pointSize, int32_t faceIndex);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::LoadFontFace", IsFreeFunction = true)]
   /// @brief Method LoadFontFace_Internal, addr 0x6bbc634, size 0x158, virtual false, abstract: false, final false
   static inline int32_t LoadFontFace_Internal(::StringW filePath);
 
   /// @brief Method LoadFontFace_Internal_Injected, addr 0x6bbc78c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t LoadFontFace_Internal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> filePath);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::LoadFontFace", IsFreeFunction = true)]
   /// @brief Method LoadFontFace_With_Size_And_FaceIndex_Internal, addr 0x6bbc8d0, size 0x170, virtual false, abstract: false, final false
   static inline int32_t LoadFontFace_With_Size_And_FaceIndex_Internal(::StringW filePath, int32_t pointSize, int32_t faceIndex);
 
   /// @brief Method LoadFontFace_With_Size_And_FaceIndex_Internal_Injected, addr 0x6bbca40, size 0x54, virtual false, abstract: false, final false
   static inline int32_t LoadFontFace_With_Size_And_FaceIndex_Internal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> filePath, int32_t pointSize, int32_t faceIndex);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::LoadFontFace", IsFreeFunction = true)]
   /// @brief Method LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal, addr 0x6bbcb9c, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal(::UnityEngine::Font* font, int32_t pointSize, int32_t faceIndex);
 
   /// @brief Method LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal_Injected, addr 0x6bbcc5c, size 0x54, virtual false, abstract: false, final false
   static inline int32_t LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal_Injected(::System::IntPtr font, int32_t pointSize, int32_t faceIndex);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::LoadFontFace", IsFreeFunction = true)]
   /// @brief Method LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal, addr 0x6bbcdb8, size 0x1e8, virtual false, abstract: false, final false
   static inline int32_t LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal(::StringW familyName, ::StringW styleName, int32_t pointSize);
 
@@ -272,36 +301,43 @@ public:
   static inline int32_t LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> familyName,
                                                                                              ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> styleName, int32_t pointSize);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::PopulateLigatureSubstitutionRecordMarshallingArray", IsFreeFunction = true)]
   /// @brief Method PopulateLigatureSubstitutionRecordMarshallingArray, addr 0x6bbef98, size 0xfc, virtual false, abstract: false, final false
   static inline int32_t PopulateLigatureSubstitutionRecordMarshallingArray(::ArrayW<uint32_t> glyphIndexes, ::by_ref<int32_t> recordCount);
 
   /// @brief Method PopulateLigatureSubstitutionRecordMarshallingArray_Injected, addr 0x6bbf0d0, size 0x44, virtual false, abstract: false, final false
   static inline int32_t PopulateLigatureSubstitutionRecordMarshallingArray_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> glyphIndexes, ::by_ref<int32_t> recordCount);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::PopulateMarkToBaseAdjustmentRecordMarshallingArray", IsFreeFunction = true)]
   /// @brief Method PopulateMarkToBaseAdjustmentRecordMarshallingArray, addr 0x6bbfc34, size 0xfc, virtual false, abstract: false, final false
   static inline int32_t PopulateMarkToBaseAdjustmentRecordMarshallingArray(::ArrayW<uint32_t> glyphIndexes, ::by_ref<int32_t> recordCount);
 
   /// @brief Method PopulateMarkToBaseAdjustmentRecordMarshallingArray_Injected, addr 0x6bbfdf8, size 0x44, virtual false, abstract: false, final false
   static inline int32_t PopulateMarkToBaseAdjustmentRecordMarshallingArray_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> glyphIndexes, ::by_ref<int32_t> recordCount);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::PopulateMarkToMarkAdjustmentRecordMarshallingArray", IsFreeFunction = true)]
   /// @brief Method PopulateMarkToMarkAdjustmentRecordMarshallingArray, addr 0x6bc019c, size 0xfc, virtual false, abstract: false, final false
   static inline int32_t PopulateMarkToMarkAdjustmentRecordMarshallingArray(::ArrayW<uint32_t> glyphIndexes, ::by_ref<int32_t> recordCount);
 
   /// @brief Method PopulateMarkToMarkAdjustmentRecordMarshallingArray_Injected, addr 0x6bc0360, size 0x44, virtual false, abstract: false, final false
   static inline int32_t PopulateMarkToMarkAdjustmentRecordMarshallingArray_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> glyphIndexes, ::by_ref<int32_t> recordCount);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::PopulatePairAdjustmentRecordMarshallingArray", IsFreeFunction = true)]
   /// @brief Method PopulatePairAdjustmentRecordMarshallingArray, addr 0x6bbf784, size 0xfc, virtual false, abstract: false, final false
   static inline int32_t PopulatePairAdjustmentRecordMarshallingArray(::ArrayW<uint32_t> glyphIndexes, ::by_ref<int32_t> recordCount);
 
   /// @brief Method PopulatePairAdjustmentRecordMarshallingArray_Injected, addr 0x6bbf880, size 0x44, virtual false, abstract: false, final false
   static inline int32_t PopulatePairAdjustmentRecordMarshallingArray_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> glyphIndexes, ::by_ref<int32_t> recordCount);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::PopulatePairAdjustmentRecordMarshallingArrayFromKernTable", IsFreeFunction = true)]
   /// @brief Method PopulatePairAdjustmentRecordMarshallingArray_from_KernTable, addr 0x6bbf244, size 0xfc, virtual false, abstract: false, final false
   static inline int32_t PopulatePairAdjustmentRecordMarshallingArray_from_KernTable(::ArrayW<uint32_t> glyphIndexes, ::by_ref<int32_t> recordCount);
 
   /// @brief Method PopulatePairAdjustmentRecordMarshallingArray_from_KernTable_Injected, addr 0x6bbf408, size 0x44, virtual false, abstract: false, final false
   static inline int32_t PopulatePairAdjustmentRecordMarshallingArray_from_KernTable_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> glyphIndexes, ::by_ref<int32_t> recordCount);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::ResetAtlasTexture", IsFreeFunction = true)]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method ResetAtlasTexture, addr 0x6bc03e0, size 0xa8, virtual false, abstract: false, final false
   static inline void ResetAtlasTexture(::UnityEngine::Texture2D* texture);
 
@@ -311,15 +347,19 @@ public:
   /// @brief Method SetMarshallingArraySize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void SetMarshallingArraySize(::by_ref<::ArrayW<T>> marshallingArray, int32_t recordCount);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
+  /// [NativeMethod(Name = "TextCore::FontEngine::SetTextureUploadMode", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method SetTextureUploadMode, addr 0x6bbd850, size 0x3c, virtual false, abstract: false, final false
   static inline void SetTextureUploadMode(bool shouldUploadImmediately);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method TryAddGlyphToTexture, addr 0x6bbd88c, size 0x4f4, virtual false, abstract: false, final false
   static inline bool TryAddGlyphToTexture(uint32_t glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
                                           ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects,
                                           ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
                                           ::UnityEngine::Texture2D* texture, ::by_ref<::UnityEngine::TextCore::Glyph*> glyph);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::TryAddGlyphToTexture", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method TryAddGlyphToTexture_Internal, addr 0x6bbdd80, size 0x244, virtual false, abstract: false, final false
   static inline bool TryAddGlyphToTexture_Internal(uint32_t glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
                                                    ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
@@ -334,12 +374,14 @@ public:
                                                             ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, ::System::IntPtr texture,
                                                             ::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyph);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method TryAddGlyphsToTexture, addr 0x6bbe060, size 0x858, virtual false, abstract: false, final false
   static inline bool TryAddGlyphsToTexture(::System::Collections::Generic::List_1<uint32_t>* glyphIndexes, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
                                            ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* freeGlyphRects,
                                            ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
                                            ::UnityEngine::Texture2D* texture, ::by_ref<::ArrayW<::UnityEngine::TextCore::Glyph*>> glyphs);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::TryAddGlyphsToTexture", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method TryAddGlyphsToTexture_Internal, addr 0x6bbe8cc, size 0x338, virtual false, abstract: false, final false
   static inline bool TryAddGlyphsToTexture_Internal(::ArrayW<uint32_t> glyphIndex, int32_t padding, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode,
                                                     ::by_ref<::ArrayW<::UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ::by_ref<int32_t> freeGlyphRectCount,
@@ -357,6 +399,7 @@ public:
   /// @brief Method TryGetGlyphWithIndexValue, addr 0x6bbd6c8, size 0x134, virtual false, abstract: false, final false
   static inline bool TryGetGlyphWithIndexValue(uint32_t glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, ::by_ref<::UnityEngine::TextCore::Glyph*> glyph);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::TryGetGlyphWithIndexValue", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method TryGetGlyphWithIndexValue_Internal, addr 0x6bbd7fc, size 0x54, virtual false, abstract: false, final false
   static inline bool TryGetGlyphWithIndexValue_Internal(uint32_t glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags,
                                                         ::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphStruct);
@@ -364,13 +407,16 @@ public:
   /// @brief Method TryGetGlyphWithUnicodeValue, addr 0x6bbd540, size 0x134, virtual false, abstract: false, final false
   static inline bool TryGetGlyphWithUnicodeValue(uint32_t unicode, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags flags, ::by_ref<::UnityEngine::TextCore::Glyph*> glyph);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::TryGetGlyphWithUnicodeValue", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method TryGetGlyphWithUnicodeValue_Internal, addr 0x6bbd674, size 0x54, virtual false, abstract: false, final false
   static inline bool TryGetGlyphWithUnicodeValue_Internal(uint32_t unicode, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags loadFlags,
                                                           ::by_ref<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphStruct);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
   /// @brief Method TryGetSystemFontReference, addr 0x6bbd088, size 0x70, virtual false, abstract: false, final false
   static inline bool TryGetSystemFontReference(::StringW familyName, ::StringW styleName, ::by_ref<::UnityEngine::TextCore::LowLevel::FontReference> fontRef);
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::TryGetSystemFontReference", IsThreadSafe = true, IsFreeFunction = true)]
   /// @brief Method TryGetSystemFontReference_Internal, addr 0x6bbd0f8, size 0x1ec, virtual false, abstract: false, final false
   static inline bool TryGetSystemFontReference_Internal(::StringW familyName, ::StringW styleName, ::by_ref<::UnityEngine::TextCore::LowLevel::FontReference> fontRef);
 
@@ -381,6 +427,7 @@ public:
   /// @brief Method UnloadFontFace, addr 0x6bbcff4, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::LowLevel::FontEngineError UnloadFontFace();
 
+  /// [NativeMethod(Name = "TextCore::FontEngine::UnloadFontFace", IsFreeFunction = true)]
   /// @brief Method UnloadFontFace_Internal, addr 0x6bbd060, size 0x28, virtual false, abstract: false, final false
   static inline int32_t UnloadFontFace_Internal();
 
@@ -434,13 +481,13 @@ protected:
   constexpr FontEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FontEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontEngine(FontEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FontEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontEngine(FontEngine const&) = delete;
+  FontEngine(FontEngineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21864 };

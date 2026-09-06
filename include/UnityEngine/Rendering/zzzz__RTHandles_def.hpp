@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RTHandles.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RTHandles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,12 +83,13 @@ public:
   __declspec(property(get = getStaticF_s_DefaultInstance, put = setStaticF_s_DefaultInstance)) ::UnityEngine::Rendering::RTHandleSystem* s_DefaultInstance;
 
   /// @brief Method Alloc, addr 0x67ac7b4, size 0x134, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RTHandle* Alloc(::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode,
-                                                          bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
+  static inline ::UnityEngine::Rendering::RTHandle* Alloc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
+                                                          ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
   /// @brief Method Alloc, addr 0x67ace10, size 0x134, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Vector2 scaleFactor, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
-                                                          ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
+  static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Vector2 scaleFactor, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+                                                          ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias,
+                                                          ::StringW name);
 
   /// @brief Method Alloc, addr 0x67acbb8, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Vector2 scaleFactor, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t slices,
@@ -109,7 +110,7 @@ public:
                                                           ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
   /// @brief Method Alloc, addr 0x67ad6e0, size 0x130, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::ScaleFunc* scaleFunc, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+  static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::ScaleFunc* scaleFunc, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
                                                           ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias,
                                                           ::StringW name);
 
@@ -188,6 +189,7 @@ public:
   /// @brief Method Initialize, addr 0x67adde8, size 0x7c, virtual false, abstract: false, final false
   static inline void Initialize(int32_t width, int32_t height);
 
+  /// [Obsolete("useLegacyDynamicResControl is deprecated. Please use SetHardwareDynamicResolutionState() instead.")]
   /// @brief Method Initialize, addr 0x67ae140, size 0x94, virtual false, abstract: false, final false
   static inline void Initialize(int32_t width, int32_t height, bool useLegacyDynamicResControl);
 
@@ -222,13 +224,13 @@ protected:
   constexpr RTHandles();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandles", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RTHandles", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RTHandles(RTHandles&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandles", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RTHandles", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RTHandles(RTHandles const&) = delete;
+  RTHandles(RTHandlesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12242 };

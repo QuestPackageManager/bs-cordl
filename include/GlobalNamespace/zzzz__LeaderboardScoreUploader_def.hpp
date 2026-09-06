@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LeaderboardScoreUploader.hpp"
+// IWYU pragma private; include "GlobalNamespace/LeaderboardScoreUploader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -193,9 +193,9 @@ public:
   /// @brief Field uploadAttemptCount, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_uploadAttemptCount, put = __cordl_internal_set_uploadAttemptCount)) int32_t uploadAttemptCount;
 
-  static inline ::GlobalNamespace::LeaderboardScoreUploader_ScoreData* New_ctor(uint64_t playerId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore,
-                                                                                bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo,
-                                                                                ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  static inline ::GlobalNamespace::LeaderboardScoreUploader_ScoreData* New_ctor(uint64_t playerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore,
+                                                                                int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount,
+                                                                                int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr int32_t const& __cordl_internal_get__badCutsCount_k__BackingField() const;
 
@@ -270,66 +270,86 @@ public:
   constexpr void __cordl_internal_set_uploadAttemptCount(int32_t value);
 
   /// @brief Method .ctor, addr 0x375774c, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(uint64_t playerId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount,
-                    int32_t missedCount, int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  inline void _ctor(uint64_t playerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, bool fullCombo, int32_t goodCutsCount,
+                    int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
+  /// [CompilerGenerated]
   /// @brief Method get_badCutsCount, addr 0x375771c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_badCutsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_beatmapKey, addr 0x37576b8, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fullCombo, addr 0x37576fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
+  /// [CompilerGenerated]
   /// @brief Method get_gameplayModifiers, addr 0x37576cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_goodCutsCount, addr 0x375770c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_goodCutsCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxCombo, addr 0x375773c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
+  /// [CompilerGenerated]
   /// @brief Method get_missedCount, addr 0x375772c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_missedCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_modifiedScore, addr 0x37576ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_modifiedScore();
 
+  /// [CompilerGenerated]
   /// @brief Method get_multipliedScore, addr 0x37576dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multipliedScore();
 
+  /// [CompilerGenerated]
   /// @brief Method get_playerId, addr 0x37576a8, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_playerId();
 
+  /// [CompilerGenerated]
   /// @brief Method set_badCutsCount, addr 0x3757724, size 0x8, virtual false, abstract: false, final false
   inline void set_badCutsCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_beatmapKey, addr 0x37576c4, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_fullCombo, addr 0x3757704, size 0x8, virtual false, abstract: false, final false
   inline void set_fullCombo(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_gameplayModifiers, addr 0x37576d4, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_goodCutsCount, addr 0x3757714, size 0x8, virtual false, abstract: false, final false
   inline void set_goodCutsCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_maxCombo, addr 0x3757744, size 0x8, virtual false, abstract: false, final false
   inline void set_maxCombo(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_missedCount, addr 0x3757734, size 0x8, virtual false, abstract: false, final false
   inline void set_missedCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_modifiedScore, addr 0x37576f4, size 0x8, virtual false, abstract: false, final false
   inline void set_modifiedScore(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_multipliedScore, addr 0x37576e4, size 0x8, virtual false, abstract: false, final false
   inline void set_multipliedScore(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerId, addr 0x37576b0, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint64_t value);
 
@@ -339,44 +359,54 @@ protected:
   constexpr LeaderboardScoreUploader_ScoreData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoreData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoreData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardScoreUploader_ScoreData(LeaderboardScoreUploader_ScoreData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoreData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoreData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader_ScoreData(LeaderboardScoreUploader_ScoreData const&) = delete;
+  LeaderboardScoreUploader_ScoreData(LeaderboardScoreUploader_ScoreDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15278 };
 
+  /// [CompilerGenerated]
   /// @brief Field <playerId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   uint64_t ____playerId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <beatmapKey>k__BackingField, offset: 0x18, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <gameplayModifiers>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <multipliedScore>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____multipliedScore_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <modifiedScore>k__BackingField, offset: 0x34, size: 0x4, def value: None
   int32_t ____modifiedScore_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <fullCombo>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____fullCombo_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <goodCutsCount>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   int32_t ____goodCutsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <badCutsCount>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____badCutsCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <missedCount>k__BackingField, offset: 0x44, size: 0x4, def value: None
   int32_t ____missedCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <maxCombo>k__BackingField, offset: 0x48, size: 0x4, def value: None
   int32_t ____maxCombo_k__BackingField;
 
@@ -443,13 +473,13 @@ protected:
   constexpr LeaderboardScoreUploader_ScoresToUploadData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoresToUploadData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoresToUploadData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardScoreUploader_ScoresToUploadData(LeaderboardScoreUploader_ScoresToUploadData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoresToUploadData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_ScoresToUploadData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader_ScoresToUploadData(LeaderboardScoreUploader_ScoresToUploadData const&) = delete;
+  LeaderboardScoreUploader_ScoresToUploadData(LeaderboardScoreUploader_ScoresToUploadDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15279 };
@@ -494,13 +524,13 @@ protected:
   constexpr LeaderboardScoreUploader_UploadScoreCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_UploadScoreCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_UploadScoreCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardScoreUploader_UploadScoreCallback(LeaderboardScoreUploader_UploadScoreCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_UploadScoreCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader_UploadScoreCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader_UploadScoreCallback(LeaderboardScoreUploader_UploadScoreCallback const&) = delete;
+  LeaderboardScoreUploader_UploadScoreCallback(LeaderboardScoreUploader_UploadScoreCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15280 };
@@ -511,6 +541,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::LeaderboardScoreUploader_UploadScoreCallback) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -550,13 +581,13 @@ protected:
   constexpr LeaderboardScoreUploader___c__DisplayClass16_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader___c__DisplayClass16_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardScoreUploader___c__DisplayClass16_0(LeaderboardScoreUploader___c__DisplayClass16_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader___c__DisplayClass16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader___c__DisplayClass16_0(LeaderboardScoreUploader___c__DisplayClass16_0 const&) = delete;
+  LeaderboardScoreUploader___c__DisplayClass16_0(LeaderboardScoreUploader___c__DisplayClass16_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15281 };
@@ -577,6 +608,7 @@ static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader___c__DisplayC
 static_assert(sizeof(::GlobalNamespace::LeaderboardScoreUploader___c__DisplayClass16_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -590,6 +622,7 @@ public:
   /// @brief Method MoveNext, addr 0x3757b68, size 0x5d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3758140, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -600,9 +633,10 @@ public:
   // @brief default ctor
   constexpr LeaderboardScoreUploader__LoadScoresToUploadFromFile_d__17();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr LeaderboardScoreUploader__LoadScoresToUploadFromFile_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                        ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this,
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
@@ -622,6 +656,7 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
 
@@ -639,6 +674,7 @@ static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader__LoadScoresTo
 static_assert(sizeof(::GlobalNamespace::LeaderboardScoreUploader__LoadScoresToUploadFromFile_d__17) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -652,6 +688,7 @@ public:
   /// @brief Method MoveNext, addr 0x37581ac, size 0x478, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3758624, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -662,9 +699,10 @@ public:
   // @brief default ctor
   constexpr LeaderboardScoreUploader__SaveScoresToUploadToFile_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::LeaderboardScoreUploader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr LeaderboardScoreUploader__SaveScoresToUploadToFile_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                      ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -700,6 +738,7 @@ static_assert(offsetof(::GlobalNamespace::LeaderboardScoreUploader__SaveScoresTo
 static_assert(sizeof(::GlobalNamespace::LeaderboardScoreUploader__SaveScoresToUploadToFile_d__18) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -732,17 +771,22 @@ public:
   /// @brief Method MoveNext, addr 0x3758630, size 0x260, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::LeaderboardScoreUploader__UploadScoresCoroutine_d__16* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3758890, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3758898, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x37588d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x375862c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -764,6 +808,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LeaderboardScoreUploader> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x37573bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -782,13 +827,13 @@ protected:
   constexpr LeaderboardScoreUploader__UploadScoresCoroutine_d__16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader__UploadScoresCoroutine_d__16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader__UploadScoresCoroutine_d__16", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardScoreUploader__UploadScoresCoroutine_d__16(LeaderboardScoreUploader__UploadScoresCoroutine_d__16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader__UploadScoresCoroutine_d__16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader__UploadScoresCoroutine_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader__UploadScoresCoroutine_d__16(LeaderboardScoreUploader__UploadScoresCoroutine_d__16 const&) = delete;
+  LeaderboardScoreUploader__UploadScoresCoroutine_d__16(LeaderboardScoreUploader__UploadScoresCoroutine_d__16const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15284 };
@@ -866,6 +911,7 @@ public:
   /// @brief Method Init, addr 0x3757288, size 0x30, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::LeaderboardScoreUploader_UploadScoreCallback* uploadScoreCallback, uint64_t playerId);
 
+  /// [AsyncStateMachine(typeof(LeaderboardScoreUploader::<LoadScoresToUploadFromFile>d__17))]
   /// @brief Method LoadScoresToUploadFromFile, addr 0x37573c4, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadScoresToUploadFromFile();
 
@@ -874,15 +920,18 @@ public:
   /// @brief Method OnApplicationQuit, addr 0x37573b8, size 0x4, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
+  /// [AsyncStateMachine(typeof(LeaderboardScoreUploader::<SaveScoresToUploadToFile>d__18))]
   /// @brief Method SaveScoresToUploadToFile, addr 0x3757474, size 0xa4, virtual false, abstract: false, final false
   inline void SaveScoresToUploadToFile();
 
   /// @brief Method Uninitialize, addr 0x375730c, size 0xac, virtual false, abstract: false, final false
   inline void Uninitialize();
 
+  /// [IteratorStateMachine(typeof(LeaderboardScoreUploader::<UploadScoresCoroutine>d__16))]
   /// @brief Method UploadScoresCoroutine, addr 0x37572b8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UploadScoresCoroutine();
 
+  /// [CompilerGenerated]
   /// @brief Method <UploadScoresCoroutine>b__16_1, addr 0x3757698, size 0x10, virtual false, abstract: false, final false
   inline bool _UploadScoresCoroutine_b__16_1();
 
@@ -931,9 +980,11 @@ public:
   /// @brief Method .ctor, addr 0x3757600, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_allScoresDidUploadEvent, addr 0x3757130, size 0xac, virtual false, abstract: false, final false
   inline void add_allScoresDidUploadEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_allScoresDidUploadEvent, addr 0x37571dc, size 0xac, virtual false, abstract: false, final false
   inline void remove_allScoresDidUploadEvent(::System::Action* value);
 
@@ -943,13 +994,13 @@ protected:
   constexpr LeaderboardScoreUploader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardScoreUploader(LeaderboardScoreUploader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardScoreUploader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardScoreUploader(LeaderboardScoreUploader const&) = delete;
+  LeaderboardScoreUploader(LeaderboardScoreUploaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15285 };
@@ -957,6 +1008,7 @@ public:
   /// @brief Field kScoresToUploadFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kScoresToUploadFileName{ u"ScoresToUpload.dat" };
 
+  /// [CompilerGenerated]
   /// @brief Field allScoresDidUploadEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___allScoresDidUploadEvent;
 
@@ -975,6 +1027,7 @@ public:
   /// @brief Field _uploading, offset: 0x48, size: 0x1, def value: None
   bool ____uploading;
 
+  /// [Inject]
   /// @brief Field _fileStorage, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ____fileStorage;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderersBatchersContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderersBatchersContext.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceDataBufferGrower_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceDataBufferUploader_impl.hpp"
@@ -1109,7 +1109,7 @@ inline ::UnityEngine::Rendering::DebugRendererBatcherStats* UnityEngine::Renderi
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(), { "get_debugStats", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::DebugRendererBatcherStats*>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::RenderersBatchersContext::_ctor(::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc,
+inline void UnityEngine::Rendering::RenderersBatchersContext::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc,
                                                                     ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor, ::UnityEngine::Rendering::GPUResidentDrawerResources* resources) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(),
@@ -1133,7 +1133,7 @@ inline int32_t UnityEngine::Rendering::RenderersBatchersContext::GetAliveInstanc
                                                                                          { "GetAliveInstancesOfType", {}, { ::i2c::type_of<::UnityEngine::Rendering::InstanceType>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, instanceType);
 }
-inline void UnityEngine::Rendering::RenderersBatchersContext::GrowInstanceBuffer(::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
+inline void UnityEngine::Rendering::RenderersBatchersContext::GrowInstanceBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(),
                                                                                          { "GrowInstanceBuffer", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, instanceNumInfo);
@@ -1143,13 +1143,13 @@ inline void UnityEngine::Rendering::RenderersBatchersContext::EnsureInstanceBuff
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(), { "EnsureInstanceBufferCapacity", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::RenderersBatchersContext::UpdateLODGroupData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData) {
+inline void UnityEngine::Rendering::RenderersBatchersContext::UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(),
                                                            { "UpdateLODGroupData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, lodGroupData);
 }
-inline void UnityEngine::Rendering::RenderersBatchersContext::TransformLODGroupData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData) {
+inline void UnityEngine::Rendering::RenderersBatchersContext::TransformLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(),
                                                            { "TransformLODGroupData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>>() } })));
@@ -1165,7 +1165,7 @@ inline void UnityEngine::Rendering::RenderersBatchersContext::UpdateLODGroups(::
                                                                                          { "UpdateLODGroups", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, changedID);
 }
-inline void UnityEngine::Rendering::RenderersBatchersContext::ReallocateAndGetInstances(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+inline void UnityEngine::Rendering::RenderersBatchersContext::ReallocateAndGetInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                                                         ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(),
                                                                                          { "ReallocateAndGetInstances",
@@ -1174,8 +1174,9 @@ inline void UnityEngine::Rendering::RenderersBatchersContext::ReallocateAndGetIn
                                                                                              ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rendererData, instances);
 }
-inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::RenderersBatchersContext::ScheduleUpdateInstanceDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
-                                                                                                                ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData) {
+inline ::Unity::Jobs::JobHandle
+UnityEngine::Rendering::RenderersBatchersContext::ScheduleUpdateInstanceDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(),
                                                                                          { "ScheduleUpdateInstanceDataJob",
                                                                                            {},
@@ -1311,7 +1312,7 @@ inline void UnityEngine::Rendering::RenderersBatchersContext::TransformLODGroups
                                                                                          { "TransformLODGroups", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, lodGroupsID);
 }
-inline void UnityEngine::Rendering::RenderersBatchersContext::UpdatePerFrameInstanceVisibility(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks) {
+inline void UnityEngine::Rendering::RenderersBatchersContext::UpdatePerFrameInstanceVisibility(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(),
                                                            { "UpdatePerFrameInstanceVisibility", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ParallelBitArray>>() } })));
@@ -1333,8 +1334,8 @@ inline ::UnityEngine::Rendering::InstanceHandle UnityEngine::Rendering::Renderer
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(), { "GetRendererInstanceHandle", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceHandle>(this, ___internal_method, rendererID);
 }
-inline void UnityEngine::Rendering::RenderersBatchersContext::GetVisibleTreeInstances(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks,
-                                                                                      ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits,
+inline void UnityEngine::Rendering::RenderersBatchersContext::GetVisibleTreeInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks,
+                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits,
                                                                                       ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
                                                                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> visibeTreeInstances,
                                                                                       bool becomeVisibleOnly, ::by_ref<int32_t> becomeVisibeTreeInstancesCount) {
@@ -1357,9 +1358,9 @@ inline void UnityEngine::Rendering::RenderersBatchersContext::UpdateFrame() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersBatchersContext*>(), { "UpdateFrame", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::RenderersBatchersContext* UnityEngine::Rendering::RenderersBatchersContext::New_ctor(::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc,
-                                                                                                                      ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor,
-                                                                                                                      ::UnityEngine::Rendering::GPUResidentDrawerResources* resources) {
+inline ::UnityEngine::Rendering::RenderersBatchersContext*
+UnityEngine::Rendering::RenderersBatchersContext::New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc,
+                                                           ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor, ::UnityEngine::Rendering::GPUResidentDrawerResources* resources) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::RenderersBatchersContext*>(desc, gpuDrivenProcessor, resources));
 }
 /// @brief Convert operator to "::System::IDisposable"

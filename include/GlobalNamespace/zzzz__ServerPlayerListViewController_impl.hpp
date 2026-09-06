@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ServerPlayerListViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ServerPlayerListViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerPlayerListViewController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"

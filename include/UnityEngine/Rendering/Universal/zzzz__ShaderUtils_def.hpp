@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::ShaderUtils*);
 MARK_REF_T(::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderUtils*, "UnityEngine.Rendering.Universal", "ShaderUtils");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0*, "UnityEngine.Rendering.Universal", "ShaderUtils/<>c__DisplayClass2_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -59,13 +60,13 @@ protected:
   constexpr ShaderUtils___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderUtils___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderUtils___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderUtils___c__DisplayClass2_0(ShaderUtils___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderUtils___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderUtils___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderUtils___c__DisplayClass2_0(ShaderUtils___c__DisplayClass2_0 const&) = delete;
+  ShaderUtils___c__DisplayClass2_0(ShaderUtils___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12958 };
@@ -115,13 +116,13 @@ protected:
   constexpr ShaderUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderUtils(ShaderUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderUtils(ShaderUtils const&) = delete;
+  ShaderUtils(ShaderUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12959 };

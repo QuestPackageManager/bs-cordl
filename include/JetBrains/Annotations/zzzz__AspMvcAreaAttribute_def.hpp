@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspMvcAreaAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcAreaAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AspMvcAreaAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::AspMvcAreaAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::AspMvcAreaAttribute*, "JetBrains.Annotations", "AspMvcAreaAttribute");
+// [AttributeUsage((System.AttributeTargets)2048)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -20,6 +21,7 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE AspMvcAreaAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [CanBeNull]
   __declspec(property(get = get_AnonymousProperty, put = set_AnonymousProperty)) ::StringW AnonymousProperty;
 
   /// @brief Field <AnonymousProperty>k__BackingField, offset 0x10, size 0x8
@@ -27,7 +29,7 @@ public:
 
   static inline ::JetBrains::Annotations::AspMvcAreaAttribute* New_ctor();
 
-  static inline ::JetBrains::Annotations::AspMvcAreaAttribute* New_ctor(::StringW anonymousProperty);
+  static inline ::JetBrains::Annotations::AspMvcAreaAttribute* New_ctor(/* [NotNull] */ ::StringW anonymousProperty);
 
   constexpr ::StringW const& __cordl_internal_get__AnonymousProperty_k__BackingField() const;
 
@@ -39,11 +41,13 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x6e3e118, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW anonymousProperty);
+  inline void _ctor(/* [NotNull] */ ::StringW anonymousProperty);
 
+  /// [CompilerGenerated]
   /// @brief Method get_AnonymousProperty, addr 0x6e3e120, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AnonymousProperty();
 
+  /// [CompilerGenerated]
   /// @brief Method set_AnonymousProperty, addr 0x6e3e128, size 0x8, virtual false, abstract: false, final false
   inline void set_AnonymousProperty(::StringW value);
 
@@ -53,17 +57,18 @@ protected:
   constexpr AspMvcAreaAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspMvcAreaAttribute(AspMvcAreaAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcAreaAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AspMvcAreaAttribute(AspMvcAreaAttribute const&) = delete;
+  AspMvcAreaAttribute(AspMvcAreaAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22568 };
 
+  /// [CompilerGenerated]
   /// @brief Field <AnonymousProperty>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____AnonymousProperty_k__BackingField;
 

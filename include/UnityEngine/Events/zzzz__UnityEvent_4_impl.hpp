@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Events\UnityEvent_4.hpp"
+// IWYU pragma private; include "UnityEngine/Events/UnityEvent_4.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEventBase_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_4_def.hpp"
@@ -36,6 +36,7 @@ inline ::UnityEngine::Events::BaseInvokableCall* UnityEngine::Events::UnityEvent
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Events::BaseInvokableCall*>(this, ___internal_method, target, theFunction);
 }
+/// @brief [RequiredByNativeCode]
 template <typename T0, typename T1, typename T2, typename T3> inline ::UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>* UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>*>());
 }

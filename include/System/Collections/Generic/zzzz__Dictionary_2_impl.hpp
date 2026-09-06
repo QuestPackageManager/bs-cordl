@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\Dictionary_2.hpp"
+// IWYU pragma private; include "System/Collections/Generic/Dictionary_2.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -26,8 +26,9 @@
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "key", ty: "TKey", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "key", ty: "TKey", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>::Dictionary_2_Entry(int32_t hashCode, int32_t next, TKey key, TValue value) noexcept {
   this->hashCode = hashCode;
@@ -124,10 +125,10 @@ template <typename TKey, typename TValue>
 constexpr ::System::Collections::IDictionaryEnumerator* System::Collections::Generic::Dictionary_2_Enumerator<TKey, TValue>::i___System__Collections__IDictionaryEnumerator() {
   return static_cast<::System::Collections::IDictionaryEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_version", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_current", ty:
-// "::System::Collections::Generic::KeyValuePair_2<TKey,TValue>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_getEnumeratorRetType", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_current", ty: "::System::Collections::Generic::KeyValuePair_2<TKey,TValue>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_getEnumeratorRetType", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<TKey, TValue>::Dictionary_2_Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _version,
                                                                                                          int32_t _index, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current,
@@ -199,9 +200,9 @@ template <typename TKey, typename TValue>
 constexpr ::System::Collections::IEnumerator* System::Collections::Generic::KeyCollection_Dictionary_2_Enumerator<TKey, TValue>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_currentKey", ty: "TKey", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_index",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_currentKey", ty: "TKey", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::KeyCollection_Dictionary_2_Enumerator<TKey, TValue>::KeyCollection_Dictionary_2_Enumerator(
     ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TKey _currentKey) noexcept {
@@ -422,9 +423,9 @@ template <typename TKey, typename TValue>
 constexpr ::System::Collections::IEnumerator* System::Collections::Generic::ValueCollection_Dictionary_2_Enumerator<TKey, TValue>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_currentValue", ty: "TValue", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_index",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_currentValue", ty: "TValue", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::ValueCollection_Dictionary_2_Enumerator<TKey, TValue>::ValueCollection_Dictionary_2_Enumerator(
     ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TValue _currentValue) noexcept {

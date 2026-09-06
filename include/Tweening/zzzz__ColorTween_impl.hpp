@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tweening\ColorTween.hpp"
+// IWYU pragma private; include "Tweening/ColorTween.hpp"
 #include "Tweening/zzzz__Tween_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "Tweening/zzzz__ColorTween_def.hpp"

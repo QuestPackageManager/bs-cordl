@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphRenderMode.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphRenderMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct GlyphRenderMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphRenderMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphRenderMode, "UnityEngine.TextCore.LowLevel", "GlyphRenderMode");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -52,7 +53,7 @@ public:
   // @brief default ctor
   constexpr GlyphRenderMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GlyphRenderMode(int32_t value__) noexcept;
 
   /// @brief Field COLOR value: I32(69652)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SHCoefficients.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SHCoefficients.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SHCoefficients_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -207,11 +207,11 @@ constexpr UnityEngine::Rendering::SHCoefficients::operator ::System::IEquatable_
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>* UnityEngine::Rendering::SHCoefficients::i___System__IEquatable_1___UnityEngine__Rendering__SHCoefficients_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "SHAr", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "SHAg", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "SHAb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "SHBr", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "SHBg", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "SHBb", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "SHC", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "ProbesOcclusion", ty: "::UnityEngine::Vector4", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "SHAr", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SHAg", ty: "::UnityEngine::Vector4", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "SHAb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SHBr", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SHBg", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "SHBb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SHC", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "ProbesOcclusion", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SHCoefficients::SHCoefficients(::UnityEngine::Vector4 SHAr, ::UnityEngine::Vector4 SHAg, ::UnityEngine::Vector4 SHAb, ::UnityEngine::Vector4 SHBr,
                                                                    ::UnityEngine::Vector4 SHBg, ::UnityEngine::Vector4 SHBb, ::UnityEngine::Vector4 SHC,
                                                                    ::UnityEngine::Vector4 ProbesOcclusion) noexcept {

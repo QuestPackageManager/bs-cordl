@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\EnvironmentVariableHelper.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/EnvironmentVariableHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class EnvironmentVariableHelper;
 // Write type traits
 MARK_REF_T(::BGLib::DotnetExtension::EnvironmentVariableHelper*);
 DEFINE_IL2CPP_CLASS(::BGLib::DotnetExtension::EnvironmentVariableHelper*, "BGLib.DotnetExtension", "EnvironmentVariableHelper");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BGLib::DotnetExtension {
 // Is value type: false
@@ -32,13 +34,13 @@ protected:
   constexpr EnvironmentVariableHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentVariableHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentVariableHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentVariableHelper(EnvironmentVariableHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentVariableHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentVariableHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentVariableHelper(EnvironmentVariableHelper const&) = delete;
+  EnvironmentVariableHelper(EnvironmentVariableHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20510 };

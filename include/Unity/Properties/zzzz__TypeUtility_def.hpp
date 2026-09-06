@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\TypeUtility.hpp"
+// IWYU pragma private; include "Unity/Properties/TypeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,9 @@ namespace Unity::Properties {
 class TypeUtility___c;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 // Forward declare root types
 namespace Unity::Properties {
@@ -110,15 +112,15 @@ public:
   // Declarations
   __declspec(property(get = get_CanBeInstantiated)) bool CanBeInstantiated;
 
-  /// @brief Method Instantiate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Instantiate();
 
-  /// @brief Method get_CanBeInstantiated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_CanBeInstantiated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CanBeInstantiated();
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_ITypeConstructor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_ITypeConstructor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_ITypeConstructor(TypeUtility_ITypeConstructor const&) = delete;
+  TypeUtility_ITypeConstructor(TypeUtility_ITypeConstructorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19703 };
@@ -139,18 +141,18 @@ public:
   /// @brief Convert operator to "::Unity::Properties::TypeUtility_ITypeConstructor"
   constexpr operator ::Unity::Properties::TypeUtility_ITypeConstructor*() noexcept;
 
-  /// @brief Method Instantiate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Instantiate();
 
-  /// @brief Method SetExplicitConstructor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetExplicitConstructor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetExplicitConstructor(::System::Func_1<T>* constructor);
 
   /// @brief Convert to "::Unity::Properties::TypeUtility_ITypeConstructor"
   constexpr ::Unity::Properties::TypeUtility_ITypeConstructor* i___Unity__Properties__TypeUtility_ITypeConstructor() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_ITypeConstructor_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_ITypeConstructor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_ITypeConstructor_1(TypeUtility_ITypeConstructor_1 const&) = delete;
+  TypeUtility_ITypeConstructor_1(TypeUtility_ITypeConstructor_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19704 };
@@ -244,13 +246,13 @@ protected:
   constexpr TypeUtility_TypeConstructor_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructor_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructor_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeUtility_TypeConstructor_1(TypeUtility_TypeConstructor_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructor_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_TypeConstructor_1(TypeUtility_TypeConstructor_1 const&) = delete;
+  TypeUtility_TypeConstructor_1(TypeUtility_TypeConstructor_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19705 };
@@ -300,13 +302,13 @@ protected:
   constexpr TypeUtility_NonConstructable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_NonConstructable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_NonConstructable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeUtility_NonConstructable(TypeUtility_NonConstructable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_NonConstructable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_NonConstructable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_NonConstructable(TypeUtility_NonConstructable const&) = delete;
+  TypeUtility_NonConstructable(TypeUtility_NonConstructableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19706 };
@@ -385,13 +387,13 @@ protected:
   constexpr TypeUtility_TypeConstructorVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructorVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructorVisitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeUtility_TypeConstructorVisitor(TypeUtility_TypeConstructorVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructorVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility_TypeConstructorVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility_TypeConstructorVisitor(TypeUtility_TypeConstructorVisitor const&) = delete;
+  TypeUtility_TypeConstructorVisitor(TypeUtility_TypeConstructorVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19708 };
@@ -407,6 +409,7 @@ static_assert(offsetof(::Unity::Properties::TypeUtility_TypeConstructorVisitor, 
 static_assert(sizeof(::Unity::Properties::TypeUtility_TypeConstructorVisitor) == 0x18, "Size mismatch!");
 
 } // namespace Unity::Properties
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Unity::Properties {
 // Is value type: false
@@ -441,13 +444,13 @@ protected:
   constexpr TypeUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeUtility___c(TypeUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility___c(TypeUtility___c const&) = delete;
+  TypeUtility___c(TypeUtility___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19709 };
@@ -458,6 +461,7 @@ public:
 static_assert(sizeof(::Unity::Properties::TypeUtility___c) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Properties
+// [Extension]
 // Dependencies System.Object
 namespace Unity::Properties {
 // Is value type: false
@@ -512,12 +516,14 @@ public:
   /// @brief Method CheckIsAssignableFrom, addr 0x6bb19e8, size 0x138, virtual false, abstract: false, final false
   static inline void CheckIsAssignableFrom(::System::Type* type, ::System::Type* derivedType);
 
+  /// [Preserve]
   /// @brief Method CreateTypeConstructor, addr 0x6bb15a8, size 0x29c, virtual false, abstract: false, final false
   static inline ::Unity::Properties::TypeUtility_ITypeConstructor* CreateTypeConstructor(::System::Type* type);
 
   /// @brief Method CreateTypeConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* CreateTypeConstructor();
 
+  /// [Extension]
   /// @brief Method GetRootType, addr 0x6bb14c0, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Type* GetRootType(::System::Type* type);
 
@@ -583,13 +589,13 @@ protected:
   constexpr TypeUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeUtility(TypeUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeUtility(TypeUtility const&) = delete;
+  TypeUtility(TypeUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19710 };

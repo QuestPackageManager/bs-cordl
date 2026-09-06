@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonReader.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonReader.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonType_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
 #include "System/zzzz__DateTimeKind_impl.hpp"
@@ -12,7 +12,7 @@
 #include "System/IO/zzzz__BinaryReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__DateTimeKind_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Bson::BsonReader_BsonReaderState::BsonReader_BsonReaderState(int32_t value__) noexcept {
   this->value__ = value__;
 }

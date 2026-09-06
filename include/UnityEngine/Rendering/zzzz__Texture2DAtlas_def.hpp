@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Texture2DAtlas.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Texture2DAtlas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +86,7 @@ public:
   // @brief default ctor
   constexpr Texture2DAtlas_BlitType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Texture2DAtlas_BlitType(int32_t value__) noexcept;
 
   /// @brief Field CubeTo2DOctahedral value: I32(1)
@@ -348,13 +348,13 @@ protected:
   constexpr Texture2DAtlas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Texture2DAtlas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Texture2DAtlas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Texture2DAtlas(Texture2DAtlas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Texture2DAtlas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Texture2DAtlas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Texture2DAtlas(Texture2DAtlas const&) = delete;
+  Texture2DAtlas(Texture2DAtlasconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12252 };
@@ -389,6 +389,7 @@ public:
   /// @brief Field m_AtlasAllocator, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Rendering::AtlasAllocator* ___m_AtlasAllocator;
 
+  /// [TupleElementNames(new[] { "scaleOffset", "size" })]
   /// @brief Field m_AllocationCache, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector2Int>>* ___m_AllocationCache;
 

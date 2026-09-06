@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkcs\Pkcs12Entry.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs12Entry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class Pkcs12Entry;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Pkcs::Pkcs12Entry*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Pkcs::Pkcs12Entry*, "Org.BouncyCastle.Pkcs", "Pkcs12Entry");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
@@ -44,12 +45,15 @@ public:
   /// @brief Field attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::System::Collections::IDictionary* attributes;
 
+  /// [Obsolete("Use \'object[index]\' syntax instead")]
   /// @brief Method GetBagAttribute, addr 0x35ab1f8, size 0x10c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
+  /// [Obsolete("Use \'object[index]\' syntax instead")]
   /// @brief Method GetBagAttribute, addr 0x35ab304, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::StringW oid);
 
+  /// [Obsolete("Use \'BagAttributeKeys\' property")]
   /// @brief Method GetBagAttributeKeys, addr 0x35ab408, size 0x120, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetBagAttributeKeys();
 
@@ -79,13 +83,13 @@ protected:
   constexpr Pkcs12Entry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs12Entry(Pkcs12Entry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12Entry(Pkcs12Entry const&) = delete;
+  Pkcs12Entry(Pkcs12Entryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1693 };

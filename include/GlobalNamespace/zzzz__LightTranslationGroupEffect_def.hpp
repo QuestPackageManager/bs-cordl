@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightTranslationGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightTranslationGroupEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -190,13 +190,13 @@ protected:
   constexpr LightTranslationGroupEffect_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationGroupEffect_InitData(LightTranslationGroupEffect_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightTranslationGroupEffect_InitData(LightTranslationGroupEffect_InitData const&) = delete;
+  LightTranslationGroupEffect_InitData(LightTranslationGroupEffect_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5918 };
@@ -351,13 +351,13 @@ protected:
   constexpr LightTranslationGroupEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationGroupEffect(LightTranslationGroupEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightTranslationGroupEffect(LightTranslationGroupEffect const&) = delete;
+  LightTranslationGroupEffect(LightTranslationGroupEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5919 };

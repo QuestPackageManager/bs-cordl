@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\OnScreen\OnScreenButton.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/OnScreen/OnScreenButton.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class OnScreenButton;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::OnScreen::OnScreenButton*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::OnScreen::OnScreenButton*, "UnityEngine.InputSystem.OnScreen", "OnScreenButton");
+// [AddComponentMenu("Input/On-Screen Button")]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/OnScreen.html#on-screen-buttons")]
 // Dependencies UnityEngine.InputSystem.OnScreen.OnScreenControl
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
@@ -84,17 +86,19 @@ protected:
   constexpr OnScreenButton();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenButton", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OnScreenButton", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OnScreenButton(OnScreenButton&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenButton", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OnScreenButton", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OnScreenButton(OnScreenButton const&) = delete;
+  OnScreenButton(OnScreenButtonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8877 };
 
+  /// [InputControl(layout = "Button")]
+  /// [SerializeField]
   /// @brief Field m_ControlPath, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_ControlPath;
 

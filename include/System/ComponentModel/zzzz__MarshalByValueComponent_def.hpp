@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\MarshalByValueComponent.hpp"
+// IWYU pragma private; include "System/ComponentModel/MarshalByValueComponent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,8 @@ class MarshalByValueComponent;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::MarshalByValueComponent*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::MarshalByValueComponent*, "System.ComponentModel", "MarshalByValueComponent");
+// [TypeConverter(typeof(System.ComponentModel.ComponentConverter))]
+// [DesignerCategory("Component")]
 // Dependencies System.Object
 namespace System::ComponentModel {
 // Is value type: false
@@ -41,6 +43,8 @@ namespace System::ComponentModel {
 class CORDL_TYPE MarshalByValueComponent : public ::System::Object {
 public:
   // Declarations
+  /// [Browsable(false)]
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
   __declspec(property(get = get_Site)) ::System::ComponentModel::ISite* Site;
 
   /// @brief Field _events, offset 0x18, size 0x8
@@ -115,13 +119,13 @@ protected:
   constexpr MarshalByValueComponent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MarshalByValueComponent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MarshalByValueComponent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MarshalByValueComponent(MarshalByValueComponent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MarshalByValueComponent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MarshalByValueComponent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MarshalByValueComponent(MarshalByValueComponent const&) = delete;
+  MarshalByValueComponent(MarshalByValueComponentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11283 };

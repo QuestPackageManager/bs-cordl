@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "TMPro\SetPropertyUtility.hpp"
+// IWYU pragma private; include "TMPro/SetPropertyUtility.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__SetPropertyUtility_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -23,20 +24,26 @@ inline bool TMPro::SetPropertyUtility::SetColor(::by_ref<::UnityEngine::Color> c
       (::i2c::find_method(::i2c::class_of<::TMPro::SetPropertyUtility*>(), { "SetColor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>(), ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, currentValue, newValue);
 }
-template <typename T> inline bool TMPro::SetPropertyUtility::SetEquatableStruct(::by_ref<T> currentValue, T newValue) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline bool TMPro::SetPropertyUtility::SetEquatableStruct(::by_ref<T> currentValue, T newValue) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::TMPro::SetPropertyUtility*>(), { "SetEquatableStruct", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, currentValue, newValue);
 }
-template <typename T> inline bool TMPro::SetPropertyUtility::SetStruct(::by_ref<T> currentValue, T newValue) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool TMPro::SetPropertyUtility::SetStruct(::by_ref<T> currentValue, T newValue) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::SetPropertyUtility*>(), { "SetStruct", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, currentValue, newValue);
 }
-template <typename T> inline bool TMPro::SetPropertyUtility::SetClass(::by_ref<T> currentValue, T newValue) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline bool TMPro::SetPropertyUtility::SetClass(::by_ref<T> currentValue, T newValue) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::SetPropertyUtility*>(), { "SetClass", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

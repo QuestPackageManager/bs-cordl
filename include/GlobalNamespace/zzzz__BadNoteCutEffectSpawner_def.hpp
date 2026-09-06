@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BadNoteCutEffectSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/BadNoteCutEffectSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class BadNoteCutEffectSpawner;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BadNoteCutEffectSpawner*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BadNoteCutEffectSpawner*, "", "BadNoteCutEffectSpawner");
+// [AddComponentMenu("Beat Saber/Gameplay/BadNoteCutEffectSpawner")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -52,7 +53,7 @@ public:
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::CoreGameHUDController_InitData* _initData;
 
   /// @brief Method HandleNoteWasCut, addr 0x598945c, size 0x130, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::BadNoteCutEffectSpawner* New_ctor();
 
@@ -95,26 +96,30 @@ protected:
   constexpr BadNoteCutEffectSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BadNoteCutEffectSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BadNoteCutEffectSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BadNoteCutEffectSpawner(BadNoteCutEffectSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BadNoteCutEffectSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BadNoteCutEffectSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BadNoteCutEffectSpawner(BadNoteCutEffectSpawner const&) = delete;
+  BadNoteCutEffectSpawner(BadNoteCutEffectSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5800 };
 
+  /// [SerializeField]
   /// @brief Field _failFlyingSpriteSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> ____failFlyingSpriteSpawner;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::CoreGameHUDController_InitData* ____initData;
 

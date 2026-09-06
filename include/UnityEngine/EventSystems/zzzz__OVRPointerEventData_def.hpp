@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\OVRPointerEventData.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/OVRPointerEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class OVRPointerEventData;
 // Write type traits
 MARK_REF_T(::UnityEngine::EventSystems::OVRPointerEventData*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::OVRPointerEventData*, "UnityEngine.EventSystems", "OVRPointerEventData");
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-isdk-pointer-events/")]
 // Dependencies UnityEngine.EventSystems.PointerEventData, UnityEngine.Ray, UnityEngine.Vector2
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -57,13 +58,13 @@ protected:
   constexpr OVRPointerEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPointerEventData(OVRPointerEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPointerEventData(OVRPointerEventData const&) = delete;
+  OVRPointerEventData(OVRPointerEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8558 };

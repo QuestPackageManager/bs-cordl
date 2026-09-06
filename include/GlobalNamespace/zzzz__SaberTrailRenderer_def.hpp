@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberTrailRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberTrailRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -222,13 +222,13 @@ protected:
   constexpr SaberTrailRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberTrailRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberTrailRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberTrailRenderer(SaberTrailRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberTrailRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberTrailRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberTrailRenderer(SaberTrailRenderer const&) = delete;
+  SaberTrailRenderer(SaberTrailRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23205 };
@@ -239,12 +239,15 @@ public:
   /// @brief Field kMotionBlurStrength offset 0xffffffff size 0x4
   static constexpr float_t kMotionBlurStrength{ static_cast<float_t>(0.8f) };
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 
+  /// [SerializeField]
   /// @brief Field _meshRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
+  /// [SerializeField]
   /// @brief Field _meshFilter, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 

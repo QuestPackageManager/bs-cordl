@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\ObjectModel\ReadOnlyDictionary_2.hpp"
+// IWYU pragma private; include "System/Collections/ObjectModel/ReadOnlyDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,8 +138,8 @@ public:
   // @brief default ctor
   constexpr ReadOnlyDictionary_2_DictionaryEnumerator();
 
-  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::IDictionary_2<TKey,TValue>*", modifiers: "", def_value: None }, CppParam { name: "_enumerator", ty:
-  // "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::IDictionary_2<TKey,TValue>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_enumerator", ty: "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>*", modifiers: "", def_value: None, comment: None }]
   constexpr ReadOnlyDictionary_2_DictionaryEnumerator(::System::Collections::Generic::IDictionary_2<TKey, TValue>* _dictionary,
                                                       ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _enumerator) noexcept;
 
@@ -159,6 +159,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.CollectionDebugView`1<T>))]
 // Dependencies System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
@@ -276,13 +278,13 @@ protected:
   constexpr ReadOnlyDictionary_2_KeyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_KeyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_KeyCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReadOnlyDictionary_2_KeyCollection(ReadOnlyDictionary_2_KeyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_KeyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_KeyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyDictionary_2_KeyCollection(ReadOnlyDictionary_2_KeyCollection const&) = delete;
+  ReadOnlyDictionary_2_KeyCollection(ReadOnlyDictionary_2_KeyCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3752 };
@@ -297,6 +299,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.CollectionDebugView`1<T>))]
+// [DebuggerDisplay("Count = {Count}")]
 // Dependencies System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
@@ -414,13 +418,13 @@ protected:
   constexpr ReadOnlyDictionary_2_ValueCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_ValueCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_ValueCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReadOnlyDictionary_2_ValueCollection(ReadOnlyDictionary_2_ValueCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_ValueCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_ValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyDictionary_2_ValueCollection(ReadOnlyDictionary_2_ValueCollection const&) = delete;
+  ReadOnlyDictionary_2_ValueCollection(ReadOnlyDictionary_2_ValueCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3753 };
@@ -435,6 +439,9 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.DictionaryDebugView`2<K, V>))]
+// [DefaultMember("Item")]
+// [DebuggerDisplay("Count = {Count}")]
 // Dependencies System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
@@ -697,13 +704,13 @@ protected:
   constexpr ReadOnlyDictionary_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReadOnlyDictionary_2(ReadOnlyDictionary_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyDictionary_2(ReadOnlyDictionary_2 const&) = delete;
+  ReadOnlyDictionary_2(ReadOnlyDictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3754 };

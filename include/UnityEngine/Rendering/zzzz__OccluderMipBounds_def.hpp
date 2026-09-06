@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderMipBounds.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderMipBounds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr OccluderMipBounds();
 
-  // Ctor Parameters [CppParam { name: "offset", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "size", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "offset", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "size", ty: "::UnityEngine::Vector2Int", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr OccluderMipBounds(::UnityEngine::Vector2Int offset, ::UnityEngine::Vector2Int size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

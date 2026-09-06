@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Bloom.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Bloom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,8 @@ class Bloom;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::Bloom*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::Bloom*, "UnityEngine.Rendering.Universal", "Bloom");
+// [VolumeComponentMenu("Post-processing/Bloom")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -82,6 +84,7 @@ public:
   /// @brief Method IsActive, addr 0x6873f0c, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x6873f3c, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -165,47 +168,64 @@ protected:
   constexpr Bloom();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Bloom", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bloom", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Bloom(Bloom&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Bloom", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bloom", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bloom(Bloom const&) = delete;
+  Bloom(Bloomconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12740 };
 
+  /// [Obsolete("This is obsolete, please use maxIterations instead.", true)]
+  /// [Tooltip("The number of final iterations to skip in the effect processing sequence.")]
   /// @brief Field skipIterations, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedIntParameter* ___skipIterations;
 
+  /// [Header("Bloom")]
+  /// [Tooltip("Filters out pixels under this level of brightness. Value is in gamma-space.")]
   /// @brief Field threshold, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___threshold;
 
+  /// [Tooltip("Strength of the bloom filter.")]
   /// @brief Field intensity, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___intensity;
 
+  /// [Tooltip("Set the radius of the bloom effect.")]
   /// @brief Field scatter, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___scatter;
 
+  /// [Tooltip("Set the maximum intensity that Unity uses to calculate Bloom. If pixels in your Scene are more intense than this, URP renders them at their current intensity, but uses this intensity
+  /// value for the purposes of Bloom calculations.")]
   /// @brief Field clamp, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___clamp;
 
+  /// [Tooltip("Use the color picker to select a color for the Bloom effect to tint to.")]
   /// @brief Field tint, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::ColorParameter* ___tint;
 
+  /// [Tooltip("Use bicubic sampling instead of bilinear sampling for the upsampling passes. This is slightly more expensive but helps getting smoother visuals.")]
   /// @brief Field highQualityFiltering, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::BoolParameter* ___highQualityFiltering;
 
+  /// [Tooltip("The starting resolution that this effect begins processing.")]
+  /// [AdditionalProperty]
   /// @brief Field downscale, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DownscaleParameter* ___downscale;
 
+  /// [Tooltip("The maximum number of iterations in the effect processing sequence.")]
+  /// [AdditionalProperty]
   /// @brief Field maxIterations, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedIntParameter* ___maxIterations;
 
+  /// [Header("Lens Dirt")]
+  /// [Tooltip("Dirtiness texture to add smudges or dust to the bloom effect.")]
   /// @brief Field dirtTexture, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureParameter* ___dirtTexture;
 
+  /// [Tooltip("Amount of dirtiness.")]
   /// @brief Field dirtIntensity, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___dirtIntensity;
 

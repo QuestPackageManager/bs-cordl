@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FrameTimeSampleHistory.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FrameTimeSampleHistory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_REF_T(::UnityEngine::Rendering::FrameTimeSampleHistory*);
 MARK_REF_T(::UnityEngine::Rendering::FrameTimeSampleHistory___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::FrameTimeSampleHistory*, "UnityEngine.Rendering", "FrameTimeSampleHistory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::FrameTimeSampleHistory___c*, "UnityEngine.Rendering", "FrameTimeSampleHistory/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -75,13 +76,13 @@ protected:
   constexpr FrameTimeSampleHistory___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTimeSampleHistory___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FrameTimeSampleHistory___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FrameTimeSampleHistory___c(FrameTimeSampleHistory___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTimeSampleHistory___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FrameTimeSampleHistory___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FrameTimeSampleHistory___c(FrameTimeSampleHistory___c const&) = delete;
+  FrameTimeSampleHistory___c(FrameTimeSampleHistory___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12040 };
@@ -145,6 +146,7 @@ public:
 
   static inline ::UnityEngine::Rendering::FrameTimeSampleHistory* New_ctor(int32_t initialCapacity);
 
+  /// [CompilerGenerated]
   /// @brief Method <ComputeAggregateValues>g__ForEachSampleMember|12_0, addr 0x676d438, size 0xe4, virtual false, abstract: false, final false
   static inline void _ComputeAggregateValues_g__ForEachSampleMember_12_0(::by_ref<::UnityEngine::Rendering::FrameTimeSample> aggregate, ::UnityEngine::Rendering::FrameTimeSample sample,
                                                                          ::System::Func_3<float_t, float_t, float_t>* func);
@@ -206,13 +208,13 @@ protected:
   constexpr FrameTimeSampleHistory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTimeSampleHistory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FrameTimeSampleHistory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FrameTimeSampleHistory(FrameTimeSampleHistory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTimeSampleHistory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FrameTimeSampleHistory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FrameTimeSampleHistory(FrameTimeSampleHistory const&) = delete;
+  FrameTimeSampleHistory(FrameTimeSampleHistoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12041 };

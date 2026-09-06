@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\MobileTlsContext.hpp"
+// IWYU pragma private; include "Mono/Net/Security/MobileTlsContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,36 +124,36 @@ public:
   /// @brief Method Finalize, addr 0x5fdccc0, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method FinishHandshake, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FinishHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FinishHandshake();
 
   static inline ::Mono::Net::Security::MobileTlsContext* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method PendingRenegotiation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PendingRenegotiation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool PendingRenegotiation();
 
-  /// @brief Method ProcessHandshake, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ProcessHandshake();
 
-  /// @brief Method Read, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ValueTuple_2<int32_t, bool> Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Renegotiate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Renegotiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Renegotiate();
 
   /// @brief Method SelectClientCertificate, addr 0x5fd4ddc, size 0x5b4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(::ArrayW<::StringW> acceptableIssuers);
 
-  /// @brief Method Shutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Shutdown();
 
-  /// @brief Method StartHandshake, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartHandshake();
 
   /// @brief Method ValidateCertificate, addr 0x5fd3e24, size 0x50, virtual false, abstract: false, final false
   inline bool ValidateCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
 
-  /// @brief Method Write, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ValueTuple_2<int32_t, bool> Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
   constexpr bool const& __cordl_internal_get__AskForClientCertificate_k__BackingField() const;
@@ -219,42 +219,50 @@ public:
   /// @brief Method .ctor, addr 0x5fd31f4, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
+  /// [CompilerGenerated]
   /// @brief Method get_AskForClientCertificate, addr 0x5fdcc9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_AskForClientCertificate();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ClientCertificates, addr 0x5fdcca4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method get_IsAuthenticated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsAuthenticated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsAuthenticated();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsServer, addr 0x5fdcc84, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsServer();
 
-  /// @brief Method get_LocalClientCertificate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_LocalClientCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalClientCertificate();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LocalServerCertificate, addr 0x5fdccac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalServerCertificate();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Parent, addr 0x5fdcc7c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
 
-  /// @brief Method get_RemoteCertificate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_RemoteCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_RemoteCertificate();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ServerName, addr 0x5fdcc94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ServerName();
 
   /// @brief Method get_Settings, addr 0x5fd3ac8, size 0x18, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TargetHost, addr 0x5fdcc8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_LocalServerCertificate, addr 0x5fdccb4, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
@@ -264,13 +272,13 @@ protected:
   constexpr MobileTlsContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MobileTlsContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MobileTlsContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MobileTlsContext(MobileTlsContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MobileTlsContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MobileTlsContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MobileTlsContext(MobileTlsContext const&) = delete;
+  MobileTlsContext(MobileTlsContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11028 };
@@ -278,30 +286,39 @@ public:
   /// @brief Field certificateValidator, offset: 0x10, size: 0x8, def value: None
   ::Mono::Net::Security::ChainValidationHelper* ___certificateValidator;
 
+  /// [CompilerGenerated]
   /// @brief Field <Options>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Mono::Net::Security::MonoSslAuthenticationOptions* ____Options_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Parent>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Mono::Net::Security::MobileAuthenticatedStream* ____Parent_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsServer>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____IsServer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TargetHost>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____TargetHost_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ServerName>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____ServerName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AskForClientCertificate>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____AskForClientCertificate_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <EnabledProtocols>k__BackingField, offset: 0x44, size: 0x4, def value: None
   ::System::Security::Authentication::SslProtocols ____EnabledProtocols_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ClientCertificates>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ____ClientCertificates_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <LocalServerCertificate>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509Certificate* ____LocalServerCertificate_k__BackingField;
 

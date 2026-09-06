@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\AssetBundleProvider.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProv
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleProvider");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider___c__DisplayClass12_0*, "UnityEngine.ResourceManagement.ResourceProviders",
                     "AssetBundleProvider/<>c__DisplayClass12_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
@@ -84,13 +85,13 @@ protected:
   constexpr AssetBundleProvider___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleProvider___c__DisplayClass12_0(AssetBundleProvider___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleProvider___c__DisplayClass12_0(AssetBundleProvider___c__DisplayClass12_0 const&) = delete;
+  AssetBundleProvider___c__DisplayClass12_0(AssetBundleProvider___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18769 };
@@ -106,6 +107,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Ass
 static_assert(sizeof(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider___c__DisplayClass12_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
+// [DisplayName("AssetBundle Provider")]
 // Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
@@ -126,6 +128,7 @@ public:
   /// @brief Method GetDefaultType, addr 0x691c7f0, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x691c268, size 0xc4, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -168,13 +171,13 @@ protected:
   constexpr AssetBundleProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleProvider(AssetBundleProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleProvider(AssetBundleProvider const&) = delete;
+  AssetBundleProvider(AssetBundleProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18770 };

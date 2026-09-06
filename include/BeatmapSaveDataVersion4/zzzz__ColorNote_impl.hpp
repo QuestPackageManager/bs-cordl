@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\ColorNote.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/ColorNote.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteColorType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteCutDirection_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ColorNote_def.hpp"
-// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "c", ty: "::BeatmapSaveDataCommon::NoteColorType", modifiers: "", def_value: Some("{}") }, CppParam { name: "d", ty:
-// "::BeatmapSaveDataCommon::NoteCutDirection", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "a", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "c", ty: "::BeatmapSaveDataCommon::NoteColorType", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::NoteCutDirection", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatmapSaveDataVersion4::ColorNote::ColorNote(int32_t x, int32_t y, int32_t a, ::BeatmapSaveDataCommon::NoteColorType c, ::BeatmapSaveDataCommon::NoteCutDirection d) noexcept {
   this->x = x;
   this->y = y;

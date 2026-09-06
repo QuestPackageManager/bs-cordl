@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CharacterController.hpp"
+// IWYU pragma private; include "UnityEngine/CharacterController.hpp"
 #include "UnityEngine/zzzz__Collider_impl.hpp"
 #include "UnityEngine/zzzz__CharacterController_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

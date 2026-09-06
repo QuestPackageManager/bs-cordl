@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioLatencyViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioLatencyViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -183,44 +183,56 @@ protected:
   constexpr AudioLatencyViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioLatencyViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioLatencyViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioLatencyViewController(AudioLatencyViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioLatencyViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioLatencyViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioLatencyViewController(AudioLatencyViewController const&) = delete;
+  AudioLatencyViewController(AudioLatencyViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6463 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _setupCanvasGroup, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____setupCanvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _volumeSettingsList, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____volumeSettingsList;
 
+  /// [SerializeField]
   /// @brief Field _ambientSettingsList, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____ambientSettingsList;
 
+  /// [SerializeField]
   /// @brief Field _overrideAudioLatencyToggle, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____overrideAudioLatencyToggle;
 
+  /// [SerializeField]
   /// @brief Field _slider, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::RangeValuesTextSlider> ____slider;
 
+  /// [SerializeField]
   /// @brief Field _visualMetronome, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VisualMetronome> ____visualMetronome;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _disabledAlpha, offset: 0xa8, size: 0x4, def value: None
   float_t ____disabledAlpha;
 
+  /// [Inject]
   /// @brief Field _songPreviewPlayer, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [Inject]
   /// @brief Field _audioManager, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::AudioManager* ____audioManager;
 

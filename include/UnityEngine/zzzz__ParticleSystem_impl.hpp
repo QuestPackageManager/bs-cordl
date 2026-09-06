@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ParticleSystem.hpp"
+// IWYU pragma private; include "UnityEngine/ParticleSystem.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -842,7 +842,7 @@ inline void UnityEngine::ParticleSystem_MainModule::set_startColorBlittable_Inje
                                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_MainModule::ParticleSystem_MainModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -985,7 +985,7 @@ inline void UnityEngine::ParticleSystem_EmissionModule::set_rateOverTimeBlittabl
                             { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_EmissionModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_EmissionModule::ParticleSystem_EmissionModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -1128,7 +1128,7 @@ inline void UnityEngine::ParticleSystem_ShapeModule::set_rotation_Injected(::by_
                           { "set_rotation_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_ShapeModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_ShapeModule::ParticleSystem_ShapeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -1153,7 +1153,7 @@ inline void UnityEngine::ParticleSystem_CollisionModule::_ctor(::UnityEngine::Pa
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_CollisionModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_CollisionModule::ParticleSystem_CollisionModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -1177,7 +1177,7 @@ inline void UnityEngine::ParticleSystem_TriggerModule::_ctor(::UnityEngine::Part
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_TriggerModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_TriggerModule::ParticleSystem_TriggerModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -1258,7 +1258,7 @@ inline ::System::IntPtr UnityEngine::ParticleSystem_SubEmittersModule::GetSubEmi
                                               { "GetSubEmitterSystem_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_SubEmittersModule>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, _unity_self, index);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_SubEmittersModule::ParticleSystem_SubEmittersModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -1283,7 +1283,7 @@ inline void UnityEngine::ParticleSystem_TextureSheetAnimationModule::_ctor(::Uni
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_TextureSheetAnimationModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_TextureSheetAnimationModule::ParticleSystem_TextureSheetAnimationModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -1469,15 +1469,16 @@ inline void UnityEngine::ParticleSystem_Particle::set_angularVelocity3D(::UnityE
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_Particle>(), { "set_angularVelocity3D", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Velocity", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_AnimatedVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InitialVelocity", ty:
-// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AxisOfRotation", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Rotation", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AngularVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_StartSize", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartColor", ty: "::UnityEngine::Color32", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_RandomSeed", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ParentRandomSeed", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Lifetime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartLifetime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_MeshIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EmitAccumulator0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_EmitAccumulator1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Velocity", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AnimatedVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_InitialVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AxisOfRotation", ty: "::UnityEngine::Vector3", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AngularVelocity", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartSize", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_StartColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RandomSeed", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_ParentRandomSeed", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Lifetime", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartLifetime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MeshIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_EmitAccumulator0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_EmitAccumulator1", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_Particle::ParticleSystem_Particle(::UnityEngine::Vector3 m_Position, ::UnityEngine::Vector3 m_Velocity, ::UnityEngine::Vector3 m_AnimatedVelocity,
                                                                           ::UnityEngine::Vector3 m_InitialVelocity, ::UnityEngine::Vector3 m_AxisOfRotation, ::UnityEngine::Vector3 m_Rotation,
                                                                           ::UnityEngine::Vector3 m_AngularVelocity, ::UnityEngine::Vector3 m_StartSize, ::UnityEngine::Color32 m_StartColor,
@@ -1594,10 +1595,10 @@ inline ::UnityEngine::ParticleSystem_MinMaxCurve UnityEngine::ParticleSystem_Min
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxCurve>(), { "op_Implicit", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxCurve>(nullptr, ___internal_method, constant);
 }
-// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemCurveMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurveMultiplier", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_CurveMin", ty: "::UnityEngine::AnimationCurve*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurveMax", ty:
-// "::UnityEngine::AnimationCurve*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ConstantMin", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ConstantMax",
-// ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemCurveMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurveMultiplier", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurveMin", ty: "::UnityEngine::AnimationCurve*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_CurveMax", ty: "::UnityEngine::AnimationCurve*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ConstantMin", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_ConstantMax", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_MinMaxCurve::ParticleSystem_MinMaxCurve(::UnityEngine::ParticleSystemCurveMode m_Mode, float_t m_CurveMultiplier, ::UnityEngine::AnimationCurve* m_CurveMin,
                                                                                 ::UnityEngine::AnimationCurve* m_CurveMax, float_t m_ConstantMin, float_t m_ConstantMax) noexcept {
   this->m_Mode = m_Mode;
@@ -1644,15 +1645,16 @@ UnityEngine::ParticleSystem_MinMaxCurveBlittable::op_Implicit___UnityEngine__Par
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem_MinMaxCurve>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>(nullptr, ___internal_method, minMaxCurve);
 }
-inline ::UnityEngine::ParticleSystem_MinMaxCurveBlittable UnityEngine::ParticleSystem_MinMaxCurveBlittable::FromMixMaxCurve(::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve> minMaxCurve) {
+inline ::UnityEngine::ParticleSystem_MinMaxCurveBlittable
+UnityEngine::ParticleSystem_MinMaxCurveBlittable::FromMixMaxCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve> minMaxCurve) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>(),
                                                                                          { "FromMixMaxCurve", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>(nullptr, ___internal_method, minMaxCurve);
 }
-// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemCurveMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurveMultiplier", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_CurveMin", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurveMax", ty: "::System::IntPtr", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_ConstantMin", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ConstantMax", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemCurveMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurveMultiplier", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurveMin", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurveMax",
+// ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ConstantMin", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_ConstantMax", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_MinMaxCurveBlittable::ParticleSystem_MinMaxCurveBlittable(::UnityEngine::ParticleSystemCurveMode m_Mode, float_t m_CurveMultiplier, ::System::IntPtr m_CurveMin,
                                                                                                   ::System::IntPtr m_CurveMax, float_t m_ConstantMin, float_t m_ConstantMax) noexcept {
   this->m_Mode = m_Mode;
@@ -1717,9 +1719,10 @@ inline ::UnityEngine::ParticleSystem_MinMaxGradient UnityEngine::ParticleSystem_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxGradient>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxGradient>(nullptr, ___internal_method, color);
 }
-// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemGradientMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_GradientMin", ty:
-// "::UnityEngine::Gradient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_GradientMax", ty: "::UnityEngine::Gradient*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ColorMin", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ColorMax", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemGradientMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_GradientMin", ty:
+// "::UnityEngine::Gradient*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_GradientMax", ty: "::UnityEngine::Gradient*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_ColorMin", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ColorMax", ty: "::UnityEngine::Color", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_MinMaxGradient::ParticleSystem_MinMaxGradient(::UnityEngine::ParticleSystemGradientMode m_Mode, ::UnityEngine::Gradient* m_GradientMin,
                                                                                       ::UnityEngine::Gradient* m_GradientMax, ::UnityEngine::Color m_ColorMin,
                                                                                       ::UnityEngine::Color m_ColorMax) noexcept {
@@ -1802,21 +1805,22 @@ UnityEngine::ParticleSystem_MinMaxGradientBlittable::op_Implicit___UnityEngine__
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(nullptr, ___internal_method, minMaxGradient);
 }
 inline ::UnityEngine::ParticleSystem_MinMaxGradientBlittable
-UnityEngine::ParticleSystem_MinMaxGradientBlittable::FromMixMaxGradient(::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient> minMaxGradient) {
+UnityEngine::ParticleSystem_MinMaxGradientBlittable::FromMixMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient> minMaxGradient) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(),
                                                                                          { "FromMixMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(nullptr, ___internal_method, minMaxGradient);
 }
 inline ::UnityEngine::ParticleSystem_MinMaxGradient
-UnityEngine::ParticleSystem_MinMaxGradientBlittable::ToMinMaxGradient(::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable> minMaxGradientBlittable) {
+UnityEngine::ParticleSystem_MinMaxGradientBlittable::ToMinMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable> minMaxGradientBlittable) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(),
                                                            { "ToMinMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxGradient>(nullptr, ___internal_method, minMaxGradientBlittable);
 }
-// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemGradientMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_GradientMin", ty: "::System::IntPtr",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_GradientMax", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ColorMin", ty: "::UnityEngine::Color",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ColorMax", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemGradientMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_GradientMin", ty:
+// "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_GradientMax", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "m_ColorMin", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ColorMax", ty: "::UnityEngine::Color", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_MinMaxGradientBlittable::ParticleSystem_MinMaxGradientBlittable(::UnityEngine::ParticleSystemGradientMode m_Mode, ::System::IntPtr m_GradientMin,
                                                                                                         ::System::IntPtr m_GradientMax, ::UnityEngine::Color m_ColorMin,
                                                                                                         ::UnityEngine::Color m_ColorMax) noexcept {
@@ -1900,12 +1904,13 @@ inline void UnityEngine::ParticleSystem_EmitParams::set_startColor(::UnityEngine
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_EmitParams>(), { "set_startColor", {}, { ::i2c::type_of<::UnityEngine::Color32>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_Particle", ty: "::UnityEngine::ParticleSystem_Particle", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PositionSet", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_VelocitySet", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AxisOfRotationSet", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_RotationSet", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AngularVelocitySet", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_StartSizeSet", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartColorSet", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_RandomSeedSet", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartLifetimeSet", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MeshIndexSet",
-// ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ApplyShapeToPosition", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Particle", ty: "::UnityEngine::ParticleSystem_Particle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PositionSet", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_VelocitySet", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AxisOfRotationSet",
+// ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RotationSet", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_AngularVelocitySet", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartSizeSet", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_StartColorSet", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RandomSeedSet", ty: "bool", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_StartLifetimeSet", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MeshIndexSet", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_ApplyShapeToPosition", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_EmitParams::ParticleSystem_EmitParams(::UnityEngine::ParticleSystem_Particle m_Particle, bool m_PositionSet, bool m_VelocitySet, bool m_AxisOfRotationSet,
                                                                               bool m_RotationSet, bool m_AngularVelocitySet, bool m_StartSizeSet, bool m_StartColorSet, bool m_RandomSeedSet,
                                                                               bool m_StartLifetimeSet, bool m_MeshIndexSet, bool m_ApplyShapeToPosition) noexcept {
@@ -1924,8 +1929,8 @@ constexpr ::UnityEngine::ParticleSystem_EmitParams::ParticleSystem_EmitParams(::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ParticleSystem_EmitParams::ParticleSystem_EmitParams() {}
-// Ctor Parameters [CppParam { name: "x", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "z",
-// ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "w", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "z", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "w", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Seed::PlaybackState_ParticleSystem_Seed(uint32_t x, uint32_t y, uint32_t z, uint32_t w) noexcept {
   this->x = x;
   this->y = y;
@@ -1934,9 +1939,9 @@ constexpr ::UnityEngine::PlaybackState_ParticleSystem_Seed::PlaybackState_Partic
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Seed::PlaybackState_ParticleSystem_Seed() {}
-// Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty:
-// "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}") }, CppParam { name: "z", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "w", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty:
+// "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "z", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "w", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Seed4::PlaybackState_ParticleSystem_Seed4(::UnityEngine::PlaybackState_ParticleSystem_Seed x, ::UnityEngine::PlaybackState_ParticleSystem_Seed y,
                                                                                                 ::UnityEngine::PlaybackState_ParticleSystem_Seed z,
                                                                                                 ::UnityEngine::PlaybackState_ParticleSystem_Seed w) noexcept {
@@ -1947,8 +1952,8 @@ constexpr ::UnityEngine::PlaybackState_ParticleSystem_Seed4::PlaybackState_Parti
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Seed4::PlaybackState_ParticleSystem_Seed4() {}
-// Ctor Parameters [CppParam { name: "m_ParticleSpacing", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ToEmitAccumulator", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSpacing", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ToEmitAccumulator", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Emission::PlaybackState_ParticleSystem_Emission(float_t m_ParticleSpacing, float_t m_ToEmitAccumulator,
                                                                                                       ::UnityEngine::PlaybackState_ParticleSystem_Seed m_Random) noexcept {
   this->m_ParticleSpacing = m_ParticleSpacing;
@@ -1957,17 +1962,17 @@ constexpr ::UnityEngine::PlaybackState_ParticleSystem_Emission::PlaybackState_Pa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Emission::PlaybackState_ParticleSystem_Emission() {}
-// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Initial::PlaybackState_ParticleSystem_Initial(::UnityEngine::PlaybackState_ParticleSystem_Seed4 m_Random) noexcept {
   this->m_Random = m_Random;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Initial::PlaybackState_ParticleSystem_Initial() {}
-// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed4", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RadiusTimer", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RadiusTimerPrev", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ArcTimer", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_ArcTimerPrev", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MeshSpawnTimer", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_MeshSpawnTimerPrev", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OrderedMeshVertexIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RadiusTimer", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RadiusTimerPrev", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_ArcTimer", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ArcTimerPrev", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "m_MeshSpawnTimer", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MeshSpawnTimerPrev", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_OrderedMeshVertexIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Shape::PlaybackState_ParticleSystem_Shape(::UnityEngine::PlaybackState_ParticleSystem_Seed4 m_Random, float_t m_RadiusTimer,
                                                                                                 float_t m_RadiusTimerPrev, float_t m_ArcTimer, float_t m_ArcTimerPrev, float_t m_MeshSpawnTimer,
                                                                                                 float_t m_MeshSpawnTimerPrev, int32_t m_OrderedMeshVertexIndex) noexcept {
@@ -1982,26 +1987,26 @@ constexpr ::UnityEngine::PlaybackState_ParticleSystem_Shape::PlaybackState_Parti
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Shape::PlaybackState_ParticleSystem_Shape() {}
-// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Force::PlaybackState_ParticleSystem_Force(::UnityEngine::PlaybackState_ParticleSystem_Seed4 m_Random) noexcept {
   this->m_Random = m_Random;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Force::PlaybackState_ParticleSystem_Force() {}
-// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Collision::PlaybackState_ParticleSystem_Collision(::UnityEngine::PlaybackState_ParticleSystem_Seed4 m_Random) noexcept {
   this->m_Random = m_Random;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Collision::PlaybackState_ParticleSystem_Collision() {}
-// Ctor Parameters [CppParam { name: "m_ScrollOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ScrollOffset", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Noise::PlaybackState_ParticleSystem_Noise(float_t m_ScrollOffset) noexcept {
   this->m_ScrollOffset = m_ScrollOffset;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Noise::PlaybackState_ParticleSystem_Noise() {}
-// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ParticleEmissionCounter", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Random", ty: "::UnityEngine::PlaybackState_ParticleSystem_Seed", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_ParticleEmissionCounter", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Lights::PlaybackState_ParticleSystem_Lights(::UnityEngine::PlaybackState_ParticleSystem_Seed m_Random,
                                                                                                   float_t m_ParticleEmissionCounter) noexcept {
   this->m_Random = m_Random;
@@ -2009,20 +2014,21 @@ constexpr ::UnityEngine::PlaybackState_ParticleSystem_Lights::PlaybackState_Part
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Lights::PlaybackState_ParticleSystem_Lights() {}
-// Ctor Parameters [CppParam { name: "m_Timer", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Timer", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Trail::PlaybackState_ParticleSystem_Trail(float_t m_Timer) noexcept {
   this->m_Timer = m_Timer;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlaybackState_ParticleSystem_Trail::PlaybackState_ParticleSystem_Trail() {}
-// Ctor Parameters [CppParam { name: "m_AccumulatedDt", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartDelay", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_PlaybackTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RingBufferIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Emission", ty: "::UnityEngine::PlaybackState_ParticleSystem_Emission", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Initial", ty:
-// "::UnityEngine::PlaybackState_ParticleSystem_Initial", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Shape", ty: "::UnityEngine::PlaybackState_ParticleSystem_Shape", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Force", ty: "::UnityEngine::PlaybackState_ParticleSystem_Force", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Collision", ty:
-// "::UnityEngine::PlaybackState_ParticleSystem_Collision", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Noise", ty: "::UnityEngine::PlaybackState_ParticleSystem_Noise", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Lights", ty: "::UnityEngine::PlaybackState_ParticleSystem_Lights", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Trail", ty:
-// "::UnityEngine::PlaybackState_ParticleSystem_Trail", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_AccumulatedDt", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartDelay", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_PlaybackTime", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RingBufferIndex", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Emission", ty: "::UnityEngine::PlaybackState_ParticleSystem_Emission", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_Initial", ty: "::UnityEngine::PlaybackState_ParticleSystem_Initial", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Shape", ty:
+// "::UnityEngine::PlaybackState_ParticleSystem_Shape", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Force", ty: "::UnityEngine::PlaybackState_ParticleSystem_Force",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Collision", ty: "::UnityEngine::PlaybackState_ParticleSystem_Collision", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_Noise", ty: "::UnityEngine::PlaybackState_ParticleSystem_Noise", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Lights", ty:
+// "::UnityEngine::PlaybackState_ParticleSystem_Lights", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Trail", ty: "::UnityEngine::PlaybackState_ParticleSystem_Trail",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_PlaybackState::ParticleSystem_PlaybackState(
     float_t m_AccumulatedDt, float_t m_StartDelay, float_t m_PlaybackTime, int32_t m_RingBufferIndex, ::UnityEngine::PlaybackState_ParticleSystem_Emission m_Emission,
     ::UnityEngine::PlaybackState_ParticleSystem_Initial m_Initial, ::UnityEngine::PlaybackState_ParticleSystem_Shape m_Shape, ::UnityEngine::PlaybackState_ParticleSystem_Force m_Force,
@@ -2059,11 +2065,12 @@ inline void UnityEngine::ParticleSystem_Trails::Allocate() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_Trails>(), { "Allocate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "positions", ty: "::System::Collections::Generic::List_1<::UnityEngine::Vector4>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "frontPositions", ty:
-// "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "backPositions", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "positionCounts", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "textureOffsets", ty:
-// "::System::Collections::Generic::List_1<float_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxTrailCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "maxPositionsPerTrailCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "positions", ty: "::System::Collections::Generic::List_1<::UnityEngine::Vector4>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "frontPositions", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "backPositions", ty:
+// "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "positionCounts", ty: "::System::Collections::Generic::List_1<int32_t>*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "textureOffsets", ty: "::System::Collections::Generic::List_1<float_t>*", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "maxTrailCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxPositionsPerTrailCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_Trails::ParticleSystem_Trails(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* positions,
                                                                       ::System::Collections::Generic::List_1<int32_t>* frontPositions, ::System::Collections::Generic::List_1<int32_t>* backPositions,
                                                                       ::System::Collections::Generic::List_1<int32_t>* positionCounts, ::System::Collections::Generic::List_1<float_t>* textureOffsets,
@@ -2097,7 +2104,7 @@ inline void UnityEngine::ParticleSystem_VelocityOverLifetimeModule::_ctor(::Unit
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_VelocityOverLifetimeModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_VelocityOverLifetimeModule::ParticleSystem_VelocityOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2124,7 +2131,7 @@ inline void UnityEngine::ParticleSystem_LimitVelocityOverLifetimeModule::_ctor(:
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_LimitVelocityOverLifetimeModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_LimitVelocityOverLifetimeModule::ParticleSystem_LimitVelocityOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2149,7 +2156,7 @@ inline void UnityEngine::ParticleSystem_InheritVelocityModule::_ctor(::UnityEngi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_InheritVelocityModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_InheritVelocityModule::ParticleSystem_InheritVelocityModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2174,7 +2181,7 @@ inline void UnityEngine::ParticleSystem_LifetimeByEmitterSpeedModule::_ctor(::Un
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_LifetimeByEmitterSpeedModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_LifetimeByEmitterSpeedModule::ParticleSystem_LifetimeByEmitterSpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2199,7 +2206,7 @@ inline void UnityEngine::ParticleSystem_ForceOverLifetimeModule::_ctor(::UnityEn
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_ForceOverLifetimeModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_ForceOverLifetimeModule::ParticleSystem_ForceOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2224,7 +2231,7 @@ inline void UnityEngine::ParticleSystem_ColorOverLifetimeModule::_ctor(::UnityEn
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_ColorOverLifetimeModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_ColorOverLifetimeModule::ParticleSystem_ColorOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2249,7 +2256,7 @@ inline void UnityEngine::ParticleSystem_ColorBySpeedModule::_ctor(::UnityEngine:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_ColorBySpeedModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_ColorBySpeedModule::ParticleSystem_ColorBySpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2274,7 +2281,7 @@ inline void UnityEngine::ParticleSystem_SizeOverLifetimeModule::_ctor(::UnityEng
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_SizeOverLifetimeModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_SizeOverLifetimeModule::ParticleSystem_SizeOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2299,7 +2306,7 @@ inline void UnityEngine::ParticleSystem_SizeBySpeedModule::_ctor(::UnityEngine::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_SizeBySpeedModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_SizeBySpeedModule::ParticleSystem_SizeBySpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2324,7 +2331,7 @@ inline void UnityEngine::ParticleSystem_RotationOverLifetimeModule::_ctor(::Unit
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_RotationOverLifetimeModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_RotationOverLifetimeModule::ParticleSystem_RotationOverLifetimeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2349,7 +2356,7 @@ inline void UnityEngine::ParticleSystem_RotationBySpeedModule::_ctor(::UnityEngi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_RotationBySpeedModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_RotationBySpeedModule::ParticleSystem_RotationBySpeedModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2374,7 +2381,7 @@ inline void UnityEngine::ParticleSystem_ExternalForcesModule::_ctor(::UnityEngin
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_ExternalForcesModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_ExternalForcesModule::ParticleSystem_ExternalForcesModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2398,7 +2405,7 @@ inline void UnityEngine::ParticleSystem_NoiseModule::_ctor(::UnityEngine::Partic
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_NoiseModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_NoiseModule::ParticleSystem_NoiseModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2422,7 +2429,7 @@ inline void UnityEngine::ParticleSystem_LightsModule::_ctor(::UnityEngine::Parti
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_LightsModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_LightsModule::ParticleSystem_LightsModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2446,7 +2453,7 @@ inline void UnityEngine::ParticleSystem_TrailModule::_ctor(::UnityEngine::Partic
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_TrailModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_TrailModule::ParticleSystem_TrailModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -2471,7 +2478,7 @@ inline void UnityEngine::ParticleSystem_CustomDataModule::_ctor(::UnityEngine::P
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_CustomDataModule>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, particleSystem);
 }
-// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ParticleSystem_CustomDataModule::ParticleSystem_CustomDataModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept {
   this->m_ParticleSystem = m_ParticleSystem;
 }
@@ -5247,7 +5254,7 @@ inline void UnityEngine::ParticleSystem::SetParticles(::by_ref<::Unity::Collecti
                                                            { "SetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles);
 }
-inline int32_t UnityEngine::ParticleSystem::GetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset) {
+inline int32_t UnityEngine::ParticleSystem::GetParticles(/* [NotNull] */ ::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
@@ -5294,7 +5301,8 @@ inline int32_t UnityEngine::ParticleSystem::GetParticles(::by_ref<::Unity::Colle
                                                            { "GetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particles);
 }
-inline void UnityEngine::ParticleSystem::SetCustomParticleData(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* customData, ::UnityEngine::ParticleSystemCustomData streamIndex) {
+inline void UnityEngine::ParticleSystem::SetCustomParticleData(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* customData,
+                                                               ::UnityEngine::ParticleSystemCustomData streamIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -5302,7 +5310,8 @@ inline void UnityEngine::ParticleSystem::SetCustomParticleData(::System::Collect
           { "SetCustomParticleData", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>(), ::i2c::type_of<::UnityEngine::ParticleSystemCustomData>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, customData, streamIndex);
 }
-inline int32_t UnityEngine::ParticleSystem::GetCustomParticleData(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* customData, ::UnityEngine::ParticleSystemCustomData streamIndex) {
+inline int32_t UnityEngine::ParticleSystem::GetCustomParticleData(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* customData,
+                                                                  ::UnityEngine::ParticleSystemCustomData streamIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -5339,18 +5348,19 @@ inline void UnityEngine::ParticleSystem::SetTrails(::UnityEngine::ParticleSystem
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetTrails", {}, { ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, trailData);
 }
-inline void UnityEngine::ParticleSystem::Simulate(float_t t, bool withChildren, bool restart, bool fixedTimeStep) {
+inline void UnityEngine::ParticleSystem::Simulate(float_t t, /* [DefaultValue("true")] */ bool withChildren, /* [DefaultValue("true")] */ bool restart,
+                                                  /* [DefaultValue("true")] */ bool fixedTimeStep) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
                                                            { "Simulate", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t, withChildren, restart, fixedTimeStep);
 }
-inline void UnityEngine::ParticleSystem::Simulate(float_t t, bool withChildren, bool restart) {
+inline void UnityEngine::ParticleSystem::Simulate(float_t t, /* [DefaultValue("true")] */ bool withChildren, /* [DefaultValue("true")] */ bool restart) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Simulate", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t, withChildren, restart);
 }
-inline void UnityEngine::ParticleSystem::Simulate(float_t t, bool withChildren) {
+inline void UnityEngine::ParticleSystem::Simulate(float_t t, /* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Simulate", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t, withChildren);
@@ -5359,7 +5369,7 @@ inline void UnityEngine::ParticleSystem::Simulate(float_t t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Simulate", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, t);
 }
-inline void UnityEngine::ParticleSystem::Play(bool withChildren) {
+inline void UnityEngine::ParticleSystem::Play(/* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Play", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, withChildren);
 }
@@ -5367,7 +5377,7 @@ inline void UnityEngine::ParticleSystem::Play() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Play", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::ParticleSystem::Pause(bool withChildren) {
+inline void UnityEngine::ParticleSystem::Pause(/* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Pause", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, withChildren);
 }
@@ -5375,13 +5385,14 @@ inline void UnityEngine::ParticleSystem::Pause() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Pause", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::ParticleSystem::Stop(bool withChildren, ::UnityEngine::ParticleSystemStopBehavior stopBehavior) {
+inline void UnityEngine::ParticleSystem::Stop(/* [DefaultValue("true")] */ bool withChildren,
+                                              /* [DefaultValue("ParticleSystemStopBehavior.StopEmitting")] */ ::UnityEngine::ParticleSystemStopBehavior stopBehavior) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Stop", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::ParticleSystemStopBehavior>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, withChildren, stopBehavior);
 }
-inline void UnityEngine::ParticleSystem::Stop(bool withChildren) {
+inline void UnityEngine::ParticleSystem::Stop(/* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Stop", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, withChildren);
 }
@@ -5389,7 +5400,7 @@ inline void UnityEngine::ParticleSystem::Stop() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Stop", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::ParticleSystem::Clear(bool withChildren) {
+inline void UnityEngine::ParticleSystem::Clear(/* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Clear", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, withChildren);
 }
@@ -5397,7 +5408,7 @@ inline void UnityEngine::ParticleSystem::Clear() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::ParticleSystem::IsAlive(bool withChildren) {
+inline bool UnityEngine::ParticleSystem::IsAlive(/* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "IsAlive", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, withChildren);
 }
@@ -5794,35 +5805,37 @@ inline void UnityEngine::ParticleSystem::SetTrails_Injected(::System::IntPtr _un
                                                            { "SetTrails_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, trailData);
 }
-inline void UnityEngine::ParticleSystem::Simulate_Injected(::System::IntPtr _unity_self, float_t t, bool withChildren, bool restart, bool fixedTimeStep) {
+inline void UnityEngine::ParticleSystem::Simulate_Injected(::System::IntPtr _unity_self, float_t t, /* [DefaultValue("true")] */ bool withChildren, /* [DefaultValue("true")] */ bool restart,
+                                                           /* [DefaultValue("true")] */ bool fixedTimeStep) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
                           { "Simulate_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, t, withChildren, restart, fixedTimeStep);
 }
-inline void UnityEngine::ParticleSystem::Play_Injected(::System::IntPtr _unity_self, bool withChildren) {
+inline void UnityEngine::ParticleSystem::Play_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Play_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, withChildren);
 }
-inline void UnityEngine::ParticleSystem::Pause_Injected(::System::IntPtr _unity_self, bool withChildren) {
+inline void UnityEngine::ParticleSystem::Pause_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Pause_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, withChildren);
 }
-inline void UnityEngine::ParticleSystem::Stop_Injected(::System::IntPtr _unity_self, bool withChildren, ::UnityEngine::ParticleSystemStopBehavior stopBehavior) {
+inline void UnityEngine::ParticleSystem::Stop_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren,
+                                                       /* [DefaultValue("ParticleSystemStopBehavior.StopEmitting")] */ ::UnityEngine::ParticleSystemStopBehavior stopBehavior) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
                                               { "Stop_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::ParticleSystemStopBehavior>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, withChildren, stopBehavior);
 }
-inline void UnityEngine::ParticleSystem::Clear_Injected(::System::IntPtr _unity_self, bool withChildren) {
+inline void UnityEngine::ParticleSystem::Clear_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Clear_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, withChildren);
 }
-inline bool UnityEngine::ParticleSystem::IsAlive_Injected(::System::IntPtr _unity_self, bool withChildren) {
+inline bool UnityEngine::ParticleSystem::IsAlive_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool withChildren) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "IsAlive_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, withChildren);

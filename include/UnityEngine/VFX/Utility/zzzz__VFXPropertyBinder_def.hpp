@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXPropertyBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXPropertyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VFXPropertyBinder)
@@ -33,7 +34,9 @@ namespace UnityEngine::VFX::Utility {
 class VFXBinderBase;
 }
 namespace UnityEngine::VFX::Utility {
-template <typename T> class VFXPropertyBinder__GetPropertyBinders_d__17_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
+class VFXPropertyBinder__GetPropertyBinders_d__17_1;
 }
 namespace UnityEngine::VFX {
 class VisualEffect;
@@ -46,17 +49,21 @@ namespace UnityEngine::VFX::Utility {
 class VFXPropertyBinder;
 }
 namespace UnityEngine::VFX::Utility {
-template <typename T> class VFXPropertyBinder__GetPropertyBinders_d__17_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
+class VFXPropertyBinder__GetPropertyBinders_d__17_1;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXPropertyBinder*);
 MARK_GEN_REF_T_PTR(::UnityEngine::VFX::Utility::VFXPropertyBinder__GetPropertyBinders_d__17_1);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXPropertyBinder*, "UnityEngine.VFX.Utility", "VFXPropertyBinder");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::VFX::Utility::VFXPropertyBinder__GetPropertyBinders_d__17_1, "UnityEngine.VFX.Utility", "VFXPropertyBinder/<GetPropertyBinders>d__17`1");
-// Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
+// [CompilerGenerated]
+// Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object, UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
 // Is value type: false
 // CS Name: UnityEngine.VFX.Utility.VFXPropertyBinder/<GetPropertyBinders>d__17`1<T>
 class CORDL_TYPE VFXPropertyBinder__GetPropertyBinders_d__17_1 : public ::System::Object {
@@ -101,23 +108,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::VFX::Utility::VFXPropertyBinder__GetPropertyBinders_d__17_1<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -154,6 +168,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -178,13 +193,13 @@ protected:
   constexpr VFXPropertyBinder__GetPropertyBinders_d__17_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder__GetPropertyBinders_d__17_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder__GetPropertyBinders_d__17_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXPropertyBinder__GetPropertyBinders_d__17_1(VFXPropertyBinder__GetPropertyBinders_d__17_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder__GetPropertyBinders_d__17_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder__GetPropertyBinders_d__17_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXPropertyBinder__GetPropertyBinders_d__17_1(VFXPropertyBinder__GetPropertyBinders_d__17_1 const&) = delete;
+  VFXPropertyBinder__GetPropertyBinders_d__17_1(VFXPropertyBinder__GetPropertyBinders_d__17_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20016 };
@@ -208,14 +223,20 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::VFX::Utility
-// Dependencies UnityEngine.MonoBehaviour
+// [RequireComponent(typeof(UnityEngine.VFX.VisualEffect))]
+// [DefaultExecutionOrder(1)]
+// [DisallowMultipleComponent]
+// [ExecuteAlways]
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
 // CS Name: UnityEngine.VFX.Utility.VFXPropertyBinder
 class CORDL_TYPE VFXPropertyBinder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  template <typename T> using _GetPropertyBinders_d__17_1 = ::UnityEngine::VFX::Utility::VFXPropertyBinder__GetPropertyBinders_d__17_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
+  using _GetPropertyBinders_d__17_1 = ::UnityEngine::VFX::Utility::VFXPropertyBinder__GetPropertyBinders_d__17_1<T>;
 
   /// @brief Field m_Bindings, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Bindings,
@@ -227,23 +248,35 @@ public:
   /// @brief Field m_VisualEffect, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VisualEffect, put = __cordl_internal_set_m_VisualEffect)) ::UnityW<::UnityEngine::VFX::VisualEffect> m_VisualEffect;
 
+  /// [Obsolete("Use AddPropertyBinder<T>() instead")]
   /// @brief Method AddParameterBinder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T AddParameterBinder();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
+  inline T AddParameterBinder();
 
   /// @brief Method AddPropertyBinder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T AddPropertyBinder();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
+  inline T AddPropertyBinder();
 
+  /// [Obsolete("Please use ClearPropertyBinders() instead")]
   /// @brief Method ClearParameterBinders, addr 0x69e9720, size 0x4, virtual false, abstract: false, final false
   inline void ClearParameterBinders();
 
   /// @brief Method ClearPropertyBinders, addr 0x69e947c, size 0x98, virtual false, abstract: false, final false
   inline void ClearPropertyBinders();
 
+  /// [Obsolete("Please use GetPropertyBinders<T>() instead")]
   /// @brief Method GetParameterBinders, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GetParameterBinders();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
+  inline ::System::Collections::Generic::IEnumerable_1<T>* GetParameterBinders();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.VFX.Utility.VFXPropertyBinder::<GetPropertyBinders>d__17`1<T>))]
   /// @brief Method GetPropertyBinders, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GetPropertyBinders();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
+  inline ::System::Collections::Generic::IEnumerable_1<T>* GetPropertyBinders();
 
   /// @brief Method LateUpdate, addr 0x69e9514, size 0x20c, virtual false, abstract: false, final false
   inline void LateUpdate();
@@ -259,17 +292,23 @@ public:
   /// @brief Method Reload, addr 0x69e92f8, size 0x10c, virtual false, abstract: false, final false
   inline void Reload();
 
+  /// [Obsolete("Please use RemovePropertyBinder() instead")]
   /// @brief Method RemoveParameterBinder, addr 0x69e97d8, size 0x4, virtual false, abstract: false, final false
   inline void RemoveParameterBinder(::UnityEngine::VFX::Utility::VFXBinderBase* binder);
 
+  /// [Obsolete("Please use RemovePropertyBinders<T>() instead")]
   /// @brief Method RemoveParameterBinders, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void RemoveParameterBinders();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
+  inline void RemoveParameterBinders();
 
   /// @brief Method RemovePropertyBinder, addr 0x69e9724, size 0xb4, virtual false, abstract: false, final false
   inline void RemovePropertyBinder(::UnityEngine::VFX::Utility::VFXBinderBase* binder);
 
   /// @brief Method RemovePropertyBinders, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void RemovePropertyBinders();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::VFX::Utility::VFXBinderBase*>)
+  inline void RemovePropertyBinders();
 
   /// @brief Method Reset, addr 0x69e9464, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
@@ -304,23 +343,25 @@ protected:
   constexpr VFXPropertyBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXPropertyBinder(VFXPropertyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXPropertyBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXPropertyBinder(VFXPropertyBinder const&) = delete;
+  VFXPropertyBinder(VFXPropertyBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20017 };
 
+  /// [SerializeField]
   /// @brief Field m_ExecuteInEditor, offset: 0x20, size: 0x1, def value: None
   bool ___m_ExecuteInEditor;
 
   /// @brief Field m_Bindings, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::VFX::Utility::VFXBinderBase>>* ___m_Bindings;
 
+  /// [SerializeField]
   /// @brief Field m_VisualEffect, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::VFX::VisualEffect> ___m_VisualEffect;
 

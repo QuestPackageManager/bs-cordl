@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HDROutputSettings.hpp"
+// IWYU pragma private; include "UnityEngine/HDROutputSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class HDROutputSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::HDROutputSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::HDROutputSettings*, "UnityEngine", "HDROutputSettings");
+// [NativeHeader("Runtime/GfxDevice/HDROutputSettings.h")]
+// [UsedByNativeCode]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -57,46 +59,60 @@ public:
 
   __declspec(property(get = get_paperWhiteNits)) float_t paperWhiteNits;
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetActive", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetActive, addr 0x6a8b79c, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetActive(int32_t displayIndex);
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetAutomaticHDRTonemapping", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetAutomaticHDRTonemapping, addr 0x6a8b90c, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetAutomaticHDRTonemapping(int32_t displayIndex);
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetAvailable", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetAvailable, addr 0x6a8b854, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetAvailable(int32_t displayIndex);
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetDisplayColorGamut", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetDisplayColorGamut, addr 0x6a8ba94, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorGamut GetDisplayColorGamut(int32_t displayIndex);
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetGraphicsFormat", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetGraphicsFormat, addr 0x6a8bb4c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(int32_t displayIndex);
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetHDRModeChangeRequested", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetHDRModeChangeRequested, addr 0x6a8bee4, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetHDRModeChangeRequested(int32_t displayIndex);
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetMaxFullFrameToneMapLuminance", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetMaxFullFrameToneMapLuminance, addr 0x6a8bcbc, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetMaxFullFrameToneMapLuminance(int32_t displayIndex);
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetMaxToneMapLuminance", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetMaxToneMapLuminance, addr 0x6a8bd74, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetMaxToneMapLuminance(int32_t displayIndex);
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetMinToneMapLuminance", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetMinToneMapLuminance, addr 0x6a8be2c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetMinToneMapLuminance(int32_t displayIndex);
 
+  /// [FreeFunction("HDROutputSettingsBindings::GetPaperWhiteNits", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method GetPaperWhiteNits, addr 0x6a8bc04, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetPaperWhiteNits(int32_t displayIndex);
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
   static inline ::UnityEngine::HDROutputSettings* New_ctor();
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
   static inline ::UnityEngine::HDROutputSettings* New_ctor(int32_t displayIndex);
 
   /// @brief Method RequestHDRModeChange, addr 0x6a8bf20, size 0x8c, virtual false, abstract: false, final false
   inline void RequestHDRModeChange(bool enabled);
 
+  /// [FreeFunction("HDROutputSettingsBindings::RequestHDRModeChange", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method RequestHDRModeChangeInternal, addr 0x6a8bfac, size 0x44, virtual false, abstract: false, final false
   static inline void RequestHDRModeChangeInternal(int32_t displayIndex, bool enabled);
 
+  /// [FreeFunction("HDROutputSettingsBindings::SetAutomaticHDRTonemapping", HasExplicitThis = false, ThrowsException = true)]
   /// @brief Method SetAutomaticHDRTonemapping, addr 0x6a8b9d4, size 0x44, virtual false, abstract: false, final false
   static inline void SetAutomaticHDRTonemapping(int32_t displayIndex, bool scripted);
 
@@ -106,9 +122,11 @@ public:
 
   constexpr void __cordl_internal_set_m_DisplayIndex(int32_t value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
   /// @brief Method .ctor, addr 0x6a8b6b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
   /// @brief Method .ctor, addr 0x6a8b6bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t displayIndex);
 
@@ -162,13 +180,13 @@ protected:
   constexpr HDROutputSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HDROutputSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDROutputSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HDROutputSettings(HDROutputSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HDROutputSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HDROutputSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HDROutputSettings(HDROutputSettings const&) = delete;
+  HDROutputSettings(HDROutputSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10147 };

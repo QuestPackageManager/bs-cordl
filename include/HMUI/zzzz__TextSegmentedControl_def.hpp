@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\TextSegmentedControl.hpp"
+// IWYU pragma private; include "HMUI/TextSegmentedControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -190,50 +190,66 @@ protected:
   constexpr TextSegmentedControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextSegmentedControl(TextSegmentedControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextSegmentedControl(TextSegmentedControl const&) = delete;
+  TextSegmentedControl(TextSegmentedControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23140 };
 
+  /// [SerializeField]
   /// @brief Field _fontSize, offset: 0x80, size: 0x4, def value: None
   float_t ____fontSize;
 
+  /// [SerializeField]
   /// @brief Field _overrideCellSize, offset: 0x84, size: 0x1, def value: None
   bool ____overrideCellSize;
 
+  /// [DrawIf("_overrideCellSize", true, (DrawIfAttribute::DisablingType)1)]
+  /// [SerializeField]
   /// @brief Field _fixedCellSize, offset: 0x85, size: 0x1, def value: None
   bool ____fixedCellSize;
 
+  /// [DrawIf("_fixedCellSize", true, (DrawIfAttribute::DisablingType)1)]
+  /// [SerializeField]
   /// @brief Field _fixedCellSizeAmount, offset: 0x88, size: 0x4, def value: None
   float_t ____fixedCellSizeAmount;
 
+  /// [DrawIf("_overrideCellSize", true, (DrawIfAttribute::DisablingType)1)]
+  /// [SerializeField]
   /// @brief Field _padding, offset: 0x8c, size: 0x4, def value: None
   float_t ____padding;
 
+  /// [SerializeField]
   /// @brief Field _hideCellBackground, offset: 0x90, size: 0x1, def value: None
   bool ____hideCellBackground;
 
+  /// [SerializeField]
   /// @brief Field _enableWordWrapping, offset: 0x91, size: 0x1, def value: None
   bool ____enableWordWrapping;
 
+  /// [SerializeField]
   /// @brief Field _textOverflowMode, offset: 0x94, size: 0x4, def value: None
   ::TMPro::TextOverflowModes ____textOverflowMode;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _firstCellPrefab, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControlCell> ____firstCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _lastCellPrefab, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControlCell> ____lastCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _singleCellPrefab, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControlCell> ____singleCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _middleCellPrefab, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControlCell> ____middleCellPrefab;
 

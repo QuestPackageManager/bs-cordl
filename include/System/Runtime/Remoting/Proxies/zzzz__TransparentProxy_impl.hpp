@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Proxies\TransparentProxy.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Proxies/TransparentProxy.hpp"
 #include "Mono/zzzz__RuntimeRemoteClassHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__TransparentProxy_def.hpp"

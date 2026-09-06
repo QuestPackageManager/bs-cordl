@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "System\SpanHelpers.hpp"
+// IWYU pragma private; include "System/SpanHelpers.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__SpanHelpers_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
@@ -297,7 +298,9 @@ inline int32_t System::SpanHelpers::LocateLastFoundChar(uint64_t match) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::SpanHelpers*>(), { "LocateLastFoundChar", {}, { ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, match);
 }
-template <typename T> inline int32_t System::SpanHelpers::IndexOf(::by_ref<T> searchSpace, int32_t searchSpaceLength, ::by_ref<T> value, int32_t valueLength) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline int32_t System::SpanHelpers::IndexOf(::by_ref<T> searchSpace, int32_t searchSpaceLength, ::by_ref<T> value, int32_t valueLength) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::System::SpanHelpers*>(),
@@ -305,14 +308,18 @@ template <typename T> inline int32_t System::SpanHelpers::IndexOf(::by_ref<T> se
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, searchSpace, searchSpaceLength, value, valueLength);
 }
-template <typename T> inline int32_t System::SpanHelpers::IndexOf(::by_ref<T> searchSpace, T value, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline int32_t System::SpanHelpers::IndexOf(::by_ref<T> searchSpace, T value, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::System::SpanHelpers*>(), { "IndexOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<T>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, searchSpace, value, length);
 }
-template <typename T> inline int32_t System::SpanHelpers::IndexOfAny(::by_ref<T> searchSpace, int32_t searchSpaceLength, ::by_ref<T> value, int32_t valueLength) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline int32_t System::SpanHelpers::IndexOfAny(::by_ref<T> searchSpace, int32_t searchSpaceLength, ::by_ref<T> value, int32_t valueLength) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::System::SpanHelpers*>(),
@@ -320,7 +327,9 @@ template <typename T> inline int32_t System::SpanHelpers::IndexOfAny(::by_ref<T>
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, searchSpace, searchSpaceLength, value, valueLength);
 }
-template <typename T> inline bool System::SpanHelpers::SequenceEqual(::by_ref<T> first, ::by_ref<T> second, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*>)
+inline bool System::SpanHelpers::SequenceEqual(::by_ref<T> first, ::by_ref<T> second, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::SpanHelpers*>(),
                                               { "SequenceEqual", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>() } })));

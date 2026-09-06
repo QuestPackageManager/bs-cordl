@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioMixerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioMixerPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,11 @@ struct AudioMixerPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Audio::AudioMixerPlayable);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");
+// [NativeHeader("Modules/Audio/Public/ScriptBindings/AudioMixerPlayable.bindings.h")]
+// [NativeHeader("Modules/Audio/Public/Director/AudioMixerPlayable.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [StaticAccessor("AudioMixerPlayableBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Audio {
 // Is value type: true
@@ -45,6 +50,7 @@ public:
   /// @brief Method Create, addr 0x6a58464, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool normalizeInputVolumes);
 
+  /// [NativeThrows]
   /// @brief Method CreateAudioMixerPlayableInternal, addr 0x6a586b4, size 0x54, virtual false, abstract: false, final false
   static inline bool CreateAudioMixerPlayableInternal(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, bool normalizeInputVolumes, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
@@ -76,7 +82,7 @@ public:
   // @brief default ctor
   constexpr AudioMixerPlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AudioMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

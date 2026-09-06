@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SendMessageOptions.hpp"
+// IWYU pragma private; include "UnityEngine/SendMessageOptions.hpp"
 #include "UnityEngine/zzzz__SendMessageOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SendMessageOptions::SendMessageOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UISystemProfilerApi.hpp"
+// IWYU pragma private; include "UnityEngine/UISystemProfilerApi.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   // @brief default ctor
   constexpr UISystemProfilerApi_SampleType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UISystemProfilerApi_SampleType(int32_t value__) noexcept;
 
   /// @brief Field Layout value: I32(0)
@@ -87,6 +87,9 @@ static_assert(offsetof(::UnityEngine::UISystemProfilerApi_SampleType, value__) =
 static_assert(sizeof(::UnityEngine::UISystemProfilerApi_SampleType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine
+// [StaticAccessor("UI::SystemProfilerApi", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [IgnoredByDeepProfiler]
+// [NativeHeader("Modules/UI/Canvas.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -114,13 +117,13 @@ protected:
   constexpr UISystemProfilerApi();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UISystemProfilerApi", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UISystemProfilerApi", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UISystemProfilerApi(UISystemProfilerApi&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UISystemProfilerApi", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UISystemProfilerApi", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UISystemProfilerApi(UISystemProfilerApi const&) = delete;
+  UISystemProfilerApi(UISystemProfilerApiconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22121 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchLayer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchLayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr BatchLayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchLayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchLayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchLayer(BatchLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchLayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchLayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchLayer(BatchLayer const&) = delete;
+  BatchLayer(BatchLayerconst&) = delete;
 
   /// @brief Field InstanceCullingDirect offset 0xffffffff size 0x1
   static constexpr uint8_t InstanceCullingDirect{ static_cast<uint8_t>(0x1du) };

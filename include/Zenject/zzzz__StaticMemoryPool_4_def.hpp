@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\StaticMemoryPool_4.hpp"
+// IWYU pragma private; include "Zenject/StaticMemoryPool_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +22,19 @@ class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class StaticMemoryPool_4;
+template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class StaticMemoryPool_4;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::StaticMemoryPool_4);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::StaticMemoryPool_4, "Zenject", "StaticMemoryPool`4");
+// [NoReflectionBaking]
 // Dependencies Zenject.StaticMemoryPoolBase`1<TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Zenject.StaticMemoryPool`4<TParam1,TParam2,TParam3,TValue>
 class CORDL_TYPE StaticMemoryPool_4 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {
@@ -83,13 +87,13 @@ protected:
   constexpr StaticMemoryPool_4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPool_4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPool_4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticMemoryPool_4(StaticMemoryPool_4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPool_4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPool_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticMemoryPool_4(StaticMemoryPool_4 const&) = delete;
+  StaticMemoryPool_4(StaticMemoryPool_4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14443 };

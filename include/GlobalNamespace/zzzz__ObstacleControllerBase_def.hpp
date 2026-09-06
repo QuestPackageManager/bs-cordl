@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleControllerBase.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleControllerBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,15 +69,19 @@ public:
   /// @brief Method .ctor, addr 0x58d9c18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didInitEvent, addr 0x58daba8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didStartDissolvingEvent, addr 0x58d9afc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didStartDissolvingEvent(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didInitEvent, addr 0x58dac68, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didStartDissolvingEvent, addr 0x58d9a3c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didStartDissolvingEvent(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* value);
 
@@ -87,13 +91,13 @@ protected:
   constexpr ObstacleControllerBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleControllerBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleControllerBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleControllerBase(ObstacleControllerBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleControllerBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleControllerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleControllerBase(ObstacleControllerBase const&) = delete;
+  ObstacleControllerBase(ObstacleControllerBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5704 };
@@ -101,12 +105,15 @@ public:
   /// @brief Field kObstacleWidthZFightGapScale offset 0xffffffff size 0x4
   static constexpr float_t kObstacleWidthZFightGapScale{ static_cast<float_t>(0.98f) };
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
+  /// [CompilerGenerated]
   /// @brief Field didInitEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* ___didInitEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didStartDissolvingEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* ___didStartDissolvingEvent;
 

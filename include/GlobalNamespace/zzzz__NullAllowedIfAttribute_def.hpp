@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NullAllowedIfAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/NullAllowedIfAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,9 @@ class NullAllowedIfAttribute;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NullAllowedIfAttribute*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NullAllowedIfAttribute*, "", "NullAllowedIfAttribute");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [AttributeUsage((System.AttributeTargets)256)]
 // Dependencies ComparisonOperation, NullAllowedAttribute
 namespace GlobalNamespace {
 // Is value type: false
@@ -77,13 +80,13 @@ protected:
   constexpr NullAllowedIfAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullAllowedIfAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullAllowedIfAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullAllowedIfAttribute(NullAllowedIfAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullAllowedIfAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullAllowedIfAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NullAllowedIfAttribute(NullAllowedIfAttribute const&) = delete;
+  NullAllowedIfAttribute(NullAllowedIfAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23512 };

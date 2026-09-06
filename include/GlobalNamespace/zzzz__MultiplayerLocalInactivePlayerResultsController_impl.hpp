@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalInactivePlayerResultsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalInactivePlayerResultsController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerResultsController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"

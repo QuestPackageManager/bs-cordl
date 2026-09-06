@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ButtonBinder.hpp"
+// IWYU pragma private; include "HMUI/ButtonBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,13 +78,13 @@ protected:
   constexpr ButtonBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonBinder(ButtonBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonBinder(ButtonBinder const&) = delete;
+  ButtonBinder(ButtonBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19022 };

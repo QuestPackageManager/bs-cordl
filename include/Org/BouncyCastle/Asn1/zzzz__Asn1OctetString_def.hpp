@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1OctetString.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1OctetString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,13 +98,13 @@ protected:
   constexpr Asn1OctetString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1OctetString(Asn1OctetString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1OctetString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1OctetString(Asn1OctetString const&) = delete;
+  Asn1OctetString(Asn1OctetStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 456 };

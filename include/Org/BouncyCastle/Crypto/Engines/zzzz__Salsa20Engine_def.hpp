@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\Salsa20Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/Salsa20Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -208,13 +208,13 @@ protected:
   constexpr Salsa20Engine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Salsa20Engine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Salsa20Engine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Salsa20Engine(Salsa20Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Salsa20Engine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Salsa20Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Salsa20Engine(Salsa20Engine const&) = delete;
+  Salsa20Engine(Salsa20Engineconst&) = delete;
 
   /// @brief Field StateSize offset 0xffffffff size 0x4
   static constexpr int32_t StateSize{ static_cast<int32_t>(0x10) };

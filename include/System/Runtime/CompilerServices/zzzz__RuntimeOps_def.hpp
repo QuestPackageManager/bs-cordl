@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\RuntimeOps.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/RuntimeOps.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ class RuntimeOps;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::RuntimeOps*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::RuntimeOps*, "System.Runtime.CompilerServices", "RuntimeOps");
+// [DebuggerStepThrough]
+// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
 // Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -27,18 +29,28 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeOps : public ::System::Object {
 public:
   // Declarations
+  /// [Obsolete("do not use this method", true)]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method ExpandoCheckVersion, addr 0x5fc1580, size 0x28, virtual false, abstract: false, final false
   static inline bool ExpandoCheckVersion(::System::Dynamic::ExpandoObject* expando, ::System::Object* version);
 
+  /// [Obsolete("do not use this method", true)]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method ExpandoPromoteClass, addr 0x5fc15c0, size 0x10, virtual false, abstract: false, final false
   static inline void ExpandoPromoteClass(::System::Dynamic::ExpandoObject* expando, ::System::Object* oldClass, ::System::Object* newClass);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method ExpandoTryDeleteValue, addr 0x5fc11c8, size 0x9c, virtual false, abstract: false, final false
   static inline bool ExpandoTryDeleteValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method ExpandoTryGetValue, addr 0x5fc0cb4, size 0x14, virtual false, abstract: false, final false
   static inline bool ExpandoTryGetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ::by_ref<::System::Object*> value);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("do not use this method", true)]
   /// @brief Method ExpandoTrySetValue, addr 0x5fc0dfc, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Object* ExpandoTrySetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::System::Object* value, ::StringW name, bool ignoreCase);
 
@@ -48,13 +60,13 @@ protected:
   constexpr RuntimeOps();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeOps", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeOps", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeOps(RuntimeOps&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeOps", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeOps", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeOps(RuntimeOps const&) = delete;
+  RuntimeOps(RuntimeOpsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16624 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\ConditionalAttribute.hpp"
+// IWYU pragma private; include "System/Diagnostics/ConditionalAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__ConditionalAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::ConditionalAttribute._ctor

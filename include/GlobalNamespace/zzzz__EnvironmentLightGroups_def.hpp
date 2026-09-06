@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentLightGroups.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentLightGroups.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::GlobalNamespace::EnvironmentLightGroups*);
 MARK_REF_T(::GlobalNamespace::EnvironmentLightGroups___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentLightGroups*, "", "EnvironmentLightGroups");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentLightGroups___c*, "", "EnvironmentLightGroups/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr EnvironmentLightGroups___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentLightGroups___c(EnvironmentLightGroups___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentLightGroups___c(EnvironmentLightGroups___c const&) = delete;
+  EnvironmentLightGroups___c(EnvironmentLightGroups___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14842 };
@@ -167,17 +168,19 @@ protected:
   constexpr EnvironmentLightGroups();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentLightGroups(EnvironmentLightGroups&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightGroups", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentLightGroups(EnvironmentLightGroups const&) = delete;
+  EnvironmentLightGroups(EnvironmentLightGroupsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14843 };
 
+  /// [Tooltip("Order of these does not matter. Name entries here to something that is easily identifiable.")]
+  /// [SerializeField]
   /// @brief Field _lightGroupSOList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* ____lightGroupSOList;
 

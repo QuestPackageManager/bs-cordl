@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HMAsyncRequest.hpp"
+// IWYU pragma private; include "GlobalNamespace/HMAsyncRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,13 +60,13 @@ protected:
   constexpr HMAsyncRequest_CancelHander();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest_CancelHander", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest_CancelHander", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMAsyncRequest_CancelHander(HMAsyncRequest_CancelHander&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest_CancelHander", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest_CancelHander", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMAsyncRequest_CancelHander(HMAsyncRequest_CancelHander const&) = delete;
+  HMAsyncRequest_CancelHander(HMAsyncRequest_CancelHanderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21412 };
@@ -131,13 +131,13 @@ protected:
   constexpr HMAsyncRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMAsyncRequest(HMAsyncRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMAsyncRequest(HMAsyncRequest const&) = delete;
+  HMAsyncRequest(HMAsyncRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21413 };

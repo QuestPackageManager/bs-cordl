@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\InitializationInstaller.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/InitializationInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__InitializationInstaller_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Destinations::InitializationInstaller.InstallBindings

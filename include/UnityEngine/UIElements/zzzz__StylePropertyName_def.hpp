@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StylePropertyName.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StylePropertyName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,6 +75,7 @@ public:
   /// @brief Method GetHashCode, addr 0x6c9a8b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method StylePropertyIdFromString, addr 0x6c9a6ec, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId StylePropertyIdFromString(::StringW name);
 
@@ -87,9 +88,13 @@ public:
   /// @brief Method .ctor, addr 0x6c9a794, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::StylePropertyId stylePropertyId);
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_id, addr 0x6c9a6dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_name, addr 0x6c9a6e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
@@ -109,8 +114,8 @@ public:
   // @brief default ctor
   constexpr StylePropertyName();
 
-  // Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "_name_k__BackingField",
-  // ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr StylePropertyName(::UnityEngine::UIElements::StyleSheets::StylePropertyId _id_k__BackingField, ::StringW _name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -119,9 +124,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <id>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleSheets::StylePropertyId _id_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <name>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _name_k__BackingField;
 
@@ -176,9 +185,11 @@ public:
   /// @brief Method .ctor, addr 0x6c9aa64, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c9ab3c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c9ab34, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -188,20 +199,24 @@ protected:
   constexpr PropertyBag_StylePropertyName_IdProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_IdProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_IdProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_StylePropertyName_IdProperty(PropertyBag_StylePropertyName_IdProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_IdProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_IdProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_StylePropertyName_IdProperty(PropertyBag_StylePropertyName_IdProperty const&) = delete;
+  PropertyBag_StylePropertyName_IdProperty(PropertyBag_StylePropertyName_IdPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5052 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -255,9 +270,11 @@ public:
   /// @brief Method .ctor, addr 0x6c9aacc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c9ab58, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c9ab50, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -267,20 +284,24 @@ protected:
   constexpr PropertyBag_StylePropertyName_NameProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_NameProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_NameProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_StylePropertyName_NameProperty(PropertyBag_StylePropertyName_NameProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_NameProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_StylePropertyName_NameProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_StylePropertyName_NameProperty(PropertyBag_StylePropertyName_NameProperty const&) = delete;
+  PropertyBag_StylePropertyName_NameProperty(PropertyBag_StylePropertyName_NamePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5053 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -316,13 +337,13 @@ protected:
   constexpr StylePropertyName_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyName_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyName_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StylePropertyName_PropertyBag(StylePropertyName_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyName_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StylePropertyName_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StylePropertyName_PropertyBag(StylePropertyName_PropertyBag const&) = delete;
+  StylePropertyName_PropertyBag(StylePropertyName_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5054 };

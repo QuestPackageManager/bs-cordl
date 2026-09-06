@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeStreamableAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeStreamableAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*);
 MARK_VAL_T(::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeStreamableAsset*, "UnityEngine.Rendering", "ProbeVolumeStreamableAsset");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc, "UnityEngine.Rendering", "ProbeVolumeStreamableAsset/StreamableCellDesc");
+// [MovedFrom(false, "UnityEngine.Rendering", "Unity.RenderPipelines.Core.Runtime", "ProbeVolumeBakingSet.StreamableAsset.StreamableCellDesc")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -44,7 +45,8 @@ public:
   // @brief default ctor
   constexpr ProbeVolumeStreamableAsset_StreamableCellDesc();
 
-  // Ctor Parameters [CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "elementCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ProbeVolumeStreamableAsset_StreamableCellDesc(int32_t offset, int32_t elementCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -69,6 +71,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumeStreamableAsset_Stre
 static_assert(sizeof(::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [MovedFrom(false, "UnityEngine.Rendering", "Unity.RenderPipelines.Core.Runtime", "ProbeVolumeBakingSet.StreamableAsset")]
 // Dependencies System.Object, Unity.IO.LowLevel.Unsafe.FileHandle
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -205,29 +208,38 @@ protected:
   constexpr ProbeVolumeStreamableAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeStreamableAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeStreamableAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeStreamableAsset(ProbeVolumeStreamableAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeStreamableAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeStreamableAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeStreamableAsset(ProbeVolumeStreamableAsset const&) = delete;
+  ProbeVolumeStreamableAsset(ProbeVolumeStreamableAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12156 };
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("assetGUID")]
   /// @brief Field m_AssetGUID, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_AssetGUID;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("streamableAssetPath")]
   /// @brief Field m_StreamableAssetPath, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_StreamableAssetPath;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("elementSize")]
   /// @brief Field m_ElementSize, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_ElementSize;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("streamableCellDescs")]
   /// @brief Field m_StreamableCellDescs, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>* ___m_StreamableCellDescs;
 
+  /// [SerializeField]
   /// @brief Field m_Asset, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___m_Asset;
 

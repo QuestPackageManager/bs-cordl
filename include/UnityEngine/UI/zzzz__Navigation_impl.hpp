@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Navigation.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Navigation.hpp"
 #include "UnityEngine/UI/zzzz__Navigation_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Navigation_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Navigation_Mode::Navigation_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -259,10 +259,11 @@ constexpr UnityEngine::UI::Navigation::operator ::System::IEquatable_1<::UnityEn
 constexpr ::System::IEquatable_1<::UnityEngine::UI::Navigation>* UnityEngine::UI::Navigation::i___System__IEquatable_1___UnityEngine__UI__Navigation_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UI::Navigation>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UI::Navigation_Mode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_WrapAround", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_SelectOnUp", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SelectOnDown", ty:
-// "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SelectOnLeft", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_SelectOnRight", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UI::Navigation_Mode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_WrapAround", ty: "bool", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SelectOnUp", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_SelectOnDown", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SelectOnLeft", ty:
+// "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SelectOnRight", ty: "::UnityW<::UnityEngine::UI::Selectable>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Navigation::Navigation(::UnityEngine::UI::Navigation_Mode m_Mode, bool m_WrapAround, ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnUp,
                                                     ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnDown, ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnLeft,
                                                     ::UnityW<::UnityEngine::UI::Selectable> m_SelectOnRight) noexcept {

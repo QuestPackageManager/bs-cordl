@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\DiagnosticTraceSource.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/DiagnosticTraceSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr DiagnosticTraceSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticTraceSource(DiagnosticTraceSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticTraceSource(DiagnosticTraceSource const&) = delete;
+  DiagnosticTraceSource(DiagnosticTraceSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21322 };

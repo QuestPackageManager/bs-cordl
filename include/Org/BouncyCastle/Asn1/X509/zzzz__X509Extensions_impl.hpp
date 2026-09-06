@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\X509Extensions.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/X509Extensions.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extension_def.hpp"
@@ -710,13 +710,16 @@ inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Org::BouncyCastle::Asn1:
 inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(::System::Collections::IList* oids, ::System::Collections::IList* values) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::X509Extensions*>(oids, values));
 }
+/// @brief [Obsolete]
 inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(::System::Collections::Hashtable* extensions) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::X509Extensions*>(extensions));
 }
+/// @brief [Obsolete]
 inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(::System::Collections::ArrayList* ordering,
                                                                                                                 ::System::Collections::Hashtable* extensions) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::X509Extensions*>(ordering, extensions));
 }
+/// @brief [Obsolete]
 inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(::System::Collections::ArrayList* oids, ::System::Collections::ArrayList* values) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::X509Extensions*>(oids, values));
 }

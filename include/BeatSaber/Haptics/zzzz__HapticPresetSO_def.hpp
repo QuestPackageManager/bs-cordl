@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\HapticPresetSO.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/HapticPresetSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -159,17 +159,18 @@ protected:
   constexpr HapticPresetSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HapticPresetSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HapticPresetSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HapticPresetSO(HapticPresetSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HapticPresetSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HapticPresetSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HapticPresetSO(HapticPresetSO const&) = delete;
+  HapticPresetSO(HapticPresetSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23199 };
 
+  /// [DrawIf("_continuous", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _duration, offset: 0x18, size: 0x4, def value: None
   float_t ____duration;
 
@@ -185,21 +186,34 @@ public:
   /// @brief Field _useAdvancedHapticsOnSupportedPlatforms, offset: 0x25, size: 0x1, def value: None
   bool ____useAdvancedHapticsOnSupportedPlatforms;
 
+  /// [Space]
+  /// [Header("PS5 Haptics")]
+  /// [DrawIf("_useAdvancedHapticsOnSupportedPlatforms", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_useAdvancedHapticsOnSupportedPlatforms", false, (NullAllowedContext)0)]
   /// @brief Field _ps5HapticsClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____ps5HapticsClip;
 
   /// @brief Field _hasPS5HapticsClip, offset: 0x30, size: 0x2, def value: None
   ::System::Nullable_1<bool> ____hasPS5HapticsClip;
 
+  /// [Space]
+  /// [Header("Oculus Advanced Haptics")]
+  /// [DrawIf("_useAdvancedHapticsOnSupportedPlatforms", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_useAdvancedHapticsOnSupportedPlatforms", false, (NullAllowedContext)0)]
   /// @brief Field _oculusHapticsClip, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Oculus::Haptics::HapticClip> ____oculusHapticsClip;
 
+  /// [DrawIf("_useAdvancedHapticsOnSupportedPlatforms", true, (DrawIfAttribute::DisablingType)1)]
+  /// [Tooltip("Priority values can be on the range of 0 (high priority) to 255 (low priority)")]
+  /// [Range(0, 255)]
   /// @brief Field _priority, offset: 0x40, size: 0x4, def value: None
   uint32_t ____priority;
 
   /// @brief Field _overrideForTouchController, offset: 0x44, size: 0x1, def value: None
   bool ____overrideForTouchController;
 
+  /// [DrawIf("_overrideForTouchController", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_overrideForTouchController", false, (NullAllowedContext)0)]
   /// @brief Field _touchControllerOverrideHapticsClip, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::Oculus::Haptics::HapticClip> ____touchControllerOverrideHapticsClip;
 

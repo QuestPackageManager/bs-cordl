@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Vector2Int.hpp"
+// IWYU pragma private; include "UnityEngine/Vector2Int.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -424,7 +424,8 @@ constexpr UnityEngine::Vector2Int::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::Vector2Int::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::Vector2Int::Vector2Int(int32_t m_X, int32_t m_Y) noexcept {
   this->m_X = m_X;
   this->m_Y = m_Y;

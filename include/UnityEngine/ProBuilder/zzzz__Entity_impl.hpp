@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Entity.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Entity.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EntityType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Entity_def.hpp"

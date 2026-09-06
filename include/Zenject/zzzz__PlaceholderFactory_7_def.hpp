@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PlaceholderFactory_7.hpp"
+// IWYU pragma private; include "Zenject/PlaceholderFactory_7.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ MARK_GEN_REF_T_PTR(::Zenject::PlaceholderFactory_7);
 MARK_GEN_REF_T_PTR(::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PlaceholderFactory_7, "Zenject", "PlaceholderFactory`7");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2, "Zenject", "PlaceholderFactory`7/<get_ParamTypes>d__2");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -93,23 +94,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -134,9 +142,11 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -161,13 +171,13 @@ protected:
   constexpr PlaceholderFactory_7__get_ParamTypes_d__2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_7__get_ParamTypes_d__2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_7__get_ParamTypes_d__2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlaceholderFactory_7__get_ParamTypes_d__2(PlaceholderFactory_7__get_ParamTypes_d__2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_7__get_ParamTypes_d__2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_7__get_ParamTypes_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaceholderFactory_7__get_ParamTypes_d__2(PlaceholderFactory_7__get_ParamTypes_d__2 const&) = delete;
+  PlaceholderFactory_7__get_ParamTypes_d__2(PlaceholderFactory_7__get_ParamTypes_d__2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14373 };
@@ -204,6 +214,7 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>"
   constexpr operator ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*() noexcept;
 
+  /// [NotNull]
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6);
 
@@ -212,12 +223,14 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [IteratorStateMachine(typeof(Zenject.PlaceholderFactory`7::<get_ParamTypes>d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>))]
   /// @brief Method get_ParamTypes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ParamTypes();
 
@@ -233,13 +246,13 @@ protected:
   constexpr PlaceholderFactory_7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlaceholderFactory_7(PlaceholderFactory_7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaceholderFactory_7(PlaceholderFactory_7 const&) = delete;
+  PlaceholderFactory_7(PlaceholderFactory_7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14374 };

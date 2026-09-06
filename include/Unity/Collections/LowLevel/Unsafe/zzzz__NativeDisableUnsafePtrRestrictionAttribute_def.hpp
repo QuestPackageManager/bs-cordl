@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeDisableUnsafePtrRestrictionAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeDisableUnsafePtrRestrictionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class NativeDisableUnsafePtrRestrictionAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeDisableUnsafePtrRestrictionAttribute");
+// [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)256)]
 // Dependencies System.Attribute
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr NativeDisableUnsafePtrRestrictionAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeDisableUnsafePtrRestrictionAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeDisableUnsafePtrRestrictionAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeDisableUnsafePtrRestrictionAttribute(NativeDisableUnsafePtrRestrictionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeDisableUnsafePtrRestrictionAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeDisableUnsafePtrRestrictionAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeDisableUnsafePtrRestrictionAttribute(NativeDisableUnsafePtrRestrictionAttribute const&) = delete;
+  NativeDisableUnsafePtrRestrictionAttribute(NativeDisableUnsafePtrRestrictionAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10019 };

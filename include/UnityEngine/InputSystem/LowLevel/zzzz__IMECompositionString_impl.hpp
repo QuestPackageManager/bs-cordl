@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\IMECompositionString.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/IMECompositionString.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -8,7 +8,7 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "char16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer::IMECompositionString__buffer_e__FixedBuffer(char16_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -159,8 +159,8 @@ constexpr UnityEngine::InputSystem::LowLevel::IMECompositionString::operator ::S
 constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::LowLevel::IMECompositionString::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "buffer", ty:
-// "::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "buffer", ty:
+// "::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString::IMECompositionString(int32_t size,
                                                                                            ::UnityEngine::InputSystem::LowLevel::IMECompositionString__buffer_e__FixedBuffer buffer) noexcept {
   this->size = size;
@@ -306,8 +306,8 @@ constexpr UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::o
 constexpr ::System::IDisposable* UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_CompositionString", ty: "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_CurrentCharacter", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_CompositionString", ty: "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_CurrentCharacter", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionString_Enumerator::IMECompositionString_Enumerator(::UnityEngine::InputSystem::LowLevel::IMECompositionString m_CompositionString,
                                                                                                                  char16_t m_CurrentCharacter, int32_t m_CurrentIndex) noexcept {
   this->m_CompositionString = m_CompositionString;

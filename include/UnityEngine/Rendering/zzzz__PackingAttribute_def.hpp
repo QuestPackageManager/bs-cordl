@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\PackingAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/PackingAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class PackingAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::PackingAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::PackingAttribute*, "UnityEngine.Rendering", "PackingAttribute");
+// [AttributeUsage((System.AttributeTargets)256, AllowMultiple = true)]
 // Dependencies System.Attribute, UnityEngine.Rendering.FieldPacking
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -128,13 +129,13 @@ protected:
   constexpr PackingAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackingAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackingAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackingAttribute(PackingAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackingAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackingAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackingAttribute(PackingAttribute const&) = delete;
+  PackingAttribute(PackingAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12204 };

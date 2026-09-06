@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VisualEffectActivationBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/VisualEffectActivationBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   // @brief default ctor
   constexpr VisualEffectActivationBehaviour_AttributeType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualEffectActivationBehaviour_AttributeType(int32_t value__) noexcept;
 
   /// @brief Field Boolean value: I32(17)
@@ -121,8 +121,9 @@ public:
   // @brief default ctor
   constexpr VisualEffectActivationBehaviour_EventState();
 
-  // Ctor Parameters [CppParam { name: "attribute", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: None }, CppParam { name: "type", ty:
-  // "::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType", modifiers: "", def_value: None }, CppParam { name: "values", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "attribute", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty:
+  // "::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType", modifiers: "", def_value: None, comment: None }, CppParam { name: "values", ty: "::ArrayW<float_t>", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr VisualEffectActivationBehaviour_EventState(::UnityEngine::VFX::Utility::ExposedProperty* attribute, ::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType type,
                                                        ::ArrayW<float_t> values) noexcept;
 
@@ -213,26 +214,30 @@ protected:
   constexpr VisualEffectActivationBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectActivationBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectActivationBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualEffectActivationBehaviour(VisualEffectActivationBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectActivationBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualEffectActivationBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualEffectActivationBehaviour(VisualEffectActivationBehaviour const&) = delete;
+  VisualEffectActivationBehaviour(VisualEffectActivationBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19917 };
 
+  /// [SerializeField]
   /// @brief Field onClipEnter, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___onClipEnter;
 
+  /// [SerializeField]
   /// @brief Field onClipExit, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___onClipExit;
 
+  /// [SerializeField]
   /// @brief Field clipEnterEventAttributes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::VisualEffectActivationBehaviour_EventState> ___clipEnterEventAttributes;
 
+  /// [SerializeField]
   /// @brief Field clipExitEventAttributes, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::VisualEffectActivationBehaviour_EventState> ___clipExitEventAttributes;
 

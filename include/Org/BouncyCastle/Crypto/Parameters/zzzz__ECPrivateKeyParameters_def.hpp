@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ECPrivateKeyParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ECPrivateKeyParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* d,
                                                                                           ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
+  /// @brief [Obsolete("Use version with explicit \'algorithm\' parameter")]
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_d() const;
@@ -73,6 +74,7 @@ public:
   /// @brief Method .ctor, addr 0x3410c30, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
+  /// [Obsolete("Use version with explicit \'algorithm\' parameter")]
   /// @brief Method .ctor, addr 0x3410d30, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
@@ -85,13 +87,13 @@ protected:
   constexpr ECPrivateKeyParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECPrivateKeyParameters(ECPrivateKeyParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECPrivateKeyParameters(ECPrivateKeyParameters const&) = delete;
+  ECPrivateKeyParameters(ECPrivateKeyParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1038 };

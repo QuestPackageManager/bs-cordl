@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SceneTransitionFadingExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/SceneTransitionFadingExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class SceneTransitionFadingExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SceneTransitionFadingExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SceneTransitionFadingExtensions*, "", "SceneTransitionFadingExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -22,6 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SceneTransitionFadingExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ShouldFadeOnSceneTransition, addr 0x5f4b8a8, size 0x10, virtual false, abstract: false, final false
   static inline bool ShouldFadeOnSceneTransition(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType);
 
@@ -31,13 +33,13 @@ protected:
   constexpr SceneTransitionFadingExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneTransitionFadingExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneTransitionFadingExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneTransitionFadingExtensions(SceneTransitionFadingExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneTransitionFadingExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneTransitionFadingExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneTransitionFadingExtensions(SceneTransitionFadingExtensions const&) = delete;
+  SceneTransitionFadingExtensions(SceneTransitionFadingExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20670 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FileStorageExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/FileStorageExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStorageExtensions)
 namespace GlobalNamespace {
-template <typename T> struct FileStorageExtensions__LoadFromJSONFileAsync_d__8_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct FileStorageExtensions__LoadFromJSONFileAsync_d__8_1;
 }
 namespace GlobalNamespace {
 class FileStorageExtensions___c__DisplayClass1_0;
@@ -64,7 +66,9 @@ namespace GlobalNamespace {
 class FileStorageExtensions___c__DisplayClass4_0;
 }
 namespace GlobalNamespace {
-template <typename T> struct FileStorageExtensions__LoadFromJSONFileAsync_d__8_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct FileStorageExtensions__LoadFromJSONFileAsync_d__8_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::FileStorageExtensions*);
@@ -79,6 +83,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0*, "", "FileStorageExtensions/<>c__DisplayClass3_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0*, "", "FileStorageExtensions/<>c__DisplayClass4_0");
 DEFINE_IL2CPP_GEN_CLASS(::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1, "", "FileStorageExtensions/<LoadFromJSONFileAsync>d__8`1");
+// [CompilerGenerated]
 // Dependencies StoragePreference, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -136,23 +141,26 @@ protected:
   constexpr FileStorageExtensions___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStorageExtensions___c__DisplayClass1_0(FileStorageExtensions___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions___c__DisplayClass1_0(FileStorageExtensions___c__DisplayClass1_0 const&) = delete;
+  FileStorageExtensions___c__DisplayClass1_0(FileStorageExtensions___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23259 };
 
+  /// [Nullable(0)]
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
+  /// [Nullable(0)]
   /// @brief Field fileName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___fileName;
 
+  /// [Nullable(0)]
   /// @brief Field value, offset: 0x20, size: 0x8, def value: None
   ::StringW ___value;
 
@@ -173,6 +181,7 @@ static_assert(offsetof(::GlobalNamespace::FileStorageExtensions___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies StoragePreference, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -221,20 +230,22 @@ protected:
   constexpr FileStorageExtensions___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStorageExtensions___c__DisplayClass2_0(FileStorageExtensions___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions___c__DisplayClass2_0(FileStorageExtensions___c__DisplayClass2_0 const&) = delete;
+  FileStorageExtensions___c__DisplayClass2_0(FileStorageExtensions___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23260 };
 
+  /// [Nullable(0)]
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
+  /// [Nullable(0)]
   /// @brief Field fileName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___fileName;
 
@@ -253,6 +264,7 @@ static_assert(offsetof(::GlobalNamespace::FileStorageExtensions___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies StoragePreference, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -301,20 +313,22 @@ protected:
   constexpr FileStorageExtensions___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStorageExtensions___c__DisplayClass3_0(FileStorageExtensions___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions___c__DisplayClass3_0(FileStorageExtensions___c__DisplayClass3_0 const&) = delete;
+  FileStorageExtensions___c__DisplayClass3_0(FileStorageExtensions___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23261 };
 
+  /// [Nullable(0)]
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
+  /// [Nullable(0)]
   /// @brief Field fileName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___fileName;
 
@@ -333,6 +347,7 @@ static_assert(offsetof(::GlobalNamespace::FileStorageExtensions___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies StoragePreference, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -381,20 +396,22 @@ protected:
   constexpr FileStorageExtensions___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStorageExtensions___c__DisplayClass4_0(FileStorageExtensions___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions___c__DisplayClass4_0(FileStorageExtensions___c__DisplayClass4_0 const&) = delete;
+  FileStorageExtensions___c__DisplayClass4_0(FileStorageExtensions___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23262 };
 
+  /// [Nullable(0)]
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
+  /// [Nullable(0)]
   /// @brief Field fileName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___fileName;
 
@@ -413,10 +430,12 @@ static_assert(offsetof(::GlobalNamespace::FileStorageExtensions___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies StoragePreference, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: FileStorageExtensions/<LoadFromJSONFileAsync>d__8`1<T>
 struct CORDL_TYPE FileStorageExtensions__LoadFromJSONFileAsync_d__8_1 {
@@ -428,8 +447,9 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -438,10 +458,11 @@ public:
   // @brief default ctor
   constexpr FileStorageExtensions__LoadFromJSONFileAsync_d__8_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "",
-  // def_value: None }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "storageLocation", ty: "::GlobalNamespace::StoragePreference", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "storageLocation", ty:
+  // "::GlobalNamespace::StoragePreference", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr FileStorageExtensions__LoadFromJSONFileAsync_d__8_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder,
                                                                 ::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation,
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
@@ -455,18 +476,22 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field fileStorage, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* fileStorage;
 
+  /// [Nullable(0)]
   /// @brief Field fileName, offset: 0x28, size: 0x8, def value: None
   ::StringW fileName;
 
   /// @brief Field storageLocation, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::StoragePreference storageLocation;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
 
@@ -474,6 +499,9 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -481,7 +509,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileStorageExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using _LoadFromJSONFileAsync_d__8_1 = ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>;
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  using _LoadFromJSONFileAsync_d__8_1 = ::GlobalNamespace::FileStorageExtensions__LoadFromJSONFileAsync_d__8_1<T>;
 
   using __c__DisplayClass1_0 = ::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0;
 
@@ -491,32 +521,45 @@ public:
 
   using __c__DisplayClass4_0 = ::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0;
 
+  /// [Extension]
   /// @brief Method DeleteFile, addr 0x3314e48, size 0xf4, virtual false, abstract: false, final false
   static inline void DeleteFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
+  /// [Extension]
   /// @brief Method FileExists, addr 0x3314d38, size 0x10c, virtual false, abstract: false, final false
   static inline bool FileExists(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
+  /// [Extension]
   /// @brief Method LoadFile, addr 0x3314c28, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW LoadFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
+  /// [Extension]
   /// @brief Method LoadFromJSONFile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T LoadFromJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline T LoadFromJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
+  /// [AsyncStateMachine(typeof(FileStorageExtensions::<LoadFromJSONFileAsync>d__8`1<T>))]
+  /// [Extension]
   /// @brief Method LoadFromJSONFileAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
   static inline ::System::Threading::Tasks::Task_1<T>* LoadFromJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
+  /// [Extension]
   /// @brief Method SaveFile, addr 0x3314b20, size 0x104, virtual false, abstract: false, final false
   static inline void SaveFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
 
+  /// [Extension]
   /// @brief Method SaveToJSONFile, addr 0x3314f40, size 0x184, virtual false, abstract: false, final false
   static inline void SaveToJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation,
-                                    ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings);
+                                    /* [Nullable(2)] */ ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings);
 
+  /// [Extension]
   /// @brief Method SaveToJSONFileAsync, addr 0x33150c4, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* SaveToJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName,
-                                                                      ::GlobalNamespace::StoragePreference storageLocation, ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings);
+                                                                      ::GlobalNamespace::StoragePreference storageLocation,
+                                                                      /* [Nullable(2)] */ ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings);
 
 protected:
   // Ctor Parameters []
@@ -524,13 +567,13 @@ protected:
   constexpr FileStorageExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStorageExtensions(FileStorageExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStorageExtensions(FileStorageExtensions const&) = delete;
+  FileStorageExtensions(FileStorageExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23264 };

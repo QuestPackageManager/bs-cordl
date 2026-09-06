@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsPskKeyExchange.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsPskKeyExchange.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsKeyExchange_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPskKeyExchange_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
@@ -543,6 +543,7 @@ Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange::ValidateRsaPublicKey(::Org::B
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange*>(), 36 })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*>(this, ___internal_method, key);
 }
+/// @brief [Obsolete("Use constructor that takes a TlsDHVerifier")]
 inline ::Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange* Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange::New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                                                                         ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity,
                                                                                                                         ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager,

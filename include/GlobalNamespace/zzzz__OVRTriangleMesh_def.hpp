@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTriangleMesh.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTriangleMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,9 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;
@@ -102,8 +104,9 @@ public:
   // @brief default ctor
   constexpr OVRTriangleMesh_GetMeshJob();
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Positions", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>",
-  // modifiers: "", def_value: None }, CppParam { name: "Indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Positions", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Indices", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRTriangleMesh_GetMeshJob(uint64_t Space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Positions, ::Unity::Collections::NativeArray_1<int32_t> Indices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -144,8 +147,8 @@ public:
   // @brief default ctor
   constexpr OVRTriangleMesh_Triangle();
 
-  // Ctor Parameters [CppParam { name: "A", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "B", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "C", ty: "int32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "A", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "B", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "C", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTriangleMesh_Triangle(int32_t A, int32_t B, int32_t C) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -195,7 +198,7 @@ public:
   // @brief default ctor
   constexpr OVRTriangleMesh_FlipTriangleWindingJob();
 
-  // Ctor Parameters [CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRTriangleMesh_Triangle>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRTriangleMesh_Triangle>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTriangleMesh_FlipTriangleWindingJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRTriangleMesh_Triangle> Triangles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -235,7 +238,7 @@ public:
   // @brief default ctor
   constexpr OVRTriangleMesh_NegateXJob();
 
-  // Ctor Parameters [CppParam { name: "Positions", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Positions", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTriangleMesh_NegateXJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Positions) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -255,6 +258,7 @@ static_assert(offsetof(::GlobalNamespace::OVRTriangleMesh_NegateXJob, Positions)
 static_assert(sizeof(::GlobalNamespace::OVRTriangleMesh_NegateXJob) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -333,6 +337,7 @@ public:
 
   static inline ::GlobalNamespace::OVRTriangleMesh getStaticF_Null();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handle, addr 0x5e174b0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
@@ -363,7 +368,7 @@ public:
   // @brief default ctor
   constexpr OVRTriangleMesh();
 
-  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTriangleMesh(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -372,6 +377,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
   uint64_t _Handle_k__BackingField;
 

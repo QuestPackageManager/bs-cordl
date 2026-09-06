@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TemplateContainer.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TemplateContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_REF_T(::UnityEngine::UIElements::TemplateContainer_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TemplateContainer*, "UnityEngine.UIElements", "TemplateContainer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TemplateContainer_UxmlFactory*, "UnityEngine.UIElements", "TemplateContainer/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TemplateContainer_UxmlTraits*, "UnityEngine.UIElements", "TemplateContainer/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -75,13 +76,13 @@ protected:
   constexpr TemplateContainer_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemplateContainer_UxmlFactory(TemplateContainer_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemplateContainer_UxmlFactory(TemplateContainer_UxmlFactory const&) = delete;
+  TemplateContainer_UxmlFactory(TemplateContainer_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5085 };
@@ -92,6 +93,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::TemplateContainer_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BindableElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -122,13 +124,13 @@ protected:
   constexpr TemplateContainer_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemplateContainer_UxmlTraits(TemplateContainer_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemplateContainer_UxmlTraits(TemplateContainer_UxmlTraits const&) = delete;
+  TemplateContainer_UxmlTraits(TemplateContainer_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5086 };
@@ -144,6 +146,8 @@ static_assert(offsetof(::UnityEngine::UIElements::TemplateContainer_UxmlTraits, 
 static_assert(sizeof(::UnityEngine::UIElements::TemplateContainer_UxmlTraits) == 0x98, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [UxmlElement("Instance")]
+// [HideInInspector]
 // Dependencies UnityEngine.UIElements.BindableElement, UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -166,11 +170,13 @@ public:
   /// @brief Field m_TemplateSource, offset 0x4c8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TemplateSource, put = __cordl_internal_set_m_TemplateSource)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> m_TemplateSource;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_templateId, put = set_templateId)) ::StringW templateId;
 
   /// @brief Field templateIdProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_templateIdProperty, put = setStaticF_templateIdProperty)) ::UnityEngine::UIElements::BindingId templateIdProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_templateSource, put = set_templateSource)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> templateSource;
 
   /// @brief Field templateSourceProperty, offset 0xffffffff, size 0x98
@@ -182,6 +188,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TemplateContainer* New_ctor(::StringW templateId, ::UnityEngine::UIElements::VisualTreeAsset* templateSource);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method SetContentContainer, addr 0x6c9ee48, size 0x8, virtual false, abstract: false, final false
   inline void SetContentContainer(::UnityEngine::UIElements::VisualElement* content);
 
@@ -219,6 +226,7 @@ public:
   /// @brief Method get_contentContainer, addr 0x6c9ee40, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_templateId, addr 0x6c9ed98, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_templateId();
 
@@ -229,6 +237,7 @@ public:
 
   static inline void setStaticF_templateSourceProperty(::UnityEngine::UIElements::BindingId value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_templateId, addr 0x6c9eda0, size 0x8, virtual false, abstract: false, final false
   inline void set_templateId(::StringW value);
 
@@ -241,17 +250,19 @@ protected:
   constexpr TemplateContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemplateContainer(TemplateContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemplateContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemplateContainer(TemplateContainer const&) = delete;
+  TemplateContainer(TemplateContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5087 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <templateId>k__BackingField, offset: 0x4b8, size: 0x8, def value: None
   ::StringW ____templateId_k__BackingField;
 

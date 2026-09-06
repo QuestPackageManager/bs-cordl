@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\LicensingErrorAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/LicensingErrorAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class LicensingErrorAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::LicensingErrorAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::LicensingErrorAnalytic*, "UnityEditor.Analytics", "LicensingErrorAnalytic");
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -35,6 +37,7 @@ public:
   /// @brief Field sessionId, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_sessionId, put = __cordl_internal_set_sessionId)) ::StringW sessionId;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateLicensingErrorAnalytic, addr 0x6e24f28, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::LicensingErrorAnalytic* CreateLicensingErrorAnalytic();
 
@@ -79,13 +82,13 @@ protected:
   constexpr LicensingErrorAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LicensingErrorAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LicensingErrorAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LicensingErrorAnalytic(LicensingErrorAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LicensingErrorAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LicensingErrorAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LicensingErrorAnalytic(LicensingErrorAnalytic const&) = delete;
+  LicensingErrorAnalytic(LicensingErrorAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23002 };

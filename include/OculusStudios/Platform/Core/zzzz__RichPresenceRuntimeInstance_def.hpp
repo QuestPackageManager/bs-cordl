@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\RichPresenceRuntimeInstance.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/RichPresenceRuntimeInstance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,9 @@ namespace OculusStudios::Platform::Core {
 struct RichPresenceTimestamp;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace OculusStudios::Platform::Core {
@@ -28,6 +30,9 @@ struct RichPresenceRuntimeInstance;
 // Write type traits
 MARK_VAL_T(::OculusStudios::Platform::Core::RichPresenceRuntimeInstance);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::RichPresenceRuntimeInstance, "OculusStudios.Platform.Core", "RichPresenceRuntimeInstance");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [IsReadOnly]
 // Dependencies OculusStudios.Platform.Core.PartyInfo, OculusStudios.Platform.Core.RichPresenceTimestamp, System.Nullable`1<T>
 namespace OculusStudios::Platform::Core {
 // Is value type: true
@@ -47,15 +52,19 @@ public:
   inline void _ctor(::OculusStudios::Platform::Core::IRichPresenceDefinition* definition, ::StringW state, ::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo> partyInfo,
                     ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> timestamp);
 
+  /// [CompilerGenerated]
   /// @brief Method get_definition, addr 0x5f2e4ac, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::IRichPresenceDefinition* get_definition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_partyInfo, addr 0x5f2e4bc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo> get_partyInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method get_state, addr 0x5f2e4b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_state();
 
+  /// [CompilerGenerated]
   /// @brief Method get_timestamp, addr 0x5f2e4c8, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> get_timestamp();
 
@@ -63,10 +72,10 @@ public:
   // @brief default ctor
   constexpr RichPresenceRuntimeInstance();
 
-  // Ctor Parameters [CppParam { name: "_definition_k__BackingField", ty: "::OculusStudios::Platform::Core::IRichPresenceDefinition*", modifiers: "", def_value: None }, CppParam { name:
-  // "_state_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_partyInfo_k__BackingField", ty: "::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo>",
-  // modifiers: "", def_value: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp>", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "_definition_k__BackingField", ty: "::OculusStudios::Platform::Core::IRichPresenceDefinition*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_state_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_partyInfo_k__BackingField", ty:
+  // "::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timestamp_k__BackingField", ty:
+  // "::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp>", modifiers: "", def_value: None, comment: None }]
   constexpr RichPresenceRuntimeInstance(::OculusStudios::Platform::Core::IRichPresenceDefinition* _definition_k__BackingField, ::StringW _state_k__BackingField,
                                         ::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo> _partyInfo_k__BackingField,
                                         ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> _timestamp_k__BackingField) noexcept;
@@ -77,15 +86,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
+  /// [CompilerGenerated]
   /// @brief Field <definition>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IRichPresenceDefinition* _definition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <state>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _state_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <partyInfo>k__BackingField, offset: 0x10, size: 0x20, def value: None
   ::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo> _partyInfo_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <timestamp>k__BackingField, offset: 0x30, size: 0x18, def value: None
   ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> _timestamp_k__BackingField;
 

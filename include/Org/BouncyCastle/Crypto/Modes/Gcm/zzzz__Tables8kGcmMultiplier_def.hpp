@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\Gcm\Tables8kGcmMultiplier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/Gcm/Tables8kGcmMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,13 +65,13 @@ protected:
   constexpr Tables8kGcmMultiplier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tables8kGcmMultiplier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tables8kGcmMultiplier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tables8kGcmMultiplier(Tables8kGcmMultiplier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tables8kGcmMultiplier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tables8kGcmMultiplier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tables8kGcmMultiplier(Tables8kGcmMultiplier const&) = delete;
+  Tables8kGcmMultiplier(Tables8kGcmMultiplierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 956 };

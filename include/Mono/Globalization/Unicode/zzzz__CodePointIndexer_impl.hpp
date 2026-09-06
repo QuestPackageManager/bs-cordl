@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Globalization\Unicode\CodePointIndexer.hpp"
+// IWYU pragma private; include "Mono/Globalization/Unicode/CodePointIndexer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
@@ -22,9 +22,9 @@ inline void Mono::Globalization::Unicode::CodePointIndexer_TableRange::_ctor(int
                                                                                          { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, start, end, indexStart);
 }
-// Ctor Parameters [CppParam { name: "Start", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "IndexStart", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "IndexEnd", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Start", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IndexStart", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "IndexEnd", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Globalization::Unicode::CodePointIndexer_TableRange::CodePointIndexer_TableRange(int32_t Start, int32_t End, int32_t Count, int32_t IndexStart, int32_t IndexEnd) noexcept {
   this->Start = Start;
   this->End = End;

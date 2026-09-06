@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Math\Prime\Generator\PrimeGeneratorBase.hpp"
+// IWYU pragma private; include "Mono/Math/Prime/Generator/PrimeGeneratorBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Math/Prime/Generator/zzzz__PrimeGeneratorBase_def.hpp"
 #include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"

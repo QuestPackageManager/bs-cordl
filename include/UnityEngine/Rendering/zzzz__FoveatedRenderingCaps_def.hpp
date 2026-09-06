@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FoveatedRenderingCaps.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FoveatedRenderingCaps.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FoveatedRenderingCaps;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::FoveatedRenderingCaps);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::FoveatedRenderingCaps, "UnityEngine.Rendering", "FoveatedRenderingCaps");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr FoveatedRenderingCaps();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FoveatedRenderingCaps(int32_t value__) noexcept;
 
   /// @brief Field FoveationImage value: I32(1)

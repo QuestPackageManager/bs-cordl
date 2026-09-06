@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\RijndaelManagedTransform.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/RijndaelManagedTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class RijndaelManagedTransform;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::RijndaelManagedTransform*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::RijndaelManagedTransform*, "System.Security.Cryptography", "RijndaelManagedTransform");
+// [ComVisible(true)]
 // Dependencies System.Object, System.Security.Cryptography.CipherMode, System.Security.Cryptography.PaddingMode, System.Security.Cryptography.RijndaelManagedTransformMode
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -331,13 +332,13 @@ protected:
   constexpr RijndaelManagedTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RijndaelManagedTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RijndaelManagedTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RijndaelManagedTransform(RijndaelManagedTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RijndaelManagedTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RijndaelManagedTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RijndaelManagedTransform(RijndaelManagedTransform const&) = delete;
+  RijndaelManagedTransform(RijndaelManagedTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2968 };

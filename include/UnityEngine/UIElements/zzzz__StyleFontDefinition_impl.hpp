@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleFontDefinition.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleFontDefinition.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleFontDefinition_def.hpp"
@@ -364,8 +364,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleFontDefinition>
 UnityEngine::UIElements::StyleFontDefinition::i___System__IEquatable_1___UnityEngine__UIElements__StyleFontDefinition_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleFontDefinition>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Value", ty:
-// "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Value", ty:
+// "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleFontDefinition::StyleFontDefinition(::UnityEngine::UIElements::StyleKeyword m_Keyword, ::UnityEngine::UIElements::FontDefinition m_Value) noexcept {
   this->m_Keyword = m_Keyword;
   this->m_Value = m_Value;

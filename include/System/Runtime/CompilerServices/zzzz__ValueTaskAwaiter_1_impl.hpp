@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ValueTaskAwaiter_1.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ValueTaskAwaiter_1.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
@@ -51,7 +51,7 @@ template <typename TResult>
 constexpr ::System::Runtime::CompilerServices::INotifyCompletion* System::Runtime::CompilerServices::ValueTaskAwaiter_1<TResult>::i___System__Runtime__CompilerServices__INotifyCompletion() {
   return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TResult> constexpr ::System::Runtime::CompilerServices::ValueTaskAwaiter_1<TResult>::ValueTaskAwaiter_1(::System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept {
   this->_value = _value;
 }

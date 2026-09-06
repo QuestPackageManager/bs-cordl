@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4\ObstacleItemConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/ObstacleItemConverter.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Obstacle_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__ObstacleItemConverter_def.hpp"

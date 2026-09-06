@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteTrailEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteTrailEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class NoteTrailEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NoteTrailEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteTrailEffect*, "", "NoteTrailEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/NoteTrailEffect")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -90,26 +91,30 @@ protected:
   constexpr NoteTrailEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteTrailEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteTrailEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteTrailEffect(NoteTrailEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteTrailEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteTrailEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteTrailEffect(NoteTrailEffect const&) = delete;
+  NoteTrailEffect(NoteTrailEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5928 };
 
+  /// [SerializeField]
   /// @brief Field _particlesPerFrame, offset: 0x20, size: 0x4, def value: None
   int32_t ____particlesPerFrame;
 
+  /// [SerializeField]
   /// @brief Field _maxSpawnDistance, offset: 0x24, size: 0x4, def value: None
   float_t ____maxSpawnDistance;
 
+  /// [SerializeField]
   /// @brief Field _noteMovement, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteMovement> ____noteMovement;
 
+  /// [Inject]
   /// @brief Field _noteTrailParticleSystem, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteTrailParticleSystem> ____noteTrailParticleSystem;
 

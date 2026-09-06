@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\AnalyticsScribeConverter.hpp"
+// IWYU pragma private; include "OSCE/Analytics/AnalyticsScribeConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsScribeConverter_def.hpp"

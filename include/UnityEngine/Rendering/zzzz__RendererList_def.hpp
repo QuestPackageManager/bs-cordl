@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RendererList.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RendererList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ struct RendererList;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RendererList);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RendererList, "UnityEngine.Rendering", "RendererList");
+// [NativeHeader("Runtime/Graphics/ScriptableRenderLoop/RendererList.h")]
+// [MovedFrom("UnityEngine.Rendering.RendererUtils")]
 // Dependencies System.UIntPtr
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -43,9 +45,9 @@ public:
   // @brief default ctor
   constexpr RendererList();
 
-  // Ctor Parameters [CppParam { name: "context", ty: "::System::UIntPtr", modifiers: "", def_value: None }, CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "frame", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "contextID", ty: "uint32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "context", ty: "::System::UIntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "frame", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "contextID", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RendererList(::System::UIntPtr context, uint32_t index, uint32_t frame, uint32_t type, uint32_t contextID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

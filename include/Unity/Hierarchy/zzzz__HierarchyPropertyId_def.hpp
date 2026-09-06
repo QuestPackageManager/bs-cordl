@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyPropertyId.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyPropertyId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ struct HierarchyPropertyId;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchyPropertyId);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyPropertyId, "Unity.Hierarchy", "HierarchyPropertyId");
+// [IsReadOnly]
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchyPropertyId.h")]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -62,7 +64,7 @@ public:
   constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyId>* i___System__IEquatable_1___Unity__Hierarchy__HierarchyPropertyId_();
 
   /// @brief Method op_Equality, addr 0x6b3a7c4, size 0x14, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::Unity::Hierarchy::HierarchyPropertyId> lhs, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> rhs);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyPropertyId value);
 
@@ -70,7 +72,7 @@ public:
   // @brief default ctor
   constexpr HierarchyPropertyId();
 
-  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyPropertyId(int32_t m_Id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\ButtonControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/ButtonControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,6 +113,7 @@ public:
   /// @brief Method get_isPressed, addr 0x64fa778, size 0xc0, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_needsToCheckFramePress, addr 0x64fa688, size 0x8, virtual false, abstract: false, final false
   inline bool get_needsToCheckFramePress();
 
@@ -129,6 +130,7 @@ public:
 
   static inline void setStaticF_s_GlobalDefaultButtonReleaseThreshold(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_needsToCheckFramePress, addr 0x64fa690, size 0x8, virtual false, abstract: false, final false
   inline void set_needsToCheckFramePress(bool value);
 
@@ -138,13 +140,13 @@ protected:
   constexpr ButtonControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonControl(ButtonControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonControl(ButtonControl const&) = delete;
+  ButtonControl(ButtonControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9123 };
@@ -164,6 +166,7 @@ public:
   /// @brief Field m_LastUpdateWasPress, offset: 0x138, size: 0x1, def value: None
   bool ___m_LastUpdateWasPress;
 
+  /// [CompilerGenerated]
   /// @brief Field <needsToCheckFramePress>k__BackingField, offset: 0x139, size: 0x1, def value: None
   bool ____needsToCheckFramePress_k__BackingField;
 

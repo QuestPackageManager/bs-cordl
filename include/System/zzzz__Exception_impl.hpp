@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Exception.hpp"
+// IWYU pragma private; include "System/Exception.hpp"
 #include "System/Diagnostics/zzzz__StackTrace_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -13,7 +13,7 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Exception_ExceptionMessageKind::Exception_ExceptionMessageKind(int32_t value__) noexcept {
   this->value__ = value__;
 }

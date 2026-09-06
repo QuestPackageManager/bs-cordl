@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\JsonExtension\JsonFileHandler.hpp"
+// IWYU pragma private; include "BGLib/JsonExtension/JsonFileHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_REF_T(::BGLib::JsonExtension::JsonFileHandler*);
 MARK_GEN_REF_T_PTR(::BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1);
 DEFINE_IL2CPP_CLASS(::BGLib::JsonExtension::JsonFileHandler*, "BGLib.JsonExtension", "JsonFileHandler");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1, "BGLib.JsonExtension", "JsonFileHandler/<>c__DisplayClass0_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BGLib::JsonExtension {
 // cpp template
@@ -69,13 +70,13 @@ protected:
   constexpr JsonFileHandler___c__DisplayClass0_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler___c__DisplayClass0_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler___c__DisplayClass0_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonFileHandler___c__DisplayClass0_0_1(JsonFileHandler___c__DisplayClass0_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler___c__DisplayClass0_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler___c__DisplayClass0_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonFileHandler___c__DisplayClass0_0_1(JsonFileHandler___c__DisplayClass0_0_1 const&) = delete;
+  JsonFileHandler___c__DisplayClass0_0_1(JsonFileHandler___c__DisplayClass0_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23391 };
@@ -87,6 +88,8 @@ public:
 };
 // Non member Declarations
 } // namespace BGLib::JsonExtension
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BGLib::JsonExtension {
 // Is value type: false
@@ -113,12 +116,13 @@ public:
 
   /// @brief Method WriteToFile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline void WriteToFile(T content, ::StringW filePath, ::Newtonsoft::Json::JsonSerializerSettings* settings, ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize);
+  static inline void WriteToFile(T content, ::StringW filePath, ::Newtonsoft::Json::JsonSerializerSettings* settings,
+                                 /* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize);
 
   /// @brief Method WriteToText, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline void WriteToText(::System::IO::TextWriter* writer, T content, ::Newtonsoft::Json::JsonSerializerSettings* settings,
-                                 ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize);
+                                 /* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize);
 
 protected:
   // Ctor Parameters []
@@ -126,13 +130,13 @@ protected:
   constexpr JsonFileHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonFileHandler(JsonFileHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonFileHandler(JsonFileHandler const&) = delete;
+  JsonFileHandler(JsonFileHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23392 };

@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeUtility.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeUtility.hpp"
+#include "System/zzzz__IConvertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeUtility_def.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -22,13 +23,18 @@ template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUt
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>::UnsafeUtility_TypeFlagsCache_1() {}
-// Ctor Parameters [CppParam { name: "dummy", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty: "T", modifiers: "", def_value: Some("{}") }]
-template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>::UnsafeUtility_AlignOfHelper_1(uint8_t dummy, T data) noexcept {
+// Ctor Parameters [CppParam { name: "dummy", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "data", ty: "T", modifiers: "", def_value: Some("{}"), comment:
+// None }]
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>::UnsafeUtility_AlignOfHelper_1(uint8_t dummy, T data) noexcept {
   this->dummy = dummy;
   this->data = data;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>::UnsafeUtility_AlignOfHelper_1() {}
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>::UnsafeUtility_AlignOfHelper_1() {}
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility.LeakRecord
 template <>
 
@@ -302,7 +308,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::A
     return ___internal_method;
   }
 };
-template <typename T> inline bool Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "IsBlittable", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -413,7 +421,9 @@ inline bool Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsArrayBlittabl
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "IsArrayBlittable", {}, { ::i2c::type_of<::System::Array*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, arr);
 }
-template <typename T> inline bool Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsGenericListBlittable() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsGenericListBlittable() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "IsGenericListBlittable", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -425,7 +435,9 @@ inline ::StringW Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonF
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "GetReasonForArrayNonBlittable", {}, { ::i2c::type_of<::System::Array*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, arr);
 }
-template <typename T> inline ::StringW Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForGenericListNonBlittable() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::StringW Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForGenericListNonBlittable() {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "GetReasonForGenericListNonBlittable", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -437,34 +449,44 @@ template <typename T> inline bool Unity::Collections::LowLevel::Unsafe::UnsafeUt
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method);
 }
-template <typename T> inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AlignOf() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AlignOf() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "AlignOf", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::CopyPtrToStructure(void* ptr, ::by_ref<T> output) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::CopyPtrToStructure(void* ptr, ::by_ref<T> output) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(),
                                                            { "CopyPtrToStructure", { ::i2c::class_of<T>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ptr, output);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::InternalCopyPtrToStructure(void* ptr, ::by_ref<T> output) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::InternalCopyPtrToStructure(void* ptr, ::by_ref<T> output) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(),
                                                            { "InternalCopyPtrToStructure", { ::i2c::class_of<T>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ptr, output);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::CopyStructureToPtr(::by_ref<T> input, void* ptr) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::CopyStructureToPtr(::by_ref<T> input, void* ptr) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(),
                                                            { "CopyStructureToPtr", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<void*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, input, ptr);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::InternalCopyStructureToPtr(::by_ref<T> input, void* ptr) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::InternalCopyStructureToPtr(::by_ref<T> input, void* ptr) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(),
                                                            { "InternalCopyStructureToPtr", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<void*>() } })));
@@ -500,14 +522,18 @@ template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUt
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, destination, index, stride, value);
 }
-template <typename T> inline void* Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AddressOf(::by_ref<T> output) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void* Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AddressOf(::by_ref<T> output) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "AddressOf", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, output);
 }
-template <typename T> inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeUtility::SizeOf() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeUtility::SizeOf() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "SizeOf", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -519,26 +545,34 @@ template <typename U, typename T> inline ::by_ref<T> Unity::Collections::LowLeve
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<U>(), ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(nullptr, ___internal_method, from);
 }
-template <typename T> inline T Unity::Collections::LowLevel::Unsafe::UnsafeUtility::As(::System::Object* from) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T Unity::Collections::LowLevel::Unsafe::UnsafeUtility::As(::System::Object* from) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "As", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, from);
 }
-template <typename T> inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AsRef(void* ptr) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AsRef(void* ptr) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "AsRef", { ::i2c::class_of<T>() }, { ::i2c::type_of<void*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(nullptr, ___internal_method, ptr);
 }
-template <typename T> inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::ArrayElementAsRef(void* ptr, int32_t index) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::by_ref<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::ArrayElementAsRef(void* ptr, int32_t index) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(),
                                                            { "ArrayElementAsRef", { ::i2c::class_of<T>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(nullptr, ___internal_method, ptr, index);
 }
-template <typename T> inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeUtility::EnumToInt(T enumValue) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeUtility::EnumToInt(T enumValue) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(), { "EnumToInt", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -551,7 +585,9 @@ template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUt
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, enumValue, intValue);
 }
-template <typename T> inline bool Unity::Collections::LowLevel::Unsafe::UnsafeUtility::EnumEquals(T lhs, T rhs) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Collections::LowLevel::Unsafe::UnsafeUtility::EnumEquals(T lhs, T rhs) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>(),
                                                                                               { "EnumEquals", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

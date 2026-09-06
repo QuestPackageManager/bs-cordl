@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ListExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ListExtensions.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ListExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
@@ -20,7 +21,9 @@ template <typename T> inline int32_t GlobalNamespace::ListExtensions::FindIndex(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, list, match);
 }
-template <typename T> inline void GlobalNamespace::ListExtensions::InsertIntoSortedListFromEnd(::System::Collections::Generic::List_1<T>* sortedList, T newItem) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+inline void GlobalNamespace::ListExtensions::InsertIntoSortedListFromEnd(::System::Collections::Generic::List_1<T>* sortedList, T newItem) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ListExtensions*>(),
                                               { "InsertIntoSortedListFromEnd", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>(), ::i2c::type_of<T>() } })));

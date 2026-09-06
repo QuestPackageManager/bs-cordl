@@ -1,26 +1,46 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IMultiplayerSessionManager_4.hpp"
+// IWYU pragma private; include "GlobalNamespace/IMultiplayerSessionManager_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ConnectedPlayerManager_3_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectedPlayer_3_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 CORDL_MODULE_EXPORT(IMultiplayerSessionManager_4)
 namespace GlobalNamespace {
-template <typename TConnectedPlayer> class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
+template <typename TConnectedPlayer>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
+class IMultiplayerSessionManager_1_IMultiplayerSessionInitializer;
 }
 namespace GlobalNamespace {
-template <typename TConnectedPlayer> class IMultiplayerSessionManager_1;
+template <typename TConnectedPlayer>
+  requires(::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*>)
+class IMultiplayerSessionManager_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TConnectedPlayerManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData> class IMultiplayerSessionManager_4;
+template <typename TConnectedPlayerManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayerManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
+class IMultiplayerSessionManager_4;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::IMultiplayerSessionManager_4);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::IMultiplayerSessionManager_4, "", "IMultiplayerSessionManager`4");
-// Dependencies
+// Dependencies ConnectedPlayerManager`3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>, ConnectedPlayer`3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>,
+// IConnectedPlayer, LiteNetLib.Utils.INetSerializable
 namespace GlobalNamespace {
 // cpp template
 template <typename TConnectedPlayerManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>
+  requires(::cordl_internals::type_constraint<TConnectedPlayerManager, ::GlobalNamespace::ConnectedPlayerManager_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayer, ::GlobalNamespace::IConnectedPlayer*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, ::GlobalNamespace::ConnectedPlayer_3<TConnectedPlayer, TConnectedPlayerImpl, TGameSpecificIdentityData>*> &&
+           ::cordl_internals::type_constraint<TConnectedPlayerImpl, TConnectedPlayer> && ::cordl_internals::type_constraint<TGameSpecificIdentityData, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::value_type_constraint<TGameSpecificIdentityData> && ::cordl_internals::default_constructor_constraint<TGameSpecificIdentityData>)
 // Is value type: false
 // CS Name: IMultiplayerSessionManager`4<TConnectedPlayerManager,TConnectedPlayer,TConnectedPlayerImpl,TGameSpecificIdentityData>
 class CORDL_TYPE IMultiplayerSessionManager_4 {
@@ -29,16 +49,16 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSessionManager_1<TConnectedPlayer>"
   constexpr operator ::GlobalNamespace::IMultiplayerSessionManager_1<TConnectedPlayer>*() noexcept;
 
-  /// @brief Method StartSession, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartSession, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartSession(TConnectedPlayerManager connectedPlayerManager,
                            ::GlobalNamespace::IMultiplayerSessionManager_1_IMultiplayerSessionInitializer<TConnectedPlayer>* multiplayerSessionInitializer);
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerSessionManager_1<TConnectedPlayer>"
   constexpr ::GlobalNamespace::IMultiplayerSessionManager_1<TConnectedPlayer>* i___GlobalNamespace__IMultiplayerSessionManager_1_TConnectedPlayer_() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerSessionManager_4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerSessionManager_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMultiplayerSessionManager_4(IMultiplayerSessionManager_4 const&) = delete;
+  IMultiplayerSessionManager_4(IMultiplayerSessionManager_4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18188 };

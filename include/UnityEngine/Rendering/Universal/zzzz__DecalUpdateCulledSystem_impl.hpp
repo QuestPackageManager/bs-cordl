@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalUpdateCulledSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalUpdateCulledSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalUpdateCulledSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalCulledChunk_def.hpp"

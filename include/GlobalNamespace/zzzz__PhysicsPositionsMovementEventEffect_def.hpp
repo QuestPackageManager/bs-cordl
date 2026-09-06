@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PhysicsPositionsMovementEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/PhysicsPositionsMovementEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class PhysicsPositionsMovementEventEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PhysicsPositionsMovementEventEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PhysicsPositionsMovementEventEffect*, "", "PhysicsPositionsMovementEventEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/PhysicsPositionsMovementEventEffect")]
 // Dependencies BasicBeatmapEventType, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -237,44 +238,54 @@ protected:
   constexpr PhysicsPositionsMovementEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsPositionsMovementEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsPositionsMovementEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsPositionsMovementEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsPositionsMovementEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffect const&) = delete;
+  PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5939 };
 
+  /// [SerializeField]
   /// @brief Field _event, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
 
+  /// [SerializeField]
   /// @brief Field _movementVector, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____movementVector;
 
+  /// [SerializeField]
   /// @brief Field _stepSize, offset: 0x30, size: 0x4, def value: None
   float_t ____stepSize;
 
+  /// [SerializeField]
   /// @brief Field _elasticity, offset: 0x34, size: 0x4, def value: None
   float_t ____elasticity;
 
+  /// [SerializeField]
   /// @brief Field _friction, offset: 0x38, size: 0x4, def value: None
   float_t ____friction;
 
+  /// [SerializeField]
   /// @brief Field _minMaxSpeed, offset: 0x3c, size: 0x4, def value: None
   float_t ____minMaxSpeed;
 
+  /// [SerializeField]
   /// @brief Field _maxMaxSpeed, offset: 0x40, size: 0x4, def value: None
   float_t ____maxMaxSpeed;
 
+  /// [SerializeField]
   /// @brief Field _maxAcceleration, offset: 0x44, size: 0x4, def value: None
   float_t ____maxAcceleration;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _songTimeFixedUpdateController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongTimeFixedUpdateController> ____songTimeFixedUpdateController;
 

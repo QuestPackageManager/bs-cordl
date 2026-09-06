@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyAvatarController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyAvatarController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -190,6 +190,7 @@ inline ::System::Object* GlobalNamespace::MultiplayerLobbyAvatarController__Desp
                                                                                          { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12*
 GlobalNamespace::MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12*>(__1__state));
@@ -380,6 +381,7 @@ inline ::System::Object* GlobalNamespace::MultiplayerLobbyAvatarController__Show
                                                                                          { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10*
 GlobalNamespace::MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10*>(__1__state));
@@ -564,6 +566,7 @@ inline ::System::Object* GlobalNamespace::MultiplayerLobbyAvatarController__Spaw
                                                                                          { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8*
 GlobalNamespace::MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8*>(__1__state));

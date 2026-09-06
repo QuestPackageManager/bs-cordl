@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\ExceptionTrace.hpp"
+// IWYU pragma private; include "System/Runtime/ExceptionTrace.hpp"
+#include "System/zzzz__Exception_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__ExceptionTrace_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
@@ -107,13 +108,17 @@ inline void System::Runtime::ExceptionTrace::TraceHandledException(::System::Exc
                                                            { "TraceHandledException", {}, { ::i2c::type_of<::System::Exception*>(), ::i2c::type_of<::System::Diagnostics::TraceEventType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, exception, traceEventType);
 }
-template <typename TException> inline TException System::Runtime::ExceptionTrace::TraceException(TException exception) {
+template <typename TException>
+  requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
+inline TException System::Runtime::ExceptionTrace::TraceException(TException exception) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::ExceptionTrace*>(), { "TraceException", { ::i2c::class_of<TException>() }, { ::i2c::type_of<TException>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TException>() })));
   return ::cordl_internals::RunMethodRethrow<TException>(this, ___internal_method, exception);
 }
-template <typename TException> inline TException System::Runtime::ExceptionTrace::TraceException(TException exception, ::StringW eventSource) {
+template <typename TException>
+  requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
+inline TException System::Runtime::ExceptionTrace::TraceException(TException exception, ::StringW eventSource) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::ExceptionTrace*>(),
                                                            { "TraceException", { ::i2c::class_of<TException>() }, { ::i2c::type_of<TException>(), ::i2c::type_of<::StringW>() } })));

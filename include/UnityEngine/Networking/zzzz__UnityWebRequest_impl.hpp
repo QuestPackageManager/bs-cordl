@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\UnityWebRequest.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/UnityWebRequest.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
@@ -12,7 +12,7 @@
 #include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/Networking/zzzz__UploadHandler_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::UnityWebRequest_UnityWebRequestMethod(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -23,7 +23,7 @@ constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod Unity
 constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::Put{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::Head{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::Custom{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::UnityWebRequest_UnityWebRequestError(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -72,7 +72,7 @@ constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityE
 constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::NoInternetConnection{ static_cast<int32_t>(0x26) };
 constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::DataProcessingError{ static_cast<int32_t>(0x27) };
 constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::InsecureConnectionNotAllowed{ static_cast<int32_t>(0x28) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Networking::UnityWebRequest_Result::UnityWebRequest_Result(int32_t value__) noexcept {
   this->value__ = value__;
 }

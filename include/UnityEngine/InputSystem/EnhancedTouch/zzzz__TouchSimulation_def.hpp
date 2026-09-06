@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\EnhancedTouch\TouchSimulation.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/EnhancedTouch/TouchSimulation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,9 @@ class TouchSimulation;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*, "UnityEngine.InputSystem.EnhancedTouch", "TouchSimulation");
+// [AddComponentMenu("Input/Debug/Touch Simulation")]
+// [ExecuteInEditMode]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/Touch.html#touch-simulation")]
 // Dependencies UnityEngine.InputSystem.Controls.ButtonControl, UnityEngine.InputSystem.Pointer, UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
@@ -210,6 +213,7 @@ public:
   /// @brief Method get_instance, addr 0x65a9cb0, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> get_instance();
 
+  /// [CompilerGenerated]
   /// @brief Method get_simulatedTouchscreen, addr 0x65a9ca0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Touchscreen* get_simulatedTouchscreen();
 
@@ -218,6 +222,7 @@ public:
 
   static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_simulatedTouchscreen, addr 0x65a9ca8, size 0x8, virtual false, abstract: false, final false
   inline void set_simulatedTouchscreen(::UnityEngine::InputSystem::Touchscreen* value);
 
@@ -227,17 +232,18 @@ protected:
   constexpr TouchSimulation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TouchSimulation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchSimulation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TouchSimulation(TouchSimulation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TouchSimulation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchSimulation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TouchSimulation(TouchSimulation const&) = delete;
+  TouchSimulation(TouchSimulationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8915 };
 
+  /// [CompilerGenerated]
   /// @brief Field <simulatedTouchscreen>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Touchscreen* ____simulatedTouchscreen_k__BackingField;
 

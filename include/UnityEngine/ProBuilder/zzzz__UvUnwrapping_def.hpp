@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\UvUnwrapping.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/UvUnwrapping.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,8 +81,8 @@ public:
   // @brief default ctor
   constexpr UvUnwrapping_UVTransform();
 
-  // Ctor Parameters [CppParam { name: "translation", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "translation", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }]
   constexpr UvUnwrapping_UVTransform(::UnityEngine::Vector2 translation, float_t rotation, ::UnityEngine::Vector2 scale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,6 +112,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::UvUnwrapping_UVTransform, scal
 static_assert(sizeof(::UnityEngine::ProBuilder::UvUnwrapping_UVTransform) == 0x14, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -147,13 +148,13 @@ protected:
   constexpr UvUnwrapping___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UvUnwrapping___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UvUnwrapping___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UvUnwrapping___c(UvUnwrapping___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UvUnwrapping___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UvUnwrapping___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UvUnwrapping___c(UvUnwrapping___c const&) = delete;
+  UvUnwrapping___c(UvUnwrapping___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16824 };
@@ -250,13 +251,13 @@ protected:
   constexpr UvUnwrapping();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UvUnwrapping", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UvUnwrapping", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UvUnwrapping(UvUnwrapping&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UvUnwrapping", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UvUnwrapping", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UvUnwrapping(UvUnwrapping const&) = delete;
+  UvUnwrapping(UvUnwrappingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16825 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TimeSpan.hpp"
+// IWYU pragma private; include "System/TimeSpan.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ struct TimeSpan;
 // Write type traits
 MARK_VAL_T(::System::TimeSpan);
 DEFINE_IL2CPP_CLASS(::System::TimeSpan, "System", "TimeSpan");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -270,7 +271,7 @@ public:
   // @brief default ctor
   constexpr TimeSpan();
 
-  // Ctor Parameters [CppParam { name: "_ticks", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_ticks", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimeSpan(int64_t _ticks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

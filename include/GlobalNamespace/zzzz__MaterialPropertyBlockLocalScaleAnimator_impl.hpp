@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockLocalScaleAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockLocalScaleAnimator.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockLocalScaleAnimator_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"

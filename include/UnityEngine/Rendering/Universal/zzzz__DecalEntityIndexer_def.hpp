@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalEntityIndexer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalEntityIndexer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,8 +42,8 @@ public:
   // @brief default ctor
   constexpr DecalEntityIndexer_DecalEntityItem();
 
-  // Ctor Parameters [CppParam { name: "chunkIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "arrayIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "version", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "chunkIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "arrayIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DecalEntityIndexer_DecalEntityItem(int32_t chunkIndex, int32_t arrayIndex, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -133,13 +133,13 @@ protected:
   constexpr DecalEntityIndexer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityIndexer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityIndexer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalEntityIndexer(DecalEntityIndexer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityIndexer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalEntityIndexer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalEntityIndexer(DecalEntityIndexer const&) = delete;
+  DecalEntityIndexer(DecalEntityIndexerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12696 };

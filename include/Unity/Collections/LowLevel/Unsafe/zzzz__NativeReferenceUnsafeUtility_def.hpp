@@ -1,12 +1,14 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeReferenceUnsafeUtility.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeReferenceUnsafeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NativeReferenceUnsafeUtility)
 namespace Unity::Collections {
-template <typename T> struct NativeReference_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeReference_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -15,6 +17,8 @@ class NativeReferenceUnsafeUtility;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeReferenceUnsafeUtility*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeReferenceUnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "NativeReferenceUnsafeUtility");
+// [Extension]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -22,14 +26,26 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE NativeReferenceUnsafeUtility : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method GetUnsafePtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* GetUnsafePtr(::Unity::Collections::NativeReference_1<T> reference);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T* GetUnsafePtr(::Unity::Collections::NativeReference_1<T> reference);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method GetUnsafePtrWithoutChecks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* GetUnsafePtrWithoutChecks(::Unity::Collections::NativeReference_1<T> reference);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T* GetUnsafePtrWithoutChecks(::Unity::Collections::NativeReference_1<T> reference);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method GetUnsafeReadOnlyPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T* GetUnsafeReadOnlyPtr(::Unity::Collections::NativeReference_1<T> reference);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T* GetUnsafeReadOnlyPtr(::Unity::Collections::NativeReference_1<T> reference);
 
 protected:
   // Ctor Parameters []
@@ -37,13 +53,13 @@ protected:
   constexpr NativeReferenceUnsafeUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeReferenceUnsafeUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeReferenceUnsafeUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeReferenceUnsafeUtility(NativeReferenceUnsafeUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeReferenceUnsafeUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeReferenceUnsafeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeReferenceUnsafeUtility(NativeReferenceUnsafeUtility const&) = delete;
+  NativeReferenceUnsafeUtility(NativeReferenceUnsafeUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15755 };

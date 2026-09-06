@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\Tweak.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/Tweak.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
   /// @brief Method .ctor, addr 0x5a65b7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
-  /// @brief Method get_Tween, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Tween, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_Tween();
 
-  /// @brief Method set_Tween, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Tween, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Tween(float_t value);
 
 protected:
@@ -49,13 +49,13 @@ protected:
   constexpr Tweak();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tweak", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tweak", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tweak(Tweak&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tweak", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tweak", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tweak(Tweak const&) = delete;
+  Tweak(Tweakconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18441 };

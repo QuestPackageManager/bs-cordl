@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\AuthorityInformationAccess.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/AuthorityInformationAccess.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AccessDescription_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AuthorityInformationAccess_def.hpp"

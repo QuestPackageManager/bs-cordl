@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\SourceTemplateAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/SourceTemplateAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class SourceTemplateAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::SourceTemplateAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::SourceTemplateAttribute*, "JetBrains.Annotations", "SourceTemplateAttribute");
+// [AttributeUsage((System.AttributeTargets)64)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr SourceTemplateAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SourceTemplateAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SourceTemplateAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SourceTemplateAttribute(SourceTemplateAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SourceTemplateAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SourceTemplateAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SourceTemplateAttribute(SourceTemplateAttribute const&) = delete;
+  SourceTemplateAttribute(SourceTemplateAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22559 };

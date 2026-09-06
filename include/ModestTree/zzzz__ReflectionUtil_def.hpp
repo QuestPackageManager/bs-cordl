@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\ReflectionUtil.hpp"
+// IWYU pragma private; include "ModestTree/ReflectionUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,7 @@ class ReflectionUtil;
 // Write type traits
 MARK_REF_T(::ModestTree::ReflectionUtil*);
 DEFINE_IL2CPP_CLASS(::ModestTree::ReflectionUtil*, "ModestTree", "ReflectionUtil");
+// [Extension]
 // Dependencies System.Object
 namespace ModestTree {
 // Is value type: false
@@ -77,41 +78,53 @@ public:
   /// @brief Method CreateGenericList, addr 0x6e42634, size 0x3a0, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x6e42b10, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Action* action);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1> static inline ::StringW ToDebugString(::System::Action_1<TParam1>* action);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2> static inline ::StringW ToDebugString(::System::Action_2<TParam1, TParam2>* action);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3> static inline ::StringW ToDebugString(::System::Action_3<TParam1, TParam2, TParam3>* action);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4> static inline ::StringW ToDebugString(::System::Action_4<TParam1, TParam2, TParam3, TParam4>* action);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
   static inline ::StringW ToDebugString(::System::Action_5<TParam1, TParam2, TParam3, TParam4, TParam5>* action);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
   static inline ::StringW ToDebugString(::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* action);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1> static inline ::StringW ToDebugString(::System::Func_1<TParam1>* func);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2> static inline ::StringW ToDebugString(::System::Func_2<TParam1, TParam2>* func);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3> static inline ::StringW ToDebugString(::System::Func_3<TParam1, TParam2, TParam3>* func);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4> static inline ::StringW ToDebugString(::System::Func_4<TParam1, TParam2, TParam3, TParam4>* func);
 
+  /// [Extension]
   /// @brief Method ToDebugString, addr 0x6e429d4, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
 
@@ -121,13 +134,13 @@ protected:
   constexpr ReflectionUtil();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtil", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtil", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionUtil(ReflectionUtil&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtil", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtil", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionUtil(ReflectionUtil const&) = delete;
+  ReflectionUtil(ReflectionUtilconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13977 };

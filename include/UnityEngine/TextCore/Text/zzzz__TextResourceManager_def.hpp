@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextResourceManager.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextResourceManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,9 +45,9 @@ public:
   // @brief default ctor
   constexpr TextResourceManager_FontAssetRef();
 
-  // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None, comment: None }]
   constexpr TextResourceManager_FontAssetRef(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, int64_t familyNameAndStyleHashCode,
                                              ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept;
 
@@ -147,13 +147,13 @@ protected:
   constexpr TextResourceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextResourceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextResourceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextResourceManager(TextResourceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextResourceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextResourceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextResourceManager(TextResourceManager const&) = delete;
+  TextResourceManager(TextResourceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17286 };

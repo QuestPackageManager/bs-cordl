@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\BundledAssetProvider.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/BundledAssetProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IAssetBundleResource_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__BundledAssetProvider_def.hpp"
@@ -272,6 +273,7 @@ constexpr void UnityEngine::ResourceManagement::ResourceProviders::BundledAssetP
   this->___subObjectName = value;
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*> && ::cordl_internals::reference_type_constraint<T>)
 inline T UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp::LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::System::Object*>* results) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp*>(),

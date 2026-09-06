@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Telemetry.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Telemetry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,6 +83,7 @@ DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Telemetry*, "Meta.XR.Immersiv
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Telemetry_AnnotationType*, "Meta.XR.ImmersiveDebugger", "Telemetry/AnnotationType");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Telemetry_MarkerId*, "Meta.XR.ImmersiveDebugger", "Telemetry/MarkerId");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker*, "Meta.XR.ImmersiveDebugger", "Telemetry/TelemetryTracker");
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger {
 // Is value type: false
@@ -96,13 +97,13 @@ protected:
   constexpr Telemetry_MarkerId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_MarkerId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_MarkerId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Telemetry_MarkerId(Telemetry_MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_MarkerId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_MarkerId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry_MarkerId(Telemetry_MarkerId const&) = delete;
+  Telemetry_MarkerId(Telemetry_MarkerIdconst&) = delete;
 
   /// @brief Field ComponentTracked offset 0xffffffff size 0x4
   static constexpr int32_t ComponentTracked{ static_cast<int32_t>(0x9b81762) };
@@ -161,7 +162,7 @@ public:
   // @brief default ctor
   constexpr Telemetry_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Telemetry_State(int32_t value__) noexcept;
 
   /// @brief Field OnDisable value: I32(2)
@@ -220,7 +221,7 @@ public:
   // @brief default ctor
   constexpr Telemetry_Method();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Telemetry_Method(int32_t value__) noexcept;
 
   /// @brief Field Attributes value: I32(0)
@@ -262,13 +263,13 @@ protected:
   constexpr Telemetry_AnnotationType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_AnnotationType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_AnnotationType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Telemetry_AnnotationType(Telemetry_AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_AnnotationType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_AnnotationType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry_AnnotationType(Telemetry_AnnotationType const&) = delete;
+  Telemetry_AnnotationType(Telemetry_AnnotationTypeconst&) = delete;
 
   /// @brief Field Action offset 0xffffffff size 0x8
   static constexpr ::ConstString Action{ u"action" };
@@ -400,13 +401,13 @@ protected:
   constexpr Telemetry_TelemetryTracker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_TelemetryTracker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_TelemetryTracker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Telemetry_TelemetryTracker(Telemetry_TelemetryTracker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_TelemetryTracker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry_TelemetryTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry_TelemetryTracker(Telemetry_TelemetryTracker const&) = delete;
+  Telemetry_TelemetryTracker(Telemetry_TelemetryTrackerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18341 };
@@ -437,6 +438,7 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker
 static_assert(sizeof(::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker) == 0x40, "Size mismatch!");
 
 } // namespace Meta::XR::ImmersiveDebugger
+// [Extension]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger {
 // Is value type: false
@@ -460,9 +462,11 @@ public:
   /// @brief Method FetchPanel, addr 0x5a438b4, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel> FetchPanel(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller);
 
+  /// [Extension]
   /// @brief Method GetTypeHash, addr 0x5a43240, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW GetTypeHash(::System::Type* type);
 
+  /// [Extension]
   /// @brief Method IsTypeCustom, addr 0x5a432a8, size 0x18c, virtual false, abstract: false, final false
   static inline bool IsTypeCustom(::System::Type* type);
 
@@ -482,13 +486,13 @@ protected:
   constexpr Telemetry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Telemetry(Telemetry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Telemetry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Telemetry(Telemetry const&) = delete;
+  Telemetry(Telemetryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18342 };

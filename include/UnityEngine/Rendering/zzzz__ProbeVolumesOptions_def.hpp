@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumesOptions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumesOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class ProbeVolumesOptions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ProbeVolumesOptions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumesOptions*, "UnityEngine.Rendering", "ProbeVolumesOptions");
+// [VolumeComponentMenu("Lighting/Adaptive Probe Volumes Options")]
+// [SupportedOnRenderPipeline(new[] {  })]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -144,47 +146,61 @@ protected:
   constexpr ProbeVolumesOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumesOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumesOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumesOptions(ProbeVolumesOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumesOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumesOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumesOptions(ProbeVolumesOptions const&) = delete;
+  ProbeVolumesOptions(ProbeVolumesOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12154 };
 
+  /// [Tooltip("The overridden normal bias to be applied to the world position when sampling the Adaptive Probe Volumes data structure. Unit is meters.")]
   /// @brief Field normalBias, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___normalBias;
 
+  /// [Tooltip("A bias alongside the view vector to be applied to the world position when sampling the Adaptive Probe Volumes data structure. Unit is meters.")]
   /// @brief Field viewBias, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___viewBias;
 
+  /// [Tooltip("Whether to scale the bias for Adaptive Probe Volumes by the minimum distance between probes.")]
   /// @brief Field scaleBiasWithMinProbeDistance, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::BoolParameter* ___scaleBiasWithMinProbeDistance;
 
+  /// [Tooltip("Noise to be applied to the sampling position. It can hide seams issues between subdivision levels, but introduces noise.")]
   /// @brief Field samplingNoise, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___samplingNoise;
 
+  /// [Tooltip("Whether to animate the noise when TAA is enabled. It can potentially remove the visible noise patterns.")]
   /// @brief Field animateSamplingNoise, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::BoolParameter* ___animateSamplingNoise;
 
+  /// [Tooltip("Method used to reduce leaks. Currently available modes are crude, but cheap methods.")]
   /// @brief Field leakReductionMode, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::APVLeakReductionModeParameter* ___leakReductionMode;
 
+  /// [Obsolete("This parameter isn\'t used anymore.")]
   /// @brief Field minValidDotProductValue, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___minValidDotProductValue;
 
+  /// [Tooltip("When enabled, reflection probe normalization can only decrease the reflection intensity.")]
   /// @brief Field occlusionOnlyReflectionNormalization, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Rendering::BoolParameter* ___occlusionOnlyReflectionNormalization;
 
+  /// [AdditionalProperty]
+  /// [Tooltip("Global probe volumes weight. Allows for fading out probe volumes influence falling back to ambient probe.")]
   /// @brief Field intensityMultiplier, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___intensityMultiplier;
 
+  /// [AdditionalProperty]
+  /// [Tooltip("Multiplier applied on the sky lighting when using sky occlusion.")]
   /// @brief Field skyOcclusionIntensityMultiplier, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___skyOcclusionIntensityMultiplier;
 
+  /// [AdditionalProperty]
+  /// [Tooltip("Offset applied at runtime to probe positions in world space.\nThis is not considered while baking.")]
   /// @brief Field worldOffset, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::Rendering::Vector3Parameter* ___worldOffset;
 

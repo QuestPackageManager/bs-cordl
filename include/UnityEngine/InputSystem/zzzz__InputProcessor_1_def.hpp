@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputProcessor_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputProcessor_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-template <typename TValue> class InputProcessor_1;
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class InputProcessor_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::InputSystem::InputProcessor_1);
@@ -23,6 +25,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::InputSystem::InputProcessor_1, "Unity
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputProcessor`1<TValue>
 class CORDL_TYPE InputProcessor_1 : public ::UnityEngine::InputSystem::InputProcessor {
@@ -30,7 +33,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::InputProcessor_1<TValue>* New_ctor();
 
-  /// @brief Method Process, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Process(TValue value, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -48,13 +51,13 @@ protected:
   constexpr InputProcessor_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputProcessor_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputProcessor_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputProcessor_1(InputProcessor_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputProcessor_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputProcessor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputProcessor_1(InputProcessor_1 const&) = delete;
+  InputProcessor_1(InputProcessor_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8719 };

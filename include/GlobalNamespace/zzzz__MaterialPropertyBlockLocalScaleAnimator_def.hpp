@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockLocalScaleAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockLocalScaleAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class MaterialPropertyBlockLocalScaleAnimator;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator*, "", "MaterialPropertyBlockLocalScaleAnimator");
+// [ExecuteAlways]
 // Dependencies MaterialPropertyBlockAnimator
 namespace GlobalNamespace {
 // Is value type: false
@@ -45,17 +46,19 @@ protected:
   constexpr MaterialPropertyBlockLocalScaleAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockLocalScaleAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockLocalScaleAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockLocalScaleAnimator(MaterialPropertyBlockLocalScaleAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockLocalScaleAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockLocalScaleAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockLocalScaleAnimator(MaterialPropertyBlockLocalScaleAnimator const&) = delete;
+  MaterialPropertyBlockLocalScaleAnimator(MaterialPropertyBlockLocalScaleAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19574 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _targetTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____targetTransform;
 

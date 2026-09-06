@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderBitArray.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderBitArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct ShaderBitArray;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::ShaderBitArray);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderBitArray, "UnityEngine.Rendering.Universal", "ShaderBitArray");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -62,7 +63,7 @@ public:
   // @brief default ctor
   constexpr ShaderBitArray();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "::ArrayW<float_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "::ArrayW<float_t>", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderBitArray(::ArrayW<float_t> m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\InputEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/InputEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ MARK_REF_T(::UnityEngine::UIElements::InputEvent*);
 MARK_REF_T(::UnityEngine::UIElements::InputEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::InputEvent*, "UnityEngine.UIElements", "InputEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::InputEvent___c*, "UnityEngine.UIElements", "InputEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -50,13 +51,13 @@ protected:
   constexpr InputEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputEvent___c(InputEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEvent___c(InputEvent___c const&) = delete;
+  InputEvent___c(InputEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4475 };
@@ -112,9 +113,11 @@ public:
   /// @brief Method .ctor, addr 0x6d9d5fc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_newData, addr 0x6d9d4fc, size 0x8, virtual false, abstract: false, final false
   inline void set_newData(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_previousData, addr 0x6d9d4f4, size 0x8, virtual false, abstract: false, final false
   inline void set_previousData(::StringW value);
 
@@ -124,20 +127,24 @@ protected:
   constexpr InputEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputEvent(InputEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEvent(InputEvent const&) = delete;
+  InputEvent(InputEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4476 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <previousData>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::StringW ____previousData_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <newData>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::StringW ____newData_k__BackingField;
 

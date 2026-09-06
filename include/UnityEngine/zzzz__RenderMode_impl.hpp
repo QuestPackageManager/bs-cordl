@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RenderMode.hpp"
+// IWYU pragma private; include "UnityEngine/RenderMode.hpp"
 #include "UnityEngine/zzzz__RenderMode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RenderMode::RenderMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

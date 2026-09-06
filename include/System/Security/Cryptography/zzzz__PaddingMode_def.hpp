@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\PaddingMode.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/PaddingMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct PaddingMode;
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::PaddingMode);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::PaddingMode, "System.Security.Cryptography", "PaddingMode");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Security::Cryptography {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr PaddingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PaddingMode(int32_t value__) noexcept;
 
   /// @brief Field ANSIX923 value: I32(4)

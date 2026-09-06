@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleSpawnData.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleSpawnData.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSpawnData_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -23,8 +23,8 @@ inline void GlobalNamespace::ObstacleSpawnData::_ctor(::UnityEngine::Vector3 mov
                                                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, moveOffset, obstacleWidth, obstacleHeight);
 }
-// Ctor Parameters [CppParam { name: "moveOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "obstacleWidth", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "obstacleHeight", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "moveOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "obstacleWidth", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "obstacleHeight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ObstacleSpawnData::ObstacleSpawnData(::UnityEngine::Vector3 moveOffset, float_t obstacleWidth, float_t obstacleHeight) noexcept {
   this->moveOffset = moveOffset;
   this->obstacleWidth = obstacleWidth;

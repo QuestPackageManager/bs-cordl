@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceComponentGroup.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceComponentGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct InstanceComponentGroup;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::InstanceComponentGroup);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::InstanceComponentGroup, "UnityEngine.Rendering", "InstanceComponentGroup");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -49,7 +50,7 @@ public:
   // @brief default ctor
   constexpr InstanceComponentGroup();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstanceComponentGroup(uint32_t value__) noexcept;
 
   /// @brief Field Default value: U32(1)

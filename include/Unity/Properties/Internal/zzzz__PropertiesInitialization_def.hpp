@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\PropertiesInitialization.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/PropertiesInitialization.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class PropertiesInitialization;
 // Write type traits
 MARK_REF_T(::Unity::Properties::Internal::PropertiesInitialization*);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::Internal::PropertiesInitialization*, "Unity.Properties.Internal", "PropertiesInitialization");
+// [VisibleToOtherModules(new[] { "UnityEditor.PropertiesModule" })]
 // Dependencies System.Object
 namespace Unity::Properties::Internal {
 // Is value type: false
@@ -19,6 +20,7 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE PropertiesInitialization : public ::System::Object {
 public:
   // Declarations
+  /// [RequiredByNativeCode(false)]
   /// @brief Method InitializeProperties, addr 0x6bb1d8c, size 0x394, virtual false, abstract: false, final false
   static inline void InitializeProperties();
 
@@ -28,13 +30,13 @@ protected:
   constexpr PropertiesInitialization();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertiesInitialization", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertiesInitialization", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertiesInitialization(PropertiesInitialization&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertiesInitialization", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertiesInitialization", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertiesInitialization(PropertiesInitialization const&) = delete;
+  PropertiesInitialization(PropertiesInitializationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19712 };

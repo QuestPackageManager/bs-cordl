@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineGlobalSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineGlobalSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderPipelineGlobalSettings)
@@ -28,7 +29,7 @@ class RenderPipelineGlobalSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderPipelineGlobalSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderPipelineGlobalSettings*, "UnityEngine.Rendering", "RenderPipelineGlobalSettings");
-// Dependencies UnityEngine.ScriptableObject
+// Dependencies UnityEngine.Rendering.IRenderPipelineGraphicsSettings, UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderPipelineGlobalSettings
@@ -50,7 +51,10 @@ public:
   inline bool Contains(::System::Type* type);
 
   /// @brief Method GetSettingsImplementingInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSettingsInterfaceType> inline bool GetSettingsImplementingInterface(::by_ref<::System::Collections::Generic::List_1<TSettingsInterfaceType>*> settings);
+  template <typename TSettingsInterfaceType>
+    requires(::cordl_internals::type_constraint<TSettingsInterfaceType, ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> &&
+             ::cordl_internals::reference_type_constraint<TSettingsInterfaceType>)
+  inline bool GetSettingsImplementingInterface(::by_ref<::System::Collections::Generic::List_1<TSettingsInterfaceType>*> settings);
 
   static inline ::UnityEngine::Rendering::RenderPipelineGlobalSettings* New_ctor();
 
@@ -67,7 +71,10 @@ public:
   inline bool TryGet(::System::Type* type, ::by_ref<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> settings);
 
   /// @brief Method TryGetFirstSettingsImplementingInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSettingsInterfaceType> inline bool TryGetFirstSettingsImplementingInterface(::by_ref<TSettingsInterfaceType> settings);
+  template <typename TSettingsInterfaceType>
+    requires(::cordl_internals::type_constraint<TSettingsInterfaceType, ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> &&
+             ::cordl_internals::reference_type_constraint<TSettingsInterfaceType>)
+  inline bool TryGetFirstSettingsImplementingInterface(::by_ref<TSettingsInterfaceType> settings);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, int32_t>* const& __cordl_internal_get__settingsMap_k__BackingField() const;
 
@@ -81,6 +88,7 @@ public:
   /// @brief Method get_settingsList, addr 0x6b22b74, size 0x24c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* get_settingsList();
 
+  /// [CompilerGenerated]
   /// @brief Method get_settingsMap, addr 0x6b22dc0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Type*, int32_t>* get_settingsMap();
 
@@ -93,17 +101,19 @@ protected:
   constexpr RenderPipelineGlobalSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipelineGlobalSettings(RenderPipelineGlobalSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGlobalSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipelineGlobalSettings(RenderPipelineGlobalSettings const&) = delete;
+  RenderPipelineGlobalSettings(RenderPipelineGlobalSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10820 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <settingsMap>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, int32_t>* ____settingsMap_k__BackingField;
 

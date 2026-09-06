@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SHCoefficients.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SHCoefficients.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,10 +73,11 @@ public:
   // @brief default ctor
   constexpr SHCoefficients();
 
-  // Ctor Parameters [CppParam { name: "SHAr", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "SHAg", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None },
-  // CppParam { name: "SHAb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "SHBr", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name:
-  // "SHBg", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "SHBb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "SHC", ty:
-  // "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "ProbesOcclusion", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "SHAr", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "SHAg", ty: "::UnityEngine::Vector4", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "SHAb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "SHBr", ty: "::UnityEngine::Vector4",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "SHBg", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "SHBb", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "SHC", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "ProbesOcclusion", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr SHCoefficients(::UnityEngine::Vector4 SHAr, ::UnityEngine::Vector4 SHAg, ::UnityEngine::Vector4 SHAb, ::UnityEngine::Vector4 SHBr, ::UnityEngine::Vector4 SHBg, ::UnityEngine::Vector4 SHBb,
                            ::UnityEngine::Vector4 SHC, ::UnityEngine::Vector4 ProbesOcclusion) noexcept;
 

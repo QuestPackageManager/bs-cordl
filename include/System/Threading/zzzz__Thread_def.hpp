@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Thread.hpp"
+// IWYU pragma private; include "System/Threading/Thread.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -150,6 +150,7 @@ public:
   /// @brief Method AsyncLocalSetCurrentUICulture, addr 0x5cb2ee4, size 0x9c, virtual false, abstract: false, final false
   static inline void AsyncLocalSetCurrentUICulture(::System::Threading::AsyncLocalValueChangedArgs_1<::System::Globalization::CultureInfo*> args);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method BeginCriticalRegion, addr 0x5cb435c, size 0x44, virtual false, abstract: false, final false
   static inline void BeginCriticalRegion();
 
@@ -159,9 +160,11 @@ public:
   /// @brief Method ConstructInternalThread, addr 0x5cb3fb8, size 0x4, virtual false, abstract: false, final false
   inline void ConstructInternalThread();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method EndCriticalRegion, addr 0x5cb43a0, size 0x44, virtual false, abstract: false, final false
   static inline void EndCriticalRegion();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Finalize, addr 0x5cb4104, size 0x4, virtual true, abstract: false, final false
   inline void Finalize();
 
@@ -180,12 +183,15 @@ public:
   /// @brief Method GetDomainID, addr 0x5cb40ec, size 0x14, virtual false, abstract: false, final false
   static inline int32_t GetDomainID();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method GetExecutionContextReader, addr 0x5cb3478, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext_Reader GetExecutionContextReader();
 
+  /// [ComVisible(false)]
   /// @brief Method GetHashCode, addr 0x5cb43e4, size 0x4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method GetMutableExecutionContext, addr 0x5cb349c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext* GetMutableExecutionContext();
 
@@ -213,9 +219,11 @@ public:
 
   static inline ::System::Threading::Thread* New_ctor(::System::Threading::ThreadStart* start);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method SetExecutionContext, addr 0x5cb350c, size 0x10, virtual false, abstract: false, final false
   inline void SetExecutionContext(::System::Threading::ExecutionContext* value, bool belongsToCurrentScope);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method SetExecutionContext, addr 0x5cb351c, size 0x10, virtual false, abstract: false, final false
   inline void SetExecutionContext(::System::Threading::ExecutionContext_Reader value, bool belongsToCurrentScope);
 
@@ -243,6 +251,7 @@ public:
   /// @brief Method SleepInternal, addr 0x5cb35e0, size 0x4, virtual false, abstract: false, final false
   static inline void SleepInternal(int32_t millisecondsTimeout);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method SpinWait, addr 0x5cb4324, size 0x4, virtual false, abstract: false, final false
   static inline void SpinWait(int32_t iterations);
 
@@ -353,6 +362,7 @@ public:
   /// @brief Method get_CurrentCulture, addr 0x5cb3c10, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_CurrentCulture();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method get_CurrentThread, addr 0x5cb403c, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Threading::Thread* get_CurrentThread();
 
@@ -377,6 +387,7 @@ public:
   /// @brief Method get_IsThreadPoolThreadInternal, addr 0x5cb410c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_IsThreadPoolThreadInternal();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_ManagedThreadId, addr 0x5cb4330, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_ManagedThreadId();
 
@@ -424,13 +435,13 @@ protected:
   constexpr Thread();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Thread", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Thread", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Thread(Thread&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Thread", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Thread", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Thread(Thread const&) = delete;
+  Thread(Threadconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2736 };

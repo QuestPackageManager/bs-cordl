@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\ObjectStorage.hpp"
+// IWYU pragma private; include "System/Data/Common/ObjectStorage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +104,7 @@ public:
   // @brief default ctor
   constexpr ObjectStorage_Families();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ObjectStorage_Families(int32_t value__) noexcept;
 
   /// @brief Field ARRAY value: I32(4)
@@ -181,13 +181,13 @@ protected:
   constexpr ObjectStorage_TempAssemblyComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectStorage_TempAssemblyComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectStorage_TempAssemblyComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectStorage_TempAssemblyComparer(ObjectStorage_TempAssemblyComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectStorage_TempAssemblyComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectStorage_TempAssemblyComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectStorage_TempAssemblyComparer(ObjectStorage_TempAssemblyComparer const&) = delete;
+  ObjectStorage_TempAssemblyComparer(ObjectStorage_TempAssemblyComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13911 };
@@ -334,13 +334,13 @@ protected:
   constexpr ObjectStorage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectStorage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectStorage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectStorage(ObjectStorage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectStorage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectStorage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectStorage(ObjectStorage const&) = delete;
+  ObjectStorage(ObjectStorageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13912 };

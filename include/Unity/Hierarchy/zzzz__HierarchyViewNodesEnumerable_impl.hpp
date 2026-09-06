@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyViewNodesEnumerable.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyViewNodesEnumerable.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNodeFlags_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyViewNodesEnumerable_def.hpp"
@@ -44,7 +44,7 @@ inline void Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate::_ctor(::Sy
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate::Invoke(::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+inline bool Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate::Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node, flags);
@@ -126,11 +126,11 @@ inline void Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::ThrowIfVe
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator>(), { "ThrowIfVersionChanged", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Predicate", ty:
-// "::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "::Unity::Hierarchy::HierarchyNodeFlags", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_NodesPtr", ty: "::Unity::Hierarchy::HierarchyFlattenedNode*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NodesCount", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Predicate", ty:
+// "::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "::Unity::Hierarchy::HierarchyNodeFlags",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NodesPtr", ty: "::Unity::Hierarchy::HierarchyFlattenedNode*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_NodesCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::HierarchyViewNodesEnumerable_Enumerator(::Unity::Hierarchy::HierarchyFlattened* m_HierarchyFlattened,
                                                                                                                ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate* m_Predicate,
                                                                                                                ::Unity::Hierarchy::HierarchyNodeFlags m_Flags,
@@ -192,9 +192,9 @@ inline ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator Unity::Hierar
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewNodesEnumerable>(), { "GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Predicate", ty:
-// "::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "::Unity::Hierarchy::HierarchyNodeFlags", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_HierarchyViewModel", ty: "::Unity::Hierarchy::HierarchyViewModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Predicate", ty:
+// "::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "::Unity::Hierarchy::HierarchyNodeFlags",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyViewNodesEnumerable::HierarchyViewNodesEnumerable(::Unity::Hierarchy::HierarchyViewModel* m_HierarchyViewModel,
                                                                                          ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate* m_Predicate,
                                                                                          ::Unity::Hierarchy::HierarchyNodeFlags m_Flags) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomLODGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomLODGroup.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomLODGroup_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\LocalMatchmaking.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/LocalMatchmaking.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,6 +119,7 @@ DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__Sto
                     "LocalMatchmaking/<StopAdvertisingColocationSession>d__18");
 DEFINE_IL2CPP_CLASS(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__StopDiscoveringColocationSessions_d__20, "Meta.XR.MultiplayerBlocks.Shared",
                     "LocalMatchmaking/<StopDiscoveringColocationSessions>d__20");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: true
@@ -132,6 +133,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a77768, size 0x2b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a77a20, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -142,10 +144,10 @@ public:
   // @brief default ctor
   constexpr LocalMatchmaking__HostOrJoinSessionAutomatically_d__14();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr LocalMatchmaking__HostOrJoinSessionAutomatically_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                    ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking> __4__this,
                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -182,6 +184,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__HostOrJoinSessionAutomatically_d__14) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::RoomOperationResult, OVRColocationSession::Data, System.Runtime.CompilerServices.AsyncVoidMethodBuilder,
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Shared {
@@ -196,6 +199,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a77a28, size 0x328, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a77d50, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -206,11 +210,11 @@ public:
   // @brief default ctor
   constexpr LocalMatchmaking__OnColocationSessionFound_d__16();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking>", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::GlobalNamespace::OVRColocationSession_Data", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking>", modifiers: "", def_value: None, comment: None }, CppParam { name: "data", ty: "::GlobalNamespace::OVRColocationSession_Data",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None }]
   constexpr LocalMatchmaking__OnColocationSessionFound_d__16(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking> __4__this,
       ::GlobalNamespace::OVRColocationSession_Data data,
@@ -253,6 +257,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__OnColocationSessionFound_d__16) == 0x50, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies OVRColocationSession::Result, OVRResult`2<TValue, TStatus>, OVRTask`1::Awaiter<TResult>, System.Guid, System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: true
@@ -266,6 +271,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a77d58, size 0x530, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a78288, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -276,9 +282,10 @@ public:
   // @brief default ctor
   constexpr LocalMatchmaking__StartAdvertisingColocationSession_d__17();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Guid,::GlobalNamespace::OVRColocationSession_Result>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Guid,::GlobalNamespace::OVRColocationSession_Result>>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr LocalMatchmaking__StartAdvertisingColocationSession_d__17(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::ArrayW<uint8_t> data,
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_2<::System::Guid, ::GlobalNamespace::OVRColocationSession_Result>> __u__1) noexcept;
@@ -315,6 +322,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__StartAdvertisingColocationSession_d__17) == 0x40, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: true
@@ -328,6 +336,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a78290, size 0x330, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a785c0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -338,10 +347,10 @@ public:
   // @brief default ctor
   constexpr LocalMatchmaking__StartAsGuest_d__13();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking>", modifiers: "", def_value: None }, CppParam { name: "stopAfterTimeout", ty: "bool", modifiers: "", def_value: None }, CppParam
-  // { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking>", modifiers: "", def_value: None, comment: None }, CppParam { name: "stopAfterTimeout", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr LocalMatchmaking__StartAsGuest_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                  ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking> __4__this, bool stopAfterTimeout,
                                                  ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -383,6 +392,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__StartAsGuest_d__13) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::RoomOperationResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: true
@@ -396,6 +406,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a7862c, size 0x278, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a788a4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -406,10 +417,10 @@ public:
   // @brief default ctor
   constexpr LocalMatchmaking__StartAsHost_d__12();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None }]
   constexpr LocalMatchmaking__StartAsHost_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                 ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking> __4__this,
                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __u__1) noexcept;
@@ -446,6 +457,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__StartAsHost_d__12) == 0x30, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies OVRColocationSession::Result, OVRResult`1<TStatus>, OVRTask`1::Awaiter<TResult>, System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: true
@@ -459,6 +471,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a78910, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a78d44, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -469,10 +482,10 @@ public:
   // @brief default ctor
   constexpr LocalMatchmaking__StartDiscoveringColocationSessions_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "onGroupFound", ty:
-  // "::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "onGroupFound", ty:
+  // "::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>>", modifiers: "", def_value: None, comment: None }]
   constexpr LocalMatchmaking__StartDiscoveringColocationSessions_d__19(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* onGroupFound,
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> __u__1) noexcept;
@@ -509,6 +522,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__StartDiscoveringColocationSessions_d__19) == 0x40, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies OVRColocationSession::Result, OVRResult`1<TStatus>, OVRTask`1::Awaiter<TResult>, System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: true
@@ -522,6 +536,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a78d4c, size 0x31c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a79068, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -532,9 +547,9 @@ public:
   // @brief default ctor
   constexpr LocalMatchmaking__StopAdvertisingColocationSession_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>>", modifiers: "", def_value: None, comment: None }]
   constexpr LocalMatchmaking__StopAdvertisingColocationSession_d__18(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> __u__1) noexcept;
@@ -566,6 +581,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking__StopAdvertisingColocationSession_d__18) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies OVRColocationSession::Result, OVRResult`1<TStatus>, OVRTask`1::Awaiter<TResult>, System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: true
@@ -579,6 +595,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a79070, size 0x32c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a7939c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -589,10 +606,10 @@ public:
   // @brief default ctor
   constexpr LocalMatchmaking__StopDiscoveringColocationSessions_d__20();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "onGroupFound", ty:
-  // "::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "onGroupFound", ty:
+  // "::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>>", modifiers: "", def_value: None, comment: None }]
   constexpr LocalMatchmaking__StopDiscoveringColocationSessions_d__20(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* onGroupFound,
       ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> __u__1) noexcept;
@@ -680,11 +697,13 @@ public:
   /// @brief Method Awake, addr 0x5a76c3c, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<HostOrJoinSessionAutomatically>d__14))]
   /// @brief Method HostOrJoinSessionAutomatically, addr 0x5a76f84, size 0xa4, virtual false, abstract: false, final false
   inline void HostOrJoinSessionAutomatically();
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::LocalMatchmaking* New_ctor();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<OnColocationSessionFound>d__16))]
   /// @brief Method OnColocationSessionFound, addr 0x5a772f8, size 0xc0, virtual false, abstract: false, final false
   inline void OnColocationSessionFound(::GlobalNamespace::OVRColocationSession_Data data);
 
@@ -703,21 +722,27 @@ public:
   /// @brief Method Start, addr 0x5a76f74, size 0x10, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StartAdvertisingColocationSession>d__17))]
   /// @brief Method StartAdvertisingColocationSession, addr 0x5a77258, size 0xa0, virtual false, abstract: false, final false
   static inline void StartAdvertisingColocationSession(::ArrayW<uint8_t> data);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StartAsGuest>d__13))]
   /// @brief Method StartAsGuest, addr 0x5a770d8, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartAsGuest(bool stopAfterTimeout);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StartAsHost>d__12))]
   /// @brief Method StartAsHost, addr 0x5a77028, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartAsHost();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StartDiscoveringColocationSessions>d__19))]
   /// @brief Method StartDiscoveringColocationSessions, addr 0x5a77454, size 0xa0, virtual false, abstract: false, final false
   static inline void StartDiscoveringColocationSessions(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* onGroupFound);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StopAdvertisingColocationSession>d__18))]
   /// @brief Method StopAdvertisingColocationSession, addr 0x5a773b8, size 0x9c, virtual false, abstract: false, final false
   static inline void StopAdvertisingColocationSession();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.LocalMatchmaking::<StopDiscoveringColocationSessions>d__20))]
   /// @brief Method StopDiscoveringColocationSessions, addr 0x5a774f4, size 0xa0, virtual false, abstract: false, final false
   static inline void StopDiscoveringColocationSessions(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>* onGroupFound);
 
@@ -770,20 +795,24 @@ protected:
   constexpr LocalMatchmaking();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalMatchmaking", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalMatchmaking", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalMatchmaking(LocalMatchmaking&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalMatchmaking", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalMatchmaking", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalMatchmaking(LocalMatchmaking const&) = delete;
+  LocalMatchmaking(LocalMatchmakingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20875 };
 
+  /// [Tooltip("On Start(), players will automatically discover local sessions and start hosting if no sessions found.")]
+  /// [SerializeField]
   /// @brief Field automaticHostOrJoin, offset: 0x20, size: 0x1, def value: None
   bool ___automaticHostOrJoin;
 
+  /// [Tooltip("Seconds to wait for discovering local sessions, if not found then creating their own session")]
+  /// [SerializeField]
   /// @brief Field timeDiscoveringInSec, offset: 0x24, size: 0x4, def value: None
   int32_t ___timeDiscoveringInSec;
 

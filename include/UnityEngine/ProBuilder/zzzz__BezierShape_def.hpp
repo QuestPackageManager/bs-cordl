@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\BezierShape.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/BezierShape.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,11 @@ class BezierShape;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::BezierShape*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::BezierShape*, "UnityEngine.ProBuilder", "BezierShape");
+// [AddComponentMenu("")]
+// [DisallowMultipleComponent]
+// [ExcludeFromPreset]
+// [ExcludeFromObjectFactory]
+// [RequireComponent(typeof(UnityEngine.ProBuilder.ProBuilderMesh))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -135,13 +140,13 @@ protected:
   constexpr BezierShape();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BezierShape", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierShape", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BezierShape(BezierShape&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BezierShape", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BezierShape", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BezierShape(BezierShape const&) = delete;
+  BezierShape(BezierShapeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16715 };
@@ -164,6 +169,7 @@ public:
   /// @brief Field smooth, offset: 0x38, size: 0x1, def value: None
   bool ___smooth;
 
+  /// [SerializeField]
   /// @brief Field m_IsEditing, offset: 0x39, size: 0x1, def value: None
   bool ___m_IsEditing;
 

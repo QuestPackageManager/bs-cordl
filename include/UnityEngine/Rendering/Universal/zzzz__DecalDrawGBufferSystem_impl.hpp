@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalDrawGBufferSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalDrawGBufferSystem.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawSystem_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawGBufferSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalCachedChunk_def.hpp"

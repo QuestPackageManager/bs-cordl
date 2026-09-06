@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRControllerTest.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRControllerTest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ protected:
   constexpr BoolMonitor_OVRControllerTest_BoolGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRControllerTest_BoolGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRControllerTest_BoolGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoolMonitor_OVRControllerTest_BoolGenerator(BoolMonitor_OVRControllerTest_BoolGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRControllerTest_BoolGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRControllerTest_BoolGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoolMonitor_OVRControllerTest_BoolGenerator(BoolMonitor_OVRControllerTest_BoolGenerator const&) = delete;
+  BoolMonitor_OVRControllerTest_BoolGenerator(BoolMonitor_OVRControllerTest_BoolGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7870 };
@@ -194,13 +194,13 @@ protected:
   constexpr OVRControllerTest_BoolMonitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest_BoolMonitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest_BoolMonitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerTest_BoolMonitor(OVRControllerTest_BoolMonitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest_BoolMonitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest_BoolMonitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerTest_BoolMonitor(OVRControllerTest_BoolMonitor const&) = delete;
+  OVRControllerTest_BoolMonitor(OVRControllerTest_BoolMonitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7871 };
@@ -246,6 +246,7 @@ static_assert(offsetof(::GlobalNamespace::OVRControllerTest_BoolMonitor, ___m_di
 static_assert(sizeof(::GlobalNamespace::OVRControllerTest_BoolMonitor) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -584,13 +585,13 @@ protected:
   constexpr OVRControllerTest___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerTest___c(OVRControllerTest___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerTest___c(OVRControllerTest___c const&) = delete;
+  OVRControllerTest___c(OVRControllerTest___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7872 };
@@ -670,13 +671,13 @@ protected:
   constexpr OVRControllerTest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRControllerTest(OVRControllerTest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRControllerTest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRControllerTest(OVRControllerTest const&) = delete;
+  OVRControllerTest(OVRControllerTestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7873 };

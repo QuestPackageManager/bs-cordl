@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlTrack.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlTrack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectControlTrack_def.hpp"
@@ -11,7 +11,7 @@
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectControlTrack_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::VisualEffectControlTrack_ReinitMode::VisualEffectControlTrack_ReinitMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

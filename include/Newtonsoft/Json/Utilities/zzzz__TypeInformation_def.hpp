@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\TypeInformation.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/TypeInformation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class TypeInformation;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Utilities::TypeInformation*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::TypeInformation*, "Newtonsoft.Json.Utilities", "TypeInformation");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Utilities.PrimitiveTypeCode, System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -54,9 +56,11 @@ public:
   /// @brief Method .ctor, addr 0x5d1d10c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5d1d0fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TypeCode, addr 0x5d1d104, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
@@ -66,20 +70,22 @@ protected:
   constexpr TypeInformation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeInformation(TypeInformation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeInformation(TypeInformation const&) = delete;
+  TypeInformation(TypeInformationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13381 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TypeCode>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::Newtonsoft::Json::Utilities::PrimitiveTypeCode ____TypeCode_k__BackingField;
 

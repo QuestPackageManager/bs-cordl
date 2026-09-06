@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\CollectionExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/CollectionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::Unity::Collections::CollectionExtensions*);
 MARK_GEN_REF_T_PTR(::Unity::Collections::CollectionExtensions___c__DisplayClass3_0_1);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::CollectionExtensions*, "Unity.Collections", "CollectionExtensions");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::CollectionExtensions___c__DisplayClass3_0_1, "Unity.Collections", "CollectionExtensions/<>c__DisplayClass3_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Unity::Collections {
 // cpp template
@@ -59,13 +60,13 @@ protected:
   constexpr CollectionExtensions___c__DisplayClass3_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions___c__DisplayClass3_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions___c__DisplayClass3_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionExtensions___c__DisplayClass3_0_1(CollectionExtensions___c__DisplayClass3_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions___c__DisplayClass3_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions___c__DisplayClass3_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionExtensions___c__DisplayClass3_0_1(CollectionExtensions___c__DisplayClass3_0_1 const&) = delete;
+  CollectionExtensions___c__DisplayClass3_0_1(CollectionExtensions___c__DisplayClass3_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9982 };
@@ -77,6 +78,8 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [Extension]
+// [VisibleToOtherModules]
 // Dependencies System.Object
 namespace Unity::Collections {
 // Is value type: false
@@ -86,8 +89,10 @@ public:
   // Declarations
   template <typename T> using __c__DisplayClass3_0_1 = ::Unity::Collections::CollectionExtensions___c__DisplayClass3_0_1<T>;
 
+  /// [Extension]
   /// @brief Method SerializedView, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::StringW SerializedView(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Func_2<T, ::StringW>* serializeElement);
+  template <typename T>
+  static inline ::StringW SerializedView(/* [DisallowNull] */ ::System::Collections::Generic::IEnumerable_1<T>* collection, /* [DisallowNull] */ ::System::Func_2<T, ::StringW>* serializeElement);
 
 protected:
   // Ctor Parameters []
@@ -95,13 +100,13 @@ protected:
   constexpr CollectionExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionExtensions(CollectionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionExtensions(CollectionExtensions const&) = delete;
+  CollectionExtensions(CollectionExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9983 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\UIRenderDevice.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/UIRenderDevice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,9 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
@@ -48,7 +50,9 @@ namespace UnityEngine::UIElements::UIR {
 class DrawParams;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class LinkedPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
+class LinkedPool_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class MeshHandle;
@@ -81,7 +85,9 @@ namespace UnityEngine::UIElements::UIR {
 class UIRenderDevice___c;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class Utility_GPUBuffer_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class Utility_GPUBuffer_1;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
@@ -143,10 +149,11 @@ public:
   // @brief default ctor
   constexpr UIRenderDevice_AllocToUpdate();
 
-  // Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "allocTime", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "meshHandle", ty: "::UnityEngine::UIElements::UIR::MeshHandle*", modifiers: "", def_value: None }, CppParam { name: "permAllocVerts", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "",
-  // def_value: None }, CppParam { name: "permAllocIndices", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None }, CppParam { name: "permPage", ty:
-  // "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None }, CppParam { name: "copyBackIndices", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "allocTime", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "meshHandle", ty: "::UnityEngine::UIElements::UIR::MeshHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name: "permAllocVerts", ty:
+  // "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None, comment: None }, CppParam { name: "permAllocIndices", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "permPage", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None, comment: None }, CppParam { name: "copyBackIndices",
+  // ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr UIRenderDevice_AllocToUpdate(uint32_t id, uint32_t allocTime, ::UnityEngine::UIElements::UIR::MeshHandle* meshHandle, ::UnityEngine::UIElements::UIR::Alloc permAllocVerts,
                                          ::UnityEngine::UIElements::UIR::Alloc permAllocIndices, ::UnityEngine::UIElements::UIR::Page* permPage, bool copyBackIndices) noexcept;
 
@@ -208,8 +215,8 @@ public:
   // @brief default ctor
   constexpr UIRenderDevice_AllocToFree();
 
-  // Ctor Parameters [CppParam { name: "alloc", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None }, CppParam { name: "page", ty: "::UnityEngine::UIElements::UIR::Page*",
-  // modifiers: "", def_value: None }, CppParam { name: "vertices", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "alloc", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None, comment: None }, CppParam { name: "page", ty:
+  // "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertices", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr UIRenderDevice_AllocToFree(::UnityEngine::UIElements::UIR::Alloc alloc, ::UnityEngine::UIElements::UIR::Page* page, bool vertices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -253,8 +260,9 @@ public:
   // @brief default ctor
   constexpr UIRenderDevice_DeviceToFree();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "page", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None
-  // }, CppParam { name: "commandLists", ty: "::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "page", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "commandLists", ty: "::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*>", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr UIRenderDevice_DeviceToFree(uint32_t handle, ::UnityEngine::UIElements::UIR::Page* page,
                                         ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> commandLists) noexcept;
 
@@ -296,11 +304,12 @@ public:
   // @brief default ctor
   constexpr UIRenderDevice_EvaluationState();
 
-  // Ctor Parameters [CppParam { name: "activeCommandList", ty: "::UnityEngine::UIElements::UIR::CommandList*", modifiers: "", def_value: None }, CppParam { name: "constantProps", ty:
-  // "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None }, CppParam { name: "batchProps", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None }, CppParam {
-  // name: "defaultMat", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "curState", ty: "::UnityEngine::UIElements::UIR::State", modifiers: "", def_value:
-  // None }, CppParam { name: "curPage", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None }, CppParam { name: "mustApplyMaterial", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "mustApplyBatchProps", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mustApplyStencil", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "activeCommandList", ty: "::UnityEngine::UIElements::UIR::CommandList*", modifiers: "", def_value: None, comment: None }, CppParam { name: "constantProps", ty:
+  // "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchProps", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "defaultMat", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "curState", ty:
+  // "::UnityEngine::UIElements::UIR::State", modifiers: "", def_value: None, comment: None }, CppParam { name: "curPage", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "mustApplyMaterial", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "mustApplyBatchProps", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "mustApplyStencil", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr UIRenderDevice_EvaluationState(::UnityEngine::UIElements::UIR::CommandList* activeCommandList, ::UnityEngine::MaterialPropertyBlock* constantProps,
                                            ::UnityEngine::MaterialPropertyBlock* batchProps, ::UnityW<::UnityEngine::Material> defaultMat, ::UnityEngine::UIElements::UIR::State curState,
                                            ::UnityEngine::UIElements::UIR::Page* curPage, bool mustApplyMaterial, bool mustApplyBatchProps, bool mustApplyStencil) noexcept;
@@ -373,12 +382,12 @@ public:
   // @brief default ctor
   constexpr UIRenderDevice_DrawStatistics();
 
-  // Ctor Parameters [CppParam { name: "currentFrameIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalIndices", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "commandCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "skippedCommandCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "drawCommandCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "disableCommandCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "materialSetCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "drawRangeCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "drawRangeCallCount",
-  // ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "immediateDraws", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "stencilRefChanges", ty: "uint32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "currentFrameIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "totalIndices", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "commandCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "skippedCommandCount", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "drawCommandCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "disableCommandCount", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "materialSetCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawRangeCount", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawRangeCallCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "immediateDraws", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "stencilRefChanges", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UIRenderDevice_DrawStatistics(int32_t currentFrameIndex, uint32_t totalIndices, uint32_t commandCount, uint32_t skippedCommandCount, uint32_t drawCommandCount,
                                           uint32_t disableCommandCount, uint32_t materialSetCount, uint32_t drawRangeCount, uint32_t drawRangeCallCount, uint32_t immediateDraws,
                                           uint32_t stencilRefChanges) noexcept;
@@ -450,6 +459,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRenderDevice_DrawStatis
 static_assert(sizeof(::UnityEngine::UIElements::UIR::UIRenderDevice_DrawStatistics) == 0x2c, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
@@ -495,13 +505,13 @@ protected:
   constexpr UIRenderDevice___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRenderDevice___c(UIRenderDevice___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRenderDevice___c(UIRenderDevice___c const&) = delete;
+  UIRenderDevice___c(UIRenderDevice___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5373 };
@@ -739,7 +749,9 @@ public:
   inline void PruneUnusedPages();
 
   /// @brief Method PtrToSlice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Collections::NativeSlice_1<T> PtrToSlice(void* p, int32_t count);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Collections::NativeSlice_1<T> PtrToSlice(void* p, int32_t count);
 
   /// @brief Method TryAllocFromPage, addr 0x6cf8e98, size 0xfc, virtual false, abstract: false, final false
   inline bool TryAllocFromPage(::UnityEngine::UIElements::UIR::Page* page, uint32_t vertexCount, uint32_t indexCount, ::by_ref<::UnityEngine::UIElements::UIR::Alloc> va,
@@ -945,6 +957,7 @@ public:
 
   static inline int32_t getStaticF_s_ShaderInfoTexID();
 
+  /// [CompilerGenerated]
   /// @brief Method get_breakBatches, addr 0x6cf6b38, size 0x8, virtual false, abstract: false, final false
   inline bool get_breakBatches();
 
@@ -954,9 +967,11 @@ public:
   /// @brief Method get_currentFrameCommandLists, addr 0x6cf6b78, size 0x40, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>* get_currentFrameCommandLists();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cf7864, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_drawsInCameras, addr 0x6cf6b58, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawsInCameras();
 
@@ -966,6 +981,7 @@ public:
   /// @brief Method get_fullyCreated, addr 0x6cf7854, size 0x10, virtual false, abstract: false, final false
   inline bool get_fullyCreated();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isFlat, addr 0x6cf6b48, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFlat();
 
@@ -997,15 +1013,19 @@ public:
 
   static inline void setStaticF_s_ShaderInfoTexID(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_breakBatches, addr 0x6cf6b40, size 0x8, virtual false, abstract: false, final false
   inline void set_breakBatches(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cf786c, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_drawsInCameras, addr 0x6cf6b60, size 0x8, virtual false, abstract: false, final false
   inline void set_drawsInCameras(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isFlat, addr 0x6cf6b50, size 0x8, virtual false, abstract: false, final false
   inline void set_isFlat(bool value);
 
@@ -1015,13 +1035,13 @@ protected:
   constexpr UIRenderDevice();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRenderDevice(UIRenderDevice&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRenderDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRenderDevice(UIRenderDevice const&) = delete;
+  UIRenderDevice(UIRenderDeviceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5374 };
@@ -1083,18 +1103,26 @@ public:
   /// @brief Field m_TextureSlotManager, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::TextureSlotManager* ___m_TextureSlotManager;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <breakBatches>k__BackingField, offset: 0xc0, size: 0x1, def value: None
   bool ____breakBatches_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isFlat>k__BackingField, offset: 0xc1, size: 0x1, def value: None
   bool ____isFlat_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <drawsInCameras>k__BackingField, offset: 0xc2, size: 0x1, def value: None
   bool ____drawsInCameras_k__BackingField;
 
   /// @brief Field currentFrameCommandListCount, offset: 0xc4, size: 0x4, def value: None
   int32_t ___currentFrameCommandListCount;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0xc8, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

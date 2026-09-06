@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuickPlaySetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuickPlaySetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,13 +86,13 @@ protected:
   constexpr QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName const&) = delete;
+  QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackNameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15063 };
@@ -169,13 +169,13 @@ protected:
   constexpr QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack const&) = delete;
+  QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15064 };
@@ -242,13 +242,13 @@ protected:
   constexpr QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack(QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack(QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack const&) = delete;
+  QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack(QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15065 };
@@ -315,13 +315,13 @@ protected:
   constexpr QuickPlaySetupData_QuickPlaySongPacksOverride();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData_QuickPlaySongPacksOverride", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData_QuickPlaySongPacksOverride", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySetupData_QuickPlaySongPacksOverride(QuickPlaySetupData_QuickPlaySongPacksOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData_QuickPlaySongPacksOverride", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData_QuickPlaySongPacksOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySetupData_QuickPlaySongPacksOverride(QuickPlaySetupData_QuickPlaySongPacksOverride const&) = delete;
+  QuickPlaySetupData_QuickPlaySongPacksOverride(QuickPlaySetupData_QuickPlaySongPacksOverrideconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15066 };
@@ -342,6 +342,7 @@ static_assert(offsetof(::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksO
 static_assert(sizeof(::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Preserve]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -377,13 +378,13 @@ protected:
   constexpr QuickPlaySetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuickPlaySetupData(QuickPlaySetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuickPlaySetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuickPlaySetupData(QuickPlaySetupData const&) = delete;
+  QuickPlaySetupData(QuickPlaySetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15067 };

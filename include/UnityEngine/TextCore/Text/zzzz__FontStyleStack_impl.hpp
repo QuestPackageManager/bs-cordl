@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\FontStyleStack.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontStyleStack.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyleStack_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::FontStyleStack.Clear
@@ -56,11 +56,12 @@ inline uint8_t UnityEngine::TextCore::Text::FontStyleStack::Remove(::UnityEngine
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontStyleStack>(), { "Remove", {}, { ::i2c::type_of<::UnityEngine::TextCore::Text::FontStyles>() } })));
   return ::cordl_internals::RunMethodRethrow<uint8_t>(*this, ___internal_method, style);
 }
-// Ctor Parameters [CppParam { name: "bold", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "italic", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "underline", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "strikethrough", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "highlight", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "superscript", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "subscript", ty: "uint8_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "uppercase", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lowercase", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "smallcaps", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "bold", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "italic", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "underline", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "strikethrough", ty: "uint8_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "highlight", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "superscript", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "subscript", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uppercase", ty: "uint8_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "lowercase", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "smallcaps", ty: "uint8_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::FontStyleStack::FontStyleStack(uint8_t bold, uint8_t italic, uint8_t underline, uint8_t strikethrough, uint8_t highlight, uint8_t superscript,
                                                                         uint8_t subscript, uint8_t uppercase, uint8_t lowercase, uint8_t smallcaps) noexcept {
   this->bold = bold;

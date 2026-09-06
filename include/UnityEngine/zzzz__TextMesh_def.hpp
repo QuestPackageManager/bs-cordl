@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextMesh.hpp"
+// IWYU pragma private; include "UnityEngine/TextMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,9 @@ class TextMesh;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextMesh*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextMesh*, "UnityEngine", "TextMesh");
+// [RequireComponent(typeof(UnityEngine.Transform), typeof(UnityEngine.MeshRenderer))]
+// [NativeClass("TextRenderingPrivate::TextMesh")]
+// [NativeHeader("Modules/TextRendering/Public/TextMesh.h")]
 // Dependencies UnityEngine.Component
 namespace UnityEngine {
 // Is value type: false
@@ -62,13 +65,13 @@ protected:
   constexpr TextMesh();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextMesh(TextMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextMesh(TextMesh const&) = delete;
+  TextMesh(TextMeshconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22423 };

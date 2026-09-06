@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\QueryKeyNameCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryKeyNameCommand.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryKeyNameCommand_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryKeyNameCommand_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer::QueryKeyNameCommand__nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -118,9 +118,9 @@ constexpr UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::operator ::Un
 constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}") }, CppParam { name: "scanOrKeyCode", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nameBuffer", ty: "::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "scanOrKeyCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nameBuffer", ty:
+// "::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::QueryKeyNameCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, int32_t scanOrKeyCode,
                                                                                          ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer nameBuffer) noexcept {
   this->baseCommand = baseCommand;

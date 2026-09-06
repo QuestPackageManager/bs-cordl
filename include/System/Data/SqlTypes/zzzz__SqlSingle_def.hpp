@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlSingle.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlSingle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ struct SqlSingle;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlSingle);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlSingle, "System.Data.SqlTypes", "SqlSingle");
+// [XmlSchemaProvider("GetXsdType")]
 // Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -226,7 +227,8 @@ public:
   // @brief default ctor
   constexpr SqlSingle();
 
-  // Ctor Parameters [CppParam { name: "_fNotNull", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_fNotNull", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_value", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr SqlSingle(bool _fNotNull, float_t _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

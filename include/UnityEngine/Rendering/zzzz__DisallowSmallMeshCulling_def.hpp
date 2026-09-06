@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DisallowSmallMeshCulling.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DisallowSmallMeshCulling.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class DisallowSmallMeshCulling;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::DisallowSmallMeshCulling*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DisallowSmallMeshCulling*, "UnityEngine.Rendering", "DisallowSmallMeshCulling");
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -74,13 +75,13 @@ protected:
   constexpr DisallowSmallMeshCulling();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisallowSmallMeshCulling", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisallowSmallMeshCulling", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisallowSmallMeshCulling(DisallowSmallMeshCulling&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisallowSmallMeshCulling", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisallowSmallMeshCulling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisallowSmallMeshCulling(DisallowSmallMeshCulling const&) = delete;
+  DisallowSmallMeshCulling(DisallowSmallMeshCullingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17597 };

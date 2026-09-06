@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\IExtensibleDataObject.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/IExtensibleDataObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,15 +23,15 @@ public:
   // Declarations
   __declspec(property(get = get_ExtensionData, put = set_ExtensionData)) ::System::Runtime::Serialization::ExtensionDataObject* ExtensionData;
 
-  /// @brief Method get_ExtensionData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ExtensionData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Serialization::ExtensionDataObject* get_ExtensionData();
 
-  /// @brief Method set_ExtensionData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_ExtensionData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ExtensionData(::System::Runtime::Serialization::ExtensionDataObject* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IExtensibleDataObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IExtensibleDataObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IExtensibleDataObject(IExtensibleDataObject const&) = delete;
+  IExtensibleDataObject(IExtensibleDataObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17052 };

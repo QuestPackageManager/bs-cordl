@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseCaptureOutEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseCaptureOutEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ MARK_REF_T(::UnityEngine::UIElements::MouseCaptureOutEvent*);
 MARK_REF_T(::UnityEngine::UIElements::MouseCaptureOutEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseCaptureOutEvent*, "UnityEngine.UIElements", "MouseCaptureOutEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseCaptureOutEvent___c*, "UnityEngine.UIElements", "MouseCaptureOutEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -52,13 +53,13 @@ protected:
   constexpr MouseCaptureOutEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseCaptureOutEvent___c(MouseCaptureOutEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseCaptureOutEvent___c(MouseCaptureOutEvent___c const&) = delete;
+  MouseCaptureOutEvent___c(MouseCaptureOutEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4434 };
@@ -92,13 +93,13 @@ protected:
   constexpr MouseCaptureOutEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseCaptureOutEvent(MouseCaptureOutEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseCaptureOutEvent(MouseCaptureOutEvent const&) = delete;
+  MouseCaptureOutEvent(MouseCaptureOutEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4435 };

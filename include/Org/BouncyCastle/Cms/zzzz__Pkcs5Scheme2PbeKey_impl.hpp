@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\Pkcs5Scheme2PbeKey.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/Pkcs5Scheme2PbeKey.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsPbeKey_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__Pkcs5Scheme2PbeKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
@@ -107,9 +107,11 @@ inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Org::BouncyCastle:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*>(this, ___internal_method, algorithmOid);
 }
+/// @brief [Obsolete("Use version taking \'char[]\' instead")]
 inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey* Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::New_ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey*>(password, salt, iterationCount));
 }
+/// @brief [Obsolete("Use version taking \'char[]\' instead")]
 inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey* Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::New_ctor(::StringW password,
                                                                                                           ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey*>(password, keyDerivationAlgorithm));

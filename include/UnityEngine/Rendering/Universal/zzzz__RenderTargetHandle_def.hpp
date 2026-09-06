@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderTargetHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderTargetHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ struct RenderTargetHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::RenderTargetHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::RenderTargetHandle, "UnityEngine.Rendering.Universal", "RenderTargetHandle");
+// [Obsolete("Deprecated in favor of RTHandle", true)]
 // Dependencies UnityEngine.Rendering.RenderTargetIdentifier
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -73,9 +74,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::RenderTargetHandle getStaticF_CameraTarget();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_id, addr 0x68b7958, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_rtid, addr 0x68b7978, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_rtid();
 
@@ -87,9 +92,11 @@ public:
 
   static inline void setStaticF_CameraTarget(::UnityEngine::Rendering::Universal::RenderTargetHandle value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_id, addr 0x68b7950, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rtid, addr 0x68b7960, size 0x18, virtual false, abstract: false, final false
   inline void set_rtid(::UnityEngine::Rendering::RenderTargetIdentifier value);
 
@@ -97,8 +104,8 @@ public:
   // @brief default ctor
   constexpr RenderTargetHandle();
 
-  // Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_rtid_k__BackingField", ty:
-  // "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_rtid_k__BackingField", ty:
+  // "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None, comment: None }]
   constexpr RenderTargetHandle(int32_t _id_k__BackingField, ::UnityEngine::Rendering::RenderTargetIdentifier _rtid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -107,9 +114,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
+  /// [CompilerGenerated]
   /// @brief Field <id>k__BackingField, offset: 0x0, size: 0x4, def value: None
   int32_t _id_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rtid>k__BackingField, offset: 0x8, size: 0x28, def value: None
   ::UnityEngine::Rendering::RenderTargetIdentifier _rtid_k__BackingField;
 

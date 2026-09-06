@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\BsonObjectIdConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/BsonObjectIdConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class BsonObjectIdConverter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::BsonObjectIdConverter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::BsonObjectIdConverter*, "Newtonsoft.Json.Converters", "BsonObjectIdConverter");
+// [Obsolete("BSON reading and writing has been moved to its own package. See https://www.nuget.org/packages/Newtonsoft.Json.Bson for more details.")]
 // Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -54,13 +55,13 @@ protected:
   constexpr BsonObjectIdConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonObjectIdConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonObjectIdConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonObjectIdConverter(BsonObjectIdConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonObjectIdConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonObjectIdConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonObjectIdConverter(BsonObjectIdConverter const&) = delete;
+  BsonObjectIdConverter(BsonObjectIdConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13650 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\RenderModel_TextureMap_t_Packed.hpp"
+// IWYU pragma private; include "OVR/OpenVR/RenderModel_TextureMap_t_Packed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,8 +35,8 @@ public:
   // @brief default ctor
   constexpr RenderModel_TextureMap_t_Packed();
 
-  // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rubTextureMapData", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "rubTextureMapData", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth, uint16_t unHeight, ::System::IntPtr rubTextureMapData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

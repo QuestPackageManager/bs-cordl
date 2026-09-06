@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\ShaderPropertyIDFromRendererAttribute.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/ShaderPropertyIDFromRendererAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class ShaderPropertyIDFromRendererAttribute;
 // Write type traits
 MARK_REF_T(::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute*);
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute*, "BGLib.UnityExtension", "ShaderPropertyIDFromRendererAttribute");
+// [AttributeUsage((System.AttributeTargets)256)]
 // Dependencies BGLib.UnityExtension.ShaderPropertyIDAttribute
 namespace BGLib::UnityExtension {
 // Is value type: false
@@ -47,13 +48,13 @@ protected:
   constexpr ShaderPropertyIDFromRendererAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderPropertyIDFromRendererAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderPropertyIDFromRendererAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderPropertyIDFromRendererAttribute(ShaderPropertyIDFromRendererAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderPropertyIDFromRendererAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderPropertyIDFromRendererAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderPropertyIDFromRendererAttribute(ShaderPropertyIDFromRendererAttribute const&) = delete;
+  ShaderPropertyIDFromRendererAttribute(ShaderPropertyIDFromRendererAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20817 };

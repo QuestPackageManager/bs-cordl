@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FocusChangeDirection.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FocusChangeDirection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,12 +70,15 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* getStaticF__unspecified_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lastValue, addr 0x6da7ffc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_lastValue();
 
+  /// [CompilerGenerated]
   /// @brief Method get_none, addr 0x6da7fa0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_none();
 
+  /// [CompilerGenerated]
   /// @brief Method get_unspecified, addr 0x6da7f44, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_unspecified();
 
@@ -97,13 +100,13 @@ protected:
   constexpr FocusChangeDirection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FocusChangeDirection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusChangeDirection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusChangeDirection(FocusChangeDirection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FocusChangeDirection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusChangeDirection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FocusChangeDirection(FocusChangeDirection const&) = delete;
+  FocusChangeDirection(FocusChangeDirectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4580 };

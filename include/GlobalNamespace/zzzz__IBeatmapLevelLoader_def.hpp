@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IBeatmapLevelLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/IBeatmapLevelLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class IBeatmapLevelLoader;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::IBeatmapLevelLoader*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::IBeatmapLevelLoader*, "", "IBeatmapLevelLoader");
+// [NullableContext(2)]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: false
@@ -45,30 +46,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CheckBeatmapLevelDataExistsAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [NullableContext(1)]
+  /// @brief Method CheckBeatmapLevelDataExistsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataExistsAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                     ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ClearCache, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ClearCache();
 
-  /// @brief Method LoadBeatmapLevelDataAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [NullableContext(1)]
+  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                       ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                                       ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method add_levelDownloadingUpdateEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_levelDownloadingUpdateEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate>* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_levelDownloadingUpdateEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_levelDownloadingUpdateEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate>* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevelLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevelLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBeatmapLevelLoader(IBeatmapLevelLoader const&) = delete;
+  IBeatmapLevelLoader(IBeatmapLevelLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15036 };

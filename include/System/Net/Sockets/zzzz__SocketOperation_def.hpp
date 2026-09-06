@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\SocketOperation.hpp"
+// IWYU pragma private; include "System/Net/Sockets/SocketOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   // @brief default ctor
   constexpr SocketOperation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SocketOperation(int32_t value__) noexcept;
 
   /// @brief Field Accept value: I32(0)

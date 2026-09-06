@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Vector2Extensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/Vector2Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector2Extensions_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"

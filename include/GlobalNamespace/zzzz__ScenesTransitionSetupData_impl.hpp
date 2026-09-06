@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_def.hpp"
@@ -184,25 +184,25 @@ inline void GlobalNamespace::ScenesTransitionSetupData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScenesTransitionSetupData*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::ScenesTransitionSetupData::_ctor(::StringW scene, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
+inline void GlobalNamespace::ScenesTransitionSetupData::_ctor(::StringW scene, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScenesTransitionSetupData*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::SceneSetupData*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, scene, sceneSetupData);
 }
-inline void GlobalNamespace::ScenesTransitionSetupData::_ctor(::ArrayW<::StringW> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
+inline void GlobalNamespace::ScenesTransitionSetupData::_ctor(::ArrayW<::StringW> scenes, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScenesTransitionSetupData*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::SceneSetupData*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, scenes, sceneSetupData);
 }
-inline void GlobalNamespace::ScenesTransitionSetupData::Init(::ArrayW<::StringW> newScenes, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
+inline void GlobalNamespace::ScenesTransitionSetupData::Init(::ArrayW<::StringW> newScenes, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScenesTransitionSetupData*>(),
                                                            { "Init", {}, { ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::SceneSetupData*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newScenes, sceneSetupData);
 }
-inline void GlobalNamespace::ScenesTransitionSetupData::Init(::StringW scene, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
+inline void GlobalNamespace::ScenesTransitionSetupData::Init(::StringW scene, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScenesTransitionSetupData*>(),
                                                            { "Init", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::SceneSetupData*>>() } })));
@@ -221,10 +221,12 @@ inline void GlobalNamespace::ScenesTransitionSetupData::InstallBindings(::Zenjec
 inline ::GlobalNamespace::ScenesTransitionSetupData* GlobalNamespace::ScenesTransitionSetupData::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScenesTransitionSetupData*>());
 }
-inline ::GlobalNamespace::ScenesTransitionSetupData* GlobalNamespace::ScenesTransitionSetupData::New_ctor(::StringW scene, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
+inline ::GlobalNamespace::ScenesTransitionSetupData* GlobalNamespace::ScenesTransitionSetupData::New_ctor(::StringW scene,
+                                                                                                          /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScenesTransitionSetupData*>(scene, sceneSetupData));
 }
-inline ::GlobalNamespace::ScenesTransitionSetupData* GlobalNamespace::ScenesTransitionSetupData::New_ctor(::ArrayW<::StringW> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
+inline ::GlobalNamespace::ScenesTransitionSetupData* GlobalNamespace::ScenesTransitionSetupData::New_ctor(::ArrayW<::StringW> scenes,
+                                                                                                          /* [ParamArray] */ ::ArrayW<::GlobalNamespace::SceneSetupData*> sceneSetupData) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScenesTransitionSetupData*>(scenes, sceneSetupData));
 }
 // Ctor Parameters []

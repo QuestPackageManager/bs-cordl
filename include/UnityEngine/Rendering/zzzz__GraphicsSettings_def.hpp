@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GraphicsSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GraphicsSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(GraphicsSettings)
@@ -64,6 +66,7 @@ MARK_REF_T(::UnityEngine::Rendering::GraphicsSettings*);
 MARK_REF_T(::UnityEngine::Rendering::GraphicsSettings___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GraphicsSettings*, "UnityEngine.Rendering", "GraphicsSettings");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::GraphicsSettings___c*, "UnityEngine.Rendering", "GraphicsSettings/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -92,13 +95,13 @@ protected:
   constexpr GraphicsSettings___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicsSettings___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicsSettings___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphicsSettings___c(GraphicsSettings___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicsSettings___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicsSettings___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphicsSettings___c(GraphicsSettings___c const&) = delete;
+  GraphicsSettings___c(GraphicsSettings___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10761 };
@@ -109,7 +112,9 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::GraphicsSettings___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Object
+// [NativeHeader("Runtime/Camera/GraphicsSettings.h")]
+// [StaticAccessor("GetGraphicsSettings()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// Dependencies UnityEngine.Object, UnityEngine.Rendering.IRenderPipelineGraphicsSettings, UnityEngine.Rendering.RenderPipeline
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.GraphicsSettings
@@ -123,17 +128,25 @@ public:
                       put =
                           setStaticF_s_CurrentRenderPipelineGlobalSettings)) ::System::Lazy_1<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings>>* s_CurrentRenderPipelineGlobalSettings;
 
+  /// [VisibleToOtherModules]
+  /// [RequiredByNativeCode]
   /// @brief Method GetDefaultMaterial, addr 0x6b0aec0, size 0x24c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetDefaultMaterial(::UnityEngine::Rendering::DefaultMaterialType type);
 
+  /// [VisibleToOtherModules]
+  /// [RequiredByNativeCode]
   /// @brief Method GetDefaultShader, addr 0x6b0ac58, size 0x268, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> GetDefaultShader(::UnityEngine::Rendering::DefaultShaderType type);
 
   /// @brief Method GetRenderPipelineSettings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetRenderPipelineSettings();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> && ::cordl_internals::reference_type_constraint<T>)
+  static inline T GetRenderPipelineSettings();
 
   /// @brief Method GetSettingsForRenderPipeline, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> GetSettingsForRenderPipeline();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::RenderPipeline*>)
+  static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> GetSettingsForRenderPipeline();
 
   /// @brief Method HasShaderDefine, addr 0x6b0a5c8, size 0xcc, virtual false, abstract: false, final false
   static inline bool HasShaderDefine(::UnityEngine::Rendering::BuiltinShaderDefine defineHash);
@@ -144,6 +157,7 @@ public:
   /// @brief Method Internal_GetCurrentRenderPipelineGlobalSettings, addr 0x6b0a208, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> Internal_GetCurrentRenderPipelineGlobalSettings();
 
+  /// [NativeName("GetSettingsForRenderPipeline")]
   /// @brief Method Internal_GetSettingsForRenderPipeline, addr 0x6b09f2c, size 0x2a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Internal_GetSettingsForRenderPipeline(::StringW renderpipelineName);
 
@@ -154,7 +168,9 @@ public:
   static inline bool TryGetCurrentRenderPipelineGlobalSettings(::by_ref<::UnityEngine::Rendering::RenderPipelineGlobalSettings*> asset);
 
   /// @brief Method TryGetRenderPipelineSettings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool TryGetRenderPipelineSettings(::by_ref<T> settings);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> && ::cordl_internals::reference_type_constraint<T>)
+  static inline bool TryGetRenderPipelineSettings(::by_ref<T> settings);
 
   static inline ::System::Lazy_1<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings>>* getStaticF_s_CurrentRenderPipelineGlobalSettings();
 
@@ -211,13 +227,13 @@ protected:
   constexpr GraphicsSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicsSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicsSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphicsSettings(GraphicsSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicsSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicsSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphicsSettings(GraphicsSettings const&) = delete;
+  GraphicsSettings(GraphicsSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10762 };

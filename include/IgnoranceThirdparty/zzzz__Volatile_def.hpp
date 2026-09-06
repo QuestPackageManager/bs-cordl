@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceThirdparty\Volatile.hpp"
+// IWYU pragma private; include "IgnoranceThirdparty/Volatile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,7 +89,7 @@ public:
   // @brief default ctor
   constexpr Volatile_PaddedLong();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr Volatile_PaddedLong(int64_t _value) noexcept;
 
 private:
@@ -143,13 +143,13 @@ protected:
   constexpr Volatile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Volatile(Volatile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Volatile(Volatile const&) = delete;
+  Volatile(Volatileconst&) = delete;
 
   /// @brief Field CacheLineSize offset 0xffffffff size 0x4
   static constexpr int32_t CacheLineSize{ static_cast<int32_t>(0x40) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\AsyncLocal_1.hpp"
+// IWYU pragma private; include "System/Threading/AsyncLocal_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,13 +68,13 @@ protected:
   constexpr AsyncLocal_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncLocal_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncLocal_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncLocal_1(AsyncLocal_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncLocal_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncLocal_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncLocal_1(AsyncLocal_1 const&) = delete;
+  AsyncLocal_1(AsyncLocal_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2669 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OrderedSet_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OrderedSet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
   // @brief default ctor
   constexpr OrderedSet_1_ProcessOrder();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OrderedSet_1_ProcessOrder(int32_t value__) noexcept;
 
   /// @brief Field DontCare value: I32(2)
@@ -184,13 +184,13 @@ protected:
   constexpr OrderedSet_1_Node();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1_Node", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1_Node", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrderedSet_1_Node(OrderedSet_1_Node&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1_Node", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1_Node", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedSet_1_Node(OrderedSet_1_Node const&) = delete;
+  OrderedSet_1_Node(OrderedSet_1_Nodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18240 };
@@ -214,6 +214,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
@@ -251,17 +252,22 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OrderedSet_1__GetEnumerator_d__23<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -289,6 +295,7 @@ public:
 
   constexpr void __cordl_internal_set__next_5__2(::GlobalNamespace::OrderedSet_1_Node<T>* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -307,13 +314,13 @@ protected:
   constexpr OrderedSet_1__GetEnumerator_d__23();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1__GetEnumerator_d__23", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1__GetEnumerator_d__23", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrderedSet_1__GetEnumerator_d__23(OrderedSet_1__GetEnumerator_d__23&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1__GetEnumerator_d__23", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1__GetEnumerator_d__23", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedSet_1__GetEnumerator_d__23(OrderedSet_1__GetEnumerator_d__23 const&) = delete;
+  OrderedSet_1__GetEnumerator_d__23(OrderedSet_1__GetEnumerator_d__23const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18241 };
@@ -391,6 +398,7 @@ public:
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Contains(T item);
 
+  /// [IteratorStateMachine(typeof(OrderedSet`1::<GetEnumerator>d__23<T>))]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
@@ -480,13 +488,13 @@ protected:
   constexpr OrderedSet_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrderedSet_1(OrderedSet_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedSet_1(OrderedSet_1 const&) = delete;
+  OrderedSet_1(OrderedSet_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18242 };

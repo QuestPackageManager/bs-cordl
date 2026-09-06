@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CopyPosition.hpp"
+// IWYU pragma private; include "GlobalNamespace/CopyPosition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ MARK_REF_T(::GlobalNamespace::CopyPosition*);
 MARK_REF_T(::GlobalNamespace::CopyPosition_CopyPositionUpdater*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CopyPosition*, "", "CopyPosition");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CopyPosition_CopyPositionUpdater*, "", "CopyPosition/CopyPositionUpdater");
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr CopyPosition_CopyPositionUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CopyPosition_CopyPositionUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyPosition_CopyPositionUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyPosition_CopyPositionUpdater(CopyPosition_CopyPositionUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CopyPosition_CopyPositionUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyPosition_CopyPositionUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyPosition_CopyPositionUpdater(CopyPosition_CopyPositionUpdater const&) = delete;
+  CopyPosition_CopyPositionUpdater(CopyPosition_CopyPositionUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21401 };
@@ -89,6 +90,7 @@ static_assert(offsetof(::GlobalNamespace::CopyPosition_CopyPositionUpdater, ____
 static_assert(sizeof(::GlobalNamespace::CopyPosition_CopyPositionUpdater) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -124,13 +126,13 @@ protected:
   constexpr CopyPosition();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CopyPosition", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyPosition", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyPosition(CopyPosition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CopyPosition", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyPosition", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyPosition(CopyPosition const&) = delete;
+  CopyPosition(CopyPositionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21402 };

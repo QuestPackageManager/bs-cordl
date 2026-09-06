@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_SpriteAsset.hpp"
+// IWYU pragma private; include "TMPro/TMP_SpriteAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::TMPro::TMP_SpriteAsset*);
 MARK_REF_T(::TMPro::TMP_SpriteAsset___c*);
 DEFINE_IL2CPP_CLASS(::TMPro::TMP_SpriteAsset*, "TMPro", "TMP_SpriteAsset");
 DEFINE_IL2CPP_CLASS(::TMPro::TMP_SpriteAsset___c*, "TMPro", "TMP_SpriteAsset/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -95,13 +96,13 @@ protected:
   constexpr TMP_SpriteAsset___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_SpriteAsset___c(TMP_SpriteAsset___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_SpriteAsset___c(TMP_SpriteAsset___c const&) = delete;
+  TMP_SpriteAsset___c(TMP_SpriteAsset___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15980 };
@@ -112,6 +113,8 @@ public:
 static_assert(sizeof(::TMPro::TMP_SpriteAsset___c) == 0x10, "Size mismatch!");
 
 } // namespace TMPro
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/Sprites.html")]
+// [ExcludeFromPreset]
 // Dependencies TMPro.TMP_Asset
 namespace TMPro {
 // Is value type: false
@@ -309,13 +312,13 @@ protected:
   constexpr TMP_SpriteAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_SpriteAsset(TMP_SpriteAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_SpriteAsset(TMP_SpriteAsset const&) = delete;
+  TMP_SpriteAsset(TMP_SpriteAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15981 };
@@ -329,12 +332,15 @@ public:
   /// @brief Field spriteSheet, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> ___spriteSheet;
 
+  /// [SerializeField]
   /// @brief Field m_SpriteCharacterTable, offset: 0xb0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteCharacter*>* ___m_SpriteCharacterTable;
 
   /// @brief Field m_SpriteCharacterLookup, offset: 0xb8, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_SpriteCharacter*>* ___m_SpriteCharacterLookup;
 
+  /// [FormerlySerializedAs("m_SpriteGlyphTable")]
+  /// [SerializeField]
   /// @brief Field m_GlyphTable, offset: 0xc0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>* ___m_GlyphTable;
 
@@ -344,6 +350,7 @@ public:
   /// @brief Field spriteInfoList, offset: 0xd0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::TMPro::TMP_Sprite*>* ___spriteInfoList;
 
+  /// [SerializeField]
   /// @brief Field fallbackSpriteAssets, offset: 0xd8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* ___fallbackSpriteAssets;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Metadata\SoapAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Metadata/SoapAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class SoapAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Metadata::SoapAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Metadata::SoapAttribute*, "System.Runtime.Remoting.Metadata", "SoapAttribute");
+// [ComVisible(true)]
 // Dependencies System.Attribute
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
@@ -74,13 +75,13 @@ protected:
   constexpr SoapAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoapAttribute(SoapAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoapAttribute(SoapAttribute const&) = delete;
+  SoapAttribute(SoapAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3154 };

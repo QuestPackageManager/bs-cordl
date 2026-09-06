@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FirstPersonFlyingControllerEnableHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/FirstPersonFlyingControllerEnableHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,8 @@ public:
 
   __declspec(property(get = get_flyingControllerEnabled, put = set_flyingControllerEnabled)) bool flyingControllerEnabled;
 
+  /// [Inject]
+  /// [UsedImplicitly]
   /// @brief Method InstallDependencies, addr 0x591d078, size 0xb0, virtual false, abstract: false, final false
   inline void InstallDependencies(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult);
 
@@ -68,13 +70,13 @@ protected:
   constexpr FirstPersonFlyingControllerEnableHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingControllerEnableHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingControllerEnableHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FirstPersonFlyingControllerEnableHandler(FirstPersonFlyingControllerEnableHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingControllerEnableHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingControllerEnableHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FirstPersonFlyingControllerEnableHandler(FirstPersonFlyingControllerEnableHandler const&) = delete;
+  FirstPersonFlyingControllerEnableHandler(FirstPersonFlyingControllerEnableHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6804 };
@@ -82,6 +84,7 @@ public:
   /// @brief Field kKeyToToggleFPFC value: I32(292)
   static ::UnityEngine::KeyCode const kKeyToToggleFPFC;
 
+  /// [SerializeField]
   /// @brief Field _flyingController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FirstPersonFlyingController> ____flyingController;
 

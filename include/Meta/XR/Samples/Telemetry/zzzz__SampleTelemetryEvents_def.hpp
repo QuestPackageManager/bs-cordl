@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\Samples\Telemetry\SampleTelemetryEvents.hpp"
+// IWYU pragma private; include "Meta/XR/Samples/Telemetry/SampleTelemetryEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ MARK_REF_T(::Meta::XR::Samples::Telemetry::SampleTelemetryEvents_EventTypes*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::Samples::Telemetry::SampleTelemetryEvents*, "Meta.XR.Samples.Telemetry", "SampleTelemetryEvents");
 DEFINE_IL2CPP_CLASS(::Meta::XR::Samples::Telemetry::SampleTelemetryEvents_AnnotationTypes*, "Meta.XR.Samples.Telemetry", "SampleTelemetryEvents/AnnotationTypes");
 DEFINE_IL2CPP_CLASS(::Meta::XR::Samples::Telemetry::SampleTelemetryEvents_EventTypes*, "Meta.XR.Samples.Telemetry", "SampleTelemetryEvents/EventTypes");
+// [OVRTelemetry::Markers]
 // Dependencies System.Object
 namespace Meta::XR::Samples::Telemetry {
 // Is value type: false
@@ -43,13 +44,13 @@ protected:
   constexpr SampleTelemetryEvents_EventTypes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_EventTypes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_EventTypes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SampleTelemetryEvents_EventTypes(SampleTelemetryEvents_EventTypes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_EventTypes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_EventTypes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SampleTelemetryEvents_EventTypes(SampleTelemetryEvents_EventTypes const&) = delete;
+  SampleTelemetryEvents_EventTypes(SampleTelemetryEvents_EventTypesconst&) = delete;
 
   /// @brief Field Close offset 0xffffffff size 0x4
   static constexpr int32_t Close{ static_cast<int32_t>(0x9b80cf0) };
@@ -82,13 +83,13 @@ protected:
   constexpr SampleTelemetryEvents_AnnotationTypes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_AnnotationTypes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_AnnotationTypes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SampleTelemetryEvents_AnnotationTypes(SampleTelemetryEvents_AnnotationTypes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_AnnotationTypes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents_AnnotationTypes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SampleTelemetryEvents_AnnotationTypes(SampleTelemetryEvents_AnnotationTypes const&) = delete;
+  SampleTelemetryEvents_AnnotationTypes(SampleTelemetryEvents_AnnotationTypesconst&) = delete;
 
   /// @brief Field BuildTarget offset 0xffffffff size 0x8
   static constexpr ::ConstString BuildTarget{ u"BuildTarget" };
@@ -134,13 +135,13 @@ protected:
   constexpr SampleTelemetryEvents();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SampleTelemetryEvents(SampleTelemetryEvents&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SampleTelemetryEvents(SampleTelemetryEvents const&) = delete;
+  SampleTelemetryEvents(SampleTelemetryEventsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8570 };

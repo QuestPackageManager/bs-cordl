@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\HttpTransport.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/HttpTransport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ MARK_REF_T(::OculusStudios::GraphQL::Client::HttpTransport*);
 MARK_VAL_T(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10);
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpTransport*, "OculusStudios.GraphQL.Client", "HttpTransport");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10, "OculusStudios.GraphQL.Client", "HttpTransport/<ExecuteAsync>d__10");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.TimeSpan
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
@@ -79,6 +80,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f2b370, size 0x910, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f2bc80, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -89,15 +91,16 @@ public:
   // @brief default ctor
   constexpr HttpTransport__ExecuteAsync_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::OculusStudios::GraphQL::Client::HttpTransport*", modifiers: "", def_value: None }, CppParam { name: "graphQLRequest", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "",
-  // def_value: None }, CppParam { name: "_httpRequest_5__2", ty: "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: None }, CppParam { name: "_stopWatch_5__3", ty:
-  // "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None }, CppParam { name: "_httpResponse_5__5", ty:
-  // "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "_latency_5__6", ty: "::System::TimeSpan",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__4__this", ty: "::OculusStudios::GraphQL::Client::HttpTransport*", modifiers: "", def_value: None, comment: None }, CppParam { name: "graphQLRequest", ty:
+  // "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_httpRequest_5__2", ty: "::System::Net::Http::HttpRequestMessage*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_stopWatch_5__3", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__7__wrap3", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_httpResponse_5__5", ty:
+  // "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_latency_5__6", ty:
+  // "::System::TimeSpan", modifiers: "", def_value: None, comment: None }]
   constexpr HttpTransport__ExecuteAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
                                               ::OculusStudios::GraphQL::Client::HttpTransport* __4__this, ::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest,
                                               ::System::Net::Http::HttpRequestMessage* _httpRequest_5__2, ::System::Diagnostics::Stopwatch* _stopWatch_5__3,
@@ -206,6 +209,7 @@ public:
   /// @brief Method Dispose, addr 0x5f2b36c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpTransport::<ExecuteAsync>d__10))]
   /// @brief Method ExecuteAsync, addr 0x5f26cb8, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* ExecuteAsync(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest,
                                                                                                                     ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* _);
@@ -245,9 +249,11 @@ public:
   /// @brief Method .ctor, addr 0x5f1efe0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AccessToken, addr 0x5f2a5c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AccessToken();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Endpoint, addr 0x5f2a5b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Endpoint();
 
@@ -257,9 +263,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_AccessToken, addr 0x5f2a5d0, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessToken(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Endpoint, addr 0x5f2a5c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Endpoint(::StringW value);
 
@@ -269,20 +277,22 @@ protected:
   constexpr HttpTransport();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpTransport", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpTransport", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpTransport(HttpTransport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpTransport", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpTransport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpTransport(HttpTransport const&) = delete;
+  HttpTransport(HttpTransportconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20435 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Endpoint>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Endpoint_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AccessToken>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____AccessToken_k__BackingField;
 

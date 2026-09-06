@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -77,7 +77,8 @@ inline void GlobalNamespace::StandardLevelScenesTransitionSetupData___c::_ctor()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::StandardLevelScenesTransitionSetupData___c::_Init_b__43_0(::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* t) {
+inline void
+GlobalNamespace::StandardLevelScenesTransitionSetupData___c::_Init_b__43_0(/* [Nullable(new[] { 0, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData___c*>(),
                                                            { "<Init>b__43_0", {}, { ::i2c::type_of<::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*>() } })));
@@ -646,7 +647,7 @@ constexpr void GlobalNamespace::StandardLevelScenesTransitionSetupData::__cordl_
   this->____gameplayModifiers_k__BackingField = value;
 }
 inline void GlobalNamespace::StandardLevelScenesTransitionSetupData::add_didFinishEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value) {
+    /* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -655,7 +656,7 @@ inline void GlobalNamespace::StandardLevelScenesTransitionSetupData::add_didFini
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::StandardLevelScenesTransitionSetupData::remove_didFinishEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value) {
+    /* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -763,12 +764,13 @@ inline void GlobalNamespace::StandardLevelScenesTransitionSetupData::set_gamepla
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::StandardLevelScenesTransitionSetupData::Init(
-    ::StringW gameMode, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings,
-    ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
+    ::StringW gameMode, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+    /* [Nullable(2)] */ ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, /* [Nullable(2)] */ ::GlobalNamespace::ColorScheme* playerOverrideColorScheme,
+    bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+    /* [Nullable(2)] */ ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
     ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation,
-    ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
-    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) {
+    ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, /* [Nullable(2)] */ ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel,
+    /* [Nullable(2)] */ ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, /* [Nullable(2)] */ ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(),
                                                            { "Init",
@@ -792,7 +794,7 @@ inline void GlobalNamespace::StandardLevelScenesTransitionSetupData::Finish(::Gl
 }
 inline ::System::ValueTuple_3<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>, bool>
 GlobalNamespace::StandardLevelScenesTransitionSetupData::GetEnvironmentInfo(::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                            ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings,
+                                                                            /* [Nullable(2)] */ ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings,
                                                                             ::GlobalNamespace::EnvironmentsListModel* environmentsListModel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(),
@@ -804,7 +806,7 @@ GlobalNamespace::StandardLevelScenesTransitionSetupData::GetEnvironmentInfo(::Gl
       nullptr, ___internal_method, beatmapKey, beatmapLevel, overrideEnvironmentSettings, environmentsListModel);
 }
 inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO>
-GlobalNamespace::StandardLevelScenesTransitionSetupData::GetEnvironmentOverride(::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
+GlobalNamespace::StandardLevelScenesTransitionSetupData::GetEnvironmentOverride(/* [Nullable(1)] */ ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
                                                                                 ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -812,11 +814,10 @@ GlobalNamespace::StandardLevelScenesTransitionSetupData::GetEnvironmentOverride(
                           { "GetEnvironmentOverride", {}, { ::i2c::type_of<::GlobalNamespace::EnvironmentInfoSO*>(), ::i2c::type_of<::GlobalNamespace::OverrideEnvironmentSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>(nullptr, ___internal_method, targetEnvironmentInfo, overrideEnvironmentSettings);
 }
-inline ::System::ValueTuple_2<bool, ::GlobalNamespace::ColorScheme*> GlobalNamespace::StandardLevelScenesTransitionSetupData::GetColorInfo(::GlobalNamespace::ColorScheme* playerOverrideColorScheme,
-                                                                                                                                           bool playerOverrideLightshowColors,
-                                                                                                                                           ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme,
-                                                                                                                                           ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
-                                                                                                                                           bool usingOverrideEnvironment) {
+inline ::System::ValueTuple_2<bool, ::GlobalNamespace::ColorScheme*>
+GlobalNamespace::StandardLevelScenesTransitionSetupData::GetColorInfo(::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
+                                                                      ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme,
+                                                                      /* [Nullable(1)] */ ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo, bool usingOverrideEnvironment) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(),
                                                            { "GetColorInfo",

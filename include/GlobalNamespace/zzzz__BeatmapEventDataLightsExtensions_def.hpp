@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventDataLightsExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventDataLightsExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ protected:
   constexpr BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues(BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues(BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues const&) = delete;
+  BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues(BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValuesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21235 };
@@ -99,6 +99,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -111,15 +112,18 @@ public:
   /// @brief Method GetLightColorTypeFromEventDataValue, addr 0x3259b5c, size 0x24, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType GetLightColorTypeFromEventDataValue(int32_t beatmapEventValue);
 
+  /// [Extension]
   /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x3259ba8, size 0x2c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x3259bd4, size 0x1c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(int32_t beatmapEventValue);
 
+  /// [Extension]
   /// @brief Method HasLightFadeEventDataValue, addr 0x3259b80, size 0x28, virtual false, abstract: false, final false
   static inline bool HasLightFadeEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
+  /// [Extension]
   /// @brief Method LightColorTypeFromEventDataValue, addr 0x3259b48, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType LightColorTypeFromEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
@@ -129,13 +133,13 @@ protected:
   constexpr BeatmapEventDataLightsExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventDataLightsExtensions(BeatmapEventDataLightsExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventDataLightsExtensions(BeatmapEventDataLightsExtensions const&) = delete;
+  BeatmapEventDataLightsExtensions(BeatmapEventDataLightsExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21236 };

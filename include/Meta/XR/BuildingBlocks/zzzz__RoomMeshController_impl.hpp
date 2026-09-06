@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\RoomMeshController.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/RoomMeshController.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRObjectPool_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRResult_2_impl.hpp"
@@ -282,6 +282,7 @@ inline ::System::Object* Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomM
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6* Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6*>(__1__state));
 }
@@ -483,6 +484,7 @@ inline ::System::Object* Meta::XR::BuildingBlocks::RoomMeshController__Start_d__
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4* Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4*>(__1__state));
 }
@@ -663,6 +665,7 @@ inline ::System::Object* Meta::XR::BuildingBlocks::RoomMeshController__UpdateVol
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5* Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5*>(__1__state));
 }

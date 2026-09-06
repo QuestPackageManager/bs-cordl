@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\LateBoundReflectionDelegateFactory.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/LateBoundReflectionDelegateFactory.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionDelegateFactory_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__LateBoundReflectionDelegateFactory_def.hpp"
@@ -87,12 +87,14 @@ inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__0(::ArrayW<::System::Object*> a) {
+inline ::System::Object*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__0(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>(),
                                                                                          { "<CreateParameterizedConstructor>b__0", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, a);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__1(::ArrayW<::System::Object*> a) {
+inline ::System::Object*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__1(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>(),
                                                                                          { "<CreateParameterizedConstructor>b__1", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, a);
@@ -133,13 +135,17 @@ template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflecti
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline ::System::Object* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::_CreateMethodCall_b__0(T o, ::ArrayW<::System::Object*> a) {
+template <typename T>
+inline ::System::Object*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::_CreateMethodCall_b__0(T o, /* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>*>(),
                                                            { "<CreateMethodCall>b__0", {}, { ::i2c::type_of<T>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, o, a);
 }
-template <typename T> inline ::System::Object* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::_CreateMethodCall_b__1(T o, ::ArrayW<::System::Object*> a) {
+template <typename T>
+inline ::System::Object*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::_CreateMethodCall_b__1(T o, /* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> a) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>*>(),
                                                            { "<CreateMethodCall>b__1", {}, { ::i2c::type_of<T>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -284,7 +290,7 @@ template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflecti
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>::_CreateSet_b__0(T o, ::System::Object* v) {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>::_CreateSet_b__0(T o, /* [Nullable(2)] */ ::System::Object* v) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>*>(),
                                                            { "<CreateSet>b__0", {}, { ::i2c::type_of<T>(), ::i2c::type_of<::System::Object*>() } })));
@@ -316,7 +322,7 @@ template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflecti
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>::_CreateSet_b__0(T o, ::System::Object* v) {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>::_CreateSet_b__0(T o, /* [Nullable(2)] */ ::System::Object* v) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>*>(),
                                                            { "<CreateSet>b__0", {}, { ::i2c::type_of<T>(), ::i2c::type_of<::System::Object*>() } })));

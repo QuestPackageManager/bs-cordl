@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CullingResults.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CullingResults.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingResults_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -504,7 +504,9 @@ inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleRefl
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingResults>(), { "get_visibleReflectionProbes", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe>>(*this, ___internal_method);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::CullingResults::GetNativeArray(void* dataPointer, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Rendering::CullingResults::GetNativeArray(void* dataPointer, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingResults>(),
                                                                                               { "GetNativeArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -621,8 +623,8 @@ constexpr UnityEngine::Rendering::CullingResults::operator ::System::IEquatable_
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CullingResults>* UnityEngine::Rendering::CullingResults::i___System__IEquatable_1___UnityEngine__Rendering__CullingResults_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::CullingResults>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AllocationInfo", ty: "::UnityEngine::Rendering::CullingAllocationInfo*",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AllocationInfo", ty:
+// "::UnityEngine::Rendering::CullingAllocationInfo*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CullingResults::CullingResults(::System::IntPtr ptr, ::UnityEngine::Rendering::CullingAllocationInfo* m_AllocationInfo) noexcept {
   this->ptr = ptr;
   this->m_AllocationInfo = m_AllocationInfo;

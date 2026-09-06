@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\MiscellaneousUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/MiscellaneousUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class MiscellaneousUtils;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Utilities::MiscellaneousUtils*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::MiscellaneousUtils*, "Newtonsoft.Json.Utilities", "MiscellaneousUtils");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -44,19 +46,22 @@ public:
   static inline ::StringW GetPrefix(::StringW qualifiedName);
 
   /// @brief Method GetQualifiedNameParts, addr 0x5d2dfec, size 0x98, virtual false, abstract: false, final false
-  static inline void GetQualifiedNameParts(::StringW qualifiedName, ::by_ref<::StringW> prefix, ::by_ref<::StringW> localName);
+  static inline void GetQualifiedNameParts(::StringW qualifiedName, /* [Nullable(2)] */ ::by_ref<::StringW> prefix, ::by_ref<::StringW> localName);
 
   /// @brief Method GetRegexOptions, addr 0x5d2e0a4, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexOptions GetRegexOptions(::StringW optionsText);
 
   /// @brief Method ToString, addr 0x5d2dea8, size 0xa8, virtual false, abstract: false, final false
-  static inline ::StringW ToString(::System::Object* value);
+  static inline ::StringW ToString(/* [Nullable(2)] */ ::System::Object* value);
 
+  /// [NullableContext(2)]
   /// @brief Method ValueEquals, addr 0x5d2db9c, size 0x30c, virtual false, abstract: false, final false
   static inline bool ValueEquals(::System::Object* objA, ::System::Object* objB);
 
+  /// [NullableContext(2)]
+  /// [Conditional("DEBUG")]
   /// @brief Method Assert, addr 0x5d2db98, size 0x4, virtual false, abstract: false, final false
-  static inline void _cordl_Assert(bool condition, ::StringW message);
+  static inline void _cordl_Assert(/* [DoesNotReturnIf(false)] */ bool condition, ::StringW message);
 
 protected:
   // Ctor Parameters []
@@ -64,13 +69,13 @@ protected:
   constexpr MiscellaneousUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MiscellaneousUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscellaneousUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MiscellaneousUtils(MiscellaneousUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MiscellaneousUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MiscellaneousUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MiscellaneousUtils(MiscellaneousUtils const&) = delete;
+  MiscellaneousUtils(MiscellaneousUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13446 };

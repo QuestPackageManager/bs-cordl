@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomLevelsSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomLevelsSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomLevelsSettings_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomLevelsSettings._ctor

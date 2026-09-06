@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DynamicArray_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DynamicArray_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,32 +31,50 @@ namespace System {
 template <typename T> struct Span_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> struct DynamicArray_1_Iterator;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+struct DynamicArray_1_Iterator;
 }
 namespace UnityEngine::Rendering {
-template <typename T> struct DynamicArray_1_RangeEnumerable;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+struct DynamicArray_1_RangeEnumerable;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1_SortComparer;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1_SortComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T> struct RangeEnumerable_DynamicArray_1_RangeIterator;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+struct RangeEnumerable_DynamicArray_1_RangeIterator;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1_SortComparer;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1_SortComparer;
 }
 namespace UnityEngine::Rendering {
-template <typename T> struct DynamicArray_1_Iterator;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+struct DynamicArray_1_Iterator;
 }
 namespace UnityEngine::Rendering {
-template <typename T> struct DynamicArray_1_RangeEnumerable;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+struct DynamicArray_1_RangeEnumerable;
 }
 namespace UnityEngine::Rendering {
-template <typename T> struct RangeEnumerable_DynamicArray_1_RangeIterator;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+struct RangeEnumerable_DynamicArray_1_RangeIterator;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::DynamicArray_1);
@@ -73,6 +91,7 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::RangeEnumerable_DynamicArray_1
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.DynamicArray`1/Iterator<T>
 struct CORDL_TYPE DynamicArray_1_Iterator {
@@ -96,8 +115,8 @@ public:
   // @brief default ctor
   constexpr DynamicArray_1_Iterator();
 
-  // Ctor Parameters [CppParam { name: "owner", ty: "::UnityEngine::Rendering::DynamicArray_1<T>*", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "owner", ty: "::UnityEngine::Rendering::DynamicArray_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr DynamicArray_1_Iterator(::UnityEngine::Rendering::DynamicArray_1<T>* owner, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -120,6 +139,7 @@ public:
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.DynamicArray`1/RangeEnumerable/RangeIterator<T>
 struct CORDL_TYPE RangeEnumerable_DynamicArray_1_RangeIterator {
@@ -143,8 +163,9 @@ public:
   // @brief default ctor
   constexpr RangeEnumerable_DynamicArray_1_RangeIterator();
 
-  // Ctor Parameters [CppParam { name: "owner", ty: "::UnityEngine::Rendering::DynamicArray_1<T>*", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "first", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "last", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "owner", ty: "::UnityEngine::Rendering::DynamicArray_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "first", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "last", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr RangeEnumerable_DynamicArray_1_RangeIterator(::UnityEngine::Rendering::DynamicArray_1<T>* owner, int32_t index, int32_t first, int32_t last) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -173,6 +194,7 @@ public:
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.DynamicArray`1/RangeEnumerable<T>
 struct CORDL_TYPE DynamicArray_1_RangeEnumerable {
@@ -187,7 +209,7 @@ public:
   // @brief default ctor
   constexpr DynamicArray_1_RangeEnumerable();
 
-  // Ctor Parameters [CppParam { name: "iterator", ty: "::UnityEngine::Rendering::RangeEnumerable_DynamicArray_1_RangeIterator<T>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "iterator", ty: "::UnityEngine::Rendering::RangeEnumerable_DynamicArray_1_RangeIterator<T>", modifiers: "", def_value: None, comment: None }]
   constexpr DynamicArray_1_RangeEnumerable(::UnityEngine::Rendering::RangeEnumerable_DynamicArray_1_RangeIterator<T> iterator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -207,6 +229,7 @@ public:
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DynamicArray`1/SortComparer<T>
 class CORDL_TYPE DynamicArray_1_SortComparer : public ::System::MulticastDelegate {
@@ -232,13 +255,13 @@ protected:
   constexpr DynamicArray_1_SortComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1_SortComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1_SortComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicArray_1_SortComparer(DynamicArray_1_SortComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1_SortComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1_SortComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicArray_1_SortComparer(DynamicArray_1_SortComparer const&) = delete;
+  DynamicArray_1_SortComparer(DynamicArray_1_SortComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11904 };
@@ -247,10 +270,13 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
+// [DefaultMember("Item")]
+// [DebuggerDisplay("Size = {size} Capacity = {capacity}")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.DynamicArray`1<T>
 class CORDL_TYPE DynamicArray_1 : public ::System::Object {
@@ -275,7 +301,7 @@ public:
   __declspec(property(get = get_size, put = set_size)) int32_t size;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Add(::by_ref<T> value);
+  inline int32_t Add(/* [IsReadOnly] */ ::by_ref<T> value);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(::UnityEngine::Rendering::DynamicArray_1<T>* array);
@@ -366,9 +392,12 @@ public:
   /// @brief Method get_capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_capacity();
 
+  /// [CompilerGenerated]
   /// @brief Method get_size, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_size();
 
+  /// [Obsolete("This is deprecated because it returns an incorrect value. It may returns an array with elements beyond the size. Please use Span/ReadOnly if you want safe raw access to the
+  /// DynamicArray memory.", false)]
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::ArrayW<T> op_Implicit___ArrayW_T_(::UnityEngine::Rendering::DynamicArray_1<T>* array);
 
@@ -378,6 +407,7 @@ public:
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Span_1<T> op_Implicit___System__Span_1_T_(::UnityEngine::Rendering::DynamicArray_1<T>* array);
 
+  /// [CompilerGenerated]
   /// @brief Method set_size, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_size(int32_t value);
 
@@ -387,13 +417,13 @@ protected:
   constexpr DynamicArray_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicArray_1(DynamicArray_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicArray_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicArray_1(DynamicArray_1 const&) = delete;
+  DynamicArray_1(DynamicArray_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11905 };
@@ -401,6 +431,7 @@ public:
   /// @brief Field m_Array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T> ___m_Array;
 
+  /// [CompilerGenerated]
   /// @brief Field <size>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____size_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\LocalizationImporter.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/LocalizationImporter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class LocalizationImporter;
 // Write type traits
 MARK_REF_T(::BGLib::Polyglot::LocalizationImporter*);
 DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::LocalizationImporter*, "BGLib.Polyglot", "LocalizationImporter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
@@ -45,13 +47,13 @@ protected:
   constexpr LocalizationImporter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizationImporter(LocalizationImporter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizationImporter(LocalizationImporter const&) = delete;
+  LocalizationImporter(LocalizationImporterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22209 };

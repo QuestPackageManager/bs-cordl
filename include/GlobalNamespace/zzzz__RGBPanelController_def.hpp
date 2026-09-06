@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RGBPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/RGBPanelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,12 +100,14 @@ public:
   /// @brief Method .ctor, addr 0x5a2ec44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_colorDidChangeEvent, addr 0x5a2e680, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   /// @brief Method get_color, addr 0x5a2e800, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_colorDidChangeEvent, addr 0x5a2e740, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
@@ -118,26 +120,30 @@ protected:
   constexpr RGBPanelController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RGBPanelController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RGBPanelController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RGBPanelController(RGBPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RGBPanelController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RGBPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RGBPanelController(RGBPanelController const&) = delete;
+  RGBPanelController(RGBPanelControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23179 };
 
+  /// [SerializeField]
   /// @brief Field _redSlider, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ColorGradientSlider> ____redSlider;
 
+  /// [SerializeField]
   /// @brief Field _greenSlider, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::ColorGradientSlider> ____greenSlider;
 
+  /// [SerializeField]
   /// @brief Field _blueSlider, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::HMUI::ColorGradientSlider> ____blueSlider;
 
+  /// [CompilerGenerated]
   /// @brief Field colorDidChangeEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* ___colorDidChangeEvent;
 

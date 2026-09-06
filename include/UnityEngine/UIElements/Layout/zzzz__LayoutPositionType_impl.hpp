@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutPositionType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutPositionType.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutPositionType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Layout::LayoutPositionType::LayoutPositionType(int32_t value__) noexcept {
   this->value__ = value__;
 }

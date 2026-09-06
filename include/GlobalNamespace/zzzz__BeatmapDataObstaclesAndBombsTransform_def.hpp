@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDataObstaclesAndBombsTransform.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataObstaclesAndBombsTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*);
 MARK_REF_T(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*, "", "BeatmapDataObstaclesAndBombsTransform");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0*, "", "BeatmapDataObstaclesAndBombsTransform/<>c__DisplayClass0_0");
+// [CompilerGenerated]
 // Dependencies GameplayModifiers::EnabledObstacleType, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -69,13 +70,13 @@ protected:
   constexpr BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0(BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0(BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0 const&) = delete;
+  BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0(BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14801 };
@@ -118,13 +119,13 @@ protected:
   constexpr BeatmapDataObstaclesAndBombsTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransform const&) = delete;
+  BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14802 };

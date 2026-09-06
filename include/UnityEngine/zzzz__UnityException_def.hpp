@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UnityException.hpp"
+// IWYU pragma private; include "UnityEngine/UnityException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class UnityException;
 // Write type traits
 MARK_REF_T(::UnityEngine::UnityException*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UnityException*, "UnityEngine", "UnityException");
+// [RequiredByNativeCode]
 // Dependencies System.Exception
 namespace UnityEngine {
 // Is value type: false
@@ -47,13 +48,13 @@ protected:
   constexpr UnityException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityException(UnityException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityException(UnityException const&) = delete;
+  UnityException(UnityExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10365 };

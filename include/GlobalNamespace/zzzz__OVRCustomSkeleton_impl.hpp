@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRCustomSkeleton.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRCustomSkeleton.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRCustomSkeleton_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCustomSkeleton_def.hpp"
@@ -7,7 +7,7 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRCustomSkeleton_RetargetingType::OVRCustomSkeleton_RetargetingType(int32_t value__) noexcept {
   this->value__ = value__;
 }

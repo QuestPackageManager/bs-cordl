@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\LanguageDirectionExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/LanguageDirectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__LanguageDirectionExtensions_def.hpp"
 #include "UnityEngine/TextCore/zzzz__LanguageDirection_def.hpp"

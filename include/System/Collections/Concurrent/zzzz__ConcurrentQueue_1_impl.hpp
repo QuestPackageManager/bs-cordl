@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Concurrent\ConcurrentQueue_1.hpp"
+// IWYU pragma private; include "System/Collections/Concurrent/ConcurrentQueue_1.hpp"
 #include "System/Collections/Concurrent/zzzz__PaddedHeadAndTail_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
@@ -14,7 +14,8 @@
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "Item", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "SequenceNumber", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Item", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SequenceNumber", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 template <typename T> constexpr ::System::Collections::Concurrent::Segment_ConcurrentQueue_1_Slot<T>::Segment_ConcurrentQueue_1_Slot(T Item, int32_t SequenceNumber) noexcept {
   this->Item = Item;
   this->SequenceNumber = SequenceNumber;
@@ -309,6 +310,7 @@ template <typename T> inline ::System::Object* System::Collections::Concurrent::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Concurrent::ConcurrentQueue_1__Enumerate_d__28<T>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename T>
 inline ::System::Collections::Concurrent::ConcurrentQueue_1__Enumerate_d__28<T>* System::Collections::Concurrent::ConcurrentQueue_1__Enumerate_d__28<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Collections::Concurrent::ConcurrentQueue_1__Enumerate_d__28<T>*>(__1__state));

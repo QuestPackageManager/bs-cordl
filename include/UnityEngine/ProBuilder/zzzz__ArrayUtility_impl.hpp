@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ArrayUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ArrayUtility.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ArrayUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -77,7 +78,8 @@ inline ::StringW UnityEngine::ProBuilder::ArrayUtility_SearchRange::ToString() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::ArrayUtility_SearchRange>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "begin", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "begin", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::ProBuilder::ArrayUtility_SearchRange::ArrayUtility_SearchRange(int32_t begin, int32_t end) noexcept {
   this->begin = begin;
   this->end = end;
@@ -240,7 +242,9 @@ inline ::ArrayW<T> UnityEngine::ProBuilder::ArrayUtility::SortedRemoveAt(::Syste
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(nullptr, ___internal_method, list, sorted);
 }
-template <typename T> inline int32_t UnityEngine::ProBuilder::ArrayUtility::NearestIndexPriorToValue(::System::Collections::Generic::IList_1<T>* sorted_list, T value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+inline int32_t UnityEngine::ProBuilder::ArrayUtility::NearestIndexPriorToValue(::System::Collections::Generic::IList_1<T>* sorted_list, T value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ArrayUtility*>(),
                                               { "NearestIndexPriorToValue", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::IList_1<T>*>(), ::i2c::type_of<T>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\JobHandle.hpp"
+// IWYU pragma private; include "Unity/Jobs/JobHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,10 +10,14 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 // Forward declare root types
 namespace Unity::Jobs {
@@ -22,6 +26,7 @@ struct JobHandle;
 // Write type traits
 MARK_VAL_T(::Unity::Jobs::JobHandle);
 DEFINE_IL2CPP_CLASS(::Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
+// [NativeType(Header = "Runtime/Jobs/ScriptBindings/JobsBindings.h")]
 // Dependencies
 namespace Unity::Jobs {
 // Is value type: true
@@ -43,12 +48,14 @@ public:
   /// @brief Method CombineDependencies, addr 0x6a5bb98, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Collections::NativeSlice_1<::Unity::Jobs::JobHandle> jobs);
 
+  /// [NativeMethod(IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method CombineDependenciesInternal2, addr 0x6a5ba8c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependenciesInternal2(::by_ref<::Unity::Jobs::JobHandle> job0, ::by_ref<::Unity::Jobs::JobHandle> job1);
 
   /// @brief Method CombineDependenciesInternal2_Injected, addr 0x6a5bc00, size 0x54, virtual false, abstract: false, final false
   static inline void CombineDependenciesInternal2_Injected(::by_ref<::Unity::Jobs::JobHandle> job0, ::by_ref<::Unity::Jobs::JobHandle> job1, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
+  /// [NativeMethod(IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method CombineDependenciesInternalPtr, addr 0x6a5bb3c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependenciesInternalPtr(void* jobs, int32_t count);
 
@@ -61,12 +68,15 @@ public:
   /// @brief Method Equals, addr 0x6a5bca8, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Jobs::JobHandle other);
 
+  /// [NativeMethod("ScheduleBatchedScriptingJobs", IsFreeFunction = true, IsThreadSafe = true)]
   /// @brief Method ScheduleBatchedJobs, addr 0x6a5ba3c, size 0x28, virtual false, abstract: false, final false
   static inline void ScheduleBatchedJobs();
 
+  /// [NativeMethod("ScheduleBatchedScriptingJobsAndComplete", IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method ScheduleBatchedJobsAndComplete, addr 0x6a5b988, size 0x3c, virtual false, abstract: false, final false
   static inline void ScheduleBatchedJobsAndComplete(::by_ref<::Unity::Jobs::JobHandle> job);
 
+  /// [NativeMethod("ScheduleBatchedScriptingJobsAndIsCompleted", IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method ScheduleBatchedJobsAndIsCompleted, addr 0x6a5ba00, size 0x3c, virtual false, abstract: false, final false
   static inline bool ScheduleBatchedJobsAndIsCompleted(::by_ref<::Unity::Jobs::JobHandle> job);
 
@@ -80,7 +90,8 @@ public:
   // @brief default ctor
   constexpr JobHandle();
 
-  // Ctor Parameters [CppParam { name: "jobGroup", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "jobGroup", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr JobHandle(uint64_t jobGroup, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

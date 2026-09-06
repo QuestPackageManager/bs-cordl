@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\UnaryExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/UnaryExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class UnaryExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::UnaryExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::UnaryExpression*, "System.Linq.Expressions", "UnaryExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::UnaryExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression, System.Linq.Expressions.ExpressionType
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -127,15 +128,19 @@ public:
   /// @brief Method get_IsPrefix, addr 0x5f8a8f8, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsPrefix();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Method, addr 0x5f89840, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Method();
 
+  /// [CompilerGenerated]
   /// @brief Method get_NodeType, addr 0x5f89830, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Operand, addr 0x5f89838, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Operand();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f89828, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
@@ -145,26 +150,30 @@ protected:
   constexpr UnaryExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnaryExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnaryExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnaryExpression(UnaryExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnaryExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnaryExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnaryExpression(UnaryExpression const&) = delete;
+  UnaryExpression(UnaryExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16234 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <NodeType>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::System::Linq::Expressions::ExpressionType ____NodeType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Operand>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Operand_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Method>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____Method_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Selectable.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Selectable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,7 +141,7 @@ public:
   // @brief default ctor
   constexpr Selectable_Transition();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Selectable_Transition(int32_t value__) noexcept;
 
   /// @brief Field Animation value: I32(3)
@@ -205,7 +205,7 @@ public:
   // @brief default ctor
   constexpr Selectable_SelectionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Selectable_SelectionState(int32_t value__) noexcept;
 
   /// @brief Field Disabled value: I32(4)
@@ -240,6 +240,10 @@ static_assert(offsetof(::UnityEngine::UI::Selectable_SelectionState, value__) ==
 static_assert(sizeof(::UnityEngine::UI::Selectable_SelectionState) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("UI/Selectable", 35)]
+// [ExecuteAlways]
+// [SelectionBase]
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.EventSystems.UIBehaviour, UnityEngine.UI.ColorBlock, UnityEngine.UI.Navigation, UnityEngine.UI.Selectable::Transition, UnityEngine.UI.SpriteState
 namespace UnityEngine::UI {
 // Is value type: false
@@ -566,6 +570,7 @@ public:
   /// @brief Method get_currentSelectionState, addr 0x6e0a4c4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Selectable_SelectionState get_currentSelectionState();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hasSelection, addr 0x6e0a168, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasSelection();
 
@@ -575,9 +580,11 @@ public:
   /// @brief Method get_interactable, addr 0x6e09fbc, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isPointerDown, addr 0x6e0a158, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPointerDown();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isPointerInside, addr 0x6e0a148, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPointerInside();
 
@@ -627,6 +634,7 @@ public:
   /// @brief Method set_colors, addr 0x6e09d70, size 0x94, virtual false, abstract: false, final false
   inline void set_colors(::UnityEngine::UI::ColorBlock value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hasSelection, addr 0x6e0a170, size 0x8, virtual false, abstract: false, final false
   inline void set_hasSelection(bool value);
 
@@ -636,9 +644,11 @@ public:
   /// @brief Method set_interactable, addr 0x6e09fc4, size 0x184, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isPointerDown, addr 0x6e0a160, size 0x8, virtual false, abstract: false, final false
   inline void set_isPointerDown(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isPointerInside, addr 0x6e0a150, size 0x8, virtual false, abstract: false, final false
   inline void set_isPointerInside(bool value);
 
@@ -660,13 +670,13 @@ protected:
   constexpr Selectable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Selectable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Selectable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Selectable(Selectable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Selectable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Selectable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Selectable(Selectable const&) = delete;
+  Selectable(Selectableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17489 };
@@ -674,24 +684,39 @@ public:
   /// @brief Field m_EnableCalled, offset: 0x20, size: 0x1, def value: None
   bool ___m_EnableCalled;
 
+  /// [FormerlySerializedAs("navigation")]
+  /// [SerializeField]
   /// @brief Field m_Navigation, offset: 0x28, size: 0x28, def value: None
   ::UnityEngine::UI::Navigation ___m_Navigation;
 
+  /// [FormerlySerializedAs("transition")]
+  /// [SerializeField]
   /// @brief Field m_Transition, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::UI::Selectable_Transition ___m_Transition;
 
+  /// [FormerlySerializedAs("colors")]
+  /// [SerializeField]
   /// @brief Field m_Colors, offset: 0x54, size: 0x58, def value: None
   ::UnityEngine::UI::ColorBlock ___m_Colors;
 
+  /// [FormerlySerializedAs("spriteState")]
+  /// [SerializeField]
   /// @brief Field m_SpriteState, offset: 0xb0, size: 0x20, def value: None
   ::UnityEngine::UI::SpriteState ___m_SpriteState;
 
+  /// [FormerlySerializedAs("animationTriggers")]
+  /// [SerializeField]
   /// @brief Field m_AnimationTriggers, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::UI::AnimationTriggers* ___m_AnimationTriggers;
 
+  /// [Tooltip("Can the Selectable be interacted with?")]
+  /// [SerializeField]
   /// @brief Field m_Interactable, offset: 0xd8, size: 0x1, def value: None
   bool ___m_Interactable;
 
+  /// [FormerlySerializedAs("highlightGraphic")]
+  /// [FormerlySerializedAs("m_HighlightGraphic")]
+  /// [SerializeField]
   /// @brief Field m_TargetGraphic, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ___m_TargetGraphic;
 
@@ -701,12 +726,15 @@ public:
   /// @brief Field m_CurrentIndex, offset: 0xec, size: 0x4, def value: None
   int32_t ___m_CurrentIndex;
 
+  /// [CompilerGenerated]
   /// @brief Field <isPointerInside>k__BackingField, offset: 0xf0, size: 0x1, def value: None
   bool ____isPointerInside_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isPointerDown>k__BackingField, offset: 0xf1, size: 0x1, def value: None
   bool ____isPointerDown_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <hasSelection>k__BackingField, offset: 0xf2, size: 0x1, def value: None
   bool ____hasSelection_k__BackingField;
 

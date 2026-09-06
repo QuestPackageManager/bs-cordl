@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ContextBoundObject.hpp"
+// IWYU pragma private; include "System/ContextBoundObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class ContextBoundObject;
 // Write type traits
 MARK_REF_T(::System::ContextBoundObject*);
 DEFINE_IL2CPP_CLASS(::System::ContextBoundObject*, "System", "ContextBoundObject");
+// [ComVisible(true)]
 // Dependencies System.MarshalByRefObject
 namespace System {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr ContextBoundObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContextBoundObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextBoundObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextBoundObject(ContextBoundObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContextBoundObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextBoundObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextBoundObject(ContextBoundObject const&) = delete;
+  ContextBoundObject(ContextBoundObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2559 };

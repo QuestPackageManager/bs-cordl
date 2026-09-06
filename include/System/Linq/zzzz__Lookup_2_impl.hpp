@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Lookup_2.hpp"
+// IWYU pragma private; include "System/Linq/Lookup_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Lookup_2_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
@@ -95,6 +95,7 @@ template <typename TKey, typename TElement> inline ::System::Object* System::Lin
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Grouping_Lookup_2__GetEnumerator_d__7<TKey, TElement>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TKey, typename TElement>
 inline ::System::Linq::Grouping_Lookup_2__GetEnumerator_d__7<TKey, TElement>* System::Linq::Grouping_Lookup_2__GetEnumerator_d__7<TKey, TElement>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Grouping_Lookup_2__GetEnumerator_d__7<TKey, TElement>*>(__1__state));
@@ -421,6 +422,7 @@ template <typename TKey, typename TElement> inline ::System::Object* System::Lin
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Lookup_2__GetEnumerator_d__12<TKey, TElement>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TKey, typename TElement>
 inline ::System::Linq::Lookup_2__GetEnumerator_d__12<TKey, TElement>* System::Linq::Lookup_2__GetEnumerator_d__12<TKey, TElement>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::Lookup_2__GetEnumerator_d__12<TKey, TElement>*>(__1__state));

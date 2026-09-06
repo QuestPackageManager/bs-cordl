@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpSignatureGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpSignatureGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -131,11 +131,11 @@ public:
   /// @brief Method SetUnhashedSubpackets, addr 0x3594aa4, size 0x84, virtual false, abstract: false, final false
   inline void SetUnhashedSubpackets(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets);
 
-  /// @brief Method Update, addr 0x359f450, size 0x18, virtual false, abstract: false, final false
-  inline void Update(::ArrayW<uint8_t> b);
-
   /// @brief Method Update, addr 0x359f468, size 0x1ac, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t> b, int32_t off, int32_t len);
+
+  /// @brief Method Update, addr 0x359f450, size 0x18, virtual false, abstract: false, final false
+  inline void Update(/* [ParamArray] */ ::ArrayW<uint8_t> b);
 
   /// @brief Method Update, addr 0x359f280, size 0x14, virtual false, abstract: false, final false
   inline void Update(uint8_t b);
@@ -229,13 +229,13 @@ protected:
   constexpr PgpSignatureGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpSignatureGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpSignatureGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpSignatureGenerator(PgpSignatureGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpSignatureGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpSignatureGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpSignatureGenerator(PgpSignatureGenerator const&) = delete;
+  PgpSignatureGenerator(PgpSignatureGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1667 };

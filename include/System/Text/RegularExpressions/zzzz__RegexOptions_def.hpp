@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexOptions.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RegexOptions;
 // Write type traits
 MARK_VAL_T(::System::Text::RegularExpressions::RegexOptions);
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::RegexOptions, "System.Text.RegularExpressions", "RegexOptions");
+// [Flags]
 // Dependencies
 namespace System::Text::RegularExpressions {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr RegexOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RegexOptions(int32_t value__) noexcept;
 
   /// @brief Field Compiled value: I32(8)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TrailElementCollection.hpp"
+// IWYU pragma private; include "GlobalNamespace/TrailElementCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,8 @@ public:
   // @brief default ctor
   constexpr TrailElementCollection_InterpolationState();
 
-  // Ctor Parameters [CppParam { name: "segmentIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "segmentLerp", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "segmentIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "segmentLerp", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TrailElementCollection_InterpolationState(int32_t segmentIndex, float_t segmentLerp) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -145,13 +146,13 @@ protected:
   constexpr TrailElementCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrailElementCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrailElementCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrailElementCollection(TrailElementCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrailElementCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrailElementCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrailElementCollection(TrailElementCollection const&) = delete;
+  TrailElementCollection(TrailElementCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23209 };

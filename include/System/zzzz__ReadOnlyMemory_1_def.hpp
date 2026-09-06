@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ReadOnlyMemory_1.hpp"
+// IWYU pragma private; include "System/ReadOnlyMemory_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,9 @@ template <typename T> struct ReadOnlyMemory_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::ReadOnlyMemory_1);
 DEFINE_IL2CPP_GEN_CLASS(::System::ReadOnlyMemory_1, "System", "ReadOnlyMemory`1");
+// [IsReadOnly]
+// [DebuggerTypeProxy(typeof(System.MemoryDebugView`1<T>))]
+// [DebuggerDisplay("{ToString(),raw}")]
 // Dependencies
 namespace System {
 // cpp template
@@ -86,8 +89,8 @@ public:
   // @brief default ctor
   constexpr ReadOnlyMemory_1();
 
-  // Ctor Parameters [CppParam { name: "_object", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_object", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ReadOnlyMemory_1(::System::Object* _object, int32_t _index, int32_t _length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

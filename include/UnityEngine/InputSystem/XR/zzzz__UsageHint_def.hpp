@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\UsageHint.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/UsageHint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // @brief default ctor
   constexpr UsageHint();
 
-  // Ctor Parameters [CppParam { name: "content", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "content", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr UsageHint(::StringW content) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

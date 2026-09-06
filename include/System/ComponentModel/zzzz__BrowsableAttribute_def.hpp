@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\BrowsableAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/BrowsableAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class BrowsableAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::BrowsableAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::BrowsableAttribute*, "System.ComponentModel", "BrowsableAttribute");
+// [AttributeUsage((System.AttributeTargets)32767)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -63,6 +64,7 @@ public:
 
   static inline ::System::ComponentModel::BrowsableAttribute* getStaticF_Yes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Browsable, addr 0x63b3994, size 0x8, virtual false, abstract: false, final false
   inline bool get_Browsable();
 
@@ -78,17 +80,18 @@ protected:
   constexpr BrowsableAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BrowsableAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BrowsableAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BrowsableAttribute(BrowsableAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BrowsableAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BrowsableAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BrowsableAttribute(BrowsableAttribute const&) = delete;
+  BrowsableAttribute(BrowsableAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11219 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Browsable>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Browsable_k__BackingField;
 

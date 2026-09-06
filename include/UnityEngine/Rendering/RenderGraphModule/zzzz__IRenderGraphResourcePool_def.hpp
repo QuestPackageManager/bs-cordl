@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\IRenderGraphResourcePool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/IRenderGraphResourcePool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,18 +23,18 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE IRenderGraphResourcePool : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckFrameAllocation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CheckFrameAllocation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CheckFrameAllocation(bool onException, int32_t frameIndex);
 
-  /// @brief Method Cleanup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cleanup();
 
-  /// @brief Method LogResources, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LogResources, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogResources(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool* New_ctor();
 
-  /// @brief Method PurgeUnusedResources, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PurgeUnusedResources, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PurgeUnusedResources(int32_t currentFrameIndex);
 
   /// @brief Method .ctor, addr 0x67e4c48, size 0x4, virtual false, abstract: false, final false
@@ -46,13 +46,13 @@ protected:
   constexpr IRenderGraphResourcePool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResourcePool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResourcePool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IRenderGraphResourcePool(IRenderGraphResourcePool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResourcePool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResourcePool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IRenderGraphResourcePool(IRenderGraphResourcePool const&) = delete;
+  IRenderGraphResourcePool(IRenderGraphResourcePoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12443 };

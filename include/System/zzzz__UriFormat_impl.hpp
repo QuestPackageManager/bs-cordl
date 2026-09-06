@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\UriFormat.hpp"
+// IWYU pragma private; include "System/UriFormat.hpp"
 #include "System/zzzz__UriFormat_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::UriFormat::UriFormat(int32_t value__) noexcept {
   this->value__ = value__;
 }

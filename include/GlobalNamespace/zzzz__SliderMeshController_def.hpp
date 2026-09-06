@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderMeshController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderMeshController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ class SliderMeshController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SliderMeshController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SliderMeshController*, "", "SliderMeshController");
+// [AddComponentMenu("Beat Saber/Gameplay/SliderMeshController")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -178,13 +179,13 @@ protected:
   constexpr SliderMeshController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderMeshController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderMeshController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderMeshController(SliderMeshController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderMeshController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderMeshController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderMeshController(SliderMeshController const&) = delete;
+  SliderMeshController(SliderMeshControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5735 };
@@ -192,24 +193,32 @@ public:
   /// @brief Field kDefaultGameNoteSize offset 0xffffffff size 0x4
   static constexpr float_t kDefaultGameNoteSize{ static_cast<float_t>(0.45f) };
 
+  /// [SerializeField]
   /// @brief Field _numberOfFixedVertexPathSegments, offset: 0x20, size: 0x4, def value: None
   int32_t ____numberOfFixedVertexPathSegments;
 
+  /// [SerializeField]
   /// @brief Field _controlPointDistancePerSqrtNotesDistance, offset: 0x24, size: 0x4, def value: None
   float_t ____controlPointDistancePerSqrtNotesDistance;
 
+  /// [SerializeField]
   /// @brief Field _middleAnchorPointOffsetAmount, offset: 0x28, size: 0x4, def value: None
   float_t ____middleAnchorPointOffsetAmount;
 
+  /// [SerializeField]
   /// @brief Field _middleControlPointZDistanceModifier, offset: 0x2c, size: 0x4, def value: None
   float_t ____middleControlPointZDistanceModifier;
 
+  /// [SerializeField]
   /// @brief Field _middleControlPointYDistanceModifier, offset: 0x30, size: 0x4, def value: None
   float_t ____middleControlPointYDistanceModifier;
 
+  /// [SerializeField]
   /// @brief Field _middleControlPointXDistanceModifier, offset: 0x34, size: 0x4, def value: None
   float_t ____middleControlPointXDistanceModifier;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _sliderMeshConstructor, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderMeshConstructor> ____sliderMeshConstructor;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\ResourceManager.hpp"
+// IWYU pragma private; include "System/Resources/ResourceManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,13 +106,13 @@ protected:
   constexpr ResourceManager_CultureNameResourceSetPair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CultureNameResourceSetPair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CultureNameResourceSetPair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManager_CultureNameResourceSetPair(ResourceManager_CultureNameResourceSetPair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CultureNameResourceSetPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_CultureNameResourceSetPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager_CultureNameResourceSetPair(ResourceManager_CultureNameResourceSetPair const&) = delete;
+  ResourceManager_CultureNameResourceSetPair(ResourceManager_CultureNameResourceSetPairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3455 };
@@ -227,13 +227,13 @@ protected:
   constexpr ResourceManager_ResourceManagerMediator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_ResourceManagerMediator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_ResourceManagerMediator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManager_ResourceManagerMediator(ResourceManager_ResourceManagerMediator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_ResourceManagerMediator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager_ResourceManagerMediator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager_ResourceManagerMediator(ResourceManager_ResourceManagerMediator const&) = delete;
+  ResourceManager_ResourceManagerMediator(ResourceManager_ResourceManagerMediatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3456 };
@@ -249,6 +249,7 @@ static_assert(offsetof(::System::Resources::ResourceManager_ResourceManagerMedia
 static_assert(sizeof(::System::Resources::ResourceManager_ResourceManagerMediator) == 0x18, "Size mismatch!");
 
 } // namespace System::Resources
+// [ComVisible(true)]
 // Dependencies System.Object, System.Resources.UltimateResourceFallbackLocation
 namespace System::Resources {
 // Is value type: false
@@ -377,12 +378,15 @@ public:
 
   static inline ::System::Resources::ResourceManager* New_ctor(::StringW baseName, ::System::Reflection::Assembly* assembly);
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x5b7811c, size 0x1f0, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnDeserializing]
   /// @brief Method OnDeserializing, addr 0x5b7810c, size 0x10, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnSerializing]
   /// @brief Method OnSerializing, addr 0x5b7830c, size 0x70, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
@@ -543,13 +547,13 @@ protected:
   constexpr ResourceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManager(ResourceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager(ResourceManager const&) = delete;
+  ResourceManager(ResourceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3457 };
@@ -557,6 +561,7 @@ public:
   /// @brief Field BaseNameField, offset: 0x10, size: 0x8, def value: None
   ::StringW ___BaseNameField;
 
+  /// [Obsolete("call InternalGetResourceSet instead")]
   /// @brief Field ResourceSets, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___ResourceSets;
 
@@ -587,21 +592,27 @@ public:
   /// @brief Field UseManifest, offset: 0x59, size: 0x1, def value: None
   bool ___UseManifest;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field UseSatelliteAssem, offset: 0x5a, size: 0x1, def value: None
   bool ___UseSatelliteAssem;
 
+  /// [OptionalField]
   /// @brief Field _fallbackLoc, offset: 0x5c, size: 0x4, def value: None
   ::System::Resources::UltimateResourceFallbackLocation ____fallbackLoc;
 
+  /// [OptionalField]
   /// @brief Field _satelliteContractVersion, offset: 0x60, size: 0x8, def value: None
   ::System::Version* ____satelliteContractVersion;
 
+  /// [OptionalField]
   /// @brief Field _lookedForSatelliteContractVersion, offset: 0x68, size: 0x1, def value: None
   bool ____lookedForSatelliteContractVersion;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field _callingAssembly, offset: 0x70, size: 0x8, def value: None
   ::System::Reflection::Assembly* ____callingAssembly;
 
+  /// [OptionalField(VersionAdded = 4)]
   /// @brief Field m_callingAssembly, offset: 0x78, size: 0x8, def value: None
   ::System::Reflection::RuntimeAssembly* ___m_callingAssembly;
 

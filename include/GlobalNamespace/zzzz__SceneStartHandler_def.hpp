@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SceneStartHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/SceneStartHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -172,18 +172,22 @@ public:
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
+  /// [CompilerGenerated]
   /// @brief Method add_sceneSetupDidFinishEvent, addr 0x32ba0b8, size 0xc0, virtual false, abstract: false, final false
   inline void add_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_sceneSetupDidReceiveTooLateEvent, addr 0x32ba238, size 0xc0, virtual false, abstract: false, final false
   inline void add_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_sceneSetupDidFinishEvent, addr 0x32ba178, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_sceneSetupDidReceiveTooLateEvent, addr 0x32ba2f8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
@@ -193,13 +197,13 @@ protected:
   constexpr SceneStartHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneStartHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneStartHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneStartHandler(SceneStartHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneStartHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneStartHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneStartHandler(SceneStartHandler const&) = delete;
+  SceneStartHandler(SceneStartHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18972 };
@@ -225,9 +229,11 @@ public:
   /// @brief Field _sessionGameId, offset: 0x40, size: 0x8, def value: None
   ::StringW ____sessionGameId;
 
+  /// [CompilerGenerated]
   /// @brief Field sceneSetupDidFinishEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___sceneSetupDidFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field sceneSetupDidReceiveTooLateEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___sceneSetupDidReceiveTooLateEvent;
 

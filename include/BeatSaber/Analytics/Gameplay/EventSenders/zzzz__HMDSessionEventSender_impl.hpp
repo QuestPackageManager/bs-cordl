@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\HMDSessionEventSender.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/HMDSessionEventSender.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__EventSenderBase_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__HMDSessionEventSender_def.hpp"

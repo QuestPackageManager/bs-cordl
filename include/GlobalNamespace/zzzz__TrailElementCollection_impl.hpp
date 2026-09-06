@@ -1,12 +1,13 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TrailElementCollection.hpp"
+// IWYU pragma private; include "GlobalNamespace/TrailElementCollection.hpp"
 #include "GlobalNamespace/zzzz__TrailElement_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TrailElementCollection_def.hpp"
 #include "GlobalNamespace/zzzz__TrailElementCollection_def.hpp"
 #include "GlobalNamespace/zzzz__TrailElement_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "segmentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "segmentLerp", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "segmentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "segmentLerp", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TrailElementCollection_InterpolationState::TrailElementCollection_InterpolationState(int32_t segmentIndex, float_t segmentLerp) noexcept {
   this->segmentIndex = segmentIndex;
   this->segmentLerp = segmentLerp;

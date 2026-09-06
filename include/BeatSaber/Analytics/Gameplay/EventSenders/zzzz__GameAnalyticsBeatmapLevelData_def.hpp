@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\GameAnalyticsBeatmapLevelData.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/GameAnalyticsBeatmapLevelData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class GameAnalyticsBeatmapLevelData;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData*, "BeatSaber.Analytics.Gameplay.EventSenders", "GameAnalyticsBeatmapLevelData");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay::EventSenders {
 // Is value type: false
@@ -56,9 +58,10 @@ public:
                       put = __cordl_internal_set_practiceSettings)) ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings;
 
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData*
-  New_ctor(::StringW gameMode, ::StringW levelID, ::StringW difficulty, ::StringW characteristic, ::StringW missionID,
-           ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings,
-           ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* gameplayModifiers, ::StringW environmentName, bool isEnvironmentOverride);
+  New_ctor(::StringW gameMode, ::StringW levelID, ::StringW difficulty, ::StringW characteristic, /* [Nullable(2)] */ ::StringW missionID,
+           /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings,
+           /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* gameplayModifiers, /* [Nullable(2)] */ ::StringW environmentName,
+           bool isEnvironmentOverride);
 
   constexpr ::StringW const& __cordl_internal_get_characteristic() const;
 
@@ -115,9 +118,10 @@ public:
   constexpr void __cordl_internal_set_practiceSettings(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* value);
 
   /// @brief Method .ctor, addr 0x3264910, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::StringW gameMode, ::StringW levelID, ::StringW difficulty, ::StringW characteristic, ::StringW missionID,
-                    ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings,
-                    ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* gameplayModifiers, ::StringW environmentName, bool isEnvironmentOverride);
+  inline void _ctor(::StringW gameMode, ::StringW levelID, ::StringW difficulty, ::StringW characteristic, /* [Nullable(2)] */ ::StringW missionID,
+                    /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* practiceSettings,
+                    /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* gameplayModifiers, /* [Nullable(2)] */ ::StringW environmentName,
+                    bool isEnvironmentOverride);
 
 protected:
   // Ctor Parameters []
@@ -125,13 +129,13 @@ protected:
   constexpr GameAnalyticsBeatmapLevelData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsBeatmapLevelData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsBeatmapLevelData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameAnalyticsBeatmapLevelData(GameAnalyticsBeatmapLevelData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsBeatmapLevelData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsBeatmapLevelData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameAnalyticsBeatmapLevelData(GameAnalyticsBeatmapLevelData const&) = delete;
+  GameAnalyticsBeatmapLevelData(GameAnalyticsBeatmapLevelDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22264 };
@@ -148,15 +152,19 @@ public:
   /// @brief Field characteristic, offset: 0x28, size: 0x8, def value: None
   ::StringW ___characteristic;
 
+  /// [Nullable(2)]
   /// @brief Field missionID, offset: 0x30, size: 0x8, def value: None
   ::StringW ___missionID;
 
+  /// [Nullable(2)]
   /// @brief Field practiceSettings, offset: 0x38, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* ___practiceSettings;
 
+  /// [Nullable(2)]
   /// @brief Field gameplayModifiers, offset: 0x40, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* ___gameplayModifiers;
 
+  /// [Nullable(2)]
   /// @brief Field environmentName, offset: 0x48, size: 0x8, def value: None
   ::StringW ___environmentName;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\CodeDom\Compiler\GeneratedCodeAttribute.hpp"
+// IWYU pragma private; include "System/CodeDom/Compiler/GeneratedCodeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/CodeDom/Compiler/zzzz__GeneratedCodeAttribute_def.hpp"
 //  Writing Method size for method: ::System::CodeDom::Compiler::GeneratedCodeAttribute._ctor

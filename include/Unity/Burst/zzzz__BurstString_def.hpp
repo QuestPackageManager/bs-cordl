@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\BurstString.hpp"
+// IWYU pragma private; include "Unity/Burst/BurstString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,13 +124,13 @@ protected:
   constexpr BurstString_PreserveAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstString_PreserveAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstString_PreserveAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstString_PreserveAttribute(BurstString_PreserveAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstString_PreserveAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstString_PreserveAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstString_PreserveAttribute(BurstString_PreserveAttribute const&) = delete;
+  BurstString_PreserveAttribute(BurstString_PreserveAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17316 };
@@ -170,7 +170,7 @@ public:
   // @brief default ctor
   constexpr BurstString_NumberBufferKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BurstString_NumberBufferKind(int32_t value__) noexcept;
 
   /// @brief Field Float value: I32(1)
@@ -213,9 +213,9 @@ public:
   // @brief default ctor
   constexpr BurstString_NumberBuffer();
 
-  // Ctor Parameters [CppParam { name: "_buffer", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "Kind", ty: "::Unity::Burst::BurstString_NumberBufferKind", modifiers: "",
-  // def_value: None }, CppParam { name: "DigitsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Scale", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "IsNegative", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_buffer", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Kind", ty: "::Unity::Burst::BurstString_NumberBufferKind",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "DigitsCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Scale", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "IsNegative", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr BurstString_NumberBuffer(uint8_t* _buffer, ::Unity::Burst::BurstString_NumberBufferKind Kind, int32_t DigitsCount, int32_t Scale, bool IsNegative) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -286,7 +286,7 @@ public:
   // @brief default ctor
   constexpr BurstString_NumberFormatKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr BurstString_NumberFormatKind(uint8_t value__) noexcept;
 
   /// @brief Field Decimal value: U8(1)
@@ -346,8 +346,9 @@ public:
   // @brief default ctor
   constexpr BurstString_FormatOptions();
 
-  // Ctor Parameters [CppParam { name: "Kind", ty: "::Unity::Burst::BurstString_NumberFormatKind", modifiers: "", def_value: None }, CppParam { name: "AlignAndSize", ty: "int8_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Specifier", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "Lowercase", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Kind", ty: "::Unity::Burst::BurstString_NumberFormatKind", modifiers: "", def_value: None, comment: None }, CppParam { name: "AlignAndSize", ty: "int8_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Specifier", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Lowercase", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr BurstString_FormatOptions(::Unity::Burst::BurstString_NumberFormatKind Kind, int8_t AlignAndSize, uint8_t Specifier, bool Lowercase) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -382,6 +383,8 @@ static_assert(offsetof(::Unity::Burst::BurstString_FormatOptions, Lowercase) == 
 static_assert(sizeof(::Unity::Burst::BurstString_FormatOptions) == 0x4, "Size mismatch!");
 
 } // namespace Unity::Burst
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace Unity::Burst {
 // Is value type: true
@@ -394,7 +397,7 @@ public:
   // @brief default ctor
   constexpr tBigInt_BurstString__m_blocks_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr tBigInt_BurstString__m_blocks_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -452,8 +455,8 @@ public:
   // @brief default ctor
   constexpr BurstString_tBigInt();
 
-  // Ctor Parameters [CppParam { name: "m_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_blocks", ty: "::Unity::Burst::tBigInt_BurstString__m_blocks_e__FixedBuffer",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_length", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_blocks", ty:
+  // "::Unity::Burst::tBigInt_BurstString__m_blocks_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr BurstString_tBigInt(int32_t m_length, ::Unity::Burst::tBigInt_BurstString__m_blocks_e__FixedBuffer m_blocks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -468,6 +471,7 @@ public:
   /// @brief Field m_length, offset: 0x0, size: 0x4, def value: None
   int32_t m_length;
 
+  /// [FixedBuffer(typeof(System.UInt32), 35)]
   /// @brief Field m_blocks, offset: 0x4, size: 0x8c, def value: None
   ::Unity::Burst::tBigInt_BurstString__m_blocks_e__FixedBuffer m_blocks;
 
@@ -511,7 +515,7 @@ public:
   // @brief default ctor
   constexpr BurstString_CutoffMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BurstString_CutoffMode(int32_t value__) noexcept;
 
   /// @brief Field FractionLength value: I32(2)
@@ -569,7 +573,7 @@ public:
   // @brief default ctor
   constexpr BurstString_PrintFloatFormat();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BurstString_PrintFloatFormat(int32_t value__) noexcept;
 
   /// @brief Field Positional value: I32(0)
@@ -633,7 +637,8 @@ public:
   // @brief default ctor
   constexpr BurstString_tFloatUnion32();
 
-  // Ctor Parameters [CppParam { name: "m_floatingPoint", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_integer", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_floatingPoint", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_integer", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BurstString_tFloatUnion32(float_t m_floatingPoint, uint32_t m_integer) noexcept;
 
 private:
@@ -720,7 +725,8 @@ public:
   // @brief default ctor
   constexpr BurstString_tFloatUnion64();
 
-  // Ctor Parameters [CppParam { name: "m_floatingPoint", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "m_integer", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_floatingPoint", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_integer", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr BurstString_tFloatUnion64(double_t m_floatingPoint, uint64_t m_integer) noexcept;
 
 private:
@@ -818,23 +824,25 @@ public:
   static inline bool AlignRight(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, int32_t align, int32_t length);
 
   /// @brief Method BigInt_Add, addr 0x6475ee8, size 0x98, virtual false, abstract: false, final false
-  static inline void BigInt_Add(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs);
+  static inline void BigInt_Add(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs,
+                                /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs);
 
   /// @brief Method BigInt_Add_internal, addr 0x6475f80, size 0xa0, virtual false, abstract: false, final false
-  static inline void BigInt_Add_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
-                                         ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall);
+  static inline void BigInt_Add_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
+                                         /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall);
 
   /// @brief Method BigInt_Compare, addr 0x6475e8c, size 0x5c, virtual false, abstract: false, final false
-  static inline int32_t BigInt_Compare(::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs);
+  static inline int32_t BigInt_Compare(/* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs);
 
   /// @brief Method BigInt_DivideWithRemainder_MaxQuotient9, addr 0x64769e8, size 0x168, virtual false, abstract: false, final false
-  static inline uint32_t BigInt_DivideWithRemainder_MaxQuotient9(::by_ref<::Unity::Burst::BurstString_tBigInt> pDividend, ::by_ref<::Unity::Burst::BurstString_tBigInt> divisor);
+  static inline uint32_t BigInt_DivideWithRemainder_MaxQuotient9(::by_ref<::Unity::Burst::BurstString_tBigInt> pDividend, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> divisor);
 
   /// @brief Method BigInt_Multiply, addr 0x6476020, size 0x98, virtual false, abstract: false, final false
-  static inline void BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs);
+  static inline void BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs,
+                                     /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs);
 
   /// @brief Method BigInt_Multiply, addr 0x64761e8, size 0x60, virtual false, abstract: false, final false
-  static inline void BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, uint32_t rhs);
+  static inline void BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, uint32_t rhs);
 
   /// @brief Method BigInt_Multiply10, addr 0x64762fc, size 0x58, virtual false, abstract: false, final false
   static inline void BigInt_Multiply10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult);
@@ -843,14 +851,14 @@ public:
   static inline void BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult);
 
   /// @brief Method BigInt_Multiply2, addr 0x6476248, size 0x5c, virtual false, abstract: false, final false
-  static inline void BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, ::by_ref<::Unity::Burst::BurstString_tBigInt> input);
+  static inline void BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> input);
 
   /// @brief Method BigInt_MultiplyPow10, addr 0x647675c, size 0x1bc, virtual false, abstract: false, final false
-  static inline void BigInt_MultiplyPow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, ::by_ref<::Unity::Burst::BurstString_tBigInt> input, uint32_t exponent);
+  static inline void BigInt_MultiplyPow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> input, uint32_t exponent);
 
   /// @brief Method BigInt_Multiply_internal, addr 0x64760b8, size 0x130, virtual false, abstract: false, final false
-  static inline void BigInt_Multiply_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
-                                              ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall);
+  static inline void BigInt_Multiply_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
+                                              /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall);
 
   /// @brief Method BigInt_Pow10, addr 0x6476598, size 0x1a8, virtual false, abstract: false, final false
   static inline void BigInt_Pow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, uint32_t exponent);
@@ -873,6 +881,7 @@ public:
   /// @brief Method ConvertUnsignedIntegerToString, addr 0x64749c0, size 0x1a0, virtual false, abstract: false, final false
   static inline void ConvertUnsignedIntegerToString(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, uint64_t value, ::Unity::Burst::BurstString_FormatOptions options);
 
+  /// [BurstString::Preserve]
   /// @brief Method CopyFixedString, addr 0x6473acc, size 0x64, virtual false, abstract: false, final false
   static inline void CopyFixedString(uint8_t* dest, int32_t destLength, uint8_t* src, int32_t srcLength);
 
@@ -880,42 +889,55 @@ public:
   static inline uint32_t Dragon4(uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins, ::Unity::Burst::BurstString_CutoffMode cutoffMode, uint32_t cutoffNumber,
                                  uint8_t* pOutBuffer, uint32_t bufferSize, ::by_ref<int32_t> pOutExponent);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x6473b30, size 0x154, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, uint8_t* src, int32_t srcLength, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x64743d4, size 0x1cc, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, bool value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x64745a0, size 0x200, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, char16_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x64740b0, size 0x90, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, double_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x6473d90, size 0x90, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, float_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x6474dc4, size 0xc4, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, int16_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x6474e88, size 0xc4, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, int32_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x6474f4c, size 0xc4, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, int64_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x6474b60, size 0xc4, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, int8_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x64748b0, size 0x88, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, uint16_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x6474938, size 0x88, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, uint32_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x6474828, size 0x88, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, uint64_t value, int32_t formatOptionsRaw);
 
+  /// [BurstString::Preserve]
   /// @brief Method Format, addr 0x64747a0, size 0x88, virtual false, abstract: false, final false
   static inline void Format(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, uint8_t value, int32_t formatOptionsRaw);
 
@@ -992,13 +1014,13 @@ protected:
   constexpr BurstString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstString(BurstString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstString(BurstString const&) = delete;
+  BurstString(BurstStringconst&) = delete;
 
   /// @brief Field DoubleNumberBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t DoubleNumberBufferLength{ static_cast<int32_t>(0x12) };

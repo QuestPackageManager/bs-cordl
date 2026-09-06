@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimationClip.hpp"
+// IWYU pragma private; include "UnityEngine/AnimationClip.hpp"
 #include "UnityEngine/zzzz__Motion_impl.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -748,7 +748,7 @@ inline void UnityEngine::AnimationClip::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimationClip*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::AnimationClip::Internal_CreateAnimationClip(::UnityEngine::AnimationClip* self) {
+inline void UnityEngine::AnimationClip::Internal_CreateAnimationClip(/* [Writable] */ ::UnityEngine::AnimationClip* self) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimationClip*>(), { "Internal_CreateAnimationClip", {}, { ::i2c::type_of<::UnityEngine::AnimationClip*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self);
@@ -759,7 +759,8 @@ inline void UnityEngine::AnimationClip::SampleAnimation(::UnityEngine::GameObjec
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimationClip*>(), { "SampleAnimation", {}, { ::i2c::type_of<::UnityEngine::GameObject*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, go, time);
 }
-inline void UnityEngine::AnimationClip::SampleAnimation(::UnityEngine::GameObject* go, ::UnityEngine::AnimationClip* clip, float_t inTime, ::UnityEngine::WrapMode wrapMode) {
+inline void UnityEngine::AnimationClip::SampleAnimation(/* [NotNull] */ ::UnityEngine::GameObject* go, /* [NotNull] */ ::UnityEngine::AnimationClip* clip, float_t inTime,
+                                                        ::UnityEngine::WrapMode wrapMode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimationClip*>(), { "SampleAnimation",
                                                                                                   {},
@@ -787,7 +788,8 @@ inline void UnityEngine::AnimationClip::set_frameRate(float_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimationClip*>(), { "set_frameRate", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::AnimationClip::SetCurve(::StringW relativePath, ::System::Type* type, ::StringW propertyName, ::UnityEngine::AnimationCurve* curve) {
+inline void UnityEngine::AnimationClip::SetCurve(/* [NotNull] */ ::StringW relativePath, /* [NotNull] */ ::System::Type* type, /* [NotNull] */ ::StringW propertyName,
+                                                 ::UnityEngine::AnimationCurve* curve) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimationClip*>(),

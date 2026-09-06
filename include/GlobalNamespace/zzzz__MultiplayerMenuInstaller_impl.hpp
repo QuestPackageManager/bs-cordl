@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerMenuInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerMenuInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerMenuInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerMenuInstaller.InstallBindings

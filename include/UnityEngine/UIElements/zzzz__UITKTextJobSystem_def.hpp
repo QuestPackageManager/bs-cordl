@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UITKTextJobSystem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UITKTextJobSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,13 +19,17 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphRenderMode;
@@ -173,13 +177,13 @@ protected:
   constexpr UITKTextJobSystem_ManagedJobData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem_ManagedJobData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem_ManagedJobData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UITKTextJobSystem_ManagedJobData(UITKTextJobSystem_ManagedJobData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem_ManagedJobData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem_ManagedJobData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UITKTextJobSystem_ManagedJobData(UITKTextJobSystem_ManagedJobData const&) = delete;
+  UITKTextJobSystem_ManagedJobData(UITKTextJobSystem_ManagedJobDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5095 };
@@ -245,7 +249,7 @@ public:
   // @brief default ctor
   constexpr UITKTextJobSystem_PrepareTextJobData();
 
-  // Ctor Parameters [CppParam { name: "managedJobDataHandle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "managedJobDataHandle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None, comment: None }]
   constexpr UITKTextJobSystem_PrepareTextJobData(::System::Runtime::InteropServices::GCHandle managedJobDataHandle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -285,8 +289,8 @@ public:
   // @brief default ctor
   constexpr UITKTextJobSystem_GenerateTextJobData();
 
-  // Ctor Parameters [CppParam { name: "managedJobDataHandle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }, CppParam { name: "alloc", ty:
-  // "::UnityEngine::UIElements::TempMeshAllocator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "managedJobDataHandle", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "alloc", ty:
+  // "::UnityEngine::UIElements::TempMeshAllocator", modifiers: "", def_value: None, comment: None }]
   constexpr UITKTextJobSystem_GenerateTextJobData(::System::Runtime::InteropServices::GCHandle managedJobDataHandle, ::UnityEngine::UIElements::TempMeshAllocator alloc) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -298,6 +302,7 @@ public:
   /// @brief Field managedJobDataHandle, offset: 0x0, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle managedJobDataHandle;
 
+  /// [ReadOnly]
   /// @brief Field alloc, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::TempMeshAllocator alloc;
 
@@ -311,6 +316,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UITKTextJobSystem_GenerateText
 static_assert(sizeof(::UnityEngine::UIElements::UITKTextJobSystem_GenerateTextJobData) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -366,13 +372,13 @@ protected:
   constexpr UITKTextJobSystem___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UITKTextJobSystem___c(UITKTextJobSystem___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UITKTextJobSystem___c(UITKTextJobSystem___c const&) = delete;
+  UITKTextJobSystem___c(UITKTextJobSystem___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5098 };
@@ -558,13 +564,13 @@ protected:
   constexpr UITKTextJobSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UITKTextJobSystem(UITKTextJobSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UITKTextJobSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UITKTextJobSystem(UITKTextJobSystem const&) = delete;
+  UITKTextJobSystem(UITKTextJobSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5099 };

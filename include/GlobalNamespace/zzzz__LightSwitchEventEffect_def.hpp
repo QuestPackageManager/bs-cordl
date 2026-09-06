@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightSwitchEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightSwitchEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ class LightSwitchEventEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightSwitchEventEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightSwitchEventEffect*, "", "LightSwitchEventEffect");
+// [AddComponentMenu("Beat Saber/Gameplay/LightSwitchEventEffect")]
 // Dependencies BasicBeatmapEventType, UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -305,13 +306,13 @@ protected:
   constexpr LightSwitchEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightSwitchEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightSwitchEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightSwitchEventEffect(LightSwitchEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightSwitchEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightSwitchEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightSwitchEventEffect(LightSwitchEventEffect const&) = delete;
+  LightSwitchEventEffect(LightSwitchEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5926 };
@@ -322,51 +323,67 @@ public:
   /// @brief Field kHighlightDuration offset 0xffffffff size 0x4
   static constexpr float_t kHighlightDuration{ static_cast<float_t>(0.6f) };
 
+  /// [SerializeField]
   /// @brief Field _lightColor0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor0;
 
+  /// [SerializeField]
   /// @brief Field _lightColor1, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor1;
 
+  /// [SerializeField]
   /// @brief Field _highlightColor0, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____highlightColor0;
 
+  /// [SerializeField]
   /// @brief Field _highlightColor1, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____highlightColor1;
 
+  /// [SerializeField]
   /// @brief Field _lightColor0Boost, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor0Boost;
 
+  /// [SerializeField]
   /// @brief Field _lightColor1Boost, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor1Boost;
 
+  /// [SerializeField]
   /// @brief Field _highlightColor0Boost, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____highlightColor0Boost;
 
+  /// [SerializeField]
   /// @brief Field _highlightColor1Boost, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____highlightColor1Boost;
 
+  /// [SerializeField]
   /// @brief Field _offColorIntensity, offset: 0x60, size: 0x4, def value: None
   float_t ____offColorIntensity;
 
+  /// [SerializeField]
   /// @brief Field _lightOnStart, offset: 0x64, size: 0x1, def value: None
   bool ____lightOnStart;
 
+  /// [SerializeField]
   /// @brief Field _lightsID, offset: 0x68, size: 0x4, def value: None
   int32_t ____lightsID;
 
+  /// [SerializeField]
   /// @brief Field _event, offset: 0x6c, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
 
+  /// [Inject]
   /// @brief Field _lightManager, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 

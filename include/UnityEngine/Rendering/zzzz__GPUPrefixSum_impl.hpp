@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUPrefixSum.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUPrefixSum.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUPrefixSum_def.hpp"
@@ -70,8 +70,8 @@ inline void UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::CalculateTotalBuffe
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::GPUPrefixSum_ShaderDefs() {}
-// Ctor Parameters [CppParam { name: "count", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "offset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "parentOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "count", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "offset", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "parentOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUPrefixSum_LevelOffsets::GPUPrefixSum_LevelOffsets(uint32_t count, uint32_t offset, uint32_t parentOffset) noexcept {
   this->count = count;
   this->offset = offset;
@@ -155,13 +155,13 @@ inline void UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Initializ
                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, newMaxElementCount, renderGraph, builder, outputIsTemp);
 }
-// Ctor Parameters [CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxBufferCount", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "maxLevelCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixBuffer0", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixBuffer1", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "totalLevelCountBuffer", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "levelOffsetBuffer", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "indirectDispatchArgsBuffer", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxBufferCount", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "maxLevelCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prefixBuffer0", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prefixBuffer1", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "totalLevelCountBuffer", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelOffsetBuffer", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectDispatchArgsBuffer", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::GPUPrefixSum_RenderGraphResources(
     int32_t alignedElementCount, int32_t maxBufferCount, int32_t maxLevelCount, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle prefixBuffer0,
     ::UnityEngine::Rendering::RenderGraphModule::BufferHandle prefixBuffer1, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle totalLevelCountBuffer,
@@ -305,12 +305,12 @@ inline void UnityEngine::Rendering::GPUPrefixSum_SupportResources::_Dispose_g__T
                                                                                          { "<Dispose>g__TryFreeBuffer|15_0", {}, { ::i2c::type_of<::UnityEngine::GraphicsBuffer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, resource);
 }
-// Ctor Parameters [CppParam { name: "ownsResources", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "maxBufferCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxLevelCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "prefixBuffer0", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixBuffer1", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "totalLevelCountBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "levelOffsetBuffer", ty:
-// "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "indirectDispatchArgsBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "ownsResources", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "alignedElementCount", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "maxBufferCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxLevelCount", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prefixBuffer0", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "prefixBuffer1", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "totalLevelCountBuffer", ty: "::UnityEngine::GraphicsBuffer*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelOffsetBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "indirectDispatchArgsBuffer", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUPrefixSum_SupportResources::GPUPrefixSum_SupportResources(bool ownsResources, int32_t alignedElementCount, int32_t maxBufferCount, int32_t maxLevelCount,
                                                                                                  ::UnityEngine::GraphicsBuffer* prefixBuffer0, ::UnityEngine::GraphicsBuffer* prefixBuffer1,
                                                                                                  ::UnityEngine::GraphicsBuffer* totalLevelCountBuffer, ::UnityEngine::GraphicsBuffer* levelOffsetBuffer,
@@ -327,9 +327,9 @@ constexpr ::UnityEngine::Rendering::GPUPrefixSum_SupportResources::GPUPrefixSum_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::GPUPrefixSum_SupportResources::GPUPrefixSum_SupportResources() {}
-// Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "input", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportResources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SupportResources",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputCount", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "input", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "supportResources", ty:
+// "::UnityEngine::Rendering::GPUPrefixSum_SupportResources", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUPrefixSum_DirectArgs::GPUPrefixSum_DirectArgs(bool exclusive, int32_t inputCount, ::UnityEngine::GraphicsBuffer* input,
                                                                                      ::UnityEngine::Rendering::GPUPrefixSum_SupportResources supportResources) noexcept {
   this->exclusive = exclusive;
@@ -339,9 +339,10 @@ constexpr ::UnityEngine::Rendering::GPUPrefixSum_DirectArgs::GPUPrefixSum_Direct
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::GPUPrefixSum_DirectArgs::GPUPrefixSum_DirectArgs() {}
-// Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "inputCountBufferByteOffset", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "inputCountBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "input", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "supportResources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SupportResources", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "exclusive", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "inputCountBufferByteOffset", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "inputCountBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "input",
+// ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "supportResources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SupportResources",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs::GPUPrefixSum_IndirectDirectArgs(bool exclusive, int32_t inputCountBufferByteOffset, ::UnityEngine::ComputeBuffer* inputCountBuffer,
                                                                                                      ::UnityEngine::GraphicsBuffer* input,
                                                                                                      ::UnityEngine::Rendering::GPUPrefixSum_SupportResources supportResources) noexcept {
@@ -369,11 +370,12 @@ inline void UnityEngine::Rendering::GPUPrefixSum_SystemResources::LoadKernels() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SystemResources>(), { "LoadKernels", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "computeAsset", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelCalculateLevelDispatchArgsFromConst",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelCalculateLevelDispatchArgsFromBuffer", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "kernelPrefixSumOnGroup", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelPrefixSumOnGroupExclusive", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "kernelPrefixSumNextInput", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "kernelPrefixSumResolveParent", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "kernelPrefixSumResolveParentExclusive", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "computeAsset", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "kernelCalculateLevelDispatchArgsFromConst", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "kernelCalculateLevelDispatchArgsFromBuffer", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "kernelPrefixSumOnGroup", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "kernelPrefixSumOnGroupExclusive", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "kernelPrefixSumNextInput", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "kernelPrefixSumResolveParent", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "kernelPrefixSumResolveParentExclusive", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUPrefixSum_SystemResources::GPUPrefixSum_SystemResources(::UnityW<::UnityEngine::ComputeShader> computeAsset, int32_t kernelCalculateLevelDispatchArgsFromConst,
                                                                                                int32_t kernelCalculateLevelDispatchArgsFromBuffer, int32_t kernelPrefixSumOnGroup,
                                                                                                int32_t kernelPrefixSumOnGroupExclusive, int32_t kernelPrefixSumNextInput,
@@ -540,7 +542,7 @@ inline ::UnityEngine::Vector4 UnityEngine::Rendering::GPUPrefixSum::PackPrefixSu
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(*this, ___internal_method, a, b, c, d);
 }
 inline void UnityEngine::Rendering::GPUPrefixSum::ExecuteCommonIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::GraphicsBuffer* inputBuffer,
-                                                                        ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources> supportResources, bool isExclusive) {
+                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources> supportResources, bool isExclusive) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
                                                            { "ExecuteCommonIndirect",
@@ -549,14 +551,16 @@ inline void UnityEngine::Rendering::GPUPrefixSum::ExecuteCommonIndirect(::UnityE
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, inputBuffer, supportResources, isExclusive);
 }
-inline void UnityEngine::Rendering::GPUPrefixSum::DispatchDirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs> arguments) {
+inline void UnityEngine::Rendering::GPUPrefixSum::DispatchDirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer,
+                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs> arguments) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum>(),
                           { "DispatchDirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
 }
-inline void UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs> arguments) {
+inline void UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer,
+                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs> arguments) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -564,7 +568,7 @@ inline void UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect(::UnityEngine
           { "DispatchIndirect", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmdBuffer, arguments);
 }
-// Ctor Parameters [CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SystemResources", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "resources", ty: "::UnityEngine::Rendering::GPUPrefixSum_SystemResources", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUPrefixSum::GPUPrefixSum(::UnityEngine::Rendering::GPUPrefixSum_SystemResources resources) noexcept {
   this->resources = resources;
 }

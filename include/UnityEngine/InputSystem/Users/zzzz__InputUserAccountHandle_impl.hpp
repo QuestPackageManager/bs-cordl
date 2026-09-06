@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Users\InputUserAccountHandle.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Users/InputUserAccountHandle.hpp"
 #include "UnityEngine/InputSystem/Users/zzzz__InputUserAccountHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -195,7 +195,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAcc
 UnityEngine::InputSystem::Users::InputUserAccountHandle::i___System__IEquatable_1___UnityEngine__InputSystem__Users__InputUserAccountHandle_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_ApiName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Handle", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ApiName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Handle", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Users::InputUserAccountHandle::InputUserAccountHandle(::StringW m_ApiName, uint64_t m_Handle) noexcept {
   this->m_ApiName = m_ApiName;
   this->m_Handle = m_Handle;

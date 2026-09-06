@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\TransparentSettingsPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/TransparentSettingsPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ public:
   /// @brief Field m_shouldReceiveShadows, offset 0xb8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_shouldReceiveShadows, put = __cordl_internal_set_m_shouldReceiveShadows)) bool m_shouldReceiveShadows;
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68a8f8c, size 0xcc, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -60,13 +61,13 @@ protected:
   constexpr TransparentSettingsPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransparentSettingsPass(TransparentSettingsPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransparentSettingsPass(TransparentSettingsPass const&) = delete;
+  TransparentSettingsPass(TransparentSettingsPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12888 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\CombineMeshes.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/CombineMeshes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*);
 MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::CombineMeshes___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*, "UnityEngine.ProBuilder.MeshOperations", "CombineMeshes");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::CombineMeshes___c*, "UnityEngine.ProBuilder.MeshOperations", "CombineMeshes/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -90,13 +91,13 @@ protected:
   constexpr CombineMeshes___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CombineMeshes___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CombineMeshes___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CombineMeshes___c(CombineMeshes___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CombineMeshes___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CombineMeshes___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CombineMeshes___c(CombineMeshes___c const&) = delete;
+  CombineMeshes___c(CombineMeshes___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16859 };
@@ -125,6 +126,7 @@ public:
                                           ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*> sharedTextures,
                                           ::by_ref<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*> materialMap, ::UnityEngine::Transform* targetTransform);
 
+  /// [Obsolete("Combine(IEnumerable<ProBuilderMesh> meshes) is deprecated. Plase use Combine(IEnumerable<ProBuilderMesh> meshes, ProBuilderMesh meshTarget).")]
   /// @brief Method Combine, addr 0x671b41c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
   Combine(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes);
@@ -155,13 +157,13 @@ protected:
   constexpr CombineMeshes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CombineMeshes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CombineMeshes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CombineMeshes(CombineMeshes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CombineMeshes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CombineMeshes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CombineMeshes(CombineMeshes const&) = delete;
+  CombineMeshes(CombineMeshesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16860 };

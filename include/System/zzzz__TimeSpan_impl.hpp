@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TimeSpan.hpp"
+// IWYU pragma private; include "System/TimeSpan.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
@@ -889,7 +889,7 @@ constexpr System::TimeSpan::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::TimeSpan::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_ticks", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_ticks", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::TimeSpan::TimeSpan(int64_t _ticks) noexcept {
   this->_ticks = _ticks;
 }

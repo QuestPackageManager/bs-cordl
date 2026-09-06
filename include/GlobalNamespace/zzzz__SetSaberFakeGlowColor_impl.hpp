@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetSaberFakeGlowColor.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetSaberFakeGlowColor.hpp"
 #include "GlobalNamespace/zzzz__SaberType_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

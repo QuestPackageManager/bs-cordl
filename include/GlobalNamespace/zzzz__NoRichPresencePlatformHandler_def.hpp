@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoRichPresencePlatformHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoRichPresencePlatformHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,12 +52,14 @@ public:
   /// @brief Method .ctor, addr 0x58ff700, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentPresenceApiName, addr 0x58ff624, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_currentPresenceApiName();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
   constexpr ::GlobalNamespace::IRichPresencePlatformHandler* i___GlobalNamespace__IRichPresencePlatformHandler() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentPresenceApiName, addr 0x58ff62c, size 0x8, virtual false, abstract: false, final false
   inline void set_currentPresenceApiName(::StringW value);
 
@@ -67,17 +69,18 @@ protected:
   constexpr NoRichPresencePlatformHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoRichPresencePlatformHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoRichPresencePlatformHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoRichPresencePlatformHandler(NoRichPresencePlatformHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoRichPresencePlatformHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoRichPresencePlatformHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoRichPresencePlatformHandler(NoRichPresencePlatformHandler const&) = delete;
+  NoRichPresencePlatformHandler(NoRichPresencePlatformHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6646 };
 
+  /// [CompilerGenerated]
   /// @brief Field <currentPresenceApiName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____currentPresenceApiName_k__BackingField;
 

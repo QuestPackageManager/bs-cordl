@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\BidirectionalDictionary_2.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/BidirectionalDictionary_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
@@ -93,12 +93,14 @@ template <typename TFirst, typename TSecond> inline void Newtonsoft::Json::Utili
                                                                                          { "Set", {}, { ::i2c::type_of<TFirst>(), ::i2c::type_of<TSecond>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, first, second);
 }
-template <typename TFirst, typename TSecond> inline bool Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::TryGetByFirst(TFirst first, ::by_ref<TSecond> second) {
+template <typename TFirst, typename TSecond>
+inline bool Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::TryGetByFirst(TFirst first, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<TSecond> second) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>(),
                                                                                          { "TryGetByFirst", {}, { ::i2c::type_of<TFirst>(), ::i2c::type_of<::by_ref<TSecond>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, first, second);
 }
-template <typename TFirst, typename TSecond> inline bool Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::TryGetBySecond(TSecond second, ::by_ref<TFirst> first) {
+template <typename TFirst, typename TSecond>
+inline bool Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::TryGetBySecond(TSecond second, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<TFirst> first) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>(),
                                                                                          { "TryGetBySecond", {}, { ::i2c::type_of<TSecond>(), ::i2c::type_of<::by_ref<TFirst>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, second, first);

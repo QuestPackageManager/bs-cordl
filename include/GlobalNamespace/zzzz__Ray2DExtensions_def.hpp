@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Ray2DExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/Ray2DExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class Ray2DExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::Ray2DExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::Ray2DExtensions*, "", "Ray2DExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -28,6 +29,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE Ray2DExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method CircleIntersections, addr 0x332683c, size 0x120, virtual false, abstract: false, final false
   static inline int32_t CircleIntersections(::UnityEngine::Ray2D ray, ::UnityEngine::Vector2 circleCenter, float_t radius, ::ArrayW<float_t> distances);
 
@@ -37,13 +39,13 @@ protected:
   constexpr Ray2DExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ray2DExtensions(Ray2DExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Ray2DExtensions(Ray2DExtensions const&) = delete;
+  Ray2DExtensions(Ray2DExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20752 };

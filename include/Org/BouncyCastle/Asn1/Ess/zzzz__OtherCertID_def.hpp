@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ess\OtherCertID.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ess/OtherCertID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class OtherCertID;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Asn1::Ess::OtherCertID*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Asn1::Ess::OtherCertID*, "Org.BouncyCastle.Asn1.Ess", "OtherCertID");
+// [Obsolete("Use version in Asn1.Esf instead")]
 // Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Ess {
 // Is value type: false
@@ -98,13 +99,13 @@ protected:
   constexpr OtherCertID();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OtherCertID", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OtherCertID", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OtherCertID(OtherCertID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OtherCertID", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OtherCertID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OtherCertID(OtherCertID const&) = delete;
+  OtherCertID(OtherCertIDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 164 };

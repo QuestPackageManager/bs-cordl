@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\QueryExpression.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/QueryExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class QueryExpression;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Linq::JsonPath::QueryExpression*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JsonPath::QueryExpression*, "Newtonsoft.Json.Linq.JsonPath", "QueryExpression");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Linq.JsonPath.QueryOperator, System.Object
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
@@ -35,8 +37,8 @@ public:
   /// @brief Method IsMatch, addr 0x5d92dcc, size 0x10, virtual false, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t);
 
-  /// @brief Method IsMatch, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
+  /// @brief Method IsMatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::QueryExpression* New_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
 
@@ -55,13 +57,13 @@ protected:
   constexpr QueryExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QueryExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QueryExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QueryExpression(QueryExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QueryExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QueryExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QueryExpression(QueryExpression const&) = delete;
+  QueryExpression(QueryExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13637 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightmapLightWithIdsGroupEntry.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightmapLightWithIdsGroupEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,23 +107,26 @@ protected:
   constexpr LightmapLightWithIdsGroupEntry_GroupLightData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_GroupLightData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_GroupLightData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightmapLightWithIdsGroupEntry_GroupLightData(LightmapLightWithIdsGroupEntry_GroupLightData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_GroupLightData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_GroupLightData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapLightWithIdsGroupEntry_GroupLightData(LightmapLightWithIdsGroupEntry_GroupLightData const&) = delete;
+  LightmapLightWithIdsGroupEntry_GroupLightData(LightmapLightWithIdsGroupEntry_GroupLightDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19537 };
 
+  /// [SerializeField]
   /// @brief Field _lightGroup, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroup;
 
+  /// [SerializeField]
   /// @brief Field _groupIntensity, offset: 0x18, size: 0x4, def value: None
   float_t ____groupIntensity;
 
+  /// [SerializeField]
   /// @brief Field _groupProbeHighlightsIntensityMultiplier, offset: 0x1c, size: 0x4, def value: None
   float_t ____groupProbeHighlightsIntensityMultiplier;
 
@@ -199,23 +202,26 @@ protected:
   constexpr LightmapLightWithIdsGroupEntry_LightIntensitiesWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightmapLightWithIdsGroupEntry_LightIntensitiesWithId(LightmapLightWithIdsGroupEntry_LightIntensitiesWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapLightWithIdsGroupEntry_LightIntensitiesWithId(LightmapLightWithIdsGroupEntry_LightIntensitiesWithId const&) = delete;
+  LightmapLightWithIdsGroupEntry_LightIntensitiesWithId(LightmapLightWithIdsGroupEntry_LightIntensitiesWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19538 };
 
+  /// [SerializeField]
   /// @brief Field _lightId, offset: 0x10, size: 0x4, def value: None
   int32_t ____lightId;
 
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x14, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
   /// @brief Field _probeHighlightsIntensityMultiplier, offset: 0x18, size: 0x4, def value: None
   float_t ____probeHighlightsIntensityMultiplier;
 
@@ -321,29 +327,36 @@ protected:
   constexpr LightmapLightWithIdsGroupEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightmapLightWithIdsGroupEntry(LightmapLightWithIdsGroupEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapLightWithIdsGroupEntry(LightmapLightWithIdsGroupEntry const&) = delete;
+  LightmapLightWithIdsGroupEntry(LightmapLightWithIdsGroupEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19539 };
 
+  /// [SerializeField]
   /// @brief Field _lightmapLightWithIds, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightmapLightWithIds> ____lightmapLightWithIds;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _groupLightData, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::LightmapLightWithIdsGroupEntry_GroupLightData*>* ____groupLightData;
 
+  /// [SerializeField]
   /// @brief Field _individualLightData, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::LightmapLightWithIdsGroupEntry_LightIntensitiesWithId*>* ____individualLightData;
 
+  /// [SerializeField]
   /// @brief Field _excludedLightIds, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<int32_t> ____excludedLightIds;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _groupLightsWeighting, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::ColorMixAndWeightingApproach ____groupLightsWeighting;
 

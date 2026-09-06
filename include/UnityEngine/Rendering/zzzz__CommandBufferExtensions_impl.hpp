@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CommandBufferExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CommandBufferExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBufferExtensions_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -114,7 +114,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::CommandBufferExtensions::Internal_SwitchIntoFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt,
+inline void UnityEngine::Rendering::CommandBufferExtensions::Internal_SwitchIntoFastMemory(/* [NotNull] */ ::UnityEngine::Rendering::CommandBuffer* cmd,
+                                                                                           ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt,
                                                                                            ::UnityEngine::Rendering::FastMemoryFlags fastMemoryFlags, float_t residency, bool copyContents) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CommandBufferExtensions*>(),
@@ -124,8 +125,8 @@ inline void UnityEngine::Rendering::CommandBufferExtensions::Internal_SwitchInto
                                                                ::i2c::type_of<::UnityEngine::Rendering::FastMemoryFlags>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, rt, fastMemoryFlags, residency, copyContents);
 }
-inline void UnityEngine::Rendering::CommandBufferExtensions::Internal_SwitchOutOfFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt,
-                                                                                            bool copyContents) {
+inline void UnityEngine::Rendering::CommandBufferExtensions::Internal_SwitchOutOfFastMemory(/* [NotNull] */ ::UnityEngine::Rendering::CommandBuffer* cmd,
+                                                                                            ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt, bool copyContents) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CommandBufferExtensions*>(),

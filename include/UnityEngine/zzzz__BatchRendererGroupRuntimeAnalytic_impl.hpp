@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BatchRendererGroupRuntimeAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine/BatchRendererGroupRuntimeAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEngine/zzzz__BatchRendererGroupRuntimeAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEngine::BatchRendererGroupRuntimeAnalytic._ctor

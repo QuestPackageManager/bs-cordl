@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\IRandomGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/IRandomGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,21 +20,21 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class CORDL_TYPE IRandomGenerator {
 public:
   // Declarations
-  /// @brief Method AddSeedMaterial, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddSeedMaterial(::ArrayW<uint8_t> seed);
 
-  /// @brief Method AddSeedMaterial, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddSeedMaterial(int64_t seed);
 
-  /// @brief Method NextBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NextBytes(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method NextBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NextBytes(::ArrayW<uint8_t> bytes, int32_t start, int32_t len);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRandomGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IRandomGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IRandomGenerator(IRandomGenerator const&) = delete;
+  IRandomGenerator(IRandomGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1105 };

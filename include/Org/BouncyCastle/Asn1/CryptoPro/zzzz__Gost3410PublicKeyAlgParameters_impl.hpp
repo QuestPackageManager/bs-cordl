@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\CryptoPro\Gost3410PublicKeyAlgParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/CryptoPro/Gost3410PublicKeyAlgParameters.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/CryptoPro/zzzz__Gost3410PublicKeyAlgParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -246,6 +246,7 @@ Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::New_ctor(::O
                                                                              ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*>(publicKeyParamSet, digestParamSet, encryptionParamSet));
 }
+/// @brief [Obsolete("Use \'GetInstance\' instead")]
 inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*
 Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410PublicKeyAlgParameters*>(seq));

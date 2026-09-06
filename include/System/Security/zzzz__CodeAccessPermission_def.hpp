@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\CodeAccessPermission.hpp"
+// IWYU pragma private; include "System/Security/CodeAccessPermission.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,8 @@ class CodeAccessPermission;
 // Write type traits
 MARK_REF_T(::System::Security::CodeAccessPermission*);
 DEFINE_IL2CPP_CLASS(::System::Security::CodeAccessPermission*, "System.Security", "CodeAccessPermission");
+// [MonoTODO("CAS support is experimental (and unsupported).")]
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Security {
 // Is value type: false
@@ -45,16 +47,19 @@ public:
   /// @brief Method CheckPermissionState, addr 0x5aef184, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Security::Permissions::PermissionState CheckPermissionState(::System::Security::Permissions::PermissionState state, bool allowUnrestricted);
 
+  /// [Conditional("MONO_FEATURE_CAS")]
   /// @brief Method Demand, addr 0x5aeef30, size 0x3c, virtual true, abstract: false, final true
   inline void Demand();
 
+  /// [ComVisible(false)]
   /// @brief Method Equals, addr 0x5aef03c, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [ComVisible(false)]
   /// @brief Method GetHashCode, addr 0x5aef148, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsSubsetOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
   static inline ::System::Security::CodeAccessPermission* New_ctor();
@@ -65,7 +70,7 @@ public:
   /// @brief Method ToString, addr 0x5aef15c, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToXml, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   /// @brief Method .ctor, addr 0x5aeef2c, size 0x4, virtual false, abstract: false, final false
@@ -83,13 +88,13 @@ protected:
   constexpr CodeAccessPermission();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CodeAccessPermission", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CodeAccessPermission", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CodeAccessPermission(CodeAccessPermission&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CodeAccessPermission", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CodeAccessPermission", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CodeAccessPermission(CodeAccessPermission const&) = delete;
+  CodeAccessPermission(CodeAccessPermissionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2902 };

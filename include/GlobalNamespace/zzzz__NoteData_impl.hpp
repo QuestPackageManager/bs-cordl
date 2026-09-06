@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteData.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectData_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorType_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_impl.hpp"
@@ -11,7 +11,7 @@
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::NoteData_GameplayType::NoteData_GameplayType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -21,7 +21,7 @@ constexpr ::GlobalNamespace::NoteData_GameplayType GlobalNamespace::NoteData_Gam
 constexpr ::GlobalNamespace::NoteData_GameplayType GlobalNamespace::NoteData_GameplayType::Bomb{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::NoteData_GameplayType GlobalNamespace::NoteData_GameplayType::BurstSliderHead{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::NoteData_GameplayType GlobalNamespace::NoteData_GameplayType::BurstSliderElement{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::NoteData_ScoringType::NoteData_ScoringType(int32_t value__) noexcept {
   this->value__ = value__;
 }

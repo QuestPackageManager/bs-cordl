@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassRendererSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SubMeshDescriptor_impl.hpp"
@@ -43,15 +43,17 @@ inline int32_t GlobalNamespace::BloomPrePassRendererSO_InputData::GetSize() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO_InputData>(), { "GetSize", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "limitAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "useCollision", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "minAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "startAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "calculatedLength", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "multiplyLengthByAlphaBloomFogMultiplier", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "multiplyLengthByAlphaMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "center", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightWidthMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "startWidth", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "endWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "boostToWhite", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "bloomFogIntensityMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "limitAlpha", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "useCollision", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "minAlpha", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxAlpha", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "startAlpha", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "length", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "calculatedLength", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "multiplyLengthByAlphaBloomFogMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "multiplyLengthByAlphaMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "center", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "lightWidthMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "startWidth", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "endWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "boostToWhite", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "bloomFogIntensityMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "color", ty:
+// "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::GlobalNamespace::BloomPrePassRendererSO_InputData::BloomPrePassRendererSO_InputData(float_t limitAlpha, float_t useCollision, float_t minAlpha, float_t maxAlpha, float_t startAlpha,
                                                                                                 float_t endAlpha, float_t length, float_t calculatedLength,
                                                                                                 float_t multiplyLengthByAlphaBloomFogMultiplier, float_t multiplyLengthByAlphaMultiplier,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DrawInstance.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DrawInstance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr DrawInstance();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "::UnityEngine::Rendering::DrawKey", modifiers: "", def_value: None }, CppParam { name: "instanceIndex", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "key", ty: "::UnityEngine::Rendering::DrawKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "instanceIndex", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr DrawInstance(::UnityEngine::Rendering::DrawKey key, int32_t instanceIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

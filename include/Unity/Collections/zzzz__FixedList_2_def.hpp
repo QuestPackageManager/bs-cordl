@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedList_2.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedList_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,25 +14,38 @@ namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T> class IIndexable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IIndexable_1;
 }
 namespace Unity::Collections {
-template <typename T> class INativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class INativeList_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T, typename U> struct FixedList_2;
+template <typename T, typename U>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::value_type_constraint<U> &&
+           ::cordl_internals::default_constructor_constraint<U>)
+struct FixedList_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::FixedList_2);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::FixedList_2, "Unity.Collections", "FixedList`2");
+// [DefaultMember("Item")]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(Unity.Collections.FixedBytes32Align8) })]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T, typename U>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> && ::cordl_internals::value_type_constraint<U> &&
+           ::cordl_internals::default_constructor_constraint<U>)
 // Is value type: true
 // CS Name: Unity.Collections.FixedList`2<T,U>
 struct CORDL_TYPE FixedList_2 {
@@ -42,12 +55,14 @@ public:
 
   __declspec(property(get = get_Capacity, put = set_Capacity)) int32_t Capacity;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_Elements)) ::System::Collections::Generic::IEnumerable_1<T>* Elements;
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_Length, put = set_Length)) int32_t Length;
 
   __declspec(property(get = get_LengthInBytes)) int32_t LengthInBytes;
@@ -63,10 +78,10 @@ public:
   constexpr operator ::Unity::Collections::INativeList_1<T>*();
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(::by_ref<T> item);
+  inline void Add(/* [IsReadOnly] */ ::by_ref<T> item);
 
   /// @brief Method AddNoResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddNoResize(::by_ref<T> item);
+  inline void AddNoResize(/* [IsReadOnly] */ ::by_ref<T> item);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(void* ptr, int32_t length);
@@ -75,7 +90,7 @@ public:
   inline void AddRangeNoResize(void* ptr, int32_t length);
 
   /// @brief Method AddReplicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddReplicate(::by_ref<T> value, int32_t count);
+  inline void AddReplicate(/* [IsReadOnly] */ ::by_ref<T> value, int32_t count);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
@@ -87,7 +102,7 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Insert(int32_t index, ::by_ref<T> item);
+  inline void Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T> item);
 
   /// @brief Method InsertRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InsertRange(int32_t index, int32_t count);
@@ -107,36 +122,45 @@ public:
   /// @brief Method RemoveRangeSwapBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveRangeSwapBack(int32_t index, int32_t count);
 
+  /// [ExcludeFromBurstCompatTesting("Returns managed array")]
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T> ToArray();
 
   /// @brief Method ToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_Buffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline uint8_t* get_Buffer();
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Capacity();
 
   /// @brief Method get_Elements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<T>* get_Elements();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
+  /// [IsReadOnly]
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Item(int32_t index);
 
+  /// [IsReadOnly]
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Length();
 
+  /// [IsReadOnly]
   /// @brief Method get_LengthInBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_LengthInBytes();
 
+  /// [IsReadOnly]
   /// @brief Method get_buffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline uint8_t* get_buffer();
 
+  /// [IsReadOnly]
   /// @brief Method get_length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline uint16_t get_length();
 
@@ -162,7 +186,7 @@ public:
   // @brief default ctor
   constexpr FixedList_2();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "U", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "U", modifiers: "", def_value: None, comment: None }]
   constexpr FixedList_2(U data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -171,6 +195,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [SerializeField]
   /// @brief Field data, offset: 0x0, size: 0x8, def value: None
   U data;
 

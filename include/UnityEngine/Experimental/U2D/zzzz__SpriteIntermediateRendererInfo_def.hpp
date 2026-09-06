@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\U2D\SpriteIntermediateRendererInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/U2D/SpriteIntermediateRendererInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ struct SpriteIntermediateRendererInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
+// [NativeHeader("Runtime/2D/Renderer/SpriteRendererGroup.h")]
+// [RequiredByNativeCode]
 // Dependencies System.IntPtr, UnityEngine.Bounds, UnityEngine.Color, UnityEngine.Matrix4x4
 namespace UnityEngine::Experimental::U2D {
 // Is value type: true
@@ -28,13 +30,14 @@ public:
   // @brief default ctor
   constexpr SpriteIntermediateRendererInfo();
 
-  // Ctor Parameters [CppParam { name: "SpriteID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "TextureID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "MaterialID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "Transform", ty:
-  // "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "Bounds", ty: "::UnityEngine::Bounds", modifiers: "", def_value: None }, CppParam { name: "Layer", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "SortingLayer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SortingOrder", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "SceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "IndexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
-  // "VertexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "IndexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "VertexCount", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "ShaderChannelMask", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "SpriteID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "TextureID", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "MaterialID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "Bounds", ty: "::UnityEngine::Bounds", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "Layer", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SortingLayer", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "SortingOrder", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SceneCullingMask", ty: "uint64_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "IndexData", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "VertexData", ty: "::System::IntPtr",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "IndexCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "VertexCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "ShaderChannelMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SpriteIntermediateRendererInfo(int32_t SpriteID, int32_t TextureID, int32_t MaterialID, ::UnityEngine::Color Color, ::UnityEngine::Matrix4x4 Transform, ::UnityEngine::Bounds Bounds,
                                            int32_t Layer, int32_t SortingLayer, int32_t SortingOrder, uint64_t SceneCullingMask, ::System::IntPtr IndexData, ::System::IntPtr VertexData,
                                            int32_t IndexCount, int32_t VertexCount, int32_t ShaderChannelMask) noexcept;

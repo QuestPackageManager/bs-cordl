@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\TimeSlider.hpp"
+// IWYU pragma private; include "HMUI/TimeSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   // @brief default ctor
   constexpr TimeSlider_TimeType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimeSlider_TimeType(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(0)
@@ -151,17 +151,18 @@ protected:
   constexpr TimeSlider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeSlider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSlider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeSlider(TimeSlider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeSlider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeSlider(TimeSlider const&) = delete;
+  TimeSlider(TimeSliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19065 };
 
+  /// [SerializeField]
   /// @brief Field _timeType, offset: 0x170, size: 0x4, def value: None
   ::HMUI::TimeSlider_TimeType ____timeType;
 

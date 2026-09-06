@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DMaterialSwitchEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DMaterialSwitchEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,26 +100,32 @@ protected:
   constexpr FloatTextureProcessor3DMaterialSwitchEffectTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMaterialSwitchEffectTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMaterialSwitchEffectTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatTextureProcessor3DMaterialSwitchEffectTarget(FloatTextureProcessor3DMaterialSwitchEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMaterialSwitchEffectTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DMaterialSwitchEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatTextureProcessor3DMaterialSwitchEffectTarget(FloatTextureProcessor3DMaterialSwitchEffectTarget const&) = delete;
+  FloatTextureProcessor3DMaterialSwitchEffectTarget(FloatTextureProcessor3DMaterialSwitchEffectTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5871 };
 
+  /// [SerializeField]
   /// @brief Field _materialArray, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Material>> ____materialArray;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _valueBounds, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____valueBounds;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _gridElementControllers, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::GridElementController>> ____gridElementControllers;
 
+  /// [SerializeField]
   /// @brief Field _materialIndex, offset: 0x38, size: 0x4, def value: None
   int32_t ____materialIndex;
 

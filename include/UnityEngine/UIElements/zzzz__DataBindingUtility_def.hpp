@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DataBindingUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DataBindingUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ namespace System::Text::RegularExpressions {
 class Regex;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements::Internal {
 class AutoCompletePathVisitor;
@@ -41,6 +43,7 @@ MARK_REF_T(::UnityEngine::UIElements::DataBindingUtility*);
 MARK_REF_T(::UnityEngine::UIElements::DataBindingUtility___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DataBindingUtility*, "UnityEngine.UIElements", "DataBindingUtility");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DataBindingUtility___c*, "UnityEngine.UIElements", "DataBindingUtility/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -78,13 +81,13 @@ protected:
   constexpr DataBindingUtility___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingUtility___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingUtility___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataBindingUtility___c(DataBindingUtility___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingUtility___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingUtility___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingUtility___c(DataBindingUtility___c const&) = delete;
+  DataBindingUtility___c(DataBindingUtility___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4053 };
@@ -95,6 +98,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::DataBindingUtility___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -115,7 +119,7 @@ public:
   __declspec(property(get = getStaticF_s_ReplaceIndices, put = setStaticF_s_ReplaceIndices)) ::System::Text::RegularExpressions::Regex* s_ReplaceIndices;
 
   /// @brief Method TryGetBinding, addr 0x6c44de4, size 0x184, virtual false, abstract: false, final false
-  static inline bool TryGetBinding(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+  static inline bool TryGetBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                    ::by_ref<::UnityEngine::UIElements::BindingInfo> bindingInfo);
 
   static inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>* getStaticF_k_AutoCompleteVisitors();
@@ -136,13 +140,13 @@ protected:
   constexpr DataBindingUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataBindingUtility(DataBindingUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataBindingUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataBindingUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataBindingUtility(DataBindingUtility const&) = delete;
+  DataBindingUtility(DataBindingUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4054 };

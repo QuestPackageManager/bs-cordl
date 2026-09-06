@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ExecuteCommandEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ExecuteCommandEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CommandEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ExecuteCommandEvent_def.hpp"

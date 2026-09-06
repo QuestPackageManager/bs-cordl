@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpawnChevronObjectPoolsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpawnChevronObjectPoolsInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,17 +46,18 @@ protected:
   constexpr SpawnChevronObjectPoolsInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnChevronObjectPoolsInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnChevronObjectPoolsInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnChevronObjectPoolsInstaller(SpawnChevronObjectPoolsInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpawnChevronObjectPoolsInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnChevronObjectPoolsInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpawnChevronObjectPoolsInstaller(SpawnChevronObjectPoolsInstaller const&) = delete;
+  SpawnChevronObjectPoolsInstaller(SpawnChevronObjectPoolsInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5976 };
 
+  /// [SerializeField]
   /// @brief Field _spawnRotationChevronPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SpawnRotationChevron> ____spawnRotationChevronPrefab;
 

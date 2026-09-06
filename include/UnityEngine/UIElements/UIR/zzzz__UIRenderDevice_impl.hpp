@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\UIRenderDevice.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/UIRenderDevice.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -29,10 +29,11 @@
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-// Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "allocTime", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "meshHandle", ty: "::UnityEngine::UIElements::UIR::MeshHandle*", modifiers: "", def_value: Some("{}") }, CppParam { name: "permAllocVerts", ty: "::UnityEngine::UIElements::UIR::Alloc",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "permAllocIndices", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: Some("{}") }, CppParam { name: "permPage", ty:
-// "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: Some("{}") }, CppParam { name: "copyBackIndices", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "allocTime", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "meshHandle", ty: "::UnityEngine::UIElements::UIR::MeshHandle*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "permAllocVerts", ty:
+// "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "permAllocIndices", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "permPage", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "copyBackIndices", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate::UIRenderDevice_AllocToUpdate(uint32_t id, uint32_t allocTime, ::UnityEngine::UIElements::UIR::MeshHandle* meshHandle,
                                                                                                      ::UnityEngine::UIElements::UIR::Alloc permAllocVerts,
                                                                                                      ::UnityEngine::UIElements::UIR::Alloc permAllocIndices,
@@ -47,8 +48,8 @@ constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate::UIRender
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate::UIRenderDevice_AllocToUpdate() {}
-// Ctor Parameters [CppParam { name: "alloc", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: Some("{}") }, CppParam { name: "page", ty: "::UnityEngine::UIElements::UIR::Page*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "vertices", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "alloc", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "page", ty:
+// "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vertices", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToFree::UIRenderDevice_AllocToFree(::UnityEngine::UIElements::UIR::Alloc alloc, ::UnityEngine::UIElements::UIR::Page* page,
                                                                                                  bool vertices) noexcept {
   this->alloc = alloc;
@@ -74,8 +75,9 @@ inline void UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree::Dispose()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "page", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "commandLists", ty: "::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "handle", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "page", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "commandLists", ty: "::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree::UIRenderDevice_DeviceToFree(
     uint32_t handle, ::UnityEngine::UIElements::UIR::Page* page, ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> commandLists) noexcept {
   this->handle = handle;
@@ -84,12 +86,12 @@ constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree::UIRenderD
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_DeviceToFree::UIRenderDevice_DeviceToFree() {}
-// Ctor Parameters [CppParam { name: "activeCommandList", ty: "::UnityEngine::UIElements::UIR::CommandList*", modifiers: "", def_value: Some("{}") }, CppParam { name: "constantProps", ty:
-// "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchProps", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "defaultMat", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "curState", ty: "::UnityEngine::UIElements::UIR::State", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "curPage", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: Some("{}") }, CppParam { name: "mustApplyMaterial", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "mustApplyBatchProps", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "mustApplyStencil", ty: "bool", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "activeCommandList", ty: "::UnityEngine::UIElements::UIR::CommandList*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "constantProps",
+// ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchProps", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "defaultMat", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "curState",
+// ty: "::UnityEngine::UIElements::UIR::State", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "curPage", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "mustApplyMaterial", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mustApplyBatchProps", ty: "bool",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mustApplyStencil", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState::UIRenderDevice_EvaluationState(::UnityEngine::UIElements::UIR::CommandList* activeCommandList,
                                                                                                          ::UnityEngine::MaterialPropertyBlock* constantProps,
                                                                                                          ::UnityEngine::MaterialPropertyBlock* batchProps, ::UnityW<::UnityEngine::Material> defaultMat,
@@ -107,12 +109,13 @@ constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState::UIRend
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState::UIRenderDevice_EvaluationState() {}
-// Ctor Parameters [CppParam { name: "currentFrameIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "totalIndices", ty: "uint32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "commandCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "skippedCommandCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "drawCommandCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "disableCommandCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "materialSetCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawRangeCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "drawRangeCallCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "immediateDraws", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "stencilRefChanges", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "currentFrameIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "totalIndices", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "commandCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "skippedCommandCount", ty:
+// "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawCommandCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "disableCommandCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "materialSetCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "drawRangeCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawRangeCallCount", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "immediateDraws", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stencilRefChanges", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice_DrawStatistics::UIRenderDevice_DrawStatistics(int32_t currentFrameIndex, uint32_t totalIndices, uint32_t commandCount,
                                                                                                        uint32_t skippedCommandCount, uint32_t drawCommandCount, uint32_t disableCommandCount,
                                                                                                        uint32_t materialSetCount, uint32_t drawRangeCount, uint32_t drawRangeCallCount,
@@ -1396,7 +1399,9 @@ inline void UnityEngine::UIElements::UIR::UIRenderDevice::OnFrameRenderingBegin(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRenderDevice*>(), { "OnFrameRenderingBegin", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline ::Unity::Collections::NativeSlice_1<T> UnityEngine::UIElements::UIR::UIRenderDevice::PtrToSlice(void* p, int32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeSlice_1<T> UnityEngine::UIElements::UIR::UIRenderDevice::PtrToSlice(void* p, int32_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRenderDevice*>(),
                                                                                               { "PtrToSlice", { ::i2c::class_of<T>() }, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

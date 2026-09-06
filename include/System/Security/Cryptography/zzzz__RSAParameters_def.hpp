@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\RSAParameters.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/RSAParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct RSAParameters;
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::RSAParameters);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::RSAParameters, "System.Security.Cryptography", "RSAParameters");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Security::Cryptography {
 // Is value type: true
@@ -25,10 +26,11 @@ public:
   // @brief default ctor
   constexpr RSAParameters();
 
-  // Ctor Parameters [CppParam { name: "Exponent", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "Modulus", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None },
-  // CppParam { name: "P", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "Q", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "DP", ty:
-  // "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "DQ", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "InverseQ", ty: "::ArrayW<uint8_t>",
-  // modifiers: "", def_value: None }, CppParam { name: "D", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Exponent", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Modulus", ty: "::ArrayW<uint8_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "P", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Q", ty: "::ArrayW<uint8_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "DP", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "DQ", ty: "::ArrayW<uint8_t>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "InverseQ", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "D", ty: "::ArrayW<uint8_t>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr RSAParameters(::ArrayW<uint8_t> Exponent, ::ArrayW<uint8_t> Modulus, ::ArrayW<uint8_t> P, ::ArrayW<uint8_t> Q, ::ArrayW<uint8_t> DP, ::ArrayW<uint8_t> DQ, ::ArrayW<uint8_t> InverseQ,
                           ::ArrayW<uint8_t> D) noexcept;
 

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\AnalyzeTypeIsResult.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/AnalyzeTypeIsResult.hpp"
 #include "System/Linq/Expressions/zzzz__AnalyzeTypeIsResult_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Linq::Expressions::AnalyzeTypeIsResult::AnalyzeTypeIsResult(int32_t value__) noexcept {
   this->value__ = value__;
 }

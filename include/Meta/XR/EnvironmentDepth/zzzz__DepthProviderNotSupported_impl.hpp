@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\EnvironmentDepth\DepthProviderNotSupported.hpp"
+// IWYU pragma private; include "Meta/XR/EnvironmentDepth/DepthProviderNotSupported.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/EnvironmentDepth/zzzz__DepthProviderNotSupported_def.hpp"
 #include "Meta/XR/EnvironmentDepth/zzzz__DepthFrameDesc_def.hpp"

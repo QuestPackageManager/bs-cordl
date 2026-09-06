@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\SignerInputBuffer.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/SignerInputBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,13 +59,13 @@ protected:
   constexpr SignerInputBuffer_SigStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer_SigStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer_SigStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerInputBuffer_SigStream(SignerInputBuffer_SigStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer_SigStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer_SigStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignerInputBuffer_SigStream(SignerInputBuffer_SigStream const&) = delete;
+  SignerInputBuffer_SigStream(SignerInputBuffer_SigStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1276 };
@@ -104,13 +104,13 @@ protected:
   constexpr SignerInputBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerInputBuffer(SignerInputBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignerInputBuffer(SignerInputBuffer const&) = delete;
+  SignerInputBuffer(SignerInputBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1277 };

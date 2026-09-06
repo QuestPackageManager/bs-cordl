@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlNameTable.hpp"
+// IWYU pragma private; include "System/Xml/XmlNameTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,16 +22,16 @@ namespace System::Xml {
 class CORDL_TYPE XmlNameTable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW Add(::ArrayW<char16_t> array, int32_t offset, int32_t length);
 
-  /// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW Add(::StringW array);
 
-  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW Get(::ArrayW<char16_t> array, int32_t offset, int32_t length);
 
-  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW Get(::StringW array);
 
   static inline ::System::Xml::XmlNameTable* New_ctor();
@@ -45,13 +45,13 @@ protected:
   constexpr XmlNameTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlNameTable(XmlNameTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlNameTable(XmlNameTable const&) = delete;
+  XmlNameTable(XmlNameTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9455 };

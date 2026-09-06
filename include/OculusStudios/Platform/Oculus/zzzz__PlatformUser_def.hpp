@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Oculus\PlatformUser.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Oculus/PlatformUser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,6 +118,7 @@ DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCateg
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19, "OculusStudios.Platform.Oculus", "PlatformUser/<GetUnlockedAchievementIdsAsync>d__19");
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12, "OculusStudios.Platform.Oculus", "PlatformUser/<InternalGetAccessTokenAsync>d__12");
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Oculus::PlatformUser__IsAchievementUnlockedAsync_d__18, "OculusStudios.Platform.Oculus", "PlatformUser/<IsAchievementUnlockedAsync>d__18");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::Platform::Oculus {
 // Is value type: false
@@ -148,13 +149,13 @@ protected:
   constexpr PlatformUser___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformUser___c__DisplayClass17_0(PlatformUser___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformUser___c__DisplayClass17_0(PlatformUser___c__DisplayClass17_0 const&) = delete;
+  PlatformUser___c__DisplayClass17_0(PlatformUser___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22143 };
@@ -170,6 +171,7 @@ static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser___c__Disp
 static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass17_0) == 0x18, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::Platform::Oculus {
 // Is value type: false
@@ -203,13 +205,13 @@ protected:
   constexpr PlatformUser___c__DisplayClass18_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass18_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformUser___c__DisplayClass18_0(PlatformUser___c__DisplayClass18_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass18_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformUser___c__DisplayClass18_0(PlatformUser___c__DisplayClass18_0 const&) = delete;
+  PlatformUser___c__DisplayClass18_0(PlatformUser___c__DisplayClass18_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22144 };
@@ -225,6 +227,7 @@ static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser___c__Disp
 static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0) == 0x18, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
@@ -238,6 +241,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f352fc, size 0x314, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f35610, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -248,9 +252,10 @@ public:
   // @brief default ctor
   constexpr PlatformUser__GetAccessTokenAsync_d__11();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Oculus::PlatformUser*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformUser__GetAccessTokenAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
                                                     ::OculusStudios::Platform::Oculus::PlatformUser* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
@@ -286,6 +291,7 @@ static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAcces
 static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__GetAccessTokenAsync_d__11) == 0x30, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
+// [CompilerGenerated]
 // Dependencies OculusStudios.Platform.Core.UserAgeCategory, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
@@ -299,6 +305,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f35690, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f35a1c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -309,9 +316,9 @@ public:
   // @brief default ctor
   constexpr PlatformUser__GetAgeCategoryAsync_d__15();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::UserAgeCategory>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::UserAgeCategory>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*>", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformUser__GetAgeCategoryAsync_d__15(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::Platform::Core::UserAgeCategory> __t__builder,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*> __u__1) noexcept;
@@ -343,6 +350,7 @@ static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCa
 static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__GetAgeCategoryAsync_d__15) == 0x28, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
@@ -356,6 +364,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f35a9c, size 0x6e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f36180, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -366,10 +375,10 @@ public:
   // @brief default ctor
   constexpr PlatformUser__GetUnlockedAchievementIdsAsync_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "__4__this",
-  // ty: "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "__4__this", ty: "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*>", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformUser__GetUnlockedAchievementIdsAsync_d__19(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*> __t__builder,
       ::OculusStudios::Platform::Oculus::PlatformUser* __4__this,
@@ -407,6 +416,7 @@ static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnloc
 static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__GetUnlockedAchievementIdsAsync_d__19) == 0x30, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
@@ -420,6 +430,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f36200, size 0x784, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f36984, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -430,11 +441,12 @@ public:
   // @brief default ctor
   constexpr PlatformUser__InternalGetAccessTokenAsync_d__12();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Oculus::PlatformUser*",
-  // modifiers: "", def_value: None }, CppParam { name: "_messageTask_5__2", ty: "::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::StringW>*>*", modifiers: "", def_value: None },
-  // CppParam { name: "_timeoutTask_5__3", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }, CppParam { name: "_completedFirst_5__4", ty: "::System::Threading::Tasks::Task*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_messageTask_5__2", ty:
+  // "::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::StringW>*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeoutTask_5__3", ty:
+  // "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_completedFirst_5__4", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformUser__InternalGetAccessTokenAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
                                                             ::OculusStudios::Platform::Oculus::PlatformUser* __4__this,
                                                             ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::StringW>*>* _messageTask_5__2,
@@ -488,6 +500,7 @@ static_assert(offsetof(::OculusStudios::Platform::Oculus::PlatformUser__Internal
 static_assert(sizeof(::OculusStudios::Platform::Oculus::PlatformUser__InternalGetAccessTokenAsync_d__12) == 0x48, "Size mismatch!");
 
 } // namespace OculusStudios::Platform::Oculus
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::Platform::Oculus {
 // Is value type: true
@@ -501,6 +514,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f36a04, size 0x51c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f36f20, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -511,11 +525,11 @@ public:
   // @brief default ctor
   constexpr PlatformUser__IsAchievementUnlockedAsync_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "achievementId", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "achievementId", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Oculus::PlatformUser*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1",
+  // ty: "::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*>", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformUser__IsAchievementUnlockedAsync_d__18(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::StringW achievementId, ::OculusStudios::Platform::Oculus::PlatformUser* __4__this,
       ::OculusStudios::Platform::Oculus::PlatformUser___c__DisplayClass18_0* __8__1,
@@ -611,9 +625,11 @@ public:
   /// @brief Method FlushAchievements, addr 0x5f35294, size 0x4, virtual true, abstract: false, final true
   inline void FlushAchievements();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetAccessTokenAsync>d__11))]
   /// @brief Method GetAccessTokenAsync, addr 0x5f34cdc, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetAccessTokenAsync();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetAgeCategoryAsync>d__15))]
   /// @brief Method GetAgeCategoryAsync, addr 0x5f34ea4, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* GetAgeCategoryAsync();
 
@@ -623,15 +639,18 @@ public:
   /// @brief Method GetLocale, addr 0x5f34e9c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW GetLocale();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<GetUnlockedAchievementIdsAsync>d__19))]
   /// @brief Method GetUnlockedAchievementIdsAsync, addr 0x5f351b8, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>* GetUnlockedAchievementIdsAsync();
 
   /// @brief Method GetXPlatformAccessTokenAsync, addr 0x5f34e98, size 0x4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetXPlatformAccessTokenAsync(bool skipCache);
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<InternalGetAccessTokenAsync>d__12))]
   /// @brief Method InternalGetAccessTokenAsync, addr 0x5f34db8, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* InternalGetAccessTokenAsync();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.Platform.Oculus.PlatformUser::<IsAchievementUnlockedAsync>d__18))]
   /// @brief Method IsAchievementUnlockedAsync, addr 0x5f350cc, size 0xec, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsAchievementUnlockedAsync(::StringW achievementId);
 
@@ -688,13 +707,13 @@ protected:
   constexpr PlatformUser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformUser(PlatformUser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformUser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformUser(PlatformUser const&) = delete;
+  PlatformUser(PlatformUserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22150 };

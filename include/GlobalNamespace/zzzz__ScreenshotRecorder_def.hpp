@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenshotRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenshotRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +66,7 @@ public:
   // @brief default ctor
   constexpr ScreenshotRecorder_RecordingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenshotRecorder_RecordingType(int32_t value__) noexcept;
 
   /// @brief Field F10ForScreenshot value: I32(3)
@@ -315,44 +315,55 @@ protected:
   constexpr ScreenshotRecorder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotRecorder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotRecorder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenshotRecorder(ScreenshotRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotRecorder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotRecorder(ScreenshotRecorder const&) = delete;
+  ScreenshotRecorder(ScreenshotRecorderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21422 };
 
+  /// [SerializeField]
   /// @brief Field _directory, offset: 0x20, size: 0x8, def value: None
   ::StringW ____directory;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _camera, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
+  /// [SerializeField]
   /// @brief Field _frameRate, offset: 0x30, size: 0x4, def value: None
   int32_t ____frameRate;
 
+  /// [SerializeField]
   /// @brief Field _forceFixedFramerate, offset: 0x34, size: 0x1, def value: None
   bool ____forceFixedFramerate;
 
+  /// [SerializeField]
   /// @brief Field _interval, offset: 0x38, size: 0x4, def value: None
   int32_t ____interval;
 
+  /// [SerializeField]
   /// @brief Field _recordingType, offset: 0x3c, size: 0x4, def value: None
   ::GlobalNamespace::ScreenshotRecorder_RecordingType ____recordingType;
 
+  /// [SerializeField]
   /// @brief Field _pauseWithPButton, offset: 0x40, size: 0x1, def value: None
   bool ____pauseWithPButton;
 
+  /// [SerializeField]
   /// @brief Field _antiAlias, offset: 0x44, size: 0x4, def value: None
   int32_t ____antiAlias;
 
+  /// [SerializeField]
   /// @brief Field _screenshotWidth, offset: 0x48, size: 0x4, def value: None
   int32_t ____screenshotWidth;
 
+  /// [SerializeField]
   /// @brief Field _screenshotHeight, offset: 0x4c, size: 0x4, def value: None
   int32_t ____screenshotHeight;
 

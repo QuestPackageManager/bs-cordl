@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\CircleSlider.hpp"
+// IWYU pragma private; include "HMUI/CircleSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ class CircleSlider;
 // Write type traits
 MARK_REF_T(::HMUI::CircleSlider*);
 DEFINE_IL2CPP_CLASS(::HMUI::CircleSlider*, "HMUI", "CircleSlider");
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.UI.Selectable
 namespace HMUI {
 // Is value type: false
@@ -198,6 +199,7 @@ public:
   /// @brief Method .ctor, addr 0x587d204, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_normalizedValueDidChangeEvent, addr 0x587ca38, size 0xc0, virtual false, abstract: false, final false
   inline void add_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value);
 
@@ -222,6 +224,7 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_normalizedValueDidChangeEvent, addr 0x587caf8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value);
 
@@ -240,26 +243,31 @@ protected:
   constexpr CircleSlider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CircleSlider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CircleSlider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CircleSlider(CircleSlider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CircleSlider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CircleSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CircleSlider(CircleSlider const&) = delete;
+  CircleSlider(CircleSliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19057 };
 
+  /// [SerializeField]
   /// @brief Field _handleRect, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____handleRect;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _cursorRadius, offset: 0x108, size: 0x4, def value: None
   float_t ____cursorRadius;
 
+  /// [SerializeField]
   /// @brief Field _normalizedValue, offset: 0x10c, size: 0x4, def value: None
   float_t ____normalizedValue;
 
+  /// [CompilerGenerated]
   /// @brief Field normalizedValueDidChangeEvent, offset: 0x110, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* ___normalizedValueDidChangeEvent;
 

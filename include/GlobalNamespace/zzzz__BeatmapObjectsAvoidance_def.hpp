@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectsAvoidance.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectsAvoidance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -246,44 +246,57 @@ protected:
   constexpr BeatmapObjectsAvoidance();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsAvoidance", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsAvoidance", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectsAvoidance(BeatmapObjectsAvoidance&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsAvoidance", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsAvoidance", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsAvoidance(BeatmapObjectsAvoidance const&) = delete;
+  BeatmapObjectsAvoidance(BeatmapObjectsAvoidanceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22004 };
 
+  /// [Header("Offsets")]
+  /// [SerializeField]
   /// @brief Field _zOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____zOffset;
 
+  /// [SerializeField]
   /// @brief Field _yOffset, offset: 0x24, size: 0x4, def value: None
   float_t ____yOffset;
 
+  /// [Header("Tilting")]
+  /// [SerializeField]
   /// @brief Field _gravity, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____gravity;
 
+  /// [Header("Rotation towards player")]
+  /// [SerializeField]
   /// @brief Field _towardsPlayerWrapperTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____towardsPlayerWrapperTransform;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
+  /// [Inject]
   /// @brief Field _beatmapData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____beatmapData;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectSpawnController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> ____beatmapObjectSpawnController;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
+  /// [Inject]
   /// @brief Field _jumpOffsetYProvider, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IJumpOffsetYProvider* ____jumpOffsetYProvider;
 
+  /// [Inject]
   /// @brief Field _playerTransforms, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 

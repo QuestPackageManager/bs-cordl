@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnsafeQueueDispose.hpp"
+// IWYU pragma private; include "Unity/Collections/UnsafeQueueDispose.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueDispose_def.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueBlockPoolData_def.hpp"
@@ -20,9 +20,9 @@ inline void Unity::Collections::UnsafeQueueDispose::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueDispose>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_QueuePool", ty:
-// "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::UnsafeQueueData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_QueuePool", ty:
+// "::Unity::Collections::UnsafeQueueBlockPoolData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AllocatorLabel", ty:
+// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::UnsafeQueueDispose::UnsafeQueueDispose(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool,
                                                                        ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept {
   this->m_Buffer = m_Buffer;

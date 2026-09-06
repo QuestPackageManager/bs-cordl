@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonConvert.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonConvert.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConvert_def.hpp"
 #include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
@@ -978,7 +978,7 @@ inline ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* Newtonsoft
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "get_DefaultSettings", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>*>(nullptr, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonConvert::set_DefaultSettings(::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* value) {
+inline void Newtonsoft::Json::JsonConvert::set_DefaultSettings(/* [Nullable(new[] { 2, 1 })] */ ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "set_DefaultSettings", {}, { ::i2c::type_of<::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>*>() } })));
@@ -1124,7 +1124,7 @@ inline ::StringW Newtonsoft::Json::JsonConvert::ToString(::System::TimeSpan valu
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "ToString", {}, { ::i2c::type_of<::System::TimeSpan>(), ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value, quoteChar);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::ToString(::System::Uri* value) {
+inline ::StringW Newtonsoft::Json::JsonConvert::ToString(/* [Nullable(2)] */ ::System::Uri* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "ToString", {}, { ::i2c::type_of<::System::Uri*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value);
@@ -1134,44 +1134,45 @@ inline ::StringW Newtonsoft::Json::JsonConvert::ToString(::System::Uri* value, c
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "ToString", {}, { ::i2c::type_of<::System::Uri*>(), ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value, quoteChar);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::ToString(::StringW value) {
+inline ::StringW Newtonsoft::Json::JsonConvert::ToString(/* [Nullable(2)] */ ::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "ToString", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::ToString(::StringW value, char16_t delimiter) {
+inline ::StringW Newtonsoft::Json::JsonConvert::ToString(/* [Nullable(2)] */ ::StringW value, char16_t delimiter) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "ToString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value, delimiter);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::ToString(::StringW value, char16_t delimiter, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling) {
+inline ::StringW Newtonsoft::Json::JsonConvert::ToString(/* [Nullable(2)] */ ::StringW value, char16_t delimiter, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                               { "ToString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<char16_t>(), ::i2c::type_of<::Newtonsoft::Json::StringEscapeHandling>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value, delimiter, stringEscapeHandling);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::ToString(::System::Object* value) {
+inline ::StringW Newtonsoft::Json::JsonConvert::ToString(/* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "ToString", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObject(::System::Object* value) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObject(/* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "SerializeObject", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObject(::System::Object* value, ::Newtonsoft::Json::Formatting formatting) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObject(/* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::Formatting formatting) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "SerializeObject", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::Newtonsoft::Json::Formatting>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value, formatting);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObject(::System::Object* value, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObject(/* [Nullable(2)] */ ::System::Object* value, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                                            { "SerializeObject", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::ArrayW<::Newtonsoft::Json::JsonConverter*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value, converters);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObject(::System::Object* value, ::Newtonsoft::Json::Formatting formatting, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObject(/* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::Formatting formatting,
+                                                                /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -1210,7 +1211,8 @@ inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObject(::System::Object
                                                                ::i2c::type_of<::Newtonsoft::Json::JsonSerializerSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, value, type, formatting, settings);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObjectInternal(::System::Object* value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializer* jsonSerializer) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeObjectInternal(/* [Nullable(2)] */ ::System::Object* value, /* [Nullable(2)] */ ::System::Type* type,
+                                                                        ::Newtonsoft::Json::JsonSerializer* jsonSerializer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
@@ -1233,7 +1235,7 @@ inline ::System::Object* Newtonsoft::Json::JsonConvert::DeserializeObject(::Stri
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "DeserializeObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, value, type);
 }
-template <typename T> inline T Newtonsoft::Json::JsonConvert::DeserializeObject(::StringW value) {
+template <typename T> inline T Newtonsoft::Json::JsonConvert::DeserializeObject(/* [Nullable(1)] */ ::StringW value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "DeserializeObject", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1255,28 +1257,28 @@ template <typename T> inline T Newtonsoft::Json::JsonConvert::DeserializeAnonymo
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, value, anonymousTypeObject, settings);
 }
-template <typename T> inline T Newtonsoft::Json::JsonConvert::DeserializeObject(::StringW value, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+template <typename T> inline T Newtonsoft::Json::JsonConvert::DeserializeObject(::StringW value, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                               { "DeserializeObject", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::Newtonsoft::Json::JsonConverter*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, value, converters);
 }
-template <typename T> inline T Newtonsoft::Json::JsonConvert::DeserializeObject(::StringW value, ::Newtonsoft::Json::JsonSerializerSettings* settings) {
+template <typename T> inline T Newtonsoft::Json::JsonConvert::DeserializeObject(/* [Nullable(1)] */ ::StringW value, ::Newtonsoft::Json::JsonSerializerSettings* settings) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                               { "DeserializeObject", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::Newtonsoft::Json::JsonSerializerSettings*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, value, settings);
 }
-inline ::System::Object* Newtonsoft::Json::JsonConvert::DeserializeObject(::StringW value, ::System::Type* type, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
+inline ::System::Object* Newtonsoft::Json::JsonConvert::DeserializeObject(::StringW value, ::System::Type* type, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                           { "DeserializeObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::Newtonsoft::Json::JsonConverter*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, value, type, converters);
 }
-inline ::System::Object* Newtonsoft::Json::JsonConvert::DeserializeObject(::StringW value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializerSettings* settings) {
+inline ::System::Object* Newtonsoft::Json::JsonConvert::DeserializeObject(/* [Nullable(1)] */ ::StringW value, ::System::Type* type, ::Newtonsoft::Json::JsonSerializerSettings* settings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
@@ -1288,25 +1290,25 @@ inline void Newtonsoft::Json::JsonConvert::PopulateObject(::StringW value, ::Sys
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "PopulateObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value, target);
 }
-inline void Newtonsoft::Json::JsonConvert::PopulateObject(::StringW value, ::System::Object* target, ::Newtonsoft::Json::JsonSerializerSettings* settings) {
+inline void Newtonsoft::Json::JsonConvert::PopulateObject(::StringW value, ::System::Object* target, /* [Nullable(2)] */ ::Newtonsoft::Json::JsonSerializerSettings* settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                        { "PopulateObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::Newtonsoft::Json::JsonSerializerSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value, target, settings);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXmlNode(::System::Xml::XmlNode* node) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXmlNode(/* [Nullable(2)] */ ::System::Xml::XmlNode* node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "SerializeXmlNode", {}, { ::i2c::type_of<::System::Xml::XmlNode*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, node);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXmlNode(::System::Xml::XmlNode* node, ::Newtonsoft::Json::Formatting formatting) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXmlNode(/* [Nullable(2)] */ ::System::Xml::XmlNode* node, ::Newtonsoft::Json::Formatting formatting) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                                            { "SerializeXmlNode", {}, { ::i2c::type_of<::System::Xml::XmlNode*>(), ::i2c::type_of<::Newtonsoft::Json::Formatting>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, node, formatting);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXmlNode(::System::Xml::XmlNode* node, ::Newtonsoft::Json::Formatting formatting, bool omitRootObject) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXmlNode(/* [Nullable(2)] */ ::System::Xml::XmlNode* node, ::Newtonsoft::Json::Formatting formatting, bool omitRootObject) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                               { "SerializeXmlNode", {}, { ::i2c::type_of<::System::Xml::XmlNode*>(), ::i2c::type_of<::Newtonsoft::Json::Formatting>(), ::i2c::type_of<bool>() } })));
@@ -1317,35 +1319,36 @@ inline ::System::Xml::XmlDocument* Newtonsoft::Json::JsonConvert::DeserializeXml
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "DeserializeXmlNode", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDocument*>(nullptr, ___internal_method, value);
 }
-inline ::System::Xml::XmlDocument* Newtonsoft::Json::JsonConvert::DeserializeXmlNode(::StringW value, ::StringW deserializeRootElementName) {
+inline ::System::Xml::XmlDocument* Newtonsoft::Json::JsonConvert::DeserializeXmlNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "DeserializeXmlNode", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDocument*>(nullptr, ___internal_method, value, deserializeRootElementName);
 }
-inline ::System::Xml::XmlDocument* Newtonsoft::Json::JsonConvert::DeserializeXmlNode(::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute) {
+inline ::System::Xml::XmlDocument* Newtonsoft::Json::JsonConvert::DeserializeXmlNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "DeserializeXmlNode", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDocument*>(nullptr, ___internal_method, value, deserializeRootElementName, writeArrayAttribute);
 }
-inline ::System::Xml::XmlDocument* Newtonsoft::Json::JsonConvert::DeserializeXmlNode(::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute, bool encodeSpecialCharacters) {
+inline ::System::Xml::XmlDocument* Newtonsoft::Json::JsonConvert::DeserializeXmlNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute,
+                                                                                     bool encodeSpecialCharacters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                               { "DeserializeXmlNode", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlDocument*>(nullptr, ___internal_method, value, deserializeRootElementName, writeArrayAttribute, encodeSpecialCharacters);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXNode(::System::Xml::Linq::XObject* node) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXNode(/* [Nullable(2)] */ ::System::Xml::Linq::XObject* node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "SerializeXNode", {}, { ::i2c::type_of<::System::Xml::Linq::XObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, node);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXNode(::System::Xml::Linq::XObject* node, ::Newtonsoft::Json::Formatting formatting) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXNode(/* [Nullable(2)] */ ::System::Xml::Linq::XObject* node, ::Newtonsoft::Json::Formatting formatting) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                                            { "SerializeXNode", {}, { ::i2c::type_of<::System::Xml::Linq::XObject*>(), ::i2c::type_of<::Newtonsoft::Json::Formatting>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, node, formatting);
 }
-inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXNode(::System::Xml::Linq::XObject* node, ::Newtonsoft::Json::Formatting formatting, bool omitRootObject) {
+inline ::StringW Newtonsoft::Json::JsonConvert::SerializeXNode(/* [Nullable(2)] */ ::System::Xml::Linq::XObject* node, ::Newtonsoft::Json::Formatting formatting, bool omitRootObject) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
@@ -1357,18 +1360,19 @@ inline ::System::Xml::Linq::XDocument* Newtonsoft::Json::JsonConvert::Deserializ
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "DeserializeXNode", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Linq::XDocument*>(nullptr, ___internal_method, value);
 }
-inline ::System::Xml::Linq::XDocument* Newtonsoft::Json::JsonConvert::DeserializeXNode(::StringW value, ::StringW deserializeRootElementName) {
+inline ::System::Xml::Linq::XDocument* Newtonsoft::Json::JsonConvert::DeserializeXNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "DeserializeXNode", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Linq::XDocument*>(nullptr, ___internal_method, value, deserializeRootElementName);
 }
-inline ::System::Xml::Linq::XDocument* Newtonsoft::Json::JsonConvert::DeserializeXNode(::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute) {
+inline ::System::Xml::Linq::XDocument* Newtonsoft::Json::JsonConvert::DeserializeXNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(), { "DeserializeXNode", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Linq::XDocument*>(nullptr, ___internal_method, value, deserializeRootElementName, writeArrayAttribute);
 }
-inline ::System::Xml::Linq::XDocument* Newtonsoft::Json::JsonConvert::DeserializeXNode(::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute, bool encodeSpecialCharacters) {
+inline ::System::Xml::Linq::XDocument* Newtonsoft::Json::JsonConvert::DeserializeXNode(/* [Nullable(1)] */ ::StringW value, ::StringW deserializeRootElementName, bool writeArrayAttribute,
+                                                                                       bool encodeSpecialCharacters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConvert*>(),
                                                            { "DeserializeXNode", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));

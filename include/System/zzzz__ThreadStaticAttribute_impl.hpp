@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ThreadStaticAttribute.hpp"
+// IWYU pragma private; include "System/ThreadStaticAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__ThreadStaticAttribute_def.hpp"
 //  Writing Method size for method: ::System::ThreadStaticAttribute._ctor

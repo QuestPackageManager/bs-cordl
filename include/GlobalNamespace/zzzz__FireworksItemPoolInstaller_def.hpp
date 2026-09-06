@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FireworksItemPoolInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/FireworksItemPoolInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,20 +58,22 @@ protected:
   constexpr FireworksItemPoolInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FireworksItemPoolInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworksItemPoolInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FireworksItemPoolInstaller(FireworksItemPoolInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FireworksItemPoolInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireworksItemPoolInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireworksItemPoolInstaller(FireworksItemPoolInstaller const&) = delete;
+  FireworksItemPoolInstaller(FireworksItemPoolInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5769 };
 
+  /// [SerializeField]
   /// @brief Field _fireworksController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FireworksController> ____fireworksController;
 
+  /// [SerializeField]
   /// @brief Field _fireworkItemControllerPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FireworkItemController> ____fireworkItemControllerPrefab;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlAttributeDescription.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlAttributeDescription_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -11,7 +11,7 @@
 #include "UnityEngine/UIElements/zzzz__UxmlAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UxmlAttributeDescription_Use::UxmlAttributeDescription_Use(int32_t value__) noexcept {
   this->value__ = value__;
 }

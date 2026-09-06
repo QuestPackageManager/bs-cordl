@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineRuntimeShaders.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineRuntimeShaders.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,9 @@ class UniversalRenderPipelineRuntimeShaders;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders*, "UnityEngine.Rendering.Universal", "UniversalRenderPipelineRuntimeShaders");
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
+// [CategoryInfo(Name = "R: Runtime Shaders", Order = 1000)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -208,41 +211,60 @@ protected:
   constexpr UniversalRenderPipelineRuntimeShaders();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeShaders", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeShaders", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineRuntimeShaders(UniversalRenderPipelineRuntimeShaders&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeShaders", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineRuntimeShaders", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineRuntimeShaders(UniversalRenderPipelineRuntimeShaders const&) = delete;
+  UniversalRenderPipelineRuntimeShaders(UniversalRenderPipelineRuntimeShadersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12942 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Utils/FallbackError.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_FallbackErrorShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_FallbackErrorShader;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Utils/BlitHDROverlay.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_BlitHDROverlay, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_BlitHDROverlay;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Utils/CoreBlit.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_CoreBlitPS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_CoreBlitPS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Utils/CoreBlitColorAndDepth.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_CoreBlitColorAndDepthPS, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_CoreBlitColorAndDepthPS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Utils/Sampling.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_SamplingPS, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_SamplingPS;
 
+  /// [Header("Terrain")]
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Terrain/TerrainDetailLit.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_TerrainDetailLit, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_TerrainDetailLit;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Terrain/WavingGrassBillboard.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_TerrainDetailGrassBillboard, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_TerrainDetailGrassBillboard;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/Terrain/WavingGrass.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_TerrainDetailGrass, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_TerrainDetailGrass;
 

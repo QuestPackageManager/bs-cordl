@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\DiscreteButtonControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/DiscreteButtonControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   // @brief default ctor
   constexpr DiscreteButtonControl_WriteMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DiscreteButtonControl_WriteMode(int32_t value__) noexcept;
 
   /// @brief Field WriteDisabled value: I32(0)
@@ -152,13 +152,13 @@ protected:
   constexpr DiscreteButtonControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiscreteButtonControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscreteButtonControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiscreteButtonControl(DiscreteButtonControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiscreteButtonControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiscreteButtonControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiscreteButtonControl(DiscreteButtonControl const&) = delete;
+  DiscreteButtonControl(DiscreteButtonControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9126 };

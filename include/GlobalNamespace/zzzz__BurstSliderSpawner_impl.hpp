@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BurstSliderSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/BurstSliderSpawner.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderSpawner_def.hpp"
@@ -76,19 +76,20 @@ inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::_ctor(:
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::Invoke(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
+inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::Invoke(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
                                                                                 bool forceIsFirstNote) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNote);
 }
-inline ::System::IAsyncResult* GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::BeginInvoke(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
+inline ::System::IAsyncResult* GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::BeginInvoke(::GlobalNamespace::NoteData* noteData,
+                                                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
                                                                                                         bool forceIsFirstNote, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNote, callback, object);
 }
-inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::EndInvoke(::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result) {
+inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteSpawnData, result);
@@ -145,8 +146,8 @@ inline void GlobalNamespace::BurstSliderSpawner::BezierCurve(::UnityEngine::Vect
                                                                ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, p0, p1, p2, t, pos, tangent);
 }
-inline void GlobalNamespace::BurstSliderSpawner::ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, bool forceIsFirstNote,
-                                                                   ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
+inline void GlobalNamespace::BurstSliderSpawner::ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData,
+                                                                   bool forceIsFirstNote, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
                                                                    ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* processNoteData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},

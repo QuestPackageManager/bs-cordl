@@ -1,46 +1,62 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\CallbackArray_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/CallbackArray_1.hpp"
+#include "System/zzzz__Delegate_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
-template <typename TDelegate> inline int32_t UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::get_length() {
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+inline int32_t UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::get_length() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>>(), { "get_length", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename TDelegate> inline TDelegate UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::get_Item(int32_t index) {
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+inline TDelegate UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::get_Item(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<TDelegate>(*this, ___internal_method, index);
 }
-template <typename TDelegate> inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::Clear() {
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::Clear() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename TDelegate> inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::AddCallback(TDelegate dlg) {
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::AddCallback(TDelegate dlg) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>>(), { "AddCallback", {}, { ::i2c::type_of<TDelegate>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, dlg);
 }
-template <typename TDelegate> inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::RemoveCallback(TDelegate dlg) {
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::RemoveCallback(TDelegate dlg) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>>(), { "RemoveCallback", {}, { ::i2c::type_of<TDelegate>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, dlg);
 }
-template <typename TDelegate> inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::LockForChanges() {
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::LockForChanges() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>>(), { "LockForChanges", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename TDelegate> inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::UnlockForChanges() {
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+inline void UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::UnlockForChanges() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>>(), { "UnlockForChanges", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_CannotMutateCallbacksArray", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Callbacks", ty:
-// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CallbacksToAdd", ty:
-// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CallbacksToRemove", ty:
-// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_CannotMutateCallbacksArray", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Callbacks", ty:
+// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CallbacksToAdd", ty:
+// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CallbacksToRemove", ty:
+// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::CallbackArray_1(bool m_CannotMutateCallbacksArray,
                                                                                              ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_Callbacks,
                                                                                              ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToAdd,
@@ -51,4 +67,6 @@ constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::Cal
   this->m_CallbacksToRemove = m_CallbacksToRemove;
 }
 // Ctor Parameters []
-template <typename TDelegate> constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::CallbackArray_1() {}
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<TDelegate>::CallbackArray_1() {}

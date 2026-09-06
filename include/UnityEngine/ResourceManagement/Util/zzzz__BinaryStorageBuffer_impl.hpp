@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\BinaryStorageBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/BinaryStorageBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__LRUCache_2_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__BinaryStorageBuffer_def.hpp"
@@ -15,7 +15,8 @@
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__BinaryStorageBuffer_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
-// Ctor Parameters [CppParam { name: "stringId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "separator", ty: "char16_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "stringId", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "separator", ty: "char16_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffer_ObjectToStringRemap::BuiltinTypesSerializer_BinaryStorageBuffer_ObjectToStringRemap(
     uint32_t stringId, char16_t separator) noexcept {
   this->stringId = stringId;
@@ -173,7 +174,7 @@ inline ::System::Object* UnityEngine::ResourceManagement::Util::BinaryStorageBuf
           { "Deserialize", {}, { ::i2c::type_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, t, offset);
 }
-inline char16_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::FindBestSeparator(::StringW str, ::ArrayW<char16_t> seps) {
+inline char16_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::FindBestSeparator(::StringW str, /* [ParamArray] */ ::ArrayW<char16_t> seps) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer*>(),
                                                                                          { "FindBestSeparator", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<char16_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<char16_t>(this, ___internal_method, str, seps);
@@ -254,7 +255,8 @@ constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializ
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::BinaryStorageBuffer_BuiltinTypesSerializer() {}
-// Ctor Parameters [CppParam { name: "assemblyId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "classId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "assemblyId", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "classId", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::Util::TypeSerializer_BinaryStorageBuffer_Data::TypeSerializer_BinaryStorageBuffer_Data(uint32_t assemblyId, uint32_t classId) noexcept {
   this->assemblyId = assemblyId;
   this->classId = classId;
@@ -374,14 +376,16 @@ UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::i___U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::BinaryStorageBuffer_TypeSerializer() {}
-// Ctor Parameters [CppParam { name: "stringId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nextId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "stringId", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nextId", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_DynamicString::BinaryStorageBuffer_DynamicString(uint32_t stringId, uint32_t nextId) noexcept {
   this->stringId = stringId;
   this->nextId = nextId;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_DynamicString::BinaryStorageBuffer_DynamicString() {}
-// Ctor Parameters [CppParam { name: "typeId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "objectId", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "typeId", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "objectId", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ObjectTypeData::BinaryStorageBuffer_ObjectTypeData(uint32_t typeId, uint32_t objectId) noexcept {
   this->typeId = typeId;
   this->objectId = objectId;
@@ -468,8 +472,8 @@ constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializ
 UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter_1<T>::i___UnityEngine__ResourceManagement__Util__BinaryStorageBuffer_ISerializationAdapter() noexcept {
   return static_cast<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>(static_cast<void*>(this));
 }
-// Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sep", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sep", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::Util::Reader_BinaryStorageBuffer_StringCreationState::Reader_BinaryStorageBuffer_StringCreationState(uint32_t id, char16_t sep, int32_t length) noexcept {
   this->id = id;
   this->sep = sep;
@@ -826,8 +830,9 @@ inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::G
                                                                                          { "GetCacheStats", {}, { ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reqCount, reqHits);
 }
-inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::Init(::ArrayW<uint8_t> data, int32_t maxCachedObjects,
-                                                                                    ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
+inline void
+UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::Init(::ArrayW<uint8_t> data, int32_t maxCachedObjects,
+                                                                        /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>(),
                                                            { "Init",
@@ -842,8 +847,9 @@ inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::A
                                               { "AddSerializationAdapter", {}, { ::i2c::type_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, a);
 }
-inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::_ctor(::ArrayW<uint8_t> data, int32_t maxCachedObjects,
-                                                                                     ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
+inline void
+UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::_ctor(::ArrayW<uint8_t> data, int32_t maxCachedObjects,
+                                                                         /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>(),
                                                            { ".ctor",
@@ -857,8 +863,9 @@ inline ::ArrayW<uint8_t> UnityEngine::ResourceManagement::Util::BinaryStorageBuf
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>(), { "GetBuffer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::_ctor(::System::IO::Stream* inputStream, uint32_t bufferSize, int32_t maxCachedObjects,
-                                                                                     ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
+inline void
+UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::_ctor(::System::IO::Stream* inputStream, uint32_t bufferSize, int32_t maxCachedObjects,
+                                                                         /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>(),
                                                            { ".ctor",
@@ -874,7 +881,9 @@ template <typename T> inline bool UnityEngine::ResourceManagement::Util::BinaryS
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, offset, val);
 }
-template <typename T> inline ::ArrayW<T> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadValueArray(uint32_t id, bool cacheValue) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::ArrayW<T> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadValueArray(uint32_t id, bool cacheValue) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>(),
                                                                                               { "ReadValueArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -935,7 +944,9 @@ inline ::System::Object* UnityEngine::ResourceManagement::Util::BinaryStorageBuf
                                                            { "ReadObject", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, t, id, cacheValue);
 }
-template <typename T> inline T UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadValue(uint32_t id) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadValue(uint32_t id) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>(),
                                                                                               { "ReadValue", { ::i2c::class_of<T>() }, { ::i2c::type_of<uint32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -998,12 +1009,12 @@ UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::_ReadDynamicS
 }
 inline ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*
 UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::New_ctor(::ArrayW<uint8_t> data, int32_t maxCachedObjects,
-                                                                            ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
+                                                                            /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>(data, maxCachedObjects, adapters));
 }
 inline ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*
 UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::New_ctor(::System::IO::Stream* inputStream, uint32_t bufferSize, int32_t maxCachedObjects,
-                                                                            ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
+                                                                            /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>(inputStream, bufferSize, maxCachedObjects, adapters));
 }
 // Ctor Parameters []
@@ -1056,8 +1067,8 @@ inline ::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_Chunk
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_Chunk::Writer_BinaryStorageBuffer_Chunk() {}
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "dataSize", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "isUnicode", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dataSize", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "isUnicode", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_StringParts::Writer_BinaryStorageBuffer_StringParts(::StringW str, uint32_t dataSize, bool isUnicode) noexcept {
   this->str = str;
   this->dataSize = dataSize;
@@ -1386,8 +1397,9 @@ inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Write
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(), { "get_Length", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::_ctor(int32_t chunkSize,
-                                                                                     ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
+inline void
+UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::_ctor(int32_t chunkSize,
+                                                                         /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
@@ -1415,50 +1427,66 @@ inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::W
                                                            { "WriteInternal", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<void*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, id, pData, dataSize, prefixSize);
 }
-template <typename T> inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Reserve() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Reserve() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(), { "Reserve", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method);
 }
-template <typename T> inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(::by_ref<T> val) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(/* [IsReadOnly] */ ::by_ref<T> val) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
                                                                                               { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, val);
 }
-template <typename T> inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(T val) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(T val) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(), { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, val);
 }
-template <typename T> inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(uint32_t offset, ::by_ref<T> val) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(uint32_t offset, /* [IsReadOnly] */ ::by_ref<T> val) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
                                                                                               { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, offset, val);
 }
-template <typename T> inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(uint32_t offset, T val) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(uint32_t offset, T val) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
                                                                                               { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, offset, val);
 }
-template <typename T> inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Reserve(uint32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Reserve(uint32_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
                                                                                               { "Reserve", { ::i2c::class_of<T>() }, { ::i2c::type_of<uint32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, count);
 }
-template <typename T> inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(::ArrayW<T> values, bool hashElements) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(::ArrayW<T> values, bool hashElements) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
                                                                                               { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<bool>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, values, hashElements);
 }
-template <typename T> inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(uint32_t offset, ::ArrayW<T> values, bool hashElements) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(uint32_t offset, ::ArrayW<T> values, bool hashElements) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
                                                            { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::ArrayW<T>>(), ::i2c::type_of<bool>() } })));
@@ -1535,7 +1563,8 @@ UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::RecurseDynami
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, parts, index, sep, minSize);
 }
 inline ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*
-UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::New_ctor(int32_t chunkSize, ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
+UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::New_ctor(int32_t chunkSize,
+                                                                            /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapters) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(chunkSize, adapters));
 }
 // Ctor Parameters []

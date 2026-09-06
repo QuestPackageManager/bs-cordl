@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JProperty.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JProperty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,6 +115,7 @@ DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumer
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JProperty_JPropertyList*, "Newtonsoft.Json.Linq", "JProperty/JPropertyList");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4, "Newtonsoft.Json.Linq", "JProperty/<LoadAsync>d__4");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1, "Newtonsoft.Json.Linq", "JProperty/<WriteToAsync>d__1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
@@ -148,17 +149,22 @@ public:
   /// @brief Method MoveNext, addr 0x5d78984, size 0x54, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x5d789d8, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d789e0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d78a18, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5d78980, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -180,6 +186,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JProperty_JPropertyList* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5d78814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -198,13 +205,13 @@ protected:
   constexpr JPropertyList_JProperty__GetEnumerator_d__1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JPropertyList_JProperty__GetEnumerator_d__1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPropertyList_JProperty__GetEnumerator_d__1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JPropertyList_JProperty__GetEnumerator_d__1(JPropertyList_JProperty__GetEnumerator_d__1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JPropertyList_JProperty__GetEnumerator_d__1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPropertyList_JProperty__GetEnumerator_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JPropertyList_JProperty__GetEnumerator_d__1(JPropertyList_JProperty__GetEnumerator_d__1 const&) = delete;
+  JPropertyList_JProperty__GetEnumerator_d__1(JPropertyList_JProperty__GetEnumerator_d__1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13593 };
@@ -215,6 +222,7 @@ public:
   /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* _____2__current;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JProperty_JPropertyList* _____4__this;
 
@@ -230,6 +238,8 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnu
 static_assert(sizeof(::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1) == 0x28, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
+// [Nullable(0)]
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
@@ -272,6 +282,7 @@ public:
   /// @brief Method CopyTo, addr 0x5d78840, size 0x64, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::Newtonsoft::Json::Linq::JToken*> array, int32_t arrayIndex);
 
+  /// [IteratorStateMachine(typeof(Newtonsoft.Json.Linq.JProperty::JPropertyList::<GetEnumerator>d__1))]
   /// @brief Method GetEnumerator, addr 0x5d787c0, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* GetEnumerator();
 
@@ -331,17 +342,18 @@ protected:
   constexpr JProperty_JPropertyList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JProperty_JPropertyList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JProperty_JPropertyList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JProperty_JPropertyList(JProperty_JPropertyList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JProperty_JPropertyList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JProperty_JPropertyList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JProperty_JPropertyList(JProperty_JPropertyList const&) = delete;
+  JProperty_JPropertyList(JProperty_JPropertyListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13594 };
 
+  /// [Nullable(2)]
   /// @brief Field _token, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* ____token;
 
@@ -353,6 +365,7 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JProperty_JPropertyList, ____to
 static_assert(sizeof(::Newtonsoft::Json::Linq::JProperty_JPropertyList) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json::Linq {
@@ -367,8 +380,9 @@ public:
   /// @brief Method MoveNext, addr 0x5d78a20, size 0x6a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5d790c0, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -377,12 +391,13 @@ public:
   // @brief default ctor
   constexpr JProperty__LoadAsync_d__4();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JProperty*>", modifiers: "", def_value: None }, CppParam { name: "reader", ty:
-  // "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam
-  // { name: "settings", ty: "::Newtonsoft::Json::Linq::JsonLoadSettings*", modifiers: "", def_value: None }, CppParam { name: "_p_5__2", ty: "::Newtonsoft::Json::Linq::JProperty*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JProperty*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "reader", ty:
+  // "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "settings", ty: "::Newtonsoft::Json::Linq::JsonLoadSettings*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_p_5__2", ty:
+  // "::Newtonsoft::Json::Linq::JProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JProperty__LoadAsync_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JProperty*> __t__builder,
                                       ::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings,
                                       ::Newtonsoft::Json::Linq::JProperty* _p_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
@@ -397,21 +412,26 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JProperty*> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field reader, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonReader* reader;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field settings, offset: 0x30, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JsonLoadSettings* settings;
 
+  /// [Nullable(0)]
   /// @brief Field <p>5__2, offset: 0x38, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JProperty* _p_5__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x40, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
@@ -440,6 +460,7 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4, __u_
 static_assert(sizeof(::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4) == 0x60, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.JsonConverter, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json::Linq {
@@ -454,8 +475,9 @@ public:
   /// @brief Method MoveNext, addr 0x5d79140, size 0x274, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5d793b4, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -464,12 +486,12 @@ public:
   // @brief default ctor
   constexpr JProperty__WriteToAsync_d__1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None
-  // }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::Linq::JProperty*", modifiers: "", def_value: None }, CppParam { name: "writer", ty: "::Newtonsoft::Json::JsonWriter*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "converters", ty:
-  // "::ArrayW<::Newtonsoft::Json::JsonConverter*>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::Linq::JProperty*", modifiers: "", def_value: None, comment: None }, CppParam { name: "writer", ty:
+  // "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "converters", ty: "::ArrayW<::Newtonsoft::Json::JsonConverter*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JProperty__WriteToAsync_d__1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* task,
                                          ::Newtonsoft::Json::Linq::JProperty* __4__this, ::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
                                          ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -486,18 +508,22 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field task, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* task;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JProperty* __4__this;
 
+  /// [Nullable(0)]
   /// @brief Field writer, offset: 0x30, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonWriter* writer;
 
   /// @brief Field cancellationToken, offset: 0x38, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field converters, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters;
 
@@ -526,6 +552,8 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1, _
 static_assert(sizeof(::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1) == 0x58, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Linq.JContainer
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
@@ -557,8 +585,9 @@ public:
   inline void ClearItems();
 
   /// @brief Method CloneToken, addr 0x5d7847c, size 0x6c, virtual true, abstract: false, final false
-  inline ::Newtonsoft::Json::Linq::JToken* CloneToken(::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
+  inline ::Newtonsoft::Json::Linq::JToken* CloneToken(/* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
+  /// [NullableContext(2)]
   /// @brief Method ContainsItem, addr 0x5d7823c, size 0x20, virtual true, abstract: false, final false
   inline bool ContainsItem(::Newtonsoft::Json::Linq::JToken* item);
 
@@ -571,9 +600,11 @@ public:
   /// @brief Method GetItem, addr 0x5d77df0, size 0x54, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* GetItem(int32_t index);
 
+  /// [NullableContext(2)]
   /// @brief Method IndexOfItem, addr 0x5d780e4, size 0x2c, virtual true, abstract: false, final false
   inline int32_t IndexOfItem(::Newtonsoft::Json::Linq::JToken* item);
 
+  /// [NullableContext(2)]
   /// @brief Method InsertItem, addr 0x5d78120, size 0x11c, virtual true, abstract: false, final false
   inline bool InsertItem(int32_t index, ::Newtonsoft::Json::Linq::JToken* item, bool skipParentCheck, bool copyAnnotations);
 
@@ -581,47 +612,51 @@ public:
   static inline ::Newtonsoft::Json::Linq::JProperty* Load(::Newtonsoft::Json::JsonReader* reader);
 
   /// @brief Method Load, addr 0x5d785cc, size 0x1f4, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Linq::JProperty* Load(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings);
+  static inline ::Newtonsoft::Json::Linq::JProperty* Load(::Newtonsoft::Json::JsonReader* reader, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings);
 
   /// @brief Method LoadAsync, addr 0x5d77be0, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JProperty*>* LoadAsync(::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.Linq.JProperty::<LoadAsync>d__4))]
   /// @brief Method LoadAsync, addr 0x5d77bec, size 0xf4, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JProperty*>* LoadAsync(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings,
-                                                                                                    ::System::Threading::CancellationToken cancellationToken);
+  static inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JProperty*>*
+  LoadAsync(::Newtonsoft::Json::JsonReader* reader, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonLoadSettings* settings, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method MergeItem, addr 0x5d7825c, size 0xc8, virtual true, abstract: false, final false
-  inline void MergeItem(::System::Object* content, ::Newtonsoft::Json::Linq::JsonMergeSettings* settings);
+  inline void MergeItem(::System::Object* content, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonMergeSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JProperty* New_ctor(::StringW name);
 
-  static inline ::Newtonsoft::Json::Linq::JProperty* New_ctor(::StringW name, ::ArrayW<::System::Object*> content);
+  static inline ::Newtonsoft::Json::Linq::JProperty* New_ctor(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> content);
 
-  static inline ::Newtonsoft::Json::Linq::JProperty* New_ctor(::StringW name, ::System::Object* content);
+  static inline ::Newtonsoft::Json::Linq::JProperty* New_ctor(::StringW name, /* [Nullable(2)] */ ::System::Object* content);
 
   static inline ::Newtonsoft::Json::Linq::JProperty* New_ctor(::Newtonsoft::Json::Linq::JProperty* other);
 
-  static inline ::Newtonsoft::Json::Linq::JProperty* New_ctor(::Newtonsoft::Json::Linq::JProperty* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
+  static inline ::Newtonsoft::Json::Linq::JProperty* New_ctor(::Newtonsoft::Json::Linq::JProperty* other, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
+  /// [NullableContext(2)]
   /// @brief Method RemoveItem, addr 0x5d77f8c, size 0xac, virtual true, abstract: false, final false
   inline bool RemoveItem(::Newtonsoft::Json::Linq::JToken* item);
 
   /// @brief Method RemoveItemAt, addr 0x5d78038, size 0xac, virtual true, abstract: false, final false
   inline void RemoveItemAt(int32_t index);
 
+  /// [NullableContext(2)]
   /// @brief Method SetItem, addr 0x5d77e44, size 0x148, virtual true, abstract: false, final false
   inline void SetItem(int32_t index, ::Newtonsoft::Json::Linq::JToken* item);
 
   /// @brief Method WriteTo, addr 0x5d784f4, size 0x80, virtual true, abstract: false, final false
-  inline void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
+  inline void WriteTo(::Newtonsoft::Json::JsonWriter* writer, /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.Linq.JProperty::<WriteToAsync>d__1))]
   /// @brief Method WriteToAsync, addr 0x5d77b00, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteToAsync(::System::Threading::Tasks::Task* task, ::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
-                                                        ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
+                                                        /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
 
   /// @brief Method WriteToAsync, addr 0x5d779c8, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteToAsync(::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
-                                                        ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
+                                                        /* [ParamArray] */ ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
 
   /// @brief Method WriteValueAsync, addr 0x5d77ab4, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
@@ -643,26 +678,29 @@ public:
   inline void _ctor(::StringW name);
 
   /// @brief Method .ctor, addr 0x5d784f0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::ArrayW<::System::Object*> content);
+  inline void _ctor(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> content);
 
   /// @brief Method .ctor, addr 0x5d75488, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::System::Object* content);
+  inline void _ctor(::StringW name, /* [Nullable(2)] */ ::System::Object* content);
 
   /// @brief Method .ctor, addr 0x5d77cf0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JProperty* other);
 
   /// @brief Method .ctor, addr 0x5d77d70, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::Newtonsoft::Json::Linq::JProperty* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
+  inline void _ctor(::Newtonsoft::Json::Linq::JProperty* other, /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
   /// @brief Method get_ChildrenTokens, addr 0x5d77ce0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_ChildrenTokens();
 
+  /// [DebuggerStepThrough]
   /// @brief Method get_Name, addr 0x5d77ce8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
+  /// [DebuggerStepThrough]
   /// @brief Method get_Type, addr 0x5d784e8, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenType get_Type();
 
+  /// [DebuggerStepThrough]
   /// @brief Method get_Value, addr 0x5d7099c, size 0x18, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_Value();
 
@@ -675,13 +713,13 @@ protected:
   constexpr JProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JProperty(JProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JProperty(JProperty const&) = delete;
+  JProperty(JPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13597 };

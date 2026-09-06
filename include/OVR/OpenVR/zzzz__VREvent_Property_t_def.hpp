@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_Property_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Property_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr VREvent_Property_t();
 
-  // Ctor Parameters [CppParam { name: "container", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "prop", ty: "::OVR::OpenVR::ETrackedDeviceProperty", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "container", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "prop", ty: "::OVR::OpenVR::ETrackedDeviceProperty", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr VREvent_Property_t(uint64_t container, ::OVR::OpenVR::ETrackedDeviceProperty prop) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

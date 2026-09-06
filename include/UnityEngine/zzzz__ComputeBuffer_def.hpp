@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ComputeBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/ComputeBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine {
 struct ComputeBufferMode;
@@ -56,13 +58,13 @@ protected:
   constexpr ComputeBuffer_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ComputeBuffer_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComputeBuffer_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComputeBuffer_BindingsMarshaller(ComputeBuffer_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ComputeBuffer_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComputeBuffer_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ComputeBuffer_BindingsMarshaller(ComputeBuffer_BindingsMarshaller const&) = delete;
+  ComputeBuffer_BindingsMarshaller(ComputeBuffer_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10394 };
@@ -73,6 +75,10 @@ public:
 static_assert(sizeof(::UnityEngine::ComputeBuffer_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Export/Graphics/GraphicsBuffer.bindings.h")]
+// [NativeClass("GraphicsBuffer")]
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Shaders/GraphicsBuffer.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -92,6 +98,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [FreeFunction("GraphicsBuffer_Bindings::DestroyComputeBuffer")]
   /// @brief Method DestroyBuffer, addr 0x6aec3ac, size 0x48, virtual false, abstract: false, final false
   static inline void DestroyBuffer(::UnityEngine::ComputeBuffer* buf);
 
@@ -107,15 +114,18 @@ public:
   /// @brief Method Finalize, addr 0x6aec22c, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
 
+  /// [FreeFunction("GraphicsBuffer_Bindings::InitComputeBuffer")]
   /// @brief Method InitBuffer, addr 0x6aec3f4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr InitBuffer(int32_t count, int32_t stride, ::UnityEngine::ComputeBufferType type, ::UnityEngine::ComputeBufferMode usage);
 
+  /// [FreeFunction(Name = "GraphicsBuffer_Bindings::InternalSetData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method InternalSetData, addr 0x6aec9e0, size 0x88, virtual false, abstract: false, final false
   inline void InternalSetData(::System::Array* data, int32_t managedBufferStartIndex, int32_t computeBufferStartIndex, int32_t count, int32_t elemSize);
 
   /// @brief Method InternalSetData_Injected, addr 0x6aecb64, size 0x74, virtual false, abstract: false, final false
   static inline void InternalSetData_Injected(::System::IntPtr _unity_self, ::System::Array* data, int32_t managedBufferStartIndex, int32_t computeBufferStartIndex, int32_t count, int32_t elemSize);
 
+  /// [FreeFunction(Name = "GraphicsBuffer_Bindings::InternalSetNativeData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method InternalSetNativeData, addr 0x6aeca68, size 0x88, virtual false, abstract: false, final false
   inline void InternalSetNativeData(::System::IntPtr data, int32_t nativeBufferStartIndex, int32_t computeBufferStartIndex, int32_t count, int32_t elemSize);
 
@@ -126,6 +136,7 @@ public:
   /// @brief Method IsValid, addr 0x6aec71c, size 0x50, virtual false, abstract: false, final false
   inline bool IsValid();
 
+  /// [FreeFunction("GraphicsBuffer_Bindings::IsValidBuffer")]
   /// @brief Method IsValidBuffer, addr 0x6aec698, size 0x48, virtual false, abstract: false, final false
   static inline bool IsValidBuffer(::UnityEngine::ComputeBuffer* buf);
 
@@ -145,10 +156,14 @@ public:
   inline void SetData(::System::Array* data);
 
   /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetData(::Unity::Collections::NativeArray_1<T> data);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SetData(::Unity::Collections::NativeArray_1<T> data);
 
   /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SetData(::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex, int32_t computeBufferStartIndex, int32_t count);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void SetData(::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex, int32_t computeBufferStartIndex, int32_t count);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
@@ -186,13 +201,13 @@ protected:
   constexpr ComputeBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ComputeBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComputeBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComputeBuffer(ComputeBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ComputeBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComputeBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ComputeBuffer(ComputeBuffer const&) = delete;
+  ComputeBuffer(ComputeBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10395 };

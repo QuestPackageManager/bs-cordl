@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyAnalytics.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyAnalytics.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAnalytics_def.hpp"
 #include "GlobalNamespace/zzzz__GameServerLobbyFlowCoordinatorBase_def.hpp"

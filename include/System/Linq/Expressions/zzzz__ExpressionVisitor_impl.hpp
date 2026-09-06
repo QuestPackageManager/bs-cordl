@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\ExpressionVisitor.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/ExpressionVisitor.hpp"
+#include "System/Linq/Expressions/zzzz__Expression_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionVisitor_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
@@ -464,13 +465,16 @@ inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* System::Linq
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*>(nullptr, ___internal_method, nodes, elementVisitor);
 }
-template <typename T> inline T System::Linq::Expressions::ExpressionVisitor::VisitAndConvert(T node, ::StringW callerName) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Linq::Expressions::Expression*>)
+inline T System::Linq::Expressions::ExpressionVisitor::VisitAndConvert(T node, ::StringW callerName) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::ExpressionVisitor*>(),
                                                                                               { "VisitAndConvert", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>(), ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, node, callerName);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Linq::Expressions::Expression*>)
 inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* System::Linq::Expressions::ExpressionVisitor::VisitAndConvert(::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* nodes,
                                                                                                                                   ::StringW callerName) {
   static auto* ___internal_method_base = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceLocations\IResourceLocation.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,36 +45,36 @@ public:
 
   __declspec(property(get = get_ResourceType)) ::System::Type* ResourceType;
 
-  /// @brief Method Hash, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Hash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Hash(::System::Type* resultType);
 
-  /// @brief Method get_Data, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
 
-  /// @brief Method get_DependencyHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_DependencyHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_DependencyHashCode();
 
-  /// @brief Method get_HasDependencies, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_HasDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasDependencies();
 
-  /// @brief Method get_InternalId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_PrimaryKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_PrimaryKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_PrimaryKey();
 
-  /// @brief Method get_ProviderId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ProviderId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_ProviderId();
 
-  /// @brief Method get_ResourceType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ResourceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ResourceType();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IResourceLocation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IResourceLocation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IResourceLocation(IResourceLocation const&) = delete;
+  IResourceLocation(IResourceLocationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18798 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\EyeGazeInteraction.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/EyeGazeInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,8 @@ MARK_REF_T(::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction
 MARK_REF_T(::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction*, "UnityEngine.XR.OpenXR.Features.Interactions", "EyeGazeInteraction");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice*, "UnityEngine.XR.OpenXR.Features.Interactions", "EyeGazeInteraction/EyeGazeDevice");
+// [Preserve]
+// [InputControlLayout(displayName = "Eye Gaze (OpenXR)", isGenericTypeOfDevice = true)]
 // Dependencies UnityEngine.XR.OpenXR.Input.OpenXRDevice
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
@@ -39,6 +41,8 @@ public:
   /// @brief Field <pose>k__BackingField, offset 0x188, size 0x8
   __declspec(property(get = __cordl_internal_get__pose_k__BackingField, put = __cordl_internal_set__pose_k__BackingField)) ::UnityEngine::XR::OpenXR::Input::PoseControl* _pose_k__BackingField;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 0, usages = new[] { "Device", "gaze" })]
   __declspec(property(get = get_pose, put = set_pose)) ::UnityEngine::XR::OpenXR::Input::PoseControl* pose;
 
   /// @brief Method FinishSetup, addr 0x69fef9c, size 0x78, virtual true, abstract: false, final false
@@ -55,9 +59,11 @@ public:
   /// @brief Method .ctor, addr 0x69ff014, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pose, addr 0x69fef8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pose();
 
+  /// [CompilerGenerated]
   /// @brief Method set_pose, addr 0x69fef94, size 0x8, virtual false, abstract: false, final false
   inline void set_pose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
@@ -67,17 +73,18 @@ protected:
   constexpr EyeGazeInteraction_EyeGazeDevice();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction_EyeGazeDevice", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction_EyeGazeDevice", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EyeGazeInteraction_EyeGazeDevice(EyeGazeInteraction_EyeGazeDevice&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction_EyeGazeDevice", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction_EyeGazeDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EyeGazeInteraction_EyeGazeDevice(EyeGazeInteraction_EyeGazeDevice const&) = delete;
+  EyeGazeInteraction_EyeGazeDevice(EyeGazeInteraction_EyeGazeDeviceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18568 };
 
+  /// [CompilerGenerated]
   /// @brief Field <pose>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____pose_k__BackingField;
 
@@ -127,13 +134,13 @@ protected:
   constexpr EyeGazeInteraction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EyeGazeInteraction(EyeGazeInteraction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EyeGazeInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EyeGazeInteraction(EyeGazeInteraction const&) = delete;
+  EyeGazeInteraction(EyeGazeInteractionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18569 };

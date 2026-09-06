@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\ConfigHandler.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/ConfigHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,7 +141,7 @@ public:
   inline void ReadServiceWellKnown(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
   /// @brief Method ValidatePath, addr 0x5b24e7c, size 0xe0, virtual false, abstract: false, final false
-  inline void ValidatePath(::StringW element, ::ArrayW<::StringW> paths);
+  inline void ValidatePath(::StringW element, /* [ParamArray] */ ::ArrayW<::StringW> paths);
 
   constexpr ::StringW const& __cordl_internal_get_appName() const;
 
@@ -203,13 +203,13 @@ protected:
   constexpr ConfigHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConfigHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConfigHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConfigHandler(ConfigHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConfigHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConfigHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConfigHandler(ConfigHandler const&) = delete;
+  ConfigHandler(ConfigHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3081 };

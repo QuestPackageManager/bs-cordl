@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\TaskFactory.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/TaskFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr TaskFactory_CompleteOnInvokePromise();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_CompleteOnInvokePromise", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_CompleteOnInvokePromise", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskFactory_CompleteOnInvokePromise(TaskFactory_CompleteOnInvokePromise&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_CompleteOnInvokePromise", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_CompleteOnInvokePromise", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_CompleteOnInvokePromise(TaskFactory_CompleteOnInvokePromise const&) = delete;
+  TaskFactory_CompleteOnInvokePromise(TaskFactory_CompleteOnInvokePromiseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2825 };
@@ -268,13 +268,13 @@ protected:
   constexpr TaskFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskFactory(TaskFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory(TaskFactory const&) = delete;
+  TaskFactory(TaskFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2826 };

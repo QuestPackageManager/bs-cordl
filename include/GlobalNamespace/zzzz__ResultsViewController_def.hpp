@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ResultsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ResultsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,6 +79,7 @@ MARK_REF_T(::GlobalNamespace::ResultsViewController*);
 MARK_REF_T(::GlobalNamespace::ResultsViewController__StartFireworksAfterDelay_d__35*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ResultsViewController*, "", "ResultsViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ResultsViewController__StartFireworksAfterDelay_d__35*, "", "ResultsViewController/<StartFireworksAfterDelay>d__35");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -114,17 +115,22 @@ public:
   /// @brief Method MoveNext, addr 0x596726c, size 0xb4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ResultsViewController__StartFireworksAfterDelay_d__35* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5967320, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5967328, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5967360, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5967268, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -152,6 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59671cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -170,13 +177,13 @@ protected:
   constexpr ResultsViewController__StartFireworksAfterDelay_d__35();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController__StartFireworksAfterDelay_d__35", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController__StartFireworksAfterDelay_d__35", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResultsViewController__StartFireworksAfterDelay_d__35(ResultsViewController__StartFireworksAfterDelay_d__35&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController__StartFireworksAfterDelay_d__35", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController__StartFireworksAfterDelay_d__35", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResultsViewController__StartFireworksAfterDelay_d__35(ResultsViewController__StartFireworksAfterDelay_d__35 const&) = delete;
+  ResultsViewController__StartFireworksAfterDelay_d__35(ResultsViewController__StartFireworksAfterDelay_d__35const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6990 };
@@ -304,7 +311,7 @@ public:
 
   /// @brief Method Init, addr 0x5966acc, size 0x1c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
-                   ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool practice, bool newHighScore);
+                   /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool practice, bool newHighScore);
 
   static inline ::GlobalNamespace::ResultsViewController* New_ctor();
 
@@ -317,6 +324,7 @@ public:
   /// @brief Method SetDataToUI, addr 0x5966ccc, size 0x314, virtual false, abstract: false, final false
   inline void SetDataToUI();
 
+  /// [IteratorStateMachine(typeof(ResultsViewController::<StartFireworksAfterDelay>d__35))]
   /// @brief Method StartFireworksAfterDelay, addr 0x5966fe0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartFireworksAfterDelay(float_t delay);
 
@@ -467,18 +475,22 @@ public:
   /// @brief Method .ctor, addr 0x5967264, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_continueButtonPressedEvent, addr 0x59667c4, size 0xc0, virtual false, abstract: false, final false
   inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_restartButtonPressedEvent, addr 0x5966944, size 0xc0, virtual false, abstract: false, final false
   inline void add_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
   /// @brief Method get_practice, addr 0x5966ac4, size 0x8, virtual false, abstract: false, final false
   inline bool get_practice();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_continueButtonPressedEvent, addr 0x5966884, size 0xc0, virtual false, abstract: false, final false
   inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_restartButtonPressedEvent, addr 0x5966a04, size 0xc0, virtual false, abstract: false, final false
   inline void remove_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
@@ -488,13 +500,13 @@ protected:
   constexpr ResultsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResultsViewController(ResultsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResultsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResultsViewController(ResultsViewController const&) = delete;
+  ResultsViewController(ResultsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6991 };
@@ -505,54 +517,75 @@ public:
   /// @brief Field kStatsMaxComboLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kStatsMaxComboLocalizationKey{ u"STATS_MAX_COMBO" };
 
+  /// [SerializeField]
   /// @brief Field _restartButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____restartButton;
 
+  /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _clearedPanel, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____clearedPanel;
 
+  /// [SerializeField]
   /// @brief Field _scoreText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
+  /// [SerializeField]
   /// @brief Field _newHighScoreText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____newHighScoreText;
 
+  /// [SerializeField]
   /// @brief Field _rankText, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
+  /// [SerializeField]
   /// @brief Field _goodCutsPercentageText, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____goodCutsPercentageText;
 
+  /// [SerializeField]
   /// @brief Field _comboText, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____comboText;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _clearedBannerGo, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____clearedBannerGo;
 
+  /// [SerializeField]
   /// @brief Field _failedBannerGo, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____failedBannerGo;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _levelBar, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _levelClearedAudioClip, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____levelClearedAudioClip;
 
+  /// [Inject]
   /// @brief Field _fireworksController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FireworksController> ____fireworksController;
 
+  /// [Inject]
   /// @brief Field _songPreviewPlayer, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
+  /// [InjectOptional]
   /// @brief Field _menuDestinationRequest, offset: 0xe8, size: 0x8, def value: None
   ::GlobalNamespace::MenuDestination* ____menuDestinationRequest;
 
+  /// [CompilerGenerated]
   /// @brief Field continueButtonPressedEvent, offset: 0xf0, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* ___continueButtonPressedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field restartButtonPressedEvent, offset: 0xf8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* ___restartButtonPressedEvent;
 

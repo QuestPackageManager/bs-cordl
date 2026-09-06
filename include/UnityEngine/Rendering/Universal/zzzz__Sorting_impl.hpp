@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Sorting.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Sorting.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__Sorting_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__Sorting_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProfilingSampler_def.hpp"
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<T>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::UnityEngine::Rendering::Universal::Sorting___c__DisplayClass4_0_1<T>::Sorting___c__DisplayClass4_0_1(::ArrayW<T> data) noexcept {
   this->data = data;
 }

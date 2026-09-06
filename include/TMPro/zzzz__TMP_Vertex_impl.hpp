@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Vertex.hpp"
+// IWYU pragma private; include "TMPro/TMP_Vertex.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -27,9 +27,9 @@ inline ::TMPro::TMP_Vertex TMPro::TMP_Vertex::get_zero() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Vertex>(), { "get_zero", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_Vertex>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "uv2", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector4", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "uv2", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "color", ty:
+// "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_Vertex::TMP_Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector4 uv, ::UnityEngine::Vector2 uv2, ::UnityEngine::Color32 color) noexcept {
   this->position = position;
   this->uv = uv;

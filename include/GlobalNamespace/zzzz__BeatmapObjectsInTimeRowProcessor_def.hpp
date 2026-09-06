@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectsInTimeRowProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectsInTimeRowProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace GlobalNamespace {
 class BeatmapObjectsInTimeRowProcessor_SliderTailData;
 }
 namespace GlobalNamespace {
-template <typename T> class BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+class BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1;
 }
 namespace GlobalNamespace {
 class BeatmapObjectsInTimeRowProcessor___c;
@@ -60,7 +62,9 @@ namespace GlobalNamespace {
 class BeatmapObjectsInTimeRowProcessor_SliderTailData;
 }
 namespace GlobalNamespace {
-template <typename T> class BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+class BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1;
 }
 namespace GlobalNamespace {
 class BeatmapObjectsInTimeRowProcessor___c;
@@ -79,10 +83,11 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTa
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1, "", "BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c*, "", "BeatmapObjectsInTimeRowProcessor/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0*, "", "BeatmapObjectsInTimeRowProcessor/<>c__DisplayClass17_0");
-// Dependencies System.Object
+// Dependencies BeatmapDataItem, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
 // Is value type: false
 // CS Name: BeatmapObjectsInTimeRowProcessor/TimeSliceContainer`1<T>
 class CORDL_TYPE BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1 : public ::System::Object {
@@ -171,36 +176,46 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didAddItemEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_didAddItemEvent(::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishTimeSliceEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_didFinishTimeSliceEvent(::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didStartNewTimeSliceEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_didStartNewTimeSliceEvent(::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>* value);
 
   /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<T>* get_items();
 
+  /// [CompilerGenerated]
   /// @brief Method get_previousTimeSliceTime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline float_t get_previousTimeSliceTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_time, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline float_t get_time();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didAddItemEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_didAddItemEvent(::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishTimeSliceEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_didFinishTimeSliceEvent(::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didStartNewTimeSliceEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_didStartNewTimeSliceEvent(::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_previousTimeSliceTime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_previousTimeSliceTime(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_time, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
@@ -210,29 +225,34 @@ protected:
   constexpr BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1(BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1(BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1 const&) = delete;
+  BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1(BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21280 };
 
+  /// [CompilerGenerated]
   /// @brief Field <time>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____time_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <previousTimeSliceTime>k__BackingField, offset: 0x14, size: 0x4, def value: None
   float_t ____previousTimeSliceTime_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishTimeSliceEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, float_t>* ___didFinishTimeSliceEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didStartNewTimeSliceEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*>* ___didStartNewTimeSliceEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didAddItemEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>*, T>* ___didAddItemEvent;
 
@@ -273,13 +293,13 @@ protected:
   constexpr BeatmapObjectsInTimeRowProcessor_SliderTailData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_SliderTailData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_SliderTailData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectsInTimeRowProcessor_SliderTailData(BeatmapObjectsInTimeRowProcessor_SliderTailData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_SliderTailData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor_SliderTailData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor_SliderTailData(BeatmapObjectsInTimeRowProcessor_SliderTailData const&) = delete;
+  BeatmapObjectsInTimeRowProcessor_SliderTailData(BeatmapObjectsInTimeRowProcessor_SliderTailDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21281 };
@@ -295,6 +315,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_Slide
 static_assert(sizeof(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTailData) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -330,13 +351,13 @@ protected:
   constexpr BeatmapObjectsInTimeRowProcessor___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectsInTimeRowProcessor___c(BeatmapObjectsInTimeRowProcessor___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor___c(BeatmapObjectsInTimeRowProcessor___c const&) = delete;
+  BeatmapObjectsInTimeRowProcessor___c(BeatmapObjectsInTimeRowProcessor___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21282 };
@@ -347,6 +368,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -377,13 +399,13 @@ protected:
   constexpr BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0(BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0(BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0 const&) = delete;
+  BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0(BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21283 };
@@ -408,7 +430,9 @@ public:
   // Declarations
   using SliderTailData = ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTailData;
 
-  template <typename T> using TimeSliceContainer_1 = ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
+  using TimeSliceContainer_1 = ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<T>;
 
   using __c = ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c;
 
@@ -532,13 +556,13 @@ protected:
   constexpr BeatmapObjectsInTimeRowProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectsInTimeRowProcessor(BeatmapObjectsInTimeRowProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInTimeRowProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInTimeRowProcessor(BeatmapObjectsInTimeRowProcessor const&) = delete;
+  BeatmapObjectsInTimeRowProcessor(BeatmapObjectsInTimeRowProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21284 };

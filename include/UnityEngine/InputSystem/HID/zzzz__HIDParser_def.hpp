@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\HID\HIDParser.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/HID/HIDParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::InputSystem::HID {
 struct HIDParser_HIDItemStateGlobal;
@@ -79,8 +81,9 @@ public:
   // @brief default ctor
   constexpr HIDParser_HIDReportData();
 
-  // Ctor Parameters [CppParam { name: "reportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportType", ty: "::UnityEngine::InputSystem::HID::HID_HIDReportType", modifiers:
-  // "", def_value: None }, CppParam { name: "currentBitOffset", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "reportId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "reportType", ty:
+  // "::UnityEngine::InputSystem::HID::HID_HIDReportType", modifiers: "", def_value: None, comment: None }, CppParam { name: "currentBitOffset", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr HIDParser_HIDReportData(int32_t reportId, ::UnityEngine::InputSystem::HID::HID_HIDReportType reportType, int32_t currentBitOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -164,7 +167,7 @@ public:
   // @brief default ctor
   constexpr HIDParser_HIDItemTypeAndTag();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HIDParser_HIDItemTypeAndTag(int32_t value__) noexcept;
 
   /// @brief Field Collection value: I32(160)
@@ -285,12 +288,13 @@ public:
   // @brief default ctor
   constexpr HIDParser_HIDItemStateLocal();
 
-  // Ctor Parameters [CppParam { name: "usage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "usageMinimum", ty: "::System::Nullable_1<int32_t>", modifiers:
-  // "", def_value: None }, CppParam { name: "usageMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "designatorIndex", ty:
-  // "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "designatorMinimum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "designatorMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "stringIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None },
-  // CppParam { name: "stringMinimum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "stringMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "usageList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "usage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "usageMinimum", ty:
+  // "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "usageMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "designatorIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "designatorMinimum", ty:
+  // "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "designatorMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "stringIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "stringMinimum", ty:
+  // "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "stringMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "usageList", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None, comment: None }]
   constexpr HIDParser_HIDItemStateLocal(::System::Nullable_1<int32_t> usage, ::System::Nullable_1<int32_t> usageMinimum, ::System::Nullable_1<int32_t> usageMaximum,
                                         ::System::Nullable_1<int32_t> designatorIndex, ::System::Nullable_1<int32_t> designatorMinimum, ::System::Nullable_1<int32_t> designatorMaximum,
                                         ::System::Nullable_1<int32_t> stringIndex, ::System::Nullable_1<int32_t> stringMinimum, ::System::Nullable_1<int32_t> stringMaximum,
@@ -378,12 +382,13 @@ public:
   // @brief default ctor
   constexpr HIDParser_HIDItemStateGlobal();
 
-  // Ctor Parameters [CppParam { name: "usagePage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "logicalMinimum", ty: "::System::Nullable_1<int32_t>",
-  // modifiers: "", def_value: None }, CppParam { name: "logicalMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "physicalMinimum", ty:
-  // "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "physicalMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "unitExponent", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "unit", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam {
-  // name: "reportSize", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "reportCount", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None },
-  // CppParam { name: "reportId", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "usagePage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "logicalMinimum", ty:
+  // "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "logicalMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "physicalMinimum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "physicalMaximum", ty:
+  // "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "unitExponent", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "unit", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "reportSize", ty: "::System::Nullable_1<int32_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "reportCount", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "reportId",
+  // ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr HIDParser_HIDItemStateGlobal(::System::Nullable_1<int32_t> usagePage, ::System::Nullable_1<int32_t> logicalMinimum, ::System::Nullable_1<int32_t> logicalMaximum,
                                          ::System::Nullable_1<int32_t> physicalMinimum, ::System::Nullable_1<int32_t> physicalMaximum, ::System::Nullable_1<int32_t> unitExponent,
                                          ::System::Nullable_1<int32_t> unit, ::System::Nullable_1<int32_t> reportSize, ::System::Nullable_1<int32_t> reportCount,
@@ -481,13 +486,13 @@ protected:
   constexpr HIDParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HIDParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HIDParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HIDParser(HIDParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HIDParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HIDParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HIDParser(HIDParser const&) = delete;
+  HIDParser(HIDParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8903 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FadeInOutController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FadeInOutController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ MARK_REF_T(::GlobalNamespace::FadeInOutController*);
 MARK_REF_T(::GlobalNamespace::FadeInOutController__Fade_d__19*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FadeInOutController*, "", "FadeInOutController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FadeInOutController__Fade_d__19*, "", "FadeInOutController/<Fade>d__19");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -97,17 +98,22 @@ public:
   /// @brief Method MoveNext, addr 0x5856bf0, size 0x1b8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::FadeInOutController__Fade_d__19* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5856da8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5856db0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5856de8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5856bec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -171,6 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_toValue(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5856bcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -189,13 +196,13 @@ protected:
   constexpr FadeInOutController__Fade_d__19();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController__Fade_d__19", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController__Fade_d__19", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FadeInOutController__Fade_d__19(FadeInOutController__Fade_d__19&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController__Fade_d__19", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController__Fade_d__19", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FadeInOutController__Fade_d__19(FadeInOutController__Fade_d__19 const&) = delete;
+  FadeInOutController__Fade_d__19(FadeInOutController__Fade_d__19const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21410 };
@@ -288,6 +295,7 @@ public:
 
   __declspec(property(get = get_inTransition, put = set_inTransition)) bool inTransition;
 
+  /// [IteratorStateMachine(typeof(FadeInOutController::<Fade>d__19))]
   /// @brief Method Fade, addr 0x5856b34, size 0x98, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Fade(float_t fromValue, float_t toValue, float_t duration, float_t startDelay, ::UnityEngine::AnimationCurve* curve,
                                                   ::System::Action* fadeFinishedCallback);
@@ -366,9 +374,11 @@ public:
   /// @brief Method .ctor, addr 0x5856bd4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_inTransition, addr 0x585692c, size 0x8, virtual false, abstract: false, final false
   inline bool get_inTransition();
 
+  /// [CompilerGenerated]
   /// @brief Method set_inTransition, addr 0x5856934, size 0x8, virtual false, abstract: false, final false
   inline void set_inTransition(bool value);
 
@@ -378,35 +388,42 @@ protected:
   constexpr FadeInOutController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FadeInOutController(FadeInOutController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FadeInOutController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FadeInOutController(FadeInOutController const&) = delete;
+  FadeInOutController(FadeInOutControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21411 };
 
+  /// [SerializeField]
   /// @brief Field _easeValue, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FloatSO> ____easeValue;
 
+  /// [SerializeField]
   /// @brief Field _fadeInCurve, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeInCurve;
 
+  /// [SerializeField]
   /// @brief Field _fadeOutCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeOutCurve;
 
+  /// [SerializeField]
   /// @brief Field _fadeInStartDelay, offset: 0x38, size: 0x4, def value: None
   float_t ____fadeInStartDelay;
 
+  /// [SerializeField]
   /// @brief Field _defaultFadeOutDuration, offset: 0x3c, size: 0x4, def value: None
   float_t ____defaultFadeOutDuration;
 
+  /// [SerializeField]
   /// @brief Field _defaultFadeInDuration, offset: 0x40, size: 0x4, def value: None
   float_t ____defaultFadeInDuration;
 
+  /// [CompilerGenerated]
   /// @brief Field <inTransition>k__BackingField, offset: 0x44, size: 0x1, def value: None
   bool ____inTransition_k__BackingField;
 

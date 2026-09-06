@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\FrameTiming.hpp"
+// IWYU pragma private; include "UnityEngine/FrameTiming.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct FrameTiming;
 // Write type traits
 MARK_VAL_T(::UnityEngine::FrameTiming);
 DEFINE_IL2CPP_CLASS(::UnityEngine::FrameTiming, "UnityEngine", "FrameTiming");
+// [NativeHeader("Runtime/GfxDevice/FrameTiming.h")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -25,12 +26,13 @@ public:
   // @brief default ctor
   constexpr FrameTiming();
 
-  // Ctor Parameters [CppParam { name: "cpuFrameTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "cpuMainThreadFrameTime", ty: "double_t", modifiers: "", def_value: None },
-  // CppParam { name: "cpuMainThreadPresentWaitTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "cpuRenderThreadFrameTime", ty: "double_t", modifiers: "", def_value: None },
-  // CppParam { name: "gpuFrameTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "frameStartTimestamp", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "firstSubmitTimestamp", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "cpuTimePresentCalled", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "cpuTimeFrameComplete", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "heightScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "widthScale", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "syncInterval", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cpuFrameTime", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cpuMainThreadFrameTime", ty: "double_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "cpuMainThreadPresentWaitTime", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cpuRenderThreadFrameTime",
+  // ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gpuFrameTime", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "frameStartTimestamp", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstSubmitTimestamp", ty: "uint64_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "cpuTimePresentCalled", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cpuTimeFrameComplete", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "heightScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "widthScale", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "syncInterval", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FrameTiming(double_t cpuFrameTime, double_t cpuMainThreadFrameTime, double_t cpuMainThreadPresentWaitTime, double_t cpuRenderThreadFrameTime, double_t gpuFrameTime,
                         uint64_t frameStartTimestamp, uint64_t firstSubmitTimestamp, uint64_t cpuTimePresentCalled, uint64_t cpuTimeFrameComplete, float_t heightScale, float_t widthScale,
                         uint32_t syncInterval) noexcept;
@@ -41,39 +43,51 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
+  /// [NativeName("totalFrameTime")]
   /// @brief Field cpuFrameTime, offset: 0x0, size: 0x8, def value: None
   double_t cpuFrameTime;
 
+  /// [NativeName("mainThreadActiveTime")]
   /// @brief Field cpuMainThreadFrameTime, offset: 0x8, size: 0x8, def value: None
   double_t cpuMainThreadFrameTime;
 
+  /// [NativeName("mainThreadPresentWaitTime")]
   /// @brief Field cpuMainThreadPresentWaitTime, offset: 0x10, size: 0x8, def value: None
   double_t cpuMainThreadPresentWaitTime;
 
+  /// [NativeName("renderThreadActiveTime")]
   /// @brief Field cpuRenderThreadFrameTime, offset: 0x18, size: 0x8, def value: None
   double_t cpuRenderThreadFrameTime;
 
+  /// [NativeName("gpuFrameTime")]
   /// @brief Field gpuFrameTime, offset: 0x20, size: 0x8, def value: None
   double_t gpuFrameTime;
 
+  /// [NativeName("frameStartTimestamp")]
   /// @brief Field frameStartTimestamp, offset: 0x28, size: 0x8, def value: None
   uint64_t frameStartTimestamp;
 
+  /// [NativeName("firstSubmitTimestamp")]
   /// @brief Field firstSubmitTimestamp, offset: 0x30, size: 0x8, def value: None
   uint64_t firstSubmitTimestamp;
 
+  /// [NativeName("presentFrameTimestamp")]
   /// @brief Field cpuTimePresentCalled, offset: 0x38, size: 0x8, def value: None
   uint64_t cpuTimePresentCalled;
 
+  /// [NativeName("frameCompleteTimestamp")]
   /// @brief Field cpuTimeFrameComplete, offset: 0x40, size: 0x8, def value: None
   uint64_t cpuTimeFrameComplete;
 
+  /// [NativeName("heightScale")]
   /// @brief Field heightScale, offset: 0x48, size: 0x4, def value: None
   float_t heightScale;
 
+  /// [NativeName("widthScale")]
   /// @brief Field widthScale, offset: 0x4c, size: 0x4, def value: None
   float_t widthScale;
 
+  /// [NativeName("syncInterval")]
   /// @brief Field syncInterval, offset: 0x50, size: 0x4, def value: None
   uint32_t syncInterval;
 

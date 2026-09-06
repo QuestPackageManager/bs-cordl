@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\Geometry\Plane.hpp"
+// IWYU pragma private; include "Unity/Mathematics/Geometry/Plane.hpp"
 #include "Unity/Mathematics/zzzz__float4_impl.hpp"
 #include "Unity/Mathematics/Geometry/zzzz__Plane_def.hpp"
 #include "Unity/Mathematics/zzzz__float3_def.hpp"
@@ -324,7 +324,7 @@ inline void Unity::Mathematics::Geometry::Plane::CheckPlaneIsNormalized() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Geometry::Plane>(), { "CheckPlaneIsNormalized", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "NormalAndDistance", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "NormalAndDistance", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Mathematics::Geometry::Plane::Plane(::Unity::Mathematics::float4 NormalAndDistance) noexcept {
   this->NormalAndDistance = NormalAndDistance;
 }

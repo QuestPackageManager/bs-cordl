@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGLTFAnimatinonNode.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFAnimatinonNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,7 +120,7 @@ public:
   // @brief default ctor
   constexpr OVRGLTFAnimatinonNode_ThumbstickDirection();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRGLTFAnimatinonNode_ThumbstickDirection(int32_t value__) noexcept;
 
   /// @brief Field East value: I32(3)
@@ -199,7 +199,7 @@ public:
   // @brief default ctor
   constexpr OVRGLTFAnimatinonNode_OVRGLTFTransformType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRGLTFAnimatinonNode_OVRGLTFTransformType(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -265,7 +265,7 @@ public:
   // @brief default ctor
   constexpr OVRGLTFAnimatinonNode_OVRInterpolationType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRGLTFAnimatinonNode_OVRInterpolationType(int32_t value__) noexcept;
 
   /// @brief Field CUBICSPLINE value: I32(3)
@@ -308,8 +308,8 @@ public:
   // @brief default ctor
   constexpr OVRGLTFAnimatinonNode_InputNodeState();
 
-  // Ctor Parameters [CppParam { name: "down", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "t", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vecT", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "down", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "t", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "vecT", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }]
   constexpr OVRGLTFAnimatinonNode_InputNodeState(bool down, float_t t, ::UnityEngine::Vector2 vecT) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -522,13 +522,13 @@ protected:
   constexpr OVRGLTFAnimatinonNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFAnimatinonNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFAnimatinonNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGLTFAnimatinonNode(OVRGLTFAnimatinonNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFAnimatinonNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGLTFAnimatinonNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGLTFAnimatinonNode(OVRGLTFAnimatinonNode const&) = delete;
+  OVRGLTFAnimatinonNode(OVRGLTFAnimatinonNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7160 };

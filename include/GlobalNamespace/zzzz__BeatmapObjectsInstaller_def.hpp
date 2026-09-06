@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectsInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -155,47 +155,58 @@ protected:
   constexpr BeatmapObjectsInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectsInstaller(BeatmapObjectsInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectsInstaller(BeatmapObjectsInstaller const&) = delete;
+  BeatmapObjectsInstaller(BeatmapObjectsInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6300 };
 
+  /// [SerializeField]
   /// @brief Field _normalBasicNotePrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameNoteController> ____normalBasicNotePrefab;
 
+  /// [SerializeField]
   /// @brief Field _proModeNotePrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameNoteController> ____proModeNotePrefab;
 
+  /// [SerializeField]
   /// @brief Field _burstSliderHeadNotePrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameNoteController> ____burstSliderHeadNotePrefab;
 
+  /// [SerializeField]
   /// @brief Field _burstSliderNotePrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> ____burstSliderNotePrefab;
 
+  /// [SerializeField]
   /// @brief Field _bombNotePrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BombNoteController> ____bombNotePrefab;
 
+  /// [SerializeField]
   /// @brief Field _obstaclePrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleController> ____obstaclePrefab;
 
+  /// [SerializeField]
   /// @brief Field _sliderShortPrefab, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderController> ____sliderShortPrefab;
 
+  /// [SerializeField]
   /// @brief Field _sliderMediumPrefab, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderController> ____sliderMediumPrefab;
 
+  /// [SerializeField]
   /// @brief Field _sliderLongPrefab, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderController> ____sliderLongPrefab;
 
+  /// [SerializeField]
   /// @brief Field _beatLinePrefab, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatLine> ____beatLinePrefab;
 
+  /// [Inject]
   /// @brief Field _sceneSetupData, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 

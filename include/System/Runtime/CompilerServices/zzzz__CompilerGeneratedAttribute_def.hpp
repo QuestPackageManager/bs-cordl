@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\CompilerGeneratedAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/CompilerGeneratedAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class CompilerGeneratedAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::CompilerGeneratedAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::CompilerGeneratedAttribute*, "System.Runtime.CompilerServices", "CompilerGeneratedAttribute");
+// [AttributeUsage((System.AttributeTargets)32767, Inherited = true)]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr CompilerGeneratedAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompilerGeneratedAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompilerGeneratedAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompilerGeneratedAttribute(CompilerGeneratedAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompilerGeneratedAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompilerGeneratedAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompilerGeneratedAttribute(CompilerGeneratedAttribute const&) = delete;
+  CompilerGeneratedAttribute(CompilerGeneratedAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3375 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVROverlay.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVROverlay.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -158,7 +158,7 @@ public:
   // @brief default ctor
   constexpr OVROverlay_OverlayShape();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVROverlay_OverlayShape(int32_t value__) noexcept;
 
   /// @brief Field Cubemap value: I32(2)
@@ -238,7 +238,7 @@ public:
   // @brief default ctor
   constexpr OVROverlay_OverlayType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVROverlay_OverlayType(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -294,13 +294,13 @@ protected:
   constexpr OVROverlay_ExternalSurfaceObjectCreated();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlay_ExternalSurfaceObjectCreated", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlay_ExternalSurfaceObjectCreated", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVROverlay_ExternalSurfaceObjectCreated(OVROverlay_ExternalSurfaceObjectCreated&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlay_ExternalSurfaceObjectCreated", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlay_ExternalSurfaceObjectCreated", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVROverlay_ExternalSurfaceObjectCreated(OVROverlay_ExternalSurfaceObjectCreated const&) = delete;
+  OVROverlay_ExternalSurfaceObjectCreated(OVROverlay_ExternalSurfaceObjectCreatedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7260 };
@@ -322,9 +322,9 @@ public:
   // @brief default ctor
   constexpr OVROverlay_LayerTexture();
 
-  // Ctor Parameters [CppParam { name: "appTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "appTexturePtr", ty: "::System::IntPtr", modifiers: "",
-  // def_value: None }, CppParam { name: "swapChain", ty: "::ArrayW<::UnityW<::UnityEngine::Texture>>", modifiers: "", def_value: None }, CppParam { name: "swapChainPtr", ty:
-  // "::ArrayW<::System::IntPtr>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "appTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "appTexturePtr", ty: "::System::IntPtr",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "swapChain", ty: "::ArrayW<::UnityW<::UnityEngine::Texture>>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "swapChainPtr", ty: "::ArrayW<::System::IntPtr>", modifiers: "", def_value: None, comment: None }]
   constexpr OVROverlay_LayerTexture(::UnityW<::UnityEngine::Texture> appTexture, ::System::IntPtr appTexturePtr, ::ArrayW<::UnityW<::UnityEngine::Texture>> swapChain,
                                     ::ArrayW<::System::IntPtr> swapChainPtr) noexcept;
 
@@ -360,6 +360,8 @@ static_assert(offsetof(::GlobalNamespace::OVROverlay_LayerTexture, swapChainPtr)
 static_assert(sizeof(::GlobalNamespace::OVROverlay_LayerTexture) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteInEditMode]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-ovroverlay/")]
 // Dependencies OVRManager::XRDevice, OVROverlay::LayerTexture, OVROverlay::OverlayShape, OVROverlay::OverlayType, OVRPlugin::EyeTextureFormat, OVRPlugin::LayerDesc, OVRPlugin::TextureRectMatrixf,
 // System.IntPtr, System.Runtime.InteropServices.GCHandle, UnityEngine.Material, UnityEngine.MonoBehaviour, UnityEngine.Rect, UnityEngine.Texture, UnityEngine.Vector2, UnityEngine.Vector4
 namespace GlobalNamespace {
@@ -1001,9 +1003,11 @@ public:
   /// @brief Method get_OpenVROverlayKey, addr 0x5e76c84, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW get_OpenVROverlayKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isOverlayVisible, addr 0x5e73bac, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOverlayVisible();
 
+  /// [CompilerGenerated]
   /// @brief Method get_layerId, addr 0x5e73acc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layerId();
 
@@ -1024,9 +1028,11 @@ public:
 
   static inline void setStaticF_tex2DMaterial(::UnityW<::UnityEngine::Material> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isOverlayVisible, addr 0x5e73bb4, size 0x8, virtual false, abstract: false, final false
   inline void set_isOverlayVisible(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_layerId, addr 0x5e73ad4, size 0x8, virtual false, abstract: false, final false
   inline void set_layerId(int32_t value);
 
@@ -1039,13 +1045,13 @@ protected:
   constexpr OVROverlay();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlay", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlay", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVROverlay(OVROverlay&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlay", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVROverlay(OVROverlay const&) = delete;
+  OVROverlay(OVROverlayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7262 };
@@ -1053,12 +1059,15 @@ public:
   /// @brief Field maxInstances offset 0xffffffff size 0x4
   static constexpr int32_t maxInstances{ static_cast<int32_t>(0xf) };
 
+  /// [Tooltip("Specify overlay\'s type")]
   /// @brief Field currentOverlayType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVROverlay_OverlayType ___currentOverlayType;
 
+  /// [Tooltip("If true, the texture\'s content is copied to the compositor each frame.")]
   /// @brief Field isDynamic, offset: 0x24, size: 0x1, def value: None
   bool ___isDynamic;
 
+  /// [Tooltip("If true, the layer would be used to present protected content (e.g. HDCP), the content won\'t be shown in screenshots or recordings.")]
   /// @brief Field isProtectedContent, offset: 0x25, size: 0x1, def value: None
   bool ___isProtectedContent;
 
@@ -1101,54 +1110,71 @@ public:
   /// @brief Field hidden, offset: 0xd2, size: 0x1, def value: None
   bool ___hidden;
 
+  /// [Tooltip("If true, the layer will be created as an external surface. externalSurfaceObject contains the Surface object. It\'s effective only on Android.")]
   /// @brief Field isExternalSurface, offset: 0xd3, size: 0x1, def value: None
   bool ___isExternalSurface;
 
+  /// [Tooltip("The width which will be used to create the external surface. It\'s effective only on Android.")]
   /// @brief Field externalSurfaceWidth, offset: 0xd4, size: 0x4, def value: None
   int32_t ___externalSurfaceWidth;
 
+  /// [Tooltip("The height which will be used to create the external surface. It\'s effective only on Android.")]
   /// @brief Field externalSurfaceHeight, offset: 0xd8, size: 0x4, def value: None
   int32_t ___externalSurfaceHeight;
 
+  /// [Tooltip("The compositionDepth defines the order of the OVROverlays in composition. The overlay/underlay with smaller compositionDepth would be composited in the front of the overlay/underlay
+  /// with larger compositionDepth.")]
   /// @brief Field compositionDepth, offset: 0xdc, size: 0x4, def value: None
   int32_t ___compositionDepth;
 
   /// @brief Field layerCompositionDepth, offset: 0xe0, size: 0x4, def value: None
   int32_t ___layerCompositionDepth;
 
+  /// [Tooltip("The noDepthBufferTesting will stop layer\'s depth buffer compositing even if the engine has \"Shared Depth Buffer\" enabled. The layer\'s ordering will be used instead which is
+  /// determined by it\'s composition depth and overlay/underlay type.")]
   /// @brief Field noDepthBufferTesting, offset: 0xe4, size: 0x1, def value: None
   bool ___noDepthBufferTesting;
 
   /// @brief Field layerTextureFormat, offset: 0xe8, size: 0x4, def value: None
   ::GlobalNamespace::OVRPlugin_EyeTextureFormat ___layerTextureFormat;
 
+  /// [Tooltip("Specify overlay\'s shape")]
   /// @brief Field currentOverlayShape, offset: 0xec, size: 0x4, def value: None
   ::GlobalNamespace::OVROverlay_OverlayShape ___currentOverlayShape;
 
   /// @brief Field prevOverlayShape, offset: 0xf0, size: 0x4, def value: None
   ::GlobalNamespace::OVROverlay_OverlayShape ___prevOverlayShape;
 
+  /// [Tooltip("The left- and right-eye Textures to show in the layer.")]
   /// @brief Field textures, offset: 0xf8, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture>> ___textures;
 
+  /// [Tooltip("When checked, the texture is treated as if the alpha was already premultiplied")]
   /// @brief Field isAlphaPremultiplied, offset: 0x100, size: 0x1, def value: None
   bool ___isAlphaPremultiplied;
 
+  /// [Tooltip("When checked, the layer will use bicubic filtering")]
   /// @brief Field useBicubicFiltering, offset: 0x101, size: 0x1, def value: None
   bool ___useBicubicFiltering;
 
+  /// [Tooltip("When checked, the cubemap will retain the legacy rotation which was rotated 180 degrees around the Y axis comapred to Unity\'s definition of cubemaps. This setting will be deprecated
+  /// in the near future, therefore it is recommended to fix the cubemap texture instead.")]
   /// @brief Field useLegacyCubemapRotation, offset: 0x102, size: 0x1, def value: None
   bool ___useLegacyCubemapRotation;
 
+  /// [Tooltip("When checked, the layer will use efficient super sampling")]
   /// @brief Field useEfficientSupersample, offset: 0x103, size: 0x1, def value: None
   bool ___useEfficientSupersample;
 
+  /// [Tooltip("When checked, the layer will use efficient sharpen.")]
   /// @brief Field useEfficientSharpen, offset: 0x104, size: 0x1, def value: None
   bool ___useEfficientSharpen;
 
+  /// [Tooltip("When checked, The runtime automatically chooses the appropriate sharpening or super sampling filter")]
   /// @brief Field useAutomaticFiltering, offset: 0x105, size: 0x1, def value: None
   bool ___useAutomaticFiltering;
 
+  /// [SerializeField]
   /// @brief Field _previewInEditor, offset: 0x106, size: 0x1, def value: None
   bool ____previewInEditor;
 
@@ -1164,6 +1190,7 @@ public:
   /// @brief Field isOverridePending, offset: 0x120, size: 0x1, def value: None
   bool ___isOverridePending;
 
+  /// [CompilerGenerated]
   /// @brief Field <layerId>k__BackingField, offset: 0x124, size: 0x4, def value: None
   int32_t ____layerId_k__BackingField;
 
@@ -1200,6 +1227,7 @@ public:
   /// @brief Field _blitMesh, offset: 0x1e0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____blitMesh;
 
+  /// [CompilerGenerated]
   /// @brief Field <isOverlayVisible>k__BackingField, offset: 0x1e8, size: 0x1, def value: None
   bool ____isOverlayVisible_k__BackingField;
 

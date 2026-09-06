@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AttachmentDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AttachmentDescriptor.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferLoadAction_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferStoreAction_impl.hpp"
@@ -347,12 +347,13 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::AttachmentDescriptor>
 UnityEngine::Rendering::AttachmentDescriptor::i___System__IEquatable_1___UnityEngine__Rendering__AttachmentDescriptor_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::AttachmentDescriptor>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_LoadAction", ty: "::UnityEngine::Rendering::RenderBufferLoadAction", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StoreAction", ty:
-// "::UnityEngine::Rendering::RenderBufferStoreAction", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Format", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_LoadStoreTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ResolveTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ClearColor", ty: "::UnityEngine::Color", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_ClearDepth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ClearStencil", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_LoadAction", ty: "::UnityEngine::Rendering::RenderBufferLoadAction", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StoreAction",
+// ty: "::UnityEngine::Rendering::RenderBufferStoreAction", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Format", ty:
+// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LoadStoreTarget", ty:
+// "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ResolveTarget", ty:
+// "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ClearColor", ty: "::UnityEngine::Color", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_ClearDepth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ClearStencil", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::AttachmentDescriptor::AttachmentDescriptor(::UnityEngine::Rendering::RenderBufferLoadAction m_LoadAction,
                                                                                ::UnityEngine::Rendering::RenderBufferStoreAction m_StoreAction,
                                                                                ::UnityEngine::Experimental::Rendering::GraphicsFormat m_Format,

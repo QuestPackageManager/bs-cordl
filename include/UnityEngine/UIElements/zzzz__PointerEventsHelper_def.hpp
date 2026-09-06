@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerEventsHelper.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerEventsHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerEventsHelper)
 namespace UnityEngine::UIElements {
@@ -22,7 +23,7 @@ class PointerEventsHelper;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::PointerEventsHelper*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerEventsHelper*, "UnityEngine.UIElements", "PointerEventsHelper");
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.PointerEventsHelper
@@ -31,6 +32,8 @@ public:
   // Declarations
   /// @brief Method SendEnterLeave, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TLeaveEvent, typename TEnterEvent>
+    requires(::cordl_internals::type_constraint<TLeaveEvent, ::UnityEngine::UIElements::PointerEventBase_1<TLeaveEvent>*> && ::cordl_internals::default_constructor_constraint<TLeaveEvent> &&
+             ::cordl_internals::type_constraint<TEnterEvent, ::UnityEngine::UIElements::PointerEventBase_1<TEnterEvent>*> && ::cordl_internals::default_constructor_constraint<TEnterEvent>)
   static inline void SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer,
                                     ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId);
 
@@ -44,13 +47,13 @@ protected:
   constexpr PointerEventsHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEventsHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEventsHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerEventsHelper(PointerEventsHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEventsHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEventsHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerEventsHelper(PointerEventsHelper const&) = delete;
+  PointerEventsHelper(PointerEventsHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4514 };

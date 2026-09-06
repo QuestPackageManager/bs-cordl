@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Buffers\ArrayPoolEventSource.hpp"
+// IWYU pragma private; include "System/Buffers/ArrayPoolEventSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   // @brief default ctor
   constexpr ArrayPoolEventSource_BufferAllocatedReason();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ArrayPoolEventSource_BufferAllocatedReason(int32_t value__) noexcept;
 
   /// @brief Field OverMaximumSize value: I32(1)
@@ -81,6 +81,7 @@ static_assert(offsetof(::System::Buffers::ArrayPoolEventSource_BufferAllocatedRe
 static_assert(sizeof(::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason) == 0x4, "Size mismatch!");
 
 } // namespace System::Buffers
+// [EventSource(Guid = "0866B2B8-5CEF-5DB9-2612-0C0FFD814A44", Name = "System.Buffers.ArrayPoolEventSource")]
 // Dependencies System.Diagnostics.Tracing.EventSource
 namespace System::Buffers {
 // Is value type: false
@@ -93,18 +94,23 @@ public:
   /// @brief Field Log, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Log, put = setStaticF_Log)) ::System::Buffers::ArrayPoolEventSource* Log;
 
+  /// [Event(2, Level = (System.Diagnostics.Tracing.EventLevel)4)]
   /// @brief Method BufferAllocated, addr 0x5bf3d60, size 0xbc, virtual false, abstract: false, final false
   inline void BufferAllocated(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId, ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason reason);
 
+  /// [Event(1, Level = (System.Diagnostics.Tracing.EventLevel)5)]
   /// @brief Method BufferRented, addr 0x5bf3cb0, size 0xb0, virtual false, abstract: false, final false
   inline void BufferRented(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId);
 
+  /// [Event(3, Level = (System.Diagnostics.Tracing.EventLevel)5)]
   /// @brief Method BufferReturned, addr 0x5bf3e1c, size 0x18, virtual false, abstract: false, final false
   inline void BufferReturned(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
+  /// [Event(5, Level = (System.Diagnostics.Tracing.EventLevel)4)]
   /// @brief Method BufferTrimPoll, addr 0x5bf3e4c, size 0x14, virtual false, abstract: false, final false
   inline void BufferTrimPoll(int32_t milliseconds, int32_t pressure);
 
+  /// [Event(4, Level = (System.Diagnostics.Tracing.EventLevel)4)]
   /// @brief Method BufferTrimmed, addr 0x5bf3e34, size 0x18, virtual false, abstract: false, final false
   inline void BufferTrimmed(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
@@ -123,13 +129,13 @@ protected:
   constexpr ArrayPoolEventSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayPoolEventSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayPoolEventSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayPoolEventSource(ArrayPoolEventSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayPoolEventSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayPoolEventSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayPoolEventSource(ArrayPoolEventSource const&) = delete;
+  ArrayPoolEventSource(ArrayPoolEventSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3822 };

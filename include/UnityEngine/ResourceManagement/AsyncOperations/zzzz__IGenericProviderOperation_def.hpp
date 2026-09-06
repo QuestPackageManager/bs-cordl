@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\IGenericProviderOperation.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/IGenericProviderOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,20 +61,20 @@ public:
 
   __declspec(property(get = get_RequestedType)) ::System::Type* RequestedType;
 
-  /// @brief Method GetDependencies, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetDependencies(::System::Collections::Generic::IList_1<::System::Object*>* dstList);
 
-  /// @brief Method GetDependency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDependency, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename TDepObject> inline TDepObject GetDependency(int32_t index);
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void
   Init(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* provider,
        ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
        ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
            depOp);
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void
   Init(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* provider,
        ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
@@ -82,33 +82,33 @@ public:
            depOp,
        bool releaseDependenciesOnFailure);
 
-  /// @brief Method ProviderCompleted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProviderCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline void ProviderCompleted(T result, bool status, ::System::Exception* e);
 
-  /// @brief Method SetDownloadProgressCallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetDownloadProgressCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetDownloadProgressCallback(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
 
-  /// @brief Method SetProgressCallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetProgressCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetProgressCallback(::System::Func_1<float_t>* callback);
 
-  /// @brief Method SetWaitForCompletionCallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetWaitForCompletionCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
 
-  /// @brief Method get_DependencyCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_DependencyCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_DependencyCount();
 
-  /// @brief Method get_Location, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Location, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method get_ProvideHandleVersion, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ProvideHandleVersion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ProvideHandleVersion();
 
-  /// @brief Method get_RequestedType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_RequestedType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_RequestedType();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IGenericProviderOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IGenericProviderOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGenericProviderOperation(IGenericProviderOperation const&) = delete;
+  IGenericProviderOperation(IGenericProviderOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18825 };

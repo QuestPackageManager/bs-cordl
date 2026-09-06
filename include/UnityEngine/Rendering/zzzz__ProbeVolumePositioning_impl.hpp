@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumePositioning.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumePositioning.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumePositioning_def.hpp"
@@ -101,8 +101,8 @@ inline void UnityEngine::Rendering::ProbeVolumePositioning::setStaticF_m_AABBCor
 inline ::ArrayW<::UnityEngine::Vector3> UnityEngine::Rendering::ProbeVolumePositioning::getStaticF_m_AABBCorners() {
   return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Vector3>, "m_AABBCorners", ::UnityEngine::Rendering::ProbeVolumePositioning*>();
 }
-inline bool UnityEngine::Rendering::ProbeVolumePositioning::OBBIntersect(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a,
-                                                                         ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> b) {
+inline bool UnityEngine::Rendering::ProbeVolumePositioning::OBBIntersect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a,
+                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> b) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePositioning*>(),
                                                                                          { "OBBIntersect",
                                                                                            {},
@@ -110,14 +110,14 @@ inline bool UnityEngine::Rendering::ProbeVolumePositioning::OBBIntersect(::by_re
                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool UnityEngine::Rendering::ProbeVolumePositioning::OBBContains(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> obb, ::UnityEngine::Vector3 point) {
+inline bool UnityEngine::Rendering::ProbeVolumePositioning::OBBContains(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> obb, ::UnityEngine::Vector3 point) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePositioning*>(),
                                               { "OBBContains", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, obb, point);
 }
-inline bool UnityEngine::Rendering::ProbeVolumePositioning::OBBAABBIntersect(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::by_ref<::UnityEngine::Bounds> b,
-                                                                             ::by_ref<::UnityEngine::Bounds> aAABB) {
+inline bool UnityEngine::Rendering::ProbeVolumePositioning::OBBAABBIntersect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a,
+                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> b, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> aAABB) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePositioning*>(),
                                                            { "OBBAABBIntersect",
@@ -126,13 +126,14 @@ inline bool UnityEngine::Rendering::ProbeVolumePositioning::OBBAABBIntersect(::b
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b, aAABB);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::ProbeVolumePositioning::ProjectOBB(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a, ::UnityEngine::Vector3 axis) {
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::ProbeVolumePositioning::ProjectOBB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume> a,
+                                                                                         ::UnityEngine::Vector3 axis) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePositioning*>(),
                                               { "ProjectOBB", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, a, axis);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::ProbeVolumePositioning::ProjectAABB(::by_ref<::ArrayW<::UnityEngine::Vector3>> corners, ::UnityEngine::Vector3 axis) {
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::ProbeVolumePositioning::ProjectAABB(/* [IsReadOnly] */ ::by_ref<::ArrayW<::UnityEngine::Vector3>> corners, ::UnityEngine::Vector3 axis) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePositioning*>(),
                                                            { "ProjectAABB", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::Vector3>>>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));

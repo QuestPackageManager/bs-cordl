@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InjectContext.hpp"
+// IWYU pragma private; include "Zenject/InjectContext.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindingId_impl.hpp"
 #include "Zenject/zzzz__InjectSources_impl.hpp"
@@ -279,6 +279,7 @@ inline ::Zenject::InjectTypeInfo* Zenject::InjectContext__get_AllObjectTypes_d__
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_AllObjectTypes_d__56*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Zenject::InjectContext__get_AllObjectTypes_d__56* Zenject::InjectContext__get_AllObjectTypes_d__56::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::InjectContext__get_AllObjectTypes_d__56*>(__1__state));
 }
@@ -587,6 +588,7 @@ inline ::Zenject::InjectTypeInfo* Zenject::InjectContext__get_ParentContexts_d__
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_ParentContexts_d__52*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Zenject::InjectContext__get_ParentContexts_d__52* Zenject::InjectContext__get_ParentContexts_d__52::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::InjectContext__get_ParentContexts_d__52*>(__1__state));
 }
@@ -900,6 +902,7 @@ inline ::Zenject::InjectTypeInfo* Zenject::InjectContext__get_ParentContextsAndS
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_ParentContextsAndSelf_d__54*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Zenject::InjectContext__get_ParentContextsAndSelf_d__54* Zenject::InjectContext__get_ParentContextsAndSelf_d__54::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::InjectContext__get_ParentContextsAndSelf_d__54*>(__1__state));
 }

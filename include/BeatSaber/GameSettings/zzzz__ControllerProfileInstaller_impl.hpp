@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfileInstaller.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfileInstaller.hpp"
 #include "Zenject/zzzz__Installer_1_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfileInstaller_def.hpp"
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfileInstaller.InstallBindings

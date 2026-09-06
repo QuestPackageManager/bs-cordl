@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TouchScreenKeyboard.hpp"
+// IWYU pragma private; include "UnityEngine/TouchScreenKeyboard.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +86,7 @@ public:
   // @brief default ctor
   constexpr TouchScreenKeyboard_Status();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TouchScreenKeyboard_Status(int32_t value__) noexcept;
 
   /// @brief Field Canceled value: I32(2)
@@ -148,7 +148,7 @@ public:
   // @brief default ctor
   constexpr TouchScreenKeyboard_InputFieldAppearance();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TouchScreenKeyboard_InputFieldAppearance(int32_t value__) noexcept;
 
   /// @brief Field AlwaysHidden value: I32(2)
@@ -193,13 +193,13 @@ protected:
   constexpr TouchScreenKeyboard_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TouchScreenKeyboard_BindingsMarshaller(TouchScreenKeyboard_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TouchScreenKeyboard_BindingsMarshaller(TouchScreenKeyboard_BindingsMarshaller const&) = delete;
+  TouchScreenKeyboard_BindingsMarshaller(TouchScreenKeyboard_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10411 };
@@ -210,6 +210,9 @@ public:
 static_assert(sizeof(::UnityEngine::TouchScreenKeyboard_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Input/KeyboardOnScreen.h")]
+// [NativeHeader("Runtime/Export/TouchScreenKeyboard/TouchScreenKeyboard.bindings.h")]
+// [NativeConditional("ENABLE_ONSCREEN_KEYBOARD")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -252,6 +255,7 @@ public:
   /// @brief Method GetSelection, addr 0x6af2e80, size 0x44, virtual false, abstract: false, final false
   static inline void GetSelection(::by_ref<int32_t> start, ::by_ref<int32_t> length);
 
+  /// [FreeFunction("TouchScreenKeyboard_Destroy", IsThreadSafe = true)]
   /// @brief Method Internal_Destroy, addr 0x6af1fd4, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
@@ -261,19 +265,24 @@ public:
   static inline ::UnityEngine::TouchScreenKeyboard* New_ctor(::StringW text, ::UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert,
                                                              ::StringW textPlaceholder, int32_t characterLimit);
 
+  /// [ExcludeFromDocs]
   /// @brief Method Open, addr 0x6af2710, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TouchScreenKeyboard* Open(::StringW text, ::UnityEngine::TouchScreenKeyboardType keyboardType);
 
+  /// [ExcludeFromDocs]
   /// @brief Method Open, addr 0x6af2680, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::TouchScreenKeyboard* Open(::StringW text, ::UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure);
 
   /// @brief Method Open, addr 0x6af25c4, size 0xbc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TouchScreenKeyboard* Open(::StringW text, ::UnityEngine::TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert,
-                                                         ::StringW textPlaceholder, int32_t characterLimit);
+  static inline ::UnityEngine::TouchScreenKeyboard* Open(::StringW text, /* [DefaultValue("TouchScreenKeyboardType.Default")] */ ::UnityEngine::TouchScreenKeyboardType keyboardType,
+                                                         /* [DefaultValue("true")] */ bool autocorrection, /* [DefaultValue("false")] */ bool multiline, /* [DefaultValue("false")] */ bool secure,
+                                                         /* [DefaultValue("false")] */ bool alert, /* [DefaultValue("\"\"")] */ ::StringW textPlaceholder,
+                                                         /* [DefaultValue("0")] */ int32_t characterLimit);
 
   /// @brief Method SetSelection, addr 0x6af2f88, size 0x44, virtual false, abstract: false, final false
   static inline void SetSelection(int32_t start, int32_t length);
 
+  /// [FreeFunction("TouchScreenKeyboard_InternalConstructorHelper")]
   /// @brief Method TouchScreenKeyboard_InternalConstructorHelper, addr 0x6af21ec, size 0x1bc, virtual false, abstract: false, final false
   static inline ::System::IntPtr TouchScreenKeyboard_InternalConstructorHelper(::by_ref<::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments> arguments, ::StringW text,
                                                                                ::StringW textPlaceholder);
@@ -295,27 +304,32 @@ public:
 
   static inline bool getStaticF__disableInPlaceEditing_k__BackingField();
 
+  /// [NativeName("IsActive")]
   /// @brief Method get_active, addr 0x6af2acc, size 0x50, virtual false, abstract: false, final false
   inline bool get_active();
 
   /// @brief Method get_active_Injected, addr 0x6af2b1c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_active_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("CanGetSelection")]
   /// @brief Method get_canGetSelection, addr 0x6af2d1c, size 0x50, virtual false, abstract: false, final false
   inline bool get_canGetSelection();
 
   /// @brief Method get_canGetSelection_Injected, addr 0x6af2d6c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_canGetSelection_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("CanSetSelection")]
   /// @brief Method get_canSetSelection, addr 0x6af2da8, size 0x50, virtual false, abstract: false, final false
   inline bool get_canSetSelection();
 
   /// @brief Method get_canSetSelection_Injected, addr 0x6af2df8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_canSetSelection_Injected(::System::IntPtr _unity_self);
 
+  /// [CompilerGenerated]
   /// @brief Method get_disableInPlaceEditing, addr 0x6af24d4, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_disableInPlaceEditing();
 
+  /// [NativeName("GetInputFieldAppearance")]
   /// @brief Method get_inputFieldAppearance, addr 0x6af2aa4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::TouchScreenKeyboard_InputFieldAppearance get_inputFieldAppearance();
 
@@ -328,12 +342,14 @@ public:
   /// @brief Method get_selection, addr 0x6af2e34, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::RangeInt get_selection();
 
+  /// [NativeName("GetKeyboardStatus")]
   /// @brief Method get_status, addr 0x6af2bf4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::TouchScreenKeyboard_Status get_status();
 
   /// @brief Method get_status_Injected, addr 0x6af2c44, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TouchScreenKeyboard_Status get_status_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("GetText")]
   /// @brief Method get_text, addr 0x6af278c, size 0x100, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
@@ -342,24 +358,28 @@ public:
 
   static inline void setStaticF__disableInPlaceEditing_k__BackingField(bool value);
 
+  /// [NativeName("SetActive")]
   /// @brief Method set_active, addr 0x6af2b58, size 0x58, virtual false, abstract: false, final false
   inline void set_active(bool value);
 
   /// @brief Method set_active_Injected, addr 0x6af2bb0, size 0x44, virtual false, abstract: false, final false
   static inline void set_active_Injected(::System::IntPtr _unity_self, bool value);
 
+  /// [NativeName("SetCharacterLimit")]
   /// @brief Method set_characterLimit, addr 0x6af2c80, size 0x58, virtual false, abstract: false, final false
   inline void set_characterLimit(int32_t value);
 
   /// @brief Method set_characterLimit_Injected, addr 0x6af2cd8, size 0x44, virtual false, abstract: false, final false
   static inline void set_characterLimit_Injected(::System::IntPtr _unity_self, int32_t value);
 
+  /// [NativeName("SetInputHidden")]
   /// @brief Method set_hideInput, addr 0x6af2a68, size 0x3c, virtual false, abstract: false, final false
   static inline void set_hideInput(bool value);
 
   /// @brief Method set_selection, addr 0x6af2ec4, size 0xc4, virtual false, abstract: false, final false
   inline void set_selection(::UnityEngine::RangeInt value);
 
+  /// [NativeName("SetText")]
   /// @brief Method set_text, addr 0x6af28d0, size 0x154, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
@@ -372,13 +392,13 @@ protected:
   constexpr TouchScreenKeyboard();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TouchScreenKeyboard(TouchScreenKeyboard&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenKeyboard", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TouchScreenKeyboard(TouchScreenKeyboard const&) = delete;
+  TouchScreenKeyboard(TouchScreenKeyboardconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10412 };

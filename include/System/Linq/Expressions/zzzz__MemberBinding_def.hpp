@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\MemberBinding.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/MemberBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,9 +49,11 @@ public:
 
   constexpr void __cordl_internal_set__Member_k__BackingField(::System::Reflection::MemberInfo* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BindingType, addr 0x5f86c08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::MemberBindingType get_BindingType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Member, addr 0x5f86c10, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
@@ -61,20 +63,22 @@ protected:
   constexpr MemberBinding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemberBinding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberBinding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemberBinding(MemberBinding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemberBinding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberBinding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemberBinding(MemberBinding const&) = delete;
+  MemberBinding(MemberBindingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16196 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BindingType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Linq::Expressions::MemberBindingType ____BindingType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Member>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ____Member_k__BackingField;
 

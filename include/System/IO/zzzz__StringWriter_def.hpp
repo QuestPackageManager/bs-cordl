@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\StringWriter.hpp"
+// IWYU pragma private; include "System/IO/StringWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class StringWriter;
 // Write type traits
 MARK_REF_T(::System::IO::StringWriter*);
 DEFINE_IL2CPP_CLASS(::System::IO::StringWriter*, "System.IO", "StringWriter");
+// [ComVisible(true)]
 // Dependencies System.IO.TextWriter
 namespace System::IO {
 // Is value type: false
@@ -54,6 +55,7 @@ public:
   /// @brief Method Dispose, addr 0x5c1915c, size 0x8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
+  /// [ComVisible(false)]
   /// @brief Method FlushAsync, addr 0x5c19620, size 0x94, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync();
 
@@ -77,12 +79,15 @@ public:
   /// @brief Method Write, addr 0x5c19224, size 0x28, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
+  /// [ComVisible(false)]
   /// @brief Method WriteAsync, addr 0x5c1954c, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
+  /// [ComVisible(false)]
   /// @brief Method WriteAsync, addr 0x5c19490, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::StringW value);
 
+  /// [ComVisible(false)]
   /// @brief Method WriteAsync, addr 0x5c193d4, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(char16_t value);
 
@@ -123,13 +128,13 @@ protected:
   constexpr StringWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringWriter(StringWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringWriter(StringWriter const&) = delete;
+  StringWriter(StringWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3908 };

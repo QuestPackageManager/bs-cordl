@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\IPAddressCollection.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/IPAddressCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class IPAddressCollection;
 // Write type traits
 MARK_REF_T(::System::Net::NetworkInformation::IPAddressCollection*);
 DEFINE_IL2CPP_CLASS(::System::Net::NetworkInformation::IPAddressCollection*, "System.Net.NetworkInformation", "IPAddressCollection");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Net::NetworkInformation {
 // Is value type: false
@@ -114,13 +115,13 @@ protected:
   constexpr IPAddressCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddressCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddressCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IPAddressCollection(IPAddressCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddressCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPAddressCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPAddressCollection(IPAddressCollection const&) = delete;
+  IPAddressCollection(IPAddressCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11671 };

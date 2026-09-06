@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\ComponentType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/ComponentType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,13 +21,15 @@ struct CORDL_TYPE ComponentType {
 public:
   // Declarations
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityEngine::UIElements::Layout::ComponentType Create();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::UnityEngine::UIElements::Layout::ComponentType Create();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ComponentType();
 
-  // Ctor Parameters [CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Size", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ComponentType(int32_t Size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

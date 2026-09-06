@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\ResourceUnversionedData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourceUnversionedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,13 +61,14 @@ public:
   // @brief default ctor
   constexpr ResourceUnversionedData();
 
-  // Ctor Parameters [CppParam { name: "isImported", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isShared", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "tag",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastUsePassID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastWritePassID", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "firstUsePassID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "memoryLess", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "volumeDepth", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "msaaSamples", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "latestVersionNumber", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "discard", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "bindMS", ty: "bool",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "isImported", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isShared", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastUsePassID", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "lastWritePassID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstUsePassID", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "memoryLess", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "height", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "volumeDepth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "msaaSamples", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "latestVersionNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "clear", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "discard", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "bindMS", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ResourceUnversionedData(bool isImported, bool isShared, int32_t tag, int32_t lastUsePassID, int32_t lastWritePassID, int32_t firstUsePassID, bool memoryLess, int32_t width, int32_t height,
                                     int32_t volumeDepth, int32_t msaaSamples, int32_t latestVersionNumber, bool clear, bool discard, bool bindMS) noexcept;
 

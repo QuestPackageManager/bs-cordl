@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\InstantiationParameters.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/InstantiationParameters.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
@@ -143,15 +144,18 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::InstantiationPar
                                        { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Transform*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, position, rotation, parent);
 }
-template <typename TObject> inline TObject UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::Instantiate(TObject source) {
+template <typename TObject>
+  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
+inline TObject UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::Instantiate(TObject source) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters>(),
                                                                                               { "Instantiate", { ::i2c::class_of<TObject>() }, { ::i2c::type_of<TObject>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TObject>() })));
   return ::cordl_internals::RunMethodRethrow<TObject>(*this, ___internal_method, source);
 }
-// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Parent", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InstantiateInWorldPosition", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SetPositionRotation", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Parent", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_InstantiateInWorldPosition", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SetPositionRotation", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::InstantiationParameters(::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation,
                                                                                                                  ::UnityW<::UnityEngine::Transform> m_Parent, bool m_InstantiateInWorldPosition,
                                                                                                                  bool m_SetPositionRotation) noexcept {

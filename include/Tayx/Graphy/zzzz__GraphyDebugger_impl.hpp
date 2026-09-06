@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\GraphyDebugger.hpp"
+// IWYU pragma private; include "Tayx/Graphy/GraphyDebugger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Tayx/Graphy/Utils/zzzz__G_Singleton_1_impl.hpp"
 #include "Tayx/Graphy/zzzz__GraphyDebugger_def.hpp"
@@ -11,7 +11,7 @@
 #include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyDebugger_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyDebugger_DebugVariable::GraphyDebugger_DebugVariable(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -25,7 +25,7 @@ constexpr ::Tayx::Graphy::GraphyDebugger_DebugVariable Tayx::Graphy::GraphyDebug
 constexpr ::Tayx::Graphy::GraphyDebugger_DebugVariable Tayx::Graphy::GraphyDebugger_DebugVariable::Ram_Reserved{ static_cast<int32_t>(0x5) };
 constexpr ::Tayx::Graphy::GraphyDebugger_DebugVariable Tayx::Graphy::GraphyDebugger_DebugVariable::Ram_Mono{ static_cast<int32_t>(0x6) };
 constexpr ::Tayx::Graphy::GraphyDebugger_DebugVariable Tayx::Graphy::GraphyDebugger_DebugVariable::Audio_DB{ static_cast<int32_t>(0x7) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyDebugger_DebugComparer::GraphyDebugger_DebugComparer(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -36,7 +36,7 @@ constexpr ::Tayx::Graphy::GraphyDebugger_DebugComparer Tayx::Graphy::GraphyDebug
 constexpr ::Tayx::Graphy::GraphyDebugger_DebugComparer Tayx::Graphy::GraphyDebugger_DebugComparer::Equals{ static_cast<int32_t>(0x2) };
 constexpr ::Tayx::Graphy::GraphyDebugger_DebugComparer Tayx::Graphy::GraphyDebugger_DebugComparer::Equals_or_greater_than{ static_cast<int32_t>(0x3) };
 constexpr ::Tayx::Graphy::GraphyDebugger_DebugComparer Tayx::Graphy::GraphyDebugger_DebugComparer::Greater_than{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyDebugger_ConditionEvaluation::GraphyDebugger_ConditionEvaluation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -44,7 +44,7 @@ constexpr ::Tayx::Graphy::GraphyDebugger_ConditionEvaluation::GraphyDebugger_Con
 constexpr ::Tayx::Graphy::GraphyDebugger_ConditionEvaluation::GraphyDebugger_ConditionEvaluation() {}
 constexpr ::Tayx::Graphy::GraphyDebugger_ConditionEvaluation Tayx::Graphy::GraphyDebugger_ConditionEvaluation::All_conditions_must_be_met{ static_cast<int32_t>(0x0) };
 constexpr ::Tayx::Graphy::GraphyDebugger_ConditionEvaluation Tayx::Graphy::GraphyDebugger_ConditionEvaluation::Only_one_condition_has_to_be_met{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyDebugger_MessageType::GraphyDebugger_MessageType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -53,8 +53,9 @@ constexpr ::Tayx::Graphy::GraphyDebugger_MessageType::GraphyDebugger_MessageType
 constexpr ::Tayx::Graphy::GraphyDebugger_MessageType Tayx::Graphy::GraphyDebugger_MessageType::Log{ static_cast<int32_t>(0x0) };
 constexpr ::Tayx::Graphy::GraphyDebugger_MessageType Tayx::Graphy::GraphyDebugger_MessageType::Warning{ static_cast<int32_t>(0x1) };
 constexpr ::Tayx::Graphy::GraphyDebugger_MessageType Tayx::Graphy::GraphyDebugger_MessageType::Error{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "Variable", ty: "::Tayx::Graphy::GraphyDebugger_DebugVariable", modifiers: "", def_value: Some("{}") }, CppParam { name: "Comparer", ty:
-// "::Tayx::Graphy::GraphyDebugger_DebugComparer", modifiers: "", def_value: Some("{}") }, CppParam { name: "Value", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Variable", ty: "::Tayx::Graphy::GraphyDebugger_DebugVariable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Comparer", ty:
+// "::Tayx::Graphy::GraphyDebugger_DebugComparer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Value", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::Tayx::Graphy::GraphyDebugger_DebugCondition::GraphyDebugger_DebugCondition(::Tayx::Graphy::GraphyDebugger_DebugVariable Variable, ::Tayx::Graphy::GraphyDebugger_DebugComparer Comparer,
                                                                                        float_t Value) noexcept {
   this->Variable = Variable;

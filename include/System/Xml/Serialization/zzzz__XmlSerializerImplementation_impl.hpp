@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlSerializerImplementation.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializerImplementation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializerImplementation_def.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializationWriter_def.hpp"

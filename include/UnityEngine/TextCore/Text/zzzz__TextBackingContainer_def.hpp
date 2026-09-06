@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextBackingContainer.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextBackingContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct TextBackingContainer;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextBackingContainer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextBackingContainer, "UnityEngine.TextCore.Text", "TextBackingContainer");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -52,7 +53,8 @@ public:
   // @brief default ctor
   constexpr TextBackingContainer();
 
-  // Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TextBackingContainer(::ArrayW<uint32_t> m_Array, int32_t m_Count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\RuntimeCompatibilityAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/RuntimeCompatibilityAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class RuntimeCompatibilityAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute*, "System.Runtime.CompilerServices", "RuntimeCompatibilityAttribute");
+// [AttributeUsage((System.AttributeTargets)1, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -36,6 +37,7 @@ public:
   /// @brief Method .ctor, addr 0x5b7055c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_WrapNonExceptionThrows, addr 0x5b70560, size 0x8, virtual false, abstract: false, final false
   inline void set_WrapNonExceptionThrows(bool value);
 
@@ -45,17 +47,18 @@ protected:
   constexpr RuntimeCompatibilityAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeCompatibilityAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeCompatibilityAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeCompatibilityAttribute(RuntimeCompatibilityAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeCompatibilityAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeCompatibilityAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeCompatibilityAttribute(RuntimeCompatibilityAttribute const&) = delete;
+  RuntimeCompatibilityAttribute(RuntimeCompatibilityAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3396 };
 
+  /// [CompilerGenerated]
   /// @brief Field <WrapNonExceptionThrows>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WrapNonExceptionThrows_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\OtherSigningCertificate.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/OtherSigningCertificate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,10 +53,10 @@ public:
   /// @brief Method GetPolicies, addr 0x3376e1c, size 0x12c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> GetPolicies();
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs);
-
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs,
-                                                                                  ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> policies);
+                                                                                  /* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> policies);
+
+  static inline ::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate* New_ctor(::System::Collections::IEnumerable* certs);
 
@@ -79,11 +79,11 @@ public:
 
   constexpr void __cordl_internal_set_policies(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x33769c4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs);
-
   /// @brief Method .ctor, addr 0x33769cc, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs, ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> policies);
+  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs, /* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> policies);
+
+  /// @brief Method .ctor, addr 0x33769c4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs);
 
   /// @brief Method .ctor, addr 0x3376aa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* certs);
@@ -100,13 +100,13 @@ protected:
   constexpr OtherSigningCertificate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OtherSigningCertificate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OtherSigningCertificate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OtherSigningCertificate(OtherSigningCertificate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OtherSigningCertificate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OtherSigningCertificate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OtherSigningCertificate(OtherSigningCertificate const&) = delete;
+  OtherSigningCertificate(OtherSigningCertificateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 153 };

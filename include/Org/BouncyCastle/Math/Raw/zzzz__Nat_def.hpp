@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\Raw\Nat.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/Raw/Nat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -275,9 +275,11 @@ public:
   /// @brief Method Square, addr 0x3536940, size 0x14c, virtual false, abstract: false, final false
   static inline void Square(int32_t len, ::ArrayW<uint32_t> x, ::ArrayW<uint32_t> zz);
 
+  /// [Obsolete("Use \'SquareWordAddTo\' instead")]
   /// @brief Method SquareWordAdd, addr 0x3536db8, size 0x98, virtual false, abstract: false, final false
   static inline uint32_t SquareWordAdd(::ArrayW<uint32_t> x, int32_t xOff, int32_t xPos, ::ArrayW<uint32_t> z, int32_t zOff);
 
+  /// [Obsolete("Use \'SquareWordAddTo\' instead")]
   /// @brief Method SquareWordAdd, addr 0x3536d28, size 0x90, virtual false, abstract: false, final false
   static inline uint32_t SquareWordAdd(::ArrayW<uint32_t> x, int32_t xPos, ::ArrayW<uint32_t> z);
 
@@ -356,13 +358,13 @@ protected:
   constexpr Nat();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Nat", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Nat", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Nat(Nat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Nat", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Nat", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Nat(Nat const&) = delete;
+  Nat(Natconst&) = delete;
 
   /// @brief Field M offset 0xffffffff size 0x8
   static constexpr uint64_t M{ static_cast<uint64_t>(0xffffffffu) };

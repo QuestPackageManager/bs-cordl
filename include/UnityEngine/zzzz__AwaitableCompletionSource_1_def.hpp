@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AwaitableCompletionSource_1.hpp"
+// IWYU pragma private; include "UnityEngine/AwaitableCompletionSource_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ public:
   inline void SetException(::System::Exception* exception);
 
   /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetResult(::by_ref<T> value);
+  inline void SetResult(/* [IsReadOnly] */ ::by_ref<T> value);
 
   /// @brief Method TrySetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetException(::System::Exception* exception);
 
   /// @brief Method TrySetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TrySetResult(::by_ref<T> value);
+  inline bool TrySetResult(/* [IsReadOnly] */ ::by_ref<T> value);
 
   constexpr ::UnityEngine::Awaitable_1<T>* const& __cordl_internal_get__Awaitable_k__BackingField() const;
 
@@ -71,9 +71,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Awaitable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::Awaitable_1<T>* get_Awaitable();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Awaitable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Awaitable(::UnityEngine::Awaitable_1<T>* value);
 
@@ -83,13 +85,13 @@ protected:
   constexpr AwaitableCompletionSource_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AwaitableCompletionSource_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AwaitableCompletionSource_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AwaitableCompletionSource_1(AwaitableCompletionSource_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AwaitableCompletionSource_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AwaitableCompletionSource_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AwaitableCompletionSource_1(AwaitableCompletionSource_1 const&) = delete;
+  AwaitableCompletionSource_1(AwaitableCompletionSource_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10324 };
@@ -97,6 +99,8 @@ public:
   /// @brief Field _state, offset: 0x10, size: 0x4, def value: None
   int32_t ____state;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Awaitable>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Awaitable_1<T>* ____Awaitable_k__BackingField;
 

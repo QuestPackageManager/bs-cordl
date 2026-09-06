@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\__JobReflectionRegistrationOutput__15867191014387474753.hpp"
+// IWYU pragma private; include "GlobalNamespace/__JobReflectionRegistrationOutput__15867191014387474753.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class __JobReflectionRegistrationOutput__15867191014387474753;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::__JobReflectionRegistrationOutput__15867191014387474753*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::__JobReflectionRegistrationOutput__15867191014387474753*, "", "__JobReflectionRegistrationOutput__15867191014387474753");
+// [DOTSCompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -22,6 +23,7 @@ public:
   /// @brief Method CreateJobReflectionData, addr 0x6839590, size 0x6cc, virtual false, abstract: false, final false
   static inline void CreateJobReflectionData();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)2)]
   /// @brief Method EarlyInit, addr 0x6839c5c, size 0x4, virtual false, abstract: false, final false
   static inline void EarlyInit();
 
@@ -31,13 +33,13 @@ protected:
   constexpr __JobReflectionRegistrationOutput__15867191014387474753();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__JobReflectionRegistrationOutput__15867191014387474753", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__JobReflectionRegistrationOutput__15867191014387474753", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __JobReflectionRegistrationOutput__15867191014387474753(__JobReflectionRegistrationOutput__15867191014387474753&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__JobReflectionRegistrationOutput__15867191014387474753", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__JobReflectionRegistrationOutput__15867191014387474753", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __JobReflectionRegistrationOutput__15867191014387474753(__JobReflectionRegistrationOutput__15867191014387474753 const&) = delete;
+  __JobReflectionRegistrationOutput__15867191014387474753(__JobReflectionRegistrationOutput__15867191014387474753const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17808 };

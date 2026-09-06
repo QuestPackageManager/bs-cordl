@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeLinearLayout.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeLinearLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,23 +68,26 @@ protected:
   constexpr CompositeLinearLayout();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLinearLayout", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLinearLayout", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeLinearLayout(CompositeLinearLayout&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeLinearLayout", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeLinearLayout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeLinearLayout(CompositeLinearLayout const&) = delete;
+  CompositeLinearLayout(CompositeLinearLayoutconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5830 };
 
+  /// [SerializeField]
   /// @brief Field _movementStep, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____movementStep;
 
+  /// [SerializeField]
   /// @brief Field _defaultRotation, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____defaultRotation;
 
+  /// [SerializeField]
   /// @brief Field _startFromCenter, offset: 0x3c, size: 0x1, def value: None
   bool ____startFromCenter;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\IColorStyledComponent.hpp"
+// IWYU pragma private; include "HMUI/IColorStyledComponent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,18 +24,18 @@ public:
   // Declarations
   __declspec(property(get = get_colorStyle)) ::GlobalNamespace::IReadOnlyColorStyle* colorStyle;
 
-  /// @brief Method LerpColorStyle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LerpColorStyle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LerpColorStyle(::GlobalNamespace::IReadOnlyColorStyle* from, ::GlobalNamespace::IReadOnlyColorStyle* to, float_t t);
 
-  /// @brief Method UpdateColorStyle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateColorStyle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateColorStyle(::GlobalNamespace::IReadOnlyColorStyle* colorStyle);
 
-  /// @brief Method get_colorStyle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_colorStyle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IReadOnlyColorStyle* get_colorStyle();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IColorStyledComponent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IColorStyledComponent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IColorStyledComponent(IColorStyledComponent const&) = delete;
+  IColorStyledComponent(IColorStyledComponentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23633 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ProfilerMetrics.hpp"
+// IWYU pragma private; include "GlobalNamespace/ProfilerMetrics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCategory_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorder_impl.hpp"
@@ -8,8 +8,8 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorder_def.hpp"
-// Ctor Parameters [CppParam { name: "category", ty: "::Unity::Profiling::ProfilerCategory", modifiers: "", def_value: Some("{}") }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "category", ty: "::Unity::Profiling::ProfilerCategory", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "name", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ProfilerMetrics_ProfilerMetric::ProfilerMetrics_ProfilerMetric(::Unity::Profiling::ProfilerCategory category, ::StringW name) noexcept {
   this->category = category;
   this->name = name;

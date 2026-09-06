@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IDefaultVolumeProfileAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IDefaultVolumeProfileAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,18 +29,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr operator ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*() noexcept;
 
-  /// @brief Method get_defaultVolumeProfile, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_defaultVolumeProfile, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_defaultVolumeProfile();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_defaultVolumeProfile, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_defaultVolumeProfile, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_defaultVolumeProfile(::UnityEngine::Rendering::VolumeProfile* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDefaultVolumeProfileAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDefaultVolumeProfileAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDefaultVolumeProfileAsset(IDefaultVolumeProfileAsset const&) = delete;
+  IDefaultVolumeProfileAsset(IDefaultVolumeProfileAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12191 };

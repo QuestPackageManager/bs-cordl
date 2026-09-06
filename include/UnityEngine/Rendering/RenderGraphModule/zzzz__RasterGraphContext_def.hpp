@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RasterGraphContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RasterGraphContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ struct RasterGraphContext;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext, "UnityEngine.Rendering.RenderGraphModule", "RasterGraphContext");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -64,8 +65,8 @@ public:
   // @brief default ctor
   constexpr RasterGraphContext();
 
-  // Ctor Parameters [CppParam { name: "wrappedContext", ty: "::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*", modifiers: "", def_value: None }, CppParam { name: "cmd", ty:
-  // "::UnityEngine::Rendering::RasterCommandBuffer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "wrappedContext", ty: "::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "cmd", ty: "::UnityEngine::Rendering::RasterCommandBuffer*", modifiers: "", def_value: None, comment: None }]
   constexpr RasterGraphContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* wrappedContext, ::UnityEngine::Rendering::RasterCommandBuffer* cmd) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

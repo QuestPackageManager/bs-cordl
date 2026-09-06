@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\Sha512tDigest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Sha512tDigest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -151,13 +151,13 @@ protected:
   constexpr Sha512tDigest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Sha512tDigest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sha512tDigest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Sha512tDigest(Sha512tDigest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Sha512tDigest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sha512tDigest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Sha512tDigest(Sha512tDigest const&) = delete;
+  Sha512tDigest(Sha512tDigestconst&) = delete;
 
   /// @brief Field A5 offset 0xffffffff size 0x8
   static constexpr uint64_t A5{ static_cast<uint64_t>(0xa5a5a5a5a5a5a5a5u) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Xml\SmallXmlParser.hpp"
+// IWYU pragma private; include "Mono/Xml/SmallXmlParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,30 +61,30 @@ namespace Mono::Xml {
 class CORDL_TYPE SmallXmlParser_IContentHandler {
 public:
   // Declarations
-  /// @brief Method OnChars, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnChars, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnChars(::StringW text);
 
-  /// @brief Method OnEndElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnEndElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnEndElement(::StringW name);
 
-  /// @brief Method OnEndParsing, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnEndParsing, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  /// @brief Method OnIgnorableWhitespace, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnIgnorableWhitespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnIgnorableWhitespace(::StringW text);
 
-  /// @brief Method OnProcessingInstruction, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnProcessingInstruction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnProcessingInstruction(::StringW name, ::StringW text);
 
-  /// @brief Method OnStartElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnStartElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStartElement(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method OnStartParsing, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnStartParsing, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_IContentHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_IContentHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmallXmlParser_IContentHandler(SmallXmlParser_IContentHandler const&) = delete;
+  SmallXmlParser_IContentHandler(SmallXmlParser_IContentHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2251 };
@@ -106,27 +106,27 @@ public:
 
   __declspec(property(get = get_Values)) ::ArrayW<::StringW> Values;
 
-  /// @brief Method GetName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetName(int32_t i);
 
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetValue(int32_t i);
 
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetValue(::StringW name);
 
-  /// @brief Method get_Length, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Names, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Names, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::StringW> get_Names();
 
-  /// @brief Method get_Values, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::StringW> get_Values();
 
-  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_IAttrList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_IAttrList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmallXmlParser_IAttrList(SmallXmlParser_IAttrList const&) = delete;
+  SmallXmlParser_IAttrList(SmallXmlParser_IAttrListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2252 };
@@ -207,13 +207,13 @@ protected:
   constexpr SmallXmlParser_AttrListImpl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_AttrListImpl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_AttrListImpl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmallXmlParser_AttrListImpl(SmallXmlParser_AttrListImpl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_AttrListImpl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser_AttrListImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmallXmlParser_AttrListImpl(SmallXmlParser_AttrListImpl const&) = delete;
+  SmallXmlParser_AttrListImpl(SmallXmlParser_AttrListImplconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2253 };
@@ -432,13 +432,13 @@ protected:
   constexpr SmallXmlParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmallXmlParser(SmallXmlParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SmallXmlParser(SmallXmlParser const&) = delete;
+  SmallXmlParser(SmallXmlParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2254 };

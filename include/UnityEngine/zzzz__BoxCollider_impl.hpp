@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BoxCollider.hpp"
+// IWYU pragma private; include "UnityEngine/BoxCollider.hpp"
 #include "UnityEngine/zzzz__Collider_impl.hpp"
 #include "UnityEngine/zzzz__BoxCollider_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

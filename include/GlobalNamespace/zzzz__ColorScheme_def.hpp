@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorScheme.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorScheme.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -331,65 +331,88 @@ protected:
   constexpr ColorScheme();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorScheme", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorScheme", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorScheme(ColorScheme&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorScheme", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorScheme", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorScheme(ColorScheme const&) = delete;
+  ColorScheme(ColorSchemeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23148 };
 
+  /// [SerializeField]
   /// @brief Field _colorSchemeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____colorSchemeId;
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _colorSchemeNameLocalizationKey, offset: 0x18, size: 0x8, def value: None
   ::StringW ____colorSchemeNameLocalizationKey;
 
+  /// [SerializeField]
   /// @brief Field _useNonLocalizedName, offset: 0x20, size: 0x1, def value: None
   bool ____useNonLocalizedName;
 
+  /// [SerializeField]
   /// @brief Field _nonLocalizedName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____nonLocalizedName;
 
+  /// [SerializeField]
   /// @brief Field _isEditable, offset: 0x30, size: 0x1, def value: None
   bool ____isEditable;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _overrideNotes, offset: 0x31, size: 0x1, def value: None
   bool ____overrideNotes;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _saberAColor, offset: 0x34, size: 0x10, def value: None
   ::UnityEngine::Color ____saberAColor;
 
+  /// [SerializeField]
   /// @brief Field _saberBColor, offset: 0x44, size: 0x10, def value: None
   ::UnityEngine::Color ____saberBColor;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _obstaclesColor, offset: 0x54, size: 0x10, def value: None
   ::UnityEngine::Color ____obstaclesColor;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _overrideLights, offset: 0x64, size: 0x1, def value: None
   bool ____overrideLights;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _environmentColor0, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColor0;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor1, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColor1;
 
+  /// [SerializeField]
   /// @brief Field _environmentColorW, offset: 0x88, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColorW;
 
+  /// [SerializeField]
   /// @brief Field _supportsEnvironmentColorBoost, offset: 0x98, size: 0x1, def value: None
   bool ____supportsEnvironmentColorBoost;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor0Boost, offset: 0x9c, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColor0Boost;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor1Boost, offset: 0xac, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColor1Boost;
 
+  /// [SerializeField]
   /// @brief Field _environmentColorWBoost, offset: 0xbc, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColorWBoost;
 

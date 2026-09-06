@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerMoveEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerMoveEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ MARK_REF_T(::UnityEngine::UIElements::PointerMoveEvent*);
 MARK_REF_T(::UnityEngine::UIElements::PointerMoveEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerMoveEvent*, "UnityEngine.UIElements", "PointerMoveEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerMoveEvent___c*, "UnityEngine.UIElements", "PointerMoveEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -52,13 +53,13 @@ protected:
   constexpr PointerMoveEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerMoveEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerMoveEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerMoveEvent___c(PointerMoveEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerMoveEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerMoveEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerMoveEvent___c(PointerMoveEvent___c const&) = delete;
+  PointerMoveEvent___c(PointerMoveEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4542 };
@@ -69,6 +70,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::PointerMoveEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)2)]
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -110,6 +112,7 @@ public:
   /// @brief Method .ctor, addr 0x6da42b4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isHandledByDraggable, addr 0x6da40bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isHandledByDraggable();
 
@@ -119,6 +122,7 @@ public:
   /// @brief Method get_isPointerUp, addr 0x6da413c, size 0x74, virtual false, abstract: false, final false
   inline bool get_isPointerUp();
 
+  /// [CompilerGenerated]
   /// @brief Method set_isHandledByDraggable, addr 0x6da40c4, size 0x8, virtual false, abstract: false, final false
   inline void set_isHandledByDraggable(bool value);
 
@@ -128,17 +132,19 @@ protected:
   constexpr PointerMoveEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerMoveEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerMoveEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerMoveEvent(PointerMoveEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerMoveEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerMoveEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerMoveEvent(PointerMoveEvent const&) = delete;
+  PointerMoveEvent(PointerMoveEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4543 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isHandledByDraggable>k__BackingField, offset: 0xf4, size: 0x1, def value: None
   bool ____isHandledByDraggable_k__BackingField;
 

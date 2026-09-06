@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyNodeTypeHandlerBaseEnumerable.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeTypeHandlerBaseEnumerable.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNodeTypeHandlerBaseEnumerable_def.hpp"
 #include "System/Buffers/zzzz__IMemoryOwner_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -91,8 +91,8 @@ constexpr Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::o
 constexpr ::System::IDisposable* Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Handlers", ty: "::System::Buffers::IMemoryOwner_1<::System::IntPtr>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handlers", ty: "::System::Buffers::IMemoryOwner_1<::System::IntPtr>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Count", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator(::System::Buffers::IMemoryOwner_1<::System::IntPtr>* m_Handlers,
                                                                                                                                    int32_t m_Count, int32_t m_Index) noexcept {
   this->m_Handlers = m_Handlers;
@@ -138,7 +138,7 @@ inline ::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator Uni
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable>(), { "GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Hierarchy", ty: "::Unity::Hierarchy::Hierarchy*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Hierarchy", ty: "::Unity::Hierarchy::Hierarchy*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable::HierarchyNodeTypeHandlerBaseEnumerable(::Unity::Hierarchy::Hierarchy* m_Hierarchy) noexcept {
   this->m_Hierarchy = m_Hierarchy;
 }

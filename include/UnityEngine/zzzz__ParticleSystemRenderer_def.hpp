@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ParticleSystemRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/ParticleSystemRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,8 +92,8 @@ public:
   // @brief default ctor
   constexpr ParticleSystemRenderer_BakeTextureOutput();
 
-  // Ctor Parameters [CppParam { name: "vertices", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "indices", ty: "::UnityW<::UnityEngine::Texture2D>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vertices", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name: "indices", ty:
+  // "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }]
   constexpr ParticleSystemRenderer_BakeTextureOutput(::UnityW<::UnityEngine::Texture2D> vertices, ::UnityW<::UnityEngine::Texture2D> indices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -102,9 +102,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeName("first")]
   /// @brief Field vertices, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> vertices;
 
+  /// [NativeName("second")]
   /// @brief Field indices, offset: 0x8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> indices;
 
@@ -118,6 +120,10 @@ static_assert(offsetof(::UnityEngine::ParticleSystemRenderer_BakeTextureOutput, 
 static_assert(sizeof(::UnityEngine::ParticleSystemRenderer_BakeTextureOutput) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("ParticleSystemScriptingClasses.h")]
+// [NativeHeader("Modules/ParticleSystem/ParticleSystemRenderer.h")]
+// [NativeHeader("Modules/ParticleSystem/ScriptBindings/ParticleSystemRendererScriptBindings.h")]
+// [RequireComponent(typeof(UnityEngine.Transform))]
 // Dependencies UnityEngine.Renderer
 namespace UnityEngine {
 // Is value type: false
@@ -131,6 +137,7 @@ public:
 
   __declspec(property(get = get_activeVertexStreamsCount)) int32_t activeVertexStreamsCount;
 
+  /// @brief [NativeName("RenderAlignment")]
   __declspec(property(get = get_alignment, put = set_alignment)) ::UnityEngine::ParticleSystemRenderSpace alignment;
 
   __declspec(property(get = get_allowRoll, put = set_allowRoll)) bool allowRoll;
@@ -177,20 +184,23 @@ public:
 
   __declspec(property(get = get_velocityScale, put = set_velocityScale)) float_t velocityScale;
 
+  /// [Obsolete("AreVertexStreamsEnabled is deprecated. Use GetActiveVertexStreams instead.", false)]
   /// @brief Method AreVertexStreamsEnabled, addr 0x6b6a8c0, size 0x1c, virtual false, abstract: false, final false
   inline bool AreVertexStreamsEnabled(::UnityEngine::ParticleSystemVertexStreams streams);
 
-  /// @brief Method BakeMesh, addr 0x6b6affc, size 0x158, virtual false, abstract: false, final false
-  inline void BakeMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Camera* camera, ::UnityEngine::ParticleSystemBakeMeshOptions options);
-
+  /// [Obsolete("BakeMesh with useTransform is deprecated. Use BakeMesh with ParticleSystemBakeMeshOptions instead.", false)]
   /// @brief Method BakeMesh, addr 0x6b6afe8, size 0x14, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Camera* camera, bool useTransform);
 
   /// @brief Method BakeMesh, addr 0x6b6ddc0, size 0x38, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::ParticleSystemBakeMeshOptions options);
 
+  /// [Obsolete("BakeMesh with useTransform is deprecated. Use BakeMesh with ParticleSystemBakeMeshOptions instead.", false)]
   /// @brief Method BakeMesh, addr 0x6b6afa8, size 0x40, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh, bool useTransform);
+
+  /// @brief Method BakeMesh, addr 0x6b6affc, size 0x158, virtual false, abstract: false, final false
+  inline void BakeMesh(/* [NotNull] */ ::UnityEngine::Mesh* mesh, /* [NotNull] */ ::UnityEngine::Camera* camera, ::UnityEngine::ParticleSystemBakeMeshOptions options);
 
   /// @brief Method BakeMesh_Injected, addr 0x6b6ddf8, size 0x5c, virtual false, abstract: false, final false
   static inline void BakeMesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr mesh, ::System::IntPtr camera, ::UnityEngine::ParticleSystemBakeMeshOptions options);
@@ -208,34 +218,39 @@ public:
   /// @brief Method BakeTexture, addr 0x6b6dee8, size 0x38, virtual false, abstract: false, final false
   inline int32_t BakeTexture(::by_ref<::UnityEngine::Texture2D*> verticesTexture, ::UnityEngine::ParticleSystemBakeTextureOptions options);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::BakeTexture", HasExplicitThis = true)]
   /// @brief Method BakeTextureInternal, addr 0x6b6e2d8, size 0x174, virtual false, abstract: false, final false
-  inline ::UnityEngine::ParticleSystemRenderer_BakeTextureOutput BakeTextureInternal(::UnityEngine::Texture2D* verticesTexture, ::UnityEngine::Texture2D* indicesTexture, ::UnityEngine::Camera* camera,
-                                                                                     ::UnityEngine::ParticleSystemBakeTextureOptions options, ::by_ref<int32_t> indexCount);
+  inline ::UnityEngine::ParticleSystemRenderer_BakeTextureOutput BakeTextureInternal(::UnityEngine::Texture2D* verticesTexture, ::UnityEngine::Texture2D* indicesTexture,
+                                                                                     /* [NotNull] */ ::UnityEngine::Camera* camera, ::UnityEngine::ParticleSystemBakeTextureOptions options,
+                                                                                     ::by_ref<int32_t> indexCount);
 
   /// @brief Method BakeTextureInternal_Injected, addr 0x6b6e44c, size 0x84, virtual false, abstract: false, final false
   static inline void BakeTextureInternal_Injected(::System::IntPtr _unity_self, ::System::IntPtr verticesTexture, ::System::IntPtr indicesTexture, ::System::IntPtr camera,
                                                   ::UnityEngine::ParticleSystemBakeTextureOptions options, ::by_ref<int32_t> indexCount,
                                                   ::by_ref<::UnityEngine::ParticleSystemRenderer_BakeTextureOutput> ret);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::BakeTextureNoIndices", HasExplicitThis = true)]
   /// @brief Method BakeTextureNoIndicesInternal, addr 0x6b6dfcc, size 0x1fc, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture2D> BakeTextureNoIndicesInternal(::UnityEngine::Texture2D* verticesTexture, ::UnityEngine::Camera* camera,
+  inline ::UnityW<::UnityEngine::Texture2D> BakeTextureNoIndicesInternal(::UnityEngine::Texture2D* verticesTexture, /* [NotNull] */ ::UnityEngine::Camera* camera,
                                                                          ::UnityEngine::ParticleSystemBakeTextureOptions options, ::by_ref<int32_t> indexCount);
 
   /// @brief Method BakeTextureNoIndicesInternal_Injected, addr 0x6b6e1c8, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr BakeTextureNoIndicesInternal_Injected(::System::IntPtr _unity_self, ::System::IntPtr verticesTexture, ::System::IntPtr camera,
                                                                        ::UnityEngine::ParticleSystemBakeTextureOptions options, ::by_ref<int32_t> indexCount);
 
-  /// @brief Method BakeTrailsMesh, addr 0x6b6b1a8, size 0x158, virtual false, abstract: false, final false
-  inline void BakeTrailsMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Camera* camera, ::UnityEngine::ParticleSystemBakeMeshOptions options);
-
+  /// [Obsolete("BakeTrailsMesh with useTransform is deprecated. Use BakeTrailsMesh with ParticleSystemBakeMeshOptions instead.", false)]
   /// @brief Method BakeTrailsMesh, addr 0x6b6b194, size 0x14, virtual false, abstract: false, final false
   inline void BakeTrailsMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Camera* camera, bool useTransform);
 
   /// @brief Method BakeTrailsMesh, addr 0x6b6de54, size 0x38, virtual false, abstract: false, final false
   inline void BakeTrailsMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::ParticleSystemBakeMeshOptions options);
 
+  /// [Obsolete("BakeTrailsMesh with useTransform is deprecated. Use BakeTrailsMesh with ParticleSystemBakeMeshOptions instead.", false)]
   /// @brief Method BakeTrailsMesh, addr 0x6b6b154, size 0x40, virtual false, abstract: false, final false
   inline void BakeTrailsMesh(::UnityEngine::Mesh* mesh, bool useTransform);
+
+  /// @brief Method BakeTrailsMesh, addr 0x6b6b1a8, size 0x158, virtual false, abstract: false, final false
+  inline void BakeTrailsMesh(/* [NotNull] */ ::UnityEngine::Mesh* mesh, /* [NotNull] */ ::UnityEngine::Camera* camera, ::UnityEngine::ParticleSystemBakeMeshOptions options);
 
   /// @brief Method BakeTrailsMesh_Injected, addr 0x6b6de8c, size 0x5c, virtual false, abstract: false, final false
   static inline void BakeTrailsMesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr mesh, ::System::IntPtr camera, ::UnityEngine::ParticleSystemBakeMeshOptions options);
@@ -247,9 +262,10 @@ public:
   /// @brief Method BakeTrailsTexture, addr 0x6b6e4d0, size 0x64, virtual false, abstract: false, final false
   inline int32_t BakeTrailsTexture(::by_ref<::UnityEngine::Texture2D*> verticesTexture, ::by_ref<::UnityEngine::Texture2D*> indicesTexture, ::UnityEngine::ParticleSystemBakeTextureOptions options);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::BakeTrailsTexture", HasExplicitThis = true)]
   /// @brief Method BakeTrailsTextureInternal, addr 0x6b6e574, size 0x174, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemRenderer_BakeTextureOutput BakeTrailsTextureInternal(::UnityEngine::Texture2D* verticesTexture, ::UnityEngine::Texture2D* indicesTexture,
-                                                                                           ::UnityEngine::Camera* camera, ::UnityEngine::ParticleSystemBakeTextureOptions options,
+                                                                                           /* [NotNull] */ ::UnityEngine::Camera* camera, ::UnityEngine::ParticleSystemBakeTextureOptions options,
                                                                                            ::by_ref<int32_t> indexCount);
 
   /// @brief Method BakeTrailsTextureInternal_Injected, addr 0x6b6e6e8, size 0x84, virtual false, abstract: false, final false
@@ -257,55 +273,67 @@ public:
                                                         ::UnityEngine::ParticleSystemBakeTextureOptions options, ::by_ref<int32_t> indexCount,
                                                         ::by_ref<::UnityEngine::ParticleSystemRenderer_BakeTextureOutput> ret);
 
+  /// [Obsolete("DisableVertexStreams is deprecated. Use SetActiveVertexStreams instead.", false)]
   /// @brief Method DisableVertexStreams, addr 0x6b6a8b8, size 0x8, virtual false, abstract: false, final false
   inline void DisableVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams);
 
+  /// [Obsolete("EnableVertexStreams is deprecated. Use SetActiveVertexStreams instead.", false)]
   /// @brief Method EnableVertexStreams, addr 0x6b69cd4, size 0x8, virtual false, abstract: false, final false
   inline void EnableVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::GetActiveTrailVertexStreams", HasExplicitThis = true)]
   /// @brief Method GetActiveTrailVertexStreams, addr 0x6b6eb30, size 0x200, virtual false, abstract: false, final false
-  inline void GetActiveTrailVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
+  inline void GetActiveTrailVertexStreams(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
 
   /// @brief Method GetActiveTrailVertexStreams_Injected, addr 0x6b6ed30, size 0x44, virtual false, abstract: false, final false
   static inline void GetActiveTrailVertexStreams_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> streams);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::GetActiveVertexStreams", HasExplicitThis = true)]
   /// @brief Method GetActiveVertexStreams, addr 0x6b6aba8, size 0x200, virtual false, abstract: false, final false
-  inline void GetActiveVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
+  inline void GetActiveVertexStreams(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
 
   /// @brief Method GetActiveVertexStreams_Injected, addr 0x6b6e7ec, size 0x44, virtual false, abstract: false, final false
   static inline void GetActiveVertexStreams_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> streams);
 
+  /// [Obsolete("GetEnabledVertexStreams is deprecated. Use GetActiveVertexStreams instead.", false)]
   /// @brief Method GetEnabledVertexStreams, addr 0x6b6ab24, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemVertexStreams GetEnabledVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::GetMeshWeightings", HasExplicitThis = true)]
   /// @brief Method GetMeshWeightings, addr 0x6b6d9a0, size 0x190, virtual false, abstract: false, final false
-  inline int32_t GetMeshWeightings(::by_ref<::ArrayW<float_t>> weightings);
+  inline int32_t GetMeshWeightings(/* [NotNull] */ ::by_ref<::ArrayW<float_t>> weightings);
 
   /// @brief Method GetMeshWeightings_Injected, addr 0x6b6db30, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetMeshWeightings_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> weightings);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::GetMeshes", HasExplicitThis = true)]
+  /// [RequiredByNativeCode]
   /// @brief Method GetMeshes, addr 0x6b6d774, size 0xbc, virtual false, abstract: false, final false
-  inline int32_t GetMeshes(::by_ref<::ArrayW<::UnityEngine::Mesh*>> meshes);
+  inline int32_t GetMeshes(/* [NotNull] */ ::by_ref<::ArrayW<::UnityEngine::Mesh*>> meshes);
 
   /// @brief Method GetMeshes_Injected, addr 0x6b6d830, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetMeshes_Injected(::System::IntPtr _unity_self, ::by_ref<::ArrayW<::UnityEngine::Mesh*>> meshes);
 
+  /// [Obsolete("Internal_GetVertexStreams is deprecated. Use GetActiveVertexStreams instead.", false)]
   /// @brief Method Internal_GetEnabledVertexStreams, addr 0x6b6a8dc, size 0x248, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystemVertexStreams Internal_GetEnabledVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams);
 
+  /// [Obsolete("Internal_SetVertexStreams is deprecated. Use SetActiveVertexStreams instead.", false)]
   /// @brief Method Internal_SetVertexStreams, addr 0x6b69cdc, size 0xbdc, virtual false, abstract: false, final false
   inline void Internal_SetVertexStreams(::UnityEngine::ParticleSystemVertexStreams streams, bool enabled);
 
   static inline ::UnityEngine::ParticleSystemRenderer* New_ctor();
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::SetActiveTrailVertexStreams", HasExplicitThis = true)]
   /// @brief Method SetActiveTrailVertexStreams, addr 0x6b6e8ec, size 0x200, virtual false, abstract: false, final false
-  inline void SetActiveTrailVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
+  inline void SetActiveTrailVertexStreams(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
 
   /// @brief Method SetActiveTrailVertexStreams_Injected, addr 0x6b6eaec, size 0x44, virtual false, abstract: false, final false
   static inline void SetActiveTrailVertexStreams_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> streams);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::SetActiveVertexStreams", HasExplicitThis = true)]
   /// @brief Method SetActiveVertexStreams, addr 0x6b6ada8, size 0x200, virtual false, abstract: false, final false
-  inline void SetActiveVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
+  inline void SetActiveVertexStreams(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemVertexStream>* streams);
 
   /// @brief Method SetActiveVertexStreams_Injected, addr 0x6b6e7a8, size 0x44, virtual false, abstract: false, final false
   static inline void SetActiveVertexStreams_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> streams);
@@ -313,8 +341,9 @@ public:
   /// @brief Method SetMeshWeightings, addr 0x6b6dcf0, size 0x14, virtual false, abstract: false, final false
   inline void SetMeshWeightings(::ArrayW<float_t> weightings);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::SetMeshWeightings", HasExplicitThis = true)]
   /// @brief Method SetMeshWeightings, addr 0x6b6db74, size 0x128, virtual false, abstract: false, final false
-  inline void SetMeshWeightings(::ArrayW<float_t> weightings, int32_t size);
+  inline void SetMeshWeightings(/* [NotNull] */ ::ArrayW<float_t> weightings, int32_t size);
 
   /// @brief Method SetMeshWeightings_Injected, addr 0x6b6dc9c, size 0x54, virtual false, abstract: false, final false
   static inline void SetMeshWeightings_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> weightings, int32_t size);
@@ -322,8 +351,9 @@ public:
   /// @brief Method SetMeshes, addr 0x6b6d98c, size 0x14, virtual false, abstract: false, final false
   inline void SetMeshes(::ArrayW<::UnityEngine::Mesh*> meshes);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::SetMeshes", HasExplicitThis = true)]
   /// @brief Method SetMeshes, addr 0x6b6d874, size 0xc4, virtual false, abstract: false, final false
-  inline void SetMeshes(::ArrayW<::UnityEngine::Mesh*> meshes, int32_t size);
+  inline void SetMeshes(/* [NotNull] */ ::ArrayW<::UnityEngine::Mesh*> meshes, int32_t size);
 
   /// @brief Method SetMeshes_Injected, addr 0x6b6d938, size 0x54, virtual false, abstract: false, final false
   static inline void SetMeshes_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::Mesh*> meshes, int32_t size);
@@ -397,6 +427,7 @@ public:
   /// @brief Method get_maxParticleSize_Injected, addr 0x6b6c4e8, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_maxParticleSize_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::GetMesh", HasExplicitThis = true)]
   /// @brief Method get_mesh, addr 0x6b6d4e4, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
@@ -529,6 +560,7 @@ public:
   /// @brief Method set_maxParticleSize_Injected, addr 0x6b6c5b4, size 0x4c, virtual false, abstract: false, final false
   static inline void set_maxParticleSize_Injected(::System::IntPtr _unity_self, float_t value);
 
+  /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::SetMesh", HasExplicitThis = true)]
   /// @brief Method set_mesh, addr 0x6b6d670, size 0xc0, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
@@ -613,13 +645,13 @@ protected:
   constexpr ParticleSystemRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemRenderer(ParticleSystemRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemRenderer(ParticleSystemRenderer const&) = delete;
+  ParticleSystemRenderer(ParticleSystemRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21154 };

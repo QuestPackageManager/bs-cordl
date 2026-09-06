@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BTSCharacterSpawnController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BTSCharacterSpawnController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -146,26 +146,31 @@ protected:
   constexpr BTSCharacterSpawnController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BTSCharacterSpawnController(BTSCharacterSpawnController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BTSCharacterSpawnController(BTSCharacterSpawnController const&) = delete;
+  BTSCharacterSpawnController(BTSCharacterSpawnControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22013 };
 
+  /// [SerializeField]
   /// @brief Field _characterSpawnAnimationController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BTSCharacterSpawnAnimationController> ____characterSpawnAnimationController;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _btsCharacterSpawnEventEffect, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BTSCharacterSpawnEventEffect> ____btsCharacterSpawnEventEffect;
 
+  /// [Inject]
   /// @brief Field _gamePause, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
+  /// [Inject]
   /// @brief Field _levelEndActions, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____levelEndActions;
 

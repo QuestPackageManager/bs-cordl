@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UnitySynchronizationContext.hpp"
+// IWYU pragma private; include "UnityEngine/UnitySynchronizationContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,8 +54,9 @@ public:
   // @brief default ctor
   constexpr UnitySynchronizationContext_WorkRequest();
 
-  // Ctor Parameters [CppParam { name: "m_DelagateCallback", ty: "::System::Threading::SendOrPostCallback*", modifiers: "", def_value: None }, CppParam { name: "m_DelagateState", ty:
-  // "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "m_WaitHandle", ty: "::System::Threading::ManualResetEvent*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_DelagateCallback", ty: "::System::Threading::SendOrPostCallback*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DelagateState", ty:
+  // "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_WaitHandle", ty: "::System::Threading::ManualResetEvent*", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr UnitySynchronizationContext_WorkRequest(::System::Threading::SendOrPostCallback* m_DelagateCallback, ::System::Object* m_DelagateState,
                                                     ::System::Threading::ManualResetEvent* m_WaitHandle) noexcept;
 
@@ -117,15 +118,18 @@ public:
   /// @brief Method Exec, addr 0x6aeb960, size 0x1f8, virtual false, abstract: false, final false
   inline void Exec();
 
+  /// [RequiredByNativeCode]
   /// @brief Method ExecutePendingTasks, addr 0x6aebda0, size 0xe4, virtual false, abstract: false, final false
   static inline bool ExecutePendingTasks(int64_t millisecondsTimeout);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ExecuteTasks, addr 0x6aebd38, size 0x68, virtual false, abstract: false, final false
   static inline void ExecuteTasks();
 
   /// @brief Method HasPendingTasks, addr 0x6aebc24, size 0x68, virtual false, abstract: false, final false
   inline bool HasPendingTasks();
 
+  /// [RequiredByNativeCode]
   /// @brief Method InitializeSynchronizationContext, addr 0x6aebc8c, size 0xac, virtual false, abstract: false, final false
   static inline void InitializeSynchronizationContext();
 
@@ -184,13 +188,13 @@ protected:
   constexpr UnitySynchronizationContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnitySynchronizationContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnitySynchronizationContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnitySynchronizationContext(UnitySynchronizationContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnitySynchronizationContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnitySynchronizationContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnitySynchronizationContext(UnitySynchronizationContext const&) = delete;
+  UnitySynchronizationContext(UnitySynchronizationContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10381 };

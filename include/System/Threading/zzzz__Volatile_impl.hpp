@@ -1,22 +1,22 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Volatile.hpp"
+// IWYU pragma private; include "System/Threading/Volatile.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__Volatile_def.hpp"
 #include "System/Threading/zzzz__Volatile_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "Value", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Value", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Threading::Volatile_VolatileBoolean::Volatile_VolatileBoolean(bool Value) noexcept {
   this->Value = Value;
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Volatile_VolatileBoolean::Volatile_VolatileBoolean() {}
-// Ctor Parameters [CppParam { name: "Value", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Value", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Threading::Volatile_VolatileInt32::Volatile_VolatileInt32(int32_t Value) noexcept {
   this->Value = Value;
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Volatile_VolatileInt32::Volatile_VolatileInt32() {}
-// Ctor Parameters [CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Threading::Volatile_VolatileObject::Volatile_VolatileObject(::System::Object* Value) noexcept {
   this->Value = Value;
 }
@@ -117,13 +117,17 @@ inline void System::Threading::Volatile::Write(::by_ref<int32_t> location, int32
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Volatile*>(), { "Write", {}, { ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, location, value);
 }
-template <typename T> inline T System::Threading::Volatile::Read(::by_ref<T> location) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Threading::Volatile::Read(::by_ref<T> location) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Volatile*>(), { "Read", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, location);
 }
-template <typename T> inline void System::Threading::Volatile::Write(::by_ref<T> location, T value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline void System::Threading::Volatile::Write(::by_ref<T> location, T value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Volatile*>(), { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

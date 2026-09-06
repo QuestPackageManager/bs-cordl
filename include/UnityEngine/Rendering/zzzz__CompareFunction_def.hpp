@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CompareFunction.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CompareFunction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CompareFunction;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CompareFunction);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CompareFunction, "UnityEngine.Rendering", "CompareFunction");
+// [NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -49,7 +50,7 @@ public:
   // @brief default ctor
   constexpr CompareFunction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CompareFunction(int32_t value__) noexcept;
 
   /// @brief Field Always value: I32(8)

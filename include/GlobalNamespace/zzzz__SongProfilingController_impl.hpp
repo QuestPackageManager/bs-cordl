@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongProfilingController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongProfilingController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongProfilingController_def.hpp"
@@ -219,6 +219,7 @@ inline ::System::Object* GlobalNamespace::SongProfilingController__ProfileCorout
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11* GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11*>(__1__state));
 }

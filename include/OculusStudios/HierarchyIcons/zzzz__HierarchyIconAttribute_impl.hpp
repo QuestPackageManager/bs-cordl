@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\HierarchyIcons\HierarchyIconAttribute.hpp"
+// IWYU pragma private; include "OculusStudios/HierarchyIcons/HierarchyIconAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "OculusStudios/HierarchyIcons/zzzz__HierarchyIconAttribute_def.hpp"
@@ -111,8 +111,8 @@ constexpr void OculusStudios::HierarchyIcons::HierarchyIconAttribute::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___parentIconTint = value;
 }
-inline void OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor(::StringW gameObjectTooltip, ::StringW gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip,
-                                                                         ::StringW parentIconPath, ::StringW parentIconHex) {
+inline void OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip, /* [Nullable(1)] */ ::StringW gameObjectIconPath, ::StringW gameObjectIconHex,
+                                                                         ::StringW parentTooltip, ::StringW parentIconPath, ::StringW parentIconHex) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::HierarchyIcons::HierarchyIconAttribute*>(),
                                                                                          { ".ctor",
                                                                                            {},
@@ -120,8 +120,9 @@ inline void OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor(::Strin
                                                                                              ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gameObjectTooltip, gameObjectIconPath, gameObjectIconHex, parentTooltip, parentIconPath, parentIconHex);
 }
-inline void OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor(::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex,
-                                                                         ::StringW parentTooltip, ::OculusStudios::HierarchyIcons::Icon parentIconPath, ::StringW parentIconHex) {
+inline void OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath,
+                                                                         ::StringW gameObjectIconHex, ::StringW parentTooltip, ::OculusStudios::HierarchyIcons::Icon parentIconPath,
+                                                                         ::StringW parentIconHex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::HierarchyIcons::HierarchyIconAttribute*>(),
                                                            { ".ctor",
@@ -130,14 +131,17 @@ inline void OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor(::Strin
                                                                ::i2c::type_of<::StringW>(), ::i2c::type_of<::OculusStudios::HierarchyIcons::Icon>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gameObjectTooltip, gameObjectIconPath, gameObjectIconHex, parentTooltip, parentIconPath, parentIconHex);
 }
-inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* OculusStudios::HierarchyIcons::HierarchyIconAttribute::New_ctor(::StringW gameObjectTooltip, ::StringW gameObjectIconPath,
+/// @brief [NullableContext(2)]
+inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* OculusStudios::HierarchyIcons::HierarchyIconAttribute::New_ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip,
+                                                                                                                                /* [Nullable(1)] */ ::StringW gameObjectIconPath,
                                                                                                                                 ::StringW gameObjectIconHex, ::StringW parentTooltip,
                                                                                                                                 ::StringW parentIconPath, ::StringW parentIconHex) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::HierarchyIcons::HierarchyIconAttribute*>(gameObjectTooltip, gameObjectIconPath, gameObjectIconHex, parentTooltip,
                                                                                                                     parentIconPath, parentIconHex));
 }
+/// @brief [NullableContext(2)]
 inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute*
-OculusStudios::HierarchyIcons::HierarchyIconAttribute::New_ctor(::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex,
+OculusStudios::HierarchyIcons::HierarchyIconAttribute::New_ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex,
                                                                 ::StringW parentTooltip, ::OculusStudios::HierarchyIcons::Icon parentIconPath, ::StringW parentIconHex) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::HierarchyIcons::HierarchyIconAttribute*>(gameObjectTooltip, gameObjectIconPath, gameObjectIconHex, parentTooltip,
                                                                                                                     parentIconPath, parentIconHex));

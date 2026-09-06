@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeParallelMultiHashMapIterator_1.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeParallelMultiHashMapIterator_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,15 +8,19 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(NativeParallelMultiHashMapIterator_1)
 // Forward declare root types
 namespace Unity::Collections {
-template <typename TKey> struct NativeParallelMultiHashMapIterator_1;
+template <typename TKey>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
+struct NativeParallelMultiHashMapIterator_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeParallelMultiHashMapIterator_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelMultiHashMapIterator_1, "Unity.Collections", "NativeParallelMultiHashMapIterator`1");
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename TKey>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelMultiHashMapIterator`1<TKey>
 struct CORDL_TYPE NativeParallelMultiHashMapIterator_1 {
@@ -29,8 +33,8 @@ public:
   // @brief default ctor
   constexpr NativeParallelMultiHashMapIterator_1();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "NextEntryIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "EntryIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "key", ty: "TKey", modifiers: "", def_value: None, comment: None }, CppParam { name: "NextEntryIndex", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "EntryIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelMultiHashMapIterator_1(TKey key, int32_t NextEntryIndex, int32_t EntryIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

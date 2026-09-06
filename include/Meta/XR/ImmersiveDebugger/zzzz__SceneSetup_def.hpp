@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\SceneSetup.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/SceneSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,9 +19,13 @@ namespace Meta::XR::ImmersiveDebugger {
 class CORDL_TYPE SceneSetup : public ::System::Object {
 public:
   // Declarations
+  /// [RuntimeInitializeOnLoadMethod]
   /// @brief Method OnLoad, addr 0x5a42e98, size 0x5c, virtual false, abstract: false, final false
   static inline void OnLoad();
 
+  /// [Conditional("UNITY_EDITOR")]
+  /// [Conditional("DEBUG")]
+  /// [Conditional("IMMERSIVE_DEBUGGER_ALLOW_USE_IN_PROD")]
   /// @brief Method SetupImmersiveDebugger, addr 0x5a42ef4, size 0x34c, virtual false, abstract: false, final false
   static inline void SetupImmersiveDebugger();
 
@@ -31,13 +35,13 @@ protected:
   constexpr SceneSetup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneSetup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneSetup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneSetup(SceneSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneSetup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SceneSetup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SceneSetup(SceneSetup const&) = delete;
+  SceneSetup(SceneSetupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18336 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextProcessingElement.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextProcessingElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct TextProcessingElement;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextProcessingElement);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextProcessingElement, "UnityEngine.TextCore.Text", "TextProcessingElement");
+// [DebuggerDisplay("Unicode ({unicode})  \'{(char)unicode}\'")]
 // Dependencies UnityEngine.TextCore.Text.TextProcessingElementType
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -25,8 +26,9 @@ public:
   // @brief default ctor
   constexpr TextProcessingElement();
 
-  // Ctor Parameters [CppParam { name: "elementType", ty: "::UnityEngine::TextCore::Text::TextProcessingElementType", modifiers: "", def_value: None }, CppParam { name: "unicode", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "stringIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "elementType", ty: "::UnityEngine::TextCore::Text::TextProcessingElementType", modifiers: "", def_value: None, comment: None }, CppParam { name: "unicode", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "stringIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextProcessingElement(::UnityEngine::TextCore::Text::TextProcessingElementType elementType, uint32_t unicode, int32_t stringIndex, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

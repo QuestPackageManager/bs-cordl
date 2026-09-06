@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\AddToGameObjectComponentProviderBase.hpp"
+// IWYU pragma private; include "Zenject/AddToGameObjectComponentProviderBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_REF_T(::Zenject::AddToGameObjectComponentProviderBase*);
 MARK_REF_T(::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::AddToGameObjectComponentProviderBase*, "Zenject", "AddToGameObjectComponentProviderBase");
 DEFINE_IL2CPP_CLASS(::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0*, "Zenject", "AddToGameObjectComponentProviderBase/<>c__DisplayClass17_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -126,6 +127,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e85f9c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e85fe0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -138,13 +140,13 @@ protected:
   constexpr AddToGameObjectComponentProviderBase___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddToGameObjectComponentProviderBase___c__DisplayClass17_0(AddToGameObjectComponentProviderBase___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddToGameObjectComponentProviderBase___c__DisplayClass17_0(AddToGameObjectComponentProviderBase___c__DisplayClass17_0 const&) = delete;
+  AddToGameObjectComponentProviderBase___c__DisplayClass17_0(AddToGameObjectComponentProviderBase___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14538 };
@@ -185,6 +187,7 @@ static_assert(offsetof(::Zenject::AddToGameObjectComponentProviderBase___c__Disp
 static_assert(sizeof(::Zenject::AddToGameObjectComponentProviderBase___c__DisplayClass17_0) == 0x40, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -227,7 +230,7 @@ public:
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::by_ref<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetGameObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
   /// @brief Method GetInstanceType, addr 0x6e85a78, size 0x8, virtual true, abstract: false, final true
@@ -280,7 +283,7 @@ public:
   /// @brief Method get_IsCached, addr 0x6e85a58, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_ShouldToggleActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldToggleActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ShouldToggleActive();
 
   /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6e85a60, size 0x8, virtual true, abstract: false, final true
@@ -295,13 +298,13 @@ protected:
   constexpr AddToGameObjectComponentProviderBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddToGameObjectComponentProviderBase(AddToGameObjectComponentProviderBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddToGameObjectComponentProviderBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddToGameObjectComponentProviderBase(AddToGameObjectComponentProviderBase const&) = delete;
+  AddToGameObjectComponentProviderBase(AddToGameObjectComponentProviderBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14539 };

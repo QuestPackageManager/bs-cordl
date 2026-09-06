@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelSelectionOptions.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelSelectionOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,9 +26,9 @@ public:
   // @brief default ctor
   constexpr LevelSelectionOptions();
 
-  // Ctor Parameters [CppParam { name: "preferredCharacteristic", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapCharacteristic>", modifiers: "", def_value: None }, CppParam { name:
-  // "preferredDifficulty", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty>", modifiers: "", def_value: None }, CppParam { name: "sortAlphabetically", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "isFiltered", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "preferredCharacteristic", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapCharacteristic>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "preferredDifficulty", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sortAlphabetically", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "isFiltered", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr LevelSelectionOptions(::System::Nullable_1<::GlobalNamespace::BeatmapCharacteristic> preferredCharacteristic,
                                   ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> preferredDifficulty, bool sortAlphabetically, bool isFiltered) noexcept;
 

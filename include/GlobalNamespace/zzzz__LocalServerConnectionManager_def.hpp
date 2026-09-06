@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalServerConnectionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalServerConnectionManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -32,7 +33,9 @@ namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
 }
 namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
 class IConnectionManager;
@@ -156,7 +159,7 @@ public:
   // @brief default ctor
   constexpr LocalServerConnectionManager_ConnectionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LocalServerConnectionManager_ConnectionState(int32_t value__) noexcept;
 
   /// @brief Field Connected value: I32(2)
@@ -242,13 +245,13 @@ protected:
   constexpr LocalServerConnectionManager_LocalServerConnectionManagerParamsBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerParamsBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerParamsBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalServerConnectionManager_LocalServerConnectionManagerParamsBase(LocalServerConnectionManager_LocalServerConnectionManagerParamsBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerParamsBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerParamsBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerConnectionManager_LocalServerConnectionManagerParamsBase(LocalServerConnectionManager_LocalServerConnectionManagerParamsBase const&) = delete;
+  LocalServerConnectionManager_LocalServerConnectionManagerParamsBase(LocalServerConnectionManager_LocalServerConnectionManagerParamsBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18863 };
@@ -319,13 +322,13 @@ protected:
   constexpr LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams(LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams(LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams const&) = delete;
+  LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams(LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18864 };
@@ -369,13 +372,13 @@ protected:
   constexpr LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams(LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams(LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams const&) = delete;
+  LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams(LocalServerConnectionManager_LocalServerConnectionManagerStartClientParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18865 };
@@ -386,7 +389,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::LocalServerConnectionManager_LocalServerConnectionManagerStartClientParams) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, LocalServerConnectionManager::ConnectionState, System.Object
+// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, IConnectionManager, LocalServerConnectionManager::ConnectionState, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LocalServerConnectionManager
@@ -540,7 +543,9 @@ public:
   inline void HandleServerConnectionFailed(::GlobalNamespace::ConnectionFailedReason failedReason);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename T> inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+  inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
 
   /// @brief Method Log, addr 0x32adf20, size 0x8c, virtual false, abstract: false, final false
   inline void Log(::StringW log);
@@ -660,24 +665,31 @@ public:
   /// @brief Method .ctor, addr 0x32ad694, size 0x4d8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectionManager* connectionManager);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectedEvent, addr 0x32ac828, size 0xac, virtual true, abstract: false, final true
   inline void add_onConnectedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectionConnectedEvent, addr 0x32acc80, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectionDisconnectedEvent, addr 0x32ace00, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onConnectionFailedEvent, addr 0x32acb00, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onDisconnectedEvent, addr 0x32ac980, size 0xc0, virtual true, abstract: false, final true
   inline void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onInitializedEvent, addr 0x32ac6d0, size 0xac, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onReceivedDataEvent, addr 0x32acf80, size 0xc0, virtual true, abstract: false, final true
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
@@ -732,24 +744,31 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectedEvent, addr 0x32ac8d4, size 0xac, virtual true, abstract: false, final true
   inline void remove_onConnectedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectionConnectedEvent, addr 0x32acd40, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x32acec0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onConnectionFailedEvent, addr 0x32acbc0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onDisconnectedEvent, addr 0x32aca40, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onInitializedEvent, addr 0x32ac77c, size 0xac, virtual true, abstract: false, final true
   inline void remove_onInitializedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onReceivedDataEvent, addr 0x32ad040, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
@@ -759,35 +778,42 @@ protected:
   constexpr LocalServerConnectionManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalServerConnectionManager(LocalServerConnectionManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerConnectionManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerConnectionManager(LocalServerConnectionManager const&) = delete;
+  LocalServerConnectionManager(LocalServerConnectionManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18866 };
 
+  /// [CompilerGenerated]
   /// @brief Field onInitializedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___onInitializedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectedEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___onConnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onDisconnectedEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DisconnectedReason>* ___onDisconnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectionFailedEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* ___onConnectionFailedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectionConnectedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IConnection*>* ___onConnectionConnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onConnectionDisconnectedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* ___onConnectionDisconnectedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field onReceivedDataEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* ___onReceivedDataEvent;
 

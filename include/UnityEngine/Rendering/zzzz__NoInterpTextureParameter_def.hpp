@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpTextureParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpTextureParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class NoInterpTextureParameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::NoInterpTextureParameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::NoInterpTextureParameter*, "UnityEngine.Rendering", "NoInterpTextureParameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.VolumeParameter`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -37,13 +38,13 @@ protected:
   constexpr NoInterpTextureParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpTextureParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoInterpTextureParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoInterpTextureParameter(NoInterpTextureParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpTextureParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoInterpTextureParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoInterpTextureParameter(NoInterpTextureParameter const&) = delete;
+  NoInterpTextureParameter(NoInterpTextureParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12364 };

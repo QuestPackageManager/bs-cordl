@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -177,7 +177,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerController_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerController_State(int32_t value__) noexcept;
 
   /// @brief Field CheckingLobbyState value: I32(0)
@@ -218,6 +218,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerController_State, value__) 
 static_assert(sizeof(::GlobalNamespace::MultiplayerController_State) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -253,13 +254,13 @@ protected:
   constexpr MultiplayerController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerController___c(MultiplayerController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerController___c(MultiplayerController___c const&) = delete;
+  MultiplayerController___c(MultiplayerController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6134 };
@@ -270,6 +271,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::MultiplayerController___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -309,13 +311,13 @@ protected:
   constexpr MultiplayerController___c__DisplayClass45_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c__DisplayClass45_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c__DisplayClass45_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerController___c__DisplayClass45_0(MultiplayerController___c__DisplayClass45_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c__DisplayClass45_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerController___c__DisplayClass45_0(MultiplayerController___c__DisplayClass45_0 const&) = delete;
+  MultiplayerController___c__DisplayClass45_0(MultiplayerController___c__DisplayClass45_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6135 };
@@ -336,6 +338,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerController___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::MultiplayerController___c__DisplayClass45_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies MultiplayerPlayerStartState, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -374,17 +377,22 @@ public:
   /// @brief Method MoveNext, addr 0x59d4d64, size 0xa30, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59d6674, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59d667c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59d66b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59d4d60, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -418,6 +426,7 @@ public:
 
   constexpr void __cordl_internal_set_localPlayerSyncState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59d2b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -436,13 +445,13 @@ protected:
   constexpr MultiplayerController__PerformSongStartSync_d__39();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController__PerformSongStartSync_d__39", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController__PerformSongStartSync_d__39", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerController__PerformSongStartSync_d__39(MultiplayerController__PerformSongStartSync_d__39&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController__PerformSongStartSync_d__39", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController__PerformSongStartSync_d__39", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerController__PerformSongStartSync_d__39(MultiplayerController__PerformSongStartSync_d__39 const&) = delete;
+  MultiplayerController__PerformSongStartSync_d__39(MultiplayerController__PerformSongStartSync_d__39const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6136 };
@@ -642,6 +651,7 @@ public:
   /// @brief Method OnDestroy, addr 0x59d1ee4, size 0x758, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [IteratorStateMachine(typeof(MultiplayerController::<PerformSongStartSync>d__39))]
   /// @brief Method PerformSongStartSync, addr 0x59d2b34, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PerformSongStartSync(::GlobalNamespace::MultiplayerPlayerStartState localPlayerSyncState);
 
@@ -801,12 +811,14 @@ public:
   /// @brief Method .ctor, addr 0x59d4cb8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_stateChangedEvent, addr 0x59d144c, size 0xc0, virtual false, abstract: false, final false
   inline void add_stateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerController_State>* value);
 
   /// @brief Method get_state, addr 0x59d1444, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerController_State get_state();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_stateChangedEvent, addr 0x59d150c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_stateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerController_State>* value);
 
@@ -816,13 +828,13 @@ protected:
   constexpr MultiplayerController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerController(MultiplayerController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerController(MultiplayerController const&) = delete;
+  MultiplayerController(MultiplayerControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6137 };
@@ -839,54 +851,72 @@ public:
   /// @brief Field kSongTimeToSongStartSyncTimeOffsetMs offset 0xffffffff size 0x8
   static constexpr int64_t kSongTimeToSongStartSyncTimeOffsetMs{ static_cast<int64_t>(0xfffffffffffffda8) };
 
+  /// [SerializeField]
   /// @brief Field _loadingEnvironment, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____loadingEnvironment;
 
+  /// [Space]
+  /// [Inject]
   /// @brief Field _multiplayerLevelSceneSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* ____multiplayerLevelSceneSetupData;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
+  /// [Inject]
   /// @brief Field _playersManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____playersManager;
 
+  /// [Inject]
   /// @brief Field _sceneStartSyncController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SceneStartSyncController> ____sceneStartSyncController;
 
+  /// [Inject]
   /// @brief Field _songStartSyncController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongStartSyncController> ____songStartSyncController;
 
+  /// [Inject]
   /// @brief Field _multiplayerLevelFinishedController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> ____multiplayerLevelFinishedController;
 
+  /// [Inject]
   /// @brief Field _fadeInOutController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOutController;
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _introAnimationController, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerIntroAnimationController> ____introAnimationController;
 
+  /// [Inject]
   /// @brief Field _outroAnimationController, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerOutroAnimationController> ____outroAnimationController;
 
+  /// [Inject]
   /// @brief Field _menuRpcManager, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::IMenuRpcManager* ____menuRpcManager;
 
+  /// [Inject]
   /// @brief Field _gameplayRpcManager, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____gameplayRpcManager;
 
+  /// [Inject]
   /// @brief Field _sceneSetupData, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
+  /// [Inject]
   /// @brief Field _diContainer, offset: 0x90, size: 0x8, def value: None
   ::Zenject::DiContainer* ____diContainer;
 
+  /// [Inject]
   /// @brief Field _badgesProvider, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerBadgesProvider* ____badgesProvider;
 
+  /// [CompilerGenerated]
   /// @brief Field stateChangedEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerController_State>* ___stateChangedEvent;
 

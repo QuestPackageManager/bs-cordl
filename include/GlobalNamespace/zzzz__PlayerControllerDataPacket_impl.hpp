@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerControllerDataPacket.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerControllerDataPacket.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerActiveHand_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerControllerDataPacket_def.hpp"

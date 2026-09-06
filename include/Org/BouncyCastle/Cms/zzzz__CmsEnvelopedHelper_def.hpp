@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsEnvelopedHelper.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsEnvelopedHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,13 +134,13 @@ protected:
   constexpr CmsEnvelopedHelper_CmsAuthenticatedSecureReadable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsAuthenticatedSecureReadable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsAuthenticatedSecureReadable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsEnvelopedHelper_CmsAuthenticatedSecureReadable(CmsEnvelopedHelper_CmsAuthenticatedSecureReadable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsAuthenticatedSecureReadable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsAuthenticatedSecureReadable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsEnvelopedHelper_CmsAuthenticatedSecureReadable(CmsEnvelopedHelper_CmsAuthenticatedSecureReadable const&) = delete;
+  CmsEnvelopedHelper_CmsAuthenticatedSecureReadable(CmsEnvelopedHelper_CmsAuthenticatedSecureReadableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 638 };
@@ -231,13 +231,13 @@ protected:
   constexpr CmsEnvelopedHelper_CmsEnvelopedSecureReadable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsEnvelopedSecureReadable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsEnvelopedSecureReadable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsEnvelopedHelper_CmsEnvelopedSecureReadable(CmsEnvelopedHelper_CmsEnvelopedSecureReadable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsEnvelopedSecureReadable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper_CmsEnvelopedSecureReadable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsEnvelopedHelper_CmsEnvelopedSecureReadable(CmsEnvelopedHelper_CmsEnvelopedSecureReadable const&) = delete;
+  CmsEnvelopedHelper_CmsEnvelopedSecureReadable(CmsEnvelopedHelper_CmsEnvelopedSecureReadableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 639 };
@@ -328,13 +328,13 @@ protected:
   constexpr CmsEnvelopedHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsEnvelopedHelper(CmsEnvelopedHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsEnvelopedHelper(CmsEnvelopedHelper const&) = delete;
+  CmsEnvelopedHelper(CmsEnvelopedHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 640 };

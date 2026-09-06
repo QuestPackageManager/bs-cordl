@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\Unmarshal.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/Unmarshal.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__Unmarshal_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -16,7 +17,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Intero
     return ___internal_method;
   }
 };
-template <typename T> inline T UnityEngine::Bindings::Unmarshal::UnmarshalUnityObject(::System::IntPtr gcHandlePtr) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline T UnityEngine::Bindings::Unmarshal::UnmarshalUnityObject(::System::IntPtr gcHandlePtr) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::Unmarshal>(), { "UnmarshalUnityObject", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::IntPtr>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

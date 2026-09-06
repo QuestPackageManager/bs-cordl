@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SelectionBaseAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/SelectionBaseAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class SelectionBaseAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::SelectionBaseAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SelectionBaseAttribute*, "UnityEngine", "SelectionBaseAttribute");
+// [AttributeUsage((System.AttributeTargets)4, Inherited = true, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr SelectionBaseAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionBaseAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionBaseAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectionBaseAttribute(SelectionBaseAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectionBaseAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectionBaseAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectionBaseAttribute(SelectionBaseAttribute const&) = delete;
+  SelectionBaseAttribute(SelectionBaseAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10363 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\X509DefaultEntryConverter.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/X509DefaultEntryConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ protected:
   constexpr X509DefaultEntryConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509DefaultEntryConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509DefaultEntryConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509DefaultEntryConverter(X509DefaultEntryConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509DefaultEntryConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509DefaultEntryConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509DefaultEntryConverter(X509DefaultEntryConverter const&) = delete;
+  X509DefaultEntryConverter(X509DefaultEntryConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 404 };

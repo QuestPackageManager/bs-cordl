@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\OSPlatform.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/OSPlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct OSPlatform;
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::OSPlatform);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::OSPlatform, "System.Runtime.InteropServices", "OSPlatform");
+// [IsReadOnly]
 // Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
@@ -66,12 +67,15 @@ public:
 
   static inline ::System::Runtime::InteropServices::OSPlatform getStaticF__Windows_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Linux, addr 0x5b6bab0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform get_Linux();
 
+  /// [CompilerGenerated]
   /// @brief Method get_OSX, addr 0x5b6bb0c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform get_OSX();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Windows, addr 0x5b6bb68, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform get_Windows();
 
@@ -91,7 +95,7 @@ public:
   // @brief default ctor
   constexpr OSPlatform();
 
-  // Ctor Parameters [CppParam { name: "_osPlatform", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_osPlatform", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr OSPlatform(::StringW _osPlatform) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

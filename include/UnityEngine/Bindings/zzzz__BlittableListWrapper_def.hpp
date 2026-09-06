@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\BlittableListWrapper.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/BlittableListWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,9 @@ struct BlittableListWrapper;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Bindings::BlittableListWrapper);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::BlittableListWrapper, "UnityEngine.Bindings", "BlittableListWrapper");
+// [IsByRefLike]
+// [VisibleToOtherModules]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies UnityEngine.Bindings.BlittableArrayWrapper
 namespace UnityEngine::Bindings {
 // Is value type: true
@@ -28,7 +31,9 @@ struct CORDL_TYPE BlittableListWrapper {
 public:
   // Declarations
   /// @brief Method Unmarshal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Unmarshal(::System::Collections::Generic::List_1<T>* list);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Unmarshal(::System::Collections::Generic::List_1<T>* list);
 
   /// @brief Method .ctor, addr 0x6afeec0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::BlittableArrayWrapper arrayWrapper, int32_t listSize);
@@ -37,8 +42,8 @@ public:
   // @brief default ctor
   constexpr BlittableListWrapper();
 
-  // Ctor Parameters [CppParam { name: "arrayWrapper", ty: "::UnityEngine::Bindings::BlittableArrayWrapper", modifiers: "", def_value: None }, CppParam { name: "listSize", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "arrayWrapper", ty: "::UnityEngine::Bindings::BlittableArrayWrapper", modifiers: "", def_value: None, comment: None }, CppParam { name: "listSize", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BlittableListWrapper(::UnityEngine::Bindings::BlittableArrayWrapper arrayWrapper, int32_t listSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

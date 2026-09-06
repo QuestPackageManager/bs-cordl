@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Principal\IdentityNotMappedException.hpp"
+// IWYU pragma private; include "System/Security/Principal/IdentityNotMappedException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class IdentityNotMappedException;
 // Write type traits
 MARK_REF_T(::System::Security::Principal::IdentityNotMappedException*);
 DEFINE_IL2CPP_CLASS(::System::Security::Principal::IdentityNotMappedException*, "System.Security.Principal", "IdentityNotMappedException");
+// [ComVisible(false)]
 // Dependencies System.SystemException
 namespace System::Security::Principal {
 // Is value type: false
@@ -26,6 +27,7 @@ namespace System::Security::Principal {
 class CORDL_TYPE IdentityNotMappedException : public ::System::SystemException {
 public:
   // Declarations
+  /// [MonoTODO("not implemented")]
   /// @brief Method GetObjectData, addr 0x5b137d8, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -45,13 +47,13 @@ protected:
   constexpr IdentityNotMappedException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IdentityNotMappedException(IdentityNotMappedException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IdentityNotMappedException(IdentityNotMappedException const&) = delete;
+  IdentityNotMappedException(IdentityNotMappedExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3015 };

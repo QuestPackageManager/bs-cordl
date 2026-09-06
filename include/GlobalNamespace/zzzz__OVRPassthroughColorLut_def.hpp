@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPassthroughColorLut.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPassthroughColorLut.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,9 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJobParallelFor;
@@ -124,7 +126,7 @@ public:
   // @brief default ctor
   constexpr OVRPassthroughColorLut_ColorChannels();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRPassthroughColorLut_ColorChannels(int32_t value__) noexcept;
 
   /// @brief Field Rgb value: I32(1)
@@ -170,8 +172,9 @@ public:
   // @brief default ctor
   constexpr OVRPassthroughColorLut_WriteColorsAsBytesJob();
 
-  // Ctor Parameters [CppParam { name: "target", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "source", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Color>", modifiers: "", def_value: None }, CppParam { name: "channelCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "target", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "source", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Color>", modifiers: "", def_value: None, comment: None }, CppParam { name: "channelCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr OVRPassthroughColorLut_WriteColorsAsBytesJob(::Unity::Collections::NativeArray_1<uint8_t> target, ::Unity::Collections::NativeArray_1<::UnityEngine::Color> source,
                                                          int32_t channelCount) noexcept;
 
@@ -181,9 +184,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [NativeDisableParallelForRestriction]
+  /// [WriteOnly]
   /// @brief Field target, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> target;
 
+  /// [NativeDisableParallelForRestriction]
+  /// [ReadOnly]
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Color> source;
 
@@ -224,21 +231,33 @@ public:
   /// @brief Method .ctor, addr 0x5f19f80, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t resolution, int32_t slicesPerRow, int32_t channelCount, bool flipY);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_ChannelCount, addr 0x5f1a048, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ChannelCount();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_FlipY, addr 0x5f1a050, size 0x8, virtual false, abstract: false, final false
   inline bool get_FlipY();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Height, addr 0x5f1a030, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Height();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Resolution, addr 0x5f1a038, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Resolution();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_SlicesPerRow, addr 0x5f1a040, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SlicesPerRow();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Width, addr 0x5f1a028, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Width();
 
@@ -246,9 +265,10 @@ public:
   // @brief default ctor
   constexpr ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings();
 
-  // Ctor Parameters [CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_Height_k__BackingField", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "_Resolution_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_SlicesPerRow_k__BackingField", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "_ChannelCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_FlipY_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Width_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Height_k__BackingField", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_Resolution_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_SlicesPerRow_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ChannelCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_FlipY_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings(int32_t _Width_k__BackingField, int32_t _Height_k__BackingField, int32_t _Resolution_k__BackingField,
                                                                             int32_t _SlicesPerRow_k__BackingField, int32_t _ChannelCount_k__BackingField, bool _FlipY_k__BackingField) noexcept;
 
@@ -258,21 +278,27 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Width>k__BackingField, offset: 0x0, size: 0x4, def value: None
   int32_t _Width_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Height>k__BackingField, offset: 0x4, size: 0x4, def value: None
   int32_t _Height_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Resolution>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _Resolution_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <SlicesPerRow>k__BackingField, offset: 0xc, size: 0x4, def value: None
   int32_t _SlicesPerRow_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ChannelCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t _ChannelCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FlipY>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool _FlipY_k__BackingField;
 
@@ -314,9 +340,9 @@ public:
   // @brief default ctor
   constexpr ColorLutTextureConverter_OVRPassthroughColorLut_MapColorValuesJob();
 
-  // Ctor Parameters [CppParam { name: "settings", ty: "::GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings", modifiers: "", def_value: None }, CppParam { name:
-  // "target", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "settings", ty: "::GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "target", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "source", ty: "::Unity::Collections::NativeArray_1<uint8_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ColorLutTextureConverter_OVRPassthroughColorLut_MapColorValuesJob(::GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings settings,
                                                                               ::Unity::Collections::NativeArray_1<uint8_t> target, ::Unity::Collections::NativeArray_1<uint8_t> source) noexcept;
 
@@ -329,9 +355,13 @@ public:
   /// @brief Field settings, offset: 0x0, size: 0x18, def value: None
   ::GlobalNamespace::ColorLutTextureConverter_OVRPassthroughColorLut_TextureSettings settings;
 
+  /// [NativeDisableParallelForRestriction]
+  /// [WriteOnly]
   /// @brief Field target, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> target;
 
+  /// [NativeDisableParallelForRestriction]
+  /// [ReadOnly]
   /// @brief Field source, offset: 0x28, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> source;
 
@@ -377,13 +407,13 @@ protected:
   constexpr OVRPassthroughColorLut_ColorLutTextureConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut_ColorLutTextureConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut_ColorLutTextureConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughColorLut_ColorLutTextureConverter(OVRPassthroughColorLut_ColorLutTextureConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut_ColorLutTextureConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut_ColorLutTextureConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughColorLut_ColorLutTextureConverter(OVRPassthroughColorLut_ColorLutTextureConverter const&) = delete;
+  OVRPassthroughColorLut_ColorLutTextureConverter(OVRPassthroughColorLut_ColorLutTextureConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8008 };
@@ -424,7 +454,7 @@ public:
   // @brief default ctor
   constexpr OVRPassthroughColorLut_CreateState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRPassthroughColorLut_CreateState(int32_t value__) noexcept;
 
   /// @brief Field Created value: I32(2)
@@ -453,6 +483,8 @@ static_assert(offsetof(::GlobalNamespace::OVRPassthroughColorLut_CreateState, va
 static_assert(sizeof(::GlobalNamespace::OVRPassthroughColorLut_CreateState) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-customize-passthrough-color-mapping/#color-look-up-tables-luts")]
+// [Feature((Meta.XR.Util.Feature)6)]
 // Dependencies OVRPassthroughColorLut::ColorChannels, OVRPassthroughColorLut::CreateState, OVRPlugin::PassthroughColorLutData, System.Object, System.Runtime.InteropServices.GCHandle
 namespace GlobalNamespace {
 // Is value type: false
@@ -470,6 +502,7 @@ public:
 
   __declspec(property(get = get_Channels, put = set_Channels)) ::GlobalNamespace::OVRPassthroughColorLut_ColorChannels Channels;
 
+  /// @brief [Obsolete("IsInitialized is deprecated. Use IsValid instead.", false)]
   __declspec(property(get = get_IsInitialized)) bool IsInitialized;
 
   __declspec(property(get = get_IsValid)) bool IsValid;
@@ -676,6 +709,7 @@ public:
   /// @brief Method .ctor, addr 0x5f18240, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, ::GlobalNamespace::OVRPassthroughColorLut_ColorChannels channels);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Channels, addr 0x5f18004, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPassthroughColorLut_ColorChannels get_Channels();
 
@@ -685,15 +719,18 @@ public:
   /// @brief Method get_IsValid, addr 0x5f18024, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Resolution, addr 0x5f17ff4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Resolution();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Channels, addr 0x5f1800c, size 0x8, virtual false, abstract: false, final false
   inline void set_Channels(::GlobalNamespace::OVRPassthroughColorLut_ColorChannels value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Resolution, addr 0x5f17ffc, size 0x8, virtual false, abstract: false, final false
   inline void set_Resolution(uint32_t value);
 
@@ -703,13 +740,13 @@ protected:
   constexpr OVRPassthroughColorLut();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPassthroughColorLut(OVRPassthroughColorLut&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPassthroughColorLut", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPassthroughColorLut(OVRPassthroughColorLut const&) = delete;
+  OVRPassthroughColorLut(OVRPassthroughColorLutconst&) = delete;
 
   /// @brief Field RecomendedBatchSize offset 0xffffffff size 0x4
   static constexpr int32_t RecomendedBatchSize{ static_cast<int32_t>(0x80) };
@@ -717,9 +754,11 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8010 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Resolution>k__BackingField, offset: 0x10, size: 0x4, def value: None
   uint32_t ____Resolution_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Channels>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::OVRPassthroughColorLut_ColorChannels ____Channels_k__BackingField;
 

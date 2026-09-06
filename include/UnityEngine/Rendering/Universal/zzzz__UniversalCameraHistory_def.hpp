@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalCameraHistory.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalCameraHistory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ContextItem_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -74,13 +75,13 @@ protected:
   constexpr UniversalCameraHistory_TypeId_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory_TypeId_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory_TypeId_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalCameraHistory_TypeId_1(UniversalCameraHistory_TypeId_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory_TypeId_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory_TypeId_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalCameraHistory_TypeId_1(UniversalCameraHistory_TypeId_1 const&) = delete;
+  UniversalCameraHistory_TypeId_1(UniversalCameraHistory_TypeId_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12997 };
@@ -103,8 +104,8 @@ public:
   // @brief default ctor
   constexpr UniversalCameraHistory_Item();
 
-  // Ctor Parameters [CppParam { name: "storage", ty: "::UnityEngine::Rendering::ContextItem*", modifiers: "", def_value: None }, CppParam { name: "requestVersion", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "writeVersion", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "storage", ty: "::UnityEngine::Rendering::ContextItem*", modifiers: "", def_value: None, comment: None }, CppParam { name: "requestVersion", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "writeVersion", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UniversalCameraHistory_Item(::UnityEngine::Rendering::ContextItem* storage, int32_t requestVersion, int32_t writeVersion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -134,7 +135,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalCameraHisto
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalCameraHistory_Item) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
-// Dependencies System.Object, UnityEngine.Rendering.Universal.UniversalCameraHistory::Item
+// Dependencies System.Object, UnityEngine.Rendering.ContextItem, UnityEngine.Rendering.Universal.UniversalCameraHistory::Item
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.UniversalCameraHistory
@@ -180,13 +181,19 @@ public:
   inline void GatherHistoryRequests();
 
   /// @brief Method GetHistoryForRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename Type> inline Type GetHistoryForRead();
+  template <typename Type>
+    requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
+  inline Type GetHistoryForRead();
 
   /// @brief Method GetHistoryForWrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename Type> inline Type GetHistoryForWrite();
+  template <typename Type>
+    requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<Type>)
+  inline Type GetHistoryForWrite();
 
   /// @brief Method IsAccessRequested, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename Type> inline bool IsAccessRequested();
+  template <typename Type>
+    requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
+  inline bool IsAccessRequested();
 
   /// @brief Method IsValid, addr 0x68c9dcc, size 0x40, virtual false, abstract: false, final false
   inline bool IsValid(int32_t i);
@@ -195,7 +202,9 @@ public:
   inline bool IsValidRequest(int32_t i);
 
   /// @brief Method IsWritten, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename Type> inline bool IsWritten();
+  template <typename Type>
+    requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
+  inline bool IsWritten();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalCameraHistory* New_ctor();
 
@@ -203,7 +212,9 @@ public:
   inline void ReleaseUnusedHistory();
 
   /// @brief Method RequestAccess, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  template <typename Type> inline void RequestAccess();
+  template <typename Type>
+    requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
+  inline void RequestAccess();
 
   /// @brief Method SwapAndSetReferenceSize, addr 0x68c9ec8, size 0x18, virtual false, abstract: false, final false
   inline void SwapAndSetReferenceSize(int32_t cameraWidth, int32_t cameraHeight);
@@ -235,6 +246,7 @@ public:
   /// @brief Method .ctor, addr 0x68c9bbc, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnGatherHistoryRequests, addr 0x68c9a64, size 0xac, virtual true, abstract: false, final true
   inline void add_OnGatherHistoryRequests(::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* value);
 
@@ -252,6 +264,7 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IPerFrameHistoryAccessTracker"
   constexpr ::UnityEngine::Rendering::IPerFrameHistoryAccessTracker* i___UnityEngine__Rendering__IPerFrameHistoryAccessTracker() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnGatherHistoryRequests, addr 0x68c9b10, size 0xac, virtual true, abstract: false, final true
   inline void remove_OnGatherHistoryRequests(::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* value);
 
@@ -263,13 +276,13 @@ protected:
   constexpr UniversalCameraHistory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalCameraHistory(UniversalCameraHistory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalCameraHistory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalCameraHistory(UniversalCameraHistory const&) = delete;
+  UniversalCameraHistory(UniversalCameraHistoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12999 };
@@ -286,6 +299,7 @@ public:
   /// @brief Field m_HistoryTextures, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::BufferedRTHandleSystem* ___m_HistoryTextures;
 
+  /// [CompilerGenerated]
   /// @brief Field OnGatherHistoryRequests, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* ___OnGatherHistoryRequests;
 

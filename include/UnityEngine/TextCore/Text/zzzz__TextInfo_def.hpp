@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ class TextInfo;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Text::TextInfo*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextInfo*, "UnityEngine.TextCore.Text", "TextInfo");
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object, UnityEngine.TextCore.Text.LineInfo, UnityEngine.TextCore.Text.LinkInfo, UnityEngine.TextCore.Text.MeshInfo, UnityEngine.TextCore.Text.PageInfo,
 // UnityEngine.TextCore.Text.TextElementInfo, UnityEngine.TextCore.Text.VertexDataLayout, UnityEngine.TextCore.Text.WordInfo, UnityEngine.Vector2
 namespace UnityEngine::TextCore::Text {
@@ -113,6 +114,7 @@ public:
   /// @brief Field wordInfo, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo)) ::ArrayW<::UnityEngine::TextCore::Text::WordInfo> wordInfo;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method Clear, addr 0x6c119f8, size 0x58, virtual false, abstract: false, final false
   inline void Clear();
 
@@ -308,6 +310,7 @@ public:
 
   static inline ::UnityEngine::Vector2 getStaticF_s_InfinityVectorPositive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_vertexDataLayout, addr 0x6c119e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::VertexDataLayout get_vertexDataLayout();
 
@@ -315,6 +318,7 @@ public:
 
   static inline void setStaticF_s_InfinityVectorPositive(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_vertexDataLayout, addr 0x6c119f0, size 0x8, virtual false, abstract: false, final false
   inline void set_vertexDataLayout(::UnityEngine::TextCore::Text::VertexDataLayout value);
 
@@ -324,13 +328,13 @@ protected:
   constexpr TextInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextInfo(TextInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextInfo(TextInfo const&) = delete;
+  TextInfo(TextInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17278 };
@@ -383,6 +387,8 @@ public:
   /// @brief Field removedFromCache, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___removedFromCache;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <vertexDataLayout>k__BackingField, offset: 0x70, size: 0x4, def value: None
   ::UnityEngine::TextCore::Text::VertexDataLayout ____vertexDataLayout_k__BackingField;
 

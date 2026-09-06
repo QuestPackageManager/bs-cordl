@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMetricsToolSDK.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMetricsToolSDK.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMetricsToolSDK_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMetricsToolSDK_def.hpp"
@@ -7,41 +7,47 @@
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaClass_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
-// Ctor Parameters [CppParam { name: "time", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "available_memory_MB", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "app_pss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "battery_level_percentage", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "battery_temperature_celcius", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "battery_current_now_milliamps", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "sensor_temperature_celcius", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "power_current", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "power_level_state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "power_voltage", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "power_wattage", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cpu_level", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpu_level", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cpu_frequency_MHz", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpu_frequency_MHz", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "mem_frequency_MHz", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minimum_vsyncs", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "extra_latency_mode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "average_frame_rate", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "display_refresh_rate", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "average_prediction_milliseconds", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "screen_tear_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "early_frame_count", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "stale_frame_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maximum_rotational_speed_degrees_per_second", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "foveation_level", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "eye_buffer_width", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "eye_buffer_height", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "app_gpu_time_microseconds", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "timewarp_gpu_time_microseconds", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "guardian_gpu_time_microseconds",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cpu_utilization_percentage", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "cpu_utilization_percentage_core0", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cpu_utilization_percentage_core1", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cpu_utilization_percentage_core2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cpu_utilization_percentage_core3", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "cpu_utilization_percentage_core4", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cpu_utilization_percentage_core5", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cpu_utilization_percentage_core6", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "cpu_utilization_percentage_core7", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpu_utilization_percentage", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "spacewarp_motion_vector_type", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "spacewarped_frames_per_second", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "app_vss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "app_rss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "app_dalvik_pss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "app_private_dirty_MB", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "app_private_clean_MB", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "app_uss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "stale_frames_consecutive", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "avg_vertices_per_frame", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "avg_fill_percentage", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "avg_inst_per_frag", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "avg_inst_per_vert", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "avg_textures_per_frag", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "percent_time_shading_frags", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "percent_time_shading_verts", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "percent_time_compute", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "percent_vertex_fetch_stall", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "percent_texture_fetch_stall", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "percent_texture_l1_miss", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "percent_texture_l2_miss", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "percent_texture_nearest_filtered", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "percent_texture_linear_filtered", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "percent_texture_anisotropic_filtered", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "vrshell_average_frame_rate", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vrshell_gpu_time_microseconds", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vrshell_and_guardian_gpu_time_microseconds", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "time", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "available_memory_MB", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "app_pss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "battery_level_percentage", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "battery_temperature_celcius", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "battery_current_now_milliamps", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sensor_temperature_celcius", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "power_current", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "power_level_state", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "power_voltage", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "power_wattage", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cpu_level", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gpu_level", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cpu_frequency_MHz", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "gpu_frequency_MHz", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mem_frequency_MHz", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "minimum_vsyncs", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "extra_latency_mode", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "average_frame_rate", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "display_refresh_rate", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "average_prediction_milliseconds", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "screen_tear_count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "early_frame_count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "stale_frame_count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maximum_rotational_speed_degrees_per_second", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "foveation_level", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "eye_buffer_width",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "eye_buffer_height", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "app_gpu_time_microseconds", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "timewarp_gpu_time_microseconds", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "guardian_gpu_time_microseconds", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cpu_utilization_percentage",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cpu_utilization_percentage_core0", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "cpu_utilization_percentage_core1", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cpu_utilization_percentage_core2", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cpu_utilization_percentage_core3", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cpu_utilization_percentage_core4", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cpu_utilization_percentage_core5", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "cpu_utilization_percentage_core6", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cpu_utilization_percentage_core7", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gpu_utilization_percentage", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "spacewarp_motion_vector_type", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "spacewarped_frames_per_second",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "app_vss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "app_rss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "app_dalvik_pss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "app_private_dirty_MB", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "app_private_clean_MB", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "app_uss_MB", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stale_frames_consecutive", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "avg_vertices_per_frame", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "avg_fill_percentage", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "avg_inst_per_frag", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "avg_inst_per_vert", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "avg_textures_per_frag", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "percent_time_shading_frags", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "percent_time_shading_verts", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "percent_time_compute", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "percent_vertex_fetch_stall", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "percent_texture_fetch_stall", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "percent_texture_l1_miss", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "percent_texture_l2_miss", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "percent_texture_nearest_filtered", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "percent_texture_linear_filtered", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "percent_texture_anisotropic_filtered", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "vrshell_average_frame_rate", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "vrshell_gpu_time_microseconds", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "vrshell_and_guardian_gpu_time_microseconds", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRMetricsToolSDK_MetricsSnapshot::OVRMetricsToolSDK_MetricsSnapshot(
     int64_t time, int32_t available_memory_MB, int32_t app_pss_MB, int32_t battery_level_percentage, int32_t battery_temperature_celcius, int32_t battery_current_now_milliamps,
     int32_t sensor_temperature_celcius, int32_t power_current, int32_t power_level_state, int32_t power_voltage, int32_t power_wattage, int32_t cpu_level, int32_t gpu_level, int32_t cpu_frequency_MHz,

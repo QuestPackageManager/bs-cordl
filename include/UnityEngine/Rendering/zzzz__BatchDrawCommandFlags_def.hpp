@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchDrawCommandFlags.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchDrawCommandFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct BatchDrawCommandFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchDrawCommandFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BatchDrawCommandFlags, "UnityEngine.Rendering", "BatchDrawCommandFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -49,7 +50,7 @@ public:
   // @brief default ctor
   constexpr BatchDrawCommandFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BatchDrawCommandFlags(int32_t value__) noexcept;
 
   /// @brief Field FlipWinding value: I32(1)

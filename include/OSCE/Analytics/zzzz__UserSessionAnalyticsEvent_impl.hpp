@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\UserSessionAnalyticsEvent.hpp"
+// IWYU pragma private; include "OSCE/Analytics/UserSessionAnalyticsEvent.hpp"
 #include "OSCE/Analytics/zzzz__BaseAnalyticsEvent_impl.hpp"
 #include "OSCE/Analytics/zzzz__UserSessionAnalyticsEvent_def.hpp"
 #include "GlobalNamespace/zzzz__IDType_def.hpp"

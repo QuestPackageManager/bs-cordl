@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CoreUnsafeUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CoreUnsafeUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Hash128_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -13,7 +16,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering {
 template <typename T> struct CoreUnsafeUtils_DefaultKeyGetter_1;
@@ -86,9 +91,12 @@ public:
   /// @brief Method .ctor, addr 0x6757334, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(uint8_t* ptr, int32_t length);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Count, addr 0x6757324, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Count, addr 0x675732c, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
@@ -96,9 +104,10 @@ public:
   // @brief default ctor
   constexpr CoreUnsafeUtils_FixedBufferStringQueue();
 
-  // Ctor Parameters [CppParam { name: "m_ReadCursor", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_WriteCursor", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam {
-  // name: "m_BufferEnd", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_BufferStart", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_BufferLength", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "_Count_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ReadCursor", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_WriteCursor", ty: "uint8_t*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_BufferEnd", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BufferStart", ty: "uint8_t*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_BufferLength", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Count_k__BackingField", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr CoreUnsafeUtils_FixedBufferStringQueue(uint8_t* m_ReadCursor, uint8_t* m_WriteCursor, uint8_t* m_BufferEnd, uint8_t* m_BufferStart, int32_t m_BufferLength,
                                                    int32_t _Count_k__BackingField) noexcept;
 
@@ -123,6 +132,7 @@ public:
   /// @brief Field m_BufferLength, offset: 0x20, size: 0x4, def value: None
   int32_t m_BufferLength;
 
+  /// [CompilerGenerated]
   /// @brief Field <Count>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t _Count_k__BackingField;
 
@@ -153,12 +163,12 @@ template <typename TValue, typename TKey>
 class CORDL_TYPE CoreUnsafeUtils_IKeyGetter_2 {
 public:
   // Declarations
-  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TKey Get(::by_ref<TValue> v);
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUnsafeUtils_IKeyGetter_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUnsafeUtils_IKeyGetter_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUnsafeUtils_IKeyGetter_2(CoreUnsafeUtils_IKeyGetter_2 const&) = delete;
+  CoreUnsafeUtils_IKeyGetter_2(CoreUnsafeUtils_IKeyGetter_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11896 };
@@ -275,7 +285,8 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::CoreUnsafeUtils_UlongKeyGetter) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.IComparable`1<T>, System.IEquatable`1<T>, System.Object, UnityEngine.Hash128, UnityEngine.Rendering.CoreUnsafeUtils::IKeyGetter`2<TValue, TKey>
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.CoreUnsafeUtils
@@ -306,7 +317,11 @@ public:
   static inline void CombineHashes(int32_t count, ::UnityEngine::Hash128* hashes, ::UnityEngine::Hash128* outHash);
 
   /// @brief Method CombineHashes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue, typename TGetter> static inline void CombineHashes(int32_t count, void* hashes, ::UnityEngine::Hash128* outHash);
+  template <typename TValue, typename TGetter>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+             ::cordl_internals::type_constraint<TGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TValue, ::UnityEngine::Hash128>*> &&
+             ::cordl_internals::value_type_constraint<TGetter> && ::cordl_internals::default_constructor_constraint<TGetter>)
+  static inline void CombineHashes(int32_t count, void* hashes, ::UnityEngine::Hash128* outHash);
 
   /// @brief Method CompareHashes, addr 0x67570c0, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t CompareHashes(int32_t oldHashCount, ::UnityEngine::Hash128* oldHashes, int32_t newHashCount, ::UnityEngine::Hash128* newHashes, int32_t* addIndices, int32_t* removeIndices,
@@ -314,20 +329,34 @@ public:
 
   /// @brief Method CompareHashes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TOldValue, typename TOldGetter, typename TNewValue, typename TNewGetter>
+    requires(::cordl_internals::value_type_constraint<TOldValue> && ::cordl_internals::default_constructor_constraint<TOldValue> &&
+             ::cordl_internals::type_constraint<TOldGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TOldValue, ::UnityEngine::Hash128>*> &&
+             ::cordl_internals::value_type_constraint<TOldGetter> && ::cordl_internals::default_constructor_constraint<TOldGetter> && ::cordl_internals::value_type_constraint<TNewValue> &&
+             ::cordl_internals::default_constructor_constraint<TNewValue> &&
+             ::cordl_internals::type_constraint<TNewGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TNewValue, ::UnityEngine::Hash128>*> &&
+             ::cordl_internals::value_type_constraint<TNewGetter> && ::cordl_internals::default_constructor_constraint<TNewGetter>)
   static inline int32_t CompareHashes(int32_t oldHashCount, void* oldHashes, int32_t newHashCount, void* newHashes, int32_t* addIndices, int32_t* removeIndices, ::by_ref<int32_t> addCount,
                                       ::by_ref<int32_t> remCount);
 
+  /// [Extension]
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void CopyTo(::ArrayW<T> list, void* dest, int32_t count);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void CopyTo(::ArrayW<T> list, void* dest, int32_t count);
 
+  /// [Extension]
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void CopyTo(::System::Collections::Generic::List_1<T>* list, void* dest, int32_t count);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void CopyTo(::System::Collections::Generic::List_1<T>* list, void* dest, int32_t count);
 
   /// @brief Method HaveDuplicates, addr 0x67571cc, size 0x158, virtual false, abstract: false, final false
   static inline bool HaveDuplicates(::ArrayW<int32_t> arr);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t IndexOf(void* data, int32_t count, T v);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t IndexOf(void* data, int32_t count, T v);
 
   /// @brief Method InsertionSort, addr 0x6756a68, size 0x94, virtual false, abstract: false, final false
   static inline void InsertionSort(::ArrayW<uint32_t> arr, int32_t sortSize);
@@ -348,7 +377,12 @@ public:
   static inline void MergeSort(uint32_t* array, uint32_t* support, int32_t length);
 
   /// @brief Method Partition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue, typename TKey, typename TGetter> static inline int32_t Partition(void* data, int32_t left, int32_t right);
+  template <typename TValue, typename TKey, typename TGetter>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+             ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+             ::cordl_internals::type_constraint<TGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TValue, TKey>*> && ::cordl_internals::value_type_constraint<TGetter> &&
+             ::cordl_internals::default_constructor_constraint<TGetter>)
+  static inline int32_t Partition(void* data, int32_t left, int32_t right);
 
   /// @brief Method QuickSort, addr 0x6756fc8, size 0x7c, virtual false, abstract: false, final false
   static inline void QuickSort(::ArrayW<uint32_t> arr, int32_t left, int32_t right);
@@ -357,13 +391,25 @@ public:
   static inline void QuickSort(::ArrayW<uint64_t> arr, int32_t left, int32_t right);
 
   /// @brief Method QuickSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void QuickSort(int32_t count, void* data);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void QuickSort(int32_t count, void* data);
 
   /// @brief Method QuickSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue, typename TKey, typename TGetter> static inline void QuickSort(int32_t count, void* data);
+  template <typename TValue, typename TKey, typename TGetter>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+             ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+             ::cordl_internals::type_constraint<TGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TValue, TKey>*> && ::cordl_internals::value_type_constraint<TGetter> &&
+             ::cordl_internals::default_constructor_constraint<TGetter>)
+  static inline void QuickSort(int32_t count, void* data);
 
   /// @brief Method QuickSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue, typename TKey, typename TGetter> static inline void QuickSort(void* data, int32_t left, int32_t right);
+  template <typename TValue, typename TKey, typename TGetter>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+             ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+             ::cordl_internals::type_constraint<TGetter, ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<TValue, TKey>*> && ::cordl_internals::value_type_constraint<TGetter> &&
+             ::cordl_internals::default_constructor_constraint<TGetter>)
+  static inline void QuickSort(void* data, int32_t left, int32_t right);
 
   /// @brief Method RadixSort, addr 0x6756d64, size 0x13c, virtual false, abstract: false, final false
   static inline void RadixSort(::ArrayW<uint32_t> arr, int32_t sortSize, ::by_ref<::ArrayW<uint32_t>> supportArray, int32_t radixBits);
@@ -380,13 +426,13 @@ protected:
   constexpr CoreUnsafeUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUnsafeUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUnsafeUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreUnsafeUtils(CoreUnsafeUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUnsafeUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUnsafeUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUnsafeUtils(CoreUnsafeUtils const&) = delete;
+  CoreUnsafeUtils(CoreUnsafeUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11900 };

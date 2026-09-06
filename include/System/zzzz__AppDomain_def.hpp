@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\AppDomain.hpp"
+// IWYU pragma private; include "System/AppDomain.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,8 @@ class AppDomain;
 // Write type traits
 MARK_REF_T(::System::AppDomain*);
 DEFINE_IL2CPP_CLASS(::System::AppDomain*, "System", "AppDomain");
+// [ClassInterface((System.Runtime.InteropServices.ClassInterfaceType)0)]
+// [ComVisible(true)]
 // Dependencies System.IntPtr, System.MarshalByRefObject
 namespace System {
 // Is value type: false
@@ -89,8 +91,10 @@ public:
 
   __declspec(property(get = get_FriendlyName)) ::StringW FriendlyName;
 
+  /// @brief [MonoTODO]
   __declspec(property(get = get_IsFullyTrusted)) bool IsFullyTrusted;
 
+  /// @brief [MonoTODO]
   __declspec(property(get = get_IsHomogenous)) bool IsHomogenous;
 
   /// @brief Field ProcessExit, offset 0x50, size 0x8
@@ -210,6 +214,7 @@ public:
   /// @brief Method InvokeInDomainByID, addr 0x5c8c660, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeInDomainByID(int32_t domain_id, ::System::Reflection::MethodInfo* method, ::System::Object* obj, ::ArrayW<::System::Object*> args);
 
+  /// [Intrinsic]
   /// @brief Method IsAppXModel, addr 0x5c8c358, size 0x8, virtual false, abstract: false, final false
   static inline bool IsAppXModel();
 
@@ -343,12 +348,15 @@ public:
   /// @brief Method .ctor, addr 0x5c8c360, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_DomainUnload, addr 0x5c8d2ec, size 0xa8, virtual true, abstract: false, final true
   inline void add_DomainUnload(::System::EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_ProcessExit, addr 0x5c8d6b0, size 0xa8, virtual true, abstract: false, final true
   inline void add_ProcessExit(::System::EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_UnhandledException, addr 0x5c8d800, size 0xa8, virtual true, abstract: false, final true
   inline void add_UnhandledException(::System::UnhandledExceptionEventHandler* value);
 
@@ -381,12 +389,15 @@ public:
   /// @brief Method get_IsHomogenous, addr 0x5c8d950, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsHomogenous();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_DomainUnload, addr 0x5c8d4d0, size 0xa8, virtual true, abstract: false, final true
   inline void remove_DomainUnload(::System::EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_ProcessExit, addr 0x5c8d758, size 0xa8, virtual true, abstract: false, final true
   inline void remove_ProcessExit(::System::EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_UnhandledException, addr 0x5c8d8a8, size 0xa8, virtual true, abstract: false, final true
   inline void remove_UnhandledException(::System::UnhandledExceptionEventHandler* value);
 
@@ -404,13 +415,13 @@ protected:
   constexpr AppDomain();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppDomain", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppDomain", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppDomain(AppDomain&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppDomain", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppDomain", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppDomain(AppDomain const&) = delete;
+  AppDomain(AppDomainconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2586 };
@@ -427,33 +438,42 @@ public:
   /// @brief Field _principalPolicy, offset: 0x30, size: 0x4, def value: None
   int32_t ____principalPolicy;
 
+  /// [CompilerGenerated]
   /// @brief Field AssemblyLoad, offset: 0x38, size: 0x8, def value: None
   ::System::AssemblyLoadEventHandler* ___AssemblyLoad;
 
+  /// [CompilerGenerated]
   /// @brief Field AssemblyResolve, offset: 0x40, size: 0x8, def value: None
   ::System::ResolveEventHandler* ___AssemblyResolve;
 
+  /// [CompilerGenerated]
   /// @brief Field DomainUnload, offset: 0x48, size: 0x8, def value: None
   ::System::EventHandler* ___DomainUnload;
 
+  /// [CompilerGenerated]
   /// @brief Field ProcessExit, offset: 0x50, size: 0x8, def value: None
   ::System::EventHandler* ___ProcessExit;
 
+  /// [CompilerGenerated]
   /// @brief Field ResourceResolve, offset: 0x58, size: 0x8, def value: None
   ::System::ResolveEventHandler* ___ResourceResolve;
 
+  /// [CompilerGenerated]
   /// @brief Field TypeResolve, offset: 0x60, size: 0x8, def value: None
   ::System::ResolveEventHandler* ___TypeResolve;
 
+  /// [CompilerGenerated]
   /// @brief Field UnhandledException, offset: 0x68, size: 0x8, def value: None
   ::System::UnhandledExceptionEventHandler* ___UnhandledException;
 
+  /// [CompilerGenerated]
   /// @brief Field FirstChanceException, offset: 0x70, size: 0x8, def value: None
   ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* ___FirstChanceException;
 
   /// @brief Field _domain_manager, offset: 0x78, size: 0x8, def value: None
   ::System::Object* ____domain_manager;
 
+  /// [CompilerGenerated]
   /// @brief Field ReflectionOnlyAssemblyResolve, offset: 0x80, size: 0x8, def value: None
   ::System::ResolveEventHandler* ___ReflectionOnlyAssemblyResolve;
 

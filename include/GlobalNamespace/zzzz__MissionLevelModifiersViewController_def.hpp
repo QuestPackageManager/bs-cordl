@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionLevelModifiersViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionLevelModifiersViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_REF_T(::GlobalNamespace::MissionLevelModifiersViewController*);
 MARK_REF_T(::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionLevelModifiersViewController*, "", "MissionLevelModifiersViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0*, "", "MissionLevelModifiersViewController/<>c__DisplayClass7_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr MissionLevelModifiersViewController___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelModifiersViewController___c__DisplayClass7_0(MissionLevelModifiersViewController___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelModifiersViewController___c__DisplayClass7_0(MissionLevelModifiersViewController___c__DisplayClass7_0 const&) = delete;
+  MissionLevelModifiersViewController___c__DisplayClass7_0(MissionLevelModifiersViewController___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6962 };
@@ -176,26 +177,31 @@ protected:
   constexpr MissionLevelModifiersViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionLevelModifiersViewController(MissionLevelModifiersViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionLevelModifiersViewController(MissionLevelModifiersViewController const&) = delete;
+  MissionLevelModifiersViewController(MissionLevelModifiersViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6963 };
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _gameplayModifierInfoListItemsList, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> ____gameplayModifierInfoListItemsList;
 
+  /// [SerializeField]
   /// @brief Field _modifiersPanel, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____modifiersPanel;
 
+  /// [SerializeField]
   /// @brief Field _titleText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 

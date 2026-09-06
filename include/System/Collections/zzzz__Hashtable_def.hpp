@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Hashtable.hpp"
+// IWYU pragma private; include "System/Collections/Hashtable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,9 @@ namespace System::Collections {
 class IEqualityComparer;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
@@ -115,8 +117,8 @@ public:
   // @brief default ctor
   constexpr Hashtable_bucket();
 
-  // Ctor Parameters [CppParam { name: "key", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "val", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam {
-  // name: "hash_coll", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "key", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "val", ty: "::System::Object*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "hash_coll", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Hashtable_bucket(::System::Object* key, ::System::Object* val, int32_t hash_coll) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -206,13 +208,13 @@ protected:
   constexpr Hashtable_KeyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_KeyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_KeyCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hashtable_KeyCollection(Hashtable_KeyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_KeyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_KeyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable_KeyCollection(Hashtable_KeyCollection const&) = delete;
+  Hashtable_KeyCollection(Hashtable_KeyCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3727 };
@@ -288,13 +290,13 @@ protected:
   constexpr Hashtable_ValueCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_ValueCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_ValueCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hashtable_ValueCollection(Hashtable_ValueCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_ValueCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_ValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable_ValueCollection(Hashtable_ValueCollection const&) = delete;
+  Hashtable_ValueCollection(Hashtable_ValueCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3728 };
@@ -438,13 +440,13 @@ protected:
   constexpr Hashtable_HashtableEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hashtable_HashtableEnumerator(Hashtable_HashtableEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable_HashtableEnumerator(Hashtable_HashtableEnumerator const&) = delete;
+  Hashtable_HashtableEnumerator(Hashtable_HashtableEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3730 };
@@ -503,13 +505,13 @@ protected:
   constexpr Hashtable_HashtableDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableDebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hashtable_HashtableDebugView(Hashtable_HashtableDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable_HashtableDebugView(Hashtable_HashtableDebugView const&) = delete;
+  Hashtable_HashtableDebugView(Hashtable_HashtableDebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3731 };
@@ -520,6 +522,9 @@ public:
 static_assert(sizeof(::System::Collections::Hashtable_HashtableDebugView) == 0x10, "Size mismatch!");
 
 } // namespace System::Collections
+// [DefaultMember("Item")]
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Hashtable::HashtableDebugView))]
 // Dependencies System.Collections.Hashtable::bucket, System.Object
 namespace System::Collections {
 // Is value type: false
@@ -614,6 +619,7 @@ public:
   /// @brief Method Add, addr 0x5bf006c, size 0x8, virtual true, abstract: false, final false
   inline void Add(::System::Object* key, ::System::Object* value);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Clear, addr 0x5bf0440, size 0x88, virtual true, abstract: false, final false
   inline void Clear();
 
@@ -681,6 +687,7 @@ public:
   /// @brief Method OnDeserialization, addr 0x5bf1bd4, size 0x85c, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method Remove, addr 0x5bf1398, size 0x1c4, virtual true, abstract: false, final false
   inline void Remove(::System::Object* key);
 
@@ -862,13 +869,13 @@ protected:
   constexpr Hashtable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hashtable(Hashtable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hashtable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hashtable(Hashtable const&) = delete;
+  Hashtable(Hashtableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3732 };

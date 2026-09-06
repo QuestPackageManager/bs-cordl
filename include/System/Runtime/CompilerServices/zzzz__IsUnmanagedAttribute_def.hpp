@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\IsUnmanagedAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/IsUnmanagedAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class IsUnmanagedAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::IsUnmanagedAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::IsUnmanagedAttribute*, "System.Runtime.CompilerServices", "IsUnmanagedAttribute");
+// [CompilerGenerated]
+// [Embedded]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -21,7 +23,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::IsUnmanagedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a5b80c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df3738, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -30,16 +32,16 @@ protected:
   constexpr IsUnmanagedAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IsUnmanagedAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IsUnmanagedAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IsUnmanagedAttribute(IsUnmanagedAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IsUnmanagedAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IsUnmanagedAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IsUnmanagedAttribute(IsUnmanagedAttribute const&) = delete;
+  IsUnmanagedAttribute(IsUnmanagedAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7043 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

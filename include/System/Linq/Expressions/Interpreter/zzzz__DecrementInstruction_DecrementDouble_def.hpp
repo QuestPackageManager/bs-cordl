@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\DecrementInstruction_DecrementDouble.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/DecrementInstruction_DecrementDouble.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr DecrementInstruction_DecrementDouble();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementDouble", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementDouble", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecrementInstruction_DecrementDouble(DecrementInstruction_DecrementDouble&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementDouble", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecrementInstruction_DecrementDouble", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecrementInstruction_DecrementDouble(DecrementInstruction_DecrementDouble const&) = delete;
+  DecrementInstruction_DecrementDouble(DecrementInstruction_DecrementDoubleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16301 };

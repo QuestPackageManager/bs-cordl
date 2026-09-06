@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Interface\AlertDescription.hpp"
+// IWYU pragma private; include "Mono/Security/Interface/AlertDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   // @brief default ctor
   constexpr AlertDescription();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr AlertDescription(uint8_t value__) noexcept;
 
   /// @brief Field AccessDenied value: U8(49)

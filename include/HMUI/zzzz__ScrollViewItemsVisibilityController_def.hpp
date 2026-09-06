@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ScrollViewItemsVisibilityController.hpp"
+// IWYU pragma private; include "HMUI/ScrollViewItemsVisibilityController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::HMUI::ScrollViewItemsVisibilityController*);
 MARK_REF_T(::HMUI::ScrollViewItemsVisibilityController___c*);
 DEFINE_IL2CPP_CLASS(::HMUI::ScrollViewItemsVisibilityController*, "HMUI", "ScrollViewItemsVisibilityController");
 DEFINE_IL2CPP_CLASS(::HMUI::ScrollViewItemsVisibilityController___c*, "HMUI", "ScrollViewItemsVisibilityController/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -86,13 +87,13 @@ protected:
   constexpr ScrollViewItemsVisibilityController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScrollViewItemsVisibilityController___c(ScrollViewItemsVisibilityController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollViewItemsVisibilityController___c(ScrollViewItemsVisibilityController___c const&) = delete;
+  ScrollViewItemsVisibilityController___c(ScrollViewItemsVisibilityController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19108 };
@@ -238,20 +239,22 @@ protected:
   constexpr ScrollViewItemsVisibilityController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScrollViewItemsVisibilityController(ScrollViewItemsVisibilityController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemsVisibilityController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollViewItemsVisibilityController(ScrollViewItemsVisibilityController const&) = delete;
+  ScrollViewItemsVisibilityController(ScrollViewItemsVisibilityControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19109 };
 
+  /// [SerializeField]
   /// @brief Field _viewport, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____viewport;
 
+  /// [SerializeField]
   /// @brief Field _contentRectTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentRectTransform;
 

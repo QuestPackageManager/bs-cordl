@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayersMissingEntitlementsNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayersMissingEntitlementsNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayersMissingEntitlementsNetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
@@ -128,6 +128,7 @@ inline void GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Deserial
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reader);
 }
+/// @brief [Preserve]
 inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* GlobalNamespace::PlayersMissingEntitlementsNetSerializable::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>());
 }

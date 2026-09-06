@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HingeJoint.hpp"
+// IWYU pragma private; include "UnityEngine/HingeJoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,9 @@ class HingeJoint;
 // Write type traits
 MARK_REF_T(::UnityEngine::HingeJoint*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::HingeJoint*, "UnityEngine", "HingeJoint");
+// [NativeClass("Unity::HingeJoint")]
+// [NativeHeader("Modules/Physics/HingeJoint.h")]
+// [RequireComponent(typeof(UnityEngine.Rigidbody))]
 // Dependencies UnityEngine.Joint
 namespace UnityEngine {
 // Is value type: false
@@ -171,13 +174,13 @@ protected:
   constexpr HingeJoint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HingeJoint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HingeJoint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HingeJoint(HingeJoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HingeJoint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HingeJoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HingeJoint(HingeJoint const&) = delete;
+  HingeJoint(HingeJointconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18651 };

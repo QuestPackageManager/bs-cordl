@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\HandleRef.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/HandleRef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct HandleRef;
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::HandleRef);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::HandleRef, "System.Runtime.InteropServices", "HandleRef");
+// [IsReadOnly]
 // Dependencies System.IntPtr
 namespace System::Runtime::InteropServices {
 // Is value type: true
@@ -38,7 +39,8 @@ public:
   // @brief default ctor
   constexpr HandleRef();
 
-  // Ctor Parameters [CppParam { name: "_wrapper", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_wrapper", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_handle", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr HandleRef(::System::Object* _wrapper, ::System::IntPtr _handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

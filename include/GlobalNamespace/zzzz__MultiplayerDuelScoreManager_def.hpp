@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerDuelScoreManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerDuelScoreManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,29 +134,34 @@ protected:
   constexpr MultiplayerDuelScoreManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerDuelScoreManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerDuelScoreManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerDuelScoreManager(MultiplayerDuelScoreManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerDuelScoreManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerDuelScoreManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerDuelScoreManager(MultiplayerDuelScoreManager const&) = delete;
+  MultiplayerDuelScoreManager(MultiplayerDuelScoreManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6138 };
 
+  /// [SerializeField]
   /// @brief Field _scoreItem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreItem> ____scoreItem;
 
+  /// [SerializeField]
   /// @brief Field _delayBetweenScoreUpdates, offset: 0x28, size: 0x4, def value: None
   float_t ____delayBetweenScoreUpdates;
 
+  /// [Inject]
   /// @brief Field _multiplayerController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
+  /// [Inject]
   /// @brief Field _scoreProvider, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlEntityReference.hpp"
+// IWYU pragma private; include "System/Xml/XmlEntityReference.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_impl.hpp"
 #include "System/Xml/zzzz__XmlEntityReference_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"

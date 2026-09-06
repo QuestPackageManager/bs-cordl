@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Cone.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Cone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class Cone;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Shapes::Cone*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Shapes::Cone*, "UnityEngine.ProBuilder.Shapes", "Cone");
+// [Shape("Cone")]
 // Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
@@ -83,23 +84,26 @@ protected:
   constexpr Cone();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Cone", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cone", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cone(Cone&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Cone", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cone", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cone(Cone const&) = delete;
+  Cone(Coneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16836 };
 
+  /// [Range(3, 64)]
+  /// [SerializeField]
   /// @brief Field m_NumberOfSides, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_NumberOfSides;
 
   /// @brief Field m_Radius, offset: 0x14, size: 0x4, def value: None
   float_t ___m_Radius;
 
+  /// [SerializeField]
   /// @brief Field m_Smooth, offset: 0x18, size: 0x1, def value: None
   bool ___m_Smooth;
 

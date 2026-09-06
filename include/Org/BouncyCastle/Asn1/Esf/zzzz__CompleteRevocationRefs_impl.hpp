@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\CompleteRevocationRefs.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CompleteRevocationRefs.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CompleteRevocationRefs_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlOcspRef_def.hpp"
@@ -115,7 +115,7 @@ inline void Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::_ctor(::Org::B
                    (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, seq);
 }
-inline void Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs) {
+inline void Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, crlOcspRefs);
@@ -137,7 +137,8 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::Comp
 inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs) {
+inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs*
+Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs*>(crlOcspRefs));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs::New_ctor(::System::Collections::IEnumerable* crlOcspRefs) {

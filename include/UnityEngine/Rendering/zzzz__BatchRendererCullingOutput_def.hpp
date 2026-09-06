@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchRendererCullingOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchRendererCullingOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ struct BatchRendererCullingOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchRendererCullingOutput);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");
+// [NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
+// [UsedByNativeCode]
 // Dependencies System.IntPtr, Unity.Jobs.JobHandle, UnityEngine.Matrix4x4, UnityEngine.Rendering.BatchCullingFlags, UnityEngine.Rendering.BatchCullingProjectionType,
 // UnityEngine.Rendering.BatchCullingViewType
 namespace UnityEngine::Rendering {
@@ -40,16 +42,18 @@ public:
   // @brief default ctor
   constexpr BatchRendererCullingOutput();
 
-  // Ctor Parameters [CppParam { name: "cullingJobsFence", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: None }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4",
-  // modifiers: "", def_value: None }, CppParam { name: "cullingPlanes", ty: "::UnityEngine::Plane*", modifiers: "", def_value: None }, CppParam { name: "cullingPlaneCount", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "receiverPlaneOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "receiverPlaneCount", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "cullingSplits", ty: "::UnityEngine::Rendering::CullingSplit*", modifiers: "", def_value: None }, CppParam { name: "cullingSplitCount", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "viewType", ty: "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: None }, CppParam { name: "projectionType", ty:
-  // "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "", def_value: None }, CppParam { name: "cullingFlags", ty: "::UnityEngine::Rendering::BatchCullingFlags", modifiers: "",
-  // def_value: None }, CppParam { name: "viewID", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "cullingLayerMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "splitExclusionMask", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "drawCommands", ty: "::UnityEngine::Rendering::BatchCullingOutputDrawCommands*", modifiers: "", def_value: None }, CppParam { name: "brgId", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "occlusionBuffer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "customCullingResult", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cullingJobsFence", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "localToWorldMatrix", ty:
+  // "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingPlanes", ty: "::UnityEngine::Plane*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "cullingPlaneCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "receiverPlaneOffset", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "receiverPlaneCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingSplits", ty:
+  // "::UnityEngine::Rendering::CullingSplit*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingSplitCount", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "viewType", ty: "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: None, comment: None }, CppParam { name: "projectionType", ty:
+  // "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingFlags", ty: "::UnityEngine::Rendering::BatchCullingFlags",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "viewID", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingLayerMask", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "splitExclusionMask", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sceneCullingMask", ty:
+  // "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCommands", ty: "::UnityEngine::Rendering::BatchCullingOutputDrawCommands*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "brgId", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionBuffer", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "customCullingResult", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr BatchRendererCullingOutput(::Unity::Jobs::JobHandle cullingJobsFence, ::UnityEngine::Matrix4x4 localToWorldMatrix, ::UnityEngine::Plane* cullingPlanes, int32_t cullingPlaneCount,
                                        int32_t receiverPlaneOffset, int32_t receiverPlaneCount, ::UnityEngine::Rendering::CullingSplit* cullingSplits, int32_t cullingSplitCount,
                                        ::UnityEngine::Rendering::BatchCullingViewType viewType, ::UnityEngine::Rendering::BatchCullingProjectionType projectionType,

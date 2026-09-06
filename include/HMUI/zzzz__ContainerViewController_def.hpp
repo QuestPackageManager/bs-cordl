@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ContainerViewController.hpp"
+// IWYU pragma private; include "HMUI/ContainerViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,6 +79,7 @@ DEFINE_IL2CPP_CLASS(::HMUI::ContainerViewController*, "HMUI", "ContainerViewCont
 DEFINE_IL2CPP_CLASS(::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16*, "HMUI", "ContainerViewController/<AddViewControllerCoroutine>d__16");
 DEFINE_IL2CPP_CLASS(::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18*, "HMUI", "ContainerViewController/<RemoveViewControllersCoroutine>d__18");
 DEFINE_IL2CPP_CLASS(::HMUI::ContainerViewController___c*, "HMUI", "ContainerViewController/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -114,13 +115,13 @@ protected:
   constexpr ContainerViewController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContainerViewController___c(ContainerViewController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContainerViewController___c(ContainerViewController___c const&) = delete;
+  ContainerViewController___c(ContainerViewController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20937 };
@@ -131,6 +132,7 @@ public:
 static_assert(sizeof(::HMUI::ContainerViewController___c) == 0x10, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies HMUI.ViewController, System.Object
 namespace HMUI {
 // Is value type: false
@@ -185,17 +187,22 @@ public:
   /// @brief Method MoveNext, addr 0x32f05f0, size 0x22c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32f081c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32f0824, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32f085c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32f05ec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -259,6 +266,7 @@ public:
 
   constexpr void __cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32f022c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -277,13 +285,13 @@ protected:
   constexpr ContainerViewController__AddViewControllerCoroutine_d__16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__AddViewControllerCoroutine_d__16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__AddViewControllerCoroutine_d__16", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContainerViewController__AddViewControllerCoroutine_d__16(ContainerViewController__AddViewControllerCoroutine_d__16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__AddViewControllerCoroutine_d__16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__AddViewControllerCoroutine_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContainerViewController__AddViewControllerCoroutine_d__16(ContainerViewController__AddViewControllerCoroutine_d__16 const&) = delete;
+  ContainerViewController__AddViewControllerCoroutine_d__16(ContainerViewController__AddViewControllerCoroutine_d__16const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20938 };
@@ -344,6 +352,7 @@ static_assert(offsetof(::HMUI::ContainerViewController__AddViewControllerCorouti
 static_assert(sizeof(::HMUI::ContainerViewController__AddViewControllerCoroutine_d__16) == 0x58, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies HMUI.ViewController, System.Object
 namespace HMUI {
 // Is value type: false
@@ -403,17 +412,22 @@ public:
   /// @brief Method MoveNext, addr 0x32f0868, size 0x360, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::ContainerViewController__RemoveViewControllersCoroutine_d__18* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32f0bc8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32f0bd0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32f0c08, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32f0864, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -486,6 +500,7 @@ public:
 
   constexpr void __cordl_internal_set_viewControllersToRemove(::ArrayW<::UnityW<::HMUI::ViewController>> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32f0304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -504,13 +519,13 @@ protected:
   constexpr ContainerViewController__RemoveViewControllersCoroutine_d__18();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__RemoveViewControllersCoroutine_d__18", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__RemoveViewControllersCoroutine_d__18", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContainerViewController__RemoveViewControllersCoroutine_d__18(ContainerViewController__RemoveViewControllersCoroutine_d__18&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__RemoveViewControllersCoroutine_d__18", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController__RemoveViewControllersCoroutine_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContainerViewController__RemoveViewControllersCoroutine_d__18(ContainerViewController__RemoveViewControllersCoroutine_d__18 const&) = delete;
+  ContainerViewController__RemoveViewControllersCoroutine_d__18(ContainerViewController__RemoveViewControllersCoroutine_d__18const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20939 };
@@ -604,6 +619,7 @@ public:
   inline void AddViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>* animationLayouter,
                                 bool immediately);
 
+  /// [IteratorStateMachine(typeof(HMUI.ContainerViewController::<AddViewControllerCoroutine>d__16))]
   /// @brief Method AddViewControllerCoroutine, addr 0x32f01ac, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AddViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                         ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>>* animationLayouter, bool immediately);
@@ -620,7 +636,7 @@ public:
   /// @brief Method IsChildInTransition, addr 0x32eff24, size 0x104, virtual false, abstract: false, final false
   inline bool IsChildInTransition();
 
-  /// @brief Method LayoutViewControllers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LayoutViewControllers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
   static inline ::HMUI::ContainerViewController* New_ctor();
@@ -631,6 +647,7 @@ public:
                         ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* animationLayouter,
                         bool immediately);
 
+  /// [IteratorStateMachine(typeof(HMUI.ContainerViewController::<RemoveViewControllersCoroutine>d__18))]
   /// @brief Method RemoveViewControllersCoroutine, addr 0x32f0284, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RemoveViewControllersCoroutine(
       ::ArrayW<::HMUI::ViewController*> viewControllersToRemove, ::System::Action* finishedCallback,
@@ -640,7 +657,7 @@ public:
   inline void SetChildViewController(::HMUI::ViewController* viewController);
 
   /// @brief Method SetChildViewControllers, addr 0x32efdc4, size 0x160, virtual false, abstract: false, final false
-  inline void SetChildViewControllers(::ArrayW<::HMUI::ViewController*> viewControllers);
+  inline void SetChildViewControllers(/* [ParamArray] */ ::ArrayW<::HMUI::ViewController*> viewControllers);
 
   /// @brief Method __Activate, addr 0x32ef6f8, size 0x144, virtual true, abstract: false, final false
   inline void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
@@ -678,17 +695,19 @@ protected:
   constexpr ContainerViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContainerViewController(ContainerViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContainerViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContainerViewController(ContainerViewController const&) = delete;
+  ContainerViewController(ContainerViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20940 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _controllersContainer, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____controllersContainer;
 

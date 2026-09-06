@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\AnimatedSwitchView.hpp"
+// IWYU pragma private; include "HMUI/AnimatedSwitchView.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -108,7 +108,7 @@ inline ::HMUI::AnimatedSwitchView_ColorBlock* HMUI::AnimatedSwitchView_ColorBloc
 }
 // Ctor Parameters []
 constexpr ::HMUI::AnimatedSwitchView_ColorBlock::AnimatedSwitchView_ColorBlock() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::HMUI::AnimatedSwitchView_AnimationState::AnimatedSwitchView_AnimationState(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Permissions\SecurityAction.hpp"
+// IWYU pragma private; include "System/Security/Permissions/SecurityAction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct SecurityAction;
 // Write type traits
 MARK_VAL_T(::System::Security::Permissions::SecurityAction);
 DEFINE_IL2CPP_CLASS(::System::Security::Permissions::SecurityAction, "System.Security.Permissions", "SecurityAction");
+// [ComVisible(true)]
+// [Obsolete("CAS support is not available with Silverlight applications.")]
 // Dependencies
 namespace System::Security::Permissions {
 // Is value type: true
@@ -49,7 +51,7 @@ public:
   // @brief default ctor
   constexpr SecurityAction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SecurityAction(int32_t value__) noexcept;
 
   /// @brief Field Demand value: I32(2)

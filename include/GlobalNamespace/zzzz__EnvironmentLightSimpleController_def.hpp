@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentLightSimpleController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentLightSimpleController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class EnvironmentLightSimpleController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::EnvironmentLightSimpleController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentLightSimpleController*, "", "EnvironmentLightSimpleController");
+// [AddComponentMenu("Beat Saber/Gameplay/EnvironmentLightSimpleController")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -65,23 +66,26 @@ protected:
   constexpr EnvironmentLightSimpleController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightSimpleController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightSimpleController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentLightSimpleController(EnvironmentLightSimpleController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightSimpleController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentLightSimpleController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentLightSimpleController(EnvironmentLightSimpleController const&) = delete;
+  EnvironmentLightSimpleController(EnvironmentLightSimpleControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5786 };
 
+  /// [SerializeField]
   /// @brief Field _color, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
+  /// [SerializeField]
   /// @brief Field _colorId, offset: 0x30, size: 0x4, def value: None
   int32_t ____colorId;
 
+  /// [Inject]
   /// @brief Field _lightManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 

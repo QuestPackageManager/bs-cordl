@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\NavigateFocusRing.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/NavigateFocusRing.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
@@ -179,9 +179,9 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::Naviga
                                               { "GetBestOverall", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*>(*this, ___internal_method, candidate, bestSoFar);
 }
-// Ctor Parameters [CppParam { name: "currentFocusable", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "validRect", ty:
-// "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstPass", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "direction", ty:
-// "::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "currentFocusable", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "validRect", ty:
+// "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstPass", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "direction", ty: "::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::NavigateFocusRing_FocusableHierarchyTraversal::NavigateFocusRing_FocusableHierarchyTraversal(
     ::UnityEngine::UIElements::VisualElement* currentFocusable, ::UnityEngine::Rect validRect, bool firstPass, ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* direction) noexcept {
   this->currentFocusable = currentFocusable;

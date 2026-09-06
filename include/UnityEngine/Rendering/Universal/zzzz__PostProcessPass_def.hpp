@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,9 @@ namespace UnityEngine::Experimental::Rendering {
 class XRPass;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -548,13 +550,13 @@ protected:
   constexpr PostProcessPass_MaterialLibrary();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MaterialLibrary", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MaterialLibrary", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_MaterialLibrary(PostProcessPass_MaterialLibrary&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MaterialLibrary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MaterialLibrary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_MaterialLibrary(PostProcessPass_MaterialLibrary const&) = delete;
+  PostProcessPass_MaterialLibrary(PostProcessPass_MaterialLibraryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12848 };
@@ -1013,13 +1015,13 @@ protected:
   constexpr PostProcessPass_ShaderConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_ShaderConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_ShaderConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_ShaderConstants(PostProcessPass_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_ShaderConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_ShaderConstants(PostProcessPass_ShaderConstants const&) = delete;
+  PostProcessPass_ShaderConstants(PostProcessPass_ShaderConstantsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12849 };
@@ -1057,13 +1059,13 @@ protected:
   constexpr PostProcessPass_UpdateCameraResolutionPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UpdateCameraResolutionPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UpdateCameraResolutionPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_UpdateCameraResolutionPassData(PostProcessPass_UpdateCameraResolutionPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UpdateCameraResolutionPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UpdateCameraResolutionPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_UpdateCameraResolutionPassData(PostProcessPass_UpdateCameraResolutionPassData const&) = delete;
+  PostProcessPass_UpdateCameraResolutionPassData(PostProcessPass_UpdateCameraResolutionPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12850 };
@@ -1124,13 +1126,13 @@ protected:
   constexpr PostProcessPass_StopNaNsPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_StopNaNsPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_StopNaNsPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_StopNaNsPassData(PostProcessPass_StopNaNsPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_StopNaNsPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_StopNaNsPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_StopNaNsPassData(PostProcessPass_StopNaNsPassData const&) = delete;
+  PostProcessPass_StopNaNsPassData(PostProcessPass_StopNaNsPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12851 };
@@ -1237,13 +1239,13 @@ protected:
   constexpr PostProcessPass_SMAASetupPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAASetupPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAASetupPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_SMAASetupPassData(PostProcessPass_SMAASetupPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAASetupPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAASetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_SMAASetupPassData(PostProcessPass_SMAASetupPassData const&) = delete;
+  PostProcessPass_SMAASetupPassData(PostProcessPass_SMAASetupPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12852 };
@@ -1352,13 +1354,13 @@ protected:
   constexpr PostProcessPass_SMAAPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAAPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAAPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_SMAAPassData(PostProcessPass_SMAAPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAAPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_SMAAPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_SMAAPassData(PostProcessPass_SMAAPassData const&) = delete;
+  PostProcessPass_SMAAPassData(PostProcessPass_SMAAPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12853 };
@@ -1475,13 +1477,13 @@ protected:
   constexpr PostProcessPass_UberSetupBloomPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberSetupBloomPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberSetupBloomPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_UberSetupBloomPassData(PostProcessPass_UberSetupBloomPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberSetupBloomPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberSetupBloomPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_UberSetupBloomPassData(PostProcessPass_UberSetupBloomPassData const&) = delete;
+  PostProcessPass_UberSetupBloomPassData(PostProcessPass_UberSetupBloomPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12854 };
@@ -1599,13 +1601,13 @@ protected:
   constexpr PostProcessPass_BloomPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_BloomPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_BloomPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_BloomPassData(PostProcessPass_BloomPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_BloomPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_BloomPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_BloomPassData(PostProcessPass_BloomPassData const&) = delete;
+  PostProcessPass_BloomPassData(PostProcessPass_BloomPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12855 };
@@ -1660,8 +1662,8 @@ public:
   // @brief default ctor
   constexpr PostProcessPass_BloomMaterialParams();
 
-  // Ctor Parameters [CppParam { name: "parameters", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "highQualityFiltering", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "enableAlphaOutput", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "parameters", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "highQualityFiltering", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "enableAlphaOutput", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr PostProcessPass_BloomMaterialParams(::UnityEngine::Vector4 parameters, bool highQualityFiltering, bool enableAlphaOutput) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1836,13 +1838,13 @@ protected:
   constexpr PostProcessPass_DoFGaussianPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFGaussianPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFGaussianPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_DoFGaussianPassData(PostProcessPass_DoFGaussianPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFGaussianPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFGaussianPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_DoFGaussianPassData(PostProcessPass_DoFGaussianPassData const&) = delete;
+  PostProcessPass_DoFGaussianPassData(PostProcessPass_DoFGaussianPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12857 };
@@ -2067,13 +2069,13 @@ protected:
   constexpr PostProcessPass_DoFBokehPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFBokehPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFBokehPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_DoFBokehPassData(PostProcessPass_DoFBokehPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFBokehPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_DoFBokehPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_DoFBokehPassData(PostProcessPass_DoFBokehPassData const&) = delete;
+  PostProcessPass_DoFBokehPassData(PostProcessPass_DoFBokehPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12858 };
@@ -2226,13 +2228,13 @@ protected:
   constexpr PostProcessPass_PaniniProjectionPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PaniniProjectionPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PaniniProjectionPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_PaniniProjectionPassData(PostProcessPass_PaniniProjectionPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PaniniProjectionPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PaniniProjectionPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PaniniProjectionPassData(PostProcessPass_PaniniProjectionPassData const&) = delete;
+  PostProcessPass_PaniniProjectionPassData(PostProcessPass_PaniniProjectionPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12859 };
@@ -2381,13 +2383,13 @@ protected:
   constexpr PostProcessPass_MotionBlurPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MotionBlurPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MotionBlurPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_MotionBlurPassData(PostProcessPass_MotionBlurPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MotionBlurPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_MotionBlurPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_MotionBlurPassData(PostProcessPass_MotionBlurPassData const&) = delete;
+  PostProcessPass_MotionBlurPassData(PostProcessPass_MotionBlurPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12860 };
@@ -2556,13 +2558,13 @@ protected:
   constexpr PostProcessPass_LensFlarePassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlarePassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlarePassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_LensFlarePassData(PostProcessPass_LensFlarePassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlarePassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlarePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_LensFlarePassData(PostProcessPass_LensFlarePassData const&) = delete;
+  PostProcessPass_LensFlarePassData(PostProcessPass_LensFlarePassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12861 };
@@ -2743,13 +2745,13 @@ protected:
   constexpr PostProcessPass_LensFlareScreenSpacePassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlareScreenSpacePassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlareScreenSpacePassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_LensFlareScreenSpacePassData(PostProcessPass_LensFlareScreenSpacePassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlareScreenSpacePassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_LensFlareScreenSpacePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_LensFlareScreenSpacePassData(PostProcessPass_LensFlareScreenSpacePassData const&) = delete;
+  PostProcessPass_LensFlareScreenSpacePassData(PostProcessPass_LensFlareScreenSpacePassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12862 };
@@ -2869,13 +2871,13 @@ protected:
   constexpr PostProcessPass_PostProcessingFinalSetupPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalSetupPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalSetupPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_PostProcessingFinalSetupPassData(PostProcessPass_PostProcessingFinalSetupPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalSetupPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalSetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PostProcessingFinalSetupPassData(PostProcessPass_PostProcessingFinalSetupPassData const&) = delete;
+  PostProcessPass_PostProcessingFinalSetupPassData(PostProcessPass_PostProcessingFinalSetupPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12863 };
@@ -2960,13 +2962,13 @@ protected:
   constexpr PostProcessPass_PostProcessingFinalFSRScalePassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalFSRScalePassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalFSRScalePassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_PostProcessingFinalFSRScalePassData(PostProcessPass_PostProcessingFinalFSRScalePassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalFSRScalePassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalFSRScalePassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PostProcessingFinalFSRScalePassData(PostProcessPass_PostProcessingFinalFSRScalePassData const&) = delete;
+  PostProcessPass_PostProcessingFinalFSRScalePassData(PostProcessPass_PostProcessingFinalFSRScalePassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12864 };
@@ -3011,10 +3013,10 @@ public:
   // @brief default ctor
   constexpr PostProcessPass_FinalBlitSettings();
 
-  // Ctor Parameters [CppParam { name: "isFxaaEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isFsrEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "isTaaSharpeningEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "requireHDROutput", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resolveToDebugScreen",
-  // ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isAlphaOutputEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hdrOperations", ty:
-  // "::UnityEngine::Rendering::HDROutputUtils_Operation", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "isFxaaEnabled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isFsrEnabled", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "isTaaSharpeningEnabled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "requireHDROutput", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "resolveToDebugScreen", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isAlphaOutputEnabled", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "hdrOperations", ty: "::UnityEngine::Rendering::HDROutputUtils_Operation", modifiers: "", def_value: None, comment: None }]
   constexpr PostProcessPass_FinalBlitSettings(bool isFxaaEnabled, bool isFsrEnabled, bool isTaaSharpeningEnabled, bool requireHDROutput, bool resolveToDebugScreen, bool isAlphaOutputEnabled,
                                               ::UnityEngine::Rendering::HDROutputUtils_Operation hdrOperations) noexcept;
 
@@ -3128,13 +3130,13 @@ protected:
   constexpr PostProcessPass_PostProcessingFinalBlitPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalBlitPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalBlitPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_PostProcessingFinalBlitPassData(PostProcessPass_PostProcessingFinalBlitPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalBlitPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostProcessingFinalBlitPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PostProcessingFinalBlitPassData(PostProcessPass_PostProcessingFinalBlitPassData const&) = delete;
+  PostProcessPass_PostProcessingFinalBlitPassData(PostProcessPass_PostProcessingFinalBlitPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12865 };
@@ -3305,13 +3307,13 @@ protected:
   constexpr PostProcessPass_UberPostPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberPostPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberPostPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_UberPostPassData(PostProcessPass_UberPostPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberPostPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_UberPostPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_UberPostPassData(PostProcessPass_UberPostPassData const&) = delete;
+  PostProcessPass_UberPostPassData(PostProcessPass_UberPostPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12867 };
@@ -3405,13 +3407,13 @@ protected:
   constexpr PostProcessPass_PostFXSetupPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostFXSetupPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostFXSetupPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass_PostFXSetupPassData(PostProcessPass_PostFXSetupPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostFXSetupPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass_PostFXSetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass_PostFXSetupPassData(PostProcessPass_PostFXSetupPassData const&) = delete;
+  PostProcessPass_PostFXSetupPassData(PostProcessPass_PostFXSetupPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12868 };
@@ -3422,6 +3424,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::PostProcessPass_PostFXSetupPassData) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -3798,13 +3801,13 @@ protected:
   constexpr PostProcessPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass___c(PostProcessPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass___c(PostProcessPass___c const&) = delete;
+  PostProcessPass___c(PostProcessPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12869 };
@@ -3815,6 +3818,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::PostProcessPass___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -3826,9 +3830,10 @@ public:
   // @brief default ctor
   constexpr PostProcessPass___c__DisplayClass89_0();
 
-  // Ctor Parameters [CppParam { name: "source", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None }, CppParam { name: "destination", ty: "::UnityEngine::Rendering::RTHandle*",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::Universal::PostProcessPass*", modifiers: "", def_value: None }, CppParam { name:
-  // "amountOfPassesRemaining", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cmd", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "source", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name: "destination", ty:
+  // "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::Universal::PostProcessPass*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "amountOfPassesRemaining", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cmd", ty:
+  // "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: None, comment: None }]
   constexpr PostProcessPass___c__DisplayClass89_0(::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination,
                                                   ::UnityEngine::Rendering::Universal::PostProcessPass* __4__this, int32_t amountOfPassesRemaining,
                                                   ::UnityEngine::Rendering::CommandBuffer* cmd) noexcept;
@@ -4170,6 +4175,7 @@ public:
   inline void DoSubpixelMorphologicalAntialiasing(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::CommandBuffer* cmd,
                                                   ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6889fc0, size 0x374, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -4212,6 +4218,7 @@ public:
   static inline ::UnityEngine::Rendering::Universal::PostProcessPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::Universal::PostProcessData* data,
                                                                                ::by_ref<::UnityEngine::Rendering::Universal::PostProcessParams> postProcessParams);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x6889fac, size 0xc, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -4222,79 +4229,83 @@ public:
   inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// @brief Method RenderBloomTexture, addr 0x6893a3c, size 0xeac, virtual false, abstract: false, final false
-  inline void RenderBloomTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+  inline void RenderBloomTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                  ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, bool enableAlphaOutput);
 
   /// @brief Method RenderDoF, addr 0x6894950, size 0x288, virtual false, abstract: false, final false
   inline void RenderDoF(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                        ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                        ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
   /// @brief Method RenderDoFBokeh, addr 0x68956ac, size 0xa8c, virtual false, abstract: false, final false
   inline void RenderDoFBokeh(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                             ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                             ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, ::by_ref<::UnityEngine::Material*> dofMaterial);
+                             ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, ::by_ref<::UnityEngine::Material*> dofMaterial);
 
   /// @brief Method RenderDoFGaussian, addr 0x6894bd8, size 0xad4, virtual false, abstract: false, final false
   inline void RenderDoFGaussian(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                                ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                 ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::by_ref<::UnityEngine::Material*> dofMaterial);
 
   /// @brief Method RenderFinalBlit, addr 0x6899804, size 0x6bc, virtual false, abstract: false, final false
   inline void RenderFinalBlit(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                              ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-                              ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget,
+                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
+                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget,
                               ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPass_FinalBlitSettings> settings);
 
   /// @brief Method RenderFinalFSRScale, addr 0x6899304, size 0x500, virtual false, abstract: false, final false
-  inline void RenderFinalFSRScale(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                  ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, bool enableAlphaOutput);
+  inline void RenderFinalFSRScale(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, bool enableAlphaOutput);
 
   /// @brief Method RenderFinalPass, addr 0x688a334, size 0x9b0, virtual false, abstract: false, final false
   inline void RenderFinalPass(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// @brief Method RenderFinalPassRenderGraph, addr 0x6899ec0, size 0x6a4, virtual false, abstract: false, final false
   inline void RenderFinalPassRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-                                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool enableColorEncodingIfNeeded);
+                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
+                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool enableColorEncodingIfNeeded);
 
   /// @brief Method RenderFinalSetup, addr 0x6898c98, size 0x66c, virtual false, abstract: false, final false
   inline void RenderFinalSetup(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                               ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
                                ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPass_FinalBlitSettings> settings);
 
   /// @brief Method RenderLensFlareDataDriven, addr 0x6897b48, size 0x658, virtual false, abstract: false, final false
   inline void RenderLensFlareDataDriven(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                                        ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
+                                        ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
+                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
   /// @brief Method RenderLensFlareScreenSpace, addr 0x68981a0, size 0x8a0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle RenderLensFlareScreenSpace(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera,
-                                                                                               ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle originalBloomTexture,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle screenSpaceLensFlareBloomMipTexture,
                                                                                                bool enableXR);
 
   /// @brief Method RenderMotionBlur, addr 0x6896ccc, size 0x8a8, virtual false, abstract: false, final false
   inline void RenderMotionBlur(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                               ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                               ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
   /// @brief Method RenderPaniniProjection, addr 0x6896138, size 0x728, virtual false, abstract: false, final false
   inline void RenderPaniniProjection(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera,
-                                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
   /// @brief Method RenderPostProcessingRenderGraph, addr 0x689b460, size 0x1000, virtual false, abstract: false, final false
   inline void RenderPostProcessingRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                                              ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColorTexture,
-                                              ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture,
-                                              ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-                                              ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool hasFinalPass, bool resolveToDebugScreen,
-                                              bool enableColorEndingIfNeeded);
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColorTexture,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool hasFinalPass,
+                                              bool resolveToDebugScreen, bool enableColorEndingIfNeeded);
 
   /// @brief Method RenderSMAA, addr 0x6891e40, size 0x1454, virtual false, abstract: false, final false
   inline void RenderSMAA(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-                         ::UnityEngine::Rendering::Universal::AntialiasingQuality antialiasingQuality, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                         ::UnityEngine::Rendering::Universal::AntialiasingQuality antialiasingQuality, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> SMAATarget);
 
   /// @brief Method RenderSTP, addr 0x6896a38, size 0x294, virtual false, abstract: false, final false
@@ -4304,7 +4315,8 @@ public:
 
   /// @brief Method RenderStopNaN, addr 0x68918c4, size 0x57c, virtual false, abstract: false, final false
   inline void RenderStopNaN(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::RenderTextureDescriptor cameraTargetDescriptor,
-                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColor, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> stopNaNTarget);
+                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColor,
+                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> stopNaNTarget);
 
   /// @brief Method RenderTemporalAA, addr 0x6896860, size 0x1d8, virtual false, abstract: false, final false
   inline void RenderTemporalAA(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
@@ -4314,9 +4326,11 @@ public:
   /// @brief Method RenderUberPost, addr 0x689a774, size 0xcec, virtual false, abstract: false, final false
   inline void RenderUberPost(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* postProcessingData,
-                             ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> sourceTexture, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destTexture,
-                             ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-                             bool requireHDROutput, bool enableAlphaOutput, bool resolveToDebugScreen, bool hasFinalPass);
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> sourceTexture,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destTexture,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture, bool requireHDROutput, bool enableAlphaOutput,
+                             bool resolveToDebugScreen, bool hasFinalPass);
 
   /// @brief Method RequireHDROutput, addr 0x688c2c8, size 0x3c, virtual false, abstract: false, final false
   inline bool RequireHDROutput(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
@@ -4329,9 +4343,9 @@ public:
                                           ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material, bool hasFinalPass);
 
   /// @brief Method Setup, addr 0x6889dfc, size 0x110, virtual false, abstract: false, final false
-  inline void Setup(::by_ref<::UnityEngine::RenderTextureDescriptor> baseDescriptor, ::by_ref<::UnityEngine::Rendering::RTHandle*> source, bool resolveToScreen,
-                    ::by_ref<::UnityEngine::Rendering::RTHandle*> depth, ::by_ref<::UnityEngine::Rendering::RTHandle*> internalLut, ::by_ref<::UnityEngine::Rendering::RTHandle*> motionVectors,
-                    bool hasFinalPass, bool enableColorEncoding);
+  inline void Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> baseDescriptor, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> source, bool resolveToScreen,
+                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> depth, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> internalLut,
+                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> motionVectors, bool hasFinalPass, bool enableColorEncoding);
 
   /// @brief Method SetupBloom, addr 0x688d164, size 0xbe4, virtual false, abstract: false, final false
   inline void SetupBloom(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Material* uberMaterial, bool enableAlphaOutput);
@@ -4346,7 +4360,7 @@ public:
   inline void SetupDithering(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material);
 
   /// @brief Method SetupFinalPass, addr 0x6889f0c, size 0xa0, virtual false, abstract: false, final false
-  inline void SetupFinalPass(::by_ref<::UnityEngine::Rendering::RTHandle*> source, bool useSwapBuffer, bool enableColorEncoding);
+  inline void SetupFinalPass(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> source, bool useSwapBuffer, bool enableColorEncoding);
 
   /// @brief Method SetupGrain, addr 0x688fd14, size 0xb4, virtual false, abstract: false, final false
   inline void SetupGrain(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material);
@@ -4365,8 +4379,8 @@ public:
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle TryGetCachedUserLutTextureHandle(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
   /// @brief Method UberPostSetupBloomPass, addr 0x6893294, size 0x7a8, virtual false, abstract: false, final false
-  inline void UberPostSetupBloomPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* rendergraph, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> bloomTexture,
-                                     ::UnityEngine::Material* uberMaterial);
+  inline void UberPostSetupBloomPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* rendergraph,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> bloomTexture, ::UnityEngine::Material* uberMaterial);
 
   /// @brief Method UpdateCameraResolution, addr 0x68914c8, size 0x3fc, virtual false, abstract: false, final false
   inline void UpdateCameraResolution(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
@@ -4375,12 +4389,15 @@ public:
   /// @brief Method UpdateMotionBlurMatrices, addr 0x6891220, size 0x1f8, virtual false, abstract: false, final false
   static inline void UpdateMotionBlurMatrices(::by_ref<::UnityEngine::Material*> material, ::UnityEngine::Camera* camera, ::UnityEngine::Experimental::Rendering::XRPass* xr);
 
+  /// [CompilerGenerated]
   /// @brief Method <Render>g__GetDestination|89_1, addr 0x688c30c, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* _Render_g__GetDestination_89_1(::by_ref<::UnityEngine::Rendering::Universal::PostProcessPass___c__DisplayClass89_0> _cordl_fixed_empty_name_whitespace);
 
+  /// [CompilerGenerated]
   /// @brief Method <Render>g__GetSource|89_0, addr 0x688c304, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* _Render_g__GetSource_89_0(::by_ref<::UnityEngine::Rendering::Universal::PostProcessPass___c__DisplayClass89_0> _cordl_fixed_empty_name_whitespace);
 
+  /// [CompilerGenerated]
   /// @brief Method <Render>g__Swap|89_2, addr 0x688c448, size 0x118, virtual false, abstract: false, final false
   inline void _Render_g__Swap_89_2(::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer*> r,
                                    ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPass___c__DisplayClass89_0> _cordl_fixed_empty_name_whitespace);
@@ -4777,13 +4794,13 @@ protected:
   constexpr PostProcessPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PostProcessPass(PostProcessPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PostProcessPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessPass(PostProcessPass const&) = delete;
+  PostProcessPass(PostProcessPassconst&) = delete;
 
   /// @brief Field _TemporalAATargetName offset 0xffffffff size 0x8
   static constexpr ::ConstString _TemporalAATargetName{ u"_TemporalAATarget" };

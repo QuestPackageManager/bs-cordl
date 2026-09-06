@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\STP.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/STP.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 struct AccessFlags;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class ComputeGraphContext;
@@ -215,10 +217,10 @@ public:
   // @brief default ctor
   constexpr STP_PerViewConfig();
 
-  // Ctor Parameters [CppParam { name: "currentProj", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "lastProj", ty: "::UnityEngine::Matrix4x4", modifiers: "",
-  // def_value: None }, CppParam { name: "lastLastProj", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "currentView", ty: "::UnityEngine::Matrix4x4", modifiers:
-  // "", def_value: None }, CppParam { name: "lastView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "lastLastView", ty: "::UnityEngine::Matrix4x4", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "currentProj", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastProj", ty: "::UnityEngine::Matrix4x4",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "lastLastProj", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "currentView",
+  // ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "lastLastView", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }]
   constexpr STP_PerViewConfig(::UnityEngine::Matrix4x4 currentProj, ::UnityEngine::Matrix4x4 lastProj, ::UnityEngine::Matrix4x4 lastLastProj, ::UnityEngine::Matrix4x4 currentView,
                               ::UnityEngine::Matrix4x4 lastView, ::UnityEngine::Matrix4x4 lastLastView) noexcept;
 
@@ -275,20 +277,23 @@ public:
   // @brief default ctor
   constexpr STP_Config();
 
-  // Ctor Parameters [CppParam { name: "noiseTexture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "inputColor", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name: "inputDepth", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle",
-  // modifiers: "", def_value: None }, CppParam { name: "inputMotion", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name:
-  // "inputStencil", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name: "debugView", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name: "destination", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle",
-  // modifiers: "", def_value: None }, CppParam { name: "historyContext", ty: "::UnityEngine::Rendering::STP_HistoryContext*", modifiers: "", def_value: None }, CppParam { name: "enableHwDrs", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "enableTexArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableMotionScaling", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "nearPlane", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farPlane", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "frameIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hasValidHistory", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "stencilMask", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "debugViewIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "deltaTime", ty: "float_t", modifiers: "", def_value: None
-  // }, CppParam { name: "lastDeltaTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "currentImageSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None },
-  // CppParam { name: "priorImageSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "outputImageSize", ty: "::UnityEngine::Vector2Int", modifiers: "",
-  // def_value: None }, CppParam { name: "numActiveViews", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "perViewConfigs", ty:
-  // "::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "noiseTexture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputColor", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputDepth", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputMotion", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "inputStencil", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "debugView", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "destination", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "historyContext", ty:
+  // "::UnityEngine::Rendering::STP_HistoryContext*", modifiers: "", def_value: None, comment: None }, CppParam { name: "enableHwDrs", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "enableTexArray", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "enableMotionScaling", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "nearPlane", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "farPlane", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "frameIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "hasValidHistory", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "stencilMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "debugViewIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "deltaTime", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastDeltaTime", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "currentImageSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "priorImageSize", ty: "::UnityEngine::Vector2Int",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "outputImageSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "numActiveViews", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "perViewConfigs", ty: "::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr STP_Config(::UnityW<::UnityEngine::Texture2D> noiseTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputColor,
                        ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputDepth, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputMotion,
                        ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputStencil, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle debugView,
@@ -461,7 +466,7 @@ public:
   // @brief default ctor
   constexpr STP_HistoryTextureType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr STP_HistoryTextureType(int32_t value__) noexcept;
 
   /// @brief Field Convergence value: I32(2)
@@ -507,8 +512,9 @@ public:
   // @brief default ctor
   constexpr STP_HistoryUpdateInfo();
 
-  // Ctor Parameters [CppParam { name: "preUpscaleSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "postUpscaleSize", ty: "::UnityEngine::Vector2Int",
-  // modifiers: "", def_value: None }, CppParam { name: "useHwDrs", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useTexArray", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "preUpscaleSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "postUpscaleSize", ty:
+  // "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "useHwDrs", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "useTexArray", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr STP_HistoryUpdateInfo(::UnityEngine::Vector2Int preUpscaleSize, ::UnityEngine::Vector2Int postUpscaleSize, bool useHwDrs, bool useTexArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -597,13 +603,13 @@ protected:
   constexpr STP_HistoryContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STP_HistoryContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_HistoryContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STP_HistoryContext(STP_HistoryContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STP_HistoryContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_HistoryContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_HistoryContext(STP_HistoryContext const&) = delete;
+  STP_HistoryContext(STP_HistoryContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12220 };
@@ -624,6 +630,7 @@ static_assert(offsetof(::UnityEngine::Rendering::STP_HistoryContext, ___m_hash) 
 static_assert(sizeof(::UnityEngine::Rendering::STP_HistoryContext) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1, ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\STP\\STP.cs")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -652,7 +659,7 @@ public:
   // @brief default ctor
   constexpr STP_StpSetupPerViewConstants();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr STP_StpSetupPerViewConstants(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(8)
@@ -675,6 +682,8 @@ static_assert(offsetof(::UnityEngine::Rendering::STP_StpSetupPerViewConstants, v
 static_assert(sizeof(::UnityEngine::Rendering::STP_StpSetupPerViewConstants) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -687,7 +696,7 @@ public:
   // @brief default ctor
   constexpr StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -711,7 +720,8 @@ static_assert(offsetof(::UnityEngine::Rendering::StpConstantBufferData_STP___Stp
 static_assert(sizeof(::UnityEngine::Rendering::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer) == 0x100, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.STP::StpConstantBufferData::<_StpSetupPerViewConstants>e__FixedBuffer, UnityEngine.Vector4
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1, ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\STP\\STP.cs",
+// needAccessors = false, generateCBuffer = true)] Dependencies UnityEngine.Rendering.STP::StpConstantBufferData::<_StpSetupPerViewConstants>e__FixedBuffer, UnityEngine.Vector4
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.STP/StpConstantBufferData
@@ -724,14 +734,15 @@ public:
   // @brief default ctor
   constexpr STP_StpConstantBufferData();
 
-  // Ctor Parameters [CppParam { name: "_StpCommonConstant", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_StpSetupConstants0", ty: "::UnityEngine::Vector4",
-  // modifiers: "", def_value: None }, CppParam { name: "_StpSetupConstants1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_StpSetupConstants2", ty:
-  // "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_StpSetupConstants3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name:
-  // "_StpSetupConstants4", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_StpSetupConstants5", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None },
-  // CppParam { name: "_StpSetupPerViewConstants", ty: "::UnityEngine::Rendering::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer", modifiers: "", def_value: None }, CppParam {
-  // name: "_StpDilConstants0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_StpTaaConstants0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None },
-  // CppParam { name: "_StpTaaConstants1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_StpTaaConstants2", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-  // None }, CppParam { name: "_StpTaaConstants3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_StpCommonConstant", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_StpSetupConstants0", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_StpSetupConstants1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_StpSetupConstants2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_StpSetupConstants3", ty: "::UnityEngine::Vector4",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_StpSetupConstants4", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_StpSetupConstants5", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_StpSetupPerViewConstants", ty:
+  // "::UnityEngine::Rendering::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "_StpDilConstants0", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_StpTaaConstants0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_StpTaaConstants1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_StpTaaConstants2", ty: "::UnityEngine::Vector4", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_StpTaaConstants3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr STP_StpConstantBufferData(::UnityEngine::Vector4 _StpCommonConstant, ::UnityEngine::Vector4 _StpSetupConstants0, ::UnityEngine::Vector4 _StpSetupConstants1,
                                       ::UnityEngine::Vector4 _StpSetupConstants2, ::UnityEngine::Vector4 _StpSetupConstants3, ::UnityEngine::Vector4 _StpSetupConstants4,
                                       ::UnityEngine::Vector4 _StpSetupConstants5,
@@ -766,6 +777,8 @@ public:
   /// @brief Field _StpSetupConstants5, offset: 0x60, size: 0x10, def value: None
   ::UnityEngine::Vector4 _StpSetupConstants5;
 
+  /// [FixedBuffer(typeof(System.Single), 64)]
+  /// [HLSLArray(16, typeof(UnityEngine.Vector4))]
   /// @brief Field _StpSetupPerViewConstants, offset: 0x70, size: 0x100, def value: None
   ::UnityEngine::Rendering::StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer _StpSetupPerViewConstants;
 
@@ -962,13 +975,13 @@ protected:
   constexpr STP_ShaderResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STP_ShaderResources(STP_ShaderResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_ShaderResources(STP_ShaderResources const&) = delete;
+  STP_ShaderResources(STP_ShaderResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12224 };
@@ -1020,13 +1033,13 @@ protected:
   constexpr STP_ShaderKeywords();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderKeywords", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderKeywords", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STP_ShaderKeywords(STP_ShaderKeywords&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderKeywords", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_ShaderKeywords", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_ShaderKeywords(STP_ShaderKeywords const&) = delete;
+  STP_ShaderKeywords(STP_ShaderKeywordsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12225 };
@@ -1037,6 +1050,10 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::STP_ShaderKeywords) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [SupportedOnRenderPipeline(new[] {  })]
+// [CategoryInfo(Name = "R: STP", Order = 1000)]
+// [ElementInfo(Order = 0)]
+// [HideInInspector]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -1123,23 +1140,29 @@ protected:
   constexpr STP_RuntimeResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STP_RuntimeResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_RuntimeResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STP_RuntimeResources(STP_RuntimeResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STP_RuntimeResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_RuntimeResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_RuntimeResources(STP_RuntimeResources const&) = delete;
+  STP_RuntimeResources(STP_RuntimeResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12226 };
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/STP/StpSetup.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_setupCS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_setupCS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/STP/StpPreTaa.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_preTaaCS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_preTaaCS;
 
+  /// [SerializeField]
+  /// [ResourcePath("Runtime/STP/StpTaa.compute", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_taaCS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_taaCS;
 
@@ -1185,7 +1208,7 @@ public:
   // @brief default ctor
   constexpr STP_ProfileId();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr STP_ProfileId(int32_t value__) noexcept;
 
   /// @brief Field StpPreTaa value: I32(1)
@@ -1404,13 +1427,13 @@ protected:
   constexpr STP_SetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STP_SetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_SetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STP_SetupData(STP_SetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STP_SetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_SetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_SetupData(STP_SetupData const&) = delete;
+  STP_SetupData(STP_SetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12228 };
@@ -1625,13 +1648,13 @@ protected:
   constexpr STP_PreTaaData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STP_PreTaaData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_PreTaaData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STP_PreTaaData(STP_PreTaaData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STP_PreTaaData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_PreTaaData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_PreTaaData(STP_PreTaaData const&) = delete;
+  STP_PreTaaData(STP_PreTaaDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12229 };
@@ -1827,13 +1850,13 @@ protected:
   constexpr STP_TaaData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STP_TaaData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_TaaData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STP_TaaData(STP_TaaData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STP_TaaData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP_TaaData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP_TaaData(STP_TaaData const&) = delete;
+  STP_TaaData(STP_TaaDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12230 };
@@ -1909,6 +1932,7 @@ static_assert(offsetof(::UnityEngine::Rendering::STP_TaaData, ___output) == 0xa8
 static_assert(sizeof(::UnityEngine::Rendering::STP_TaaData) == 0xb8, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -1976,13 +2000,13 @@ protected:
   constexpr STP___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STP___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STP___c(STP___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STP___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP___c(STP___c const&) = delete;
+  STP___c(STP___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12231 };
@@ -2109,13 +2133,13 @@ protected:
   constexpr STP();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "STP", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   STP(STP&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "STP", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "STP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  STP(STP const&) = delete;
+  STP(STPconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12232 };

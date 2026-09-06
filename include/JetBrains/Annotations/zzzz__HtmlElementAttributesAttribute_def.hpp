@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\HtmlElementAttributesAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/HtmlElementAttributesAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class HtmlElementAttributesAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::HtmlElementAttributesAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::HtmlElementAttributesAttribute*, "JetBrains.Annotations", "HtmlElementAttributesAttribute");
+// [AttributeUsage((System.AttributeTargets)2432)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -20,6 +21,7 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE HtmlElementAttributesAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [CanBeNull]
   __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
@@ -27,7 +29,7 @@ public:
 
   static inline ::JetBrains::Annotations::HtmlElementAttributesAttribute* New_ctor();
 
-  static inline ::JetBrains::Annotations::HtmlElementAttributesAttribute* New_ctor(::StringW name);
+  static inline ::JetBrains::Annotations::HtmlElementAttributesAttribute* New_ctor(/* [NotNull] */ ::StringW name);
 
   constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
@@ -39,11 +41,13 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x6e3e17c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
+  inline void _ctor(/* [NotNull] */ ::StringW name);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6e3e184, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x6e3e18c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
@@ -53,17 +57,18 @@ protected:
   constexpr HtmlElementAttributesAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HtmlElementAttributesAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HtmlElementAttributesAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HtmlElementAttributesAttribute(HtmlElementAttributesAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HtmlElementAttributesAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HtmlElementAttributesAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HtmlElementAttributesAttribute(HtmlElementAttributesAttribute const&) = delete;
+  HtmlElementAttributesAttribute(HtmlElementAttributesAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22581 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 

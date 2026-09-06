@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RepaintData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RepaintData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,15 +79,19 @@ public:
   /// @brief Method .ctor, addr 0x6db7630, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentOffset, addr 0x6db7600, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentWorldClip, addr 0x6db7614, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_currentWorldClip();
 
+  /// [CompilerGenerated]
   /// @brief Method get_repaintEvent, addr 0x6db7620, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_repaintEvent();
 
+  /// [CompilerGenerated]
   /// @brief Method set_repaintEvent, addr 0x6db7628, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintEvent(::UnityEngine::Event* value);
 
@@ -97,26 +101,34 @@ protected:
   constexpr RepaintData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RepaintData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RepaintData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RepaintData(RepaintData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RepaintData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RepaintData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RepaintData(RepaintData const&) = delete;
+  RepaintData(RepaintDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4639 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <currentOffset>k__BackingField, offset: 0x10, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ____currentOffset_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <mousePosition>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____mousePosition_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <currentWorldClip>k__BackingField, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Rect ____currentWorldClip_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <repaintEvent>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Event* ____repaintEvent_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,7 +115,7 @@ public:
   // @brief default ctor
   constexpr InputEvent();
 
-  // Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngineInternal::Input::NativeInputEvent", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Event", ty: "::UnityEngineInternal::Input::NativeInputEvent", modifiers: "", def_value: None, comment: None }]
   constexpr InputEvent(::UnityEngineInternal::Input::NativeInputEvent m_Event) noexcept;
 
 private:

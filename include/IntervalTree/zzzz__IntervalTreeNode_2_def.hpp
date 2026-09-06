@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IntervalTree\IntervalTreeNode_2.hpp"
+// IWYU pragma private; include "IntervalTree/IntervalTreeNode_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_GEN_REF_T_PTR(::IntervalTree::IntervalTreeNode_2);
 MARK_GEN_REF_T_PTR(::IntervalTree::IntervalTreeNode_2___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::IntervalTree::IntervalTreeNode_2, "IntervalTree", "IntervalTreeNode`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::IntervalTree::IntervalTreeNode_2___c, "IntervalTree", "IntervalTreeNode`2/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace IntervalTree {
 // cpp template
@@ -64,9 +65,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <get_Max>b__13_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey _get_Max_b__13_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i);
 
+  /// [NullableContext(0)]
   /// @brief Method <get_Min>b__15_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey _get_Min_b__15_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i);
 
@@ -88,13 +91,13 @@ protected:
   constexpr IntervalTreeNode_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntervalTreeNode_2___c(IntervalTreeNode_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTreeNode_2___c(IntervalTreeNode_2___c const&) = delete;
+  IntervalTreeNode_2___c(IntervalTreeNode_2___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20506 };
@@ -103,6 +106,8 @@ public:
 };
 // Non member Declarations
 } // namespace IntervalTree
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies IntervalTree.RangeValuePair`2<TKey, TValue>, System.Object
 namespace IntervalTree {
 // cpp template
@@ -136,26 +141,31 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*() noexcept;
 
+  /// [NullableContext(1)]
   /// @brief Method GetClosestNodeTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* GetClosestNodeTo(TKey key);
 
-  static inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer);
+  static inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* New_ctor(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
-  static inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items,
-                                                                           ::System::Collections::Generic::IComparer_1<TKey>* comparer);
+  static inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*
+  New_ctor(/* [Nullable(new[] { 1, 0, 1, 1 })] */ ::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items,
+           /* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
+  /// [NullableContext(1)]
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* Query(TKey value);
 
+  /// [NullableContext(1)]
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<TValue>* Query(TKey from, TKey to);
 
+  /// [NullableContext(1)]
   /// @brief Method QueryClosestPrev, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* QueryClosestPrev(TKey value);
 
   /// @brief Method System.Collections.Generic.IComparer<IntervalTree.RangeValuePair<TKey,TValue>>.Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline int32_t System_Collections_Generic_IComparer_IntervalTree_RangeValuePair_TKey_TValue___Compare(::IntervalTree::RangeValuePair_2<TKey, TValue> x,
-                                                                                                        ::IntervalTree::RangeValuePair_2<TKey, TValue> y);
+  inline int32_t System_Collections_Generic_IComparer_IntervalTree_RangeValuePair_TKey_TValue___Compare(/* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> x,
+                                                                                                        /* [Nullable(new[] { 0, 1, 1 })] */ ::IntervalTree::RangeValuePair_2<TKey, TValue> y);
 
   constexpr TKey const& __cordl_internal_get_center() const;
 
@@ -188,10 +198,11 @@ public:
   constexpr void __cordl_internal_set_rightNode(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer);
+  inline void _ctor(/* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items, ::System::Collections::Generic::IComparer_1<TKey>* comparer);
+  inline void _ctor(/* [Nullable(new[] { 1, 0, 1, 1 })] */ ::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items,
+                    /* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
   /// @brief Method get_Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_Max();
@@ -209,13 +220,13 @@ protected:
   constexpr IntervalTreeNode_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntervalTreeNode_2(IntervalTreeNode_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntervalTreeNode_2(IntervalTreeNode_2 const&) = delete;
+  IntervalTreeNode_2(IntervalTreeNode_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20507 };
@@ -223,15 +234,19 @@ public:
   /// @brief Field center, offset: 0x10, size: 0x8, def value: None
   TKey ___center;
 
+  /// [Nullable(new[] { 2, 1, 1 })]
   /// @brief Field leftNode, offset: 0x18, size: 0x8, def value: None
   ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* ___leftNode;
 
+  /// [Nullable(new[] { 2, 1, 1 })]
   /// @brief Field rightNode, offset: 0x20, size: 0x8, def value: None
   ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* ___rightNode;
 
+  /// [Nullable(new[] { 2, 0, 1, 1 })]
   /// @brief Field items, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>> ___items;
 
+  /// [Nullable(1)]
   /// @brief Field comparer, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IComparer_1<TKey>* ___comparer;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleComplexSelector.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleComplexSelector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Hashes_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PseudoStates_impl.hpp"
@@ -34,8 +34,8 @@ inline void UnityEngine::UIElements::StyleComplexSelector_PseudoStateData::_ctor
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::PseudoStates>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, state, negate);
 }
-// Ctor Parameters [CppParam { name: "state", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: Some("{}") }, CppParam { name: "negate", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "state", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "negate", ty: "bool", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData::StyleComplexSelector_PseudoStateData(::UnityEngine::UIElements::PseudoStates state, bool negate) noexcept {
   this->state = state;
   this->negate = negate;

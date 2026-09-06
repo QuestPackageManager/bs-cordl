@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\ReliableChannel.hpp"
+// IWYU pragma private; include "LiteNetLib/ReliableChannel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,8 +55,8 @@ public:
   // @brief default ctor
   constexpr ReliableChannel_PendingPacket();
 
-  // Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket*", modifiers: "", def_value: None }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "", def_value: None },
-  // CppParam { name: "_isSent", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_isSent", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ReliableChannel_PendingPacket(::LiteNetLib::NetPacket* _packet, int64_t _timeStamp, bool _isSent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -232,13 +232,13 @@ protected:
   constexpr ReliableChannel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReliableChannel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReliableChannel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReliableChannel(ReliableChannel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReliableChannel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReliableChannel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReliableChannel(ReliableChannel const&) = delete;
+  ReliableChannel(ReliableChannelconst&) = delete;
 
   /// @brief Field BitsInByte offset 0xffffffff size 0x4
   static constexpr int32_t BitsInByte{ static_cast<int32_t>(0x8) };

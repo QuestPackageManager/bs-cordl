@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering\LoudnessData.hpp"
+// IWYU pragma private; include "LufsMetering/LoudnessData.hpp"
 #include "LufsMetering/zzzz__LoudnessData_def.hpp"
 //  Writing Method size for method: ::LufsMetering::LoudnessData._ctor
 template <>
@@ -21,8 +21,8 @@ inline void LufsMetering::LoudnessData::_ctor(float_t lufs, ::ArrayW<float_t> mo
       (::i2c::find_method(::i2c::class_of<::LufsMetering::LoudnessData>(), { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::ArrayW<float_t>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, lufs, momentaryValues, blockDuration);
 }
-// Ctor Parameters [CppParam { name: "lufs", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "blockDuration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "momentaryValues", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "lufs", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "blockDuration", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "momentaryValues", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::LufsMetering::LoudnessData::LoudnessData(float_t lufs, float_t blockDuration, ::ArrayW<float_t> momentaryValues) noexcept {
   this->lufs = lufs;
   this->blockDuration = blockDuration;

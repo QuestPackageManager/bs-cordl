@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextShadow.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextShadow.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -150,8 +150,8 @@ constexpr UnityEngine::UIElements::TextShadow::operator ::System::IEquatable_1<:
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>* UnityEngine::UIElements::TextShadow::i___System__IEquatable_1___UnityEngine__UIElements__TextShadow_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "blurRadius", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "blurRadius", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TextShadow::TextShadow(::UnityEngine::Vector2 offset, float_t blurRadius, ::UnityEngine::Color color) noexcept {
   this->offset = offset;
   this->blurRadius = blurRadius;

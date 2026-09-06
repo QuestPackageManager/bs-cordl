@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelFailedTextEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelFailedTextEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedTextEffect_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\LightRotationBaseData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/LightRotationBaseData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,32 +126,38 @@ protected:
   constexpr LightRotationBaseData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBaseData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBaseData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationBaseData(LightRotationBaseData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBaseData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBaseData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationBaseData(LightRotationBaseData const&) = delete;
+  LightRotationBaseData(LightRotationBaseDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15365 };
 
+  /// [SerializeField]
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
 
+  /// [SerializeField]
   /// @brief Field p, offset: 0x14, size: 0x4, def value: None
   int32_t ___p;
 
+  /// [SerializeField]
   /// @brief Field e, offset: 0x18, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::EaseType ___e;
 
+  /// [SerializeField]
   /// @brief Field l, offset: 0x1c, size: 0x4, def value: None
   int32_t ___l;
 
+  /// [SerializeField]
   /// @brief Field r, offset: 0x20, size: 0x4, def value: None
   float_t ___r;
 
+  /// [SerializeField]
   /// @brief Field o, offset: 0x24, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::RotationDirection ___o;
 

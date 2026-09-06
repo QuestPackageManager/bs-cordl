@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\RoomSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/RoomSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,8 @@ public:
   // @brief default ctor
   constexpr RoomSettings();
 
-  // Ctor Parameters [CppParam { name: "center", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "center", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr RoomSettings(::Unity::Mathematics::float3 center, float_t rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

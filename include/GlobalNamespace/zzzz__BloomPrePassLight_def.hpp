@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassLight.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassLight.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,13 +75,13 @@ protected:
   constexpr BloomPrePassLight_LightsDataItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight_LightsDataItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight_LightsDataItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassLight_LightsDataItem(BloomPrePassLight_LightsDataItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight_LightsDataItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight_LightsDataItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassLight_LightsDataItem(BloomPrePassLight_LightsDataItem const&) = delete;
+  BloomPrePassLight_LightsDataItem(BloomPrePassLight_LightsDataItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19462 };
@@ -102,6 +102,7 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassLight_LightsDataItem, ___l
 static_assert(sizeof(::GlobalNamespace::BloomPrePassLight_LightsDataItem) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -132,10 +133,10 @@ public:
   __declspec(property(get = __cordl_internal_get__registeredWithLightType, put = __cordl_internal_set__registeredWithLightType)) ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>
       _registeredWithLightType;
 
-  /// @brief Method DidRegisterLight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DidRegisterLight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DidRegisterLight();
 
-  /// @brief Method FillInputData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FillInputData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FillInputData(::by_ref<int32_t> lightNum, ::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_InputData> data);
 
   static inline ::GlobalNamespace::BloomPrePassLight* New_ctor();
@@ -149,7 +150,7 @@ public:
   /// @brief Method OnEnable, addr 0x5862068, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Refresh();
 
   /// @brief Method RegisterLight, addr 0x586206c, size 0x2ec, virtual false, abstract: false, final false
@@ -210,17 +211,18 @@ protected:
   constexpr BloomPrePassLight();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassLight(BloomPrePassLight&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassLight(BloomPrePassLight const&) = delete;
+  BloomPrePassLight(BloomPrePassLightconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19463 };
 
+  /// [SerializeField]
   /// @brief Field _lightType, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> ____lightType;
 

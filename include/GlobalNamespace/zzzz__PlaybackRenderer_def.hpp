@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlaybackRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlaybackRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,7 @@ public:
   // @brief default ctor
   constexpr PlaybackScreenshot_PlaybackRenderer_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlaybackScreenshot_PlaybackRenderer_Type(int32_t value__) noexcept;
 
   /// @brief Field Background value: I32(2)
@@ -232,23 +232,26 @@ protected:
   constexpr PlaybackRenderer_PlaybackScreenshot();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer_PlaybackScreenshot", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer_PlaybackScreenshot", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlaybackRenderer_PlaybackScreenshot(PlaybackRenderer_PlaybackScreenshot&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer_PlaybackScreenshot", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer_PlaybackScreenshot", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaybackRenderer_PlaybackScreenshot(PlaybackRenderer_PlaybackScreenshot const&) = delete;
+  PlaybackRenderer_PlaybackScreenshot(PlaybackRenderer_PlaybackScreenshotconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6571 };
 
+  /// [SerializeField]
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;
 
+  /// [SerializeField]
   /// @brief Field _layerMask, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____layerMask;
 
+  /// [SerializeField]
   /// @brief Field _type, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type ____type;
 
@@ -279,6 +282,7 @@ static_assert(offsetof(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot, _
 static_assert(sizeof(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [DefaultExecutionOrder(30400)]
 // Dependencies PlaybackRenderer::PlaybackScreenshot, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -405,12 +409,14 @@ public:
   /// @brief Method .ctor, addr 0x58e97ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_texturesReadyEvent, addr 0x58e88d8, size 0xac, virtual false, abstract: false, final false
   inline void add_texturesReadyEvent(::System::Action* value);
 
   /// @brief Method get_screenshots, addr 0x58e8a30, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> get_screenshots();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_texturesReadyEvent, addr 0x58e8984, size 0xac, virtual false, abstract: false, final false
   inline void remove_texturesReadyEvent(::System::Action* value);
 
@@ -420,20 +426,22 @@ protected:
   constexpr PlaybackRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlaybackRenderer(PlaybackRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlaybackRenderer(PlaybackRenderer const&) = delete;
+  PlaybackRenderer(PlaybackRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6572 };
 
+  /// [CompilerGenerated]
   /// @brief Field texturesReadyEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___texturesReadyEvent;
 
+  /// [SerializeField]
   /// @brief Field _clearBackgroundShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____clearBackgroundShader;
 

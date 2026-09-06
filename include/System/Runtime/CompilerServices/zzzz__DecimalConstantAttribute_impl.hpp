@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\DecimalConstantAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/DecimalConstantAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__DecimalConstantAttribute_def.hpp"
@@ -57,6 +57,7 @@ inline ::System::Decimal System::Runtime::CompilerServices::DecimalConstantAttri
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::DecimalConstantAttribute*>(), { "get_Value", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Decimal>(this, ___internal_method);
 }
+/// @brief [CLSCompliant(false)]
 inline ::System::Runtime::CompilerServices::DecimalConstantAttribute* System::Runtime::CompilerServices::DecimalConstantAttribute::New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid,
                                                                                                                                             uint32_t low) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Runtime::CompilerServices::DecimalConstantAttribute*>(scale, sign, hi, mid, low));

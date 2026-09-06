@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirrorRendererFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirrorRendererFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,6 +9,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstdint>
@@ -26,7 +27,9 @@ namespace GlobalNamespace {
 class MirrorRendererFeature___c__DisplayClass17_0;
 }
 namespace GlobalNamespace {
-template <typename T> class MirrorRendererFeature___c__DisplayClass21_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+class MirrorRendererFeature___c__DisplayClass21_0_1;
 }
 namespace GlobalNamespace {
 class MirrorRendererSO;
@@ -44,7 +47,9 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject> class AssetReferenceT_1;
+template <typename TObject>
+  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
+class AssetReferenceT_1;
 }
 namespace UnityEngine::Rendering::Universal {
 struct RenderingData;
@@ -81,7 +86,9 @@ namespace GlobalNamespace {
 class MirrorRendererFeature___c__DisplayClass17_0;
 }
 namespace GlobalNamespace {
-template <typename T> class MirrorRendererFeature___c__DisplayClass21_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+class MirrorRendererFeature___c__DisplayClass21_0_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MirrorRendererFeature*);
@@ -114,13 +121,13 @@ protected:
   constexpr MirrorRendererFeature_ShaderStatics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_ShaderStatics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_ShaderStatics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererFeature_ShaderStatics(MirrorRendererFeature_ShaderStatics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_ShaderStatics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_ShaderStatics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature_ShaderStatics(MirrorRendererFeature_ShaderStatics const&) = delete;
+  MirrorRendererFeature_ShaderStatics(MirrorRendererFeature_ShaderStaticsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20652 };
@@ -158,13 +165,13 @@ protected:
   constexpr MirrorRendererFeature_IterationHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_IterationHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_IterationHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererFeature_IterationHandle(MirrorRendererFeature_IterationHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_IterationHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature_IterationHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature_IterationHandle(MirrorRendererFeature_IterationHandle const&) = delete;
+  MirrorRendererFeature_IterationHandle(MirrorRendererFeature_IterationHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20653 };
@@ -180,6 +187,7 @@ static_assert(offsetof(::GlobalNamespace::MirrorRendererFeature_IterationHandle,
 static_assert(sizeof(::GlobalNamespace::MirrorRendererFeature_IterationHandle) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -222,13 +230,13 @@ protected:
   constexpr MirrorRendererFeature___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererFeature___c__DisplayClass17_0(MirrorRendererFeature___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature___c__DisplayClass17_0(MirrorRendererFeature___c__DisplayClass17_0 const&) = delete;
+  MirrorRendererFeature___c__DisplayClass17_0(MirrorRendererFeature___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20654 };
@@ -249,10 +257,12 @@ static_assert(offsetof(::GlobalNamespace::MirrorRendererFeature___c__DisplayClas
 static_assert(sizeof(::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: MirrorRendererFeature/<>c__DisplayClass21_0`1<T>
 class CORDL_TYPE MirrorRendererFeature___c__DisplayClass21_0_1 : public ::System::Object {
@@ -281,13 +291,13 @@ protected:
   constexpr MirrorRendererFeature___c__DisplayClass21_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass21_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass21_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererFeature___c__DisplayClass21_0_1(MirrorRendererFeature___c__DisplayClass21_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass21_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature___c__DisplayClass21_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature___c__DisplayClass21_0_1(MirrorRendererFeature___c__DisplayClass21_0_1 const&) = delete;
+  MirrorRendererFeature___c__DisplayClass21_0_1(MirrorRendererFeature___c__DisplayClass21_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20655 };
@@ -299,8 +309,8 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies UnityEngine.Plane, UnityEngine.Rendering.ScriptableRenderContext, UnityEngine.Rendering.Universal.RenderPassEvent, UnityEngine.Rendering.Universal.ScriptableRendererFeature,
-// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
+// Dependencies UnityEngine.Object, UnityEngine.Plane, UnityEngine.Rendering.ScriptableRenderContext, UnityEngine.Rendering.Universal.RenderPassEvent,
+// UnityEngine.Rendering.Universal.ScriptableRendererFeature, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MirrorRendererFeature
@@ -313,7 +323,9 @@ public:
 
   using __c__DisplayClass17_0 = ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass17_0;
 
-  template <typename T> using __c__DisplayClass21_0_1 = ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  using __c__DisplayClass21_0_1 = ::GlobalNamespace::MirrorRendererFeature___c__DisplayClass21_0_1<T>;
 
   /// @brief Field _bloomEffectOverrideHandle, offset 0x58, size 0x18
   __declspec(property(
@@ -385,6 +397,7 @@ public:
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
   inline void LoadAssetAsync(::UnityEngine::AddressableAssets::AssetReferenceT_1<T>* reference, ::by_ref<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>> handle,
                              ::System::Action_1<T>* onLoadFinished);
 
@@ -497,23 +510,26 @@ protected:
   constexpr MirrorRendererFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererFeature(MirrorRendererFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererFeature(MirrorRendererFeature const&) = delete;
+  MirrorRendererFeature(MirrorRendererFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20656 };
 
+  /// [SerializeField]
   /// @brief Field _renderPassEvent, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderPassEvent ____renderPassEvent;
 
+  /// [SerializeField]
   /// @brief Field _mirrorRendererRef, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::MirrorRendererSO>>* ____mirrorRendererRef;
 
+  /// [SerializeField]
   /// @brief Field _bloomEffectOverrideRef, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>>* ____bloomEffectOverrideRef;
 

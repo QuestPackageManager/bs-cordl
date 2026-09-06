@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\BufferedCipherBase.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/BufferedCipherBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +36,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBufferedCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBufferedCipher*() noexcept;
 
-  /// @brief Method DoFinal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> DoFinal();
 
   /// @brief Method DoFinal, addr 0x33f8060, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input);
 
-  /// @brief Method DoFinal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
   /// @brief Method DoFinal, addr 0x33f8164, size 0x5c, virtual true, abstract: false, final false
@@ -54,21 +54,21 @@ public:
   /// @brief Method DoFinal, addr 0x33f8084, size 0xb4, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetOutputSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetOutputSize(int32_t inputLen);
 
-  /// @brief Method GetUpdateOutputSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetUpdateOutputSize(int32_t inputLen);
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::BufferedCipherBase* New_ctor();
 
-  /// @brief Method ProcessByte, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> ProcessByte(uint8_t input);
 
   /// @brief Method ProcessByte, addr 0x33f7eb0, size 0xb0, virtual true, abstract: false, final false
@@ -77,7 +77,7 @@ public:
   /// @brief Method ProcessBytes, addr 0x33f7f60, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input);
 
-  /// @brief Method ProcessBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
   /// @brief Method ProcessBytes, addr 0x33f7fb0, size 0xb0, virtual true, abstract: false, final false
@@ -86,7 +86,7 @@ public:
   /// @brief Method ProcessBytes, addr 0x33f7f84, size 0x2c, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
   /// @brief Method .ctor, addr 0x33f8230, size 0x4, virtual false, abstract: false, final false
@@ -94,7 +94,7 @@ public:
 
   static inline ::ArrayW<uint8_t> getStaticF_EmptyBuffer();
 
-  /// @brief Method get_AlgorithmName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBufferedCipher"
@@ -108,13 +108,13 @@ protected:
   constexpr BufferedCipherBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedCipherBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedCipherBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedCipherBase(BufferedCipherBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedCipherBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedCipherBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedCipherBase(BufferedCipherBase const&) = delete;
+  BufferedCipherBase(BufferedCipherBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 965 };

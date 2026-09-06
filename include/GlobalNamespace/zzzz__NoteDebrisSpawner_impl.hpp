@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteDebrisSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteDebrisSpawner.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissedNoteEffectSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissedNoteEffectSpawner.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissedNoteEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"

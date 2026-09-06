@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProfilingSample.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProfilingSample.hpp"
 #include "UnityEngine/Rendering/zzzz__ProfilingSample_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -90,7 +90,7 @@ inline void UnityEngine::Rendering::ProfilingSample::_ctor(::UnityEngine::Render
                                               { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmd, format, arg);
 }
-inline void UnityEngine::Rendering::ProfilingSample::_ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::Rendering::ProfilingSample::_ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProfilingSample>(),
@@ -113,9 +113,9 @@ constexpr UnityEngine::Rendering::ProfilingSample::operator ::System::IDisposabl
 constexpr ::System::IDisposable* UnityEngine::Rendering::ProfilingSample::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Cmd", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Sampler", ty: "::UnityEngine::Profiling::CustomSampler*", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Cmd", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Name", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Sampler", ty:
+// "::UnityEngine::Profiling::CustomSampler*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProfilingSample::ProfilingSample(::UnityEngine::Rendering::CommandBuffer* m_Cmd, ::StringW m_Name, bool m_Disposed,
                                                                      ::UnityEngine::Profiling::CustomSampler* m_Sampler) noexcept {
   this->m_Cmd = m_Cmd;

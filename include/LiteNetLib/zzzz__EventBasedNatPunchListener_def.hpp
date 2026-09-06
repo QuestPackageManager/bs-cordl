@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\EventBasedNatPunchListener.hpp"
+// IWYU pragma private; include "LiteNetLib/EventBasedNatPunchListener.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,13 +79,13 @@ protected:
   constexpr EventBasedNatPunchListener_OnNatIntroductionRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventBasedNatPunchListener_OnNatIntroductionRequest(EventBasedNatPunchListener_OnNatIntroductionRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNatPunchListener_OnNatIntroductionRequest(EventBasedNatPunchListener_OnNatIntroductionRequest const&) = delete;
+  EventBasedNatPunchListener_OnNatIntroductionRequest(EventBasedNatPunchListener_OnNatIntroductionRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20044 };
@@ -124,13 +124,13 @@ protected:
   constexpr EventBasedNatPunchListener_OnNatIntroductionSuccess();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionSuccess", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionSuccess", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventBasedNatPunchListener_OnNatIntroductionSuccess(EventBasedNatPunchListener_OnNatIntroductionSuccess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionSuccess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener_OnNatIntroductionSuccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNatPunchListener_OnNatIntroductionSuccess(EventBasedNatPunchListener_OnNatIntroductionSuccess const&) = delete;
+  EventBasedNatPunchListener_OnNatIntroductionSuccess(EventBasedNatPunchListener_OnNatIntroductionSuccessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20045 };
@@ -186,18 +186,22 @@ public:
   /// @brief Method .ctor, addr 0x589bd38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_NatIntroductionRequest, addr 0x589ba50, size 0xac, virtual false, abstract: false, final false
   inline void add_NatIntroductionRequest(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_NatIntroductionSuccess, addr 0x589bba8, size 0xac, virtual false, abstract: false, final false
   inline void add_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value);
 
   /// @brief Convert to "::LiteNetLib::INatPunchListener"
   constexpr ::LiteNetLib::INatPunchListener* i___LiteNetLib__INatPunchListener() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_NatIntroductionRequest, addr 0x589bafc, size 0xac, virtual false, abstract: false, final false
   inline void remove_NatIntroductionRequest(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_NatIntroductionSuccess, addr 0x589bc54, size 0xac, virtual false, abstract: false, final false
   inline void remove_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value);
 
@@ -207,20 +211,22 @@ protected:
   constexpr EventBasedNatPunchListener();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventBasedNatPunchListener(EventBasedNatPunchListener&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventBasedNatPunchListener", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventBasedNatPunchListener(EventBasedNatPunchListener const&) = delete;
+  EventBasedNatPunchListener(EventBasedNatPunchListenerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20046 };
 
+  /// [CompilerGenerated]
   /// @brief Field NatIntroductionRequest, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* ___NatIntroductionRequest;
 
+  /// [CompilerGenerated]
   /// @brief Field NatIntroductionSuccess, offset: 0x18, size: 0x8, def value: None
   ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* ___NatIntroductionSuccess;
 

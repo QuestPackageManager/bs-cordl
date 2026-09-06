@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\KeyEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/KeyEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_impl.hpp"
@@ -18,7 +18,7 @@
 #include "UnityEngine/InputForUI/zzzz__IEventProperties_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__KeyEvent_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::KeyEvent_Type::KeyEvent_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -28,7 +28,7 @@ constexpr ::UnityEngine::InputForUI::KeyEvent_Type UnityEngine::InputForUI::KeyE
 constexpr ::UnityEngine::InputForUI::KeyEvent_Type UnityEngine::InputForUI::KeyEvent_Type::KeyRepeated{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputForUI::KeyEvent_Type UnityEngine::InputForUI::KeyEvent_Type::KeyReleased{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::InputForUI::KeyEvent_Type UnityEngine::InputForUI::KeyEvent_Type::State{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer::ButtonsState_KeyEvent__buttons_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -195,7 +195,7 @@ inline ::StringW UnityEngine::InputForUI::KeyEvent_ButtonsState::ToString() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputForUI::KeyEvent_ButtonsState>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "buttons", ty: "::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "buttons", ty: "::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::KeyEvent_ButtonsState::KeyEvent_ButtonsState(::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer buttons) noexcept {
   this->buttons = buttons;
 }
@@ -427,6 +427,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputForUI::ButtonsState
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8* UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8*>(__1__state));
 }
@@ -606,11 +607,12 @@ constexpr UnityEngine::InputForUI::KeyEvent::operator ::UnityEngine::InputForUI:
 constexpr ::UnityEngine::InputForUI::IEventProperties* UnityEngine::InputForUI::KeyEvent::i___UnityEngine__InputForUI__IEventProperties() {
   return static_cast<::UnityEngine::InputForUI::IEventProperties*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::KeyEvent_Type", modifiers: "", def_value: Some("{}") }, CppParam { name: "keyCode", ty: "::UnityEngine::KeyCode",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "buttonsState", ty: "::UnityEngine::InputForUI::KeyEvent_ButtonsState", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "_eventSource_k__BackingField", ty:
-// "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: Some("{}") }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::KeyEvent_Type", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "keyCode", ty:
+// "::UnityEngine::KeyCode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "buttonsState", ty: "::UnityEngine::InputForUI::KeyEvent_ButtonsState", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputForUI::KeyEvent::KeyEvent(::UnityEngine::InputForUI::KeyEvent_Type type, ::UnityEngine::KeyCode keyCode, ::UnityEngine::InputForUI::KeyEvent_ButtonsState buttonsState,
                                                         ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField, ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField,
                                                         uint32_t _playerId_k__BackingField, ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept {

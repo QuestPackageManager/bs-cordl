@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\NestedFragmentConverter_1.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/NestedFragmentConverter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "OculusStudios/GraphQL/Client/zzzz__IFragment_def.hpp"
 CORDL_MODULE_EXPORT(NestedFragmentConverter_1)
 namespace Newtonsoft::Json::Linq {
 class JObject;
@@ -28,15 +29,18 @@ class Type;
 }
 // Forward declare root types
 namespace OculusStudios::GraphQL::Client {
-template <typename T> class NestedFragmentConverter_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
+class NestedFragmentConverter_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::NestedFragmentConverter_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::NestedFragmentConverter_1, "OculusStudios.GraphQL.Client", "NestedFragmentConverter`1");
-// Dependencies Newtonsoft.Json.JsonConverter
+// Dependencies Newtonsoft.Json.JsonConverter, OculusStudios.GraphQL.Client.IFragment
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::GraphQL::Client::IFragment*>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.NestedFragmentConverter`1<T>
 class CORDL_TYPE NestedFragmentConverter_1 : public ::Newtonsoft::Json::JsonConverter {
@@ -65,13 +69,13 @@ protected:
   constexpr NestedFragmentConverter_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NestedFragmentConverter_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NestedFragmentConverter_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NestedFragmentConverter_1(NestedFragmentConverter_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NestedFragmentConverter_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NestedFragmentConverter_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NestedFragmentConverter_1(NestedFragmentConverter_1 const&) = delete;
+  NestedFragmentConverter_1(NestedFragmentConverter_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20402 };

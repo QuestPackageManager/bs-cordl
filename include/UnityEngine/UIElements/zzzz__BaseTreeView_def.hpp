@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseTreeView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseTreeView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ MARK_REF_T(::UnityEngine::UIElements::BaseTreeView*);
 MARK_REF_T(::UnityEngine::UIElements::BaseTreeView_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseTreeView*, "UnityEngine.UIElements", "BaseTreeView");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::BaseTreeView_UxmlTraits*, "UnityEngine.UIElements", "BaseTreeView/UxmlTraits");
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseVerticalCollectionView::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -89,13 +90,13 @@ protected:
   constexpr BaseTreeView_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeView_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeView_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseTreeView_UxmlTraits(BaseTreeView_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeView_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseTreeView_UxmlTraits(BaseTreeView_UxmlTraits const&) = delete;
+  BaseTreeView_UxmlTraits(BaseTreeView_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4119 };
@@ -120,6 +121,7 @@ public:
   // Declarations
   using UxmlTraits = ::UnityEngine::UIElements::BaseTreeView_UxmlTraits;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_autoExpand, put = set_autoExpand)) bool autoExpand;
 
   /// @brief Field autoExpandProperty, offset 0xffffffff, size 0x98
@@ -149,6 +151,7 @@ public:
   /// @brief Field itemUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_itemUssClassName, put = setStaticF_itemUssClassName)) ::StringW itemUssClassName;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_itemsSource, put = set_itemsSource)) ::System::Collections::IList* itemsSource;
 
   /// @brief Field m_AutoExpand, offset 0x598, size 0x1
@@ -217,6 +220,7 @@ public:
   /// @brief Method SetViewController, addr 0x6d2cb00, size 0x1e4, virtual true, abstract: false, final false
   inline void SetViewController(::UnityEngine::UIElements::CollectionViewController* controller);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetSelectionInternalById>b__54_0, addr 0x6d2e56c, size 0x8, virtual false, abstract: false, final false
   inline int32_t _SetSelectionInternalById_b__54_0(int32_t id);
 
@@ -303,23 +307,27 @@ protected:
   constexpr BaseTreeView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseTreeView(BaseTreeView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTreeView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseTreeView(BaseTreeView const&) = delete;
+  BaseTreeView(BaseTreeViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4120 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field itemExpandedChanged, offset: 0x590, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>* ___itemExpandedChanged;
 
   /// @brief Field m_AutoExpand, offset: 0x598, size: 0x1, def value: None
   bool ___m_AutoExpand;
 
+  /// [SerializeField]
+  /// [DontCreateProperty]
   /// @brief Field m_ExpandedItemIds, offset: 0x5a0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___m_ExpandedItemIds;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Mouse.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Mouse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class Mouse;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Mouse*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Mouse*, "UnityEngine.InputSystem", "Mouse");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.LowLevel.MouseState), isGenericTypeOfDevice = true)]
 // Dependencies UnityEngine.InputSystem.Pointer
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -166,27 +167,35 @@ public:
 
   static inline ::UnityEngine::InputSystem::Mouse* getStaticF_s_PlatformMouseDevice();
 
+  /// [CompilerGenerated]
   /// @brief Method get_backButton, addr 0x6524204, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_backButton();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clickCount, addr 0x6524224, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_clickCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6524234, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Mouse* get_current();
 
+  /// [CompilerGenerated]
   /// @brief Method get_forwardButton, addr 0x6524214, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_forwardButton();
 
+  /// [CompilerGenerated]
   /// @brief Method get_leftButton, addr 0x65241d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_leftButton();
 
+  /// [CompilerGenerated]
   /// @brief Method get_middleButton, addr 0x65241e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_middleButton();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rightButton, addr 0x65241f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_rightButton();
 
+  /// [CompilerGenerated]
   /// @brief Method get_scroll, addr 0x65241c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DeltaControl* get_scroll();
 
@@ -197,27 +206,35 @@ public:
 
   static inline void setStaticF_s_PlatformMouseDevice(::UnityEngine::InputSystem::Mouse* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_backButton, addr 0x652420c, size 0x8, virtual false, abstract: false, final false
   inline void set_backButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clickCount, addr 0x652422c, size 0x8, virtual false, abstract: false, final false
   inline void set_clickCount(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6524280, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Mouse* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_forwardButton, addr 0x652421c, size 0x8, virtual false, abstract: false, final false
   inline void set_forwardButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_leftButton, addr 0x65241dc, size 0x8, virtual false, abstract: false, final false
   inline void set_leftButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_middleButton, addr 0x65241ec, size 0x8, virtual false, abstract: false, final false
   inline void set_middleButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rightButton, addr 0x65241fc, size 0x8, virtual false, abstract: false, final false
   inline void set_rightButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_scroll, addr 0x65241cc, size 0x8, virtual false, abstract: false, final false
   inline void set_scroll(::UnityEngine::InputSystem::Controls::DeltaControl* value);
 
@@ -227,35 +244,42 @@ protected:
   constexpr Mouse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Mouse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Mouse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Mouse(Mouse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Mouse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Mouse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Mouse(Mouse const&) = delete;
+  Mouse(Mouseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8728 };
 
+  /// [CompilerGenerated]
   /// @brief Field <scroll>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::DeltaControl* ____scroll_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <leftButton>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____leftButton_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <middleButton>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____middleButton_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rightButton>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____rightButton_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <backButton>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____backButton_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <forwardButton>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____forwardButton_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <clickCount>k__BackingField, offset: 0x1e8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____clickCount_k__BackingField;
 

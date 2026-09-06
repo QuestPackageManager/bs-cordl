@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MoveBackWall.hpp"
+// IWYU pragma private; include "GlobalNamespace/MoveBackWall.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class MoveBackWall;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MoveBackWall*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MoveBackWall*, "", "MoveBackWall");
+// [AddComponentMenu("Beat Saber/Gameplay/MoveBackWall")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -100,23 +101,26 @@ protected:
   constexpr MoveBackWall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MoveBackWall", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MoveBackWall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MoveBackWall(MoveBackWall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MoveBackWall", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MoveBackWall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MoveBackWall(MoveBackWall const&) = delete;
+  MoveBackWall(MoveBackWallconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6204 };
 
+  /// [SerializeField]
   /// @brief Field _fadeInRegion, offset: 0x20, size: 0x4, def value: None
   float_t ____fadeInRegion;
 
+  /// [SerializeField]
   /// @brief Field _meshRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
+  /// [Inject]
   /// @brief Field _playerTransforms, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 

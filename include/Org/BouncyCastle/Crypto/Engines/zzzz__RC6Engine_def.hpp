@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\RC6Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/RC6Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -148,13 +148,13 @@ protected:
   constexpr RC6Engine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RC6Engine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RC6Engine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RC6Engine(RC6Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RC6Engine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RC6Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RC6Engine(RC6Engine const&) = delete;
+  RC6Engine(RC6Engineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 859 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\GravityState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/GravityState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   // @brief default ctor
   constexpr GravityState();
 
-  // Ctor Parameters [CppParam { name: "gravity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "gravity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr GravityState(::UnityEngine::Vector3 gravity) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -53,6 +53,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
+  /// [InputControl(displayName = "Gravity", processors = "CompensateDirection", noisy = true)]
   /// @brief Field gravity, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 gravity;
 

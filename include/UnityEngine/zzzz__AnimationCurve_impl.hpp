@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimationCurve.hpp"
+// IWYU pragma private; include "UnityEngine/AnimationCurve.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
@@ -752,7 +752,7 @@ inline ::UnityEngine::AnimationCurve* UnityEngine::AnimationCurve::EaseInOut(flo
                                                            { "EaseInOut", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AnimationCurve*>(nullptr, ___internal_method, timeStart, valueStart, timeEnd, valueEnd);
 }
-inline void UnityEngine::AnimationCurve::_ctor(::ArrayW<::UnityEngine::Keyframe> keys) {
+inline void UnityEngine::AnimationCurve::_ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::Keyframe> keys) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimationCurve*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Keyframe>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keys);
@@ -865,12 +865,14 @@ inline void UnityEngine::AnimationCurve::SmoothTangents_Injected(::System::IntPt
                                                            { "SmoothTangents_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, index, weight);
 }
-inline ::UnityEngine::AnimationCurve* UnityEngine::AnimationCurve::New_ctor(::ArrayW<::UnityEngine::Keyframe> keys) {
+inline ::UnityEngine::AnimationCurve* UnityEngine::AnimationCurve::New_ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::Keyframe> keys) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AnimationCurve*>(keys));
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::AnimationCurve* UnityEngine::AnimationCurve::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AnimationCurve*>());
 }
+/// @brief [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
 inline ::UnityEngine::AnimationCurve* UnityEngine::AnimationCurve::New_ctor(::System::IntPtr ptr, bool ownMemory) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AnimationCurve*>(ptr, ownMemory));
 }

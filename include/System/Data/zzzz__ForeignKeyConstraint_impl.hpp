@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\ForeignKeyConstraint.hpp"
+// IWYU pragma private; include "System/Data/ForeignKeyConstraint.hpp"
 #include "System/Data/zzzz__AcceptRejectRule_impl.hpp"
 #include "System/Data/zzzz__Constraint_impl.hpp"
 #include "System/Data/zzzz__DataKey_impl.hpp"
@@ -867,6 +867,7 @@ inline ::System::Data::ForeignKeyConstraint* System::Data::ForeignKeyConstraint:
                                                                                           ::ArrayW<::System::Data::DataColumn*> childColumns) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Data::ForeignKeyConstraint*>(constraintName, parentColumns, childColumns));
 }
+/// @brief [Browsable(false)]
 inline ::System::Data::ForeignKeyConstraint* System::Data::ForeignKeyConstraint::New_ctor(::StringW constraintName, ::StringW parentTableName, ::ArrayW<::StringW> parentColumnNames,
                                                                                           ::ArrayW<::StringW> childColumnNames, ::System::Data::AcceptRejectRule acceptRejectRule,
                                                                                           ::System::Data::Rule deleteRule, ::System::Data::Rule updateRule) {

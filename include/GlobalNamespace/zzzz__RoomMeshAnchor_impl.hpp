@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RoomMeshAnchor.hpp"
+// IWYU pragma private; include "GlobalNamespace/RoomMeshAnchor.hpp"
+#include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSemanticLabels_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_impl.hpp"
@@ -53,8 +54,8 @@ constexpr GlobalNamespace::RoomMeshAnchor_GetTriangleMeshCountsJob::operator ::U
 constexpr ::Unity::Jobs::IJob* GlobalNamespace::RoomMeshAnchor_GetTriangleMeshCountsJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: Some("{}") }, CppParam { name: "Results", ty: "::Unity::Collections::NativeArray_1<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Results", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RoomMeshAnchor_GetTriangleMeshCountsJob::RoomMeshAnchor_GetTriangleMeshCountsJob(::GlobalNamespace::OVRSpace Space,
                                                                                                               ::Unity::Collections::NativeArray_1<int32_t> Results) noexcept {
   this->Space = Space;
@@ -86,9 +87,9 @@ constexpr GlobalNamespace::RoomMeshAnchor_GetTriangleMeshJob::operator ::Unity::
 constexpr ::Unity::Jobs::IJob* GlobalNamespace::RoomMeshAnchor_GetTriangleMeshJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: Some("{}") }, CppParam { name: "Vertices", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Vertices", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Triangles", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RoomMeshAnchor_GetTriangleMeshJob::RoomMeshAnchor_GetTriangleMeshJob(::GlobalNamespace::OVRSpace Space,
                                                                                                   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices,
                                                                                                   ::Unity::Collections::NativeArray_1<int32_t> Triangles) noexcept {
@@ -122,8 +123,9 @@ constexpr GlobalNamespace::RoomMeshAnchor_PopulateMeshDataJob::operator ::Unity:
 constexpr ::Unity::Jobs::IJob* GlobalNamespace::RoomMeshAnchor_PopulateMeshDataJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Triangles", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "MeshData", ty: "::UnityEngine::Mesh_MeshData", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Triangles",
+// ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MeshData", ty: "::UnityEngine::Mesh_MeshData", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RoomMeshAnchor_PopulateMeshDataJob::RoomMeshAnchor_PopulateMeshDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices,
                                                                                                     ::Unity::Collections::NativeArray_1<int32_t> Triangles,
                                                                                                     ::UnityEngine::Mesh_MeshData MeshData) noexcept {
@@ -157,36 +159,45 @@ constexpr GlobalNamespace::RoomMeshAnchor_BakeMeshJob::operator ::Unity::Jobs::I
 constexpr ::Unity::Jobs::IJob* GlobalNamespace::RoomMeshAnchor_BakeMeshJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "MeshID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Convex", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "MeshID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Convex", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::RoomMeshAnchor_BakeMeshJob::RoomMeshAnchor_BakeMeshJob(int32_t MeshID, bool Convex) noexcept {
   this->MeshID = MeshID;
   this->Convex = Convex;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RoomMeshAnchor_BakeMeshJob::RoomMeshAnchor_BakeMeshJob() {}
-template <typename T> inline void GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::MoveNext() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename T> constexpr GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::RoomMeshAnchor>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_component_5__2", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::RoomMeshAnchor>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_component_5__2", ty: "T", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 constexpr ::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::RoomMeshAnchor__EnableComponent_d__16_1(int32_t __1__state,
                                                                                                                  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder,
                                                                                                                  ::UnityW<::GlobalNamespace::RoomMeshAnchor> __4__this, T _component_5__2,
@@ -198,7 +209,9 @@ constexpr ::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::RoomMes
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::RoomMeshAnchor__EnableComponent_d__16_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::GlobalNamespace::RoomMeshAnchor__EnableComponent_d__16_1<T>::RoomMeshAnchor__EnableComponent_d__16_1() {}
 //  Writing Method size for method: ::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15._ctor
 template <>
 
@@ -424,6 +437,7 @@ inline ::System::Object* GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15* GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15*>(__1__state));
 }
@@ -497,11 +511,11 @@ constexpr GlobalNamespace::RoomMeshAnchor__Initialize_d__14::operator ::System::
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::RoomMeshAnchor__Initialize_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::RoomMeshAnchor>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "anchor", ty: "::GlobalNamespace::OVRAnchor", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRSemanticLabels>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRTriangleMesh>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::RoomMeshAnchor>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "anchor", ty: "::GlobalNamespace::OVRAnchor", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRSemanticLabels>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRTriangleMesh>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RoomMeshAnchor__Initialize_d__14::RoomMeshAnchor__Initialize_d__14(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::RoomMeshAnchor> __4__this, ::GlobalNamespace::OVRAnchor anchor,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRSemanticLabels> __u__1,
@@ -729,7 +743,9 @@ inline bool GlobalNamespace::RoomMeshAnchor::get_Valid() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "get_Valid", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-template <typename T> inline bool GlobalNamespace::RoomMeshAnchor::IsComponentEnabled() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool GlobalNamespace::RoomMeshAnchor::IsComponentEnabled() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "IsComponentEnabled", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -748,7 +764,9 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::RoomMeshAnchor::Gene
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "GenerateRoomMesh", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-template <typename T> inline ::System::Threading::Tasks::Task_1<T>* GlobalNamespace::RoomMeshAnchor::EnableComponent() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRAnchorComponent_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::System::Threading::Tasks::Task_1<T>* GlobalNamespace::RoomMeshAnchor::EnableComponent() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomMeshAnchor*>(), { "EnableComponent", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

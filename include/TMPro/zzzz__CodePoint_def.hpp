@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\CodePoint.hpp"
+// IWYU pragma private; include "TMPro/CodePoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ protected:
   constexpr CodePoint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CodePoint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CodePoint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CodePoint(CodePoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CodePoint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CodePoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CodePoint(CodePoint const&) = delete;
+  CodePoint(CodePointconst&) = delete;
 
   /// @brief Field APOSTROPHE offset 0xffffffff size 0x4
   static constexpr uint32_t APOSTROPHE{ static_cast<uint32_t>(0x27u) };

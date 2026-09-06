@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\DiagnosticsConfigurationHandler.hpp"
+// IWYU pragma private; include "System/Diagnostics/DiagnosticsConfigurationHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class DiagnosticsConfigurationHandler;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::DiagnosticsConfigurationHandler*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::DiagnosticsConfigurationHandler*, "System.Diagnostics", "DiagnosticsConfigurationHandler");
+// [Obsolete("This class has been deprecated.  http://go.microsoft.com/fwlink/?linkid=14202")]
 // Dependencies System.Object
 namespace System::Diagnostics {
 // Is value type: false
@@ -48,13 +49,13 @@ protected:
   constexpr DiagnosticsConfigurationHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsConfigurationHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsConfigurationHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticsConfigurationHandler(DiagnosticsConfigurationHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsConfigurationHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsConfigurationHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticsConfigurationHandler(DiagnosticsConfigurationHandler const&) = delete;
+  DiagnosticsConfigurationHandler(DiagnosticsConfigurationHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11839 };

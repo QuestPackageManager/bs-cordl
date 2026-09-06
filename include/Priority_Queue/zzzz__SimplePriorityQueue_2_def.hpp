@@ -1,20 +1,27 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue\SimplePriorityQueue_2.hpp"
+// IWYU pragma private; include "Priority_Queue/SimplePriorityQueue_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimplePriorityQueue_2)
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TItem, ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>*> && ::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class GenericPriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class IPriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class SimplePriorityQueue_2_SimpleNode;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class SimplePriorityQueue_2_SimpleNode;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -45,20 +52,26 @@ template <typename T> class Comparison_1;
 }
 // Forward declare root types
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class SimplePriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class SimplePriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class SimplePriorityQueue_2_SimpleNode;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class SimplePriorityQueue_2_SimpleNode;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::SimplePriorityQueue_2);
 MARK_GEN_REF_T_PTR(::Priority_Queue::SimplePriorityQueue_2_SimpleNode);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::SimplePriorityQueue_2, "Priority_Queue", "SimplePriorityQueue`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::SimplePriorityQueue_2_SimpleNode, "Priority_Queue", "SimplePriorityQueue`2/SimpleNode");
-// Dependencies Priority_Queue.GenericPriorityQueueNode`1<TPriority>
+// [Nullable(new[] { 0, 1 })]
+// Dependencies Priority_Queue.GenericPriorityQueueNode`1<TPriority>, System.IComparable`1<T>
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.SimplePriorityQueue`2/SimpleNode<TItem,TPriority>
 class CORDL_TYPE SimplePriorityQueue_2_SimpleNode : public ::Priority_Queue::GenericPriorityQueueNode_1<TPriority> {
@@ -80,9 +93,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TItem data);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TItem get_Data();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Data(TItem value);
 
@@ -92,17 +107,18 @@ protected:
   constexpr SimplePriorityQueue_2_SimpleNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2_SimpleNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2_SimpleNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2_SimpleNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2_SimpleNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNode const&) = delete;
+  SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20493 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Data>k__BackingField, offset: 0x28, size: 0x8, def value: None
   TItem ____Data_k__BackingField;
 
@@ -110,10 +126,13 @@ public:
 };
 // Non member Declarations
 } // namespace Priority_Queue
-// Dependencies System.Object
+// [NullableContext(1)]
+// [Nullable(0)]
+// Dependencies System.IComparable`1<T>, System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
 // Is value type: false
 // CS Name: Priority_Queue.SimplePriorityQueue`2<TItem,TPriority>
 class CORDL_TYPE SimplePriorityQueue_2 : public ::System::Object {
@@ -147,7 +166,7 @@ public:
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
   /// @brief Method AddToNodeCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddToNodeCache(::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* node);
+  inline void AddToNodeCache(/* [Nullable(new[] { 1, 0, 0 })] */ ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* node);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
@@ -197,7 +216,7 @@ public:
   inline void Remove(TItem item);
 
   /// @brief Method RemoveFromNodeCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void RemoveFromNodeCache(::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* node);
+  inline void RemoveFromNodeCache(/* [Nullable(new[] { 1, 0, 0 })] */ ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* node);
 
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
@@ -209,7 +228,7 @@ public:
   inline bool TryFirst(::by_ref<TItem> first);
 
   /// @brief Method TryGetPriority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetPriority(TItem item, ::by_ref<TPriority> priority);
+  inline bool TryGetPriority(TItem item, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<TPriority> priority);
 
   /// @brief Method TryRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryRemove(TItem item);
@@ -280,13 +299,13 @@ protected:
   constexpr SimplePriorityQueue_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimplePriorityQueue_2(SimplePriorityQueue_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimplePriorityQueue_2(SimplePriorityQueue_2 const&) = delete;
+  SimplePriorityQueue_2(SimplePriorityQueue_2const&) = delete;
 
   /// @brief Field INITIAL_QUEUE_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t INITIAL_QUEUE_SIZE{ static_cast<int32_t>(0xa) };
@@ -294,12 +313,15 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20494 };
 
+  /// [Nullable(new[] { 1, 1, 0, 0, 1 })]
   /// @brief Field _queue, offset: 0x10, size: 0x8, def value: None
   ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>* ____queue;
 
+  /// [Nullable(new[] { 1, 1, 1, 1, 0, 0 })]
   /// @brief Field _itemToNodesCache, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*>* ____itemToNodesCache;
 
+  /// [Nullable(new[] { 1, 1, 0, 0 })]
   /// @brief Field _nullNodesCache, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>* ____nullNodesCache;
 

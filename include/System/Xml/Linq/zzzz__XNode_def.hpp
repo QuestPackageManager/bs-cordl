@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XNode.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   /// @brief Method AppendText, addr 0x61ab6f0, size 0x4, virtual true, abstract: false, final false
   inline void AppendText(::System::Text::StringBuilder* sb);
 
-  /// @brief Method CloneNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   /// @brief Method GetXmlString, addr 0x61ab318, size 0x3d8, virtual false, abstract: false, final false
@@ -49,7 +49,7 @@ public:
   /// @brief Method ToString, addr 0x61ab228, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method WriteTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::System::Xml::Linq::XNode* const& __cordl_internal_get_next() const;
@@ -67,13 +67,13 @@ protected:
   constexpr XNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XNode(XNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XNode(XNode const&) = delete;
+  XNode(XNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21990 };

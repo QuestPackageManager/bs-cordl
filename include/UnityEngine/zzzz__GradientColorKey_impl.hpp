@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GradientColorKey.hpp"
+// IWYU pragma private; include "UnityEngine/GradientColorKey.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__GradientColorKey_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -21,7 +21,8 @@ inline void UnityEngine::GradientColorKey::_ctor(::UnityEngine::Color col, float
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GradientColorKey>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, col, time);
 }
-// Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::GradientColorKey::GradientColorKey(::UnityEngine::Color color, float_t time) noexcept {
   this->color = color;
   this->time = time;

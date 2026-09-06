@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConventionAssemblySelectionBinder.hpp"
+// IWYU pragma private; include "Zenject/ConventionAssemblySelectionBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::Zenject::ConventionAssemblySelectionBinder___c__DisplayClass12_0*);
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionAssemblySelectionBinder*, "Zenject", "ConventionAssemblySelectionBinder");
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionAssemblySelectionBinder___c*, "Zenject", "ConventionAssemblySelectionBinder/<>c");
 DEFINE_IL2CPP_CLASS(::Zenject::ConventionAssemblySelectionBinder___c__DisplayClass12_0*, "Zenject", "ConventionAssemblySelectionBinder/<>c__DisplayClass12_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -71,6 +72,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e4bd8c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4bdd0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -91,13 +93,13 @@ protected:
   constexpr ConventionAssemblySelectionBinder___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConventionAssemblySelectionBinder___c(ConventionAssemblySelectionBinder___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionAssemblySelectionBinder___c(ConventionAssemblySelectionBinder___c const&) = delete;
+  ConventionAssemblySelectionBinder___c(ConventionAssemblySelectionBinder___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14035 };
@@ -108,6 +110,7 @@ public:
 static_assert(sizeof(::Zenject::ConventionAssemblySelectionBinder___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -132,6 +135,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e4bfc0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4c004, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -144,13 +148,13 @@ protected:
   constexpr ConventionAssemblySelectionBinder___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConventionAssemblySelectionBinder___c__DisplayClass12_0(ConventionAssemblySelectionBinder___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionAssemblySelectionBinder___c__DisplayClass12_0(ConventionAssemblySelectionBinder___c__DisplayClass12_0 const&) = delete;
+  ConventionAssemblySelectionBinder___c__DisplayClass12_0(ConventionAssemblySelectionBinder___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14036 };
@@ -166,6 +170,7 @@ static_assert(offsetof(::Zenject::ConventionAssemblySelectionBinder___c__Display
 static_assert(sizeof(::Zenject::ConventionAssemblySelectionBinder___c__DisplayClass12_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -186,13 +191,13 @@ public:
   inline void FromAllAssemblies();
 
   /// @brief Method FromAssemblies, addr 0x6e4bb9c, size 0x4, virtual false, abstract: false, final false
-  inline void FromAssemblies(::ArrayW<::System::Reflection::Assembly*> assemblies);
+  inline void FromAssemblies(/* [ParamArray] */ ::ArrayW<::System::Reflection::Assembly*> assemblies);
 
   /// @brief Method FromAssemblies, addr 0x6e4ba30, size 0xc4, virtual false, abstract: false, final false
   inline void FromAssemblies(::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* assemblies);
 
   /// @brief Method FromAssembliesContaining, addr 0x6e4b8f4, size 0x4, virtual false, abstract: false, final false
-  inline void FromAssembliesContaining(::ArrayW<::System::Type*> types);
+  inline void FromAssembliesContaining(/* [ParamArray] */ ::ArrayW<::System::Type*> types);
 
   /// @brief Method FromAssembliesContaining, addr 0x6e4b8f8, size 0x138, virtual false, abstract: false, final false
   inline void FromAssembliesContaining(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
@@ -220,9 +225,11 @@ public:
   /// @brief Method .ctor, addr 0x6e4b8d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ConventionBindInfo* bindInfo);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BindInfo, addr 0x6e4b8e0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionBindInfo* get_BindInfo();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BindInfo, addr 0x6e4b8e8, size 0x8, virtual false, abstract: false, final false
   inline void set_BindInfo(::Zenject::ConventionBindInfo* value);
 
@@ -232,17 +239,18 @@ protected:
   constexpr ConventionAssemblySelectionBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConventionAssemblySelectionBinder(ConventionAssemblySelectionBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConventionAssemblySelectionBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConventionAssemblySelectionBinder(ConventionAssemblySelectionBinder const&) = delete;
+  ConventionAssemblySelectionBinder(ConventionAssemblySelectionBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14037 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BindInfo>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ConventionBindInfo* ____BindInfo_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionStage.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionStage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,20 +65,22 @@ protected:
   constexpr MissionStage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionStage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionStage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionStage(MissionStage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionStage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionStage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionStage(MissionStage const&) = delete;
+  MissionStage(MissionStageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15270 };
 
+  /// [SerializeField]
   /// @brief Field _minimumMissionsToUnlock, offset: 0x20, size: 0x4, def value: None
   int32_t ____minimumMissionsToUnlock;
 
+  /// [SerializeField]
   /// @brief Field _rectTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 

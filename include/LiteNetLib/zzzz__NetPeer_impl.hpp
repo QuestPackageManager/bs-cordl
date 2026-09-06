@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NetPeer.hpp"
+// IWYU pragma private; include "LiteNetLib/NetPeer.hpp"
 #include "LiteNetLib/zzzz__BaseChannel_impl.hpp"
 #include "LiteNetLib/zzzz__ConnectionState_impl.hpp"
 #include "LiteNetLib/zzzz__NetPacket_impl.hpp"

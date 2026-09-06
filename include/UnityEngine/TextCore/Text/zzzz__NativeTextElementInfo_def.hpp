@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\NativeTextElementInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/NativeTextElementInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ struct NativeTextElementInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::NativeTextElementInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::NativeTextElementInfo, "UnityEngine.TextCore.Text", "NativeTextElementInfo");
+// [NativeHeader("Modules/TextCoreTextEngine/Native/TextElementInfo.h")]
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "UnityEngine.IMGUIModule" })]
 // Dependencies UnityEngine.TextCore.Text.TextCoreVertex
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -25,10 +27,10 @@ public:
   // @brief default ctor
   constexpr NativeTextElementInfo();
 
-  // Ctor Parameters [CppParam { name: "glyphID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bottomLeft", ty: "::UnityEngine::TextCore::Text::TextCoreVertex", modifiers: "",
-  // def_value: None }, CppParam { name: "topLeft", ty: "::UnityEngine::TextCore::Text::TextCoreVertex", modifiers: "", def_value: None }, CppParam { name: "topRight", ty:
-  // "::UnityEngine::TextCore::Text::TextCoreVertex", modifiers: "", def_value: None }, CppParam { name: "bottomRight", ty: "::UnityEngine::TextCore::Text::TextCoreVertex", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "glyphID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomLeft", ty: "::UnityEngine::TextCore::Text::TextCoreVertex",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "topLeft", ty: "::UnityEngine::TextCore::Text::TextCoreVertex", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "topRight", ty: "::UnityEngine::TextCore::Text::TextCoreVertex", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomRight", ty:
+  // "::UnityEngine::TextCore::Text::TextCoreVertex", modifiers: "", def_value: None, comment: None }]
   constexpr NativeTextElementInfo(int32_t glyphID, ::UnityEngine::TextCore::Text::TextCoreVertex bottomLeft, ::UnityEngine::TextCore::Text::TextCoreVertex topLeft,
                                   ::UnityEngine::TextCore::Text::TextCoreVertex topRight, ::UnityEngine::TextCore::Text::TextCoreVertex bottomRight) noexcept;
 

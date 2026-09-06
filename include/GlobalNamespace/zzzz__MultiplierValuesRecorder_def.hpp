@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplierValuesRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplierValuesRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,8 @@ public:
   // @brief default ctor
   constexpr MultiplierValuesRecorder_MultiplierValue();
 
-  // Ctor Parameters [CppParam { name: "multiplier", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "multiplier", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr MultiplierValuesRecorder_MultiplierValue(int32_t multiplier, float_t time) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -71,6 +72,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplierValuesRecorder_MultiplierVal
 static_assert(sizeof(::GlobalNamespace::MultiplierValuesRecorder_MultiplierValue) == 0x8, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplierValuesRecorder")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -134,20 +136,22 @@ protected:
   constexpr MultiplierValuesRecorder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplierValuesRecorder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplierValuesRecorder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplierValuesRecorder(MultiplierValuesRecorder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplierValuesRecorder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplierValuesRecorder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplierValuesRecorder(MultiplierValuesRecorder const&) = delete;
+  MultiplierValuesRecorder(MultiplierValuesRecorderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6206 };
 
+  /// [Inject]
   /// @brief Field _scoreController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 

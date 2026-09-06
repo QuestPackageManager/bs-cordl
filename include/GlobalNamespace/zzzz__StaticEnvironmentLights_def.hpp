@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StaticEnvironmentLights.hpp"
+// IWYU pragma private; include "GlobalNamespace/StaticEnvironmentLights.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class StaticEnvironmentLights;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StaticEnvironmentLights*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StaticEnvironmentLights*, "", "StaticEnvironmentLights");
+// [AddComponentMenu("Beat Saber/Gameplay/StaticEnvironmentLights")]
 // Dependencies UnityEngine.Color, UnityEngine.Material, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -54,20 +55,22 @@ protected:
   constexpr StaticEnvironmentLights();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticEnvironmentLights", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticEnvironmentLights", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticEnvironmentLights(StaticEnvironmentLights&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticEnvironmentLights", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticEnvironmentLights", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticEnvironmentLights(StaticEnvironmentLights const&) = delete;
+  StaticEnvironmentLights(StaticEnvironmentLightsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5987 };
 
+  /// [SerializeField]
   /// @brief Field _lightColors, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color> ____lightColors;
 
+  /// [SerializeField]
   /// @brief Field _materials, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Material>> ____materials;
 

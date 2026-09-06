@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerGameplayAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerGameplayAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   /// @brief Field tweeningManager, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_tweeningManager, put = __cordl_internal_set_tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> tweeningManager;
 
-  /// @brief Method AnimateNewLeaderSelected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
   /// @brief Method HandleNewLeaderWasSelected, addr 0x59d7e48, size 0xf4, virtual false, abstract: false, final false
@@ -158,44 +158,56 @@ protected:
   constexpr MultiplayerGameplayAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerGameplayAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerGameplayAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerGameplayAnimator(MultiplayerGameplayAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerGameplayAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerGameplayAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerGameplayAnimator(MultiplayerGameplayAnimator const&) = delete;
+  MultiplayerGameplayAnimator(MultiplayerGameplayAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6142 };
 
+  /// [SerializeField]
   /// @brief Field _activeLightsColor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____activeLightsColor;
 
+  /// [SerializeField]
   /// @brief Field _leadingLightsColor, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____leadingLightsColor;
 
+  /// [SerializeField]
   /// @brief Field _failedLightsColor, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____failedLightsColor;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _leadingSwitchCrossFadeDuration, offset: 0x38, size: 0x4, def value: None
   float_t ____leadingSwitchCrossFadeDuration;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _gameplayLightsAnimators, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightsAnimator>> ____gameplayLightsAnimators;
 
+  /// [SerializeField]
   /// @brief Field _allLightsAnimators, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightsAnimator>> ____allLightsAnimators;
 
+  /// [Inject]
   /// @brief Field _leadPlayerProvider, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider> ____leadPlayerProvider;
 
+  /// [Inject]
   /// @brief Field _multiplayerController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
+  /// [Inject]
   /// @brief Field tweeningManager, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ___tweeningManager;
 
+  /// [Inject]
   /// @brief Field connectedPlayer, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ___connectedPlayer;
 

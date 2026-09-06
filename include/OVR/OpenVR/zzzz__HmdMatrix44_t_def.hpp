@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\HmdMatrix44_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/HmdMatrix44_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,13 +24,14 @@ public:
   // @brief default ctor
   constexpr HmdMatrix44_t();
 
-  // Ctor Parameters [CppParam { name: "m0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m2", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "m3", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m4", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m5", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m6", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m7", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m8", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m9", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m10", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "m11", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m12", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m13", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m14", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m15", ty: "float_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m1", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m2", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m3", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m4", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m5", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m6", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m7", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m8", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m9", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m10", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m11", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m12", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m13", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m14", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m15", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr HmdMatrix44_t(float_t m0, float_t m1, float_t m2, float_t m3, float_t m4, float_t m5, float_t m6, float_t m7, float_t m8, float_t m9, float_t m10, float_t m11, float_t m12, float_t m13,
                           float_t m14, float_t m15) noexcept;
 

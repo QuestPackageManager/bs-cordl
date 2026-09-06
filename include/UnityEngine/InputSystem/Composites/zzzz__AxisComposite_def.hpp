@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Composites\AxisComposite.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/AxisComposite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   // @brief default ctor
   constexpr AxisComposite_WhichSideWins();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AxisComposite_WhichSideWins(int32_t value__) noexcept;
 
   /// @brief Field Negative value: I32(2)
@@ -85,6 +85,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::AxisComposite_Whi
 static_assert(sizeof(::UnityEngine::InputSystem::Composites::AxisComposite_WhichSideWins) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Composites
+// [DisplayStringFormat("{negative}/{positive}")]
+// [DisplayName("Positive/Negative Binding")]
 // Dependencies UnityEngine.InputSystem.Composites.AxisComposite::WhichSideWins, UnityEngine.InputSystem.InputBindingComposite`1<TValue>
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
@@ -161,29 +163,35 @@ protected:
   constexpr AxisComposite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AxisComposite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AxisComposite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AxisComposite(AxisComposite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AxisComposite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AxisComposite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AxisComposite(AxisComposite const&) = delete;
+  AxisComposite(AxisCompositeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9209 };
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field negative, offset: 0x10, size: 0x4, def value: None
   int32_t ___negative;
 
+  /// [InputControl(layout = "Axis")]
   /// @brief Field positive, offset: 0x14, size: 0x4, def value: None
   int32_t ___positive;
 
+  /// [Tooltip("Value to return when the negative side is fully actuated.")]
   /// @brief Field minValue, offset: 0x18, size: 0x4, def value: None
   float_t ___minValue;
 
+  /// [Tooltip("Value to return when the positive side is fully actuated.")]
   /// @brief Field maxValue, offset: 0x1c, size: 0x4, def value: None
   float_t ___maxValue;
 
+  /// [Tooltip("If both the positive and negative side are actuated, decides what value to return. \'Neither\' (default) means that the resulting value is the midpoint between min and max.
+  /// \'Positive\' means that max will be returned. \'Negative\' means that min will be returned.")]
   /// @brief Field whichSideWins, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Composites::AxisComposite_WhichSideWins ___whichSideWins;
 

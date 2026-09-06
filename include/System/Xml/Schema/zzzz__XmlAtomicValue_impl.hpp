@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlAtomicValue.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlAtomicValue.hpp"
 #include "System/Xml/XPath/zzzz__XPathItem_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -59,9 +59,9 @@ constexpr ::System::DateTime const& System::Xml::Schema::XmlAtomicValue_Union::_
 constexpr void System::Xml::Schema::XmlAtomicValue_Union::__cordl_internal_set_dtVal(::System::DateTime value) {
   this->___dtVal = value;
 }
-// Ctor Parameters [CppParam { name: "boolVal", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "dblVal", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "i64Val", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "i32Val", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "dtVal", ty:
-// "::System::DateTime", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "boolVal", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dblVal", ty: "double_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "i64Val", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "i32Val", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "dtVal", ty: "::System::DateTime", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::XmlAtomicValue_Union::XmlAtomicValue_Union(bool boolVal, double_t dblVal, int64_t i64Val, int32_t i32Val, ::System::DateTime dtVal) noexcept {
   this->boolVal = boolVal;
   this->dblVal = dblVal;

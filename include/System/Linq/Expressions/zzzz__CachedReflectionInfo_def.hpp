@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\CachedReflectionInfo.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/CachedReflectionInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -158,13 +158,13 @@ protected:
   constexpr CachedReflectionInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CachedReflectionInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CachedReflectionInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CachedReflectionInfo(CachedReflectionInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CachedReflectionInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CachedReflectionInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CachedReflectionInfo(CachedReflectionInfo const&) = delete;
+  CachedReflectionInfo(CachedReflectionInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16104 };

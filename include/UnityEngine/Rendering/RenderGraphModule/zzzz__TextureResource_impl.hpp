@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TextureResource.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureResource.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphResource_2_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureDesc_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureResource_def.hpp"

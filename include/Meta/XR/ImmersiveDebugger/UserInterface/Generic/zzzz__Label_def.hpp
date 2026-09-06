@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Label.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Label.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,7 @@ public:
   /// @brief Method get_Content, addr 0x5a5a264, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_Content();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Text, addr 0x5a5c96c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Text> get_Text();
 
@@ -73,6 +74,7 @@ public:
   /// @brief Method set_Content, addr 0x5a5a2b0, size 0x20, virtual false, abstract: false, final false
   inline void set_Content(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Text, addr 0x5a5c974, size 0x8, virtual false, abstract: false, final false
   inline void set_Text(::UnityEngine::UI::Text* value);
 
@@ -85,17 +87,18 @@ protected:
   constexpr Label();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Label(Label&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Label(Label const&) = delete;
+  Label(Labelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18401 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Text>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ____Text_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Selectable.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Selectable.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/UI/zzzz__ColorBlock_impl.hpp"
 #include "UnityEngine/UI/zzzz__Navigation_impl.hpp"
@@ -31,7 +31,7 @@
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Selectable_Transition::Selectable_Transition(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -41,7 +41,7 @@ constexpr ::UnityEngine::UI::Selectable_Transition UnityEngine::UI::Selectable_T
 constexpr ::UnityEngine::UI::Selectable_Transition UnityEngine::UI::Selectable_Transition::ColorTint{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UI::Selectable_Transition UnityEngine::UI::Selectable_Transition::SpriteSwap{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UI::Selectable_Transition UnityEngine::UI::Selectable_Transition::Animation{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Selectable_SelectionState::Selectable_SelectionState(int32_t value__) noexcept {
   this->value__ = value__;
 }

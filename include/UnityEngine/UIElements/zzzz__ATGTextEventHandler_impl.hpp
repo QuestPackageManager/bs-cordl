@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ATGTextEventHandler.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ATGTextEventHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ATGTextEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"

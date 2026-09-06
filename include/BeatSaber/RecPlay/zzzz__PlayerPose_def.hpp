@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PlayerPose.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PlayerPose.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr PlayerPose();
 
-  // Ctor Parameters [CppParam { name: "head", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "leftHand", ty: "::UnityEngine::Pose", modifiers: "", def_value: None },
-  // CppParam { name: "rightHand", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "head", ty: "::UnityEngine::Pose", modifiers: "", def_value: None, comment: None }, CppParam { name: "leftHand", ty: "::UnityEngine::Pose", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "rightHand", ty: "::UnityEngine::Pose", modifiers: "", def_value: None, comment: None }]
   constexpr PlayerPose(::UnityEngine::Pose head, ::UnityEngine::Pose leftHand, ::UnityEngine::Pose rightHand) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

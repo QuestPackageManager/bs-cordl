@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerRemovePackageAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerRemovePackageAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class PackageManagerRemovePackageAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic*, "UnityEditor.Analytics", "PackageManagerRemovePackageAnalytic");
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEditor.Analytics.PackageManagerBaseAnalytic
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -19,6 +21,7 @@ namespace UnityEditor::Analytics {
 class CORDL_TYPE PackageManagerRemovePackageAnalytic : public ::UnityEditor::Analytics::PackageManagerBaseAnalytic {
 public:
   // Declarations
+  /// [RequiredByNativeCode]
   /// @brief Method CreatePackageManagerRemovePackageAnalytic, addr 0x6e25644, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* CreatePackageManagerRemovePackageAnalytic();
 
@@ -33,13 +36,13 @@ protected:
   constexpr PackageManagerRemovePackageAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerRemovePackageAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerRemovePackageAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerRemovePackageAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerRemovePackageAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalytic const&) = delete;
+  PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23011 };

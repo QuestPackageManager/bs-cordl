@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Compression\CompressionLevel.hpp"
+// IWYU pragma private; include "System/IO/Compression/CompressionLevel.hpp"
 #include "System/IO/Compression/zzzz__CompressionLevel_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IO::Compression::CompressionLevel::CompressionLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLLiveQuery.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLLiveQuery.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLRequest_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLLiveQuery_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"

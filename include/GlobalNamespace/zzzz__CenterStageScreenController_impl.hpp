@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CenterStageScreenController.hpp"
+// IWYU pragma private; include "GlobalNamespace/CenterStageScreenController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"

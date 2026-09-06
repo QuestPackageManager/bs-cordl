@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\CompilerServices\Constant.hpp"
+// IWYU pragma private; include "Unity/Burst/CompilerServices/Constant.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__Constant_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::Constant.IsConstantExpression
@@ -15,7 +15,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(void*)>(&::Unity
     return ___internal_method;
   }
 };
-template <typename T> inline bool Unity::Burst::CompilerServices::Constant::IsConstantExpression(T t) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Unity::Burst::CompilerServices::Constant::IsConstantExpression(T t) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::CompilerServices::Constant*>(), { "IsConstantExpression", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BaseNoteVisuals.hpp"
+// IWYU pragma private; include "GlobalNamespace/BaseNoteVisuals.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class BaseNoteVisuals;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BaseNoteVisuals*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BaseNoteVisuals*, "", "BaseNoteVisuals");
+// [AddComponentMenu("Beat Saber/Gameplay/BaseNoteVisuals")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -88,20 +89,22 @@ protected:
   constexpr BaseNoteVisuals();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseNoteVisuals", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseNoteVisuals", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseNoteVisuals(BaseNoteVisuals&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseNoteVisuals", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseNoteVisuals", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseNoteVisuals(BaseNoteVisuals const&) = delete;
+  BaseNoteVisuals(BaseNoteVisualsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5646 };
 
+  /// [SerializeField]
   /// @brief Field _cutoutAnimateEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CutoutAnimateEffect> ____cutoutAnimateEffect;
 
+  /// [SerializeField]
   /// @brief Field _noteController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteControllerBase> ____noteController;
 

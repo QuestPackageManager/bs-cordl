@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ToggleWithCallbacks.hpp"
+// IWYU pragma private; include "HMUI/ToggleWithCallbacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr ToggleWithCallbacks_SelectionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ToggleWithCallbacks_SelectionState(int32_t value__) noexcept;
 
   /// @brief Field Disabled value: I32(4)
@@ -124,12 +124,14 @@ public:
   /// @brief Method .ctor, addr 0x58911d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_stateDidChangeEvent, addr 0x588c758, size 0xc0, virtual false, abstract: false, final false
   inline void add_stateDidChangeEvent(::System::Action_1<::HMUI::ToggleWithCallbacks_SelectionState>* value);
 
   /// @brief Method get_selectionState, addr 0x588cb94, size 0x78, virtual false, abstract: false, final false
   inline ::HMUI::ToggleWithCallbacks_SelectionState get_selectionState();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_stateDidChangeEvent, addr 0x588cacc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_stateDidChangeEvent(::System::Action_1<::HMUI::ToggleWithCallbacks_SelectionState>* value);
 
@@ -139,17 +141,18 @@ protected:
   constexpr ToggleWithCallbacks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleWithCallbacks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleWithCallbacks", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleWithCallbacks(ToggleWithCallbacks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleWithCallbacks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleWithCallbacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleWithCallbacks(ToggleWithCallbacks const&) = delete;
+  ToggleWithCallbacks(ToggleWithCallbacksconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19138 };
 
+  /// [CompilerGenerated]
   /// @brief Field stateDidChangeEvent, offset: 0x128, size: 0x8, def value: None
   ::System::Action_1<::HMUI::ToggleWithCallbacks_SelectionState>* ___stateDidChangeEvent;
 

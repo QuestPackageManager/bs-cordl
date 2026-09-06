@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HelpTooltipAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/HelpTooltipAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class HelpTooltipAttribute;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::HelpTooltipAttribute*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::HelpTooltipAttribute*, "", "HelpTooltipAttribute");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies UnityEngine.PropertyAttribute
 namespace GlobalNamespace {
 // Is value type: false
@@ -40,13 +42,13 @@ protected:
   constexpr HelpTooltipAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HelpTooltipAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpTooltipAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpTooltipAttribute(HelpTooltipAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HelpTooltipAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpTooltipAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpTooltipAttribute(HelpTooltipAttribute const&) = delete;
+  HelpTooltipAttribute(HelpTooltipAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23508 };

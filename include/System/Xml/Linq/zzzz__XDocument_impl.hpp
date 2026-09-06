@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XDocument.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XDocument.hpp"
 #include "System/Xml/Linq/zzzz__XContainer_impl.hpp"
+#include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/Xml/Linq/zzzz__XDocument_def.hpp"
 #include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
 #include "System/Xml/Linq/zzzz__XDeclaration_def.hpp"
@@ -246,7 +247,9 @@ inline ::System::Xml::Linq::XNode* System::Xml::Linq::XDocument::CloneNode() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::Linq::XDocument*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Linq::XNode*>(this, ___internal_method);
 }
-template <typename T> inline T System::Xml::Linq::XDocument::GetFirstNode() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Xml::Linq::XNode*>)
+inline T System::Xml::Linq::XDocument::GetFirstNode() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XDocument*>(), { "GetFirstNode", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);

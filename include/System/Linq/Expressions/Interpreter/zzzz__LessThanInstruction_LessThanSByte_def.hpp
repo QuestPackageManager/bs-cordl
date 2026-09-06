@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LessThanInstruction_LessThanSByte.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LessThanInstruction_LessThanSByte.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ protected:
   constexpr LessThanInstruction_LessThanSByte();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanSByte", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanSByte", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LessThanInstruction_LessThanSByte(LessThanInstruction_LessThanSByte&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanSByte", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanSByte", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LessThanInstruction_LessThanSByte(LessThanInstruction_LessThanSByte const&) = delete;
+  LessThanInstruction_LessThanSByte(LessThanInstruction_LessThanSByteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16409 };

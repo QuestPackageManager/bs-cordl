@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\IndexFilter.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/IndexFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,11 +28,11 @@ public:
   // @brief default ctor
   constexpr IndexFilter();
 
-  // Ctor Parameters [CppParam { name: "f", ty: "::BeatmapSaveDataCommon::IndexFilterType", modifiers: "", def_value: None }, CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "t", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "c", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "n", ty: "::BeatmapSaveDataCommon::IndexFilterRandomType", modifiers: "", def_value: None }, CppParam { name: "s", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "l", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "f", ty: "::BeatmapSaveDataCommon::IndexFilterType", modifiers: "", def_value: None, comment: None }, CppParam { name: "p", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "t", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "c", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "n", ty: "::BeatmapSaveDataCommon::IndexFilterRandomType", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "s", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "l", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType", modifiers: "", def_value: None, comment: None }]
   constexpr IndexFilter(::BeatmapSaveDataCommon::IndexFilterType f, int32_t p, int32_t t, int32_t r, int32_t c, ::BeatmapSaveDataCommon::IndexFilterRandomType n, int32_t s, float_t l,
                         ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType d) noexcept;
 

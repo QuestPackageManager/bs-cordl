@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HardwareCategories.hpp"
+// IWYU pragma private; include "GlobalNamespace/HardwareCategories.hpp"
 #include "GlobalNamespace/zzzz__HardwareCategory_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__HardwareCategories_def.hpp"

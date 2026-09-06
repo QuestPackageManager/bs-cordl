@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceNumInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceNumInfo.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceNumInfo_def.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceNumInfo_def.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceType_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer::InstanceNumInfo__InstanceNums_e__FixedBuffer(int32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -116,7 +116,7 @@ inline int32_t UnityEngine::Rendering::InstanceNumInfo::GetTotalInstanceNum() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceNumInfo>(), { "GetTotalInstanceNum", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "InstanceNums", ty: "::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "InstanceNums", ty: "::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceNumInfo::InstanceNumInfo(::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer InstanceNums) noexcept {
   this->InstanceNums = InstanceNums;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CreateServerViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/CreateServerViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,9 +63,11 @@ public:
   /// @brief Method Setup, addr 0x5960af8, size 0x44, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_0, addr 0x5960d4c, size 0x3c, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__10_1, addr 0x5960d88, size 0x3c, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
@@ -102,12 +104,14 @@ public:
   /// @brief Method .ctor, addr 0x5960d48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5960970, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
   /// @brief Method get_multiplayerModeSettings, addr 0x5960af0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5960a30, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
@@ -117,26 +121,30 @@ protected:
   constexpr CreateServerViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreateServerViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreateServerViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreateServerViewController(CreateServerViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreateServerViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreateServerViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreateServerViewController(CreateServerViewController const&) = delete;
+  CreateServerViewController(CreateServerViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6973 };
 
+  /// [SerializeField]
   /// @brief Field _createServerButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____createServerButton;
 
+  /// [SerializeField]
   /// @brief Field _cancelCreateServerButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____cancelCreateServerButton;
 
+  /// [SerializeField]
   /// @brief Field _createServerFormController, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CreateServerFormController> ____createServerFormController;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* ___didFinishEvent;
 

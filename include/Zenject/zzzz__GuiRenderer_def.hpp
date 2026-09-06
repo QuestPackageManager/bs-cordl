@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\GuiRenderer.hpp"
+// IWYU pragma private; include "Zenject/GuiRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ public:
   /// @brief Field _renderableManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__renderableManager, put = __cordl_internal_set__renderableManager)) ::Zenject::GuiRenderableManager* _renderableManager;
 
+  /// [Inject]
   /// @brief Method Construct, addr 0x6e91b74, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::Zenject::GuiRenderableManager* renderableManager);
 
@@ -46,6 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__renderableManager(::Zenject::GuiRenderableManager* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e91c80, size 0x2cc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -61,13 +63,13 @@ protected:
   constexpr GuiRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuiRenderer(GuiRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GuiRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GuiRenderer(GuiRenderer const&) = delete;
+  GuiRenderer(GuiRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14670 };

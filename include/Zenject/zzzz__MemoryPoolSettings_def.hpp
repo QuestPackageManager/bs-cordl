@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MemoryPoolSettings.hpp"
+// IWYU pragma private; include "Zenject/MemoryPoolSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ public:
 
   static inline ::Zenject::MemoryPoolSettings* New_ctor(int32_t initialSize, int32_t maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e69790, size 0xc0, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -80,6 +81,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e698bc, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6991c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -91,11 +93,13 @@ public:
 
   static inline ::Zenject::MemoryPoolSettings* getStaticF__Default_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Default, addr 0x6e696d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::Zenject::MemoryPoolSettings* get_Default();
 
   static inline void setStaticF__Default_k__BackingField(::Zenject::MemoryPoolSettings* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Default, addr 0x6e69730, size 0x60, virtual false, abstract: false, final false
   static inline void set_Default(::Zenject::MemoryPoolSettings* value);
 
@@ -105,13 +109,13 @@ protected:
   constexpr MemoryPoolSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPoolSettings(MemoryPoolSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemoryPoolSettings(MemoryPoolSettings const&) = delete;
+  MemoryPoolSettings(MemoryPoolSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14402 };

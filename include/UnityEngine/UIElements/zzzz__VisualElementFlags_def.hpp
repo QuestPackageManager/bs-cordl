@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElementFlags.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VisualElementFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VisualElementFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElementFlags, "UnityEngine.UIElements", "VisualElementFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -59,7 +60,7 @@ public:
   // @brief default ctor
   constexpr VisualElementFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualElementFlags(int32_t value__) noexcept;
 
   /// @brief Field BoundingBoxDirty value: I32(8)

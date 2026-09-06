@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\ReadOnlyArray_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ReadOnlyArray_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,8 +102,9 @@ public:
   // @brief default ctor
   constexpr ReadOnlyArray_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<TValue>", modifiers: "", def_value: None }, CppParam { name: "m_IndexStart", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_IndexEnd", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<TValue>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IndexStart", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_IndexEnd", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ReadOnlyArray_1_Enumerator(::ArrayW<TValue> m_Array, int32_t m_IndexStart, int32_t m_IndexEnd, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -128,6 +129,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
@@ -201,8 +203,8 @@ public:
   // @brief default ctor
   constexpr ReadOnlyArray_1();
 
-  // Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<TValue>", modifiers: "", def_value: None }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<TValue>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ReadOnlyArray_1(::ArrayW<TValue> m_Array, int32_t m_StartIndex, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

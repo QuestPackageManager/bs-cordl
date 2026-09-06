@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FocusOutEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FocusOutEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ MARK_REF_T(::UnityEngine::UIElements::FocusOutEvent*);
 MARK_REF_T(::UnityEngine::UIElements::FocusOutEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FocusOutEvent*, "UnityEngine.UIElements", "FocusOutEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::FocusOutEvent___c*, "UnityEngine.UIElements", "FocusOutEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -52,13 +53,13 @@ protected:
   constexpr FocusOutEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusOutEvent___c(FocusOutEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FocusOutEvent___c(FocusOutEvent___c const&) = delete;
+  FocusOutEvent___c(FocusOutEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4467 };
@@ -98,13 +99,13 @@ protected:
   constexpr FocusOutEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusOutEvent(FocusOutEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FocusOutEvent(FocusOutEvent const&) = delete;
+  FocusOutEvent(FocusOutEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4468 };

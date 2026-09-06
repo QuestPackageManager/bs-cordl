@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimePropertyHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimePropertyHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   // @brief default ctor
   constexpr RuntimePropertyHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimePropertyHandle(::System::IntPtr value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\IStructuralEquatable.hpp"
+// IWYU pragma private; include "System/Collections/IStructuralEquatable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace System::Collections {
 class CORDL_TYPE IStructuralEquatable {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(::System::Object* other, ::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(::System::Collections::IEqualityComparer* comparer);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IStructuralEquatable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IStructuralEquatable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IStructuralEquatable(IStructuralEquatable const&) = delete;
+  IStructuralEquatable(IStructuralEquatableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3696 };

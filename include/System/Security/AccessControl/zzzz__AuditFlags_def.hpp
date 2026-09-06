@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\AuditFlags.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/AuditFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct AuditFlags;
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::AuditFlags);
 DEFINE_IL2CPP_CLASS(::System::Security::AccessControl::AuditFlags, "System.Security.AccessControl", "AuditFlags");
+// [Flags]
 // Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr AuditFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AuditFlags(int32_t value__) noexcept;
 
   /// @brief Field Failure value: I32(2)

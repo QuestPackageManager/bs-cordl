@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderingLayerMaskParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderingLayerMaskParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class RenderingLayerMaskParameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderingLayerMaskParameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderingLayerMaskParameter*, "UnityEngine.Rendering", "RenderingLayerMaskParameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.VolumeParameter`1<T>, UnityEngine.RenderingLayerMask
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -34,13 +35,13 @@ protected:
   constexpr RenderingLayerMaskParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerMaskParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerMaskParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderingLayerMaskParameter(RenderingLayerMaskParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerMaskParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderingLayerMaskParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderingLayerMaskParameter(RenderingLayerMaskParameter const&) = delete;
+  RenderingLayerMaskParameter(RenderingLayerMaskParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12336 };

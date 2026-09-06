@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MetaXRFoveationFeature.hpp"
+// IWYU pragma private; include "Meta/XR/MetaXRFoveationFeature.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "Meta/XR/zzzz__MetaXRFoveationFeature_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"

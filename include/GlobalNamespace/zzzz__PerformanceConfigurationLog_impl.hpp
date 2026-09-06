@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceConfigurationLog.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationLog.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceConfigurationLog_def.hpp"
 #include "BeatSaber/Automation/zzzz__RecPlayBehaviourState_def.hpp"
@@ -198,7 +198,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::
     return ___internal_method;
   }
 };
-inline ::StringW GlobalNamespace::PerformanceConfigurationLog::Create(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
+inline ::StringW GlobalNamespace::PerformanceConfigurationLog::Create(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
                                                                       ::GlobalNamespace::GameplayModifierMask modifiers, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState,
                                                                       ::GlobalNamespace::PerformanceConfigurationStats* stats, ::StringW warning) {
   static auto* ___internal_method =
@@ -251,7 +251,7 @@ inline void GlobalNamespace::PerformanceConfigurationLog::LogOpenXrInfo(::System
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationLog*>(), { "LogOpenXrInfo", {}, { ::i2c::type_of<::System::Text::StringBuilder*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sb);
 }
-inline void GlobalNamespace::PerformanceConfigurationLog::LogSettings(::System::Text::StringBuilder* sb, ::by_ref<::BeatSaber::Settings::Settings> settings,
+inline void GlobalNamespace::PerformanceConfigurationLog::LogSettings(::System::Text::StringBuilder* sb, /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings,
                                                                       ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationLog*>(),

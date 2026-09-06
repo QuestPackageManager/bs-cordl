@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonValidatingReader.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonValidatingReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,7 +81,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -111,6 +113,7 @@ DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonValidatingReader*, "Newtonsoft.Json"
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonValidatingReader_SchemaScope*, "Newtonsoft.Json", "JsonValidatingReader/SchemaScope");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonValidatingReader___c*, "Newtonsoft.Json", "JsonValidatingReader/<>c");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c*, "Newtonsoft.Json", "JsonValidatingReader/SchemaScope/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -188,13 +191,13 @@ protected:
   constexpr SchemaScope_JsonValidatingReader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaScope_JsonValidatingReader___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaScope_JsonValidatingReader___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SchemaScope_JsonValidatingReader___c(SchemaScope_JsonValidatingReader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaScope_JsonValidatingReader___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaScope_JsonValidatingReader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SchemaScope_JsonValidatingReader___c(SchemaScope_JsonValidatingReader___c const&) = delete;
+  SchemaScope_JsonValidatingReader___c(SchemaScope_JsonValidatingReader___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13337 };
@@ -314,15 +317,19 @@ public:
   /// @brief Method .ctor, addr 0x5d098ac, size 0x374, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JTokenType tokenType, ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* schemas);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ArrayItemCount, addr 0x5d0ccf0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ArrayItemCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CurrentItemWriter, addr 0x5d0cd10, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenWriter* get_CurrentItemWriter();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CurrentPropertyName, addr 0x5d0cce0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CurrentPropertyName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsUniqueArray, addr 0x5d0cd00, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsUniqueArray();
 
@@ -335,15 +342,19 @@ public:
   /// @brief Method get_TokenType, addr 0x5d0cd30, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenType get_TokenType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UniqueArrayItems, addr 0x5d0cd08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_UniqueArrayItems();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ArrayItemCount, addr 0x5d0ccf8, size 0x8, virtual false, abstract: false, final false
   inline void set_ArrayItemCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CurrentItemWriter, addr 0x5d0cd18, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentItemWriter(::Newtonsoft::Json::Linq::JTokenWriter* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CurrentPropertyName, addr 0x5d0cce8, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentPropertyName(::StringW value);
 
@@ -353,13 +364,13 @@ protected:
   constexpr JsonValidatingReader_SchemaScope();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader_SchemaScope", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader_SchemaScope", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonValidatingReader_SchemaScope(JsonValidatingReader_SchemaScope&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader_SchemaScope", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader_SchemaScope", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonValidatingReader_SchemaScope(JsonValidatingReader_SchemaScope const&) = delete;
+  JsonValidatingReader_SchemaScope(JsonValidatingReader_SchemaScopeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13338 };
@@ -373,18 +384,23 @@ public:
   /// @brief Field _requiredProperties, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, bool>* ____requiredProperties;
 
+  /// [CompilerGenerated]
   /// @brief Field <CurrentPropertyName>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____CurrentPropertyName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ArrayItemCount>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____ArrayItemCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsUniqueArray>k__BackingField, offset: 0x34, size: 0x1, def value: None
   bool ____IsUniqueArray_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <UniqueArrayItems>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* ____UniqueArrayItems_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CurrentItemWriter>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JTokenWriter* ____CurrentItemWriter_k__BackingField;
 
@@ -410,6 +426,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope, ___
 static_assert(sizeof(::Newtonsoft::Json::JsonValidatingReader_SchemaScope) == 0x48, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -495,13 +512,13 @@ protected:
   constexpr JsonValidatingReader___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonValidatingReader___c(JsonValidatingReader___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonValidatingReader___c(JsonValidatingReader___c const&) = delete;
+  JsonValidatingReader___c(JsonValidatingReader___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13339 };
@@ -512,6 +529,7 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::JsonValidatingReader___c) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies Newtonsoft.Json.JsonReader
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -720,6 +738,7 @@ public:
   /// @brief Method .ctor, addr 0x5d07cb0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonReader* reader);
 
+  /// [CompilerGenerated]
   /// @brief Method add_ValidationEventHandler, addr 0x5d06488, size 0xac, virtual false, abstract: false, final false
   inline void add_ValidationEventHandler(::Newtonsoft::Json::Schema::ValidationEventHandler* value);
 
@@ -758,6 +777,7 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_ValidationEventHandler, addr 0x5d06534, size 0xac, virtual false, abstract: false, final false
   inline void remove_ValidationEventHandler(::Newtonsoft::Json::Schema::ValidationEventHandler* value);
 
@@ -775,13 +795,13 @@ protected:
   constexpr JsonValidatingReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonValidatingReader(JsonValidatingReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonValidatingReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonValidatingReader(JsonValidatingReader const&) = delete;
+  JsonValidatingReader(JsonValidatingReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13340 };
@@ -801,6 +821,7 @@ public:
   /// @brief Field _currentScope, offset: 0x98, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonValidatingReader_SchemaScope* ____currentScope;
 
+  /// [CompilerGenerated]
   /// @brief Field ValidationEventHandler, offset: 0xa0, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::ValidationEventHandler* ___ValidationEventHandler;
 

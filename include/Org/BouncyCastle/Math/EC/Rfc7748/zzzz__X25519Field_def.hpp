@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Rfc7748\X25519Field.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Rfc7748/X25519Field.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,13 +138,13 @@ protected:
   constexpr X25519Field();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X25519Field", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X25519Field", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X25519Field(X25519Field&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X25519Field", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X25519Field", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X25519Field(X25519Field const&) = delete;
+  X25519Field(X25519Fieldconst&) = delete;
 
   /// @brief Field M24 offset 0xffffffff size 0x4
   static constexpr int32_t M24{ static_cast<int32_t>(0xffffff) };

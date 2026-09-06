@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DPresetEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DPresetEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,20 +63,23 @@ protected:
   constexpr FloatTextureProcessor3DPresetEffectTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DPresetEffectTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DPresetEffectTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatTextureProcessor3DPresetEffectTarget(FloatTextureProcessor3DPresetEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DPresetEffectTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatTextureProcessor3DPresetEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatTextureProcessor3DPresetEffectTarget(FloatTextureProcessor3DPresetEffectTarget const&) = delete;
+  FloatTextureProcessor3DPresetEffectTarget(FloatTextureProcessor3DPresetEffectTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5875 };
 
+  /// [SerializeField]
   /// @brief Field _textureProcessor3D, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TextureProcessor3D> ____textureProcessor3D;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _valueBounds, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____valueBounds;
 

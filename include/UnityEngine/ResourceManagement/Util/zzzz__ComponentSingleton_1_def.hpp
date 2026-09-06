@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\ComponentSingleton_1.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/ComponentSingleton_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ template <typename T> class ComponentSingleton_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::ResourceManagement::Util::ComponentSingleton_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ResourceManagement::Util::ComponentSingleton_1, "UnityEngine.ResourceManagement.Util", "ComponentSingleton`1");
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace UnityEngine::ResourceManagement::Util {
 // cpp template
@@ -61,13 +62,13 @@ protected:
   constexpr ComponentSingleton_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ComponentSingleton_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComponentSingleton_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComponentSingleton_1(ComponentSingleton_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ComponentSingleton_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComponentSingleton_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ComponentSingleton_1(ComponentSingleton_1 const&) = delete;
+  ComponentSingleton_1(ComponentSingleton_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18738 };

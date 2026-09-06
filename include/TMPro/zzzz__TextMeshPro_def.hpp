@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextMeshPro.hpp"
+// IWYU pragma private; include "TMPro/TextMeshPro.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,6 +75,11 @@ class TextMeshPro;
 // Write type traits
 MARK_REF_T(::TMPro::TextMeshPro*);
 DEFINE_IL2CPP_CLASS(::TMPro::TextMeshPro*, "TMPro", "TextMeshPro");
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(UnityEngine.MeshRenderer))]
+// [AddComponentMenu("Mesh/TextMeshPro - Text")]
+// [ExecuteAlways]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/index.html")]
 // Dependencies TMPro.MaskingTypes, TMPro.TMP_SubMesh, TMPro.TMP_Text, Unity.Profiling.ProfilerMarker, UnityEngine.Matrix4x4, UnityEngine.Vector3
 namespace TMPro {
 // Is value type: false
@@ -211,6 +216,7 @@ public:
 
   __declspec(property(get = get_sortingOrder, put = set_sortingOrder)) int32_t sortingOrder;
 
+  /// @brief [Obsolete("The TextContainer is now obsolete. Use the RectTransform instead.")]
   __declspec(property(get = get_textContainer)) ::UnityW<::TMPro::TextContainer> textContainer;
 
   __declspec(property(get = get_transform)) ::UnityW<::UnityEngine::Transform> transform;
@@ -505,6 +511,7 @@ public:
   /// @brief Method .ctor, addr 0x693fe70, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnPreRenderText, addr 0x693aa18, size 0xc0, virtual true, abstract: false, final false
   inline void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
@@ -580,6 +587,7 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
   constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnPreRenderText, addr 0x693aad8, size 0xc0, virtual true, abstract: false, final false
   inline void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
@@ -643,35 +651,41 @@ protected:
   constexpr TextMeshPro();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshPro", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshPro", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextMeshPro(TextMeshPro&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextMeshPro", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextMeshPro", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextMeshPro(TextMeshPro const&) = delete;
+  TextMeshPro(TextMeshProconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15863 };
 
+  /// [SerializeField]
   /// @brief Field _SortingLayer, offset: 0x6e0, size: 0x4, def value: None
   int32_t ____SortingLayer;
 
+  /// [SerializeField]
   /// @brief Field _SortingLayerID, offset: 0x6e4, size: 0x4, def value: None
   int32_t ____SortingLayerID;
 
+  /// [SerializeField]
   /// @brief Field _SortingOrder, offset: 0x6e8, size: 0x4, def value: None
   int32_t ____SortingOrder;
 
+  /// [CompilerGenerated]
   /// @brief Field OnPreRenderText, offset: 0x6f0, size: 0x8, def value: None
   ::System::Action_1<::TMPro::TMP_TextInfo*>* ___OnPreRenderText;
 
+  /// [SerializeField]
   /// @brief Field m_hasFontAssetChanged, offset: 0x6f8, size: 0x1, def value: None
   bool ___m_hasFontAssetChanged;
 
   /// @brief Field m_previousLossyScaleY, offset: 0x6fc, size: 0x4, def value: None
   float_t ___m_previousLossyScaleY;
 
+  /// [SerializeField]
   /// @brief Field m_renderer, offset: 0x700, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ___m_renderer;
 
@@ -690,6 +704,7 @@ public:
   /// @brief Field m_subTextObjects, offset: 0x720, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TMP_SubMesh>> ___m_subTextObjects;
 
+  /// [SerializeField]
   /// @brief Field m_maskType, offset: 0x728, size: 0x4, def value: None
   ::TMPro::MaskingTypes ___m_maskType;
 

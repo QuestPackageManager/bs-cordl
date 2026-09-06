@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\TypeValuePair.hpp"
+// IWYU pragma private; include "Zenject/TypeValuePair.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -21,7 +21,8 @@ inline void Zenject::TypeValuePair::_ctor(::System::Type* type, ::System::Object
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TypeValuePair>(), { ".ctor", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, type, value);
 }
-// Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::Zenject::TypeValuePair::TypeValuePair(::System::Type* Type, ::System::Object* Value) noexcept {
   this->Type = Type;
   this->Value = Value;

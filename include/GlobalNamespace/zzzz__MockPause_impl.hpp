@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPause.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPause.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPause_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"

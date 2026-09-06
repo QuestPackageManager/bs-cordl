@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SynchronizedActionQueue.hpp"
+// IWYU pragma private; include "GlobalNamespace/SynchronizedActionQueue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ MARK_REF_T(::GlobalNamespace::SynchronizedActionQueue*);
 MARK_VAL_T(::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SynchronizedActionQueue*, "", "SynchronizedActionQueue");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction, "", "SynchronizedActionQueue/SynchronizedAction");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -42,7 +43,8 @@ public:
   // @brief default ctor
   constexpr SynchronizedActionQueue_SynchronizedAction();
 
-  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "action", ty: "::System::Action*", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr SynchronizedActionQueue_SynchronizedAction(float_t time, ::System::Action* action) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -107,13 +109,13 @@ protected:
   constexpr SynchronizedActionQueue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SynchronizedActionQueue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SynchronizedActionQueue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SynchronizedActionQueue(SynchronizedActionQueue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SynchronizedActionQueue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SynchronizedActionQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SynchronizedActionQueue(SynchronizedActionQueue const&) = delete;
+  SynchronizedActionQueue(SynchronizedActionQueueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18292 };

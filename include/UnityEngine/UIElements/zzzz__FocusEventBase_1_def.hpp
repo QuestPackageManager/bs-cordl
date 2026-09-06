@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FocusEventBase_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FocusEventBase_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,15 +19,19 @@ class IEventHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class FocusEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class FocusEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::FocusEventBase_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::FocusEventBase_1, "UnityEngine.UIElements", "FocusEventBase`1");
+// [EventCategory((UnityEngine.UIElements.EventCategory)11)]
 // Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.FocusEventBase`1<T>
 class CORDL_TYPE FocusEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
@@ -95,27 +99,35 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsFocusDelegated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsFocusDelegated();
 
+  /// [CompilerGenerated]
   /// @brief Method get_direction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::FocusChangeDirection* get_direction();
 
+  /// [CompilerGenerated]
   /// @brief Method get_focusController, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
+  /// [CompilerGenerated]
   /// @brief Method get_relatedTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Focusable* get_relatedTarget();
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsFocusDelegated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_IsFocusDelegated(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_direction, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::FocusChangeDirection* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_focusController, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_focusController(::UnityEngine::UIElements::FocusController* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_relatedTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_relatedTarget(::UnityEngine::UIElements::Focusable* value);
 
@@ -125,26 +137,34 @@ protected:
   constexpr FocusEventBase_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FocusEventBase_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusEventBase_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusEventBase_1(FocusEventBase_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FocusEventBase_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FocusEventBase_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FocusEventBase_1(FocusEventBase_1 const&) = delete;
+  FocusEventBase_1(FocusEventBase_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4466 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <relatedTarget>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ____relatedTarget_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <direction>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::FocusChangeDirection* ____direction_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <focusController>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::UIElements::FocusController* ____focusController_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsFocusDelegated>k__BackingField, offset: 0x80, size: 0x1, def value: None
   bool ____IsFocusDelegated_k__BackingField;
 

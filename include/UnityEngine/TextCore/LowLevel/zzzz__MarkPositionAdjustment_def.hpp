@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\MarkPositionAdjustment.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/MarkPositionAdjustment.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct MarkPositionAdjustment;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment, "UnityEngine.TextCore.LowLevel", "MarkPositionAdjustment");
+// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -40,8 +42,8 @@ public:
   // @brief default ctor
   constexpr MarkPositionAdjustment();
 
-  // Ctor Parameters [CppParam { name: "m_XPositionAdjustment", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YPositionAdjustment", ty: "float_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "m_XPositionAdjustment", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_YPositionAdjustment", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr MarkPositionAdjustment(float_t m_XPositionAdjustment, float_t m_YPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -50,9 +52,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeName("xCoordinate")]
+  /// [SerializeField]
   /// @brief Field m_XPositionAdjustment, offset: 0x0, size: 0x4, def value: None
   float_t m_XPositionAdjustment;
 
+  /// [SerializeField]
+  /// [NativeName("yCoordinate")]
   /// @brief Field m_YPositionAdjustment, offset: 0x4, size: 0x4, def value: None
   float_t m_YPositionAdjustment;
 

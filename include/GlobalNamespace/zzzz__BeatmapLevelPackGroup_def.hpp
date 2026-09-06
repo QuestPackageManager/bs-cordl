@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelPackGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelPackGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,12 +58,15 @@ public:
   /// @brief Method .ctor, addr 0x3731680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW groupName, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* collections);
 
+  /// [CompilerGenerated]
   /// @brief Method get_beatmapLevelPacks, addr 0x3731670, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* get_beatmapLevelPacks();
 
+  /// [CompilerGenerated]
   /// @brief Method get_groupName, addr 0x3731668, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
+  /// [CompilerGenerated]
   /// @brief Method set_beatmapLevelPacks, addr 0x3731678, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelPacks(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
@@ -73,20 +76,22 @@ protected:
   constexpr BeatmapLevelPackGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelPackGroup(BeatmapLevelPackGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelPackGroup(BeatmapLevelPackGroup const&) = delete;
+  BeatmapLevelPackGroup(BeatmapLevelPackGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15050 };
 
+  /// [CompilerGenerated]
   /// @brief Field <groupName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____groupName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <beatmapLevelPacks>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* ____beatmapLevelPacks_k__BackingField;
 

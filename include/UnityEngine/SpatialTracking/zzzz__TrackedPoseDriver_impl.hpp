@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpatialTracking\TrackedPoseDriver.hpp"
+// IWYU pragma private; include "UnityEngine/SpatialTracking/TrackedPoseDriver.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriver_def.hpp"
@@ -9,7 +9,7 @@
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType::TrackedPoseDriver_DeviceType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -18,7 +18,7 @@ constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType::TrackedP
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType::GenericXRDevice{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType::GenericXRController{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType::GenericXRRemote{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose::TrackedPoseDriver_TrackedPose(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -35,7 +35,7 @@ constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose UnityEng
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose::FisheyeCameraDeprected{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose::DeviceDeprecated{ static_cast<int32_t>(0x9) };
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose::RemotePose{ static_cast<int32_t>(0xa) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType::TrackedPoseDriver_TrackingType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -44,7 +44,7 @@ constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType::Tracke
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType::RotationAndPosition{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType::RotationOnly{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType::PositionOnly{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateType::TrackedPoseDriver_UpdateType(int32_t value__) noexcept {
   this->value__ = value__;
 }

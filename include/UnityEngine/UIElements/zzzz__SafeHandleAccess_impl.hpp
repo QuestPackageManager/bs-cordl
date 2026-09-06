@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\SafeHandleAccess.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/SafeHandleAccess.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SafeHandleAccess_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -57,7 +57,7 @@ inline ::System::IntPtr UnityEngine::UIElements::SafeHandleAccess::op_Implicit__
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SafeHandleAccess>(), { "op_Implicit", {}, { ::i2c::type_of<::UnityEngine::UIElements::SafeHandleAccess>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, a);
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::SafeHandleAccess::SafeHandleAccess(::System::IntPtr m_Handle) noexcept {
   this->m_Handle = m_Handle;
 }

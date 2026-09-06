@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JointDrive.hpp"
+// IWYU pragma private; include "UnityEngine/JointDrive.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,8 @@ public:
   // Declarations
   __declspec(property(get = get_maximumForce, put = set_maximumForce)) float_t maximumForce;
 
+  /// [Obsolete("JointDriveMode is obsolete")]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_mode, put = set_mode)) ::UnityEngine::JointDriveMode mode;
 
   __declspec(property(get = get_positionDamper, put = set_positionDamper)) float_t positionDamper;
@@ -68,8 +70,9 @@ public:
   // @brief default ctor
   constexpr JointDrive();
 
-  // Ctor Parameters [CppParam { name: "m_PositionSpring", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_PositionDamper", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_MaximumForce", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UseAcceleration", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_PositionSpring", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PositionDamper", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_MaximumForce", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UseAcceleration", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr JointDrive(float_t m_PositionSpring, float_t m_PositionDamper, float_t m_MaximumForce, int32_t m_UseAcceleration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

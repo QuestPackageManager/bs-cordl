@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_Scroll_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Scroll_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr VREvent_Scroll_t();
 
-  // Ctor Parameters [CppParam { name: "xdelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ydelta", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "repeatCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "xdelta", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ydelta", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "repeatCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VREvent_Scroll_t(float_t xdelta, float_t ydelta, uint32_t repeatCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

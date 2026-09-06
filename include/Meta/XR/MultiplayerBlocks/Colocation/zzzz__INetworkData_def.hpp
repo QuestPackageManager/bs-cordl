@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\INetworkData.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/INetworkData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Meta::XR::MultiplayerBlocks::Colocation {
@@ -31,42 +33,42 @@ namespace Meta::XR::MultiplayerBlocks::Colocation {
 class CORDL_TYPE INetworkData {
 public:
   // Declarations
-  /// @brief Method AddAnchor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddAnchor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddAnchor(::Meta::XR::MultiplayerBlocks::Colocation::Anchor anchor);
 
-  /// @brief Method AddPlayer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddPlayer(::Meta::XR::MultiplayerBlocks::Colocation::Player player);
 
-  /// @brief Method GetAllAnchors, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAllAnchors, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>* GetAllAnchors();
 
-  /// @brief Method GetAllPlayers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAllPlayers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* GetAllPlayers();
 
-  /// @brief Method GetAnchor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAnchor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor> GetAnchor(uint64_t ownerOculusId);
 
-  /// @brief Method GetColocationGroupCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetColocationGroupCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint32_t GetColocationGroupCount();
 
-  /// @brief Method GetPlayerWithOculusId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetPlayerWithOculusId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player> GetPlayerWithOculusId(uint64_t oculusId);
 
-  /// @brief Method GetPlayerWithPlayerId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetPlayerWithPlayerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player> GetPlayerWithPlayerId(uint64_t playerId);
 
-  /// @brief Method IncrementColocationGroupCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IncrementColocationGroupCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void IncrementColocationGroupCount();
 
-  /// @brief Method RemoveAnchor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RemoveAnchor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveAnchor(::Meta::XR::MultiplayerBlocks::Colocation::Anchor anchor);
 
-  /// @brief Method RemovePlayer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RemovePlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemovePlayer(::Meta::XR::MultiplayerBlocks::Colocation::Player player);
 
-  // Ctor Parameters [CppParam { name: "", ty: "INetworkData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INetworkData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INetworkData(INetworkData const&) = delete;
+  INetworkData(INetworkDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20898 };

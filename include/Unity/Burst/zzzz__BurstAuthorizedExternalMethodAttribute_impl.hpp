@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\BurstAuthorizedExternalMethodAttribute.hpp"
+// IWYU pragma private; include "Unity/Burst/BurstAuthorizedExternalMethodAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Burst/zzzz__BurstAuthorizedExternalMethodAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::BurstAuthorizedExternalMethodAttribute._ctor

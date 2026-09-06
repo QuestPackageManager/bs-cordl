@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\SafeSocketHandle.hpp"
+// IWYU pragma private; include "System/Net/Sockets/SafeSocketHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,13 +96,13 @@ protected:
   constexpr SafeSocketHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeSocketHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeSocketHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeSocketHandle(SafeSocketHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeSocketHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeSocketHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeSocketHandle(SafeSocketHandle const&) = delete;
+  SafeSocketHandle(SafeSocketHandleconst&) = delete;
 
   /// @brief Field ABORT_RETRIES offset 0xffffffff size 0x4
   static constexpr int32_t ABORT_RETRIES{ static_cast<int32_t>(0xa) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\UdpClient.hpp"
+// IWYU pragma private; include "System/Net/Sockets/UdpClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,9 +110,11 @@ public:
   /// @brief Method SendAsync, addr 0x636bf08, size 0x148, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* SendAsync(::ArrayW<uint8_t> datagram, int32_t bytes, ::System::Net::IPEndPoint* endPoint);
 
+  /// [CompilerGenerated]
   /// @brief Method <ReceiveAsync>b__65_0, addr 0x636c188, size 0x4, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* _ReceiveAsync_b__65_0(::System::AsyncCallback* callback, ::System::Object* state);
 
+  /// [CompilerGenerated]
   /// @brief Method <ReceiveAsync>b__65_1, addr 0x636c18c, size 0x34, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::UdpReceiveResult _ReceiveAsync_b__65_1(::System::IAsyncResult* ar);
 
@@ -173,13 +175,13 @@ protected:
   constexpr UdpClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UdpClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UdpClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UdpClient(UdpClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UdpClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UdpClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UdpClient(UdpClient const&) = delete;
+  UdpClient(UdpClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11781 };

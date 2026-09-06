@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\ResourceManagerConfig.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/ResourceManagerConfig.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,9 @@ public:
   static inline ::System::Array* CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets);
 
   /// @brief Method CreateArrayResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TObject> static inline TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*> allAssets);
+  template <typename TObject>
+    requires(::cordl_internals::reference_type_constraint<TObject>)
+  static inline TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*> allAssets);
 
   /// @brief Method CreateListResult, addr 0x691870c, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets);
@@ -72,13 +74,13 @@ protected:
   constexpr ResourceManagerConfig();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerConfig", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerConfig", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManagerConfig(ResourceManagerConfig&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerConfig", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManagerConfig(ResourceManagerConfig const&) = delete;
+  ResourceManagerConfig(ResourceManagerConfigconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18758 };

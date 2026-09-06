@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpriteRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/SpriteRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,8 @@ class SpriteRenderer;
 // Write type traits
 MARK_REF_T(::UnityEngine::SpriteRenderer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SpriteRenderer*, "UnityEngine", "SpriteRenderer");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeType("Runtime/Graphics/Mesh/SpriteRenderer.h")]
 // Dependencies UnityEngine.Renderer
 namespace UnityEngine {
 // Is value type: false
@@ -97,7 +99,7 @@ public:
   static inline ::System::IntPtr GetCurrentMeshDataPtr_Injected(::System::IntPtr _unity_self);
 
   /// @brief Method GetSecondaryTextureProperties, addr 0x6a62584, size 0xd0, virtual false, abstract: false, final false
-  inline void GetSecondaryTextureProperties(::UnityEngine::MaterialPropertyBlock* mbp);
+  inline void GetSecondaryTextureProperties(/* [NotNull] */ ::UnityEngine::MaterialPropertyBlock* mbp);
 
   /// @brief Method GetSecondaryTextureProperties_Injected, addr 0x6a62654, size 0x44, virtual false, abstract: false, final false
   static inline void GetSecondaryTextureProperties_Injected(::System::IntPtr _unity_self, ::System::IntPtr mbp);
@@ -105,12 +107,14 @@ public:
   /// @brief Method GetSpriteBounds, addr 0x6a62698, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds GetSpriteBounds();
 
+  /// [NativeMethod(Name = "GetSpriteBounds")]
   /// @brief Method Internal_GetSpriteBounds, addr 0x6a62474, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds Internal_GetSpriteBounds(::UnityEngine::SpriteDrawMode mode);
 
   /// @brief Method Internal_GetSpriteBounds_Injected, addr 0x6a62530, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_GetSpriteBounds_Injected(::System::IntPtr _unity_self, ::UnityEngine::SpriteDrawMode mode, ::by_ref<::UnityEngine::Bounds> ret);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeSpriteChanged, addr 0x6a60e8c, size 0xfc, virtual false, abstract: false, final false
   inline void InvokeSpriteChanged();
 
@@ -173,6 +177,7 @@ public:
   /// @brief Method get_maskInteraction_Injected, addr 0x6a61da0, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpriteMaskInteraction get_maskInteraction_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("ShouldSupportTiling")]
   /// @brief Method get_shouldSupportTiling, addr 0x6a610ac, size 0x80, virtual false, abstract: false, final false
   inline bool get_shouldSupportTiling();
 
@@ -275,13 +280,13 @@ protected:
   constexpr SpriteRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpriteRenderer(SpriteRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpriteRenderer(SpriteRenderer const&) = delete;
+  SpriteRenderer(SpriteRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10045 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SymbolsDictionary.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SymbolsDictionary.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

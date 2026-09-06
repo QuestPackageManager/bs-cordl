@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputBinding.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputBinding_Flags, "UnityEngine
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputBinding_MatchOptions, "UnityEngine.InputSystem", "InputBinding/MatchOptions");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputBinding___c*, "UnityEngine.InputSystem", "InputBinding/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputBinding, "UnityEngine.InputSystem", "InputBinding");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -97,7 +98,7 @@ public:
   // @brief default ctor
   constexpr InputBinding_DisplayStringOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputBinding_DisplayStringOptions(int32_t value__) noexcept;
 
   /// @brief Field DontIncludeInteractions value: I32(4)
@@ -129,6 +130,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputBinding_DisplayStringOpt
 static_assert(sizeof(::UnityEngine::InputSystem::InputBinding_DisplayStringOptions) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -157,7 +159,7 @@ public:
   // @brief default ctor
   constexpr InputBinding_MatchOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputBinding_MatchOptions(int32_t value__) noexcept;
 
   /// @brief Field EmptyGroupMatchesAny value: I32(1)
@@ -180,6 +182,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputBinding_MatchOptions, va
 static_assert(sizeof(::UnityEngine::InputSystem::InputBinding_MatchOptions) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -210,7 +213,7 @@ public:
   // @brief default ctor
   constexpr InputBinding_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputBinding_Flags(int32_t value__) noexcept;
 
   /// @brief Field Composite value: I32(4)
@@ -239,6 +242,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputBinding_Flags, value__) 
 static_assert(sizeof(::UnityEngine::InputSystem::InputBinding_Flags) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -274,13 +278,13 @@ protected:
   constexpr InputBinding___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputBinding___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputBinding___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputBinding___c(InputBinding___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputBinding___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputBinding___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputBinding___c(InputBinding___c const&) = delete;
+  InputBinding___c(InputBinding___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8668 };
@@ -362,7 +366,7 @@ public:
   static inline ::UnityEngine::InputSystem::InputBinding MaskByGroup(::StringW group);
 
   /// @brief Method MaskByGroups, addr 0x64f6184, size 0x150, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::InputBinding MaskByGroups(::ArrayW<::StringW> groups);
+  static inline ::UnityEngine::InputSystem::InputBinding MaskByGroups(/* [ParamArray] */ ::ArrayW<::StringW> groups);
 
   /// @brief Method Matches, addr 0x64f6b38, size 0x8, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::InputSystem::InputBinding binding);
@@ -489,12 +493,12 @@ public:
   // @brief default ctor
   constexpr InputBinding();
 
-  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Interactions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Processors", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Groups", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Action", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputBinding_Flags", modifiers: "", def_value: None }, CppParam { name: "m_OverridePath", ty: "::StringW",
-  // modifiers: "", def_value: None }, CppParam { name: "m_OverrideInteractions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_OverrideProcessors", ty: "::StringW",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Interactions", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Processors", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Groups", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Action", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::InputBinding_Flags", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_OverridePath", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OverrideInteractions", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OverrideProcessors", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr InputBinding(::StringW m_Name, ::StringW m_Id, ::StringW m_Path, ::StringW m_Interactions, ::StringW m_Processors, ::StringW m_Groups, ::StringW m_Action,
                          ::UnityEngine::InputSystem::InputBinding_Flags m_Flags, ::StringW m_OverridePath, ::StringW m_OverrideInteractions, ::StringW m_OverrideProcessors) noexcept;
 
@@ -510,27 +514,36 @@ public:
   /// @brief Field kSeparatorString offset 0xffffffff size 0x8
   static constexpr ::ConstString kSeparatorString{ u";" };
 
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Name;
 
+  /// [SerializeField]
   /// @brief Field m_Id, offset: 0x8, size: 0x8, def value: None
   ::StringW m_Id;
 
+  /// [Tooltip("Path of the control to bind to. Matched at runtime to controls from InputDevices present at the time.\n\nCan either be graphically from the control picker dropdown UI or edited
+  /// manually in text mode by clicking the \'T\' button. Internally, both methods result in control path strings that look like, for example, \"<Gamepad>/buttonSouth\".")] [SerializeField]
   /// @brief Field m_Path, offset: 0x10, size: 0x8, def value: None
   ::StringW m_Path;
 
+  /// [SerializeField]
   /// @brief Field m_Interactions, offset: 0x18, size: 0x8, def value: None
   ::StringW m_Interactions;
 
+  /// [SerializeField]
   /// @brief Field m_Processors, offset: 0x20, size: 0x8, def value: None
   ::StringW m_Processors;
 
+  /// [SerializeField]
   /// @brief Field m_Groups, offset: 0x28, size: 0x8, def value: None
   ::StringW m_Groups;
 
+  /// [SerializeField]
   /// @brief Field m_Action, offset: 0x30, size: 0x8, def value: None
   ::StringW m_Action;
 
+  /// [SerializeField]
   /// @brief Field m_Flags, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputBinding_Flags m_Flags;
 

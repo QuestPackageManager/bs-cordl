@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomLevelPathHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomLevelPathHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomLevelPathHelper_def.hpp"
 #include "System/IO/zzzz__DirectoryInfo_def.hpp"

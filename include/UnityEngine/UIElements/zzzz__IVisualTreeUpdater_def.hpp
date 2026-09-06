@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IVisualTreeUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IVisualTreeUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class IVisualTreeUpdater;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::IVisualTreeUpdater*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IVisualTreeUpdater*, "UnityEngine.UIElements", "IVisualTreeUpdater");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -43,30 +44,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method OnVersionChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update();
 
-  /// @brief Method get_FrameCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_FrameCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_FrameCount();
 
-  /// @brief Method get_profilerMarker, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_FrameCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_FrameCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_FrameCount(int64_t value);
 
-  /// @brief Method set_panel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_panel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVisualTreeUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVisualTreeUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVisualTreeUpdater(IVisualTreeUpdater const&) = delete;
+  IVisualTreeUpdater(IVisualTreeUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5265 };

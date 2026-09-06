@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\BuddyAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/BuddyAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +18,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering::Universal {
 struct BuddyAllocation;
@@ -49,8 +51,9 @@ public:
   // @brief default ctor
   constexpr BuddyAllocator_Header();
 
-  // Ctor Parameters [CppParam { name: "branchingOrder", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "levelCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "allocationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "freeAllocationIdsCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "branchingOrder", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "levelCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "allocationCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "freeAllocationIdsCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr BuddyAllocator_Header(int32_t branchingOrder, int32_t levelCount, int32_t allocationCount, int32_t freeAllocationIdsCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -111,7 +114,9 @@ public:
   static inline int32_t AlignForward(int32_t offset, int32_t alignment);
 
   /// @brief Method AllocateRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::ValueTuple_2<int32_t, int32_t> AllocateRange(int32_t length, ::by_ref<int32_t> dataSize);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::System::ValueTuple_2<int32_t, int32_t> AllocateRange(int32_t length, ::by_ref<int32_t> dataSize);
 
   /// @brief Method Dispose, addr 0x687cae8, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
@@ -126,7 +131,9 @@ public:
   inline ::Unity::Collections::NativeArray_1<uint64_t> FreeMasks(int32_t level);
 
   /// @brief Method GetNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetNativeArray(int32_t offset, int32_t length);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeArray_1<T> GetNativeArray(int32_t offset, int32_t length);
 
   /// @brief Method LevelLength, addr 0x687cb64, size 0x10, virtual false, abstract: false, final false
   static inline int32_t LevelLength(int32_t level, int32_t branchingOrder);
@@ -177,9 +184,10 @@ public:
   // @brief default ctor
   constexpr BuddyAllocator();
 
-  // Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_ActiveFreeMaskCounts", ty: "::System::ValueTuple_2<int32_t,int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "m_FreeMasksStorage", ty: "::System::ValueTuple_2<int32_t,int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_FreeMaskIndicesStorage", ty:
-  // "::System::ValueTuple_2<int32_t,int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Data", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ActiveFreeMaskCounts", ty: "::System::ValueTuple_2<int32_t,int32_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FreeMasksStorage", ty: "::System::ValueTuple_2<int32_t,int32_t>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_FreeMaskIndicesStorage", ty: "::System::ValueTuple_2<int32_t,int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Allocator", ty:
+  // "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }]
   constexpr BuddyAllocator(void* m_Data, ::System::ValueTuple_2<int32_t, int32_t> m_ActiveFreeMaskCounts, ::System::ValueTuple_2<int32_t, int32_t> m_FreeMasksStorage,
                            ::System::ValueTuple_2<int32_t, int32_t> m_FreeMaskIndicesStorage, ::Unity::Collections::Allocator m_Allocator) noexcept;
 

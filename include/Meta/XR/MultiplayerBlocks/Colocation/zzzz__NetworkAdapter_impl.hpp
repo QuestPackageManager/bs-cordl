@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\NetworkAdapter.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/NetworkAdapter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__NetworkAdapter_def.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__INetworkData_def.hpp"

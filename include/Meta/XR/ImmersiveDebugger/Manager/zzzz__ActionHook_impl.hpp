@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\ActionHook.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/ActionHook.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__Hook_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__ActionHook_def.hpp"

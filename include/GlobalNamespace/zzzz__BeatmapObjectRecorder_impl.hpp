@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
@@ -10,10 +10,10 @@
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
 #include "GlobalNamespace/zzzz__SliderData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-// Ctor Parameters [CppParam { name: "note", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bomb", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "burstSliderHead", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "burstSliderElement", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "slider",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "burstSlider", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "obstacle", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "note", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bomb", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "burstSliderHead", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "burstSliderElement", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "slider", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "burstSlider", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "obstacle", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts::BeatmapObjectRecorder_ObjectCounts(int32_t note, int32_t bomb, int32_t burstSliderHead, int32_t burstSliderElement, int32_t slider,
                                                                                                     int32_t burstSlider, int32_t obstacle) noexcept {
   this->note = note;

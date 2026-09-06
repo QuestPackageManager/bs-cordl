@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\OpacityIdAccelerator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/OpacityIdAccelerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_impl.hpp"
@@ -40,9 +40,9 @@ constexpr UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob:
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "oldVerts", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: Some("{}") }, CppParam { name: "newVerts", ty:
-// "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: Some("{}") }, CppParam { name: "opacityData", ty: "::UnityEngine::Color32", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "oldVerts", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "newVerts", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "opacityData", ty:
+// "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::OpacityIdAccelerator_OpacityIdUpdateJob(
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> oldVerts, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> newVerts,
     ::UnityEngine::Color32 opacityData) noexcept {

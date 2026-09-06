@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Lazy_1.hpp"
+// IWYU pragma private; include "System/Lazy_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ template <typename T> class Lazy_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Lazy_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Lazy_1, "System", "Lazy`1");
+// [DebuggerTypeProxy(typeof(System.LazyDebugView`1<T>))]
+// [DebuggerDisplay("ThreadSafetyMode={Mode}, IsValueCreated={IsValueCreated}, IsValueFaulted={IsValueFaulted}, Value={ValueForDebugDisplay}")]
 // Dependencies System.Object
 namespace System {
 // cpp template
@@ -33,6 +35,7 @@ public:
   // Declarations
   __declspec(property(get = get_IsValueCreated)) bool IsValueCreated;
 
+  /// @brief [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   __declspec(property(get = get_Value)) T Value;
 
   /// @brief Field _factory, offset 0x18, size 0x8
@@ -119,13 +122,13 @@ protected:
   constexpr Lazy_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Lazy_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lazy_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Lazy_1(Lazy_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Lazy_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Lazy_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Lazy_1(Lazy_1 const&) = delete;
+  Lazy_1(Lazy_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2436 };

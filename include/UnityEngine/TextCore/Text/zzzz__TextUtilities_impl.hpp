@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextUtilities_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_def.hpp"

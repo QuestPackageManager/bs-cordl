@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ContactPoint.hpp"
+// IWYU pragma private; include "UnityEngine/ContactPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,9 +65,10 @@ public:
   // @brief default ctor
   constexpr ContactPoint();
 
-  // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "m_Impulse", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_ThisColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_OtherColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_Impulse", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ThisColliderInstanceID", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OtherColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Separation", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ContactPoint(::UnityEngine::Vector3 m_Point, ::UnityEngine::Vector3 m_Normal, ::UnityEngine::Vector3 m_Impulse, int32_t m_ThisColliderInstanceID, int32_t m_OtherColliderInstanceID,
                          float_t m_Separation) noexcept;
 

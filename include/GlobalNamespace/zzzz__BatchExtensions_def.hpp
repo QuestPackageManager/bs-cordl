@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BatchExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/BatchExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::GlobalNamespace::BatchExtensions*);
 MARK_GEN_REF_T_PTR(::GlobalNamespace::BatchExtensions__Batch_d__0_1);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BatchExtensions*, "", "BatchExtensions");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BatchExtensions__Batch_d__0_1, "", "BatchExtensions/<Batch>d__0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
@@ -98,23 +99,30 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::BatchExtensions__Batch_d__0_1<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.List<T>>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>* System_Collections_Generic_IEnumerable_System_Collections_Generic_List_T___GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.List<T>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<T>* System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -169,6 +177,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -195,13 +204,13 @@ protected:
   constexpr BatchExtensions__Batch_d__0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions__Batch_d__0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions__Batch_d__0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchExtensions__Batch_d__0_1(BatchExtensions__Batch_d__0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions__Batch_d__0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions__Batch_d__0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchExtensions__Batch_d__0_1(BatchExtensions__Batch_d__0_1 const&) = delete;
+  BatchExtensions__Batch_d__0_1(BatchExtensions__Batch_d__0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18116 };
@@ -234,6 +243,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -243,6 +253,8 @@ public:
   // Declarations
   template <typename T> using _Batch_d__0_1 = ::GlobalNamespace::BatchExtensions__Batch_d__0_1<T>;
 
+  /// [IteratorStateMachine(typeof(BatchExtensions::<Batch>d__0`1<T>))]
+  /// [Extension]
   /// @brief Method Batch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>* Batch(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t batchSize);
@@ -253,13 +265,13 @@ protected:
   constexpr BatchExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchExtensions(BatchExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchExtensions(BatchExtensions const&) = delete;
+  BatchExtensions(BatchExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18117 };

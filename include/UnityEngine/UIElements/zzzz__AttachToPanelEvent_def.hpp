@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\AttachToPanelEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/AttachToPanelEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_REF_T(::UnityEngine::UIElements::AttachToPanelEvent*);
 MARK_REF_T(::UnityEngine::UIElements::AttachToPanelEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::AttachToPanelEvent*, "UnityEngine.UIElements", "AttachToPanelEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::AttachToPanelEvent___c*, "UnityEngine.UIElements", "AttachToPanelEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr AttachToPanelEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AttachToPanelEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttachToPanelEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AttachToPanelEvent___c(AttachToPanelEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AttachToPanelEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttachToPanelEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AttachToPanelEvent___c(AttachToPanelEvent___c const&) = delete;
+  AttachToPanelEvent___c(AttachToPanelEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4526 };
@@ -86,13 +87,13 @@ protected:
   constexpr AttachToPanelEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AttachToPanelEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttachToPanelEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AttachToPanelEvent(AttachToPanelEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AttachToPanelEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttachToPanelEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AttachToPanelEvent(AttachToPanelEvent const&) = delete;
+  AttachToPanelEvent(AttachToPanelEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4527 };

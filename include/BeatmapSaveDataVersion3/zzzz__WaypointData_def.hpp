@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\WaypointData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/WaypointData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,23 +78,26 @@ protected:
   constexpr WaypointData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaypointData(WaypointData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WaypointData(WaypointData const&) = delete;
+  WaypointData(WaypointDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15374 };
 
+  /// [SerializeField]
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;
 
+  /// [SerializeField]
   /// @brief Field y, offset: 0x18, size: 0x4, def value: None
   int32_t ___y;
 
+  /// [SerializeField]
   /// @brief Field d, offset: 0x1c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::OffsetDirection ___d;
 

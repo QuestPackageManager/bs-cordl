@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsPskIdentity.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsPskIdentity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,21 +20,21 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsPskIdentity {
 public:
   // Declarations
-  /// @brief Method GetPsk, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetPsk, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> GetPsk();
 
-  /// @brief Method GetPskIdentity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetPskIdentity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> GetPskIdentity();
 
-  /// @brief Method NotifyIdentityHint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NotifyIdentityHint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyIdentityHint(::ArrayW<uint8_t> psk_identity_hint);
 
-  /// @brief Method SkipIdentityHint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SkipIdentityHint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SkipIdentityHint();
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsPskIdentity", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsPskIdentity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsPskIdentity(TlsPskIdentity const&) = delete;
+  TlsPskIdentity(TlsPskIdentityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1180 };

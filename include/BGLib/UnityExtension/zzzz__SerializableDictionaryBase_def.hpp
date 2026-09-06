@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\SerializableDictionaryBase.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/SerializableDictionaryBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +56,13 @@ protected:
   constexpr SerializableDictionaryBase_Storage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_Storage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_Storage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializableDictionaryBase_Storage(SerializableDictionaryBase_Storage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_Storage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_Storage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableDictionaryBase_Storage(SerializableDictionaryBase_Storage const&) = delete;
+  SerializableDictionaryBase_Storage(SerializableDictionaryBase_Storageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20801 };
@@ -104,13 +104,13 @@ protected:
   constexpr SerializableDictionaryBase_Dictionary_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_Dictionary_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_Dictionary_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializableDictionaryBase_Dictionary_2(SerializableDictionaryBase_Dictionary_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_Dictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase_Dictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableDictionaryBase_Dictionary_2(SerializableDictionaryBase_Dictionary_2 const&) = delete;
+  SerializableDictionaryBase_Dictionary_2(SerializableDictionaryBase_Dictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20802 };
@@ -141,13 +141,13 @@ protected:
   constexpr SerializableDictionaryBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializableDictionaryBase(SerializableDictionaryBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializableDictionaryBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializableDictionaryBase(SerializableDictionaryBase const&) = delete;
+  SerializableDictionaryBase(SerializableDictionaryBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20803 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\DoubleRewindableAllocators.hpp"
+// IWYU pragma private; include "Unity/Collections/DoubleRewindableAllocators.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,8 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckIsCreated, addr 0x64ae98c, size 0x58, virtual false, abstract: false, final false
   inline void CheckIsCreated();
 
@@ -74,9 +76,9 @@ public:
   // @brief default ctor
   constexpr DoubleRewindableAllocators();
 
-  // Ctor Parameters [CppParam { name: "Pointer", ty: "::Unity::Collections::RewindableAllocator*", modifiers: "", def_value: None }, CppParam { name: "UpdateAllocatorHelper0", ty:
-  // "::Unity::Collections::AllocatorHelper_1<::Unity::Collections::RewindableAllocator>", modifiers: "", def_value: None }, CppParam { name: "UpdateAllocatorHelper1", ty:
-  // "::Unity::Collections::AllocatorHelper_1<::Unity::Collections::RewindableAllocator>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Pointer", ty: "::Unity::Collections::RewindableAllocator*", modifiers: "", def_value: None, comment: None }, CppParam { name: "UpdateAllocatorHelper0", ty:
+  // "::Unity::Collections::AllocatorHelper_1<::Unity::Collections::RewindableAllocator>", modifiers: "", def_value: None, comment: None }, CppParam { name: "UpdateAllocatorHelper1", ty:
+  // "::Unity::Collections::AllocatorHelper_1<::Unity::Collections::RewindableAllocator>", modifiers: "", def_value: None, comment: None }]
   constexpr DoubleRewindableAllocators(::Unity::Collections::RewindableAllocator* Pointer, ::Unity::Collections::AllocatorHelper_1<::Unity::Collections::RewindableAllocator> UpdateAllocatorHelper0,
                                        ::Unity::Collections::AllocatorHelper_1<::Unity::Collections::RewindableAllocator> UpdateAllocatorHelper1) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataPrecisionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataPrecisionSO.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataMinMaxFloatSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataPrecisionSO_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputUpdate.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputUpdate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,9 +49,12 @@ public:
   /// @brief Method OnUpdate, addr 0x65b64a8, size 0x1c, virtual false, abstract: false, final false
   inline void OnUpdate();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_value, addr 0x65b6480, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_value();
 
+  /// [CompilerGenerated]
   /// @brief Method set_value, addr 0x65b6488, size 0x8, virtual false, abstract: false, final false
   inline void set_value(uint32_t value);
 
@@ -59,7 +62,8 @@ public:
   // @brief default ctor
   constexpr InputUpdate_UpdateStepCount();
 
-  // Ctor Parameters [CppParam { name: "m_WasUpdated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_value_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_WasUpdated", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_value_k__BackingField", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr InputUpdate_UpdateStepCount(bool m_WasUpdated, uint32_t _value_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -71,6 +75,7 @@ public:
   /// @brief Field m_WasUpdated, offset: 0x0, size: 0x1, def value: None
   bool m_WasUpdated;
 
+  /// [CompilerGenerated]
   /// @brief Field <value>k__BackingField, offset: 0x4, size: 0x4, def value: None
   uint32_t _value_k__BackingField;
 
@@ -95,8 +100,8 @@ public:
   // @brief default ctor
   constexpr InputUpdate_SerializedState();
 
-  // Ctor Parameters [CppParam { name: "lastUpdateType", ty: "::UnityEngine::InputSystem::LowLevel::InputUpdateType", modifiers: "", def_value: None }, CppParam { name: "playerUpdateStepCount", ty:
-  // "::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "lastUpdateType", ty: "::UnityEngine::InputSystem::LowLevel::InputUpdateType", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "playerUpdateStepCount", ty: "::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount", modifiers: "", def_value: None, comment: None }]
   constexpr InputUpdate_SerializedState(::UnityEngine::InputSystem::LowLevel::InputUpdateType lastUpdateType,
                                         ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount playerUpdateStepCount) noexcept;
 
@@ -122,6 +127,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputUpdate_Seriali
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState) == 0xc, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [Extension]
 // Dependencies System.Object, UnityEngine.InputSystem.LowLevel.InputUpdate::UpdateStepCount, UnityEngine.InputSystem.LowLevel.InputUpdateType
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
@@ -142,9 +148,11 @@ public:
   /// @brief Field s_UpdateStepCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_UpdateStepCount, put = setStaticF_s_UpdateStepCount)) uint32_t s_UpdateStepCount;
 
+  /// [Extension]
   /// @brief Method GetUpdateTypeForPlayer, addr 0x65b6458, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType GetUpdateTypeForPlayer(::UnityEngine::InputSystem::LowLevel::InputUpdateType mask);
 
+  /// [Extension]
   /// @brief Method IsPlayerUpdate, addr 0x65b6474, size 0xc, virtual false, abstract: false, final false
   static inline bool IsPlayerUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
@@ -178,13 +186,13 @@ protected:
   constexpr InputUpdate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputUpdate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputUpdate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputUpdate(InputUpdate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputUpdate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputUpdate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputUpdate(InputUpdate const&) = delete;
+  InputUpdate(InputUpdateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9050 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PropertyContainer.hpp"
+// IWYU pragma private; include "Unity/Properties/PropertyContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,9 @@ namespace Unity::Properties {
 struct VisitReturnCode;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 // Forward declare root types
 namespace Unity::Properties {
@@ -67,6 +69,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::GetValueVisitor_1_PropertyConta
 DEFINE_IL2CPP_CLASS(::Unity::Properties::PropertyContainer*, "Unity.Properties", "PropertyContainer");
 DEFINE_IL2CPP_CLASS(::Unity::Properties::PropertyContainer_GetPropertyVisitor*, "Unity.Properties", "PropertyContainer/GetPropertyVisitor");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::PropertyContainer_GetValueVisitor_1, "Unity.Properties", "PropertyContainer/GetValueVisitor`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Unity::Properties {
 // Is value type: false
@@ -98,13 +101,13 @@ protected:
   constexpr GetPropertyVisitor_PropertyContainer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GetPropertyVisitor_PropertyContainer___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetPropertyVisitor_PropertyContainer___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetPropertyVisitor_PropertyContainer___c(GetPropertyVisitor_PropertyContainer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GetPropertyVisitor_PropertyContainer___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetPropertyVisitor_PropertyContainer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GetPropertyVisitor_PropertyContainer___c(GetPropertyVisitor_PropertyContainer___c const&) = delete;
+  GetPropertyVisitor_PropertyContainer___c(GetPropertyVisitor_PropertyContainer___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19605 };
@@ -157,13 +160,13 @@ protected:
   constexpr PropertyContainer_GetPropertyVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetPropertyVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetPropertyVisitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyContainer_GetPropertyVisitor(PropertyContainer_GetPropertyVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetPropertyVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetPropertyVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyContainer_GetPropertyVisitor(PropertyContainer_GetPropertyVisitor const&) = delete;
+  PropertyContainer_GetPropertyVisitor(PropertyContainer_GetPropertyVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19606 };
@@ -179,6 +182,7 @@ static_assert(offsetof(::Unity::Properties::PropertyContainer_GetPropertyVisitor
 static_assert(sizeof(::Unity::Properties::PropertyContainer_GetPropertyVisitor) == 0xc0, "Size mismatch!");
 
 } // namespace Unity::Properties
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Unity::Properties {
 // cpp template
@@ -212,13 +216,13 @@ protected:
   constexpr GetValueVisitor_1_PropertyContainer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GetValueVisitor_1_PropertyContainer___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetValueVisitor_1_PropertyContainer___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetValueVisitor_1_PropertyContainer___c(GetValueVisitor_1_PropertyContainer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GetValueVisitor_1_PropertyContainer___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetValueVisitor_1_PropertyContainer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GetValueVisitor_1_PropertyContainer___c(GetValueVisitor_1_PropertyContainer___c const&) = delete;
+  GetValueVisitor_1_PropertyContainer___c(GetValueVisitor_1_PropertyContainer___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19607 };
@@ -271,13 +275,13 @@ protected:
   constexpr PropertyContainer_GetValueVisitor_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetValueVisitor_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetValueVisitor_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyContainer_GetValueVisitor_1(PropertyContainer_GetValueVisitor_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetValueVisitor_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer_GetValueVisitor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyContainer_GetValueVisitor_1(PropertyContainer_GetValueVisitor_1 const&) = delete;
+  PropertyContainer_GetValueVisitor_1(PropertyContainer_GetValueVisitor_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19608 };
@@ -313,11 +317,11 @@ public:
 
   /// @brief Method TryGetProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer>
-  static inline bool TryGetProperty(::by_ref<TContainer> container, ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::Unity::Properties::IProperty*> property);
+  static inline bool TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::Unity::Properties::IProperty*> property);
 
   /// @brief Method TryGetProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer>
-  static inline bool TryGetProperty(::by_ref<TContainer> container, ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::Unity::Properties::IProperty*> property,
+  static inline bool TryGetProperty(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<::Unity::Properties::IProperty*> property,
                                     ::by_ref<::Unity::Properties::VisitReturnCode> returnCode);
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -325,7 +329,8 @@ public:
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer, typename TValue>
-  static inline bool TryGetValue(::by_ref<TContainer> container, ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<TValue> value, ::by_ref<::Unity::Properties::VisitReturnCode> returnCode);
+  static inline bool TryGetValue(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, ::by_ref<TValue> value,
+                                 ::by_ref<::Unity::Properties::VisitReturnCode> returnCode);
 
 protected:
   // Ctor Parameters []
@@ -333,13 +338,13 @@ protected:
   constexpr PropertyContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyContainer(PropertyContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyContainer(PropertyContainer const&) = delete;
+  PropertyContainer(PropertyContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19609 };

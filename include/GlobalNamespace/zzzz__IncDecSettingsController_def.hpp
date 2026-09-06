@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IncDecSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/IncDecSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
   /// @brief Method Awake, addr 0x5a2f774, size 0x11c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DecButtonPressed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DecButtonPressed();
 
-  /// @brief Method IncButtonPressed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::IncDecSettingsController* New_ctor();
@@ -75,17 +75,18 @@ protected:
   constexpr IncDecSettingsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IncDecSettingsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncDecSettingsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IncDecSettingsController(IncDecSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IncDecSettingsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IncDecSettingsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IncDecSettingsController(IncDecSettingsController const&) = delete;
+  IncDecSettingsController(IncDecSettingsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23339 };
 
+  /// [SerializeField]
   /// @brief Field _stepValuePicker, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____stepValuePicker;
 

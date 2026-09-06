@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ParticleSystemVertexStreams.hpp"
+// IWYU pragma private; include "UnityEngine/ParticleSystemVertexStreams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct ParticleSystemVertexStreams;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ParticleSystemVertexStreams);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ParticleSystemVertexStreams, "UnityEngine", "ParticleSystemVertexStreams");
+// [Obsolete("ParticleSystemVertexStreams is deprecated. Please use ParticleSystemVertexStream instead.", false)]
+// [Flags]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -56,7 +58,7 @@ public:
   // @brief default ctor
   constexpr ParticleSystemVertexStreams();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ParticleSystemVertexStreams(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(2147483647)

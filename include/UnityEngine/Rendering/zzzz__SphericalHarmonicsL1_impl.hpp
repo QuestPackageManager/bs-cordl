@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SphericalHarmonicsL1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SphericalHarmonicsL1.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SphericalHarmonicsL1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -182,8 +182,8 @@ inline int32_t UnityEngine::Rendering::SphericalHarmonicsL1::GetHashCode() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL1>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "shAr", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "shAg", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "shAb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "shAr", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shAg", ty: "::UnityEngine::Vector4", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "shAb", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SphericalHarmonicsL1::SphericalHarmonicsL1(::UnityEngine::Vector4 shAr, ::UnityEngine::Vector4 shAg, ::UnityEngine::Vector4 shAb) noexcept {
   this->shAr = shAr;
   this->shAg = shAg;

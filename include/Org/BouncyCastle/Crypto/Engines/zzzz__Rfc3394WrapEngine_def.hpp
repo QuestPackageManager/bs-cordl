@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\Rfc3394WrapEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/Rfc3394WrapEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,13 +101,13 @@ protected:
   constexpr Rfc3394WrapEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Rfc3394WrapEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rfc3394WrapEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Rfc3394WrapEngine(Rfc3394WrapEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Rfc3394WrapEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Rfc3394WrapEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Rfc3394WrapEngine(Rfc3394WrapEngine const&) = delete;
+  Rfc3394WrapEngine(Rfc3394WrapEngineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 827 };

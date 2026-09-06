@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\RuntimeDebugger\RuntimeDebuggerOpenXRFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/RuntimeDebugger/RuntimeDebuggerOpenXRFeature.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/RuntimeDebugger/zzzz__RuntimeDebuggerOpenXRFeature_def.hpp"

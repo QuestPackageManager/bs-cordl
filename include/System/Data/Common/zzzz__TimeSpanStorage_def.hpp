@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\TimeSpanStorage.hpp"
+// IWYU pragma private; include "System/Data/Common/TimeSpanStorage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,13 +107,13 @@ protected:
   constexpr TimeSpanStorage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanStorage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanStorage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeSpanStorage(TimeSpanStorage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanStorage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeSpanStorage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeSpanStorage(TimeSpanStorage const&) = delete;
+  TimeSpanStorage(TimeSpanStorageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13948 };

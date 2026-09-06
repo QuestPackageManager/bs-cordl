@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\LightColorBaseData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/LightColorBaseData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,35 +140,42 @@ protected:
   constexpr LightColorBaseData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightColorBaseData(LightColorBaseData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightColorBaseData(LightColorBaseData const&) = delete;
+  LightColorBaseData(LightColorBaseDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15363 };
 
+  /// [SerializeField]
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
 
+  /// [SerializeField]
   /// @brief Field i, offset: 0x14, size: 0x4, def value: None
   ::BeatmapSaveDataVersion3::TransitionType ___i;
 
+  /// [SerializeField]
   /// @brief Field c, offset: 0x18, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::EnvironmentColorType ___c;
 
+  /// [SerializeField]
   /// @brief Field s, offset: 0x1c, size: 0x4, def value: None
   float_t ___s;
 
+  /// [SerializeField]
   /// @brief Field f, offset: 0x20, size: 0x4, def value: None
   int32_t ___f;
 
+  /// [SerializeField]
   /// @brief Field sb, offset: 0x24, size: 0x4, def value: None
   float_t ___sb;
 
+  /// [SerializeField]
   /// @brief Field sf, offset: 0x28, size: 0x4, def value: None
   int32_t ___sf;
 

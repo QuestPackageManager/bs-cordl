@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Events\PersistentCall.hpp"
+// IWYU pragma private; include "UnityEngine/Events/PersistentCall.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -154,32 +154,44 @@ protected:
   constexpr PersistentCall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PersistentCall", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PersistentCall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PersistentCall(PersistentCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PersistentCall", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PersistentCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PersistentCall(PersistentCall const&) = delete;
+  PersistentCall(PersistentCallconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10450 };
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("instance")]
   /// @brief Field m_Target, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ___m_Target;
 
+  /// [SerializeField]
   /// @brief Field m_TargetAssemblyTypeName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_TargetAssemblyTypeName;
 
+  /// [FormerlySerializedAs("methodName")]
+  /// [SerializeField]
   /// @brief Field m_MethodName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_MethodName;
 
+  /// [FormerlySerializedAs("mode")]
+  /// [SerializeField]
   /// @brief Field m_Mode, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::Events::PersistentListenerMode ___m_Mode;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("arguments")]
   /// @brief Field m_Arguments, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Events::ArgumentCache* ___m_Arguments;
 
+  /// [FormerlySerializedAs("m_Enabled")]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("enabled")]
   /// @brief Field m_CallState, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::Events::UnityEventCallState ___m_CallState;
 

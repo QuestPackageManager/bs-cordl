@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\LevelStartDestinationParameters.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/LevelStartDestinationParameters.hpp"
 #include "BeatSaber/Destinations/zzzz__GameMode_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -121,8 +121,8 @@ inline void BeatSaber::Destinations::LevelStartDestinationParameters::_ctor() {
 inline void BeatSaber::Destinations::LevelStartDestinationParameters::_ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey,
                                                                             ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
                                                                             ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                                                            ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
-                                                                            ::GlobalNamespace::PracticeSettings* practiceSettings) {
+                                                                            /* [Nullable(2)] */ ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
+                                                                            /* [Nullable(2)] */ ::GlobalNamespace::PracticeSettings* practiceSettings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::LevelStartDestinationParameters*>(),
                                                            { ".ctor",
@@ -138,7 +138,8 @@ inline ::BeatSaber::Destinations::LevelStartDestinationParameters* BeatSaber::De
 inline ::BeatSaber::Destinations::LevelStartDestinationParameters*
 BeatSaber::Destinations::LevelStartDestinationParameters::New_ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey,
                                                                    ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                                                   ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings) {
+                                                                   /* [Nullable(2)] */ ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
+                                                                   /* [Nullable(2)] */ ::GlobalNamespace::PracticeSettings* practiceSettings) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Destinations::LevelStartDestinationParameters*>(gameMode, beatmapKey, environmentOverride, gameplayModifiers,
                                                                                                                        customPlayerSpecificSettings, practiceSettings));
 }

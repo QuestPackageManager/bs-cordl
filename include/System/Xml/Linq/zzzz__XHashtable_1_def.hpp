@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XHashtable_1.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XHashtable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr XHashtable_1_ExtractKeyDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1_ExtractKeyDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1_ExtractKeyDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XHashtable_1_ExtractKeyDelegate(XHashtable_1_ExtractKeyDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1_ExtractKeyDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1_ExtractKeyDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XHashtable_1_ExtractKeyDelegate(XHashtable_1_ExtractKeyDelegate const&) = delete;
+  XHashtable_1_ExtractKeyDelegate(XHashtable_1_ExtractKeyDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21977 };
@@ -98,8 +98,8 @@ public:
   // @brief default ctor
   constexpr XHashtableState_XHashtable_1_Entry();
 
-  // Ctor Parameters [CppParam { name: "Value", ty: "TValue", modifiers: "", def_value: None }, CppParam { name: "HashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Next",
-  // ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value", ty: "TValue", modifiers: "", def_value: None, comment: None }, CppParam { name: "HashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "Next", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XHashtableState_XHashtable_1_Entry(TValue Value, int32_t HashCode, int32_t Next) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -194,13 +194,13 @@ protected:
   constexpr XHashtable_1_XHashtableState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1_XHashtableState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1_XHashtableState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XHashtable_1_XHashtableState(XHashtable_1_XHashtableState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1_XHashtableState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1_XHashtableState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XHashtable_1_XHashtableState(XHashtable_1_XHashtableState const&) = delete;
+  XHashtable_1_XHashtableState(XHashtable_1_XHashtableStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21979 };
@@ -260,13 +260,13 @@ protected:
   constexpr XHashtable_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XHashtable_1(XHashtable_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XHashtable_1(XHashtable_1 const&) = delete;
+  XHashtable_1(XHashtable_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21980 };

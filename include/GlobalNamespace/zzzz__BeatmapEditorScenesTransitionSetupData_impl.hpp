@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEditorScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEditorScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorScenesTransitionSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
@@ -106,7 +106,7 @@ inline void GlobalNamespace::BeatmapEditorScenesTransitionSetupData::remove_didF
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void
-GlobalNamespace::BeatmapEditorScenesTransitionSetupData::Init(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+GlobalNamespace::BeatmapEditorScenesTransitionSetupData::Init(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder, /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */
                                                               ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>(),

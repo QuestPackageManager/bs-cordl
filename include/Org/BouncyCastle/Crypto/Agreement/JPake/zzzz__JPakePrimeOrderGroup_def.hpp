@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\JPake\JPakePrimeOrderGroup.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/JPake/JPakePrimeOrderGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ protected:
   constexpr JPakePrimeOrderGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JPakePrimeOrderGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPakePrimeOrderGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JPakePrimeOrderGroup(JPakePrimeOrderGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JPakePrimeOrderGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPakePrimeOrderGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JPakePrimeOrderGroup(JPakePrimeOrderGroup const&) = delete;
+  JPakePrimeOrderGroup(JPakePrimeOrderGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 715 };

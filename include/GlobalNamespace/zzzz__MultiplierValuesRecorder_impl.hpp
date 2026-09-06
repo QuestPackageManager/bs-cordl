@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplierValuesRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplierValuesRecorder.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplierValuesRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
@@ -27,7 +27,8 @@ inline void GlobalNamespace::MultiplierValuesRecorder_MultiplierValue::_ctor(int
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplierValuesRecorder_MultiplierValue>(), { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, multiplier, time);
 }
-// Ctor Parameters [CppParam { name: "multiplier", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "multiplier", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::MultiplierValuesRecorder_MultiplierValue::MultiplierValuesRecorder_MultiplierValue(int32_t multiplier, float_t time) noexcept {
   this->multiplier = multiplier;
   this->time = time;

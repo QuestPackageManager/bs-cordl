@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\Mesh_Extents.hpp"
+// IWYU pragma private; include "TMPro/Mesh_Extents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,8 @@ public:
   // @brief default ctor
   constexpr Mesh_Extents();
 
-  // Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr Mesh_Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

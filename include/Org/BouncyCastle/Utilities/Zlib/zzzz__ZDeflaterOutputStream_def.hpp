@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\ZDeflaterOutputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/ZDeflaterOutputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class ZDeflaterOutputStream;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream*, "Org.BouncyCastle.Utilities.Zlib", "ZDeflaterOutputStream");
+// [Obsolete("Use \'ZOutputStream\' instead")]
 // Dependencies System.IO.Stream
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
@@ -151,13 +152,13 @@ protected:
   constexpr ZDeflaterOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZDeflaterOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZDeflaterOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZDeflaterOutputStream(ZDeflaterOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZDeflaterOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZDeflaterOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZDeflaterOutputStream(ZDeflaterOutputStream const&) = delete;
+  ZDeflaterOutputStream(ZDeflaterOutputStreamconst&) = delete;
 
   /// @brief Field BUFSIZE offset 0xffffffff size 0x4
   static constexpr int32_t BUFSIZE{ static_cast<int32_t>(0x1060) };

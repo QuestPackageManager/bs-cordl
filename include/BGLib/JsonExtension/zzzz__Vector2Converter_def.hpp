@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\JsonExtension\Vector2Converter.hpp"
+// IWYU pragma private; include "BGLib/JsonExtension/Vector2Converter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ class Vector2Converter;
 // Write type traits
 MARK_REF_T(::BGLib::JsonExtension::Vector2Converter*);
 DEFINE_IL2CPP_CLASS(::BGLib::JsonExtension::Vector2Converter*, "BGLib.JsonExtension", "Vector2Converter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonConverter`1<T>, UnityEngine.Vector2
 namespace BGLib::JsonExtension {
 // Is value type: false
@@ -53,13 +55,13 @@ protected:
   constexpr Vector2Converter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Converter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector2Converter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector2Converter(Vector2Converter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Converter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector2Converter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2Converter(Vector2Converter const&) = delete;
+  Vector2Converter(Vector2Converterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23388 };

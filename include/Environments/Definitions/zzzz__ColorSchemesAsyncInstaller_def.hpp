@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Environments\Definitions\ColorSchemesAsyncInstaller.hpp"
+// IWYU pragma private; include "Environments/Definitions/ColorSchemesAsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ MARK_REF_T(::Environments::Definitions::ColorSchemesAsyncInstaller*);
 MARK_REF_T(::Environments::Definitions::ColorSchemesAsyncInstaller___c*);
 DEFINE_IL2CPP_CLASS(::Environments::Definitions::ColorSchemesAsyncInstaller*, "Environments.Definitions", "ColorSchemesAsyncInstaller");
 DEFINE_IL2CPP_CLASS(::Environments::Definitions::ColorSchemesAsyncInstaller___c*, "Environments.Definitions", "ColorSchemesAsyncInstaller/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Environments::Definitions {
 // Is value type: false
@@ -53,6 +54,7 @@ public:
 
   static inline ::Environments::Definitions::ColorSchemesAsyncInstaller___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x376cc00, size 0x14, virtual false, abstract: false, final false
   inline int32_t _LoadResourcesBeforeInstall_b__3_0(::GlobalNamespace::ColorSchemeSO* colorScheme);
 
@@ -73,13 +75,13 @@ protected:
   constexpr ColorSchemesAsyncInstaller___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemesAsyncInstaller___c(ColorSchemesAsyncInstaller___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemesAsyncInstaller___c(ColorSchemesAsyncInstaller___c const&) = delete;
+  ColorSchemesAsyncInstaller___c(ColorSchemesAsyncInstaller___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15487 };
@@ -90,6 +92,8 @@ public:
 static_assert(sizeof(::Environments::Definitions::ColorSchemesAsyncInstaller___c) == 0x10, "Size mismatch!");
 
 } // namespace Environments::Definitions
+// [NullableContext(1)]
+// [Nullable(new[] { 0, 1 })]
 // Dependencies BGLib.AppFlow.Initialization.AddressablesAsyncInstaller`1<T>
 namespace Environments::Definitions {
 // Is value type: false
@@ -132,13 +136,13 @@ protected:
   constexpr ColorSchemesAsyncInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemesAsyncInstaller(ColorSchemesAsyncInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemesAsyncInstaller(ColorSchemesAsyncInstaller const&) = delete;
+  ColorSchemesAsyncInstaller(ColorSchemesAsyncInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15488 };

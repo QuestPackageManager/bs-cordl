@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\FpFieldElement.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/FpFieldElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,6 +116,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::FpFieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* x);
 
+  /// @brief [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
   static inline ::Org::BouncyCastle::Math::EC::FpFieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* x);
 
   /// @brief Method Sqrt, addr 0x3526a80, size 0x600, virtual true, abstract: false, final false
@@ -157,6 +158,7 @@ public:
   /// @brief Method .ctor, addr 0x3524adc, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* x);
 
+  /// [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
   /// @brief Method .ctor, addr 0x3525ec0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* x);
 
@@ -175,13 +177,13 @@ protected:
   constexpr FpFieldElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FpFieldElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FpFieldElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FpFieldElement(FpFieldElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FpFieldElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FpFieldElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FpFieldElement(FpFieldElement const&) = delete;
+  FpFieldElement(FpFieldElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1569 };

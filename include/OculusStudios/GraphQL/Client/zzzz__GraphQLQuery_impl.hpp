@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLQuery.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLQuery.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLRequest_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLQuery_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLQuery._ctor

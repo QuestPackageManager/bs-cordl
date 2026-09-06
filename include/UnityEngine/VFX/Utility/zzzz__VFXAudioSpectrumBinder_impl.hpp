@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXAudioSpectrumBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXAudioSpectrumBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__FFTWindow_impl.hpp"
@@ -9,7 +9,7 @@
 #include "UnityEngine/VFX/zzzz__VisualEffect_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder_AudioSourceMode::VFXAudioSpectrumBinder_AudioSourceMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

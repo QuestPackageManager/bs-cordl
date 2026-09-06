@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPause.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPause.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,12 +71,15 @@ public:
   /// @brief Method .ctor, addr 0x59afdbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPauseEvent, addr 0x59af90c, size 0xac, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didResumeEvent, addr 0x59afbbc, size 0xac, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_willResumeEvent, addr 0x59afa64, size 0xac, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
@@ -86,12 +89,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPauseEvent, addr 0x59af9b8, size 0xac, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didResumeEvent, addr 0x59afc68, size 0xac, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_willResumeEvent, addr 0x59afb10, size 0xac, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
@@ -101,23 +107,26 @@ protected:
   constexpr MockPause();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPause", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPause", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPause(MockPause&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPause", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPause", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPause(MockPause const&) = delete;
+  MockPause(MockPauseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6026 };
 
+  /// [CompilerGenerated]
   /// @brief Field didPauseEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___didPauseEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field willResumeEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___willResumeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didResumeEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___didResumeEvent;
 

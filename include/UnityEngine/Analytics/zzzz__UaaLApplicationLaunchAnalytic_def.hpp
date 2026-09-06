@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\UaaLApplicationLaunchAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/UaaLApplicationLaunchAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class UaaLApplicationLaunchAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic*, "UnityEngine.Analytics", "UaaLApplicationLaunchAnalytic");
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEngine::Analytics {
 // Is value type: false
@@ -26,6 +27,7 @@ public:
   /// @brief Field launch_type, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_launch_type, put = __cordl_internal_set_launch_type)) int32_t launch_type;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateUaaLApplicationLaunchAnalytic, addr 0x6b07b70, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic* CreateUaaLApplicationLaunchAnalytic();
 
@@ -52,13 +54,13 @@ protected:
   constexpr UaaLApplicationLaunchAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UaaLApplicationLaunchAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UaaLApplicationLaunchAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UaaLApplicationLaunchAnalytic(UaaLApplicationLaunchAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UaaLApplicationLaunchAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UaaLApplicationLaunchAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UaaLApplicationLaunchAnalytic(UaaLApplicationLaunchAnalytic const&) = delete;
+  UaaLApplicationLaunchAnalytic(UaaLApplicationLaunchAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10696 };

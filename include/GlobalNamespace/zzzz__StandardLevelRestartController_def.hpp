@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelRestartController.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelRestartController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class StandardLevelRestartController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StandardLevelRestartController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandardLevelRestartController*, "", "StandardLevelRestartController");
+// [AddComponentMenu("Beat Saber/Gameplay/StandardLevelRestartController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -68,20 +69,22 @@ protected:
   constexpr StandardLevelRestartController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelRestartController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelRestartController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelRestartController(StandardLevelRestartController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelRestartController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelRestartController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelRestartController(StandardLevelRestartController const&) = delete;
+  StandardLevelRestartController(StandardLevelRestartControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6044 };
 
+  /// [Inject]
   /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::StandardLevelScenesTransitionSetupData* ____standardLevelSceneSetupData;
 
+  /// [Inject]
   /// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 

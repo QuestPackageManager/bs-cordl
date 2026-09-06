@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\RsaCoreEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/RsaCoreEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,13 +98,13 @@ protected:
   constexpr RsaCoreEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RsaCoreEngine(RsaCoreEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RsaCoreEngine(RsaCoreEngine const&) = delete;
+  RsaCoreEngine(RsaCoreEngineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 865 };

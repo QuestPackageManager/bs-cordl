@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Log.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Log.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,12 +53,15 @@ public:
   /// @brief Method ClearLogFile, addr 0x66c4240, size 0x94, virtual false, abstract: false, final false
   static inline void ClearLogFile();
 
+  /// [Conditional("DEBUG")]
   /// @brief Method Debug, addr 0x66c3b94, size 0x4, virtual false, abstract: false, final false
-  static inline void Debug(::StringW format, ::ArrayW<::System::Object*> values);
+  static inline void Debug(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> values);
 
+  /// [Conditional("DEBUG")]
   /// @brief Method Debug, addr 0x66c3a64, size 0x5c, virtual false, abstract: false, final false
   static inline void Debug(::StringW message);
 
+  /// [Conditional("DEBUG")]
   /// @brief Method Debug, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Debug(T value);
 
@@ -66,13 +69,13 @@ public:
   static inline void DoPrint(::StringW message, ::UnityEngine::LogType type);
 
   /// @brief Method Error, addr 0x66c3d98, size 0x7c, virtual false, abstract: false, final false
-  static inline void Error(::StringW format, ::ArrayW<::System::Object*> values);
+  static inline void Error(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> values);
 
   /// @brief Method Error, addr 0x66b7274, size 0x84, virtual false, abstract: false, final false
   static inline void Error(::StringW message);
 
   /// @brief Method Info, addr 0x66c3b98, size 0x7c, virtual false, abstract: false, final false
-  static inline void Info(::StringW format, ::ArrayW<::System::Object*> values);
+  static inline void Info(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> values);
 
   /// @brief Method Info, addr 0x66c3c14, size 0x84, virtual false, abstract: false, final false
   static inline void Info(::StringW message);
@@ -102,11 +105,12 @@ public:
   static inline void SetOutput(::UnityEngine::ProBuilder::LogOutput output);
 
   /// @brief Method Warning, addr 0x66c3c98, size 0x7c, virtual false, abstract: false, final false
-  static inline void Warning(::StringW format, ::ArrayW<::System::Object*> values);
+  static inline void Warning(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> values);
 
   /// @brief Method Warning, addr 0x66c3d14, size 0x84, virtual false, abstract: false, final false
   static inline void Warning(::StringW message);
 
+  /// [Conditional("CONSOLE_PRO_ENABLED")]
   /// @brief Method Watch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename K> static inline void Watch(T key, K value);
 
@@ -132,13 +136,13 @@ protected:
   constexpr Log();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Log(Log&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Log(Log const&) = delete;
+  Log(Logconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16748 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerPlayerPlacement.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerPlayerPlacement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::GlobalNamespace::MultiplayerPlayerPlacement*);
 MARK_REF_T(::GlobalNamespace::MultiplayerPlayerPlacement___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerPlayerPlacement*, "", "MultiplayerPlayerPlacement");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerPlayerPlacement___c*, "", "MultiplayerPlayerPlacement/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -75,13 +76,13 @@ protected:
   constexpr MultiplayerPlayerPlacement___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerPlayerPlacement___c(MultiplayerPlayerPlacement___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerPlayerPlacement___c(MultiplayerPlayerPlacement___c const&) = delete;
+  MultiplayerPlayerPlacement___c(MultiplayerPlayerPlacement___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6172 };
@@ -125,13 +126,13 @@ protected:
   constexpr MultiplayerPlayerPlacement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerPlayerPlacement(MultiplayerPlayerPlacement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerPlayerPlacement(MultiplayerPlayerPlacement const&) = delete;
+  MultiplayerPlayerPlacement(MultiplayerPlayerPlacementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6173 };

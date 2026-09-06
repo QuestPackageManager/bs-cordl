@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\SimpleLookupTable.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/SimpleLookupTable.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractECLookupTable_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__SimpleLookupTable_def.hpp"

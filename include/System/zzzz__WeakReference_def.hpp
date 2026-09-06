@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\WeakReference.hpp"
+// IWYU pragma private; include "System/WeakReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class WeakReference;
 // Write type traits
 MARK_REF_T(::System::WeakReference*);
 DEFINE_IL2CPP_CLASS(::System::WeakReference*, "System", "WeakReference");
+// [ComVisible(true)]
 // Dependencies System.Object, System.Runtime.InteropServices.GCHandle
 namespace System {
 // Is value type: false
@@ -109,13 +110,13 @@ protected:
   constexpr WeakReference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WeakReference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WeakReference", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WeakReference(WeakReference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WeakReference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WeakReference", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WeakReference(WeakReference const&) = delete;
+  WeakReference(WeakReferenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2652 };

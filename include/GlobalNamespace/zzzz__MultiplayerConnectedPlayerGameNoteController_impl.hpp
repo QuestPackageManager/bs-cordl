@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerGameNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerGameNoteController.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerNoteController_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteVisualModifierType_impl.hpp"
@@ -216,7 +216,7 @@ inline ::GlobalNamespace::NoteVisualModifierType GlobalNamespace::MultiplayerCon
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>(), { "get_noteVisualModifierType", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteVisualModifierType>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Init(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
+inline void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
                                                                                 ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float_t uniformScale) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>(),

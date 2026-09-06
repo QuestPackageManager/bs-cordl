@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\ClipCaps.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/ClipCaps.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Timeline::ClipCaps::ClipCaps(int32_t value__) noexcept {
   this->value__ = value__;
 }

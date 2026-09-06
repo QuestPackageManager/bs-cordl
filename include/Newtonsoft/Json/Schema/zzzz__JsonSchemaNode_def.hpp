@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaNode.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaNode*);
 MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaNode___c*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaNode*, "Newtonsoft.Json.Schema", "JsonSchemaNode");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaNode___c*, "Newtonsoft.Json.Schema", "JsonSchemaNode/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -84,13 +85,13 @@ protected:
   constexpr JsonSchemaNode___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaNode___c(JsonSchemaNode___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaNode___c(JsonSchemaNode___c const&) = delete;
+  JsonSchemaNode___c(JsonSchemaNode___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13552 };
@@ -101,6 +102,7 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::Schema::JsonSchemaNode___c) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Schema
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -211,30 +213,39 @@ public:
   /// @brief Method .ctor, addr 0x5d670a8, size 0x244, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaNode* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
+  /// [CompilerGenerated]
   /// @brief Method get_AdditionalItems, addr 0x5d67098, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaNode* get_AdditionalItems();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AdditionalProperties, addr 0x5d67088, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaNode* get_AdditionalProperties();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Id, addr 0x5d67060, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Items, addr 0x5d67080, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Schema::JsonSchemaNode*>* get_Items();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PatternProperties, addr 0x5d67078, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* get_PatternProperties();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Properties, addr 0x5d67070, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* get_Properties();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Schemas, addr 0x5d67068, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* get_Schemas();
 
+  /// [CompilerGenerated]
   /// @brief Method set_AdditionalItems, addr 0x5d670a0, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalItems(::Newtonsoft::Json::Schema::JsonSchemaNode* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_AdditionalProperties, addr 0x5d67090, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalProperties(::Newtonsoft::Json::Schema::JsonSchemaNode* value);
 
@@ -244,35 +255,42 @@ protected:
   constexpr JsonSchemaNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaNode(JsonSchemaNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaNode(JsonSchemaNode const&) = delete;
+  JsonSchemaNode(JsonSchemaNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13553 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Schemas>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* ____Schemas_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Properties>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* ____Properties_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <PatternProperties>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* ____PatternProperties_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Items>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Schema::JsonSchemaNode*>* ____Items_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AdditionalProperties>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::JsonSchemaNode* ____AdditionalProperties_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AdditionalItems>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::JsonSchemaNode* ____AdditionalItems_k__BackingField;
 

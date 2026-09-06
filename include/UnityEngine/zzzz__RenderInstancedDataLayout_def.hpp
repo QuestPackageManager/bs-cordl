@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RenderInstancedDataLayout.hpp"
+// IWYU pragma private; include "UnityEngine/RenderInstancedDataLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RenderInstancedDataLayout;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RenderInstancedDataLayout);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RenderInstancedDataLayout, "UnityEngine", "RenderInstancedDataLayout");
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -24,9 +25,9 @@ public:
   // @brief default ctor
   constexpr RenderInstancedDataLayout();
 
-  // Ctor Parameters [CppParam { name: "_size_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_offsetObjectToWorld_k__BackingField", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_offsetPrevObjectToWorld_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_offsetRenderingLayerMask_k__BackingField", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_size_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_offsetObjectToWorld_k__BackingField", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_offsetPrevObjectToWorld_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_offsetRenderingLayerMask_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderInstancedDataLayout(int32_t _size_k__BackingField, int32_t _offsetObjectToWorld_k__BackingField, int32_t _offsetPrevObjectToWorld_k__BackingField,
                                       int32_t _offsetRenderingLayerMask_k__BackingField) noexcept;
 
@@ -36,15 +37,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <size>k__BackingField, offset: 0x0, size: 0x4, def value: None
   int32_t _size_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <offsetObjectToWorld>k__BackingField, offset: 0x4, size: 0x4, def value: None
   int32_t _offsetObjectToWorld_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <offsetPrevObjectToWorld>k__BackingField, offset: 0x8, size: 0x4, def value: None
   int32_t _offsetPrevObjectToWorld_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <offsetRenderingLayerMask>k__BackingField, offset: 0xc, size: 0x4, def value: None
   int32_t _offsetRenderingLayerMask_k__BackingField;
 

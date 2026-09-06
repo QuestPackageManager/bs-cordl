@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IgnoranceConnectionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/IgnoranceConnectionManager.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_impl.hpp"
 #include "GlobalNamespace/zzzz__IgnoranceConnectionManager_impl.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceChannelTypes_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
@@ -34,7 +35,7 @@
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__IAsyncDisposable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState::IgnoranceConnectionManager_ConnectionState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -864,10 +865,10 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::IgnoranceConnectionManager*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::IgnoranceConnectionManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::IgnoranceConnectionManager* __4__this,
     ::System::Threading::CancellationToken _cancellationToken_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -925,9 +926,10 @@ constexpr GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81::opera
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::IgnoranceConnectionManager*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::IgnoranceConnectionManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81::IgnoranceConnectionManager__DisposeAsync_d__81(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder __t__builder, ::GlobalNamespace::IgnoranceConnectionManager* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -2223,7 +2225,9 @@ inline void GlobalNamespace::IgnoranceConnectionManager::_ctor(::BGNet::Core::IT
                                                            { ".ctor", {}, { ::i2c::type_of<::BGNet::Core::ITimeProvider*>(), ::i2c::type_of<::BGNet::Core::ITaskUtility*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, timeProvider, taskUtility);
 }
-template <typename T> inline bool GlobalNamespace::IgnoranceConnectionManager::Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+inline bool GlobalNamespace::IgnoranceConnectionManager::Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(),
                                                            { "Init", { ::i2c::class_of<T>() }, { ::i2c::type_of<::GlobalNamespace::IConnectionInitParams_1<T>*>() } })));

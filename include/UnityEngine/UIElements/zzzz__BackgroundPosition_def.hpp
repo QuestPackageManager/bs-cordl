@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BackgroundPosition.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BackgroundPosition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,8 +100,8 @@ public:
   // @brief default ctor
   constexpr BackgroundPosition();
 
-  // Ctor Parameters [CppParam { name: "keyword", ty: "::UnityEngine::UIElements::BackgroundPositionKeyword", modifiers: "", def_value: None }, CppParam { name: "offset", ty:
-  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "keyword", ty: "::UnityEngine::UIElements::BackgroundPositionKeyword", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset", ty:
+  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }]
   constexpr BackgroundPosition(::UnityEngine::UIElements::BackgroundPositionKeyword keyword, ::UnityEngine::UIElements::Length offset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -167,9 +167,11 @@ public:
   /// @brief Method .ctor, addr 0x6c2f7a4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c2f874, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c2f86c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -179,20 +181,24 @@ protected:
   constexpr PropertyBag_BackgroundPosition_KeywordProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_KeywordProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_KeywordProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_BackgroundPosition_KeywordProperty(PropertyBag_BackgroundPosition_KeywordProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_KeywordProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_KeywordProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundPosition_KeywordProperty(PropertyBag_BackgroundPosition_KeywordProperty const&) = delete;
+  PropertyBag_BackgroundPosition_KeywordProperty(PropertyBag_BackgroundPosition_KeywordPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4003 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -246,9 +252,11 @@ public:
   /// @brief Method .ctor, addr 0x6c2f808, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c2f894, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c2f88c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -258,20 +266,24 @@ protected:
   constexpr PropertyBag_BackgroundPosition_OffsetProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_OffsetProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_OffsetProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_BackgroundPosition_OffsetProperty(PropertyBag_BackgroundPosition_OffsetProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_OffsetProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundPosition_OffsetProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundPosition_OffsetProperty(PropertyBag_BackgroundPosition_OffsetProperty const&) = delete;
+  PropertyBag_BackgroundPosition_OffsetProperty(PropertyBag_BackgroundPosition_OffsetPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4004 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -307,13 +319,13 @@ protected:
   constexpr BackgroundPosition_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BackgroundPosition_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundPosition_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BackgroundPosition_PropertyBag(BackgroundPosition_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BackgroundPosition_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundPosition_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BackgroundPosition_PropertyBag(BackgroundPosition_PropertyBag const&) = delete;
+  BackgroundPosition_PropertyBag(BackgroundPosition_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4005 };

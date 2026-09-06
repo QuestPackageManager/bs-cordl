@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlDownloadManager.hpp"
+// IWYU pragma private; include "System/Xml/XmlDownloadManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ MARK_VAL_T(::System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5);
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlDownloadManager*, "System.Xml", "XmlDownloadManager");
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlDownloadManager___c__DisplayClass4_0*, "System.Xml", "XmlDownloadManager/<>c__DisplayClass4_0");
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5, "System.Xml", "XmlDownloadManager/<GetNonFileStreamAsync>d__5");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
@@ -93,13 +94,13 @@ protected:
   constexpr XmlDownloadManager___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDownloadManager___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDownloadManager___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDownloadManager___c__DisplayClass4_0(XmlDownloadManager___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDownloadManager___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDownloadManager___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDownloadManager___c__DisplayClass4_0(XmlDownloadManager___c__DisplayClass4_0 const&) = delete;
+  XmlDownloadManager___c__DisplayClass4_0(XmlDownloadManager___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9436 };
@@ -115,6 +116,7 @@ static_assert(offsetof(::System::Xml::XmlDownloadManager___c__DisplayClass4_0, _
 static_assert(sizeof(::System::Xml::XmlDownloadManager___c__DisplayClass4_0) == 0x18, "Size mismatch!");
 
 } // namespace System::Xml
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace System::Xml {
 // Is value type: true
@@ -128,6 +130,7 @@ public:
   /// @brief Method MoveNext, addr 0x62e2364, size 0x7fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x62e2b60, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -138,12 +141,13 @@ public:
   // @brief default ctor
   constexpr XmlDownloadManager__GetNonFileStreamAsync_d__5();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::System::Uri*", modifiers: "", def_value:
-  // None }, CppParam { name: "credentials", ty: "::System::Net::ICredentials*", modifiers: "", def_value: None }, CppParam { name: "proxy", ty: "::System::Net::IWebProxy*", modifiers: "", def_value:
-  // None }, CppParam { name: "cachePolicy", ty: "::System::Net::Cache::RequestCachePolicy*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Xml::XmlDownloadManager*",
-  // modifiers: "", def_value: None }, CppParam { name: "_req_5__2", ty: "::System::Net::WebRequest*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "uri", ty: "::System::Uri*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "credentials", ty: "::System::Net::ICredentials*", modifiers: "", def_value: None, comment: None }, CppParam { name: "proxy", ty:
+  // "::System::Net::IWebProxy*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cachePolicy", ty: "::System::Net::Cache::RequestCachePolicy*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__4__this", ty: "::System::Xml::XmlDownloadManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_req_5__2", ty:
+  // "::System::Net::WebRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*>", modifiers: "", def_value: None, comment: None }]
   constexpr XmlDownloadManager__GetNonFileStreamAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder, ::System::Uri* uri,
                                                            ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy,
                                                            ::System::Xml::XmlDownloadManager* __4__this, ::System::Net::WebRequest* _req_5__2,
@@ -223,6 +227,7 @@ public:
   /// @brief Method GetNonFileStream, addr 0x62e1840, size 0x47c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetNonFileStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
+  /// [AsyncStateMachine(typeof(System.Xml.XmlDownloadManager::<GetNonFileStreamAsync>d__5))]
   /// @brief Method GetNonFileStreamAsync, addr 0x62e21bc, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetNonFileStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,
                                                                                           ::System::Net::Cache::RequestCachePolicy* cachePolicy);
@@ -254,13 +259,13 @@ protected:
   constexpr XmlDownloadManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDownloadManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDownloadManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDownloadManager(XmlDownloadManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDownloadManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDownloadManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDownloadManager(XmlDownloadManager const&) = delete;
+  XmlDownloadManager(XmlDownloadManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9438 };

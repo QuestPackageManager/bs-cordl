@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ColorCurves.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ColorCurves.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class ColorCurves;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::ColorCurves*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ColorCurves*, "UnityEngine.Rendering.Universal", "ColorCurves");
+// [VolumeComponentMenu("Post-processing/Color Curves")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -55,6 +57,7 @@ public:
   /// @brief Method IsActive, addr 0x687df80, size 0x8, virtual true, abstract: false, final true
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687df88, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -120,38 +123,46 @@ protected:
   constexpr ColorCurves();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorCurves", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorCurves", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorCurves(ColorCurves&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorCurves", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorCurves", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorCurves(ColorCurves const&) = delete;
+  ColorCurves(ColorCurvesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12791 };
 
+  /// [Tooltip("Affects the luminance across the whole image.")]
   /// @brief Field master, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureCurveParameter* ___master;
 
+  /// [Tooltip("Affects the red channel intensity across the whole image.")]
   /// @brief Field red, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureCurveParameter* ___red;
 
+  /// [Tooltip("Affects the green channel intensity across the whole image.")]
   /// @brief Field green, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureCurveParameter* ___green;
 
+  /// [Tooltip("Affects the blue channel intensity across the whole image.")]
   /// @brief Field blue, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureCurveParameter* ___blue;
 
+  /// [Tooltip("Shifts the input hue (x-axis) according to the output hue (y-axis).")]
   /// @brief Field hueVsHue, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureCurveParameter* ___hueVsHue;
 
+  /// [Tooltip("Adjusts saturation (y-axis) according to the input hue (x-axis).")]
   /// @brief Field hueVsSat, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureCurveParameter* ___hueVsSat;
 
+  /// [Tooltip("Adjusts saturation (y-axis) according to the input saturation (x-axis).")]
   /// @brief Field satVsSat, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureCurveParameter* ___satVsSat;
 
+  /// [Tooltip("Adjusts saturation (y-axis) according to the input luminance (x-axis).")]
   /// @brief Field lumVsSat, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Rendering::TextureCurveParameter* ___lumVsSat;
 

@@ -1,8 +1,10 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeParallelHashMapExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeParallelHashMapExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeParallelHashMapExtensions)
@@ -13,19 +15,30 @@ namespace Unity::Collections::LowLevel::Unsafe {
 struct UnsafeParallelHashMapBucketData;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue> struct UnsafeParallelMultiHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct UnsafeParallelMultiHashMap_2;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelMultiHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelMultiHashMap_2;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -34,36 +47,66 @@ class NativeParallelHashMapExtensions;
 // Write type traits
 MARK_REF_T(::Unity::Collections::NativeParallelHashMapExtensions*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeParallelHashMapExtensions*, "Unity.Collections", "NativeParallelHashMapExtensions");
-// Dependencies System.Object
+// [Extension]
+// [GenerateTestsForBurstCompatibility]
+// Dependencies System.IComparable`1<T>, System.IEquatable`1<T>, System.Object
 namespace Unity::Collections {
 // Is value type: false
 // CS Name: Unity.Collections.NativeParallelHashMapExtensions
 class CORDL_TYPE NativeParallelHashMapExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method GetUniqueKeyArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue>
+    requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> &&
+             ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+             ::cordl_internals::default_constructor_constraint<TValue>)
   static inline ::System::ValueTuple_2<::Unity::Collections::NativeArray_1<TKey>, int32_t>
   GetUniqueKeyArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMap_2<TKey, TValue> container, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method GetUniqueKeyArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue>
+    requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::type_constraint<TKey, ::System::IComparable_1<TKey>*> &&
+             ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+             ::cordl_internals::default_constructor_constraint<TValue>)
   static inline ::System::ValueTuple_2<::Unity::Collections::NativeArray_1<TKey>, int32_t> GetUniqueKeyArray(::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue> container,
                                                                                                              ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method GetUnsafeBucketData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue>
+    requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+             ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData GetUnsafeBucketData(::Unity::Collections::NativeParallelHashMap_2<TKey, TValue> container);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method GetUnsafeBucketData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue>
+    requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+             ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData GetUnsafeBucketData(::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue> container);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TKey, typename TValue> static inline void Remove(::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue> container, TKey key, TValue value);
+  template <typename TKey, typename TValue>
+    requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+             ::cordl_internals::type_constraint<TValue, ::System::IEquatable_1<TValue>*> && ::cordl_internals::value_type_constraint<TValue> &&
+             ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline void Remove(::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue> container, TKey key, TValue value);
 
+  /// [Extension]
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Unique, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t Unique(::Unity::Collections::NativeArray_1<T> array);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline int32_t Unique(::Unity::Collections::NativeArray_1<T> array);
 
 protected:
   // Ctor Parameters []
@@ -71,13 +114,13 @@ protected:
   constexpr NativeParallelHashMapExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelHashMapExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelHashMapExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeParallelHashMapExtensions(NativeParallelHashMapExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelHashMapExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelHashMapExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeParallelHashMapExtensions(NativeParallelHashMapExtensions const&) = delete;
+  NativeParallelHashMapExtensions(NativeParallelHashMapExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15662 };

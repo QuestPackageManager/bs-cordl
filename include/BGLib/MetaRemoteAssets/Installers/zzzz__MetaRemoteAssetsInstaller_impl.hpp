@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\MetaRemoteAssets\Installers\MetaRemoteAssetsInstaller.hpp"
+// IWYU pragma private; include "BGLib/MetaRemoteAssets/Installers/MetaRemoteAssetsInstaller.hpp"
 #include "Zenject/zzzz__Installer_1_impl.hpp"
 #include "BGLib/MetaRemoteAssets/Installers/zzzz__MetaRemoteAssetsInstaller_def.hpp"
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MonoKernel.hpp"
+// IWYU pragma private; include "Zenject/MonoKernel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,6 +101,7 @@ public:
 
   constexpr void __cordl_internal_set__tickableManager(::Zenject::TickableManager* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e944f0, size 0x42c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -125,23 +126,26 @@ protected:
   constexpr MonoKernel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoKernel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoKernel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoKernel(MonoKernel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoKernel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoKernel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoKernel(MonoKernel const&) = delete;
+  MonoKernel(MonoKernelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14677 };
 
+  /// [InjectLocal]
   /// @brief Field _tickableManager, offset: 0x20, size: 0x8, def value: None
   ::Zenject::TickableManager* ____tickableManager;
 
+  /// [InjectLocal]
   /// @brief Field _initializableManager, offset: 0x28, size: 0x8, def value: None
   ::Zenject::InitializableManager* ____initializableManager;
 
+  /// [InjectLocal]
   /// @brief Field _disposablesManager, offset: 0x30, size: 0x8, def value: None
   ::Zenject::DisposableManager* ____disposablesManager;
 

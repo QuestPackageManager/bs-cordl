@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\TargetType.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/TargetType.hpp"
 #include "UnityEngine/Bindings/zzzz__TargetType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Bindings::TargetType::TargetType(int32_t value__) noexcept {
   this->value__ = value__;
 }

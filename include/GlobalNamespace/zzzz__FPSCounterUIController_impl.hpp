@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FPSCounterUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FPSCounterUIController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FPSCounterUIController_def.hpp"
@@ -159,6 +159,7 @@ inline ::System::Object* GlobalNamespace::FPSCounterUIController__Start_d__9::Sy
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounterUIController__Start_d__9*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::FPSCounterUIController__Start_d__9* GlobalNamespace::FPSCounterUIController__Start_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::FPSCounterUIController__Start_d__9*>(__1__state));
 }

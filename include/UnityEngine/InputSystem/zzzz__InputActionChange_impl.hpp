@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionChange.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionChange.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionChange_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionChange::InputActionChange(int32_t value__) noexcept {
   this->value__ = value__;
 }

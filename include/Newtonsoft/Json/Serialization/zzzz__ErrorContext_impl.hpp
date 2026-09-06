@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ErrorContext.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ErrorContext.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ErrorContext_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -191,7 +191,8 @@ constexpr void Newtonsoft::Json::Serialization::ErrorContext::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Handled_k__BackingField = value;
 }
-inline void Newtonsoft::Json::Serialization::ErrorContext::_ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error) {
+inline void Newtonsoft::Json::Serialization::ErrorContext::_ctor(/* [Nullable(2)] */ ::System::Object* originalObject, /* [Nullable(2)] */ ::System::Object* member, ::StringW path,
+                                                                 ::System::Exception* error) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorContext*>(),
@@ -232,7 +233,8 @@ inline void Newtonsoft::Json::Serialization::ErrorContext::set_Handled(bool valu
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::ErrorContext*>(), { "set_Handled", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Serialization::ErrorContext* Newtonsoft::Json::Serialization::ErrorContext::New_ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path,
+inline ::Newtonsoft::Json::Serialization::ErrorContext* Newtonsoft::Json::Serialization::ErrorContext::New_ctor(/* [Nullable(2)] */ ::System::Object* originalObject,
+                                                                                                                /* [Nullable(2)] */ ::System::Object* member, ::StringW path,
                                                                                                                 ::System::Exception* error) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Serialization::ErrorContext*>(originalObject, member, path, error));
 }

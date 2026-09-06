@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ struct RenderGraphContext;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraphContext, "UnityEngine.Rendering.RenderGraphModule", "RenderGraphContext");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -70,7 +71,7 @@ public:
   // @brief default ctor
   constexpr RenderGraphContext();
 
-  // Ctor Parameters [CppParam { name: "wrappedContext", ty: "::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "wrappedContext", ty: "::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraphContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* wrappedContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

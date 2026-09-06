@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteDebrisPoolInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteDebrisPoolInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,35 +107,42 @@ protected:
   constexpr NoteDebrisPoolInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisPoolInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisPoolInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteDebrisPoolInstaller(NoteDebrisPoolInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisPoolInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisPoolInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteDebrisPoolInstaller(NoteDebrisPoolInstaller const&) = delete;
+  NoteDebrisPoolInstaller(NoteDebrisPoolInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6313 };
 
+  /// [SerializeField]
   /// @brief Field _normalNoteDebrisHDPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebris> ____normalNoteDebrisHDPrefab;
 
+  /// [SerializeField]
   /// @brief Field _normalNoteDebrisLWPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebris> ____normalNoteDebrisLWPrefab;
 
+  /// [SerializeField]
   /// @brief Field _burstSliderHeadNoteDebrisHDPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebris> ____burstSliderHeadNoteDebrisHDPrefab;
 
+  /// [SerializeField]
   /// @brief Field _burstSliderHeadNoteDebrisLWPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebris> ____burstSliderHeadNoteDebrisLWPrefab;
 
+  /// [SerializeField]
   /// @brief Field _burstSliderElementNoteHDPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebris> ____burstSliderElementNoteHDPrefab;
 
+  /// [SerializeField]
   /// @brief Field _burstSliderElementNoteLWPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebris> ____burstSliderElementNoteLWPrefab;
 
+  /// [SerializeField]
   /// @brief Field _noteDebrisHDConditionVariable, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____noteDebrisHDConditionVariable;
 

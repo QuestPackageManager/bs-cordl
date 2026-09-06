@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\Blake2sDigest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Blake2sDigest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -231,13 +231,13 @@ protected:
   constexpr Blake2sDigest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Blake2sDigest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Blake2sDigest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Blake2sDigest(Blake2sDigest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Blake2sDigest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Blake2sDigest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Blake2sDigest(Blake2sDigest const&) = delete;
+  Blake2sDigest(Blake2sDigestconst&) = delete;
 
   /// @brief Field BLOCK_LENGTH_BYTES offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_LENGTH_BYTES{ static_cast<int32_t>(0x40) };

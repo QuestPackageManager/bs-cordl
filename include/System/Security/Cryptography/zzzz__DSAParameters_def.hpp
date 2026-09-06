@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\DSAParameters.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/DSAParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct DSAParameters;
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::DSAParameters);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::DSAParameters, "System.Security.Cryptography", "DSAParameters");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Security::Cryptography {
 // Is value type: true
@@ -25,10 +26,11 @@ public:
   // @brief default ctor
   constexpr DSAParameters();
 
-  // Ctor Parameters [CppParam { name: "P", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "Q", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "G", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "Y", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "J", ty: "::ArrayW<uint8_t>",
-  // modifiers: "", def_value: None }, CppParam { name: "X", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "Seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None
-  // }, CppParam { name: "Counter", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "P", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Q", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "G", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Y", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "J", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "X", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "Seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Counter", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr DSAParameters(::ArrayW<uint8_t> P, ::ArrayW<uint8_t> Q, ::ArrayW<uint8_t> G, ::ArrayW<uint8_t> Y, ::ArrayW<uint8_t> J, ::ArrayW<uint8_t> X, ::ArrayW<uint8_t> Seed,
                           int32_t Counter) noexcept;
 

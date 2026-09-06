@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Graphic.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Graphic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,10 @@ namespace UnityEngine::UI::CoroutineTween {
 struct ColorTween;
 }
 namespace UnityEngine::UI::CoroutineTween {
-template <typename T> class TweenRunner_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+class TweenRunner_1;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
@@ -81,6 +84,9 @@ class Graphic;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::Graphic*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::Graphic*, "UnityEngine.UI", "Graphic");
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
+// [ExecuteAlways]
 // Dependencies UnityEngine.Color, UnityEngine.EventSystems.UIBehaviour, UnityEngine.Vector2, UnityEngine.Vector4
 namespace UnityEngine::UI {
 // Is value type: false
@@ -239,9 +245,12 @@ public:
   /// @brief Method OnEnable, addr 0x6c25304, size 0x128, virtual true, abstract: false, final false
   inline void OnEnable();
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("Use OnPopulateMesh instead.", true)]
   /// @brief Method OnFillVBO, addr 0x6c263e4, size 0x4, virtual true, abstract: false, final false
   inline void OnFillVBO(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vbo);
 
+  /// [Obsolete("Use OnPopulateMesh(VertexHelper vh) instead.", false)]
   /// @brief Method OnPopulateMesh, addr 0x6c263e8, size 0x9c, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::Mesh* m);
 
@@ -469,6 +478,7 @@ public:
   /// @brief Method get_rectTransform, addr 0x6c2457c, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
+  /// [CompilerGenerated]
   /// @brief Method get_useLegacyMeshGeneration, addr 0x6c242d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_useLegacyMeshGeneration();
 
@@ -498,6 +508,7 @@ public:
   /// @brief Method set_raycastTarget, addr 0x6c23d8c, size 0xdc, virtual true, abstract: false, final false
   inline void set_raycastTarget(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_useLegacyMeshGeneration, addr 0x6c242dc, size 0x8, virtual false, abstract: false, final false
   inline void set_useLegacyMeshGeneration(bool value);
 
@@ -507,20 +518,23 @@ protected:
   constexpr Graphic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Graphic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Graphic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Graphic(Graphic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Graphic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Graphic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Graphic(Graphic const&) = delete;
+  Graphic(Graphicconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17412 };
 
+  /// [FormerlySerializedAs("m_Mat")]
+  /// [SerializeField]
   /// @brief Field m_Material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_Material;
 
+  /// [SerializeField]
   /// @brief Field m_Color, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ___m_Color;
 
@@ -530,12 +544,14 @@ public:
   /// @brief Field m_SkipMaterialUpdate, offset: 0x39, size: 0x1, def value: None
   bool ___m_SkipMaterialUpdate;
 
+  /// [SerializeField]
   /// @brief Field m_RaycastTarget, offset: 0x3a, size: 0x1, def value: None
   bool ___m_RaycastTarget;
 
   /// @brief Field m_RaycastTargetCache, offset: 0x3b, size: 0x1, def value: None
   bool ___m_RaycastTargetCache;
 
+  /// [SerializeField]
   /// @brief Field m_RaycastPadding, offset: 0x3c, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_RaycastPadding;
 
@@ -572,6 +588,7 @@ public:
   /// @brief Field m_ColorTweenRunner, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>* ___m_ColorTweenRunner;
 
+  /// [CompilerGenerated]
   /// @brief Field <useLegacyMeshGeneration>k__BackingField, offset: 0xa0, size: 0x1, def value: None
   bool ____useLegacyMeshGeneration_k__BackingField;
 

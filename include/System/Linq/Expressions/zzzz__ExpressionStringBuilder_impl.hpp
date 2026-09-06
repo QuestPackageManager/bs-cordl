@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\ExpressionStringBuilder.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/ExpressionStringBuilder.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionVisitor_impl.hpp"
+#include "System/Linq/Expressions/zzzz__Expression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionStringBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
@@ -525,6 +526,7 @@ inline ::StringW System::Linq::Expressions::ExpressionStringBuilder::CatchBlockT
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, node);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Linq::Expressions::Expression*>)
 inline void System::Linq::Expressions::ExpressionStringBuilder::VisitExpressions(char16_t open, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* expressions, char16_t close) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::ExpressionStringBuilder*>(),
@@ -535,6 +537,7 @@ inline void System::Linq::Expressions::ExpressionStringBuilder::VisitExpressions
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, open, expressions, close);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Linq::Expressions::Expression*>)
 inline void System::Linq::Expressions::ExpressionStringBuilder::VisitExpressions(char16_t open, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* expressions, char16_t close,
                                                                                  ::StringW seperator) {
   static auto* ___internal_method_base =

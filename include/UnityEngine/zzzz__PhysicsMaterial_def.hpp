@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PhysicsMaterial.hpp"
+// IWYU pragma private; include "UnityEngine/PhysicsMaterial.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class PhysicsMaterial;
 // Write type traits
 MARK_REF_T(::UnityEngine::PhysicsMaterial*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PhysicsMaterial*, "UnityEngine", "PhysicsMaterial");
+// [NativeHeader("Modules/Physics/PhysicsMaterial.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -41,10 +42,10 @@ public:
   __declspec(property(get = get_staticFriction, put = set_staticFriction)) float_t staticFriction;
 
   /// @brief Method Internal_CreateDynamicsMaterial, addr 0x6b93214, size 0x134, virtual false, abstract: false, final false
-  static inline void Internal_CreateDynamicsMaterial(::UnityEngine::PhysicsMaterial* mat, ::StringW name);
+  static inline void Internal_CreateDynamicsMaterial(/* [Writable] */ ::UnityEngine::PhysicsMaterial* mat, ::StringW name);
 
   /// @brief Method Internal_CreateDynamicsMaterial_Injected, addr 0x6b933b0, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_CreateDynamicsMaterial_Injected(::UnityEngine::PhysicsMaterial* mat, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
+  static inline void Internal_CreateDynamicsMaterial_Injected(/* [Writable] */ ::UnityEngine::PhysicsMaterial* mat, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
   static inline ::UnityEngine::PhysicsMaterial* New_ctor();
 
@@ -122,13 +123,13 @@ protected:
   constexpr PhysicsMaterial();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsMaterial", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsMaterial", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PhysicsMaterial(PhysicsMaterial&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsMaterial", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsMaterial", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PhysicsMaterial(PhysicsMaterial const&) = delete;
+  PhysicsMaterial(PhysicsMaterialconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18672 };

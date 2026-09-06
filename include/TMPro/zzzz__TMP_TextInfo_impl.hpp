@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_TextInfo.hpp"
+// IWYU pragma private; include "TMPro/TMP_TextInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_CharacterInfo_impl.hpp"
 #include "TMPro/zzzz__TMP_LineInfo_impl.hpp"

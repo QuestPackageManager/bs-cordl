@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UpdateLODGroupDataJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UpdateLODGroupDataJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ struct UpdateLODGroupDataJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::UpdateLODGroupDataJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UpdateLODGroupDataJob, "UnityEngine.Rendering", "UpdateLODGroupDataJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeAtomicCounter32, Unity.Collections.NativeArray`1<T>, UnityEngine.Rendering.GPUDrivenLODGroupData, UnityEngine.Rendering.GPUInstanceIndex,
 // UnityEngine.Rendering.LODGroupCullingData, UnityEngine.Rendering.LODGroupData
 namespace UnityEngine::Rendering {
@@ -43,11 +44,11 @@ public:
   // @brief default ctor
   constexpr UpdateLODGroupDataJob();
 
-  // Ctor Parameters [CppParam { name: "lodGroupInstances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None }, CppParam { name:
-  // "inputData", ty: "::UnityEngine::Rendering::GPUDrivenLODGroupData", modifiers: "", def_value: None }, CppParam { name: "supportDitheringCrossFade", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "lodGroupsData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: None }, CppParam { name: "lodGroupsCullingData", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: None }, CppParam { name: "rendererCount", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "lodGroupInstances", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "inputData", ty: "::UnityEngine::Rendering::GPUDrivenLODGroupData", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportDitheringCrossFade", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "lodGroupsData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "lodGroupsCullingData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "rendererCount", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32", modifiers: "", def_value: None, comment: None }]
   constexpr UpdateLODGroupDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> lodGroupInstances, ::UnityEngine::Rendering::GPUDrivenLODGroupData inputData,
                                   bool supportDitheringCrossFade, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupData> lodGroupsData,
                                   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupsCullingData,
@@ -62,12 +63,15 @@ public:
   /// @brief Field k_BatchSize offset 0xffffffff size 0x4
   static constexpr int32_t k_BatchSize{ static_cast<int32_t>(0x100) };
 
+  /// [ReadOnly]
   /// @brief Field lodGroupInstances, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> lodGroupInstances;
 
+  /// [ReadOnly]
   /// @brief Field inputData, offset: 0x10, size: 0xc0, def value: None
   ::UnityEngine::Rendering::GPUDrivenLODGroupData inputData;
 
+  /// [ReadOnly]
   /// @brief Field supportDitheringCrossFade, offset: 0xd0, size: 0x1, def value: None
   bool supportDitheringCrossFade;
 
@@ -77,6 +81,7 @@ public:
   /// @brief Field lodGroupsCullingData, offset: 0xe8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupsCullingData;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field rendererCount, offset: 0xf8, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 rendererCount;
 

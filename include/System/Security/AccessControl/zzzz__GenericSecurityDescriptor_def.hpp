@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\GenericSecurityDescriptor.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/GenericSecurityDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   /// @brief Method .ctor, addr 0x5b1f174, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Group, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Group, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Group(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method set_Owner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Owner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Owner(::System::Security::Principal::SecurityIdentifier* value);
 
 protected:
@@ -43,13 +43,13 @@ protected:
   constexpr GenericSecurityDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericSecurityDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericSecurityDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericSecurityDescriptor(GenericSecurityDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericSecurityDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericSecurityDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericSecurityDescriptor(GenericSecurityDescriptor const&) = delete;
+  GenericSecurityDescriptor(GenericSecurityDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3053 };

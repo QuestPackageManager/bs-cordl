@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataFullComboSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataFullComboSO.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataFullComboSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -48,7 +48,7 @@ constexpr void GlobalNamespace::MultiplayerBadgeDataFullComboSO::__cordl_interna
 }
 inline ::GlobalNamespace::MultiplayerBadgeAwardData*
 GlobalNamespace::MultiplayerBadgeDataFullComboSO::CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                     ::GlobalNamespace::PlayerDataModel* playerDataModel, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                     ::GlobalNamespace::PlayerDataModel* playerDataModel, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                      float_t randomMultiplier) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MultiplayerBadgeDataFullComboSO*>(), 4 })));

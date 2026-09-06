@@ -1,42 +1,43 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderDepthPyramidConstants.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderDepthPyramidConstants.hpp"
 #include "UnityEngine/Rendering/zzzz__OccluderDepthPyramidConstants_def.hpp"
 #include "UnityEngine/Rendering/zzzz__OccluderDepthPyramidConstants_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer(
     float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer(
     uint32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer(
     float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer(uint32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "_InvViewProjMatrix", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_SilhouettePlanes", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_SrcOffset", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "_MipOffsetAndSize", ty:
-// "::UnityEngine::Rendering::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "_OccluderMipLayoutSizeX", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_OccluderDepthPyramidPad0", ty:
-// "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_OccluderDepthPyramidPad1", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_SrcSliceIndices", ty:
-// "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_DstSubviewIndices", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_MipCount", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_SilhouettePlaneCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_InvViewProjMatrix", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_SilhouettePlanes", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_SrcOffset", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_MipOffsetAndSize", ty: "::UnityEngine::Rendering::OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_OccluderMipLayoutSizeX", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_OccluderDepthPyramidPad0", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_OccluderDepthPyramidPad1", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_SrcSliceIndices", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_DstSubviewIndices", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_MipCount", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_SilhouettePlaneCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OccluderDepthPyramidConstants::OccluderDepthPyramidConstants(
     ::UnityEngine::Rendering::OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer _InvViewProjMatrix,
     ::UnityEngine::Rendering::OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer _SilhouettePlanes,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalResourceData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalResourceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -312,12 +312,14 @@ public:
   /// @brief Method .ctor, addr 0x6877cf8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_activeColorID, addr 0x6876d98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID get_activeColorID();
 
   /// @brief Method get_activeColorTexture, addr 0x6876da8, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_activeColorTexture();
 
+  /// [CompilerGenerated]
   /// @brief Method get_activeDepthID, addr 0x6876eb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID get_activeDepthID();
 
@@ -393,9 +395,11 @@ public:
   /// @brief Method get_stpDebugView, addr 0x6877468, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_stpDebugView();
 
+  /// [CompilerGenerated]
   /// @brief Method set_activeColorID, addr 0x6876da0, size 0x8, virtual false, abstract: false, final false
   inline void set_activeColorID(::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_activeDepthID, addr 0x6876ec0, size 0x8, virtual false, abstract: false, final false
   inline void set_activeDepthID(::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID value);
 
@@ -471,20 +475,22 @@ protected:
   constexpr UniversalResourceData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalResourceData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalResourceData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalResourceData(UniversalResourceData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalResourceData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalResourceData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalResourceData(UniversalResourceData const&) = delete;
+  UniversalResourceData(UniversalResourceDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12760 };
 
+  /// [CompilerGenerated]
   /// @brief Field <activeColorID>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID ____activeColorID_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <activeDepthID>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID ____activeDepthID_k__BackingField;
 

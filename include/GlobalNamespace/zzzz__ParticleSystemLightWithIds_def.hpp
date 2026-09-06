@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ParticleSystemLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/ParticleSystemLightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class ParticleSystemLightWithIds;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ParticleSystemLightWithIds*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ParticleSystemLightWithIds*, "", "ParticleSystemLightWithIds");
+// [ExecuteAlways]
 // Dependencies RuntimeLightWithIds, UnityEngine.ParticleSystem::MainModule, UnityEngine.ParticleSystem::Particle
 namespace GlobalNamespace {
 // Is value type: false
@@ -99,26 +100,31 @@ protected:
   constexpr ParticleSystemLightWithIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleSystemLightWithIds(ParticleSystemLightWithIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemLightWithIds(ParticleSystemLightWithIds const&) = delete;
+  ParticleSystemLightWithIds(ParticleSystemLightWithIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19550 };
 
+  /// [SerializeField]
   /// @brief Field _particleSystem, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
+  /// [SerializeField]
   /// @brief Field _setOnlyOnce, offset: 0x58, size: 0x1, def value: None
   bool ____setOnlyOnce;
 
+  /// [SerializeField]
   /// @brief Field _setColorOnly, offset: 0x59, size: 0x1, def value: None
   bool ____setColorOnly;
 
+  /// [SerializeField]
+  /// [DrawIf("_setColorOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _minAlpha, offset: 0x5c, size: 0x4, def value: None
   float_t ____minAlpha;
 

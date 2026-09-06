@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\LocalizationAsset.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/LocalizationAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationAsset_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\ImplicitUseKindFlags.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/ImplicitUseKindFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ImplicitUseKindFlags;
 // Write type traits
 MARK_VAL_T(::JetBrains::Annotations::ImplicitUseKindFlags);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::ImplicitUseKindFlags, "JetBrains.Annotations", "ImplicitUseKindFlags");
+// [Flags]
 // Dependencies
 namespace JetBrains::Annotations {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr ImplicitUseKindFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ImplicitUseKindFlags(int32_t value__) noexcept;
 
   /// @brief Field Access value: I32(1)

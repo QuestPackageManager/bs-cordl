@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\KeyNotFoundException.hpp"
+// IWYU pragma private; include "System/Collections/Generic/KeyNotFoundException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ protected:
   constexpr KeyNotFoundException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyNotFoundException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyNotFoundException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyNotFoundException(KeyNotFoundException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyNotFoundException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyNotFoundException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyNotFoundException(KeyNotFoundException const&) = delete;
+  KeyNotFoundException(KeyNotFoundExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3778 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\UnicodeEncoding.hpp"
+// IWYU pragma private; include "System/Text/UnicodeEncoding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,13 +86,13 @@ protected:
   constexpr UnicodeEncoding_Decoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnicodeEncoding_Decoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnicodeEncoding_Decoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnicodeEncoding_Decoder(UnicodeEncoding_Decoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnicodeEncoding_Decoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnicodeEncoding_Decoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnicodeEncoding_Decoder(UnicodeEncoding_Decoder const&) = delete;
+  UnicodeEncoding_Decoder(UnicodeEncoding_Decoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2885 };
@@ -154,6 +154,7 @@ public:
   /// @brief Method GetByteCount, addr 0x5ae3bc4, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetByteCount, addr 0x5ae3db8, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t count);
 
@@ -166,6 +167,7 @@ public:
   /// @brief Method GetBytes, addr 0x5ae40d0, size 0x280, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetBytes, addr 0x5ae4350, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount);
 
@@ -178,6 +180,7 @@ public:
   /// @brief Method GetCharCount, addr 0x5ae4448, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetCharCount, addr 0x5ae45d0, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetCharCount(uint8_t* bytes, int32_t count);
 
@@ -187,6 +190,7 @@ public:
   /// @brief Method GetChars, addr 0x5ae46a0, size 0x284, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
+  /// [CLSCompliant(false)]
   /// @brief Method GetChars, addr 0x5ae4924, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount);
 
@@ -279,13 +283,13 @@ protected:
   constexpr UnicodeEncoding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnicodeEncoding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnicodeEncoding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnicodeEncoding(UnicodeEncoding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnicodeEncoding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnicodeEncoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnicodeEncoding(UnicodeEncoding const&) = delete;
+  UnicodeEncoding(UnicodeEncodingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2886 };

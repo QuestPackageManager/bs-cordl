@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\IDigestCalculator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/IDigestCalculator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,12 +20,12 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE IDigestCalculator {
 public:
   // Declarations
-  /// @brief Method GetDigest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> GetDigest();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDigestCalculator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDigestCalculator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDigestCalculator(IDigestCalculator const&) = delete;
+  IDigestCalculator(IDigestCalculatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 610 };

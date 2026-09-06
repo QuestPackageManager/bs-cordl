@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\LowLevel\AndroidSensorState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidSensorState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState);
 MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorState");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer, "UnityEngine.InputSystem.Android.LowLevel", "AndroidSensorState/<data>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
@@ -41,7 +43,7 @@ public:
   // @brief default ctor
   constexpr AndroidSensorState__data_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr AndroidSensorState__data_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -83,7 +85,7 @@ public:
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
   /// @brief Method WithData, addr 0x65ad088, size 0xc0, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(::ArrayW<float_t> data);
+  inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(/* [ParamArray] */ ::ArrayW<float_t> data);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
 
@@ -99,7 +101,7 @@ public:
   // @brief default ctor
   constexpr AndroidSensorState();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr AndroidSensorState(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -108,6 +110,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
+  /// [FixedBuffer(typeof(System.Single), 16)]
+  /// [InputControl(name = "acceleration", layout = "Vector3", processors = "AndroidCompensateDirection", variants = "Accelerometer")]
+  /// [InputControl(name = "magneticField", layout = "Vector3", variants = "MagneticField")]
+  /// [InputControl(name = "angularVelocity", layout = "Vector3", processors = "CompensateDirection", variants = "Gyroscope")]
+  /// [InputControl(name = "lightLevel", layout = "Axis", variants = "Light")]
+  /// [InputControl(name = "atmosphericPressure", layout = "Axis", variants = "Pressure")]
+  /// [InputControl(name = "distance", layout = "Axis", variants = "Proximity")]
+  /// [InputControl(name = "gravity", layout = "Vector3", processors = "AndroidCompensateDirection", variants = "Gravity")]
+  /// [InputControl(name = "acceleration", layout = "Vector3", processors = "AndroidCompensateDirection", variants = "LinearAcceleration")]
+  /// [InputControl(name = "attitude", layout = "Quaternion", processors = "AndroidCompensateRotation", variants = "RotationVector")]
+  /// [InputControl(name = "relativeHumidity", layout = "Axis", variants = "RelativeHumidity")]
+  /// [InputControl(name = "ambientTemperature", layout = "Axis", variants = "AmbientTemperature")]
+  /// [InputControl(name = "attitude", layout = "Quaternion", processors = "AndroidCompensateRotation", variants = "GameRotationVector")]
+  /// [InputControl(name = "stepCounter", layout = "Integer", variants = "StepCounter")]
+  /// [InputControl(name = "rotation", layout = "Quaternion", processors = "AndroidCompensateRotation", variants = "GeomagneticRotationVector")]
+  /// [InputControl(name = "rate", layout = "Axis", variants = "HeartRate")]
+  /// [InputControl(name = "angle", layout = "Axis", variants = "HingeAngle")]
   /// @brief Field data, offset: 0x0, size: 0x40, def value: None
   ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer data;
 

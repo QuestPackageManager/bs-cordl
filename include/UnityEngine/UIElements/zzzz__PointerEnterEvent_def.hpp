@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerEnterEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerEnterEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::UnityEngine::UIElements::PointerEnterEvent*);
 MARK_REF_T(::UnityEngine::UIElements::PointerEnterEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerEnterEvent*, "UnityEngine.UIElements", "PointerEnterEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerEnterEvent___c*, "UnityEngine.UIElements", "PointerEnterEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -55,13 +56,13 @@ protected:
   constexpr PointerEnterEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerEnterEvent___c(PointerEnterEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerEnterEvent___c(PointerEnterEvent___c const&) = delete;
+  PointerEnterEvent___c(PointerEnterEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4550 };
@@ -72,6 +73,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::PointerEnterEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)4)]
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -104,13 +106,13 @@ protected:
   constexpr PointerEnterEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerEnterEvent(PointerEnterEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerEnterEvent(PointerEnterEvent const&) = delete;
+  PointerEnterEvent(PointerEnterEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4551 };

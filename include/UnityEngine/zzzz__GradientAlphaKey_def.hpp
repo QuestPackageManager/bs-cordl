@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GradientAlphaKey.hpp"
+// IWYU pragma private; include "UnityEngine/GradientAlphaKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct GradientAlphaKey;
 // Write type traits
 MARK_VAL_T(::UnityEngine::GradientAlphaKey);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GradientAlphaKey, "UnityEngine", "GradientAlphaKey");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -27,7 +28,7 @@ public:
   // @brief default ctor
   constexpr GradientAlphaKey();
 
-  // Ctor Parameters [CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr GradientAlphaKey(float_t alpha, float_t time) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

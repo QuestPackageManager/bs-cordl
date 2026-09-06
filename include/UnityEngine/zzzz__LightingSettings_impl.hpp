@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightingSettings.hpp"
+// IWYU pragma private; include "UnityEngine/LightingSettings.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LightingSettings_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -201,7 +201,7 @@ inline void UnityEngine::LightingSettings::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightingSettings*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::LightingSettings::Internal_Create(::UnityEngine::LightingSettings* self) {
+inline void UnityEngine::LightingSettings::Internal_Create(/* [Writable] */ ::UnityEngine::LightingSettings* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightingSettings*>(), { "Internal_Create", {}, { ::i2c::type_of<::UnityEngine::LightingSettings*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\AggregateException.hpp"
+// IWYU pragma private; include "System/AggregateException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/zzzz__AggregateException_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -241,7 +241,7 @@ inline void System::AggregateException::_ctor(::System::Collections::Generic::IE
                    (::i2c::find_method(::i2c::class_of<::System::AggregateException*>(), { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Exception*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, innerExceptions);
 }
-inline void System::AggregateException::_ctor(::ArrayW<::System::Exception*> innerExceptions) {
+inline void System::AggregateException::_ctor(/* [ParamArray] */ ::ArrayW<::System::Exception*> innerExceptions) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AggregateException*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::System::Exception*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, innerExceptions);
@@ -252,7 +252,7 @@ inline void System::AggregateException::_ctor(::StringW message, ::System::Colle
                                                            { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Exception*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message, innerExceptions);
 }
-inline void System::AggregateException::_ctor(::StringW message, ::ArrayW<::System::Exception*> innerExceptions) {
+inline void System::AggregateException::_ctor(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Exception*> innerExceptions) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AggregateException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Exception*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message, innerExceptions);
@@ -317,13 +317,13 @@ inline ::System::AggregateException* System::AggregateException::New_ctor() {
 inline ::System::AggregateException* System::AggregateException::New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::AggregateException*>(innerExceptions));
 }
-inline ::System::AggregateException* System::AggregateException::New_ctor(::ArrayW<::System::Exception*> innerExceptions) {
+inline ::System::AggregateException* System::AggregateException::New_ctor(/* [ParamArray] */ ::ArrayW<::System::Exception*> innerExceptions) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::AggregateException*>(innerExceptions));
 }
 inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::AggregateException*>(message, innerExceptions));
 }
-inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, ::ArrayW<::System::Exception*> innerExceptions) {
+inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Exception*> innerExceptions) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::AggregateException*>(message, innerExceptions));
 }
 inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Exception*>* innerExceptions) {

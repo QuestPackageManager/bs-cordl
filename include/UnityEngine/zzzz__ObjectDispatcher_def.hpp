@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ObjectDispatcher.hpp"
+// IWYU pragma private; include "UnityEngine/ObjectDispatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__TransformDispatchData_def.hpp"
 #include "UnityEngine/zzzz__TypeDispatchData_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -107,7 +108,7 @@ public:
   // @brief default ctor
   constexpr ObjectDispatcher_TransformTrackingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ObjectDispatcher_TransformTrackingType(int32_t value__) noexcept;
 
   /// @brief Field GlobalTRS value: I32(0)
@@ -136,6 +137,7 @@ static_assert(offsetof(::UnityEngine::ObjectDispatcher_TransformTrackingType, va
 static_assert(sizeof(::UnityEngine::ObjectDispatcher_TransformTrackingType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine
+// [Flags]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -168,7 +170,7 @@ public:
   // @brief default ctor
   constexpr ObjectDispatcher_TypeTrackingFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ObjectDispatcher_TypeTrackingFlags(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(7)
@@ -203,6 +205,7 @@ static_assert(offsetof(::UnityEngine::ObjectDispatcher_TypeTrackingFlags, value_
 static_assert(sizeof(::UnityEngine::ObjectDispatcher_TypeTrackingFlags) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -236,13 +239,13 @@ protected:
   constexpr ObjectDispatcher___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectDispatcher___c(ObjectDispatcher___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectDispatcher___c(ObjectDispatcher___c const&) = delete;
+  ObjectDispatcher___c(ObjectDispatcher___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10267 };
@@ -253,7 +256,10 @@ public:
 static_assert(sizeof(::UnityEngine::ObjectDispatcher___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
-// Dependencies System.IntPtr, System.Object, Unity.Collections.Allocator, UnityEngine.Component, UnityEngine.TransformDispatchData, UnityEngine.TypeDispatchData
+// [NativeHeader("Runtime/Misc/ObjectDispatcher.h")]
+// [StaticAccessor("GetObjectDispatcher()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [RequiredByNativeCode]
+// Dependencies System.IntPtr, System.Object, Unity.Collections.Allocator, UnityEngine.Component, UnityEngine.Object, UnityEngine.TransformDispatchData, UnityEngine.TypeDispatchData
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.ObjectDispatcher
@@ -309,6 +315,7 @@ public:
   /// @brief Method CreateDispatchSystemHandle, addr 0x6ad49cc, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateDispatchSystemHandle();
 
+  /// [ThreadSafe]
   /// @brief Method DestroyDispatchSystemHandle, addr 0x6ad4b2c, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyDispatchSystemHandle(::System::IntPtr ptr);
 
@@ -350,25 +357,30 @@ public:
   static inline void EnableTransformTracking(::System::IntPtr ptr, ::System::Type* type, ::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType);
 
   /// @brief Method EnableTransformTracking, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  inline void EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType);
 
   /// @brief Method EnableTransformTracking, addr 0x6ad53d4, size 0x104, virtual false, abstract: false, final false
-  inline void EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType, ::ArrayW<::System::Type*> types);
+  inline void EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType, /* [ParamArray] */ ::ArrayW<::System::Type*> types);
 
   /// @brief Method EnableTypeTracking, addr 0x6ad5380, size 0x54, virtual false, abstract: false, final false
   static inline void EnableTypeTracking(::System::IntPtr ptr, ::System::Type* type, ::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask);
 
   /// @brief Method EnableTypeTracking, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  inline void EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask);
 
   /// @brief Method EnableTypeTracking, addr 0x6ad527c, size 0x104, virtual false, abstract: false, final false
-  inline void EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask, ::ArrayW<::System::Type*> types);
+  inline void EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask, /* [ParamArray] */ ::ArrayW<::System::Type*> types);
 
   /// @brief Method Finalize, addr 0x6ad49f4, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method GetTransformChangesAndClear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
   inline ::UnityEngine::TransformDispatchData GetTransformChangesAndClear(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method GetTransformChangesAndClear, addr 0x6ad5244, size 0x38, virtual false, abstract: false, final false
@@ -376,7 +388,9 @@ public:
                                                                           ::Unity::Collections::Allocator allocator);
 
   /// @brief Method GetTypeChangesAndClear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::UnityEngine::TypeDispatchData GetTypeChangesAndClear(::Unity::Collections::Allocator allocator, bool sortByInstanceID, bool noScriptingArray);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  inline ::UnityEngine::TypeDispatchData GetTypeChangesAndClear(::Unity::Collections::Allocator allocator, bool sortByInstanceID, bool noScriptingArray);
 
   /// @brief Method GetTypeChangesAndClear, addr 0x6ad5208, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::TypeDispatchData GetTypeChangesAndClear(::System::Type* type, ::Unity::Collections::Allocator allocator, bool sortByInstanceID, bool noScriptingArray);
@@ -468,13 +482,13 @@ protected:
   constexpr ObjectDispatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectDispatcher(ObjectDispatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectDispatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectDispatcher(ObjectDispatcher const&) = delete;
+  ObjectDispatcher(ObjectDispatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10268 };

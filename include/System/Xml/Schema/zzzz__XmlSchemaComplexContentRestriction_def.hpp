@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaComplexContentRestriction.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaComplexContentRestriction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,12 +31,20 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaComplexContentRestriction : public ::System::Xml::Schema::XmlSchemaContent {
 public:
   // Declarations
+  /// @brief [XmlElement("anyAttribute")]
   __declspec(property(get = get_AnyAttribute, put = set_AnyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute* AnyAttribute;
 
+  /// [XmlElement("attribute", typeof(System.Xml.Schema.XmlSchemaAttribute))]
+  /// @brief [XmlElement("attributeGroup", typeof(System.Xml.Schema.XmlSchemaAttributeGroupRef))]
   __declspec(property(get = get_Attributes)) ::System::Xml::Schema::XmlSchemaObjectCollection* Attributes;
 
+  /// @brief [XmlAttribute("base")]
   __declspec(property(get = get_BaseTypeName, put = set_BaseTypeName)) ::System::Xml::XmlQualifiedName* BaseTypeName;
 
+  /// [XmlElement("group", typeof(System.Xml.Schema.XmlSchemaGroupRef))]
+  /// [XmlElement("choice", typeof(System.Xml.Schema.XmlSchemaChoice))]
+  /// [XmlElement("all", typeof(System.Xml.Schema.XmlSchemaAll))]
+  /// @brief [XmlElement("sequence", typeof(System.Xml.Schema.XmlSchemaSequence))]
   __declspec(property(get = get_Particle, put = set_Particle)) ::System::Xml::Schema::XmlSchemaParticle* Particle;
 
   /// @brief Field anyAttribute, offset 0x60, size 0x8
@@ -110,13 +118,13 @@ protected:
   constexpr XmlSchemaComplexContentRestriction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContentRestriction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContentRestriction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaComplexContentRestriction(XmlSchemaComplexContentRestriction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContentRestriction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaComplexContentRestriction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaComplexContentRestriction(XmlSchemaComplexContentRestriction const&) = delete;
+  XmlSchemaComplexContentRestriction(XmlSchemaComplexContentRestrictionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9756 };

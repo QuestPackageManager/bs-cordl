@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\SortedDictionary_2.hpp"
+// IWYU pragma private; include "System/Collections/Generic/SortedDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -262,7 +262,7 @@ public:
   constexpr SortedDictionary_2_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_treeEnum", ty: "::System::Collections::Generic::SortedSet_1_Enumerator<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>", modifiers: "", def_value:
-  // None }, CppParam { name: "_getEnumeratorRetType", ty: "int32_t", modifiers: "", def_value: None }]
+  // None, comment: None }, CppParam { name: "_getEnumeratorRetType", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SortedDictionary_2_Enumerator(::System::Collections::Generic::SortedSet_1_Enumerator<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>> _treeEnum,
                                           int32_t _getEnumeratorRetType) noexcept;
 
@@ -335,7 +335,7 @@ public:
   // @brief default ctor
   constexpr KeyCollection_SortedDictionary_2_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_dictEnum", ty: "::System::Collections::Generic::SortedDictionary_2_Enumerator<TKey,TValue>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_dictEnum", ty: "::System::Collections::Generic::SortedDictionary_2_Enumerator<TKey,TValue>", modifiers: "", def_value: None, comment: None }]
   constexpr KeyCollection_SortedDictionary_2_Enumerator(::System::Collections::Generic::SortedDictionary_2_Enumerator<TKey, TValue> _dictEnum) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -351,6 +351,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -392,13 +393,13 @@ protected:
   constexpr KeyCollection_SortedDictionary_2___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyCollection_SortedDictionary_2___c__DisplayClass5_0(KeyCollection_SortedDictionary_2___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyCollection_SortedDictionary_2___c__DisplayClass5_0(KeyCollection_SortedDictionary_2___c__DisplayClass5_0 const&) = delete;
+  KeyCollection_SortedDictionary_2___c__DisplayClass5_0(KeyCollection_SortedDictionary_2___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11402 };
@@ -413,6 +414,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -454,13 +456,13 @@ protected:
   constexpr KeyCollection_SortedDictionary_2___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyCollection_SortedDictionary_2___c__DisplayClass6_0(KeyCollection_SortedDictionary_2___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyCollection_SortedDictionary_2___c__DisplayClass6_0(KeyCollection_SortedDictionary_2___c__DisplayClass6_0 const&) = delete;
+  KeyCollection_SortedDictionary_2___c__DisplayClass6_0(KeyCollection_SortedDictionary_2___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11403 };
@@ -475,6 +477,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.DictionaryKeyCollectionDebugView`2<TKey, TValue>))]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -584,13 +588,13 @@ protected:
   constexpr SortedDictionary_2_KeyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedDictionary_2_KeyCollection(SortedDictionary_2_KeyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2_KeyCollection(SortedDictionary_2_KeyCollection const&) = delete;
+  SortedDictionary_2_KeyCollection(SortedDictionary_2_KeyCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11404 };
@@ -655,7 +659,7 @@ public:
   // @brief default ctor
   constexpr ValueCollection_SortedDictionary_2_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_dictEnum", ty: "::System::Collections::Generic::SortedDictionary_2_Enumerator<TKey,TValue>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_dictEnum", ty: "::System::Collections::Generic::SortedDictionary_2_Enumerator<TKey,TValue>", modifiers: "", def_value: None, comment: None }]
   constexpr ValueCollection_SortedDictionary_2_Enumerator(::System::Collections::Generic::SortedDictionary_2_Enumerator<TKey, TValue> _dictEnum) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -671,6 +675,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -712,13 +717,13 @@ protected:
   constexpr ValueCollection_SortedDictionary_2___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueCollection_SortedDictionary_2___c__DisplayClass5_0(ValueCollection_SortedDictionary_2___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueCollection_SortedDictionary_2___c__DisplayClass5_0(ValueCollection_SortedDictionary_2___c__DisplayClass5_0 const&) = delete;
+  ValueCollection_SortedDictionary_2___c__DisplayClass5_0(ValueCollection_SortedDictionary_2___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11406 };
@@ -733,6 +738,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -774,13 +780,13 @@ protected:
   constexpr ValueCollection_SortedDictionary_2___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueCollection_SortedDictionary_2___c__DisplayClass6_0(ValueCollection_SortedDictionary_2___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueCollection_SortedDictionary_2___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueCollection_SortedDictionary_2___c__DisplayClass6_0(ValueCollection_SortedDictionary_2___c__DisplayClass6_0 const&) = delete;
+  ValueCollection_SortedDictionary_2___c__DisplayClass6_0(ValueCollection_SortedDictionary_2___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11407 };
@@ -795,6 +801,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.DictionaryValueCollectionDebugView`2<TKey, TValue>))]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -904,13 +912,13 @@ protected:
   constexpr SortedDictionary_2_ValueCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_ValueCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_ValueCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedDictionary_2_ValueCollection(SortedDictionary_2_ValueCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_ValueCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_ValueCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2_ValueCollection(SortedDictionary_2_ValueCollection const&) = delete;
+  SortedDictionary_2_ValueCollection(SortedDictionary_2_ValueCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11408 };
@@ -954,13 +962,13 @@ protected:
   constexpr SortedDictionary_2_KeyValuePairComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyValuePairComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyValuePairComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedDictionary_2_KeyValuePairComparer(SortedDictionary_2_KeyValuePairComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyValuePairComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2_KeyValuePairComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2_KeyValuePairComparer(SortedDictionary_2_KeyValuePairComparer const&) = delete;
+  SortedDictionary_2_KeyValuePairComparer(SortedDictionary_2_KeyValuePairComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11409 };
@@ -972,6 +980,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -1013,13 +1022,13 @@ protected:
   constexpr SortedDictionary_2___c__DisplayClass34_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedDictionary_2___c__DisplayClass34_0(SortedDictionary_2___c__DisplayClass34_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2___c__DisplayClass34_0(SortedDictionary_2___c__DisplayClass34_0 const&) = delete;
+  SortedDictionary_2___c__DisplayClass34_0(SortedDictionary_2___c__DisplayClass34_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11410 };
@@ -1034,6 +1043,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -1076,13 +1086,13 @@ protected:
   constexpr SortedDictionary_2___c__DisplayClass34_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedDictionary_2___c__DisplayClass34_1(SortedDictionary_2___c__DisplayClass34_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2___c__DisplayClass34_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2___c__DisplayClass34_1(SortedDictionary_2___c__DisplayClass34_1 const&) = delete;
+  SortedDictionary_2___c__DisplayClass34_1(SortedDictionary_2___c__DisplayClass34_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11411 };
@@ -1097,6 +1107,9 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DefaultMember("Item")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.IDictionaryDebugView`2<K, V>))]
+// [DebuggerDisplay("Count = {Count}")]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -1364,13 +1377,13 @@ protected:
   constexpr SortedDictionary_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedDictionary_2(SortedDictionary_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedDictionary_2(SortedDictionary_2 const&) = delete;
+  SortedDictionary_2(SortedDictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11412 };

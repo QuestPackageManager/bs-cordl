@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\SurfaceTopology.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/SurfaceTopology.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*);
 MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*, "UnityEngine.ProBuilder.MeshOperations", "SurfaceTopology");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c*, "UnityEngine.ProBuilder.MeshOperations", "SurfaceTopology/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -112,13 +113,13 @@ protected:
   constexpr SurfaceTopology___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SurfaceTopology___c(SurfaceTopology___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SurfaceTopology___c(SurfaceTopology___c const&) = delete;
+  SurfaceTopology___c(SurfaceTopology___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16892 };
@@ -129,6 +130,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -143,6 +145,7 @@ public:
   BreakFaceIntoTris(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                     ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
+  /// [Extension]
   /// @brief Method ConformNormals, addr 0x673a6fc, size 0x59c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* ConformNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                         ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
@@ -150,6 +153,7 @@ public:
   /// @brief Method ConformOppositeNormal, addr 0x673aef0, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* ConformOppositeNormal(::UnityEngine::ProBuilder::WingedEdge* source);
 
+  /// [Extension]
   /// @brief Method FlipEdge, addr 0x673a3c0, size 0x33c, virtual false, abstract: false, final false
   static inline bool FlipEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
@@ -159,6 +163,7 @@ public:
   /// @brief Method GetWindingFlags, addr 0x673ac98, size 0x110, virtual false, abstract: false, final false
   static inline void GetWindingFlags(::UnityEngine::ProBuilder::WingedEdge* edge, bool flag, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, bool>* flags);
 
+  /// [Extension]
   /// @brief Method GetWindingOrder, addr 0x6739f38, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
@@ -172,6 +177,7 @@ public:
   /// @brief Method MatchNormal, addr 0x673aff8, size 0x1e8, virtual false, abstract: false, final false
   static inline void MatchNormal(::UnityEngine::ProBuilder::Face* source, ::UnityEngine::ProBuilder::Face* target, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
+  /// [Extension]
   /// @brief Method ToTriangles, addr 0x6739390, size 0x5a4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> ToTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                        ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
@@ -182,13 +188,13 @@ protected:
   constexpr SurfaceTopology();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SurfaceTopology(SurfaceTopology&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SurfaceTopology", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SurfaceTopology(SurfaceTopology const&) = delete;
+  SurfaceTopology(SurfaceTopologyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16893 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRSettings.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   // @brief default ctor
   constexpr XRSettings_StereoRenderingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XRSettings_StereoRenderingMode(int32_t value__) noexcept;
 
   /// @brief Field MultiPass value: I32(0)
@@ -97,6 +97,11 @@ static_assert(offsetof(::UnityEngine::XR::XRSettings_StereoRenderingMode, value_
 static_assert(sizeof(::UnityEngine::XR::XRSettings_StereoRenderingMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::XR
+// [NativeHeader("Modules/VR/ScriptBindings/XR.bindings.h")]
+// [NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
+// [NativeHeader("Modules/VR/VRModule.h")]
+// [NativeHeader("Runtime/Interfaces/IVRDevice.h")]
+// [NativeConditional("ENABLE_VR")]
 // Dependencies System.Object
 namespace UnityEngine::XR {
 // Is value type: false
@@ -109,6 +114,7 @@ public:
   /// @brief Method get_deviceEyeTextureDimension, addr 0x6e364a8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::TextureDimension get_deviceEyeTextureDimension();
 
+  /// [StaticAccessor("GetIVRDeviceScripting()", (UnityEngine.Bindings.StaticAccessorType)3)]
   /// @brief Method get_enabled, addr 0x6e36298, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
@@ -175,13 +181,13 @@ protected:
   constexpr XRSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRSettings(XRSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRSettings(XRSettings const&) = delete;
+  XRSettings(XRSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23217 };

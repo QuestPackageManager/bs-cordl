@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -161,7 +161,7 @@ public:
   // @brief default ctor
   constexpr LocalLeaderboardsModel_LeaderboardType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LocalLeaderboardsModel_LeaderboardType(int32_t value__) noexcept;
 
   /// @brief Field AllTime value: I32(0)
@@ -241,13 +241,13 @@ protected:
   constexpr LocalLeaderboardsModel_ScoreData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_ScoreData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_ScoreData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardsModel_ScoreData(LocalLeaderboardsModel_ScoreData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_ScoreData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_ScoreData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel_ScoreData(LocalLeaderboardsModel_ScoreData const&) = delete;
+  LocalLeaderboardsModel_ScoreData(LocalLeaderboardsModel_ScoreDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15287 };
@@ -314,13 +314,13 @@ protected:
   constexpr LocalLeaderboardsModel_LeaderboardData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_LeaderboardData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_LeaderboardData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardsModel_LeaderboardData(LocalLeaderboardsModel_LeaderboardData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_LeaderboardData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_LeaderboardData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel_LeaderboardData(LocalLeaderboardsModel_LeaderboardData const&) = delete;
+  LocalLeaderboardsModel_LeaderboardData(LocalLeaderboardsModel_LeaderboardDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15288 };
@@ -369,13 +369,13 @@ protected:
   constexpr LocalLeaderboardsModel_SavedLeaderboardsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_SavedLeaderboardsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_SavedLeaderboardsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardsModel_SavedLeaderboardsData(LocalLeaderboardsModel_SavedLeaderboardsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_SavedLeaderboardsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel_SavedLeaderboardsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel_SavedLeaderboardsData(LocalLeaderboardsModel_SavedLeaderboardsData const&) = delete;
+  LocalLeaderboardsModel_SavedLeaderboardsData(LocalLeaderboardsModel_SavedLeaderboardsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15289 };
@@ -391,6 +391,7 @@ static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel_SavedLeaderboar
 static_assert(sizeof(::GlobalNamespace::LocalLeaderboardsModel_SavedLeaderboardsData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -446,13 +447,13 @@ protected:
   constexpr LocalLeaderboardsModel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardsModel___c(LocalLeaderboardsModel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel___c(LocalLeaderboardsModel___c const&) = delete;
+  LocalLeaderboardsModel___c(LocalLeaderboardsModel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15290 };
@@ -463,6 +464,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::LocalLeaderboardsModel___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -476,6 +478,7 @@ public:
   /// @brief Method MoveNext, addr 0x375a57c, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x375a9b0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -486,10 +489,10 @@ public:
   // @brief default ctor
   constexpr LocalLeaderboardsModel__ClearAllLeaderboardsAsync_d__38();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "",
-  // def_value: None }, CppParam { name: "deleteLeaderboardFile", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "deleteLeaderboardFile", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr LocalLeaderboardsModel__ClearAllLeaderboardsAsync_d__38(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                     ::GlobalNamespace::LocalLeaderboardsModel* __4__this, bool deleteLeaderboardFile,
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -531,6 +534,7 @@ static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel__ClearAllLeader
 static_assert(sizeof(::GlobalNamespace::LocalLeaderboardsModel__ClearAllLeaderboardsAsync_d__38) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -544,6 +548,7 @@ public:
   /// @brief Method MoveNext, addr 0x375aa1c, size 0x32c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x375ad48, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -554,10 +559,11 @@ public:
   // @brief default ctor
   constexpr LocalLeaderboardsModel__LoadAsync_d__39();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*>", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr LocalLeaderboardsModel__LoadAsync_d__39(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::LocalLeaderboardsModel* __4__this,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*> __u__1) noexcept;
@@ -594,6 +600,7 @@ static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel__LoadAsync_d__3
 static_assert(sizeof(::GlobalNamespace::LocalLeaderboardsModel__LoadAsync_d__39) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -607,6 +614,7 @@ public:
   /// @brief Method MoveNext, addr 0x375adb4, size 0x280, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x375b034, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -617,10 +625,11 @@ public:
   // @brief default ctor
   constexpr LocalLeaderboardsModel__LoadLeaderboardsDataAsync_d__16();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*>", modifiers: "", def_value:
-  // None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "", def_value: None }, CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LocalLeaderboardsModel_SavedLeaderboardsData*>", modifiers: "", def_value: None }]
+  // None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "filename", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LocalLeaderboardsModel_SavedLeaderboardsData*>", modifiers: "", def_value: None, comment: None }]
   constexpr LocalLeaderboardsModel__LoadLeaderboardsDataAsync_d__16(
       int32_t __1__state,
       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*> __t__builder,
@@ -645,6 +654,7 @@ public:
   /// @brief Field filename, offset: 0x28, size: 0x8, def value: None
   ::StringW filename;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LocalLeaderboardsModel_SavedLeaderboardsData*> __u__1;
 
@@ -664,6 +674,7 @@ static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel__LoadLeaderboar
 static_assert(sizeof(::GlobalNamespace::LocalLeaderboardsModel__LoadLeaderboardsDataAsync_d__16) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -677,6 +688,7 @@ public:
   /// @brief Method MoveNext, addr 0x375b0b4, size 0x2cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x375b380, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -687,9 +699,9 @@ public:
   // @brief default ctor
   constexpr LocalLeaderboardsModel__SaveAsync_d__23();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr LocalLeaderboardsModel__SaveAsync_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::LocalLeaderboardsModel* __4__this,
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -725,6 +737,7 @@ static_assert(offsetof(::GlobalNamespace::LocalLeaderboardsModel__SaveAsync_d__2
 static_assert(sizeof(::GlobalNamespace::LocalLeaderboardsModel__SaveAsync_d__23) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -738,6 +751,7 @@ public:
   /// @brief Method MoveNext, addr 0x375b3ec, size 0x334, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x375b720, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -748,11 +762,11 @@ public:
   // @brief default ctor
   constexpr LocalLeaderboardsModel__SaveLeaderboardsData_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "leaderboardsData", ty:
-  // "::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "", def_value: None }, CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "leaderboardsData", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr LocalLeaderboardsModel__SaveLeaderboardsData_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>* leaderboardsData,
                                                                ::GlobalNamespace::LocalLeaderboardsModel* __4__this, ::StringW filename,
@@ -864,6 +878,7 @@ public:
   static inline void AppendLeaderboardScores(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>* main,
                                              ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>* tail, int32_t maxNumberOfScores);
 
+  /// [AsyncStateMachine(typeof(LocalLeaderboardsModel::<ClearAllLeaderboardsAsync>d__38))]
   /// @brief Method ClearAllLeaderboardsAsync, addr 0x375a148, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ClearAllLeaderboardsAsync(bool deleteLeaderboardFile);
 
@@ -899,6 +914,7 @@ public:
   /// @brief Method Load, addr 0x375a2c0, size 0x84, virtual false, abstract: false, final false
   inline void Load();
 
+  /// [AsyncStateMachine(typeof(LocalLeaderboardsModel::<LoadAsync>d__39))]
   /// @brief Method LoadAsync, addr 0x375a210, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync();
 
@@ -908,6 +924,7 @@ public:
   /// @brief Method LoadLeaderboardsData, addr 0x3758c04, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>* LoadLeaderboardsData(::StringW filename);
 
+  /// [AsyncStateMachine(typeof(LocalLeaderboardsModel::<LoadLeaderboardsDataAsync>d__16))]
   /// @brief Method LoadLeaderboardsDataAsync, addr 0x3758b14, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*>* LoadLeaderboardsDataAsync(::StringW filename);
 
@@ -920,9 +937,11 @@ public:
 
   static inline ::GlobalNamespace::LocalLeaderboardsModel* New_ctor(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::LocalLeaderboardsSettingsSO* localLeaderboardsSettingsSo);
 
+  /// [AsyncStateMachine(typeof(LocalLeaderboardsModel::<SaveAsync>d__23))]
   /// @brief Method SaveAsync, addr 0x37593f0, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
+  /// [AsyncStateMachine(typeof(LocalLeaderboardsModel::<SaveLeaderboardsData>d__19))]
   /// @brief Method SaveLeaderboardsData, addr 0x3758ce8, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveLeaderboardsData(::StringW filename,
                                                                 ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>* leaderboardsData);
@@ -984,9 +1003,11 @@ public:
   /// @brief Method .ctor, addr 0x3758a58, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::LocalLeaderboardsSettingsSO* localLeaderboardsSettingsSo);
 
+  /// [CompilerGenerated]
   /// @brief Method add_newScoreWasAddedToLeaderboardEvent, addr 0x37588d8, size 0xc0, virtual false, abstract: false, final false
   inline void add_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_newScoreWasAddedToLeaderboardEvent, addr 0x3758998, size 0xc0, virtual false, abstract: false, final false
   inline void remove_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>* value);
 
@@ -996,13 +1017,13 @@ protected:
   constexpr LocalLeaderboardsModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardsModel(LocalLeaderboardsModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsModel(LocalLeaderboardsModel const&) = delete;
+  LocalLeaderboardsModel(LocalLeaderboardsModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15296 };
@@ -1013,6 +1034,7 @@ public:
   /// @brief Field kLocalLeaderboardsFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kLocalLeaderboardsFileName{ u"LocalLeaderboards.dat" };
 
+  /// [CompilerGenerated]
   /// @brief Field newScoreWasAddedToLeaderboardEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>* ___newScoreWasAddedToLeaderboardEvent;
 

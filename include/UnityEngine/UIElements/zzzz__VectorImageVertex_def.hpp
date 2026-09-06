@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VectorImageVertex.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VectorImageVertex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,9 +28,10 @@ public:
   // @brief default ctor
   constexpr VectorImageVertex();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "", def_value: None
-  // }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "settingIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "circle", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "settingIndex", ty: "uint32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "circle", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr VectorImageVertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, uint32_t settingIndex, ::UnityEngine::Color32 flags,
                               ::UnityEngine::Vector4 circle) noexcept;
 

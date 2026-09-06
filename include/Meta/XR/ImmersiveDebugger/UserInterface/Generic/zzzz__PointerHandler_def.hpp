@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\PointerHandler.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/PointerHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,7 @@ public:
   /// @brief Method .ctor, addr 0x5a60db0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Controller, addr 0x5a60b38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController> get_Controller();
 
@@ -91,6 +92,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Controller, addr 0x5a60b40, size 0x8, virtual false, abstract: false, final false
   inline void set_Controller(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController* value);
 
@@ -100,17 +102,18 @@ protected:
   constexpr PointerHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerHandler(PointerHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerHandler(PointerHandler const&) = delete;
+  PointerHandler(PointerHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18417 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Controller>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController> ____Controller_k__BackingField;
 

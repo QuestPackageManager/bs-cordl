@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\InputSystemUIInputModule.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/InputSystemUIInputModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,7 +114,8 @@ public:
   // @brief default ctor
   constexpr InputSystemUIInputModule_InputActionReferenceState();
 
-  // Ctor Parameters [CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "enabledByInputModule", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "refCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "enabledByInputModule", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr InputSystemUIInputModule_InputActionReferenceState(int32_t refCount, bool enabledByInputModule) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -168,7 +169,7 @@ public:
   // @brief default ctor
   constexpr InputSystemUIInputModule_CursorLockBehavior();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputSystemUIInputModule_CursorLockBehavior(int32_t value__) noexcept;
 
   /// @brief Field OutsideScreen value: I32(0)
@@ -194,6 +195,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::InputSystemUIInputModule_
 static_assert(sizeof(::UnityEngine::InputSystem::UI::InputSystemUIInputModule_CursorLockBehavior) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/UISupport.html#setting-up-ui-input")]
 // Dependencies UnityEngine.EventSystems.BaseInputModule, UnityEngine.InputSystem.UI.InputSystemUIInputModule::CursorLockBehavior, UnityEngine.InputSystem.UI.NavigationModel,
 // UnityEngine.InputSystem.UI.PointerModel, UnityEngine.InputSystem.UI.SubmitCancelModel, UnityEngine.InputSystem.UI.UIPointerBehavior, UnityEngine.InputSystem.UI.UIPointerType,
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
@@ -371,8 +373,10 @@ public:
 
   __declspec(property(get = get_pointerBehavior, put = set_pointerBehavior)) ::UnityEngine::InputSystem::UI::UIPointerBehavior pointerBehavior;
 
+  /// @brief [Obsolete("\'repeatDelay\' has been obsoleted; use \'moveRepeatDelay\' instead. (UnityUpgradable) -> moveRepeatDelay", false)]
   __declspec(property(get = get_repeatDelay, put = set_repeatDelay)) float_t repeatDelay;
 
+  /// @brief [Obsolete("\'repeatRate\' has been obsoleted; use \'moveRepeatRate\' instead. (UnityUpgradable) -> moveRepeatRate", false)]
   __declspec(property(get = get_repeatRate, put = set_repeatRate)) float_t repeatRate;
 
   __declspec(property(get = get_rightClick, put = set_rightClick)) ::UnityW<::UnityEngine::InputSystem::InputActionReference> rightClick;
@@ -397,6 +401,7 @@ public:
 
   __declspec(property(get = get_trackedDevicePosition, put = set_trackedDevicePosition)) ::UnityW<::UnityEngine::InputSystem::InputActionReference> trackedDevicePosition;
 
+  /// @brief [Obsolete("\'trackedDeviceSelect\' has been obsoleted; use \'leftClick\' instead.", true)]
   __declspec(property(get = get_trackedDeviceSelect, put = set_trackedDeviceSelect)) ::UnityW<::UnityEngine::InputSystem::InputActionReference> trackedDeviceSelect;
 
   __declspec(property(get = get_xrTrackingOrigin, put = set_xrTrackingOrigin)) ::UnityW<::UnityEngine::Transform> xrTrackingOrigin;
@@ -980,13 +985,13 @@ protected:
   constexpr InputSystemUIInputModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputSystemUIInputModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputSystemUIInputModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputSystemUIInputModule(InputSystemUIInputModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputSystemUIInputModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputSystemUIInputModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputSystemUIInputModule(InputSystemUIInputModule const&) = delete;
+  InputSystemUIInputModule(InputSystemUIInputModuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8866 };
@@ -997,60 +1002,96 @@ public:
   /// @brief Field kSmallestScrollDeltaPerTick offset 0xffffffff size 0x4
   static constexpr float_t kSmallestScrollDeltaPerTick{ static_cast<float_t>(1e-5f) };
 
+  /// [FormerlySerializedAs("m_RepeatDelay")]
+  /// [Tooltip("The Initial delay (in seconds) between an initial move action and a repeated move action.")]
+  /// [SerializeField]
   /// @brief Field m_MoveRepeatDelay, offset: 0x58, size: 0x4, def value: None
   float_t ___m_MoveRepeatDelay;
 
+  /// [FormerlySerializedAs("m_RepeatRate")]
+  /// [Tooltip("The speed (in seconds) that the move action repeats itself once repeating (max 1 per frame).")]
+  /// [SerializeField]
   /// @brief Field m_MoveRepeatRate, offset: 0x5c, size: 0x4, def value: None
   float_t ___m_MoveRepeatRate;
 
+  /// [Tooltip("Scales the Eventsystem.DragThreshold, for tracked devices, to make selection easier.")]
   /// @brief Field m_TrackedDeviceDragThresholdMultiplier, offset: 0x60, size: 0x4, def value: None
   float_t ___m_TrackedDeviceDragThresholdMultiplier;
 
+  /// [Tooltip("Transform representing the real world origin for tracking devices. When using the XR Interaction Toolkit, this should be pointing to the XR Rig\'s Transform.")]
+  /// [SerializeField]
   /// @brief Field m_XRTrackingOrigin, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___m_XRTrackingOrigin;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_ActionsAsset, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ___m_ActionsAsset;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_PointAction, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_PointAction;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_MoveAction, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_MoveAction;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_SubmitAction, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_SubmitAction;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_CancelAction, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_CancelAction;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_LeftClickAction, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_LeftClickAction;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_MiddleClickAction, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_MiddleClickAction;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_RightClickAction, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_RightClickAction;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_ScrollWheelAction, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_ScrollWheelAction;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_TrackedDevicePositionAction, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_TrackedDevicePositionAction;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_TrackedDeviceOrientationAction, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ___m_TrackedDeviceOrientationAction;
 
+  /// [SerializeField]
   /// @brief Field m_DeselectOnBackgroundClick, offset: 0xc8, size: 0x1, def value: None
   bool ___m_DeselectOnBackgroundClick;
 
+  /// [SerializeField]
   /// @brief Field m_PointerBehavior, offset: 0xcc, size: 0x4, def value: None
   ::UnityEngine::InputSystem::UI::UIPointerBehavior ___m_PointerBehavior;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_CursorLockBehavior, offset: 0xd0, size: 0x4, def value: None
   ::UnityEngine::InputSystem::UI::InputSystemUIInputModule_CursorLockBehavior ___m_CursorLockBehavior;
 
+  /// [SerializeField]
   /// @brief Field m_ScrollDeltaPerTick, offset: 0xd4, size: 0x4, def value: None
   float_t ___m_ScrollDeltaPerTick;
 

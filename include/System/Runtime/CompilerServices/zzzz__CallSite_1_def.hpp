@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\CallSite_1.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/CallSite_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace System::Runtime::CompilerServices {
 class CallSiteBinder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class CallSite_1___c;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class CallSite_1___c;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
@@ -34,20 +36,26 @@ class Type;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
-template <typename T> class CallSite_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class CallSite_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class CallSite_1___c;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class CallSite_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Runtime::CompilerServices::CallSite_1);
 MARK_GEN_REF_T_PTR(::System::Runtime::CompilerServices::CallSite_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Runtime::CompilerServices::CallSite_1, "System.Runtime.CompilerServices", "CallSite`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Runtime::CompilerServices::CallSite_1___c, "System.Runtime.CompilerServices", "CallSite`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.CallSite`1/<>c<T>
 class CORDL_TYPE CallSite_1___c : public ::System::Object {
@@ -104,13 +112,13 @@ protected:
   constexpr CallSite_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallSite_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSite_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallSite_1___c(CallSite_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallSite_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSite_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallSite_1___c(CallSite_1___c const&) = delete;
+  CallSite_1___c(CallSite_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16626 };
@@ -123,6 +131,7 @@ public:
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.CallSite`1<T>
 class CORDL_TYPE CallSite_1 : public ::System::Runtime::CompilerServices::CallSite {
@@ -213,13 +222,13 @@ protected:
   constexpr CallSite_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallSite_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSite_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallSite_1(CallSite_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallSite_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSite_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallSite_1(CallSite_1 const&) = delete;
+  CallSite_1(CallSite_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16627 };

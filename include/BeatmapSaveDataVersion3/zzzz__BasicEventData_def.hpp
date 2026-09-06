@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\BasicEventData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BasicEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,23 +78,26 @@ protected:
   constexpr BasicEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicEventData(BasicEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicEventData(BasicEventData const&) = delete;
+  BasicEventData(BasicEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15368 };
 
+  /// [SerializeField]
   /// @brief Field et, offset: 0x14, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::BeatmapEventType ___et;
 
+  /// [SerializeField]
   /// @brief Field i, offset: 0x18, size: 0x4, def value: None
   int32_t ___i;
 
+  /// [SerializeField]
   /// @brief Field f, offset: 0x1c, size: 0x4, def value: None
   float_t ___f;
 

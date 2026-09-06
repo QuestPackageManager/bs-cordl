@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\SwitchExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/SwitchExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class SwitchExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::SwitchExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::SwitchExpression*, "System.Linq.Expressions", "SwitchExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::SwitchExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -78,15 +79,19 @@ public:
 
   constexpr void __cordl_internal_set__SwitchValue_k__BackingField(::System::Linq::Expressions::Expression* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Cases, addr 0x5f89554, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* get_Cases();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Comparison, addr 0x5f89564, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Comparison();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DefaultBody, addr 0x5f8955c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_DefaultBody();
 
+  /// [CompilerGenerated]
   /// @brief Method get_SwitchValue, addr 0x5f8954c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_SwitchValue();
 
@@ -96,26 +101,30 @@ protected:
   constexpr SwitchExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SwitchExpression(SwitchExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SwitchExpression(SwitchExpression const&) = delete;
+  SwitchExpression(SwitchExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16230 };
 
+  /// [CompilerGenerated]
   /// @brief Field <SwitchValue>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____SwitchValue_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Cases>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* ____Cases_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <DefaultBody>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____DefaultBody_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Comparison>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____Comparison_k__BackingField;
 

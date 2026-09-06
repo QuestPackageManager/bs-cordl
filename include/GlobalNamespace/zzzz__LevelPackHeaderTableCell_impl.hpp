@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelPackHeaderTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelPackHeaderTableCell.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelPackHeaderTableCell_def.hpp"

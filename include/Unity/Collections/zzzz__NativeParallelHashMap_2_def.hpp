@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeParallelHashMap_2.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeParallelHashMap_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapDataEnumerator_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMap_2_def.hpp"
 #include <cstddef>
@@ -27,10 +28,16 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue> struct KeyValue_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct KeyValue_2;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue> struct UnsafeParallelHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct UnsafeParallelHashMap_2;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
@@ -39,35 +46,61 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeKeyValueArrays_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeKeyValueArrays_2;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2_Enumerator;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2_Enumerator;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2_ParallelWriter;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2_ReadOnly;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2_ReadOnly;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2_Enumerator;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2_Enumerator;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2_ParallelWriter;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2_ParallelWriter;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2_ReadOnly;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2_ReadOnly;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeParallelHashMap_2);
@@ -78,10 +111,18 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashMap_2, "Unity.Co
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashMap_2_Enumerator, "Unity.Collections", "NativeParallelHashMap`2/Enumerator");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashMap_2_ParallelWriter, "Unity.Collections", "NativeParallelHashMap`2/ParallelWriter");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeParallelHashMap_2_ReadOnly, "Unity.Collections", "NativeParallelHashMap`2/ReadOnly");
-// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
+// [DefaultMember("Item")]
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeParallelHashMapDebuggerTypeProxy`2<TKey, TValue>))]
+// [DebuggerDisplay("Count = {m_HashMapData.Count()}, Capacity = {m_HashMapData.Capacity}, IsCreated = {m_HashMapData.IsCreated}, IsEmpty = {IsEmpty}")]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashMap`2/ReadOnly<TKey,TValue>
 struct CORDL_TYPE NativeParallelHashMap_2_ReadOnly {
@@ -101,24 +142,32 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [IsReadOnly]
   /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ContainsKey(TKey key);
 
+  /// [IsReadOnly]
   /// @brief Method Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t Count();
 
+  /// [IsReadOnly]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeParallelHashMap_2_Enumerator<TKey, TValue> GetEnumerator();
 
+  /// [IsReadOnly]
   /// @brief Method GetKeyArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<TKey> GetKeyArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method GetKeyValueArrays, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeKeyValueArrays_2<TKey, TValue> GetKeyValueArrays(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method GetValueArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<TValue> GetValueArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
@@ -130,24 +179,32 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowKeyNotPresent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowKeyNotPresent(TKey key);
 
+  /// [IsReadOnly]
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValue(TKey key, ::by_ref<TValue> item);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue> hashMapData);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
+  /// [IsReadOnly]
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue get_Item(TKey key);
 
@@ -162,7 +219,7 @@ public:
   // @brief default ctor
   constexpr NativeParallelHashMap_2_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "m_HashMapData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey,TValue>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_HashMapData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey,TValue>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelHashMap_2_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue> m_HashMapData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -178,10 +235,16 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2::ParallelWriter<TKey, TValue>
+// [NativeContainer]
+// [NativeContainerIsAtomicWriteOnly]
+// [DebuggerDisplay("Capacity = {m_Writer.Capacity}")]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2::ParallelWriter<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashMap`2/ParallelWriter<TKey,TValue>
 struct CORDL_TYPE NativeParallelHashMap_2_ParallelWriter {
@@ -191,6 +254,7 @@ public:
 
   __declspec(property(get = get_ThreadIndex)) int32_t ThreadIndex;
 
+  /// @brief [Obsolete("\'m_ThreadIndex\' has been deprecated; use \'ThreadIndex\' instead. (UnityUpgradable) -> ThreadIndex")]
   __declspec(property(get = get_m_ThreadIndex)) int32_t m_ThreadIndex;
 
   /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -199,6 +263,7 @@ public:
   /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryAdd(TKey key, TValue item, int32_t threadIndexOverride);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
@@ -212,7 +277,7 @@ public:
   // @brief default ctor
   constexpr NativeParallelHashMap_2_ParallelWriter();
 
-  // Ctor Parameters [CppParam { name: "m_Writer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2_ParallelWriter<TKey,TValue>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Writer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2_ParallelWriter<TKey,TValue>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelHashMap_2_ParallelWriter(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2_ParallelWriter<TKey, TValue> m_Writer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -228,10 +293,14 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataEnumerator
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashMap`2/Enumerator<TKey,TValue>
 struct CORDL_TYPE NativeParallelHashMap_2_Enumerator {
@@ -279,7 +348,7 @@ public:
   // @brief default ctor
   constexpr NativeParallelHashMap_2_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Enumerator", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelHashMap_2_Enumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -295,10 +364,17 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
+// [DefaultMember("Item")]
+// [NativeContainer]
+// [DebuggerDisplay("Count = {m_HashMapData.Count()}, Capacity = {m_HashMapData.Capacity}, IsCreated = {m_HashMapData.IsCreated}, IsEmpty = {IsEmpty}")]
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeParallelHashMapDebuggerTypeProxy`2<TKey, TValue>))]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMap`2<TKey, TValue>
 namespace Unity::Collections {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeParallelHashMap`2<TKey,TValue>
 struct CORDL_TYPE NativeParallelHashMap_2 {
@@ -339,9 +415,12 @@ public:
   /// @brief Method AsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<TKey, TValue> AsReadOnly();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckWrite, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckWrite();
 
@@ -383,9 +462,13 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowKeyAlreadyAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowKeyAlreadyAdded(TKey key);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowKeyNotPresent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowKeyNotPresent(TKey key);
 
@@ -398,12 +481,15 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
@@ -433,7 +519,7 @@ public:
   // @brief default ctor
   constexpr NativeParallelHashMap_2();
 
-  // Ctor Parameters [CppParam { name: "m_HashMapData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey,TValue>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_HashMapData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey,TValue>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeParallelHashMap_2(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue> m_HashMapData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

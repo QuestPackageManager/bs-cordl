@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedBytes16Align8.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedBytes16Align8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FixedBytes16Align8;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::FixedBytes16Align8);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::FixedBytes16Align8, "Unity.Collections", "FixedBytes16Align8");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -43,7 +44,8 @@ public:
   // @brief default ctor
   constexpr FixedBytes16Align8();
 
-  // Ctor Parameters [CppParam { name: "byte0000", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "byte0008", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "byte0000", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0008", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr FixedBytes16Align8(uint64_t byte0000, uint64_t byte0008) noexcept;
 
 private:
@@ -53,6 +55,7 @@ private:
     struct {
       /// @brief Padding field 0x0
       uint8_t ___byte0000_padding[0x0];
+      /// [SerializeField]
       /// @brief Field byte0000, offset: 0x0, size: 0x8, def value: None
       uint64_t ___byte0000;
     };
@@ -60,6 +63,7 @@ private:
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___byte0000_padding_forAlignment[0x0];
+      /// [SerializeField]
       /// @brief Field byte0000, offset: 0x0, size: 0x8, def value: None
       uint64_t ___byte0000_forAlignment;
     };
@@ -67,6 +71,7 @@ private:
     struct {
       /// @brief Padding field 0x8
       uint8_t ___byte0008_padding[0x8];
+      /// [SerializeField]
       /// @brief Field byte0008, offset: 0x8, size: 0x8, def value: None
       uint64_t ___byte0008;
     };
@@ -74,6 +79,7 @@ private:
     struct {
       /// @brief Padding field 0x8 for alignment
       uint8_t ___byte0008_padding_forAlignment[0x8];
+      /// [SerializeField]
       /// @brief Field byte0008, offset: 0x8, size: 0x8, def value: None
       uint64_t ___byte0008_forAlignment;
     };

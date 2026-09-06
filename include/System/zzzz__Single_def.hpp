@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Single.hpp"
+// IWYU pragma private; include "System/Single.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ struct Single;
 // Write type traits
 MARK_VAL_T(::System::Single);
 DEFINE_IL2CPP_CLASS(::System::Single, "System", "Single");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -106,18 +107,23 @@ public:
   /// @brief Method GetTypeCode, addr 0x5c5bfa4, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
+  /// [NonVersionable]
   /// @brief Method IsFinite, addr 0x5c5b2a0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsFinite(float_t f);
 
+  /// [NonVersionable]
   /// @brief Method IsInfinity, addr 0x5c5b2b4, size 0x18, virtual false, abstract: false, final false
   static inline bool IsInfinity(float_t f);
 
+  /// [NonVersionable]
   /// @brief Method IsNaN, addr 0x5c5b2cc, size 0x18, virtual false, abstract: false, final false
   static inline bool IsNaN(float_t f);
 
+  /// [NonVersionable]
   /// @brief Method IsNegativeInfinity, addr 0x5c5b2e4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsNegativeInfinity(float_t f);
 
+  /// [NonVersionable]
   /// @brief Method IsPositiveInfinity, addr 0x5c5b2f8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPositiveInfinity(float_t f);
 
@@ -227,7 +233,7 @@ public:
   // @brief default ctor
   constexpr Single();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Single(float_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

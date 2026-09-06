@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\PermissionSet.hpp"
+// IWYU pragma private; include "System/Security/PermissionSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,8 @@ class PermissionSet;
 // Write type traits
 MARK_REF_T(::System::Security::PermissionSet*);
 DEFINE_IL2CPP_CLASS(::System::Security::PermissionSet*, "System.Security", "PermissionSet");
+// [MonoTODO("CAS support is experimental (and unsupported).")]
+// [ComVisible(true)]
 // Dependencies System.Object, System.Security.Permissions.PermissionState
 namespace System::Security {
 // Is value type: false
@@ -101,12 +103,14 @@ public:
   /// @brief Method Demand, addr 0x5aefd04, size 0x234, virtual true, abstract: false, final true
   inline void Demand();
 
+  /// [ComVisible(false)]
   /// @brief Method Equals, addr 0x5aef990, size 0x198, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method GetEnumerator, addr 0x5af02b8, size 0x20, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
+  /// [ComVisible(false)]
   /// @brief Method GetHashCode, addr 0x5aefb60, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -122,6 +126,7 @@ public:
 
   static inline ::System::Security::PermissionSet* New_ctor(::System::Security::Permissions::PermissionState state);
 
+  /// [MonoTODO("may not be required")]
   /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5af0348, size 0x4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
@@ -199,13 +204,13 @@ protected:
   constexpr PermissionSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PermissionSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PermissionSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PermissionSet(PermissionSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PermissionSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PermissionSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PermissionSet(PermissionSet const&) = delete;
+  PermissionSet(PermissionSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2904 };

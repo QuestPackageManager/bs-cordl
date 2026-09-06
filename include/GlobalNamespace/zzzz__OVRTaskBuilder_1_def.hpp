@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTaskBuilder_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTaskBuilder_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRTask_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
@@ -12,7 +15,9 @@ namespace GlobalNamespace {
 class OVRObjectPool_IPoolObject;
 }
 namespace GlobalNamespace {
-template <typename T, typename TStateMachine> class OVRTaskBuilder_1_PooledStateMachine_1;
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+class OVRTaskBuilder_1_PooledStateMachine_1;
 }
 namespace GlobalNamespace {
 template <typename T> class OVRTaskBuilder_1_PooledStateMachine;
@@ -37,7 +42,9 @@ namespace GlobalNamespace {
 template <typename T> class OVRTaskBuilder_1_PooledStateMachine;
 }
 namespace GlobalNamespace {
-template <typename T, typename TStateMachine> class OVRTaskBuilder_1_PooledStateMachine_1;
+template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+class OVRTaskBuilder_1_PooledStateMachine_1;
 }
 namespace GlobalNamespace {
 template <typename T> struct OVRTaskBuilder_1;
@@ -67,7 +74,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Dispose();
 
   static inline ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>* New_ctor();
@@ -96,13 +103,13 @@ protected:
   constexpr OVRTaskBuilder_1_PooledStateMachine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTaskBuilder_1_PooledStateMachine(OVRTaskBuilder_1_PooledStateMachine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTaskBuilder_1_PooledStateMachine(OVRTaskBuilder_1_PooledStateMachine const&) = delete;
+  OVRTaskBuilder_1_PooledStateMachine(OVRTaskBuilder_1_PooledStateMachineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7862 };
@@ -117,10 +124,11 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies OVRTaskBuilder`1::PooledStateMachine<T>
+// Dependencies OVRTaskBuilder`1::PooledStateMachine<T>, System.Runtime.CompilerServices.IAsyncStateMachine
 namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 // Is value type: false
 // CS Name: OVRTaskBuilder`1/PooledStateMachine`1<T,TStateMachine>
 class CORDL_TYPE OVRTaskBuilder_1_PooledStateMachine_1 : public ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T> {
@@ -167,13 +175,13 @@ protected:
   constexpr OVRTaskBuilder_1_PooledStateMachine_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTaskBuilder_1_PooledStateMachine_1(OVRTaskBuilder_1_PooledStateMachine_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTaskBuilder_1_PooledStateMachine_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTaskBuilder_1_PooledStateMachine_1(OVRTaskBuilder_1_PooledStateMachine_1 const&) = delete;
+  OVRTaskBuilder_1_PooledStateMachine_1(OVRTaskBuilder_1_PooledStateMachine_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7863 };
@@ -185,7 +193,8 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies OVRTask`1<TResult>, System.Nullable`1<T>
+// Dependencies OVRTask`1<TResult>, System.Nullable`1<T>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.ICriticalNotifyCompletion,
+// System.Runtime.CompilerServices.INotifyCompletion
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -196,21 +205,31 @@ public:
   // Declarations
   using PooledStateMachine = ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>;
 
-  template <typename TStateMachine> using PooledStateMachine_1 = ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>;
+  template <typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  using PooledStateMachine_1 = ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine_1<T, TStateMachine>;
 
   __declspec(property(get = get_Task)) ::GlobalNamespace::OVRTask_1<T> Task;
 
   /// @brief Method AwaitOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::INotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTaskBuilder_1<T> Create();
 
   /// @brief Method GetPooledStateMachine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TStateMachine> inline ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>* GetPooledStateMachine();
+  template <typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline ::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>* GetPooledStateMachine();
 
   /// @brief Method SetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
@@ -222,7 +241,9 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TStateMachine> inline void Start(::by_ref<TStateMachine> stateMachine);
+  template <typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void Start(::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<T> get_Task();
@@ -231,8 +252,8 @@ public:
   // @brief default ctor
   constexpr OVRTaskBuilder_1();
 
-  // Ctor Parameters [CppParam { name: "_pooledStateMachine", ty: "::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>*", modifiers: "", def_value: None }, CppParam { name: "_task", ty:
-  // "::System::Nullable_1<::GlobalNamespace::OVRTask_1<T>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_pooledStateMachine", ty: "::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_task", ty: "::System::Nullable_1<::GlobalNamespace::OVRTask_1<T>>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTaskBuilder_1(::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>* _pooledStateMachine, ::System::Nullable_1<::GlobalNamespace::OVRTask_1<T>> _task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlNode.hpp"
+// IWYU pragma private; include "System/Xml/XmlNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,8 @@ class XmlNode;
 // Write type traits
 MARK_REF_T(::System::Xml::XmlNode*);
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlNode*, "System.Xml", "XmlNode");
+// [DebuggerDisplay("{debuggerDisplayProxy}")]
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
@@ -162,7 +164,7 @@ public:
   /// @brief Method CanInsertBefore, addr 0x62c7874, size 0x8, virtual true, abstract: false, final false
   inline bool CanInsertBefore(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);
 
-  /// @brief Method CloneNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   /// @brief Method CopyChildren, addr 0x62c78a8, size 0x9c, virtual true, abstract: false, final false
@@ -233,10 +235,10 @@ public:
   /// @brief Method UnnestTextNodes, addr 0x62c76ac, size 0x2c, virtual false, abstract: false, final false
   static inline void UnnestTextNodes(::System::Xml::XmlNode* prevNode, ::System::Xml::XmlNode* nextNode);
 
-  /// @brief Method WriteContentTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_parentNode() const;
@@ -287,10 +289,10 @@ public:
   /// @brief Method get_LastNode, addr 0x62c7634, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlLinkedNode* get_LastNode();
 
-  /// @brief Method get_LocalName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
   /// @brief Method get_NamespaceURI, addr 0x62c7944, size 0x14, virtual true, abstract: false, final false
@@ -299,7 +301,7 @@ public:
   /// @brief Method get_NextSibling, addr 0x62c752c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_NextSibling();
 
-  /// @brief Method get_NodeType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
   /// @brief Method get_OwnerDocument, addr 0x62c753c, size 0xbc, virtual true, abstract: false, final false
@@ -362,13 +364,13 @@ protected:
   constexpr XmlNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlNode(XmlNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlNode(XmlNode const&) = delete;
+  XmlNode(XmlNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9400 };

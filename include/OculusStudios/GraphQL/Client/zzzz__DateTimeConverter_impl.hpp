@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\DateTimeConverter.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/DateTimeConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__DateTimeConverter_def.hpp"

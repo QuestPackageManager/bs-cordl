@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeStream.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,14 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Jobs {
 class IJob;
@@ -82,6 +86,7 @@ DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Constru
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_DisposeJob, "Unity.Collections.LowLevel.Unsafe", "UnsafeStream/DisposeJob");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader, "Unity.Collections.LowLevel.Unsafe", "UnsafeStream/Reader");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer, "Unity.Collections.LowLevel.Unsafe", "UnsafeStream/Writer");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.AllocatorManager::Block
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -133,6 +138,7 @@ public:
   /// @brief Method Dispose, addr 0x64c3670, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [IsReadOnly]
   /// @brief Method IsEmpty, addr 0x64c34ac, size 0x5c, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
@@ -140,20 +146,27 @@ public:
   static inline ::Unity::Jobs::JobHandle ScheduleConstruct(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeStream> stream, ::Unity::Collections::NativeArray_1<int32_t> bufferCount,
                                                            ::Unity::Jobs::JobHandle dependency, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ScheduleConstruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Jobs::JobHandle ScheduleConstruct(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeStream> stream, ::Unity::Collections::NativeList_1<T> bufferCount,
                                                            ::Unity::Jobs::JobHandle dependency, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method .ctor, addr 0x64cf194, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t bufferCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_ForEachCount, addr 0x64c3530, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_ForEachCount();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64cf264, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
@@ -167,7 +180,7 @@ public:
   // @brief default ctor
   constexpr UnsafeStream();
 
-  // Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeStream(::Unity::Collections::AllocatorManager_Block m_BlockData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -176,6 +189,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_BlockData, offset: 0x0, size: 0x20, def value: None
   ::Unity::Collections::AllocatorManager_Block m_BlockData;
 
@@ -187,6 +201,7 @@ static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream, m_B
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream) == 0x20, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
+// [BurstCompile]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeStream
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -207,7 +222,7 @@ public:
   // @brief default ctor
   constexpr UnsafeStream_DisposeJob();
 
-  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeStream_DisposeJob(::Unity::Collections::LowLevel::Unsafe::UnsafeStream Container) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -227,6 +242,7 @@ static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Disp
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_DisposeJob) == 0x20, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
+// [BurstCompile]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeStream
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -247,8 +263,8 @@ public:
   // @brief default ctor
   constexpr UnsafeStream_ConstructJobList();
 
-  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None }, CppParam { name: "List", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None, comment: None }, CppParam { name: "List", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList*", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeStream_ConstructJobList(::Unity::Collections::LowLevel::Unsafe::UnsafeStream Container, ::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList* List) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -260,6 +276,8 @@ public:
   /// @brief Field Container, offset: 0x0, size: 0x20, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeStream Container;
 
+  /// [ReadOnly]
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field List, offset: 0x20, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList* List;
 
@@ -273,6 +291,7 @@ static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Cons
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJobList) == 0x28, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
+// [BurstCompile]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeStream, Unity.Collections.NativeArray`1<T>
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -293,8 +312,8 @@ public:
   // @brief default ctor
   constexpr UnsafeStream_ConstructJob();
 
-  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None }, CppParam { name: "Length", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None, comment: None }, CppParam { name: "Length", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeStream_ConstructJob(::Unity::Collections::LowLevel::Unsafe::UnsafeStream Container, ::Unity::Collections::NativeArray_1<int32_t> Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -306,6 +325,7 @@ public:
   /// @brief Field Container, offset: 0x0, size: 0x20, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeStream Container;
 
+  /// [ReadOnly]
   /// @brief Field Length, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Length;
 
@@ -319,6 +339,7 @@ static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Cons
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_ConstructJob) == 0x30, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.AllocatorManager::Block
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -328,8 +349,11 @@ public:
   // Declarations
   __declspec(property(get = get_ForEachCount)) int32_t ForEachCount;
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::by_ref<T> Allocate();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::by_ref<T> Allocate();
 
   /// @brief Method Allocate, addr 0x64c39f4, size 0x8c, virtual false, abstract: false, final false
   inline uint8_t* Allocate(int32_t size);
@@ -340,8 +364,11 @@ public:
   /// @brief Method EndForEachIndex, addr 0x64c399c, size 0x54, virtual false, abstract: false, final false
   inline void EndForEachIndex();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Write(T value);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Write(T value);
 
   /// @brief Method .ctor, addr 0x64cf288, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeStream> stream);
@@ -353,12 +380,13 @@ public:
   // @brief default ctor
   constexpr UnsafeStream_Writer();
 
-  // Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None }, CppParam { name: "m_CurrentBlock", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentPtr", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_CurrentBlockEnd", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_ForeachIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ElementCount", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_FirstBlock", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_FirstOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_NumberOfBlocks", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ThreadIndex", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentBlock", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentPtr", ty: "uint8_t*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_CurrentBlockEnd", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ForeachIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_ElementCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FirstBlock", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FirstOffset", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_NumberOfBlocks", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ThreadIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr UnsafeStream_Writer(::Unity::Collections::AllocatorManager_Block m_BlockData, ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* m_CurrentBlock, uint8_t* m_CurrentPtr,
                                 uint8_t* m_CurrentBlockEnd, int32_t m_ForeachIndex, int32_t m_ElementCount, ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* m_FirstBlock,
                                 int32_t m_FirstOffset, int32_t m_NumberOfBlocks, int32_t m_ThreadIndex) noexcept;
@@ -369,15 +397,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_BlockData, offset: 0x0, size: 0x20, def value: None
   ::Unity::Collections::AllocatorManager_Block m_BlockData;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_CurrentBlock, offset: 0x20, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* m_CurrentBlock;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_CurrentPtr, offset: 0x28, size: 0x8, def value: None
   uint8_t* m_CurrentPtr;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_CurrentBlockEnd, offset: 0x30, size: 0x8, def value: None
   uint8_t* m_CurrentBlockEnd;
 
@@ -387,6 +419,7 @@ public:
   /// @brief Field m_ElementCount, offset: 0x3c, size: 0x4, def value: None
   int32_t m_ElementCount;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_FirstBlock, offset: 0x40, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* m_FirstBlock;
 
@@ -396,6 +429,7 @@ public:
   /// @brief Field m_NumberOfBlocks, offset: 0x4c, size: 0x4, def value: None
   int32_t m_NumberOfBlocks;
 
+  /// [NativeSetThreadIndex]
   /// @brief Field m_ThreadIndex, offset: 0x50, size: 0x4, def value: None
   int32_t m_ThreadIndex;
 
@@ -425,6 +459,7 @@ static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writ
 static_assert(sizeof(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer) == 0x58, "Size mismatch!");
 
 } // namespace Unity::Collections::LowLevel::Unsafe
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.AllocatorManager::Block
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -445,11 +480,17 @@ public:
   /// @brief Method EndForEachIndex, addr 0x64c3afc, size 0x4, virtual false, abstract: false, final false
   inline void EndForEachIndex();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Peek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::by_ref<T> Peek();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::by_ref<T> Peek();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::by_ref<T> Read();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::by_ref<T> Read();
 
   /// @brief Method ReadUnsafePtr, addr 0x64cf404, size 0x5c, virtual false, abstract: false, final false
   inline uint8_t* ReadUnsafePtr(int32_t size);
@@ -467,10 +508,10 @@ public:
   // @brief default ctor
   constexpr UnsafeStream_Reader();
 
-  // Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None }, CppParam { name: "m_CurrentBlock", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentPtr", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_CurrentBlockEnd", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_RemainingItemCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_LastBlockSize", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BlockData", ty: "::Unity::Collections::AllocatorManager_Block", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentBlock", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentPtr", ty: "uint8_t*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_CurrentBlockEnd", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RemainingItemCount", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_LastBlockSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeStream_Reader(::Unity::Collections::AllocatorManager_Block m_BlockData, ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* m_CurrentBlock, uint8_t* m_CurrentPtr,
                                 uint8_t* m_CurrentBlockEnd, int32_t m_RemainingItemCount, int32_t m_LastBlockSize) noexcept;
 
@@ -480,15 +521,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_BlockData, offset: 0x0, size: 0x20, def value: None
   ::Unity::Collections::AllocatorManager_Block m_BlockData;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_CurrentBlock, offset: 0x20, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* m_CurrentBlock;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_CurrentPtr, offset: 0x28, size: 0x8, def value: None
   uint8_t* m_CurrentPtr;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_CurrentBlockEnd, offset: 0x30, size: 0x8, def value: None
   uint8_t* m_CurrentBlockEnd;
 

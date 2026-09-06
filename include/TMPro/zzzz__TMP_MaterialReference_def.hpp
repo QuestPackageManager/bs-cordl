@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_MaterialReference.hpp"
+// IWYU pragma private; include "TMPro/TMP_MaterialReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr TMP_MaterialReference();
 
-  // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "referenceCount", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "referenceCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr TMP_MaterialReference(::UnityW<::UnityEngine::Material> material, int32_t referenceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

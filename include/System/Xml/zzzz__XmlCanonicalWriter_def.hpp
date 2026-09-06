@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlCanonicalWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlCanonicalWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,13 +107,13 @@ protected:
   constexpr XmlCanonicalWriter_AttributeSorter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter_AttributeSorter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter_AttributeSorter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlCanonicalWriter_AttributeSorter(XmlCanonicalWriter_AttributeSorter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter_AttributeSorter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter_AttributeSorter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlCanonicalWriter_AttributeSorter(XmlCanonicalWriter_AttributeSorter const&) = delete;
+  XmlCanonicalWriter_AttributeSorter(XmlCanonicalWriter_AttributeSorterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16973 };
@@ -140,7 +140,8 @@ public:
   // @brief default ctor
   constexpr XmlCanonicalWriter_Scope();
 
-  // Ctor Parameters [CppParam { name: "xmlnsAttributeCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "xmlnsOffset", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "xmlnsAttributeCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "xmlnsOffset", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr XmlCanonicalWriter_Scope(int32_t xmlnsAttributeCount, int32_t xmlnsOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -176,8 +177,9 @@ public:
   // @brief default ctor
   constexpr XmlCanonicalWriter_Element();
 
-  // Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "localNameOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "localNameLength", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "localNameOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "localNameLength", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr XmlCanonicalWriter_Element(int32_t prefixOffset, int32_t prefixLength, int32_t localNameOffset, int32_t localNameLength) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -223,10 +225,11 @@ public:
   // @brief default ctor
   constexpr XmlCanonicalWriter_Attribute();
 
-  // Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "localNameOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "localNameLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nsOffset", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "nsLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "localNameOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "localNameLength", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "nsOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nsLength", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr XmlCanonicalWriter_Attribute(int32_t prefixOffset, int32_t prefixLength, int32_t localNameOffset, int32_t localNameLength, int32_t nsOffset, int32_t nsLength, int32_t offset,
                                          int32_t length) noexcept;
 
@@ -293,9 +296,9 @@ public:
   // @brief default ctor
   constexpr XmlCanonicalWriter_XmlnsAttribute();
 
-  // Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "nsOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nsLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "referred", ty: "bool",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "prefixOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "prefixLength", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "nsOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nsLength", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "referred", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr XmlCanonicalWriter_XmlnsAttribute(int32_t prefixOffset, int32_t prefixLength, int32_t nsOffset, int32_t nsLength, bool referred) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -633,13 +636,13 @@ protected:
   constexpr XmlCanonicalWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlCanonicalWriter(XmlCanonicalWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlCanonicalWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlCanonicalWriter(XmlCanonicalWriter const&) = delete;
+  XmlCanonicalWriter(XmlCanonicalWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16978 };

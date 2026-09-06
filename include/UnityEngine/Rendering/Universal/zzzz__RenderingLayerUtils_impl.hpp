@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderingLayerUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderingLayerUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingLayerUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalRenderer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RasterCommandBuffer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event::RenderingLayerUtils_Event(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -18,7 +18,7 @@ constexpr ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event::Render
 constexpr ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event::RenderingLayerUtils_Event() {}
 constexpr ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event UnityEngine::Rendering::Universal::RenderingLayerUtils_Event::DepthNormalPrePass{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event UnityEngine::Rendering::Universal::RenderingLayerUtils_Event::Opaque{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize::RenderingLayerUtils_MaskSize(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RangeKey.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RangeKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +41,11 @@ public:
   // @brief default ctor
   constexpr RangeKey();
 
-  // Ctor Parameters [CppParam { name: "layer", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "motionMode", ty: "::UnityEngine::MotionVectorGenerationMode", modifiers: "", def_value: None }, CppParam { name: "shadowCastingMode", ty: "::UnityEngine::Rendering::ShadowCastingMode",
-  // modifiers: "", def_value: None }, CppParam { name: "staticShadowCaster", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rendererPriority", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "supportsIndirect", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "layer", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "motionMode", ty: "::UnityEngine::MotionVectorGenerationMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "shadowCastingMode", ty:
+  // "::UnityEngine::Rendering::ShadowCastingMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "staticShadowCaster", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "rendererPriority", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "supportsIndirect", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr RangeKey(uint8_t layer, uint32_t renderingLayerMask, ::UnityEngine::MotionVectorGenerationMode motionMode, ::UnityEngine::Rendering::ShadowCastingMode shadowCastingMode,
                      bool staticShadowCaster, int32_t rendererPriority, bool supportsIndirect) noexcept;
 

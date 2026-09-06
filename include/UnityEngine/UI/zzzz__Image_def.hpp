@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Image.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Image.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -150,7 +150,7 @@ public:
   // @brief default ctor
   constexpr Image_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Image_Type(int32_t value__) noexcept;
 
   /// @brief Field Filled value: I32(3)
@@ -214,7 +214,7 @@ public:
   // @brief default ctor
   constexpr Image_FillMethod();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Image_FillMethod(int32_t value__) noexcept;
 
   /// @brief Field Horizontal value: I32(0)
@@ -278,7 +278,7 @@ public:
   // @brief default ctor
   constexpr Image_OriginHorizontal();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Image_OriginHorizontal(int32_t value__) noexcept;
 
   /// @brief Field Left value: I32(0)
@@ -333,7 +333,7 @@ public:
   // @brief default ctor
   constexpr Image_OriginVertical();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Image_OriginVertical(int32_t value__) noexcept;
 
   /// @brief Field Bottom value: I32(0)
@@ -390,7 +390,7 @@ public:
   // @brief default ctor
   constexpr Image_Origin90();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Image_Origin90(int32_t value__) noexcept;
 
   /// @brief Field BottomLeft value: I32(0)
@@ -453,7 +453,7 @@ public:
   // @brief default ctor
   constexpr Image_Origin180();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Image_Origin180(int32_t value__) noexcept;
 
   /// @brief Field Bottom value: I32(0)
@@ -516,7 +516,7 @@ public:
   // @brief default ctor
   constexpr Image_Origin360();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Image_Origin360(int32_t value__) noexcept;
 
   /// @brief Field Bottom value: I32(0)
@@ -548,6 +548,8 @@ static_assert(offsetof(::UnityEngine::UI::Image_Origin360, value__) == 0x0, "Off
 static_assert(sizeof(::UnityEngine::UI::Image_Origin360) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [RequireComponent(typeof(UnityEngine.CanvasRenderer))]
+// [AddComponentMenu("UI/Image", 11)]
 // Dependencies UnityEngine.UI.Image::FillMethod, UnityEngine.UI.Image::Type, UnityEngine.UI.MaskableGraphic, UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::UI {
 // Is value type: false
@@ -573,6 +575,7 @@ public:
 
   __declspec(property(get = get_alphaHitTestMinimumThreshold, put = set_alphaHitTestMinimumThreshold)) float_t alphaHitTestMinimumThreshold;
 
+  /// @brief [Obsolete("eventAlphaThreshold has been deprecated. Use eventMinimumAlphaThreshold instead (UnityUpgradable) -> alphaHitTestMinimumThreshold")]
   __declspec(property(get = get_eventAlphaThreshold, put = set_eventAlphaThreshold)) float_t eventAlphaThreshold;
 
   __declspec(property(get = get_fillAmount, put = set_fillAmount)) float_t fillAmount;
@@ -874,9 +877,11 @@ public:
   /// @brief Method .ctor, addr 0x6c298ec, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <set_sprite>g__ResetAlphaHitThresholdIfNeeded|11_0, addr 0x6c290cc, size 0x98, virtual false, abstract: false, final false
   inline void _set_sprite_g__ResetAlphaHitThresholdIfNeeded_11_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <set_sprite>g__SpriteSupportsAlphaHitTest|11_1, addr 0x6c2e028, size 0x150, virtual false, abstract: false, final false
   inline bool _set_sprite_g__SpriteSupportsAlphaHitTest_11_1();
 
@@ -1046,41 +1051,51 @@ protected:
   constexpr Image();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Image(Image&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Image(Image const&) = delete;
+  Image(Imageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17425 };
 
+  /// [FormerlySerializedAs("m_Frame")]
+  /// [SerializeField]
   /// @brief Field m_Sprite, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___m_Sprite;
 
   /// @brief Field m_OverrideSprite, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___m_OverrideSprite;
 
+  /// [SerializeField]
   /// @brief Field m_Type, offset: 0xe8, size: 0x4, def value: None
   ::UnityEngine::UI::Image_Type ___m_Type;
 
+  /// [SerializeField]
   /// @brief Field m_PreserveAspect, offset: 0xec, size: 0x1, def value: None
   bool ___m_PreserveAspect;
 
+  /// [SerializeField]
   /// @brief Field m_FillCenter, offset: 0xed, size: 0x1, def value: None
   bool ___m_FillCenter;
 
+  /// [SerializeField]
   /// @brief Field m_FillMethod, offset: 0xf0, size: 0x4, def value: None
   ::UnityEngine::UI::Image_FillMethod ___m_FillMethod;
 
+  /// [Range(0, 1)]
+  /// [SerializeField]
   /// @brief Field m_FillAmount, offset: 0xf4, size: 0x4, def value: None
   float_t ___m_FillAmount;
 
+  /// [SerializeField]
   /// @brief Field m_FillClockwise, offset: 0xf8, size: 0x1, def value: None
   bool ___m_FillClockwise;
 
+  /// [SerializeField]
   /// @brief Field m_FillOrigin, offset: 0xfc, size: 0x4, def value: None
   int32_t ___m_FillOrigin;
 
@@ -1090,9 +1105,11 @@ public:
   /// @brief Field m_Tracked, offset: 0x104, size: 0x1, def value: None
   bool ___m_Tracked;
 
+  /// [SerializeField]
   /// @brief Field m_UseSpriteMesh, offset: 0x105, size: 0x1, def value: None
   bool ___m_UseSpriteMesh;
 
+  /// [SerializeField]
   /// @brief Field m_PixelsPerUnitMultiplier, offset: 0x108, size: 0x4, def value: None
   float_t ___m_PixelsPerUnitMultiplier;
 

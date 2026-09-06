@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputControlPath.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputControlPath.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlPath_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -18,7 +19,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputControlPath_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlPath_HumanReadableStringOptions::InputControlPath_HumanReadableStringOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -27,7 +28,7 @@ constexpr ::UnityEngine::InputSystem::InputControlPath_HumanReadableStringOption
 constexpr ::UnityEngine::InputSystem::InputControlPath_HumanReadableStringOptions UnityEngine::InputSystem::InputControlPath_HumanReadableStringOptions::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::InputControlPath_HumanReadableStringOptions UnityEngine::InputSystem::InputControlPath_HumanReadableStringOptions::OmitDevice{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputSystem::InputControlPath_HumanReadableStringOptions UnityEngine::InputSystem::InputControlPath_HumanReadableStringOptions::UseShortNames{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlPath_PathComponentType::InputControlPath_PathComponentType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -297,10 +298,10 @@ inline bool UnityEngine::InputSystem::InputControlPath_ParsedPathComponent::Comp
                                                            { "ComparePathElementToString", {}, { ::i2c::type_of<::UnityEngine::InputSystem::Utilities::Substring>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, pathElement, element);
 }
-// Ctor Parameters [CppParam { name: "m_Layout", ty: "::UnityEngine::InputSystem::Utilities::Substring", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Usages", ty:
-// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::Substring>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Name", ty:
-// "::UnityEngine::InputSystem::Utilities::Substring", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DisplayName", ty: "::UnityEngine::InputSystem::Utilities::Substring", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Layout", ty: "::UnityEngine::InputSystem::Utilities::Substring", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Usages", ty:
+// "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::Substring>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Name", ty:
+// "::UnityEngine::InputSystem::Utilities::Substring", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DisplayName", ty: "::UnityEngine::InputSystem::Utilities::Substring",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlPath_ParsedPathComponent::InputControlPath_ParsedPathComponent(
     ::UnityEngine::InputSystem::Utilities::Substring m_Layout, ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::Substring> m_Usages,
     ::UnityEngine::InputSystem::Utilities::Substring m_Name, ::UnityEngine::InputSystem::Utilities::Substring m_DisplayName) noexcept {
@@ -383,9 +384,9 @@ inline ::UnityEngine::InputSystem::Utilities::Substring UnityEngine::InputSystem
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlPath_PathParser>(), { "ParseComponentPart", {}, { ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::Substring>(*this, ___internal_method, terminator);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "leftIndexInPath", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rightIndexInPath", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "current", ty:
-// "::UnityEngine::InputSystem::InputControlPath_ParsedPathComponent", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "leftIndexInPath", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rightIndexInPath", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "current", ty: "::UnityEngine::InputSystem::InputControlPath_ParsedPathComponent", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputControlPath_PathParser::InputControlPath_PathParser(::StringW path, int32_t length, int32_t leftIndexInPath, int32_t rightIndexInPath,
                                                                                                ::UnityEngine::InputSystem::InputControlPath_ParsedPathComponent current) noexcept {
   this->path = path;
@@ -682,6 +683,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputContro
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputControlPath__Parse_d__34*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputSystem::InputControlPath__Parse_d__34* UnityEngine::InputSystem::InputControlPath__Parse_d__34::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::InputControlPath__Parse_d__34*>(__1__state));
 }
@@ -1181,7 +1183,9 @@ inline int32_t UnityEngine::InputSystem::InputControlPath::TryFindControls(::Uni
                                            ::i2c::type_of<::by_ref<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, control, path, matches, indexInPath);
 }
-template <typename TControl> inline TControl UnityEngine::InputSystem::InputControlPath::TryFindControl(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath) {
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+inline TControl UnityEngine::InputSystem::InputControlPath::TryFindControl(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -1191,6 +1195,7 @@ template <typename TControl> inline TControl UnityEngine::InputSystem::InputCont
   return ::cordl_internals::RunMethodRethrow<TControl>(nullptr, ___internal_method, control, path, indexInPath);
 }
 template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 inline int32_t UnityEngine::InputSystem::InputControlPath::TryFindControls(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath,
                                                                            ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> matches) {
   static auto* ___internal_method_base =
@@ -1208,7 +1213,9 @@ inline ::UnityEngine::InputSystem::InputControl* UnityEngine::InputSystem::Input
                                               { "TryFindChild", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputControl*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputControl*>(nullptr, ___internal_method, control, path, indexInPath);
 }
-template <typename TControl> inline TControl UnityEngine::InputSystem::InputControlPath::TryFindChild(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath) {
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+inline TControl UnityEngine::InputSystem::InputControlPath::TryFindChild(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -1250,6 +1257,7 @@ inline bool UnityEngine::InputSystem::InputControlPath::MatchesRecursive(::by_re
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, parser, currentControl, prefixOnly);
 }
 template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 inline TControl UnityEngine::InputSystem::InputControlPath::MatchControlsRecursive(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath,
                                                                                    ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> matches, bool matchMultiple) {
   static auto* ___internal_method_base =
@@ -1262,6 +1270,7 @@ inline TControl UnityEngine::InputSystem::InputControlPath::MatchControlsRecursi
   return ::cordl_internals::RunMethodRethrow<TControl>(nullptr, ___internal_method, control, path, indexInPath, matches, matchMultiple);
 }
 template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 inline TControl UnityEngine::InputSystem::InputControlPath::MatchByUsageAtDeviceRootRecursive(::UnityEngine::InputSystem::InputDevice* device, ::StringW path, int32_t indexInPath,
                                                                                               ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> matches, bool matchMultiple) {
   static auto* ___internal_method_base =
@@ -1274,6 +1283,7 @@ inline TControl UnityEngine::InputSystem::InputControlPath::MatchByUsageAtDevice
   return ::cordl_internals::RunMethodRethrow<TControl>(nullptr, ___internal_method, device, path, indexInPath, matches, matchMultiple);
 }
 template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
 inline TControl UnityEngine::InputSystem::InputControlPath::MatchChildrenRecursive(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath,
                                                                                    ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> matches, bool matchMultiple) {
   static auto* ___internal_method_base =

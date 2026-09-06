@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeLightBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeLightBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   // @brief default ctor
   constexpr TubeLightBehaviour_ParameterType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TubeLightBehaviour_ParameterType(int32_t value__) noexcept;
 
   /// @brief Field References value: I32(1)
@@ -210,13 +210,13 @@ protected:
   constexpr TubeLightBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TubeLightBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeLightBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeLightBehaviour(TubeLightBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TubeLightBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeLightBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeLightBehaviour(TubeLightBehaviour const&) = delete;
+  TubeLightBehaviour(TubeLightBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6708 };
@@ -224,6 +224,7 @@ public:
   /// @brief Field _noPredefinedStartValue, offset: 0x10, size: 0x1, def value: None
   bool ____noPredefinedStartValue;
 
+  /// [DrawIf("_noPredefinedStartValue", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field startColor, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ___startColor;
 

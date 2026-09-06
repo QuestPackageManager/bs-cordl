@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HDRRangeReduction.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HDRRangeReduction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct HDRRangeReduction;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::HDRRangeReduction);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::HDRRangeReduction, "UnityEngine.Rendering", "HDRRangeReduction");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\PostProcessing\\HDROutputDefines.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.HDRRangeReduction
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr HDRRangeReduction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HDRRangeReduction(int32_t value__) noexcept;
 
   /// @brief Field ACES1000Nits value: I32(3)

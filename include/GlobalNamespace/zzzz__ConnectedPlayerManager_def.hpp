@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConnectedPlayerManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConnectedPlayerManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   // @brief default ctor
   constexpr ConnectedPlayerManager_InternalMessageType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ConnectedPlayerManager_InternalMessageType(uint8_t value__) noexcept;
 
   /// @brief Field GameSpecificMessageType value: U8(12)
@@ -160,7 +160,7 @@ public:
   // @brief default ctor
   constexpr ConnectedPlayerManager_MessageType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ConnectedPlayerManager_MessageType(uint8_t value__) noexcept;
 
   /// @brief Field GameSpecificMessageType value: U8(12)
@@ -214,13 +214,13 @@ protected:
   constexpr ConnectedPlayerManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectedPlayerManager(ConnectedPlayerManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectedPlayerManager(ConnectedPlayerManager const&) = delete;
+  ConnectedPlayerManager(ConnectedPlayerManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18122 };

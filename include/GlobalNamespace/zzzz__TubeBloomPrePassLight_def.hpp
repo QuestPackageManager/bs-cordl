@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLight.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLight.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ class TubeBloomPrePassLight;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TubeBloomPrePassLight*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TubeBloomPrePassLight*, "", "TubeBloomPrePassLight");
+// [SelectionBase]
 // Dependencies BloomPrePassLight, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
@@ -551,6 +552,7 @@ public:
   /// @brief Method .ctor, addr 0x58680d8, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didRefreshEvent, addr 0x58674d4, size 0xac, virtual false, abstract: false, final false
   inline void add_didRefreshEvent(::System::Action* value);
 
@@ -593,6 +595,7 @@ public:
   /// @brief Method get_width, addr 0x58678a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didRefreshEvent, addr 0x5867580, size 0xac, virtual false, abstract: false, final false
   inline void remove_didRefreshEvent(::System::Action* value);
 
@@ -626,122 +629,183 @@ protected:
   constexpr TubeBloomPrePassLight();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLight", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLight", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeBloomPrePassLight(TubeBloomPrePassLight&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLight", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLight", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeBloomPrePassLight(TubeBloomPrePassLight const&) = delete;
+  TubeBloomPrePassLight(TubeBloomPrePassLightconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19489 };
 
+  /// [SerializeField]
   /// @brief Field _mainEffectPostProcessEnabled, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____mainEffectPostProcessEnabled;
 
+  /// [SerializeField]
   /// @brief Field _width, offset: 0x40, size: 0x4, def value: None
   float_t ____width;
 
+  /// [SerializeField]
   /// @brief Field _overrideChildrenLength, offset: 0x44, size: 0x1, def value: None
   bool ____overrideChildrenLength;
 
+  /// [SerializeField]
   /// @brief Field _length, offset: 0x48, size: 0x4, def value: None
   float_t ____length;
 
+  /// [SerializeField]
+  /// [Range(0, 1)]
   /// @brief Field _center, offset: 0x4c, size: 0x4, def value: None
   float_t ____center;
 
+  /// [SerializeField]
   /// @brief Field _color, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
+  /// [SerializeField]
   /// @brief Field _colorAlphaMultiplier, offset: 0x60, size: 0x4, def value: None
   float_t ____colorAlphaMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _bloomFogIntensityMultiplier, offset: 0x64, size: 0x4, def value: None
   float_t ____bloomFogIntensityMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _fakeBloomIntensityMultiplier, offset: 0x68, size: 0x4, def value: None
   float_t ____fakeBloomIntensityMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _boostToWhite, offset: 0x6c, size: 0x4, def value: None
   float_t ____boostToWhite;
 
+  /// [SerializeField]
+  /// [Min(1)]
   /// @brief Field _lightWidthMultiplier, offset: 0x70, size: 0x4, def value: None
   float_t ____lightWidthMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _addWidthToLength, offset: 0x74, size: 0x1, def value: None
   bool ____addWidthToLength;
 
+  /// [SerializeField]
   /// @brief Field _thickenWithDistance, offset: 0x75, size: 0x1, def value: None
   bool ____thickenWithDistance;
 
+  /// [SerializeField]
+  /// [DrawIf("_thickenWithDistance", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _thickenCurve, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____thickenCurve;
 
+  /// [SerializeField]
+  /// [DrawIf("_thickenWithDistance", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _minDistance, offset: 0x80, size: 0x4, def value: None
   float_t ____minDistance;
 
+  /// [SerializeField]
+  /// [DrawIf("_thickenWithDistance", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _maxDistance, offset: 0x84, size: 0x4, def value: None
   float_t ____maxDistance;
 
+  /// [SerializeField]
+  /// [DrawIf("_thickenWithDistance", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _minWidthMultiplier, offset: 0x88, size: 0x4, def value: None
   float_t ____minWidthMultiplier;
 
+  /// [SerializeField]
+  /// [DrawIf("_thickenWithDistance", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _maxWidthMultiplier, offset: 0x8c, size: 0x4, def value: None
   float_t ____maxWidthMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _disableRenderersOnZeroAlpha, offset: 0x90, size: 0x1, def value: None
   bool ____disableRenderersOnZeroAlpha;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _bakedGlowWidthScale, offset: 0x94, size: 0x4, def value: None
   float_t ____bakedGlowWidthScale;
 
+  /// [SerializeField]
   /// @brief Field _forceUseBakedGlow, offset: 0x98, size: 0x1, def value: None
   bool ____forceUseBakedGlow;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _multiplyLengthByAlpha, offset: 0x99, size: 0x1, def value: None
   bool ____multiplyLengthByAlpha;
 
+  /// [SerializeField]
+  /// [DrawIf("_multiplyLengthByAlpha", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _alphaToLengthCurve, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____alphaToLengthCurve;
 
+  /// [SerializeField]
+  /// [DrawIf("_multiplyLengthByAlpha", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _alphaToLengthBloomFogCurve, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____alphaToLengthBloomFogCurve;
 
+  /// [Space]
+  /// [Tooltip("Use when this light is updated with animations")]
+  /// [SerializeField]
   /// @brief Field _updateAlways, offset: 0xb0, size: 0x1, def value: None
   bool ____updateAlways;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _limitAlpha, offset: 0xb1, size: 0x1, def value: None
   bool ____limitAlpha;
 
+  /// [SerializeField]
+  /// [DrawIf("_limitAlpha", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _minAlpha, offset: 0xb4, size: 0x4, def value: None
   float_t ____minAlpha;
 
+  /// [SerializeField]
+  /// [DrawIf("_limitAlpha", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _maxAlpha, offset: 0xb8, size: 0x4, def value: None
   float_t ____maxAlpha;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _overrideChildrenAlpha, offset: 0xbc, size: 0x1, def value: None
   bool ____overrideChildrenAlpha;
 
+  /// [SerializeField]
+  /// [Min(0)]
   /// @brief Field _startAlpha, offset: 0xc0, size: 0x4, def value: None
   float_t ____startAlpha;
 
+  /// [SerializeField]
+  /// [Min(0)]
   /// @brief Field _endAlpha, offset: 0xc4, size: 0x4, def value: None
   float_t ____endAlpha;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _overrideChildrenWidth, offset: 0xc8, size: 0x1, def value: None
   bool ____overrideChildrenWidth;
 
+  /// [SerializeField]
+  /// [Min(1)]
   /// @brief Field _startWidth, offset: 0xcc, size: 0x4, def value: None
   float_t ____startWidth;
 
+  /// [SerializeField]
+  /// [Min(1)]
   /// @brief Field _endWidth, offset: 0xd0, size: 0x4, def value: None
   float_t ____endWidth;
 
+  /// [Space]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _parametricBoxController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ParametricBoxController> ____parametricBoxController;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _dynamic3SliceSprite, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____dynamic3SliceSprite;
 
@@ -763,6 +827,7 @@ public:
   /// @brief Field _isDynamic3SliceSpriteValid, offset: 0xed, size: 0x1, def value: None
   bool ____isDynamic3SliceSpriteValid;
 
+  /// [CompilerGenerated]
   /// @brief Field didRefreshEvent, offset: 0xf0, size: 0x8, def value: None
   ::System::Action* ___didRefreshEvent;
 

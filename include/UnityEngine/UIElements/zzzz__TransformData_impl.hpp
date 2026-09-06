@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TransformData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TransformData.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformOrigin_impl.hpp"
@@ -136,9 +136,9 @@ constexpr UnityEngine::UIElements::TransformData::operator ::System::IEquatable_
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>* UnityEngine::UIElements::TransformData::i___System__IEquatable_1___UnityEngine__UIElements__TransformData_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransformData>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "rotate", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "::UnityEngine::UIElements::Scale",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "transformOrigin", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: Some("{}") }, CppParam { name: "translate",
-// ty: "::UnityEngine::UIElements::Translate", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rotate", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty:
+// "::UnityEngine::UIElements::Scale", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "transformOrigin", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "translate", ty: "::UnityEngine::UIElements::Translate", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::TransformData::TransformData(::UnityEngine::UIElements::Rotate rotate, ::UnityEngine::UIElements::Scale scale,
                                                                   ::UnityEngine::UIElements::TransformOrigin transformOrigin, ::UnityEngine::UIElements::Translate translate) noexcept {
   this->rotate = rotate;

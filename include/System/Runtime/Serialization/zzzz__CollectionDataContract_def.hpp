@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\CollectionDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/CollectionDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -532,13 +532,13 @@ protected:
   constexpr CollectionDataContract_CollectionDataContractCriticalHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_CollectionDataContractCriticalHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_CollectionDataContractCriticalHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionDataContract_CollectionDataContractCriticalHelper(CollectionDataContract_CollectionDataContractCriticalHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_CollectionDataContractCriticalHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_CollectionDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionDataContract_CollectionDataContractCriticalHelper(CollectionDataContract_CollectionDataContractCriticalHelper const&) = delete;
+  CollectionDataContract_CollectionDataContractCriticalHelper(CollectionDataContract_CollectionDataContractCriticalHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17008 };
@@ -729,13 +729,13 @@ protected:
   constexpr CollectionDataContract_DictionaryEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_DictionaryEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_DictionaryEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionDataContract_DictionaryEnumerator(CollectionDataContract_DictionaryEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_DictionaryEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_DictionaryEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionDataContract_DictionaryEnumerator(CollectionDataContract_DictionaryEnumerator const&) = delete;
+  CollectionDataContract_DictionaryEnumerator(CollectionDataContract_DictionaryEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17009 };
@@ -814,13 +814,13 @@ protected:
   constexpr CollectionDataContract_GenericDictionaryEnumerator_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_GenericDictionaryEnumerator_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_GenericDictionaryEnumerator_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionDataContract_GenericDictionaryEnumerator_2(CollectionDataContract_GenericDictionaryEnumerator_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_GenericDictionaryEnumerator_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract_GenericDictionaryEnumerator_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionDataContract_GenericDictionaryEnumerator_2(CollectionDataContract_GenericDictionaryEnumerator_2 const&) = delete;
+  CollectionDataContract_GenericDictionaryEnumerator_2(CollectionDataContract_GenericDictionaryEnumerator_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17010 };
@@ -1132,13 +1132,13 @@ protected:
   constexpr CollectionDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionDataContract(CollectionDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionDataContract(CollectionDataContract const&) = delete;
+  CollectionDataContract(CollectionDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17011 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Type.hpp"
+// IWYU pragma private; include "System/Type.hpp"
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/zzzz__RuntimeTypeHandle_impl.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -2645,7 +2645,7 @@ inline ::System::Type* System::Type::MakeByRefType() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Type*>(), 128 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
-inline ::System::Type* System::Type::MakeGenericType(::ArrayW<::System::Type*> typeArguments) {
+inline ::System::Type* System::Type::MakeGenericType(/* [ParamArray] */ ::ArrayW<::System::Type*> typeArguments) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Type*>(), 129 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, typeArguments);
 }
@@ -2653,7 +2653,7 @@ inline ::System::Type* System::Type::MakePointerType() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Type*>(), 130 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method);
 }
-inline ::System::Type* System::Type::MakeGenericSignatureType(::System::Type* genericTypeDefinition, ::ArrayW<::System::Type*> typeArguments) {
+inline ::System::Type* System::Type::MakeGenericSignatureType(::System::Type* genericTypeDefinition, /* [ParamArray] */ ::ArrayW<::System::Type*> typeArguments) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Type*>(), { "MakeGenericSignatureType", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));

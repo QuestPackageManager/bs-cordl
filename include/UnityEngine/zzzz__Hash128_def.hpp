@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Hash128.hpp"
+// IWYU pragma private; include "UnityEngine/Hash128.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,9 @@ struct Hash128;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Hash128);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Hash128, "UnityEngine", "Hash128");
+// [NativeHeader("Runtime/Utilities/Hash128.h")]
+// [NativeHeader("Runtime/Export/Hashing/Hash128.bindings.h")]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -51,7 +54,9 @@ public:
   constexpr operator ::System::IEquatable_1<::UnityEngine::Hash128>*();
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Append(::by_ref<T> val);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Append(::by_ref<T> val);
 
   /// @brief Method Append, addr 0x6ac7d2c, size 0x4, virtual false, abstract: false, final false
   inline void Append(int32_t val);
@@ -63,11 +68,14 @@ public:
   inline int32_t CompareTo(::UnityEngine::Hash128 rhs);
 
   /// @brief Method Compute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityEngine::Hash128 Compute(::by_ref<T> val);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::UnityEngine::Hash128 Compute(::by_ref<T> val);
 
   /// @brief Method Compute, addr 0x6ac7cd4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 Compute(int32_t val);
 
+  /// [FreeFunction("ComputeHash128FromScriptPointer", IsThreadSafe = true)]
   /// @brief Method ComputeFromPtr, addr 0x6ac7c68, size 0x6c, virtual false, abstract: false, final false
   static inline void ComputeFromPtr(::System::IntPtr data, int32_t start, int32_t count, int32_t elemSize, ::by_ref<::UnityEngine::Hash128> hash);
 
@@ -80,12 +88,14 @@ public:
   /// @brief Method GetHashCode, addr 0x6ac7e3c, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [FreeFunction("Hash128ToString", IsThreadSafe = true)]
   /// @brief Method Hash128ToStringImpl, addr 0x6ac79dc, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW Hash128ToStringImpl(::UnityEngine::Hash128 hash);
 
   /// @brief Method Hash128ToStringImpl_Injected, addr 0x6ac7c24, size 0x44, virtual false, abstract: false, final false
   static inline void Hash128ToStringImpl_Injected(::by_ref<::UnityEngine::Hash128> hash, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [FreeFunction("StringToHash128", IsThreadSafe = true)]
   /// @brief Method Parse, addr 0x6ac7aac, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 Parse(::StringW hashString);
 
@@ -138,7 +148,8 @@ public:
   // @brief default ctor
   constexpr Hash128();
 
-  // Ctor Parameters [CppParam { name: "u64_0", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "u64_1", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "u64_0", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "u64_1", ty: "uint64_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr Hash128(uint64_t u64_0, uint64_t u64_1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

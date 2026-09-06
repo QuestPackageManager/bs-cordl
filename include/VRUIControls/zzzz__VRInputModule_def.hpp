@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls\VRInputModule.hpp"
+// IWYU pragma private; include "VRUIControls/VRInputModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -217,28 +217,34 @@ public:
   /// @brief Method .ctor, addr 0x59758c8, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onProcessMousePressEvent, addr 0x5972dc4, size 0xc0, virtual true, abstract: false, final true
   inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_pointerDidClickEvent, addr 0x5972f44, size 0xc0, virtual true, abstract: false, final true
   inline void add_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   static inline ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* getStaticF__raycastComparer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_useMouseForPressInput, addr 0x5972db4, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMouseForPressInput();
 
   /// @brief Convert to "::GlobalNamespace::IVRInputModule"
   constexpr ::GlobalNamespace::IVRInputModule* i___GlobalNamespace__IVRInputModule() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onProcessMousePressEvent, addr 0x5972e84, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_pointerDidClickEvent, addr 0x5973004, size 0xc0, virtual true, abstract: false, final true
   inline void remove_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   static inline void setStaticF__raycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_useMouseForPressInput, addr 0x5972dbc, size 0x8, virtual false, abstract: false, final false
   inline void set_useMouseForPressInput(bool value);
 
@@ -248,13 +254,13 @@ protected:
   constexpr VRInputModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRInputModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRInputModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRInputModule(VRInputModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRInputModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRInputModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRInputModule(VRInputModule const&) = delete;
+  VRInputModule(VRInputModuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7031 };
@@ -265,21 +271,27 @@ public:
   /// @brief Field kMouseLeftId offset 0xffffffff size 0x4
   static constexpr int32_t kMouseLeftId{ static_cast<int32_t>(0xffffffff) };
 
+  /// [SerializeField]
   /// @brief Field _vrPointer, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::VRUIControls::VRPointer> ____vrPointer;
 
+  /// [SerializeField]
   /// @brief Field _rumblePreset, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____rumblePreset;
 
+  /// [Inject]
   /// @brief Field _hapticFeedbackManager, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
+  /// [CompilerGenerated]
   /// @brief Field <useMouseForPressInput>k__BackingField, offset: 0x70, size: 0x1, def value: None
   bool ____useMouseForPressInput_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field onProcessMousePressEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___onProcessMousePressEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field pointerDidClickEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* ___pointerDidClickEvent;
 

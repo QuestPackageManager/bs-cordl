@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\AbstractTlsPeer.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsPeer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +45,10 @@ public:
   /// @brief Method Cancel, addr 0x3435244, size 0xb0, virtual true, abstract: false, final false
   inline void Cancel();
 
-  /// @brief Method GetCipher, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* GetCipher();
 
-  /// @brief Method GetCompression, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCompression, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCompression* GetCompression();
 
   /// @brief Method GetHandshakeTimeoutMillis, addr 0x3435300, size 0x8, virtual true, abstract: false, final false
@@ -95,13 +95,13 @@ protected:
   constexpr AbstractTlsPeer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsPeer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsPeer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractTlsPeer(AbstractTlsPeer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsPeer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsPeer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractTlsPeer(AbstractTlsPeer const&) = delete;
+  AbstractTlsPeer(AbstractTlsPeerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1163 };

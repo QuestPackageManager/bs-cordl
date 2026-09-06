@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\FontAssetCreationEditorSettings.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontAssetCreationEditorSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ struct FontAssetCreationEditorSettings;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, "UnityEngine.TextCore.Text", "FontAssetCreationEditorSettings");
+// [ExcludeFromDocs]
 // Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -26,14 +27,16 @@ public:
   // @brief default ctor
   constexpr FontAssetCreationEditorSettings();
 
-  // Ctor Parameters [CppParam { name: "sourceFontFileGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "padding", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "paddingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "packingMode", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "atlasWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "atlasHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "characterSetSelectionMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterSequence", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "referencedFontAssetGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "referencedTextAssetGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "fontStyle", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontStyleModifier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderMode", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "includeFontFeatures", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sourceFontFileGUID", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "padding", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "paddingMode", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "packingMode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "atlasWidth", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "atlasHeight", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "characterSetSelectionMode", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "characterSequence", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "referencedFontAssetGUID", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "referencedTextAssetGUID", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "fontStyle", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontStyleModifier", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "renderMode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "includeFontFeatures", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr FontAssetCreationEditorSettings(::StringW sourceFontFileGUID, int32_t faceIndex, int32_t pointSizeSamplingMode, float_t pointSize, int32_t padding, int32_t paddingMode,
                                             int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight, int32_t characterSetSelectionMode, ::StringW characterSequence,
                                             ::StringW referencedFontAssetGUID, ::StringW referencedTextAssetGUID, int32_t fontStyle, float_t fontStyleModifier, int32_t renderMode,

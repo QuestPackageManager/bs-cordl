@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Notepad\NotepadComponent.hpp"
+// IWYU pragma private; include "Notepad/NotepadComponent.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Notepad/zzzz__NotepadComponent_def.hpp"
 #include "Notepad/zzzz__NoteSO_def.hpp"

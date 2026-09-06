@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\InsertionBehavior.hpp"
+// IWYU pragma private; include "System/Collections/Generic/InsertionBehavior.hpp"
 #include "System/Collections/Generic/zzzz__InsertionBehavior_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Collections::Generic::InsertionBehavior::InsertionBehavior(uint8_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixNameConstraintValidator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixNameConstraintValidator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -153,6 +153,7 @@ public:
   /// @brief Method GetHashCode, addr 0x35e35dc, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [Obsolete("Use GetHashCode instead")]
   /// @brief Method HashCode, addr 0x35e35d0, size 0xc, virtual false, abstract: false, final false
   inline int32_t HashCode();
 
@@ -386,13 +387,13 @@ protected:
   constexpr PkixNameConstraintValidator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkixNameConstraintValidator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkixNameConstraintValidator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkixNameConstraintValidator(PkixNameConstraintValidator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkixNameConstraintValidator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkixNameConstraintValidator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PkixNameConstraintValidator(PkixNameConstraintValidator const&) = delete;
+  PkixNameConstraintValidator(PkixNameConstraintValidatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1726 };

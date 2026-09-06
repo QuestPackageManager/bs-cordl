@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllersTransformSettings.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllersTransformSettings.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllersTransformSettings_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfile_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetApplicationVersionText.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetApplicationVersionText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class SetApplicationVersionText;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SetApplicationVersionText*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SetApplicationVersionText*, "", "SetApplicationVersionText");
+// [AddComponentMenu("Beat Saber/Gameplay/SetApplicationVersionText")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -64,6 +65,7 @@ public:
   /// @brief Method Start, addr 0x59ae000, size 0x114, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1)]
   /// @brief Method ToggleVersionColor, addr 0x59ae414, size 0x94, virtual false, abstract: false, final false
   inline void ToggleVersionColor();
 
@@ -124,38 +126,46 @@ protected:
   constexpr SetApplicationVersionText();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetApplicationVersionText", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetApplicationVersionText", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetApplicationVersionText(SetApplicationVersionText&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetApplicationVersionText", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetApplicationVersionText", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetApplicationVersionText(SetApplicationVersionText const&) = delete;
+  SetApplicationVersionText(SetApplicationVersionTextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6020 };
 
+  /// [SerializeField]
   /// @brief Field _versionText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____versionText;
 
+  /// [SerializeField]
   /// @brief Field _labelText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____labelText;
 
+  /// [SerializeField]
   /// @brief Field _buildIdText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____buildIdText;
 
+  /// [SerializeField]
   /// @brief Field _platformIdText, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____platformIdText;
 
+  /// [SerializeField]
   /// @brief Field _footSprite, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____footSprite;
 
+  /// [SerializeField]
   /// @brief Field _rcBuildColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____rcBuildColor;
 
+  /// [SerializeField]
   /// @brief Field _nonRCBuildColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____nonRCBuildColor;
 
+  /// [Inject]
   /// @brief Field _gameVersionProvider, offset: 0x68, size: 0x8, def value: None
   ::BeatSaber::Init::GameVersionProvider* ____gameVersionProvider;
 

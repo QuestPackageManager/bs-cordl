@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineDebugDisplayStats.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineDebugDisplayStats.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPProfileId_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugDisplayStats_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalRenderPipelineDebugDisplayStats_def.hpp"

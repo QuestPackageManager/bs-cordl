@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaNodeCollection.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaNodeCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class JsonSchemaNodeCollection;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Schema::JsonSchemaNodeCollection*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaNodeCollection*, "Newtonsoft.Json.Schema", "JsonSchemaNodeCollection");
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies System.Collections.ObjectModel.KeyedCollection`2<TKey, TItem>
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
@@ -37,13 +38,13 @@ protected:
   constexpr JsonSchemaNodeCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNodeCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNodeCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSchemaNodeCollection(JsonSchemaNodeCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNodeCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaNodeCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaNodeCollection(JsonSchemaNodeCollection const&) = delete;
+  JsonSchemaNodeCollection(JsonSchemaNodeCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13554 };

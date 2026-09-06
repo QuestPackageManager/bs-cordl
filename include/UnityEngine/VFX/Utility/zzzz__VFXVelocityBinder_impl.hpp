@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXVelocityBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXVelocityBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXSpaceableBinder_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXVelocityBinder_def.hpp"

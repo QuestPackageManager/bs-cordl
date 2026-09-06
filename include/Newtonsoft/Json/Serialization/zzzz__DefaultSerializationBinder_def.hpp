@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\DefaultSerializationBinder.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultSerializationBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ class DefaultSerializationBinder;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::DefaultSerializationBinder*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::DefaultSerializationBinder*, "Newtonsoft.Json.Serialization", "DefaultSerializationBinder");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Runtime.Serialization.SerializationBinder
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -46,20 +48,21 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ISerializationBinder"
   constexpr operator ::Newtonsoft::Json::Serialization::ISerializationBinder*() noexcept;
 
+  /// [NullableContext(2)]
   /// @brief Method BindToName, addr 0x5d40898, size 0x68, virtual true, abstract: false, final false
-  inline void BindToName(::System::Type* serializedType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> typeName);
+  inline void BindToName(/* [Nullable(1)] */ ::System::Type* serializedType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> typeName);
 
   /// @brief Method BindToType, addr 0x5d4083c, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
+  inline ::System::Type* BindToType(/* [Nullable(2)] */ ::StringW assemblyName, ::StringW typeName);
 
   /// @brief Method GetGenericTypeFromTypeName, addr 0x5d404e8, size 0x2e8, virtual false, abstract: false, final false
   inline ::System::Type* GetGenericTypeFromTypeName(::StringW typeName, ::System::Reflection::Assembly* assembly);
 
   /// @brief Method GetTypeByName, addr 0x5d407d0, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Type* GetTypeByName(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey);
+  inline ::System::Type* GetTypeByName(/* [Nullable(new[] { 0, 2, 1 })] */ ::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey);
 
   /// @brief Method GetTypeFromTypeNameKey, addr 0x5d40128, size 0x3c0, virtual false, abstract: false, final false
-  inline ::System::Type* GetTypeFromTypeNameKey(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey);
+  inline ::System::Type* GetTypeFromTypeNameKey(/* [Nullable(new[] { 0, 2, 1 })] */ ::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey);
 
   static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* New_ctor();
 
@@ -85,17 +88,18 @@ protected:
   constexpr DefaultSerializationBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultSerializationBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultSerializationBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultSerializationBinder(DefaultSerializationBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultSerializationBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultSerializationBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultSerializationBinder(DefaultSerializationBinder const&) = delete;
+  DefaultSerializationBinder(DefaultSerializationBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13486 };
 
+  /// [Nullable(new[] { 1, 0, 2, 1, 1 })]
   /// @brief Field _typeCache, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>, ::System::Type*>* ____typeCache;
 

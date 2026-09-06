@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\String.hpp"
+// IWYU pragma private; include "System/String.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,7 +138,7 @@ public:
   // @brief default ctor
   constexpr String_TrimType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr String_TrimType(int32_t value__) noexcept;
 
   /// @brief Field Both value: I32(2)
@@ -195,6 +195,7 @@ public:
 static_assert(sizeof(::System::String_ProbabilisticMap) == 0x20, "Size mismatch!");
 
 } // namespace System
+// [DefaultMember("Chars")]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -298,7 +299,7 @@ public:
   static inline ::StringW Concat(::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
   /// @brief Method Concat, addr 0x5acb2ac, size 0x1fc, virtual false, abstract: false, final false
-  static inline ::StringW Concat(::ArrayW<::System::Object*> args);
+  static inline ::StringW Concat(/* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Concat, addr 0x5ac0a54, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW Concat(::StringW str0, ::StringW str1);
@@ -310,7 +311,7 @@ public:
   static inline ::StringW Concat(::StringW str0, ::StringW str1, ::StringW str2, ::StringW str3);
 
   /// @brief Method Concat, addr 0x5acba6c, size 0x200, virtual false, abstract: false, final false
-  static inline ::StringW Concat(::ArrayW<::StringW> values);
+  static inline ::StringW Concat(/* [ParamArray] */ ::ArrayW<::StringW> values);
 
   /// @brief Method Concat, addr 0x5acb4a8, size 0x4bc, virtual false, abstract: false, final false
   static inline ::StringW Concat(::System::Collections::Generic::IEnumerable_1<::StringW>* values);
@@ -433,7 +434,7 @@ public:
   static inline ::StringW Format(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
   /// @brief Method Format, addr 0x5acbde4, size 0xcc, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW format, ::ArrayW<::System::Object*> args);
+  static inline ::StringW Format(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Format, addr 0x5acbeb0, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::System::Object* arg0);
@@ -445,7 +446,7 @@ public:
   static inline ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
   /// @brief Method Format, addr 0x5acbfa0, size 0xc0, virtual false, abstract: false, final false
-  static inline ::StringW Format(::System::IFormatProvider* provider, ::StringW format, ::ArrayW<::System::Object*> args);
+  static inline ::StringW Format(::System::IFormatProvider* provider, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method FormatHelper, addr 0x5acbc6c, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW FormatHelper(::System::IFormatProvider* provider, ::StringW format, ::System::ParamsArray args);
@@ -537,20 +538,21 @@ public:
   /// @brief Method IsInterned, addr 0x5ad1950, size 0x208, virtual false, abstract: false, final false
   static inline ::StringW IsInterned(::StringW str);
 
+  /// [NonVersionable]
   /// @brief Method IsNullOrEmpty, addr 0x5aca518, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty(::StringW value);
 
   /// @brief Method IsNullOrWhiteSpace, addr 0x5aca534, size 0x84, virtual false, abstract: false, final false
   static inline bool IsNullOrWhiteSpace(::StringW value);
 
-  /// @brief Method Join, addr 0x5acc674, size 0x5c, virtual false, abstract: false, final false
-  static inline ::StringW Join(::StringW separator, ::ArrayW<::StringW> value);
-
   /// @brief Method Join, addr 0x5acc6d0, size 0x38, virtual false, abstract: false, final false
   static inline ::StringW Join(::StringW separator, ::ArrayW<::StringW> value, int32_t startIndex, int32_t count);
 
+  /// @brief Method Join, addr 0x5acc674, size 0x5c, virtual false, abstract: false, final false
+  static inline ::StringW Join(::StringW separator, /* [ParamArray] */ ::ArrayW<::StringW> value);
+
   /// @brief Method Join, addr 0x5acc708, size 0x30, virtual false, abstract: false, final false
-  static inline ::StringW Join(::StringW separator, ::ArrayW<::System::Object*> values);
+  static inline ::StringW Join(::StringW separator, /* [ParamArray] */ ::ArrayW<::System::Object*> values);
 
   /// @brief Method Join, addr 0x5acc8c8, size 0x4d4, virtual false, abstract: false, final false
   static inline ::StringW Join(::StringW separator, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
@@ -558,11 +560,11 @@ public:
   /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW Join(::StringW separator, ::System::Collections::Generic::IEnumerable_1<T>* values);
 
-  /// @brief Method Join, addr 0x5acc20c, size 0x7c, virtual false, abstract: false, final false
-  static inline ::StringW Join(char16_t separator, ::ArrayW<::StringW> value);
-
   /// @brief Method Join, addr 0x5acc288, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW Join(char16_t separator, ::ArrayW<::StringW> value, int32_t startIndex, int32_t count);
+
+  /// @brief Method Join, addr 0x5acc20c, size 0x7c, virtual false, abstract: false, final false
+  static inline ::StringW Join(char16_t separator, /* [ParamArray] */ ::ArrayW<::StringW> value);
 
   /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW Join(char16_t separator, ::System::Collections::Generic::IEnumerable_1<T>* values);
@@ -630,10 +632,13 @@ public:
 
   static inline ::System::String* New_ctor(::System::ReadOnlySpan_1<char16_t> value);
 
+  /// @brief [CLSCompliant(false)]
   static inline ::System::String* New_ctor(char16_t* value, int32_t startIndex, int32_t length);
 
+  /// @brief [CLSCompliant(false)]
   static inline ::System::String* New_ctor(int8_t* value, int32_t startIndex, int32_t length);
 
+  /// @brief [CLSCompliant(false)]
   static inline ::System::String* New_ctor(int8_t* value, int32_t startIndex, int32_t length, ::System::Text::Encoding* enc);
 
   /// @brief Method Normalize, addr 0x5acafb8, size 0x6c, virtual false, abstract: false, final false
@@ -669,14 +674,14 @@ public:
   /// @brief Method Split, addr 0x5acefac, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> Split(::ArrayW<::StringW> separator, ::System::StringSplitOptions options);
 
-  /// @brief Method Split, addr 0x5ace0e0, size 0x78, virtual false, abstract: false, final false
-  inline ::ArrayW<::StringW> Split(::ArrayW<char16_t> separator);
-
   /// @brief Method Split, addr 0x5ace158, size 0x7c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> Split(::ArrayW<char16_t> separator, int32_t count);
 
   /// @brief Method Split, addr 0x5ace1d4, size 0x7c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> Split(::ArrayW<char16_t> separator, ::System::StringSplitOptions options);
+
+  /// @brief Method Split, addr 0x5ace0e0, size 0x78, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW> Split(/* [ParamArray] */ ::ArrayW<char16_t> separator);
 
   /// @brief Method Split, addr 0x5aceb04, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> Split(::StringW separator, ::System::StringSplitOptions options);
@@ -805,7 +810,7 @@ public:
   inline ::StringW Trim(char16_t trimChar);
 
   /// @brief Method Trim, addr 0x5acfe2c, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW Trim(::ArrayW<char16_t> trimChars);
+  inline ::StringW Trim(/* [ParamArray] */ ::ArrayW<char16_t> trimChars);
 
   /// @brief Method TrimEnd, addr 0x5acfeac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW TrimEnd();
@@ -814,7 +819,7 @@ public:
   inline ::StringW TrimEnd(char16_t trimChar);
 
   /// @brief Method TrimEnd, addr 0x5acfed4, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW TrimEnd(::ArrayW<char16_t> trimChars);
+  inline ::StringW TrimEnd(/* [ParamArray] */ ::ArrayW<char16_t> trimChars);
 
   /// @brief Method TrimHelper, addr 0x5acfd18, size 0x114, virtual false, abstract: false, final false
   inline ::StringW TrimHelper(char16_t* trimChars, int32_t trimCharsLength, ::System::String_TrimType trimType);
@@ -826,7 +831,7 @@ public:
   inline ::StringW TrimStart(char16_t trimChar);
 
   /// @brief Method TrimStart, addr 0x5acfe80, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW TrimStart(::ArrayW<char16_t> trimChars);
+  inline ::StringW TrimStart(/* [ParamArray] */ ::ArrayW<char16_t> trimChars);
 
   /// @brief Method TrimWhiteSpaceHelper, addr 0x5acfbec, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW TrimWhiteSpaceHelper(::System::String_TrimType trimType);
@@ -858,12 +863,15 @@ public:
   /// @brief Method .ctor, addr 0x5aca080, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<char16_t> value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5ac9aa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(char16_t* value, int32_t startIndex, int32_t length);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5ac9c1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int8_t* value, int32_t startIndex, int32_t length);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5ac9db8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int8_t* value, int32_t startIndex, int32_t length, ::System::Text::Encoding* enc);
 
@@ -881,6 +889,7 @@ public:
 
   static inline ::StringW getStaticF_Empty();
 
+  /// [Intrinsic]
   /// @brief Method get_Chars, addr 0x5ac505c, size 0x28, virtual false, abstract: false, final false
   inline char16_t get_Chars(int32_t index);
 
@@ -949,13 +958,13 @@ protected:
   constexpr String();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "String", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "String", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   String(String&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "String", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "String", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  String(String const&) = delete;
+  String(Stringconst&) = delete;
 
   /// @brief Field PROBABILISTICMAP_BLOCK_INDEX_MASK offset 0xffffffff size 0x4
   static constexpr int32_t PROBABILISTICMAP_BLOCK_INDEX_MASK{ static_cast<int32_t>(0x7) };

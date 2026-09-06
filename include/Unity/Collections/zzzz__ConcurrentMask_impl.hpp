@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\ConcurrentMask.hpp"
+// IWYU pragma private; include "Unity/Collections/ConcurrentMask.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Collections/zzzz__IIndexable_1_impl.hpp"
 #include "Unity/Collections/zzzz__ConcurrentMask_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::ConcurrentMask.AtomicOr
 template <>
@@ -215,21 +216,27 @@ inline int32_t Unity::Collections::ConcurrentMask::TryAllocate(::by_ref<int64_t>
                                                            { "TryAllocate", {}, { ::i2c::type_of<::by_ref<int64_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, l, offset, bits);
 }
-template <typename T> inline int32_t Unity::Collections::ConcurrentMask::TryAllocate(::by_ref<T> t, int32_t offset, int32_t bits) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+inline int32_t Unity::Collections::ConcurrentMask::TryAllocate(::by_ref<T> t, int32_t offset, int32_t bits) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::ConcurrentMask*>(),
                                                            { "TryAllocate", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, t, offset, bits);
 }
-template <typename T> inline int32_t Unity::Collections::ConcurrentMask::TryFree(::by_ref<T> t, int32_t offset, int32_t bits) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+inline int32_t Unity::Collections::ConcurrentMask::TryFree(::by_ref<T> t, int32_t offset, int32_t bits) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::ConcurrentMask*>(),
                                                            { "TryFree", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, t, offset, bits);
 }
-template <typename T> inline int32_t Unity::Collections::ConcurrentMask::TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t begin, int32_t end, int32_t bits) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+inline int32_t Unity::Collections::ConcurrentMask::TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t begin, int32_t end, int32_t bits) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::ConcurrentMask*>(),
@@ -239,7 +246,9 @@ template <typename T> inline int32_t Unity::Collections::ConcurrentMask::TryAllo
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, t, offset, begin, end, bits);
 }
-template <typename T> inline int32_t Unity::Collections::ConcurrentMask::TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t begin, int32_t bits) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+inline int32_t Unity::Collections::ConcurrentMask::TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t begin, int32_t bits) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::ConcurrentMask*>(),
@@ -247,7 +256,9 @@ template <typename T> inline int32_t Unity::Collections::ConcurrentMask::TryAllo
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, t, offset, begin, bits);
 }
-template <typename T> inline int32_t Unity::Collections::ConcurrentMask::TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t bits) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+inline int32_t Unity::Collections::ConcurrentMask::TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t bits) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::ConcurrentMask*>(),
                                               { "TryAllocate", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<int32_t>() } })));

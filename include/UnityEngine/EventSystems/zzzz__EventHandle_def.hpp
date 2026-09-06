@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\EventHandle.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/EventHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct EventHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::EventSystems::EventHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EventSystems::EventHandle, "UnityEngine.EventSystems", "EventHandle");
+// [Flags]
 // Dependencies
 namespace UnityEngine::EventSystems {
 // Is value type: true
@@ -42,7 +43,7 @@ public:
   // @brief default ctor
   constexpr EventHandle();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EventHandle(int32_t value__) noexcept;
 
   /// @brief Field Unused value: I32(0)

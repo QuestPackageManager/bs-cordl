@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ILightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/ILightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,30 +30,30 @@ public:
 
   __declspec(property(get = get_lightId)) int32_t lightId;
 
-  /// @brief Method ColorWasSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method __SetIsRegistered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method __SetIsRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void __SetIsRegistered();
 
-  /// @brief Method __SetIsUnRegistered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method __SetIsUnRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void __SetIsUnRegistered();
 
-  /// @brief Method get_elementId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_elementId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_elementId();
 
-  /// @brief Method get_groupId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_isRegistered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isRegistered();
 
-  /// @brief Method get_lightId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_lightId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_lightId();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ILightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILightWithId(ILightWithId const&) = delete;
+  ILightWithId(ILightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19528 };

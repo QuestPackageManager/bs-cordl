@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\NumberHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/NumberHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class NumberHelpers;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Utilities::NumberHelpers*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Utilities::NumberHelpers*, "UnityEngine.InputSystem.Utilities", "NumberHelpers");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
@@ -21,12 +22,15 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE NumberHelpers : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AlignToMultipleOf, addr 0x6506b9c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t AlignToMultipleOf(int32_t number, int32_t alignment);
 
+  /// [Extension]
   /// @brief Method AlignToMultipleOf, addr 0x6506bb8, size 0x1c, virtual false, abstract: false, final false
   static inline int64_t AlignToMultipleOf(int64_t number, int64_t alignment);
 
+  /// [Extension]
   /// @brief Method AlignToMultipleOf, addr 0x6506bd4, size 0x1c, virtual false, abstract: false, final false
   static inline uint32_t AlignToMultipleOf(uint32_t number, uint32_t alignment);
 
@@ -54,13 +58,13 @@ protected:
   constexpr NumberHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NumberHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumberHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NumberHelpers(NumberHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NumberHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NumberHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NumberHelpers(NumberHelpers const&) = delete;
+  NumberHelpers(NumberHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9178 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\ISerializationSurrogate.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/ISerializationSurrogate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,16 +30,16 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE ISerializationSurrogate {
 public:
   // Declarations
-  /// @brief Method GetObjectData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetObjectData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISerializationSurrogate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISerializationSurrogate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISerializationSurrogate(ISerializationSurrogate const&) = delete;
+  ISerializationSurrogate(ISerializationSurrogateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3220 };

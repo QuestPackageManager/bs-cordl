@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\IUTF8Bytes.hpp"
+// IWYU pragma private; include "Unity/Collections/IUTF8Bytes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,18 +24,18 @@ public:
   // Declarations
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
-  /// @brief Method GetUnsafePtr, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetUnsafePtr, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint8_t* GetUnsafePtr();
 
-  /// @brief Method TryResize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryResize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryResize(int32_t newLength, ::Unity::Collections::NativeArrayOptions clearOptions);
 
-  /// @brief Method get_IsEmpty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsEmpty();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IUTF8Bytes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IUTF8Bytes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IUTF8Bytes(IUTF8Bytes const&) = delete;
+  IUTF8Bytes(IUTF8Bytesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15619 };

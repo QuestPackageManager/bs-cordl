@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FullScreenPassRendererFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace/FullScreenPassRendererFeature.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPassInput_impl.hpp"
@@ -22,7 +22,7 @@
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::FullScreenPassRendererFeature_InjectionPoint::FullScreenPassRendererFeature_InjectionPoint(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -514,7 +514,7 @@ inline ::GlobalNamespace::FullScreenPassRendererFeature_FullScreenRenderPass* Gl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FullScreenPassRendererFeature_FullScreenRenderPass::FullScreenPassRendererFeature_FullScreenRenderPass() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::FullScreenPassRendererFeature_Version::FullScreenPassRendererFeature_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }

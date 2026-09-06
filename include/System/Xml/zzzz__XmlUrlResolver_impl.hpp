@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlUrlResolver.hpp"
+// IWYU pragma private; include "System/Xml/XmlUrlResolver.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/Xml/zzzz__XmlResolver_impl.hpp"
@@ -58,11 +58,11 @@ constexpr System::Xml::XmlUrlResolver__GetEntityAsync_d__15::operator ::System::
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Xml::XmlUrlResolver__GetEntityAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "ofObjectToReturn", ty: "::System::Type*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "absoluteUri", ty: "::System::Uri*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::Xml::XmlUrlResolver*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ofObjectToReturn", ty:
+// "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "absoluteUri", ty: "::System::Uri*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "__4__this", ty: "::System::Xml::XmlUrlResolver*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::XmlUrlResolver__GetEntityAsync_d__15(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder, ::System::Type* ofObjectToReturn, ::System::Uri* absoluteUri,
     ::System::Xml::XmlUrlResolver* __4__this, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1) noexcept {

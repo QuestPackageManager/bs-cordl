@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FtpWebRequest.hpp"
+// IWYU pragma private; include "System/Net/FtpWebRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -150,7 +150,7 @@ public:
   // @brief default ctor
   constexpr FtpWebRequest_RequestStage();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FtpWebRequest_RequestStage(int32_t value__) noexcept;
 
   /// @brief Field CheckForError value: I32(0)
@@ -185,6 +185,7 @@ static_assert(offsetof(::System::Net::FtpWebRequest_RequestStage, value__) == 0x
 static_assert(sizeof(::System::Net::FtpWebRequest_RequestStage) == 0x4, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
 namespace System::Net {
 // Is value type: true
@@ -198,6 +199,7 @@ public:
   /// @brief Method MoveNext, addr 0x640ab3c, size 0x318, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x640ae54, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -208,10 +210,10 @@ public:
   // @brief default ctor
   constexpr FtpWebRequest__CreateConnectionAsync_d__86();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::FtpWebRequest*", modifiers: "", def_value: None
-  // }, CppParam { name: "_client_5__2", ty: "::System::Net::Sockets::TcpClient*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::FtpWebRequest*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_client_5__2", ty: "::System::Net::Sockets::TcpClient*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr FtpWebRequest__CreateConnectionAsync_d__86(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::System::Net::FtpWebRequest* __4__this,
                                                        ::System::Net::Sockets::TcpClient* _client_5__2,
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -253,6 +255,7 @@ static_assert(offsetof(::System::Net::FtpWebRequest__CreateConnectionAsync_d__86
 static_assert(sizeof(::System::Net::FtpWebRequest__CreateConnectionAsync_d__86) == 0x48, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net {
 // Is value type: false
@@ -288,13 +291,13 @@ protected:
   constexpr FtpWebRequest___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FtpWebRequest___c(FtpWebRequest___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpWebRequest___c(FtpWebRequest___c const&) = delete;
+  FtpWebRequest___c(FtpWebRequest___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11473 };
@@ -491,6 +494,7 @@ public:
   /// @brief Method CreateConnection, addr 0x6407d8c, size 0x170, virtual false, abstract: false, final false
   inline ::System::Net::FtpControlStream* CreateConnection();
 
+  /// [AsyncStateMachine(typeof(System.Net.FtpWebRequest::<CreateConnectionAsync>d__86))]
   /// @brief Method CreateConnectionAsync, addr 0x6407ce8, size 0xa4, virtual false, abstract: false, final false
   inline void CreateConnectionAsync();
 
@@ -834,13 +838,13 @@ protected:
   constexpr FtpWebRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FtpWebRequest(FtpWebRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FtpWebRequest(FtpWebRequest const&) = delete;
+  FtpWebRequest(FtpWebRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11474 };

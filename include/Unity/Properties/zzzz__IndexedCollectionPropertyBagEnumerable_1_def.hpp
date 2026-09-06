@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IndexedCollectionPropertyBagEnumerable_1.hpp"
+// IWYU pragma private; include "Unity/Properties/IndexedCollectionPropertyBagEnumerable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ template <typename TContainer> struct IndexedCollectionPropertyBagEnumerable_1;
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Properties::IndexedCollectionPropertyBagEnumerable_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Properties::IndexedCollectionPropertyBagEnumerable_1, "Unity.Properties", "IndexedCollectionPropertyBagEnumerable`1");
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Properties {
 // cpp template
@@ -37,8 +38,8 @@ public:
   // @brief default ctor
   constexpr IndexedCollectionPropertyBagEnumerable_1();
 
-  // Ctor Parameters [CppParam { name: "m_Impl", ty: "::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>*", modifiers: "", def_value: None }, CppParam { name: "m_Container",
-  // ty: "TContainer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Impl", ty: "::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Container", ty: "TContainer", modifiers: "", def_value: None, comment: None }]
   constexpr IndexedCollectionPropertyBagEnumerable_1(::Unity::Properties::IIndexedCollectionPropertyBagEnumerator_1<TContainer>* m_Impl, TContainer m_Container) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

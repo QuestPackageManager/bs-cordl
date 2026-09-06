@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PracticeSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/PracticeSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,13 +98,13 @@ protected:
   constexpr PracticeSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PracticeSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PracticeSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PracticeSettings(PracticeSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PracticeSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PracticeSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PracticeSettings(PracticeSettings const&) = delete;
+  PracticeSettings(PracticeSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15173 };
@@ -112,9 +112,11 @@ public:
   /// @brief Field kDelayBeforeStart offset 0xffffffff size 0x4
   static constexpr float_t kDelayBeforeStart{ static_cast<float_t>(1.0f) };
 
+  /// [SerializeField]
   /// @brief Field _startSongTime, offset: 0x10, size: 0x4, def value: None
   float_t ____startSongTime;
 
+  /// [SerializeField]
   /// @brief Field _songSpeedMul, offset: 0x14, size: 0x4, def value: None
   float_t ____songSpeedMul;
 

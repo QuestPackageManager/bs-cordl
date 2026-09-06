@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomTimelineTween.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomTimelineTween.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ protected:
   constexpr CustomTimelineTween();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomTimelineTween(CustomTimelineTween&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomTimelineTween(CustomTimelineTween const&) = delete;
+  CustomTimelineTween(CustomTimelineTweenconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6691 };
@@ -68,6 +68,7 @@ public:
   /// @brief Field transforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ___transforms;
 
+  /// [HideInInspector]
   /// @brief Field startPositions, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> ___startPositions;
 

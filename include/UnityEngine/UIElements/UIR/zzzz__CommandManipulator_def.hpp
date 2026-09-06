@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\CommandManipulator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/CommandManipulator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class CommandManipulator;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIR::CommandManipulator*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIR::CommandManipulator*, "UnityEngine.UIElements.UIR", "CommandManipulator");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
@@ -46,6 +47,7 @@ public:
   static inline void InjectCommandInBetween(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::RenderChainCommand* cmd,
                                             ::UnityEngine::UIElements::UIR::RenderChainCommand* prev, ::UnityEngine::UIElements::UIR::RenderChainCommand* next);
 
+  /// [Extension]
   /// @brief Method IsParentOrAncestorOf, addr 0x6cd4d50, size 0x34, virtual false, abstract: false, final false
   static inline bool IsParentOrAncestorOf(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* child);
 
@@ -69,13 +71,13 @@ protected:
   constexpr CommandManipulator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandManipulator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandManipulator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandManipulator(CommandManipulator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandManipulator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandManipulator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandManipulator(CommandManipulator const&) = delete;
+  CommandManipulator(CommandManipulatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5283 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\QuestSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/QuestSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   // @brief default ctor
   constexpr QuestSettings_FoveatedRenderingLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr QuestSettings_FoveatedRenderingLevel(int32_t value__) noexcept;
 
   /// @brief Field High value: I32(3)
@@ -101,9 +101,9 @@ public:
   // @brief default ctor
   constexpr QuestSettings();
 
-  // Ctor Parameters [CppParam { name: "foveatedRenderingMenu", ty: "::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel", modifiers: "", def_value: None }, CppParam { name:
-  // "foveatedRenderingGameplay", ty: "::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel", modifiers: "", def_value: None }, CppParam { name: "eyeTrackedFoveatedRendering", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "dynamicFoveatedRendering", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "foveatedRenderingMenu", ty: "::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "foveatedRenderingGameplay", ty: "::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel", modifiers: "", def_value: None, comment: None }, CppParam { name: "eyeTrackedFoveatedRendering",
+  // ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "dynamicFoveatedRendering", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr QuestSettings(::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel foveatedRenderingMenu, ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel foveatedRenderingGameplay,
                           bool eyeTrackedFoveatedRendering, bool dynamicFoveatedRendering) noexcept;
 

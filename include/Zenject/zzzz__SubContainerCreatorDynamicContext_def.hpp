@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerCreatorDynamicContext.hpp"
+// IWYU pragma private; include "Zenject/SubContainerCreatorDynamicContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class SubContainerCreatorDynamicContext;
 // Write type traits
 MARK_REF_T(::Zenject::SubContainerCreatorDynamicContext*);
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerCreatorDynamicContext*, "Zenject", "SubContainerCreatorDynamicContext");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -48,10 +49,10 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method AddInstallers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddInstallers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
-  /// @brief Method CreateGameObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::by_ref<bool> shouldMakeActive);
 
   /// @brief Method CreateSubContainer, addr 0x6e8c7fc, size 0xe8, virtual true, abstract: false, final true
@@ -80,13 +81,13 @@ protected:
   constexpr SubContainerCreatorDynamicContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorDynamicContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorDynamicContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorDynamicContext(SubContainerCreatorDynamicContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorDynamicContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorDynamicContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorDynamicContext(SubContainerCreatorDynamicContext const&) = delete;
+  SubContainerCreatorDynamicContext(SubContainerCreatorDynamicContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14649 };

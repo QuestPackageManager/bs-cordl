@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\CrlListID.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CrlListID.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlListID_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlValidatedID_def.hpp"
@@ -110,7 +110,7 @@ inline void Org::BouncyCastle::Asn1::Esf::CrlListID::_ctor(::Org::BouncyCastle::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::CrlListID*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, seq);
 }
-inline void Org::BouncyCastle::Asn1::Esf::CrlListID::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*> crls) {
+inline void Org::BouncyCastle::Asn1::Esf::CrlListID::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*> crls) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::CrlListID*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, crls);
@@ -131,7 +131,7 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::CrlL
 inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* Org::BouncyCastle::Asn1::Esf::CrlListID::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::CrlListID*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* Org::BouncyCastle::Asn1::Esf::CrlListID::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*> crls) {
+inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* Org::BouncyCastle::Asn1::Esf::CrlListID::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*> crls) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::CrlListID*>(crls));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* Org::BouncyCastle::Asn1::Esf::CrlListID::New_ctor(::System::Collections::IEnumerable* crls) {

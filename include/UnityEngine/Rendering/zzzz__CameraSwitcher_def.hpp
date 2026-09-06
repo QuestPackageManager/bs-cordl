@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CameraSwitcher.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CameraSwitcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,15 +78,19 @@ public:
   /// @brief Method SetCameraIndex, addr 0x674d498, size 0x224, virtual false, abstract: false, final false
   inline void SetCameraIndex(int32_t index);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__10_0, addr 0x674d6c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t _OnEnable_b__10_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__10_1, addr 0x674d6d0, size 0x4, virtual false, abstract: false, final false
   inline void _OnEnable_b__10_1(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__10_2, addr 0x674d6d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t _OnEnable_b__10_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__10_3, addr 0x674d6dc, size 0x8, virtual false, abstract: false, final false
   inline void _OnEnable_b__10_3(int32_t value);
 
@@ -159,13 +163,13 @@ protected:
   constexpr CameraSwitcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CameraSwitcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraSwitcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CameraSwitcher(CameraSwitcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CameraSwitcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CameraSwitcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CameraSwitcher(CameraSwitcher const&) = delete;
+  CameraSwitcher(CameraSwitcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11868 };

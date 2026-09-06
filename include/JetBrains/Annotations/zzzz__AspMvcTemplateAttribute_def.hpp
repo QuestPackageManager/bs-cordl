@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspMvcTemplateAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcTemplateAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AspMvcTemplateAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::AspMvcTemplateAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::AspMvcTemplateAttribute*, "JetBrains.Annotations", "AspMvcTemplateAttribute");
+// [AttributeUsage((System.AttributeTargets)2048)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AspMvcTemplateAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcTemplateAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcTemplateAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspMvcTemplateAttribute(AspMvcTemplateAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcTemplateAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcTemplateAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AspMvcTemplateAttribute(AspMvcTemplateAttribute const&) = delete;
+  AspMvcTemplateAttribute(AspMvcTemplateAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22576 };

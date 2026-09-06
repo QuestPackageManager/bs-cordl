@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\PartyInfo.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/PartyInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,9 @@ struct PartyInfo;
 // Write type traits
 MARK_VAL_T(::OculusStudios::Platform::Core::PartyInfo);
 DEFINE_IL2CPP_CLASS(::OculusStudios::Platform::Core::PartyInfo, "OculusStudios.Platform.Core", "PartyInfo");
+// [NullableContext(2)]
+// [Nullable(0)]
+// [IsReadOnly]
 // Dependencies
 namespace OculusStudios::Platform::Core {
 // Is value type: true
@@ -32,15 +35,19 @@ public:
   /// @brief Method .ctor, addr 0x5f2e4a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t currentUsers, uint32_t maxUsers, ::StringW groupId, ::StringW joinKey);
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentUsers, addr 0x5f2e480, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_currentUsers();
 
+  /// [CompilerGenerated]
   /// @brief Method get_groupId, addr 0x5f2e490, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_joinKey, addr 0x5f2e498, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_joinKey();
 
+  /// [CompilerGenerated]
   /// @brief Method get_maxUsers, addr 0x5f2e488, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxUsers();
 
@@ -48,9 +55,9 @@ public:
   // @brief default ctor
   constexpr PartyInfo();
 
-  // Ctor Parameters [CppParam { name: "_currentUsers_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_maxUsers_k__BackingField", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_groupId_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_joinKey_k__BackingField", ty: "::StringW", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_currentUsers_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_maxUsers_k__BackingField", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_groupId_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_joinKey_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr PartyInfo(uint32_t _currentUsers_k__BackingField, uint32_t _maxUsers_k__BackingField, ::StringW _groupId_k__BackingField, ::StringW _joinKey_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -59,15 +66,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
   /// @brief Field <currentUsers>k__BackingField, offset: 0x0, size: 0x4, def value: None
   uint32_t _currentUsers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <maxUsers>k__BackingField, offset: 0x4, size: 0x4, def value: None
   uint32_t _maxUsers_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <groupId>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _groupId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <joinKey>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW _joinKey_k__BackingField;
 

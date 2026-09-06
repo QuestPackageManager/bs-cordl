@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NtpRequest.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NtpRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,13 +108,13 @@ protected:
   constexpr NtpRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NtpRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NtpRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NtpRequest(NtpRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NtpRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NtpRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NtpRequest(NtpRequest const&) = delete;
+  NtpRequest(NtpRequestconst&) = delete;
 
   /// @brief Field DefaultPort offset 0xffffffff size 0x4
   static constexpr int32_t DefaultPort{ static_cast<int32_t>(0x7b) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\NativePassCompiler.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/NativePassCompiler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,9 @@ namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class DynamicArray_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class DynamicArray_1;
 }
 namespace UnityEngine::Rendering {
 struct SubPassDescriptor;
@@ -101,9 +103,9 @@ public:
   // @brief default ctor
   constexpr NativePassCompiler_RenderGraphInputInfo();
 
-  // Ctor Parameters [CppParam { name: "m_ResourcesForDebugOnly", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_RenderPasses", ty: "::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>*", modifiers: "", def_value: None }, CppParam { name: "debugName", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "disableCulling", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ResourcesForDebugOnly", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_RenderPasses", ty: "::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "debugName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "disableCulling", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr NativePassCompiler_RenderGraphInputInfo(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* m_ResourcesForDebugOnly,
                                                     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>* m_RenderPasses, ::StringW debugName,
                                                     bool disableCulling) noexcept;
@@ -177,7 +179,7 @@ public:
   // @brief default ctor
   constexpr NativePassCompiler_NativeCompilerProfileId();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NativePassCompiler_NativeCompilerProfileId(int32_t value__) noexcept;
 
   /// @brief Field NRPRGComp_BuildGraph value: I32(2)
@@ -306,7 +308,7 @@ public:
   /// @brief Method ExecuteCreateRessource, addr 0x67f259c, size 0x480, virtual false, abstract: false, final false
   inline void ExecuteCreateRessource(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext,
                                      ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
-                                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass);
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass);
 
   /// @brief Method ExecuteDestroyResource, addr 0x67f3288, size 0x434, virtual false, abstract: false, final false
   inline void ExecuteDestroyResource(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext,
@@ -315,7 +317,7 @@ public:
 
   /// @brief Method ExecuteGraph, addr 0x67f3b54, size 0x6b4, virtual false, abstract: false, final false
   inline void ExecuteGraph(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
-                           ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>*> passes);
+                           /* [IsReadOnly] */ ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>*> passes);
 
   /// @brief Method ExecuteGraphNode, addr 0x67f38d8, size 0x27c, virtual false, abstract: false, final false
   inline void ExecuteGraphNode(::by_ref<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*> rgContext,
@@ -346,14 +348,14 @@ public:
 
   /// @brief Method MakeAttachmentInfo, addr 0x67f4208, size 0x48c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo*
-  MakeAttachmentInfo(Il2CppObject* ctx, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass, int32_t attachmentIndex);
+  MakeAttachmentInfo(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass, int32_t attachmentIndex);
 
   /// @brief Method MakePassBreakInfoMessage, addr 0x67f4694, size 0x140, virtual false, abstract: false, final false
-  static inline ::StringW MakePassBreakInfoMessage(Il2CppObject* ctx, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass);
+  static inline ::StringW MakePassBreakInfoMessage(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass);
 
   /// @brief Method MakePassMergeMessage, addr 0x67f47d4, size 0x72c, virtual false, abstract: false, final false
-  static inline ::StringW MakePassMergeMessage(Il2CppObject* ctx, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass,
-                                               ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> prevPass,
+  static inline ::StringW MakePassMergeMessage(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass,
+                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> prevPass,
                                                ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit mergeResult);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler* New_ctor(::GlobalNamespace::RenderGraphCompilationCache* cache);
@@ -365,8 +367,8 @@ public:
   inline void SetPassStatesForNativePass(int32_t nativePassId);
 
   /// @brief Method SetRandomWriteTarget, addr 0x67f36bc, size 0x21c, virtual false, abstract: false, final false
-  inline void SetRandomWriteTarget(::by_ref<::UnityEngine::Rendering::CommandBuffer*> cmd, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources, int32_t index,
-                                   ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource, bool preserveCounterValue);
+  inline void SetRandomWriteTarget(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CommandBuffer*> cmd, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
+                                   int32_t index, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource, bool preserveCounterValue);
 
   /// @brief Method SetupContextData, addr 0x67ef870, size 0xa0, virtual false, abstract: false, final false
   inline void SetupContextData(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources);
@@ -374,14 +376,18 @@ public:
   /// @brief Method TryMergeNativePasses, addr 0x67f0b1c, size 0x314, virtual false, abstract: false, final false
   inline void TryMergeNativePasses();
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ValidateAttachmentRenderTarget, addr 0x67f2bac, size 0x124, virtual false, abstract: false, final false
-  inline void ValidateAttachmentRenderTarget(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> attRenderTargetInfo,
+  inline void ValidateAttachmentRenderTarget(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> attRenderTargetInfo,
                                              ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources, int32_t nativePassWidth, int32_t nativePassHeight,
                                              int32_t nativePassMSAASamples);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ValidateNativePass, addr 0x67f2a1c, size 0x190, virtual false, abstract: false, final false
-  inline void ValidateNativePass(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass, int32_t width, int32_t height, int32_t depth,
-                                 int32_t samples, int32_t attachmentCount);
+  inline void ValidateNativePass(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass, int32_t width, int32_t height,
+                                 int32_t depth, int32_t samples, int32_t attachmentCount);
 
   constexpr Il2CppObject* const& __cordl_internal_get_contextData() const;
 
@@ -449,13 +455,13 @@ protected:
   constexpr NativePassCompiler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativePassCompiler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativePassCompiler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativePassCompiler(NativePassCompiler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativePassCompiler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativePassCompiler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativePassCompiler(NativePassCompiler const&) = delete;
+  NativePassCompiler(NativePassCompilerconst&) = delete;
 
   /// @brief Field ArbitraryMaxNbMergedPasses offset 0xffffffff size 0x4
   static constexpr int32_t ArbitraryMaxNbMergedPasses{ static_cast<int32_t>(0x10) };

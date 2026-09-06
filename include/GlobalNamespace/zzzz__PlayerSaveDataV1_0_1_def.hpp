@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerSaveDataV1_0_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerSaveDataV1_0_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -148,7 +148,7 @@ public:
   // @brief default ctor
   constexpr GameplayModifiers_PlayerSaveDataV1_0_1_EnabledObstacleType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameplayModifiers_PlayerSaveDataV1_0_1_EnabledObstacleType(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(0)
@@ -206,7 +206,7 @@ public:
   // @brief default ctor
   constexpr GameplayModifiers_PlayerSaveDataV1_0_1_EnergyType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameplayModifiers_PlayerSaveDataV1_0_1_EnergyType(int32_t value__) noexcept;
 
   /// @brief Field Bar value: I32(0)
@@ -262,7 +262,7 @@ public:
   // @brief default ctor
   constexpr GameplayModifiers_PlayerSaveDataV1_0_1_SongSpeed();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameplayModifiers_PlayerSaveDataV1_0_1_SongSpeed(int32_t value__) noexcept;
 
   /// @brief Field Faster value: I32(1)
@@ -406,13 +406,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1_GameplayModifiers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_GameplayModifiers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_GameplayModifiers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1_GameplayModifiers(PlayerSaveDataV1_0_1_GameplayModifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_GameplayModifiers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_GameplayModifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1_GameplayModifiers(PlayerSaveDataV1_0_1_GameplayModifiers const&) = delete;
+  PlayerSaveDataV1_0_1_GameplayModifiers(PlayerSaveDataV1_0_1_GameplayModifiersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15210 };
@@ -563,13 +563,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1_PlayerSpecificSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerSpecificSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerSpecificSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1_PlayerSpecificSettings(PlayerSaveDataV1_0_1_PlayerSpecificSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerSpecificSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerSpecificSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1_PlayerSpecificSettings(PlayerSaveDataV1_0_1_PlayerSpecificSettings const&) = delete;
+  PlayerSaveDataV1_0_1_PlayerSpecificSettings(PlayerSaveDataV1_0_1_PlayerSpecificSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15211 };
@@ -677,13 +677,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1_PlayerAllOverallStatsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerAllOverallStatsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerAllOverallStatsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1_PlayerAllOverallStatsData(PlayerSaveDataV1_0_1_PlayerAllOverallStatsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerAllOverallStatsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerAllOverallStatsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1_PlayerAllOverallStatsData(PlayerSaveDataV1_0_1_PlayerAllOverallStatsData const&) = delete;
+  PlayerSaveDataV1_0_1_PlayerAllOverallStatsData(PlayerSaveDataV1_0_1_PlayerAllOverallStatsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15212 };
@@ -834,13 +834,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1_PlayerOverallStatsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerOverallStatsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerOverallStatsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1_PlayerOverallStatsData(PlayerSaveDataV1_0_1_PlayerOverallStatsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerOverallStatsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerOverallStatsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1_PlayerOverallStatsData(PlayerSaveDataV1_0_1_PlayerOverallStatsData const&) = delete;
+  PlayerSaveDataV1_0_1_PlayerOverallStatsData(PlayerSaveDataV1_0_1_PlayerOverallStatsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15213 };
@@ -996,13 +996,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1_PlayerLevelStatsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerLevelStatsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerLevelStatsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1_PlayerLevelStatsData(PlayerSaveDataV1_0_1_PlayerLevelStatsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerLevelStatsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerLevelStatsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1_PlayerLevelStatsData(PlayerSaveDataV1_0_1_PlayerLevelStatsData const&) = delete;
+  PlayerSaveDataV1_0_1_PlayerLevelStatsData(PlayerSaveDataV1_0_1_PlayerLevelStatsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15214 };
@@ -1089,13 +1089,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1_PlayerMissionStatsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerMissionStatsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerMissionStatsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1_PlayerMissionStatsData(PlayerSaveDataV1_0_1_PlayerMissionStatsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerMissionStatsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_PlayerMissionStatsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1_PlayerMissionStatsData(PlayerSaveDataV1_0_1_PlayerMissionStatsData const&) = delete;
+  PlayerSaveDataV1_0_1_PlayerMissionStatsData(PlayerSaveDataV1_0_1_PlayerMissionStatsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15215 };
@@ -1152,13 +1152,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1_AchievementsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_AchievementsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_AchievementsData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1_AchievementsData(PlayerSaveDataV1_0_1_AchievementsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_AchievementsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_AchievementsData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1_AchievementsData(PlayerSaveDataV1_0_1_AchievementsData const&) = delete;
+  PlayerSaveDataV1_0_1_AchievementsData(PlayerSaveDataV1_0_1_AchievementsDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15216 };
@@ -1291,13 +1291,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1_LocalPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_LocalPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_LocalPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1_LocalPlayer(PlayerSaveDataV1_0_1_LocalPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_LocalPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_LocalPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1_LocalPlayer(PlayerSaveDataV1_0_1_LocalPlayer const&) = delete;
+  PlayerSaveDataV1_0_1_LocalPlayer(PlayerSaveDataV1_0_1_LocalPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15217 };
@@ -1395,13 +1395,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1_GuestPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_GuestPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_GuestPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1_GuestPlayer(PlayerSaveDataV1_0_1_GuestPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_GuestPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1_GuestPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1_GuestPlayer(PlayerSaveDataV1_0_1_GuestPlayer const&) = delete;
+  PlayerSaveDataV1_0_1_GuestPlayer(PlayerSaveDataV1_0_1_GuestPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15218 };
@@ -1497,13 +1497,13 @@ protected:
   constexpr PlayerSaveDataV1_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSaveDataV1_0_1(PlayerSaveDataV1_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSaveDataV1_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSaveDataV1_0_1(PlayerSaveDataV1_0_1 const&) = delete;
+  PlayerSaveDataV1_0_1(PlayerSaveDataV1_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15219 };

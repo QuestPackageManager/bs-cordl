@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\VRDeviceAnalyticAspect.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/VRDeviceAnalyticAspect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class VRDeviceAnalyticAspect;
 // Write type traits
 MARK_REF_T(::UnityEngine::Analytics::VRDeviceAnalyticAspect*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::VRDeviceAnalyticAspect*, "UnityEngine.Analytics", "VRDeviceAnalyticAspect");
+// [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.VRDeviceAnalyticBase
 namespace UnityEngine::Analytics {
 // Is value type: false
@@ -23,6 +25,7 @@ public:
   /// @brief Field vr_aspect_ratio, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_vr_aspect_ratio, put = __cordl_internal_set_vr_aspect_ratio)) float_t vr_aspect_ratio;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateVRDeviceAnalyticAspect, addr 0x6e24aec, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::VRDeviceAnalyticAspect* CreateVRDeviceAnalyticAspect();
 
@@ -43,13 +46,13 @@ protected:
   constexpr VRDeviceAnalyticAspect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRDeviceAnalyticAspect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRDeviceAnalyticAspect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRDeviceAnalyticAspect(VRDeviceAnalyticAspect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRDeviceAnalyticAspect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRDeviceAnalyticAspect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRDeviceAnalyticAspect(VRDeviceAnalyticAspect const&) = delete;
+  VRDeviceAnalyticAspect(VRDeviceAnalyticAspectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22995 };

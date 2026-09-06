@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElement.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
@@ -411,7 +411,7 @@ inline ::UnityEngine::UIElements::VisualElement_UxmlTraits* UnityEngine::UIEleme
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElement_UxmlTraits::VisualElement_UxmlTraits() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualElement_MeasureMode::VisualElement_MeasureMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -420,7 +420,7 @@ constexpr ::UnityEngine::UIElements::VisualElement_MeasureMode::VisualElement_Me
 constexpr ::UnityEngine::UIElements::VisualElement_MeasureMode UnityEngine::UIElements::VisualElement_MeasureMode::Undefined{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::VisualElement_MeasureMode UnityEngine::UIElements::VisualElement_MeasureMode::Exactly{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::VisualElement_MeasureMode UnityEngine::UIElements::VisualElement_MeasureMode::AtMost{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualElement_RenderTargetMode::VisualElement_RenderTargetMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -909,7 +909,7 @@ inline bool UnityEngine::UIElements::VisualElement_Hierarchy::op_Equality(::Unit
                           { "op_Equality", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement_Hierarchy>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_Hierarchy>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, x, y);
 }
-// Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualElement_Hierarchy::VisualElement_Hierarchy(::UnityEngine::UIElements::VisualElement* m_Owner) noexcept {
   this->m_Owner = m_Owner;
 }
@@ -9340,7 +9340,8 @@ inline void UnityEngine::UIElements::VisualElement::UpdateHoverPseudoState() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "UpdateHoverPseudoState", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::VisualElement::IsPartOfCapturedChain(::UnityEngine::UIElements::VisualElement* self, ::by_ref<::UnityEngine::UIElements::IEventHandler*> capturingElement) {
+inline bool UnityEngine::UIElements::VisualElement::IsPartOfCapturedChain(::UnityEngine::UIElements::VisualElement* self,
+                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::IEventHandler*> capturingElement) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
@@ -9561,7 +9562,9 @@ inline ::StringW UnityEngine::UIElements::VisualElement::GetFullHierarchicalView
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetFullHierarchicalViewDataKey", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::UIElements::VisualElement::GetOrCreateViewData(::System::Object* existing, ::StringW key) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::UIElements::VisualElement::GetOrCreateViewData(::System::Object* existing, ::StringW key) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(),
                                                            { "GetOrCreateViewData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
@@ -10114,13 +10117,17 @@ inline void UnityEngine::UIElements::VisualElement::RemoveFromHierarchy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "RemoveFromHierarchy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::UIElements::VisualElement::GetFirstOfType() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T UnityEngine::UIElements::VisualElement::GetFirstOfType() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetFirstOfType", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::UIElements::VisualElement::GetFirstAncestorOfType() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T UnityEngine::UIElements::VisualElement::GetFirstAncestorOfType() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElement*>(), { "GetFirstAncestorOfType", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

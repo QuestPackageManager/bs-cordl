@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IScheduler.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IScheduler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,18 +21,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IScheduler {
 public:
   // Declarations
-  /// @brief Method Schedule, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method Unschedule, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Unschedule, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method UpdateScheduledEvents, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateScheduledEvents, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateScheduledEvents();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IScheduler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IScheduler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IScheduler(IScheduler const&) = delete;
+  IScheduler(ISchedulerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4687 };

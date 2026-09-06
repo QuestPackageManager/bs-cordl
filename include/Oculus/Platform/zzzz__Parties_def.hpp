@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Parties.hpp"
+// IWYU pragma private; include "Oculus/Platform/Parties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ protected:
   constexpr Parties();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Parties", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parties", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Parties(Parties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Parties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parties(Parties const&) = delete;
+  Parties(Partiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17965 };

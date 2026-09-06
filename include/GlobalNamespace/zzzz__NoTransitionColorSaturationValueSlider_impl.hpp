@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoTransitionColorSaturationValueSlider.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoTransitionColorSaturationValueSlider.hpp"
 #include "HMUI/zzzz__NoTransitionSlider2D_impl.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedBytes128Align8.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedBytes128Align8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FixedBytes128Align8;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::FixedBytes128Align8);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::FixedBytes128Align8, "Unity.Collections", "FixedBytes128Align8");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.FixedBytes16Align8
 namespace Unity::Collections {
 // Is value type: true
@@ -97,11 +98,12 @@ public:
   // @brief default ctor
   constexpr FixedBytes128Align8();
 
-  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0016", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0032", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0048", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0064", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0080", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0096", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0112", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0016", ty:
+  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0032", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0048", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0064",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0080", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0096", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0112",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }]
   constexpr FixedBytes128Align8(::Unity::Collections::FixedBytes16Align8 offset0000, ::Unity::Collections::FixedBytes16Align8 offset0016, ::Unity::Collections::FixedBytes16Align8 offset0032,
                                 ::Unity::Collections::FixedBytes16Align8 offset0048, ::Unity::Collections::FixedBytes16Align8 offset0064, ::Unity::Collections::FixedBytes16Align8 offset0080,
                                 ::Unity::Collections::FixedBytes16Align8 offset0096, ::Unity::Collections::FixedBytes16Align8 offset0112) noexcept;
@@ -113,6 +115,7 @@ private:
     struct {
       /// @brief Padding field 0x0
       uint8_t ___offset0000_padding[0x0];
+      /// [SerializeField]
       /// @brief Field offset0000, offset: 0x0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0000;
     };
@@ -120,6 +123,7 @@ private:
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___offset0000_padding_forAlignment[0x0];
+      /// [SerializeField]
       /// @brief Field offset0000, offset: 0x0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0000_forAlignment;
     };
@@ -127,6 +131,7 @@ private:
     struct {
       /// @brief Padding field 0x10
       uint8_t ___offset0016_padding[0x10];
+      /// [SerializeField]
       /// @brief Field offset0016, offset: 0x10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0016;
     };
@@ -134,6 +139,7 @@ private:
     struct {
       /// @brief Padding field 0x10 for alignment
       uint8_t ___offset0016_padding_forAlignment[0x10];
+      /// [SerializeField]
       /// @brief Field offset0016, offset: 0x10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0016_forAlignment;
     };
@@ -141,6 +147,7 @@ private:
     struct {
       /// @brief Padding field 0x20
       uint8_t ___offset0032_padding[0x20];
+      /// [SerializeField]
       /// @brief Field offset0032, offset: 0x20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0032;
     };
@@ -148,6 +155,7 @@ private:
     struct {
       /// @brief Padding field 0x20 for alignment
       uint8_t ___offset0032_padding_forAlignment[0x20];
+      /// [SerializeField]
       /// @brief Field offset0032, offset: 0x20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0032_forAlignment;
     };
@@ -155,6 +163,7 @@ private:
     struct {
       /// @brief Padding field 0x30
       uint8_t ___offset0048_padding[0x30];
+      /// [SerializeField]
       /// @brief Field offset0048, offset: 0x30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0048;
     };
@@ -162,6 +171,7 @@ private:
     struct {
       /// @brief Padding field 0x30 for alignment
       uint8_t ___offset0048_padding_forAlignment[0x30];
+      /// [SerializeField]
       /// @brief Field offset0048, offset: 0x30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0048_forAlignment;
     };
@@ -169,6 +179,7 @@ private:
     struct {
       /// @brief Padding field 0x40
       uint8_t ___offset0064_padding[0x40];
+      /// [SerializeField]
       /// @brief Field offset0064, offset: 0x40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0064;
     };
@@ -176,6 +187,7 @@ private:
     struct {
       /// @brief Padding field 0x40 for alignment
       uint8_t ___offset0064_padding_forAlignment[0x40];
+      /// [SerializeField]
       /// @brief Field offset0064, offset: 0x40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0064_forAlignment;
     };
@@ -183,6 +195,7 @@ private:
     struct {
       /// @brief Padding field 0x50
       uint8_t ___offset0080_padding[0x50];
+      /// [SerializeField]
       /// @brief Field offset0080, offset: 0x50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0080;
     };
@@ -190,6 +203,7 @@ private:
     struct {
       /// @brief Padding field 0x50 for alignment
       uint8_t ___offset0080_padding_forAlignment[0x50];
+      /// [SerializeField]
       /// @brief Field offset0080, offset: 0x50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0080_forAlignment;
     };
@@ -197,6 +211,7 @@ private:
     struct {
       /// @brief Padding field 0x60
       uint8_t ___offset0096_padding[0x60];
+      /// [SerializeField]
       /// @brief Field offset0096, offset: 0x60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0096;
     };
@@ -204,6 +219,7 @@ private:
     struct {
       /// @brief Padding field 0x60 for alignment
       uint8_t ___offset0096_padding_forAlignment[0x60];
+      /// [SerializeField]
       /// @brief Field offset0096, offset: 0x60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0096_forAlignment;
     };
@@ -211,6 +227,7 @@ private:
     struct {
       /// @brief Padding field 0x70
       uint8_t ___offset0112_padding[0x70];
+      /// [SerializeField]
       /// @brief Field offset0112, offset: 0x70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0112;
     };
@@ -218,6 +235,7 @@ private:
     struct {
       /// @brief Padding field 0x70 for alignment
       uint8_t ___offset0112_padding_forAlignment[0x70];
+      /// [SerializeField]
       /// @brief Field offset0112, offset: 0x70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0112_forAlignment;
     };

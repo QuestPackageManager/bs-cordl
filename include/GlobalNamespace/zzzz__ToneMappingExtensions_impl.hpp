@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ToneMappingExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ToneMappingExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GlobalKeyword_impl.hpp"
 #include "GlobalNamespace/zzzz__ToneMappingExtensions_def.hpp"

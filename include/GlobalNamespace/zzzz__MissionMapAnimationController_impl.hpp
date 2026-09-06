@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionMapAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionMapAnimationController.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeConnection_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -266,6 +266,7 @@ inline ::System::Object* GlobalNamespace::MissionMapAnimationController__UpdateC
                                                                                          { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13*
 GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13*>(__1__state));
@@ -474,6 +475,7 @@ inline ::System::Object* GlobalNamespace::MissionMapAnimationController__UpdateM
                                                                                          { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12*
 GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12*>(__1__state));
@@ -705,6 +707,7 @@ inline ::System::Object* GlobalNamespace::MissionMapAnimationController__UpdateN
                                                                                          { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15*
 GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15*>(__1__state));
@@ -888,6 +891,7 @@ inline ::System::Object* GlobalNamespace::MissionMapAnimationController__UpdateS
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14* GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14*>(__1__state));
 }

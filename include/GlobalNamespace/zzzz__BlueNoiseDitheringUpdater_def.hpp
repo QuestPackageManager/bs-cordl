@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BlueNoiseDitheringUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace/BlueNoiseDitheringUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class BlueNoiseDitheringUpdater;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BlueNoiseDitheringUpdater*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BlueNoiseDitheringUpdater*, "", "BlueNoiseDitheringUpdater");
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -43,6 +44,7 @@ public:
   /// @brief Method HandleCameraPreRender, addr 0x586851c, size 0xc8, virtual false, abstract: false, final false
   inline void HandleCameraPreRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
+  /// [Inject]
   /// @brief Method Init, addr 0x5868384, size 0x18, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IRandom* random);
 
@@ -75,20 +77,22 @@ protected:
   constexpr BlueNoiseDitheringUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDitheringUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDitheringUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlueNoiseDitheringUpdater(BlueNoiseDitheringUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDitheringUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDitheringUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlueNoiseDitheringUpdater(BlueNoiseDitheringUpdater const&) = delete;
+  BlueNoiseDitheringUpdater(BlueNoiseDitheringUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19491 };
 
+  /// [SerializeField]
   /// @brief Field _blueNoiseDithering, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BlueNoiseDithering> ____blueNoiseDithering;
 
+  /// [SerializeField]
   /// @brief Field _randomValueToShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RandomValueToShader> ____randomValueToShader;
 

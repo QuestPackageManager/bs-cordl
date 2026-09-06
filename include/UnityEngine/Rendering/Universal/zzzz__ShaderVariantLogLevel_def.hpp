@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderVariantLogLevel.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderVariantLogLevel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ShaderVariantLogLevel;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::ShaderVariantLogLevel);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShaderVariantLogLevel, "UnityEngine.Rendering.Universal", "ShaderVariantLogLevel");
+// [Obsolete("This is obsolete, UnityEngine.Rendering.ShaderVariantLogLevel instead.", true)]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ShaderVariantLogLevel();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderVariantLogLevel(int32_t value__) noexcept;
 
   /// @brief Field AllShaders value: I32(2)

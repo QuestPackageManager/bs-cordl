@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VirtualOffsetSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VirtualOffsetSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,9 +34,10 @@ public:
   // @brief default ctor
   constexpr VirtualOffsetSettings();
 
-  // Ctor Parameters [CppParam { name: "useVirtualOffset", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "validityThreshold", ty: "float_t", modifiers: "", def_value: None }, CppParam
-  // { name: "outOfGeoOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "searchMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rayOriginBias",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "collisionMask", ty: "::UnityEngine::LayerMask", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "useVirtualOffset", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "validityThreshold", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "outOfGeoOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "searchMultiplier", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "rayOriginBias", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "collisionMask", ty:
+  // "::UnityEngine::LayerMask", modifiers: "", def_value: None, comment: None }]
   constexpr VirtualOffsetSettings(bool useVirtualOffset, float_t validityThreshold, float_t outOfGeoOffset, float_t searchMultiplier, float_t rayOriginBias,
                                   ::UnityEngine::LayerMask collisionMask) noexcept;
 
@@ -49,15 +50,19 @@ public:
   /// @brief Field useVirtualOffset, offset: 0x0, size: 0x1, def value: None
   bool useVirtualOffset;
 
+  /// [Range(0, 0.95)]
   /// @brief Field validityThreshold, offset: 0x4, size: 0x4, def value: None
   float_t validityThreshold;
 
+  /// [Range(0, 1)]
   /// @brief Field outOfGeoOffset, offset: 0x8, size: 0x4, def value: None
   float_t outOfGeoOffset;
 
+  /// [Range(0, 2)]
   /// @brief Field searchMultiplier, offset: 0xc, size: 0x4, def value: None
   float_t searchMultiplier;
 
+  /// [Range(-0.05, 0)]
   /// @brief Field rayOriginBias, offset: 0x10, size: 0x4, def value: None
   float_t rayOriginBias;
 

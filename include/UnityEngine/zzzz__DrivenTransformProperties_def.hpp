@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\DrivenTransformProperties.hpp"
+// IWYU pragma private; include "UnityEngine/DrivenTransformProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DrivenTransformProperties;
 // Write type traits
 MARK_VAL_T(::UnityEngine::DrivenTransformProperties);
 DEFINE_IL2CPP_CLASS(::UnityEngine::DrivenTransformProperties, "UnityEngine", "DrivenTransformProperties");
+// [Flags]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -65,7 +66,7 @@ public:
   // @brief default ctor
   constexpr DrivenTransformProperties();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DrivenTransformProperties(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(-1)

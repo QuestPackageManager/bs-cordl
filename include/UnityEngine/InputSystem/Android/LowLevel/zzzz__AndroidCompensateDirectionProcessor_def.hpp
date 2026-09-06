@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\LowLevel\AndroidCompensateDirectionProcessor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidCompensateDirectionProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class AndroidCompensateDirectionProcessor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor*, "UnityEngine.InputSystem.Android.LowLevel", "AndroidCompensateDirectionProcessor");
+// [DesignTimeVisible(false)]
 // Dependencies UnityEngine.InputSystem.Processors.CompensateDirectionProcessor
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
@@ -40,13 +41,13 @@ protected:
   constexpr AndroidCompensateDirectionProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateDirectionProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateDirectionProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidCompensateDirectionProcessor(AndroidCompensateDirectionProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateDirectionProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateDirectionProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidCompensateDirectionProcessor(AndroidCompensateDirectionProcessor const&) = delete;
+  AndroidCompensateDirectionProcessor(AndroidCompensateDirectionProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8953 };

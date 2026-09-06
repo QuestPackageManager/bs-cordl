@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DrawKey.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DrawKey.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommandFlags_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchMaterialID_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchMeshID_impl.hpp"
@@ -49,11 +49,11 @@ constexpr UnityEngine::Rendering::DrawKey::operator ::System::IEquatable_1<::Uni
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::DrawKey>* UnityEngine::Rendering::DrawKey::i___System__IEquatable_1___UnityEngine__Rendering__DrawKey_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::DrawKey>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "meshID", ty: "::UnityEngine::Rendering::BatchMeshID", modifiers: "", def_value: Some("{}") }, CppParam { name: "submeshIndex", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "materialID", ty: "::UnityEngine::Rendering::BatchMaterialID", modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty:
-// "::UnityEngine::Rendering::BatchDrawCommandFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "transparentInstanceId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "overridenComponents", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "range", ty: "::UnityEngine::Rendering::RangeKey", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "lightmapIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "meshID", ty: "::UnityEngine::Rendering::BatchMeshID", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "submeshIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "materialID", ty: "::UnityEngine::Rendering::BatchMaterialID", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "flags", ty: "::UnityEngine::Rendering::BatchDrawCommandFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "transparentInstanceId", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overridenComponents", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "range", ty:
+// "::UnityEngine::Rendering::RangeKey", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lightmapIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DrawKey::DrawKey(::UnityEngine::Rendering::BatchMeshID meshID, int32_t submeshIndex, ::UnityEngine::Rendering::BatchMaterialID materialID,
                                                      ::UnityEngine::Rendering::BatchDrawCommandFlags flags, int32_t transparentInstanceId, uint32_t overridenComponents,
                                                      ::UnityEngine::Rendering::RangeKey range, int32_t lightmapIndex) noexcept {

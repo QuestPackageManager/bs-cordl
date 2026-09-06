@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ICPUMonitor.hpp"
+// IWYU pragma private; include "GlobalNamespace/ICPUMonitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
-  /// @brief Method get_utilization, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_utilization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_utilization();
 
   /// @brief Convert to "::GlobalNamespace::IPollable"
   constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICPUMonitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICPUMonitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICPUMonitor(ICPUMonitor const&) = delete;
+  ICPUMonitor(ICPUMonitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18172 };

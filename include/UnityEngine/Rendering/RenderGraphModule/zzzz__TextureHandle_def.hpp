@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TextureHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,8 @@ struct TextureHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::TextureHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::TextureHandle, "UnityEngine.Rendering.RenderGraphModule", "TextureHandle");
+// [DebuggerDisplay("Texture ({handle.index})")]
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -55,7 +57,7 @@ public:
   inline bool IsValid();
 
   /// @brief Method .ctor, addr 0x67ea064, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
 
   /// @brief Method .ctor, addr 0x67e7000, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, bool shared, bool builtin);
@@ -83,8 +85,8 @@ public:
   // @brief default ctor
   constexpr TextureHandle();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None }, CppParam { name: "builtin", ty: "bool", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "builtin", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }]
   constexpr TextureHandle(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle handle, bool builtin) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerCanvas.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerCanvas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,6 +65,7 @@ MARK_REF_T(::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c__DisplayClass1
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerCanvas*, "UnityEngine.Rendering.UI", "DebugUIHandlerCanvas");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c*, "UnityEngine.Rendering.UI", "DebugUIHandlerCanvas/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c__DisplayClass14_0*, "UnityEngine.Rendering.UI", "DebugUIHandlerCanvas/<>c__DisplayClass14_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::UI {
 // Is value type: false
@@ -110,13 +111,13 @@ protected:
   constexpr DebugUIHandlerCanvas___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerCanvas___c(DebugUIHandlerCanvas___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerCanvas___c(DebugUIHandlerCanvas___c const&) = delete;
+  DebugUIHandlerCanvas___c(DebugUIHandlerCanvas___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12510 };
@@ -127,6 +128,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::UI::DebugUIHandlerCanvas___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::UI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::UI {
 // Is value type: false
@@ -157,13 +159,13 @@ protected:
   constexpr DebugUIHandlerCanvas___c__DisplayClass14_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c__DisplayClass14_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerCanvas___c__DisplayClass14_0(DebugUIHandlerCanvas___c__DisplayClass14_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas___c__DisplayClass14_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerCanvas___c__DisplayClass14_0(DebugUIHandlerCanvas___c__DisplayClass14_0 const&) = delete;
+  DebugUIHandlerCanvas___c__DisplayClass14_0(DebugUIHandlerCanvas___c__DisplayClass14_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12511 };
@@ -327,13 +329,13 @@ protected:
   constexpr DebugUIHandlerCanvas();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerCanvas(DebugUIHandlerCanvas&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerCanvas", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerCanvas(DebugUIHandlerCanvas const&) = delete;
+  DebugUIHandlerCanvas(DebugUIHandlerCanvasconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12512 };

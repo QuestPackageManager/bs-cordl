@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\SafeStringMarshal.hpp"
+// IWYU pragma private; include "Mono/SafeStringMarshal.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Mono/zzzz__SafeStringMarshal_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -110,8 +110,8 @@ constexpr Mono::SafeStringMarshal::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* Mono::SafeStringMarshal::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "marshaled_string", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "marshaled_string", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Mono::SafeStringMarshal::SafeStringMarshal(::StringW str, ::System::IntPtr marshaled_string) noexcept {
   this->str = str;
   this->marshaled_string = marshaled_string;

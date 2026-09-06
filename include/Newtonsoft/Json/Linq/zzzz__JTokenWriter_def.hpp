@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JTokenWriter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JTokenWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,8 @@ class JTokenWriter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Linq::JTokenWriter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JTokenWriter*, "Newtonsoft.Json.Linq", "JTokenWriter");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonWriter
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
@@ -87,6 +89,7 @@ public:
   /// @brief Method AddJValue, addr 0x5d87370, size 0x8c, virtual false, abstract: false, final false
   inline void AddJValue(::Newtonsoft::Json::Linq::JValue* value, ::Newtonsoft::Json::JsonToken token);
 
+  /// [NullableContext(1)]
   /// @brief Method AddParent, addr 0x5d86fe0, size 0x40, virtual false, abstract: false, final false
   inline void AddParent(::Newtonsoft::Json::Linq::JContainer* container);
 
@@ -101,6 +104,7 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JTokenWriter* New_ctor();
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Linq::JTokenWriter* New_ctor(::Newtonsoft::Json::Linq::JContainer* container);
 
   /// @brief Method RemoveParent, addr 0x5d87020, size 0x54, virtual false, abstract: false, final false
@@ -115,6 +119,7 @@ public:
   /// @brief Method WriteNull, addr 0x5d87504, size 0x3c, virtual true, abstract: false, final false
   inline void WriteNull();
 
+  /// [NullableContext(1)]
   /// @brief Method WritePropertyName, addr 0x5d871a0, size 0xf0, virtual true, abstract: false, final false
   inline void WritePropertyName(::StringW name);
 
@@ -124,15 +129,18 @@ public:
   /// @brief Method WriteStartArray, addr 0x5d87074, size 0x8c, virtual true, abstract: false, final false
   inline void WriteStartArray();
 
+  /// [NullableContext(1)]
   /// @brief Method WriteStartConstructor, addr 0x5d87100, size 0x9c, virtual true, abstract: false, final false
   inline void WriteStartConstructor(::StringW name);
 
   /// @brief Method WriteStartObject, addr 0x5d86f54, size 0x8c, virtual true, abstract: false, final false
   inline void WriteStartObject();
 
+  /// [NullableContext(1)]
   /// @brief Method WriteToken, addr 0x5d88630, size 0x294, virtual true, abstract: false, final false
   inline void WriteToken(::Newtonsoft::Json::JsonReader* reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments);
 
+  /// [NullableContext(1)]
   /// @brief Method WriteTokenAsync, addr 0x5d86cfc, size 0x120, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteTokenAsync(::Newtonsoft::Json::JsonReader* reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments,
                                                            ::System::Threading::CancellationToken cancellationToken);
@@ -188,15 +196,19 @@ public:
   /// @brief Method WriteValue, addr 0x5d8782c, size 0x8c, virtual true, abstract: false, final false
   inline void WriteValue(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method WriteValue, addr 0x5d87f00, size 0x5c, virtual true, abstract: false, final false
   inline void WriteValue(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method WriteValue, addr 0x5d87d54, size 0x5c, virtual true, abstract: false, final false
   inline void WriteValue(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method WriteValue, addr 0x5d877d0, size 0x5c, virtual true, abstract: false, final false
   inline void WriteValue(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method WriteValue, addr 0x5d87930, size 0xa8, virtual true, abstract: false, final false
   inline void WriteValue(uint64_t value);
 
@@ -230,6 +242,7 @@ public:
   /// @brief Method .ctor, addr 0x5d86ee0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d86e40, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JContainer* container);
 
@@ -245,13 +258,13 @@ protected:
   constexpr JTokenWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JTokenWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JTokenWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JTokenWriter(JTokenWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JTokenWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JTokenWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JTokenWriter(JTokenWriter const&) = delete;
+  JTokenWriter(JTokenWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13617 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\TypedParameterExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/TypedParameterExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ public:
   /// @brief Method .ctor, addr 0x5f89480, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW name);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f89520, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
@@ -48,17 +49,18 @@ protected:
   constexpr TypedParameterExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypedParameterExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedParameterExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypedParameterExpression(TypedParameterExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypedParameterExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedParameterExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypedParameterExpression(TypedParameterExpression const&) = delete;
+  TypedParameterExpression(TypedParameterExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16223 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 

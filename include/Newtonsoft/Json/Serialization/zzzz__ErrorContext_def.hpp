@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ErrorContext.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ErrorContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class ErrorContext;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::ErrorContext*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::ErrorContext*, "Newtonsoft.Json.Serialization", "ErrorContext");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -30,8 +32,10 @@ public:
 
   __declspec(property(get = get_Handled, put = set_Handled)) bool Handled;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_Member)) ::System::Object* Member;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_OriginalObject)) ::System::Object* OriginalObject;
 
   __declspec(property(get = get_Path)) ::StringW Path;
@@ -56,7 +60,8 @@ public:
   /// @brief Field <Traced>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Traced_k__BackingField, put = __cordl_internal_set__Traced_k__BackingField)) bool _Traced_k__BackingField;
 
-  static inline ::Newtonsoft::Json::Serialization::ErrorContext* New_ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
+  static inline ::Newtonsoft::Json::Serialization::ErrorContext* New_ctor(/* [Nullable(2)] */ ::System::Object* originalObject, /* [Nullable(2)] */ ::System::Object* member, ::StringW path,
+                                                                          ::System::Exception* error);
 
   constexpr ::System::Exception* const& __cordl_internal_get__Error_k__BackingField() const;
 
@@ -95,29 +100,39 @@ public:
   constexpr void __cordl_internal_set__Traced_k__BackingField(bool value);
 
   /// @brief Method .ctor, addr 0x5d40e38, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
+  inline void _ctor(/* [Nullable(2)] */ ::System::Object* originalObject, /* [Nullable(2)] */ ::System::Object* member, ::StringW path, ::System::Exception* error);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Error, addr 0x5d40e54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_Error();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handled, addr 0x5d40e74, size 0x8, virtual false, abstract: false, final false
   inline bool get_Handled();
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method get_Member, addr 0x5d40e64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Member();
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method get_OriginalObject, addr 0x5d40e5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_OriginalObject();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Path, addr 0x5d40e6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Traced, addr 0x5d40e44, size 0x8, virtual false, abstract: false, final false
   inline bool get_Traced();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Handled, addr 0x5d40e7c, size 0x8, virtual false, abstract: false, final false
   inline void set_Handled(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Traced, addr 0x5d40e4c, size 0x8, virtual false, abstract: false, final false
   inline void set_Traced(bool value);
 
@@ -127,32 +142,40 @@ protected:
   constexpr ErrorContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ErrorContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ErrorContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ErrorContext(ErrorContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ErrorContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ErrorContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ErrorContext(ErrorContext const&) = delete;
+  ErrorContext(ErrorContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13488 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Traced>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Traced_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Error>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Exception* ____Error_k__BackingField;
 
+  /// [Nullable(2)]
+  /// [CompilerGenerated]
   /// @brief Field <OriginalObject>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____OriginalObject_k__BackingField;
 
+  /// [Nullable(2)]
+  /// [CompilerGenerated]
   /// @brief Field <Member>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ____Member_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Path>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____Path_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Handled>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____Handled_k__BackingField;
 

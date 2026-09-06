@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionSetupExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionSetupExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionSetupExtensions_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
@@ -514,8 +515,9 @@ inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax Unit
                                                                                          { "InsertPartBinding", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>(*this, ___internal_method, partName, path);
 }
-// Ctor Parameters [CppParam { name: "m_ActionMap", ty: "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Action", ty:
-// "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ActionMap", ty: "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Action", ty:
+// "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::InputActionSetupExtensions_BindingSyntax(::UnityEngine::InputSystem::InputActionMap* m_ActionMap,
                                                                                                                          ::UnityEngine::InputSystem::InputAction* m_Action,
                                                                                                                          int32_t m_BindingIndexInMap) noexcept {
@@ -592,8 +594,9 @@ inline ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax Un
                                                            { "With", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax>(*this, ___internal_method, name, binding, groups, processors);
 }
-// Ctor Parameters [CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ActionMap", ty:
-// "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ActionMap", ty:
+// "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::InputActionSetupExtensions_CompositeSyntax(::UnityEngine::InputSystem::InputAction* m_Action,
                                                                                                                              ::UnityEngine::InputSystem::InputActionMap* m_ActionMap,
                                                                                                                              int32_t m_BindingIndexInMap) noexcept {
@@ -750,6 +753,7 @@ inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSynta
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>(*this, ___internal_method, bindingGroup);
 }
 template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
 inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithRequiredDevice() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -758,6 +762,7 @@ inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSynta
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>(*this, ___internal_method);
 }
 template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
 inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithOptionalDevice() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -766,6 +771,7 @@ inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSynta
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>(*this, ___internal_method);
 }
 template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
 inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::OrWithRequiredDevice() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -774,6 +780,7 @@ inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSynta
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>(*this, ___internal_method);
 }
 template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
 inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::OrWithOptionalDevice() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -805,7 +812,9 @@ UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::OrWith
                                                                                          { "OrWithOptionalDevice", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>(*this, ___internal_method, controlPath);
 }
-template <typename TDevice> inline ::StringW UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::DeviceTypeToControlPath() {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*>)
+inline ::StringW UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::DeviceTypeToControlPath() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>(),
                                                                                               { "DeviceTypeToControlPath", { ::i2c::class_of<TDevice>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDevice>() })));
@@ -823,8 +832,9 @@ inline void UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSy
                                               { "AddDeviceEntry", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, controlPath, flags);
 }
-// Ctor Parameters [CppParam { name: "m_Asset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ControlSchemeIndex", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ControlScheme", ty: "::UnityEngine::InputSystem::InputControlScheme", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Asset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_ControlSchemeIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ControlScheme", ty: "::UnityEngine::InputSystem::InputControlScheme", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::InputActionSetupExtensions_ControlSchemeSyntax(
     ::UnityW<::UnityEngine::InputSystem::InputActionAsset> m_Asset, int32_t m_ControlSchemeIndex, ::UnityEngine::InputSystem::InputControlScheme m_ControlScheme) noexcept {
   this->m_Asset = m_Asset;

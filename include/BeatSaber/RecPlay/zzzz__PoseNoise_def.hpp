@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PoseNoise.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseNoise.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,8 +36,8 @@ public:
   // @brief default ctor
   constexpr PoseNoise();
 
-  // Ctor Parameters [CppParam { name: "frequency", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "move", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rotate", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "frequency", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "move", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "rotate", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr PoseNoise(float_t frequency, float_t move, float_t rotate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRFace.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRFace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,15 +41,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRFace_IMeshWeightsProvider {
 public:
   // Declarations
-  /// @brief Method GetWeightValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetWeightValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetWeightValue(int32_t blendshapeIndex, ::by_ref<float_t> weightValue);
 
-  /// @brief Method UpdateWeights, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateWeights, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateWeights(::GlobalNamespace::OVRFaceExpressions* faceExpressions);
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRFace_IMeshWeightsProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRFace_IMeshWeightsProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRFace_IMeshWeightsProvider(OVRFace_IMeshWeightsProvider const&) = delete;
+  OVRFace_IMeshWeightsProvider(OVRFace_IMeshWeightsProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7055 };
@@ -58,6 +58,9 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [RequireComponent(typeof(UnityEngine.SkinnedMeshRenderer))]
+// [HelpURL("https://developer.oculus.com/documentation/unity/move-face-tracking/")]
+// [Feature((Meta.XR.Util.Feature)3)]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -168,23 +171,29 @@ protected:
   constexpr OVRFace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRFace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRFace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRFace(OVRFace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRFace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRFace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRFace(OVRFace const&) = delete;
+  OVRFace(OVRFaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7056 };
 
+  /// [SerializeField]
+  /// [Tooltip("The OVRFaceExpressions Component to fetch the Face Tracking weights from that are to be applied")]
   /// @brief Field _faceExpressions, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRFaceExpressions> ____faceExpressions;
 
+  /// [SerializeField]
+  /// [Tooltip("A multiplier to the weights read from the OVRFaceExpressions to exaggerate facial expressions")]
   /// @brief Field _blendShapeStrengthMultiplier, offset: 0x28, size: 0x4, def value: None
   float_t ____blendShapeStrengthMultiplier;
 
+  /// [SerializeField]
+  /// [Tooltip("Optional component that contains IMeshWeightsProvider.")]
   /// @brief Field _meshWeightsProviderObject, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____meshWeightsProviderObject;
 

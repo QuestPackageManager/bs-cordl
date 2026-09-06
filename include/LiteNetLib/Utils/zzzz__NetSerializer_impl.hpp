@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NetSerializer.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NetSerializer.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NetSerializer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NetSerializer_def.hpp"
@@ -261,94 +262,140 @@ LiteNetLib::Utils::NetSerializer_FastCallStatic_2<TClass, TProperty>::New_ctor(:
 }
 // Ctor Parameters []
 template <typename TClass, typename TProperty> constexpr ::LiteNetLib::Utils::NetSerializer_FastCallStatic_2<TClass, TProperty>::NetSerializer_FastCallStatic_2() {}
-template <typename TClass, typename TProperty> constexpr TProperty& LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::__cordl_internal_get__p() {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+constexpr TProperty& LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::__cordl_internal_get__p() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____p;
 }
-template <typename TClass, typename TProperty> constexpr TProperty const& LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::__cordl_internal_get__p() const {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+constexpr TProperty const& LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::__cordl_internal_get__p() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____p;
 }
-template <typename TClass, typename TProperty> constexpr void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::__cordl_internal_set__p(TProperty value) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+constexpr void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::__cordl_internal_set__p(TProperty value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____p = value;
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inf, r);
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::Write(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::Write(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inf, w);
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::ReadArray(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::ReadArray(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inf, r);
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::WriteArray(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::WriteArray(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inf, w);
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::_ctor() {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
 inline ::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>* LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>*>());
 }
 // Ctor Parameters []
-template <typename TClass, typename TProperty> constexpr ::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::NetSerializer_FastCallStruct_2() {}
-template <typename TClass, typename TProperty> constexpr ::System::Func_1<TProperty>*& LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::__cordl_internal_get__constructor() {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+constexpr ::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>::NetSerializer_FastCallStruct_2() {}
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+constexpr ::System::Func_1<TProperty>*& LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::__cordl_internal_get__constructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructor;
 }
 template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
 constexpr ::System::Func_1<TProperty>* const& LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::__cordl_internal_get__constructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructor;
 }
 template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
 constexpr void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::__cordl_internal_set__constructor(::System::Func_1<TProperty>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____constructor = value;
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::_ctor(::System::Func_1<TProperty>* constructor) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::_ctor(::System::Func_1<TProperty>* constructor) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Func_1<TProperty>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, constructor);
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inf, r);
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::Write(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::Write(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inf, w);
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::ReadArray(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::ReadArray(TClass inf, ::LiteNetLib::Utils::NetDataReader* r) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inf, r);
 }
-template <typename TClass, typename TProperty> inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::WriteArray(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::WriteArray(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inf, w);
 }
 template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
 inline ::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>* LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::New_ctor(::System::Func_1<TProperty>* constructor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>*>(constructor));
 }
 // Ctor Parameters []
-template <typename TClass, typename TProperty> constexpr ::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::NetSerializer_FastCallClass_2() {}
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+constexpr ::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>::NetSerializer_FastCallClass_2() {}
 template <typename T> inline void LiteNetLib::Utils::NetSerializer_IntSerializer_1<T>::Read(T inf, ::LiteNetLib::Utils::NetDataReader* r) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_IntSerializer_1<T>*>(), 5 })));
@@ -899,51 +946,78 @@ inline ::LiteNetLib::Utils::NetSerializer_CustomType* LiteNetLib::Utils::NetSeri
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::NetSerializer_CustomType::NetSerializer_CustomType() {}
-template <typename TProperty> template <typename T> inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::Get() {
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+template <typename T>
+inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::Get() {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>*>(), 4 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<::LiteNetLib::Utils::NetSerializer_FastCall_1<T>*>(this, ___internal_method);
 }
-template <typename TProperty> inline void LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::_ctor() {
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TProperty> inline ::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>* LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::New_ctor() {
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+inline ::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>* LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>*>());
 }
 // Ctor Parameters []
-template <typename TProperty> constexpr ::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::NetSerializer_CustomTypeStruct_1() {}
-template <typename TProperty> constexpr ::System::Func_1<TProperty>*& LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::__cordl_internal_get__constructor() {
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+constexpr ::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::NetSerializer_CustomTypeStruct_1() {}
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+constexpr ::System::Func_1<TProperty>*& LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::__cordl_internal_get__constructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructor;
 }
-template <typename TProperty> constexpr ::System::Func_1<TProperty>* const& LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::__cordl_internal_get__constructor() const {
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+constexpr ::System::Func_1<TProperty>* const& LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::__cordl_internal_get__constructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constructor;
 }
-template <typename TProperty> constexpr void LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::__cordl_internal_set__constructor(::System::Func_1<TProperty>* value) {
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+constexpr void LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::__cordl_internal_set__constructor(::System::Func_1<TProperty>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____constructor = value;
 }
-template <typename TProperty> inline void LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::_ctor(::System::Func_1<TProperty>* constructor) {
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+inline void LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::_ctor(::System::Func_1<TProperty>* constructor) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>*>(), { ".ctor", {}, { ::i2c::type_of<::System::Func_1<TProperty>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, constructor);
 }
-template <typename TProperty> template <typename T> inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::Get() {
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+template <typename T>
+inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::Get() {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>*>(), 4 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() }));
   return ::cordl_internals::RunMethodRethrow<::LiteNetLib::Utils::NetSerializer_FastCall_1<T>*>(this, ___internal_method);
 }
 template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
 inline ::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>* LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::New_ctor(::System::Func_1<TProperty>* constructor) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>*>(constructor));
 }
 // Ctor Parameters []
-template <typename TProperty> constexpr ::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::NetSerializer_CustomTypeClass_1() {}
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+constexpr ::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::NetSerializer_CustomTypeClass_1() {}
 template <typename TProperty>
 constexpr ::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>*& LiteNetLib::Utils::NetSerializer_CustomTypeStatic_1<TProperty>::__cordl_internal_get__writer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1060,13 +1134,17 @@ LiteNetLib::Utils::NetSerializer::__cordl_internal_set__registeredTypes(::System
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____registeredTypes = value;
 }
-template <typename T> inline void LiteNetLib::Utils::NetSerializer::RegisterNestedType() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetSerializer::RegisterNestedType() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer*>(), { "RegisterNestedType", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void LiteNetLib::Utils::NetSerializer::RegisterNestedType(::System::Func_1<T>* constructor) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<T>)
+inline void LiteNetLib::Utils::NetSerializer::RegisterNestedType(::System::Func_1<T>* constructor) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer*>(), { "RegisterNestedType", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Func_1<T>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -1101,27 +1179,35 @@ template <typename T> inline void LiteNetLib::Utils::NetSerializer::Register() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline T LiteNetLib::Utils::NetSerializer::Deserialize(::LiteNetLib::Utils::NetDataReader* reader) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T LiteNetLib::Utils::NetSerializer::Deserialize(::LiteNetLib::Utils::NetDataReader* reader) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer*>(),
                                                                                               { "Deserialize", { ::i2c::class_of<T>() }, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method, reader);
 }
-template <typename T> inline bool LiteNetLib::Utils::NetSerializer::Deserialize(::LiteNetLib::Utils::NetDataReader* reader, T target) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool LiteNetLib::Utils::NetSerializer::Deserialize(::LiteNetLib::Utils::NetDataReader* reader, T target) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer*>(),
                                                            { "Deserialize", { ::i2c::class_of<T>() }, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, reader, target);
 }
-template <typename T> inline void LiteNetLib::Utils::NetSerializer::Serialize(::LiteNetLib::Utils::NetDataWriter* writer, T obj) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void LiteNetLib::Utils::NetSerializer::Serialize(::LiteNetLib::Utils::NetDataWriter* writer, T obj) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer*>(),
                                                            { "Serialize", { ::i2c::class_of<T>() }, { ::i2c::type_of<::LiteNetLib::Utils::NetDataWriter*>(), ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, obj);
 }
-template <typename T> inline ::ArrayW<uint8_t> LiteNetLib::Utils::NetSerializer::Serialize(T obj) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::ArrayW<uint8_t> LiteNetLib::Utils::NetSerializer::Serialize(T obj) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetSerializer*>(), { "Serialize", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

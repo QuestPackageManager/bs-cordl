@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidGravitySensor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidGravitySensor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AndroidGravitySensor;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Android::AndroidGravitySensor*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::AndroidGravitySensor*, "UnityEngine.InputSystem.Android", "AndroidGravitySensor");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.Android.LowLevel.AndroidSensorState), variants = "Gravity", hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.GravitySensor
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AndroidGravitySensor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGravitySensor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGravitySensor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidGravitySensor(AndroidGravitySensor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGravitySensor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGravitySensor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidGravitySensor(AndroidGravitySensor const&) = delete;
+  AndroidGravitySensor(AndroidGravitySensorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8931 };

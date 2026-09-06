@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextureProcessor3D.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextureProcessor3D.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/zzzz__Material_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
@@ -10,7 +10,7 @@
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TextureProcessor3D_ComputeKernel::TextureProcessor3D_ComputeKernel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -28,10 +28,11 @@ constexpr ::GlobalNamespace::TextureProcessor3D_ComputeKernel GlobalNamespace::T
 constexpr ::GlobalNamespace::TextureProcessor3D_ComputeKernel GlobalNamespace::TextureProcessor3D_ComputeKernel::RectRipple{ static_cast<int32_t>(0x9) };
 constexpr ::GlobalNamespace::TextureProcessor3D_ComputeKernel GlobalNamespace::TextureProcessor3D_ComputeKernel::TextureMaskMult{ static_cast<int32_t>(0xa) };
 constexpr ::GlobalNamespace::TextureProcessor3D_ComputeKernel GlobalNamespace::TextureProcessor3D_ComputeKernel::TextureMaskAdd{ static_cast<int32_t>(0xb) };
-// Ctor Parameters [CppParam { name: "_computeKernel", ty: "::GlobalNamespace::TextureProcessor3D_ComputeKernel", modifiers: "", def_value: Some("{}") }, CppParam { name: "_inputTextureIndex", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_speed", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_spatialScale", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_phase", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_param1", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_param2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_outputOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_computeKernel", ty: "::GlobalNamespace::TextureProcessor3D_ComputeKernel", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_inputTextureIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_speed", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "_spatialScale", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_phase", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_param1", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_param2", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_outputOffset", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TextureProcessor3D_ChannelParams::TextureProcessor3D_ChannelParams(::GlobalNamespace::TextureProcessor3D_ComputeKernel _computeKernel, int32_t _inputTextureIndex,
                                                                                                 float_t _speed, float_t _spatialScale, float_t _phase, float_t _param1, float_t _param2,
                                                                                                 float_t _outputOffset) noexcept {
@@ -46,9 +47,9 @@ constexpr ::GlobalNamespace::TextureProcessor3D_ChannelParams::TextureProcessor3
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextureProcessor3D_ChannelParams::TextureProcessor3D_ChannelParams() {}
-// Ctor Parameters [CppParam { name: "channelA", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: Some("{}") }, CppParam { name: "channelB", ty:
-// "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: Some("{}") }, CppParam { name: "channelC", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "channelD", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "channelA", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "channelB", ty:
+// "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "channelC", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "channelD", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParams", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TextureProcessor3D_MotionPreset::TextureProcessor3D_MotionPreset(::GlobalNamespace::TextureProcessor3D_ChannelParams channelA,
                                                                                               ::GlobalNamespace::TextureProcessor3D_ChannelParams channelB,
                                                                                               ::GlobalNamespace::TextureProcessor3D_ChannelParams channelC,
@@ -60,11 +61,12 @@ constexpr ::GlobalNamespace::TextureProcessor3D_MotionPreset::TextureProcessor3D
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextureProcessor3D_MotionPreset::TextureProcessor3D_MotionPreset() {}
-// Ctor Parameters [CppParam { name: "_computeKernel", ty: "::System::Nullable_1<::GlobalNamespace::TextureProcessor3D_ComputeKernel>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_inputTextureIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_speed", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_spatialScale", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_phase", ty: "::System::Nullable_1<float_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_param1", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_param2", ty:
-// "::System::Nullable_1<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_outputOffset", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_computeKernel", ty: "::System::Nullable_1<::GlobalNamespace::TextureProcessor3D_ComputeKernel>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "_inputTextureIndex", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_speed", ty: "::System::Nullable_1<float_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_spatialScale", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_phase",
+// ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_param1", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_param2", ty: "::System::Nullable_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_outputOffset", ty:
+// "::System::Nullable_1<float_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention::TextureProcessor3D_ChannelParamsChangeIntention(
     ::System::Nullable_1<::GlobalNamespace::TextureProcessor3D_ComputeKernel> _computeKernel, ::System::Nullable_1<int32_t> _inputTextureIndex, ::System::Nullable_1<float_t> _speed,
     ::System::Nullable_1<float_t> _spatialScale, ::System::Nullable_1<float_t> _phase, ::System::Nullable_1<float_t> _param1, ::System::Nullable_1<float_t> _param2,
@@ -80,10 +82,10 @@ constexpr ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention::Te
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention::TextureProcessor3D_ChannelParamsChangeIntention() {}
-// Ctor Parameters [CppParam { name: "channelA", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: Some("{}") }, CppParam { name: "channelB", ty:
-// "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: Some("{}") }, CppParam { name: "channelC", ty:
-// "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: Some("{}") }, CppParam { name: "channelD", ty:
-// "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "channelA", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "channelB", ty: "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "channelC", ty:
+// "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "channelD", ty:
+// "::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TextureProcessor3D_MotionPresetChangeIntention::TextureProcessor3D_MotionPresetChangeIntention(
     ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention channelA, ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention channelB,
     ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention channelC, ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention channelD) noexcept {
@@ -2005,7 +2007,9 @@ inline void GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyChannel
                                                                                              ::i2c::type_of<::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, channel, channelIntention);
 }
-template <typename T> inline void GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyParamIntention_163_1(::by_ref<T> param, ::by_ref<::System::Nullable_1<T>> intention) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyParamIntention_163_1(::by_ref<T> param, ::by_ref<::System::Nullable_1<T>> intention) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(),

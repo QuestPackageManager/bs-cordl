@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   // @brief default ctor
   constexpr EntryType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr EntryType(uint16_t value__) noexcept;
 
   /// @brief Field BeginStencilMask value: U16(8)

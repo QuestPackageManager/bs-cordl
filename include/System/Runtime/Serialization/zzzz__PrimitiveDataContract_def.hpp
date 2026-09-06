@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\PrimitiveDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/PrimitiveDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,13 +122,13 @@ protected:
   constexpr PrimitiveDataContract_PrimitiveDataContractCriticalHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveDataContract_PrimitiveDataContractCriticalHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveDataContract_PrimitiveDataContractCriticalHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrimitiveDataContract_PrimitiveDataContractCriticalHelper(PrimitiveDataContract_PrimitiveDataContractCriticalHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveDataContract_PrimitiveDataContractCriticalHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveDataContract_PrimitiveDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrimitiveDataContract_PrimitiveDataContractCriticalHelper(PrimitiveDataContract_PrimitiveDataContractCriticalHelper const&) = delete;
+  PrimitiveDataContract_PrimitiveDataContractCriticalHelper(PrimitiveDataContract_PrimitiveDataContractCriticalHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17060 };
@@ -222,13 +222,13 @@ public:
   /// @brief Method get_IsPrimitive, addr 0x615ac20, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPrimitive();
 
-  /// @brief Method get_ReadMethodName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMethodName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_ReadMethodName();
 
   /// @brief Method get_TopLevelElementNamespace, addr 0x615abbc, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementNamespace();
 
-  /// @brief Method get_WriteMethodName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMethodName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_WriteMethodName();
 
   /// @brief Method get_XmlFormatContentWriterMethod, addr 0x615af88, size 0x25c, virtual false, abstract: false, final false
@@ -246,13 +246,13 @@ protected:
   constexpr PrimitiveDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrimitiveDataContract(PrimitiveDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrimitiveDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrimitiveDataContract(PrimitiveDataContract const&) = delete;
+  PrimitiveDataContract(PrimitiveDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17061 };

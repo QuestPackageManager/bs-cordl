@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Principal\SecurityIdentifier.hpp"
+// IWYU pragma private; include "System/Security/Principal/SecurityIdentifier.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_impl.hpp"
 #include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_def.hpp"

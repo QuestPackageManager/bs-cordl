@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\KnownTypeAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/KnownTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__KnownTypeAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"

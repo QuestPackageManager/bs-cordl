@@ -1,17 +1,20 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRResources.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(OVRResources)
 namespace GlobalNamespace {
 class OVRResources___c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
-template <typename T> class OVRResources___c__DisplayClass3_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+class OVRResources___c__DisplayClass3_0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -30,7 +33,9 @@ namespace GlobalNamespace {
 class OVRResources___c__DisplayClass2_0;
 }
 namespace GlobalNamespace {
-template <typename T> class OVRResources___c__DisplayClass3_0_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+class OVRResources___c__DisplayClass3_0_1;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRResources*);
@@ -39,6 +44,7 @@ MARK_GEN_REF_T_PTR(::GlobalNamespace::OVRResources___c__DisplayClass3_0_1);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRResources*, "", "OVRResources");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRResources___c__DisplayClass2_0*, "", "OVRResources/<>c__DisplayClass2_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::OVRResources___c__DisplayClass3_0_1, "", "OVRResources/<>c__DisplayClass3_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -69,13 +75,13 @@ protected:
   constexpr OVRResources___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRResources___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRResources___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRResources___c__DisplayClass2_0(OVRResources___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRResources___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRResources___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRResources___c__DisplayClass2_0(OVRResources___c__DisplayClass2_0 const&) = delete;
+  OVRResources___c__DisplayClass2_0(OVRResources___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7650 };
@@ -91,10 +97,12 @@ static_assert(offsetof(::GlobalNamespace::OVRResources___c__DisplayClass2_0, ___
 static_assert(sizeof(::GlobalNamespace::OVRResources___c__DisplayClass2_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
 // Is value type: false
 // CS Name: OVRResources/<>c__DisplayClass3_0`1<T>
 class CORDL_TYPE OVRResources___c__DisplayClass3_0_1 : public ::System::Object {
@@ -123,13 +131,13 @@ protected:
   constexpr OVRResources___c__DisplayClass3_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRResources___c__DisplayClass3_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRResources___c__DisplayClass3_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRResources___c__DisplayClass3_0_1(OVRResources___c__DisplayClass3_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRResources___c__DisplayClass3_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRResources___c__DisplayClass3_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRResources___c__DisplayClass3_0_1(OVRResources___c__DisplayClass3_0_1 const&) = delete;
+  OVRResources___c__DisplayClass3_0_1(OVRResources___c__DisplayClass3_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7651 };
@@ -141,7 +149,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRResources
@@ -150,7 +158,9 @@ public:
   // Declarations
   using __c__DisplayClass2_0 = ::GlobalNamespace::OVRResources___c__DisplayClass2_0;
 
-  template <typename T> using __c__DisplayClass3_0_1 = ::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  using __c__DisplayClass3_0_1 = ::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>;
 
   /// @brief Field assetNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_assetNames, put = setStaticF_assetNames)) ::System::Collections::Generic::List_1<::StringW>* assetNames;
@@ -162,7 +172,9 @@ public:
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Load(::StringW path);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+  static inline T Load(::StringW path);
 
   static inline ::GlobalNamespace::OVRResources* New_ctor();
 
@@ -186,13 +198,13 @@ protected:
   constexpr OVRResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRResources(OVRResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRResources(OVRResources const&) = delete;
+  OVRResources(OVRResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7652 };

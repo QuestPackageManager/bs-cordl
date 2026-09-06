@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\OrderedEnumerable_1.hpp"
+// IWYU pragma private; include "System/Linq/OrderedEnumerable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ MARK_GEN_REF_T_PTR(::System::Linq::OrderedEnumerable_1);
 MARK_GEN_REF_T_PTR(::System::Linq::OrderedEnumerable_1__GetEnumerator_d__1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::OrderedEnumerable_1, "System.Linq", "OrderedEnumerable`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::OrderedEnumerable_1__GetEnumerator_d__1, "System.Linq", "OrderedEnumerable`1/<GetEnumerator>d__1");
+// [CompilerGenerated]
 // Dependencies System.Linq.Buffer`1<TElement>, System.Object
 namespace System::Linq {
 // cpp template
@@ -96,17 +97,22 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Linq::OrderedEnumerable_1__GetEnumerator_d__1<TElement>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<TElement>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TElement System_Collections_Generic_IEnumerator_TElement__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -146,6 +152,7 @@ public:
 
   constexpr void __cordl_internal_set__map_5__3(::ArrayW<int32_t> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -164,13 +171,13 @@ protected:
   constexpr OrderedEnumerable_1__GetEnumerator_d__1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1__GetEnumerator_d__1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1__GetEnumerator_d__1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrderedEnumerable_1__GetEnumerator_d__1(OrderedEnumerable_1__GetEnumerator_d__1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1__GetEnumerator_d__1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1__GetEnumerator_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedEnumerable_1__GetEnumerator_d__1(OrderedEnumerable_1__GetEnumerator_d__1 const&) = delete;
+  OrderedEnumerable_1__GetEnumerator_d__1(OrderedEnumerable_1__GetEnumerator_d__1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16098 };
@@ -220,9 +227,10 @@ public:
   /// @brief Convert operator to "::System::Linq::IOrderedEnumerable_1<TElement>"
   constexpr operator ::System::Linq::IOrderedEnumerable_1<TElement>*() noexcept;
 
-  /// @brief Method GetEnumerableSorter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerableSorter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(::System::Linq::EnumerableSorter_1<TElement>* next);
 
+  /// [IteratorStateMachine(typeof(System.Linq.OrderedEnumerable`1::<GetEnumerator>d__1<TElement>))]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TElement>* GetEnumerator();
 
@@ -260,13 +268,13 @@ protected:
   constexpr OrderedEnumerable_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrderedEnumerable_1(OrderedEnumerable_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrderedEnumerable_1(OrderedEnumerable_1 const&) = delete;
+  OrderedEnumerable_1(OrderedEnumerable_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16099 };

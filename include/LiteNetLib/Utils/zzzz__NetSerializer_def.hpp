@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NetSerializer.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NetSerializer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -28,13 +29,18 @@ namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_ClassInfo_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TProperty> class NetSerializer_CustomTypeClass_1;
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+class NetSerializer_CustomTypeClass_1;
 }
 namespace LiteNetLib::Utils {
 template <typename TProperty> class NetSerializer_CustomTypeStatic_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TProperty> class NetSerializer_CustomTypeStruct_1;
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+class NetSerializer_CustomTypeStruct_1;
 }
 namespace LiteNetLib::Utils {
 class NetSerializer_CustomType;
@@ -49,7 +55,9 @@ namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_EnumIntSerializer_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class NetSerializer_FastCallClass_2;
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+class NetSerializer_FastCallClass_2;
 }
 namespace LiteNetLib::Utils {
 template <typename TClass, typename TProperty> class NetSerializer_FastCallSpecificAuto_2;
@@ -61,7 +69,10 @@ namespace LiteNetLib::Utils {
 template <typename TClass, typename TProperty> class NetSerializer_FastCallStatic_2;
 }
 namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class NetSerializer_FastCallStruct_2;
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+class NetSerializer_FastCallStruct_2;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_FastCall_1;
@@ -143,13 +154,18 @@ namespace LiteNetLib::Utils {
 class NetSerializer_CustomType;
 }
 namespace LiteNetLib::Utils {
-template <typename TProperty> class NetSerializer_CustomTypeClass_1;
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+class NetSerializer_CustomTypeClass_1;
 }
 namespace LiteNetLib::Utils {
 template <typename TProperty> class NetSerializer_CustomTypeStatic_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TProperty> class NetSerializer_CustomTypeStruct_1;
+template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+class NetSerializer_CustomTypeStruct_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_DoubleSerializer_1;
@@ -161,7 +177,9 @@ namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_EnumIntSerializer_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class NetSerializer_FastCallClass_2;
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+class NetSerializer_FastCallClass_2;
 }
 namespace LiteNetLib::Utils {
 template <typename TClass, typename TProperty> class NetSerializer_FastCallSpecificAuto_2;
@@ -173,7 +191,10 @@ namespace LiteNetLib::Utils {
 template <typename TClass, typename TProperty> class NetSerializer_FastCallStatic_2;
 }
 namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class NetSerializer_FastCallStruct_2;
+template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
+class NetSerializer_FastCallStruct_2;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class NetSerializer_FastCall_1;
@@ -282,13 +303,13 @@ public:
 
   static inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* New_ctor();
 
-  /// @brief Method Read, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
   /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -309,13 +330,13 @@ protected:
   constexpr NetSerializer_FastCall_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCall_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCall_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_FastCall_1(NetSerializer_FastCall_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCall_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCall_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCall_1(NetSerializer_FastCall_1 const&) = delete;
+  NetSerializer_FastCall_1(NetSerializer_FastCall_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20108 };
@@ -392,13 +413,13 @@ protected:
   constexpr NetSerializer_FastCallSpecific_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecific_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecific_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_FastCallSpecific_2(NetSerializer_FastCallSpecific_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecific_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecific_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallSpecific_2(NetSerializer_FastCallSpecific_2 const&) = delete;
+  NetSerializer_FastCallSpecific_2(NetSerializer_FastCallSpecific_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20109 };
@@ -428,10 +449,10 @@ template <typename TClass, typename TProperty>
 class CORDL_TYPE NetSerializer_FastCallSpecificAuto_2 : public ::LiteNetLib::Utils::NetSerializer_FastCallSpecific_2<TClass, TProperty> {
 public:
   // Declarations
-  /// @brief Method ElementRead, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ElementRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ElementRead(::LiteNetLib::Utils::NetDataReader* r, ::by_ref<TProperty> prop);
 
-  /// @brief Method ElementWrite, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ElementWrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ElementWrite(::LiteNetLib::Utils::NetDataWriter* w, ::by_ref<TProperty> prop);
 
   static inline ::LiteNetLib::Utils::NetSerializer_FastCallSpecificAuto_2<TClass, TProperty>* New_ctor();
@@ -457,13 +478,13 @@ protected:
   constexpr NetSerializer_FastCallSpecificAuto_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecificAuto_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecificAuto_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_FastCallSpecificAuto_2(NetSerializer_FastCallSpecificAuto_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecificAuto_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallSpecificAuto_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallSpecificAuto_2(NetSerializer_FastCallSpecificAuto_2 const&) = delete;
+  NetSerializer_FastCallSpecificAuto_2(NetSerializer_FastCallSpecificAuto_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20110 };
@@ -523,13 +544,13 @@ protected:
   constexpr NetSerializer_FastCallStatic_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStatic_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStatic_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_FastCallStatic_2(NetSerializer_FastCallStatic_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStatic_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStatic_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallStatic_2(NetSerializer_FastCallStatic_2 const&) = delete;
+  NetSerializer_FastCallStatic_2(NetSerializer_FastCallStatic_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20111 };
@@ -544,10 +565,12 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies LiteNetLib.Utils.NetSerializer::FastCallSpecific`2<TClass, TProperty>
+// Dependencies LiteNetLib.Utils.INetSerializable, LiteNetLib.Utils.NetSerializer::FastCallSpecific`2<TClass, TProperty>
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetSerializer/FastCallStruct`2<TClass,TProperty>
 class CORDL_TYPE NetSerializer_FastCallStruct_2 : public ::LiteNetLib::Utils::NetSerializer_FastCallSpecific_2<TClass, TProperty> {
@@ -585,13 +608,13 @@ protected:
   constexpr NetSerializer_FastCallStruct_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStruct_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStruct_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_FastCallStruct_2(NetSerializer_FastCallStruct_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStruct_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallStruct_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallStruct_2(NetSerializer_FastCallStruct_2 const&) = delete;
+  NetSerializer_FastCallStruct_2(NetSerializer_FastCallStruct_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20112 };
@@ -603,10 +626,11 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies LiteNetLib.Utils.NetSerializer::FastCallSpecific`2<TClass, TProperty>
+// Dependencies LiteNetLib.Utils.INetSerializable, LiteNetLib.Utils.NetSerializer::FastCallSpecific`2<TClass, TProperty>
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetSerializer/FastCallClass`2<TClass,TProperty>
 class CORDL_TYPE NetSerializer_FastCallClass_2 : public ::LiteNetLib::Utils::NetSerializer_FastCallSpecific_2<TClass, TProperty> {
@@ -644,13 +668,13 @@ protected:
   constexpr NetSerializer_FastCallClass_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallClass_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallClass_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_FastCallClass_2(NetSerializer_FastCallClass_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallClass_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FastCallClass_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FastCallClass_2(NetSerializer_FastCallClass_2 const&) = delete;
+  NetSerializer_FastCallClass_2(NetSerializer_FastCallClass_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20113 };
@@ -694,13 +718,13 @@ protected:
   constexpr NetSerializer_IntSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IntSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IntSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_IntSerializer_1(NetSerializer_IntSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IntSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IntSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_IntSerializer_1(NetSerializer_IntSerializer_1 const&) = delete;
+  NetSerializer_IntSerializer_1(NetSerializer_IntSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20114 };
@@ -741,13 +765,13 @@ protected:
   constexpr NetSerializer_UIntSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UIntSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UIntSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_UIntSerializer_1(NetSerializer_UIntSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UIntSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UIntSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_UIntSerializer_1(NetSerializer_UIntSerializer_1 const&) = delete;
+  NetSerializer_UIntSerializer_1(NetSerializer_UIntSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20115 };
@@ -788,13 +812,13 @@ protected:
   constexpr NetSerializer_ShortSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ShortSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ShortSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_ShortSerializer_1(NetSerializer_ShortSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ShortSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ShortSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_ShortSerializer_1(NetSerializer_ShortSerializer_1 const&) = delete;
+  NetSerializer_ShortSerializer_1(NetSerializer_ShortSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20116 };
@@ -835,13 +859,13 @@ protected:
   constexpr NetSerializer_UShortSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UShortSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UShortSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_UShortSerializer_1(NetSerializer_UShortSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UShortSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_UShortSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_UShortSerializer_1(NetSerializer_UShortSerializer_1 const&) = delete;
+  NetSerializer_UShortSerializer_1(NetSerializer_UShortSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20117 };
@@ -882,13 +906,13 @@ protected:
   constexpr NetSerializer_LongSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_LongSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_LongSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_LongSerializer_1(NetSerializer_LongSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_LongSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_LongSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_LongSerializer_1(NetSerializer_LongSerializer_1 const&) = delete;
+  NetSerializer_LongSerializer_1(NetSerializer_LongSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20118 };
@@ -929,13 +953,13 @@ protected:
   constexpr NetSerializer_ULongSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ULongSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ULongSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_ULongSerializer_1(NetSerializer_ULongSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ULongSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ULongSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_ULongSerializer_1(NetSerializer_ULongSerializer_1 const&) = delete;
+  NetSerializer_ULongSerializer_1(NetSerializer_ULongSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20119 };
@@ -976,13 +1000,13 @@ protected:
   constexpr NetSerializer_ByteSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ByteSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ByteSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_ByteSerializer_1(NetSerializer_ByteSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ByteSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ByteSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_ByteSerializer_1(NetSerializer_ByteSerializer_1 const&) = delete;
+  NetSerializer_ByteSerializer_1(NetSerializer_ByteSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20120 };
@@ -1023,13 +1047,13 @@ protected:
   constexpr NetSerializer_SByteSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_SByteSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_SByteSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_SByteSerializer_1(NetSerializer_SByteSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_SByteSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_SByteSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_SByteSerializer_1(NetSerializer_SByteSerializer_1 const&) = delete;
+  NetSerializer_SByteSerializer_1(NetSerializer_SByteSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20121 };
@@ -1070,13 +1094,13 @@ protected:
   constexpr NetSerializer_FloatSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FloatSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FloatSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_FloatSerializer_1(NetSerializer_FloatSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FloatSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_FloatSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_FloatSerializer_1(NetSerializer_FloatSerializer_1 const&) = delete;
+  NetSerializer_FloatSerializer_1(NetSerializer_FloatSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20122 };
@@ -1117,13 +1141,13 @@ protected:
   constexpr NetSerializer_DoubleSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_DoubleSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_DoubleSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_DoubleSerializer_1(NetSerializer_DoubleSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_DoubleSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_DoubleSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_DoubleSerializer_1(NetSerializer_DoubleSerializer_1 const&) = delete;
+  NetSerializer_DoubleSerializer_1(NetSerializer_DoubleSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20123 };
@@ -1164,13 +1188,13 @@ protected:
   constexpr NetSerializer_BoolSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_BoolSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_BoolSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_BoolSerializer_1(NetSerializer_BoolSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_BoolSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_BoolSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_BoolSerializer_1(NetSerializer_BoolSerializer_1 const&) = delete;
+  NetSerializer_BoolSerializer_1(NetSerializer_BoolSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20124 };
@@ -1205,13 +1229,13 @@ protected:
   constexpr NetSerializer_CharSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CharSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CharSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_CharSerializer_1(NetSerializer_CharSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CharSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CharSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CharSerializer_1(NetSerializer_CharSerializer_1 const&) = delete;
+  NetSerializer_CharSerializer_1(NetSerializer_CharSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20125 };
@@ -1246,13 +1270,13 @@ protected:
   constexpr NetSerializer_IPEndPointSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IPEndPointSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IPEndPointSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_IPEndPointSerializer_1(NetSerializer_IPEndPointSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IPEndPointSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_IPEndPointSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_IPEndPointSerializer_1(NetSerializer_IPEndPointSerializer_1 const&) = delete;
+  NetSerializer_IPEndPointSerializer_1(NetSerializer_IPEndPointSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20126 };
@@ -1302,13 +1326,13 @@ protected:
   constexpr NetSerializer_StringSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_StringSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_StringSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_StringSerializer_1(NetSerializer_StringSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_StringSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_StringSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_StringSerializer_1(NetSerializer_StringSerializer_1 const&) = delete;
+  NetSerializer_StringSerializer_1(NetSerializer_StringSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20127 };
@@ -1364,13 +1388,13 @@ protected:
   constexpr NetSerializer_EnumByteSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumByteSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumByteSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_EnumByteSerializer_1(NetSerializer_EnumByteSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumByteSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumByteSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_EnumByteSerializer_1(NetSerializer_EnumByteSerializer_1 const&) = delete;
+  NetSerializer_EnumByteSerializer_1(NetSerializer_EnumByteSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20128 };
@@ -1411,13 +1435,13 @@ protected:
   constexpr NetSerializer_EnumIntSerializer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumIntSerializer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumIntSerializer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_EnumIntSerializer_1(NetSerializer_EnumIntSerializer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumIntSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_EnumIntSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_EnumIntSerializer_1(NetSerializer_EnumIntSerializer_1 const&) = delete;
+  NetSerializer_EnumIntSerializer_1(NetSerializer_EnumIntSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20129 };
@@ -1477,13 +1501,13 @@ protected:
   constexpr NetSerializer_ClassInfo_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ClassInfo_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ClassInfo_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_ClassInfo_1(NetSerializer_ClassInfo_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ClassInfo_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_ClassInfo_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_ClassInfo_1(NetSerializer_ClassInfo_1 const&) = delete;
+  NetSerializer_ClassInfo_1(NetSerializer_ClassInfo_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20130 };
@@ -1505,7 +1529,7 @@ namespace LiteNetLib::Utils {
 class CORDL_TYPE NetSerializer_CustomType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* Get();
 
   static inline ::LiteNetLib::Utils::NetSerializer_CustomType* New_ctor();
@@ -1519,13 +1543,13 @@ protected:
   constexpr NetSerializer_CustomType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_CustomType(NetSerializer_CustomType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CustomType(NetSerializer_CustomType const&) = delete;
+  NetSerializer_CustomType(NetSerializer_CustomTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20131 };
@@ -1536,10 +1560,12 @@ public:
 static_assert(sizeof(::LiteNetLib::Utils::NetSerializer_CustomType) == 0x10, "Size mismatch!");
 
 } // namespace LiteNetLib::Utils
-// Dependencies LiteNetLib.Utils.NetSerializer::CustomType
+// Dependencies LiteNetLib.Utils.INetSerializable, LiteNetLib.Utils.NetSerializer::CustomType
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+           ::cordl_internals::default_constructor_constraint<TProperty>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetSerializer/CustomTypeStruct`1<TProperty>
 class CORDL_TYPE NetSerializer_CustomTypeStruct_1 : public ::LiteNetLib::Utils::NetSerializer_CustomType {
@@ -1559,13 +1585,13 @@ protected:
   constexpr NetSerializer_CustomTypeStruct_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStruct_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStruct_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_CustomTypeStruct_1(NetSerializer_CustomTypeStruct_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStruct_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStruct_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CustomTypeStruct_1(NetSerializer_CustomTypeStruct_1 const&) = delete;
+  NetSerializer_CustomTypeStruct_1(NetSerializer_CustomTypeStruct_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20132 };
@@ -1574,10 +1600,11 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies LiteNetLib.Utils.NetSerializer::CustomType
+// Dependencies LiteNetLib.Utils.INetSerializable, LiteNetLib.Utils.NetSerializer::CustomType
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
+  requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetSerializer/CustomTypeClass`1<TProperty>
 class CORDL_TYPE NetSerializer_CustomTypeClass_1 : public ::LiteNetLib::Utils::NetSerializer_CustomType {
@@ -1606,13 +1633,13 @@ protected:
   constexpr NetSerializer_CustomTypeClass_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeClass_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeClass_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_CustomTypeClass_1(NetSerializer_CustomTypeClass_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeClass_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeClass_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CustomTypeClass_1(NetSerializer_CustomTypeClass_1 const&) = delete;
+  NetSerializer_CustomTypeClass_1(NetSerializer_CustomTypeClass_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20133 };
@@ -1666,13 +1693,13 @@ protected:
   constexpr NetSerializer_CustomTypeStatic_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStatic_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStatic_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer_CustomTypeStatic_1(NetSerializer_CustomTypeStatic_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStatic_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer_CustomTypeStatic_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer_CustomTypeStatic_1(NetSerializer_CustomTypeStatic_1 const&) = delete;
+  NetSerializer_CustomTypeStatic_1(NetSerializer_CustomTypeStatic_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20134 };
@@ -1687,7 +1714,7 @@ public:
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Dependencies System.Object
+// Dependencies LiteNetLib.Utils.INetSerializable, System.Object
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: LiteNetLib.Utils.NetSerializer
@@ -1704,11 +1731,16 @@ public:
 
   using CustomType = ::LiteNetLib::Utils::NetSerializer_CustomType;
 
-  template <typename TProperty> using CustomTypeClass_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>;
+  template <typename TProperty>
+    requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+  using CustomTypeClass_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>;
 
   template <typename TProperty> using CustomTypeStatic_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeStatic_1<TProperty>;
 
-  template <typename TProperty> using CustomTypeStruct_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>;
+  template <typename TProperty>
+    requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+             ::cordl_internals::default_constructor_constraint<TProperty>)
+  using CustomTypeStruct_1 = ::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>;
 
   template <typename T> using DoubleSerializer_1 = ::LiteNetLib::Utils::NetSerializer_DoubleSerializer_1<T>;
 
@@ -1716,7 +1748,9 @@ public:
 
   template <typename T> using EnumIntSerializer_1 = ::LiteNetLib::Utils::NetSerializer_EnumIntSerializer_1<T>;
 
-  template <typename TClass, typename TProperty> using FastCallClass_2 = ::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>;
+  template <typename TClass, typename TProperty>
+    requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<TProperty>)
+  using FastCallClass_2 = ::LiteNetLib::Utils::NetSerializer_FastCallClass_2<TClass, TProperty>;
 
   template <typename TClass, typename TProperty> using FastCallSpecificAuto_2 = ::LiteNetLib::Utils::NetSerializer_FastCallSpecificAuto_2<TClass, TProperty>;
 
@@ -1724,7 +1758,10 @@ public:
 
   template <typename TClass, typename TProperty> using FastCallStatic_2 = ::LiteNetLib::Utils::NetSerializer_FastCallStatic_2<TClass, TProperty>;
 
-  template <typename TClass, typename TProperty> using FastCallStruct_2 = ::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>;
+  template <typename TClass, typename TProperty>
+    requires(::cordl_internals::type_constraint<TProperty, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<TProperty> &&
+             ::cordl_internals::default_constructor_constraint<TProperty>)
+  using FastCallStruct_2 = ::LiteNetLib::Utils::NetSerializer_FastCallStruct_2<TClass, TProperty>;
 
   template <typename T> using FastCall_1 = ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>;
 
@@ -1759,10 +1796,14 @@ public:
   __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::LiteNetLib::Utils::NetDataWriter* _writer;
 
   /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool Deserialize(::LiteNetLib::Utils::NetDataReader* reader, T target);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline bool Deserialize(::LiteNetLib::Utils::NetDataReader* reader, T target);
 
   static inline ::LiteNetLib::Utils::NetSerializer* New_ctor();
 
@@ -1775,19 +1816,27 @@ public:
   template <typename T> inline ::LiteNetLib::Utils::NetSerializer_ClassInfo_1<T>* RegisterInternal();
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void RegisterNestedType();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void RegisterNestedType();
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void RegisterNestedType(::System::Func_1<T>* constructor);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void RegisterNestedType(::System::Func_1<T>* constructor);
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RegisterNestedType(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, T>* writer, ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, T>* reader);
 
   /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::ArrayW<uint8_t> Serialize(T obj);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::ArrayW<uint8_t> Serialize(T obj);
 
   /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, T obj);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, T obj);
 
   constexpr int32_t const& __cordl_internal_get__maxStringLength() const;
 
@@ -1819,13 +1868,13 @@ protected:
   constexpr NetSerializer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSerializer(NetSerializer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetSerializer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetSerializer(NetSerializer const&) = delete;
+  NetSerializer(NetSerializerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20135 };

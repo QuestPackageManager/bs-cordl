@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceOcclusionTestSubviewSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceOcclusionTestSubviewSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceOcclusionTestSubviewSettings_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SubviewOcclusionTest_def.hpp"
@@ -25,9 +25,9 @@ UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings::FromSpan(::System:
                                                            { "FromSpan", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>(nullptr, ___internal_method, subviewOcclusionTests);
 }
-// Ctor Parameters [CppParam { name: "testCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "occluderSubviewIndices", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "occluderSubviewMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cullingSplitIndices", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "cullingSplitMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "testCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occluderSubviewIndices", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "occluderSubviewMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingSplitIndices", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cullingSplitMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings::InstanceOcclusionTestSubviewSettings(int32_t testCount, int32_t occluderSubviewIndices, int32_t occluderSubviewMask,
                                                                                                                int32_t cullingSplitIndices, int32_t cullingSplitMask) noexcept {
   this->testCount = testCount;

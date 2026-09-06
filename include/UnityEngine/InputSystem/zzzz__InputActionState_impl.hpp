@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionState.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
@@ -37,7 +38,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InteractionState_InputActionState_Flags::InteractionState_InputActionState_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -514,11 +515,12 @@ inline void UnityEngine::InputSystem::InputActionState_InteractionState::set_pha
                                                                                          { "set_phase", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputActionPhase>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_TriggerControlIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Phase", ty: "uint8_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Flags", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TimerDuration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_StartTime", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TimerStartTime", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_PerformedTime", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TotalTimeoutCompletionTimeDone", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_TotalTimeoutCompletionTimeRemaining", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TimerMonitorIndex", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_TriggerControlIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Phase", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TimerDuration", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartTime", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TimerStartTime",
+// ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PerformedTime", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_TotalTimeoutCompletionTimeDone", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TotalTimeoutCompletionTimeRemaining", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_TimerMonitorIndex", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionState_InteractionState::InputActionState_InteractionState(uint16_t m_TriggerControlIndex, uint8_t m_Phase, uint8_t m_Flags, float_t m_TimerDuration,
                                                                                                            double_t m_StartTime, double_t m_TimerStartTime, double_t m_PerformedTime,
                                                                                                            float_t m_TotalTimeoutCompletionTimeDone, float_t m_TotalTimeoutCompletionTimeRemaining,
@@ -536,7 +538,7 @@ constexpr ::UnityEngine::InputSystem::InputActionState_InteractionState::InputAc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionState_InteractionState::InputActionState_InteractionState() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::BindingState_InputActionState_Flags::BindingState_InputActionState_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1409,13 +1411,15 @@ inline void UnityEngine::InputSystem::InputActionState_BindingState::set_partInd
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionState_BindingState>(), { "set_partIndex", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_ControlCount", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InteractionCount", ty: "uint8_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_ProcessorCount", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MapIndex", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Flags", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PartIndex", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ActionIndex", ty:
-// "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CompositeOrCompositeBindingIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ProcessorStartIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InteractionStartIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ControlStartIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PressTime", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_TriggerEventIdForComposite", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__padding", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ControlCount", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InteractionCount", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_ProcessorCount", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_MapIndex", ty: "uint8_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PartIndex", ty:
+// "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ActionIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_CompositeOrCompositeBindingIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ProcessorStartIndex", ty: "uint16_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_InteractionStartIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ControlStartIndex", ty:
+// "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PressTime", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_TriggerEventIdForComposite", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__padding", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::InputSystem::InputActionState_BindingState::InputActionState_BindingState(uint8_t m_ControlCount, uint8_t m_InteractionCount, uint8_t m_ProcessorCount, uint8_t m_MapIndex,
                                                                                                    uint8_t m_Flags, uint8_t m_PartIndex, uint16_t m_ActionIndex,
                                                                                                    uint16_t m_CompositeOrCompositeBindingIndex, uint16_t m_ProcessorStartIndex,
@@ -1438,7 +1442,7 @@ constexpr ::UnityEngine::InputSystem::InputActionState_BindingState::InputAction
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionState_BindingState::InputActionState_BindingState() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::TriggerState_InputActionState_Flags::TriggerState_InputActionState_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2476,14 +2480,15 @@ inline void UnityEngine::InputSystem::InputActionState_TriggerState::set_flags(:
                                                                                          { "set_flags", {}, { ::i2c::type_of<::UnityEngine::InputSystem::TriggerState_InputActionState_Flags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_Phase", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_MapIndex", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ControlIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Time", ty:
-// "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartTime", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingIndex", ty: "uint16_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InteractionIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Magnitude", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_LastPerformedInUpdate", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LastCanceledInUpdate", ty: "uint32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_PressedInUpdate", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ReleasedInUpdate", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_LastCompletedInUpdate", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Frame", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Phase", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Flags", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_MapIndex", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ControlIndex", ty: "uint16_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartTime", ty: "double_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_BindingIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InteractionIndex", ty:
+// "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Magnitude", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_LastPerformedInUpdate", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LastCanceledInUpdate", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_PressedInUpdate", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ReleasedInUpdate", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_LastCompletedInUpdate", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Frame", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionState_TriggerState::InputActionState_TriggerState(uint8_t m_Phase, uint8_t m_Flags, uint8_t m_MapIndex, uint16_t m_ControlIndex, double_t m_Time,
                                                                                                    double_t m_StartTime, uint16_t m_BindingIndex, uint16_t m_InteractionIndex, float_t m_Magnitude,
                                                                                                    uint32_t m_LastPerformedInUpdate, uint32_t m_LastCanceledInUpdate, uint32_t m_PressedInUpdate,
@@ -2506,12 +2511,13 @@ constexpr ::UnityEngine::InputSystem::InputActionState_TriggerState::InputAction
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionState_TriggerState::InputActionState_TriggerState() {}
-// Ctor Parameters [CppParam { name: "actionStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "actionCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "controlStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "controlCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "bindingStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bindingCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "interactionStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "interactionCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "processorStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "processorCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "compositeStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "compositeCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "actionStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "actionCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "controlStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlCount", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "bindingStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bindingCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "interactionStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "interactionCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "processorStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "processorCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "compositeStartIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "compositeCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionState_ActionMapIndices::InputActionState_ActionMapIndices(int32_t actionStartIndex, int32_t actionCount, int32_t controlStartIndex,
                                                                                                            int32_t controlCount, int32_t bindingStartIndex, int32_t bindingCount,
                                                                                                            int32_t interactionStartIndex, int32_t interactionCount, int32_t processorStartIndex,
@@ -2657,17 +2663,19 @@ constexpr UnityEngine::InputSystem::InputActionState_UnmanagedMemory::operator :
 constexpr ::System::IDisposable* UnityEngine::InputSystem::InputActionState_UnmanagedMemory::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "basePtr", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "mapCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "actionCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "interactionCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "bindingCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "controlCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "compositeCount", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "actionStates", ty: "::UnityEngine::InputSystem::InputActionState_TriggerState*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "bindingStates", ty: "::UnityEngine::InputSystem::InputActionState_BindingState*", modifiers: "", def_value: Some("{}") }, CppParam { name: "interactionStates", ty:
-// "::UnityEngine::InputSystem::InputActionState_InteractionState*", modifiers: "", def_value: Some("{}") }, CppParam { name: "controlMagnitudes", ty: "float_t*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "compositeMagnitudes", ty: "float_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "enabledControls", ty: "int32_t*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "actionBindingIndicesAndCounts", ty: "uint16_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "actionBindingIndices", ty: "uint16_t*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "controlIndexToBindingIndex", ty: "int32_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "controlGroupingAndComplexity", ty: "uint16_t*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "controlGroupingInitialized", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "mapIndices", ty:
-// "::UnityEngine::InputSystem::InputActionState_ActionMapIndices*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "basePtr", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mapCount", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "actionCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "interactionCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "bindingCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlCount", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "compositeCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "actionStates", ty:
+// "::UnityEngine::InputSystem::InputActionState_TriggerState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bindingStates", ty:
+// "::UnityEngine::InputSystem::InputActionState_BindingState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "interactionStates", ty:
+// "::UnityEngine::InputSystem::InputActionState_InteractionState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlMagnitudes", ty: "float_t*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "compositeMagnitudes", ty: "float_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "enabledControls", ty:
+// "int32_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "actionBindingIndicesAndCounts", ty: "uint16_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "actionBindingIndices", ty: "uint16_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlIndexToBindingIndex", ty: "int32_t*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "controlGroupingAndComplexity", ty: "uint16_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlGroupingInitialized",
+// ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mapIndices", ty: "::UnityEngine::InputSystem::InputActionState_ActionMapIndices*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputActionState_UnmanagedMemory::InputActionState_UnmanagedMemory(
     void* basePtr, int32_t mapCount, int32_t actionCount, int32_t interactionCount, int32_t bindingCount, int32_t controlCount, int32_t compositeCount,
     ::UnityEngine::InputSystem::InputActionState_TriggerState* actionStates, ::UnityEngine::InputSystem::InputActionState_BindingState* bindingStates,
@@ -2696,10 +2704,11 @@ constexpr ::UnityEngine::InputSystem::InputActionState_UnmanagedMemory::InputAct
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionState_UnmanagedMemory::InputActionState_UnmanagedMemory() {}
-// Ctor Parameters [CppParam { name: "globalList", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Runtime::InteropServices::GCHandle>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "onActionChange", ty: "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::System::Object*,::UnityEngine::InputSystem::InputActionChange>*>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "onActionControlsChanged", ty: "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::System::Object*>*>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "globalList", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Runtime::InteropServices::GCHandle>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "onActionChange", ty:
+// "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::System::Object*,::UnityEngine::InputSystem::InputActionChange>*>", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "onActionControlsChanged", ty: "::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::System::Object*>*>", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::InputSystem::InputActionState_GlobalState::InputActionState_GlobalState(
     ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Runtime::InteropServices::GCHandle> globalList,
     ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::System::Object*, ::UnityEngine::InputSystem::InputActionChange>*> onActionChange,
@@ -5106,7 +5115,9 @@ inline void UnityEngine::InputSystem::InputActionState::ReadValue(int32_t bindin
                                        { "ReadValue", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bindingIndex, controlIndex, buffer, bufferSize, ignoreComposites);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::InputActionState::ReadValue(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites) {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline TValue UnityEngine::InputSystem::InputActionState::ReadValue(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputActionState*>(),
                                                            { "ReadValue", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
@@ -5114,6 +5125,7 @@ template <typename TValue> inline TValue UnityEngine::InputSystem::InputActionSt
   return ::cordl_internals::RunMethodRethrow<TValue>(this, ___internal_method, bindingIndex, controlIndex, ignoreComposites);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline TValue UnityEngine::InputSystem::InputActionState::ApplyProcessors(int32_t bindingIndex, TValue value, ::UnityEngine::InputSystem::InputControl_1<TValue>* controlOfType) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -5134,6 +5146,8 @@ inline double_t UnityEngine::InputSystem::InputActionState::GetCompositePartPres
   return ::cordl_internals::RunMethodRethrow<double_t>(this, ___internal_method, bindingIndex, partNumber);
 }
 template <typename TValue, typename TComparer>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+           ::cordl_internals::type_constraint<TComparer, ::System::Collections::Generic::IComparer_1<TValue>*>)
 inline TValue UnityEngine::InputSystem::InputActionState::ReadCompositePartValue(int32_t bindingIndex, int32_t partNumber, bool* buttonValuePtr, ::by_ref<int32_t> controlIndex, TComparer comparer) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},

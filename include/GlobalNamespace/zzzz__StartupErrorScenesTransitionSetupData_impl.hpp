@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StartupErrorScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/StartupErrorScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__StartupErrorScenesTransitionSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__StartupErrorSceneSetupData_def.hpp"

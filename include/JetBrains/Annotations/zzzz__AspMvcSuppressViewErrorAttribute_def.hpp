@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspMvcSuppressViewErrorAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcSuppressViewErrorAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AspMvcSuppressViewErrorAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::AspMvcSuppressViewErrorAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::AspMvcSuppressViewErrorAttribute*, "JetBrains.Annotations", "AspMvcSuppressViewErrorAttribute");
+// [AttributeUsage((System.AttributeTargets)68)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AspMvcSuppressViewErrorAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcSuppressViewErrorAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcSuppressViewErrorAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspMvcSuppressViewErrorAttribute(AspMvcSuppressViewErrorAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcSuppressViewErrorAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcSuppressViewErrorAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AspMvcSuppressViewErrorAttribute(AspMvcSuppressViewErrorAttribute const&) = delete;
+  AspMvcSuppressViewErrorAttribute(AspMvcSuppressViewErrorAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22573 };

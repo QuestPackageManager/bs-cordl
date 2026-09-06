@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\SceneShaderWarmup.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/SceneShaderWarmup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PassType_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__SceneShaderWarmup_def.hpp"
@@ -16,7 +16,7 @@
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_def.hpp"
 #include "UnityEngine/zzzz__ShaderVariantCollection_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::UnityExtension::SceneShaderWarmup_LogLevel::SceneShaderWarmup_LogLevel(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -187,6 +187,7 @@ inline ::System::Object* BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8* BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGLib::UnityExtension::SceneShaderWarmup__WarmupShaders_d__8*>(__1__state));
 }

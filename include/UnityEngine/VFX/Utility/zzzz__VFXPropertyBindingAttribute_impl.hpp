@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXPropertyBindingAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXPropertyBindingAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXPropertyBindingAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::VFX::Utility::VFXPropertyBindingAttribute._ctor
@@ -28,12 +28,12 @@ constexpr void UnityEngine::VFX::Utility::VFXPropertyBindingAttribute::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___EditorTypes = value;
 }
-inline void UnityEngine::VFX::Utility::VFXPropertyBindingAttribute::_ctor(::ArrayW<::StringW> editorTypes) {
+inline void UnityEngine::VFX::Utility::VFXPropertyBindingAttribute::_ctor(/* [ParamArray] */ ::ArrayW<::StringW> editorTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPropertyBindingAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, editorTypes);
 }
-inline ::UnityEngine::VFX::Utility::VFXPropertyBindingAttribute* UnityEngine::VFX::Utility::VFXPropertyBindingAttribute::New_ctor(::ArrayW<::StringW> editorTypes) {
+inline ::UnityEngine::VFX::Utility::VFXPropertyBindingAttribute* UnityEngine::VFX::Utility::VFXPropertyBindingAttribute::New_ctor(/* [ParamArray] */ ::ArrayW<::StringW> editorTypes) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::VFX::Utility::VFXPropertyBindingAttribute*>(editorTypes));
 }
 // Ctor Parameters []

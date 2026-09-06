@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RuntimeInitializeOnLoadMethodAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/RuntimeInitializeOnLoadMethodAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class RuntimeInitializeOnLoadMethodAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*, "UnityEngine", "RuntimeInitializeOnLoadMethodAttribute");
+// [AttributeUsage((System.AttributeTargets)64, AllowMultiple = false)]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.RuntimeInitializeLoadType, UnityEngine.Scripting.PreserveAttribute
 namespace UnityEngine {
 // Is value type: false
@@ -53,13 +55,13 @@ protected:
   constexpr RuntimeInitializeOnLoadMethodAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeInitializeOnLoadMethodAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeInitializeOnLoadMethodAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeInitializeOnLoadMethodAttribute(RuntimeInitializeOnLoadMethodAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeInitializeOnLoadMethodAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeInitializeOnLoadMethodAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeInitializeOnLoadMethodAttribute(RuntimeInitializeOnLoadMethodAttribute const&) = delete;
+  RuntimeInitializeOnLoadMethodAttribute(RuntimeInitializeOnLoadMethodAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10358 };

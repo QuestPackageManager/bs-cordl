@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\KeyboardEventExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/KeyboardEventExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class KeyboardEventExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::KeyboardEventExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::KeyboardEventExtensions*, "UnityEngine.UIElements", "KeyboardEventExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -25,9 +26,11 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE KeyboardEventExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ShouldSendNavigationMoveEvent, addr 0x6d9e104, size 0xc0, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEvent(::UnityEngine::UIElements::KeyDownEvent* e);
 
+  /// [Extension]
   /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x6d9e478, size 0x44, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEventRuntime(::UnityEngine::Event* e);
 
@@ -37,13 +40,13 @@ protected:
   constexpr KeyboardEventExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardEventExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardEventExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyboardEventExtensions(KeyboardEventExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyboardEventExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyboardEventExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyboardEventExtensions(KeyboardEventExtensions const&) = delete;
+  KeyboardEventExtensions(KeyboardEventExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4481 };

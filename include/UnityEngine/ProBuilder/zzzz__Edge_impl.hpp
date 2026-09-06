@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Edge.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Edge.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -389,7 +389,8 @@ constexpr UnityEngine::ProBuilder::Edge::operator ::System::IEquatable_1<::Unity
 constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::Edge::i___System__IEquatable_1___UnityEngine__ProBuilder__Edge_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "a", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "a", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::ProBuilder::Edge::Edge(int32_t a, int32_t b) noexcept {
   this->a = a;
   this->b = b;

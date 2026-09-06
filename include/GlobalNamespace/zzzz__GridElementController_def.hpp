@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GridElementController.hpp"
+// IWYU pragma private; include "GlobalNamespace/GridElementController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -143,32 +143,40 @@ protected:
   constexpr GridElementController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GridElementController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridElementController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GridElementController(GridElementController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GridElementController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GridElementController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GridElementController(GridElementController const&) = delete;
+  GridElementController(GridElementControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20697 };
 
+  /// [SerializeField]
   /// @brief Field _gridPivotAnchor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____gridPivotAnchor;
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [SerializeField]
   /// @brief Field _gridElementRenderer, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____gridElementRenderer;
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromProperty("_materialPropertyBlockController", "_renderers", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)2)]
   /// @brief Field _gridPivotPropertyName, offset: 0x38, size: 0x8, def value: None
   ::StringW ____gridPivotPropertyName;
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromProperty("_materialPropertyBlockController", "_renderers", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)2)]
   /// @brief Field _gridElementIndexPropertyName, offset: 0x40, size: 0x8, def value: None
   ::StringW ____gridElementIndexPropertyName;
 
+  /// [SerializeField]
   /// @brief Field _idVector, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____idVector;
 

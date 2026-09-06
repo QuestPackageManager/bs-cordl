@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerIntroAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerIntroAnimationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ class MultiplayerIntroAnimationController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerIntroAnimationController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerIntroAnimationController*, "", "MultiplayerIntroAnimationController");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerIntroAnimationController")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.PropertyName
 namespace GlobalNamespace {
 // Is value type: false
@@ -260,56 +261,76 @@ protected:
   constexpr MultiplayerIntroAnimationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroAnimationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroAnimationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerIntroAnimationController(MultiplayerIntroAnimationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroAnimationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroAnimationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerIntroAnimationController(MultiplayerIntroAnimationController const&) = delete;
+  MultiplayerIntroAnimationController(MultiplayerIntroAnimationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6143 };
 
+  /// [Header("Timeline References")]
+  /// [SerializeField]
   /// @brief Field _introPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____introPlayableDirector;
 
+  /// [SerializeField]
   /// @brief Field _playerTimelineTrackNames, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::StringW> ____playerTimelineTrackNames;
 
+  /// [SerializeField]
   /// @brief Field _ringTimelineTrackNames, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::StringW> ____ringTimelineTrackNames;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field _playerTimelinePropertyNames, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::PropertyName> ____playerTimelinePropertyNames;
 
+  /// [Header("Local Player")]
+  /// [SerializeField]
   /// @brief Field _localPlayerTrackName, offset: 0x40, size: 0x8, def value: None
   ::StringW ____localPlayerTrackName;
 
+  /// [SerializeField]
   /// @brief Field _localPlayerRingTrackName, offset: 0x48, size: 0x8, def value: None
   ::StringW ____localPlayerRingTrackName;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field _localPlayerTimelinePropertyName, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::PropertyName ____localPlayerTimelinePropertyName;
 
+  /// [Header("Timing")]
+  /// [SerializeField]
   /// @brief Field _firstConnectedPlayerStart, offset: 0x54, size: 0x4, def value: None
   float_t ____firstConnectedPlayerStart;
 
+  /// [SerializeField]
   /// @brief Field _spawnDuration, offset: 0x58, size: 0x4, def value: None
   float_t ____spawnDuration;
 
+  /// [SerializeField]
   /// @brief Field _endMarkerName, offset: 0x60, size: 0x8, def value: None
   ::StringW ____endMarkerName;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _scoreRingManager, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> ____scoreRingManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerPlayersManager, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _layoutProvider, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 

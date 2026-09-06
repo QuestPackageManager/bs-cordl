@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeLightBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeLightBehaviour.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLight_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
@@ -10,7 +10,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::TubeLightBehaviour_ParameterType::TubeLightBehaviour_ParameterType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Signers\IsoTrailers.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/IsoTrailers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,13 @@ protected:
   constexpr IsoTrailers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IsoTrailers(IsoTrailers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IsoTrailers(IsoTrailers const&) = delete;
+  IsoTrailers(IsoTrailersconst&) = delete;
 
   /// @brief Field TRAILER_IMPLICIT offset 0xffffffff size 0x4
   static constexpr int32_t TRAILER_IMPLICIT{ static_cast<int32_t>(0xbc) };

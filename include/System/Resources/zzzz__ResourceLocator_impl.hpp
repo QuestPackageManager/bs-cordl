@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\ResourceLocator.hpp"
+// IWYU pragma private; include "System/Resources/ResourceLocator.hpp"
 #include "System/Resources/zzzz__ResourceLocator_def.hpp"
 #include "System/Resources/zzzz__ResourceTypeCode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -89,7 +89,8 @@ inline bool System::Resources::ResourceLocator::CanCache(::System::Resources::Re
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceLocator>(), { "CanCache", {}, { ::i2c::type_of<::System::Resources::ResourceTypeCode>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_dataPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_dataPos", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::Resources::ResourceLocator::ResourceLocator(::System::Object* _value, int32_t _dataPos) noexcept {
   this->_value = _value;
   this->_dataPos = _dataPos;

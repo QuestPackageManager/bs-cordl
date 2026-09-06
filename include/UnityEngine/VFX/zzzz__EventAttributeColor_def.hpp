@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\EventAttributeColor.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/EventAttributeColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ protected:
   constexpr EventAttributeColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventAttributeColor(EventAttributeColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttributeColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventAttributeColor(EventAttributeColor const&) = delete;
+  EventAttributeColor(EventAttributeColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19943 };

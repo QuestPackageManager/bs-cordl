@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\AesFastEngine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/AesFastEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class AesFastEngine;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Crypto::Engines::AesFastEngine*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Crypto::Engines::AesFastEngine*, "Org.BouncyCastle.Crypto.Engines", "AesFastEngine");
+// [Obsolete("Use AesEngine instead")]
 // Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
@@ -237,13 +238,13 @@ protected:
   constexpr AesFastEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AesFastEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AesFastEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AesFastEngine(AesFastEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AesFastEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AesFastEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AesFastEngine(AesFastEngine const&) = delete;
+  AesFastEngine(AesFastEngineconst&) = delete;
 
   /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x10) };

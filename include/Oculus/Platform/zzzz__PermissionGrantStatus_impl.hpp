@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\PermissionGrantStatus.hpp"
+// IWYU pragma private; include "Oculus/Platform/PermissionGrantStatus.hpp"
 #include "Oculus/Platform/zzzz__PermissionGrantStatus_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::PermissionGrantStatus::PermissionGrantStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }

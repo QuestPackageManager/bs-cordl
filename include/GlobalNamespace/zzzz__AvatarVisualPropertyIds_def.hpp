@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AvatarVisualPropertyIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/AvatarVisualPropertyIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -195,13 +195,13 @@ protected:
   constexpr AvatarVisualPropertyIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarVisualPropertyIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarVisualPropertyIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarVisualPropertyIds(AvatarVisualPropertyIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarVisualPropertyIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarVisualPropertyIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarVisualPropertyIds(AvatarVisualPropertyIds const&) = delete;
+  AvatarVisualPropertyIds(AvatarVisualPropertyIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21626 };

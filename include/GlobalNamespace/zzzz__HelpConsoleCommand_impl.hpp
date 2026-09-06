@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HelpConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/HelpConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpConsoleCommand_def.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_def.hpp"

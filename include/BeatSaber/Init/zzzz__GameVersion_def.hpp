@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Init\GameVersion.hpp"
+// IWYU pragma private; include "BeatSaber/Init/GameVersion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
@@ -102,6 +104,7 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::Init::GameVersion_BuildInfo, "BeatSaber.Init", 
 DEFINE_IL2CPP_CLASS(::BeatSaber::Init::GameVersion_Content, "BeatSaber.Init", "GameVersion/Content");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Init::GameVersion_Metadata, "BeatSaber.Init", "GameVersion/Metadata");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Init::GameVersion_PreReleaseLabel, "BeatSaber.Init", "GameVersion/PreReleaseLabel");
+// [NullableContext(0)]
 // Dependencies
 namespace BeatSaber::Init {
 // Is value type: true
@@ -133,7 +136,7 @@ public:
   // @brief default ctor
   constexpr GameVersion_PreReleasePrefix();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameVersion_PreReleasePrefix(int32_t value__) noexcept;
 
   /// @brief Field Alpha value: I32(0)
@@ -165,6 +168,8 @@ static_assert(offsetof(::BeatSaber::Init::GameVersion_PreReleasePrefix, value__)
 static_assert(sizeof(::BeatSaber::Init::GameVersion_PreReleasePrefix) == 0x4, "Size mismatch!");
 
 } // namespace BeatSaber::Init
+// [Nullable(0)]
+// [IsReadOnly]
 // Dependencies
 namespace BeatSaber::Init {
 // Is value type: true
@@ -219,8 +224,8 @@ public:
   // @brief default ctor
   constexpr GameVersion_Content();
 
-  // Ctor Parameters [CppParam { name: "major", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "patch",
-  // ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "major", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "minor", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "patch", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameVersion_Content(uint32_t major, uint32_t minor, uint32_t patch) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -265,6 +270,7 @@ static_assert(offsetof(::BeatSaber::Init::GameVersion_Content, patch) == 0x8, "O
 static_assert(sizeof(::BeatSaber::Init::GameVersion_Content) == 0xc, "Size mismatch!");
 
 } // namespace BeatSaber::Init
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::Init {
 // Is value type: false
@@ -277,8 +283,9 @@ public:
 
   static inline ::BeatSaber::Init::PreReleaseLabel_GameVersion___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <.cctor>b__16_0, addr 0x329b814, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW __cctor_b__16_0(::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> el);
+  inline ::StringW __cctor_b__16_0(/* [TupleElementNames(new[] { "prefix", "label" })] */ ::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> el);
 
   /// @brief Method .ctor, addr 0x329b810, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -293,13 +300,13 @@ protected:
   constexpr PreReleaseLabel_GameVersion___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreReleaseLabel_GameVersion___c(PreReleaseLabel_GameVersion___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreReleaseLabel_GameVersion___c(PreReleaseLabel_GameVersion___c const&) = delete;
+  PreReleaseLabel_GameVersion___c(PreReleaseLabel_GameVersion___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22707 };
@@ -310,6 +317,7 @@ public:
 static_assert(sizeof(::BeatSaber::Init::PreReleaseLabel_GameVersion___c) == 0x10, "Size mismatch!");
 
 } // namespace BeatSaber::Init
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::Init {
 // Is value type: false
@@ -322,8 +330,9 @@ public:
 
   static inline ::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass10_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <Parse>b__0, addr 0x329b81c, size 0x2c, virtual false, abstract: false, final false
-  inline bool _Parse_b__0(::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple);
+  inline bool _Parse_b__0(/* [TupleElementNames(new[] { "prefix", "label" })] */ ::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple);
 
   constexpr ::System::Text::RegularExpressions::Group* const& __cordl_internal_get_preReleasePrefixGroup() const;
 
@@ -340,17 +349,18 @@ protected:
   constexpr PreReleaseLabel_GameVersion___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreReleaseLabel_GameVersion___c__DisplayClass10_0(PreReleaseLabel_GameVersion___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreReleaseLabel_GameVersion___c__DisplayClass10_0(PreReleaseLabel_GameVersion___c__DisplayClass10_0 const&) = delete;
+  PreReleaseLabel_GameVersion___c__DisplayClass10_0(PreReleaseLabel_GameVersion___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22708 };
 
+  /// [Nullable(0)]
   /// @brief Field preReleasePrefixGroup, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::Group* ___preReleasePrefixGroup;
 
@@ -362,6 +372,7 @@ static_assert(offsetof(::BeatSaber::Init::PreReleaseLabel_GameVersion___c__Displ
 static_assert(sizeof(::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass10_0) == 0x18, "Size mismatch!");
 
 } // namespace BeatSaber::Init
+// [CompilerGenerated]
 // Dependencies BeatSaber.Init.GameVersion::PreReleasePrefix, System.Object
 namespace BeatSaber::Init {
 // Is value type: false
@@ -374,8 +385,9 @@ public:
 
   static inline ::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass11_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <GetPrefixText>b__0, addr 0x329b848, size 0x10, virtual false, abstract: false, final false
-  inline bool _GetPrefixText_b__0(::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple);
+  inline bool _GetPrefixText_b__0(/* [TupleElementNames(new[] { "prefix", "label" })] */ ::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple);
 
   constexpr ::BeatSaber::Init::GameVersion_PreReleasePrefix const& __cordl_internal_get_currentPreReleasePrefix() const;
 
@@ -392,13 +404,13 @@ protected:
   constexpr PreReleaseLabel_GameVersion___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreReleaseLabel_GameVersion___c__DisplayClass11_0(PreReleaseLabel_GameVersion___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreReleaseLabel_GameVersion___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreReleaseLabel_GameVersion___c__DisplayClass11_0(PreReleaseLabel_GameVersion___c__DisplayClass11_0 const&) = delete;
+  PreReleaseLabel_GameVersion___c__DisplayClass11_0(PreReleaseLabel_GameVersion___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22709 };
@@ -414,6 +426,8 @@ static_assert(offsetof(::BeatSaber::Init::PreReleaseLabel_GameVersion___c__Displ
 static_assert(sizeof(::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass11_0) == 0x18, "Size mismatch!");
 
 } // namespace BeatSaber::Init
+// [Nullable(0)]
+// [IsReadOnly]
 // Dependencies BeatSaber.Init.GameVersion::PreReleasePrefix
 namespace BeatSaber::Init {
 // Is value type: true
@@ -453,6 +467,7 @@ public:
   /// @brief Method Equals, addr 0x329b318, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::Init::GameVersion_PreReleaseLabel other);
 
+  /// [NullableContext(2)]
   /// @brief Method FirstLetterToUpper, addr 0x329ad0c, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW FirstLetterToUpper(::by_ref<::StringW> value);
 
@@ -465,6 +480,7 @@ public:
   /// @brief Method ToString, addr 0x329b278, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [NullableContext(2)]
   /// @brief Method .ctor, addr 0x329ac98, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Init::GameVersion_PreReleasePrefix prefix, ::StringW label);
 
@@ -494,8 +510,8 @@ public:
   // @brief default ctor
   constexpr GameVersion_PreReleaseLabel();
 
-  // Ctor Parameters [CppParam { name: "prefix", ty: "::BeatSaber::Init::GameVersion_PreReleasePrefix", modifiers: "", def_value: None }, CppParam { name: "label", ty: "::StringW", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "prefix", ty: "::BeatSaber::Init::GameVersion_PreReleasePrefix", modifiers: "", def_value: None, comment: None }, CppParam { name: "label", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr GameVersion_PreReleaseLabel(::BeatSaber::Init::GameVersion_PreReleasePrefix prefix, ::StringW label) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -513,6 +529,7 @@ public:
   /// @brief Field prefix, offset: 0x0, size: 0x4, def value: None
   ::BeatSaber::Init::GameVersion_PreReleasePrefix prefix;
 
+  /// [Nullable(2)]
   /// @brief Field label, offset: 0x8, size: 0x8, def value: None
   ::StringW label;
 
@@ -526,6 +543,8 @@ static_assert(offsetof(::BeatSaber::Init::GameVersion_PreReleaseLabel, label) ==
 static_assert(sizeof(::BeatSaber::Init::GameVersion_PreReleaseLabel) == 0x10, "Size mismatch!");
 
 } // namespace BeatSaber::Init
+// [Nullable(0)]
+// [IsReadOnly]
 // Dependencies BeatSaber.Init.RuntimePlatformType
 namespace BeatSaber::Init {
 // Is value type: true
@@ -602,8 +621,9 @@ public:
   // @brief default ctor
   constexpr GameVersion_BuildInfo();
 
-  // Ctor Parameters [CppParam { name: "buildId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "platform", ty: "::BeatSaber::Init::RuntimePlatformType", modifiers: "", def_value:
-  // None }, CppParam { name: "platformId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformIdIntValue", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "buildId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "platform", ty: "::BeatSaber::Init::RuntimePlatformType", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "platformId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "platformIdIntValue", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr GameVersion_BuildInfo(uint64_t buildId, ::BeatSaber::Init::RuntimePlatformType platform, ::StringW platformId, int32_t platformIdIntValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -650,6 +670,8 @@ static_assert(offsetof(::BeatSaber::Init::GameVersion_BuildInfo, platformIdIntVa
 static_assert(sizeof(::BeatSaber::Init::GameVersion_BuildInfo) == 0x20, "Size mismatch!");
 
 } // namespace BeatSaber::Init
+// [NullableContext(0)]
+// [IsReadOnly]
 // Dependencies BeatSaber.Init.GameVersion::BuildInfo, BeatSaber.Init.GameVersion::PreReleaseLabel, System.Nullable`1<T>
 namespace BeatSaber::Init {
 // Is value type: true
@@ -666,6 +688,7 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::Init::GameVersion_Metadata>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::Init::GameVersion_Metadata>*();
 
+  /// [NullableContext(1)]
   /// @brief Method BuildInfoText, addr 0x329b924, size 0xe8, virtual false, abstract: false, final false
   inline ::StringW BuildInfoText();
 
@@ -675,12 +698,15 @@ public:
   /// @brief Method Equals, addr 0x329bf80, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::Init::GameVersion_Metadata other);
 
+  /// [NullableContext(2)]
   /// @brief Method ExtractSubStrings, addr 0x329bb74, size 0xd4, virtual false, abstract: false, final false
-  static inline void ExtractSubStrings(::StringW versionMetadata, ::by_ref<::StringW> preReleaseLabelString, ::by_ref<::StringW> buildInfoString);
+  static inline void ExtractSubStrings(/* [Nullable(1)] */ ::StringW versionMetadata, ::by_ref<::StringW> preReleaseLabelString, ::by_ref<::StringW> buildInfoString);
 
+  /// [NullableContext(1)]
   /// @brief Method Parse, addr 0x3299b38, size 0x1a4, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Metadata Parse(::StringW versionMetadata);
 
+  /// [NullableContext(1)]
   /// @brief Method ToString, addr 0x329a1b8, size 0xf0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
@@ -704,8 +730,8 @@ public:
   // @brief default ctor
   constexpr GameVersion_Metadata();
 
-  // Ctor Parameters [CppParam { name: "preReleaseLabel", ty: "::BeatSaber::Init::GameVersion_PreReleaseLabel", modifiers: "", def_value: None }, CppParam { name: "buildInfo", ty:
-  // "::System::Nullable_1<::BeatSaber::Init::GameVersion_BuildInfo>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "preReleaseLabel", ty: "::BeatSaber::Init::GameVersion_PreReleaseLabel", modifiers: "", def_value: None, comment: None }, CppParam { name: "buildInfo", ty:
+  // "::System::Nullable_1<::BeatSaber::Init::GameVersion_BuildInfo>", modifiers: "", def_value: None, comment: None }]
   constexpr GameVersion_Metadata(::BeatSaber::Init::GameVersion_PreReleaseLabel preReleaseLabel, ::System::Nullable_1<::BeatSaber::Init::GameVersion_BuildInfo> buildInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -730,6 +756,8 @@ static_assert(offsetof(::BeatSaber::Init::GameVersion_Metadata, buildInfo) == 0x
 static_assert(sizeof(::BeatSaber::Init::GameVersion_Metadata) == 0x38, "Size mismatch!");
 
 } // namespace BeatSaber::Init
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Init.GameVersion::Content, BeatSaber.Init.GameVersion::Metadata, System.Nullable`1<T>, System.Object
 namespace BeatSaber::Init {
 // Is value type: false
@@ -815,13 +843,13 @@ protected:
   constexpr GameVersion();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameVersion", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameVersion", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameVersion(GameVersion&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameVersion", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameVersion", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameVersion(GameVersion const&) = delete;
+  GameVersion(GameVersionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22713 };

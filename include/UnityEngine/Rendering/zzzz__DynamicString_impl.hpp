@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DynamicString.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DynamicString.hpp"
 #include "UnityEngine/Rendering/zzzz__DynamicArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DynamicString_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::DynamicString._ctor

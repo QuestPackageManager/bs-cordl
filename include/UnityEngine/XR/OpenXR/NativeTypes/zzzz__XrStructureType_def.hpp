@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrStructureType.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrStructureType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   // @brief default ctor
   constexpr XrStructureType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XrStructureType(uint32_t value__) noexcept;
 
   /// @brief Field XR_TYPE_COMPOSITION_LAYER_CUBE_KHR value: U32(1000006000)

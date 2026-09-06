@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\HttpHeaders.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/HttpHeaders.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,9 @@ namespace System::Net::Http::Headers {
 struct HttpHeaderKind;
 }
 namespace System::Net::Http::Headers {
-template <typename T> class HttpHeaderValueCollection_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class HttpHeaderValueCollection_1;
 }
 namespace System::Net::Http::Headers {
 class HttpHeaders_HeaderBucket;
@@ -54,7 +56,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -137,13 +141,13 @@ protected:
   constexpr HttpHeaders_HeaderBucket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders_HeaderBucket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders_HeaderBucket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpHeaders_HeaderBucket(HttpHeaders_HeaderBucket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders_HeaderBucket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders_HeaderBucket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpHeaders_HeaderBucket(HttpHeaders_HeaderBucket const&) = delete;
+  HttpHeaders_HeaderBucket(HttpHeaders_HeaderBucketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20310 };
@@ -169,6 +173,7 @@ static_assert(offsetof(::System::Net::Http::Headers::HttpHeaders_HeaderBucket, _
 static_assert(sizeof(::System::Net::Http::Headers::HttpHeaders_HeaderBucket) == 0x28, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.Dictionary`2::Enumerator<TKey, TValue>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
@@ -210,19 +215,24 @@ public:
   /// @brief Method MoveNext, addr 0x60ea594, size 0x36c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Net::Http::Headers::HttpHeaders__GetEnumerator_d__19* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>.get_Current, addr 0x60ea948,
   /// size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Collections_Generic_IEnumerable_System_String____get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x60ea954, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x60ea98c, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x60ea538, size 0x5c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -253,6 +263,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x60ea900, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x60e9eb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -272,13 +283,13 @@ protected:
   constexpr HttpHeaders__GetEnumerator_d__19();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders__GetEnumerator_d__19", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders__GetEnumerator_d__19", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpHeaders__GetEnumerator_d__19(HttpHeaders__GetEnumerator_d__19&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders__GetEnumerator_d__19", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders__GetEnumerator_d__19", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpHeaders__GetEnumerator_d__19(HttpHeaders__GetEnumerator_d__19 const&) = delete;
+  HttpHeaders__GetEnumerator_d__19(HttpHeaders__GetEnumerator_d__19const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20311 };
@@ -353,13 +364,19 @@ public:
   inline bool AddInternal(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::System::Net::Http::Headers::HeaderInfo* headerInfo, bool ignoreInvalid);
 
   /// @brief Method AddOrRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void AddOrRemove(::StringW name, ::System::Nullable_1<T> value);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void AddOrRemove(::StringW name, ::System::Nullable_1<T> value);
 
   /// @brief Method AddOrRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void AddOrRemove(::StringW name, ::System::Nullable_1<T> value, ::System::Func_2<::System::Object*, ::StringW>* converter);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void AddOrRemove(::StringW name, ::System::Nullable_1<T> value, ::System::Func_2<::System::Object*, ::StringW>* converter);
 
   /// @brief Method AddOrRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void AddOrRemove(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* converter);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline void AddOrRemove(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* converter);
 
   /// @brief Method CheckName, addr 0x60e94b4, size 0x164, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HeaderInfo* CheckName(::StringW name);
@@ -367,6 +384,7 @@ public:
   /// @brief Method GetAllHeaderValues, addr 0x60ea2a0, size 0x1f8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetAllHeaderValues(::System::Net::Http::Headers::HttpHeaders_HeaderBucket* bucket, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
 
+  /// [IteratorStateMachine(typeof(System.Net.Http.Headers.HttpHeaders::<GetEnumerator>d__19))]
   /// @brief Method GetEnumerator, addr 0x60d7ff8, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>>* GetEnumerator();
 
@@ -380,7 +398,9 @@ public:
   template <typename T> inline T GetValue(::StringW name);
 
   /// @brief Method GetValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* GetValues(::StringW name);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* GetValues(::StringW name);
 
   static inline ::System::Net::Http::Headers::HttpHeaders* New_ctor();
 
@@ -454,13 +474,13 @@ protected:
   constexpr HttpHeaders();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpHeaders(HttpHeaders&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaders", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpHeaders(HttpHeaders const&) = delete;
+  HttpHeaders(HttpHeadersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20312 };

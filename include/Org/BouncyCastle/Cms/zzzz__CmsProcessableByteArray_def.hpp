@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsProcessableByteArray.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsProcessableByteArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
+  /// [Obsolete]
   /// @brief Method GetContent, addr 0x36b04f8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
@@ -96,13 +97,13 @@ protected:
   constexpr CmsProcessableByteArray();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableByteArray", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableByteArray", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsProcessableByteArray(CmsProcessableByteArray&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableByteArray", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableByteArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsProcessableByteArray(CmsProcessableByteArray const&) = delete;
+  CmsProcessableByteArray(CmsProcessableByteArrayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 645 };

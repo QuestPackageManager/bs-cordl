@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_ResourceManager.hpp"
+// IWYU pragma private; include "TMPro/TMP_ResourceManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_ResourceManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -28,9 +28,9 @@ inline void TMPro::TMP_ResourceManager_FontAssetRef::_ctor(int32_t nameHashCode,
                                               { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::TMPro::TMP_FontAsset*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, nameHashCode, familyNameHashCode, styleNameHashCode, fontAsset);
 }
-// Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "familyNameAndStyleHashCode",
+// ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_ResourceManager_FontAssetRef::TMP_ResourceManager_FontAssetRef(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, int64_t familyNameAndStyleHashCode,
                                                                                       ::UnityW<::TMPro::TMP_FontAsset> fontAsset) noexcept {
   this->nameHashCode = nameHashCode;

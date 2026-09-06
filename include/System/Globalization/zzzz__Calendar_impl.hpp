@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\Calendar.hpp"
+// IWYU pragma private; include "System/Globalization/Calendar.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"

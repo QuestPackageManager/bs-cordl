@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\InternalCodePageDataItem.hpp"
+// IWYU pragma private; include "System/Globalization/InternalCodePageDataItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,9 @@ public:
   // @brief default ctor
   constexpr InternalCodePageDataItem();
 
-  // Ctor Parameters [CppParam { name: "codePage", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uiFamilyCodePage", ty: "uint16_t", modifiers: "", def_value: None }, CppParam {
-  // name: "flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Names", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "codePage", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uiFamilyCodePage", ty: "uint16_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "flags", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Names", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr InternalCodePageDataItem(uint16_t codePage, uint16_t uiFamilyCodePage, uint32_t flags, ::StringW Names) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

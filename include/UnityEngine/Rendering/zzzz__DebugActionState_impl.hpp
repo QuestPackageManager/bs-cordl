@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugActionState.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugActionState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugActionState_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugActionDesc_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugActionState_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DebugActionState_DebugActionKeyType::DebugActionState_DebugActionKeyType(int32_t value__) noexcept {
   this->value__ = value__;
 }

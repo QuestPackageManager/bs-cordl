@@ -1,32 +1,40 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Networking\PureCSharpPool_1.hpp"
+// IWYU pragma private; include "OSCE/Networking/PureCSharpPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "OSCE/Networking/zzzz__IPureCSharpPoolElement_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PureCSharpPool_1)
 namespace OSCE::Networking {
-template <typename T> class PureCSharpPool_1_DebugTrace;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
+class PureCSharpPool_1_DebugTrace;
 }
 // Forward declare root types
 namespace OSCE::Networking {
-template <typename T> class PureCSharpPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
+class PureCSharpPool_1;
 }
 namespace OSCE::Networking {
-template <typename T> class PureCSharpPool_1_DebugTrace;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
+class PureCSharpPool_1_DebugTrace;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::OSCE::Networking::PureCSharpPool_1);
 MARK_GEN_REF_T_PTR(::OSCE::Networking::PureCSharpPool_1_DebugTrace);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OSCE::Networking::PureCSharpPool_1, "OSCE.Networking", "PureCSharpPool`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OSCE::Networking::PureCSharpPool_1_DebugTrace, "OSCE.Networking", "PureCSharpPool`1/DebugTrace");
-// Dependencies System.Object
+// Dependencies OSCE.Networking.IPureCSharpPoolElement, System.Object
 namespace OSCE::Networking {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: OSCE.Networking.PureCSharpPool`1/DebugTrace<T>
 class CORDL_TYPE PureCSharpPool_1_DebugTrace : public ::System::Object {
@@ -61,13 +69,13 @@ protected:
   constexpr PureCSharpPool_1_DebugTrace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1_DebugTrace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1_DebugTrace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PureCSharpPool_1_DebugTrace(PureCSharpPool_1_DebugTrace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1_DebugTrace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1_DebugTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PureCSharpPool_1_DebugTrace(PureCSharpPool_1_DebugTrace const&) = delete;
+  PureCSharpPool_1_DebugTrace(PureCSharpPool_1_DebugTraceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21898 };
@@ -82,10 +90,11 @@ public:
 };
 // Non member Declarations
 } // namespace OSCE::Networking
-// Dependencies System.Object
+// Dependencies OSCE.Networking.IPureCSharpPoolElement, System.Object
 namespace OSCE::Networking {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OSCE::Networking::IPureCSharpPoolElement*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: OSCE.Networking.PureCSharpPool`1<T>
 class CORDL_TYPE PureCSharpPool_1 : public ::System::Object {
@@ -145,13 +154,13 @@ protected:
   constexpr PureCSharpPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PureCSharpPool_1(PureCSharpPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PureCSharpPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PureCSharpPool_1(PureCSharpPool_1 const&) = delete;
+  PureCSharpPool_1(PureCSharpPool_1const&) = delete;
 
   /// @brief Field GROWTH_RATE offset 0xffffffff size 0x4
   static constexpr int32_t GROWTH_RATE{ static_cast<int32_t>(0x2) };

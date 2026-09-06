@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerIndirectFloatField.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerIndirectFloatField.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerIndirectFloatField_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

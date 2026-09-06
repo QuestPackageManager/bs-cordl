@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HologramRays.hpp"
+// IWYU pragma private; include "GlobalNamespace/HologramRays.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ MARK_REF_T(::GlobalNamespace::HologramRays*);
 MARK_REF_T(::GlobalNamespace::HologramRays__FadingCoroutine_d__28*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::HologramRays*, "", "HologramRays");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::HologramRays__FadingCoroutine_d__28*, "", "HologramRays/<FadingCoroutine>d__28");
+// [CompilerGenerated]
 // Dependencies EaseType, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -103,17 +104,22 @@ public:
   /// @brief Method MoveNext, addr 0x59b7998, size 0x18c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::HologramRays__FadingCoroutine_d__28* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59b7b24, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59b7b2c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59b7b64, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59b7994, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -153,6 +159,7 @@ public:
 
   constexpr void __cordl_internal_set_turningOn(bool value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59b782c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -171,13 +178,13 @@ protected:
   constexpr HologramRays__FadingCoroutine_d__28();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HologramRays__FadingCoroutine_d__28", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HologramRays__FadingCoroutine_d__28", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HologramRays__FadingCoroutine_d__28", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HologramRays__FadingCoroutine_d__28", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28 const&) = delete;
+  HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6048 };
@@ -218,6 +225,7 @@ static_assert(offsetof(::GlobalNamespace::HologramRays__FadingCoroutine_d__28, _
 static_assert(sizeof(::GlobalNamespace::HologramRays__FadingCoroutine_d__28) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/HologramRays")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -296,6 +304,7 @@ public:
   /// @brief Method Awake, addr 0x59b7100, size 0x1b4, virtual false, abstract: false, final false
   inline void Awake();
 
+  /// [IteratorStateMachine(typeof(HologramRays::<FadingCoroutine>d__28))]
   /// @brief Method FadingCoroutine, addr 0x59b76dc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float_t duration, ::GlobalNamespace::EaseType easeType);
 
@@ -310,6 +319,7 @@ public:
   /// @brief Method Refresh, addr 0x59b73a0, size 0x294, virtual false, abstract: false, final false
   inline void Refresh();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method RuntimeInit, addr 0x59b70a4, size 0x5c, virtual false, abstract: false, final false
   static inline void RuntimeInit();
 
@@ -319,6 +329,7 @@ public:
   /// @brief Method UpdateBounds, addr 0x59b775c, size 0xd0, virtual false, abstract: false, final false
   inline void UpdateBounds();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__22_0, addr 0x59b792c, size 0x68, virtual false, abstract: false, final false
   inline void _Awake_b__22_0(float_t f);
 
@@ -449,44 +460,55 @@ protected:
   constexpr HologramRays();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HologramRays(HologramRays&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HologramRays", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HologramRays(HologramRays const&) = delete;
+  HologramRays(HologramRaysconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6049 };
 
+  /// [SerializeField]
   /// @brief Field _bloomLight, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____bloomLight;
 
+  /// [SerializeField]
   /// @brief Field _raysMeshRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____raysMeshRenderer;
 
+  /// [SerializeField]
   /// @brief Field _targetTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____targetTransform;
 
+  /// [SerializeField]
   /// @brief Field _laserHolderTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____laserHolderTransform;
 
+  /// [SerializeField]
   /// @brief Field _hologramRaysTransform, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____hologramRaysTransform;
 
+  /// [SerializeField]
   /// @brief Field _hologramRaysMesh, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____hologramRaysMesh;
 
+  /// [SerializeField]
   /// @brief Field _topYPosition, offset: 0x50, size: 0x4, def value: None
   float_t ____topYPosition;
 
+  /// [SerializeField]
   /// @brief Field _bottomYPosition, offset: 0x54, size: 0x4, def value: None
   float_t ____bottomYPosition;
 
+  /// [Tooltip("Updates automatically")]
+  /// [SerializeField]
   /// @brief Field cachedExtent, offset: 0x58, size: 0x4, def value: None
   float_t ___cachedExtent;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

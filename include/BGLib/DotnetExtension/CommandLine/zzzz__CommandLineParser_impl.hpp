@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\CommandLine\CommandLineParser.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/CommandLineParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParser_def.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentOption_def.hpp"
@@ -349,7 +349,7 @@ inline ::ArrayW<::StringW> BGLib::DotnetExtension::CommandLine::CommandLineParse
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::CommandLine::CommandLineParser*>(), { "GetCommandLineArgs", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(nullptr, ___internal_method);
 }
-inline ::ArrayW<::StringW> BGLib::DotnetExtension::CommandLine::CommandLineParser::NormalizeCommandLineArgs(::ArrayW<::StringW> environmentCommandLines) {
+inline ::ArrayW<::StringW> BGLib::DotnetExtension::CommandLine::CommandLineParser::NormalizeCommandLineArgs(/* [ParamArray] */ ::ArrayW<::StringW> environmentCommandLines) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::CommandLine::CommandLineParser*>(), { "NormalizeCommandLineArgs", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
@@ -363,7 +363,7 @@ inline ::System::Collections::Generic::List_1<::StringW>* BGLib::DotnetExtension
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*>(nullptr, ___internal_method, commandLine, isSeparator);
 }
 inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult
-BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseEnvironmentCommandLine(::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption> options) {
+BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseEnvironmentCommandLine(/* [ParamArray] */ ::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption> options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::CommandLine::CommandLineParser*>(),
                                                            { "ParseEnvironmentCommandLine", {}, { ::i2c::type_of<::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption>>() } })));
@@ -371,7 +371,7 @@ BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseEnvironmentCommandL
 }
 inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult
 BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseCommandLine(::System::Collections::Generic::IReadOnlyList_1<::StringW>* args,
-                                                                         ::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption> options) {
+                                                                         /* [ParamArray] */ ::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption> options) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::CommandLine::CommandLineParser*>(),

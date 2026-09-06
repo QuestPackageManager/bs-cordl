@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\U2D\SpriteAtlas.hpp"
+// IWYU pragma private; include "UnityEngine/U2D/SpriteAtlas.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/U2D/zzzz__SpriteAtlas_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -243,7 +243,7 @@ inline int32_t UnityEngine::U2D::SpriteAtlas::get_spriteCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::U2D::SpriteAtlas*>(), { "get_spriteCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline bool UnityEngine::U2D::SpriteAtlas::CanBindTo(::UnityEngine::Sprite* sprite) {
+inline bool UnityEngine::U2D::SpriteAtlas::CanBindTo(/* [NotNull] */ ::UnityEngine::Sprite* sprite) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::U2D::SpriteAtlas*>(), { "CanBindTo", {}, { ::i2c::type_of<::UnityEngine::Sprite*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, sprite);
@@ -262,12 +262,12 @@ inline int32_t UnityEngine::U2D::SpriteAtlas::GetSprites(::ArrayW<::UnityEngine:
                                                                                          { "GetSprites", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Sprite*>>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, sprites, name);
 }
-inline int32_t UnityEngine::U2D::SpriteAtlas::GetSpritesScripting(::ArrayW<::UnityEngine::Sprite*> sprites) {
+inline int32_t UnityEngine::U2D::SpriteAtlas::GetSpritesScripting(/* [Unmarshalled] */ ::ArrayW<::UnityEngine::Sprite*> sprites) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::U2D::SpriteAtlas*>(), { "GetSpritesScripting", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Sprite*>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, sprites);
 }
-inline int32_t UnityEngine::U2D::SpriteAtlas::GetSpritesWithNameScripting(::ArrayW<::UnityEngine::Sprite*> sprites, ::StringW name) {
+inline int32_t UnityEngine::U2D::SpriteAtlas::GetSpritesWithNameScripting(/* [Unmarshalled] */ ::ArrayW<::UnityEngine::Sprite*> sprites, ::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::U2D::SpriteAtlas*>(),
                                                            { "GetSpritesWithNameScripting", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Sprite*>>(), ::i2c::type_of<::StringW>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeStream.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,10 +21,14 @@ namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Collections {
 struct NativeStream_ConstructJobList;
@@ -71,6 +75,8 @@ DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeStream_ConstructJob, "Unity.Coll
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeStream_ConstructJobList, "Unity.Collections", "NativeStream/ConstructJobList");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeStream_Reader, "Unity.Collections", "NativeStream/Reader");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeStream_Writer, "Unity.Collections", "NativeStream/Writer");
+// [NativeContainer]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeStream
 namespace Unity::Collections {
 // Is value type: true
@@ -108,9 +114,13 @@ public:
   /// @brief Method AsWriter, addr 0x64c3590, size 0x38, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeStream_Writer AsWriter();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckForEachCountGreaterThanZero, addr 0x64c3868, size 0x70, virtual false, abstract: false, final false
   static inline void CheckForEachCountGreaterThanZero(int32_t forEachCount);
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x64c38d8, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
@@ -123,6 +133,7 @@ public:
   /// @brief Method Dispose, addr 0x64c3660, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [IsReadOnly]
   /// @brief Method IsEmpty, addr 0x64c34a8, size 0x4, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
@@ -130,20 +141,27 @@ public:
   static inline ::Unity::Jobs::JobHandle ScheduleConstruct(::by_ref<::Unity::Collections::NativeStream> stream, ::Unity::Collections::NativeArray_1<int32_t> bufferCount,
                                                            ::Unity::Jobs::JobHandle dependency, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ScheduleConstruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Jobs::JobHandle ScheduleConstruct(::by_ref<::Unity::Collections::NativeStream> stream, ::Unity::Collections::NativeList_1<T> bufferCount, ::Unity::Jobs::JobHandle dependency,
                                                            ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method .ctor, addr 0x64c32dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t bufferCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_ForEachCount, addr 0x64c3518, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_ForEachCount();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64c3508, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
@@ -157,7 +175,7 @@ public:
   // @brief default ctor
   constexpr NativeStream();
 
-  // Ctor Parameters [CppParam { name: "m_Stream", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Stream", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream", modifiers: "", def_value: None, comment: None }]
   constexpr NativeStream(::Unity::Collections::LowLevel::Unsafe::UnsafeStream m_Stream) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -177,6 +195,7 @@ static_assert(offsetof(::Unity::Collections::NativeStream, m_Stream) == 0x0, "Of
 static_assert(sizeof(::Unity::Collections::NativeStream) == 0x20, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeStream
 namespace Unity::Collections {
 // Is value type: true
@@ -197,8 +216,8 @@ public:
   // @brief default ctor
   constexpr NativeStream_ConstructJobList();
 
-  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::NativeStream", modifiers: "", def_value: None }, CppParam { name: "List", ty:
-  // "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::NativeStream", modifiers: "", def_value: None, comment: None }, CppParam { name: "List", ty:
+  // "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList*", modifiers: "", def_value: None, comment: None }]
   constexpr NativeStream_ConstructJobList(::Unity::Collections::NativeStream Container, ::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList* List) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -210,6 +229,8 @@ public:
   /// @brief Field Container, offset: 0x0, size: 0x20, def value: None
   ::Unity::Collections::NativeStream Container;
 
+  /// [ReadOnly]
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field List, offset: 0x20, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList* List;
 
@@ -223,6 +244,7 @@ static_assert(offsetof(::Unity::Collections::NativeStream_ConstructJobList, List
 static_assert(sizeof(::Unity::Collections::NativeStream_ConstructJobList) == 0x28, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeStream
 namespace Unity::Collections {
 // Is value type: true
@@ -243,8 +265,8 @@ public:
   // @brief default ctor
   constexpr NativeStream_ConstructJob();
 
-  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::NativeStream", modifiers: "", def_value: None }, CppParam { name: "Length", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Container", ty: "::Unity::Collections::NativeStream", modifiers: "", def_value: None, comment: None }, CppParam { name: "Length", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr NativeStream_ConstructJob(::Unity::Collections::NativeStream Container, ::Unity::Collections::NativeArray_1<int32_t> Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -256,6 +278,7 @@ public:
   /// @brief Field Container, offset: 0x0, size: 0x20, def value: None
   ::Unity::Collections::NativeStream Container;
 
+  /// [ReadOnly]
   /// @brief Field Length, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Length;
 
@@ -269,6 +292,9 @@ static_assert(offsetof(::Unity::Collections::NativeStream_ConstructJob, Length) 
 static_assert(sizeof(::Unity::Collections::NativeStream_ConstructJob) == 0x30, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [NativeContainer]
+// [NativeContainerSupportsMinMaxWriteRestriction]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeStream::Writer
 namespace Unity::Collections {
 // Is value type: true
@@ -278,8 +304,11 @@ public:
   // Declarations
   __declspec(property(get = get_ForEachCount)) int32_t ForEachCount;
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::by_ref<T> Allocate();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::by_ref<T> Allocate();
 
   /// @brief Method Allocate, addr 0x64c39f0, size 0x4, virtual false, abstract: false, final false
   inline uint8_t* Allocate(int32_t size);
@@ -287,12 +316,18 @@ public:
   /// @brief Method BeginForEachIndex, addr 0x64c3960, size 0x1c, virtual false, abstract: false, final false
   inline void BeginForEachIndex(int32_t foreachIndex);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckAllocateSize, addr 0x64c3a88, size 0x4, virtual false, abstract: false, final false
   inline void CheckAllocateSize(int32_t size);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckBeginForEachIndex, addr 0x64c3a80, size 0x4, virtual false, abstract: false, final false
   inline void CheckBeginForEachIndex(int32_t foreachIndex);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckEndForEachIndex, addr 0x64c3a84, size 0x4, virtual false, abstract: false, final false
   inline void CheckEndForEachIndex();
 
@@ -302,8 +337,11 @@ public:
   /// @brief Method PatchMinMaxRange, addr 0x64c395c, size 0x4, virtual false, abstract: false, final false
   inline void PatchMinMaxRange(int32_t foreEachIndex);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Write(T value);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Write(T value);
 
   /// @brief Method .ctor, addr 0x64c35c8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::NativeStream> stream);
@@ -315,7 +353,7 @@ public:
   // @brief default ctor
   constexpr NativeStream_Writer();
 
-  // Ctor Parameters [CppParam { name: "m_Writer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Writer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer", modifiers: "", def_value: None, comment: None }]
   constexpr NativeStream_Writer(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer m_Writer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -335,6 +373,9 @@ static_assert(offsetof(::Unity::Collections::NativeStream_Writer, m_Writer) == 0
 static_assert(sizeof(::Unity::Collections::NativeStream_Writer) == 0x58, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [NativeContainer]
+// [NativeContainerIsReadOnly]
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeStream::Reader
 namespace Unity::Collections {
 // Is value type: true
@@ -349,18 +390,27 @@ public:
   /// @brief Method BeginForEachIndex, addr 0x64c3aa0, size 0x4, virtual false, abstract: false, final false
   inline int32_t BeginForEachIndex(int32_t foreachIndex);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckBeginForEachIndex, addr 0x64c3bf8, size 0x4, virtual false, abstract: false, final false
   inline void CheckBeginForEachIndex(int32_t forEachIndex);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckEndForEachIndex, addr 0x64c3bfc, size 0x88, virtual false, abstract: false, final false
   inline void CheckEndForEachIndex();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckNotReadingOutOfBounds, addr 0x64c3bec, size 0x4, virtual false, abstract: false, final false
   inline void CheckNotReadingOutOfBounds(int32_t size);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x64c3bf0, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckReadSize, addr 0x64c3bf4, size 0x4, virtual false, abstract: false, final false
   inline void CheckReadSize(int32_t size);
 
@@ -370,11 +420,17 @@ public:
   /// @brief Method EndForEachIndex, addr 0x64c3af8, size 0x4, virtual false, abstract: false, final false
   inline void EndForEachIndex();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Peek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::by_ref<T> Peek();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::by_ref<T> Peek();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::by_ref<T> Read();
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::by_ref<T> Read();
 
   /// @brief Method ReadUnsafePtr, addr 0x64c3b38, size 0x5c, virtual false, abstract: false, final false
   inline uint8_t* ReadUnsafePtr(int32_t size);
@@ -392,7 +448,7 @@ public:
   // @brief default ctor
   constexpr NativeStream_Reader();
 
-  // Ctor Parameters [CppParam { name: "m_Reader", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Reader", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader", modifiers: "", def_value: None, comment: None }]
   constexpr NativeStream_Reader(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader m_Reader) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

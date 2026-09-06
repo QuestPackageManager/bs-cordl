@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Utils\NumString\G_FloatString.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Utils/NumString/G_FloatString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class G_FloatString;
 // Write type traits
 MARK_REF_T(::Tayx::Graphy::Utils::NumString::G_FloatString*);
 DEFINE_IL2CPP_CLASS(::Tayx::Graphy::Utils::NumString::G_FloatString*, "Tayx.Graphy.Utils.NumString", "G_FloatString");
+// [Extension]
 // Dependencies System.Object
 namespace Tayx::Graphy::Utils::NumString {
 // Is value type: false
@@ -35,24 +36,30 @@ public:
   /// @brief Method Dispose, addr 0x643a810, size 0xa0, virtual false, abstract: false, final false
   static inline void Dispose();
 
+  /// [Extension]
   /// @brief Method FromIndex, addr 0x643e1a0, size 0x68, virtual false, abstract: false, final false
   static inline float_t FromIndex(int32_t i);
 
   /// @brief Method Init, addr 0x643e274, size 0x240, virtual false, abstract: false, final false
   static inline void Init(float_t minNegativeValue, float_t maxPositiveValue);
 
+  /// [Extension]
   /// @brief Method ToFloat, addr 0x643e820, size 0x8, virtual false, abstract: false, final false
   static inline float_t ToFloat(int32_t i);
 
+  /// [Extension]
   /// @brief Method ToIndex, addr 0x643e4b4, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t ToIndex(float_t f);
 
+  /// [Extension]
   /// @brief Method ToInt, addr 0x643e804, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t ToInt(float_t f);
 
+  /// [Extension]
   /// @brief Method ToStringNonAlloc, addr 0x643e57c, size 0x144, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(float_t value);
 
+  /// [Extension]
   /// @brief Method ToStringNonAlloc, addr 0x643e6c0, size 0x144, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(float_t value, ::StringW format);
 
@@ -80,13 +87,13 @@ protected:
   constexpr G_FloatString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_FloatString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FloatString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_FloatString(G_FloatString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_FloatString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FloatString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_FloatString(G_FloatString const&) = delete;
+  G_FloatString(G_FloatStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21489 };

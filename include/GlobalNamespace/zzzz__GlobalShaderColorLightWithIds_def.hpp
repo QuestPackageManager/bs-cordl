@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GlobalShaderColorLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/GlobalShaderColorLightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,17 +64,18 @@ protected:
   constexpr GlobalShaderColorLightWithIds_LightIntensitiesWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds_LightIntensitiesWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds_LightIntensitiesWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GlobalShaderColorLightWithIds_LightIntensitiesWithId(GlobalShaderColorLightWithIds_LightIntensitiesWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds_LightIntensitiesWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GlobalShaderColorLightWithIds_LightIntensitiesWithId(GlobalShaderColorLightWithIds_LightIntensitiesWithId const&) = delete;
+  GlobalShaderColorLightWithIds_LightIntensitiesWithId(GlobalShaderColorLightWithIds_LightIntensitiesWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19526 };
 
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x30, size: 0x4, def value: None
   float_t ____intensity;
 
@@ -148,23 +149,27 @@ protected:
   constexpr GlobalShaderColorLightWithIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GlobalShaderColorLightWithIds(GlobalShaderColorLightWithIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GlobalShaderColorLightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GlobalShaderColorLightWithIds(GlobalShaderColorLightWithIds const&) = delete;
+  GlobalShaderColorLightWithIds(GlobalShaderColorLightWithIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19527 };
 
+  /// [SerializeField]
   /// @brief Field _lightIntensityData, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId*> ____lightIntensityData;
 
+  /// [SerializeField]
   /// @brief Field _overrideSaturation, offset: 0x40, size: 0x1, def value: None
   bool ____overrideSaturation;
 
+  /// [SerializeField]
+  /// [DrawIf("_overrideSaturation", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _saturation, offset: 0x44, size: 0x4, def value: None
   float_t ____saturation;
 

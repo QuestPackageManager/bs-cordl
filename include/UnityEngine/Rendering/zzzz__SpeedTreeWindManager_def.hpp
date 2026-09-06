@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SpeedTreeWindManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SpeedTreeWindManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class SpeedTreeWindManager;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::SpeedTreeWindManager*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SpeedTreeWindManager*, "UnityEngine.Rendering", "SpeedTreeWindManager");
+// [NativeHeader("Modules/Terrain/Public/SpeedTreeWindManager.h")]
+// [StaticAccessor("GetSpeedTreeWindManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -42,13 +44,13 @@ protected:
   constexpr SpeedTreeWindManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpeedTreeWindManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpeedTreeWindManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpeedTreeWindManager(SpeedTreeWindManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpeedTreeWindManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpeedTreeWindManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpeedTreeWindManager(SpeedTreeWindManager const&) = delete;
+  SpeedTreeWindManager(SpeedTreeWindManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22747 };

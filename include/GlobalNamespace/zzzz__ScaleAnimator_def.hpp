@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScaleAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScaleAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ class ScaleAnimator;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ScaleAnimator*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScaleAnimator*, "", "ScaleAnimator");
+// [AddComponentMenu("Beat Saber/Gameplay/ScaleAnimator")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -76,15 +77,19 @@ public:
   /// @brief Method ShowInstant, addr 0x59e8794, size 0x6c, virtual false, abstract: false, final false
   inline void ShowInstant();
 
+  /// [CompilerGenerated]
   /// @brief Method <InitIfNeeded>b__7_0, addr 0x59e88fc, size 0x20, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_0(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <InitIfNeeded>b__7_1, addr 0x59e8948, size 0x20, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_1(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <InitIfNeeded>b__7_2, addr 0x59e891c, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <InitIfNeeded>b__7_3, addr 0x59e8968, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_3();
 
@@ -133,23 +138,26 @@ protected:
   constexpr ScaleAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScaleAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScaleAnimator(ScaleAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScaleAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScaleAnimator(ScaleAnimator const&) = delete;
+  ScaleAnimator(ScaleAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6192 };
 
+  /// [SerializeField]
   /// @brief Field _displayedScale, offset: 0x20, size: 0x4, def value: None
   float_t ____displayedScale;
 
+  /// [SerializeField]
   /// @brief Field _targetTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____targetTransform;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

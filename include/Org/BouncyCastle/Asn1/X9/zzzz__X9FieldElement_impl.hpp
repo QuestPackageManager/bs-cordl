@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X9FieldElement.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9FieldElement.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9FieldElement_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -124,9 +124,11 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X9::X9Fie
 inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* Org::BouncyCastle::Asn1::X9::X9FieldElement::New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X9::X9FieldElement*>(f));
 }
+/// @brief [Obsolete("Will be removed")]
 inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* Org::BouncyCastle::Asn1::X9::X9FieldElement::New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X9::X9FieldElement*>(p, s));
 }
+/// @brief [Obsolete("Will be removed")]
 inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* Org::BouncyCastle::Asn1::X9::X9FieldElement::New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3,
                                                                                                             ::Org::BouncyCastle::Asn1::Asn1OctetString* s) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X9::X9FieldElement*>(m, k1, k2, k3, s));

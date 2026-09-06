@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\IntervalTreeNode.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/IntervalTreeNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,9 @@ public:
   // @brief default ctor
   constexpr IntervalTreeNode();
 
-  // Ctor Parameters [CppParam { name: "center", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "first", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "last",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "left", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "right", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "center", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "first", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "last", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "left", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "right", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IntervalTreeNode(int64_t center, int32_t first, int32_t last, int32_t left, int32_t right) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

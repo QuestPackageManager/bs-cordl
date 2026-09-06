@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\StreamingContextStates.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/StreamingContextStates.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct StreamingContextStates;
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::StreamingContextStates);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::StreamingContextStates, "System.Runtime.Serialization", "StreamingContextStates");
+// [ComVisible(true)]
+// [Flags]
 // Dependencies
 namespace System::Runtime::Serialization {
 // Is value type: true
@@ -49,7 +51,7 @@ public:
   // @brief default ctor
   constexpr StreamingContextStates();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StreamingContextStates(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(255)

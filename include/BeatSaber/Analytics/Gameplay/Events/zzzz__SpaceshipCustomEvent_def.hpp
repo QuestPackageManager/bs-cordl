@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipCustomEvent.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipCustomEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class SpaceshipCustomEvent;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipCustomEvent");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Analytics.Gameplay.Events.SpaceshipUserEventBase
 namespace BeatSaber::Analytics::Gameplay::Events {
 // Is value type: false
@@ -32,6 +34,7 @@ public:
   /// @brief Field payload, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_payload, put = __cordl_internal_set_payload)) ::StringW payload;
 
+  /// [NullableContext(1)]
   /// @brief Method ApplyBasicFields, addr 0x32650f8, size 0x1c, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
@@ -64,13 +67,13 @@ protected:
   constexpr SpaceshipCustomEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipCustomEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipCustomEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpaceshipCustomEvent(SpaceshipCustomEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipCustomEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipCustomEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipCustomEvent(SpaceshipCustomEvent const&) = delete;
+  SpaceshipCustomEvent(SpaceshipCustomEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22276 };

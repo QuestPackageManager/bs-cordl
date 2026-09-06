@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\Converter.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/Converter.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeCode_impl.hpp"

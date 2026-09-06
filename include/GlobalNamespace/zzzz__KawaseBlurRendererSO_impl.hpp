@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\KawaseBlurRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/KawaseBlurRendererSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RenderTexture_impl.hpp"
@@ -11,7 +11,7 @@
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize::KawaseBlurRendererSO_KernelSize(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -25,7 +25,7 @@ constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::Ka
 constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel127{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel135{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize GlobalNamespace::KawaseBlurRendererSO_KernelSize::Kernel143{ static_cast<int32_t>(0x7) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::KawaseBlurRendererSO_WeightsType::KawaseBlurRendererSO_WeightsType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -79,7 +79,7 @@ inline ::GlobalNamespace::KawaseBlurRendererSO_BloomKernel* GlobalNamespace::Kaw
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::KawaseBlurRendererSO_BloomKernel::KawaseBlurRendererSO_BloomKernel() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::KawaseBlurRendererSO_Pass::KawaseBlurRendererSO_Pass(int32_t value__) noexcept {
   this->value__ = value__;
 }

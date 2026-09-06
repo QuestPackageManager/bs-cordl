@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\Arc.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/Arc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr Arc();
 
-  // Ctor Parameters [CppParam { name: "m", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tm", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "a", ty:
-  // "::BeatmapSaveDataCommon::SliderMidAnchorMode", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "tm", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "a", ty: "::BeatmapSaveDataCommon::SliderMidAnchorMode", modifiers: "", def_value: None, comment: None }]
   constexpr Arc(float_t m, float_t tm, ::BeatmapSaveDataCommon::SliderMidAnchorMode a) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

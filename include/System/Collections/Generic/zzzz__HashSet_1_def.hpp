@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\HashSet_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/HashSet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,7 +98,8 @@ public:
   // @brief default ctor
   constexpr HashSet_1_ElementCount();
 
-  // Ctor Parameters [CppParam { name: "uniqueCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unfoundCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "uniqueCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unfoundCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr HashSet_1_ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -130,8 +131,8 @@ public:
   // @brief default ctor
   constexpr HashSet_1_Slot();
 
-  // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value",
-  // ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr HashSet_1_Slot(int32_t hashCode, int32_t next, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -206,8 +207,9 @@ public:
   // @brief default ctor
   constexpr HashSet_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_current", ty: "T", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr HashSet_1_Enumerator(::System::Collections::Generic::HashSet_1<T>* _set, int32_t _index, int32_t _version, T _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -232,6 +234,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.ICollectionDebugView`1<T>))]
+// [DebuggerDisplay("Count = {Count}")]
 // Dependencies System.Collections.Generic.HashSet`1::Slot<T>, System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -543,13 +547,13 @@ protected:
   constexpr HashSet_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HashSet_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashSet_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HashSet_1(HashSet_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HashSet_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HashSet_1(HashSet_1 const&) = delete;
+  HashSet_1(HashSet_1const&) = delete;
 
   /// @brief Field CapacityName offset 0xffffffff size 0x8
   static constexpr ::ConstString CapacityName{ u"Capacity" };

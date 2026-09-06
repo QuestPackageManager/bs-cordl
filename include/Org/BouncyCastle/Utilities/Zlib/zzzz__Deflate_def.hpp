@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\Deflate.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/Deflate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr Deflate_Config();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Deflate_Config", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Deflate_Config", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Deflate_Config(Deflate_Config&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Deflate_Config", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Deflate_Config", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Deflate_Config(Deflate_Config const&) = delete;
+  Deflate_Config(Deflate_Configconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1818 };
@@ -786,13 +786,13 @@ protected:
   constexpr Deflate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Deflate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Deflate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Deflate(Deflate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Deflate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Deflate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Deflate(Deflate const&) = delete;
+  Deflate(Deflateconst&) = delete;
 
   /// @brief Field BL_CODES offset 0xffffffff size 0x4
   static constexpr int32_t BL_CODES{ static_cast<int32_t>(0x13) };

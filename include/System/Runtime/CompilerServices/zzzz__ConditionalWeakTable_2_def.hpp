@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ConditionalWeakTable_2.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ConditionalWeakTable_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,14 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2_CreateValueCallback;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2_CreateValueCallback;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2_Enumerator;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2_Enumerator;
 }
 namespace System {
 class IDisposable;
@@ -42,13 +46,19 @@ class Object;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2_CreateValueCallback;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2_CreateValueCallback;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2_Enumerator;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
+class ConditionalWeakTable_2_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::System::Runtime::CompilerServices::ConditionalWeakTable_2);
@@ -61,6 +71,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Runtime::CompilerServices::ConditionalWeak
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<TKey,TValue>
 class CORDL_TYPE ConditionalWeakTable_2_CreateValueCallback : public ::System::MulticastDelegate {
@@ -80,13 +91,13 @@ protected:
   constexpr ConditionalWeakTable_2_CreateValueCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_CreateValueCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_CreateValueCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalWeakTable_2_CreateValueCallback(ConditionalWeakTable_2_CreateValueCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_CreateValueCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_CreateValueCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalWeakTable_2_CreateValueCallback(ConditionalWeakTable_2_CreateValueCallback const&) = delete;
+  ConditionalWeakTable_2_CreateValueCallback(ConditionalWeakTable_2_CreateValueCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3436 };
@@ -99,6 +110,7 @@ public:
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.ConditionalWeakTable`2/Enumerator<TKey,TValue>
 class CORDL_TYPE ConditionalWeakTable_2_Enumerator : public ::System::Object {
@@ -183,13 +195,13 @@ protected:
   constexpr ConditionalWeakTable_2_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_Enumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalWeakTable_2_Enumerator(ConditionalWeakTable_2_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalWeakTable_2_Enumerator(ConditionalWeakTable_2_Enumerator const&) = delete;
+  ConditionalWeakTable_2_Enumerator(ConditionalWeakTable_2_Enumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3437 };
@@ -211,6 +223,7 @@ public:
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TKey> && ::cordl_internals::reference_type_constraint<TValue>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.ConditionalWeakTable`2<TKey,TValue>
 class CORDL_TYPE ConditionalWeakTable_2 : public ::System::Object {
@@ -303,13 +316,13 @@ protected:
   constexpr ConditionalWeakTable_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalWeakTable_2(ConditionalWeakTable_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalWeakTable_2(ConditionalWeakTable_2 const&) = delete;
+  ConditionalWeakTable_2(ConditionalWeakTable_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3438 };

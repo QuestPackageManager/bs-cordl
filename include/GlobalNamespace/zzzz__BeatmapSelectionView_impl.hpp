@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapSelectionView.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapSelectionView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -55,7 +55,7 @@ constexpr void GlobalNamespace::BeatmapSelectionView::__cordl_internal_set__noLe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noLevelText = value;
 }
-inline void GlobalNamespace::BeatmapSelectionView::SetBeatmap(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::BeatmapSelectionView::SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BeatmapSelectionView*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey);
 }

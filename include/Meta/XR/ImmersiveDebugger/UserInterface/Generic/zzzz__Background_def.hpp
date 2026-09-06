@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Background.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Background.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,13 +75,13 @@ protected:
   constexpr Background();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Background", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Background", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Background(Background&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Background", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Background", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Background(Background const&) = delete;
+  Background(Backgroundconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18391 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Hand.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Hand.hpp"
 #include "UnityEngine/XR/zzzz__Hand_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -92,7 +92,8 @@ constexpr UnityEngine::XR::Hand::operator ::System::IEquatable_1<::UnityEngine::
 constexpr ::System::IEquatable_1<::UnityEngine::XR::Hand>* UnityEngine::XR::Hand::i___System__IEquatable_1___UnityEngine__XR__Hand_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::XR::Hand>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::Hand::Hand(uint64_t m_DeviceId, uint32_t m_FeatureIndex) noexcept {
   this->m_DeviceId = m_DeviceId;
   this->m_FeatureIndex = m_FeatureIndex;

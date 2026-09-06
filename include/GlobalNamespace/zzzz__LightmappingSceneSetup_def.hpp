@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightmappingSceneSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightmappingSceneSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,20 +66,22 @@ protected:
   constexpr LightmappingSceneSetup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightmappingSceneSetup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmappingSceneSetup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightmappingSceneSetup(LightmappingSceneSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightmappingSceneSetup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmappingSceneSetup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmappingSceneSetup(LightmappingSceneSetup const&) = delete;
+  LightmappingSceneSetup(LightmappingSceneSetupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6717 };
 
+  /// [SerializeField]
   /// @brief Field _colorScheme, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeSO> ____colorScheme;
 
+  /// [Inject]
   /// @brief Field _gameplayCoreSceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____gameplayCoreSceneSetupData;
 

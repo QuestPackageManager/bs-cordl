@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\SslMode.hpp"
+// IWYU pragma private; include "ENet/SslMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
   // @brief default ctor
   constexpr SslMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SslMode(int32_t value__) noexcept;
 
   /// @brief Field Client value: I32(2)

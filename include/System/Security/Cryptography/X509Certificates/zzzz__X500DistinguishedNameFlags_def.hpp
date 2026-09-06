@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X500DistinguishedNameFlags.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X500DistinguishedNameFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct X500DistinguishedNameFlags;
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags, "System.Security.Cryptography.X509Certificates", "X500DistinguishedNameFlags");
+// [Flags]
 // Dependencies
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr X500DistinguishedNameFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr X500DistinguishedNameFlags(int32_t value__) noexcept;
 
   /// @brief Field DoNotUsePlusSign value: I32(32)

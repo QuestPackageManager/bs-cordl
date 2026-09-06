@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\BoundsIntPropertyBag.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/BoundsIntPropertyBag.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,13 +72,13 @@ protected:
   constexpr BoundsIntPropertyBag_PositionProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag_PositionProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag_PositionProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoundsIntPropertyBag_PositionProperty(BoundsIntPropertyBag_PositionProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag_PositionProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag_PositionProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsIntPropertyBag_PositionProperty(BoundsIntPropertyBag_PositionProperty const&) = delete;
+  BoundsIntPropertyBag_PositionProperty(BoundsIntPropertyBag_PositionPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19750 };
@@ -123,13 +123,13 @@ protected:
   constexpr BoundsIntPropertyBag_SizeProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag_SizeProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag_SizeProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoundsIntPropertyBag_SizeProperty(BoundsIntPropertyBag_SizeProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag_SizeProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag_SizeProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsIntPropertyBag_SizeProperty(BoundsIntPropertyBag_SizeProperty const&) = delete;
+  BoundsIntPropertyBag_SizeProperty(BoundsIntPropertyBag_SizePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19751 };
@@ -162,13 +162,13 @@ protected:
   constexpr BoundsIntPropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoundsIntPropertyBag(BoundsIntPropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoundsIntPropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoundsIntPropertyBag(BoundsIntPropertyBag const&) = delete;
+  BoundsIntPropertyBag(BoundsIntPropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19752 };

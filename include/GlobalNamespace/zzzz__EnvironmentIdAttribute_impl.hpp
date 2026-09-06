@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentIdAttribute.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentIdFilter_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentIdAttribute_def.hpp"

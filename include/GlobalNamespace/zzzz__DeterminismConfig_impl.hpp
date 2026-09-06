@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DeterminismConfig.hpp"
+// IWYU pragma private; include "GlobalNamespace/DeterminismConfig.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DeterminismConfig_def.hpp"
 #include "GlobalNamespace/zzzz__TimeHelper_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice\FloorLightStreakTileEffect.hpp"
+// IWYU pragma private; include "Ice/FloorLightStreakTileEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-template <typename T> class SimpleMemoryPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class SimpleMemoryPool_1;
 }
 namespace Ice {
 class FloorLightStreakTileEffect_Element;
@@ -132,13 +134,13 @@ protected:
   constexpr FloorLightStreakTileEffect_Element();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightStreakTileEffect_Element", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightStreakTileEffect_Element", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloorLightStreakTileEffect_Element(FloorLightStreakTileEffect_Element&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightStreakTileEffect_Element", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightStreakTileEffect_Element", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloorLightStreakTileEffect_Element(FloorLightStreakTileEffect_Element const&) = delete;
+  FloorLightStreakTileEffect_Element(FloorLightStreakTileEffect_Elementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23244 };
@@ -254,13 +256,13 @@ protected:
   constexpr FloorLightStreakTileEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightStreakTileEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightStreakTileEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloorLightStreakTileEffect(FloorLightStreakTileEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightStreakTileEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightStreakTileEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloorLightStreakTileEffect(FloorLightStreakTileEffect const&) = delete;
+  FloorLightStreakTileEffect(FloorLightStreakTileEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23245 };
@@ -271,12 +273,15 @@ public:
   /// @brief Field kFadeOutDuration offset 0xffffffff size 0x4
   static constexpr float_t kFadeOutDuration{ static_cast<float_t>(0.4f) };
 
+  /// [SerializeField]
   /// @brief Field _stayOnTileDuration, offset: 0x20, size: 0x4, def value: None
   float_t ____stayOnTileDuration;
 
+  /// [SerializeField]
   /// @brief Field _floorLightTilesGrid, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::Ice::FloorLightTilesGrid> ____floorLightTilesGrid;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 

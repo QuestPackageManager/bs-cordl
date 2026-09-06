@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerPanel.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerPanel.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerPanel_def.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerCanvas_def.hpp"

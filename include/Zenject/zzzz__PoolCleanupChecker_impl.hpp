@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolCleanupChecker.hpp"
+// IWYU pragma private; include "Zenject/PoolCleanupChecker.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PoolCleanupChecker_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -173,7 +173,8 @@ constexpr void Zenject::PoolCleanupChecker::__cordl_internal_set__ignoredPools(:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoredPools = value;
 }
-inline void Zenject::PoolCleanupChecker::_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories, ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools) {
+inline void Zenject::PoolCleanupChecker::_ctor(/* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
+                                               /* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -194,8 +195,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::PoolCleanupChecker::__zenCreateInject
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolCleanupChecker*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::PoolCleanupChecker* Zenject::PoolCleanupChecker::New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
-                                                                            ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools) {
+inline ::Zenject::PoolCleanupChecker*
+Zenject::PoolCleanupChecker::New_ctor(/* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
+                                      /* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::PoolCleanupChecker*>(poolFactories, ignoredPools));
 }
 /// @brief Convert operator to "::Zenject::ILateDisposable"

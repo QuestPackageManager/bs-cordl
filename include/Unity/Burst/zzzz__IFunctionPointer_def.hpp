@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\IFunctionPointer.hpp"
+// IWYU pragma private; include "Unity/Burst/IFunctionPointer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,13 @@ namespace Unity::Burst {
 class CORDL_TYPE IFunctionPointer {
 public:
   // Declarations
-  /// @brief Method FromIntPtr, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [Obsolete("This method will be removed in a future version of Burst")]
+  /// @brief Method FromIntPtr, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Burst::IFunctionPointer* FromIntPtr(::System::IntPtr ptr);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IFunctionPointer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IFunctionPointer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IFunctionPointer(IFunctionPointer const&) = delete;
+  IFunctionPointer(IFunctionPointerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17329 };

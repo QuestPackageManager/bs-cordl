@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\FastMemoryDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/FastMemoryDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr FastMemoryDesc();
 
-  // Ctor Parameters [CppParam { name: "inFastMemory", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::Rendering::FastMemoryFlags", modifiers: "",
-  // def_value: None }, CppParam { name: "residencyFraction", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "inFastMemory", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty: "::UnityEngine::Rendering::FastMemoryFlags",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "residencyFraction", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr FastMemoryDesc(bool inFastMemory, ::UnityEngine::Rendering::FastMemoryFlags flags, float_t residencyFraction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

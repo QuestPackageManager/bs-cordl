@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\MethodCall.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/MethodCall.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,8 @@ class MethodCall;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Messaging::MethodCall*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Messaging::MethodCall*, "System.Runtime.Remoting.Messaging", "MethodCall");
+// [ComVisible(true)]
+// [CLSCompliant(false)]
 // Dependencies System.Object, System.Type
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
@@ -314,13 +316,13 @@ protected:
   constexpr MethodCall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MethodCall", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodCall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodCall(MethodCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MethodCall", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MethodCall(MethodCall const&) = delete;
+  MethodCall(MethodCallconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3190 };

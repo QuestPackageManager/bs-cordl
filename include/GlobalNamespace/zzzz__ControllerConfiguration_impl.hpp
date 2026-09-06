@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ControllerConfiguration.hpp"
+// IWYU pragma private; include "GlobalNamespace/ControllerConfiguration.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ControllerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__UnityXRController_def.hpp"

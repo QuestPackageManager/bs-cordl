@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonContract.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContractType_impl.hpp"
 #include "Newtonsoft/Json/zzzz__ReadType_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
@@ -837,7 +837,7 @@ inline ::System::Func_1<::System::Object*>* Newtonsoft::Json::Serialization::Jso
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContract*>(), { "get_DefaultCreator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Func_1<::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Serialization::JsonContract::set_DefaultCreator(::System::Func_1<::System::Object*>* value) {
+inline void Newtonsoft::Json::Serialization::JsonContract::set_DefaultCreator(/* [Nullable(new[] { 2, 1 })] */ ::System::Func_1<::System::Object*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonContract*>(), { "set_DefaultCreator", {}, { ::i2c::type_of<::System::Func_1<::System::Object*>*>() } })));

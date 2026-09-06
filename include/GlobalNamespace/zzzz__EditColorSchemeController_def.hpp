@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EditColorSchemeController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EditColorSchemeController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,6 +102,7 @@ public:
   /// @brief Method Start, addr 0x5921e80, size 0x37c, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [CompilerGenerated]
   /// @brief Method <Start>b__13_0, addr 0x59227a0, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__13_0();
 
@@ -156,15 +157,19 @@ public:
   /// @brief Method .ctor, addr 0x592279c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didChangeColorSchemeEvent, addr 0x592109c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5920ff0, size 0xac, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didChangeColorSchemeEvent, addr 0x5921540, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5921494, size 0xac, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
@@ -174,35 +179,42 @@ protected:
   constexpr EditColorSchemeController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EditColorSchemeController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditColorSchemeController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditColorSchemeController(EditColorSchemeController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EditColorSchemeController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditColorSchemeController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EditColorSchemeController(EditColorSchemeController const&) = delete;
+  EditColorSchemeController(EditColorSchemeControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6815 };
 
+  /// [SerializeField]
   /// @brief Field _colorSchemeColorsToggleGroup, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeColorsToggleGroup> ____colorSchemeColorsToggleGroup;
 
+  /// [SerializeField]
   /// @brief Field _rgbPanelController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RGBPanelController> ____rgbPanelController;
 
+  /// [SerializeField]
   /// @brief Field _hsvPanelController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HSVPanelController> ____hsvPanelController;
 
+  /// [SerializeField]
   /// @brief Field _previousColorPanelController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PreviousColorPanelController> ____previousColorPanelController;
 
+  /// [SerializeField]
   /// @brief Field _closeButton, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____closeButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___didFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didChangeColorSchemeEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::ColorScheme*>* ___didChangeColorSchemeEvent;
 

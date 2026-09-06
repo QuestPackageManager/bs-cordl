@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Configuration\IConfigurationSectionHandler.hpp"
+// IWYU pragma private; include "System/Configuration/IConfigurationSectionHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,9 +18,9 @@ namespace System::Configuration {
 class CORDL_TYPE IConfigurationSectionHandler {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IConfigurationSectionHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IConfigurationSectionHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IConfigurationSectionHandler(IConfigurationSectionHandler const&) = delete;
+  IConfigurationSectionHandler(IConfigurationSectionHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11820 };

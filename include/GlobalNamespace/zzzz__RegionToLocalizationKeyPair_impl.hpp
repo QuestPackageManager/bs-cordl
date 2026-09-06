@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RegionToLocalizationKeyPair.hpp"
+// IWYU pragma private; include "GlobalNamespace/RegionToLocalizationKeyPair.hpp"
 #include "GlobalNamespace/zzzz__Region_impl.hpp"
 #include "GlobalNamespace/zzzz__RegionToLocalizationKeyPair_def.hpp"
 #include "GlobalNamespace/zzzz__Region_def.hpp"
@@ -22,8 +22,8 @@ inline void GlobalNamespace::RegionToLocalizationKeyPair::_ctor(::GlobalNamespac
                                                                                          { ".ctor", {}, { ::i2c::type_of<::GlobalNamespace::Region>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, region, localizationKey);
 }
-// Ctor Parameters [CppParam { name: "region", ty: "::GlobalNamespace::Region", modifiers: "", def_value: Some("{}") }, CppParam { name: "localizationKey", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "region", ty: "::GlobalNamespace::Region", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "localizationKey", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RegionToLocalizationKeyPair::RegionToLocalizationKeyPair(::GlobalNamespace::Region region, ::StringW localizationKey) noexcept {
   this->region = region;
   this->localizationKey = localizationKey;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSemanticClassification.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSemanticClassification.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,11 @@ class OVRSemanticClassification;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRSemanticClassification*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRSemanticClassification*, "", "OVRSemanticClassification");
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-scene-use-scene-anchors/#further-scene-model-unity-components")]
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(OVRSceneAnchor))]
+// [Obsolete("OVRSceneManager and associated classes are deprecated (v65), please use MR Utility Kit instead (https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview)")]
+// [Feature((Meta.XR.Util.Feature)7)]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -72,13 +77,13 @@ protected:
   constexpr OVRSemanticClassification();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSemanticClassification(OVRSemanticClassification&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSemanticClassification", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSemanticClassification(OVRSemanticClassification const&) = delete;
+  OVRSemanticClassification(OVRSemanticClassificationconst&) = delete;
 
   /// @brief Field LabelSeparator offset 0xffffffff size 0x2
   static constexpr char16_t LabelSeparator{ u',' };

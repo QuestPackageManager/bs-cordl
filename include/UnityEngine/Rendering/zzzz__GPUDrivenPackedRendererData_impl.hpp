@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenPackedRendererData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenPackedRendererData.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenPackedRendererData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LightProbeUsage_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShadowCastingMode_def.hpp"
@@ -165,7 +165,7 @@ inline void UnityEngine::Rendering::GPUDrivenPackedRendererData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenPackedRendererData>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUDrivenPackedRendererData::GPUDrivenPackedRendererData(uint32_t data) noexcept {
   this->data = data;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseOutEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseOutEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::UnityEngine::UIElements::MouseOutEvent*);
 MARK_REF_T(::UnityEngine::UIElements::MouseOutEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseOutEvent*, "UnityEngine.UIElements", "MouseOutEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseOutEvent___c*, "UnityEngine.UIElements", "MouseOutEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -55,13 +56,13 @@ protected:
   constexpr MouseOutEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseOutEvent___c(MouseOutEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseOutEvent___c(MouseOutEvent___c const&) = delete;
+  MouseOutEvent___c(MouseOutEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4505 };
@@ -72,6 +73,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::MouseOutEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)4)]
 // Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -98,13 +100,13 @@ protected:
   constexpr MouseOutEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseOutEvent(MouseOutEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseOutEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseOutEvent(MouseOutEvent const&) = delete;
+  MouseOutEvent(MouseOutEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4506 };

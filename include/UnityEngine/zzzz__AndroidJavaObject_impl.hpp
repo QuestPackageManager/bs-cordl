@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AndroidJavaObject.hpp"
+// IWYU pragma private; include "UnityEngine/AndroidJavaObject.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -484,7 +484,7 @@ inline void UnityEngine::AndroidJavaObject::_ctor(::StringW className, ::ArrayW<
       (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::UnityEngine::AndroidJavaRunnable*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, className, args);
 }
-inline void UnityEngine::AndroidJavaObject::_ctor(::StringW className, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::_ctor(::StringW className, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, className, args);
@@ -494,7 +494,7 @@ inline void UnityEngine::AndroidJavaObject::_ctor(::System::IntPtr jobject) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jobject);
 }
-inline void UnityEngine::AndroidJavaObject::_ctor(::System::IntPtr clazz, ::System::IntPtr constructorID, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::_ctor(::System::IntPtr clazz, ::System::IntPtr constructorID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                               { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -518,12 +518,12 @@ template <typename T> inline void UnityEngine::AndroidJavaObject::Call(::System:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodID, args);
 }
-inline void UnityEngine::AndroidJavaObject::Call(::StringW methodName, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::Call(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { "Call", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodName, args);
 }
-inline void UnityEngine::AndroidJavaObject::Call(::System::IntPtr methodID, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::Call(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { "Call", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -543,13 +543,13 @@ template <typename T> inline void UnityEngine::AndroidJavaObject::CallStatic(::S
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodID, args);
 }
-inline void UnityEngine::AndroidJavaObject::CallStatic(::StringW methodName, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::CallStatic(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { "CallStatic", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodName, args);
 }
-inline void UnityEngine::AndroidJavaObject::CallStatic(::System::IntPtr methodID, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::CallStatic(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                                                                          { "CallStatic", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodID, args);
@@ -632,14 +632,14 @@ template <typename ReturnType, typename T> inline ReturnType UnityEngine::Androi
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<ReturnType>(), ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<ReturnType>(this, ___internal_method, methodID, args);
 }
-template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::Call(::StringW methodName, ::ArrayW<::System::Object*> args) {
+template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::Call(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                                            { "Call", { ::i2c::class_of<ReturnType>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<ReturnType>() })));
   return ::cordl_internals::RunMethodRethrow<ReturnType>(this, ___internal_method, methodName, args);
 }
-template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::Call(::System::IntPtr methodID, ::ArrayW<::System::Object*> args) {
+template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::Call(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                                            { "Call", { ::i2c::class_of<ReturnType>() }, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -660,14 +660,14 @@ template <typename ReturnType, typename T> inline ReturnType UnityEngine::Androi
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<ReturnType>(), ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<ReturnType>(this, ___internal_method, methodID, args);
 }
-template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::CallStatic(::StringW methodName, ::ArrayW<::System::Object*> args) {
+template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::CallStatic(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                                            { "CallStatic", { ::i2c::class_of<ReturnType>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<ReturnType>() })));
   return ::cordl_internals::RunMethodRethrow<ReturnType>(this, ___internal_method, methodName, args);
 }
-template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::CallStatic(::System::IntPtr methodID, ::ArrayW<::System::Object*> args) {
+template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::CallStatic(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                               { "CallStatic", { ::i2c::class_of<ReturnType>() }, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -685,13 +685,13 @@ inline void UnityEngine::AndroidJavaObject::DebugPrint(::StringW call, ::StringW
                           { "DebugPrint", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, call, methodName, signature, args);
 }
-inline void UnityEngine::AndroidJavaObject::_AndroidJavaObject(::StringW className, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::_AndroidJavaObject(::StringW className, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { "_AndroidJavaObject", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, className, args);
 }
-inline void UnityEngine::AndroidJavaObject::_AndroidJavaObject(::System::IntPtr constructorID, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::_AndroidJavaObject(::System::IntPtr constructorID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { "_AndroidJavaObject", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -709,25 +709,25 @@ inline void UnityEngine::AndroidJavaObject::Dispose(bool disposing) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, disposing);
 }
-inline void UnityEngine::AndroidJavaObject::_Call(::StringW methodName, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::_Call(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { "_Call", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodName, args);
 }
-inline void UnityEngine::AndroidJavaObject::_Call(::System::IntPtr methodID, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::_Call(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { "_Call", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodID, args);
 }
-template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::_Call(::StringW methodName, ::ArrayW<::System::Object*> args) {
+template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::_Call(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                                            { "_Call", { ::i2c::class_of<ReturnType>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<ReturnType>() })));
   return ::cordl_internals::RunMethodRethrow<ReturnType>(this, ___internal_method, methodName, args);
 }
-template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::_Call(::System::IntPtr methodID, ::ArrayW<::System::Object*> args) {
+template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::_Call(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                                            { "_Call", { ::i2c::class_of<ReturnType>() }, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -760,26 +760,26 @@ template <typename FieldType> inline void UnityEngine::AndroidJavaObject::_Set(:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<FieldType>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, fieldID, val);
 }
-inline void UnityEngine::AndroidJavaObject::_CallStatic(::StringW methodName, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::_CallStatic(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { "_CallStatic", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodName, args);
 }
-inline void UnityEngine::AndroidJavaObject::_CallStatic(::System::IntPtr methodID, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AndroidJavaObject::_CallStatic(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(), { "_CallStatic", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, methodID, args);
 }
-template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::_CallStatic(::StringW methodName, ::ArrayW<::System::Object*> args) {
+template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::_CallStatic(::StringW methodName, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                                            { "_CallStatic", { ::i2c::class_of<ReturnType>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<ReturnType>() })));
   return ::cordl_internals::RunMethodRethrow<ReturnType>(this, ___internal_method, methodName, args);
 }
-template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::_CallStatic(::System::IntPtr methodID, ::ArrayW<::System::Object*> args) {
+template <typename ReturnType> inline ReturnType UnityEngine::AndroidJavaObject::_CallStatic(::System::IntPtr methodID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJavaObject*>(),
                                               { "_CallStatic", { ::i2c::class_of<ReturnType>() }, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -858,13 +858,13 @@ inline ::UnityEngine::AndroidJavaObject* UnityEngine::AndroidJavaObject::New_cto
 inline ::UnityEngine::AndroidJavaObject* UnityEngine::AndroidJavaObject::New_ctor(::StringW className, ::ArrayW<::UnityEngine::AndroidJavaRunnable*> args) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AndroidJavaObject*>(className, args));
 }
-inline ::UnityEngine::AndroidJavaObject* UnityEngine::AndroidJavaObject::New_ctor(::StringW className, ::ArrayW<::System::Object*> args) {
+inline ::UnityEngine::AndroidJavaObject* UnityEngine::AndroidJavaObject::New_ctor(::StringW className, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AndroidJavaObject*>(className, args));
 }
 inline ::UnityEngine::AndroidJavaObject* UnityEngine::AndroidJavaObject::New_ctor(::System::IntPtr jobject) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AndroidJavaObject*>(jobject));
 }
-inline ::UnityEngine::AndroidJavaObject* UnityEngine::AndroidJavaObject::New_ctor(::System::IntPtr clazz, ::System::IntPtr constructorID, ::ArrayW<::System::Object*> args) {
+inline ::UnityEngine::AndroidJavaObject* UnityEngine::AndroidJavaObject::New_ctor(::System::IntPtr clazz, ::System::IntPtr constructorID, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::AndroidJavaObject*>(clazz, constructorID, args));
 }
 inline ::UnityEngine::AndroidJavaObject* UnityEngine::AndroidJavaObject::New_ctor() {

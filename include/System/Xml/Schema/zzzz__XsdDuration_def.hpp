@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XsdDuration.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XsdDuration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   // @brief default ctor
   constexpr XsdDuration_Parts();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XsdDuration_Parts(int32_t value__) noexcept;
 
   /// @brief Field HasDays value: I32(4)
@@ -141,7 +141,7 @@ public:
   // @brief default ctor
   constexpr XsdDuration_DurationType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XsdDuration_DurationType(int32_t value__) noexcept;
 
   /// @brief Field DayTimeDuration value: I32(2)
@@ -267,9 +267,10 @@ public:
   // @brief default ctor
   constexpr XsdDuration();
 
-  // Ctor Parameters [CppParam { name: "years", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "months", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "days",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hours", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minutes", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "seconds", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nanoseconds", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "years", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "months", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "days", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "hours", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "minutes", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "seconds", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "nanoseconds", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XsdDuration(int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, uint32_t nanoseconds) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

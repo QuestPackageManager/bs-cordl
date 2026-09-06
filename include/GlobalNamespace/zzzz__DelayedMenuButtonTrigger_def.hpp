@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DelayedMenuButtonTrigger.hpp"
+// IWYU pragma private; include "GlobalNamespace/DelayedMenuButtonTrigger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,6 +91,7 @@ public:
   /// @brief Method .ctor, addr 0x327eae8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_menuButtonTriggeredEvent, addr 0x327e864, size 0xac, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
@@ -100,6 +101,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_menuButtonTriggeredEvent, addr 0x327e910, size 0xac, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
@@ -109,13 +111,13 @@ protected:
   constexpr DelayedMenuButtonTrigger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelayedMenuButtonTrigger(DelayedMenuButtonTrigger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelayedMenuButtonTrigger(DelayedMenuButtonTrigger const&) = delete;
+  DelayedMenuButtonTrigger(DelayedMenuButtonTriggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23548 };
@@ -123,12 +125,15 @@ public:
   /// @brief Field kDefaultPauseButtonPressDuration offset 0xffffffff size 0x4
   static constexpr float_t kDefaultPauseButtonPressDuration{ static_cast<float_t>(0.75f) };
 
+  /// [Inject]
   /// @brief Field _pressDuration, offset: 0x10, size: 0x4, def value: None
   float_t ____pressDuration;
 
+  /// [Inject]
   /// @brief Field _vrPlatformHelper, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
+  /// [CompilerGenerated]
   /// @brief Field menuButtonTriggeredEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___menuButtonTriggeredEvent;
 

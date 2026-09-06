@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalScreenSpaceRenderPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalScreenSpaceRenderPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -164,13 +166,13 @@ protected:
   constexpr DecalScreenSpaceRenderPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalScreenSpaceRenderPass_PassData(DecalScreenSpaceRenderPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalScreenSpaceRenderPass_PassData(DecalScreenSpaceRenderPass_PassData const&) = delete;
+  DecalScreenSpaceRenderPass_PassData(DecalScreenSpaceRenderPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12714 };
@@ -216,6 +218,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DecalScreenSpaceRend
 static_assert(sizeof(::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -256,13 +259,13 @@ protected:
   constexpr DecalScreenSpaceRenderPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalScreenSpaceRenderPass___c(DecalScreenSpaceRenderPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalScreenSpaceRenderPass___c(DecalScreenSpaceRenderPass___c const&) = delete;
+  DecalScreenSpaceRenderPass___c(DecalScreenSpaceRenderPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12715 };
@@ -308,6 +311,7 @@ public:
                                                                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x6862a9c, size 0x2d8, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -372,13 +376,13 @@ protected:
   constexpr DecalScreenSpaceRenderPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalScreenSpaceRenderPass(DecalScreenSpaceRenderPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalScreenSpaceRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalScreenSpaceRenderPass(DecalScreenSpaceRenderPass const&) = delete;
+  DecalScreenSpaceRenderPass(DecalScreenSpaceRenderPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12716 };

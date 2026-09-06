@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AYellowpaper\SerializedCollections\SerializedDictionaryAttribute.hpp"
+// IWYU pragma private; include "AYellowpaper/SerializedCollections/SerializedDictionaryAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "AYellowpaper/SerializedCollections/zzzz__SerializedDictionaryAttribute_def.hpp"
 //  Writing Method size for method: ::AYellowpaper::SerializedCollections::SerializedDictionaryAttribute._ctor

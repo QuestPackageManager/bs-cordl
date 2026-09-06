@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\CompressionMethod.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/CompressionMethod.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr CompressionMethod();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompressionMethod", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompressionMethod", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompressionMethod(CompressionMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompressionMethod", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompressionMethod", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompressionMethod(CompressionMethod const&) = delete;
+  CompressionMethod(CompressionMethodconst&) = delete;
 
   /// @brief Field DEFLATE offset 0xffffffff size 0x1
   static constexpr uint8_t DEFLATE{ static_cast<uint8_t>(0x1u) };

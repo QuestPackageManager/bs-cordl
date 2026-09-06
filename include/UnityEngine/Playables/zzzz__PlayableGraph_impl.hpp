@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\PlayableGraph.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/PlayableGraph.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameRate_def.hpp"
@@ -317,7 +318,10 @@ inline ::UnityEngine::Playables::Playable UnityEngine::Playables::PlayableGraph:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(), { "GetRootPlayable", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::Playable>(*this, ___internal_method, index);
 }
-template <typename U, typename V> inline bool UnityEngine::Playables::PlayableGraph::Connect(U source, int32_t sourceOutputPort, V destination, int32_t destinationInputPort) {
+template <typename U, typename V>
+  requires(::cordl_internals::type_constraint<U, ::UnityEngine::Playables::IPlayable*> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
+           ::cordl_internals::type_constraint<V, ::UnityEngine::Playables::IPlayable*> && ::cordl_internals::value_type_constraint<V> && ::cordl_internals::default_constructor_constraint<V>)
+inline bool UnityEngine::Playables::PlayableGraph::Connect(U source, int32_t sourceOutputPort, V destination, int32_t destinationInputPort) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(),
@@ -337,7 +341,7 @@ inline bool UnityEngine::Playables::PlayableGraph::IsPlaying() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(), { "IsPlaying", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline void UnityEngine::Playables::PlayableGraph::Evaluate(float_t deltaTime) {
+inline void UnityEngine::Playables::PlayableGraph::Evaluate(/* [DefaultValue("0")] */ float_t deltaTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableGraph>(), { "Evaluate", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, deltaTime);
@@ -449,7 +453,8 @@ inline bool UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected(::by
                                                   ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, source, sourceOutputPort, destination, destinationInputPort);
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Playables::PlayableGraph::PlayableGraph(::System::IntPtr m_Handle, uint32_t m_Version) noexcept {
   this->m_Handle = m_Handle;
   this->m_Version = m_Version;

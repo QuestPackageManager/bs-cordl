@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpCompressedDataGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpCompressedDataGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +66,13 @@ protected:
   constexpr PgpCompressedDataGenerator_SafeCBZip2OutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeCBZip2OutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeCBZip2OutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpCompressedDataGenerator_SafeCBZip2OutputStream(PgpCompressedDataGenerator_SafeCBZip2OutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeCBZip2OutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeCBZip2OutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpCompressedDataGenerator_SafeCBZip2OutputStream(PgpCompressedDataGenerator_SafeCBZip2OutputStream const&) = delete;
+  PgpCompressedDataGenerator_SafeCBZip2OutputStream(PgpCompressedDataGenerator_SafeCBZip2OutputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1630 };
@@ -104,13 +104,13 @@ protected:
   constexpr PgpCompressedDataGenerator_SafeZOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeZOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeZOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpCompressedDataGenerator_SafeZOutputStream(PgpCompressedDataGenerator_SafeZOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeZOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator_SafeZOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpCompressedDataGenerator_SafeZOutputStream(PgpCompressedDataGenerator_SafeZOutputStream const&) = delete;
+  PgpCompressedDataGenerator_SafeZOutputStream(PgpCompressedDataGenerator_SafeZOutputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1631 };
@@ -202,13 +202,13 @@ protected:
   constexpr PgpCompressedDataGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpCompressedDataGenerator(PgpCompressedDataGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedDataGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpCompressedDataGenerator(PgpCompressedDataGenerator const&) = delete;
+  PgpCompressedDataGenerator(PgpCompressedDataGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1632 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlHash128AttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlHash128AttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ MARK_REF_T(::UnityEngine::UIElements::UxmlHash128AttributeDescription*);
 MARK_REF_T(::UnityEngine::UIElements::UxmlHash128AttributeDescription___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlHash128AttributeDescription*, "UnityEngine.UIElements", "UxmlHash128AttributeDescription");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlHash128AttributeDescription___c*, "UnityEngine.UIElements", "UxmlHash128AttributeDescription/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -70,13 +71,13 @@ protected:
   constexpr UxmlHash128AttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlHash128AttributeDescription___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlHash128AttributeDescription___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlHash128AttributeDescription___c(UxmlHash128AttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlHash128AttributeDescription___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlHash128AttributeDescription___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlHash128AttributeDescription___c(UxmlHash128AttributeDescription___c const&) = delete;
+  UxmlHash128AttributeDescription___c(UxmlHash128AttributeDescription___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5169 };
@@ -110,13 +111,13 @@ protected:
   constexpr UxmlHash128AttributeDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlHash128AttributeDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlHash128AttributeDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlHash128AttributeDescription(UxmlHash128AttributeDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlHash128AttributeDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlHash128AttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlHash128AttributeDescription(UxmlHash128AttributeDescription const&) = delete;
+  UxmlHash128AttributeDescription(UxmlHash128AttributeDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5170 };

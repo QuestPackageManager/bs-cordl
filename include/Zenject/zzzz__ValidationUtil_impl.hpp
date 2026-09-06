@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ValidationUtil.hpp"
+// IWYU pragma private; include "Zenject/ValidationUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ValidationUtil_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     return ___internal_method;
   }
 };
-inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Zenject::ValidationUtil::CreateDefaultArgs(::ArrayW<::System::Type*> argTypes) {
+inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Zenject::ValidationUtil::CreateDefaultArgs(/* [ParamArray] */ ::ArrayW<::System::Type*> argTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ValidationUtil*>(), { "CreateDefaultArgs", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>(nullptr, ___internal_method, argTypes);

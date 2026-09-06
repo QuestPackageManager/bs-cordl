@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Utils\ValueContainer_1.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Utils/ValueContainer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ template <typename T> class ValueContainer_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::Utils::ValueContainer_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::Utils::ValueContainer_1, "Meta.XR.ImmersiveDebugger.Utils", "ValueContainer`1");
+// [DefaultMember("Item")]
 // Dependencies Meta.XR.ImmersiveDebugger.Utils.ValueStruct`1<T>, UnityEngine.ScriptableObject
 namespace Meta::XR::ImmersiveDebugger::Utils {
 // cpp template
@@ -58,13 +59,13 @@ protected:
   constexpr ValueContainer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueContainer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueContainer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueContainer_1(ValueContainer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueContainer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueContainer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueContainer_1(ValueContainer_1 const&) = delete;
+  ValueContainer_1(ValueContainer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18358 };

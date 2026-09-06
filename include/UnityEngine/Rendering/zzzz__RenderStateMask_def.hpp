@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderStateMask.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderStateMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RenderStateMask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderStateMask);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderStateMask, "UnityEngine.Rendering", "RenderStateMask");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr RenderStateMask();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderStateMask(int32_t value__) noexcept;
 
   /// @brief Field Blend value: I32(1)

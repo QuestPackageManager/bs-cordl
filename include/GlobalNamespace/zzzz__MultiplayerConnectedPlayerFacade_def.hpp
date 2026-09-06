@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerFacade.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerFacade.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,13 +71,13 @@ protected:
   constexpr MultiplayerConnectedPlayerFacade_Factory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade_Factory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade_Factory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerFacade_Factory(MultiplayerConnectedPlayerFacade_Factory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade_Factory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade_Factory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerFacade_Factory(MultiplayerConnectedPlayerFacade_Factory const&) = delete;
+  MultiplayerConnectedPlayerFacade_Factory(MultiplayerConnectedPlayerFacade_Factoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6055 };
@@ -88,6 +88,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerConnectedPlayerFacade")]
 // Dependencies EaseType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -225,41 +226,52 @@ protected:
   constexpr MultiplayerConnectedPlayerFacade();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerFacade(MultiplayerConnectedPlayerFacade&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerFacade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerFacade(MultiplayerConnectedPlayerFacade const&) = delete;
+  MultiplayerConnectedPlayerFacade(MultiplayerConnectedPlayerFacadeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6056 };
 
+  /// [SerializeField]
   /// @brief Field _outroAnimator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____outroAnimator;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _bigAvatarAnimator, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> ____bigAvatarAnimator;
 
+  /// [Header("Big Avatar Disappear")]
+  /// [SerializeField]
   /// @brief Field _bigAvatarDisappearDuration, offset: 0x30, size: 0x4, def value: None
   float_t ____bigAvatarDisappearDuration;
 
+  /// [SerializeField]
   /// @brief Field _bigAvatarDisappearEasing, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____bigAvatarDisappearEasing;
 
+  /// [Inject]
   /// @brief Field _songTimeSyncController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> ____songTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _introAnimator, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> ____introAnimator;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [Inject]
   /// @brief Field _scoreDiffText, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> ____scoreDiffText;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectEventManager, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* ____beatmapObjectEventManager;
 

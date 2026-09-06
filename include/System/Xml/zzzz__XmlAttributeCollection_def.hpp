@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlAttributeCollection.hpp"
+// IWYU pragma private; include "System/Xml/XmlAttributeCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class XmlAttributeCollection;
 // Write type traits
 MARK_REF_T(::System::Xml::XmlAttributeCollection*);
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlAttributeCollection*, "System.Xml", "XmlAttributeCollection");
+// [DefaultMember("ItemOf")]
 // Dependencies System.Xml.XmlNamedNodeMap
 namespace System::Xml {
 // Is value type: false
@@ -143,13 +144,13 @@ protected:
   constexpr XmlAttributeCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlAttributeCollection(XmlAttributeCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlAttributeCollection(XmlAttributeCollection const&) = delete;
+  XmlAttributeCollection(XmlAttributeCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9378 };

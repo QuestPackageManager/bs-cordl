@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ThreadAbortException.hpp"
+// IWYU pragma private; include "System/Threading/ThreadAbortException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class ThreadAbortException;
 // Write type traits
 MARK_REF_T(::System::Threading::ThreadAbortException*);
 DEFINE_IL2CPP_CLASS(::System::Threading::ThreadAbortException*, "System.Threading", "ThreadAbortException");
+// [ComVisible(true)]
 // Dependencies System.SystemException
 namespace System::Threading {
 // Is value type: false
@@ -41,13 +42,13 @@ protected:
   constexpr ThreadAbortException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadAbortException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadAbortException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadAbortException(ThreadAbortException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadAbortException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadAbortException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ThreadAbortException(ThreadAbortException const&) = delete;
+  ThreadAbortException(ThreadAbortExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2738 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\ITextElement.hpp"
+// IWYU pragma private; include "TMPro/ITextElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_sharedMaterial)) ::UnityW<::UnityEngine::Material> sharedMaterial;
 
-  /// @brief Method GetInstanceID, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetInstanceID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetInstanceID();
 
-  /// @brief Method Rebuild, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method get_sharedMaterial, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_sharedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Material> get_sharedMaterial();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITextElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITextElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITextElement(ITextElement const&) = delete;
+  ITextElement(ITextElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15988 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore\IgnoranceClientStats.hpp"
+// IWYU pragma private; include "IgnoranceCore/IgnoranceClientStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,10 @@ public:
   // @brief default ctor
   constexpr IgnoranceClientStats();
 
-  // Ctor Parameters [CppParam { name: "RTT", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "BytesReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "BytesSent", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsSent", ty:
-  // "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsLost", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RTT", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "BytesReceived", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "BytesSent", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "PacketsSent", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "PacketsLost", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr IgnoranceClientStats(uint32_t RTT, uint64_t BytesReceived, uint64_t BytesSent, uint64_t PacketsReceived, uint64_t PacketsSent, uint64_t PacketsLost) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

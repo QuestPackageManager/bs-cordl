@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerEnumField.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerEnumField.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerField_1_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerEnumField_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"

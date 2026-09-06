@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ResourcePathsBaseAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ResourcePathsBaseAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ResourcePathsBaseAttribute_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SearchType_def.hpp"

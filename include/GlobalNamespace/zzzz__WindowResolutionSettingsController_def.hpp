@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\WindowResolutionSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/WindowResolutionSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,17 +69,18 @@ protected:
   constexpr WindowResolutionSettingsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WindowResolutionSettingsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowResolutionSettingsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WindowResolutionSettingsController(WindowResolutionSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WindowResolutionSettingsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowResolutionSettingsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WindowResolutionSettingsController(WindowResolutionSettingsController const&) = delete;
+  WindowResolutionSettingsController(WindowResolutionSettingsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6414 };
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

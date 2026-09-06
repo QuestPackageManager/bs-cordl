@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Video\VideoClip.hpp"
+// IWYU pragma private; include "UnityEngine/Video/VideoClip.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/Video/zzzz__VideoClip_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RandomAnimationStartTime.hpp"
+// IWYU pragma private; include "GlobalNamespace/RandomAnimationStartTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,20 +60,22 @@ protected:
   constexpr RandomAnimationStartTime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RandomAnimationStartTime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomAnimationStartTime", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RandomAnimationStartTime(RandomAnimationStartTime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RandomAnimationStartTime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RandomAnimationStartTime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RandomAnimationStartTime(RandomAnimationStartTime const&) = delete;
+  RandomAnimationStartTime(RandomAnimationStartTimeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21418 };
 
+  /// [SerializeField]
   /// @brief Field _animation, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animation> ____animation;
 
+  /// [Inject]
   /// @brief Field _random, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IRandom* ____random;
 

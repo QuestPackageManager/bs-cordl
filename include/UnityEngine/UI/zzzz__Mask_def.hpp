@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Mask.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Mask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,10 @@ class Mask;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::Mask*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::Mask*, "UnityEngine.UI", "Mask");
+// [AddComponentMenu("UI/Mask", 13)]
+// [ExecuteAlways]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.EventSystems.UIBehaviour
 namespace UnityEngine::UI {
 // Is value type: false
@@ -84,6 +88,7 @@ public:
   /// @brief Method OnEnable, addr 0x6dff414, size 0x158, virtual true, abstract: false, final false
   inline void OnEnable();
 
+  /// [Obsolete("Not used anymore.")]
   /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x6dff410, size 0x4, virtual true, abstract: false, final false
   inline void OnSiblingGraphicEnabledDisabled();
 
@@ -144,13 +149,13 @@ protected:
   constexpr Mask();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Mask", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Mask", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Mask(Mask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Mask", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Mask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Mask(Mask const&) = delete;
+  Mask(Maskconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17467 };
@@ -158,6 +163,7 @@ public:
   /// @brief Field m_RectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_RectTransform;
 
+  /// [SerializeField]
   /// @brief Field m_ShowMaskGraphic, offset: 0x28, size: 0x1, def value: None
   bool ___m_ShowMaskGraphic;
 

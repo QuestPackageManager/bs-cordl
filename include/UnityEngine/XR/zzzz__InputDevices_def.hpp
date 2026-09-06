@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\InputDevices.hpp"
+// IWYU pragma private; include "UnityEngine/XR/InputDevices.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,10 @@ class InputDevices;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::InputDevices*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::InputDevices*, "UnityEngine.XR", "InputDevices");
+// [StaticAccessor("XRInputDevices::Get()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
+// [NativeConditional("ENABLE_VR")]
+// [UsedByNativeCode]
 // Dependencies System.Object
 namespace UnityEngine::XR {
 // Is value type: false
@@ -67,6 +71,7 @@ public:
   /// @brief Method GetDeviceName_Injected, addr 0x6e37d68, size 0x44, virtual false, abstract: false, final false
   static inline void GetDeviceName_Injected(uint64_t deviceId, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeConnectionEvent, addr 0x6e37ca4, size 0xc4, virtual false, abstract: false, final false
   static inline void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change);
 
@@ -97,13 +102,13 @@ protected:
   constexpr InputDevices();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputDevices(InputDevices&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputDevices(InputDevices const&) = delete;
+  InputDevices(InputDevicesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22170 };

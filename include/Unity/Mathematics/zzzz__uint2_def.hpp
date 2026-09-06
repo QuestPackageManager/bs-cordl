@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\uint2.hpp"
+// IWYU pragma private; include "Unity/Mathematics/uint2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,13 +90,13 @@ protected:
   constexpr uint2_DebuggerProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "uint2_DebuggerProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "uint2_DebuggerProxy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   uint2_DebuggerProxy(uint2_DebuggerProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "uint2_DebuggerProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "uint2_DebuggerProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  uint2_DebuggerProxy(uint2_DebuggerProxy const&) = delete;
+  uint2_DebuggerProxy(uint2_DebuggerProxyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13202 };
@@ -117,6 +117,9 @@ static_assert(offsetof(::Unity::Mathematics::uint2_DebuggerProxy, ___y) == 0x14,
 static_assert(sizeof(::Unity::Mathematics::uint2_DebuggerProxy) == 0x18, "Size mismatch!");
 
 } // namespace Unity::Mathematics
+// [DefaultMember("Item")]
+// [DebuggerTypeProxy(typeof(Unity.Mathematics.uint2::DebuggerProxy))]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies
 namespace Unity::Mathematics {
 // Is value type: true
@@ -128,60 +131,88 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) uint32_t Item[];
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xx)) ::Unity::Mathematics::uint2 xx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxx)) ::Unity::Mathematics::uint3 xxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxx)) ::Unity::Mathematics::uint4 xxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxy)) ::Unity::Mathematics::uint4 xxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxy)) ::Unity::Mathematics::uint3 xxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyx)) ::Unity::Mathematics::uint4 xxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyy)) ::Unity::Mathematics::uint4 xxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xy, put = set_xy)) ::Unity::Mathematics::uint2 xy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyx)) ::Unity::Mathematics::uint3 xyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxx)) ::Unity::Mathematics::uint4 xyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxy)) ::Unity::Mathematics::uint4 xyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyy)) ::Unity::Mathematics::uint3 xyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyx)) ::Unity::Mathematics::uint4 xyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyy)) ::Unity::Mathematics::uint4 xyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yx, put = set_yx)) ::Unity::Mathematics::uint2 yx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxx)) ::Unity::Mathematics::uint3 yxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxx)) ::Unity::Mathematics::uint4 yxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxy)) ::Unity::Mathematics::uint4 yxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxy)) ::Unity::Mathematics::uint3 yxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyx)) ::Unity::Mathematics::uint4 yxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyy)) ::Unity::Mathematics::uint4 yxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yy)) ::Unity::Mathematics::uint2 yy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyx)) ::Unity::Mathematics::uint3 yyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxx)) ::Unity::Mathematics::uint4 yyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxy)) ::Unity::Mathematics::uint4 yyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyy)) ::Unity::Mathematics::uint3 yyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyx)) ::Unity::Mathematics::uint4 yyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyy)) ::Unity::Mathematics::uint4 yyyy;
 
   /// @brief Field zero, offset 0xffffffff, size 0x8
@@ -525,7 +556,7 @@ public:
   // @brief default ctor
   constexpr uint2();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr uint2(uint32_t x, uint32_t y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

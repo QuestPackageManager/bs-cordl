@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::GlobalNamespace::GameLoader*);
 MARK_VAL_T(::GlobalNamespace::GameLoader__Start_d__3);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameLoader*, "", "GameLoader");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameLoader__Start_d__3, "", "GameLoader/<Start>d__3");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
 // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>, UnityEngine.ResourceManagement.ResourceProviders.SceneInstance
 namespace GlobalNamespace {
@@ -47,6 +48,7 @@ public:
   /// @brief Method MoveNext, addr 0x37704dc, size 0x450, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x377092c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -57,11 +59,12 @@ public:
   // @brief default ctor
   constexpr GameLoader__Start_d__3();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::GameLoader>", modifiers: "",
-  // def_value: None }, CppParam { name: "_appInitHandle_5__2", ty:
-  // "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::GameLoader>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_appInitHandle_5__2", ty:
+  // "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr GameLoader__Start_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::GameLoader> __4__this,
                                    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _appInitHandle_5__2,
                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __u__1) noexcept;
@@ -126,6 +129,7 @@ public:
 
   static inline ::GlobalNamespace::GameLoader* New_ctor();
 
+  /// [AsyncStateMachine(typeof(GameLoader::<Start>d__3))]
   /// @brief Method Start, addr 0x37702b8, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
@@ -150,13 +154,13 @@ protected:
   constexpr GameLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameLoader(GameLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameLoader(GameLoader const&) = delete;
+  GameLoader(GameLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21009 };

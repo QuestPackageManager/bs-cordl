@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\DigestUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/DigestUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__DigestUtilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -7,7 +7,7 @@
 #include "Org/BouncyCastle/Security/zzzz__DigestUtilities_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Org::BouncyCastle::Security::DigestUtilities_DigestAlgorithm::DigestUtilities_DigestAlgorithm(int32_t value__) noexcept {
   this->value__ = value__;
 }

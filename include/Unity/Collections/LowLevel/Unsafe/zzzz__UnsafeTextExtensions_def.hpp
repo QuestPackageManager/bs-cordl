@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeTextExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeTextExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,7 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnsafeTextExtensions)
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeList_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 struct UnsafeText;
@@ -19,6 +21,7 @@ class UnsafeTextExtensions;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::UnsafeTextExtensions*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeTextExtensions*, "Unity.Collections.LowLevel.Unsafe", "UnsafeTextExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -26,9 +29,11 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE UnsafeTextExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AsUnsafeListOfBytes, addr 0x64cf460, size 0x44, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<uint8_t>> AsUnsafeListOfBytes(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> text);
 
+  /// [Extension]
   /// @brief Method AsUnsafeListOfBytesRO, addr 0x64cf4a4, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<uint8_t> AsUnsafeListOfBytesRO(::Unity::Collections::LowLevel::Unsafe::UnsafeText text);
 
@@ -38,13 +43,13 @@ protected:
   constexpr UnsafeTextExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeTextExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeTextExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeTextExtensions(UnsafeTextExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeTextExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeTextExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeTextExtensions(UnsafeTextExtensions const&) = delete;
+  UnsafeTextExtensions(UnsafeTextExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15827 };

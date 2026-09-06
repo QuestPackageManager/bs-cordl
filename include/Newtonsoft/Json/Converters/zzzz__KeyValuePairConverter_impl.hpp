@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\KeyValuePairConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/KeyValuePairConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__KeyValuePairConverter_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
@@ -95,13 +95,14 @@ inline ::Newtonsoft::Json::Utilities::ReflectionObject* Newtonsoft::Json::Conver
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::KeyValuePairConverter*>(), { "InitializeReflectionObject", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::ReflectionObject*>(nullptr, ___internal_method, t);
 }
-inline void Newtonsoft::Json::Converters::KeyValuePairConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer) {
+inline void Newtonsoft::Json::Converters::KeyValuePairConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value,
+                                                                           ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::KeyValuePairConverter*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
 }
-inline ::System::Object* Newtonsoft::Json::Converters::KeyValuePairConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue,
-                                                                                       ::Newtonsoft::Json::JsonSerializer* serializer) {
+inline ::System::Object* Newtonsoft::Json::Converters::KeyValuePairConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
+                                                                                       /* [Nullable(2)] */ ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::KeyValuePairConverter*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, existingValue, serializer);

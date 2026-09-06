@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRRaycaster.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,8 +89,8 @@ public:
   // @brief default ctor
   constexpr OVRRaycaster_RaycastHit();
 
-  // Ctor Parameters [CppParam { name: "graphic", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None }, CppParam { name: "worldPos", ty: "::UnityEngine::Vector3", modifiers:
-  // "", def_value: None }, CppParam { name: "fromMouse", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "graphic", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldPos", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "fromMouse", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr OVRRaycaster_RaycastHit(::UnityW<::UnityEngine::UI::Graphic> graphic, ::UnityEngine::Vector3 worldPos, bool fromMouse) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -120,6 +120,7 @@ static_assert(offsetof(::GlobalNamespace::OVRRaycaster_RaycastHit, fromMouse) ==
 static_assert(sizeof(::GlobalNamespace::OVRRaycaster_RaycastHit) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -155,13 +156,13 @@ protected:
   constexpr OVRRaycaster___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRaycaster___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRaycaster___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRRaycaster___c(OVRRaycaster___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRaycaster___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRaycaster___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRRaycaster___c(OVRRaycaster___c const&) = delete;
+  OVRRaycaster___c(OVRRaycaster___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7968 };
@@ -172,6 +173,8 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRRaycaster___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [RequireComponent(typeof(UnityEngine.Canvas))]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-dronerage-example-scenes/")]
 // Dependencies UnityEngine.UI.GraphicRaycaster, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -319,17 +322,18 @@ protected:
   constexpr OVRRaycaster();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRaycaster", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRaycaster", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRRaycaster(OVRRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRaycaster", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRRaycaster(OVRRaycaster const&) = delete;
+  OVRRaycaster(OVRRaycasterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7969 };
 
+  /// [Tooltip("A world space pointer for this canvas")]
   /// @brief Field pointer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___pointer;
 

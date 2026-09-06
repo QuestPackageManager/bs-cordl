@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXUISliderBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXUISliderBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class VFXUISliderBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXUISliderBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXUISliderBinder*, "UnityEngine.VFX.Utility", "VFXUISliderBinder");
+// [AddComponentMenu("VFX/Property Binders/UI Slider Binder")]
+// [VFXBinder("UI/Slider")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -75,17 +77,20 @@ protected:
   constexpr VFXUISliderBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXUISliderBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXUISliderBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXUISliderBinder(VFXUISliderBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXUISliderBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXUISliderBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXUISliderBinder(VFXUISliderBinder const&) = delete;
+  VFXUISliderBinder(VFXUISliderBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20011 };
 
+  /// [VFXPropertyBinding(new[] { "System.Single" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_Parameter")]
   /// @brief Field m_Property, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

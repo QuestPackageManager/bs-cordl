@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\InvalidCastException.hpp"
+// IWYU pragma private; include "System/InvalidCastException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__InvalidCastException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

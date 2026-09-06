@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DefaultEventSystem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DefaultEventSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
@@ -452,9 +452,9 @@ inline void UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                                                 ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_0(
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
                                                                                          { "<ProcessPointerEvent>b__9_0",
                                                                                            {},
@@ -462,9 +462,9 @@ UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPoi
                                                                                              ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                                                 ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_1(
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
                                                                                          { "<ProcessPointerEvent>b__9_1",
                                                                                            {},
@@ -472,9 +472,9 @@ UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPoi
                                                                                              ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                                                 ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_2(
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
                                                                                          { "<ProcessPointerEvent>b__9_2",
                                                                                            {},
@@ -482,9 +482,9 @@ UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPoi
                                                                                              ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_3(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                                                 ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_3(
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    /* [TupleElementNames(new[] { "pointerEvent", "pointerId", "deltaTime" })] */ ::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t> t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
                                                                                          { "<ProcessPointerEvent>b__9_3",
                                                                                            {},
@@ -492,9 +492,9 @@ UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPoi
                                                                                              ::i2c::type_of<::System::ValueTuple_3<::UnityEngine::InputForUI::PointerEvent, int32_t, float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_4(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
-                                                                                                 ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPointerEvent_b__9_4(
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
+    /* [TupleElementNames(new[] { "modifiers", "scrollDelta" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
                                                                                          { "<ProcessPointerEvent>b__9_4",
                                                                                            {},
@@ -503,7 +503,7 @@ UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessPoi
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, _, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessNavigationEvent_b__10_2(
-    ::System::ValueTuple_3<::UnityEngine::Vector2, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t) {
+    /* [TupleElementNames(new[] { "move", "deviceType", "mod" })] */ ::System::ValueTuple_3<::UnityEngine::Vector2, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
@@ -513,7 +513,9 @@ inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUI
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessNavigationEvent_b__10_3(
-    ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t) {
+    /* [TupleElementNames(new[] { "direction", "deviceType", "mod" })] */ ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction,
+                                                                                                 ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>
+        t) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -524,7 +526,7 @@ inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUI
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessNavigationEvent_b__10_0(
-    ::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t) {
+    /* [TupleElementNames(new[] { "deviceType", "mod" })] */ ::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
@@ -532,29 +534,29 @@ inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUI
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessNavigationEvent_b__10_1(
-    ::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t) {
+    /* [TupleElementNames(new[] { "deviceType", "mod" })] */ ::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers> t) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
                           { "<ProcessNavigationEvent>b__10_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, t);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessKeyEvent_b__11_0(::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessKeyEvent_b__11_0(
+    /* [TupleElementNames(new[] { "modifiers", "keyCode" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
                                                            { "<ProcessKeyEvent>b__11_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, t);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessKeyEvent_b__11_1(::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessKeyEvent_b__11_1(
+    /* [TupleElementNames(new[] { "modifiers", "keyCode" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
                                                            { "<ProcessKeyEvent>b__11_1", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::KeyCode>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, t);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessTextInputEvent_b__12_0(::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c::_ProcessTextInputEvent_b__12_0(
+    /* [TupleElementNames(new[] { "modifiers", "character" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InputForUIProcessor_DefaultEventSystem___c*>(),
                                                            { "<ProcessTextInputEvent>b__12_0", {}, { ::i2c::type_of<::System::ValueTuple_2<::UnityEngine::EventModifiers, char16_t>>() } })));
@@ -759,7 +761,7 @@ inline void UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::_ct
                                                                                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventSystem);
 }
-inline bool UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::OnEvent(::by_ref<::UnityEngine::InputForUI::Event> ev) {
+inline bool UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::OnEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
                                                                                          { "OnEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, ev);
@@ -2095,9 +2097,9 @@ inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInpu
                                                                                          { "<SendIMGUIEvents>b__26_0", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, e);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__26_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
-                                                                                               ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUIEvents_b__26_1(
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
+    /* [TupleElementNames(new[] { "modifiers", "scrollDelta" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
                                                                                          { "<SendIMGUIEvents>b__26_1",
                                                                                            {},
@@ -2113,9 +2115,9 @@ UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendIMGUI
                           { "<SendIMGUIEvents>b__26_2", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Event*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, evt);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                                                  ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_0(
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    /* [TupleElementNames(new[] { "modifiers", "targetDisplay" })] */ ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
                                                            { "<ProcessMouseEvents>b__27_0",
@@ -2125,7 +2127,8 @@ UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMo
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_1(
-    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t) {
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, /* [TupleElementNames(new[] { "button", "clickCount", "modifiers", "targetDisplay" })] */
+    ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
                                                            { "<ProcessMouseEvents>b__27_1",
@@ -2135,7 +2138,8 @@ inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInpu
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, t);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessMouseEvents_b__27_2(
-    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t) {
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, /* [TupleElementNames(new[] { "button", "clickCount", "modifiers", "targetDisplay" })] */
+    ::System::ValueTuple_4<int32_t, int32_t, ::UnityEngine::EventModifiers, ::System::Nullable_1<int32_t>> t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
                                                            { "<ProcessMouseEvents>b__27_2",
@@ -2165,9 +2169,9 @@ UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_SendInput
                                                            { "<SendInputEvents>b__28_2", {}, { ::i2c::type_of<::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, self);
 }
-inline ::UnityEngine::UIElements::EventBase*
-UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTouchEvents_b__29_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
-                                                                                                  ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>> t) {
+inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTouchEvents_b__29_0(
+    ::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
+    /* [TupleElementNames(new[] { "touch", "targetDisplay" })] */ ::System::ValueTuple_2<::UnityEngine::Touch, ::System::Nullable_1<int32_t>> t) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
                                                                                          { "<ProcessTouchEvents>b__29_0",
                                                                                            {},
@@ -2184,7 +2188,9 @@ UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessPe
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::EventBase*>(this, ___internal_method, panelPosition, panelDelta, _pen);
 }
 inline ::UnityEngine::UIElements::EventBase* UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c::_ProcessTabEvent_b__37_0(
-    ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers, ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*> t) {
+    /* [TupleElementNames(new[] { "direction", "modifiers", "input" })] */ ::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers,
+                                                                                                  ::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem_IInput*>
+        t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LegacyInputProcessor_DefaultEventSystem___c*>(),
                                                            { "<ProcessTabEvent>b__37_0",
@@ -2633,7 +2639,7 @@ UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::New_ctor(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DefaultEventSystem_LegacyInputProcessor::DefaultEventSystem_LegacyInputProcessor() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::DefaultEventSystem_UpdateMode::DefaultEventSystem_UpdateMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -2687,7 +2693,7 @@ constexpr UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceCon
 constexpr ::System::IDisposable* UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "es", ty: "::UnityEngine::UIElements::DefaultEventSystem*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "es", ty: "::UnityEngine::UIElements::DefaultEventSystem*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext::DefaultEventSystem_FocusBasedEventSequenceContext(::UnityEngine::UIElements::DefaultEventSystem* es) noexcept {
   this->es = es;
 }

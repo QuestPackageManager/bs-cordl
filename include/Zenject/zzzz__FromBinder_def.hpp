@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FromBinder.hpp"
+// IWYU pragma private; include "Zenject/FromBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -415,6 +415,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinder___c__DisplayClass71_0_1, "Zenj
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinder___c__DisplayClass72_0_1, "Zenject", "FromBinder/<>c__DisplayClass72_0`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinder___c__DisplayClass73_0_2, "Zenject", "FromBinder/<>c__DisplayClass73_0`2");
 DEFINE_IL2CPP_CLASS(::Zenject::FromBinder___c__DisplayClass74_0*, "Zenject", "FromBinder/<>c__DisplayClass74_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -496,6 +497,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e56260, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e562a4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -556,13 +558,13 @@ protected:
   constexpr FromBinder___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c(FromBinder___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c(FromBinder___c const&) = delete;
+  FromBinder___c(FromBinder___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14223 };
@@ -573,6 +575,7 @@ public:
 static_assert(sizeof(::Zenject::FromBinder___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object, Zenject.InjectSources
 namespace Zenject {
 // Is value type: false
@@ -615,6 +618,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e564b4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e564f8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -627,13 +631,13 @@ protected:
   constexpr FromBinder___c__DisplayClass22_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass22_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass22_0(FromBinder___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass22_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass22_0(FromBinder___c__DisplayClass22_0 const&) = delete;
+  FromBinder___c__DisplayClass22_0(FromBinder___c__DisplayClass22_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14224 };
@@ -659,6 +663,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass22_0, ___matchAll)
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass22_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Object
 namespace Zenject {
 // cpp template
@@ -685,6 +690,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -697,13 +703,13 @@ protected:
   constexpr FromBinder___c__DisplayClass28_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass28_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass28_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass28_0_1(FromBinder___c__DisplayClass28_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass28_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass28_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass28_0_1(FromBinder___c__DisplayClass28_0_1 const&) = delete;
+  FromBinder___c__DisplayClass28_0_1(FromBinder___c__DisplayClass28_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14225 };
@@ -715,6 +721,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -739,6 +746,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e566f0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e56734, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -751,13 +759,13 @@ protected:
   constexpr FromBinder___c__DisplayClass29_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass29_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass29_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass29_0(FromBinder___c__DisplayClass29_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass29_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass29_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass29_0(FromBinder___c__DisplayClass29_0 const&) = delete;
+  FromBinder___c__DisplayClass29_0(FromBinder___c__DisplayClass29_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14226 };
@@ -773,6 +781,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass29_0, ___gameObjec
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass29_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -797,6 +806,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e56930, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e56974, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -809,13 +819,13 @@ protected:
   constexpr FromBinder___c__DisplayClass30_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass30_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass30_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass30_0(FromBinder___c__DisplayClass30_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass30_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass30_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass30_0(FromBinder___c__DisplayClass30_0 const&) = delete;
+  FromBinder___c__DisplayClass30_0(FromBinder___c__DisplayClass30_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14227 };
@@ -831,6 +841,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass30_0, ___gameObjec
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass30_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -856,6 +867,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e56b6c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e56bb0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -868,13 +880,13 @@ protected:
   constexpr FromBinder___c__DisplayClass31_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass31_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass31_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass31_0(FromBinder___c__DisplayClass31_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass31_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass31_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass31_0(FromBinder___c__DisplayClass31_0 const&) = delete;
+  FromBinder___c__DisplayClass31_0(FromBinder___c__DisplayClass31_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14228 };
@@ -890,6 +902,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass31_0, ___gameObjec
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass31_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -915,6 +928,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e56dac, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e56df0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -927,13 +941,13 @@ protected:
   constexpr FromBinder___c__DisplayClass32_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass32_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass32_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass32_0(FromBinder___c__DisplayClass32_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass32_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass32_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass32_0(FromBinder___c__DisplayClass32_0 const&) = delete;
+  FromBinder___c__DisplayClass32_0(FromBinder___c__DisplayClass32_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14229 };
@@ -949,6 +963,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass32_0, ___gameObjec
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass32_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -982,6 +997,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5702c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e57070, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -994,13 +1010,13 @@ protected:
   constexpr FromBinder___c__DisplayClass35_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass35_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass35_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass35_0(FromBinder___c__DisplayClass35_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass35_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass35_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass35_0(FromBinder___c__DisplayClass35_0 const&) = delete;
+  FromBinder___c__DisplayClass35_0(FromBinder___c__DisplayClass35_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14230 };
@@ -1021,6 +1037,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass35_0, _____4__this
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass35_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1055,6 +1072,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e572ac, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e572f0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1067,13 +1085,13 @@ protected:
   constexpr FromBinder___c__DisplayClass36_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass36_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass36_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass36_0(FromBinder___c__DisplayClass36_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass36_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass36_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass36_0(FromBinder___c__DisplayClass36_0 const&) = delete;
+  FromBinder___c__DisplayClass36_0(FromBinder___c__DisplayClass36_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14231 };
@@ -1094,6 +1112,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass36_0, _____4__this
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass36_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1127,6 +1146,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5752c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e57570, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1139,13 +1159,13 @@ protected:
   constexpr FromBinder___c__DisplayClass40_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass40_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass40_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass40_0(FromBinder___c__DisplayClass40_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass40_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass40_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass40_0(FromBinder___c__DisplayClass40_0 const&) = delete;
+  FromBinder___c__DisplayClass40_0(FromBinder___c__DisplayClass40_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14232 };
@@ -1166,6 +1186,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass40_0, ___gameObjec
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass40_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1208,6 +1229,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e577c8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5780c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1220,13 +1242,13 @@ protected:
   constexpr FromBinder___c__DisplayClass55_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass55_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass55_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass55_0(FromBinder___c__DisplayClass55_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass55_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass55_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass55_0(FromBinder___c__DisplayClass55_0 const&) = delete;
+  FromBinder___c__DisplayClass55_0(FromBinder___c__DisplayClass55_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14233 };
@@ -1252,6 +1274,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass55_0, ___createNew
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass55_0) == 0x28, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1294,6 +1317,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e57a64, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e57aa8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1306,13 +1330,13 @@ protected:
   constexpr FromBinder___c__DisplayClass58_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass58_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass58_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass58_0(FromBinder___c__DisplayClass58_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass58_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass58_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass58_0(FromBinder___c__DisplayClass58_0 const&) = delete;
+  FromBinder___c__DisplayClass58_0(FromBinder___c__DisplayClass58_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14234 };
@@ -1338,6 +1362,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass58_0, ___createNew
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass58_0) == 0x28, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1362,6 +1387,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e57ca4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e57ce8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1374,13 +1400,13 @@ protected:
   constexpr FromBinder___c__DisplayClass59_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass59_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass59_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass59_0(FromBinder___c__DisplayClass59_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass59_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass59_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass59_0(FromBinder___c__DisplayClass59_0 const&) = delete;
+  FromBinder___c__DisplayClass59_0(FromBinder___c__DisplayClass59_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14235 };
@@ -1396,6 +1422,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass59_0, ___resourceP
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass59_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1420,6 +1447,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e57ee0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e57f24, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1432,13 +1460,13 @@ protected:
   constexpr FromBinder___c__DisplayClass60_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass60_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass60_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass60_0(FromBinder___c__DisplayClass60_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass60_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass60_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass60_0(FromBinder___c__DisplayClass60_0 const&) = delete;
+  FromBinder___c__DisplayClass60_0(FromBinder___c__DisplayClass60_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14236 };
@@ -1454,6 +1482,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass60_0, ___resourceP
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass60_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1478,6 +1507,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e58198, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e581dc, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1490,13 +1520,13 @@ protected:
   constexpr FromBinder___c__DisplayClass61_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass61_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass61_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass61_0(FromBinder___c__DisplayClass61_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass61_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass61_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass61_0(FromBinder___c__DisplayClass61_0 const&) = delete;
+  FromBinder___c__DisplayClass61_0(FromBinder___c__DisplayClass61_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14237 };
@@ -1512,6 +1542,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass61_0, ___includeIn
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass61_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1545,6 +1576,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e585e0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e58624, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1557,13 +1589,13 @@ protected:
   constexpr FromBinder___c__DisplayClass61_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass61_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass61_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass61_1(FromBinder___c__DisplayClass61_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass61_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass61_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass61_1(FromBinder___c__DisplayClass61_1 const&) = delete;
+  FromBinder___c__DisplayClass61_1(FromBinder___c__DisplayClass61_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14238 };
@@ -1584,6 +1616,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass61_1, ___CS$__8__l
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass61_1) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1626,6 +1659,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e58898, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e588dc, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1638,13 +1672,13 @@ protected:
   constexpr FromBinder___c__DisplayClass62_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass62_0(FromBinder___c__DisplayClass62_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass62_0(FromBinder___c__DisplayClass62_0 const&) = delete;
+  FromBinder___c__DisplayClass62_0(FromBinder___c__DisplayClass62_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14239 };
@@ -1670,6 +1704,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass62_0, ___predicate
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass62_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1703,6 +1738,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e58d24, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e58d68, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1715,13 +1751,13 @@ protected:
   constexpr FromBinder___c__DisplayClass62_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass62_1(FromBinder___c__DisplayClass62_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass62_1(FromBinder___c__DisplayClass62_1 const&) = delete;
+  FromBinder___c__DisplayClass62_1(FromBinder___c__DisplayClass62_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14240 };
@@ -1742,6 +1778,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass62_1, ___CS$__8__l
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass62_1) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1778,6 +1815,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e58fbc, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e59000, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1790,13 +1828,13 @@ protected:
   constexpr FromBinder___c__DisplayClass62_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass62_2(FromBinder___c__DisplayClass62_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass62_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass62_2(FromBinder___c__DisplayClass62_2 const&) = delete;
+  FromBinder___c__DisplayClass62_2(FromBinder___c__DisplayClass62_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14241 };
@@ -1817,6 +1855,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass62_2, ___monoBehav
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass62_2) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1850,6 +1889,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e59274, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e592b8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1862,13 +1902,13 @@ protected:
   constexpr FromBinder___c__DisplayClass63_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass63_0(FromBinder___c__DisplayClass63_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass63_0(FromBinder___c__DisplayClass63_0 const&) = delete;
+  FromBinder___c__DisplayClass63_0(FromBinder___c__DisplayClass63_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14242 };
@@ -1889,6 +1929,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass63_0, ___excludeSe
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass63_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1922,6 +1963,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e59830, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e59874, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -1934,13 +1976,13 @@ protected:
   constexpr FromBinder___c__DisplayClass63_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass63_1(FromBinder___c__DisplayClass63_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass63_1(FromBinder___c__DisplayClass63_1 const&) = delete;
+  FromBinder___c__DisplayClass63_1(FromBinder___c__DisplayClass63_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14243 };
@@ -1961,6 +2003,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass63_1, ___CS$__8__l
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass63_1) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -1997,6 +2040,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e59ac8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e59b0c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2009,13 +2053,13 @@ protected:
   constexpr FromBinder___c__DisplayClass63_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass63_2(FromBinder___c__DisplayClass63_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass63_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass63_2(FromBinder___c__DisplayClass63_2 const&) = delete;
+  FromBinder___c__DisplayClass63_2(FromBinder___c__DisplayClass63_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14244 };
@@ -2036,6 +2080,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass63_2, ___monoBehav
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass63_2) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2069,6 +2114,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e59d80, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e59dc4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2081,13 +2127,13 @@ protected:
   constexpr FromBinder___c__DisplayClass64_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass64_0(FromBinder___c__DisplayClass64_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass64_0(FromBinder___c__DisplayClass64_0 const&) = delete;
+  FromBinder___c__DisplayClass64_0(FromBinder___c__DisplayClass64_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14245 };
@@ -2108,6 +2154,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass64_0, ___excludeSe
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass64_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2141,6 +2188,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5a1ec, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5a230, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2153,13 +2201,13 @@ protected:
   constexpr FromBinder___c__DisplayClass64_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass64_1(FromBinder___c__DisplayClass64_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass64_1(FromBinder___c__DisplayClass64_1 const&) = delete;
+  FromBinder___c__DisplayClass64_1(FromBinder___c__DisplayClass64_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14246 };
@@ -2180,6 +2228,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass64_1, ___CS$__8__l
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass64_1) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2216,6 +2265,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5a484, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5a4c8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2228,13 +2278,13 @@ protected:
   constexpr FromBinder___c__DisplayClass64_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass64_2(FromBinder___c__DisplayClass64_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass64_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass64_2(FromBinder___c__DisplayClass64_2 const&) = delete;
+  FromBinder___c__DisplayClass64_2(FromBinder___c__DisplayClass64_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14247 };
@@ -2255,6 +2305,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass64_2, ___monoBehav
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass64_2) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2279,6 +2330,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5a8b8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5a8fc, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2291,13 +2343,13 @@ protected:
   constexpr FromBinder___c__DisplayClass65_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass65_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass65_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass65_0(FromBinder___c__DisplayClass65_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass65_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass65_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass65_0(FromBinder___c__DisplayClass65_0 const&) = delete;
+  FromBinder___c__DisplayClass65_0(FromBinder___c__DisplayClass65_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14248 };
@@ -2313,6 +2365,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass65_0, ___concreteT
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass65_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2337,6 +2390,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5ac9c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5ace0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2349,13 +2403,13 @@ protected:
   constexpr FromBinder___c__DisplayClass66_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass66_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass66_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass66_0(FromBinder___c__DisplayClass66_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass66_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass66_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass66_0(FromBinder___c__DisplayClass66_0 const&) = delete;
+  FromBinder___c__DisplayClass66_0(FromBinder___c__DisplayClass66_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14249 };
@@ -2371,6 +2425,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass66_0, ___concreteT
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass66_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2395,6 +2450,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5ae84, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5aec8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2407,13 +2463,13 @@ protected:
   constexpr FromBinder___c__DisplayClass66_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass66_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass66_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass66_1(FromBinder___c__DisplayClass66_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass66_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass66_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass66_1(FromBinder___c__DisplayClass66_1 const&) = delete;
+  FromBinder___c__DisplayClass66_1(FromBinder___c__DisplayClass66_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14250 };
@@ -2429,6 +2485,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass66_1, ___monoBehav
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass66_1) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2453,6 +2510,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5b144, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5b188, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2465,13 +2523,13 @@ protected:
   constexpr FromBinder___c__DisplayClass67_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass67_0(FromBinder___c__DisplayClass67_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass67_0(FromBinder___c__DisplayClass67_0 const&) = delete;
+  FromBinder___c__DisplayClass67_0(FromBinder___c__DisplayClass67_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14251 };
@@ -2487,6 +2545,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass67_0, ___includeIn
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass67_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2541,6 +2600,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5b65c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5b6a0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2553,13 +2613,13 @@ protected:
   constexpr FromBinder___c__DisplayClass67_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass67_1(FromBinder___c__DisplayClass67_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass67_1(FromBinder___c__DisplayClass67_1 const&) = delete;
+  FromBinder___c__DisplayClass67_1(FromBinder___c__DisplayClass67_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14252 };
@@ -2590,6 +2650,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass67_1, _____9__2) =
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass67_1) == 0x30, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2614,6 +2675,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5b8c8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5b90c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2626,13 +2688,13 @@ protected:
   constexpr FromBinder___c__DisplayClass67_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass67_2(FromBinder___c__DisplayClass67_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass67_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass67_2(FromBinder___c__DisplayClass67_2 const&) = delete;
+  FromBinder___c__DisplayClass67_2(FromBinder___c__DisplayClass67_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14253 };
@@ -2648,6 +2710,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass67_2, ___ctx) == 0
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass67_2) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2681,6 +2744,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5bb88, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5bbcc, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2693,13 +2757,13 @@ protected:
   constexpr FromBinder___c__DisplayClass68_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass68_0(FromBinder___c__DisplayClass68_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass68_0(FromBinder___c__DisplayClass68_0 const&) = delete;
+  FromBinder___c__DisplayClass68_0(FromBinder___c__DisplayClass68_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14254 };
@@ -2720,6 +2784,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass68_0, ___predicate
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass68_0) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2776,6 +2841,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5bf68, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5bfac, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2788,13 +2854,13 @@ protected:
   constexpr FromBinder___c__DisplayClass68_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass68_1(FromBinder___c__DisplayClass68_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass68_1(FromBinder___c__DisplayClass68_1 const&) = delete;
+  FromBinder___c__DisplayClass68_1(FromBinder___c__DisplayClass68_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14255 };
@@ -2825,6 +2891,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass68_1, _____9__2) =
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass68_1) == 0x30, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2849,6 +2916,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5c160, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5c1a4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2861,13 +2929,13 @@ protected:
   constexpr FromBinder___c__DisplayClass68_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass68_2(FromBinder___c__DisplayClass68_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass68_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass68_2(FromBinder___c__DisplayClass68_2 const&) = delete;
+  FromBinder___c__DisplayClass68_2(FromBinder___c__DisplayClass68_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14256 };
@@ -2883,6 +2951,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass68_2, ___ctx) == 0
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass68_2) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2907,6 +2976,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5c398, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5c3dc, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2919,13 +2989,13 @@ protected:
   constexpr FromBinder___c__DisplayClass69_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass69_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass69_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass69_0(FromBinder___c__DisplayClass69_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass69_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass69_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass69_0(FromBinder___c__DisplayClass69_0 const&) = delete;
+  FromBinder___c__DisplayClass69_0(FromBinder___c__DisplayClass69_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14257 };
@@ -2941,6 +3011,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass69_0, ___method) =
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass69_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -2966,6 +3037,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5c73c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5c780, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -2978,13 +3050,13 @@ protected:
   constexpr FromBinder___c__DisplayClass70_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass70_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass70_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass70_0(FromBinder___c__DisplayClass70_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass70_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass70_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass70_0(FromBinder___c__DisplayClass70_0 const&) = delete;
+  FromBinder___c__DisplayClass70_0(FromBinder___c__DisplayClass70_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14258 };
@@ -3000,6 +3072,7 @@ static_assert(offsetof(::Zenject::FromBinder___c__DisplayClass70_0, ___method) =
 static_assert(sizeof(::Zenject::FromBinder___c__DisplayClass70_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -3026,6 +3099,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -3038,13 +3112,13 @@ protected:
   constexpr FromBinder___c__DisplayClass71_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass71_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass71_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass71_0_1(FromBinder___c__DisplayClass71_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass71_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass71_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass71_0_1(FromBinder___c__DisplayClass71_0_1 const&) = delete;
+  FromBinder___c__DisplayClass71_0_1(FromBinder___c__DisplayClass71_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14259 };
@@ -3056,6 +3130,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -3083,6 +3158,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -3095,13 +3171,13 @@ protected:
   constexpr FromBinder___c__DisplayClass72_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass72_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass72_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass72_0_1(FromBinder___c__DisplayClass72_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass72_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass72_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass72_0_1(FromBinder___c__DisplayClass72_0_1 const&) = delete;
+  FromBinder___c__DisplayClass72_0_1(FromBinder___c__DisplayClass72_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14260 };
@@ -3113,6 +3189,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object, Zenject.InjectSources
 namespace Zenject {
 // cpp template
@@ -3166,6 +3243,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -3178,13 +3256,13 @@ protected:
   constexpr FromBinder___c__DisplayClass73_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass73_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass73_0_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass73_0_2(FromBinder___c__DisplayClass73_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass73_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass73_0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass73_0_2(FromBinder___c__DisplayClass73_0_2 const&) = delete;
+  FromBinder___c__DisplayClass73_0_2(FromBinder___c__DisplayClass73_0_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14261 };
@@ -3205,6 +3283,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -3229,6 +3308,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e5c980, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e5c9c4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -3241,13 +3321,13 @@ protected:
   constexpr FromBinder___c__DisplayClass74_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass74_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass74_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder___c__DisplayClass74_0(FromBinder___c__DisplayClass74_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass74_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder___c__DisplayClass74_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder___c__DisplayClass74_0(FromBinder___c__DisplayClass74_0 const&) = delete;
+  FromBinder___c__DisplayClass74_0(FromBinder___c__DisplayClass74_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14262 };
@@ -3555,6 +3635,7 @@ public:
 
   static inline ::Zenject::FromBinder* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
+  /// [CompilerGenerated]
   /// @brief Method <FromNewComponentSibling>b__37_0, addr 0x6e55c48, size 0x9c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentSibling_b__37_0(::Zenject::DiContainer* container, ::System::Type* type);
 
@@ -3576,18 +3657,22 @@ public:
   /// @brief Method get_AllParentTypes, addr 0x6e52ed8, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_AllParentTypes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_BindContainer, addr 0x6e52eb8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_BindContainer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_BindStatement, addr 0x6e52ec8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::BindStatement* get_BindStatement();
 
   /// @brief Method get_ConcreteTypes, addr 0x6e52f34, size 0x98, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ConcreteTypes();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BindContainer, addr 0x6e52ec0, size 0x8, virtual false, abstract: false, final false
   inline void set_BindContainer(::Zenject::DiContainer* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_BindStatement, addr 0x6e52ed0, size 0x8, virtual false, abstract: false, final false
   inline void set_BindStatement(::Zenject::BindStatement* value);
 
@@ -3600,20 +3685,22 @@ protected:
   constexpr FromBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinder(FromBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinder(FromBinder const&) = delete;
+  FromBinder(FromBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14263 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BindContainer>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____BindContainer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <BindStatement>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::Zenject::BindStatement* ____BindStatement_k__BackingField;
 

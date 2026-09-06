@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\JointMotor.hpp"
+// IWYU pragma private; include "UnityEngine/JointMotor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,8 +49,8 @@ public:
   // @brief default ctor
   constexpr JointMotor();
 
-  // Ctor Parameters [CppParam { name: "m_TargetVelocity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Force", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_FreeSpin", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_TargetVelocity", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Force", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_FreeSpin", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr JointMotor(float_t m_TargetVelocity, float_t m_Force, int32_t m_FreeSpin) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

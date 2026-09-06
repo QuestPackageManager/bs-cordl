@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServerLobbyFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServerLobbyFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -163,6 +163,7 @@ MARK_REF_T(::GlobalNamespace::GameServerLobbyFlowCoordinator___c__DisplayClass87
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameServerLobbyFlowCoordinator*, "", "GameServerLobbyFlowCoordinator");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameServerLobbyFlowCoordinator___c__DisplayClass103_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass103_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameServerLobbyFlowCoordinator___c__DisplayClass87_0*, "", "GameServerLobbyFlowCoordinator/<>c__DisplayClass87_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -202,13 +203,13 @@ protected:
   constexpr GameServerLobbyFlowCoordinator___c__DisplayClass103_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass103_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass103_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerLobbyFlowCoordinator___c__DisplayClass103_0(GameServerLobbyFlowCoordinator___c__DisplayClass103_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass103_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass103_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerLobbyFlowCoordinator___c__DisplayClass103_0(GameServerLobbyFlowCoordinator___c__DisplayClass103_0 const&) = delete;
+  GameServerLobbyFlowCoordinator___c__DisplayClass103_0(GameServerLobbyFlowCoordinator___c__DisplayClass103_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6842 };
@@ -229,6 +230,7 @@ static_assert(offsetof(::GlobalNamespace::GameServerLobbyFlowCoordinator___c__Di
 static_assert(sizeof(::GlobalNamespace::GameServerLobbyFlowCoordinator___c__DisplayClass103_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -277,13 +279,13 @@ protected:
   constexpr GameServerLobbyFlowCoordinator___c__DisplayClass87_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass87_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass87_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerLobbyFlowCoordinator___c__DisplayClass87_0(GameServerLobbyFlowCoordinator___c__DisplayClass87_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass87_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator___c__DisplayClass87_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerLobbyFlowCoordinator___c__DisplayClass87_0(GameServerLobbyFlowCoordinator___c__DisplayClass87_0 const&) = delete;
+  GameServerLobbyFlowCoordinator___c__DisplayClass87_0(GameServerLobbyFlowCoordinator___c__DisplayClass87_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6843 };
@@ -629,9 +631,11 @@ public:
   /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x592ea50, size 0x234, virtual false, abstract: false, final false
   inline void UpdateLocalPlayerIsActiveState(bool isActive);
 
+  /// [CompilerGenerated]
   /// @brief Method <PresentBackButtonConfirmationDialog>b__86_0, addr 0x59312d8, size 0x160, virtual false, abstract: false, final false
   inline void _PresentBackButtonConfirmationDialog_b__86_0(int32_t btnIndex);
 
+  /// [CompilerGenerated]
   /// @brief Method <ShowDisconnectDialogAndFinish>b__123_0, addr 0x5931438, size 0xc, virtual false, abstract: false, final false
   inline void _ShowDisconnectDialogAndFinish_b__123_0();
 
@@ -860,18 +864,23 @@ public:
   /// @brief Method .ctor, addr 0x593122c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5929af0, size 0xac, virtual true, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didOpenInvitePanelEvent, addr 0x5929ef8, size 0xac, virtual true, abstract: false, final false
   inline void add_didOpenInvitePanelEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSetupEvent, addr 0x5929da0, size 0xac, virtual true, abstract: false, final false
   inline void add_didSetupEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_startGameOrReadyEvent, addr 0x5929c48, size 0xac, virtual true, abstract: false, final false
   inline void add_startGameOrReadyEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_willFinishEvent, addr 0x5929998, size 0xac, virtual true, abstract: false, final false
   inline void add_willFinishEvent(::System::Action* value);
 
@@ -890,24 +899,31 @@ public:
   /// @brief Method get_isQuickStartServer, addr 0x5929810, size 0xc4, virtual false, abstract: false, final false
   inline bool get_isQuickStartServer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rejoinQuickPlay, addr 0x592a050, size 0x8, virtual false, abstract: false, final false
   inline bool get_rejoinQuickPlay();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5929b9c, size 0xac, virtual true, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didOpenInvitePanelEvent, addr 0x5929fa4, size 0xac, virtual true, abstract: false, final false
   inline void remove_didOpenInvitePanelEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSetupEvent, addr 0x5929e4c, size 0xac, virtual true, abstract: false, final false
   inline void remove_didSetupEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_startGameOrReadyEvent, addr 0x5929cf4, size 0xac, virtual true, abstract: false, final false
   inline void remove_startGameOrReadyEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_willFinishEvent, addr 0x5929a44, size 0xac, virtual true, abstract: false, final false
   inline void remove_willFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rejoinQuickPlay, addr 0x592a058, size 0x8, virtual false, abstract: false, final false
   inline void set_rejoinQuickPlay(bool value);
 
@@ -917,13 +933,13 @@ protected:
   constexpr GameServerLobbyFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerLobbyFlowCoordinator(GameServerLobbyFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerLobbyFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerLobbyFlowCoordinator(GameServerLobbyFlowCoordinator const&) = delete;
+  GameServerLobbyFlowCoordinator(GameServerLobbyFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6844 };
@@ -982,81 +998,107 @@ public:
   /// @brief Field kTitleSuggestModifiersLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitleSuggestModifiersLocalizationKey{ u"TITLE_SUGGEST_MODIFIERS" };
 
+  /// [SerializeField]
   /// @brief Field _screenMode, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::HMUI::ScreenModeSO> ____screenMode;
 
+  /// [SerializeField]
   /// @brief Field _ambienceAudioClip, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____ambienceAudioClip;
 
+  /// [Inject]
   /// @brief Field _serverPlayerListViewController, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ServerPlayerListViewController> ____serverPlayerListViewController;
 
+  /// [Inject]
   /// @brief Field _selectModifiersViewController, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SelectModifiersViewController> ____selectModifiersViewController;
 
+  /// [Inject]
   /// @brief Field _multiplayerLevelSelectionFlowCoordinator, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator> ____multiplayerLevelSelectionFlowCoordinator;
 
+  /// [Inject]
   /// @brief Field _multiplayerResultsViewController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerResultsViewController> ____multiplayerResultsViewController;
 
+  /// [Inject]
   /// @brief Field _simpleDialogPromptViewController, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> ____simpleDialogPromptViewController;
 
+  /// [Inject]
   /// @brief Field _connectionErrorDialogViewController, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ConnectionErrorDialogViewController> ____connectionErrorDialogViewController;
 
+  /// [Inject]
   /// @brief Field _multiplayerSettingsPanelController, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerSettingsPanelController> ____multiplayerSettingsPanelController;
 
+  /// [Inject]
   /// @brief Field _gameplaySetupViewController, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplaySetupViewController> ____gameplaySetupViewController;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x100, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [Inject]
   /// @brief Field _multiplayerLobbyController, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyController> ____multiplayerLobbyController;
 
+  /// [Inject]
   /// @brief Field _fadeInOutController, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOutController;
 
+  /// [Inject]
   /// @brief Field _centerStageScreenController, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CenterStageScreenController> ____centerStageScreenController;
 
+  /// [Inject]
   /// @brief Field _lobbyStateDataModel, offset: 0x120, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;
 
+  /// [Inject]
   /// @brief Field _lobbyGameStateModel, offset: 0x128, size: 0x8, def value: None
   ::GlobalNamespace::LobbyGameStateModel* ____lobbyGameStateModel;
 
+  /// [Inject]
   /// @brief Field _lobbyPlayersDataModel, offset: 0x130, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyPlayersDataModel* ____lobbyPlayersDataModel;
 
+  /// [Inject]
   /// @brief Field _lobbyGameStateController, offset: 0x138, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyGameStateController* ____lobbyGameStateController;
 
+  /// [Inject]
   /// @brief Field _lobbyPlayerPermissionsModel, offset: 0x140, size: 0x8, def value: None
   ::GlobalNamespace::LobbyPlayerPermissionsModel* ____lobbyPlayerPermissionsModel;
 
+  /// [Inject]
   /// @brief Field _lobbySetupViewController, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LobbySetupViewController> ____lobbySetupViewController;
 
+  /// [Inject]
   /// @brief Field _unifiedNetworkPlayerModel, offset: 0x150, size: 0x8, def value: None
   ::GlobalNamespace::IUnifiedNetworkPlayerModel* ____unifiedNetworkPlayerModel;
 
+  /// [Inject]
   /// @brief Field _screenModeController, offset: 0x158, size: 0x8, def value: None
   ::UnityW<::HMUI::ScreenModeController> ____screenModeController;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x160, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _platformLeaderboardsModel, offset: 0x168, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> ____platformLeaderboardsModel;
 
+  /// [Inject]
   /// @brief Field _songPreviewPlayer, offset: 0x170, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0x178, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
@@ -1075,21 +1117,27 @@ public:
   /// @brief Field _canStartGameCts, offset: 0x1a0, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____canStartGameCts;
 
+  /// [CompilerGenerated]
   /// @brief Field willFinishEvent, offset: 0x1a8, size: 0x8, def value: None
   ::System::Action* ___willFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x1b0, size: 0x8, def value: None
   ::System::Action* ___didFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field startGameOrReadyEvent, offset: 0x1b8, size: 0x8, def value: None
   ::System::Action* ___startGameOrReadyEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didSetupEvent, offset: 0x1c0, size: 0x8, def value: None
   ::System::Action* ___didSetupEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didOpenInvitePanelEvent, offset: 0x1c8, size: 0x8, def value: None
   ::System::Action* ___didOpenInvitePanelEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <rejoinQuickPlay>k__BackingField, offset: 0x1d0, size: 0x1, def value: None
   bool ____rejoinQuickPlay_k__BackingField;
 

@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\CoroutineTween\TweenRunner_1.hpp"
+// IWYU pragma private; include "UnityEngine/UI/CoroutineTween/TweenRunner_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TweenRunner_1)
@@ -20,27 +21,39 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UI::CoroutineTween {
-template <typename T> class TweenRunner_1__Start_d__2;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+class TweenRunner_1__Start_d__2;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
 // Forward declare root types
 namespace UnityEngine::UI::CoroutineTween {
-template <typename T> class TweenRunner_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+class TweenRunner_1;
 }
 namespace UnityEngine::UI::CoroutineTween {
-template <typename T> class TweenRunner_1__Start_d__2;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+class TweenRunner_1__Start_d__2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UI::CoroutineTween::TweenRunner_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UI::CoroutineTween::TweenRunner_1__Start_d__2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UI::CoroutineTween::TweenRunner_1, "UnityEngine.UI.CoroutineTween", "TweenRunner`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UI::CoroutineTween::TweenRunner_1__Start_d__2, "UnityEngine.UI.CoroutineTween", "TweenRunner`1/<Start>d__2");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.UI.CoroutineTween.ITweenValue
 namespace UnityEngine::UI::CoroutineTween {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>d__2<T>
 class CORDL_TYPE TweenRunner_1__Start_d__2 : public ::System::Object {
@@ -74,17 +87,22 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UI::CoroutineTween::TweenRunner_1__Start_d__2<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -112,6 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_tweenInfo(T value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -130,13 +149,13 @@ protected:
   constexpr TweenRunner_1__Start_d__2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TweenRunner_1__Start_d__2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweenRunner_1__Start_d__2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TweenRunner_1__Start_d__2(TweenRunner_1__Start_d__2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TweenRunner_1__Start_d__2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweenRunner_1__Start_d__2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TweenRunner_1__Start_d__2(TweenRunner_1__Start_d__2 const&) = delete;
+  TweenRunner_1__Start_d__2(TweenRunner_1__Start_d__2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17526 };
@@ -157,10 +176,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UI::CoroutineTween
-// Dependencies System.Object
+// Dependencies System.Object, UnityEngine.UI.CoroutineTween.ITweenValue
 namespace UnityEngine::UI::CoroutineTween {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UI::CoroutineTween::ITweenValue*> && ::cordl_internals::value_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UI.CoroutineTween.TweenRunner`1<T>
 class CORDL_TYPE TweenRunner_1 : public ::System::Object {
@@ -179,6 +200,7 @@ public:
 
   static inline ::UnityEngine::UI::CoroutineTween::TweenRunner_1<T>* New_ctor();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UI.CoroutineTween.TweenRunner`1::<Start>d__2<T>))]
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* Start(T tweenInfo);
 
@@ -209,13 +231,13 @@ protected:
   constexpr TweenRunner_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TweenRunner_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweenRunner_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TweenRunner_1(TweenRunner_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TweenRunner_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweenRunner_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TweenRunner_1(TweenRunner_1 const&) = delete;
+  TweenRunner_1(TweenRunner_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17527 };

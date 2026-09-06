@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapKey.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ struct BeatmapKey;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::BeatmapKey);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapKey, "", "BeatmapKey");
+// [IsReadOnly]
 // Dependencies BeatmapCharacteristic, BeatmapDifficulty
 namespace GlobalNamespace {
 // Is value type: true
@@ -78,8 +79,8 @@ public:
   // @brief default ctor
   constexpr BeatmapKey();
 
-  // Ctor Parameters [CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty:
-  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: None, comment: None }, CppParam { name: "difficulty", ty:
+  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None, comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapKey(::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, ::StringW levelId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

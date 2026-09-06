@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GraphAPIClient.hpp"
+// IWYU pragma private; include "GlobalNamespace/GraphAPIClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,8 +81,8 @@ public:
   // @brief default ctor
   constexpr GraphAPIClient_PostOptions();
 
-  // Ctor Parameters [CppParam { name: "MaxRetries", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "MinWaitTimeForRetryMs", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "WithExponentialBackoff", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "MaxRetries", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "MinWaitTimeForRetryMs", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "WithExponentialBackoff", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr GraphAPIClient_PostOptions(int32_t MaxRetries, int32_t MinWaitTimeForRetryMs, bool WithExponentialBackoff) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,6 +112,7 @@ static_assert(offsetof(::GlobalNamespace::GraphAPIClient_PostOptions, WithExpone
 static_assert(sizeof(::GlobalNamespace::GraphAPIClient_PostOptions) == 0xc, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies GraphAPIClient::PostOptions, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter,
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
@@ -128,6 +129,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -138,14 +140,15 @@ public:
   // @brief default ctor
   constexpr GraphAPIClient__Post_d__5_2();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GraphAPIClient*", modifiers:
-  // "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "request", ty: "TRequest", modifiers: "", def_value: None }, CppParam { name:
-  // "accessToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam {
-  // name: "postOptions", ty: "::GlobalNamespace::GraphAPIClient_PostOptions", modifiers: "", def_value: None }, CppParam { name: "_uriBuilder_5__2", ty: "::System::UriBuilder*", modifiers: "",
-  // def_value: None }, CppParam { name: "_httpContent_5__3", ty: "::System::Net::Http::HttpContent*", modifiers: "", def_value: None }, CppParam { name: "_numAttempts_5__4", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<TResponse>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::GraphAPIClient*", modifiers: "", def_value: None, comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "request", ty: "TRequest", modifiers: "", def_value: None, comment: None }, CppParam { name: "accessToken", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "postOptions", ty:
+  // "::GlobalNamespace::GraphAPIClient_PostOptions", modifiers: "", def_value: None, comment: None }, CppParam { name: "_uriBuilder_5__2", ty: "::System::UriBuilder*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_httpContent_5__3", ty: "::System::Net::Http::HttpContent*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_numAttempts_5__4", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<TResponse>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr GraphAPIClient__Post_d__5_2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse> __t__builder, ::GlobalNamespace::GraphAPIClient* __4__this,
                                         ::StringW path, TRequest request, ::StringW accessToken, ::System::Threading::CancellationToken cancellationToken,
                                         ::GlobalNamespace::GraphAPIClient_PostOptions postOptions, ::System::UriBuilder* _uriBuilder_5__2, ::System::Net::Http::HttpContent* _httpContent_5__3,
@@ -201,6 +204,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // cpp template
@@ -216,6 +220,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -226,13 +231,14 @@ public:
   // @brief default ctor
   constexpr GraphAPIClient__Post_d__6_1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::System::Uri*", modifiers: "", def_value: None },
-  // CppParam { name: "accessToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "httpContent", ty: "::System::Net::Http::HttpContent*", modifiers: "", def_value: None },
-  // CppParam { name: "__4__this", ty: "::GlobalNamespace::GraphAPIClient*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-  // modifiers: "", def_value: None }, CppParam { name: "_requestMessage_5__2", ty: "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>", modifiers: "", def_value: None, comment: None }, CppParam { name: "uri", ty: "::System::Uri*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "accessToken", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "httpContent", ty:
+  // "::System::Net::Http::HttpContent*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GraphAPIClient*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_requestMessage_5__2", ty:
+  // "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr GraphAPIClient__Post_d__6_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse> __t__builder, ::System::Uri* uri, ::StringW accessToken,
                                         ::System::Net::Http::HttpContent* httpContent, ::GlobalNamespace::GraphAPIClient* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                         ::System::Net::Http::HttpRequestMessage* _requestMessage_5__2,
@@ -306,11 +312,13 @@ public:
 
   static inline ::GlobalNamespace::GraphAPIClient* New_ctor(::StringW graphUrl, ::StringW graphAccessToken);
 
+  /// [AsyncStateMachine(typeof(GraphAPIClient::<Post>d__5`2<TRequest, TResponse>))]
   /// @brief Method Post, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TRequest, typename TResponse>
   inline ::System::Threading::Tasks::Task_1<TResponse>* Post(::StringW path, ::StringW accessToken, TRequest request, ::GlobalNamespace::GraphAPIClient_PostOptions postOptions,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(GraphAPIClient::<Post>d__6`1<TResponse>))]
   /// @brief Method Post, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResponse>
   inline ::System::Threading::Tasks::Task_1<TResponse>* Post(::System::Uri* uri, ::StringW accessToken, ::System::Net::Http::HttpContent* httpContent,
@@ -348,13 +356,13 @@ protected:
   constexpr GraphAPIClient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphAPIClient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphAPIClient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphAPIClient(GraphAPIClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphAPIClient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphAPIClient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphAPIClient(GraphAPIClient const&) = delete;
+  GraphAPIClient(GraphAPIClientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18160 };

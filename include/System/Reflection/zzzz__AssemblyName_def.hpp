@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\AssemblyName.hpp"
+// IWYU pragma private; include "System/Reflection/AssemblyName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,9 @@ class AssemblyName;
 // Write type traits
 MARK_REF_T(::System::Reflection::AssemblyName*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");
+// [ClassInterface((System.Runtime.InteropServices.ClassInterfaceType)0)]
+// [ComDefaultInterface(typeof(System.Runtime.InteropServices._AssemblyName))]
+// [ComVisible(true)]
 // Dependencies System.Configuration.Assemblies.AssemblyHashAlgorithm, System.Configuration.Assemblies.AssemblyVersionCompatibility, System.Object, System.Reflection.AssemblyContentType,
 // System.Reflection.AssemblyNameFlags, System.Reflection.ProcessorArchitecture
 namespace System::Reflection {
@@ -343,13 +346,13 @@ protected:
   constexpr AssemblyName();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyName(AssemblyName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyName(AssemblyName const&) = delete;
+  AssemblyName(AssemblyNameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3538 };

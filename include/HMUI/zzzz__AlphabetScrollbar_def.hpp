@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\AlphabetScrollbar.hpp"
+// IWYU pragma private; include "HMUI/AlphabetScrollbar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,6 +74,7 @@ MARK_REF_T(::HMUI::AlphabetScrollbar*);
 MARK_REF_T(::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18*);
 DEFINE_IL2CPP_CLASS(::HMUI::AlphabetScrollbar*, "HMUI", "AlphabetScrollbar");
 DEFINE_IL2CPP_CLASS(::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18*, "HMUI", "AlphabetScrollbar/<PointerMoveInsideCoroutine>d__18");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -109,17 +110,22 @@ public:
   /// @brief Method MoveNext, addr 0x58755fc, size 0x140, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x587573c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5875744, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x587577c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x58755f8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -147,6 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x587554c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -165,13 +172,13 @@ protected:
   constexpr AlphabetScrollbar__PointerMoveInsideCoroutine_d__18();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar__PointerMoveInsideCoroutine_d__18", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar__PointerMoveInsideCoroutine_d__18", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlphabetScrollbar__PointerMoveInsideCoroutine_d__18(AlphabetScrollbar__PointerMoveInsideCoroutine_d__18&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar__PointerMoveInsideCoroutine_d__18", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar__PointerMoveInsideCoroutine_d__18", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlphabetScrollbar__PointerMoveInsideCoroutine_d__18(AlphabetScrollbar__PointerMoveInsideCoroutine_d__18 const&) = delete;
+  AlphabetScrollbar__PointerMoveInsideCoroutine_d__18(AlphabetScrollbar__PointerMoveInsideCoroutine_d__18const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19017 };
@@ -202,6 +209,7 @@ static_assert(offsetof(::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__
 static_assert(sizeof(::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies HMUI.Interactable, TMPro.TextMeshProUGUI, UnityEngine.Color
 namespace HMUI {
 // Is value type: false
@@ -280,6 +288,7 @@ public:
   /// @brief Method OnPointerUp, addr 0x5875344, size 0x8, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
+  /// [IteratorStateMachine(typeof(HMUI.AlphabetScrollbar::<PointerMoveInsideCoroutine>d__18))]
   /// @brief Method PointerMoveInsideCoroutine, addr 0x587536c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PointerMoveInsideCoroutine(::UnityEngine::EventSystems::PointerEventData* eventData);
 
@@ -376,32 +385,40 @@ protected:
   constexpr AlphabetScrollbar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlphabetScrollbar(AlphabetScrollbar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AlphabetScrollbar(AlphabetScrollbar const&) = delete;
+  AlphabetScrollbar(AlphabetScrollbarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19018 };
 
+  /// [SerializeField]
   /// @brief Field _tableView, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _characterHeight, offset: 0x48, size: 0x4, def value: None
   float_t ____characterHeight;
 
+  /// [SerializeField]
   /// @brief Field _normalColor, offset: 0x4c, size: 0x10, def value: None
   ::UnityEngine::Color ____normalColor;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _textPrefab, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____textPrefab;
 
+  /// [SerializeField]
   /// @brief Field _prealocatedTexts, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>> ____prealocatedTexts;
 
+  /// [SerializeField]
   /// @brief Field _highlightImage, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____highlightImage;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\HttpRequestManager.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/HttpRequestManager.hpp"
 #include "System/Net/zzzz__HttpStatusCode_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
@@ -40,8 +40,8 @@ inline void OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig::set
 inline ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig::getStaticF_DEFAULT() {
   return ::cordl_internals::getStaticField<::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig, "DEFAULT", ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig>();
 }
-// Ctor Parameters [CppParam { name: "connectionLimit", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "defaultRequestTimeout", ty: "::System::TimeSpan", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "forceIPV6", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "connectionLimit", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "defaultRequestTimeout", ty: "::System::TimeSpan",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "forceIPV6", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig::HttpRequestManager_GlobalConfig(int32_t connectionLimit, ::System::TimeSpan defaultRequestTimeout,
                                                                                                              bool forceIPV6) noexcept {
   this->connectionLimit = connectionLimit;
@@ -57,15 +57,15 @@ inline void OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig::se
 inline ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig::getStaticF_DEFAULT() {
   return ::cordl_internals::getStaticField<::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig, "DEFAULT", ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig>();
 }
-// Ctor Parameters [CppParam { name: "baseAddress", ty: "::System::Uri*", modifiers: "", def_value: Some("{}") }, CppParam { name: "requestTimeout", ty: "::System::TimeSpan", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "baseAddress", ty: "::System::Uri*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "requestTimeout", ty: "::System::TimeSpan", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig::HttpRequestManager_SessionConfig(::System::Uri* baseAddress, ::System::TimeSpan requestTimeout) noexcept {
   this->baseAddress = baseAddress;
   this->requestTimeout = requestTimeout;
 }
 // Ctor Parameters []
 constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig::HttpRequestManager_SessionConfig() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState::HttpRequestManager_fastFallbackState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -274,9 +274,9 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "uri", ty: "::System::Uri*", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uri", ty: "::System::Uri*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Uri* uri, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -333,14 +333,14 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty:
-// "::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ipv4_5__2", ty: "::System::Net::IPAddress*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_ipv6_5__3", ty: "::System::Net::IPAddress*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_socket_5__4", ty:
-// "::System::Net::Sockets::Socket*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
+// "::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ipv4_5__2", ty: "::System::Net::IPAddress*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_ipv6_5__3", ty: "::System::Net::IPAddress*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_socket_5__4", ty:
+// "::System::Net::Sockets::Socket*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30::HttpRequestManager__CheckFastFallbackAsync_d__30(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0* __8__1,
     ::System::Net::IPAddress* _ipv4_5__2, ::System::Net::IPAddress* _ipv6_5__3, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
@@ -405,9 +405,9 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29::HttpRequestManager__CheckFastFallbackNoWait_d__29(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -463,10 +463,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty:
-// "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty:
+// "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39::HttpRequestManager__SendAsyncInternal_d__39(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder, ::System::Net::Http::HttpRequestMessage* request,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__2) noexcept {
@@ -525,16 +526,17 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "callback", ty:
-// "::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::OculusStudios::GraphQL::Client::HttpRequestManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "request", ty: "::System::Net::Http::HttpRequestMessage*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_responseTask_5__2", ty: "::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_response_5__3", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_statusCode_5__4", ty: "::System::Net::HttpStatusCode",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_reasonPhrase_5__5", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_exception_5__6", ty:
-// "::System::Exception*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_resultTask_5__7", ty: "::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "callback", ty:
+// "::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::OculusStudios::GraphQL::Client::HttpRequestManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "request", ty: "::System::Net::Http::HttpRequestMessage*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_responseTask_5__2", ty: "::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_response_5__3", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_statusCode_5__4", ty: "::System::Net::HttpStatusCode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_reasonPhrase_5__5", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_exception_5__6", ty: "::System::Exception*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_resultTask_5__7", ty:
+// "::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41::HttpRequestManager__SendAsyncReceiveByteArray_d__41(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback* callback,
     ::OculusStudios::GraphQL::Client::HttpRequestManager* __4__this, ::System::Net::Http::HttpRequestMessage* request,

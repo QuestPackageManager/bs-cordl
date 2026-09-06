@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SelectRegionViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SelectRegionViewController.hpp"
 #include "GlobalNamespace/zzzz__CompletableViewController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__RegionToLocalizationKeyPair_impl.hpp"
 #include "GlobalNamespace/zzzz__Region_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayingDifficultyBeatmapRichPresenceData.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayingDifficultyBeatmapRichPresenceData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayingDifficultyBeatmapRichPresenceData_def.hpp"
@@ -122,13 +122,13 @@ inline ::StringW GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*>(), { "get_localizedDescription", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
+inline void GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey, beatmapLevel);
 }
-inline ::StringW GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+inline ::StringW GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                                                           ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -136,8 +136,8 @@ inline ::StringW GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::GetD
                                        { "GetDestinationLocalizedString", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, beatmapKey, beatmapLevel);
 }
-inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData* GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::New_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
-                                                                                                                                        ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
+inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*
+GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData*>(beatmapKey, beatmapLevel));
 }
 /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"

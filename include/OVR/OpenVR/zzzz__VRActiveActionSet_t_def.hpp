@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VRActiveActionSet_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VRActiveActionSet_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,9 @@ public:
   // @brief default ctor
   constexpr VRActiveActionSet_t();
 
-  // Ctor Parameters [CppParam { name: "ulActionSet", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "ulRestrictedToDevice", ty: "uint64_t", modifiers: "", def_value: None },
-  // CppParam { name: "ulSecondaryActionSet", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "unPadding", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "nPriority", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ulActionSet", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ulRestrictedToDevice", ty: "uint64_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ulSecondaryActionSet", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unPadding", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "nPriority", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VRActiveActionSet_t(uint64_t ulActionSet, uint64_t ulRestrictedToDevice, uint64_t ulSecondaryActionSet, uint32_t unPadding, int32_t nPriority) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

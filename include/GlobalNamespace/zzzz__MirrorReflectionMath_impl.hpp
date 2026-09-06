@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirrorReflectionMath.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirrorReflectionMath.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MirrorReflectionMath_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"

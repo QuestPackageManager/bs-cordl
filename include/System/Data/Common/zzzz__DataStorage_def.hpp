@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\DataStorage.hpp"
+// IWYU pragma private; include "System/Data/Common/DataStorage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,16 +124,16 @@ public:
   /// @brief Method AggregateCount, addr 0x60a599c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Object* AggregateCount(::ArrayW<int32_t> recordNos);
 
-  /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
   /// @brief Method CompareBits, addr 0x60a1768, size 0x64, virtual false, abstract: false, final false
   inline int32_t CompareBits(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t CompareValueTo(int32_t recordNo1, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
   /// @brief Method ConvertObjectToXml, addr 0x60a5aac, size 0x3c, virtual true, abstract: false, final false
@@ -142,19 +142,19 @@ public:
   /// @brief Method ConvertValue, addr 0x60a5a44, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
   /// @brief Method ConvertXmlToObject, addr 0x60a5a6c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method Copy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
   /// @brief Method CopyBits, addr 0x60a265c, size 0x44, virtual false, abstract: false, final false
   inline void CopyBits(int32_t srcRecordNo, int32_t dstRecordNo);
 
-  /// @brief Method CopyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
   /// @brief Method CopyValueInternal, addr 0x60a78d4, size 0x10, virtual false, abstract: false, final false
@@ -166,13 +166,13 @@ public:
   /// @brief Method DetermineIfValueType, addr 0x60a593c, size 0x48, virtual false, abstract: false, final false
   static inline bool DetermineIfValueType(::System::Data::Common::StorageType typeCode, ::System::Type* dataType);
 
-  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Get(int32_t recordNo);
 
   /// @brief Method GetBits, addr 0x60a2768, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* GetBits(int32_t recordNo);
 
-  /// @brief Method GetEmptyStorage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
   /// @brief Method GetEmptyStorageInternal, addr 0x60a78c4, size 0x10, virtual false, abstract: false, final false
@@ -236,7 +236,7 @@ public:
   static inline ::System::Data::Common::DataStorage* New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue,
                                                               ::System::Data::Common::StorageType storageType);
 
-  /// @brief Method Set, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Set(int32_t recordNo, ::System::Object* value);
 
   /// @brief Method SetCapacity, addr 0x60a29b8, size 0x8c, virtual true, abstract: false, final false
@@ -248,7 +248,7 @@ public:
   /// @brief Method SetNullStorage, addr 0x60a78f4, size 0x8, virtual false, abstract: false, final false
   inline void SetNullStorage(::System::Collections::BitArray* nullbits);
 
-  /// @brief Method SetStorage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   /// @brief Method SetStorageInternal, addr 0x60a78e4, size 0x10, virtual false, abstract: false, final false
@@ -354,13 +354,13 @@ protected:
   constexpr DataStorage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataStorage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataStorage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataStorage(DataStorage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataStorage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataStorage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataStorage(DataStorage const&) = delete;
+  DataStorage(DataStorageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13919 };

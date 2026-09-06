@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\__Error.hpp"
+// IWYU pragma private; include "System/IO/__Error.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz____Error_def.hpp"
 //  Writing Method size for method: ::System::IO::__Error.EndOfFile

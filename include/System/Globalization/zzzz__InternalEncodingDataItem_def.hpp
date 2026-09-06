@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\InternalEncodingDataItem.hpp"
+// IWYU pragma private; include "System/Globalization/InternalEncodingDataItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,8 @@ public:
   // @brief default ctor
   constexpr InternalEncodingDataItem();
 
-  // Ctor Parameters [CppParam { name: "webName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "codePage", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "webName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "codePage", ty: "uint16_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr InternalEncodingDataItem(::StringW webName, uint16_t codePage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

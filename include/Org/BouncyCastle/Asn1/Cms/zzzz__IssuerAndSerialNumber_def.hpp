@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\IssuerAndSerialNumber.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/IssuerAndSerialNumber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
+  /// @brief [Obsolete("Use GetInstance() instead")]
   static inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// @brief Method ToAsn1Object, addr 0x335adec, size 0xf0, virtual true, abstract: false, final false
@@ -77,6 +78,7 @@ public:
   /// @brief Method .ctor, addr 0x335ad60, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
+  /// [Obsolete("Use GetInstance() instead")]
   /// @brief Method .ctor, addr 0x335ac40, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
@@ -92,13 +94,13 @@ protected:
   constexpr IssuerAndSerialNumber();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IssuerAndSerialNumber", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IssuerAndSerialNumber", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IssuerAndSerialNumber(IssuerAndSerialNumber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IssuerAndSerialNumber", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IssuerAndSerialNumber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IssuerAndSerialNumber(IssuerAndSerialNumber const&) = delete;
+  IssuerAndSerialNumber(IssuerAndSerialNumberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 74 };

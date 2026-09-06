@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalCreateDrawCallSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalCreateDrawCallSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::UnityEngine::Rendering::Universal::DecalCreateDrawCallSystem*);
 MARK_VAL_T(::UnityEngine::Rendering::Universal::DecalCreateDrawCallSystem_DrawCallJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DecalCreateDrawCallSystem*, "UnityEngine.Rendering.Universal", "DecalCreateDrawCallSystem");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DecalCreateDrawCallSystem_DrawCallJob, "UnityEngine.Rendering.Universal", "DecalCreateDrawCallSystem/DrawCallJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Mathematics.float2, Unity.Mathematics.float4, Unity.Mathematics.float4x4, UnityEngine.BoundingSphere,
 // UnityEngine.Rendering.Universal.DecalSubDrawCall, UnityEngine.Vector3
 namespace UnityEngine::Rendering::Universal {
@@ -69,23 +70,24 @@ public:
   // @brief default ctor
   constexpr DecalCreateDrawCallSystem_DrawCallJob();
 
-  // Ctor Parameters [CppParam { name: "decalToWorlds", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "normalToWorlds",
-  // ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "sizeOffsets", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "drawDistances", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: None }, CppParam { name: "angleFades", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: None }, CppParam { name: "uvScaleBiases", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4>", modifiers: "", def_value: None }, CppParam { name: "layerMasks", ty: "::Unity::Collections::NativeArray_1<int32_t>",
-  // modifiers: "", def_value: None }, CppParam { name: "sceneLayerMasks", ty: "::Unity::Collections::NativeArray_1<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "fadeFactors", ty:
-  // "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "boundingSpheres", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::BoundingSphere>",
-  // modifiers: "", def_value: None }, CppParam { name: "renderingLayerMasks", ty: "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None }, CppParam { name: "cameraPosition",
-  // ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "cullingMask", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleDecalIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "visibleDecalCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxDrawDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "decalToWorldsDraw",
-  // ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "normalToDecalsDraw", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "renderingLayerMasksDraw", ty:
-  // "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "subCalls", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall>", modifiers: "", def_value: None }, CppParam { name: "subCallCount", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "decalToWorlds", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "normalToWorlds", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sizeOffsets", ty:
+  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawDistances", ty:
+  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: None, comment: None }, CppParam { name: "angleFades", ty:
+  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: None, comment: None }, CppParam { name: "uvScaleBiases", ty:
+  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "layerMasks", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sceneLayerMasks", ty: "::Unity::Collections::NativeArray_1<uint64_t>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "fadeFactors", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "boundingSpheres", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::BoundingSphere>", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderingLayerMasks", ty:
+  // "::Unity::Collections::NativeArray_1<uint32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "cameraPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingMask", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "visibleDecalIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "visibleDecalCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxDrawDistance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "decalToWorldsDraw", ty: "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "normalToDecalsDraw", ty:
+  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam { name: "renderingLayerMasksDraw", ty:
+  // "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "subCalls", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall>", modifiers: "", def_value: None, comment: None }, CppParam { name: "subCallCount", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr DecalCreateDrawCallSystem_DrawCallJob(
       ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> decalToWorlds, ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> normalToWorlds,
       ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> sizeOffsets, ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> drawDistances,
@@ -103,36 +105,47 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x138 };
 
+  /// [ReadOnly]
   /// @brief Field decalToWorlds, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> decalToWorlds;
 
+  /// [ReadOnly]
   /// @brief Field normalToWorlds, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> normalToWorlds;
 
+  /// [ReadOnly]
   /// @brief Field sizeOffsets, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> sizeOffsets;
 
+  /// [ReadOnly]
   /// @brief Field drawDistances, offset: 0x30, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> drawDistances;
 
+  /// [ReadOnly]
   /// @brief Field angleFades, offset: 0x40, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> angleFades;
 
+  /// [ReadOnly]
   /// @brief Field uvScaleBiases, offset: 0x50, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4> uvScaleBiases;
 
+  /// [ReadOnly]
   /// @brief Field layerMasks, offset: 0x60, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> layerMasks;
 
+  /// [ReadOnly]
   /// @brief Field sceneLayerMasks, offset: 0x70, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint64_t> sceneLayerMasks;
 
+  /// [ReadOnly]
   /// @brief Field fadeFactors, offset: 0x80, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<float_t> fadeFactors;
 
+  /// [ReadOnly]
   /// @brief Field boundingSpheres, offset: 0x90, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::BoundingSphere> boundingSpheres;
 
+  /// [ReadOnly]
   /// @brief Field renderingLayerMasks, offset: 0xa0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint32_t> renderingLayerMasks;
 
@@ -145,6 +158,7 @@ public:
   /// @brief Field cullingMask, offset: 0xc8, size: 0x4, def value: None
   int32_t cullingMask;
 
+  /// [ReadOnly]
   /// @brief Field visibleDecalIndices, offset: 0xd0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> visibleDecalIndices;
 
@@ -154,18 +168,23 @@ public:
   /// @brief Field maxDrawDistance, offset: 0xe4, size: 0x4, def value: None
   float_t maxDrawDistance;
 
+  /// [WriteOnly]
   /// @brief Field decalToWorldsDraw, offset: 0xe8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> decalToWorldsDraw;
 
+  /// [WriteOnly]
   /// @brief Field normalToDecalsDraw, offset: 0xf8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> normalToDecalsDraw;
 
+  /// [WriteOnly]
   /// @brief Field renderingLayerMasksDraw, offset: 0x108, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<float_t> renderingLayerMasksDraw;
 
+  /// [WriteOnly]
   /// @brief Field subCalls, offset: 0x118, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall> subCalls;
 
+  /// [WriteOnly]
   /// @brief Field subCallCount, offset: 0x128, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> subCallCount;
 
@@ -281,13 +300,13 @@ protected:
   constexpr DecalCreateDrawCallSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecalCreateDrawCallSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalCreateDrawCallSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecalCreateDrawCallSystem(DecalCreateDrawCallSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecalCreateDrawCallSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DecalCreateDrawCallSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DecalCreateDrawCallSystem(DecalCreateDrawCallSystem const&) = delete;
+  DecalCreateDrawCallSystem(DecalCreateDrawCallSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12693 };

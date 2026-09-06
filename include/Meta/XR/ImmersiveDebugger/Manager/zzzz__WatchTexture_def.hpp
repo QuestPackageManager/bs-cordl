@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\WatchTexture.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/WatchTexture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::WatchTexture*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::WatchTexture___c__DisplayClass0_0*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::WatchTexture*, "Meta.XR.ImmersiveDebugger.Manager", "WatchTexture");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::WatchTexture___c__DisplayClass0_0*, "Meta.XR.ImmersiveDebugger.Manager", "WatchTexture/<>c__DisplayClass0_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -78,13 +79,13 @@ protected:
   constexpr WatchTexture___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WatchTexture___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchTexture___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WatchTexture___c__DisplayClass0_0(WatchTexture___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WatchTexture___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchTexture___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WatchTexture___c__DisplayClass0_0(WatchTexture___c__DisplayClass0_0 const&) = delete;
+  WatchTexture___c__DisplayClass0_0(WatchTexture___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18451 };
@@ -155,13 +156,13 @@ protected:
   constexpr WatchTexture();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WatchTexture", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchTexture", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WatchTexture(WatchTexture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WatchTexture", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WatchTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WatchTexture(WatchTexture const&) = delete;
+  WatchTexture(WatchTextureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18452 };

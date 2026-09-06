@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberBurnMarkArea.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberBurnMarkArea.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,8 @@ class SaberBurnMarkArea;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SaberBurnMarkArea*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SaberBurnMarkArea*, "", "SaberBurnMarkArea");
+// [RequireComponent(typeof(UnityEngine.Renderer), typeof(UnityEngine.MeshFilter))]
+// [AddComponentMenu("Beat Saber/Gameplay/SaberBurnMarkArea")]
 // Dependencies Saber, UnityEngine.Bounds, UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.RenderTexture, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
@@ -122,9 +124,10 @@ public:
   __declspec(property(get = __cordl_internal_get_kBufferNames, put = __cordl_internal_set_kBufferNames)) ::ArrayW<::StringW> kBufferNames;
 
   /// @brief Method GetBurnMarkPos, addr 0x5987084, size 0x32c, virtual false, abstract: false, final false
-  static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, ::by_ref<::UnityEngine::Bounds> bounds, ::by_ref<::UnityEngine::Plane> plane, ::UnityEngine::Vector3 bladeBottomPos,
-                                    ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos);
+  static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane> plane,
+                                    ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos);
 
+  /// [Inject]
   /// @brief Method Initialize, addr 0x598646c, size 0x444, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::SaberManager* saberManager, ::GlobalNamespace::ColorManager* colorManager);
 
@@ -264,13 +267,13 @@ protected:
   constexpr SaberBurnMarkArea();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberBurnMarkArea(SaberBurnMarkArea&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberBurnMarkArea(SaberBurnMarkArea const&) = delete;
+  SaberBurnMarkArea(SaberBurnMarkAreaconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5794 };
@@ -284,18 +287,23 @@ public:
   /// @brief Field kStrokeRadiusNormalized offset 0xffffffff size 0x4
   static constexpr float_t kStrokeRadiusNormalized{ static_cast<float_t>(0.05f) };
 
+  /// [SerializeField]
   /// @brief Field _textureWidth, offset: 0x20, size: 0x4, def value: None
   int32_t ____textureWidth;
 
+  /// [SerializeField]
   /// @brief Field _textureHeight, offset: 0x24, size: 0x4, def value: None
   int32_t ____textureHeight;
 
+  /// [SerializeField]
   /// @brief Field _burnMarksFadeOutDurationSeconds, offset: 0x28, size: 0x4, def value: None
   float_t ____burnMarksFadeOutDurationSeconds;
 
+  /// [SerializeField]
   /// @brief Field _fadeOutShader, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____fadeOutShader;
 
+  /// [DoesNotRequireDomainReloadInit]
   /// @brief Field kBufferNames, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::StringW> ___kBufferNames;
 

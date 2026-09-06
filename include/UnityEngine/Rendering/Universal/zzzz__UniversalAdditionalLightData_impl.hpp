@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalAdditionalLightData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalAdditionalLightData.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__LightLayerEnum_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__SoftShadowQuality_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

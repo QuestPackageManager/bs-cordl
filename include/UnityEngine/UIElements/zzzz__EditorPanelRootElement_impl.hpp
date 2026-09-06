@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EditorPanelRootElement.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EditorPanelRootElement.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelRootElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EditorPanelRootElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"

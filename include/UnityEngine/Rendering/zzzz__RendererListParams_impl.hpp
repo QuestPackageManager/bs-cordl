@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RendererListParams.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RendererListParams.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingResults_impl.hpp"
@@ -177,11 +177,12 @@ constexpr UnityEngine::Rendering::RendererListParams::operator ::System::IEquata
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>* UnityEngine::Rendering::RendererListParams::i___System__IEquatable_1___UnityEngine__Rendering__RendererListParams_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "cullingResults", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawSettings", ty:
-// "::UnityEngine::Rendering::DrawingSettings", modifiers: "", def_value: Some("{}") }, CppParam { name: "filteringSettings", ty: "::UnityEngine::Rendering::FilteringSettings", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "tagName", ty: "::UnityEngine::Rendering::ShaderTagId", modifiers: "", def_value: Some("{}") }, CppParam { name: "isPassTagName", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "tagValues", ty: "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShaderTagId>>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "stateBlocks", ty: "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::RenderStateBlock>>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "cullingResults", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawSettings", ty:
+// "::UnityEngine::Rendering::DrawingSettings", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "filteringSettings", ty: "::UnityEngine::Rendering::FilteringSettings",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tagName", ty: "::UnityEngine::Rendering::ShaderTagId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "isPassTagName", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tagValues", ty:
+// "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShaderTagId>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stateBlocks", ty:
+// "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::RenderStateBlock>>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RendererListParams::RendererListParams(::UnityEngine::Rendering::CullingResults cullingResults, ::UnityEngine::Rendering::DrawingSettings drawSettings,
                                                                            ::UnityEngine::Rendering::FilteringSettings filteringSettings, ::UnityEngine::Rendering::ShaderTagId tagName,
                                                                            bool isPassTagName,

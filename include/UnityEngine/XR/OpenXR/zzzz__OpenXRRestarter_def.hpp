@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRRestarter.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRRestarter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::OpenXRRestarter*, "UnityEngine.XR
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35*, "UnityEngine.XR.OpenXR", "OpenXRRestarter/<PauseAndRetryInitializationCoroutine>d__35");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34*, "UnityEngine.XR.OpenXR", "OpenXRRestarter/<PauseAndShutdownAndRestartCoroutine>d__34");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36*, "UnityEngine.XR.OpenXR", "OpenXRRestarter/<RestartCoroutine>d__36");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR {
 // Is value type: false
@@ -95,17 +96,22 @@ public:
   /// @brief Method MoveNext, addr 0x69f4d48, size 0x2fc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x69f50c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69f50d0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69f5108, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69f4d1c, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -136,6 +142,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x69f5094, size 0x34, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69f4cb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -154,13 +161,13 @@ protected:
   constexpr OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35(OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35(OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35 const&) = delete;
+  OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35(OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18510 };
@@ -191,6 +198,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetry
 static_assert(sizeof(::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR {
 // Is value type: false
@@ -226,17 +234,22 @@ public:
   /// @brief Method MoveNext, addr 0x69f513c, size 0x220, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x69f5390, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69f5398, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69f53d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69f5110, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -267,6 +280,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x69f535c, size 0x34, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69f4cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -285,13 +299,13 @@ protected:
   constexpr OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34(OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34(OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34 const&) = delete;
+  OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34(OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18511 };
@@ -322,6 +336,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutd
 static_assert(sizeof(::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::XR::OpenXR {
 // Is value type: false
@@ -360,17 +375,22 @@ public:
   /// @brief Method MoveNext, addr 0x69f5404, size 0x55c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x69f5a30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69f5a38, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69f5a70, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69f53d8, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -407,6 +427,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x69f59f8, size 0x38, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69f4cbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -425,13 +446,13 @@ protected:
   constexpr OpenXRRestarter__RestartCoroutine_d__36();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__RestartCoroutine_d__36", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__RestartCoroutine_d__36", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRRestarter__RestartCoroutine_d__36(OpenXRRestarter__RestartCoroutine_d__36&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__RestartCoroutine_d__36", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter__RestartCoroutine_d__36", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRestarter__RestartCoroutine_d__36(OpenXRRestarter__RestartCoroutine_d__36 const&) = delete;
+  OpenXRRestarter__RestartCoroutine_d__36(OpenXRRestarter__RestartCoroutine_d__36const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18512 };
@@ -530,18 +551,21 @@ public:
   /// @brief Method PauseAndRetryInitialization, addr 0x69f3c38, size 0x170, virtual false, abstract: false, final false
   inline void PauseAndRetryInitialization();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.XR.OpenXR.OpenXRRestarter::<PauseAndRetryInitializationCoroutine>d__35))]
   /// @brief Method PauseAndRetryInitializationCoroutine, addr 0x69f4a48, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PauseAndRetryInitializationCoroutine(float_t pauseTimeInSeconds);
 
   /// @brief Method PauseAndShutdownAndRestart, addr 0x69f3ac8, size 0x170, virtual false, abstract: false, final false
   inline void PauseAndShutdownAndRestart();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.XR.OpenXR.OpenXRRestarter::<PauseAndShutdownAndRestartCoroutine>d__34))]
   /// @brief Method PauseAndShutdownAndRestartCoroutine, addr 0x69f49e4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PauseAndShutdownAndRestartCoroutine(float_t pauseTimeInSeconds);
 
   /// @brief Method ResetCallbacks, addr 0x69f46b8, size 0x6c, virtual false, abstract: false, final false
   inline void ResetCallbacks();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.XR.OpenXR.OpenXRRestarter::<RestartCoroutine>d__36))]
   /// @brief Method RestartCoroutine, addr 0x69f4970, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RestartCoroutine(bool shouldRestart, bool shouldShutdown);
 
@@ -606,6 +630,7 @@ public:
 
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRRestarter> getStaticF_s_Instance();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DisableApplicationQuit, addr 0x69f48b0, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_DisableApplicationQuit();
 
@@ -618,6 +643,7 @@ public:
   /// @brief Method get_PauseAndRestartCoroutineCount, addr 0x69f4854, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_PauseAndRestartCoroutineCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TimeBetweenRestartAttempts, addr 0x69f4734, size 0x5c, virtual false, abstract: false, final false
   static inline float_t get_TimeBetweenRestartAttempts();
 
@@ -634,9 +660,11 @@ public:
 
   static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::XR::OpenXR::OpenXRRestarter> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_DisableApplicationQuit, addr 0x69f490c, size 0x64, virtual false, abstract: false, final false
   static inline void set_DisableApplicationQuit(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TimeBetweenRestartAttempts, addr 0x69f4790, size 0x68, virtual false, abstract: false, final false
   static inline void set_TimeBetweenRestartAttempts(float_t value);
 
@@ -646,13 +674,13 @@ protected:
   constexpr OpenXRRestarter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRRestarter(OpenXRRestarter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRestarter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRestarter(OpenXRRestarter const&) = delete;
+  OpenXRRestarter(OpenXRRestarterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18513 };

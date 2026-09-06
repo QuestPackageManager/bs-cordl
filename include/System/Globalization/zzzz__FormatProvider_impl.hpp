@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\FormatProvider.hpp"
+// IWYU pragma private; include "System/Globalization/FormatProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__FormatProvider_def.hpp"
 #include "System/Globalization/zzzz__FormatProvider_def.hpp"
@@ -25,8 +25,9 @@ inline char16_t* System::Globalization::Number_FormatProvider_NumberBuffer::get_
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::Number_FormatProvider_NumberBuffer>(), { "get_digits", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<char16_t*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "sign", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "overrideDigits", ty: "char16_t*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "sign", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overrideDigits", ty: "char16_t*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::Globalization::Number_FormatProvider_NumberBuffer::Number_FormatProvider_NumberBuffer(int32_t precision, int32_t scale, bool sign, char16_t* overrideDigits) noexcept {
   this->precision = precision;
   this->scale = scale;

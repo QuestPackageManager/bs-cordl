@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIElementsUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIElementsUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,6 +72,7 @@ class UIElementsUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIElementsUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIElementsUtility*, "UnityEngine.UIElements", "UIElementsUtility");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.Color
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -246,13 +247,13 @@ protected:
   constexpr UIElementsUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIElementsUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIElementsUtility(UIElementsUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIElementsUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIElementsUtility(UIElementsUtility const&) = delete;
+  UIElementsUtility(UIElementsUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5119 };

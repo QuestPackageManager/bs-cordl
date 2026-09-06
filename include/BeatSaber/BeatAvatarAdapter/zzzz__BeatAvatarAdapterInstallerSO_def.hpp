@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\BeatAvatarAdapterInstallerSO.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/BeatAvatarAdapterInstallerSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,29 +103,34 @@ protected:
   constexpr BeatAvatarAdapterInstallerSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarAdapterInstallerSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarAdapterInstallerSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatAvatarAdapterInstallerSO(BeatAvatarAdapterInstallerSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarAdapterInstallerSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarAdapterInstallerSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarAdapterInstallerSO(BeatAvatarAdapterInstallerSO const&) = delete;
+  BeatAvatarAdapterInstallerSO(BeatAvatarAdapterInstallerSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21685 };
 
+  /// [SerializeField]
   /// @brief Field _avatarPartsModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO> ____avatarPartsModel;
 
+  /// [SerializeField]
   /// @brief Field _skinColorSet, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> ____skinColorSet;
 
+  /// [SerializeField]
   /// @brief Field _settings, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> ____settings;
 
+  /// [SerializeField]
   /// @brief Field _beatAvatarEditorViewController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> ____beatAvatarEditorViewController;
 
+  /// [SerializeField]
   /// @brief Field _editAvatarColorView, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> ____editAvatarColorView;
 

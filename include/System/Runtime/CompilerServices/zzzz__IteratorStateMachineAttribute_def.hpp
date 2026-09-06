@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\IteratorStateMachineAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/IteratorStateMachineAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class IteratorStateMachineAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::IteratorStateMachineAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::IteratorStateMachineAttribute*, "System.Runtime.CompilerServices", "IteratorStateMachineAttribute");
+// [AttributeUsage((System.AttributeTargets)64, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Runtime.CompilerServices.StateMachineAttribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -33,13 +34,13 @@ protected:
   constexpr IteratorStateMachineAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IteratorStateMachineAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IteratorStateMachineAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IteratorStateMachineAttribute(IteratorStateMachineAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IteratorStateMachineAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IteratorStateMachineAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IteratorStateMachineAttribute(IteratorStateMachineAttribute const&) = delete;
+  IteratorStateMachineAttribute(IteratorStateMachineAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3395 };

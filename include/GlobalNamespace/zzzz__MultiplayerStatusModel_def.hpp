@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerStatusModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerStatusModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncI
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerStatusModel*, "", "MultiplayerStatusModel");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB*, "", "MultiplayerStatusModel/MultiplayerStatusDataFB");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9, "", "MultiplayerStatusModel/<GetMultiplayerStatusAsyncInternal>d__9");
+// [Preserve]
 // Dependencies MultiplayerStatusData, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -86,13 +87,13 @@ protected:
   constexpr MultiplayerStatusModel_MultiplayerStatusDataFB();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel_MultiplayerStatusDataFB", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel_MultiplayerStatusDataFB", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerStatusModel_MultiplayerStatusDataFB(MultiplayerStatusModel_MultiplayerStatusDataFB&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel_MultiplayerStatusDataFB", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel_MultiplayerStatusDataFB", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerStatusModel_MultiplayerStatusDataFB(MultiplayerStatusModel_MultiplayerStatusDataFB const&) = delete;
+  MultiplayerStatusModel_MultiplayerStatusDataFB(MultiplayerStatusModel_MultiplayerStatusDataFBconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15060 };
@@ -108,6 +109,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerStatusModel_MultiplayerStat
 static_assert(sizeof(::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -121,6 +123,7 @@ public:
   /// @brief Method MoveNext, addr 0x3731960, size 0x8b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3732218, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -131,10 +134,10 @@ public:
   // @brief default ctor
   constexpr MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::MultiplayerStatusModel*", modifiers: "", def_value: None }, CppParam { name: "_uriBuilder_5__2", ty: "::System::UriBuilder*", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::MultiplayerStatusModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_uriBuilder_5__2", ty: "::System::UriBuilder*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9(int32_t __1__state,
                                                                            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*> __t__builder,
                                                                            ::GlobalNamespace::MultiplayerStatusModel* __4__this, ::System::UriBuilder* _uriBuilder_5__2,
@@ -203,9 +206,11 @@ public:
   /// @brief Method GetMultiplayerStatusAsync, addr 0x3731744, size 0x78, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(MultiplayerStatusModel::<GetMultiplayerStatusAsyncInternal>d__9))]
   /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x3731820, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
 
+  /// [Inject]
   /// @brief Method Init, addr 0x3731714, size 0x18, virtual false, abstract: false, final false
   inline void Init();
 
@@ -247,13 +252,13 @@ protected:
   constexpr MultiplayerStatusModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerStatusModel(MultiplayerStatusModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerStatusModel(MultiplayerStatusModel const&) = delete;
+  MultiplayerStatusModel(MultiplayerStatusModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15062 };
@@ -261,6 +266,7 @@ public:
   /// @brief Field kRequestTimeoutSeconds offset 0xffffffff size 0x4
   static constexpr int32_t kRequestTimeoutSeconds{ static_cast<int32_t>(0x3c) };
 
+  /// [Inject]
   /// @brief Field _networkConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 

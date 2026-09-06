@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\RewindableAllocator.hpp"
+// IWYU pragma private; include "Unity/Collections/RewindableAllocator.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -85,7 +85,7 @@ inline void Unity::Collections::RewindableAllocator_Union::set_m_allocCount(int6
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_Union>(), { "set_m_allocCount", {}, { ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_long", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_long", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::RewindableAllocator_Union::RewindableAllocator_Union(int64_t m_long) noexcept {
   this->m_long = m_long;
 }
@@ -168,8 +168,8 @@ constexpr Unity::Collections::RewindableAllocator_MemoryBlock::operator ::System
 constexpr ::System::IDisposable* Unity::Collections::RewindableAllocator_MemoryBlock::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_pointer", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_bytes", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_union", ty: "::Unity::Collections::RewindableAllocator_Union", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_pointer", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_bytes", ty: "int64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_union", ty: "::Unity::Collections::RewindableAllocator_Union", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::RewindableAllocator_MemoryBlock::RewindableAllocator_MemoryBlock(uint8_t* m_pointer, int64_t m_bytes,
                                                                                                  ::Unity::Collections::RewindableAllocator_Union m_union) noexcept {
   this->m_pointer = m_pointer;
@@ -662,13 +662,17 @@ inline bool Unity::Collections::RewindableAllocator::get_IsAutoDispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_IsAutoDispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::RewindableAllocator::AllocateNativeArray(int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> Unity::Collections::RewindableAllocator::AllocateNativeArray(int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "AllocateNativeArray", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(*this, ___internal_method, length);
 }
-template <typename T> inline ::Unity::Collections::NativeList_1<T> Unity::Collections::RewindableAllocator::AllocateNativeList(int32_t capacity) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeList_1<T> Unity::Collections::RewindableAllocator::AllocateNativeList(int32_t capacity) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "AllocateNativeList", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
@@ -696,11 +700,11 @@ constexpr Unity::Collections::RewindableAllocator::operator ::System::IDisposabl
 constexpr ::System::IDisposable* Unity::Collections::RewindableAllocator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_spinner", ty: "::Unity::Collections::Spinner", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_handle", ty:
-// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_block", ty:
-// "::Unity::Collections::UnmanagedArray_1<::Unity::Collections::RewindableAllocator_MemoryBlock>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_last", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_used", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_enableBlockFree", ty: "uint8_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_reachMaxBlockSize", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_spinner", ty: "::Unity::Collections::Spinner", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_handle", ty:
+// "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_block", ty:
+// "::Unity::Collections::UnmanagedArray_1<::Unity::Collections::RewindableAllocator_MemoryBlock>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_last", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_used", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_enableBlockFree", ty:
+// "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_reachMaxBlockSize", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::RewindableAllocator::RewindableAllocator(::Unity::Collections::Spinner m_spinner, ::Unity::Collections::AllocatorManager_AllocatorHandle m_handle,
                                                                          ::Unity::Collections::UnmanagedArray_1<::Unity::Collections::RewindableAllocator_MemoryBlock> m_block, int32_t m_last,
                                                                          int32_t m_used, uint8_t m_enableBlockFree, uint8_t m_reachMaxBlockSize) noexcept {

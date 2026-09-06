@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VFXController.hpp"
+// IWYU pragma private; include "GlobalNamespace/VFXController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
@@ -183,6 +183,7 @@ inline ::System::Object* GlobalNamespace::VFXController__MainCoroutine_d__9::Sys
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VFXController__MainCoroutine_d__9*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::VFXController__MainCoroutine_d__9* GlobalNamespace::VFXController__MainCoroutine_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::VFXController__MainCoroutine_d__9*>(__1__state));
 }

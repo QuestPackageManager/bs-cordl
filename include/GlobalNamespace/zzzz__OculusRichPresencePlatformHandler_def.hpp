@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OculusRichPresencePlatformHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/OculusRichPresencePlatformHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ protected:
   constexpr OculusRichPresencePlatformHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusRichPresencePlatformHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusRichPresencePlatformHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusRichPresencePlatformHandler(OculusRichPresencePlatformHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusRichPresencePlatformHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OculusRichPresencePlatformHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OculusRichPresencePlatformHandler(OculusRichPresencePlatformHandler const&) = delete;
+  OculusRichPresencePlatformHandler(OculusRichPresencePlatformHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6647 };

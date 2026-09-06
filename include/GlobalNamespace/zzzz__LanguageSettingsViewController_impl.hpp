@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LanguageSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/LanguageSettingsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LanguageSettingsViewController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LanguageSettingsViewController._ctor

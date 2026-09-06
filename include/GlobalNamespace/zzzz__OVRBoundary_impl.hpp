@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBoundary.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBoundary.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRBoundary_def.hpp"
@@ -7,7 +7,7 @@
 #include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRBoundary_Node::OVRBoundary_Node(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -16,7 +16,7 @@ constexpr ::GlobalNamespace::OVRBoundary_Node::OVRBoundary_Node() {}
 constexpr ::GlobalNamespace::OVRBoundary_Node GlobalNamespace::OVRBoundary_Node::HandLeft{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRBoundary_Node GlobalNamespace::OVRBoundary_Node::HandRight{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRBoundary_Node GlobalNamespace::OVRBoundary_Node::Head{ static_cast<int32_t>(0x9) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRBoundary_BoundaryType::OVRBoundary_BoundaryType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -24,9 +24,9 @@ constexpr ::GlobalNamespace::OVRBoundary_BoundaryType::OVRBoundary_BoundaryType(
 constexpr ::GlobalNamespace::OVRBoundary_BoundaryType::OVRBoundary_BoundaryType() {}
 constexpr ::GlobalNamespace::OVRBoundary_BoundaryType GlobalNamespace::OVRBoundary_BoundaryType::OuterBoundary{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRBoundary_BoundaryType GlobalNamespace::OVRBoundary_BoundaryType::PlayArea{ static_cast<int32_t>(0x100) };
-// Ctor Parameters [CppParam { name: "IsTriggering", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "ClosestDistance", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "ClosestPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "ClosestPointNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "IsTriggering", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ClosestDistance", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "ClosestPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ClosestPointNormal", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRBoundary_BoundaryTestResult::OVRBoundary_BoundaryTestResult(bool IsTriggering, float_t ClosestDistance, ::UnityEngine::Vector3 ClosestPoint,
                                                                                             ::UnityEngine::Vector3 ClosestPointNormal) noexcept {
   this->IsTriggering = IsTriggering;

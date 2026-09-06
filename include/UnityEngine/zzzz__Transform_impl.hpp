@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Transform.hpp"
+// IWYU pragma private; include "UnityEngine/Transform.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -2839,7 +2839,7 @@ inline void UnityEngine::Transform::GetLocalPositionAndRotation(::by_ref<::Unity
                                               { "GetLocalPositionAndRotation", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, localPosition, localRotation);
 }
-inline void UnityEngine::Transform::Translate(::UnityEngine::Vector3 translation, ::UnityEngine::Space relativeTo) {
+inline void UnityEngine::Transform::Translate(::UnityEngine::Vector3 translation, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "Translate", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Space>() } })));
@@ -2850,7 +2850,7 @@ inline void UnityEngine::Transform::Translate(::UnityEngine::Vector3 translation
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "Translate", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, translation);
 }
-inline void UnityEngine::Transform::Translate(float_t x, float_t y, float_t z, ::UnityEngine::Space relativeTo) {
+inline void UnityEngine::Transform::Translate(float_t x, float_t y, float_t z, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(),
                                               { "Translate", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Space>() } })));
@@ -2873,7 +2873,7 @@ inline void UnityEngine::Transform::Translate(float_t x, float_t y, float_t z, :
                                               { "Translate", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Transform*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, z, relativeTo);
 }
-inline void UnityEngine::Transform::Rotate(::UnityEngine::Vector3 eulers, ::UnityEngine::Space relativeTo) {
+inline void UnityEngine::Transform::Rotate(::UnityEngine::Vector3 eulers, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "Rotate", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Space>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eulers, relativeTo);
@@ -2883,7 +2883,7 @@ inline void UnityEngine::Transform::Rotate(::UnityEngine::Vector3 eulers) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "Rotate", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eulers);
 }
-inline void UnityEngine::Transform::Rotate(float_t xAngle, float_t yAngle, float_t zAngle, ::UnityEngine::Space relativeTo) {
+inline void UnityEngine::Transform::Rotate(float_t xAngle, float_t yAngle, float_t zAngle, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(),
                                               { "Rotate", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Space>() } })));
@@ -2899,7 +2899,7 @@ inline void UnityEngine::Transform::RotateAroundInternal(::UnityEngine::Vector3 
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "RotateAroundInternal", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, axis, angle);
 }
-inline void UnityEngine::Transform::Rotate(::UnityEngine::Vector3 axis, float_t angle, ::UnityEngine::Space relativeTo) {
+inline void UnityEngine::Transform::Rotate(::UnityEngine::Vector3 axis, float_t angle, /* [DefaultValue("Space.Self")] */ ::UnityEngine::Space relativeTo) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(),
                                                            { "Rotate", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Space>() } })));
@@ -2916,7 +2916,7 @@ inline void UnityEngine::Transform::RotateAround(::UnityEngine::Vector3 point, :
                                                            { "RotateAround", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, point, axis, angle);
 }
-inline void UnityEngine::Transform::LookAt(::UnityEngine::Transform* target, ::UnityEngine::Vector3 worldUp) {
+inline void UnityEngine::Transform::LookAt(::UnityEngine::Transform* target, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 worldUp) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "LookAt", {}, { ::i2c::type_of<::UnityEngine::Transform*>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
@@ -2927,7 +2927,7 @@ inline void UnityEngine::Transform::LookAt(::UnityEngine::Transform* target) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "LookAt", {}, { ::i2c::type_of<::UnityEngine::Transform*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, target);
 }
-inline void UnityEngine::Transform::LookAt(::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldUp) {
+inline void UnityEngine::Transform::LookAt(::UnityEngine::Vector3 worldPosition, /* [DefaultValue("Vector3.up")] */ ::UnityEngine::Vector3 worldUp) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "LookAt", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, worldPosition, worldUp);
@@ -3163,7 +3163,7 @@ inline int32_t UnityEngine::Transform::GetSiblingIndex() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "GetSiblingIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::Transform> UnityEngine::Transform::FindRelativeTransformWithPath(::StringW path, bool isActiveOnly) {
+inline ::UnityW<::UnityEngine::Transform> UnityEngine::Transform::FindRelativeTransformWithPath(::StringW path, /* [DefaultValue("false")] */ bool isActiveOnly) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "FindRelativeTransformWithPath", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>>(this, ___internal_method, path, isActiveOnly);
@@ -3180,7 +3180,7 @@ inline ::UnityEngine::Vector3 UnityEngine::Transform::get_lossyScale() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "get_lossyScale", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
-inline bool UnityEngine::Transform::IsChildOf(::UnityEngine::Transform* parent) {
+inline bool UnityEngine::Transform::IsChildOf(/* [NotNull] */ ::UnityEngine::Transform* parent) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "IsChildOf", {}, { ::i2c::type_of<::UnityEngine::Transform*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, parent);
@@ -3581,7 +3581,8 @@ inline int32_t UnityEngine::Transform::GetSiblingIndex_Injected(::System::IntPtr
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Transform*>(), { "GetSiblingIndex_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, _unity_self);
 }
-inline ::System::IntPtr UnityEngine::Transform::FindRelativeTransformWithPath_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path, bool isActiveOnly) {
+inline ::System::IntPtr UnityEngine::Transform::FindRelativeTransformWithPath_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path,
+                                                                                       /* [DefaultValue("false")] */ bool isActiveOnly) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_FontWeightPair.hpp"
+// IWYU pragma private; include "TMPro/TMP_FontWeightPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,8 @@ public:
   // @brief default ctor
   constexpr TMP_FontWeightPair();
 
-  // Ctor Parameters [CppParam { name: "regularTypeface", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }, CppParam { name: "italicTypeface", ty:
-  // "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "regularTypeface", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None, comment: None }, CppParam { name: "italicTypeface", ty:
+  // "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None, comment: None }]
   constexpr TMP_FontWeightPair(::UnityW<::TMPro::TMP_FontAsset> regularTypeface, ::UnityW<::TMPro::TMP_FontAsset> italicTypeface) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

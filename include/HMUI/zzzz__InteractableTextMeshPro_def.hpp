@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\InteractableTextMeshPro.hpp"
+// IWYU pragma private; include "HMUI/InteractableTextMeshPro.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,23 +80,27 @@ protected:
   constexpr InteractableTextMeshPro();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InteractableTextMeshPro", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InteractableTextMeshPro", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InteractableTextMeshPro(InteractableTextMeshPro&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InteractableTextMeshPro", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InteractableTextMeshPro", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InteractableTextMeshPro(InteractableTextMeshPro const&) = delete;
+  InteractableTextMeshPro(InteractableTextMeshProconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19038 };
 
+  /// [SerializeField]
   /// @brief Field _interactionAlpha, offset: 0x20, size: 0x4, def value: None
   float_t ____interactionAlpha;
 
+  /// [SerializeField]
   /// @brief Field _noInteractionAlpha, offset: 0x24, size: 0x4, def value: None
   float_t ____noInteractionAlpha;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 

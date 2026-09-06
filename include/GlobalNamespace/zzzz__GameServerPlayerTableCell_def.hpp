@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServerPlayerTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServerPlayerTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,6 +102,7 @@ MARK_VAL_T(::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnab
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameServerPlayerTableCell*, "", "GameServerPlayerTableCell");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0*, "", "GameServerPlayerTableCell/<>c__DisplayClass30_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36, "", "GameServerPlayerTableCell/<SetBeatmapUseButtonEnabledAsync>d__36");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -133,13 +134,13 @@ protected:
   constexpr GameServerPlayerTableCell___c__DisplayClass30_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell___c__DisplayClass30_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell___c__DisplayClass30_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerPlayerTableCell___c__DisplayClass30_0(GameServerPlayerTableCell___c__DisplayClass30_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell___c__DisplayClass30_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell___c__DisplayClass30_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerPlayerTableCell___c__DisplayClass30_0(GameServerPlayerTableCell___c__DisplayClass30_0 const&) = delete;
+  GameServerPlayerTableCell___c__DisplayClass30_0(GameServerPlayerTableCell___c__DisplayClass30_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6896 };
@@ -155,6 +156,7 @@ static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell___c__Display
 static_assert(sizeof(::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -168,6 +170,7 @@ public:
   /// @brief Method MoveNext, addr 0x5943318, size 0x52c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5943844, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -178,11 +181,12 @@ public:
   // @brief default ctor
   constexpr GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::GameServerPlayerTableCell>",
-  // modifiers: "", def_value: None }, CppParam { name: "getLevelEntitlementTask", ty: "::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*", modifiers: "", def_value: None },
-  // CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::GameServerPlayerTableCell>", modifiers: "", def_value: None, comment: None }, CppParam { name: "getLevelEntitlementTask", ty:
+  // "::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cancellationToken_5__2", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None, comment: None }]
   constexpr GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                              ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> __4__this,
                                                                              ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask,
@@ -332,6 +336,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell* New_ctor();
 
+  /// [AsyncStateMachine(typeof(GameServerPlayerTableCell::<SetBeatmapUseButtonEnabledAsync>d__36))]
   /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x5942f80, size 0xb0, virtual false, abstract: false, final false
   inline void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
@@ -486,21 +491,27 @@ public:
   /// @brief Method .ctor, addr 0x5943238, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_kickPlayerEvent, addr 0x5942484, size 0xc0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_useBeatmapEvent, addr 0x5942604, size 0xc0, virtual false, abstract: false, final false
   inline void add_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_useModifiersEvent, addr 0x5942784, size 0xc0, virtual false, abstract: false, final false
   inline void add_useModifiersEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_kickPlayerEvent, addr 0x59423c4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_useBeatmapEvent, addr 0x5942544, size 0xc0, virtual false, abstract: false, final false
   inline void remove_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_useModifiersEvent, addr 0x59426c4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_useModifiersEvent(::System::Action_1<int32_t>* value);
 
@@ -510,13 +521,13 @@ protected:
   constexpr GameServerPlayerTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerPlayerTableCell(GameServerPlayerTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayerTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerPlayerTableCell(GameServerPlayerTableCell const&) = delete;
+  GameServerPlayerTableCell(GameServerPlayerTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6898 };
@@ -524,69 +535,96 @@ public:
   /// @brief Field kLabelCantStartGameDoNotOwnSongLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kLabelCantStartGameDoNotOwnSongLocalizationKey{ u"LABEL_CANT_START_GAME_DO_NOT_OWN_SONG" };
 
+  /// [SerializeField]
   /// @brief Field _playerNameText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____playerNameText;
 
+  /// [SerializeField]
   /// @brief Field _localPlayerBackgroundImage, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____localPlayerBackgroundImage;
 
+  /// [Header("Suggested Level")]
+  /// [SerializeField]
   /// @brief Field _suggestedLevelText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____suggestedLevelText;
 
+  /// [SerializeField]
   /// @brief Field _suggestedCharacteristicIcon, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____suggestedCharacteristicIcon;
 
+  /// [SerializeField]
   /// @brief Field _suggestedDifficultyText, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____suggestedDifficultyText;
 
+  /// [SerializeField]
   /// @brief Field _emptySuggestedLevelText, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____emptySuggestedLevelText;
 
+  /// [Header("Suggested Modifiers")]
+  /// [SerializeField]
   /// @brief Field _suggestedModifiersList, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> ____suggestedModifiersList;
 
+  /// [SerializeField]
   /// @brief Field _emptySuggestedModifiersText, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____emptySuggestedModifiersText;
 
+  /// [Header("Button")]
+  /// [SerializeField]
   /// @brief Field _kickPlayerButton, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____kickPlayerButton;
 
+  /// [SerializeField]
   /// @brief Field _useBeatmapButton, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____useBeatmapButton;
 
+  /// [SerializeField]
   /// @brief Field _useModifiersButton, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____useModifiersButton;
 
+  /// [SerializeField]
   /// @brief Field _useBeatmapButtonHoverHint, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____useBeatmapButtonHoverHint;
 
+  /// [Header("Status Icons")]
+  /// [SerializeField]
   /// @brief Field _statusImageView, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____statusImageView;
 
+  /// [SerializeField]
   /// @brief Field _readyIcon, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____readyIcon;
 
+  /// [SerializeField]
   /// @brief Field _spectatingIcon, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____spectatingIcon;
 
+  /// [SerializeField]
   /// @brief Field _hostIcon, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____hostIcon;
 
+  /// [Header("Helpers")]
+  /// [SerializeField]
   /// @brief Field _gameplayModifiers, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiers;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x108, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [Inject]
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x110, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 
+  /// [CompilerGenerated]
   /// @brief Field kickPlayerEvent, offset: 0x118, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___kickPlayerEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field useBeatmapEvent, offset: 0x120, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___useBeatmapEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field useModifiersEvent, offset: 0x128, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___useModifiersEvent;
 

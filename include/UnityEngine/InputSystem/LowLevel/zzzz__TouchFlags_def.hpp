@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\TouchFlags.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TouchFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct TouchFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::TouchFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::TouchFlags, "UnityEngine.InputSystem.LowLevel", "TouchFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr TouchFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr TouchFlags(uint8_t value__) noexcept;
 
   /// @brief Field BeganInSameFrame value: U8(128)

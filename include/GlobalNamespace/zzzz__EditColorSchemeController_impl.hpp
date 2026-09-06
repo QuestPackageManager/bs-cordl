@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EditColorSchemeController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EditColorSchemeController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EditColorSchemeController_def.hpp"
 #include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"

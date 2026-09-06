@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderDerivedData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderDerivedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ struct CORDL_TYPE OccluderDerivedData {
 public:
   // Declarations
   /// @brief Method FromParameters, addr 0x682e2b8, size 0x330, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::OccluderDerivedData FromParameters(::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdate);
+  static inline ::UnityEngine::Rendering::OccluderDerivedData FromParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdate);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr OccluderDerivedData();
 
-  // Ctor Parameters [CppParam { name: "viewProjMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "viewOriginWorldSpace", ty: "::UnityEngine::Vector4",
-  // modifiers: "", def_value: None }, CppParam { name: "radialDirWorldSpace", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "facingDirWorldSpace", ty:
-  // "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewProjMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewOriginWorldSpace", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "radialDirWorldSpace", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "facingDirWorldSpace", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }]
   constexpr OccluderDerivedData(::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Vector4 viewOriginWorldSpace, ::UnityEngine::Vector4 radialDirWorldSpace,
                                 ::UnityEngine::Vector4 facingDirWorldSpace) noexcept;
 

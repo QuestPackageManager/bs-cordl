@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\NamedValue.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/NamedValue.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__NamedValue_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -250,7 +250,9 @@ inline ::UnityEngine::InputSystem::Utilities::NamedValue UnityEngine::InputSyste
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NamedValue>(), { "ConvertTo", {}, { ::i2c::type_of<::System::TypeCode>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::NamedValue>(*this, ___internal_method, type);
 }
-template <typename TValue> inline ::UnityEngine::InputSystem::Utilities::NamedValue UnityEngine::InputSystem::Utilities::NamedValue::From(::StringW name, TValue value) {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline ::UnityEngine::InputSystem::Utilities::NamedValue UnityEngine::InputSystem::Utilities::NamedValue::From(::StringW name, TValue value) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NamedValue>(),
                                                                                               { "From", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<::StringW>(), ::i2c::type_of<TValue>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
@@ -326,8 +328,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::NamedVal
 UnityEngine::InputSystem::Utilities::NamedValue::i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__NamedValue_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::NamedValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_value_k__BackingField", ty:
-// "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_value_k__BackingField", ty:
+// "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Utilities::NamedValue::NamedValue(::StringW _name_k__BackingField, ::UnityEngine::InputSystem::Utilities::PrimitiveValue _value_k__BackingField) noexcept {
   this->_name_k__BackingField = _name_k__BackingField;
   this->_value_k__BackingField = _value_k__BackingField;

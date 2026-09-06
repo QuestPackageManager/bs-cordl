@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SurrogateDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SurrogateDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,13 +85,13 @@ protected:
   constexpr SurrogateDataContract_SurrogateDataContractCriticalHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SurrogateDataContract_SurrogateDataContractCriticalHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SurrogateDataContract_SurrogateDataContractCriticalHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SurrogateDataContract_SurrogateDataContractCriticalHelper(SurrogateDataContract_SurrogateDataContractCriticalHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SurrogateDataContract_SurrogateDataContractCriticalHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SurrogateDataContract_SurrogateDataContractCriticalHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SurrogateDataContract_SurrogateDataContractCriticalHelper(SurrogateDataContract_SurrogateDataContractCriticalHelper const&) = delete;
+  SurrogateDataContract_SurrogateDataContractCriticalHelper(SurrogateDataContract_SurrogateDataContractCriticalHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17115 };
@@ -160,13 +160,13 @@ protected:
   constexpr SurrogateDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SurrogateDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SurrogateDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SurrogateDataContract(SurrogateDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SurrogateDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SurrogateDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SurrogateDataContract(SurrogateDataContract const&) = delete;
+  SurrogateDataContract(SurrogateDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17116 };

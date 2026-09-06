@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputControl_ControlFlags);
 MARK_REF_T(::UnityEngine::InputSystem::InputControl*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputControl_ControlFlags, "UnityEngine.InputSystem", "InputControl/ControlFlags");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputControl*, "UnityEngine.InputSystem", "InputControl");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -83,7 +84,7 @@ public:
   // @brief default ctor
   constexpr InputControl_ControlFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputControl_ControlFlags(int32_t value__) noexcept;
 
   /// @brief Field ConfigUpToDate value: I32(1)
@@ -124,6 +125,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputControl_ControlFlags, va
 static_assert(sizeof(::UnityEngine::InputSystem::InputControl_ControlFlags) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [DefaultMember("Item")]
+// [DebuggerDisplay("{DebuggerDisplay(),nq}")]
 // Dependencies System.Object, UnityEngine.InputSystem.InputControl::ControlFlags, UnityEngine.InputSystem.LowLevel.InputStateBlock, UnityEngine.InputSystem.Utilities.FourCC,
 // UnityEngine.InputSystem.Utilities.InternedString, UnityEngine.InputSystem.Utilities.PrimitiveValue
 namespace UnityEngine::InputSystem {
@@ -282,12 +285,13 @@ public:
   /// @brief Method CallFinishSetupRecursive, addr 0x65183f4, size 0xc8, virtual false, abstract: false, final false
   inline void CallFinishSetupRecursive();
 
-  /// @brief Method CompareValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CompareValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CompareValue(void* firstStatePtr, void* secondStatePtr);
 
   /// @brief Method DebuggerDisplay, addr 0x6517304, size 0x16c, virtual false, abstract: false, final false
   inline ::StringW DebuggerDisplay();
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method EnsureOptimizationTypeHasNotChanged, addr 0x6517f98, size 0x39c, virtual false, abstract: false, final false
   inline void EnsureOptimizationTypeHasNotChanged();
 
@@ -323,13 +327,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::InputControl* New_ctor();
 
-  /// @brief Method ReadValueFromBufferAsObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReadValueFromBufferAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ReadValueFromBufferAsObject(void* buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueFromStateAsObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReadValueFromStateAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ReadValueFromStateAsObject(void* statePtr);
 
-  /// @brief Method ReadValueFromStateIntoBuffer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReadValueFromStateIntoBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReadValueFromStateIntoBuffer(void* statePtr, void* bufferPtr, int32_t bufferSize);
 
   /// @brief Method RefreshConfiguration, addr 0x6517874, size 0x4, virtual true, abstract: false, final false
@@ -587,10 +591,10 @@ public:
   /// @brief Method get_usesStateFromOtherControl, addr 0x65183b8, size 0xc, virtual false, abstract: false, final false
   inline bool get_usesStateFromOtherControl();
 
-  /// @brief Method get_valueSizeInBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method get_valueType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_valueType();
 
   /// @brief Method get_variants, addr 0x6516f1c, size 0x20, virtual false, abstract: false, final false
@@ -629,13 +633,13 @@ protected:
   constexpr InputControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputControl(InputControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputControl(InputControl const&) = delete;
+  InputControl(InputControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8697 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\RichTextTagParser.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/RichTextTagParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__RichTextTagParser_def.hpp"
@@ -14,7 +14,7 @@
 #include "UnityEngine/TextCore/zzzz__RichTextTagParser_def.hpp"
 #include "UnityEngine/TextCore/zzzz__TextSpan_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagType::RichTextTagParser_TagType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -51,7 +51,7 @@ constexpr ::UnityEngine::TextCore::RichTextTagParser_TagType UnityEngine::TextCo
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagType UnityEngine::TextCore::RichTextTagParser_TagType::Underline{ static_cast<int32_t>(0x1c) };
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagType UnityEngine::TextCore::RichTextTagParser_TagType::Uppercase{ static_cast<int32_t>(0x1d) };
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagType UnityEngine::TextCore::RichTextTagParser_TagType::Unknown{ static_cast<int32_t>(0x1e) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagValueType::RichTextTagParser_TagValueType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -61,7 +61,7 @@ constexpr ::UnityEngine::TextCore::RichTextTagParser_TagValueType UnityEngine::T
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagValueType UnityEngine::TextCore::RichTextTagParser_TagValueType::NumericalValue{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagValueType UnityEngine::TextCore::RichTextTagParser_TagValueType::StringValue{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagValueType UnityEngine::TextCore::RichTextTagParser_TagValueType::ColorValue{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagUnitType::RichTextTagParser_TagUnitType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -528,6 +528,7 @@ inline bool UnityEngine::TextCore::RichTextTagParser_TagValue::Equals(::UnityEng
 inline ::UnityEngine::TextCore::RichTextTagParser_TagValue* UnityEngine::TextCore::RichTextTagParser_TagValue::New_ctor(::UnityEngine::Color value) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(value));
 }
+/// @brief [NullableContext(1)]
 inline ::UnityEngine::TextCore::RichTextTagParser_TagValue* UnityEngine::TextCore::RichTextTagParser_TagValue::New_ctor(::StringW value) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(value));
 }
@@ -542,9 +543,9 @@ UnityEngine::TextCore::RichTextTagParser_TagValue::i___System__IEquatable_1___Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::RichTextTagParser_TagValue::RichTextTagParser_TagValue() {}
-// Ctor Parameters [CppParam { name: "tagType", ty: "::UnityEngine::TextCore::RichTextTagParser_TagType", modifiers: "", def_value: Some("{}") }, CppParam { name: "isClosing", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "value", ty: "::UnityEngine::TextCore::RichTextTagParser_TagValue*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "tagType", ty: "::UnityEngine::TextCore::RichTextTagParser_TagType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isClosing", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "end", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty: "::UnityEngine::TextCore::RichTextTagParser_TagValue*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::RichTextTagParser_Tag::RichTextTagParser_Tag(::UnityEngine::TextCore::RichTextTagParser_TagType tagType, bool isClosing, int32_t start, int32_t end,
                                                                                 ::UnityEngine::TextCore::RichTextTagParser_TagValue* value) noexcept {
   this->tagType = tagType;
@@ -555,8 +556,8 @@ constexpr ::UnityEngine::TextCore::RichTextTagParser_Tag::RichTextTagParser_Tag(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::RichTextTagParser_Tag::RichTextTagParser_Tag() {}
-// Ctor Parameters [CppParam { name: "tags", ty: "::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "start", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "tags", ty: "::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::RichTextTagParser_Segment::RichTextTagParser_Segment(::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* tags, int32_t start,
                                                                                         int32_t end) noexcept {
   this->tags = tags;
@@ -907,13 +908,13 @@ inline void UnityEngine::TextCore::RichTextTagParser::setStaticF_TagsInfo(::Arra
 inline ::ArrayW<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*> UnityEngine::TextCore::RichTextTagParser::getStaticF_TagsInfo() {
   return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>, "TagsInfo", ::UnityEngine::TextCore::RichTextTagParser*>();
 }
-inline bool UnityEngine::TextCore::RichTextTagParser::tagMatch(::System::ReadOnlySpan_1<char16_t> tagCandidate, ::StringW tagName) {
+inline bool UnityEngine::TextCore::RichTextTagParser::tagMatch(::System::ReadOnlySpan_1<char16_t> tagCandidate, /* [Nullable(1)] */ ::StringW tagName) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
                                                                                          { "tagMatch", {}, { ::i2c::type_of<::System::ReadOnlySpan_1<char16_t>>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, tagCandidate, tagName);
 }
 inline bool UnityEngine::TextCore::RichTextTagParser::SpanToEnum(::System::ReadOnlySpan_1<char16_t> tagCandidate, ::by_ref<::UnityEngine::TextCore::RichTextTagParser_TagType> tagType,
-                                                                 ::by_ref<::StringW> error, ::by_ref<::System::ReadOnlySpan_1<char16_t>> attribute) {
+                                                                 /* [Nullable(2)] */ ::by_ref<::StringW> error, ::by_ref<::System::ReadOnlySpan_1<char16_t>> attribute) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
                                                            { "SpanToEnum",
@@ -923,7 +924,8 @@ inline bool UnityEngine::TextCore::RichTextTagParser::SpanToEnum(::System::ReadO
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, tagCandidate, tagType, error, attribute);
 }
 inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*
-UnityEngine::TextCore::RichTextTagParser::FindTags(::StringW inputStr, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>* errors) {
+UnityEngine::TextCore::RichTextTagParser::FindTags(::StringW inputStr,
+                                                   /* [Nullable(new[] { 2, 1 })] */ ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>* errors) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
@@ -932,7 +934,7 @@ UnityEngine::TextCore::RichTextTagParser::FindTags(::StringW inputStr, ::System:
 }
 inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*
 UnityEngine::TextCore::RichTextTagParser::PickResultingTags(::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* allTags, ::StringW input, int32_t atPosition,
-                                                            ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* applicableTags) {
+                                                            /* [Nullable(2)] */ ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* applicableTags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
                                               { "PickResultingTags",
@@ -960,9 +962,9 @@ inline void UnityEngine::TextCore::RichTextTagParser::ApplyStateToSegment(::Stri
                                                                ::i2c::type_of<::ArrayW<::UnityEngine::TextCore::RichTextTagParser_Segment>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, input, tags, segments);
 }
-inline int32_t
-UnityEngine::TextCore::RichTextTagParser::AddLink(::UnityEngine::TextCore::RichTextTagParser_TagType type, ::StringW value,
-                                                  ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links) {
+inline int32_t UnityEngine::TextCore::RichTextTagParser::AddLink(
+    ::UnityEngine::TextCore::RichTextTagParser_TagType type, ::StringW value,
+    /* [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
@@ -972,10 +974,10 @@ UnityEngine::TextCore::RichTextTagParser::AddLink(::UnityEngine::TextCore::RichT
                               ::i2c::type_of<::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, type, value, links);
 }
-inline ::UnityEngine::TextCore::TextSpan
-UnityEngine::TextCore::RichTextTagParser::CreateTextSpan(::UnityEngine::TextCore::RichTextTagParser_Segment segment, ::by_ref<::UnityEngine::TextCore::NativeTextGenerationSettings> tgs,
-                                                         ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links,
-                                                         ::UnityEngine::Color hyperlinkColor) {
+inline ::UnityEngine::TextCore::TextSpan UnityEngine::TextCore::RichTextTagParser::CreateTextSpan(
+    ::UnityEngine::TextCore::RichTextTagParser_Segment segment, ::by_ref<::UnityEngine::TextCore::NativeTextGenerationSettings> tgs,
+    /* [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links,
+    ::UnityEngine::Color hyperlinkColor) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
@@ -988,7 +990,8 @@ UnityEngine::TextCore::RichTextTagParser::CreateTextSpan(::UnityEngine::TextCore
 }
 inline void UnityEngine::TextCore::RichTextTagParser::CreateTextGenerationSettingsArray(
     ::by_ref<::UnityEngine::TextCore::NativeTextGenerationSettings> tgs,
-    ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links, ::UnityEngine::Color hyperlinkColor) {
+    /* [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links,
+    ::UnityEngine::Color hyperlinkColor) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),

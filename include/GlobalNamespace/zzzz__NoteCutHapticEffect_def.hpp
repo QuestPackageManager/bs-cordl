@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutHapticEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutHapticEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +66,7 @@ public:
   // @brief default ctor
   constexpr NoteCutHapticEffect_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NoteCutHapticEffect_Type(int32_t value__) noexcept;
 
   /// @brief Field ArcHead value: I32(5)
@@ -110,6 +110,7 @@ static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect_Type, value__) == 
 static_assert(sizeof(::GlobalNamespace::NoteCutHapticEffect_Type) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/NoteCutHapticEffect")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -215,41 +216,50 @@ protected:
   constexpr NoteCutHapticEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutHapticEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutHapticEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutHapticEffect(NoteCutHapticEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutHapticEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutHapticEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutHapticEffect(NoteCutHapticEffect const&) = delete;
+  NoteCutHapticEffect(NoteCutHapticEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5790 };
 
+  /// [SerializeField]
   /// @brief Field _normalPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____normalPreset;
 
+  /// [SerializeField]
   /// @brief Field _chainHeadPreset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____chainHeadPreset;
 
+  /// [SerializeField]
   /// @brief Field _chainLinkPreset, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____chainLinkPreset;
 
+  /// [SerializeField]
   /// @brief Field _bombPreset, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____bombPreset;
 
+  /// [SerializeField]
   /// @brief Field _badCutPreset, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____badCutPreset;
 
+  /// [SerializeField]
   /// @brief Field _arcHeadPreset, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____arcHeadPreset;
 
+  /// [SerializeField]
   /// @brief Field _arcTailPreset, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____arcTailPreset;
 
+  /// [SerializeField]
   /// @brief Field _arcHeadAndTailPreset, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____arcHeadAndTailPreset;
 
+  /// [Inject]
   /// @brief Field _hapticFeedbackManager, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirroredSliderController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirroredSliderController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,13 +61,13 @@ protected:
   constexpr MirroredSliderController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredSliderController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredSliderController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirroredSliderController_Pool(MirroredSliderController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredSliderController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredSliderController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredSliderController_Pool(MirroredSliderController_Pool const&) = delete;
+  MirroredSliderController_Pool(MirroredSliderController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5669 };
@@ -197,26 +197,30 @@ protected:
   constexpr MirroredSliderController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredSliderController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredSliderController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirroredSliderController(MirroredSliderController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirroredSliderController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirroredSliderController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirroredSliderController(MirroredSliderController const&) = delete;
+  MirroredSliderController(MirroredSliderControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5670 };
 
+  /// [SerializeField]
   /// @brief Field _meshFilter, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
+  /// [Inject]
   /// @brief Field _jumpOffsetYProvider, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IJumpOffsetYProvider* ____jumpOffsetYProvider;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 

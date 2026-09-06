@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipMetricType.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipMetricType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class SpaceshipMetricType;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipMetricType");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay::Events {
 // Is value type: false
@@ -124,6 +126,7 @@ public:
 
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* getStaticF_Social();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Value, addr 0x32655f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
@@ -167,17 +170,18 @@ protected:
   constexpr SpaceshipMetricType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipMetricType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipMetricType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpaceshipMetricType(SpaceshipMetricType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipMetricType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipMetricType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipMetricType(SpaceshipMetricType const&) = delete;
+  SpaceshipMetricType(SpaceshipMetricTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22281 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Value_k__BackingField;
 

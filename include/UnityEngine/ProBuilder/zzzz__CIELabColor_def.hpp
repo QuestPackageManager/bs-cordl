@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\CIELabColor.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/CIELabColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,13 +74,13 @@ protected:
   constexpr CIELabColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CIELabColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CIELabColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CIELabColor(CIELabColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CIELabColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CIELabColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CIELabColor(CIELabColor const&) = delete;
+  CIELabColor(CIELabColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16726 };

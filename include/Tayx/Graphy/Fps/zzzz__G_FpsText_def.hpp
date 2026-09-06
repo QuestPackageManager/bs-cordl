@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Fps\G_FpsText.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Fps/G_FpsText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -186,13 +186,13 @@ protected:
   constexpr G_FpsText();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsText", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsText", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_FpsText(G_FpsText&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsText", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsText", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_FpsText(G_FpsText const&) = delete;
+  G_FpsText(G_FpsTextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21502 };
@@ -200,21 +200,27 @@ public:
   /// @brief Field m_msStringFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString m_msStringFormat{ u"0.0" };
 
+  /// [SerializeField]
   /// @brief Field m_fpsText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_fpsText;
 
+  /// [SerializeField]
   /// @brief Field m_msText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_msText;
 
+  /// [SerializeField]
   /// @brief Field m_msTextGPU, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_msTextGPU;
 
+  /// [SerializeField]
   /// @brief Field m_avgFpsText, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_avgFpsText;
 
+  /// [SerializeField]
   /// @brief Field m_onePercentFpsText, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_onePercentFpsText;
 
+  /// [SerializeField]
   /// @brief Field m_zero1PercentFpsText, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_zero1PercentFpsText;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\TableViewWithVariableSizedCells.hpp"
+// IWYU pragma private; include "HMUI/TableViewWithVariableSizedCells.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class TableViewWithVariableSizedCells;
 // Write type traits
 MARK_REF_T(::HMUI::TableViewWithVariableSizedCells*);
 DEFINE_IL2CPP_CLASS(::HMUI::TableViewWithVariableSizedCells*, "HMUI", "TableViewWithVariableSizedCells");
+// [RequireComponent(typeof(HMUI.ScrollView))]
 // Dependencies HMUI.TableView
 namespace HMUI {
 // Is value type: false
@@ -80,13 +81,13 @@ protected:
   constexpr TableViewWithVariableSizedCells();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithVariableSizedCells", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithVariableSizedCells", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TableViewWithVariableSizedCells(TableViewWithVariableSizedCells&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithVariableSizedCells", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithVariableSizedCells", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TableViewWithVariableSizedCells(TableViewWithVariableSizedCells const&) = delete;
+  TableViewWithVariableSizedCells(TableViewWithVariableSizedCellsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19135 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\IRawAgreement.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IRawAgreement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,18 +25,18 @@ public:
   // Declarations
   __declspec(property(get = get_AgreementSize)) int32_t AgreementSize;
 
-  /// @brief Method CalculateAgreement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* publicKey, ::ArrayW<uint8_t> buf, int32_t off);
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AgreementSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_AgreementSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_AgreementSize();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRawAgreement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IRawAgreement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IRawAgreement(IRawAgreement const&) = delete;
+  IRawAgreement(IRawAgreementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 742 };

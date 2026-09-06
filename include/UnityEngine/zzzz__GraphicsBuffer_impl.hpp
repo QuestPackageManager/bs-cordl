@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GraphicsBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/GraphicsBuffer.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
@@ -10,7 +10,7 @@
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBufferHandle_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::GraphicsBuffer_Target::GraphicsBuffer_Target(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -26,7 +26,7 @@ constexpr ::UnityEngine::GraphicsBuffer_Target UnityEngine::GraphicsBuffer_Targe
 constexpr ::UnityEngine::GraphicsBuffer_Target UnityEngine::GraphicsBuffer_Target::Counter{ static_cast<int32_t>(0x80) };
 constexpr ::UnityEngine::GraphicsBuffer_Target UnityEngine::GraphicsBuffer_Target::IndirectArguments{ static_cast<int32_t>(0x100) };
 constexpr ::UnityEngine::GraphicsBuffer_Target UnityEngine::GraphicsBuffer_Target::Constant{ static_cast<int32_t>(0x200) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::GraphicsBuffer_UsageFlags::GraphicsBuffer_UsageFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -689,7 +689,9 @@ inline ::UnityEngine::GraphicsBufferHandle UnityEngine::GraphicsBuffer::get_buff
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GraphicsBuffer*>(), { "get_bufferHandle", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::GraphicsBufferHandle>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::GraphicsBuffer::SetData(::Unity::Collections::NativeArray_1<T> data) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::GraphicsBuffer::SetData(::Unity::Collections::NativeArray_1<T> data) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::GraphicsBuffer*>(), { "SetData", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
@@ -702,7 +704,9 @@ inline void UnityEngine::GraphicsBuffer::SetData(::System::Array* data, int32_t 
                                               { "SetData", {}, { ::i2c::type_of<::System::Array*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, managedBufferStartIndex, graphicsBufferStartIndex, count);
 }
-template <typename T> inline void UnityEngine::GraphicsBuffer::SetData(::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::GraphicsBuffer::SetData(::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -732,7 +736,9 @@ inline void* UnityEngine::GraphicsBuffer::BeginBufferWrite(int32_t offset, int32
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GraphicsBuffer*>(), { "BeginBufferWrite", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void*>(this, ___internal_method, offset, size);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::GraphicsBuffer::LockBufferForWrite(int32_t bufferStartIndex, int32_t count) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::GraphicsBuffer::LockBufferForWrite(int32_t bufferStartIndex, int32_t count) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::GraphicsBuffer*>(), { "LockBufferForWrite", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
@@ -743,7 +749,9 @@ inline void UnityEngine::GraphicsBuffer::EndBufferWrite(int32_t bytesWritten) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GraphicsBuffer*>(), { "EndBufferWrite", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bytesWritten);
 }
-template <typename T> inline void UnityEngine::GraphicsBuffer::UnlockBufferAfterWrite(int32_t countWritten) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::GraphicsBuffer::UnlockBufferAfterWrite(int32_t countWritten) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GraphicsBuffer*>(), { "UnlockBufferAfterWrite", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

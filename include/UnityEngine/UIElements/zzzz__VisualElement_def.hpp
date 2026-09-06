@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElement.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -296,13 +298,17 @@ namespace UnityEngine::UIElements {
 struct UsageHints;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlAssetAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+class UxmlAssetAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlIntAttributeDescription;
@@ -485,6 +491,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElement_UxmlTraits*, "Unity
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::VisualElement_VisualElementScheduledItem_1, "UnityEngine.UIElements", "VisualElement/VisualElementScheduledItem`1");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0*, "UnityEngine.UIElements", "VisualElement/<>c__DisplayClass516_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElement_Hierarchy, "UnityEngine.UIElements", "VisualElement/Hierarchy");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -503,13 +510,13 @@ protected:
   constexpr VisualElement_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement_UxmlFactory(VisualElement_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_UxmlFactory(VisualElement_UxmlFactory const&) = delete;
+  VisualElement_UxmlFactory(VisualElement_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4832 };
@@ -520,6 +527,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::VisualElement_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -670,9 +678,11 @@ public:
   /// @brief Method .ctor, addr 0x6c80b74, size 0x5a8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_focusIndex, addr 0x6c8073c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlIntAttributeDescription* get_focusIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_focusable, addr 0x6c80744, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription* get_focusable();
 
@@ -682,13 +692,13 @@ protected:
   constexpr VisualElement_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement_UxmlTraits(VisualElement_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_UxmlTraits(VisualElement_UxmlTraits const&) = delete;
+  VisualElement_UxmlTraits(VisualElement_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4833 };
@@ -711,12 +721,16 @@ public:
   /// @brief Field m_UsageHints, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::UsageHints>* ___m_UsageHints;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <focusIndex>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ____focusIndex_k__BackingField;
 
   /// @brief Field m_TabIndex, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_TabIndex;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <focusable>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ____focusable_k__BackingField;
 
@@ -799,7 +813,7 @@ public:
   // @brief default ctor
   constexpr VisualElement_MeasureMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualElement_MeasureMode(int32_t value__) noexcept;
 
   /// @brief Field AtMost value: I32(2)
@@ -859,7 +873,7 @@ public:
   // @brief default ctor
   constexpr VisualElement_RenderTargetMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualElement_RenderTargetMode(int32_t value__) noexcept;
 
   /// @brief Field GammaToLinear value: I32(3)
@@ -891,6 +905,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualElement_RenderTargetMode
 static_assert(sizeof(::UnityEngine::UIElements::VisualElement_RenderTargetMode) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -985,7 +1000,7 @@ public:
   // @brief default ctor
   constexpr VisualElement_Hierarchy();
 
-  // Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }]
   constexpr VisualElement_Hierarchy(::UnityEngine::UIElements::VisualElement* m_Owner) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1131,24 +1146,30 @@ public:
   /// @brief Method .ctor, addr 0x6c825f8, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* handler);
 
+  /// [CompilerGenerated]
   /// @brief Method get_element, addr 0x6c825c8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualElement* get_element();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isActive, addr 0x6c825d8, size 0x8, virtual true, abstract: false, final true
   inline bool get_isActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isDetaching, addr 0x6c825e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDetaching();
 
   /// @brief Convert to "::UnityEngine::UIElements::IVisualElementScheduledItem"
   constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* i___UnityEngine__UIElements__IVisualElementScheduledItem() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_element, addr 0x6c825d0, size 0x8, virtual false, abstract: false, final false
   inline void set_element(::UnityEngine::UIElements::VisualElement* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isActive, addr 0x6c825e0, size 0x8, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isDetaching, addr 0x6c825f0, size 0x8, virtual false, abstract: false, final false
   inline void set_isDetaching(bool value);
 
@@ -1158,26 +1179,32 @@ protected:
   constexpr VisualElement_BaseVisualElementScheduledItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_BaseVisualElementScheduledItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_BaseVisualElementScheduledItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement_BaseVisualElementScheduledItem(VisualElement_BaseVisualElementScheduledItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_BaseVisualElementScheduledItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_BaseVisualElementScheduledItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_BaseVisualElementScheduledItem(VisualElement_BaseVisualElementScheduledItem const&) = delete;
+  VisualElement_BaseVisualElementScheduledItem(VisualElement_BaseVisualElementScheduledItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4837 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <element>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____element_k__BackingField;
 
   /// @brief Field isScheduled, offset: 0x40, size: 0x1, def value: None
   bool ___isScheduled;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isActive>k__BackingField, offset: 0x41, size: 0x1, def value: None
   bool ____isActive_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isDetaching>k__BackingField, offset: 0x42, size: 0x1, def value: None
   bool ____isDetaching_k__BackingField;
 
@@ -1234,13 +1261,13 @@ protected:
   constexpr VisualElement_VisualElementScheduledItem_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_VisualElementScheduledItem_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_VisualElementScheduledItem_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement_VisualElementScheduledItem_1(VisualElement_VisualElementScheduledItem_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_VisualElementScheduledItem_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_VisualElementScheduledItem_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_VisualElementScheduledItem_1(VisualElement_VisualElementScheduledItem_1 const&) = delete;
+  VisualElement_VisualElementScheduledItem_1(VisualElement_VisualElementScheduledItem_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4838 };
@@ -1274,13 +1301,13 @@ protected:
   constexpr VisualElement_TimerStateScheduledItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TimerStateScheduledItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TimerStateScheduledItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement_TimerStateScheduledItem(VisualElement_TimerStateScheduledItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TimerStateScheduledItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TimerStateScheduledItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_TimerStateScheduledItem(VisualElement_TimerStateScheduledItem const&) = delete;
+  VisualElement_TimerStateScheduledItem(VisualElement_TimerStateScheduledItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4839 };
@@ -1312,13 +1339,13 @@ protected:
   constexpr VisualElement_SimpleScheduledItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_SimpleScheduledItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_SimpleScheduledItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement_SimpleScheduledItem(VisualElement_SimpleScheduledItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_SimpleScheduledItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_SimpleScheduledItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_SimpleScheduledItem(VisualElement_SimpleScheduledItem const&) = delete;
+  VisualElement_SimpleScheduledItem(VisualElement_SimpleScheduledItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4840 };
@@ -1403,13 +1430,13 @@ protected:
   constexpr VisualElement_CustomStyleAccess();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_CustomStyleAccess", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_CustomStyleAccess", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement_CustomStyleAccess(VisualElement_CustomStyleAccess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_CustomStyleAccess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_CustomStyleAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_CustomStyleAccess(VisualElement_CustomStyleAccess const&) = delete;
+  VisualElement_CustomStyleAccess(VisualElement_CustomStyleAccessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4841 };
@@ -1478,6 +1505,7 @@ public:
   /// @brief Method get_fullTypeName, addr 0x6c836c4, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_fullTypeName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_type, addr 0x6c836a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_type();
 
@@ -1490,17 +1518,19 @@ protected:
   constexpr VisualElement_TypeData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TypeData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TypeData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement_TypeData(VisualElement_TypeData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TypeData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement_TypeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement_TypeData(VisualElement_TypeData const&) = delete;
+  VisualElement_TypeData(VisualElement_TypeDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4842 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____type_k__BackingField;
 
@@ -1522,6 +1552,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualElement_TypeData, ___m_T
 static_assert(sizeof(::UnityEngine::UIElements::VisualElement_TypeData) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.UIElements.Experimental.StyleValues
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -1561,13 +1592,13 @@ protected:
   constexpr VisualElement___c__DisplayClass516_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement___c__DisplayClass516_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement___c__DisplayClass516_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement___c__DisplayClass516_0(VisualElement___c__DisplayClass516_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement___c__DisplayClass516_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement___c__DisplayClass516_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement___c__DisplayClass516_0(VisualElement___c__DisplayClass516_0 const&) = delete;
+  VisualElement___c__DisplayClass516_0(VisualElement___c__DisplayClass516_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4843 };
@@ -1588,6 +1619,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualElement___c__DisplayClas
 static_assert(sizeof(::UnityEngine::UIElements::VisualElement___c__DisplayClass516_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [DefaultMember("Item")]
 // Dependencies Unity.Profiling.ProfilerMarker, Unity.Properties.PropertyPath, UnityEngine.Matrix4x4, UnityEngine.PropertyName, UnityEngine.Rect, UnityEngine.UIElements.BindingId,
 // UnityEngine.UIElements.ComputedStyle, UnityEngine.UIElements.Focusable, UnityEngine.UIElements.LanguageDirection, UnityEngine.UIElements.Layout.LayoutNode, UnityEngine.UIElements.PickingMode,
 // UnityEngine.UIElements.PseudoStates, UnityEngine.UIElements.RenderHints, UnityEngine.UIElements.UIR.RenderChainVEData, UnityEngine.UIElements.VisualElement::Hierarchy,
@@ -1844,6 +1876,7 @@ public:
 
   __declspec(property(get = get_canGrabFocus)) bool canGrabFocus;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_childCount)) int32_t childCount;
 
   /// @brief Field childCountProperty, offset 0xffffffff, size 0x98
@@ -1857,6 +1890,7 @@ public:
 
   __declspec(property(get = get_contentContainer)) ::UnityEngine::UIElements::VisualElement* contentContainer;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_contentRect)) ::UnityEngine::Rect contentRect;
 
   /// @brief Field contentRectProperty, offset 0xffffffff, size 0x98
@@ -1867,8 +1901,10 @@ public:
 
   __declspec(property(get = get_customStyle)) ::UnityEngine::UIElements::ICustomStyle* customStyle;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_dataSource, put = set_dataSource)) ::System::Object* dataSource;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_dataSourcePath, put = set_dataSourcePath)) ::Unity::Properties::PropertyPath dataSourcePath;
 
   /// @brief Field dataSourcePathProperty, offset 0xffffffff, size 0x98
@@ -1884,6 +1920,7 @@ public:
 
   __declspec(property(get = get_disableClipping, put = set_disableClipping)) bool disableClipping;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_disablePlayModeTint, put = set_disablePlayModeTint)) bool disablePlayModeTint;
 
   /// @brief Field disablePlayModeTintProperty, offset 0xffffffff, size 0x98
@@ -1904,11 +1941,13 @@ public:
 
   __declspec(property(get = get_enableViewDataPersistence)) bool enableViewDataPersistence;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_enabledInHierarchy)) bool enabledInHierarchy;
 
   /// @brief Field enabledInHierarchyProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_enabledInHierarchyProperty, put = setStaticF_enabledInHierarchyProperty)) ::UnityEngine::UIElements::BindingId enabledInHierarchyProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_enabledSelf, put = set_enabledSelf)) bool enabledSelf;
 
   /// @brief Field enabledSelfProperty, offset 0xffffffff, size 0x98
@@ -1978,6 +2017,7 @@ public:
   /// @brief Field k_GenerateVisualContentMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_GenerateVisualContentMarker, put = setStaticF_k_GenerateVisualContentMarker)) ::Unity::Profiling::ProfilerMarker k_GenerateVisualContentMarker;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_languageDirection, put = set_languageDirection)) ::UnityEngine::UIElements::LanguageDirection languageDirection;
 
   /// @brief Field languageDirectionProperty, offset 0xffffffff, size 0x98
@@ -1989,6 +2029,7 @@ public:
   /// @brief Field lastPseudoPadding, offset 0x74, size 0x10
   __declspec(property(get = __cordl_internal_get_lastPseudoPadding, put = __cordl_internal_set_lastPseudoPadding)) ::UnityEngine::Rect lastPseudoPadding;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_layout, put = set_layout)) ::UnityEngine::Rect layout;
 
   __declspec(property(get = get_layoutNode)) ::UnityEngine::UIElements::Layout::LayoutNode layoutNode;
@@ -1996,6 +2037,7 @@ public:
   /// @brief Field layoutProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_layoutProperty, put = setStaticF_layoutProperty)) ::UnityEngine::UIElements::BindingId layoutProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_localBound)) ::UnityEngine::Rect localBound;
 
   /// @brief Field localBoundProperty, offset 0xffffffff, size 0x98
@@ -2134,6 +2176,7 @@ public:
   /// @brief Field m_defaultMaterial, offset 0x360, size 0x8
   __declspec(property(get = __cordl_internal_get_m_defaultMaterial, put = __cordl_internal_set_m_defaultMaterial)) ::UnityW<::UnityEngine::Material> m_defaultMaterial;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_name, put = set_name)) ::StringW name;
 
   /// @brief Field nameProperty, offset 0xffffffff, size 0x98
@@ -2145,6 +2188,7 @@ public:
 
   __declspec(property(get = get_paddingRect)) ::UnityEngine::Rect paddingRect;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_panel)) ::UnityEngine::UIElements::IPanel* panel;
 
   /// @brief Field panelProperty, offset 0xffffffff, size 0x98
@@ -2152,6 +2196,7 @@ public:
 
   __declspec(property(get = get_parent)) ::UnityEngine::UIElements::VisualElement* parent;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_pickingMode, put = set_pickingMode)) ::UnityEngine::UIElements::PickingMode pickingMode;
 
   /// @brief Field pickingModeProperty, offset 0xffffffff, size 0x98
@@ -2161,6 +2206,7 @@ public:
 
   __declspec(property(get = get_positionWithLayout)) ::UnityEngine::Vector3 positionWithLayout;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_pseudoStates, put = set_pseudoStates)) ::UnityEngine::UIElements::PseudoStates pseudoStates;
 
   __declspec(property(get = get_rect)) ::UnityEngine::Rect rect;
@@ -2172,6 +2218,7 @@ public:
 
   __declspec(property(get = get_requireMeasureFunction, put = set_requireMeasureFunction)) bool requireMeasureFunction;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_resolvedStyle)) ::UnityEngine::UIElements::IResolvedStyle* resolvedStyle;
 
   /// @brief Field resolvedStyleAccess, offset 0x490, size 0x8
@@ -2207,6 +2254,7 @@ public:
 
   __declspec(property(get = get_scaledPixelsPerPoint)) float_t scaledPixelsPerPoint;
 
+  /// @brief [Obsolete("scaledPixelsPerPoint_noChecks is deprecated. Use scaledPixelsPerPoint instead.")]
   __declspec(property(get = get_scaledPixelsPerPoint_noChecks)) float_t scaledPixelsPerPoint_noChecks;
 
   __declspec(property(get = get_schedule)) ::UnityEngine::UIElements::IVisualElementScheduler* schedule;
@@ -2214,6 +2262,7 @@ public:
   /// @brief Field shouldCutRenderChain, offset 0x1b8, size 0x1
   __declspec(property(get = __cordl_internal_get_shouldCutRenderChain, put = __cordl_internal_set_shouldCutRenderChain)) bool shouldCutRenderChain;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_style)) ::UnityEngine::UIElements::IStyle* style;
 
   __declspec(property(get = get_styleAnimation)) ::UnityEngine::UIElements::IStylePropertyAnimations* styleAnimation;
@@ -2224,6 +2273,7 @@ public:
   __declspec(property(get = __cordl_internal_get_styleSheetList,
                       put = __cordl_internal_set_styleSheetList)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* styleSheetList;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_styleSheets)) ::UnityEngine::UIElements::VisualElementStyleSheetSet styleSheets;
 
   /// @brief Field styleSheetsProperty, offset 0xffffffff, size 0x98
@@ -2231,6 +2281,7 @@ public:
 
   __declspec(property(get = get_subRenderTargetMode)) ::UnityEngine::UIElements::VisualElement_RenderTargetMode subRenderTargetMode;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_tooltip, put = set_tooltip)) ::StringW tooltip;
 
   /// @brief Field tooltipProperty, offset 0xffffffff, size 0x98
@@ -2251,11 +2302,13 @@ public:
   /// @brief Field uiRenderer, offset 0x1c0, size 0x8
   __declspec(property(get = __cordl_internal_get_uiRenderer, put = __cordl_internal_set_uiRenderer)) ::UnityW<::UnityEngine::UIElements::UIRenderer> uiRenderer;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_usageHints, put = set_usageHints)) ::UnityEngine::UIElements::UsageHints usageHints;
 
   /// @brief Field usageHintsProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_usageHintsProperty, put = setStaticF_usageHintsProperty)) ::UnityEngine::UIElements::BindingId usageHintsProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_userData, put = set_userData)) ::System::Object* userData;
 
   /// @brief Field userDataProperty, offset 0xffffffff, size 0x98
@@ -2267,21 +2320,25 @@ public:
   /// @brief Field variableContext, offset 0x330, size 0x8
   __declspec(property(get = __cordl_internal_get_variableContext, put = __cordl_internal_set_variableContext)) ::UnityEngine::UIElements::StyleVariableContext* variableContext;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_viewDataKey, put = set_viewDataKey)) ::StringW viewDataKey;
 
   /// @brief Field viewDataKeyProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_viewDataKeyProperty, put = setStaticF_viewDataKeyProperty)) ::UnityEngine::UIElements::BindingId viewDataKeyProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_visible, put = set_visible)) bool visible;
 
   /// @brief Field visibleProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_visibleProperty, put = setStaticF_visibleProperty)) ::UnityEngine::UIElements::BindingId visibleProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_visualTreeAssetSource, put = set_visualTreeAssetSource)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> visualTreeAssetSource;
 
   /// @brief Field visualTreeAssetSourceProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_visualTreeAssetSourceProperty, put = setStaticF_visualTreeAssetSourceProperty)) ::UnityEngine::UIElements::BindingId visualTreeAssetSourceProperty;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_worldBound)) ::UnityEngine::Rect worldBound;
 
   /// @brief Field worldBoundProperty, offset 0xffffffff, size 0x98
@@ -2295,6 +2352,7 @@ public:
 
   __declspec(property(get = get_worldClipMinusGroup)) ::UnityEngine::Rect worldClipMinusGroup;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_worldTransform)) ::UnityEngine::Matrix4x4 worldTransform;
 
   __declspec(property(get = get_worldTransformInverse)) ::UnityEngine::Matrix4x4 worldTransformInverse;
@@ -2438,14 +2496,20 @@ public:
   inline ::System::Collections::Generic::List_1<::StringW>* GetClassesForIteration();
 
   /// @brief Method GetFirstAncestorOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetFirstAncestorOfType();
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline T GetFirstAncestorOfType();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetFirstAncestorWhere, addr 0x6c7d8f0, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetFirstAncestorWhere(::System::Predicate_1<::UnityEngine::UIElements::VisualElement*>* predicate);
 
   /// @brief Method GetFirstOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetFirstOfType();
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline T GetFirstOfType();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetFullHierarchicalViewDataKey, addr 0x6c785b4, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetFullHierarchicalViewDataKey();
 
@@ -2456,7 +2520,9 @@ public:
   inline ::UnityEngine::UIElements::VisualElement* GetNextElementDepthFirst();
 
   /// @brief Method GetOrCreateViewData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetOrCreateViewData(::System::Object* existing, ::StringW key);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T GetOrCreateViewData(::System::Object* existing, ::StringW key);
 
   /// @brief Method GetParentSizeForLengthConversion, addr 0x6c7159c, size 0x324, virtual false, abstract: false, final false
   inline ::System::Nullable_1<float_t> GetParentSizeForLengthConversion(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, int32_t subPropertyIndex);
@@ -2467,18 +2533,22 @@ public:
   /// @brief Method GetPreviousElementDepthFirst, addr 0x6c7dc60, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetPreviousElementDepthFirst();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetProperty, addr 0x6c79194, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Object* GetProperty(::UnityEngine::PropertyName key);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetRoot, addr 0x6c7da68, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetRoot();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetRootVisualContainer, addr 0x6c7db20, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetRootVisualContainer();
 
   /// @brief Method GetStylePropertyAnimationSystem, addr 0x6c6fbc4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IStylePropertyAnimationSystem* GetStylePropertyAnimationSystem();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method GetTooltipRect, addr 0x6c76308, size 0x4, virtual true, abstract: false, final false
   inline ::UnityEngine::Rect GetTooltipRect();
 
@@ -2500,6 +2570,7 @@ public:
   /// @brief Method HasParentEventInterests, addr 0x6c7cc64, size 0x1c, virtual false, abstract: false, final false
   inline bool HasParentEventInterests(::UnityEngine::UIElements::EventCategory eventCategory);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method HasProperty, addr 0x6c793fc, size 0xa8, virtual false, abstract: false, final false
   inline bool HasProperty(::UnityEngine::PropertyName key);
 
@@ -2518,6 +2589,7 @@ public:
   /// @brief Method HasTrickleDownHandleEvent, addr 0x6c7ccfc, size 0x10, virtual false, abstract: false, final false
   inline bool HasTrickleDownHandleEvent(int32_t eventCategories);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method IncrementVersion, addr 0x6c71b1c, size 0x28, virtual false, abstract: false, final false
   inline void IncrementVersion(::UnityEngine::UIElements::VersionChangeType changeType);
 
@@ -2535,7 +2607,7 @@ public:
                                      ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::VisualElement*>* additionalContext);
 
   /// @brief Method IsPartOfCapturedChain, addr 0x6c757fc, size 0xbc, virtual false, abstract: false, final false
-  static inline bool IsPartOfCapturedChain(::UnityEngine::UIElements::VisualElement* self, ::by_ref<::UnityEngine::UIElements::IEventHandler*> capturingElement);
+  static inline bool IsPartOfCapturedChain(::UnityEngine::UIElements::VisualElement* self, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::IEventHandler*> capturingElement);
 
   /// @brief Method MarkDirtyRepaint, addr 0x6c782d8, size 0x24, virtual false, abstract: false, final false
   inline void MarkDirtyRepaint();
@@ -2565,6 +2637,7 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElement* New_ctor();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method OnViewDataReady, addr 0x6c789cc, size 0x4, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
@@ -2574,6 +2647,7 @@ public:
   /// @brief Method OrderMinMaxRect, addr 0x6c7e978, size 0x44, virtual false, abstract: false, final false
   static inline void OrderMinMaxRect(::by_ref<::UnityEngine::Rect> rect);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method OverwriteFromViewData, addr 0x6c7862c, size 0x324, virtual false, abstract: false, final false
   inline void OverwriteFromViewData(::System::Object* obj, ::StringW key);
 
@@ -2628,6 +2702,7 @@ public:
   /// @brief Method RetargetElement, addr 0x6c7dd48, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* RetargetElement(::UnityEngine::UIElements::VisualElement* retargetAgainst);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method SaveViewData, addr 0x6c78950, size 0x7c, virtual false, abstract: false, final false
   inline void SaveViewData();
 
@@ -2658,6 +2733,7 @@ public:
   /// @brief Method SetPanel, addr 0x6c764c4, size 0x954, virtual false, abstract: false, final false
   inline void SetPanel(::UnityEngine::UIElements::BaseVisualElementPanel* p);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method SetProperty, addr 0x6c79384, size 0x78, virtual false, abstract: false, final false
   inline void SetProperty(::UnityEngine::PropertyName key, ::System::Object* value);
 
@@ -3047,15 +3123,19 @@ public:
   /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.UpdateAnimation, addr 0x6c71174, size 0xd4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStylePropertyAnimations_UpdateAnimation(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.get_completedAnimationCount, addr 0x6c6fbb4, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_UIElements_IStylePropertyAnimations_get_completedAnimationCount();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.get_runningAnimationCount, addr 0x6c6fba4, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_UIElements_IStylePropertyAnimations_get_runningAnimationCount();
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.set_completedAnimationCount, addr 0x6c6fbbc, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStylePropertyAnimations_set_completedAnimationCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method UnityEngine.UIElements.IStylePropertyAnimations.set_runningAnimationCount, addr 0x6c6fbac, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStylePropertyAnimations_set_runningAnimationCount(int32_t value);
 
@@ -3116,6 +3196,7 @@ public:
   /// @brief Method WillChangePanel, addr 0x6c76f20, size 0x1f8, virtual false, abstract: false, final false
   inline void WillChangePanel(::UnityEngine::UIElements::BaseVisualElementPanel* destinationPanel);
 
+  /// [CompilerGenerated]
   /// @brief Method <CalculateConservativeBounds>g__IsNaN|724_0, addr 0x6c7e9bc, size 0x48, virtual false, abstract: false, final false
   static inline bool _CalculateConservativeBounds_g__IsNaN_724_0(::UnityEngine::Vector3 v);
 
@@ -3518,9 +3599,11 @@ public:
   /// @brief Method .ctor, addr 0x6c75d98, size 0x350, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_elementAdded, addr 0x6c7cdc0, size 0xc0, virtual false, abstract: false, final false
   inline void add_elementAdded(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_elementRemoved, addr 0x6c7cf40, size 0xc0, virtual false, abstract: false, final false
   inline void add_elementRemoved(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value);
 
@@ -3612,12 +3695,15 @@ public:
   /// @brief Method get_childCount, addr 0x6c7d380, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_childCount();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_classList, addr 0x6c75ae4, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_classList();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_computedStyle, addr 0x6c6b10c, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::ComputedStyle> get_computedStyle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_containedPointerIds, addr 0x6c756e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_containedPointerIds();
 
@@ -3648,6 +3734,8 @@ public:
   /// @brief Method get_disableRendering, addr 0x6c7cd68, size 0xc, virtual false, abstract: false, final false
   inline bool get_disableRendering();
 
+  /// [CompilerGenerated]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_elementPanel, addr 0x6c7d0c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_elementPanel();
 
@@ -3669,9 +3757,11 @@ public:
   /// @brief Method get_focusController, addr 0x6c72084, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_fullTypeName, addr 0x6c75ba4, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_fullTypeName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_generateVisualContent, addr 0x6c782fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<Il2CppObject*>* get_generateVisualContent();
 
@@ -3696,6 +3786,7 @@ public:
   /// @brief Method get_hasRunningAnimations, addr 0x6c6fa40, size 0xb0, virtual false, abstract: false, final false
   inline bool get_hasRunningAnimations();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hierarchy, addr 0x6c7cd24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement_Hierarchy get_hierarchy();
 
@@ -3717,6 +3808,7 @@ public:
   /// @brief Method get_isParentEnabledInHierarchy, addr 0x6c77b68, size 0x30, virtual false, abstract: false, final false
   inline bool get_isParentEnabledInHierarchy();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isRootVisualContainer, addr 0x6c7cd2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isRootVisualContainer();
 
@@ -3780,6 +3872,7 @@ public:
   /// @brief Method get_pseudoStates, addr 0x6c7565c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PseudoStates get_pseudoStates();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_rect, addr 0x6c73874, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rect();
 
@@ -3825,6 +3918,7 @@ public:
   /// @brief Method get_typeData, addr 0x6c75bc0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement_TypeData* get_typeData();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_typeName, addr 0x6c75d10, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_typeName();
 
@@ -3849,6 +3943,7 @@ public:
   /// @brief Method get_worldBoundingBox, addr 0x6c73c0c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_worldBoundingBox();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_worldClip, addr 0x6c74aac, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_worldClip();
 
@@ -3885,9 +3980,11 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IVisualElementScheduler"
   constexpr ::UnityEngine::UIElements::IVisualElementScheduler* i___UnityEngine__UIElements__IVisualElementScheduler() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_elementAdded, addr 0x6c7ce80, size 0xc0, virtual false, abstract: false, final false
   inline void remove_elementAdded(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_elementRemoved, addr 0x6c7d000, size 0xc0, virtual false, abstract: false, final false
   inline void remove_elementRemoved(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value);
 
@@ -3964,6 +4061,7 @@ public:
   /// @brief Method set_areAncestorsAndSelfDisplayed, addr 0x6c71ab8, size 0x64, virtual false, abstract: false, final false
   inline void set_areAncestorsAndSelfDisplayed(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_containedPointerIds, addr 0x6c756f0, size 0x8, virtual false, abstract: false, final false
   inline void set_containedPointerIds(int32_t value);
 
@@ -3982,12 +4080,14 @@ public:
   /// @brief Method set_disableRendering, addr 0x6c7cd74, size 0x4c, virtual false, abstract: false, final false
   inline void set_disableRendering(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_elementPanel, addr 0x6c7d0c8, size 0x8, virtual false, abstract: false, final false
   inline void set_elementPanel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
   /// @brief Method set_enabledSelf, addr 0x6c760e8, size 0xa4, virtual false, abstract: false, final false
   inline void set_enabledSelf(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_generateVisualContent, addr 0x6c78304, size 0x8, virtual false, abstract: false, final false
   inline void set_generateVisualContent(::System::Action_1<Il2CppObject*>* value);
 
@@ -4006,6 +4106,7 @@ public:
   /// @brief Method set_isLocalBounds3DDirty, addr 0x6c738a4, size 0x20, virtual false, abstract: false, final false
   inline void set_isLocalBounds3DDirty(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isRootVisualContainer, addr 0x6c7cd34, size 0x8, virtual false, abstract: false, final false
   inline void set_isRootVisualContainer(bool value);
 
@@ -4072,13 +4173,13 @@ protected:
   constexpr VisualElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElement(VisualElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElement(VisualElement const&) = delete;
+  VisualElement(VisualElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4844 };
@@ -4092,9 +4193,13 @@ public:
   /// @brief Field worldTransformInverseDirtyDependencies value: I32(3)
   static ::UnityEngine::UIElements::VisualElementFlags const worldTransformInverseDirtyDependencies;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.UIElements.IStylePropertyAnimations.runningAnimationCount>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____UnityEngine_UIElements_IStylePropertyAnimations_runningAnimationCount_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <UnityEngine.UIElements.IStylePropertyAnimations.completedAnimationCount>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____UnityEngine_UIElements_IStylePropertyAnimations_completedAnimationCount_k__BackingField;
 
@@ -4164,6 +4269,8 @@ public:
   /// @brief Field m_PseudoStates, offset: 0x2a4, size: 0x4, def value: None
   ::UnityEngine::UIElements::PseudoStates ___m_PseudoStates;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <containedPointerIds>k__BackingField, offset: 0x2a8, size: 0x4, def value: None
   int32_t ____containedPointerIds_k__BackingField;
 
@@ -4176,6 +4283,7 @@ public:
   /// @brief Field m_Style, offset: 0x2e0, size: 0x50, def value: None
   ::UnityEngine::UIElements::ComputedStyle ___m_Style;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field variableContext, offset: 0x330, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleVariableContext* ___variableContext;
 
@@ -4197,6 +4305,8 @@ public:
   /// @brief Field m_LocalLanguageDirection, offset: 0x34c, size: 0x4, def value: None
   ::UnityEngine::UIElements::LanguageDirection ___m_LocalLanguageDirection;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <generateVisualContent>k__BackingField, offset: 0x350, size: 0x8, def value: None
   ::System::Action_1<Il2CppObject*>* ____generateVisualContent_k__BackingField;
 
@@ -4218,6 +4328,8 @@ public:
   /// @brief Field m_Bindings, offset: 0x408, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Binding*>* ___m_Bindings;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <dataSourceType>k__BackingField, offset: 0x410, size: 0x8, def value: None
   ::System::Type* ____dataSourceType_k__BackingField;
 
@@ -4248,12 +4360,18 @@ public:
   /// @brief Field m_CachedNextParentWithEventInterests, offset: 0x438, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_CachedNextParentWithEventInterests;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <hierarchy>k__BackingField, offset: 0x440, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement_Hierarchy ____hierarchy_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <isRootVisualContainer>k__BackingField, offset: 0x448, size: 0x1, def value: None
   bool ____isRootVisualContainer_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <cacheAsBitmap>k__BackingField, offset: 0x449, size: 0x1, def value: None
   bool ____cacheAsBitmap_k__BackingField;
 
@@ -4263,15 +4381,21 @@ public:
   /// @brief Field m_LogicalParent, offset: 0x458, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_LogicalParent;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field elementAdded, offset: 0x460, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* ___elementAdded;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field elementRemoved, offset: 0x468, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* ___elementRemoved;
 
   /// @brief Field m_Children, offset: 0x470, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* ___m_Children;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <elementPanel>k__BackingField, offset: 0x478, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseVisualElementPanel* ____elementPanel_k__BackingField;
 
@@ -4284,6 +4408,7 @@ public:
   /// @brief Field resolvedStyleAccess, offset: 0x490, size: 0x8, def value: None
   ::UnityEngine::UIElements::ResolvedStyleAccess* ___resolvedStyleAccess;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field styleSheetList, offset: 0x498, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ___styleSheetList;
 

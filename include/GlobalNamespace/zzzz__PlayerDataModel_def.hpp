@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerDataModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerDataModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::GlobalNamespace::PlayerDataModel*);
 MARK_VAL_T(::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerDataModel*, "", "PlayerDataModel");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12, "", "PlayerDataModel/<UndoUnsavedChangesAsync>d__12");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -53,6 +54,7 @@ public:
   /// @brief Method MoveNext, addr 0x374da70, size 0x240, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x374dcb0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -63,9 +65,10 @@ public:
   // @brief default ctor
   constexpr PlayerDataModel__UndoUnsavedChangesAsync_d__12();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*>", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr PlayerDataModel__UndoUnsavedChangesAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                            ::UnityW<::GlobalNamespace::PlayerDataModel> __4__this,
                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*> __u__1) noexcept;
@@ -85,6 +88,7 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> __4__this;
 
+  /// [Nullable(new[] { 0, 1 })]
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*> __u__1;
 
@@ -130,8 +134,10 @@ public:
   /// @brief Method FireAsyncSaveAndForget, addr 0x374d9e4, size 0x80, virtual false, abstract: false, final false
   inline void FireAsyncSaveAndForget();
 
+  /// [Inject]
+  /// [UsedImplicitly]
   /// @brief Method Inject, addr 0x374d7d8, size 0x28, virtual false, abstract: false, final false
-  inline void Inject(::StringW playerDataJsonString, ::GlobalNamespace::PlayerDataFileModel* playerDataFileModel);
+  inline void Inject(/* [Inject(Id = "SavedPlayerData")] */ ::StringW playerDataJsonString, ::GlobalNamespace::PlayerDataFileModel* playerDataFileModel);
 
   static inline ::GlobalNamespace::PlayerDataModel* New_ctor();
 
@@ -150,6 +156,7 @@ public:
   /// @brief Method SaveAsync, addr 0x374d9c8, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
+  /// [AsyncStateMachine(typeof(PlayerDataModel::<UndoUnsavedChangesAsync>d__12))]
   /// @brief Method UndoUnsavedChangesAsync, addr 0x374d918, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UndoUnsavedChangesAsync();
 
@@ -189,13 +196,13 @@ protected:
   constexpr PlayerDataModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerDataModel(PlayerDataModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerDataModel(PlayerDataModel const&) = delete;
+  PlayerDataModel(PlayerDataModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15167 };

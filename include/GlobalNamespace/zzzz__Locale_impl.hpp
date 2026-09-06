@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Locale.hpp"
+// IWYU pragma private; include "GlobalNamespace/Locale.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Locale_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -32,7 +32,7 @@ inline ::StringW GlobalNamespace::Locale::GetText(::StringW msg) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Locale*>(), { "GetText", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, msg);
 }
-inline ::StringW GlobalNamespace::Locale::GetText(::StringW fmt, ::ArrayW<::System::Object*> args) {
+inline ::StringW GlobalNamespace::Locale::GetText(::StringW fmt, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Locale*>(), { "GetText", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, fmt, args);

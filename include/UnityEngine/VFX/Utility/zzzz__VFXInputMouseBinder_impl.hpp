@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXInputMouseBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXInputMouseBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXInputMouseBinder_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_TouchPadMove_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_TouchPadMove_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,10 @@ public:
   // @brief default ctor
   constexpr VREvent_TouchPadMove_t();
 
-  // Ctor Parameters [CppParam { name: "bFingerDown", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "flSecondsFingerDown", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "fValueXFirst", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fValueYFirst", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fValueXRaw", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "fValueYRaw", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bFingerDown", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "flSecondsFingerDown", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "fValueXFirst", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fValueYFirst", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "fValueXRaw", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fValueYRaw", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr VREvent_TouchPadMove_t(bool bFingerDown, float_t flSecondsFingerDown, float_t fValueXFirst, float_t fValueYFirst, float_t fValueXRaw, float_t fValueYRaw) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

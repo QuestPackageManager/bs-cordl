@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Texture.hpp"
+// IWYU pragma private; include "UnityEngine/Texture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,9 @@ class Texture;
 // Write type traits
 MARK_REF_T(::UnityEngine::Texture*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Texture*, "UnityEngine", "Texture");
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Streaming/TextureStreamingManager.h")]
+// [NativeHeader("Runtime/Graphics/Texture.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -95,18 +98,21 @@ public:
   /// @brief Method CreateNonReadableException, addr 0x6ab7030, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::UnityException* CreateNonReadableException(::UnityEngine::Texture* t);
 
+  /// [ThreadSafe]
   /// @brief Method GetDataHeight, addr 0x6ab564c, size 0xa8, virtual false, abstract: false, final false
   inline int32_t GetDataHeight();
 
   /// @brief Method GetDataHeight_Injected, addr 0x6ab56f4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetDataHeight_Injected(::System::IntPtr _unity_self);
 
+  /// [ThreadSafe]
   /// @brief Method GetDataWidth, addr 0x6ab5568, size 0xa8, virtual false, abstract: false, final false
   inline int32_t GetDataWidth();
 
   /// @brief Method GetDataWidth_Injected, addr 0x6ab5610, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetDataWidth_Injected(::System::IntPtr _unity_self);
 
+  /// [ThreadSafe]
   /// @brief Method GetDimension, addr 0x6ab5730, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::TextureDimension GetDimension();
 
@@ -146,6 +152,7 @@ public:
   /// @brief Method IncrementUpdateCount_Injected, addr 0x6ab679c, size 0x3c, virtual false, abstract: false, final false
   static inline void IncrementUpdateCount_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("GetActiveTextureColorSpace")]
   /// @brief Method Internal_GetActiveTextureColorSpace, addr 0x6ab67d8, size 0xa8, virtual false, abstract: false, final false
   inline int32_t Internal_GetActiveTextureColorSpace();
 
@@ -157,6 +164,7 @@ public:
   /// @brief Method SetStreamingTextureMaterialDebugProperties, addr 0x6ab6910, size 0x78, virtual false, abstract: false, final false
   static inline void SetStreamingTextureMaterialDebugProperties(int32_t materialTextureSlot);
 
+  /// [FreeFunction("GetTextureStreamingManager().SetStreamingTextureMaterialDebugPropertiesWithSlot")]
   /// @brief Method SetStreamingTextureMaterialDebugPropertiesWithSlot, addr 0x6ab68d4, size 0x3c, virtual false, abstract: false, final false
   static inline void SetStreamingTextureMaterialDebugPropertiesWithSlot(int32_t materialTextureSlot);
 
@@ -171,6 +179,7 @@ public:
 
   static inline int32_t getStaticF_GenerateAllMips();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule", "Unity.UIElements" })]
   /// @brief Method get_activeTextureColorSpace, addr 0x6ab68bc, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ColorSpace get_activeTextureColorSpace();
 
@@ -207,15 +216,18 @@ public:
   /// @brief Method get_mipMapBias_Injected, addr 0x6ab62e8, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_mipMapBias_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("GetMipmapCount")]
   /// @brief Method get_mipmapCount, addr 0x6ab5428, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_mipmapCount();
 
   /// @brief Method get_mipmapCount_Injected, addr 0x6ab54d0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_mipmapCount_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().GetDiscardUnusedMips")]
   /// @brief Method get_streamingTextureDiscardUnusedMips, addr 0x6ab6988, size 0x28, virtual false, abstract: false, final false
   static inline bool get_streamingTextureDiscardUnusedMips();
 
+  /// [NativeName("GetTexelSize")]
   /// @brief Method get_texelSize, addr 0x6ab6428, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_texelSize();
 
@@ -231,6 +243,7 @@ public:
   /// @brief Method get_width, addr 0x6ab5814, size 0x4, virtual true, abstract: false, final false
   inline int32_t get_width();
 
+  /// [NativeName("GetWrapModeU")]
   /// @brief Method get_wrapMode, addr 0x6ab59ac, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureWrapMode get_wrapMode();
 
@@ -263,6 +276,7 @@ public:
   /// @brief Method set_mipMapBias_Injected, addr 0x6ab63dc, size 0x4c, virtual false, abstract: false, final false
   static inline void set_mipMapBias_Injected(::System::IntPtr _unity_self, float_t value);
 
+  /// [FreeFunction(Name = "GetTextureStreamingManager().SetDiscardUnusedMips")]
   /// @brief Method set_streamingTextureDiscardUnusedMips, addr 0x6ab69b0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_streamingTextureDiscardUnusedMips(bool value);
 
@@ -299,13 +313,13 @@ protected:
   constexpr Texture();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Texture", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Texture", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Texture(Texture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Texture", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Texture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Texture(Texture const&) = delete;
+  Texture(Textureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10222 };

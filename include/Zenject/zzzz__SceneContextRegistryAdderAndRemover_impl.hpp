@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SceneContextRegistryAdderAndRemover.hpp"
+// IWYU pragma private; include "Zenject/SceneContextRegistryAdderAndRemover.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SceneContextRegistryAdderAndRemover_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"

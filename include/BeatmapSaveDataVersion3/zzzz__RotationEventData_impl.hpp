@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\RotationEventData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/RotationEventData.hpp"
 #include "BeatmapSaveDataCommon/zzzz__ExecutionTime_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__RotationEventData_def.hpp"

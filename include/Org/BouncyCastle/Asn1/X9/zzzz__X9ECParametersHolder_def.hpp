@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X9ECParametersHolder.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9ECParametersHolder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
   /// @brief Field parameters, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Asn1::X9::X9ECParameters* parameters;
 
-  /// @brief Method CreateParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* New_ctor();
@@ -50,13 +50,13 @@ protected:
   constexpr X9ECParametersHolder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X9ECParametersHolder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X9ECParametersHolder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X9ECParametersHolder(X9ECParametersHolder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X9ECParametersHolder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X9ECParametersHolder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X9ECParametersHolder(X9ECParametersHolder const&) = delete;
+  X9ECParametersHolder(X9ECParametersHolderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3 };

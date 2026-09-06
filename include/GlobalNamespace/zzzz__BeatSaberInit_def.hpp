@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberInit.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberInit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::GlobalNamespace::BeatSaberInit*);
 MARK_VAL_T(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatSaberInit*, "", "BeatSaberInit");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13, "", "BeatSaberInit/<TransitionToNextSceneAsync>d__13");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -63,6 +64,7 @@ public:
   /// @brief Method MoveNext, addr 0x376fc88, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x376fe74, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -73,9 +75,9 @@ public:
   // @brief default ctor
   constexpr BeatSaberInit__TransitionToNextSceneAsync_d__13();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::BeatSaberInit>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::BeatSaberInit>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr BeatSaberInit__TransitionToNextSceneAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                             ::UnityW<::GlobalNamespace::BeatSaberInit> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -158,6 +160,7 @@ public:
   /// @brief Method RepeatableSetupAsync, addr 0x376d2e4, size 0x11c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
+  /// [AsyncStateMachine(typeof(BeatSaberInit::<TransitionToNextSceneAsync>d__13))]
   /// @brief Method TransitionToNextSceneAsync, addr 0x376d880, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* TransitionToNextSceneAsync();
 
@@ -209,13 +212,13 @@ protected:
   constexpr BeatSaberInit();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberInit", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberInit", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatSaberInit(BeatSaberInit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberInit", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberInit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberInit(BeatSaberInit const&) = delete;
+  BeatSaberInit(BeatSaberInitconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21004 };
@@ -229,18 +232,22 @@ public:
   /// @brief Field kMissingOpenXRRuntimeErrorTitle offset 0xffffffff size 0x8
   static constexpr ::ConstString kMissingOpenXRRuntimeErrorTitle{ u"TITLE_MISSING_OPEN_XR_RUNTIME_ERROR" };
 
+  /// [SerializeField]
   /// @brief Field _mainSystemInit, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 
+  /// [SerializeField]
   /// @brief Field _questSettingsApplicator, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____questSettingsApplicator;
 
+  /// [SerializeField]
   /// @brief Field _standaloneSettingsApplicator, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____standaloneSettingsApplicator;
 
   /// @brief Field _initialDestinationController, offset: 0x58, size: 0x8, def value: None
   ::BeatSaber::Destinations::InitialDestinationController* ____initialDestinationController;
 
+  /// [Inject]
   /// @brief Field _telemetryModel, offset: 0x60, size: 0x8, def value: None
   ::Analytics::Model::TelemetryModel* ____telemetryModel;
 

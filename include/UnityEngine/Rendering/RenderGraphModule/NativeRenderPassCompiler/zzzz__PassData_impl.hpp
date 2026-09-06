@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassData.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassMergeState_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphPassType_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassData_def.hpp"
@@ -272,14 +272,16 @@ inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Na
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(), { "GetName", {}, { ::i2c::type_of<Il2CppObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name>(*this, ___internal_method, ctx);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::_ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass, int32_t passIndex) {
+inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass,
+                                                                                                 int32_t passIndex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, pass, passIndex);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::ResetAndInitialize(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass,
-                                                                                                              int32_t passIndex) {
+inline void
+UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::ResetAndInitialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass,
+                                                                                                  int32_t passIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
                                               { "ResetAndInitialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>>(), ::i2c::type_of<int32_t>() } })));
@@ -373,23 +375,26 @@ inline bool UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
                                               { "IsUsedAsFragment", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), ::i2c::type_of<Il2CppObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, h, ctx);
 }
-// Ctor Parameters [CppParam { name: "passId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "hasFoveatedRasterization", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "tag", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "mergeState", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassMergeState", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "nativePassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nativeSubPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "firstInput", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "numInputs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstOutput", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "numOutputs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstFragment", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "numFragments", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstFragmentInput", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "numFragmentInputs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstRandomAccessResource", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "numRandomAccessResources", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstCreate", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "numCreated", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstDestroy", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "numDestroyed", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fragmentInfoWidth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "fragmentInfoHeight", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fragmentInfoVolumeDepth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "fragmentInfoSamples", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "waitOnGraphicsFencePassId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "asyncCompute", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "hasSideEffects", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "culled", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "beginNativeSubpass", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "fragmentInfoValid", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "fragmentInfoHasDepth", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "insertGraphicsFence", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "passId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hasFoveatedRasterization", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mergeState", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassMergeState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nativePassIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nativeSubPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstInput",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "numInputs", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "firstOutput", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "numOutputs", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "firstFragment", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "numFragments", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "firstFragmentInput", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "numFragmentInputs", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "firstRandomAccessResource", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "numRandomAccessResources", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstCreate", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "numCreated", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "firstDestroy", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "numDestroyed", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fragmentInfoWidth", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "fragmentInfoHeight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fragmentInfoVolumeDepth", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "fragmentInfoSamples", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "waitOnGraphicsFencePassId", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "asyncCompute", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "hasSideEffects", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "culled", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "beginNativeSubpass", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fragmentInfoValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "fragmentInfoHasDepth", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "insertGraphicsFence", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::PassData(
     int32_t passId, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPassType type, bool hasFoveatedRasterization, int32_t tag,
     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassMergeState mergeState, int32_t nativePassIndex, int32_t nativeSubPassIndex, int32_t firstInput, int32_t numInputs,

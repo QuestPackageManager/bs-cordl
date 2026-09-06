@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGrabber.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGrabber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,8 @@ class OVRGrabber;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRGrabber*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRGrabber*, "", "OVRGrabber");
+// [RequireComponent(typeof(UnityEngine.Rigidbody))]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-sf-customhands/")]
 // Dependencies OVRInput::Controller, UnityEngine.Collider, UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -163,6 +165,7 @@ public:
   /// @brief Method Update, addr 0x5efc7c0, size 0x10, virtual true, abstract: false, final false
   inline void Update();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__23_0, addr 0x5efd904, size 0x4, virtual false, abstract: false, final false
   inline void _Awake_b__23_0(::GlobalNamespace::OVRCameraRig* r);
 
@@ -298,13 +301,13 @@ protected:
   constexpr OVRGrabber();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGrabber", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGrabber", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGrabber(OVRGrabber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGrabber", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGrabber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGrabber(OVRGrabber const&) = delete;
+  OVRGrabber(OVRGrabberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7915 };
@@ -315,24 +318,31 @@ public:
   /// @brief Field grabEnd, offset: 0x24, size: 0x4, def value: None
   float_t ___grabEnd;
 
+  /// [SerializeField]
   /// @brief Field m_parentHeldObject, offset: 0x28, size: 0x1, def value: None
   bool ___m_parentHeldObject;
 
+  /// [SerializeField]
   /// @brief Field m_moveHandPosition, offset: 0x29, size: 0x1, def value: None
   bool ___m_moveHandPosition;
 
+  /// [SerializeField]
   /// @brief Field m_gripTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___m_gripTransform;
 
+  /// [SerializeField]
   /// @brief Field m_grabVolumes, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Collider>> ___m_grabVolumes;
 
+  /// [SerializeField]
   /// @brief Field m_controller, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_Controller ___m_controller;
 
+  /// [SerializeField]
   /// @brief Field m_parentTransform, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___m_parentTransform;
 
+  /// [SerializeField]
   /// @brief Field m_player, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_player;
 

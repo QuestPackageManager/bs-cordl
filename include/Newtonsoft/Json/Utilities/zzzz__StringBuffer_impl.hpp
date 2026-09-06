@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\StringBuffer.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringBuffer.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringBuffer_def.hpp"
 #include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::StringBuffer.get_Position
@@ -196,7 +196,8 @@ inline void Newtonsoft::Json::Utilities::StringBuffer::Append(::Newtonsoft::Json
                                                            { "Append", {}, { ::i2c::type_of<::Newtonsoft::Json::IArrayPool_1<char16_t>*>(), ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, bufferPool, value);
 }
-inline void Newtonsoft::Json::Utilities::StringBuffer::Append(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t> buffer, int32_t startIndex, int32_t count) {
+inline void Newtonsoft::Json::Utilities::StringBuffer::Append(/* [Nullable(2)] */ ::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t> buffer, int32_t startIndex,
+                                                              int32_t count) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -229,7 +230,8 @@ inline ::ArrayW<char16_t> Newtonsoft::Json::Utilities::StringBuffer::get_Interna
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringBuffer>(), { "get_InternalBuffer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<char16_t>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_buffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_position", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_buffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_position", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Utilities::StringBuffer::StringBuffer(::ArrayW<char16_t> _buffer, int32_t _position) noexcept {
   this->_buffer = _buffer;
   this->_position = _position;

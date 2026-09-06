@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\FontData.hpp"
+// IWYU pragma private; include "UnityEngine/UI/FontData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -273,50 +273,67 @@ protected:
   constexpr FontData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FontData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontData(FontData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FontData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontData(FontData const&) = delete;
+  FontData(FontDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17410 };
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("font")]
   /// @brief Field m_Font, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Font> ___m_Font;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("fontSize")]
   /// @brief Field m_FontSize, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_FontSize;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("fontStyle")]
   /// @brief Field m_FontStyle, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::FontStyle ___m_FontStyle;
 
+  /// [SerializeField]
   /// @brief Field m_BestFit, offset: 0x20, size: 0x1, def value: None
   bool ___m_BestFit;
 
+  /// [SerializeField]
   /// @brief Field m_MinSize, offset: 0x24, size: 0x4, def value: None
   int32_t ___m_MinSize;
 
+  /// [SerializeField]
   /// @brief Field m_MaxSize, offset: 0x28, size: 0x4, def value: None
   int32_t ___m_MaxSize;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("alignment")]
   /// @brief Field m_Alignment, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::TextAnchor ___m_Alignment;
 
+  /// [SerializeField]
   /// @brief Field m_AlignByGeometry, offset: 0x30, size: 0x1, def value: None
   bool ___m_AlignByGeometry;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("richText")]
   /// @brief Field m_RichText, offset: 0x31, size: 0x1, def value: None
   bool ___m_RichText;
 
+  /// [SerializeField]
   /// @brief Field m_HorizontalOverflow, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::HorizontalWrapMode ___m_HorizontalOverflow;
 
+  /// [SerializeField]
   /// @brief Field m_VerticalOverflow, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::VerticalWrapMode ___m_VerticalOverflow;
 
+  /// [SerializeField]
   /// @brief Field m_LineSpacing, offset: 0x3c, size: 0x4, def value: None
   float_t ___m_LineSpacing;
 

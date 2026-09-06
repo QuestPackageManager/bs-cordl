@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightmappingSceneSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightmappingSceneSetup.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmappingSceneSetup_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"

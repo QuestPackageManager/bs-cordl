@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRCustomFace.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRCustomFace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr OVRCustomFace_RetargetingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRCustomFace_RetargetingType(int32_t value__) noexcept;
 
   /// @brief Field Custom value: I32(1)
@@ -86,6 +86,9 @@ static_assert(offsetof(::GlobalNamespace::OVRCustomFace_RetargetingType, value__
 static_assert(sizeof(::GlobalNamespace::OVRCustomFace_RetargetingType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [RequireComponent(typeof(UnityEngine.SkinnedMeshRenderer))]
+// [HelpURL("https://developer.oculus.com/documentation/unity/move-face-tracking/")]
+// [Feature((Meta.XR.Util.Feature)3)]
 // Dependencies OVRCustomFace::RetargetingType, OVRFace, OVRFaceExpressions::FaceExpression
 namespace GlobalNamespace {
 // Is value type: false
@@ -166,23 +169,29 @@ protected:
   constexpr OVRCustomFace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomFace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomFace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRCustomFace(OVRCustomFace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomFace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomFace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRCustomFace(OVRCustomFace const&) = delete;
+  OVRCustomFace(OVRCustomFaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7051 };
 
+  /// [SerializeField]
+  /// [Tooltip("The mapping between Face Expressions to the blend shapes available on the shared mesh of the skinned mesh renderer")]
   /// @brief Field _mappings, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression> ____mappings;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field retargetingType, offset: 0x50, size: 0x4, def value: None
   ::GlobalNamespace::OVRCustomFace_RetargetingType ___retargetingType;
 
+  /// [SerializeField]
+  /// [Tooltip("Allow duplicates when mapping blend shapes to Face Expressions")]
   /// @brief Field _allowDuplicateMapping, offset: 0x54, size: 0x1, def value: None
   bool ____allowDuplicateMapping;
 

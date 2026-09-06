@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirrorRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirrorRendererSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -159,13 +159,13 @@ protected:
   constexpr MirrorRendererSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererSO(MirrorRendererSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MirrorRendererSO(MirrorRendererSO const&) = delete;
+  MirrorRendererSO(MirrorRendererSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20664 };
@@ -173,21 +173,27 @@ public:
   /// @brief Field kWaterLayer offset 0xffffffff size 0x4
   static constexpr int32_t kWaterLayer{ static_cast<int32_t>(0x4) };
 
+  /// [SerializeField]
   /// @brief Field _reflectLayers, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____reflectLayers;
 
+  /// [SerializeField]
   /// @brief Field _stereoTextureWidth, offset: 0x1c, size: 0x4, def value: None
   int32_t ____stereoTextureWidth;
 
+  /// [SerializeField]
   /// @brief Field _stereoTextureHeight, offset: 0x20, size: 0x4, def value: None
   int32_t ____stereoTextureHeight;
 
+  /// [SerializeField]
   /// @brief Field _monoTextureWidth, offset: 0x24, size: 0x4, def value: None
   int32_t ____monoTextureWidth;
 
+  /// [SerializeField]
   /// @brief Field _monoTextureHeight, offset: 0x28, size: 0x4, def value: None
   int32_t ____monoTextureHeight;
 
+  /// [SerializeField]
   /// @brief Field _maxAntiAliasing, offset: 0x2c, size: 0x4, def value: None
   int32_t ____maxAntiAliasing;
 

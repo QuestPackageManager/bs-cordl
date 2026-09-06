@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\RC2Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/RC2Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,13 +104,13 @@ protected:
   constexpr RC2Engine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RC2Engine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RC2Engine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RC2Engine(RC2Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RC2Engine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RC2Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RC2Engine(RC2Engine const&) = delete;
+  RC2Engine(RC2Engineconst&) = delete;
 
   /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x8) };

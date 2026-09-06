@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\HighlightState.hpp"
+// IWYU pragma private; include "TMPro/HighlightState.hpp"
 #include "TMPro/zzzz__TMP_Offset_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "TMPro/zzzz__HighlightState_def.hpp"
@@ -113,8 +113,8 @@ inline bool TMPro::HighlightState::Equals(::TMPro::HighlightState other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::HighlightState>(), { "Equals", {}, { ::i2c::type_of<::TMPro::HighlightState>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "padding", ty: "::TMPro::TMP_Offset", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "padding", ty: "::TMPro::TMP_Offset", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::HighlightState::HighlightState(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding) noexcept {
   this->color = color;
   this->padding = padding;

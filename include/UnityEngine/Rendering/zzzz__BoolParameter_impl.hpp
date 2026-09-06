@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BoolParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BoolParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BoolParameter_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BoolParameter_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BoolParameter_DisplayType::BoolParameter_DisplayType(int32_t value__) noexcept {
   this->value__ = value__;
 }

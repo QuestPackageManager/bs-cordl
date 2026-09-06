@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayCoreInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayCoreInstaller.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_impl.hpp"
 #include "BeatSaber/Automation/zzzz__PerformanceToolLauncherOverrideConfig_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlatformEntitlement.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlatformEntitlement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,20 +66,22 @@ protected:
   constexpr MockPlatformEntitlement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlatformEntitlement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlatformEntitlement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlatformEntitlement(MockPlatformEntitlement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlatformEntitlement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlatformEntitlement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPlatformEntitlement(MockPlatformEntitlement const&) = delete;
+  MockPlatformEntitlement(MockPlatformEntitlementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14774 };
 
+  /// [SerializeField]
   /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id;
 
+  /// [SerializeField]
   /// @brief Field _status, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::EntitlementStatus ____status;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\SerializationBinderAdapter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/SerializationBinderAdapter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class SerializationBinderAdapter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::SerializationBinderAdapter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::SerializationBinderAdapter*, "Newtonsoft.Json.Serialization", "SerializationBinderAdapter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -35,11 +37,12 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ISerializationBinder"
   constexpr operator ::Newtonsoft::Json::Serialization::ISerializationBinder*() noexcept;
 
+  /// [NullableContext(2)]
   /// @brief Method BindToName, addr 0x5d5a604, size 0x1c, virtual true, abstract: false, final true
-  inline void BindToName(::System::Type* serializedType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> typeName);
+  inline void BindToName(/* [Nullable(1)] */ ::System::Type* serializedType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> typeName);
 
   /// @brief Method BindToType, addr 0x5d5a5e8, size 0x1c, virtual true, abstract: false, final true
-  inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
+  inline ::System::Type* BindToType(/* [Nullable(2)] */ ::StringW assemblyName, ::StringW typeName);
 
   static inline ::Newtonsoft::Json::Serialization::SerializationBinderAdapter* New_ctor(::System::Runtime::Serialization::SerializationBinder* serializationBinder);
 
@@ -61,13 +64,13 @@ protected:
   constexpr SerializationBinderAdapter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationBinderAdapter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationBinderAdapter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializationBinderAdapter(SerializationBinderAdapter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationBinderAdapter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationBinderAdapter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializationBinderAdapter(SerializationBinderAdapter const&) = delete;
+  SerializationBinderAdapter(SerializationBinderAdapterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13535 };

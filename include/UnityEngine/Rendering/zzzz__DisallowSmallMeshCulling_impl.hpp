@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DisallowSmallMeshCulling.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DisallowSmallMeshCulling.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DisallowSmallMeshCulling_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"

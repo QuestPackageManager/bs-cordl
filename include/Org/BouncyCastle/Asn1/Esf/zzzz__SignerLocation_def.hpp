@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\SignerLocation.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/SignerLocation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,12 @@ public:
   // Declarations
   __declspec(property(get = get_Country)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* Country;
 
+  /// @brief [Obsolete("Use \'Country\' property instead")]
   __declspec(property(get = get_CountryName)) ::Org::BouncyCastle::Asn1::DerUtf8String* CountryName;
 
   __declspec(property(get = get_Locality)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* Locality;
 
+  /// @brief [Obsolete("Use \'Locality\' property instead")]
   __declspec(property(get = get_LocalityName)) ::Org::BouncyCastle::Asn1::DerUtf8String* LocalityName;
 
   __declspec(property(get = get_PostalAddress)) ::Org::BouncyCastle::Asn1::Asn1Sequence* PostalAddress;
@@ -127,13 +129,13 @@ protected:
   constexpr SignerLocation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignerLocation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignerLocation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerLocation(SignerLocation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignerLocation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignerLocation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignerLocation(SignerLocation const&) = delete;
+  SignerLocation(SignerLocationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 158 };

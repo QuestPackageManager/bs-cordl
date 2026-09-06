@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRLocatable.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRLocatable.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
@@ -197,9 +197,9 @@ inline ::System::Nullable_1<::UnityEngine::Quaternion> GlobalNamespace::OVRLocat
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRLocatable_TrackingSpacePose>(), { "ComputeWorldRotation", {}, { ::i2c::type_of<::UnityEngine::Transform*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::Quaternion>>(*this, ___internal_method, trackingSpaceToWorldSpaceTransform);
 }
-// Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_Rotation_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Quaternion>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Flags", ty:
-// "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_Rotation_k__BackingField", ty: "::System::Nullable_1<::UnityEngine::Quaternion>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Flags", ty:
+// "::GlobalNamespace::OVRPlugin_SpaceLocationFlags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRLocatable_TrackingSpacePose::OVRLocatable_TrackingSpacePose(::System::Nullable_1<::UnityEngine::Vector3> _Position_k__BackingField,
                                                                                             ::System::Nullable_1<::UnityEngine::Quaternion> _Rotation_k__BackingField,
                                                                                             ::GlobalNamespace::OVRPlugin_SpaceLocationFlags Flags) noexcept {
@@ -648,7 +648,7 @@ constexpr GlobalNamespace::OVRLocatable::operator ::System::IEquatable_1<::Globa
 constexpr ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>* GlobalNamespace::OVRLocatable::i___System__IEquatable_1___GlobalNamespace__OVRLocatable_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRLocatable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRLocatable::OVRLocatable(uint64_t _Handle_k__BackingField) noexcept {
   this->_Handle_k__BackingField = _Handle_k__BackingField;
 }
@@ -681,8 +681,8 @@ constexpr GlobalNamespace::OVRLocatable_GetSceneAnchorPosesJob::operator ::Unity
 constexpr ::Unity::Jobs::IJobFor* GlobalNamespace::OVRLocatable_GetSceneAnchorPosesJob::i___Unity__Jobs__IJobFor() {
   return static_cast<::Unity::Jobs::IJobFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Poses", ty:
-// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRLocatable_GetSceneAnchorPosesJob::OVRLocatable_GetSceneAnchorPosesJob(
     ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables, ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept {
   this->Locatables = Locatables;
@@ -717,8 +717,8 @@ constexpr GlobalNamespace::OVRLocatable_GetSpatialAnchorPosesJob::operator ::Uni
 constexpr ::Unity::Jobs::IJobFor* GlobalNamespace::OVRLocatable_GetSpatialAnchorPosesJob::i___Unity__Jobs__IJobFor() {
   return static_cast<::Unity::Jobs::IJobFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Poses", ty:
-// "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Locatables", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRLocatable_GetSpatialAnchorPosesJob::OVRLocatable_GetSpatialAnchorPosesJob(
     ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> Locatables, ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept {
   this->Locatables = Locatables;
@@ -753,8 +753,9 @@ constexpr GlobalNamespace::OVRLocatable_TransformPosesJob::operator ::Unity::Job
 constexpr ::Unity::Jobs::IJobFor* GlobalNamespace::OVRLocatable_TransformPosesJob::i___Unity__Jobs__IJobFor() {
   return static_cast<::Unity::Jobs::IJobFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRLocatable_TransformPosesJob::OVRLocatable_TransformPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses,
                                                                                             ::UnityEngine::Matrix4x4 Transform, ::UnityEngine::Quaternion Rotation) noexcept {
   this->Poses = Poses;
@@ -792,7 +793,7 @@ constexpr GlobalNamespace::OVRLocatable_SetWorldSpaceTransformsJob::operator ::U
 constexpr ::UnityEngine::Jobs::IJobParallelForTransform* GlobalNamespace::OVRLocatable_SetWorldSpaceTransformsJob::i___UnityEngine__Jobs__IJobParallelForTransform() {
   return static_cast<::UnityEngine::Jobs::IJobParallelForTransform*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRLocatable_SetWorldSpaceTransformsJob::OVRLocatable_SetWorldSpaceTransformsJob(
     ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept {
   this->Poses = Poses;
@@ -826,7 +827,7 @@ constexpr GlobalNamespace::OVRLocatable_SetLocalSpaceTransformsJob::operator ::U
 constexpr ::UnityEngine::Jobs::IJobParallelForTransform* GlobalNamespace::OVRLocatable_SetLocalSpaceTransformsJob::i___UnityEngine__Jobs__IJobParallelForTransform() {
   return static_cast<::UnityEngine::Jobs::IJobParallelForTransform*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Poses", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRLocatable_SetLocalSpaceTransformsJob::OVRLocatable_SetLocalSpaceTransformsJob(
     ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> Poses) noexcept {
   this->Poses = Poses;
@@ -859,8 +860,8 @@ constexpr GlobalNamespace::OVRLocatable_CopyPosesJob::operator ::Unity::Jobs::IJ
 constexpr ::Unity::Jobs::IJobFor* GlobalNamespace::OVRLocatable_CopyPosesJob::i___Unity__Jobs__IJobFor() {
   return static_cast<::Unity::Jobs::IJobFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "PosesIn", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "PosesOut", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "PosesIn", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "PosesOut", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRLocatable_CopyPosesJob::OVRLocatable_CopyPosesJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesIn,
                                                                                   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> PosesOut) noexcept {
   this->PosesIn = PosesIn;

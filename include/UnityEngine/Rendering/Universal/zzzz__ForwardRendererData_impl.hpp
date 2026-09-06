@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ForwardRendererData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ForwardRendererData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DepthPrimingMode_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingMode_impl.hpp"

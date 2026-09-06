@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Events\UnityEvent_4.hpp"
+// IWYU pragma private; include "UnityEngine/Events/UnityEvent_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ public:
   /// @brief Method GetDelegate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
+  /// @brief [RequiredByNativeCode]
   static inline ::UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>* New_ctor();
 
   constexpr ::ArrayW<::System::Object*> const& __cordl_internal_get_m_InvokeArray() const;
@@ -53,6 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_m_InvokeArray(::ArrayW<::System::Object*> value);
 
+  /// [RequiredByNativeCode]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -62,13 +64,13 @@ protected:
   constexpr UnityEvent_4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent_4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent_4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityEvent_4(UnityEvent_4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent_4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent_4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityEvent_4(UnityEvent_4 const&) = delete;
+  UnityEvent_4(UnityEvent_4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10463 };

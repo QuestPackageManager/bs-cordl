@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TrackLaneRingsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/TrackLaneRingsManager.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentContext_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRing_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

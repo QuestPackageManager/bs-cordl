@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Playables\TexturePlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Playables/TexturePlayableOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,11 @@ struct TexturePlayableOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Playables::TexturePlayableOutput);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");
+// [NativeHeader("Runtime/Graphics/RenderTexture.h")]
+// [StaticAccessor("TexturePlayableOutputBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/Export/Director/TexturePlayableOutput.bindings.h")]
+// [NativeHeader("Runtime/Graphics/Director/TexturePlayableOutput.h")]
 // Dependencies UnityEngine.Playables.PlayableOutputHandle
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
@@ -39,7 +44,7 @@ public:
   // @brief default ctor
   constexpr TexturePlayableOutput();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None, comment: None }]
   constexpr TexturePlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

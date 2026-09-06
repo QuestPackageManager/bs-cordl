@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRVirtualKeyboardInputFieldTextHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboardInputFieldTextHandler.hpp"
 #include "GlobalNamespace/zzzz__OVRVirtualKeyboard_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRVirtualKeyboardInputFieldTextHandler_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

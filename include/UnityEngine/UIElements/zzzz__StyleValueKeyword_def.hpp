@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleValueKeyword.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleValueKeyword.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct StyleValueKeyword;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleValueKeyword);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleValueKeyword, "UnityEngine.UIElements", "StyleValueKeyword");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -49,7 +50,7 @@ public:
   // @brief default ctor
   constexpr StyleValueKeyword();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StyleValueKeyword(int32_t value__) noexcept;
 
   /// @brief Field Auto value: I32(2)

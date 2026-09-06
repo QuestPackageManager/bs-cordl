@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaType.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct JsonSchemaType;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::Schema::JsonSchemaType);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Schema::JsonSchemaType, "Newtonsoft.Json.Schema", "JsonSchemaType");
+// [Flags]
+// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
 // Dependencies
 namespace Newtonsoft::Json::Schema {
 // Is value type: true
@@ -49,7 +51,7 @@ public:
   // @brief default ctor
   constexpr JsonSchemaType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr JsonSchemaType(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(127)

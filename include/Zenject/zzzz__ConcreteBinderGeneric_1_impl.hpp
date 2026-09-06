@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConcreteBinderGeneric_1.hpp"
+// IWYU pragma private; include "Zenject/ConcreteBinderGeneric_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__FromBinderGeneric_1_impl.hpp"
 #include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
@@ -63,13 +63,16 @@ template <typename TContract> inline ::Zenject::FromBinderGeneric_1<TContract>* 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConcreteBinderGeneric_1<TContract>*>(), { "ToSelf", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FromBinderGeneric_1<TContract>*>(this, ___internal_method);
 }
-template <typename TContract> template <typename TConcrete> inline ::Zenject::FromBinderGeneric_1<TConcrete>* Zenject::ConcreteBinderGeneric_1<TContract>::To() {
+template <typename TContract>
+template <typename TConcrete>
+  requires(::cordl_internals::type_constraint<TConcrete, TContract>)
+inline ::Zenject::FromBinderGeneric_1<TConcrete>* Zenject::ConcreteBinderGeneric_1<TContract>::To() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConcreteBinderGeneric_1<TContract>*>(), { "To", { ::i2c::class_of<TConcrete>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TConcrete>() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FromBinderGeneric_1<TConcrete>*>(this, ___internal_method);
 }
-template <typename TContract> inline ::Zenject::FromBinderNonGeneric* Zenject::ConcreteBinderGeneric_1<TContract>::To(::ArrayW<::System::Type*> concreteTypes) {
+template <typename TContract> inline ::Zenject::FromBinderNonGeneric* Zenject::ConcreteBinderGeneric_1<TContract>::To(/* [ParamArray] */ ::ArrayW<::System::Type*> concreteTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ConcreteBinderGeneric_1<TContract>*>(), { "To", {}, { ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FromBinderNonGeneric*>(this, ___internal_method, concreteTypes);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ResettableRandom.hpp"
+// IWYU pragma private; include "GlobalNamespace/ResettableRandom.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ResettableRandom_def.hpp"
 #include "GlobalNamespace/zzzz__DeterminismConfig_def.hpp"
@@ -110,6 +110,7 @@ inline void GlobalNamespace::ResettableRandom::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResettableRandom*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
+/// @brief [NullableContext(1)]
 inline ::GlobalNamespace::ResettableRandom* GlobalNamespace::ResettableRandom::New_ctor(::GlobalNamespace::DeterminismConfig* determinismConfig, int32_t fixedSeed) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ResettableRandom*>(determinismConfig, fixedSeed));
 }

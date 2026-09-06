@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ocsp\Request.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/Request.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,13 +90,13 @@ protected:
   constexpr Request();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Request(Request&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Request(Request const&) = delete;
+  Request(Requestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 215 };

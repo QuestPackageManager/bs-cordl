@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\URPLightShadowCullingInfos.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/URPLightShadowCullingInfos.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE URPLightShadowCullingInfos {
 public:
   // Declarations
+  /// [IsReadOnly]
   /// @brief Method IsSliceValid, addr 0x68bb0e4, size 0x10, virtual false, abstract: false, final false
   inline bool IsSliceValid(int32_t i);
 
@@ -29,8 +30,8 @@ public:
   // @brief default ctor
   constexpr URPLightShadowCullingInfos();
 
-  // Ctor Parameters [CppParam { name: "slices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData>", modifiers: "", def_value: None }, CppParam { name:
-  // "slicesValidMask", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "slices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "slicesValidMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr URPLightShadowCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData> slices, uint32_t slicesValidMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

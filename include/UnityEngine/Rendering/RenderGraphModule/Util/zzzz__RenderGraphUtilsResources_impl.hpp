@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\Util\RenderGraphUtilsResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/Util/RenderGraphUtilsResources.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/Util/zzzz__RenderGraphUtilsResources_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/Util/zzzz__RenderGraphUtilsResources_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineResources_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources_Version::RenderGraphUtilsResources_Version(int32_t value__) noexcept {
   this->value__ = value__;
 }

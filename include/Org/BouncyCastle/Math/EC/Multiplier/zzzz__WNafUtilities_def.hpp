@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\WNafUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WNafUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,13 +114,13 @@ protected:
   constexpr WNafUtilities_ConfigureBasepointCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_ConfigureBasepointCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_ConfigureBasepointCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WNafUtilities_ConfigureBasepointCallback(WNafUtilities_ConfigureBasepointCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_ConfigureBasepointCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_ConfigureBasepointCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities_ConfigureBasepointCallback(WNafUtilities_ConfigureBasepointCallback const&) = delete;
+  WNafUtilities_ConfigureBasepointCallback(WNafUtilities_ConfigureBasepointCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1542 };
@@ -196,13 +196,13 @@ protected:
   constexpr WNafUtilities_MapPointCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_MapPointCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_MapPointCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WNafUtilities_MapPointCallback(WNafUtilities_MapPointCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_MapPointCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_MapPointCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities_MapPointCallback(WNafUtilities_MapPointCallback const&) = delete;
+  WNafUtilities_MapPointCallback(WNafUtilities_MapPointCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1543 };
@@ -288,13 +288,13 @@ protected:
   constexpr WNafUtilities_PrecomputeCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WNafUtilities_PrecomputeCallback(WNafUtilities_PrecomputeCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities_PrecomputeCallback(WNafUtilities_PrecomputeCallback const&) = delete;
+  WNafUtilities_PrecomputeCallback(WNafUtilities_PrecomputeCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1544 };
@@ -393,13 +393,13 @@ protected:
   constexpr WNafUtilities_PrecomputeWithPointMapCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeWithPointMapCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeWithPointMapCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WNafUtilities_PrecomputeWithPointMapCallback(WNafUtilities_PrecomputeWithPointMapCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeWithPointMapCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities_PrecomputeWithPointMapCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities_PrecomputeWithPointMapCallback(WNafUtilities_PrecomputeWithPointMapCallback const&) = delete;
+  WNafUtilities_PrecomputeWithPointMapCallback(WNafUtilities_PrecomputeWithPointMapCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1545 };
@@ -496,6 +496,7 @@ public:
   /// @brief Method GetWindowSize, addr 0x3510138, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t GetWindowSize(int32_t bits, ::ArrayW<int32_t> windowSizeCutoffs, int32_t maxWidth);
 
+  /// [Obsolete]
   /// @brief Method MapPointWithPrecomp, addr 0x35102e8, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* MapPointWithPrecomp(::Org::BouncyCastle::Math::EC::ECPoint* p, int32_t minWidth, bool includeNegated,
                                                                             ::Org::BouncyCastle::Math::EC::ECPointMap* pointMap);
@@ -543,13 +544,13 @@ protected:
   constexpr WNafUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WNafUtilities(WNafUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafUtilities(WNafUtilities const&) = delete;
+  WNafUtilities(WNafUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1546 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsDHKeyExchange.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsDHKeyExchange.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsKeyExchange_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDHKeyExchange_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
@@ -380,6 +380,7 @@ inline ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::Gener
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange*>(), 34 })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method);
 }
+/// @brief [Obsolete("Use constructor that takes a TlsDHVerifier")]
 inline ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange* Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                                                                       ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange*>(keyExchange, supportedSignatureAlgorithms, dhParameters));

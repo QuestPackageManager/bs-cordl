@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PageControlElement.hpp"
+// IWYU pragma private; include "GlobalNamespace/PageControlElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,26 +81,31 @@ protected:
   constexpr PageControlElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PageControlElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PageControlElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PageControlElement(PageControlElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PageControlElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PageControlElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PageControlElement(PageControlElement const&) = delete;
+  PageControlElement(PageControlElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7015 };
 
+  /// [SerializeField]
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
+  /// [SerializeField]
   /// @brief Field _imageView, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____imageView;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _selectedColor, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedColor;
 
+  /// [SerializeField]
   /// @brief Field _unselectedColor, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Color ____unselectedColor;
 

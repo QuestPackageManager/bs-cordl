@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenRendererDataCallback.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenRendererDataCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ class CORDL_TYPE GPUDrivenRendererDataCallback : public ::System::MulticastDeleg
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6b2b908, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                      ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
   static inline ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
@@ -52,13 +52,13 @@ protected:
   constexpr GPUDrivenRendererDataCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenRendererDataCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenRendererDataCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUDrivenRendererDataCallback(GPUDrivenRendererDataCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenRendererDataCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GPUDrivenRendererDataCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GPUDrivenRendererDataCallback(GPUDrivenRendererDataCallback const&) = delete;
+  GPUDrivenRendererDataCallback(GPUDrivenRendererDataCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10876 };

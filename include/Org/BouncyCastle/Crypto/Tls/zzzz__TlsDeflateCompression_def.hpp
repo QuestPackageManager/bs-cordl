@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsDeflateCompression.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsDeflateCompression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ protected:
   constexpr TlsDeflateCompression_DeflateOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression_DeflateOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression_DeflateOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsDeflateCompression_DeflateOutputStream(TlsDeflateCompression_DeflateOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression_DeflateOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression_DeflateOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsDeflateCompression_DeflateOutputStream(TlsDeflateCompression_DeflateOutputStream const&) = delete;
+  TlsDeflateCompression_DeflateOutputStream(TlsDeflateCompression_DeflateOutputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1295 };
@@ -124,13 +124,13 @@ protected:
   constexpr TlsDeflateCompression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsDeflateCompression(TlsDeflateCompression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsDeflateCompression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsDeflateCompression(TlsDeflateCompression const&) = delete;
+  TlsDeflateCompression(TlsDeflateCompressionconst&) = delete;
 
   /// @brief Field LEVEL_DEFAULT offset 0xffffffff size 0x4
   static constexpr int32_t LEVEL_DEFAULT{ static_cast<int32_t>(0xffffffff) };

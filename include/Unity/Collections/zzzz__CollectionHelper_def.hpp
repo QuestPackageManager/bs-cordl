@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\CollectionHelper.hpp"
+// IWYU pragma private; include "Unity/Collections/CollectionHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__AllocatorManager_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
 #include <cstddef>
@@ -28,13 +30,20 @@ namespace Unity::Collections {
 struct NativeArrayOptions;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelMultiHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelMultiHashMap_2;
 }
 namespace Unity::Jobs {
 class IJob;
@@ -85,7 +94,8 @@ public:
   // @brief default ctor
   constexpr CollectionHelper_LongDoubleUnion();
 
-  // Ctor Parameters [CppParam { name: "longValue", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "doubleValue", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "longValue", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "doubleValue", ty: "double_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr CollectionHelper_LongDoubleUnion(int64_t longValue, double_t doubleValue) noexcept;
 
 private:
@@ -134,6 +144,7 @@ public:
 static_assert(sizeof(::Unity::Collections::CollectionHelper_LongDoubleUnion) == 0x8, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [BurstCompile]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -171,7 +182,8 @@ public:
 static_assert(sizeof(::Unity::Collections::CollectionHelper_DummyJob) == 0x1, "Size mismatch!");
 
 } // namespace Unity::Collections
-// Dependencies System.Object
+// [GenerateTestsForBurstCompatibility]
+// Dependencies System.IEquatable`1<T>, System.Object, Unity.Collections.AllocatorManager::IAllocator
 namespace Unity::Collections {
 // Is value type: false
 // CS Name: Unity.Collections.CollectionHelper
@@ -191,70 +203,125 @@ public:
   /// @brief Method AssumePositive, addr 0x64ac2a4, size 0x4, virtual false, abstract: false, final false
   static inline int32_t AssumePositive(int32_t value);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckAllocator, addr 0x64abe98, size 0x84, virtual false, abstract: false, final false
   static inline void CheckAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckCapacityInRange, addr 0x64ac46c, size 0xec, virtual false, abstract: false, final false
   static inline void CheckCapacityInRange(int32_t capacity, int32_t length);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckConvertArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void CheckConvertArguments(int32_t length);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void CheckConvertArguments(int32_t length);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckIndexInRange, addr 0x64ac3c8, size 0xa4, virtual false, abstract: false, final false
   static inline void CheckIndexInRange(int32_t index, int32_t length);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckIntPositivePowerOfTwo, addr 0x64ac2a8, size 0x94, virtual false, abstract: false, final false
   static inline void CheckIntPositivePowerOfTwo(int32_t value);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
+  /// [GenerateTestsForBurstCompatibility(RequiredUnityDefine = "ENABLE_UNITY_COLLECTIONS_CHECKS", GenericTypeArguments = new[] { typeof(Unity.Collections.NativeArray`1<T>) })]
   /// @brief Method CheckIsUnmanaged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CheckIsUnmanaged();
 
+  /// [GenerateTestsForBurstCompatibility(RequiredUnityDefine = "ENABLE_UNITY_COLLECTIONS_CHECKS", GenericTypeArguments = new[] { typeof(Unity.Collections.CollectionHelper::DummyJob) })]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckReflectionDataCorrect, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CheckReflectionDataCorrect(::System::IntPtr reflectionData);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
+  /// [BurstDiscard]
   /// @brief Method CheckReflectionDataCorrectInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CheckReflectionDataCorrectInternal(::System::IntPtr reflectionData, ::by_ref<bool> burstCompiled);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckUlongPositivePowerOfTwo, addr 0x64ac33c, size 0x8c, virtual false, abstract: false, final false
   static inline void CheckUlongPositivePowerOfTwo(uint64_t value);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ConvertExistingDataToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(void* dataPointer, int32_t length, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                                                         bool setTempMemoryHandle);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method ConvertExistingNativeListToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Collections::NativeArray_1<T> ConvertExistingNativeListToNativeArray(::by_ref<::Unity::Collections::NativeList_1<T>> nativeList, int32_t length,
                                                                                               ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method CreateNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Collections::NativeArray_1<T> CreateNativeArray(::ArrayW<T> array, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
-
-  /// @brief Method CreateNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename U> static inline ::Unity::Collections::NativeArray_1<T> CreateNativeArray(::ArrayW<T> array, ::by_ref<U> allocator);
-
+  /// [ExcludeFromBurstCompatTesting("Managed array")]
   /// @brief Method CreateNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Collections::NativeArray_1<T> CreateNativeArray(::ArrayW<T> array, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+
+  /// [ExcludeFromBurstCompatTesting("Managed array")]
+  /// @brief Method CreateNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T, typename U>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+             ::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+             ::cordl_internals::default_constructor_constraint<U>)
+  static inline ::Unity::Collections::NativeArray_1<T> CreateNativeArray(::ArrayW<T> array, ::by_ref<U> allocator);
+
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
+  /// @brief Method CreateNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Collections::NativeArray_1<T> CreateNativeArray(::Unity::Collections::NativeArray_1<T> array, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method CreateNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline ::Unity::Collections::NativeArray_1<T> CreateNativeArray(int32_t length, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                                          ::Unity::Collections::NativeArrayOptions options);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(Unity.Collections.AllocatorManager::AllocatorHandle) })]
   /// @brief Method CreateNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename U> static inline ::Unity::Collections::NativeArray_1<T> CreateNativeArray(int32_t length, ::by_ref<U> allocator, ::Unity::Collections::NativeArrayOptions options);
+  template <typename T, typename U>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
+             ::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+             ::cordl_internals::default_constructor_constraint<U>)
+  static inline ::Unity::Collections::NativeArray_1<T> CreateNativeArray(int32_t length, ::by_ref<U> allocator, ::Unity::Collections::NativeArrayOptions options);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32), typeof(Unity.Collections.AllocatorManager::AllocatorHandle) })]
   /// @brief Method CreateNativeParallelMultiHashMap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue, typename U>
+    requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+             ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue> &&
+             ::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+             ::cordl_internals::default_constructor_constraint<U>)
   static inline ::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue> CreateNativeParallelMultiHashMap(int32_t length, ::by_ref<U> allocator);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Dispose(::Unity::Collections::NativeArray_1<T> nativeArray);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Dispose(::Unity::Collections::NativeArray_1<T> nativeArray);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method DisposeNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void DisposeNativeArray(::Unity::Collections::NativeArray_1<T> nativeArray, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void DisposeNativeArray(::Unity::Collections::NativeArray_1<T> nativeArray, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method Hash, addr 0x64ac008, size 0x40, virtual false, abstract: false, final false
   static inline uint32_t Hash(void* ptr, int32_t bytes);
@@ -277,6 +344,7 @@ public:
   /// @brief Method ShouldDeallocate, addr 0x64abf1c, size 0xc, virtual false, abstract: false, final false
   static inline bool ShouldDeallocate(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [ExcludeFromBurstCompatTesting("Used only for debugging, and uses managed strings")]
   /// @brief Method WriteLayout, addr 0x64ac048, size 0x25c, virtual false, abstract: false, final false
   static inline void WriteLayout(::System::Type* type);
 
@@ -286,13 +354,13 @@ protected:
   constexpr CollectionHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionHelper(CollectionHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionHelper(CollectionHelper const&) = delete;
+  CollectionHelper(CollectionHelperconst&) = delete;
 
   /// @brief Field CacheLineSize offset 0xffffffff size 0x4
   static constexpr int32_t CacheLineSize{ static_cast<int32_t>(0x40) };

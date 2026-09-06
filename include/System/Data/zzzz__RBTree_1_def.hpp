@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\RBTree_1.hpp"
+// IWYU pragma private; include "System/Data/RBTree_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,7 +108,7 @@ public:
   // @brief default ctor
   constexpr RBTree_1_NodeColor();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RBTree_1_NodeColor(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -143,10 +143,11 @@ public:
   // @brief default ctor
   constexpr RBTree_1_Node();
 
-  // Ctor Parameters [CppParam { name: "_selfId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_leftId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_rightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_nextId", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "_subTreeSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_keyOfNode", ty: "K", modifiers: "", def_value: None }, CppParam { name:
-  // "_nodeColor", ty: "::System::Data::RBTree_1_NodeColor<K>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_selfId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_leftId", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_rightId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_parentId", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_nextId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_subTreeSize", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_keyOfNode", ty: "K", modifiers: "", def_value: None, comment: None }, CppParam { name: "_nodeColor", ty: "::System::Data::RBTree_1_NodeColor<K>", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr RBTree_1_Node(int32_t _selfId, int32_t _leftId, int32_t _rightId, int32_t _parentId, int32_t _nextId, int32_t _subTreeSize, K _keyOfNode,
                           ::System::Data::RBTree_1_NodeColor<K> _nodeColor) noexcept;
 
@@ -184,6 +185,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Data
+// [IsReadOnly]
 // Dependencies
 namespace System::Data {
 // cpp template
@@ -200,7 +202,8 @@ public:
   // @brief default ctor
   constexpr RBTree_1_NodePath();
 
-  // Ctor Parameters [CppParam { name: "_nodeID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_mainTreeNodeID", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_nodeID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_mainTreeNodeID", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr RBTree_1_NodePath(int32_t _nodeID, int32_t _mainTreeNodeID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -303,13 +306,13 @@ protected:
   constexpr RBTree_1_TreePage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1_TreePage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1_TreePage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RBTree_1_TreePage(RBTree_1_TreePage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1_TreePage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1_TreePage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RBTree_1_TreePage(RBTree_1_TreePage const&) = delete;
+  RBTree_1_TreePage(RBTree_1_TreePageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13845 };
@@ -389,9 +392,9 @@ public:
   // @brief default ctor
   constexpr RBTree_1_RBTreeEnumerator();
 
-  // Ctor Parameters [CppParam { name: "_tree", ty: "::System::Data::RBTree_1<K>*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_mainTreeNodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty:
-  // "K", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_tree", ty: "::System::Data::RBTree_1<K>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_mainTreeNodeId", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_current", ty: "K", modifiers: "", def_value: None, comment: None }]
   constexpr RBTree_1_RBTreeEnumerator(::System::Data::RBTree_1<K>* _tree, int32_t _version, int32_t _index, int32_t _mainTreeNodeId, K _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -419,6 +422,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Data
+// [DefaultMember("Item")]
 // Dependencies System.Data.RBTree`1::TreePage<K>, System.Data.TreeAccessMethod, System.Object
 namespace System::Data {
 // cpp template
@@ -483,10 +487,10 @@ public:
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CompareNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CompareNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t CompareNode(K record1, K record2);
 
-  /// @brief Method CompareSateliteTreeNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CompareSateliteTreeNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t CompareSateliteTreeNode(K record1, K record2);
 
   /// @brief Method ComputeIndexByNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -728,13 +732,13 @@ protected:
   constexpr RBTree_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RBTree_1(RBTree_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RBTree_1(RBTree_1 const&) = delete;
+  RBTree_1(RBTree_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13847 };

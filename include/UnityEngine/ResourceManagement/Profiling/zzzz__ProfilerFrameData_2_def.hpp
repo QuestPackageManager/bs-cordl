@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\ProfilerFrameData_2.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/ProfilerFrameData_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::ResourceManagement::Profiling::ProfilerFrameDa
 MARK_GEN_REF_T_PTR(::UnityEngine::ResourceManagement::Profiling::ProfilerFrameData_2__Enumerate_d__17);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ResourceManagement::Profiling::ProfilerFrameData_2, "UnityEngine.ResourceManagement.Profiling", "ProfilerFrameData`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ResourceManagement::Profiling::ProfilerFrameData_2__Enumerate_d__17, "UnityEngine.ResourceManagement.Profiling", "ProfilerFrameData`2/<Enumerate>d__17");
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.Dictionary`2::Enumerator<TKey, TValue>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace UnityEngine::ResourceManagement::Profiling {
 // cpp template
@@ -95,24 +96,31 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::ResourceManagement::Profiling::ProfilerFrameData_2__Enumerate_d__17<T1, T2>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<T1,T2>>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<T1, T2>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_T1_T2___GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<T1,T2>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<T1, T2> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_T1_T2___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -149,6 +157,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -175,13 +184,13 @@ protected:
   constexpr ProfilerFrameData_2__Enumerate_d__17();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilerFrameData_2__Enumerate_d__17", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilerFrameData_2__Enumerate_d__17", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProfilerFrameData_2__Enumerate_d__17(ProfilerFrameData_2__Enumerate_d__17&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilerFrameData_2__Enumerate_d__17", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilerFrameData_2__Enumerate_d__17", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfilerFrameData_2__Enumerate_d__17(ProfilerFrameData_2__Enumerate_d__17 const&) = delete;
+  ProfilerFrameData_2__Enumerate_d__17(ProfilerFrameData_2__Enumerate_d__17const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18809 };
@@ -205,6 +214,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ResourceManagement::Profiling
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace UnityEngine::ResourceManagement::Profiling {
 // cpp template
@@ -240,6 +250,7 @@ public:
   /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ContainsKey(T1 key);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.ResourceManagement.Profiling.ProfilerFrameData`2::<Enumerate>d__17<T1, T2>))]
   /// @brief Method Enumerate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<T1, T2>>* Enumerate();
 
@@ -301,13 +312,13 @@ protected:
   constexpr ProfilerFrameData_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilerFrameData_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilerFrameData_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProfilerFrameData_2(ProfilerFrameData_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilerFrameData_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilerFrameData_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfilerFrameData_2(ProfilerFrameData_2 const&) = delete;
+  ProfilerFrameData_2(ProfilerFrameData_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18810 };

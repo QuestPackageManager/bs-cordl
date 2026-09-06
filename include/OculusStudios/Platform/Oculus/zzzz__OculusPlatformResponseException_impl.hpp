@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Oculus\OculusPlatformResponseException.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Oculus/OculusPlatformResponseException.hpp"
 #include "OculusStudios/Platform/Oculus/zzzz__OculusPlatformResponseErrorCode_impl.hpp"
 #include "System/Net/zzzz__HttpStatusCode_impl.hpp"
 #include "System/zzzz__Exception_impl.hpp"

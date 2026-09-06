@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BasicBeatmapObjectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/BasicBeatmapObjectManager.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -421,9 +421,11 @@ inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Obstac
 }
 inline void GlobalNamespace::BasicBeatmapObjectManager::Init(::GlobalNamespace::BasicBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IRandom* random,
                                                              ::GlobalNamespace::DeterminismConfig* determinismConfig, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
-                                                             ::GlobalNamespace::GameNoteController_Pool* basicGameNotePool, ::GlobalNamespace::GameNoteController_Pool* burstSliderHeadGameNotePool,
-                                                             ::GlobalNamespace::BurstSliderGameNoteController_Pool* burstSliderGameNotePool, ::GlobalNamespace::BombNoteController_Pool* bombNotePool,
-                                                             ::GlobalNamespace::ObstacleController_Pool* obstaclePool, ::GlobalNamespace::SliderController_Pool* sliderPools) {
+                                                             /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::GameNoteController_Pool* basicGameNotePool,
+                                                             /* [Inject(Id = (NoteData::GameplayType)2)] */ ::GlobalNamespace::GameNoteController_Pool* burstSliderHeadGameNotePool,
+                                                             /* [Inject(Id = (NoteData::GameplayType)3)] */ ::GlobalNamespace::BurstSliderGameNoteController_Pool* burstSliderGameNotePool,
+                                                             ::GlobalNamespace::BombNoteController_Pool* bombNotePool, ::GlobalNamespace::ObstacleController_Pool* obstaclePool,
+                                                             ::GlobalNamespace::SliderController_Pool* sliderPools) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicBeatmapObjectManager*>(),
                                                            { "Init",
@@ -436,7 +438,8 @@ inline void GlobalNamespace::BasicBeatmapObjectManager::Init(::GlobalNamespace::
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initData, random, determinismConfig, variableMovementDataProvider, basicGameNotePool, burstSliderHeadGameNotePool,
                                                    burstSliderGameNotePool, bombNotePool, obstaclePool, sliderPools);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
+inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData,
+                                                                            /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BasicBeatmapObjectManager*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obstacleData, obstacleSpawnData);
@@ -446,7 +449,7 @@ inline void GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal(::Global
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BasicBeatmapObjectManager*>(), 20 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obstacleController);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
+inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessNoteData(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
                                                                         bool forceIsFirstNoteBehaviour) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BasicBeatmapObjectManager*>(), 17 })));
@@ -457,7 +460,7 @@ inline void GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal(::Global
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BasicBeatmapObjectManager*>(), 19 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteController);
 }
-inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
+inline void GlobalNamespace::BasicBeatmapObjectManager::ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BasicBeatmapObjectManager*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderData, sliderSpawnData);

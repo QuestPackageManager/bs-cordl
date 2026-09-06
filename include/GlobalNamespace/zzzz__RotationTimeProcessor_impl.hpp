@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RotationTimeProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace/RotationTimeProcessor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RotationTimeProcessor_def.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__EventData_def.hpp"
@@ -27,8 +27,8 @@ inline void GlobalNamespace::RotationTimeProcessor_RotationChangeData::_ctor(flo
                                                                                          { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, beat, rotation, isEarly);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "isEarly", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "isEarly", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RotationTimeProcessor_RotationChangeData::RotationTimeProcessor_RotationChangeData(float_t beat, int32_t rotation, bool isEarly) noexcept {
   this->beat = beat;
   this->rotation = rotation;

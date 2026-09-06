@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeRingQueue_1.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeRingQueue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeRingQueue_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeRingQueue_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
@@ -26,15 +28,22 @@ struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct NativeRingQueue_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeRingQueue_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeRingQueue_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeRingQueue_1, "Unity.Collections", "NativeRingQueue`1");
+// [NativeContainer]
+// [DebuggerDisplay("Length = {Length}, Capacity = {Capacity}, IsCreated = {IsCreated}, IsEmpty = {IsEmpty}")]
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeRingQueueDebugView`1<T>))]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeRingQueue`1<T>
 struct CORDL_TYPE NativeRingQueue_1 {
@@ -54,9 +63,13 @@ public:
   /// @brief Convert operator to "::Unity::Collections::INativeDisposable"
   constexpr operator ::Unity::Collections::INativeDisposable*();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckRead, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckRead();
 
+  /// [IsReadOnly]
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckWrite, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckWrite();
 
@@ -81,15 +94,19 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator, ::Unity::Collections::NativeArrayOptions options);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
+  /// [IsReadOnly]
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
@@ -103,7 +120,7 @@ public:
   // @brief default ctor
   constexpr NativeRingQueue_1();
 
-  // Ctor Parameters [CppParam { name: "m_RingQueue", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_RingQueue", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr NativeRingQueue_1(::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<T>* m_RingQueue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,6 +129,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_RingQueue, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<T>* m_RingQueue;
 

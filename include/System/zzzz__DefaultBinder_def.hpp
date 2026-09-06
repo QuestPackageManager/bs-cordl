@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DefaultBinder.hpp"
+// IWYU pragma private; include "System/DefaultBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,13 +119,13 @@ protected:
   constexpr DefaultBinder_BinderState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder_BinderState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder_BinderState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultBinder_BinderState(DefaultBinder_BinderState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder_BinderState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder_BinderState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultBinder_BinderState(DefaultBinder_BinderState const&) = delete;
+  DefaultBinder_BinderState(DefaultBinder_BinderStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2561 };
@@ -151,6 +151,7 @@ static_assert(offsetof(::System::DefaultBinder_BinderState, ___m_isParamArray) =
 static_assert(sizeof(::System::DefaultBinder_BinderState) == 0x20, "Size mismatch!");
 
 } // namespace System
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -193,7 +194,7 @@ public:
   // @brief default ctor
   constexpr DefaultBinder_Primitives();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DefaultBinder_Primitives(int32_t value__) noexcept;
 
   /// @brief Field Boolean value: I32(8)
@@ -258,6 +259,7 @@ static_assert(offsetof(::System::DefaultBinder_Primitives, value__) == 0x0, "Off
 static_assert(sizeof(::System::DefaultBinder_Primitives) == 0x4, "Size mismatch!");
 
 } // namespace System
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -293,13 +295,13 @@ protected:
   constexpr DefaultBinder___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultBinder___c(DefaultBinder___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultBinder___c(DefaultBinder___c const&) = delete;
+  DefaultBinder___c(DefaultBinder___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2563 };
@@ -420,13 +422,13 @@ protected:
   constexpr DefaultBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultBinder(DefaultBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultBinder(DefaultBinder const&) = delete;
+  DefaultBinder(DefaultBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2564 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RayTracingAccelerationStructureDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RayTracingAccelerationStructureDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RayTracingAccelerationStructureDesc;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc, "UnityEngine.Rendering.RenderGraphModule", "RayTracingAccelerationStructureDesc");
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -24,7 +25,7 @@ public:
   // @brief default ctor
   constexpr RayTracingAccelerationStructureDesc();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr RayTracingAccelerationStructureDesc(::StringW name) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

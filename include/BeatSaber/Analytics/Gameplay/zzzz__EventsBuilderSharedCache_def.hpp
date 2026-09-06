@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventsBuilderSharedCache.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventsBuilderSharedCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,8 @@ class EventsBuilderSharedCache;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache*, "BeatSaber.Analytics.Gameplay", "EventsBuilderSharedCache");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: false
@@ -48,7 +50,7 @@ public:
 
   /// @brief Method AddSegment, addr 0x32620c4, size 0xf4, virtual false, abstract: false, final false
   inline void AddSegment(::StringW segmentId, ::StringW segmentName, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* type,
-                         ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings);
+                         /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings);
 
   /// @brief Method Clear, addr 0x32630bc, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
@@ -103,13 +105,13 @@ protected:
   constexpr EventsBuilderSharedCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventsBuilderSharedCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventsBuilderSharedCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventsBuilderSharedCache(EventsBuilderSharedCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventsBuilderSharedCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventsBuilderSharedCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventsBuilderSharedCache(EventsBuilderSharedCache const&) = delete;
+  EventsBuilderSharedCache(EventsBuilderSharedCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22255 };

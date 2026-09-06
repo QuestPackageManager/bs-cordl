@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Screen.hpp"
+// IWYU pragma private; include "UnityEngine/Screen.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,10 @@ class Screen;
 // Write type traits
 MARK_REF_T(::UnityEngine::Screen*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Screen*, "UnityEngine", "Screen");
+// [NativeHeader("Runtime/Graphics/ScreenManager.h")]
+// [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
+// [NativeHeader("Runtime/Graphics/WindowLayout.h")]
+// [StaticAccessor("GetScreenManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -40,21 +44,26 @@ namespace UnityEngine {
 class CORDL_TYPE Screen : public ::System::Object {
 public:
   // Declarations
+  /// [NativeName("GetRequestedMSAASamples")]
   /// @brief Method GetMSAASamples, addr 0x6a85690, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetMSAASamples();
 
   /// @brief Method GetScreenOrientation, addr 0x6a85304, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ScreenOrientation GetScreenOrientation();
 
+  /// [NativeName("SetRequestedMSAASamples")]
   /// @brief Method SetMSAASamples, addr 0x6a85654, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMSAASamples(int32_t numSamples);
 
   /// @brief Method SetResolution, addr 0x6a855e8, size 0x6c, virtual false, abstract: false, final false
   static inline void SetResolution(int32_t width, int32_t height, bool fullscreen);
 
+  /// [Obsolete("SetResolution(int, int, bool, int) is obsolete. Use SetResolution(int, int, FullScreenMode, RefreshRate) instead.")]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method SetResolution, addr 0x6a85578, size 0x70, virtual false, abstract: false, final false
-  static inline void SetResolution(int32_t width, int32_t height, bool fullscreen, int32_t preferredRefreshRate);
+  static inline void SetResolution(int32_t width, int32_t height, bool fullscreen, /* [DefaultValue("0")] */ int32_t preferredRefreshRate);
 
+  /// [NativeName("RequestResolution")]
   /// @brief Method SetResolution, addr 0x6a854bc, size 0x60, virtual false, abstract: false, final false
   static inline void SetResolution(int32_t width, int32_t height, ::UnityEngine::FullScreenMode fullscreenMode, ::UnityEngine::RefreshRate preferredRefreshRate);
 
@@ -67,12 +76,15 @@ public:
   /// @brief Method get_currentResolution_Injected, addr 0x6a85398, size 0x3c, virtual false, abstract: false, final false
   static inline void get_currentResolution_Injected(::by_ref<::UnityEngine::Resolution> ret);
 
+  /// [NativeName("GetDPI")]
   /// @brief Method get_dpi, addr 0x6a852dc, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_dpi();
 
+  /// [NativeName("IsFullscreen")]
   /// @brief Method get_fullScreen, addr 0x6a853d4, size 0x28, virtual false, abstract: false, final false
   static inline bool get_fullScreen();
 
+  /// [NativeMethod(Name = "GetHeight", IsThreadSafe = true)]
   /// @brief Method get_height, addr 0x6a852b4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_height();
 
@@ -82,6 +94,7 @@ public:
   /// @brief Method get_orientation, addr 0x6a8532c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ScreenOrientation get_orientation();
 
+  /// [FreeFunction("ScreenScripting::GetResolutions")]
   /// @brief Method get_resolutions, addr 0x6a856e0, size 0x114, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Resolution> get_resolutions();
 
@@ -94,9 +107,11 @@ public:
   /// @brief Method get_safeArea_Injected, addr 0x6a85480, size 0x3c, virtual false, abstract: false, final false
   static inline void get_safeArea_Injected(::by_ref<::UnityEngine::Rect> ret);
 
+  /// [NativeMethod(Name = "GetWidth", IsThreadSafe = true)]
   /// @brief Method get_width, addr 0x6a8528c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_width();
 
+  /// [NativeName("RequestSetFullscreenFromScript")]
   /// @brief Method set_fullScreen, addr 0x6a853fc, size 0x3c, virtual false, abstract: false, final false
   static inline void set_fullScreen(bool value);
 
@@ -106,13 +121,13 @@ protected:
   constexpr Screen();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Screen", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Screen", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Screen(Screen&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Screen", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Screen", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Screen(Screen const&) = delete;
+  Screen(Screenconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10136 };

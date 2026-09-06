@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScreenshotLevelStarter.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScreenshotLevelStarter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -214,8 +214,8 @@ public:
   // @brief default ctor
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_Settings();
 
-  // Ctor Parameters [CppParam { name: "framerate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "screenshotPeriod", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "overwriteExistingFolder", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "framerate", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "screenshotPeriod", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "overwriteExistingFolder", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_Settings(int32_t framerate, float_t screenshotPeriod, bool overwriteExistingFolder) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -262,8 +262,8 @@ public:
   // @brief default ctor
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey();
 
-  // Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "characteristic", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "difficulty", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "characteristic", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "difficulty", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey(::StringW levelId, ::StringW characteristic, ::StringW difficulty) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -304,10 +304,10 @@ public:
   // @brief default ctor
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_Command();
 
-  // Ctor Parameters [CppParam { name: "beatmapKey", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey", modifiers: "", def_value: None }, CppParam { name:
-  // "screenshotTimes", ty: "::System::Collections::Generic::List_1<float_t>*", modifiers: "", def_value: None }, CppParam { name: "overrideGlobalSettings", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "settings", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings", modifiers: "", def_value: None }, CppParam { name: "differenceThreshold", ty:
-  // "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "beatmapKey", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "screenshotTimes", ty: "::System::Collections::Generic::List_1<float_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "overrideGlobalSettings", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "settings", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "differenceThreshold", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_Command(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey beatmapKey,
                                                                   ::System::Collections::Generic::List_1<float_t>* screenshotTimes, bool overrideGlobalSettings,
                                                                   ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings settings, float_t differenceThreshold) noexcept;
@@ -330,6 +330,7 @@ public:
   /// @brief Field settings, offset: 0x24, size: 0xc, def value: None
   ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings settings;
 
+  /// [UsedImplicitly]
   /// @brief Field differenceThreshold, offset: 0x30, size: 0x4, def value: None
   float_t differenceThreshold;
 
@@ -360,9 +361,10 @@ public:
   // @brief default ctor
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_FolderMetadata();
 
-  // Ctor Parameters [CppParam { name: "command", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command", modifiers: "", def_value: None }, CppParam { name: "gameSettings", ty:
-  // "::BeatSaber::Settings::Settings", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None },
-  // CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "command", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "gameSettings", ty: "::BeatSaber::Settings::Settings", modifiers: "", def_value: None, comment: None }, CppParam { name: "playerSpecificSettings", ty:
+  // "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None, comment: None }, CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_FolderMetadata(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command, ::BeatSaber::Settings::Settings gameSettings,
                                                                          ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                                                          ::GlobalNamespace::GameplayModifiers* gameplayModifiers) noexcept;
@@ -410,9 +412,9 @@ public:
   // @brief default ctor
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata();
 
-  // Ctor Parameters [CppParam { name: "deviceUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "deviceName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "deviceType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "devicePlatform", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "deviceModel", ty:
-  // "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "deviceUID", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "deviceName", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "deviceType", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "devicePlatform", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "deviceModel", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata(::StringW deviceUID, ::StringW deviceName, ::StringW deviceType, ::StringW devicePlatform, ::StringW deviceModel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -463,7 +465,7 @@ public:
   // @brief default ctor
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata();
 
-  // Ctor Parameters [CppParam { name: "gameVersion", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "gameVersion", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata(::StringW gameVersion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -506,8 +508,8 @@ public:
   // @brief default ctor
   constexpr ScreenshotLevelStarter_RunScreenshotLevelData();
 
-  // Ctor Parameters [CppParam { name: "globalScreenshotSettings", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings", modifiers: "", def_value: None }, CppParam { name:
-  // "screenshotLevels", ty: "::ArrayW<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "globalScreenshotSettings", ty: "::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "screenshotLevels", ty: "::ArrayW<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>", modifiers: "", def_value: None, comment: None }]
   constexpr ScreenshotLevelStarter_RunScreenshotLevelData(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings globalScreenshotSettings,
                                                           ::ArrayW<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command> screenshotLevels) noexcept;
 
@@ -533,6 +535,7 @@ static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter_RunScreenshotLe
 static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter_RunScreenshotLevelData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies ScreenshotLevelStarter::RunScreenshotLevelData::Command, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -624,13 +627,13 @@ protected:
   constexpr ScreenshotLevelStarter___c__DisplayClass46_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenshotLevelStarter___c__DisplayClass46_0(ScreenshotLevelStarter___c__DisplayClass46_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter___c__DisplayClass46_0(ScreenshotLevelStarter___c__DisplayClass46_0 const&) = delete;
+  ScreenshotLevelStarter___c__DisplayClass46_0(ScreenshotLevelStarter___c__DisplayClass46_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6766 };
@@ -676,6 +679,7 @@ static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayCla
 static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0) == 0x70, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -706,13 +710,13 @@ protected:
   constexpr ScreenshotLevelStarter___c__DisplayClass46_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenshotLevelStarter___c__DisplayClass46_1(ScreenshotLevelStarter___c__DisplayClass46_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter___c__DisplayClass46_1(ScreenshotLevelStarter___c__DisplayClass46_1 const&) = delete;
+  ScreenshotLevelStarter___c__DisplayClass46_1(ScreenshotLevelStarter___c__DisplayClass46_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6767 };
@@ -728,6 +732,7 @@ static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayCla
 static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapKey, ScreenshotLevelStarter::RunScreenshotLevelData::Command, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -804,17 +809,22 @@ public:
   /// @brief Method MoveNext, addr 0x5913cd4, size 0x201c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5915da4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5915dac, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5915de4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5913cb8, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -923,6 +933,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x5915cf0, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5912cf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -941,13 +952,13 @@ protected:
   constexpr ScreenshotLevelStarter__RunScreenshotLevel_d__46();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevel_d__46", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevel_d__46", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenshotLevelStarter__RunScreenshotLevel_d__46(ScreenshotLevelStarter__RunScreenshotLevel_d__46&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevel_d__46", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevel_d__46", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter__RunScreenshotLevel_d__46(ScreenshotLevelStarter__RunScreenshotLevel_d__46 const&) = delete;
+  ScreenshotLevelStarter__RunScreenshotLevel_d__46(ScreenshotLevelStarter__RunScreenshotLevel_d__46const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6768 };
@@ -1043,6 +1054,7 @@ static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotL
 static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46) == 0xc8, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1075,17 +1087,22 @@ public:
   /// @brief Method MoveNext, addr 0x5915df0, size 0x284, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5916074, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x591607c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59160b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5915dec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -1107,6 +1124,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5912c70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -1125,13 +1143,13 @@ protected:
   constexpr ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45 const&) = delete;
+  ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6769 };
@@ -1232,21 +1250,24 @@ public:
 
   static inline ::GlobalNamespace::ScreenshotLevelStarter* New_ctor();
 
+  /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<RunScreenshotLevel>d__46))]
   /// @brief Method RunScreenshotLevel, addr 0x5912c78, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RunScreenshotLevel(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command);
 
+  /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<RunScreenshotLevelQueue>d__45))]
   /// @brief Method RunScreenshotLevelQueue, addr 0x5912b1c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RunScreenshotLevelQueue();
 
   /// @brief Method SaveBuildSpecificMetadata, addr 0x5913288, size 0xf0, virtual false, abstract: false, final false
-  static inline void SaveBuildSpecificMetadata(::StringW metadataFolderPath, ::by_ref<::StringW> gameVersion);
+  static inline void SaveBuildSpecificMetadata(::StringW metadataFolderPath, /* [IsReadOnly] */ ::by_ref<::StringW> gameVersion);
 
   /// @brief Method SaveDeviceMetadata, addr 0x5913080, size 0x208, virtual false, abstract: false, final false
   static inline void SaveDeviceMetadata(::StringW metadataFolderPath);
 
   /// @brief Method SaveMetadata, addr 0x5912cfc, size 0x158, virtual false, abstract: false, final false
-  static inline void SaveMetadata(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command, ::StringW metadataFolderPath, ::by_ref<::BeatSaber::Settings::Settings> settings,
-                                  ::by_ref<::GlobalNamespace::PlayerSpecificSettings*> playerSpecificSettings, ::by_ref<::GlobalNamespace::GameplayModifiers*> gameplayModifiers);
+  static inline void SaveMetadata(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command, ::StringW metadataFolderPath,
+                                  /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::PlayerSpecificSettings*> playerSpecificSettings,
+                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayModifiers*> gameplayModifiers);
 
   /// @brief Method SaveMetadataObject, addr 0x5912e54, size 0x22c, virtual false, abstract: false, final false
   static inline void SaveMetadataObject(::System::Object* obj, ::StringW path);
@@ -1351,13 +1372,13 @@ protected:
   constexpr ScreenshotLevelStarter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenshotLevelStarter(ScreenshotLevelStarter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter(ScreenshotLevelStarter const&) = delete;
+  ScreenshotLevelStarter(ScreenshotLevelStarterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6770 };
@@ -1440,33 +1461,43 @@ public:
   /// @brief Field kMessageSongStarted offset 0xffffffff size 0x8
   static constexpr ::ConstString kMessageSongStarted{ u"ScreenshotLevelStarter: -- Started song" };
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
+  /// [Inject]
   /// @brief Field _menuTransitionsHelper, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
+  /// [Inject]
   /// @brief Field _beatmapLevels, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevels;
 
+  /// [Inject]
   /// @brief Field _gameVersionProvider, offset: 0x28, size: 0x8, def value: None
   ::BeatSaber::Init::GameVersionProvider* ____gameVersionProvider;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [Inject]
   /// @brief Field _determinismConfig, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
 
+  /// [Inject]
   /// @brief Field _coroutineStarter, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 
+  /// [Inject]
   /// @brief Field _renderingParamsApplicator, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IRenderingParamsApplicator* ____renderingParamsApplicator;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 

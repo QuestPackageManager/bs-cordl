@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\ContentDecodeStream.hpp"
+// IWYU pragma private; include "System/Net/ContentDecodeStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   // @brief default ctor
   constexpr ContentDecodeStream_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ContentDecodeStream_Mode(int32_t value__) noexcept;
 
   /// @brief Field Deflate value: I32(1)
@@ -128,6 +128,7 @@ public:
   /// @brief Method .ctor, addr 0x64299b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* decodeStream, ::System::IO::Stream* originalInnerStream);
 
+  /// [CompilerGenerated]
   /// @brief Method get_OriginalInnerStream, addr 0x64299d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_OriginalInnerStream();
 
@@ -137,17 +138,18 @@ protected:
   constexpr ContentDecodeStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContentDecodeStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentDecodeStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentDecodeStream(ContentDecodeStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContentDecodeStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentDecodeStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentDecodeStream(ContentDecodeStream const&) = delete;
+  ContentDecodeStream(ContentDecodeStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11580 };
 
+  /// [CompilerGenerated]
   /// @brief Field <OriginalInnerStream>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::IO::Stream* ____OriginalInnerStream_k__BackingField;
 

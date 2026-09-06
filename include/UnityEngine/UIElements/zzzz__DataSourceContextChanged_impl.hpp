@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DataSourceContextChanged.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DataSourceContextChanged.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DataSourceContext_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DataSourceContextChanged_def.hpp"
@@ -26,9 +26,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::DataSourceContextChanged::_ctor(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
-                                                                     ::by_ref<::UnityEngine::UIElements::DataSourceContext> previousContext,
-                                                                     ::by_ref<::UnityEngine::UIElements::DataSourceContext> newContext) {
+inline void UnityEngine::UIElements::DataSourceContextChanged::_ctor(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContext> previousContext,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContext> newContext) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataSourceContextChanged>(),
@@ -38,9 +38,9 @@ inline void UnityEngine::UIElements::DataSourceContextChanged::_ctor(::UnityEngi
                                            ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataSourceContext>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, element, bindingId, previousContext, newContext);
 }
-// Ctor Parameters [CppParam { name: "m_TargetElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingId", ty:
-// "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_PreviousContext", ty: "::UnityEngine::UIElements::DataSourceContext", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_NewContext", ty: "::UnityEngine::UIElements::DataSourceContext", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_TargetElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BindingId", ty:
+// "::UnityEngine::UIElements::BindingId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PreviousContext", ty: "::UnityEngine::UIElements::DataSourceContext", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NewContext", ty: "::UnityEngine::UIElements::DataSourceContext", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::DataSourceContextChanged::DataSourceContextChanged(::UnityEngine::UIElements::VisualElement* m_TargetElement, ::UnityEngine::UIElements::BindingId m_BindingId,
                                                                                         ::UnityEngine::UIElements::DataSourceContext m_PreviousContext,
                                                                                         ::UnityEngine::UIElements::DataSourceContext m_NewContext) noexcept {

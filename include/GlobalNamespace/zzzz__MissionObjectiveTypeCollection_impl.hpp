@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjectiveTypeCollection.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveTypeCollection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveTypeCollection_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveTypeCollection_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventsBuilderFactory.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventsBuilderFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__EventsBuilderFactory_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__EventsBuilderSharedCache_def.hpp"

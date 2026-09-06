@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\NullReferenceException.hpp"
+// IWYU pragma private; include "System/NullReferenceException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__NullReferenceException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

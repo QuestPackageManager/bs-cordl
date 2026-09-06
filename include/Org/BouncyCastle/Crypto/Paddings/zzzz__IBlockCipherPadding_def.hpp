@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Paddings\IBlockCipherPadding.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Paddings/IBlockCipherPadding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,21 +26,21 @@ public:
   // Declarations
   __declspec(property(get = get_PaddingName)) ::StringW PaddingName;
 
-  /// @brief Method AddPadding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddPadding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t AddPadding(::ArrayW<uint8_t> input, int32_t inOff);
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method PadCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PadCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t PadCount(::ArrayW<uint8_t> input);
 
-  /// @brief Method get_PaddingName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_PaddingName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_PaddingName();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBlockCipherPadding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBlockCipherPadding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBlockCipherPadding(IBlockCipherPadding const&) = delete;
+  IBlockCipherPadding(IBlockCipherPaddingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1005 };

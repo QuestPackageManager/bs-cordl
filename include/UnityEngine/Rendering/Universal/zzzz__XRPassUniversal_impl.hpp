@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\XRPassUniversal.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRPassUniversal.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__XRPass_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__XRPassUniversal_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__XRPassCreateInfo_def.hpp"

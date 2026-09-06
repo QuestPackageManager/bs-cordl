@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Image.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Image.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,6 +8,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__ScaleMode_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -72,6 +73,7 @@ MARK_REF_T(::UnityEngine::UIElements::Image_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Image*, "UnityEngine.UIElements", "Image");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Image_UxmlFactory*, "UnityEngine.UIElements", "Image/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Image_UxmlTraits*, "UnityEngine.UIElements", "Image/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -90,13 +92,13 @@ protected:
   constexpr Image_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Image_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Image_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Image_UxmlFactory(Image_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Image_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Image_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Image_UxmlFactory(Image_UxmlFactory const&) = delete;
+  Image_UxmlFactory(Image_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4214 };
@@ -107,6 +109,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Image_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -125,13 +128,13 @@ protected:
   constexpr Image_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Image_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Image_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Image_UxmlTraits(Image_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Image_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Image_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Image_UxmlTraits(Image_UxmlTraits const&) = delete;
+  Image_UxmlTraits(Image_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4215 };
@@ -142,7 +145,8 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Image_UxmlTraits) == 0x88, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.Color, UnityEngine.Rect, UnityEngine.ScaleMode, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.CustomStyleProperty`1<T>, UnityEngine.UIElements.VisualElement
+// Dependencies UnityEngine.Color, UnityEngine.Object, UnityEngine.Rect, UnityEngine.ScaleMode, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.CustomStyleProperty`1<T>,
+// UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Image
@@ -153,6 +157,7 @@ public:
 
   using UxmlTraits = ::UnityEngine::UIElements::Image_UxmlTraits;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_image, put = set_image)) ::UnityW<::UnityEngine::Texture> image;
 
   /// @brief Field imageProperty, offset 0xffffffff, size 0x98
@@ -202,21 +207,25 @@ public:
                       put = setStaticF_s_VectorImageProperty)) ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>>
       s_VectorImageProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_scaleMode, put = set_scaleMode)) ::UnityEngine::ScaleMode scaleMode;
 
   /// @brief Field scaleModeProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_scaleModeProperty, put = setStaticF_scaleModeProperty)) ::UnityEngine::UIElements::BindingId scaleModeProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_sourceRect, put = set_sourceRect)) ::UnityEngine::Rect sourceRect;
 
   /// @brief Field sourceRectProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_sourceRectProperty, put = setStaticF_sourceRectProperty)) ::UnityEngine::UIElements::BindingId sourceRectProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_sprite, put = set_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
 
   /// @brief Field spriteProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_spriteProperty, put = setStaticF_spriteProperty)) ::UnityEngine::UIElements::BindingId spriteProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_tintColor, put = set_tintColor)) ::UnityEngine::Color tintColor;
 
   /// @brief Field tintColorProperty, offset 0xffffffff, size 0x98
@@ -225,11 +234,13 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_uv, put = set_uv)) ::UnityEngine::Rect uv;
 
   /// @brief Field uvProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_uvProperty, put = setStaticF_uvProperty)) ::UnityEngine::UIElements::BindingId uvProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_vectorImage, put = set_vectorImage)) ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage;
 
   /// @brief Field vectorImageProperty, offset 0xffffffff, size 0x98
@@ -266,7 +277,10 @@ public:
   inline void ReadCustomProperties(::UnityEngine::UIElements::ICustomStyle* customStyleProvider);
 
   /// @brief Method SetProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T0, typename T1, typename T2> inline void SetProperty(T0 src, ::by_ref<T0> dst, ::by_ref<T1> alt0, ::by_ref<T2> alt1, ::UnityEngine::UIElements::BindingId binding);
+  template <typename T0, typename T1, typename T2>
+    requires(::cordl_internals::type_constraint<T0, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T1, ::UnityEngine::Object*> &&
+             ::cordl_internals::type_constraint<T2, ::UnityEngine::Object*>)
+  inline void SetProperty(T0 src, ::by_ref<T0> dst, ::by_ref<T1> alt0, ::by_ref<T2> alt1, ::UnityEngine::UIElements::BindingId binding);
 
   /// @brief Method SetScaleMode, addr 0x6d48644, size 0xb4, virtual false, abstract: false, final false
   inline void SetScaleMode(::UnityEngine::ScaleMode mode);
@@ -431,13 +445,13 @@ protected:
   constexpr Image();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Image(Image&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Image", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Image(Image const&) = delete;
+  Image(Imageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4216 };

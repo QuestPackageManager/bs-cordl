@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\PlatformInternal.hpp"
+// IWYU pragma private; include "Oculus/Platform/PlatformInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -157,7 +157,7 @@ public:
   // @brief default ctor
   constexpr PlatformInternal_MessageTypeInternal();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlatformInternal_MessageTypeInternal(uint32_t value__) noexcept;
 
   /// @brief Field AbuseReport_LaunchAdvancedReportFlow value: U32(1286683246)
@@ -382,13 +382,13 @@ protected:
   constexpr PlatformInternal_HTTP();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_HTTP", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_HTTP", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInternal_HTTP(PlatformInternal_HTTP&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_HTTP", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_HTTP", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInternal_HTTP(PlatformInternal_HTTP const&) = delete;
+  PlatformInternal_HTTP(PlatformInternal_HTTPconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17972 };
@@ -415,13 +415,13 @@ protected:
   constexpr PlatformInternal_Users();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_Users", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_Users", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInternal_Users(PlatformInternal_Users&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_Users", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal_Users", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInternal_Users(PlatformInternal_Users const&) = delete;
+  PlatformInternal_Users(PlatformInternal_Usersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17973 };
@@ -460,13 +460,13 @@ protected:
   constexpr PlatformInternal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInternal(PlatformInternal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInternal(PlatformInternal const&) = delete;
+  PlatformInternal(PlatformInternalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17974 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ControllerColliderHit.hpp"
+// IWYU pragma private; include "UnityEngine/ControllerColliderHit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class ControllerColliderHit;
 // Write type traits
 MARK_REF_T(::UnityEngine::ControllerColliderHit*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ControllerColliderHit*, "UnityEngine", "ControllerColliderHit");
+// [RequiredByNativeCode]
 // Dependencies System.Object, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: false
@@ -167,13 +168,13 @@ protected:
   constexpr ControllerColliderHit();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerColliderHit", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerColliderHit", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerColliderHit(ControllerColliderHit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerColliderHit", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerColliderHit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerColliderHit(ControllerColliderHit const&) = delete;
+  ControllerColliderHit(ControllerColliderHitconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18634 };

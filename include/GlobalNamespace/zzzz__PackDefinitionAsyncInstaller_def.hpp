@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PackDefinitionAsyncInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/PackDefinitionAsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
@@ -44,6 +46,7 @@ MARK_REF_T(::GlobalNamespace::PackDefinitionAsyncInstaller*);
 MARK_REF_T(::GlobalNamespace::PackDefinitionAsyncInstaller___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionAsyncInstaller*, "", "PackDefinitionAsyncInstaller");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PackDefinitionAsyncInstaller___c*, "", "PackDefinitionAsyncInstaller/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -79,13 +82,13 @@ protected:
   constexpr PackDefinitionAsyncInstaller___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionAsyncInstaller___c(PackDefinitionAsyncInstaller___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionAsyncInstaller___c(PackDefinitionAsyncInstaller___c const&) = delete;
+  PackDefinitionAsyncInstaller___c(PackDefinitionAsyncInstaller___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15009 };
@@ -148,13 +151,13 @@ protected:
   constexpr PackDefinitionAsyncInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionAsyncInstaller(PackDefinitionAsyncInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionAsyncInstaller(PackDefinitionAsyncInstaller const&) = delete;
+  PackDefinitionAsyncInstaller(PackDefinitionAsyncInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15010 };

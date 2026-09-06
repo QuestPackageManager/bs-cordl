@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\TigerDigest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/TigerDigest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -212,13 +212,13 @@ protected:
   constexpr TigerDigest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TigerDigest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TigerDigest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TigerDigest(TigerDigest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TigerDigest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TigerDigest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TigerDigest(TigerDigest const&) = delete;
+  TigerDigest(TigerDigestconst&) = delete;
 
   /// @brief Field DigestLength offset 0xffffffff size 0x4
   static constexpr int32_t DigestLength{ static_cast<int32_t>(0x18) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\ObjectReferenceStack.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/ObjectReferenceStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectReferenceStack_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -96,9 +96,9 @@ inline int32_t System::Runtime::Serialization::ObjectReferenceStack::get_Count()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ObjectReferenceStack>(), { "get_Count", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "objectArray", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "isReferenceArray", ty: "::ArrayW<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "objectDictionary", ty:
-// "::System::Collections::Generic::Dictionary_2<::System::Object*,::System::Object*>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "objectArray", ty: "::ArrayW<::System::Object*>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "isReferenceArray", ty: "::ArrayW<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "objectDictionary", ty:
+// "::System::Collections::Generic::Dictionary_2<::System::Object*,::System::Object*>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Serialization::ObjectReferenceStack::ObjectReferenceStack(int32_t count, ::ArrayW<::System::Object*> objectArray, ::ArrayW<bool> isReferenceArray,
                                                                                        ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* objectDictionary) noexcept {
   this->count = count;

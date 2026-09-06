@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\MeshValidation.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MeshValidation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,7 +110,7 @@ public:
   // @brief default ctor
   constexpr MeshValidation_AttributeValidationStrategy();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MeshValidation_AttributeValidationStrategy(int32_t value__) noexcept;
 
   /// @brief Field Nullify value: I32(1)
@@ -136,6 +136,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshValidation
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::MeshValidation_AttributeValidationStrategy) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -191,13 +192,13 @@ protected:
   constexpr MeshValidation___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshValidation___c(MeshValidation___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshValidation___c(MeshValidation___c const&) = delete;
+  MeshValidation___c(MeshValidation___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16886 };
@@ -208,6 +209,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -238,13 +240,13 @@ protected:
   constexpr MeshValidation___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshValidation___c__DisplayClass10_0(MeshValidation___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshValidation___c__DisplayClass10_0(MeshValidation___c__DisplayClass10_0 const&) = delete;
+  MeshValidation___c__DisplayClass10_0(MeshValidation___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16887 };
@@ -260,6 +262,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshValidation
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c__DisplayClass10_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ProBuilder.Triangle
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -299,13 +302,13 @@ protected:
   constexpr MeshValidation___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshValidation___c__DisplayClass5_0(MeshValidation___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshValidation___c__DisplayClass5_0(MeshValidation___c__DisplayClass5_0 const&) = delete;
+  MeshValidation___c__DisplayClass5_0(MeshValidation___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16888 };
@@ -326,6 +329,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshValidation
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c__DisplayClass5_0) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -341,19 +345,24 @@ public:
 
   using __c__DisplayClass5_0 = ::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c__DisplayClass5_0;
 
+  /// [Extension]
   /// @brief Method CollectFaceGroups, addr 0x67366d4, size 0x3fc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Triangle>*>* CollectFaceGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                                                                         ::UnityEngine::ProBuilder::Face* face);
 
+  /// [Extension]
   /// @brief Method ContainsDegenerateTriangles, addr 0x6735968, size 0x14, virtual false, abstract: false, final false
   static inline bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
+  /// [Extension]
   /// @brief Method ContainsDegenerateTriangles, addr 0x6735d7c, size 0x14c, virtual false, abstract: false, final false
   static inline bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
+  /// [Extension]
   /// @brief Method ContainsDegenerateTriangles, addr 0x673597c, size 0x400, virtual false, abstract: false, final false
   static inline bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 
+  /// [Extension]
   /// @brief Method ContainsNonContiguousTriangles, addr 0x6735ec8, size 0x134, virtual false, abstract: false, final false
   static inline bool ContainsNonContiguousTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
@@ -362,6 +371,7 @@ public:
   static inline void EnsureArraySize(::by_ref<::ArrayW<T>> attribute, int32_t expectedVertexCount, ::UnityEngine::ProBuilder::MeshOperations::MeshValidation_AttributeValidationStrategy strategy,
                                      T fill);
 
+  /// [Extension]
   /// @brief Method EnsureFacesAreComposedOfContiguousTriangles, addr 0x6735ffc, size 0x6d8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   EnsureFacesAreComposedOfContiguousTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
@@ -411,13 +421,13 @@ protected:
   constexpr MeshValidation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshValidation(MeshValidation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshValidation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshValidation(MeshValidation const&) = delete;
+  MeshValidation(MeshValidationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16889 };

@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\CustomAttributeExtensions.hpp"
+// IWYU pragma private; include "System/Reflection/CustomAttributeExtensions.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__CustomAttributeExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -138,14 +139,18 @@ inline ::System::Attribute* System::Reflection::CustomAttributeExtensions::GetCu
                                                            { "GetCustomAttribute", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Attribute*>(nullptr, ___internal_method, element, attributeType);
 }
-template <typename T> inline T System::Reflection::CustomAttributeExtensions::GetCustomAttribute(::System::Reflection::Assembly* element) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T System::Reflection::CustomAttributeExtensions::GetCustomAttribute(::System::Reflection::Assembly* element) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::CustomAttributeExtensions*>(),
                                                            { "GetCustomAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::Assembly*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, element);
 }
-template <typename T> inline T System::Reflection::CustomAttributeExtensions::GetCustomAttribute(::System::Reflection::MemberInfo* element) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T System::Reflection::CustomAttributeExtensions::GetCustomAttribute(::System::Reflection::MemberInfo* element) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::CustomAttributeExtensions*>(),
                                                            { "GetCustomAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
@@ -158,7 +163,9 @@ inline ::System::Attribute* System::Reflection::CustomAttributeExtensions::GetCu
                                               { "GetCustomAttribute", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Attribute*>(nullptr, ___internal_method, element, attributeType, inherit);
 }
-template <typename T> inline T System::Reflection::CustomAttributeExtensions::GetCustomAttribute(::System::Reflection::MemberInfo* element, bool inherit) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T System::Reflection::CustomAttributeExtensions::GetCustomAttribute(::System::Reflection::MemberInfo* element, bool inherit) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::CustomAttributeExtensions*>(),
                                                            { "GetCustomAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<bool>() } })));
@@ -184,7 +191,9 @@ inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* Syst
                                                            { "GetCustomAttributes", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*>(nullptr, ___internal_method, element, attributeType);
 }
-template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* System::Reflection::CustomAttributeExtensions::GetCustomAttributes(::System::Reflection::MemberInfo* element) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::System::Collections::Generic::IEnumerable_1<T>* System::Reflection::CustomAttributeExtensions::GetCustomAttributes(::System::Reflection::MemberInfo* element) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::CustomAttributeExtensions*>(),
                                                            { "GetCustomAttributes", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
@@ -199,6 +208,7 @@ inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* Syst
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*>(nullptr, ___internal_method, element, attributeType, inherit);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
 inline ::System::Collections::Generic::IEnumerable_1<T>* System::Reflection::CustomAttributeExtensions::GetCustomAttributes(::System::Reflection::MemberInfo* element, bool inherit) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::CustomAttributeExtensions*>(),

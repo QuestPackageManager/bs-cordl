@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\MethodResponse.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/MethodResponse.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MethodResponse_def.hpp"

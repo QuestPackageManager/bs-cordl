@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\GlyphRect.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/GlyphRect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct GlyphRect;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::GlyphRect);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine::TextCore {
 // Is value type: true
@@ -78,8 +79,8 @@ public:
   // @brief default ctor
   constexpr GlyphRect();
 
-  // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Width", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_X", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Y", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GlyphRect(int32_t m_X, int32_t m_Y, int32_t m_Width, int32_t m_Height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -88,15 +89,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [SerializeField]
+  /// [NativeName("x")]
   /// @brief Field m_X, offset: 0x0, size: 0x4, def value: None
   int32_t m_X;
 
+  /// [NativeName("y")]
+  /// [SerializeField]
   /// @brief Field m_Y, offset: 0x4, size: 0x4, def value: None
   int32_t m_Y;
 
+  /// [NativeName("width")]
+  /// [SerializeField]
   /// @brief Field m_Width, offset: 0x8, size: 0x4, def value: None
   int32_t m_Width;
 
+  /// [NativeName("height")]
+  /// [SerializeField]
   /// @brief Field m_Height, offset: 0xc, size: 0x4, def value: None
   int32_t m_Height;
 

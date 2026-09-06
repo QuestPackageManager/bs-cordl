@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuaternionSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuaternionSerializable.hpp"
 #include "GlobalNamespace/zzzz__QuaternionSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
@@ -344,8 +344,8 @@ constexpr GlobalNamespace::QuaternionSerializable::operator ::System::IEquatable
 constexpr ::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>* GlobalNamespace::QuaternionSerializable::i___System__IEquatable_1___GlobalNamespace__QuaternionSerializable_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::QuaternionSerializable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_b", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_c",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_b", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_c", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::QuaternionSerializable::QuaternionSerializable(int32_t _a, int32_t _b, int32_t _c) noexcept {
   this->_a = _a;
   this->_b = _b;

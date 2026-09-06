@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioManagerConfigSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioManagerConfigSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerConfigSO_def.hpp"
 #include "UnityEngine/Audio/zzzz__AudioMixer_def.hpp"

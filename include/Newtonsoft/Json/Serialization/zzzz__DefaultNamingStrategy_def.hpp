@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\DefaultNamingStrategy.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultNamingStrategy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::DefaultNamingStrategy* New_ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method ResolvePropertyName, addr 0x5d3fbb8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
@@ -34,13 +35,13 @@ protected:
   constexpr DefaultNamingStrategy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultNamingStrategy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultNamingStrategy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultNamingStrategy(DefaultNamingStrategy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultNamingStrategy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultNamingStrategy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultNamingStrategy(DefaultNamingStrategy const&) = delete;
+  DefaultNamingStrategy(DefaultNamingStrategyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13484 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\StringInfo.hpp"
+// IWYU pragma private; include "System/Globalization/StringInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__StringInfo_def.hpp"
 #include "System/Globalization/zzzz__UnicodeCategory_def.hpp"

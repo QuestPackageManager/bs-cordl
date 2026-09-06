@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\ForwardLights.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/ForwardLights.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ForwardLights)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Mathematics {
 struct float4;
@@ -26,7 +28,9 @@ namespace Unity::Mathematics {
 struct float4x4;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph;
@@ -208,13 +212,13 @@ protected:
   constexpr ForwardLights_LightConstantBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_LightConstantBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_LightConstantBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ForwardLights_LightConstantBuffer(ForwardLights_LightConstantBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_LightConstantBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_LightConstantBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardLights_LightConstantBuffer(ForwardLights_LightConstantBuffer const&) = delete;
+  ForwardLights_LightConstantBuffer(ForwardLights_LightConstantBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13064 };
@@ -239,8 +243,8 @@ public:
   // @brief default ctor
   constexpr ForwardLights_InitParams();
 
-  // Ctor Parameters [CppParam { name: "lightCookieManager", ty: "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: None }, CppParam { name: "forwardPlus", ty:
-  // "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "lightCookieManager", ty: "::UnityEngine::Rendering::Universal::LightCookieManager*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "forwardPlus", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ForwardLights_InitParams(::UnityEngine::Rendering::Universal::LightCookieManager* lightCookieManager, bool forwardPlus) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -319,13 +323,13 @@ protected:
   constexpr ForwardLights_SetupLightPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_SetupLightPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_SetupLightPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ForwardLights_SetupLightPassData(ForwardLights_SetupLightPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_SetupLightPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights_SetupLightPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardLights_SetupLightPassData(ForwardLights_SetupLightPassData const&) = delete;
+  ForwardLights_SetupLightPassData(ForwardLights_SetupLightPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13066 };
@@ -356,6 +360,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::ForwardLig
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -397,13 +402,13 @@ protected:
   constexpr ForwardLights___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ForwardLights___c(ForwardLights___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardLights___c(ForwardLights___c const&) = delete;
+  ForwardLights___c(ForwardLights___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13067 };
@@ -581,6 +586,7 @@ public:
   inline void SetupShaderLightConstants(::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                         ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
+  /// [CompilerGenerated]
   /// @brief Method <PreSetup>g__IsProbeGreater|40_0, addr 0x68f6588, size 0x68, virtual false, abstract: false, final false
   static inline bool _PreSetup_g__IsProbeGreater_40_0(::UnityEngine::Rendering::VisibleReflectionProbe probe, ::UnityEngine::Rendering::VisibleReflectionProbe otherProbe);
 
@@ -775,13 +781,13 @@ protected:
   constexpr ForwardLights();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ForwardLights(ForwardLights&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ForwardLights", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ForwardLights(ForwardLights const&) = delete;
+  ForwardLights(ForwardLightsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13068 };

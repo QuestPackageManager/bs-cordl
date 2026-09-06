@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\SortedSet_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/SortedSet_1.hpp"
 #include "System/Collections/Generic/zzzz__NodeColor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
@@ -354,10 +354,10 @@ template <typename T>
 constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Collections::Generic::SortedSet_1_Enumerator<T>::i___System__Runtime__Serialization__IDeserializationCallback() {
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_tree", ty: "::System::Collections::Generic::SortedSet_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_version", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<::System::Collections::Generic::SortedSet_1_Node<T>*>*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_current", ty: "::System::Collections::Generic::SortedSet_1_Node<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_reverse", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_tree", ty: "::System::Collections::Generic::SortedSet_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_version", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<::System::Collections::Generic::SortedSet_1_Node<T>*>*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_current", ty: "::System::Collections::Generic::SortedSet_1_Node<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "_reverse", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
 constexpr ::System::Collections::Generic::SortedSet_1_Enumerator<T>::SortedSet_1_Enumerator(::System::Collections::Generic::SortedSet_1<T>* _tree, int32_t _version,
                                                                                             ::System::Collections::Generic::Stack_1<::System::Collections::Generic::SortedSet_1_Node<T>*>* _stack,
@@ -370,7 +370,8 @@ constexpr ::System::Collections::Generic::SortedSet_1_Enumerator<T>::SortedSet_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::SortedSet_1_Enumerator<T>::SortedSet_1_Enumerator() {}
-// Ctor Parameters [CppParam { name: "UniqueCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "UnfoundCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "UniqueCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "UnfoundCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 template <typename T> constexpr ::System::Collections::Generic::SortedSet_1_ElementCount<T>::SortedSet_1_ElementCount(int32_t UniqueCount, int32_t UnfoundCount) noexcept {
   this->UniqueCount = UniqueCount;
   this->UnfoundCount = UnfoundCount;

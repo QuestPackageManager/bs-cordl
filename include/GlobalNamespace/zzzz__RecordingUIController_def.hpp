@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RecordingUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace/RecordingUIController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ protected:
   constexpr RecordingUIController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingUIController_InitData(RecordingUIController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingUIController_InitData(RecordingUIController_InitData const&) = delete;
+  RecordingUIController_InitData(RecordingUIController_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6013 };
@@ -95,6 +95,7 @@ public:
   /// @brief Field _updateTimeSpan, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__updateTimeSpan, put = __cordl_internal_set__updateTimeSpan)) float_t _updateTimeSpan;
 
+  /// [Inject]
   /// @brief Method Init, addr 0x59ace20, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
@@ -136,23 +137,27 @@ protected:
   constexpr RecordingUIController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingUIController(RecordingUIController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingUIController(RecordingUIController const&) = delete;
+  RecordingUIController(RecordingUIControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6014 };
 
+  /// [SerializeField]
   /// @brief Field _circle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____circle;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _updateTimeSpan, offset: 0x28, size: 0x4, def value: None
   float_t ____updateTimeSpan;
 
+  /// [InjectOptional]
   /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::RecordingUIController_InitData* ____initData;
 

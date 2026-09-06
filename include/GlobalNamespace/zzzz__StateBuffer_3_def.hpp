@@ -1,9 +1,13 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StateBuffer_3.hpp"
+// IWYU pragma private; include "GlobalNamespace/StateBuffer_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IEquatableByReference_1_def.hpp"
+#include "GlobalNamespace/zzzz__IStateTable_3_def.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -12,16 +16,36 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateBuffer_3)
 namespace GlobalNamespace {
-template <typename T> class IEquatableByReference_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IEquatableByReference_1;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3_InterpolationDelegate;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class StateBuffer_3_InterpolationDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3_SmoothingDelegate;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class StateBuffer_3_SmoothingDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> struct StateBuffer_3_TimestampedStateTable;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+struct StateBuffer_3_TimestampedStateTable;
 }
 namespace GlobalNamespace {
 struct SyncStateId;
@@ -40,16 +64,40 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class StateBuffer_3;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3_InterpolationDelegate;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class StateBuffer_3_InterpolationDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3_SmoothingDelegate;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+class StateBuffer_3_SmoothingDelegate;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> struct StateBuffer_3_TimestampedStateTable;
+template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
+struct StateBuffer_3_TimestampedStateTable;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::StateBuffer_3);
@@ -60,10 +108,15 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::StateBuffer_3, "", "StateBuffer`3
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::StateBuffer_3_InterpolationDelegate, "", "StateBuffer`3/InterpolationDelegate");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::StateBuffer_3_SmoothingDelegate, "", "StateBuffer`3/SmoothingDelegate");
 DEFINE_IL2CPP_GEN_CLASS(::GlobalNamespace::StateBuffer_3_TimestampedStateTable, "", "StateBuffer`3/TimestampedStateTable");
-// Dependencies SyncStateId
+// Dependencies IEquatableByReference`1<T>, IStateTable`3<TStateTable, TType, TState>, LiteNetLib.Utils.INetSerializable, SyncStateId, System.IConvertible
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
 // Is value type: true
 // CS Name: StateBuffer`3/TimestampedStateTable<TStateTable,TType,TState>
 struct CORDL_TYPE StateBuffer_3_TimestampedStateTable {
@@ -73,11 +126,11 @@ public:
   constexpr operator ::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>*();
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Equals(::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>> other);
 
   /// @brief Method IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool
-  IEquatableByReference_StateBuffer_TStateTable_TType_TState__TimestampedStateTable__Equals(::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>> other);
+  inline bool IEquatableByReference_StateBuffer_TStateTable_TType_TState__TimestampedStateTable__Equals(
+      /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>> other);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SyncStateId id, int64_t time, TStateTable state);
@@ -93,8 +146,9 @@ public:
   // @brief default ctor
   constexpr StateBuffer_3_TimestampedStateTable();
 
-  // Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::GlobalNamespace::SyncStateId", modifiers: "", def_value: None }, CppParam
-  // { name: "time", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "TStateTable", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "id", ty: "::GlobalNamespace::SyncStateId", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "time", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "state", ty: "TStateTable", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr StateBuffer_3_TimestampedStateTable(bool isValid, ::GlobalNamespace::SyncStateId id, int64_t time, TStateTable state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -119,10 +173,15 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.MulticastDelegate
+// Dependencies IEquatableByReference`1<T>, IStateTable`3<TStateTable, TType, TState>, LiteNetLib.Utils.INetSerializable, System.IConvertible, System.MulticastDelegate
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
 // Is value type: false
 // CS Name: StateBuffer`3/InterpolationDelegate<TStateTable,TType,TState>
 class CORDL_TYPE StateBuffer_3_InterpolationDelegate : public ::System::MulticastDelegate {
@@ -148,13 +207,13 @@ protected:
   constexpr StateBuffer_3_InterpolationDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3_InterpolationDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3_InterpolationDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StateBuffer_3_InterpolationDelegate(StateBuffer_3_InterpolationDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3_InterpolationDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3_InterpolationDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StateBuffer_3_InterpolationDelegate(StateBuffer_3_InterpolationDelegate const&) = delete;
+  StateBuffer_3_InterpolationDelegate(StateBuffer_3_InterpolationDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18297 };
@@ -163,10 +222,15 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.MulticastDelegate
+// Dependencies IEquatableByReference`1<T>, IStateTable`3<TStateTable, TType, TState>, LiteNetLib.Utils.INetSerializable, System.IConvertible, System.MulticastDelegate
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
 // Is value type: false
 // CS Name: StateBuffer`3/SmoothingDelegate<TStateTable,TType,TState>
 class CORDL_TYPE StateBuffer_3_SmoothingDelegate : public ::System::MulticastDelegate {
@@ -192,13 +256,13 @@ protected:
   constexpr StateBuffer_3_SmoothingDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3_SmoothingDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3_SmoothingDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StateBuffer_3_SmoothingDelegate(StateBuffer_3_SmoothingDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3_SmoothingDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3_SmoothingDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StateBuffer_3_SmoothingDelegate(StateBuffer_3_SmoothingDelegate const&) = delete;
+  StateBuffer_3_SmoothingDelegate(StateBuffer_3_SmoothingDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18298 };
@@ -207,10 +271,16 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies StateBuffer`3::TimestampedStateTable<TStateTable, TType, TState>, System.Object
+// Dependencies IEquatableByReference`1<T>, IStateTable`3<TStateTable, TType, TState>, LiteNetLib.Utils.INetSerializable, StateBuffer`3::TimestampedStateTable<TStateTable, TType, TState>,
+// System.IConvertible, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
+  requires(::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IStateTable_3<TStateTable, TType, TState>*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::LiteNetLib::Utils::INetSerializable*> &&
+           ::cordl_internals::type_constraint<TStateTable, ::GlobalNamespace::IEquatableByReference_1<TStateTable>*> && ::cordl_internals::value_type_constraint<TStateTable> &&
+           ::cordl_internals::default_constructor_constraint<TStateTable> && ::cordl_internals::type_constraint<TType, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TType> &&
+           ::cordl_internals::default_constructor_constraint<TType> && ::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
 // Is value type: false
 // CS Name: StateBuffer`3<TStateTable,TType,TState>
 class CORDL_TYPE StateBuffer_3 : public ::System::Object {
@@ -251,7 +321,7 @@ public:
   inline TState GetState(TType type, int64_t time);
 
   /// @brief Method InsertState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void InsertState(::by_ref<TStateTable> state, int64_t time);
+  inline void InsertState(/* [IsReadOnly] */ ::by_ref<TStateTable> state, int64_t time);
 
   static inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* New_ctor(int32_t size, ::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>* interpolator,
                                                                                        ::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>* smoother);
@@ -290,13 +360,13 @@ protected:
   constexpr StateBuffer_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StateBuffer_3(StateBuffer_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StateBuffer_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StateBuffer_3(StateBuffer_3 const&) = delete;
+  StateBuffer_3(StateBuffer_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18299 };

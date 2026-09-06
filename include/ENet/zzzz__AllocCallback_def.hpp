@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\AllocCallback.hpp"
+// IWYU pragma private; include "ENet/AllocCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ protected:
   constexpr AllocCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AllocCallback(AllocCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AllocCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AllocCallback(AllocCallback const&) = delete;
+  AllocCallback(AllocCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21718 };

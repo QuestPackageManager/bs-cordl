@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   __declspec(property(get = get_previousSameTypeEventData, put = set_previousSameTypeEventData)) ::GlobalNamespace::BeatmapEventData* previousSameTypeEventData;
 
-  /// @brief Method GetDefault, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   /// @brief Method GetDefault, addr 0x3259c48, size 0x2c, virtual false, abstract: false, final false
@@ -65,15 +65,19 @@ public:
   /// @brief Method .ctor, addr 0x3259844, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier);
 
+  /// [CompilerGenerated]
   /// @brief Method get_nextSameTypeEventData, addr 0x3259c10, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* get_nextSameTypeEventData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_previousSameTypeEventData, addr 0x3259c00, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* get_previousSameTypeEventData();
 
+  /// [CompilerGenerated]
   /// @brief Method set_nextSameTypeEventData, addr 0x3259c18, size 0x8, virtual false, abstract: false, final false
   inline void set_nextSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_previousSameTypeEventData, addr 0x3259c08, size 0x8, virtual false, abstract: false, final false
   inline void set_previousSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
 
@@ -83,13 +87,13 @@ protected:
   constexpr BeatmapEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventData(BeatmapEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEventData(BeatmapEventData const&) = delete;
+  BeatmapEventData(BeatmapEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21240 };
@@ -100,9 +104,11 @@ public:
   /// @brief Field kSecondaryGroupIdMultiplier offset 0xffffffff size 0x4
   static constexpr int32_t kSecondaryGroupIdMultiplier{ static_cast<int32_t>(0x989680) };
 
+  /// [CompilerGenerated]
   /// @brief Field <previousSameTypeEventData>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapEventData* ____previousSameTypeEventData_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <nextSameTypeEventData>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapEventData* ____nextSameTypeEventData_k__BackingField;
 

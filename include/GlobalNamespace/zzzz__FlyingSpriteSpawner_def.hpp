@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlyingSpriteSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlyingSpriteSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class FlyingSpriteSpawner;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::FlyingSpriteSpawner*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FlyingSpriteSpawner*, "", "FlyingSpriteSpawner");
+// [AddComponentMenu("Beat Saber/Gameplay/FlyingSpriteSpawner")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -146,41 +147,50 @@ protected:
   constexpr FlyingSpriteSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingSpriteSpawner(FlyingSpriteSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingSpriteSpawner(FlyingSpriteSpawner const&) = delete;
+  FlyingSpriteSpawner(FlyingSpriteSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5807 };
 
+  /// [SerializeField]
   /// @brief Field _sprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____sprite;
 
+  /// [SerializeField]
   /// @brief Field _material, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 
+  /// [SerializeField]
   /// @brief Field _duration, offset: 0x30, size: 0x4, def value: None
   float_t ____duration;
 
+  /// [SerializeField]
   /// @brief Field _xSpread, offset: 0x34, size: 0x4, def value: None
   float_t ____xSpread;
 
+  /// [SerializeField]
   /// @brief Field _targetYPos, offset: 0x38, size: 0x4, def value: None
   float_t ____targetYPos;
 
+  /// [SerializeField]
   /// @brief Field _targetZPos, offset: 0x3c, size: 0x4, def value: None
   float_t ____targetZPos;
 
+  /// [SerializeField]
   /// @brief Field _color, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
+  /// [SerializeField]
   /// @brief Field _shake, offset: 0x50, size: 0x1, def value: None
   bool ____shake;
 
+  /// [Inject]
   /// @brief Field _flyingSpriteEffectPool, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::FlyingSpriteEffect_Pool* ____flyingSpriteEffectPool;
 

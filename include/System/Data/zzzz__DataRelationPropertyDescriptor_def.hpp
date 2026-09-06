@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRelationPropertyDescriptor.hpp"
+// IWYU pragma private; include "System/Data/DataRelationPropertyDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,6 +81,7 @@ public:
   /// @brief Method get_PropertyType, addr 0x602a454, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Relation, addr 0x602a3e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataRelation* get_Relation();
 
@@ -90,17 +91,18 @@ protected:
   constexpr DataRelationPropertyDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationPropertyDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelationPropertyDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataRelationPropertyDescriptor(DataRelationPropertyDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationPropertyDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelationPropertyDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRelationPropertyDescriptor(DataRelationPropertyDescriptor const&) = delete;
+  DataRelationPropertyDescriptor(DataRelationPropertyDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13776 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Relation>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Data::DataRelation* ____Relation_k__BackingField;
 

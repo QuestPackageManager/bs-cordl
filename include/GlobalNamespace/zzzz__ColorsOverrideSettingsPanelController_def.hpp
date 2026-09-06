@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorsOverrideSettingsPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorsOverrideSettingsPanelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -149,6 +149,7 @@ public:
   /// @brief Method SetData, addr 0x5920be0, size 0x410, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
 
+  /// [CompilerGenerated]
   /// @brief Method <HandleOverrideColorsToggleValueChanged>b__25_0, addr 0x5921e64, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleOverrideColorsToggleValueChanged_b__25_0();
 
@@ -251,13 +252,13 @@ protected:
   constexpr ColorsOverrideSettingsPanelController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorsOverrideSettingsPanelController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorsOverrideSettingsPanelController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorsOverrideSettingsPanelController(ColorsOverrideSettingsPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorsOverrideSettingsPanelController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorsOverrideSettingsPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorsOverrideSettingsPanelController(ColorsOverrideSettingsPanelController const&) = delete;
+  ColorsOverrideSettingsPanelController(ColorsOverrideSettingsPanelControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6814 };
@@ -268,33 +269,44 @@ public:
   /// @brief Field kColorTypeOverrideNotesOnlyLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kColorTypeOverrideNotesOnlyLocalizationKey{ u"COLOR_TYPE_OVERRIDE_NOTES_ONLY" };
 
+  /// [SerializeField]
   /// @brief Field _overrideColorsToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____overrideColorsToggle;
 
+  /// [SerializeField]
   /// @brief Field _detailsPanelGO, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____detailsPanelGO;
 
+  /// [SerializeField]
   /// @brief Field _colorSchemeDropDown, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeDropdown> ____colorSchemeDropDown;
 
+  /// [SerializeField]
   /// @brief Field _editColorSchemeController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EditColorSchemeController> ____editColorSchemeController;
 
+  /// [SerializeField]
   /// @brief Field _editColorSchemeModalView, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::HMUI::ModalView> ____editColorSchemeModalView;
 
+  /// [SerializeField]
   /// @brief Field _editColorSchemeButton, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editColorSchemeButton;
 
+  /// [SerializeField]
   /// @brief Field _colorOverrideTypeDropdown, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____colorOverrideTypeDropdown;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _presentPanelAnimation, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimation;
 
+  /// [SerializeField]
   /// @brief Field _dismissPanelAnimation, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____dismissPanelAnimation;
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 

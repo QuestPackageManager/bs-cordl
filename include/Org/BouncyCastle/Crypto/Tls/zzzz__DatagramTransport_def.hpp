@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DatagramTransport.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DatagramTransport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,24 +26,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*() noexcept;
 
-  /// @brief Method GetReceiveLimit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetReceiveLimit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetReceiveLimit();
 
-  /// @brief Method GetSendLimit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetSendLimit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetSendLimit();
 
-  /// @brief Method Receive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Receive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Receive(::ArrayW<uint8_t> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method Send, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Send(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable* i___Org__BouncyCastle__Crypto__Tls__TlsCloseable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DatagramTransport", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DatagramTransport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DatagramTransport(DatagramTransport const&) = delete;
+  DatagramTransport(DatagramTransportconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1207 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightRotationBeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightRotationBeatmapEventDataBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,6 +72,7 @@ MARK_REF_T(::GlobalNamespace::LightRotationBeatmapEventDataBox*);
 MARK_REF_T(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightRotationBeatmapEventDataBox*, "", "LightRotationBeatmapEventDataBox");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10*, "", "LightRotationBeatmapEventDataBox/<Unpack>d__10");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -180,23 +181,30 @@ public:
   /// @brief Method MoveNext, addr 0x371af64, size 0x954, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x371ba68, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x371ba20, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x371bb40, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x371ba28, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x371ba60, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x371aeb8, size 0xac, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -356,6 +364,7 @@ public:
   /// @brief Method <>m__Finally2, addr 0x371b8b8, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x371ae98, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -380,13 +389,13 @@ protected:
   constexpr LightRotationBeatmapEventDataBox__Unpack_d__10();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox__Unpack_d__10", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox__Unpack_d__10", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationBeatmapEventDataBox__Unpack_d__10(LightRotationBeatmapEventDataBox__Unpack_d__10&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox__Unpack_d__10", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox__Unpack_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationBeatmapEventDataBox__Unpack_d__10(LightRotationBeatmapEventDataBox__Unpack_d__10 const&) = delete;
+  LightRotationBeatmapEventDataBox__Unpack_d__10(LightRotationBeatmapEventDataBox__Unpack_d__10const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14933 };
@@ -558,6 +567,7 @@ public:
                                                                               bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType,
                                                                               ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList);
 
+  /// [IteratorStateMachine(typeof(LightRotationBeatmapEventDataBox::<Unpack>d__10))]
   /// @brief Method Unpack, addr 0x371adcc, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex,
                                                                                                      int32_t distributionOrderIndex, float_t maxBeat,
@@ -612,13 +622,13 @@ protected:
   constexpr LightRotationBeatmapEventDataBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationBeatmapEventDataBox(LightRotationBeatmapEventDataBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationBeatmapEventDataBox(LightRotationBeatmapEventDataBox const&) = delete;
+  LightRotationBeatmapEventDataBox(LightRotationBeatmapEventDataBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14934 };

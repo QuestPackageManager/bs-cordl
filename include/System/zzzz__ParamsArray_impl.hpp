@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ParamsArray.hpp"
+// IWYU pragma private; include "System/ParamsArray.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ParamsArray_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -141,8 +141,9 @@ inline ::System::Object* System::ParamsArray::GetAtSlow(int32_t index) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParamsArray>(), { "GetAtSlow", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method, index);
 }
-// Ctor Parameters [CppParam { name: "_arg0", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_arg1", ty: "::System::Object*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_arg2", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_args", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_arg0", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_arg1", ty: "::System::Object*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_arg2", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_args", ty:
+// "::ArrayW<::System::Object*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::ParamsArray::ParamsArray(::System::Object* _arg0, ::System::Object* _arg1, ::System::Object* _arg2, ::ArrayW<::System::Object*> _args) noexcept {
   this->_arg0 = _arg0;
   this->_arg1 = _arg1;

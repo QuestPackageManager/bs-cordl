@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\ActivatedServiceTypeEntry.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/ActivatedServiceTypeEntry.hpp"
 #include "System/Runtime/Remoting/zzzz__TypeEntry_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ActivatedServiceTypeEntry_def.hpp"
 #include "System/zzzz__Type_def.hpp"

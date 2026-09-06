@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Video\VideoAudioOutputMode.hpp"
+// IWYU pragma private; include "UnityEngine/Video/VideoAudioOutputMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VideoAudioOutputMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Video::VideoAudioOutputMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Video::VideoAudioOutputMode, "UnityEngine.Video", "VideoAudioOutputMode");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::Video {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr VideoAudioOutputMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VideoAudioOutputMode(int32_t value__) noexcept;
 
   /// @brief Field APIOnly value: I32(3)

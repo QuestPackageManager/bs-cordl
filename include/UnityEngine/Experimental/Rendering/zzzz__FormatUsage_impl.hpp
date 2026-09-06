@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\FormatUsage.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/FormatUsage.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__FormatUsage_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Experimental::Rendering::FormatUsage::FormatUsage(int32_t value__) noexcept {
   this->value__ = value__;
 }

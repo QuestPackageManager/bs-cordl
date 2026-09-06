@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyAnalytics.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyAnalytics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,20 +87,22 @@ protected:
   constexpr MultiplayerLobbyAnalytics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAnalytics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAnalytics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyAnalytics(MultiplayerLobbyAnalytics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAnalytics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAnalytics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAnalytics(MultiplayerLobbyAnalytics const&) = delete;
+  MultiplayerLobbyAnalytics(MultiplayerLobbyAnalyticsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5547 };
 
+  /// [SerializeField]
   /// @brief Field _gameServerLobbyFlowCoordinator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinatorBase> ____gameServerLobbyFlowCoordinator;
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonWriterException.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonWriterException.hpp"
 #include "Newtonsoft/Json/zzzz__JsonException_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriterException_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
@@ -154,19 +154,19 @@ inline void Newtonsoft::Json::JsonWriterException::_ctor(::System::Runtime::Seri
                           { ".ctor", {}, { ::i2c::type_of<::System::Runtime::Serialization::SerializationInfo*>(), ::i2c::type_of<::System::Runtime::Serialization::StreamingContext>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, info, context);
 }
-inline void Newtonsoft::Json::JsonWriterException::_ctor(::StringW message, ::StringW path, ::System::Exception* innerException) {
+inline void Newtonsoft::Json::JsonWriterException::_ctor(::StringW message, ::StringW path, /* [Nullable(2)] */ ::System::Exception* innerException) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonWriterException*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Exception*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message, path, innerException);
 }
-inline ::Newtonsoft::Json::JsonWriterException* Newtonsoft::Json::JsonWriterException::Create(::Newtonsoft::Json::JsonWriter* writer, ::StringW message, ::System::Exception* ex) {
+inline ::Newtonsoft::Json::JsonWriterException* Newtonsoft::Json::JsonWriterException::Create(::Newtonsoft::Json::JsonWriter* writer, ::StringW message, /* [Nullable(2)] */ ::System::Exception* ex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonWriterException*>(),
                                               { "Create", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonWriter*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Exception*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonWriterException*>(nullptr, ___internal_method, writer, message, ex);
 }
-inline ::Newtonsoft::Json::JsonWriterException* Newtonsoft::Json::JsonWriterException::Create(::StringW path, ::StringW message, ::System::Exception* ex) {
+inline ::Newtonsoft::Json::JsonWriterException* Newtonsoft::Json::JsonWriterException::Create(::StringW path, ::StringW message, /* [Nullable(2)] */ ::System::Exception* ex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonWriterException*>(),
                                                            { "Create", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Exception*>() } })));
@@ -185,7 +185,7 @@ inline ::Newtonsoft::Json::JsonWriterException* Newtonsoft::Json::JsonWriterExce
                                                                                                 ::System::Runtime::Serialization::StreamingContext context) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonWriterException*>(info, context));
 }
-inline ::Newtonsoft::Json::JsonWriterException* Newtonsoft::Json::JsonWriterException::New_ctor(::StringW message, ::StringW path, ::System::Exception* innerException) {
+inline ::Newtonsoft::Json::JsonWriterException* Newtonsoft::Json::JsonWriterException::New_ctor(::StringW message, ::StringW path, /* [Nullable(2)] */ ::System::Exception* innerException) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonWriterException*>(message, path, innerException));
 }
 // Ctor Parameters []

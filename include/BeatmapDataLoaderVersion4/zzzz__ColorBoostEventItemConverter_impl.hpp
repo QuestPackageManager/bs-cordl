@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4\ColorBoostEventItemConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/ColorBoostEventItemConverter.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ColorBoostEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -244,6 +244,7 @@ inline ::System::Collections::IEnumerator* BeatmapDataLoaderVersion4::ColorBoost
                    (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2* BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2*>(__1__state));
 }

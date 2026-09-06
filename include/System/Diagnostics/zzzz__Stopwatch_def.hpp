@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\Stopwatch.hpp"
+// IWYU pragma private; include "System/Diagnostics/Stopwatch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,13 +113,13 @@ protected:
   constexpr Stopwatch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Stopwatch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stopwatch", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Stopwatch(Stopwatch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Stopwatch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stopwatch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stopwatch(Stopwatch const&) = delete;
+  Stopwatch(Stopwatchconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11159 };

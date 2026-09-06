@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SwitchSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SwitchSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +28,13 @@ public:
   /// @brief Field _toggle, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle)) ::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
-  /// @brief Method ApplyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyValue(bool value);
 
   /// @brief Method Awake, addr 0x5922ff4, size 0xe8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetInitValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetInitValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValue();
 
   /// @brief Method HandleToggleValueDidChange, addr 0x5923220, size 0xc, virtual false, abstract: false, final false
@@ -72,17 +72,18 @@ protected:
   constexpr SwitchSettingsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchSettingsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchSettingsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SwitchSettingsController(SwitchSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchSettingsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchSettingsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SwitchSettingsController(SwitchSettingsController const&) = delete;
+  SwitchSettingsController(SwitchSettingsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6823 };
 
+  /// [SerializeField]
   /// @brief Field _toggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 

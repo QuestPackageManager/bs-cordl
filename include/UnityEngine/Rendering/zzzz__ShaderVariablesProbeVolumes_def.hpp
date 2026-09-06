@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderVariablesProbeVolumes.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderVariablesProbeVolumes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,7 +14,9 @@ struct ShaderVariablesProbeVolumes;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ShaderVariablesProbeVolumes);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ShaderVariablesProbeVolumes, "UnityEngine.Rendering", "ShaderVariablesProbeVolumes");
-// Dependencies Unity.Mathematics.uint4, UnityEngine.Vector4
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\Lighting\\ProbeVolume\\ShaderVariablesProbeVolumes.cs", needAccessors = false, generateCBuffer = true,
+// constantRegister = 6)] Dependencies Unity.Mathematics.uint4, UnityEngine.Vector4
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ShaderVariablesProbeVolumes
@@ -25,13 +27,13 @@ public:
   // @brief default ctor
   constexpr ShaderVariablesProbeVolumes();
 
-  // Ctor Parameters [CppParam { name: "_Offset_LayerCount", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_MinLoadedCellInEntries_IndirectionEntryDim", ty:
-  // "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_MaxLoadedCellInEntries_RcpIndirectionEntryDim", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None },
-  // CppParam { name: "_PoolDim_MinBrickSize", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_RcpPoolDim_XY", ty: "::UnityEngine::Vector4", modifiers: "",
-  // def_value: None }, CppParam { name: "_MinEntryPos_Noise", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_EntryCount_X_XY_LeakReduction", ty:
-  // "::Unity::Mathematics::uint4", modifiers: "", def_value: None }, CppParam { name: "_Biases_NormalizationClamp", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name:
-  // "_FrameIndex_Weights", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_ProbeVolumeLayerMask", ty: "::Unity::Mathematics::uint4", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "_Offset_LayerCount", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_MinLoadedCellInEntries_IndirectionEntryDim", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_MaxLoadedCellInEntries_RcpIndirectionEntryDim",
+  // ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_PoolDim_MinBrickSize", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_RcpPoolDim_XY", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_MinEntryPos_Noise", ty: "::UnityEngine::Vector4",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_EntryCount_X_XY_LeakReduction", ty: "::Unity::Mathematics::uint4", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_Biases_NormalizationClamp", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_FrameIndex_Weights", ty: "::UnityEngine::Vector4", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_ProbeVolumeLayerMask", ty: "::Unity::Mathematics::uint4", modifiers: "", def_value: None, comment: None }]
   constexpr ShaderVariablesProbeVolumes(::UnityEngine::Vector4 _Offset_LayerCount, ::UnityEngine::Vector4 _MinLoadedCellInEntries_IndirectionEntryDim,
                                         ::UnityEngine::Vector4 _MaxLoadedCellInEntries_RcpIndirectionEntryDim, ::UnityEngine::Vector4 _PoolDim_MinBrickSize, ::UnityEngine::Vector4 _RcpPoolDim_XY,
                                         ::UnityEngine::Vector4 _MinEntryPos_Noise, ::Unity::Mathematics::uint4 _EntryCount_X_XY_LeakReduction, ::UnityEngine::Vector4 _Biases_NormalizationClamp,

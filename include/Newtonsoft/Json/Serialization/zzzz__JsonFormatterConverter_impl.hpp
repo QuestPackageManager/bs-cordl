@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonFormatterConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonFormatterConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonFormatterConverter_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonISerializableContract_def.hpp"
@@ -307,7 +307,7 @@ constexpr void Newtonsoft::Json::Serialization::JsonFormatterConverter::__cordl_
 }
 inline void Newtonsoft::Json::Serialization::JsonFormatterConverter::_ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader,
                                                                            ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
-                                                                           ::Newtonsoft::Json::Serialization::JsonProperty* member) {
+                                                                           /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonFormatterConverter*>(),
@@ -410,7 +410,8 @@ inline uint64_t Newtonsoft::Json::Serialization::JsonFormatterConverter::ToUInt6
 }
 inline ::Newtonsoft::Json::Serialization::JsonFormatterConverter*
 Newtonsoft::Json::Serialization::JsonFormatterConverter::New_ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader,
-                                                                  ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member) {
+                                                                  ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
+                                                                  /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Serialization::JsonFormatterConverter*>(reader, contract, member));
 }
 /// @brief Convert operator to "::System::Runtime::Serialization::IFormatterConverter"

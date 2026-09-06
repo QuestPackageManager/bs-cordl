@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrSwapchainUsageFlags.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrSwapchainUsageFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct XrSwapchainUsageFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::OpenXR::NativeTypes::XrSwapchainUsageFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::NativeTypes::XrSwapchainUsageFlags, "UnityEngine.XR.OpenXR.NativeTypes", "XrSwapchainUsageFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 // Is value type: true
@@ -49,7 +50,7 @@ public:
   // @brief default ctor
   constexpr XrSwapchainUsageFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr XrSwapchainUsageFlags(uint64_t value__) noexcept;
 
   /// @brief Field XR_SWAPCHAIN_USAGE_COLOR_ATTACHMENT_BIT value: U64(1)

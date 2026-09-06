@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutNative.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutNative.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
   // @brief default ctor
   constexpr LayoutNative_LayoutLogEventType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutNative_LayoutLogEventType(int32_t value__) noexcept;
 
   /// @brief Field BeginLayout value: I32(5)
@@ -159,13 +159,13 @@ protected:
   constexpr LayoutNative_LayoutLogData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutNative_LayoutLogData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutNative_LayoutLogData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutNative_LayoutLogData(LayoutNative_LayoutLogData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutNative_LayoutLogData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutNative_LayoutLogData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutNative_LayoutLogData(LayoutNative_LayoutLogData const&) = delete;
+  LayoutNative_LayoutLogData(LayoutNative_LayoutLogDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5440 };
@@ -191,6 +191,7 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutNative_LayoutLog
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
+// [NativeHeader("Modules/UIElements/Core/Layout/Native/LayoutNative.h")]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::Layout {
 // Is value type: false
@@ -205,9 +206,11 @@ public:
   /// @brief Field onLayoutLog, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_onLayoutLog, put = setStaticF_onLayoutLog)) ::System::Action_1<::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData*>* onLayoutLog;
 
+  /// [NativeMethod(IsThreadSafe = false)]
   /// @brief Method CalculateLayout, addr 0x6d03ccc, size 0x74, virtual false, abstract: false, final false
   static inline void CalculateLayout(::System::IntPtr node, float_t parentWidth, float_t parentHeight, int32_t parentDirection, ::System::IntPtr state, ::System::IntPtr exceptionGCHandle);
 
+  /// [RequiredByNativeCode]
   /// @brief Method LayoutLog_Internal, addr 0x6d03d40, size 0xb4, virtual false, abstract: false, final false
   static inline void LayoutLog_Internal(::System::IntPtr nodePtr, ::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogEventType type, ::StringW message);
 
@@ -221,13 +224,13 @@ protected:
   constexpr LayoutNative();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutNative", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutNative", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutNative(LayoutNative&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutNative", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutNative", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutNative(LayoutNative const&) = delete;
+  LayoutNative(LayoutNativeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5441 };

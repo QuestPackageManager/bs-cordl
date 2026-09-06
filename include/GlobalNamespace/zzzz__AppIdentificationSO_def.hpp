@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AppIdentificationSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/AppIdentificationSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,20 +68,22 @@ protected:
   constexpr AppIdentificationSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppIdentificationSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppIdentificationSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppIdentificationSO(AppIdentificationSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppIdentificationSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AppIdentificationSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AppIdentificationSO(AppIdentificationSO const&) = delete;
+  AppIdentificationSO(AppIdentificationSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14795 };
 
+  /// [SerializeField]
   /// @brief Field _appId, offset: 0x18, size: 0x8, def value: None
   uint64_t ____appId;
 
+  /// [SerializeField]
   /// @brief Field _graphAppId, offset: 0x20, size: 0x8, def value: None
   uint64_t ____graphAppId;
 

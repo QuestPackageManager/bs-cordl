@@ -1,21 +1,22 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchCullingOutputDrawCommands.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingOutputDrawCommands.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingOutputDrawCommands_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommandIndirect_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommandProceduralIndirect_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommandProcedural_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommand_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawRange_def.hpp"
-// Ctor Parameters [CppParam { name: "drawCommands", ty: "::UnityEngine::Rendering::BatchDrawCommand*", modifiers: "", def_value: Some("{}") }, CppParam { name: "indirectDrawCommands", ty:
-// "::UnityEngine::Rendering::BatchDrawCommandIndirect*", modifiers: "", def_value: Some("{}") }, CppParam { name: "proceduralDrawCommands", ty:
-// "::UnityEngine::Rendering::BatchDrawCommandProcedural*", modifiers: "", def_value: Some("{}") }, CppParam { name: "proceduralIndirectDrawCommands", ty:
-// "::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect*", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleInstances", ty: "int32_t*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "drawRanges", ty: "::UnityEngine::Rendering::BatchDrawRange*", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceSortingPositions", ty: "float_t*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "drawCommandPickingInstanceIDs", ty: "int32_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawCommandCount", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "indirectDrawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "proceduralDrawCommandCount", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "proceduralIndirectDrawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleInstanceCount", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "drawRangeCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceSortingPositionFloatCount", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "drawCommands", ty: "::UnityEngine::Rendering::BatchDrawCommand*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectDrawCommands",
+// ty: "::UnityEngine::Rendering::BatchDrawCommandIndirect*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "proceduralDrawCommands", ty:
+// "::UnityEngine::Rendering::BatchDrawCommandProcedural*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "proceduralIndirectDrawCommands", ty:
+// "::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleInstances", ty: "int32_t*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "drawRanges", ty: "::UnityEngine::Rendering::BatchDrawRange*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "instanceSortingPositions", ty: "float_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawCommandPickingInstanceIDs", ty: "int32_t*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "drawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indirectDrawCommandCount", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "proceduralDrawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "proceduralIndirectDrawCommandCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "visibleInstanceCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "drawRangeCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceSortingPositionFloatCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BatchCullingOutputDrawCommands::BatchCullingOutputDrawCommands(
     ::UnityEngine::Rendering::BatchDrawCommand* drawCommands, ::UnityEngine::Rendering::BatchDrawCommandIndirect* indirectDrawCommands,
     ::UnityEngine::Rendering::BatchDrawCommandProcedural* proceduralDrawCommands, ::UnityEngine::Rendering::BatchDrawCommandProceduralIndirect* proceduralIndirectDrawCommands,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BoolCvar.hpp"
+// IWYU pragma private; include "GlobalNamespace/BoolCvar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class BoolCvar;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BoolCvar*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BoolCvar*, "", "BoolCvar");
+// [DoesNotRequireDomainReloadInit]
 // Dependencies Cvar`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -20,6 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BoolCvar : public ::GlobalNamespace::Cvar_1<bool> {
 public:
   // Declarations
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x3327cb0, size 0x6c, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -34,13 +36,13 @@ protected:
   constexpr BoolCvar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoolCvar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolCvar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoolCvar(BoolCvar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoolCvar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolCvar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoolCvar(BoolCvar const&) = delete;
+  BoolCvar(BoolCvarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20771 };

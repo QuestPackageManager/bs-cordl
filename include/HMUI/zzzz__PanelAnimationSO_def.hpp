@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\PanelAnimationSO.hpp"
+// IWYU pragma private; include "HMUI/PanelAnimationSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,29 +100,34 @@ protected:
   constexpr PanelAnimationSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimationSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimationSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PanelAnimationSO(PanelAnimationSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimationSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelAnimationSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelAnimationSO(PanelAnimationSO const&) = delete;
+  PanelAnimationSO(PanelAnimationSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19021 };
 
+  /// [SerializeField]
   /// @brief Field _duration, offset: 0x18, size: 0x4, def value: None
   float_t ____duration;
 
+  /// [SerializeField]
   /// @brief Field _scaleXAnimationCurve, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____scaleXAnimationCurve;
 
+  /// [SerializeField]
   /// @brief Field _scaleYAnimationCurve, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____scaleYAnimationCurve;
 
+  /// [SerializeField]
   /// @brief Field _alphaAnimationCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____alphaAnimationCurve;
 
+  /// [SerializeField]
   /// @brief Field _parentAlphaAnimationCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____parentAlphaAnimationCurve;
 

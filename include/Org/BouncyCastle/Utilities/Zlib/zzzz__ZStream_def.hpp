@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\ZStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/ZStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -225,13 +225,13 @@ protected:
   constexpr ZStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZStream(ZStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZStream(ZStream const&) = delete;
+  ZStream(ZStreamconst&) = delete;
 
   /// @brief Field DEF_WBITS offset 0xffffffff size 0x4
   static constexpr int32_t DEF_WBITS{ static_cast<int32_t>(0xf) };

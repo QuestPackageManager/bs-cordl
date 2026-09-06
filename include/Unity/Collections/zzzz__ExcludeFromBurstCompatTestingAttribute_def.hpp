@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\ExcludeFromBurstCompatTestingAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/ExcludeFromBurstCompatTestingAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class ExcludeFromBurstCompatTestingAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::ExcludeFromBurstCompatTestingAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::ExcludeFromBurstCompatTestingAttribute*, "Unity.Collections", "ExcludeFromBurstCompatTestingAttribute");
+// [AttributeUsage((System.AttributeTargets)224)]
 // Dependencies System.Attribute
 namespace Unity::Collections {
 // Is value type: false
@@ -36,9 +37,11 @@ public:
   /// @brief Method .ctor, addr 0x64c206c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW _reason);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Reason, addr 0x64c205c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Reason();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Reason, addr 0x64c2064, size 0x8, virtual false, abstract: false, final false
   inline void set_Reason(::StringW value);
 
@@ -48,17 +51,18 @@ protected:
   constexpr ExcludeFromBurstCompatTestingAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromBurstCompatTestingAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromBurstCompatTestingAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExcludeFromBurstCompatTestingAttribute(ExcludeFromBurstCompatTestingAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromBurstCompatTestingAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromBurstCompatTestingAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExcludeFromBurstCompatTestingAttribute(ExcludeFromBurstCompatTestingAttribute const&) = delete;
+  ExcludeFromBurstCompatTestingAttribute(ExcludeFromBurstCompatTestingAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15625 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Reason>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Reason_k__BackingField;
 

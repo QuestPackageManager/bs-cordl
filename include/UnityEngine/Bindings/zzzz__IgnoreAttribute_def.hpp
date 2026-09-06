@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\IgnoreAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/IgnoreAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class IgnoreAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::IgnoreAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::IgnoreAttribute*, "UnityEngine.Bindings", "IgnoreAttribute");
+// [AttributeUsage((System.AttributeTargets)256)]
+// [VisibleToOtherModules]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -36,6 +38,7 @@ public:
   /// @brief Method .ctor, addr 0x6bb6574, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_DoesNotContributeToSize, addr 0x6bb656c, size 0x8, virtual false, abstract: false, final false
   inline void set_DoesNotContributeToSize(bool value);
 
@@ -45,17 +48,19 @@ protected:
   constexpr IgnoreAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoreAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoreAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IgnoreAttribute(IgnoreAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IgnoreAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoreAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IgnoreAttribute(IgnoreAttribute const&) = delete;
+  IgnoreAttribute(IgnoreAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23124 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <DoesNotContributeToSize>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____DoesNotContributeToSize_k__BackingField;
 

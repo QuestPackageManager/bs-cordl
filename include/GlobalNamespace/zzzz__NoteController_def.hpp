@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,6 +92,7 @@ MARK_REF_T(::GlobalNamespace::NoteController*);
 MARK_REF_T(::GlobalNamespace::NoteController__DissolveCoroutine_d__69*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteController*, "", "NoteController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteController__DissolveCoroutine_d__69*, "", "NoteController/<DissolveCoroutine>d__69");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -127,17 +128,22 @@ public:
   /// @brief Method MoveNext, addr 0x58d4310, size 0x36c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::NoteController__DissolveCoroutine_d__69* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58d467c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58d4684, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58d46bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x58d430c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -165,6 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x58d42a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -183,13 +190,13 @@ protected:
   constexpr NoteController__DissolveCoroutine_d__69();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteController__DissolveCoroutine_d__69", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteController__DissolveCoroutine_d__69", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteController__DissolveCoroutine_d__69(NoteController__DissolveCoroutine_d__69&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteController__DissolveCoroutine_d__69", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteController__DissolveCoroutine_d__69", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteController__DissolveCoroutine_d__69(NoteController__DissolveCoroutine_d__69 const&) = delete;
+  NoteController__DissolveCoroutine_d__69(NoteController__DissolveCoroutine_d__69const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5672 };
@@ -332,6 +339,7 @@ public:
   /// @brief Method Dissolve, addr 0x58d42b0, size 0x58, virtual true, abstract: false, final true
   inline void Dissolve(float_t duration);
 
+  /// [IteratorStateMachine(typeof(NoteController::<DissolveCoroutine>d__69))]
   /// @brief Method DissolveCoroutine, addr 0x58d4244, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DissolveCoroutine(float_t duration);
 
@@ -347,15 +355,15 @@ public:
   /// @brief Method HandleNoteDidStartJump, addr 0x58d3b58, size 0x1b4, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump();
 
-  /// @brief Method HiddenStateDidChange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HiddenStateDidChange(bool hidden);
 
   /// @brief Method Hide, addr 0x58c80f0, size 0x14, virtual true, abstract: false, final true
   inline void Hide(bool hide);
 
   /// @brief Method Init, addr 0x58ce9b8, size 0x26c, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t endRotation, float_t uniformScale, bool rotateTowardsPlayer,
-                   bool useRandomRotation);
+  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t endRotation, float_t uniformScale,
+                   bool rotateTowardsPlayer, bool useRandomRotation);
 
   /// @brief Method ManualUpdate, addr 0x58d0818, size 0x14, virtual true, abstract: false, final false
   inline void ManualUpdate();
@@ -380,11 +388,11 @@ public:
   /// @brief Method OnDestroy, addr 0x58cf0c4, size 0x260, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Pause(bool pause);
 
   /// @brief Method SendNoteWasCutEvent, addr 0x58cf7bc, size 0x1a8, virtual false, abstract: false, final false
-  inline void SendNoteWasCutEvent(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void SendNoteWasCutEvent(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method SendNoteWasMissedEvent, addr 0x58cf354, size 0x1a0, virtual false, abstract: false, final false
   inline void SendNoteWasMissedEvent();
@@ -488,6 +496,7 @@ public:
   /// @brief Method get_dissolving, addr 0x58d34cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_dissolving();
 
+  /// [CompilerGenerated]
   /// @brief Method get_hidden, addr 0x58d34bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_hidden();
 
@@ -542,6 +551,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
   constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_hidden, addr 0x58d34c4, size 0x8, virtual false, abstract: false, final false
   inline void set_hidden(bool value);
 
@@ -551,23 +561,26 @@ protected:
   constexpr NoteController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteController(NoteController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteController(NoteController const&) = delete;
+  NoteController(NoteControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5673 };
 
+  /// [SerializeField]
   /// @brief Field _noteMovement, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteMovement> ____noteMovement;
 
+  /// [SerializeField]
   /// @brief Field _noteTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____noteTransform;
 
+  /// [CompilerGenerated]
   /// @brief Field <hidden>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____hidden_k__BackingField;
 

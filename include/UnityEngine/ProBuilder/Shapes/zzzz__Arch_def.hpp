@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Arch.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Arch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class Arch;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Shapes::Arch*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Shapes::Arch*, "UnityEngine.ProBuilder.Shapes", "Arch");
+// [Shape("Arch")]
 // Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
@@ -105,29 +106,37 @@ protected:
   constexpr Arch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Arch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Arch", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Arch(Arch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Arch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Arch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Arch(Arch const&) = delete;
+  Arch(Archconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16835 };
 
+  /// [Min(0.01)]
+  /// [SerializeField]
   /// @brief Field m_Thickness, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Thickness;
 
+  /// [Range(2, 200)]
+  /// [SerializeField]
   /// @brief Field m_NumberOfSides, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_NumberOfSides;
 
+  /// [Range(1, 360)]
+  /// [SerializeField]
   /// @brief Field m_ArchDegrees, offset: 0x18, size: 0x4, def value: None
   float_t ___m_ArchDegrees;
 
+  /// [SerializeField]
   /// @brief Field m_EndCaps, offset: 0x1c, size: 0x1, def value: None
   bool ___m_EndCaps;
 
+  /// [SerializeField]
   /// @brief Field m_Smooth, offset: 0x1d, size: 0x1, def value: None
   bool ___m_Smooth;
 

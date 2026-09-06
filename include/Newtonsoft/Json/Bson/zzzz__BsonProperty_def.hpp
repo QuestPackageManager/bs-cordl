@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonProperty.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonProperty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,15 +52,19 @@ public:
   /// @brief Method .ctor, addr 0x5dae508, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x5dae958, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Name();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Value, addr 0x5dae968, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Value();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x5dae960, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::Newtonsoft::Json::Bson::BsonString* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Value, addr 0x5dae970, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::Newtonsoft::Json::Bson::BsonToken* value);
 
@@ -70,20 +74,22 @@ protected:
   constexpr BsonProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonProperty(BsonProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonProperty(BsonProperty const&) = delete;
+  BsonProperty(BsonPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13705 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Bson::BsonString* ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Bson::BsonToken* ____Value_k__BackingField;
 

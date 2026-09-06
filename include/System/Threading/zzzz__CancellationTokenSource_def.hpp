@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\CancellationTokenSource.hpp"
+// IWYU pragma private; include "System/Threading/CancellationTokenSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,6 +68,7 @@ MARK_REF_T(::System::Threading::CancellationTokenSource*);
 MARK_REF_T(::System::Threading::LinkedNCancellationTokenSource_CancellationTokenSource___c*);
 DEFINE_IL2CPP_CLASS(::System::Threading::CancellationTokenSource*, "System.Threading", "CancellationTokenSource");
 DEFINE_IL2CPP_CLASS(::System::Threading::LinkedNCancellationTokenSource_CancellationTokenSource___c*, "System.Threading", "CancellationTokenSource/LinkedNCancellationTokenSource/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
@@ -96,13 +97,13 @@ protected:
   constexpr LinkedNCancellationTokenSource_CancellationTokenSource___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedNCancellationTokenSource_CancellationTokenSource___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinkedNCancellationTokenSource_CancellationTokenSource___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinkedNCancellationTokenSource_CancellationTokenSource___c(LinkedNCancellationTokenSource_CancellationTokenSource___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedNCancellationTokenSource_CancellationTokenSource___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinkedNCancellationTokenSource_CancellationTokenSource___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinkedNCancellationTokenSource_CancellationTokenSource___c(LinkedNCancellationTokenSource_CancellationTokenSource___c const&) = delete;
+  LinkedNCancellationTokenSource_CancellationTokenSource___c(LinkedNCancellationTokenSource_CancellationTokenSource___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2698 };
@@ -201,7 +202,7 @@ public:
   static inline ::System::Threading::CancellationTokenSource* CreateLinkedTokenSource(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
 
   /// @brief Method CreateLinkedTokenSource, addr 0x5cacf38, size 0x15c, virtual false, abstract: false, final false
-  static inline ::System::Threading::CancellationTokenSource* CreateLinkedTokenSource(::ArrayW<::System::Threading::CancellationToken> tokens);
+  static inline ::System::Threading::CancellationTokenSource* CreateLinkedTokenSource(/* [ParamArray] */ ::ArrayW<::System::Threading::CancellationToken> tokens);
 
   /// @brief Method Dispose, addr 0x5cac2cc, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
@@ -332,13 +333,13 @@ protected:
   constexpr CancellationTokenSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CancellationTokenSource(CancellationTokenSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CancellationTokenSource(CancellationTokenSource const&) = delete;
+  CancellationTokenSource(CancellationTokenSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2700 };

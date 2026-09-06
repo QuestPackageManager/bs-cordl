@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FactoryFromBinderBase.hpp"
+// IWYU pragma private; include "Zenject/FactoryFromBinderBase.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_impl.hpp"
@@ -1651,6 +1651,7 @@ inline ::Zenject::InjectTypeInfo* Zenject::FactoryFromBinderBase__get_AllParentT
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FactoryFromBinderBase__get_AllParentTypes_d__17*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Zenject::FactoryFromBinderBase__get_AllParentTypes_d__17* Zenject::FactoryFromBinderBase__get_AllParentTypes_d__17::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::FactoryFromBinderBase__get_AllParentTypes_d__17*>(__1__state));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\BestFitAllocator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BestFitAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,13 +58,13 @@ protected:
   constexpr BestFitAllocator_BlockPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_BlockPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_BlockPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BestFitAllocator_BlockPool(BestFitAllocator_BlockPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_BlockPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_BlockPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BestFitAllocator_BlockPool(BestFitAllocator_BlockPool const&) = delete;
+  BestFitAllocator_BlockPool(BestFitAllocator_BlockPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5376 };
@@ -161,13 +161,13 @@ protected:
   constexpr BestFitAllocator_Block();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_Block", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_Block", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BestFitAllocator_Block(BestFitAllocator_Block&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_Block", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator_Block", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BestFitAllocator_Block(BestFitAllocator_Block const&) = delete;
+  BestFitAllocator_Block(BestFitAllocator_Blockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5377 };
@@ -297,6 +297,7 @@ public:
   /// @brief Method get_highWatermark, addr 0x6cfb8e0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_highWatermark();
 
+  /// [CompilerGenerated]
   /// @brief Method get_totalSize, addr 0x6cfb8d8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_totalSize();
 
@@ -306,17 +307,19 @@ protected:
   constexpr BestFitAllocator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BestFitAllocator(BestFitAllocator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BestFitAllocator(BestFitAllocator const&) = delete;
+  BestFitAllocator(BestFitAllocatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5378 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <totalSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   uint32_t ____totalSize_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RendererUtils\RendererListDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RendererUtils/RendererListDesc.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingResults_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PerObjectData_impl.hpp"
@@ -142,22 +142,24 @@ inline bool UnityEngine::Rendering::RendererUtils::RendererListDesc::IsValid() {
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
 inline ::UnityEngine::Rendering::RendererListParams
-UnityEngine::Rendering::RendererUtils::RendererListDesc::ConvertToParameters(::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc) {
+UnityEngine::Rendering::RendererUtils::RendererListDesc::ConvertToParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererUtils::RendererListDesc>(),
                                                            { "ConvertToParameters", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererListParams>(nullptr, ___internal_method, desc);
 }
-// Ctor Parameters [CppParam { name: "sortingCriteria", ty: "::UnityEngine::Rendering::SortingCriteria", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererConfiguration", ty:
-// "::UnityEngine::Rendering::PerObjectData", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderQueueRange", ty: "::UnityEngine::Rendering::RenderQueueRange", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "stateBlock", ty: "::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock>", modifiers: "", def_value: Some("{}") }, CppParam { name: "overrideShader", ty:
-// "::UnityW<::UnityEngine::Shader>", modifiers: "", def_value: Some("{}") }, CppParam { name: "overrideMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "excludeObjectMotionVectors", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_batchLayerMask_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "overrideMaterialPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "overrideShaderPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_cullingResult_k__BackingField", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: Some("{}") }, CppParam { name: "_camera_k__BackingField", ty:
-// "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_passName_k__BackingField", ty: "::UnityEngine::Rendering::ShaderTagId", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_passNames_k__BackingField", ty: "::ArrayW<::UnityEngine::Rendering::ShaderTagId>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sortingCriteria", ty: "::UnityEngine::Rendering::SortingCriteria", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rendererConfiguration", ty: "::UnityEngine::Rendering::PerObjectData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "renderQueueRange", ty:
+// "::UnityEngine::Rendering::RenderQueueRange", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stateBlock", ty:
+// "::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overrideShader", ty: "::UnityW<::UnityEngine::Shader>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overrideMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "excludeObjectMotionVectors", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "renderingLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_batchLayerMask_k__BackingField", ty: "uint32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "overrideMaterialPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "overrideShaderPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_cullingResult_k__BackingField", ty: "::UnityEngine::Rendering::CullingResults",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_camera_k__BackingField", ty: "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_passName_k__BackingField", ty: "::UnityEngine::Rendering::ShaderTagId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_passNames_k__BackingField", ty:
+// "::ArrayW<::UnityEngine::Rendering::ShaderTagId>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RendererUtils::RendererListDesc::RendererListDesc(
     ::UnityEngine::Rendering::SortingCriteria sortingCriteria, ::UnityEngine::Rendering::PerObjectData rendererConfiguration, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange,
     ::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock> stateBlock, ::UnityW<::UnityEngine::Shader> overrideShader, ::UnityW<::UnityEngine::Material> overrideMaterial,

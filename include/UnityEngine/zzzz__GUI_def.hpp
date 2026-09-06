@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUI.hpp"
+// IWYU pragma private; include "UnityEngine/GUI.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr GUI_WindowFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUI_WindowFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUI_WindowFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUI_WindowFunction(GUI_WindowFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUI_WindowFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUI_WindowFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUI_WindowFunction(GUI_WindowFunction const&) = delete;
+  GUI_WindowFunction(GUI_WindowFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19870 };
@@ -97,6 +97,8 @@ public:
 static_assert(sizeof(::UnityEngine::GUI_WindowFunction) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/IMGUI/GUI.bindings.h")]
+// [NativeHeader("Modules/IMGUI/GUISkin.bindings.h")]
 // Dependencies System.DateTime, System.Object, UnityEngine.Rect
 namespace UnityEngine {
 // Is value type: false
@@ -157,6 +159,7 @@ public:
   /// @brief Method Box, addr 0x6b42298, size 0xd8, virtual false, abstract: false, final false
   static inline void Box(::UnityEngine::Rect position, ::StringW text);
 
+  /// [RequiredByNativeCode]
   /// @brief Method CallWindowDelegate, addr 0x6b42ef4, size 0x298, virtual false, abstract: false, final false
   static inline void CallWindowDelegate(::UnityEngine::GUI_WindowFunction* func, int32_t id, int32_t instanceID, ::UnityEngine::GUISkin* _skin, int32_t forceRect, float_t width, float_t height,
                                         ::UnityEngine::GUIStyle* style);
@@ -229,6 +232,7 @@ public:
   /// @brief Method get_matrix, addr 0x6b41c70, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 get_matrix();
 
+  /// [CompilerGenerated]
   /// @brief Method get_scrollViewStates, addr 0x6b42e98, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngineInternal::GenericStack* get_scrollViewStates();
 
@@ -288,6 +292,7 @@ public:
   /// @brief Method set_matrix, addr 0x6b41d40, size 0x4c, virtual false, abstract: false, final false
   static inline void set_matrix(::UnityEngine::Matrix4x4 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_nextScrollStepTime, addr 0x6b41814, size 0x60, virtual false, abstract: false, final false
   static inline void set_nextScrollStepTime(::System::DateTime value);
 
@@ -300,13 +305,13 @@ protected:
   constexpr GUI();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUI", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUI", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUI(GUI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUI", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUI", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUI(GUI const&) = delete;
+  GUI(GUIconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19871 };

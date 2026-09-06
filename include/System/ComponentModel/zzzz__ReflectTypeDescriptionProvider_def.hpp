@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ReflectTypeDescriptionProvider.hpp"
+// IWYU pragma private; include "System/ComponentModel/ReflectTypeDescriptionProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -208,13 +208,13 @@ protected:
   constexpr ReflectTypeDescriptionProvider_ReflectedTypeData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider_ReflectedTypeData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider_ReflectedTypeData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectTypeDescriptionProvider_ReflectedTypeData(ReflectTypeDescriptionProvider_ReflectedTypeData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider_ReflectedTypeData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider_ReflectedTypeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectTypeDescriptionProvider_ReflectedTypeData(ReflectTypeDescriptionProvider_ReflectedTypeData const&) = delete;
+  ReflectTypeDescriptionProvider_ReflectedTypeData(ReflectTypeDescriptionProvider_ReflectedTypeDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11325 };
@@ -520,13 +520,13 @@ protected:
   constexpr ReflectTypeDescriptionProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectTypeDescriptionProvider(ReflectTypeDescriptionProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectTypeDescriptionProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectTypeDescriptionProvider(ReflectTypeDescriptionProvider const&) = delete;
+  ReflectTypeDescriptionProvider(ReflectTypeDescriptionProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11326 };

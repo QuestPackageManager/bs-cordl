@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderTargetInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderTargetInfo.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderTargetInfo_def.hpp"
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "volumeDepth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "msaaSamples", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "format", ty:
-// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}") }, CppParam { name: "bindMS", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "volumeDepth", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "msaaSamples", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "format", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "bindMS", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo::RenderTargetInfo(int32_t width, int32_t height, int32_t volumeDepth, int32_t msaaSamples,
                                                                                           ::UnityEngine::Experimental::Rendering::GraphicsFormat format, bool bindMS) noexcept {
   this->width = width;

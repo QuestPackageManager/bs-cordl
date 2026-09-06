@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StartMiddleEndButtonBackgroundController.hpp"
+// IWYU pragma private; include "GlobalNamespace/StartMiddleEndButtonBackgroundController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,26 +81,30 @@ protected:
   constexpr StartMiddleEndButtonBackgroundController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StartMiddleEndButtonBackgroundController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StartMiddleEndButtonBackgroundController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StartMiddleEndButtonBackgroundController(StartMiddleEndButtonBackgroundController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StartMiddleEndButtonBackgroundController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StartMiddleEndButtonBackgroundController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StartMiddleEndButtonBackgroundController(StartMiddleEndButtonBackgroundController const&) = delete;
+  StartMiddleEndButtonBackgroundController(StartMiddleEndButtonBackgroundControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6821 };
 
+  /// [SerializeField]
   /// @brief Field _startSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____startSprite;
 
+  /// [SerializeField]
   /// @brief Field _middleSprite, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____middleSprite;
 
+  /// [SerializeField]
   /// @brief Field _endSprite, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____endSprite;
 
+  /// [SerializeField]
   /// @brief Field _image, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____image;
 

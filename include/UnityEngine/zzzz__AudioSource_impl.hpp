@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AudioSource.hpp"
+// IWYU pragma private; include "UnityEngine/AudioSource.hpp"
 #include "UnityEngine/zzzz__AudioBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -2270,17 +2270,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::Int
     return ___internal_method;
   }
 };
-inline float_t UnityEngine::AudioSource::GetPitch(::UnityEngine::AudioSource* source) {
+inline float_t UnityEngine::AudioSource::GetPitch(/* [NotNull] */ ::UnityEngine::AudioSource* source) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "GetPitch", {}, { ::i2c::type_of<::UnityEngine::AudioSource*>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, source);
 }
-inline void UnityEngine::AudioSource::SetPitch(::UnityEngine::AudioSource* source, float_t pitch) {
+inline void UnityEngine::AudioSource::SetPitch(/* [NotNull] */ ::UnityEngine::AudioSource* source, float_t pitch) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "SetPitch", {}, { ::i2c::type_of<::UnityEngine::AudioSource*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, pitch);
 }
-inline void UnityEngine::AudioSource::PlayHelper(::UnityEngine::AudioSource* source, uint64_t delay) {
+inline void UnityEngine::AudioSource::PlayHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, uint64_t delay) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "PlayHelper", {}, { ::i2c::type_of<::UnityEngine::AudioSource*>(), ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, delay);
@@ -2289,7 +2289,7 @@ inline void UnityEngine::AudioSource::Play(double_t delay) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "Play", {}, { ::i2c::type_of<double_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delay);
 }
-inline void UnityEngine::AudioSource::PlayOneShotHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioClip* clip, float_t volumeScale) {
+inline void UnityEngine::AudioSource::PlayOneShotHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, /* [NotNull] */ ::UnityEngine::AudioClip* clip, float_t volumeScale) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(),
                                               { "PlayOneShotHelper", {}, { ::i2c::type_of<::UnityEngine::AudioSource*>(), ::i2c::type_of<::UnityEngine::AudioClip*>(), ::i2c::type_of<float_t>() } })));
@@ -2299,7 +2299,7 @@ inline void UnityEngine::AudioSource::Stop(bool stopOneShots) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "Stop", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stopOneShots);
 }
-inline void UnityEngine::AudioSource::SetCustomCurveHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type, ::UnityEngine::AnimationCurve* curve) {
+inline void UnityEngine::AudioSource::SetCustomCurveHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type, ::UnityEngine::AnimationCurve* curve) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -2307,20 +2307,20 @@ inline void UnityEngine::AudioSource::SetCustomCurveHelper(::UnityEngine::AudioS
           { "SetCustomCurveHelper", {}, { ::i2c::type_of<::UnityEngine::AudioSource*>(), ::i2c::type_of<::UnityEngine::AudioSourceCurveType>(), ::i2c::type_of<::UnityEngine::AnimationCurve*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, type, curve);
 }
-inline ::UnityEngine::AnimationCurve* UnityEngine::AudioSource::GetCustomCurveHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type) {
+inline ::UnityEngine::AnimationCurve* UnityEngine::AudioSource::GetCustomCurveHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(),
                                                            { "GetCustomCurveHelper", {}, { ::i2c::type_of<::UnityEngine::AudioSource*>(), ::i2c::type_of<::UnityEngine::AudioSourceCurveType>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AnimationCurve*>(nullptr, ___internal_method, source, type);
 }
-inline void UnityEngine::AudioSource::GetOutputDataHelper(::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel) {
+inline void UnityEngine::AudioSource::GetOutputDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(),
                                        { "GetOutputDataHelper", {}, { ::i2c::type_of<::UnityEngine::AudioSource*>(), ::i2c::type_of<::by_ref<::ArrayW<float_t>>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, samples, channel);
 }
-inline void UnityEngine::AudioSource::GetSpectrumDataHelper(::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel, ::UnityEngine::FFTWindow window) {
+inline void UnityEngine::AudioSource::GetSpectrumDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel, ::UnityEngine::FFTWindow window) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "GetSpectrumDataHelper",
                                                                                                 {},
@@ -2391,7 +2391,7 @@ inline void UnityEngine::AudioSource::Play() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "Play", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::AudioSource::Play(uint64_t delay) {
+inline void UnityEngine::AudioSource::Play(/* [DefaultValue("0")] */ uint64_t delay) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "Play", {}, { ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, delay);
 }
@@ -2408,7 +2408,7 @@ inline void UnityEngine::AudioSource::PlayOneShot(::UnityEngine::AudioClip* clip
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "PlayOneShot", {}, { ::i2c::type_of<::UnityEngine::AudioClip*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, clip);
 }
-inline void UnityEngine::AudioSource::PlayOneShot(::UnityEngine::AudioClip* clip, float_t volumeScale) {
+inline void UnityEngine::AudioSource::PlayOneShot(::UnityEngine::AudioClip* clip, /* [DefaultValue("1.0F")] */ float_t volumeScale) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "PlayOneShot", {}, { ::i2c::type_of<::UnityEngine::AudioClip*>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, clip, volumeScale);
@@ -2461,7 +2461,7 @@ inline void UnityEngine::AudioSource::PlayClipAtPoint(::UnityEngine::AudioClip* 
       (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(), { "PlayClipAtPoint", {}, { ::i2c::type_of<::UnityEngine::AudioClip*>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, clip, position);
 }
-inline void UnityEngine::AudioSource::PlayClipAtPoint(::UnityEngine::AudioClip* clip, ::UnityEngine::Vector3 position, float_t volume) {
+inline void UnityEngine::AudioSource::PlayClipAtPoint(::UnityEngine::AudioClip* clip, ::UnityEngine::Vector3 position, /* [DefaultValue("1.0F")] */ float_t volume) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioSource*>(),
                                               { "PlayClipAtPoint", {}, { ::i2c::type_of<::UnityEngine::AudioClip*>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>() } })));

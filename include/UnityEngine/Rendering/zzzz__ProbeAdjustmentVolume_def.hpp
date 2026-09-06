@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeAdjustmentVolume.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeAdjustmentVolume.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   // @brief default ctor
   constexpr ProbeAdjustmentVolume_Shape();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeAdjustmentVolume_Shape(int32_t value__) noexcept;
 
   /// @brief Field Box value: I32(0)
@@ -141,7 +141,7 @@ public:
   // @brief default ctor
   constexpr ProbeAdjustmentVolume_Mode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeAdjustmentVolume_Mode(int32_t value__) noexcept;
 
   /// @brief Field ApplyVirtualOffset value: I32(2)
@@ -215,7 +215,7 @@ public:
   // @brief default ctor
   constexpr ProbeAdjustmentVolume_RenderingLayerMaskOperation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeAdjustmentVolume_RenderingLayerMaskOperation(int32_t value__) noexcept;
 
   /// @brief Field Add value: I32(1)
@@ -274,7 +274,7 @@ public:
   // @brief default ctor
   constexpr ProbeAdjustmentVolume_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeAdjustmentVolume_Version(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(2)
@@ -303,6 +303,8 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeAdjustmentVolume_Version, 
 static_assert(sizeof(::UnityEngine::Rendering::ProbeAdjustmentVolume_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [ExecuteAlways]
+// [AddComponentMenu("Rendering/Probe Adjustment Volume")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Rendering.ProbeAdjustmentVolume::Mode, UnityEngine.Rendering.ProbeAdjustmentVolume::RenderingLayerMaskOperation,
 // UnityEngine.Rendering.ProbeAdjustmentVolume::Shape, UnityEngine.Rendering.ProbeAdjustmentVolume::Version, UnityEngine.Vector3
 namespace UnityEngine::Rendering {
@@ -562,71 +564,96 @@ protected:
   constexpr ProbeAdjustmentVolume();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeAdjustmentVolume", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeAdjustmentVolume", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeAdjustmentVolume(ProbeAdjustmentVolume&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeAdjustmentVolume", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeAdjustmentVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeAdjustmentVolume(ProbeAdjustmentVolume const&) = delete;
+  ProbeAdjustmentVolume(ProbeAdjustmentVolumeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12077 };
 
+  /// [Tooltip("Select the shape used for this Probe Adjustment Volume.")]
   /// @brief Field shape, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeAdjustmentVolume_Shape ___shape;
 
+  /// [Min(0)]
+  /// [Tooltip("Modify the size of this Probe Adjustment Volume. This is unaffected by the GameObject\'s Transform\'s Scale property.")]
   /// @brief Field size, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___size;
 
+  /// [Min(0)]
+  /// [Tooltip("Modify the radius of this Probe Adjustment Volume. This is unaffected by the GameObject\'s Transform\'s Scale property.")]
   /// @brief Field radius, offset: 0x30, size: 0x4, def value: None
   float_t ___radius;
 
   /// @brief Field mode, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeAdjustmentVolume_Mode ___mode;
 
+  /// [Range(0.0001, 2)]
+  /// [Tooltip("A multiplier applied to the intensity of probes covered by this Probe Adjustment Volume.")]
   /// @brief Field intensityScale, offset: 0x38, size: 0x4, def value: None
   float_t ___intensityScale;
 
+  /// [Range(0, 0.95)]
   /// @brief Field overriddenDilationThreshold, offset: 0x3c, size: 0x4, def value: None
   float_t ___overriddenDilationThreshold;
 
   /// @brief Field virtualOffsetRotation, offset: 0x40, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___virtualOffsetRotation;
 
+  /// [Min(0)]
   /// @brief Field virtualOffsetDistance, offset: 0x4c, size: 0x4, def value: None
   float_t ___virtualOffsetDistance;
 
+  /// [Range(0, 1)]
+  /// [Tooltip("Determines how far Unity pushes a probe out of geometry after a ray hit.")]
   /// @brief Field geometryBias, offset: 0x50, size: 0x4, def value: None
   float_t ___geometryBias;
 
+  /// [Range(0, 0.95)]
   /// @brief Field virtualOffsetThreshold, offset: 0x54, size: 0x4, def value: None
   float_t ___virtualOffsetThreshold;
 
+  /// [Range(-0.05, 0)]
+  /// [Tooltip("Distance from the probe position used to determine the origin of the sampling ray.")]
   /// @brief Field rayOriginBias, offset: 0x58, size: 0x4, def value: None
   float_t ___rayOriginBias;
 
+  /// [Tooltip("The direction for sampling the ambient probe in worldspace when using the Sky Visibility feature.")]
   /// @brief Field skyDirection, offset: 0x5c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___skyDirection;
 
   /// @brief Field skyShadingDirectionRotation, offset: 0x68, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___skyShadingDirectionRotation;
 
+  /// [Logarithmic(1, 1024)]
+  /// [Tooltip("Number of samples for direct lighting computations.")]
   /// @brief Field directSampleCount, offset: 0x74, size: 0x4, def value: None
   int32_t ___directSampleCount;
 
+  /// [Logarithmic(1, 8192)]
+  /// [Tooltip("Number of samples for indirect lighting computations. This includes environment samples.")]
   /// @brief Field indirectSampleCount, offset: 0x78, size: 0x4, def value: None
   int32_t ___indirectSampleCount;
 
+  /// [Min(0)]
+  /// [Tooltip("Multiplier for the number of samples specified above.")]
   /// @brief Field sampleCountMultiplier, offset: 0x7c, size: 0x4, def value: None
   int32_t ___sampleCountMultiplier;
 
+  /// [Min(0)]
+  /// [Tooltip("Maximum number of bounces for indirect lighting.")]
   /// @brief Field maxBounces, offset: 0x80, size: 0x4, def value: None
   int32_t ___maxBounces;
 
+  /// [Logarithmic(1, 8192)]
   /// @brief Field skyOcclusionSampleCount, offset: 0x84, size: 0x4, def value: None
   int32_t ___skyOcclusionSampleCount;
 
+  /// [Range(0, 5)]
   /// @brief Field skyOcclusionMaxBounces, offset: 0x88, size: 0x4, def value: None
   int32_t ___skyOcclusionMaxBounces;
 
@@ -636,12 +663,15 @@ public:
   /// @brief Field renderingLayerMask, offset: 0x90, size: 0x1, def value: None
   uint8_t ___renderingLayerMask;
 
+  /// [SerializeField]
   /// @brief Field version, offset: 0x94, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeAdjustmentVolume_Version ___version;
 
+  /// [Obsolete("Use mode")]
   /// @brief Field invalidateProbes, offset: 0x98, size: 0x1, def value: None
   bool ___invalidateProbes;
 
+  /// [Obsolete("Use mode")]
   /// @brief Field overrideDilationThreshold, offset: 0x99, size: 0x1, def value: None
   bool ___overrideDilationThreshold;
 

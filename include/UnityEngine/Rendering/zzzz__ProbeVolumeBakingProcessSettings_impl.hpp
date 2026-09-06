@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeBakingProcessSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeBakingProcessSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeDilationSettings_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VirtualOffsetSettings_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeBakingProcessSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeDilationSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeBakingProcessSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__VirtualOffsetSettings_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion::ProbeVolumeBakingProcessSettings_SettingsVersion(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -91,9 +91,9 @@ inline void UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::Upgrade() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings>(), { "Upgrade", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Version", ty: "::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "dilationSettings", ty: "::UnityEngine::Rendering::ProbeDilationSettings", modifiers: "", def_value: Some("{}") }, CppParam { name: "virtualOffsetSettings", ty:
-// "::UnityEngine::Rendering::VirtualOffsetSettings", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Version", ty: "::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "dilationSettings", ty: "::UnityEngine::Rendering::ProbeDilationSettings", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "virtualOffsetSettings", ty:
+// "::UnityEngine::Rendering::VirtualOffsetSettings", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::ProbeVolumeBakingProcessSettings(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion m_Version,
                                                                                                        ::UnityEngine::Rendering::ProbeDilationSettings dilationSettings,
                                                                                                        ::UnityEngine::Rendering::VirtualOffsetSettings virtualOffsetSettings) noexcept {

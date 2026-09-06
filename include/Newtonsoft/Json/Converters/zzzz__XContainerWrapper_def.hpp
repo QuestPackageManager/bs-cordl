@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XContainerWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XContainerWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class XContainerWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XContainerWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XContainerWrapper*, "Newtonsoft.Json.Converters", "XContainerWrapper");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.XObjectWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -37,6 +39,7 @@ public:
 
   __declspec(property(get = get_HasChildNodes)) bool HasChildNodes;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_ParentNode)) ::Newtonsoft::Json::Converters::IXmlNode* ParentNode;
 
   /// @brief Field _childNodes, offset 0x18, size 0x8
@@ -68,6 +71,7 @@ public:
   /// @brief Method get_HasChildNodes, addr 0x5da0a3c, size 0x28, virtual true, abstract: false, final false
   inline bool get_HasChildNodes();
 
+  /// [NullableContext(2)]
   /// @brief Method get_ParentNode, addr 0x5da1a70, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
@@ -77,17 +81,18 @@ protected:
   constexpr XContainerWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XContainerWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XContainerWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XContainerWrapper(XContainerWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XContainerWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XContainerWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XContainerWrapper(XContainerWrapper const&) = delete;
+  XContainerWrapper(XContainerWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13685 };
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _childNodes, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ____childNodes;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Net\Security\MonoSslAuthenticationOptions.hpp"
+// IWYU pragma private; include "Mono/Net/Security/MonoSslAuthenticationOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,46 +71,47 @@ public:
   /// @brief Method .ctor, addr 0x5fdcd1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClientCertificateRequired, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ClientCertificateRequired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ClientCertificateRequired();
 
-  /// @brief Method get_ClientCertificates, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method get_EnabledSslProtocols, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_EnabledSslProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ServerCertSelectionDelegate, addr 0x5fdcd14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::ServerCertSelectionCallback* get_ServerCertSelectionDelegate();
 
-  /// @brief Method get_ServerCertificate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_ServerCertificate();
 
-  /// @brief Method get_ServerMode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ServerMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ServerMode();
 
-  /// @brief Method get_TargetHost, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_TargetHost();
 
-  /// @brief Method set_CertificateRevocationCheckMode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_CertificateRevocationCheckMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_ClientCertificateRequired, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_ClientCertificateRequired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ClientCertificateRequired(bool value);
 
-  /// @brief Method set_ClientCertificates, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_ClientCertificates, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_EnabledSslProtocols, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_EnabledSslProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
 
-  /// @brief Method set_EncryptionPolicy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_EncryptionPolicy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method set_ServerCertificate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_ServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
-  /// @brief Method set_TargetHost, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_TargetHost, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_TargetHost(::StringW value);
 
 protected:
@@ -119,17 +120,18 @@ protected:
   constexpr MonoSslAuthenticationOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoSslAuthenticationOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoSslAuthenticationOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoSslAuthenticationOptions(MonoSslAuthenticationOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoSslAuthenticationOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoSslAuthenticationOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoSslAuthenticationOptions(MonoSslAuthenticationOptions const&) = delete;
+  MonoSslAuthenticationOptions(MonoSslAuthenticationOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11030 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ServerCertSelectionDelegate>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Security::ServerCertSelectionCallback* ____ServerCertSelectionDelegate_k__BackingField;
 

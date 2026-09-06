@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlSerializedData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlSerializedData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlSerializedData_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlSerializedData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlSerializedData_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UxmlSerializedData_UxmlAttributeFlags::UxmlSerializedData_UxmlAttributeFlags(uint8_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls\VRPointer.hpp"
+// IWYU pragma private; include "VRUIControls/VRPointer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ class VRPointer;
 // Write type traits
 MARK_REF_T(::VRUIControls::VRPointer*);
 DEFINE_IL2CPP_CLASS(::VRUIControls::VRPointer*, "VRUIControls", "VRPointer");
+// [RequireComponent(typeof(UnityEngine.EventSystems.EventSystem))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace VRUIControls {
 // Is value type: false
@@ -309,6 +310,7 @@ public:
   /// @brief Method .ctor, addr 0x6e3d644, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_lastUsedControllerChangedEvent, addr 0x6e3c58c, size 0xc0, virtual false, abstract: false, final false
   inline void add_lastUsedControllerChangedEvent(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* value);
 
@@ -330,6 +332,7 @@ public:
   /// @brief Method get_state, addr 0x6e3c794, size 0x3c0, virtual false, abstract: false, final false
   inline ::StringW get_state();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_lastUsedControllerChangedEvent, addr 0x6e3c64c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_lastUsedControllerChangedEvent(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* value);
 
@@ -339,13 +342,13 @@ protected:
   constexpr VRPointer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRPointer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRPointer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRPointer(VRPointer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRPointer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRPointer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRPointer(VRPointer const&) = delete;
+  VRPointer(VRPointerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22829 };
@@ -356,24 +359,31 @@ public:
   /// @brief Field kTriggerThreshold offset 0xffffffff size 0x4
   static constexpr float_t kTriggerThreshold{ static_cast<float_t>(0.1f) };
 
+  /// [SerializeField]
   /// @brief Field _leftVRController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____leftVRController;
 
+  /// [SerializeField]
   /// @brief Field _rightVRController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____rightVRController;
 
+  /// [SerializeField]
   /// @brief Field _laserPointerPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::VRUIControls::VRLaserPointer> ____laserPointerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _cursorPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____cursorPrefab;
 
+  /// [SerializeField]
   /// @brief Field _defaultLaserPointerLength, offset: 0x40, size: 0x4, def value: None
   float_t ____defaultLaserPointerLength;
 
+  /// [SerializeField]
   /// @brief Field _laserPointerWidth, offset: 0x44, size: 0x4, def value: None
   float_t ____laserPointerWidth;
 
+  /// [CompilerGenerated]
   /// @brief Field lastUsedControllerChangedEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* ___lastUsedControllerChangedEvent;
 

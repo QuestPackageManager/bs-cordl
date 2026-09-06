@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\NamespaceHandling.hpp"
+// IWYU pragma private; include "System/Xml/NamespaceHandling.hpp"
 #include "System/Xml/zzzz__NamespaceHandling_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::NamespaceHandling::NamespaceHandling(int32_t value__) noexcept {
   this->value__ = value__;
 }

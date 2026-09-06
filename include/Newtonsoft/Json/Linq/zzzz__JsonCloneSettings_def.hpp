@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonCloneSettings.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonCloneSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,11 +40,13 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JsonCloneSettings* getStaticF_SkipCopyAnnotations();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CopyAnnotations, addr 0x5d7ad20, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyAnnotations();
 
   static inline void setStaticF_SkipCopyAnnotations(::Newtonsoft::Json::Linq::JsonCloneSettings* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CopyAnnotations, addr 0x5d7ad28, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyAnnotations(bool value);
 
@@ -54,17 +56,18 @@ protected:
   constexpr JsonCloneSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonCloneSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonCloneSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonCloneSettings(JsonCloneSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonCloneSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonCloneSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonCloneSettings(JsonCloneSettings const&) = delete;
+  JsonCloneSettings(JsonCloneSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13602 };
 
+  /// [CompilerGenerated]
   /// @brief Field <CopyAnnotations>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____CopyAnnotations_k__BackingField;
 

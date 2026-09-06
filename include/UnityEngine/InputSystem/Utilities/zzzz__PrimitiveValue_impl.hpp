@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\PrimitiveValue.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/PrimitiveValue.hpp"
 #include "System/zzzz__TypeCode_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
@@ -1230,7 +1230,9 @@ inline ::System::Object* UnityEngine::InputSystem::Utilities::PrimitiveValue::To
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(), { "ToObject", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(*this, ___internal_method);
 }
-template <typename TValue> inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue UnityEngine::InputSystem::Utilities::PrimitiveValue::From(TValue value) {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue UnityEngine::InputSystem::Utilities::PrimitiveValue::From(TValue value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::PrimitiveValue>(), { "From", { ::i2c::class_of<TValue>() }, { ::i2c::type_of<TValue>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
@@ -1378,12 +1380,14 @@ constexpr UnityEngine::InputSystem::Utilities::PrimitiveValue::operator ::System
 constexpr ::System::IConvertible* UnityEngine::InputSystem::Utilities::PrimitiveValue::i___System__IConvertible() {
   return static_cast<::System::IConvertible*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Type", ty: "::System::TypeCode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BoolValue", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_CharValue", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ByteValue", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_SByteValue", ty: "int8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ShortValue", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UShortValue", ty:
-// "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IntValue", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UIntValue", ty: "uint32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_LongValue", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ULongValue", ty: "uint64_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_FloatValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DoubleValue", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Type", ty: "::System::TypeCode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BoolValue", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_CharValue", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ByteValue", ty: "uint8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_SByteValue", ty: "int8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ShortValue", ty: "int16_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UShortValue", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IntValue", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_UIntValue", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_LongValue", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ULongValue", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "m_FloatValue", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DoubleValue", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue::PrimitiveValue(::System::TypeCode m_Type, bool m_BoolValue, char16_t m_CharValue, uint8_t m_ByteValue, int8_t m_SByteValue,
                                                                                 int16_t m_ShortValue, uint16_t m_UShortValue, int32_t m_IntValue, uint32_t m_UIntValue, int64_t m_LongValue,
                                                                                 uint64_t m_ULongValue, float_t m_FloatValue, double_t m_DoubleValue) noexcept {

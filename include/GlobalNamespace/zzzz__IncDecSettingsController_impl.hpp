@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IncDecSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/IncDecSettingsController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__IncDecSettingsController_def.hpp"
 #include "GlobalNamespace/zzzz__StepValuePicker_def.hpp"

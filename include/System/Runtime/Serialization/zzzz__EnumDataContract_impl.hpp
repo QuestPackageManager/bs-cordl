@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\EnumDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/EnumDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContract_impl.hpp"
 #include "System/Xml/zzzz__XmlDictionaryString_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__EnumDataContract_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteLODGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteLODGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,17 +62,18 @@ protected:
   constexpr NoteLODGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteLODGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteLODGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteLODGroup(NoteLODGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteLODGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteLODGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteLODGroup(NoteLODGroup const&) = delete;
+  NoteLODGroup(NoteLODGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5748 };
 
+  /// [SerializeField]
   /// @brief Field _postProcessEnabled, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____postProcessEnabled;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\MeshImporter.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MeshImporter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Vertex_impl.hpp"
 #include "UnityEngine/zzzz__Material_impl.hpp"
@@ -234,6 +234,8 @@ inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* UnityEngine::Pro
                                                                                                                                 ::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(sourceMesh, sourceMaterials, destination));
 }
+/// [Obsolete]
+/// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
 inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(destination));
 }

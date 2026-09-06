@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\CancellationTokenSource_Linked2CancellationTokenSource.hpp"
+// IWYU pragma private; include "System/Threading/CancellationTokenSource_Linked2CancellationTokenSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr CancellationTokenSource_Linked2CancellationTokenSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource_Linked2CancellationTokenSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource_Linked2CancellationTokenSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CancellationTokenSource_Linked2CancellationTokenSource(CancellationTokenSource_Linked2CancellationTokenSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource_Linked2CancellationTokenSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource_Linked2CancellationTokenSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CancellationTokenSource_Linked2CancellationTokenSource(CancellationTokenSource_Linked2CancellationTokenSource const&) = delete;
+  CancellationTokenSource_Linked2CancellationTokenSource(CancellationTokenSource_Linked2CancellationTokenSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2697 };

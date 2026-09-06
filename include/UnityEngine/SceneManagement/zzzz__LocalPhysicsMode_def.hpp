@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\LocalPhysicsMode.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/LocalPhysicsMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct LocalPhysicsMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SceneManagement::LocalPhysicsMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SceneManagement::LocalPhysicsMode, "UnityEngine.SceneManagement", "LocalPhysicsMode");
+// [Flags]
 // Dependencies
 namespace UnityEngine::SceneManagement {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr LocalPhysicsMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LocalPhysicsMode(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\ExternalFileReader.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/ExternalFileReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ MARK_REF_T(::BGLib::UnityExtension::ExternalFileReader*);
 MARK_VAL_T(::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0);
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::ExternalFileReader*, "BGLib.UnityExtension", "ExternalFileReader");
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0, "BGLib.UnityExtension", "ExternalFileReader/<ExistsAsync>d__0");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, UnityEngine.Networking.UnityWebRequest::Result
 namespace BGLib::UnityExtension {
 // Is value type: true
@@ -48,6 +49,7 @@ public:
   /// @brief Method MoveNext, addr 0x3328520, size 0x7c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3328e88, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -58,10 +60,10 @@ public:
   // @brief default ctor
   constexpr ExternalFileReader__ExistsAsync_d__0();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "filePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "_webRequest_5__2", ty: "::UnityEngine::Networking::UnityWebRequest*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "filePath", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_webRequest_5__2", ty: "::UnityEngine::Networking::UnityWebRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>", modifiers: "", def_value: None, comment: None }]
   constexpr ExternalFileReader__ExistsAsync_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::StringW filePath,
                                                  ::UnityEngine::Networking::UnityWebRequest* _webRequest_5__2,
                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1) noexcept;
@@ -112,6 +114,7 @@ public:
   // Declarations
   using _ExistsAsync_d__0 = ::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0;
 
+  /// [AsyncStateMachine(typeof(BGLib.UnityExtension.ExternalFileReader::<ExistsAsync>d__0))]
   /// @brief Method ExistsAsync, addr 0x3328440, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* ExistsAsync(::StringW filePath);
 
@@ -121,13 +124,13 @@ protected:
   constexpr ExternalFileReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExternalFileReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExternalFileReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExternalFileReader(ExternalFileReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExternalFileReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExternalFileReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExternalFileReader(ExternalFileReader const&) = delete;
+  ExternalFileReader(ExternalFileReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20793 };

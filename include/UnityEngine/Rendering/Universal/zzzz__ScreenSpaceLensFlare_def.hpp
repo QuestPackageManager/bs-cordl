@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceLensFlare.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceLensFlare.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,8 @@ class ScreenSpaceLensFlare;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*, "UnityEngine.Rendering.Universal", "ScreenSpaceLensFlare");
+// [VolumeComponentMenu("Post-processing/Screen Space Lens Flare")]
+// [SupportedOnRenderPipeline(typeof(UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset))]
 // Dependencies UnityEngine.Rendering.VolumeComponent
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -107,6 +109,7 @@ public:
   /// @brief Method IsStreaksActive, addr 0x687f748, size 0x30, virtual false, abstract: false, final false
   inline bool IsStreaksActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x687f778, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
@@ -232,13 +235,13 @@ protected:
   constexpr ScreenSpaceLensFlare();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceLensFlare", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceLensFlare", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenSpaceLensFlare(ScreenSpaceLensFlare&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceLensFlare", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenSpaceLensFlare", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenSpaceLensFlare(ScreenSpaceLensFlare const&) = delete;
+  ScreenSpaceLensFlare(ScreenSpaceLensFlareconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12808 };
@@ -249,9 +252,11 @@ public:
   /// @brief Field tintColor, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Rendering::ColorParameter* ___tintColor;
 
+  /// [AdditionalProperty]
   /// @brief Field bloomMip, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedIntParameter* ___bloomMip;
 
+  /// [Header("Flares")]
   /// @brief Field firstFlareIntensity, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___firstFlareIntensity;
 
@@ -261,12 +266,14 @@ public:
   /// @brief Field warpedFlareIntensity, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___warpedFlareIntensity;
 
+  /// [AdditionalProperty]
   /// @brief Field warpedFlareScale, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::Vector2Parameter* ___warpedFlareScale;
 
   /// @brief Field samples, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedIntParameter* ___samples;
 
+  /// [AdditionalProperty]
   /// @brief Field sampleDimmer, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___sampleDimmer;
 
@@ -279,6 +286,7 @@ public:
   /// @brief Field scale, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___scale;
 
+  /// [Header("Streaks")]
   /// @brief Field streaksIntensity, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___streaksIntensity;
 
@@ -291,9 +299,12 @@ public:
   /// @brief Field streaksThreshold, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___streaksThreshold;
 
+  /// [SerializeField]
+  /// [AdditionalProperty]
   /// @brief Field resolution, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceLensFlareResolutionParameter* ___resolution;
 
+  /// [Header("Chromatic Abberation")]
   /// @brief Field chromaticAbberationIntensity, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___chromaticAbberationIntensity;
 

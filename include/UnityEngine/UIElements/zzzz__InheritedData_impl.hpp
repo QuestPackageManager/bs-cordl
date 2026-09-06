@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\InheritedData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/InheritedData.hpp"
 #include "UnityEngine/UIElements/zzzz__EditorTextRenderingMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
@@ -143,16 +143,18 @@ constexpr UnityEngine::UIElements::InheritedData::operator ::System::IEquatable_
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>* UnityEngine::UIElements::InheritedData::i___System__IEquatable_1___UnityEngine__UIElements__InheritedData_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontSize", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }, CppParam { name: "textShadow", ty:
-// "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: Some("{}") }, CppParam { name: "unityEditorTextRenderingMode", ty: "::UnityEngine::UIElements::EditorTextRenderingMode",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "unityFont", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("{}") }, CppParam { name: "unityFontDefinition", ty:
-// "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: Some("{}") }, CppParam { name: "unityFontStyleAndWeight", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "unityParagraphSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }, CppParam { name: "unityTextAlign", ty: "::UnityEngine::TextAnchor",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "unityTextGenerator", ty: "::UnityEngine::TextGeneratorType", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "unityTextOutlineColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "unityTextOutlineWidth", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "visibility", ty: "::UnityEngine::UIElements::Visibility", modifiers: "", def_value: Some("{}") }, CppParam { name: "whiteSpace", ty: "::UnityEngine::UIElements::WhiteSpace",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontSize", ty: "::UnityEngine::UIElements::Length",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "textShadow", ty: "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityEditorTextRenderingMode", ty:
+// "::UnityEngine::UIElements::EditorTextRenderingMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityFont", ty: "::UnityW<::UnityEngine::Font>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "unityFontDefinition", ty: "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "unityFontStyleAndWeight", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityParagraphSpacing", ty:
+// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextAlign", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "unityTextGenerator", ty: "::UnityEngine::TextGeneratorType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextOutlineColor", ty:
+// "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unityTextOutlineWidth", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "visibility", ty: "::UnityEngine::UIElements::Visibility", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "whiteSpace", ty:
+// "::UnityEngine::UIElements::WhiteSpace", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::InheritedData::InheritedData(::UnityEngine::Color color, ::UnityEngine::UIElements::Length fontSize, ::UnityEngine::UIElements::Length letterSpacing,
                                                                   ::UnityEngine::UIElements::TextShadow textShadow, ::UnityEngine::UIElements::EditorTextRenderingMode unityEditorTextRenderingMode,
                                                                   ::UnityW<::UnityEngine::Font> unityFont, ::UnityEngine::UIElements::FontDefinition unityFontDefinition,

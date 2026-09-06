@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Channels\SinkProviderData.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/SinkProviderData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class SinkProviderData;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Channels::SinkProviderData*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Channels::SinkProviderData*, "System.Runtime.Remoting.Channels", "SinkProviderData");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
@@ -80,13 +81,13 @@ protected:
   constexpr SinkProviderData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SinkProviderData(SinkProviderData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SinkProviderData(SinkProviderData const&) = delete;
+  SinkProviderData(SinkProviderDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3144 };

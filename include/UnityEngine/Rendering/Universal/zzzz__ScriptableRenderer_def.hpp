@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScriptableRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScriptableRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,9 @@ namespace UnityEngine::Experimental::Rendering {
 class XRPass;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -329,13 +331,13 @@ protected:
   constexpr Profiling_ScriptableRenderer_RenderBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Profiling_ScriptableRenderer_RenderBlock(Profiling_ScriptableRenderer_RenderBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Profiling_ScriptableRenderer_RenderBlock(Profiling_ScriptableRenderer_RenderBlock const&) = delete;
+  Profiling_ScriptableRenderer_RenderBlock(Profiling_ScriptableRenderer_RenderBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12720 };
@@ -376,13 +378,13 @@ protected:
   constexpr Profiling_ScriptableRenderer_RenderPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Profiling_ScriptableRenderer_RenderPass(Profiling_ScriptableRenderer_RenderPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Profiling_ScriptableRenderer_RenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Profiling_ScriptableRenderer_RenderPass(Profiling_ScriptableRenderer_RenderPass const&) = delete;
+  Profiling_ScriptableRenderer_RenderPass(Profiling_ScriptableRenderer_RenderPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12721 };
@@ -560,13 +562,13 @@ protected:
   constexpr ScriptableRenderer_Profiling();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_Profiling", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_Profiling", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_Profiling(ScriptableRenderer_Profiling&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_Profiling", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_Profiling", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_Profiling(ScriptableRenderer_Profiling const&) = delete;
+  ScriptableRenderer_Profiling(ScriptableRenderer_Profilingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12722 };
@@ -594,8 +596,8 @@ public:
   // @brief default ctor
   constexpr ScriptableRenderer_RenderPassDescriptor();
 
-  // Ctor Parameters [CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "h", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "samples", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "depthID", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "h", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "samples", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "depthID", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptableRenderer_RenderPassDescriptor(int32_t w, int32_t h, int32_t samples, int32_t depthID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -643,6 +645,7 @@ public:
   /// @brief Field <msaa>k__BackingField, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get__msaa_k__BackingField, put = __cordl_internal_set__msaa_k__BackingField)) bool _msaa_k__BackingField;
 
+  /// @brief [Obsolete("cameraStacking has been deprecated use SupportedCameraRenderTypes() in ScriptableRenderer instead.", true)]
   __declspec(property(get = get_cameraStacking, put = set_cameraStacking)) bool cameraStacking;
 
   __declspec(property(get = get_msaa, put = set_msaa)) bool msaa;
@@ -664,15 +667,19 @@ public:
   /// @brief Method .ctor, addr 0x687317c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_cameraStacking, addr 0x687315c, size 0x8, virtual false, abstract: false, final false
   inline bool get_cameraStacking();
 
+  /// [CompilerGenerated]
   /// @brief Method get_msaa, addr 0x687316c, size 0x8, virtual false, abstract: false, final false
   inline bool get_msaa();
 
+  /// [CompilerGenerated]
   /// @brief Method set_cameraStacking, addr 0x6873164, size 0x8, virtual false, abstract: false, final false
   inline void set_cameraStacking(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_msaa, addr 0x6873174, size 0x8, virtual false, abstract: false, final false
   inline void set_msaa(bool value);
 
@@ -682,20 +689,22 @@ protected:
   constexpr ScriptableRenderer_RenderingFeatures();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderingFeatures", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderingFeatures", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_RenderingFeatures(ScriptableRenderer_RenderingFeatures&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderingFeatures", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderingFeatures", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_RenderingFeatures(ScriptableRenderer_RenderingFeatures const&) = delete;
+  ScriptableRenderer_RenderingFeatures(ScriptableRenderer_RenderingFeaturesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12724 };
 
+  /// [CompilerGenerated]
   /// @brief Field <cameraStacking>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____cameraStacking_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <msaa>k__BackingField, offset: 0x11, size: 0x1, def value: None
   bool ____msaa_k__BackingField;
 
@@ -750,13 +759,13 @@ protected:
   constexpr ScriptableRenderer_RenderPassBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderPassBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderPassBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_RenderPassBlock(ScriptableRenderer_RenderPassBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderPassBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_RenderPassBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_RenderPassBlock(ScriptableRenderer_RenderPassBlock const&) = delete;
+  ScriptableRenderer_RenderPassBlock(ScriptableRenderer_RenderPassBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12725 };
@@ -821,13 +830,13 @@ protected:
   constexpr ScriptableRenderer_VFXProcessCameraPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_VFXProcessCameraPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_VFXProcessCameraPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_VFXProcessCameraPassData(ScriptableRenderer_VFXProcessCameraPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_VFXProcessCameraPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_VFXProcessCameraPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_VFXProcessCameraPassData(ScriptableRenderer_VFXProcessCameraPassData const&) = delete;
+  ScriptableRenderer_VFXProcessCameraPassData(ScriptableRenderer_VFXProcessCameraPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12726 };
@@ -885,13 +894,13 @@ protected:
   constexpr ScriptableRenderer_DrawGizmosPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawGizmosPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawGizmosPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_DrawGizmosPassData(ScriptableRenderer_DrawGizmosPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawGizmosPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawGizmosPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_DrawGizmosPassData(ScriptableRenderer_DrawGizmosPassData const&) = delete;
+  ScriptableRenderer_DrawGizmosPassData(ScriptableRenderer_DrawGizmosPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12727 };
@@ -934,13 +943,13 @@ protected:
   constexpr ScriptableRenderer_DrawWireOverlayPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawWireOverlayPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawWireOverlayPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_DrawWireOverlayPassData(ScriptableRenderer_DrawWireOverlayPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawWireOverlayPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DrawWireOverlayPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_DrawWireOverlayPassData(ScriptableRenderer_DrawWireOverlayPassData const&) = delete;
+  ScriptableRenderer_DrawWireOverlayPassData(ScriptableRenderer_DrawWireOverlayPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12728 };
@@ -983,13 +992,13 @@ protected:
   constexpr ScriptableRenderer_BeginXRPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_BeginXRPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_BeginXRPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_BeginXRPassData(ScriptableRenderer_BeginXRPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_BeginXRPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_BeginXRPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_BeginXRPassData(ScriptableRenderer_BeginXRPassData const&) = delete;
+  ScriptableRenderer_BeginXRPassData(ScriptableRenderer_BeginXRPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12729 };
@@ -1032,13 +1041,13 @@ protected:
   constexpr ScriptableRenderer_EndXRPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_EndXRPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_EndXRPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_EndXRPassData(ScriptableRenderer_EndXRPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_EndXRPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_EndXRPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_EndXRPassData(ScriptableRenderer_EndXRPassData const&) = delete;
+  ScriptableRenderer_EndXRPassData(ScriptableRenderer_EndXRPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12730 };
@@ -1072,13 +1081,13 @@ protected:
   constexpr ScriptableRenderer_DummyData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DummyData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DummyData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_DummyData(ScriptableRenderer_DummyData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DummyData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_DummyData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_DummyData(ScriptableRenderer_DummyData const&) = delete;
+  ScriptableRenderer_DummyData(ScriptableRenderer_DummyDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12731 };
@@ -1143,13 +1152,13 @@ protected:
   constexpr ScriptableRenderer_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer_PassData(ScriptableRenderer_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer_PassData(ScriptableRenderer_PassData const&) = delete;
+  ScriptableRenderer_PassData(ScriptableRenderer_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12732 };
@@ -1214,7 +1223,8 @@ public:
   // @brief default ctor
   constexpr RenderBlocks_ScriptableRenderer_BlockRange();
 
-  // Ctor Parameters [CppParam { name: "m_Current", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_End", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Current", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_End", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr RenderBlocks_ScriptableRenderer_BlockRange(int32_t m_Current, int32_t m_End) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1273,9 +1283,9 @@ public:
   // @brief default ctor
   constexpr ScriptableRenderer_RenderBlocks();
 
-  // Ctor Parameters [CppParam { name: "m_BlockEventLimits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::RenderPassEvent>", modifiers: "", def_value: None }, CppParam
-  // { name: "m_BlockRanges", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_BlockRangeLengths", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_BlockEventLimits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::RenderPassEvent>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_BlockRanges", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BlockRangeLengths", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr ScriptableRenderer_RenderBlocks(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::RenderPassEvent> m_BlockEventLimits,
                                             ::Unity::Collections::NativeArray_1<int32_t> m_BlockRanges, ::Unity::Collections::NativeArray_1<int32_t> m_BlockRangeLengths) noexcept;
 
@@ -1306,6 +1316,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ScriptableRenderer_R
 static_assert(sizeof(::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderBlocks) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -1424,13 +1435,13 @@ protected:
   constexpr ScriptableRenderer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer___c(ScriptableRenderer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer___c(ScriptableRenderer___c const&) = delete;
+  ScriptableRenderer___c(ScriptableRenderer___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12735 };
@@ -1508,14 +1519,20 @@ public:
 
   __declspec(property(get = get_activeRenderPassQueue)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::ScriptableRenderPass*>* activeRenderPassQueue;
 
+  /// @brief [Obsolete("Use cameraColorTargetHandle", true)]
   __declspec(property(get = get_cameraColorTarget)) ::UnityEngine::Rendering::RenderTargetIdentifier cameraColorTarget;
 
+  /// @brief [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   __declspec(property(get = get_cameraColorTargetHandle)) ::UnityEngine::Rendering::RTHandle* cameraColorTargetHandle;
 
+  /// [Obsolete("cameraDepth has been renamed to cameraDepthTarget. (UnityUpgradable) -> cameraDepthTarget", true)]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_cameraDepth)) ::UnityEngine::Rendering::RenderTargetIdentifier cameraDepth;
 
+  /// @brief [Obsolete("Use cameraDepthTargetHandle", true)]
   __declspec(property(get = get_cameraDepthTarget)) ::UnityEngine::Rendering::RenderTargetIdentifier cameraDepthTarget;
 
+  /// @brief [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   __declspec(property(get = get_cameraDepthTargetHandle)) ::UnityEngine::Rendering::RTHandle* cameraDepthTargetHandle;
 
   /// @brief Field current, offset 0xffffffff, size 0x8
@@ -1676,12 +1693,13 @@ public:
   /// @brief Method BeginRenderGraphXRRendering, addr 0x686c104, size 0x530, virtual false, abstract: false, final false
   inline void BeginRenderGraphXRRendering(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method BeginXRRendering, addr 0x686f4b4, size 0x1d4, virtual false, abstract: false, final false
   inline void BeginXRRendering(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
   /// @brief Method CalculateBillboardProperties, addr 0x6869b30, size 0x3d8, virtual false, abstract: false, final false
-  static inline void CalculateBillboardProperties(::by_ref<::UnityEngine::Matrix4x4> worldToCameraMatrix, ::by_ref<::UnityEngine::Vector3> billboardTangent,
+  static inline void CalculateBillboardProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> worldToCameraMatrix, ::by_ref<::UnityEngine::Vector3> billboardTangent,
                                                   ::by_ref<::UnityEngine::Vector3> billboardNormal, ::by_ref<float_t> cameraXZAngle);
 
   /// @brief Method CalculateSplitEventRange, addr 0x686d4dc, size 0x130, virtual false, abstract: false, final false
@@ -1695,15 +1713,19 @@ public:
   /// @brief Method ClearRenderingState, addr 0x686ea0c, size 0x930, virtual false, abstract: false, final false
   static inline void ClearRenderingState(::UnityEngine::Rendering::IBaseCommandBuffer* cmd);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method ConfigureCameraColorTarget, addr 0x686b444, size 0x8, virtual false, abstract: false, final false
   inline void ConfigureCameraColorTarget(::UnityEngine::Rendering::RTHandle* colorTarget);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method ConfigureCameraTarget, addr 0x686b430, size 0x8, virtual false, abstract: false, final false
   inline void ConfigureCameraTarget(::UnityEngine::Rendering::RTHandle* colorTarget, ::UnityEngine::Rendering::RTHandle* depthTarget);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method ConfigureCameraTarget, addr 0x686b438, size 0xc, virtual false, abstract: false, final false
   inline void ConfigureCameraTarget(::UnityEngine::Rendering::RTHandle* colorTarget, ::UnityEngine::Rendering::RTHandle* depthTarget, ::UnityEngine::Rendering::RTHandle* resolveTarget);
 
+  /// [Obsolete("Use RTHandles for colorTarget and depthTarget", true)]
   /// @brief Method ConfigureCameraTarget, addr 0x686b3e4, size 0x4c, virtual false, abstract: false, final false
   inline void ConfigureCameraTarget(::UnityEngine::Rendering::RenderTargetIdentifier colorTarget, ::UnityEngine::Rendering::RenderTargetIdentifier depthTarget);
 
@@ -1719,6 +1741,7 @@ public:
   /// @brief Method Dispose, addr 0x686b3cc, size 0x14, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method DrawGizmos, addr 0x6872084, size 0x4, virtual false, abstract: false, final false
   inline void DrawGizmos(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::GizmoSubset gizmoSubset,
                          ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
@@ -1732,6 +1755,7 @@ public:
   inline void DrawRenderGraphWireOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                          ::UnityEngine::Rendering::RenderGraphModule::TextureHandle color);
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method DrawWireOverlay, addr 0x6872088, size 0x70, virtual false, abstract: false, final false
   inline void DrawWireOverlay(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
@@ -1741,6 +1765,7 @@ public:
   /// @brief Method EndRenderGraphXRRendering, addr 0x686c634, size 0x458, virtual false, abstract: false, final false
   inline void EndRenderGraphXRRendering(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method EndXRRendering, addr 0x686f688, size 0x1d0, virtual false, abstract: false, final false
   inline void EndXRRendering(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ScriptableRenderContext context,
                              ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
@@ -1748,17 +1773,20 @@ public:
   /// @brief Method EnqueuePass, addr 0x686f904, size 0xbc, virtual false, abstract: false, final false
   inline void EnqueuePass(::UnityEngine::Rendering::Universal::ScriptableRenderPass* pass);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x686d9bc, size 0xd54, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method ExecuteBlock, addr 0x686f33c, size 0x178, virtual false, abstract: false, final false
-  inline void ExecuteBlock(int32_t blockIndex, ::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderBlocks> renderBlocks, ::UnityEngine::Rendering::ScriptableRenderContext context,
-                           ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData, bool submit);
+  inline void ExecuteBlock(int32_t blockIndex, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderBlocks> renderBlocks,
+                           ::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData, bool submit);
 
   /// @brief Method ExecuteNativeRenderPass, addr 0x6867a24, size 0xb2c, virtual false, abstract: false, final false
   inline void ExecuteNativeRenderPass(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass,
                                       ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method ExecuteRenderPass, addr 0x686ff24, size 0x3f0, virtual false, abstract: false, final false
   inline void ExecuteRenderPass(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass,
                                 ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
@@ -1782,9 +1810,11 @@ public:
   /// @brief Method GetCameraClearFlag, addr 0x686f9c0, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ClearFlag GetCameraClearFlag(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method GetCameraColorBackBuffer, addr 0x686a600, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCameraColorBackBuffer(::UnityEngine::Rendering::CommandBuffer* cmd);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method GetCameraColorFrontBuffer, addr 0x686a5f8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCameraColorFrontBuffer(::UnityEngine::Rendering::CommandBuffer* cmd);
 
@@ -1830,6 +1860,7 @@ public:
   /// @brief Method IsDepthOnlyRenderTexture, addr 0x6866abc, size 0x28, virtual false, abstract: false, final false
   inline bool IsDepthOnlyRenderTexture(::UnityEngine::RenderTexture* t);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method IsRenderPassEnabled, addr 0x6865784, size 0x2c, virtual false, abstract: false, final false
   inline bool IsRenderPassEnabled(::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass);
 
@@ -1848,7 +1879,7 @@ public:
   inline void OnFinishRenderGraphRendering(::UnityEngine::Rendering::CommandBuffer* cmd);
 
   /// @brief Method OnPreCullRenderPasses, addr 0x686fbbc, size 0xd0, virtual false, abstract: false, final false
-  inline void OnPreCullRenderPasses(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
+  inline void OnPreCullRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
   /// @brief Method OnRecordRenderGraph, addr 0x686b45c, size 0x4, virtual true, abstract: false, final false
   inline void OnRecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ScriptableRenderContext context);
@@ -1908,7 +1939,7 @@ public:
   inline void SetPerCameraClippingPlaneProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   /// @brief Method SetPerCameraClippingPlaneProperties, addr 0x6869f48, size 0x1c4, virtual false, abstract: false, final false
-  inline void SetPerCameraClippingPlaneProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData,
+  inline void SetPerCameraClippingPlaneProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData,
                                                   bool isTargetFlipped);
 
   /// @brief Method SetPerCameraProperties, addr 0x686d818, size 0x1a4, virtual false, abstract: false, final false
@@ -1922,25 +1953,30 @@ public:
   inline void SetPerCameraShaderVariables(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                           ::UnityEngine::Vector2Int cameraTargetSizeCopy, bool isTargetFlipped);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method SetRenderPassAttachments, addr 0x6870314, size 0x1230, virtual false, abstract: false, final false
   inline void SetRenderPassAttachments(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass,
                                        ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method SetRenderTarget, addr 0x6871ef4, size 0x188, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorAttachment,
                                      ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction,
                                      ::UnityEngine::Rendering::RTHandle* depthAttachment, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction, ::UnityEngine::Rendering::ClearFlag clearFlags, ::UnityEngine::Color clearColor);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method SetRenderTarget, addr 0x687154c, size 0x4fc, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorAttachment, ::UnityEngine::Rendering::RTHandle* depthAttachment,
                                      ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method SetRenderTarget, addr 0x6871b38, size 0x3bc, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorAttachment, ::UnityEngine::Rendering::RTHandle* depthAttachment,
                                      ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method SetRenderTarget, addr 0x6871a48, size 0xf0, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::ArrayW<::UnityEngine::Rendering::RTHandle*> colorAttachments,
                                      ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorAttachmentIDs, ::UnityEngine::Rendering::RTHandle* depthAttachment,
@@ -1949,7 +1985,8 @@ public:
   /// @brief Method SetShaderTimeValues, addr 0x686a10c, size 0x4a0, virtual false, abstract: false, final false
   static inline void SetShaderTimeValues(::UnityEngine::Rendering::IBaseCommandBuffer* cmd, float_t time, float_t deltaTime, float_t smoothDeltaTime);
 
-  /// @brief Method Setup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
+  /// @brief Method Setup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Setup(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// @brief Method SetupCullingParameters, addr 0x686b450, size 0x4, virtual true, abstract: false, final false
@@ -1958,6 +1995,7 @@ public:
   /// @brief Method SetupInputAttachmentIndices, addr 0x686681c, size 0x208, virtual false, abstract: false, final false
   inline void SetupInputAttachmentIndices(::UnityEngine::Rendering::Universal::ScriptableRenderPass* pass);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method SetupLights, addr 0x686b44c, size 0x4, virtual true, abstract: false, final false
   inline void SetupLights(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -1967,8 +2005,9 @@ public:
   /// @brief Method SetupRenderGraphCameraProperties, addr 0x686bc94, size 0x468, virtual false, abstract: false, final false
   inline void SetupRenderGraphCameraProperties(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool isTargetBackbuffer);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method SetupRenderPasses, addr 0x686e710, size 0x150, virtual false, abstract: false, final false
-  inline void SetupRenderPasses(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+  inline void SetupRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   /// @brief Method SetupTransientInputAttachments, addr 0x6866a24, size 0x98, virtual false, abstract: false, final false
   inline void SetupTransientInputAttachments(int32_t attachmentCount);
@@ -2204,6 +2243,7 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector4> getStaticF_s_VectorPlanes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DebugHandler, addr 0x6868bdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugHandler* get_DebugHandler();
 
@@ -2228,18 +2268,22 @@ public:
   /// @brief Method get_frameData, addr 0x686a684, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ContextContainer* get_frameData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_profilingExecute, addr 0x6868bcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProfilingSampler* get_profilingExecute();
 
   /// @brief Method get_rendererFeatures, addr 0x686a654, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* get_rendererFeatures();
 
+  /// [CompilerGenerated]
   /// @brief Method get_stripAdditionalLightOffVariants, addr 0x686a6ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripAdditionalLightOffVariants();
 
+  /// [CompilerGenerated]
   /// @brief Method get_stripShadowsOffVariants, addr 0x686a69c, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripShadowsOffVariants();
 
+  /// [CompilerGenerated]
   /// @brief Method get_supportedRenderingFeatures, addr 0x686a664, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderingFeatures* get_supportedRenderingFeatures();
 
@@ -2249,9 +2293,11 @@ public:
   /// @brief Method get_supportsNativeRenderPassRendergraphCompiler, addr 0x687233c, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsNativeRenderPassRendergraphCompiler();
 
+  /// [CompilerGenerated]
   /// @brief Method get_unsupportedGraphicsDeviceTypes, addr 0x686a674, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::GraphicsDeviceType> get_unsupportedGraphicsDeviceTypes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_useDepthPriming, addr 0x686a68c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDepthPriming();
 
@@ -2282,21 +2328,27 @@ public:
 
   static inline void setStaticF_s_VectorPlanes(::ArrayW<::UnityEngine::Vector4> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_profilingExecute, addr 0x6868bd4, size 0x8, virtual false, abstract: false, final false
   inline void set_profilingExecute(::UnityEngine::Rendering::ProfilingSampler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_stripAdditionalLightOffVariants, addr 0x686a6b4, size 0x8, virtual false, abstract: false, final false
   inline void set_stripAdditionalLightOffVariants(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_stripShadowsOffVariants, addr 0x686a6a4, size 0x8, virtual false, abstract: false, final false
   inline void set_stripShadowsOffVariants(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_supportedRenderingFeatures, addr 0x686a66c, size 0x8, virtual false, abstract: false, final false
   inline void set_supportedRenderingFeatures(::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderingFeatures* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_unsupportedGraphicsDeviceTypes, addr 0x686a67c, size 0x8, virtual false, abstract: false, final false
   inline void set_unsupportedGraphicsDeviceTypes(::ArrayW<::UnityEngine::Rendering::GraphicsDeviceType> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_useDepthPriming, addr 0x686a694, size 0x8, virtual false, abstract: false, final false
   inline void set_useDepthPriming(bool value);
 
@@ -2306,13 +2358,13 @@ protected:
   constexpr ScriptableRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableRenderer(ScriptableRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRenderer(ScriptableRenderer const&) = delete;
+  ScriptableRenderer(ScriptableRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12736 };
@@ -2359,18 +2411,22 @@ public:
   /// @brief Field m_FinalDepthStoreAction, offset: 0xd0, size: 0x4, def value: None
   ::UnityEngine::Rendering::RenderBufferStoreAction ___m_FinalDepthStoreAction;
 
+  /// [CompilerGenerated]
   /// @brief Field <profilingExecute>k__BackingField, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProfilingSampler* ____profilingExecute_k__BackingField;
 
   /// @brief Field hasReleasedRTs, offset: 0xe0, size: 0x1, def value: None
   bool ___hasReleasedRTs;
 
+  /// [CompilerGenerated]
   /// @brief Field <DebugHandler>k__BackingField, offset: 0xe8, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugHandler* ____DebugHandler_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <supportedRenderingFeatures>k__BackingField, offset: 0xf0, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderingFeatures* ____supportedRenderingFeatures_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <unsupportedGraphicsDeviceTypes>k__BackingField, offset: 0xf8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::GraphicsDeviceType> ____unsupportedGraphicsDeviceTypes_k__BackingField;
 
@@ -2410,12 +2466,15 @@ public:
   /// @brief Field m_frameData, offset: 0x138, size: 0x8, def value: None
   ::UnityEngine::Rendering::ContextContainer* ___m_frameData;
 
+  /// [CompilerGenerated]
   /// @brief Field <useDepthPriming>k__BackingField, offset: 0x140, size: 0x1, def value: None
   bool ____useDepthPriming_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <stripShadowsOffVariants>k__BackingField, offset: 0x141, size: 0x1, def value: None
   bool ____stripShadowsOffVariants_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <stripAdditionalLightOffVariants>k__BackingField, offset: 0x142, size: 0x1, def value: None
   bool ____stripAdditionalLightOffVariants_k__BackingField;
 

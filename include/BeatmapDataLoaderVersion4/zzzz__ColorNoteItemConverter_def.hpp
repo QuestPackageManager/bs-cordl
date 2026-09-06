@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4\ColorNoteItemConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/ColorNoteItemConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +56,13 @@ protected:
   constexpr ColorNoteItemConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteItemConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteItemConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorNoteItemConverter(ColorNoteItemConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteItemConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorNoteItemConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorNoteItemConverter(ColorNoteItemConverter const&) = delete;
+  ColorNoteItemConverter(ColorNoteItemConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15429 };

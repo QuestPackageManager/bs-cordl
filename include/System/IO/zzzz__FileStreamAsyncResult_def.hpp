@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\FileStreamAsyncResult.hpp"
+// IWYU pragma private; include "System/IO/FileStreamAsyncResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -156,13 +156,13 @@ protected:
   constexpr FileStreamAsyncResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileStreamAsyncResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStreamAsyncResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStreamAsyncResult(FileStreamAsyncResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileStreamAsyncResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileStreamAsyncResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileStreamAsyncResult(FileStreamAsyncResult const&) = delete;
+  FileStreamAsyncResult(FileStreamAsyncResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3912 };

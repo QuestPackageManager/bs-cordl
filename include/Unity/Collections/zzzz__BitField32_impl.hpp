@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\BitField32.hpp"
+// IWYU pragma private; include "Unity/Collections/BitField32.hpp"
 #include "Unity/Collections/zzzz__BitField32_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::BitField32._ctor
 template <>
@@ -225,7 +225,7 @@ inline void Unity::Collections::BitField32::CheckArgs(int32_t pos, int32_t numBi
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BitField32>(), { "CheckArgs", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pos, numBits);
 }
-// Ctor Parameters [CppParam { name: "Value", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Value", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::BitField32::BitField32(uint32_t Value) noexcept {
   this->Value = Value;
 }

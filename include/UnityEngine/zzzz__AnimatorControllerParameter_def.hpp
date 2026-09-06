@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimatorControllerParameter.hpp"
+// IWYU pragma private; include "UnityEngine/AnimatorControllerParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,11 @@ class AnimatorControllerParameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::AnimatorControllerParameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AnimatorControllerParameter*, "UnityEngine", "AnimatorControllerParameter");
+// [NativeType((UnityEngine.Bindings.CodegenOptions)1, "MonoAnimatorControllerParameter")]
+// [UsedByNativeCode]
+// [NativeAsStruct]
+// [NativeHeader("Modules/Animation/AnimatorControllerParameter.h")]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimatorControllerParameter.bindings.h")]
 // Dependencies System.Object, UnityEngine.AnimatorControllerParameterType
 namespace UnityEngine {
 // Is value type: false
@@ -93,13 +98,13 @@ protected:
   constexpr AnimatorControllerParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorControllerParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatorControllerParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatorControllerParameter(AnimatorControllerParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorControllerParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimatorControllerParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimatorControllerParameter(AnimatorControllerParameter const&) = delete;
+  AnimatorControllerParameter(AnimatorControllerParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20227 };

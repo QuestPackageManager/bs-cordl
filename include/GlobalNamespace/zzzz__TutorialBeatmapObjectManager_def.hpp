@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialBeatmapObjectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialBeatmapObjectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,13 +103,13 @@ protected:
   constexpr TutorialBeatmapObjectManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialBeatmapObjectManager_InitData(TutorialBeatmapObjectManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialBeatmapObjectManager_InitData(TutorialBeatmapObjectManager_InitData const&) = delete;
+  TutorialBeatmapObjectManager_InitData(TutorialBeatmapObjectManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5742 };
@@ -169,17 +169,17 @@ public:
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectManager* New_ctor(::GlobalNamespace::TutorialBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IRandom* random,
                                                                           ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
-                                                                          ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool, ::GlobalNamespace::BombNoteController_Pool* bombNotePool,
-                                                                          ::GlobalNamespace::ObstacleController_Pool* obstaclePool);
+                                                                          /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool,
+                                                                          ::GlobalNamespace::BombNoteController_Pool* bombNotePool, ::GlobalNamespace::ObstacleController_Pool* obstaclePool);
 
   /// @brief Method ProcessNoteData, addr 0x597d710, size 0x160, virtual true, abstract: false, final false
-  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
+  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
 
   /// @brief Method ProcessObstacleData, addr 0x597d660, size 0xb0, virtual true, abstract: false, final false
-  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
+  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
   /// @brief Method ProcessSliderData, addr 0x597d870, size 0x4, virtual true, abstract: false, final false
-  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
+  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* const& __cordl_internal_get__bombNotePoolContainer() const;
 
@@ -219,8 +219,9 @@ public:
 
   /// @brief Method .ctor, addr 0x597d50c, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::TutorialBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IRandom* random,
-                    ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider, ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool,
-                    ::GlobalNamespace::BombNoteController_Pool* bombNotePool, ::GlobalNamespace::ObstacleController_Pool* obstaclePool);
+                    ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
+                    /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool, ::GlobalNamespace::BombNoteController_Pool* bombNotePool,
+                    ::GlobalNamespace::ObstacleController_Pool* obstaclePool);
 
   /// @brief Method get_activeObstacleControllers, addr 0x597d4b8, size 0x54, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
@@ -231,13 +232,13 @@ protected:
   constexpr TutorialBeatmapObjectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialBeatmapObjectManager(TutorialBeatmapObjectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialBeatmapObjectManager(TutorialBeatmapObjectManager const&) = delete;
+  TutorialBeatmapObjectManager(TutorialBeatmapObjectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5743 };

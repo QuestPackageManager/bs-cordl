@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProfilingScope.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProfilingScope.hpp"
 #include "UnityEngine/Rendering/zzzz__ProfilingScope_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BaseCommandBuffer_def.hpp"

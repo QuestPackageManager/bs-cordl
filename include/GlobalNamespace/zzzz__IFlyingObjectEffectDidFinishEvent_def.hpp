@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IFlyingObjectEffectDidFinishEvent.hpp"
+// IWYU pragma private; include "GlobalNamespace/IFlyingObjectEffectDidFinishEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE IFlyingObjectEffectDidFinishEvent {
 public:
   // Declarations
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IFlyingObjectEffectDidFinishEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IFlyingObjectEffectDidFinishEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IFlyingObjectEffectDidFinishEvent(IFlyingObjectEffectDidFinishEvent const&) = delete;
+  IFlyingObjectEffectDidFinishEvent(IFlyingObjectEffectDidFinishEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5771 };

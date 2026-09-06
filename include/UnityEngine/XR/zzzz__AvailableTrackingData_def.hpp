@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\AvailableTrackingData.hpp"
+// IWYU pragma private; include "UnityEngine/XR/AvailableTrackingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct AvailableTrackingData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::AvailableTrackingData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::AvailableTrackingData, "UnityEngine.XR", "AvailableTrackingData");
+// [Flags]
 // Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr AvailableTrackingData();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AvailableTrackingData(int32_t value__) noexcept;
 
   /// @brief Field AccelerationAvailable value: I32(16)

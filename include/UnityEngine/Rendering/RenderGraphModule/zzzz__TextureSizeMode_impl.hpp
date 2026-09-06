@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TextureSizeMode.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureSizeMode.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureSizeMode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode::TextureSizeMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

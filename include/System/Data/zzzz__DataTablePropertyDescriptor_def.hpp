@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataTablePropertyDescriptor.hpp"
+// IWYU pragma private; include "System/Data/DataTablePropertyDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,6 +69,7 @@ public:
   /// @brief Method get_PropertyType, addr 0x6031220, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Table, addr 0x60311b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
@@ -78,17 +79,18 @@ protected:
   constexpr DataTablePropertyDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataTablePropertyDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataTablePropertyDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataTablePropertyDescriptor(DataTablePropertyDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataTablePropertyDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataTablePropertyDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataTablePropertyDescriptor(DataTablePropertyDescriptor const&) = delete;
+  DataTablePropertyDescriptor(DataTablePropertyDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13796 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Table>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Data::DataTable* ____Table_k__BackingField;
 

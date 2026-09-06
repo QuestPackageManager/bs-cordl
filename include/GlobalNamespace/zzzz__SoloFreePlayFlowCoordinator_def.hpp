@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SoloFreePlayFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/SoloFreePlayFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,6 +87,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator*, "", "SoloFr
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass19_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass22_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass24_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass24_0");
+// [CompilerGenerated]
 // Dependencies BeatmapKey, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -144,13 +145,13 @@ protected:
   constexpr SoloFreePlayFlowCoordinator___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoloFreePlayFlowCoordinator___c__DisplayClass19_0(SoloFreePlayFlowCoordinator___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator___c__DisplayClass19_0(SoloFreePlayFlowCoordinator___c__DisplayClass19_0 const&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass19_0(SoloFreePlayFlowCoordinator___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
@@ -181,6 +182,7 @@ static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__Displ
 static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -229,13 +231,13 @@ protected:
   constexpr SoloFreePlayFlowCoordinator___c__DisplayClass22_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass22_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoloFreePlayFlowCoordinator___c__DisplayClass22_0(SoloFreePlayFlowCoordinator___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass22_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator___c__DisplayClass22_0(SoloFreePlayFlowCoordinator___c__DisplayClass22_0 const&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass22_0(SoloFreePlayFlowCoordinator___c__DisplayClass22_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
@@ -261,6 +263,7 @@ static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__Displ
 static_assert(sizeof(::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -300,13 +303,13 @@ protected:
   constexpr SoloFreePlayFlowCoordinator___c__DisplayClass24_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoloFreePlayFlowCoordinator___c__DisplayClass24_0(SoloFreePlayFlowCoordinator___c__DisplayClass24_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator___c__DisplayClass24_0(SoloFreePlayFlowCoordinator___c__DisplayClass24_0 const&) = delete;
+  SoloFreePlayFlowCoordinator___c__DisplayClass24_0(SoloFreePlayFlowCoordinator___c__DisplayClass24_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6860 };
@@ -477,13 +480,13 @@ protected:
   constexpr SoloFreePlayFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinator const&) = delete;
+  SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6861 };
@@ -491,27 +494,35 @@ public:
   /// @brief Field kTitleSoloLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitleSoloLocalizationKey{ u"TITLE_SOLO" };
 
+  /// [SerializeField]
   /// @brief Field _defaultLightsPreset, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultLightsPreset;
 
+  /// [SerializeField]
   /// @brief Field _resultsClearedLightsPreset, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsClearedLightsPreset;
 
+  /// [SerializeField]
   /// @brief Field _resultsFailedLightsPreset, offset: 0x128, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsFailedLightsPreset;
 
+  /// [Inject]
   /// @brief Field _menuLightsManager, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsManager> ____menuLightsManager;
 
+  /// [Inject]
   /// @brief Field _resultsViewController, offset: 0x138, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ResultsViewController> ____resultsViewController;
 
+  /// [Inject]
   /// @brief Field _platformLeaderboardViewController, offset: 0x140, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> ____platformLeaderboardViewController;
 
+  /// [Inject]
   /// @brief Field _platformLeaderboardsModel, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> ____platformLeaderboardsModel;
 
+  /// [InjectOptional]
   /// @brief Field _beatLeaderboards, offset: 0x150, size: 0x8, def value: None
   ::BeatSaber::Main::Leaderboards::BeatLeaderboards* ____beatLeaderboards;
 

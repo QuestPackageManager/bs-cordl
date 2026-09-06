@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentEffectsFilterPresetDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentEffectsFilterPresetDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ protected:
   constexpr EnvironmentEffectsFilterPresetDropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentEffectsFilterPresetDropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentEffectsFilterPresetDropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentEffectsFilterPresetDropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentEffectsFilterPresetDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetDropdown const&) = delete;
+  EnvironmentEffectsFilterPresetDropdown(EnvironmentEffectsFilterPresetDropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6407 };

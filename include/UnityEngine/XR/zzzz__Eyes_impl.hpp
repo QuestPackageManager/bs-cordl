@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Eyes.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Eyes.hpp"
 #include "UnityEngine/XR/zzzz__Eyes_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -92,7 +92,8 @@ constexpr UnityEngine::XR::Eyes::operator ::System::IEquatable_1<::UnityEngine::
 constexpr ::System::IEquatable_1<::UnityEngine::XR::Eyes>* UnityEngine::XR::Eyes::i___System__IEquatable_1___UnityEngine__XR__Eyes_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::XR::Eyes>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::Eyes::Eyes(uint64_t m_DeviceId, uint32_t m_FeatureIndex) noexcept {
   this->m_DeviceId = m_DeviceId;
   this->m_FeatureIndex = m_FeatureIndex;

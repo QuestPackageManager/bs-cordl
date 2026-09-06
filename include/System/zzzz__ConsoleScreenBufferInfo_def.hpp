@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ConsoleScreenBufferInfo.hpp"
+// IWYU pragma private; include "System/ConsoleScreenBufferInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,9 +26,9 @@ public:
   // @brief default ctor
   constexpr ConsoleScreenBufferInfo();
 
-  // Ctor Parameters [CppParam { name: "Size", ty: "::System::Coord", modifiers: "", def_value: None }, CppParam { name: "CursorPosition", ty: "::System::Coord", modifiers: "", def_value: None },
-  // CppParam { name: "Attribute", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "Window", ty: "::System::SmallRect", modifiers: "", def_value: None }, CppParam { name:
-  // "MaxWindowSize", ty: "::System::Coord", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Size", ty: "::System::Coord", modifiers: "", def_value: None, comment: None }, CppParam { name: "CursorPosition", ty: "::System::Coord", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Attribute", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Window", ty: "::System::SmallRect", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "MaxWindowSize", ty: "::System::Coord", modifiers: "", def_value: None, comment: None }]
   constexpr ConsoleScreenBufferInfo(::System::Coord Size, ::System::Coord CursorPosition, int16_t Attribute, ::System::SmallRect Window, ::System::Coord MaxWindowSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

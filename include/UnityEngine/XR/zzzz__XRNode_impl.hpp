@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\XRNode.hpp"
+// IWYU pragma private; include "UnityEngine/XR/XRNode.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::XRNode::XRNode(int32_t value__) noexcept {
   this->value__ = value__;
 }

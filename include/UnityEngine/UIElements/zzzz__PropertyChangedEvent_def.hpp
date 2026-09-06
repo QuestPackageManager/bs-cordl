@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PropertyChangedEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PropertyChangedEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ MARK_REF_T(::UnityEngine::UIElements::PropertyChangedEvent*);
 MARK_REF_T(::UnityEngine::UIElements::PropertyChangedEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PropertyChangedEvent*, "UnityEngine.UIElements", "PropertyChangedEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PropertyChangedEvent___c*, "UnityEngine.UIElements", "PropertyChangedEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -53,13 +54,13 @@ protected:
   constexpr PropertyChangedEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyChangedEvent___c(PropertyChangedEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyChangedEvent___c(PropertyChangedEvent___c const&) = delete;
+  PropertyChangedEvent___c(PropertyChangedEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5229 };
@@ -70,6 +71,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::PropertyChangedEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies UnityEngine.UIElements.BindingId, UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -85,7 +87,7 @@ public:
   __declspec(property(get = get_property, put = set_property)) ::UnityEngine::UIElements::BindingId property;
 
   /// @brief Method GetPooled, addr 0x6cca574, size 0x94, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::PropertyChangedEvent* GetPooled(::by_ref<::UnityEngine::UIElements::BindingId> property);
+  static inline ::UnityEngine::UIElements::PropertyChangedEvent* GetPooled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
 
   static inline ::UnityEngine::UIElements::PropertyChangedEvent* New_ctor();
 
@@ -98,9 +100,11 @@ public:
   /// @brief Method .ctor, addr 0x6cca4f0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_property, addr 0x6cca4d4, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_property();
 
+  /// [CompilerGenerated]
   /// @brief Method set_property, addr 0x6cca4e4, size 0xc, virtual false, abstract: false, final false
   inline void set_property(::UnityEngine::UIElements::BindingId value);
 
@@ -110,17 +114,19 @@ protected:
   constexpr PropertyChangedEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyChangedEvent(PropertyChangedEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyChangedEvent(PropertyChangedEvent const&) = delete;
+  PropertyChangedEvent(PropertyChangedEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5230 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <property>k__BackingField, offset: 0x68, size: 0x98, def value: None
   ::UnityEngine::UIElements::BindingId ____property_k__BackingField;
 

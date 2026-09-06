@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LoadBeatmapLevelDataResult.hpp"
+// IWYU pragma private; include "GlobalNamespace/LoadBeatmapLevelDataResult.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType::LoadBeatmapLevelDataResult_ErrorType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -131,8 +131,8 @@ inline ::GlobalNamespace::LoadBeatmapLevelDataResult GlobalNamespace::LoadBeatma
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LoadBeatmapLevelDataResult>(), { "FromValue", {}, { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LoadBeatmapLevelDataResult>(nullptr, ___internal_method, beatmapLevelData);
 }
-// Ctor Parameters [CppParam { name: "errorType", ty: "::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "beatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "errorType", ty: "::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "beatmapLevelData", ty: "::GlobalNamespace::IBeatmapLevelData*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LoadBeatmapLevelDataResult::LoadBeatmapLevelDataResult(::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType> errorType,
                                                                                     ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) noexcept {
   this->errorType = errorType;

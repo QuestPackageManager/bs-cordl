@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GL.hpp"
+// IWYU pragma private; include "UnityEngine/GL.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GL_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -480,7 +480,7 @@ inline void UnityEngine::GL::GLClear(bool clearDepth, bool clearColor, ::UnityEn
                                                            { "GLClear", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, clearDepth, clearColor, backgroundColor, depth);
 }
-inline void UnityEngine::GL::Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, float_t depth) {
+inline void UnityEngine::GL::Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, /* [DefaultValue("1.0f")] */ float_t depth) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GL*>(),
                                                            { "Clear", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Color>(), ::i2c::type_of<float_t>() } })));

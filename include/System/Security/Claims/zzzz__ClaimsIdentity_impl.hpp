@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Claims\ClaimsIdentity.hpp"
+// IWYU pragma private; include "System/Security/Claims/ClaimsIdentity.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -259,6 +259,7 @@ inline ::System::Collections::IEnumerator* System::Security::Claims::ClaimsIdent
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity__get_Claims_d__51*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::System::Security::Claims::ClaimsIdentity__get_Claims_d__51* System::Security::Claims::ClaimsIdentity__get_Claims_d__51::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Security::Claims::ClaimsIdentity__get_Claims_d__51*>(__1__state));
 }

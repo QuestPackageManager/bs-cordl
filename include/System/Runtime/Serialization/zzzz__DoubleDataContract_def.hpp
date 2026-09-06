@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\DoubleDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/DoubleDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr DoubleDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DoubleDataContract(DoubleDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DoubleDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DoubleDataContract(DoubleDataContract const&) = delete;
+  DoubleDataContract(DoubleDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17079 };

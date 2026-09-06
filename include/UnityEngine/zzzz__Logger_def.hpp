@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Logger.hpp"
+// IWYU pragma private; include "UnityEngine/Logger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,10 +80,10 @@ public:
   inline void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
 
   /// @brief Method LogFormat, addr 0x6aca0e4, size 0x10c, virtual true, abstract: false, final true
-  inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*> args);
+  inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method LogFormat, addr 0x6ac9fdc, size 0x108, virtual true, abstract: false, final true
-  inline void LogFormat(::UnityEngine::LogType logType, ::StringW format, ::ArrayW<::System::Object*> args);
+  inline void LogFormat(::UnityEngine::LogType logType, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   static inline ::UnityEngine::Logger* New_ctor(::UnityEngine::ILogHandler* logHandler);
 
@@ -108,12 +108,15 @@ public:
   /// @brief Method .ctor, addr 0x6ac98b0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ILogHandler* logHandler);
 
+  /// [CompilerGenerated]
   /// @brief Method get_filterLogType, addr 0x6ac98e8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::LogType get_filterLogType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_logEnabled, addr 0x6ac98d8, size 0x8, virtual true, abstract: false, final true
   inline bool get_logEnabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_logHandler, addr 0x6ac98c8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ILogHandler* get_logHandler();
 
@@ -123,12 +126,15 @@ public:
   /// @brief Convert to "::UnityEngine::ILogger"
   constexpr ::UnityEngine::ILogger* i___UnityEngine__ILogger() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_filterLogType, addr 0x6ac98f0, size 0x8, virtual true, abstract: false, final true
   inline void set_filterLogType(::UnityEngine::LogType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_logEnabled, addr 0x6ac98e0, size 0x8, virtual true, abstract: false, final true
   inline void set_logEnabled(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_logHandler, addr 0x6ac98d0, size 0x8, virtual true, abstract: false, final true
   inline void set_logHandler(::UnityEngine::ILogHandler* value);
 
@@ -138,23 +144,29 @@ protected:
   constexpr Logger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Logger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Logger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Logger(Logger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Logger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Logger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Logger(Logger const&) = delete;
+  Logger(Loggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10244 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <logHandler>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ILogHandler* ____logHandler_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <logEnabled>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____logEnabled_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <filterLogType>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::LogType ____filterLogType_k__BackingField;
 

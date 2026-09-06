@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSkeletonRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSkeletonRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,12 +97,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider {
 public:
   // Declarations
-  /// @brief Method GetSkeletonRendererData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetSkeletonRendererData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData GetSkeletonRendererData();
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider(OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider const&) = delete;
+  OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider(OVRSkeletonRenderer_IOVRSkeletonRendererDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7988 };
@@ -126,27 +126,39 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataHighConfidence, addr 0x5f1331c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataValid, addr 0x5f1330c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_RootScale, addr 0x5f132fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_RootScale();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x5f1332c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataHighConfidence, addr 0x5f13324, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataValid, addr 0x5f13314, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RootScale, addr 0x5f13304, size 0x8, virtual false, abstract: false, final false
   inline void set_RootScale(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x5f13334, size 0x8, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
@@ -154,9 +166,9 @@ public:
   // @brief default ctor
   constexpr OVRSkeletonRenderer_SkeletonRendererData();
 
-  // Ctor Parameters [CppParam { name: "_RootScale_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_ShouldUseSystemGestureMaterial_k__BackingField", ty:
-  // "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_RootScale_k__BackingField", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_IsDataValid_k__BackingField", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSkeletonRenderer_SkeletonRendererData(float_t _RootScale_k__BackingField, bool _IsDataValid_k__BackingField, bool _IsDataHighConfidence_k__BackingField,
                                                      bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept;
 
@@ -166,15 +178,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <RootScale>k__BackingField, offset: 0x0, size: 0x4, def value: None
   float_t _RootScale_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataValid>k__BackingField, offset: 0x4, size: 0x1, def value: None
   bool _IsDataValid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataHighConfidence>k__BackingField, offset: 0x5, size: 0x1, def value: None
   bool _IsDataHighConfidence_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ShouldUseSystemGestureMaterial>k__BackingField, offset: 0x6, size: 0x1, def value: None
   bool _ShouldUseSystemGestureMaterial_k__BackingField;
 
@@ -221,7 +237,7 @@ public:
   // @brief default ctor
   constexpr OVRSkeletonRenderer_ConfidenceBehavior();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSkeletonRenderer_ConfidenceBehavior(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -276,7 +292,7 @@ public:
   // @brief default ctor
   constexpr OVRSkeletonRenderer_SystemGestureBehavior();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSkeletonRenderer_SystemGestureBehavior(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -380,13 +396,13 @@ protected:
   constexpr OVRSkeletonRenderer_BoneVisualization();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_BoneVisualization", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_BoneVisualization", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSkeletonRenderer_BoneVisualization(OVRSkeletonRenderer_BoneVisualization&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_BoneVisualization", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_BoneVisualization", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonRenderer_BoneVisualization(OVRSkeletonRenderer_BoneVisualization const&) = delete;
+  OVRSkeletonRenderer_BoneVisualization(OVRSkeletonRenderer_BoneVisualizationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7992 };
@@ -504,13 +520,13 @@ protected:
   constexpr OVRSkeletonRenderer_CapsuleVisualization();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_CapsuleVisualization", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_CapsuleVisualization", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSkeletonRenderer_CapsuleVisualization(OVRSkeletonRenderer_CapsuleVisualization&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_CapsuleVisualization", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer_CapsuleVisualization", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonRenderer_CapsuleVisualization(OVRSkeletonRenderer_CapsuleVisualization const&) = delete;
+  OVRSkeletonRenderer_CapsuleVisualization(OVRSkeletonRenderer_CapsuleVisualizationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7993 };
@@ -551,6 +567,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualizati
 static_assert(sizeof(::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Feature((Meta.XR.Util.Feature)1)]
 // Dependencies OVRSkeletonRenderer::ConfidenceBehavior, OVRSkeletonRenderer::SystemGestureBehavior, UnityEngine.MonoBehaviour, UnityEngine.Quaternion
 namespace GlobalNamespace {
 // Is value type: false
@@ -782,29 +799,37 @@ public:
 
   static inline ::UnityEngine::Quaternion getStaticF__capsuleRotationOffset();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataHighConfidence, addr 0x5f11e08, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsDataValid, addr 0x5f11df8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsInitialized, addr 0x5f11de8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x5f11e18, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
   static inline void setStaticF__capsuleRotationOffset(::UnityEngine::Quaternion value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataHighConfidence, addr 0x5f11e10, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsDataValid, addr 0x5f11e00, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsInitialized, addr 0x5f11df0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x5f11e20, size 0x8, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
@@ -814,13 +839,13 @@ protected:
   constexpr OVRSkeletonRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSkeletonRenderer(OVRSkeletonRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonRenderer(OVRSkeletonRenderer const&) = delete;
+  OVRSkeletonRenderer(OVRSkeletonRendererconst&) = delete;
 
   /// @brief Field LINE_RENDERER_WIDTH offset 0xffffffff size 0x4
   static constexpr float_t LINE_RENDERER_WIDTH{ static_cast<float_t>(0.005f) };
@@ -828,30 +853,37 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7994 };
 
+  /// [SerializeField]
   /// @brief Field _dataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider* ____dataProvider;
 
+  /// [SerializeField]
   /// @brief Field _confidenceBehavior, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior ____confidenceBehavior;
 
+  /// [SerializeField]
   /// @brief Field _systemGestureBehavior, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior ____systemGestureBehavior;
 
+  /// [SerializeField]
   /// @brief Field _renderPhysicsCapsules, offset: 0x30, size: 0x1, def value: None
   bool ____renderPhysicsCapsules;
 
+  /// [SerializeField]
   /// @brief Field _skeletonMaterial, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____skeletonMaterial;
 
   /// @brief Field _skeletonDefaultMaterial, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____skeletonDefaultMaterial;
 
+  /// [SerializeField]
   /// @brief Field _capsuleMaterial, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____capsuleMaterial;
 
   /// @brief Field _capsuleDefaultMaterial, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____capsuleDefaultMaterial;
 
+  /// [SerializeField]
   /// @brief Field _systemGestureMaterial, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____systemGestureMaterial;
 
@@ -873,15 +905,19 @@ public:
   /// @brief Field _scale, offset: 0x88, size: 0x4, def value: None
   float_t ____scale;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsInitialized>k__BackingField, offset: 0x8c, size: 0x1, def value: None
   bool ____IsInitialized_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataValid>k__BackingField, offset: 0x8d, size: 0x1, def value: None
   bool ____IsDataValid_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsDataHighConfidence>k__BackingField, offset: 0x8e, size: 0x1, def value: None
   bool ____IsDataHighConfidence_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ShouldUseSystemGestureMaterial>k__BackingField, offset: 0x8f, size: 0x1, def value: None
   bool ____ShouldUseSystemGestureMaterial_k__BackingField;
 

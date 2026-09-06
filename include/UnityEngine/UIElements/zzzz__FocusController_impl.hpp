@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FocusController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FocusController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,8 +11,8 @@
 #include "UnityEngine/UIElements/zzzz__IFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-// Ctor Parameters [CppParam { name: "m_SubTreeRoot", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FocusedElement", ty:
-// "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_SubTreeRoot", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_FocusedElement", ty:
+// "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::FocusController_FocusedElement::FocusController_FocusedElement(::UnityEngine::UIElements::VisualElement* m_SubTreeRoot,
                                                                                                     ::UnityEngine::UIElements::VisualElement* m_FocusedElement) noexcept {
   this->m_SubTreeRoot = m_SubTreeRoot;

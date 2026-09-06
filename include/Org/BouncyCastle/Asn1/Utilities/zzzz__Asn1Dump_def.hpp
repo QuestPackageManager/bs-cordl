@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Utilities\Asn1Dump.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Utilities/Asn1Dump.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ public:
   /// @brief Method DumpAsString, addr 0x3555d98, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable* obj, bool verbose);
 
+  /// [Obsolete("Use version accepting Asn1Encodable")]
   /// @brief Method DumpAsString, addr 0x3555bb0, size 0x18c, virtual false, abstract: false, final false
   static inline ::StringW DumpAsString(::System::Object* obj);
 
@@ -76,13 +77,13 @@ protected:
   constexpr Asn1Dump();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Dump", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Dump", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Dump(Asn1Dump&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Dump", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Dump", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Dump(Asn1Dump const&) = delete;
+  Asn1Dump(Asn1Dumpconst&) = delete;
 
   /// @brief Field SampleSize offset 0xffffffff size 0x4
   static constexpr int32_t SampleSize{ static_cast<int32_t>(0x20) };

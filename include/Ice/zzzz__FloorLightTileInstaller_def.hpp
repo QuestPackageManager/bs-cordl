@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice\FloorLightTileInstaller.hpp"
+// IWYU pragma private; include "Ice/FloorLightTileInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,17 +45,18 @@ protected:
   constexpr FloorLightTileInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTileInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTileInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloorLightTileInstaller(FloorLightTileInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTileInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloorLightTileInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloorLightTileInstaller(FloorLightTileInstaller const&) = delete;
+  FloorLightTileInstaller(FloorLightTileInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23248 };
 
+  /// [SerializeField]
   /// @brief Field _floorLightTilePrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Ice::FloorLightTile> ____floorLightTilePrefab;
 

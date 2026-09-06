@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TextureHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureHandle.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
@@ -157,7 +157,7 @@ inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle UnityEngine::R
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), { "get_nullHandle", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::TextureHandle::_ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h) {
+inline void UnityEngine::Rendering::RenderGraphModule::TextureHandle::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
@@ -206,8 +206,8 @@ UnityEngine::Rendering::RenderGraphModule::TextureHandle::GetDescriptor(::UnityE
                                                                                          { "GetDescriptor", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>(*this, ___internal_method, renderGraph);
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "builtin", ty: "bool",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "builtin", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle::TextureHandle(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle handle, bool builtin) noexcept {
   this->handle = handle;
   this->builtin = builtin;

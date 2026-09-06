@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CollectionVirtualizationController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CollectionVirtualizationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class CollectionVirtualizationController;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::CollectionVirtualizationController*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::CollectionVirtualizationController*, "UnityEngine.UIElements", "CollectionVirtualizationController");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -45,45 +46,45 @@ public:
 
   __declspec(property(get = get_visibleItemCount)) int32_t visibleItemCount;
 
-  /// @brief Method EndDrag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EndDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EndDrag(int32_t dropIndex);
 
-  /// @brief Method GetExpectedContentHeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetExpectedContentHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetExpectedContentHeight();
 
-  /// @brief Method GetExpectedItemHeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetExpectedItemHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetExpectedItemHeight(int32_t index);
 
-  /// @brief Method GetIndexFromPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetIndexFromPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetIndexFromPosition(::UnityEngine::Vector2 position);
 
   static inline ::UnityEngine::UIElements::CollectionVirtualizationController* New_ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
-  /// @brief Method OnFocusIn, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnFocusIn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnFocusIn(::UnityEngine::UIElements::VisualElement* leafTarget);
 
-  /// @brief Method OnFocusOut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnFocusOut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnFocusOut(::UnityEngine::UIElements::VisualElement* willFocus);
 
-  /// @brief Method OnScroll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnScroll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnScroll(::UnityEngine::Vector2 offset);
 
-  /// @brief Method Refresh, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Refresh(bool rebuild);
 
-  /// @brief Method Resize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resize(::UnityEngine::Vector2 size);
 
-  /// @brief Method ScrollToItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ScrollToItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ScrollToItem(int32_t id);
 
-  /// @brief Method StartDragItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartDragItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartDragItem(::UnityEngine::UIElements::ReusableCollectionItem* item);
 
-  /// @brief Method UnbindAll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnbindAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnbindAll();
 
-  /// @brief Method UpdateBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateBackground, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateBackground();
 
   constexpr ::UnityEngine::UIElements::ScrollView* const& __cordl_internal_get_m_ScrollView() const;
@@ -95,16 +96,16 @@ public:
   /// @brief Method .ctor, addr 0x6c551d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
-  /// @brief Method get_activeItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* get_activeItems();
 
-  /// @brief Method get_firstVisibleIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_firstVisibleIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_firstVisibleIndex();
 
-  /// @brief Method get_visibleItemCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_visibleItemCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_visibleItemCount();
 
-  /// @brief Method set_firstVisibleIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_firstVisibleIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_firstVisibleIndex(int32_t value);
 
 protected:
@@ -113,13 +114,13 @@ protected:
   constexpr CollectionVirtualizationController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionVirtualizationController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionVirtualizationController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionVirtualizationController(CollectionVirtualizationController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionVirtualizationController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionVirtualizationController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionVirtualizationController(CollectionVirtualizationController const&) = delete;
+  CollectionVirtualizationController(CollectionVirtualizationControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4087 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\NativeObjectSecurity.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/NativeObjectSecurity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr NativeObjectSecurity_ExceptionFromErrorCode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeObjectSecurity_ExceptionFromErrorCode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeObjectSecurity_ExceptionFromErrorCode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeObjectSecurity_ExceptionFromErrorCode(NativeObjectSecurity_ExceptionFromErrorCode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeObjectSecurity_ExceptionFromErrorCode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeObjectSecurity_ExceptionFromErrorCode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeObjectSecurity_ExceptionFromErrorCode(NativeObjectSecurity_ExceptionFromErrorCode const&) = delete;
+  NativeObjectSecurity_ExceptionFromErrorCode(NativeObjectSecurity_ExceptionFromErrorCodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3056 };
@@ -139,13 +139,13 @@ protected:
   constexpr NativeObjectSecurity();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeObjectSecurity", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeObjectSecurity", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeObjectSecurity(NativeObjectSecurity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeObjectSecurity", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeObjectSecurity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeObjectSecurity(NativeObjectSecurity const&) = delete;
+  NativeObjectSecurity(NativeObjectSecurityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3057 };

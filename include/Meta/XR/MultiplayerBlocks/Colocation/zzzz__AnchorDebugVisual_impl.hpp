@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\AnchorDebugVisual.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/AnchorDebugVisual.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__AnchorDebugVisual_def.hpp"
 #include "System/zzzz__Action_def.hpp"

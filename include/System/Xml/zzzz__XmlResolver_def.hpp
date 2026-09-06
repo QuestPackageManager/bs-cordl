@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlResolver.hpp"
+// IWYU pragma private; include "System/Xml/XmlResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ namespace System::Xml {
 class CORDL_TYPE XmlResolver : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEntity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   /// @brief Method GetEntityAsync, addr 0x62e7510, size 0x38, virtual true, abstract: false, final false
@@ -55,13 +55,13 @@ protected:
   constexpr XmlResolver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlResolver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlResolver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlResolver(XmlResolver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlResolver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlResolver(XmlResolver const&) = delete;
+  XmlResolver(XmlResolverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9462 };

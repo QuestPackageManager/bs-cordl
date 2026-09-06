@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\OpenSsl\Pkcs8Generator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/Pkcs8Generator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -161,13 +161,13 @@ protected:
   constexpr Pkcs8Generator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs8Generator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs8Generator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs8Generator(Pkcs8Generator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs8Generator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Pkcs8Generator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs8Generator(Pkcs8Generator const&) = delete;
+  Pkcs8Generator(Pkcs8Generatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1692 };

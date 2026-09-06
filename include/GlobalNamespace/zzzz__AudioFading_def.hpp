@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AudioFading.hpp"
+// IWYU pragma private; include "GlobalNamespace/AudioFading.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,23 +82,26 @@ protected:
   constexpr AudioFading();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioFading", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioFading", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioFading(AudioFading&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioFading", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioFading", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioFading(AudioFading const&) = delete;
+  AudioFading(AudioFadingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5551 };
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [SerializeField]
   /// @brief Field _smooth, offset: 0x28, size: 0x4, def value: None
   float_t ____smooth;
 
+  /// [SerializeField]
   /// @brief Field _fadeInOnStart, offset: 0x2c, size: 0x1, def value: None
   bool ____fadeInOnStart;
 

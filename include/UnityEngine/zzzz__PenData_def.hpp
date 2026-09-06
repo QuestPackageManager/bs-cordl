@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PenData.hpp"
+// IWYU pragma private; include "UnityEngine/PenData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ public:
   // @brief default ctor
   constexpr PenData();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "tilt", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None
-  // }, CppParam { name: "penStatus", ty: "::UnityEngine::PenStatus", modifiers: "", def_value: None }, CppParam { name: "twist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "contactType", ty: "::UnityEngine::PenEventType", modifiers: "", def_value: None }, CppParam { name: "deltaPos", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "tilt", ty: "::UnityEngine::Vector2", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "penStatus", ty: "::UnityEngine::PenStatus", modifiers: "", def_value: None, comment: None }, CppParam { name: "twist", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "contactType", ty:
+  // "::UnityEngine::PenEventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "deltaPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }]
   constexpr PenData(::UnityEngine::Vector2 position, ::UnityEngine::Vector2 tilt, ::UnityEngine::PenStatus penStatus, float_t twist, float_t pressure, ::UnityEngine::PenEventType contactType,
                     ::UnityEngine::Vector2 deltaPos) noexcept;
 

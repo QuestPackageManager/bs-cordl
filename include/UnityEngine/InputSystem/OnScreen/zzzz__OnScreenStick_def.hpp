@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\OnScreen\OnScreenStick.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/OnScreen/OnScreenStick.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
   // @brief default ctor
   constexpr OnScreenStick_Behaviour();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OnScreenStick_Behaviour(int32_t value__) noexcept;
 
   /// @brief Field ExactPositionWithDynamicOrigin value: I32(2)
@@ -121,6 +121,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behav
 static_assert(sizeof(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::OnScreen
+// [AddComponentMenu("Input/On-Screen Stick")]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/OnScreen.html#on-screen-sticks")]
 // Dependencies UnityEngine.InputSystem.OnScreen.OnScreenControl, UnityEngine.InputSystem.OnScreen.OnScreenStick::Behaviour, UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
@@ -371,13 +373,13 @@ protected:
   constexpr OnScreenStick();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenStick", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OnScreenStick", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OnScreenStick(OnScreenStick&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenStick", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OnScreenStick", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OnScreenStick(OnScreenStick const&) = delete;
+  OnScreenStick(OnScreenStickconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8882 };
@@ -385,24 +387,44 @@ public:
   /// @brief Field kDynamicOriginClickable offset 0xffffffff size 0x8
   static constexpr ::ConstString kDynamicOriginClickable{ u"DynamicOriginClickable" };
 
+  /// [FormerlySerializedAs("movementRange")]
+  /// [SerializeField]
+  /// [Min(0)]
   /// @brief Field m_MovementRange, offset: 0x38, size: 0x4, def value: None
   float_t ___m_MovementRange;
 
+  /// [SerializeField]
+  /// [Tooltip("Defines the circular region where the onscreen control may have it\'s origin placed.")]
+  /// [Min(0)]
   /// @brief Field m_DynamicOriginRange, offset: 0x3c, size: 0x4, def value: None
   float_t ___m_DynamicOriginRange;
 
+  /// [InputControl(layout = "Vector2")]
+  /// [SerializeField]
   /// @brief Field m_ControlPath, offset: 0x40, size: 0x8, def value: None
   ::StringW ___m_ControlPath;
 
+  /// [SerializeField]
+  /// [Tooltip("Choose how the onscreen stick will move relative to it\'s origin and the press position.\n\nRelativePositionWithStaticOrigin: The control\'s center of origin is fixed. The control will
+  /// begin un-actuated at it\'s centered position and then move relative to the pointer or finger motion.\n\nExactPositionWithStaticOrigin: The control\'s center of origin is fixed. The stick will
+  /// immediately jump to the exact position of the click or touch and begin tracking motion from there.\n\nExactPositionWithDynamicOrigin: The control\'s center of origin is determined by the initial
+  /// press position. The stick will begin un-actuated at this center position and then track the current pointer or finger position.")]
   /// @brief Field m_Behaviour, offset: 0x48, size: 0x4, def value: None
   ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour ___m_Behaviour;
 
+  /// [SerializeField]
+  /// [Tooltip("Set this to true to prevent cancellation of pointer events due to device switching. Cancellation will appear as the stick jumping back and forth between the pointer position and the
+  /// stick center.")]
   /// @brief Field m_UseIsolatedInputActions, offset: 0x4c, size: 0x1, def value: None
   bool ___m_UseIsolatedInputActions;
 
+  /// [SerializeField]
+  /// [Tooltip("The action that will be used to detect pointer down events on the stick control. Note that if no bindings are set, default ones will be provided.")]
   /// @brief Field m_PointerDownAction, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ___m_PointerDownAction;
 
+  /// [SerializeField]
+  /// [Tooltip("The action that will be used to detect pointer movement on the stick control. Note that if no bindings are set, default ones will be provided.")]
   /// @brief Field m_PointerMoveAction, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ___m_PointerMoveAction;
 

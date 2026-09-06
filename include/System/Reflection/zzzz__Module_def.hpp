@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Module.hpp"
+// IWYU pragma private; include "System/Reflection/Module.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -147,13 +147,13 @@ protected:
   constexpr Module();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Module", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Module", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Module(Module&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Module", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Module", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Module(Module const&) = delete;
+  Module(Moduleconst&) = delete;
 
   /// @brief Field DefaultLookup value: I32(28)
   static ::System::Reflection::BindingFlags const DefaultLookup;

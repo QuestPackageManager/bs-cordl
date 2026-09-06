@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassBreakAudit.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassBreakAudit.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassBreakReason_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassBreakAudit_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassBreakReason_def.hpp"
@@ -34,8 +34,8 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
                                        { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, reason, breakPass);
 }
-// Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "breakPass", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "breakPass", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit::PassBreakAudit(
     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason reason, int32_t breakPass) noexcept {
   this->reason = reason;

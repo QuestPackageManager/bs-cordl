@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IKeyedProperties_2.hpp"
+// IWYU pragma private; include "Unity/Properties/IKeyedProperties_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +23,12 @@ template <typename TContainer, typename TKey>
 class CORDL_TYPE IKeyedProperties_2 {
 public:
   // Declarations
-  /// @brief Method TryGetProperty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryGetProperty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetProperty(::by_ref<TContainer> container, TKey key, ::by_ref<::Unity::Properties::IProperty_1<TContainer>*> property);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IKeyedProperties_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IKeyedProperties_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IKeyedProperties_2(IKeyedProperties_2 const&) = delete;
+  IKeyedProperties_2(IKeyedProperties_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19644 };

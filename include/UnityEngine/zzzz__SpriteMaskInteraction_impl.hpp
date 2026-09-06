@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpriteMaskInteraction.hpp"
+// IWYU pragma private; include "UnityEngine/SpriteMaskInteraction.hpp"
 #include "UnityEngine/zzzz__SpriteMaskInteraction_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SpriteMaskInteraction::SpriteMaskInteraction(int32_t value__) noexcept {
   this->value__ = value__;
 }

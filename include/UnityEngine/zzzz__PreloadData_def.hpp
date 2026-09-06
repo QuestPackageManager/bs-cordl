@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PreloadData.hpp"
+// IWYU pragma private; include "UnityEngine/PreloadData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ namespace UnityEngine {
 class CORDL_TYPE PreloadData : public ::UnityEngine::Object {
 public:
   // Declarations
+  /// [RequiredByNativeCode]
   /// @brief Method PreloadDataDontStripMe, addr 0x6af0324, size 0x4, virtual false, abstract: false, final false
   inline void PreloadDataDontStripMe();
 
@@ -28,13 +29,13 @@ protected:
   constexpr PreloadData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreloadData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreloadData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreloadData(PreloadData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreloadData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreloadData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreloadData(PreloadData const&) = delete;
+  PreloadData(PreloadDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10402 };

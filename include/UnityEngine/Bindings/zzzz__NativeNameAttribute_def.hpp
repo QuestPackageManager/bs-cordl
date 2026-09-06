@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\NativeNameAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/NativeNameAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class NativeNameAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativeNameAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativeNameAttribute*, "UnityEngine.Bindings", "NativeNameAttribute");
+// [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)448)]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -36,6 +38,7 @@ public:
   /// @brief Method .ctor, addr 0x6bb60b4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Name, addr 0x6bb60ac, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
@@ -45,17 +48,19 @@ protected:
   constexpr NativeNameAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeNameAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeNameAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeNameAttribute(NativeNameAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeNameAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeNameAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeNameAttribute(NativeNameAttribute const&) = delete;
+  NativeNameAttribute(NativeNameAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23110 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 

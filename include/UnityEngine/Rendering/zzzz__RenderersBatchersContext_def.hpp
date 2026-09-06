@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderersBatchersContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderersBatchersContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,13 +15,19 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -249,25 +255,25 @@ public:
   inline ::UnityEngine::Rendering::InstanceHandle GetRendererInstanceHandle(int32_t rendererID);
 
   /// @brief Method GetVisibleTreeInstances, addr 0x68382ac, size 0x1c, virtual false, abstract: false, final false
-  inline void GetVisibleTreeInstances(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks, ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits,
-                                      ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
+  inline void GetVisibleTreeInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits, ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> visibeTreeInstances, bool becomeVisibleOnly,
                                       ::by_ref<int32_t> becomeVisibeTreeInstancesCount);
 
   /// @brief Method GrowInstanceBuffer, addr 0x68379f4, size 0xdc, virtual false, abstract: false, final false
-  inline void GrowInstanceBuffer(::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
+  inline void GrowInstanceBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
   /// @brief Method InitializeInstanceTransforms, addr 0x6837dc4, size 0x6c, virtual false, abstract: false, final false
   inline void InitializeInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices);
 
-  static inline ::UnityEngine::Rendering::RenderersBatchersContext* New_ctor(::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc,
+  static inline ::UnityEngine::Rendering::RenderersBatchersContext* New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc,
                                                                              ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor,
                                                                              ::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
   /// @brief Method ReallocateAndGetInstances, addr 0x6837c34, size 0x28, virtual false, abstract: false, final false
-  inline void ReallocateAndGetInstances(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+  inline void ReallocateAndGetInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                         ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
   /// @brief Method ScheduleCollectInstancesLODGroupAndMasksJob, addr 0x6838144, size 0x18, virtual false, abstract: false, final false
@@ -293,7 +299,7 @@ public:
 
   /// @brief Method ScheduleUpdateInstanceDataJob, addr 0x6837c5c, size 0x28, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleUpdateInstanceDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
-                                                                ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData);
+                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData);
 
   /// @brief Method SubmitToGpu, addr 0x6837d9c, size 0x28, virtual false, abstract: false, final false
   inline void SubmitToGpu(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices,
@@ -304,7 +310,7 @@ public:
                           bool submitOnlyWrittenParams);
 
   /// @brief Method TransformLODGroupData, addr 0x6837b5c, size 0x14, virtual false, abstract: false, final false
-  inline void TransformLODGroupData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
+  inline void TransformLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
 
   /// @brief Method TransformLODGroups, addr 0x6838084, size 0xa8, virtual false, abstract: false, final false
   inline void TransformLODGroups(::Unity::Collections::NativeArray_1<int32_t> lodGroupsID);
@@ -326,13 +332,13 @@ public:
   inline void UpdateInstanceWindDataHistory(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices);
 
   /// @brief Method UpdateLODGroupData, addr 0x6837b48, size 0x14, virtual false, abstract: false, final false
-  inline void UpdateLODGroupData(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
+  inline void UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
 
   /// @brief Method UpdateLODGroups, addr 0x6837b8c, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateLODGroups(::Unity::Collections::NativeArray_1<int32_t> changedID);
 
   /// @brief Method UpdatePerFrameInstanceVisibility, addr 0x683812c, size 0x18, virtual false, abstract: false, final false
-  inline void UpdatePerFrameInstanceVisibility(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks);
+  inline void UpdatePerFrameInstanceVisibility(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks);
 
   constexpr ::UnityEngine::Rendering::SphericalHarmonicsL2 const& __cordl_internal_get_m_CachedAmbientProbe() const;
 
@@ -425,7 +431,7 @@ public:
   constexpr void __cordl_internal_set_m_UploadResources(::UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources value);
 
   /// @brief Method .ctor, addr 0x6836e8c, size 0x360, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc, ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor,
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersBatchersContextDesc> desc, ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor,
                     ::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
   /// @brief Method get_activeLodGroupCount, addr 0x6836c60, size 0x14, virtual false, abstract: false, final false
@@ -494,13 +500,13 @@ protected:
   constexpr RenderersBatchersContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderersBatchersContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderersBatchersContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderersBatchersContext(RenderersBatchersContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderersBatchersContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderersBatchersContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderersBatchersContext(RenderersBatchersContext const&) = delete;
+  RenderersBatchersContext(RenderersBatchersContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17792 };

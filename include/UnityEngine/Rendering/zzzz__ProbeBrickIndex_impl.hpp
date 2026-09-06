@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeBrickIndex.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeBrickIndex.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3Int_impl.hpp"
@@ -83,18 +83,19 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick
 UnityEngine::Rendering::ProbeBrickIndex_Brick::i___System__IEquatable_1___UnityEngine__Rendering__ProbeBrickIndex_Brick_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "subdivisionLevel", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "subdivisionLevel", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeBrickIndex_Brick::ProbeBrickIndex_Brick(::UnityEngine::Vector3Int position, int32_t subdivisionLevel) noexcept {
   this->position = position;
   this->subdivisionLevel = subdivisionLevel;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ProbeBrickIndex_Brick::ProbeBrickIndex_Brick() {}
-// Ctor Parameters [CppParam { name: "firstChunkIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "numberOfChunks", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "minSubdivInCell", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minValidBrickIndexForCellAtMaxRes", ty: "::UnityEngine::Vector3Int", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "maxValidBrickIndexForCellAtMaxResPlusOne", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "entryPositionInBricksAtMaxRes", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "hasOnlyBiggerBricks", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "firstChunkIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "numberOfChunks", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "minSubdivInCell", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "minValidBrickIndexForCellAtMaxRes", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxValidBrickIndexForCellAtMaxResPlusOne", ty:
+// "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "entryPositionInBricksAtMaxRes", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "hasOnlyBiggerBricks", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo::ProbeBrickIndex_IndirectionEntryUpdateInfo(int32_t firstChunkIndex, int32_t numberOfChunks, int32_t minSubdivInCell,
                                                                                                                            ::UnityEngine::Vector3Int minValidBrickIndexForCellAtMaxRes,
                                                                                                                            ::UnityEngine::Vector3Int maxValidBrickIndexForCellAtMaxResPlusOne,
@@ -129,7 +130,7 @@ inline int32_t UnityEngine::Rendering::ProbeBrickIndex_CellIndexUpdateInfo::GetN
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex_CellIndexUpdateInfo>(), { "GetNumberOfChunks", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "entriesInfo", ty: "::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "entriesInfo", ty: "::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ProbeBrickIndex_CellIndexUpdateInfo::ProbeBrickIndex_CellIndexUpdateInfo(
     ::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entriesInfo) noexcept {
   this->entriesInfo = entriesInfo;
@@ -728,8 +729,9 @@ inline int32_t UnityEngine::Rendering::ProbeBrickIndex::LocationToIndex(int32_t 
                                        { "LocationToIndex", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Vector3Int>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, x, y, z, sizeOfValid);
 }
-inline void UnityEngine::Rendering::ProbeBrickIndex::MarkBrickInPhysicalBuffer(::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entry, ::UnityEngine::Vector3Int brickMin,
-                                                                               ::UnityEngine::Vector3Int brickMax, int32_t brickSubdivLevel, int32_t entrySubdivLevel, int32_t idx) {
+inline void UnityEngine::Rendering::ProbeBrickIndex::MarkBrickInPhysicalBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entry,
+                                                                               ::UnityEngine::Vector3Int brickMin, ::UnityEngine::Vector3Int brickMax, int32_t brickSubdivLevel,
+                                                                               int32_t entrySubdivLevel, int32_t idx) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(),
                                               { "MarkBrickInPhysicalBuffer",

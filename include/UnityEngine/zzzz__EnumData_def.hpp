@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EnumData.hpp"
+// IWYU pragma private; include "UnityEngine/EnumData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ struct EnumData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::EnumData);
 DEFINE_IL2CPP_CLASS(::UnityEngine::EnumData, "UnityEngine", "EnumData");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Enum
 namespace UnityEngine {
 // Is value type: true
@@ -33,11 +34,11 @@ public:
   // @brief default ctor
   constexpr EnumData();
 
-  // Ctor Parameters [CppParam { name: "values", ty: "::ArrayW<::System::Enum*>", modifiers: "", def_value: None }, CppParam { name: "flagValues", ty: "::ArrayW<int32_t>", modifiers: "", def_value:
-  // None }, CppParam { name: "displayNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "names", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None },
-  // CppParam { name: "tooltip", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "underlyingType",
-  // ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_cordl_unsigned", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "serializable", ty: "bool", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "values", ty: "::ArrayW<::System::Enum*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "flagValues", ty: "::ArrayW<int32_t>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "displayNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "names", ty:
+  // "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tooltip", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "flags", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "underlyingType", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_cordl_unsigned", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "serializable", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr EnumData(::ArrayW<::System::Enum*> values, ::ArrayW<int32_t> flagValues, ::ArrayW<::StringW> displayNames, ::ArrayW<::StringW> names, ::ArrayW<::StringW> tooltip, bool flags,
                      ::System::Type* underlyingType, bool _cordl_unsigned, bool serializable) noexcept;
 

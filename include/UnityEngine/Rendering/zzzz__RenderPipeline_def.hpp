@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipeline.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,13 +87,13 @@ protected:
   constexpr RenderPipeline_StandardRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline_StandardRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline_StandardRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipeline_StandardRequest(RenderPipeline_StandardRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline_StandardRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline_StandardRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipeline_StandardRequest(RenderPipeline_StandardRequest const&) = delete;
+  RenderPipeline_StandardRequest(RenderPipeline_StandardRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10816 };
@@ -172,7 +172,7 @@ public:
   /// @brief Method ProcessRenderRequests, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename RequestData> inline void ProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera, RequestData renderRequest);
 
-  /// @brief Method Render, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<::UnityEngine::Camera*> cameras);
 
   /// @brief Method Render, addr 0x6b22364, size 0x7c, virtual true, abstract: false, final false
@@ -196,9 +196,11 @@ public:
   /// @brief Method get_defaultSettings, addr 0x6b224e8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> get_defaultSettings();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6b22458, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6b22460, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -208,17 +210,19 @@ protected:
   constexpr RenderPipeline();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipeline(RenderPipeline&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipeline", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipeline(RenderPipeline const&) = delete;
+  RenderPipeline(RenderPipelineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10817 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

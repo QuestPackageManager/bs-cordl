@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AutocompleteResult.hpp"
+// IWYU pragma private; include "GlobalNamespace/AutocompleteResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,8 @@ public:
   // @brief default ctor
   constexpr AutocompleteResult();
 
-  // Ctor Parameters [CppParam { name: "userWrittenCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "matches", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None },
-  // CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "userWrittenCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "matches", ty: "::ArrayW<::StringW>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr AutocompleteResult(int32_t userWrittenCount, ::ArrayW<::StringW> matches, bool isValid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

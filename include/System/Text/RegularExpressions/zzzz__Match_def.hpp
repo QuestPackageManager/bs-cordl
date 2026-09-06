@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\Match.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/Match.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -162,6 +162,7 @@ public:
 
   static inline ::System::Text::RegularExpressions::Match* getStaticF__Empty_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Empty, addr 0x637e458, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Match* get_Empty();
 
@@ -176,13 +177,13 @@ protected:
   constexpr Match();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Match", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Match", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Match(Match&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Match", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Match", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Match(Match const&) = delete;
+  Match(Matchconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11100 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\DirectoryInfo.hpp"
+// IWYU pragma private; include "System/IO/DirectoryInfo.hpp"
 #include "System/IO/zzzz__FileSystemInfo_impl.hpp"
 #include "System/IO/zzzz__DirectoryInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

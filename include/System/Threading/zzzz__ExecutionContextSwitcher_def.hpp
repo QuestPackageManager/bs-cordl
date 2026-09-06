@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\ExecutionContextSwitcher.hpp"
+// IWYU pragma private; include "System/Threading/ExecutionContextSwitcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,9 +26,12 @@ namespace System::Threading {
 struct CORDL_TYPE ExecutionContextSwitcher {
 public:
   // Declarations
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method Undo, addr 0x5cb0620, size 0x8c, virtual false, abstract: false, final false
   inline void Undo();
 
+  /// [HandleProcessCorruptedStateExceptions]
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method UndoNoThrow, addr 0x5cb059c, size 0x84, virtual false, abstract: false, final false
   inline bool UndoNoThrow();
 
@@ -36,9 +39,9 @@ public:
   // @brief default ctor
   constexpr ExecutionContextSwitcher();
 
-  // Ctor Parameters [CppParam { name: "outerEC", ty: "::System::Threading::ExecutionContext_Reader", modifiers: "", def_value: None }, CppParam { name: "outerECBelongsToScope", ty: "bool", modifiers:
-  // "", def_value: None }, CppParam { name: "hecsw", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "thread", ty: "::System::Threading::Thread*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "outerEC", ty: "::System::Threading::ExecutionContext_Reader", modifiers: "", def_value: None, comment: None }, CppParam { name: "outerECBelongsToScope", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "hecsw", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "thread", ty:
+  // "::System::Threading::Thread*", modifiers: "", def_value: None, comment: None }]
   constexpr ExecutionContextSwitcher(::System::Threading::ExecutionContext_Reader outerEC, bool outerECBelongsToScope, ::System::Object* hecsw, ::System::Threading::Thread* thread) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

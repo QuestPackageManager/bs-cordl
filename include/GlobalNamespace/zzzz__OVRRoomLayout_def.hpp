@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRRoomLayout.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRRoomLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,9 @@ namespace GlobalNamespace {
 struct OVRPlugin_SpaceComponentType;
 }
 namespace GlobalNamespace {
-template <typename TValue, typename TStatus> struct OVRResult_2;
+template <typename TValue, typename TStatus>
+  requires(::cordl_internals::type_constraint<TStatus, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TStatus> && ::cordl_internals::default_constructor_constraint<TStatus>)
+struct OVRResult_2;
 }
 namespace GlobalNamespace {
 template <typename TResult> struct OVRTask_1;
@@ -46,6 +48,7 @@ struct OVRRoomLayout;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::OVRRoomLayout);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRRoomLayout, "", "OVRRoomLayout");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -84,6 +87,7 @@ public:
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
+  /// [Obsolete("Use FetchAnchorsAsync instead.")]
   /// @brief Method FetchLayoutAnchorsAsync, addr 0x5e15ebc, size 0x328, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> FetchLayoutAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
@@ -113,6 +117,7 @@ public:
 
   static inline ::GlobalNamespace::OVRRoomLayout getStaticF_Null();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handle, addr 0x5e15eb4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
@@ -143,7 +148,7 @@ public:
   // @brief default ctor
   constexpr OVRRoomLayout();
 
-  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRRoomLayout(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -152,6 +157,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
   uint64_t _Handle_k__BackingField;
 

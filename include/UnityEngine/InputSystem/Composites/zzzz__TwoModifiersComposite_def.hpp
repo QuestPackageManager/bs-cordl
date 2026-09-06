@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Composites\TwoModifiersComposite.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/TwoModifiersComposite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   // @brief default ctor
   constexpr TwoModifiersComposite_ModifiersOrder();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TwoModifiersComposite_ModifiersOrder(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(0)
@@ -91,6 +91,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::TwoModifiersCompo
 static_assert(sizeof(::UnityEngine::InputSystem::Composites::TwoModifiersComposite_ModifiersOrder) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Composites
+// [DisplayStringFormat("{modifier1}+{modifier2}+{binding}")]
+// [DisplayName("Binding With Two Modifiers")]
 // Dependencies UnityEngine.InputSystem.Composites.TwoModifiersComposite::ModifiersOrder, UnityEngine.InputSystem.InputBindingComposite
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
@@ -209,29 +211,35 @@ protected:
   constexpr TwoModifiersComposite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TwoModifiersComposite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TwoModifiersComposite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TwoModifiersComposite(TwoModifiersComposite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TwoModifiersComposite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TwoModifiersComposite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TwoModifiersComposite(TwoModifiersComposite const&) = delete;
+  TwoModifiersComposite(TwoModifiersCompositeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9217 };
 
+  /// [InputControl(layout = "Button")]
   /// @brief Field modifier1, offset: 0x10, size: 0x4, def value: None
   int32_t ___modifier1;
 
+  /// [InputControl(layout = "Button")]
   /// @brief Field modifier2, offset: 0x14, size: 0x4, def value: None
   int32_t ___modifier2;
 
+  /// [InputControl]
   /// @brief Field binding, offset: 0x18, size: 0x4, def value: None
   int32_t ___binding;
 
+  /// [Tooltip("Obsolete please use modifiers Order. If enabled, this will override the Input Consumption setting, allowing the modifier keys to be pressed after the button and the composite will
+  /// still trigger.")] [Obsolete("Use ModifiersOrder.Unordered with \'modifiersOrder\' instead")]
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset: 0x1c, size: 0x1, def value: None
   bool ___overrideModifiersNeedToBePressedFirst;
 
+  /// [Tooltip("By default it follows the Input Consumption setting to determine if the modifers keys need to be pressed first.")]
   /// @brief Field modifiersOrder, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Composites::TwoModifiersComposite_ModifiersOrder ___modifiersOrder;
 

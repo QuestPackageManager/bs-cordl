@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\FrameTimingManager.hpp"
+// IWYU pragma private; include "UnityEngine/FrameTimingManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class FrameTimingManager;
 // Write type traits
 MARK_REF_T(::UnityEngine::FrameTimingManager*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::FrameTimingManager*, "UnityEngine", "FrameTimingManager");
+// [StaticAccessor("GetUncheckedRealGfxDevice().GetFrameTimingManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -42,13 +43,13 @@ protected:
   constexpr FrameTimingManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FrameTimingManager(FrameTimingManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FrameTimingManager(FrameTimingManager const&) = delete;
+  FrameTimingManager(FrameTimingManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10143 };

@@ -1,15 +1,18 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UQueryExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UQueryExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(UQueryExtensions)
 namespace UnityEngine::UIElements {
-template <typename T> struct UQueryBuilder_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+struct UQueryBuilder_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -21,7 +24,8 @@ class UQueryExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UQueryExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UQueryExtensions*, "UnityEngine.UIElements", "UQueryExtensions");
-// Dependencies System.Object, UnityEngine.UIElements.UQueryState`1<T>
+// [Extension]
+// Dependencies System.Object, UnityEngine.UIElements.UQueryState`1<T>, UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UQueryExtensions
@@ -64,20 +68,31 @@ public:
   __declspec(property(get = getStaticF_SingleElementTypeQuery, put = setStaticF_SingleElementTypeQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementTypeQuery;
 
+  /// [Extension]
   /// @brief Method Q, addr 0x6cbaaa4, size 0x3ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
+  /// [Extension]
   /// @brief Method Q, addr 0x6cba984, size 0x120, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::ArrayW<::StringW> classes);
+  static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, /* [ParamArray] */ ::ArrayW<::StringW> classes);
 
+  /// [Extension]
   /// @brief Method Q, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+  static inline T Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
+  /// [Extension]
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+  static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
+  /// [Extension]
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::ArrayW<::StringW> classes);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+  static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, /* [ParamArray] */ ::ArrayW<::StringW> classes);
 
   static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementClassQuery();
 
@@ -117,13 +132,13 @@ protected:
   constexpr UQueryExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQueryExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UQueryExtensions(UQueryExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQueryExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQueryExtensions(UQueryExtensions const&) = delete;
+  UQueryExtensions(UQueryExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5133 };

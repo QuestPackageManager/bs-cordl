@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MouseEnterWindowEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MouseEnterWindowEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::UnityEngine::UIElements::MouseEnterWindowEvent*);
 MARK_REF_T(::UnityEngine::UIElements::MouseEnterWindowEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseEnterWindowEvent*, "UnityEngine.UIElements", "MouseEnterWindowEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::MouseEnterWindowEvent___c*, "UnityEngine.UIElements", "MouseEnterWindowEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -55,13 +56,13 @@ protected:
   constexpr MouseEnterWindowEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseEnterWindowEvent___c(MouseEnterWindowEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseEnterWindowEvent___c(MouseEnterWindowEvent___c const&) = delete;
+  MouseEnterWindowEvent___c(MouseEnterWindowEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4507 };
@@ -72,6 +73,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::MouseEnterWindowEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)5)]
 // Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -104,13 +106,13 @@ protected:
   constexpr MouseEnterWindowEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseEnterWindowEvent(MouseEnterWindowEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseEnterWindowEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MouseEnterWindowEvent(MouseEnterWindowEvent const&) = delete;
+  MouseEnterWindowEvent(MouseEnterWindowEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4508 };

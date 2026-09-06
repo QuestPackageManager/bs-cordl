@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\LinkInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/LinkInfo.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__LinkInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::LinkInfo.SetLinkId
@@ -57,10 +57,11 @@ inline ::StringW UnityEngine::TextCore::Text::LinkInfo::GetLinkId() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::LinkInfo>(), { "GetLinkId", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "linkTextLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "linkId", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_LinkIdString", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LinkTextString", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "linkTextfirstCharacterIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "linkTextLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "linkId",
+// ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LinkIdString", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "m_LinkTextString", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::LinkInfo::LinkInfo(int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex, int32_t linkTextLength,
                                                             ::ArrayW<char16_t> linkId, ::StringW m_LinkIdString, ::StringW m_LinkTextString) noexcept {
   this->hashCode = hashCode;

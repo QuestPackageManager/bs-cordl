@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\MeshImporter.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MeshImporter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::MeshImporter*);
 MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::MeshImporter*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -82,13 +83,13 @@ protected:
   constexpr MeshImporter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshImporter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshImporter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshImporter___c(MeshImporter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshImporter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshImporter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshImporter___c(MeshImporter___c const&) = delete;
+  MeshImporter___c(MeshImporter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16882 };
@@ -123,12 +124,16 @@ public:
   /// @brief Field m_Vertices, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Vertices, put = __cordl_internal_set_m_Vertices)) ::ArrayW<::UnityEngine::ProBuilder::Vertex*> m_Vertices;
 
+  /// [Obsolete]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method Import, addr 0x6734090, size 0x190, virtual false, abstract: false, final false
   inline bool Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
   /// @brief Method Import, addr 0x6734220, size 0xabc, virtual false, abstract: false, final false
   inline void Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
+  /// [Obsolete]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* New_ctor(::UnityEngine::GameObject* gameObject);
@@ -160,6 +165,8 @@ public:
 
   constexpr void __cordl_internal_set_m_Vertices(::ArrayW<::UnityEngine::ProBuilder::Vertex*> value);
 
+  /// [Obsolete]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method .ctor, addr 0x6734088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
@@ -179,13 +186,13 @@ protected:
   constexpr MeshImporter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshImporter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshImporter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshImporter(MeshImporter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshImporter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshImporter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshImporter(MeshImporter const&) = delete;
+  MeshImporter(MeshImporterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16883 };

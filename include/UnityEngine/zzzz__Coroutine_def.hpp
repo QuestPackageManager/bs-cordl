@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Coroutine.hpp"
+// IWYU pragma private; include "UnityEngine/Coroutine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ protected:
   constexpr Coroutine_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Coroutine_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Coroutine_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Coroutine_BindingsMarshaller(Coroutine_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Coroutine_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Coroutine_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Coroutine_BindingsMarshaller(Coroutine_BindingsMarshaller const&) = delete;
+  Coroutine_BindingsMarshaller(Coroutine_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10333 };
@@ -58,6 +58,8 @@ public:
 static_assert(sizeof(::UnityEngine::Coroutine_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/Mono/Coroutine.h")]
 // Dependencies System.IntPtr, UnityEngine.YieldInstruction
 namespace UnityEngine {
 // Is value type: false
@@ -75,6 +77,7 @@ public:
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
+  /// [FreeFunction("Coroutine::CleanupCoroutineGC", true)]
   /// @brief Method ReleaseCoroutine, addr 0x6ade3f0, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseCoroutine(::System::IntPtr ptr);
 
@@ -93,13 +96,13 @@ protected:
   constexpr Coroutine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Coroutine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Coroutine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Coroutine(Coroutine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Coroutine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Coroutine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Coroutine(Coroutine const&) = delete;
+  Coroutine(Coroutineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10334 };

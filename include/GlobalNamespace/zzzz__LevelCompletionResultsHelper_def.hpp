@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelCompletionResultsHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelCompletionResultsHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,9 +64,9 @@ public:
          float_t energy, float_t songTime, bool invalidated);
 
   /// @brief Method ProcessScore, addr 0x370e928, size 0x148, virtual false, abstract: false, final false
-  static inline void ProcessScore(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData, ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats,
-                                  ::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
-                                  ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
+  static inline void ProcessScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData,
+                                  ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
+                                  ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
 
 protected:
   // Ctor Parameters []
@@ -74,13 +74,13 @@ protected:
   constexpr LevelCompletionResultsHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResultsHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResultsHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelCompletionResultsHelper(LevelCompletionResultsHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResultsHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResultsHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelCompletionResultsHelper(LevelCompletionResultsHelper const&) = delete;
+  LevelCompletionResultsHelper(LevelCompletionResultsHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14874 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapObjectSpawnMovementData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectSpawnMovementData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
   // @brief default ctor
   constexpr BeatmapObjectSpawnMovementData_NoteJumpValueType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapObjectSpawnMovementData_NoteJumpValueType(int32_t value__) noexcept;
 
   /// @brief Field BeatOffset value: I32(1)
@@ -288,13 +288,13 @@ protected:
   constexpr BeatmapObjectSpawnMovementData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnMovementData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnMovementData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectSpawnMovementData(BeatmapObjectSpawnMovementData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnMovementData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectSpawnMovementData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapObjectSpawnMovementData(BeatmapObjectSpawnMovementData const&) = delete;
+  BeatmapObjectSpawnMovementData(BeatmapObjectSpawnMovementDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5638 };
@@ -305,27 +305,39 @@ public:
   /// @brief Field kDefaultStartHalfJumpDurationInBeats offset 0xffffffff size 0x4
   static constexpr float_t kDefaultStartHalfJumpDurationInBeats{ static_cast<float_t>(4.0f) };
 
+  /// [Header("Global")]
+  /// [SerializeField]
   /// @brief Field _centerPos, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____centerPos;
 
+  /// [Header("Jump")]
+  /// [Tooltip("If half jump distance computed using halfJumpDurationInBeats is longer than this value, it is divided by two until it\'s smaller.")]
+  /// [SerializeField]
   /// @brief Field _maxHalfJumpDistance, offset: 0x1c, size: 0x4, def value: None
   float_t ____maxHalfJumpDistance;
 
+  /// [SerializeField]
   /// @brief Field _startHalfJumpDurationInBeats, offset: 0x20, size: 0x4, def value: None
   float_t ____startHalfJumpDurationInBeats;
 
+  /// [SerializeField]
   /// @brief Field _baseLinesHighestJumpPosY, offset: 0x24, size: 0x4, def value: None
   float_t ____baseLinesHighestJumpPosY;
 
+  /// [SerializeField]
   /// @brief Field _upperLinesHighestJumpPosY, offset: 0x28, size: 0x4, def value: None
   float_t ____upperLinesHighestJumpPosY;
 
+  /// [SerializeField]
   /// @brief Field _topLinesHighestJumpPosY, offset: 0x2c, size: 0x4, def value: None
   float_t ____topLinesHighestJumpPosY;
 
+  /// [Header("Obstacles")]
+  /// [SerializeField]
   /// @brief Field _verticalObstaclePosY, offset: 0x30, size: 0x4, def value: None
   float_t ____verticalObstaclePosY;
 
+  /// [SerializeField]
   /// @brief Field _obstacleTopPosY, offset: 0x34, size: 0x4, def value: None
   float_t ____obstacleTopPosY;
 

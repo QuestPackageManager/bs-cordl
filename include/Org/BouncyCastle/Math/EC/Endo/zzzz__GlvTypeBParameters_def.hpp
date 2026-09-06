@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Endo\GlvTypeBParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/GlvTypeBParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,18 +29,23 @@ public:
   // Declarations
   __declspec(property(get = get_Beta)) ::Org::BouncyCastle::Math::BigInteger* Beta;
 
+  /// @brief [Obsolete("Access via SplitParams instead")]
   __declspec(property(get = get_Bits)) int32_t Bits;
 
+  /// @brief [Obsolete("Access via SplitParams instead")]
   __declspec(property(get = get_G1)) ::Org::BouncyCastle::Math::BigInteger* G1;
 
+  /// @brief [Obsolete("Access via SplitParams instead")]
   __declspec(property(get = get_G2)) ::Org::BouncyCastle::Math::BigInteger* G2;
 
   __declspec(property(get = get_Lambda)) ::Org::BouncyCastle::Math::BigInteger* Lambda;
 
   __declspec(property(get = get_SplitParams)) ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* SplitParams;
 
+  /// @brief [Obsolete("Access via SplitParams instead")]
   __declspec(property(get = get_V1)) ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> V1;
 
+  /// @brief [Obsolete("Access via SplitParams instead")]
   __declspec(property(get = get_V2)) ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> V2;
 
   /// @brief Field m_beta, offset 0x10, size 0x8
@@ -55,6 +60,7 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                                   ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
+  /// @brief [Obsolete("Use constructor taking a ScalarSplitParameters instead")]
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                                   ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v1, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v2,
                                                                                   ::Org::BouncyCastle::Math::BigInteger* g1, ::Org::BouncyCastle::Math::BigInteger* g2, int32_t bits);
@@ -80,6 +86,7 @@ public:
   /// @brief Method .ctor, addr 0x350cfb4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
+  /// [Obsolete("Use constructor taking a ScalarSplitParameters instead")]
   /// @brief Method .ctor, addr 0x350ce10, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* beta, ::Org::BouncyCastle::Math::BigInteger* lambda, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> v2, ::Org::BouncyCastle::Math::BigInteger* g1, ::Org::BouncyCastle::Math::BigInteger* g2, int32_t bits);
@@ -114,13 +121,13 @@ protected:
   constexpr GlvTypeBParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GlvTypeBParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GlvTypeBParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GlvTypeBParameters(GlvTypeBParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GlvTypeBParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GlvTypeBParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GlvTypeBParameters(GlvTypeBParameters const&) = delete;
+  GlvTypeBParameters(GlvTypeBParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1524 };

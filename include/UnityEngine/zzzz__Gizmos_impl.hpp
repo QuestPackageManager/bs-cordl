@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Gizmos.hpp"
+// IWYU pragma private; include "UnityEngine/Gizmos.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Gizmos_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
@@ -236,7 +236,8 @@ inline void UnityEngine::Gizmos::DrawCube(::UnityEngine::Vector3 center, ::Unity
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "DrawCube", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, center, size);
 }
-inline void UnityEngine::Gizmos::DrawIcon(::UnityEngine::Vector3 center, ::StringW name, bool allowScaling, ::UnityEngine::Color tint) {
+inline void UnityEngine::Gizmos::DrawIcon(::UnityEngine::Vector3 center, ::StringW name, /* [DefaultValue("true")] */ bool allowScaling,
+                                          /* [DefaultValue("Color(255,255,255,255)")] */ ::UnityEngine::Color tint) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
@@ -281,8 +282,8 @@ inline void UnityEngine::Gizmos::DrawCube_Injected(::by_ref<::UnityEngine::Vecto
                                                            { "DrawCube_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, center, size);
 }
-inline void UnityEngine::Gizmos::DrawIcon_Injected(::by_ref<::UnityEngine::Vector3> center, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, bool allowScaling,
-                                                   ::by_ref<::UnityEngine::Color> tint) {
+inline void UnityEngine::Gizmos::DrawIcon_Injected(::by_ref<::UnityEngine::Vector3> center, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, /* [DefaultValue("true")] */ bool allowScaling,
+                                                   /* [DefaultValue("Color(255,255,255,255)")] */ ::by_ref<::UnityEngine::Color> tint) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "DrawIcon_Injected",

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CachedAssetBundle.hpp"
+// IWYU pragma private; include "UnityEngine/CachedAssetBundle.hpp"
 #include "UnityEngine/zzzz__Hash128_impl.hpp"
 #include "UnityEngine/zzzz__CachedAssetBundle_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
@@ -53,7 +53,8 @@ inline ::UnityEngine::Hash128 UnityEngine::CachedAssetBundle::get_hash() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CachedAssetBundle>(), { "get_hash", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Hash128>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Hash", ty: "::UnityEngine::Hash128", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Hash", ty: "::UnityEngine::Hash128", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::CachedAssetBundle::CachedAssetBundle(::StringW m_Name, ::UnityEngine::Hash128 m_Hash) noexcept {
   this->m_Name = m_Name;
   this->m_Hash = m_Hash;

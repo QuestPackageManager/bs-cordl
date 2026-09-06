@@ -1,6 +1,8 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SubsystemManager.hpp"
+// IWYU pragma private; include "UnityEngine/SubsystemManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_impl.hpp"
+#include "UnityEngine/zzzz__ISubsystem_impl.hpp"
 #include "UnityEngine/zzzz__SubsystemManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -191,14 +193,18 @@ inline void UnityEngine::SubsystemManager::StaticConstructScriptingClassMap() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemManager*>(), { "StaticConstructScriptingClassMap", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-template <typename T> inline void UnityEngine::SubsystemManager::GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystemDescriptor*>)
+inline void UnityEngine::SubsystemManager::GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemManager*>(),
                                                            { "GetSubsystemDescriptors", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, descriptors);
 }
-template <typename T> inline void UnityEngine::SubsystemManager::GetSubsystems(::System::Collections::Generic::List_1<T>* subsystems) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*>)
+inline void UnityEngine::SubsystemManager::GetSubsystems(::System::Collections::Generic::List_1<T>* subsystems) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemManager*>(), { "GetSubsystems", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>() } })));
@@ -206,6 +212,7 @@ template <typename T> inline void UnityEngine::SubsystemManager::GetSubsystems(:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, subsystems);
 }
 template <typename TBaseTypeInList, typename TQueryType>
+  requires(::cordl_internals::type_constraint<TBaseTypeInList, ::UnityEngine::ISubsystem*> && ::cordl_internals::type_constraint<TQueryType, ::UnityEngine::ISubsystem*>)
 inline void UnityEngine::SubsystemManager::AddSubsystemSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemManager*>(), { "AddSubsystemSubset",

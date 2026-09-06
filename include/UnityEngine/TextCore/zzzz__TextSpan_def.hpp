@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\TextSpan.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/TextSpan.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ struct TextSpan;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::TextSpan);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::TextSpan, "UnityEngine.TextCore", "TextSpan");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.IntPtr, UnityEngine.Color32, UnityEngine.TextCore.Text.FontStyles, UnityEngine.TextCore.Text.TextFontWeight
 namespace UnityEngine::TextCore {
 // Is value type: true
@@ -32,10 +33,11 @@ public:
   // @brief default ctor
   constexpr TextSpan();
 
-  // Ctor Parameters [CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "fontAsset", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "color", ty:
-  // "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::TextCore::Text::FontStyles", modifiers: "", def_value: None }, CppParam { name:
-  // "fontWeight", ty: "::UnityEngine::TextCore::Text::TextFontWeight", modifiers: "", def_value: None }, CppParam { name: "linkID", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "fontAsset", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::TextCore::Text::FontStyles",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "fontWeight", ty: "::UnityEngine::TextCore::Text::TextFontWeight", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "linkID", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextSpan(int32_t startIndex, int32_t length, ::System::IntPtr fontAsset, int32_t fontSize, ::UnityEngine::Color32 color, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
                      ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, int32_t linkID) noexcept;
 

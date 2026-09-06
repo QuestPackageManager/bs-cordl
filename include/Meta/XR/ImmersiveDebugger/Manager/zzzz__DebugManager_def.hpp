@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\DebugManager.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/DebugManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Meta/XR/ImmersiveDebugger/Manager/zzzz__IDebugManager_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
@@ -103,13 +104,13 @@ protected:
   constexpr DebugManager_ShouldRetrieveInstanceDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager_ShouldRetrieveInstanceDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager_ShouldRetrieveInstanceDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugManager_ShouldRetrieveInstanceDelegate(DebugManager_ShouldRetrieveInstanceDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager_ShouldRetrieveInstanceDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager_ShouldRetrieveInstanceDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager_ShouldRetrieveInstanceDelegate(DebugManager_ShouldRetrieveInstanceDelegate const&) = delete;
+  DebugManager_ShouldRetrieveInstanceDelegate(DebugManager_ShouldRetrieveInstanceDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18428 };
@@ -120,6 +121,7 @@ public:
 static_assert(sizeof(::Meta::XR::ImmersiveDebugger::Manager::DebugManager_ShouldRetrieveInstanceDelegate) == 0x80, "Size mismatch!");
 
 } // namespace Meta::XR::ImmersiveDebugger::Manager
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -155,13 +157,13 @@ protected:
   constexpr DebugManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugManager___c(DebugManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager___c(DebugManager___c const&) = delete;
+  DebugManager___c(DebugManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18429 };
@@ -172,7 +174,7 @@ public:
 static_assert(sizeof(::Meta::XR::ImmersiveDebugger::Manager::DebugManager___c) == 0x10, "Size mismatch!");
 
 } // namespace Meta::XR::ImmersiveDebugger::Manager
-// Dependencies UnityEngine.MonoBehaviour
+// Dependencies Meta.XR.ImmersiveDebugger.Manager.IDebugManager, UnityEngine.MonoBehaviour
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.Manager.DebugManager
@@ -228,6 +230,7 @@ public:
   /// @brief Method Awake, addr 0x5a6236c, size 0x164, virtual false, abstract: false, final false
   inline void Awake();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x5a61b4c, size 0x4c, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -249,7 +252,9 @@ public:
   inline void ProcessLoadedTypeBySubManagers(::System::Type* type);
 
   /// @brief Method RegisterManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TManagerType> inline void RegisterManager();
+  template <typename TManagerType>
+    requires(::cordl_internals::type_constraint<TManagerType, ::Meta::XR::ImmersiveDebugger::Manager::IDebugManager*> && ::cordl_internals::default_constructor_constraint<TManagerType>)
+  inline void RegisterManager();
 
   /// @brief Method RegisterTypesFromInspectedData, addr 0x5a62678, size 0x16c, virtual false, abstract: false, final false
   inline void RegisterTypesFromInspectedData();
@@ -329,18 +334,23 @@ public:
   /// @brief Method .ctor, addr 0x5a62d58, size 0x198, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_CustomShouldRetrieveInstanceCondition, addr 0x5a62204, size 0xac, virtual false, abstract: false, final false
   inline void add_CustomShouldRetrieveInstanceCondition(::Meta::XR::ImmersiveDebugger::Manager::DebugManager_ShouldRetrieveInstanceDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnDisableAction, addr 0x5a61f54, size 0xac, virtual false, abstract: false, final false
   inline void add_OnDisableAction(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnFocusLostAction, addr 0x5a61dfc, size 0xac, virtual false, abstract: false, final false
   inline void add_OnFocusLostAction(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnReady, addr 0x5a61c34, size 0xe4, virtual false, abstract: false, final false
   static inline void add_OnReady(::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnUpdateAction, addr 0x5a620ac, size 0xac, virtual false, abstract: false, final false
   inline void add_OnUpdateAction(::System::Action* value);
 
@@ -348,24 +358,31 @@ public:
 
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager> getStaticF__Instance_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Instance, addr 0x5a61b98, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager> get_Instance();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UiPanel, addr 0x5a6235c, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* get_UiPanel();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_CustomShouldRetrieveInstanceCondition, addr 0x5a622b0, size 0xac, virtual false, abstract: false, final false
   inline void remove_CustomShouldRetrieveInstanceCondition(::Meta::XR::ImmersiveDebugger::Manager::DebugManager_ShouldRetrieveInstanceDelegate* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnDisableAction, addr 0x5a62000, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnDisableAction(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnFocusLostAction, addr 0x5a61ea8, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnFocusLostAction(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnReady, addr 0x5a61d18, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_OnReady(::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnUpdateAction, addr 0x5a62158, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnUpdateAction(::System::Action* value);
 
@@ -373,9 +390,11 @@ public:
 
   static inline void setStaticF__Instance_k__BackingField(::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Instance, addr 0x5a61be4, size 0x50, virtual false, abstract: false, final false
   static inline void set_Instance(::Meta::XR::ImmersiveDebugger::Manager::DebugManager* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_UiPanel, addr 0x5a62364, size 0x8, virtual false, abstract: false, final false
   inline void set_UiPanel(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* value);
 
@@ -385,13 +404,13 @@ protected:
   constexpr DebugManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugManager(DebugManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugManager(DebugManager const&) = delete;
+  DebugManager(DebugManagerconst&) = delete;
 
   /// @brief Field RetrievalIntervalInSec offset 0xffffffff size 0x4
   static constexpr float_t RetrievalIntervalInSec{ static_cast<float_t>(1.0f) };
@@ -399,15 +418,19 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18430 };
 
+  /// [CompilerGenerated]
   /// @brief Field OnFocusLostAction, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___OnFocusLostAction;
 
+  /// [CompilerGenerated]
   /// @brief Field OnDisableAction, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___OnDisableAction;
 
+  /// [CompilerGenerated]
   /// @brief Field OnUpdateAction, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___OnUpdateAction;
 
+  /// [CompilerGenerated]
   /// @brief Field CustomShouldRetrieveInstanceCondition, offset: 0x38, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::DebugManager_ShouldRetrieveInstanceDelegate* ___CustomShouldRetrieveInstanceCondition;
 
@@ -426,6 +449,7 @@ public:
   /// @brief Field _frameUpdateRecorder, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::OVRSampledEventSender* ____frameUpdateRecorder;
 
+  /// [CompilerGenerated]
   /// @brief Field <UiPanel>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* ____UiPanel_k__BackingField;
 

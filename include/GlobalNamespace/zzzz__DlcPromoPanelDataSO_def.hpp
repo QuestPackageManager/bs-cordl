@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DlcPromoPanelDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/DlcPromoPanelDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
   // @brief default ctor
   constexpr DlcPromoPanelDataSO_DlcPromoPanelType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DlcPromoPanelDataSO_DlcPromoPanelType(int32_t value__) noexcept;
 
   /// @brief Field Pack value: I32(0)
@@ -202,35 +202,46 @@ protected:
   constexpr DlcPromoPanelDataSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelDataSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelDataSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DlcPromoPanelDataSO(DlcPromoPanelDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelDataSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelDataSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DlcPromoPanelDataSO(DlcPromoPanelDataSO const&) = delete;
+  DlcPromoPanelDataSO(DlcPromoPanelDataSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15182 };
 
+  /// [SerializeField]
   /// @brief Field _cutOffTest, offset: 0x18, size: 0x4, def value: None
   int32_t ____cutOffTest;
 
+  /// [SerializeField]
   /// @brief Field _minNumberOfNotOwnedPacks, offset: 0x1c, size: 0x4, def value: None
   int32_t ____minNumberOfNotOwnedPacks;
 
+  /// [SerializeField]
   /// @brief Field _defaultPromoInfoId, offset: 0x20, size: 0x8, def value: None
   ::StringW ____defaultPromoInfoId;
 
+  /// [SerializeField]
+  /// [BeatmapLevelOrPackPromoInfoId(false)]
   /// @brief Field _target, offset: 0x28, size: 0x8, def value: None
   ::StringW ____target;
 
+  /// [SerializeField]
   /// @brief Field _priority, offset: 0x30, size: 0x4, def value: None
   int32_t ____priority;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _dlcPromoPanelType, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType ____dlcPromoPanelType;
 
+  /// [DrawIf("_dlcPromoPanelType", (DlcPromoPanelDataSO::DlcPromoPanelType)1, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_dlcPromoPanelType", (ComparisonOperation)1, (DlcPromoPanelDataSO::DlcPromoPanelType)1, (NullAllowedContext)0)]
+  /// [SerializeField]
   /// @brief Field _customDlcPromoBanner, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PromoBannerInfoSO> ____customDlcPromoBanner;
 

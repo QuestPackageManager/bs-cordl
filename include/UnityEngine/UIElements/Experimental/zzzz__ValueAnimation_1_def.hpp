@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Experimental\ValueAnimation_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/ValueAnimation_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,9 @@ namespace UnityEngine::UIElements::Experimental {
 template <typename T> class ValueAnimation_1___c;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -43,6 +45,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::Experimental::ValueAnimation_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::Experimental::ValueAnimation_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::Experimental::ValueAnimation_1, "UnityEngine.UIElements.Experimental", "ValueAnimation`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::Experimental::ValueAnimation_1___c, "UnityEngine.UIElements.Experimental", "ValueAnimation`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::Experimental {
 // cpp template
@@ -73,13 +76,13 @@ protected:
   constexpr ValueAnimation_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueAnimation_1___c(ValueAnimation_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueAnimation_1___c(ValueAnimation_1___c const&) = delete;
+  ValueAnimation_1___c(ValueAnimation_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5503 };
@@ -300,39 +303,49 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*>* getStaticF_sObjectPool();
 
+  /// [CompilerGenerated]
   /// @brief Method get_autoRecycle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_autoRecycle();
 
   /// @brief Method get_durationMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_durationMs();
 
+  /// [CompilerGenerated]
   /// @brief Method get_easingCurve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Func_2<float_t, float_t>* get_easingCurve();
 
   /// @brief Method get_from, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_from();
 
+  /// [CompilerGenerated]
   /// @brief Method get_initialValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* get_initialValue();
 
+  /// [CompilerGenerated]
   /// @brief Method get_interpolator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Func_4<T, T, float_t, T>* get_interpolator();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isRunning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isRunning();
 
+  /// [CompilerGenerated]
   /// @brief Method get_onAnimationCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action* get_onAnimationCompleted();
 
+  /// [CompilerGenerated]
   /// @brief Method get_owner, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_owner();
 
+  /// [CompilerGenerated]
   /// @brief Method get_recycled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_recycled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_to, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_to();
 
+  /// [CompilerGenerated]
   /// @brief Method get_valueUpdated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* get_valueUpdated();
 
@@ -341,39 +354,49 @@ public:
 
   static inline void setStaticF_sObjectPool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_autoRecycle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_autoRecycle(bool value);
 
   /// @brief Method set_durationMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_durationMs(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_easingCurve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_easingCurve(::System::Func_2<float_t, float_t>* value);
 
   /// @brief Method set_from, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_from(T value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_initialValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_initialValue(::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_interpolator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_interpolator(::System::Func_4<T, T, float_t, T>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isRunning, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isRunning(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_onAnimationCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_onAnimationCompleted(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_owner, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_owner(::UnityEngine::UIElements::VisualElement* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_recycled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_recycled(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_to, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_to(T value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_valueUpdated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_valueUpdated(::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* value);
 
@@ -383,13 +406,13 @@ protected:
   constexpr ValueAnimation_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueAnimation_1(ValueAnimation_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueAnimation_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueAnimation_1(ValueAnimation_1 const&) = delete;
+  ValueAnimation_1(ValueAnimation_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5504 };
@@ -400,30 +423,48 @@ public:
   /// @brief Field m_DurationMs, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_DurationMs;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <easingCurve>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Func_2<float_t, float_t>* ____easingCurve_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <isRunning>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____isRunning_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <onAnimationCompleted>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ____onAnimationCompleted_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <autoRecycle>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____autoRecycle_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <recycled>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____recycled_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <owner>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____owner_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <valueUpdated>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* ____valueUpdated_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <initialValue>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* ____initialValue_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <interpolator>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::System::Func_4<T, T, float_t, T>* ____interpolator_k__BackingField;
 
@@ -433,6 +474,8 @@ public:
   /// @brief Field fromValueSet, offset: 0x68, size: 0x1, def value: None
   bool ___fromValueSet;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <to>k__BackingField, offset: 0x70, size: 0x8, def value: None
   T ____to_k__BackingField;
 

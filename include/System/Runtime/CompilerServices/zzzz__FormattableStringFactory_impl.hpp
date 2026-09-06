@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\FormattableStringFactory.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/FormattableStringFactory.hpp"
 #include "System/zzzz__FormattableString_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__FormattableStringFactory_def.hpp"
@@ -170,7 +170,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::FormattableStri
     return ___internal_method;
   }
 };
-inline ::System::FormattableString* System::Runtime::CompilerServices::FormattableStringFactory::Create(::StringW format, ::ArrayW<::System::Object*> arguments) {
+inline ::System::FormattableString* System::Runtime::CompilerServices::FormattableStringFactory::Create(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> arguments) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::FormattableStringFactory*>(),
                                                                                          { "Create", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::FormattableString*>(nullptr, ___internal_method, format, arguments);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\CallerMemberNameAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/CallerMemberNameAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class CallerMemberNameAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::CallerMemberNameAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::CallerMemberNameAttribute*, "System.Runtime.CompilerServices", "CallerMemberNameAttribute");
+// [AttributeUsage((System.AttributeTargets)2048, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr CallerMemberNameAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallerMemberNameAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallerMemberNameAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallerMemberNameAttribute(CallerMemberNameAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallerMemberNameAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallerMemberNameAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallerMemberNameAttribute(CallerMemberNameAttribute const&) = delete;
+  CallerMemberNameAttribute(CallerMemberNameAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3374 };

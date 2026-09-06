@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XAttributeWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XAttributeWrapper.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XAttributeWrapper_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
@@ -131,6 +131,7 @@ inline ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::X
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::XAttributeWrapper*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::IXmlNode*>(this, ___internal_method);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Converters::XAttributeWrapper* Newtonsoft::Json::Converters::XAttributeWrapper::New_ctor(::System::Xml::Linq::XAttribute* attribute) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Converters::XAttributeWrapper*>(attribute));
 }

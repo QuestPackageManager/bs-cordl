@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CullingJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CullingJob.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
@@ -17,7 +17,7 @@
 #include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingJob_def.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CullingJob_CrossFadeType::CullingJob_CrossFadeType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -113,21 +113,22 @@ constexpr UnityEngine::Rendering::CullingJob::operator ::Unity::Jobs::IJobParall
 constexpr ::Unity::Jobs::IJobParallelFor* UnityEngine::Rendering::CullingJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "binningConfig", ty: "::UnityEngine::Rendering::BinningConfig", modifiers: "", def_value: Some("{}") }, CppParam { name: "viewType", ty:
-// "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: Some("{}") }, CppParam { name: "cameraPosition", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "sqrScreenRelativeMetric", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minScreenRelativeHeight", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "isOrtho", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "cullLightmappedShadowCasters", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "maxLOD", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cullingLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "frustumPlanePackets", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "frustumSplitInfos", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightFacingFrustumPlanes", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}") }, CppParam { name: "receiverSplitInfos", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>", modifiers: "", def_value: Some("{}") }, CppParam { name: "worldToLightSpaceRotation", ty:
-// "::Unity::Mathematics::float3x3", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceData", ty: "::UnityEngine::Rendering::CPUInstanceData_ReadOnly", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "sharedInstanceData", ty: "::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly", modifiers: "", def_value: Some("{}") }, CppParam { name: "lodGroupCullingData",
-// ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "occlusionBuffer", ty: "::System::IntPtr",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "rendererCrossFadeValues", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "binningConfig", ty: "::UnityEngine::Rendering::BinningConfig", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewType", ty:
+// "::UnityEngine::Rendering::BatchCullingViewType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cameraPosition", ty: "::Unity::Mathematics::float3", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "sqrScreenRelativeMetric", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minScreenRelativeHeight",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isOrtho", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cullLightmappedShadowCasters", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxLOD", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "cullingLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sceneCullingMask", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "frustumPlanePackets", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "frustumSplitInfos", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "lightFacingFrustumPlanes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Plane>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "receiverSplitInfos", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "worldToLightSpaceRotation", ty: "::Unity::Mathematics::float3x3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceData", ty:
+// "::UnityEngine::Rendering::CPUInstanceData_ReadOnly", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sharedInstanceData", ty:
+// "::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupCullingData", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occlusionBuffer", ty:
+// "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererVisibilityMasks", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "rendererCrossFadeValues", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::CullingJob::CullingJob(
     ::UnityEngine::Rendering::BinningConfig binningConfig, ::UnityEngine::Rendering::BatchCullingViewType viewType, ::Unity::Mathematics::float3 cameraPosition, float_t sqrScreenRelativeMetric,
     float_t minScreenRelativeHeight, bool isOrtho, bool cullLightmappedShadowCasters, int32_t maxLOD, uint32_t cullingLayerMask, uint64_t sceneCullingMask,

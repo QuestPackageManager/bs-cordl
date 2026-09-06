@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\ServiceProvider.hpp"
+// IWYU pragma private; include "Oculus/Platform/ServiceProvider.hpp"
 #include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::ServiceProvider::ServiceProvider(int32_t value__) noexcept {
   this->value__ = value__;
 }

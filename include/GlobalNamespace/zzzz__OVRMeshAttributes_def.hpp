@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMeshAttributes.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMeshAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,10 +44,10 @@ public:
   // @brief default ctor
   constexpr OVRMeshAttributes();
 
-  // Ctor Parameters [CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "normals", ty: "::ArrayW<::UnityEngine::Vector3>",
-  // modifiers: "", def_value: None }, CppParam { name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None }, CppParam { name: "texcoords", ty:
-  // "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "colors", ty: "::ArrayW<::UnityEngine::Color>", modifiers: "", def_value: None }, CppParam { name:
-  // "boneWeights", ty: "::ArrayW<::UnityEngine::BoneWeight>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "normals", ty:
+  // "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "texcoords", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: None, comment: None }, CppParam { name: "colors", ty: "::ArrayW<::UnityEngine::Color>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "boneWeights", ty: "::ArrayW<::UnityEngine::BoneWeight>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMeshAttributes(::ArrayW<::UnityEngine::Vector3> vertices, ::ArrayW<::UnityEngine::Vector3> normals, ::ArrayW<::UnityEngine::Vector4> tangents,
                               ::ArrayW<::UnityEngine::Vector2> texcoords, ::ArrayW<::UnityEngine::Color> colors, ::ArrayW<::UnityEngine::BoneWeight> boneWeights) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\StoreAudit.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/StoreAudit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct StoreAudit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreAudit);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreAudit, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "StoreAudit");
+// [DebuggerDisplay("{reason} : {passId} / MSAA {msaaReason} : {msaaPassId}")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.StoreReason
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
@@ -41,9 +42,10 @@ public:
   // @brief default ctor
   constexpr StoreAudit();
 
-  // Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason", modifiers: "", def_value: None }, CppParam { name: "passId",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "msaaReason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason", modifiers: "", def_value:
-  // None }, CppParam { name: "msaaPassId", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "passId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "msaaReason", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason", modifiers: "", def_value: None, comment: None }, CppParam { name: "msaaPassId", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr StoreAudit(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason reason, int32_t passId,
                        ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason msaaReason, int32_t msaaPassId) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConnectedPlayerHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConnectedPlayerHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class ConnectedPlayerHelpers;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ConnectedPlayerHelpers*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConnectedPlayerHelpers*, "", "ConnectedPlayerHelpers");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -22,21 +23,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConnectedPlayerHelpers : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method HasFinishedLevel, addr 0x32a8f44, size 0xc4, virtual false, abstract: false, final false
   static inline bool HasFinishedLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
+  /// [Extension]
   /// @brief Method IsActive, addr 0x32a8e80, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsActive(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
+  /// [Extension]
   /// @brief Method IsActiveOrFinished, addr 0x32a9008, size 0x28, virtual false, abstract: false, final false
   static inline bool IsActiveOrFinished(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
+  /// [Extension]
   /// @brief Method IsFailed, addr 0x32a9030, size 0xdc, virtual false, abstract: false, final false
   static inline bool IsFailed(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
+  /// [Extension]
   /// @brief Method WantsToPlayNextLevel, addr 0x32a8cf8, size 0xc4, virtual false, abstract: false, final false
   static inline bool WantsToPlayNextLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
+  /// [Extension]
   /// @brief Method WasActiveAtLevelStart, addr 0x32a8dbc, size 0xc4, virtual false, abstract: false, final false
   static inline bool WasActiveAtLevelStart(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
@@ -46,13 +53,13 @@ protected:
   constexpr ConnectedPlayerHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectedPlayerHelpers(ConnectedPlayerHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectedPlayerHelpers(ConnectedPlayerHelpers const&) = delete;
+  ConnectedPlayerHelpers(ConnectedPlayerHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18850 };

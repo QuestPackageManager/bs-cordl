@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Specialized\BitVector32.hpp"
+// IWYU pragma private; include "System/Collections/Specialized/BitVector32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct BitVector32;
 // Write type traits
 MARK_VAL_T(::System::Collections::Specialized::BitVector32);
 DEFINE_IL2CPP_CLASS(::System::Collections::Specialized::BitVector32, "System.Collections.Specialized", "BitVector32");
+// [DefaultMember("Item")]
 // Dependencies
 namespace System::Collections::Specialized {
 // Is value type: true
@@ -54,7 +55,7 @@ public:
   // @brief default ctor
   constexpr BitVector32();
 
-  // Ctor Parameters [CppParam { name: "_data", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_data", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BitVector32(uint32_t _data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

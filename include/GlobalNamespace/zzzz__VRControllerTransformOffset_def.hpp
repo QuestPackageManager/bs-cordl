@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRControllerTransformOffset.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRControllerTransformOffset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,19 +37,19 @@ public:
   /// @brief Method .ctor, addr 0x585d12c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alternativeHandling, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_alternativeHandling, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_alternativeHandling();
 
-  /// @brief Method get_leftPositionOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_leftPositionOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_leftPositionOffset();
 
-  /// @brief Method get_leftRotationOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_leftRotationOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_leftRotationOffset();
 
-  /// @brief Method get_rightPositionOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_rightPositionOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_rightPositionOffset();
 
-  /// @brief Method get_rightRotationOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_rightRotationOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_rightRotationOffset();
 
 protected:
@@ -58,13 +58,13 @@ protected:
   constexpr VRControllerTransformOffset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllerTransformOffset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllerTransformOffset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRControllerTransformOffset(VRControllerTransformOffset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRControllerTransformOffset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRControllerTransformOffset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRControllerTransformOffset(VRControllerTransformOffset const&) = delete;
+  VRControllerTransformOffset(VRControllerTransformOffsetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21455 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ServerCodeEntryViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ServerCodeEntryViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerCodeEntryViewController_def.hpp"
 #include "HMUI/zzzz__InputFieldViewChangeBinder_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\ReflectedPropertyBag_1.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/ReflectedPropertyBag_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ template <typename TContainer> class ReflectedPropertyBag_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Properties::Internal::ReflectedPropertyBag_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Properties::Internal::ReflectedPropertyBag_1, "Unity.Properties.Internal", "ReflectedPropertyBag`1");
+// [ReflectedPropertyBag]
 // Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>
 namespace Unity::Properties::Internal {
 // cpp template
@@ -38,13 +39,13 @@ protected:
   constexpr ReflectedPropertyBag_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBag_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBag_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectedPropertyBag_1(ReflectedPropertyBag_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBag_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBag_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedPropertyBag_1(ReflectedPropertyBag_1 const&) = delete;
+  ReflectedPropertyBag_1(ReflectedPropertyBag_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19762 };

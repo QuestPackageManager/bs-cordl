@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightBakingPersistentSettingsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightBakingPersistentSettingsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -208,44 +208,58 @@ protected:
   constexpr LightBakingPersistentSettingsSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightBakingPersistentSettingsSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightBakingPersistentSettingsSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightBakingPersistentSettingsSO(LightBakingPersistentSettingsSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightBakingPersistentSettingsSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightBakingPersistentSettingsSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightBakingPersistentSettingsSO(LightBakingPersistentSettingsSO const&) = delete;
+  LightBakingPersistentSettingsSO(LightBakingPersistentSettingsSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6536 };
 
+  /// [SerializeField]
   /// @brief Field _settingsApplicator, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _reflectionsCount, offset: 0x20, size: 0x4, def value: None
   int32_t ____reflectionsCount;
 
+  /// [SerializeField]
   /// @brief Field _colorFromSchemeAlpha, offset: 0x24, size: 0x4, def value: None
   float_t ____colorFromSchemeAlpha;
 
+  /// [SerializeField]
   /// @brief Field _bakedLightEditorColors, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color> ____bakedLightEditorColors;
 
+  /// [Space]
+  /// [SerializeField]
+  /// [PrefabTemplate]
   /// @brief Field _bakedLightDataLoaderPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BakedLightDataLoader> ____bakedLightDataLoaderPrefab;
 
+  /// [SerializeField]
+  /// [PrefabTemplate]
   /// @brief Field _bakedReflectionProbePrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BakedReflectionProbe> ____bakedReflectionProbePrefab;
 
+  /// [SerializeField]
   /// @brief Field _lightmapLightsWithIds, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightmapLightsWithIds> ____lightmapLightsWithIds;
 
+  /// [SerializeField]
   /// @brief Field _fakeMirrorObjectsInstallerPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> ____fakeMirrorObjectsInstallerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _fakeMirrorSettingsPrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FakeMirrorSettings> ____fakeMirrorSettingsPrefab;
 
+  /// [SerializeField]
   /// @brief Field _defaultDepthOnlyWriteMaterialForFakeMirror, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____defaultDepthOnlyWriteMaterialForFakeMirror;
 

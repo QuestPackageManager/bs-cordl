@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animator.hpp"
+// IWYU pragma private; include "UnityEngine/Animator.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
+#include "UnityEngine/zzzz__StateMachineBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -5767,7 +5768,8 @@ inline void UnityEngine::Animator::SetLookAtWeight(float_t weight, float_t bodyW
                                                            { "SetLookAtWeight", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, weight, bodyWeight, headWeight, eyesWeight);
 }
-inline void UnityEngine::Animator::SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight) {
+inline void UnityEngine::Animator::SetLookAtWeight(float_t weight, /* [DefaultValue("0.0f")] */ float_t bodyWeight, /* [DefaultValue("1.0f")] */ float_t headWeight,
+                                                   /* [DefaultValue("0.0f")] */ float_t eyesWeight, /* [DefaultValue("0.5f")] */ float_t clampWeight) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
@@ -5794,28 +5796,34 @@ inline void UnityEngine::Animator::SetBoneLocalRotationInternal(int32_t humanBon
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "SetBoneLocalRotationInternal", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Quaternion>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, humanBoneId, rotation);
 }
-inline ::UnityW<::UnityEngine::ScriptableObject> UnityEngine::Animator::GetBehaviour(::System::Type* type) {
+inline ::UnityW<::UnityEngine::ScriptableObject> UnityEngine::Animator::GetBehaviour(/* [NotNull] */ ::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "GetBehaviour", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::ScriptableObject>>(this, ___internal_method, type);
 }
-template <typename T> inline T UnityEngine::Animator::GetBehaviour() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::StateMachineBehaviour*>)
+inline T UnityEngine::Animator::GetBehaviour() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "GetBehaviour", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline ::ArrayW<T> UnityEngine::Animator::ConvertStateMachineBehaviour(::ArrayW<::UnityEngine::ScriptableObject*> rawObjects) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::StateMachineBehaviour*>)
+inline ::ArrayW<T> UnityEngine::Animator::ConvertStateMachineBehaviour(::ArrayW<::UnityEngine::ScriptableObject*> rawObjects) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
                                                            { "ConvertStateMachineBehaviour", { ::i2c::class_of<T>() }, { ::i2c::type_of<::ArrayW<::UnityEngine::ScriptableObject*>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(nullptr, ___internal_method, rawObjects);
 }
-template <typename T> inline ::ArrayW<T> UnityEngine::Animator::GetBehaviours() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::StateMachineBehaviour*>)
+inline ::ArrayW<T> UnityEngine::Animator::GetBehaviours() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "GetBehaviours", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(this, ___internal_method);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>> UnityEngine::Animator::InternalGetBehaviours(::System::Type* type) {
+inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>> UnityEngine::Animator::InternalGetBehaviours(/* [NotNull] */ ::System::Type* type) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "InternalGetBehaviours", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::ScriptableObject>>>(this, ___internal_method, type);
@@ -5825,7 +5833,7 @@ inline ::ArrayW<::UnityW<::UnityEngine::StateMachineBehaviour>> UnityEngine::Ani
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "GetBehaviours", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::StateMachineBehaviour>>>(this, ___internal_method, fullPathHash, layerIndex);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>> UnityEngine::Animator::InternalGetBehavioursByKey(int32_t fullPathHash, int32_t layerIndex, ::System::Type* type) {
+inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>> UnityEngine::Animator::InternalGetBehavioursByKey(int32_t fullPathHash, int32_t layerIndex, /* [NotNull] */ ::System::Type* type) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
                                                            { "InternalGetBehavioursByKey", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Type*>() } })));
@@ -5991,7 +5999,7 @@ inline void UnityEngine::Animator::MatchTarget(::UnityEngine::Vector3 matchPosit
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, matchPosition, matchRotation, targetBodyPart, weightMask, startNormalizedTime);
 }
 inline void UnityEngine::Animator::MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart,
-                                               ::UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, float_t targetNormalizedTime) {
+                                               ::UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, /* [DefaultValue("1")] */ float_t targetNormalizedTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
                                                            { "MatchTarget",
@@ -6001,7 +6009,8 @@ inline void UnityEngine::Animator::MatchTarget(::UnityEngine::Vector3 matchPosit
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, matchPosition, matchRotation, targetBodyPart, weightMask, startNormalizedTime, targetNormalizedTime);
 }
 inline void UnityEngine::Animator::MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart,
-                                               ::UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch) {
+                                               ::UnityEngine::MatchTargetWeightMask weightMask, float_t startNormalizedTime, /* [DefaultValue("1")] */ float_t targetNormalizedTime,
+                                               /* [DefaultValue("true")] */ bool completeMatch) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
                                               { "MatchTarget",
@@ -6014,7 +6023,7 @@ inline void UnityEngine::Animator::InterruptMatchTarget() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "InterruptMatchTarget", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Animator::InterruptMatchTarget(bool completeMatch) {
+inline void UnityEngine::Animator::InterruptMatchTarget(/* [DefaultValue("true")] */ bool completeMatch) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "InterruptMatchTarget", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, completeMatch);
 }
@@ -6052,7 +6061,8 @@ inline void UnityEngine::Animator::CrossFadeInFixedTime(::StringW stateName, flo
                                               { "CrossFadeInFixedTime", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateName, fixedTransitionDuration, layer, fixedTimeOffset);
 }
-inline void UnityEngine::Animator::CrossFadeInFixedTime(::StringW stateName, float_t fixedTransitionDuration, int32_t layer, float_t fixedTimeOffset, float_t normalizedTransitionTime) {
+inline void UnityEngine::Animator::CrossFadeInFixedTime(::StringW stateName, float_t fixedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer,
+                                                        /* [DefaultValue("0.0f")] */ float_t fixedTimeOffset, /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -6077,7 +6087,8 @@ inline void UnityEngine::Animator::CrossFadeInFixedTime(int32_t stateHashName, f
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "CrossFadeInFixedTime", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateHashName, fixedTransitionDuration);
 }
-inline void UnityEngine::Animator::CrossFadeInFixedTime(int32_t stateHashName, float_t fixedTransitionDuration, int32_t layer, float_t fixedTimeOffset, float_t normalizedTransitionTime) {
+inline void UnityEngine::Animator::CrossFadeInFixedTime(int32_t stateHashName, float_t fixedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer,
+                                                        /* [DefaultValue("0.0f")] */ float_t fixedTimeOffset, /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
@@ -6105,14 +6116,16 @@ inline void UnityEngine::Animator::CrossFade(::StringW stateName, float_t normal
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "CrossFade", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateName, normalizedTransitionDuration);
 }
-inline void UnityEngine::Animator::CrossFade(::StringW stateName, float_t normalizedTransitionDuration, int32_t layer, float_t normalizedTimeOffset, float_t normalizedTransitionTime) {
+inline void UnityEngine::Animator::CrossFade(::StringW stateName, float_t normalizedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer,
+                                             /* [DefaultValue("float.NegativeInfinity")] */ float_t normalizedTimeOffset, /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
                           { "CrossFade", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateName, normalizedTransitionDuration, layer, normalizedTimeOffset, normalizedTransitionTime);
 }
-inline void UnityEngine::Animator::CrossFade(int32_t stateHashName, float_t normalizedTransitionDuration, int32_t layer, float_t normalizedTimeOffset, float_t normalizedTransitionTime) {
+inline void UnityEngine::Animator::CrossFade(int32_t stateHashName, float_t normalizedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer,
+                                             /* [DefaultValue("0.0f")] */ float_t normalizedTimeOffset, /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
@@ -6144,13 +6157,13 @@ inline void UnityEngine::Animator::PlayInFixedTime(::StringW stateName) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "PlayInFixedTime", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateName);
 }
-inline void UnityEngine::Animator::PlayInFixedTime(::StringW stateName, int32_t layer, float_t fixedTime) {
+inline void UnityEngine::Animator::PlayInFixedTime(::StringW stateName, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("float.NegativeInfinity")] */ float_t fixedTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "PlayInFixedTime", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateName, layer, fixedTime);
 }
-inline void UnityEngine::Animator::PlayInFixedTime(int32_t stateNameHash, int32_t layer, float_t fixedTime) {
+inline void UnityEngine::Animator::PlayInFixedTime(int32_t stateNameHash, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("float.NegativeInfinity")] */ float_t fixedTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "PlayInFixedTime", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
@@ -6174,12 +6187,12 @@ inline void UnityEngine::Animator::Play(::StringW stateName) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "Play", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateName);
 }
-inline void UnityEngine::Animator::Play(::StringW stateName, int32_t layer, float_t normalizedTime) {
+inline void UnityEngine::Animator::Play(::StringW stateName, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("float.NegativeInfinity")] */ float_t normalizedTime) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "Play", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateName, layer, normalizedTime);
 }
-inline void UnityEngine::Animator::Play(int32_t stateNameHash, int32_t layer, float_t normalizedTime) {
+inline void UnityEngine::Animator::Play(int32_t stateNameHash, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("float.NegativeInfinity")] */ float_t normalizedTime) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "Play", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, stateNameHash, layer, normalizedTime);
@@ -7029,7 +7042,7 @@ inline void UnityEngine::Animator::MatchTarget_Injected(::System::IntPtr _unity_
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, matchPosition, matchRotation, targetBodyPart, weightMask, startNormalizedTime, targetNormalizedTime,
                                                    completeMatch);
 }
-inline void UnityEngine::Animator::InterruptMatchTarget_Injected(::System::IntPtr _unity_self, bool completeMatch) {
+inline void UnityEngine::Animator::InterruptMatchTarget_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool completeMatch) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "InterruptMatchTarget_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, completeMatch);
@@ -7049,8 +7062,8 @@ inline void UnityEngine::Animator::set_speed_Injected(::System::IntPtr _unity_se
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "set_speed_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
-inline void UnityEngine::Animator::CrossFadeInFixedTime_Injected(::System::IntPtr _unity_self, int32_t stateHashName, float_t fixedTransitionDuration, int32_t layer, float_t fixedTimeOffset,
-                                                                 float_t normalizedTransitionTime) {
+inline void UnityEngine::Animator::CrossFadeInFixedTime_Injected(::System::IntPtr _unity_self, int32_t stateHashName, float_t fixedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer,
+                                                                 /* [DefaultValue("0.0f")] */ float_t fixedTimeOffset, /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "CrossFadeInFixedTime_Injected",
                                                                                                           {},
@@ -7063,8 +7076,8 @@ inline void UnityEngine::Animator::WriteDefaultValues_Injected(::System::IntPtr 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "WriteDefaultValues_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self);
 }
-inline void UnityEngine::Animator::CrossFade_Injected(::System::IntPtr _unity_self, int32_t stateHashName, float_t normalizedTransitionDuration, int32_t layer, float_t normalizedTimeOffset,
-                                                      float_t normalizedTransitionTime) {
+inline void UnityEngine::Animator::CrossFade_Injected(::System::IntPtr _unity_self, int32_t stateHashName, float_t normalizedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer,
+                                                      /* [DefaultValue("0.0f")] */ float_t normalizedTimeOffset, /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(), { "CrossFade_Injected",
                                                                                                           {},
@@ -7072,14 +7085,16 @@ inline void UnityEngine::Animator::CrossFade_Injected(::System::IntPtr _unity_se
                                                                                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, stateHashName, normalizedTransitionDuration, layer, normalizedTimeOffset, normalizedTransitionTime);
 }
-inline void UnityEngine::Animator::PlayInFixedTime_Injected(::System::IntPtr _unity_self, int32_t stateNameHash, int32_t layer, float_t fixedTime) {
+inline void UnityEngine::Animator::PlayInFixedTime_Injected(::System::IntPtr _unity_self, int32_t stateNameHash, /* [DefaultValue("-1")] */ int32_t layer,
+                                                            /* [DefaultValue("float.NegativeInfinity")] */ float_t fixedTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
                                        { "PlayInFixedTime_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, stateNameHash, layer, fixedTime);
 }
-inline void UnityEngine::Animator::Play_Injected(::System::IntPtr _unity_self, int32_t stateNameHash, int32_t layer, float_t normalizedTime) {
+inline void UnityEngine::Animator::Play_Injected(::System::IntPtr _unity_self, int32_t stateNameHash, /* [DefaultValue("-1")] */ int32_t layer,
+                                                 /* [DefaultValue("float.NegativeInfinity")] */ float_t normalizedTime) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animator*>(),
                                               { "Play_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));

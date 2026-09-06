@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\EnterTryFaultInstruction.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EnterTryFaultInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,13 +68,13 @@ protected:
   constexpr EnterTryFaultInstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnterTryFaultInstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterTryFaultInstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnterTryFaultInstruction(EnterTryFaultInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnterTryFaultInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnterTryFaultInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnterTryFaultInstruction(EnterTryFaultInstruction const&) = delete;
+  EnterTryFaultInstruction(EnterTryFaultInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16282 };

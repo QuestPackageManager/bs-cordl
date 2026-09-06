@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Unity\UnityTls.hpp"
+// IWYU pragma private; include "Mono/Unity/UnityTls.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -509,7 +509,7 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_error_code();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_error_code(uint32_t value__) noexcept;
 
   /// @brief Field UNITYTLS_BUFFER_OVERFLOW value: U32(5)
@@ -636,7 +636,7 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_log_level();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_log_level(uint32_t value__) noexcept;
 
   /// @brief Field UNITYTLS_LOGLEVEL_DEBUG value: U32(4)
@@ -691,8 +691,8 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_errorstate();
 
-  // Ctor Parameters [CppParam { name: "magic", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "code", ty: "::Mono::Unity::UnityTls_unitytls_error_code", modifiers: "", def_value:
-  // None }, CppParam { name: "reserved", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "magic", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "code", ty: "::Mono::Unity::UnityTls_unitytls_error_code", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "reserved", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_errorstate(uint32_t magic, ::Mono::Unity::UnityTls_unitytls_error_code code, uint64_t reserved) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -761,7 +761,7 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_key_ref();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_key_ref(uint64_t handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -792,7 +792,7 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_x509_ref();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_x509_ref(uint64_t handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -851,7 +851,7 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_x509list_ref();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_x509list_ref(uint64_t handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -871,6 +871,7 @@ static_assert(offsetof(::Mono::Unity::UnityTls_unitytls_x509list_ref, handle) ==
 static_assert(sizeof(::Mono::Unity::UnityTls_unitytls_x509list_ref) == 0x8, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [Flags]
 // Dependencies
 namespace Mono::Unity {
 // Is value type: true
@@ -930,7 +931,7 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_x509verify_result();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_x509verify_result(uint32_t value__) noexcept;
 
   /// @brief Field UNITYTLS_X509VERIFY_FATAL_ERROR value: U32(4294967295)
@@ -1046,6 +1047,7 @@ static_assert(offsetof(::Mono::Unity::UnityTls_unitytls_x509verify_result, value
 static_assert(sizeof(::Mono::Unity::UnityTls_unitytls_x509verify_result) == 0x4, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1068,13 +1070,13 @@ protected:
   constexpr UnityTls_unitytls_x509verify_callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_x509verify_callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_x509verify_callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTls_unitytls_x509verify_callback(UnityTls_unitytls_x509verify_callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_x509verify_callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_x509verify_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_x509verify_callback(UnityTls_unitytls_x509verify_callback const&) = delete;
+  UnityTls_unitytls_x509verify_callback(UnityTls_unitytls_x509verify_callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10955 };
@@ -1169,7 +1171,7 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_ciphersuite();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_ciphersuite(uint32_t value__) noexcept;
 
   /// @brief Field UNITYTLS_CIPHERSUITE_INVALID value: U32(16777215)
@@ -1223,7 +1225,7 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_protocol();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_protocol(uint32_t value__) noexcept;
 
   /// @brief Field UNITYTLS_PROTOCOL_INVALID value: U32(3)
@@ -1266,8 +1268,8 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_tlsctx_protocolrange();
 
-  // Ctor Parameters [CppParam { name: "min", ty: "::Mono::Unity::UnityTls_unitytls_protocol", modifiers: "", def_value: None }, CppParam { name: "max", ty:
-  // "::Mono::Unity::UnityTls_unitytls_protocol", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "min", ty: "::Mono::Unity::UnityTls_unitytls_protocol", modifiers: "", def_value: None, comment: None }, CppParam { name: "max", ty:
+  // "::Mono::Unity::UnityTls_unitytls_protocol", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_tlsctx_protocolrange(::Mono::Unity::UnityTls_unitytls_protocol min, ::Mono::Unity::UnityTls_unitytls_protocol max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1292,6 +1294,7 @@ static_assert(offsetof(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange, ma
 static_assert(sizeof(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange) == 0x8, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1313,13 +1316,13 @@ protected:
   constexpr UnityTls_unitytls_tlsctx_write_callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_write_callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_write_callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTls_unitytls_tlsctx_write_callback(UnityTls_unitytls_tlsctx_write_callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_write_callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_write_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_write_callback(UnityTls_unitytls_tlsctx_write_callback const&) = delete;
+  UnityTls_unitytls_tlsctx_write_callback(UnityTls_unitytls_tlsctx_write_callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10961 };
@@ -1330,6 +1333,7 @@ public:
 static_assert(sizeof(::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1351,13 +1355,13 @@ protected:
   constexpr UnityTls_unitytls_tlsctx_read_callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_read_callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_read_callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTls_unitytls_tlsctx_read_callback(UnityTls_unitytls_tlsctx_read_callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_read_callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_read_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_read_callback(UnityTls_unitytls_tlsctx_read_callback const&) = delete;
+  UnityTls_unitytls_tlsctx_read_callback(UnityTls_unitytls_tlsctx_read_callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10962 };
@@ -1368,6 +1372,7 @@ public:
 static_assert(sizeof(::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1389,13 +1394,13 @@ protected:
   constexpr UnityTls_unitytls_tlsctx_trace_callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_trace_callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_trace_callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTls_unitytls_tlsctx_trace_callback(UnityTls_unitytls_tlsctx_trace_callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_trace_callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_trace_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_trace_callback(UnityTls_unitytls_tlsctx_trace_callback const&) = delete;
+  UnityTls_unitytls_tlsctx_trace_callback(UnityTls_unitytls_tlsctx_trace_callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10963 };
@@ -1406,6 +1411,7 @@ public:
 static_assert(sizeof(::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1428,13 +1434,13 @@ protected:
   constexpr UnityTls_unitytls_tlsctx_certificate_callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_certificate_callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_certificate_callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTls_unitytls_tlsctx_certificate_callback(UnityTls_unitytls_tlsctx_certificate_callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_certificate_callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_certificate_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_certificate_callback(UnityTls_unitytls_tlsctx_certificate_callback const&) = delete;
+  UnityTls_unitytls_tlsctx_certificate_callback(UnityTls_unitytls_tlsctx_certificate_callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10964 };
@@ -1445,6 +1451,7 @@ public:
 static_assert(sizeof(::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1466,13 +1473,13 @@ protected:
   constexpr UnityTls_unitytls_tlsctx_x509verify_callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_x509verify_callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_x509verify_callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTls_unitytls_tlsctx_x509verify_callback(UnityTls_unitytls_tlsctx_x509verify_callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_x509verify_callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_tlsctx_x509verify_callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_tlsctx_x509verify_callback(UnityTls_unitytls_tlsctx_x509verify_callback const&) = delete;
+  UnityTls_unitytls_tlsctx_x509verify_callback(UnityTls_unitytls_tlsctx_x509verify_callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10965 };
@@ -1494,8 +1501,8 @@ public:
   // @brief default ctor
   constexpr UnityTls_unitytls_tlsctx_callbacks();
 
-  // Ctor Parameters [CppParam { name: "read", ty: "::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*", modifiers: "", def_value: None }, CppParam { name: "write", ty:
-  // "::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*", modifiers: "", def_value: None }, CppParam { name: "data", ty: "void*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "read", ty: "::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback*", modifiers: "", def_value: None, comment: None }, CppParam { name: "write", ty:
+  // "::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback*", modifiers: "", def_value: None, comment: None }, CppParam { name: "data", ty: "void*", modifiers: "", def_value: None, comment: None }]
   constexpr UnityTls_unitytls_tlsctx_callbacks(::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* read, ::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* write, void* data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1525,6 +1532,7 @@ static_assert(offsetof(::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks, data) 
 static_assert(sizeof(::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks) == 0x18, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1546,13 +1554,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_create_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10967 };
@@ -1563,6 +1571,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1584,13 +1593,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t(unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10968 };
@@ -1601,6 +1610,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1622,13 +1632,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_key_get_ref_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10969 };
@@ -1639,6 +1649,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1661,13 +1672,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_der_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10970 };
@@ -1678,6 +1689,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1700,13 +1712,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t(unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10971 };
@@ -1717,6 +1729,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1738,13 +1751,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_key_free_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_free_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_free_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_key_free_t(unitytls_interface_struct_UnityTls_unitytls_key_free_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_free_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_key_free_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_key_free_t(unitytls_interface_struct_UnityTls_unitytls_key_free_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_key_free_t(unitytls_interface_struct_UnityTls_unitytls_key_free_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10972 };
@@ -1755,6 +1768,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1776,13 +1790,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t(unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t(unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t(unitytls_interface_struct_UnityTls_unitytls_x509_export_der_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10973 };
@@ -1793,6 +1807,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1814,13 +1829,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10974 };
@@ -1831,6 +1846,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1852,13 +1868,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t(unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10975 };
@@ -1869,6 +1885,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1890,13 +1907,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509list_create_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_create_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_create_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509list_create_t(unitytls_interface_struct_UnityTls_unitytls_x509list_create_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_create_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_create_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_create_t(unitytls_interface_struct_UnityTls_unitytls_x509list_create_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_create_t(unitytls_interface_struct_UnityTls_unitytls_x509list_create_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10976 };
@@ -1907,6 +1924,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1928,13 +1946,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509list_append_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509list_append_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_append_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_append_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10977 };
@@ -1945,6 +1963,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -1966,13 +1985,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t(unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10978 };
@@ -1983,6 +2002,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2004,13 +2024,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509list_free_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_free_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_free_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509list_free_t(unitytls_interface_struct_UnityTls_unitytls_x509list_free_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_free_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509list_free_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509list_free_t(unitytls_interface_struct_UnityTls_unitytls_x509list_free_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509list_free_t(unitytls_interface_struct_UnityTls_unitytls_x509list_free_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10979 };
@@ -2021,6 +2041,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2043,13 +2064,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10980 };
@@ -2060,6 +2081,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2083,13 +2105,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10981 };
@@ -2100,6 +2122,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2122,13 +2145,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10982 };
@@ -2139,6 +2162,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2161,13 +2185,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10983 };
@@ -2178,6 +2202,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2199,13 +2224,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10984 };
@@ -2216,6 +2241,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2238,13 +2264,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10985 };
@@ -2255,6 +2281,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2276,13 +2303,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10986 };
@@ -2293,6 +2320,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2315,13 +2343,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10987 };
@@ -2332,6 +2360,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2354,13 +2383,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10988 };
@@ -2371,6 +2400,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2392,13 +2422,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10989 };
@@ -2409,6 +2439,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2430,13 +2461,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10990 };
@@ -2447,6 +2478,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2468,13 +2500,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10991 };
@@ -2485,6 +2517,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2506,13 +2539,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10992 };
@@ -2523,6 +2556,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2544,13 +2578,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10993 };
@@ -2561,6 +2595,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2582,13 +2617,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10994 };
@@ -2599,6 +2634,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2620,13 +2656,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10995 };
@@ -2637,6 +2673,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2658,13 +2695,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t(unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t(unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t(unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10996 };
@@ -2675,6 +2712,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2696,13 +2734,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t(unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10997 };
@@ -2713,6 +2751,7 @@ public:
 static_assert(sizeof(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t) == 0x80, "Size mismatch!");
 
 } // namespace Mono::Unity
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Mono::Unity {
 // Is value type: false
@@ -2734,13 +2773,13 @@ protected:
   constexpr unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t const&) = delete;
+  unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t(unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_tconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10998 };
@@ -3192,13 +3231,13 @@ protected:
   constexpr UnityTls_unitytls_interface_struct();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_interface_struct", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_interface_struct", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTls_unitytls_interface_struct(UnityTls_unitytls_interface_struct&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_interface_struct", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls_unitytls_interface_struct", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls_unitytls_interface_struct(UnityTls_unitytls_interface_struct const&) = delete;
+  UnityTls_unitytls_interface_struct(UnityTls_unitytls_interface_structconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10999 };
@@ -3457,13 +3496,13 @@ protected:
   constexpr UnityTls();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTls(UnityTls&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTls", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTls(UnityTls const&) = delete;
+  UnityTls(UnityTlsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11000 };

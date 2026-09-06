@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Interop\UnsafeNativeMethods.hpp"
+// IWYU pragma private; include "System/Runtime/Interop/UnsafeNativeMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,8 +93,8 @@ public:
   // @brief default ctor
   constexpr UnsafeNativeMethods_EventData();
 
-  // Ctor Parameters [CppParam { name: "DataPointer", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Reserved", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "DataPointer", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Size", ty: "uint32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Reserved", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeNativeMethods_EventData(uint64_t DataPointer, uint32_t Size, int32_t Reserved) noexcept;
 
 private:
@@ -180,13 +180,13 @@ protected:
   constexpr UnsafeNativeMethods_EtwEnableCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods_EtwEnableCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods_EtwEnableCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeNativeMethods_EtwEnableCallback(UnsafeNativeMethods_EtwEnableCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods_EtwEnableCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods_EtwEnableCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNativeMethods_EtwEnableCallback(UnsafeNativeMethods_EtwEnableCallback const&) = delete;
+  UnsafeNativeMethods_EtwEnableCallback(UnsafeNativeMethods_EtwEnableCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21317 };
@@ -238,13 +238,13 @@ protected:
   constexpr UnsafeNativeMethods();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeNativeMethods(UnsafeNativeMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNativeMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNativeMethods(UnsafeNativeMethods const&) = delete;
+  UnsafeNativeMethods(UnsafeNativeMethodsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21318 };

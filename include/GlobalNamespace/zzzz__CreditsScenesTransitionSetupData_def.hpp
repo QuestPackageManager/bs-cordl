@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CreditsScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/CreditsScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,9 +42,11 @@ public:
   /// @brief Method .ctor, addr 0x590e204, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x590dfa4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x590e064, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupData*>* value);
 
@@ -54,17 +56,18 @@ protected:
   constexpr CreditsScenesTransitionSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsScenesTransitionSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsScenesTransitionSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreditsScenesTransitionSetupData(CreditsScenesTransitionSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreditsScenesTransitionSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreditsScenesTransitionSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreditsScenesTransitionSetupData(CreditsScenesTransitionSetupData const&) = delete;
+  CreditsScenesTransitionSetupData(CreditsScenesTransitionSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6736 };
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupData*>* ___didFinishEvent;
 

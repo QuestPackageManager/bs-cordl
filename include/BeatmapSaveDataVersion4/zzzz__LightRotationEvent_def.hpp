@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\LightRotationEvent.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/LightRotationEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,9 +27,9 @@ public:
   // @brief default ctor
   constexpr LightRotationEvent();
 
-  // Ctor Parameters [CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam {
-  // name: "l", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty:
-  // "::BeatmapSaveDataCommon::RotationDirection", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "l", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "d", ty: "::BeatmapSaveDataCommon::RotationDirection", modifiers: "", def_value: None, comment: None }]
   constexpr LightRotationEvent(int32_t p, ::BeatmapSaveDataCommon::EaseType e, int32_t l, float_t r, ::BeatmapSaveDataCommon::RotationDirection d) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

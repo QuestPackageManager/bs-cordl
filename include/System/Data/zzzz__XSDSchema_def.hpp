@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\XSDSchema.hpp"
+// IWYU pragma private; include "System/Data/XSDSchema.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -153,13 +153,13 @@ protected:
   constexpr XSDSchema_NameType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XSDSchema_NameType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XSDSchema_NameType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XSDSchema_NameType(XSDSchema_NameType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XSDSchema_NameType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XSDSchema_NameType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XSDSchema_NameType(XSDSchema_NameType const&) = delete;
+  XSDSchema_NameType(XSDSchema_NameTypeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13868 };
@@ -544,13 +544,13 @@ protected:
   constexpr XSDSchema();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XSDSchema", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XSDSchema", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XSDSchema(XSDSchema&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XSDSchema", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XSDSchema", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XSDSchema(XSDSchema const&) = delete;
+  XSDSchema(XSDSchemaconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13869 };

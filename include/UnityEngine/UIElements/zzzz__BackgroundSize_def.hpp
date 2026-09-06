@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BackgroundSize.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BackgroundSize.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,8 +132,9 @@ public:
   // @brief default ctor
   constexpr BackgroundSize();
 
-  // Ctor Parameters [CppParam { name: "m_SizeType", ty: "::UnityEngine::UIElements::BackgroundSizeType", modifiers: "", def_value: None }, CppParam { name: "m_X", ty:
-  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_SizeType", ty: "::UnityEngine::UIElements::BackgroundSizeType", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_X", ty:
+  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr BackgroundSize(::UnityEngine::UIElements::BackgroundSizeType m_SizeType, ::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -203,9 +204,11 @@ public:
   /// @brief Method .ctor, addr 0x6c30418, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c3054c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c30544, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -215,20 +218,24 @@ protected:
   constexpr PropertyBag_BackgroundSize_SizeTypeProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_SizeTypeProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_SizeTypeProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_BackgroundSize_SizeTypeProperty(PropertyBag_BackgroundSize_SizeTypeProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_SizeTypeProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_SizeTypeProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundSize_SizeTypeProperty(PropertyBag_BackgroundSize_SizeTypeProperty const&) = delete;
+  PropertyBag_BackgroundSize_SizeTypeProperty(PropertyBag_BackgroundSize_SizeTypePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4012 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -282,9 +289,11 @@ public:
   /// @brief Method .ctor, addr 0x6c3047c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c30574, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c3056c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -294,20 +303,24 @@ protected:
   constexpr PropertyBag_BackgroundSize_XProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_XProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_XProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_BackgroundSize_XProperty(PropertyBag_BackgroundSize_XProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_XProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundSize_XProperty(PropertyBag_BackgroundSize_XProperty const&) = delete;
+  PropertyBag_BackgroundSize_XProperty(PropertyBag_BackgroundSize_XPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4013 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -361,9 +374,11 @@ public:
   /// @brief Method .ctor, addr 0x6c304e0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6c30598, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6c30590, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -373,20 +388,24 @@ protected:
   constexpr PropertyBag_BackgroundSize_YProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_YProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_YProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_BackgroundSize_YProperty(PropertyBag_BackgroundSize_YProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_YProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_BackgroundSize_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_BackgroundSize_YProperty(PropertyBag_BackgroundSize_YProperty const&) = delete;
+  PropertyBag_BackgroundSize_YProperty(PropertyBag_BackgroundSize_YPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4014 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -424,13 +443,13 @@ protected:
   constexpr BackgroundSize_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BackgroundSize_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundSize_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BackgroundSize_PropertyBag(BackgroundSize_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BackgroundSize_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BackgroundSize_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BackgroundSize_PropertyBag(BackgroundSize_PropertyBag const&) = delete;
+  BackgroundSize_PropertyBag(BackgroundSize_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4015 };

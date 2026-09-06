@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\BindingRestrictions.hpp"
+// IWYU pragma private; include "System/Dynamic/BindingRestrictions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,8 +79,8 @@ public:
   // @brief default ctor
   constexpr TestBuilder_BindingRestrictions_AndNode();
 
-  // Ctor Parameters [CppParam { name: "Depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Node", ty: "::System::Linq::Expressions::Expression*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "Depth", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Node", ty: "::System::Linq::Expressions::Expression*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TestBuilder_BindingRestrictions_AndNode(int32_t Depth, ::System::Linq::Expressions::Expression* Node) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -153,13 +153,13 @@ protected:
   constexpr BindingRestrictions_TestBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_TestBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_TestBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingRestrictions_TestBuilder(BindingRestrictions_TestBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_TestBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_TestBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions_TestBuilder(BindingRestrictions_TestBuilder const&) = delete;
+  BindingRestrictions_TestBuilder(BindingRestrictions_TestBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16640 };
@@ -193,13 +193,13 @@ protected:
   constexpr BindingRestrictions_BindingRestrictionsProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_BindingRestrictionsProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_BindingRestrictionsProxy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingRestrictions_BindingRestrictionsProxy(BindingRestrictions_BindingRestrictionsProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_BindingRestrictionsProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_BindingRestrictionsProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions_BindingRestrictionsProxy(BindingRestrictions_BindingRestrictionsProxy const&) = delete;
+  BindingRestrictions_BindingRestrictionsProxy(BindingRestrictions_BindingRestrictionsProxyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16645 };
@@ -210,6 +210,8 @@ public:
 static_assert(sizeof(::System::Dynamic::BindingRestrictions_BindingRestrictionsProxy) == 0x10, "Size mismatch!");
 
 } // namespace System::Dynamic
+// [DebuggerTypeProxy(typeof(System.Dynamic.BindingRestrictions::BindingRestrictionsProxy))]
+// [DebuggerDisplay("{DebugView}")]
 // Dependencies System.Object
 namespace System::Dynamic {
 // Is value type: false
@@ -232,7 +234,7 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::System::Dynamic::BindingRestrictions* Empty;
 
-  /// @brief Method GetExpression, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
   /// @brief Method GetInstanceRestriction, addr 0x5fc1d68, size 0x94, virtual false, abstract: false, final false
@@ -265,13 +267,13 @@ protected:
   constexpr BindingRestrictions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingRestrictions(BindingRestrictions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions(BindingRestrictions const&) = delete;
+  BindingRestrictions(BindingRestrictionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16646 };

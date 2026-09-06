@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\HoverHintController.hpp"
+// IWYU pragma private; include "HMUI/HoverHintController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ MARK_REF_T(::HMUI::HoverHintController__ShowHintAfterDelay_d__11*);
 DEFINE_IL2CPP_CLASS(::HMUI::HoverHintController*, "HMUI", "HoverHintController");
 DEFINE_IL2CPP_CLASS(::HMUI::HoverHintController__HideHintAfterDelay_d__12*, "HMUI", "HoverHintController/<HideHintAfterDelay>d__12");
 DEFINE_IL2CPP_CLASS(::HMUI::HoverHintController__ShowHintAfterDelay_d__11*, "HMUI", "HoverHintController/<ShowHintAfterDelay>d__11");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -87,17 +88,22 @@ public:
   /// @brief Method MoveNext, addr 0x587a7f4, size 0xc0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::HoverHintController__HideHintAfterDelay_d__12* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x587a8b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x587a8bc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x587a8f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x587a7f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -125,6 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x587a428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -143,13 +150,13 @@ protected:
   constexpr HoverHintController__HideHintAfterDelay_d__12();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__HideHintAfterDelay_d__12", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__HideHintAfterDelay_d__12", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HoverHintController__HideHintAfterDelay_d__12(HoverHintController__HideHintAfterDelay_d__12&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__HideHintAfterDelay_d__12", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__HideHintAfterDelay_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintController__HideHintAfterDelay_d__12(HoverHintController__HideHintAfterDelay_d__12 const&) = delete;
+  HoverHintController__HideHintAfterDelay_d__12(HoverHintController__HideHintAfterDelay_d__12const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19043 };
@@ -180,6 +187,7 @@ static_assert(offsetof(::HMUI::HoverHintController__HideHintAfterDelay_d__12, __
 static_assert(sizeof(::HMUI::HoverHintController__HideHintAfterDelay_d__12) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -218,17 +226,22 @@ public:
   /// @brief Method MoveNext, addr 0x587a900, size 0xf0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::HoverHintController__ShowHintAfterDelay_d__11* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x587a9f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x587a9f8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x587aa30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x587a8fc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -262,6 +275,7 @@ public:
 
   constexpr void __cordl_internal_set_hoverHint(::UnityW<::HMUI::HoverHint> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x587a420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -280,13 +294,13 @@ protected:
   constexpr HoverHintController__ShowHintAfterDelay_d__11();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__ShowHintAfterDelay_d__11", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__ShowHintAfterDelay_d__11", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HoverHintController__ShowHintAfterDelay_d__11(HoverHintController__ShowHintAfterDelay_d__11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__ShowHintAfterDelay_d__11", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController__ShowHintAfterDelay_d__11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintController__ShowHintAfterDelay_d__11(HoverHintController__ShowHintAfterDelay_d__11 const&) = delete;
+  HoverHintController__ShowHintAfterDelay_d__11(HoverHintController__ShowHintAfterDelay_d__11const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19044 };
@@ -351,6 +365,7 @@ public:
   /// @brief Method HideHint, addr 0x5879fc4, size 0x40, virtual false, abstract: false, final false
   inline void HideHint(::HMUI::HoverHint* hoverHint);
 
+  /// [IteratorStateMachine(typeof(HMUI.HoverHintController::<HideHintAfterDelay>d__12))]
   /// @brief Method HideHintAfterDelay, addr 0x587a3bc, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HideHintAfterDelay(float_t delay);
 
@@ -368,6 +383,7 @@ public:
   /// @brief Method ShowHint, addr 0x5879ea4, size 0x28, virtual false, abstract: false, final false
   inline void ShowHint(::HMUI::HoverHint* hoverHint);
 
+  /// [IteratorStateMachine(typeof(HMUI.HoverHintController::<ShowHintAfterDelay>d__11))]
   /// @brief Method ShowHintAfterDelay, addr 0x587a34c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowHintAfterDelay(::HMUI::HoverHint* hoverHint, float_t delay);
 
@@ -401,13 +417,13 @@ protected:
   constexpr HoverHintController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HoverHintController(HoverHintController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHintController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverHintController(HoverHintController const&) = delete;
+  HoverHintController(HoverHintControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19045 };
@@ -418,6 +434,7 @@ public:
   /// @brief Field kShowHintDelay offset 0xffffffff size 0x4
   static constexpr float_t kShowHintDelay{ static_cast<float_t>(0.6f) };
 
+  /// [SerializeField]
   /// @brief Field _hoverHintPanelPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHintPanel> ____hoverHintPanelPrefab;
 

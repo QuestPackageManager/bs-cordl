@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRelationCollection.hpp"
+// IWYU pragma private; include "System/Data/DataRelationCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,9 @@ class DataRelationCollection;
 // Write type traits
 MARK_REF_T(::System::Data::DataRelationCollection*);
 DEFINE_IL2CPP_CLASS(::System::Data::DataRelationCollection*, "System.Data", "DataRelationCollection");
+// [DefaultEvent("CollectionChanged")]
+// [DefaultMember("Item")]
+// [DefaultProperty("Table")]
 // Dependencies System.Data.InternalDataCollectionBase
 namespace System::Data {
 // Is value type: false
@@ -84,7 +87,7 @@ public:
   /// @brief Method Contains, addr 0x6028724, size 0x18, virtual true, abstract: false, final false
   inline bool Contains(::StringW name);
 
-  /// @brief Method GetDataSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDataSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Data::DataSet* GetDataSet();
 
   /// @brief Method InternalIndexOf, addr 0x602873c, size 0x17c, virtual false, abstract: false, final false
@@ -154,10 +157,10 @@ public:
 
   static inline int32_t getStaticF_s_objectTypeCount();
 
-  /// @brief Method get_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Data::DataRelation* get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Data::DataRelation* get_Item(::StringW name);
 
   /// @brief Method get_ObjectID, addr 0x6027d00, size 0x8, virtual false, abstract: false, final false
@@ -174,13 +177,13 @@ protected:
   constexpr DataRelationCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataRelationCollection(DataRelationCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRelationCollection(DataRelationCollection const&) = delete;
+  DataRelationCollection(DataRelationCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13775 };

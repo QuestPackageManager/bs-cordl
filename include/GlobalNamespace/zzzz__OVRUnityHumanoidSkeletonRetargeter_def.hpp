@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRUnityHumanoidSkeletonRetargeter.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRUnityHumanoidSkeletonRetargeter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -164,7 +164,7 @@ public:
   // @brief default ctor
   constexpr OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection(int32_t value__) noexcept;
 
   /// @brief Field Back value: I32(9)
@@ -335,7 +335,7 @@ public:
   // @brief default ctor
   constexpr OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_FullBodyTrackingBoneId();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_FullBodyTrackingBoneId(int32_t value__) noexcept;
 
   /// @brief Field FullBody_Chest value: I32(5)
@@ -720,7 +720,7 @@ public:
   // @brief default ctor
   constexpr OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodyTrackingBoneId();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodyTrackingBoneId(int32_t value__) noexcept;
 
   /// @brief Field Body_Chest value: I32(5)
@@ -1090,13 +1090,13 @@ protected:
   constexpr OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings(OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings(OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings const&) = delete;
+  OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappings(OVRUnityHumanoidSkeletonRetargeter_OVRHumanBodyBonesMappingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7060 };
@@ -1212,13 +1212,13 @@ protected:
   constexpr OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData(OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData(OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData const&) = delete;
+  OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData(OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7061 };
@@ -1375,6 +1375,7 @@ public:
                     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSkeleton_BoneId, ::UnityEngine::HumanBodyBones>* customBoneIdToHumanBodyBone, bool useFullBody,
                     ::GlobalNamespace::OVRHumanBodyBonesMappingsInterface* bodyBonesMappingInterface);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BodyToBoneData, addr 0x5e00964, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::GlobalNamespace::OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData*>* get_BodyToBoneData();
 
@@ -1384,17 +1385,18 @@ protected:
   constexpr OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata(OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata(OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata const&) = delete;
+  OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata(OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7062 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BodyToBoneData>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::GlobalNamespace::OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData*>* ____BodyToBoneData_k__BackingField;
 
@@ -1514,9 +1516,11 @@ public:
   /// @brief Method .ctor, addr 0x5df9574, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PrecomputedRotationTweaks, addr 0x5e028dc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_PrecomputedRotationTweaks();
 
+  /// [CompilerGenerated]
   /// @brief Method set_PrecomputedRotationTweaks, addr 0x5e028e8, size 0xc, virtual false, abstract: false, final false
   inline void set_PrecomputedRotationTweaks(::UnityEngine::Quaternion value);
 
@@ -1526,13 +1530,13 @@ protected:
   constexpr OVRUnityHumanoidSkeletonRetargeter_JointAdjustment();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_JointAdjustment", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_JointAdjustment", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRUnityHumanoidSkeletonRetargeter_JointAdjustment(OVRUnityHumanoidSkeletonRetargeter_JointAdjustment&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_JointAdjustment", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter_JointAdjustment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRUnityHumanoidSkeletonRetargeter_JointAdjustment(OVRUnityHumanoidSkeletonRetargeter_JointAdjustment const&) = delete;
+  OVRUnityHumanoidSkeletonRetargeter_JointAdjustment(OVRUnityHumanoidSkeletonRetargeter_JointAdjustmentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7063 };
@@ -1561,6 +1565,7 @@ public:
   /// @brief Field BoneIdOverrideValue, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodyTrackingBoneId ___BoneIdOverrideValue;
 
+  /// [CompilerGenerated]
   /// @brief Field <PrecomputedRotationTweaks>k__BackingField, offset: 0x44, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____PrecomputedRotationTweaks_k__BackingField;
 
@@ -1618,7 +1623,7 @@ public:
   // @brief default ctor
   constexpr OVRUnityHumanoidSkeletonRetargeter_UpdateType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRUnityHumanoidSkeletonRetargeter_UpdateType(int32_t value__) noexcept;
 
   /// @brief Field FixedUpdateAndUpdate value: I32(2)
@@ -1647,6 +1652,7 @@ static_assert(offsetof(::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_Upd
 static_assert(sizeof(::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_UpdateType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Feature((Meta.XR.Util.Feature)1)]
 // Dependencies OVRSkeleton, OVRUnityHumanoidSkeletonRetargeter::JointAdjustment, OVRUnityHumanoidSkeletonRetargeter::OVRHumanBodyBonesMappings::BodySection,
 // OVRUnityHumanoidSkeletonRetargeter::UpdateType, UnityEngine.Vector3
 namespace GlobalNamespace {
@@ -1960,13 +1966,13 @@ protected:
   constexpr OVRUnityHumanoidSkeletonRetargeter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRUnityHumanoidSkeletonRetargeter(OVRUnityHumanoidSkeletonRetargeter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRUnityHumanoidSkeletonRetargeter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRUnityHumanoidSkeletonRetargeter(OVRUnityHumanoidSkeletonRetargeter const&) = delete;
+  OVRUnityHumanoidSkeletonRetargeter(OVRUnityHumanoidSkeletonRetargeterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7065 };
@@ -1998,21 +2004,28 @@ public:
   /// @brief Field _lastTrackedScale, offset: 0xfc, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____lastTrackedScale;
 
+  /// [SerializeField]
   /// @brief Field _adjustments, offset: 0x108, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_JointAdjustment*> ____adjustments;
 
+  /// [SerializeField]
   /// @brief Field _fullBodySectionsToAlign, offset: 0x110, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection> ____fullBodySectionsToAlign;
 
+  /// [SerializeField]
   /// @brief Field _bodySectionsToAlign, offset: 0x118, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection> ____bodySectionsToAlign;
 
+  /// [SerializeField]
   /// @brief Field _fullBodySectionToPosition, offset: 0x120, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection> ____fullBodySectionToPosition;
 
+  /// [SerializeField]
   /// @brief Field _bodySectionToPosition, offset: 0x128, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection> ____bodySectionToPosition;
 
+  /// [SerializeField]
+  /// [Tooltip("Controls if we run retargeting from FixedUpdate, Update, or both.")]
   /// @brief Field _updateType, offset: 0x130, size: 0x4, def value: None
   ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_UpdateType ____updateType;
 

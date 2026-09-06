@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\Drbg\ISP80090Drbg.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/Drbg/ISP80090Drbg.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,18 +22,18 @@ public:
   // Declarations
   __declspec(property(get = get_BlockSize)) int32_t BlockSize;
 
-  /// @brief Method Generate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Generate(::ArrayW<uint8_t> output, ::ArrayW<uint8_t> additionalInput, bool predictionResistant);
 
-  /// @brief Method Reseed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Reseed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reseed(::ArrayW<uint8_t> additionalInput);
 
-  /// @brief Method get_BlockSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_BlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_BlockSize();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISP80090Drbg", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISP80090Drbg", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISP80090Drbg(ISP80090Drbg const&) = delete;
+  ISP80090Drbg(ISP80090Drbgconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1094 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\NullBindingFinalizer.hpp"
+// IWYU pragma private; include "Zenject/NullBindingFinalizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class NullBindingFinalizer;
 // Write type traits
 MARK_REF_T(::Zenject::NullBindingFinalizer*);
 DEFINE_IL2CPP_CLASS(::Zenject::NullBindingFinalizer*, "Zenject", "NullBindingFinalizer");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -53,13 +54,13 @@ protected:
   constexpr NullBindingFinalizer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullBindingFinalizer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullBindingFinalizer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullBindingFinalizer(NullBindingFinalizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullBindingFinalizer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NullBindingFinalizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NullBindingFinalizer(NullBindingFinalizer const&) = delete;
+  NullBindingFinalizer(NullBindingFinalizerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14308 };

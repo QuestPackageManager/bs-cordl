@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerMarker_2.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerMarker_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,24 +13,36 @@ namespace Unity::Profiling {
 struct ProfilerCategory;
 }
 namespace Unity::Profiling {
-template <typename TP1, typename TP2> struct ProfilerMarker_2_AutoScope;
+template <typename TP1, typename TP2>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2>)
+struct ProfilerMarker_2_AutoScope;
 }
 // Forward declare root types
 namespace Unity::Profiling {
-template <typename TP1, typename TP2> struct ProfilerMarker_2;
+template <typename TP1, typename TP2>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2>)
+struct ProfilerMarker_2;
 }
 namespace Unity::Profiling {
-template <typename TP1, typename TP2> struct ProfilerMarker_2_AutoScope;
+template <typename TP1, typename TP2>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2>)
+struct ProfilerMarker_2_AutoScope;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerMarker_2);
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerMarker_2_AutoScope);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Profiling::ProfilerMarker_2, "Unity.Profiling", "ProfilerMarker`2");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Profiling::ProfilerMarker_2_AutoScope, "Unity.Profiling", "ProfilerMarker`2/AutoScope");
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Profiling {
 // cpp template
 template <typename TP1, typename TP2>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`2/AutoScope<TP1,TP2>
 #pragma pack(push, 0)
@@ -64,10 +76,13 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 } // namespace Unity::Profiling
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Profiling {
 // cpp template
 template <typename TP1, typename TP2>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`2<TP1,TP2>
 #pragma pack(push, 0)
@@ -79,9 +94,11 @@ public:
   /// @brief Method Auto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker_2_AutoScope<TP1, TP2> Auto(TP1 p1, TP2 p2);
 
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Begin, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Begin(TP1 p1, TP2 p2);
 
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method End, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void End();
 

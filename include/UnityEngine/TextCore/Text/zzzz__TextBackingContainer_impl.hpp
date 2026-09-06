@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextBackingContainer.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextBackingContainer.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextBackingContainer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextBackingContainer.get_Capacity
 template <>
@@ -125,7 +125,8 @@ inline void UnityEngine::TextCore::Text::TextBackingContainer::Resize(int32_t si
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), { "Resize", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, size);
 }
-// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::TextBackingContainer::TextBackingContainer(::ArrayW<uint32_t> m_Array, int32_t m_Count) noexcept {
   this->m_Array = m_Array;
   this->m_Count = m_Count;

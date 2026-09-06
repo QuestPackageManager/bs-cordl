@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\X509\Store\X509CertStoreSelector.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509CertStoreSelector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ public:
 
   __declspec(property(get = get_Issuer, put = set_Issuer)) ::Org::BouncyCastle::Asn1::X509::X509Name* Issuer;
 
+  /// @brief [Obsolete("Avoid working with X509Name objects in string form")]
   __declspec(property(get = get_IssuerAsString)) ::StringW IssuerAsString;
 
   __declspec(property(get = get_KeyUsage, put = set_KeyUsage)) ::ArrayW<bool> KeyUsage;
@@ -78,6 +79,7 @@ public:
 
   __declspec(property(get = get_Subject, put = set_Subject)) ::Org::BouncyCastle::Asn1::X509::X509Name* Subject;
 
+  /// @brief [Obsolete("Avoid working with X509Name objects in string form")]
   __declspec(property(get = get_SubjectAsString)) ::StringW SubjectAsString;
 
   __declspec(property(get = get_SubjectKeyIdentifier, put = set_SubjectKeyIdentifier)) ::ArrayW<uint8_t> SubjectKeyIdentifier;
@@ -366,13 +368,13 @@ protected:
   constexpr X509CertStoreSelector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertStoreSelector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertStoreSelector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertStoreSelector(X509CertStoreSelector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertStoreSelector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertStoreSelector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertStoreSelector(X509CertStoreSelector const&) = delete;
+  X509CertStoreSelector(X509CertStoreSelectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 678 };

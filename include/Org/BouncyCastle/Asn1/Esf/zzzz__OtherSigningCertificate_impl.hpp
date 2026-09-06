@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\OtherSigningCertificate.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/OtherSigningCertificate.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherSigningCertificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherCertID_def.hpp"
@@ -172,13 +172,13 @@ inline void Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::_ctor(::Org::
                    (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, seq);
 }
-inline void Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs) {
+inline void Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, certs);
 }
 inline void Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs,
-                                                                         ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> policies) {
+                                                                         /* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> policies) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -214,11 +214,13 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::Othe
 inline ::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate* Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate* Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs) {
+inline ::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate*
+Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate*>(certs));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate*
-Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs, ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> policies) {
+Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*> certs,
+                                                                /* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> policies) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate*>(certs, policies));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate* Org::BouncyCastle::Asn1::Esf::OtherSigningCertificate::New_ctor(::System::Collections::IEnumerable* certs) {

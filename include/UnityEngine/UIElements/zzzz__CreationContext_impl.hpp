@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CreationContext.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CreationContext.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -39,8 +39,8 @@ UnityEngine::UIElements::CreationContext_AttributeOverrideRange::_ctor(::UnityEn
                                                                ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sourceAsset, attributeOverrides);
 }
-// Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "attributeOverrides", ty:
-// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "attributeOverrides", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::CreationContext_AttributeOverrideRange::CreationContext_AttributeOverrideRange(
     ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides) noexcept {
   this->sourceAsset = sourceAsset;
@@ -80,9 +80,9 @@ inline void UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange
                               ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sourceAsset, attributeOverrides, templateId);
 }
-// Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "templateId", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "attributeOverrides", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "templateId",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "attributeOverrides", ty:
+// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange::CreationContext_SerializedDataOverrideRange(
     ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset, int32_t templateId,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* attributeOverrides) noexcept {
@@ -593,13 +593,14 @@ constexpr UnityEngine::UIElements::CreationContext::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>* UnityEngine::UIElements::CreationContext::i___System__IEquatable_1___UnityEngine__UIElements__CreationContext_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_veaIdsPath_k__BackingField",
-// ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_visualTreeAsset_k__BackingField", ty:
-// "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty:
-// "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_attributeOverrides_k__BackingField",
-// ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_serializedDataOverrides_k__BackingField", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_namesPath_k__BackingField", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_veaIdsPath_k__BackingField", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_visualTreeAsset_k__BackingField",
+// ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty:
+// "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_attributeOverrides_k__BackingField", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_serializedDataOverrides_k__BackingField", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_namesPath_k__BackingField", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::UIElements::CreationContext::CreationContext(
     ::UnityEngine::UIElements::VisualElement* _target_k__BackingField, ::System::Collections::Generic::List_1<int32_t>* _veaIdsPath_k__BackingField,
     ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _visualTreeAsset_k__BackingField,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\SortedList_SyncSortedList.hpp"
+// IWYU pragma private; include "System/Collections/SortedList_SyncSortedList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ class SortedList_SyncSortedList;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SortedList_SyncSortedList*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SortedList_SyncSortedList*, "System.Collections", "SortedList/SyncSortedList");
+// [DefaultMember("Item")]
 // Dependencies System.Collections.SortedList
 namespace GlobalNamespace {
 // Is value type: false
@@ -145,13 +146,13 @@ protected:
   constexpr SortedList_SyncSortedList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SyncSortedList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SyncSortedList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortedList_SyncSortedList(SortedList_SyncSortedList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SyncSortedList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortedList_SyncSortedList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortedList_SyncSortedList(SortedList_SyncSortedList const&) = delete;
+  SortedList_SyncSortedList(SortedList_SyncSortedListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3710 };

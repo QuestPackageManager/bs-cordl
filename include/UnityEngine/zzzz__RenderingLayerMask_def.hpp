@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RenderingLayerMask.hpp"
+// IWYU pragma private; include "UnityEngine/RenderingLayerMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,10 @@ struct RenderingLayerMask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RenderingLayerMask);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RenderingLayerMask, "UnityEngine", "RenderingLayerMask");
+// [RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+// [NativeHeader("Runtime/Graphics/RenderingLayerMask.h")]
+// [NativeHeader("Runtime/BaseClasses/TagManager.h")]
+// [NativeClass("RenderingLayerMask", "struct RenderingLayerMask;")]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -29,15 +33,20 @@ public:
   __declspec(property(get = getStaticF__defaultRenderingLayerMask_k__BackingField,
                       put = setStaticF__defaultRenderingLayerMask_k__BackingField)) ::UnityEngine::RenderingLayerMask _defaultRenderingLayerMask_k__BackingField;
 
+  /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// @brief Method GetDefinedRenderingLayerNames, addr 0x6ad8a48, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetDefinedRenderingLayerNames();
 
+  /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// @brief Method GetDefinedRenderingLayersCombinedMaskValue, addr 0x6ad8a20, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetDefinedRenderingLayersCombinedMaskValue();
 
+  /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// @brief Method GetRenderingLayerCount, addr 0x6ad8a70, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetRenderingLayerCount();
 
+  /// [StaticAccessor("GetTagManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
+  /// [NativeMethod("StringToRenderingLayer")]
   /// @brief Method NameToRenderingLayer, addr 0x6ad888c, size 0x158, virtual false, abstract: false, final false
   static inline int32_t NameToRenderingLayer(::StringW layerName);
 
@@ -55,7 +64,7 @@ public:
   // @brief default ctor
   constexpr RenderingLayerMask();
 
-  // Ctor Parameters [CppParam { name: "m_Bits", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Bits", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderingLayerMask(uint32_t m_Bits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -67,6 +76,7 @@ public:
   /// @brief Field maxRenderingLayerSize offset 0xffffffff size 0x4
   static constexpr int32_t maxRenderingLayerSize{ static_cast<int32_t>(0x20) };
 
+  /// [NativeName("m_Bits")]
   /// @brief Field m_Bits, offset: 0x0, size: 0x4, def value: None
   uint32_t m_Bits;
 

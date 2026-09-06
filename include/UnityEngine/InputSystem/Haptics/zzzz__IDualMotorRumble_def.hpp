@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Haptics\IDualMotorRumble.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Haptics/IDualMotorRumble.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
 
-  /// @brief Method SetMotorSpeeds, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetMotorSpeeds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetMotorSpeeds(float_t lowFrequency, float_t highFrequency);
 
   /// @brief Convert to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr ::UnityEngine::InputSystem::Haptics::IHaptics* i___UnityEngine__InputSystem__Haptics__IHaptics() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDualMotorRumble", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDualMotorRumble", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDualMotorRumble(IDualMotorRumble const&) = delete;
+  IDualMotorRumble(IDualMotorRumbleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8956 };

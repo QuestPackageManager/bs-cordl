@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UsageHints.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UsageHints.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct UsageHints;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UsageHints);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UsageHints, "UnityEngine.UIElements", "UsageHints");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr UsageHints();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UsageHints(int32_t value__) noexcept;
 
   /// @brief Field DynamicColor value: I32(8)

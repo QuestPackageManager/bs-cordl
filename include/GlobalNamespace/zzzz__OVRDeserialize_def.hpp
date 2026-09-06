@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRDeserialize.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRDeserialize.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -253,7 +253,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_DisplayRefreshRateChangedData();
 
-  // Ctor Parameters [CppParam { name: "FromRefreshRate", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ToRefreshRate", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FromRefreshRate", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ToRefreshRate", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr OVRDeserialize_DisplayRefreshRateChangedData(float_t FromRefreshRate, float_t ToRefreshRate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -289,7 +290,7 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpaceQueryResultsData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_SpaceQueryResultsData(uint64_t RequestId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -320,7 +321,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpaceQueryCompleteData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr OVRDeserialize_SpaceQueryCompleteData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -356,7 +358,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SceneCaptureCompleteData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr OVRDeserialize_SceneCaptureCompleteData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -392,8 +395,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpatialAnchorCreateCompleteData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Space", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_SpatialAnchorCreateCompleteData(uint64_t RequestId, int32_t Result, uint64_t Space, ::System::Guid Uuid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -439,9 +442,10 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpaceSetComponentStatusCompleteData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Space", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "ComponentType", ty:
-  // "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: None }, CppParam { name: "Enabled", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "ComponentType", ty: "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: None, comment: None }, CppParam { name: "Enabled", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr OVRDeserialize_SpaceSetComponentStatusCompleteData(uint64_t RequestId, int32_t Result, uint64_t Space, ::System::Guid Uuid, ::GlobalNamespace::OVRPlugin_SpaceComponentType ComponentType,
                                                                int32_t Enabled) noexcept;
 
@@ -498,8 +502,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpaceSaveCompleteData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_SpaceSaveCompleteData(uint64_t RequestId, uint64_t Space, int32_t Result, ::System::Guid Uuid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -545,8 +549,9 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpaceEraseCompleteData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Uuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "Location", ty: "::GlobalNamespace::OVRPlugin_SpaceStorageLocation", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "Location", ty: "::GlobalNamespace::OVRPlugin_SpaceStorageLocation",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_SpaceEraseCompleteData(uint64_t RequestId, int32_t Result, ::System::Guid Uuid, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation Location) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -592,7 +597,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpaceShareResultData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr OVRDeserialize_SpaceShareResultData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -628,7 +634,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpaceListSaveResultData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr OVRDeserialize_SpaceListSaveResultData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -664,9 +671,9 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_StartColocationSessionAdvertisementCompleteData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None }, CppParam { name: "AdvertisementUuid", ty: "::System::Guid", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "RequestId", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "AdvertisementUuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_StartColocationSessionAdvertisementCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result,
                                                                            ::System::Guid AdvertisementUuid) noexcept;
 
@@ -713,8 +720,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_StopColocationSessionAdvertisementCompleteData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "RequestId", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_StopColocationSessionAdvertisementCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -755,8 +762,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_StartColocationSessionDiscoveryCompleteData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "RequestId", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_StartColocationSessionDiscoveryCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -797,8 +804,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_StopColocationSessionDiscoveryCompleteData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "RequestId", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_StopColocationSessionDiscoveryCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -828,6 +835,8 @@ static_assert(offsetof(::GlobalNamespace::OVRDeserialize_StopColocationSessionDi
 static_assert(sizeof(::GlobalNamespace::OVRDeserialize_StopColocationSessionDiscoveryCompleteData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -840,7 +849,7 @@ public:
   // @brief default ctor
   constexpr ColocationSessionDiscoveryResultData_OVRDeserialize__AdvertisementMetadata_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ColocationSessionDiscoveryResultData_OVRDeserialize__AdvertisementMetadata_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -877,10 +886,10 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_ColocationSessionDiscoveryResultData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "AdvertisementUuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "AdvertisementMetadataCount", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "AdvertisementMetadata", ty: "::GlobalNamespace::ColocationSessionDiscoveryResultData_OVRDeserialize__AdvertisementMetadata_e__FixedBuffer", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "RequestId", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "AdvertisementUuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "AdvertisementMetadataCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "AdvertisementMetadata", ty:
+  // "::GlobalNamespace::ColocationSessionDiscoveryResultData_OVRDeserialize__AdvertisementMetadata_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_ColocationSessionDiscoveryResultData(
       ::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::System::Guid AdvertisementUuid, uint32_t AdvertisementMetadataCount,
       ::GlobalNamespace::ColocationSessionDiscoveryResultData_OVRDeserialize__AdvertisementMetadata_e__FixedBuffer AdvertisementMetadata) noexcept;
@@ -903,6 +912,7 @@ public:
   /// @brief Field AdvertisementMetadataCount, offset: 0x20, size: 0x4, def value: None
   uint32_t AdvertisementMetadataCount;
 
+  /// [FixedBuffer(typeof(System.Byte), 1024)]
   /// @brief Field AdvertisementMetadata, offset: 0x24, size: 0x400, def value: None
   ::GlobalNamespace::ColocationSessionDiscoveryResultData_OVRDeserialize__AdvertisementMetadata_e__FixedBuffer AdvertisementMetadata;
 
@@ -933,8 +943,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_ColocationSessionAdvertisementCompleteData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "RequestId", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_ColocationSessionAdvertisementCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -975,8 +985,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_ColocationSessionDiscoveryCompleteData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "RequestId", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_ColocationSessionDiscoveryCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1017,8 +1027,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_ShareSpacesToGroupsCompleteData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "RequestId", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "RequestId", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_ShareSpacesToGroupsCompleteData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t RequestId, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1059,7 +1069,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpaceDiscoveryCompleteData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr OVRDeserialize_SpaceDiscoveryCompleteData(uint64_t RequestId, int32_t Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1095,7 +1106,7 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpaceDiscoveryResultsData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_SpaceDiscoveryResultsData(uint64_t RequestId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1126,8 +1137,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpacesSaveResultData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRAnchor_SaveResult", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRAnchor_SaveResult",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_SpacesSaveResultData(uint64_t RequestId, ::GlobalNamespace::OVRAnchor_SaveResult Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1163,8 +1174,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SpacesEraseResultData();
 
-  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRAnchor_EraseResult", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRAnchor_EraseResult",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_SpacesEraseResultData(uint64_t RequestId, ::GlobalNamespace::OVRAnchor_EraseResult Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1200,7 +1211,7 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_PassthroughLayerResumedData();
 
-  // Ctor Parameters [CppParam { name: "LayerId", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "LayerId", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_PassthroughLayerResumedData(int32_t LayerId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1231,7 +1242,7 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_BoundaryVisibilityChangedData();
 
-  // Ctor Parameters [CppParam { name: "BoundaryVisibility", ty: "::GlobalNamespace::OVRPlugin_BoundaryVisibility", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "BoundaryVisibility", ty: "::GlobalNamespace::OVRPlugin_BoundaryVisibility", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_BoundaryVisibilityChangedData(::GlobalNamespace::OVRPlugin_BoundaryVisibility BoundaryVisibility) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1262,8 +1273,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_CreateDynamicObjectTrackerResultData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "Tracker", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "Tracker", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_CreateDynamicObjectTrackerResultData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t Tracker, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1304,8 +1315,8 @@ public:
   // @brief default ctor
   constexpr OVRDeserialize_SetDynamicObjectTrackedClassesResultData();
 
-  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None }, CppParam { name: "Tracker", ty: "uint64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "EventType", ty: "::GlobalNamespace::OVRPlugin_EventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "Tracker", ty: "uint64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "Result", ty: "::GlobalNamespace::OVRPlugin_Result", modifiers: "", def_value: None, comment: None }]
   constexpr OVRDeserialize_SetDynamicObjectTrackedClassesResultData(::GlobalNamespace::OVRPlugin_EventType EventType, uint64_t Tracker, ::GlobalNamespace::OVRPlugin_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -1335,6 +1346,7 @@ static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SetDynamicObjectTracked
 static_assert(sizeof(::GlobalNamespace::OVRDeserialize_SetDynamicObjectTrackedClassesResultData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -1395,8 +1407,11 @@ public:
   using StopColocationSessionDiscoveryCompleteData = ::GlobalNamespace::OVRDeserialize_StopColocationSessionDiscoveryCompleteData;
 
   /// @brief Method ByteArrayToStructure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T ByteArrayToStructure(::ArrayW<uint8_t> bytes);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T ByteArrayToStructure(::ArrayW<uint8_t> bytes);
 
+  /// [Extension]
   /// @brief Method MarshalEntireStructAs, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T MarshalEntireStructAs(::GlobalNamespace::OVRPlugin_EventDataBuffer eventDataBuffer, ::Unity::Collections::Allocator allocator);
 
@@ -1406,13 +1421,13 @@ protected:
   constexpr OVRDeserialize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRDeserialize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRDeserialize", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRDeserialize(OVRDeserialize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRDeserialize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRDeserialize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRDeserialize(OVRDeserialize const&) = delete;
+  OVRDeserialize(OVRDeserializeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7907 };

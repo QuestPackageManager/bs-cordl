@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultipliedColorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultipliedColorSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,20 +60,22 @@ protected:
   constexpr MultipliedColorSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultipliedColorSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultipliedColorSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultipliedColorSO(MultipliedColorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultipliedColorSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultipliedColorSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultipliedColorSO(MultipliedColorSO const&) = delete;
+  MultipliedColorSO(MultipliedColorSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23163 };
 
+  /// [SerializeField]
   /// @brief Field _baseColor, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleColorSO> ____baseColor;
 
+  /// [SerializeField]
   /// @brief Field _multiplierColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____multiplierColor;
 

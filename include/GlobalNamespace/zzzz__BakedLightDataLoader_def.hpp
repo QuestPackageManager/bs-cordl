@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BakedLightDataLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/BakedLightDataLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class BakedLightDataLoader;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BakedLightDataLoader*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BakedLightDataLoader*, "", "BakedLightDataLoader");
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -83,17 +84,19 @@ protected:
   constexpr BakedLightDataLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightDataLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BakedLightDataLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BakedLightDataLoader(BakedLightDataLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightDataLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BakedLightDataLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BakedLightDataLoader(BakedLightDataLoader const&) = delete;
+  BakedLightDataLoader(BakedLightDataLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6525 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)1)]
   /// @brief Field _lightmapData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightmapDataSO> ____lightmapData;
 

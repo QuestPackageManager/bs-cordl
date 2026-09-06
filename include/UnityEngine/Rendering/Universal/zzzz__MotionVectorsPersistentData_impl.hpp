@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\MotionVectorsPersistentData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/MotionVectorsPersistentData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"

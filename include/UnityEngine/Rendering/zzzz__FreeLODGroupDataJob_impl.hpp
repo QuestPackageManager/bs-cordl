@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FreeLODGroupDataJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FreeLODGroupDataJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -31,11 +31,11 @@ constexpr UnityEngine::Rendering::FreeLODGroupDataJob::operator ::Unity::Jobs::I
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::FreeLODGroupDataJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "destroyedLODGroupsID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lodGroupsData", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lodGroupDataHash", ty:
-// "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}") }, CppParam { name: "freeLODGroupDataHandles", ty:
-// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}") }, CppParam { name: "removedRendererCount", ty: "int32_t*", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "destroyedLODGroupsID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "lodGroupsData", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lodGroupDataHash", ty:
+// "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "freeLODGroupDataHandles", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "removedRendererCount", ty: "int32_t*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::FreeLODGroupDataJob::FreeLODGroupDataJob(::Unity::Collections::NativeArray_1<int32_t> destroyedLODGroupsID,
                                                                              ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData> lodGroupsData,
                                                                              ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataHash,

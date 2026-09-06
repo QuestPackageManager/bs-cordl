@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugProbeShadingMode.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugProbeShadingMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct DebugProbeShadingMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::DebugProbeShadingMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugProbeShadingMode, "UnityEngine.Rendering", "DebugProbeShadingMode");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\Lighting\\ProbeVolume\\ProbeReferenceVolume.Debug.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.DebugProbeShadingMode
@@ -51,7 +52,7 @@ public:
   // @brief default ctor
   constexpr DebugProbeShadingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugProbeShadingMode(int32_t value__) noexcept;
 
   /// @brief Field InvalidatedByAdjustmentVolumes value: I32(6)

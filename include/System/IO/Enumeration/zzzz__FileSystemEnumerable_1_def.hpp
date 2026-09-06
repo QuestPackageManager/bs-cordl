@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Enumeration\FileSystemEnumerable_1.hpp"
+// IWYU pragma private; include "System/IO/Enumeration/FileSystemEnumerable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,13 +86,13 @@ protected:
   constexpr FileSystemEnumerable_1_FindPredicate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindPredicate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindPredicate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerable_1_FindPredicate(FileSystemEnumerable_1_FindPredicate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindPredicate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindPredicate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerable_1_FindPredicate(FileSystemEnumerable_1_FindPredicate const&) = delete;
+  FileSystemEnumerable_1_FindPredicate(FileSystemEnumerable_1_FindPredicateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3927 };
@@ -124,13 +124,13 @@ protected:
   constexpr FileSystemEnumerable_1_FindTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerable_1_FindTransform(FileSystemEnumerable_1_FindTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_FindTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerable_1_FindTransform(FileSystemEnumerable_1_FindTransform const&) = delete;
+  FileSystemEnumerable_1_FindTransform(FileSystemEnumerable_1_FindTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3928 };
@@ -177,13 +177,13 @@ protected:
   constexpr FileSystemEnumerable_1_DelegateEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_DelegateEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_DelegateEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerable_1_DelegateEnumerator(FileSystemEnumerable_1_DelegateEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_DelegateEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1_DelegateEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerable_1_DelegateEnumerator(FileSystemEnumerable_1_DelegateEnumerator const&) = delete;
+  FileSystemEnumerable_1_DelegateEnumerator(FileSystemEnumerable_1_DelegateEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3929 };
@@ -290,9 +290,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW directory, ::System::IO::Enumeration::FileSystemEnumerable_1_FindTransform<TResult>* transform, ::System::IO::EnumerationOptions* options);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ShouldIncludePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::IO::Enumeration::FileSystemEnumerable_1_FindPredicate<TResult>* get_ShouldIncludePredicate();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ShouldRecursePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::IO::Enumeration::FileSystemEnumerable_1_FindPredicate<TResult>* get_ShouldRecursePredicate();
 
@@ -302,6 +304,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_ShouldIncludePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_ShouldIncludePredicate(::System::IO::Enumeration::FileSystemEnumerable_1_FindPredicate<TResult>* value);
 
@@ -311,13 +314,13 @@ protected:
   constexpr FileSystemEnumerable_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerable_1(FileSystemEnumerable_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerable_1(FileSystemEnumerable_1 const&) = delete;
+  FileSystemEnumerable_1(FileSystemEnumerable_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3930 };
@@ -334,9 +337,11 @@ public:
   /// @brief Field _directory, offset: 0x28, size: 0x8, def value: None
   ::StringW ____directory;
 
+  /// [CompilerGenerated]
   /// @brief Field <ShouldIncludePredicate>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::IO::Enumeration::FileSystemEnumerable_1_FindPredicate<TResult>* ____ShouldIncludePredicate_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ShouldRecursePredicate>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::IO::Enumeration::FileSystemEnumerable_1_FindPredicate<TResult>* ____ShouldRecursePredicate_k__BackingField;
 

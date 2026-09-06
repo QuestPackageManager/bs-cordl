@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BuildDrawListsJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BuildDrawListsJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ struct BuildDrawListsJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BuildDrawListsJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BuildDrawListsJob, "UnityEngine.Rendering", "BuildDrawListsJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.DrawBatch,
 // UnityEngine.Rendering.DrawInstance, UnityEngine.Rendering.DrawKey
 namespace UnityEngine::Rendering {
@@ -46,11 +47,11 @@ public:
   // @brief default ctor
   constexpr BuildDrawListsJob();
 
-  // Ctor Parameters [CppParam { name: "batchHash", ty: "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "drawInstances", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: None }, CppParam { name: "drawBatches", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None }, CppParam { name: "internalDrawIndex", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "drawInstanceIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "batchHash", ty: "::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey,int32_t>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "drawInstances", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "drawBatches", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>", modifiers: "", def_value: None, comment: None }, CppParam { name: "internalDrawIndex", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawInstanceIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr BuildDrawListsJob(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> batchHash,
                               ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances,
                               ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches, ::Unity::Collections::NativeArray_1<int32_t> internalDrawIndex,
@@ -68,18 +69,31 @@ public:
   /// @brief Field k_IntsPerCacheLine offset 0xffffffff size 0x4
   static constexpr int32_t k_IntsPerCacheLine{ static_cast<int32_t>(0x10) };
 
+  /// [ReadOnly]
   /// @brief Field batchHash, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> batchHash;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [ReadOnly]
   /// @brief Field drawInstances, offset: 0x10, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [ReadOnly]
   /// @brief Field drawBatches, offset: 0x18, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field internalDrawIndex, offset: 0x20, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> internalDrawIndex;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field drawInstanceIndices, offset: 0x30, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndices;
 

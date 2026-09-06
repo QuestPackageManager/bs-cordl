@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\AddressablesPlatform.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/AddressablesPlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
   // @brief default ctor
   constexpr AddressablesPlatform();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AddressablesPlatform(int32_t value__) noexcept;
 
   /// @brief Field Android value: I32(9)

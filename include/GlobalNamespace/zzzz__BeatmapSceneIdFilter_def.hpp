@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapSceneIdFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapSceneIdFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct BeatmapSceneIdFilter;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::BeatmapSceneIdFilter);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapSceneIdFilter, "", "BeatmapSceneIdFilter");
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr BeatmapSceneIdFilter();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapSceneIdFilter(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(7)

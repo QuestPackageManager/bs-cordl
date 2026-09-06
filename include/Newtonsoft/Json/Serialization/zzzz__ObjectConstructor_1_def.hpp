@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ObjectConstructor_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ObjectConstructor_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,14 @@ class CORDL_TYPE ObjectConstructor_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::System::Object*> args, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* EndInvoke(::System::IAsyncResult* result);
 
+  /// [NullableContext(1)]
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Object* Invoke(::ArrayW<::System::Object*> args);
+  inline ::System::Object* Invoke(/* [ParamArray] [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args);
 
   static inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -54,13 +55,13 @@ protected:
   constexpr ObjectConstructor_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectConstructor_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectConstructor_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectConstructor_1(ObjectConstructor_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectConstructor_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectConstructor_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectConstructor_1(ObjectConstructor_1 const&) = delete;
+  ObjectConstructor_1(ObjectConstructor_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13531 };

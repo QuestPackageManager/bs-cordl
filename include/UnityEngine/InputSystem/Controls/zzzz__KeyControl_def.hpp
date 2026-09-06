@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\KeyControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/KeyControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,12 +54,14 @@ public:
   /// @brief Method .ctor, addr 0x64fc1b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_keyCode, addr 0x64fbfe8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Key get_keyCode();
 
   /// @brief Method get_scanCode, addr 0x64fbff8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_scanCode();
 
+  /// [CompilerGenerated]
   /// @brief Method set_keyCode, addr 0x64fbff0, size 0x8, virtual false, abstract: false, final false
   inline void set_keyCode(::UnityEngine::InputSystem::Key value);
 
@@ -69,17 +71,18 @@ protected:
   constexpr KeyControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyControl(KeyControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyControl(KeyControl const&) = delete;
+  KeyControl(KeyControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9132 };
 
+  /// [CompilerGenerated]
   /// @brief Field <keyCode>k__BackingField, offset: 0x140, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Key ____keyCode_k__BackingField;
 

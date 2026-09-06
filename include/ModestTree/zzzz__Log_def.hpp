@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\Log.hpp"
+// IWYU pragma private; include "ModestTree/Log.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,11 +27,12 @@ namespace ModestTree {
 class CORDL_TYPE Log : public ::System::Object {
 public:
   // Declarations
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method Debug, addr 0x6e3fbd8, size 0x4, virtual false, abstract: false, final false
-  static inline void Debug(::StringW message, ::ArrayW<::System::Object*> args);
+  static inline void Debug(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Error, addr 0x6e3fda4, size 0x7c, virtual false, abstract: false, final false
-  static inline void Error(::StringW message, ::ArrayW<::System::Object*> args);
+  static inline void Error(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method ErrorException, addr 0x6e3fcd4, size 0x5c, virtual false, abstract: false, final false
   static inline void ErrorException(::System::Exception* e);
@@ -40,13 +41,13 @@ public:
   static inline void ErrorException(::StringW message, ::System::Exception* e);
 
   /// @brief Method Info, addr 0x6e3fbdc, size 0x7c, virtual false, abstract: false, final false
-  static inline void Info(::StringW message, ::ArrayW<::System::Object*> args);
+  static inline void Info(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Trace, addr 0x6e3fc58, size 0x7c, virtual false, abstract: false, final false
-  static inline void Trace(::StringW message, ::ArrayW<::System::Object*> args);
+  static inline void Trace(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method Warn, addr 0x6e3f5a8, size 0x7c, virtual false, abstract: false, final false
-  static inline void Warn(::StringW message, ::ArrayW<::System::Object*> args);
+  static inline void Warn(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
 protected:
   // Ctor Parameters []
@@ -54,13 +55,13 @@ protected:
   constexpr Log();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Log(Log&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Log(Log const&) = delete;
+  Log(Logconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13967 };

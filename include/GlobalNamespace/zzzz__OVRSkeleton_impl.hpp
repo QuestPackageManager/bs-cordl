@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSkeleton.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSkeleton.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -315,11 +315,12 @@ inline void GlobalNamespace::OVRSkeleton_SkeletonPoseData::set_SkeletonChangedCo
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeleton_SkeletonPoseData>(), { "set_SkeletonChangedCount", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_RootPose_k__BackingField", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}") }, CppParam { name: "_RootScale_k__BackingField", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_BoneRotations_k__BackingField", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_Quatf>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_BoneTranslations_k__BackingField", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_SkeletonChangedCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_RootPose_k__BackingField", ty: "::GlobalNamespace::OVRPlugin_Posef", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_RootScale_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_BoneRotations_k__BackingField", ty:
+// "::ArrayW<::GlobalNamespace::OVRPlugin_Quatf>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_BoneTranslations_k__BackingField", ty: "::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_SkeletonChangedCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSkeleton_SkeletonPoseData::OVRSkeleton_SkeletonPoseData(::GlobalNamespace::OVRPlugin_Posef _RootPose_k__BackingField, float_t _RootScale_k__BackingField,
                                                                                         ::ArrayW<::GlobalNamespace::OVRPlugin_Quatf> _BoneRotations_k__BackingField, bool _IsDataValid_k__BackingField,
                                                                                         bool _IsDataHighConfidence_k__BackingField,
@@ -335,7 +336,7 @@ constexpr ::GlobalNamespace::OVRSkeleton_SkeletonPoseData::OVRSkeleton_SkeletonP
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSkeleton_SkeletonPoseData::OVRSkeleton_SkeletonPoseData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSkeleton_SkeletonType::OVRSkeleton_SkeletonType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -348,7 +349,7 @@ constexpr ::GlobalNamespace::OVRSkeleton_SkeletonType GlobalNamespace::OVRSkelet
 constexpr ::GlobalNamespace::OVRSkeleton_SkeletonType GlobalNamespace::OVRSkeleton_SkeletonType::FullBody{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRSkeleton_SkeletonType GlobalNamespace::OVRSkeleton_SkeletonType::XRHandLeft{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRSkeleton_SkeletonType GlobalNamespace::OVRSkeleton_SkeletonType::XRHandRight{ static_cast<int32_t>(0x5) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSkeleton_BoneId::OVRSkeleton_BoneId(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\SecurityElement.hpp"
+// IWYU pragma private; include "System/Security/SecurityElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,13 +75,13 @@ protected:
   constexpr SecurityElement_SecurityAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement_SecurityAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement_SecurityAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecurityElement_SecurityAttribute(SecurityElement_SecurityAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement_SecurityAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement_SecurityAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecurityElement_SecurityAttribute(SecurityElement_SecurityAttribute const&) = delete;
+  SecurityElement_SecurityAttribute(SecurityElement_SecurityAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2907 };
@@ -102,6 +102,7 @@ static_assert(offsetof(::System::Security::SecurityElement_SecurityAttribute, __
 static_assert(sizeof(::System::Security::SecurityElement_SecurityAttribute) == 0x20, "Size mismatch!");
 
 } // namespace System::Security
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Security {
 // Is value type: false
@@ -257,13 +258,13 @@ protected:
   constexpr SecurityElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecurityElement(SecurityElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecurityElement(SecurityElement const&) = delete;
+  SecurityElement(SecurityElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2908 };

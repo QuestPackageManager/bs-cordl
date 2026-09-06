@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexCode.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexCode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,9 @@ namespace System::Text::RegularExpressions {
 struct RegexPrefix;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -137,13 +139,13 @@ protected:
   constexpr RegexCode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegexCode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexCode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexCode(RegexCode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegexCode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegexCode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegexCode(RegexCode const&) = delete;
+  RegexCode(RegexCodeconst&) = delete;
 
   /// @brief Field Back offset 0xffffffff size 0x4
   static constexpr int32_t Back{ static_cast<int32_t>(0x80) };

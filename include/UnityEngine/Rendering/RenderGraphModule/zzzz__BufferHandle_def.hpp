@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BufferHandle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BufferHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ struct BufferHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::BufferHandle);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::BufferHandle, "UnityEngine.Rendering.RenderGraphModule", "BufferHandle");
+// [DebuggerDisplay("Buffer ({handle.index})")]
+// [MovedFrom(true, "UnityEngine.Experimental.Rendering.RenderGraphModule", "UnityEngine.Rendering.RenderGraphModule", null)]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.ResourceHandle
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
@@ -34,7 +36,7 @@ public:
   inline bool IsValid();
 
   /// @brief Method .ctor, addr 0x67e43ec, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
 
   /// @brief Method .ctor, addr 0x67e4400, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, bool shared);
@@ -53,7 +55,7 @@ public:
   // @brief default ctor
   constexpr BufferHandle();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "::UnityEngine::Rendering::RenderGraphModule::ResourceHandle", modifiers: "", def_value: None, comment: None }]
   constexpr BufferHandle(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

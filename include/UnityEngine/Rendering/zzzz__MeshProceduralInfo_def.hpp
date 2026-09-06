@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MeshProceduralInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MeshProceduralInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,9 @@ public:
   // @brief default ctor
   constexpr MeshProceduralInfo();
 
-  // Ctor Parameters [CppParam { name: "topology", ty: "::UnityEngine::MeshTopology", modifiers: "", def_value: None }, CppParam { name: "baseVertex", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "firstIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "indexCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "topology", ty: "::UnityEngine::MeshTopology", modifiers: "", def_value: None, comment: None }, CppParam { name: "baseVertex", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "firstIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "indexCount", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr MeshProceduralInfo(::UnityEngine::MeshTopology topology, uint32_t baseVertex, uint32_t firstIndex, uint32_t indexCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

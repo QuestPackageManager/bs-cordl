@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Convert.hpp"
+// IWYU pragma private; include "System/Convert.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ class Convert;
 // Write type traits
 MARK_REF_T(::System::Convert*);
 DEFINE_IL2CPP_CLASS(::System::Convert*, "System", "Convert");
+// [Extension]
 // Dependencies System.Object, System.Type
 namespace System {
 // Is value type: false
@@ -105,6 +106,7 @@ public:
   /// @brief Method GetTypeCode, addr 0x5bb4ca0, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::TypeCode GetTypeCode(::System::Object* value);
 
+  /// [Extension]
   /// @brief Method IsSpace, addr 0x5bbc490, size 0x20, virtual false, abstract: false, final false
   static inline bool IsSpace(char16_t c);
 
@@ -186,15 +188,19 @@ public:
   /// @brief Method ToBoolean, addr 0x5bb6498, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToBoolean, addr 0x5bb645c, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToBoolean, addr 0x5bb6474, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToBoolean, addr 0x5bb648c, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToBoolean, addr 0x5bb64a4, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(uint64_t value);
 
@@ -240,15 +246,19 @@ public:
   /// @brief Method ToByte, addr 0x5bb7580, size 0x64, virtual false, abstract: false, final false
   static inline uint8_t ToByte(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToByte, addr 0x5bb7388, size 0x60, virtual false, abstract: false, final false
   static inline uint8_t ToByte(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToByte, addr 0x5bb7450, size 0x68, virtual false, abstract: false, final false
   static inline uint8_t ToByte(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToByte, addr 0x5bb751c, size 0x64, virtual false, abstract: false, final false
   static inline uint8_t ToByte(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToByte, addr 0x5bb75e4, size 0x64, virtual false, abstract: false, final false
   static inline uint8_t ToByte(uint64_t value);
 
@@ -273,15 +283,19 @@ public:
   /// @brief Method ToChar, addr 0x5bb692c, size 0x64, virtual false, abstract: false, final false
   static inline char16_t ToChar(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToChar, addr 0x5bb67a0, size 0x60, virtual false, abstract: false, final false
   static inline char16_t ToChar(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToChar, addr 0x5bb6860, size 0x4, virtual false, abstract: false, final false
   static inline char16_t ToChar(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToChar, addr 0x5bb68c8, size 0x64, virtual false, abstract: false, final false
   static inline char16_t ToChar(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToChar, addr 0x5bb6990, size 0x64, virtual false, abstract: false, final false
   static inline char16_t ToChar(uint64_t value);
 
@@ -318,15 +332,19 @@ public:
   /// @brief Method ToDecimal, addr 0x5bba168, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToDecimal, addr 0x5bb9f88, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToDecimal, addr 0x5bba050, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToDecimal, addr 0x5bba10c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToDecimal, addr 0x5bba1cc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(uint64_t value);
 
@@ -360,15 +378,19 @@ public:
   /// @brief Method ToDouble, addr 0x5bb9db8, size 0x8, virtual false, abstract: false, final false
   static inline double_t ToDouble(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToDouble, addr 0x5bb9d84, size 0xc, virtual false, abstract: false, final false
   static inline double_t ToDouble(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToDouble, addr 0x5bb9d9c, size 0xc, virtual false, abstract: false, final false
   static inline double_t ToDouble(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToDouble, addr 0x5bb9db0, size 0x8, virtual false, abstract: false, final false
   static inline double_t ToDouble(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToDouble, addr 0x5bb9dc0, size 0x8, virtual false, abstract: false, final false
   static inline double_t ToDouble(uint64_t value);
 
@@ -411,15 +433,19 @@ public:
   /// @brief Method ToInt16, addr 0x5bb7b40, size 0x64, virtual false, abstract: false, final false
   static inline int16_t ToInt16(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt16, addr 0x5bb7a10, size 0x8, virtual false, abstract: false, final false
   static inline int16_t ToInt16(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt16, addr 0x5bb7a18, size 0x60, virtual false, abstract: false, final false
   static inline int16_t ToInt16(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt16, addr 0x5bb7adc, size 0x64, virtual false, abstract: false, final false
   static inline int16_t ToInt16(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt16, addr 0x5bb7ba4, size 0x64, virtual false, abstract: false, final false
   static inline int16_t ToInt16(uint64_t value);
 
@@ -462,12 +488,15 @@ public:
   /// @brief Method ToInt32, addr 0x5bb85ec, size 0x64, virtual false, abstract: false, final false
   static inline int32_t ToInt32(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt32, addr 0x5bb8584, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ToInt32(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt32, addr 0x5bb858c, size 0x60, virtual false, abstract: false, final false
   static inline int32_t ToInt32(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt32, addr 0x5bb8650, size 0x64, virtual false, abstract: false, final false
   static inline int32_t ToInt32(uint64_t value);
 
@@ -510,66 +539,86 @@ public:
   /// @brief Method ToInt64, addr 0x5bb8fb8, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(int32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt64, addr 0x5bb8fa0, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt64, addr 0x5bb8fb0, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt64, addr 0x5bb8fc0, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToInt64, addr 0x5bb8fc8, size 0x60, virtual false, abstract: false, final false
   static inline int64_t ToInt64(uint64_t value);
 
   /// @brief Method ToInt64, addr 0x5bb290c, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(uint8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bba8a8, size 0x130, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::StringW value, int32_t fromBase);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb7178, size 0x10, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::StringW value, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb7100, size 0x78, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::System::Decimal value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6ae4, size 0xf8, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::System::Object* value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6bdc, size 0x108, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::System::Object* value, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb0be4, size 0x8, virtual false, abstract: false, final false
   static inline int8_t ToSByte(bool value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb3610, size 0x68, virtual false, abstract: false, final false
   static inline int8_t ToSByte(char16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6fa8, size 0x64, virtual false, abstract: false, final false
   static inline int8_t ToSByte(double_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6f48, size 0x60, virtual false, abstract: false, final false
   static inline int8_t ToSByte(float_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6ce4, size 0x6c, virtual false, abstract: false, final false
   static inline int8_t ToSByte(int16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6db8, size 0x64, virtual false, abstract: false, final false
   static inline int8_t ToSByte(int32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6e80, size 0x64, virtual false, abstract: false, final false
   static inline int8_t ToSByte(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6d50, size 0x68, virtual false, abstract: false, final false
   static inline int8_t ToSByte(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6e1c, size 0x64, virtual false, abstract: false, final false
   static inline int8_t ToSByte(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb6ee4, size 0x64, virtual false, abstract: false, final false
   static inline int8_t ToSByte(uint64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSByte, addr 0x5bb26b8, size 0x60, virtual false, abstract: false, final false
   static inline int8_t ToSByte(uint8_t value);
 
@@ -603,15 +652,19 @@ public:
   /// @brief Method ToSingle, addr 0x5bb9a64, size 0x8, virtual false, abstract: false, final false
   static inline float_t ToSingle(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSingle, addr 0x5bb9a30, size 0xc, virtual false, abstract: false, final false
   static inline float_t ToSingle(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSingle, addr 0x5bb9a48, size 0xc, virtual false, abstract: false, final false
   static inline float_t ToSingle(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSingle, addr 0x5bb9a5c, size 0x8, virtual false, abstract: false, final false
   static inline float_t ToSingle(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToSingle, addr 0x5bb9a6c, size 0xc, virtual false, abstract: false, final false
   static inline float_t ToSingle(uint64_t value);
 
@@ -636,147 +689,195 @@ public:
   /// @brief Method ToString, addr 0x5bbaf98, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW ToString(uint8_t value, int32_t toBase);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bbab08, size 0x120, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::StringW value, int32_t fromBase);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb8364, size 0x18, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::StringW value, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb82ec, size 0x78, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::System::Decimal value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb7dd8, size 0xf8, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::System::Object* value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb7ed0, size 0x108, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::System::Object* value, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb0d1c, size 0x8, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(bool value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb3854, size 0x4, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(char16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb8288, size 0x64, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(double_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb8228, size 0x60, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(float_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb8038, size 0x60, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(int16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb8098, size 0x64, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(int32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb8160, size 0x64, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb7fd8, size 0x60, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb80fc, size 0x64, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb81c4, size 0x64, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(uint64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt16, addr 0x5bb27e0, size 0x8, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(uint8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bbad04, size 0xdc, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::StringW value, int32_t fromBase);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8d88, size 0x18, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::StringW value, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8d10, size 0x78, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::System::Decimal value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8820, size 0xf8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::System::Object* value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8918, size 0x108, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::System::Object* value, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb0dec, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(bool value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb3918, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(char16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8c70, size 0xa0, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(double_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8c10, size 0x60, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(float_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8a80, size 0x60, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(int16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8ae8, size 0x60, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(int32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8b48, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8a20, size 0x60, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8ae0, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb8bac, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(uint64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt32, addr 0x5bb28a8, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(uint8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bbaebc, size 0xdc, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::StringW value, int32_t fromBase);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb9818, size 0x18, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::StringW value, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb97a0, size 0x78, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Decimal value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb92ac, size 0xf8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Object* value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb93a4, size 0x108, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Object* value, ::System::IFormatProvider* provider);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb0ebc, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(bool value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb39e0, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(char16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb969c, size 0x104, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(double_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb963c, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(float_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb950c, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(int16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb9574, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(int32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb95dc, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb94ac, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(int8_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb956c, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(uint16_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb95d4, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(uint32_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method ToUInt64, addr 0x5bb2970, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(uint8_t value);
 
@@ -815,13 +916,13 @@ protected:
   constexpr Convert();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Convert", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Convert", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Convert(Convert&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Convert", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Convert", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Convert(Convert const&) = delete;
+  Convert(Convertconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2366 };

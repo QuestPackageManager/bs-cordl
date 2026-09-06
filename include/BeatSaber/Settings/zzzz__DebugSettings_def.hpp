@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\DebugSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/DebugSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,8 +23,8 @@ public:
   // @brief default ctor
   constexpr DebugSettings();
 
-  // Ctor Parameters [CppParam { name: "showBeatmapLevelVersion", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "disableVRTrackingInAutoplayPS4", ty: "bool", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "showBeatmapLevelVersion", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "disableVRTrackingInAutoplayPS4", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr DebugSettings(bool showBeatmapLevelVersion, bool disableVRTrackingInAutoplayPS4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

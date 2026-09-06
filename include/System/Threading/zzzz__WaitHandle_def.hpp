@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\WaitHandle.hpp"
+// IWYU pragma private; include "System/Threading/WaitHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class WaitHandle;
 // Write type traits
 MARK_REF_T(::System::Threading::WaitHandle*);
 DEFINE_IL2CPP_CLASS(::System::Threading::WaitHandle*, "System.Threading", "WaitHandle");
+// [ComVisible(true)]
 // Dependencies System.IntPtr, System.MarshalByRefObject
 namespace System::Threading {
 // Is value type: false
@@ -37,6 +38,7 @@ namespace System::Threading {
 class CORDL_TYPE WaitHandle : public ::System::MarshalByRefObject {
 public:
   // Declarations
+  /// @brief [Obsolete("Use the SafeWaitHandle property instead.")]
   __declspec(property(put = set_Handle)) ::System::IntPtr Handle;
 
   /// @brief Field InvalidHandle, offset 0xffffffff, size 0x8
@@ -82,9 +84,11 @@ public:
   /// @brief Method ThrowAbandonedMutexException, addr 0x5cb7f3c, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowAbandonedMutexException(int32_t location, ::System::Threading::WaitHandle* handle);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method WaitAny, addr 0x5cb77b4, size 0x2dc, virtual false, abstract: false, final false
   static inline int32_t WaitAny(::ArrayW<::System::Threading::WaitHandle*> waitHandles, int32_t millisecondsTimeout, bool exitContext);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method WaitAny, addr 0x5cb7f88, size 0x148, virtual false, abstract: false, final false
   static inline int32_t WaitAny(::ArrayW<::System::Threading::WaitHandle*> waitHandles, ::System::TimeSpan timeout, bool exitContext);
 
@@ -138,6 +142,7 @@ public:
 
   static inline ::System::IntPtr getStaticF_InvalidHandle();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method get_SafeWaitHandle, addr 0x5cb718c, size 0xbc, virtual false, abstract: false, final false
   inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* get_SafeWaitHandle();
 
@@ -155,13 +160,13 @@ protected:
   constexpr WaitHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WaitHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaitHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaitHandle(WaitHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WaitHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WaitHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WaitHandle(WaitHandle const&) = delete;
+  WaitHandle(WaitHandleconst&) = delete;
 
   /// @brief Field ERROR_NOT_OWNED_BY_CALLER offset 0xffffffff size 0x4
   static constexpr int32_t ERROR_NOT_OWNED_BY_CALLER{ static_cast<int32_t>(0x12b) };

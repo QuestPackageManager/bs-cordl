@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MeshGizmo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MeshGizmo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MeshGizmo_def.hpp"
@@ -13,8 +13,8 @@
 #include "UnityEngine/zzzz__MeshTopology_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::MeshGizmo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::MeshGizmo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "color", ty:
+// "::UnityEngine::Color", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::MeshGizmo___c__DisplayClass10_0::MeshGizmo___c__DisplayClass10_0(::UnityEngine::Rendering::MeshGizmo* __4__this, ::UnityEngine::Color color) noexcept {
   this->__4__this = __4__this;
   this->color = color;

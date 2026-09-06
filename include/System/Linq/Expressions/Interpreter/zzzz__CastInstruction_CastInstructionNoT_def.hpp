@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\CastInstruction_CastInstructionNoT.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/CastInstruction_CastInstructionNoT.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   /// @brief Field _t, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t)) ::System::Type* _t;
 
-  /// @brief Method ConvertNull, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ConvertNull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   /// @brief Method Create, addr 0x5fbfb30, size 0xcc, virtual false, abstract: false, final false
@@ -68,13 +68,13 @@ protected:
   constexpr CastInstruction_CastInstructionNoT();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CastInstruction_CastInstructionNoT", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CastInstruction_CastInstructionNoT", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CastInstruction_CastInstructionNoT(CastInstruction_CastInstructionNoT&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CastInstruction_CastInstructionNoT", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CastInstruction_CastInstructionNoT", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CastInstruction_CastInstructionNoT(CastInstruction_CastInstructionNoT const&) = delete;
+  CastInstruction_CastInstructionNoT(CastInstruction_CastInstructionNoTconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16612 };

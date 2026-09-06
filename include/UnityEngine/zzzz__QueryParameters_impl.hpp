@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\QueryParameters.hpp"
+// IWYU pragma private; include "UnityEngine/QueryParameters.hpp"
 #include "UnityEngine/zzzz__QueryTriggerInteraction_impl.hpp"
 #include "UnityEngine/zzzz__QueryParameters_def.hpp"
 #include "UnityEngine/zzzz__QueryTriggerInteraction_def.hpp"
@@ -41,9 +41,9 @@ inline ::UnityEngine::QueryParameters UnityEngine::QueryParameters::get_Default(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::QueryParameters>(), { "get_Default", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::QueryParameters>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "hitMultipleFaces", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "hitTriggers", ty: "::UnityEngine::QueryTriggerInteraction", modifiers: "", def_value: Some("{}") }, CppParam { name: "hitBackfaces", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hitMultipleFaces", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "hitTriggers", ty: "::UnityEngine::QueryTriggerInteraction", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hitBackfaces",
+// ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::QueryParameters::QueryParameters(int32_t layerMask, bool hitMultipleFaces, ::UnityEngine::QueryTriggerInteraction hitTriggers, bool hitBackfaces) noexcept {
   this->layerMask = layerMask;
   this->hitMultipleFaces = hitMultipleFaces;

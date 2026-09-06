@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsPbeKey.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsPbeKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ public:
 
   __declspec(property(get = get_IterationCount)) int32_t IterationCount;
 
+  /// @brief [Obsolete("Will be removed")]
   __declspec(property(get = get_Password)) ::StringW Password;
 
   __declspec(property(get = get_Salt)) ::ArrayW<uint8_t> Salt;
@@ -59,9 +60,10 @@ public:
   /// @brief Method GetEncoded, addr 0x36b03d0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GetEncoded(::StringW algorithmOid);
 
+  /// [Obsolete("Use \'Salt\' property instead")]
   /// @brief Method GetSalt, addr 0x36b033c, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSalt();
 
@@ -69,8 +71,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
+  /// @brief [Obsolete("Use version taking \'char[]\' instead")]
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
+  /// @brief [Obsolete("Use version taking \'char[]\' instead")]
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
   constexpr int32_t const& __cordl_internal_get_iterationCount() const;
@@ -97,9 +101,11 @@ public:
   /// @brief Method .ctor, addr 0x36aff3c, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
+  /// [Obsolete("Use version taking \'char[]\' instead")]
   /// @brief Method .ctor, addr 0x36b0028, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
+  /// [Obsolete("Use version taking \'char[]\' instead")]
   /// @brief Method .ctor, addr 0x36afef8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
@@ -127,13 +133,13 @@ protected:
   constexpr CmsPbeKey();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsPbeKey", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsPbeKey", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsPbeKey(CmsPbeKey&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsPbeKey", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsPbeKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsPbeKey(CmsPbeKey const&) = delete;
+  CmsPbeKey(CmsPbeKeyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 642 };

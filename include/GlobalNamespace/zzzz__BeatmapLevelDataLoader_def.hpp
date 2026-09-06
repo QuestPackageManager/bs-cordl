@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelDataLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelDataLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_VAL_T(::GlobalNamespace::BeatmapLevelDataLoader__CheckBeatmapLevelDataFromA
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelDataLoader*, "", "BeatmapLevelDataLoader");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelDataLoader__CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4, "",
                     "BeatmapLevelDataLoader/<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__4");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -61,8 +62,9 @@ public:
   /// @brief Method MoveNext, addr 0x371d6bc, size 0x2f0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x371da58, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -71,11 +73,11 @@ public:
   // @brief default ctor
   constexpr BeatmapLevelDataLoader__CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BeatmapLevelDataLoader*", modifiers:
-  // "", def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None },
-  // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::BeatmapLevelDataLoader*", modifiers: "", def_value: None, comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapLevelDataLoader__CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                                          ::GlobalNamespace::BeatmapLevelDataLoader* __4__this, ::StringW levelId, ::StringW assetBundlePath,
                                                                                          ::System::Threading::CancellationToken cancellationToken,
@@ -90,21 +92,26 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelDataLoader* __4__this;
 
+  /// [Nullable(0)]
   /// @brief Field levelId, offset: 0x28, size: 0x8, def value: None
   ::StringW levelId;
 
+  /// [Nullable(0)]
   /// @brief Field assetBundlePath, offset: 0x30, size: 0x8, def value: None
   ::StringW assetBundlePath;
 
   /// @brief Field cancellationToken, offset: 0x38, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
@@ -128,6 +135,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataLoader__CheckBeatmapLe
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelDataLoader__CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__4) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -146,6 +155,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// [AsyncStateMachine(typeof(BeatmapLevelDataLoader::<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__4))]
   /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x371d324, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataFromAssetBundleExistsAsync(::StringW levelId, ::StringW assetBundlePath,
                                                                                                    ::System::Threading::CancellationToken cancellationToken);
@@ -183,13 +193,13 @@ protected:
   constexpr BeatmapLevelDataLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelDataLoader(BeatmapLevelDataLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataLoader(BeatmapLevelDataLoader const&) = delete;
+  BeatmapLevelDataLoader(BeatmapLevelDataLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14941 };

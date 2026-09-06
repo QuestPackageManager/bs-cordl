@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\MatchInfo.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/MatchInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr MatchInfo();
 
-  // Ctor Parameters [CppParam { name: "RoomId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "RoomPassword", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "Extra", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RoomId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "RoomPassword", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "Extra", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr MatchInfo(::StringW RoomId, ::StringW RoomPassword, ::StringW Extra) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

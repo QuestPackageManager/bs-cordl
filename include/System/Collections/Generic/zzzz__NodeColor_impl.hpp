@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\NodeColor.hpp"
+// IWYU pragma private; include "System/Collections/Generic/NodeColor.hpp"
 #include "System/Collections/Generic/zzzz__NodeColor_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Collections::Generic::NodeColor::NodeColor(uint8_t value__) noexcept {
   this->value__ = value__;
 }

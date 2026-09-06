@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\TypePathVisitor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/TypePathVisitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,9 +129,11 @@ public:
   /// @brief Method .ctor, addr 0x6d20d98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Path, addr 0x6d20b18, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_Path();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReturnCode, addr 0x6d20b3c, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Properties::VisitReturnCode get_ReturnCode();
 
@@ -144,12 +146,15 @@ public:
   /// @brief Convert to "::Unity::Properties::ITypeVisitor"
   constexpr ::Unity::Properties::ITypeVisitor* i___Unity__Properties__ITypeVisitor() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Path, addr 0x6d20b28, size 0xc, virtual false, abstract: false, final false
   inline void set_Path(::Unity::Properties::PropertyPath value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReturnCode, addr 0x6d20b44, size 0x8, virtual false, abstract: false, final false
   inline void set_ReturnCode(::Unity::Properties::VisitReturnCode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_resolvedType, addr 0x6d20b34, size 0x8, virtual false, abstract: false, final false
   inline void set_resolvedType(::System::Type* value);
 
@@ -159,23 +164,29 @@ protected:
   constexpr TypePathVisitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypePathVisitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypePathVisitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypePathVisitor(TypePathVisitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypePathVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypePathVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypePathVisitor(TypePathVisitor const&) = delete;
+  TypePathVisitor(TypePathVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5509 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Path>k__BackingField, offset: 0x10, size: 0x90, def value: None
   ::Unity::Properties::PropertyPath ____Path_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <resolvedType>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::System::Type* ____resolvedType_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ReturnCode>k__BackingField, offset: 0xa8, size: 0x4, def value: None
   ::Unity::Properties::VisitReturnCode ____ReturnCode_k__BackingField;
 

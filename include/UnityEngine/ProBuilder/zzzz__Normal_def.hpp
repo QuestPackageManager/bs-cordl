@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Normal.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Normal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,12 +52,18 @@ public:
   /// @brief Method GetHashCode, addr 0x66d0384, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_bitangent, addr 0x66d0210, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bitangent();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_normal, addr 0x66d01e0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_tangent, addr 0x66d01f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_tangent();
 
@@ -70,12 +76,15 @@ public:
   /// @brief Method op_Inequality, addr 0x66d0418, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::Normal a, ::UnityEngine::ProBuilder::Normal b);
 
+  /// [CompilerGenerated]
   /// @brief Method set_bitangent, addr 0x66d021c, size 0xc, virtual false, abstract: false, final false
   inline void set_bitangent(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_normal, addr 0x66d01ec, size 0xc, virtual false, abstract: false, final false
   inline void set_normal(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tangent, addr 0x66d0204, size 0xc, virtual false, abstract: false, final false
   inline void set_tangent(::UnityEngine::Vector4 value);
 
@@ -83,8 +92,9 @@ public:
   // @brief default ctor
   constexpr Normal();
 
-  // Ctor Parameters [CppParam { name: "_normal_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_tangent_k__BackingField", ty:
-  // "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "_bitangent_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_normal_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "_tangent_k__BackingField", ty:
+  // "::UnityEngine::Vector4", modifiers: "", def_value: None, comment: None }, CppParam { name: "_bitangent_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr Normal(::UnityEngine::Vector3 _normal_k__BackingField, ::UnityEngine::Vector4 _tangent_k__BackingField, ::UnityEngine::Vector3 _bitangent_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -93,12 +103,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [CompilerGenerated]
   /// @brief Field <normal>k__BackingField, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 _normal_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <tangent>k__BackingField, offset: 0xc, size: 0x10, def value: None
   ::UnityEngine::Vector4 _tangent_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <bitangent>k__BackingField, offset: 0x1c, size: 0xc, def value: None
   ::UnityEngine::Vector3 _bitangent_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\ArrayList_ReadOnlyArrayList.hpp"
+// IWYU pragma private; include "System/Collections/ArrayList_ReadOnlyArrayList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class ArrayList_ReadOnlyArrayList;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ArrayList_ReadOnlyArrayList*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ArrayList_ReadOnlyArrayList*, "System.Collections", "ArrayList/ReadOnlyArrayList");
+// [DefaultMember("Item")]
 // Dependencies System.Collections.ArrayList
 namespace GlobalNamespace {
 // Is value type: false
@@ -154,13 +155,13 @@ protected:
   constexpr ArrayList_ReadOnlyArrayList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ReadOnlyArrayList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ReadOnlyArrayList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayList_ReadOnlyArrayList(ArrayList_ReadOnlyArrayList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ReadOnlyArrayList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayList_ReadOnlyArrayList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ArrayList_ReadOnlyArrayList(ArrayList_ReadOnlyArrayList const&) = delete;
+  ArrayList_ReadOnlyArrayList(ArrayList_ReadOnlyArrayListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3722 };

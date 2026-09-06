@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\Enumeration\FileSystemEnumerableFactory.hpp"
+// IWYU pragma private; include "System/IO/Enumeration/FileSystemEnumerableFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ DEFINE_IL2CPP_CLASS(::System::IO::Enumeration::FileSystemEnumerableFactory___c*,
 DEFINE_IL2CPP_CLASS(::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass3_0*, "System.IO.Enumeration", "FileSystemEnumerableFactory/<>c__DisplayClass3_0");
 DEFINE_IL2CPP_CLASS(::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass4_0*, "System.IO.Enumeration", "FileSystemEnumerableFactory/<>c__DisplayClass4_0");
 DEFINE_IL2CPP_CLASS(::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass5_0*, "System.IO.Enumeration", "FileSystemEnumerableFactory/<>c__DisplayClass5_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::IO::Enumeration {
 // Is value type: false
@@ -100,13 +101,13 @@ protected:
   constexpr FileSystemEnumerableFactory___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerableFactory___c__DisplayClass3_0(FileSystemEnumerableFactory___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerableFactory___c__DisplayClass3_0(FileSystemEnumerableFactory___c__DisplayClass3_0 const&) = delete;
+  FileSystemEnumerableFactory___c__DisplayClass3_0(FileSystemEnumerableFactory___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3931 };
@@ -127,6 +128,7 @@ static_assert(offsetof(::System::IO::Enumeration::FileSystemEnumerableFactory___
 static_assert(sizeof(::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass3_0) == 0x20, "Size mismatch!");
 
 } // namespace System::IO::Enumeration
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::IO::Enumeration {
 // Is value type: false
@@ -182,13 +184,13 @@ protected:
   constexpr FileSystemEnumerableFactory___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerableFactory___c(FileSystemEnumerableFactory___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerableFactory___c(FileSystemEnumerableFactory___c const&) = delete;
+  FileSystemEnumerableFactory___c(FileSystemEnumerableFactory___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3932 };
@@ -199,6 +201,7 @@ public:
 static_assert(sizeof(::System::IO::Enumeration::FileSystemEnumerableFactory___c) == 0x10, "Size mismatch!");
 
 } // namespace System::IO::Enumeration
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::IO::Enumeration {
 // Is value type: false
@@ -238,13 +241,13 @@ protected:
   constexpr FileSystemEnumerableFactory___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerableFactory___c__DisplayClass4_0(FileSystemEnumerableFactory___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerableFactory___c__DisplayClass4_0(FileSystemEnumerableFactory___c__DisplayClass4_0 const&) = delete;
+  FileSystemEnumerableFactory___c__DisplayClass4_0(FileSystemEnumerableFactory___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3933 };
@@ -265,6 +268,7 @@ static_assert(offsetof(::System::IO::Enumeration::FileSystemEnumerableFactory___
 static_assert(sizeof(::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass4_0) == 0x20, "Size mismatch!");
 
 } // namespace System::IO::Enumeration
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::IO::Enumeration {
 // Is value type: false
@@ -304,13 +308,13 @@ protected:
   constexpr FileSystemEnumerableFactory___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass5_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerableFactory___c__DisplayClass5_0(FileSystemEnumerableFactory___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory___c__DisplayClass5_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerableFactory___c__DisplayClass5_0(FileSystemEnumerableFactory___c__DisplayClass5_0 const&) = delete;
+  FileSystemEnumerableFactory___c__DisplayClass5_0(FileSystemEnumerableFactory___c__DisplayClass5_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3934 };
@@ -374,13 +378,13 @@ protected:
   constexpr FileSystemEnumerableFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerableFactory(FileSystemEnumerableFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerableFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemEnumerableFactory(FileSystemEnumerableFactory const&) = delete;
+  FileSystemEnumerableFactory(FileSystemEnumerableFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3935 };

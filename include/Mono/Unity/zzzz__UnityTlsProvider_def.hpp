@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Unity\UnityTlsProvider.hpp"
+// IWYU pragma private; include "Mono/Unity/UnityTlsProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,6 +110,7 @@ public:
   /// @brief Method get_SupportsSslStream, addr 0x5fd5500, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsSslStream();
 
+  /// [MonoPInvokeCallback(typeof(Mono.Unity.UnityTls::unitytls_x509verify_callback))]
   /// @brief Method x509verify_callback, addr 0x5fd53fc, size 0x64, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_x509verify_result x509verify_callback(void* userData, ::Mono::Unity::UnityTls_unitytls_x509_ref cert,
                                                                                        ::Mono::Unity::UnityTls_unitytls_x509verify_result result,
@@ -121,13 +122,13 @@ protected:
   constexpr UnityTlsProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityTlsProvider(UnityTlsProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityTlsProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityTlsProvider(UnityTlsProvider const&) = delete;
+  UnityTlsProvider(UnityTlsProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11003 };

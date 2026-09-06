@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGLTFAccessor.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFAccessor.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFComponentType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -19,11 +19,11 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRGLTFType", modifiers: "", def_value: Some("{}") }, CppParam { name: "ComponentType", ty:
-// "::GlobalNamespace::OVRGLTFComponentType", modifiers: "", def_value: Some("{}") }, CppParam { name: "ComponentTypeStride", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "BufferViewIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Count", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Min", ty: "::OVRSimpleJSON::JSONNode*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Max", ty:
-// "::OVRSimpleJSON::JSONNode*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRGLTFType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ComponentType", ty:
+// "::GlobalNamespace::OVRGLTFComponentType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ComponentTypeStride", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "BufferViewIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Min", ty: "::OVRSimpleJSON::JSONNode*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Max", ty: "::OVRSimpleJSON::JSONNode*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor::OVRGLTFAccessor_GLTFAccessor(::GlobalNamespace::OVRGLTFType Type, ::GlobalNamespace::OVRGLTFComponentType ComponentType,
                                                                                         int32_t ComponentTypeStride, int32_t BufferViewIndex, int32_t ByteOffset, int32_t Count,
                                                                                         ::OVRSimpleJSON::JSONNode* Min, ::OVRSimpleJSON::JSONNode* Max) noexcept {
@@ -38,8 +38,9 @@ constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor::OVRGLTFAccessor_GLTFA
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor::OVRGLTFAccessor_GLTFAccessor() {}
-// Ctor Parameters [CppParam { name: "BufferIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "ByteLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ByteStride", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "BufferIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "ByteLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ByteStride", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView::OVRGLTFAccessor_GLTFBufferView(int32_t BufferIndex, int32_t ByteOffset, int32_t ByteLength, int32_t ByteStride) noexcept {
   this->BufferIndex = BufferIndex;
   this->ByteOffset = ByteOffset;
@@ -48,7 +49,7 @@ constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView::OVRGLTFAccessor_GLT
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView::OVRGLTFAccessor_GLTFBufferView() {}
-// Ctor Parameters [CppParam { name: "ByteLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ByteLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer::OVRGLTFAccessor_GLTFBuffer(int32_t ByteLength) noexcept {
   this->ByteLength = ByteLength;
 }

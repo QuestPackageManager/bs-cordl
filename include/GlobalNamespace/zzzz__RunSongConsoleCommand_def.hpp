@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RunSongConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/RunSongConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,14 @@ namespace GlobalNamespace {
 class ICoroutineStarter;
 }
 namespace GlobalNamespace {
-template <typename T> class OptionalArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class OptionalArgument_1;
 }
 namespace GlobalNamespace {
-template <typename T> class RequiredArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class RequiredArgument_1;
 }
 namespace GlobalNamespace {
 struct RunSongConsoleCommand__ExecuteAsync_d__26;
@@ -104,6 +108,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongConsoleCommand*, "", "RunSongConso
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29*, "", "RunSongConsoleCommand/<WaitUntilSongQueueEmptyCoroutine>d__29");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongConsoleCommand___c*, "", "RunSongConsoleCommand/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongConsoleCommand__ExecuteAsync_d__26, "", "RunSongConsoleCommand/<ExecuteAsync>d__26");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -139,13 +144,13 @@ protected:
   constexpr RunSongConsoleCommand___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RunSongConsoleCommand___c(RunSongConsoleCommand___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongConsoleCommand___c(RunSongConsoleCommand___c const&) = delete;
+  RunSongConsoleCommand___c(RunSongConsoleCommand___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19412 };
@@ -156,6 +161,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::RunSongConsoleCommand___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies BeatmapDifficulty, EntitlementStatus, GameplayModifiers::SongSpeed, PlaymodeOptions, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
@@ -170,6 +176,7 @@ public:
   /// @brief Method MoveNext, addr 0x32e46e0, size 0x1340, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32e5a20, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -180,14 +187,16 @@ public:
   // @brief default ctor
   constexpr RunSongConsoleCommand__ExecuteAsync_d__26();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::RunSongConsoleCommand*", modifiers:
-  // "", def_value: None }, CppParam { name: "messages", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None }, CppParam { name:
-  // "_recordingRelativePath_5__2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_playmodeOptions_5__3", ty: "::GlobalNamespace::PlaymodeOptions", modifiers: "", def_value:
-  // None }, CppParam { name: "_difficulty_5__4", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "_characteristic_5__5", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "_songSpeedEnum_5__6", ty: "::GlobalNamespace::GameplayModifiers_SongSpeed", modifiers: "", def_value: None }, CppParam { name: "_beatmapLevel_5__7", ty:
-  // "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None },
-  // CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::RunSongConsoleCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "messages", ty:
+  // "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_recordingRelativePath_5__2", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_playmodeOptions_5__3", ty: "::GlobalNamespace::PlaymodeOptions", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_difficulty_5__4", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None, comment: None }, CppParam { name: "_characteristic_5__5", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_songSpeedEnum_5__6", ty: "::GlobalNamespace::GameplayModifiers_SongSpeed", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_beatmapLevel_5__7", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None, comment: None }]
   constexpr RunSongConsoleCommand__ExecuteAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                       ::GlobalNamespace::RunSongConsoleCommand* __4__this, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages,
                                                       ::StringW _recordingRelativePath_5__2, ::GlobalNamespace::PlaymodeOptions _playmodeOptions_5__3,
@@ -268,6 +277,7 @@ static_assert(offsetof(::GlobalNamespace::RunSongConsoleCommand__ExecuteAsync_d_
 static_assert(sizeof(::GlobalNamespace::RunSongConsoleCommand__ExecuteAsync_d__26) == 0x68, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -300,17 +310,22 @@ public:
   /// @brief Method MoveNext, addr 0x32e5aa4, size 0x148, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32e5bec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32e5bf4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32e5c2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32e5aa0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -332,6 +347,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::RunSongConsoleCommand* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32e3ce8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -350,13 +366,13 @@ protected:
   constexpr RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29(RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29(RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29 const&) = delete;
+  RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29(RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19414 };
@@ -382,6 +398,7 @@ static_assert(offsetof(::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQu
 static_assert(sizeof(::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -456,6 +473,7 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
+  /// [AsyncStateMachine(typeof(RunSongConsoleCommand::<ExecuteAsync>d__26))]
   /// @brief Method ExecuteAsync, addr 0x32e393c, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
@@ -470,12 +488,15 @@ public:
   /// @brief Method WaitUntilSongQueueEmpty, addr 0x32e3b48, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitUntilSongQueueEmpty();
 
+  /// [IteratorStateMachine(typeof(RunSongConsoleCommand::<WaitUntilSongQueueEmptyCoroutine>d__29))]
   /// @brief Method WaitUntilSongQueueEmptyCoroutine, addr 0x32e3c94, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitUntilSongQueueEmptyCoroutine();
 
+  /// [CompilerGenerated]
   /// @brief Method <WaitUntilSongQueueEmptyCoroutine>b__29_0, addr 0x32e45cc, size 0x54, virtual false, abstract: false, final false
   inline bool _WaitUntilSongQueueEmptyCoroutine_b__29_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <WaitUntilSongQueueEmpty>b__28_0, addr 0x32e45a4, size 0x28, virtual false, abstract: false, final false
   inline bool _WaitUntilSongQueueEmpty_b__28_0();
 
@@ -608,13 +629,13 @@ protected:
   constexpr RunSongConsoleCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RunSongConsoleCommand(RunSongConsoleCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongConsoleCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongConsoleCommand(RunSongConsoleCommand const&) = delete;
+  RunSongConsoleCommand(RunSongConsoleCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19415 };
@@ -625,12 +646,15 @@ public:
   /// @brief Field kStopSongQueueCommand offset 0xffffffff size 0x8
   static constexpr ::ConstString kStopSongQueueCommand{ u"stop" };
 
+  /// [Inject]
   /// @brief Field _songRunningHelper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SongRunningHelper* ____songRunningHelper;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [Inject]
   /// @brief Field _coroutineStarter, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 

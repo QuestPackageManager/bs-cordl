@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VROverlayIntersectionMaskPrimitive_Data_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VROverlayIntersectionMaskPrimitive_Data_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,8 +43,8 @@ public:
   // @brief default ctor
   constexpr VROverlayIntersectionMaskPrimitive_Data_t();
 
-  // Ctor Parameters [CppParam { name: "m_Rectangle", ty: "::OVR::OpenVR::IntersectionMaskRectangle_t", modifiers: "", def_value: None }, CppParam { name: "m_Circle", ty:
-  // "::OVR::OpenVR::IntersectionMaskCircle_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Rectangle", ty: "::OVR::OpenVR::IntersectionMaskRectangle_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Circle", ty:
+  // "::OVR::OpenVR::IntersectionMaskCircle_t", modifiers: "", def_value: None, comment: None }]
   constexpr VROverlayIntersectionMaskPrimitive_Data_t(::OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle, ::OVR::OpenVR::IntersectionMaskCircle_t m_Circle) noexcept;
 
 private:

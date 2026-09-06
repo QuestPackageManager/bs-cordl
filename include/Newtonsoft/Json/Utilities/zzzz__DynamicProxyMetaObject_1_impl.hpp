@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\DynamicProxyMetaObject_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DynamicProxyMetaObject_1.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_impl.hpp"
 #include "System/Dynamic/zzzz__GetMemberBinder_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
@@ -35,14 +35,15 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-template <typename T> inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>::Invoke(::System::Dynamic::DynamicMetaObject* errorSuggestion) {
+template <typename T>
+inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>::Invoke(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* errorSuggestion) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, errorSuggestion);
 }
 template <typename T>
-inline ::System::IAsyncResult* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>::BeginInvoke(::System::Dynamic::DynamicMetaObject* errorSuggestion, ::System::AsyncCallback* callback,
-                                                                                                              ::System::Object* object) {
+inline ::System::IAsyncResult* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>::BeginInvoke(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* errorSuggestion,
+                                                                                                              ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, errorSuggestion, callback, object);
@@ -65,8 +66,9 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, binder);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_GetBinderAdapter<T>::FallbackGetMember(::System::Dynamic::DynamicMetaObject* target,
-                                                                                                                                          ::System::Dynamic::DynamicMetaObject* errorSuggestion) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_GetBinderAdapter<T>::FallbackGetMember(::System::Dynamic::DynamicMetaObject* target,
+                                                                                             /* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* errorSuggestion) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_GetBinderAdapter<T>*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, target, errorSuggestion);
@@ -156,7 +158,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass10_0<T>::_BindBinaryOperation_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass10_0<T>::_BindBinaryOperation_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass10_0<T>*>(),
                                                                                          { "<BindBinaryOperation>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -200,7 +203,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass11_0<T>::_BindUnaryOperation_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass11_0<T>::_BindUnaryOperation_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass11_0<T>*>(),
                                                                                          { "<BindUnaryOperation>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -258,7 +262,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass12_0<T>::_BindGetIndex_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass12_0<T>::_BindGetIndex_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass12_0<T>*>(),
                                                                                          { "<BindGetIndex>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -328,7 +333,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass13_0<T>::_BindSetIndex_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass13_0<T>::_BindSetIndex_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass13_0<T>*>(),
                                                                                          { "<BindSetIndex>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -386,7 +392,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass14_0<T>::_BindDeleteIndex_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass14_0<T>::_BindDeleteIndex_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass14_0<T>*>(),
                                                                                          { "<BindDeleteIndex>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -430,7 +437,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass3_0<T>::_BindGetMember_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass3_0<T>::_BindGetMember_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass3_0<T>*>(),
                                                                                          { "<BindGetMember>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -486,7 +494,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass4_0<T>::_BindSetMember_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass4_0<T>::_BindSetMember_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass4_0<T>*>(),
                                                                                          { "<BindSetMember>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -530,7 +539,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass5_0<T>::_BindDeleteMember_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass5_0<T>::_BindDeleteMember_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass5_0<T>*>(),
                                                                                          { "<BindDeleteMember>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -574,7 +584,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass6_0<T>::_BindConvert_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass6_0<T>::_BindConvert_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass6_0<T>*>(),
                                                                                          { "<BindConvert>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -631,13 +642,15 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass7_0<T>::_BindInvokeMember_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass7_0<T>::_BindInvokeMember_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass7_0<T>*>(),
                                                                                          { "<BindInvokeMember>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass7_0<T>::_BindInvokeMember_b__1(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass7_0<T>::_BindInvokeMember_b__1(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass7_0<T>*>(),
                                                                                          { "<BindInvokeMember>b__1", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -694,7 +707,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass8_0<T>::_BindCreateInstance_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass8_0<T>::_BindCreateInstance_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass8_0<T>*>(),
                                                                                          { "<BindCreateInstance>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -751,7 +765,8 @@ template <typename T> inline void Newtonsoft::Json::Utilities::DynamicProxyMetaO
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass9_0<T>::_BindInvoke_b__0(::System::Dynamic::DynamicMetaObject* e) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass9_0<T>::_BindInvoke_b__0(/* [Nullable(2)] */ ::System::Dynamic::DynamicMetaObject* e) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1___c__DisplayClass9_0<T>*>(),
                                                                                          { "<BindInvoke>b__0", {}, { ::i2c::type_of<::System::Dynamic::DynamicMetaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*>(this, ___internal_method, e);
@@ -870,7 +885,7 @@ template <typename T> inline ::ArrayW<::System::Linq::Expressions::Expression*> 
 }
 template <typename T>
 inline ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*
-Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::GetArgs(::ArrayW<::System::Dynamic::DynamicMetaObject*> args) {
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::GetArgs(/* [ParamArray] */ ::ArrayW<::System::Dynamic::DynamicMetaObject*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*>(),
                                                                                          { "GetArgs", {}, { ::i2c::type_of<::ArrayW<::System::Dynamic::DynamicMetaObject*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*>(nullptr, ___internal_method, args);
@@ -895,9 +910,11 @@ template <typename T> inline ::System::Linq::Expressions::ConstantExpression* Ne
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::ConstantExpression*>(nullptr, ___internal_method, binder);
 }
 template <typename T>
-inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::CallMethodWithResult(
-    ::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* args,
-    ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback, ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallbackInvoke) {
+inline ::System::Dynamic::DynamicMetaObject*
+Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::CallMethodWithResult(::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder,
+                                                                               ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* args,
+                                                                               /* [Nullable(new[] { 1, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback,
+                                                                               /* [Nullable(new[] { 2, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallbackInvoke) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*>(),
                                                                                          { "CallMethodWithResult",
                                                                                            {},
@@ -910,7 +927,7 @@ inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::Dynami
 template <typename T>
 inline ::System::Dynamic::DynamicMetaObject* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::BuildCallMethodWithResult(
     ::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* args,
-    ::System::Dynamic::DynamicMetaObject* fallbackResult, ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallbackInvoke) {
+    ::System::Dynamic::DynamicMetaObject* fallbackResult, /* [Nullable(new[] { 2, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallbackInvoke) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*>(),
@@ -925,7 +942,7 @@ template <typename T>
 inline ::System::Dynamic::DynamicMetaObject*
 Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::CallMethodReturnLast(::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder,
                                                                                ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* args,
-                                                                               ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback) {
+                                                                               /* [Nullable(new[] { 1, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*>(),
                                                                                          { "CallMethodReturnLast",
                                                                                            {},
@@ -938,7 +955,7 @@ template <typename T>
 inline ::System::Dynamic::DynamicMetaObject*
 Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::CallMethodNoResult(::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder,
                                                                              ::ArrayW<::System::Linq::Expressions::Expression*> args,
-                                                                             ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback) {
+                                                                             /* [Nullable(new[] { 1, 0 })] */ ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Fallback<T>* fallback) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*>(),
                                                                                          { "CallMethodNoResult",
                                                                                            {},

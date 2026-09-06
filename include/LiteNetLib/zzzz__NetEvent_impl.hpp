@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NetEvent.hpp"
+// IWYU pragma private; include "LiteNetLib/NetEvent.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_impl.hpp"
 #include "LiteNetLib/zzzz__DisconnectReason_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketError_impl.hpp"
@@ -12,7 +12,7 @@
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::LiteNetLib::NetEvent_EType::NetEvent_EType(int32_t value__) noexcept {
   this->value__ = value__;
 }

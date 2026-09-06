@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\KeyValuePairConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/KeyValuePairConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,8 @@ class KeyValuePairConverter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::KeyValuePairConverter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::KeyValuePairConverter*, "Newtonsoft.Json.Converters", "KeyValuePairConverter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -55,10 +57,11 @@ public:
   static inline ::Newtonsoft::Json::Converters::KeyValuePairConverter* New_ctor();
 
   /// @brief Method ReadJson, addr 0x5d9c61c, size 0x4e8, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
+                                    ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method WriteJson, addr 0x5d9c384, size 0x298, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method .ctor, addr 0x5d9cc18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -73,13 +76,13 @@ protected:
   constexpr KeyValuePairConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyValuePairConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyValuePairConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyValuePairConverter(KeyValuePairConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyValuePairConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyValuePairConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyValuePairConverter(KeyValuePairConverter const&) = delete;
+  KeyValuePairConverter(KeyValuePairConverterconst&) = delete;
 
   /// @brief Field KeyName offset 0xffffffff size 0x8
   static constexpr ::ConstString KeyName{ u"Key" };

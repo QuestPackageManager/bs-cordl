@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\ChaCha7539Engine.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/ChaCha7539Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ protected:
   constexpr ChaCha7539Engine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChaCha7539Engine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChaCha7539Engine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChaCha7539Engine(ChaCha7539Engine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChaCha7539Engine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChaCha7539Engine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ChaCha7539Engine(ChaCha7539Engine const&) = delete;
+  ChaCha7539Engine(ChaCha7539Engineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 837 };

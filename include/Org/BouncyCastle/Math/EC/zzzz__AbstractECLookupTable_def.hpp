@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\AbstractECLookupTable.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/AbstractECLookupTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::ECLookupTable"
   constexpr operator ::Org::BouncyCastle::Math::EC::ECLookupTable*() noexcept;
 
-  /// @brief Method Lookup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Lookup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
   /// @brief Method LookupVar, addr 0x34a520c, size 0xc, virtual true, abstract: false, final false
@@ -42,7 +42,7 @@ public:
   /// @brief Method .ctor, addr 0x34a4e0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Size, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Size();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECLookupTable"
@@ -54,13 +54,13 @@ protected:
   constexpr AbstractECLookupTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractECLookupTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractECLookupTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractECLookupTable(AbstractECLookupTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractECLookupTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbstractECLookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbstractECLookupTable(AbstractECLookupTable const&) = delete;
+  AbstractECLookupTable(AbstractECLookupTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1363 };

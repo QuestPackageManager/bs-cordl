@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\LocalizationModel.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/LocalizationModel.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationModel_def.hpp"
@@ -580,13 +580,13 @@ inline int32_t BGLib::Polyglot::LocalizationModel::get_selectedLanguageIndex() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationModel*>(), { "get_selectedLanguageIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline void BGLib::Polyglot::LocalizationModel::add__onChangeLanguage(::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value) {
+inline void BGLib::Polyglot::LocalizationModel::add__onChangeLanguage(/* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationModel*>(),
                                                            { "add__onChangeLanguage", {}, { ::i2c::type_of<::System::Action_1<::BGLib::Polyglot::LocalizationModel*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void BGLib::Polyglot::LocalizationModel::remove__onChangeLanguage(::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value) {
+inline void BGLib::Polyglot::LocalizationModel::remove__onChangeLanguage(/* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationModel*>(),
                                                            { "remove__onChangeLanguage", {}, { ::i2c::type_of<::System::Action_1<::BGLib::Polyglot::LocalizationModel*>*>() } })));
@@ -637,7 +637,7 @@ inline bool BGLib::Polyglot::LocalizationModel::TryGet(::StringW key, ::BGLib::P
                                               { "TryGet", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::BGLib::Polyglot::LocalizationLanguage>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, key, language, value);
 }
-inline ::StringW BGLib::Polyglot::LocalizationModel::GetFormatOrKey(::StringW key, ::ArrayW<::System::Object*> arguments) {
+inline ::StringW BGLib::Polyglot::LocalizationModel::GetFormatOrKey(::StringW key, /* [ParamArray] */ ::ArrayW<::System::Object*> arguments) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationModel*>(),
                                                                                          { "GetFormatOrKey", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, key, arguments);

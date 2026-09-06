@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\SHA1Internal.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/SHA1Internal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,13 +101,13 @@ protected:
   constexpr SHA1Internal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SHA1Internal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SHA1Internal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SHA1Internal(SHA1Internal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SHA1Internal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SHA1Internal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SHA1Internal(SHA1Internal const&) = delete;
+  SHA1Internal(SHA1Internalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3001 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformRequiresAppRestartException.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformRequiresAppRestartException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ protected:
   constexpr PlatformRequiresAppRestartException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformRequiresAppRestartException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformRequiresAppRestartException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformRequiresAppRestartException(PlatformRequiresAppRestartException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformRequiresAppRestartException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformRequiresAppRestartException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlatformRequiresAppRestartException(PlatformRequiresAppRestartException const&) = delete;
+  PlatformRequiresAppRestartException(PlatformRequiresAppRestartExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22453 };

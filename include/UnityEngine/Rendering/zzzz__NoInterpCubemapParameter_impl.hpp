@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpCubemapParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpCubemapParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpCubemapParameter_def.hpp"
 #include "UnityEngine/zzzz__Cubemap_def.hpp"

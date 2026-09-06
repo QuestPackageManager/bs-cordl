@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\PropertyBag_1.hpp"
+// IWYU pragma private; include "Unity/Properties/PropertyBag_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,10 +78,10 @@ public:
   /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Accept(::Unity::Properties::ITypeVisitor* visitor);
 
-  /// @brief Method GetProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties();
 
-  /// @brief Method GetProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties(::by_ref<TContainer> container);
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -119,6 +119,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_InstantiationKind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Unity::Properties::InstantiationKind get_InstantiationKind();
 
@@ -143,17 +144,19 @@ protected:
   constexpr PropertyBag_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_1(PropertyBag_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_1(PropertyBag_1 const&) = delete;
+  PropertyBag_1(PropertyBag_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19666 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <InstantiationKind>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Unity::Properties::InstantiationKind ____InstantiationKind_k__BackingField;
 

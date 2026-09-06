@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\XElement.hpp"
+// IWYU pragma private; include "System/Xml/Linq/XElement.hpp"
 #include "System/Xml/Linq/zzzz__XContainer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XElement_def.hpp"
@@ -254,6 +254,7 @@ inline ::System::Collections::IEnumerator* System::Xml::Linq::XElement__GetAttri
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement__GetAttributes_d__116*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::System::Xml::Linq::XElement__GetAttributes_d__116* System::Xml::Linq::XElement__GetAttributes_d__116::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Xml::Linq::XElement__GetAttributes_d__116*>(__1__state));
 }

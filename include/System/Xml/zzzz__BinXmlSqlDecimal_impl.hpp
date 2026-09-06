@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\BinXmlSqlDecimal.hpp"
+// IWYU pragma private; include "System/Xml/BinXmlSqlDecimal.hpp"
 #include "System/Xml/zzzz__BinXmlSqlDecimal_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: ::System::Xml::BinXmlSqlDecimal.get_IsPositive
@@ -240,10 +240,11 @@ inline ::StringW System::Xml::BinXmlSqlDecimal::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Xml::BinXmlSqlDecimal>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_bLen", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_bPrec", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_bScale", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_bSign", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_data1", ty:
-// "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_data2", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_data3", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_data4", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_bLen", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_bPrec", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_bScale", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_bSign", ty: "uint8_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_data1", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_data2", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_data3", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_data4", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Xml::BinXmlSqlDecimal::BinXmlSqlDecimal(uint8_t m_bLen, uint8_t m_bPrec, uint8_t m_bScale, uint8_t m_bSign, uint32_t m_data1, uint32_t m_data2, uint32_t m_data3,
                                                             uint32_t m_data4) noexcept {
   this->m_bLen = m_bLen;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\DBNull.hpp"
+// IWYU pragma private; include "System/DBNull.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -144,13 +144,13 @@ protected:
   constexpr DBNull();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DBNull", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DBNull", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DBNull(DBNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DBNull", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DBNull", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DBNull(DBNull const&) = delete;
+  DBNull(DBNullconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2369 };

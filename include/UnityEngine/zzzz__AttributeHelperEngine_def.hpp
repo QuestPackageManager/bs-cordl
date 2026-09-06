@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AttributeHelperEngine.hpp"
+// IWYU pragma private; include "UnityEngine/AttributeHelperEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__DisallowMultipleComponent_def.hpp"
 #include "UnityEngine/zzzz__ExecuteInEditMode_def.hpp"
@@ -20,7 +21,7 @@ class AttributeHelperEngine;
 // Write type traits
 MARK_REF_T(::UnityEngine::AttributeHelperEngine*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AttributeHelperEngine*, "UnityEngine", "AttributeHelperEngine");
-// Dependencies System.Object, UnityEngine.DisallowMultipleComponent, UnityEngine.ExecuteInEditMode, UnityEngine.RequireComponent
+// Dependencies System.Attribute, System.Object, UnityEngine.DisallowMultipleComponent, UnityEngine.ExecuteInEditMode, UnityEngine.RequireComponent
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.AttributeHelperEngine
@@ -37,21 +38,27 @@ public:
   /// @brief Field _requireComponentArray, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__requireComponentArray, put = setStaticF__requireComponentArray)) ::ArrayW<::UnityEngine::RequireComponent*> _requireComponentArray;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CheckIsEditorScript, addr 0x6ada868, size 0xd8, virtual false, abstract: false, final false
   static inline int32_t CheckIsEditorScript(::System::Type* klass);
 
   /// @brief Method GetCustomAttributeOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetCustomAttributeOfType(::System::Type* klass);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+  static inline T GetCustomAttributeOfType(::System::Type* klass);
 
+  /// [RequiredByNativeCode]
   /// @brief Method GetDefaultExecutionOrderFor, addr 0x6ada940, size 0x80, virtual false, abstract: false, final false
   static inline int32_t GetDefaultExecutionOrderFor(::System::Type* klass);
 
   /// @brief Method GetExecuteMode, addr 0x6ada764, size 0x104, virtual false, abstract: false, final false
   static inline int32_t GetExecuteMode(::System::Type* klass);
 
+  /// [RequiredByNativeCode]
   /// @brief Method GetParentTypeDisallowingMultipleInclusion, addr 0x6ada1b4, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Type* GetParentTypeDisallowingMultipleInclusion(::System::Type* type);
 
+  /// [RequiredByNativeCode]
   /// @brief Method GetRequiredComponents, addr 0x6ada2bc, size 0x4a8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*> GetRequiredComponents(::System::Type* klass);
 
@@ -73,13 +80,13 @@ protected:
   constexpr AttributeHelperEngine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeHelperEngine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttributeHelperEngine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AttributeHelperEngine(AttributeHelperEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeHelperEngine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttributeHelperEngine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AttributeHelperEngine(AttributeHelperEngine const&) = delete;
+  AttributeHelperEngine(AttributeHelperEngineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10301 };

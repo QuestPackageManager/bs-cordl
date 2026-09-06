@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleList_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleList_1.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -84,8 +84,8 @@ template <typename T>
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleList_1<T>>* UnityEngine::UIElements::StyleList_1<T>::i___System__IEquatable_1___UnityEngine__UIElements__StyleList_1_T__() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleList_1<T>>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Value", ty:
-// "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Value", ty:
+// "::System::Collections::Generic::List_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::UnityEngine::UIElements::StyleList_1<T>::StyleList_1(::UnityEngine::UIElements::StyleKeyword m_Keyword, ::System::Collections::Generic::List_1<T>* m_Value) noexcept {
   this->m_Keyword = m_Keyword;
   this->m_Value = m_Value;

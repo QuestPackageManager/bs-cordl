@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RTHandleSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RTHandleSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,7 +113,7 @@ public:
   // @brief default ctor
   constexpr RTHandleSystem_ResizeMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RTHandleSystem_ResizeMode(int32_t value__) noexcept;
 
   /// @brief Field Auto value: I32(0)
@@ -275,7 +275,7 @@ public:
   inline ::UnityEngine::Vector2Int CalculateDimensions(::UnityEngine::Rendering::ScaleFunc* scaleFunc);
 
   /// @brief Method CalculateRatioAgainstMaxSize, addr 0x67ae634, size 0x248, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 CalculateRatioAgainstMaxSize(::by_ref<::UnityEngine::Vector2Int> viewportSize);
+  inline ::UnityEngine::Vector2 CalculateRatioAgainstMaxSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int> viewportSize);
 
   /// @brief Method CreateRenderTexture, addr 0x67af9d0, size 0x534, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> CreateRenderTexture(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t slices,
@@ -309,6 +309,7 @@ public:
   /// @brief Method Initialize, addr 0x67ade64, size 0x2dc, virtual false, abstract: false, final false
   inline void Initialize(int32_t width, int32_t height);
 
+  /// [Obsolete("useLegacyDynamicResControl is deprecated. Please use SetHardwareDynamicResolutionState() instead.")]
   /// @brief Method Initialize, addr 0x67ae1d4, size 0x2c, virtual false, abstract: false, final false
   inline void Initialize(int32_t width, int32_t height, bool useLegacyDynamicResControl);
 
@@ -395,13 +396,13 @@ protected:
   constexpr RTHandleSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandleSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RTHandleSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RTHandleSystem(RTHandleSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RTHandleSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RTHandleSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RTHandleSystem(RTHandleSystem const&) = delete;
+  RTHandleSystem(RTHandleSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12247 };

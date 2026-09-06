@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\MatchResult.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/MatchResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,8 +30,8 @@ public:
   // @brief default ctor
   constexpr MatchResult();
 
-  // Ctor Parameters [CppParam { name: "errorCode", ty: "::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode", modifiers: "", def_value: None }, CppParam { name: "errorValue", ty:
-  // "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "errorCode", ty: "::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode", modifiers: "", def_value: None, comment: None }, CppParam { name: "errorValue",
+  // ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr MatchResult(::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode errorCode, ::StringW errorValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

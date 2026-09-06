@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MemoryPoolContainer_2.hpp"
+// IWYU pragma private; include "GlobalNamespace/MemoryPoolContainer_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ template <typename TValue> class IMemoryPool_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T0, typename T1> class MemoryPoolContainer_2;
+template <typename T0, typename T1>
+  requires(::cordl_internals::type_constraint<T0, T1>)
+class MemoryPoolContainer_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::MemoryPoolContainer_2);
@@ -25,6 +27,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::MemoryPoolContainer_2, "", "Memor
 namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1>
+  requires(::cordl_internals::type_constraint<T0, T1>)
 // Is value type: false
 // CS Name: MemoryPoolContainer`2<T0,T1>
 class CORDL_TYPE MemoryPoolContainer_2 : public ::System::Object {
@@ -76,13 +79,13 @@ protected:
   constexpr MemoryPoolContainer_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolContainer_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolContainer_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPoolContainer_2(MemoryPoolContainer_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolContainer_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolContainer_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemoryPoolContainer_2(MemoryPoolContainer_2 const&) = delete;
+  MemoryPoolContainer_2(MemoryPoolContainer_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21416 };

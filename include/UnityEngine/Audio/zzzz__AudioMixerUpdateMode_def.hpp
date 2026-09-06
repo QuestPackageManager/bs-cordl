@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioMixerUpdateMode.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioMixerUpdateMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   // @brief default ctor
   constexpr AudioMixerUpdateMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AudioMixerUpdateMode(int32_t value__) noexcept;
 
   /// @brief Field Normal value: I32(0)

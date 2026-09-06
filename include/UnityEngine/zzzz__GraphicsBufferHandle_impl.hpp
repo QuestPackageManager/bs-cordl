@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GraphicsBufferHandle.hpp"
+// IWYU pragma private; include "UnityEngine/GraphicsBufferHandle.hpp"
 #include "UnityEngine/zzzz__GraphicsBufferHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -63,7 +63,7 @@ constexpr UnityEngine::GraphicsBufferHandle::operator ::System::IEquatable_1<::U
 constexpr ::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>* UnityEngine::GraphicsBufferHandle::i___System__IEquatable_1___UnityEngine__GraphicsBufferHandle_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "value", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::GraphicsBufferHandle::GraphicsBufferHandle(uint32_t value) noexcept {
   this->value = value;
 }

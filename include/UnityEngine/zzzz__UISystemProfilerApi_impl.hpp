@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UISystemProfilerApi.hpp"
+// IWYU pragma private; include "UnityEngine/UISystemProfilerApi.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__UISystemProfilerApi_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__UISystemProfilerApi_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UISystemProfilerApi_SampleType::UISystemProfilerApi_SampleType(int32_t value__) noexcept {
   this->value__ = value__;
 }

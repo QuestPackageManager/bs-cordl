@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\Bevel.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/Bevel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,6 +82,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::Bevel___c*, "Unit
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_1*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_1");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_2*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_2");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -160,13 +161,13 @@ protected:
   constexpr Bevel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Bevel___c(Bevel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel___c(Bevel___c const&) = delete;
+  Bevel___c(Bevel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16854 };
@@ -177,6 +178,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::Bevel___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ProBuilder.SharedVertex
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -238,13 +240,13 @@ protected:
   constexpr Bevel___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Bevel___c__DisplayClass0_0(Bevel___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel___c__DisplayClass0_0(Bevel___c__DisplayClass0_0 const&) = delete;
+  Bevel___c__DisplayClass0_0(Bevel___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16855 };
@@ -275,6 +277,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::Bevel___c__Dis
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_0) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ProBuilder.EdgeLookup
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -305,13 +308,13 @@ protected:
   constexpr Bevel___c__DisplayClass0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Bevel___c__DisplayClass0_1(Bevel___c__DisplayClass0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel___c__DisplayClass0_1(Bevel___c__DisplayClass0_1 const&) = delete;
+  Bevel___c__DisplayClass0_1(Bevel___c__DisplayClass0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16856 };
@@ -327,6 +330,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::Bevel___c__Dis
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_1) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -366,13 +370,13 @@ protected:
   constexpr Bevel___c__DisplayClass0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Bevel___c__DisplayClass0_2(Bevel___c__DisplayClass0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel___c__DisplayClass0_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel___c__DisplayClass0_2(Bevel___c__DisplayClass0_2 const&) = delete;
+  Bevel___c__DisplayClass0_2(Bevel___c__DisplayClass0_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16857 };
@@ -438,13 +442,13 @@ protected:
   constexpr Bevel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Bevel(Bevel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Bevel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Bevel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Bevel(Bevel const&) = delete;
+  Bevel(Bevelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16858 };

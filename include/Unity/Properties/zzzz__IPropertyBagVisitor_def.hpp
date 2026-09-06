@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IPropertyBagVisitor.hpp"
+// IWYU pragma private; include "Unity/Properties/IPropertyBagVisitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ namespace Unity::Properties {
 class CORDL_TYPE IPropertyBagVisitor {
 public:
   // Declarations
-  /// @brief Method Visit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Visit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename TContainer> inline void Visit(::Unity::Properties::IPropertyBag_1<TContainer>* properties, ::by_ref<TContainer> container);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPropertyBagVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPropertyBagVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPropertyBagVisitor(IPropertyBagVisitor const&) = delete;
+  IPropertyBagVisitor(IPropertyBagVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19681 };

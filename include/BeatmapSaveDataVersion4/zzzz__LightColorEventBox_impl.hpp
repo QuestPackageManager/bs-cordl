@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\LightColorEventBox.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/LightColorEventBox.hpp"
 #include "BeatmapSaveDataCommon/zzzz__DistributionParamType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__LightColorEventBox_def.hpp"
-// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "t", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "t", ty:
+// "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatmapSaveDataVersion4::LightColorEventBox::LightColorEventBox(float_t w, ::BeatmapSaveDataCommon::DistributionParamType d, float_t s, ::BeatmapSaveDataCommon::DistributionParamType t,
                                                                             int32_t b, ::BeatmapSaveDataCommon::EaseType e) noexcept {
   this->w = w;

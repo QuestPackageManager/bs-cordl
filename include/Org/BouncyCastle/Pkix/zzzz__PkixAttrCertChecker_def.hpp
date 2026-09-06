@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixAttrCertChecker.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixAttrCertChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,14 +31,14 @@ namespace Org::BouncyCastle::Pkix {
 class CORDL_TYPE PkixAttrCertChecker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Check, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Check(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixCertPath* holderCertPath,
                     ::System::Collections::ICollection* unresolvedCritExts);
 
-  /// @brief Method Clone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Pkix::PkixAttrCertChecker* Clone();
 
-  /// @brief Method GetSupportedExtensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetSupportedExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetSupportedExtensions();
 
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertChecker* New_ctor();
@@ -52,13 +52,13 @@ protected:
   constexpr PkixAttrCertChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkixAttrCertChecker(PkixAttrCertChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PkixAttrCertChecker(PkixAttrCertChecker const&) = delete;
+  PkixAttrCertChecker(PkixAttrCertCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1710 };

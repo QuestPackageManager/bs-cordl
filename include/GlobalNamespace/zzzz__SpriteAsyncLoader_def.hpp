@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpriteAsyncLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpriteAsyncLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ MARK_VAL_T(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SpriteAsyncLoader*, "", "SpriteAsyncLoader");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10, "", "SpriteAsyncLoader/<DestroySpriteTask>d__10");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9, "", "SpriteAsyncLoader/<UnloadSprite>d__9");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -73,6 +74,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a2bd98, size 0x2a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a2c040, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -83,10 +85,11 @@ public:
   // @brief default ctor
   constexpr SpriteAsyncLoader__DestroySpriteTask_d__10();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "spriteTask", ty:
-  // "::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::SpriteAsyncLoader*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "spriteTask", ty:
+  // "::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::SpriteAsyncLoader*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr SpriteAsyncLoader__DestroySpriteTask_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                        ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* spriteTask, ::GlobalNamespace::SpriteAsyncLoader* __4__this,
                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
@@ -128,6 +131,7 @@ static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d
 static_assert(sizeof(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -141,6 +145,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a2c048, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a2c4a0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -151,11 +156,11 @@ public:
   // @brief default ctor
   constexpr SpriteAsyncLoader__UnloadSprite_d__9();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "cache", ty:
-  // "::GlobalNamespace::IReferenceCountingCache_2<::StringW,::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*", modifiers: "", def_value: None }, CppParam { name: "path", ty:
-  // "::StringW", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::SpriteAsyncLoader*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "cache", ty:
+  // "::GlobalNamespace::IReferenceCountingCache_2<::StringW,::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "path", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::SpriteAsyncLoader*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None, comment: None }]
   constexpr SpriteAsyncLoader__UnloadSprite_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                  ::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* cache, ::StringW path,
                                                  ::GlobalNamespace::SpriteAsyncLoader* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
@@ -235,6 +240,7 @@ public:
   /// @brief Method DestroySprite, addr 0x5a2bce4, size 0xb4, virtual false, abstract: false, final false
   static inline void DestroySprite(::UnityEngine::Sprite* sprite);
 
+  /// [AsyncStateMachine(typeof(SpriteAsyncLoader::<DestroySpriteTask>d__10))]
   /// @brief Method DestroySpriteTask, addr 0x5a2bc28, size 0xac, virtual false, abstract: false, final false
   inline void DestroySpriteTask(::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* spriteTask);
 
@@ -248,6 +254,7 @@ public:
   New_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
            ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize);
 
+  /// [AsyncStateMachine(typeof(SpriteAsyncLoader::<UnloadSprite>d__9))]
   /// @brief Method UnloadSprite, addr 0x5a2b828, size 0xb8, virtual false, abstract: false, final false
   inline void UnloadSprite(::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* cache, ::StringW path);
 
@@ -288,13 +295,13 @@ protected:
   constexpr SpriteAsyncLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsyncLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsyncLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpriteAsyncLoader(SpriteAsyncLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsyncLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpriteAsyncLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpriteAsyncLoader(SpriteAsyncLoader const&) = delete;
+  SpriteAsyncLoader(SpriteAsyncLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22857 };

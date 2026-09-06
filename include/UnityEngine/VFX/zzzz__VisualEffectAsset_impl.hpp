@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectAsset.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectAsset.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectObject_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectAsset_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

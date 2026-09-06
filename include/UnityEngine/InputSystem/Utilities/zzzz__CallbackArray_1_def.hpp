@@ -1,23 +1,28 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\CallbackArray_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/CallbackArray_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Delegate_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CallbackArray_1)
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate> struct CallbackArray_1;
+template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
+struct CallbackArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::CallbackArray_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::InputSystem::Utilities::CallbackArray_1, "UnityEngine.InputSystem.Utilities", "CallbackArray`1");
-// Dependencies UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
+// [DefaultMember("Item")]
+// Dependencies System.Delegate, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TDelegate>
+  requires(::cordl_internals::type_constraint<TDelegate, ::System::Delegate*>)
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.Utilities.CallbackArray`1<TDelegate>
 struct CORDL_TYPE CallbackArray_1 {
@@ -52,10 +57,10 @@ public:
   // @brief default ctor
   constexpr CallbackArray_1();
 
-  // Ctor Parameters [CppParam { name: "m_CannotMutateCallbacksArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Callbacks", ty:
-  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }, CppParam { name: "m_CallbacksToAdd", ty:
-  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }, CppParam { name: "m_CallbacksToRemove", ty:
-  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_CannotMutateCallbacksArray", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Callbacks", ty:
+  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CallbacksToAdd", ty:
+  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CallbacksToRemove", ty:
+  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None, comment: None }]
   constexpr CallbackArray_1(bool m_CannotMutateCallbacksArray, ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_Callbacks,
                             ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToAdd,
                             ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToRemove) noexcept;

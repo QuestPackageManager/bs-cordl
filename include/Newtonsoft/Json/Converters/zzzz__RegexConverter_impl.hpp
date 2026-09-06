@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\RegexConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/RegexConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__RegexConverter_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonWriter_def.hpp"
@@ -155,7 +155,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json:
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::Converters::RegexConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer) {
+inline void Newtonsoft::Json::Converters::RegexConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value,
+                                                                    ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::RegexConverter*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
@@ -183,7 +184,7 @@ inline void Newtonsoft::Json::Converters::RegexConverter::WriteJson(::Newtonsoft
                                                                ::i2c::type_of<::Newtonsoft::Json::JsonSerializer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, regex, serializer);
 }
-inline ::System::Object* Newtonsoft::Json::Converters::RegexConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue,
+inline ::System::Object* Newtonsoft::Json::Converters::RegexConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
                                                                                 ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::RegexConverter*>(), 5 })));

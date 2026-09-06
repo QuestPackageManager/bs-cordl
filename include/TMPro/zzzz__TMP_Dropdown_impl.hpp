@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Dropdown.hpp"
+// IWYU pragma private; include "TMPro/TMP_Dropdown.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_Dropdown_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -922,6 +923,7 @@ inline ::System::Object* TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90* TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90*>(__1__state));
 }
@@ -2037,7 +2039,9 @@ inline void TMPro::TMP_Dropdown::SetupTemplate() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "SetupTemplate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline T TMPro::TMP_Dropdown::GetOrAddComponent(::UnityEngine::GameObject* go) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T TMPro::TMP_Dropdown::GetOrAddComponent(::UnityEngine::GameObject* go) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Dropdown*>(), { "GetOrAddComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::GameObject*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

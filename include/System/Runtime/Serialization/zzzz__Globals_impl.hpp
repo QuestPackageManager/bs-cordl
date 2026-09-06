@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\Globals.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/Globals.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__Globals_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\CopyDepthPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/CopyDepthPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,7 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CopyDepthPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -119,13 +121,13 @@ protected:
   constexpr CopyDepthPass_ShaderConstants();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_ShaderConstants", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_ShaderConstants", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyDepthPass_ShaderConstants(CopyDepthPass_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_ShaderConstants", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_ShaderConstants", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyDepthPass_ShaderConstants(CopyDepthPass_ShaderConstants const&) = delete;
+  CopyDepthPass_ShaderConstants(CopyDepthPass_ShaderConstantsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13077 };
@@ -217,13 +219,13 @@ protected:
   constexpr CopyDepthPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyDepthPass_PassData(CopyDepthPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyDepthPass_PassData(CopyDepthPass_PassData const&) = delete;
+  CopyDepthPass_PassData(CopyDepthPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
@@ -269,6 +271,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::Internal::CopyDepthP
 static_assert(sizeof(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData) == 0x38, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal::Internal {
 // Is value type: false
@@ -309,13 +312,13 @@ protected:
   constexpr CopyDepthPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyDepthPass___c(CopyDepthPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyDepthPass___c(CopyDepthPass___c const&) = delete;
+  CopyDepthPass___c(CopyDepthPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
@@ -385,6 +388,7 @@ public:
   /// @brief Method Dispose, addr 0x68fc174, size 0x60, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x68fc20c, size 0x1e0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -398,6 +402,7 @@ public:
   /// @brief Method OnCameraCleanup, addr 0x68fca04, size 0xbc, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x68fc1d4, size 0x38, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -478,39 +483,51 @@ public:
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader, bool shouldClear, bool copyToDepth, bool copyResolvedDepth,
                     ::StringW customPassName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_CopyToBackbuffer, addr 0x68fbf70, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToBackbuffer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CopyToDepth, addr 0x68fbf50, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToDepth();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CopyToDepthXR, addr 0x68fbf60, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToDepthXR();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MssaSamples, addr 0x68fbf40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MssaSamples();
 
+  /// [CompilerGenerated]
   /// @brief Method get_destination, addr 0x68fbf30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_destination();
 
+  /// [CompilerGenerated]
   /// @brief Method get_source, addr 0x68fbf20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_source();
 
+  /// [CompilerGenerated]
   /// @brief Method set_CopyToBackbuffer, addr 0x68fbf78, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToBackbuffer(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CopyToDepth, addr 0x68fbf58, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToDepth(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CopyToDepthXR, addr 0x68fbf68, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToDepthXR(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MssaSamples, addr 0x68fbf48, size 0x8, virtual false, abstract: false, final false
   inline void set_MssaSamples(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_destination, addr 0x68fbf38, size 0x8, virtual false, abstract: false, final false
   inline void set_destination(::UnityEngine::Rendering::RTHandle* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_source, addr 0x68fbf28, size 0x8, virtual false, abstract: false, final false
   inline void set_source(::UnityEngine::Rendering::RTHandle* value);
 
@@ -520,32 +537,38 @@ protected:
   constexpr CopyDepthPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CopyDepthPass(CopyDepthPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CopyDepthPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CopyDepthPass(CopyDepthPass const&) = delete;
+  CopyDepthPass(CopyDepthPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13080 };
 
+  /// [CompilerGenerated]
   /// @brief Field <source>k__BackingField, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____source_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <destination>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____destination_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MssaSamples>k__BackingField, offset: 0xc8, size: 0x4, def value: None
   int32_t ____MssaSamples_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CopyToDepth>k__BackingField, offset: 0xcc, size: 0x1, def value: None
   bool ____CopyToDepth_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CopyToDepthXR>k__BackingField, offset: 0xcd, size: 0x1, def value: None
   bool ____CopyToDepthXR_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CopyToBackbuffer>k__BackingField, offset: 0xce, size: 0x1, def value: None
   bool ____CopyToBackbuffer_k__BackingField;
 

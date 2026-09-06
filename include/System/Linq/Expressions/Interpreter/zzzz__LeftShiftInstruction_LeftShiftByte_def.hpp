@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LeftShiftInstruction_LeftShiftByte.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LeftShiftInstruction_LeftShiftByte.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr LeftShiftInstruction_LeftShiftByte();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftByte", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftByte", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeftShiftInstruction_LeftShiftByte(LeftShiftInstruction_LeftShiftByte&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftByte", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeftShiftInstruction_LeftShiftByte", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeftShiftInstruction_LeftShiftByte(LeftShiftInstruction_LeftShiftByte const&) = delete;
+  LeftShiftInstruction_LeftShiftByte(LeftShiftInstruction_LeftShiftByteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16404 };

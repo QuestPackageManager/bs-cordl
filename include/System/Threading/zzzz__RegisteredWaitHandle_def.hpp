@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\RegisteredWaitHandle.hpp"
+// IWYU pragma private; include "System/Threading/RegisteredWaitHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class RegisteredWaitHandle;
 // Write type traits
 MARK_REF_T(::System::Threading::RegisteredWaitHandle*);
 DEFINE_IL2CPP_CLASS(::System::Threading::RegisteredWaitHandle*, "System.Threading", "RegisteredWaitHandle");
+// [ComVisible(true)]
 // Dependencies System.MarshalByRefObject, System.TimeSpan
 namespace System::Threading {
 // Is value type: false
@@ -69,6 +70,7 @@ public:
   static inline ::System::Threading::RegisteredWaitHandle* New_ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state,
                                                                     ::System::TimeSpan timeout, bool executeOnlyOnce);
 
+  /// [ComVisible(true)]
   /// @brief Method Unregister, addr 0x5cb9bf4, size 0xf4, virtual false, abstract: false, final false
   inline bool Unregister(::System::Threading::WaitHandle* waitObject);
 
@@ -138,13 +140,13 @@ protected:
   constexpr RegisteredWaitHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegisteredWaitHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegisteredWaitHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegisteredWaitHandle(RegisteredWaitHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegisteredWaitHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RegisteredWaitHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RegisteredWaitHandle(RegisteredWaitHandle const&) = delete;
+  RegisteredWaitHandle(RegisteredWaitHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2760 };

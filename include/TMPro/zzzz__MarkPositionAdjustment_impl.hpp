@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\MarkPositionAdjustment.hpp"
+// IWYU pragma private; include "TMPro/MarkPositionAdjustment.hpp"
 #include "TMPro/zzzz__MarkPositionAdjustment_def.hpp"
 //  Writing Method size for method: ::TMPro::MarkPositionAdjustment.get_xPositionAdjustment
 template <>
@@ -87,8 +87,8 @@ inline void TMPro::MarkPositionAdjustment::_ctor(float_t x, float_t y) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkPositionAdjustment>(), { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, x, y);
 }
-// Ctor Parameters [CppParam { name: "m_XPositionAdjustment", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_YPositionAdjustment", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_XPositionAdjustment", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_YPositionAdjustment", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::MarkPositionAdjustment::MarkPositionAdjustment(float_t m_XPositionAdjustment, float_t m_YPositionAdjustment) noexcept {
   this->m_XPositionAdjustment = m_XPositionAdjustment;
   this->m_YPositionAdjustment = m_YPositionAdjustment;

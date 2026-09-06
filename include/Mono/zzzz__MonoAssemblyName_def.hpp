@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\MonoAssemblyName.hpp"
+// IWYU pragma private; include "Mono/MonoAssemblyName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ MARK_VAL_T(::Mono::MonoAssemblyName);
 MARK_VAL_T(::Mono::MonoAssemblyName__public_key_token_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::Mono::MonoAssemblyName, "Mono", "MonoAssemblyName");
 DEFINE_IL2CPP_CLASS(::Mono::MonoAssemblyName__public_key_token_e__FixedBuffer, "Mono", "MonoAssemblyName/<public_key_token>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace Mono {
 // Is value type: true
@@ -34,7 +36,7 @@ public:
   // @brief default ctor
   constexpr MonoAssemblyName__public_key_token_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr MonoAssemblyName__public_key_token_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -71,12 +73,13 @@ public:
   // @brief default ctor
   constexpr MonoAssemblyName();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam
-  // { name: "hash_value", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "public_key", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
-  // "public_key_token", ty: "::Mono::MonoAssemblyName__public_key_token_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "hash_alg", ty: "uint32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "hash_len", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "major", ty:
-  // "uint16_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "uint16_t", modifiers: "", def_value: None
-  // }, CppParam { name: "revision", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "arch", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "culture", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "hash_value", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "public_key", ty: "::System::IntPtr", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "public_key_token", ty: "::Mono::MonoAssemblyName__public_key_token_e__FixedBuffer", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "hash_alg", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "hash_len", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "flags", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "minor", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "build", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "revision", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "arch", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr MonoAssemblyName(::System::IntPtr name, ::System::IntPtr culture, ::System::IntPtr hash_value, ::System::IntPtr public_key,
                              ::Mono::MonoAssemblyName__public_key_token_e__FixedBuffer public_key_token, uint32_t hash_alg, uint32_t hash_len, uint32_t flags, uint16_t major, uint16_t minor,
                              uint16_t build, uint16_t revision, uint16_t arch) noexcept;
@@ -99,6 +102,7 @@ public:
   /// @brief Field public_key, offset: 0x18, size: 0x8, def value: None
   ::System::IntPtr public_key;
 
+  /// [FixedBuffer(typeof(System.Byte), 17)]
   /// @brief Field public_key_token, offset: 0x20, size: 0x11, def value: None
   ::Mono::MonoAssemblyName__public_key_token_e__FixedBuffer public_key_token;
 

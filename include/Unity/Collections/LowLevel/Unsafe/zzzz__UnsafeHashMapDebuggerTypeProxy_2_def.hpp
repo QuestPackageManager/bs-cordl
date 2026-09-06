@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeHashMapDebuggerTypeProxy_2.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeHashMapDebuggerTypeProxy_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__HashMapHelper_1_def.hpp"
 CORDL_MODULE_EXPORT(UnsafeHashMapDebuggerTypeProxy_2)
@@ -10,25 +11,36 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue> struct UnsafeHashMap_2_ReadOnly;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct UnsafeHashMap_2_ReadOnly;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue> struct UnsafeHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct UnsafeHashMap_2;
 }
 namespace Unity::Collections {
 template <typename Key, typename Value> struct Pair_2;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue> class UnsafeHashMapDebuggerTypeProxy_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class UnsafeHashMapDebuggerTypeProxy_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::LowLevel::Unsafe::UnsafeHashMapDebuggerTypeProxy_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::LowLevel::Unsafe::UnsafeHashMapDebuggerTypeProxy_2, "Unity.Collections.LowLevel.Unsafe", "UnsafeHashMapDebuggerTypeProxy`2");
-// Dependencies System.Object, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
+// Dependencies System.IEquatable`1<T>, System.Object, Unity.Collections.LowLevel.Unsafe.HashMapHelper`1<TKey>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: false
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeHashMapDebuggerTypeProxy`2<TKey,TValue>
 class CORDL_TYPE UnsafeHashMapDebuggerTypeProxy_2 : public ::System::Object {
@@ -64,13 +76,13 @@ protected:
   constexpr UnsafeHashMapDebuggerTypeProxy_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeHashMapDebuggerTypeProxy_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeHashMapDebuggerTypeProxy_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeHashMapDebuggerTypeProxy_2(UnsafeHashMapDebuggerTypeProxy_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeHashMapDebuggerTypeProxy_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeHashMapDebuggerTypeProxy_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeHashMapDebuggerTypeProxy_2(UnsafeHashMapDebuggerTypeProxy_2 const&) = delete;
+  UnsafeHashMapDebuggerTypeProxy_2(UnsafeHashMapDebuggerTypeProxy_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15768 };

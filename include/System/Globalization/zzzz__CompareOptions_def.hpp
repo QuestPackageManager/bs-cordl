@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\CompareOptions.hpp"
+// IWYU pragma private; include "System/Globalization/CompareOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CompareOptions;
 // Write type traits
 MARK_VAL_T(::System::Globalization::CompareOptions);
 DEFINE_IL2CPP_CLASS(::System::Globalization::CompareOptions, "System.Globalization", "CompareOptions");
+// [Flags]
 // Dependencies
 namespace System::Globalization {
 // Is value type: true
@@ -49,7 +50,7 @@ public:
   // @brief default ctor
   constexpr CompareOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CompareOptions(int32_t value__) noexcept;
 
   /// @brief Field IgnoreCase value: I32(1)

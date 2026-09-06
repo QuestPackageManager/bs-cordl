@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputStateBuffers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputStateBuffers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,8 @@ public:
   // @brief default ctor
   constexpr InputStateBuffers_DoubleBuffers();
 
-  // Ctor Parameters [CppParam { name: "deviceToBufferMapping", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "deviceCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "deviceToBufferMapping", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "deviceCount", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr InputStateBuffers_DoubleBuffers(void* deviceToBufferMapping, int32_t deviceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -163,10 +164,10 @@ public:
   // @brief default ctor
   constexpr InputStateBuffers();
 
-  // Ctor Parameters [CppParam { name: "sizePerBuffer", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "totalSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "defaultStateBuffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "noiseMaskBuffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "resetMaskBuffer",
-  // ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_AllBuffers", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_PlayerStateBuffers", ty:
-  // "::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sizePerBuffer", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "totalSize", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "defaultStateBuffer", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "noiseMaskBuffer", ty: "void*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "resetMaskBuffer", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllBuffers", ty: "void*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_PlayerStateBuffers", ty: "::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers", modifiers: "", def_value: None, comment: None }]
   constexpr InputStateBuffers(uint32_t sizePerBuffer, uint32_t totalSize, void* defaultStateBuffer, void* noiseMaskBuffer, void* resetMaskBuffer, void* m_AllBuffers,
                               ::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers m_PlayerStateBuffers) noexcept;
 

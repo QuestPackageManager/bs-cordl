@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\LinkedList_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/LinkedList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -143,9 +143,9 @@ public:
   // @brief default ctor
   constexpr LinkedList_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LinkedList_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_node", ty:
-  // "::System::Collections::Generic::LinkedListNode_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_current", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LinkedList_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_node", ty:
+  // "::System::Collections::Generic::LinkedListNode_1<T>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LinkedList_1_Enumerator(::System::Collections::Generic::LinkedList_1<T>* _list, ::System::Collections::Generic::LinkedListNode_1<T>* _node, int32_t _version, T _current,
                                     int32_t _index) noexcept;
 
@@ -174,6 +174,8 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Generic.ICollectionDebugView`1<T>))]
 // Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -399,13 +401,13 @@ protected:
   constexpr LinkedList_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedList_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinkedList_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinkedList_1(LinkedList_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LinkedList_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LinkedList_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LinkedList_1(LinkedList_1 const&) = delete;
+  LinkedList_1(LinkedList_1const&) = delete;
 
   /// @brief Field CountName offset 0xffffffff size 0x8
   static constexpr ::ConstString CountName{ u"Count" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Dropdown.hpp"
+// IWYU pragma private; include "TMPro/TMP_Dropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -55,7 +56,9 @@ namespace TMPro {
 class TMP_Text;
 }
 namespace TMPro {
-template <typename T> class TweenRunner_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::TMPro::ITweenValue*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class TweenRunner_1;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
@@ -257,26 +260,30 @@ protected:
   constexpr TMP_Dropdown_DropdownItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_DropdownItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_DropdownItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Dropdown_DropdownItem(TMP_Dropdown_DropdownItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_DropdownItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_DropdownItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Dropdown_DropdownItem(TMP_Dropdown_DropdownItem const&) = delete;
+  TMP_Dropdown_DropdownItem(TMP_Dropdown_DropdownItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15903 };
 
+  /// [SerializeField]
   /// @brief Field m_Text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ___m_Text;
 
+  /// [SerializeField]
   /// @brief Field m_Image, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_Image;
 
+  /// [SerializeField]
   /// @brief Field m_RectTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_RectTransform;
 
+  /// [SerializeField]
   /// @brief Field m_Toggle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ___m_Toggle;
 
@@ -378,23 +385,26 @@ protected:
   constexpr TMP_Dropdown_OptionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_OptionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_OptionData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Dropdown_OptionData(TMP_Dropdown_OptionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_OptionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_OptionData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Dropdown_OptionData(TMP_Dropdown_OptionData const&) = delete;
+  TMP_Dropdown_OptionData(TMP_Dropdown_OptionDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15904 };
 
+  /// [SerializeField]
   /// @brief Field m_Text, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Text;
 
+  /// [SerializeField]
   /// @brief Field m_Image, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___m_Image;
 
+  /// [SerializeField]
   /// @brief Field m_Color, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ___m_Color;
 
@@ -445,17 +455,18 @@ protected:
   constexpr TMP_Dropdown_OptionDataList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_OptionDataList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_OptionDataList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Dropdown_OptionDataList(TMP_Dropdown_OptionDataList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_OptionDataList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_OptionDataList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Dropdown_OptionDataList(TMP_Dropdown_OptionDataList const&) = delete;
+  TMP_Dropdown_OptionDataList(TMP_Dropdown_OptionDataListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15905 };
 
+  /// [SerializeField]
   /// @brief Field m_Options, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>* ___m_Options;
 
@@ -485,13 +496,13 @@ protected:
   constexpr TMP_Dropdown_DropdownEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_DropdownEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_DropdownEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Dropdown_DropdownEvent(TMP_Dropdown_DropdownEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_DropdownEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown_DropdownEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Dropdown_DropdownEvent(TMP_Dropdown_DropdownEvent const&) = delete;
+  TMP_Dropdown_DropdownEvent(TMP_Dropdown_DropdownEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15906 };
@@ -502,6 +513,7 @@ public:
 static_assert(sizeof(::TMPro::TMP_Dropdown_DropdownEvent) == 0x30, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -553,13 +565,13 @@ protected:
   constexpr TMP_Dropdown___c__DisplayClass76_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown___c__DisplayClass76_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown___c__DisplayClass76_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Dropdown___c__DisplayClass76_0(TMP_Dropdown___c__DisplayClass76_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown___c__DisplayClass76_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown___c__DisplayClass76_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Dropdown___c__DisplayClass76_0(TMP_Dropdown___c__DisplayClass76_0 const&) = delete;
+  TMP_Dropdown___c__DisplayClass76_0(TMP_Dropdown___c__DisplayClass76_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15907 };
@@ -585,6 +597,7 @@ static_assert(offsetof(::TMPro::TMP_Dropdown___c__DisplayClass76_0, _____4__this
 static_assert(sizeof(::TMPro::TMP_Dropdown___c__DisplayClass76_0) == 0x28, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -624,13 +637,13 @@ protected:
   constexpr TMP_Dropdown___c__DisplayClass76_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown___c__DisplayClass76_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown___c__DisplayClass76_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Dropdown___c__DisplayClass76_1(TMP_Dropdown___c__DisplayClass76_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown___c__DisplayClass76_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown___c__DisplayClass76_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Dropdown___c__DisplayClass76_1(TMP_Dropdown___c__DisplayClass76_1 const&) = delete;
+  TMP_Dropdown___c__DisplayClass76_1(TMP_Dropdown___c__DisplayClass76_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15908 };
@@ -651,6 +664,7 @@ static_assert(offsetof(::TMPro::TMP_Dropdown___c__DisplayClass76_1, _____4__this
 static_assert(sizeof(::TMPro::TMP_Dropdown___c__DisplayClass76_1) == 0x20, "Size mismatch!");
 
 } // namespace TMPro
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
@@ -686,17 +700,22 @@ public:
   /// @brief Method MoveNext, addr 0x6950ea0, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6950f4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6950f54, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6950f8c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6950e9c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -724,6 +743,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6950780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -742,13 +762,13 @@ protected:
   constexpr TMP_Dropdown__DelayedDestroyDropdownList_d__90();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown__DelayedDestroyDropdownList_d__90", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown__DelayedDestroyDropdownList_d__90", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Dropdown__DelayedDestroyDropdownList_d__90(TMP_Dropdown__DelayedDestroyDropdownList_d__90&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown__DelayedDestroyDropdownList_d__90", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown__DelayedDestroyDropdownList_d__90", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Dropdown__DelayedDestroyDropdownList_d__90(TMP_Dropdown__DelayedDestroyDropdownList_d__90 const&) = delete;
+  TMP_Dropdown__DelayedDestroyDropdownList_d__90(TMP_Dropdown__DelayedDestroyDropdownList_d__90const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15909 };
@@ -779,7 +799,9 @@ static_assert(offsetof(::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90, 
 static_assert(sizeof(::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__90) == 0x30, "Size mismatch!");
 
 } // namespace TMPro
-// Dependencies UnityEngine.UI.Selectable
+// [AddComponentMenu("UI/Dropdown - TextMeshPro", 35)]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
+// Dependencies UnityEngine.Component, UnityEngine.UI.Selectable
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.TMP_Dropdown
@@ -933,6 +955,7 @@ public:
   /// @brief Method CreateItem, addr 0x6950564, size 0x74, virtual true, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Dropdown_DropdownItem> CreateItem(::TMPro::TMP_Dropdown_DropdownItem* itemTemplate);
 
+  /// [IteratorStateMachine(typeof(TMPro.TMP_Dropdown::<DelayedDestroyDropdownList>d__90))]
   /// @brief Method DelayedDestroyDropdownList, addr 0x695071c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedDestroyDropdownList(float_t delay);
 
@@ -952,7 +975,9 @@ public:
   static inline int32_t FirstActiveFlagIndex(int32_t value);
 
   /// @brief Method GetOrAddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+  static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
 
   /// @brief Method Hide, addr 0x694f8e0, size 0x118, virtual false, abstract: false, final false
   inline void Hide();
@@ -1209,47 +1234,62 @@ protected:
   constexpr TMP_Dropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Dropdown(TMP_Dropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Dropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Dropdown(TMP_Dropdown const&) = delete;
+  TMP_Dropdown(TMP_Dropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15910 };
 
+  /// [SerializeField]
   /// @brief Field m_Template, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_Template;
 
+  /// [SerializeField]
   /// @brief Field m_CaptionText, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ___m_CaptionText;
 
+  /// [SerializeField]
   /// @brief Field m_CaptionImage, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_CaptionImage;
 
+  /// [SerializeField]
   /// @brief Field m_Placeholder, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ___m_Placeholder;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_ItemText, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ___m_ItemText;
 
+  /// [SerializeField]
   /// @brief Field m_ItemImage, offset: 0x128, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_ItemImage;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_Value, offset: 0x130, size: 0x4, def value: None
   int32_t ___m_Value;
 
+  /// [SerializeField]
   /// @brief Field m_MultiSelect, offset: 0x134, size: 0x1, def value: None
   bool ___m_MultiSelect;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_Options, offset: 0x138, size: 0x8, def value: None
   ::TMPro::TMP_Dropdown_OptionDataList* ___m_Options;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field m_OnValueChanged, offset: 0x140, size: 0x8, def value: None
   ::TMPro::TMP_Dropdown_DropdownEvent* ___m_OnValueChanged;
 
+  /// [SerializeField]
   /// @brief Field m_AlphaFadeSpeed, offset: 0x148, size: 0x4, def value: None
   float_t ___m_AlphaFadeSpeed;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Ram\G_RamManager.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Ram/G_RamManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -186,20 +186,22 @@ protected:
   constexpr G_RamManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_RamManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_RamManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_RamManager(G_RamManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_RamManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_RamManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_RamManager(G_RamManager const&) = delete;
+  G_RamManager(G_RamManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21494 };
 
+  /// [SerializeField]
   /// @brief Field m_ramGraphGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_ramGraphGameObject;
 
+  /// [SerializeField]
   /// @brief Field m_backgroundImages, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* ___m_backgroundImages;
 

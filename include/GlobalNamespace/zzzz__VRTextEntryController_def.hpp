@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRTextEntryController.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRTextEntryController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::GlobalNamespace::VRTextEntryController*);
 MARK_REF_T(::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::VRTextEntryController*, "", "VRTextEntryController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23*, "", "VRTextEntryController/<BlinkCursor>d__23");
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
@@ -83,17 +84,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a06548, size 0x130, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a06678, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a06680, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a066b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a06544, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -121,6 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__cursorColor_5__2(::UnityEngine::Color value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a062b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -139,13 +146,13 @@ protected:
   constexpr VRTextEntryController__BlinkCursor_d__23();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController__BlinkCursor_d__23", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController__BlinkCursor_d__23", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRTextEntryController__BlinkCursor_d__23(VRTextEntryController__BlinkCursor_d__23&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController__BlinkCursor_d__23", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController__BlinkCursor_d__23", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRTextEntryController__BlinkCursor_d__23(VRTextEntryController__BlinkCursor_d__23 const&) = delete;
+  VRTextEntryController__BlinkCursor_d__23(VRTextEntryController__BlinkCursor_d__23const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6339 };
@@ -219,6 +226,7 @@ public:
   /// @brief Method Awake, addr 0x5a06010, size 0x220, virtual false, abstract: false, final false
   inline void Awake();
 
+  /// [IteratorStateMachine(typeof(VRTextEntryController::<BlinkCursor>d__23))]
   /// @brief Method BlinkCursor, addr 0x5a06254, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* BlinkCursor();
 
@@ -236,9 +244,11 @@ public:
   /// @brief Method OnEnable, addr 0x5a06230, size 0x24, virtual false, abstract: false, final false
   inline void OnEnable();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__20_0, addr 0x5a0650c, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__20_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__20_1, addr 0x5a06528, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__20_1();
 
@@ -299,24 +309,30 @@ public:
   /// @brief Method .ctor, addr 0x5a06500, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_cancelButtonWasPressedEvent, addr 0x5a05dcc, size 0xac, virtual false, abstract: false, final false
   inline void add_cancelButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_okButtonWasPressedEvent, addr 0x5a05c74, size 0xac, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_textDidChangeEvent, addr 0x5a05af4, size 0xc0, virtual false, abstract: false, final false
   inline void add_textDidChangeEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Method get_text, addr 0x5a05f3c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x5a05e78, size 0xac, virtual false, abstract: false, final false
   inline void remove_cancelButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_okButtonWasPressedEvent, addr 0x5a05d20, size 0xac, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_textDidChangeEvent, addr 0x5a05bb4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_textDidChangeEvent(::System::Action_1<::StringW>* value);
 
@@ -332,38 +348,46 @@ protected:
   constexpr VRTextEntryController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRTextEntryController(VRTextEntryController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRTextEntryController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRTextEntryController(VRTextEntryController const&) = delete;
+  VRTextEntryController(VRTextEntryControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6340 };
 
+  /// [SerializeField]
   /// @brief Field _uiKeyboard, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UIKeyboard> ____uiKeyboard;
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
+  /// [SerializeField]
   /// @brief Field _cursorText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____cursorText;
 
+  /// [SerializeField]
   /// @brief Field _maxLength, offset: 0x38, size: 0x4, def value: None
   int32_t ____maxLength;
 
+  /// [SerializeField]
   /// @brief Field _allowBlank, offset: 0x3c, size: 0x1, def value: None
   bool ____allowBlank;
 
+  /// [CompilerGenerated]
   /// @brief Field textDidChangeEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___textDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field okButtonWasPressedEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___okButtonWasPressedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field cancelButtonWasPressedEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___cancelButtonWasPressedEvent;
 

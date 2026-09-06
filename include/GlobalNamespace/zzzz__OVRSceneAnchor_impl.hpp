@@ -1,11 +1,13 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneAnchor.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneAnchor.hpp"
+#include "GlobalNamespace/zzzz__IOVRSceneComponent_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
@@ -392,7 +394,9 @@ inline bool GlobalNamespace::OVRSceneAnchor::IsComponentEnabled(::GlobalNamespac
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneAnchor*>(), { "IsComponentEnabled", {}, { ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceComponentType>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, spaceComponentType);
 }
-template <typename T> inline void GlobalNamespace::OVRSceneAnchor::SyncComponent(::GlobalNamespace::OVRPlugin_SpaceComponentType spaceComponentType) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::MonoBehaviour*> && ::cordl_internals::type_constraint<T, ::GlobalNamespace::IOVRSceneComponent*>)
+inline void GlobalNamespace::OVRSceneAnchor::SyncComponent(::GlobalNamespace::OVRPlugin_SpaceComponentType spaceComponentType) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneAnchor*>(),
                                                            { "SyncComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceComponentType>() } })));
@@ -419,7 +423,9 @@ inline void GlobalNamespace::OVRSceneAnchor::GetSceneAnchors(::System::Collectio
                                                            { "GetSceneAnchors", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, anchors);
 }
-template <typename T> inline void GlobalNamespace::OVRSceneAnchor::GetSceneAnchorsOfType(::System::Collections::Generic::List_1<T>* anchors) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline void GlobalNamespace::OVRSceneAnchor::GetSceneAnchorsOfType(::System::Collections::Generic::List_1<T>* anchors) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneAnchor*>(),
                                                            { "GetSceneAnchorsOfType", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>() } })));

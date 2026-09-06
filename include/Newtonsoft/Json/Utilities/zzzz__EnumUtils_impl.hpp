@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\EnumUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/EnumUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__EnumUtils_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__CamelCaseNamingStrategy_def.hpp"
@@ -71,33 +71,49 @@ inline ::Newtonsoft::Json::Utilities::EnumUtils___c* Newtonsoft::Json::Utilities
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::EnumUtils___c::EnumUtils___c() {}
-template <typename T> inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* value) {
   ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*, "<>9", ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(
       std::forward<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(value));
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::getStaticF___9() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*, "<>9", ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>();
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::setStaticF___9__4_0(::System::Func_2<uint64_t, bool>* value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::setStaticF___9__4_0(::System::Func_2<uint64_t, bool>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<uint64_t, bool>*, "<>9__4_0", ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(std::forward<::System::Func_2<uint64_t, bool>*>(value));
 }
-template <typename T> inline ::System::Func_2<uint64_t, bool>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::getStaticF___9__4_0() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::System::Func_2<uint64_t, bool>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::getStaticF___9__4_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<uint64_t, bool>*, "<>9__4_0", ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>();
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline bool Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::_GetFlagsValues_b__4_0(uint64_t v) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline bool Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::_GetFlagsValues_b__4_0(uint64_t v) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>(), { "<GetFlagsValues>b__4_0", {}, { ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, v);
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>* Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::EnumUtils___c__4_1() {}
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::Newtonsoft::Json::Utilities::EnumUtils___c__4_1<T>::EnumUtils___c__4_1() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumUtils.InitializeValuesAndNames
 template <>
 
@@ -266,8 +282,8 @@ inline void Newtonsoft::Json::Utilities::EnumUtils::setStaticF__camelCaseNamingS
 inline ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* Newtonsoft::Json::Utilities::EnumUtils::getStaticF__camelCaseNamingStrategy() {
   return ::cordl_internals::getStaticField<::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy*, "_camelCaseNamingStrategy", ::Newtonsoft::Json::Utilities::EnumUtils*>();
 }
-inline ::Newtonsoft::Json::Utilities::EnumInfo*
-Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*> key) {
+inline ::Newtonsoft::Json::Utilities::EnumInfo* Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames(
+    /* [Nullable(new[] { 0, 1, 2 })] */ ::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*> key) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -275,21 +291,24 @@ Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames(::Newtonsoft::J
           { "InitializeValuesAndNames", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::EnumInfo*>(nullptr, ___internal_method, key);
 }
-template <typename T> inline ::System::Collections::Generic::IList_1<T>* Newtonsoft::Json::Utilities::EnumUtils::GetFlagsValues(T value) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::System::Collections::Generic::IList_1<T>* Newtonsoft::Json::Utilities::EnumUtils::GetFlagsValues(T value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils*>(), { "GetFlagsValues", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<T>*>(nullptr, ___internal_method, value);
 }
-inline bool Newtonsoft::Json::Utilities::EnumUtils::TryToString(::System::Type* enumType, ::System::Object* value, bool camelCase, ::by_ref<::StringW> name) {
+inline bool Newtonsoft::Json::Utilities::EnumUtils::TryToString(::System::Type* enumType, ::System::Object* value, bool camelCase, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::StringW> name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils*>(),
                           { "TryToString", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, enumType, value, camelCase, name);
 }
-inline bool Newtonsoft::Json::Utilities::EnumUtils::TryToString(::System::Type* enumType, ::System::Object* value, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy,
-                                                                ::by_ref<::StringW> name) {
+inline bool Newtonsoft::Json::Utilities::EnumUtils::TryToString(::System::Type* enumType, ::System::Object* value,
+                                                                /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy,
+                                                                /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::StringW> name) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils*>(),
                                                            { "TryToString",
@@ -314,8 +333,8 @@ inline uint64_t Newtonsoft::Json::Utilities::EnumUtils::ToUInt64(::System::Objec
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils*>(), { "ToUInt64", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(nullptr, ___internal_method, value);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::EnumUtils::ParseEnum(::System::Type* enumType, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::StringW value,
-                                                                           bool disallowNumber) {
+inline ::System::Object* Newtonsoft::Json::Utilities::EnumUtils::ParseEnum(::System::Type* enumType, /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy,
+                                                                           ::StringW value, bool disallowNumber) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

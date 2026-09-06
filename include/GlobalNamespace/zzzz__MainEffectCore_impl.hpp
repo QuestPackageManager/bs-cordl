@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainEffectCore.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainEffectCore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectCore_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IBaseCommandBuffer_def.hpp"

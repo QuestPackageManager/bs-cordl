@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\AudioPlayableAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/AudioPlayableAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_impl.hpp"
@@ -221,6 +221,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::Timeline::AudioPlayableA
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AudioPlayableAsset__get_outputs_d__16*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::Timeline::AudioPlayableAsset__get_outputs_d__16* UnityEngine::Timeline::AudioPlayableAsset__get_outputs_d__16::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Timeline::AudioPlayableAsset__get_outputs_d__16*>(__1__state));
 }

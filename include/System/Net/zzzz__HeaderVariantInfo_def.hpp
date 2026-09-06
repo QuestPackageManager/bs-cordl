@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\HeaderVariantInfo.hpp"
+// IWYU pragma private; include "System/Net/HeaderVariantInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,8 @@ public:
   // @brief default ctor
   constexpr HeaderVariantInfo();
 
-  // Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr HeaderVariantInfo(::StringW m_name, ::System::Net::CookieVariant m_variant) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

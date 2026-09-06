@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\FontAssetFactory.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontAssetFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class FontAssetFactory;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Text::FontAssetFactory*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::FontAssetFactory*, "UnityEngine.TextCore.Text", "FontAssetFactory");
+// [Nullable(0)]
+// [NullableContext(1)]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -62,13 +64,13 @@ protected:
   constexpr FontAssetFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FontAssetFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontAssetFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontAssetFactory(FontAssetFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FontAssetFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontAssetFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontAssetFactory(FontAssetFactory const&) = delete;
+  FontAssetFactory(FontAssetFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17229 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderHapticFeedbackInteractionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderHapticFeedbackInteractionEffect.hpp"
 #include "GlobalNamespace/zzzz__SaberType_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderHapticFeedbackInteractionEffect_def.hpp"

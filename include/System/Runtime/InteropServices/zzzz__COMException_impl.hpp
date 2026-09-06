@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\COMException.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/COMException.hpp"
 #include "System/Runtime/InteropServices/zzzz__ExternalException_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__COMException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

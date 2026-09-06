@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\PerformanceToolSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/PerformanceToolSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,8 +23,8 @@ public:
   // @brief default ctor
   constexpr PerformanceToolSettings();
 
-  // Ctor Parameters [CppParam { name: "recordFps", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "showFps", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "showMemory", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "saveScreenshot", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "recordFps", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "showFps", ty: "bool", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "showMemory", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "saveScreenshot", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceToolSettings(bool recordFps, bool showFps, bool showMemory, bool saveScreenshot) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

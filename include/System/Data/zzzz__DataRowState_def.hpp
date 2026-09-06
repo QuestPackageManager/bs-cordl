@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRowState.hpp"
+// IWYU pragma private; include "System/Data/DataRowState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DataRowState;
 // Write type traits
 MARK_VAL_T(::System::Data::DataRowState);
 DEFINE_IL2CPP_CLASS(::System::Data::DataRowState, "System.Data", "DataRowState");
+// [Flags]
 // Dependencies
 namespace System::Data {
 // Is value type: true
@@ -45,7 +46,7 @@ public:
   // @brief default ctor
   constexpr DataRowState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DataRowState(int32_t value__) noexcept;
 
   /// @brief Field Added value: I32(4)

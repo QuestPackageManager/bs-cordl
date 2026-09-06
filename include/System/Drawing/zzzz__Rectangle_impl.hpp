@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Drawing\Rectangle.hpp"
+// IWYU pragma private; include "System/Drawing/Rectangle.hpp"
 #include "System/Drawing/zzzz__Rectangle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -161,8 +161,8 @@ constexpr System::Drawing::Rectangle::operator ::System::IEquatable_1<::System::
 constexpr ::System::IEquatable_1<::System::Drawing::Rectangle>* System::Drawing::Rectangle::i___System__IEquatable_1___System__Drawing__Rectangle_() {
   return static_cast<::System::IEquatable_1<::System::Drawing::Rectangle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "width",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Drawing::Rectangle::Rectangle(int32_t x, int32_t y, int32_t width, int32_t height) noexcept {
   this->x = x;
   this->y = y;

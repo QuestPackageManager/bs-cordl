@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PrivacyPolicyView.hpp"
+// IWYU pragma private; include "GlobalNamespace/PrivacyPolicyView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,13 +120,13 @@ protected:
   constexpr PrivacyPolicyView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrivacyPolicyView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrivacyPolicyView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrivacyPolicyView(PrivacyPolicyView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrivacyPolicyView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrivacyPolicyView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrivacyPolicyView(PrivacyPolicyView const&) = delete;
+  PrivacyPolicyView(PrivacyPolicyViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6492 };
@@ -134,24 +134,34 @@ public:
   /// @brief Field kPrivacyPolicyURL offset 0xffffffff size 0x8
   static constexpr ::ConstString kPrivacyPolicyURL{ u"https://www.meta.com/legal/privacy-policy/" };
 
+  /// [SerializeField]
   /// @brief Field _openLinkButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____openLinkButton;
 
+  /// [Header("Texts")]
+  /// [SerializeField]
   /// @brief Field _privacyPolicyTextMesh, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____privacyPolicyTextMesh;
 
+  /// [SerializeField]
   /// @brief Field _linkWasOpenedMessageTextMesh, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____linkWasOpenedMessageTextMesh;
 
+  /// [Header("Localization")]
+  /// [SerializeField]
   /// @brief Field _localizedTextAsset, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalizedTextAsset> ____localizedTextAsset;
 
+  /// [SerializeField]
   /// @brief Field _koreanLocalizedTextAsset, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalizedTextAsset> ____koreanLocalizedTextAsset;
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _popupMessageLocalizationKey, offset: 0x48, size: 0x8, def value: None
   ::StringW ____popupMessageLocalizationKey;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

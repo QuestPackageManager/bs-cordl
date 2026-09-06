@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\CultureInfo.hpp"
+// IWYU pragma private; include "System/Globalization/CultureInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,9 +86,9 @@ public:
   // @brief default ctor
   constexpr CultureInfo_Data();
 
-  // Ctor Parameters [CppParam { name: "ansi", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ebcdic", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mac", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "oem", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "right_to_left", ty: "bool", modifiers: "", def_value: None
-  // }, CppParam { name: "list_sep", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ansi", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ebcdic", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "mac", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "oem", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "right_to_left", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "list_sep", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr CultureInfo_Data(int32_t ansi, int32_t ebcdic, int32_t mac, int32_t oem, bool right_to_left, uint8_t list_sep) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -154,13 +154,13 @@ protected:
   constexpr CultureInfo_OnCultureInfoChangedDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfo_OnCultureInfoChangedDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfo_OnCultureInfoChangedDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CultureInfo_OnCultureInfoChangedDelegate(CultureInfo_OnCultureInfoChangedDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfo_OnCultureInfoChangedDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfo_OnCultureInfoChangedDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CultureInfo_OnCultureInfoChangedDelegate(CultureInfo_OnCultureInfoChangedDelegate const&) = delete;
+  CultureInfo_OnCultureInfoChangedDelegate(CultureInfo_OnCultureInfoChangedDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3648 };
@@ -171,6 +171,7 @@ public:
 static_assert(sizeof(::System::Globalization::CultureInfo_OnCultureInfoChangedDelegate) == 0x80, "Size mismatch!");
 
 } // namespace System::Globalization
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Globalization {
 // Is value type: false
@@ -411,6 +412,7 @@ public:
 
   static inline ::System::Globalization::CultureInfo* New_ctor(::StringW name, bool useUserOverride, bool read_only);
 
+  /// [MonoPInvokeCallback(typeof(System.Globalization.CultureInfo::OnCultureInfoChangedDelegate))]
   /// @brief Method OnCultureInfoChangedInAppX, addr 0x5bd99f0, size 0x90, virtual false, abstract: false, final false
   static inline void OnCultureInfoChangedInAppX(::StringW language);
 
@@ -765,13 +767,13 @@ protected:
   constexpr CultureInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CultureInfo(CultureInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CultureInfo(CultureInfo const&) = delete;
+  CultureInfo(CultureInfoconst&) = delete;
 
   /// @brief Field CalendarTypeBits offset 0xffffffff size 0x4
   static constexpr int32_t CalendarTypeBits{ static_cast<int32_t>(0x8) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerCreatorByNewGameObjectMethod_3.hpp"
+// IWYU pragma private; include "Zenject/SubContainerCreatorByNewGameObjectMethod_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_GEN_REF_T_PTR(::Zenject::SubContainerCreatorByNewGameObjectMethod_3);
 MARK_GEN_REF_T_PTR(::Zenject::SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::SubContainerCreatorByNewGameObjectMethod_3, "Zenject", "SubContainerCreatorByNewGameObjectMethod`3");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0, "Zenject", "SubContainerCreatorByNewGameObjectMethod`3/<>c__DisplayClass2_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -81,6 +82,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -93,13 +95,13 @@ protected:
   constexpr SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0(SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0(SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0 const&) = delete;
+  SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0(SubContainerCreatorByNewGameObjectMethod_3___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14617 };
@@ -114,6 +116,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies Zenject.SubContainerCreatorByNewGameObjectDynamicContext
 namespace Zenject {
 // cpp template
@@ -151,13 +154,13 @@ protected:
   constexpr SubContainerCreatorByNewGameObjectMethod_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectMethod_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectMethod_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByNewGameObjectMethod_3(SubContainerCreatorByNewGameObjectMethod_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectMethod_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectMethod_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewGameObjectMethod_3(SubContainerCreatorByNewGameObjectMethod_3 const&) = delete;
+  SubContainerCreatorByNewGameObjectMethod_3(SubContainerCreatorByNewGameObjectMethod_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14618 };

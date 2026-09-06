@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_HapticVibration_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_HapticVibration_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr VREvent_HapticVibration_t();
 
-  // Ctor Parameters [CppParam { name: "containerHandle", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "componentHandle", ty: "uint64_t", modifiers: "", def_value: None },
-  // CppParam { name: "fDurationSeconds", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fFrequency", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "fAmplitude", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "containerHandle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "componentHandle", ty: "uint64_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "fDurationSeconds", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "fFrequency", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "fAmplitude", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr VREvent_HapticVibration_t(uint64_t containerHandle, uint64_t componentHandle, float_t fDurationSeconds, float_t fFrequency, float_t fAmplitude) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

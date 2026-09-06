@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DropdownDialogPromptViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/DropdownDialogPromptViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,20 +105,22 @@ protected:
   constexpr DropdownDialogPromptViewController_ButtonAndLabel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController_ButtonAndLabel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController_ButtonAndLabel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownDialogPromptViewController_ButtonAndLabel(DropdownDialogPromptViewController_ButtonAndLabel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController_ButtonAndLabel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController_ButtonAndLabel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownDialogPromptViewController_ButtonAndLabel(DropdownDialogPromptViewController_ButtonAndLabel const&) = delete;
+  DropdownDialogPromptViewController_ButtonAndLabel(DropdownDialogPromptViewController_ButtonAndLabelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6423 };
 
+  /// [SerializeField]
   /// @brief Field _component, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____component;
 
+  /// [SerializeField]
   /// @brief Field _label, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____label;
 
@@ -132,6 +134,7 @@ static_assert(offsetof(::GlobalNamespace::DropdownDialogPromptViewController_But
 static_assert(sizeof(::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -148,7 +151,7 @@ public:
   static inline ::GlobalNamespace::DropdownDialogPromptViewController___c* New_ctor();
 
   /// @brief Method <Init>b__12_0, addr 0x5a185f0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW _Init_b__12_0(::System::ValueTuple_2<::StringW, int32_t> e);
+  inline ::StringW _Init_b__12_0(/* [TupleElementNames(new[] { "text", "index" })] */ ::System::ValueTuple_2<::StringW, int32_t> e);
 
   /// @brief Method .ctor, addr 0x5a185ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -167,13 +170,13 @@ protected:
   constexpr DropdownDialogPromptViewController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownDialogPromptViewController___c(DropdownDialogPromptViewController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownDialogPromptViewController___c(DropdownDialogPromptViewController___c const&) = delete;
+  DropdownDialogPromptViewController___c(DropdownDialogPromptViewController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6424 };
@@ -184,6 +187,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::DropdownDialogPromptViewController___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -223,13 +227,13 @@ protected:
   constexpr DropdownDialogPromptViewController___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownDialogPromptViewController___c__DisplayClass13_0(DropdownDialogPromptViewController___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownDialogPromptViewController___c__DisplayClass13_0(DropdownDialogPromptViewController___c__DisplayClass13_0 const&) = delete;
+  DropdownDialogPromptViewController___c__DisplayClass13_0(DropdownDialogPromptViewController___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6425 };
@@ -293,8 +297,10 @@ public:
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   /// @brief Method Init, addr 0x5a1805c, size 0x27c, virtual false, abstract: false, final false
-  inline void Init(::StringW title, ::StringW message, ::StringW dropdownLabel, ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>> dropdownValues,
-                   ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* didFinishAction, ::ArrayW<::StringW> buttonTexts);
+  inline void Init(::StringW title, ::StringW message, ::StringW dropdownLabel,
+                   /* [TupleElementNames(new[] { "text", "index" })] */ ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>> dropdownValues,
+                   /* [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })] */ ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* didFinishAction,
+                   /* [ParamArray] */ ::ArrayW<::StringW> buttonTexts);
 
   static inline ::GlobalNamespace::DropdownDialogPromptViewController* New_ctor();
 
@@ -346,14 +352,16 @@ public:
   /// @brief Method .ctor, addr 0x5a184e0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add__didFinishAction, addr 0x5a17edc, size 0xc0, virtual false, abstract: false, final false
-  inline void add__didFinishAction(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
+  inline void add__didFinishAction(/* [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })] */ ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
 
   /// @brief Method get_selectedValue, addr 0x5a17ea0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_selectedValue();
 
+  /// [CompilerGenerated]
   /// @brief Method remove__didFinishAction, addr 0x5a17f9c, size 0xc0, virtual false, abstract: false, final false
-  inline void remove__didFinishAction(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
+  inline void remove__didFinishAction(/* [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })] */ ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
 
 protected:
   // Ctor Parameters []
@@ -361,35 +369,43 @@ protected:
   constexpr DropdownDialogPromptViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownDialogPromptViewController(DropdownDialogPromptViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownDialogPromptViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownDialogPromptViewController(DropdownDialogPromptViewController const&) = delete;
+  DropdownDialogPromptViewController(DropdownDialogPromptViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6426 };
 
+  /// [SerializeField]
   /// @brief Field _titleText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
+  /// [SerializeField]
   /// @brief Field _messageText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____messageText;
 
+  /// [SerializeField]
   /// @brief Field _dropdownLabel, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____dropdownLabel;
 
+  /// [SerializeField]
   /// @brief Field _dropdown, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____dropdown;
 
+  /// [SerializeField]
   /// @brief Field _buttons, offset: 0x98, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel*> ____buttons;
 
+  /// [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })]
+  /// [CompilerGenerated]
   /// @brief Field _didFinishAction, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* ____didFinishAction;
 
+  /// [TupleElementNames(new[] { "text", "index" })]
   /// @brief Field _dropdownValues, offset: 0xa8, size: 0x8, def value: None
   ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>> ____dropdownValues;
 

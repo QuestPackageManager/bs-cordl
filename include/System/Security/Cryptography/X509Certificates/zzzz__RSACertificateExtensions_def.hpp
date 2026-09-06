@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\RSACertificateExtensions.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/RSACertificateExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class RSACertificateExtensions;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::X509Certificates::RSACertificateExtensions*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::X509Certificates::RSACertificateExtensions*, "System.Security.Cryptography.X509Certificates", "RSACertificateExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
@@ -25,6 +26,7 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE RSACertificateExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method GetRSAPublicKey, addr 0x5f5cfc0, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
@@ -34,13 +36,13 @@ protected:
   constexpr RSACertificateExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RSACertificateExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RSACertificateExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RSACertificateExtensions(RSACertificateExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RSACertificateExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RSACertificateExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RSACertificateExtensions(RSACertificateExtensions const&) = delete;
+  RSACertificateExtensions(RSACertificateExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16059 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\BasicEvent.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/BasicEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,8 @@ public:
   // @brief default ctor
   constexpr BasicEvent();
 
-  // Ctor Parameters [CppParam { name: "t", ty: "::BeatmapSaveDataCommon::BeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "f", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "t", ty: "::BeatmapSaveDataCommon::BeatmapEventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "i", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "f", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr BasicEvent(::BeatmapSaveDataCommon::BeatmapEventType t, int32_t i, float_t f) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

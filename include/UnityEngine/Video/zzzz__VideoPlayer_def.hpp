@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Video\VideoPlayer.hpp"
+// IWYU pragma private; include "UnityEngine/Video/VideoPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,13 +120,13 @@ protected:
   constexpr VideoPlayer_EventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_EventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_EventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoPlayer_EventHandler(VideoPlayer_EventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_EventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_EventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoPlayer_EventHandler(VideoPlayer_EventHandler const&) = delete;
+  VideoPlayer_EventHandler(VideoPlayer_EventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22318 };
@@ -158,13 +158,13 @@ protected:
   constexpr VideoPlayer_ErrorEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_ErrorEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_ErrorEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoPlayer_ErrorEventHandler(VideoPlayer_ErrorEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_ErrorEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_ErrorEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoPlayer_ErrorEventHandler(VideoPlayer_ErrorEventHandler const&) = delete;
+  VideoPlayer_ErrorEventHandler(VideoPlayer_ErrorEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22319 };
@@ -196,13 +196,13 @@ protected:
   constexpr VideoPlayer_FrameReadyEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_FrameReadyEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_FrameReadyEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoPlayer_FrameReadyEventHandler(VideoPlayer_FrameReadyEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_FrameReadyEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_FrameReadyEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoPlayer_FrameReadyEventHandler(VideoPlayer_FrameReadyEventHandler const&) = delete;
+  VideoPlayer_FrameReadyEventHandler(VideoPlayer_FrameReadyEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22320 };
@@ -234,13 +234,13 @@ protected:
   constexpr VideoPlayer_TimeEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_TimeEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_TimeEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoPlayer_TimeEventHandler(VideoPlayer_TimeEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_TimeEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer_TimeEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoPlayer_TimeEventHandler(VideoPlayer_TimeEventHandler const&) = delete;
+  VideoPlayer_TimeEventHandler(VideoPlayer_TimeEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22321 };
@@ -251,6 +251,9 @@ public:
 static_assert(sizeof(::UnityEngine::Video::VideoPlayer_TimeEventHandler) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Video
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeHeader("Modules/Video/Public/VideoPlayer.h")]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine::Video {
 // Is value type: false
@@ -280,12 +283,14 @@ public:
 
   __declspec(property(get = get_canSetTime)) bool canSetTime;
 
+  /// @brief [Obsolete("VideoPlayer.canSetTimeSource is deprecated. Use canSetTimeUpdateMode instead. (UnityUpgradable) -> canSetTimeUpdateMode")]
   __declspec(property(get = get_canSetTimeSource)) bool canSetTimeSource;
 
   __declspec(property(get = get_canSetTimeUpdateMode)) bool canSetTimeUpdateMode;
 
   __declspec(property(get = get_canStep)) bool canStep;
 
+  /// @brief [NativeName("VideoClip")]
   __declspec(property(get = get_clip, put = set_clip)) ::UnityW<::UnityEngine::Video::VideoClip> clip;
 
   /// @brief Field clockResyncOccurred, offset 0x48, size 0x8
@@ -300,6 +305,7 @@ public:
 
   __declspec(property(get = get_externalReferenceTime, put = set_externalReferenceTime)) double_t externalReferenceTime;
 
+  /// @brief [NativeName("FramePosition")]
   __declspec(property(get = get_frame, put = set_frame)) int64_t frame;
 
   __declspec(property(get = get_frameCount)) uint64_t frameCount;
@@ -314,6 +320,7 @@ public:
 
   __declspec(property(get = get_height)) uint32_t height;
 
+  /// @brief [NativeName("Loop")]
   __declspec(property(get = get_isLooping, put = set_isLooping)) bool isLooping;
 
   __declspec(property(get = get_isPaused)) bool isPaused;
@@ -322,6 +329,7 @@ public:
 
   __declspec(property(get = get_isPrepared)) bool isPrepared;
 
+  /// @brief [NativeName("Duration")]
   __declspec(property(get = get_length)) double_t length;
 
   /// @brief Field loopPointReached, offset 0x20, size 0x8
@@ -352,6 +360,7 @@ public:
   /// @brief Field started, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started)) ::UnityEngine::Video::VideoPlayer_EventHandler* started;
 
+  /// @brief [NativeHeader("Runtime/Camera/Camera.h")]
   __declspec(property(get = get_targetCamera, put = set_targetCamera)) ::UnityW<::UnityEngine::Camera> targetCamera;
 
   __declspec(property(get = get_targetCamera3DLayout, put = set_targetCamera3DLayout)) ::UnityEngine::Video::Video3DLayout targetCamera3DLayout;
@@ -360,20 +369,26 @@ public:
 
   __declspec(property(get = get_targetMaterialProperty, put = set_targetMaterialProperty)) ::StringW targetMaterialProperty;
 
+  /// @brief [NativeHeader("Runtime/Graphics/Renderer.h")]
   __declspec(property(get = get_targetMaterialRenderer, put = set_targetMaterialRenderer)) ::UnityW<::UnityEngine::Renderer> targetMaterialRenderer;
 
+  /// @brief [NativeHeader("Runtime/Graphics/RenderTexture.h")]
   __declspec(property(get = get_targetTexture, put = set_targetTexture)) ::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
+  /// @brief [NativeHeader("Runtime/Graphics/Texture.h")]
   __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::Texture> texture;
 
+  /// @brief [NativeName("SecPosition")]
   __declspec(property(get = get_time, put = set_time)) double_t time;
 
   __declspec(property(get = get_timeReference, put = set_timeReference)) ::UnityEngine::Video::VideoTimeReference timeReference;
 
+  /// @brief [Obsolete("VideoPlayer.timeSource is deprecated. Use timeUpdateMode instead. (UnityUpgradable) -> timeUpdateMode")]
   __declspec(property(get = get_timeSource, put = set_timeSource)) ::UnityEngine::Video::VideoTimeSource timeSource;
 
   __declspec(property(get = get_timeUpdateMode, put = set_timeUpdateMode)) ::UnityEngine::Video::VideoTimeUpdateMode timeUpdateMode;
 
+  /// @brief [NativeName("VideoUrl")]
   __declspec(property(get = get_url, put = set_url)) ::StringW url;
 
   __declspec(property(get = get_waitForFirstFrame, put = set_waitForFirstFrame)) bool waitForFirstFrame;
@@ -422,33 +437,42 @@ public:
   /// @brief Method GetDirectAudioVolume_Injected, addr 0x6e34cd8, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetDirectAudioVolume_Injected(::System::IntPtr _unity_self, uint16_t trackIndex);
 
+  /// [NativeHeader("Modules/Audio/Public/AudioSource.h")]
   /// @brief Method GetTargetAudioSource, addr 0x6e34fd0, size 0x158, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioSource> GetTargetAudioSource(uint16_t trackIndex);
 
   /// @brief Method GetTargetAudioSource_Injected, addr 0x6e35128, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetTargetAudioSource_Injected(::System::IntPtr _unity_self, uint16_t trackIndex);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeClockResyncOccurredCallback_Internal, addr 0x6e3601c, size 0x2c, virtual false, abstract: false, final false
   static inline void InvokeClockResyncOccurredCallback_Internal(::UnityEngine::Video::VideoPlayer* source, double_t seconds);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeErrorReceivedCallback_Internal, addr 0x6e35fbc, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeErrorReceivedCallback_Internal(::UnityEngine::Video::VideoPlayer* source, ::StringW errorStr);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeFrameDroppedCallback_Internal, addr 0x6e35f90, size 0x2c, virtual false, abstract: false, final false
   static inline void InvokeFrameDroppedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeFrameReadyCallback_Internal, addr 0x6e35f04, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeFrameReadyCallback_Internal(::UnityEngine::Video::VideoPlayer* source, int64_t frameIdx);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeLoopPointReachedCallback_Internal, addr 0x6e35f38, size 0x2c, virtual false, abstract: false, final false
   static inline void InvokeLoopPointReachedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokePrepareCompletedCallback_Internal, addr 0x6e35ed8, size 0x2c, virtual false, abstract: false, final false
   static inline void InvokePrepareCompletedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeSeekCompletedCallback_Internal, addr 0x6e35ff0, size 0x2c, virtual false, abstract: false, final false
   static inline void InvokeSeekCompletedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeStartedCallback_Internal, addr 0x6e35f64, size 0x2c, virtual false, abstract: false, final false
   static inline void InvokeStartedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
@@ -565,27 +589,35 @@ public:
   /// @brief Method .ctor, addr 0x6e36048, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_clockResyncOccurred, addr 0x6e35a98, size 0xac, virtual false, abstract: false, final false
   inline void add_clockResyncOccurred(::UnityEngine::Video::VideoPlayer_TimeEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_errorReceived, addr 0x6e357e8, size 0xac, virtual false, abstract: false, final false
   inline void add_errorReceived(::UnityEngine::Video::VideoPlayer_ErrorEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_frameDropped, addr 0x6e35690, size 0xac, virtual false, abstract: false, final false
   inline void add_frameDropped(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_frameReady, addr 0x6e35d80, size 0xac, virtual false, abstract: false, final false
   inline void add_frameReady(::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_loopPointReached, addr 0x6e353e0, size 0xac, virtual false, abstract: false, final false
   inline void add_loopPointReached(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_prepareCompleted, addr 0x6e35288, size 0xac, virtual false, abstract: false, final false
   inline void add_prepareCompleted(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_seekCompleted, addr 0x6e35940, size 0xac, virtual false, abstract: false, final false
   inline void add_seekCompleted(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_started, addr 0x6e35538, size 0xac, virtual false, abstract: false, final false
   inline void add_started(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
@@ -607,33 +639,39 @@ public:
   /// @brief Method get_audioTrackCount_Injected, addr 0x6e3422c, size 0x3c, virtual false, abstract: false, final false
   static inline uint16_t get_audioTrackCount_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("CanSetDirectAudioVolume")]
   /// @brief Method get_canSetDirectAudioVolume, addr 0x6e34b8c, size 0x80, virtual false, abstract: false, final false
   inline bool get_canSetDirectAudioVolume();
 
   /// @brief Method get_canSetDirectAudioVolume_Injected, addr 0x6e34c0c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_canSetDirectAudioVolume_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("CanSetPlaybackSpeed")]
   /// @brief Method get_canSetPlaybackSpeed, addr 0x6e330e4, size 0x80, virtual false, abstract: false, final false
   inline bool get_canSetPlaybackSpeed();
 
   /// @brief Method get_canSetPlaybackSpeed_Injected, addr 0x6e33164, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_canSetPlaybackSpeed_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("CanSetSkipOnDrop")]
   /// @brief Method get_canSetSkipOnDrop, addr 0x6e33a3c, size 0x80, virtual false, abstract: false, final false
   inline bool get_canSetSkipOnDrop();
 
   /// @brief Method get_canSetSkipOnDrop_Injected, addr 0x6e33abc, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_canSetSkipOnDrop_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("CanSetTime")]
   /// @brief Method get_canSetTime, addr 0x6e32acc, size 0x80, virtual false, abstract: false, final false
   inline bool get_canSetTime();
 
+  /// [NativeName("CanSetTimeSource")]
   /// @brief Method get_canSetTimeSource, addr 0x6e334c8, size 0x80, virtual false, abstract: false, final false
   inline bool get_canSetTimeSource();
 
   /// @brief Method get_canSetTimeSource_Injected, addr 0x6e33548, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_canSetTimeSource_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("CanSetTimeUpdateMode")]
   /// @brief Method get_canSetTimeUpdateMode, addr 0x6e310b4, size 0x80, virtual false, abstract: false, final false
   inline bool get_canSetTimeUpdateMode();
 
@@ -643,6 +681,7 @@ public:
   /// @brief Method get_canSetTime_Injected, addr 0x6e32b4c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_canSetTime_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("CanStep")]
   /// @brief Method get_canStep, addr 0x6e32f6c, size 0x80, virtual false, abstract: false, final false
   inline bool get_canStep();
 
@@ -703,18 +742,21 @@ public:
   /// @brief Method get_isLooping_Injected, addr 0x6e333b8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isLooping_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("IsPaused")]
   /// @brief Method get_isPaused, addr 0x6e32a10, size 0x80, virtual false, abstract: false, final false
   inline bool get_isPaused();
 
   /// @brief Method get_isPaused_Injected, addr 0x6e32a90, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isPaused_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("IsPlaying")]
   /// @brief Method get_isPlaying, addr 0x6e32954, size 0x80, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
   /// @brief Method get_isPlaying_Injected, addr 0x6e329d4, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isPlaying_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("IsPrepared")]
   /// @brief Method get_isPrepared, addr 0x6e32344, size 0x80, virtual false, abstract: false, final false
   inline bool get_isPrepared();
 
@@ -757,6 +799,7 @@ public:
   /// @brief Method get_renderMode_Injected, addr 0x6e30fa4, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Video::VideoRenderMode get_renderMode_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("AreFrameReadyEventsEnabled")]
   /// @brief Method get_sendFrameReadyEvents, addr 0x6e35bf0, size 0x80, virtual false, abstract: false, final false
   inline bool get_sendFrameReadyEvents();
 
@@ -859,27 +902,35 @@ public:
   /// @brief Method get_width_Injected, addr 0x6e33f3c, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t get_width_Injected(::System::IntPtr _unity_self);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_clockResyncOccurred, addr 0x6e35b44, size 0xac, virtual false, abstract: false, final false
   inline void remove_clockResyncOccurred(::UnityEngine::Video::VideoPlayer_TimeEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_errorReceived, addr 0x6e35894, size 0xac, virtual false, abstract: false, final false
   inline void remove_errorReceived(::UnityEngine::Video::VideoPlayer_ErrorEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_frameDropped, addr 0x6e3573c, size 0xac, virtual false, abstract: false, final false
   inline void remove_frameDropped(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_frameReady, addr 0x6e35e2c, size 0xac, virtual false, abstract: false, final false
   inline void remove_frameReady(::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_loopPointReached, addr 0x6e3548c, size 0xac, virtual false, abstract: false, final false
   inline void remove_loopPointReached(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_prepareCompleted, addr 0x6e35334, size 0xac, virtual false, abstract: false, final false
   inline void remove_prepareCompleted(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_seekCompleted, addr 0x6e359ec, size 0xac, virtual false, abstract: false, final false
   inline void remove_seekCompleted(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_started, addr 0x6e355e4, size 0xac, virtual false, abstract: false, final false
   inline void remove_started(::UnityEngine::Video::VideoPlayer_EventHandler* value);
 
@@ -940,6 +991,7 @@ public:
   /// @brief Method set_renderMode_Injected, addr 0x6e31070, size 0x44, virtual false, abstract: false, final false
   static inline void set_renderMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::Video::VideoRenderMode value);
 
+  /// [NativeName("EnableFrameReadyEvents")]
   /// @brief Method set_sendFrameReadyEvents, addr 0x6e35cac, size 0x90, virtual false, abstract: false, final false
   inline void set_sendFrameReadyEvents(bool value);
 
@@ -1036,38 +1088,54 @@ protected:
   constexpr VideoPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoPlayer(VideoPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VideoPlayer(VideoPlayer const&) = delete;
+  VideoPlayer(VideoPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22322 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field prepareCompleted, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Video::VideoPlayer_EventHandler* ___prepareCompleted;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field loopPointReached, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Video::VideoPlayer_EventHandler* ___loopPointReached;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field started, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Video::VideoPlayer_EventHandler* ___started;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field frameDropped, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Video::VideoPlayer_EventHandler* ___frameDropped;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field errorReceived, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Video::VideoPlayer_ErrorEventHandler* ___errorReceived;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field seekCompleted, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Video::VideoPlayer_EventHandler* ___seekCompleted;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field clockResyncOccurred, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Video::VideoPlayer_TimeEventHandler* ___clockResyncOccurred;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field frameReady, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler* ___frameReady;
 

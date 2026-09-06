@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ValueTaskAwaiter.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ValueTaskAwaiter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_REF_T(::System::Runtime::CompilerServices::ValueTaskAwaiter___c*);
 MARK_VAL_T(::System::Runtime::CompilerServices::ValueTaskAwaiter);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::ValueTaskAwaiter___c*, "System.Runtime.CompilerServices", "ValueTaskAwaiter/<>c");
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::ValueTaskAwaiter, "System.Runtime.CompilerServices", "ValueTaskAwaiter");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr ValueTaskAwaiter___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskAwaiter___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskAwaiter___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValueTaskAwaiter___c(ValueTaskAwaiter___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskAwaiter___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskAwaiter___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValueTaskAwaiter___c(ValueTaskAwaiter___c const&) = delete;
+  ValueTaskAwaiter___c(ValueTaskAwaiter___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3404 };
@@ -85,6 +86,7 @@ public:
 static_assert(sizeof(::System::Runtime::CompilerServices::ValueTaskAwaiter___c) == 0x10, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
+// [IsReadOnly]
 // Dependencies System.Threading.Tasks.ValueTask
 namespace System::Runtime::CompilerServices {
 // Is value type: true
@@ -105,6 +107,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
+  /// [StackTraceHidden]
   /// @brief Method GetResult, addr 0x5b70a18, size 0x160, virtual false, abstract: false, final false
   inline void GetResult();
 
@@ -134,7 +137,7 @@ public:
   // @brief default ctor
   constexpr ValueTaskAwaiter();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None, comment: None }]
   constexpr ValueTaskAwaiter(::System::Threading::Tasks::ValueTask _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

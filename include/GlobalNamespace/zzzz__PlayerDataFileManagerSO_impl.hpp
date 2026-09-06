@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerDataFileManagerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerDataFileManagerSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataFileManagerSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerDataFileManagerSO.get_buildInSongPackSerializedName

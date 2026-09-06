@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerBeatmapObjectEventManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerBeatmapObjectEventManager.hpp"
+#include "GlobalNamespace/zzzz__IPoolableSerializable_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerBeatmapObjectEventManager_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberConnectedPlayer_def.hpp"
@@ -37,8 +38,8 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager
                                                            { ".ctor", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::GlobalNamespace::IPoolableSerializable*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, time, beatmapObjectEventData);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapObjectEventData", ty: "::GlobalNamespace::IPoolableSerializable*",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapObjectEventData", ty:
+// "::GlobalNamespace::IPoolableSerializable*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager_TimestampedBeatmapObjectEventData::
     MultiplayerConnectedPlayerBeatmapObjectEventManager_TimestampedBeatmapObjectEventData(float_t time, ::GlobalNamespace::IPoolableSerializable* beatmapObjectEventData) noexcept {
   this->time = time;
@@ -531,6 +532,7 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolableSerializable*>)
 inline void GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager::HandleBeatmapObjectEventData(::StringW userId, int64_t syncTime, float_t songTime, T beatmapObjectEventData) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},

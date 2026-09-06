@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\BigInteger.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/BigInteger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -604,13 +604,13 @@ protected:
   constexpr BigInteger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BigInteger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigInteger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BigInteger(BigInteger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BigInteger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigInteger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BigInteger(BigInteger const&) = delete;
+  BigInteger(BigIntegerconst&) = delete;
 
   /// @brief Field BitsPerByte offset 0xffffffff size 0x4
   static constexpr int32_t BitsPerByte{ static_cast<int32_t>(0x8) };

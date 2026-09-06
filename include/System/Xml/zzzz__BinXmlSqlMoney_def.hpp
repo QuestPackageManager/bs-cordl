@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\BinXmlSqlMoney.hpp"
+// IWYU pragma private; include "System/Xml/BinXmlSqlMoney.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
   // @brief default ctor
   constexpr BinXmlSqlMoney();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr BinXmlSqlMoney(int64_t data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

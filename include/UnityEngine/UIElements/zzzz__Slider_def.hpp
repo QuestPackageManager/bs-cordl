@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Slider.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Slider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Slider)
 namespace UnityEngine::UIElements {
-template <typename TValueType> struct BaseSlider_1_SliderKey;
+template <typename TValueType>
+  requires(::cordl_internals::type_constraint<TValueType, ::System::IComparable_1<TValueType>*>)
+struct BaseSlider_1_SliderKey;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -33,7 +35,9 @@ namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlFloatAttributeDescription;
@@ -61,6 +65,7 @@ MARK_REF_T(::UnityEngine::UIElements::Slider_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Slider*, "UnityEngine.UIElements", "Slider");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Slider_UxmlFactory*, "UnityEngine.UIElements", "Slider/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Slider_UxmlTraits*, "UnityEngine.UIElements", "Slider/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -79,13 +84,13 @@ protected:
   constexpr Slider_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Slider_UxmlFactory(Slider_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Slider_UxmlFactory(Slider_UxmlFactory const&) = delete;
+  Slider_UxmlFactory(Slider_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4315 };
@@ -96,6 +101,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Slider_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.BaseSlider`1::UxmlTraits`1<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -172,13 +178,13 @@ protected:
   constexpr Slider_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Slider_UxmlTraits(Slider_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Slider_UxmlTraits(Slider_UxmlTraits const&) = delete;
+  Slider_UxmlTraits(Slider_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4316 };
@@ -290,13 +296,13 @@ protected:
   constexpr Slider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Slider(Slider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Slider(Slider const&) = delete;
+  Slider(Sliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4317 };

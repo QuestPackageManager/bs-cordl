@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\VertexGradient.hpp"
+// IWYU pragma private; include "TMPro/VertexGradient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,8 +33,9 @@ public:
   // @brief default ctor
   constexpr VertexGradient();
 
-  // Ctor Parameters [CppParam { name: "topLeft", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "topRight", ty: "::UnityEngine::Color", modifiers: "", def_value: None
-  // }, CppParam { name: "bottomLeft", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "bottomRight", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "topLeft", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "topRight", ty: "::UnityEngine::Color", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "bottomLeft", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottomRight", ty:
+  // "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }]
   constexpr VertexGradient(::UnityEngine::Color topLeft, ::UnityEngine::Color topRight, ::UnityEngine::Color bottomLeft, ::UnityEngine::Color bottomRight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

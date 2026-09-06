@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\AnchorDebugVisual.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/AnchorDebugVisual.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ public:
   /// @brief Method .ctor, addr 0x5a82014, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add__debugVisibilityChanged, addr 0x5a81c00, size 0xf0, virtual false, abstract: false, final false
   static inline void add__debugVisibilityChanged(::System::Action* value);
 
@@ -49,6 +50,7 @@ public:
   /// @brief Method get_DebugVisualsVisible, addr 0x5a81de0, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_DebugVisualsVisible();
 
+  /// [CompilerGenerated]
   /// @brief Method remove__debugVisibilityChanged, addr 0x5a81cf0, size 0xf0, virtual false, abstract: false, final false
   static inline void remove__debugVisibilityChanged(::System::Action* value);
 
@@ -65,13 +67,13 @@ protected:
   constexpr AnchorDebugVisual();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnchorDebugVisual", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnchorDebugVisual", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnchorDebugVisual(AnchorDebugVisual&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnchorDebugVisual", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnchorDebugVisual", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnchorDebugVisual(AnchorDebugVisual const&) = delete;
+  AnchorDebugVisual(AnchorDebugVisualconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20921 };

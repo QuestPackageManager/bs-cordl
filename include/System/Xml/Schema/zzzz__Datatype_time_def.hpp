@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Datatype_time.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Datatype_time.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +38,13 @@ protected:
   constexpr Datatype_time();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_time", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Datatype_time", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_time(Datatype_time&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_time", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Datatype_time", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_time(Datatype_time const&) = delete;
+  Datatype_time(Datatype_timeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9633 };

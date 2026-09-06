@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\Initialization\ResourceManagerRuntimeData.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Initialization/ResourceManagerRuntimeData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -231,13 +231,13 @@ protected:
   constexpr ResourceManagerRuntimeData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerRuntimeData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerRuntimeData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceManagerRuntimeData(ResourceManagerRuntimeData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerRuntimeData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerRuntimeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManagerRuntimeData(ResourceManagerRuntimeData const&) = delete;
+  ResourceManagerRuntimeData(ResourceManagerRuntimeDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19859 };
@@ -245,36 +245,51 @@ public:
   /// @brief Field kCatalogAddress offset 0xffffffff size 0x8
   static constexpr ::ConstString kCatalogAddress{ u"AddressablesMainContentCatalog" };
 
+  /// [SerializeField]
   /// @brief Field m_buildTarget, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_buildTarget;
 
+  /// [FormerlySerializedAs("m_settingsHash")]
+  /// [SerializeField]
   /// @brief Field m_SettingsHash, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_SettingsHash;
 
+  /// [FormerlySerializedAs("m_catalogLocations")]
+  /// [SerializeField]
   /// @brief Field m_CatalogLocations, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* ___m_CatalogLocations;
 
+  /// [FormerlySerializedAs("m_logResourceManagerExceptions")]
+  /// [SerializeField]
   /// @brief Field m_LogResourceManagerExceptions, offset: 0x28, size: 0x1, def value: None
   bool ___m_LogResourceManagerExceptions;
 
+  /// [FormerlySerializedAs("m_extraInitializationData")]
+  /// [SerializeField]
   /// @brief Field m_ExtraInitializationData, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* ___m_ExtraInitializationData;
 
+  /// [SerializeField]
   /// @brief Field m_DisableCatalogUpdateOnStart, offset: 0x38, size: 0x1, def value: None
   bool ___m_DisableCatalogUpdateOnStart;
 
+  /// [SerializeField]
   /// @brief Field m_IsLocalCatalogInBundle, offset: 0x39, size: 0x1, def value: None
   bool ___m_IsLocalCatalogInBundle;
 
+  /// [SerializeField]
   /// @brief Field m_CertificateHandlerType, offset: 0x40, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::Util::SerializedType ___m_CertificateHandlerType;
 
+  /// [SerializeField]
   /// @brief Field m_AddressablesVersion, offset: 0x60, size: 0x8, def value: None
   ::StringW ___m_AddressablesVersion;
 
+  /// [SerializeField]
   /// @brief Field m_maxConcurrentWebRequests, offset: 0x68, size: 0x4, def value: None
   int32_t ___m_maxConcurrentWebRequests;
 
+  /// [SerializeField]
   /// @brief Field m_CatalogRequestsTimeout, offset: 0x6c, size: 0x4, def value: None
   int32_t ___m_CatalogRequestsTimeout;
 

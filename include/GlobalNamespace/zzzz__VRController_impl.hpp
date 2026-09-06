@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRController.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRController.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -711,8 +711,8 @@ inline void GlobalNamespace::VRController::SetupVRPlatformHelper() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "SetupVRPlatformHelper", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::VRController::UpdatePoseOffset(::by_ref<::UnityEngine::XR::XRNode> node, ::by_ref<::UnityEngine::Vector3> customPositionOffset,
-                                                            ::by_ref<::UnityEngine::Vector3> customRotationOffset, ::by_ref<::UnityEngine::Pose> poseOffset) {
+inline void GlobalNamespace::VRController::UpdatePoseOffset(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::XRNode> node, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> customPositionOffset,
+                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> customRotationOffset, ::by_ref<::UnityEngine::Pose> poseOffset) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(),
                                                                                          { "UpdatePoseOffset",
                                                                                            {},

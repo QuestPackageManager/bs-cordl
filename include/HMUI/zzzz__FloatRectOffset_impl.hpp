@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\FloatRectOffset.hpp"
+// IWYU pragma private; include "HMUI/FloatRectOffset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__FloatRectOffset_def.hpp"
 //  Writing Method size for method: ::HMUI::FloatRectOffset._ctor

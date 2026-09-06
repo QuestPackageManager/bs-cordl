@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\ColorGradingLutPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/ColorGradingLutPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
@@ -582,14 +582,14 @@ inline void UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::_c
                           { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::RenderPassEvent>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::PostProcessData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt, data);
 }
-inline void UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::Setup(::by_ref<::UnityEngine::Rendering::RTHandle*> internalLut) {
+inline void UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> internalLut) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*>(),
                                                                                          { "Setup", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RTHandle*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, internalLut);
 }
-inline void UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::ConfigureDescriptor(::by_ref<::UnityEngine::Rendering::Universal::PostProcessingData> postProcessingData,
-                                                                                                  ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
-                                                                                                  ::by_ref<::UnityEngine::FilterMode> filterMode) {
+inline void
+UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::PostProcessingData> postProcessingData,
+                                                                                      ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::by_ref<::UnityEngine::FilterMode> filterMode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*>(),
                                                            { "ConfigureDescriptor",
@@ -598,9 +598,9 @@ inline void UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::Co
                                                                ::i2c::type_of<::by_ref<::UnityEngine::RenderTextureDescriptor>>(), ::i2c::type_of<::by_ref<::UnityEngine::FilterMode>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, postProcessingData, descriptor, filterMode);
 }
-inline void UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::ConfigureDescriptor(::by_ref<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*> postProcessingData,
-                                                                                                  ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
-                                                                                                  ::by_ref<::UnityEngine::FilterMode> filterMode) {
+inline void
+UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*> postProcessingData,
+                                                                                      ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::by_ref<::UnityEngine::FilterMode> filterMode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*>(),
                                                            { "ConfigureDescriptor",

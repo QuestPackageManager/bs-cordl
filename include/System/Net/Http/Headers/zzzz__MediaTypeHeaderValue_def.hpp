@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\MediaTypeHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/MediaTypeHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,9 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -49,6 +51,7 @@ MARK_REF_T(::System::Net::Http::Headers::MediaTypeHeaderValue*);
 MARK_REF_T(::System::Net::Http::Headers::MediaTypeHeaderValue___c*);
 DEFINE_IL2CPP_CLASS(::System::Net::Http::Headers::MediaTypeHeaderValue*, "System.Net.Http.Headers", "MediaTypeHeaderValue");
 DEFINE_IL2CPP_CLASS(::System::Net::Http::Headers::MediaTypeHeaderValue___c*, "System.Net.Http.Headers", "MediaTypeHeaderValue/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
@@ -84,13 +87,13 @@ protected:
   constexpr MediaTypeHeaderValue___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MediaTypeHeaderValue___c(MediaTypeHeaderValue___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MediaTypeHeaderValue___c(MediaTypeHeaderValue___c const&) = delete;
+  MediaTypeHeaderValue___c(MediaTypeHeaderValue___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20319 };
@@ -195,13 +198,13 @@ protected:
   constexpr MediaTypeHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MediaTypeHeaderValue(MediaTypeHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MediaTypeHeaderValue(MediaTypeHeaderValue const&) = delete;
+  MediaTypeHeaderValue(MediaTypeHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20320 };

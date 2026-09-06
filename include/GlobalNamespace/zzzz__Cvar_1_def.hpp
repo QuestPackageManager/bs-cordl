@@ -1,14 +1,17 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Cvar_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/Cvar_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ObservableVariable_1_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(Cvar_1)
 namespace GlobalNamespace {
-template <typename T> class Cvar_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class Cvar_1___c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -24,20 +27,26 @@ class Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename T> class Cvar_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class Cvar_1;
 }
 namespace GlobalNamespace {
-template <typename T> class Cvar_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class Cvar_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::GlobalNamespace::Cvar_1);
 MARK_GEN_REF_T_PTR(::GlobalNamespace::Cvar_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::Cvar_1, "", "Cvar`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::Cvar_1___c, "", "Cvar`1/<>c");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.IConvertible, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
 // Is value type: false
 // CS Name: Cvar`1/<>c<T>
 class CORDL_TYPE Cvar_1___c : public ::System::Object {
@@ -71,13 +80,13 @@ protected:
   constexpr Cvar_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Cvar_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cvar_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cvar_1___c(Cvar_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Cvar_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cvar_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cvar_1___c(Cvar_1___c const&) = delete;
+  Cvar_1___c(Cvar_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20774 };
@@ -86,10 +95,11 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies ObservableVariable`1<T>
+// Dependencies ObservableVariable`1<T>, System.IConvertible
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
 // Is value type: false
 // CS Name: Cvar`1<T>
 class CORDL_TYPE Cvar_1 : public ::GlobalNamespace::ObservableVariable_1<T> {
@@ -136,13 +146,13 @@ protected:
   constexpr Cvar_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Cvar_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cvar_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cvar_1(Cvar_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Cvar_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cvar_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cvar_1(Cvar_1 const&) = delete;
+  Cvar_1(Cvar_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20775 };

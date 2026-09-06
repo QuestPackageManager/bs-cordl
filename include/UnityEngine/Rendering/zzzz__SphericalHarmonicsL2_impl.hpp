@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SphericalHarmonicsL2.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SphericalHarmonicsL2.hpp"
 #include "UnityEngine/Rendering/zzzz__SphericalHarmonicsL2_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -152,18 +152,20 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>
 UnityEngine::Rendering::SphericalHarmonicsL2::i___System__IEquatable_1___UnityEngine__Rendering__SphericalHarmonicsL2_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "shr0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shr1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "shr2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shr3", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shr4", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "shr5", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shr6", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "shr7", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shr8", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shg0", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "shg1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shg2", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "shg3", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shg4", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shg5", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shg6", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shg7", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "shg8", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shb0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "shb1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shb2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shb3", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "shb4", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shb5", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "shb6", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shb7", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "shb8", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "shr0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shr1", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shr2", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shr3", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shr4", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shr5", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shr6", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shr7", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shr8", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shg0", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shg1", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shg2", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shg3", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shg4", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shg5", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shg6", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shg7", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shg8", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shb0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shb1", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shb2", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shb3", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shb4", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shb5", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shb6", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shb7", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "shb8", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::SphericalHarmonicsL2::SphericalHarmonicsL2(float_t shr0, float_t shr1, float_t shr2, float_t shr3, float_t shr4, float_t shr5, float_t shr6, float_t shr7,
                                                                                float_t shr8, float_t shg0, float_t shg1, float_t shg2, float_t shg3, float_t shg4, float_t shg5, float_t shg6,
                                                                                float_t shg7, float_t shg8, float_t shb0, float_t shb1, float_t shb2, float_t shb3, float_t shb4, float_t shb5,

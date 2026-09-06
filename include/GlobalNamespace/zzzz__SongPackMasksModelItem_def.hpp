@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongPackMasksModelItem.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongPackMasksModelItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ MARK_REF_T(::GlobalNamespace::SongPackMasksModelItem*);
 MARK_REF_T(::GlobalNamespace::SongPackMasksModelItem___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongPackMasksModelItem*, "", "SongPackMasksModelItem");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongPackMasksModelItem___c*, "", "SongPackMasksModelItem/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -70,13 +71,13 @@ protected:
   constexpr SongPackMasksModelItem___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelItem___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelItem___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPackMasksModelItem___c(SongPackMasksModelItem___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelItem___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelItem___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPackMasksModelItem___c(SongPackMasksModelItem___c const&) = delete;
+  SongPackMasksModelItem___c(SongPackMasksModelItem___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15119 };
@@ -165,13 +166,13 @@ protected:
   constexpr SongPackMasksModelItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPackMasksModelItem(SongPackMasksModelItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongPackMasksModelItem(SongPackMasksModelItem const&) = delete;
+  SongPackMasksModelItem(SongPackMasksModelItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15120 };
@@ -179,15 +180,25 @@ public:
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::SongPackDataType ____type;
 
+  /// [SerializeField]
+  /// [LocalizationKey]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _serializedName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____serializedName;
 
+  /// [SerializeField]
+  /// [DrawIf("_type", (SongPackDataType)0, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _beatmapLevelPackId, offset: 0x20, size: 0x8, def value: None
   ::StringW ____beatmapLevelPackId;
 
+  /// [SerializeField]
+  /// [DrawIf("_type", (SongPackDataType)1, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _includeTags, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::PackDefinitionSO_Tags ____includeTags;
 
+  /// [SerializeField]
+  /// [DrawIf("_type", (SongPackDataType)1, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _excludeTags, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::PackDefinitionSO_Tags ____excludeTags;
 

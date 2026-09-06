@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomLODGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomLODGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   /// @brief Method GetActiveLevel, addr 0x597dd08, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetActiveLevel();
 
-  /// @brief Method GetStartupLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetStartupLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetStartupLevel();
 
   static inline ::GlobalNamespace::CustomLODGroup* New_ctor();
@@ -82,13 +82,13 @@ protected:
   constexpr CustomLODGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomLODGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomLODGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomLODGroup(CustomLODGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomLODGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomLODGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomLODGroup(CustomLODGroup const&) = delete;
+  CustomLODGroup(CustomLODGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5747 };
@@ -102,6 +102,8 @@ public:
   /// @brief Field kLodPrefix offset 0xffffffff size 0x8
   static constexpr ::ConstString kLodPrefix{ u"LOD" };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field _levels, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____levels;
 

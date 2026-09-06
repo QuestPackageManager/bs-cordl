@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IL2CPP\CompilerServices\Il2CppEagerStaticClassConstructionAttribute.hpp"
+// IWYU pragma private; include "Unity/IL2CPP/CompilerServices/Il2CppEagerStaticClassConstructionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class Il2CppEagerStaticClassConstructionAttribute;
 // Write type traits
 MARK_REF_T(::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute*, "Unity.IL2CPP.CompilerServices", "Il2CppEagerStaticClassConstructionAttribute");
+// [AttributeUsage((System.AttributeTargets)12, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace Unity::IL2CPP::CompilerServices {
 // Is value type: false
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x65ff46c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5d070, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -30,16 +31,16 @@ protected:
   constexpr Il2CppEagerStaticClassConstructionAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Il2CppEagerStaticClassConstructionAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Il2CppEagerStaticClassConstructionAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Il2CppEagerStaticClassConstructionAttribute(Il2CppEagerStaticClassConstructionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Il2CppEagerStaticClassConstructionAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Il2CppEagerStaticClassConstructionAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Il2CppEagerStaticClassConstructionAttribute(Il2CppEagerStaticClassConstructionAttribute const&) = delete;
+  Il2CppEagerStaticClassConstructionAttribute(Il2CppEagerStaticClassConstructionAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\LowLevel\Unsafe\JobRanges.hpp"
+// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/JobRanges.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,9 @@ public:
   // @brief default ctor
   constexpr JobRanges();
 
-  // Ctor Parameters [CppParam { name: "BatchSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NumJobs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "TotalIterationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "StartEndIndex", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "BatchSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "NumJobs", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "TotalIterationCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "StartEndIndex", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr JobRanges(int32_t BatchSize, int32_t NumJobs, int32_t TotalIterationCount, ::System::IntPtr StartEndIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

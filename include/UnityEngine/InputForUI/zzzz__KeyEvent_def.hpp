@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\KeyEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/KeyEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,7 +115,7 @@ public:
   // @brief default ctor
   constexpr KeyEvent_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr KeyEvent_Type(int32_t value__) noexcept;
 
   /// @brief Field KeyPressed value: I32(1)
@@ -147,6 +147,8 @@ static_assert(offsetof(::UnityEngine::InputForUI::KeyEvent_Type, value__) == 0x0
 static_assert(sizeof(::UnityEngine::InputForUI::KeyEvent_Type) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::InputForUI {
 // Is value type: true
@@ -159,7 +161,7 @@ public:
   // @brief default ctor
   constexpr ButtonsState_KeyEvent__buttons_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr ButtonsState_KeyEvent__buttons_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -197,6 +199,7 @@ public:
   /// @brief Method ClearUnchecked, addr 0x6b59954, size 0x24, virtual false, abstract: false, final false
   inline void ClearUnchecked(uint32_t index);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.InputForUI.KeyEvent::ButtonsState::<GetAllPressed>d__8))]
   /// @brief Method GetAllPressed, addr 0x6b599a4, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::KeyCode>* GetAllPressed();
 
@@ -225,7 +228,7 @@ public:
   // @brief default ctor
   constexpr KeyEvent_ButtonsState();
 
-  // Ctor Parameters [CppParam { name: "buttons", ty: "::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "buttons", ty: "::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr KeyEvent_ButtonsState(::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer buttons) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -234,6 +237,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [FixedBuffer(typeof(System.Byte), 40)]
   /// @brief Field buttons, offset: 0x0, size: 0x28, def value: None
   ::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer buttons;
 
@@ -245,6 +249,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::KeyEvent_ButtonsState, buttons
 static_assert(sizeof(::UnityEngine::InputForUI::KeyEvent_ButtonsState) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.InputForUI.KeyEvent::ButtonsState, UnityEngine.KeyCode
 namespace UnityEngine::InputForUI {
 // Is value type: false
@@ -292,23 +297,30 @@ public:
   /// @brief Method MoveNext, addr 0x6b59c60, size 0x74, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.KeyCode>.GetEnumerator, addr 0x6b59d74, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::KeyCode>* System_Collections_Generic_IEnumerable_UnityEngine_KeyCode__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.KeyCode>.get_Current, addr 0x6b59cd4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::KeyCode System_Collections_Generic_IEnumerator_UnityEngine_KeyCode__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6b59e1c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6b59cdc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6b59d14, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6b59c5c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -348,6 +360,7 @@ public:
 
   constexpr void __cordl_internal_set__index_5__1(uint32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6b59a24, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -372,13 +385,13 @@ protected:
   constexpr ButtonsState_KeyEvent__GetAllPressed_d__8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonsState_KeyEvent__GetAllPressed_d__8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonsState_KeyEvent__GetAllPressed_d__8", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonsState_KeyEvent__GetAllPressed_d__8(ButtonsState_KeyEvent__GetAllPressed_d__8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonsState_KeyEvent__GetAllPressed_d__8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonsState_KeyEvent__GetAllPressed_d__8", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonsState_KeyEvent__GetAllPressed_d__8(ButtonsState_KeyEvent__GetAllPressed_d__8 const&) = delete;
+  ButtonsState_KeyEvent__GetAllPressed_d__8(ButtonsState_KeyEvent__GetAllPressed_d__8const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21808 };
@@ -419,6 +432,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllP
 static_assert(sizeof(::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies Unity.IntegerTime.DiscreteTime, UnityEngine.InputForUI.EventModifiers, UnityEngine.InputForUI.EventSource, UnityEngine.InputForUI.KeyEvent::ButtonsState,
 // UnityEngine.InputForUI.KeyEvent::Type, UnityEngine.KeyCode
 namespace UnityEngine::InputForUI {
@@ -445,24 +459,32 @@ public:
   /// @brief Method ToString, addr 0x6b5970c, size 0x1fc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_eventModifiers, addr 0x6b596fc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_eventSource, addr 0x6b596e4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventModifiers, addr 0x6b59704, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventSource, addr 0x6b596ec, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerId, addr 0x6b596f4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_timestamp, addr 0x6b596dc, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
@@ -470,11 +492,12 @@ public:
   // @brief default ctor
   constexpr KeyEvent();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::KeyEvent_Type", modifiers: "", def_value: None }, CppParam { name: "keyCode", ty: "::UnityEngine::KeyCode", modifiers:
-  // "", def_value: None }, CppParam { name: "buttonsState", ty: "::UnityEngine::InputForUI::KeyEvent_ButtonsState", modifiers: "", def_value: None }, CppParam { name: "_timestamp_k__BackingField",
-  // ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: None }, CppParam { name: "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "",
-  // def_value: None }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_eventModifiers_k__BackingField", ty:
-  // "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::KeyEvent_Type", modifiers: "", def_value: None, comment: None }, CppParam { name: "keyCode", ty:
+  // "::UnityEngine::KeyCode", modifiers: "", def_value: None, comment: None }, CppParam { name: "buttonsState", ty: "::UnityEngine::InputForUI::KeyEvent_ButtonsState", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: None, comment: None }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr KeyEvent(::UnityEngine::InputForUI::KeyEvent_Type type, ::UnityEngine::KeyCode keyCode, ::UnityEngine::InputForUI::KeyEvent_ButtonsState buttonsState,
                      ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField, ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField, uint32_t _playerId_k__BackingField,
                      ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
@@ -494,15 +517,23 @@ public:
   /// @brief Field buttonsState, offset: 0x8, size: 0x28, def value: None
   ::UnityEngine::InputForUI::KeyEvent_ButtonsState buttonsState;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <timestamp>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <eventSource>k__BackingField, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <playerId>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   uint32_t _playerId_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <eventModifiers>k__BackingField, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField;
 

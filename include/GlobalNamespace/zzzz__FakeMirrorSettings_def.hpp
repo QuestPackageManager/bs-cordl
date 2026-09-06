@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FakeMirrorSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/FakeMirrorSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -142,32 +142,45 @@ protected:
   constexpr FakeMirrorSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FakeMirrorSettings(FakeMirrorSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FakeMirrorSettings(FakeMirrorSettings const&) = delete;
+  FakeMirrorSettings(FakeMirrorSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20628 };
 
+  /// [SerializeField]
   /// @brief Field _fakeMirrorTransparency, offset: 0x20, size: 0x4, def value: None
   float_t ____fakeMirrorTransparency;
 
+  /// [Space(12)]
+  /// [SerializeField]
   /// @brief Field _useVertexDistortion, offset: 0x24, size: 0x1, def value: None
   bool ____useVertexDistortion;
 
+  /// [SerializeField]
+  /// [DrawIf("_useVertexDistortion", true, (DrawIfAttribute::DisablingType)1)]
+  /// [Min(0)]
   /// @brief Field _vertexDistortionNoiseScale, offset: 0x28, size: 0x4, def value: None
   float_t ____vertexDistortionNoiseScale;
 
+  /// [DrawIf("_useVertexDistortion", true, (DrawIfAttribute::DisablingType)1)]
+  /// [SerializeField]
   /// @brief Field _vertexDistortionStrength, offset: 0x2c, size: 0x4, def value: None
   float_t ____vertexDistortionStrength;
 
+  /// [SerializeField]
+  /// [DrawIf("_useVertexDistortion", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _vertexDistortionDirectionality, offset: 0x30, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____vertexDistortionDirectionality;
 
+  /// [SerializeField]
+  /// [DrawIf("_useVertexDistortion", true, (DrawIfAttribute::DisablingType)1)]
+  /// [Min(0)]
   /// @brief Field _vertexDistortionZposMultiplier, offset: 0x3c, size: 0x4, def value: None
   float_t ____vertexDistortionZposMultiplier;
 

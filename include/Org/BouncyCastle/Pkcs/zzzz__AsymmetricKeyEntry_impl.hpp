@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Pkcs\AsymmetricKeyEntry.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/AsymmetricKeyEntry.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Entry_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__AsymmetricKeyEntry_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
@@ -135,6 +135,7 @@ inline int32_t Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::GetHashCode() {
 inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*>(key));
 }
+/// @brief [Obsolete]
 inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* Org::BouncyCastle::Pkcs::AsymmetricKeyEntry::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key,
                                                                                                             ::System::Collections::Hashtable* attributes) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*>(key, attributes));

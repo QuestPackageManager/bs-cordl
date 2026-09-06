@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BaseTerminalViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BaseTerminalViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,7 +81,7 @@ public:
 
   static inline ::GlobalNamespace::BaseTerminalViewController* New_ctor();
 
-  /// @brief Method PrintMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PrintMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PrintMessage(::GlobalNamespace::ConsoleMessage message);
 
   /// @brief Method PrintMessage, addr 0x32ebc50, size 0x10, virtual false, abstract: false, final false
@@ -138,17 +138,18 @@ protected:
   constexpr BaseTerminalViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTerminalViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTerminalViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseTerminalViewController(BaseTerminalViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseTerminalViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseTerminalViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseTerminalViewController(BaseTerminalViewController const&) = delete;
+  BaseTerminalViewController(BaseTerminalViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19429 };
 
+  /// [Inject]
   /// @brief Field _console, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::TerminalController* ____console;
 

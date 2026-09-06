@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4\NjsEventConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/NjsEventConverter.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__NoteJumpMovementSpeedEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__NjsEventConverter_def.hpp"

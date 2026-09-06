@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\SecurityTreatAsSafeAttribute.hpp"
+// IWYU pragma private; include "System/Security/SecurityTreatAsSafeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Security/zzzz__SecurityTreatAsSafeAttribute_def.hpp"
 //  Writing Method size for method: ::System::Security::SecurityTreatAsSafeAttribute._ctor

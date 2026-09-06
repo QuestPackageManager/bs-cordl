@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\MessageWithProductList.hpp"
+// IWYU pragma private; include "Oculus/Platform/MessageWithProductList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,13 +42,13 @@ protected:
   constexpr MessageWithProductList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithProductList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithProductList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithProductList(MessageWithProductList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithProductList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MessageWithProductList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithProductList(MessageWithProductList const&) = delete;
+  MessageWithProductList(MessageWithProductListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17911 };

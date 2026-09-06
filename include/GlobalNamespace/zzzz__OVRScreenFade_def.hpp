@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRScreenFade.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRScreenFade.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::GlobalNamespace::OVRScreenFade*);
 MARK_REF_T(::GlobalNamespace::OVRScreenFade__Fade_d__25*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRScreenFade*, "", "OVRScreenFade");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRScreenFade__Fade_d__25*, "", "OVRScreenFade/<Fade>d__25");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -86,17 +87,22 @@ public:
   /// @brief Method MoveNext, addr 0x5f0dfbc, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRScreenFade__Fade_d__25* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5f0e0e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5f0e0f0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5f0e128, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5f0dfb8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -136,6 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_startAlpha(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5f0df88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -154,13 +161,13 @@ protected:
   constexpr OVRScreenFade__Fade_d__25();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade__Fade_d__25", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade__Fade_d__25", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRScreenFade__Fade_d__25(OVRScreenFade__Fade_d__25&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade__Fade_d__25", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade__Fade_d__25", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRScreenFade__Fade_d__25(OVRScreenFade__Fade_d__25 const&) = delete;
+  OVRScreenFade__Fade_d__25(OVRScreenFade__Fade_d__25const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7979 };
@@ -201,6 +208,7 @@ static_assert(offsetof(::GlobalNamespace::OVRScreenFade__Fade_d__25, ____elapsed
 static_assert(sizeof(::GlobalNamespace::OVRScreenFade__Fade_d__25) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/reference/unity/latest/class_o_v_r_screen_fade")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -248,6 +256,7 @@ public:
   /// @brief Field uiFadeAlpha, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_uiFadeAlpha, put = __cordl_internal_set_uiFadeAlpha)) float_t uiFadeAlpha;
 
+  /// [IteratorStateMachine(typeof(OVRScreenFade::<Fade>d__25))]
   /// @brief Method Fade, addr 0x5f0dbc8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Fade(float_t startAlpha, float_t endAlpha);
 
@@ -354,11 +363,13 @@ public:
   /// @brief Method get_currentAlpha, addr 0x5f0d628, size 0xb0, virtual false, abstract: false, final false
   inline float_t get_currentAlpha();
 
+  /// [CompilerGenerated]
   /// @brief Method get_instance, addr 0x5f0d58c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRScreenFade> get_instance();
 
   static inline void setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRScreenFade> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_instance, addr 0x5f0d5d8, size 0x50, virtual false, abstract: false, final false
   static inline void set_instance(::GlobalNamespace::OVRScreenFade* value);
 
@@ -368,20 +379,22 @@ protected:
   constexpr OVRScreenFade();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRScreenFade(OVRScreenFade&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRScreenFade(OVRScreenFade const&) = delete;
+  OVRScreenFade(OVRScreenFadeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7980 };
 
+  /// [Tooltip("Fade duration")]
   /// @brief Field fadeTime, offset: 0x20, size: 0x4, def value: None
   float_t ___fadeTime;
 
+  /// [Tooltip("Screen color at maximum fade")]
   /// @brief Field fadeColor, offset: 0x24, size: 0x10, def value: None
   ::UnityEngine::Color ___fadeColor;
 

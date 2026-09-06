@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerDeviceState.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerDeviceState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_VAL_T(::UnityEngine::UIElements::PointerDeviceState_PointerLocation);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerDeviceState_LocationFlag, "UnityEngine.UIElements", "PointerDeviceState/LocationFlag");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerDeviceState*, "UnityEngine.UIElements", "PointerDeviceState");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerDeviceState_PointerLocation, "UnityEngine.UIElements", "PointerDeviceState/PointerLocation");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -71,7 +72,7 @@ public:
   // @brief default ctor
   constexpr PointerDeviceState_LocationFlag();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PointerDeviceState_LocationFlag(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -113,21 +114,30 @@ public:
   /// @brief Method SetLocation, addr 0x6da2c64, size 0x100, virtual false, abstract: false, final false
   inline void SetLocation(::UnityEngine::Vector2 position, ::UnityEngine::UIElements::IPanel* panel);
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_Flags, addr 0x6da34f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerDeviceState_LocationFlag get_Flags();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_Panel, addr 0x6da34e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IPanel* get_Panel();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_Position, addr 0x6da34d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Position();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Flags, addr 0x6da3500, size 0x8, virtual false, abstract: false, final false
   inline void set_Flags(::UnityEngine::UIElements::PointerDeviceState_LocationFlag value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Panel, addr 0x6da34f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Panel(::UnityEngine::UIElements::IPanel* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Position, addr 0x6da34e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Position(::UnityEngine::Vector2 value);
 
@@ -135,9 +145,9 @@ public:
   // @brief default ctor
   constexpr PointerDeviceState_PointerLocation();
 
-  // Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "_Panel_k__BackingField", ty:
-  // "::UnityEngine::UIElements::IPanel*", modifiers: "", def_value: None }, CppParam { name: "_Flags_k__BackingField", ty: "::UnityEngine::UIElements::PointerDeviceState_LocationFlag", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Panel_k__BackingField", ty:
+  // "::UnityEngine::UIElements::IPanel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Flags_k__BackingField", ty: "::UnityEngine::UIElements::PointerDeviceState_LocationFlag",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr PointerDeviceState_PointerLocation(::UnityEngine::Vector2 _Position_k__BackingField, ::UnityEngine::UIElements::IPanel* _Panel_k__BackingField,
                                                ::UnityEngine::UIElements::PointerDeviceState_LocationFlag _Flags_k__BackingField) noexcept;
 
@@ -147,12 +157,18 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Position>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 _Position_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Panel>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* _Panel_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Flags>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::PointerDeviceState_LocationFlag _Flags_k__BackingField;
 
@@ -247,13 +263,13 @@ protected:
   constexpr PointerDeviceState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerDeviceState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerDeviceState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerDeviceState(PointerDeviceState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerDeviceState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerDeviceState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerDeviceState(PointerDeviceState const&) = delete;
+  PointerDeviceState(PointerDeviceStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4532 };

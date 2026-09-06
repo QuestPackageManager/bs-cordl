@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Signers\Gost3410DigestSigner.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/Gost3410DigestSigner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,13 +119,13 @@ protected:
   constexpr Gost3410DigestSigner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410DigestSigner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410DigestSigner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost3410DigestSigner(Gost3410DigestSigner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410DigestSigner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3410DigestSigner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost3410DigestSigner(Gost3410DigestSigner const&) = delete;
+  Gost3410DigestSigner(Gost3410DigestSignerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1140 };

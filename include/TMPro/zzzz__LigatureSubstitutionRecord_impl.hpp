@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\LigatureSubstitutionRecord.hpp"
+// IWYU pragma private; include "TMPro/LigatureSubstitutionRecord.hpp"
 #include "TMPro/zzzz__LigatureSubstitutionRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::LigatureSubstitutionRecord.get_componentGlyphIDs
 template <>
@@ -109,8 +109,8 @@ inline bool TMPro::LigatureSubstitutionRecord::op_Inequality(::TMPro::LigatureSu
                                                            { "op_Inequality", {}, { ::i2c::type_of<::TMPro::LigatureSubstitutionRecord>(), ::i2c::type_of<::TMPro::LigatureSubstitutionRecord>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
 }
-// Ctor Parameters [CppParam { name: "m_ComponentGlyphIDs", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LigatureGlyphID", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ComponentGlyphIDs", ty: "::ArrayW<uint32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LigatureGlyphID", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::LigatureSubstitutionRecord::LigatureSubstitutionRecord(::ArrayW<uint32_t> m_ComponentGlyphIDs, uint32_t m_LigatureGlyphID) noexcept {
   this->m_ComponentGlyphIDs = m_ComponentGlyphIDs;
   this->m_LigatureGlyphID = m_LigatureGlyphID;

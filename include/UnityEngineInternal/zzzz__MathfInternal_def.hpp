@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngineInternal\MathfInternal.hpp"
+// IWYU pragma private; include "UnityEngineInternal/MathfInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct MathfInternal;
 // Write type traits
 MARK_VAL_T(::UnityEngineInternal::MathfInternal);
 DEFINE_IL2CPP_CLASS(::UnityEngineInternal::MathfInternal, "UnityEngineInternal", "MathfInternal");
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies
 namespace UnityEngineInternal {
 // Is value type: true

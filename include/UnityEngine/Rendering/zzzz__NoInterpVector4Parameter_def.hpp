@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpVector4Parameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpVector4Parameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class NoInterpVector4Parameter;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::NoInterpVector4Parameter*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::NoInterpVector4Parameter*, "UnityEngine.Rendering", "NoInterpVector4Parameter");
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.VolumeParameter`1<T>, UnityEngine.Vector4
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -34,13 +35,13 @@ protected:
   constexpr NoInterpVector4Parameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpVector4Parameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoInterpVector4Parameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoInterpVector4Parameter(NoInterpVector4Parameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpVector4Parameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoInterpVector4Parameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoInterpVector4Parameter(NoInterpVector4Parameter const&) = delete;
+  NoInterpVector4Parameter(NoInterpVector4Parameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12362 };

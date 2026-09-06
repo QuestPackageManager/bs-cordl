@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRRuntime.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRRuntime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,9 +106,11 @@ public:
   /// @brief Method ShouldRestart, addr 0x69f5960, size 0x4c, virtual false, abstract: false, final false
   static inline bool ShouldRestart();
 
+  /// [CompilerGenerated]
   /// @brief Method add_wantsToQuit, addr 0x69f6064, size 0xe0, virtual false, abstract: false, final false
   static inline void add_wantsToQuit(::System::Func_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_wantsToRestart, addr 0x69f6224, size 0xe4, virtual false, abstract: false, final false
   static inline void add_wantsToRestart(::System::Func_1<bool>* value);
 
@@ -134,9 +136,11 @@ public:
   /// @brief Method isRuntimeAPIVersionGreaterThan1_1, addr 0x69f5cb8, size 0x4c, virtual false, abstract: false, final false
   static inline bool isRuntimeAPIVersionGreaterThan1_1();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_wantsToQuit, addr 0x69f6144, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_wantsToQuit(::System::Func_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_wantsToRestart, addr 0x69f6308, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_wantsToRestart(::System::Func_1<bool>* value);
 
@@ -153,13 +157,13 @@ protected:
   constexpr OpenXRRuntime();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntime", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntime", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRRuntime(OpenXRRuntime&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRuntime(OpenXRRuntime const&) = delete;
+  OpenXRRuntime(OpenXRRuntimeconst&) = delete;
 
   /// @brief Field LibraryName offset 0xffffffff size 0x8
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };

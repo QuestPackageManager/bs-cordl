@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXBinderAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXBinderAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::VFX::Utility::VFXBinderAttribute._ctor

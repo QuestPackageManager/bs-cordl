@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerIndirectToggle.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerIndirectToggle.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerIndirectToggle_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"

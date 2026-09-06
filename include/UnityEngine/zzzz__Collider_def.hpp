@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Collider.hpp"
+// IWYU pragma private; include "UnityEngine/Collider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/LowLevelPhysics/zzzz__IGeometry_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -44,7 +45,8 @@ class Collider;
 // Write type traits
 MARK_REF_T(::UnityEngine::Collider*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Collider*, "UnityEngine", "Collider");
-// Dependencies UnityEngine.Component
+// [NativeHeader("Modules/Physics/Collider.h")]
+// Dependencies UnityEngine.Component, UnityEngine.LowLevelPhysics.IGeometry
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.Collider
@@ -77,6 +79,7 @@ public:
 
   __declspec(property(get = get_providesContacts, put = set_providesContacts)) bool providesContacts;
 
+  /// @brief [NativeMethod("Material")]
   __declspec(property(get = get_sharedMaterial, put = set_sharedMaterial)) ::UnityW<::UnityEngine::PhysicsMaterial> sharedMaterial;
 
   /// @brief Method ClosestPoint, addr 0x6b7eba4, size 0xac, virtual false, abstract: false, final false
@@ -89,8 +92,11 @@ public:
   static inline void ClosestPoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method GetGeometry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetGeometry();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::LowLevelPhysics::IGeometry*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T GetGeometry();
 
+  /// [NativeName("ClosestPointOnBounds")]
   /// @brief Method Internal_ClosestPointOnBounds, addr 0x6b7fda8, size 0xb0, virtual false, abstract: false, final false
   inline void Internal_ClosestPointOnBounds(::UnityEngine::Vector3 point, ::by_ref<::UnityEngine::Vector3> outPos, ::by_ref<float_t> distance);
 
@@ -117,12 +123,14 @@ public:
   /// @brief Method get_GeometryHolder_Injected, addr 0x6b7f6a8, size 0x44, virtual false, abstract: false, final false
   static inline void get_GeometryHolder_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LowLevelPhysics::GeometryHolder> ret);
 
+  /// [NativeMethod("GetArticulationBody")]
   /// @brief Method get_attachedArticulationBody, addr 0x6b7e6f0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ArticulationBody> get_attachedArticulationBody();
 
   /// @brief Method get_attachedArticulationBody_Injected, addr 0x6b7e840, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_attachedArticulationBody_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("GetRigidbody")]
   /// @brief Method get_attachedRigidbody, addr 0x6b7bf08, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_attachedRigidbody();
 
@@ -177,6 +185,7 @@ public:
   /// @brief Method get_layerOverridePriority_Injected, addr 0x6b7f138, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_layerOverridePriority_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("GetClonedMaterial")]
   /// @brief Method get_material, addr 0x6b7f97c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::PhysicsMaterial> get_material();
 
@@ -237,6 +246,7 @@ public:
   /// @brief Method set_layerOverridePriority_Injected, addr 0x6b7f204, size 0x44, virtual false, abstract: false, final false
   static inline void set_layerOverridePriority_Injected(::System::IntPtr _unity_self, int32_t value);
 
+  /// [NativeMethod("SetMaterial")]
   /// @brief Method set_material, addr 0x6b7fb08, size 0xc0, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::PhysicsMaterial* value);
 
@@ -261,13 +271,13 @@ protected:
   constexpr Collider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Collider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Collider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Collider(Collider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Collider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Collider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Collider(Collider const&) = delete;
+  Collider(Colliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18637 };

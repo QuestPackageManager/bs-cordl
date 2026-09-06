@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\ReliableChannel.hpp"
+// IWYU pragma private; include "LiteNetLib/ReliableChannel.hpp"
 #include "LiteNetLib/zzzz__BaseChannel_impl.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_impl.hpp"
 #include "LiteNetLib/zzzz__NetPacket_impl.hpp"
@@ -81,8 +81,8 @@ inline bool LiteNetLib::ReliableChannel_PendingPacket::Clear(::LiteNetLib::NetPe
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::ReliableChannel_PendingPacket>(), { "Clear", {}, { ::i2c::type_of<::LiteNetLib::NetPeer*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, peer);
 }
-// Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_isSent", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_isSent", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::LiteNetLib::ReliableChannel_PendingPacket::ReliableChannel_PendingPacket(::LiteNetLib::NetPacket* _packet, int64_t _timeStamp, bool _isSent) noexcept {
   this->_packet = _packet;
   this->_timeStamp = _timeStamp;

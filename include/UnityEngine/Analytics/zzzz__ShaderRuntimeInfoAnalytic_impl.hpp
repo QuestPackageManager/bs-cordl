@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\ShaderRuntimeInfoAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/ShaderRuntimeInfoAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__ShaderRuntimeInfoAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic._ctor

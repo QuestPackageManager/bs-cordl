@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\Localization.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/Localization.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,8 @@ class Localization;
 // Write type traits
 MARK_REF_T(::BGLib::Polyglot::Localization*);
 DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::Localization*, "BGLib.Polyglot", "Localization");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BGLib.Polyglot.LocalizationLanguage, UnityEngine.ScriptableObject
 namespace BGLib::Polyglot {
 // Is value type: false
@@ -64,6 +66,7 @@ public:
 
   static inline ::BGLib::Polyglot::Localization* New_ctor();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x331c920, size 0x4c, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -113,23 +116,30 @@ protected:
   constexpr Localization();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Localization", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Localization", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Localization(Localization&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Localization", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Localization", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Localization(Localization const&) = delete;
+  Localization(Localizationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22205 };
 
+  /// [Header("Language Support")]
+  /// [Tooltip("The supported languages by the game.\n Leave empty if you support them all.")]
+  /// [SerializeField]
   /// @brief Field supportedLanguages, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationLanguage>* ___supportedLanguages;
 
+  /// [Tooltip("The currently selected language of the game.\nThis will also be the default when you start the game for the first time.")]
+  /// [SerializeField]
   /// @brief Field selectedLanguage, offset: 0x20, size: 0x4, def value: None
   ::BGLib::Polyglot::LocalizationLanguage ___selectedLanguage;
 
+  /// [Tooltip("If we cant find the string for the selected language we fall back to this language.")]
+  /// [SerializeField]
   /// @brief Field fallbackLanguage, offset: 0x24, size: 0x4, def value: None
   ::BGLib::Polyglot::LocalizationLanguage ___fallbackLanguage;
 

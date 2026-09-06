@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LabelScopeKind.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LabelScopeKind.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   // @brief default ctor
   constexpr LabelScopeKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LabelScopeKind(int32_t value__) noexcept;
 
   /// @brief Field Block value: I32(1)

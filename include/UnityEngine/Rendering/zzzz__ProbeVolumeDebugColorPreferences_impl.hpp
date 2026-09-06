@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeDebugColorPreferences.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeDebugColorPreferences.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeDebugColorPreferences_def.hpp"

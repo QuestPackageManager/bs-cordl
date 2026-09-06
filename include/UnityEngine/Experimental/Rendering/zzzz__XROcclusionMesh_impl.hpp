@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XROcclusionMesh.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XROcclusionMesh.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__XROcclusionMesh_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__XRPass_def.hpp"

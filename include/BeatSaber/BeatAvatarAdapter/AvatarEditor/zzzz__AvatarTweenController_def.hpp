@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\AvatarEditor\AvatarTweenController.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/AvatarEditor/AvatarTweenController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,6 +74,7 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenCon
                     "AvatarTweenController/<DisappearAnimation>d__60");
 DEFINE_IL2CPP_CLASS(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController___c__DisplayClass54_0*, "BeatSaber.BeatAvatarAdapter.AvatarEditor",
                     "AvatarTweenController/<>c__DisplayClass54_0");
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Vector3
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
@@ -113,13 +114,13 @@ protected:
   constexpr AvatarTweenController___c__DisplayClass54_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController___c__DisplayClass54_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController___c__DisplayClass54_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarTweenController___c__DisplayClass54_0(AvatarTweenController___c__DisplayClass54_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController___c__DisplayClass54_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController___c__DisplayClass54_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarTweenController___c__DisplayClass54_0(AvatarTweenController___c__DisplayClass54_0 const&) = delete;
+  AvatarTweenController___c__DisplayClass54_0(AvatarTweenController___c__DisplayClass54_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21690 };
@@ -140,6 +141,7 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTween
 static_assert(sizeof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController___c__DisplayClass54_0) == 0x28, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarAdapter::AvatarEditor
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
@@ -175,17 +177,22 @@ public:
   /// @brief Method MoveNext, addr 0x3276f5c, size 0x208, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3277164, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x327716c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32771a4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3276f58, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -213,6 +220,7 @@ public:
 
   constexpr void __cordl_internal_set__waitYieldInstruction_5__2(::UnityEngine::WaitForSeconds* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32760b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -231,13 +239,13 @@ protected:
   constexpr AvatarTweenController__AppearAnimation_d__55();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__AppearAnimation_d__55", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__AppearAnimation_d__55", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarTweenController__AppearAnimation_d__55(AvatarTweenController__AppearAnimation_d__55&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__AppearAnimation_d__55", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__AppearAnimation_d__55", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarTweenController__AppearAnimation_d__55(AvatarTweenController__AppearAnimation_d__55 const&) = delete;
+  AvatarTweenController__AppearAnimation_d__55(AvatarTweenController__AppearAnimation_d__55const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21691 };
@@ -268,6 +276,7 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTween
 static_assert(sizeof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__AppearAnimation_d__55) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarAdapter::AvatarEditor
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
@@ -300,17 +309,22 @@ public:
   /// @brief Method MoveNext, addr 0x32771b0, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController__DisappearAnimation_d__60* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32774b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32774bc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32774f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32771ac, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -332,6 +346,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3276ddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -350,13 +365,13 @@ protected:
   constexpr AvatarTweenController__DisappearAnimation_d__60();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__DisappearAnimation_d__60", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__DisappearAnimation_d__60", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarTweenController__DisappearAnimation_d__60(AvatarTweenController__DisappearAnimation_d__60&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__DisappearAnimation_d__60", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController__DisappearAnimation_d__60", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarTweenController__DisappearAnimation_d__60(AvatarTweenController__DisappearAnimation_d__60 const&) = delete;
+  AvatarTweenController__DisappearAnimation_d__60(AvatarTweenController__DisappearAnimation_d__60const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21692 };
@@ -525,6 +540,7 @@ public:
   /// @brief Field _tweeningManager, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
+  /// [IteratorStateMachine(typeof(BeatSaber.BeatAvatarAdapter.AvatarEditor.AvatarTweenController::<AppearAnimation>d__55))]
   /// @brief Method AppearAnimation, addr 0x3275cc8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AppearAnimation();
 
@@ -546,6 +562,7 @@ public:
   /// @brief Method CreatePopTween, addr 0x3275f18, size 0x198, virtual false, abstract: false, final false
   inline ::Tweening::Tween_1<float_t>* CreatePopTween(::UnityEngine::Transform* partTransform, float_t popAmount);
 
+  /// [IteratorStateMachine(typeof(BeatSaber.BeatAvatarAdapter.AvatarEditor.AvatarTweenController::<DisappearAnimation>d__60))]
   /// @brief Method DisappearAnimation, addr 0x3275d1c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DisappearAnimation();
 
@@ -587,33 +604,43 @@ public:
   /// @brief Method StopAll, addr 0x3275c2c, size 0x98, virtual false, abstract: false, final false
   inline void StopAll();
 
+  /// [CompilerGenerated]
   /// @brief Method <AppearBody>b__56_0, addr 0x3276e34, size 0x18, virtual false, abstract: false, final false
   inline void _AppearBody_b__56_0(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <AppearBody>b__56_1, addr 0x3276e4c, size 0x18, virtual false, abstract: false, final false
   inline void _AppearBody_b__56_1(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <AppearHead>b__57_0, addr 0x3276e64, size 0x18, virtual false, abstract: false, final false
   inline void _AppearHead_b__57_0(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <AppearHead>b__57_1, addr 0x3276e7c, size 0x18, virtual false, abstract: false, final false
   inline void _AppearHead_b__57_1(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <AppearLeftHand>b__58_0, addr 0x3276e94, size 0x18, virtual false, abstract: false, final false
   inline void _AppearLeftHand_b__58_0(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <AppearLeftHand>b__58_1, addr 0x3276eac, size 0x18, virtual false, abstract: false, final false
   inline void _AppearLeftHand_b__58_1(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <AppearRightHand>b__59_0, addr 0x3276ec4, size 0x18, virtual false, abstract: false, final false
   inline void _AppearRightHand_b__59_0(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <AppearRightHand>b__59_1, addr 0x3276edc, size 0x18, virtual false, abstract: false, final false
   inline void _AppearRightHand_b__59_1(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <DisappearAnimation>b__60_0, addr 0x3276ef4, size 0x18, virtual false, abstract: false, final false
   inline void _DisappearAnimation_b__60_0(::UnityEngine::Vector3 val);
 
+  /// [CompilerGenerated]
   /// @brief Method <DisappearAnimation>b__60_1, addr 0x3276f0c, size 0x18, virtual false, abstract: false, final false
   inline void _DisappearAnimation_b__60_1(::UnityEngine::Vector3 val);
 
@@ -878,92 +905,128 @@ protected:
   constexpr AvatarTweenController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarTweenController(AvatarTweenController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AvatarTweenController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AvatarTweenController(AvatarTweenController const&) = delete;
+  AvatarTweenController(AvatarTweenControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21693 };
 
+  /// [Header("Avatar Parts")]
+  /// [SerializeField]
   /// @brief Field _avatarTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____avatarTransform;
 
+  /// [SerializeField]
   /// @brief Field _headParent, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headParent;
 
+  /// [SerializeField]
   /// @brief Field _leftHandTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____leftHandTransform;
 
+  /// [SerializeField]
   /// @brief Field _rightHandTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____rightHandTransform;
 
+  /// [SerializeField]
   /// @brief Field _bodyTransform, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____bodyTransform;
 
+  /// [Header("Inner Parts")]
+  /// [SerializeField]
   /// @brief Field _headInnerTransform, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headInnerTransform;
 
+  /// [SerializeField]
   /// @brief Field _leftHandInnerTransform, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____leftHandInnerTransform;
 
+  /// [SerializeField]
   /// @brief Field _rightHandInnerTransform, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____rightHandInnerTransform;
 
+  /// [SerializeField]
   /// @brief Field _bodyInnerTransform, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____bodyInnerTransform;
 
+  /// [Header("Pop Tween")]
+  /// [SerializeField]
+  /// [Range(0, 1)]
   /// @brief Field _popDuration, offset: 0x68, size: 0x4, def value: None
   float_t ____popDuration;
 
+  /// [SerializeField]
   /// @brief Field _popEaseType, offset: 0x6c, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____popEaseType;
 
+  /// [SerializeField]
   /// @brief Field _headPopAmount, offset: 0x70, size: 0x4, def value: None
   float_t ____headPopAmount;
 
+  /// [SerializeField]
   /// @brief Field _handsPopAmount, offset: 0x74, size: 0x4, def value: None
   float_t ____handsPopAmount;
 
+  /// [SerializeField]
   /// @brief Field _clothesPopAmount, offset: 0x78, size: 0x4, def value: None
   float_t ____clothesPopAmount;
 
+  /// [SerializeField]
   /// @brief Field _allPopAmount, offset: 0x7c, size: 0x4, def value: None
   float_t ____allPopAmount;
 
+  /// [Header("Appear Tween")]
+  /// [SerializeField]
+  /// [Range(0, 1)]
   /// @brief Field _appearDuration, offset: 0x80, size: 0x4, def value: None
   float_t ____appearDuration;
 
+  /// [SerializeField]
+  /// [Range(0, 0.5)]
   /// @brief Field _appearSpacing, offset: 0x84, size: 0x4, def value: None
   float_t ____appearSpacing;
 
+  /// [SerializeField]
   /// @brief Field _appearHeight, offset: 0x88, size: 0x4, def value: None
   float_t ____appearHeight;
 
+  /// [SerializeField]
+  /// [Min(0)]
   /// @brief Field _squashFactor, offset: 0x8c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____squashFactor;
 
+  /// [Header("Disappear tween")]
+  /// [SerializeField]
+  /// [Range(0.05, 0.5)]
   /// @brief Field _disappearDuration, offset: 0x98, size: 0x4, def value: None
   float_t ____disappearDuration;
 
+  /// [SerializeField]
   /// @brief Field _disappearHeight, offset: 0x9c, size: 0x4, def value: None
   float_t ____disappearHeight;
 
+  /// [SerializeField]
   /// @brief Field _disappearSquash, offset: 0xa0, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____disappearSquash;
 
+  /// [SerializeField]
   /// @brief Field _disappearScaleEase, offset: 0xac, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____disappearScaleEase;
 
+  /// [SerializeField]
   /// @brief Field _disappearPositionEase, offset: 0xb0, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____disappearPositionEase;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
+  /// [Inject]
   /// @brief Field _sharedCoroutineStarter, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____sharedCoroutineStarter;
 

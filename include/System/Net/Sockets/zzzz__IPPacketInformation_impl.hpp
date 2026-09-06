@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\IPPacketInformation.hpp"
+// IWYU pragma private; include "System/Net/Sockets/IPPacketInformation.hpp"
 #include "System/Net/Sockets/zzzz__IPPacketInformation_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -39,8 +39,8 @@ inline int32_t System::Net::Sockets::IPPacketInformation::GetHashCode() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::Sockets::IPPacketInformation>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress*", modifiers: "", def_value: Some("{}") }, CppParam { name: "networkInterface", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "networkInterface", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::Sockets::IPPacketInformation::IPPacketInformation(::System::Net::IPAddress* address, int32_t networkInterface) noexcept {
   this->address = address;
   this->networkInterface = networkInterface;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\INotifyValueChanged_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/INotifyValueChanged_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,18 +22,18 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) T value;
 
-  /// @brief Method SetValueWithoutNotify, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValueWithoutNotify(T newValue);
 
-  /// @brief Method get_value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_value();
 
-  /// @brief Method set_value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_value(T value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "INotifyValueChanged_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INotifyValueChanged_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INotifyValueChanged_1(INotifyValueChanged_1 const&) = delete;
+  INotifyValueChanged_1(INotifyValueChanged_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4212 };

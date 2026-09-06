@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlByte.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlByte.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ struct SqlByte;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlByte);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlByte, "System.Data.SqlTypes", "SqlByte");
+// [XmlSchemaProvider("GetXsdType")]
 // Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -196,7 +197,8 @@ public:
   // @brief default ctor
   constexpr SqlByte();
 
-  // Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_value", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_value", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SqlByte(bool m_fNotNull, uint8_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

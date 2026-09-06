@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlyingCar.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlyingCar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class FlyingCar;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::FlyingCar*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FlyingCar*, "", "FlyingCar");
+// [AddComponentMenu("Beat Saber/Gameplay/FlyingCar")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -86,23 +87,26 @@ protected:
   constexpr FlyingCar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingCar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingCar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingCar(FlyingCar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlyingCar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlyingCar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlyingCar(FlyingCar const&) = delete;
+  FlyingCar(FlyingCarconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5969 };
 
+  /// [SerializeField]
   /// @brief Field _startZ, offset: 0x20, size: 0x4, def value: None
   float_t ____startZ;
 
+  /// [SerializeField]
   /// @brief Field _endZ, offset: 0x24, size: 0x4, def value: None
   float_t ____endZ;
 
+  /// [SerializeField]
   /// @brief Field _speed, offset: 0x28, size: 0x4, def value: None
   float_t ____speed;
 

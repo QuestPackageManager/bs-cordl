@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Action_11.hpp"
+// IWYU pragma private; include "System/Action_11.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ protected:
   constexpr Action_11();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Action_11", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Action_11", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Action_11(Action_11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Action_11", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Action_11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Action_11(Action_11 const&) = delete;
+  Action_11(Action_11const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16042 };

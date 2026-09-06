@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SettingsFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/SettingsFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,7 +132,7 @@ public:
   // @brief default ctor
   constexpr SettingsFlowCoordinator_FinishAction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SettingsFlowCoordinator_FinishAction(int32_t value__) noexcept;
 
   /// @brief Field Apply value: I32(2)
@@ -161,6 +161,7 @@ static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator_FinishAction, 
 static_assert(sizeof(::GlobalNamespace::SettingsFlowCoordinator_FinishAction) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -174,6 +175,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a0e3bc, size 0x47c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a0e838, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -184,9 +186,10 @@ public:
   // @brief default ctor
   constexpr SettingsFlowCoordinator__ApplySettingsAsync_d__28();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr SettingsFlowCoordinator__ApplySettingsAsync_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                               ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -222,6 +225,7 @@ static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator__ApplySettings
 static_assert(sizeof(::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -235,6 +239,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a0e8a4, size 0x3bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a0ec60, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -245,9 +250,10 @@ public:
   // @brief default ctor
   constexpr SettingsFlowCoordinator__CancelSettingsAsync_d__29();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr SettingsFlowCoordinator__CancelSettingsAsync_d__29(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -283,6 +289,7 @@ static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator__CancelSetting
 static_assert(sizeof(::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies SettingsNavigationController::FinishAction, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -296,6 +303,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a0eccc, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a0f100, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -306,10 +314,11 @@ public:
   // @brief default ctor
   constexpr SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "finishAction", ty:
-  // "::GlobalNamespace::SettingsNavigationController_FinishAction", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "finishAction", ty:
+  // "::GlobalNamespace::SettingsNavigationController_FinishAction", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                             ::GlobalNamespace::SettingsNavigationController_FinishAction finishAction,
                                                                                             ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this,
@@ -413,9 +422,11 @@ public:
   /// @brief Field fileStorage, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage)) ::GlobalNamespace::IFileStorage* fileStorage;
 
+  /// [AsyncStateMachine(typeof(SettingsFlowCoordinator::<ApplySettingsAsync>d__28))]
   /// @brief Method ApplySettingsAsync, addr 0x5a0e1b0, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ApplySettingsAsync();
 
+  /// [AsyncStateMachine(typeof(SettingsFlowCoordinator::<CancelSettingsAsync>d__29))]
   /// @brief Method CancelSettingsAsync, addr 0x5a0e260, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CancelSettingsAsync();
 
@@ -429,8 +440,9 @@ public:
   inline void HandleDidSelectSettingsSubMenu(::GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int32_t idx);
 
   /// @brief Method HandleRequestToSelectProfileToCopyFrom, addr 0x5a0dee4, size 0x21c, virtual false, abstract: false, final false
-  inline void HandleRequestToSelectProfileToCopyFrom(::ArrayW<::System::ValueTuple_2<::StringW, int32_t>> profilesToCopyFrom);
+  inline void HandleRequestToSelectProfileToCopyFrom(/* [TupleElementNames(new[] { "text", "index" })] */ ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>> profilesToCopyFrom);
 
+  /// [AsyncStateMachine(typeof(SettingsFlowCoordinator::<HandleSettingsNavigationControllerDidFinishAsync>d__27))]
   /// @brief Method HandleSettingsNavigationControllerDidFinishAsync, addr 0x5a0e100, size 0xb0, virtual false, abstract: false, final false
   inline void HandleSettingsNavigationControllerDidFinishAsync(::GlobalNamespace::SettingsNavigationController_FinishAction finishAction);
 
@@ -442,8 +454,9 @@ public:
   /// @brief Method ShowSecretViewController, addr 0x5a0de70, size 0x4, virtual false, abstract: false, final false
   inline void ShowSecretViewController(::HMUI::ViewController* viewController);
 
+  /// [CompilerGenerated]
   /// @brief Method <HandleRequestToSelectProfileToCopyFrom>b__26_0, addr 0x5a0e318, size 0xa4, virtual false, abstract: false, final false
-  inline void _HandleRequestToSelectProfileToCopyFrom_b__26_0(::System::ValueTuple_2<int32_t, int32_t> arguments);
+  inline void _HandleRequestToSelectProfileToCopyFrom_b__26_0(/* [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })] */ ::System::ValueTuple_2<int32_t, int32_t> arguments);
 
   constexpr ::BeatSaber::GameSettings::ControllerProfilesModel* const& __cordl_internal_get__controllerProfilesModel() const;
 
@@ -514,11 +527,13 @@ public:
   /// @brief Method .ctor, addr 0x5a0e310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5a0d73c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
 
   static inline int32_t getStaticF__selectedSettingsSubMenuInfoIdx();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5a0d7fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
 
@@ -530,13 +545,13 @@ protected:
   constexpr SettingsFlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsFlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsFlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsFlowCoordinator(SettingsFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsFlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsFlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsFlowCoordinator(SettingsFlowCoordinator const&) = delete;
+  SettingsFlowCoordinator(SettingsFlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6371 };
@@ -559,33 +574,43 @@ public:
   /// @brief Field kTitleSettingsLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitleSettingsLocalizationKey{ u"TITLE_SETTINGS" };
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* ___didFinishEvent;
 
+  /// [Inject]
   /// @brief Field _mainSettingsMenuViewController, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> ____mainSettingsMenuViewController;
 
+  /// [Inject]
   /// @brief Field _settingsNavigationController, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsNavigationController> ____settingsNavigationController;
 
+  /// [Inject]
   /// @brief Field fileStorage, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _settingsApplicator, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 
+  /// [Inject]
   /// @brief Field _controllerProfilesViewController, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController> ____controllerProfilesViewController;
 
+  /// [Inject]
   /// @brief Field _dropdownDialogPromptViewController, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DropdownDialogPromptViewController> ____dropdownDialogPromptViewController;
 
+  /// [Inject]
   /// @brief Field _controllerProfilesModel, offset: 0xf8, size: 0x8, def value: None
   ::BeatSaber::GameSettings::ControllerProfilesModel* ____controllerProfilesModel;
 

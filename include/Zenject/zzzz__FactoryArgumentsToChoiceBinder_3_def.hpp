@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FactoryArgumentsToChoiceBinder_3.hpp"
+// IWYU pragma private; include "Zenject/FactoryArgumentsToChoiceBinder_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ template <typename TParam1, typename TParam2, typename TContract> class FactoryA
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::FactoryArgumentsToChoiceBinder_3);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryArgumentsToChoiceBinder_3, "Zenject", "FactoryArgumentsToChoiceBinder`3");
+// [NoReflectionBaking]
 // Dependencies Zenject.FactoryToChoiceBinder`3<TParam1, TParam2, TContract>
 namespace Zenject {
 // cpp template
@@ -86,13 +87,13 @@ protected:
   constexpr FactoryArgumentsToChoiceBinder_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryArgumentsToChoiceBinder_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryArgumentsToChoiceBinder_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryArgumentsToChoiceBinder_3(FactoryArgumentsToChoiceBinder_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryArgumentsToChoiceBinder_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryArgumentsToChoiceBinder_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryArgumentsToChoiceBinder_3(FactoryArgumentsToChoiceBinder_3 const&) = delete;
+  FactoryArgumentsToChoiceBinder_3(FactoryArgumentsToChoiceBinder_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14059 };

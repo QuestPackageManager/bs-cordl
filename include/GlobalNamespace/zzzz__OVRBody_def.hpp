@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBody.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBody.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,9 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,6 +56,8 @@ class OVRBody;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRBody*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRBody*, "", "OVRBody");
+// [HelpURL("https://developer.oculus.com/documentation/unity/move-body-tracking/")]
+// [Feature((Meta.XR.Util.Feature)1)]
 // Dependencies OVRPermissionsRequester::Permission, OVRPlugin::BodyJointSet, OVRPlugin::BodyState, OVRPlugin::Quatf, OVRPlugin::Vector3f, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -224,13 +228,13 @@ protected:
   constexpr OVRBody();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBody", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBody", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRBody(OVRBody&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBody", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBody", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRBody(OVRBody const&) = delete;
+  OVRBody(OVRBodyconst&) = delete;
 
   /// @brief Field BodyTrackingPermission value: I32(1)
   static ::GlobalNamespace::OVRPermissionsRequester_Permission const BodyTrackingPermission;
@@ -256,6 +260,8 @@ public:
   /// @brief Field _onPermissionGranted, offset: 0x60, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ____onPermissionGranted;
 
+  /// [SerializeField]
+  /// [Tooltip("The skeleton data type to be provided. Should be sync with OVRSkeleton. For selecting the tracking mode on the device, check settings in OVRManager.")]
   /// @brief Field _providedSkeletonType, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::OVRPlugin_BodyJointSet ____providedSkeletonType;
 

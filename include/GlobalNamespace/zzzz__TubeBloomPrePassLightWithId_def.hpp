@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,23 +71,26 @@ protected:
   constexpr TubeBloomPrePassLightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeBloomPrePassLightWithId(TubeBloomPrePassLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeBloomPrePassLightWithId(TubeBloomPrePassLightWithId const&) = delete;
+  TubeBloomPrePassLightWithId(TubeBloomPrePassLightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19561 };
 
+  /// [SerializeField]
   /// @brief Field _tubeBloomPrePassLight, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
+  /// [SerializeField]
   /// @brief Field _setOnlyOnce, offset: 0x48, size: 0x1, def value: None
   bool ____setOnlyOnce;
 
+  /// [SerializeField]
   /// @brief Field _setColorOnly, offset: 0x49, size: 0x1, def value: None
   bool ____setColorOnly;
 

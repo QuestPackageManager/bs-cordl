@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerMarkerExtension.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerMarkerExtension.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class ProfilerMarkerExtension;
 // Write type traits
 MARK_REF_T(::Unity::Profiling::ProfilerMarkerExtension*);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::ProfilerMarkerExtension*, "Unity.Profiling", "ProfilerMarkerExtension");
+// [Extension]
 // Dependencies System.Object
 namespace Unity::Profiling {
 // Is value type: false
@@ -25,24 +26,38 @@ namespace Unity::Profiling {
 class CORDL_TYPE ProfilerMarkerExtension : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Begin, addr 0x67432e4, size 0xb0, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, ::StringW metadata);
 
+  /// [Extension]
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Begin, addr 0x6743220, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, double_t metadata);
 
+  /// [Extension]
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Begin, addr 0x674315c, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, float_t metadata);
 
+  /// [Extension]
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Begin, addr 0x6742e4c, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, int32_t metadata);
 
+  /// [Extension]
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Begin, addr 0x6742fd4, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, int64_t metadata);
 
+  /// [Extension]
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Begin, addr 0x6742f10, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, uint32_t metadata);
 
+  /// [Extension]
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Begin, addr 0x6743098, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, uint64_t metadata);
 
@@ -52,13 +67,13 @@ protected:
   constexpr ProfilerMarkerExtension();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilerMarkerExtension", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilerMarkerExtension", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProfilerMarkerExtension(ProfilerMarkerExtension&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProfilerMarkerExtension", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProfilerMarkerExtension", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProfilerMarkerExtension(ProfilerMarkerExtension const&) = delete;
+  ProfilerMarkerExtension(ProfilerMarkerExtensionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23459 };

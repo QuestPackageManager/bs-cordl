@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\MonoMethodInfo.hpp"
+// IWYU pragma private; include "System/Reflection/MonoMethodInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,9 +91,10 @@ public:
   // @brief default ctor
   constexpr MonoMethodInfo();
 
-  // Ctor Parameters [CppParam { name: "parent", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "ret", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam {
-  // name: "attrs", ty: "::System::Reflection::MethodAttributes", modifiers: "", def_value: None }, CppParam { name: "iattrs", ty: "::System::Reflection::MethodImplAttributes", modifiers: "",
-  // def_value: None }, CppParam { name: "callconv", ty: "::System::Reflection::CallingConventions", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "parent", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ret", ty: "::System::Type*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "attrs", ty: "::System::Reflection::MethodAttributes", modifiers: "", def_value: None, comment: None }, CppParam { name: "iattrs", ty:
+  // "::System::Reflection::MethodImplAttributes", modifiers: "", def_value: None, comment: None }, CppParam { name: "callconv", ty: "::System::Reflection::CallingConventions", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr MonoMethodInfo(::System::Type* parent, ::System::Type* ret, ::System::Reflection::MethodAttributes attrs, ::System::Reflection::MethodImplAttributes iattrs,
                            ::System::Reflection::CallingConventions callconv) noexcept;
 

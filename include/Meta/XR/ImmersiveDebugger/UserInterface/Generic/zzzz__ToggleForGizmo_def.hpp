@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ToggleForGizmo.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ToggleForGizmo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ public:
   /// @brief Method Setup, addr 0x5a60f68, size 0x94, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
+  /// [CompilerGenerated]
   /// @brief Method <Setup>b__4_0, addr 0x5a61008, size 0x10, virtual false, abstract: false, final false
   inline void _Setup_b__4_0();
 
@@ -59,13 +60,13 @@ protected:
   constexpr ToggleForGizmo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleForGizmo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleForGizmo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleForGizmo(ToggleForGizmo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ToggleForGizmo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ToggleForGizmo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ToggleForGizmo(ToggleForGizmo const&) = delete;
+  ToggleForGizmo(ToggleForGizmoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18424 };

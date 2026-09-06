@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\QueryExpression.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/QueryExpression.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
@@ -73,7 +73,7 @@ inline bool Newtonsoft::Json::Linq::JsonPath::QueryExpression::IsMatch(::Newtons
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, root, t);
 }
 inline bool Newtonsoft::Json::Linq::JsonPath::QueryExpression::IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t,
-                                                                       ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
+                                                                       /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, root, t, settings);

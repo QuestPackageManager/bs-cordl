@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXTriggerEventBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXTriggerEventBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   // @brief default ctor
   constexpr VFXTriggerEventBinder_Activation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VFXTriggerEventBinder_Activation(int32_t value__) noexcept;
 
   /// @brief Field OnEnter value: I32(0)
@@ -94,6 +94,7 @@ static_assert(offsetof(::UnityEngine::VFX::Utility::VFXTriggerEventBinder_Activa
 static_assert(sizeof(::UnityEngine::VFX::Utility::VFXTriggerEventBinder_Activation) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::VFX::Utility
+// [RequireComponent(typeof(UnityEngine.Collider))]
 // Dependencies UnityEngine.VFX.Utility.VFXEventBinderBase, UnityEngine.VFX.Utility.VFXTriggerEventBinder::Activation
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -153,13 +154,13 @@ protected:
   constexpr VFXTriggerEventBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTriggerEventBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTriggerEventBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXTriggerEventBinder(VFXTriggerEventBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTriggerEventBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTriggerEventBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTriggerEventBinder(VFXTriggerEventBinder const&) = delete;
+  VFXTriggerEventBinder(VFXTriggerEventBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19979 };

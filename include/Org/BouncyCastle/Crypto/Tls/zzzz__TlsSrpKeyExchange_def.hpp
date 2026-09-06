@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsSrpKeyExchange.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsSrpKeyExchange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -139,6 +139,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity,
                                                                               ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* loginParameters);
 
+  /// @brief [Obsolete("Use constructor taking an explicit \'groupVerifier\' argument")]
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity,
                                                                               ::ArrayW<uint8_t> password);
 
@@ -243,6 +244,7 @@ public:
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity,
                     ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* loginParameters);
 
+  /// [Obsolete("Use constructor taking an explicit \'groupVerifier\' argument")]
   /// @brief Method .ctor, addr 0x3490868, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password);
 
@@ -255,13 +257,13 @@ protected:
   constexpr TlsSrpKeyExchange();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsSrpKeyExchange", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsSrpKeyExchange", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsSrpKeyExchange(TlsSrpKeyExchange&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsSrpKeyExchange", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsSrpKeyExchange", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsSrpKeyExchange(TlsSrpKeyExchange const&) = delete;
+  TlsSrpKeyExchange(TlsSrpKeyExchangeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1326 };

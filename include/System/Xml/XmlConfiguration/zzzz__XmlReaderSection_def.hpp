@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlConfiguration\XmlReaderSection.hpp"
+// IWYU pragma private; include "System/Xml/XmlConfiguration/XmlReaderSection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class XmlReaderSection;
 // Write type traits
 MARK_REF_T(::System::Xml::XmlConfiguration::XmlReaderSection*);
 DEFINE_IL2CPP_CLASS(::System::Xml::XmlConfiguration::XmlReaderSection*, "System.Xml.XmlConfiguration", "XmlReaderSection");
+// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
 // Dependencies System.Object
 namespace System::Xml::XmlConfiguration {
 // Is value type: false
@@ -37,13 +38,13 @@ protected:
   constexpr XmlReaderSection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlReaderSection(XmlReaderSection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlReaderSection(XmlReaderSection const&) = delete;
+  XmlReaderSection(XmlReaderSectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9563 };

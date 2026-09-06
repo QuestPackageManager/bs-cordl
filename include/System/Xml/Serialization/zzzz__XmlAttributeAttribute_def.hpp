@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Serialization\XmlAttributeAttribute.hpp"
+// IWYU pragma private; include "System/Xml/Serialization/XmlAttributeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class XmlAttributeAttribute;
 // Write type traits
 MARK_REF_T(::System::Xml::Serialization::XmlAttributeAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Serialization::XmlAttributeAttribute*, "System.Xml.Serialization", "XmlAttributeAttribute");
+// [AttributeUsage((System.AttributeTargets)10624)]
 // Dependencies System.Attribute, System.Xml.Schema.XmlSchemaForm
 namespace System::Xml::Serialization {
 // Is value type: false
@@ -112,13 +113,13 @@ protected:
   constexpr XmlAttributeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlAttributeAttribute(XmlAttributeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlAttributeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlAttributeAttribute(XmlAttributeAttribute const&) = delete;
+  XmlAttributeAttribute(XmlAttributeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9502 };

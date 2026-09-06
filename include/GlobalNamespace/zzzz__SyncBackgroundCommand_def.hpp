@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SyncBackgroundCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/SyncBackgroundCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
   /// @brief Method Execute, addr 0x3322960, size 0x180, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* Execute();
 
-  /// @brief Method ExecuteInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExecuteInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExecuteInternal();
 
   static inline ::GlobalNamespace::SyncBackgroundCommand* New_ctor();
@@ -67,13 +67,13 @@ protected:
   constexpr SyncBackgroundCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SyncBackgroundCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SyncBackgroundCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SyncBackgroundCommand(SyncBackgroundCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SyncBackgroundCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SyncBackgroundCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SyncBackgroundCommand(SyncBackgroundCommand const&) = delete;
+  SyncBackgroundCommand(SyncBackgroundCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20727 };

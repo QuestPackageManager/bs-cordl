@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLeaderboardPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLeaderboardPanelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class MultiplayerLeaderboardPanelController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerLeaderboardPanelController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLeaderboardPanelController*, "", "MultiplayerLeaderboardPanelController");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerLeaderboardPanelController")]
 // Dependencies MultiplayerLeaderboardPanelItem, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -59,20 +60,22 @@ protected:
   constexpr MultiplayerLeaderboardPanelController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLeaderboardPanelController(MultiplayerLeaderboardPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLeaderboardPanelController(MultiplayerLeaderboardPanelController const&) = delete;
+  MultiplayerLeaderboardPanelController(MultiplayerLeaderboardPanelControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6010 };
 
+  /// [SerializeField]
   /// @brief Field _items, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>> ____items;
 
+  /// [Inject]
   /// @brief Field _scoreProvider, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 

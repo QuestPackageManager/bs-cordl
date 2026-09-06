@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextContainer.hpp"
+// IWYU pragma private; include "TMPro/TextContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ class TextContainer;
 // Write type traits
 MARK_REF_T(::TMPro::TextContainer*);
 DEFINE_IL2CPP_CLASS(::TMPro::TextContainer*, "TMPro", "TextContainer");
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies TMPro.TextContainerAnchors, UnityEngine.EventSystems.UIBehaviour, UnityEngine.Rect, UnityEngine.Vector2, UnityEngine.Vector3, UnityEngine.Vector4
 namespace TMPro {
 // Is value type: false
@@ -302,13 +303,13 @@ protected:
   constexpr TextContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextContainer(TextContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextContainer(TextContainer const&) = delete;
+  TextContainer(TextContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15862 };
@@ -316,12 +317,15 @@ public:
   /// @brief Field m_hasChanged, offset: 0x20, size: 0x1, def value: None
   bool ___m_hasChanged;
 
+  /// [SerializeField]
   /// @brief Field m_pivot, offset: 0x24, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_pivot;
 
+  /// [SerializeField]
   /// @brief Field m_anchorPosition, offset: 0x2c, size: 0x4, def value: None
   ::TMPro::TextContainerAnchors ___m_anchorPosition;
 
+  /// [SerializeField]
   /// @brief Field m_rect, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_rect;
 
@@ -340,6 +344,7 @@ public:
   /// @brief Field m_worldCorners, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> ___m_worldCorners;
 
+  /// [SerializeField]
   /// @brief Field m_margins, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_margins;
 

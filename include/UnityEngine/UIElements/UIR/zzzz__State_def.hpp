@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\State.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/State.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,9 +29,9 @@ public:
   // @brief default ctor
   constexpr State();
 
-  // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityEngine::UIElements::TextureId",
-  // modifiers: "", def_value: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sdfScale", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "sharpness", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "texture", ty:
+  // "::UnityEngine::UIElements::TextureId", modifiers: "", def_value: None, comment: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "sdfScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sharpness", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr State(::UnityW<::UnityEngine::Material> material, ::UnityEngine::UIElements::TextureId texture, int32_t stencilRef, float_t sdfScale, float_t sharpness) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

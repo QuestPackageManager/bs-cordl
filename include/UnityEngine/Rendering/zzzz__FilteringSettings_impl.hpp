@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FilteringSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FilteringSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderQueueRange_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SortingLayerRange_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FilteringSettings_def.hpp"
@@ -133,8 +133,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::R
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::FilteringSettings::_ctor(::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange> renderQueueRange, int32_t layerMask, uint32_t renderingLayerMask,
-                                                             int32_t excludeMotionVectorObjects) {
+inline void UnityEngine::Rendering::FilteringSettings::_ctor(/* [DefaultValue("RenderQueueRange.all")] */ ::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange> renderQueueRange,
+                                                             int32_t layerMask, uint32_t renderingLayerMask, int32_t excludeMotionVectorObjects) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -191,10 +191,11 @@ constexpr UnityEngine::Rendering::FilteringSettings::operator ::System::IEquatab
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::FilteringSettings>* UnityEngine::Rendering::FilteringSettings::i___System__IEquatable_1___UnityEngine__Rendering__FilteringSettings_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::FilteringSettings>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_RenderQueueRange", ty: "::UnityEngine::Rendering::RenderQueueRange", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LayerMask", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RenderingLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BatchLayerMask", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ExcludeMotionVectorObjects", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ForceAllMotionVectorObjects", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SortingLayerRange", ty: "::UnityEngine::Rendering::SortingLayerRange", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_RenderQueueRange", ty: "::UnityEngine::Rendering::RenderQueueRange", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_LayerMask", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_RenderingLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_BatchLayerMask", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ExcludeMotionVectorObjects", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_ForceAllMotionVectorObjects", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SortingLayerRange", ty:
+// "::UnityEngine::Rendering::SortingLayerRange", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::FilteringSettings::FilteringSettings(::UnityEngine::Rendering::RenderQueueRange m_RenderQueueRange, int32_t m_LayerMask, uint32_t m_RenderingLayerMask,
                                                                          uint32_t m_BatchLayerMask, int32_t m_ExcludeMotionVectorObjects, int32_t m_ForceAllMotionVectorObjects,
                                                                          ::UnityEngine::Rendering::SortingLayerRange m_SortingLayerRange) noexcept {

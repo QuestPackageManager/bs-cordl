@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Signers\PssSigner.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/PssSigner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -264,13 +264,13 @@ protected:
   constexpr PssSigner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PssSigner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PssSigner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PssSigner(PssSigner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PssSigner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PssSigner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PssSigner(PssSigner const&) = delete;
+  PssSigner(PssSignerconst&) = delete;
 
   /// @brief Field TrailerImplicit offset 0xffffffff size 0x1
   static constexpr uint8_t TrailerImplicit{ static_cast<uint8_t>(0xbcu) };

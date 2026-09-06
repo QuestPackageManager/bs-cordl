@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlCompareOptions.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlCompareOptions.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlCompareOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::SqlTypes::SqlCompareOptions::SqlCompareOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }

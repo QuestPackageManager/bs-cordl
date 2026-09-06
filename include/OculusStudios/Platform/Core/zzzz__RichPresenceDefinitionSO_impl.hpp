@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\RichPresenceDefinitionSO.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/RichPresenceDefinitionSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__RichPresenceDefinitionSO_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IRichPresenceDefinition_def.hpp"

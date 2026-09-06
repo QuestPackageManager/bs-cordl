@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IDebugDisplaySettingsQuery.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IDebugDisplaySettingsQuery.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
   /// @brief Method TryGetScreenClearColor, addr 0x676d83c, size 0x8, virtual true, abstract: false, final false
   inline bool TryGetScreenClearColor(::by_ref<::UnityEngine::Color> color);
 
-  /// @brief Method get_AreAnySettingsActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_AreAnySettingsActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_AreAnySettingsActive();
 
   /// @brief Method get_IsLightingActive, addr 0x676d834, size 0x8, virtual true, abstract: false, final false
@@ -39,9 +39,9 @@ public:
   /// @brief Method get_IsPostProcessingAllowed, addr 0x676d82c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPostProcessingAllowed();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDebugDisplaySettingsQuery", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDebugDisplaySettingsQuery", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDebugDisplaySettingsQuery(IDebugDisplaySettingsQuery const&) = delete;
+  IDebugDisplaySettingsQuery(IDebugDisplaySettingsQueryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12046 };

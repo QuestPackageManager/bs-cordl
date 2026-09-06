@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaValidationFlags.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaValidationFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct XmlSchemaValidationFlags;
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::XmlSchemaValidationFlags);
 DEFINE_IL2CPP_CLASS(::System::Xml::Schema::XmlSchemaValidationFlags, "System.Xml.Schema", "XmlSchemaValidationFlags");
+// [Flags]
 // Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr XmlSchemaValidationFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlSchemaValidationFlags(int32_t value__) noexcept;
 
   /// @brief Field AllowXmlAttributes value: I32(16)

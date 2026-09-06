@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkStatisticsState.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkStatisticsState.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkStatisticsState_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkStatisticsDelta_def.hpp"
@@ -70,18 +70,20 @@ inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDeleg
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::Invoke(::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState) {
+inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::Invoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, statisticsState);
 }
-inline ::System::IAsyncResult* GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::BeginInvoke(::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState,
-                                                                                                                    ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult*
+GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::BeginInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState,
+                                                                                     ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, statisticsState, callback, object);
 }
-inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::EndInvoke(::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result) {
+inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState,
+                                                                                               ::System::IAsyncResult* result) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, statisticsState, result);
@@ -142,21 +144,22 @@ inline void GlobalNamespace::NetworkStatisticsState::_ctor(int64_t packetsSent, 
                                                    packetsSentRejected, packetsReceivedEncrypted, packetsReceivedPlaintext, packetsReceivedRejected, encryptionProcessingTime,
                                                    decryptionProcessingTime);
 }
-inline ::GlobalNamespace::NetworkStatisticsDelta GlobalNamespace::NetworkStatisticsState::op_Subtraction(::by_ref<::GlobalNamespace::NetworkStatisticsState> a,
-                                                                                                         ::by_ref<::GlobalNamespace::NetworkStatisticsState> b) {
+inline ::GlobalNamespace::NetworkStatisticsDelta GlobalNamespace::NetworkStatisticsState::op_Subtraction(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> a,
+                                                                                                         /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkStatisticsState>(),
                           { "op_Subtraction", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NetworkStatisticsDelta>(nullptr, ___internal_method, a, b);
 }
-// Ctor Parameters [CppParam { name: "packetsSent", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "packetsReceived", ty: "int64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "bytesSent", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bytesReceived", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "packetsLost", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "packetsSentEncrypted", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "packetsSentPlaintext", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "packetsSentRejected", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "packetsReceivedEncrypted", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "packetsReceivedPlaintext", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "packetsReceivedRejected", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "encryptionProcessingTime", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "decryptionProcessingTime", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "packetsSent", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packetsReceived", ty: "int64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "bytesSent", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bytesReceived", ty: "int64_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "packetsLost", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packetsSentEncrypted", ty: "int64_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packetsSentPlaintext", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "packetsSentRejected", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packetsReceivedEncrypted", ty: "int64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "packetsReceivedPlaintext", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packetsReceivedRejected", ty: "int64_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "encryptionProcessingTime", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "decryptionProcessingTime", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::NetworkStatisticsState::NetworkStatisticsState(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost,
                                                                             int64_t packetsSentEncrypted, int64_t packetsSentPlaintext, int64_t packetsSentRejected, int64_t packetsReceivedEncrypted,
                                                                             int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime,

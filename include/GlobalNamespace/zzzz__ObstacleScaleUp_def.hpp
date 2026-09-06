@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleScaleUp.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleScaleUp.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,26 +95,31 @@ protected:
   constexpr ObstacleScaleUp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleScaleUp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleScaleUp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleScaleUp(ObstacleScaleUp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObstacleScaleUp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObstacleScaleUp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObstacleScaleUp(ObstacleScaleUp const&) = delete;
+  ObstacleScaleUp(ObstacleScaleUpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5707 };
 
+  /// [SerializeField]
   /// @brief Field _fullScalePart, offset: 0x20, size: 0x4, def value: None
   float_t ____fullScalePart;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _targetTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____targetTransform;
 
+  /// [SerializeField]
   /// @brief Field _obstacleController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleController> ____obstacleController;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 

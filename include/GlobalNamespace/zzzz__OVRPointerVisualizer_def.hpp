@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPointerVisualizer.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPointerVisualizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,23 +67,27 @@ protected:
   constexpr OVRPointerVisualizer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerVisualizer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerVisualizer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPointerVisualizer(OVRPointerVisualizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerVisualizer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPointerVisualizer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPointerVisualizer(OVRPointerVisualizer const&) = delete;
+  OVRPointerVisualizer(OVRPointerVisualizerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7647 };
 
+  /// [Tooltip("Object which points with Z axis. E.g. CentreEyeAnchor from OVRCameraRig")]
   /// @brief Field rayTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___rayTransform;
 
+  /// [Header("Visual Elements")]
+  /// [Tooltip("Line Renderer used to draw selection ray.")]
   /// @brief Field linePointer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::LineRenderer> ___linePointer;
 
+  /// [Tooltip("Visually, how far out should the ray be drawn.")]
   /// @brief Field rayDrawDistance, offset: 0x30, size: 0x4, def value: None
   float_t ___rayDrawDistance;
 

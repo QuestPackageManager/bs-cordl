@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\Gost3411_2012Digest.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Gost3411_2012Digest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,7 @@ public:
   /// @brief Method BlockUpdate, addr 0x36ed430, size 0x144, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t> input, int32_t inOff, int32_t len);
 
-  /// @brief Method Copy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
   /// @brief Method DoFinal, addr 0x36ece6c, size 0x180, virtual true, abstract: false, final false
@@ -90,7 +90,7 @@ public:
   /// @brief Method GetByteLength, addr 0x36ed254, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest* New_ctor(::ArrayW<uint8_t> IV);
@@ -176,7 +176,7 @@ public:
 
   static inline ::ArrayW<uint8_t> getStaticF_Zero();
 
-  /// @brief Method get_AlgorithmName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
@@ -203,13 +203,13 @@ protected:
   constexpr Gost3411_2012Digest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012Digest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012Digest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost3411_2012Digest(Gost3411_2012Digest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012Digest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012Digest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost3411_2012Digest(Gost3411_2012Digest const&) = delete;
+  Gost3411_2012Digest(Gost3411_2012Digestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 752 };

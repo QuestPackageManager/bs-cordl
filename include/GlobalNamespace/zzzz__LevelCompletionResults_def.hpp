@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelCompletionResults.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelCompletionResults.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +86,7 @@ public:
   // @brief default ctor
   constexpr LevelCompletionResults_LevelEndStateType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LevelCompletionResults_LevelEndStateType(int32_t value__) noexcept;
 
   /// @brief Field Cleared value: I32(1)
@@ -145,7 +145,7 @@ public:
   // @brief default ctor
   constexpr LevelCompletionResults_LevelEndAction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LevelCompletionResults_LevelEndAction(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -283,6 +283,7 @@ public:
   /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x377de10, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
+  /// @brief [Preserve]
   static inline ::GlobalNamespace::LevelCompletionResults* New_ctor();
 
   static inline ::GlobalNamespace::LevelCompletionResults* New_ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore,
@@ -447,6 +448,7 @@ public:
 
   constexpr void __cordl_internal_set_totalCutScore(int32_t value);
 
+  /// [Preserve]
   /// @brief Method .ctor, addr 0x377d840, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -477,13 +479,13 @@ protected:
   constexpr LevelCompletionResults();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResults", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResults", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelCompletionResults(LevelCompletionResults&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResults", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResults", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelCompletionResults(LevelCompletionResults const&) = delete;
+  LevelCompletionResults(LevelCompletionResultsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21191 };

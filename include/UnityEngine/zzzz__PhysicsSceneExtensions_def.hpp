@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PhysicsSceneExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/PhysicsSceneExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class PhysicsSceneExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::PhysicsSceneExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PhysicsSceneExtensions*, "UnityEngine", "PhysicsSceneExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -25,9 +26,12 @@ namespace UnityEngine {
 class CORDL_TYPE PhysicsSceneExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method GetPhysicsScene, addr 0x6b95ce8, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene GetPhysicsScene(::UnityEngine::SceneManagement::Scene scene);
 
+  /// [NativeMethod("GetPhysicsSceneFromUnityScene")]
+  /// [StaticAccessor("GetPhysicsManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// @brief Method GetPhysicsScene_Internal, addr 0x6b95dfc, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene GetPhysicsScene_Internal(::UnityEngine::SceneManagement::Scene scene);
 
@@ -40,13 +44,13 @@ protected:
   constexpr PhysicsSceneExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsSceneExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsSceneExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PhysicsSceneExtensions(PhysicsSceneExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsSceneExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsSceneExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PhysicsSceneExtensions(PhysicsSceneExtensions const&) = delete;
+  PhysicsSceneExtensions(PhysicsSceneExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18676 };

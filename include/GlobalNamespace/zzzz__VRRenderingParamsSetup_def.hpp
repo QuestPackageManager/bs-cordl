@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VRRenderingParamsSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace/VRRenderingParamsSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,23 +67,26 @@ protected:
   constexpr VRRenderingParamsSetup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRRenderingParamsSetup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRRenderingParamsSetup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRRenderingParamsSetup(VRRenderingParamsSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRRenderingParamsSetup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRRenderingParamsSetup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRRenderingParamsSetup(VRRenderingParamsSetup const&) = delete;
+  VRRenderingParamsSetup(VRRenderingParamsSetupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6669 };
 
+  /// [SerializeField]
   /// @brief Field _sceneType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::SceneType ____sceneType;
 
+  /// [InjectOptional]
   /// @brief Field _applicator, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IRenderingParamsApplicator* ____applicator;
 
+  /// [InjectOptional]
   /// @brief Field _sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnCollectionHeader.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnCollectionHeader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -150,9 +150,9 @@ public:
   // @brief default ctor
   constexpr ViewState_MultiColumnCollectionHeader_ColumnState();
 
-  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "actualWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "visible",
-  // ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "actualWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "visible", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ViewState_MultiColumnCollectionHeader_ColumnState(int32_t index, ::StringW name, float_t actualWidth, ::UnityEngine::UIElements::Length width, bool visible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -248,23 +248,26 @@ protected:
   constexpr MultiColumnCollectionHeader_ViewState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ViewState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ViewState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnCollectionHeader_ViewState(MultiColumnCollectionHeader_ViewState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ViewState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ViewState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader_ViewState(MultiColumnCollectionHeader_ViewState const&) = delete;
+  MultiColumnCollectionHeader_ViewState(MultiColumnCollectionHeader_ViewStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5516 };
 
+  /// [SerializeField]
   /// @brief Field m_HasPersistedData, offset: 0x10, size: 0x1, def value: None
   bool ___m_HasPersistedData;
 
+  /// [SerializeField]
   /// @brief Field m_SortDescriptions, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* ___m_SortDescriptions;
 
+  /// [SerializeField]
   /// @brief Field m_OrderedColumnStates, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Internal::ViewState_MultiColumnCollectionHeader_ColumnState>* ___m_OrderedColumnStates;
 
@@ -316,15 +319,19 @@ public:
   /// @brief Method .ctor, addr 0x6d26ca0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_control, addr 0x6d29ec0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn* get_control();
 
+  /// [CompilerGenerated]
   /// @brief Method get_resizeHandle, addr 0x6d29ed0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* get_resizeHandle();
 
+  /// [CompilerGenerated]
   /// @brief Method set_control, addr 0x6d29ec8, size 0x8, virtual false, abstract: false, final false
   inline void set_control(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_resizeHandle, addr 0x6d29ed8, size 0x8, virtual false, abstract: false, final false
   inline void set_resizeHandle(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* value);
 
@@ -334,20 +341,24 @@ protected:
   constexpr MultiColumnCollectionHeader_ColumnData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ColumnData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ColumnData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnCollectionHeader_ColumnData(MultiColumnCollectionHeader_ColumnData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ColumnData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader_ColumnData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader_ColumnData(MultiColumnCollectionHeader_ColumnData const&) = delete;
+  MultiColumnCollectionHeader_ColumnData(MultiColumnCollectionHeader_ColumnDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5517 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <control>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn* ____control_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <resizeHandle>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* ____resizeHandle_k__BackingField;
 
@@ -375,8 +386,8 @@ public:
   // @brief default ctor
   constexpr MultiColumnCollectionHeader_SortedColumnState();
 
-  // Ctor Parameters [CppParam { name: "columnDesc", ty: "::UnityEngine::UIElements::SortColumnDescription*", modifiers: "", def_value: None }, CppParam { name: "direction", ty:
-  // "::UnityEngine::UIElements::SortDirection", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "columnDesc", ty: "::UnityEngine::UIElements::SortColumnDescription*", modifiers: "", def_value: None, comment: None }, CppParam { name: "direction", ty:
+  // "::UnityEngine::UIElements::SortDirection", modifiers: "", def_value: None, comment: None }]
   constexpr MultiColumnCollectionHeader_SortedColumnState(::UnityEngine::UIElements::SortColumnDescription* columnDesc, ::UnityEngine::UIElements::SortDirection direction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -401,6 +412,7 @@ static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnCollectio
 static_assert(sizeof(::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_SortedColumnState) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::Internal {
 // Is value type: false
@@ -443,13 +455,13 @@ protected:
   constexpr MultiColumnCollectionHeader___c__DisplayClass67_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass67_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass67_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnCollectionHeader___c__DisplayClass67_0(MultiColumnCollectionHeader___c__DisplayClass67_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass67_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass67_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader___c__DisplayClass67_0(MultiColumnCollectionHeader___c__DisplayClass67_0 const&) = delete;
+  MultiColumnCollectionHeader___c__DisplayClass67_0(MultiColumnCollectionHeader___c__DisplayClass67_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5519 };
@@ -470,6 +482,7 @@ static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnCollectio
 static_assert(sizeof(::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::Internal {
 // Is value type: false
@@ -500,13 +513,13 @@ protected:
   constexpr MultiColumnCollectionHeader___c__DisplayClass73_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass73_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass73_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnCollectionHeader___c__DisplayClass73_0(MultiColumnCollectionHeader___c__DisplayClass73_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass73_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader___c__DisplayClass73_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader___c__DisplayClass73_0(MultiColumnCollectionHeader___c__DisplayClass73_0 const&) = delete;
+  MultiColumnCollectionHeader___c__DisplayClass73_0(MultiColumnCollectionHeader___c__DisplayClass73_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5520 };
@@ -717,6 +730,7 @@ public:
   /// @brief Method UpdateSortingStatus, addr 0x6d2441c, size 0x608, virtual false, abstract: false, final false
   inline void UpdateSortingStatus();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnContextualMenuManipulator>b__67_0, addr 0x6d29e00, size 0x4, virtual false, abstract: false, final false
   inline void _OnContextualMenuManipulator_b__67_0(::UnityEngine::UIElements::DropdownMenuAction* a);
 
@@ -829,15 +843,19 @@ public:
   inline void _ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
+  /// [CompilerGenerated]
   /// @brief Method add_columnResized, addr 0x6d24a24, size 0xc0, virtual false, abstract: false, final false
   inline void add_columnResized(::System::Action_2<int32_t, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_columnSortingChanged, addr 0x6d24ba4, size 0xac, virtual false, abstract: false, final false
   inline void add_columnSortingChanged(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_contextMenuPopulateEvent, addr 0x6d24cfc, size 0xc0, virtual false, abstract: false, final false
   inline void add_contextMenuPopulateEvent(::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_viewDataRestored, addr 0x6d24e7c, size 0xac, virtual false, abstract: false, final false
   inline void add_viewDataRestored(::System::Action* value);
 
@@ -849,21 +867,26 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_columnContainer, addr 0x6d23cb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_columnContainer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_columnDataMap, addr 0x6d23ca8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData*>* get_columnDataMap();
 
+  /// [CompilerGenerated]
   /// @brief Method get_columnLayout, addr 0x6d23cb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ColumnLayout* get_columnLayout();
 
+  /// [CompilerGenerated]
   /// @brief Method get_columns, addr 0x6d243dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Columns* get_columns();
 
   /// @brief Method get_isApplyingViewState, addr 0x6d23ca0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isApplyingViewState();
 
+  /// [CompilerGenerated]
   /// @brief Method get_resizeHandleContainer, addr 0x6d23cc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_resizeHandleContainer();
 
@@ -882,15 +905,19 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_columnResized, addr 0x6d24ae4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_columnResized(::System::Action_2<int32_t, float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_columnSortingChanged, addr 0x6d24c50, size 0xac, virtual false, abstract: false, final false
   inline void remove_columnSortingChanged(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_contextMenuPopulateEvent, addr 0x6d24dbc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_contextMenuPopulateEvent(::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_viewDataRestored, addr 0x6d24f28, size 0xac, virtual false, abstract: false, final false
   inline void remove_viewDataRestored(::System::Action* value);
 
@@ -914,13 +941,13 @@ protected:
   constexpr MultiColumnCollectionHeader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnCollectionHeader(MultiColumnCollectionHeader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnCollectionHeader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnCollectionHeader(MultiColumnCollectionHeader const&) = delete;
+  MultiColumnCollectionHeader(MultiColumnCollectionHeaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5521 };
@@ -949,30 +976,48 @@ public:
   /// @brief Field m_DoLayoutScheduled, offset: 0x4d9, size: 0x1, def value: None
   bool ___m_DoLayoutScheduled;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <columnDataMap>k__BackingField, offset: 0x4e0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData*>* ____columnDataMap_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <columnLayout>k__BackingField, offset: 0x4e8, size: 0x8, def value: None
   ::UnityEngine::UIElements::ColumnLayout* ____columnLayout_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <columnContainer>k__BackingField, offset: 0x4f0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____columnContainer_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <resizeHandleContainer>k__BackingField, offset: 0x4f8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____resizeHandleContainer_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <columns>k__BackingField, offset: 0x500, size: 0x8, def value: None
   ::UnityEngine::UIElements::Columns* ____columns_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field columnResized, offset: 0x508, size: 0x8, def value: None
   ::System::Action_2<int32_t, float_t>* ___columnResized;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field columnSortingChanged, offset: 0x510, size: 0x8, def value: None
   ::System::Action* ___columnSortingChanged;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field contextMenuPopulateEvent, offset: 0x518, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>* ___contextMenuPopulateEvent;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field viewDataRestored, offset: 0x520, size: 0x8, def value: None
   ::System::Action* ___viewDataRestored;
 

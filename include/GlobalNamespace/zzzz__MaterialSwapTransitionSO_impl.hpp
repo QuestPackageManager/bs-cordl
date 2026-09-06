@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialSwapTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialSwapTransitionSO.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialSwapTransitionSO_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"

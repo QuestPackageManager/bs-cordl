@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\UriIdnScope.hpp"
+// IWYU pragma private; include "System/UriIdnScope.hpp"
 #include "System/zzzz__UriIdnScope_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::UriIdnScope::UriIdnScope(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextGenerationInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextGenerationInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class TextGenerationInfo;
 // Write type traits
 MARK_REF_T(::UnityEngine::TextCore::Text::TextGenerationInfo*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextGenerationInfo*, "UnityEngine.TextCore.Text", "TextGenerationInfo");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -25,6 +26,7 @@ public:
   /// @brief Method Create, addr 0x6c0d058, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create();
 
+  /// [FreeFunction("TextGenerationInfo::Destroy", IsThreadSafe = true)]
   /// @brief Method Destroy, addr 0x6c0d080, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr ptr);
 
@@ -34,13 +36,13 @@ protected:
   constexpr TextGenerationInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextGenerationInfo(TextGenerationInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextGenerationInfo(TextGenerationInfo const&) = delete;
+  TextGenerationInfo(TextGenerationInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17270 };

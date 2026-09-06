@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SilhouettePlaneCache.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SilhouettePlaneCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering {
 struct SilhouettePlaneCache_Slot;
@@ -47,8 +49,9 @@ public:
   // @brief default ctor
   constexpr SilhouettePlaneCache_Slot();
 
-  // Ctor Parameters [CppParam { name: "isActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "planeCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastUsedFrameIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "isActive", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "planeCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastUsedFrameIndex", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr SilhouettePlaneCache_Slot(bool isActive, int32_t viewInstanceID, int32_t planeCount, int32_t lastUsedFrameIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -117,10 +120,10 @@ public:
   // @brief default ctor
   constexpr SilhouettePlaneCache();
 
-  // Ctor Parameters [CppParam { name: "m_SubviewIDToIndexMap", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,int32_t>", modifiers: "", def_value: None }, CppParam { name:
-  // "m_SlotFreeList", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m_Slots", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::SilhouettePlaneCache_Slot>", modifiers: "", def_value: None }, CppParam { name: "m_PlaneStorage", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Plane>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_SubviewIDToIndexMap", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_SlotFreeList", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Slots", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::SilhouettePlaneCache_Slot>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PlaneStorage", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Plane>", modifiers: "", def_value: None, comment: None }]
   constexpr SilhouettePlaneCache(::Unity::Collections::NativeParallelHashMap_2<int32_t, int32_t> m_SubviewIDToIndexMap, ::Unity::Collections::NativeList_1<int32_t> m_SlotFreeList,
                                  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::SilhouettePlaneCache_Slot> m_Slots,
                                  ::Unity::Collections::NativeList_1<::UnityEngine::Plane> m_PlaneStorage) noexcept;

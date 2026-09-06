@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ComputedTransitionUtils.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ComputedTransitionUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::UnityEngine::UIElements::ComputedTransitionUtils*);
 MARK_REF_T(::UnityEngine::UIElements::ComputedTransitionUtils___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ComputedTransitionUtils*, "UnityEngine.UIElements", "ComputedTransitionUtils");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ComputedTransitionUtils___c*, "UnityEngine.UIElements", "ComputedTransitionUtils/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -302,13 +303,13 @@ protected:
   constexpr ComputedTransitionUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComputedTransitionUtils___c(ComputedTransitionUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ComputedTransitionUtils___c(ComputedTransitionUtils___c const&) = delete;
+  ComputedTransitionUtils___c(ComputedTransitionUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4706 };
@@ -319,6 +320,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::ComputedTransitionUtils___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -348,6 +350,7 @@ public:
   /// @brief Method GetTransitionHashCode, addr 0x6ddbbac, size 0x338, virtual false, abstract: false, final false
   static inline int32_t GetTransitionHashCode(::by_ref<::UnityEngine::UIElements::ComputedStyle> cs);
 
+  /// [Extension]
   /// @brief Method GetTransitionProperty, addr 0x6ddba54, size 0x158, virtual false, abstract: false, final false
   static inline bool GetTransitionProperty(::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id,
                                            ::by_ref<::UnityEngine::UIElements::ComputedTransitionProperty> result);
@@ -355,6 +358,7 @@ public:
   /// @brief Method GetWrappingTransitionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetWrappingTransitionData(::System::Collections::Generic::List_1<T>* list, int32_t i, T defaultValue);
 
+  /// [Extension]
   /// @brief Method HasTransitionProperty, addr 0x6ddb988, size 0xcc, virtual false, abstract: false, final false
   static inline bool HasTransitionProperty(::by_ref<::UnityEngine::UIElements::ComputedStyle> computedStyle, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
@@ -382,13 +386,13 @@ protected:
   constexpr ComputedTransitionUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComputedTransitionUtils(ComputedTransitionUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComputedTransitionUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ComputedTransitionUtils(ComputedTransitionUtils const&) = delete;
+  ComputedTransitionUtils(ComputedTransitionUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4707 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlIntAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlIntAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_REF_T(::UnityEngine::UIElements::UxmlIntAttributeDescription*);
 MARK_REF_T(::UnityEngine::UIElements::UxmlIntAttributeDescription___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlIntAttributeDescription*, "UnityEngine.UIElements", "UxmlIntAttributeDescription");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlIntAttributeDescription___c*, "UnityEngine.UIElements", "UxmlIntAttributeDescription/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr UxmlIntAttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlIntAttributeDescription___c(UxmlIntAttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlIntAttributeDescription___c(UxmlIntAttributeDescription___c const&) = delete;
+  UxmlIntAttributeDescription___c(UxmlIntAttributeDescription___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5156 };
@@ -123,13 +124,13 @@ protected:
   constexpr UxmlIntAttributeDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlIntAttributeDescription(UxmlIntAttributeDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlIntAttributeDescription(UxmlIntAttributeDescription const&) = delete;
+  UxmlIntAttributeDescription(UxmlIntAttributeDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5157 };

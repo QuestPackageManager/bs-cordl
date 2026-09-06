@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\JumpDestinationMarker.hpp"
+// IWYU pragma private; include "GlobalNamespace/JumpDestinationMarker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class JumpDestinationMarker;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::JumpDestinationMarker*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::JumpDestinationMarker*, "", "JumpDestinationMarker");
+// [DisplayName("Jump/JumpDestinationMarker")]
 // Dependencies UnityEngine.Timeline.Marker
 namespace GlobalNamespace {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr JumpDestinationMarker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JumpDestinationMarker(JumpDestinationMarker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JumpDestinationMarker(JumpDestinationMarker const&) = delete;
+  JumpDestinationMarker(JumpDestinationMarkerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21440 };

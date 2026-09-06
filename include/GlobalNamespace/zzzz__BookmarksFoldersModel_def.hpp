@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BookmarksFoldersModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/BookmarksFoldersModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::GlobalNamespace::BookmarksFoldersModel*);
 MARK_REF_T(::GlobalNamespace::BookmarksFoldersModel___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BookmarksFoldersModel*, "", "BookmarksFoldersModel");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BookmarksFoldersModel___c*, "", "BookmarksFoldersModel/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr BookmarksFoldersModel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BookmarksFoldersModel___c(BookmarksFoldersModel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BookmarksFoldersModel___c(BookmarksFoldersModel___c const&) = delete;
+  BookmarksFoldersModel___c(BookmarksFoldersModel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14813 };
@@ -128,17 +129,18 @@ protected:
   constexpr BookmarksFoldersModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BookmarksFoldersModel(BookmarksFoldersModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BookmarksFoldersModel(BookmarksFoldersModel const&) = delete;
+  BookmarksFoldersModel(BookmarksFoldersModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14814 };
 
+  /// [SerializeField]
   /// @brief Field myFolders, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW> ___myFolders;
 

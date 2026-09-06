@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\InclusiveRange.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/InclusiveRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   // @brief default ctor
   constexpr InclusiveRange();
 
-  // Ctor Parameters [CppParam { name: "start", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "start", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "end", ty: "int16_t", modifiers: "", def_value: None, comment: None }]
   constexpr InclusiveRange(int16_t start, int16_t end) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

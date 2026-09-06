@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\RSAPKCS1SHA512SignatureDescription.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/RSAPKCS1SHA512SignatureDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ protected:
   constexpr RSAPKCS1SHA512SignatureDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SHA512SignatureDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SHA512SignatureDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RSAPKCS1SHA512SignatureDescription(RSAPKCS1SHA512SignatureDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SHA512SignatureDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SHA512SignatureDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RSAPKCS1SHA512SignatureDescription(RSAPKCS1SHA512SignatureDescription const&) = delete;
+  RSAPKCS1SHA512SignatureDescription(RSAPKCS1SHA512SignatureDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2987 };

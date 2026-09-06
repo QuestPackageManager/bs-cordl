@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\IPPacketInformation.hpp"
+// IWYU pragma private; include "System/Net/Sockets/IPPacketInformation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,8 +36,8 @@ public:
   // @brief default ctor
   constexpr IPPacketInformation();
 
-  // Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress*", modifiers: "", def_value: None }, CppParam { name: "networkInterface", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress*", modifiers: "", def_value: None, comment: None }, CppParam { name: "networkInterface", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr IPPacketInformation(::System::Net::IPAddress* address, int32_t networkInterface) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

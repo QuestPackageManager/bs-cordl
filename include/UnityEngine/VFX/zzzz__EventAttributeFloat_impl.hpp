@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\EventAttributeFloat.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/EventAttributeFloat.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeValue_1_impl.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeFloat_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerRecorder.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ public:
   // @brief default ctor
   constexpr ProfilerRecorder_ControlOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerRecorder_ControlOptions(int32_t value__) noexcept;
 
   /// @brief Field Release value: I32(4)
@@ -149,7 +149,7 @@ public:
   // @brief default ctor
   constexpr ProfilerRecorder_CountOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerRecorder_CountOptions(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(0)
@@ -175,6 +175,10 @@ static_assert(offsetof(::Unity::Profiling::ProfilerRecorder_CountOptions, value_
 static_assert(sizeof(::Unity::Profiling::ProfilerRecorder_CountOptions) == 0x4, "Size mismatch!");
 
 } // namespace Unity::Profiling
+// [DebuggerTypeProxy(typeof(Unity.Profiling.ProfilerRecorderDebugView))]
+// [DebuggerDisplay("Count = {Count}")]
+// [NativeHeader("Runtime/Profiler/ScriptBindings/ProfilerRecorder.bindings.h")]
+// [UsedByNativeCode]
 // Dependencies Unity.Profiling.ProfilerRecorderOptions
 namespace Unity::Profiling {
 // Is value type: true
@@ -203,15 +207,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
+  /// [BurstDiscard]
   /// @brief Method CheckInitializedAndThrow, addr 0x6a5d794, size 0x58, virtual false, abstract: false, final false
   inline void CheckInitializedAndThrow();
 
+  /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method Control, addr 0x6a5d87c, size 0x48, virtual false, abstract: false, final false
   static inline void Control(::Unity::Profiling::ProfilerRecorder handle, ::Unity::Profiling::ProfilerRecorder_ControlOptions options);
 
   /// @brief Method Control_Injected, addr 0x6a5dcc4, size 0x44, virtual false, abstract: false, final false
   static inline void Control_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle, ::Unity::Profiling::ProfilerRecorder_ControlOptions options);
 
+  /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method Create, addr 0x6a5d5f0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerRecorder Create(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle statHandle, int32_t maxSampleCount,
                                                             ::Unity::Profiling::ProfilerRecorderOptions options);
@@ -223,18 +230,21 @@ public:
   /// @brief Method Dispose, addr 0x6a5decc, size 0x54, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetCount, addr 0x6a5d9f0, size 0x48, virtual false, abstract: false, final false
   static inline int32_t GetCount(::Unity::Profiling::ProfilerRecorder handle, ::Unity::Profiling::ProfilerRecorder_CountOptions countOptions);
 
   /// @brief Method GetCount_Injected, addr 0x6a5dd80, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetCount_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle, ::Unity::Profiling::ProfilerRecorder_CountOptions countOptions);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetLastValue, addr 0x6a5d960, size 0x40, virtual false, abstract: false, final false
   static inline int64_t GetLastValue(::Unity::Profiling::ProfilerRecorder handle);
 
   /// @brief Method GetLastValue_Injected, addr 0x6a5dd44, size 0x3c, virtual false, abstract: false, final false
   static inline int64_t GetLastValue_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetRunning, addr 0x6a5dad8, size 0x44, virtual false, abstract: false, final false
   static inline bool GetRunning(::Unity::Profiling::ProfilerRecorder handle);
 
@@ -244,24 +254,28 @@ public:
   /// @brief Method GetSample, addr 0x6a5dbb0, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerRecorderSample GetSample(int32_t index);
 
+  /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetSampleInternal, addr 0x6a5dbfc, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerRecorderSample GetSampleInternal(::Unity::Profiling::ProfilerRecorder handle, int32_t index);
 
   /// @brief Method GetSampleInternal_Injected, addr 0x6a5de78, size 0x54, virtual false, abstract: false, final false
   static inline void GetSampleInternal_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle, int32_t index, ::by_ref<::Unity::Profiling::ProfilerRecorderSample> ret);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetValid, addr 0x6a5d704, size 0x44, virtual false, abstract: false, final false
   static inline bool GetValid(::Unity::Profiling::ProfilerRecorder handle);
 
   /// @brief Method GetValid_Injected, addr 0x6a5ddc4, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetValid_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetValueUnitType, addr 0x6a5d7ec, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerMarkerDataUnit GetValueUnitType(::Unity::Profiling::ProfilerRecorder handle);
 
   /// @brief Method GetValueUnitType_Injected, addr 0x6a5dd08, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerMarkerDataUnit GetValueUnitType_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetWrapped, addr 0x6a5db6c, size 0x44, virtual false, abstract: false, final false
   static inline bool GetWrapped(::Unity::Profiling::ProfilerRecorder handle);
 
@@ -311,7 +325,7 @@ public:
   // @brief default ctor
   constexpr ProfilerRecorder();
 
-  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerRecorder(uint64_t handle) noexcept;
 
   /// @brief Field SharedRecorder value: I32(128)

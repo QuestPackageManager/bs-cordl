@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CoreUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CoreUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -176,13 +177,13 @@ protected:
   constexpr CoreUtils_Sections();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Sections", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Sections", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreUtils_Sections(CoreUtils_Sections&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Sections", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Sections", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils_Sections(CoreUtils_Sections const&) = delete;
+  CoreUtils_Sections(CoreUtils_Sectionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12274 };
@@ -230,13 +231,13 @@ protected:
   constexpr CoreUtils_Priorities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Priorities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Priorities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreUtils_Priorities(CoreUtils_Priorities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Priorities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils_Priorities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils_Priorities(CoreUtils_Priorities const&) = delete;
+  CoreUtils_Priorities(CoreUtils_Prioritiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12275 };
@@ -262,6 +263,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::CoreUtils_Priorities) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -298,13 +300,13 @@ protected:
   constexpr CoreUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreUtils___c(CoreUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils___c(CoreUtils___c const&) = delete;
+  CoreUtils___c(CoreUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12276 };
@@ -315,6 +317,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::CoreUtils___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
@@ -352,13 +355,13 @@ protected:
   constexpr CoreUtils___c__98_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c__98_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c__98_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreUtils___c__98_1(CoreUtils___c__98_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c__98_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils___c__98_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils___c__98_1(CoreUtils___c__98_1 const&) = delete;
+  CoreUtils___c__98_1(CoreUtils___c__98_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12277 };
@@ -367,7 +370,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object, UnityEngine.Vector3
+// Dependencies System.IConvertible, System.Object, UnityEngine.Vector3
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.CoreUtils
@@ -534,7 +537,9 @@ public:
   static inline int32_t GetTextureHash(::UnityEngine::Texture* texture);
 
   /// @brief Method HasFlag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool HasFlag(T mask, T flag);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+  static inline bool HasFlag(T mask, T flag);
 
   /// @brief Method IsLightOverlapDebugEnabled, addr 0x67c20c4, size 0x8, virtual false, abstract: false, final false
   static inline bool IsLightOverlapDebugEnabled(::UnityEngine::Camera* camera);
@@ -787,13 +792,13 @@ protected:
   constexpr CoreUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreUtils(CoreUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CoreUtils(CoreUtils const&) = delete;
+  CoreUtils(CoreUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12278 };

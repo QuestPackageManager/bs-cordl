@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchLayer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchLayer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchLayer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchLayer._ctor

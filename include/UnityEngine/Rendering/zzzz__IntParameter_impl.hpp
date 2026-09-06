@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IntParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__IntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IntParameter._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceComponentDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceComponentDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
   // @brief default ctor
   constexpr GPUInstanceComponentDesc();
 
-  // Ctor Parameters [CppParam { name: "propertyID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "byteSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "isOverriden", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPerInstance", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "instanceType", ty:
-  // "::UnityEngine::Rendering::InstanceType", modifiers: "", def_value: None }, CppParam { name: "componentGroup", ty: "::UnityEngine::Rendering::InstanceComponentGroup", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "propertyID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byteSize", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "isOverriden", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isPerInstance", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "instanceType", ty: "::UnityEngine::Rendering::InstanceType", modifiers: "", def_value: None, comment: None }, CppParam { name: "componentGroup", ty:
+  // "::UnityEngine::Rendering::InstanceComponentGroup", modifiers: "", def_value: None, comment: None }]
   constexpr GPUInstanceComponentDesc(int32_t propertyID, int32_t byteSize, bool isOverriden, bool isPerInstance, ::UnityEngine::Rendering::InstanceType instanceType,
                                      ::UnityEngine::Rendering::InstanceComponentGroup componentGroup) noexcept;
 

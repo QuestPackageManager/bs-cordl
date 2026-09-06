@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\TraceSwitch.hpp"
+// IWYU pragma private; include "System/Diagnostics/TraceSwitch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class TraceSwitch;
 // Write type traits
 MARK_REF_T(::System::Diagnostics::TraceSwitch*);
 DEFINE_IL2CPP_CLASS(::System::Diagnostics::TraceSwitch*, "System.Diagnostics", "TraceSwitch");
+// [SwitchLevel(typeof(System.Diagnostics.TraceLevel))]
 // Dependencies System.Diagnostics.Switch
 namespace System::Diagnostics {
 // Is value type: false
@@ -37,13 +38,13 @@ protected:
   constexpr TraceSwitch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TraceSwitch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceSwitch", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TraceSwitch(TraceSwitch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TraceSwitch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceSwitch", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TraceSwitch(TraceSwitch const&) = delete;
+  TraceSwitch(TraceSwitchconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11144 };

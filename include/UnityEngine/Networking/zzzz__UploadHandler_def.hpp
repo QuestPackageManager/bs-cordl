@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\UploadHandler.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/UploadHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ protected:
   constexpr UploadHandler_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UploadHandler_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UploadHandler_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UploadHandler_BindingsMarshaller(UploadHandler_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UploadHandler_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UploadHandler_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UploadHandler_BindingsMarshaller(UploadHandler_BindingsMarshaller const&) = delete;
+  UploadHandler_BindingsMarshaller(UploadHandler_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22305 };
@@ -60,6 +60,7 @@ public:
 static_assert(sizeof(::UnityEngine::Networking::UploadHandler_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Networking
+// [NativeHeader("Modules/UnityWebRequest/Public/UploadHandler/UploadHandler.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine::Networking {
 // Is value type: false
@@ -83,6 +84,7 @@ public:
 
   static inline ::UnityEngine::Networking::UploadHandler* New_ctor();
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method ReleaseFromScripting, addr 0x6e2b410, size 0x50, virtual false, abstract: false, final false
   inline void ReleaseFromScripting();
 
@@ -107,13 +109,13 @@ protected:
   constexpr UploadHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UploadHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UploadHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UploadHandler(UploadHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UploadHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UploadHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UploadHandler(UploadHandler const&) = delete;
+  UploadHandler(UploadHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22306 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\IOControlCode.hpp"
+// IWYU pragma private; include "System/Net/Sockets/IOControlCode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   // @brief default ctor
   constexpr IOControlCode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr IOControlCode(int64_t value__) noexcept;
 
   /// @brief Field AbsorbRouterAlert value: I64(2550136837)

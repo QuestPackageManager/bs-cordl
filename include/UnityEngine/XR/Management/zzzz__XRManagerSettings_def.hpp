@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\Management\XRManagerSettings.hpp"
+// IWYU pragma private; include "UnityEngine/XR/Management/XRManagerSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRManagerSettings)
@@ -47,6 +48,7 @@ MARK_REF_T(::UnityEngine::XR::Management::XRManagerSettings*);
 MARK_REF_T(::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::Management::XRManagerSettings*, "UnityEngine.XR.Management", "XRManagerSettings");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24*, "UnityEngine.XR.Management", "XRManagerSettings/<InitializeLoader>d__24");
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace UnityEngine::XR::Management {
 // Is value type: false
@@ -84,17 +86,22 @@ public:
   /// @brief Method MoveNext, addr 0x69eb2e8, size 0x30c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x69eb63c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69eb644, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69eb67c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69eb28c, size 0x5c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -125,6 +132,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x69eb5f4, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69eabf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -143,13 +151,13 @@ protected:
   constexpr XRManagerSettings__InitializeLoader_d__24();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings__InitializeLoader_d__24", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings__InitializeLoader_d__24", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRManagerSettings__InitializeLoader_d__24(XRManagerSettings__InitializeLoader_d__24&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings__InitializeLoader_d__24", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings__InitializeLoader_d__24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRManagerSettings__InitializeLoader_d__24(XRManagerSettings__InitializeLoader_d__24 const&) = delete;
+  XRManagerSettings__InitializeLoader_d__24(XRManagerSettings__InitializeLoader_d__24const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23045 };
@@ -180,7 +188,7 @@ static_assert(offsetof(::UnityEngine::XR::Management::XRManagerSettings__Initial
 static_assert(sizeof(::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::XR::Management
-// Dependencies UnityEngine.ScriptableObject
+// Dependencies UnityEngine.ScriptableObject, UnityEngine.XR.Management.XRLoader
 namespace UnityEngine::XR::Management {
 // Is value type: false
 // CS Name: UnityEngine.XR.Management.XRManagerSettings
@@ -193,6 +201,7 @@ public:
   __declspec(property(get = __cordl_internal_get__activeLoader_k__BackingField, put = __cordl_internal_set__activeLoader_k__BackingField)) ::UnityW<::UnityEngine::XR::Management::XRLoader>
       _activeLoader_k__BackingField;
 
+  /// @brief [HideInInspector]
   __declspec(property(get = get_activeLoader, put = set_activeLoader)) ::UnityW<::UnityEngine::XR::Management::XRLoader> activeLoader;
 
   __declspec(property(get = get_activeLoaders)) ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* activeLoaders;
@@ -205,6 +214,7 @@ public:
 
   __declspec(property(get = get_isInitializationComplete)) bool isInitializationComplete;
 
+  /// @brief [Obsolete("\'XRManagerSettings.loaders\' property is obsolete. Use \'XRManagerSettings.activeLoaders\' instead to get a list of the current loaders.")]
   __declspec(property(get = get_loaders)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* loaders;
 
   /// @brief Field m_AutomaticLoading, offset 0x1a, size 0x1
@@ -229,7 +239,9 @@ public:
   __declspec(property(get = get_registeredLoaders)) ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* registeredLoaders;
 
   /// @brief Method ActiveLoaderAs, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T ActiveLoaderAs();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::XR::Management::XRLoader*>)
+  inline T ActiveLoaderAs();
 
   /// @brief Method Awake, addr 0x69eaff8, size 0x178, virtual false, abstract: false, final false
   inline void Awake();
@@ -240,6 +252,7 @@ public:
   /// @brief Method DeinitializeLoader, addr 0x69ea6ac, size 0xf0, virtual false, abstract: false, final false
   inline void DeinitializeLoader();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.XR.Management.XRManagerSettings::<InitializeLoader>d__24))]
   /// @brief Method InitializeLoader, addr 0x69eab9c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* InitializeLoader();
 
@@ -317,6 +330,7 @@ public:
   /// @brief Method .ctor, addr 0x69eb1c8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_activeLoader, addr 0x69ea9f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::XR::Management::XRLoader> get_activeLoader();
 
@@ -341,6 +355,7 @@ public:
   /// @brief Method get_registeredLoaders, addr 0x69eb1c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* get_registeredLoaders();
 
+  /// [CompilerGenerated]
   /// @brief Method set_activeLoader, addr 0x69ea9fc, size 0x8, virtual false, abstract: false, final false
   inline void set_activeLoader(::UnityEngine::XR::Management::XRLoader* value);
 
@@ -359,35 +374,50 @@ protected:
   constexpr XRManagerSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRManagerSettings(XRManagerSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRManagerSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRManagerSettings(XRManagerSettings const&) = delete;
+  XRManagerSettings(XRManagerSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23046 };
 
+  /// [HideInInspector]
   /// @brief Field m_InitializationComplete, offset: 0x18, size: 0x1, def value: None
   bool ___m_InitializationComplete;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_RequiresSettingsUpdate, offset: 0x19, size: 0x1, def value: None
   bool ___m_RequiresSettingsUpdate;
 
+  /// [SerializeField]
+  /// [Tooltip("Determines if the XR Manager instance is responsible for creating and destroying the appropriate loader instance.")]
+  /// [FormerlySerializedAs("AutomaticLoading")]
   /// @brief Field m_AutomaticLoading, offset: 0x1a, size: 0x1, def value: None
   bool ___m_AutomaticLoading;
 
+  /// [SerializeField]
+  /// [Tooltip("Determines if the XR Manager instance is responsible for starting and stopping subsystems for the active loader instance.")]
+  /// [FormerlySerializedAs("AutomaticRunning")]
   /// @brief Field m_AutomaticRunning, offset: 0x1b, size: 0x1, def value: None
   bool ___m_AutomaticRunning;
 
+  /// [SerializeField]
+  /// [Tooltip("List of XR Loader instances arranged in desired load order.")]
+  /// [FormerlySerializedAs("Loaders")]
   /// @brief Field m_Loaders, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* ___m_Loaders;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_RegisteredLoaders, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* ___m_RegisteredLoaders;
 
+  /// [CompilerGenerated]
   /// @brief Field <activeLoader>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::XR::Management::XRLoader> ____activeLoader_k__BackingField;
 

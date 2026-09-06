@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonArrayAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonArrayAttribute.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonArrayAttribute_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonArrayAttribute.get_AllowNullItems
@@ -104,6 +104,7 @@ inline ::Newtonsoft::Json::JsonArrayAttribute* Newtonsoft::Json::JsonArrayAttrib
 inline ::Newtonsoft::Json::JsonArrayAttribute* Newtonsoft::Json::JsonArrayAttribute::New_ctor(bool allowNullItems) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonArrayAttribute*>(allowNullItems));
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::JsonArrayAttribute* Newtonsoft::Json::JsonArrayAttribute::New_ctor(::StringW id) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::JsonArrayAttribute*>(id));
 }

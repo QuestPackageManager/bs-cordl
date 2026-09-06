@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Base64Decoder.hpp"
+// IWYU pragma private; include "System/Xml/Base64Decoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,13 +132,13 @@ protected:
   constexpr Base64Decoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Base64Decoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Base64Decoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Base64Decoder(Base64Decoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Base64Decoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Base64Decoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Base64Decoder(Base64Decoder const&) = delete;
+  Base64Decoder(Base64Decoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9242 };

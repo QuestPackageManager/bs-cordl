@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVROverlayCanvasSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVROverlayCanvasSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,13 +104,13 @@ protected:
   constexpr OVROverlayCanvasSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayCanvasSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayCanvasSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVROverlayCanvasSettings(OVROverlayCanvasSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayCanvasSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVROverlayCanvasSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVROverlayCanvasSettings(OVROverlayCanvasSettings const&) = delete;
+  OVROverlayCanvasSettings(OVROverlayCanvasSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7266 };
@@ -133,15 +133,19 @@ public:
   /// @brief Field kUrpTransparentShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kUrpTransparentShaderName{ u"URP/UI/Prerendered" };
 
+  /// [SerializeField]
   /// @brief Field _overrideCanvasShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____overrideCanvasShader;
 
+  /// [SerializeField]
   /// @brief Field _transparentImposterShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____transparentImposterShader;
 
+  /// [SerializeField]
   /// @brief Field _opaqueImposterShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____opaqueImposterShader;
 
+  /// [SerializeField]
   /// @brief Field _overrideDefaultCanvasMaterial, offset: 0x30, size: 0x1, def value: None
   bool ____overrideDefaultCanvasMaterial;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IBeatmapObjectController.hpp"
+// IWYU pragma private; include "GlobalNamespace/IBeatmapObjectController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,18 +19,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE IBeatmapObjectController {
 public:
   // Declarations
-  /// @brief Method Dissolve, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Dissolve, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Dissolve(float_t duration);
 
-  /// @brief Method Hide, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Hide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Hide(bool hide);
 
-  /// @brief Method Pause, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Pause(bool pause);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBeatmapObjectController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBeatmapObjectController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBeatmapObjectController(IBeatmapObjectController const&) = delete;
+  IBeatmapObjectController(IBeatmapObjectControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5633 };

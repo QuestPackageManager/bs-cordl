@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Strings.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Strings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   static inline ::StringW FromUtf8ByteArray(::ArrayW<uint8_t> bytes);
 
   /// @brief Method IsOneOf, addr 0x363e95c, size 0x7c, virtual false, abstract: false, final false
-  static inline bool IsOneOf(::StringW s, ::ArrayW<::StringW> candidates);
+  static inline bool IsOneOf(::StringW s, /* [ParamArray] */ ::ArrayW<::StringW> candidates);
 
   static inline ::Org::BouncyCastle::Utilities::Strings* New_ctor();
 
@@ -66,13 +66,13 @@ protected:
   constexpr Strings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Strings(Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Strings(Strings const&) = delete;
+  Strings(Stringsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1837 };

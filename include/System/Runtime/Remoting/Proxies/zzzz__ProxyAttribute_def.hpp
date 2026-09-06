@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Proxies\ProxyAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Proxies/ProxyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,8 @@ class ProxyAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Proxies::ProxyAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Proxies::ProxyAttribute*, "System.Runtime.Remoting.Proxies", "ProxyAttribute");
+// [AttributeUsage((System.AttributeTargets)4)]
+// [ComVisible(true)]
 // Dependencies System.Attribute
 namespace System::Runtime::Remoting::Proxies {
 // Is value type: false
@@ -53,9 +55,11 @@ public:
   inline ::System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(::System::Runtime::Remoting::ObjRef* objRef, ::System::Type* serverType, ::System::Object* serverObject,
                                                                       ::System::Runtime::Remoting::Contexts::Context* serverContext);
 
+  /// [ComVisible(true)]
   /// @brief Method GetPropertiesForNewContext, addr 0x5b31378, size 0x4, virtual true, abstract: false, final true
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
+  /// [ComVisible(true)]
   /// @brief Method IsContextOK, addr 0x5b3137c, size 0x8, virtual true, abstract: false, final true
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
@@ -68,13 +72,13 @@ protected:
   constexpr ProxyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProxyAttribute(ProxyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProxyAttribute(ProxyAttribute const&) = delete;
+  ProxyAttribute(ProxyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3102 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UnitySynchronizationContext.hpp"
+// IWYU pragma private; include "UnityEngine/UnitySynchronizationContext.hpp"
 #include "System/Threading/zzzz__SynchronizationContext_impl.hpp"
 #include "UnityEngine/zzzz__UnitySynchronizationContext_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -49,8 +49,9 @@ inline void UnityEngine::UnitySynchronizationContext_WorkRequest::Invoke() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UnitySynchronizationContext_WorkRequest>(), { "Invoke", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_DelagateCallback", ty: "::System::Threading::SendOrPostCallback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DelagateState", ty:
-// "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_WaitHandle", ty: "::System::Threading::ManualResetEvent*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_DelagateCallback", ty: "::System::Threading::SendOrPostCallback*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DelagateState",
+// ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_WaitHandle", ty: "::System::Threading::ManualResetEvent*", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::UnitySynchronizationContext_WorkRequest::UnitySynchronizationContext_WorkRequest(::System::Threading::SendOrPostCallback* m_DelagateCallback,
                                                                                                           ::System::Object* m_DelagateState,
                                                                                                           ::System::Threading::ManualResetEvent* m_WaitHandle) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\FieldMember.hpp"
+// IWYU pragma private; include "Unity/Properties/FieldMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ struct FieldMember;
 // Write type traits
 MARK_VAL_T(::Unity::Properties::FieldMember);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::FieldMember, "Unity.Properties", "FieldMember");
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Properties {
 // Is value type: true
@@ -62,6 +63,7 @@ public:
   /// @brief Method get_IsReadOnly, addr 0x6ba1c58, size 0x2c, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6ba1c50, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
@@ -75,8 +77,8 @@ public:
   // @brief default ctor
   constexpr FieldMember();
 
-  // Ctor Parameters [CppParam { name: "m_FieldInfo", ty: "::System::Reflection::FieldInfo*", modifiers: "", def_value: None }, CppParam { name: "_Name_k__BackingField", ty: "::StringW", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_FieldInfo", ty: "::System::Reflection::FieldInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Name_k__BackingField", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr FieldMember(::System::Reflection::FieldInfo* m_FieldInfo, ::StringW _Name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -88,6 +90,8 @@ public:
   /// @brief Field m_FieldInfo, offset: 0x0, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* m_FieldInfo;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _Name_k__BackingField;
 

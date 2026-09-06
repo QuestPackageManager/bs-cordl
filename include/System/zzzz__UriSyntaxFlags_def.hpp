@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\UriSyntaxFlags.hpp"
+// IWYU pragma private; include "System/UriSyntaxFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct UriSyntaxFlags;
 // Write type traits
 MARK_VAL_T(::System::UriSyntaxFlags);
 DEFINE_IL2CPP_CLASS(::System::UriSyntaxFlags, "System", "UriSyntaxFlags");
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -69,7 +70,7 @@ public:
   // @brief default ctor
   constexpr UriSyntaxFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UriSyntaxFlags(int32_t value__) noexcept;
 
   /// @brief Field AllowAnInternetHost value: I32(3584)

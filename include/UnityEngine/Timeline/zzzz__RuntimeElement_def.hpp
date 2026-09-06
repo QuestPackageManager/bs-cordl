@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\RuntimeElement.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/RuntimeElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +41,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::IInterval"
   constexpr operator ::UnityEngine::Timeline::IInterval*() noexcept;
 
-  /// @brief Method DisableAt, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DisableAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method EvaluateAt, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EvaluateAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
   static inline ::UnityEngine::Timeline::RuntimeElement* New_ctor();
@@ -58,21 +58,23 @@ public:
   /// @brief Method .ctor, addr 0x69c5160, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_intervalBit, addr 0x69c5b18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_intervalBit();
 
-  /// @brief Method get_intervalEnd, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_intervalEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method get_intervalStart, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_intervalStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_intervalStart();
 
   /// @brief Convert to "::UnityEngine::Timeline::IInterval"
   constexpr ::UnityEngine::Timeline::IInterval* i___UnityEngine__Timeline__IInterval() noexcept;
 
-  /// @brief Method set_enable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_enable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_enable(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_intervalBit, addr 0x69c5b20, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalBit(int32_t value);
 
@@ -82,17 +84,18 @@ protected:
   constexpr RuntimeElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeElement(RuntimeElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeElement(RuntimeElement const&) = delete;
+  RuntimeElement(RuntimeElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19207 };
 
+  /// [CompilerGenerated]
   /// @brief Field <intervalBit>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____intervalBit_k__BackingField;
 

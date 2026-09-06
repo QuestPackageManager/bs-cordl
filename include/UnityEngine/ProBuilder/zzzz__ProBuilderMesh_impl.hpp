@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ProBuilderMesh.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_impl.hpp"
@@ -40,7 +40,7 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::ProBuilderMesh_CacheValidState::ProBuilderMesh_CacheValidState(uint8_t value__) noexcept {
   this->value__ = value__;
 }
@@ -92,8 +92,8 @@ constexpr UnityEngine::ProBuilder::ProBuilderMesh_NonVersionedEditScope::operato
 constexpr ::System::IDisposable* UnityEngine::ProBuilder::ProBuilderMesh_NonVersionedEditScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_VersionIndex", ty: "uint16_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_VersionIndex", ty:
+// "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::ProBuilderMesh_NonVersionedEditScope::ProBuilderMesh_NonVersionedEditScope(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh,
                                                                                                                 uint16_t m_VersionIndex) noexcept {
   this->m_Mesh = m_Mesh;

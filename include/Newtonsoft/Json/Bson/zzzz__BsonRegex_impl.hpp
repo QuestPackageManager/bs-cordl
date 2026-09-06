@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonRegex.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonRegex.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonToken_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonRegex_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonString_def.hpp"

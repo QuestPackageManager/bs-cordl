@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BitMaskSparse.hpp"
+// IWYU pragma private; include "GlobalNamespace/BitMaskSparse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ MARK_REF_T(::GlobalNamespace::BitMaskSparse*);
 MARK_REF_T(::GlobalNamespace::BitMaskSparse___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BitMaskSparse*, "", "BitMaskSparse");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BitMaskSparse___c*, "", "BitMaskSparse/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -78,13 +79,13 @@ protected:
   constexpr BitMaskSparse___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitMaskSparse___c(BitMaskSparse___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitMaskSparse___c(BitMaskSparse___c const&) = delete;
+  BitMaskSparse___c(BitMaskSparse___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21164 };
@@ -156,6 +157,7 @@ public:
   /// @brief Method .ctor, addr 0x377af68, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitCount);
 
+  /// [CompilerGenerated]
   /// @brief Method get_bitCount, addr 0x377c818, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
@@ -174,17 +176,18 @@ protected:
   constexpr BitMaskSparse();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitMaskSparse(BitMaskSparse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitMaskSparse", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitMaskSparse(BitMaskSparse const&) = delete;
+  BitMaskSparse(BitMaskSparseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21165 };
 
+  /// [CompilerGenerated]
   /// @brief Field <bitCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____bitCount_k__BackingField;
 

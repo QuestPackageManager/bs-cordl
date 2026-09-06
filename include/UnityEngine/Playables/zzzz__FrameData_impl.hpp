@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\FrameData.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/FrameData.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_impl.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayState_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Playables::FrameData_Flags::FrameData_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -17,7 +17,7 @@ constexpr ::UnityEngine::Playables::FrameData_Flags UnityEngine::Playables::Fram
 constexpr ::UnityEngine::Playables::FrameData_Flags UnityEngine::Playables::FrameData_Flags::Hold{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::Playables::FrameData_Flags UnityEngine::Playables::FrameData_Flags::EffectivePlayStateDelayed{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::Playables::FrameData_Flags UnityEngine::Playables::FrameData_Flags::EffectivePlayStatePlaying{ static_cast<int32_t>(0x20) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Playables::FrameData_EvaluationType::FrameData_EvaluationType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -172,11 +172,12 @@ inline ::UnityEngine::Playables::PlayState UnityEngine::Playables::FrameData::ge
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameData>(), { "get_effectivePlayState", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::PlayState>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_FrameID", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DeltaTime", ty: "double_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EffectiveWeight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_EffectiveParentDelay", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EffectiveParentSpeed", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_EffectiveSpeed", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Flags", ty: "::UnityEngine::Playables::FrameData_Flags", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Output", ty: "::UnityEngine::Playables::PlayableOutput", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_FrameID", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_DeltaTime", ty: "double_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Weight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_EffectiveWeight", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_EffectiveParentDelay", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_EffectiveParentSpeed",
+// ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_EffectiveSpeed", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_Flags", ty: "::UnityEngine::Playables::FrameData_Flags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Output", ty: "::UnityEngine::Playables::PlayableOutput",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Playables::FrameData::FrameData(uint64_t m_FrameID, double_t m_DeltaTime, float_t m_Weight, float_t m_EffectiveWeight, double_t m_EffectiveParentDelay,
                                                          float_t m_EffectiveParentSpeed, float_t m_EffectiveSpeed, ::UnityEngine::Playables::FrameData_Flags m_Flags,
                                                          ::UnityEngine::Playables::PlayableOutput m_Output) noexcept {

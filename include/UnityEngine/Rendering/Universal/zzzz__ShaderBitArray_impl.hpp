@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderBitArray.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderBitArray.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShaderBitArray_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ShaderBitArray.get_elemLength
 template <>
@@ -158,7 +158,7 @@ inline ::StringW UnityEngine::Rendering::Universal::ShaderBitArray::ToString() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ShaderBitArray>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Data", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Data", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ShaderBitArray::ShaderBitArray(::ArrayW<float_t> m_Data) noexcept {
   this->m_Data = m_Data;
 }

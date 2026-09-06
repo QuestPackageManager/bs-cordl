@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\Vector2Control.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/Vector2Control.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,8 +36,10 @@ public:
   /// @brief Field <y>k__BackingField, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__y_k__BackingField, put = __cordl_internal_set__y_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _y_k__BackingField;
 
+  /// @brief [InputControl(offset = 0, displayName = "X")]
   __declspec(property(get = get_x, put = set_x)) ::UnityEngine::InputSystem::Controls::AxisControl* x;
 
+  /// @brief [InputControl(offset = 4, displayName = "Y")]
   __declspec(property(get = get_y, put = set_y)) ::UnityEngine::InputSystem::Controls::AxisControl* y;
 
   /// @brief Method CalculateOptimizedControlDataType, addr 0x64fd7c8, size 0x150, virtual true, abstract: false, final false
@@ -72,15 +74,19 @@ public:
   /// @brief Method .ctor, addr 0x64fafa0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_x, addr 0x64fd52c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
 
+  /// [CompilerGenerated]
   /// @brief Method get_y, addr 0x64fd53c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
 
+  /// [CompilerGenerated]
   /// @brief Method set_x, addr 0x64fd534, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_y, addr 0x64fd544, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
@@ -90,20 +96,22 @@ protected:
   constexpr Vector2Control();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Control", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector2Control", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector2Control(Vector2Control&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Control", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector2Control", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector2Control(Vector2Control const&) = delete;
+  Vector2Control(Vector2Controlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9138 };
 
+  /// [CompilerGenerated]
   /// @brief Field <x>k__BackingField, offset: 0x110, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____x_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <y>k__BackingField, offset: 0x118, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____y_k__BackingField;
 

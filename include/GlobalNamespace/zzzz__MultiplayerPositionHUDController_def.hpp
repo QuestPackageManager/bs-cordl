@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerPositionHUDController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerPositionHUDController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ class MultiplayerPositionHUDController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerPositionHUDController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerPositionHUDController*, "", "MultiplayerPositionHUDController");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerPositionHUDController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -133,35 +134,42 @@ protected:
   constexpr MultiplayerPositionHUDController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionHUDController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionHUDController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerPositionHUDController(MultiplayerPositionHUDController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionHUDController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPositionHUDController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerPositionHUDController(MultiplayerPositionHUDController const&) = delete;
+  MultiplayerPositionHUDController(MultiplayerPositionHUDControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6012 };
 
+  /// [SerializeField]
   /// @brief Field _playerCountText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerCountText;
 
+  /// [SerializeField]
   /// @brief Field _positionText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____positionText;
 
+  /// [SerializeField]
   /// @brief Field _canvasGroup, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _firstPlayerAnimationGo, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____firstPlayerAnimationGo;
 
+  /// [Inject]
   /// @brief Field _scoreProvider, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
+  /// [Inject]
   /// @brief Field _playersManager, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____playersManager;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::CoreGameHUDController_InitData* ____initData;
 

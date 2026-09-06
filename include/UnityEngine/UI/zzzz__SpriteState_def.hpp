@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\SpriteState.hpp"
+// IWYU pragma private; include "UnityEngine/UI/SpriteState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,9 +70,9 @@ public:
   // @brief default ctor
   constexpr SpriteState();
 
-  // Ctor Parameters [CppParam { name: "m_HighlightedSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "m_PressedSprite", ty:
-  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "m_SelectedSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name:
-  // "m_DisabledSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_HighlightedSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_PressedSprite", ty:
+  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SelectedSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_DisabledSprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }]
   constexpr SpriteState(::UnityW<::UnityEngine::Sprite> m_HighlightedSprite, ::UnityW<::UnityEngine::Sprite> m_PressedSprite, ::UnityW<::UnityEngine::Sprite> m_SelectedSprite,
                         ::UnityW<::UnityEngine::Sprite> m_DisabledSprite) noexcept;
 
@@ -82,15 +82,20 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [SerializeField]
   /// @brief Field m_HighlightedSprite, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> m_HighlightedSprite;
 
+  /// [SerializeField]
   /// @brief Field m_PressedSprite, offset: 0x8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> m_PressedSprite;
 
+  /// [FormerlySerializedAs("m_HighlightedSprite")]
+  /// [SerializeField]
   /// @brief Field m_SelectedSprite, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> m_SelectedSprite;
 
+  /// [SerializeField]
   /// @brief Field m_DisabledSprite, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> m_DisabledSprite;
 

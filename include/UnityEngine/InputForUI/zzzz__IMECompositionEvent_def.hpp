@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\IMECompositionEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/IMECompositionEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ struct IMECompositionEvent;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputForUI::IMECompositionEvent);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputForUI::IMECompositionEvent, "UnityEngine.InputForUI", "IMECompositionEvent");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies Unity.IntegerTime.DiscreteTime, UnityEngine.InputForUI.EventModifiers, UnityEngine.InputForUI.EventSource
 namespace UnityEngine::InputForUI {
 // Is value type: true
@@ -50,24 +51,32 @@ public:
   /// @brief Method ToString, addr 0x6b59670, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_eventModifiers, addr 0x6b59660, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_eventSource, addr 0x6b59648, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventModifiers, addr 0x6b59668, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventSource, addr 0x6b59650, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerId, addr 0x6b59658, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_timestamp, addr 0x6b59640, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
@@ -75,10 +84,10 @@ public:
   // @brief default ctor
   constexpr IMECompositionEvent();
 
-  // Ctor Parameters [CppParam { name: "compositionString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime",
-  // modifiers: "", def_value: None }, CppParam { name: "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: None }, CppParam { name:
-  // "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "compositionString", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timestamp_k__BackingField", ty:
+  // "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value: None, comment: None }]
   constexpr IMECompositionEvent(::StringW compositionString, ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField, ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField,
                                 uint32_t _playerId_k__BackingField, ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
 
@@ -91,15 +100,23 @@ public:
   /// @brief Field compositionString, offset: 0x0, size: 0x8, def value: None
   ::StringW compositionString;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <timestamp>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <eventSource>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <playerId>k__BackingField, offset: 0x14, size: 0x4, def value: None
   uint32_t _playerId_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <eventModifiers>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField;
 

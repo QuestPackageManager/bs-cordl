@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CustomYieldInstruction.hpp"
+// IWYU pragma private; include "UnityEngine/CustomYieldInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   /// @brief Method get_Current, addr 0x6ade650, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_keepWaiting, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_keepWaiting();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -58,13 +58,13 @@ protected:
   constexpr CustomYieldInstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomYieldInstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomYieldInstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomYieldInstruction(CustomYieldInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomYieldInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomYieldInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomYieldInstruction(CustomYieldInstruction const&) = delete;
+  CustomYieldInstruction(CustomYieldInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10336 };

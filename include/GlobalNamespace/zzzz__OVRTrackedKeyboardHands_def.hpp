@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTrackedKeyboardHands.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTrackedKeyboardHands.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,11 +82,11 @@ public:
   // @brief default ctor
   constexpr OVRTrackedKeyboardHands_HandBoneMapping();
 
-  // Ctor Parameters [CppParam { name: "LeftHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "LeftPresenceTransform", ty:
-  // "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "RightHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam
-  // { name: "RightPresenceTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "BoneName", ty: "::GlobalNamespace::OVRSkeleton_BoneId", modifiers:
-  // "", def_value: None }, CppParam { name: "HandPresenceLeftBoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "HandPresenceRightBoneName", ty: "::StringW", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "LeftHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "LeftPresenceTransform", ty:
+  // "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "RightHandTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "RightPresenceTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "BoneName", ty:
+  // "::GlobalNamespace::OVRSkeleton_BoneId", modifiers: "", def_value: None, comment: None }, CppParam { name: "HandPresenceLeftBoneName", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "HandPresenceRightBoneName", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr OVRTrackedKeyboardHands_HandBoneMapping(::UnityW<::UnityEngine::Transform> LeftHandTransform, ::UnityW<::UnityEngine::Transform> LeftPresenceTransform,
                                                     ::UnityW<::UnityEngine::Transform> RightHandTransform, ::UnityW<::UnityEngine::Transform> RightPresenceTransform,
                                                     ::GlobalNamespace::OVRSkeleton_BoneId BoneName, ::StringW HandPresenceLeftBoneName, ::StringW HandPresenceRightBoneName) noexcept;
@@ -149,7 +149,8 @@ public:
   // @brief default ctor
   constexpr OVRTrackedKeyboardHands_TrackedKeyboardHandsVisibilityChangedEvent();
 
-  // Ctor Parameters [CppParam { name: "leftVisible", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rightVisible", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "leftVisible", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "rightVisible", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr OVRTrackedKeyboardHands_TrackedKeyboardHandsVisibilityChangedEvent(bool leftVisible, bool rightVisible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -174,6 +175,9 @@ static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardHands_TrackedKeyboar
 static_assert(sizeof(::GlobalNamespace::OVRTrackedKeyboardHands_TrackedKeyboardHandsVisibilityChangedEvent) == 0x2, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Feature((Meta.XR.Util.Feature)8)]
+// [HelpURL("https://developer.oculus.com/documentation/unity/tk-overview/")]
+// [Obsolete("The TrackedKeyboard feature has been removed as of v72. For real-time object tracking such as physical keyboards, we recommend using Trackables in MR Utility Kit.", true)]
 // Dependencies OVRTrackedKeyboardHands::HandBoneMapping, OVRTrackedKeyboardHands::TrackedKeyboardHandsVisibilityChangedEvent, System.Nullable`1<T>, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -509,9 +513,11 @@ public:
   /// @brief Method get_AreControllersActive, addr 0x5ee3548, size 0x3c, virtual false, abstract: false, final false
   inline bool get_AreControllersActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LeftHandOverKeyboard, addr 0x5ee2e1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_LeftHandOverKeyboard();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RightHandOverKeyboard, addr 0x5ee2e0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RightHandOverKeyboard();
 
@@ -523,9 +529,11 @@ public:
 
   static inline void setStaticF_minimumModelHandsDistance_(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LeftHandOverKeyboard, addr 0x5ee2e24, size 0x8, virtual false, abstract: false, final false
   inline void set_LeftHandOverKeyboard(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RightHandOverKeyboard, addr 0x5ee2e14, size 0x8, virtual false, abstract: false, final false
   inline void set_RightHandOverKeyboard(bool value);
 
@@ -535,13 +543,13 @@ protected:
   constexpr OVRTrackedKeyboardHands();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardHands", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardHands", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTrackedKeyboardHands(OVRTrackedKeyboardHands&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardHands", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardHands", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboardHands(OVRTrackedKeyboardHands const&) = delete;
+  OVRTrackedKeyboardHands(OVRTrackedKeyboardHandsconst&) = delete;
 
   /// @brief Field FORWARD_OFFSET offset 0xffffffff size 0x4
   static constexpr float_t FORWARD_OFFSET{ static_cast<float_t>(-0.02f) };
@@ -612,9 +620,11 @@ public:
   /// @brief Field rightHandSkinnedMeshRenderer_, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SkinnedMeshRenderer> ___rightHandSkinnedMeshRenderer_;
 
+  /// [CompilerGenerated]
   /// @brief Field <RightHandOverKeyboard>k__BackingField, offset: 0xb8, size: 0x1, def value: None
   bool ____RightHandOverKeyboard_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <LeftHandOverKeyboard>k__BackingField, offset: 0xb9, size: 0x1, def value: None
   bool ____LeftHandOverKeyboard_k__BackingField;
 

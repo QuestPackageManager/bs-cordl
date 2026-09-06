@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\SelectMode.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/SelectMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct SelectMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::SelectMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::SelectMode, "UnityEngine.ProBuilder", "SelectMode");
+// [Flags]
 // Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: true
@@ -49,7 +50,7 @@ public:
   // @brief default ctor
   constexpr SelectMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SelectMode(int32_t value__) noexcept;
 
   /// @brief Field Any value: I32(255)

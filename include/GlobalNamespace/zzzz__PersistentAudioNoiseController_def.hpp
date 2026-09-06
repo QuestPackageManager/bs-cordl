@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PersistentAudioNoiseController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PersistentAudioNoiseController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class PersistentAudioNoiseController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PersistentAudioNoiseController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PersistentAudioNoiseController*, "", "PersistentAudioNoiseController");
+// [RequireComponent(typeof(UnityEngine.AudioSource))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -89,23 +90,26 @@ protected:
   constexpr PersistentAudioNoiseController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PersistentAudioNoiseController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PersistentAudioNoiseController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PersistentAudioNoiseController(PersistentAudioNoiseController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PersistentAudioNoiseController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PersistentAudioNoiseController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PersistentAudioNoiseController(PersistentAudioNoiseController const&) = delete;
+  PersistentAudioNoiseController(PersistentAudioNoiseControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5576 };
 
+  /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
+  /// [Inject]
   /// @brief Field _shaderWarmupScenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* ____shaderWarmupScenesTransitionSetupData;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 

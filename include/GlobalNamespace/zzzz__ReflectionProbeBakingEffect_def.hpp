@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ReflectionProbeBakingEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/ReflectionProbeBakingEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class ReflectionProbeBakingEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ReflectionProbeBakingEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ReflectionProbeBakingEffect*, "", "ReflectionProbeBakingEffect");
+// [ExecuteAlways]
+// [ImageEffectAllowedInSceneView]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -48,17 +50,18 @@ protected:
   constexpr ReflectionProbeBakingEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionProbeBakingEffect(ReflectionProbeBakingEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionProbeBakingEffect(ReflectionProbeBakingEffect const&) = delete;
+  ReflectionProbeBakingEffect(ReflectionProbeBakingEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19497 };
 
+  /// [SerializeField]
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 

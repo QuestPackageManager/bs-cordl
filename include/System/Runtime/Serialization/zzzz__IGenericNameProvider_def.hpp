@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\IGenericNameProvider.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/IGenericNameProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,27 +25,27 @@ public:
   // Declarations
   __declspec(property(get = get_ParametersFromBuiltInNamespaces)) bool ParametersFromBuiltInNamespaces;
 
-  /// @brief Method GetGenericTypeName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetGenericTypeName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetGenericTypeName();
 
-  /// @brief Method GetNamespaces, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetNamespaces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetNamespaces();
 
-  /// @brief Method GetNestedParameterCounts, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetNestedParameterCounts, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IList_1<int32_t>* GetNestedParameterCounts();
 
-  /// @brief Method GetParameterCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetParameterCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetParameterCount();
 
-  /// @brief Method GetParameterName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetParameterName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetParameterName(int32_t paramIndex);
 
-  /// @brief Method get_ParametersFromBuiltInNamespaces, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ParametersFromBuiltInNamespaces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ParametersFromBuiltInNamespaces();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IGenericNameProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IGenericNameProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGenericNameProvider(IGenericNameProvider const&) = delete;
+  IGenericNameProvider(IGenericNameProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17016 };

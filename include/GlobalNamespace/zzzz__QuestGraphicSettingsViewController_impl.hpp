@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuestGraphicSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuestGraphicSettingsViewController.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"

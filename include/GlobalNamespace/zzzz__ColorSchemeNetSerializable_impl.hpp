@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorSchemeNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorSchemeNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__ColorNoAlphaSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeNetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
@@ -85,11 +85,12 @@ constexpr GlobalNamespace::ColorSchemeNetSerializable::operator ::LiteNetLib::Ut
 constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::ColorSchemeNetSerializable::i___LiteNetLib__Utils__INetSerializable() {
   return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "saberAColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}") }, CppParam { name: "saberBColor", ty:
-// "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}") }, CppParam { name: "obstaclesColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "environmentColor0", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}") }, CppParam { name: "environmentColor1", ty:
-// "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}") }, CppParam { name: "environmentColor0Boost", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "environmentColor1Boost", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "saberAColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "saberBColor", ty:
+// "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "obstaclesColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "environmentColor0", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "environmentColor1", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "environmentColor0Boost", ty:
+// "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "environmentColor1Boost", ty: "::GlobalNamespace::ColorNoAlphaSerializable",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ColorSchemeNetSerializable::ColorSchemeNetSerializable(::GlobalNamespace::ColorNoAlphaSerializable saberAColor, ::GlobalNamespace::ColorNoAlphaSerializable saberBColor,
                                                                                     ::GlobalNamespace::ColorNoAlphaSerializable obstaclesColor,
                                                                                     ::GlobalNamespace::ColorNoAlphaSerializable environmentColor0,

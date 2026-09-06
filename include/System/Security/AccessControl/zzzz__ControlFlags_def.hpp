@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\ControlFlags.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/ControlFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ControlFlags;
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::ControlFlags);
 DEFINE_IL2CPP_CLASS(::System::Security::AccessControl::ControlFlags, "System.Security.AccessControl", "ControlFlags");
+// [Flags]
 // Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
@@ -57,7 +58,7 @@ public:
   // @brief default ctor
   constexpr ControlFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ControlFlags(int32_t value__) noexcept;
 
   /// @brief Field DiscretionaryAclAutoInheritRequired value: I32(256)

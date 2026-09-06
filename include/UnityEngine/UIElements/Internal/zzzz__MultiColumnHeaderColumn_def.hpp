@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnHeaderColumn.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumn.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -247,9 +247,11 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_clickable, addr 0x6d2a5c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_column, addr 0x6d2a5e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Column* get_column();
 
@@ -259,6 +261,7 @@ public:
   /// @brief Method get_isContentBound, addr 0x6d2a844, size 0xb8, virtual false, abstract: false, final false
   inline bool get_isContentBound();
 
+  /// [CompilerGenerated]
   /// @brief Method get_mover, addr 0x6d2a5d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::ColumnMover* get_mover();
 
@@ -296,9 +299,11 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_clickable, addr 0x6d2a5cc, size 0x8, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_column, addr 0x6d2a5ec, size 0x8, virtual false, abstract: false, final false
   inline void set_column(::UnityEngine::UIElements::Column* value);
 
@@ -308,6 +313,7 @@ public:
   /// @brief Method set_isContentBound, addr 0x6d2a8fc, size 0xa8, virtual false, abstract: false, final false
   inline void set_isContentBound(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_mover, addr 0x6d2a5dc, size 0x8, virtual false, abstract: false, final false
   inline void set_mover(::UnityEngine::UIElements::Internal::ColumnMover* value);
 
@@ -320,13 +326,13 @@ protected:
   constexpr MultiColumnHeaderColumn();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumn", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumn", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiColumnHeaderColumn(MultiColumnHeaderColumn&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumn", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiColumnHeaderColumn", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiColumnHeaderColumn(MultiColumnHeaderColumn const&) = delete;
+  MultiColumnHeaderColumn(MultiColumnHeaderColumnconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5524 };
@@ -343,12 +349,18 @@ public:
   /// @brief Field m_ScheduledHeaderTemplateUpdate, offset: 0x4c0, size: 0x8, def value: None
   ::UnityEngine::UIElements::IVisualElementScheduledItem* ___m_ScheduledHeaderTemplateUpdate;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <clickable>k__BackingField, offset: 0x4c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Clickable* ____clickable_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <mover>k__BackingField, offset: 0x4d0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Internal::ColumnMover* ____mover_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <column>k__BackingField, offset: 0x4d8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Column* ____column_k__BackingField;
 

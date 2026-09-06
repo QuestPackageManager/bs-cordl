@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\KerningPairKey.hpp"
+// IWYU pragma private; include "TMPro/KerningPairKey.hpp"
 #include "TMPro/zzzz__KerningPairKey_def.hpp"
 //  Writing Method size for method: ::TMPro::KerningPairKey._ctor
 template <>
@@ -19,8 +19,8 @@ inline void TMPro::KerningPairKey::_ctor(uint32_t ascii_left, uint32_t ascii_rig
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningPairKey>(), { ".ctor", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ascii_left, ascii_right);
 }
-// Ctor Parameters [CppParam { name: "ascii_Left", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ascii_Right", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "key", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ascii_Left", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ascii_Right", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "key", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::KerningPairKey::KerningPairKey(uint32_t ascii_Left, uint32_t ascii_Right, uint32_t key) noexcept {
   this->ascii_Left = ascii_Left;
   this->ascii_Right = ascii_Right;

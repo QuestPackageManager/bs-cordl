@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineEditorResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineEditorResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipeline
                     "UniversalRenderPipelineEditorResources/MaterialResources");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources*, "UnityEngine.Rendering.Universal",
                     "UniversalRenderPipelineEditorResources/ShaderResources");
+// [ReloadGroup]
+// [Obsolete("UniversalRenderPipelineEditorResources.ShaderResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorShaders>(). #from(23.3)", false)]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -129,38 +131,46 @@ protected:
   constexpr UniversalRenderPipelineEditorResources_ShaderResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_ShaderResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_ShaderResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineEditorResources_ShaderResources(UniversalRenderPipelineEditorResources_ShaderResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_ShaderResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_ShaderResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineEditorResources_ShaderResources(UniversalRenderPipelineEditorResources_ShaderResources const&) = delete;
+  UniversalRenderPipelineEditorResources_ShaderResources(UniversalRenderPipelineEditorResources_ShaderResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12744 };
 
+  /// [Reload("Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field autodeskInteractivePS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___autodeskInteractivePS;
 
+  /// [Reload("Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field autodeskInteractiveTransparentPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___autodeskInteractiveTransparentPS;
 
+  /// [Reload("Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field autodeskInteractiveMaskedPS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___autodeskInteractiveMaskedPS;
 
+  /// [Reload("Shaders/Terrain/TerrainDetailLit.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field terrainDetailLitPS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___terrainDetailLitPS;
 
+  /// [Reload("Shaders/Terrain/WavingGrass.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field terrainDetailGrassPS, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___terrainDetailGrassPS;
 
+  /// [Reload("Shaders/Terrain/WavingGrassBillboard.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field terrainDetailGrassBillboardPS, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___terrainDetailGrassBillboardPS;
 
+  /// [Reload("Shaders/Nature/SpeedTree7.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field defaultSpeedTree7PS, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___defaultSpeedTree7PS;
 
+  /// [Reload("Shaders/Nature/SpeedTree8_PBRLit.shadergraph", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field defaultSpeedTree8PS, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___defaultSpeedTree8PS;
 
@@ -186,6 +196,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderPipel
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources) == 0x50, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [ReloadGroup]
+// [Obsolete("UniversalRenderPipelineEditorResources.MaterialResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorMaterials>(). #from(23.3)", false)]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -240,26 +252,30 @@ protected:
   constexpr UniversalRenderPipelineEditorResources_MaterialResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_MaterialResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_MaterialResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineEditorResources_MaterialResources(UniversalRenderPipelineEditorResources_MaterialResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_MaterialResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources_MaterialResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineEditorResources_MaterialResources(UniversalRenderPipelineEditorResources_MaterialResources const&) = delete;
+  UniversalRenderPipelineEditorResources_MaterialResources(UniversalRenderPipelineEditorResources_MaterialResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12745 };
 
+  /// [Reload("Runtime/Materials/Lit.mat", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field lit, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___lit;
 
+  /// [Reload("Runtime/Materials/ParticlesUnlit.mat", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field particleLit, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___particleLit;
 
+  /// [Reload("Runtime/Materials/TerrainLit.mat", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field terrainLit, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___terrainLit;
 
+  /// [Reload("Runtime/Materials/Decal.mat", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field decal, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___decal;
 
@@ -277,6 +293,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderPipel
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_MaterialResources) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [Obsolete("Moved to GraphicsSettings. #from(23.3)", false)]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -318,20 +335,22 @@ protected:
   constexpr UniversalRenderPipelineEditorResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineEditorResources(UniversalRenderPipelineEditorResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineEditorResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineEditorResources(UniversalRenderPipelineEditorResources const&) = delete;
+  UniversalRenderPipelineEditorResources(UniversalRenderPipelineEditorResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12746 };
 
+  /// [Obsolete("UniversalRenderPipelineEditorResources.ShaderResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorShaders>(). #from(23.3)", false)]
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources* ___shaders;
 
+  /// [Obsolete("UniversalRenderPipelineEditorResources.MaterialResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorMaterials>(). #from(23.3)", false)]
   /// @brief Field materials, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_MaterialResources* ___materials;
 

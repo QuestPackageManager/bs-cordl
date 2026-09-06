@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\ConstrainedExecution\ReliabilityContractAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/ConstrainedExecution/ReliabilityContractAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class ReliabilityContractAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*, "System.Runtime.ConstrainedExecution", "ReliabilityContractAttribute");
+// [AttributeUsage((System.AttributeTargets)1133, Inherited = false)]
 // Dependencies System.Attribute, System.Runtime.ConstrainedExecution.Cer, System.Runtime.ConstrainedExecution.Consistency
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
@@ -58,20 +59,22 @@ protected:
   constexpr ReliabilityContractAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReliabilityContractAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReliabilityContractAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReliabilityContractAttribute(ReliabilityContractAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReliabilityContractAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReliabilityContractAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReliabilityContractAttribute(ReliabilityContractAttribute const&) = delete;
+  ReliabilityContractAttribute(ReliabilityContractAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3365 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ConsistencyGuarantee>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::ConstrainedExecution::Consistency ____ConsistencyGuarantee_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Cer>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::System::Runtime::ConstrainedExecution::Cer ____Cer_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphResourcePool_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphResourcePool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,20 +28,30 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraphLogger;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type> struct RenderGraphResourcePool_1_ResourceLogInfo;
+template <typename Type>
+  requires(::cordl_internals::reference_type_constraint<Type>)
+struct RenderGraphResourcePool_1_ResourceLogInfo;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type> class RenderGraphResourcePool_1___c;
+template <typename Type>
+  requires(::cordl_internals::reference_type_constraint<Type>)
+class RenderGraphResourcePool_1___c;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type> class RenderGraphResourcePool_1;
+template <typename Type>
+  requires(::cordl_internals::reference_type_constraint<Type>)
+class RenderGraphResourcePool_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type> class RenderGraphResourcePool_1___c;
+template <typename Type>
+  requires(::cordl_internals::reference_type_constraint<Type>)
+class RenderGraphResourcePool_1___c;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename Type> struct RenderGraphResourcePool_1_ResourceLogInfo;
+template <typename Type>
+  requires(::cordl_internals::reference_type_constraint<Type>)
+struct RenderGraphResourcePool_1_ResourceLogInfo;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1);
@@ -54,6 +64,7 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::RenderGraphModule::RenderGraph
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename Type>
+  requires(::cordl_internals::reference_type_constraint<Type>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphResourcePool`1/ResourceLogInfo<Type>
 struct CORDL_TYPE RenderGraphResourcePool_1_ResourceLogInfo {
@@ -63,7 +74,8 @@ public:
   // @brief default ctor
   constexpr RenderGraphResourcePool_1_ResourceLogInfo();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "size", ty: "int64_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr RenderGraphResourcePool_1_ResourceLogInfo(::StringW name, int64_t size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -82,10 +94,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering::RenderGraphModule
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename Type>
+  requires(::cordl_internals::reference_type_constraint<Type>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphResourcePool`1/<>c<Type>
 class CORDL_TYPE RenderGraphResourcePool_1___c : public ::System::Object {
@@ -121,13 +135,13 @@ protected:
   constexpr RenderGraphResourcePool_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourcePool_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourcePool_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphResourcePool_1___c(RenderGraphResourcePool_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourcePool_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourcePool_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphResourcePool_1___c(RenderGraphResourcePool_1___c const&) = delete;
+  RenderGraphResourcePool_1___c(RenderGraphResourcePool_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12445 };
@@ -140,6 +154,7 @@ public:
 namespace UnityEngine::Rendering::RenderGraphModule {
 // cpp template
 template <typename Type>
+  requires(::cordl_internals::reference_type_constraint<Type>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RenderGraphResourcePool`1<Type>
 class CORDL_TYPE RenderGraphResourcePool_1 : public ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool {
@@ -166,16 +181,16 @@ public:
   /// @brief Method Cleanup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetResourceName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW GetResourceName(::by_ref<Type> res);
+  /// @brief Method GetResourceName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<Type> res);
 
-  /// @brief Method GetResourceSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int64_t GetResourceSize(::by_ref<Type> res);
+  /// @brief Method GetResourceSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<Type> res);
 
-  /// @brief Method GetResourceTypeName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetResourceTypeName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetResourceTypeName();
 
-  /// @brief Method GetSortIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetSortIndex(Type res);
 
   /// @brief Method LogResources, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -186,10 +201,12 @@ public:
   /// @brief Method PurgeUnusedResources, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PurgeUnusedResources(int32_t currentFrameIndex);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method RegisterFrameAllocation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RegisterFrameAllocation(int32_t hash, Type value);
 
-  /// @brief Method ReleaseInternalResource, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReleaseInternalResource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReleaseInternalResource(Type res);
 
   /// @brief Method ReleaseResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -198,6 +215,8 @@ public:
   /// @brief Method TryGetResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetResource(int32_t hashCode, ::by_ref<Type> resource);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method UnregisterFrameAllocation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UnregisterFrameAllocation(int32_t hash, Type value);
 
@@ -229,13 +248,13 @@ protected:
   constexpr RenderGraphResourcePool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourcePool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourcePool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphResourcePool_1(RenderGraphResourcePool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourcePool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphResourcePool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphResourcePool_1(RenderGraphResourcePool_1 const&) = delete;
+  RenderGraphResourcePool_1(RenderGraphResourcePool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12446 };
@@ -243,6 +262,7 @@ public:
   /// @brief Field kStaleResourceLifetime offset 0xffffffff size 0x4
   static constexpr int32_t kStaleResourceLifetime{ static_cast<int32_t>(0xa) };
 
+  /// [TupleElementNames(new[] { "resource", "frameIndex" })]
   /// @brief Field m_ResourcePool, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::SortedList_2<int32_t, ::System::ValueTuple_2<Type, int32_t>>*>* ___m_ResourcePool;
 

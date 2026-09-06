@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlDictionaryWriter_XmlWrappedWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlDictionaryWriter_XmlWrappedWriter.hpp"
 #include "System/Xml/zzzz__XmlDictionaryWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlDictionaryWriter_XmlWrappedWriter_def.hpp"
 #include "System/Xml/zzzz__WriteState_def.hpp"

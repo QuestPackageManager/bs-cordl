@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerFloatField.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerFloatField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,13 +91,13 @@ protected:
   constexpr DebugUIHandlerFloatField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerFloatField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerFloatField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerFloatField(DebugUIHandlerFloatField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerFloatField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerFloatField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerFloatField(DebugUIHandlerFloatField const&) = delete;
+  DebugUIHandlerFloatField(DebugUIHandlerFloatFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12520 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlatformLeaderboardsHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlatformLeaderboardsHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -48,8 +48,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsHandler::GetScores(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
-                                                                                                  ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope, uint64_t referencePlayerId,
+inline ::GlobalNamespace::HMAsyncRequest* GlobalNamespace::PlatformLeaderboardsHandler::GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
+                                                                                                  int32_t fromRank, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope,
+                                                                                                  uint64_t referencePlayerId,
                                                                                                   ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PlatformLeaderboardsHandler*>(), 4 })));

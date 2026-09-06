@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\AixStructs\ifreq_mtu.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/ifreq_mtu.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::NetworkInformation::AixStructs::ifreq_mtu__ifr_name_e__FixedBuffer::ifreq_mtu__ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
@@ -26,8 +26,8 @@ constexpr int32_t const& System::Net::NetworkInformation::AixStructs::ifreq_mtu:
 constexpr void System::Net::NetworkInformation::AixStructs::ifreq_mtu::__cordl_internal_set_ifru_mtu(int32_t value) {
   this->___ifru_mtu = value;
 }
-// Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::ifreq_mtu__ifr_name_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "ifru_mtu", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::ifreq_mtu__ifr_name_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "ifru_mtu", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::NetworkInformation::AixStructs::ifreq_mtu::ifreq_mtu(::System::Net::NetworkInformation::AixStructs::ifreq_mtu__ifr_name_e__FixedBuffer ifr_name, int32_t ifru_mtu) noexcept {
   this->ifr_name = ifr_name;
   this->ifru_mtu = ifru_mtu;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\ShaderPropertyIDAttribute.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/ShaderPropertyIDAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyIDAttribute_def.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyAttributeFilter_def.hpp"

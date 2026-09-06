@@ -1,9 +1,13 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformExtensions.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformExtensions.hpp"
+#include "OculusStudios/Platform/Core/zzzz__IRichPresenceDefinition_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PlatformExtensions_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
-template <typename T> inline void OculusStudios::Platform::Core::PlatformExtensions::SetRichPresenceStatus(::OculusStudios::Platform::Core::IPlatform* platform) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::OculusStudios::Platform::Core::IRichPresenceDefinition*> && ::cordl_internals::reference_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+inline void OculusStudios::Platform::Core::PlatformExtensions::SetRichPresenceStatus(::OculusStudios::Platform::Core::IPlatform* platform) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformExtensions*>(),
                                                            { "SetRichPresenceStatus", { ::i2c::class_of<T>() }, { ::i2c::type_of<::OculusStudios::Platform::Core::IPlatform*>() } })));

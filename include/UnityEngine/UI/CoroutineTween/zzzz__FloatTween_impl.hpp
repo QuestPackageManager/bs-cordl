@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\CoroutineTween\FloatTween.hpp"
+// IWYU pragma private; include "UnityEngine/UI/CoroutineTween/FloatTween.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__FloatTween_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
@@ -256,9 +256,10 @@ constexpr UnityEngine::UI::CoroutineTween::FloatTween::operator ::UnityEngine::U
 constexpr ::UnityEngine::UI::CoroutineTween::ITweenValue* UnityEngine::UI::CoroutineTween::FloatTween::i___UnityEngine__UI__CoroutineTween__ITweenValue() {
   return static_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Target", ty: "::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartValue", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Duration", ty: "float_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Target", ty: "::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_StartValue", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::UI::CoroutineTween::FloatTween::FloatTween(::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback* m_Target, float_t m_StartValue, float_t m_TargetValue,
                                                                     float_t m_Duration, bool m_IgnoreTimeScale) noexcept {
   this->m_Target = m_Target;

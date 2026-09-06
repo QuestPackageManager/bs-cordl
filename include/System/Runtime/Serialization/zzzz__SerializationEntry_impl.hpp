@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SerializationEntry.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SerializationEntry.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationEntry_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -57,8 +57,8 @@ inline ::StringW System::Runtime::Serialization::SerializationEntry::get_Name() 
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SerializationEntry>(), { "get_Name", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Serialization::SerializationEntry::SerializationEntry(::StringW _name, ::System::Object* _value, ::System::Type* _type) noexcept {
   this->_name = _name;
   this->_value = _value;

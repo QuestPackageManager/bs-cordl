@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Video\VideoTimeSource.hpp"
+// IWYU pragma private; include "UnityEngine/Video/VideoTimeSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct VideoTimeSource;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Video::VideoTimeSource);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Video::VideoTimeSource, "UnityEngine.Video", "VideoTimeSource");
+// [Obsolete("VideoTimeSource is deprecated. Use TimeUpdateMode instead. (UnityUpgradable) -> VideoTimeUpdateMode")]
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::Video {
 // Is value type: true
@@ -42,7 +44,7 @@ public:
   // @brief default ctor
   constexpr VideoTimeSource();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VideoTimeSource(int32_t value__) noexcept;
 
   /// @brief Field AudioDSPTimeSource value: I32(0)

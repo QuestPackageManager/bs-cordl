@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DisappearingArrowController.hpp"
+// IWYU pragma private; include "GlobalNamespace/DisappearingArrowController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,17 +47,18 @@ protected:
   constexpr DisappearingArrowController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisappearingArrowController(DisappearingArrowController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisappearingArrowController(DisappearingArrowController const&) = delete;
+  DisappearingArrowController(DisappearingArrowControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5653 };
 
+  /// [SerializeField]
   /// @brief Field _gameNoteController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameNoteController> ____gameNoteController;
 

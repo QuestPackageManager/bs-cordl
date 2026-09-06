@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\HttpPollingTransport.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/HttpPollingTransport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,7 @@ DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpPollingTransport*, "Oc
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0*, "OculusStudios.GraphQL.Client", "HttpPollingTransport/<>c__DisplayClass12_0");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12, "OculusStudios.GraphQL.Client", "HttpPollingTransport/<ExecuteAsync>d__12");
 DEFINE_IL2CPP_CLASS(::OculusStudios::GraphQL::Client::HttpPollingTransport__StartHttpPollingAsync_d__13, "OculusStudios.GraphQL.Client", "HttpPollingTransport/<StartHttpPollingAsync>d__13");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // Is value type: false
@@ -106,13 +107,13 @@ protected:
   constexpr HttpPollingTransport___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPollingTransport___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPollingTransport___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpPollingTransport___c__DisplayClass12_0(HttpPollingTransport___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPollingTransport___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPollingTransport___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPollingTransport___c__DisplayClass12_0(HttpPollingTransport___c__DisplayClass12_0 const&) = delete;
+  HttpPollingTransport___c__DisplayClass12_0(HttpPollingTransport___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20418 };
@@ -128,6 +129,7 @@ static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpPollingTransport___
 static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0) == 0x18, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
@@ -141,6 +143,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f26894, size 0x424, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f26e58, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -151,12 +154,13 @@ public:
   // @brief default ctor
   constexpr HttpPollingTransport__ExecuteAsync_d__12();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None }, CppParam { name: "graphQLRequest", ty:
-  // "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::HttpPollingTransport*", modifiers: "",
-  // def_value: None }, CppParam { name: "executor", ty: "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "graphQLRequest", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::OculusStudios::GraphQL::Client::HttpPollingTransport*", modifiers: "", def_value: None, comment: None }, CppParam { name: "executor", ty:
+  // "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
+  // "::OculusStudios::GraphQL::Client::HttpPollingTransport___c__DisplayClass12_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None, comment: None }]
   constexpr HttpPollingTransport__ExecuteAsync_d__12(int32_t __1__state,
                                                      ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
                                                      ::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest, ::OculusStudios::GraphQL::Client::HttpPollingTransport* __4__this,
@@ -211,6 +215,7 @@ static_assert(offsetof(::OculusStudios::GraphQL::Client::HttpPollingTransport__E
 static_assert(sizeof(::OculusStudios::GraphQL::Client::HttpPollingTransport__ExecuteAsync_d__12) == 0x48, "Size mismatch!");
 
 } // namespace OculusStudios::GraphQL::Client
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace OculusStudios::GraphQL::Client {
 // Is value type: true
@@ -224,6 +229,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f26ed8, size 0x45c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f27334, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -234,14 +240,16 @@ public:
   // @brief default ctor
   constexpr HttpPollingTransport__StartHttpPollingAsync_d__13();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "liveQuery", ty: "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*",
-  // modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OculusStudios::GraphQL::Client::HttpPollingTransport*", modifiers: "", def_value: None }, CppParam { name: "operation", ty:
-  // "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: None }, CppParam { name: "executor", ty: "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*",
-  // modifiers: "", def_value: None }, CppParam { name: "_httpTransport_5__2", ty: "::OculusStudios::GraphQL::Client::HttpTransport*", modifiers: "", def_value: None }, CppParam { name:
-  // "_lastResponse_5__3", ty: "::OculusStudios::GraphQL::Client::GraphQLResponse*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "liveQuery", ty:
+  // "::OculusStudios::GraphQL::Client::GraphQLLiveQuery*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::OculusStudios::GraphQL::Client::HttpPollingTransport*", modifiers: "", def_value: None, comment: None }, CppParam { name: "operation", ty:
+  // "::OculusStudios::GraphQL::Client::GraphQLResponseStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "executor", ty:
+  // "::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_httpTransport_5__2", ty:
+  // "::OculusStudios::GraphQL::Client::HttpTransport*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_lastResponse_5__3", ty:
+  // "::OculusStudios::GraphQL::Client::GraphQLResponse*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr HttpPollingTransport__StartHttpPollingAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                               ::OculusStudios::GraphQL::Client::GraphQLLiveQuery* liveQuery, ::OculusStudios::GraphQL::Client::HttpPollingTransport* __4__this,
                                                               ::OculusStudios::GraphQL::Client::GraphQLResponseStream* operation, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* executor,
@@ -352,6 +360,7 @@ public:
   /// @brief Method Dispose, addr 0x5f267d8, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpPollingTransport::<ExecuteAsync>d__12))]
   /// @brief Method ExecuteAsync, addr 0x5f2661c, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* ExecuteAsync(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest,
                                                                                                                     ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* executor);
@@ -362,6 +371,7 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpPollingTransport* New_ctor();
 
+  /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpPollingTransport::<StartHttpPollingAsync>d__13))]
   /// @brief Method StartHttpPollingAsync, addr 0x5f26710, size 0xc8, virtual false, abstract: false, final false
   inline void StartHttpPollingAsync(::OculusStudios::GraphQL::Client::GraphQLLiveQuery* liveQuery, ::OculusStudios::GraphQL::Client::GraphQLResponseStream* operation,
                                     ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* executor);
@@ -395,9 +405,11 @@ public:
 
   static inline int32_t getStaticF_TOTAL_NUM_POLL_REQUESTS();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AccessToken, addr 0x5f2657c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AccessToken();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Endpoint, addr 0x5f2656c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Endpoint();
 
@@ -409,9 +421,11 @@ public:
 
   static inline void setStaticF_TOTAL_NUM_POLL_REQUESTS(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_AccessToken, addr 0x5f26584, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessToken(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Endpoint, addr 0x5f26574, size 0x8, virtual false, abstract: false, final false
   inline void set_Endpoint(::StringW value);
 
@@ -421,20 +435,22 @@ protected:
   constexpr HttpPollingTransport();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPollingTransport", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPollingTransport", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpPollingTransport(HttpPollingTransport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpPollingTransport", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpPollingTransport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpPollingTransport(HttpPollingTransport const&) = delete;
+  HttpPollingTransport(HttpPollingTransportconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20421 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Endpoint>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Endpoint_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AccessToken>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____AccessToken_k__BackingField;
 

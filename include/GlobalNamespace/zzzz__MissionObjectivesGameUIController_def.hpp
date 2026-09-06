@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjectivesGameUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjectivesGameUIController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class MissionObjectivesGameUIController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MissionObjectivesGameUIController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionObjectivesGameUIController*, "", "MissionObjectivesGameUIController");
+// [AddComponentMenu("Beat Saber/Gameplay/MissionObjectivesGameUIController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -103,26 +104,30 @@ protected:
   constexpr MissionObjectivesGameUIController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectivesGameUIController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectivesGameUIController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjectivesGameUIController(MissionObjectivesGameUIController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectivesGameUIController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectivesGameUIController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectivesGameUIController(MissionObjectivesGameUIController const&) = delete;
+  MissionObjectivesGameUIController(MissionObjectivesGameUIControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6781 };
 
+  /// [SerializeField]
   /// @brief Field _missionObjectiveGameUIViewPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveGameUIView> ____missionObjectiveGameUIViewPrefab;
 
+  /// [SerializeField]
   /// @brief Field _separator, offset: 0x28, size: 0x4, def value: None
   float_t ____separator;
 
+  /// [SerializeField]
   /// @brief Field _elementWidth, offset: 0x2c, size: 0x4, def value: None
   float_t ____elementWidth;
 
+  /// [Inject]
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 

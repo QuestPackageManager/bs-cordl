@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupData_def.hpp"
@@ -549,13 +549,11 @@ inline void GlobalNamespace::MultiplayerLevelScenesTransitionSetupData::set_beat
                                                                                          { "set_beatmapLevelData", {}, { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MultiplayerLevelScenesTransitionSetupData::Init(::StringW gameMode, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                             ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::ColorScheme* overrideColorScheme,
-                                                                             ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                                                                             ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::PracticeSettings* practiceSettings,
-                                                                             ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::SettingsManager* settingsManager,
-                                                                             ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
-                                                                             ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation) {
+inline void GlobalNamespace::MultiplayerLevelScenesTransitionSetupData::Init(
+    ::StringW gameMode, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
+    ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+    ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+    ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*>(),

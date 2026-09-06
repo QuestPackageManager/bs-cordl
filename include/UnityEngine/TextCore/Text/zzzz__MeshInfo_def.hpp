@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\MeshInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/MeshInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ struct MeshInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::MeshInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::MeshInfo, "UnityEngine.TextCore.Text", "MeshInfo");
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 // Dependencies UnityEngine.Color32, UnityEngine.TextCore.LowLevel.GlyphRenderMode, UnityEngine.TextCore.Text.TextCoreVertex, UnityEngine.TextCore.Text.VertexDataLayout, UnityEngine.Vector2,
 // UnityEngine.Vector3, UnityEngine.Vector4
 namespace UnityEngine::TextCore::Text {
@@ -96,14 +97,15 @@ public:
   // @brief default ctor
   constexpr MeshInfo();
 
-  // Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexData", ty: "::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex>",
-  // modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "vertices", ty:
-  // "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "normals", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name:
-  // "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None }, CppParam { name: "vertexBufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "uvs0", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None }, CppParam { name: "uvs2", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam {
-  // name: "colors32", ty: "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam {
-  // name: "vertexDataLayout", ty: "::UnityEngine::TextCore::Text::VertexDataLayout", modifiers: "", def_value: None }, CppParam { name: "applySDF", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "glyphRenderMode", ty: "::UnityEngine::TextCore::LowLevel::GlyphRenderMode", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexData", ty:
+  // "::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex>", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "normals", ty:
+  // "::ArrayW<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "tangents", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "vertexBufferSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "uvs0", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "uvs2", ty: "::ArrayW<::UnityEngine::Vector2>", modifiers: "", def_value: None, comment: None }, CppParam { name: "colors32", ty:
+  // "::ArrayW<::UnityEngine::Color32>", modifiers: "", def_value: None, comment: None }, CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "vertexDataLayout", ty: "::UnityEngine::TextCore::Text::VertexDataLayout", modifiers: "", def_value: None, comment: None }, CppParam { name: "applySDF", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "glyphRenderMode", ty: "::UnityEngine::TextCore::LowLevel::GlyphRenderMode", modifiers: "", def_value: None, comment: None }]
   constexpr MeshInfo(int32_t vertexCount, ::ArrayW<::UnityEngine::TextCore::Text::TextCoreVertex> vertexData, ::UnityW<::UnityEngine::Material> material, ::ArrayW<::UnityEngine::Vector3> vertices,
                      ::ArrayW<::UnityEngine::Vector3> normals, ::ArrayW<::UnityEngine::Vector4> tangents, int32_t vertexBufferSize, ::ArrayW<::UnityEngine::Vector4> uvs0,
                      ::ArrayW<::UnityEngine::Vector2> uvs2, ::ArrayW<::UnityEngine::Color32> colors32, ::ArrayW<int32_t> triangles, ::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout,
@@ -124,36 +126,47 @@ public:
   /// @brief Field material, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> material;
 
+  /// [Ignore]
   /// @brief Field vertices, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> vertices;
 
+  /// [Ignore]
   /// @brief Field normals, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> normals;
 
+  /// [Ignore]
   /// @brief Field tangents, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> tangents;
 
+  /// [Ignore]
   /// @brief Field vertexBufferSize, offset: 0x30, size: 0x4, def value: None
   int32_t vertexBufferSize;
 
+  /// [Ignore]
   /// @brief Field uvs0, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> uvs0;
 
+  /// [Ignore]
   /// @brief Field uvs2, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector2> uvs2;
 
+  /// [Ignore]
   /// @brief Field colors32, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color32> colors32;
 
+  /// [Ignore]
   /// @brief Field triangles, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<int32_t> triangles;
 
+  /// [Ignore]
   /// @brief Field vertexDataLayout, offset: 0x58, size: 0x4, def value: None
   ::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout;
 
+  /// [Ignore]
   /// @brief Field applySDF, offset: 0x5c, size: 0x1, def value: None
   bool applySDF;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field glyphRenderMode, offset: 0x60, size: 0x4, def value: None
   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode glyphRenderMode;
 

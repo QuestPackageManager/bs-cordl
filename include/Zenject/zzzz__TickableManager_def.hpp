@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\TickableManager.hpp"
+// IWYU pragma private; include "Zenject/TickableManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,6 +85,7 @@ DEFINE_IL2CPP_CLASS(::Zenject::TickableManager___c*, "Zenject", "TickableManager
 DEFINE_IL2CPP_CLASS(::Zenject::TickableManager___c__DisplayClass17_0*, "Zenject", "TickableManager/<>c__DisplayClass17_0");
 DEFINE_IL2CPP_CLASS(::Zenject::TickableManager___c__DisplayClass18_0*, "Zenject", "TickableManager/<>c__DisplayClass18_0");
 DEFINE_IL2CPP_CLASS(::Zenject::TickableManager___c__DisplayClass19_0*, "Zenject", "TickableManager/<>c__DisplayClass19_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -136,6 +137,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9a9d0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9aa14, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -176,13 +178,13 @@ protected:
   constexpr TickableManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TickableManager___c(TickableManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager___c(TickableManager___c const&) = delete;
+  TickableManager___c(TickableManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14695 };
@@ -193,6 +195,7 @@ public:
 static_assert(sizeof(::Zenject::TickableManager___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -217,6 +220,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9ac38, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9ac7c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -229,13 +233,13 @@ protected:
   constexpr TickableManager___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass17_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TickableManager___c__DisplayClass17_0(TickableManager___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass17_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager___c__DisplayClass17_0(TickableManager___c__DisplayClass17_0 const&) = delete;
+  TickableManager___c__DisplayClass17_0(TickableManager___c__DisplayClass17_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14696 };
@@ -251,6 +255,7 @@ static_assert(offsetof(::Zenject::TickableManager___c__DisplayClass17_0, ___tick
 static_assert(sizeof(::Zenject::TickableManager___c__DisplayClass17_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -275,6 +280,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9aea0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9aee4, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -287,13 +293,13 @@ protected:
   constexpr TickableManager___c__DisplayClass18_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass18_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TickableManager___c__DisplayClass18_0(TickableManager___c__DisplayClass18_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass18_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager___c__DisplayClass18_0(TickableManager___c__DisplayClass18_0 const&) = delete;
+  TickableManager___c__DisplayClass18_0(TickableManager___c__DisplayClass18_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14697 };
@@ -309,6 +315,7 @@ static_assert(offsetof(::Zenject::TickableManager___c__DisplayClass18_0, ___tick
 static_assert(sizeof(::Zenject::TickableManager___c__DisplayClass18_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -333,6 +340,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9b108, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9b14c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -345,13 +353,13 @@ protected:
   constexpr TickableManager___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TickableManager___c__DisplayClass19_0(TickableManager___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager___c__DisplayClass19_0(TickableManager___c__DisplayClass19_0 const&) = delete;
+  TickableManager___c__DisplayClass19_0(TickableManager___c__DisplayClass19_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14698 };
@@ -449,12 +457,14 @@ public:
   /// @brief Method InitTickables, addr 0x6e97f94, size 0x7a0, virtual false, abstract: false, final false
   inline void InitTickables();
 
+  /// [Inject]
   /// @brief Method Initialize, addr 0x6e97f74, size 0x20, virtual false, abstract: false, final false
   inline void Initialize();
 
   /// @brief Method LateUpdate, addr 0x6e93728, size 0xb0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
+  /// @brief [Inject]
   static inline ::Zenject::TickableManager* New_ctor();
 
   /// @brief Method Remove, addr 0x6e9986c, size 0x64, virtual false, abstract: false, final false
@@ -532,6 +542,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e99998, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9a148, size 0x7b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -556,6 +567,7 @@ public:
   /// @brief Method __zenInjectMethod0, addr 0x6e9a0c4, size 0x84, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*> P_1);
 
+  /// [Inject]
   /// @brief Method .ctor, addr 0x6e97eac, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -574,32 +586,38 @@ protected:
   constexpr TickableManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TickableManager(TickableManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TickableManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TickableManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TickableManager(TickableManager const&) = delete;
+  TickableManager(TickableManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14699 };
 
+  /// [Inject(Optional = true, Source = (Zenject.InjectSources)1)]
   /// @brief Field _tickables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::ITickable*>* ____tickables;
 
+  /// [Inject(Optional = true, Source = (Zenject.InjectSources)1)]
   /// @brief Field _fixedTickables, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>* ____fixedTickables;
 
+  /// [Inject(Optional = true, Source = (Zenject.InjectSources)1)]
   /// @brief Field _lateTickables, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::ILateTickable*>* ____lateTickables;
 
+  /// [Inject(Optional = true, Source = (Zenject.InjectSources)1)]
   /// @brief Field _priorities, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* ____priorities;
 
+  /// [Inject(Optional = true, Id = "Fixed", Source = (Zenject.InjectSources)1)]
   /// @brief Field _fixedPriorities, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* ____fixedPriorities;
 
+  /// [Inject(Optional = true, Id = "Late", Source = (Zenject.InjectSources)1)]
   /// @brief Field _latePriorities, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* ____latePriorities;
 

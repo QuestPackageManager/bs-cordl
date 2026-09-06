@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelPackInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelPackInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,21 +65,27 @@ public:
   /// @brief Method .ctor, addr 0x32b8da8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_levels, addr 0x32b8d88, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LevelInfo*> get_levels();
 
+  /// [CompilerGenerated]
   /// @brief Method get_minimumProtocolVersion, addr 0x32b8d98, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_minimumProtocolVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_packID, addr 0x32b8d78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packID();
 
+  /// [CompilerGenerated]
   /// @brief Method set_levels, addr 0x32b8d90, size 0x8, virtual false, abstract: false, final false
   inline void set_levels(::ArrayW<::GlobalNamespace::LevelInfo*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_minimumProtocolVersion, addr 0x32b8da0, size 0x8, virtual false, abstract: false, final false
   inline void set_minimumProtocolVersion(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_packID, addr 0x32b8d80, size 0x8, virtual false, abstract: false, final false
   inline void set_packID(::StringW value);
 
@@ -89,23 +95,26 @@ protected:
   constexpr LevelPackInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelPackInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelPackInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelPackInfo(LevelPackInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelPackInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelPackInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelPackInfo(LevelPackInfo const&) = delete;
+  LevelPackInfo(LevelPackInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18963 };
 
+  /// [CompilerGenerated]
   /// @brief Field <packID>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____packID_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <levels>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LevelInfo*> ____levels_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <minimumProtocolVersion>k__BackingField, offset: 0x20, size: 0x4, def value: None
   uint32_t ____minimumProtocolVersion_k__BackingField;
 

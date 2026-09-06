@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OverridableGradientDirection.hpp"
+// IWYU pragma private; include "GlobalNamespace/OverridableGradientDirection.hpp"
 #include "GlobalNamespace/zzzz__GradientDirection_impl.hpp"
 #include "StyledUITemplates/zzzz__OverridableData_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OverridableGradientDirection_def.hpp"

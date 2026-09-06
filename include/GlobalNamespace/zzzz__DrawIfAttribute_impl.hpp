@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DrawIfAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/DrawIfAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__DrawIfAttribute_def.hpp"
 #include "GlobalNamespace/zzzz__DrawIfAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::DrawIfAttribute_DisablingType::DrawIfAttribute_DisablingType(int32_t value__) noexcept {
   this->value__ = value__;
 }

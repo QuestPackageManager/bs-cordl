@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OpenXRRuntimeBasedActionBindingComposite.hpp"
+// IWYU pragma private; include "GlobalNamespace/OpenXRRuntimeBasedActionBindingComposite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class OpenXRRuntimeBasedActionBindingComposite;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*, "", "OpenXRRuntimeBasedActionBindingComposite");
+// [DisplayStringFormat("{oculusRuntime}+{otherRuntimes}")]
 // Dependencies UnityEngine.InputSystem.InputBindingComposite`1<TValue>
 namespace GlobalNamespace {
 // Is value type: false
@@ -34,6 +35,7 @@ public:
   /// @brief Method EvaluateMagnitude, addr 0x585ba2c, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)1)]
   /// @brief Method Init, addr 0x585baa8, size 0x4, virtual false, abstract: false, final false
   static inline void Init();
 
@@ -69,13 +71,13 @@ protected:
   constexpr OpenXRRuntimeBasedActionBindingComposite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntimeBasedActionBindingComposite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntimeBasedActionBindingComposite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRRuntimeBasedActionBindingComposite(OpenXRRuntimeBasedActionBindingComposite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntimeBasedActionBindingComposite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntimeBasedActionBindingComposite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRuntimeBasedActionBindingComposite(OpenXRRuntimeBasedActionBindingComposite const&) = delete;
+  OpenXRRuntimeBasedActionBindingComposite(OpenXRRuntimeBasedActionBindingCompositeconst&) = delete;
 
   /// @brief Field OCULUS_RUNTIME_NAME offset 0xffffffff size 0x8
   static constexpr ::ConstString OCULUS_RUNTIME_NAME{ u"Oculus" };
@@ -83,9 +85,11 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21452 };
 
+  /// [InputControl]
   /// @brief Field oculusRuntime, offset: 0x10, size: 0x4, def value: None
   int32_t ___oculusRuntime;
 
+  /// [InputControl]
   /// @brief Field otherRuntimes, offset: 0x14, size: 0x4, def value: None
   int32_t ___otherRuntimes;
 

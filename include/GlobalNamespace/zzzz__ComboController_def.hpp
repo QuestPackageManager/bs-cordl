@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ComboController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ComboController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class ComboController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ComboController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ComboController*, "", "ComboController");
+// [AddComponentMenu("Beat Saber/Gameplay/ComboController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -67,7 +68,7 @@ public:
   constexpr operator ::GlobalNamespace::IComboController*() noexcept;
 
   /// @brief Method HandleNoteWasCut, addr 0x59f323c, size 0xb0, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   /// @brief Method HandleNoteWasMissed, addr 0x59f32ec, size 0x84, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
@@ -122,9 +123,11 @@ public:
   /// @brief Method .ctor, addr 0x59f3370, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x59f2d64, size 0xac, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_comboDidChangeEvent, addr 0x59f2be4, size 0xc0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
@@ -134,9 +137,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x59f2e10, size 0xac, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_comboDidChangeEvent, addr 0x59f2ca4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
@@ -146,26 +151,30 @@ protected:
   constexpr ComboController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ComboController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComboController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ComboController(ComboController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ComboController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ComboController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ComboController(ComboController const&) = delete;
+  ComboController(ComboControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6252 };
 
+  /// [Inject]
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [CompilerGenerated]
   /// @brief Field comboDidChangeEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___comboDidChangeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field comboBreakingEventHappenedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action* ___comboBreakingEventHappenedEvent;
 

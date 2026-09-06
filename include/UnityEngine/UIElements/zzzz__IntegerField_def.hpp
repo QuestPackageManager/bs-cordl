@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IntegerField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IntegerField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IntegerField*, "UnityEngine.UIEle
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IntegerField_IntegerInput*, "UnityEngine.UIElements", "IntegerField/IntegerInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IntegerField_UxmlFactory*, "UnityEngine.UIElements", "IntegerField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IntegerField_UxmlTraits*, "UnityEngine.UIElements", "IntegerField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr IntegerField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegerField_UxmlFactory(IntegerField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField_UxmlFactory(IntegerField_UxmlFactory const&) = delete;
+  IntegerField_UxmlFactory(IntegerField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4232 };
@@ -84,6 +85,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::IntegerField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -102,13 +104,13 @@ protected:
   constexpr IntegerField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegerField_UxmlTraits(IntegerField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField_UxmlTraits(IntegerField_UxmlTraits const&) = delete;
+  IntegerField_UxmlTraits(IntegerField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4233 };
@@ -156,13 +158,13 @@ protected:
   constexpr IntegerField_IntegerInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_IntegerInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_IntegerInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegerField_IntegerInput(IntegerField_IntegerInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_IntegerInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_IntegerInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField_IntegerInput(IntegerField_IntegerInput const&) = delete;
+  IntegerField_IntegerInput(IntegerField_IntegerInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4234 };
@@ -173,6 +175,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::IntegerField_IntegerInput) == 0x4e8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -240,13 +243,13 @@ protected:
   constexpr IntegerField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegerField(IntegerField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegerField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField(IntegerField const&) = delete;
+  IntegerField(IntegerFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4235 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElementUtils.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ MARK_REF_T(::UnityEngine::UIElements::VisualElementUtils*);
 MARK_REF_T(::UnityEngine::UIElements::VisualElementUtils___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElementUtils*, "UnityEngine.UIElements", "VisualElementUtils");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualElementUtils___c*, "UnityEngine.UIElements", "VisualElementUtils/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -69,13 +70,13 @@ protected:
   constexpr VisualElementUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementUtils___c(VisualElementUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementUtils___c(VisualElementUtils___c const&) = delete;
+  VisualElementUtils___c(VisualElementUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5249 };
@@ -86,6 +87,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::VisualElementUtils___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -104,9 +106,11 @@ public:
   /// @brief Field s_usedNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_usedNames, put = setStaticF_s_usedNames)) ::System::Collections::Generic::HashSet_1<::StringW>* s_usedNames;
 
+  /// [Extension]
   /// @brief Method AssignInspectorStyleIfNecessary, addr 0x6ccd100, size 0x11c, virtual false, abstract: false, final false
   static inline void AssignInspectorStyleIfNecessary(::UnityEngine::UIElements::VisualElement* element, ::StringW classNameToEnable);
 
+  /// [Extension]
   /// @brief Method GetFoldoutDepth, addr 0x6ccd040, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t GetFoldoutDepth(::UnityEngine::UIElements::VisualElement* element);
 
@@ -131,13 +135,13 @@ protected:
   constexpr VisualElementUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementUtils(VisualElementUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementUtils(VisualElementUtils const&) = delete;
+  VisualElementUtils(VisualElementUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5250 };

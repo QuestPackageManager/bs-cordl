@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Spacing.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Spacing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,8 +43,8 @@ public:
   // @brief default ctor
   constexpr Spacing();
 
-  // Ctor Parameters [CppParam { name: "left", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "top", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "right", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "bottom", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "left", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "top", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "right", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bottom", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Spacing(float_t left, float_t top, float_t right, float_t bottom) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

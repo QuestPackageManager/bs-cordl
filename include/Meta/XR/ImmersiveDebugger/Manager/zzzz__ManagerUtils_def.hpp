@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\ManagerUtils.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/ManagerUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ManagerUtils)
@@ -88,13 +89,13 @@ protected:
   constexpr ManagerUtils_RegisterMember_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils_RegisterMember_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils_RegisterMember_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ManagerUtils_RegisterMember_1(ManagerUtils_RegisterMember_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils_RegisterMember_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils_RegisterMember_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ManagerUtils_RegisterMember_1(ManagerUtils_RegisterMember_1 const&) = delete;
+  ManagerUtils_RegisterMember_1(ManagerUtils_RegisterMember_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18454 };
@@ -103,7 +104,7 @@ public:
 };
 // Non member Declarations
 } // namespace Meta::XR::ImmersiveDebugger::Manager
-// Dependencies System.Object
+// Dependencies System.Object, System.Reflection.MemberInfo
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.Manager.ManagerUtils
@@ -114,6 +115,7 @@ public:
 
   /// @brief Method RebuildInspectorForType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Reflection::MemberInfo*>)
   static inline void RebuildInspectorForType(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* panel, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* cache, ::System::Type* type,
                                              ::System::Collections::Generic::List_1<::System::ValueTuple_2<T, ::Meta::XR::ImmersiveDebugger::DebugMember*>>* memberPairs,
                                              ::Meta::XR::ImmersiveDebugger::Manager::ManagerUtils_RegisterMember_1<T>* memberRegistration);
@@ -124,13 +126,13 @@ protected:
   constexpr ManagerUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ManagerUtils(ManagerUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ManagerUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ManagerUtils(ManagerUtils const&) = delete;
+  ManagerUtils(ManagerUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18455 };

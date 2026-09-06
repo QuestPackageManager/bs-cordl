@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolCleanupChecker.hpp"
+// IWYU pragma private; include "Zenject/PoolCleanupChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::Zenject::PoolCleanupChecker*);
 MARK_REF_T(::Zenject::PoolCleanupChecker___c*);
 DEFINE_IL2CPP_CLASS(::Zenject::PoolCleanupChecker*, "Zenject", "PoolCleanupChecker");
 DEFINE_IL2CPP_CLASS(::Zenject::PoolCleanupChecker___c*, "Zenject", "PoolCleanupChecker/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -63,6 +64,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e6a44c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6a490, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -83,13 +85,13 @@ protected:
   constexpr PoolCleanupChecker___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolCleanupChecker___c(PoolCleanupChecker___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolCleanupChecker___c(PoolCleanupChecker___c const&) = delete;
+  PoolCleanupChecker___c(PoolCleanupChecker___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14452 };
@@ -121,8 +123,9 @@ public:
   /// @brief Method LateDispose, addr 0x6e69bc8, size 0x3b4, virtual true, abstract: false, final true
   inline void LateDispose();
 
-  static inline ::Zenject::PoolCleanupChecker* New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
-                                                        ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
+  static inline ::Zenject::PoolCleanupChecker*
+  New_ctor(/* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
+           /* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
 
   constexpr ::System::Collections::Generic::List_1<::System::Type*>* const& __cordl_internal_get__ignoredPools() const;
 
@@ -139,11 +142,13 @@ public:
   /// @brief Method __zenCreate, addr 0x6e69f7c, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6a0a0, size 0x2e0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x6e69ab0, size 0x118, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories, ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
+  inline void _ctor(/* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
+                    /* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
 
   /// @brief Convert to "::Zenject::ILateDisposable"
   constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
@@ -154,13 +159,13 @@ protected:
   constexpr PoolCleanupChecker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolCleanupChecker(PoolCleanupChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolCleanupChecker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolCleanupChecker(PoolCleanupChecker const&) = delete;
+  PoolCleanupChecker(PoolCleanupCheckerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14453 };

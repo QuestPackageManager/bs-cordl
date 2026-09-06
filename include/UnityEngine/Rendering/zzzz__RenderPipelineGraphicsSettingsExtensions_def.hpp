@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineGraphicsSettingsExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineGraphicsSettingsExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class RenderPipelineGraphicsSettingsExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderPipelineGraphicsSettingsExtensions*, "UnityEngine.Rendering", "RenderPipelineGraphicsSettingsExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -23,8 +24,11 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE RenderPipelineGraphicsSettingsExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method SetValueAndNotify, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void SetValueAndNotify(::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* settings, ::by_ref<T> currentPropertyValue, T newValue, ::StringW propertyName);
+  template <typename T>
+  static inline void SetValueAndNotify(::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* settings, ::by_ref<T> currentPropertyValue, T newValue,
+                                       /* [CallerMemberName] */ ::StringW propertyName);
 
 protected:
   // Ctor Parameters []
@@ -32,13 +36,13 @@ protected:
   constexpr RenderPipelineGraphicsSettingsExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderPipelineGraphicsSettingsExtensions(RenderPipelineGraphicsSettingsExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineGraphicsSettingsExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderPipelineGraphicsSettingsExtensions(RenderPipelineGraphicsSettingsExtensions const&) = delete;
+  RenderPipelineGraphicsSettingsExtensions(RenderPipelineGraphicsSettingsExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10775 };

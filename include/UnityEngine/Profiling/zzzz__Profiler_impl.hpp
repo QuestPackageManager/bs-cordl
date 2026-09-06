@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Profiling\Profiler.hpp"
+// IWYU pragma private; include "UnityEngine/Profiling/Profiler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Profiling/zzzz__Profiler_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -167,7 +167,7 @@ inline void UnityEngine::Profiling::Profiler::set_enabled(bool value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Profiler*>(), { "set_enabled", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline int64_t UnityEngine::Profiling::Profiler::GetRuntimeMemorySizeLong(::UnityEngine::Object* o) {
+inline int64_t UnityEngine::Profiling::Profiler::GetRuntimeMemorySizeLong(/* [NotNull] */ ::UnityEngine::Object* o) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Profiling::Profiler*>(), { "GetRuntimeMemorySizeLong", {}, { ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(nullptr, ___internal_method, o);

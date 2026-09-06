@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X962Parameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X962Parameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Null* obj);
 
+  /// @brief [Obsolete("Use \'GetInstance\' instead")]
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
   /// @brief Method ToAsn1Object, addr 0x367d6f0, size 0x8, virtual true, abstract: false, final false
@@ -78,6 +79,7 @@ public:
   /// @brief Method .ctor, addr 0x367d5e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Null* obj);
 
+  /// [Obsolete("Use \'GetInstance\' instead")]
   /// @brief Method .ctor, addr 0x367d5a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
@@ -99,13 +101,13 @@ protected:
   constexpr X962Parameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X962Parameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X962Parameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X962Parameters(X962Parameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X962Parameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X962Parameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X962Parameters(X962Parameters const&) = delete;
+  X962Parameters(X962Parametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 441 };

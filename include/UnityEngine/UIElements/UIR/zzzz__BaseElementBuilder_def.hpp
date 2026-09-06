@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\BaseElementBuilder.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BaseElementBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ public:
   /// @brief Method Build, addr 0x6cd5da4, size 0x6bc, virtual false, abstract: false, final false
   inline void Build(Il2CppObject* mgc);
 
-  /// @brief Method DrawVisualElementBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DrawVisualElementBackground, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawVisualElementBackground(Il2CppObject* mgc);
 
-  /// @brief Method DrawVisualElementBorder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DrawVisualElementBorder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawVisualElementBorder(Il2CppObject* mgc);
 
-  /// @brief Method DrawVisualElementStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DrawVisualElementStencilMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawVisualElementStencilMask(Il2CppObject* mgc);
 
   /// @brief Method InvokeGenerateVisualContent, addr 0x6cd66b0, size 0x104, virtual false, abstract: false, final false
@@ -45,10 +45,10 @@ public:
   /// @brief Method PushVisualElementClipping, addr 0x6cd6460, size 0x250, virtual false, abstract: false, final false
   inline void PushVisualElementClipping(Il2CppObject* mgc);
 
-  /// @brief Method RequiresStencilMask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RequiresStencilMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool RequiresStencilMask(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ScheduleMeshGenerationJobs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ScheduleMeshGenerationJobs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ScheduleMeshGenerationJobs(Il2CppObject* mgc);
 
   /// @brief Method .ctor, addr 0x6cd6958, size 0x4, virtual false, abstract: false, final false
@@ -60,13 +60,13 @@ protected:
   constexpr BaseElementBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseElementBuilder(BaseElementBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseElementBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseElementBuilder(BaseElementBuilder const&) = delete;
+  BaseElementBuilder(BaseElementBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5285 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerCreatorByNewPrefabMethod_10.hpp"
+// IWYU pragma private; include "Zenject/SubContainerCreatorByNewPrefabMethod_10.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ MARK_GEN_REF_T_PTR(::Zenject::SubContainerCreatorByNewPrefabMethod_10);
 MARK_GEN_REF_T_PTR(::Zenject::SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::SubContainerCreatorByNewPrefabMethod_10, "Zenject", "SubContainerCreatorByNewPrefabMethod`10");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0, "Zenject", "SubContainerCreatorByNewPrefabMethod`10/<>c__DisplayClass2_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -90,6 +91,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -102,13 +104,13 @@ protected:
   constexpr SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0(SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0(SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0 const&) = delete;
+  SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0(SubContainerCreatorByNewPrefabMethod_10___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14644 };
@@ -123,6 +125,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies Zenject.SubContainerCreatorByNewPrefabDynamicContext
 namespace Zenject {
 // cpp template
@@ -163,13 +166,13 @@ protected:
   constexpr SubContainerCreatorByNewPrefabMethod_10();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByNewPrefabMethod_10(SubContainerCreatorByNewPrefabMethod_10&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewPrefabMethod_10(SubContainerCreatorByNewPrefabMethod_10 const&) = delete;
+  SubContainerCreatorByNewPrefabMethod_10(SubContainerCreatorByNewPrefabMethod_10const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14645 };

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\FoveationMethod.hpp"
+// IWYU pragma private; include "Meta/XR/FoveationMethod.hpp"
 #include "Meta/XR/zzzz__FoveationMethod_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::FoveationMethod::FoveationMethod(int32_t value__) noexcept {
   this->value__ = value__;
 }

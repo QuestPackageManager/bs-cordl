@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\AceFlags.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/AceFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct AceFlags;
 // Write type traits
 MARK_VAL_T(::System::Security::AccessControl::AceFlags);
 DEFINE_IL2CPP_CLASS(::System::Security::AccessControl::AceFlags, "System.Security.AccessControl", "AceFlags");
+// [Flags]
 // Dependencies
 namespace System::Security::AccessControl {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr AceFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr AceFlags(uint8_t value__) noexcept;
 
   /// @brief Field AuditFlags value: U8(192)

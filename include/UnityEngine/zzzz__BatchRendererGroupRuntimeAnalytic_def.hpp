@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BatchRendererGroupRuntimeAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine/BatchRendererGroupRuntimeAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class BatchRendererGroupRuntimeAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEngine::BatchRendererGroupRuntimeAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::BatchRendererGroupRuntimeAnalytic*, "UnityEngine", "BatchRendererGroupRuntimeAnalytic");
+// [ExcludeFromDocs]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies UnityEngine.Analytics.AnalyticsEventBase
 namespace UnityEngine {
 // Is value type: false
@@ -23,6 +25,7 @@ public:
   /// @brief Field brgRuntimeStatus, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_brgRuntimeStatus, put = __cordl_internal_set_brgRuntimeStatus)) int32_t brgRuntimeStatus;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreateBatchRendererGroupRuntimeAnalytic, addr 0x6a6a8c4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::BatchRendererGroupRuntimeAnalytic* CreateBatchRendererGroupRuntimeAnalytic();
 
@@ -43,13 +46,13 @@ protected:
   constexpr BatchRendererGroupRuntimeAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroupRuntimeAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroupRuntimeAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchRendererGroupRuntimeAnalytic(BatchRendererGroupRuntimeAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroupRuntimeAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BatchRendererGroupRuntimeAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BatchRendererGroupRuntimeAnalytic(BatchRendererGroupRuntimeAnalytic const&) = delete;
+  BatchRendererGroupRuntimeAnalytic(BatchRendererGroupRuntimeAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10080 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RectTransformUtility.hpp"
+// IWYU pragma private; include "UnityEngine/RectTransformUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,11 @@ class RectTransformUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::RectTransformUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RectTransformUtility*, "UnityEngine", "RectTransformUtility");
+// [NativeHeader("Runtime/Camera/Camera.h")]
+// [StaticAccessor("UI", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [NativeHeader("Runtime/Transform/RectTransform.h")]
+// [NativeHeader("Modules/UI/RectTransformUtil.h")]
+// [NativeHeader("Modules/UI/Canvas.h")]
 // Dependencies System.Object, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: false
@@ -112,13 +117,13 @@ protected:
   constexpr RectTransformUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectTransformUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectTransformUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectTransformUtility(RectTransformUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectTransformUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectTransformUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectTransformUtility(RectTransformUtility const&) = delete;
+  RectTransformUtility(RectTransformUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22114 };

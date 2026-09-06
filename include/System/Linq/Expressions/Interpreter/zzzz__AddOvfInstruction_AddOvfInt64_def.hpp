@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\AddOvfInstruction_AddOvfInt64.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/AddOvfInstruction_AddOvfInt64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr AddOvfInstruction_AddOvfInt64();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfInt64", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfInt64", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddOvfInstruction_AddOvfInt64(AddOvfInstruction_AddOvfInt64&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfInt64", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddOvfInstruction_AddOvfInt64", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddOvfInstruction_AddOvfInt64(AddOvfInstruction_AddOvfInt64 const&) = delete;
+  AddOvfInstruction_AddOvfInt64(AddOvfInstruction_AddOvfInt64const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16247 };

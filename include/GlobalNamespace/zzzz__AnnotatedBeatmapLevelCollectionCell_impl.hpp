@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AnnotatedBeatmapLevelCollectionCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/AnnotatedBeatmapLevelCollectionCell.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
 #include "HMUI/zzzz__SelectableCell_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
@@ -66,13 +66,14 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell>", modifiers: "", def_value: Some("{}") }, CppParam { name: "entitlementModel", ty: "::GlobalNamespace::IEntitlementModel*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_numberOfOwnedLevels_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_error_5__4", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__7__wrap4", ty: "::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::BeatmapLevel*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
+// "::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "entitlementModel", ty:
+// "::GlobalNamespace::IEntitlementModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_numberOfOwnedLevels_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_error_5__4", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap4", ty: "::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::BeatmapLevel*>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell> __4__this,
     ::GlobalNamespace::IEntitlementModel* entitlementModel, ::System::Threading::CancellationToken _cancellationToken_5__2, int32_t _numberOfOwnedLevels_5__3, bool _error_5__4,

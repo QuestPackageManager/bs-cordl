@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ICameraHistoryReadAccess.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ICameraHistoryReadAccess.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__ContextItem_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ICameraHistoryReadAccess_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
@@ -120,7 +121,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-template <typename Type> inline Type UnityEngine::Rendering::ICameraHistoryReadAccess::GetHistoryForRead() {
+template <typename Type>
+  requires(::cordl_internals::type_constraint<Type, ::UnityEngine::Rendering::ContextItem*>)
+inline Type UnityEngine::Rendering::ICameraHistoryReadAccess::GetHistoryForRead() {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::ICameraHistoryReadAccess*>(), 0 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<Type>() }));

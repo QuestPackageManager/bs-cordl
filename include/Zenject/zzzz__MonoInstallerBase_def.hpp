@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MonoInstallerBase.hpp"
+// IWYU pragma private; include "Zenject/MonoInstallerBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class MonoInstallerBase;
 // Write type traits
 MARK_REF_T(::Zenject::MonoInstallerBase*);
 DEFINE_IL2CPP_CLASS(::Zenject::MonoInstallerBase*, "Zenject", "MonoInstallerBase");
+// [DebuggerStepThrough]
 // Dependencies UnityEngine.MonoBehaviour
 namespace Zenject {
 // Is value type: false
@@ -31,6 +32,7 @@ namespace Zenject {
 class CORDL_TYPE MonoInstallerBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief [Inject]
   __declspec(property(get = get_Container, put = set_Container)) ::Zenject::DiContainer* Container;
 
   __declspec(property(get = get_IsEnabled)) bool IsEnabled;
@@ -55,6 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__Container_k__BackingField(::Zenject::DiContainer* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e760fc, size 0x278, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -64,6 +67,7 @@ public:
   /// @brief Method .ctor, addr 0x6e75e7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Container, addr 0x6e75fc8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
@@ -73,6 +77,7 @@ public:
   /// @brief Convert to "::Zenject::IInstaller"
   constexpr ::Zenject::IInstaller* i___Zenject__IInstaller() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Container, addr 0x6e75fd0, size 0x8, virtual false, abstract: false, final false
   inline void set_Container(::Zenject::DiContainer* value);
 
@@ -82,17 +87,18 @@ protected:
   constexpr MonoInstallerBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoInstallerBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoInstallerBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoInstallerBase(MonoInstallerBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoInstallerBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoInstallerBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoInstallerBase(MonoInstallerBase const&) = delete;
+  MonoInstallerBase(MonoInstallerBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14500 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Container>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____Container_k__BackingField;
 

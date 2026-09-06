@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CreateServerFormController.hpp"
+// IWYU pragma private; include "GlobalNamespace/CreateServerFormController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,13 +63,13 @@ protected:
   constexpr CreateServerFormController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreateServerFormController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreateServerFormController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreateServerFormController(CreateServerFormController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreateServerFormController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreateServerFormController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreateServerFormController(CreateServerFormController const&) = delete;
+  CreateServerFormController(CreateServerFormControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6886 };
@@ -80,6 +80,7 @@ public:
   /// @brief Field kMinPlayers offset 0xffffffff size 0x4
   static constexpr int32_t kMinPlayers{ static_cast<int32_t>(0x2) };
 
+  /// [SerializeField]
   /// @brief Field _maxPlayersList, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____maxPlayersList;
 

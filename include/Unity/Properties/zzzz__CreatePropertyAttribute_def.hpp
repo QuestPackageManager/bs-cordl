@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\CreatePropertyAttribute.hpp"
+// IWYU pragma private; include "Unity/Properties/CreatePropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class CreatePropertyAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Properties::CreatePropertyAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::CreatePropertyAttribute*, "Unity.Properties", "CreatePropertyAttribute");
+// [AttributeUsage((System.AttributeTargets)384)]
 // Dependencies UnityEngine.Scripting.RequiredMemberAttribute
 namespace Unity::Properties {
 // Is value type: false
@@ -35,9 +36,11 @@ public:
   /// @brief Method .ctor, addr 0x6b9e4f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReadOnly, addr 0x6b9e4e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReadOnly, addr 0x6b9e4e8, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadOnly(bool value);
 
@@ -47,17 +50,19 @@ protected:
   constexpr CreatePropertyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreatePropertyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreatePropertyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreatePropertyAttribute(CreatePropertyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreatePropertyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CreatePropertyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CreatePropertyAttribute(CreatePropertyAttribute const&) = delete;
+  CreatePropertyAttribute(CreatePropertyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19611 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <ReadOnly>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ReadOnly_k__BackingField;
 

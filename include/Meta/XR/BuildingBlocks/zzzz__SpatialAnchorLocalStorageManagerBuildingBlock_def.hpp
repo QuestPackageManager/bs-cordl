@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\SpatialAnchorLocalStorageManagerBuildingBlock.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/SpatialAnchorLocalStorageManagerBuildingBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,13 +74,13 @@ protected:
   constexpr SpatialAnchorLocalStorageManagerBuildingBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorLocalStorageManagerBuildingBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorLocalStorageManagerBuildingBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpatialAnchorLocalStorageManagerBuildingBlock(SpatialAnchorLocalStorageManagerBuildingBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorLocalStorageManagerBuildingBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorLocalStorageManagerBuildingBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpatialAnchorLocalStorageManagerBuildingBlock(SpatialAnchorLocalStorageManagerBuildingBlock const&) = delete;
+  SpatialAnchorLocalStorageManagerBuildingBlock(SpatialAnchorLocalStorageManagerBuildingBlockconst&) = delete;
 
   /// @brief Field NumUuidsPlayerPref offset 0xffffffff size 0x8
   static constexpr ::ConstString NumUuidsPlayerPref{ u"numUuids" };

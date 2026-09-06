@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IntegerTime\RationalTimeExtensions.hpp"
+// IWYU pragma private; include "Unity/IntegerTime/RationalTimeExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class RationalTimeExtensions;
 // Write type traits
 MARK_REF_T(::Unity::IntegerTime::RationalTimeExtensions*);
 DEFINE_IL2CPP_CLASS(::Unity::IntegerTime::RationalTimeExtensions*, "Unity.IntegerTime", "RationalTimeExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace Unity::IntegerTime {
 // Is value type: false
@@ -25,6 +26,8 @@ namespace Unity::IntegerTime {
 class CORDL_TYPE RationalTimeExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [FreeFunction("IntegerTime::RationalTime::ConvertRate", IsFreeFunction = true, ThrowsException = true)]
+  /// [Extension]
   /// @brief Method Convert, addr 0x6a5cb10, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::IntegerTime::RationalTime Convert(::Unity::IntegerTime::RationalTime time, ::Unity::IntegerTime::RationalTime_TicksPerSecond rate);
 
@@ -38,13 +41,13 @@ protected:
   constexpr RationalTimeExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RationalTimeExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RationalTimeExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RationalTimeExtensions(RationalTimeExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RationalTimeExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RationalTimeExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RationalTimeExtensions(RationalTimeExtensions const&) = delete;
+  RationalTimeExtensions(RationalTimeExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9939 };

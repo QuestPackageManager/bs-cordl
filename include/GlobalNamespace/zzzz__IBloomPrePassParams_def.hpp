@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IBloomPrePassParams.hpp"
+// IWYU pragma private; include "GlobalNamespace/IBloomPrePassParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,27 +41,27 @@ public:
 
   __declspec(property(get = get_toneMapping)) ::GlobalNamespace::ToneMapping toneMapping;
 
-  /// @brief Method get_fov, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_fov, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 get_fov();
 
-  /// @brief Method get_linesWidth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_linesWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_linesWidth();
 
-  /// @brief Method get_textureEffect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_textureEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
 
-  /// @brief Method get_textureHeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_textureHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_textureHeight();
 
-  /// @brief Method get_textureWidth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_textureWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_textureWidth();
 
-  /// @brief Method get_toneMapping, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBloomPrePassParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBloomPrePassParams", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBloomPrePassParams(IBloomPrePassParams const&) = delete;
+  IBloomPrePassParams(IBloomPrePassParamsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19481 };

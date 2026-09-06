@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ExecutionEngineException.hpp"
+// IWYU pragma private; include "System/ExecutionEngineException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class ExecutionEngineException;
 // Write type traits
 MARK_REF_T(::System::ExecutionEngineException*);
 DEFINE_IL2CPP_CLASS(::System::ExecutionEngineException*, "System", "ExecutionEngineException");
+// [Obsolete("This type previously indicated an unspecified fatal error in the runtime. The runtime no longer raises this exception so this type is obsolete.")]
 // Dependencies System.SystemException
 namespace System {
 // Is value type: false
@@ -47,13 +48,13 @@ protected:
   constexpr ExecutionEngineException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExecutionEngineException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecutionEngineException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExecutionEngineException(ExecutionEngineException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExecutionEngineException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExecutionEngineException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExecutionEngineException(ExecutionEngineException const&) = delete;
+  ExecutionEngineException(ExecutionEngineExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2381 };

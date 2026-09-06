@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalEntity.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalEntity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr DecalEntity();
 
-  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr DecalEntity(int32_t index, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

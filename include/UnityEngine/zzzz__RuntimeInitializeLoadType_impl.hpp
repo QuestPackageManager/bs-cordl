@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RuntimeInitializeLoadType.hpp"
+// IWYU pragma private; include "UnityEngine/RuntimeInitializeLoadType.hpp"
 #include "UnityEngine/zzzz__RuntimeInitializeLoadType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RuntimeInitializeLoadType::RuntimeInitializeLoadType(int32_t value__) noexcept {
   this->value__ = value__;
 }

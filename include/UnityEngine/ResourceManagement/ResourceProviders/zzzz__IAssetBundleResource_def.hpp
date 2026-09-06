@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\IAssetBundleResource.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/IAssetBundleResource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class CORDL_TYPE IAssetBundleResource {
 public:
   // Declarations
-  /// @brief Method GetAssetBundle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::AssetBundle> GetAssetBundle();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAssetBundleResource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAssetBundleResource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAssetBundleResource(IAssetBundleResource const&) = delete;
+  IAssetBundleResource(IAssetBundleResourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18764 };

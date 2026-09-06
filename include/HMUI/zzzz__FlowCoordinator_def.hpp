@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\FlowCoordinator.hpp"
+// IWYU pragma private; include "HMUI/FlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -147,6 +147,7 @@ DEFINE_IL2CPP_CLASS(::HMUI::FlowCoordinator___c__DisplayClass51_0*, "HMUI", "Flo
 DEFINE_IL2CPP_CLASS(::HMUI::FlowCoordinator___c__DisplayClass52_0*, "HMUI", "FlowCoordinator/<>c__DisplayClass52_0");
 DEFINE_IL2CPP_CLASS(::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41, "HMUI", "FlowCoordinator/<DismissChildFlowCoordinatorsRecursively>d__41");
 DEFINE_IL2CPP_CLASS(::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42, "HMUI", "FlowCoordinator/<DismissChildViewControllersRecursively>d__42");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -198,13 +199,13 @@ protected:
   constexpr FlowCoordinator___c__DisplayClass39_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass39_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass39_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass39_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass39_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0 const&) = delete;
+  FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20941 };
@@ -230,6 +231,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass39_0, _____4__th
 static_assert(sizeof(::HMUI::FlowCoordinator___c__DisplayClass39_0) == 0x28, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -296,13 +298,13 @@ protected:
   constexpr FlowCoordinator___c__DisplayClass40_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass40_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass40_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass40_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass40_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0 const&) = delete;
+  FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20942 };
@@ -338,6 +340,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass40_0, ___flowCoo
 static_assert(sizeof(::HMUI::FlowCoordinator___c__DisplayClass40_0) == 0x38, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -395,13 +398,13 @@ protected:
   constexpr FlowCoordinator___c__DisplayClass43_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass43_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass43_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass43_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass43_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0 const&) = delete;
+  FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20943 };
@@ -432,6 +435,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass43_0, ___flowCoo
 static_assert(sizeof(::HMUI::FlowCoordinator___c__DisplayClass43_0) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -489,13 +493,13 @@ protected:
   constexpr FlowCoordinator___c__DisplayClass44_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass44_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass44_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass44_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass44_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0 const&) = delete;
+  FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20944 };
@@ -526,6 +530,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass44_0, ___topView
 static_assert(sizeof(::HMUI::FlowCoordinator___c__DisplayClass44_0) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -593,13 +598,13 @@ protected:
   constexpr FlowCoordinator___c__DisplayClass45_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass45_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass45_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass45_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass45_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0 const&) = delete;
+  FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20945 };
@@ -635,6 +640,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass45_0, ___taskCom
 static_assert(sizeof(::HMUI::FlowCoordinator___c__DisplayClass45_0) == 0x38, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies HMUI.ViewController::AnimationType, System.Object
 namespace HMUI {
 // Is value type: false
@@ -692,13 +698,13 @@ protected:
   constexpr FlowCoordinator___c__DisplayClass47_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass47_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass47_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass47_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass47_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0 const&) = delete;
+  FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20946 };
@@ -729,6 +735,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass47_0, ___origina
 static_assert(sizeof(::HMUI::FlowCoordinator___c__DisplayClass47_0) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -786,13 +793,13 @@ protected:
   constexpr FlowCoordinator___c__DisplayClass48_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass48_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass48_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass48_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass48_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0 const&) = delete;
+  FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20947 };
@@ -823,6 +830,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass48_0, ___viewCon
 static_assert(sizeof(::HMUI::FlowCoordinator___c__DisplayClass48_0) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -880,13 +888,13 @@ protected:
   constexpr FlowCoordinator___c__DisplayClass51_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass51_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass51_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass51_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass51_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0 const&) = delete;
+  FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20948 };
@@ -917,6 +925,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass51_0, ___navigat
 static_assert(sizeof(::HMUI::FlowCoordinator___c__DisplayClass51_0) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -974,13 +983,13 @@ protected:
   constexpr FlowCoordinator___c__DisplayClass52_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass52_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass52_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass52_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator___c__DisplayClass52_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0 const&) = delete;
+  FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20949 };
@@ -1011,6 +1020,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator___c__DisplayClass52_0, ___navigat
 static_assert(sizeof(::HMUI::FlowCoordinator___c__DisplayClass52_0) == 0x30, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace HMUI {
 // Is value type: true
@@ -1024,6 +1034,7 @@ public:
   /// @brief Method MoveNext, addr 0x32f4188, size 0x340, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32f44c8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1034,10 +1045,10 @@ public:
   // @brief default ctor
   constexpr FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers: "", def_value:
-  // None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                            ::UnityW<::HMUI::FlowCoordinator> __4__this, bool immediately,
                                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -1079,6 +1090,7 @@ static_assert(offsetof(::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecu
 static_assert(sizeof(::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41) == 0x38, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace HMUI {
 // Is value type: true
@@ -1092,6 +1104,7 @@ public:
   /// @brief Method MoveNext, addr 0x32f4534, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x32f4784, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -1102,10 +1115,10 @@ public:
   // @brief default ctor
   constexpr FlowCoordinator__DismissChildViewControllersRecursively_d__42();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers: "", def_value:
-  // None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr FlowCoordinator__DismissChildViewControllersRecursively_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                           ::UnityW<::HMUI::FlowCoordinator> __4__this, bool immediately,
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -1273,15 +1286,17 @@ public:
   /// @brief Method Deactivate, addr 0x32f1c04, size 0xb8, virtual false, abstract: false, final false
   inline void Deactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method DidActivate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   /// @brief Method DidDeactivate, addr 0x32f3b24, size 0x4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
+  /// [AsyncStateMachine(typeof(HMUI.FlowCoordinator::<DismissChildFlowCoordinatorsRecursively>d__41))]
   /// @brief Method DismissChildFlowCoordinatorsRecursively, addr 0x32f22e4, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DismissChildFlowCoordinatorsRecursively(bool immediately);
 
+  /// [AsyncStateMachine(typeof(HMUI.FlowCoordinator::<DismissChildViewControllersRecursively>d__42))]
   /// @brief Method DismissChildViewControllersRecursively, addr 0x32f23ac, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DismissChildViewControllersRecursively(bool immediately);
 
@@ -1301,6 +1316,7 @@ public:
   /// @brief Method IsFlowCoordinatorInHierarchy, addr 0x32f0d0c, size 0xa4, virtual false, abstract: false, final false
   inline bool IsFlowCoordinatorInHierarchy(::HMUI::FlowCoordinator* flowCoordinator);
 
+  /// [Conditional("FlowCoordinatorLog")]
   /// @brief Method Log, addr 0x32f3b48, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
@@ -1363,7 +1379,7 @@ public:
   inline void SetViewControllerToNavigationController(::HMUI::NavigationController* navigationController, ::HMUI::ViewController* viewController);
 
   /// @brief Method SetViewControllersToNavigationController, addr 0x32f2ea0, size 0x18, virtual false, abstract: false, final false
-  inline void SetViewControllersToNavigationController(::HMUI::NavigationController* navigationController, ::ArrayW<::HMUI::ViewController*> viewControllers);
+  inline void SetViewControllersToNavigationController(::HMUI::NavigationController* navigationController, /* [ParamArray] */ ::ArrayW<::HMUI::ViewController*> viewControllers);
 
   /// @brief Method TopViewControllerWillChange, addr 0x32f3b3c, size 0x4, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
@@ -1551,17 +1567,18 @@ protected:
   constexpr FlowCoordinator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinator(FlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinator(FlowCoordinator const&) = delete;
+  FlowCoordinator(FlowCoordinatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20952 };
 
+  /// [Inject]
   /// @brief Field _baseInputModule, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::BaseInputModule> ____baseInputModule;
 

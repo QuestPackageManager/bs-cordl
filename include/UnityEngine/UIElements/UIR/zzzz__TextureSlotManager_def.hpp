@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextureSlotManager.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureSlotManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -148,6 +148,7 @@ public:
 
   static inline int32_t getStaticF_textureTableId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_FreeSlots, addr 0x6cf3b0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FreeSlots();
 
@@ -159,6 +160,7 @@ public:
 
   static inline void setStaticF_textureTableId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_FreeSlots, addr 0x6cf3b14, size 0x8, virtual false, abstract: false, final false
   inline void set_FreeSlots(int32_t value);
 
@@ -168,13 +170,13 @@ protected:
   constexpr TextureSlotManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureSlotManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureSlotManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureSlotManager(TextureSlotManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureSlotManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureSlotManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureSlotManager(TextureSlotManager const&) = delete;
+  TextureSlotManager(TextureSlotManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5354 };
@@ -194,6 +196,8 @@ public:
   /// @brief Field m_GpuTextures, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4> ___m_GpuTextures;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <FreeSlots>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____FreeSlots_k__BackingField;
 

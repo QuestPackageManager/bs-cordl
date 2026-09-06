@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\CertificateUrl.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/CertificateUrl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ protected:
   constexpr CertificateUrl_ListBuffer16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateUrl_ListBuffer16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateUrl_ListBuffer16", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateUrl_ListBuffer16(CertificateUrl_ListBuffer16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateUrl_ListBuffer16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateUrl_ListBuffer16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateUrl_ListBuffer16(CertificateUrl_ListBuffer16 const&) = delete;
+  CertificateUrl_ListBuffer16(CertificateUrl_ListBuffer16const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1192 };
@@ -123,13 +123,13 @@ protected:
   constexpr CertificateUrl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateUrl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateUrl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateUrl(CertificateUrl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateUrl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CertificateUrl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CertificateUrl(CertificateUrl const&) = delete;
+  CertificateUrl(CertificateUrlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1193 };

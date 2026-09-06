@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\Scene.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/Scene.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -395,7 +395,7 @@ inline void UnityEngine::SceneManagement::Scene::GetGUIDInternal_Injected(int32_
                                               { "GetGUIDInternal_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sceneHandle, ret);
 }
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SceneManagement::Scene::Scene(int32_t m_Handle) noexcept {
   this->m_Handle = m_Handle;
 }

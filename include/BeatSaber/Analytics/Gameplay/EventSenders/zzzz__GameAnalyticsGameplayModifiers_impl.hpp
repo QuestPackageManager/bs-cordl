@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\GameAnalyticsGameplayModifiers.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/GameAnalyticsGameplayModifiers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__GameAnalyticsGameplayModifiers_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers._ctor

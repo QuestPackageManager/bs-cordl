@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelSelectionOptions.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelSelectionOptions.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelSelectionOptions_def.hpp"
-// Ctor Parameters [CppParam { name: "preferredCharacteristic", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapCharacteristic>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "preferredDifficulty", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sortAlphabetically", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "isFiltered", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "preferredCharacteristic", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapCharacteristic>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "preferredDifficulty", ty: "::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sortAlphabetically", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isFiltered", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelSelectionOptions::LevelSelectionOptions(::System::Nullable_1<::GlobalNamespace::BeatmapCharacteristic> preferredCharacteristic,
                                                                           ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> preferredDifficulty, bool sortAlphabetically,
                                                                           bool isFiltered) noexcept {

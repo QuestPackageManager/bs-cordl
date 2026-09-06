@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextureProcessor3DTrack.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextureProcessor3DTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,9 @@ class TextureProcessor3DTrack;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TextureProcessor3DTrack*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TextureProcessor3DTrack*, "", "TextureProcessor3DTrack");
+// [TrackClipType(typeof(TextureProcessor3DAsset))]
+// [TrackBindingType(typeof(TextureProcessor3D))]
+// [TrackColor(1, 1, 1)]
 // Dependencies UnityEngine.Timeline.TrackAsset
 namespace GlobalNamespace {
 // Is value type: false
@@ -43,13 +46,13 @@ protected:
   constexpr TextureProcessor3DTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureProcessor3DTrack(TextureProcessor3DTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureProcessor3DTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureProcessor3DTrack(TextureProcessor3DTrack const&) = delete;
+  TextureProcessor3DTrack(TextureProcessor3DTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6702 };

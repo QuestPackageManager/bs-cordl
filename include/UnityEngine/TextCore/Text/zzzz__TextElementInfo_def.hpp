@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextElementInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextElementInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ struct TextElementInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextElementInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextElementInfo, "UnityEngine.TextCore.Text", "TextElementInfo");
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 // Dependencies UnityEngine.Color32, UnityEngine.TextCore.Text.FontStyles, UnityEngine.TextCore.Text.HighlightState, UnityEngine.TextCore.Text.TextElementType, UnityEngine.TextCore.Text.TextVertex,
 // UnityEngine.Vector3
 namespace UnityEngine::TextCore::Text {
@@ -51,28 +52,32 @@ public:
   // @brief default ctor
   constexpr TextElementInfo();
 
-  // Ctor Parameters [CppParam { name: "character", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "elementType", ty: "::UnityEngine::TextCore::Text::TextElementType", modifiers: "", def_value: None }, CppParam { name: "stringLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "textElement", ty: "::UnityEngine::TextCore::Text::TextElement*", modifiers: "", def_value: None }, CppParam { name: "alternativeGlyph", ty: "::UnityEngine::TextCore::Glyph*", modifiers:
-  // "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }, CppParam { name: "spriteAsset", ty:
-  // "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: None }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "vertexTopLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None }, CppParam { name: "vertexBottomLeft", ty:
-  // "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None }, CppParam { name: "vertexTopRight", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None
-  // }, CppParam { name: "vertexBottomRight", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None }, CppParam { name: "topLeft", ty: "::UnityEngine::Vector3", modifiers:
-  // "", def_value: None }, CppParam { name: "bottomLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "topRight", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "bottomRight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "origin", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "baseLine", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "descender", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "adjustedAscender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "adjustedDescender", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "adjustedHorizontalAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "xAdvance", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "aspectRatio", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "color", ty:
-  // "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "underlineColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name:
-  // "underlineVertexIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "strikethroughColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name:
-  // "strikethroughVertexIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "highlightColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name:
-  // "highlightState", ty: "::UnityEngine::TextCore::Text::HighlightState", modifiers: "", def_value: None }, CppParam { name: "style", ty: "::UnityEngine::TextCore::Text::FontStyles", modifiers: "",
-  // def_value: None }, CppParam { name: "isVisible", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "character", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "elementType", ty: "::UnityEngine::TextCore::Text::TextElementType", modifiers: "", def_value: None, comment: None }, CppParam { name: "stringLength", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "textElement", ty: "::UnityEngine::TextCore::Text::TextElement*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "alternativeGlyph", ty: "::UnityEngine::TextCore::Glyph*", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontAsset", ty:
+  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None, comment: None }, CppParam { name: "spriteAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty:
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None, comment: None }, CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pageNumber", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexTopLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "vertexBottomLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "vertexTopRight", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertexBottomRight", ty:
+  // "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None, comment: None }, CppParam { name: "topLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "bottomLeft", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "topRight", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "bottomRight", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "origin", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "baseLine", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "adjustedAscender", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "adjustedDescender", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "adjustedHorizontalAdvance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "xAdvance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "aspectRatio", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "underlineColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "underlineVertexIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "strikethroughColor", ty: "::UnityEngine::Color32", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "strikethroughVertexIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "highlightColor", ty:
+  // "::UnityEngine::Color32", modifiers: "", def_value: None, comment: None }, CppParam { name: "highlightState", ty: "::UnityEngine::TextCore::Text::HighlightState", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "style", ty: "::UnityEngine::TextCore::Text::FontStyles", modifiers: "", def_value: None, comment: None }, CppParam { name: "isVisible", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr TextElementInfo(uint32_t character, int32_t index, ::UnityEngine::TextCore::Text::TextElementType elementType, int32_t stringLength,
                             ::UnityEngine::TextCore::Text::TextElement* textElement, ::UnityEngine::TextCore::Glyph* alternativeGlyph, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset,
                             ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset, int32_t spriteIndex, ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex,

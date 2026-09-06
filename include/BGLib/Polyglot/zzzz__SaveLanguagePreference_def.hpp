@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\SaveLanguagePreference.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/SaveLanguagePreference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ public:
 
   static inline ::BGLib::Polyglot::SaveLanguagePreference* New_ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method OnLocalize, addr 0x33217d8, size 0x28, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
@@ -58,17 +59,19 @@ protected:
   constexpr SaveLanguagePreference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaveLanguagePreference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaveLanguagePreference", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaveLanguagePreference(SaveLanguagePreference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaveLanguagePreference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaveLanguagePreference", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaveLanguagePreference(SaveLanguagePreference const&) = delete;
+  SaveLanguagePreference(SaveLanguagePreferenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22216 };
 
+  /// [Nullable(1)]
+  /// [SerializeField]
   /// @brief Field preferenceKey, offset: 0x20, size: 0x8, def value: None
   ::StringW ___preferenceKey;
 

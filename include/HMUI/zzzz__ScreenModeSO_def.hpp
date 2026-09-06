@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ScreenModeSO.hpp"
+// IWYU pragma private; include "HMUI/ScreenModeSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,17 +47,18 @@ protected:
   constexpr ScreenModeSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenModeSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenModeSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenModeSO(ScreenModeSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenModeSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenModeSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenModeSO(ScreenModeSO const&) = delete;
+  ScreenModeSO(ScreenModeSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20962 };
 
+  /// [SerializeField]
   /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
   ::HMUI::ScreenModeData* ____data;
 

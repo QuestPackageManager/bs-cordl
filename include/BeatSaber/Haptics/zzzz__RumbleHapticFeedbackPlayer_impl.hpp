@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\RumbleHapticFeedbackPlayer.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/RumbleHapticFeedbackPlayer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/Haptics/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
 #include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"

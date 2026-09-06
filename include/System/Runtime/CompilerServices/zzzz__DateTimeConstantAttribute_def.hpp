@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\DateTimeConstantAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/DateTimeConstantAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class DateTimeConstantAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::DateTimeConstantAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::DateTimeConstantAttribute*, "System.Runtime.CompilerServices", "DateTimeConstantAttribute");
+// [AttributeUsage((System.AttributeTargets)2304, Inherited = false)]
 // Dependencies System.DateTime, System.Runtime.CompilerServices.CustomConstantAttribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -43,13 +44,13 @@ protected:
   constexpr DateTimeConstantAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeConstantAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeConstantAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeConstantAttribute(DateTimeConstantAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeConstantAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DateTimeConstantAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeConstantAttribute(DateTimeConstantAttribute const&) = delete;
+  DateTimeConstantAttribute(DateTimeConstantAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3381 };

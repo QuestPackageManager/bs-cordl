@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjectiveCheckersManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveCheckersManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr MissionObjectiveCheckersManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjectiveCheckersManager_InitData(MissionObjectiveCheckersManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveCheckersManager_InitData(MissionObjectiveCheckersManager_InitData const&) = delete;
+  MissionObjectiveCheckersManager_InitData(MissionObjectiveCheckersManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6796 };
@@ -91,6 +91,7 @@ static_assert(offsetof(::GlobalNamespace::MissionObjectiveCheckersManager_InitDa
 static_assert(sizeof(::GlobalNamespace::MissionObjectiveCheckersManager_InitData) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/MissionObjectiveCheckersManager")]
 // Dependencies MissionObjectiveChecker, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -197,24 +198,30 @@ public:
   /// @brief Method .ctor, addr 0x591b638, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_objectiveDidFailEvent, addr 0x591a720, size 0xac, virtual false, abstract: false, final false
   inline void add_objectiveDidFailEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_objectiveWasClearedEvent, addr 0x591a878, size 0xac, virtual false, abstract: false, final false
   inline void add_objectiveWasClearedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_objectivesListDidChangeEvent, addr 0x591a9d0, size 0xac, virtual false, abstract: false, final false
   inline void add_objectivesListDidChangeEvent(::System::Action* value);
 
   /// @brief Method get_activeMissionObjectiveCheckers, addr 0x591ab28, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>> get_activeMissionObjectiveCheckers();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_objectiveDidFailEvent, addr 0x591a7cc, size 0xac, virtual false, abstract: false, final false
   inline void remove_objectiveDidFailEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_objectiveWasClearedEvent, addr 0x591a924, size 0xac, virtual false, abstract: false, final false
   inline void remove_objectiveWasClearedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_objectivesListDidChangeEvent, addr 0x591aa7c, size 0xac, virtual false, abstract: false, final false
   inline void remove_objectivesListDidChangeEvent(::System::Action* value);
 
@@ -224,32 +231,38 @@ protected:
   constexpr MissionObjectiveCheckersManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjectiveCheckersManager(MissionObjectiveCheckersManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveCheckersManager(MissionObjectiveCheckersManager const&) = delete;
+  MissionObjectiveCheckersManager(MissionObjectiveCheckersManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6797 };
 
+  /// [SerializeField]
   /// @brief Field _missionObjectiveCheckers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>> ____missionObjectiveCheckers;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MissionObjectiveCheckersManager_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _gameplayManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
 
+  /// [CompilerGenerated]
   /// @brief Field objectiveDidFailEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action* ___objectiveDidFailEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field objectiveWasClearedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___objectiveWasClearedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field objectivesListDidChangeEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___objectivesListDidChangeEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetGlobalShaderFloat.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetGlobalShaderFloat.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetGlobalShaderFloat_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SetGlobalShaderFloat.Start

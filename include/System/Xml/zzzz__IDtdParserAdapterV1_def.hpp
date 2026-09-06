@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\IDtdParserAdapterV1.hpp"
+// IWYU pragma private; include "System/Xml/IDtdParserAdapterV1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +36,13 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdParserAdapterWithValidation"
   constexpr operator ::System::Xml::IDtdParserAdapterWithValidation*() noexcept;
 
-  /// @brief Method get_Namespaces, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Namespaces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_Namespaces();
 
-  /// @brief Method get_Normalization, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Normalization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_Normalization();
 
-  /// @brief Method get_V1CompatibilityMode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_V1CompatibilityMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_V1CompatibilityMode();
 
   /// @brief Convert to "::System::Xml::IDtdParserAdapter"
@@ -51,9 +51,9 @@ public:
   /// @brief Convert to "::System::Xml::IDtdParserAdapterWithValidation"
   constexpr ::System::Xml::IDtdParserAdapterWithValidation* i___System__Xml__IDtdParserAdapterWithValidation() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDtdParserAdapterV1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDtdParserAdapterV1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDtdParserAdapterV1(IDtdParserAdapterV1 const&) = delete;
+  IDtdParserAdapterV1(IDtdParserAdapterV1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9281 };

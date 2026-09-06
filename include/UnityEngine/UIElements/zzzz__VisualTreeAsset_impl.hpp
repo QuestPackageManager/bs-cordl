@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeAsset.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeAsset.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LazyLoadReference_1_impl.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -59,8 +60,8 @@ inline void UnityEngine::UIElements::VisualTreeAsset_UsingEntry::_ctor(::StringW
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry>(), { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, alias, path);
 }
-// Ctor Parameters [CppParam { name: "alias", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "asset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "alias", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "asset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualTreeAsset_UsingEntry::VisualTreeAsset_UsingEntry(::StringW alias, ::StringW path, ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> asset) noexcept {
   this->alias = alias;
   this->path = path;
@@ -122,14 +123,16 @@ UnityEngine::UIElements::VisualTreeAsset_UsingEntryComparer::i___System__Collect
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeAsset_UsingEntryComparer::VisualTreeAsset_UsingEntryComparer() {}
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "insertionPointId", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "insertionPointId", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualTreeAsset_SlotDefinition::VisualTreeAsset_SlotDefinition(::StringW name, int32_t insertionPointId) noexcept {
   this->name = name;
   this->insertionPointId = insertionPointId;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeAsset_SlotDefinition::VisualTreeAsset_SlotDefinition() {}
-// Ctor Parameters [CppParam { name: "slotName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "assetId", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "slotName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "assetId", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry::VisualTreeAsset_SlotUsageEntry(::StringW slotName, int32_t assetId) noexcept {
   this->slotName = slotName;
   this->assetId = assetId;
@@ -196,8 +199,8 @@ inline ::StringW UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry::ToStr
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uxmlObjectAssets", ty:
-// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uxmlObjectAssets", ty:
+// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry::VisualTreeAsset_UxmlObjectEntry(
     int32_t parentId, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>* uxmlObjectAssets) noexcept {
   this->parentId = parentId;
@@ -276,9 +279,10 @@ inline void UnityEngine::UIElements::VisualTreeAsset_AssetEntry::_ctor(::StringW
                                                            { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::UnityEngine::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, path, type, asset);
 }
-// Ctor Parameters [CppParam { name: "m_Path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TypeFullName", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_AssetReference", ty: "::UnityEngine::LazyLoadReference_1<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InstanceID", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CachedType", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Path", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TypeFullName", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_AssetReference", ty: "::UnityEngine::LazyLoadReference_1<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "m_InstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CachedType", ty: "::System::Type*", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::UIElements::VisualTreeAsset_AssetEntry::VisualTreeAsset_AssetEntry(::StringW m_Path, ::StringW m_TypeFullName,
                                                                                             ::UnityEngine::LazyLoadReference_1<::UnityW<::UnityEngine::Object>> m_AssetReference, int32_t m_InstanceID,
                                                                                             ::System::Type* m_CachedType) noexcept {
@@ -345,7 +349,7 @@ inline ::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass76_0* UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass76_0::VisualTreeAsset___c__DisplayClass76_0() {}
-// Ctor Parameters [CppParam { name: "asset", ty: "::UnityEngine::UIElements::VisualElementAsset*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "asset", ty: "::UnityEngine::UIElements::VisualElementAsset*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass81_0::VisualTreeAsset___c__DisplayClass81_0(::UnityEngine::UIElements::VisualElementAsset* asset) noexcept {
   this->asset = asset;
 }
@@ -716,6 +720,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::VisualTreeAs
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__31*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__31* UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__31::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__31*>(__1__state));
 }
@@ -1046,6 +1051,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::VisualTreeAs
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__27*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__27* UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__27::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__27*>(__1__state));
 }
@@ -2117,6 +2123,7 @@ inline void UnityEngine::UIElements::VisualTreeAsset::SetUxmlObjectAssets(::Unit
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parent, fieldName, entries);
 }
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 inline ::System::Collections::Generic::List_1<T>* UnityEngine::UIElements::VisualTreeAsset::GetUxmlObjects(::UnityEngine::UIElements::IUxmlAttributes* asset,
                                                                                                            ::UnityEngine::UIElements::CreationContext cc) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -2143,7 +2150,9 @@ inline void UnityEngine::UIElements::VisualTreeAsset::TransferAssetEntries(::Uni
                                                                                          { "TransferAssetEntries", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualTreeAsset*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, otherVta);
 }
-template <typename T> inline T UnityEngine::UIElements::VisualTreeAsset::GetAsset(::StringW path) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline T UnityEngine::UIElements::VisualTreeAsset::GetAsset(::StringW path) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeAsset*>(), { "GetAsset", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

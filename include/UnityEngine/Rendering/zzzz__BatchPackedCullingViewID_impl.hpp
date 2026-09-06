@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchPackedCullingViewID.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchPackedCullingViewID.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchPackedCullingViewID_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -83,7 +83,7 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingVie
 UnityEngine::Rendering::BatchPackedCullingViewID::i___System__IEquatable_1___UnityEngine__Rendering__BatchPackedCullingViewID_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingViewID>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BatchPackedCullingViewID::BatchPackedCullingViewID(uint64_t handle) noexcept {
   this->handle = handle;
 }

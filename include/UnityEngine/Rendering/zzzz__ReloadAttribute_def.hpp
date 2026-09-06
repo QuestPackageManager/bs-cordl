@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ReloadAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ReloadAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   // @brief default ctor
   constexpr ReloadAttribute_Package();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ReloadAttribute_Package(int32_t value__) noexcept;
 
   /// @brief Field Builtin value: I32(0)
@@ -83,6 +83,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ReloadAttribute_Package, value_
 static_assert(sizeof(::UnityEngine::Rendering::ReloadAttribute_Package) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [AttributeUsage((System.AttributeTargets)256)]
 // Dependencies System.Attribute
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -113,13 +114,13 @@ protected:
   constexpr ReloadAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReloadAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReloadAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReloadAttribute(ReloadAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReloadAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReloadAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReloadAttribute(ReloadAttribute const&) = delete;
+  ReloadAttribute(ReloadAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11937 };

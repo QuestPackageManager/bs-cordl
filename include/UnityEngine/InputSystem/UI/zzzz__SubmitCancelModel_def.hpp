@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\SubmitCancelModel.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/SubmitCancelModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,8 +29,8 @@ public:
   // @brief default ctor
   constexpr SubmitCancelModel();
 
-  // Ctor Parameters [CppParam { name: "eventData", ty: "::UnityEngine::EventSystems::BaseEventData*", modifiers: "", def_value: None }, CppParam { name: "device", ty:
-  // "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "eventData", ty: "::UnityEngine::EventSystems::BaseEventData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "device", ty:
+  // "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None, comment: None }]
   constexpr SubmitCancelModel(::UnityEngine::EventSystems::BaseEventData* eventData, ::UnityEngine::InputSystem::InputDevice* device) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

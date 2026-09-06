@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Policy\Evidence.hpp"
+// IWYU pragma private; include "System/Security/Policy/Evidence.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,13 +101,13 @@ protected:
   constexpr Evidence_EvidenceEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Evidence_EvidenceEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Evidence_EvidenceEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Evidence_EvidenceEnumerator(Evidence_EvidenceEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Evidence_EvidenceEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Evidence_EvidenceEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Evidence_EvidenceEnumerator(Evidence_EvidenceEnumerator const&) = delete;
+  Evidence_EvidenceEnumerator(Evidence_EvidenceEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2920 };
@@ -133,6 +133,8 @@ static_assert(offsetof(::System::Security::Policy::Evidence_EvidenceEnumerator, 
 static_assert(sizeof(::System::Security::Policy::Evidence_EvidenceEnumerator) == 0x28, "Size mismatch!");
 
 } // namespace System::Security::Policy
+// [ComVisible(true)]
+// [MonoTODO("Serialization format not compatible with .NET")]
 // Dependencies System.Object
 namespace System::Security::Policy {
 // Is value type: false
@@ -142,6 +144,7 @@ public:
   // Declarations
   using EvidenceEnumerator = ::System::Security::Policy::Evidence_EvidenceEnumerator;
 
+  /// @brief [Obsolete]
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
@@ -163,9 +166,11 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// [Obsolete]
   /// @brief Method CopyTo, addr 0x5af407c, size 0xc4, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
+  /// [Obsolete]
   /// @brief Method GetEnumerator, addr 0x5af4140, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
@@ -213,13 +218,13 @@ protected:
   constexpr Evidence();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Evidence(Evidence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Evidence(Evidence const&) = delete;
+  Evidence(Evidenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2921 };

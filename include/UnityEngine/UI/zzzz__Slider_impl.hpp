@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Slider.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Slider.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_impl.hpp"
@@ -18,7 +18,7 @@
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Slider_Direction::Slider_Direction(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -49,7 +49,7 @@ inline ::UnityEngine::UI::Slider_SliderEvent* UnityEngine::UI::Slider_SliderEven
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Slider_SliderEvent::Slider_SliderEvent() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::Slider_Axis::Slider_Axis(int32_t value__) noexcept {
   this->value__ = value__;
 }

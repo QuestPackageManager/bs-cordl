@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\FtpMethodFlags.hpp"
+// IWYU pragma private; include "System/Net/FtpMethodFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FtpMethodFlags;
 // Write type traits
 MARK_VAL_T(::System::Net::FtpMethodFlags);
 DEFINE_IL2CPP_CLASS(::System::Net::FtpMethodFlags, "System.Net", "FtpMethodFlags");
+// [Flags]
 // Dependencies
 namespace System::Net {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr FtpMethodFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FtpMethodFlags(int32_t value__) noexcept;
 
   /// @brief Field DoesNotTakeParameter value: I32(16)

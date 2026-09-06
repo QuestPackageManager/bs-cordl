@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\NamespaceResolver.hpp"
+// IWYU pragma private; include "System/Xml/Linq/NamespaceResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,13 +80,13 @@ protected:
   constexpr NamespaceResolver_NamespaceDeclaration();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamespaceResolver_NamespaceDeclaration", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamespaceResolver_NamespaceDeclaration", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamespaceResolver_NamespaceDeclaration(NamespaceResolver_NamespaceDeclaration&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamespaceResolver_NamespaceDeclaration", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamespaceResolver_NamespaceDeclaration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamespaceResolver_NamespaceDeclaration(NamespaceResolver_NamespaceDeclaration const&) = delete;
+  NamespaceResolver_NamespaceDeclaration(NamespaceResolver_NamespaceDeclarationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21983 };
@@ -145,8 +145,9 @@ public:
   // @brief default ctor
   constexpr NamespaceResolver();
 
-  // Ctor Parameters [CppParam { name: "_scope", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_declaration", ty: "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*",
-  // modifiers: "", def_value: None }, CppParam { name: "_rover", ty: "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_scope", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_declaration", ty:
+  // "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_rover", ty:
+  // "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*", modifiers: "", def_value: None, comment: None }]
   constexpr NamespaceResolver(int32_t _scope, ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* _declaration, ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* _rover) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

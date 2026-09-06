@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\ExtendedKeyUsage.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/ExtendedKeyUsage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,7 @@ public:
   /// @brief Method GetInstance, addr 0x365be94, size 0x104, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::System::Object* obj);
 
+  /// [Obsolete("Use \'GetAllUsages\'")]
   /// @brief Method GetUsages, addr 0x365cb24, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetUsages();
 
@@ -79,8 +80,9 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*> usages);
+  static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*> usages);
 
+  /// @brief [Obsolete]
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::System::Collections::ArrayList* usages);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::System::Collections::IEnumerable* usages);
@@ -104,8 +106,9 @@ public:
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// @brief Method .ctor, addr 0x365c4c4, size 0x16c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*> usages);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*> usages);
 
+  /// [Obsolete]
   /// @brief Method .ctor, addr 0x365c630, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* usages);
 
@@ -121,13 +124,13 @@ protected:
   constexpr ExtendedKeyUsage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedKeyUsage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtendedKeyUsage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtendedKeyUsage(ExtendedKeyUsage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtendedKeyUsage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtendedKeyUsage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtendedKeyUsage(ExtendedKeyUsage const&) = delete;
+  ExtendedKeyUsage(ExtendedKeyUsageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 360 };

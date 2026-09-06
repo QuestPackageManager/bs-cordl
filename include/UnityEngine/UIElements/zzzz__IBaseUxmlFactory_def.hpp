@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IBaseUxmlFactory.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IBaseUxmlFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class IBaseUxmlFactory;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::IBaseUxmlFactory*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IBaseUxmlFactory*, "UnityEngine.UIElements", "IBaseUxmlFactory");
+// [Obsolete("IUxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -32,18 +33,18 @@ public:
 
   __declspec(property(get = get_uxmlType)) ::System::Type* uxmlType;
 
-  /// @brief Method AcceptsAttributeBag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AcceptsAttributeBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool AcceptsAttributeBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method get_uxmlQualifiedName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_uxmlQualifiedName();
 
-  /// @brief Method get_uxmlType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_uxmlType();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBaseUxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBaseUxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBaseUxmlFactory(IBaseUxmlFactory const&) = delete;
+  IBaseUxmlFactory(IBaseUxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5179 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\TextWriter_SyncTextWriter.hpp"
+// IWYU pragma private; include "System/IO/TextWriter_SyncTextWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -135,13 +135,13 @@ protected:
   constexpr TextWriter_SyncTextWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextWriter_SyncTextWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter_SyncTextWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextWriter_SyncTextWriter(TextWriter_SyncTextWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextWriter_SyncTextWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextWriter_SyncTextWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextWriter_SyncTextWriter(TextWriter_SyncTextWriter const&) = delete;
+  TextWriter_SyncTextWriter(TextWriter_SyncTextWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3869 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DirectionalLightWithIdsGroupEntry.hpp"
+// IWYU pragma private; include "GlobalNamespace/DirectionalLightWithIdsGroupEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,20 +91,22 @@ protected:
   constexpr DirectionalLightWithIdsGroupEntry_GroupLightData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_GroupLightData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_GroupLightData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLightWithIdsGroupEntry_GroupLightData(DirectionalLightWithIdsGroupEntry_GroupLightData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_GroupLightData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_GroupLightData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLightWithIdsGroupEntry_GroupLightData(DirectionalLightWithIdsGroupEntry_GroupLightData const&) = delete;
+  DirectionalLightWithIdsGroupEntry_GroupLightData(DirectionalLightWithIdsGroupEntry_GroupLightDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19521 };
 
+  /// [SerializeField]
   /// @brief Field _lightGroup, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroup;
 
+  /// [SerializeField]
   /// @brief Field _groupIntensity, offset: 0x18, size: 0x4, def value: None
   float_t ____groupIntensity;
 
@@ -164,20 +166,22 @@ protected:
   constexpr DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId(DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId(DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId const&) = delete;
+  DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId(DirectionalLightWithIdsGroupEntry_LightIntensitiesWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19522 };
 
+  /// [SerializeField]
   /// @brief Field _lightId, offset: 0x10, size: 0x4, def value: None
   int32_t ____lightId;
 
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x14, size: 0x4, def value: None
   float_t ____intensity;
 
@@ -277,29 +281,36 @@ protected:
   constexpr DirectionalLightWithIdsGroupEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLightWithIdsGroupEntry(DirectionalLightWithIdsGroupEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIdsGroupEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLightWithIdsGroupEntry(DirectionalLightWithIdsGroupEntry const&) = delete;
+  DirectionalLightWithIdsGroupEntry(DirectionalLightWithIdsGroupEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19523 };
 
+  /// [SerializeField]
   /// @brief Field _directionalLightWithIds, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLightWithIds> ____directionalLightWithIds;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _groupLightData, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData*>* ____groupLightData;
 
+  /// [SerializeField]
   /// @brief Field _individualLightData, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>* ____individualLightData;
 
+  /// [SerializeField]
   /// @brief Field _excludedLightIds, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<int32_t> ____excludedLightIds;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _groupLightsWeighting, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::ColorMixAndWeightingApproach ____groupLightsWeighting;
 

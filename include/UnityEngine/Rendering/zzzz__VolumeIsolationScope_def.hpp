@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeIsolationScope.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeIsolationScope.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ struct VolumeIsolationScope;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::VolumeIsolationScope);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::VolumeIsolationScope, "UnityEngine.Rendering", "VolumeIsolationScope");
+// [Obsolete("VolumeIsolationScope is deprecated, it does not have any effect anymore.")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true

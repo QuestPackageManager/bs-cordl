@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafeHandleCache_1.hpp"
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeHandleCache_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SafeHandleCache_1)
 namespace System::Runtime::InteropServices {
@@ -10,15 +11,18 @@ class SafeHandle;
 }
 // Forward declare root types
 namespace Microsoft::Win32::SafeHandles {
-template <typename T> class SafeHandleCache_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Runtime::InteropServices::SafeHandle*>)
+class SafeHandleCache_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Microsoft::Win32::SafeHandles::SafeHandleCache_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Microsoft::Win32::SafeHandles::SafeHandleCache_1, "Microsoft.Win32.SafeHandles", "SafeHandleCache`1");
-// Dependencies System.Object
+// Dependencies System.Object, System.Runtime.InteropServices.SafeHandle
 namespace Microsoft::Win32::SafeHandles {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Runtime::InteropServices::SafeHandle*>)
 // Is value type: false
 // CS Name: Microsoft.Win32.SafeHandles.SafeHandleCache`1<T>
 class CORDL_TYPE SafeHandleCache_1 : public ::System::Object {
@@ -40,13 +44,13 @@ protected:
   constexpr SafeHandleCache_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeHandleCache_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeHandleCache_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeHandleCache_1(SafeHandleCache_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeHandleCache_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeHandleCache_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeHandleCache_1(SafeHandleCache_1 const&) = delete;
+  SafeHandleCache_1(SafeHandleCache_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2297 };

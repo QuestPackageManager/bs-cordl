@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\BeatAvatarVisualController.hpp"
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/BeatAvatarVisualController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,13 +89,13 @@ protected:
   constexpr BeatAvatarVisualController_HighlighterDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController_HighlighterDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController_HighlighterDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatAvatarVisualController_HighlighterDelegate(BeatAvatarVisualController_HighlighterDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController_HighlighterDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController_HighlighterDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarVisualController_HighlighterDelegate(BeatAvatarVisualController_HighlighterDelegate const&) = delete;
+  BeatAvatarVisualController_HighlighterDelegate(BeatAvatarVisualController_HighlighterDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22343 };
@@ -346,62 +346,79 @@ protected:
   constexpr BeatAvatarVisualController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatAvatarVisualController(BeatAvatarVisualController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarVisualController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatAvatarVisualController(BeatAvatarVisualController const&) = delete;
+  BeatAvatarVisualController(BeatAvatarVisualControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22344 };
 
+  /// [SerializeField]
   /// @brief Field _headTopMeshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____headTopMeshFilter;
 
+  /// [SerializeField]
   /// @brief Field _glassesMeshFilter, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____glassesMeshFilter;
 
+  /// [SerializeField]
   /// @brief Field _facialHairMeshFilter, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____facialHairMeshFilter;
 
+  /// [SerializeField]
   /// @brief Field _leftHandsHairMeshFilter, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____leftHandsHairMeshFilter;
 
+  /// [SerializeField]
   /// @brief Field _rightHandsHairMeshFilter, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____rightHandsHairMeshFilter;
 
+  /// [SerializeField]
   /// @brief Field _eyesSprite, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____eyesSprite;
 
+  /// [SerializeField]
   /// @brief Field _mouthSprite, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____mouthSprite;
 
+  /// [SerializeField]
   /// @brief Field _bodyMeshFilter, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____bodyMeshFilter;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _headTopPropertyBlockColorSetter, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> ____headTopPropertyBlockColorSetter;
 
+  /// [SerializeField]
   /// @brief Field _glassesPropertyBlockColorSetter, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> ____glassesPropertyBlockColorSetter;
 
+  /// [SerializeField]
   /// @brief Field _facialHairPropertyBlockColorSetter, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> ____facialHairPropertyBlockColorSetter;
 
+  /// [SerializeField]
   /// @brief Field _skinPropertyBlockColorSetter, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> ____skinPropertyBlockColorSetter;
 
+  /// [SerializeField]
   /// @brief Field _clothesPropertyBlockSetter, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> ____clothesPropertyBlockSetter;
 
+  /// [SerializeField]
   /// @brief Field _leftHandPropertyBlockSetter, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> ____leftHandPropertyBlockSetter;
 
+  /// [SerializeField]
   /// @brief Field _rightHandPropertyBlockSetter, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter> ____rightHandPropertyBlockSetter;
 
+  /// [Inject]
   /// @brief Field _avatarPartsModel, offset: 0x98, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* ____avatarPartsModel;
 

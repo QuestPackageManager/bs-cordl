@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowCascadesOption.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowCascadesOption.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ShadowCascadesOption;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::ShadowCascadesOption);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::ShadowCascadesOption, "UnityEngine.Rendering.Universal", "ShadowCascadesOption");
+// [Obsolete("This is obsolete, please use shadowCascadeCount instead.", true)]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr ShadowCascadesOption();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ShadowCascadesOption(int32_t value__) noexcept;
 
   /// @brief Field FourCascades value: I32(2)

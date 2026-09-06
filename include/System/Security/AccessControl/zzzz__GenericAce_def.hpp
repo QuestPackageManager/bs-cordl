@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\GenericAce.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/GenericAce.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   /// @brief Method Equals, addr 0x5b1fb74, size 0x8c, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetBinaryForm, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetBinaryForm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetBinaryForm(::ArrayW<uint8_t> binaryForm, int32_t offset);
 
   /// @brief Method GetHashCode, addr 0x5b1fc00, size 0xcc, virtual true, abstract: false, final true
@@ -119,7 +119,7 @@ public:
   /// @brief Method get_AuditFlags, addr 0x5b1f658, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AuditFlags get_AuditFlags();
 
-  /// @brief Method get_BinaryLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_BinaryLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_BinaryLength();
 
   /// @brief Method get_InheritanceFlags, addr 0x5b1f8d8, size 0x10, virtual false, abstract: false, final false
@@ -143,13 +143,13 @@ protected:
   constexpr GenericAce();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericAce", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericAce", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericAce(GenericAce&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericAce", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericAce", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericAce(GenericAce const&) = delete;
+  GenericAce(GenericAceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3051 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_InputField.hpp"
+// IWYU pragma private; include "TMPro/TMP_InputField.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
@@ -59,7 +59,7 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_InputField_ContentType::TMP_InputField_ContentType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -75,7 +75,7 @@ constexpr ::TMPro::TMP_InputField_ContentType TMPro::TMP_InputField_ContentType:
 constexpr ::TMPro::TMP_InputField_ContentType TMPro::TMP_InputField_ContentType::Password{ static_cast<int32_t>(0x7) };
 constexpr ::TMPro::TMP_InputField_ContentType TMPro::TMP_InputField_ContentType::Pin{ static_cast<int32_t>(0x8) };
 constexpr ::TMPro::TMP_InputField_ContentType TMPro::TMP_InputField_ContentType::Custom{ static_cast<int32_t>(0x9) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_InputField_InputType::TMP_InputField_InputType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -84,7 +84,7 @@ constexpr ::TMPro::TMP_InputField_InputType::TMP_InputField_InputType() {}
 constexpr ::TMPro::TMP_InputField_InputType TMPro::TMP_InputField_InputType::Standard{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::TMP_InputField_InputType TMPro::TMP_InputField_InputType::AutoCorrect{ static_cast<int32_t>(0x1) };
 constexpr ::TMPro::TMP_InputField_InputType TMPro::TMP_InputField_InputType::Password{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_InputField_CharacterValidation::TMP_InputField_CharacterValidation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -99,7 +99,7 @@ constexpr ::TMPro::TMP_InputField_CharacterValidation TMPro::TMP_InputField_Char
 constexpr ::TMPro::TMP_InputField_CharacterValidation TMPro::TMP_InputField_CharacterValidation::Regex{ static_cast<int32_t>(0x6) };
 constexpr ::TMPro::TMP_InputField_CharacterValidation TMPro::TMP_InputField_CharacterValidation::EmailAddress{ static_cast<int32_t>(0x7) };
 constexpr ::TMPro::TMP_InputField_CharacterValidation TMPro::TMP_InputField_CharacterValidation::CustomValidator{ static_cast<int32_t>(0x8) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_InputField_LineType::TMP_InputField_LineType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -290,7 +290,7 @@ inline ::TMPro::TMP_InputField_TouchScreenKeyboardEvent* TMPro::TMP_InputField_T
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_InputField_TouchScreenKeyboardEvent::TMP_InputField_TouchScreenKeyboardEvent() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::TMP_InputField_EditState::TMP_InputField_EditState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -440,6 +440,7 @@ inline ::System::Object* TMPro::TMP_InputField__CaretBlink_d__295::System_Collec
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField__CaretBlink_d__295*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::TMPro::TMP_InputField__CaretBlink_d__295* TMPro::TMP_InputField__CaretBlink_d__295::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::TMP_InputField__CaretBlink_d__295*>(__1__state));
 }
@@ -629,6 +630,7 @@ inline ::System::Object* TMPro::TMP_InputField__MouseDragOutsideRect_d__316::Sys
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316* TMPro::TMP_InputField__MouseDragOutsideRect_d__316::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>(__1__state));
 }
@@ -5742,7 +5744,7 @@ inline void TMPro::TMP_InputField::SetTextComponentRichTextMode() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SetTextComponentRichTextMode", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void TMPro::TMP_InputField::SetToCustomIfContentTypeIsNot(::ArrayW<::TMPro::TMP_InputField_ContentType> allowedContentTypes) {
+inline void TMPro::TMP_InputField::SetToCustomIfContentTypeIsNot(/* [ParamArray] */ ::ArrayW<::TMPro::TMP_InputField_ContentType> allowedContentTypes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SetToCustomIfContentTypeIsNot", {}, { ::i2c::type_of<::ArrayW<::TMPro::TMP_InputField_ContentType>>() } })));

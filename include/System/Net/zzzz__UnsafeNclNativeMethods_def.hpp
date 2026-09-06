@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\UnsafeNclNativeMethods.hpp"
+// IWYU pragma private; include "System/Net/UnsafeNclNativeMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,13 +65,13 @@ protected:
   constexpr HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID(HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID(HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID const&) = delete;
+  HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID(HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_IDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11565 };
@@ -104,13 +104,13 @@ protected:
   constexpr UnsafeNclNativeMethods_HttpApi();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_HttpApi", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_HttpApi", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeNclNativeMethods_HttpApi(UnsafeNclNativeMethods_HttpApi&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_HttpApi", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_HttpApi", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNclNativeMethods_HttpApi(UnsafeNclNativeMethods_HttpApi const&) = delete;
+  UnsafeNclNativeMethods_HttpApi(UnsafeNclNativeMethods_HttpApiconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11566 };
@@ -140,13 +140,13 @@ protected:
   constexpr UnsafeNclNativeMethods_SecureStringHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_SecureStringHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_SecureStringHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeNclNativeMethods_SecureStringHelper(UnsafeNclNativeMethods_SecureStringHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_SecureStringHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods_SecureStringHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNclNativeMethods_SecureStringHelper(UnsafeNclNativeMethods_SecureStringHelper const&) = delete;
+  UnsafeNclNativeMethods_SecureStringHelper(UnsafeNclNativeMethods_SecureStringHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11567 };
@@ -174,13 +174,13 @@ protected:
   constexpr UnsafeNclNativeMethods();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeNclNativeMethods(UnsafeNclNativeMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeNclNativeMethods(UnsafeNclNativeMethods const&) = delete;
+  UnsafeNclNativeMethods(UnsafeNclNativeMethodsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11568 };

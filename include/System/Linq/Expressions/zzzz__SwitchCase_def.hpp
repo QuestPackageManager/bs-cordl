@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\SwitchCase.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/SwitchCase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class SwitchCase;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::SwitchCase*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::SwitchCase*, "System.Linq.Expressions", "SwitchCase");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::SwitchCaseProxy))]
 // Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -49,9 +50,11 @@ public:
 
   constexpr void __cordl_internal_set__TestValues_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Body, addr 0x5f89544, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TestValues, addr 0x5f8953c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_TestValues();
 
@@ -61,20 +64,22 @@ protected:
   constexpr SwitchCase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchCase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchCase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SwitchCase(SwitchCase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchCase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchCase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SwitchCase(SwitchCase const&) = delete;
+  SwitchCase(SwitchCaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16229 };
 
+  /// [CompilerGenerated]
   /// @brief Field <TestValues>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ____TestValues_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Body>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Body_k__BackingField;
 

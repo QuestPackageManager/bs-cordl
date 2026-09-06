@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ValueTuple_1.hpp"
+// IWYU pragma private; include "System/ValueTuple_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,7 +140,7 @@ public:
   // @brief default ctor
   constexpr ValueTuple_1();
 
-  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None, comment: None }]
   constexpr ValueTuple_1(T1 Item1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

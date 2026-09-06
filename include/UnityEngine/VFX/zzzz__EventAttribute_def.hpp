@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\EventAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/EventAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   /// @brief Field id, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::UnityEngine::VFX::Utility::ExposedProperty* id;
 
-  /// @brief Method ApplyToVFX, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyToVFX, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ApplyToVFX(::UnityEngine::VFX::VFXEventAttribute* eventAttribute);
 
   static inline ::UnityEngine::VFX::EventAttribute* New_ctor();
@@ -48,13 +48,13 @@ protected:
   constexpr EventAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventAttribute(EventAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventAttribute(EventAttribute const&) = delete;
+  EventAttribute(EventAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19935 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\AsyncUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/AsyncUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__AsyncUtils_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__AsyncUtils_def.hpp"
@@ -266,7 +266,7 @@ inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Utilities::AsyncUtils
                                        { "WriteAsync", {}, { ::i2c::type_of<::System::IO::TextWriter*>(), ::i2c::type_of<char16_t>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(nullptr, ___internal_method, writer, value, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Utilities::AsyncUtils::WriteAsync(::System::IO::TextWriter* writer, ::StringW value,
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Utilities::AsyncUtils::WriteAsync(::System::IO::TextWriter* writer, /* [Nullable(2)] */ ::StringW value,
                                                                                              ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},

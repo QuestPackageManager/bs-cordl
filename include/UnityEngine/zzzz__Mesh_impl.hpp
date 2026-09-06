@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Mesh.hpp"
+// IWYU pragma private; include "UnityEngine/Mesh.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
@@ -294,7 +294,8 @@ inline uint64_t UnityEngine::Mesh_MeshData::GetIndexDataSize(::System::IntPtr se
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(), { "GetIndexDataSize", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(nullptr, ___internal_method, self);
 }
-inline void UnityEngine::Mesh_MeshData::SetVertexBufferParamsFromArray(::System::IntPtr self, int32_t vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
+inline void UnityEngine::Mesh_MeshData::SetVertexBufferParamsFromArray(::System::IntPtr self, int32_t vertexCount,
+                                                                       /* [ParamArray] */ ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(),
                                               { "SetVertexBufferParamsFromArray",
@@ -327,13 +328,15 @@ inline int32_t UnityEngine::Mesh_MeshData::get_vertexBufferCount() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(), { "get_vertexBufferCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Mesh_MeshData::GetVertexData(int32_t stream) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Mesh_MeshData::GetVertexData(/* [DefaultValue("0")] */ int32_t stream) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(), { "GetVertexData", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(*this, ___internal_method, stream);
 }
-inline void UnityEngine::Mesh_MeshData::SetVertexBufferParams(int32_t vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
+inline void UnityEngine::Mesh_MeshData::SetVertexBufferParams(int32_t vertexCount, /* [ParamArray] */ ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(),
                                               { "SetVertexBufferParams", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor>>() } })));
@@ -345,7 +348,9 @@ inline void UnityEngine::Mesh_MeshData::SetIndexBufferParams(int32_t indexCount,
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(), { "SetIndexBufferParams", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::IndexFormat>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, indexCount, format);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Mesh_MeshData::GetIndexData() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::Mesh_MeshData::GetIndexData() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(), { "GetIndexData", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(*this, ___internal_method);
@@ -362,7 +367,8 @@ inline void UnityEngine::Mesh_MeshData::SetSubMesh(int32_t index, ::UnityEngine:
           { "SetSubMesh", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::SubMeshDescriptor>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, desc, flags);
 }
-inline void UnityEngine::Mesh_MeshData::SetVertexBufferParamsFromArray_Injected(::System::IntPtr self, int32_t vertexCount, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> attributes) {
+inline void UnityEngine::Mesh_MeshData::SetVertexBufferParamsFromArray_Injected(::System::IntPtr self, int32_t vertexCount,
+                                                                                /* [ParamArray] */ ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> attributes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshData>(),
                                               { "SetVertexBufferParamsFromArray_Injected",
@@ -380,7 +386,7 @@ inline void UnityEngine::Mesh_MeshData::SetSubMeshImpl_Injected(::System::IntPtr
                                                                ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, index, desc, flags);
 }
-// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Mesh_MeshData::Mesh_MeshData(::System::IntPtr m_Ptr) noexcept {
   this->m_Ptr = m_Ptr;
 }
@@ -701,26 +707,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
     return ___internal_method;
   }
 };
-inline void UnityEngine::Mesh_MeshDataArray::AcquireReadOnlyMeshData(::UnityEngine::Mesh* mesh, ::System::IntPtr* datas) {
+inline void UnityEngine::Mesh_MeshDataArray::AcquireReadOnlyMeshData(/* [NotNull] */ ::UnityEngine::Mesh* mesh, ::System::IntPtr* datas) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshDataArray>(), { "AcquireReadOnlyMeshData", {}, { ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<::System::IntPtr*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mesh, datas);
 }
-inline void UnityEngine::Mesh_MeshDataArray::AcquireReadOnlyMeshDatas(::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count) {
+inline void UnityEngine::Mesh_MeshDataArray::AcquireReadOnlyMeshDatas(/* [NotNull] */ ::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshDataArray>(),
                                        { "AcquireReadOnlyMeshDatas", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Mesh*>>(), ::i2c::type_of<::System::IntPtr*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, meshes, datas, count);
 }
-inline void UnityEngine::Mesh_MeshDataArray::AcquireMeshDataCopy(::UnityEngine::Mesh* mesh, ::System::IntPtr* datas) {
+inline void UnityEngine::Mesh_MeshDataArray::AcquireMeshDataCopy(/* [NotNull] */ ::UnityEngine::Mesh* mesh, ::System::IntPtr* datas) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshDataArray>(), { "AcquireMeshDataCopy", {}, { ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<::System::IntPtr*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mesh, datas);
 }
-inline void UnityEngine::Mesh_MeshDataArray::AcquireMeshDatasCopy(::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count) {
+inline void UnityEngine::Mesh_MeshDataArray::AcquireMeshDatasCopy(/* [NotNull] */ ::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshDataArray>(),
                                               { "AcquireMeshDatasCopy", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Mesh*>>(), ::i2c::type_of<::System::IntPtr*>(), ::i2c::type_of<int32_t>() } })));
@@ -736,7 +742,8 @@ inline void UnityEngine::Mesh_MeshDataArray::CreateNewMeshDatas(::System::IntPtr
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshDataArray>(), { "CreateNewMeshDatas", {}, { ::i2c::type_of<::System::IntPtr*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, datas, count);
 }
-inline void UnityEngine::Mesh_MeshDataArray::ApplyToMeshesImpl(::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh_MeshDataArray::ApplyToMeshesImpl(/* [NotNull] */ ::ArrayW<::UnityEngine::Mesh*> meshes, ::System::IntPtr* datas, int32_t count,
+                                                               ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshDataArray>(), { "ApplyToMeshesImpl",
                                                                                                       {},
@@ -744,7 +751,7 @@ inline void UnityEngine::Mesh_MeshDataArray::ApplyToMeshesImpl(::ArrayW<::UnityE
                                                                                                         ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, meshes, datas, count, flags);
 }
-inline void UnityEngine::Mesh_MeshDataArray::ApplyToMeshImpl(::UnityEngine::Mesh* mesh, ::System::IntPtr data, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh_MeshDataArray::ApplyToMeshImpl(/* [NotNull] */ ::UnityEngine::Mesh* mesh, ::System::IntPtr data, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh_MeshDataArray>(),
@@ -841,7 +848,8 @@ constexpr UnityEngine::Mesh_MeshDataArray::operator ::System::IDisposable*() {
 constexpr ::System::IDisposable* UnityEngine::Mesh_MeshDataArray::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Ptrs", ty: "::System::IntPtr*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Ptrs", ty: "::System::IntPtr*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Mesh_MeshDataArray::Mesh_MeshDataArray(::System::IntPtr* m_Ptrs, int32_t m_Length) noexcept {
   this->m_Ptrs = m_Ptrs;
   this->m_Length = m_Length;
@@ -6343,7 +6351,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
     return ___internal_method;
   }
 };
-inline void UnityEngine::Mesh::Internal_Create(::UnityEngine::Mesh* mono) {
+inline void UnityEngine::Mesh::Internal_Create(/* [Writable] */ ::UnityEngine::Mesh* mono) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "Internal_Create", {}, { ::i2c::type_of<::UnityEngine::Mesh*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mono);
@@ -6401,7 +6409,7 @@ inline void UnityEngine::Mesh::SetVertexBufferParamsFromPtr(int32_t vertexCount,
                                                            { "SetVertexBufferParamsFromPtr", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vertexCount, attributesPtr, attributesCount);
 }
-inline void UnityEngine::Mesh::SetVertexBufferParamsFromArray(int32_t vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
+inline void UnityEngine::Mesh::SetVertexBufferParamsFromArray(int32_t vertexCount, /* [ParamArray] */ ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
@@ -6432,13 +6440,13 @@ inline ::System::Array* UnityEngine::Mesh::GetVertexAttributesAlloc() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetVertexAttributesAlloc", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Array*>(this, ___internal_method);
 }
-inline int32_t UnityEngine::Mesh::GetVertexAttributesArray(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
+inline int32_t UnityEngine::Mesh::GetVertexAttributesArray(/* [NotNull] */ ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetVertexAttributesArray", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, attributes);
 }
-inline int32_t UnityEngine::Mesh::GetVertexAttributesList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* attributes) {
+inline int32_t UnityEngine::Mesh::GetVertexAttributesList(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* attributes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
                                               { "GetVertexAttributesList", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*>() } })));
@@ -7162,7 +7170,8 @@ inline void UnityEngine::Mesh::SetVertices(::System::Collections::Generic::List_
                           { "SetVertices", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inVertices, start, length);
 }
-inline void UnityEngine::Mesh::SetVertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inVertices, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetVertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inVertices, int32_t start, int32_t length,
+                                           /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetVertices",
                                                                                          {},
@@ -7181,7 +7190,8 @@ inline void UnityEngine::Mesh::SetVertices(::ArrayW<::UnityEngine::Vector3> inVe
                                                            { "SetVertices", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Vector3>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inVertices, start, length);
 }
-inline void UnityEngine::Mesh::SetVertices(::ArrayW<::UnityEngine::Vector3> inVertices, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetVertices(::ArrayW<::UnityEngine::Vector3> inVertices, int32_t start, int32_t length,
+                                           /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetVertices",
                                                                                                       {},
@@ -7189,13 +7199,17 @@ inline void UnityEngine::Mesh::SetVertices(::ArrayW<::UnityEngine::Vector3> inVe
                                                                                                         ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inVertices, start, length, flags);
 }
-template <typename T> inline void UnityEngine::Mesh::SetVertices(::Unity::Collections::NativeArray_1<T> inVertices) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetVertices(::Unity::Collections::NativeArray_1<T> inVertices) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetVertices", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inVertices);
 }
-template <typename T> inline void UnityEngine::Mesh::SetVertices(::Unity::Collections::NativeArray_1<T> inVertices, int32_t start, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetVertices(::Unity::Collections::NativeArray_1<T> inVertices, int32_t start, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
@@ -7203,7 +7217,10 @@ template <typename T> inline void UnityEngine::Mesh::SetVertices(::Unity::Collec
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inVertices, start, length);
 }
-template <typename T> inline void UnityEngine::Mesh::SetVertices(::Unity::Collections::NativeArray_1<T> inVertices, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetVertices(::Unity::Collections::NativeArray_1<T> inVertices, int32_t start, int32_t length,
+                                           /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetVertices",
                                                                                                       { ::i2c::class_of<T>() },
@@ -7229,7 +7246,8 @@ inline void UnityEngine::Mesh::SetNormals(::System::Collections::Generic::List_1
                           { "SetNormals", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inNormals, start, length);
 }
-inline void UnityEngine::Mesh::SetNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inNormals, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* inNormals, int32_t start, int32_t length,
+                                          /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetNormals",
                                                                                          {},
@@ -7248,7 +7266,8 @@ inline void UnityEngine::Mesh::SetNormals(::ArrayW<::UnityEngine::Vector3> inNor
                                                            { "SetNormals", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Vector3>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inNormals, start, length);
 }
-inline void UnityEngine::Mesh::SetNormals(::ArrayW<::UnityEngine::Vector3> inNormals, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetNormals(::ArrayW<::UnityEngine::Vector3> inNormals, int32_t start, int32_t length,
+                                          /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetNormals",
                                                                                                       {},
@@ -7256,13 +7275,17 @@ inline void UnityEngine::Mesh::SetNormals(::ArrayW<::UnityEngine::Vector3> inNor
                                                                                                         ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inNormals, start, length, flags);
 }
-template <typename T> inline void UnityEngine::Mesh::SetNormals(::Unity::Collections::NativeArray_1<T> inNormals) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetNormals(::Unity::Collections::NativeArray_1<T> inNormals) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetNormals", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inNormals);
 }
-template <typename T> inline void UnityEngine::Mesh::SetNormals(::Unity::Collections::NativeArray_1<T> inNormals, int32_t start, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetNormals(::Unity::Collections::NativeArray_1<T> inNormals, int32_t start, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
@@ -7270,7 +7293,10 @@ template <typename T> inline void UnityEngine::Mesh::SetNormals(::Unity::Collect
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inNormals, start, length);
 }
-template <typename T> inline void UnityEngine::Mesh::SetNormals(::Unity::Collections::NativeArray_1<T> inNormals, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetNormals(::Unity::Collections::NativeArray_1<T> inNormals, int32_t start, int32_t length,
+                                          /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetNormals",
                                                                                                       { ::i2c::class_of<T>() },
@@ -7296,7 +7322,8 @@ inline void UnityEngine::Mesh::SetTangents(::System::Collections::Generic::List_
                           { "SetTangents", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inTangents, start, length);
 }
-inline void UnityEngine::Mesh::SetTangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* inTangents, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetTangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* inTangents, int32_t start, int32_t length,
+                                           /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetTangents",
                                                                                          {},
@@ -7315,7 +7342,8 @@ inline void UnityEngine::Mesh::SetTangents(::ArrayW<::UnityEngine::Vector4> inTa
                                                            { "SetTangents", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Vector4>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inTangents, start, length);
 }
-inline void UnityEngine::Mesh::SetTangents(::ArrayW<::UnityEngine::Vector4> inTangents, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetTangents(::ArrayW<::UnityEngine::Vector4> inTangents, int32_t start, int32_t length,
+                                           /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetTangents",
                                                                                                       {},
@@ -7323,13 +7351,17 @@ inline void UnityEngine::Mesh::SetTangents(::ArrayW<::UnityEngine::Vector4> inTa
                                                                                                         ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inTangents, start, length, flags);
 }
-template <typename T> inline void UnityEngine::Mesh::SetTangents(::Unity::Collections::NativeArray_1<T> inTangents) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetTangents(::Unity::Collections::NativeArray_1<T> inTangents) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetTangents", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inTangents);
 }
-template <typename T> inline void UnityEngine::Mesh::SetTangents(::Unity::Collections::NativeArray_1<T> inTangents, int32_t start, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetTangents(::Unity::Collections::NativeArray_1<T> inTangents, int32_t start, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
@@ -7337,7 +7369,10 @@ template <typename T> inline void UnityEngine::Mesh::SetTangents(::Unity::Collec
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inTangents, start, length);
 }
-template <typename T> inline void UnityEngine::Mesh::SetTangents(::Unity::Collections::NativeArray_1<T> inTangents, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetTangents(::Unity::Collections::NativeArray_1<T> inTangents, int32_t start, int32_t length,
+                                           /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetTangents",
                                                                                                       { ::i2c::class_of<T>() },
@@ -7363,7 +7398,8 @@ inline void UnityEngine::Mesh::SetColors(::System::Collections::Generic::List_1<
                           { "SetColors", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Color>*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inColors, start, length);
 }
-inline void UnityEngine::Mesh::SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color>* inColors, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color>* inColors, int32_t start, int32_t length,
+                                         /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetColors",
                                                                                          {},
@@ -7382,7 +7418,8 @@ inline void UnityEngine::Mesh::SetColors(::ArrayW<::UnityEngine::Color> inColors
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetColors", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Color>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inColors, start, length);
 }
-inline void UnityEngine::Mesh::SetColors(::ArrayW<::UnityEngine::Color> inColors, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetColors(::ArrayW<::UnityEngine::Color> inColors, int32_t start, int32_t length,
+                                         /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetColors",
                                                                                                       {},
@@ -7407,7 +7444,8 @@ inline void UnityEngine::Mesh::SetColors(::System::Collections::Generic::List_1<
                           { "SetColors", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Color32>*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inColors, start, length);
 }
-inline void UnityEngine::Mesh::SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* inColors, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetColors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* inColors, int32_t start, int32_t length,
+                                         /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetColors",
                                                                                          {},
@@ -7426,7 +7464,8 @@ inline void UnityEngine::Mesh::SetColors(::ArrayW<::UnityEngine::Color32> inColo
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetColors", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Color32>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inColors, start, length);
 }
-inline void UnityEngine::Mesh::SetColors(::ArrayW<::UnityEngine::Color32> inColors, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetColors(::ArrayW<::UnityEngine::Color32> inColors, int32_t start, int32_t length,
+                                         /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetColors",
                                                                                                       {},
@@ -7434,13 +7473,17 @@ inline void UnityEngine::Mesh::SetColors(::ArrayW<::UnityEngine::Color32> inColo
                                                                                                         ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inColors, start, length, flags);
 }
-template <typename T> inline void UnityEngine::Mesh::SetColors(::Unity::Collections::NativeArray_1<T> inColors) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetColors(::Unity::Collections::NativeArray_1<T> inColors) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetColors", { ::i2c::class_of<T>() }, { ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inColors);
 }
-template <typename T> inline void UnityEngine::Mesh::SetColors(::Unity::Collections::NativeArray_1<T> inColors, int32_t start, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetColors(::Unity::Collections::NativeArray_1<T> inColors, int32_t start, int32_t length) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
@@ -7448,7 +7491,10 @@ template <typename T> inline void UnityEngine::Mesh::SetColors(::Unity::Collecti
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inColors, start, length);
 }
-template <typename T> inline void UnityEngine::Mesh::SetColors(::Unity::Collections::NativeArray_1<T> inColors, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetColors(::Unity::Collections::NativeArray_1<T> inColors, int32_t start, int32_t length,
+                                         /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetColors",
                                                                                                       { ::i2c::class_of<T>() },
@@ -7496,7 +7542,7 @@ inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::System::Collections::Ge
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, channel, uvs, start, length);
 }
 inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs, int32_t start, int32_t length,
-                                      ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+                                      /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetUVs",
@@ -7514,7 +7560,7 @@ inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::System::Collections::Ge
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, channel, uvs, start, length);
 }
 inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* uvs, int32_t start, int32_t length,
-                                      ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+                                      /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetUVs",
@@ -7532,7 +7578,7 @@ inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::System::Collections::Ge
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, channel, uvs, start, length);
 }
 inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs, int32_t start, int32_t length,
-                                      ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+                                      /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetUVs",
@@ -7572,7 +7618,8 @@ inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::V
                                        { "SetUVs", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::Vector2>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, channel, uvs, start, length);
 }
-inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector2> uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector2> uvs, int32_t start, int32_t length,
+                                      /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetUVs",
                                                                                          {},
@@ -7587,7 +7634,8 @@ inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::V
                                        { "SetUVs", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::Vector3>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, channel, uvs, start, length);
 }
-inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector3> uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector3> uvs, int32_t start, int32_t length,
+                                      /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetUVs",
                                                                                          {},
@@ -7602,7 +7650,8 @@ inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::V
                                        { "SetUVs", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::Vector4>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, channel, uvs, start, length);
 }
-inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector4> uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::Vector4> uvs, int32_t start, int32_t length,
+                                      /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetUVs",
                                                                                          {},
@@ -7610,14 +7659,18 @@ inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::ArrayW<::UnityEngine::V
                                                                                            ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, channel, uvs, start, length, flags);
 }
-template <typename T> inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::Unity::Collections::NativeArray_1<T> uvs) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::Unity::Collections::NativeArray_1<T> uvs) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetUVs", { ::i2c::class_of<T>() }, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, channel, uvs);
 }
-template <typename T> inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::Unity::Collections::NativeArray_1<T> uvs, int32_t start, int32_t length) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::Unity::Collections::NativeArray_1<T> uvs, int32_t start, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -7627,7 +7680,9 @@ template <typename T> inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::U
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, channel, uvs, start, length);
 }
 template <typename T>
-inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::Unity::Collections::NativeArray_1<T> uvs, int32_t start, int32_t length, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetUVs(int32_t channel, ::Unity::Collections::NativeArray_1<T> uvs, int32_t start, int32_t length,
+                                      /* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetUVs",
@@ -7683,7 +7738,7 @@ inline int32_t UnityEngine::Mesh::GetVertexAttributes(::System::Collections::Gen
                                               { "GetVertexAttributes", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, attributes);
 }
-inline void UnityEngine::Mesh::SetVertexBufferParams(int32_t vertexCount, ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
+inline void UnityEngine::Mesh::SetVertexBufferParams(int32_t vertexCount, /* [ParamArray] */ ::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor> attributes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
                                               { "SetVertexBufferParams", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor>>() } })));
@@ -7697,6 +7752,7 @@ inline void UnityEngine::Mesh::SetVertexBufferParams(int32_t vertexCount, ::Unit
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, vertexCount, attributes);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Mesh::SetVertexBufferData(::Unity::Collections::NativeArray_1<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream,
                                                    ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -7709,6 +7765,7 @@ inline void UnityEngine::Mesh::SetVertexBufferData(::Unity::Collections::NativeA
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, dataStart, meshBufferStart, count, stream, flags);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Mesh::SetVertexBufferData(::ArrayW<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
@@ -7720,6 +7777,7 @@ inline void UnityEngine::Mesh::SetVertexBufferData(::ArrayW<T> data, int32_t dat
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, dataStart, meshBufferStart, count, stream, flags);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Mesh::SetVertexBufferData(::System::Collections::Generic::List_1<T>* data, int32_t dataStart, int32_t meshBufferStart, int32_t count, int32_t stream,
                                                    ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -7850,7 +7908,7 @@ inline ::ArrayW<int32_t> UnityEngine::Mesh::GetTriangles(int32_t submesh) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetTriangles", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t>>(this, ___internal_method, submesh);
 }
-inline ::ArrayW<int32_t> UnityEngine::Mesh::GetTriangles(int32_t submesh, bool applyBaseVertex) {
+inline ::ArrayW<int32_t> UnityEngine::Mesh::GetTriangles(int32_t submesh, /* [DefaultValue("true")] */ bool applyBaseVertex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetTriangles", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t>>(this, ___internal_method, submesh, applyBaseVertex);
@@ -7861,7 +7919,7 @@ inline void UnityEngine::Mesh::GetTriangles(::System::Collections::Generic::List
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetTriangles", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, triangles, submesh);
 }
-inline void UnityEngine::Mesh::GetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh, bool applyBaseVertex) {
+inline void UnityEngine::Mesh::GetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh, /* [DefaultValue("true")] */ bool applyBaseVertex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
                                               { "GetTriangles", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
@@ -7877,7 +7935,7 @@ inline ::ArrayW<int32_t> UnityEngine::Mesh::GetIndices(int32_t submesh) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetIndices", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t>>(this, ___internal_method, submesh);
 }
-inline ::ArrayW<int32_t> UnityEngine::Mesh::GetIndices(int32_t submesh, bool applyBaseVertex) {
+inline ::ArrayW<int32_t> UnityEngine::Mesh::GetIndices(int32_t submesh, /* [DefaultValue("true")] */ bool applyBaseVertex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetIndices", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t>>(this, ___internal_method, submesh, applyBaseVertex);
@@ -7888,7 +7946,7 @@ inline void UnityEngine::Mesh::GetIndices(::System::Collections::Generic::List_1
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetIndices", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indices, submesh);
 }
-inline void UnityEngine::Mesh::GetIndices(::System::Collections::Generic::List_1<int32_t>* indices, int32_t submesh, bool applyBaseVertex) {
+inline void UnityEngine::Mesh::GetIndices(::System::Collections::Generic::List_1<int32_t>* indices, int32_t submesh, /* [DefaultValue("true")] */ bool applyBaseVertex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
                                               { "GetIndices", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
@@ -7901,6 +7959,7 @@ inline void UnityEngine::Mesh::GetIndices(::System::Collections::Generic::List_1
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indices, submesh, applyBaseVertex);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Mesh::SetIndexBufferData(::Unity::Collections::NativeArray_1<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count,
                                                   ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
@@ -7912,7 +7971,9 @@ inline void UnityEngine::Mesh::SetIndexBufferData(::Unity::Collections::NativeAr
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, dataStart, meshBufferStart, count, flags);
 }
-template <typename T> inline void UnityEngine::Mesh::SetIndexBufferData(::ArrayW<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetIndexBufferData(::ArrayW<T> data, int32_t dataStart, int32_t meshBufferStart, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetIndexBufferData",
                                                                                                       { ::i2c::class_of<T>() },
@@ -7922,6 +7983,7 @@ template <typename T> inline void UnityEngine::Mesh::SetIndexBufferData(::ArrayW
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data, dataStart, meshBufferStart, count, flags);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Mesh::SetIndexBufferData(::System::Collections::Generic::List_1<T>* data, int32_t dataStart, int32_t meshBufferStart, int32_t count,
                                                   ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
@@ -7972,7 +8034,7 @@ inline void UnityEngine::Mesh::SetTriangles(::ArrayW<int32_t> triangles, int32_t
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetTriangles", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, triangles, submesh, calculateBounds);
 }
-inline void UnityEngine::Mesh::SetTriangles(::ArrayW<int32_t> triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex) {
+inline void UnityEngine::Mesh::SetTriangles(::ArrayW<int32_t> triangles, int32_t submesh, /* [DefaultValue("true")] */ bool calculateBounds, /* [DefaultValue("0")] */ int32_t baseVertex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
                                               { "SetTriangles", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
@@ -8012,7 +8074,8 @@ inline void UnityEngine::Mesh::SetTriangles(::System::Collections::Generic::List
                                               { "SetTriangles", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<int32_t>*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, triangles, submesh, calculateBounds);
 }
-inline void UnityEngine::Mesh::SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh, bool calculateBounds, int32_t baseVertex) {
+inline void UnityEngine::Mesh::SetTriangles(::System::Collections::Generic::List_1<int32_t>* triangles, int32_t submesh, /* [DefaultValue("true")] */ bool calculateBounds,
+                                            /* [DefaultValue("0")] */ int32_t baseVertex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -8061,7 +8124,8 @@ inline void UnityEngine::Mesh::SetIndices(::ArrayW<int32_t> indices, ::UnityEngi
                           { "SetIndices", {}, { ::i2c::type_of<::ArrayW<int32_t>>(), ::i2c::type_of<::UnityEngine::MeshTopology>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indices, topology, submesh, calculateBounds);
 }
-inline void UnityEngine::Mesh::SetIndices(::ArrayW<int32_t> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex) {
+inline void UnityEngine::Mesh::SetIndices(::ArrayW<int32_t> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, /* [DefaultValue("true")] */ bool calculateBounds,
+                                          /* [DefaultValue("0")] */ int32_t baseVertex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -8098,6 +8162,7 @@ inline void UnityEngine::Mesh::SetIndices(::ArrayW<uint16_t> indices, int32_t in
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indices, indicesStart, indicesLength, topology, submesh, calculateBounds, baseVertex);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Mesh::SetIndices(::Unity::Collections::NativeArray_1<T> indices, ::UnityEngine::MeshTopology topology, int32_t submesh, bool calculateBounds, int32_t baseVertex) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetIndices",
@@ -8108,6 +8173,7 @@ inline void UnityEngine::Mesh::SetIndices(::Unity::Collections::NativeArray_1<T>
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, indices, topology, submesh, calculateBounds, baseVertex);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Mesh::SetIndices(::Unity::Collections::NativeArray_1<T> indices, int32_t indicesStart, int32_t indicesLength, ::UnityEngine::MeshTopology topology, int32_t submesh,
                                           bool calculateBounds, int32_t baseVertex) {
   static auto* ___internal_method_base =
@@ -8190,7 +8256,9 @@ inline void UnityEngine::Mesh::SetSubMeshes(::System::Collections::Generic::List
                                                                                            ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, desc, flags);
 }
-template <typename T> inline void UnityEngine::Mesh::SetSubMeshes(::Unity::Collections::NativeArray_1<T> desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetSubMeshes(::Unity::Collections::NativeArray_1<T> desc, int32_t start, int32_t count, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "SetSubMeshes",
                                                                                                       { ::i2c::class_of<T>() },
@@ -8199,7 +8267,9 @@ template <typename T> inline void UnityEngine::Mesh::SetSubMeshes(::Unity::Colle
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, desc, start, count, flags);
 }
-template <typename T> inline void UnityEngine::Mesh::SetSubMeshes(::Unity::Collections::NativeArray_1<T> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Mesh::SetSubMeshes(::Unity::Collections::NativeArray_1<T> desc, ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
@@ -8232,7 +8302,7 @@ inline ::UnityEngine::SkinWeights UnityEngine::Mesh::get_skinWeightBufferLayout(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "get_skinWeightBufferLayout", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::SkinWeights>(this, ___internal_method);
 }
-inline void UnityEngine::Mesh::Clear(bool keepVertexLayout) {
+inline void UnityEngine::Mesh::Clear(/* [DefaultValue("true")] */ bool keepVertexLayout) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "Clear", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keepVertexLayout);
 }
@@ -8252,17 +8322,17 @@ inline void UnityEngine::Mesh::RecalculateTangents() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "RecalculateTangents", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Mesh::RecalculateBounds(::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::RecalculateBounds(/* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "RecalculateBounds", {}, { ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, flags);
 }
-inline void UnityEngine::Mesh::RecalculateNormals(::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::RecalculateNormals(/* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "RecalculateNormals", {}, { ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, flags);
 }
-inline void UnityEngine::Mesh::RecalculateTangents(::UnityEngine::Rendering::MeshUpdateFlags flags) {
+inline void UnityEngine::Mesh::RecalculateTangents(/* [DefaultValue("MeshUpdateFlags.Default")] */ ::UnityEngine::Rendering::MeshUpdateFlags flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "RecalculateTangents", {}, { ::i2c::type_of<::UnityEngine::Rendering::MeshUpdateFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, flags);
@@ -8301,7 +8371,8 @@ inline ::UnityEngine::MeshTopology UnityEngine::Mesh::GetTopology(int32_t submes
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "GetTopology", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::MeshTopology>(this, ___internal_method, submesh);
 }
-inline void UnityEngine::Mesh::CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine, bool mergeSubMeshes, bool useMatrices, bool hasLightmapData) {
+inline void UnityEngine::Mesh::CombineMeshes(::ArrayW<::UnityEngine::CombineInstance> combine, /* [DefaultValue("true")] */ bool mergeSubMeshes, /* [DefaultValue("true")] */ bool useMatrices,
+                                             /* [DefaultValue("false")] */ bool hasLightmapData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
@@ -8380,7 +8451,8 @@ inline void UnityEngine::Mesh::SetVertexBufferParamsFromPtr_Injected(::System::I
           { "SetVertexBufferParamsFromPtr_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, vertexCount, attributesPtr, attributesCount);
 }
-inline void UnityEngine::Mesh::SetVertexBufferParamsFromArray_Injected(::System::IntPtr _unity_self, int32_t vertexCount, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> attributes) {
+inline void UnityEngine::Mesh::SetVertexBufferParamsFromArray_Injected(::System::IntPtr _unity_self, int32_t vertexCount,
+                                                                       /* [ParamArray] */ ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> attributes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(),
                                               { "SetVertexBufferParamsFromArray_Injected",
@@ -8992,6 +9064,7 @@ inline void UnityEngine::Mesh::OptimizeReorderVertexBufferImpl_Injected(::System
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Mesh*>(), { "OptimizeReorderVertexBufferImpl_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self);
 }
+/// @brief [RequiredByNativeCode]
 inline ::UnityEngine::Mesh* UnityEngine::Mesh::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Mesh*>());
 }

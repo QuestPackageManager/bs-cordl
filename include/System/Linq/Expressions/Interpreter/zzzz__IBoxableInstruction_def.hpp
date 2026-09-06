@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\IBoxableInstruction.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/IBoxableInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +22,12 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE IBoxableInstruction {
 public:
   // Declarations
-  /// @brief Method BoxIfIndexMatches, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method BoxIfIndexMatches, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBoxableInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IBoxableInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IBoxableInstruction(IBoxableInstruction const&) = delete;
+  IBoxableInstruction(IBoxableInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16454 };

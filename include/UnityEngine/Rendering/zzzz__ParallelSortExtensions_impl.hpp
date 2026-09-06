@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ParallelSortExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ParallelSortExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ParallelSortExtensions_def.hpp"
@@ -34,9 +34,9 @@ constexpr UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketCountJob
 constexpr ::Unity::Jobs::IJobFor* UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketCountJob::i___Unity__Jobs__IJobFor() {
   return static_cast<::Unity::Jobs::IJobFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "batchSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "buckets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "batchSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "buckets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketCountJob::ParallelSortExtensions_RadixSortBucketCountJob(int32_t radix, int32_t jobsCount, int32_t batchSize,
                                                                                                                                    ::Unity::Collections::NativeArray_1<int32_t> array,
                                                                                                                                    ::Unity::Collections::NativeArray_1<int32_t> buckets) noexcept {
@@ -113,11 +113,11 @@ constexpr UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSum
 constexpr ::Unity::Jobs::IJobFor* UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::i___Unity__Jobs__IJobFor() {
   return static_cast<::Unity::Jobs::IJobFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "counter", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "indicesSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "buckets", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "counter", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indicesSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "buckets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::ParallelSortExtensions_RadixSortBatchPrefixSumJob(
     int32_t radix, int32_t jobsCount, ::Unity::Collections::NativeArray_1<int32_t> array, ::Unity::Collections::NativeArray_1<int32_t> counter, ::Unity::Collections::NativeArray_1<int32_t> indicesSum,
     ::Unity::Collections::NativeArray_1<int32_t> buckets, ::Unity::Collections::NativeArray_1<int32_t> indices) noexcept {
@@ -158,8 +158,9 @@ constexpr UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob::
 constexpr ::Unity::Jobs::IJobFor* UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob::i___Unity__Jobs__IJobFor() {
   return static_cast<::Unity::Jobs::IJobFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "indicesSum", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "jobsCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indicesSum", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob::ParallelSortExtensions_RadixSortPrefixSumJob(int32_t jobsCount,
                                                                                                                                ::Unity::Collections::NativeArray_1<int32_t> indicesSum,
                                                                                                                                ::Unity::Collections::NativeArray_1<int32_t> indices) noexcept {
@@ -196,9 +197,10 @@ constexpr UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketSortJob:
 constexpr ::Unity::Jobs::IJobFor* UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketSortJob::i___Unity__Jobs__IJobFor() {
   return static_cast<::Unity::Jobs::IJobFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "batchSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "arraySorted", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "batchSize", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "indices", ty:
+// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "arraySorted", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketSortJob::ParallelSortExtensions_RadixSortBucketSortJob(int32_t radix, int32_t batchSize,
                                                                                                                                  ::Unity::Collections::NativeArray_1<int32_t> array,
                                                                                                                                  ::Unity::Collections::NativeArray_1<int32_t> indices,

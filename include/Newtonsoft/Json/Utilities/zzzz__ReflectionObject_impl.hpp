@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ReflectionObject.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ReflectionObject.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
@@ -56,7 +56,7 @@ inline void Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_0:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_0::_Create_b__0(::ArrayW<::System::Object*> args) {
+inline ::System::Object* Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_0::_Create_b__0(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_0*>(),
                                                                                          { "<Create>b__0", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, args);
@@ -172,7 +172,7 @@ inline void Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2::_Create_b__2(::System::Object* target, ::System::Object* arg) {
+inline void Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2::_Create_b__2(::System::Object* target, /* [Nullable(2)] */ ::System::Object* arg) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2*>(),
                                                                                          { "<Create>b__2", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, target, arg);
@@ -329,7 +329,7 @@ inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Js
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject*>(), { "get_Members", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::ReflectionObject::_ctor(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator) {
+inline void Newtonsoft::Json::Utilities::ReflectionObject::_ctor(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject*>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>() } })));
@@ -341,7 +341,7 @@ inline ::System::Object* Newtonsoft::Json::Utilities::ReflectionObject::GetValue
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject*>(), { "GetValue", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, target, member);
 }
-inline void Newtonsoft::Json::Utilities::ReflectionObject::SetValue(::System::Object* target, ::StringW member, ::System::Object* value) {
+inline void Newtonsoft::Json::Utilities::ReflectionObject::SetValue(::System::Object* target, ::StringW member, /* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject*>(),
                                                            { "SetValue", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>() } })));
@@ -352,19 +352,20 @@ inline ::System::Type* Newtonsoft::Json::Utilities::ReflectionObject::GetType(::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject*>(), { "GetType", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, member);
 }
-inline ::Newtonsoft::Json::Utilities::ReflectionObject* Newtonsoft::Json::Utilities::ReflectionObject::Create(::System::Type* t, ::ArrayW<::StringW> memberNames) {
+inline ::Newtonsoft::Json::Utilities::ReflectionObject* Newtonsoft::Json::Utilities::ReflectionObject::Create(::System::Type* t, /* [ParamArray] */ ::ArrayW<::StringW> memberNames) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject*>(),
                                                                                          { "Create", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::ReflectionObject*>(nullptr, ___internal_method, t, memberNames);
 }
-inline ::Newtonsoft::Json::Utilities::ReflectionObject* Newtonsoft::Json::Utilities::ReflectionObject::Create(::System::Type* t, ::System::Reflection::MethodBase* creator,
-                                                                                                              ::ArrayW<::StringW> memberNames) {
+inline ::Newtonsoft::Json::Utilities::ReflectionObject* Newtonsoft::Json::Utilities::ReflectionObject::Create(::System::Type* t, /* [Nullable(2)] */ ::System::Reflection::MethodBase* creator,
+                                                                                                              /* [ParamArray] */ ::ArrayW<::StringW> memberNames) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionObject*>(),
                                               { "Create", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Reflection::MethodBase*>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::ReflectionObject*>(nullptr, ___internal_method, t, creator, memberNames);
 }
-inline ::Newtonsoft::Json::Utilities::ReflectionObject* Newtonsoft::Json::Utilities::ReflectionObject::New_ctor(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator) {
+inline ::Newtonsoft::Json::Utilities::ReflectionObject*
+Newtonsoft::Json::Utilities::ReflectionObject::New_ctor(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Utilities::ReflectionObject*>(creator));
 }
 // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteController.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
@@ -186,6 +186,7 @@ inline ::System::Object* GlobalNamespace::NoteController__DissolveCoroutine_d__6
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteController__DissolveCoroutine_d__69*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::NoteController__DissolveCoroutine_d__69* GlobalNamespace::NoteController__DissolveCoroutine_d__69::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NoteController__DissolveCoroutine_d__69*>(__1__state));
 }
@@ -1067,13 +1068,13 @@ inline void GlobalNamespace::NoteController::SendNoteWasMissedEvent() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteController*>(), { "SendNoteWasMissedEvent", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::NoteController::SendNoteWasCutEvent(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::NoteController::SendNoteWasCutEvent(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteController*>(), { "SendNoteWasCutEvent", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteCutInfo);
 }
-inline void GlobalNamespace::NoteController::Init(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t endRotation, float_t uniformScale,
-                                                  bool rotateTowardsPlayer, bool useRandomRotation) {
+inline void GlobalNamespace::NoteController::Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t endRotation,
+                                                  float_t uniformScale, bool rotateTowardsPlayer, bool useRandomRotation) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteController*>(), { "Init",

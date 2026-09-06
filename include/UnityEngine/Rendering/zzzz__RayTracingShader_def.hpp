@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RayTracingShader.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RayTracingShader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,10 @@ class RayTracingShader;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RayTracingShader*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RayTracingShader*, "UnityEngine.Rendering", "RayTracingShader");
+// [MovedFrom("UnityEngine.Experimental.Rendering")]
+// [NativeHeader("Runtime/Shaders/RayTracing/RayTracingShader.h")]
+// [NativeHeader("Runtime/Shaders/RayTracing/RayTracingAccelerationStructure.h")]
+// [NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -30,13 +34,13 @@ protected:
   constexpr RayTracingShader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RayTracingShader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RayTracingShader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RayTracingShader(RayTracingShader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RayTracingShader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RayTracingShader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RayTracingShader(RayTracingShader const&) = delete;
+  RayTracingShader(RayTracingShaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10892 };

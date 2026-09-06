@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalDrawErrorSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalDrawErrorSystem.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawSystem_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalTechnique_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawErrorSystem_def.hpp"

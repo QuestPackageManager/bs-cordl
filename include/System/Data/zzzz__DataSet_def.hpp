@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataSet.hpp"
+// IWYU pragma private; include "System/Data/DataSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,6 +121,10 @@ class DataSet;
 // Write type traits
 MARK_REF_T(::System::Data::DataSet*);
 DEFINE_IL2CPP_CLASS(::System::Data::DataSet*, "System.Data", "DataSet");
+// [DefaultProperty("DataSetName")]
+// [XmlSchemaProvider("GetDataSetSchema")]
+// [XmlRoot("DataSet")]
+// [ToolboxItem("Microsoft.VSDesigner.Data.VS.DataSetToolboxItem, Microsoft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 // Dependencies System.ComponentModel.MarshalByValueComponent, System.Data.SerializationFormat
 namespace System::Data {
 // Is value type: false
@@ -128,6 +132,7 @@ namespace System::Data {
 class CORDL_TYPE DataSet : public ::System::ComponentModel::MarshalByValueComponent {
 public:
   // Declarations
+  /// @brief [DefaultValue(false)]
   __declspec(property(get = get_CaseSensitive, put = set_CaseSensitive)) bool CaseSensitive;
 
   /// @brief Field ClearFunctionCalled, offset 0xa8, size 0x8
@@ -136,10 +141,13 @@ public:
   /// @brief Field DataRowCreated, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_DataRowCreated, put = __cordl_internal_set_DataRowCreated)) ::System::Data::DataRowCreatedEventHandler* DataRowCreated;
 
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_DataSetName, put = set_DataSetName)) ::StringW DataSetName;
 
+  /// @brief [DefaultValue(true)]
   __declspec(property(get = get_EnforceConstraints, put = set_EnforceConstraints)) bool EnforceConstraints;
 
+  /// @brief [Browsable(false)]
   __declspec(property(get = get_ExtendedProperties)) ::System::Data::PropertyCollection* ExtendedProperties;
 
   __declspec(property(get = get_Locale, put = set_Locale)) ::System::Globalization::CultureInfo* Locale;
@@ -149,23 +157,32 @@ public:
   /// @brief Field MergeFailed, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_MergeFailed, put = __cordl_internal_set_MergeFailed)) ::System::Data::MergeFailedEventHandler* MergeFailed;
 
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_Namespace, put = set_Namespace)) ::StringW Namespace;
 
   __declspec(property(get = get_ObjectID)) int32_t ObjectID;
 
+  /// @brief [DefaultValue("")]
   __declspec(property(get = get_Prefix, put = set_Prefix)) ::StringW Prefix;
 
   /// @brief Field PropertyChanging, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_PropertyChanging, put = __cordl_internal_set_PropertyChanging)) ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
 
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)2)]
   __declspec(property(get = get_Relations)) ::System::Data::DataRelationCollection* Relations;
 
+  /// @brief [DefaultValue((System.Data.SerializationFormat)0)]
   __declspec(property(get = get_RemotingFormat, put = set_RemotingFormat)) ::System::Data::SerializationFormat RemotingFormat;
 
+  /// [Browsable(false)]
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
   __declspec(property(get = get_SchemaSerializationMode)) ::System::Data::SchemaSerializationMode SchemaSerializationMode;
 
+  /// [Browsable(false)]
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)0)]
   __declspec(property(get = get_Site)) ::System::ComponentModel::ISite* Site;
 
+  /// @brief [DesignerSerializationVisibility((System.ComponentModel.DesignerSerializationVisibility)2)]
   __declspec(property(get = get_Tables)) ::System::Data::DataTableCollection* Tables;
 
   /// @brief Field _caseSensitive, offset 0x59, size 0x1
@@ -698,13 +715,13 @@ protected:
   constexpr DataSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataSet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataSet(DataSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataSet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataSet(DataSet const&) = delete;
+  DataSet(DataSetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13742 };
@@ -778,15 +795,19 @@ public:
   /// @brief Field _udtIsWrapped, offset: 0x8d, size: 0x1, def value: None
   bool ____udtIsWrapped;
 
+  /// [CompilerGenerated]
   /// @brief Field PropertyChanging, offset: 0x90, size: 0x8, def value: None
   ::System::ComponentModel::PropertyChangedEventHandler* ___PropertyChanging;
 
+  /// [CompilerGenerated]
   /// @brief Field MergeFailed, offset: 0x98, size: 0x8, def value: None
   ::System::Data::MergeFailedEventHandler* ___MergeFailed;
 
+  /// [CompilerGenerated]
   /// @brief Field DataRowCreated, offset: 0xa0, size: 0x8, def value: None
   ::System::Data::DataRowCreatedEventHandler* ___DataRowCreated;
 
+  /// [CompilerGenerated]
   /// @brief Field ClearFunctionCalled, offset: 0xa8, size: 0x8, def value: None
   ::System::Data::DataSetClearEventhandler* ___ClearFunctionCalled;
 

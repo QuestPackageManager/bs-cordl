@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumePerSceneData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumePerSceneData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,8 +55,8 @@ public:
   // @brief default ctor
   constexpr ProbeVolumePerSceneData_ObsoletePerScenarioData();
 
-  // Ctor Parameters [CppParam { name: "sceneHash", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cellDataAsset", ty: "::UnityW<::UnityEngine::TextAsset>", modifiers: "",
-  // def_value: None }, CppParam { name: "cellOptionalDataAsset", ty: "::UnityW<::UnityEngine::TextAsset>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sceneHash", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cellDataAsset", ty: "::UnityW<::UnityEngine::TextAsset>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cellOptionalDataAsset", ty: "::UnityW<::UnityEngine::TextAsset>", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolumePerSceneData_ObsoletePerScenarioData(int32_t sceneHash, ::UnityW<::UnityEngine::TextAsset> cellDataAsset, ::UnityW<::UnityEngine::TextAsset> cellOptionalDataAsset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -97,8 +97,8 @@ public:
   // @brief default ctor
   constexpr ProbeVolumePerSceneData_ObsoleteSerializablePerScenarioDataItem();
 
-  // Ctor Parameters [CppParam { name: "scenario", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty:
-  // "::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioData", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "scenario", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "data", ty:
+  // "::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioData", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeVolumePerSceneData_ObsoleteSerializablePerScenarioDataItem(::StringW scenario, ::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoletePerScenarioData data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -123,6 +123,8 @@ static_assert(offsetof(::UnityEngine::Rendering::ProbeVolumePerSceneData_Obsolet
 static_assert(sizeof(::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoleteSerializablePerScenarioDataItem) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [ExecuteAlways]
+// [AddComponentMenu("")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -232,32 +234,43 @@ protected:
   constexpr ProbeVolumePerSceneData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePerSceneData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePerSceneData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumePerSceneData(ProbeVolumePerSceneData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePerSceneData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumePerSceneData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumePerSceneData(ProbeVolumePerSceneData const&) = delete;
+  ProbeVolumePerSceneData(ProbeVolumePerSceneDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12147 };
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("bakingSet")]
   /// @brief Field serializedBakingSet, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> ___serializedBakingSet;
 
+  /// [SerializeField]
   /// @brief Field sceneGUID, offset: 0x28, size: 0x8, def value: None
   ::StringW ___sceneGUID;
 
+  /// [FormerlySerializedAs("asset")]
+  /// [SerializeField]
   /// @brief Field obsoleteAsset, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::ObsoleteProbeVolumeAsset> ___obsoleteAsset;
 
+  /// [FormerlySerializedAs("cellSharedDataAsset")]
+  /// [SerializeField]
   /// @brief Field obsoleteCellSharedDataAsset, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___obsoleteCellSharedDataAsset;
 
+  /// [FormerlySerializedAs("cellSupportDataAsset")]
+  /// [SerializeField]
   /// @brief Field obsoleteCellSupportDataAsset, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___obsoleteCellSupportDataAsset;
 
+  /// [FormerlySerializedAs("serializedScenarios")]
+  /// [SerializeField]
   /// @brief Field obsoleteSerializedScenarios, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeVolumePerSceneData_ObsoleteSerializablePerScenarioDataItem>* ___obsoleteSerializedScenarios;
 

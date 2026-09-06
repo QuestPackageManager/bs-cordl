@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\AddressablesImpl.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/AddressablesImpl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__Addressables_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneReleaseMode_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneParameters_impl.hpp"
@@ -4848,7 +4849,7 @@ inline void UnityEngine::AddressableAssets::AddressablesImpl::Log(::StringW msg)
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, msg);
 }
-inline void UnityEngine::AddressableAssets::AddressablesImpl::LogFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AddressableAssets::AddressablesImpl::LogFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(),
                                                                                          { "LogFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, format, args);
@@ -4858,7 +4859,7 @@ inline void UnityEngine::AddressableAssets::AddressablesImpl::LogWarning(::Strin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(), { "LogWarning", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, msg);
 }
-inline void UnityEngine::AddressableAssets::AddressablesImpl::LogWarningFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AddressableAssets::AddressablesImpl::LogWarningFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(),
                                                                                          { "LogWarningFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, format, args);
@@ -4880,7 +4881,7 @@ inline void UnityEngine::AddressableAssets::AddressablesImpl::LogException(::Sys
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(), { "LogException", {}, { ::i2c::type_of<::System::Exception*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ex);
 }
-inline void UnityEngine::AddressableAssets::AddressablesImpl::LogErrorFormat(::StringW format, ::ArrayW<::System::Object*> args) {
+inline void UnityEngine::AddressableAssets::AddressablesImpl::LogErrorFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::AddressablesImpl*>(),
                                                                                          { "LogErrorFormat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, format, args);
@@ -4958,6 +4959,7 @@ UnityEngine::AddressableAssets::AddressablesImpl::InitializeAsync(bool autoRelea
       this, ___internal_method, autoReleaseHandle);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
 inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
 UnityEngine::AddressableAssets::AddressablesImpl::CreateCatalogLocationWithHashDependencies(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLocation) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -4968,6 +4970,7 @@ UnityEngine::AddressableAssets::AddressablesImpl::CreateCatalogLocationWithHashD
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(this, ___internal_method, catalogLocation);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
 inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
 UnityEngine::AddressableAssets::AddressablesImpl::CreateCatalogLocationWithHashDependencies(::StringW catalogLocation) {
   static auto* ___internal_method_base =
@@ -4977,6 +4980,7 @@ UnityEngine::AddressableAssets::AddressablesImpl::CreateCatalogLocationWithHashD
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(this, ___internal_method, catalogLocation);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>)
 inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* UnityEngine::AddressableAssets::AddressablesImpl::CreateCatalogLocationWithHashDependencies(::StringW catalogPath,
                                                                                                                                                                                ::StringW hashFilePath) {
   static auto* ___internal_method_base =

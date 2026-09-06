@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightRotationBeatmapEventData.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightRotationBeatmapEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -161,18 +161,23 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightRotationBeatmapEventData*>* getStaticF__defaults();
 
+  /// [CompilerGenerated]
   /// @brief Method get_axis, addr 0x325abe0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightAxis get_axis();
 
+  /// [CompilerGenerated]
   /// @brief Method get_easeType, addr 0x325abd0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_elementId, addr 0x325abb0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_elementId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_groupId, addr 0x325aba0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_loopCount, addr 0x325abf0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_loopCount();
 
@@ -182,38 +187,49 @@ public:
   /// @brief Method get_previousSameTypeEventData, addr 0x325aaa8, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightRotationBeatmapEventData* get_previousSameTypeEventData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rotation, addr 0x325ac10, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rotationDirection, addr 0x325ac00, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightRotationDirection get_rotationDirection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_usePreviousEventValue, addr 0x325abc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightRotationBeatmapEventData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_axis, addr 0x325abe8, size 0x8, virtual false, abstract: false, final false
   inline void set_axis(::GlobalNamespace::LightAxis value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_easeType, addr 0x325abd8, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_elementId, addr 0x325abb8, size 0x8, virtual false, abstract: false, final false
   inline void set_elementId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_groupId, addr 0x325aba8, size 0x8, virtual false, abstract: false, final false
   inline void set_groupId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_loopCount, addr 0x325abf8, size 0x8, virtual false, abstract: false, final false
   inline void set_loopCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rotation, addr 0x325ac18, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_rotationDirection, addr 0x325ac08, size 0x8, virtual false, abstract: false, final false
   inline void set_rotationDirection(::GlobalNamespace::LightRotationDirection value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_usePreviousEventValue, addr 0x325abc8, size 0x8, virtual false, abstract: false, final false
   inline void set_usePreviousEventValue(bool value);
 
@@ -223,38 +239,46 @@ protected:
   constexpr LightRotationBeatmapEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationBeatmapEventData(LightRotationBeatmapEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationBeatmapEventData(LightRotationBeatmapEventData const&) = delete;
+  LightRotationBeatmapEventData(LightRotationBeatmapEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21247 };
 
+  /// [CompilerGenerated]
   /// @brief Field <groupId>k__BackingField, offset: 0x38, size: 0x4, def value: None
   int32_t ____groupId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <elementId>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   int32_t ____elementId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <usePreviousEventValue>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____usePreviousEventValue_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <easeType>k__BackingField, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <axis>k__BackingField, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::LightAxis ____axis_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <loopCount>k__BackingField, offset: 0x4c, size: 0x4, def value: None
   int32_t ____loopCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rotationDirection>k__BackingField, offset: 0x50, size: 0x4, def value: None
   ::GlobalNamespace::LightRotationDirection ____rotationDirection_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <rotation>k__BackingField, offset: 0x54, size: 0x4, def value: None
   float_t ____rotation_k__BackingField;
 

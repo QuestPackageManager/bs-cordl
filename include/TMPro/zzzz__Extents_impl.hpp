@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\Extents.hpp"
+// IWYU pragma private; include "TMPro/Extents.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/zzzz__Extents_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -49,8 +49,8 @@ inline ::StringW TMPro::Extents::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::TMPro::Extents>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::Extents::Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept {
   this->min = min;
   this->max = max;

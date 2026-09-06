@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ManipulatorActivationFilter.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ManipulatorActivationFilter.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseButton_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ManipulatorActivationFilter_def.hpp"
@@ -225,8 +225,9 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivatio
 UnityEngine::UIElements::ManipulatorActivationFilter::i___System__IEquatable_1___UnityEngine__UIElements__ManipulatorActivationFilter_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_button_k__BackingField", ty: "::UnityEngine::UIElements::MouseButton", modifiers: "", def_value: Some("{}") }, CppParam { name: "_modifiers_k__BackingField", ty:
-// "::UnityEngine::EventModifiers", modifiers: "", def_value: Some("{}") }, CppParam { name: "_clickCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_button_k__BackingField", ty: "::UnityEngine::UIElements::MouseButton", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_modifiers_k__BackingField", ty: "::UnityEngine::EventModifiers", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_clickCount_k__BackingField", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::ManipulatorActivationFilter::ManipulatorActivationFilter(::UnityEngine::UIElements::MouseButton _button_k__BackingField,
                                                                                               ::UnityEngine::EventModifiers _modifiers_k__BackingField, int32_t _clickCount_k__BackingField) noexcept {
   this->_button_k__BackingField = _button_k__BackingField;

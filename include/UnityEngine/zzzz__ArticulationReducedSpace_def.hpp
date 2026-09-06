@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ArticulationReducedSpace.hpp"
+// IWYU pragma private; include "UnityEngine/ArticulationReducedSpace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ MARK_VAL_T(::UnityEngine::ArticulationReducedSpace);
 MARK_VAL_T(::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ArticulationReducedSpace, "UnityEngine", "ArticulationReducedSpace");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer, "UnityEngine", "ArticulationReducedSpace/<x>e__FixedBuffer");
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -34,7 +36,7 @@ public:
   // @brief default ctor
   constexpr ArticulationReducedSpace__x_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr ArticulationReducedSpace__x_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -58,6 +60,8 @@ static_assert(offsetof(::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer
 static_assert(sizeof(::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer) == 0xc, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/Physics/ArticulationBody.h")]
+// [DefaultMember("Item")]
 // Dependencies UnityEngine.ArticulationReducedSpace::<x>e__FixedBuffer
 namespace UnityEngine {
 // Is value type: true
@@ -88,8 +92,8 @@ public:
   // @brief default ctor
   constexpr ArticulationReducedSpace();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "dofCount", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "dofCount", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ArticulationReducedSpace(::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer x, int32_t dofCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -98,6 +102,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [FixedBuffer(typeof(System.Single), 3)]
   /// @brief Field x, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer x;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\DiagnosticTraceBase.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/DiagnosticTraceBase.hpp"
 #include "System/Diagnostics/zzzz__SourceLevels_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

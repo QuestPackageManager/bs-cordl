@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EasingFunction.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EasingFunction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,7 +90,7 @@ public:
   // @brief default ctor
   constexpr EasingFunction();
 
-  // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UIElements::EasingMode", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UIElements::EasingMode", modifiers: "", def_value: None, comment: None }]
   constexpr EasingFunction(::UnityEngine::UIElements::EasingMode m_Mode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -150,9 +150,11 @@ public:
   /// @brief Method .ctor, addr 0x6ddd73c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6ddd7a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6ddd7a0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -162,20 +164,24 @@ protected:
   constexpr PropertyBag_EasingFunction_ModeProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_EasingFunction_ModeProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_EasingFunction_ModeProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModeProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_EasingFunction_ModeProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_EasingFunction_ModeProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModeProperty const&) = delete;
+  PropertyBag_EasingFunction_ModeProperty(PropertyBag_EasingFunction_ModePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4710 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -209,13 +215,13 @@ protected:
   constexpr EasingFunction_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EasingFunction_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EasingFunction_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EasingFunction_PropertyBag(EasingFunction_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EasingFunction_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EasingFunction_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EasingFunction_PropertyBag(EasingFunction_PropertyBag const&) = delete;
+  EasingFunction_PropertyBag(EasingFunction_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4711 };

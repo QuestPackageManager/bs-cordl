@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ScrollView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ScrollView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +87,9 @@ namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlFloatAttributeDescription;
@@ -133,6 +135,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ScrollView_TouchScrollingResult, 
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ScrollView*, "UnityEngine.UIElements", "ScrollView");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ScrollView_UxmlFactory*, "UnityEngine.UIElements", "ScrollView/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ScrollView_UxmlTraits*, "UnityEngine.UIElements", "ScrollView/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -151,13 +154,13 @@ protected:
   constexpr ScrollView_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollView_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScrollView_UxmlFactory(ScrollView_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollView_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView_UxmlFactory(ScrollView_UxmlFactory const&) = delete;
+  ScrollView_UxmlFactory(ScrollView_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4305 };
@@ -168,6 +171,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::ScrollView_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -308,13 +312,13 @@ protected:
   constexpr ScrollView_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollView_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScrollView_UxmlTraits(ScrollView_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView_UxmlTraits(ScrollView_UxmlTraits const&) = delete;
+  ScrollView_UxmlTraits(ScrollView_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4306 };
@@ -415,7 +419,7 @@ public:
   // @brief default ctor
   constexpr ScrollView_TouchScrollBehavior();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScrollView_TouchScrollBehavior(int32_t value__) noexcept;
 
   /// @brief Field Clamped value: I32(2)
@@ -474,7 +478,7 @@ public:
   // @brief default ctor
   constexpr ScrollView_NestedInteractionKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScrollView_NestedInteractionKind(int32_t value__) noexcept;
 
   /// @brief Field Default value: I32(0)
@@ -533,7 +537,7 @@ public:
   // @brief default ctor
   constexpr ScrollView_TouchScrollingResult();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ScrollView_TouchScrollingResult(int32_t value__) noexcept;
 
   /// @brief Field Apply value: I32(0)
@@ -610,12 +614,14 @@ public:
   __declspec(property(get = __cordl_internal_get_elapsedTimeSinceLastVerticalTouchScroll,
                       put = __cordl_internal_set_elapsedTimeSinceLastVerticalTouchScroll)) float_t elapsedTimeSinceLastVerticalTouchScroll;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_elasticAnimationIntervalMs, put = set_elasticAnimationIntervalMs)) int64_t elasticAnimationIntervalMs;
 
   /// @brief Field elasticAnimationIntervalMsProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_elasticAnimationIntervalMsProperty,
                       put = setStaticF_elasticAnimationIntervalMsProperty)) ::UnityEngine::UIElements::BindingId elasticAnimationIntervalMsProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_elasticity, put = set_elasticity)) float_t elasticity;
 
   /// @brief Field elasticityProperty, offset 0xffffffff, size 0x98
@@ -626,6 +632,7 @@ public:
 
   __declspec(property(get = get_hasInertia)) bool hasInertia;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_horizontalPageSize, put = set_horizontalPageSize)) float_t horizontalPageSize;
 
   /// @brief Field horizontalPageSizeProperty, offset 0xffffffff, size 0x98
@@ -633,6 +640,7 @@ public:
 
   __declspec(property(get = get_horizontalScroller)) ::UnityEngine::UIElements::Scroller* horizontalScroller;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_horizontalScrollerVisibility, put = set_horizontalScrollerVisibility)) ::UnityEngine::UIElements::ScrollerVisibility horizontalScrollerVisibility;
 
   /// @brief Field horizontalScrollerVisibilityProperty, offset 0xffffffff, size 0x98
@@ -772,11 +780,13 @@ public:
   __declspec(property(get = __cordl_internal_get_m_VerticalScrollerVisibility,
                       put = __cordl_internal_set_m_VerticalScrollerVisibility)) ::UnityEngine::UIElements::ScrollerVisibility m_VerticalScrollerVisibility;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_mode, put = set_mode)) ::UnityEngine::UIElements::ScrollViewMode mode;
 
   /// @brief Field modeProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_modeProperty, put = setStaticF_modeProperty)) ::UnityEngine::UIElements::BindingId modeProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_mouseWheelScrollSize, put = set_mouseWheelScrollSize)) float_t mouseWheelScrollSize;
 
   /// @brief Field mouseWheelScrollSizeProperty, offset 0xffffffff, size 0x98
@@ -786,6 +796,7 @@ public:
 
   __declspec(property(get = get_needsVertical)) bool needsVertical;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_nestedInteractionKind, put = set_nestedInteractionKind)) ::UnityEngine::UIElements::ScrollView_NestedInteractionKind nestedInteractionKind;
 
   /// @brief Field nestedInteractionKindProperty, offset 0xffffffff, size 0x98
@@ -798,11 +809,13 @@ public:
   /// @brief Field previousVerticalTouchScrollTimeStamp, offset 0x520, size 0x4
   __declspec(property(get = __cordl_internal_get_previousVerticalTouchScrollTimeStamp, put = __cordl_internal_set_previousVerticalTouchScrollTimeStamp)) float_t previousVerticalTouchScrollTimeStamp;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_scrollDecelerationRate, put = set_scrollDecelerationRate)) float_t scrollDecelerationRate;
 
   /// @brief Field scrollDecelerationRateProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_scrollDecelerationRateProperty, put = setStaticF_scrollDecelerationRateProperty)) ::UnityEngine::UIElements::BindingId scrollDecelerationRateProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_scrollOffset, put = set_scrollOffset)) ::UnityEngine::Vector2 scrollOffset;
 
   /// @brief Field scrollOffsetProperty, offset 0xffffffff, size 0x98
@@ -815,10 +828,13 @@ public:
 
   __declspec(property(get = get_scrollableWidth)) float_t scrollableWidth;
 
+  /// @brief [Obsolete("showHorizontal is obsolete. Use horizontalScrollerVisibility instead")]
   __declspec(property(put = set_showHorizontal)) bool showHorizontal;
 
+  /// @brief [Obsolete("showVertical is obsolete. Use verticalScrollerVisibility instead")]
   __declspec(property(put = set_showVertical)) bool showVertical;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_touchScrollBehavior, put = set_touchScrollBehavior)) ::UnityEngine::UIElements::ScrollView_TouchScrollBehavior touchScrollBehavior;
 
   /// @brief Field touchScrollBehaviorProperty, offset 0xffffffff, size 0x98
@@ -841,6 +857,7 @@ public:
   __declspec(property(get = getStaticF_verticalHorizontalVariantViewportUssClassName,
                       put = setStaticF_verticalHorizontalVariantViewportUssClassName)) ::StringW verticalHorizontalVariantViewportUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_verticalPageSize, put = set_verticalPageSize)) float_t verticalPageSize;
 
   /// @brief Field verticalPageSizeProperty, offset 0xffffffff, size 0x98
@@ -848,6 +865,7 @@ public:
 
   __declspec(property(get = get_verticalScroller)) ::UnityEngine::UIElements::Scroller* verticalScroller;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_verticalScrollerVisibility, put = set_verticalScrollerVisibility)) ::UnityEngine::UIElements::ScrollerVisibility verticalScrollerVisibility;
 
   /// @brief Field verticalScrollerVisibilityProperty, offset 0xffffffff, size 0x98
@@ -1233,9 +1251,11 @@ public:
 
   constexpr void __cordl_internal_set_previousVerticalTouchScrollTimeStamp(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__138_0, addr 0x6d6eb28, size 0x30, virtual false, abstract: false, final false
   inline void __ctor_b__138_0(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__138_1, addr 0x6d6eb58, size 0x30, virtual false, abstract: false, final false
   inline void __ctor_b__138_1(float_t value);
 
@@ -1308,6 +1328,7 @@ public:
   /// @brief Method get_contentContainer, addr 0x6d69614, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_contentViewport, addr 0x6d695fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentViewport();
 
@@ -1323,6 +1344,7 @@ public:
   /// @brief Method get_horizontalPageSize, addr 0x6d68488, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalPageSize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_horizontalScroller, addr 0x6d69604, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Scroller* get_horizontalScroller();
 
@@ -1344,6 +1366,7 @@ public:
   /// @brief Method get_needsHorizontal, addr 0x6d674b8, size 0x48, virtual false, abstract: false, final false
   inline bool get_needsHorizontal();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_needsVertical, addr 0x6d67500, size 0x4c, virtual false, abstract: false, final false
   inline bool get_needsVertical();
 
@@ -1368,6 +1391,7 @@ public:
   /// @brief Method get_verticalPageSize, addr 0x6d687c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_verticalPageSize();
 
+  /// [CompilerGenerated]
   /// @brief Method get_verticalScroller, addr 0x6d6960c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Scroller* get_verticalScroller();
 
@@ -1482,13 +1506,13 @@ protected:
   constexpr ScrollView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScrollView(ScrollView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollView(ScrollView const&) = delete;
+  ScrollView(ScrollViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4310 };
@@ -1541,12 +1565,18 @@ public:
   /// @brief Field m_NestedInteractionKind, offset: 0x4f0, size: 0x4, def value: None
   ::UnityEngine::UIElements::ScrollView_NestedInteractionKind ___m_NestedInteractionKind;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <contentViewport>k__BackingField, offset: 0x4f8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____contentViewport_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <horizontalScroller>k__BackingField, offset: 0x500, size: 0x8, def value: None
   ::UnityEngine::UIElements::Scroller* ____horizontalScroller_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <verticalScroller>k__BackingField, offset: 0x508, size: 0x8, def value: None
   ::UnityEngine::UIElements::Scroller* ____verticalScroller_k__BackingField;
 

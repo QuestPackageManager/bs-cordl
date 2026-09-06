@@ -1,5 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\OpenXRFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/OpenXRFeature.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_impl.hpp"
+#include "UnityEngine/zzzz__ISubsystem_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +12,7 @@
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderBase_def.hpp"
 #include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureUsage_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent::OpenXRFeature_LoaderEvent(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -20,7 +22,7 @@ constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent UnityEn
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent::SubsystemDestroy{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent::SubsystemStart{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent UnityEngine::XR::OpenXR::Features::OpenXRFeature_LoaderEvent::SubsystemStop{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent::OpenXRFeature_NativeEvent(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -48,7 +50,7 @@ constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent UnityEn
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent::XrRestartRequested{ static_cast<int32_t>(0x13) };
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent::XrRequestRestartLoop{ static_cast<int32_t>(0x14) };
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent::XrRequestGetSystemLoop{ static_cast<int32_t>(0x15) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_StatFlags::OpenXRFeature_StatFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -1254,6 +1256,7 @@ inline ::UnityEngine::XR::OpenXR::NativeTypes::XrEnvironmentBlendMode UnityEngin
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrEnvironmentBlendMode>(nullptr, ___internal_method);
 }
 template <typename TDescriptor, typename TSubsystem>
+  requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::ISubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::ISubsystem*>)
 inline void UnityEngine::XR::OpenXR::Features::OpenXRFeature::CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::OpenXRFeature*>(),
@@ -1263,19 +1266,25 @@ inline void UnityEngine::XR::OpenXR::Features::OpenXRFeature::CreateSubsystem(::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDescriptor>(), ::i2c::class_of<TSubsystem>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, descriptors, id);
 }
-template <typename T> inline void UnityEngine::XR::OpenXR::Features::OpenXRFeature::StartSubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::XR::OpenXR::Features::OpenXRFeature::StartSubsystem() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::OpenXRFeature*>(), { "StartSubsystem", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::XR::OpenXR::Features::OpenXRFeature::StopSubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::XR::OpenXR::Features::OpenXRFeature::StopSubsystem() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::OpenXRFeature*>(), { "StopSubsystem", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::XR::OpenXR::Features::OpenXRFeature::DestroySubsystem() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+inline void UnityEngine::XR::OpenXR::Features::OpenXRFeature::DestroySubsystem() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::OpenXRFeature*>(), { "DestroySubsystem", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

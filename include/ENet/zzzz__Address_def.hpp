@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\Address.hpp"
+// IWYU pragma private; include "ENet/Address.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr Address();
 
-  // Ctor Parameters [CppParam { name: "nativeAddress", ty: "::ENet::ENetAddress", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nativeAddress", ty: "::ENet::ENetAddress", modifiers: "", def_value: None, comment: None }]
   constexpr Address(::ENet::ENetAddress nativeAddress) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

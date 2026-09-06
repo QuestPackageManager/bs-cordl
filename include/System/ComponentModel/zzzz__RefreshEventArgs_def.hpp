@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\RefreshEventArgs.hpp"
+// IWYU pragma private; include "System/ComponentModel/RefreshEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,17 +42,18 @@ protected:
   constexpr RefreshEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RefreshEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RefreshEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RefreshEventArgs(RefreshEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RefreshEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RefreshEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RefreshEventArgs(RefreshEventArgs const&) = delete;
+  RefreshEventArgs(RefreshEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11293 };
 
+  /// [CompilerGenerated]
   /// @brief Field <TypeChanged>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____TypeChanged_k__BackingField;
 

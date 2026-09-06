@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifierParamsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierParamsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -163,41 +163,52 @@ protected:
   constexpr GameplayModifierParamsSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierParamsSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierParamsSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifierParamsSO(GameplayModifierParamsSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierParamsSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierParamsSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifierParamsSO(GameplayModifierParamsSO const&) = delete;
+  GameplayModifierParamsSO(GameplayModifierParamsSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14870 };
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _modifierNameLocalizationKey, offset: 0x18, size: 0x8, def value: None
   ::StringW ____modifierNameLocalizationKey;
 
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field _descriptionLocalizationKey, offset: 0x20, size: 0x8, def value: None
   ::StringW ____descriptionLocalizationKey;
 
+  /// [SerializeField]
   /// @brief Field _icon, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____icon;
 
+  /// [SerializeField]
   /// @brief Field _mutuallyExclusives, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> ____mutuallyExclusives;
 
+  /// [SerializeField]
   /// @brief Field _requires, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> ____requires;
 
+  /// [SerializeField]
   /// @brief Field _requiredBy, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> ____requiredBy;
 
+  /// [SerializeField]
   /// @brief Field _multiplier, offset: 0x48, size: 0x4, def value: None
   float_t ____multiplier;
 
+  /// [SerializeField]
   /// @brief Field _multiplierConditionallyValid, offset: 0x4c, size: 0x1, def value: None
   bool ____multiplierConditionallyValid;
 
+  /// [SerializeField]
   /// @brief Field _isInBeta, offset: 0x4d, size: 0x1, def value: None
   bool ____isInBeta;
 

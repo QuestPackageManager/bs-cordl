@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\AddressablesExtensions.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/AddressablesExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,9 @@ namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -46,6 +48,7 @@ MARK_REF_T(::BGLib::UnityExtension::AddressablesExtensions*);
 MARK_GEN_REF_T_PTR(::BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass4_0_1);
 DEFINE_IL2CPP_CLASS(::BGLib::UnityExtension::AddressablesExtensions*, "BGLib.UnityExtension", "AddressablesExtensions");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass4_0_1, "BGLib.UnityExtension", "AddressablesExtensions/<>c__DisplayClass4_0`1");
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace BGLib::UnityExtension {
 // cpp template
@@ -88,13 +91,13 @@ protected:
   constexpr AddressablesExtensions___c__DisplayClass4_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesExtensions___c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesExtensions___c__DisplayClass4_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesExtensions___c__DisplayClass4_0_1(AddressablesExtensions___c__DisplayClass4_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesExtensions___c__DisplayClass4_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesExtensions___c__DisplayClass4_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesExtensions___c__DisplayClass4_0_1(AddressablesExtensions___c__DisplayClass4_0_1 const&) = delete;
+  AddressablesExtensions___c__DisplayClass4_0_1(AddressablesExtensions___c__DisplayClass4_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20786 };
@@ -109,6 +112,7 @@ public:
 };
 // Non member Declarations
 } // namespace BGLib::UnityExtension
+// [Extension]
 // Dependencies System.Object
 namespace BGLib::UnityExtension {
 // Is value type: false
@@ -127,6 +131,7 @@ public:
   static inline ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>>
   GetAssetLoadingAsyncOperationHandleOrNull(::StringW runtimeKey);
 
+  /// [Extension]
   /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<T> GetAwaiter(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> asyncOperationHandle);
@@ -147,13 +152,13 @@ protected:
   constexpr AddressablesExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesExtensions(AddressablesExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesExtensions(AddressablesExtensions const&) = delete;
+  AddressablesExtensions(AddressablesExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20787 };

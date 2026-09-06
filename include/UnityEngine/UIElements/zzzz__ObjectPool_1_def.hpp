@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ObjectPool_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ObjectPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,24 +13,32 @@ namespace System {
 template <typename TResult> class Func_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1___c;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1___c;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::ObjectPool_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::ObjectPool_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::ObjectPool_1, "UnityEngine.UIElements", "ObjectPool`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::ObjectPool_1___c, "UnityEngine.UIElements", "ObjectPool`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ObjectPool`1/<>c<T>
 class CORDL_TYPE ObjectPool_1___c : public ::System::Object {
@@ -64,13 +72,13 @@ protected:
   constexpr ObjectPool_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectPool_1___c(ObjectPool_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectPool_1___c(ObjectPool_1___c const&) = delete;
+  ObjectPool_1___c(ObjectPool_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4632 };
@@ -83,6 +91,7 @@ public:
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ObjectPool`1<T>
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
@@ -145,13 +154,13 @@ protected:
   constexpr ObjectPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectPool_1(ObjectPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectPool_1(ObjectPool_1 const&) = delete;
+  ObjectPool_1(ObjectPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4633 };

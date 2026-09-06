@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SegmentedControl.hpp"
+// IWYU pragma private; include "HMUI/SegmentedControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "HMUI/zzzz__SegmentedControlCell_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SegmentedControl)
@@ -70,15 +71,15 @@ namespace HMUI {
 class CORDL_TYPE SegmentedControl_IDataSource {
 public:
   // Declarations
-  /// @brief Method CellForCellNumber, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CellForCellNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  /// @brief Method NumberOfCells, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method NumberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t NumberOfCells();
 
-  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl_IDataSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl_IDataSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SegmentedControl_IDataSource(SegmentedControl_IDataSource const&) = delete;
+  SegmentedControl_IDataSource(SegmentedControl_IDataSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23137 };
@@ -87,7 +88,7 @@ public:
 };
 // Non member Declarations
 } // namespace HMUI
-// Dependencies UnityEngine.MonoBehaviour
+// Dependencies HMUI.SegmentedControlCell, UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.SegmentedControl
@@ -147,7 +148,9 @@ public:
   inline void CreateCells();
 
   /// @brief Method GetReusableCell, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetReusableCell(::UnityEngine::Object* prefab);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::HMUI::SegmentedControlCell*>)
+  inline T GetReusableCell(::UnityEngine::Object* prefab);
 
   /// @brief Method HandleCellSelectionDidChange, addr 0x5f56e38, size 0x174, virtual false, abstract: false, final false
   inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* changeOwner);
@@ -244,9 +247,11 @@ public:
   /// @brief Method .ctor, addr 0x5f55e6c, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressNonInteractableCellEvent, addr 0x5f56650, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectCellEvent, addr 0x5f564d0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
@@ -259,9 +264,11 @@ public:
   /// @brief Method get_selectedCellNumber, addr 0x5f567d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedCellNumber();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressNonInteractableCellEvent, addr 0x5f56710, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectCellEvent, addr 0x5f56590, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
@@ -274,26 +281,31 @@ protected:
   constexpr SegmentedControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SegmentedControl(SegmentedControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SegmentedControl(SegmentedControl const&) = delete;
+  SegmentedControl(SegmentedControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23138 };
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _separatorPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____separatorPrefab;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x28, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectCellEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* ___didSelectCellEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressNonInteractableCellEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* ___didPressNonInteractableCellEvent;
 

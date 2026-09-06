@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\NoInterpFloatRangeParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/NoInterpFloatRangeParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpFloatRangeParameter_def.hpp"

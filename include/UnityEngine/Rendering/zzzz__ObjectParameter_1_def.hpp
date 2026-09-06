@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ObjectParameter_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ObjectParameter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ObjectParameter_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ObjectParameter_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::ObjectParameter_1, "UnityEngine.Rendering", "ObjectParameter`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::ObjectParameter_1___c, "UnityEngine.Rendering", "ObjectParameter`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // cpp template
@@ -82,13 +83,13 @@ protected:
   constexpr ObjectParameter_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectParameter_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectParameter_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectParameter_1___c(ObjectParameter_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectParameter_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectParameter_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectParameter_1___c(ObjectParameter_1___c const&) = delete;
+  ObjectParameter_1___c(ObjectParameter_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12371 };
@@ -97,6 +98,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::Rendering
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.VolumeParameter`1<T>
 namespace UnityEngine::Rendering {
 // cpp template
@@ -133,12 +135,14 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value);
 
+  /// [CompilerGenerated]
   /// @brief Method <set_value>b__9_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VolumeParameter* _set_value_b__9_2(::System::Reflection::FieldInfo* t);
 
   /// @brief Method get_overrideState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_overrideState();
 
+  /// [CompilerGenerated]
   /// @brief Method get_parameters, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* get_parameters();
 
@@ -148,6 +152,7 @@ public:
   /// @brief Method set_overrideState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_overrideState(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_parameters, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_parameters(::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* value);
 
@@ -160,17 +165,18 @@ protected:
   constexpr ObjectParameter_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectParameter_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectParameter_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectParameter_1(ObjectParameter_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectParameter_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectParameter_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectParameter_1(ObjectParameter_1 const&) = delete;
+  ObjectParameter_1(ObjectParameter_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12372 };
 
+  /// [CompilerGenerated]
   /// @brief Field <parameters>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* ____parameters_k__BackingField;
 

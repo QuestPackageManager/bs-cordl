@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Event.hpp"
+// IWYU pragma private; include "UnityEngine/Event.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
@@ -1270,11 +1270,11 @@ inline void UnityEngine::Event::CopyFromPtr(::System::IntPtr ptr) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Event*>(), { "CopyFromPtr", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ptr);
 }
-inline bool UnityEngine::Event::PopEvent(::UnityEngine::Event* outEvent) {
+inline bool UnityEngine::Event::PopEvent(/* [NotNull] */ ::UnityEngine::Event* outEvent) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Event*>(), { "PopEvent", {}, { ::i2c::type_of<::UnityEngine::Event*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, outEvent);
 }
-inline void UnityEngine::Event::GetEventAtIndex(int32_t index, ::UnityEngine::Event* outEvent) {
+inline void UnityEngine::Event::GetEventAtIndex(int32_t index, /* [NotNull] */ ::UnityEngine::Event* outEvent) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Event*>(), { "GetEventAtIndex", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Event*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, index, outEvent);

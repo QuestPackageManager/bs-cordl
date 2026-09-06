@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\DualMotorRumbleCommand.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/DualMotorRumbleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,8 +77,9 @@ public:
   // @brief default ctor
   constexpr DualMotorRumbleCommand();
 
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "lowFrequencyMotorSpeed", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "highFrequencyMotorSpeed", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "lowFrequencyMotorSpeed", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "highFrequencyMotorSpeed", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr DualMotorRumbleCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, float_t lowFrequencyMotorSpeed, float_t highFrequencyMotorSpeed) noexcept;
 
 private:

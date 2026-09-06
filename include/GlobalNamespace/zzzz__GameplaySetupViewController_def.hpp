@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplaySetupViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplaySetupViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr GameplaySetupViewController_Panel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController_Panel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController_Panel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplaySetupViewController_Panel(GameplaySetupViewController_Panel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController_Panel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController_Panel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplaySetupViewController_Panel(GameplaySetupViewController_Panel const&) = delete;
+  GameplaySetupViewController_Panel(GameplaySetupViewController_Panelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6909 };
@@ -366,13 +366,13 @@ protected:
   constexpr GameplaySetupViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplaySetupViewController(GameplaySetupViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplaySetupViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplaySetupViewController(GameplaySetupViewController const&) = delete;
+  GameplaySetupViewController(GameplaySetupViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6910 };
@@ -392,24 +392,31 @@ public:
   /// @brief Field kMultiplayerLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kMultiplayerLocalizationKey{ u"MULTIPLAYER" };
 
+  /// [SerializeField]
   /// @brief Field _selectionSegmentedControl, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____selectionSegmentedControl;
 
+  /// [SerializeField]
   /// @brief Field _playerSettingsPanelController, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerSettingsPanelController> ____playerSettingsPanelController;
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersPanelController, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> ____gameplayModifiersPanelController;
 
+  /// [SerializeField]
   /// @brief Field _environmentOverrideSettingsPanelController, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController> ____environmentOverrideSettingsPanelController;
 
+  /// [SerializeField]
   /// @brief Field _colorsOverrideSettingsPanelController, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorsOverrideSettingsPanelController> ____colorsOverrideSettingsPanelController;
 
+  /// [SerializeField]
   /// @brief Field _multiplayerSettingsPanelController, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerSettingsPanelController> ____multiplayerSettingsPanelController;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 

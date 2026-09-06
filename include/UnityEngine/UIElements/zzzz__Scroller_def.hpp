@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Scroller.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Scroller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,9 @@ namespace UnityEngine::UIElements {
 class Slider;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlFloatAttributeDescription;
@@ -92,13 +94,13 @@ protected:
   constexpr Scroller_ScrollerSlider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scroller_ScrollerSlider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scroller_ScrollerSlider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scroller_ScrollerSlider(Scroller_ScrollerSlider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scroller_ScrollerSlider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scroller_ScrollerSlider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scroller_ScrollerSlider(Scroller_ScrollerSlider const&) = delete;
+  Scroller_ScrollerSlider(Scroller_ScrollerSliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4311 };
@@ -109,6 +111,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Scroller_ScrollerSlider) == 0x590, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -127,13 +130,13 @@ protected:
   constexpr Scroller_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scroller_UxmlFactory(Scroller_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scroller_UxmlFactory(Scroller_UxmlFactory const&) = delete;
+  Scroller_UxmlFactory(Scroller_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4312 };
@@ -144,6 +147,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::Scroller_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -202,13 +206,13 @@ protected:
   constexpr Scroller_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scroller_UxmlTraits(Scroller_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scroller_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scroller_UxmlTraits(Scroller_UxmlTraits const&) = delete;
+  Scroller_UxmlTraits(Scroller_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4313 };
@@ -263,6 +267,7 @@ public:
   /// @brief Field <slider>k__BackingField, offset 0x4b0, size 0x8
   __declspec(property(get = __cordl_internal_get__slider_k__BackingField, put = __cordl_internal_set__slider_k__BackingField)) ::UnityEngine::UIElements::Slider* _slider_k__BackingField;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_direction, put = set_direction)) ::UnityEngine::UIElements::SliderDirection direction;
 
   /// @brief Field directionProperty, offset 0xffffffff, size 0x98
@@ -273,6 +278,7 @@ public:
   /// @brief Field highButtonUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_highButtonUssClassName, put = setStaticF_highButtonUssClassName)) ::StringW highButtonUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_highValue, put = set_highValue)) float_t highValue;
 
   /// @brief Field highValueProperty, offset 0xffffffff, size 0x98
@@ -286,6 +292,7 @@ public:
   /// @brief Field lowButtonUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_lowButtonUssClassName, put = setStaticF_lowButtonUssClassName)) ::StringW lowButtonUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_lowValue, put = set_lowValue)) float_t lowValue;
 
   /// @brief Field lowValueProperty, offset 0xffffffff, size 0x98
@@ -299,6 +306,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_value, put = set_value)) float_t value;
 
   /// @brief Field valueChanged, offset 0x4a8, size 0x8
@@ -362,6 +370,7 @@ public:
   /// @brief Method .ctor, addr 0x6d6a81c, size 0x3dc, virtual false, abstract: false, final false
   inline void _ctor(float_t lowValue, float_t highValue, ::System::Action_1<float_t>* valueChanged, ::UnityEngine::UIElements::SliderDirection direction);
 
+  /// [CompilerGenerated]
   /// @brief Method add_valueChanged, addr 0x6d6f4c0, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueChanged(::System::Action_1<float_t>* value);
 
@@ -388,24 +397,28 @@ public:
   /// @brief Method get_direction, addr 0x6d6f658, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SliderDirection get_direction();
 
+  /// [CompilerGenerated]
   /// @brief Method get_highButton, addr 0x6d6f650, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::RepeatButton* get_highButton();
 
   /// @brief Method get_highValue, addr 0x6d695ac, size 0x50, virtual false, abstract: false, final false
   inline float_t get_highValue();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lowButton, addr 0x6d6f648, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::RepeatButton* get_lowButton();
 
   /// @brief Method get_lowValue, addr 0x6d6d1c8, size 0x50, virtual false, abstract: false, final false
   inline float_t get_lowValue();
 
+  /// [CompilerGenerated]
   /// @brief Method get_slider, addr 0x6d6f640, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Slider* get_slider();
 
   /// @brief Method get_value, addr 0x6d67ef0, size 0x20, virtual false, abstract: false, final false
   inline float_t get_value();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_valueChanged, addr 0x6d6f580, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueChanged(::System::Action_1<float_t>* value);
 
@@ -447,26 +460,34 @@ protected:
   constexpr Scroller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scroller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scroller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Scroller(Scroller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scroller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scroller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scroller(Scroller const&) = delete;
+  Scroller(Scrollerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4314 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field valueChanged, offset: 0x4a8, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___valueChanged;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <slider>k__BackingField, offset: 0x4b0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Slider* ____slider_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <lowButton>k__BackingField, offset: 0x4b8, size: 0x8, def value: None
   ::UnityEngine::UIElements::RepeatButton* ____lowButton_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <highButton>k__BackingField, offset: 0x4c0, size: 0x8, def value: None
   ::UnityEngine::UIElements::RepeatButton* ____highButton_k__BackingField;
 

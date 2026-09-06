@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ILobbyPlayersDataModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/ILobbyPlayersDataModel.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayersDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
@@ -238,7 +238,7 @@ inline ::StringW GlobalNamespace::ILobbyPlayersDataModel::get_partyOwnerId() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ILobbyPlayersDataModel*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline void GlobalNamespace::ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline void GlobalNamespace::ILobbyPlayersDataModel::SetLocalPlayerBeatmapLevel(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ILobbyPlayersDataModel*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapKey);
 }

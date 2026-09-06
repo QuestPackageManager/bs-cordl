@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\StreamWriter.hpp"
+// IWYU pragma private; include "System/IO/StreamWriter.hpp"
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncValueTaskMethodBuilder_impl.hpp"
@@ -61,9 +61,10 @@ constexpr System::IO::StreamWriter__DisposeAsyncCore_d__33::operator ::System::R
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__DisposeAsyncCore_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::IO::StreamWriter*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::System::IO::StreamWriter*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::System::IO::StreamWriter__DisposeAsyncCore_d__33::StreamWriter__DisposeAsyncCore_d__33(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder __t__builder,
                                                                                                    ::System::IO::StreamWriter* __4__this,
                                                                                                    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
@@ -117,13 +118,14 @@ constexpr System::IO::StreamWriter__WriteAsyncInternal_d__57::operator ::System:
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__WriteAsyncInternal_d__57::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "charBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "appendNewLine",
-// ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "autoFlush", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_i_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty:
+// "char16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "appendNewLine", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "coreNewLine", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_i_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IO::StreamWriter__WriteAsyncInternal_d__57::StreamWriter__WriteAsyncInternal_d__57(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                        int32_t charPos, int32_t charLen, ::System::IO::StreamWriter* _this,
                                                                                                        ::ArrayW<char16_t> charBuffer, char16_t value, bool appendNewLine,
@@ -188,14 +190,15 @@ constexpr System::IO::StreamWriter__WriteAsyncInternal_d__59::operator ::System:
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__WriteAsyncInternal_d__59::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_this", ty:
-// "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "appendNewLine", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "autoFlush",
-// ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_count_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index_5__3", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_i_5__4", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charBuffer", ty:
+// "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "appendNewLine", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "coreNewLine", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_count_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_index_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_i_5__4", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IO::StreamWriter__WriteAsyncInternal_d__59::StreamWriter__WriteAsyncInternal_d__59(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                        ::StringW value, int32_t charPos, int32_t charLen, ::System::IO::StreamWriter* _this,
                                                                                                        ::ArrayW<char16_t> charBuffer, bool appendNewLine, ::ArrayW<char16_t> coreNewLine,
@@ -262,15 +265,16 @@ constexpr System::IO::StreamWriter__WriteAsyncInternal_d__62::operator ::System:
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__WriteAsyncInternal_d__62::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "charBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "source", ty: "::System::ReadOnlyMemory_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "appendNewLine", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_copied_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "_i_5__3", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "source", ty: "::System::ReadOnlyMemory_1<char16_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "appendNewLine", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "coreNewLine", ty:
+// "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_copied_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_i_5__3", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IO::StreamWriter__WriteAsyncInternal_d__62::StreamWriter__WriteAsyncInternal_d__62(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, int32_t charPos, int32_t charLen, ::System::IO::StreamWriter* _this, ::ArrayW<char16_t> charBuffer,
     ::System::Threading::CancellationToken cancellationToken, ::System::ReadOnlyMemory_1<char16_t> source, bool appendNewLine, ::ArrayW<char16_t> coreNewLine, bool autoFlush, int32_t _copied_5__2,
@@ -335,15 +339,16 @@ constexpr System::IO::StreamWriter__FlushAsyncInternal_d__74::operator ::System:
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__FlushAsyncInternal_d__74::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "haveWrittenPreamble", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "encoding", ty: "::System::Text::Encoding*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "encoder", ty: "::System::Text::Encoder*", modifiers: "", def_value: Some("{}") }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "byteBuffer", ty: "::ArrayW<uint8_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "flushEncoder", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "flushStream", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "haveWrittenPreamble", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "encoding", ty:
+// "::System::Text::Encoding*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "encoder", ty:
+// "::System::Text::Encoder*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "byteBuffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "flushEncoder", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flushStream", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IO::StreamWriter__FlushAsyncInternal_d__74::StreamWriter__FlushAsyncInternal_d__74(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, bool haveWrittenPreamble, ::System::IO::StreamWriter* _this, ::System::Text::Encoding* encoding,
     ::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken, ::System::Text::Encoder* encoder, ::ArrayW<char16_t> charBuffer, int32_t charPos,

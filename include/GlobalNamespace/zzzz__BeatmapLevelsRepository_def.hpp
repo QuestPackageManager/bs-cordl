@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelsRepository.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelsRepository.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,8 @@ class BeatmapLevelsRepository;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatmapLevelsRepository*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelsRepository*, "", "BeatmapLevelsRepository");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatmapLevelPack, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -107,13 +109,13 @@ protected:
   constexpr BeatmapLevelsRepository();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsRepository", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsRepository", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelsRepository(BeatmapLevelsRepository&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsRepository", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsRepository", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelsRepository(BeatmapLevelsRepository const&) = delete;
+  BeatmapLevelsRepository(BeatmapLevelsRepositoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14980 };

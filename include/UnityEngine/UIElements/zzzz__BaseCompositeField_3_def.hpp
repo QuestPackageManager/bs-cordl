@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseCompositeField_3.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseCompositeField_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextValueField_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -24,32 +25,46 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> struct BaseCompositeField_3_FieldDescription;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+struct BaseCompositeField_3_FieldDescription;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> class BaseCompositeField_3___c__DisplayClass18_0;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+class BaseCompositeField_3___c__DisplayClass18_0;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> class FieldDescription_BaseCompositeField_3_WriteDelegate;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+class FieldDescription_BaseCompositeField_3_WriteDelegate;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> class BaseCompositeField_3;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+class BaseCompositeField_3;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> class BaseCompositeField_3___c__DisplayClass18_0;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+class BaseCompositeField_3___c__DisplayClass18_0;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> class FieldDescription_BaseCompositeField_3_WriteDelegate;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+class FieldDescription_BaseCompositeField_3_WriteDelegate;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TField, typename TFieldValue> struct BaseCompositeField_3_FieldDescription;
+template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
+struct BaseCompositeField_3_FieldDescription;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseCompositeField_3);
@@ -60,10 +75,11 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseCompositeField_3, "Un
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseCompositeField_3___c__DisplayClass18_0, "UnityEngine.UIElements", "BaseCompositeField`3/<>c__DisplayClass18_0");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::FieldDescription_BaseCompositeField_3_WriteDelegate, "UnityEngine.UIElements", "BaseCompositeField`3/FieldDescription/WriteDelegate");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription, "UnityEngine.UIElements", "BaseCompositeField`3/FieldDescription");
-// Dependencies System.MulticastDelegate
+// Dependencies System.MulticastDelegate, UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseCompositeField`3/FieldDescription/WriteDelegate<TValueType,TField,TFieldValue>
 class CORDL_TYPE FieldDescription_BaseCompositeField_3_WriteDelegate : public ::System::MulticastDelegate {
@@ -83,13 +99,13 @@ protected:
   constexpr FieldDescription_BaseCompositeField_3_WriteDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FieldDescription_BaseCompositeField_3_WriteDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FieldDescription_BaseCompositeField_3_WriteDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FieldDescription_BaseCompositeField_3_WriteDelegate(FieldDescription_BaseCompositeField_3_WriteDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FieldDescription_BaseCompositeField_3_WriteDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FieldDescription_BaseCompositeField_3_WriteDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FieldDescription_BaseCompositeField_3_WriteDelegate(FieldDescription_BaseCompositeField_3_WriteDelegate const&) = delete;
+  FieldDescription_BaseCompositeField_3_WriteDelegate(FieldDescription_BaseCompositeField_3_WriteDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4104 };
@@ -98,10 +114,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies
+// Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.BaseCompositeField`3/FieldDescription<TValueType,TField,TFieldValue>
 struct CORDL_TYPE BaseCompositeField_3_FieldDescription {
@@ -117,9 +134,9 @@ public:
   // @brief default ctor
   constexpr BaseCompositeField_3_FieldDescription();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ussName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "read", ty: "::System::Func_2<TValueType,TFieldValue>*", modifiers: "", def_value: None }, CppParam { name: "write", ty:
-  // "::UnityEngine::UIElements::FieldDescription_BaseCompositeField_3_WriteDelegate<TValueType,TField,TFieldValue>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "ussName", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "read", ty: "::System::Func_2<TValueType,TFieldValue>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "write", ty:
+  // "::UnityEngine::UIElements::FieldDescription_BaseCompositeField_3_WriteDelegate<TValueType,TField,TFieldValue>*", modifiers: "", def_value: None, comment: None }]
   constexpr BaseCompositeField_3_FieldDescription(::StringW name, ::StringW ussName, ::System::Func_2<TValueType, TFieldValue>* read,
                                                   ::UnityEngine::UIElements::FieldDescription_BaseCompositeField_3_WriteDelegate<TValueType, TField, TFieldValue>* write) noexcept;
 
@@ -145,10 +162,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.Object, UnityEngine.UIElements.BaseCompositeField`3::FieldDescription<TValueType, TField, TFieldValue>
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.UIElements.BaseCompositeField`3::FieldDescription<TValueType, TField, TFieldValue>, UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseCompositeField`3/<>c__DisplayClass18_0<TValueType,TField,TFieldValue>
 class CORDL_TYPE BaseCompositeField_3___c__DisplayClass18_0 : public ::System::Object {
@@ -198,13 +217,13 @@ protected:
   constexpr BaseCompositeField_3___c__DisplayClass18_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3___c__DisplayClass18_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseCompositeField_3___c__DisplayClass18_0(BaseCompositeField_3___c__DisplayClass18_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3___c__DisplayClass18_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseCompositeField_3___c__DisplayClass18_0(BaseCompositeField_3___c__DisplayClass18_0 const&) = delete;
+  BaseCompositeField_3___c__DisplayClass18_0(BaseCompositeField_3___c__DisplayClass18_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4106 };
@@ -222,10 +241,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
+// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TField, typename TFieldValue>
+  requires(::cordl_internals::type_constraint<TField, ::UnityEngine::UIElements::TextValueField_1<TFieldValue>*> && ::cordl_internals::default_constructor_constraint<TField>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseCompositeField`3<TValueType,TField,TFieldValue>
 class CORDL_TYPE BaseCompositeField_3 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
@@ -271,7 +292,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DescribeFields, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DescribeFields, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue>> DescribeFields();
 
   /// @brief Method GetSpacer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -354,13 +375,13 @@ protected:
   constexpr BaseCompositeField_3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseCompositeField_3(BaseCompositeField_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseCompositeField_3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseCompositeField_3(BaseCompositeField_3 const&) = delete;
+  BaseCompositeField_3(BaseCompositeField_3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4107 };

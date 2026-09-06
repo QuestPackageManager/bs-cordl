@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\GameplayEnvironmentOverride.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/GameplayEnvironmentOverride.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class GameplayEnvironmentOverride;
 // Write type traits
 MARK_REF_T(::BeatSaber::Destinations::GameplayEnvironmentOverride*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Destinations::GameplayEnvironmentOverride*, "BeatSaber.Destinations", "GameplayEnvironmentOverride");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Destinations {
 // Is value type: false
@@ -73,13 +75,13 @@ protected:
   constexpr GameplayEnvironmentOverride();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayEnvironmentOverride", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayEnvironmentOverride", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayEnvironmentOverride(GameplayEnvironmentOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayEnvironmentOverride", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayEnvironmentOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayEnvironmentOverride(GameplayEnvironmentOverride const&) = delete;
+  GameplayEnvironmentOverride(GameplayEnvironmentOverrideconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23063 };

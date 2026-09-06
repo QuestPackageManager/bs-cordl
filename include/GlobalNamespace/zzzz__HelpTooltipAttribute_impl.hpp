@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HelpTooltipAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/HelpTooltipAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpTooltipAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HelpTooltipAttribute._ctor

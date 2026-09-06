@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\Triangulation.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/Triangulation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__Display
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::Triangulation*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation/<>c__DisplayClass7_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass8_0*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation/<>c__DisplayClass8_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -90,13 +91,13 @@ protected:
   constexpr Triangulation___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Triangulation___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Triangulation___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Triangulation___c__DisplayClass7_0(Triangulation___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Triangulation___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Triangulation___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Triangulation___c__DisplayClass7_0(Triangulation___c__DisplayClass7_0 const&) = delete;
+  Triangulation___c__DisplayClass7_0(Triangulation___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16894 };
@@ -112,6 +113,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::Triangulation_
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::Triangulation___c__DisplayClass7_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -154,13 +156,13 @@ protected:
   constexpr Triangulation___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Triangulation___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Triangulation___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Triangulation___c__DisplayClass8_0(Triangulation___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Triangulation___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Triangulation___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Triangulation___c__DisplayClass8_0(Triangulation___c__DisplayClass8_0 const&) = delete;
+  Triangulation___c__DisplayClass8_0(Triangulation___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16895 };
@@ -230,13 +232,13 @@ protected:
   constexpr Triangulation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Triangulation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Triangulation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Triangulation(Triangulation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Triangulation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Triangulation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Triangulation(Triangulation const&) = delete;
+  Triangulation(Triangulationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16896 };

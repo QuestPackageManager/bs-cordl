@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\ObjectDigestInfo.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/ObjectDigestInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,13 +128,13 @@ protected:
   constexpr ObjectDigestInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDigestInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectDigestInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectDigestInfo(ObjectDigestInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDigestInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectDigestInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectDigestInfo(ObjectDigestInfo const&) = delete;
+  ObjectDigestInfo(ObjectDigestInfoconst&) = delete;
 
   /// @brief Field OtherObjectDigest offset 0xffffffff size 0x4
   static constexpr int32_t OtherObjectDigest{ static_cast<int32_t>(0x2) };

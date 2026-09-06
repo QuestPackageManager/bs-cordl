@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformRequiresAppRestartException.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformRequiresAppRestartException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PlatformRequiresAppRestartException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

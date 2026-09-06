@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\TimeSpanArrayHelperWithString.hpp"
+// IWYU pragma private; include "System/Xml/TimeSpanArrayHelperWithString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Xml/zzzz__TimeSpanArrayHelperWithString_def.hpp"

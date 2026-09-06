@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\NativeHeaderAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/NativeHeaderAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class NativeHeaderAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativeHeaderAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativeHeaderAttribute*, "UnityEngine.Bindings", "NativeHeaderAttribute");
+// [AttributeUsage((System.AttributeTargets)10716, AllowMultiple = true)]
+// [VisibleToOtherModules]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -36,6 +38,7 @@ public:
   /// @brief Method .ctor, addr 0x6bb5fb4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Header, addr 0x6bb5fac, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
@@ -45,17 +48,19 @@ protected:
   constexpr NativeHeaderAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeHeaderAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeHeaderAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeHeaderAttribute(NativeHeaderAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeHeaderAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeHeaderAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeHeaderAttribute(NativeHeaderAttribute const&) = delete;
+  NativeHeaderAttribute(NativeHeaderAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23109 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Header>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Header_k__BackingField;
 

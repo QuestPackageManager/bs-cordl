@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ReflectionProbeManager.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ReflectionProbeManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Mathematics/zzzz__int2_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__BuddyAllocator_impl.hpp"
@@ -17,26 +17,26 @@
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer(
     int32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer(
     int32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "updateCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "imageContentsHash", ty: "::UnityEngine::Hash128", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "dataIndices", ty: "::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "levels",
-// ty: "::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "texture", ty:
-// "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastUsed", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "hdrData", ty:
-// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "updateCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "imageContentsHash", ty: "::UnityEngine::Hash128",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mipCount", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "dataIndices", ty: "::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levels", ty: "::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "lastUsed",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hdrData", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ReflectionProbeManager_CachedProbe::ReflectionProbeManager_CachedProbe(
     uint32_t updateCount, ::UnityEngine::Hash128 imageContentsHash, int32_t size, int32_t mipCount,
     ::UnityEngine::Rendering::Universal::CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer dataIndices,
@@ -229,16 +229,16 @@ constexpr UnityEngine::Rendering::Universal::ReflectionProbeManager::operator ::
 constexpr ::System::IDisposable* UnityEngine::Rendering::Universal::ReflectionProbeManager::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Resolution", ty: "::Unity::Mathematics::int2", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AtlasTexture0", ty:
-// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AtlasTexture1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_AtlasTexture0Handle", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AtlasAllocator", ty:
-// "::UnityEngine::Rendering::Universal::BuddyAllocator", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Cache", ty:
-// "::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::Universal::ReflectionProbeManager_CachedProbe>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_WarningCache", ty: "::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NeedsUpdate", ty:
-// "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NeedsRemove", ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_BoxMax", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BoxMin", ty:
-// "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ProbePosition", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_MipScaleOffset", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Resolution", ty: "::Unity::Mathematics::int2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AtlasTexture0", ty:
+// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AtlasTexture1", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_AtlasTexture0Handle", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_AtlasAllocator", ty: "::UnityEngine::Rendering::Universal::BuddyAllocator", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Cache", ty:
+// "::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::Rendering::Universal::ReflectionProbeManager_CachedProbe>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "m_WarningCache", ty: "::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NeedsUpdate", ty:
+// "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_NeedsRemove", ty: "::System::Collections::Generic::List_1<int32_t>*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BoxMax", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_BoxMin", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ProbePosition", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_MipScaleOffset", ty: "::ArrayW<::UnityEngine::Vector4>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ReflectionProbeManager::ReflectionProbeManager(
     ::Unity::Mathematics::int2 m_Resolution, ::UnityW<::UnityEngine::RenderTexture> m_AtlasTexture0, ::UnityW<::UnityEngine::RenderTexture> m_AtlasTexture1,
     ::UnityEngine::Rendering::RTHandle* m_AtlasTexture0Handle, ::UnityEngine::Rendering::Universal::BuddyAllocator m_AtlasAllocator,

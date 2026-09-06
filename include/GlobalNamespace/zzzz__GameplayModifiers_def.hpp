@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifiers.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,9 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> struct ValueTuple_4;
@@ -90,7 +92,7 @@ public:
   // @brief default ctor
   constexpr GameplayModifiers_EnabledObstacleType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameplayModifiers_EnabledObstacleType(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(0)
@@ -148,7 +150,7 @@ public:
   // @brief default ctor
   constexpr GameplayModifiers_EnergyType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameplayModifiers_EnergyType(int32_t value__) noexcept;
 
   /// @brief Field Bar value: I32(0)
@@ -205,7 +207,7 @@ public:
   // @brief default ctor
   constexpr GameplayModifiers_SongSpeed();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameplayModifiers_SongSpeed(int32_t value__) noexcept;
 
   /// @brief Field Faster value: I32(1)
@@ -237,6 +239,7 @@ static_assert(offsetof(::GlobalNamespace::GameplayModifiers_SongSpeed, value__) 
 static_assert(sizeof(::GlobalNamespace::GameplayModifiers_SongSpeed) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Preserve]
 // Dependencies GameplayModifiers::EnabledObstacleType, GameplayModifiers::EnergyType, GameplayModifiers::SongSpeed, System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -554,59 +557,74 @@ protected:
   constexpr GameplayModifiers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiers(GameplayModifiers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiers(GameplayModifiers const&) = delete;
+  GameplayModifiers(GameplayModifiersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21174 };
 
+  /// [SerializeField]
   /// @brief Field _energyType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::GameplayModifiers_EnergyType ____energyType;
 
+  /// [SerializeField]
   /// @brief Field _noFailOn0Energy, offset: 0x14, size: 0x1, def value: None
   bool ____noFailOn0Energy;
 
+  /// [SerializeField]
   /// @brief Field _instaFail, offset: 0x15, size: 0x1, def value: None
   bool ____instaFail;
 
+  /// [SerializeField]
   /// @brief Field _failOnSaberClash, offset: 0x16, size: 0x1, def value: None
   bool ____failOnSaberClash;
 
+  /// [SerializeField]
   /// @brief Field _enabledObstacleType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::GameplayModifiers_EnabledObstacleType ____enabledObstacleType;
 
+  /// [SerializeField]
   /// @brief Field _fastNotes, offset: 0x1c, size: 0x1, def value: None
   bool ____fastNotes;
 
+  /// [SerializeField]
   /// @brief Field _strictAngles, offset: 0x1d, size: 0x1, def value: None
   bool ____strictAngles;
 
+  /// [SerializeField]
   /// @brief Field _disappearingArrows, offset: 0x1e, size: 0x1, def value: None
   bool ____disappearingArrows;
 
+  /// [SerializeField]
   /// @brief Field _ghostNotes, offset: 0x1f, size: 0x1, def value: None
   bool ____ghostNotes;
 
+  /// [SerializeField]
   /// @brief Field _noBombs, offset: 0x20, size: 0x1, def value: None
   bool ____noBombs;
 
+  /// [SerializeField]
   /// @brief Field _songSpeed, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::GameplayModifiers_SongSpeed ____songSpeed;
 
+  /// [SerializeField]
   /// @brief Field _noArrows, offset: 0x28, size: 0x1, def value: None
   bool ____noArrows;
 
+  /// [SerializeField]
   /// @brief Field _proMode, offset: 0x29, size: 0x1, def value: None
   bool ____proMode;
 
+  /// [SerializeField]
   /// @brief Field _zenMode, offset: 0x2a, size: 0x1, def value: None
   bool ____zenMode;
 
+  /// [SerializeField]
   /// @brief Field _smallCubes, offset: 0x2b, size: 0x1, def value: None
   bool ____smallCubes;
 

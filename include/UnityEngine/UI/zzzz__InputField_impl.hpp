@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\InputField.hpp"
+// IWYU pragma private; include "UnityEngine/UI/InputField.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
@@ -46,7 +46,7 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::InputField_ContentType::InputField_ContentType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -62,7 +62,7 @@ constexpr ::UnityEngine::UI::InputField_ContentType UnityEngine::UI::InputField_
 constexpr ::UnityEngine::UI::InputField_ContentType UnityEngine::UI::InputField_ContentType::Password{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::UI::InputField_ContentType UnityEngine::UI::InputField_ContentType::Pin{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::UI::InputField_ContentType UnityEngine::UI::InputField_ContentType::Custom{ static_cast<int32_t>(0x9) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::InputField_InputType::InputField_InputType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -71,7 +71,7 @@ constexpr ::UnityEngine::UI::InputField_InputType::InputField_InputType() {}
 constexpr ::UnityEngine::UI::InputField_InputType UnityEngine::UI::InputField_InputType::Standard{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UI::InputField_InputType UnityEngine::UI::InputField_InputType::AutoCorrect{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UI::InputField_InputType UnityEngine::UI::InputField_InputType::Password{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::InputField_CharacterValidation::InputField_CharacterValidation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -83,7 +83,7 @@ constexpr ::UnityEngine::UI::InputField_CharacterValidation UnityEngine::UI::Inp
 constexpr ::UnityEngine::UI::InputField_CharacterValidation UnityEngine::UI::InputField_CharacterValidation::Alphanumeric{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UI::InputField_CharacterValidation UnityEngine::UI::InputField_CharacterValidation::Name{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UI::InputField_CharacterValidation UnityEngine::UI::InputField_CharacterValidation::EmailAddress{ static_cast<int32_t>(0x5) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::InputField_LineType::InputField_LineType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -237,7 +237,7 @@ inline ::UnityEngine::UI::InputField_OnChangeEvent* UnityEngine::UI::InputField_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::InputField_OnChangeEvent::InputField_OnChangeEvent() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::InputField_EditState::InputField_EditState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -391,6 +391,7 @@ inline ::System::Object* UnityEngine::UI::InputField__CaretBlink_d__172::System_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::InputField__CaretBlink_d__172*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UI::InputField__CaretBlink_d__172* UnityEngine::UI::InputField__CaretBlink_d__172::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UI::InputField__CaretBlink_d__172*>(__1__state));
 }
@@ -580,6 +581,7 @@ inline ::System::Object* UnityEngine::UI::InputField__MouseDragOutsideRect_d__19
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::InputField__MouseDragOutsideRect_d__196*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UI::InputField__MouseDragOutsideRect_d__196* UnityEngine::UI::InputField__MouseDragOutsideRect_d__196::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UI::InputField__MouseDragOutsideRect_d__196*>(__1__state));
 }
@@ -3948,7 +3950,7 @@ inline void UnityEngine::UI::InputField::EnforceTextHOverflow() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::InputField*>(), { "EnforceTextHOverflow", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::UI::InputField::SetToCustomIfContentTypeIsNot(::ArrayW<::UnityEngine::UI::InputField_ContentType> allowedContentTypes) {
+inline void UnityEngine::UI::InputField::SetToCustomIfContentTypeIsNot(/* [ParamArray] */ ::ArrayW<::UnityEngine::UI::InputField_ContentType> allowedContentTypes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::InputField*>(), { "SetToCustomIfContentTypeIsNot", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::UI::InputField_ContentType>>() } })));

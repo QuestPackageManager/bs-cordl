@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BufferedAudioStream.hpp"
+// IWYU pragma private; include "GlobalNamespace/BufferedAudioStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,13 +90,13 @@ protected:
   constexpr BufferedAudioStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedAudioStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedAudioStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedAudioStream(BufferedAudioStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedAudioStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedAudioStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedAudioStream(BufferedAudioStream const&) = delete;
+  BufferedAudioStream(BufferedAudioStreamconst&) = delete;
 
   /// @brief Field VerboseLogging offset 0xffffffff size 0x1
   static constexpr bool VerboseLogging{ false };

@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Zenject\DisposeBlock.hpp"
+// IWYU pragma private; include "Zenject/DisposeBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(DisposeBlock)
@@ -55,7 +56,9 @@ namespace Zenject {
 class IMemoryPool;
 }
 namespace Zenject {
-template <typename TValue> class StaticMemoryPool_1;
+template <typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+class StaticMemoryPool_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -80,7 +83,8 @@ public:
   // @brief default ctor
   constexpr DisposeBlock_SpawnedObjectPoolPair();
 
-  // Ctor Parameters [CppParam { name: "Pool", ty: "::Zenject::IMemoryPool*", modifiers: "", def_value: None }, CppParam { name: "Object", ty: "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Pool", ty: "::Zenject::IMemoryPool*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Object", ty: "::System::Object*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr DisposeBlock_SpawnedObjectPoolPair(::Zenject::IMemoryPool* Pool, ::System::Object* Object) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -105,7 +109,8 @@ static_assert(offsetof(::Zenject::DisposeBlock_SpawnedObjectPoolPair, Object) ==
 static_assert(sizeof(::Zenject::DisposeBlock_SpawnedObjectPoolPair) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
-// Dependencies System.Object
+// [NoReflectionBaking]
+// Dependencies System.IDisposable, System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.DisposeBlock
@@ -131,7 +136,9 @@ public:
   inline void Add(::System::IDisposable* disposable);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void AddRange(::System::Collections::Generic::IList_1<T>* disposables);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IDisposable*>)
+  inline void AddRange(::System::Collections::Generic::IList_1<T>* disposables);
 
   /// @brief Method Dispose, addr 0x6e9c634, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
@@ -141,6 +148,7 @@ public:
 
   static inline ::Zenject::DisposeBlock* New_ctor();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e9be20, size 0x140, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -223,13 +231,13 @@ protected:
   constexpr DisposeBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisposeBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisposeBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisposeBlock(DisposeBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisposeBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisposeBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisposeBlock(DisposeBlock const&) = delete;
+  DisposeBlock(DisposeBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14704 };

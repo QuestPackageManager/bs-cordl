@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DeactivateAfterFirstFrame.hpp"
+// IWYU pragma private; include "GlobalNamespace/DeactivateAfterFirstFrame.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DeactivateAfterFirstFrame_def.hpp"
@@ -155,6 +155,7 @@ inline ::System::Object* GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0* GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0*>(__1__state));
 }

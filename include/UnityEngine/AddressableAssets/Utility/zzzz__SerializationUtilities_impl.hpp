@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\Utility\SerializationUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Utility/SerializationUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__SerializationUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__SerializationUtilities_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::AddressableAssets::Utility::SerializationUtilities_ObjectType::SerializationUtilities_ObjectType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MeshGizmo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MeshGizmo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_REF_T(::UnityEngine::Rendering::MeshGizmo*);
 MARK_VAL_T(::UnityEngine::Rendering::MeshGizmo___c__DisplayClass10_0);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::MeshGizmo*, "UnityEngine.Rendering", "MeshGizmo");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::MeshGizmo___c__DisplayClass10_0, "UnityEngine.Rendering", "MeshGizmo/<>c__DisplayClass10_0");
+// [CompilerGenerated]
 // Dependencies UnityEngine.Color
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -62,8 +63,8 @@ public:
   // @brief default ctor
   constexpr MeshGizmo___c__DisplayClass10_0();
 
-  // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::MeshGizmo*", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::MeshGizmo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr MeshGizmo___c__DisplayClass10_0(::UnityEngine::Rendering::MeshGizmo* __4__this, ::UnityEngine::Color color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -141,6 +142,7 @@ public:
   /// @brief Method RenderWireframe, addr 0x67c8054, size 0x3c, virtual false, abstract: false, final false
   inline void RenderWireframe(::UnityEngine::Matrix4x4 trs, ::UnityEngine::Rendering::CompareFunction depthTest, ::StringW gizmoName);
 
+  /// [CompilerGenerated]
   /// @brief Method <AddWireCube>g__AddEdge|10_0, addr 0x67c7b74, size 0x324, virtual false, abstract: false, final false
   inline void _AddWireCube_g__AddEdge_10_0(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2,
                                            ::by_ref<::UnityEngine::Rendering::MeshGizmo___c__DisplayClass10_0> _cordl_fixed_empty_name_whitespace);
@@ -203,13 +205,13 @@ protected:
   constexpr MeshGizmo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshGizmo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshGizmo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshGizmo(MeshGizmo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshGizmo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshGizmo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshGizmo(MeshGizmo const&) = delete;
+  MeshGizmo(MeshGizmoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12312 };

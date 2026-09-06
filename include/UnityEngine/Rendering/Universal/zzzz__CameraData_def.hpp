@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\CameraData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/CameraData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -259,6 +259,7 @@ public:
   /// @brief Method GetViewMatrix, addr 0x68e3fec, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetViewMatrix(int32_t viewIndex);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method IsCameraProjectionMatrixFlipped, addr 0x68e51e0, size 0x60, virtual false, abstract: false, final false
   inline bool IsCameraProjectionMatrixFlipped();
 
@@ -464,7 +465,7 @@ public:
   // @brief default ctor
   constexpr CameraData();
 
-  // Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None, comment: None }]
   constexpr CameraData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

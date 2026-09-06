@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\PathFilter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/PathFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class PathFilter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Linq::JsonPath::PathFilter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JsonPath::PathFilter*, "Newtonsoft.Json.Linq.JsonPath", "PathFilter");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
@@ -29,17 +31,18 @@ namespace Newtonsoft::Json::Linq::JsonPath {
 class CORDL_TYPE PathFilter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExecuteFilter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [NullableContext(1)]
+  /// @brief Method ExecuteFilter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
-                                                                                                         ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
+                                                                                                         /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   /// @brief Method GetNextScanValue, addr 0x5d92d2c, size 0x98, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Linq::JToken* GetNextScanValue(::Newtonsoft::Json::Linq::JToken* originalParent, ::Newtonsoft::Json::Linq::JToken* container,
+  static inline ::Newtonsoft::Json::Linq::JToken* GetNextScanValue(/* [Nullable(1)] */ ::Newtonsoft::Json::Linq::JToken* originalParent, ::Newtonsoft::Json::Linq::JToken* container,
                                                                    ::Newtonsoft::Json::Linq::JToken* value);
 
   /// @brief Method GetTokenIndex, addr 0x5d8d1e8, size 0x2d0, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Linq::JToken* GetTokenIndex(::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings, int32_t index);
+  static inline ::Newtonsoft::Json::Linq::JToken* GetTokenIndex(/* [Nullable(1)] */ ::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings, int32_t index);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* New_ctor();
 
@@ -52,13 +55,13 @@ protected:
   constexpr PathFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PathFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PathFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PathFilter(PathFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PathFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PathFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PathFilter(PathFilter const&) = delete;
+  PathFilter(PathFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13635 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\MinIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/MinIntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__IntParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MinIntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::MinIntParameter.get_value

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongPackMask.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongPackMask.hpp"
 #include "GlobalNamespace/zzzz__BitMask256_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 #include "GlobalNamespace/zzzz__BitMask256_def.hpp"
@@ -448,7 +448,7 @@ constexpr GlobalNamespace::SongPackMask::operator ::System::IEquatable_1<::Globa
 constexpr ::System::IEquatable_1<::GlobalNamespace::SongPackMask>* GlobalNamespace::SongPackMask::i___System__IEquatable_1___GlobalNamespace__SongPackMask_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::SongPackMask>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask256", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_bloomFilter", ty: "::GlobalNamespace::BitMask256", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SongPackMask::SongPackMask(::GlobalNamespace::BitMask256 _bloomFilter) noexcept {
   this->_bloomFilter = _bloomFilter;
 }

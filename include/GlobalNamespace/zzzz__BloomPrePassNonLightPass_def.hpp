@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassNonLightPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassNonLightPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,7 +64,7 @@ public:
   // @brief default ctor
   constexpr BloomPrePassNonLightPass_ExecutionTimeType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BloomPrePassNonLightPass_ExecutionTimeType(int32_t value__) noexcept;
 
   /// @brief Field AfterBlur value: I32(2)
@@ -93,6 +93,7 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTime
 static_assert(sizeof(::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [ExecuteAlways]
 // Dependencies BloomPrePassNonLightPass::ExecutionTimeType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -133,7 +134,7 @@ public:
   /// @brief Method Register, addr 0x585ffc0, size 0x12c, virtual false, abstract: false, final false
   inline void Register();
 
-  /// @brief Method Render, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   /// @brief Method Unregister, addr 0x586017c, size 0xc8, virtual false, abstract: false, final false
@@ -177,17 +178,18 @@ protected:
   constexpr BloomPrePassNonLightPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassNonLightPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassNonLightPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassNonLightPass(BloomPrePassNonLightPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassNonLightPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassNonLightPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassNonLightPass(BloomPrePassNonLightPass const&) = delete;
+  BloomPrePassNonLightPass(BloomPrePassNonLightPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19467 };
 
+  /// [SerializeField]
   /// @brief Field _executionTimeType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType ____executionTimeType;
 

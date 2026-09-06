@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightGroupRotationYTransform.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightGroupRotationYTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ protected:
   constexpr LightGroupRotationYTransform();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupRotationYTransform", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupRotationYTransform", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupRotationYTransform(LightGroupRotationYTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupRotationYTransform", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupRotationYTransform", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightGroupRotationYTransform(LightGroupRotationYTransform const&) = delete;
+  LightGroupRotationYTransform(LightGroupRotationYTransformconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5904 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightGroupElementsSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightGroupElementsSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,8 @@ class LightGroupElementsSpawner;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightGroupElementsSpawner*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightGroupElementsSpawner*, "", "LightGroupElementsSpawner");
+// [ExecuteAlways]
+// [RequireComponent(typeof(LightGroup))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -60,23 +62,28 @@ protected:
   constexpr LightGroupElementsSpawner();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupElementsSpawner", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupElementsSpawner", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupElementsSpawner(LightGroupElementsSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupElementsSpawner", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupElementsSpawner", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightGroupElementsSpawner(LightGroupElementsSpawner const&) = delete;
+  LightGroupElementsSpawner(LightGroupElementsSpawnerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19508 };
 
+  /// [SerializeField]
   /// @brief Field _lightPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____lightPrefab;
 
+  /// [SerializeField]
   /// @brief Field _useAlternatePrefab, offset: 0x28, size: 0x1, def value: None
   bool ____useAlternatePrefab;
 
+  /// [SerializeField]
+  /// [DrawIf("_useAlternatePrefab", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("_useAlternatePrefab", false, (NullAllowedContext)0)]
   /// @brief Field _alternateLightPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____alternateLightPrefab;
 

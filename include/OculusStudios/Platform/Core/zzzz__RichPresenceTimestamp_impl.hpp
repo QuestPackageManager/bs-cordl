@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Core\RichPresenceTimestamp.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Core/RichPresenceTimestamp.hpp"
 #include "OculusStudios/Platform/Core/zzzz__RichPresenceTimestampType_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__RichPresenceTimestamp_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__RichPresenceTimestampType_def.hpp"
@@ -58,8 +58,8 @@ inline void OculusStudios::Platform::Core::RichPresenceTimestamp::_ctor(::String
                                                            { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::OculusStudios::Platform::Core::RichPresenceTimestampType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, timestamp, type);
 }
-// Ctor Parameters [CppParam { name: "_timestamp_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_type_k__BackingField", ty:
-// "::OculusStudios::Platform::Core::RichPresenceTimestampType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_timestamp_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_type_k__BackingField", ty:
+// "::OculusStudios::Platform::Core::RichPresenceTimestampType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::Platform::Core::RichPresenceTimestamp::RichPresenceTimestamp(::StringW _timestamp_k__BackingField,
                                                                                         ::OculusStudios::Platform::Core::RichPresenceTimestampType _type_k__BackingField) noexcept {
   this->_timestamp_k__BackingField = _timestamp_k__BackingField;

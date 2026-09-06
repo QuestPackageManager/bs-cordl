@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTask_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTask_1.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ManualResetValueTaskSourceCore_1_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"
@@ -552,7 +552,7 @@ template <typename TResult> constexpr GlobalNamespace::OVRTask_1<TResult>::opera
 template <typename TResult> constexpr ::System::IDisposable* GlobalNamespace::OVRTask_1<TResult>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_id", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_id", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TResult> constexpr ::GlobalNamespace::OVRTask_1<TResult>::OVRTask_1(::System::Guid _id) noexcept {
   this->_id = _id;
 }
@@ -598,11 +598,11 @@ template <typename TResult> constexpr GlobalNamespace::OVRTask_1_CombinedTaskDat
 template <typename TResult> constexpr ::System::IDisposable* GlobalNamespace::OVRTask_1_CombinedTaskData<TResult>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Task", ty: "::GlobalNamespace::OVRTask_1<::System::Collections::Generic::List_1<TResult>*>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_remainingTaskIds", ty: "::System::Collections::Generic::HashSet_1<::System::Guid>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_originalTaskOrder", ty:
-// "::System::Collections::Generic::List_1<::System::Guid>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_completedTasks", ty:
-// "::System::Collections::Generic::Dictionary_2<::System::Guid,TResult>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_userOwnedResultList", ty:
-// "::System::Collections::Generic::List_1<TResult>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Task", ty: "::GlobalNamespace::OVRTask_1<::System::Collections::Generic::List_1<TResult>*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_remainingTaskIds", ty: "::System::Collections::Generic::HashSet_1<::System::Guid>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_originalTaskOrder", ty:
+// "::System::Collections::Generic::List_1<::System::Guid>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_completedTasks", ty:
+// "::System::Collections::Generic::Dictionary_2<::System::Guid,TResult>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_userOwnedResultList", ty:
+// "::System::Collections::Generic::List_1<TResult>*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TResult>
 constexpr ::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult>::OVRTask_1_CombinedTaskData(::GlobalNamespace::OVRTask_1<::System::Collections::Generic::List_1<TResult>*> Task,
                                                                                              ::System::Collections::Generic::HashSet_1<::System::Guid>* _remainingTaskIds,
@@ -617,8 +617,8 @@ constexpr ::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult>::OVRTask_1_Comb
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult>::OVRTask_1_CombinedTaskData() {}
-// Ctor Parameters [CppParam { name: "CompletedTaskId", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "CombinedData", ty:
-// "::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "CompletedTaskId", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CombinedData", ty:
+// "::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TResult>
 constexpr ::GlobalNamespace::OVRTask_1_CombinedTaskDataWithCompletedTaskId<TResult>::OVRTask_1_CombinedTaskDataWithCompletedTaskId(
     ::System::Guid CompletedTaskId, ::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult> CombinedData) noexcept {
@@ -739,7 +739,7 @@ template <typename TResult> inline void GlobalNamespace::OVRTask_1_AwaitableSour
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_1_AwaitableSource<TResult>*>(), { "OnReturn", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TResult> inline void GlobalNamespace::OVRTask_1_AwaitableSource<TResult>::SetResultAndReturnToPool(::by_ref<TResult> result) {
+template <typename TResult> inline void GlobalNamespace::OVRTask_1_AwaitableSource<TResult>::SetResultAndReturnToPool(/* [IsReadOnly] */ ::by_ref<TResult> result) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_1_AwaitableSource<TResult>*>(), { "SetResultAndReturnToPool", {}, { ::i2c::type_of<::by_ref<TResult>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, result);
@@ -788,7 +788,7 @@ template <typename TResult> constexpr GlobalNamespace::OVRTask_1_Awaiter<TResult
 template <typename TResult> constexpr ::System::Runtime::CompilerServices::INotifyCompletion* GlobalNamespace::OVRTask_1_Awaiter<TResult>::i___System__Runtime__CompilerServices__INotifyCompletion() {
   return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_task", ty: "::GlobalNamespace::OVRTask_1<TResult>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_task", ty: "::GlobalNamespace::OVRTask_1<TResult>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TResult> constexpr ::GlobalNamespace::OVRTask_1_Awaiter<TResult>::OVRTask_1_Awaiter(::GlobalNamespace::OVRTask_1<TResult> _task) noexcept {
   this->_task = _task;
 }
@@ -854,7 +854,7 @@ template <typename TResult> inline void GlobalNamespace::OVRTask_1_Callback<TRes
                                                                                          { "Add", {}, { ::i2c::type_of<::System::Guid>(), ::i2c::type_of<::System::Action_1<TResult>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, taskId, delegate);
 }
-// Ctor Parameters [CppParam { name: "_delegate", ty: "::System::Action_1<TResult>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_delegate", ty: "::System::Action_1<TResult>*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TResult> constexpr ::GlobalNamespace::OVRTask_1_Callback<TResult>::OVRTask_1_Callback(::System::Action_1<TResult>* _delegate) noexcept {
   this->_delegate = _delegate;
 }
@@ -923,8 +923,8 @@ template <typename TResult, typename T> inline void GlobalNamespace::OVRTask_1_C
                                                            { "Add", {}, { ::i2c::type_of<::System::Guid>(), ::i2c::type_of<T>(), ::i2c::type_of<::System::Action_2<TResult, T>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, taskId, data, callback);
 }
-// Ctor Parameters [CppParam { name: "_data", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "_delegate", ty: "::System::Action_2<TResult,T>*", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "_data", ty: "T", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_delegate", ty: "::System::Action_2<TResult,T>*", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 template <typename TResult, typename T>
 constexpr ::GlobalNamespace::OVRTask_1_CallbackWithState_1<TResult, T>::OVRTask_1_CallbackWithState_1(T _data, ::System::Action_2<TResult, T>* _delegate) noexcept {
   this->_data = _data;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRCursor.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRCursor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVRCursor* New_ctor();
 
-  /// @brief Method SetCursorRay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetCursorRay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetCursorRay(::UnityEngine::Transform* ray);
 
-  /// @brief Method SetCursorStartDest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetCursorStartDest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetCursorStartDest(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 dest, ::UnityEngine::Vector3 normal);
 
   /// @brief Method .ctor, addr 0x5ef8194, size 0x4, virtual false, abstract: false, final false
@@ -42,13 +42,13 @@ protected:
   constexpr OVRCursor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRCursor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCursor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRCursor(OVRCursor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRCursor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCursor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRCursor(OVRCursor const&) = delete;
+  OVRCursor(OVRCursorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7875 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\PropertyDescriptor.hpp"
+// IWYU pragma private; include "System/ComponentModel/PropertyDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   /// @brief Field _valueChangedHandlers, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__valueChangedHandlers, put = __cordl_internal_set__valueChangedHandlers)) ::System::Collections::Hashtable* _valueChangedHandlers;
 
-  /// @brief Method CanResetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanResetValue(::System::Object* component);
 
   /// @brief Method CreateInstance, addr 0x63c4424, size 0x1f4, virtual false, abstract: false, final false
@@ -92,7 +92,7 @@ public:
   /// @brief Method GetTypeFromName, addr 0x63c424c, size 0x1d8, virtual false, abstract: false, final false
   inline ::System::Type* GetTypeFromName(::StringW typeName);
 
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*> attrs);
@@ -102,13 +102,13 @@ public:
   /// @brief Method OnValueChanged, addr 0x63c493c, size 0xb4, virtual true, abstract: false, final false
   inline void OnValueChanged(::System::Object* component, ::System::EventArgs* e);
 
-  /// @brief Method ResetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::ComponentModel::TypeConverter* const& __cordl_internal_get__converter() const;
@@ -147,16 +147,16 @@ public:
   /// @brief Method .ctor, addr 0x63c3ff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*> attrs);
 
-  /// @brief Method get_ComponentType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ComponentType();
 
   /// @brief Method get_Converter, addr 0x63c3ff8, size 0x254, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* get_Converter();
 
-  /// @brief Method get_IsReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -165,13 +165,13 @@ protected:
   constexpr PropertyDescriptor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyDescriptor(PropertyDescriptor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyDescriptor(PropertyDescriptor const&) = delete;
+  PropertyDescriptor(PropertyDescriptorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11286 };

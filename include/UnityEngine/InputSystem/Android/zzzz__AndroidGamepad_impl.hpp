@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidGamepad.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidGamepad.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidGamepad_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidGamepad._ctor

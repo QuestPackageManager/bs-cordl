@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CPUDrawInstanceData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CPUDrawInstanceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,13 +14,20 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CPUDrawInstanceData)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelHashMap_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct NativeParallelHashMap_2;
 }
 namespace UnityEngine::Rendering {
 struct DrawBatch;
@@ -202,13 +209,13 @@ protected:
   constexpr CPUDrawInstanceData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CPUDrawInstanceData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CPUDrawInstanceData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CPUDrawInstanceData(CPUDrawInstanceData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CPUDrawInstanceData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CPUDrawInstanceData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CPUDrawInstanceData(CPUDrawInstanceData const&) = delete;
+  CPUDrawInstanceData(CPUDrawInstanceDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17675 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlEventCache.hpp"
+// IWYU pragma private; include "System/Xml/XmlEventCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,7 +98,7 @@ public:
   // @brief default ctor
   constexpr XmlEventCache_XmlEventType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlEventCache_XmlEventType(int32_t value__) noexcept;
 
   /// @brief Field Base64 value: I32(14)
@@ -250,9 +250,9 @@ public:
   // @brief default ctor
   constexpr XmlEventCache_XmlEvent();
 
-  // Ctor Parameters [CppParam { name: "eventType", ty: "::System::Xml::XmlEventCache_XmlEventType", modifiers: "", def_value: None }, CppParam { name: "s1", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "s3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "o", ty:
-  // "::System::Object*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "eventType", ty: "::System::Xml::XmlEventCache_XmlEventType", modifiers: "", def_value: None, comment: None }, CppParam { name: "s1", ty: "::StringW", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "s2", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "s3", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "o", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }]
   constexpr XmlEventCache_XmlEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::System::Object* o) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -482,13 +482,13 @@ protected:
   constexpr XmlEventCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlEventCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlEventCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlEventCache(XmlEventCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlEventCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlEventCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlEventCache(XmlEventCache const&) = delete;
+  XmlEventCache(XmlEventCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9313 };

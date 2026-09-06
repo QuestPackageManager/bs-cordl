@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TreeViewExpansionChangedArgs.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TreeViewExpansionChangedArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,12 +59,15 @@ public:
   /// @brief Method .ctor, addr 0x6d2c95c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_id, addr 0x6d2c944, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isAppliedToAllChildren, addr 0x6d2c954, size 0x8, virtual false, abstract: false, final false
   inline void set_isAppliedToAllChildren(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isExpanded, addr 0x6d2c94c, size 0x8, virtual false, abstract: false, final false
   inline void set_isExpanded(bool value);
 
@@ -74,23 +77,29 @@ protected:
   constexpr TreeViewExpansionChangedArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TreeViewExpansionChangedArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeViewExpansionChangedArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TreeViewExpansionChangedArgs(TreeViewExpansionChangedArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TreeViewExpansionChangedArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TreeViewExpansionChangedArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TreeViewExpansionChangedArgs(TreeViewExpansionChangedArgs const&) = delete;
+  TreeViewExpansionChangedArgs(TreeViewExpansionChangedArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4118 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <id>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____id_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <isExpanded>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool ____isExpanded_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <isAppliedToAllChildren>k__BackingField, offset: 0x15, size: 0x1, def value: None
   bool ____isAppliedToAllChildren_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerRecorder.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerRecorder.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorderOptions_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorder_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -9,7 +9,7 @@
 #include "Unity/Profiling/zzzz__ProfilerRecorderOptions_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorderSample_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorder_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::ProfilerRecorder_ControlOptions::ProfilerRecorder_ControlOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -21,7 +21,7 @@ constexpr ::Unity::Profiling::ProfilerRecorder_ControlOptions Unity::Profiling::
 constexpr ::Unity::Profiling::ProfilerRecorder_ControlOptions Unity::Profiling::ProfilerRecorder_ControlOptions::Release{ static_cast<int32_t>(0x4) };
 constexpr ::Unity::Profiling::ProfilerRecorder_ControlOptions Unity::Profiling::ProfilerRecorder_ControlOptions::SetFilterToCurrentThread{ static_cast<int32_t>(0x5) };
 constexpr ::Unity::Profiling::ProfilerRecorder_ControlOptions Unity::Profiling::ProfilerRecorder_ControlOptions::SetToCollectFromAllThreads{ static_cast<int32_t>(0x6) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::ProfilerRecorder_CountOptions::ProfilerRecorder_CountOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -691,7 +691,7 @@ constexpr Unity::Profiling::ProfilerRecorder::operator ::System::IDisposable*() 
 constexpr ::System::IDisposable* Unity::Profiling::ProfilerRecorder::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "handle", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Profiling::ProfilerRecorder::ProfilerRecorder(uint64_t handle) noexcept {
   this->handle = handle;
 }

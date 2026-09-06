@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEditorSceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEditorSceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,7 +17,9 @@ namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
@@ -51,7 +53,7 @@ public:
       startLevel;
 
   static inline ::GlobalNamespace::BeatmapEditorSceneSetupData*
-  New_ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+  New_ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder, /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */
            ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel);
 
   constexpr bool const& __cordl_internal_get_goStraightToEditor() const;
@@ -79,7 +81,7 @@ public:
   constexpr void __cordl_internal_set_startLevel(::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> value);
 
   /// @brief Method .ctor, addr 0x590cde8, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+  inline void _ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder, /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */
                     ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel);
 
 protected:
@@ -88,13 +90,13 @@ protected:
   constexpr BeatmapEditorSceneSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorSceneSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorSceneSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorSceneSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorSceneSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData const&) = delete;
+  BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6719 };
@@ -108,6 +110,7 @@ public:
   /// @brief Field ignoreTempFolder, offset: 0x20, size: 0x1, def value: None
   bool ___ignoreTempFolder;
 
+  /// [TupleElementNames(new[] { "characteristic", "difficulty" })]
   /// @brief Field startLevel, offset: 0x24, size: 0xc, def value: None
   ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> ___startLevel;
 

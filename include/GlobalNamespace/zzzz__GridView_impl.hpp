@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GridView.hpp"
+// IWYU pragma private; include "GlobalNamespace/GridView.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GridView_def.hpp"
 #include "GlobalNamespace/zzzz__GridView_def.hpp"
@@ -305,6 +306,7 @@ inline ::System::Object* GlobalNamespace::GridViewCellsEnumerator_GridView__GetE
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1* GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1*>(__1__state));
 }
@@ -710,7 +712,9 @@ inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GridView*>(), { "GetActiveCellsForCellPrefab", {}, { ::i2c::type_of<::UnityEngine::Component*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>*>(this, ___internal_method, prefab);
 }
-template <typename T> inline T GlobalNamespace::GridView::GetReusableCellView(::UnityEngine::Component* prefab) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
+inline T GlobalNamespace::GridView::GetReusableCellView(::UnityEngine::Component* prefab) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GridView*>(), { "GetReusableCellView", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::Component*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

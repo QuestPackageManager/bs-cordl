@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\LimitAvatarPoseRestriction.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/LimitAvatarPoseRestriction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,13 +132,13 @@ protected:
   constexpr LimitAvatarPoseRestriction_Parameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction_Parameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction_Parameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LimitAvatarPoseRestriction_Parameters(LimitAvatarPoseRestriction_Parameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction_Parameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction_Parameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LimitAvatarPoseRestriction_Parameters(LimitAvatarPoseRestriction_Parameters const&) = delete;
+  LimitAvatarPoseRestriction_Parameters(LimitAvatarPoseRestriction_Parametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21662 };
@@ -236,17 +236,18 @@ protected:
   constexpr LimitAvatarPoseRestriction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LimitAvatarPoseRestriction(LimitAvatarPoseRestriction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LimitAvatarPoseRestriction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LimitAvatarPoseRestriction(LimitAvatarPoseRestriction const&) = delete;
+  LimitAvatarPoseRestriction(LimitAvatarPoseRestrictionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21663 };
 
+  /// [Inject]
   /// @brief Field _parameters, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters* ____parameters;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\PageInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/PageInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr PageInfo();
 
-  // Ctor Parameters [CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "baseLine", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "descender", ty:
-  // "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "baseLine", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "descender", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr PageInfo(int32_t firstCharacterIndex, int32_t lastCharacterIndex, float_t ascender, float_t baseLine, float_t descender) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

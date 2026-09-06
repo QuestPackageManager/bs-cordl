@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlIgnoreAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlIgnoreAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlIgnoreAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlIgnoreAttribute._ctor

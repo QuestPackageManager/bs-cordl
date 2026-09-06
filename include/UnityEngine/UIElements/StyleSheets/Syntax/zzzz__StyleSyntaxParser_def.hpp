@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Syntax\StyleSyntaxParser.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/StyleSyntaxParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ class StyleSyntaxParser;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser*, "UnityEngine.UIElements.StyleSheets.Syntax", "StyleSyntaxParser");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
@@ -144,13 +145,13 @@ protected:
   constexpr StyleSyntaxParser();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxParser", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxParser", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSyntaxParser(StyleSyntaxParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSyntaxParser(StyleSyntaxParser const&) = delete;
+  StyleSyntaxParser(StyleSyntaxParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5481 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SafeSerializationManager.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SafeSerializationManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,6 +82,7 @@ public:
   static inline ::System::Runtime::Serialization::SafeSerializationManager* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                      ::System::Runtime::Serialization::StreamingContext context);
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x5b54ec0, size 0xa4, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
@@ -142,13 +143,13 @@ protected:
   constexpr SafeSerializationManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeSerializationManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeSerializationManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeSerializationManager(SafeSerializationManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeSerializationManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeSerializationManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeSerializationManager(SafeSerializationManager const&) = delete;
+  SafeSerializationManager(SafeSerializationManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3243 };
@@ -165,6 +166,7 @@ public:
   /// @brief Field m_realType, offset: 0x28, size: 0x8, def value: None
   ::System::RuntimeType* ___m_realType;
 
+  /// [CompilerGenerated]
   /// @brief Field SerializeObjectState, offset: 0x30, size: 0x8, def value: None
   ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* ___SerializeObjectState;
 

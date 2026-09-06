@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\Util\RenderGraphUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/Util/RenderGraphUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,9 @@ namespace UnityEngine::Rendering::RenderGraphModule::Util {
 class RenderGraphUtils___c;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -127,13 +129,13 @@ protected:
   constexpr RenderGraphUtils_CopyPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_CopyPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_CopyPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphUtils_CopyPassData(RenderGraphUtils_CopyPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_CopyPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_CopyPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils_CopyPassData(RenderGraphUtils_CopyPassData const&) = delete;
+  RenderGraphUtils_CopyPassData(RenderGraphUtils_CopyPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12468 };
@@ -178,7 +180,7 @@ public:
   // @brief default ctor
   constexpr RenderGraphUtils_BlitFilterMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraphUtils_BlitFilterMode(int32_t value__) noexcept;
 
   /// @brief Field ClampBilinear value: I32(1)
@@ -321,13 +323,13 @@ protected:
   constexpr RenderGraphUtils_BlitPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphUtils_BlitPassData(RenderGraphUtils_BlitPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils_BlitPassData(RenderGraphUtils_BlitPassData const&) = delete;
+  RenderGraphUtils_BlitPassData(RenderGraphUtils_BlitPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12470 };
@@ -423,7 +425,7 @@ public:
   // @brief default ctor
   constexpr RenderGraphUtils_FullScreenGeometryType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraphUtils_FullScreenGeometryType(int32_t value__) noexcept;
 
   /// @brief Field Mesh value: I32(0)
@@ -522,16 +524,17 @@ public:
   // @brief default ctor
   constexpr RenderGraphUtils_BlitMaterialParameters();
 
-  // Ctor Parameters [CppParam { name: "source", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name: "destination", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam
-  // { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "sourceSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "destinationSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numSlices", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sourceMip", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "destinationMip", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numMips", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "shaderPass", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "propertyBlock", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None }, CppParam { name: "sourceTexturePropertyID", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "sourceSlicePropertyID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sourceMipPropertyID", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "scaleBiasPropertyID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "geometry", ty:
-  // "::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "source", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "destination", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "sourceSlice", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "destinationSlice", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "numSlices", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "sourceMip", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "destinationMip", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "numMips", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "shaderPass", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "propertyBlock", ty:
+  // "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None, comment: None }, CppParam { name: "sourceTexturePropertyID", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "sourceSlicePropertyID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sourceMipPropertyID", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "scaleBiasPropertyID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "geometry", ty:
+  // "::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraphUtils_BlitMaterialParameters(::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination,
                                                     ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset, int32_t sourceSlice, int32_t destinationSlice, int32_t numSlices, int32_t sourceMip,
                                                     int32_t destinationMip, int32_t numMips, ::UnityW<::UnityEngine::Material> material, int32_t shaderPass,
@@ -820,13 +823,13 @@ protected:
   constexpr RenderGraphUtils_BlitMaterialPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitMaterialPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitMaterialPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphUtils_BlitMaterialPassData(RenderGraphUtils_BlitMaterialPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitMaterialPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils_BlitMaterialPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils_BlitMaterialPassData(RenderGraphUtils_BlitMaterialPassData const&) = delete;
+  RenderGraphUtils_BlitMaterialPassData(RenderGraphUtils_BlitMaterialPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12473 };
@@ -927,6 +930,7 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::Render
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData) == 0x88, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule::Util
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::RenderGraphModule::Util {
 // Is value type: false
@@ -997,13 +1001,13 @@ protected:
   constexpr RenderGraphUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphUtils___c(RenderGraphUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils___c(RenderGraphUtils___c const&) = delete;
+  RenderGraphUtils___c(RenderGraphUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12474 };
@@ -1014,6 +1018,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule::Util
+// [Extension]
 // Dependencies System.Object, UnityEngine.Vector4
 namespace UnityEngine::Rendering::RenderGraphModule::Util {
 // Is value type: false
@@ -1041,20 +1046,25 @@ public:
   /// @brief Field s_PropertyBlock, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_PropertyBlock, put = setStaticF_s_PropertyBlock)) ::UnityEngine::MaterialPropertyBlock* s_PropertyBlock;
 
+  /// [Extension]
   /// @brief Method AddBlitPass, addr 0x67ec6e0, size 0x6a0, virtual false, abstract: false, final false
   static inline void AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
-                                 ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters blitParameters, ::StringW passName, ::StringW file, int32_t line);
+                                 ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters blitParameters, ::StringW passName, /* [CallerFilePath] */ ::StringW file,
+                                 /* [CallerLineNumber] */ int32_t line);
 
+  /// [Extension]
   /// @brief Method AddBlitPass, addr 0x67ebe80, size 0x62c, virtual false, abstract: false, final false
   static inline void AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset, int32_t sourceSlice,
                                  int32_t destinationSlice, int32_t numSlices, int32_t sourceMip, int32_t destinationMip, int32_t numMips,
-                                 ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode filterMode, ::StringW passName, ::StringW file, int32_t line);
+                                 ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode filterMode, ::StringW passName, /* [CallerFilePath] */ ::StringW file,
+                                 /* [CallerLineNumber] */ int32_t line);
 
+  /// [Extension]
   /// @brief Method AddCopyPass, addr 0x67eb754, size 0x6b0, virtual false, abstract: false, final false
   static inline void AddCopyPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
                                  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, int32_t sourceSlice, int32_t destinationSlice, int32_t sourceMip, int32_t destinationMip,
-                                 ::StringW passName, ::StringW file, int32_t line);
+                                 ::StringW passName, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line);
 
   /// @brief Method BlitMaterialRenderFunc, addr 0x67ecd80, size 0x388, virtual false, abstract: false, final false
   static inline void BlitMaterialRenderFunc(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialPassData* data,
@@ -1083,13 +1093,13 @@ protected:
   constexpr RenderGraphUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphUtils(RenderGraphUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtils(RenderGraphUtils const&) = delete;
+  RenderGraphUtils(RenderGraphUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12475 };

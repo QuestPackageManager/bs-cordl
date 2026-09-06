@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngineInternal\Input\NativeInputEventBuffer.hpp"
+// IWYU pragma private; include "UnityEngineInternal/Input/NativeInputEventBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,8 +61,9 @@ public:
   // @brief default ctor
   constexpr NativeInputEventBuffer();
 
-  // Ctor Parameters [CppParam { name: "eventBuffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "eventCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sizeInBytes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capacityInBytes", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "eventBuffer", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "eventCount", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "sizeInBytes", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "capacityInBytes", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr NativeInputEventBuffer(void* eventBuffer, int32_t eventCount, int32_t sizeInBytes, int32_t capacityInBytes) noexcept;
 
 private:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AttachmentIndexArray.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AttachmentIndexArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct AttachmentIndexArray;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::AttachmentIndexArray);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::AttachmentIndexArray, "UnityEngine.Rendering", "AttachmentIndexArray");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -47,10 +48,11 @@ public:
   // @brief default ctor
   constexpr AttachmentIndexArray();
 
-  // Ctor Parameters [CppParam { name: "a0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a2", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "a3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a4", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "a5", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a6", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a7", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "activeAttachments", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "a0", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "a1", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "a2", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "a3", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "a4", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "a5", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "a6", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "a7", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "activeAttachments", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr AttachmentIndexArray(int32_t a0, int32_t a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5, int32_t a6, int32_t a7, int32_t activeAttachments) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

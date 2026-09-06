@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Background.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Background.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -164,9 +164,9 @@ public:
   // @brief default ctor
   constexpr Background();
 
-  // Ctor Parameters [CppParam { name: "m_Texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "m_Sprite", ty: "::UnityW<::UnityEngine::Sprite>",
-  // modifiers: "", def_value: None }, CppParam { name: "m_RenderTexture", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "m_VectorImage", ty:
-  // "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Sprite", ty:
+  // "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RenderTexture", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_VectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: None, comment: None }]
   constexpr Background(::UnityW<::UnityEngine::Texture2D> m_Texture, ::UnityW<::UnityEngine::Sprite> m_Sprite, ::UnityW<::UnityEngine::RenderTexture> m_RenderTexture,
                        ::UnityW<::UnityEngine::UIElements::VectorImage> m_VectorImage) noexcept;
 
@@ -242,9 +242,11 @@ public:
   /// @brief Method .ctor, addr 0x6ddb530, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6ddb6c8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6ddb6c0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -254,20 +256,24 @@ protected:
   constexpr PropertyBag_Background_TextureProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_TextureProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_TextureProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_Background_TextureProperty(PropertyBag_Background_TextureProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_TextureProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_TextureProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Background_TextureProperty(PropertyBag_Background_TextureProperty const&) = delete;
+  PropertyBag_Background_TextureProperty(PropertyBag_Background_TexturePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4698 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -321,9 +327,11 @@ public:
   /// @brief Method .ctor, addr 0x6ddb594, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6ddb6ec, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6ddb6e4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -333,20 +341,24 @@ protected:
   constexpr PropertyBag_Background_SpriteProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_SpriteProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_SpriteProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_Background_SpriteProperty(PropertyBag_Background_SpriteProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_SpriteProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_SpriteProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Background_SpriteProperty(PropertyBag_Background_SpriteProperty const&) = delete;
+  PropertyBag_Background_SpriteProperty(PropertyBag_Background_SpritePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4699 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -400,9 +412,11 @@ public:
   /// @brief Method .ctor, addr 0x6ddb5f8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6ddb710, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6ddb708, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -412,20 +426,24 @@ protected:
   constexpr PropertyBag_Background_RenderTextureProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_RenderTextureProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_RenderTextureProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_Background_RenderTextureProperty(PropertyBag_Background_RenderTextureProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_RenderTextureProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_RenderTextureProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Background_RenderTextureProperty(PropertyBag_Background_RenderTextureProperty const&) = delete;
+  PropertyBag_Background_RenderTextureProperty(PropertyBag_Background_RenderTexturePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4700 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -479,9 +497,11 @@ public:
   /// @brief Method .ctor, addr 0x6ddb65c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6ddb734, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6ddb72c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -491,20 +511,24 @@ protected:
   constexpr PropertyBag_Background_VectorImageProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_VectorImageProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_VectorImageProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_Background_VectorImageProperty(PropertyBag_Background_VectorImageProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_VectorImageProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Background_VectorImageProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Background_VectorImageProperty(PropertyBag_Background_VectorImageProperty const&) = delete;
+  PropertyBag_Background_VectorImageProperty(PropertyBag_Background_VectorImagePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4701 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -544,13 +568,13 @@ protected:
   constexpr Background_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Background_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Background_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Background_PropertyBag(Background_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Background_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Background_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Background_PropertyBag(Background_PropertyBag const&) = delete;
+  Background_PropertyBag(Background_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4702 };

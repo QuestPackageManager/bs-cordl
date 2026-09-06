@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\SettingsBindableAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/SettingsBindableAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class SettingsBindableAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::SettingsBindableAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::SettingsBindableAttribute*, "System.ComponentModel", "SettingsBindableAttribute");
+// [AttributeUsage((System.AttributeTargets)128)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -55,6 +56,7 @@ public:
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_Yes();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Bindable, addr 0x63c8904, size 0x8, virtual false, abstract: false, final false
   inline bool get_Bindable();
 
@@ -68,17 +70,18 @@ protected:
   constexpr SettingsBindableAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsBindableAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsBindableAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsBindableAttribute(SettingsBindableAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsBindableAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SettingsBindableAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SettingsBindableAttribute(SettingsBindableAttribute const&) = delete;
+  SettingsBindableAttribute(SettingsBindableAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11296 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Bindable>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Bindable_k__BackingField;
 

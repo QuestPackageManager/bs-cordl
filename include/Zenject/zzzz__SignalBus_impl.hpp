@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalBus.hpp"
+// IWYU pragma private; include "Zenject/SignalBus.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalBus_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -724,9 +724,10 @@ constexpr void Zenject::SignalBus::__cordl_internal_set__container(::Zenject::Di
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____container = value;
 }
-inline void Zenject::SignalBus::_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus,
-                                      ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::SignalSubscription_Pool* subscriptionPool, ::Zenject::SignalDeclaration_Factory* signalDeclarationFactory,
-                                      ::Zenject::DiContainer* container) {
+inline void Zenject::SignalBus::_ctor(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations,
+                                      /* [Inject(Source = (Zenject.InjectSources)2, Optional = true)] */ ::Zenject::SignalBus* parentBus,
+                                      /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::SignalSubscription_Pool* subscriptionPool,
+                                      ::Zenject::SignalDeclaration_Factory* signalDeclarationFactory, ::Zenject::DiContainer* container) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalBus*>(),
                                                            { ".ctor",
@@ -1035,8 +1036,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::SignalBus::__zenCreateInjectTypeInfo(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalBus*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::SignalBus* Zenject::SignalBus::New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations, ::Zenject::SignalBus* parentBus,
-                                                          ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::SignalSubscription_Pool* subscriptionPool,
+inline ::Zenject::SignalBus* Zenject::SignalBus::New_ctor(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* signalDeclarations,
+                                                          /* [Inject(Source = (Zenject.InjectSources)2, Optional = true)] */ ::Zenject::SignalBus* parentBus,
+                                                          /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings, ::Zenject::SignalSubscription_Pool* subscriptionPool,
                                                           ::Zenject::SignalDeclaration_Factory* signalDeclarationFactory, ::Zenject::DiContainer* container) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::SignalBus*>(signalDeclarations, parentBus, zenjectSettings, subscriptionPool, signalDeclarationFactory, container));
 }

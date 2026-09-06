@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\Certificate.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/Certificate.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"

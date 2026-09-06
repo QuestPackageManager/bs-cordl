@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XsdValidatingReader.hpp"
+// IWYU pragma private; include "System/Xml/XsdValidatingReader.hpp"
 #include "System/Xml/zzzz__AttributePSVIInfo_impl.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"
 #include "System/Xml/zzzz__XmlReader_impl.hpp"
@@ -38,7 +38,7 @@
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XsdValidatingReader_ValidatingReaderState::XsdValidatingReader_ValidatingReaderState(int32_t value__) noexcept {
   this->value__ = value__;
 }

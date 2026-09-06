@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\HierarchyIcons\HierarchyIconAttribute.hpp"
+// IWYU pragma private; include "OculusStudios/HierarchyIcons/HierarchyIconAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,9 @@ class HierarchyIconAttribute;
 // Write type traits
 MARK_REF_T(::OculusStudios::HierarchyIcons::HierarchyIconAttribute*);
 DEFINE_IL2CPP_CLASS(::OculusStudios::HierarchyIcons::HierarchyIconAttribute*, "OculusStudios.HierarchyIcons", "HierarchyIconAttribute");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = false)]
 // Dependencies System.Attribute, UnityEngine.Color
 namespace OculusStudios::HierarchyIcons {
 // Is value type: false
@@ -42,11 +45,14 @@ public:
   /// @brief Field parentTooltip, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_parentTooltip, put = __cordl_internal_set_parentTooltip)) ::StringW parentTooltip;
 
-  static inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* New_ctor(::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex,
-                                                                                  ::StringW parentTooltip, ::OculusStudios::HierarchyIcons::Icon parentIconPath, ::StringW parentIconHex);
+  /// @brief [NullableContext(2)]
+  static inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* New_ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath,
+                                                                                  ::StringW gameObjectIconHex, ::StringW parentTooltip, ::OculusStudios::HierarchyIcons::Icon parentIconPath,
+                                                                                  ::StringW parentIconHex);
 
-  static inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* New_ctor(::StringW gameObjectTooltip, ::StringW gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip,
-                                                                                  ::StringW parentIconPath, ::StringW parentIconHex);
+  /// @brief [NullableContext(2)]
+  static inline ::OculusStudios::HierarchyIcons::HierarchyIconAttribute* New_ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip, /* [Nullable(1)] */ ::StringW gameObjectIconPath,
+                                                                                  ::StringW gameObjectIconHex, ::StringW parentTooltip, ::StringW parentIconPath, ::StringW parentIconHex);
 
   constexpr ::StringW const& __cordl_internal_get_gameObjectIconPath() const;
 
@@ -84,12 +90,15 @@ public:
 
   constexpr void __cordl_internal_set_parentTooltip(::StringW value);
 
+  /// [NullableContext(2)]
   /// @brief Method .ctor, addr 0x5f2dcb4, size 0x194, virtual false, abstract: false, final false
-  inline void _ctor(::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip,
+  inline void _ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip,
                     ::OculusStudios::HierarchyIcons::Icon parentIconPath, ::StringW parentIconHex);
 
+  /// [NullableContext(2)]
   /// @brief Method .ctor, addr 0x5f2dbe0, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW gameObjectTooltip, ::StringW gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip, ::StringW parentIconPath, ::StringW parentIconHex);
+  inline void _ctor(/* [Nullable(1)] */ ::StringW gameObjectTooltip, /* [Nullable(1)] */ ::StringW gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip, ::StringW parentIconPath,
+                    ::StringW parentIconHex);
 
 protected:
   // Ctor Parameters []
@@ -97,13 +106,13 @@ protected:
   constexpr HierarchyIconAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyIconAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyIconAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HierarchyIconAttribute(HierarchyIconAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HierarchyIconAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HierarchyIconAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HierarchyIconAttribute(HierarchyIconAttribute const&) = delete;
+  HierarchyIconAttribute(HierarchyIconAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23592 };

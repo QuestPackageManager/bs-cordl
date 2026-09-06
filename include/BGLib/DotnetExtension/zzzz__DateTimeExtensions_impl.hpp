@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\DateTimeExtensions.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/DateTimeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/zzzz__DateTimeExtensions_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"

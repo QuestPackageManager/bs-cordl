@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\X509\IX509Extension.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/X509/IX509Extension.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,21 +28,22 @@ namespace Org::BouncyCastle::X509 {
 class CORDL_TYPE IX509Extension {
 public:
   // Declarations
-  /// @brief Method GetCriticalExtensionOids, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCriticalExtensionOids();
 
-  /// @brief Method GetExtensionValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtensionValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [Obsolete("Use version taking a DerObjectIdentifier instead")]
+  /// @brief Method GetExtensionValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::StringW oid);
 
-  /// @brief Method GetNonCriticalExtensionOids, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IX509Extension", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IX509Extension", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IX509Extension(IX509Extension const&) = delete;
+  IX509Extension(IX509Extensionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1605 };

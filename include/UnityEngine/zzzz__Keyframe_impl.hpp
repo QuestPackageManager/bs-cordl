@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Keyframe.hpp"
+// IWYU pragma private; include "UnityEngine/Keyframe.hpp"
 #include "UnityEngine/zzzz__Keyframe_def.hpp"
 #include "UnityEngine/zzzz__WeightedMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Keyframe._ctor
@@ -266,10 +266,10 @@ inline void UnityEngine::Keyframe::set_weightedMode(::UnityEngine::WeightedMode 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Keyframe>(), { "set_weightedMode", {}, { ::i2c::type_of<::UnityEngine::WeightedMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_InTangent", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OutTangent", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_WeightedMode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_InWeight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_OutWeight", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_InTangent", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_OutTangent", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_WeightedMode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_InWeight", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_OutWeight", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Keyframe::Keyframe(float_t m_Time, float_t m_Value, float_t m_InTangent, float_t m_OutTangent, int32_t m_WeightedMode, float_t m_InWeight, float_t m_OutWeight) noexcept {
   this->m_Time = m_Time;
   this->m_Value = m_Value;

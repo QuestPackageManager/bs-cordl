@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PlayerConnectionInternal.hpp"
+// IWYU pragma private; include "UnityEngine/PlayerConnectionInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class PlayerConnectionInternal;
 // Write type traits
 MARK_REF_T(::UnityEngine::PlayerConnectionInternal*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerConnectionInternal*, "UnityEngine", "PlayerConnectionInternal");
+// [NativeHeader("Runtime/Export/PlayerConnection/PlayerConnectionInternal.bindings.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -34,32 +35,39 @@ public:
   /// @brief Convert operator to "::UnityEngine::IPlayerEditorConnectionNative"
   constexpr operator ::UnityEngine::IPlayerEditorConnectionNative*() noexcept;
 
+  /// [FreeFunction("PlayerConnection_Bindings::DisconnectAll")]
   /// @brief Method DisconnectAll, addr 0x6ad72e8, size 0x28, virtual false, abstract: false, final false
   static inline void DisconnectAll();
 
+  /// [FreeFunction("PlayerConnection_Bindings::Initialize")]
   /// @brief Method Initialize, addr 0x6ad7248, size 0x28, virtual false, abstract: false, final false
   static inline void Initialize();
 
+  /// [FreeFunction("PlayerConnection_Bindings::IsConnected")]
   /// @brief Method IsConnected, addr 0x6ad7298, size 0x28, virtual false, abstract: false, final false
   static inline bool IsConnected();
 
   static inline ::UnityEngine::PlayerConnectionInternal* New_ctor();
 
+  /// [FreeFunction("PlayerConnection_Bindings::PollInternal")]
   /// @brief Method PollInternal, addr 0x6ad6f00, size 0x28, virtual false, abstract: false, final false
   static inline void PollInternal();
 
+  /// [FreeFunction("PlayerConnection_Bindings::RegisterInternal")]
   /// @brief Method RegisterInternal, addr 0x6ad6f80, size 0x124, virtual false, abstract: false, final false
   static inline void RegisterInternal(::StringW messageId);
 
   /// @brief Method RegisterInternal_Injected, addr 0x6ad7310, size 0x3c, virtual false, abstract: false, final false
   static inline void RegisterInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> messageId);
 
+  /// [FreeFunction("PlayerConnection_Bindings::SendMessage")]
   /// @brief Method SendMessage, addr 0x6ad6a70, size 0x1ac, virtual false, abstract: false, final false
   static inline void SendMessage(::StringW messageId, ::ArrayW<uint8_t> data, int32_t playerId);
 
   /// @brief Method SendMessage_Injected, addr 0x6ad7388, size 0x54, virtual false, abstract: false, final false
   static inline void SendMessage_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> messageId, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> data, int32_t playerId);
 
+  /// [FreeFunction("PlayerConnection_Bindings::TrySendMessage")]
   /// @brief Method TrySendMessage, addr 0x6ad6d20, size 0x1b8, virtual false, abstract: false, final false
   static inline bool TrySendMessage(::StringW messageId, ::ArrayW<uint8_t> data, int32_t playerId);
 
@@ -90,6 +98,7 @@ public:
   /// @brief Method UnityEngine.IPlayerEditorConnectionNative.UnregisterInternal, addr 0x6ad70a4, size 0x58, virtual true, abstract: false, final true
   inline void UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal(::System::Guid messageId);
 
+  /// [FreeFunction("PlayerConnection_Bindings::UnregisterInternal")]
   /// @brief Method UnregisterInternal, addr 0x6ad70fc, size 0x124, virtual false, abstract: false, final false
   static inline void UnregisterInternal(::StringW messageId);
 
@@ -108,13 +117,13 @@ protected:
   constexpr PlayerConnectionInternal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnectionInternal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnectionInternal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerConnectionInternal(PlayerConnectionInternal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnectionInternal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerConnectionInternal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerConnectionInternal(PlayerConnectionInternal const&) = delete;
+  PlayerConnectionInternal(PlayerConnectionInternalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10273 };

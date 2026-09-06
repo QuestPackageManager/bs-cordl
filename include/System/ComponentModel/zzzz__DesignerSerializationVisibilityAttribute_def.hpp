@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\DesignerSerializationVisibilityAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/DesignerSerializationVisibilityAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class DesignerSerializationVisibilityAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::DesignerSerializationVisibilityAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::DesignerSerializationVisibilityAttribute*, "System.ComponentModel", "DesignerSerializationVisibilityAttribute");
+// [AttributeUsage((System.AttributeTargets)960)]
 // Dependencies System.Attribute, System.ComponentModel.DesignerSerializationVisibility
 namespace System::ComponentModel {
 // Is value type: false
@@ -73,6 +74,7 @@ public:
 
   static inline ::System::ComponentModel::DesignerSerializationVisibilityAttribute* getStaticF_Visible();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Visibility, addr 0x63b479c, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::DesignerSerializationVisibility get_Visibility();
 
@@ -90,17 +92,18 @@ protected:
   constexpr DesignerSerializationVisibilityAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerSerializationVisibilityAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerSerializationVisibilityAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DesignerSerializationVisibilityAttribute(DesignerSerializationVisibilityAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DesignerSerializationVisibilityAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DesignerSerializationVisibilityAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DesignerSerializationVisibilityAttribute(DesignerSerializationVisibilityAttribute const&) = delete;
+  DesignerSerializationVisibilityAttribute(DesignerSerializationVisibilityAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11225 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Visibility>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::DesignerSerializationVisibility ____Visibility_k__BackingField;
 

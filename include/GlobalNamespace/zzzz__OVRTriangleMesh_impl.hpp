@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTriangleMesh.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTriangleMesh.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTriangleMesh_def.hpp"
@@ -39,8 +39,9 @@ constexpr GlobalNamespace::OVRTriangleMesh_GetMeshJob::operator ::Unity::Jobs::I
 constexpr ::Unity::Jobs::IJob* GlobalNamespace::OVRTriangleMesh_GetMeshJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Positions", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Indices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Positions", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Indices", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTriangleMesh_GetMeshJob::OVRTriangleMesh_GetMeshJob(uint64_t Space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Positions,
                                                                                     ::Unity::Collections::NativeArray_1<int32_t> Indices) noexcept {
   this->Space = Space;
@@ -49,8 +50,8 @@ constexpr ::GlobalNamespace::OVRTriangleMesh_GetMeshJob::OVRTriangleMesh_GetMesh
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTriangleMesh_GetMeshJob::OVRTriangleMesh_GetMeshJob() {}
-// Ctor Parameters [CppParam { name: "A", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "B", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "C", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "A", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "B", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "C", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTriangleMesh_Triangle::OVRTriangleMesh_Triangle(int32_t A, int32_t B, int32_t C) noexcept {
   this->A = A;
   this->B = B;
@@ -85,7 +86,7 @@ constexpr GlobalNamespace::OVRTriangleMesh_FlipTriangleWindingJob::operator ::Un
 constexpr ::Unity::Jobs::IJobParallelFor* GlobalNamespace::OVRTriangleMesh_FlipTriangleWindingJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRTriangleMesh_Triangle>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRTriangleMesh_Triangle>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTriangleMesh_FlipTriangleWindingJob::OVRTriangleMesh_FlipTriangleWindingJob(
     ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRTriangleMesh_Triangle> Triangles) noexcept {
   this->Triangles = Triangles;
@@ -118,7 +119,7 @@ constexpr GlobalNamespace::OVRTriangleMesh_NegateXJob::operator ::Unity::Jobs::I
 constexpr ::Unity::Jobs::IJobParallelFor* GlobalNamespace::OVRTriangleMesh_NegateXJob::i___Unity__Jobs__IJobParallelFor() {
   return static_cast<::Unity::Jobs::IJobParallelFor*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Positions", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Positions", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTriangleMesh_NegateXJob::OVRTriangleMesh_NegateXJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Positions) noexcept {
   this->Positions = Positions;
 }
@@ -513,7 +514,7 @@ constexpr GlobalNamespace::OVRTriangleMesh::operator ::System::IEquatable_1<::Gl
 constexpr ::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>* GlobalNamespace::OVRTriangleMesh::i___System__IEquatable_1___GlobalNamespace__OVRTriangleMesh_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTriangleMesh::OVRTriangleMesh(uint64_t _Handle_k__BackingField) noexcept {
   this->_Handle_k__BackingField = _Handle_k__BackingField;
 }

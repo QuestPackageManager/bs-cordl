@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Hashes.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Hashes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ MARK_VAL_T(::UnityEngine::UIElements::Hashes);
 MARK_VAL_T(::UnityEngine::UIElements::Hashes__hashes_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Hashes, "UnityEngine.UIElements", "Hashes");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Hashes__hashes_e__FixedBuffer, "UnityEngine.UIElements", "Hashes/<hashes>e__FixedBuffer");
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -33,7 +35,7 @@ public:
   // @brief default ctor
   constexpr Hashes__hashes_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Hashes__hashes_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -70,7 +72,7 @@ public:
   // @brief default ctor
   constexpr Hashes();
 
-  // Ctor Parameters [CppParam { name: "hashes", ty: "::UnityEngine::UIElements::Hashes__hashes_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hashes", ty: "::UnityEngine::UIElements::Hashes__hashes_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr Hashes(::UnityEngine::UIElements::Hashes__hashes_e__FixedBuffer hashes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -82,6 +84,7 @@ public:
   /// @brief Field kSize offset 0xffffffff size 0x4
   static constexpr int32_t kSize{ static_cast<int32_t>(0x4) };
 
+  /// [FixedBuffer(typeof(System.Int32), 4)]
   /// @brief Field hashes, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::UIElements::Hashes__hashes_e__FixedBuffer hashes;
 

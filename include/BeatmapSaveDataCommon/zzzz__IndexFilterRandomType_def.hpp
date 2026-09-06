@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon\IndexFilterRandomType.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon/IndexFilterRandomType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct IndexFilterRandomType;
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataCommon::IndexFilterRandomType);
 DEFINE_IL2CPP_CLASS(::BeatmapSaveDataCommon::IndexFilterRandomType, "BeatmapSaveDataCommon", "IndexFilterRandomType");
+// [Flags]
 // Dependencies
 namespace BeatmapSaveDataCommon {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr IndexFilterRandomType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IndexFilterRandomType(int32_t value__) noexcept;
 
   /// @brief Field KeepOrder value: I32(1)

@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509KeyUsageFlags.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509KeyUsageFlags.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyUsageFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags::X509KeyUsageFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

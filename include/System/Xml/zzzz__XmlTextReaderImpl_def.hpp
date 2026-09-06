@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlTextReaderImpl.hpp"
+// IWYU pragma private; include "System/Xml/XmlTextReaderImpl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -324,7 +324,7 @@ public:
   // @brief default ctor
   constexpr XmlTextReaderImpl_ParsingFunction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextReaderImpl_ParsingFunction(int32_t value__) noexcept;
 
   /// @brief Field AfterResolveEmptyEntityInContent value: I32(18)
@@ -452,7 +452,7 @@ public:
   // @brief default ctor
   constexpr XmlTextReaderImpl_ParsingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextReaderImpl_ParsingMode(int32_t value__) noexcept;
 
   /// @brief Field Full value: I32(0)
@@ -516,7 +516,7 @@ public:
   // @brief default ctor
   constexpr XmlTextReaderImpl_EntityType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextReaderImpl_EntityType(int32_t value__) noexcept;
 
   /// @brief Field CharacterDec value: I32(0)
@@ -590,7 +590,7 @@ public:
   // @brief default ctor
   constexpr XmlTextReaderImpl_EntityExpandType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextReaderImpl_EntityExpandType(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(0)
@@ -661,7 +661,7 @@ public:
   // @brief default ctor
   constexpr XmlTextReaderImpl_IncrementalReadState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextReaderImpl_IncrementalReadState(int32_t value__) noexcept;
 
   /// @brief Field AttributeValue value: I32(6)
@@ -757,7 +757,7 @@ public:
   // @brief default ctor
   constexpr XmlTextReaderImpl_InitInputType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextReaderImpl_InitInputType(int32_t value__) noexcept;
 
   /// @brief Field Invalid value: I32(3)
@@ -897,13 +897,13 @@ protected:
   constexpr XmlTextReaderImpl_LaterInitParam();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_LaterInitParam", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_LaterInitParam", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextReaderImpl_LaterInitParam(XmlTextReaderImpl_LaterInitParam&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_LaterInitParam", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_LaterInitParam", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_LaterInitParam(XmlTextReaderImpl_LaterInitParam const&) = delete;
+  XmlTextReaderImpl_LaterInitParam(XmlTextReaderImpl_LaterInitParamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9326 };
@@ -991,16 +991,17 @@ public:
   // @brief default ctor
   constexpr XmlTextReaderImpl_ParsingState();
 
-  // Ctor Parameters [CppParam { name: "chars", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "charsUsed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding*", modifiers: "", def_value: None }, CppParam { name: "appendMode",
-  // ty: "bool", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "decoder", ty: "::System::Text::Decoder*",
-  // modifiers: "", def_value: None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "bytePos", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "bytesUsed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textReader", ty: "::System::IO::TextReader*", modifiers: "", def_value: None }, CppParam { name:
-  // "lineNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineStartPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "baseUriStr", ty: "::StringW",
-  // modifiers: "", def_value: None }, CppParam { name: "baseUri", ty: "::System::Uri*", modifiers: "", def_value: None }, CppParam { name: "isEof", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "isStreamEof", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "entity", ty: "::System::Xml::IDtdEntityInfo*", modifiers: "", def_value: None }, CppParam { name:
-  // "entityId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "eolNormalized", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "entityResolvedManually", ty: "bool",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "chars", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "charsUsed", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "appendMode", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "decoder", ty: "::System::Text::Decoder*", modifiers: "", def_value: None, comment: None }, CppParam { name: "bytes", ty:
+  // "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "bytePos", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bytesUsed", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "textReader", ty: "::System::IO::TextReader*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "lineNo", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "lineStartPos", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "baseUriStr", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "baseUri", ty: "::System::Uri*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "isEof", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isStreamEof", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "entity", ty:
+  // "::System::Xml::IDtdEntityInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "entityId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "eolNormalized", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "entityResolvedManually", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr XmlTextReaderImpl_ParsingState(::ArrayW<char16_t> chars, int32_t charPos, int32_t charsUsed, ::System::Text::Encoding* encoding, bool appendMode, ::System::IO::Stream* stream,
                                            ::System::Text::Decoder* decoder, ::ArrayW<uint8_t> bytes, int32_t bytePos, int32_t bytesUsed, ::System::IO::TextReader* textReader, int32_t lineNo,
                                            int32_t lineStartPos, ::StringW baseUriStr, ::System::Uri* baseUri, bool isEof, bool isStreamEof, ::System::Xml::IDtdEntityInfo* entity, int32_t entityId,
@@ -1182,13 +1183,13 @@ protected:
   constexpr XmlTextReaderImpl_XmlContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_XmlContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_XmlContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextReaderImpl_XmlContext(XmlTextReaderImpl_XmlContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_XmlContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_XmlContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_XmlContext(XmlTextReaderImpl_XmlContext const&) = delete;
+  XmlTextReaderImpl_XmlContext(XmlTextReaderImpl_XmlContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9329 };
@@ -1266,13 +1267,13 @@ protected:
   constexpr XmlTextReaderImpl_NoNamespaceManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NoNamespaceManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NoNamespaceManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextReaderImpl_NoNamespaceManager(XmlTextReaderImpl_NoNamespaceManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NoNamespaceManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NoNamespaceManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_NoNamespaceManager(XmlTextReaderImpl_NoNamespaceManager const&) = delete;
+  XmlTextReaderImpl_NoNamespaceManager(XmlTextReaderImpl_NoNamespaceManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9330 };
@@ -1451,13 +1452,13 @@ protected:
   constexpr XmlTextReaderImpl_DtdParserProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdParserProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdParserProxy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextReaderImpl_DtdParserProxy(XmlTextReaderImpl_DtdParserProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdParserProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdParserProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_DtdParserProxy(XmlTextReaderImpl_DtdParserProxy const&) = delete;
+  XmlTextReaderImpl_DtdParserProxy(XmlTextReaderImpl_DtdParserProxyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9331 };
@@ -1771,13 +1772,13 @@ protected:
   constexpr XmlTextReaderImpl_NodeData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NodeData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NodeData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextReaderImpl_NodeData(XmlTextReaderImpl_NodeData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NodeData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_NodeData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_NodeData(XmlTextReaderImpl_NodeData const&) = delete;
+  XmlTextReaderImpl_NodeData(XmlTextReaderImpl_NodeDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9332 };
@@ -1920,13 +1921,13 @@ protected:
   constexpr XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer(XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer(XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer const&) = delete;
+  XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer(XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9333 };
@@ -1958,13 +1959,13 @@ protected:
   constexpr XmlTextReaderImpl_OnDefaultAttributeUseDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_OnDefaultAttributeUseDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_OnDefaultAttributeUseDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextReaderImpl_OnDefaultAttributeUseDelegate(XmlTextReaderImpl_OnDefaultAttributeUseDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_OnDefaultAttributeUseDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl_OnDefaultAttributeUseDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl_OnDefaultAttributeUseDelegate(XmlTextReaderImpl_OnDefaultAttributeUseDelegate const&) = delete;
+  XmlTextReaderImpl_OnDefaultAttributeUseDelegate(XmlTextReaderImpl_OnDefaultAttributeUseDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9334 };
@@ -3739,13 +3740,13 @@ protected:
   constexpr XmlTextReaderImpl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlTextReaderImpl(XmlTextReaderImpl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlTextReaderImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlTextReaderImpl(XmlTextReaderImpl const&) = delete;
+  XmlTextReaderImpl(XmlTextReaderImplconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9335 };

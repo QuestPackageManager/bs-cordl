@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SceneRenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SceneRenderPipeline.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SceneRenderPipeline_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::SceneRenderPipeline._ctor

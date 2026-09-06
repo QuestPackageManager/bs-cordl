@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\OptionalAvatarData.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/OptionalAvatarData.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarData_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::OptionalAvatarData.Equals
@@ -29,8 +29,8 @@ constexpr BeatSaber::AvatarCore::OptionalAvatarData::operator ::System::IEquatab
 constexpr ::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>* BeatSaber::AvatarCore::OptionalAvatarData::i___System__IEquatable_1___BeatSaber__AvatarCore__OptionalAvatarData_() {
   return static_cast<::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "dataType", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "dataType", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::AvatarCore::OptionalAvatarData::OptionalAvatarData(uint32_t dataType, int32_t length, ::ArrayW<uint8_t> data) noexcept {
   this->dataType = dataType;
   this->length = length;

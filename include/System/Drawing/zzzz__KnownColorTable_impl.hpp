@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Drawing\KnownColorTable.hpp"
+// IWYU pragma private; include "System/Drawing/KnownColorTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Drawing/zzzz__KnownColorTable_def.hpp"
 #include "System/Drawing/zzzz__KnownColor_def.hpp"

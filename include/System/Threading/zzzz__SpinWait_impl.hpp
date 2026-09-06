@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\SpinWait.hpp"
+// IWYU pragma private; include "System/Threading/SpinWait.hpp"
 #include "System/Threading/zzzz__SpinWait_def.hpp"
 //  Writing Method size for method: ::System::Threading::SpinWait.get_Count
 template <>
@@ -103,7 +103,7 @@ inline void System::Threading::SpinWait::Reset() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinWait>(), { "Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Threading::SpinWait::SpinWait(int32_t _count) noexcept {
   this->_count = _count;
 }

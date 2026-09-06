@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MeshGenerationNodeImpl.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MeshGenerationNodeImpl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class EntryRecorder;
@@ -123,12 +125,14 @@ public:
   /// @brief Method .ctor, addr 0x6dd5e40, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6dd5fa0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6dd5fa8, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -138,13 +142,13 @@ protected:
   constexpr MeshGenerationNodeImpl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationNodeImpl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationNodeImpl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshGenerationNodeImpl(MeshGenerationNodeImpl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationNodeImpl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationNodeImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshGenerationNodeImpl(MeshGenerationNodeImpl const&) = delete;
+  MeshGenerationNodeImpl(MeshGenerationNodeImplconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4674 };
@@ -158,6 +162,8 @@ public:
   /// @brief Field m_EntryRecorder, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::EntryRecorder* ___m_EntryRecorder;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

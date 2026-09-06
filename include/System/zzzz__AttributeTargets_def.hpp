@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\AttributeTargets.hpp"
+// IWYU pragma private; include "System/AttributeTargets.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct AttributeTargets;
 // Write type traits
 MARK_VAL_T(::System::AttributeTargets);
 DEFINE_IL2CPP_CLASS(::System::AttributeTargets, "System", "AttributeTargets");
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -56,7 +57,7 @@ public:
   // @brief default ctor
   constexpr AttributeTargets();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AttributeTargets(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(32767)

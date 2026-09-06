@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\InputSkeletalActionData_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/InputSkeletalActionData_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr InputSkeletalActionData_t();
 
-  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "boneCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "boneCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputSkeletalActionData_t(bool bActive, uint64_t activeOrigin, uint32_t boneCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

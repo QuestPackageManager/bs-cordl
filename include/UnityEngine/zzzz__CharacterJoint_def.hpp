@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CharacterJoint.hpp"
+// IWYU pragma private; include "UnityEngine/CharacterJoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,9 @@ class CharacterJoint;
 // Write type traits
 MARK_REF_T(::UnityEngine::CharacterJoint*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CharacterJoint*, "UnityEngine", "CharacterJoint");
+// [NativeClass("Unity::CharacterJoint")]
+// [NativeHeader("Modules/Physics/CharacterJoint.h")]
+// [RequireComponent(typeof(UnityEngine.Rigidbody))]
 // Dependencies UnityEngine.Joint, UnityEngine.JointDrive, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: false
@@ -213,23 +216,29 @@ protected:
   constexpr CharacterJoint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CharacterJoint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CharacterJoint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CharacterJoint(CharacterJoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CharacterJoint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CharacterJoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CharacterJoint(CharacterJoint const&) = delete;
+  CharacterJoint(CharacterJointconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18636 };
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("TargetRotation not in use for Unity 5 and assumed disabled.", true)]
   /// @brief Field targetRotation, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Quaternion ___targetRotation;
 
+  /// [Obsolete("TargetAngularVelocity not in use for Unity 5 and assumed disabled.", true)]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Field targetAngularVelocity, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___targetAngularVelocity;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("RotationDrive not in use for Unity 5 and assumed disabled.", true)]
   /// @brief Field rotationDrive, offset: 0x34, size: 0x10, def value: None
   ::UnityEngine::JointDrive ___rotationDrive;
 

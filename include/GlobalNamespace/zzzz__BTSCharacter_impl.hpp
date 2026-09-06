@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BTSCharacter.hpp"
+// IWYU pragma private; include "GlobalNamespace/BTSCharacter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterMaterialSwitcher_def.hpp"

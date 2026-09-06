@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Linq\ElementWriter.hpp"
+// IWYU pragma private; include "System/Xml/Linq/ElementWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,8 +58,8 @@ public:
   // @brief default ctor
   constexpr ElementWriter();
 
-  // Ctor Parameters [CppParam { name: "_writer", ty: "::System::Xml::XmlWriter*", modifiers: "", def_value: None }, CppParam { name: "_resolver", ty: "::System::Xml::Linq::NamespaceResolver",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_writer", ty: "::System::Xml::XmlWriter*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_resolver", ty:
+  // "::System::Xml::Linq::NamespaceResolver", modifiers: "", def_value: None, comment: None }]
   constexpr ElementWriter(::System::Xml::XmlWriter* _writer, ::System::Xml::Linq::NamespaceResolver _resolver) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

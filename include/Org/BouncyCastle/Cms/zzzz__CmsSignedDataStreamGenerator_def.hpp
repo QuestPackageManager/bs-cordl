@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsSignedDataStreamGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsSignedDataStreamGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -155,13 +155,13 @@ protected:
   constexpr CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder(CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder(CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder const&) = delete;
+  CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder(CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 653 };
@@ -286,13 +286,13 @@ protected:
   constexpr CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl(CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl(CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl const&) = delete;
+  CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl(CmsSignedDataStreamGenerator_SignerInfoGeneratorImplconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 654 };
@@ -433,13 +433,13 @@ protected:
   constexpr CmsSignedDataStreamGenerator_CmsSignedDataOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_CmsSignedDataOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_CmsSignedDataOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsSignedDataStreamGenerator_CmsSignedDataOutputStream(CmsSignedDataStreamGenerator_CmsSignedDataOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_CmsSignedDataOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator_CmsSignedDataOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataStreamGenerator_CmsSignedDataOutputStream(CmsSignedDataStreamGenerator_CmsSignedDataOutputStream const&) = delete;
+  CmsSignedDataStreamGenerator_CmsSignedDataOutputStream(CmsSignedDataStreamGenerator_CmsSignedDataOutputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 655 };
@@ -515,7 +515,7 @@ public:
   __declspec(property(get = __cordl_internal_get__signerInfs, put = __cordl_internal_set__signerInfs)) ::System::Collections::IList* _signerInfs;
 
   /// @brief Method AddDigests, addr 0x36baf10, size 0x4, virtual false, abstract: false, final false
-  inline void AddDigests(::ArrayW<::StringW> digestOids);
+  inline void AddDigests(/* [ParamArray] */ ::ArrayW<::StringW> digestOids);
 
   /// @brief Method AddDigests, addr 0x36baabc, size 0x2e0, virtual false, abstract: false, final false
   inline void AddDigests(::System::Collections::IEnumerable* digestOids);
@@ -665,13 +665,13 @@ protected:
   constexpr CmsSignedDataStreamGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsSignedDataStreamGenerator(CmsSignedDataStreamGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsSignedDataStreamGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsSignedDataStreamGenerator(CmsSignedDataStreamGenerator const&) = delete;
+  CmsSignedDataStreamGenerator(CmsSignedDataStreamGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 656 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationPlayableGraphExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableGraphExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableGraphExtensions_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerResolvePackageAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerResolvePackageAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ class PackageManagerResolvePackageAnalytic;
 // Write type traits
 MARK_REF_T(::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic*);
 DEFINE_IL2CPP_CLASS(::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic*, "UnityEditor.Analytics", "PackageManagerResolvePackageAnalytic");
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEditor.Analytics.PackageManagerBaseAnalytic
 namespace UnityEditor::Analytics {
 // Is value type: false
@@ -36,6 +38,7 @@ public:
   /// @brief Field packages, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_packages, put = __cordl_internal_set_packages)) ::ArrayW<::StringW> packages;
 
+  /// [RequiredByNativeCode]
   /// @brief Method CreatePackageManagerResolvePackageAnalytic, addr 0x6e2572c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerResolvePackageAnalytic* CreatePackageManagerResolvePackageAnalytic();
 
@@ -80,13 +83,13 @@ protected:
   constexpr PackageManagerResolvePackageAnalytic();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerResolvePackageAnalytic", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerResolvePackageAnalytic", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackageManagerResolvePackageAnalytic(PackageManagerResolvePackageAnalytic&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerResolvePackageAnalytic", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PackageManagerResolvePackageAnalytic", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PackageManagerResolvePackageAnalytic(PackageManagerResolvePackageAnalytic const&) = delete;
+  PackageManagerResolvePackageAnalytic(PackageManagerResolvePackageAnalyticconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23012 };

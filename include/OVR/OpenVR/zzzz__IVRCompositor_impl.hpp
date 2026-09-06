@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRCompositor.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRCompositor.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRCompositor_def.hpp"
 #include "OVR/OpenVR/zzzz__Compositor_CumulativeStats_def.hpp"
@@ -3520,40 +3520,44 @@ inline ::OVR::OpenVR::IVRCompositor__SubmitExplicitTimingData* OVR::OpenVR::IVRC
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRCompositor__SubmitExplicitTimingData::IVRCompositor__SubmitExplicitTimingData() {}
-// Ctor Parameters [CppParam { name: "SetTrackingSpace", ty: "::OVR::OpenVR::IVRCompositor__SetTrackingSpace*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetTrackingSpace", ty:
-// "::OVR::OpenVR::IVRCompositor__GetTrackingSpace*", modifiers: "", def_value: Some("{}") }, CppParam { name: "WaitGetPoses", ty: "::OVR::OpenVR::IVRCompositor__WaitGetPoses*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "GetLastPoses", ty: "::OVR::OpenVR::IVRCompositor__GetLastPoses*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetLastPoseForTrackedDeviceIndex", ty: "::OVR::OpenVR::IVRCompositor__GetLastPoseForTrackedDeviceIndex*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Submit", ty:
-// "::OVR::OpenVR::IVRCompositor__Submit*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ClearLastSubmittedFrame", ty: "::OVR::OpenVR::IVRCompositor__ClearLastSubmittedFrame*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "PostPresentHandoff", ty: "::OVR::OpenVR::IVRCompositor__PostPresentHandoff*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetFrameTiming", ty: "::OVR::OpenVR::IVRCompositor__GetFrameTiming*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetFrameTimings", ty:
-// "::OVR::OpenVR::IVRCompositor__GetFrameTimings*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetFrameTimeRemaining", ty: "::OVR::OpenVR::IVRCompositor__GetFrameTimeRemaining*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "GetCumulativeStats", ty: "::OVR::OpenVR::IVRCompositor__GetCumulativeStats*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "FadeToColor", ty: "::OVR::OpenVR::IVRCompositor__FadeToColor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetCurrentFadeColor", ty:
-// "::OVR::OpenVR::IVRCompositor__GetCurrentFadeColor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "FadeGrid", ty: "::OVR::OpenVR::IVRCompositor__FadeGrid*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "GetCurrentGridAlpha", ty: "::OVR::OpenVR::IVRCompositor__GetCurrentGridAlpha*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetSkyboxOverride", ty:
-// "::OVR::OpenVR::IVRCompositor__SetSkyboxOverride*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ClearSkyboxOverride", ty: "::OVR::OpenVR::IVRCompositor__ClearSkyboxOverride*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "CompositorBringToFront", ty: "::OVR::OpenVR::IVRCompositor__CompositorBringToFront*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "CompositorGoToBack", ty: "::OVR::OpenVR::IVRCompositor__CompositorGoToBack*", modifiers: "", def_value: Some("{}") }, CppParam { name: "CompositorQuit", ty:
-// "::OVR::OpenVR::IVRCompositor__CompositorQuit*", modifiers: "", def_value: Some("{}") }, CppParam { name: "IsFullscreen", ty: "::OVR::OpenVR::IVRCompositor__IsFullscreen*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "GetCurrentSceneFocusProcess", ty: "::OVR::OpenVR::IVRCompositor__GetCurrentSceneFocusProcess*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetLastFrameRenderer", ty: "::OVR::OpenVR::IVRCompositor__GetLastFrameRenderer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "CanRenderScene", ty:
-// "::OVR::OpenVR::IVRCompositor__CanRenderScene*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ShowMirrorWindow", ty: "::OVR::OpenVR::IVRCompositor__ShowMirrorWindow*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "HideMirrorWindow", ty: "::OVR::OpenVR::IVRCompositor__HideMirrorWindow*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "IsMirrorWindowVisible", ty: "::OVR::OpenVR::IVRCompositor__IsMirrorWindowVisible*", modifiers: "", def_value: Some("{}") }, CppParam { name: "CompositorDumpImages", ty:
-// "::OVR::OpenVR::IVRCompositor__CompositorDumpImages*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ShouldAppRenderWithLowResources", ty:
-// "::OVR::OpenVR::IVRCompositor__ShouldAppRenderWithLowResources*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ForceInterleavedReprojectionOn", ty:
-// "::OVR::OpenVR::IVRCompositor__ForceInterleavedReprojectionOn*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ForceReconnectProcess", ty:
-// "::OVR::OpenVR::IVRCompositor__ForceReconnectProcess*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SuspendRendering", ty: "::OVR::OpenVR::IVRCompositor__SuspendRendering*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "GetMirrorTextureD3D11", ty: "::OVR::OpenVR::IVRCompositor__GetMirrorTextureD3D11*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "ReleaseMirrorTextureD3D11", ty: "::OVR::OpenVR::IVRCompositor__ReleaseMirrorTextureD3D11*", modifiers: "", def_value: Some("{}") }, CppParam { name: "GetMirrorTextureGL", ty:
-// "::OVR::OpenVR::IVRCompositor__GetMirrorTextureGL*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ReleaseSharedGLTexture", ty: "::OVR::OpenVR::IVRCompositor__ReleaseSharedGLTexture*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "LockGLSharedTextureForAccess", ty: "::OVR::OpenVR::IVRCompositor__LockGLSharedTextureForAccess*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "UnlockGLSharedTextureForAccess", ty: "::OVR::OpenVR::IVRCompositor__UnlockGLSharedTextureForAccess*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetVulkanInstanceExtensionsRequired", ty: "::OVR::OpenVR::IVRCompositor__GetVulkanInstanceExtensionsRequired*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "GetVulkanDeviceExtensionsRequired", ty: "::OVR::OpenVR::IVRCompositor__GetVulkanDeviceExtensionsRequired*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SetExplicitTimingMode", ty:
-// "::OVR::OpenVR::IVRCompositor__SetExplicitTimingMode*", modifiers: "", def_value: Some("{}") }, CppParam { name: "SubmitExplicitTimingData", ty:
-// "::OVR::OpenVR::IVRCompositor__SubmitExplicitTimingData*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "SetTrackingSpace", ty: "::OVR::OpenVR::IVRCompositor__SetTrackingSpace*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetTrackingSpace", ty: "::OVR::OpenVR::IVRCompositor__GetTrackingSpace*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "WaitGetPoses", ty:
+// "::OVR::OpenVR::IVRCompositor__WaitGetPoses*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetLastPoses", ty: "::OVR::OpenVR::IVRCompositor__GetLastPoses*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "GetLastPoseForTrackedDeviceIndex", ty: "::OVR::OpenVR::IVRCompositor__GetLastPoseForTrackedDeviceIndex*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "Submit", ty: "::OVR::OpenVR::IVRCompositor__Submit*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "ClearLastSubmittedFrame", ty: "::OVR::OpenVR::IVRCompositor__ClearLastSubmittedFrame*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "PostPresentHandoff", ty:
+// "::OVR::OpenVR::IVRCompositor__PostPresentHandoff*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetFrameTiming", ty: "::OVR::OpenVR::IVRCompositor__GetFrameTiming*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetFrameTimings", ty: "::OVR::OpenVR::IVRCompositor__GetFrameTimings*", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "GetFrameTimeRemaining", ty: "::OVR::OpenVR::IVRCompositor__GetFrameTimeRemaining*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetCumulativeStats", ty: "::OVR::OpenVR::IVRCompositor__GetCumulativeStats*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FadeToColor", ty:
+// "::OVR::OpenVR::IVRCompositor__FadeToColor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetCurrentFadeColor", ty:
+// "::OVR::OpenVR::IVRCompositor__GetCurrentFadeColor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "FadeGrid", ty: "::OVR::OpenVR::IVRCompositor__FadeGrid*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "GetCurrentGridAlpha", ty: "::OVR::OpenVR::IVRCompositor__GetCurrentGridAlpha*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "SetSkyboxOverride", ty: "::OVR::OpenVR::IVRCompositor__SetSkyboxOverride*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ClearSkyboxOverride", ty:
+// "::OVR::OpenVR::IVRCompositor__ClearSkyboxOverride*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CompositorBringToFront", ty:
+// "::OVR::OpenVR::IVRCompositor__CompositorBringToFront*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CompositorGoToBack", ty:
+// "::OVR::OpenVR::IVRCompositor__CompositorGoToBack*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CompositorQuit", ty: "::OVR::OpenVR::IVRCompositor__CompositorQuit*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IsFullscreen", ty: "::OVR::OpenVR::IVRCompositor__IsFullscreen*", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "GetCurrentSceneFocusProcess", ty: "::OVR::OpenVR::IVRCompositor__GetCurrentSceneFocusProcess*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "GetLastFrameRenderer", ty: "::OVR::OpenVR::IVRCompositor__GetLastFrameRenderer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CanRenderScene", ty:
+// "::OVR::OpenVR::IVRCompositor__CanRenderScene*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShowMirrorWindow", ty: "::OVR::OpenVR::IVRCompositor__ShowMirrorWindow*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "HideMirrorWindow", ty: "::OVR::OpenVR::IVRCompositor__HideMirrorWindow*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "IsMirrorWindowVisible", ty: "::OVR::OpenVR::IVRCompositor__IsMirrorWindowVisible*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "CompositorDumpImages", ty: "::OVR::OpenVR::IVRCompositor__CompositorDumpImages*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ShouldAppRenderWithLowResources", ty:
+// "::OVR::OpenVR::IVRCompositor__ShouldAppRenderWithLowResources*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ForceInterleavedReprojectionOn", ty:
+// "::OVR::OpenVR::IVRCompositor__ForceInterleavedReprojectionOn*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ForceReconnectProcess", ty:
+// "::OVR::OpenVR::IVRCompositor__ForceReconnectProcess*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SuspendRendering", ty:
+// "::OVR::OpenVR::IVRCompositor__SuspendRendering*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetMirrorTextureD3D11", ty:
+// "::OVR::OpenVR::IVRCompositor__GetMirrorTextureD3D11*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ReleaseMirrorTextureD3D11", ty:
+// "::OVR::OpenVR::IVRCompositor__ReleaseMirrorTextureD3D11*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetMirrorTextureGL", ty:
+// "::OVR::OpenVR::IVRCompositor__GetMirrorTextureGL*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ReleaseSharedGLTexture", ty:
+// "::OVR::OpenVR::IVRCompositor__ReleaseSharedGLTexture*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "LockGLSharedTextureForAccess", ty:
+// "::OVR::OpenVR::IVRCompositor__LockGLSharedTextureForAccess*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "UnlockGLSharedTextureForAccess", ty:
+// "::OVR::OpenVR::IVRCompositor__UnlockGLSharedTextureForAccess*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetVulkanInstanceExtensionsRequired", ty:
+// "::OVR::OpenVR::IVRCompositor__GetVulkanInstanceExtensionsRequired*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "GetVulkanDeviceExtensionsRequired", ty:
+// "::OVR::OpenVR::IVRCompositor__GetVulkanDeviceExtensionsRequired*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SetExplicitTimingMode", ty:
+// "::OVR::OpenVR::IVRCompositor__SetExplicitTimingMode*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SubmitExplicitTimingData", ty:
+// "::OVR::OpenVR::IVRCompositor__SubmitExplicitTimingData*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::IVRCompositor::IVRCompositor(
     ::OVR::OpenVR::IVRCompositor__SetTrackingSpace* SetTrackingSpace, ::OVR::OpenVR::IVRCompositor__GetTrackingSpace* GetTrackingSpace, ::OVR::OpenVR::IVRCompositor__WaitGetPoses* WaitGetPoses,
     ::OVR::OpenVR::IVRCompositor__GetLastPoses* GetLastPoses, ::OVR::OpenVR::IVRCompositor__GetLastPoseForTrackedDeviceIndex* GetLastPoseForTrackedDeviceIndex,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PersistentScriptableObject.hpp"
+// IWYU pragma private; include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ protected:
   constexpr PersistentScriptableObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PersistentScriptableObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PersistentScriptableObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PersistentScriptableObject(PersistentScriptableObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PersistentScriptableObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PersistentScriptableObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PersistentScriptableObject(PersistentScriptableObject const&) = delete;
+  PersistentScriptableObject(PersistentScriptableObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20749 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeEventHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimeEventHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   // @brief default ctor
   constexpr RuntimeEventHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeEventHandle(::System::IntPtr value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

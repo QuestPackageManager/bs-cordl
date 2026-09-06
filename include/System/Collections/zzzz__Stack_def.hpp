@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Stack.hpp"
+// IWYU pragma private; include "System/Collections/Stack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,13 +128,13 @@ protected:
   constexpr Stack_StackEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Stack_StackEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stack_StackEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Stack_StackEnumerator(Stack_StackEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Stack_StackEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stack_StackEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stack_StackEnumerator(Stack_StackEnumerator const&) = delete;
+  Stack_StackEnumerator(Stack_StackEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3716 };
@@ -178,13 +178,13 @@ protected:
   constexpr Stack_StackDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Stack_StackDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stack_StackDebugView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Stack_StackDebugView(Stack_StackDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Stack_StackDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stack_StackDebugView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stack_StackDebugView(Stack_StackDebugView const&) = delete;
+  Stack_StackDebugView(Stack_StackDebugViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3717 };
@@ -195,6 +195,8 @@ public:
 static_assert(sizeof(::System::Collections::Stack_StackDebugView) == 0x10, "Size mismatch!");
 
 } // namespace System::Collections
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Stack::StackDebugView))]
 // Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
@@ -312,13 +314,13 @@ protected:
   constexpr Stack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Stack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Stack(Stack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Stack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Stack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Stack(Stack const&) = delete;
+  Stack(Stackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3718 };

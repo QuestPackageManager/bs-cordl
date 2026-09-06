@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\LocalDataStoreMgr.hpp"
+// IWYU pragma private; include "System/LocalDataStoreMgr.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,13 +122,13 @@ protected:
   constexpr LocalDataStoreMgr();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreMgr", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreMgr", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalDataStoreMgr(LocalDataStoreMgr&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreMgr", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalDataStoreMgr", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalDataStoreMgr(LocalDataStoreMgr const&) = delete;
+  LocalDataStoreMgr(LocalDataStoreMgrconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2555 };

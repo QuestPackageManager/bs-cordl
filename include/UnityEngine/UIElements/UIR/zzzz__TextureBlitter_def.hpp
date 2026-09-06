@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextureBlitter.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureBlitter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,9 +68,9 @@ public:
   // @brief default ctor
   constexpr TextureBlitter_BlitInfo();
 
-  // Ctor Parameters [CppParam { name: "src", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "srcRect", ty: "::UnityEngine::RectInt", modifiers: "",
-  // def_value: None }, CppParam { name: "dstPos", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "border", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "tint", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "src", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "srcRect", ty: "::UnityEngine::RectInt",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "dstPos", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "border", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "tint", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }]
   constexpr TextureBlitter_BlitInfo(::UnityW<::UnityEngine::Texture> src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, int32_t border, ::UnityEngine::Color tint) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -227,6 +227,7 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_CommitSampler();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cf2474, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
@@ -237,6 +238,7 @@ public:
 
   static inline void setStaticF_s_CommitSampler(::Unity::Profiling::ProfilerMarker value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cf247c, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -246,13 +248,13 @@ protected:
   constexpr TextureBlitter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureBlitter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureBlitter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureBlitter(TextureBlitter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureBlitter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureBlitter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureBlitter(TextureBlitter const&) = delete;
+  TextureBlitter(TextureBlitterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5353 };
@@ -275,6 +277,8 @@ public:
   /// @brief Field m_PendingBlits, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>* ___m_PendingBlits;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

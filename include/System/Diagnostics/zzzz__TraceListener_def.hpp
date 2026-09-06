@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\TraceListener.hpp"
+// IWYU pragma private; include "System/Diagnostics/TraceListener.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ namespace System::Diagnostics {
 class CORDL_TYPE TraceListener : public ::System::MarshalByRefObject {
 public:
   // Declarations
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_Filter)) ::System::Diagnostics::TraceFilter* Filter;
 
   __declspec(property(put = set_IndentLevel)) int32_t IndentLevel;
@@ -49,6 +50,7 @@ public:
 
   __declspec(property(get = get_NeedIndent, put = set_NeedIndent)) bool NeedIndent;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_TraceOutputOptions)) ::System::Diagnostics::TraceOptions TraceOutputOptions;
 
   /// @brief Field filter, offset 0x30, size 0x8
@@ -86,10 +88,11 @@ public:
 
   static inline ::System::Diagnostics::TraceListener* New_ctor(::StringW name);
 
+  /// [ComVisible(false)]
   /// @brief Method TraceEvent, addr 0x6398ec0, size 0xc8, virtual true, abstract: false, final false
   inline void TraceEvent(::System::Diagnostics::TraceEventCache* eventCache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW message);
 
-  /// @brief Method Write, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Write(::StringW message);
 
   /// @brief Method WriteFooter, addr 0x63990bc, size 0x5c0, virtual false, abstract: false, final false
@@ -101,7 +104,7 @@ public:
   /// @brief Method WriteIndent, addr 0x6398de4, size 0xdc, virtual true, abstract: false, final false
   inline void WriteIndent();
 
-  /// @brief Method WriteLine, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteLine(::StringW message);
 
   constexpr ::System::Diagnostics::TraceFilter* const& __cordl_internal_get_filter() const;
@@ -176,13 +179,13 @@ protected:
   constexpr TraceListener();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TraceListener", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceListener", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TraceListener(TraceListener&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TraceListener", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TraceListener", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TraceListener(TraceListener const&) = delete;
+  TraceListener(TraceListenerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11140 };

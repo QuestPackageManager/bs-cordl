@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_FontAssetUtilities.hpp"
+// IWYU pragma private; include "TMPro/TMP_FontAssetUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,13 +106,13 @@ protected:
   constexpr TMP_FontAssetUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAssetUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAssetUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_FontAssetUtilities(TMP_FontAssetUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAssetUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_FontAssetUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_FontAssetUtilities(TMP_FontAssetUtilities const&) = delete;
+  TMP_FontAssetUtilities(TMP_FontAssetUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15929 };

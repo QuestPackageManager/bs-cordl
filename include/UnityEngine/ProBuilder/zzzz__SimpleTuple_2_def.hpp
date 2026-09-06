@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\SimpleTuple_2.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
   // @brief default ctor
   constexpr SimpleTuple_2();
 
-  // Ctor Parameters [CppParam { name: "m_Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "m_Item2", ty: "T2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Item1", ty: "T1", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Item2", ty: "T2", modifiers: "", def_value: None, comment: None }]
   constexpr SimpleTuple_2(T1 m_Item1, T2 m_Item2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

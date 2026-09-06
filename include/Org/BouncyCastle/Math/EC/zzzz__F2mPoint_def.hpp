@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\F2mPoint.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/F2mPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,9 +42,11 @@ public:
   /// @brief Method Negate, addr 0x352effc, size 0x26c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
 
+  /// @brief [Obsolete("Use ECCurve.CreatePoint to construct points")]
   static inline ::Org::BouncyCastle::Math::EC::F2mPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                   ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
+  /// @brief [Obsolete("Per-point compression property will be removed, see GetEncoded(bool)")]
   static inline ::Org::BouncyCastle::Math::EC::F2mPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                   ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
@@ -57,9 +59,11 @@ public:
   /// @brief Method TwicePlus, addr 0x352eab8, size 0x544, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
+  /// [Obsolete("Use ECCurve.CreatePoint to construct points")]
   /// @brief Method .ctor, addr 0x352d3a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
+  /// [Obsolete("Per-point compression property will be removed, see GetEncoded(bool)")]
   /// @brief Method .ctor, addr 0x3525118, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
@@ -79,13 +83,13 @@ protected:
   constexpr F2mPoint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "F2mPoint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mPoint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   F2mPoint(F2mPoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "F2mPoint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "F2mPoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  F2mPoint(F2mPoint const&) = delete;
+  F2mPoint(F2mPointconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1572 };

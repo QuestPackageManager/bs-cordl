@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\DelegateProperty_2.hpp"
+// IWYU pragma private; include "Unity/Properties/DelegateProperty_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,6 +74,7 @@ public:
   /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -83,13 +84,13 @@ protected:
   constexpr DelegateProperty_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateProperty_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateProperty_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelegateProperty_2(DelegateProperty_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateProperty_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DelegateProperty_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DelegateProperty_2(DelegateProperty_2 const&) = delete;
+  DelegateProperty_2(DelegateProperty_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19619 };
@@ -100,6 +101,8 @@ public:
   /// @brief Field m_Setter, offset: 0x20, size: 0x8, def value: None
   ::Unity::Properties::PropertySetter_2<TContainer, TValue>* ___m_Setter;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 

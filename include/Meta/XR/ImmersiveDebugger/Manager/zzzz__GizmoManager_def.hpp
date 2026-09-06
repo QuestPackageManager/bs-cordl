@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\GizmoManager.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/GizmoManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,6 +70,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::GizmoManager___c__DisplayClas
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::GizmoManager*, "Meta.XR.ImmersiveDebugger.Manager", "GizmoManager");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::GizmoManager___c__DisplayClass4_0*, "Meta.XR.ImmersiveDebugger.Manager", "GizmoManager/<>c__DisplayClass4_0");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::GizmoManager___c__DisplayClass4_1*, "Meta.XR.ImmersiveDebugger.Manager", "GizmoManager/<>c__DisplayClass4_1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -151,13 +152,13 @@ protected:
   constexpr GizmoManager___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GizmoManager___c__DisplayClass4_0(GizmoManager___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManager___c__DisplayClass4_0(GizmoManager___c__DisplayClass4_0 const&) = delete;
+  GizmoManager___c__DisplayClass4_0(GizmoManager___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18432 };
@@ -193,6 +194,7 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::Manager::GizmoManager___c_
 static_assert(sizeof(::Meta::XR::ImmersiveDebugger::Manager::GizmoManager___c__DisplayClass4_0) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::ImmersiveDebugger::Manager
+// [CompilerGenerated]
 // Dependencies Meta.XR.ImmersiveDebugger.Utils.InstanceHandle, System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -245,13 +247,13 @@ protected:
   constexpr GizmoManager___c__DisplayClass4_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GizmoManager___c__DisplayClass4_1(GizmoManager___c__DisplayClass4_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager___c__DisplayClass4_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManager___c__DisplayClass4_1(GizmoManager___c__DisplayClass4_1 const&) = delete;
+  GizmoManager___c__DisplayClass4_1(GizmoManager___c__DisplayClass4_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18433 };
@@ -369,13 +371,13 @@ protected:
   constexpr GizmoManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GizmoManager(GizmoManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GizmoManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GizmoManager(GizmoManager const&) = delete;
+  GizmoManager(GizmoManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18434 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioContainerElement.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioContainerElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class AudioContainerElement;
 // Write type traits
 MARK_REF_T(::UnityEngine::Audio::AudioContainerElement*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Audio::AudioContainerElement*, "UnityEngine.Audio", "AudioContainerElement");
+// [NativeHeader("Modules/Audio/Public/AudioContainerElement.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine::Audio {
 // Is value type: false
@@ -33,7 +34,7 @@ public:
   __declspec(property(get = get_volume, put = set_volume)) float_t volume;
 
   /// @brief Method Internal_Create, addr 0x6a591ac, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Create(::UnityEngine::Audio::AudioContainerElement* self);
+  static inline void Internal_Create(/* [Writable] */ ::UnityEngine::Audio::AudioContainerElement* self);
 
   static inline ::UnityEngine::Audio::AudioContainerElement* New_ctor();
 
@@ -82,13 +83,13 @@ protected:
   constexpr AudioContainerElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioContainerElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioContainerElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioContainerElement(AudioContainerElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioContainerElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioContainerElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioContainerElement(AudioContainerElement const&) = delete;
+  AudioContainerElement(AudioContainerElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21093 };

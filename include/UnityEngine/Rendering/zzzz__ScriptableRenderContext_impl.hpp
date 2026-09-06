@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ScriptableRenderContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderTagId_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
@@ -30,9 +30,10 @@
 #include "UnityEngine/Rendering/zzzz__UISubset_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-// Ctor Parameters [CppParam { name: "cullResults", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "splitBuffer", ty: "::UnityEngine::Rendering::ShadowSplitData*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "splitBufferLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "perLightInfos", ty:
-// "::UnityEngine::Rendering::LightShadowCasterCullingInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "perLightInfoCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "cullResults", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "splitBuffer", ty:
+// "::UnityEngine::Rendering::ShadowSplitData*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "splitBufferLength", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "perLightInfos", ty: "::UnityEngine::Rendering::LightShadowCasterCullingInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "perLightInfoCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ScriptableRenderContext_CullShadowCastersContext::ScriptableRenderContext_CullShadowCastersContext(
     ::System::IntPtr cullResults, ::UnityEngine::Rendering::ShadowSplitData* splitBuffer, int32_t splitBufferLength, ::UnityEngine::Rendering::LightShadowCasterCullingInfo* perLightInfos,
     int32_t perLightInfoCount) noexcept {
@@ -1237,13 +1238,13 @@ inline void UnityEngine::Rendering::ScriptableRenderContext::ExecuteCommandBuffe
                           { "ExecuteCommandBufferAsync_Internal", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::ComputeQueueType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, commandBuffer, queueType);
 }
-inline void UnityEngine::Rendering::ScriptableRenderContext::SetupCameraProperties_Internal(::UnityEngine::Camera* camera, bool stereoSetup, int32_t eye) {
+inline void UnityEngine::Rendering::ScriptableRenderContext::SetupCameraProperties_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera, bool stereoSetup, int32_t eye) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
                                                            { "SetupCameraProperties_Internal", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, camera, stereoSetup, eye);
 }
-inline void UnityEngine::Rendering::ScriptableRenderContext::DrawWireOverlay_Impl(::UnityEngine::Camera* camera) {
+inline void UnityEngine::Rendering::ScriptableRenderContext::DrawWireOverlay_Impl(/* [NotNull] */ ::UnityEngine::Camera* camera) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(), { "DrawWireOverlay_Impl", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, camera);
@@ -1272,7 +1273,7 @@ inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::Scriptable
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(), { "CreateShadowRendererList_Internal", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererList>(*this, ___internal_method, shadowDrawinSettings);
 }
-inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::ScriptableRenderContext::CreateSkyboxRendererList_Internal(::UnityEngine::Camera* camera, int32_t mode,
+inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::ScriptableRenderContext::CreateSkyboxRendererList_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera, int32_t mode,
                                                                                                                                  ::UnityEngine::Matrix4x4 proj, ::UnityEngine::Matrix4x4 view,
                                                                                                                                  ::UnityEngine::Matrix4x4 projR, ::UnityEngine::Matrix4x4 viewR) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1283,21 +1284,21 @@ inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::Scriptable
                                                   ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererList>(*this, ___internal_method, camera, mode, proj, view, projR, viewR);
 }
-inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::ScriptableRenderContext::CreateGizmoRendererList_Internal(::UnityEngine::Camera* camera,
+inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::ScriptableRenderContext::CreateGizmoRendererList_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera,
                                                                                                                                 ::UnityEngine::Rendering::GizmoSubset gizmoSubset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
                                               { "CreateGizmoRendererList_Internal", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Rendering::GizmoSubset>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererList>(*this, ___internal_method, camera, gizmoSubset);
 }
-inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::ScriptableRenderContext::CreateUIOverlayRendererList_Internal(::UnityEngine::Camera* camera,
+inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::ScriptableRenderContext::CreateUIOverlayRendererList_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera,
                                                                                                                                     ::UnityEngine::Rendering::UISubset uiSubset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
                                               { "CreateUIOverlayRendererList_Internal", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Rendering::UISubset>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererList>(*this, ___internal_method, camera, uiSubset);
 }
-inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::ScriptableRenderContext::CreateWireOverlayRendererList_Internal(::UnityEngine::Camera* camera) {
+inline ::UnityEngine::Rendering::RendererList UnityEngine::Rendering::ScriptableRenderContext::CreateWireOverlayRendererList_Internal(/* [NotNull] */ ::UnityEngine::Camera* camera) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
                                                                                          { "CreateWireOverlayRendererList_Internal", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererList>(*this, ___internal_method, camera);
@@ -1655,7 +1656,7 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderConte
 UnityEngine::Rendering::ScriptableRenderContext::i___System__IEquatable_1___UnityEngine__Rendering__ScriptableRenderContext_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ScriptableRenderContext::ScriptableRenderContext(::System::IntPtr m_Ptr) noexcept {
   this->m_Ptr = m_Ptr;
 }

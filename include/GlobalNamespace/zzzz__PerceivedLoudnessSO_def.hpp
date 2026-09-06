@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerceivedLoudnessSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerceivedLoudnessSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,9 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,23 +106,26 @@ protected:
   constexpr PerceivedLoudnessSO_PerceivedLevelLoudnessPair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO_PerceivedLevelLoudnessPair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO_PerceivedLevelLoudnessPair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerceivedLoudnessSO_PerceivedLevelLoudnessPair(PerceivedLoudnessSO_PerceivedLevelLoudnessPair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO_PerceivedLevelLoudnessPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO_PerceivedLevelLoudnessPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerceivedLoudnessSO_PerceivedLevelLoudnessPair(PerceivedLoudnessSO_PerceivedLevelLoudnessPair const&) = delete;
+  PerceivedLoudnessSO_PerceivedLevelLoudnessPair(PerceivedLoudnessSO_PerceivedLevelLoudnessPairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22632 };
 
+  /// [SerializeField]
   /// @brief Field _levelId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelId;
 
+  /// [SerializeField]
   /// @brief Field _perceivedLoudness, offset: 0x18, size: 0x4, def value: None
   float_t ____perceivedLoudness;
 
+  /// [SerializeField]
   /// @brief Field _checkSum, offset: 0x20, size: 0x8, def value: None
   ::StringW ____checkSum;
 
@@ -136,6 +141,7 @@ static_assert(offsetof(::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoud
 static_assert(sizeof(::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -166,13 +172,13 @@ protected:
   constexpr PerceivedLoudnessSO___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerceivedLoudnessSO___c__DisplayClass6_0(PerceivedLoudnessSO___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerceivedLoudnessSO___c__DisplayClass6_0(PerceivedLoudnessSO___c__DisplayClass6_0 const&) = delete;
+  PerceivedLoudnessSO___c__DisplayClass6_0(PerceivedLoudnessSO___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22633 };
@@ -235,17 +241,18 @@ protected:
   constexpr PerceivedLoudnessSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerceivedLoudnessSO(PerceivedLoudnessSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerceivedLoudnessSO(PerceivedLoudnessSO const&) = delete;
+  PerceivedLoudnessSO(PerceivedLoudnessSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22634 };
 
+  /// [SerializeField]
   /// @brief Field _perceivedLoudnessPerLevel, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair*> ____perceivedLoudnessPerLevel;
 

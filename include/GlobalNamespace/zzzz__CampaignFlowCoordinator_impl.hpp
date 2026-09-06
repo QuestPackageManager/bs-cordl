@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CampaignFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/CampaignFlowCoordinator.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CampaignFlowCoordinator_def.hpp"

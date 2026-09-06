@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\LoadSceneParameters.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/LoadSceneParameters.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LocalPhysicsMode_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneParameters_def.hpp"
@@ -24,8 +24,8 @@ inline void UnityEngine::SceneManagement::LoadSceneParameters::_ctor(::UnityEngi
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::LoadSceneParameters>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::SceneManagement::LoadSceneMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, mode);
 }
-// Ctor Parameters [CppParam { name: "m_LoadSceneMode", ty: "::UnityEngine::SceneManagement::LoadSceneMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LocalPhysicsMode", ty:
-// "::UnityEngine::SceneManagement::LocalPhysicsMode", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_LoadSceneMode", ty: "::UnityEngine::SceneManagement::LoadSceneMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_LocalPhysicsMode", ty: "::UnityEngine::SceneManagement::LocalPhysicsMode", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::SceneManagement::LoadSceneParameters::LoadSceneParameters(::UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode,
                                                                                    ::UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode) noexcept {
   this->m_LoadSceneMode = m_LoadSceneMode;

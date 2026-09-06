@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMixedRealityCaptureSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMixedRealityCaptureSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRMixedRealityCaptureSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
+  /// @brief [Obsolete("Deprecated", false)]
   __declspec(property(get = OVRMixedRealityCaptureConfiguration_get_capturingCameraDevice,
                       put = OVRMixedRealityCaptureConfiguration_set_capturingCameraDevice)) ::GlobalNamespace::OVRManager_CameraDevice OVRMixedRealityCaptureConfiguration_capturingCameraDevice;
 
@@ -70,6 +71,7 @@ public:
   __declspec(property(get = OVRMixedRealityCaptureConfiguration_get_compositionMethod,
                       put = OVRMixedRealityCaptureConfiguration_set_compositionMethod)) ::GlobalNamespace::OVRManager_CompositionMethod OVRMixedRealityCaptureConfiguration_compositionMethod;
 
+  /// @brief [Obsolete("Deprecated", false)]
   __declspec(property(get = OVRMixedRealityCaptureConfiguration_get_depthQuality,
                       put = OVRMixedRealityCaptureConfiguration_set_depthQuality)) ::GlobalNamespace::OVRManager_DepthQuality OVRMixedRealityCaptureConfiguration_depthQuality;
 
@@ -136,6 +138,7 @@ public:
   __declspec(property(get = OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenTopY,
                       put = OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenTopY)) float_t OVRMixedRealityCaptureConfiguration_virtualGreenScreenTopY;
 
+  /// @brief [Obsolete("Deprecated", false)]
   __declspec(property(
       get = OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenType,
       put = OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenType)) ::GlobalNamespace::OVRManager_VirtualGreenScreenType OVRMixedRealityCaptureConfiguration_virtualGreenScreenType;
@@ -290,6 +293,7 @@ public:
   /// @brief Method OVRMixedRealityCaptureConfiguration.get_handPoseStateLatency, addr 0x5f03ba8, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_handPoseStateLatency();
 
+  /// [CompilerGenerated]
   /// @brief Method OVRMixedRealityCaptureConfiguration.get_instantiateMixedRealityCameraGameObject, addr 0x5f03cc0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* OVRMixedRealityCaptureConfiguration_get_instantiateMixedRealityCameraGameObject();
 
@@ -374,6 +378,7 @@ public:
   /// @brief Method OVRMixedRealityCaptureConfiguration.set_handPoseStateLatency, addr 0x5f03bb0, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_handPoseStateLatency(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method OVRMixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject, addr 0x5f03cc8, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value);
 
@@ -585,13 +590,13 @@ protected:
   constexpr OVRMixedRealityCaptureSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRMixedRealityCaptureSettings(OVRMixedRealityCaptureSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMixedRealityCaptureSettings(OVRMixedRealityCaptureSettings const&) = delete;
+  OVRMixedRealityCaptureSettings(OVRMixedRealityCaptureSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7940 };
@@ -617,6 +622,7 @@ public:
   /// @brief Field externalCompositionBackdropColorQuest, offset: 0x3c, size: 0x10, def value: None
   ::UnityEngine::Color ___externalCompositionBackdropColorQuest;
 
+  /// [Obsolete("Deprecated", false)]
   /// @brief Field capturingCameraDevice, offset: 0x4c, size: 0x4, def value: None
   ::GlobalNamespace::OVRManager_CameraDevice ___capturingCameraDevice;
 
@@ -650,6 +656,7 @@ public:
   /// @brief Field useDynamicLighting, offset: 0x7c, size: 0x1, def value: None
   bool ___useDynamicLighting;
 
+  /// [Obsolete("Deprecated", false)]
   /// @brief Field depthQuality, offset: 0x80, size: 0x4, def value: None
   ::GlobalNamespace::OVRManager_DepthQuality ___depthQuality;
 
@@ -659,6 +666,7 @@ public:
   /// @brief Field dynamicLightingDepthVariationClampingValue, offset: 0x88, size: 0x4, def value: None
   float_t ___dynamicLightingDepthVariationClampingValue;
 
+  /// [Obsolete("Deprecated", false)]
   /// @brief Field virtualGreenScreenType, offset: 0x8c, size: 0x4, def value: None
   ::GlobalNamespace::OVRManager_VirtualGreenScreenType ___virtualGreenScreenType;
 
@@ -677,6 +685,7 @@ public:
   /// @brief Field mrcActivationMode, offset: 0xa0, size: 0x4, def value: None
   ::GlobalNamespace::OVRManager_MrcActivationMode ___mrcActivationMode;
 
+  /// [CompilerGenerated]
   /// @brief Field <OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject>k__BackingField, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* ____OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject_k__BackingField;
 

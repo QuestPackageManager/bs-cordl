@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BezierSpline.hpp"
+// IWYU pragma private; include "GlobalNamespace/BezierSpline.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BezierSpline_def.hpp"
 #include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
@@ -28,7 +28,8 @@ inline void GlobalNamespace::BezierSpline_ComputeControlPointsResults::_ctor(::A
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<float_t>>(), ::i2c::type_of<::ArrayW<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, p1, p2);
 }
-// Ctor Parameters [CppParam { name: "p1", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "p2", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "p1", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "p2", ty: "::ArrayW<float_t>", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BezierSpline_ComputeControlPointsResults::BezierSpline_ComputeControlPointsResults(::ArrayW<float_t> p1, ::ArrayW<float_t> p2) noexcept {
   this->p1 = p1;
   this->p2 = p2;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\SemaphoreSlim.hpp"
+// IWYU pragma private; include "System/Threading/SemaphoreSlim.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr SemaphoreSlim_TaskNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim_TaskNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim_TaskNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SemaphoreSlim_TaskNode(SemaphoreSlim_TaskNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim_TaskNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim_TaskNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SemaphoreSlim_TaskNode(SemaphoreSlim_TaskNode const&) = delete;
+  SemaphoreSlim_TaskNode(SemaphoreSlim_TaskNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2709 };
@@ -143,6 +143,7 @@ static_assert(offsetof(::System::Threading::SemaphoreSlim_TaskNode, ___Next) == 
 static_assert(sizeof(::System::Threading::SemaphoreSlim_TaskNode) == 0x68, "Size mismatch!");
 
 } // namespace System::Threading
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
 // System.Threading.CancellationToken
 namespace System::Threading {
@@ -157,6 +158,7 @@ public:
   /// @brief Method MoveNext, addr 0x5caedcc, size 0x8a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5caf670, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -167,13 +169,14 @@ public:
   // @brief default ctor
   constexpr SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-  // modifiers: "", def_value: None }, CppParam { name: "asyncWaiter", ty: "::System::Threading::SemaphoreSlim_TaskNode*", modifiers: "", def_value: None }, CppParam { name: "millisecondsTimeout", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Threading::SemaphoreSlim*", modifiers: "", def_value: None }, CppParam { name: "_cts_5__2", ty:
-  // "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None }, CppParam { name:
-  // "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "asyncWaiter", ty: "::System::Threading::SemaphoreSlim_TaskNode*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "millisecondsTimeout", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::System::Threading::SemaphoreSlim*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cts_5__2", ty: "::System::Threading::CancellationTokenSource*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__7__wrap2", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                               ::System::Threading::CancellationToken cancellationToken, ::System::Threading::SemaphoreSlim_TaskNode* asyncWaiter,
                                                               int32_t millisecondsTimeout, ::System::Threading::SemaphoreSlim* __4__this, ::System::Threading::CancellationTokenSource* _cts_5__2,
@@ -243,6 +246,8 @@ static_assert(offsetof(::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeo
 static_assert(sizeof(::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32) == 0x70, "Size mismatch!");
 
 } // namespace System::Threading
+// [ComVisible(false)]
+// [DebuggerDisplay("Current Count = {m_currentCount}")]
 // Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
@@ -345,6 +350,7 @@ public:
   /// @brief Method WaitUntilCountOrTimeout, addr 0x5cae3f0, size 0xc8, virtual false, abstract: false, final false
   inline bool WaitUntilCountOrTimeout(int32_t millisecondsTimeout, uint32_t startTime, ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(System.Threading.SemaphoreSlim::<WaitUntilCountOrTimeoutAsync>d__32))]
   /// @brief Method WaitUntilCountOrTimeoutAsync, addr 0x5cae558, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitUntilCountOrTimeoutAsync(::System::Threading::SemaphoreSlim_TaskNode* asyncWaiter, int32_t millisecondsTimeout,
                                                                                 ::System::Threading::CancellationToken cancellationToken);
@@ -421,13 +427,13 @@ protected:
   constexpr SemaphoreSlim();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SemaphoreSlim(SemaphoreSlim&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SemaphoreSlim", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SemaphoreSlim(SemaphoreSlim const&) = delete;
+  SemaphoreSlim(SemaphoreSlimconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2711 };

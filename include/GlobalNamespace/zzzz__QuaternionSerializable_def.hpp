@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuaternionSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuaternionSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,8 +107,8 @@ public:
   // @brief default ctor
   constexpr QuaternionSerializable();
 
-  // Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_c", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_b", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_c", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr QuaternionSerializable(int32_t _a, int32_t _b, int32_t _c) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

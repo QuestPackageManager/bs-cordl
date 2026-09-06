@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputAction.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputAction.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
@@ -22,7 +22,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputAction_ActionFlags::InputAction_ActionFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -365,7 +365,9 @@ inline void UnityEngine::InputSystem::InputAction_CallbackContext::ReadValue(voi
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "ReadValue", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, buffer, bufferSize);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::InputAction_CallbackContext::ReadValue() {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline TValue UnityEngine::InputSystem::InputAction_CallbackContext::ReadValue() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "ReadValue", { ::i2c::class_of<TValue>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
@@ -384,8 +386,8 @@ inline ::StringW UnityEngine::InputSystem::InputAction_CallbackContext::ToString
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ActionIndex", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ActionIndex", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputAction_CallbackContext::InputAction_CallbackContext(::UnityEngine::InputSystem::InputActionState* m_State, int32_t m_ActionIndex) noexcept {
   this->m_State = m_State;
   this->m_ActionIndex = m_ActionIndex;
@@ -1525,7 +1527,9 @@ inline ::System::Object* UnityEngine::InputSystem::InputAction::System_ICloneabl
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "System.ICloneable.Clone", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::InputAction::ReadValue() {
+template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+inline TValue UnityEngine::InputSystem::InputAction::ReadValue() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "ReadValue", { ::i2c::class_of<TValue>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));

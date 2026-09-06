@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,20 +61,23 @@ protected:
   constexpr MaterialController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialController(MaterialController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialController(MaterialController const&) = delete;
+  MaterialController(MaterialControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19565 };
 
+  /// [SerializeField]
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _renderers, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Renderer>> ____renderers;
 

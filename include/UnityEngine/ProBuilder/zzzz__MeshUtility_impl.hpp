@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshUtility.hpp"
+#include "System/Collections/zzzz__IList_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__MeshUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -331,7 +332,9 @@ inline void UnityEngine::ProBuilder::MeshUtility::CopyTo(::UnityEngine::Mesh* so
                                                                                          { "CopyTo", {}, { ::i2c::type_of<::UnityEngine::Mesh*>(), ::i2c::type_of<::UnityEngine::Mesh*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, destination);
 }
-template <typename T> inline T UnityEngine::ProBuilder::MeshUtility::GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityW<::UnityEngine::Mesh>, T>* attributeGetter) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Collections::IList*>)
+inline T UnityEngine::ProBuilder::MeshUtility::GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityW<::UnityEngine::Mesh>, T>* attributeGetter) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshUtility*>(),

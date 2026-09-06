@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapData.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapData.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapData_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapBucketData_def.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_def.hpp"
@@ -238,6 +238,8 @@ inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, capacity);
 }
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
 inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::AllocateHashMap(int32_t length, int32_t bucketLength, ::Unity::Collections::AllocatorManager_AllocatorHandle label,
                                                                                              ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*> outBuf) {
   static auto* ___internal_method_base =
@@ -250,6 +252,8 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::All
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, length, bucketLength, label, outBuf);
 }
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
 inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::ReallocateHashMap(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, int32_t newCapacity,
                                                                                                int32_t newBucketCapacity, ::Unity::Collections::AllocatorManager_AllocatorHandle label) {
   static auto* ___internal_method_base =
@@ -272,6 +276,8 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::Dea
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, allocator);
 }
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
 inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::CalculateDataSize(int32_t length, int32_t bucketLength, ::by_ref<int32_t> keyOffset, ::by_ref<int32_t> nextOffset,
                                                                                                   ::by_ref<int32_t> bucketOffset) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData>(),
@@ -314,6 +320,7 @@ inline bool Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::Mov
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, data, bucketIndex, nextIndex, index);
 }
 template <typename TKey>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey>)
 inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetKeyArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data,
                                                                                          ::Unity::Collections::NativeArray_1<TKey> result) {
   static auto* ___internal_method_base =
@@ -326,6 +333,7 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::Get
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, result);
 }
 template <typename TValue>
+  requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetValueArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data,
                                                                                            ::Unity::Collections::NativeArray_1<TValue> result) {
   static auto* ___internal_method_base =
@@ -338,6 +346,8 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::Get
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, result);
 }
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> && ::cordl_internals::value_type_constraint<TValue> &&
+           ::cordl_internals::default_constructor_constraint<TValue>)
 inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetKeyValueArrays(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data,
                                                                                                ::Unity::Collections::NativeKeyValueArrays_2<TKey, TValue> result) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -362,10 +372,10 @@ inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::Che
                           { "CheckHashMapReallocateDoesNotShrink", {}, { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, data, newCapacity);
 }
-// Ctor Parameters [CppParam { name: "values", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "keys", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "next", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "buckets", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "keyCapacity", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "bucketCapacityMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "allocatedIndexLength", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "values", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "keys", ty: "uint8_t*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "next", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "buckets", ty: "uint8_t*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "keyCapacity", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bucketCapacityMask", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "allocatedIndexLength", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::UnsafeParallelHashMapData(uint8_t* values, uint8_t* keys, uint8_t* next, uint8_t* buckets, int32_t keyCapacity,
                                                                                                        int32_t bucketCapacityMask, int32_t allocatedIndexLength) noexcept {
   this->values = values;

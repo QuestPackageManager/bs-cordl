@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeArray_1.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeArray_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,29 +42,43 @@ namespace Unity::Collections {
 struct NativeArrayOptions;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T> struct ReadOnly_NativeArray_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct ReadOnly_NativeArray_1_Enumerator;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T> struct ReadOnly_NativeArray_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct ReadOnly_NativeArray_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeArray_1);
@@ -75,10 +89,18 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeArray_1, "Unity.Collections"
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeArray_1_Enumerator, "Unity.Collections", "NativeArray`1/Enumerator");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeArray_1_ReadOnly, "Unity.Collections", "NativeArray`1/ReadOnly");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::ReadOnly_NativeArray_1_Enumerator, "Unity.Collections", "NativeArray`1/ReadOnly/Enumerator");
+// [NativeContainer]
+// [NativeContainerSupportsMinMaxWriteRestriction]
+// [NativeContainerSupportsDeferredConvertListToArray]
+// [NativeContainerSupportsDeallocateOnJobCompletion]
+// [DefaultMember("Item")]
+// [DebuggerDisplay("Length = {m_Length}")]
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeArrayDebugView`1<T>))]
 // Dependencies Unity.Collections.Allocator
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeArray`1<T>
 struct CORDL_TYPE NativeArray_1 {
@@ -112,9 +134,12 @@ public:
   /// @brief Method AsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1_ReadOnly<T> AsReadOnly();
 
+  /// [IsReadOnly]
   /// @brief Method AsReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<T> AsReadOnlySpan();
 
+  /// [WriteAccessRequired]
+  /// [IsReadOnly]
   /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Span_1<T> AsSpan();
 
@@ -142,9 +167,11 @@ public:
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1_ReadOnly<T> src, ::ArrayW<T> dst, int32_t length);
 
+  /// [WriteAccessRequired]
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::ArrayW<T> array);
 
+  /// [WriteAccessRequired]
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::Unity::Collections::NativeArray_1<T> array);
 
@@ -166,6 +193,7 @@ public:
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Dispose(::Unity::Jobs::JobHandle inputDeps);
 
+  /// [WriteAccessRequired]
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
@@ -185,13 +213,19 @@ public:
   inline ::Unity::Collections::NativeArray_1<T> GetSubArray(int32_t start, int32_t length);
 
   /// @brief Method InternalReinterpret, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename U> inline ::Unity::Collections::NativeArray_1<U> InternalReinterpret(int32_t length);
+  template <typename U>
+    requires(::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+  inline ::Unity::Collections::NativeArray_1<U> InternalReinterpret(int32_t length);
 
   /// @brief Method Reinterpret, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename U> inline ::Unity::Collections::NativeArray_1<U> Reinterpret();
+  template <typename U>
+    requires(::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+  inline ::Unity::Collections::NativeArray_1<U> Reinterpret();
 
   /// @brief Method Reinterpret, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename U> inline ::Unity::Collections::NativeArray_1<U> Reinterpret(int32_t expectedTypeSize);
+  template <typename U>
+    requires(::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+  inline ::Unity::Collections::NativeArray_1<U> Reinterpret(int32_t expectedTypeSize);
 
   /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
@@ -236,11 +270,12 @@ public:
   static inline bool op_Equality(::Unity::Collections::NativeArray_1<T> left, ::Unity::Collections::NativeArray_1<T> right);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(::by_ref<::Unity::Collections::NativeArray_1<T>> source);
+  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T>> source);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Span_1<T> op_Implicit___System__Span_1_T_(::by_ref<::Unity::Collections::NativeArray_1<T>> source);
+  static inline ::System::Span_1<T> op_Implicit___System__Span_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T>> source);
 
+  /// [WriteAccessRequired]
   /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, T value);
 
@@ -248,8 +283,8 @@ public:
   // @brief default ctor
   constexpr NativeArray_1();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }]
   constexpr NativeArray_1(void* m_Buffer, int32_t m_Length, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -258,6 +293,8 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.ContentLoadModule", "UnityEngine.TilemapModule" })]
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   void* m_Buffer;
 
@@ -271,10 +308,12 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [ExcludeFromDocs]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeArray`1/Enumerator<T>
 struct CORDL_TYPE NativeArray_1_Enumerator {
@@ -324,8 +363,8 @@ public:
   // @brief default ctor
   constexpr NativeArray_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr NativeArray_1_Enumerator(::Unity::Collections::NativeArray_1<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -347,10 +386,16 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeArrayReadOnlyDebugView`1<T>))]
+// [DebuggerDisplay("Length = {Length}")]
+// [NativeContainerIsReadOnly]
+// [DefaultMember("Item")]
+// [NativeContainer]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeArray`1/ReadOnly<T>
 struct CORDL_TYPE NativeArray_1_ReadOnly {
@@ -368,6 +413,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// [IsReadOnly]
   /// @brief Method AsReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<T> AsReadOnlySpan();
 
@@ -402,13 +448,14 @@ public:
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>> source);
+  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>> source);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr NativeArray_1_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr NativeArray_1_ReadOnly(void* m_Buffer, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -417,6 +464,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   void* m_Buffer;
 
@@ -427,10 +475,12 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [ExcludeFromDocs]
 // Dependencies Unity.Collections.NativeArray`1::ReadOnly<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeArray`1/ReadOnly/Enumerator<T>
 struct CORDL_TYPE ReadOnly_NativeArray_1_Enumerator {
@@ -462,7 +512,7 @@ public:
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>> array);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>> array);
 
   /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Current();
@@ -480,8 +530,8 @@ public:
   // @brief default ctor
   constexpr ReadOnly_NativeArray_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeArray_1_ReadOnly<T>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeArray_1_ReadOnly<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None, comment: None }]
   constexpr ReadOnly_NativeArray_1_Enumerator(::Unity::Collections::NativeArray_1_ReadOnly<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

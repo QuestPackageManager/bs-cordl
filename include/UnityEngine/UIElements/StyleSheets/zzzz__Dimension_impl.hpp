@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Dimension.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Dimension.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__Dimension_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -7,7 +7,7 @@
 #include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit::Dimension_Unit(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -199,8 +199,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimensi
 UnityEngine::UIElements::StyleSheets::Dimension::i___System__IEquatable_1___UnityEngine__UIElements__StyleSheets__Dimension_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "unit", ty: "::UnityEngine::UIElements::StyleSheets::Dimension_Unit", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "float_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "unit", ty: "::UnityEngine::UIElements::StyleSheets::Dimension_Unit", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSheets::Dimension::Dimension(::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit, float_t value) noexcept {
   this->unit = unit;
   this->value = value;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngineInternal\Input\NativeInputSystem.hpp"
+// IWYU pragma private; include "UnityEngineInternal/Input/NativeInputSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,8 @@ class NativeInputSystem;
 // Write type traits
 MARK_REF_T(::UnityEngineInternal::Input::NativeInputSystem*);
 DEFINE_IL2CPP_CLASS(::UnityEngineInternal::Input::NativeInputSystem*, "UnityEngineInternal.Input", "NativeInputSystem");
+// [NativeHeader("Modules/Input/Private/InputModuleBindings.h")]
+// [NativeHeader("Modules/Input/Private/InputInternal.h")]
 // Dependencies System.Object
 namespace UnityEngineInternal::Input {
 // Is value type: false
@@ -52,6 +54,7 @@ public:
   /// @brief Field s_OnDeviceDiscoveredCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_OnDeviceDiscoveredCallback, put = setStaticF_s_OnDeviceDiscoveredCallback)) ::System::Action_2<int32_t, ::StringW>* s_OnDeviceDiscoveredCallback;
 
+  /// [FreeFunction("AllocateInputDeviceId")]
   /// @brief Method AllocateDeviceId, addr 0x6b63e3c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t AllocateDeviceId();
 
@@ -61,21 +64,26 @@ public:
   /// @brief Method IOCTL, addr 0x6b63ea0, size 0x5c, virtual false, abstract: false, final false
   static inline int64_t IOCTL(int32_t deviceId, int32_t code, ::System::IntPtr data, int32_t sizeInBytes);
 
+  /// [RequiredByNativeCode]
   /// @brief Method NotifyBeforeUpdate, addr 0x6b63ba4, size 0x80, virtual false, abstract: false, final false
   static inline void NotifyBeforeUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
+  /// [RequiredByNativeCode]
   /// @brief Method NotifyDeviceDiscovered, addr 0x6b63cc4, size 0x94, virtual false, abstract: false, final false
   static inline void NotifyDeviceDiscovered(int32_t deviceId, ::StringW deviceDescriptor);
 
+  /// [RequiredByNativeCode]
   /// @brief Method NotifyUpdate, addr 0x6b63c24, size 0xa0, virtual false, abstract: false, final false
   static inline void NotifyUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::System::IntPtr eventBuffer);
 
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method QueueInputEvent, addr 0x6b63e64, size 0x3c, virtual false, abstract: false, final false
   static inline void QueueInputEvent(::System::IntPtr inputEvent);
 
   /// @brief Method SetPollingFrequency, addr 0x6b63efc, size 0x38, virtual false, abstract: false, final false
   static inline void SetPollingFrequency(float_t hertz);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ShouldRunUpdate, addr 0x6b63d58, size 0x94, virtual false, abstract: false, final false
   static inline void ShouldRunUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::by_ref<bool> retval);
 
@@ -125,13 +133,13 @@ protected:
   constexpr NativeInputSystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputSystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputSystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeInputSystem(NativeInputSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeInputSystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeInputSystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeInputSystem(NativeInputSystem const&) = delete;
+  NativeInputSystem(NativeInputSystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23286 };

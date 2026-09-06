@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ObjectPool_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ObjectPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,14 +17,20 @@ namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> struct ObjectPool_1_PooledObject;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+struct ObjectPool_1_PooledObject;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> struct ObjectPool_1_PooledObject;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+struct ObjectPool_1_PooledObject;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ObjectPool_1);
@@ -35,6 +41,7 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::Rendering::ObjectPool_1_PooledObject, "Un
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ObjectPool`1/PooledObject<T>
 struct CORDL_TYPE ObjectPool_1_PooledObject {
@@ -56,8 +63,8 @@ public:
   // @brief default ctor
   constexpr ObjectPool_1_PooledObject();
 
-  // Ctor Parameters [CppParam { name: "m_ToReturn", ty: "T", modifiers: "", def_value: None }, CppParam { name: "m_Pool", ty: "::UnityEngine::Rendering::ObjectPool_1<T>*", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "m_ToReturn", ty: "T", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Pool", ty: "::UnityEngine::Rendering::ObjectPool_1<T>*", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr ObjectPool_1_PooledObject(T m_ToReturn, ::UnityEngine::Rendering::ObjectPool_1<T>* m_Pool) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,6 +87,7 @@ public:
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ObjectPool`1<T>
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
@@ -156,12 +164,14 @@ public:
   /// @brief Method get_countActive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_countAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countAll();
 
   /// @brief Method get_countInactive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countInactive();
 
+  /// [CompilerGenerated]
   /// @brief Method set_countAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_countAll(int32_t value);
 
@@ -171,13 +181,13 @@ protected:
   constexpr ObjectPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectPool_1(ObjectPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectPool_1(ObjectPool_1 const&) = delete;
+  ObjectPool_1(ObjectPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11923 };
@@ -194,6 +204,7 @@ public:
   /// @brief Field m_CollectionCheck, offset: 0x28, size: 0x1, def value: None
   bool ___m_CollectionCheck;
 
+  /// [CompilerGenerated]
   /// @brief Field <countAll>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____countAll_k__BackingField;
 

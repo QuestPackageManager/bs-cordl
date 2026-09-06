@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\_Scripting\APIUpdating\APIUpdaterRuntimeHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/_Scripting/APIUpdating/APIUpdaterRuntimeHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,9 +23,11 @@ namespace UnityEngine::_Scripting::APIUpdating {
 class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
+  /// [RequiredByNativeCode]
   /// @brief Method GetMovedFromAttributeDataForType, addr 0x6afae6c, size 0x134, virtual false, abstract: false, final false
   static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ::by_ref<::StringW> assembly, ::by_ref<::StringW> nsp, ::by_ref<::StringW> klass);
 
+  /// [RequiredByNativeCode]
   /// @brief Method GetObsoleteTypeRedirection, addr 0x6afafa0, size 0x2c4, virtual false, abstract: false, final false
   static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> nsp, ::by_ref<::StringW> className);
 
@@ -35,13 +37,13 @@ protected:
   constexpr APIUpdaterRuntimeHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers const&) = delete;
+  APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10426 };

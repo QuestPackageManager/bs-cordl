@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\AppQuitRequestedException.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/AppQuitRequestedException.hpp"
 #include "BeatSaber/Destinations/zzzz__InitialDestinationException_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__AppQuitRequestedException_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Destinations::AppQuitRequestedException._ctor

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\DeferredConfig.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DeferredConfig.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__DeferredConfig_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredConfig.get_IsOpenGL

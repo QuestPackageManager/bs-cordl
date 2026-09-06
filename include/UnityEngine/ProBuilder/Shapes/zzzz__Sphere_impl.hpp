@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Sphere.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Sphere.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Sphere_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,13 +98,13 @@ protected:
   constexpr InputState_StateChangeMonitorDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputState_StateChangeMonitorDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputState_StateChangeMonitorDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputState_StateChangeMonitorDelegate(InputState_StateChangeMonitorDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputState_StateChangeMonitorDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputState_StateChangeMonitorDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputState_StateChangeMonitorDelegate(InputState_StateChangeMonitorDelegate const&) = delete;
+  InputState_StateChangeMonitorDelegate(InputState_StateChangeMonitorDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9058 };
@@ -125,6 +125,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputState_StateCha
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::InputState_StateChangeMonitorDelegate) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
@@ -150,11 +151,13 @@ public:
 
   /// @brief Method Change, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState>
+    requires(::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
   static inline void Change(::UnityEngine::InputSystem::InputControl* control, ::by_ref<TState> state, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType,
                             ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   /// @brief Method Change, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState>
+    requires(::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
   static inline void Change(::UnityEngine::InputSystem::InputControl* control, TState state, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType,
                             ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
@@ -162,6 +165,7 @@ public:
   static inline void Change(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                             ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
+  /// [Extension]
   /// @brief Method IsIntegerFormat, addr 0x65b7b34, size 0x170, virtual false, abstract: false, final false
   static inline bool IsIntegerFormat(::UnityEngine::InputSystem::Utilities::FourCC format);
 
@@ -192,13 +196,13 @@ protected:
   constexpr InputState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputState(InputState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputState(InputState const&) = delete;
+  InputState(InputStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9059 };

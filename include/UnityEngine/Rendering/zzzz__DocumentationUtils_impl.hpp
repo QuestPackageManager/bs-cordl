@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DocumentationUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DocumentationUtils.hpp"
+#include "System/zzzz__IConvertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DocumentationUtils_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -16,7 +17,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*,
     return ___internal_method;
   }
 };
-template <typename TEnum> inline ::StringW UnityEngine::Rendering::DocumentationUtils::GetHelpURL(TEnum mask) {
+template <typename TEnum>
+  requires(::cordl_internals::type_constraint<TEnum, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<TEnum> && ::cordl_internals::default_constructor_constraint<TEnum>)
+inline ::StringW UnityEngine::Rendering::DocumentationUtils::GetHelpURL(TEnum mask) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DocumentationUtils*>(), { "GetHelpURL", { ::i2c::class_of<TEnum>() }, { ::i2c::type_of<TEnum>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEnum>() })));

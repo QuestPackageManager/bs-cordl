@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXCameraBufferTypes.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXCameraBufferTypes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VFXCameraBufferTypes;
 // Write type traits
 MARK_VAL_T(::UnityEngine::VFX::VFXCameraBufferTypes);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXCameraBufferTypes, "UnityEngine.VFX", "VFXCameraBufferTypes");
+// [Flags]
 // Dependencies
 namespace UnityEngine::VFX {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr VFXCameraBufferTypes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VFXCameraBufferTypes(int32_t value__) noexcept;
 
   /// @brief Field Color value: I32(2)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TrailerGameplayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/TrailerGameplayManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ MARK_REF_T(::GlobalNamespace::TrailerGameplayManager*);
 MARK_REF_T(::GlobalNamespace::TrailerGameplayManager__Start_d__4*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TrailerGameplayManager*, "", "TrailerGameplayManager");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TrailerGameplayManager__Start_d__4*, "", "TrailerGameplayManager/<Start>d__4");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -75,17 +76,22 @@ public:
   /// @brief Method MoveNext, addr 0x59aacc4, size 0x100, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::TrailerGameplayManager__Start_d__4* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59aadc4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59aadcc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59aae04, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59aacc0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -107,6 +113,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::TrailerGameplayManager> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59aacb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -125,13 +132,13 @@ protected:
   constexpr TrailerGameplayManager__Start_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrailerGameplayManager__Start_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrailerGameplayManager__Start_d__4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrailerGameplayManager__Start_d__4(TrailerGameplayManager__Start_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrailerGameplayManager__Start_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrailerGameplayManager__Start_d__4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrailerGameplayManager__Start_d__4(TrailerGameplayManager__Start_d__4 const&) = delete;
+  TrailerGameplayManager__Start_d__4(TrailerGameplayManager__Start_d__4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6003 };
@@ -157,6 +164,7 @@ static_assert(offsetof(::GlobalNamespace::TrailerGameplayManager__Start_d__4, __
 static_assert(sizeof(::GlobalNamespace::TrailerGameplayManager__Start_d__4) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/TrailerGameplayManager")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -180,6 +188,7 @@ public:
 
   static inline ::GlobalNamespace::TrailerGameplayManager* New_ctor();
 
+  /// [IteratorStateMachine(typeof(TrailerGameplayManager::<Start>d__4))]
   /// @brief Method Start, addr 0x59aac60, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
@@ -216,26 +225,30 @@ protected:
   constexpr TrailerGameplayManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrailerGameplayManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrailerGameplayManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrailerGameplayManager(TrailerGameplayManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrailerGameplayManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrailerGameplayManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrailerGameplayManager(TrailerGameplayManager const&) = delete;
+  TrailerGameplayManager(TrailerGameplayManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6004 };
 
+  /// [SerializeField]
   /// @brief Field _disableMainCamera, offset: 0x20, size: 0x1, def value: None
   bool ____disableMainCamera;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
+  /// [Inject]
   /// @brief Field _gameSongController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
 
+  /// [Inject]
   /// @brief Field _mainCamera, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 

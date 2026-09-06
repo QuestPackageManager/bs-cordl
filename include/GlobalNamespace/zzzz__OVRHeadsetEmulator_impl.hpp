@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRHeadsetEmulator.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRHeadsetEmulator.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_impl.hpp"
 #include "UnityEngine/zzzz__CursorLockMode_impl.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
@@ -9,7 +9,7 @@
 #include "GlobalNamespace/zzzz__OVRHeadsetEmulator_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode::OVRHeadsetEmulator_OpMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

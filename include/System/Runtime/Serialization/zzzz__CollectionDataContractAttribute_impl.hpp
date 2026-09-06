@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\CollectionDataContractAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/CollectionDataContractAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__CollectionDataContractAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::CollectionDataContractAttribute.get_Namespace

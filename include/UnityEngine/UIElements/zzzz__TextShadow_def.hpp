@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextShadow.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextShadow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,8 +103,8 @@ public:
   // @brief default ctor
   constexpr TextShadow();
 
-  // Ctor Parameters [CppParam { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "blurRadius", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "blurRadius", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }]
   constexpr TextShadow(::UnityEngine::Vector2 offset, float_t blurRadius, ::UnityEngine::Color color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -174,9 +174,11 @@ public:
   /// @brief Method .ctor, addr 0x6cb3374, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6cb34a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6cb34a0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -186,20 +188,24 @@ protected:
   constexpr PropertyBag_TextShadow_OffsetProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_OffsetProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_OffsetProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_TextShadow_OffsetProperty(PropertyBag_TextShadow_OffsetProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_OffsetProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_OffsetProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TextShadow_OffsetProperty(PropertyBag_TextShadow_OffsetProperty const&) = delete;
+  PropertyBag_TextShadow_OffsetProperty(PropertyBag_TextShadow_OffsetPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5105 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -253,9 +259,11 @@ public:
   /// @brief Method .ctor, addr 0x6cb33d8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6cb34c8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6cb34c0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -265,20 +273,24 @@ protected:
   constexpr PropertyBag_TextShadow_BlurRadiusProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_BlurRadiusProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_BlurRadiusProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_TextShadow_BlurRadiusProperty(PropertyBag_TextShadow_BlurRadiusProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_BlurRadiusProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_BlurRadiusProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TextShadow_BlurRadiusProperty(PropertyBag_TextShadow_BlurRadiusProperty const&) = delete;
+  PropertyBag_TextShadow_BlurRadiusProperty(PropertyBag_TextShadow_BlurRadiusPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5106 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -332,9 +344,11 @@ public:
   /// @brief Method .ctor, addr 0x6cb343c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6cb34e8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6cb34e0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -344,20 +358,24 @@ protected:
   constexpr PropertyBag_TextShadow_ColorProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_ColorProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_ColorProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_TextShadow_ColorProperty(PropertyBag_TextShadow_ColorProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_ColorProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_TextShadow_ColorProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_TextShadow_ColorProperty(PropertyBag_TextShadow_ColorProperty const&) = delete;
+  PropertyBag_TextShadow_ColorProperty(PropertyBag_TextShadow_ColorPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5107 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -395,13 +413,13 @@ protected:
   constexpr TextShadow_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextShadow_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextShadow_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextShadow_PropertyBag(TextShadow_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextShadow_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextShadow_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextShadow_PropertyBag(TextShadow_PropertyBag const&) = delete;
+  TextShadow_PropertyBag(TextShadow_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5108 };

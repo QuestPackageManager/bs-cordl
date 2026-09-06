@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\GenericParameterDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/GenericParameterDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContract_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__GenericParameterDataContract_def.hpp"
 #include "System/Runtime/Serialization/zzzz__GenericParameterDataContract_def.hpp"

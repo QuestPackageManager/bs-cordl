@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\LightLayerEnum.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/LightLayerEnum.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct LightLayerEnum;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::LightLayerEnum);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::LightLayerEnum, "UnityEngine.Rendering.Universal", "LightLayerEnum");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -50,7 +51,7 @@ public:
   // @brief default ctor
   constexpr LightLayerEnum();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LightLayerEnum(int32_t value__) noexcept;
 
   /// @brief Field Everything value: I32(255)

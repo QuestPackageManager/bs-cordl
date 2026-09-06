@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ModifiableContactPatch.hpp"
+// IWYU pragma private; include "UnityEngine/ModifiableContactPatch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   // @brief default ctor
   constexpr ModifiableContactPatch_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ModifiableContactPatch_Flags(int32_t value__) noexcept;
 
   /// @brief Field HasFaceIndices value: I32(1)
@@ -104,12 +104,13 @@ public:
   // @brief default ctor
   constexpr ModifiableContactPatch();
 
-  // Ctor Parameters [CppParam { name: "massProperties", ty: "::UnityEngine::ModifiableMassProperties", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3",
-  // modifiers: "", def_value: None }, CppParam { name: "restitution", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "dynamicFriction", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "staticFriction", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startContactIndex", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "contactCount", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "materialFlags", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "internalFlags", ty:
-  // "uint8_t", modifiers: "", def_value: None }, CppParam { name: "materialIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "otherMaterialIndex", ty: "uint16_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "massProperties", ty: "::UnityEngine::ModifiableMassProperties", modifiers: "", def_value: None, comment: None }, CppParam { name: "normal", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "restitution", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "dynamicFriction", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "staticFriction", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "startContactIndex", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "contactCount", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "materialFlags", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "internalFlags", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "materialIndex", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "otherMaterialIndex", ty: "uint16_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ModifiableContactPatch(::UnityEngine::ModifiableMassProperties massProperties, ::UnityEngine::Vector3 normal, float_t restitution, float_t dynamicFriction, float_t staticFriction,
                                    uint8_t startContactIndex, uint8_t contactCount, uint8_t materialFlags, uint8_t internalFlags, uint16_t materialIndex, uint16_t otherMaterialIndex) noexcept;
 

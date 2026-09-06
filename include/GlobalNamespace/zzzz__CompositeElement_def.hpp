@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CompositeElement.hpp"
+// IWYU pragma private; include "GlobalNamespace/CompositeElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class CompositeElement;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CompositeElement*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CompositeElement*, "", "CompositeElement");
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr CompositeElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeElement(CompositeElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompositeElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompositeElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompositeElement(CompositeElement const&) = delete;
+  CompositeElement(CompositeElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5820 };

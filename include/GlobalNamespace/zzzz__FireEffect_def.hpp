@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FireEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/FireEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,8 @@ class FireEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::FireEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FireEffect*, "", "FireEffect");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -102,7 +104,7 @@ public:
   /// @brief Field _useEmissionColor, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__useEmissionColor, put = __cordl_internal_set__useEmissionColor)) bool _useEmissionColor;
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
   static inline ::GlobalNamespace::FireEffect* New_ctor();
@@ -224,62 +226,87 @@ protected:
   constexpr FireEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FireEffect(FireEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FireEffect(FireEffect const&) = delete;
+  FireEffect(FireEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5599 };
 
+  /// [SerializeField]
   /// @brief Field _groupId, offset: 0x20, size: 0x4, def value: None
   int32_t ____groupId;
 
+  /// [SerializeField]
   /// @brief Field _elementId, offset: 0x24, size: 0x4, def value: None
   int32_t ____elementId;
 
+  /// [SerializeField]
   /// @brief Field _lightId, offset: 0x28, size: 0x4, def value: None
   int32_t ____lightId;
 
+  /// [SerializeField]
   /// @brief Field _flipBookPropertyBlockController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____flipBookPropertyBlockController;
 
+  /// [SerializeField]
   /// @brief Field _bloomPropertyBlockController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____bloomPropertyBlockController;
 
+  /// [SerializeField]
   /// @brief Field _useEmissionColor, offset: 0x40, size: 0x1, def value: None
   bool ____useEmissionColor;
 
+  /// [SerializeField]
+  /// [DrawIf("_useEmissionColor", false, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _privatePointLightPropertyBlockController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____privatePointLightPropertyBlockController;
 
+  /// [SerializeField]
+  /// [DrawIf("_useEmissionColor", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _emissionTextureColorPropertyBlockController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____emissionTextureColorPropertyBlockController;
 
+  /// [SerializeField]
   /// @brief Field _bloomPrePassRenderer, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer> ____bloomPrePassRenderer;
 
+  /// [SerializeField]
   /// @brief Field _bloomIntensityMultiplier, offset: 0x60, size: 0x4, def value: None
   float_t ____bloomIntensityMultiplier;
 
+  /// [SerializeField]
+  /// [ColorUsage(false, true)]
   /// @brief Field _pointLightColor, offset: 0x64, size: 0x10, def value: None
   ::UnityEngine::Color ____pointLightColor;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _contributeCustomLightColor, offset: 0x74, size: 0x1, def value: None
   bool ____contributeCustomLightColor;
 
+  /// [Nullable(2)]
+  /// [SerializeField]
+  /// [DrawIf("_contributeCustomLightColor", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _customLightColorContribution, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____customLightColorContribution;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _lightWithIdManager, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightWithIdManager;
 
+  /// [Nullable(2)]
   /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____lightColorBeatmapEventCallbackWrapper;
 

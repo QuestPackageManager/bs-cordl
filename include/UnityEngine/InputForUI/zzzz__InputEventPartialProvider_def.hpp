@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\InputEventPartialProvider.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/InputEventPartialProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   constexpr operator ::UnityEngine::InputForUI::IEventProviderImpl*() noexcept;
 
   /// @brief Method GetTimestamp, addr 0x6b5d350, size 0x18, virtual false, abstract: false, final false
-  inline ::Unity::IntegerTime::DiscreteTime GetTimestamp(::by_ref<::UnityEngine::Event*> ev);
+  inline ::Unity::IntegerTime::DiscreteTime GetTimestamp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
 
   /// @brief Method Initialize, addr 0x6b5c410, size 0x1b0, virtual true, abstract: false, final true
   inline void Initialize();
@@ -88,25 +88,25 @@ public:
   inline bool RequestCurrentState(::UnityEngine::InputForUI::Event_Type type);
 
   /// @brief Method SendNextOrPreviousNavigationEventOnTabKeyDownEvent, addr 0x6b5cd04, size 0x168, virtual false, abstract: false, final false
-  inline void SendNextOrPreviousNavigationEventOnTabKeyDownEvent(::by_ref<::UnityEngine::Event*> ev);
+  inline void SendNextOrPreviousNavigationEventOnTabKeyDownEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
 
   /// @brief Method Shutdown, addr 0x6b5c5c0, size 0x4, virtual true, abstract: false, final true
   inline void Shutdown();
 
   /// @brief Method ToCommandEvent, addr 0x6b5ced4, size 0x1bc, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::CommandEvent ToCommandEvent(::by_ref<::UnityEngine::Event*> ev);
+  inline ::UnityEngine::InputForUI::CommandEvent ToCommandEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
 
   /// @brief Method ToKeyEvent, addr 0x6b5cb94, size 0x170, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::KeyEvent ToKeyEvent(::by_ref<::UnityEngine::Event*> ev);
+  inline ::UnityEngine::InputForUI::KeyEvent ToKeyEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
 
   /// @brief Method ToTextInputEvent, addr 0x6b5ce6c, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::TextInputEvent ToTextInputEvent(::by_ref<::UnityEngine::Event*> ev);
+  inline ::UnityEngine::InputForUI::TextInputEvent ToTextInputEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
 
   /// @brief Method Update, addr 0x6b5c5c4, size 0x2e0, virtual true, abstract: false, final true
   inline void Update();
 
   /// @brief Method UpdateEventModifiers, addr 0x6b5c8a4, size 0x2f0, virtual false, abstract: false, final false
-  inline void UpdateEventModifiers(::by_ref<::UnityEngine::Event*> ev);
+  inline void UpdateEventModifiers(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
 
   constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::InputForUI::CommandEvent_Command>* const& __cordl_internal_get__IMGUICommandToInputForUICommandType() const;
 
@@ -156,13 +156,13 @@ protected:
   constexpr InputEventPartialProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventPartialProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventPartialProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputEventPartialProvider(InputEventPartialProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventPartialProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventPartialProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEventPartialProvider(InputEventPartialProvider const&) = delete;
+  InputEventPartialProvider(InputEventPartialProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21826 };

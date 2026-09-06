@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\HttpResponseMessage.hpp"
+// IWYU pragma private; include "System/Net/Http/HttpResponseMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,6 +137,7 @@ public:
   /// @brief Method .ctor, addr 0x60d82d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpStatusCode statusCode);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Content, addr 0x60df89c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpContent* get_Content();
 
@@ -158,12 +159,14 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Content, addr 0x60df8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Net::Http::HttpContent* value);
 
   /// @brief Method set_ReasonPhrase, addr 0x60df93c, size 0x8, virtual false, abstract: false, final false
   inline void set_ReasonPhrase(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RequestMessage, addr 0x60df944, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestMessage(::System::Net::Http::HttpRequestMessage* value);
 
@@ -176,13 +179,13 @@ protected:
   constexpr HttpResponseMessage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpResponseMessage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpResponseMessage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpResponseMessage(HttpResponseMessage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpResponseMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpResponseMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpResponseMessage(HttpResponseMessage const&) = delete;
+  HttpResponseMessage(HttpResponseMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20287 };
@@ -202,9 +205,11 @@ public:
   /// @brief Field disposed, offset: 0x30, size: 0x1, def value: None
   bool ___disposed;
 
+  /// [CompilerGenerated]
   /// @brief Field <Content>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::Net::Http::HttpContent* ____Content_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RequestMessage>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Net::Http::HttpRequestMessage* ____RequestMessage_k__BackingField;
 

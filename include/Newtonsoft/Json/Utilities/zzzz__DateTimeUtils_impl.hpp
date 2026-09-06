@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\DateTimeUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DateTimeUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DateTimeUtils_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DateTimeParser_def.hpp"
@@ -622,7 +622,8 @@ inline ::System::DateTime Newtonsoft::Json::Utilities::DateTimeUtils::CreateDate
   return ::cordl_internals::RunMethodRethrow<::System::DateTime>(nullptr, ___internal_method, dateTimeParser);
 }
 inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime(::Newtonsoft::Json::Utilities::StringReference s, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling,
-                                                                         ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture, ::by_ref<::System::DateTime> dt) {
+                                                                         /* [Nullable(2)] */ ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture,
+                                                                         ::by_ref<::System::DateTime> dt) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DateTimeUtils*>(),
                                               { "TryParseDateTime",
@@ -631,7 +632,7 @@ inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime(::Newto
                                                   ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<::by_ref<::System::DateTime>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, dateTimeZoneHandling, dateFormatString, culture, dt);
 }
-inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime(::StringW s, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, ::StringW dateFormatString,
+inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime(::StringW s, ::Newtonsoft::Json::DateTimeZoneHandling dateTimeZoneHandling, /* [Nullable(2)] */ ::StringW dateFormatString,
                                                                          ::System::Globalization::CultureInfo* culture, ::by_ref<::System::DateTime> dt) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DateTimeUtils*>(),
@@ -641,7 +642,7 @@ inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTime(::Strin
                                                                ::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<::by_ref<::System::DateTime>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, dateTimeZoneHandling, dateFormatString, culture, dt);
 }
-inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset(::Newtonsoft::Json::Utilities::StringReference s, ::StringW dateFormatString,
+inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset(::Newtonsoft::Json::Utilities::StringReference s, /* [Nullable(2)] */ ::StringW dateFormatString,
                                                                                ::System::Globalization::CultureInfo* culture, ::by_ref<::System::DateTimeOffset> dt) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DateTimeUtils*>(),
@@ -651,7 +652,7 @@ inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset(:
                                                                ::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<::by_ref<::System::DateTimeOffset>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, s, dateFormatString, culture, dt);
 }
-inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset(::StringW s, ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture,
+inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryParseDateTimeOffset(::StringW s, /* [Nullable(2)] */ ::StringW dateFormatString, ::System::Globalization::CultureInfo* culture,
                                                                                ::by_ref<::System::DateTimeOffset> dt) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DateTimeUtils*>(),
@@ -715,7 +716,7 @@ inline bool Newtonsoft::Json::Utilities::DateTimeUtils::TryReadOffset(::Newtonso
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, offsetText, startIndex, offset);
 }
 inline void Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeString(::System::IO::TextWriter* writer, ::System::DateTime value, ::Newtonsoft::Json::DateFormatHandling format,
-                                                                            ::StringW formatString, ::System::Globalization::CultureInfo* culture) {
+                                                                            /* [Nullable(2)] */ ::StringW formatString, ::System::Globalization::CultureInfo* culture) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DateTimeUtils*>(),
                                               { "WriteDateTimeString",
@@ -757,7 +758,7 @@ inline int32_t Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeOffset(:
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, chars, start, offset, format);
 }
 inline void Newtonsoft::Json::Utilities::DateTimeUtils::WriteDateTimeOffsetString(::System::IO::TextWriter* writer, ::System::DateTimeOffset value, ::Newtonsoft::Json::DateFormatHandling format,
-                                                                                  ::StringW formatString, ::System::Globalization::CultureInfo* culture) {
+                                                                                  /* [Nullable(2)] */ ::StringW formatString, ::System::Globalization::CultureInfo* culture) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::DateTimeUtils*>(),
                                               { "WriteDateTimeOffsetString",

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeArrayDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeArrayDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct NativeArrayDisposeJob;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeArrayDisposeJob);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeArrayDisposeJob, "Unity.Collections", "NativeArrayDisposeJob");
+// [NativeClass(null)]
 // Dependencies Unity.Collections.NativeArrayDispose
 namespace Unity::Collections {
 // Is value type: true
@@ -29,6 +30,7 @@ public:
   /// @brief Method Execute, addr 0x6a5fcb4, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 
+  /// [RequiredByNativeCode]
   /// @brief Method RegisterNativeArrayDisposeJobReflectionData, addr 0x6a5fcf8, size 0x44, virtual false, abstract: false, final false
   static inline void RegisterNativeArrayDisposeJobReflectionData();
 
@@ -39,7 +41,7 @@ public:
   // @brief default ctor
   constexpr NativeArrayDisposeJob();
 
-  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeArrayDispose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeArrayDispose", modifiers: "", def_value: None, comment: None }]
   constexpr NativeArrayDisposeJob(::Unity::Collections::NativeArrayDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\LanguageDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/LanguageDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ protected:
   constexpr LanguageDataContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageDataContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageDataContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LanguageDataContract(LanguageDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LanguageDataContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LanguageDataContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LanguageDataContract(LanguageDataContract const&) = delete;
+  LanguageDataContract(LanguageDataContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17093 };

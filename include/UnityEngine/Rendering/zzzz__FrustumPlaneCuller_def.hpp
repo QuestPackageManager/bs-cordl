@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FrustumPlaneCuller.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FrustumPlaneCuller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -66,10 +68,11 @@ public:
   // @brief default ctor
   constexpr FrustumPlaneCuller_PlanePacket4();
 
-  // Ctor Parameters [CppParam { name: "nx", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "ny", ty: "::Unity::Mathematics::float4", modifiers: "", def_value:
-  // None }, CppParam { name: "nz", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None },
-  // CppParam { name: "nxAbs", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }, CppParam { name: "nyAbs", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None },
-  // CppParam { name: "nzAbs", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nx", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "ny", ty: "::Unity::Mathematics::float4", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "nz", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "d", ty:
+  // "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "nxAbs", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "nyAbs", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }, CppParam { name: "nzAbs", ty: "::Unity::Mathematics::float4", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr FrustumPlaneCuller_PlanePacket4(::Unity::Mathematics::float4 nx, ::Unity::Mathematics::float4 ny, ::Unity::Mathematics::float4 nz, ::Unity::Mathematics::float4 d,
                                             ::Unity::Mathematics::float4 nxAbs, ::Unity::Mathematics::float4 nyAbs, ::Unity::Mathematics::float4 nzAbs) noexcept;
 
@@ -131,7 +134,7 @@ public:
   // @brief default ctor
   constexpr FrustumPlaneCuller_SplitInfo();
 
-  // Ctor Parameters [CppParam { name: "packetCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "packetCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FrustumPlaneCuller_SplitInfo(int32_t packetCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -165,12 +168,13 @@ public:
   /// @brief Method ComputeSplitVisibilityMask, addr 0x681082c, size 0x17c, virtual false, abstract: false, final false
   static inline uint32_t ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4> planePackets,
                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo> splitInfos,
-                                                    ::by_ref<::UnityEngine::Rendering::AABB> bounds);
+                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> bounds);
 
   /// @brief Method Create, addr 0x68102b8, size 0x440, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::FrustumPlaneCuller Create(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
+  static inline ::UnityEngine::Rendering::FrustumPlaneCuller Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> receiverPlanes,
-                                                                    ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller> receiverSphereCuller, ::Unity::Collections::Allocator allocator);
+                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller> receiverSphereCuller,
+                                                                    ::Unity::Collections::Allocator allocator);
 
   /// @brief Method Dispose, addr 0x6810228, size 0x90, virtual false, abstract: false, final false
   inline void Dispose(::Unity::Jobs::JobHandle job);
@@ -179,8 +183,8 @@ public:
   // @brief default ctor
   constexpr FrustumPlaneCuller();
 
-  // Ctor Parameters [CppParam { name: "planePackets", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>", modifiers: "", def_value: None }, CppParam {
-  // name: "splitInfos", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "planePackets", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "splitInfos", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>", modifiers: "", def_value: None, comment: None }]
   constexpr FrustumPlaneCuller(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4> planePackets,
                                ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo> splitInfos) noexcept;
 

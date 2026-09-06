@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\NavigationEventRepeatHelper.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/NavigationEventRepeatHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__NavigationEvent_impl.hpp"

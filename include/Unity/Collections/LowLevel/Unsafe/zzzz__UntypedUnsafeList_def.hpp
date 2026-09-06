@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UntypedUnsafeList.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UntypedUnsafeList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr UntypedUnsafeList();
 
-  // Ctor Parameters [CppParam { name: "Ptr", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None },
-  // CppParam { name: "padding", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Ptr", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_length", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_capacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Allocator", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "padding", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UntypedUnsafeList(void* Ptr, int32_t m_length, int32_t m_capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -36,6 +36,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field Ptr, offset: 0x0, size: 0x8, def value: None
   void* Ptr;
 

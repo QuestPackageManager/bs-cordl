@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaAttributeGroupRef.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAttributeGroupRef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaAttributeGroupRef : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
+  /// @brief [XmlAttribute("ref")]
   __declspec(property(get = get_RefName, put = set_RefName)) ::System::Xml::XmlQualifiedName* RefName;
 
   /// @brief Field refName, offset 0x50, size 0x8
@@ -50,13 +51,13 @@ protected:
   constexpr XmlSchemaAttributeGroupRef();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttributeGroupRef", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttributeGroupRef", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaAttributeGroupRef(XmlSchemaAttributeGroupRef&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttributeGroupRef", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttributeGroupRef", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaAttributeGroupRef(XmlSchemaAttributeGroupRef const&) = delete;
+  XmlSchemaAttributeGroupRef(XmlSchemaAttributeGroupRefconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9748 };

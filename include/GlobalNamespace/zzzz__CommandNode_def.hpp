@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CommandNode.hpp"
+// IWYU pragma private; include "GlobalNamespace/CommandNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::CommandNode___c__DisplayClass6_0*, "", "C
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CommandNode___c__DisplayClass7_0*, "", "CommandNode/<>c__DisplayClass7_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CommandNode___c__DisplayClass8_0*, "", "CommandNode/<>c__DisplayClass8_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CommandNode___c__DisplayClass9_0*, "", "CommandNode/<>c__DisplayClass9_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -88,13 +89,13 @@ protected:
   constexpr CommandNode___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandNode___c__DisplayClass6_0(CommandNode___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandNode___c__DisplayClass6_0(CommandNode___c__DisplayClass6_0 const&) = delete;
+  CommandNode___c__DisplayClass6_0(CommandNode___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19365 };
@@ -110,6 +111,7 @@ static_assert(offsetof(::GlobalNamespace::CommandNode___c__DisplayClass6_0, ___c
 static_assert(sizeof(::GlobalNamespace::CommandNode___c__DisplayClass6_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -140,13 +142,13 @@ protected:
   constexpr CommandNode___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandNode___c__DisplayClass7_0(CommandNode___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandNode___c__DisplayClass7_0(CommandNode___c__DisplayClass7_0 const&) = delete;
+  CommandNode___c__DisplayClass7_0(CommandNode___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19366 };
@@ -162,6 +164,7 @@ static_assert(offsetof(::GlobalNamespace::CommandNode___c__DisplayClass7_0, ___i
 static_assert(sizeof(::GlobalNamespace::CommandNode___c__DisplayClass7_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -192,13 +195,13 @@ protected:
   constexpr CommandNode___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass8_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandNode___c__DisplayClass8_0(CommandNode___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass8_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandNode___c__DisplayClass8_0(CommandNode___c__DisplayClass8_0 const&) = delete;
+  CommandNode___c__DisplayClass8_0(CommandNode___c__DisplayClass8_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19367 };
@@ -214,6 +217,7 @@ static_assert(offsetof(::GlobalNamespace::CommandNode___c__DisplayClass8_0, ___i
 static_assert(sizeof(::GlobalNamespace::CommandNode___c__DisplayClass8_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -247,13 +251,13 @@ protected:
   constexpr CommandNode___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandNode___c__DisplayClass9_0(CommandNode___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandNode___c__DisplayClass9_0(CommandNode___c__DisplayClass9_0 const&) = delete;
+  CommandNode___c__DisplayClass9_0(CommandNode___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19368 };
@@ -300,12 +304,15 @@ public:
   /// @brief Field text, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::StringW text;
 
+  /// [NotNull]
   /// @brief Method FindAutocompleteArgumentNames, addr 0x32cbb0c, size 0x1ac, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> FindAutocompleteArgumentNames(::StringW inputArgumentName);
 
+  /// [NotNull]
   /// @brief Method FindAutocompleteArgumentValues, addr 0x32cbcbc, size 0x1fc, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> FindAutocompleteArgumentValues(::StringW inputArgumentName, ::StringW inputArgumentValue);
 
+  /// [NotNull]
   /// @brief Method FindAutocompleteNodes, addr 0x32cbedc, size 0x308, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::CommandNode*> FindAutocompleteNodes(::StringW input, bool exact);
 
@@ -356,13 +363,13 @@ protected:
   constexpr CommandNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandNode(CommandNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandNode(CommandNode const&) = delete;
+  CommandNode(CommandNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19369 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ButtonStaticAnimations.hpp"
+// IWYU pragma private; include "HMUI/ButtonStaticAnimations.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,29 +108,35 @@ protected:
   constexpr ButtonStaticAnimations();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStaticAnimations", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonStaticAnimations", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonStaticAnimations(ButtonStaticAnimations&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonStaticAnimations", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ButtonStaticAnimations", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ButtonStaticAnimations(ButtonStaticAnimations const&) = delete;
+  ButtonStaticAnimations(ButtonStaticAnimationsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19078 };
 
+  /// [SerializeField]
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::NoTransitionsButton> ____button;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _normalClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____normalClip;
 
+  /// [SerializeField]
   /// @brief Field _highlightedClip, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____highlightedClip;
 
+  /// [SerializeField]
   /// @brief Field _pressedClip, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____pressedClip;
 
+  /// [SerializeField]
   /// @brief Field _disabledClip, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____disabledClip;
 

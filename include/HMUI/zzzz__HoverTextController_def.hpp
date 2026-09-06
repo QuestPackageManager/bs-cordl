@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\HoverTextController.hpp"
+// IWYU pragma private; include "HMUI/HoverTextController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::HMUI::HoverTextController__ShowTextCoroutine_d__10*);
 DEFINE_IL2CPP_CLASS(::HMUI::HoverTextController*, "HMUI", "HoverTextController");
 DEFINE_IL2CPP_CLASS(::HMUI::HoverTextController__HideTextCoroutine_d__12*, "HMUI", "HoverTextController/<HideTextCoroutine>d__12");
 DEFINE_IL2CPP_CLASS(::HMUI::HoverTextController__ShowTextCoroutine_d__10*, "HMUI", "HoverTextController/<ShowTextCoroutine>d__10");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -79,17 +80,22 @@ public:
   /// @brief Method MoveNext, addr 0x587c008, size 0x128, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::HoverTextController__HideTextCoroutine_d__12* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x587c130, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x587c138, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x587c170, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x587c004, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -111,6 +117,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverTextController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x587bfe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -129,13 +136,13 @@ protected:
   constexpr HoverTextController__HideTextCoroutine_d__12();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__HideTextCoroutine_d__12", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__HideTextCoroutine_d__12", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HoverTextController__HideTextCoroutine_d__12(HoverTextController__HideTextCoroutine_d__12&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__HideTextCoroutine_d__12", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__HideTextCoroutine_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverTextController__HideTextCoroutine_d__12(HoverTextController__HideTextCoroutine_d__12 const&) = delete;
+  HoverTextController__HideTextCoroutine_d__12(HoverTextController__HideTextCoroutine_d__12const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19052 };
@@ -161,6 +168,7 @@ static_assert(offsetof(::HMUI::HoverTextController__HideTextCoroutine_d__12, ___
 static_assert(sizeof(::HMUI::HoverTextController__HideTextCoroutine_d__12) == 0x28, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
@@ -193,17 +201,22 @@ public:
   /// @brief Method MoveNext, addr 0x587c17c, size 0x198, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::HoverTextController__ShowTextCoroutine_d__10* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x587c314, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x587c31c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x587c354, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x587c178, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -225,6 +238,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverTextController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x587bf00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -243,13 +257,13 @@ protected:
   constexpr HoverTextController__ShowTextCoroutine_d__10();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__ShowTextCoroutine_d__10", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__ShowTextCoroutine_d__10", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HoverTextController__ShowTextCoroutine_d__10(HoverTextController__ShowTextCoroutine_d__10&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__ShowTextCoroutine_d__10", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController__ShowTextCoroutine_d__10", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverTextController__ShowTextCoroutine_d__10(HoverTextController__ShowTextCoroutine_d__10 const&) = delete;
+  HoverTextController__ShowTextCoroutine_d__10(HoverTextController__ShowTextCoroutine_d__10const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19053 };
@@ -310,6 +324,7 @@ public:
   /// @brief Method HideText, addr 0x587bf08, size 0x88, virtual false, abstract: false, final false
   inline void HideText();
 
+  /// [IteratorStateMachine(typeof(HMUI.HoverTextController::<HideTextCoroutine>d__12))]
   /// @brief Method HideTextCoroutine, addr 0x587bf90, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HideTextCoroutine();
 
@@ -324,6 +339,7 @@ public:
   /// @brief Method ShowText, addr 0x587be4c, size 0x60, virtual false, abstract: false, final false
   inline void ShowText(::StringW text);
 
+  /// [IteratorStateMachine(typeof(HMUI.HoverTextController::<ShowTextCoroutine>d__10))]
   /// @brief Method ShowTextCoroutine, addr 0x587beac, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowTextCoroutine();
 
@@ -372,26 +388,30 @@ protected:
   constexpr HoverTextController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HoverTextController(HoverTextController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverTextController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverTextController(HoverTextController const&) = delete;
+  HoverTextController(HoverTextControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19054 };
 
+  /// [SerializeField]
   /// @brief Field _textMesh, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____textMesh;
 
+  /// [SerializeField]
   /// @brief Field _fadeInDelay, offset: 0x28, size: 0x4, def value: None
   float_t ____fadeInDelay;
 
+  /// [SerializeField]
   /// @brief Field _fadeInSpeed, offset: 0x2c, size: 0x4, def value: None
   float_t ____fadeInSpeed;
 
+  /// [SerializeField]
   /// @brief Field _fadeOutSpeed, offset: 0x30, size: 0x4, def value: None
   float_t ____fadeOutSpeed;
 

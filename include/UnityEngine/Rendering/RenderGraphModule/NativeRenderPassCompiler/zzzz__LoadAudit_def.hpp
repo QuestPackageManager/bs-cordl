@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\LoadAudit.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/LoadAudit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct LoadAudit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadAudit);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadAudit, "UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler", "LoadAudit");
+// [DebuggerDisplay("{reason} : {passId}")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.NativeRenderPassCompiler.LoadReason
 namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 // Is value type: true
@@ -40,8 +41,8 @@ public:
   // @brief default ctor
   constexpr LoadAudit();
 
-  // Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadReason", modifiers: "", def_value: None }, CppParam { name: "passId",
-  // ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadReason", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "passId", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LoadAudit(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadReason reason, int32_t passId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

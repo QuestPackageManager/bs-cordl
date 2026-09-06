@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SimpleLevelStarter.hpp"
+// IWYU pragma private; include "GlobalNamespace/SimpleLevelStarter.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -186,6 +186,7 @@ inline ::System::Object* GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15* GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(__1__state));
 }

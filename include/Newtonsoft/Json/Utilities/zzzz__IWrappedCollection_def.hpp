@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\IWrappedCollection.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/IWrappedCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE IWrappedCollection {
 public:
   // Declarations
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_UnderlyingCollection)) ::System::Object* UnderlyingCollection;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
@@ -41,7 +42,8 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
-  /// @brief Method get_UnderlyingCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [NullableContext(1)]
+  /// @brief Method get_UnderlyingCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_UnderlyingCollection();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -53,9 +55,9 @@ public:
   /// @brief Convert to "::System::Collections::IList"
   constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IWrappedCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IWrappedCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IWrappedCollection(IWrappedCollection const&) = delete;
+  IWrappedCollection(IWrappedCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13378 };

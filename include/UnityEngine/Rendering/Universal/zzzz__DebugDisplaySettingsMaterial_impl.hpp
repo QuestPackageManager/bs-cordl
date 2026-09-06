@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugDisplaySettingsMaterial.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugDisplaySettingsMaterial.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugMaterialMode_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugMaterialValidationMode_impl.hpp"
@@ -19,7 +19,7 @@
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsPanelDisposable_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsQuery_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPreset::DebugDisplaySettingsMaterial_AlbedoDebugValidationPreset(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -55,8 +55,9 @@ constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_Albe
     UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPreset::Foliage{ static_cast<int32_t>(0xd) };
 constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPreset
     UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPreset::Custom{ static_cast<int32_t>(0xe) };
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "minLuminance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxLuminance", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "minLuminance", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxLuminance", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPresetData::DebugDisplaySettingsMaterial_AlbedoDebugValidationPresetData(
     ::StringW name, ::UnityEngine::Color color, float_t minLuminance, float_t maxLuminance) noexcept {
   this->name = name;

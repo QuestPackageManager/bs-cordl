@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\LowLevel\Unsafe\BatchQueryJob_2.hpp"
+// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/BatchQueryJob_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,11 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(BatchQueryJob_2)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace Unity::Jobs::LowLevel::Unsafe {
-template <typename CommandT, typename ResultT> struct BatchQueryJob_2;
+template <typename CommandT, typename ResultT>
+  requires(::cordl_internals::value_type_constraint<CommandT> && ::cordl_internals::default_constructor_constraint<CommandT> && ::cordl_internals::value_type_constraint<ResultT> &&
+           ::cordl_internals::default_constructor_constraint<ResultT>)
+struct BatchQueryJob_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Jobs::LowLevel::Unsafe::BatchQueryJob_2);
@@ -20,6 +25,8 @@ DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::LowLevel::Unsafe::BatchQueryJob_2, "Unity
 namespace Unity::Jobs::LowLevel::Unsafe {
 // cpp template
 template <typename CommandT, typename ResultT>
+  requires(::cordl_internals::value_type_constraint<CommandT> && ::cordl_internals::default_constructor_constraint<CommandT> && ::cordl_internals::value_type_constraint<ResultT> &&
+           ::cordl_internals::default_constructor_constraint<ResultT>)
 // Is value type: true
 // CS Name: Unity.Jobs.LowLevel.Unsafe.BatchQueryJob`2<CommandT,ResultT>
 struct CORDL_TYPE BatchQueryJob_2 {
@@ -32,8 +39,8 @@ public:
   // @brief default ctor
   constexpr BatchQueryJob_2();
 
-  // Ctor Parameters [CppParam { name: "commands", ty: "::Unity::Collections::NativeArray_1<CommandT>", modifiers: "", def_value: None }, CppParam { name: "results", ty:
-  // "::Unity::Collections::NativeArray_1<ResultT>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "commands", ty: "::Unity::Collections::NativeArray_1<CommandT>", modifiers: "", def_value: None, comment: None }, CppParam { name: "results", ty:
+  // "::Unity::Collections::NativeArray_1<ResultT>", modifiers: "", def_value: None, comment: None }]
   constexpr BatchQueryJob_2(::Unity::Collections::NativeArray_1<CommandT> commands, ::Unity::Collections::NativeArray_1<ResultT> results) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -42,6 +49,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [ReadOnly]
   /// @brief Field commands, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<CommandT> commands;
 

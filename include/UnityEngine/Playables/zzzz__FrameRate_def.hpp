@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\FrameRate.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/FrameRate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,9 @@ struct FrameRate;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Playables::FrameRate);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::FrameRate, "UnityEngine.Playables", "FrameRate");
+// [VisibleToOtherModules(new[] { "UnityEngine.DirectorModule" })]
+// [NativeHeader("Runtime/Director/Core/FrameRate.h")]
+// [UsedByNativeCode("FrameRate")]
 // Dependencies
 namespace UnityEngine::Playables {
 // Is value type: true
@@ -134,7 +137,7 @@ public:
   // @brief default ctor
   constexpr FrameRate();
 
-  // Ctor Parameters [CppParam { name: "m_Rate", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Rate", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FrameRate(int32_t m_Rate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -143,6 +146,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// [SerializeField]
   /// @brief Field m_Rate, offset: 0x0, size: 0x4, def value: None
   int32_t m_Rate;
 

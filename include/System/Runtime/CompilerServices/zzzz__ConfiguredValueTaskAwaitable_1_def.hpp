@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ConfiguredValueTaskAwaitable_1.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ConfiguredValueTaskAwaitable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ MARK_GEN_VAL_T(::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable
 DEFINE_IL2CPP_GEN_CLASS(::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1, "System.Runtime.CompilerServices", "ConfiguredValueTaskAwaitable`1");
 DEFINE_IL2CPP_GEN_CLASS(::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter, "System.Runtime.CompilerServices",
                         "ConfiguredValueTaskAwaitable`1/ConfiguredValueTaskAwaiter");
+// [IsReadOnly]
 // Dependencies System.Threading.Tasks.ValueTask`1<TResult>
 namespace System::Runtime::CompilerServices {
 // cpp template
@@ -51,6 +52,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
+  /// [StackTraceHidden]
   /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TResult GetResult();
 
@@ -76,7 +78,7 @@ public:
   // @brief default ctor
   constexpr ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None, comment: None }]
   constexpr ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter(::System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -92,6 +94,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
+// [IsReadOnly]
 // Dependencies System.Threading.Tasks.ValueTask`1<TResult>
 namespace System::Runtime::CompilerServices {
 // cpp template
@@ -113,7 +116,7 @@ public:
   // @brief default ctor
   constexpr ConfiguredValueTaskAwaitable_1();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None, comment: None }]
   constexpr ConfiguredValueTaskAwaitable_1(::System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

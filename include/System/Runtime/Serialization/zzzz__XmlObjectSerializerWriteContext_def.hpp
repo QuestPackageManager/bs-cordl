@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlObjectSerializerWriteContext.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlObjectSerializerWriteContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,9 @@ namespace System {
 class Array;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -150,10 +152,14 @@ public:
   template <typename T> static inline T GetDefaultValue();
 
   /// @brief Method GetHasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool GetHasValue(::System::Nullable_1<T> value);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline bool GetHasValue(::System::Nullable_1<T> value);
 
   /// @brief Method GetNullableValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetNullableValue(::System::Nullable_1<T> value);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline T GetNullableValue(::System::Nullable_1<T> value);
 
   /// @brief Method GetObjectData, addr 0x616f834, size 0xc8, virtual false, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::ISerializable* obj, ::System::Runtime::Serialization::SerializationInfo* serInfo,
@@ -404,13 +410,13 @@ protected:
   constexpr XmlObjectSerializerWriteContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerWriteContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerWriteContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlObjectSerializerWriteContext(XmlObjectSerializerWriteContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerWriteContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerWriteContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializerWriteContext(XmlObjectSerializerWriteContext const&) = delete;
+  XmlObjectSerializerWriteContext(XmlObjectSerializerWriteContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17143 };

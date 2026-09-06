@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CullingSplit.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CullingSplit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ struct CullingSplit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CullingSplit);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CullingSplit, "UnityEngine.Rendering", "CullingSplit");
+// [UsedByNativeCode]
+// [NativeHeader("Runtime/Camera/BatchRendererGroup.h")]
 // Dependencies UnityEngine.Matrix4x4, UnityEngine.Vector3
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -27,10 +29,10 @@ public:
   // @brief default ctor
   constexpr CullingSplit();
 
-  // Ctor Parameters [CppParam { name: "sphereCenter", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "sphereRadius", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "cullingPlaneOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cullingPlaneCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "cascadeBlendCullingFactor", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearPlane", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "cullingMatrix", ty:
-  // "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sphereCenter", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "sphereRadius", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "cullingPlaneOffset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingPlaneCount", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cascadeBlendCullingFactor", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nearPlane", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }]
   constexpr CullingSplit(::UnityEngine::Vector3 sphereCenter, float_t sphereRadius, int32_t cullingPlaneOffset, int32_t cullingPlaneCount, float_t cascadeBlendCullingFactor, float_t nearPlane,
                          ::UnityEngine::Matrix4x4 cullingMatrix) noexcept;
 

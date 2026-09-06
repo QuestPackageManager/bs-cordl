@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Collider.hpp"
+// IWYU pragma private; include "UnityEngine/Collider.hpp"
+#include "UnityEngine/LowLevelPhysics/zzzz__IGeometry_impl.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -853,7 +854,9 @@ inline ::UnityEngine::LowLevelPhysics::GeometryHolder UnityEngine::Collider::get
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collider*>(), { "get_GeometryHolder", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LowLevelPhysics::GeometryHolder>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::Collider::GetGeometry() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::LowLevelPhysics::IGeometry*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Collider::GetGeometry() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collider*>(), { "GetGeometry", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);

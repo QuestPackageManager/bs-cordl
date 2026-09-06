@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Scripting\AlwaysLinkAssemblyAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Scripting/AlwaysLinkAssemblyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Scripting/zzzz__AlwaysLinkAssemblyAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Scripting::AlwaysLinkAssemblyAttribute._ctor

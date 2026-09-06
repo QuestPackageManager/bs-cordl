@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Android\AndroidGame.hpp"
+// IWYU pragma private; include "UnityEngine/Android/AndroidGame.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class AndroidGame;
 // Write type traits
 MARK_REF_T(::UnityEngine::Android::AndroidGame*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Android::AndroidGame*, "UnityEngine.Android", "AndroidGame");
+// [StaticAccessor("GameStateHelper::Get()", (UnityEngine.Bindings.StaticAccessorType)0)]
+// [NativeHeader("Modules/AndroidJNI/Public/GameStateHelper.h")]
 // Dependencies System.Object
 namespace UnityEngine::Android {
 // Is value type: false
@@ -29,13 +31,13 @@ protected:
   constexpr AndroidGame();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGame", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGame", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidGame(AndroidGame&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGame", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidGame", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidGame(AndroidGame const&) = delete;
+  AndroidGame(AndroidGameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20175 };

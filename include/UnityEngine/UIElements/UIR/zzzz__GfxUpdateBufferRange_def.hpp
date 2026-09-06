@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\GfxUpdateBufferRange.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GfxUpdateBufferRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr GfxUpdateBufferRange();
 
-  // Ctor Parameters [CppParam { name: "offsetFromWriteStart", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "source", ty: "::System::UIntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "offsetFromWriteStart", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "source", ty: "::System::UIntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr GfxUpdateBufferRange(uint32_t offsetFromWriteStart, uint32_t size, ::System::UIntPtr source) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

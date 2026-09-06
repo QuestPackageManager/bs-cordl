@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Blitter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Blitter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Blitter)
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace UnityEngine::Rendering {
 struct Blitter_BlitColorAndDepthPassNames;
@@ -178,13 +180,13 @@ protected:
   constexpr Blitter_BlitShaderIDs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Blitter_BlitShaderIDs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Blitter_BlitShaderIDs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Blitter_BlitShaderIDs(Blitter_BlitShaderIDs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Blitter_BlitShaderIDs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Blitter_BlitShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Blitter_BlitShaderIDs(Blitter_BlitShaderIDs const&) = delete;
+  Blitter_BlitShaderIDs(Blitter_BlitShaderIDsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12265 };
@@ -245,7 +247,7 @@ public:
   // @brief default ctor
   constexpr Blitter_BlitShaderPassNames();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Blitter_BlitShaderPassNames(int32_t value__) noexcept;
 
   /// @brief Field Bilinear value: I32(1)
@@ -363,7 +365,7 @@ public:
   // @brief default ctor
   constexpr Blitter_BlitColorAndDepthPassNames();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Blitter_BlitColorAndDepthPassNames(int32_t value__) noexcept;
 
   /// @brief Field ColorAndDepth value: I32(1)
@@ -590,15 +592,19 @@ public:
   /// @brief Method Initialize, addr 0x67b8458, size 0x7c8, virtual false, abstract: false, final false
   static inline void Initialize(::UnityEngine::Shader* blitPS, ::UnityEngine::Shader* blitColorAndDepthPS);
 
+  /// [CompilerGenerated]
   /// @brief Method <Initialize>g__GetFullScreenTriangleTexCoord|14_1, addr 0x67b8ddc, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2> _Initialize_g__GetFullScreenTriangleTexCoord_14_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <Initialize>g__GetFullScreenTriangleVertexPosition|14_0, addr 0x67b8d28, size 0xb4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> _Initialize_g__GetFullScreenTriangleVertexPosition_14_0(float_t z);
 
+  /// [CompilerGenerated]
   /// @brief Method <Initialize>g__GetQuadTexCoord|14_3, addr 0x67b8f80, size 0xe0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2> _Initialize_g__GetQuadTexCoord_14_3();
 
+  /// [CompilerGenerated]
   /// @brief Method <Initialize>g__GetQuadVertexPosition|14_2, addr 0x67b8ed8, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> _Initialize_g__GetQuadVertexPosition_14_2(float_t z);
 
@@ -652,13 +658,13 @@ protected:
   constexpr Blitter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Blitter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Blitter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Blitter(Blitter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Blitter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Blitter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Blitter(Blitter const&) = delete;
+  Blitter(Blitterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12268 };

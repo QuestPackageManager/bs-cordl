@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\FloatTween.hpp"
+// IWYU pragma private; include "TMPro/FloatTween.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "TMPro/zzzz__FloatTween_def.hpp"
 #include "TMPro/zzzz__FloatTween_def.hpp"
@@ -244,9 +244,9 @@ constexpr TMPro::FloatTween::operator ::TMPro::ITweenValue*() {
 constexpr ::TMPro::ITweenValue* TMPro::FloatTween::i___TMPro__ITweenValue() {
   return static_cast<::TMPro::ITweenValue*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Target", ty: "::TMPro::FloatTween_FloatTweenCallback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartValue", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Duration", ty: "float_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Target", ty: "::TMPro::FloatTween_FloatTweenCallback*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartValue", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Duration", ty:
+// "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::FloatTween::FloatTween(::TMPro::FloatTween_FloatTweenCallback* m_Target, float_t m_StartValue, float_t m_TargetValue, float_t m_Duration, bool m_IgnoreTimeScale) noexcept {
   this->m_Target = m_Target;
   this->m_StartValue = m_StartValue;

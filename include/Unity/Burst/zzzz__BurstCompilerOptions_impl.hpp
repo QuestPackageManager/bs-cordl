@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\BurstCompilerOptions.hpp"
+// IWYU pragma private; include "Unity/Burst/BurstCompilerOptions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/zzzz__BurstCompilerOptions_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -759,7 +759,8 @@ inline bool Unity::Burst::BurstCompilerOptions::HasBurstCompileAttribute(::Syste
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompilerOptions*>(), { "HasBurstCompileAttribute", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, member);
 }
-inline void Unity::Burst::BurstCompilerOptions::MergeAttributes(::by_ref<::Unity::Burst::BurstCompileAttribute*> memberAttribute, ::by_ref<::Unity::Burst::BurstCompileAttribute*> assemblyAttribute) {
+inline void Unity::Burst::BurstCompilerOptions::MergeAttributes(::by_ref<::Unity::Burst::BurstCompileAttribute*> memberAttribute,
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstCompileAttribute*> assemblyAttribute) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Burst::BurstCompilerOptions*>(),

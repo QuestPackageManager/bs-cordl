@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXUIToggleBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXUIToggleBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class VFXUIToggleBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXUIToggleBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXUIToggleBinder*, "UnityEngine.VFX.Utility", "VFXUIToggleBinder");
+// [AddComponentMenu("VFX/Property Binders/UI Toggle Binder")]
+// [VFXBinder("UI/Toggle")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -75,17 +77,20 @@ protected:
   constexpr VFXUIToggleBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXUIToggleBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXUIToggleBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXUIToggleBinder(VFXUIToggleBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXUIToggleBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXUIToggleBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXUIToggleBinder(VFXUIToggleBinder const&) = delete;
+  VFXUIToggleBinder(VFXUIToggleBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20012 };
 
+  /// [VFXPropertyBinding(new[] { "System.Boolean" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_Parameter")]
   /// @brief Field m_Property, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberPlayerIdentityPacketData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberPlayerIdentityPacketData.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerActiveHand_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberPlayerIdentityPacketData_def.hpp"
@@ -79,8 +79,8 @@ constexpr GlobalNamespace::BeatSaberPlayerIdentityPacketData::operator ::LiteNet
 constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::BeatSaberPlayerIdentityPacketData::i___LiteNetLib__Utils__INetSerializable() {
   return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "playerAvatar", ty: "::GlobalNamespace::MultiplayerAvatarsData", modifiers: "", def_value: Some("{}") }, CppParam { name: "activeHand", ty:
-// "::GlobalNamespace::MultiplayerActiveHand", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "playerAvatar", ty: "::GlobalNamespace::MultiplayerAvatarsData", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "activeHand", ty:
+// "::GlobalNamespace::MultiplayerActiveHand", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatSaberPlayerIdentityPacketData::BeatSaberPlayerIdentityPacketData(::GlobalNamespace::MultiplayerAvatarsData playerAvatar,
                                                                                                   ::GlobalNamespace::MultiplayerActiveHand activeHand) noexcept {
   this->playerAvatar = playerAvatar;

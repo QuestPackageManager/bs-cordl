@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering\LufsMeter.hpp"
+// IWYU pragma private; include "LufsMetering/LufsMeter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "LufsMetering/zzzz__LufsMeter_def.hpp"

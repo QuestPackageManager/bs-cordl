@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DynamicAtlasSettings.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DynamicAtlasSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,26 +129,34 @@ protected:
   constexpr DynamicAtlasSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlasSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlasSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicAtlasSettings(DynamicAtlasSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlasSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlasSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicAtlasSettings(DynamicAtlasSettings const&) = delete;
+  DynamicAtlasSettings(DynamicAtlasSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4584 };
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_MinAtlasSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_MinAtlasSize;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_MaxAtlasSize, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_MaxAtlasSize;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_MaxSubTextureSize, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_MaxSubTextureSize;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_ActiveFilters, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::UIElements::DynamicAtlasFilters ___m_ActiveFilters;
 

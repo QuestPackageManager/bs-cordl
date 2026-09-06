@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderSpawnData.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderSpawnData.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderSpawnData_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -26,9 +26,9 @@ inline void GlobalNamespace::SliderSpawnData::_ctor(::UnityEngine::Vector3 headN
                                        { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, headNoteOffset, headGravityBase, tailNoteOffset, tailGravityBase);
 }
-// Ctor Parameters [CppParam { name: "headNoteOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "headGravityBase", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "tailNoteOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "tailGravityBase", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "headNoteOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "headGravityBase", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tailNoteOffset", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "tailGravityBase", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SliderSpawnData::SliderSpawnData(::UnityEngine::Vector3 headNoteOffset, float_t headGravityBase, ::UnityEngine::Vector3 tailNoteOffset, float_t tailGravityBase) noexcept {
   this->headNoteOffset = headNoteOffset;
   this->headGravityBase = headGravityBase;

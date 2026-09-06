@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBuildInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBuildInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ protected:
   constexpr OVRBuildInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBuildInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBuildInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRBuildInfo(OVRBuildInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRBuildInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRBuildInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRBuildInfo(OVRBuildInfo const&) = delete;
+  OVRBuildInfo(OVRBuildInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7126 };

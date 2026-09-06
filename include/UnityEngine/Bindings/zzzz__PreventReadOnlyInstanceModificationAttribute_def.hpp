@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\PreventReadOnlyInstanceModificationAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/PreventReadOnlyInstanceModificationAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class PreventReadOnlyInstanceModificationAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute*, "UnityEngine.Bindings", "PreventReadOnlyInstanceModificationAttribute");
+// [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)4, AllowMultiple = false, Inherited = false)]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr PreventReadOnlyInstanceModificationAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreventReadOnlyInstanceModificationAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreventReadOnlyInstanceModificationAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreventReadOnlyInstanceModificationAttribute(PreventReadOnlyInstanceModificationAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreventReadOnlyInstanceModificationAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PreventReadOnlyInstanceModificationAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PreventReadOnlyInstanceModificationAttribute(PreventReadOnlyInstanceModificationAttribute const&) = delete;
+  PreventReadOnlyInstanceModificationAttribute(PreventReadOnlyInstanceModificationAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23125 };

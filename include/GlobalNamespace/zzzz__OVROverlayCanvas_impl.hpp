@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVROverlayCanvas.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVROverlayCanvas.hpp"
 #include "GlobalNamespace/zzzz__OVRRayTransformer_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -17,7 +17,7 @@
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVROverlayCanvas_DrawMode::OVROverlayCanvas_DrawMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -28,7 +28,7 @@ constexpr ::GlobalNamespace::OVROverlayCanvas_DrawMode GlobalNamespace::OVROverl
 constexpr ::GlobalNamespace::OVROverlayCanvas_DrawMode GlobalNamespace::OVROverlayCanvas_DrawMode::TransparentDefaultAlpha{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVROverlayCanvas_DrawMode GlobalNamespace::OVROverlayCanvas_DrawMode::TransparentCorrectAlpha{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVROverlayCanvas_DrawMode GlobalNamespace::OVROverlayCanvas_DrawMode::AlphaToMask{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVROverlayCanvas_CanvasShape::OVROverlayCanvas_CanvasShape(int32_t value__) noexcept {
   this->value__ = value__;
 }

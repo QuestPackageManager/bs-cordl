@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ITerminalView.hpp"
+// IWYU pragma private; include "GlobalNamespace/ITerminalView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ITerminalView {
 public:
   // Declarations
-  /// @brief Method SetOpen, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetOpen, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetOpen(bool open);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITerminalView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITerminalView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITerminalView(ITerminalView const&) = delete;
+  ITerminalView(ITerminalViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19430 };

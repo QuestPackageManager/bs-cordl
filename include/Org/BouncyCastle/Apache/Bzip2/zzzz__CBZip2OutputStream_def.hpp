@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Apache\Bzip2\CBZip2OutputStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Apache/Bzip2/CBZip2OutputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +77,13 @@ protected:
   constexpr CBZip2OutputStream_StackElem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream_StackElem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream_StackElem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CBZip2OutputStream_StackElem(CBZip2OutputStream_StackElem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream_StackElem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream_StackElem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CBZip2OutputStream_StackElem(CBZip2OutputStream_StackElem const&) = delete;
+  CBZip2OutputStream_StackElem(CBZip2OutputStream_StackElemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1633 };
@@ -582,13 +582,13 @@ protected:
   constexpr CBZip2OutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CBZip2OutputStream(CBZip2OutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CBZip2OutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CBZip2OutputStream(CBZip2OutputStream const&) = delete;
+  CBZip2OutputStream(CBZip2OutputStreamconst&) = delete;
 
   /// @brief Field CLEARMASK offset 0xffffffff size 0x4
   static constexpr int32_t CLEARMASK{ static_cast<int32_t>(0xffdfffff) };

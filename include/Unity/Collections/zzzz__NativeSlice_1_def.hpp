@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeSlice_1.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeSlice_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,27 +28,41 @@ namespace System {
 class Object;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1_Enumerator;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeSlice_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeSlice_1);
 MARK_GEN_VAL_T(::Unity::Collections::NativeSlice_1_Enumerator);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeSlice_1, "Unity.Collections", "NativeSlice`1");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeSlice_1_Enumerator, "Unity.Collections", "NativeSlice`1/Enumerator");
+// [NativeContainer]
+// [NativeContainerSupportsMinMaxWriteRestriction]
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeSliceDebugView`1<T>))]
+// [DebuggerDisplay("Length = {Length}")]
+// [DefaultMember("Item")]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeSlice`1<T>
 struct CORDL_TYPE NativeSlice_1 {
@@ -71,6 +85,7 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>"
   constexpr operator ::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>*();
 
+  /// [WriteAccessRequired]
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::Unity::Collections::NativeSlice_1<T> slice);
 
@@ -122,6 +137,7 @@ public:
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeSlice_1<T> op_Implicit___Unity__Collections__NativeSlice_1_T_(::Unity::Collections::NativeArray_1<T> array);
 
+  /// [WriteAccessRequired]
   /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, T value);
 
@@ -129,8 +145,8 @@ public:
   // @brief default ctor
   constexpr NativeSlice_1();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_Stride", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "uint8_t*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Stride", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NativeSlice_1(uint8_t* m_Buffer, int32_t m_Stride, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -139,6 +155,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   uint8_t* m_Buffer;
 
@@ -152,10 +169,12 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
+// [ExcludeFromDocs]
 // Dependencies Unity.Collections.NativeSlice`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeSlice`1/Enumerator<T>
 struct CORDL_TYPE NativeSlice_1_Enumerator {
@@ -205,8 +224,8 @@ public:
   // @brief default ctor
   constexpr NativeSlice_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeSlice_1<T>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeSlice_1<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr NativeSlice_1_Enumerator(::Unity::Collections::NativeSlice_1<T> m_Array, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXEventBinderBase.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXEventBinderBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,9 +48,9 @@ public:
   inline void OnValidate();
 
   /// @brief Method SendEventToVisualEffect, addr 0x69e1060, size 0xb0, virtual false, abstract: false, final false
-  inline void SendEventToVisualEffect(::ArrayW<::System::Object*> parameters);
+  inline void SendEventToVisualEffect(/* [ParamArray] */ ::ArrayW<::System::Object*> parameters);
 
-  /// @brief Method SetEventAttribute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetEventAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetEventAttribute(::ArrayW<::System::Object*> parameters);
 
   /// @brief Method UpdateCacheEventAttribute, addr 0x69e1d78, size 0x8c, virtual false, abstract: false, final false
@@ -83,23 +83,26 @@ protected:
   constexpr VFXEventBinderBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXEventBinderBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXEventBinderBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXEventBinderBase(VFXEventBinderBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXEventBinderBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXEventBinderBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXEventBinderBase(VFXEventBinderBase const&) = delete;
+  VFXEventBinderBase(VFXEventBinderBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19982 };
 
+  /// [SerializeField]
   /// @brief Field target, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::VFX::VisualEffect> ___target;
 
   /// @brief Field EventName, offset: 0x28, size: 0x8, def value: None
   ::StringW ___EventName;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field eventAttribute, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::VFXEventAttribute* ___eventAttribute;
 

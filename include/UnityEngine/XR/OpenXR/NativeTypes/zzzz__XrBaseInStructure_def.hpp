@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrBaseInStructure.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrBaseInStructure.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // @brief default ctor
   constexpr XrBaseInStructure();
 
-  // Ctor Parameters [CppParam { name: "Type", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Next", ty: "void*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Type", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Next", ty: "void*", modifiers: "", def_value: None, comment: None }]
   constexpr XrBaseInStructure(uint32_t Type, void* Next) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

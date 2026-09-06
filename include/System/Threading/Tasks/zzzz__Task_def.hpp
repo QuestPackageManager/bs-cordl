@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\Task.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/Task.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -266,13 +266,13 @@ protected:
   constexpr Task_ContingentProperties();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Task_ContingentProperties", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_ContingentProperties", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Task_ContingentProperties(Task_ContingentProperties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Task_ContingentProperties", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_ContingentProperties", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task_ContingentProperties(Task_ContingentProperties const&) = delete;
+  Task_ContingentProperties(Task_ContingentPropertiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2797 };
@@ -355,13 +355,13 @@ protected:
   constexpr Task_SetOnInvokeMres();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Task_SetOnInvokeMres", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_SetOnInvokeMres", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Task_SetOnInvokeMres(Task_SetOnInvokeMres&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Task_SetOnInvokeMres", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_SetOnInvokeMres", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task_SetOnInvokeMres(Task_SetOnInvokeMres const&) = delete;
+  Task_SetOnInvokeMres(Task_SetOnInvokeMresconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2798 };
@@ -372,6 +372,7 @@ public:
 static_assert(sizeof(::System::Threading::Tasks::Task_SetOnInvokeMres) == 0x28, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -426,13 +427,13 @@ protected:
   constexpr Task___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Task___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Task___c(Task___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Task___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task___c(Task___c const&) = delete;
+  Task___c(Task___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2802 };
@@ -443,6 +444,8 @@ public:
 static_assert(sizeof(::System::Threading::Tasks::Task___c) == 0x10, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
+// [DebuggerTypeProxy(typeof(System.Threading.Tasks.SystemThreadingTasks_TaskDebugView))]
+// [DebuggerDisplay("Id = {Id}, Status = {Status}, Method = {DebuggerDisplayMethodDescription}")]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -614,6 +617,7 @@ public:
   /// @brief Method AddTaskContinuationComplex, addr 0x5cc2d74, size 0x30c, virtual false, abstract: false, final false
   inline bool AddTaskContinuationComplex(::System::Object* tc, bool addBeforeOthers);
 
+  /// [FriendAccessAllowed]
   /// @brief Method AddToActiveTasks, addr 0x5cc5190, size 0x174, virtual false, abstract: false, final false
   static inline bool AddToActiveTasks(::System::Threading::Tasks::Task* task);
 
@@ -829,6 +833,7 @@ public:
   /// @brief Method RemoveContinuation, addr 0x5cbd8bc, size 0x25c, virtual false, abstract: false, final false
   inline void RemoveContinuation(::System::Object* continuationObject);
 
+  /// [FriendAccessAllowed]
   /// @brief Method RemoveFromActiveTasks, addr 0x5cc5304, size 0x144, virtual false, abstract: false, final false
   static inline void RemoveFromActiveTasks(int32_t taskId);
 
@@ -914,26 +919,27 @@ public:
   inline void Wait();
 
   /// @brief Method WhenAll, addr 0x5cc4520, size 0x1bc, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* WhenAll(::ArrayW<::System::Threading::Tasks::Task*> tasks);
+  static inline ::System::Threading::Tasks::Task* WhenAll(/* [ParamArray] */ ::ArrayW<::System::Threading::Tasks::Task*> tasks);
 
   /// @brief Method WhenAll, addr 0x5cc3cc0, size 0x860, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WhenAll(::System::Collections::Generic::IEnumerable_1<::System::Threading::Tasks::Task*>* tasks);
 
   /// @brief Method WhenAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TResult> static inline ::System::Threading::Tasks::Task_1<::ArrayW<TResult>>* WhenAll(::ArrayW<::System::Threading::Tasks::Task_1<TResult>*> tasks);
+  template <typename TResult> static inline ::System::Threading::Tasks::Task_1<::ArrayW<TResult>>* WhenAll(/* [ParamArray] */ ::ArrayW<::System::Threading::Tasks::Task_1<TResult>*> tasks);
 
   /// @brief Method WhenAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult>
   static inline ::System::Threading::Tasks::Task_1<::ArrayW<TResult>>* WhenAll(::System::Collections::Generic::IEnumerable_1<::System::Threading::Tasks::Task_1<TResult>*>* tasks);
 
   /// @brief Method WhenAny, addr 0x5cc494c, size 0x198, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* WhenAny(::ArrayW<::System::Threading::Tasks::Task*> tasks);
+  static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* WhenAny(/* [ParamArray] */ ::ArrayW<::System::Threading::Tasks::Task*> tasks);
 
   /// @brief Method WhenAny, addr 0x5cc4d28, size 0x468, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* WhenAny(::System::Collections::Generic::IEnumerable_1<::System::Threading::Tasks::Task*>* tasks);
 
   /// @brief Method WhenAny, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TResult> static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task_1<TResult>*>* WhenAny(::ArrayW<::System::Threading::Tasks::Task_1<TResult>*> tasks);
+  template <typename TResult>
+  static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task_1<TResult>*>* WhenAny(/* [ParamArray] */ ::ArrayW<::System::Threading::Tasks::Task_1<TResult>*> tasks);
 
   /// @brief Method WhenAny, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult>
@@ -1051,6 +1057,7 @@ public:
   /// @brief Method get_CompletedEvent, addr 0x5cbf280, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::ManualResetEventSlim* get_CompletedEvent();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CompletedTask, addr 0x5cbf3f4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* get_CompletedTask();
 
@@ -1069,6 +1076,7 @@ public:
   /// @brief Method get_ExecutingTaskScheduler, addr 0x5cbf390, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::TaskScheduler* get_ExecutingTaskScheduler();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Factory, addr 0x5cbf398, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskFactory* get_Factory();
 
@@ -1163,13 +1171,13 @@ protected:
   constexpr Task();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Task", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Task(Task&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Task", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Task(Task const&) = delete;
+  Task(Taskconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2803 };

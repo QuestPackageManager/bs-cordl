@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ISyncStateDeltaSerializable_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/ISyncStateDeltaSerializable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,27 +30,27 @@ public:
 
   __declspec(property(get = get_timeOffsetMs, put = set_timeOffsetMs)) int32_t timeOffsetMs;
 
-  /// @brief Method get_baseId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_baseId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
-  /// @brief Method get_delta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_delta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_delta();
 
-  /// @brief Method get_timeOffsetMs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_timeOffsetMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_timeOffsetMs();
 
-  /// @brief Method set_baseId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_baseId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method set_delta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_delta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_delta(T value);
 
-  /// @brief Method set_timeOffsetMs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_timeOffsetMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_timeOffsetMs(int32_t value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISyncStateDeltaSerializable_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISyncStateDeltaSerializable_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISyncStateDeltaSerializable_1(ISyncStateDeltaSerializable_1 const&) = delete;
+  ISyncStateDeltaSerializable_1(ISyncStateDeltaSerializable_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18293 };

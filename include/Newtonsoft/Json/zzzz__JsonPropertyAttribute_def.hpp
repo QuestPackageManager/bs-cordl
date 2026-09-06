@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonPropertyAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonPropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,9 @@ class JsonPropertyAttribute;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::JsonPropertyAttribute*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonPropertyAttribute*, "Newtonsoft.Json", "JsonPropertyAttribute");
+// [NullableContext(2)]
+// [Nullable(0)]
+// [AttributeUsage((System.AttributeTargets)2432, AllowMultiple = false)]
 // Dependencies Newtonsoft.Json.DefaultValueHandling, Newtonsoft.Json.NullValueHandling, Newtonsoft.Json.ObjectCreationHandling, Newtonsoft.Json.ReferenceLoopHandling, Newtonsoft.Json.Required,
 // Newtonsoft.Json.TypeNameHandling, System.Attribute, System.Nullable`1<T>, System.Object
 namespace Newtonsoft::Json {
@@ -59,6 +62,7 @@ public:
 
   __declspec(property(get = get_IsReference, put = set_IsReference)) bool IsReference;
 
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_ItemConverterParameters, put = set_ItemConverterParameters)) ::ArrayW<::System::Object*> ItemConverterParameters;
 
   __declspec(property(get = get_ItemConverterType, put = set_ItemConverterType)) ::System::Type* ItemConverterType;
@@ -69,6 +73,7 @@ public:
 
   __declspec(property(get = get_ItemTypeNameHandling, put = set_ItemTypeNameHandling)) ::Newtonsoft::Json::TypeNameHandling ItemTypeNameHandling;
 
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_NamingStrategyParameters, put = set_NamingStrategyParameters)) ::ArrayW<::System::Object*> NamingStrategyParameters;
 
   __declspec(property(get = get_NamingStrategyType, put = set_NamingStrategyType)) ::System::Type* NamingStrategyType;
@@ -145,6 +150,7 @@ public:
 
   static inline ::Newtonsoft::Json::JsonPropertyAttribute* New_ctor();
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::JsonPropertyAttribute* New_ctor(::StringW propertyName);
 
   constexpr ::ArrayW<::System::Object*> const& __cordl_internal_get__ItemConverterParameters_k__BackingField() const;
@@ -246,6 +252,7 @@ public:
   /// @brief Method .ctor, addr 0x5cd848c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5cd8490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
@@ -255,9 +262,11 @@ public:
   /// @brief Method get_IsReference, addr 0x5cd80cc, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ItemConverterParameters, addr 0x5cd7d90, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> get_ItemConverterParameters();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ItemConverterType, addr 0x5cd7d80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ItemConverterType();
 
@@ -270,9 +279,11 @@ public:
   /// @brief Method get_ItemTypeNameHandling, addr 0x5cd8350, size 0x44, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::TypeNameHandling get_ItemTypeNameHandling();
 
+  /// [CompilerGenerated]
   /// @brief Method get_NamingStrategyParameters, addr 0x5cd7db0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> get_NamingStrategyParameters();
 
+  /// [CompilerGenerated]
   /// @brief Method get_NamingStrategyType, addr 0x5cd7da0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_NamingStrategyType();
 
@@ -285,6 +296,7 @@ public:
   /// @brief Method get_Order, addr 0x5cd816c, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PropertyName, addr 0x5cd82a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
@@ -303,9 +315,11 @@ public:
   /// @brief Method set_IsReference, addr 0x5cd8110, size 0x5c, virtual false, abstract: false, final false
   inline void set_IsReference(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ItemConverterParameters, addr 0x5cd7d98, size 0x8, virtual false, abstract: false, final false
-  inline void set_ItemConverterParameters(::ArrayW<::System::Object*> value);
+  inline void set_ItemConverterParameters(/* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ItemConverterType, addr 0x5cd7d88, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverterType(::System::Type* value);
 
@@ -318,9 +332,11 @@ public:
   /// @brief Method set_ItemTypeNameHandling, addr 0x5cd8394, size 0x58, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::Newtonsoft::Json::TypeNameHandling value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_NamingStrategyParameters, addr 0x5cd7db8, size 0x8, virtual false, abstract: false, final false
-  inline void set_NamingStrategyParameters(::ArrayW<::System::Object*> value);
+  inline void set_NamingStrategyParameters(/* [Nullable(new[] { 2, 1 })] */ ::ArrayW<::System::Object*> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_NamingStrategyType, addr 0x5cd7da8, size 0x8, virtual false, abstract: false, final false
   inline void set_NamingStrategyType(::System::Type* value);
 
@@ -333,6 +349,7 @@ public:
   /// @brief Method set_Order, addr 0x5cd81b0, size 0x58, virtual false, abstract: false, final false
   inline void set_Order(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_PropertyName, addr 0x5cd82ac, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyName(::StringW value);
 
@@ -351,13 +368,13 @@ protected:
   constexpr JsonPropertyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonPropertyAttribute(JsonPropertyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonPropertyAttribute(JsonPropertyAttribute const&) = delete;
+  JsonPropertyAttribute(JsonPropertyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13261 };
@@ -395,18 +412,25 @@ public:
   /// @brief Field _itemTypeNameHandling, offset: 0x58, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ____itemTypeNameHandling;
 
+  /// [CompilerGenerated]
   /// @brief Field <ItemConverterType>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::System::Type* ____ItemConverterType_k__BackingField;
 
+  /// [Nullable(new[] { 2, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field <ItemConverterParameters>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::System::Object*> ____ItemConverterParameters_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <NamingStrategyType>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::System::Type* ____NamingStrategyType_k__BackingField;
 
+  /// [Nullable(new[] { 2, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field <NamingStrategyParameters>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::System::Object*> ____NamingStrategyParameters_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <PropertyName>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::StringW ____PropertyName_k__BackingField;
 

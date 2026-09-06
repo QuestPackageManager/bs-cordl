@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DataBinding.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DataBinding.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Binding_impl.hpp"
@@ -337,14 +337,15 @@ inline void UnityEngine::UIElements::DataBinding::ApplyConverterGroupToUI(::Unit
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, group);
 }
 template <typename TValue>
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBinding::UpdateUI(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value) {
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBinding::UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::DataBinding*>(), 9 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() }));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingResult>(this, ___internal_method, context, value);
 }
 template <typename TValue>
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBinding::UpdateSource(::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value) {
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBinding::UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
+                                                                                                   ::by_ref<TValue> value) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::DataBinding*>(), 10 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() }));
@@ -352,8 +353,8 @@ inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBin
 }
 template <typename TValue>
 inline ::StringW UnityEngine::UIElements::DataBinding::GetSetValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* source,
-                                                                              ::by_ref<::Unity::Properties::PropertyPath> sourcePath, ::System::Object* target,
-                                                                              ::by_ref<::UnityEngine::UIElements::BindingId> targetPath, TValue extractedValueFromSource) {
+                                                                              /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> sourcePath, ::System::Object* target,
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> targetPath, TValue extractedValueFromSource) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBinding*>(),

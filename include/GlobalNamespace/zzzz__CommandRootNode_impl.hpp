@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CommandRootNode.hpp"
+// IWYU pragma private; include "GlobalNamespace/CommandRootNode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandRootNode_def.hpp"
 #include "GlobalNamespace/zzzz__CommandNode_def.hpp"

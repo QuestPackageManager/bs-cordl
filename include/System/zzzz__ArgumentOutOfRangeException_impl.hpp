@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ArgumentOutOfRangeException.hpp"
+// IWYU pragma private; include "System/ArgumentOutOfRangeException.hpp"
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/zzzz__ArgumentOutOfRangeException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEventTrace.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventTrace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -203,13 +203,13 @@ protected:
   constexpr InputEventTrace_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_Enumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputEventTrace_Enumerator(InputEventTrace_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_Enumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEventTrace_Enumerator(InputEventTrace_Enumerator const&) = delete;
+  InputEventTrace_Enumerator(InputEventTrace_Enumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9032 };
@@ -235,6 +235,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enu
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -263,7 +264,7 @@ public:
   // @brief default ctor
   constexpr InputEventTrace_FileFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputEventTrace_FileFlags(int32_t value__) noexcept;
 
   /// @brief Field FixedUpdate value: I32(1)
@@ -286,6 +287,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputEventTrace_Fil
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::InputEventTrace_FileFlags) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
@@ -321,13 +323,13 @@ protected:
   constexpr ReplayController_InputEventTrace___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReplayController_InputEventTrace___c(ReplayController_InputEventTrace___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReplayController_InputEventTrace___c(ReplayController_InputEventTrace___c const&) = delete;
+  ReplayController_InputEventTrace___c(ReplayController_InputEventTrace___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9034 };
@@ -338,6 +340,7 @@ public:
 static_assert(sizeof(::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
@@ -368,13 +371,13 @@ protected:
   constexpr ReplayController_InputEventTrace___c__DisplayClass43_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c__DisplayClass43_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c__DisplayClass43_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReplayController_InputEventTrace___c__DisplayClass43_0(ReplayController_InputEventTrace___c__DisplayClass43_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c__DisplayClass43_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReplayController_InputEventTrace___c__DisplayClass43_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReplayController_InputEventTrace___c__DisplayClass43_0(ReplayController_InputEventTrace___c__DisplayClass43_0 const&) = delete;
+  ReplayController_InputEventTrace___c__DisplayClass43_0(ReplayController_InputEventTrace___c__DisplayClass43_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9035 };
@@ -602,12 +605,15 @@ public:
   /// @brief Method get_createdDevices, addr 0x65b427c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputDevice*>* get_createdDevices();
 
+  /// [CompilerGenerated]
   /// @brief Method get_finished, addr 0x65b424c, size 0x8, virtual false, abstract: false, final false
   inline bool get_finished();
 
+  /// [CompilerGenerated]
   /// @brief Method get_paused, addr 0x65b425c, size 0x8, virtual false, abstract: false, final false
   inline bool get_paused();
 
+  /// [CompilerGenerated]
   /// @brief Method get_position, addr 0x65b426c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_position();
 
@@ -617,12 +623,15 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_finished, addr 0x65b4254, size 0x8, virtual false, abstract: false, final false
   inline void set_finished(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_paused, addr 0x65b4264, size 0x8, virtual false, abstract: false, final false
   inline void set_paused(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_position, addr 0x65b4274, size 0x8, virtual false, abstract: false, final false
   inline void set_position(int32_t value);
 
@@ -632,23 +641,26 @@ protected:
   constexpr InputEventTrace_ReplayController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_ReplayController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_ReplayController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputEventTrace_ReplayController(InputEventTrace_ReplayController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_ReplayController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace_ReplayController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEventTrace_ReplayController(InputEventTrace_ReplayController const&) = delete;
+  InputEventTrace_ReplayController(InputEventTrace_ReplayControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9036 };
 
+  /// [CompilerGenerated]
   /// @brief Field <finished>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____finished_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <paused>k__BackingField, offset: 0x11, size: 0x1, def value: None
   bool ____paused_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <position>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____position_k__BackingField;
 
@@ -762,9 +774,9 @@ public:
   // @brief default ctor
   constexpr InputEventTrace_DeviceInfo();
 
-  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Layout", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "m_StateFormat", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "m_StateSizeInBytes", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_FullLayoutJson", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Layout", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_StateFormat", ty: "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StateSizeInBytes", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FullLayoutJson", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr InputEventTrace_DeviceInfo(int32_t m_DeviceId, ::StringW m_Layout, ::UnityEngine::InputSystem::Utilities::FourCC m_StateFormat, int32_t m_StateSizeInBytes,
                                        ::StringW m_FullLayoutJson) noexcept;
 
@@ -774,18 +786,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [SerializeField]
   /// @brief Field m_DeviceId, offset: 0x0, size: 0x4, def value: None
   int32_t m_DeviceId;
 
+  /// [SerializeField]
   /// @brief Field m_Layout, offset: 0x8, size: 0x8, def value: None
   ::StringW m_Layout;
 
+  /// [SerializeField]
   /// @brief Field m_StateFormat, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Utilities::FourCC m_StateFormat;
 
+  /// [SerializeField]
   /// @brief Field m_StateSizeInBytes, offset: 0x14, size: 0x4, def value: None
   int32_t m_StateSizeInBytes;
 
+  /// [SerializeField]
   /// @brief Field m_FullLayoutJson, offset: 0x18, size: 0x8, def value: None
   ::StringW m_FullLayoutJson;
 
@@ -1166,13 +1183,13 @@ protected:
   constexpr InputEventTrace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputEventTrace(InputEventTrace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputEventTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputEventTrace(InputEventTrace const&) = delete;
+  InputEventTrace(InputEventTraceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9038 };
@@ -1189,42 +1206,54 @@ public:
   /// @brief Field m_OnFilterEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>* ___m_OnFilterEvent;
 
+  /// [SerializeField]
   /// @brief Field m_DeviceId, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_DeviceId;
 
   /// @brief Field m_EventListeners, offset: 0x28, size: 0x50, def value: None
   ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> ___m_EventListeners;
 
+  /// [SerializeField]
   /// @brief Field m_EventBufferSize, offset: 0x78, size: 0x8, def value: None
   int64_t ___m_EventBufferSize;
 
+  /// [SerializeField]
   /// @brief Field m_MaxEventBufferSize, offset: 0x80, size: 0x8, def value: None
   int64_t ___m_MaxEventBufferSize;
 
+  /// [SerializeField]
   /// @brief Field m_GrowIncrementSize, offset: 0x88, size: 0x8, def value: None
   int64_t ___m_GrowIncrementSize;
 
+  /// [SerializeField]
   /// @brief Field m_EventCount, offset: 0x90, size: 0x8, def value: None
   int64_t ___m_EventCount;
 
+  /// [SerializeField]
   /// @brief Field m_EventSizeInBytes, offset: 0x98, size: 0x8, def value: None
   int64_t ___m_EventSizeInBytes;
 
+  /// [SerializeField]
   /// @brief Field m_EventBufferStorage, offset: 0xa0, size: 0x8, def value: None
   uint64_t ___m_EventBufferStorage;
 
+  /// [SerializeField]
   /// @brief Field m_EventBufferHeadStorage, offset: 0xa8, size: 0x8, def value: None
   uint64_t ___m_EventBufferHeadStorage;
 
+  /// [SerializeField]
   /// @brief Field m_EventBufferTailStorage, offset: 0xb0, size: 0x8, def value: None
   uint64_t ___m_EventBufferTailStorage;
 
+  /// [SerializeField]
   /// @brief Field m_HasWrapped, offset: 0xb8, size: 0x1, def value: None
   bool ___m_HasWrapped;
 
+  /// [SerializeField]
   /// @brief Field m_RecordFrameMarkers, offset: 0xb9, size: 0x1, def value: None
   bool ___m_RecordFrameMarkers;
 
+  /// [SerializeField]
   /// @brief Field m_DeviceInfos, offset: 0xc0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo> ___m_DeviceInfos;
 

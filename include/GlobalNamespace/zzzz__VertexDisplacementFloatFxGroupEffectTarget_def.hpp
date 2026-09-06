@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VertexDisplacementFloatFxGroupEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/VertexDisplacementFloatFxGroupEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -153,38 +153,46 @@ protected:
   constexpr VertexDisplacementFloatFxGroupEffectTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VertexDisplacementFloatFxGroupEffectTarget(VertexDisplacementFloatFxGroupEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VertexDisplacementFloatFxGroupEffectTarget(VertexDisplacementFloatFxGroupEffectTarget const&) = delete;
+  VertexDisplacementFloatFxGroupEffectTarget(VertexDisplacementFloatFxGroupEffectTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5887 };
 
+  /// [SerializeField]
   /// @brief Field _displacementRanges, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____displacementRanges;
 
+  /// [SerializeField]
   /// @brief Field _xAnimationCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____xAnimationCurve;
 
+  /// [SerializeField]
   /// @brief Field _yAnimationCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____yAnimationCurve;
 
+  /// [SerializeField]
   /// @brief Field _zAnimationCurve, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____zAnimationCurve;
 
+  /// [SerializeField]
   /// @brief Field _displacementController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____displacementController;
 
+  /// [SerializeField]
   /// @brief Field _renderer, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 
+  /// [SerializeField]
   /// @brief Field _useTestValue, offset: 0x58, size: 0x1, def value: None
   bool ____useTestValue;
 
+  /// [SerializeField]
   /// @brief Field _testFloatValue, offset: 0x5c, size: 0x4, def value: None
   float_t ____testFloatValue;
 

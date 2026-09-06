@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\ProviderBehaviourFlags.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/ProviderBehaviourFlags.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProviderBehaviourFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags::ProviderBehaviourFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

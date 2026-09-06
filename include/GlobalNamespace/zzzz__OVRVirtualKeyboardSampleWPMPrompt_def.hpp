@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRVirtualKeyboardSampleWPMPrompt.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboardSampleWPMPrompt.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,9 @@ class OVRVirtualKeyboardSampleWPMPrompt;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRVirtualKeyboardSampleWPMPrompt*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRVirtualKeyboardSampleWPMPrompt*, "", "OVRVirtualKeyboardSampleWPMPrompt");
+// [Obsolete]
+// [ExecuteInEditMode]
+// [Feature((Meta.XR.Util.Feature)9)]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -33,13 +36,13 @@ protected:
   constexpr OVRVirtualKeyboardSampleWPMPrompt();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleWPMPrompt", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleWPMPrompt", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRVirtualKeyboardSampleWPMPrompt(OVRVirtualKeyboardSampleWPMPrompt&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleWPMPrompt", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRVirtualKeyboardSampleWPMPrompt", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRVirtualKeyboardSampleWPMPrompt(OVRVirtualKeyboardSampleWPMPrompt const&) = delete;
+  OVRVirtualKeyboardSampleWPMPrompt(OVRVirtualKeyboardSampleWPMPromptconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7822 };

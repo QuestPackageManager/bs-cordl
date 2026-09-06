@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\BufferedRumble.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/BufferedRumble.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,15 +38,21 @@ public:
   /// @brief Method .ctor, addr 0x658bf90, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_capabilities, addr 0x658bf58, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_device, addr 0x658bf80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
+  /// [CompilerGenerated]
   /// @brief Method set_capabilities, addr 0x658bf6c, size 0x14, virtual false, abstract: false, final false
   inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_device, addr 0x658bf88, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
@@ -54,8 +60,8 @@ public:
   // @brief default ctor
   constexpr BufferedRumble();
 
-  // Ctor Parameters [CppParam { name: "_capabilities_k__BackingField", ty: "::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities", modifiers: "", def_value: None }, CppParam { name:
-  // "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_capabilities_k__BackingField", ty: "::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None, comment: None }]
   constexpr BufferedRumble(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities _capabilities_k__BackingField, ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -64,9 +70,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [CompilerGenerated]
   /// @brief Field <capabilities>k__BackingField, offset: 0x0, size: 0x14, def value: None
   ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities _capabilities_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <device>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField;
 

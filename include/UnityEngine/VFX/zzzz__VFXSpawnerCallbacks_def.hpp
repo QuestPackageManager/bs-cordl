@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXSpawnerCallbacks.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXSpawnerCallbacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class VFXSpawnerCallbacks;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::VFXSpawnerCallbacks*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXSpawnerCallbacks*, "UnityEngine.VFX", "VFXSpawnerCallbacks");
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -30,13 +31,13 @@ public:
   // Declarations
   static inline ::UnityEngine::VFX::VFXSpawnerCallbacks* New_ctor();
 
-  /// @brief Method OnPlay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnPlay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPlay(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnStop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnStop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStop(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnUpdate(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
   /// @brief Method .ctor, addr 0x6e2d3b8, size 0x8, virtual false, abstract: false, final false
@@ -48,13 +49,13 @@ protected:
   constexpr VFXSpawnerCallbacks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerCallbacks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerCallbacks", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXSpawnerCallbacks(VFXSpawnerCallbacks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerCallbacks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXSpawnerCallbacks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXSpawnerCallbacks(VFXSpawnerCallbacks const&) = delete;
+  VFXSpawnerCallbacks(VFXSpawnerCallbacksconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22404 };

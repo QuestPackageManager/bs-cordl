@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\DsaParameterGenerationParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/DsaParameterGenerationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,13 +110,13 @@ protected:
   constexpr DsaParameterGenerationParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DsaParameterGenerationParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DsaParameterGenerationParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DsaParameterGenerationParameters(DsaParameterGenerationParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DsaParameterGenerationParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DsaParameterGenerationParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DsaParameterGenerationParameters(DsaParameterGenerationParameters const&) = delete;
+  DsaParameterGenerationParameters(DsaParameterGenerationParametersconst&) = delete;
 
   /// @brief Field DigitalSignatureUsage offset 0xffffffff size 0x4
   static constexpr int32_t DigitalSignatureUsage{ static_cast<int32_t>(0x1) };

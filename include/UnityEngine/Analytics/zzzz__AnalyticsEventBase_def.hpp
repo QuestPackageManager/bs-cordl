@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\AnalyticsEventBase.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/AnalyticsEventBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class AnalyticsEventBase;
 // Write type traits
 MARK_REF_T(::UnityEngine::Analytics::AnalyticsEventBase*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::AnalyticsEventBase*, "UnityEngine.Analytics", "AnalyticsEventBase");
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies System.Object, UnityEngine.Analytics.SendEventOptions
 namespace UnityEngine::Analytics {
 // Is value type: false
@@ -72,13 +73,13 @@ protected:
   constexpr AnalyticsEventBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsEventBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsEventBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnalyticsEventBase(AnalyticsEventBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsEventBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsEventBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnalyticsEventBase(AnalyticsEventBase const&) = delete;
+  AnalyticsEventBase(AnalyticsEventBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10694 };

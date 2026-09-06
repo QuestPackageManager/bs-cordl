@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\WindowsConsoleDriver.hpp"
+// IWYU pragma private; include "System/WindowsConsoleDriver.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__WindowsConsoleDriver_def.hpp"

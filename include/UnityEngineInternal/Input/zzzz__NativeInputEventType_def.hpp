@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngineInternal\Input\NativeInputEventType.hpp"
+// IWYU pragma private; include "UnityEngineInternal/Input/NativeInputEventType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   // @brief default ctor
   constexpr NativeInputEventType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NativeInputEventType(int32_t value__) noexcept;
 
   /// @brief Field Delta value: I32(1145852993)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\SignerInfoGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/SignerInfoGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,13 +113,13 @@ protected:
   constexpr SignerInfoGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignerInfoGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignerInfoGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerInfoGenerator(SignerInfoGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignerInfoGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignerInfoGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignerInfoGenerator(SignerInfoGenerator const&) = delete;
+  SignerInfoGenerator(SignerInfoGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 689 };

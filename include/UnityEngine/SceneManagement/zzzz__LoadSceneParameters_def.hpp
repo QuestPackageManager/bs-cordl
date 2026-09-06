@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SceneManagement\LoadSceneParameters.hpp"
+// IWYU pragma private; include "UnityEngine/SceneManagement/LoadSceneParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,8 +31,8 @@ public:
   // @brief default ctor
   constexpr LoadSceneParameters();
 
-  // Ctor Parameters [CppParam { name: "m_LoadSceneMode", ty: "::UnityEngine::SceneManagement::LoadSceneMode", modifiers: "", def_value: None }, CppParam { name: "m_LocalPhysicsMode", ty:
-  // "::UnityEngine::SceneManagement::LocalPhysicsMode", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_LoadSceneMode", ty: "::UnityEngine::SceneManagement::LoadSceneMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LocalPhysicsMode",
+  // ty: "::UnityEngine::SceneManagement::LocalPhysicsMode", modifiers: "", def_value: None, comment: None }]
   constexpr LoadSceneParameters(::UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode, ::UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -41,9 +41,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [SerializeField]
   /// @brief Field m_LoadSceneMode, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode;
 
+  /// [SerializeField]
   /// @brief Field m_LocalPhysicsMode, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode;
 

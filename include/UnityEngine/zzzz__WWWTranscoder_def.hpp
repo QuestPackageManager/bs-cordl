@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\WWWTranscoder.hpp"
+// IWYU pragma private; include "UnityEngine/WWWTranscoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class WWWTranscoder;
 // Write type traits
 MARK_REF_T(::UnityEngine::WWWTranscoder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::WWWTranscoder*, "UnityEngine", "WWWTranscoder");
+// [VisibleToOtherModules(new[] { "UnityEngine.UnityWebRequestWWWModule" })]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -102,13 +103,13 @@ protected:
   constexpr WWWTranscoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WWWTranscoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WWWTranscoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WWWTranscoder(WWWTranscoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WWWTranscoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WWWTranscoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WWWTranscoder(WWWTranscoder const&) = delete;
+  WWWTranscoder(WWWTranscoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22292 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\ConstrainedExecution\PrePrepareMethodAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/ConstrainedExecution/PrePrepareMethodAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class PrePrepareMethodAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute*, "System.Runtime.ConstrainedExecution", "PrePrepareMethodAttribute");
+// [AttributeUsage((System.AttributeTargets)96, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr PrePrepareMethodAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrePrepareMethodAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrePrepareMethodAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrePrepareMethodAttribute(PrePrepareMethodAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrePrepareMethodAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrePrepareMethodAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrePrepareMethodAttribute(PrePrepareMethodAttribute const&) = delete;
+  PrePrepareMethodAttribute(PrePrepareMethodAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3366 };

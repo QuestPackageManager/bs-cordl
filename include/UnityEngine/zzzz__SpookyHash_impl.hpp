@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SpookyHash.hpp"
+// IWYU pragma private; include "UnityEngine/SpookyHash.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SpookyHash_def.hpp"
 #include "UnityEngine/zzzz__SpookyHash_def.hpp"
@@ -55,8 +55,9 @@ inline void UnityEngine::SpookyHash_U::_ctor(uint16_t* p8) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpookyHash_U>(), { ".ctor", {}, { ::i2c::type_of<uint16_t*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, p8);
 }
-// Ctor Parameters [CppParam { name: "p8", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "p32", ty: "uint32_t*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "p64", ty: "uint64_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "i", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "p8", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "p32", ty: "uint32_t*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "p64", ty: "uint64_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "i", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::SpookyHash_U::SpookyHash_U(uint8_t* p8, uint32_t* p32, uint64_t* p64, uint64_t i) noexcept {
   this->p8 = p8;
   this->p32 = p32;

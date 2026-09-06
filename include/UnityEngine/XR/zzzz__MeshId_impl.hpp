@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\MeshId.hpp"
+// IWYU pragma private; include "UnityEngine/XR/MeshId.hpp"
 #include "UnityEngine/XR/zzzz__MeshId_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -83,7 +83,8 @@ constexpr UnityEngine::XR::MeshId::operator ::System::IEquatable_1<::UnityEngine
 constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshId>* UnityEngine::XR::MeshId::i___System__IEquatable_1___UnityEngine__XR__MeshId_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::XR::MeshId>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_SubId1", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SubId2", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_SubId1", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SubId2", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::MeshId::MeshId(uint64_t m_SubId1, uint64_t m_SubId2) noexcept {
   this->m_SubId1 = m_SubId1;
   this->m_SubId2 = m_SubId2;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\SliderData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/SliderData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -225,50 +225,62 @@ protected:
   constexpr SliderData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderData(SliderData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderData(SliderData const&) = delete;
+  SliderData(SliderDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15389 };
 
+  /// [SerializeField]
   /// @brief Field _colorType, offset: 0x10, size: 0x4, def value: None
   ::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType ____colorType;
 
+  /// [SerializeField]
   /// @brief Field _headTime, offset: 0x14, size: 0x4, def value: None
   float_t ____headTime;
 
+  /// [SerializeField]
   /// @brief Field _headLineIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ____headLineIndex;
 
+  /// [SerializeField]
   /// @brief Field _headLineLayer, offset: 0x1c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteLineLayer ____headLineLayer;
 
+  /// [SerializeField]
   /// @brief Field _headControlPointLengthMultiplier, offset: 0x20, size: 0x4, def value: None
   float_t ____headControlPointLengthMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _headCutDirection, offset: 0x24, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteCutDirection ____headCutDirection;
 
+  /// [SerializeField]
   /// @brief Field _tailTime, offset: 0x28, size: 0x4, def value: None
   float_t ____tailTime;
 
+  /// [SerializeField]
   /// @brief Field _tailLineIndex, offset: 0x2c, size: 0x4, def value: None
   int32_t ____tailLineIndex;
 
+  /// [SerializeField]
   /// @brief Field _tailLineLayer, offset: 0x30, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteLineLayer ____tailLineLayer;
 
+  /// [SerializeField]
   /// @brief Field _tailControlPointLengthMultiplier, offset: 0x34, size: 0x4, def value: None
   float_t ____tailControlPointLengthMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _tailCutDirection, offset: 0x38, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteCutDirection ____tailCutDirection;
 
+  /// [SerializeField]
   /// @brief Field _sliderMidAnchorMode, offset: 0x3c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::SliderMidAnchorMode ____sliderMidAnchorMode;
 

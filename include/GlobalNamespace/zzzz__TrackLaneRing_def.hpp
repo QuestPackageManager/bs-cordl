@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TrackLaneRing.hpp"
+// IWYU pragma private; include "GlobalNamespace/TrackLaneRing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class TrackLaneRing;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TrackLaneRing*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TrackLaneRing*, "", "TrackLaneRing");
+// [AddComponentMenu("Beat Saber/Gameplay/TrackLaneRing")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -154,13 +155,13 @@ protected:
   constexpr TrackLaneRing();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRing", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRing", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackLaneRing(TrackLaneRing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRing", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackLaneRing(TrackLaneRing const&) = delete;
+  TrackLaneRing(TrackLaneRingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5988 };

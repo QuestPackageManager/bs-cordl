@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeText.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,13 +18,17 @@ namespace Unity::Collections {
 struct CopyError;
 }
 namespace Unity::Collections {
-template <typename T> class IIndexable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IIndexable_1;
 }
 namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T> class INativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class INativeList_1;
 }
 namespace Unity::Collections {
 class IUTF8Bytes;
@@ -42,6 +46,9 @@ struct UnsafeText;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeText);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeText, "Unity.Collections.LowLevel.Unsafe", "UnsafeText");
+// [DefaultMember("Item")]
+// [GenerateTestsForBurstCompatibility]
+// [DebuggerDisplay("Length = {Length}, Capacity = {Capacity}, IsCreated = {IsCreated}, IsEmpty = {IsEmpty}")]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UntypedUnsafeList
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -77,9 +84,13 @@ public:
   /// @brief Method Alloc, addr 0x64c3eec, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeText* Alloc(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckCapacityInRange, addr 0x64cfb20, size 0xec, virtual false, abstract: false, final false
   static inline void CheckCapacityInRange(int32_t value, int32_t length);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckIndexInRange, addr 0x64cf948, size 0x158, virtual false, abstract: false, final false
   inline void CheckIndexInRange(int32_t index);
 
@@ -101,9 +112,12 @@ public:
   /// @brief Method GetUnsafePtr, addr 0x64c422c, size 0x8, virtual true, abstract: false, final true
   inline uint8_t* GetUnsafePtr();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowCopyError, addr 0x64cfaa0, size 0x80, virtual false, abstract: false, final false
   inline void ThrowCopyError(::Unity::Collections::CopyError error, ::StringW source);
 
+  /// [ExcludeFromBurstCompatTesting("Returns managed string")]
   /// @brief Method ToString, addr 0x64c62f0, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
@@ -113,18 +127,22 @@ public:
   /// @brief Method .ctor, addr 0x64c3fbc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x64cf868, size 0x70, virtual true, abstract: false, final true
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x64cf500, size 0x74, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x64cf600, size 0xe0, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
   /// @brief Method get_Item, addr 0x64cf6e0, size 0x54, virtual true, abstract: false, final true
   inline uint8_t get_Item(int32_t index);
 
+  /// [IsReadOnly]
   /// @brief Method get_Length, addr 0x64cf8d8, size 0x70, virtual true, abstract: false, final true
   inline int32_t get_Length();
 
@@ -156,7 +174,7 @@ public:
   // @brief default ctor
   constexpr UnsafeText();
 
-  // Ctor Parameters [CppParam { name: "m_UntypedListData", ty: "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_UntypedListData", ty: "::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeText(::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList m_UntypedListData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

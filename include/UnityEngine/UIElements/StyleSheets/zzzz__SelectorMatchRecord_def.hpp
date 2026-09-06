@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\SelectorMatchRecord.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/SelectorMatchRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct SelectorMatchRecord;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, "UnityEngine.UIElements.StyleSheets", "SelectorMatchRecord");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
@@ -36,8 +37,9 @@ public:
   // @brief default ctor
   constexpr SelectorMatchRecord();
 
-  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "styleSheetIndexInStack", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty: "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None, comment: None }, CppParam { name: "styleSheetIndexInStack", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "complexSelector", ty: "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SelectorMatchRecord(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, int32_t styleSheetIndexInStack, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

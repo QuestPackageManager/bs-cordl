@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonFormatterConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonFormatterConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,8 @@ class JsonFormatterConverter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::JsonFormatterConverter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonFormatterConverter*, "Newtonsoft.Json.Serialization", "JsonFormatterConverter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -72,7 +74,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::JsonFormatterConverter* New_ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader,
                                                                                     ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
-                                                                                    ::Newtonsoft::Json::Serialization::JsonProperty* member);
+                                                                                    /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member);
 
   /// @brief Method ToBoolean, addr 0x5d43684, size 0x5c, virtual true, abstract: false, final true
   inline bool ToBoolean(::System::Object* value);
@@ -139,7 +141,7 @@ public:
 
   /// @brief Method .ctor, addr 0x5d43294, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
-                    ::Newtonsoft::Json::Serialization::JsonProperty* member);
+                    /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member);
 
   /// @brief Convert to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr ::System::Runtime::Serialization::IFormatterConverter* i___System__Runtime__Serialization__IFormatterConverter() noexcept;
@@ -150,13 +152,13 @@ protected:
   constexpr JsonFormatterConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonFormatterConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonFormatterConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonFormatterConverter(JsonFormatterConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonFormatterConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonFormatterConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonFormatterConverter(JsonFormatterConverter const&) = delete;
+  JsonFormatterConverter(JsonFormatterConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13508 };
@@ -167,6 +169,7 @@ public:
   /// @brief Field _contract, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonISerializableContract* ____contract;
 
+  /// [Nullable(2)]
   /// @brief Field _member, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonProperty* ____member;
 

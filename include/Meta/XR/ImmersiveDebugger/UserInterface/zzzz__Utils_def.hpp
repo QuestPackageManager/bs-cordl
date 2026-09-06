@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Utils.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Utils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class Utils;
 // Write type traits
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::UserInterface::Utils*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::Utils*, "Meta.XR.ImmersiveDebugger.UserInterface", "Utils");
+// [Extension]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface {
 // Is value type: false
@@ -31,6 +32,7 @@ public:
   /// @brief Method LerpPosition, addr 0x5a4bef4, size 0x12c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LerpPosition(::UnityEngine::Vector3 current, ::UnityEngine::Vector3 target, float_t lerpSpeed);
 
+  /// [Extension]
   /// @brief Method ToDisplayText, addr 0x5a541c4, size 0x1b8, virtual false, abstract: false, final false
   static inline ::StringW ToDisplayText(::StringW input, int32_t characterLimit);
 
@@ -40,13 +42,13 @@ protected:
   constexpr Utils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Utils(Utils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Utils(Utils const&) = delete;
+  Utils(Utilsconst&) = delete;
 
   /// @brief Field CursorSortOrder offset 0xffffffff size 0x4
   static constexpr int32_t CursorSortOrder{ static_cast<int32_t>(0x7918) };

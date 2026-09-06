@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\TypedObject.hpp"
+// IWYU pragma private; include "System/Xml/Schema/TypedObject.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__TypedObject_def.hpp"

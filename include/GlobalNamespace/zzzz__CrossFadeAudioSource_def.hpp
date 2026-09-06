@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CrossFadeAudioSource.hpp"
+// IWYU pragma private; include "GlobalNamespace/CrossFadeAudioSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,18 +103,23 @@ public:
   /// @brief Method Stop, addr 0x58b6fe8, size 0x50, virtual false, abstract: false, final false
   inline void Stop();
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__21_0, addr 0x58b7048, size 0x18, virtual false, abstract: false, final false
   inline void _Awake_b__21_0(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <Awake>b__21_1, addr 0x58b7060, size 0x18, virtual false, abstract: false, final false
   inline void _Awake_b__21_1(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <CrossFade>b__25_0, addr 0x58b7078, size 0x18, virtual false, abstract: false, final false
   inline void _CrossFade_b__25_0(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <CrossFade>b__25_1, addr 0x58b7090, size 0x18, virtual false, abstract: false, final false
   inline void _CrossFade_b__25_1(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <CrossFade>b__25_2, addr 0x58b70a8, size 0x34, virtual false, abstract: false, final false
   inline void _CrossFade_b__25_2();
 
@@ -214,32 +219,38 @@ protected:
   constexpr CrossFadeAudioSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CrossFadeAudioSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CrossFadeAudioSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CrossFadeAudioSource(CrossFadeAudioSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CrossFadeAudioSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CrossFadeAudioSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CrossFadeAudioSource(CrossFadeAudioSource const&) = delete;
+  CrossFadeAudioSource(CrossFadeAudioSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5562 };
 
+  /// [SerializeField]
   /// @brief Field _duration, offset: 0x20, size: 0x4, def value: None
   float_t ____duration;
 
+  /// [SerializeField]
   /// @brief Field _audioSource1, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource1;
 
+  /// [SerializeField]
   /// @brief Field _audioSource2, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource2;
 
+  /// [SerializeField]
   /// @brief Field _audioPitchGainEffect1, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPitchGainEffect> ____audioPitchGainEffect1;
 
+  /// [SerializeField]
   /// @brief Field _audioPitchGainEffect2, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPitchGainEffect> ____audioPitchGainEffect2;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

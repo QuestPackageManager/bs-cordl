@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\UvUnwrapping.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/UvUnwrapping.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__UvUnwrapping_def.hpp"
@@ -32,8 +32,8 @@ inline ::StringW UnityEngine::ProBuilder::UvUnwrapping_UVTransform::ToString() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::ProBuilder::UvUnwrapping_UVTransform>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "translation", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "translation", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform::UvUnwrapping_UVTransform(::UnityEngine::Vector2 translation, float_t rotation, ::UnityEngine::Vector2 scale) noexcept {
   this->translation = translation;
   this->rotation = rotation;

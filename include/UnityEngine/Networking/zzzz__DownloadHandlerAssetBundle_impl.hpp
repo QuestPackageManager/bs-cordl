@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerAssetBundle.hpp"
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerAssetBundle.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandlerAssetBundle_def.hpp"
@@ -298,15 +298,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
     return ___internal_method;
   }
 };
-inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::Create(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, uint32_t crc) {
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::Create(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, uint32_t crc) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(),
                                        { "Create", {}, { ::i2c::type_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, obj, url, crc);
 }
-inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, ::StringW name,
-                                                                                          ::UnityEngine::Hash128 hash, uint32_t crc) {
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached(/* [Unmarshalled] */ ::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url,
+                                                                                          ::StringW name, ::UnityEngine::Hash128 hash, uint32_t crc) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(),
                                                                                          { "CreateCached",
                                                                                            {},

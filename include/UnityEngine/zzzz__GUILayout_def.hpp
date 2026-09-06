@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUILayout.hpp"
+// IWYU pragma private; include "UnityEngine/GUILayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,16 +41,16 @@ public:
   static inline void BeginArea(::UnityEngine::Rect screenRect, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
 
   /// @brief Method BeginHorizontal, addr 0x6b4483c, size 0x1a4, virtual false, abstract: false, final false
-  static inline void BeginHorizontal(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
+  static inline void BeginHorizontal(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
   /// @brief Method BeginHorizontal, addr 0x6b447a0, size 0x9c, virtual false, abstract: false, final false
-  static inline void BeginHorizontal(::ArrayW<::UnityEngine::GUILayoutOption*> options);
+  static inline void BeginHorizontal(/* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
   /// @brief Method BeginVertical, addr 0x6b44dbc, size 0x1a4, virtual false, abstract: false, final false
-  static inline void BeginVertical(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
+  static inline void BeginVertical(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
   /// @brief Method BeginVertical, addr 0x6b44d20, size 0x9c, virtual false, abstract: false, final false
-  static inline void BeginVertical(::ArrayW<::UnityEngine::GUILayoutOption*> options);
+  static inline void BeginVertical(/* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
   /// @brief Method DoLabel, addr 0x6b442d8, size 0xd4, virtual false, abstract: false, final false
   static inline void DoLabel(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
@@ -65,7 +65,7 @@ public:
   static inline ::UnityEngine::GUILayoutOption* Height(float_t height);
 
   /// @brief Method Label, addr 0x6b44228, size 0xb0, virtual false, abstract: false, final false
-  static inline void Label(::StringW text, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
+  static inline void Label(::StringW text, /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
   /// @brief Method Space, addr 0x6b4441c, size 0x224, virtual false, abstract: false, final false
   static inline void Space(float_t pixels);
@@ -79,13 +79,13 @@ protected:
   constexpr GUILayout();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUILayout(GUILayout&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUILayout(GUILayout const&) = delete;
+  GUILayout(GUILayoutconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19877 };

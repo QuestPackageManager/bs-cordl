@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon\EaseTypeConvertor.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon/EaseTypeConvertor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseTypeConvertor_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_def.hpp"

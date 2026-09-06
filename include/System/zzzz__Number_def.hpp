@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Number.hpp"
+// IWYU pragma private; include "System/Number.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,6 +82,8 @@ public:
 static_assert(sizeof(::System::NumberBuffer_Number_DigitsAndNullTerminator) == 0x66, "Size mismatch!");
 
 } // namespace System
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
 // Dependencies System.Number::NumberBuffer::DigitsAndNullTerminator
 namespace System {
 // Is value type: true
@@ -109,9 +111,9 @@ public:
   // @brief default ctor
   constexpr Number_NumberBuffer();
 
-  // Ctor Parameters [CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_sign", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_digits", ty: "::System::NumberBuffer_Number_DigitsAndNullTerminator", modifiers: "", def_value: None }, CppParam {
-  // name: "_allDigits", ty: "char16_t*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_sign", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_digits", ty: "::System::NumberBuffer_Number_DigitsAndNullTerminator",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_allDigits", ty: "char16_t*", modifiers: "", def_value: None, comment: None }]
   constexpr Number_NumberBuffer(int32_t precision, int32_t scale, int32_t _sign, ::System::NumberBuffer_Number_DigitsAndNullTerminator _digits, char16_t* _allDigits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -536,13 +538,13 @@ protected:
   constexpr Number();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Number", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Number", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Number(Number&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Number", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Number", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Number(Number const&) = delete;
+  Number(Numberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2456 };

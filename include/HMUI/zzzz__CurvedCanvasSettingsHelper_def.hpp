@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\CurvedCanvasSettingsHelper.hpp"
+// IWYU pragma private; include "HMUI/CurvedCanvasSettingsHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr CurvedCanvasSettingsHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettingsHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettingsHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CurvedCanvasSettingsHelper(CurvedCanvasSettingsHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettingsHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettingsHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurvedCanvasSettingsHelper(CurvedCanvasSettingsHelper const&) = delete;
+  CurvedCanvasSettingsHelper(CurvedCanvasSettingsHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19037 };

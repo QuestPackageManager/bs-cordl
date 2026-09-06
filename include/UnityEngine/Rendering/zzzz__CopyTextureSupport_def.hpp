@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CopyTextureSupport.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CopyTextureSupport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CopyTextureSupport;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CopyTextureSupport);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CopyTextureSupport, "UnityEngine.Rendering", "CopyTextureSupport");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr CopyTextureSupport();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CopyTextureSupport(int32_t value__) noexcept;
 
   /// @brief Field Basic value: I32(1)

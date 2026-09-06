@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaCollection.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,8 @@ class XmlSchemaCollection;
 // Write type traits
 MARK_REF_T(::System::Xml::Schema::XmlSchemaCollection*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Schema::XmlSchemaCollection*, "System.Xml.Schema", "XmlSchemaCollection");
+// [DefaultMember("Item")]
+// [Obsolete("Use System.Xml.Schema.XmlSchemaSet for schema compilation and validation. https://go.microsoft.com/fwlink/?linkid=14202")]
 // Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
@@ -229,13 +231,13 @@ protected:
   constexpr XmlSchemaCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaCollection(XmlSchemaCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaCollection(XmlSchemaCollection const&) = delete;
+  XmlSchemaCollection(XmlSchemaCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9750 };

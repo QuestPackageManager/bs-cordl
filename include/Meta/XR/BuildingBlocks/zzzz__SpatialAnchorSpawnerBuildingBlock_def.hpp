@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\SpatialAnchorSpawnerBuildingBlock.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/SpatialAnchorSpawnerBuildingBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -139,20 +139,24 @@ protected:
   constexpr SpatialAnchorSpawnerBuildingBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorSpawnerBuildingBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorSpawnerBuildingBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpatialAnchorSpawnerBuildingBlock(SpatialAnchorSpawnerBuildingBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorSpawnerBuildingBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpatialAnchorSpawnerBuildingBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpatialAnchorSpawnerBuildingBlock(SpatialAnchorSpawnerBuildingBlock const&) = delete;
+  SpatialAnchorSpawnerBuildingBlock(SpatialAnchorSpawnerBuildingBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21366 };
 
+  /// [Tooltip("A placeholder object to place in the anchor\'s position.")]
+  /// [SerializeField]
   /// @brief Field _anchorPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____anchorPrefab;
 
+  /// [Tooltip("Anchor prefab GameObject will follow the user\'s right hand.")]
+  /// [SerializeField]
   /// @brief Field _followHand, offset: 0x28, size: 0x1, def value: None
   bool ____followHand;
 

@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationPlayableExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 CORDL_MODULE_EXPORT(AnimationPlayableExtensions)
 namespace System {
 struct IntPtr;
@@ -21,16 +22,24 @@ class AnimationPlayableExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Animations::AnimationPlayableExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationPlayableExtensions*, "UnityEngine.Animations", "AnimationPlayableExtensions");
-// Dependencies System.Object
+// [Extension]
+// [NativeHeader("Modules/Animation/Director/AnimationPlayableExtensions.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [NativeHeader("Modules/Animation/AnimationClip.h")]
+// Dependencies System.Object, UnityEngine.Playables.IPlayable
 namespace UnityEngine::Animations {
 // Is value type: false
 // CS Name: UnityEngine.Animations.AnimationPlayableExtensions
 class CORDL_TYPE AnimationPlayableExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method SetAnimatedProperties, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename U> static inline void SetAnimatedProperties(U playable, ::UnityEngine::AnimationClip* clip);
+  template <typename U>
+    requires(::cordl_internals::type_constraint<U, ::UnityEngine::Playables::IPlayable*> && ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+  static inline void SetAnimatedProperties(U playable, ::UnityEngine::AnimationClip* clip);
 
+  /// [NativeThrows]
   /// @brief Method SetAnimatedPropertiesInternal, addr 0x6a493c0, size 0x90, virtual false, abstract: false, final false
   static inline void SetAnimatedPropertiesInternal(::by_ref<::UnityEngine::Playables::PlayableHandle> playable, ::UnityEngine::AnimationClip* animatedProperties);
 
@@ -43,13 +52,13 @@ protected:
   constexpr AnimationPlayableExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationPlayableExtensions(AnimationPlayableExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableExtensions(AnimationPlayableExtensions const&) = delete;
+  AnimationPlayableExtensions(AnimationPlayableExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20251 };

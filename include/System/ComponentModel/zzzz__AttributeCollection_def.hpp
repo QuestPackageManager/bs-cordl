@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\AttributeCollection.hpp"
+// IWYU pragma private; include "System/ComponentModel/AttributeCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,8 @@ public:
   // @brief default ctor
   constexpr AttributeCollection_AttributeEntry();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr AttributeCollection_AttributeEntry(::System::Type* type, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -84,6 +85,7 @@ static_assert(offsetof(::System::ComponentModel::AttributeCollection_AttributeEn
 static_assert(sizeof(::System::ComponentModel::AttributeCollection_AttributeEntry) == 0x10, "Size mismatch!");
 
 } // namespace System::ComponentModel
+// [DefaultMember("Item")]
 // Dependencies System.Attribute, System.ComponentModel.AttributeCollection::AttributeEntry, System.Object
 namespace System::ComponentModel {
 // Is value type: false
@@ -142,7 +144,7 @@ public:
   /// @brief Method GetEnumerator, addr 0x63b6358, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  static inline ::System::ComponentModel::AttributeCollection* New_ctor(::ArrayW<::System::Attribute*> attributes);
+  static inline ::System::ComponentModel::AttributeCollection* New_ctor(/* [ParamArray] */ ::ArrayW<::System::Attribute*> attributes);
 
   /// @brief Method System.Collections.ICollection.get_Count, addr 0x63b638c, size 0x24, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
@@ -175,7 +177,7 @@ public:
   constexpr void __cordl_internal_set__index(int32_t value);
 
   /// @brief Method .ctor, addr 0x63b5778, size 0x13c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::Attribute*> attributes);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Attribute*> attributes);
 
   static inline ::System::ComponentModel::AttributeCollection* getStaticF_Empty();
 
@@ -210,13 +212,13 @@ protected:
   constexpr AttributeCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttributeCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AttributeCollection(AttributeCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttributeCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AttributeCollection(AttributeCollection const&) = delete;
+  AttributeCollection(AttributeCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11240 };

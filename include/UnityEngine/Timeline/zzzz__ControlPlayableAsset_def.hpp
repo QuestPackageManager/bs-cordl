@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\ControlPlayableAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/ControlPlayableAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,6 +94,7 @@ MARK_REF_T(::UnityEngine::Timeline::ControlPlayableAsset*);
 MARK_REF_T(::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::ControlPlayableAsset*, "UnityEngine.Timeline", "ControlPlayableAsset");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*, "UnityEngine.Timeline", "ControlPlayableAsset/<GetControlableScripts>d__40");
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.MonoBehaviour
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -145,23 +146,30 @@ public:
   /// @brief Method MoveNext, addr 0x69c46f8, size 0x144, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator, addr 0x69c4884, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* System_Collections_Generic_IEnumerable_UnityEngine_MonoBehaviour__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current, addr 0x69c483c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::MonoBehaviour> System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69c491c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69c4844, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69c487c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69c46f4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -207,6 +215,7 @@ public:
 
   constexpr void __cordl_internal_set_root(::UnityW<::UnityEngine::GameObject> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69c2f08, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -231,13 +240,13 @@ protected:
   constexpr ControlPlayableAsset__GetControlableScripts_d__40();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset__GetControlableScripts_d__40", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset__GetControlableScripts_d__40", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControlPlayableAsset__GetControlableScripts_d__40(ControlPlayableAsset__GetControlableScripts_d__40&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset__GetControlableScripts_d__40", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset__GetControlableScripts_d__40", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControlPlayableAsset__GetControlableScripts_d__40(ControlPlayableAsset__GetControlableScripts_d__40 const&) = delete;
+  ControlPlayableAsset__GetControlableScripts_d__40(ControlPlayableAsset__GetControlableScripts_d__40const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19196 };
@@ -283,6 +292,7 @@ static_assert(offsetof(::UnityEngine::Timeline::ControlPlayableAsset__GetControl
 static_assert(sizeof(::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [NotKeyable]
 // Dependencies UnityEngine.ExposedReference`1<T>, UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.ActivationControlPlayable::PostPlaybackState,
 // UnityEngine.Timeline.DirectorControlPlayable::PauseAction
 namespace UnityEngine::Timeline {
@@ -395,6 +405,7 @@ public:
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Collections::Generic::IList_1<T>* GetComponent(::UnityEngine::GameObject* gameObject);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.Timeline.ControlPlayableAsset::<GetControlableScripts>d__40))]
   /// @brief Method GetControlableScripts, addr 0x69c25ac, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>* GetControlableScripts(::UnityEngine::GameObject* root);
 
@@ -548,9 +559,11 @@ public:
   /// @brief Method get_clipCaps, addr 0x69c087c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
+  /// [CompilerGenerated]
   /// @brief Method get_controllingDirectors, addr 0x69c0800, size 0x8, virtual false, abstract: false, final false
   inline bool get_controllingDirectors();
 
+  /// [CompilerGenerated]
   /// @brief Method get_controllingParticles, addr 0x69c0810, size 0x8, virtual false, abstract: false, final false
   inline bool get_controllingParticles();
 
@@ -573,9 +586,11 @@ public:
 
   static inline void setStaticF_s_SubEmitterCollector(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_controllingDirectors, addr 0x69c0808, size 0x8, virtual false, abstract: false, final false
   inline void set_controllingDirectors(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_controllingParticles, addr 0x69c0818, size 0x8, virtual false, abstract: false, final false
   inline void set_controllingParticles(bool value);
 
@@ -585,13 +600,13 @@ protected:
   constexpr ControlPlayableAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControlPlayableAsset(ControlPlayableAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlPlayableAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControlPlayableAsset(ControlPlayableAsset const&) = delete;
+  ControlPlayableAsset(ControlPlayableAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19197 };
@@ -599,33 +614,43 @@ public:
   /// @brief Field k_MaxRandInt offset 0xffffffff size 0x4
   static constexpr int32_t k_MaxRandInt{ static_cast<int32_t>(0x2710) };
 
+  /// [SerializeField]
   /// @brief Field sourceGameObject, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::GameObject>> ___sourceGameObject;
 
+  /// [SerializeField]
   /// @brief Field prefabGameObject, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___prefabGameObject;
 
+  /// [SerializeField]
   /// @brief Field updateParticle, offset: 0x30, size: 0x1, def value: None
   bool ___updateParticle;
 
+  /// [SerializeField]
   /// @brief Field particleRandomSeed, offset: 0x34, size: 0x4, def value: None
   uint32_t ___particleRandomSeed;
 
+  /// [SerializeField]
   /// @brief Field updateDirector, offset: 0x38, size: 0x1, def value: None
   bool ___updateDirector;
 
+  /// [SerializeField]
   /// @brief Field updateITimeControl, offset: 0x39, size: 0x1, def value: None
   bool ___updateITimeControl;
 
+  /// [SerializeField]
   /// @brief Field searchHierarchy, offset: 0x3a, size: 0x1, def value: None
   bool ___searchHierarchy;
 
+  /// [SerializeField]
   /// @brief Field active, offset: 0x3b, size: 0x1, def value: None
   bool ___active;
 
+  /// [SerializeField]
   /// @brief Field postPlayback, offset: 0x3c, size: 0x4, def value: None
   ::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState ___postPlayback;
 
+  /// [SerializeField]
   /// @brief Field directorOnClipEnd, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::Timeline::DirectorControlPlayable_PauseAction ___directorOnClipEnd;
 
@@ -638,9 +663,11 @@ public:
   /// @brief Field m_SupportLoop, offset: 0x58, size: 0x1, def value: None
   bool ___m_SupportLoop;
 
+  /// [CompilerGenerated]
   /// @brief Field <controllingDirectors>k__BackingField, offset: 0x59, size: 0x1, def value: None
   bool ____controllingDirectors_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <controllingParticles>k__BackingField, offset: 0x5a, size: 0x1, def value: None
   bool ____controllingParticles_k__BackingField;
 

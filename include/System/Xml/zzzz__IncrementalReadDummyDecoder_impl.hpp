@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\IncrementalReadDummyDecoder.hpp"
+// IWYU pragma private; include "System/Xml/IncrementalReadDummyDecoder.hpp"
 #include "System/Xml/zzzz__IncrementalReadDecoder_impl.hpp"
 #include "System/Xml/zzzz__IncrementalReadDummyDecoder_def.hpp"
 #include "System/zzzz__Array_def.hpp"

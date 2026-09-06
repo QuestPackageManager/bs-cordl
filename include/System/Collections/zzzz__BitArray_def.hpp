@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\BitArray.hpp"
+// IWYU pragma private; include "System/Collections/BitArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,13 +120,13 @@ protected:
   constexpr BitArray_BitArrayEnumeratorSimple();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitArray_BitArrayEnumeratorSimple", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitArray_BitArrayEnumeratorSimple", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitArray_BitArrayEnumeratorSimple(BitArray_BitArrayEnumeratorSimple&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitArray_BitArrayEnumeratorSimple", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitArray_BitArrayEnumeratorSimple", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitArray_BitArrayEnumeratorSimple(BitArray_BitArrayEnumeratorSimple const&) = delete;
+  BitArray_BitArrayEnumeratorSimple(BitArray_BitArrayEnumeratorSimpleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3719 };
@@ -157,6 +157,7 @@ static_assert(offsetof(::System::Collections::BitArray_BitArrayEnumeratorSimple,
 static_assert(sizeof(::System::Collections::BitArray_BitArrayEnumeratorSimple) == 0x28, "Size mismatch!");
 
 } // namespace System::Collections
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
@@ -296,13 +297,13 @@ protected:
   constexpr BitArray();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitArray", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitArray", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitArray(BitArray&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitArray", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BitArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BitArray(BitArray const&) = delete;
+  BitArray(BitArrayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3720 };

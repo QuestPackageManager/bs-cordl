@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssemblyVersion.hpp"
+// IWYU pragma private; include "UnityEngine/AssemblyVersion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,8 @@ struct AssemblyVersion;
 // Write type traits
 MARK_VAL_T(::UnityEngine::AssemblyVersion);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AssemblyVersion, "UnityEngine", "AssemblyVersion");
+// [NativeHeader("Runtime/Mono/AssemblyFullName.h")]
+// [RequiredByNativeCode(GenerateProxy = true)]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -40,8 +42,8 @@ public:
   // @brief default ctor
   constexpr AssemblyVersion();
 
-  // Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "build",
-  // ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "revision", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "major", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "build", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "revision", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr AssemblyVersion(uint16_t major, uint16_t minor, uint16_t build, uint16_t revision) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

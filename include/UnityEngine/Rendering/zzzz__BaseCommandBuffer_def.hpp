@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BaseCommandBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BaseCommandBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,18 +43,28 @@ public:
   static inline ::UnityEngine::Rendering::BaseCommandBuffer* New_ctor(::UnityEngine::Rendering::CommandBuffer* wrapped, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* executingPass,
                                                                       bool isAsync);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ThrowIfGlobalStateNotAllowed, addr 0x674e51c, size 0x78, virtual false, abstract: false, final false
   inline void ThrowIfGlobalStateNotAllowed();
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ThrowIfRasterNotAllowed, addr 0x674e594, size 0x94, virtual false, abstract: false, final false
   inline void ThrowIfRasterNotAllowed();
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ValidateTextureHandle, addr 0x674e628, size 0x1e0, virtual false, abstract: false, final false
   inline void ValidateTextureHandle(::UnityEngine::Rendering::RenderGraphModule::TextureHandle h);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ValidateTextureHandleRead, addr 0x674e808, size 0x18c, virtual false, abstract: false, final false
   inline void ValidateTextureHandleRead(::UnityEngine::Rendering::RenderGraphModule::TextureHandle h);
 
+  /// [Conditional("DEVELOPMENT_BUILD")]
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method ValidateTextureHandleWrite, addr 0x674e994, size 0x1f4, virtual false, abstract: false, final false
   inline void ValidateTextureHandleWrite(::UnityEngine::Rendering::RenderGraphModule::TextureHandle h);
 
@@ -85,13 +95,13 @@ protected:
   constexpr BaseCommandBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseCommandBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseCommandBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseCommandBuffer(BaseCommandBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseCommandBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseCommandBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseCommandBuffer(BaseCommandBuffer const&) = delete;
+  BaseCommandBuffer(BaseCommandBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11870 };

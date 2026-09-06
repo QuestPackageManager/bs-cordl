@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\UnixIPGlobalPropertiesFactoryPal.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/UnixIPGlobalPropertiesFactoryPal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ public:
 
   static inline bool getStaticF__PlatformNeedsLibCWorkaround_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PlatformNeedsLibCWorkaround, addr 0x6357090, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_PlatformNeedsLibCWorkaround();
 
@@ -41,13 +42,13 @@ protected:
   constexpr UnixIPGlobalPropertiesFactoryPal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnixIPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnixIPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnixIPGlobalPropertiesFactoryPal(UnixIPGlobalPropertiesFactoryPal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnixIPGlobalPropertiesFactoryPal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnixIPGlobalPropertiesFactoryPal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnixIPGlobalPropertiesFactoryPal(UnixIPGlobalPropertiesFactoryPal const&) = delete;
+  UnixIPGlobalPropertiesFactoryPal(UnixIPGlobalPropertiesFactoryPalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11713 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BitArray256.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BitArray256.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ struct BitArray256;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BitArray256);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::BitArray256, "UnityEngine.Rendering", "BitArray256");
+// [DefaultMember("Item")]
+// [DebuggerDisplay("{this.GetType().Name} {humanizedData}")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -104,8 +106,8 @@ public:
   // @brief default ctor
   constexpr BitArray256();
 
-  // Ctor Parameters [CppParam { name: "data1", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "data2", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "data3",
-  // ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "data4", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data1", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "data2", ty: "uint64_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "data3", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "data4", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr BitArray256(uint64_t data1, uint64_t data2, uint64_t data3, uint64_t data4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -114,15 +116,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [SerializeField]
   /// @brief Field data1, offset: 0x0, size: 0x8, def value: None
   uint64_t data1;
 
+  /// [SerializeField]
   /// @brief Field data2, offset: 0x8, size: 0x8, def value: None
   uint64_t data2;
 
+  /// [SerializeField]
   /// @brief Field data3, offset: 0x10, size: 0x8, def value: None
   uint64_t data3;
 
+  /// [SerializeField]
   /// @brief Field data4, offset: 0x18, size: 0x8, def value: None
   uint64_t data4;
 

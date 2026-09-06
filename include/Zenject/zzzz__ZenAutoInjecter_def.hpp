@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ZenAutoInjecter.hpp"
+// IWYU pragma private; include "Zenject/ZenAutoInjecter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   // @brief default ctor
   constexpr ZenAutoInjecter_ContainerSources();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ZenAutoInjecter_ContainerSources(int32_t value__) noexcept;
 
   /// @brief Field ProjectContext value: I32(1)
@@ -111,6 +111,7 @@ public:
   /// @brief Method Awake, addr 0x6e9e520, size 0x48, virtual false, abstract: false, final false
   inline void Awake();
 
+  /// [Inject]
   /// @brief Method Construct, addr 0x6e9e4e0, size 0x40, virtual false, abstract: false, final false
   inline void Construct();
 
@@ -134,6 +135,7 @@ public:
 
   constexpr void __cordl_internal_set__hasInjected(bool value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9e7d0, size 0x22c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -155,17 +157,18 @@ protected:
   constexpr ZenAutoInjecter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenAutoInjecter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenAutoInjecter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenAutoInjecter(ZenAutoInjecter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenAutoInjecter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenAutoInjecter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenAutoInjecter(ZenAutoInjecter const&) = delete;
+  ZenAutoInjecter(ZenAutoInjecterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14714 };
 
+  /// [SerializeField]
   /// @brief Field _containerSource, offset: 0x20, size: 0x4, def value: None
   ::Zenject::ZenAutoInjecter_ContainerSources ____containerSource;
 

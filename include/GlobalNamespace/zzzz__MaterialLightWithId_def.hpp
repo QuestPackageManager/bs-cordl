@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -169,41 +169,57 @@ protected:
   constexpr MaterialLightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialLightWithId(MaterialLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialLightWithId(MaterialLightWithId const&) = delete;
+  MaterialLightWithId(MaterialLightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19546 };
 
+  /// [SerializeField]
   /// @brief Field _meshRenderer, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
+  /// [SerializeField]
   /// @brief Field _setAlphaOnly, offset: 0x48, size: 0x1, def value: None
   bool ____setAlphaOnly;
 
+  /// [SerializeField]
+  /// [DrawIf("_setAlphaOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _alphaIntoColor, offset: 0x49, size: 0x1, def value: None
   bool ____alphaIntoColor;
 
+  /// [SerializeField]
+  /// [DrawIf("_setAlphaOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _setColorOnly, offset: 0x4a, size: 0x1, def value: None
   bool ____setColorOnly;
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromRenderer("_meshRenderer", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)1)]
   /// @brief Field _colorProperty, offset: 0x50, size: 0x8, def value: None
   ::StringW ____colorProperty;
 
+  /// [SerializeField]
+  /// [DrawIf("_setColorOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _alphaIntensity, offset: 0x58, size: 0x4, def value: None
   float_t ____alphaIntensity;
 
+  /// [SerializeField]
+  /// [DrawIf("_setAlphaOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _multiplyColorWithAlpha, offset: 0x5c, size: 0x1, def value: None
   bool ____multiplyColorWithAlpha;
 
+  /// [SerializeField]
+  /// [DrawIf("_setAlphaOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _multiplyColor, offset: 0x5d, size: 0x1, def value: None
   bool ____multiplyColor;
 
+  /// [SerializeField]
+  /// [DrawIf("_multiplyColor", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _colorMultiplier, offset: 0x60, size: 0x4, def value: None
   float_t ____colorMultiplier;
 

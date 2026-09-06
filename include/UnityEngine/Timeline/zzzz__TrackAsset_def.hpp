@@ -1,15 +1,18 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TrackAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TrackAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableAsset_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "UnityEngine/Timeline/zzzz__DiscreteTime_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IMarker_def.hpp"
 #include "UnityEngine/Timeline/zzzz__MarkerList_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -83,7 +86,9 @@ namespace UnityEngine::Timeline {
 class IPropertyPreview;
 }
 namespace UnityEngine::Timeline {
-template <typename T> class IntervalTree_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IInterval*>)
+class IntervalTree_1;
 }
 namespace UnityEngine::Timeline {
 class RuntimeElement;
@@ -190,7 +195,7 @@ public:
   // @brief default ctor
   constexpr TrackAsset_Versions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackAsset_Versions(int32_t value__) noexcept;
 
   /// @brief Field AnimatedTrackProperties value: I32(3)
@@ -235,13 +240,13 @@ protected:
   constexpr TrackAsset_TrackAssetUpgrade();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset_TrackAssetUpgrade", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset_TrackAssetUpgrade", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackAsset_TrackAssetUpgrade(TrackAsset_TrackAssetUpgrade&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset_TrackAssetUpgrade", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset_TrackAssetUpgrade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackAsset_TrackAssetUpgrade(TrackAsset_TrackAssetUpgrade const&) = delete;
+  TrackAsset_TrackAssetUpgrade(TrackAsset_TrackAssetUpgradeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19181 };
@@ -269,9 +274,9 @@ public:
   // @brief default ctor
   constexpr TrackAsset_TransientBuildData();
 
-  // Ctor Parameters [CppParam { name: "trackList", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*", modifiers: "", def_value: None }, CppParam { name:
-  // "clipList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*", modifiers: "", def_value: None }, CppParam { name: "markerList", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "trackList", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "clipList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "markerList",
+  // ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*", modifiers: "", def_value: None, comment: None }]
   constexpr TrackAsset_TransientBuildData(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* trackList,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* clipList,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* markerList) noexcept;
@@ -303,6 +308,7 @@ static_assert(offsetof(::UnityEngine::Timeline::TrackAsset_TransientBuildData, m
 static_assert(sizeof(::UnityEngine::Timeline::TrackAsset_TransientBuildData) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -338,13 +344,13 @@ protected:
   constexpr TrackAsset___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackAsset___c(TrackAsset___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackAsset___c(TrackAsset___c const&) = delete;
+  TrackAsset___c(TrackAsset___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19183 };
@@ -355,6 +361,7 @@ public:
 static_assert(sizeof(::UnityEngine::Timeline::TrackAsset___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Playables.PlayableBinding
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -397,23 +404,30 @@ public:
   /// @brief Method MoveNext, addr 0x69bf07c, size 0x250, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Timeline::TrackAsset__get_outputs_d__65* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x69bf378, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x69bf2cc, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69bf410, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69bf2dc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69bf314, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69bf078, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -441,6 +455,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69b9a3c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -467,13 +482,13 @@ protected:
   constexpr TrackAsset__get_outputs_d__65();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset__get_outputs_d__65", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset__get_outputs_d__65", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackAsset__get_outputs_d__65(TrackAsset__get_outputs_d__65&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset__get_outputs_d__65", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset__get_outputs_d__65", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackAsset__get_outputs_d__65(TrackAsset__get_outputs_d__65 const&) = delete;
+  TrackAsset__get_outputs_d__65(TrackAsset__get_outputs_d__65const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19184 };
@@ -504,8 +519,9 @@ static_assert(offsetof(::UnityEngine::Timeline::TrackAsset__get_outputs_d__65, _
 static_assert(sizeof(::UnityEngine::Timeline::TrackAsset__get_outputs_d__65) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
-// Dependencies System.Nullable`1<T>, UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.DiscreteTime, UnityEngine.Timeline.MarkerList, UnityEngine.Timeline.TimelineClip,
-// UnityEngine.Timeline.TrackAsset::TransientBuildData
+// [IgnoreOnPlayableTrack]
+// Dependencies System.Nullable`1<T>, UnityEngine.Playables.IPlayableAsset, UnityEngine.Playables.PlayableAsset, UnityEngine.ScriptableObject, UnityEngine.Timeline.DiscreteTime,
+// UnityEngine.Timeline.IMarker, UnityEngine.Timeline.MarkerList, UnityEngine.Timeline.TimelineClip, UnityEngine.Timeline.TrackAsset::TransientBuildData
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: UnityEngine.Timeline.TrackAsset
@@ -695,7 +711,9 @@ public:
   inline ::UnityEngine::Timeline::TimelineClip* CreateAndAddNewClipOfType(::System::Type* requestedType);
 
   /// @brief Method CreateClip, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::UnityEngine::Timeline::TimelineClip* CreateClip();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableAsset*>)
+  inline ::UnityEngine::Timeline::TimelineClip* CreateClip();
 
   /// @brief Method CreateClip, addr 0x69babb4, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateClip(::System::Type* requestedType);
@@ -719,7 +737,9 @@ public:
   inline ::UnityEngine::Timeline::IMarker* CreateMarker(::System::Type* type, double_t time);
 
   /// @brief Method CreateMarker, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T CreateMarker(double_t time);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ScriptableObject*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Timeline::IMarker*>)
+  inline T CreateMarker(double_t time);
 
   /// @brief Method CreateMixerPlayableGraph, addr 0x69bd3ec, size 0x5fc, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateMixerPlayableGraph(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go,
@@ -982,9 +1002,11 @@ public:
   /// @brief Method .ctor, addr 0x69acab4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnClipPlayableCreate, addr 0x69b929c, size 0x108, virtual false, abstract: false, final false
   static inline void add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnTrackAnimationPlayableCreate, addr 0x69b94ac, size 0x108, virtual false, abstract: false, final false
   static inline void
   add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
@@ -1038,6 +1060,7 @@ public:
   /// @brief Method get_mutedInHierarchy, addr 0x69b69c0, size 0x1c0, virtual false, abstract: false, final false
   inline bool get_mutedInHierarchy();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.Timeline.TrackAsset::<get_outputs>d__65))]
   /// @brief Method get_outputs, addr 0x69b99cc, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
@@ -1065,9 +1088,11 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::IPropertyPreview"
   constexpr ::UnityEngine::Timeline::IPropertyPreview* i___UnityEngine__Timeline__IPropertyPreview() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnClipPlayableCreate, addr 0x69b93a4, size 0x108, virtual false, abstract: false, final false
   static inline void remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnTrackAnimationPlayableCreate, addr 0x69b95b4, size 0x108, virtual false, abstract: false, final false
   static inline void
   remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
@@ -1104,13 +1129,13 @@ protected:
   constexpr TrackAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackAsset(TrackAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackAsset(TrackAsset const&) = delete;
+  TrackAsset(TrackAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19185 };
@@ -1121,27 +1146,45 @@ public:
   /// @brief Field k_LatestVersion offset 0xffffffff size 0x4
   static constexpr int32_t k_LatestVersion{ static_cast<int32_t>(0x3) };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_Version;
 
+  /// [Obsolete("Please use m_InfiniteClip (on AnimationTrack) instead.", false)]
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// [FormerlySerializedAs("m_animClip")]
   /// @brief Field m_AnimClip, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ___m_AnimClip;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Locked, offset: 0x28, size: 0x1, def value: None
   bool ___m_Locked;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Muted, offset: 0x29, size: 0x1, def value: None
   bool ___m_Muted;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_CustomPlayableFullTypename, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_CustomPlayableFullTypename;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Curves, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ___m_Curves;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Parent, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableAsset> ___m_Parent;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Children, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* ___m_Children;
 
@@ -1166,9 +1209,13 @@ public:
   /// @brief Field m_ChildTrackCache, offset: 0x78, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* ___m_ChildTrackCache;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Clips, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* ___m_Clips;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Markers, offset: 0x88, size: 0x18, def value: None
   ::UnityEngine::Timeline::MarkerList ___m_Markers;
 

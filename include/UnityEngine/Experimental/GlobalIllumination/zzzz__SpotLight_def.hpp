@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\SpotLight.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/SpotLight.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,14 +32,15 @@ public:
   // @brief default ctor
   constexpr SpotLight();
 
-  // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode",
-  // ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
-  // CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor",
-  // modifiers: "", def_value: None }, CppParam { name: "indirectColor", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "range",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "sphereRadius", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "coneAngle", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "innerConeAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "falloff", ty:
-  // "::UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: None }, CppParam { name: "angularFalloff", ty:
-  // "::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectColor", ty:
+  // "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None, comment: None }, CppParam { name: "range", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "sphereRadius", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "coneAngle", ty: "float_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "innerConeAngle", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "falloff", ty:
+  // "::UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: None, comment: None }, CppParam { name: "angularFalloff", ty:
+  // "::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType", modifiers: "", def_value: None, comment: None }]
   constexpr SpotLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
                       ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range,
                       float_t sphereRadius, float_t coneAngle, float_t innerConeAngle, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff,

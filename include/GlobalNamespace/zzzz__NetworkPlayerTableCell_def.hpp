@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkPlayerTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkPlayerTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -171,44 +171,54 @@ protected:
   constexpr NetworkPlayerTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkPlayerTableCell(NetworkPlayerTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerTableCell(NetworkPlayerTableCell const&) = delete;
+  NetworkPlayerTableCell(NetworkPlayerTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6395 };
 
+  /// [SerializeField]
   /// @brief Field _playerNameText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
 
+  /// [SerializeField]
   /// @brief Field _separator, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____separator;
 
+  /// [SerializeField]
   /// @brief Field _privateIcon, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____privateIcon;
 
+  /// [SerializeField]
   /// @brief Field _spectateIcon, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____spectateIcon;
 
+  /// [SerializeField]
   /// @brief Field _partyLeaderIcon, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____partyLeaderIcon;
 
+  /// [SerializeField]
   /// @brief Field _bgImage, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
+  /// [SerializeField]
   /// @brief Field _highlightImage, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____highlightImage;
 
+  /// [SerializeField]
   /// @brief Field _textColorNormal, offset: 0xb0, size: 0x10, def value: None
   ::UnityEngine::Color ____textColorNormal;
 
+  /// [SerializeField]
   /// @brief Field _textColorMe, offset: 0xc0, size: 0x10, def value: None
   ::UnityEngine::Color ____textColorMe;
 
+  /// [SerializeField]
   /// @brief Field _textColorSelected, offset: 0xd0, size: 0x10, def value: None
   ::UnityEngine::Color ____textColorSelected;
 

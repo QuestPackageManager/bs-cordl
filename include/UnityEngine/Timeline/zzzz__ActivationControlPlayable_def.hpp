@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\ActivationControlPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/ActivationControlPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,10 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+struct ScriptPlayable_1;
 }
 namespace UnityEngine::Timeline {
 struct ActivationControlPlayable_InitialState;
@@ -78,7 +81,7 @@ public:
   // @brief default ctor
   constexpr ActivationControlPlayable_PostPlaybackState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ActivationControlPlayable_PostPlaybackState(int32_t value__) noexcept;
 
   /// @brief Field Active value: I32(0)
@@ -137,7 +140,7 @@ public:
   // @brief default ctor
   constexpr ActivationControlPlayable_InitialState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ActivationControlPlayable_InitialState(int32_t value__) noexcept;
 
   /// @brief Field Active value: I32(1)
@@ -234,13 +237,13 @@ protected:
   constexpr ActivationControlPlayable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActivationControlPlayable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActivationControlPlayable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActivationControlPlayable(ActivationControlPlayable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActivationControlPlayable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActivationControlPlayable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActivationControlPlayable(ActivationControlPlayable const&) = delete;
+  ActivationControlPlayable(ActivationControlPlayableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19225 };

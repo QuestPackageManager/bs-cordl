@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Resolution.hpp"
+// IWYU pragma private; include "UnityEngine/Resolution.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ struct Resolution;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Resolution);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Resolution, "UnityEngine", "Resolution");
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.RefreshRate
 namespace UnityEngine {
 // Is value type: true
@@ -47,8 +48,8 @@ public:
   // @brief default ctor
   constexpr Resolution();
 
-  // Ctor Parameters [CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_RefreshRate", ty: "::UnityEngine::RefreshRate", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Width", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_RefreshRate", ty: "::UnityEngine::RefreshRate", modifiers: "", def_value: None, comment: None }]
   constexpr Resolution(int32_t m_Width, int32_t m_Height, ::UnityEngine::RefreshRate m_RefreshRate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

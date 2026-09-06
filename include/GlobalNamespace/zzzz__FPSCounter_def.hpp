@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FPSCounter.hpp"
+// IWYU pragma private; include "GlobalNamespace/FPSCounter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,27 +103,35 @@ public:
   /// @brief Method .ctor, addr 0x5852050, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentFPS, addr 0x5851f30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentFPS();
 
+  /// [CompilerGenerated]
   /// @brief Method get_droppedFrames, addr 0x5851f60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_droppedFrames();
 
+  /// [CompilerGenerated]
   /// @brief Method get_highestFPS, addr 0x5851f50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_highestFPS();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lowestFPS, addr 0x5851f40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lowestFPS();
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentFPS, addr 0x5851f38, size 0x8, virtual false, abstract: false, final false
   inline void set_currentFPS(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_droppedFrames, addr 0x5851f68, size 0x8, virtual false, abstract: false, final false
   inline void set_droppedFrames(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_highestFPS, addr 0x5851f58, size 0x8, virtual false, abstract: false, final false
   inline void set_highestFPS(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lowestFPS, addr 0x5851f48, size 0x8, virtual false, abstract: false, final false
   inline void set_lowestFPS(int32_t value);
 
@@ -133,26 +141,30 @@ protected:
   constexpr FPSCounter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FPSCounter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FPSCounter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FPSCounter(FPSCounter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FPSCounter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FPSCounter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FPSCounter(FPSCounter const&) = delete;
+  FPSCounter(FPSCounterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22760 };
 
+  /// [CompilerGenerated]
   /// @brief Field <currentFPS>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____currentFPS_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <lowestFPS>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t ____lowestFPS_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <highestFPS>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____highestFPS_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <droppedFrames>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____droppedFrames_k__BackingField;
 

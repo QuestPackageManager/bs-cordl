@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IL2CPP\Metadata\__Il2CppFullySharedGenericStructType.hpp"
+// IWYU pragma private; include "Unity/IL2CPP/Metadata/__Il2CppFullySharedGenericStructType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT

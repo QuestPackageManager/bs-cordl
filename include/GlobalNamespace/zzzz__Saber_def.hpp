@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Saber.hpp"
+// IWYU pragma private; include "GlobalNamespace/Saber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class Saber;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::Saber*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::Saber*, "", "Saber");
+// [AddComponentMenu("Beat Saber/Gameplay/Saber")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -200,29 +201,34 @@ protected:
   constexpr Saber();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Saber", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Saber", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Saber(Saber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Saber", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Saber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Saber(Saber const&) = delete;
+  Saber(Saberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6227 };
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 
+  /// [SerializeField]
   /// @brief Field _saberBladeTopTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____saberBladeTopTransform;
 
+  /// [SerializeField]
   /// @brief Field _saberBladeBottomTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____saberBladeBottomTransform;
 
+  /// [SerializeField]
   /// @brief Field _handleTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____handleTransform;
 
+  /// [SerializeField]
   /// @brief Field _saberType, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saberType;
 

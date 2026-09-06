@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\WriteOnlyAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/WriteOnlyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class WriteOnlyAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::WriteOnlyAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::WriteOnlyAttribute*, "Unity.Collections", "WriteOnlyAttribute");
+// [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)10496)]
 // Dependencies System.Attribute
 namespace Unity::Collections {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr WriteOnlyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WriteOnlyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WriteOnlyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WriteOnlyAttribute(WriteOnlyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WriteOnlyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WriteOnlyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WriteOnlyAttribute(WriteOnlyAttribute const&) = delete;
+  WriteOnlyAttribute(WriteOnlyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9985 };

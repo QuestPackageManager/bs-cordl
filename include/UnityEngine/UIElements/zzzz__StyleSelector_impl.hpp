@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSelector.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSelector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorPart_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorRelationship_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Bone.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Bone.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__Bone_def.hpp"
@@ -107,8 +107,8 @@ inline void UnityEngine::InputSystem::XR::Bone::set_rotation(::UnityEngine::Quat
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::Bone>(), { "set_rotation", {}, { ::i2c::type_of<::UnityEngine::Quaternion>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_ParentBoneIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ParentBoneIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XR::Bone::Bone(uint32_t m_ParentBoneIndex, ::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation) noexcept {
   this->m_ParentBoneIndex = m_ParentBoneIndex;
   this->m_Position = m_Position;

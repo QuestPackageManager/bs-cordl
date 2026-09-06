@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugRenderSetup.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugRenderSetup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FilteringSettings_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugRenderSetup_def.hpp"

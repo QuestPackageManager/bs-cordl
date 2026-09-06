@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RendererListParams.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RendererListParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,11 +93,12 @@ public:
   // @brief default ctor
   constexpr RendererListParams();
 
-  // Ctor Parameters [CppParam { name: "cullingResults", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: None }, CppParam { name: "drawSettings", ty:
-  // "::UnityEngine::Rendering::DrawingSettings", modifiers: "", def_value: None }, CppParam { name: "filteringSettings", ty: "::UnityEngine::Rendering::FilteringSettings", modifiers: "", def_value:
-  // None }, CppParam { name: "tagName", ty: "::UnityEngine::Rendering::ShaderTagId", modifiers: "", def_value: None }, CppParam { name: "isPassTagName", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "tagValues", ty: "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShaderTagId>>", modifiers: "", def_value: None }, CppParam { name:
-  // "stateBlocks", ty: "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::RenderStateBlock>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cullingResults", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawSettings", ty:
+  // "::UnityEngine::Rendering::DrawingSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "filteringSettings", ty: "::UnityEngine::Rendering::FilteringSettings", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "tagName", ty: "::UnityEngine::Rendering::ShaderTagId", modifiers: "", def_value: None, comment: None }, CppParam { name: "isPassTagName",
+  // ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "tagValues", ty: "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShaderTagId>>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "stateBlocks", ty: "::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::RenderStateBlock>>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr RendererListParams(::UnityEngine::Rendering::CullingResults cullingResults, ::UnityEngine::Rendering::DrawingSettings drawSettings,
                                ::UnityEngine::Rendering::FilteringSettings filteringSettings, ::UnityEngine::Rendering::ShaderTagId tagName, bool isPassTagName,
                                ::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShaderTagId>> tagValues,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjectiveStyleSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveStyleSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveStyleSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorStyleSO_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AndroidJNIHelper.hpp"
+// IWYU pragma private; include "UnityEngine/AndroidJNIHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,10 @@ class AndroidJNIHelper;
 // Write type traits
 MARK_REF_T(::UnityEngine::AndroidJNIHelper*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AndroidJNIHelper*, "UnityEngine", "AndroidJNIHelper");
+// [StaticAccessor("AndroidJNIBindingsHelpers", (UnityEngine.Bindings.StaticAccessorType)2)]
+// [UsedByNativeCode]
+// [NativeHeader("Modules/AndroidJNI/Public/AndroidJNIBindingsHelpers.h")]
+// [NativeConditional("PLATFORM_ANDROID")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -99,7 +103,7 @@ public:
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr javaClass);
 
   /// @brief Method GetConstructorID, addr 0x6a1f088, size 0x68, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetConstructorID(::System::IntPtr javaClass, ::StringW signature);
+  static inline ::System::IntPtr GetConstructorID(::System::IntPtr javaClass, /* [DefaultValue("")] */ ::StringW signature);
 
   /// @brief Method GetConstructorID, addr 0x6a212c8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr jclass, ::ArrayW<::System::Object*> args);
@@ -108,10 +112,10 @@ public:
   static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName);
 
   /// @brief Method GetFieldID, addr 0x6a1f6dc, size 0x8, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, ::StringW signature);
+  static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, /* [DefaultValue("")] */ ::StringW signature);
 
   /// @brief Method GetFieldID, addr 0x6a1f65c, size 0x80, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, ::StringW signature, bool isStatic);
+  static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, /* [DefaultValue("")] */ ::StringW signature, /* [DefaultValue("false")] */ bool isStatic);
 
   /// @brief Method GetFieldID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename FieldType> static inline ::System::IntPtr GetFieldID(::System::IntPtr jclass, ::StringW fieldName, bool isStatic);
@@ -120,10 +124,10 @@ public:
   static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName);
 
   /// @brief Method GetMethodID, addr 0x6a1f3cc, size 0x8, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName, ::StringW signature);
+  static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName, /* [DefaultValue("")] */ ::StringW signature);
 
   /// @brief Method GetMethodID, addr 0x6a1f34c, size 0x80, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName, ::StringW signature, bool isStatic);
+  static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName, /* [DefaultValue("")] */ ::StringW signature, /* [DefaultValue("false")] */ bool isStatic);
 
   /// @brief Method GetMethodID, addr 0x6a213a0, size 0x80, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::ArrayW<::System::Object*> args, bool isStatic);
@@ -179,13 +183,13 @@ protected:
   constexpr AndroidJNIHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJNIHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJNIHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidJNIHelper(AndroidJNIHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJNIHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidJNIHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidJNIHelper(AndroidJNIHelper const&) = delete;
+  AndroidJNIHelper(AndroidJNIHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20150 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BezierCurve.hpp"
+// IWYU pragma private; include "GlobalNamespace/BezierCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct BezierCurve;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::BezierCurve);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BezierCurve, "", "BezierCurve");
+// [IsReadOnly]
 // Dependencies UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
@@ -30,8 +31,9 @@ public:
   // @brief default ctor
   constexpr BezierCurve();
 
-  // Ctor Parameters [CppParam { name: "p0", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "p1", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
-  // CppParam { name: "p2", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "p3", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "p0", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "p1", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "p2", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "p3", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr BezierCurve(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

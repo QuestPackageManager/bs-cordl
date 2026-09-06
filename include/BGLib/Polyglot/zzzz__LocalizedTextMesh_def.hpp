@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\LocalizedTextMesh.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/LocalizedTextMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,10 @@ class LocalizedTextMesh;
 // Write type traits
 MARK_REF_T(::BGLib::Polyglot::LocalizedTextMesh*);
 DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::LocalizedTextMesh*, "BGLib.Polyglot", "LocalizedTextMesh");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [AddComponentMenu("Mesh/Localized TextMesh")]
+// [RequireComponent(typeof(UnityEngine.TextMesh))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace BGLib::Polyglot {
 // Is value type: false
@@ -93,20 +97,25 @@ protected:
   constexpr LocalizedTextMesh();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMesh", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMesh", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedTextMesh(LocalizedTextMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMesh", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextMesh(LocalizedTextMesh const&) = delete;
+  LocalizedTextMesh(LocalizedTextMeshconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22200 };
 
+  /// [Tooltip("The TextMesh component to localize")]
+  /// [SerializeField]
   /// @brief Field text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextMesh> ___text;
 
+  /// [Tooltip("The key to localize with")]
+  /// [SerializeField]
+  /// [LocalizationKey]
   /// @brief Field key, offset: 0x28, size: 0x8, def value: None
   ::StringW ___key;
 

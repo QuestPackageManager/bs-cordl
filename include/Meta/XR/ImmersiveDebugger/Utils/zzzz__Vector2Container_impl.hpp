@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Utils\Vector2Container.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Utils/Vector2Container.hpp"
 #include "Meta/XR/ImmersiveDebugger/Utils/zzzz__ValueContainer_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Utils/zzzz__Vector2Container_def.hpp"

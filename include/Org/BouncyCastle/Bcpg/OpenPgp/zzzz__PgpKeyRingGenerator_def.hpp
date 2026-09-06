@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpKeyRingGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpKeyRingGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,6 +120,7 @@ public:
                                                                                   ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
                                                                                   ::Org::BouncyCastle::Security::SecureRandom* rand);
 
+  /// @brief [Obsolete("Use version taking an explicit \'useSha1\' parameter instead")]
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator* New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id,
                                                                                   ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t> passPhrase,
                                                                                   ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
@@ -228,6 +229,7 @@ public:
                     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
                     ::Org::BouncyCastle::Security::SecureRandom* rand);
 
+  /// [Obsolete("Use version taking an explicit \'useSha1\' parameter instead")]
   /// @brief Method .ctor, addr 0x35843b4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
                     ::ArrayW<char16_t> passPhrase, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
@@ -254,13 +256,13 @@ protected:
   constexpr PgpKeyRingGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpKeyRingGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpKeyRingGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpKeyRingGenerator(PgpKeyRingGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpKeyRingGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpKeyRingGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpKeyRingGenerator(PgpKeyRingGenerator const&) = delete;
+  PgpKeyRingGenerator(PgpKeyRingGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1648 };

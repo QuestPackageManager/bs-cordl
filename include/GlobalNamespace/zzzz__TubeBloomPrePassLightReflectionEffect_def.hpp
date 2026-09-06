@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLightReflectionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLightReflectionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,13 +141,13 @@ protected:
   constexpr TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint(TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint(TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint const&) = delete;
+  TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint(TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPointconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5942 };
@@ -155,18 +155,27 @@ public:
   /// @brief Field light, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ___light;
 
+  /// [Header("Hit Point")]
   /// @brief Field showHitPoint, offset: 0x18, size: 0x1, def value: None
   bool ___showHitPoint;
 
+  /// [DrawIf("showHitPoint", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("showHitPoint", false, (NullAllowedContext)0)]
   /// @brief Field hitPointGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___hitPointGameObject;
 
+  /// [DrawIf("showHitPoint", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("showHitPoint", false, (NullAllowedContext)0)]
   /// @brief Field hitPointTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___hitPointTransform;
 
+  /// [DrawIf("showHitPoint", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("showHitPoint", false, (NullAllowedContext)0)]
   /// @brief Field hitPointLightWithId, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::InstancedMaterialLightWithId> ___hitPointLightWithId;
 
+  /// [DrawIf("showHitPoint", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowedIf("showHitPoint", false, (NullAllowedContext)0)]
   /// @brief Field hitPointDistanceToAlphaCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___hitPointDistanceToAlphaCurve;
 
@@ -273,26 +282,32 @@ protected:
   constexpr TubeBloomPrePassLightReflectionEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeBloomPrePassLightReflectionEffect(TubeBloomPrePassLightReflectionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLightReflectionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TubeBloomPrePassLightReflectionEffect(TubeBloomPrePassLightReflectionEffect const&) = delete;
+  TubeBloomPrePassLightReflectionEffect(TubeBloomPrePassLightReflectionEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5943 };
 
+  /// [Header("Lights")]
+  /// [SerializeField]
   /// @brief Field _mainTubeBloomPrePassLight, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint* ____mainTubeBloomPrePassLight;
 
+  /// [SerializeField]
   /// @brief Field _tubeBloomPrePassLightBounces, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint*> ____tubeBloomPrePassLightBounces;
 
+  /// [Header("Ray Settings")]
+  /// [SerializeField]
   /// @brief Field _environmentLayerMask, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____environmentLayerMask;
 
+  /// [Inject]
   /// @brief Field _environmentCollisionRepository, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentCollisionRepository* ____environmentCollisionRepository;
 

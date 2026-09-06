@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLConnectivityException.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLConnectivityException.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLException_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLConnectivityException_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLConnectivityException._ctor

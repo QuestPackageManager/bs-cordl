@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BufferedRTHandleSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BufferedRTHandleSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BufferedRTHandleSystem_def.hpp"
@@ -15,8 +15,8 @@
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 #include "UnityEngine/zzzz__TextureWrapMode_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::BufferedRTHandleSystem*", modifiers: "", def_value: Some("{}") }, CppParam { name: "format", ty:
-// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__4__this", ty: "::UnityEngine::Rendering::BufferedRTHandleSystem*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "format", ty:
+// "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0::BufferedRTHandleSystem___c__DisplayClass12_0(::UnityEngine::Rendering::BufferedRTHandleSystem* __4__this,
                                                                                                                                ::UnityEngine::Experimental::Rendering::GraphicsFormat format) noexcept {
   this->__4__this = __4__this;

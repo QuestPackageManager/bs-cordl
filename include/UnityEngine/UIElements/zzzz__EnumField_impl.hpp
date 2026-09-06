@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EnumField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EnumField.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/zzzz__EnumData_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EnumField_def.hpp"
@@ -584,7 +585,9 @@ inline bool UnityEngine::UIElements::EnumField::ContainsPointer(int32_t pointerI
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(), { "ContainsPointer", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pointerId);
 }
-template <typename T> inline void UnityEngine::UIElements::EnumField::ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::PointerEventBase_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::UIElements::EnumField::ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EnumField*>(),
                                                            { "ProcessPointerDown", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::UIElements::PointerEventBase_1<T>*>() } })));

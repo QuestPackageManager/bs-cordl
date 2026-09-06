@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\BlockExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/BlockExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class BlockExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::BlockExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::BlockExpression*, "System.Linq.Expressions", "BlockExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::BlockExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -42,6 +43,7 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE BlockExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
+  /// @brief [ExcludeFromCodeCoverage]
   __declspec(property(get = get_ExpressionCount)) int32_t ExpressionCount;
 
   __declspec(property(get = get_Expressions)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* Expressions;
@@ -55,9 +57,11 @@ public:
   /// @brief Method Accept, addr 0x5f78ca4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method GetExpression, addr 0x5f78d10, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression(int32_t index);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method GetOrMakeExpressions, addr 0x5f78d60, size 0x28, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* GetOrMakeExpressions();
 
@@ -70,6 +74,7 @@ public:
   static inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ReturnReadOnlyExpressions(::System::Linq::Expressions::BlockExpression* provider,
                                                                                                                                               ::by_ref<::System::Object*> collection);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method Rewrite, addr 0x5f78de4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*> args);
@@ -98,13 +103,13 @@ protected:
   constexpr BlockExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlockExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlockExpression(BlockExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlockExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlockExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlockExpression(BlockExpression const&) = delete;
+  BlockExpression(BlockExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16140 };

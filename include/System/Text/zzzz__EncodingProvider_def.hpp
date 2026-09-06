@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\EncodingProvider.hpp"
+// IWYU pragma private; include "System/Text/EncodingProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ public:
   /// @brief Field s_providers, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_providers, put = setStaticF_s_providers)) ::ArrayW<::System::Text::EncodingProvider*> s_providers;
 
-  /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetEncoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage);
 
   /// @brief Method GetEncoding, addr 0x5ad69f4, size 0x108, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage, ::System::Text::EncoderFallback* encoderFallback, ::System::Text::DecoderFallback* decoderFallback);
 
-  /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetEncoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::Encoding* GetEncoding(::StringW name);
 
   /// @brief Method GetEncodingFromProvider, addr 0x5ad6afc, size 0xdc, virtual false, abstract: false, final false
@@ -72,13 +72,13 @@ protected:
   constexpr EncodingProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncodingProvider(EncodingProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EncodingProvider(EncodingProvider const&) = delete;
+  EncodingProvider(EncodingProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2869 };

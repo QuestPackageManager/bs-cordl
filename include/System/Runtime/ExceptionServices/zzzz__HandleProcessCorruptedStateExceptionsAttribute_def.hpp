@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\ExceptionServices\HandleProcessCorruptedStateExceptionsAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/ExceptionServices/HandleProcessCorruptedStateExceptionsAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class HandleProcessCorruptedStateExceptionsAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*, "System.Runtime.ExceptionServices", "HandleProcessCorruptedStateExceptionsAttribute");
+// [AttributeUsage((System.AttributeTargets)64, AllowMultiple = false, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::ExceptionServices {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr HandleProcessCorruptedStateExceptionsAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HandleProcessCorruptedStateExceptionsAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandleProcessCorruptedStateExceptionsAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HandleProcessCorruptedStateExceptionsAttribute(HandleProcessCorruptedStateExceptionsAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HandleProcessCorruptedStateExceptionsAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HandleProcessCorruptedStateExceptionsAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HandleProcessCorruptedStateExceptionsAttribute(HandleProcessCorruptedStateExceptionsAttribute const&) = delete;
+  HandleProcessCorruptedStateExceptionsAttribute(HandleProcessCorruptedStateExceptionsAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3361 };

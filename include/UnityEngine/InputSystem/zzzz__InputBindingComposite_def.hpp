@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputBindingComposite.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputBindingComposite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::UnityEngine::InputSystem::InputBindingComposite*);
 MARK_REF_T(::UnityEngine::InputSystem::InputBindingComposite__GetPartNames_d__12*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputBindingComposite*, "UnityEngine.InputSystem", "InputBindingComposite");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputBindingComposite__GetPartNames_d__12*, "UnityEngine.InputSystem", "InputBindingComposite/<GetPartNames>d__12");
+// [CompilerGenerated]
 // Dependencies System.Object, System.Reflection.FieldInfo
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -100,23 +101,30 @@ public:
   /// @brief Method MoveNext, addr 0x650cfd4, size 0x1b0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::InputSystem::InputBindingComposite__GetPartNames_d__12* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x650d1cc, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x650d184, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x650d264, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x650d18c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x650d1c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x650cfd0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -162,6 +170,7 @@ public:
 
   constexpr void __cordl_internal_set_composite(::StringW value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x650cfb0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -186,13 +195,13 @@ protected:
   constexpr InputBindingComposite__GetPartNames_d__12();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite__GetPartNames_d__12", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite__GetPartNames_d__12", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputBindingComposite__GetPartNames_d__12(InputBindingComposite__GetPartNames_d__12&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite__GetPartNames_d__12", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite__GetPartNames_d__12", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputBindingComposite__GetPartNames_d__12(InputBindingComposite__GetPartNames_d__12 const&) = delete;
+  InputBindingComposite__GetPartNames_d__12(InputBindingComposite__GetPartNames_d__12const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8670 };
@@ -269,6 +278,7 @@ public:
   /// @brief Method GetExpectedControlLayoutName, addr 0x64f6de8, size 0x15c, virtual false, abstract: false, final false
   static inline ::StringW GetExpectedControlLayoutName(::StringW composite, ::StringW part);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.InputSystem.InputBindingComposite::<GetPartNames>d__12))]
   /// @brief Method GetPartNames, addr 0x64f6f44, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetPartNames(::StringW composite);
 
@@ -277,10 +287,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::InputBindingComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueAsObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ReadValueAsObject(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   /// @brief Method .ctor, addr 0x64f70b8, size 0x4, virtual false, abstract: false, final false
@@ -288,10 +298,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Composites();
 
-  /// @brief Method get_valueSizeInBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method get_valueType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_valueType();
 
   static inline void setStaticF_s_Composites(::UnityEngine::InputSystem::Utilities::TypeTable value);
@@ -302,13 +312,13 @@ protected:
   constexpr InputBindingComposite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputBindingComposite(InputBindingComposite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputBindingComposite(InputBindingComposite const&) = delete;
+  InputBindingComposite(InputBindingCompositeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8671 };

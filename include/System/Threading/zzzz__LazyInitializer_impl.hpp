@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\LazyInitializer.hpp"
+// IWYU pragma private; include "System/Threading/LazyInitializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__LazyInitializer_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
@@ -17,26 +17,34 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::b
     return ___internal_method;
   }
 };
-template <typename T> inline T System::Threading::LazyInitializer::EnsureInitialized(::by_ref<T> target) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Threading::LazyInitializer::EnsureInitialized(::by_ref<T> target) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::LazyInitializer*>(), { "EnsureInitialized", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, target);
 }
-template <typename T> inline T System::Threading::LazyInitializer::EnsureInitializedCore(::by_ref<T> target) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Threading::LazyInitializer::EnsureInitializedCore(::by_ref<T> target) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::LazyInitializer*>(), { "EnsureInitializedCore", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, target);
 }
-template <typename T> inline T System::Threading::LazyInitializer::EnsureInitialized(::by_ref<T> target, ::System::Func_1<T>* valueFactory) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Threading::LazyInitializer::EnsureInitialized(::by_ref<T> target, ::System::Func_1<T>* valueFactory) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::LazyInitializer*>(),
                                                            { "EnsureInitialized", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::System::Func_1<T>*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, target, valueFactory);
 }
-template <typename T> inline T System::Threading::LazyInitializer::EnsureInitializedCore(::by_ref<T> target, ::System::Func_1<T>* valueFactory) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Threading::LazyInitializer::EnsureInitializedCore(::by_ref<T> target, ::System::Func_1<T>* valueFactory) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::LazyInitializer*>(),
                                                            { "EnsureInitializedCore", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::System::Func_1<T>*>() } })));
@@ -65,7 +73,9 @@ inline T System::Threading::LazyInitializer::EnsureInitializedCore(::by_ref<T> t
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, target, initialized, syncLock, valueFactory);
 }
-template <typename T> inline T System::Threading::LazyInitializer::EnsureInitialized(::by_ref<T> target, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Threading::LazyInitializer::EnsureInitialized(::by_ref<T> target, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -74,7 +84,9 @@ template <typename T> inline T System::Threading::LazyInitializer::EnsureInitial
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, target, syncLock, valueFactory);
 }
-template <typename T> inline T System::Threading::LazyInitializer::EnsureInitializedCore(::by_ref<T> target, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T System::Threading::LazyInitializer::EnsureInitializedCore(::by_ref<T> target, ::by_ref<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

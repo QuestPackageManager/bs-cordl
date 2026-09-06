@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\SignalReceiver.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/SignalReceiver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,20 +104,23 @@ protected:
   constexpr SignalReceiver_EventKeyValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver_EventKeyValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver_EventKeyValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalReceiver_EventKeyValue(SignalReceiver_EventKeyValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver_EventKeyValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver_EventKeyValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalReceiver_EventKeyValue(SignalReceiver_EventKeyValue const&) = delete;
+  SignalReceiver_EventKeyValue(SignalReceiver_EventKeyValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19217 };
 
+  /// [SerializeField]
   /// @brief Field m_Signals, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* ___m_Signals;
 
+  /// [SerializeField]
+  /// [CustomSignalEventDrawer]
   /// @brief Field m_Events, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* ___m_Events;
 
@@ -205,17 +208,18 @@ protected:
   constexpr SignalReceiver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalReceiver(SignalReceiver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalReceiver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalReceiver(SignalReceiver const&) = delete;
+  SignalReceiver(SignalReceiverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19218 };
 
+  /// [SerializeField]
   /// @brief Field m_Events, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Timeline::SignalReceiver_EventKeyValue* ___m_Events;
 

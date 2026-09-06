@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SelectLanguageViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SelectLanguageViewController.hpp"
 #include "GlobalNamespace/zzzz__CompletableViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectLanguageViewController_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_def.hpp"

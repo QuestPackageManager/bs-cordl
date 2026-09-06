@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\InputManagerProvider.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/InputManagerProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,9 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -163,7 +165,8 @@ public:
   // @brief default ctor
   constexpr InputManagerProvider_ButtonEventsIterator();
 
-  // Ctor Parameters [CppParam { name: "_mask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_bit", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_mask", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_bit", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr InputManagerProvider_ButtonEventsIterator(uint32_t _mask, int32_t _bit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -202,10 +205,11 @@ public:
   // @brief default ctor
   constexpr InputManagerProvider_Configuration();
 
-  // Ctor Parameters [CppParam { name: "HorizontalAxis", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "VerticalAxis", ty: "::StringW", modifiers: "", def_value: None }, CppParam
-  // { name: "SubmitButton", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "CancelButton", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "NavigateNextButton", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "NavigatePreviousButton", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "InputActionsPerSecond", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "RepeatDelay", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "HorizontalAxis", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "VerticalAxis", ty: "::StringW", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "SubmitButton", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "CancelButton", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "NavigateNextButton", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "NavigatePreviousButton", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "InputActionsPerSecond", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "RepeatDelay", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputManagerProvider_Configuration(::StringW HorizontalAxis, ::StringW VerticalAxis, ::StringW SubmitButton, ::StringW CancelButton, ::StringW NavigateNextButton,
                                                ::StringW NavigatePreviousButton, float_t InputActionsPerSecond, float_t RepeatDelay) noexcept;
 
@@ -280,51 +284,51 @@ public:
 
   __declspec(property(get = get_touchSupported)) bool touchSupported;
 
-  /// @brief Method GetAxisRaw, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAxisRaw, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetAxisRaw(::StringW axis);
 
-  /// @brief Method GetButtonDown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetButtonDown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetButtonDown(::StringW button);
 
-  /// @brief Method GetKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetKey(::UnityEngine::KeyCode keyCode);
 
-  /// @brief Method GetLastPenContactEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetLastPenContactEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::PenData GetLastPenContactEvent();
 
-  /// @brief Method GetMouseButton, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButton, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetMouseButton(int32_t button);
 
-  /// @brief Method GetMouseButtonDown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButtonDown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButtonUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetTouch, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetTouch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
-  /// @brief Method get_compositionString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_compositionString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_compositionString();
 
-  /// @brief Method get_mousePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_mousePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_mousePosition();
 
-  /// @brief Method get_mousePresent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_mousePresent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_mousePresent();
 
-  /// @brief Method get_mouseScrollDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_mouseScrollDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 get_mouseScrollDelta();
 
-  /// @brief Method get_touchCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_touchCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_touchCount();
 
-  /// @brief Method get_touchSupported, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_touchSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_touchSupported();
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_IInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_IInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider_IInput(InputManagerProvider_IInput const&) = delete;
+  InputManagerProvider_IInput(InputManagerProvider_IInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21829 };
@@ -411,13 +415,13 @@ protected:
   constexpr InputManagerProvider_Input();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Input", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Input", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputManagerProvider_Input(InputManagerProvider_Input&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Input", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Input", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider_Input(InputManagerProvider_Input const&) = delete;
+  InputManagerProvider_Input(InputManagerProvider_Inputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21830 };
@@ -437,12 +441,12 @@ public:
   // Declarations
   __declspec(property(get = get_timeAsRational)) ::Unity::IntegerTime::RationalTime timeAsRational;
 
-  /// @brief Method get_timeAsRational, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_timeAsRational, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::IntegerTime::RationalTime get_timeAsRational();
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_ITime", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_ITime", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider_ITime(InputManagerProvider_ITime const&) = delete;
+  InputManagerProvider_ITime(InputManagerProvider_ITimeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21831 };
@@ -480,13 +484,13 @@ protected:
   constexpr InputManagerProvider_Time();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Time", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Time", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputManagerProvider_Time(InputManagerProvider_Time&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Time", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider_Time", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider_Time(InputManagerProvider_Time const&) = delete;
+  InputManagerProvider_Time(InputManagerProvider_Timeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21832 };
@@ -583,7 +587,7 @@ public:
   inline void CheckMouseScroll(::Unity::IntegerTime::DiscreteTime currentTime);
 
   /// @brief Method CheckPenEvent, addr 0x6b5e9ac, size 0x3b4, virtual false, abstract: false, final false
-  inline bool CheckPenEvent(::Unity::IntegerTime::DiscreteTime currentTime, ::by_ref<::UnityEngine::PenData> currentPenData);
+  inline bool CheckPenEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::PenData> currentPenData);
 
   /// @brief Method CheckTouchEvents, addr 0x6b5e43c, size 0x570, virtual false, abstract: false, final false
   inline bool CheckTouchEvents(::Unity::IntegerTime::DiscreteTime currentTime);
@@ -761,13 +765,13 @@ protected:
   constexpr InputManagerProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputManagerProvider(InputManagerProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputManagerProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputManagerProvider(InputManagerProvider const&) = delete;
+  InputManagerProvider(InputManagerProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21833 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Datatype_boolean.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Datatype_boolean.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,13 +118,13 @@ protected:
   constexpr Datatype_boolean();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_boolean", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Datatype_boolean", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_boolean(Datatype_boolean&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_boolean", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Datatype_boolean", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_boolean(Datatype_boolean const&) = delete;
+  Datatype_boolean(Datatype_booleanconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9620 };

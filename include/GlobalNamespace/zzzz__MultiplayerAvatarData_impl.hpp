@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerAvatarData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerAvatarData.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerAvatarData._ctor
 template <>
@@ -19,8 +19,8 @@ inline void GlobalNamespace::MultiplayerAvatarData::_ctor(uint32_t avatarTypeIde
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerAvatarData>(), { ".ctor", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, avatarTypeIdentifierHash, data);
 }
-// Ctor Parameters [CppParam { name: "avatarTypeIdentifierHash", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "avatarTypeIdentifierHash", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerAvatarData::MultiplayerAvatarData(uint32_t avatarTypeIdentifierHash, ::ArrayW<uint8_t> data) noexcept {
   this->avatarTypeIdentifierHash = avatarTypeIdentifierHash;
   this->data = data;

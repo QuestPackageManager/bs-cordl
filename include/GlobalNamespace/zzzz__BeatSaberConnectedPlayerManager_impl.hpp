@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberConnectedPlayerManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberConnectedPlayerManager.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberPlayerIdentityPacketData_impl.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_3_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerActiveHand_impl.hpp"
@@ -19,7 +19,7 @@
 #include "GlobalNamespace/zzzz__PlayerAvatarPacket_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerControllerDataPacket_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType::BeatSaberConnectedPlayerManager_BeatSaberMessageType(uint8_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,23 +70,26 @@ protected:
   constexpr MultiplayerLocalActivePlayerInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActivePlayerInstaller(MultiplayerLocalActivePlayerInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalActivePlayerInstaller(MultiplayerLocalActivePlayerInstaller const&) = delete;
+  MultiplayerLocalActivePlayerInstaller(MultiplayerLocalActivePlayerInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6093 };
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _optionalAvatarDataSender, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;
 
+  /// [Inject]
   /// @brief Field _sceneSetupData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\PolyShape.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/PolyShape.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PolyShape_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -8,7 +8,7 @@
 #include "UnityEngine/ProBuilder/zzzz__PolyShape_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::PolyShape_PolyEditMode::PolyShape_PolyEditMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

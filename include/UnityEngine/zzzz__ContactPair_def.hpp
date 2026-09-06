@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ContactPair.hpp"
+// IWYU pragma private; include "UnityEngine/ContactPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine {
 class Collider;
@@ -36,6 +38,8 @@ struct ContactPair;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactPair);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ContactPair, "UnityEngine", "ContactPair");
+// [UsedByNativeCode]
+// [IsReadOnly]
 // Dependencies System.IntPtr, UnityEngine.CollisionPairEventFlags, UnityEngine.CollisionPairFlags, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -43,22 +47,31 @@ namespace UnityEngine {
 struct CORDL_TYPE ContactPair {
 public:
   // Declarations
+  /// @brief [Obsolete("Please use ContactPair.collider instead. (UnityUpgradable) -> collider", false)]
   __declspec(property(get = get_Collider)) ::UnityW<::UnityEngine::Collider> Collider;
 
+  /// @brief [Obsolete("Please use ContactPair.colliderInstanceID instead. (UnityUpgradable) -> colliderInstanceID", false)]
   __declspec(property(get = get_ColliderInstanceID)) int32_t ColliderInstanceID;
 
+  /// @brief [Obsolete("Please use ContactPair.contactCount instead. (UnityUpgradable) -> contactCount", false)]
   __declspec(property(get = get_ContactCount)) int32_t ContactCount;
 
+  /// @brief [Obsolete("Please use ContactPair.impulseSum instead. (UnityUpgradable) -> impulseSum", false)]
   __declspec(property(get = get_ImpulseSum)) ::UnityEngine::Vector3 ImpulseSum;
 
+  /// @brief [Obsolete("Please use ContactPair.isCollisionEnter instead. (UnityUpgradable) -> isCollisionEnter", false)]
   __declspec(property(get = get_IsCollisionEnter)) bool IsCollisionEnter;
 
+  /// @brief [Obsolete("Please use ContactPair.isCollisionExit instead. (UnityUpgradable) -> isCollisionExit", false)]
   __declspec(property(get = get_IsCollisionExit)) bool IsCollisionExit;
 
+  /// @brief [Obsolete("Please use ContactPair.isCollisionStay instead. (UnityUpgradable) -> isCollisionStay", false)]
   __declspec(property(get = get_IsCollisionStay)) bool IsCollisionStay;
 
+  /// @brief [Obsolete("Please use ContactPair.otherCollider instead. (UnityUpgradable) -> otherCollider", false)]
   __declspec(property(get = get_OtherCollider)) ::UnityW<::UnityEngine::Collider> OtherCollider;
 
+  /// @brief [Obsolete("Please use ContactPair.otherColliderInstanceID instead. (UnityUpgradable) -> otherColliderInstanceID", false)]
   __declspec(property(get = get_OtherColliderInstanceID)) int32_t OtherColliderInstanceID;
 
   __declspec(property(get = get_collider)) ::UnityW<::UnityEngine::Collider> collider;
@@ -160,10 +173,11 @@ public:
   // @brief default ctor
   constexpr ContactPair();
 
-  // Ctor Parameters [CppParam { name: "m_ColliderID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherColliderID", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_NbPoints", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty:
-  // "::UnityEngine::CollisionPairFlags", modifiers: "", def_value: None }, CppParam { name: "m_Events", ty: "::UnityEngine::CollisionPairEventFlags", modifiers: "", def_value: None }, CppParam {
-  // name: "m_ImpulseSum", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ColliderID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OtherColliderID", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_StartPtr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NbPoints", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::CollisionPairFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Events", ty:
+  // "::UnityEngine::CollisionPairEventFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ImpulseSum", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr ContactPair(int32_t m_ColliderID, int32_t m_OtherColliderID, ::System::IntPtr m_StartPtr, uint32_t m_NbPoints, ::UnityEngine::CollisionPairFlags m_Flags,
                         ::UnityEngine::CollisionPairEventFlags m_Events, ::UnityEngine::Vector3 m_ImpulseSum) noexcept;
 

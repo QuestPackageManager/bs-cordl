@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\EventHandlerList.hpp"
+// IWYU pragma private; include "System/ComponentModel/EventHandlerList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr EventHandlerList_ListEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList_ListEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList_ListEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventHandlerList_ListEntry(EventHandlerList_ListEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList_ListEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList_ListEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventHandlerList_ListEntry(EventHandlerList_ListEntry const&) = delete;
+  EventHandlerList_ListEntry(EventHandlerList_ListEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11227 };
@@ -101,6 +101,7 @@ static_assert(offsetof(::System::ComponentModel::EventHandlerList_ListEntry, ___
 static_assert(sizeof(::System::ComponentModel::EventHandlerList_ListEntry) == 0x28, "Size mismatch!");
 
 } // namespace System::ComponentModel
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::ComponentModel {
 // Is value type: false
@@ -142,13 +143,13 @@ protected:
   constexpr EventHandlerList();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventHandlerList(EventHandlerList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventHandlerList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventHandlerList(EventHandlerList const&) = delete;
+  EventHandlerList(EventHandlerListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11228 };

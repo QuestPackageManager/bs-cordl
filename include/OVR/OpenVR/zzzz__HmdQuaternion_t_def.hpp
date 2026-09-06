@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\HmdQuaternion_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/HmdQuaternion_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr HmdQuaternion_t();
 
-  // Ctor Parameters [CppParam { name: "w", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "y", ty:
-  // "double_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "w", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "x", ty: "double_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "y", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "z", ty: "double_t", modifiers: "", def_value: None, comment: None }]
   constexpr HmdQuaternion_t(double_t w, double_t x, double_t y, double_t z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

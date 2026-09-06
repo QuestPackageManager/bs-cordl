@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataFullComboSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataFullComboSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   /// @brief Method CalculateBadgeData, addr 0x373317c, size 0x434, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataFullComboSO* New_ctor();
@@ -60,17 +60,18 @@ protected:
   constexpr MultiplayerBadgeDataFullComboSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataFullComboSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataFullComboSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataFullComboSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataFullComboSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSO const&) = delete;
+  MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15072 };
 
+  /// [SerializeField]
   /// @brief Field _weight, offset: 0x30, size: 0x4, def value: None
   float_t ____weight;
 

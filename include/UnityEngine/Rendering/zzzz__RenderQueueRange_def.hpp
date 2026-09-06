@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderQueueRange.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderQueueRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,7 +81,8 @@ public:
   // @brief default ctor
   constexpr RenderQueueRange();
 
-  // Ctor Parameters [CppParam { name: "m_LowerBound", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_UpperBound", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_LowerBound", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_UpperBound", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr RenderQueueRange(int32_t m_LowerBound, int32_t m_UpperBound) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

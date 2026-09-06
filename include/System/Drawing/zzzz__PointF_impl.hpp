@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Drawing\PointF.hpp"
+// IWYU pragma private; include "System/Drawing/PointF.hpp"
 #include "System/Drawing/zzzz__PointF_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -129,7 +129,8 @@ constexpr System::Drawing::PointF::operator ::System::IEquatable_1<::System::Dra
 constexpr ::System::IEquatable_1<::System::Drawing::PointF>* System::Drawing::PointF::i___System__IEquatable_1___System__Drawing__PointF_() {
   return static_cast<::System::IEquatable_1<::System::Drawing::PointF>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::System::Drawing::PointF::PointF(float_t x, float_t y) noexcept {
   this->x = x;
   this->y = y;

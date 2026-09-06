@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\Util\RenderGraphUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/Util/RenderGraphUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -50,7 +50,7 @@ inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyP
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_CopyPassData::RenderGraphUtils_CopyPassData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode::RenderGraphUtils_BlitFilterMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -221,7 +221,7 @@ inline ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitP
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitPassData::RenderGraphUtils_BlitPassData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType::RenderGraphUtils_FullScreenGeometryType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -485,16 +485,18 @@ inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_Bl
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, source, destination, scale, offset, material, shaderPass, mpb, geometry, sourceTexturePropertyID, sourceSlicePropertyID,
                                                    sourceMipPropertyID, scaleBiasPropertyID);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "destination", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "sourceSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "destinationSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "numSlices", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sourceMip",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "destinationMip", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "numMips", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "shaderPass", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "propertyBlock", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "sourceTexturePropertyID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sourceSlicePropertyID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "sourceMipPropertyID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "scaleBiasPropertyID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "geometry", ty: "::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "source", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "destination",
+// ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sourceSlice", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "destinationSlice", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "numSlices", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sourceMip", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "destinationMip", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "numMips", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "shaderPass", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "propertyBlock", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "sourceTexturePropertyID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sourceSlicePropertyID", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "sourceMipPropertyID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "scaleBiasPropertyID", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "geometry", ty: "::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_FullScreenGeometryType", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters::RenderGraphUtils_BlitMaterialParameters(
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Vector2 scale,
     ::UnityEngine::Vector2 offset, int32_t sourceSlice, int32_t destinationSlice, int32_t numSlices, int32_t sourceMip, int32_t destinationMip, int32_t numMips,
@@ -1083,8 +1085,8 @@ inline bool UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::C
 inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddCopyPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
                                                                                            ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source,
                                                                                            ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, int32_t sourceSlice,
-                                                                                           int32_t destinationSlice, int32_t sourceMip, int32_t destinationMip, ::StringW passName, ::StringW file,
-                                                                                           int32_t line) {
+                                                                                           int32_t destinationSlice, int32_t sourceMip, int32_t destinationMip, ::StringW passName,
+                                                                                           /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
@@ -1110,7 +1112,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::A
                                                                                            ::UnityEngine::Vector2 offset, int32_t sourceSlice, int32_t destinationSlice, int32_t numSlices,
                                                                                            int32_t sourceMip, int32_t destinationMip, int32_t numMips,
                                                                                            ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitFilterMode filterMode,
-                                                                                           ::StringW passName, ::StringW file, int32_t line) {
+                                                                                           ::StringW passName, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
@@ -1135,7 +1137,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::B
 }
 inline void UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils::AddBlitPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph,
                                                                                            ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils_BlitMaterialParameters blitParameters,
-                                                                                           ::StringW passName, ::StringW file, int32_t line) {
+                                                                                           ::StringW passName, /* [CallerFilePath] */ ::StringW file, /* [CallerLineNumber] */ int32_t line) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtils*>(),
                                                            { "AddBlitPass",

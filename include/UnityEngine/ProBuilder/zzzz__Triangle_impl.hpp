@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Triangle.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Triangle.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Triangle_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -185,8 +185,8 @@ constexpr UnityEngine::ProBuilder::Triangle::operator ::System::IEquatable_1<::U
 constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>* UnityEngine::ProBuilder::Triangle::i___System__IEquatable_1___UnityEngine__ProBuilder__Triangle_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_A", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_B", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_C", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_A", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_B", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_C", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::Triangle::Triangle(int32_t m_A, int32_t m_B, int32_t m_C) noexcept {
   this->m_A = m_A;
   this->m_B = m_B;

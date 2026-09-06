@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\WhitePoint.hpp"
+// IWYU pragma private; include "UnityEngine/WhitePoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct WhitePoint;
 // Write type traits
 MARK_VAL_T(::UnityEngine::WhitePoint);
 DEFINE_IL2CPP_CLASS(::UnityEngine::WhitePoint, "UnityEngine", "WhitePoint");
+// [NativeHeader("Runtime/Graphics/ColorGamut.h")]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -42,7 +44,7 @@ public:
   // @brief default ctor
   constexpr WhitePoint();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr WhitePoint(int32_t value__) noexcept;
 
   /// @brief Field D65 value: I32(0)

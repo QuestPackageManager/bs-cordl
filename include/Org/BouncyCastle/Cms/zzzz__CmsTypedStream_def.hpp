@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsTypedStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsTypedStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ protected:
   constexpr CmsTypedStream_FullReaderStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream_FullReaderStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream_FullReaderStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsTypedStream_FullReaderStream(CmsTypedStream_FullReaderStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream_FullReaderStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream_FullReaderStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsTypedStream_FullReaderStream(CmsTypedStream_FullReaderStream const&) = delete;
+  CmsTypedStream_FullReaderStream(CmsTypedStream_FullReaderStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 662 };
@@ -126,13 +126,13 @@ protected:
   constexpr CmsTypedStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsTypedStream(CmsTypedStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsTypedStream(CmsTypedStream const&) = delete;
+  CmsTypedStream(CmsTypedStreamconst&) = delete;
 
   /// @brief Field BufferSize offset 0xffffffff size 0x4
   static constexpr int32_t BufferSize{ static_cast<int32_t>(0x8000) };

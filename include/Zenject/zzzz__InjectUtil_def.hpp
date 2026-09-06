@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InjectUtil.hpp"
+// IWYU pragma private; include "Zenject/InjectUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ MARK_REF_T(::Zenject::InjectUtil*);
 MARK_REF_T(::Zenject::InjectUtil___c*);
 DEFINE_IL2CPP_CLASS(::Zenject::InjectUtil*, "Zenject", "InjectUtil");
 DEFINE_IL2CPP_CLASS(::Zenject::InjectUtil___c*, "Zenject", "InjectUtil/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -63,6 +64,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e6c898, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6c8dc, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -83,13 +85,13 @@ protected:
   constexpr InjectUtil___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectUtil___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectUtil___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectUtil___c(InjectUtil___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectUtil___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectUtil___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectUtil___c(InjectUtil___c const&) = delete;
+  InjectUtil___c(InjectUtil___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14469 };
@@ -100,6 +102,7 @@ public:
 static_assert(sizeof(::Zenject::InjectUtil___c) == 0x10, "Size mismatch!");
 
 } // namespace Zenject
+// [DebuggerStepThrough]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -146,13 +149,13 @@ protected:
   constexpr InjectUtil();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectUtil", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectUtil", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectUtil(InjectUtil&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectUtil", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectUtil", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectUtil(InjectUtil const&) = delete;
+  InjectUtil(InjectUtilconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14470 };

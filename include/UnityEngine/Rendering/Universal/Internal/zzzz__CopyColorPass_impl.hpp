@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\CopyColorPass.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/CopyColorPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__Downsampling_impl.hpp"
@@ -615,7 +615,7 @@ inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::ExecuteP
 inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle
 UnityEngine::Rendering::Universal::Internal::CopyColorPass::Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                                                    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                                                   ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                                                    ::UnityEngine::Rendering::Universal::Downsampling downsampling) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -629,8 +629,8 @@ UnityEngine::Rendering::Universal::Internal::CopyColorPass::Render(::UnityEngine
 }
 inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::RenderToExistingTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                 ::UnityEngine::Rendering::ContextContainer* frameData,
-                                                                                                ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                                                                                ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                                                                                 ::UnityEngine::Rendering::Universal::Downsampling downsampling) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -643,8 +643,9 @@ inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::RenderTo
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData, destination, source, downsampling);
 }
 inline void UnityEngine::Rendering::Universal::Internal::CopyColorPass::RenderInternal(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                       ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                                                                       ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, bool useProceduralBlit) {
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                                       bool useProceduralBlit) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyColorPass*>(),

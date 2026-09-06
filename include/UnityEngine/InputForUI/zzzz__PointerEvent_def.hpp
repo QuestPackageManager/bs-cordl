@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\PointerEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/PointerEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +88,7 @@ public:
   // @brief default ctor
   constexpr PointerEvent_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PointerEvent_Type(int32_t value__) noexcept;
 
   /// @brief Field ButtonPressed value: I32(3)
@@ -126,6 +126,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::PointerEvent_Type, value__) ==
 static_assert(sizeof(::UnityEngine::InputForUI::PointerEvent_Type) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputForUI {
 // Is value type: true
@@ -164,7 +165,7 @@ public:
   // @brief default ctor
   constexpr PointerEvent_Button();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PointerEvent_Button(uint32_t value__) noexcept;
 
   /// @brief Field FingerInTouch value: U32(1)
@@ -240,7 +241,7 @@ public:
   // @brief default ctor
   constexpr PointerEvent_ButtonsState();
 
-  // Ctor Parameters [CppParam { name: "_state", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_state", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PointerEvent_ButtonsState(uint32_t _state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -260,6 +261,7 @@ static_assert(offsetof(::UnityEngine::InputForUI::PointerEvent_ButtonsState, _st
 static_assert(sizeof(::UnityEngine::InputForUI::PointerEvent_ButtonsState) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputForUI
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies Unity.IntegerTime.DiscreteTime, UnityEngine.InputForUI.EventModifiers, UnityEngine.InputForUI.EventSource, UnityEngine.InputForUI.PointerEvent::Button,
 // UnityEngine.InputForUI.PointerEvent::ButtonsState, UnityEngine.InputForUI.PointerEvent::Type, UnityEngine.Vector2
 namespace UnityEngine::InputForUI {
@@ -303,30 +305,40 @@ public:
   /// @brief Method get_azimuth, addr 0x6b5a098, size 0x8, virtual false, abstract: false, final false
   inline float_t get_azimuth();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_eventModifiers, addr 0x6b5a1e8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_eventSource, addr 0x6b5a1d0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Method get_isPrimaryPointer, addr 0x6b5a088, size 0x10, virtual false, abstract: false, final false
   inline bool get_isPrimaryPointer();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_timestamp, addr 0x6b5a1c0, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::IntegerTime::DiscreteTime get_timestamp();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventModifiers, addr 0x6b5a1f0, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventSource, addr 0x6b5a1d8, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_playerId, addr 0x6b5a1e0, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_timestamp, addr 0x6b5a1c8, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
@@ -334,16 +346,17 @@ public:
   // @brief default ctor
   constexpr PointerEvent();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::PointerEvent_Type", modifiers: "", def_value: None }, CppParam { name: "pointerIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "deltaPosition", ty: "::UnityEngine::Vector2", modifiers: "",
-  // def_value: None }, CppParam { name: "scroll", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "displayIndex", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "tilt", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "twist", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "pressure",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "isInverted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "button", ty:
-  // "::UnityEngine::InputForUI::PointerEvent_Button", modifiers: "", def_value: None }, CppParam { name: "buttonsState", ty: "::UnityEngine::InputForUI::PointerEvent_ButtonsState", modifiers: "",
-  // def_value: None }, CppParam { name: "clickCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime",
-  // modifiers: "", def_value: None }, CppParam { name: "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: None }, CppParam { name:
-  // "_playerId_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputForUI::PointerEvent_Type", modifiers: "", def_value: None, comment: None }, CppParam { name: "pointerIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "deltaPosition", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "scroll", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "displayIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "tilt", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "twist", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "isInverted", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "button", ty: "::UnityEngine::InputForUI::PointerEvent_Button", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "buttonsState", ty: "::UnityEngine::InputForUI::PointerEvent_ButtonsState", modifiers: "", def_value: None, comment: None }, CppParam { name: "clickCount", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_timestamp_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "_eventSource_k__BackingField", ty: "::UnityEngine::InputForUI::EventSource", modifiers: "", def_value: None, comment: None }, CppParam { name: "_playerId_k__BackingField",
+  // ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_eventModifiers_k__BackingField", ty: "::UnityEngine::InputForUI::EventModifiers", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr PointerEvent(::UnityEngine::InputForUI::PointerEvent_Type type, int32_t pointerIndex, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 deltaPosition, ::UnityEngine::Vector2 scroll,
                          int32_t displayIndex, ::UnityEngine::Vector2 tilt, float_t twist, float_t pressure, bool isInverted, ::UnityEngine::InputForUI::PointerEvent_Button button,
                          ::UnityEngine::InputForUI::PointerEvent_ButtonsState buttonsState, int32_t clickCount, ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField,
@@ -395,15 +408,23 @@ public:
   /// @brief Field clickCount, offset: 0x40, size: 0x4, def value: None
   int32_t clickCount;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <timestamp>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::Unity::IntegerTime::DiscreteTime _timestamp_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <eventSource>k__BackingField, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventSource _eventSource_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <playerId>k__BackingField, offset: 0x54, size: 0x4, def value: None
   uint32_t _playerId_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <eventModifiers>k__BackingField, offset: 0x58, size: 0x4, def value: None
   ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField;
 

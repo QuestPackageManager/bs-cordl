@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ValidationUtil.hpp"
+// IWYU pragma private; include "Zenject/ValidationUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ MARK_REF_T(::Zenject::ValidationUtil*);
 MARK_REF_T(::Zenject::ValidationUtil___c*);
 DEFINE_IL2CPP_CLASS(::Zenject::ValidationUtil*, "Zenject", "ValidationUtil");
 DEFINE_IL2CPP_CLASS(::Zenject::ValidationUtil___c*, "Zenject", "ValidationUtil/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -60,6 +61,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9e2f8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9e33c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -80,13 +82,13 @@ protected:
   constexpr ValidationUtil___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtil___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtil___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidationUtil___c(ValidationUtil___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtil___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtil___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValidationUtil___c(ValidationUtil___c const&) = delete;
+  ValidationUtil___c(ValidationUtil___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14711 };
@@ -107,7 +109,7 @@ public:
   using __c = ::Zenject::ValidationUtil___c;
 
   /// @brief Method CreateDefaultArgs, addr 0x6e9e118, size 0x120, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayW<::System::Type*> argTypes);
+  static inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateDefaultArgs(/* [ParamArray] */ ::ArrayW<::System::Type*> argTypes);
 
 protected:
   // Ctor Parameters []
@@ -115,13 +117,13 @@ protected:
   constexpr ValidationUtil();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtil", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtil", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidationUtil(ValidationUtil&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtil", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtil", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValidationUtil(ValidationUtil const&) = delete;
+  ValidationUtil(ValidationUtilconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14712 };

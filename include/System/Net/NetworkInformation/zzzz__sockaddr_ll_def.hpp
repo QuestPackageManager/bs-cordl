@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\sockaddr_ll.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/sockaddr_ll.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // @brief default ctor
   constexpr sockaddr_ll();
 
-  // Ctor Parameters [CppParam { name: "sll_family", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sll_protocol", ty: "uint16_t", modifiers: "", def_value: None }, CppParam {
-  // name: "sll_ifindex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sll_hatype", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sll_pkttype", ty:
-  // "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sll_halen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sll_addr", ty: "::ArrayW<uint8_t>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "sll_family", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sll_protocol", ty: "uint16_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "sll_ifindex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sll_hatype", ty: "uint16_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "sll_pkttype", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sll_halen", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "sll_addr", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr sockaddr_ll(uint16_t sll_family, uint16_t sll_protocol, int32_t sll_ifindex, uint16_t sll_hatype, uint8_t sll_pkttype, uint8_t sll_halen, ::ArrayW<uint8_t> sll_addr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

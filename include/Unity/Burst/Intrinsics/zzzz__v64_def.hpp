@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\Intrinsics\v64.hpp"
+// IWYU pragma private; include "Unity/Burst/Intrinsics/v64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct v64;
 // Write type traits
 MARK_VAL_T(::Unity::Burst::Intrinsics::v64);
 DEFINE_IL2CPP_CLASS(::Unity::Burst::Intrinsics::v64, "Unity.Burst.Intrinsics", "v64");
+// [DebuggerTypeProxy(typeof(Unity.Burst.Intrinsics.V64DebugView))]
 // Dependencies
 namespace Unity::Burst::Intrinsics {
 // Is value type: true
@@ -373,19 +374,22 @@ public:
   // @brief default ctor
   constexpr v64();
 
-  // Ctor Parameters [CppParam { name: "Byte0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "Byte1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "Byte2",
-  // ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "Byte3", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "Byte4", ty: "uint8_t", modifiers: "", def_value: None
-  // }, CppParam { name: "Byte5", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "Byte6", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "Byte7", ty: "uint8_t",
-  // modifiers: "", def_value: None }, CppParam { name: "SByte0", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "SByte1", ty: "int8_t", modifiers: "", def_value: None }, CppParam {
-  // name: "SByte2", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "SByte3", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "SByte4", ty: "int8_t", modifiers: "",
-  // def_value: None }, CppParam { name: "SByte5", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "SByte6", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "SByte7",
-  // ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "UShort0", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "UShort1", ty: "uint16_t", modifiers: "", def_value:
-  // None }, CppParam { name: "UShort2", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "UShort3", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "SShort0", ty:
-  // "int16_t", modifiers: "", def_value: None }, CppParam { name: "SShort1", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "SShort2", ty: "int16_t", modifiers: "", def_value: None
-  // }, CppParam { name: "SShort3", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "UInt0", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "UInt1", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "SInt0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "SInt1", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "ULong0", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "SLong0", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "Float0", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "Float1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "Double0", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Byte0", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Byte1", ty: "uint8_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "Byte2", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Byte3", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "Byte4", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Byte5", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Byte6",
+  // ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Byte7", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SByte0", ty: "int8_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "SByte1", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SByte2", ty: "int8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "SByte3", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SByte4", ty: "int8_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "SByte5", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SByte6", ty: "int8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "SByte7", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "UShort0", ty: "uint16_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "UShort1", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "UShort2", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "UShort3", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SShort0", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "SShort1", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SShort2", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SShort3",
+  // ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "UInt0", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "UInt1", ty:
+  // "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SInt0", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SInt1", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "ULong0", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "SLong0", ty: "int64_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "Float0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Float1", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "Double0", ty: "double_t", modifiers: "", def_value: None, comment: None }]
   constexpr v64(uint8_t Byte0, uint8_t Byte1, uint8_t Byte2, uint8_t Byte3, uint8_t Byte4, uint8_t Byte5, uint8_t Byte6, uint8_t Byte7, int8_t SByte0, int8_t SByte1, int8_t SByte2, int8_t SByte3,
                 int8_t SByte4, int8_t SByte5, int8_t SByte6, int8_t SByte7, uint16_t UShort0, uint16_t UShort1, uint16_t UShort2, uint16_t UShort3, int16_t SShort0, int16_t SShort1, int16_t SShort2,
                 int16_t SShort3, uint32_t UInt0, uint32_t UInt1, int32_t SInt0, int32_t SInt1, uint64_t ULong0, int64_t SLong0, float_t Float0, float_t Float1, double_t Double0) noexcept;

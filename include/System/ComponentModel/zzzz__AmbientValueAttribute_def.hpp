@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\AmbientValueAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/AmbientValueAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class AmbientValueAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::AmbientValueAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::AmbientValueAttribute*, "System.ComponentModel", "AmbientValueAttribute");
+// [AttributeUsage((System.AttributeTargets)32767)]
 // Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
@@ -33,6 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Value, addr 0x63b50f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
@@ -42,17 +44,18 @@ protected:
   constexpr AmbientValueAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AmbientValueAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AmbientValueAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AmbientValueAttribute(AmbientValueAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AmbientValueAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AmbientValueAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AmbientValueAttribute(AmbientValueAttribute const&) = delete;
+  AmbientValueAttribute(AmbientValueAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11236 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____Value_k__BackingField;
 

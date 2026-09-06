@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\LogEventParameter.hpp"
+// IWYU pragma private; include "Oculus/Platform/LogEventParameter.hpp"
 #include "Oculus/Platform/zzzz__LogEventParameter_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::LogEventParameter::LogEventParameter(int32_t value__) noexcept {
   this->value__ = value__;
 }

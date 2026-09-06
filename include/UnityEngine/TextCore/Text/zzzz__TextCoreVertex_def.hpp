@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextCoreVertex.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextCoreVertex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,9 @@ struct TextCoreVertex;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextCoreVertex);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::TextCoreVertex, "UnityEngine.TextCore.Text", "TextCoreVertex");
+// [UsedByNativeCode("TextCoreVertex")]
+// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
+// [NativeHeader("Modules/TextCoreTextEngine/Native/TextCoreVertex.h")]
 // Dependencies UnityEngine.Color32, UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -26,8 +29,9 @@ public:
   // @brief default ctor
   constexpr TextCoreVertex();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value:
-  // None }, CppParam { name: "uv0", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "uv2", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "uv0", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "uv2", ty: "::UnityEngine::Vector2",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr TextCoreVertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uv0, ::UnityEngine::Vector2 uv2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

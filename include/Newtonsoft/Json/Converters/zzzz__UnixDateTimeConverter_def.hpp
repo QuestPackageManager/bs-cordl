@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\UnixDateTimeConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/UnixDateTimeConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ class UnixDateTimeConverter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::UnixDateTimeConverter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::UnixDateTimeConverter*, "Newtonsoft.Json.Converters", "UnixDateTimeConverter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.DateTimeConverterBase, System.DateTime
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -48,10 +50,11 @@ public:
   static inline ::Newtonsoft::Json::Converters::UnixDateTimeConverter* New_ctor(bool allowPreEpoch);
 
   /// @brief Method ReadJson, addr 0x5d9e460, size 0x3d4, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
+                                    ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method WriteJson, addr 0x5d9e210, size 0x250, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   constexpr bool const& __cordl_internal_get__AllowPreEpoch_k__BackingField() const;
 
@@ -67,11 +70,13 @@ public:
 
   static inline ::System::DateTime getStaticF_UnixEpoch();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AllowPreEpoch, addr 0x5d9e1f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowPreEpoch();
 
   static inline void setStaticF_UnixEpoch(::System::DateTime value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_AllowPreEpoch, addr 0x5d9e1f8, size 0x8, virtual false, abstract: false, final false
   inline void set_AllowPreEpoch(bool value);
 
@@ -81,17 +86,18 @@ protected:
   constexpr UnixDateTimeConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnixDateTimeConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnixDateTimeConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnixDateTimeConverter(UnixDateTimeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnixDateTimeConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnixDateTimeConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnixDateTimeConverter(UnixDateTimeConverter const&) = delete;
+  UnixDateTimeConverter(UnixDateTimeConverterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13667 };
 
+  /// [CompilerGenerated]
   /// @brief Field <AllowPreEpoch>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____AllowPreEpoch_k__BackingField;
 

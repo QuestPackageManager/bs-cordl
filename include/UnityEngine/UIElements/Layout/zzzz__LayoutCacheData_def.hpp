@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutCacheData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutCacheData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,9 +33,9 @@ public:
   // @brief default ctor
   constexpr LayoutCacheData();
 
-  // Ctor Parameters [CppParam { name: "NextCachedMeasurementsIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "cachedMeasurements", ty:
-  // "::UnityEngine::UIElements::Layout::FixedBuffer16_1<::UnityEngine::UIElements::Layout::LayoutCachedMeasurement>", modifiers: "", def_value: None }, CppParam { name: "CachedLayout", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutCachedMeasurement", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "NextCachedMeasurementsIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "cachedMeasurements", ty:
+  // "::UnityEngine::UIElements::Layout::FixedBuffer16_1<::UnityEngine::UIElements::Layout::LayoutCachedMeasurement>", modifiers: "", def_value: None, comment: None }, CppParam { name: "CachedLayout",
+  // ty: "::UnityEngine::UIElements::Layout::LayoutCachedMeasurement", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutCacheData(uint32_t NextCachedMeasurementsIndex, ::UnityEngine::UIElements::Layout::FixedBuffer16_1<::UnityEngine::UIElements::Layout::LayoutCachedMeasurement> cachedMeasurements,
                             ::UnityEngine::UIElements::Layout::LayoutCachedMeasurement CachedLayout) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\BaseBezierCurveData.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/BaseBezierCurveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,13 +57,13 @@ public:
   /// @brief Method get_endControlPoint, addr 0x332b650, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endControlPoint();
 
-  /// @brief Method get_endPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_endPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
   /// @brief Method get_startControlPoint, addr 0x332b5d4, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startControlPoint();
 
-  /// @brief Method get_startPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_startPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
   /// @brief Method set_endControlPoint, addr 0x332b680, size 0x4c, virtual false, abstract: false, final false
@@ -78,20 +78,22 @@ protected:
   constexpr BaseBezierCurveData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurveData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurveData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseBezierCurveData(BaseBezierCurveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurveData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurveData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseBezierCurveData(BaseBezierCurveData const&) = delete;
+  BaseBezierCurveData(BaseBezierCurveDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20824 };
 
+  /// [SerializeField]
   /// @brief Field _startControlPointDelta, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startControlPointDelta;
 
+  /// [SerializeField]
   /// @brief Field _endControlPointDelta, offset: 0x1c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____endControlPointDelta;
 

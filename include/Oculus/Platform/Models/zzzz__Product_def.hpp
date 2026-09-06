@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\Product.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/Product.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -161,13 +161,13 @@ protected:
   constexpr Product();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Product(Product&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Product(Product const&) = delete;
+  Product(Productconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18085 };
@@ -175,12 +175,14 @@ public:
   /// @brief Field BillingPlansOptional, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Models::BillingPlanList* ___BillingPlansOptional;
 
+  /// [Obsolete("Deprecated in favor of BillingPlansOptional")]
   /// @brief Field BillingPlans, offset: 0x18, size: 0x8, def value: None
   ::Oculus::Platform::Models::BillingPlanList* ___BillingPlans;
 
   /// @brief Field ContentRatingOptional, offset: 0x20, size: 0x8, def value: None
   ::Oculus::Platform::Models::ContentRating* ___ContentRatingOptional;
 
+  /// [Obsolete("Deprecated in favor of ContentRatingOptional")]
   /// @brief Field ContentRating, offset: 0x28, size: 0x8, def value: None
   ::Oculus::Platform::Models::ContentRating* ___ContentRating;
 

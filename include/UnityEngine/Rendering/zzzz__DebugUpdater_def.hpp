@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,6 +46,7 @@ MARK_REF_T(::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUpdater*, "UnityEngine.Rendering", "DebugUpdater");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9*, "UnityEngine.Rendering", "DebugUpdater/<DoAfterInputModuleUpdated>d__9");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15*, "UnityEngine.Rendering", "DebugUpdater/<RefreshRuntimeUINextFrame>d__15");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -78,17 +79,22 @@ public:
   /// @brief Method MoveNext, addr 0x676d174, size 0xd0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x676d244, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x676d24c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x676d284, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x676d170, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -110,6 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_action(::System::Action* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x676ccd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -128,13 +135,13 @@ protected:
   constexpr DebugUpdater__DoAfterInputModuleUpdated_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__DoAfterInputModuleUpdated_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__DoAfterInputModuleUpdated_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUpdater__DoAfterInputModuleUpdated_d__9(DebugUpdater__DoAfterInputModuleUpdated_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__DoAfterInputModuleUpdated_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__DoAfterInputModuleUpdated_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUpdater__DoAfterInputModuleUpdated_d__9(DebugUpdater__DoAfterInputModuleUpdated_d__9 const&) = delete;
+  DebugUpdater__DoAfterInputModuleUpdated_d__9(DebugUpdater__DoAfterInputModuleUpdated_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12033 };
@@ -160,6 +167,7 @@ static_assert(offsetof(::UnityEngine::Rendering::DebugUpdater__DoAfterInputModul
 static_assert(sizeof(::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -189,17 +197,22 @@ public:
   /// @brief Method MoveNext, addr 0x676d290, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x676d33c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x676d344, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x676d37c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x676d28c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -215,6 +228,7 @@ public:
 
   constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x676d164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -233,13 +247,13 @@ protected:
   constexpr DebugUpdater__RefreshRuntimeUINextFrame_d__15();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__RefreshRuntimeUINextFrame_d__15", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__RefreshRuntimeUINextFrame_d__15", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUpdater__RefreshRuntimeUINextFrame_d__15(DebugUpdater__RefreshRuntimeUINextFrame_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__RefreshRuntimeUINextFrame_d__15", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater__RefreshRuntimeUINextFrame_d__15", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUpdater__RefreshRuntimeUINextFrame_d__15(DebugUpdater__RefreshRuntimeUINextFrame_d__15 const&) = delete;
+  DebugUpdater__RefreshRuntimeUINextFrame_d__15(DebugUpdater__RefreshRuntimeUINextFrame_d__15const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12034 };
@@ -295,6 +309,7 @@ public:
   /// @brief Method DisableRuntime, addr 0x676c6f0, size 0x134, virtual false, abstract: false, final false
   static inline void DisableRuntime();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.Rendering.DebugUpdater::<DoAfterInputModuleUpdated>d__9))]
   /// @brief Method DoAfterInputModuleUpdated, addr 0x676cc7c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DoAfterInputModuleUpdated(::System::Action* action);
 
@@ -309,9 +324,11 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugUpdater* New_ctor();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.Rendering.DebugUpdater::<RefreshRuntimeUINextFrame>d__15))]
   /// @brief Method RefreshRuntimeUINextFrame, addr 0x676d118, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* RefreshRuntimeUINextFrame();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)0)]
   /// @brief Method RuntimeInit, addr 0x676c538, size 0x4, virtual false, abstract: false, final false
   static inline void RuntimeInit();
 
@@ -346,13 +363,13 @@ protected:
   constexpr DebugUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUpdater(DebugUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUpdater(DebugUpdater const&) = delete;
+  DebugUpdater(DebugUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12035 };

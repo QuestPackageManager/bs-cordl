@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\SetSpawnTime.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/SetSpawnTime.hpp"
 #include "UnityEngine/VFX/zzzz__VFXSpawnerCallbacks_impl.hpp"
 #include "UnityEngine/VFX/zzzz__SetSpawnTime_def.hpp"
 #include "UnityEngine/VFX/zzzz__VFXExpressionValues_def.hpp"

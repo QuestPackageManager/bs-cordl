@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SortingGroup.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SortingGroup.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SortingGroup_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

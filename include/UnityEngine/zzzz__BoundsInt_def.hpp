@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BoundsInt.hpp"
+// IWYU pragma private; include "UnityEngine/BoundsInt.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ struct BoundsInt;
 // Write type traits
 MARK_VAL_T(::UnityEngine::BoundsInt);
 DEFINE_IL2CPP_CLASS(::UnityEngine::BoundsInt, "UnityEngine", "BoundsInt");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Vector3Int
 namespace UnityEngine {
 // Is value type: true
@@ -87,8 +88,8 @@ public:
   // @brief default ctor
   constexpr BoundsInt();
 
-  // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "m_Size", ty: "::UnityEngine::Vector3Int", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Size", ty: "::UnityEngine::Vector3Int",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr BoundsInt(::UnityEngine::Vector3Int m_Position, ::UnityEngine::Vector3Int m_Size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

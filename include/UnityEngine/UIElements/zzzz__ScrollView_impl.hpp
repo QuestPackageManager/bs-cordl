@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ScrollView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ScrollView.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ScrollViewMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ScrollerVisibility_impl.hpp"
@@ -253,7 +253,7 @@ inline ::UnityEngine::UIElements::ScrollView_UxmlTraits* UnityEngine::UIElements
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ScrollView_UxmlTraits::ScrollView_UxmlTraits() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::ScrollView_TouchScrollBehavior::ScrollView_TouchScrollBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -262,7 +262,7 @@ constexpr ::UnityEngine::UIElements::ScrollView_TouchScrollBehavior::ScrollView_
 constexpr ::UnityEngine::UIElements::ScrollView_TouchScrollBehavior UnityEngine::UIElements::ScrollView_TouchScrollBehavior::Unrestricted{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::ScrollView_TouchScrollBehavior UnityEngine::UIElements::ScrollView_TouchScrollBehavior::Elastic{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::ScrollView_TouchScrollBehavior UnityEngine::UIElements::ScrollView_TouchScrollBehavior::Clamped{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::ScrollView_NestedInteractionKind::ScrollView_NestedInteractionKind(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -271,7 +271,7 @@ constexpr ::UnityEngine::UIElements::ScrollView_NestedInteractionKind::ScrollVie
 constexpr ::UnityEngine::UIElements::ScrollView_NestedInteractionKind UnityEngine::UIElements::ScrollView_NestedInteractionKind::Default{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::ScrollView_NestedInteractionKind UnityEngine::UIElements::ScrollView_NestedInteractionKind::StopScrolling{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::ScrollView_NestedInteractionKind UnityEngine::UIElements::ScrollView_NestedInteractionKind::ForwardScrolling{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::ScrollView_TouchScrollingResult::ScrollView_TouchScrollingResult(int32_t value__) noexcept {
   this->value__ = value__;
 }

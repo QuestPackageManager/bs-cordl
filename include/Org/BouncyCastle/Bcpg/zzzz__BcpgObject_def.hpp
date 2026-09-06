@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\BcpgObject.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/BcpgObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Bcpg {
 class CORDL_TYPE BcpgObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   /// @brief Method GetEncoded, addr 0x369c224, size 0xb8, virtual true, abstract: false, final false
@@ -41,13 +41,13 @@ protected:
   constexpr BcpgObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BcpgObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BcpgObject(BcpgObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BcpgObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BcpgObject(BcpgObject const&) = delete;
+  BcpgObject(BcpgObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 554 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferAllocInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferAllocInfo.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectBufferAllocInfo_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectBufferLimits_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IndirectBufferAllocInfo.IsEmpty
@@ -46,7 +46,7 @@ inline bool UnityEngine::Rendering::IndirectBufferAllocInfo::IsEmpty() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IndirectBufferAllocInfo>(), { "IsEmpty", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::IndirectBufferAllocInfo::IsWithinLimits(::by_ref<::UnityEngine::Rendering::IndirectBufferLimits> limits) {
+inline bool UnityEngine::Rendering::IndirectBufferAllocInfo::IsWithinLimits(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferLimits> limits) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IndirectBufferAllocInfo>(),
                                                                                          { "IsWithinLimits", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::IndirectBufferLimits>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, limits);
@@ -56,8 +56,9 @@ inline int32_t UnityEngine::Rendering::IndirectBufferAllocInfo::GetExtraDrawInfo
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IndirectBufferAllocInfo>(), { "GetExtraDrawInfoSlotIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "drawAllocIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "instanceAllocIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "drawAllocIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "instanceAllocIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "instanceCount", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::IndirectBufferAllocInfo::IndirectBufferAllocInfo(int32_t drawAllocIndex, int32_t drawCount, int32_t instanceAllocIndex, int32_t instanceCount) noexcept {
   this->drawAllocIndex = drawAllocIndex;
   this->drawCount = drawCount;

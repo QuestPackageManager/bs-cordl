@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaObject.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,20 +37,28 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaObject : public ::System::Object {
 public:
   // Declarations
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IdAttribute, put = set_IdAttribute)) ::StringW IdAttribute;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_IsProcessing, put = set_IsProcessing)) bool IsProcessing;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_LineNumber, put = set_LineNumber)) int32_t LineNumber;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_LinePosition, put = set_LinePosition)) int32_t LinePosition;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_NameAttribute, put = set_NameAttribute)) ::StringW NameAttribute;
 
+  /// @brief [XmlNamespaceDeclarations]
   __declspec(property(get = get_Namespaces, put = set_Namespaces)) ::System::Xml::Serialization::XmlSerializerNamespaces* Namespaces;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_Parent, put = set_Parent)) ::System::Xml::Schema::XmlSchemaObject* Parent;
 
+  /// @brief [XmlIgnore]
   __declspec(property(get = get_SourceUri, put = set_SourceUri)) ::StringW SourceUri;
 
   /// @brief Field isProcessing, offset 0x30, size 0x1
@@ -184,13 +192,13 @@ protected:
   constexpr XmlSchemaObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaObject(XmlSchemaObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaObject(XmlSchemaObject const&) = delete;
+  XmlSchemaObject(XmlSchemaObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9796 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutConfigDataType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutConfigDataType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct LayoutConfigDataType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutConfigDataType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutConfigDataType, "UnityEngine.UIElements.Layout", "LayoutConfigDataType");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -41,7 +42,7 @@ public:
   // @brief default ctor
   constexpr LayoutConfigDataType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutConfigDataType(int32_t value__) noexcept;
 
   /// @brief Field Config value: I32(0)

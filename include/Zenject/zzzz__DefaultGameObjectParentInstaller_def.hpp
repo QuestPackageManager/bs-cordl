@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\DefaultGameObjectParentInstaller.hpp"
+// IWYU pragma private; include "Zenject/DefaultGameObjectParentInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9bb3c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9bbd8, size 0x248, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -77,13 +78,13 @@ protected:
   constexpr DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer(DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer(DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer const&) = delete;
+  DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer(DefaultGameObjectParentInstaller_DefaultParentObjectDestroyerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14701 };
@@ -125,6 +126,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e9b7e0, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9b8a0, size 0x234, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -137,13 +139,13 @@ protected:
   constexpr DefaultGameObjectParentInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultGameObjectParentInstaller(DefaultGameObjectParentInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectParentInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultGameObjectParentInstaller(DefaultGameObjectParentInstaller const&) = delete;
+  DefaultGameObjectParentInstaller(DefaultGameObjectParentInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14702 };

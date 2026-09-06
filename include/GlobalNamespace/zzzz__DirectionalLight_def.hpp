@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DirectionalLight.hpp"
+// IWYU pragma private; include "GlobalNamespace/DirectionalLight.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class DirectionalLight;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::DirectionalLight*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DirectionalLight*, "", "DirectionalLight");
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -86,13 +87,13 @@ protected:
   constexpr DirectionalLight();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLight", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLight", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLight(DirectionalLight&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLight", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DirectionalLight", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DirectionalLight(DirectionalLight const&) = delete;
+  DirectionalLight(DirectionalLightconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19493 };
@@ -100,6 +101,7 @@ public:
   /// @brief Field kMaxLights offset 0xffffffff size 0x4
   static constexpr int32_t kMaxLights{ static_cast<int32_t>(0x5) };
 
+  /// [ColorUsage(false)]
   /// @brief Field color, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
 

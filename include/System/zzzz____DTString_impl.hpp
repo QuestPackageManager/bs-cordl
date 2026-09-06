@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\__DTString.hpp"
+// IWYU pragma private; include "System/__DTString.hpp"
 #include "System/zzzz__ReadOnlySpan_1_impl.hpp"
 #include "System/zzzz____DTString_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
@@ -450,9 +450,10 @@ inline void System::__DTString::ConsumeSubString(::System::DTSubString sub) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::__DTString>(), { "ConsumeSubString", {}, { ::i2c::type_of<::System::DTSubString>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sub);
 }
-// Ctor Parameters [CppParam { name: "Value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Index", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_current", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_info", ty: "::System::Globalization::CompareInfo*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_checkDigitToken", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Value", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Index", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_current", ty: "char16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_info", ty:
+// "::System::Globalization::CompareInfo*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_checkDigitToken", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::System::__DTString::__DTString(::System::ReadOnlySpan_1<char16_t> Value, int32_t Index, char16_t m_current, ::System::Globalization::CompareInfo* m_info, bool m_checkDigitToken) noexcept {
   this->Value = Value;
   this->Index = Index;

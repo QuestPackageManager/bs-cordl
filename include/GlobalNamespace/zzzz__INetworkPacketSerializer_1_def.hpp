@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\INetworkPacketSerializer_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/INetworkPacketSerializer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,18 +35,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
   constexpr operator ::GlobalNamespace::INetworkPacketProcessor_1<TData>*() noexcept;
 
-  /// @brief Method ProcessAllPackets, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessAllPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessAllPackets(::LiteNetLib::Utils::NetDataReader* reader, TData data);
 
-  /// @brief Method SerializePacket, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SerializePacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SerializePacket(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
 
   /// @brief Convert to "::GlobalNamespace::INetworkPacketProcessor_1<TData>"
   constexpr ::GlobalNamespace::INetworkPacketProcessor_1<TData>* i___GlobalNamespace__INetworkPacketProcessor_1_TData_() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSerializer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSerializer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INetworkPacketSerializer_1(INetworkPacketSerializer_1 const&) = delete;
+  INetworkPacketSerializer_1(INetworkPacketSerializer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18226 };

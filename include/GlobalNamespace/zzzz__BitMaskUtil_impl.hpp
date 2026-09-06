@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BitMaskUtil.hpp"
+// IWYU pragma private; include "GlobalNamespace/BitMaskUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BitMaskUtil_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BitMaskUtil.NumberOfSetBits
@@ -66,12 +66,12 @@ inline uint32_t GlobalNamespace::BitMaskUtil::NumberOfSetBits(uint32_t i) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMaskUtil*>(), { "NumberOfSetBits", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, i);
 }
-inline uint64_t GlobalNamespace::BitMaskUtil::ShiftLeft(::by_ref<uint64_t> value, ::by_ref<int32_t> shift) {
+inline uint64_t GlobalNamespace::BitMaskUtil::ShiftLeft(/* [IsReadOnly] */ ::by_ref<uint64_t> value, /* [IsReadOnly] */ ::by_ref<int32_t> shift) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMaskUtil*>(), { "ShiftLeft", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(nullptr, ___internal_method, value, shift);
 }
-inline uint64_t GlobalNamespace::BitMaskUtil::ShiftRight(::by_ref<uint64_t> value, ::by_ref<int32_t> shift) {
+inline uint64_t GlobalNamespace::BitMaskUtil::ShiftRight(/* [IsReadOnly] */ ::by_ref<uint64_t> value, /* [IsReadOnly] */ ::by_ref<int32_t> shift) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMaskUtil*>(), { "ShiftRight", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));

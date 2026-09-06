@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Endo\ECEndomorphism.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/ECEndomorphism.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ public:
 
   __declspec(property(get = get_PointMap)) ::Org::BouncyCastle::Math::EC::ECPointMap* PointMap;
 
-  /// @brief Method get_HasEfficientPointMap, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_HasEfficientPointMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasEfficientPointMap();
 
-  /// @brief Method get_PointMap, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_PointMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECEndomorphism", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECEndomorphism", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECEndomorphism(ECEndomorphism const&) = delete;
+  ECEndomorphism(ECEndomorphismconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1515 };

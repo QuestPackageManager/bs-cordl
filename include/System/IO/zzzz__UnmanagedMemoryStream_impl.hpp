@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\UnmanagedMemoryStream.hpp"
+// IWYU pragma private; include "System/IO/UnmanagedMemoryStream.hpp"
 #include "System/IO/zzzz__FileAccess_impl.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/IO/zzzz__UnmanagedMemoryStream_def.hpp"
@@ -667,9 +667,11 @@ inline void System::IO::UnmanagedMemoryStream::WriteByte(uint8_t value) {
 inline ::System::IO::UnmanagedMemoryStream* System::IO::UnmanagedMemoryStream::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::IO::UnmanagedMemoryStream*>());
 }
+/// @brief [CLSCompliant(false)]
 inline ::System::IO::UnmanagedMemoryStream* System::IO::UnmanagedMemoryStream::New_ctor(uint8_t* pointer, int64_t length) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::IO::UnmanagedMemoryStream*>(pointer, length));
 }
+/// @brief [CLSCompliant(false)]
 inline ::System::IO::UnmanagedMemoryStream* System::IO::UnmanagedMemoryStream::New_ctor(uint8_t* pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::IO::UnmanagedMemoryStream*>(pointer, length, capacity, access));
 }

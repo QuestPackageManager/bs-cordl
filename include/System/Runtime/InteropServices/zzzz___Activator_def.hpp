@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\_Activator.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/_Activator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,6 +11,10 @@ class _Activator;
 // Write type traits
 MARK_REF_T(::System::Runtime::InteropServices::_Activator*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::_Activator*, "System.Runtime.InteropServices", "_Activator");
+// [ComVisible(true)]
+// [Guid("03973551-57A1-3900-A2B5-9083E3FF2943")]
+// [InterfaceType((System.Runtime.InteropServices.ComInterfaceType)1)]
+// [CLSCompliant(false)]
 // Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: false
@@ -18,9 +22,9 @@ namespace System::Runtime::InteropServices {
 class CORDL_TYPE _Activator {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "_Activator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "_Activator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  _Activator(_Activator const&) = delete;
+  _Activator(_Activatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3355 };

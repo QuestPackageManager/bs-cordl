@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\KerningPairKey.hpp"
+// IWYU pragma private; include "TMPro/KerningPairKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,8 +27,8 @@ public:
   // @brief default ctor
   constexpr KerningPairKey();
 
-  // Ctor Parameters [CppParam { name: "ascii_Left", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ascii_Right", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "key", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ascii_Left", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ascii_Right", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "key", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr KerningPairKey(uint32_t ascii_Left, uint32_t ascii_Right, uint32_t key) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

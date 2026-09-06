@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\PlayerInputManager.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/PlayerInputManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,13 +91,13 @@ protected:
   constexpr PlayerInputManager_PlayerJoinedEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerJoinedEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerJoinedEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerInputManager_PlayerJoinedEvent(PlayerInputManager_PlayerJoinedEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerJoinedEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerJoinedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInputManager_PlayerJoinedEvent(PlayerInputManager_PlayerJoinedEvent const&) = delete;
+  PlayerInputManager_PlayerJoinedEvent(PlayerInputManager_PlayerJoinedEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8803 };
@@ -126,13 +126,13 @@ protected:
   constexpr PlayerInputManager_PlayerLeftEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerLeftEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerLeftEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerInputManager_PlayerLeftEvent(PlayerInputManager_PlayerLeftEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerLeftEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager_PlayerLeftEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInputManager_PlayerLeftEvent(PlayerInputManager_PlayerLeftEvent const&) = delete;
+  PlayerInputManager_PlayerLeftEvent(PlayerInputManager_PlayerLeftEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8804 };
@@ -143,6 +143,8 @@ public:
 static_assert(sizeof(::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [AddComponentMenu("Input/Player Input Manager")]
+// [HelpURL("https://docs.unity3d.com/Packages/com.unity.inputsystem@1.13/manual/PlayerInputManager.html")]
 // Dependencies UnityEngine.InputSystem.InputActionProperty, UnityEngine.InputSystem.PlayerJoinBehavior, UnityEngine.InputSystem.PlayerNotifications,
 // UnityEngine.InputSystem.Utilities.CallbackArray`1<TDelegate>, UnityEngine.MonoBehaviour, UnityEngine.Rect
 namespace UnityEngine::InputSystem {
@@ -264,7 +266,7 @@ public:
 
   /// @brief Method JoinPlayer, addr 0x6585fe4, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme,
-                                                                      ::ArrayW<::UnityEngine::InputSystem::InputDevice*> pairWithDevices);
+                                                                      /* [ParamArray] */ ::ArrayW<::UnityEngine::InputSystem::InputDevice*> pairWithDevices);
 
   /// @brief Method JoinPlayerFromAction, addr 0x6585dc8, size 0x5c, virtual false, abstract: false, final false
   inline void JoinPlayerFromAction(::UnityEngine::InputSystem::InputAction_CallbackContext context);
@@ -420,6 +422,7 @@ public:
   /// @brief Method get_fixedNumberOfSplitScreens, addr 0x6585100, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fixedNumberOfSplitScreens();
 
+  /// [CompilerGenerated]
   /// @brief Method get_instance, addr 0x65859bc, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInputManager> get_instance();
 
@@ -470,6 +473,7 @@ public:
 
   static inline void setStaticF__instance_k__BackingField(::UnityW<::UnityEngine::InputSystem::PlayerInputManager> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_instance, addr 0x6585a08, size 0x50, virtual false, abstract: false, final false
   static inline void set_instance(::UnityEngine::InputSystem::PlayerInputManager* value);
 
@@ -494,13 +498,13 @@ protected:
   constexpr PlayerInputManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerInputManager(PlayerInputManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerInputManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerInputManager(PlayerInputManager const&) = delete;
+  PlayerInputManager(PlayerInputManagerconst&) = delete;
 
   /// @brief Field PlayerJoinedMessage offset 0xffffffff size 0x8
   static constexpr ::ConstString PlayerJoinedMessage{ u"OnPlayerJoined" };
@@ -511,39 +515,53 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8805 };
 
+  /// [SerializeField]
   /// @brief Field m_NotificationBehavior, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::PlayerNotifications ___m_NotificationBehavior;
 
+  /// [Tooltip("Set a limit for the maximum number of players who are able to join.")]
+  /// [SerializeField]
   /// @brief Field m_MaxPlayerCount, offset: 0x24, size: 0x4, def value: None
   int32_t ___m_MaxPlayerCount;
 
+  /// [SerializeField]
   /// @brief Field m_AllowJoining, offset: 0x28, size: 0x1, def value: None
   bool ___m_AllowJoining;
 
+  /// [SerializeField]
   /// @brief Field m_JoinBehavior, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::InputSystem::PlayerJoinBehavior ___m_JoinBehavior;
 
+  /// [SerializeField]
   /// @brief Field m_PlayerJoinedEvent, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::InputSystem::PlayerInputManager_PlayerJoinedEvent* ___m_PlayerJoinedEvent;
 
+  /// [SerializeField]
   /// @brief Field m_PlayerLeftEvent, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent* ___m_PlayerLeftEvent;
 
+  /// [SerializeField]
   /// @brief Field m_JoinAction, offset: 0x40, size: 0x18, def value: None
   ::UnityEngine::InputSystem::InputActionProperty ___m_JoinAction;
 
+  /// [SerializeField]
   /// @brief Field m_PlayerPrefab, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_PlayerPrefab;
 
+  /// [SerializeField]
   /// @brief Field m_SplitScreen, offset: 0x60, size: 0x1, def value: None
   bool ___m_SplitScreen;
 
+  /// [SerializeField]
   /// @brief Field m_MaintainAspectRatioInSplitScreen, offset: 0x61, size: 0x1, def value: None
   bool ___m_MaintainAspectRatioInSplitScreen;
 
+  /// [Tooltip("Explicitly set a fixed number of screens or otherwise allow the screen to be divided automatically to best fit the number of players.")]
+  /// [SerializeField]
   /// @brief Field m_FixedNumberOfSplitScreens, offset: 0x64, size: 0x4, def value: None
   int32_t ___m_FixedNumberOfSplitScreens;
 
+  /// [SerializeField]
   /// @brief Field m_SplitScreenRect, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_SplitScreenRect;
 

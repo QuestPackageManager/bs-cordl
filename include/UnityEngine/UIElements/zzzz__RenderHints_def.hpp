@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RenderHints.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RenderHints.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RenderHints;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::RenderHints);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RenderHints, "UnityEngine.UIElements", "RenderHints");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -53,7 +54,7 @@ public:
   // @brief default ctor
   constexpr RenderHints();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderHints(int32_t value__) noexcept;
 
   /// @brief Field BoneTransform value: I32(2)

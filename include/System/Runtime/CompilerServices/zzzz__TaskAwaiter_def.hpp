@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\TaskAwaiter.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/TaskAwaiter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_
 MARK_VAL_T(::System::Runtime::CompilerServices::TaskAwaiter);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0*, "System.Runtime.CompilerServices", "TaskAwaiter/<>c__DisplayClass11_0");
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -72,13 +73,13 @@ protected:
   constexpr TaskAwaiter___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiter___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiter___c__DisplayClass11_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskAwaiter___c__DisplayClass11_0(TaskAwaiter___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiter___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiter___c__DisplayClass11_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskAwaiter___c__DisplayClass11_0(TaskAwaiter___c__DisplayClass11_0 const&) = delete;
+  TaskAwaiter___c__DisplayClass11_0(TaskAwaiter___c__DisplayClass11_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3407 };
@@ -99,6 +100,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::TaskAwaiter___c__Dis
 static_assert(sizeof(::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0) == 0x20, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
+// [IsReadOnly]
 // Dependencies
 namespace System::Runtime::CompilerServices {
 // Is value type: true
@@ -116,9 +118,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
+  /// [StackTraceHidden]
   /// @brief Method GetResult, addr 0x5b71124, size 0x8, virtual false, abstract: false, final false
   inline void GetResult();
 
+  /// [StackTraceHidden]
   /// @brief Method HandleNonSuccessAndDebuggerNotification, addr 0x5b7115c, size 0x6c, virtual false, abstract: false, final false
   static inline void HandleNonSuccessAndDebuggerNotification(::System::Threading::Tasks::Task* task);
 
@@ -131,12 +135,14 @@ public:
   /// @brief Method OutputWaitEtwEvents, addr 0x5b71304, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Action* OutputWaitEtwEvents(::System::Threading::Tasks::Task* task, ::System::Action* continuation);
 
+  /// [StackTraceHidden]
   /// @brief Method ThrowForNonSuccess, addr 0x5b711c8, size 0x13c, virtual false, abstract: false, final false
   static inline void ThrowForNonSuccess(::System::Threading::Tasks::Task* task);
 
   /// @brief Method UnsafeOnCompleted, addr 0x5b70eb0, size 0x10, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
+  /// [StackTraceHidden]
   /// @brief Method ValidateEnd, addr 0x5b7112c, size 0x30, virtual false, abstract: false, final false
   static inline void ValidateEnd(::System::Threading::Tasks::Task* task);
 
@@ -156,7 +162,7 @@ public:
   // @brief default ctor
   constexpr TaskAwaiter();
 
-  // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None, comment: None }]
   constexpr TaskAwaiter(::System::Threading::Tasks::Task* m_task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

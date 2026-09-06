@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Enum_ParseFailureKind.hpp"
+// IWYU pragma private; include "System/Enum_ParseFailureKind.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   // @brief default ctor
   constexpr Enum_ParseFailureKind();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Enum_ParseFailureKind(int32_t value__) noexcept;
 
   /// @brief Field Argument value: I32(1)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\CipherUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/CipherUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__CipherUtilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -8,7 +8,7 @@
 #include "Org/BouncyCastle/Security/zzzz__CipherUtilities_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm::CipherUtilities_CipherAlgorithm(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -53,7 +53,7 @@ constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm Org::Bo
 constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm::VMPC{ static_cast<int32_t>(0x24) };
 constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm::VMPC_KSA3{ static_cast<int32_t>(0x25) };
 constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm::XTEA{ static_cast<int32_t>(0x26) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherMode::CipherUtilities_CipherMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -73,7 +73,7 @@ constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherMode Org::BouncyC
 constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherMode Org::BouncyCastle::Security::CipherUtilities_CipherMode::OFB{ static_cast<int32_t>(0xb) };
 constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherMode Org::BouncyCastle::Security::CipherUtilities_CipherMode::OPENPGPCFB{ static_cast<int32_t>(0xc) };
 constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherMode Org::BouncyCastle::Security::CipherUtilities_CipherMode::SIC{ static_cast<int32_t>(0xd) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Org::BouncyCastle::Security::CipherUtilities_CipherPadding::CipherUtilities_CipherPadding(int32_t value__) noexcept {
   this->value__ = value__;
 }

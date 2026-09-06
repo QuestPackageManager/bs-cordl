@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextSettings.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,8 +64,8 @@ public:
   // @brief default ctor
   constexpr TextSettings_FontReferenceMap();
 
-  // Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty:
-  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontAsset", ty:
+  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None, comment: None }]
   constexpr TextSettings_FontReferenceMap(::UnityW<::UnityEngine::Font> font, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -90,6 +90,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextSettings_FontReference
 static_assert(sizeof(::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
+// [ExcludeFromPreset]
+// [ExcludeFromObjectFactory]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -128,6 +130,7 @@ public:
 
   __declspec(property(get = get_fallbackOSFontAssets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fallbackOSFontAssets;
 
+  /// @brief [Obsolete("The Fallback Sprite Assets list is now obsolete. Use the emojiFallbackTextAssets instead.", true)]
   __declspec(property(get = get_fallbackSpriteAssets,
                       put = set_fallbackSpriteAssets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* fallbackSpriteAssets;
 
@@ -213,6 +216,7 @@ public:
 
   __declspec(property(get = get_version, put = set_version)) ::StringW version;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method GetCachedFontAsset, addr 0x6c01e44, size 0x344, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAsset(::UnityEngine::Font* font, ::UnityEngine::Shader* shader);
 
@@ -402,6 +406,7 @@ public:
   /// @brief Method get_fallbackFontAssets, addr 0x6c01664, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* get_fallbackFontAssets();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method get_fallbackOSFontAssets, addr 0x6c01674, size 0x48, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* get_fallbackOSFontAssets();
 
@@ -420,6 +425,7 @@ public:
   /// @brief Method get_missingSpriteCharacterUnicode, addr 0x6c0191c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_missingSpriteCharacterUnicode();
 
+  /// [CompilerGenerated]
   /// @brief Method get_s_GlobalSpriteAsset, addr 0x6c018d0, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> get_s_GlobalSpriteAsset();
 
@@ -481,6 +487,7 @@ public:
   /// @brief Method set_missingSpriteCharacterUnicode, addr 0x6c01924, size 0x8, virtual false, abstract: false, final false
   inline void set_missingSpriteCharacterUnicode(uint32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_s_GlobalSpriteAsset, addr 0x6c01880, size 0x50, virtual false, abstract: false, final false
   static inline void set_s_GlobalSpriteAsset(::UnityEngine::TextCore::Text::SpriteAsset* value);
 
@@ -496,68 +503,96 @@ protected:
   constexpr TextSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextSettings(TextSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextSettings(TextSettings const&) = delete;
+  TextSettings(TextSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17239 };
 
+  /// [SerializeField]
   /// @brief Field m_Version, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_Version;
 
+  /// [FormerlySerializedAs("m_defaultFontAsset")]
+  /// [SerializeField]
   /// @brief Field m_DefaultFontAsset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextCore::Text::FontAsset> ___m_DefaultFontAsset;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_defaultFontAssetPath")]
   /// @brief Field m_DefaultFontAssetPath, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_DefaultFontAssetPath;
 
+  /// [FormerlySerializedAs("m_fallbackFontAssets")]
+  /// [SerializeField]
   /// @brief Field m_FallbackFontAssets, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* ___m_FallbackFontAssets;
 
+  /// [FormerlySerializedAs("m_matchMaterialPreset")]
+  /// [SerializeField]
   /// @brief Field m_MatchMaterialPreset, offset: 0x38, size: 0x1, def value: None
   bool ___m_MatchMaterialPreset;
 
+  /// [FormerlySerializedAs("m_missingGlyphCharacter")]
+  /// [SerializeField]
   /// @brief Field m_MissingCharacterUnicode, offset: 0x3c, size: 0x4, def value: None
   int32_t ___m_MissingCharacterUnicode;
 
+  /// [SerializeField]
   /// @brief Field m_ClearDynamicDataOnBuild, offset: 0x40, size: 0x1, def value: None
   bool ___m_ClearDynamicDataOnBuild;
 
+  /// [SerializeField]
   /// @brief Field m_EnableEmojiSupport, offset: 0x41, size: 0x1, def value: None
   bool ___m_EnableEmojiSupport;
 
+  /// [SerializeField]
   /// @brief Field m_EmojiFallbackTextAssets, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>* ___m_EmojiFallbackTextAssets;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_defaultSpriteAsset")]
   /// @brief Field m_DefaultSpriteAsset, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> ___m_DefaultSpriteAsset;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_defaultSpriteAssetPath")]
   /// @brief Field m_DefaultSpriteAssetPath, offset: 0x58, size: 0x8, def value: None
   ::StringW ___m_DefaultSpriteAssetPath;
 
+  /// [SerializeField]
   /// @brief Field m_FallbackSpriteAssets, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* ___m_FallbackSpriteAssets;
 
+  /// [SerializeField]
   /// @brief Field m_MissingSpriteCharacterUnicode, offset: 0x68, size: 0x4, def value: None
   uint32_t ___m_MissingSpriteCharacterUnicode;
 
+  /// [FormerlySerializedAs("m_defaultStyleSheet")]
+  /// [SerializeField]
   /// @brief Field m_DefaultStyleSheet, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> ___m_DefaultStyleSheet;
 
+  /// [SerializeField]
   /// @brief Field m_StyleSheetsResourcePath, offset: 0x78, size: 0x8, def value: None
   ::StringW ___m_StyleSheetsResourcePath;
 
+  /// [FormerlySerializedAs("m_defaultColorGradientPresetsPath")]
+  /// [SerializeField]
   /// @brief Field m_DefaultColorGradientPresetsPath, offset: 0x80, size: 0x8, def value: None
   ::StringW ___m_DefaultColorGradientPresetsPath;
 
+  /// [SerializeField]
   /// @brief Field m_UnicodeLineBreakingRules, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* ___m_UnicodeLineBreakingRules;
 
+  /// [FormerlySerializedAs("m_warningsDisabled")]
+  /// [SerializeField]
   /// @brief Field m_DisplayWarnings, offset: 0x90, size: 0x1, def value: None
   bool ___m_DisplayWarnings;
 

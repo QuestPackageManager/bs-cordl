@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Res.hpp"
+// IWYU pragma private; include "System/Xml/Res.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__Res_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -32,7 +32,7 @@ inline ::StringW System::Xml::Res::GetString(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Res*>(), { "GetString", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, name);
 }
-inline ::StringW System::Xml::Res::GetString(::StringW name, ::ArrayW<::System::Object*> args) {
+inline ::StringW System::Xml::Res::GetString(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Res*>(), { "GetString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, name, args);

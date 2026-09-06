@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeBrickIndex.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeBrickIndex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering {
 struct ProbeBrickIndex_Brick;
@@ -75,6 +77,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeBrickIndex*, "UnityEngine.Ren
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeBrickIndex_Brick, "UnityEngine.Rendering", "ProbeBrickIndex/Brick");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeBrickIndex_CellIndexUpdateInfo, "UnityEngine.Rendering", "ProbeBrickIndex/CellIndexUpdateInfo");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo, "UnityEngine.Rendering", "ProbeBrickIndex/IndirectionEntryUpdateInfo");
+// [DebuggerDisplay("Brick [{position}, {subdivisionLevel}]")]
 // Dependencies UnityEngine.Vector3Int
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -101,8 +104,8 @@ public:
   // @brief default ctor
   constexpr ProbeBrickIndex_Brick();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "subdivisionLevel", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "subdivisionLevel", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ProbeBrickIndex_Brick(::UnityEngine::Vector3Int position, int32_t subdivisionLevel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -138,10 +141,11 @@ public:
   // @brief default ctor
   constexpr ProbeBrickIndex_IndirectionEntryUpdateInfo();
 
-  // Ctor Parameters [CppParam { name: "firstChunkIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "numberOfChunks", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "minSubdivInCell", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minValidBrickIndexForCellAtMaxRes", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None
-  // }, CppParam { name: "maxValidBrickIndexForCellAtMaxResPlusOne", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "entryPositionInBricksAtMaxRes", ty:
-  // "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "hasOnlyBiggerBricks", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "firstChunkIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "numberOfChunks", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "minSubdivInCell", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "minValidBrickIndexForCellAtMaxRes", ty:
+  // "::UnityEngine::Vector3Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxValidBrickIndexForCellAtMaxResPlusOne", ty: "::UnityEngine::Vector3Int", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "entryPositionInBricksAtMaxRes", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "hasOnlyBiggerBricks", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeBrickIndex_IndirectionEntryUpdateInfo(int32_t firstChunkIndex, int32_t numberOfChunks, int32_t minSubdivInCell, ::UnityEngine::Vector3Int minValidBrickIndexForCellAtMaxRes,
                                                        ::UnityEngine::Vector3Int maxValidBrickIndexForCellAtMaxResPlusOne, ::UnityEngine::Vector3Int entryPositionInBricksAtMaxRes,
                                                        bool hasOnlyBiggerBricks) noexcept;
@@ -207,7 +211,7 @@ public:
   // @brief default ctor
   constexpr ProbeBrickIndex_CellIndexUpdateInfo();
 
-  // Ctor Parameters [CppParam { name: "entriesInfo", ty: "::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "entriesInfo", ty: "::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeBrickIndex_CellIndexUpdateInfo(::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entriesInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -322,8 +326,8 @@ public:
   static inline int32_t LocationToIndex(int32_t x, int32_t y, int32_t z, ::UnityEngine::Vector3Int sizeOfValid);
 
   /// @brief Method MarkBrickInPhysicalBuffer, addr 0x67890f0, size 0x334, virtual false, abstract: false, final false
-  inline void MarkBrickInPhysicalBuffer(::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entry, ::UnityEngine::Vector3Int brickMin, ::UnityEngine::Vector3Int brickMax,
-                                        int32_t brickSubdivLevel, int32_t entrySubdivLevel, int32_t idx);
+  inline void MarkBrickInPhysicalBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entry, ::UnityEngine::Vector3Int brickMin,
+                                        ::UnityEngine::Vector3Int brickMax, int32_t brickSubdivLevel, int32_t entrySubdivLevel, int32_t idx);
 
   /// @brief Method MergeIndex, addr 0x6788b38, size 0xc, virtual false, abstract: false, final false
   inline int32_t MergeIndex(int32_t index, int32_t size);
@@ -432,15 +436,19 @@ public:
   /// @brief Method .ctor, addr 0x6788498, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget);
 
+  /// [CompilerGenerated]
   /// @brief Method get_estimatedVMemCost, addr 0x6788428, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_estimatedVMemCost();
 
+  /// [CompilerGenerated]
   /// @brief Method get_fragmentationRate, addr 0x6788440, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fragmentationRate();
 
+  /// [CompilerGenerated]
   /// @brief Method set_estimatedVMemCost, addr 0x6788430, size 0x8, virtual false, abstract: false, final false
   inline void set_estimatedVMemCost(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_fragmentationRate, addr 0x6788448, size 0x8, virtual false, abstract: false, final false
   inline void set_fragmentationRate(float_t value);
 
@@ -450,13 +458,13 @@ protected:
   constexpr ProbeBrickIndex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeBrickIndex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeBrickIndex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeBrickIndex(ProbeBrickIndex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeBrickIndex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeBrickIndex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeBrickIndex(ProbeBrickIndex const&) = delete;
+  ProbeBrickIndex(ProbeBrickIndexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12081 };
@@ -506,9 +514,11 @@ public:
   /// @brief Field m_UpdateMaxIndex, offset: 0x58, size: 0x4, def value: None
   int32_t ___m_UpdateMaxIndex;
 
+  /// [CompilerGenerated]
   /// @brief Field <estimatedVMemCost>k__BackingField, offset: 0x5c, size: 0x4, def value: None
   int32_t ____estimatedVMemCost_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <fragmentationRate>k__BackingField, offset: 0x60, size: 0x4, def value: None
   float_t ____fragmentationRate_k__BackingField;
 

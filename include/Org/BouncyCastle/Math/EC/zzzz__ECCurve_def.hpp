@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\ECCurve.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,13 +133,13 @@ protected:
   constexpr ECCurve_Config();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECCurve_Config", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECCurve_Config", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECCurve_Config(ECCurve_Config&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECCurve_Config", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECCurve_Config", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECCurve_Config(ECCurve_Config const&) = delete;
+  ECCurve_Config(ECCurve_Configconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1359 };
@@ -229,13 +229,13 @@ protected:
   constexpr ECCurve_DefaultLookupTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECCurve_DefaultLookupTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECCurve_DefaultLookupTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECCurve_DefaultLookupTable(ECCurve_DefaultLookupTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECCurve_DefaultLookupTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECCurve_DefaultLookupTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECCurve_DefaultLookupTable(ECCurve_DefaultLookupTable const&) = delete;
+  ECCurve_DefaultLookupTable(ECCurve_DefaultLookupTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1360 };
@@ -321,7 +321,7 @@ public:
   /// @brief Method CheckPoints, addr 0x34a4338, size 0x150, virtual true, abstract: false, final false
   inline void CheckPoints(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len);
 
-  /// @brief Method CloneCurve, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CloneCurve, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
   /// @brief Method Configure, addr 0x34a33d8, size 0x70, virtual true, abstract: false, final false
@@ -336,20 +336,21 @@ public:
   /// @brief Method CreatePoint, addr 0x34a3568, size 0x14, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y);
 
+  /// [Obsolete("Per-point compression property will be removed")]
   /// @brief Method CreatePoint, addr 0x34a357c, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
 
-  /// @brief Method CreateRawPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method CreateRawPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
 
   /// @brief Method DecodePoint, addr 0x34a47e4, size 0x400, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* DecodePoint(::ArrayW<uint8_t> encoded);
 
-  /// @brief Method DecompressPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DecompressPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int32_t yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);
 
   /// @brief Method Equals, addr 0x34a45d8, size 0x98, virtual true, abstract: false, final false
@@ -358,7 +359,7 @@ public:
   /// @brief Method Equals, addr 0x34a4488, size 0x150, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::ECCurve* other);
 
-  /// @brief Method FromBigInteger, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FromBigInteger, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
   /// @brief Method GetAllCoordinateSystems, addr 0x34a3350, size 0x78, virtual false, abstract: false, final false
@@ -379,7 +380,7 @@ public:
   /// @brief Method ImportPoint, addr 0x34a3bfc, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method IsValidFieldElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsValidFieldElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsValidFieldElement(::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* New_ctor(::Org::BouncyCastle::Math::Field::IFiniteField* field);
@@ -394,10 +395,10 @@ public:
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::ECPoint* point, ::StringW name,
                                                                             ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* callback);
 
-  /// @brief Method RandomFieldElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method RandomFieldElementMult, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElementMult, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
 
   /// @brief Method SupportsCoordinateSystem, addr 0x34a369c, size 0xc, virtual true, abstract: false, final false
@@ -406,6 +407,7 @@ public:
   /// @brief Method ValidatePoint, addr 0x34a3458, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y);
 
+  /// [Obsolete("Per-point compression property will be removed")]
   /// @brief Method ValidatePoint, addr 0x34a34e4, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
 
@@ -475,10 +477,10 @@ public:
   /// @brief Method get_Field, addr 0x34a4028, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::Field::IFiniteField* get_Field();
 
-  /// @brief Method get_FieldSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_FieldSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method get_Infinity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Infinity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
   /// @brief Method get_Order, addr 0x34a4040, size 0x8, virtual true, abstract: false, final false
@@ -490,13 +492,13 @@ protected:
   constexpr ECCurve();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECCurve", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECCurve", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECCurve(ECCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECCurve", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ECCurve", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ECCurve(ECCurve const&) = delete;
+  ECCurve(ECCurveconst&) = delete;
 
   /// @brief Field COORD_AFFINE offset 0xffffffff size 0x4
   static constexpr int32_t COORD_AFFINE{ static_cast<int32_t>(0x0) };

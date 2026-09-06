@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor\Analytics\ProjectSettingsInformationAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor/Analytics/ProjectSettingsInformationAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__ProjectSettingsInformationAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::ProjectSettingsInformationAnalytic._ctor

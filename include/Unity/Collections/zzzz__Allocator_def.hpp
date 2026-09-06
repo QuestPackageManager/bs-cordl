@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Allocator.hpp"
+// IWYU pragma private; include "Unity/Collections/Allocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct Allocator;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::Allocator);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::Allocator, "Unity.Collections", "Allocator");
+// [UsedByNativeCode]
 // Dependencies
 namespace Unity::Collections {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr Allocator();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Allocator(int32_t value__) noexcept;
 
   /// @brief Field AudioKernel value: I32(5)

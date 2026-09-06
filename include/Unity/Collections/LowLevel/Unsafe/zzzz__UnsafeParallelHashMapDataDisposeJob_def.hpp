@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapDataDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapDataDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct UnsafeParallelHashMapDataDisposeJob;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDisposeJob, "Unity.Collections.LowLevel.Unsafe", "UnsafeParallelHashMapDataDisposeJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashMapDataDispose
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
@@ -36,7 +37,7 @@ public:
   // @brief default ctor
   constexpr UnsafeParallelHashMapDataDisposeJob();
 
-  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDispose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDispose", modifiers: "", def_value: None, comment: None }]
   constexpr UnsafeParallelHashMapDataDisposeJob(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

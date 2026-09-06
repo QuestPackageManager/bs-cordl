@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Video\VideoAspectRatio.hpp"
+// IWYU pragma private; include "UnityEngine/Video/VideoAspectRatio.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct VideoAspectRatio;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Video::VideoAspectRatio);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Video::VideoAspectRatio, "UnityEngine.Video", "VideoAspectRatio");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::Video {
 // Is value type: true
@@ -46,7 +47,7 @@ public:
   // @brief default ctor
   constexpr VideoAspectRatio();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VideoAspectRatio(int32_t value__) noexcept;
 
   /// @brief Field FitHorizontally value: I32(2)

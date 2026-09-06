@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncLoader.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncLoader.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncLoader_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncLoader_def.hpp"
@@ -8,7 +8,7 @@
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep::AsyncLoader_SynchronizationStep(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\ReadOnlyAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/ReadOnlyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class ReadOnlyAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::ReadOnlyAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::ReadOnlyAttribute*, "Unity.Collections", "ReadOnlyAttribute");
+// [AttributeUsage((System.AttributeTargets)10496)]
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace Unity::Collections {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr ReadOnlyAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReadOnlyAttribute(ReadOnlyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyAttribute(ReadOnlyAttribute const&) = delete;
+  ReadOnlyAttribute(ReadOnlyAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9984 };

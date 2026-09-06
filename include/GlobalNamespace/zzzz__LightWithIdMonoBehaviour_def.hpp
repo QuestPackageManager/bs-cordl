@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightWithIdMonoBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightWithIdMonoBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class LightWithIdMonoBehaviour;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightWithIdMonoBehaviour*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightWithIdMonoBehaviour*, "", "LightWithIdMonoBehaviour");
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -55,7 +56,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILightWithId"
   constexpr operator ::GlobalNamespace::ILightWithId*() noexcept;
 
-  /// @brief Method ColorWasSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::LightWithIdMonoBehaviour* New_ctor();
@@ -135,26 +136,30 @@ protected:
   constexpr LightWithIdMonoBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdMonoBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdMonoBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightWithIdMonoBehaviour(LightWithIdMonoBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdMonoBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightWithIdMonoBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightWithIdMonoBehaviour(LightWithIdMonoBehaviour const&) = delete;
+  LightWithIdMonoBehaviour(LightWithIdMonoBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19543 };
 
+  /// [SerializeField]
   /// @brief Field _ID, offset: 0x20, size: 0x4, def value: None
   int32_t ____ID;
 
+  /// [SerializeField]
   /// @brief Field _groupId, offset: 0x24, size: 0x4, def value: None
   int32_t ____groupId;
 
+  /// [SerializeField]
   /// @brief Field _elementId, offset: 0x28, size: 0x4, def value: None
   int32_t ____elementId;
 
+  /// [Inject]
   /// @brief Field _lightManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 

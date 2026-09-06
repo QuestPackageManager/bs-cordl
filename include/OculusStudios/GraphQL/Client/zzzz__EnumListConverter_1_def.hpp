@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\EnumListConverter_1.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/EnumListConverter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::EnumListConverter_1);
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::EnumListConverter_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::EnumListConverter_1, "OculusStudios.GraphQL.Client", "EnumListConverter`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::EnumListConverter_1___c, "OculusStudios.GraphQL.Client", "EnumListConverter`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace OculusStudios::GraphQL::Client {
 // cpp template
@@ -87,13 +88,13 @@ protected:
   constexpr EnumListConverter_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumListConverter_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumListConverter_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumListConverter_1___c(EnumListConverter_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumListConverter_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumListConverter_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumListConverter_1___c(EnumListConverter_1___c const&) = delete;
+  EnumListConverter_1___c(EnumListConverter_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20396 };
@@ -133,13 +134,13 @@ protected:
   constexpr EnumListConverter_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumListConverter_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumListConverter_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumListConverter_1(EnumListConverter_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumListConverter_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumListConverter_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumListConverter_1(EnumListConverter_1 const&) = delete;
+  EnumListConverter_1(EnumListConverter_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20397 };

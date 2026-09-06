@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ContextContainer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ContextContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ContextItem_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -62,13 +63,13 @@ protected:
   constexpr ContextContainer_TypeId_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContextContainer_TypeId_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextContainer_TypeId_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextContainer_TypeId_1(ContextContainer_TypeId_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContextContainer_TypeId_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextContainer_TypeId_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextContainer_TypeId_1(ContextContainer_TypeId_1 const&) = delete;
+  ContextContainer_TypeId_1(ContextContainer_TypeId_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11887 };
@@ -88,8 +89,8 @@ public:
   // @brief default ctor
   constexpr ContextContainer_Item();
 
-  // Ctor Parameters [CppParam { name: "storage", ty: "::UnityEngine::Rendering::ContextItem*", modifiers: "", def_value: None }, CppParam { name: "isSet", ty: "bool", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "storage", ty: "::UnityEngine::Rendering::ContextItem*", modifiers: "", def_value: None, comment: None }, CppParam { name: "isSet", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ContextContainer_Item(::UnityEngine::Rendering::ContextItem* storage, bool isSet) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -114,7 +115,7 @@ static_assert(offsetof(::UnityEngine::Rendering::ContextContainer_Item, isSet) =
 static_assert(sizeof(::UnityEngine::Rendering::ContextContainer_Item) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies System.Object, UnityEngine.Rendering.ContextContainer::Item
+// Dependencies System.Object, UnityEngine.Rendering.ContextContainer::Item, UnityEngine.Rendering.ContextItem
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ContextContainer
@@ -138,25 +139,35 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool Contains();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline bool Contains();
 
   /// @brief Method Contains, addr 0x6756410, size 0x4c, virtual false, abstract: false, final false
   inline bool Contains(uint32_t typeId);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Create();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T Create();
 
   /// @brief Method CreateAndGetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T CreateAndGetData(uint32_t typeId);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T CreateAndGetData(uint32_t typeId);
 
   /// @brief Method Dispose, addr 0x675645c, size 0x17c, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Get();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T Get();
 
   /// @brief Method GetOrCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetOrCreate();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline T GetOrCreate();
 
   static inline ::UnityEngine::Rendering::ContextContainer* New_ctor();
 
@@ -188,13 +199,13 @@ protected:
   constexpr ContextContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContextContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextContainer(ContextContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContextContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextContainer(ContextContainer const&) = delete;
+  ContextContainer(ContextContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11889 };

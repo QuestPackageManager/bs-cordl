@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XmlNodeWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XmlNodeWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ class XmlNodeWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XmlNodeWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XmlNodeWrapper*, "Newtonsoft.Json.Converters", "XmlNodeWrapper");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -35,8 +37,10 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE XmlNodeWrapper : public ::System::Object {
 public:
   // Declarations
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_Attributes)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* Attributes;
 
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_ChildNodes)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ChildNodes;
 
   __declspec(property(get = get_HasAttributes)) bool HasAttributes;
@@ -67,11 +71,14 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
+  /// [NullableContext(1)]
   /// @brief Method AppendChild, addr 0x5da0200, size 0xb0, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Converters::XmlNodeWrapper* New_ctor(::System::Xml::XmlNode* node);
 
+  /// [NullableContext(1)]
   /// @brief Method WrapNode, addr 0x5d9fae8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Converters::IXmlNode* WrapNode(::System::Xml::XmlNode* node);
 
@@ -93,12 +100,15 @@ public:
 
   constexpr void __cordl_internal_set__node(::System::Xml::XmlNode* value);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d9eca8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* node);
 
+  /// [NullableContext(1)]
   /// @brief Method get_Attributes, addr 0x5d9fc84, size 0x400, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
 
+  /// [NullableContext(1)]
   /// @brief Method get_ChildNodes, addr 0x5d9f6e0, size 0x408, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
 
@@ -138,23 +148,26 @@ protected:
   constexpr XmlNodeWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlNodeWrapper(XmlNodeWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlNodeWrapper(XmlNodeWrapper const&) = delete;
+  XmlNodeWrapper(XmlNodeWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13673 };
 
+  /// [Nullable(1)]
   /// @brief Field _node, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNode* ____node;
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _childNodes, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ____childNodes;
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field _attributes, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ____attributes;
 

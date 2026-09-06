@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerCategory.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerCategory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ struct ProfilerCategory;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::ProfilerCategory);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::ProfilerCategory, "Unity.Profiling", "ProfilerCategory");
+// [IsReadOnly]
+// [UsedByNativeCode]
 // Dependencies
 namespace Unity::Profiling {
 // Is value type: true
@@ -64,7 +66,7 @@ public:
   // @brief default ctor
   constexpr ProfilerCategory();
 
-  // Ctor Parameters [CppParam { name: "m_CategoryId", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_CategoryId", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerCategory(uint16_t m_CategoryId) noexcept;
 
 private:

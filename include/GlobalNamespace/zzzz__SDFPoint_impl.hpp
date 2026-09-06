@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SDFPoint.hpp"
+// IWYU pragma private; include "GlobalNamespace/SDFPoint.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SDFPoint_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SDFPoint.get_sqrtRadius

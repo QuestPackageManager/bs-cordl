@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionStage.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionStage.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionStage_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"

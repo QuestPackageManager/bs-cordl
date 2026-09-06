@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelCompletionResults.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelCompletionResults.hpp"
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
@@ -12,7 +12,7 @@
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType::LevelCompletionResults_LevelEndStateType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -21,7 +21,7 @@ constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType::LevelComp
 constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType GlobalNamespace::LevelCompletionResults_LevelEndStateType::Incomplete{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType GlobalNamespace::LevelCompletionResults_LevelEndStateType::Cleared{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType GlobalNamespace::LevelCompletionResults_LevelEndStateType::Failed{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndAction::LevelCompletionResults_LevelEndAction(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -526,6 +526,7 @@ inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::LevelCompleti
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCompletionResults*>(), { "CreateFromSerializedData", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LevelCompletionResults*>(nullptr, ___internal_method, reader);
 }
+/// @brief [Preserve]
 inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::LevelCompletionResults::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LevelCompletionResults*>());
 }

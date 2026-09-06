@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\EventSanitizer.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/EventSanitizer.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventSanitizer_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventSanitizer_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__Event_def.hpp"
@@ -73,7 +73,7 @@ inline void UnityEngine::InputForUI::EventSanitizer_IEventSanitizer::AfterProvid
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputForUI::EventSanitizer_IEventSanitizer*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::InputForUI::EventSanitizer_IEventSanitizer::Inspect(::by_ref<::UnityEngine::InputForUI::Event> ev) {
+inline void UnityEngine::InputForUI::EventSanitizer_IEventSanitizer::Inspect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputForUI::EventSanitizer_IEventSanitizer*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ev);
@@ -140,12 +140,12 @@ inline void UnityEngine::InputForUI::EventSanitizer::AfterProviderUpdate() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventSanitizer>(), { "AfterProviderUpdate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void UnityEngine::InputForUI::EventSanitizer::Inspect(::by_ref<::UnityEngine::InputForUI::Event> ev) {
+inline void UnityEngine::InputForUI::EventSanitizer::Inspect(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventSanitizer>(), { "Inspect", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ev);
 }
-// Ctor Parameters [CppParam { name: "_sanitizers", ty: "::ArrayW<::UnityEngine::InputForUI::EventSanitizer_IEventSanitizer*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_sanitizers", ty: "::ArrayW<::UnityEngine::InputForUI::EventSanitizer_IEventSanitizer*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputForUI::EventSanitizer::EventSanitizer(::ArrayW<::UnityEngine::InputForUI::EventSanitizer_IEventSanitizer*> _sanitizers) noexcept {
   this->_sanitizers = _sanitizers;
 }

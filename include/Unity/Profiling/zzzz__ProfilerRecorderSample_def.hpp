@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerRecorderSample.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerRecorderSample.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct ProfilerRecorderSample;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::ProfilerRecorderSample);
 DEFINE_IL2CPP_CLASS(::Unity::Profiling::ProfilerRecorderSample, "Unity.Profiling", "ProfilerRecorderSample");
+// [UsedByNativeCode]
+// [DebuggerDisplay("Value = {Value}; Count = {Count}")]
 // Dependencies
 namespace Unity::Profiling {
 // Is value type: true
@@ -34,8 +36,8 @@ public:
   // @brief default ctor
   constexpr ProfilerRecorderSample();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "refValue",
-  // ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "count", ty: "int64_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "refValue", ty: "int64_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilerRecorderSample(int64_t value, int64_t count, int64_t refValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

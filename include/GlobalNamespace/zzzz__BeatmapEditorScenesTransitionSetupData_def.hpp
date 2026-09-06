@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEditorScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEditorScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,7 +16,9 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
@@ -43,7 +45,7 @@ public:
   inline void Finish();
 
   /// @brief Method Init, addr 0x590df30, size 0x4c, virtual false, abstract: false, final false
-  inline void Init(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
+  inline void Init(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder, /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */
                    ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel);
 
   static inline ::GlobalNamespace::BeatmapEditorScenesTransitionSetupData* New_ctor();
@@ -57,9 +59,11 @@ public:
   /// @brief Method .ctor, addr 0x590df9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x590ddb0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x590de70, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>* value);
 
@@ -69,17 +73,18 @@ protected:
   constexpr BeatmapEditorScenesTransitionSetupData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorScenesTransitionSetupData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorScenesTransitionSetupData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEditorScenesTransitionSetupData(BeatmapEditorScenesTransitionSetupData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorScenesTransitionSetupData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorScenesTransitionSetupData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapEditorScenesTransitionSetupData(BeatmapEditorScenesTransitionSetupData const&) = delete;
+  BeatmapEditorScenesTransitionSetupData(BeatmapEditorScenesTransitionSetupDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6731 };
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>* ___didFinishEvent;
 

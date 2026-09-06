@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\RestrictionFlags.hpp"
+// IWYU pragma private; include "System/Xml/Schema/RestrictionFlags.hpp"
 #include "System/Xml/Schema/zzzz__RestrictionFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::RestrictionFlags::RestrictionFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

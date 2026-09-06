@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutNode.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,9 @@ namespace UnityEngine::UIElements::Layout {
 struct LayoutJustify;
 }
 namespace UnityEngine::UIElements::Layout {
-template <typename T> struct LayoutList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct LayoutList_1;
 }
 namespace UnityEngine::UIElements::Layout {
 class LayoutMeasureFunction;
@@ -79,6 +81,7 @@ struct LayoutNode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::Layout::LayoutNode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutNode, "UnityEngine.UIElements.Layout", "LayoutNode");
+// [DefaultMember("Item")]
 // Dependencies UnityEngine.UIElements.Layout.LayoutDataAccess, UnityEngine.UIElements.Layout.LayoutHandle
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -522,8 +525,8 @@ public:
   // @brief default ctor
   constexpr LayoutNode();
 
-  // Ctor Parameters [CppParam { name: "m_Access", ty: "::UnityEngine::UIElements::Layout::LayoutDataAccess", modifiers: "", def_value: None }, CppParam { name: "m_Handle", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Access", ty: "::UnityEngine::UIElements::Layout::LayoutDataAccess", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Handle", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutHandle", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutNode(::UnityEngine::UIElements::Layout::LayoutDataAccess m_Access, ::UnityEngine::UIElements::Layout::LayoutHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

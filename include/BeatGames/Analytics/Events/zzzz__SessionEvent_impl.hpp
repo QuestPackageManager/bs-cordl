@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames\Analytics\Events\SessionEvent.hpp"
+// IWYU pragma private; include "BeatGames/Analytics/Events/SessionEvent.hpp"
 #include "BeatGames/Analytics/Events/zzzz__BasePlatformSessionAnalyticsEvent_impl.hpp"
 #include "BeatGames/Analytics/Events/zzzz__SessionEvent_def.hpp"
 #include "GlobalNamespace/zzzz__IDType_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IVisualElementScheduledItem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IVisualElementScheduledItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,30 +24,30 @@ public:
   // Declarations
   __declspec(property(get = get_isActive)) bool isActive;
 
-  /// @brief Method Every, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Every, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* Every(int64_t intervalMs);
 
-  /// @brief Method ExecuteLater, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExecuteLater, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExecuteLater(int64_t delayMs);
 
-  /// @brief Method Pause, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Resume, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resume();
 
-  /// @brief Method StartingIn, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartingIn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* StartingIn(int64_t delayMs);
 
-  /// @brief Method Until, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Until, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* Until(::System::Func_1<bool>* stopCondition);
 
-  /// @brief Method get_isActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isActive();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVisualElementScheduledItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVisualElementScheduledItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVisualElementScheduledItem(IVisualElementScheduledItem const&) = delete;
+  IVisualElementScheduledItem(IVisualElementScheduledItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5246 };

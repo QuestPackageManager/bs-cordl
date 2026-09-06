@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRBounded3D.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRBounded3D.hpp"
 #include "GlobalNamespace/zzzz__OVRBounded3D_def.hpp"
 #include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
@@ -334,7 +334,7 @@ constexpr GlobalNamespace::OVRBounded3D::operator ::System::IEquatable_1<::Globa
 constexpr ::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>* GlobalNamespace::OVRBounded3D::i___System__IEquatable_1___GlobalNamespace__OVRBounded3D_() {
   return static_cast<::System::IEquatable_1<::GlobalNamespace::OVRBounded3D>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRBounded3D::OVRBounded3D(uint64_t _Handle_k__BackingField) noexcept {
   this->_Handle_k__BackingField = _Handle_k__BackingField;
 }

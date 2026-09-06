@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ProviderUtil.hpp"
+// IWYU pragma private; include "Zenject/ProviderUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ protected:
   constexpr ProviderUtil();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderUtil", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderUtil", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProviderUtil(ProviderUtil&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderUtil", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderUtil", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProviderUtil(ProviderUtil const&) = delete;
+  ProviderUtil(ProviderUtilconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14588 };

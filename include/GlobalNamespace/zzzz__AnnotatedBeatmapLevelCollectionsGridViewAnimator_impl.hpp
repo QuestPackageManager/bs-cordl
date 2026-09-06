@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AnnotatedBeatmapLevelCollectionsGridViewAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/AnnotatedBeatmapLevelCollectionsGridViewAnimator.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsGridViewAnimator_def.hpp"

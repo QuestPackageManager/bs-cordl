@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\IntegratedSubsystem.hpp"
+// IWYU pragma private; include "UnityEngine/IntegratedSubsystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ protected:
   constexpr IntegratedSubsystem_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegratedSubsystem_BindingsMarshaller(IntegratedSubsystem_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegratedSubsystem_BindingsMarshaller(IntegratedSubsystem_BindingsMarshaller const&) = delete;
+  IntegratedSubsystem_BindingsMarshaller(IntegratedSubsystem_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22926 };
@@ -63,6 +63,8 @@ public:
 static_assert(sizeof(::UnityEngine::IntegratedSubsystem_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [UsedByNativeCode]
+// [NativeHeader("Modules/Subsystems/Subsystem.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -97,7 +99,7 @@ public:
   static inline ::UnityEngine::IntegratedSubsystem* New_ctor();
 
   /// @brief Method SetHandle, addr 0x6bb7e7c, size 0x58, virtual false, abstract: false, final false
-  inline void SetHandle(::UnityEngine::IntegratedSubsystem* subsystem);
+  inline void SetHandle(/* [Unmarshalled] */ ::UnityEngine::IntegratedSubsystem* subsystem);
 
   /// @brief Method SetHandle_Injected, addr 0x6bb7ed4, size 0x44, virtual false, abstract: false, final false
   static inline void SetHandle_Injected(::System::IntPtr _unity_self, ::UnityEngine::IntegratedSubsystem* subsystem);
@@ -144,17 +146,18 @@ protected:
   constexpr IntegratedSubsystem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegratedSubsystem(IntegratedSubsystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IntegratedSubsystem(IntegratedSubsystem const&) = delete;
+  IntegratedSubsystem(IntegratedSubsystemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22927 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 

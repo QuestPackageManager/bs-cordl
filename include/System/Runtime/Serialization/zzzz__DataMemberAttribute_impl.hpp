@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\DataMemberAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/DataMemberAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__DataMemberAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::DataMemberAttribute._ctor

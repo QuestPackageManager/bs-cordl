@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\RenderChain.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderChain.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,9 @@ namespace UnityEngine::UIElements::UIR {
 class JobManager;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class LinkedPool_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>)
+class LinkedPool_1;
 }
 namespace UnityEngine::UIElements::UIR {
 class MeshGenerationDeferrer;
@@ -186,9 +188,10 @@ public:
   // @brief default ctor
   constexpr RenderChain_DepthOrderedDirtyTracking();
 
-  // Ctor Parameters [CppParam { name: "heads", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None }, CppParam { name: "tails",
-  // ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None }, CppParam { name: "minDepths", ty: "::ArrayW<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "maxDepths", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "dirtyID", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "heads", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "tails", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "minDepths", ty:
+  // "::ArrayW<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxDepths", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "dirtyID", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderChain_DepthOrderedDirtyTracking(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* heads,
                                                   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* tails, ::ArrayW<int32_t> minDepths, ::ArrayW<int32_t> maxDepths,
                                                   uint32_t dirtyID) noexcept;
@@ -259,7 +262,7 @@ public:
   // @brief default ctor
   constexpr VisualChangesProcessor_RenderChain_VisualsProcessingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualChangesProcessor_RenderChain_VisualsProcessingType(int32_t value__) noexcept;
 
   /// @brief Field Head value: I32(0)
@@ -296,9 +299,9 @@ public:
   // @brief default ctor
   constexpr VisualChangesProcessor_RenderChain_EntryProcessingInfo();
 
-  // Ctor Parameters [CppParam { name: "visualElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "type", ty:
-  // "::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_VisualsProcessingType", modifiers: "", def_value: None }, CppParam { name: "rootEntry", ty:
-  // "::UnityEngine::UIElements::UIR::Entry*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "visualElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "type", ty:
+  // "::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_VisualsProcessingType", modifiers: "", def_value: None, comment: None }, CppParam { name: "rootEntry", ty:
+  // "::UnityEngine::UIElements::UIR::Entry*", modifiers: "", def_value: None, comment: None }]
   constexpr VisualChangesProcessor_RenderChain_EntryProcessingInfo(::UnityEngine::UIElements::VisualElement* visualElement,
                                                                    ::UnityEngine::UIElements::UIR::VisualChangesProcessor_RenderChain_VisualsProcessingType type,
                                                                    ::UnityEngine::UIElements::UIR::Entry* rootEntry) noexcept;
@@ -454,6 +457,7 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_UpdateOpacityIdMarker();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6ceadac, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
@@ -472,6 +476,7 @@ public:
 
   static inline void setStaticF_k_UpdateOpacityIdMarker(::Unity::Profiling::ProfilerMarker value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6ceadb4, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -481,13 +486,13 @@ protected:
   constexpr RenderChain_VisualChangesProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderChain_VisualChangesProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderChain_VisualChangesProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderChain_VisualChangesProcessor(RenderChain_VisualChangesProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderChain_VisualChangesProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderChain_VisualChangesProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderChain_VisualChangesProcessor(RenderChain_VisualChangesProcessor const&) = delete;
+  RenderChain_VisualChangesProcessor(RenderChain_VisualChangesProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5331 };
@@ -507,6 +512,8 @@ public:
   /// @brief Field m_Processors, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryProcessor*>* ___m_Processors;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <disposed>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
@@ -528,6 +535,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain_VisualChanges
 static_assert(sizeof(::UnityEngine::UIElements::UIR::RenderChain_VisualChangesProcessor) == 0x40, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
@@ -593,13 +601,13 @@ protected:
   constexpr RenderChain___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderChain___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderChain___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderChain___c(RenderChain___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderChain___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderChain___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderChain___c(RenderChain___c const&) = delete;
+  RenderChain___c(RenderChain___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5332 };
@@ -1102,18 +1110,23 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::EntryPool* getStaticF_s_SharedEntryPool();
 
+  /// [CompilerGenerated]
   /// @brief Method get_atlas, addr 0x6ce9ae0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::AtlasBase* get_atlas();
 
+  /// [CompilerGenerated]
   /// @brief Method get_device, addr 0x6ce9ab8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::UIRenderDevice* get_device();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6ce6e7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
+  /// [CompilerGenerated]
   /// @brief Method get_drawInCameras, addr 0x6ce9bac, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawInCameras();
 
+  /// [CompilerGenerated]
   /// @brief Method get_drawStats, addr 0x6ce9b9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawStats();
 
@@ -1123,36 +1136,45 @@ public:
   /// @brief Method get_entryPool, addr 0x6ce9b18, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::EntryPool* get_entryPool();
 
+  /// [CompilerGenerated]
   /// @brief Method get_forceGammaRendering, addr 0x6ce9bbc, size 0x8, virtual false, abstract: false, final false
   inline bool get_forceGammaRendering();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isFlat, addr 0x6ce9bb4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFlat();
 
+  /// [CompilerGenerated]
   /// @brief Method get_jobManager, addr 0x6ce9b8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::JobManager* get_jobManager();
 
   /// @brief Method get_meshGenerationDeferrer, addr 0x6ce9b74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::MeshGenerationDeferrer* get_meshGenerationDeferrer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_meshGenerationNodeManager, addr 0x6ce9b7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationNodeManager* get_meshGenerationNodeManager();
 
+  /// [CompilerGenerated]
   /// @brief Method get_meshWriteDataPool, addr 0x6ce9b10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::MeshWriteDataPool* get_meshWriteDataPool();
 
+  /// [CompilerGenerated]
   /// @brief Method get_opacityIdAccelerator, addr 0x6ce61ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* get_opacityIdAccelerator();
 
+  /// [CompilerGenerated]
   /// @brief Method get_panel, addr 0x6ce9aa8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
 
   /// @brief Method get_statsByRef, addr 0x6ce722c, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> get_statsByRef();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tempMeshAllocator, addr 0x6ce9b00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl* get_tempMeshAllocator();
 
+  /// [CompilerGenerated]
   /// @brief Method get_vectorImageManager, addr 0x6ce9af0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageManager* get_vectorImageManager();
 
@@ -1175,33 +1197,43 @@ public:
 
   static inline void setStaticF_s_SharedEntryPool(::UnityEngine::UIElements::UIR::EntryPool* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_atlas, addr 0x6ce9ae8, size 0x8, virtual false, abstract: false, final false
   inline void set_atlas(::UnityEngine::UIElements::AtlasBase* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_device, addr 0x6ce9ac0, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::UIElements::UIR::UIRenderDevice* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6ce6e84, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_drawStats, addr 0x6ce9ba4, size 0x8, virtual false, abstract: false, final false
   inline void set_drawStats(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_jobManager, addr 0x6ce9b94, size 0x8, virtual false, abstract: false, final false
   inline void set_jobManager(::UnityEngine::UIElements::UIR::JobManager* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_meshGenerationNodeManager, addr 0x6ce9b84, size 0x8, virtual false, abstract: false, final false
   inline void set_meshGenerationNodeManager(::UnityEngine::UIElements::MeshGenerationNodeManager* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_opacityIdAccelerator, addr 0x6ce61f4, size 0x8, virtual false, abstract: false, final false
   inline void set_opacityIdAccelerator(::UnityEngine::UIElements::UIR::OpacityIdAccelerator* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_panel, addr 0x6ce9ab0, size 0x8, virtual false, abstract: false, final false
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tempMeshAllocator, addr 0x6ce9b08, size 0x8, virtual false, abstract: false, final false
   inline void set_tempMeshAllocator(::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_vectorImageManager, addr 0x6ce9af8, size 0x8, virtual false, abstract: false, final false
   inline void set_vectorImageManager(::UnityEngine::UIElements::UIR::VectorImageManager* value);
 
@@ -1211,13 +1243,13 @@ protected:
   constexpr RenderChain();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderChain", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderChain", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderChain(RenderChain&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderChain", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderChain", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderChain(RenderChain const&) = delete;
+  RenderChain(RenderChainconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5333 };
@@ -1267,51 +1299,79 @@ public:
   /// @brief Field m_TextureRegistry, offset: 0xe8, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextureRegistry* ___m_TextureRegistry;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <opacityIdAccelerator>k__BackingField, offset: 0xf0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* ____opacityIdAccelerator_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0xf8, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <panel>k__BackingField, offset: 0x100, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseVisualElementPanel* ____panel_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <device>k__BackingField, offset: 0x108, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::UIRenderDevice* ____device_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <atlas>k__BackingField, offset: 0x110, size: 0x8, def value: None
   ::UnityEngine::UIElements::AtlasBase* ____atlas_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <vectorImageManager>k__BackingField, offset: 0x118, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::VectorImageManager* ____vectorImageManager_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <tempMeshAllocator>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl* ____tempMeshAllocator_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <meshWriteDataPool>k__BackingField, offset: 0x128, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::MeshWriteDataPool* ____meshWriteDataPool_k__BackingField;
 
   /// @brief Field entryRecorder, offset: 0x130, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::EntryRecorder* ___entryRecorder;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <meshGenerationNodeManager>k__BackingField, offset: 0x138, size: 0x8, def value: None
   ::UnityEngine::UIElements::MeshGenerationNodeManager* ____meshGenerationNodeManager_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <jobManager>k__BackingField, offset: 0x140, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::JobManager* ____jobManager_k__BackingField;
 
   /// @brief Field shaderInfoAllocator, offset: 0x148, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator* ___shaderInfoAllocator;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <drawStats>k__BackingField, offset: 0x150, size: 0x1, def value: None
   bool ____drawStats_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <drawInCameras>k__BackingField, offset: 0x151, size: 0x1, def value: None
   bool ____drawInCameras_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isFlat>k__BackingField, offset: 0x152, size: 0x1, def value: None
   bool ____isFlat_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <forceGammaRendering>k__BackingField, offset: 0x153, size: 0x1, def value: None
   bool ____forceGammaRendering_k__BackingField;
 

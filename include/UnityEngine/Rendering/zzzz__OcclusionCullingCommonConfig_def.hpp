@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingCommonConfig.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingCommonConfig.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct OcclusionCullingCommonConfig;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::OcclusionCullingCommonConfig);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::OcclusionCullingCommonConfig, "UnityEngine.Rendering", "OcclusionCullingCommonConfig");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\OcclusionCullingCommon.cs")] Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.OcclusionCullingCommonConfig
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingCommonConfig();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingCommonConfig(int32_t value__) noexcept;
 
   /// @brief Field DebugPyramidOffset value: I32(4)

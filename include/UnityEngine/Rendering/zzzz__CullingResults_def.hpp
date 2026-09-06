@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CullingResults.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CullingResults.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering {
 struct CullingAllocationInfo;
@@ -57,6 +59,9 @@ struct CullingResults;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CullingResults);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CullingResults, "UnityEngine.Rendering", "CullingResults");
+// [NativeHeader("Runtime/Graphics/ScriptableRenderLoop/ScriptableCulling.h")]
+// [NativeHeader("Runtime/Export/RenderPipeline/ScriptableRenderPipeline.bindings.h")]
+// [NativeHeader("Runtime/Scripting/ScriptingCommonStructDefinitions.h")]
 // Dependencies System.IntPtr
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -78,6 +83,7 @@ public:
                                                                    float_t shadowNearPlaneOffset, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                                                    ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
+  /// [FreeFunction("ScriptableRenderPipeline_Bindings::ComputeDirectionalShadowMatricesAndCullingPrimitives")]
   /// @brief Method ComputeDirectionalShadowMatricesAndCullingPrimitives, addr 0x6b203c8, size 0xb8, virtual false, abstract: false, final false
   static inline bool ComputeDirectionalShadowMatricesAndCullingPrimitives(::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, int32_t splitIndex, int32_t splitCount,
                                                                           ::UnityEngine::Vector3 splitRatio, int32_t shadowResolution, float_t shadowNearPlaneOffset,
@@ -94,6 +100,7 @@ public:
   inline bool ComputePointShadowMatricesAndCullingPrimitives(int32_t activeLightIndex, ::UnityEngine::CubemapFace cubemapFace, float_t fovBias, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix,
                                                              ::by_ref<::UnityEngine::Matrix4x4> projMatrix, ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
+  /// [FreeFunction("ScriptableRenderPipeline_Bindings::ComputePointShadowMatricesAndCullingPrimitives")]
   /// @brief Method ComputePointShadowMatricesAndCullingPrimitives, addr 0x6b20344, size 0x84, virtual false, abstract: false, final false
   static inline bool ComputePointShadowMatricesAndCullingPrimitives(::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, ::UnityEngine::CubemapFace cubemapFace, float_t fovBias,
                                                                     ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
@@ -103,6 +110,7 @@ public:
   inline bool ComputeSpotShadowMatricesAndCullingPrimitives(int32_t activeLightIndex, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                                             ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
+  /// [FreeFunction("ScriptableRenderPipeline_Bindings::ComputeSpotShadowMatricesAndCullingPrimitives")]
   /// @brief Method ComputeSpotShadowMatricesAndCullingPrimitives, addr 0x6b202d8, size 0x6c, virtual false, abstract: false, final false
   static inline bool ComputeSpotShadowMatricesAndCullingPrimitives(::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix,
                                                                    ::by_ref<::UnityEngine::Matrix4x4> projMatrix, ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
@@ -116,39 +124,48 @@ public:
   /// @brief Method FillLightAndReflectionProbeIndices, addr 0x6b20684, size 0x50, virtual false, abstract: false, final false
   inline void FillLightAndReflectionProbeIndices(::UnityEngine::ComputeBuffer* computeBuffer);
 
+  /// [FreeFunction("FillLightAndReflectionProbeIndices")]
   /// @brief Method FillLightAndReflectionProbeIndices, addr 0x6b2010c, size 0x50, virtual false, abstract: false, final false
   static inline void FillLightAndReflectionProbeIndices(::System::IntPtr cullingResultsPtr, ::UnityEngine::ComputeBuffer* computeBuffer);
 
   /// @brief Method FillLightAndReflectionProbeIndices_Injected, addr 0x6b2015c, size 0x44, virtual false, abstract: false, final false
   static inline void FillLightAndReflectionProbeIndices_Injected(::System::IntPtr cullingResultsPtr, ::System::IntPtr computeBuffer);
 
+  /// [FreeFunction("FillLightIndexMapScriptable")]
   /// @brief Method FillLightIndexMap, addr 0x6b201dc, size 0x54, virtual false, abstract: false, final false
   static inline void FillLightIndexMap(::System::IntPtr cullingResultsPtr, ::System::IntPtr indexMapPtr, int32_t indexMapSize);
 
   /// @brief Method GetHashCode, addr 0x6b20b38, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [FreeFunction("ScriptableRenderPipeline_Bindings::GetLightIndexCount")]
   /// @brief Method GetLightIndexCount, addr 0x6b20094, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLightIndexCount(::System::IntPtr cullingResultsPtr);
 
   /// @brief Method GetLightIndexMap, addr 0x6b206d4, size 0xf8, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int32_t> GetLightIndexMap(::Unity::Collections::Allocator allocator);
 
+  /// [FreeFunction("GetLightIndexMapSize")]
   /// @brief Method GetLightIndexMapSize, addr 0x6b201a0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLightIndexMapSize(::System::IntPtr cullingResultsPtr);
 
   /// @brief Method GetNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetNativeArray(void* dataPointer, int32_t length);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::Unity::Collections::NativeArray_1<T> GetNativeArray(void* dataPointer, int32_t length);
 
+  /// [FreeFunction("ScriptableRenderPipeline_Bindings::GetReflectionProbeIndexCount")]
   /// @brief Method GetReflectionProbeIndexCount, addr 0x6b200d0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetReflectionProbeIndexCount(::System::IntPtr cullingResultsPtr);
 
+  /// [FreeFunction("ScriptableRenderPipeline_Bindings::GetShadowCasterBounds")]
   /// @brief Method GetShadowCasterBounds, addr 0x6b20284, size 0x54, virtual false, abstract: false, final false
   static inline bool GetShadowCasterBounds(::System::IntPtr cullingResultsPtr, int32_t lightIndex, ::by_ref<::UnityEngine::Bounds> bounds);
 
   /// @brief Method GetShadowCasterBounds, addr 0x6b2084c, size 0x54, virtual false, abstract: false, final false
   inline bool GetShadowCasterBounds(int32_t lightIndex, ::by_ref<::UnityEngine::Bounds> outBounds);
 
+  /// [FreeFunction("SetLightIndexMapScriptable")]
   /// @brief Method SetLightIndexMap, addr 0x6b20230, size 0x54, virtual false, abstract: false, final false
   static inline void SetLightIndexMap(::System::IntPtr cullingResultsPtr, ::System::IntPtr indexMapPtr, int32_t indexMapSize);
 
@@ -174,8 +191,8 @@ public:
   // @brief default ctor
   constexpr CullingResults();
 
-  // Ctor Parameters [CppParam { name: "ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_AllocationInfo", ty: "::UnityEngine::Rendering::CullingAllocationInfo*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ptr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocationInfo", ty:
+  // "::UnityEngine::Rendering::CullingAllocationInfo*", modifiers: "", def_value: None, comment: None }]
   constexpr CullingResults(::System::IntPtr ptr, ::UnityEngine::Rendering::CullingAllocationInfo* m_AllocationInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -184,6 +201,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.VFXModule" })]
   /// @brief Field ptr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr ptr;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RepeatButton.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RepeatButton.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ MARK_REF_T(::UnityEngine::UIElements::RepeatButton_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RepeatButton*, "UnityEngine.UIElements", "RepeatButton");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RepeatButton_UxmlFactory*, "UnityEngine.UIElements", "RepeatButton/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::RepeatButton_UxmlTraits*, "UnityEngine.UIElements", "RepeatButton/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr RepeatButton_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RepeatButton_UxmlFactory(RepeatButton_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RepeatButton_UxmlFactory(RepeatButton_UxmlFactory const&) = delete;
+  RepeatButton_UxmlFactory(RepeatButton_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4300 };
@@ -84,6 +85,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::RepeatButton_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -123,13 +125,13 @@ protected:
   constexpr RepeatButton_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RepeatButton_UxmlTraits(RepeatButton_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RepeatButton_UxmlTraits(RepeatButton_UxmlTraits const&) = delete;
+  RepeatButton_UxmlTraits(RepeatButton_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4301 };
@@ -213,13 +215,13 @@ protected:
   constexpr RepeatButton();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RepeatButton(RepeatButton&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RepeatButton", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RepeatButton(RepeatButton const&) = delete;
+  RepeatButton(RepeatButtonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4302 };

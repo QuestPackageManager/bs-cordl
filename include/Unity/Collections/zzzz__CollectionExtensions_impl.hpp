@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\CollectionExtensions.hpp"
+// IWYU pragma private; include "Unity/Collections/CollectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__CollectionExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -33,7 +33,8 @@ template <typename T> inline ::Unity::Collections::CollectionExtensions___c__Dis
 // Ctor Parameters []
 template <typename T> constexpr ::Unity::Collections::CollectionExtensions___c__DisplayClass3_0_1<T>::CollectionExtensions___c__DisplayClass3_0_1() {}
 template <typename T>
-inline ::StringW Unity::Collections::CollectionExtensions::SerializedView(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Func_2<T, ::StringW>* serializeElement) {
+inline ::StringW Unity::Collections::CollectionExtensions::SerializedView(/* [DisallowNull] */ ::System::Collections::Generic::IEnumerable_1<T>* collection,
+                                                                          /* [DisallowNull] */ ::System::Func_2<T, ::StringW>* serializeElement) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::CollectionExtensions*>(),

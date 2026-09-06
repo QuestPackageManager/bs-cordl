@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonSerializerInternalReader.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonSerializerInternalReader.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerInternalBase_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -29,7 +29,7 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence::JsonSerializerInternalReader_PropertyPresence(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -137,6 +137,7 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader_Creato
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_CreatorPropertyContext*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, name);
 }
+/// @brief [NullableContext(1)]
 inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_CreatorPropertyContext*
 Newtonsoft::Json::Serialization::JsonSerializerInternalReader_CreatorPropertyContext::New_ctor(::StringW name) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_CreatorPropertyContext*>(name));
@@ -1266,7 +1267,8 @@ inline ::Newtonsoft::Json::Serialization::JsonContract* Newtonsoft::Json::Serial
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(), { "GetContract", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::JsonContract*>(this, ___internal_method, type);
 }
-inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::Deserialize(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, bool checkAdditionalContent) {
+inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::Deserialize(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
+                                                                                                    bool checkAdditionalContent) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                            { "Deserialize", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));
@@ -1277,7 +1279,7 @@ inline ::Newtonsoft::Json::Serialization::JsonSerializerProxy* Newtonsoft::Json:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(), { "GetInternalSerializer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::JsonSerializerProxy*>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateJToken(::Newtonsoft::Json::JsonReader* reader,
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateJToken(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader,
                                                                                                                      ::Newtonsoft::Json::Serialization::JsonContract* contract) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1289,9 +1291,12 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Serialization::JsonSe
                                                                                          { "CreateJObject", {}, { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*>(this, ___internal_method, reader);
 }
-inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateValueInternal(
-    ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member,
-    ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerMember, ::System::Object* existingValue) {
+inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateValueInternal(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
+                                                                                                            ::Newtonsoft::Json::Serialization::JsonContract* contract,
+                                                                                                            ::Newtonsoft::Json::Serialization::JsonProperty* member,
+                                                                                                            ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
+                                                                                                            ::Newtonsoft::Json::Serialization::JsonProperty* containerMember,
+                                                                                                            ::System::Object* existingValue) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1302,7 +1307,8 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
                                            ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonProperty*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, contract, member, containerContract, containerMember, existingValue);
 }
-inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CoerceEmptyStringToNull(::System::Type* objectType, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::StringW s) {
+inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CoerceEmptyStringToNull(::System::Type* objectType, ::Newtonsoft::Json::Serialization::JsonContract* contract,
+                                                                                                   /* [Nullable(1)] */ ::StringW s) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1327,9 +1333,12 @@ inline ::Newtonsoft::Json::JsonConverter* Newtonsoft::Json::Serialization::JsonS
                                            ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonContainerContract*>(), ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonProperty*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonConverter*>(this, ___internal_method, contract, memberConverter, containerContract, containerProperty);
 }
-inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateObject(
-    ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* member,
-    ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerMember, ::System::Object* existingValue) {
+inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateObject(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
+                                                                                                     ::Newtonsoft::Json::Serialization::JsonContract* contract,
+                                                                                                     ::Newtonsoft::Json::Serialization::JsonProperty* member,
+                                                                                                     ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
+                                                                                                     ::Newtonsoft::Json::Serialization::JsonProperty* containerMember,
+                                                                                                     ::System::Object* existingValue) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1340,12 +1349,10 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
                                            ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonProperty*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, contract, member, containerContract, containerMember, existingValue);
 }
-inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ReadMetadataPropertiesToken(::Newtonsoft::Json::Linq::JTokenReader* reader, ::by_ref<::System::Type*> objectType,
-                                                                                                       ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> contract,
-                                                                                                       ::Newtonsoft::Json::Serialization::JsonProperty* member,
-                                                                                                       ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
-                                                                                                       ::Newtonsoft::Json::Serialization::JsonProperty* containerMember,
-                                                                                                       ::System::Object* existingValue, ::by_ref<::System::Object*> newValue, ::by_ref<::StringW> id) {
+inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ReadMetadataPropertiesToken(
+    /* [Nullable(1)] */ ::Newtonsoft::Json::Linq::JTokenReader* reader, ::by_ref<::System::Type*> objectType, ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> contract,
+    ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
+    ::Newtonsoft::Json::Serialization::JsonProperty* containerMember, ::System::Object* existingValue, ::by_ref<::System::Object*> newValue, ::by_ref<::StringW> id) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                               { "ReadMetadataPropertiesToken",
@@ -1356,7 +1363,7 @@ inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ReadM
                                                   ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::System::Object*>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, reader, objectType, contract, member, containerContract, containerMember, existingValue, newValue, id);
 }
-inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ReadMetadataProperties(::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Type*> objectType,
+inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ReadMetadataProperties(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Type*> objectType,
                                                                                                   ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> contract,
                                                                                                   ::Newtonsoft::Json::Serialization::JsonProperty* member,
                                                                                                   ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
@@ -1372,11 +1379,12 @@ inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ReadM
                                                   ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::System::Object*>>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, reader, objectType, contract, member, containerContract, containerMember, existingValue, newValue, id);
 }
-inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ResolveTypeName(::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Type*> objectType,
+inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ResolveTypeName(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Type*> objectType,
                                                                                            ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> contract,
                                                                                            ::Newtonsoft::Json::Serialization::JsonProperty* member,
                                                                                            ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
-                                                                                           ::Newtonsoft::Json::Serialization::JsonProperty* containerMember, ::StringW qualifiedTypeName) {
+                                                                                           ::Newtonsoft::Json::Serialization::JsonProperty* containerMember,
+                                                                                           /* [Nullable(1)] */ ::StringW qualifiedTypeName) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                               { "ResolveTypeName",
@@ -1398,7 +1406,7 @@ Newtonsoft::Json::Serialization::JsonSerializerInternalReader::EnsureArrayContra
                             { ::i2c::type_of<::Newtonsoft::Json::JsonReader*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonContract*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::JsonArrayContract*>(this, ___internal_method, reader, objectType, contract);
 }
-inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateList(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
+inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateList(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
                                                                                                    ::Newtonsoft::Json::Serialization::JsonContract* contract,
                                                                                                    ::Newtonsoft::Json::Serialization::JsonProperty* member, ::System::Object* existingValue,
                                                                                                    ::StringW id) {
@@ -1416,8 +1424,8 @@ inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::HasNo
                                                                                          { "HasNoDefinedType", {}, { ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonContract*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, contract);
 }
-inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::EnsureType(::Newtonsoft::Json::JsonReader* reader, ::System::Object* value,
-                                                                                                   ::System::Globalization::CultureInfo* culture,
+inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::EnsureType(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Object* value,
+                                                                                                   /* [Nullable(1)] */ ::System::Globalization::CultureInfo* culture,
                                                                                                    ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Type* targetType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1428,10 +1436,10 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, value, culture, contract, targetType);
 }
 inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::SetPropertyValue(::Newtonsoft::Json::Serialization::JsonProperty* property,
-                                                                                            ::Newtonsoft::Json::JsonConverter* propertyConverter,
-                                                                                            ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
-                                                                                            ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, ::Newtonsoft::Json::JsonReader* reader,
-                                                                                            ::System::Object* target) {
+                                                                                            /* [Nullable(2)] */ ::Newtonsoft::Json::JsonConverter* propertyConverter,
+                                                                                            /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract,
+                                                                                            /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
+                                                                                            ::Newtonsoft::Json::JsonReader* reader, ::System::Object* target) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                               { "SetPropertyValue",
@@ -1442,10 +1450,10 @@ inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::SetPr
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, property, propertyConverter, containerContract, containerProperty, reader, target);
 }
 inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CalculatePropertyDetails(
-    ::Newtonsoft::Json::Serialization::JsonProperty* property, ::by_ref<::Newtonsoft::Json::JsonConverter*> propertyConverter,
-    ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, ::Newtonsoft::Json::JsonReader* reader,
-    ::System::Object* target, ::by_ref<bool> useExistingValue, ::by_ref<::System::Object*> currentValue, ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> propertyContract,
-    ::by_ref<bool> gottenCurrentValue, ::by_ref<bool> ignoredValue) {
+    /* [Nullable(1)] */ ::Newtonsoft::Json::Serialization::JsonProperty* property, ::by_ref<::Newtonsoft::Json::JsonConverter*> propertyConverter,
+    ::Newtonsoft::Json::Serialization::JsonContainerContract* containerContract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
+    /* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, /* [Nullable(1)] */ ::System::Object* target, ::by_ref<bool> useExistingValue, ::by_ref<::System::Object*> currentValue,
+    ::by_ref<::Newtonsoft::Json::Serialization::JsonContract*> propertyContract, ::by_ref<bool> gottenCurrentValue, ::by_ref<bool> ignoredValue) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1470,7 +1478,7 @@ inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::HasFl
                                               { "HasFlag", {}, { ::i2c::type_of<::Newtonsoft::Json::DefaultValueHandling>(), ::i2c::type_of<::Newtonsoft::Json::DefaultValueHandling>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value, flag);
 }
-inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ShouldSetPropertyValue(::Newtonsoft::Json::Serialization::JsonProperty* property,
+inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ShouldSetPropertyValue(/* [Nullable(1)] */ ::Newtonsoft::Json::Serialization::JsonProperty* property,
                                                                                                   ::Newtonsoft::Json::Serialization::JsonObjectContract* contract, ::System::Object* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1521,7 +1529,8 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::OnDes
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PopulateDictionary(::System::Collections::IDictionary* dictionary, ::Newtonsoft::Json::JsonReader* reader,
                                                                                                            ::Newtonsoft::Json::Serialization::JsonDictionaryContract* contract,
-                                                                                                           ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, ::StringW id) {
+                                                                                                           /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
+                                                                                                           /* [Nullable(2)] */ ::StringW id) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                                                          { "PopulateDictionary",
                                                                                            {},
@@ -1530,10 +1539,9 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
                                                                                              ::i2c::type_of<::Newtonsoft::Json::Serialization::JsonProperty*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, dictionary, reader, contract, containerProperty, id);
 }
-inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PopulateMultidimensionalArray(::System::Collections::IList* list, ::Newtonsoft::Json::JsonReader* reader,
-                                                                                                                      ::Newtonsoft::Json::Serialization::JsonArrayContract* contract,
-                                                                                                                      ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
-                                                                                                                      ::StringW id) {
+inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PopulateMultidimensionalArray(
+    ::System::Collections::IList* list, ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonArrayContract* contract,
+    /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, /* [Nullable(2)] */ ::StringW id) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                                                          { "PopulateMultidimensionalArray",
                                                                                            {},
@@ -1543,8 +1551,8 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, list, reader, contract, containerProperty, id);
 }
 inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ThrowUnexpectedEndException(::Newtonsoft::Json::JsonReader* reader,
-                                                                                                       ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* currentObject,
-                                                                                                       ::StringW message) {
+                                                                                                       ::Newtonsoft::Json::Serialization::JsonContract* contract,
+                                                                                                       /* [Nullable(2)] */ ::System::Object* currentObject, ::StringW message) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                            { "ThrowUnexpectedEndException",
@@ -1555,7 +1563,8 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::Throw
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PopulateList(::System::Collections::IList* list, ::Newtonsoft::Json::JsonReader* reader,
                                                                                                      ::Newtonsoft::Json::Serialization::JsonArrayContract* contract,
-                                                                                                     ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, ::StringW id) {
+                                                                                                     /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
+                                                                                                     /* [Nullable(2)] */ ::StringW id) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                                                          { "PopulateList",
                                                                                            {},
@@ -1566,7 +1575,8 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateISerializable(::Newtonsoft::Json::JsonReader* reader,
                                                                                                             ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
-                                                                                                            ::Newtonsoft::Json::Serialization::JsonProperty* member, ::StringW id) {
+                                                                                                            /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member,
+                                                                                                            /* [Nullable(2)] */ ::StringW id) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                            { "CreateISerializable",
@@ -1577,7 +1587,7 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateISerializableItem(::Newtonsoft::Json::Linq::JToken* token, ::System::Type* type,
                                                                                                                 ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
-                                                                                                                ::Newtonsoft::Json::Serialization::JsonProperty* member) {
+                                                                                                                /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1589,7 +1599,8 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateDynamic(::Newtonsoft::Json::JsonReader* reader,
                                                                                                       ::Newtonsoft::Json::Serialization::JsonDynamicContract* contract,
-                                                                                                      ::Newtonsoft::Json::Serialization::JsonProperty* member, ::StringW id) {
+                                                                                                      /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member,
+                                                                                                      /* [Nullable(2)] */ ::StringW id) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                            { "CreateDynamic",
@@ -1599,8 +1610,8 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, contract, member, id);
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateObjectUsingCreatorWithParameters(
-    ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonObjectContract* contract, ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
-    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator, ::StringW id) {
+    ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonObjectContract* contract, /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
+    ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator, /* [Nullable(2)] */ ::StringW id) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                            { "CreateObjectUsingCreatorWithParameters",
@@ -1611,7 +1622,7 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, contract, containerProperty, creator, id);
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::DeserializeConvertable(::Newtonsoft::Json::JsonConverter* converter, ::Newtonsoft::Json::JsonReader* reader,
-                                                                                                               ::System::Type* objectType, ::System::Object* existingValue) {
+                                                                                                               ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                                                          { "DeserializeConvertable",
                                                                                            {},
@@ -1621,7 +1632,7 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
 }
 inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_CreatorPropertyContext*>*
 Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ResolvePropertyAndCreatorValues(::Newtonsoft::Json::Serialization::JsonObjectContract* contract,
-                                                                                               ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
+                                                                                               /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
                                                                                                ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1634,9 +1645,9 @@ Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ResolvePropertyAn
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::CreateNewObject(::Newtonsoft::Json::JsonReader* reader,
                                                                                                         ::Newtonsoft::Json::Serialization::JsonObjectContract* objectContract,
-                                                                                                        ::Newtonsoft::Json::Serialization::JsonProperty* containerMember,
-                                                                                                        ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty, ::StringW id,
-                                                                                                        ::by_ref<bool> createdFromNonDefaultCreator) {
+                                                                                                        /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerMember,
+                                                                                                        /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* containerProperty,
+                                                                                                        /* [Nullable(2)] */ ::StringW id, ::by_ref<bool> createdFromNonDefaultCreator) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                            { "CreateNewObject",
@@ -1648,7 +1659,8 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternal
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::PopulateObject(::System::Object* newObject, ::Newtonsoft::Json::JsonReader* reader,
                                                                                                        ::Newtonsoft::Json::Serialization::JsonObjectContract* contract,
-                                                                                                       ::Newtonsoft::Json::Serialization::JsonProperty* member, ::StringW id) {
+                                                                                                       /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member,
+                                                                                                       /* [Nullable(2)] */ ::StringW id) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                                                                          { "PopulateObject",
                                                                                            {},
@@ -1674,8 +1686,8 @@ inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalReader::Check
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, reader, memberName);
 }
 inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::SetExtensionData(::Newtonsoft::Json::Serialization::JsonObjectContract* contract,
-                                                                                            ::Newtonsoft::Json::Serialization::JsonProperty* member, ::Newtonsoft::Json::JsonReader* reader,
-                                                                                            ::StringW memberName, ::System::Object* o) {
+                                                                                            /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member,
+                                                                                            ::Newtonsoft::Json::JsonReader* reader, ::StringW memberName, ::System::Object* o) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
                                               { "SetExtensionData",
@@ -1685,7 +1697,7 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::SetEx
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, contract, member, reader, memberName, o);
 }
 inline ::System::Object* Newtonsoft::Json::Serialization::JsonSerializerInternalReader::ReadExtensionDataValue(::Newtonsoft::Json::Serialization::JsonObjectContract* contract,
-                                                                                                               ::Newtonsoft::Json::Serialization::JsonProperty* member,
+                                                                                                               /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::JsonProperty* member,
                                                                                                                ::Newtonsoft::Json::JsonReader* reader) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*>(),
@@ -1711,7 +1723,7 @@ inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::EndPr
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newObject, reader, contract, initialDepth, property, presence, setDefaultValue);
 }
 inline void Newtonsoft::Json::Serialization::JsonSerializerInternalReader::SetPropertyPresence(
-    ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonProperty* property,
+    ::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Serialization::JsonProperty* property, /* [Nullable(new[] { 2, 1 })] */
     ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence>*
         requiredProperties) {
   static auto* ___internal_method =

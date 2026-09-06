@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ValidationUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ValidationUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,8 +23,9 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE ValidationUtils : public ::System::Object {
 public:
   // Declarations
+  /// [NullableContext(1)]
   /// @brief Method ArgumentNotNull, addr 0x5d33ecc, size 0x4c, virtual false, abstract: false, final false
-  static inline void ArgumentNotNull(::System::Object* value, ::StringW parameterName);
+  static inline void ArgumentNotNull(/* [Nullable(2)] [NotNull] */ ::System::Object* value, ::StringW parameterName);
 
 protected:
   // Ctor Parameters []
@@ -32,13 +33,13 @@ protected:
   constexpr ValidationUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidationUtils(ValidationUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidationUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValidationUtils(ValidationUtils const&) = delete;
+  ValidationUtils(ValidationUtilsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13468 };

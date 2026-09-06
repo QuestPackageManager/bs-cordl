@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPlatformMenu.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPlatformMenu.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   // @brief default ctor
   constexpr OVRPlatformMenu_eHandler();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRPlatformMenu_eHandler(int32_t value__) noexcept;
 
   /// @brief Field RetreatOneLevel value: I32(1)
@@ -122,7 +122,7 @@ public:
   // @brief default ctor
   constexpr OVRPlatformMenu_eBackButtonAction();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRPlatformMenu_eBackButtonAction(int32_t value__) noexcept;
 
   /// @brief Field NONE value: I32(0)
@@ -148,6 +148,7 @@ static_assert(offsetof(::GlobalNamespace::OVRPlatformMenu_eBackButtonAction, val
 static_assert(sizeof(::GlobalNamespace::OVRPlatformMenu_eBackButtonAction) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/reference/unity/latest/class_o_v_r_platform_menu")]
 // Dependencies OVRInput::RawButton, OVRPlatformMenu::eHandler, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -219,13 +220,13 @@ protected:
   constexpr OVRPlatformMenu();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPlatformMenu", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPlatformMenu", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPlatformMenu(OVRPlatformMenu&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPlatformMenu", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPlatformMenu", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlatformMenu(OVRPlatformMenu const&) = delete;
+  OVRPlatformMenu(OVRPlatformMenuconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7292 };

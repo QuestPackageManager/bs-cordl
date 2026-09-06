@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRCompositor.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRCompositor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -408,6 +408,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRCompositor__SuspendRendering*, "OVR.OpenVR
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRCompositor__UnlockGLSharedTextureForAccess*, "OVR.OpenVR", "IVRCompositor/_UnlockGLSharedTextureForAccess");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRCompositor__WaitGetPoses*, "OVR.OpenVR", "IVRCompositor/_WaitGetPoses");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRCompositor, "OVR.OpenVR", "IVRCompositor");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -435,13 +436,13 @@ protected:
   constexpr IVRCompositor__SetTrackingSpace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetTrackingSpace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetTrackingSpace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__SetTrackingSpace(IVRCompositor__SetTrackingSpace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetTrackingSpace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetTrackingSpace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SetTrackingSpace(IVRCompositor__SetTrackingSpace const&) = delete;
+  IVRCompositor__SetTrackingSpace(IVRCompositor__SetTrackingSpaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8162 };
@@ -452,6 +453,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__SetTrackingSpace) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -479,13 +481,13 @@ protected:
   constexpr IVRCompositor__GetTrackingSpace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetTrackingSpace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetTrackingSpace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetTrackingSpace(IVRCompositor__GetTrackingSpace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetTrackingSpace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetTrackingSpace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetTrackingSpace(IVRCompositor__GetTrackingSpace const&) = delete;
+  IVRCompositor__GetTrackingSpace(IVRCompositor__GetTrackingSpaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8163 };
@@ -496,6 +498,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetTrackingSpace) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -526,13 +529,13 @@ protected:
   constexpr IVRCompositor__WaitGetPoses();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__WaitGetPoses", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__WaitGetPoses", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__WaitGetPoses(IVRCompositor__WaitGetPoses&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__WaitGetPoses", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__WaitGetPoses", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__WaitGetPoses(IVRCompositor__WaitGetPoses const&) = delete;
+  IVRCompositor__WaitGetPoses(IVRCompositor__WaitGetPosesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8164 };
@@ -543,6 +546,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__WaitGetPoses) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -573,13 +577,13 @@ protected:
   constexpr IVRCompositor__GetLastPoses();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoses", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoses", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetLastPoses(IVRCompositor__GetLastPoses&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoses", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoses", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetLastPoses(IVRCompositor__GetLastPoses const&) = delete;
+  IVRCompositor__GetLastPoses(IVRCompositor__GetLastPosesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8165 };
@@ -590,6 +594,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetLastPoses) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -619,13 +624,13 @@ protected:
   constexpr IVRCompositor__GetLastPoseForTrackedDeviceIndex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoseForTrackedDeviceIndex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoseForTrackedDeviceIndex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetLastPoseForTrackedDeviceIndex(IVRCompositor__GetLastPoseForTrackedDeviceIndex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoseForTrackedDeviceIndex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastPoseForTrackedDeviceIndex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetLastPoseForTrackedDeviceIndex(IVRCompositor__GetLastPoseForTrackedDeviceIndex const&) = delete;
+  IVRCompositor__GetLastPoseForTrackedDeviceIndex(IVRCompositor__GetLastPoseForTrackedDeviceIndexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8166 };
@@ -636,6 +641,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetLastPoseForTrackedDeviceIndex) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -665,13 +671,13 @@ protected:
   constexpr IVRCompositor__Submit();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__Submit", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__Submit", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__Submit(IVRCompositor__Submit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__Submit", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__Submit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__Submit(IVRCompositor__Submit const&) = delete;
+  IVRCompositor__Submit(IVRCompositor__Submitconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8167 };
@@ -682,6 +688,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__Submit) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -709,13 +716,13 @@ protected:
   constexpr IVRCompositor__ClearLastSubmittedFrame();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearLastSubmittedFrame", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearLastSubmittedFrame", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__ClearLastSubmittedFrame(IVRCompositor__ClearLastSubmittedFrame&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearLastSubmittedFrame", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearLastSubmittedFrame", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ClearLastSubmittedFrame(IVRCompositor__ClearLastSubmittedFrame const&) = delete;
+  IVRCompositor__ClearLastSubmittedFrame(IVRCompositor__ClearLastSubmittedFrameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8168 };
@@ -726,6 +733,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__ClearLastSubmittedFrame) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -753,13 +761,13 @@ protected:
   constexpr IVRCompositor__PostPresentHandoff();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__PostPresentHandoff", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__PostPresentHandoff", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__PostPresentHandoff(IVRCompositor__PostPresentHandoff&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__PostPresentHandoff", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__PostPresentHandoff", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__PostPresentHandoff(IVRCompositor__PostPresentHandoff const&) = delete;
+  IVRCompositor__PostPresentHandoff(IVRCompositor__PostPresentHandoffconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8169 };
@@ -770,6 +778,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__PostPresentHandoff) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -797,13 +806,13 @@ protected:
   constexpr IVRCompositor__GetFrameTiming();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTiming", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTiming", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetFrameTiming(IVRCompositor__GetFrameTiming&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTiming", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTiming", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetFrameTiming(IVRCompositor__GetFrameTiming const&) = delete;
+  IVRCompositor__GetFrameTiming(IVRCompositor__GetFrameTimingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8170 };
@@ -814,6 +823,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetFrameTiming) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -841,13 +851,13 @@ protected:
   constexpr IVRCompositor__GetFrameTimings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetFrameTimings(IVRCompositor__GetFrameTimings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetFrameTimings(IVRCompositor__GetFrameTimings const&) = delete;
+  IVRCompositor__GetFrameTimings(IVRCompositor__GetFrameTimingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8171 };
@@ -858,6 +868,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetFrameTimings) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -885,13 +896,13 @@ protected:
   constexpr IVRCompositor__GetFrameTimeRemaining();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimeRemaining", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimeRemaining", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetFrameTimeRemaining(IVRCompositor__GetFrameTimeRemaining&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimeRemaining", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetFrameTimeRemaining", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetFrameTimeRemaining(IVRCompositor__GetFrameTimeRemaining const&) = delete;
+  IVRCompositor__GetFrameTimeRemaining(IVRCompositor__GetFrameTimeRemainingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8172 };
@@ -902,6 +913,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetFrameTimeRemaining) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -929,13 +941,13 @@ protected:
   constexpr IVRCompositor__GetCumulativeStats();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCumulativeStats", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCumulativeStats", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetCumulativeStats(IVRCompositor__GetCumulativeStats&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCumulativeStats", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCumulativeStats", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetCumulativeStats(IVRCompositor__GetCumulativeStats const&) = delete;
+  IVRCompositor__GetCumulativeStats(IVRCompositor__GetCumulativeStatsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8173 };
@@ -946,6 +958,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetCumulativeStats) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -974,13 +987,13 @@ protected:
   constexpr IVRCompositor__FadeToColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeToColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeToColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__FadeToColor(IVRCompositor__FadeToColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeToColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeToColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__FadeToColor(IVRCompositor__FadeToColor const&) = delete;
+  IVRCompositor__FadeToColor(IVRCompositor__FadeToColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8174 };
@@ -991,6 +1004,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__FadeToColor) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1018,13 +1032,13 @@ protected:
   constexpr IVRCompositor__GetCurrentFadeColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentFadeColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentFadeColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetCurrentFadeColor(IVRCompositor__GetCurrentFadeColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentFadeColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentFadeColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetCurrentFadeColor(IVRCompositor__GetCurrentFadeColor const&) = delete;
+  IVRCompositor__GetCurrentFadeColor(IVRCompositor__GetCurrentFadeColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8175 };
@@ -1035,6 +1049,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetCurrentFadeColor) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1062,13 +1077,13 @@ protected:
   constexpr IVRCompositor__FadeGrid();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeGrid", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeGrid", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__FadeGrid(IVRCompositor__FadeGrid&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeGrid", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__FadeGrid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__FadeGrid(IVRCompositor__FadeGrid const&) = delete;
+  IVRCompositor__FadeGrid(IVRCompositor__FadeGridconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8176 };
@@ -1079,6 +1094,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__FadeGrid) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1106,13 +1122,13 @@ protected:
   constexpr IVRCompositor__GetCurrentGridAlpha();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentGridAlpha", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentGridAlpha", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetCurrentGridAlpha(IVRCompositor__GetCurrentGridAlpha&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentGridAlpha", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentGridAlpha", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetCurrentGridAlpha(IVRCompositor__GetCurrentGridAlpha const&) = delete;
+  IVRCompositor__GetCurrentGridAlpha(IVRCompositor__GetCurrentGridAlphaconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8177 };
@@ -1123,6 +1139,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetCurrentGridAlpha) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1150,13 +1167,13 @@ protected:
   constexpr IVRCompositor__SetSkyboxOverride();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetSkyboxOverride", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetSkyboxOverride", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__SetSkyboxOverride(IVRCompositor__SetSkyboxOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetSkyboxOverride", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetSkyboxOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SetSkyboxOverride(IVRCompositor__SetSkyboxOverride const&) = delete;
+  IVRCompositor__SetSkyboxOverride(IVRCompositor__SetSkyboxOverrideconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8178 };
@@ -1167,6 +1184,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__SetSkyboxOverride) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1194,13 +1212,13 @@ protected:
   constexpr IVRCompositor__ClearSkyboxOverride();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearSkyboxOverride", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearSkyboxOverride", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__ClearSkyboxOverride(IVRCompositor__ClearSkyboxOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearSkyboxOverride", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ClearSkyboxOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ClearSkyboxOverride(IVRCompositor__ClearSkyboxOverride const&) = delete;
+  IVRCompositor__ClearSkyboxOverride(IVRCompositor__ClearSkyboxOverrideconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8179 };
@@ -1211,6 +1229,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__ClearSkyboxOverride) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1238,13 +1257,13 @@ protected:
   constexpr IVRCompositor__CompositorBringToFront();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorBringToFront", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorBringToFront", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__CompositorBringToFront(IVRCompositor__CompositorBringToFront&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorBringToFront", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorBringToFront", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CompositorBringToFront(IVRCompositor__CompositorBringToFront const&) = delete;
+  IVRCompositor__CompositorBringToFront(IVRCompositor__CompositorBringToFrontconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8180 };
@@ -1255,6 +1274,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__CompositorBringToFront) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1282,13 +1302,13 @@ protected:
   constexpr IVRCompositor__CompositorGoToBack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorGoToBack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorGoToBack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__CompositorGoToBack(IVRCompositor__CompositorGoToBack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorGoToBack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorGoToBack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CompositorGoToBack(IVRCompositor__CompositorGoToBack const&) = delete;
+  IVRCompositor__CompositorGoToBack(IVRCompositor__CompositorGoToBackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8181 };
@@ -1299,6 +1319,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__CompositorGoToBack) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1326,13 +1347,13 @@ protected:
   constexpr IVRCompositor__CompositorQuit();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorQuit", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorQuit", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__CompositorQuit(IVRCompositor__CompositorQuit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorQuit", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorQuit", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CompositorQuit(IVRCompositor__CompositorQuit const&) = delete;
+  IVRCompositor__CompositorQuit(IVRCompositor__CompositorQuitconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8182 };
@@ -1343,6 +1364,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__CompositorQuit) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1370,13 +1392,13 @@ protected:
   constexpr IVRCompositor__IsFullscreen();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsFullscreen", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsFullscreen", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__IsFullscreen(IVRCompositor__IsFullscreen&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsFullscreen", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsFullscreen", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__IsFullscreen(IVRCompositor__IsFullscreen const&) = delete;
+  IVRCompositor__IsFullscreen(IVRCompositor__IsFullscreenconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8183 };
@@ -1387,6 +1409,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__IsFullscreen) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1414,13 +1437,13 @@ protected:
   constexpr IVRCompositor__GetCurrentSceneFocusProcess();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentSceneFocusProcess", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentSceneFocusProcess", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetCurrentSceneFocusProcess(IVRCompositor__GetCurrentSceneFocusProcess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentSceneFocusProcess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetCurrentSceneFocusProcess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetCurrentSceneFocusProcess(IVRCompositor__GetCurrentSceneFocusProcess const&) = delete;
+  IVRCompositor__GetCurrentSceneFocusProcess(IVRCompositor__GetCurrentSceneFocusProcessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8184 };
@@ -1431,6 +1454,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetCurrentSceneFocusProcess) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1458,13 +1482,13 @@ protected:
   constexpr IVRCompositor__GetLastFrameRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastFrameRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastFrameRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetLastFrameRenderer(IVRCompositor__GetLastFrameRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastFrameRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetLastFrameRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetLastFrameRenderer(IVRCompositor__GetLastFrameRenderer const&) = delete;
+  IVRCompositor__GetLastFrameRenderer(IVRCompositor__GetLastFrameRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8185 };
@@ -1475,6 +1499,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetLastFrameRenderer) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1502,13 +1527,13 @@ protected:
   constexpr IVRCompositor__CanRenderScene();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CanRenderScene", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CanRenderScene", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__CanRenderScene(IVRCompositor__CanRenderScene&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CanRenderScene", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CanRenderScene", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CanRenderScene(IVRCompositor__CanRenderScene const&) = delete;
+  IVRCompositor__CanRenderScene(IVRCompositor__CanRenderSceneconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8186 };
@@ -1519,6 +1544,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__CanRenderScene) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1546,13 +1572,13 @@ protected:
   constexpr IVRCompositor__ShowMirrorWindow();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShowMirrorWindow", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShowMirrorWindow", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__ShowMirrorWindow(IVRCompositor__ShowMirrorWindow&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShowMirrorWindow", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShowMirrorWindow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ShowMirrorWindow(IVRCompositor__ShowMirrorWindow const&) = delete;
+  IVRCompositor__ShowMirrorWindow(IVRCompositor__ShowMirrorWindowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8187 };
@@ -1563,6 +1589,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__ShowMirrorWindow) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1590,13 +1617,13 @@ protected:
   constexpr IVRCompositor__HideMirrorWindow();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__HideMirrorWindow", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__HideMirrorWindow", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__HideMirrorWindow(IVRCompositor__HideMirrorWindow&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__HideMirrorWindow", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__HideMirrorWindow", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__HideMirrorWindow(IVRCompositor__HideMirrorWindow const&) = delete;
+  IVRCompositor__HideMirrorWindow(IVRCompositor__HideMirrorWindowconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8188 };
@@ -1607,6 +1634,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__HideMirrorWindow) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1634,13 +1662,13 @@ protected:
   constexpr IVRCompositor__IsMirrorWindowVisible();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsMirrorWindowVisible", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsMirrorWindowVisible", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__IsMirrorWindowVisible(IVRCompositor__IsMirrorWindowVisible&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsMirrorWindowVisible", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__IsMirrorWindowVisible", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__IsMirrorWindowVisible(IVRCompositor__IsMirrorWindowVisible const&) = delete;
+  IVRCompositor__IsMirrorWindowVisible(IVRCompositor__IsMirrorWindowVisibleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8189 };
@@ -1651,6 +1679,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__IsMirrorWindowVisible) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1678,13 +1707,13 @@ protected:
   constexpr IVRCompositor__CompositorDumpImages();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorDumpImages", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorDumpImages", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__CompositorDumpImages(IVRCompositor__CompositorDumpImages&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorDumpImages", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__CompositorDumpImages", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__CompositorDumpImages(IVRCompositor__CompositorDumpImages const&) = delete;
+  IVRCompositor__CompositorDumpImages(IVRCompositor__CompositorDumpImagesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8190 };
@@ -1695,6 +1724,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__CompositorDumpImages) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1722,13 +1752,13 @@ protected:
   constexpr IVRCompositor__ShouldAppRenderWithLowResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShouldAppRenderWithLowResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShouldAppRenderWithLowResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__ShouldAppRenderWithLowResources(IVRCompositor__ShouldAppRenderWithLowResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShouldAppRenderWithLowResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ShouldAppRenderWithLowResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ShouldAppRenderWithLowResources(IVRCompositor__ShouldAppRenderWithLowResources const&) = delete;
+  IVRCompositor__ShouldAppRenderWithLowResources(IVRCompositor__ShouldAppRenderWithLowResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8191 };
@@ -1739,6 +1769,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__ShouldAppRenderWithLowResources) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1766,13 +1797,13 @@ protected:
   constexpr IVRCompositor__ForceInterleavedReprojectionOn();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceInterleavedReprojectionOn", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceInterleavedReprojectionOn", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__ForceInterleavedReprojectionOn(IVRCompositor__ForceInterleavedReprojectionOn&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceInterleavedReprojectionOn", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceInterleavedReprojectionOn", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ForceInterleavedReprojectionOn(IVRCompositor__ForceInterleavedReprojectionOn const&) = delete;
+  IVRCompositor__ForceInterleavedReprojectionOn(IVRCompositor__ForceInterleavedReprojectionOnconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8192 };
@@ -1783,6 +1814,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__ForceInterleavedReprojectionOn) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1810,13 +1842,13 @@ protected:
   constexpr IVRCompositor__ForceReconnectProcess();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceReconnectProcess", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceReconnectProcess", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__ForceReconnectProcess(IVRCompositor__ForceReconnectProcess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceReconnectProcess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ForceReconnectProcess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ForceReconnectProcess(IVRCompositor__ForceReconnectProcess const&) = delete;
+  IVRCompositor__ForceReconnectProcess(IVRCompositor__ForceReconnectProcessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8193 };
@@ -1827,6 +1859,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__ForceReconnectProcess) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1854,13 +1887,13 @@ protected:
   constexpr IVRCompositor__SuspendRendering();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SuspendRendering", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SuspendRendering", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__SuspendRendering(IVRCompositor__SuspendRendering&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SuspendRendering", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SuspendRendering", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SuspendRendering(IVRCompositor__SuspendRendering const&) = delete;
+  IVRCompositor__SuspendRendering(IVRCompositor__SuspendRenderingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8194 };
@@ -1871,6 +1904,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__SuspendRendering) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1899,13 +1933,13 @@ protected:
   constexpr IVRCompositor__GetMirrorTextureD3D11();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureD3D11", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureD3D11", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetMirrorTextureD3D11(IVRCompositor__GetMirrorTextureD3D11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureD3D11", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureD3D11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetMirrorTextureD3D11(IVRCompositor__GetMirrorTextureD3D11 const&) = delete;
+  IVRCompositor__GetMirrorTextureD3D11(IVRCompositor__GetMirrorTextureD3D11const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8195 };
@@ -1916,6 +1950,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetMirrorTextureD3D11) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1943,13 +1978,13 @@ protected:
   constexpr IVRCompositor__ReleaseMirrorTextureD3D11();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseMirrorTextureD3D11", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseMirrorTextureD3D11", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__ReleaseMirrorTextureD3D11(IVRCompositor__ReleaseMirrorTextureD3D11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseMirrorTextureD3D11", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseMirrorTextureD3D11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ReleaseMirrorTextureD3D11(IVRCompositor__ReleaseMirrorTextureD3D11 const&) = delete;
+  IVRCompositor__ReleaseMirrorTextureD3D11(IVRCompositor__ReleaseMirrorTextureD3D11const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8196 };
@@ -1960,6 +1995,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__ReleaseMirrorTextureD3D11) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -1988,13 +2024,13 @@ protected:
   constexpr IVRCompositor__GetMirrorTextureGL();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureGL", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureGL", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetMirrorTextureGL(IVRCompositor__GetMirrorTextureGL&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureGL", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetMirrorTextureGL", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetMirrorTextureGL(IVRCompositor__GetMirrorTextureGL const&) = delete;
+  IVRCompositor__GetMirrorTextureGL(IVRCompositor__GetMirrorTextureGLconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8197 };
@@ -2005,6 +2041,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetMirrorTextureGL) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2032,13 +2069,13 @@ protected:
   constexpr IVRCompositor__ReleaseSharedGLTexture();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseSharedGLTexture", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseSharedGLTexture", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__ReleaseSharedGLTexture(IVRCompositor__ReleaseSharedGLTexture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseSharedGLTexture", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__ReleaseSharedGLTexture", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__ReleaseSharedGLTexture(IVRCompositor__ReleaseSharedGLTexture const&) = delete;
+  IVRCompositor__ReleaseSharedGLTexture(IVRCompositor__ReleaseSharedGLTextureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8198 };
@@ -2049,6 +2086,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__ReleaseSharedGLTexture) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2076,13 +2114,13 @@ protected:
   constexpr IVRCompositor__LockGLSharedTextureForAccess();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__LockGLSharedTextureForAccess", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__LockGLSharedTextureForAccess", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__LockGLSharedTextureForAccess(IVRCompositor__LockGLSharedTextureForAccess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__LockGLSharedTextureForAccess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__LockGLSharedTextureForAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__LockGLSharedTextureForAccess(IVRCompositor__LockGLSharedTextureForAccess const&) = delete;
+  IVRCompositor__LockGLSharedTextureForAccess(IVRCompositor__LockGLSharedTextureForAccessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8199 };
@@ -2093,6 +2131,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__LockGLSharedTextureForAccess) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2120,13 +2159,13 @@ protected:
   constexpr IVRCompositor__UnlockGLSharedTextureForAccess();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__UnlockGLSharedTextureForAccess", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__UnlockGLSharedTextureForAccess", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__UnlockGLSharedTextureForAccess(IVRCompositor__UnlockGLSharedTextureForAccess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__UnlockGLSharedTextureForAccess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__UnlockGLSharedTextureForAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__UnlockGLSharedTextureForAccess(IVRCompositor__UnlockGLSharedTextureForAccess const&) = delete;
+  IVRCompositor__UnlockGLSharedTextureForAccess(IVRCompositor__UnlockGLSharedTextureForAccessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8200 };
@@ -2137,6 +2176,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__UnlockGLSharedTextureForAccess) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2164,13 +2204,13 @@ protected:
   constexpr IVRCompositor__GetVulkanInstanceExtensionsRequired();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanInstanceExtensionsRequired", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanInstanceExtensionsRequired", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetVulkanInstanceExtensionsRequired(IVRCompositor__GetVulkanInstanceExtensionsRequired&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanInstanceExtensionsRequired", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanInstanceExtensionsRequired", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetVulkanInstanceExtensionsRequired(IVRCompositor__GetVulkanInstanceExtensionsRequired const&) = delete;
+  IVRCompositor__GetVulkanInstanceExtensionsRequired(IVRCompositor__GetVulkanInstanceExtensionsRequiredconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8201 };
@@ -2181,6 +2221,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetVulkanInstanceExtensionsRequired) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2209,13 +2250,13 @@ protected:
   constexpr IVRCompositor__GetVulkanDeviceExtensionsRequired();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanDeviceExtensionsRequired", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanDeviceExtensionsRequired", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__GetVulkanDeviceExtensionsRequired(IVRCompositor__GetVulkanDeviceExtensionsRequired&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanDeviceExtensionsRequired", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__GetVulkanDeviceExtensionsRequired", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__GetVulkanDeviceExtensionsRequired(IVRCompositor__GetVulkanDeviceExtensionsRequired const&) = delete;
+  IVRCompositor__GetVulkanDeviceExtensionsRequired(IVRCompositor__GetVulkanDeviceExtensionsRequiredconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8202 };
@@ -2226,6 +2267,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__GetVulkanDeviceExtensionsRequired) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2253,13 +2295,13 @@ protected:
   constexpr IVRCompositor__SetExplicitTimingMode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetExplicitTimingMode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetExplicitTimingMode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__SetExplicitTimingMode(IVRCompositor__SetExplicitTimingMode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetExplicitTimingMode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SetExplicitTimingMode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SetExplicitTimingMode(IVRCompositor__SetExplicitTimingMode const&) = delete;
+  IVRCompositor__SetExplicitTimingMode(IVRCompositor__SetExplicitTimingModeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8203 };
@@ -2270,6 +2312,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRCompositor__SetExplicitTimingMode) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -2297,13 +2340,13 @@ protected:
   constexpr IVRCompositor__SubmitExplicitTimingData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SubmitExplicitTimingData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SubmitExplicitTimingData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRCompositor__SubmitExplicitTimingData(IVRCompositor__SubmitExplicitTimingData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SubmitExplicitTimingData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRCompositor__SubmitExplicitTimingData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRCompositor__SubmitExplicitTimingData(IVRCompositor__SubmitExplicitTimingData const&) = delete;
+  IVRCompositor__SubmitExplicitTimingData(IVRCompositor__SubmitExplicitTimingDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8204 };
@@ -2411,38 +2454,44 @@ public:
   // @brief default ctor
   constexpr IVRCompositor();
 
-  // Ctor Parameters [CppParam { name: "SetTrackingSpace", ty: "::OVR::OpenVR::IVRCompositor__SetTrackingSpace*", modifiers: "", def_value: None }, CppParam { name: "GetTrackingSpace", ty:
-  // "::OVR::OpenVR::IVRCompositor__GetTrackingSpace*", modifiers: "", def_value: None }, CppParam { name: "WaitGetPoses", ty: "::OVR::OpenVR::IVRCompositor__WaitGetPoses*", modifiers: "", def_value:
-  // None }, CppParam { name: "GetLastPoses", ty: "::OVR::OpenVR::IVRCompositor__GetLastPoses*", modifiers: "", def_value: None }, CppParam { name: "GetLastPoseForTrackedDeviceIndex", ty:
-  // "::OVR::OpenVR::IVRCompositor__GetLastPoseForTrackedDeviceIndex*", modifiers: "", def_value: None }, CppParam { name: "Submit", ty: "::OVR::OpenVR::IVRCompositor__Submit*", modifiers: "",
-  // def_value: None }, CppParam { name: "ClearLastSubmittedFrame", ty: "::OVR::OpenVR::IVRCompositor__ClearLastSubmittedFrame*", modifiers: "", def_value: None }, CppParam { name:
-  // "PostPresentHandoff", ty: "::OVR::OpenVR::IVRCompositor__PostPresentHandoff*", modifiers: "", def_value: None }, CppParam { name: "GetFrameTiming", ty:
-  // "::OVR::OpenVR::IVRCompositor__GetFrameTiming*", modifiers: "", def_value: None }, CppParam { name: "GetFrameTimings", ty: "::OVR::OpenVR::IVRCompositor__GetFrameTimings*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetFrameTimeRemaining", ty: "::OVR::OpenVR::IVRCompositor__GetFrameTimeRemaining*", modifiers: "", def_value: None }, CppParam { name: "GetCumulativeStats",
-  // ty: "::OVR::OpenVR::IVRCompositor__GetCumulativeStats*", modifiers: "", def_value: None }, CppParam { name: "FadeToColor", ty: "::OVR::OpenVR::IVRCompositor__FadeToColor*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetCurrentFadeColor", ty: "::OVR::OpenVR::IVRCompositor__GetCurrentFadeColor*", modifiers: "", def_value: None }, CppParam { name: "FadeGrid", ty:
-  // "::OVR::OpenVR::IVRCompositor__FadeGrid*", modifiers: "", def_value: None }, CppParam { name: "GetCurrentGridAlpha", ty: "::OVR::OpenVR::IVRCompositor__GetCurrentGridAlpha*", modifiers: "",
-  // def_value: None }, CppParam { name: "SetSkyboxOverride", ty: "::OVR::OpenVR::IVRCompositor__SetSkyboxOverride*", modifiers: "", def_value: None }, CppParam { name: "ClearSkyboxOverride", ty:
-  // "::OVR::OpenVR::IVRCompositor__ClearSkyboxOverride*", modifiers: "", def_value: None }, CppParam { name: "CompositorBringToFront", ty: "::OVR::OpenVR::IVRCompositor__CompositorBringToFront*",
-  // modifiers: "", def_value: None }, CppParam { name: "CompositorGoToBack", ty: "::OVR::OpenVR::IVRCompositor__CompositorGoToBack*", modifiers: "", def_value: None }, CppParam { name:
-  // "CompositorQuit", ty: "::OVR::OpenVR::IVRCompositor__CompositorQuit*", modifiers: "", def_value: None }, CppParam { name: "IsFullscreen", ty: "::OVR::OpenVR::IVRCompositor__IsFullscreen*",
-  // modifiers: "", def_value: None }, CppParam { name: "GetCurrentSceneFocusProcess", ty: "::OVR::OpenVR::IVRCompositor__GetCurrentSceneFocusProcess*", modifiers: "", def_value: None }, CppParam {
-  // name: "GetLastFrameRenderer", ty: "::OVR::OpenVR::IVRCompositor__GetLastFrameRenderer*", modifiers: "", def_value: None }, CppParam { name: "CanRenderScene", ty:
-  // "::OVR::OpenVR::IVRCompositor__CanRenderScene*", modifiers: "", def_value: None }, CppParam { name: "ShowMirrorWindow", ty: "::OVR::OpenVR::IVRCompositor__ShowMirrorWindow*", modifiers: "",
-  // def_value: None }, CppParam { name: "HideMirrorWindow", ty: "::OVR::OpenVR::IVRCompositor__HideMirrorWindow*", modifiers: "", def_value: None }, CppParam { name: "IsMirrorWindowVisible", ty:
-  // "::OVR::OpenVR::IVRCompositor__IsMirrorWindowVisible*", modifiers: "", def_value: None }, CppParam { name: "CompositorDumpImages", ty: "::OVR::OpenVR::IVRCompositor__CompositorDumpImages*",
-  // modifiers: "", def_value: None }, CppParam { name: "ShouldAppRenderWithLowResources", ty: "::OVR::OpenVR::IVRCompositor__ShouldAppRenderWithLowResources*", modifiers: "", def_value: None },
-  // CppParam { name: "ForceInterleavedReprojectionOn", ty: "::OVR::OpenVR::IVRCompositor__ForceInterleavedReprojectionOn*", modifiers: "", def_value: None }, CppParam { name: "ForceReconnectProcess",
-  // ty: "::OVR::OpenVR::IVRCompositor__ForceReconnectProcess*", modifiers: "", def_value: None }, CppParam { name: "SuspendRendering", ty: "::OVR::OpenVR::IVRCompositor__SuspendRendering*",
-  // modifiers: "", def_value: None }, CppParam { name: "GetMirrorTextureD3D11", ty: "::OVR::OpenVR::IVRCompositor__GetMirrorTextureD3D11*", modifiers: "", def_value: None }, CppParam { name:
-  // "ReleaseMirrorTextureD3D11", ty: "::OVR::OpenVR::IVRCompositor__ReleaseMirrorTextureD3D11*", modifiers: "", def_value: None }, CppParam { name: "GetMirrorTextureGL", ty:
-  // "::OVR::OpenVR::IVRCompositor__GetMirrorTextureGL*", modifiers: "", def_value: None }, CppParam { name: "ReleaseSharedGLTexture", ty: "::OVR::OpenVR::IVRCompositor__ReleaseSharedGLTexture*",
-  // modifiers: "", def_value: None }, CppParam { name: "LockGLSharedTextureForAccess", ty: "::OVR::OpenVR::IVRCompositor__LockGLSharedTextureForAccess*", modifiers: "", def_value: None }, CppParam {
-  // name: "UnlockGLSharedTextureForAccess", ty: "::OVR::OpenVR::IVRCompositor__UnlockGLSharedTextureForAccess*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetVulkanInstanceExtensionsRequired", ty: "::OVR::OpenVR::IVRCompositor__GetVulkanInstanceExtensionsRequired*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetVulkanDeviceExtensionsRequired", ty: "::OVR::OpenVR::IVRCompositor__GetVulkanDeviceExtensionsRequired*", modifiers: "", def_value: None }, CppParam { name: "SetExplicitTimingMode", ty:
-  // "::OVR::OpenVR::IVRCompositor__SetExplicitTimingMode*", modifiers: "", def_value: None }, CppParam { name: "SubmitExplicitTimingData", ty:
-  // "::OVR::OpenVR::IVRCompositor__SubmitExplicitTimingData*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "SetTrackingSpace", ty: "::OVR::OpenVR::IVRCompositor__SetTrackingSpace*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetTrackingSpace",
+  // ty: "::OVR::OpenVR::IVRCompositor__GetTrackingSpace*", modifiers: "", def_value: None, comment: None }, CppParam { name: "WaitGetPoses", ty: "::OVR::OpenVR::IVRCompositor__WaitGetPoses*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "GetLastPoses", ty: "::OVR::OpenVR::IVRCompositor__GetLastPoses*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "GetLastPoseForTrackedDeviceIndex", ty: "::OVR::OpenVR::IVRCompositor__GetLastPoseForTrackedDeviceIndex*", modifiers: "", def_value: None, comment: None }, CppParam { name: "Submit", ty:
+  // "::OVR::OpenVR::IVRCompositor__Submit*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ClearLastSubmittedFrame", ty: "::OVR::OpenVR::IVRCompositor__ClearLastSubmittedFrame*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "PostPresentHandoff", ty: "::OVR::OpenVR::IVRCompositor__PostPresentHandoff*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "GetFrameTiming", ty: "::OVR::OpenVR::IVRCompositor__GetFrameTiming*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetFrameTimings", ty:
+  // "::OVR::OpenVR::IVRCompositor__GetFrameTimings*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetFrameTimeRemaining", ty:
+  // "::OVR::OpenVR::IVRCompositor__GetFrameTimeRemaining*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetCumulativeStats", ty:
+  // "::OVR::OpenVR::IVRCompositor__GetCumulativeStats*", modifiers: "", def_value: None, comment: None }, CppParam { name: "FadeToColor", ty: "::OVR::OpenVR::IVRCompositor__FadeToColor*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "GetCurrentFadeColor", ty: "::OVR::OpenVR::IVRCompositor__GetCurrentFadeColor*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "FadeGrid", ty: "::OVR::OpenVR::IVRCompositor__FadeGrid*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetCurrentGridAlpha", ty:
+  // "::OVR::OpenVR::IVRCompositor__GetCurrentGridAlpha*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetSkyboxOverride", ty:
+  // "::OVR::OpenVR::IVRCompositor__SetSkyboxOverride*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ClearSkyboxOverride", ty:
+  // "::OVR::OpenVR::IVRCompositor__ClearSkyboxOverride*", modifiers: "", def_value: None, comment: None }, CppParam { name: "CompositorBringToFront", ty:
+  // "::OVR::OpenVR::IVRCompositor__CompositorBringToFront*", modifiers: "", def_value: None, comment: None }, CppParam { name: "CompositorGoToBack", ty:
+  // "::OVR::OpenVR::IVRCompositor__CompositorGoToBack*", modifiers: "", def_value: None, comment: None }, CppParam { name: "CompositorQuit", ty: "::OVR::OpenVR::IVRCompositor__CompositorQuit*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "IsFullscreen", ty: "::OVR::OpenVR::IVRCompositor__IsFullscreen*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "GetCurrentSceneFocusProcess", ty: "::OVR::OpenVR::IVRCompositor__GetCurrentSceneFocusProcess*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetLastFrameRenderer",
+  // ty: "::OVR::OpenVR::IVRCompositor__GetLastFrameRenderer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "CanRenderScene", ty: "::OVR::OpenVR::IVRCompositor__CanRenderScene*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "ShowMirrorWindow", ty: "::OVR::OpenVR::IVRCompositor__ShowMirrorWindow*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "HideMirrorWindow", ty: "::OVR::OpenVR::IVRCompositor__HideMirrorWindow*", modifiers: "", def_value: None, comment: None }, CppParam { name: "IsMirrorWindowVisible", ty:
+  // "::OVR::OpenVR::IVRCompositor__IsMirrorWindowVisible*", modifiers: "", def_value: None, comment: None }, CppParam { name: "CompositorDumpImages", ty:
+  // "::OVR::OpenVR::IVRCompositor__CompositorDumpImages*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ShouldAppRenderWithLowResources", ty:
+  // "::OVR::OpenVR::IVRCompositor__ShouldAppRenderWithLowResources*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ForceInterleavedReprojectionOn", ty:
+  // "::OVR::OpenVR::IVRCompositor__ForceInterleavedReprojectionOn*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ForceReconnectProcess", ty:
+  // "::OVR::OpenVR::IVRCompositor__ForceReconnectProcess*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SuspendRendering", ty:
+  // "::OVR::OpenVR::IVRCompositor__SuspendRendering*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetMirrorTextureD3D11", ty:
+  // "::OVR::OpenVR::IVRCompositor__GetMirrorTextureD3D11*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ReleaseMirrorTextureD3D11", ty:
+  // "::OVR::OpenVR::IVRCompositor__ReleaseMirrorTextureD3D11*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetMirrorTextureGL", ty:
+  // "::OVR::OpenVR::IVRCompositor__GetMirrorTextureGL*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ReleaseSharedGLTexture", ty:
+  // "::OVR::OpenVR::IVRCompositor__ReleaseSharedGLTexture*", modifiers: "", def_value: None, comment: None }, CppParam { name: "LockGLSharedTextureForAccess", ty:
+  // "::OVR::OpenVR::IVRCompositor__LockGLSharedTextureForAccess*", modifiers: "", def_value: None, comment: None }, CppParam { name: "UnlockGLSharedTextureForAccess", ty:
+  // "::OVR::OpenVR::IVRCompositor__UnlockGLSharedTextureForAccess*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetVulkanInstanceExtensionsRequired", ty:
+  // "::OVR::OpenVR::IVRCompositor__GetVulkanInstanceExtensionsRequired*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetVulkanDeviceExtensionsRequired", ty:
+  // "::OVR::OpenVR::IVRCompositor__GetVulkanDeviceExtensionsRequired*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SetExplicitTimingMode", ty:
+  // "::OVR::OpenVR::IVRCompositor__SetExplicitTimingMode*", modifiers: "", def_value: None, comment: None }, CppParam { name: "SubmitExplicitTimingData", ty:
+  // "::OVR::OpenVR::IVRCompositor__SubmitExplicitTimingData*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRCompositor(::OVR::OpenVR::IVRCompositor__SetTrackingSpace* SetTrackingSpace, ::OVR::OpenVR::IVRCompositor__GetTrackingSpace* GetTrackingSpace,
                           ::OVR::OpenVR::IVRCompositor__WaitGetPoses* WaitGetPoses, ::OVR::OpenVR::IVRCompositor__GetLastPoses* GetLastPoses,
                           ::OVR::OpenVR::IVRCompositor__GetLastPoseForTrackedDeviceIndex* GetLastPoseForTrackedDeviceIndex, ::OVR::OpenVR::IVRCompositor__Submit* Submit,

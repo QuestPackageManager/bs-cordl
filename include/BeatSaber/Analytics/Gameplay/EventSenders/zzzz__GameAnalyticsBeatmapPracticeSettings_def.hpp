@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\GameAnalyticsBeatmapPracticeSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/GameAnalyticsBeatmapPracticeSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,13 +58,13 @@ protected:
   constexpr GameAnalyticsBeatmapPracticeSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsBeatmapPracticeSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsBeatmapPracticeSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameAnalyticsBeatmapPracticeSettings(GameAnalyticsBeatmapPracticeSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsBeatmapPracticeSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameAnalyticsBeatmapPracticeSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameAnalyticsBeatmapPracticeSettings(GameAnalyticsBeatmapPracticeSettings const&) = delete;
+  GameAnalyticsBeatmapPracticeSettings(GameAnalyticsBeatmapPracticeSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22266 };

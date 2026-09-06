@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Android\LowLevel\AndroidDeviceCapabilities.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidDeviceCapabilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_REF_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilit
 MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c*, "UnityEngine.InputSystem.Android.LowLevel", "AndroidDeviceCapabilities/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities, "UnityEngine.InputSystem.Android.LowLevel", "AndroidDeviceCapabilities");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr AndroidDeviceCapabilities___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidDeviceCapabilities___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidDeviceCapabilities___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidDeviceCapabilities___c(AndroidDeviceCapabilities___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidDeviceCapabilities___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AndroidDeviceCapabilities___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AndroidDeviceCapabilities___c(AndroidDeviceCapabilities___c const&) = delete;
+  AndroidDeviceCapabilities___c(AndroidDeviceCapabilities___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8946 };
@@ -106,10 +107,10 @@ public:
   // @brief default ctor
   constexpr AndroidDeviceCapabilities();
 
-  // Ctor Parameters [CppParam { name: "deviceDescriptor", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "vendorId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isVirtual", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "motionAxes", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis>", modifiers: "", def_value: None }, CppParam { name: "inputSources", ty:
-  // "::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "deviceDescriptor", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "vendorId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "isVirtual", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "motionAxes", ty: "::ArrayW<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "inputSources", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource", modifiers: "", def_value: None, comment: None }]
   constexpr AndroidDeviceCapabilities(::StringW deviceDescriptor, int32_t productId, int32_t vendorId, bool isVirtual, ::ArrayW<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis> motionAxes,
                                       ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource inputSources) noexcept;
 

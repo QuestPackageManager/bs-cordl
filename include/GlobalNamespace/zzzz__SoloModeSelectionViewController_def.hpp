@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SoloModeSelectionViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SoloModeSelectionViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   // @brief default ctor
   constexpr SoloModeSelectionViewController_MenuType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr SoloModeSelectionViewController_MenuType(int32_t value__) noexcept;
 
   /// @brief Field Back value: I32(3)
@@ -125,15 +125,19 @@ public:
 
   static inline ::GlobalNamespace::SoloModeSelectionViewController* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__8_0, addr 0x5a232b0, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__8_1, addr 0x5a232d4, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__8_2, addr 0x5a232f8, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__8_3, addr 0x5a2331c, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_3();
 
@@ -172,9 +176,11 @@ public:
   /// @brief Method .ctor, addr 0x5a232ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5a22ec4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5a22f84, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* value);
 
@@ -184,29 +190,34 @@ protected:
   constexpr SoloModeSelectionViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SoloModeSelectionViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloModeSelectionViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoloModeSelectionViewController(SoloModeSelectionViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SoloModeSelectionViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SoloModeSelectionViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SoloModeSelectionViewController(SoloModeSelectionViewController const&) = delete;
+  SoloModeSelectionViewController(SoloModeSelectionViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6479 };
 
+  /// [SerializeField]
   /// @brief Field _freePlayModeButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____freePlayModeButton;
 
+  /// [SerializeField]
   /// @brief Field _oneSaberModeButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____oneSaberModeButton;
 
+  /// [SerializeField]
   /// @brief Field _noArrowsModeButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____noArrowsModeButton;
 
+  /// [SerializeField]
   /// @brief Field _dismissButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____dismissButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* ___didFinishEvent;
 

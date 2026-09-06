@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShadowDrawingSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShadowDrawingSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ struct ShadowDrawingSettings;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ShadowDrawingSettings);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ShadowDrawingSettings, "UnityEngine.Rendering", "ShadowDrawingSettings");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Rendering.BatchCullingProjectionType, UnityEngine.Rendering.CullingResults, UnityEngine.Rendering.ShadowSplitData, UnityEngine.ShadowObjectsFilter
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -60,11 +61,12 @@ public:
   // @brief default ctor
   constexpr ShadowDrawingSettings();
 
-  // Ctor Parameters [CppParam { name: "m_CullingResults", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: None }, CppParam { name: "m_LightIndex", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_SplitIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_UseRenderingLayerMaskTest", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "m_BatchLayerMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_SplitData", ty: "::UnityEngine::Rendering::ShadowSplitData", modifiers: "",
-  // def_value: None }, CppParam { name: "m_ObjectsFilter", ty: "::UnityEngine::ShadowObjectsFilter", modifiers: "", def_value: None }, CppParam { name: "m_ProjectionType", ty:
-  // "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_CullingResults", ty: "::UnityEngine::Rendering::CullingResults", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LightIndex", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SplitIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_UseRenderingLayerMaskTest", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BatchLayerMask", ty: "uint32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "m_SplitData", ty: "::UnityEngine::Rendering::ShadowSplitData", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ObjectsFilter", ty:
+  // "::UnityEngine::ShadowObjectsFilter", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ProjectionType", ty: "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr ShadowDrawingSettings(::UnityEngine::Rendering::CullingResults m_CullingResults, int32_t m_LightIndex, int32_t m_SplitIndex, int32_t m_UseRenderingLayerMaskTest, uint32_t m_BatchLayerMask,
                                   ::UnityEngine::Rendering::ShadowSplitData m_SplitData, ::UnityEngine::ShadowObjectsFilter m_ObjectsFilter,
                                   ::UnityEngine::Rendering::BatchCullingProjectionType m_ProjectionType) noexcept;

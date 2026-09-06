@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\AspMvcActionSelectorAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcActionSelectorAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class AspMvcActionSelectorAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::AspMvcActionSelectorAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::AspMvcActionSelectorAttribute*, "JetBrains.Annotations", "AspMvcActionSelectorAttribute");
+// [AttributeUsage((System.AttributeTargets)2176)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -30,13 +31,13 @@ protected:
   constexpr AspMvcActionSelectorAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcActionSelectorAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcActionSelectorAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspMvcActionSelectorAttribute(AspMvcActionSelectorAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcActionSelectorAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AspMvcActionSelectorAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AspMvcActionSelectorAttribute(AspMvcActionSelectorAttribute const&) = delete;
+  AspMvcActionSelectorAttribute(AspMvcActionSelectorAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22580 };

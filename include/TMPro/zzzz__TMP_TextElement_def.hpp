@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_TextElement.hpp"
+// IWYU pragma private; include "TMPro/TMP_TextElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,20 +141,22 @@ protected:
   constexpr TMP_TextElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_TextElement(TMP_TextElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_TextElement(TMP_TextElement const&) = delete;
+  TMP_TextElement(TMP_TextElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16010 };
 
+  /// [SerializeField]
   /// @brief Field m_ElementType, offset: 0x10, size: 0x1, def value: None
   ::TMPro::TextElementType ___m_ElementType;
 
+  /// [SerializeField]
   /// @brief Field m_Unicode, offset: 0x14, size: 0x4, def value: None
   uint32_t ___m_Unicode;
 
@@ -164,9 +166,11 @@ public:
   /// @brief Field m_Glyph, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::TextCore::Glyph* ___m_Glyph;
 
+  /// [SerializeField]
   /// @brief Field m_GlyphIndex, offset: 0x28, size: 0x4, def value: None
   uint32_t ___m_GlyphIndex;
 
+  /// [SerializeField]
   /// @brief Field m_Scale, offset: 0x2c, size: 0x4, def value: None
   float_t ___m_Scale;
 

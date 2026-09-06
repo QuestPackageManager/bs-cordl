@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\FileStream.hpp"
+// IWYU pragma private; include "System/IO/FileStream.hpp"
 #include "System/IO/zzzz__FileAccess_impl.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
@@ -1234,6 +1234,7 @@ inline ::StringW System::IO::FileStream::GetSecureFileName(::StringW filename, b
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::FileStream*>(), { "GetSecureFileName", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, filename, full);
 }
+/// @brief [Obsolete("Use FileStream(SafeFileHandle handle, FileAccess access, int bufferSize) instead")]
 inline ::System::IO::FileStream* System::IO::FileStream::New_ctor(::System::IntPtr handle, ::System::IO::FileAccess access, bool ownsHandle, int32_t bufferSize) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::IO::FileStream*>(handle, access, ownsHandle, bufferSize));
 }

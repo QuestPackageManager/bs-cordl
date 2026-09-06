@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SwitchGameObjectArrayEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/SwitchGameObjectArrayEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,8 +38,8 @@ public:
   // @brief default ctor
   constexpr SwitchGameObjectArrayEffectTarget_GameObjectActivation();
 
-  // Ctor Parameters [CppParam { name: "threshold", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "gameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "threshold", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "gameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr SwitchGameObjectArrayEffectTarget_GameObjectActivation(float_t threshold, ::UnityW<::UnityEngine::GameObject> gameObject) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -102,17 +102,18 @@ protected:
   constexpr SwitchGameObjectArrayEffectTarget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchGameObjectArrayEffectTarget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchGameObjectArrayEffectTarget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SwitchGameObjectArrayEffectTarget(SwitchGameObjectArrayEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SwitchGameObjectArrayEffectTarget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SwitchGameObjectArrayEffectTarget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SwitchGameObjectArrayEffectTarget(SwitchGameObjectArrayEffectTarget const&) = delete;
+  SwitchGameObjectArrayEffectTarget(SwitchGameObjectArrayEffectTargetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5881 };
 
+  /// [SerializeField]
   /// @brief Field gameObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SwitchGameObjectArrayEffectTarget_GameObjectActivation> ___gameObjects;
 

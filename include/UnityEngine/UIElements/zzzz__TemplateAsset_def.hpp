@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TemplateAsset.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TemplateAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,8 +64,9 @@ public:
   // @brief default ctor
   constexpr TemplateAsset_AttributeOverride();
 
-  // Ctor Parameters [CppParam { name: "m_ElementName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_NamesPath", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None },
-  // CppParam { name: "m_AttributeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ElementName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NamesPath", ty: "::ArrayW<::StringW>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_AttributeName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Value", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr TemplateAsset_AttributeOverride(::StringW m_ElementName, ::ArrayW<::StringW> m_NamesPath, ::StringW m_AttributeName, ::StringW m_Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -111,8 +112,9 @@ public:
   // @brief default ctor
   constexpr TemplateAsset_UxmlSerializedDataOverride();
 
-  // Ctor Parameters [CppParam { name: "m_ElementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ElementIdsPath", ty: "::System::Collections::Generic::List_1<int32_t>*",
-  // modifiers: "", def_value: None }, CppParam { name: "m_SerializedData", ty: "::UnityEngine::UIElements::UxmlSerializedData*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ElementId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ElementIdsPath", ty:
+  // "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SerializedData", ty: "::UnityEngine::UIElements::UxmlSerializedData*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr TemplateAsset_UxmlSerializedDataOverride(int32_t m_ElementId, ::System::Collections::Generic::List_1<int32_t>* m_ElementIdsPath,
                                                      ::UnityEngine::UIElements::UxmlSerializedData* m_SerializedData) noexcept;
 
@@ -128,6 +130,7 @@ public:
   /// @brief Field m_ElementIdsPath, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* m_ElementIdsPath;
 
+  /// [SerializeReference]
   /// @brief Field m_SerializedData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlSerializedData* m_SerializedData;
 
@@ -143,6 +146,7 @@ static_assert(offsetof(::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDa
 static_assert(sizeof(::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies UnityEngine.UIElements.VisualElementAsset
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -209,6 +213,7 @@ public:
   /// @brief Method get_serializedDataOverrides, addr 0x6cbbb38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* get_serializedDataOverrides();
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method get_slotUsages, addr 0x6cbd278, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>* get_slotUsages();
 
@@ -218,26 +223,30 @@ protected:
   constexpr TemplateAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TemplateAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemplateAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TemplateAsset(TemplateAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TemplateAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TemplateAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TemplateAsset(TemplateAsset const&) = delete;
+  TemplateAsset(TemplateAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5145 };
 
+  /// [SerializeField]
   /// @brief Field m_TemplateAlias, offset: 0x90, size: 0x8, def value: None
   ::StringW ___m_TemplateAlias;
 
+  /// [SerializeField]
   /// @brief Field m_AttributeOverrides, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* ___m_AttributeOverrides;
 
+  /// [SerializeField]
   /// @brief Field m_SerializedDataOverride, offset: 0xa0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* ___m_SerializedDataOverride;
 
+  /// [SerializeField]
   /// @brief Field m_SlotUsages, offset: 0xa8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>* ___m_SlotUsages;
 

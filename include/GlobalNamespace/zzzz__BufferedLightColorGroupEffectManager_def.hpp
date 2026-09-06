@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BufferedLightColorGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/BufferedLightColorGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,23 +83,26 @@ protected:
   constexpr BufferedLightColorGroupEffectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedLightColorGroupEffectManager(BufferedLightColorGroupEffectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BufferedLightColorGroupEffectManager(BufferedLightColorGroupEffectManager const&) = delete;
+  BufferedLightColorGroupEffectManager(BufferedLightColorGroupEffectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5890 };
 
+  /// [SerializeField]
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>> ____lightGroups;
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockControllers, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> ____materialPropertyBlockControllers;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x30, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

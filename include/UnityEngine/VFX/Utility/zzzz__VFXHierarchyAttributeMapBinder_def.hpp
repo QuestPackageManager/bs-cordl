@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXHierarchyAttributeMapBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXHierarchyAttributeMapBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
   // @brief default ctor
   constexpr VFXHierarchyAttributeMapBinder_RadiusMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VFXHierarchyAttributeMapBinder_RadiusMode(int32_t value__) noexcept;
 
   /// @brief Field Fixed value: I32(0)
@@ -113,8 +113,9 @@ public:
   // @brief default ctor
   constexpr VFXHierarchyAttributeMapBinder_Bone();
 
-  // Ctor Parameters [CppParam { name: "source", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "sourceRadius", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "target", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None }, CppParam { name: "targetRadius", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "source", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "sourceRadius", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "target", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: None, comment: None }, CppParam { name: "targetRadius", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr VFXHierarchyAttributeMapBinder_Bone(::UnityW<::UnityEngine::Transform> source, float_t sourceRadius, ::UnityW<::UnityEngine::Transform> target, float_t targetRadius) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -149,6 +150,8 @@ static_assert(offsetof(::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBind
 static_assert(sizeof(::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_Bone) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::VFX::Utility
+// [AddComponentMenu("VFX/Property Binders/Hierarchy to Attribute Map Binder")]
+// [VFXBinder("Point Cache/Hierarchy to Attribute Map")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase, UnityEngine.VFX.Utility.VFXHierarchyAttributeMapBinder::RadiusMode
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -304,26 +307,34 @@ protected:
   constexpr VFXHierarchyAttributeMapBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXHierarchyAttributeMapBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXHierarchyAttributeMapBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXHierarchyAttributeMapBinder(VFXHierarchyAttributeMapBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXHierarchyAttributeMapBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXHierarchyAttributeMapBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXHierarchyAttributeMapBinder(VFXHierarchyAttributeMapBinder const&) = delete;
+  VFXHierarchyAttributeMapBinder(VFXHierarchyAttributeMapBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19991 };
 
+  /// [VFXPropertyBinding(new[] { "System.UInt32" })]
+  /// [SerializeField]
   /// @brief Field m_BoneCount, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_BoneCount;
 
+  /// [VFXPropertyBinding(new[] { "UnityEngine.Texture2D" })]
+  /// [SerializeField]
   /// @brief Field m_PositionMap, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_PositionMap;
 
+  /// [VFXPropertyBinding(new[] { "UnityEngine.Texture2D" })]
+  /// [SerializeField]
   /// @brief Field m_TargetPositionMap, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_TargetPositionMap;
 
+  /// [VFXPropertyBinding(new[] { "UnityEngine.Texture2D" })]
+  /// [SerializeField]
   /// @brief Field m_RadiusPositionMap, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_RadiusPositionMap;
 

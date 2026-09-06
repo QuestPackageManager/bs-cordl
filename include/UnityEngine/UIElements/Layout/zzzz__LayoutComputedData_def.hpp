@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutComputedData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutComputedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutComputedData__Margi
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutComputedData__MeasuredDimensions_e__FixedBuffer, "UnityEngine.UIElements.Layout", "LayoutComputedData/<MeasuredDimensions>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutComputedData__Padding_e__FixedBuffer, "UnityEngine.UIElements.Layout", "LayoutComputedData/<Padding>e__FixedBuffer");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutComputedData__Position_e__FixedBuffer, "UnityEngine.UIElements.Layout", "LayoutComputedData/<Position>e__FixedBuffer");
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -75,7 +77,7 @@ public:
   // @brief default ctor
   constexpr LayoutComputedData__Border_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutComputedData__Border_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -99,6 +101,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutComputedData__Bo
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutComputedData__Border_e__FixedBuffer) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -111,7 +115,7 @@ public:
   // @brief default ctor
   constexpr LayoutComputedData__Dimensions_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutComputedData__Dimensions_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -135,6 +139,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutComputedData__Di
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutComputedData__Dimensions_e__FixedBuffer) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -147,7 +153,7 @@ public:
   // @brief default ctor
   constexpr LayoutComputedData__Margin_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutComputedData__Margin_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -171,6 +177,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutComputedData__Ma
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutComputedData__Margin_e__FixedBuffer) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -183,7 +191,7 @@ public:
   // @brief default ctor
   constexpr LayoutComputedData__MeasuredDimensions_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutComputedData__MeasuredDimensions_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -207,6 +215,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutComputedData__Me
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutComputedData__MeasuredDimensions_e__FixedBuffer) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -219,7 +229,7 @@ public:
   // @brief default ctor
   constexpr LayoutComputedData__Padding_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutComputedData__Padding_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -243,6 +253,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Layout::LayoutComputedData__Pa
 static_assert(sizeof(::UnityEngine::UIElements::Layout::LayoutComputedData__Padding_e__FixedBuffer) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Layout
+// [UnsafeValueType]
+// [CompilerGenerated]
 // Dependencies
 namespace UnityEngine::UIElements::Layout {
 // Is value type: true
@@ -255,7 +267,7 @@ public:
   // @brief default ctor
   constexpr LayoutComputedData__Position_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutComputedData__Position_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -322,16 +334,17 @@ public:
   // @brief default ctor
   constexpr LayoutComputedData();
 
-  // Ctor Parameters [CppParam { name: "Position", ty: "::UnityEngine::UIElements::Layout::LayoutComputedData__Position_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "Dimensions", ty: "::UnityEngine::UIElements::Layout::LayoutComputedData__Dimensions_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "Margin", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutComputedData__Margin_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "Border", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutComputedData__Border_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "Padding", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutComputedData__Padding_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "Direction", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutDirection", modifiers: "", def_value: None }, CppParam { name: "ComputedFlexBasisGeneration", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "ComputedFlexBasis", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "HadOverflow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "GenerationCount", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "LastParentDirection", ty: "::UnityEngine::UIElements::Layout::LayoutDirection", modifiers: "", def_value: None }, CppParam { name:
-  // "LastPointScaleFactor", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "MeasuredDimensions", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutComputedData__MeasuredDimensions_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Position", ty: "::UnityEngine::UIElements::Layout::LayoutComputedData__Position_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "Dimensions", ty: "::UnityEngine::UIElements::Layout::LayoutComputedData__Dimensions_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "Margin", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutComputedData__Margin_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "Border", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutComputedData__Border_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "Padding", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutComputedData__Padding_e__FixedBuffer", modifiers: "", def_value: None, comment: None }, CppParam { name: "Direction", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutDirection", modifiers: "", def_value: None, comment: None }, CppParam { name: "ComputedFlexBasisGeneration", ty: "uint32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "ComputedFlexBasis", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "HadOverflow", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "GenerationCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "LastParentDirection", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutDirection", modifiers: "", def_value: None, comment: None }, CppParam { name: "LastPointScaleFactor", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "MeasuredDimensions", ty: "::UnityEngine::UIElements::Layout::LayoutComputedData__MeasuredDimensions_e__FixedBuffer", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr LayoutComputedData(::UnityEngine::UIElements::Layout::LayoutComputedData__Position_e__FixedBuffer Position,
                                ::UnityEngine::UIElements::Layout::LayoutComputedData__Dimensions_e__FixedBuffer Dimensions,
                                ::UnityEngine::UIElements::Layout::LayoutComputedData__Margin_e__FixedBuffer Margin, ::UnityEngine::UIElements::Layout::LayoutComputedData__Border_e__FixedBuffer Border,
@@ -346,18 +359,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x84 };
 
+  /// [FixedBuffer(typeof(System.Single), 4)]
   /// @brief Field Position, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::UIElements::Layout::LayoutComputedData__Position_e__FixedBuffer Position;
 
+  /// [FixedBuffer(typeof(System.Single), 2)]
   /// @brief Field Dimensions, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutComputedData__Dimensions_e__FixedBuffer Dimensions;
 
+  /// [FixedBuffer(typeof(System.Single), 6)]
   /// @brief Field Margin, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::UIElements::Layout::LayoutComputedData__Margin_e__FixedBuffer Margin;
 
+  /// [FixedBuffer(typeof(System.Single), 6)]
   /// @brief Field Border, offset: 0x30, size: 0x18, def value: None
   ::UnityEngine::UIElements::Layout::LayoutComputedData__Border_e__FixedBuffer Border;
 
+  /// [FixedBuffer(typeof(System.Single), 6)]
   /// @brief Field Padding, offset: 0x48, size: 0x18, def value: None
   ::UnityEngine::UIElements::Layout::LayoutComputedData__Padding_e__FixedBuffer Padding;
 
@@ -382,6 +400,7 @@ public:
   /// @brief Field LastPointScaleFactor, offset: 0x78, size: 0x4, def value: None
   float_t LastPointScaleFactor;
 
+  /// [FixedBuffer(typeof(System.Single), 2)]
   /// @brief Field MeasuredDimensions, offset: 0x7c, size: 0x8, def value: None
   ::UnityEngine::UIElements::Layout::LayoutComputedData__MeasuredDimensions_e__FixedBuffer MeasuredDimensions;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TextureResource.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureResource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class TextureResource;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::RenderGraphModule::TextureResource*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::RenderGraphModule::TextureResource*, "UnityEngine.Rendering.RenderGraphModule", "TextureResource");
+// [DebuggerDisplay("TextureResource ({desc.name})")]
 // Dependencies UnityEngine.Rendering.RenderGraphModule.RenderGraphResource`2<DescType, ResType>, UnityEngine.Rendering.RenderGraphModule.TextureDesc
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr TextureResource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureResource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureResource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureResource(TextureResource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureResource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureResource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureResource(TextureResource const&) = delete;
+  TextureResource(TextureResourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12466 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfilesModel.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfilesModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,6 +111,7 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::GameSettings::ControllerProfilesModel__GetBuilt
 DEFINE_IL2CPP_CLASS(::BeatSaber::GameSettings::ControllerProfilesModel___c*, "BeatSaber.GameSettings", "ControllerProfilesModel/<>c");
 DEFINE_IL2CPP_CLASS(::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__19, "BeatSaber.GameSettings", "ControllerProfilesModel/<Initialize>d__19");
 DEFINE_IL2CPP_CLASS(::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__20, "BeatSaber.GameSettings", "ControllerProfilesModel/<LoadAsync>d__20");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::GameSettings {
 // Is value type: false
@@ -130,9 +131,11 @@ public:
 
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <GetControllerProfilesSaveData>b__27_0, addr 0x3292c9c, size 0x14, virtual false, abstract: false, final false
   inline bool _GetControllerProfilesSaveData_b__27_0(::BeatSaber::GameSettings::ControllerProfile* profile);
 
+  /// [NullableContext(0)]
   /// @brief Method <GetControllerProfilesSaveData>b__27_1, addr 0x3292cb0, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfileSaveData* _GetControllerProfilesSaveData_b__27_1(::BeatSaber::GameSettings::ControllerProfile* profile);
 
@@ -157,13 +160,13 @@ protected:
   constexpr ControllerProfilesModel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerProfilesModel___c(ControllerProfilesModel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfilesModel___c(ControllerProfilesModel___c const&) = delete;
+  ControllerProfilesModel___c(ControllerProfilesModel___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22048 };
@@ -174,6 +177,7 @@ public:
 static_assert(sizeof(::BeatSaber::GameSettings::ControllerProfilesModel___c) == 0x10, "Size mismatch!");
 
 } // namespace BeatSaber::GameSettings
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::GameSettings {
 // Is value type: false
@@ -213,23 +217,30 @@ public:
   /// @brief Method MoveNext, addr 0x3292d64, size 0x88, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<BeatSaber.GameSettings.ControllerProfile>.GetEnumerator, addr 0x3292e34, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::BeatSaber::GameSettings::ControllerProfile*>* System_Collections_Generic_IEnumerable_BeatSaber_GameSettings_ControllerProfile__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<BeatSaber.GameSettings.ControllerProfile>.get_Current, addr 0x3292dec, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::GameSettings::ControllerProfile* System_Collections_Generic_IEnumerator_BeatSaber_GameSettings_ControllerProfile__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3292ec0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3292df4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3292e2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3292d60, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -251,6 +262,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3292964, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -277,13 +289,13 @@ protected:
   constexpr ControllerProfilesModel__GetBuiltInProfiles_d__25();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel__GetBuiltInProfiles_d__25", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel__GetBuiltInProfiles_d__25", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerProfilesModel__GetBuiltInProfiles_d__25(ControllerProfilesModel__GetBuiltInProfiles_d__25&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel__GetBuiltInProfiles_d__25", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel__GetBuiltInProfiles_d__25", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfilesModel__GetBuiltInProfiles_d__25(ControllerProfilesModel__GetBuiltInProfiles_d__25 const&) = delete;
+  ControllerProfilesModel__GetBuiltInProfiles_d__25(ControllerProfilesModel__GetBuiltInProfiles_d__25const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22049 };
@@ -309,6 +321,7 @@ static_assert(offsetof(::BeatSaber::GameSettings::ControllerProfilesModel__GetBu
 static_assert(sizeof(::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25) == 0x28, "Size mismatch!");
 
 } // namespace BeatSaber::GameSettings
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::GameSettings {
 // Is value type: true
@@ -322,8 +335,9 @@ public:
   /// @brief Method MoveNext, addr 0x3292ec4, size 0x244, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3293108, size 0x8, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -332,9 +346,10 @@ public:
   // @brief default ctor
   constexpr ControllerProfilesModel__Initialize_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::GameSettings::ControllerProfilesModel*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::GameSettings::ControllerProfilesModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ControllerProfilesModel__Initialize_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                       ::BeatSaber::GameSettings::ControllerProfilesModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -350,6 +365,7 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::BeatSaber::GameSettings::ControllerProfilesModel* __4__this;
 
@@ -370,6 +386,7 @@ static_assert(offsetof(::BeatSaber::GameSettings::ControllerProfilesModel__Initi
 static_assert(sizeof(::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__19) == 0x38, "Size mismatch!");
 
 } // namespace BeatSaber::GameSettings
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::GameSettings {
 // Is value type: true
@@ -383,8 +400,9 @@ public:
   /// @brief Method MoveNext, addr 0x3293110, size 0x504, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x3293748, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -393,10 +411,10 @@ public:
   // @brief default ctor
   constexpr ControllerProfilesModel__LoadAsync_d__20();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::GameSettings::ControllerProfilesModel*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::GameSettings::ControllerProfilesSaveData*>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::GameSettings::ControllerProfilesModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::GameSettings::ControllerProfilesSaveData*>", modifiers: "", def_value: None, comment: None }]
   constexpr ControllerProfilesModel__LoadAsync_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                      ::BeatSaber::GameSettings::ControllerProfilesModel* __4__this,
                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::GameSettings::ControllerProfilesSaveData*> __u__1) noexcept;
@@ -413,9 +431,11 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::GameSettings::ControllerProfilesModel* __4__this;
 
+  /// [Nullable(new[] { 0, 2 })]
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::GameSettings::ControllerProfilesSaveData*> __u__1;
 
@@ -433,6 +453,8 @@ static_assert(offsetof(::BeatSaber::GameSettings::ControllerProfilesModel__LoadA
 static_assert(sizeof(::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__20) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::GameSettings
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::GameSettings {
 // Is value type: false
@@ -476,6 +498,7 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
+  /// [IteratorStateMachine(typeof(BeatSaber.GameSettings.ControllerProfilesModel::<GetBuiltInProfiles>d__25))]
   /// @brief Method GetBuiltInProfiles, addr 0x329219c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfile*>* GetBuiltInProfiles();
 
@@ -494,9 +517,11 @@ public:
   /// @brief Method GetSelectedProfileIndexFromSettings, addr 0x3292918, size 0x4c, virtual false, abstract: false, final false
   inline int32_t GetSelectedProfileIndexFromSettings(int32_t builtInProfilesCount);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.GameSettings.ControllerProfilesModel::<Initialize>d__19))]
   /// @brief Method Initialize, addr 0x3292204, size 0xa4, virtual true, abstract: false, final true
   inline void Initialize();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.GameSettings.ControllerProfilesModel::<LoadAsync>d__20))]
   /// @brief Method LoadAsync, addr 0x32922a8, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync();
 
@@ -553,6 +578,8 @@ public:
   /// @brief Method .ctor, addr 0x32920b0, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method add_onControllerProfilesUIEvent, addr 0x3291f30, size 0xc0, virtual false, abstract: false, final false
   inline void add_onControllerProfilesUIEvent(::System::Action_1<bool>* value);
 
@@ -562,15 +589,19 @@ public:
   /// @brief Method get_selectedProfile, addr 0x3291ed8, size 0x58, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfile* get_selectedProfile();
 
+  /// [CompilerGenerated]
   /// @brief Method get_selectedProfileIndex, addr 0x3291ec8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedProfileIndex();
 
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
+  /// [NullableContext(2)]
+  /// [CompilerGenerated]
   /// @brief Method remove_onControllerProfilesUIEvent, addr 0x3291ff0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onControllerProfilesUIEvent(::System::Action_1<bool>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_selectedProfileIndex, addr 0x3291ed0, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedProfileIndex(int32_t value);
 
@@ -580,13 +611,13 @@ protected:
   constexpr ControllerProfilesModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ControllerProfilesModel(ControllerProfilesModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControllerProfilesModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ControllerProfilesModel(ControllerProfilesModel const&) = delete;
+  ControllerProfilesModel(ControllerProfilesModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22052 };
@@ -600,18 +631,24 @@ public:
   /// @brief Field kDefaultLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultLocalizationKey{ u"CONTROLLER_PROFILES_LABEL_DEFAULT" };
 
+  /// [Inject]
   /// @brief Field _fileModel, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::GameSettings::ControllerProfileFileModel* ____fileModel;
 
+  /// [Inject]
   /// @brief Field _xrSystemState, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
+  /// [CompilerGenerated]
   /// @brief Field <selectedProfileIndex>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____selectedProfileIndex_k__BackingField;
 
+  /// [Nullable(2)]
+  /// [CompilerGenerated]
   /// @brief Field onControllerProfilesUIEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<bool>* ___onControllerProfilesUIEvent;
 

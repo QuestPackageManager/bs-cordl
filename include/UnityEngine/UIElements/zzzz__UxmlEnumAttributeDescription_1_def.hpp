@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlEnumAttributeDescription_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlEnumAttributeDescription_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -20,24 +21,32 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1, "UnityEngine.UIElements", "UxmlEnumAttributeDescription`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1___c, "UnityEngine.UIElements", "UxmlEnumAttributeDescription`1/<>c");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.IConvertible, System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlEnumAttributeDescription`1/<>c<T>
 class CORDL_TYPE UxmlEnumAttributeDescription_1___c : public ::System::Object {
@@ -81,13 +90,13 @@ protected:
   constexpr UxmlEnumAttributeDescription_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlEnumAttributeDescription_1___c(UxmlEnumAttributeDescription_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlEnumAttributeDescription_1___c(UxmlEnumAttributeDescription_1___c const&) = delete;
+  UxmlEnumAttributeDescription_1___c(UxmlEnumAttributeDescription_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5167 };
@@ -96,10 +105,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
+// Dependencies System.IConvertible, UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlEnumAttributeDescription`1<T>
 class CORDL_TYPE UxmlEnumAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T> {
@@ -108,7 +118,9 @@ public:
   using __c = ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1___c<T>;
 
   /// @brief Method ConvertValueToEnum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename U> static inline U ConvertValueToEnum(::StringW v, U defaultValue);
+  template <typename U>
+    requires(::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
+  static inline U ConvertValueToEnum(::StringW v, U defaultValue);
 
   /// @brief Method GetEnumNameErrorMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::StringW GetEnumNameErrorMessage(::StringW v, ::System::Type* enumType);
@@ -133,13 +145,13 @@ protected:
   constexpr UxmlEnumAttributeDescription_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlEnumAttributeDescription_1(UxmlEnumAttributeDescription_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlEnumAttributeDescription_1(UxmlEnumAttributeDescription_1 const&) = delete;
+  UxmlEnumAttributeDescription_1(UxmlEnumAttributeDescription_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5168 };

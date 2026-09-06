@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsAuthenticatedDataStreamGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAuthenticatedDataStreamGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,13 +125,13 @@ protected:
   constexpr CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream(CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream(CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream const&) = delete;
+  CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStream(CmsAuthenticatedDataStreamGenerator_CmsAuthenticatedDataOutputStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 622 };
@@ -229,13 +229,13 @@ protected:
   constexpr CmsAuthenticatedDataStreamGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsAuthenticatedDataStreamGenerator(CmsAuthenticatedDataStreamGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataStreamGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CmsAuthenticatedDataStreamGenerator(CmsAuthenticatedDataStreamGenerator const&) = delete;
+  CmsAuthenticatedDataStreamGenerator(CmsAuthenticatedDataStreamGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 623 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\SetPropertyUtility.hpp"
+// IWYU pragma private; include "UnityEngine/UI/SetPropertyUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,13 +23,17 @@ class CORDL_TYPE SetPropertyUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Method SetClass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool SetClass(::by_ref<T> currentValue, T newValue);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  static inline bool SetClass(::by_ref<T> currentValue, T newValue);
 
   /// @brief Method SetColor, addr 0x6e0b574, size 0x4c, virtual false, abstract: false, final false
   static inline bool SetColor(::by_ref<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
 
   /// @brief Method SetStruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool SetStruct(::by_ref<T> currentValue, T newValue);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline bool SetStruct(::by_ref<T> currentValue, T newValue);
 
 protected:
   // Ctor Parameters []
@@ -37,13 +41,13 @@ protected:
   constexpr SetPropertyUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetPropertyUtility(SetPropertyUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetPropertyUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetPropertyUtility(SetPropertyUtility const&) = delete;
+  SetPropertyUtility(SetPropertyUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17490 };

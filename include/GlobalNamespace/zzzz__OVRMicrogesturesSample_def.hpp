@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMicrogesturesSample.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMicrogesturesSample.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,6 +69,7 @@ MARK_REF_T(::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRMicrogesturesSample*, "", "OVRMicrogesturesSample");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22*, "", "OVRMicrogesturesSample/<HighlightIconCoroutine>d__22");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26*, "", "OVRMicrogesturesSample/<ShowGestureLabel>d__26");
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
@@ -110,17 +111,22 @@ public:
   /// @brief Method MoveNext, addr 0x5e73464, size 0x128, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e7358c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e73594, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e735cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5e73460, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -160,6 +166,7 @@ public:
 
   constexpr void __cordl_internal_set_navIcon(::UnityW<::UnityEngine::UI::Image> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5e730a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -178,13 +185,13 @@ protected:
   constexpr OVRMicrogesturesSample__HighlightIconCoroutine_d__22();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__HighlightIconCoroutine_d__22", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__HighlightIconCoroutine_d__22", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRMicrogesturesSample__HighlightIconCoroutine_d__22(OVRMicrogesturesSample__HighlightIconCoroutine_d__22&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__HighlightIconCoroutine_d__22", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__HighlightIconCoroutine_d__22", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMicrogesturesSample__HighlightIconCoroutine_d__22(OVRMicrogesturesSample__HighlightIconCoroutine_d__22 const&) = delete;
+  OVRMicrogesturesSample__HighlightIconCoroutine_d__22(OVRMicrogesturesSample__HighlightIconCoroutine_d__22const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7253 };
@@ -225,6 +232,7 @@ static_assert(offsetof(::GlobalNamespace::OVRMicrogesturesSample__HighlightIconC
 static_assert(sizeof(::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -263,17 +271,22 @@ public:
   /// @brief Method MoveNext, addr 0x5e735d8, size 0xe4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e736bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e736c4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e736fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5e735d4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -307,6 +320,7 @@ public:
 
   constexpr void __cordl_internal_set_label(::StringW value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5e73380, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -325,13 +339,13 @@ protected:
   constexpr OVRMicrogesturesSample__ShowGestureLabel_d__26();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__ShowGestureLabel_d__26", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__ShowGestureLabel_d__26", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRMicrogesturesSample__ShowGestureLabel_d__26(OVRMicrogesturesSample__ShowGestureLabel_d__26&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__ShowGestureLabel_d__26", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample__ShowGestureLabel_d__26", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMicrogesturesSample__ShowGestureLabel_d__26(OVRMicrogesturesSample__ShowGestureLabel_d__26 const&) = delete;
+  OVRMicrogesturesSample__ShowGestureLabel_d__26(OVRMicrogesturesSample__ShowGestureLabel_d__26const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7254 };
@@ -446,6 +460,7 @@ public:
   /// @brief Method HighlightIcon, addr 0x5e730ac, size 0x68, virtual false, abstract: false, final false
   inline void HighlightIcon(::UnityEngine::UI::Image* navIcon, bool state);
 
+  /// [IteratorStateMachine(typeof(OVRMicrogesturesSample::<HighlightIconCoroutine>d__22))]
   /// @brief Method HighlightIconCoroutine, addr 0x5e73044, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HighlightIconCoroutine(::UnityEngine::UI::Image* navIcon);
 
@@ -454,6 +469,7 @@ public:
   /// @brief Method OnGestureRecognized, addr 0x5e73114, size 0xb4, virtual false, abstract: false, final false
   inline void OnGestureRecognized(::GlobalNamespace::OVRPlugin_Hand hand, ::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
+  /// [IteratorStateMachine(typeof(OVRMicrogesturesSample::<ShowGestureLabel>d__26))]
   /// @brief Method ShowGestureLabel, addr 0x5e73318, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowGestureLabel(::UnityEngine::UI::Text* gestureLabel, ::StringW label);
 
@@ -463,9 +479,11 @@ public:
   /// @brief Method Start, addr 0x5e72cf0, size 0x174, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [CompilerGenerated]
   /// @brief Method <Start>b__19_0, addr 0x5e73448, size 0xc, virtual false, abstract: false, final false
   inline void _Start_b__19_0(::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
+  /// [CompilerGenerated]
   /// @brief Method <Start>b__19_1, addr 0x5e73454, size 0xc, virtual false, abstract: false, final false
   inline void _Start_b__19_1(::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
@@ -592,68 +610,90 @@ protected:
   constexpr OVRMicrogesturesSample();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRMicrogesturesSample(OVRMicrogesturesSample&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMicrogesturesSample", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMicrogesturesSample(OVRMicrogesturesSample const&) = delete;
+  OVRMicrogesturesSample(OVRMicrogesturesSampleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7255 };
 
+  /// [SerializeField]
   /// @brief Field leftGestureSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRMicrogestureEventSource> ___leftGestureSource;
 
+  /// [SerializeField]
   /// @brief Field rightGestureSource, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRMicrogestureEventSource> ___rightGestureSource;
 
+  /// [Header("Gesture Labels")]
+  /// [SerializeField]
   /// @brief Field leftGestureLabel, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___leftGestureLabel;
 
+  /// [SerializeField]
   /// @brief Field rightGestureLabel, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___rightGestureLabel;
 
+  /// [SerializeField]
   /// @brief Field gestureShowDuration, offset: 0x40, size: 0x4, def value: None
   float_t ___gestureShowDuration;
 
+  /// [Header("Navigation Icons Left")]
+  /// [SerializeField]
   /// @brief Field leftArrowL, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___leftArrowL;
 
+  /// [SerializeField]
   /// @brief Field rightArrowL, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___rightArrowL;
 
+  /// [SerializeField]
   /// @brief Field upArrowL, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___upArrowL;
 
+  /// [SerializeField]
   /// @brief Field downArrowL, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___downArrowL;
 
+  /// [SerializeField]
   /// @brief Field selectIconL, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___selectIconL;
 
+  /// [Header("Navigation Icons Right")]
+  /// [SerializeField]
   /// @brief Field leftArrowR, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___leftArrowR;
 
+  /// [SerializeField]
   /// @brief Field rightArrowR, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___rightArrowR;
 
+  /// [SerializeField]
   /// @brief Field upArrowR, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___upArrowR;
 
+  /// [SerializeField]
   /// @brief Field downArrowR, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___downArrowR;
 
+  /// [SerializeField]
   /// @brief Field selectIconR, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___selectIconR;
 
+  /// [Header("Colors")]
+  /// [SerializeField]
   /// @brief Field initialColor, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ___initialColor;
 
+  /// [SerializeField]
   /// @brief Field highlightColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ___highlightColor;
 
+  /// [SerializeField]
   /// @brief Field highlightDuration, offset: 0xb8, size: 0x4, def value: None
   float_t ___highlightDuration;
 

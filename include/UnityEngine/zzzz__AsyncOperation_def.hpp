@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AsyncOperation.hpp"
+// IWYU pragma private; include "UnityEngine/AsyncOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ protected:
   constexpr AsyncOperation_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncOperation_BindingsMarshaller(AsyncOperation_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperation_BindingsMarshaller(AsyncOperation_BindingsMarshaller const&) = delete;
+  AsyncOperation_BindingsMarshaller(AsyncOperation_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10299 };
@@ -66,6 +66,9 @@ public:
 static_assert(sizeof(::UnityEngine::AsyncOperation_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Misc/AsyncOperation.h")]
+// [NativeHeader("Runtime/Export/Scripting/AsyncOperation.bindings.h")]
+// [RequiredByNativeCode]
 // Dependencies System.IntPtr, UnityEngine.YieldInstruction
 namespace UnityEngine {
 // Is value type: false
@@ -92,12 +95,17 @@ public:
   /// @brief Method Finalize, addr 0x6ad9f88, size 0x74, virtual true, abstract: false, final false
   inline void Finalize();
 
+  /// [NativeMethod(IsThreadSafe = true)]
+  /// [StaticAccessor("AsyncOperationBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method InternalDestroy, addr 0x6ad9c24, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroy(::System::IntPtr ptr);
 
+  /// [StaticAccessor("AsyncOperationBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
+  /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method InternalSetManagedObject, addr 0x6ad9c60, size 0x44, virtual false, abstract: false, final false
-  static inline void InternalSetManagedObject(::System::IntPtr ptr, ::UnityEngine::AsyncOperation* self);
+  static inline void InternalSetManagedObject(::System::IntPtr ptr, /* [Unmarshalled] */ ::UnityEngine::AsyncOperation* self);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeCompletionEvent, addr 0x6ad9ffc, size 0x30, virtual false, abstract: false, final false
   inline void InvokeCompletionEvent();
 
@@ -126,18 +134,21 @@ public:
   /// @brief Method add_completed, addr 0x6ada02c, size 0xd4, virtual false, abstract: false, final false
   inline void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
+  /// [NativeMethod("GetAllowSceneActivation")]
   /// @brief Method get_allowSceneActivation, addr 0x6ad9e60, size 0x50, virtual false, abstract: false, final false
   inline bool get_allowSceneActivation();
 
   /// @brief Method get_allowSceneActivation_Injected, addr 0x6ad9eb0, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_allowSceneActivation_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsDone")]
   /// @brief Method get_isDone, addr 0x6ad9cac, size 0x50, virtual false, abstract: false, final false
   inline bool get_isDone();
 
   /// @brief Method get_isDone_Injected, addr 0x6ad9cfc, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isDone_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("GetProgress")]
   /// @brief Method get_progress, addr 0x6ad9d38, size 0x50, virtual false, abstract: false, final false
   inline float_t get_progress();
 
@@ -147,12 +158,14 @@ public:
   /// @brief Method remove_completed, addr 0x6ada100, size 0xa0, virtual false, abstract: false, final false
   inline void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
+  /// [NativeMethod("SetAllowSceneActivation")]
   /// @brief Method set_allowSceneActivation, addr 0x6ad9eec, size 0x58, virtual false, abstract: false, final false
   inline void set_allowSceneActivation(bool value);
 
   /// @brief Method set_allowSceneActivation_Injected, addr 0x6ad9f44, size 0x44, virtual false, abstract: false, final false
   static inline void set_allowSceneActivation_Injected(::System::IntPtr _unity_self, bool value);
 
+  /// [NativeMethod("SetPriority")]
   /// @brief Method set_priority, addr 0x6ad9dc4, size 0x58, virtual false, abstract: false, final false
   inline void set_priority(int32_t value);
 
@@ -165,17 +178,18 @@ protected:
   constexpr AsyncOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncOperation(AsyncOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncOperation(AsyncOperation const&) = delete;
+  AsyncOperation(AsyncOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10300 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.AssetBundleModule" })]
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 

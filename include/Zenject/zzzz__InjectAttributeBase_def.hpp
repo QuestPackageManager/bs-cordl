@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InjectAttributeBase.hpp"
+// IWYU pragma private; include "Zenject/InjectAttributeBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,21 +64,27 @@ public:
   /// @brief Method .ctor, addr 0x6e3d770, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Id, addr 0x6e3d750, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Id();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Optional, addr 0x6e3d740, size 0x8, virtual false, abstract: false, final false
   inline bool get_Optional();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Source, addr 0x6e3d760, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectSources get_Source();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Id, addr 0x6e3d758, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::System::Object* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Optional, addr 0x6e3d748, size 0x8, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Source, addr 0x6e3d768, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::Zenject::InjectSources value);
 
@@ -88,23 +94,26 @@ protected:
   constexpr InjectAttributeBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectAttributeBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectAttributeBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectAttributeBase(InjectAttributeBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectAttributeBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectAttributeBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectAttributeBase(InjectAttributeBase const&) = delete;
+  InjectAttributeBase(InjectAttributeBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22509 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Optional>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Optional_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____Id_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Source>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::Zenject::InjectSources ____Source_k__BackingField;
 

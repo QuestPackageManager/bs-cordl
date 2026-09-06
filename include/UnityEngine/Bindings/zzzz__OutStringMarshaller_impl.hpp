@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\OutStringMarshaller.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/OutStringMarshaller.hpp"
 #include "UnityEngine/Bindings/zzzz__OutStringMarshaller_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::OutStringMarshaller.GetStringAndDispose

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VariableMovementDataProviderDebugWindow.hpp"
+// IWYU pragma private; include "GlobalNamespace/VariableMovementDataProviderDebugWindow.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VariableMovementDataProviderDebugWindow_def.hpp"
 #include "GlobalNamespace/zzzz__VariableMovementDataProvider_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\EventSystems\PhysicsRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine/EventSystems/PhysicsRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,13 +84,13 @@ protected:
   constexpr PhysicsRaycaster_RaycastHitComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycaster_RaycastHitComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycaster_RaycastHitComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PhysicsRaycaster_RaycastHitComparer(PhysicsRaycaster_RaycastHitComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycaster_RaycastHitComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycaster_RaycastHitComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PhysicsRaycaster_RaycastHitComparer(PhysicsRaycaster_RaycastHitComparer const&) = delete;
+  PhysicsRaycaster_RaycastHitComparer(PhysicsRaycaster_RaycastHitComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17580 };
@@ -101,6 +101,8 @@ public:
 static_assert(sizeof(::UnityEngine::EventSystems::PhysicsRaycaster_RaycastHitComparer) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
+// [AddComponentMenu("Event/Physics Raycaster")]
+// [RequireComponent(typeof(UnityEngine.Camera))]
 // Dependencies UnityEngine.EventSystems.BaseRaycaster, UnityEngine.LayerMask, UnityEngine.RaycastHit
 namespace UnityEngine::EventSystems {
 // Is value type: false
@@ -204,13 +206,13 @@ protected:
   constexpr PhysicsRaycaster();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycaster", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycaster", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PhysicsRaycaster(PhysicsRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycaster", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PhysicsRaycaster(PhysicsRaycaster const&) = delete;
+  PhysicsRaycaster(PhysicsRaycasterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17581 };
@@ -221,9 +223,11 @@ public:
   /// @brief Field m_EventCamera, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ___m_EventCamera;
 
+  /// [SerializeField]
   /// @brief Field m_EventMask, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_EventMask;
 
+  /// [SerializeField]
   /// @brief Field m_MaxRayIntersections, offset: 0x34, size: 0x4, def value: None
   int32_t ___m_MaxRayIntersections;
 

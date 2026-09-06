@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXPreviousPositionBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXPreviousPositionBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXSpaceableBinder_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXPreviousPositionBinder_def.hpp"

@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ReflectionProbeBakingOverride.hpp"
+// IWYU pragma private; include "GlobalNamespace/ReflectionProbeBakingOverride.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeBakingOverride_def.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeBakingOverride_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling::ReflectionProbeBakingOverride_ActiveStateHandling(int32_t value__) noexcept {
   this->value__ = value__;
 }

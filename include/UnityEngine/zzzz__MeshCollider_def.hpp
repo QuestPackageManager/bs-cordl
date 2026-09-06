@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MeshCollider.hpp"
+// IWYU pragma private; include "UnityEngine/MeshCollider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,9 @@ class MeshCollider;
 // Write type traits
 MARK_REF_T(::UnityEngine::MeshCollider*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::MeshCollider*, "UnityEngine", "MeshCollider");
+// [NativeHeader("Runtime/Graphics/Mesh/Mesh.h")]
+// [NativeHeader("Modules/Physics/MeshCollider.h")]
+// [RequireComponent(typeof(UnityEngine.Transform))]
 // Dependencies UnityEngine.Collider
 namespace UnityEngine {
 // Is value type: false
@@ -33,12 +36,18 @@ public:
 
   __declspec(property(get = get_cookingOptions, put = set_cookingOptions)) ::UnityEngine::MeshColliderCookingOptions cookingOptions;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("MeshCollider.inflateMesh is no longer supported. The new cooking algorithm doesn\'t need inflation to be used.")]
   __declspec(property(get = get_inflateMesh, put = set_inflateMesh)) bool inflateMesh;
 
   __declspec(property(get = get_sharedMesh, put = set_sharedMesh)) ::UnityW<::UnityEngine::Mesh> sharedMesh;
 
+  /// [Obsolete("MeshCollider.skinWidth is no longer used.")]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_skinWidth, put = set_skinWidth)) float_t skinWidth;
 
+  /// [Obsolete("Configuring smooth sphere collisions is no longer needed.", true)]
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_smoothSphereCollisions, put = set_smoothSphereCollisions)) bool smoothSphereCollisions;
 
   static inline ::UnityEngine::MeshCollider* New_ctor();
@@ -106,13 +115,13 @@ protected:
   constexpr MeshCollider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshCollider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshCollider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshCollider(MeshCollider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshCollider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MeshCollider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MeshCollider(MeshCollider const&) = delete;
+  MeshCollider(MeshColliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18654 };

@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "ModestTree\Assert.hpp"
+// IWYU pragma private; include "ModestTree/Assert.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -39,7 +40,7 @@ class _cordl_Assert;
 // Write type traits
 MARK_REF_T(::ModestTree::_cordl_Assert*);
 DEFINE_IL2CPP_CLASS(::ModestTree::_cordl_Assert*, "ModestTree", "Assert");
-// Dependencies System.Object
+// Dependencies System.Exception, System.Object
 namespace ModestTree {
 // Is value type: false
 // CS Name: ModestTree.Assert
@@ -50,13 +51,13 @@ public:
   static inline ::Zenject::ZenjectException* CreateException();
 
   /// @brief Method CreateException, addr 0x6e3fb50, size 0x88, virtual false, abstract: false, final false
-  static inline ::Zenject::ZenjectException* CreateException(::System::Exception* innerException, ::StringW message, ::ArrayW<::System::Object*> parameters);
+  static inline ::Zenject::ZenjectException* CreateException(::System::Exception* innerException, ::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> parameters);
 
   /// @brief Method CreateException, addr 0x6e3e404, size 0x60, virtual false, abstract: false, final false
   static inline ::Zenject::ZenjectException* CreateException(::StringW message);
 
   /// @brief Method CreateException, addr 0x6e3e670, size 0x80, virtual false, abstract: false, final false
-  static inline ::Zenject::ZenjectException* CreateException(::StringW message, ::ArrayW<::System::Object*> parameters);
+  static inline ::Zenject::ZenjectException* CreateException(::StringW message, /* [ParamArray] */ ::ArrayW<::System::Object*> parameters);
 
   /// @brief Method DerivesFrom, addr 0x6e3e4a4, size 0x134, virtual false, abstract: false, final false
   static inline void DerivesFrom(::System::Type* childType, ::System::Type* parentType);
@@ -149,7 +150,9 @@ public:
   static inline void Throws(::System::Action* action);
 
   /// @brief Method Throws, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TException> static inline void Throws(::System::Action* action);
+  template <typename TException>
+    requires(::cordl_internals::type_constraint<TException, ::System::Exception*>)
+  static inline void Throws(::System::Action* action);
 
   /// @brief Method Warn, addr 0x6e3f4e0, size 0xc8, virtual false, abstract: false, final false
   static inline void Warn(bool condition);
@@ -166,13 +169,13 @@ protected:
   constexpr _cordl_Assert();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "_cordl_Assert", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "_cordl_Assert", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   _cordl_Assert(_cordl_Assert&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "_cordl_Assert", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "_cordl_Assert", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  _cordl_Assert(_cordl_Assert const&) = delete;
+  _cordl_Assert(_cordl_Assertconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13962 };

@@ -1,9 +1,11 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncValueTaskMethodBuilder.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncValueTaskMethodBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncValueTaskMethodBuilder)
 namespace System::Runtime::CompilerServices {
@@ -22,7 +24,7 @@ struct AsyncValueTaskMethodBuilder;
 // Write type traits
 MARK_VAL_T(::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder, "System.Runtime.CompilerServices", "AsyncValueTaskMethodBuilder");
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.ICriticalNotifyCompletion
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder
@@ -32,7 +34,10 @@ public:
   __declspec(property(get = get_Task)) ::System::Threading::Tasks::ValueTask Task;
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+             ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method Create, addr 0x5b6f8c4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder Create();
@@ -47,7 +52,9 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TStateMachine> inline void Start(::by_ref<TStateMachine> stateMachine);
+  template <typename TStateMachine>
+    requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+  inline void Start(::by_ref<TStateMachine> stateMachine);
 
   /// @brief Method get_Task, addr 0x5b6fbc4, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask get_Task();
@@ -56,8 +63,8 @@ public:
   // @brief default ctor
   constexpr AsyncValueTaskMethodBuilder();
 
-  // Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_haveResult", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncValueTaskMethodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder _methodBuilder, bool _haveResult, bool _useBuilder) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

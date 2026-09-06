@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ProModeTrailingCollidersController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ProModeTrailingCollidersController.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ProModeTrailingCollidersController_def.hpp"

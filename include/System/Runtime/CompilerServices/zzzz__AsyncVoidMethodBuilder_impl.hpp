@@ -1,6 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncVoidMethodBuilder.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncVoidMethodBuilder.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
@@ -90,7 +93,9 @@ inline ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder System::Runti
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder>(nullptr, ___internal_method);
 }
-template <typename TStateMachine> inline void System::Runtime::CompilerServices::AsyncVoidMethodBuilder::Start(::by_ref<TStateMachine> stateMachine) {
+template <typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
+inline void System::Runtime::CompilerServices::AsyncVoidMethodBuilder::Start(::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder>(),
                                                                                               { "Start", { ::i2c::class_of<TStateMachine>() }, { ::i2c::type_of<::by_ref<TStateMachine>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TStateMachine>() })));
@@ -102,6 +107,8 @@ inline void System::Runtime::CompilerServices::AsyncVoidMethodBuilder::SetStateM
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 template <typename TAwaiter, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::INotifyCompletion*> &&
+           ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 inline void System::Runtime::CompilerServices::AsyncVoidMethodBuilder::AwaitOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder>(),
                                                                                               { "AwaitOnCompleted",
@@ -111,6 +118,8 @@ inline void System::Runtime::CompilerServices::AsyncVoidMethodBuilder::AwaitOnCo
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, awaiter, stateMachine);
 }
 template <typename TAwaiter, typename TStateMachine>
+  requires(::cordl_internals::type_constraint<TAwaiter, ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*> &&
+           ::cordl_internals::type_constraint<TStateMachine, ::System::Runtime::CompilerServices::IAsyncStateMachine*>)
 inline void System::Runtime::CompilerServices::AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted(::by_ref<TAwaiter> awaiter, ::by_ref<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder>(),
                                                                                               { "AwaitUnsafeOnCompleted",
@@ -137,9 +146,9 @@ inline ::System::Threading::Tasks::Task* System::Runtime::CompilerServices::Asyn
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder>(), { "get_Task", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_synchronizationContext", ty: "::System::Threading::SynchronizationContext*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_coreState", ty:
-// "::System::Runtime::CompilerServices::AsyncMethodBuilderCore", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_synchronizationContext", ty: "::System::Threading::SynchronizationContext*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_coreState", ty: "::System::Runtime::CompilerServices::AsyncMethodBuilderCore", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_task", ty:
+// "::System::Threading::Tasks::Task*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder::AsyncVoidMethodBuilder(::System::Threading::SynchronizationContext* m_synchronizationContext,
                                                                                               ::System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState,
                                                                                               ::System::Threading::Tasks::Task* m_task) noexcept {

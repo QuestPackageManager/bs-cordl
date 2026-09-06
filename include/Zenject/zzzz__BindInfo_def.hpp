@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\BindInfo.hpp"
+// IWYU pragma private; include "Zenject/BindInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ class BindInfo;
 // Write type traits
 MARK_REF_T(::Zenject::BindInfo*);
 DEFINE_IL2CPP_CLASS(::Zenject::BindInfo*, "Zenject", "BindInfo");
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.BindingInheritanceMethods, Zenject.InvalidBindResponses, Zenject.ScopeTypes, Zenject.ToChoices
 namespace Zenject {
 // Is value type: false
@@ -114,6 +115,7 @@ public:
   /// @brief Method Reset, addr 0x6e5fedc, size 0x10c, virtual false, abstract: false, final false
   inline void Reset();
 
+  /// [Conditional("UNITY_EDITOR")]
   /// @brief Method SetContextInfo, addr 0x6e60044, size 0x8, virtual false, abstract: false, final false
   inline void SetContextInfo(::StringW contextInfo);
 
@@ -237,13 +239,13 @@ protected:
   constexpr BindInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindInfo(BindInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BindInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BindInfo(BindInfo const&) = delete;
+  BindInfo(BindInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14300 };

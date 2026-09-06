@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BoneWeight.hpp"
+// IWYU pragma private; include "UnityEngine/BoneWeight.hpp"
 #include "UnityEngine/zzzz__BoneWeight_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -317,10 +317,11 @@ constexpr UnityEngine::BoneWeight::operator ::System::IEquatable_1<::UnityEngine
 constexpr ::System::IEquatable_1<::UnityEngine::BoneWeight>* UnityEngine::BoneWeight::i___System__IEquatable_1___UnityEngine__BoneWeight_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::BoneWeight>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Weight0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Weight1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Weight2", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Weight3", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BoneIndex0", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BoneIndex1", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BoneIndex2", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_BoneIndex3", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Weight0", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Weight1", ty: "float_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Weight2", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Weight3", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "m_BoneIndex0", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BoneIndex1", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BoneIndex2", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BoneIndex3", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::BoneWeight::BoneWeight(float_t m_Weight0, float_t m_Weight1, float_t m_Weight2, float_t m_Weight3, int32_t m_BoneIndex0, int32_t m_BoneIndex1, int32_t m_BoneIndex2,
                                                 int32_t m_BoneIndex3) noexcept {
   this->m_Weight0 = m_Weight0;

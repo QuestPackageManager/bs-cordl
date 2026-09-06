@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonObjectAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonObjectAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class JsonObjectAttribute;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::JsonObjectAttribute*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonObjectAttribute*, "Newtonsoft.Json", "JsonObjectAttribute");
+// [AttributeUsage((System.AttributeTargets)1036, AllowMultiple = false)]
 // Dependencies Newtonsoft.Json.JsonContainerAttribute, Newtonsoft.Json.MemberSerialization, Newtonsoft.Json.MissingMemberHandling, Newtonsoft.Json.NullValueHandling, Newtonsoft.Json.Required,
 // System.Nullable`1<T>
 namespace Newtonsoft::Json {
@@ -62,6 +63,7 @@ public:
 
   static inline ::Newtonsoft::Json::JsonObjectAttribute* New_ctor();
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::JsonObjectAttribute* New_ctor(::StringW id);
 
   static inline ::Newtonsoft::Json::JsonObjectAttribute* New_ctor(::Newtonsoft::Json::MemberSerialization memberSerialization);
@@ -93,6 +95,7 @@ public:
   /// @brief Method .ctor, addr 0x5cd76ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5cd76b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
@@ -129,13 +132,13 @@ protected:
   constexpr JsonObjectAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonObjectAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonObjectAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonObjectAttribute(JsonObjectAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonObjectAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonObjectAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonObjectAttribute(JsonObjectAttribute const&) = delete;
+  JsonObjectAttribute(JsonObjectAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13258 };

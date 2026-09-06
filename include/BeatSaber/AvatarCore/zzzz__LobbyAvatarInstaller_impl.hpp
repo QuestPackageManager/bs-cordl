@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\LobbyAvatarInstaller.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/LobbyAvatarInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__LobbyAvatarInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberConnectedPlayer_def.hpp"

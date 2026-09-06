@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceConfigurationStats.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__BatteryStatus_def.hpp"
 #include "UnityEngine/zzzz__NetworkReachability_def.hpp"
@@ -15,7 +16,9 @@ namespace GlobalNamespace {
 struct PerformanceConfigurationStats_BoolStats;
 }
 namespace GlobalNamespace {
-template <typename T> struct PerformanceConfigurationStats_EnumStats_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+struct PerformanceConfigurationStats_EnumStats_1;
 }
 namespace GlobalNamespace {
 struct PerformanceConfigurationStats_FloatStats;
@@ -31,7 +34,9 @@ namespace GlobalNamespace {
 struct PerformanceConfigurationStats_BoolStats;
 }
 namespace GlobalNamespace {
-template <typename T> struct PerformanceConfigurationStats_EnumStats_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+struct PerformanceConfigurationStats_EnumStats_1;
 }
 namespace GlobalNamespace {
 struct PerformanceConfigurationStats_FloatStats;
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE PerformanceConfigurationStats_BoolStats {
 public:
   // Declarations
+  /// [IsReadOnly]
   /// @brief Method CreateLogValue, addr 0x58f2e84, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
@@ -67,7 +73,7 @@ public:
   // @brief default ctor
   constexpr PerformanceConfigurationStats_BoolStats();
 
-  // Ctor Parameters [CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "on", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "on", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceConfigurationStats_BoolStats(int32_t off, int32_t on) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -102,6 +108,7 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial)) ::GlobalNamespace::PerformanceConfigurationStats_IntStats kInitial;
 
+  /// [IsReadOnly]
   /// @brief Method CreateLogValue, addr 0x58f2f34, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
@@ -116,7 +123,7 @@ public:
   // @brief default ctor
   constexpr PerformanceConfigurationStats_IntStats();
 
-  // Ctor Parameters [CppParam { name: "min", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "min", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceConfigurationStats_IntStats(int32_t min, int32_t max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -151,6 +158,7 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial)) ::GlobalNamespace::PerformanceConfigurationStats_FloatStats kInitial;
 
+  /// [IsReadOnly]
   /// @brief Method CreateLogValue, addr 0x58f3060, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
@@ -165,7 +173,7 @@ public:
   // @brief default ctor
   constexpr PerformanceConfigurationStats_FloatStats();
 
-  // Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceConfigurationStats_FloatStats(float_t min, float_t max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -190,15 +198,17 @@ static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationStats_FloatSta
 static_assert(sizeof(::GlobalNamespace::PerformanceConfigurationStats_FloatStats) == 0x8, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies
+// Dependencies System.IConvertible
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
 // Is value type: true
 // CS Name: PerformanceConfigurationStats/EnumStats`1<T>
 struct CORDL_TYPE PerformanceConfigurationStats_EnumStats_1 {
 public:
   // Declarations
+  /// [IsReadOnly]
   /// @brief Method CreateLogValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
@@ -209,7 +219,7 @@ public:
   // @brief default ctor
   constexpr PerformanceConfigurationStats_EnumStats_1();
 
-  // Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceConfigurationStats_EnumStats_1(int32_t flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -226,7 +236,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Dependencies PerformanceConfigurationStats::BoolStats, PerformanceConfigurationStats::EnumStats`1<T>, PerformanceConfigurationStats::FloatStats, PerformanceConfigurationStats::IntStats,
-// System.Object, UnityEngine.BatteryStatus, UnityEngine.NetworkReachability
+// System.IConvertible, System.Object, UnityEngine.BatteryStatus, UnityEngine.NetworkReachability
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PerformanceConfigurationStats
@@ -235,7 +245,9 @@ public:
   // Declarations
   using BoolStats = ::GlobalNamespace::PerformanceConfigurationStats_BoolStats;
 
-  template <typename T> using EnumStats_1 = ::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+  using EnumStats_1 = ::GlobalNamespace::PerformanceConfigurationStats_EnumStats_1<T>;
 
   using FloatStats = ::GlobalNamespace::PerformanceConfigurationStats_FloatStats;
 
@@ -266,10 +278,14 @@ public:
   __declspec(property(get = __cordl_internal_get_processorFrequency, put = __cordl_internal_set_processorFrequency)) ::GlobalNamespace::PerformanceConfigurationStats_IntStats processorFrequency;
 
   /// @brief Method ConvertEnumToFlag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t ConvertEnumToFlag(T value);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+  static inline int32_t ConvertEnumToFlag(T value);
 
   /// @brief Method ConvertFlagsToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::StringW ConvertFlagsToString(int32_t flags);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+  static inline ::StringW ConvertFlagsToString(int32_t flags);
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats* New_ctor();
 
@@ -327,13 +343,13 @@ protected:
   constexpr PerformanceConfigurationStats();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationStats", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationStats", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceConfigurationStats(PerformanceConfigurationStats&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationStats", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationStats", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceConfigurationStats(PerformanceConfigurationStats const&) = delete;
+  PerformanceConfigurationStats(PerformanceConfigurationStatsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6611 };

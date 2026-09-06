@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightPairSinMoveEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightPairSinMoveEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,13 +127,13 @@ protected:
   constexpr LightPairSinMoveEventEffect_MovementData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect_MovementData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect_MovementData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightPairSinMoveEventEffect_MovementData(LightPairSinMoveEventEffect_MovementData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect_MovementData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect_MovementData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightPairSinMoveEventEffect_MovementData(LightPairSinMoveEventEffect_MovementData const&) = delete;
+  LightPairSinMoveEventEffect_MovementData(LightPairSinMoveEventEffect_MovementDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5923 };
@@ -179,6 +179,7 @@ static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect_MovementDa
 static_assert(sizeof(::GlobalNamespace::LightPairSinMoveEventEffect_MovementData) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/LightPairSinMoveEventEffect")]
 // Dependencies BasicBeatmapEventType, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -379,13 +380,13 @@ protected:
   constexpr LightPairSinMoveEventEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightPairSinMoveEventEffect(LightPairSinMoveEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightPairSinMoveEventEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightPairSinMoveEventEffect(LightPairSinMoveEventEffect const&) = delete;
+  LightPairSinMoveEventEffect(LightPairSinMoveEventEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5924 };
@@ -393,42 +394,58 @@ public:
   /// @brief Field kSpeedMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kSpeedMultiplier{ static_cast<float_t>(1.0f) };
 
+  /// [SerializeField]
   /// @brief Field _eventL, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____eventL;
 
+  /// [SerializeField]
   /// @brief Field _eventR, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____eventR;
 
+  /// [SerializeField]
   /// @brief Field _switchOverrideRandomValuesEvent, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____switchOverrideRandomValuesEvent;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _overrideRandomValues, offset: 0x2c, size: 0x1, def value: None
   bool ____overrideRandomValues;
 
+  /// [SerializeField]
+  /// [Tooltip("Range 0 - 1")]
   /// @brief Field _startValueOffset, offset: 0x30, size: 0x4, def value: None
   float_t ____startValueOffset;
 
+  /// [SerializeField]
   /// @brief Field _startPositionOffset, offset: 0x34, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startPositionOffset;
 
+  /// [SerializeField]
   /// @brief Field _endPositionOffset, offset: 0x40, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____endPositionOffset;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _transformL, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transformL;
 
+  /// [SerializeField]
   /// @brief Field _transformR, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transformR;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
+  /// [Inject]
   /// @brief Field _random, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::IRandom* ____random;
 
+  /// [Inject]
   /// @brief Field _timeHelper, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 

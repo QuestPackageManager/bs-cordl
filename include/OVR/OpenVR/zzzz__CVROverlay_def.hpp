@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\CVROverlay.hpp"
+// IWYU pragma private; include "OVR/OpenVR/CVROverlay.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,6 +115,7 @@ MARK_VAL_T(::OVR::OpenVR::CVROverlay_PollNextOverlayEventUnion);
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVROverlay*, "OVR.OpenVR", "CVROverlay");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked*, "OVR.OpenVR", "CVROverlay/_PollNextOverlayEventPacked");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::CVROverlay_PollNextOverlayEventUnion, "OVR.OpenVR", "CVROverlay/PollNextOverlayEventUnion");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -143,13 +144,13 @@ protected:
   constexpr CVROverlay__PollNextOverlayEventPacked();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVROverlay__PollNextOverlayEventPacked", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVROverlay__PollNextOverlayEventPacked", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVROverlay__PollNextOverlayEventPacked(CVROverlay__PollNextOverlayEventPacked&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVROverlay__PollNextOverlayEventPacked", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVROverlay__PollNextOverlayEventPacked", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVROverlay__PollNextOverlayEventPacked(CVROverlay__PollNextOverlayEventPacked const&) = delete;
+  CVROverlay__PollNextOverlayEventPacked(CVROverlay__PollNextOverlayEventPackedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8383 };
@@ -190,8 +191,8 @@ public:
   // @brief default ctor
   constexpr CVROverlay_PollNextOverlayEventUnion();
 
-  // Ctor Parameters [CppParam { name: "pPollNextOverlayEvent", ty: "::OVR::OpenVR::IVROverlay__PollNextOverlayEvent*", modifiers: "", def_value: None }, CppParam { name:
-  // "pPollNextOverlayEventPacked", ty: "::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "pPollNextOverlayEvent", ty: "::OVR::OpenVR::IVROverlay__PollNextOverlayEvent*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "pPollNextOverlayEventPacked", ty: "::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked*", modifiers: "", def_value: None, comment: None }]
   constexpr CVROverlay_PollNextOverlayEventUnion(::OVR::OpenVR::IVROverlay__PollNextOverlayEvent* pPollNextOverlayEvent,
                                                  ::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked* pPollNextOverlayEventPacked) noexcept;
 
@@ -534,13 +535,13 @@ protected:
   constexpr CVROverlay();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVROverlay", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVROverlay", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVROverlay(CVROverlay&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVROverlay", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CVROverlay", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CVROverlay(CVROverlay const&) = delete;
+  CVROverlay(CVROverlayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8385 };

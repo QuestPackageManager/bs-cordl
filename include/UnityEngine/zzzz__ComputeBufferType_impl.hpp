@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ComputeBufferType.hpp"
+// IWYU pragma private; include "UnityEngine/ComputeBufferType.hpp"
 #include "UnityEngine/zzzz__ComputeBufferType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ComputeBufferType::ComputeBufferType(int32_t value__) noexcept {
   this->value__ = value__;
 }

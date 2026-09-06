@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputForUI\PointerState.hpp"
+// IWYU pragma private; include "UnityEngine/InputForUI/PointerState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,41 +72,59 @@ public:
   /// @brief Method get_ButtonsState, addr 0x6b60fbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::PointerEvent_ButtonsState get_ButtonsState();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_ClickCount, addr 0x6b60fd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ClickCount();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_LastDisplayIndex, addr 0x6b60ff4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LastDisplayIndex();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_LastPosition, addr 0x6b60fe4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_LastPosition();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_LastPositionValid, addr 0x6b61004, size 0x8, virtual false, abstract: false, final false
   inline bool get_LastPositionValid();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_LastPressedButton, addr 0x6b60fac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputForUI::PointerEvent_Button get_LastPressedButton();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_NextPressTime, addr 0x6b60fc4, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::IntegerTime::DiscreteTime get_NextPressTime();
 
   static inline void setStaticF_kClickDelay(::Unity::IntegerTime::DiscreteTime value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ClickCount, addr 0x6b60fdc, size 0x8, virtual false, abstract: false, final false
   inline void set_ClickCount(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LastDisplayIndex, addr 0x6b60ffc, size 0x8, virtual false, abstract: false, final false
   inline void set_LastDisplayIndex(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LastPosition, addr 0x6b60fec, size 0x8, virtual false, abstract: false, final false
   inline void set_LastPosition(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LastPositionValid, addr 0x6b6100c, size 0x8, virtual false, abstract: false, final false
   inline void set_LastPositionValid(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LastPressedButton, addr 0x6b60fb4, size 0x8, virtual false, abstract: false, final false
   inline void set_LastPressedButton(::UnityEngine::InputForUI::PointerEvent_Button value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_NextPressTime, addr 0x6b60fcc, size 0x8, virtual false, abstract: false, final false
   inline void set_NextPressTime(::Unity::IntegerTime::DiscreteTime value);
 
@@ -114,11 +132,11 @@ public:
   // @brief default ctor
   constexpr PointerState();
 
-  // Ctor Parameters [CppParam { name: "_LastPressedButton_k__BackingField", ty: "::UnityEngine::InputForUI::PointerEvent_Button", modifiers: "", def_value: None }, CppParam { name: "_buttonsState",
-  // ty: "::UnityEngine::InputForUI::PointerEvent_ButtonsState", modifiers: "", def_value: None }, CppParam { name: "_NextPressTime_k__BackingField", ty: "::Unity::IntegerTime::DiscreteTime",
-  // modifiers: "", def_value: None }, CppParam { name: "_ClickCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_LastPosition_k__BackingField", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "_LastDisplayIndex_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_LastPositionValid_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_LastPressedButton_k__BackingField", ty: "::UnityEngine::InputForUI::PointerEvent_Button", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_buttonsState", ty: "::UnityEngine::InputForUI::PointerEvent_ButtonsState", modifiers: "", def_value: None, comment: None }, CppParam { name: "_NextPressTime_k__BackingField", ty:
+  // "::Unity::IntegerTime::DiscreteTime", modifiers: "", def_value: None, comment: None }, CppParam { name: "_ClickCount_k__BackingField", ty: "int32_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "_LastPosition_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "_LastDisplayIndex_k__BackingField", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_LastPositionValid_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr PointerState(::UnityEngine::InputForUI::PointerEvent_Button _LastPressedButton_k__BackingField, ::UnityEngine::InputForUI::PointerEvent_ButtonsState _buttonsState,
                          ::Unity::IntegerTime::DiscreteTime _NextPressTime_k__BackingField, int32_t _ClickCount_k__BackingField, ::UnityEngine::Vector2 _LastPosition_k__BackingField,
                          int32_t _LastDisplayIndex_k__BackingField, bool _LastPositionValid_k__BackingField) noexcept;
@@ -129,24 +147,36 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <LastPressedButton>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::InputForUI::PointerEvent_Button _LastPressedButton_k__BackingField;
 
   /// @brief Field _buttonsState, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::InputForUI::PointerEvent_ButtonsState _buttonsState;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <NextPressTime>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::Unity::IntegerTime::DiscreteTime _NextPressTime_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <ClickCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t _ClickCount_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <LastPosition>k__BackingField, offset: 0x14, size: 0x8, def value: None
   ::UnityEngine::Vector2 _LastPosition_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <LastDisplayIndex>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t _LastDisplayIndex_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <LastPositionValid>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool _LastPositionValid_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Int32.hpp"
+// IWYU pragma private; include "System/Int32.hpp"
 #include "System/zzzz__Int32_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
@@ -707,7 +707,7 @@ constexpr System::Int32::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::Int32::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_value", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_value", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Int32::Int32(int32_t m_value) noexcept {
   this->m_value = m_value;
 }

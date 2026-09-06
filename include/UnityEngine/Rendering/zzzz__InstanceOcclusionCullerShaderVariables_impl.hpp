@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\InstanceOcclusionCullerShaderVariables.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/InstanceOcclusionCullerShaderVariables.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceOcclusionCullerShaderVariables_def.hpp"
-// Ctor Parameters [CppParam { name: "_DrawInfoAllocIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_DrawInfoCount", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_InstanceInfoAllocIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_InstanceInfoCount", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_BoundingSphereInstanceDataAddress", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_DebugCounterIndex", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_InstanceMultiplierShift", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_InstanceOcclusionCullerPad0", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_DrawInfoAllocIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_DrawInfoCount", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_InstanceInfoAllocIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_InstanceInfoCount", ty:
+// "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_BoundingSphereInstanceDataAddress", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_DebugCounterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_InstanceMultiplierShift", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_InstanceOcclusionCullerPad0", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::InstanceOcclusionCullerShaderVariables::InstanceOcclusionCullerShaderVariables(uint32_t _DrawInfoAllocIndex, uint32_t _DrawInfoCount,
                                                                                                                    uint32_t _InstanceInfoAllocIndex, uint32_t _InstanceInfoCount,
                                                                                                                    int32_t _BoundingSphereInstanceDataAddress, int32_t _DebugCounterIndex,

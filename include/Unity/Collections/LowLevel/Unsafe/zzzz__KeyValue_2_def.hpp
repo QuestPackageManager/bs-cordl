@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\KeyValue_2.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/KeyValue_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyValue_2)
@@ -11,15 +12,22 @@ struct UnsafeParallelHashMapData;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename TKey, typename TValue> struct KeyValue_2;
+template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+struct KeyValue_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::LowLevel::Unsafe::KeyValue_2);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::LowLevel::Unsafe::KeyValue_2, "Unity.Collections.LowLevel.Unsafe", "KeyValue`2");
-// Dependencies
+// [DebuggerDisplay("Key = {Key}, Value = {Value}")]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32), typeof(System.Int32) })]
+// Dependencies System.IEquatable`1<T>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename TKey, typename TValue>
+  requires(::cordl_internals::type_constraint<TKey, ::System::IEquatable_1<TKey>*> && ::cordl_internals::value_type_constraint<TKey> && ::cordl_internals::default_constructor_constraint<TKey> &&
+           ::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.KeyValue`2<TKey,TValue>
 struct CORDL_TYPE KeyValue_2 {
@@ -45,8 +53,8 @@ public:
   // @brief default ctor
   constexpr KeyValue_2();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Next", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Index", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Next", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr KeyValue_2(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer, int32_t m_Index, int32_t m_Next) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

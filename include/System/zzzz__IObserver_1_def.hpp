@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IObserver_1.hpp"
+// IWYU pragma private; include "System/IObserver_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,18 +23,18 @@ template <typename T>
 class CORDL_TYPE IObserver_1 {
 public:
   // Declarations
-  /// @brief Method OnCompleted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnCompleted();
 
-  /// @brief Method OnError, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnNext(T value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IObserver_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IObserver_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IObserver_1(IObserver_1 const&) = delete;
+  IObserver_1(IObserver_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2422 };

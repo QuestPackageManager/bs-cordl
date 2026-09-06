@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TriggerFloatFxGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/TriggerFloatFxGroupEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,13 +78,13 @@ protected:
   constexpr TriggerFloatFxGroupEffect_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TriggerFloatFxGroupEffect_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TriggerFloatFxGroupEffect_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TriggerFloatFxGroupEffect_InitData(TriggerFloatFxGroupEffect_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TriggerFloatFxGroupEffect_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TriggerFloatFxGroupEffect_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TriggerFloatFxGroupEffect_InitData(TriggerFloatFxGroupEffect_InitData const&) = delete;
+  TriggerFloatFxGroupEffect_InitData(TriggerFloatFxGroupEffect_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5885 };
@@ -166,13 +166,13 @@ protected:
   constexpr TriggerFloatFxGroupEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TriggerFloatFxGroupEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TriggerFloatFxGroupEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TriggerFloatFxGroupEffect(TriggerFloatFxGroupEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TriggerFloatFxGroupEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TriggerFloatFxGroupEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TriggerFloatFxGroupEffect(TriggerFloatFxGroupEffect const&) = delete;
+  TriggerFloatFxGroupEffect(TriggerFloatFxGroupEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5886 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Concurrent\ConcurrentDictionary_2.hpp"
+// IWYU pragma private; include "System/Collections/Concurrent/ConcurrentDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -164,13 +164,13 @@ protected:
   constexpr ConcurrentDictionary_2_Node();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Node", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Node", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentDictionary_2_Node(ConcurrentDictionary_2_Node&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Node", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Node", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2_Node(ConcurrentDictionary_2_Node const&) = delete;
+  ConcurrentDictionary_2_Node(ConcurrentDictionary_2_Nodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3741 };
@@ -239,13 +239,13 @@ protected:
   constexpr ConcurrentDictionary_2_Tables();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Tables", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Tables", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentDictionary_2_Tables(ConcurrentDictionary_2_Tables&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Tables", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_Tables", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2_Tables(ConcurrentDictionary_2_Tables const&) = delete;
+  ConcurrentDictionary_2_Tables(ConcurrentDictionary_2_Tablesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3740 };
@@ -332,13 +332,13 @@ protected:
   constexpr ConcurrentDictionary_2_DictionaryEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_DictionaryEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_DictionaryEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentDictionary_2_DictionaryEnumerator(ConcurrentDictionary_2_DictionaryEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_DictionaryEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2_DictionaryEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2_DictionaryEnumerator(ConcurrentDictionary_2_DictionaryEnumerator const&) = delete;
+  ConcurrentDictionary_2_DictionaryEnumerator(ConcurrentDictionary_2_DictionaryEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3742 };
@@ -350,6 +350,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
+// [CompilerGenerated]
 // Dependencies System.Collections.Concurrent.ConcurrentDictionary`2::Node<TKey, TValue>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace System::Collections::Concurrent {
 // cpp template
@@ -395,18 +396,23 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2__GetEnumerator_d__35<TKey, TValue>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
   /// true
   inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -446,6 +452,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -465,13 +472,13 @@ protected:
   constexpr ConcurrentDictionary_2__GetEnumerator_d__35();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2__GetEnumerator_d__35", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2__GetEnumerator_d__35", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentDictionary_2__GetEnumerator_d__35(ConcurrentDictionary_2__GetEnumerator_d__35&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2__GetEnumerator_d__35", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2__GetEnumerator_d__35", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2__GetEnumerator_d__35(ConcurrentDictionary_2__GetEnumerator_d__35 const&) = delete;
+  ConcurrentDictionary_2__GetEnumerator_d__35(ConcurrentDictionary_2__GetEnumerator_d__35const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3743 };
@@ -498,6 +505,9 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
+// [DebuggerDisplay("Count = {Count}")]
+// [DebuggerTypeProxy(typeof(System.Collections.Concurrent.IDictionaryDebugView`2<K, V>))]
+// [DefaultMember("Item")]
 // Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace System::Collections::Concurrent {
 // cpp template
@@ -626,6 +636,7 @@ public:
   /// @brief Method GetCountInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetCountInternal();
 
+  /// [IteratorStateMachine(typeof(System.Collections.Concurrent.ConcurrentDictionary`2::<GetEnumerator>d__35<TKey, TValue>))]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* GetEnumerator();
 
@@ -657,12 +668,15 @@ public:
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* New_ctor(int32_t concurrencyLevel, int32_t capacity, bool growLockArray,
                                                                                                   ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
+  /// [OnSerialized]
   /// @brief Method OnSerialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnSerialized(::System::Runtime::Serialization::StreamingContext context);
 
+  /// [OnSerializing]
   /// @brief Method OnSerializing, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext context);
 
@@ -873,13 +887,13 @@ protected:
   constexpr ConcurrentDictionary_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentDictionary_2(ConcurrentDictionary_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentDictionary_2(ConcurrentDictionary_2 const&) = delete;
+  ConcurrentDictionary_2(ConcurrentDictionary_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3744 };

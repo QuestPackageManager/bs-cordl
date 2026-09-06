@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\Tasks\TaskAwaiters.hpp"
+// IWYU pragma private; include "System/Threading/Tasks/TaskAwaiters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class TaskAwaiters;
 // Write type traits
 MARK_REF_T(::System::Threading::Tasks::TaskAwaiters*);
 DEFINE_IL2CPP_CLASS(::System::Threading::Tasks::TaskAwaiters*, "System.Threading.Tasks", "TaskAwaiters");
+// [Extension]
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
@@ -25,6 +26,7 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE TaskAwaiters : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ForceAsync, addr 0x5cbc758, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::ForceAsyncAwaiter ForceAsync(::System::Threading::Tasks::Task* task);
 
@@ -34,13 +36,13 @@ protected:
   constexpr TaskAwaiters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskAwaiters(TaskAwaiters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TaskAwaiters(TaskAwaiters const&) = delete;
+  TaskAwaiters(TaskAwaitersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2782 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\Peer.hpp"
+// IWYU pragma private; include "ENet/Peer.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "ENet/zzzz__Peer_def.hpp"
 #include "ENet/zzzz__Packet_def.hpp"
@@ -511,7 +511,8 @@ inline void ENet::Peer::Reset() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Peer>(), { "Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "nativePeer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "nativeID", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "nativePeer", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "nativeID", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::ENet::Peer::Peer(::System::IntPtr nativePeer, uint32_t nativeID) noexcept {
   this->nativePeer = nativePeer;
   this->nativeID = nativeID;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifiersConfiguration.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifiersConfiguration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ protected:
   constexpr GameplayModifiersConfiguration_SongSpeed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_SongSpeed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_SongSpeed", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersConfiguration_SongSpeed(GameplayModifiersConfiguration_SongSpeed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_SongSpeed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_SongSpeed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersConfiguration_SongSpeed(GameplayModifiersConfiguration_SongSpeed const&) = delete;
+  GameplayModifiersConfiguration_SongSpeed(GameplayModifiersConfiguration_SongSpeedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21175 };
@@ -92,13 +92,13 @@ protected:
   constexpr GameplayModifiersConfiguration_CutAngleTolerance();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_CutAngleTolerance", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_CutAngleTolerance", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersConfiguration_CutAngleTolerance(GameplayModifiersConfiguration_CutAngleTolerance&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_CutAngleTolerance", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_CutAngleTolerance", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersConfiguration_CutAngleTolerance(GameplayModifiersConfiguration_CutAngleTolerance const&) = delete;
+  GameplayModifiersConfiguration_CutAngleTolerance(GameplayModifiersConfiguration_CutAngleToleranceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21176 };
@@ -128,13 +128,13 @@ protected:
   constexpr GameplayModifiersConfiguration_NoteUniformScale();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_NoteUniformScale", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_NoteUniformScale", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersConfiguration_NoteUniformScale(GameplayModifiersConfiguration_NoteUniformScale&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_NoteUniformScale", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration_NoteUniformScale", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersConfiguration_NoteUniformScale(GameplayModifiersConfiguration_NoteUniformScale const&) = delete;
+  GameplayModifiersConfiguration_NoteUniformScale(GameplayModifiersConfiguration_NoteUniformScaleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21177 };
@@ -170,13 +170,13 @@ protected:
   constexpr GameplayModifiersConfiguration();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersConfiguration(GameplayModifiersConfiguration&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersConfiguration(GameplayModifiersConfiguration const&) = delete;
+  GameplayModifiersConfiguration(GameplayModifiersConfigurationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21178 };

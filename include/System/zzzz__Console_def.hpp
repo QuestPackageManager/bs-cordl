@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Console.hpp"
+// IWYU pragma private; include "System/Console.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,13 +79,13 @@ protected:
   constexpr WindowsConsole_Console_WindowsCancelHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsConsole_Console_WindowsCancelHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsConsole_Console_WindowsCancelHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WindowsConsole_Console_WindowsCancelHandler(WindowsConsole_Console_WindowsCancelHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsConsole_Console_WindowsCancelHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WindowsConsole_Console_WindowsCancelHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WindowsConsole_Console_WindowsCancelHandler(WindowsConsole_Console_WindowsCancelHandler const&) = delete;
+  WindowsConsole_Console_WindowsCancelHandler(WindowsConsole_Console_WindowsCancelHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2595 };
@@ -140,13 +140,13 @@ protected:
   constexpr Console_WindowsConsole();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Console_WindowsConsole", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Console_WindowsConsole", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Console_WindowsConsole(Console_WindowsConsole&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Console_WindowsConsole", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Console_WindowsConsole", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Console_WindowsConsole(Console_WindowsConsole const&) = delete;
+  Console_WindowsConsole(Console_WindowsConsoleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2596 };
@@ -272,13 +272,13 @@ protected:
   constexpr Console();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Console(Console&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Console", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Console(Console const&) = delete;
+  Console(Consoleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2597 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LightmapSettings.hpp"
+// IWYU pragma private; include "UnityEngine/LightmapSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,8 @@ class LightmapSettings;
 // Write type traits
 MARK_REF_T(::UnityEngine::LightmapSettings*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LightmapSettings*, "UnityEngine", "LightmapSettings");
+// [StaticAccessor("GetLightmapSettings()")]
+// [NativeHeader("Runtime/Graphics/LightmapSettings.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -40,6 +42,7 @@ public:
   // Declarations
   static inline ::UnityEngine::LightmapSettings* New_ctor();
 
+  /// [NativeName("ResetAndAwakeFromLoad")]
   /// @brief Method Reset, addr 0x6a89acc, size 0x28, virtual false, abstract: false, final false
   static inline void Reset();
 
@@ -55,6 +58,7 @@ public:
   /// @brief Method get_lightProbes_Injected, addr 0x6a899e8, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_lightProbes_Injected();
 
+  /// [FreeFunction]
   /// @brief Method get_lightmaps, addr 0x6a8980c, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::LightmapData*> get_lightmaps();
 
@@ -67,15 +71,19 @@ public:
   /// @brief Method set_bakedColorSpace, addr 0x6a89b50, size 0x4, virtual false, abstract: false, final false
   static inline void set_bakedColorSpace(::UnityEngine::ColorSpace value);
 
+  /// [FreeFunction]
+  /// [NativeName("SetLightProbes")]
   /// @brief Method set_lightProbes, addr 0x6a89a10, size 0x80, virtual false, abstract: false, final false
   static inline void set_lightProbes(::UnityEngine::LightProbes* value);
 
   /// @brief Method set_lightProbes_Injected, addr 0x6a89a90, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightProbes_Injected(::System::IntPtr value);
 
+  /// [FreeFunction(ThrowsException = true)]
   /// @brief Method set_lightmaps, addr 0x6a89834, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_lightmaps(::ArrayW<::UnityEngine::LightmapData*> value);
+  static inline void set_lightmaps(/* [Unmarshalled] */ ::ArrayW<::UnityEngine::LightmapData*> value);
 
+  /// [FreeFunction(ThrowsException = true)]
   /// @brief Method set_lightmapsMode, addr 0x6a89898, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightmapsMode(::UnityEngine::LightmapsMode value);
 
@@ -88,13 +96,13 @@ protected:
   constexpr LightmapSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightmapSettings(LightmapSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightmapSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightmapSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightmapSettings(LightmapSettings const&) = delete;
+  LightmapSettings(LightmapSettingsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10145 };

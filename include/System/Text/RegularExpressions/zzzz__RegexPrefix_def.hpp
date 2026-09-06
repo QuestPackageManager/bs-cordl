@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\RegexPrefix.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexPrefix.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RegexPrefix;
 // Write type traits
 MARK_VAL_T(::System::Text::RegularExpressions::RegexPrefix);
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::RegexPrefix, "System.Text.RegularExpressions", "RegexPrefix");
+// [IsReadOnly]
 // Dependencies
 namespace System::Text::RegularExpressions {
 // Is value type: true
@@ -32,12 +33,15 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexPrefix getStaticF__Empty_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CaseInsensitive, addr 0x639440c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Empty, addr 0x6394414, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexPrefix get_Empty();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Prefix, addr 0x6394470, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
@@ -47,8 +51,8 @@ public:
   // @brief default ctor
   constexpr RegexPrefix();
 
-  // Ctor Parameters [CppParam { name: "_CaseInsensitive_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_Prefix_k__BackingField", ty: "::StringW", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "_CaseInsensitive_k__BackingField", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_Prefix_k__BackingField", ty: "::StringW",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr RegexPrefix(bool _CaseInsensitive_k__BackingField, ::StringW _Prefix_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -57,9 +61,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// [CompilerGenerated]
   /// @brief Field <CaseInsensitive>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _CaseInsensitive_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Prefix>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::StringW _Prefix_k__BackingField;
 

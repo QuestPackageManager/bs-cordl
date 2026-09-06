@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\AnalyticsBatchingThread.hpp"
+// IWYU pragma private; include "OSCE/Analytics/AnalyticsBatchingThread.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::OSCE::Analytics::AnalyticsBatchingThread*);
 MARK_VAL_T(::OSCE::Analytics::AnalyticsBatchingThread__ThreadedBatchSender_d__23);
 DEFINE_IL2CPP_CLASS(::OSCE::Analytics::AnalyticsBatchingThread*, "OSCE.Analytics", "AnalyticsBatchingThread");
 DEFINE_IL2CPP_CLASS(::OSCE::Analytics::AnalyticsBatchingThread__ThreadedBatchSender_d__23, "OSCE.Analytics", "AnalyticsBatchingThread/<ThreadedBatchSender>d__23");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 namespace OSCE::Analytics {
 // Is value type: true
@@ -63,6 +64,7 @@ public:
   /// @brief Method MoveNext, addr 0x5f3c628, size 0x388, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5f3c9b0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -73,9 +75,9 @@ public:
   // @brief default ctor
   constexpr AnalyticsBatchingThread__ThreadedBatchSender_d__23();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::OSCE::Analytics::AnalyticsBatchingThread*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::OSCE::Analytics::AnalyticsBatchingThread*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr AnalyticsBatchingThread__ThreadedBatchSender_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                ::OSCE::Analytics::AnalyticsBatchingThread* __4__this) noexcept;
 
@@ -182,6 +184,7 @@ public:
   /// @brief Method Shutdown, addr 0x5f3b1c8, size 0x44, virtual false, abstract: false, final false
   inline void Shutdown();
 
+  /// [AsyncStateMachine(typeof(OSCE.Analytics.AnalyticsBatchingThread::<ThreadedBatchSender>d__23))]
   /// @brief Method ThreadedBatchSender, addr 0x5f3c220, size 0x98, virtual false, abstract: false, final false
   inline void ThreadedBatchSender();
 
@@ -263,13 +266,13 @@ protected:
   constexpr AnalyticsBatchingThread();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsBatchingThread", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsBatchingThread", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnalyticsBatchingThread(AnalyticsBatchingThread&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsBatchingThread", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsBatchingThread", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnalyticsBatchingThread(AnalyticsBatchingThread const&) = delete;
+  AnalyticsBatchingThread(AnalyticsBatchingThreadconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21908 };

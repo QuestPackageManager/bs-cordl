@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Accelerometer.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Accelerometer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class Accelerometer;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Accelerometer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Accelerometer*, "UnityEngine.InputSystem", "Accelerometer");
+// [InputControlLayout(stateType = typeof(UnityEngine.InputSystem.LowLevel.AccelerometerState))]
 // Dependencies UnityEngine.InputSystem.Sensor
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -53,17 +54,21 @@ public:
 
   static inline ::UnityEngine::InputSystem::Accelerometer* getStaticF__current_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_acceleration, addr 0x6565a04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_acceleration();
 
+  /// [CompilerGenerated]
   /// @brief Method get_current, addr 0x6565a14, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Accelerometer* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Accelerometer* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_acceleration, addr 0x6565a0c, size 0x8, virtual false, abstract: false, final false
   inline void set_acceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_current, addr 0x6565a60, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Accelerometer* value);
 
@@ -73,17 +78,18 @@ protected:
   constexpr Accelerometer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Accelerometer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Accelerometer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Accelerometer(Accelerometer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Accelerometer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Accelerometer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Accelerometer(Accelerometer const&) = delete;
+  Accelerometer(Accelerometerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8759 };
 
+  /// [CompilerGenerated]
   /// @brief Field <acceleration>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____acceleration_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TabDragger.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TabDragger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -266,27 +266,33 @@ public:
   /// @brief Method .ctor, addr 0x6d73b08, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_active, addr 0x6d74dc8, size 0x8, virtual false, abstract: false, final false
   inline bool get_active();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isVertical, addr 0x6d74dd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isVertical();
 
   /// @brief Method get_moving, addr 0x6d74de8, size 0x8, virtual false, abstract: false, final false
   inline bool get_moving();
 
+  /// [CompilerGenerated]
   /// @brief Method get_tabLayout, addr 0x6d74db8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TabLayout* get_tabLayout();
 
+  /// [CompilerGenerated]
   /// @brief Method set_active, addr 0x6d74dd0, size 0x8, virtual false, abstract: false, final false
   inline void set_active(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isVertical, addr 0x6d74de0, size 0x8, virtual false, abstract: false, final false
   inline void set_isVertical(bool value);
 
   /// @brief Method set_moving, addr 0x6d74df0, size 0xb4, virtual false, abstract: false, final false
   inline void set_moving(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_tabLayout, addr 0x6d74dc0, size 0x8, virtual false, abstract: false, final false
   inline void set_tabLayout(::UnityEngine::UIElements::TabLayout* value);
 
@@ -296,13 +302,13 @@ protected:
   constexpr TabDragger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabDragger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabDragger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TabDragger(TabDragger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabDragger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabDragger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabDragger(TabDragger const&) = delete;
+  TabDragger(TabDraggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4328 };
@@ -346,12 +352,18 @@ public:
   /// @brief Field m_DraggingPointerId, offset: 0x6c, size: 0x4, def value: None
   int32_t ___m_DraggingPointerId;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <tabLayout>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::TabLayout* ____tabLayout_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <active>k__BackingField, offset: 0x78, size: 0x1, def value: None
   bool ____active_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isVertical>k__BackingField, offset: 0x79, size: 0x1, def value: None
   bool ____isVertical_k__BackingField;
 

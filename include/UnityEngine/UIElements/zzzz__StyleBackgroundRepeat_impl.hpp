@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleBackgroundRepeat.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleBackgroundRepeat.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundRepeat_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleBackgroundRepeat_def.hpp"
@@ -282,8 +282,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundRepea
 UnityEngine::UIElements::StyleBackgroundRepeat::i___System__IEquatable_1___UnityEngine__UIElements__StyleBackgroundRepeat_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundRepeat>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Keyword", ty:
-// "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Keyword", ty:
+// "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleBackgroundRepeat::StyleBackgroundRepeat(::UnityEngine::UIElements::BackgroundRepeat m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept {
   this->m_Value = m_Value;
   this->m_Keyword = m_Keyword;

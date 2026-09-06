@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderMeshConstructor.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderMeshConstructor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,13 +61,13 @@ public:
   /// @brief Method CreateSliderMesh, addr 0x597bc54, size 0x1dc, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes);
 
-  /// @brief Method CreateSliderMeshInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateSliderMeshInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes, ::by_ref<::UnityEngine::Bounds> bounds);
 
-  /// @brief Method GetTrianglesCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetTrianglesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetTrianglesCount(::GlobalNamespace::VertexPath* path);
 
-  /// @brief Method GetVertexCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetVertexCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetVertexCount(::GlobalNamespace::VertexPath* path);
 
   static inline ::GlobalNamespace::SliderMeshConstructor* New_ctor();
@@ -123,17 +123,18 @@ protected:
   constexpr SliderMeshConstructor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderMeshConstructor(SliderMeshConstructor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderMeshConstructor(SliderMeshConstructor const&) = delete;
+  SliderMeshConstructor(SliderMeshConstructorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5733 };
 
+  /// [SerializeField]
   /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 

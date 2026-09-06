@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeComponentMenuForRenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeComponentMenuForRenderPipeline.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponentMenu_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponentMenuForRenderPipeline_def.hpp"
@@ -49,12 +49,13 @@ inline ::ArrayW<::System::Type*> UnityEngine::Rendering::VolumeComponentMenuForR
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline*>(), { "get_pipelineTypes", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*>>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline::_ctor(::StringW menu, ::ArrayW<::System::Type*> pipelineTypes) {
+inline void UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline::_ctor(::StringW menu, /* [ParamArray] */ ::ArrayW<::System::Type*> pipelineTypes) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, menu, pipelineTypes);
 }
-inline ::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline* UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline::New_ctor(::StringW menu, ::ArrayW<::System::Type*> pipelineTypes) {
+inline ::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline*
+UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline::New_ctor(::StringW menu, /* [ParamArray] */ ::ArrayW<::System::Type*> pipelineTypes) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline*>(menu, pipelineTypes));
 }
 // Ctor Parameters []

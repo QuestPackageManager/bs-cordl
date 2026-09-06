@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LayerMaskParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LayerMaskParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LayerMaskParameter_def.hpp"

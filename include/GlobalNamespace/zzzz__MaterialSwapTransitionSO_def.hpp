@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialSwapTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialSwapTransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,32 +118,38 @@ protected:
   constexpr MaterialSwapTransitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapTransitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapTransitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialSwapTransitionSO(MaterialSwapTransitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapTransitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapTransitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialSwapTransitionSO(MaterialSwapTransitionSO const&) = delete;
+  MaterialSwapTransitionSO(MaterialSwapTransitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22383 };
 
+  /// [SerializeField]
   /// @brief Field _normalMaterial, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____normalMaterial;
 
+  /// [SerializeField]
   /// @brief Field _highlightedMaterial, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____highlightedMaterial;
 
+  /// [SerializeField]
   /// @brief Field _pressedMaterial, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____pressedMaterial;
 
+  /// [SerializeField]
   /// @brief Field _disabledMaterial, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____disabledMaterial;
 
+  /// [SerializeField]
   /// @brief Field _selectedMaterial, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____selectedMaterial;
 
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedMaterial, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____selectedAndHighlightedMaterial;
 

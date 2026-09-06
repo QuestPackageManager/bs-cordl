@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnHeaderColumnIcon.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumnIcon.hpp"
 #include "UnityEngine/UIElements/zzzz__Image_impl.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__MultiColumnHeaderColumnIcon_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"

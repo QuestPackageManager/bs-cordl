@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\DebugData.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/DebugData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__DebugData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

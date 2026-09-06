@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames\Analytics\Events\SessionEventSender.hpp"
+// IWYU pragma private; include "BeatGames/Analytics/Events/SessionEventSender.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ protected:
   constexpr SessionEventSender();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SessionEventSender", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SessionEventSender", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SessionEventSender(SessionEventSender&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SessionEventSender", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SessionEventSender", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SessionEventSender(SessionEventSender const&) = delete;
+  SessionEventSender(SessionEventSenderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23325 };

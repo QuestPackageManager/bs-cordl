@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\BindingRestrictions.hpp"
+// IWYU pragma private; include "System/Dynamic/BindingRestrictions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -13,8 +13,8 @@
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "Depth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Node", ty: "::System::Linq::Expressions::Expression*", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "Depth", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Node", ty: "::System::Linq::Expressions::Expression*", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Dynamic::TestBuilder_BindingRestrictions_AndNode::TestBuilder_BindingRestrictions_AndNode(int32_t Depth, ::System::Linq::Expressions::Expression* Node) noexcept {
   this->Depth = Depth;
   this->Node = Node;

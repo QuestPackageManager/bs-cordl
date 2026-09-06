@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ReadOnlySpan_1.hpp"
+// IWYU pragma private; include "System/ReadOnlySpan_1.hpp"
 #include "System/zzzz__ByReference_1_impl.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -88,8 +88,8 @@ template <typename T> inline ::System::ReadOnlySpan_1<T> System::ReadOnlySpan_1<
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ReadOnlySpan_1<T>>(), { "get_Empty", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<T>>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_pointer", ty: "::System::ByReference_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_pointer", ty: "::System::ByReference_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::System::ReadOnlySpan_1<T>::ReadOnlySpan_1(::System::ByReference_1<T> _pointer, int32_t _length) noexcept {
   this->_pointer = _pointer;
   this->_length = _length;

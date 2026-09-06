@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Settings\WindowSettings.hpp"
+// IWYU pragma private; include "BeatSaber/Settings/WindowSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr WindowSettings();
 
-  // Ctor Parameters [CppParam { name: "fullscreen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resolution", ty: "::Unity::Mathematics::int2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "fullscreen", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "resolution", ty: "::Unity::Mathematics::int2", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr WindowSettings(bool fullscreen, ::Unity::Mathematics::int2 resolution) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\VREvent_EditingCameraSurface_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/VREvent_EditingCameraSurface_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,8 @@ public:
   // @brief default ctor
   constexpr VREvent_EditingCameraSurface_t();
 
-  // Ctor Parameters [CppParam { name: "overlayHandle", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "nVisualMode", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "overlayHandle", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "nVisualMode", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr VREvent_EditingCameraSurface_t(uint64_t overlayHandle, uint32_t nVisualMode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

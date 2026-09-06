@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\CollectionChangeEventHandler.hpp"
+// IWYU pragma private; include "System/ComponentModel/CollectionChangeEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/ComponentModel/zzzz__CollectionChangeEventHandler_def.hpp"
 #include "System/ComponentModel/zzzz__CollectionChangeEventArgs_def.hpp"

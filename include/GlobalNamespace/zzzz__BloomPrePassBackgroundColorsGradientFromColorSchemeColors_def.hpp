@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundColorsGradientFromColorSchemeColors.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundColorsGradientFromColorSchemeColors.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   // @brief default ctor
   constexpr BloomPrePassBackgroundColorsGradientFromColorSchemeColors_EnvironmentColor();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BloomPrePassBackgroundColorsGradientFromColorSchemeColors_EnvironmentColor(int32_t value__) noexcept;
 
   /// @brief Field Color0 value: I32(0)
@@ -158,13 +158,13 @@ protected:
   constexpr BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element(BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element(BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element const&) = delete;
+  BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element(BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Elementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6502 };
@@ -172,12 +172,15 @@ public:
   /// @brief Field loadFromColorScheme, offset: 0x10, size: 0x1, def value: None
   bool ___loadFromColorScheme;
 
+  /// [DrawIf("loadFromColorScheme", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field environmentColor, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_EnvironmentColor ___environmentColor;
 
+  /// [DrawIf("loadFromColorScheme", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field intensity, offset: 0x18, size: 0x4, def value: None
   float_t ___intensity;
 
+  /// [DrawIf("loadFromColorScheme", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field color, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
 
@@ -259,23 +262,26 @@ protected:
   constexpr BloomPrePassBackgroundColorsGradientFromColorSchemeColors();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientFromColorSchemeColors", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientFromColorSchemeColors", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundColorsGradientFromColorSchemeColors(BloomPrePassBackgroundColorsGradientFromColorSchemeColors&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientFromColorSchemeColors", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientFromColorSchemeColors", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColorsGradientFromColorSchemeColors(BloomPrePassBackgroundColorsGradientFromColorSchemeColors const&) = delete;
+  BloomPrePassBackgroundColorsGradientFromColorSchemeColors(BloomPrePassBackgroundColorsGradientFromColorSchemeColorsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6504 };
 
+  /// [SerializeField]
   /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> ____bloomPrePassBackgroundColorsGradient;
 
+  /// [SerializeField]
   /// @brief Field _elements, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element*> ____elements;
 
+  /// [Inject]
   /// @brief Field _colorProvider, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IEnvironmentColorProvider* ____colorProvider;
 

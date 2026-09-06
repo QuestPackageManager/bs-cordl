@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\BSLeaderboardHealthModel.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/BSLeaderboardHealthModel.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__XOCBeatGamesHealthCheckStatusValue_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"

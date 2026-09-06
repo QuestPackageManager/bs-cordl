@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal\Cryptography\OidLookup.hpp"
+// IWYU pragma private; include "Internal/Cryptography/OidLookup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::Internal::Cryptography::OidLookup*);
 MARK_REF_T(::Internal::Cryptography::OidLookup___c*);
 DEFINE_IL2CPP_CLASS(::Internal::Cryptography::OidLookup*, "Internal.Cryptography", "OidLookup");
 DEFINE_IL2CPP_CLASS(::Internal::Cryptography::OidLookup___c*, "Internal.Cryptography", "OidLookup/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Internal::Cryptography {
 // Is value type: false
@@ -64,13 +65,13 @@ protected:
   constexpr OidLookup___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OidLookup___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OidLookup___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OidLookup___c(OidLookup___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OidLookup___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OidLookup___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OidLookup___c(OidLookup___c const&) = delete;
+  OidLookup___c(OidLookup___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11044 };
@@ -148,13 +149,13 @@ protected:
   constexpr OidLookup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OidLookup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OidLookup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OidLookup(OidLookup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OidLookup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OidLookup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OidLookup(OidLookup const&) = delete;
+  OidLookup(OidLookupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11045 };

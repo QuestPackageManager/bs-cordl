@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\CallSiteBinder.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/CallSiteBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,19 @@ namespace System::Linq::Expressions {
 class ParameterExpression;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class CallSiteBinder_LambdaSignature_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class CallSiteBinder_LambdaSignature_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class CallSite_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class CallSite_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class RuleCache_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class RuleCache_1;
 }
 namespace System {
 class Object;
@@ -44,7 +50,9 @@ namespace System::Runtime::CompilerServices {
 class CallSiteBinder;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class CallSiteBinder_LambdaSignature_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class CallSiteBinder_LambdaSignature_1;
 }
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::CallSiteBinder*);
@@ -55,6 +63,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Runtime::CompilerServices::CallSiteBinder_
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: false
 // CS Name: System.Runtime.CompilerServices.CallSiteBinder/LambdaSignature`1<T>
 class CORDL_TYPE CallSiteBinder_LambdaSignature_1 : public ::System::Object {
@@ -100,13 +109,13 @@ protected:
   constexpr CallSiteBinder_LambdaSignature_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder_LambdaSignature_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder_LambdaSignature_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallSiteBinder_LambdaSignature_1(CallSiteBinder_LambdaSignature_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder_LambdaSignature_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder_LambdaSignature_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallSiteBinder_LambdaSignature_1(CallSiteBinder_LambdaSignature_1 const&) = delete;
+  CallSiteBinder_LambdaSignature_1(CallSiteBinder_LambdaSignature_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16628 };
@@ -128,7 +137,9 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE CallSiteBinder : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using LambdaSignature_1 = ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>;
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  using LambdaSignature_1 = ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>;
 
   /// @brief Field Cache, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Cache, put = __cordl_internal_set_Cache)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* Cache;
@@ -136,27 +147,36 @@ public:
   /// @brief Field <UpdateLabel>k__BackingField, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__UpdateLabel_k__BackingField, put = setStaticF__UpdateLabel_k__BackingField)) ::System::Linq::Expressions::LabelTarget* _UpdateLabel_k__BackingField;
 
-  /// @brief Method Bind, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Linq::Expressions::Expression* Bind(::ArrayW<::System::Object*> args,
                                                        ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters,
                                                        ::System::Linq::Expressions::LabelTarget* returnLabel);
 
   /// @brief Method BindCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T BindCore(::System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::System::Object*> args);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline T BindCore(::System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::System::Object*> args);
 
   /// @brief Method BindDelegate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T> inline T BindDelegate(::System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::System::Object*> args);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline T BindDelegate(::System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::System::Object*> args);
 
   /// @brief Method CacheTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void CacheTarget(T target);
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline void CacheTarget(T target);
 
   /// @brief Method GetRuleCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Runtime::CompilerServices::RuleCache_1<T>* GetRuleCache();
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  inline ::System::Runtime::CompilerServices::RuleCache_1<T>* GetRuleCache();
 
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* New_ctor();
 
   /// @brief Method Stitch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
   static inline ::System::Linq::Expressions::Expression_1<T>* Stitch(::System::Linq::Expressions::Expression* binding,
                                                                      ::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1<T>* signature);
 
@@ -171,6 +191,7 @@ public:
 
   static inline ::System::Linq::Expressions::LabelTarget* getStaticF__UpdateLabel_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_UpdateLabel, addr 0x5fc174c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* get_UpdateLabel();
 
@@ -182,13 +203,13 @@ protected:
   constexpr CallSiteBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallSiteBinder(CallSiteBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CallSiteBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CallSiteBinder(CallSiteBinder const&) = delete;
+  CallSiteBinder(CallSiteBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16629 };

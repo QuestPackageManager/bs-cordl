@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Numerics\BigNumber.hpp"
+// IWYU pragma private; include "System/Numerics/BigNumber.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Numerics/zzzz__BigNumber_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
@@ -26,8 +26,9 @@ inline ::System::Numerics::BigNumber_BigNumberBuffer System::Numerics::BigNumber
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigNumber_BigNumberBuffer>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Numerics::BigNumber_BigNumberBuffer>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "digits", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: Some("{}") }, CppParam { name: "precision", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sign", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "digits", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "precision", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "scale", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sign", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Numerics::BigNumber_BigNumberBuffer::BigNumber_BigNumberBuffer(::System::Text::StringBuilder* digits, int32_t precision, int32_t scale, bool sign) noexcept {
   this->digits = digits;
   this->precision = precision;

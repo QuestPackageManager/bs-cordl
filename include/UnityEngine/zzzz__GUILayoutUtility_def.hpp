@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUILayoutUtility.hpp"
+// IWYU pragma private; include "UnityEngine/GUILayoutUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,8 @@ MARK_REF_T(::UnityEngine::GUILayoutUtility*);
 MARK_REF_T(::UnityEngine::GUILayoutUtility_LayoutCache*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GUILayoutUtility*, "UnityEngine", "GUILayoutUtility");
 DEFINE_IL2CPP_CLASS(::UnityEngine::GUILayoutUtility_LayoutCache*, "UnityEngine", "GUILayoutUtility/LayoutCache");
+// [DebuggerDisplay("id={id}, groups={layoutGroups.Count}")]
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -101,6 +103,7 @@ public:
   /// @brief Method .ctor, addr 0x6b45ddc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(int32_t instanceID);
 
+  /// [CompilerGenerated]
   /// @brief Method set_id, addr 0x6b47998, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
@@ -110,17 +113,19 @@ protected:
   constexpr GUILayoutUtility_LayoutCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility_LayoutCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility_LayoutCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUILayoutUtility_LayoutCache(GUILayoutUtility_LayoutCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility_LayoutCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility_LayoutCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUILayoutUtility_LayoutCache(GUILayoutUtility_LayoutCache const&) = delete;
+  GUILayoutUtility_LayoutCache(GUILayoutUtility_LayoutCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19880 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <id>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____id_k__BackingField;
 
@@ -147,6 +152,7 @@ static_assert(offsetof(::UnityEngine::GUILayoutUtility_LayoutCache, ___windows) 
 static_assert(sizeof(::UnityEngine::GUILayoutUtility_LayoutCache) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/IMGUI/GUILayoutUtility.bindings.h")]
 // Dependencies System.Object, UnityEngine.Rect
 namespace UnityEngine {
 // Is value type: false
@@ -179,6 +185,7 @@ public:
   /// @brief Method Begin, addr 0x6b45fa0, size 0x1b0, virtual false, abstract: false, final false
   static inline void Begin(int32_t instanceID);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method BeginContainer, addr 0x6b46264, size 0x13c, virtual false, abstract: false, final false
   static inline void BeginContainer(::UnityEngine::GUILayoutUtility_LayoutCache* cache);
 
@@ -211,10 +218,10 @@ public:
   static inline ::UnityEngine::GUILayoutUtility_LayoutCache* GetLayoutCache(int32_t instanceID, bool isWindow);
 
   /// @brief Method GetRect, addr 0x6b443ac, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect GetRect(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
+  static inline ::UnityEngine::Rect GetRect(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
   /// @brief Method GetRect, addr 0x6b44718, size 0x88, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect GetRect(float_t width, float_t height, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
+  static inline ::UnityEngine::Rect GetRect(float_t width, float_t height, ::UnityEngine::GUIStyle* style, /* [ParamArray] */ ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
   /// @brief Method Internal_GetWindowRect, addr 0x6b45ab4, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect Internal_GetWindowRect(int32_t windowID);
@@ -234,6 +241,7 @@ public:
   /// @brief Method LayoutFreeGroup, addr 0x6b463d8, size 0x188, virtual false, abstract: false, final false
   static inline void LayoutFreeGroup(::UnityEngine::GUILayoutGroup* toplevel);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method LayoutFromContainer, addr 0x6b46930, size 0x198, virtual false, abstract: false, final false
   static inline void LayoutFromContainer(float_t w, float_t h);
 
@@ -246,6 +254,7 @@ public:
   /// @brief Method RemoveSelectedIdList, addr 0x6b45ea4, size 0xfc, virtual false, abstract: false, final false
   static inline void RemoveSelectedIdList(int32_t instanceID, bool isWindow);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method SelectIDList, addr 0x6b4318c, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutUtility_LayoutCache* SelectIDList(int32_t instanceID, bool isWindow);
 
@@ -264,6 +273,7 @@ public:
   /// @brief Method get_spaceStyle, addr 0x6b44640, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIStyle* get_spaceStyle();
 
+  /// [CompilerGenerated]
   /// @brief Method get_unbalancedgroupscount, addr 0x6b45c60, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_unbalancedgroupscount();
 
@@ -279,6 +289,7 @@ public:
 
   static inline void setStaticF_s_StoredWindows(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::GUILayoutUtility_LayoutCache*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_unbalancedgroupscount, addr 0x6b45cbc, size 0x60, virtual false, abstract: false, final false
   static inline void set_unbalancedgroupscount(int32_t value);
 
@@ -288,13 +299,13 @@ protected:
   constexpr GUILayoutUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUILayoutUtility(GUILayoutUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUILayoutUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUILayoutUtility(GUILayoutUtility const&) = delete;
+  GUILayoutUtility(GUILayoutUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19881 };

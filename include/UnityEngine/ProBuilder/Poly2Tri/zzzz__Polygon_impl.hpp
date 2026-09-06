@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\Polygon.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/Polygon.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Polygon_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -352,7 +352,7 @@ inline void UnityEngine::ProBuilder::Poly2Tri::Polygon::_ctor(::System::Collecti
                                                            { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, points);
 }
-inline void UnityEngine::ProBuilder::Poly2Tri::Polygon::_ctor(::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> points) {
+inline void UnityEngine::ProBuilder::Poly2Tri::Polygon::_ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> points) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, points);
@@ -445,7 +445,7 @@ inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon*
 UnityEngine::ProBuilder::Poly2Tri::Polygon::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>(points));
 }
-inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* UnityEngine::ProBuilder::Poly2Tri::Polygon::New_ctor(::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> points) {
+inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* UnityEngine::ProBuilder::Poly2Tri::Polygon::New_ctor(/* [ParamArray] */ ::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> points) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>(points));
 }
 /// @brief Convert operator to "::UnityEngine::ProBuilder::Poly2Tri::Triangulatable"

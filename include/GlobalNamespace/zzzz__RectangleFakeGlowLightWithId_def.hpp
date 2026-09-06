@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RectangleFakeGlowLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/RectangleFakeGlowLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,23 +72,26 @@ protected:
   constexpr RectangleFakeGlowLightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectangleFakeGlowLightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectangleFakeGlowLightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectangleFakeGlowLightWithId(RectangleFakeGlowLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectangleFakeGlowLightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectangleFakeGlowLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectangleFakeGlowLightWithId(RectangleFakeGlowLightWithId const&) = delete;
+  RectangleFakeGlowLightWithId(RectangleFakeGlowLightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5974 };
 
+  /// [SerializeField]
   /// @brief Field _minAlpha, offset: 0x3c, size: 0x4, def value: None
   float_t ____minAlpha;
 
+  /// [SerializeField]
   /// @brief Field _alphaMul, offset: 0x40, size: 0x4, def value: None
   float_t ____alphaMul;
 
+  /// [SerializeField]
   /// @brief Field _rectangleFakeGlow, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RectangleFakeGlow> ____rectangleFakeGlow;
 

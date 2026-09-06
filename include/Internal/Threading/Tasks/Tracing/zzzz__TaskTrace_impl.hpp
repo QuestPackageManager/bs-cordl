@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal\Threading\Tasks\Tracing\TaskTrace.hpp"
+// IWYU pragma private; include "Internal/Threading/Tasks/Tracing/TaskTrace.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Threading/Tasks/Tracing/zzzz__TaskTrace_def.hpp"
 #include "Internal/Runtime/Augments/zzzz__TaskTraceCallbacks_def.hpp"

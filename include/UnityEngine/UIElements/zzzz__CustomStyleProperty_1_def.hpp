@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CustomStyleProperty_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CustomStyleProperty_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,12 +46,15 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>* i___System__IEquatable_1___UnityEngine__UIElements__CustomStyleProperty_1_T__();
 
+  /// [CompilerGenerated]
   /// @brief Method set_name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
@@ -59,7 +62,7 @@ public:
   // @brief default ctor
   constexpr CustomStyleProperty_1();
 
-  // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr CustomStyleProperty_1(::StringW _name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -68,6 +71,8 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <name>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _name_k__BackingField;
 

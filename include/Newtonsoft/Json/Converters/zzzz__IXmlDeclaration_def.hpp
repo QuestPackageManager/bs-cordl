@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\IXmlDeclaration.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/IXmlDeclaration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class IXmlDeclaration;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::IXmlDeclaration*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::IXmlDeclaration*, "Newtonsoft.Json.Converters", "IXmlDeclaration");
+// [NullableContext(2)]
 // Dependencies
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -31,27 +32,27 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method get_Encoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_Standalone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Standalone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Version();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Encoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Standalone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Standalone(::StringW value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IXmlDeclaration", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IXmlDeclaration", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IXmlDeclaration(IXmlDeclaration const&) = delete;
+  IXmlDeclaration(IXmlDeclarationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13675 };

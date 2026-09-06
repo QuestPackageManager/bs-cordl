@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberXRFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberXRFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   // @brief default ctor
   constexpr BeatSaberXRFeature_SessionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BeatSaberXRFeature_SessionState(int32_t value__) noexcept;
 
   /// @brief Field Exiting value: I32(8)
@@ -149,15 +149,19 @@ public:
   /// @brief Method .ctor, addr 0x5859940, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_sessionStateChangedEvent, addr 0x58597a0, size 0xc0, virtual false, abstract: false, final false
   inline void add_sessionStateChangedEvent(::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_currentSessionState, addr 0x5859790, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatSaberXRFeature_SessionState get_currentSessionState();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_sessionStateChangedEvent, addr 0x5859860, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sessionStateChangedEvent(::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_currentSessionState, addr 0x5859798, size 0x8, virtual false, abstract: false, final false
   inline void set_currentSessionState(::GlobalNamespace::BeatSaberXRFeature_SessionState value);
 
@@ -167,13 +171,13 @@ protected:
   constexpr BeatSaberXRFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberXRFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberXRFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatSaberXRFeature(BeatSaberXRFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberXRFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberXRFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberXRFeature(BeatSaberXRFeature const&) = delete;
+  BeatSaberXRFeature(BeatSaberXRFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21446 };
@@ -181,9 +185,11 @@ public:
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.beatgames.beatsaber.feature.beatsaberxr" };
 
+  /// [CompilerGenerated]
   /// @brief Field <currentSessionState>k__BackingField, offset: 0x50, size: 0x4, def value: None
   ::GlobalNamespace::BeatSaberXRFeature_SessionState ____currentSessionState_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field sessionStateChangedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>* ___sessionStateChangedEvent;
 

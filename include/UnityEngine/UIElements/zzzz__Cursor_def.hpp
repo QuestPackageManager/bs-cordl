@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Cursor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Cursor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,12 +91,18 @@ public:
   /// @brief Method ToString, addr 0x6d82dcc, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_defaultCursorId, addr 0x6d82b80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_defaultCursorId();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_hotspot, addr 0x6d82b70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_hotspot();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_texture, addr 0x6d82b60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
@@ -106,12 +112,15 @@ public:
   /// @brief Method op_Equality, addr 0x6d82d9c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Cursor style1, ::UnityEngine::UIElements::Cursor style2);
 
+  /// [CompilerGenerated]
   /// @brief Method set_defaultCursorId, addr 0x6d82b88, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultCursorId(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_hotspot, addr 0x6d82b78, size 0x8, virtual false, abstract: false, final false
   inline void set_hotspot(::UnityEngine::Vector2 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_texture, addr 0x6d82b68, size 0x8, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture2D* value);
 
@@ -119,8 +128,9 @@ public:
   // @brief default ctor
   constexpr Cursor();
 
-  // Ctor Parameters [CppParam { name: "_texture_k__BackingField", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "_hotspot_k__BackingField", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "_defaultCursorId_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_texture_k__BackingField", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_hotspot_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "_defaultCursorId_k__BackingField", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr Cursor(::UnityW<::UnityEngine::Texture2D> _texture_k__BackingField, ::UnityEngine::Vector2 _hotspot_k__BackingField, int32_t _defaultCursorId_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -129,12 +139,18 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <texture>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> _texture_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <hotspot>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Vector2 _hotspot_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <defaultCursorId>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t _defaultCursorId_k__BackingField;
 
@@ -190,9 +206,11 @@ public:
   /// @brief Method .ctor, addr 0x6d82fe4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6d83118, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6d83110, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -202,20 +220,24 @@ protected:
   constexpr PropertyBag_Cursor_TextureProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_TextureProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_TextureProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_Cursor_TextureProperty(PropertyBag_Cursor_TextureProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_TextureProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_TextureProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Cursor_TextureProperty(PropertyBag_Cursor_TextureProperty const&) = delete;
+  PropertyBag_Cursor_TextureProperty(PropertyBag_Cursor_TexturePropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4369 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -269,9 +291,11 @@ public:
   /// @brief Method .ctor, addr 0x6d83048, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6d83138, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6d83130, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -281,20 +305,24 @@ protected:
   constexpr PropertyBag_Cursor_HotspotProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_HotspotProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_HotspotProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_Cursor_HotspotProperty(PropertyBag_Cursor_HotspotProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_HotspotProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_HotspotProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Cursor_HotspotProperty(PropertyBag_Cursor_HotspotProperty const&) = delete;
+  PropertyBag_Cursor_HotspotProperty(PropertyBag_Cursor_HotspotPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4370 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -348,9 +376,11 @@ public:
   /// @brief Method .ctor, addr 0x6d830ac, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsReadOnly, addr 0x6d83158, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x6d83150, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -360,20 +390,24 @@ protected:
   constexpr PropertyBag_Cursor_DefaultCursorIdProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_DefaultCursorIdProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_DefaultCursorIdProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyBag_Cursor_DefaultCursorIdProperty(PropertyBag_Cursor_DefaultCursorIdProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_DefaultCursorIdProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_Cursor_DefaultCursorIdProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_Cursor_DefaultCursorIdProperty(PropertyBag_Cursor_DefaultCursorIdProperty const&) = delete;
+  PropertyBag_Cursor_DefaultCursorIdProperty(PropertyBag_Cursor_DefaultCursorIdPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4371 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
 
@@ -411,13 +445,13 @@ protected:
   constexpr Cursor_PropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Cursor_PropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cursor_PropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cursor_PropertyBag(Cursor_PropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Cursor_PropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cursor_PropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cursor_PropertyBag(Cursor_PropertyBag const&) = delete;
+  Cursor_PropertyBag(Cursor_PropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4372 };

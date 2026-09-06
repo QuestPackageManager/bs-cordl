@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Entity.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Entity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class Entity;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Entity*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Entity*, "UnityEngine.ProBuilder", "Entity");
+// [DisallowMultipleComponent]
+// [AddComponentMenu("")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.ProBuilder.EntityType
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -54,17 +56,20 @@ protected:
   constexpr Entity();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Entity(Entity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Entity(Entity const&) = delete;
+  Entity(Entityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16733 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// [FormerlySerializedAs("_entityType")]
   /// @brief Field m_EntityType, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::EntityType ___m_EntityType;
 

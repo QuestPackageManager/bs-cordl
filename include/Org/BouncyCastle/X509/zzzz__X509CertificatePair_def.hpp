@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\X509\X509CertificatePair.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/X509/X509CertificatePair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,13 +83,13 @@ protected:
   constexpr X509CertificatePair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificatePair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificatePair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CertificatePair(X509CertificatePair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509CertificatePair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509CertificatePair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509CertificatePair(X509CertificatePair const&) = delete;
+  X509CertificatePair(X509CertificatePairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1861 };

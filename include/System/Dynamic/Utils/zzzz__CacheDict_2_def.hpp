@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\Utils\CacheDict_2.hpp"
+// IWYU pragma private; include "System/Dynamic/Utils/CacheDict_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ protected:
   constexpr CacheDict_2_Entry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2_Entry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2_Entry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CacheDict_2_Entry(CacheDict_2_Entry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2_Entry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2_Entry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CacheDict_2_Entry(CacheDict_2_Entry const&) = delete;
+  CacheDict_2_Entry(CacheDict_2_Entryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16674 };
@@ -93,6 +93,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Dynamic::Utils
+// [DefaultMember("Item")]
 // Dependencies System.Dynamic.Utils.CacheDict`2::Entry<TKey, TValue>, System.Object
 namespace System::Dynamic::Utils {
 // cpp template
@@ -147,13 +148,13 @@ protected:
   constexpr CacheDict_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CacheDict_2(CacheDict_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CacheDict_2(CacheDict_2 const&) = delete;
+  CacheDict_2(CacheDict_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16675 };

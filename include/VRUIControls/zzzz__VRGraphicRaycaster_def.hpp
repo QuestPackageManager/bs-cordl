@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls\VRGraphicRaycaster.hpp"
+// IWYU pragma private; include "VRUIControls/VRGraphicRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,9 +86,9 @@ public:
   // @brief default ctor
   constexpr VRGraphicRaycaster_VRGraphicRaycastResult();
 
-  // Ctor Parameters [CppParam { name: "graphic", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "insideRootCanvasPosition", ty: "::UnityEngine::Vector2", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "graphic", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None, comment: None }, CppParam { name: "distance", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "insideRootCanvasPosition", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }]
   constexpr VRGraphicRaycaster_VRGraphicRaycastResult(::UnityW<::UnityEngine::UI::Graphic> graphic, float_t distance, ::UnityEngine::Vector3 position,
                                                       ::UnityEngine::Vector2 insideRootCanvasPosition) noexcept;
 
@@ -124,6 +124,7 @@ static_assert(offsetof(::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult
 static_assert(sizeof(::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult) == 0x20, "Size mismatch!");
 
 } // namespace VRUIControls
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace VRUIControls {
 // Is value type: false
@@ -159,13 +160,13 @@ protected:
   constexpr VRGraphicRaycaster___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRGraphicRaycaster___c(VRGraphicRaycaster___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRGraphicRaycaster___c(VRGraphicRaycaster___c const&) = delete;
+  VRGraphicRaycaster___c(VRGraphicRaycaster___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22826 };
@@ -176,6 +177,7 @@ public:
 static_assert(sizeof(::VRUIControls::VRGraphicRaycaster___c) == 0x10, "Size mismatch!");
 
 } // namespace VRUIControls
+// [RequireComponent(typeof(UnityEngine.Canvas))]
 // Dependencies UnityEngine.EventSystems.BaseRaycaster, UnityEngine.LayerMask
 namespace VRUIControls {
 // Is value type: false
@@ -266,13 +268,13 @@ protected:
   constexpr VRGraphicRaycaster();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRGraphicRaycaster(VRGraphicRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VRGraphicRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VRGraphicRaycaster(VRGraphicRaycaster const&) = delete;
+  VRGraphicRaycaster(VRGraphicRaycasterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22827 };
@@ -280,9 +282,11 @@ public:
   /// @brief Field kPhysics3DRaycastDistance offset 0xffffffff size 0x4
   static constexpr float_t kPhysics3DRaycastDistance{ static_cast<float_t>(6.0f) };
 
+  /// [SerializeField]
   /// @brief Field _blockingMask, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____blockingMask;
 
+  /// [Inject]
   /// @brief Field _physicsRaycaster, offset: 0x30, size: 0x8, def value: None
   ::VRUIControls::PhysicsRaycasterWithCache* ____physicsRaycaster;
 

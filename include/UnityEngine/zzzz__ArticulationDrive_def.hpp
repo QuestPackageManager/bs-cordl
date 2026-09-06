@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ArticulationDrive.hpp"
+// IWYU pragma private; include "UnityEngine/ArticulationDrive.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct ArticulationDrive;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ArticulationDrive);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ArticulationDrive, "UnityEngine", "ArticulationDrive");
+// [NativeHeader("Modules/Physics/ArticulationBody.h")]
 // Dependencies UnityEngine.ArticulationDriveType
 namespace UnityEngine {
 // Is value type: true
@@ -25,10 +26,11 @@ public:
   // @brief default ctor
   constexpr ArticulationDrive();
 
-  // Ctor Parameters [CppParam { name: "lowerLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "upperLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "stiffness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "damping", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "forceLimit", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "target", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "targetVelocity", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "driveType", ty: "::UnityEngine::ArticulationDriveType", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "lowerLimit", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "upperLimit", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "stiffness", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "damping", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "forceLimit", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "target", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "targetVelocity", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "driveType", ty: "::UnityEngine::ArticulationDriveType", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr ArticulationDrive(float_t lowerLimit, float_t upperLimit, float_t stiffness, float_t damping, float_t forceLimit, float_t target, float_t targetVelocity,
                               ::UnityEngine::ArticulationDriveType driveType) noexcept;
 

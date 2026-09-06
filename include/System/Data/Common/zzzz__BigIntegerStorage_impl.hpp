@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\BigIntegerStorage.hpp"
+// IWYU pragma private; include "System/Data/Common/BigIntegerStorage.hpp"
 #include "System/Data/Common/zzzz__DataStorage_impl.hpp"
 #include "System/Numerics/zzzz__BigInteger_impl.hpp"
 #include "System/Data/Common/zzzz__BigIntegerStorage_def.hpp"

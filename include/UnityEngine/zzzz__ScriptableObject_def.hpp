@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ScriptableObject.hpp"
+// IWYU pragma private; include "UnityEngine/ScriptableObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,10 @@ class ScriptableObject;
 // Write type traits
 MARK_REF_T(::UnityEngine::ScriptableObject*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ScriptableObject*, "UnityEngine", "ScriptableObject");
+// [ExtensionOfNativeClass]
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/Mono/MonoBehaviour.h")]
+// [NativeClass(null)]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -31,9 +35,11 @@ public:
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateInstance();
 
+  /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method CreateScriptableObject, addr 0x6ae5d44, size 0x3c, virtual false, abstract: false, final false
-  static inline void CreateScriptableObject(::UnityEngine::ScriptableObject* self);
+  static inline void CreateScriptableObject(/* [Writable] */ ::UnityEngine::ScriptableObject* self);
 
+  /// [NativeMethod(Name = "Scripting::CreateScriptableObjectWithType", IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x6ae5d88, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
 
@@ -51,13 +57,13 @@ protected:
   constexpr ScriptableObject();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObject", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObject", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableObject(ScriptableObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObject", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObject", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableObject(ScriptableObject const&) = delete;
+  ScriptableObject(ScriptableObjectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10359 };

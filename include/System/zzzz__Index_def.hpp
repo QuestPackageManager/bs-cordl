@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Index.hpp"
+// IWYU pragma private; include "System/Index.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct Index;
 // Write type traits
 MARK_VAL_T(::System::Index);
 DEFINE_IL2CPP_CLASS(::System::Index, "System", "Index");
+// [IsReadOnly]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -74,7 +75,7 @@ public:
   // @brief default ctor
   constexpr Index();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Index(int32_t _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

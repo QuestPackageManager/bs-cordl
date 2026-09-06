@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ILightGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/ILightGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,18 +26,18 @@ public:
 
   __declspec(property(get = get_numberOfElements)) int32_t numberOfElements;
 
-  /// @brief Method get_groupId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_groupName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_numberOfElements, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_numberOfElements, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_numberOfElements();
 
-  // Ctor Parameters [CppParam { name: "", ty: "ILightGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ILightGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ILightGroup(ILightGroup const&) = delete;
+  ILightGroup(ILightGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19503 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlObjectAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlObjectAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlObjectAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlObjectAttribute._ctor

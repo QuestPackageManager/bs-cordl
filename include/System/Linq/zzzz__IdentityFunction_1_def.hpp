@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\IdentityFunction_1.hpp"
+// IWYU pragma private; include "System/Linq/IdentityFunction_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ MARK_GEN_REF_T_PTR(::System::Linq::IdentityFunction_1);
 MARK_GEN_REF_T_PTR(::System::Linq::IdentityFunction_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::IdentityFunction_1, "System.Linq", "IdentityFunction`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::System::Linq::IdentityFunction_1___c, "System.Linq", "IdentityFunction`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Linq {
 // cpp template
@@ -60,13 +61,13 @@ protected:
   constexpr IdentityFunction_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IdentityFunction_1___c(IdentityFunction_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IdentityFunction_1___c(IdentityFunction_1___c const&) = delete;
+  IdentityFunction_1___c(IdentityFunction_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16087 };
@@ -95,13 +96,13 @@ protected:
   constexpr IdentityFunction_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IdentityFunction_1(IdentityFunction_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IdentityFunction_1(IdentityFunction_1 const&) = delete;
+  IdentityFunction_1(IdentityFunction_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16088 };

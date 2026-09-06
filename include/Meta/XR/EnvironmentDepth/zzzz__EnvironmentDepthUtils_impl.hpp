@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\EnvironmentDepth\EnvironmentDepthUtils.hpp"
+// IWYU pragma private; include "Meta/XR/EnvironmentDepth/EnvironmentDepthUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "Meta/XR/EnvironmentDepth/zzzz__EnvironmentDepthUtils_def.hpp"

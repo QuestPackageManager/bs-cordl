@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Security\SslClientAuthenticationOptions.hpp"
+// IWYU pragma private; include "System/Net/Security/SslClientAuthenticationOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,24 +140,29 @@ public:
   /// @brief Method .ctor, addr 0x63706b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ClientCertificates, addr 0x637056c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
   /// @brief Method get_EnabledSslProtocols, addr 0x63706a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LocalCertificateSelectionCallback, addr 0x6370544, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::LocalCertificateSelectionCallback* get_LocalCertificateSelectionCallback();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RemoteCertificateValidationCallback, addr 0x6370554, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::RemoteCertificateValidationCallback* get_RemoteCertificateValidationCallback();
 
+  /// [CompilerGenerated]
   /// @brief Method get_TargetHost, addr 0x637055c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
   /// @brief Method set_CertificateRevocationCheckMode, addr 0x637057c, size 0x94, virtual false, abstract: false, final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ClientCertificates, addr 0x6370574, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
@@ -167,9 +172,11 @@ public:
   /// @brief Method set_EncryptionPolicy, addr 0x6370610, size 0x94, virtual false, abstract: false, final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LocalCertificateSelectionCallback, addr 0x637054c, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalCertificateSelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_TargetHost, addr 0x6370564, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetHost(::StringW value);
 
@@ -179,13 +186,13 @@ protected:
   constexpr SslClientAuthenticationOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SslClientAuthenticationOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SslClientAuthenticationOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SslClientAuthenticationOptions(SslClientAuthenticationOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SslClientAuthenticationOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SslClientAuthenticationOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SslClientAuthenticationOptions(SslClientAuthenticationOptions const&) = delete;
+  SslClientAuthenticationOptions(SslClientAuthenticationOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11798 };
@@ -202,15 +209,19 @@ public:
   /// @brief Field _allowRenegotiation, offset: 0x1c, size: 0x1, def value: None
   bool ____allowRenegotiation;
 
+  /// [CompilerGenerated]
   /// @brief Field <LocalCertificateSelectionCallback>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Net::Security::LocalCertificateSelectionCallback* ____LocalCertificateSelectionCallback_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <RemoteCertificateValidationCallback>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Net::Security::RemoteCertificateValidationCallback* ____RemoteCertificateValidationCallback_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <TargetHost>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::StringW ____TargetHost_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ClientCertificates>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ____ClientCertificates_k__BackingField;
 

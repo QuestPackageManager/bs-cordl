@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScriptableRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScriptableRenderer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_impl.hpp"
@@ -276,8 +276,9 @@ inline void UnityEngine::Rendering::Universal::ScriptableRenderer_RenderPassDesc
                                                            { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, width, height, sampleCount, rtID);
 }
-// Ctor Parameters [CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "h", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "samples", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "depthID", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "w", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "h", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "samples", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "depthID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderPassDescriptor::ScriptableRenderer_RenderPassDescriptor(int32_t w, int32_t h, int32_t samples, int32_t depthID) noexcept {
   this->w = w;
   this->h = h;
@@ -854,7 +855,8 @@ constexpr UnityEngine::Rendering::Universal::RenderBlocks_ScriptableRenderer_Blo
 constexpr ::System::IDisposable* UnityEngine::Rendering::Universal::RenderBlocks_ScriptableRenderer_BlockRange::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Current", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_End", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Current", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_End", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::RenderBlocks_ScriptableRenderer_BlockRange::RenderBlocks_ScriptableRenderer_BlockRange(int32_t m_Current, int32_t m_End) noexcept {
   this->m_Current = m_Current;
   this->m_End = m_End;
@@ -970,9 +972,9 @@ constexpr UnityEngine::Rendering::Universal::ScriptableRenderer_RenderBlocks::op
 constexpr ::System::IDisposable* UnityEngine::Rendering::Universal::ScriptableRenderer_RenderBlocks::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_BlockEventLimits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::RenderPassEvent>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_BlockRanges", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BlockRangeLengths", ty:
-// "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_BlockEventLimits", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::RenderPassEvent>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_BlockRanges", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_BlockRangeLengths",
+// ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderBlocks::ScriptableRenderer_RenderBlocks(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::RenderPassEvent> m_BlockEventLimits, ::Unity::Collections::NativeArray_1<int32_t> m_BlockRanges,
     ::Unity::Collections::NativeArray_1<int32_t> m_BlockRangeLengths) noexcept {
@@ -3946,7 +3948,7 @@ inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetPerCameraB
                                                 { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, cameraData);
 }
-inline void UnityEngine::Rendering::Universal::ScriptableRenderer::CalculateBillboardProperties(::by_ref<::UnityEngine::Matrix4x4> worldToCameraMatrix,
+inline void UnityEngine::Rendering::Universal::ScriptableRenderer::CalculateBillboardProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> worldToCameraMatrix,
                                                                                                 ::by_ref<::UnityEngine::Vector3> billboardTangent, ::by_ref<::UnityEngine::Vector3> billboardNormal,
                                                                                                 ::by_ref<float_t> cameraXZAngle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
@@ -3965,9 +3967,8 @@ inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetPerCameraC
                                                 { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, cameraData);
 }
-inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetPerCameraClippingPlaneProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
-                                                                                                       ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData,
-                                                                                                       bool isTargetFlipped) {
+inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetPerCameraClippingPlaneProperties(
+    ::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData, bool isTargetFlipped) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
                                                            { "SetPerCameraClippingPlaneProperties",
@@ -4341,7 +4342,7 @@ inline ::UnityEngine::Rendering::ClearFlag UnityEngine::Rendering::Universal::Sc
                                                            { "GetCameraClearFlag", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ClearFlag>(nullptr, ___internal_method, cameraData);
 }
-inline void UnityEngine::Rendering::Universal::ScriptableRenderer::OnPreCullRenderPasses(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+inline void UnityEngine::Rendering::Universal::ScriptableRenderer::OnPreCullRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
                                                            { "OnPreCullRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
@@ -4353,7 +4354,7 @@ inline void UnityEngine::Rendering::Universal::ScriptableRenderer::AddRenderPass
                                                            { "AddRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderingData);
 }
-inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetupRenderPasses(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetupRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
                                                            { "SetupRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
@@ -4369,7 +4370,8 @@ inline void UnityEngine::Rendering::Universal::ScriptableRenderer::Clear(::Unity
                                                                                          { "Clear", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::CameraRenderType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraType);
 }
-inline void UnityEngine::Rendering::Universal::ScriptableRenderer::ExecuteBlock(int32_t blockIndex, ::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderBlocks> renderBlocks,
+inline void UnityEngine::Rendering::Universal::ScriptableRenderer::ExecuteBlock(int32_t blockIndex,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderBlocks> renderBlocks,
                                                                                 ::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                                 ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData, bool submit) {
   static auto* ___internal_method =

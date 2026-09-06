@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ImmediateRankUIPanel.hpp"
+// IWYU pragma private; include "GlobalNamespace/ImmediateRankUIPanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class ImmediateRankUIPanel;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ImmediateRankUIPanel*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ImmediateRankUIPanel*, "", "ImmediateRankUIPanel");
+// [AddComponentMenu("Beat Saber/Gameplay/ImmediateRankUIPanel")]
 // Dependencies RankModel::Rank, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -106,23 +107,26 @@ protected:
   constexpr ImmediateRankUIPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImmediateRankUIPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmediateRankUIPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImmediateRankUIPanel(ImmediateRankUIPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImmediateRankUIPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmediateRankUIPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmediateRankUIPanel(ImmediateRankUIPanel const&) = delete;
+  ImmediateRankUIPanel(ImmediateRankUIPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6009 };
 
+  /// [SerializeField]
   /// @brief Field _rankText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
+  /// [SerializeField]
   /// @brief Field _relativeScoreText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____relativeScoreText;
 
+  /// [Inject]
   /// @brief Field _relativeScoreAndImmediateRankCounter, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RelativeScoreAndImmediateRankCounter> ____relativeScoreAndImmediateRankCounter;
 

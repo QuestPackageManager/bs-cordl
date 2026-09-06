@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -208,13 +208,13 @@ protected:
   constexpr UniversalRenderPipelineAsset_Strings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_Strings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_Strings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineAsset_Strings(UniversalRenderPipelineAsset_Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_Strings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineAsset_Strings(UniversalRenderPipelineAsset_Strings const&) = delete;
+  UniversalRenderPipelineAsset_Strings(UniversalRenderPipelineAsset_Stringsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12598 };
@@ -225,6 +225,8 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset_Strings) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [ReloadGroup]
+// [Obsolete("Moved to UniversalRenderPipelineRuntimeTextures on GraphicsSettings. #from(2023.3)", false)]
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
@@ -264,20 +266,22 @@ protected:
   constexpr UniversalRenderPipelineAsset_TextureResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_TextureResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_TextureResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineAsset_TextureResources(UniversalRenderPipelineAsset_TextureResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_TextureResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset_TextureResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineAsset_TextureResources(UniversalRenderPipelineAsset_TextureResources const&) = delete;
+  UniversalRenderPipelineAsset_TextureResources(UniversalRenderPipelineAsset_TextureResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12599 };
 
+  /// [Reload("Textures/BlueNoise64/L/LDR_LLL1_0.png", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field blueNoise64LTex, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___blueNoise64LTex;
 
+  /// [Reload("Textures/BayerMatrix.png", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field bayerMatrixTex, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___bayerMatrixTex;
 
@@ -291,6 +295,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::UniversalRenderPipel
 static_assert(sizeof(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset_TextureResources) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::Universal
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.Rendering.GPUResidentDrawerMode, UnityEngine.Rendering.ProbeVolumeBlendingTextureMemoryBudget,
 // UnityEngine.Rendering.ProbeVolumeSHBands, UnityEngine.Rendering.ProbeVolumeTextureMemoryBudget, UnityEngine.Rendering.RenderPipelineAsset`1<TRenderPipeline>,
 // UnityEngine.Rendering.Universal.ColorGradingMode, UnityEngine.Rendering.Universal.Downsampling, UnityEngine.Rendering.Universal.HDRColorBufferPrecision,
@@ -359,6 +364,7 @@ public:
 
   __declspec(property(get = get_conservativeEnclosingSphere, put = set_conservativeEnclosingSphere)) bool conservativeEnclosingSphere;
 
+  /// @brief [Obsolete("PipelineDebugLevel is deprecated and replaced to use the profiler. Calling debugLevel is not necessary.", true)]
   __declspec(property(get = get_debugLevel)) ::UnityEngine::Rendering::Universal::PipelineDebugLevel debugLevel;
 
   __declspec(property(get = get_decalMaterial)) ::UnityW<::UnityEngine::Material> decalMaterial;
@@ -379,6 +385,7 @@ public:
 
   __declspec(property(get = get_enableLODCrossFade)) bool enableLODCrossFade;
 
+  /// @brief [Obsolete("This has been deprecated, please use GraphicsSettings.GetRenderPipelineSettings<RenderGraphSettings>().enableRenderCompatibilityMode instead.")]
   __declspec(property(get = get_enableRenderGraph)) bool enableRenderGraph;
 
   __declspec(property(get = get_fsrOverrideSharpness, put = set_fsrOverrideSharpness)) bool fsrOverrideSharpness;
@@ -401,6 +408,7 @@ public:
   /// @brief Field k_AssetVersion, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_k_AssetVersion, put = __cordl_internal_set_k_AssetVersion)) int32_t k_AssetVersion;
 
+  /// @brief [Obsolete("This is obsolete, please use renderingLayerMaskNames instead.", true)]
   __declspec(property(get = get_lightLayerMaskNames)) ::ArrayW<::StringW> lightLayerMaskNames;
 
   __declspec(property(get = get_lightProbeSystem, put = set_lightProbeSystem)) ::UnityEngine::Rendering::Universal::LightProbeSystem lightProbeSystem;
@@ -683,6 +691,7 @@ public:
 
   __declspec(property(get = get_opaqueDownsampling)) ::UnityEngine::Rendering::Universal::Downsampling opaqueDownsampling;
 
+  /// @brief [Obsolete("This property is obsolete. Use RenderingLayerMask API and Tags & Layers project settings instead. #from(23.3)", false)]
   __declspec(property(get = get_prefixedRenderingLayerMaskNames)) ::ArrayW<::StringW> prefixedRenderingLayerMaskNames;
 
   __declspec(property(get = get_probeVolumeBlendingMemoryBudget,
@@ -692,6 +701,7 @@ public:
 
   __declspec(property(get = get_probeVolumeSHBands, put = set_probeVolumeSHBands)) ::UnityEngine::Rendering::ProbeVolumeSHBands probeVolumeSHBands;
 
+  /// @brief [Obsolete("This property is no longer necessary.")]
   __declspec(property(get = get_probeVolumeSceneData)) ::UnityEngine::Rendering::ProbeVolumeSceneData* probeVolumeSceneData;
 
   __declspec(property(get = get_reflectionProbeBlending, put = set_reflectionProbeBlending)) bool reflectionProbeBlending;
@@ -708,6 +718,7 @@ public:
 
   __declspec(property(get = get_renderers)) ::System::ReadOnlySpan_1<::UnityEngine::Rendering::Universal::ScriptableRenderer*> renderers;
 
+  /// @brief [Obsolete("This property is obsolete. Use RenderingLayerMask API and Tags & Layers project settings instead. #from(23.3)", false)]
   __declspec(property(get = get_renderingLayerMaskNames)) ::ArrayW<::StringW> renderingLayerMaskNames;
 
   /// @brief Field s_LightCookieFormatList, offset 0xffffffff, size 0x8
@@ -726,10 +737,12 @@ public:
 
   __declspec(property(get = get_shEvalMode, put = set_shEvalMode)) ::UnityEngine::Rendering::Universal::ShEvalMode shEvalMode;
 
+  /// @brief [Obsolete("Use GraphicsSettings.GetRenderPipelineSettings<ShaderStrippingSetting>().shaderVariantLogLevel instead.", true)]
   __declspec(property(get = get_shaderVariantLogLevel, put = set_shaderVariantLogLevel)) ::UnityEngine::Rendering::Universal::ShaderVariantLogLevel shaderVariantLogLevel;
 
   __declspec(property(get = get_shadowCascadeCount, put = set_shadowCascadeCount)) int32_t shadowCascadeCount;
 
+  /// @brief [Obsolete("This is obsolete, please use shadowCascadeCount instead.", true)]
   __declspec(property(get = get_shadowCascadeOption, put = set_shadowCascadeOption)) ::UnityEngine::Rendering::Universal::ShadowCascadesOption shadowCascadeOption;
 
   __declspec(property(get = get_shadowDepthBias, put = set_shadowDepthBias)) float_t shadowDepthBias;
@@ -756,6 +769,7 @@ public:
 
   __declspec(property(get = get_supportProbeVolumeScenarios, put = set_supportProbeVolumeScenarios)) bool supportProbeVolumeScenarios;
 
+  /// @brief [Obsolete("This is obsolete, use supportProbeVolumeGPUStreaming instead.")]
   __declspec(property(get = get_supportProbeVolumeStreaming, put = set_supportProbeVolumeStreaming)) bool supportProbeVolumeStreaming;
 
   __declspec(property(get = get_supportScreenSpaceLensFlare)) bool supportScreenSpaceLensFlare;
@@ -772,6 +786,7 @@ public:
 
   __declspec(property(get = get_supportsLightCookies)) bool supportsLightCookies;
 
+  /// @brief [Obsolete("This is obsolete, use useRenderingLayers instead.", true)]
   __declspec(property(get = get_supportsLightLayers)) bool supportsLightLayers;
 
   __declspec(property(get = get_supportsMainLightShadows, put = set_supportsMainLightShadows)) bool supportsMainLightShadows;
@@ -788,6 +803,7 @@ public:
 
   __declspec(property(get = get_terrainDetailLitShader)) ::UnityW<::UnityEngine::Shader> terrainDetailLitShader;
 
+  /// @brief [Obsolete("Moved to UniversalRenderPipelineRuntimeTextures on GraphicsSettings. #from(2023.3)", false)]
   __declspec(property(get = get_textures)) ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset_TextureResources* textures;
 
   __declspec(property(get = get_upscalingFilter, put = set_upscalingFilter)) ::UnityEngine::Rendering::Universal::UpscalingFilterSelection upscalingFilter;
@@ -1895,13 +1911,13 @@ protected:
   constexpr UniversalRenderPipelineAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRenderPipelineAsset(UniversalRenderPipelineAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRenderPipelineAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRenderPipelineAsset(UniversalRenderPipelineAsset const&) = delete;
+  UniversalRenderPipelineAsset(UniversalRenderPipelineAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12600 };
@@ -1924,252 +1940,342 @@ public:
   /// @brief Field m_Renderers, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::Universal::ScriptableRenderer*> ___m_Renderers;
 
+  /// [SerializeField]
   /// @brief Field k_AssetVersion, offset: 0x20, size: 0x4, def value: None
   int32_t ___k_AssetVersion;
 
+  /// [SerializeField]
   /// @brief Field k_AssetPreviousVersion, offset: 0x24, size: 0x4, def value: None
   int32_t ___k_AssetPreviousVersion;
 
+  /// [SerializeField]
   /// @brief Field m_RendererType, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RendererType ___m_RendererType;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("Use m_RendererDataList instead.")]
+  /// [SerializeField]
   /// @brief Field m_RendererData, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererData> ___m_RendererData;
 
+  /// [SerializeField]
   /// @brief Field m_RendererDataList, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererData>> ___m_RendererDataList;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultRendererIndex, offset: 0x40, size: 0x4, def value: None
   int32_t ___m_DefaultRendererIndex;
 
+  /// [SerializeField]
   /// @brief Field m_RequireDepthTexture, offset: 0x44, size: 0x1, def value: None
   bool ___m_RequireDepthTexture;
 
+  /// [SerializeField]
   /// @brief Field m_RequireOpaqueTexture, offset: 0x45, size: 0x1, def value: None
   bool ___m_RequireOpaqueTexture;
 
+  /// [SerializeField]
   /// @brief Field m_OpaqueDownsampling, offset: 0x48, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::Downsampling ___m_OpaqueDownsampling;
 
+  /// [SerializeField]
   /// @brief Field m_SupportsTerrainHoles, offset: 0x4c, size: 0x1, def value: None
   bool ___m_SupportsTerrainHoles;
 
+  /// [SerializeField]
   /// @brief Field m_SupportsHDR, offset: 0x4d, size: 0x1, def value: None
   bool ___m_SupportsHDR;
 
+  /// [SerializeField]
   /// @brief Field m_HDRColorBufferPrecision, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::HDRColorBufferPrecision ___m_HDRColorBufferPrecision;
 
+  /// [SerializeField]
   /// @brief Field m_MSAA, offset: 0x54, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::MsaaQuality ___m_MSAA;
 
+  /// [SerializeField]
   /// @brief Field m_RenderScale, offset: 0x58, size: 0x4, def value: None
   float_t ___m_RenderScale;
 
+  /// [SerializeField]
   /// @brief Field m_UpscalingFilter, offset: 0x5c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::UpscalingFilterSelection ___m_UpscalingFilter;
 
+  /// [SerializeField]
   /// @brief Field m_FsrOverrideSharpness, offset: 0x60, size: 0x1, def value: None
   bool ___m_FsrOverrideSharpness;
 
+  /// [SerializeField]
   /// @brief Field m_FsrSharpness, offset: 0x64, size: 0x4, def value: None
   float_t ___m_FsrSharpness;
 
+  /// [SerializeField]
   /// @brief Field m_EnableLODCrossFade, offset: 0x68, size: 0x1, def value: None
   bool ___m_EnableLODCrossFade;
 
+  /// [SerializeField]
   /// @brief Field m_LODCrossFadeDitheringType, offset: 0x6c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::LODCrossFadeDitheringType ___m_LODCrossFadeDitheringType;
 
+  /// [SerializeField]
   /// @brief Field m_ShEvalMode, offset: 0x70, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ShEvalMode ___m_ShEvalMode;
 
+  /// [SerializeField]
   /// @brief Field m_LightProbeSystem, offset: 0x74, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::LightProbeSystem ___m_LightProbeSystem;
 
+  /// [SerializeField]
   /// @brief Field m_ProbeVolumeMemoryBudget, offset: 0x78, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget ___m_ProbeVolumeMemoryBudget;
 
+  /// [SerializeField]
   /// @brief Field m_ProbeVolumeBlendingMemoryBudget, offset: 0x7c, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget ___m_ProbeVolumeBlendingMemoryBudget;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_SupportProbeVolumeStreaming")]
   /// @brief Field m_SupportProbeVolumeGPUStreaming, offset: 0x80, size: 0x1, def value: None
   bool ___m_SupportProbeVolumeGPUStreaming;
 
+  /// [SerializeField]
   /// @brief Field m_SupportProbeVolumeDiskStreaming, offset: 0x81, size: 0x1, def value: None
   bool ___m_SupportProbeVolumeDiskStreaming;
 
+  /// [SerializeField]
   /// @brief Field m_SupportProbeVolumeScenarios, offset: 0x82, size: 0x1, def value: None
   bool ___m_SupportProbeVolumeScenarios;
 
+  /// [SerializeField]
   /// @brief Field m_SupportProbeVolumeScenarioBlending, offset: 0x83, size: 0x1, def value: None
   bool ___m_SupportProbeVolumeScenarioBlending;
 
+  /// [SerializeField]
   /// @brief Field m_ProbeVolumeSHBands, offset: 0x84, size: 0x4, def value: None
   ::UnityEngine::Rendering::ProbeVolumeSHBands ___m_ProbeVolumeSHBands;
 
+  /// [SerializeField]
   /// @brief Field m_MainLightRenderingMode, offset: 0x88, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::LightRenderingMode ___m_MainLightRenderingMode;
 
+  /// [SerializeField]
   /// @brief Field m_MainLightShadowsSupported, offset: 0x8c, size: 0x1, def value: None
   bool ___m_MainLightShadowsSupported;
 
+  /// [SerializeField]
   /// @brief Field m_MainLightShadowmapResolution, offset: 0x90, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ShadowResolution ___m_MainLightShadowmapResolution;
 
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightsRenderingMode, offset: 0x94, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::LightRenderingMode ___m_AdditionalLightsRenderingMode;
 
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightsPerObjectLimit, offset: 0x98, size: 0x4, def value: None
   int32_t ___m_AdditionalLightsPerObjectLimit;
 
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightShadowsSupported, offset: 0x9c, size: 0x1, def value: None
   bool ___m_AdditionalLightShadowsSupported;
 
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightsShadowmapResolution, offset: 0xa0, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ShadowResolution ___m_AdditionalLightsShadowmapResolution;
 
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightsShadowResolutionTierLow, offset: 0xa4, size: 0x4, def value: None
   int32_t ___m_AdditionalLightsShadowResolutionTierLow;
 
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightsShadowResolutionTierMedium, offset: 0xa8, size: 0x4, def value: None
   int32_t ___m_AdditionalLightsShadowResolutionTierMedium;
 
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightsShadowResolutionTierHigh, offset: 0xac, size: 0x4, def value: None
   int32_t ___m_AdditionalLightsShadowResolutionTierHigh;
 
+  /// [SerializeField]
   /// @brief Field m_ReflectionProbeBlending, offset: 0xb0, size: 0x1, def value: None
   bool ___m_ReflectionProbeBlending;
 
+  /// [SerializeField]
   /// @brief Field m_ReflectionProbeBoxProjection, offset: 0xb1, size: 0x1, def value: None
   bool ___m_ReflectionProbeBoxProjection;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowDistance, offset: 0xb4, size: 0x4, def value: None
   float_t ___m_ShadowDistance;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowCascadeCount, offset: 0xb8, size: 0x4, def value: None
   int32_t ___m_ShadowCascadeCount;
 
+  /// [SerializeField]
   /// @brief Field m_Cascade2Split, offset: 0xbc, size: 0x4, def value: None
   float_t ___m_Cascade2Split;
 
+  /// [SerializeField]
   /// @brief Field m_Cascade3Split, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_Cascade3Split;
 
+  /// [SerializeField]
   /// @brief Field m_Cascade4Split, offset: 0xc8, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_Cascade4Split;
 
+  /// [SerializeField]
   /// @brief Field m_CascadeBorder, offset: 0xd4, size: 0x4, def value: None
   float_t ___m_CascadeBorder;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowDepthBias, offset: 0xd8, size: 0x4, def value: None
   float_t ___m_ShadowDepthBias;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowNormalBias, offset: 0xdc, size: 0x4, def value: None
   float_t ___m_ShadowNormalBias;
 
+  /// [SerializeField]
   /// @brief Field m_SoftShadowsSupported, offset: 0xe0, size: 0x1, def value: None
   bool ___m_SoftShadowsSupported;
 
+  /// [SerializeField]
   /// @brief Field m_ConservativeEnclosingSphere, offset: 0xe1, size: 0x1, def value: None
   bool ___m_ConservativeEnclosingSphere;
 
+  /// [SerializeField]
   /// @brief Field m_NumIterationsEnclosingSphere, offset: 0xe4, size: 0x4, def value: None
   int32_t ___m_NumIterationsEnclosingSphere;
 
+  /// [SerializeField]
   /// @brief Field m_SoftShadowQuality, offset: 0xe8, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::SoftShadowQuality ___m_SoftShadowQuality;
 
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightsCookieResolution, offset: 0xec, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::LightCookieResolution ___m_AdditionalLightsCookieResolution;
 
+  /// [SerializeField]
   /// @brief Field m_AdditionalLightsCookieFormat, offset: 0xf0, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::LightCookieFormat ___m_AdditionalLightsCookieFormat;
 
+  /// [SerializeField]
   /// @brief Field m_UseSRPBatcher, offset: 0xf4, size: 0x1, def value: None
   bool ___m_UseSRPBatcher;
 
+  /// [SerializeField]
   /// @brief Field m_SupportsDynamicBatching, offset: 0xf5, size: 0x1, def value: None
   bool ___m_SupportsDynamicBatching;
 
+  /// [SerializeField]
   /// @brief Field m_MixedLightingSupported, offset: 0xf6, size: 0x1, def value: None
   bool ___m_MixedLightingSupported;
 
+  /// [SerializeField]
   /// @brief Field m_SupportsLightCookies, offset: 0xf7, size: 0x1, def value: None
   bool ___m_SupportsLightCookies;
 
+  /// [SerializeField]
   /// @brief Field m_SupportsLightLayers, offset: 0xf8, size: 0x1, def value: None
   bool ___m_SupportsLightLayers;
 
+  /// [SerializeField]
+  /// [Obsolete("", true)]
   /// @brief Field m_DebugLevel, offset: 0xfc, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::PipelineDebugLevel ___m_DebugLevel;
 
+  /// [SerializeField]
   /// @brief Field m_StoreActionsOptimization, offset: 0x100, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::StoreActionsOptimization ___m_StoreActionsOptimization;
 
+  /// [SerializeField]
   /// @brief Field m_UseAdaptivePerformance, offset: 0x104, size: 0x1, def value: None
   bool ___m_UseAdaptivePerformance;
 
+  /// [SerializeField]
   /// @brief Field m_ColorGradingMode, offset: 0x108, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ColorGradingMode ___m_ColorGradingMode;
 
+  /// [SerializeField]
   /// @brief Field m_ColorGradingLutSize, offset: 0x10c, size: 0x4, def value: None
   int32_t ___m_ColorGradingLutSize;
 
+  /// [SerializeField]
   /// @brief Field m_AllowPostProcessAlphaOutput, offset: 0x110, size: 0x1, def value: None
   bool ___m_AllowPostProcessAlphaOutput;
 
+  /// [SerializeField]
   /// @brief Field m_UseFastSRGBLinearConversion, offset: 0x111, size: 0x1, def value: None
   bool ___m_UseFastSRGBLinearConversion;
 
+  /// [SerializeField]
   /// @brief Field m_SupportDataDrivenLensFlare, offset: 0x112, size: 0x1, def value: None
   bool ___m_SupportDataDrivenLensFlare;
 
+  /// [SerializeField]
   /// @brief Field m_SupportScreenSpaceLensFlare, offset: 0x113, size: 0x1, def value: None
   bool ___m_SupportScreenSpaceLensFlare;
 
+  /// [FormerlySerializedAs("m_MacroBatcherMode")]
+  /// [SerializeField]
   /// @brief Field m_GPUResidentDrawerMode, offset: 0x114, size: 0x1, def value: None
   ::UnityEngine::Rendering::GPUResidentDrawerMode ___m_GPUResidentDrawerMode;
 
+  /// [SerializeField]
   /// @brief Field m_SmallMeshScreenPercentage, offset: 0x118, size: 0x4, def value: None
   float_t ___m_SmallMeshScreenPercentage;
 
+  /// [SerializeField]
   /// @brief Field m_GPUResidentDrawerEnableOcclusionCullingInCameras, offset: 0x11c, size: 0x1, def value: None
   bool ___m_GPUResidentDrawerEnableOcclusionCullingInCameras;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowType, offset: 0x120, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ShadowQuality ___m_ShadowType;
 
+  /// [SerializeField]
   /// @brief Field m_LocalShadowsSupported, offset: 0x124, size: 0x1, def value: None
   bool ___m_LocalShadowsSupported;
 
+  /// [SerializeField]
   /// @brief Field m_LocalShadowsAtlasResolution, offset: 0x128, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ShadowResolution ___m_LocalShadowsAtlasResolution;
 
+  /// [SerializeField]
   /// @brief Field m_MaxPixelLights, offset: 0x12c, size: 0x4, def value: None
   int32_t ___m_MaxPixelLights;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowAtlasResolution, offset: 0x130, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ShadowResolution ___m_ShadowAtlasResolution;
 
+  /// [SerializeField]
   /// @brief Field m_VolumeFrameworkUpdateMode, offset: 0x134, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode ___m_VolumeFrameworkUpdateMode;
 
+  /// [SerializeField]
   /// @brief Field m_VolumeProfile, offset: 0x138, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::VolumeProfile> ___m_VolumeProfile;
 
+  /// [SerializeField]
+  /// [Obsolete("Kept for migration. #from(2023.3")]
   /// @brief Field apvScenesData, offset: 0x140, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeVolumeSceneData* ___apvScenesData;
 
   /// @brief Field m_DefaultShader, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_DefaultShader;
 
+  /// [SerializeField]
   /// @brief Field m_ShaderVariantLogLevel, offset: 0x150, size: 0x4, def value: None
   int32_t ___m_ShaderVariantLogLevel;
 
+  /// [Obsolete("This is obsolete, please use shadowCascadeCount instead.", false)]
+  /// [SerializeField]
   /// @brief Field m_ShadowCascades, offset: 0x154, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::ShadowCascadesOption ___m_ShadowCascades;
 
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeTextures on GraphicsSettings. #from(2023.3)", false)]
+  /// [SerializeField]
   /// @brief Field m_Textures, offset: 0x158, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset_TextureResources* ___m_Textures;
 

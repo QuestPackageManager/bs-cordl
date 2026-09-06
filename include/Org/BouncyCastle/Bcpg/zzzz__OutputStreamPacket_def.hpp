@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OutputStreamPacket.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OutputStreamPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ public:
   /// @brief Field bcpgOut, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bcpgOut, put = __cordl_internal_set_bcpgOut)) ::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut;
 
-  /// @brief Method Close, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::OutputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method Open, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Open, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* Open();
 
   constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream* const& __cordl_internal_get_bcpgOut() const;
@@ -48,13 +48,13 @@ protected:
   constexpr OutputStreamPacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OutputStreamPacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OutputStreamPacket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OutputStreamPacket(OutputStreamPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OutputStreamPacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OutputStreamPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OutputStreamPacket(OutputStreamPacket const&) = delete;
+  OutputStreamPacket(OutputStreamPacketconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 578 };

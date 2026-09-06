@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUIUtility.hpp"
+// IWYU pragma private; include "UnityEngine/GUIUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,6 +75,12 @@ class GUIUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::GUIUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::GUIUtility*, "UnityEngine", "GUIUtility");
+// [NativeHeader("Modules/IMGUI/GUIUtility.h")]
+// [NativeHeader("Modules/IMGUI/GUIManager.h")]
+// [NativeHeader("Runtime/Input/InputBindings.h")]
+// [NativeHeader("Runtime/Input/InputManager.h")]
+// [NativeHeader("Runtime/Camera/RenderLayers/GUITexture.h")]
+// [NativeHeader("Runtime/Utilities/CopyPaste.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -131,9 +137,11 @@ public:
   /// @brief Method AlignRectToDevice_Injected, addr 0x6b4cb54, size 0x5c, virtual false, abstract: false, final false
   static inline void AlignRectToDevice_Injected(::by_ref<::UnityEngine::Rect> rect, ::by_ref<int32_t> widthInPixels, ::by_ref<int32_t> heightInPixels, ::by_ref<::UnityEngine::Rect> ret);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method BeginContainer, addr 0x6b4c850, size 0x80, virtual false, abstract: false, final false
   static inline void BeginContainer(::UnityEngine::ObjectGUIState* objectGUIState);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method BeginContainerFromOwner, addr 0x6b4c76c, size 0xa8, virtual false, abstract: false, final false
   static inline void BeginContainerFromOwner(::UnityEngine::ScriptableObject* owner);
 
@@ -143,9 +151,11 @@ public:
   /// @brief Method BeginContainer_Injected, addr 0x6b4c8d0, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginContainer_Injected(::System::IntPtr objectGUIState);
 
+  /// [RequiredByNativeCode]
   /// @brief Method BeginGUI, addr 0x6b4d5bc, size 0xb4, virtual false, abstract: false, final false
   static inline void BeginGUI(int32_t skinMode, int32_t instanceID, int32_t useGUILayout);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method CheckForTabEvent, addr 0x6b4c934, size 0x80, virtual false, abstract: false, final false
   static inline int32_t CheckForTabEvent(::UnityEngine::Event* evt);
 
@@ -155,18 +165,23 @@ public:
   /// @brief Method CheckOnGUI, addr 0x6b418f8, size 0xc0, virtual false, abstract: false, final false
   static inline void CheckOnGUI();
 
+  /// [RequiredByNativeCode]
   /// @brief Method DestroyGUI, addr 0x6b4d7bc, size 0x5c, virtual false, abstract: false, final false
   static inline void DestroyGUI(int32_t instanceID);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method EndContainer, addr 0x6b4d530, size 0x8c, virtual false, abstract: false, final false
   static inline void EndContainer();
 
+  /// [RequiredByNativeCode]
   /// @brief Method EndContainerGUIFromException, addr 0x6b4dad4, size 0xa4, virtual false, abstract: false, final false
   static inline bool EndContainerGUIFromException(::System::Exception* exception);
 
+  /// [RequiredByNativeCode]
   /// @brief Method EndGUI, addr 0x6b4d818, size 0x1ec, virtual false, abstract: false, final false
   static inline void EndGUI(int32_t layoutType);
 
+  /// [RequiredByNativeCode]
   /// @brief Method EndGUIFromException, addr 0x6b4da04, size 0x78, virtual false, abstract: false, final false
   static inline bool EndGUIFromException(::System::Exception* exception);
 
@@ -182,24 +197,28 @@ public:
   /// @brief Method GetDefaultSkin, addr 0x6b41b14, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GUISkin> GetDefaultSkin();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method HasFocusableControls, addr 0x6b4ca40, size 0x28, virtual false, abstract: false, final false
   static inline bool HasFocusableControls();
 
   /// @brief Method HasKeyFocus, addr 0x6b4b60c, size 0xc4, virtual false, abstract: false, final false
   static inline bool HasKeyFocus(int32_t controlID);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method HitTest, addr 0x6b4dd94, size 0xb8, virtual false, abstract: false, final false
   static inline bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, bool isDirectManipulationDevice);
 
   /// @brief Method HitTest, addr 0x6b4dd50, size 0x44, virtual false, abstract: false, final false
   static inline bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, int32_t offset);
 
+  /// [NativeMethod("EndContainer")]
   /// @brief Method Internal_EndContainer, addr 0x6b4c90c, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_EndContainer();
 
   /// @brief Method Internal_ExitGUI, addr 0x6b4cee4, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_ExitGUI();
 
+  /// [FreeFunction("GetGUIState().GetControlID")]
   /// @brief Method Internal_GetControlID, addr 0x6b4c5cc, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t Internal_GetControlID(int32_t hint, ::UnityEngine::FocusType focusType, ::UnityEngine::Rect rect);
 
@@ -221,36 +240,47 @@ public:
   /// @brief Method Internal_SetKeyboardControl, addr 0x6b4ce6c, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_SetKeyboardControl(int32_t value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method IsExitGUIException, addr 0x6b4db78, size 0x94, virtual false, abstract: false, final false
   static inline bool IsExitGUIException(::System::Exception* exception);
 
+  /// [RequiredByNativeCode]
   /// @brief Method MarkGUIChanged, addr 0x6b4cf0c, size 0x78, virtual false, abstract: false, final false
   static inline void MarkGUIChanged();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method OwnsId, addr 0x6b4ca68, size 0x3c, virtual false, abstract: false, final false
   static inline bool OwnsId(int32_t id);
 
+  /// [RequiredByNativeCode]
   /// @brief Method ProcessEvent, addr 0x6b4d334, size 0x1fc, virtual false, abstract: false, final false
   static inline void ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr, ::by_ref<bool> result);
 
+  /// [RequiredByNativeCode]
   /// @brief Method RemoveCapture, addr 0x6b4d0d8, size 0x78, virtual false, abstract: false, final false
   static inline void RemoveCapture();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method ResetGlobalState, addr 0x6b4d670, size 0x14c, virtual false, abstract: false, final false
   static inline void ResetGlobalState();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method RoundToPixelGrid, addr 0x6b4dc0c, size 0xb4, virtual false, abstract: false, final false
   static inline float_t RoundToPixelGrid(float_t v);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method SetKeyboardControlToFirstControlId, addr 0x6b4c9f0, size 0x28, virtual false, abstract: false, final false
   static inline void SetKeyboardControlToFirstControlId();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method SetKeyboardControlToLastControlId, addr 0x6b4ca18, size 0x28, virtual false, abstract: false, final false
   static inline void SetKeyboardControlToLastControlId();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method ShouldRethrowException, addr 0x6b4da7c, size 0x58, virtual false, abstract: false, final false
   static inline bool ShouldRethrowException(::System::Exception* exception);
 
+  /// [RequiredByNativeCode]
   /// @brief Method TakeCapture, addr 0x6b4d060, size 0x78, virtual false, abstract: false, final false
   static inline void TakeCapture();
 
@@ -286,6 +316,7 @@ public:
   /// @brief Method get_compositionString_Injected, addr 0x6b4ccb0, size 0x3c, virtual false, abstract: false, final false
   static inline void get_compositionString_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method get_guiDepth, addr 0x6b4c2e0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_guiDepth();
 
@@ -295,9 +326,11 @@ public:
   /// @brief Method get_keyboardControl, addr 0x6b4d150, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t get_keyboardControl();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method get_pixelsPerPoint, addr 0x6b463b0, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_pixelsPerPoint();
 
+  /// [FreeFunction("GetCopyBuffer")]
   /// @brief Method get_systemCopyBuffer, addr 0x6b4c308, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_systemCopyBuffer();
 
@@ -339,12 +372,14 @@ public:
   /// @brief Method set_compositionCursorPos_Injected, addr 0x6b4cda4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_compositionCursorPos_Injected(::by_ref<::UnityEngine::Vector2> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_guiIsExiting, addr 0x6b4cf84, size 0x64, virtual false, abstract: false, final false
   static inline void set_guiIsExiting(bool value);
 
   /// @brief Method set_hotControl, addr 0x6b4cfe8, size 0x78, virtual false, abstract: false, final false
   static inline void set_hotControl(int32_t value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method set_imeCompositionMode, addr 0x6b4ccec, size 0x3c, virtual false, abstract: false, final false
   static inline void set_imeCompositionMode(::UnityEngine::IMECompositionMode value);
 
@@ -354,9 +389,11 @@ public:
   /// @brief Method set_mouseUsed, addr 0x6b42dc0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_mouseUsed(bool value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method set_pixelsPerPoint, addr 0x6b4c2a8, size 0x38, virtual false, abstract: false, final false
   static inline void set_pixelsPerPoint(float_t value);
 
+  /// [FreeFunction("SetCopyBuffer")]
   /// @brief Method set_systemCopyBuffer, addr 0x6b4c444, size 0x14c, virtual false, abstract: false, final false
   static inline void set_systemCopyBuffer(::StringW value);
 
@@ -369,13 +406,13 @@ protected:
   constexpr GUIUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GUIUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUIUtility(GUIUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GUIUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GUIUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GUIUtility(GUIUtility const&) = delete;
+  GUIUtility(GUIUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19892 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\SceneInstance.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/SceneInstance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,8 +59,8 @@ public:
   // @brief default ctor
   constexpr SceneInstance();
 
-  // Ctor Parameters [CppParam { name: "m_Scene", ty: "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None }, CppParam { name: "m_ReleaseOnSceneUnloaded", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Operation", ty: "::UnityEngine::AsyncOperation*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Scene", ty: "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ReleaseOnSceneUnloaded", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Operation", ty: "::UnityEngine::AsyncOperation*", modifiers: "", def_value: None, comment: None }]
   constexpr SceneInstance(::UnityEngine::SceneManagement::Scene m_Scene, bool m_ReleaseOnSceneUnloaded, ::UnityEngine::AsyncOperation* m_Operation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

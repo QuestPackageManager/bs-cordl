@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PoolableManager.hpp"
+// IWYU pragma private; include "Zenject/PoolableManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PoolableManager_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
@@ -29,8 +29,8 @@ inline void Zenject::PoolableManager_PoolableInfo::_ctor(::Zenject::IPoolable* p
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolableManager_PoolableInfo>(), { ".ctor", {}, { ::i2c::type_of<::Zenject::IPoolable*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, poolable, priority);
 }
-// Ctor Parameters [CppParam { name: "Poolable", ty: "::Zenject::IPoolable*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Priority", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "Poolable", ty: "::Zenject::IPoolable*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Priority", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Zenject::PoolableManager_PoolableInfo::PoolableManager_PoolableInfo(::Zenject::IPoolable* Poolable, int32_t Priority) noexcept {
   this->Poolable = Poolable;
   this->Priority = Priority;
@@ -479,8 +479,9 @@ constexpr void Zenject::PoolableManager::__cordl_internal_set__isSpawned(bool va
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isSpawned = value;
 }
-inline void Zenject::PoolableManager::_ctor(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables,
-                                            ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
+inline void Zenject::PoolableManager::_ctor(
+    /* [InjectLocal] */ ::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolableManager*>(),
                                                            { ".ctor",
@@ -516,8 +517,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::PoolableManager::__zenCreateInjectTyp
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolableManager*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::PoolableManager* Zenject::PoolableManager::New_ctor(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables,
-                                                                      ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
+inline ::Zenject::PoolableManager* Zenject::PoolableManager::New_ctor(
+    /* [InjectLocal] */ ::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables,
+    /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::PoolableManager*>(poolables, priorities));
 }
 // Ctor Parameters []

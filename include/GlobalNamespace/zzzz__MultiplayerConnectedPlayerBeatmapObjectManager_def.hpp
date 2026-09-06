@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerBeatmapObjectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerBeatmapObjectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +18,9 @@ namespace GlobalNamespace {
 template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
-template <typename T0, typename T1> class MemoryPoolContainer_2;
+template <typename T0, typename T1>
+  requires(::cordl_internals::type_constraint<T0, T1>)
+class MemoryPoolContainer_2;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerBeatmapObjectManager_InitData;
@@ -165,13 +167,13 @@ protected:
   constexpr MultiplayerConnectedPlayerBeatmapObjectManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerBeatmapObjectManager_InitData(MultiplayerConnectedPlayerBeatmapObjectManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerBeatmapObjectManager_InitData(MultiplayerConnectedPlayerBeatmapObjectManager_InitData const&) = delete;
+  MultiplayerConnectedPlayerBeatmapObjectManager_InitData(MultiplayerConnectedPlayerBeatmapObjectManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6052 };
@@ -287,18 +289,20 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*
   New_ctor(::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* beatmapObjectEventManager,
-           ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* gameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderHeadGameNotePool,
-           ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderGameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* bombNotePool,
-           ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* obstaclePool, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider);
+           /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* gameNotePool,
+           /* [Inject(Id = (NoteData::GameplayType)2)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderHeadGameNotePool,
+           /* [Inject(Id = (NoteData::GameplayType)3)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderGameNotePool,
+           ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* bombNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* obstaclePool,
+           ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider);
 
   /// @brief Method ProcessNoteData, addr 0x59b97ec, size 0x300, virtual true, abstract: false, final false
-  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
+  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
 
   /// @brief Method ProcessObstacleData, addr 0x59b973c, size 0xb0, virtual true, abstract: false, final false
-  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
+  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
   /// @brief Method ProcessSliderData, addr 0x59b9bb4, size 0x4, virtual true, abstract: false, final false
-  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
+  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
 
   constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* const& __cordl_internal_get__beatmapObjectEventManager() const;
 
@@ -360,10 +364,11 @@ public:
 
   /// @brief Method .ctor, addr 0x59b8e88, size 0x588, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* beatmapObjectEventManager,
-                    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* gameNotePool,
-                    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderHeadGameNotePool,
-                    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderGameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* bombNotePool,
-                    ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* obstaclePool, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider);
+                    /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* gameNotePool,
+                    /* [Inject(Id = (NoteData::GameplayType)2)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderHeadGameNotePool,
+                    /* [Inject(Id = (NoteData::GameplayType)3)] */ ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* burstSliderGameNotePool,
+                    ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* bombNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* obstaclePool,
+                    ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider);
 
   /// @brief Method get_activeObstacleControllers, addr 0x59b8e34, size 0x54, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
@@ -377,13 +382,13 @@ protected:
   constexpr MultiplayerConnectedPlayerBeatmapObjectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerBeatmapObjectManager(MultiplayerConnectedPlayerBeatmapObjectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBeatmapObjectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerBeatmapObjectManager(MultiplayerConnectedPlayerBeatmapObjectManager const&) = delete;
+  MultiplayerConnectedPlayerBeatmapObjectManager(MultiplayerConnectedPlayerBeatmapObjectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6053 };

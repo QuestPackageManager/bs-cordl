@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\InvalidKeyException.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/InvalidKeyException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,9 @@ namespace System {
 class Exception;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -99,7 +101,7 @@ public:
   // @brief default ctor
   constexpr InvalidKeyException_Format();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InvalidKeyException_Format(int32_t value__) noexcept;
 
   /// @brief Field IntersectionAvailable value: I32(9)
@@ -287,21 +289,26 @@ public:
   /// @brief Method .ctor, addr 0x644be6c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Key, addr 0x644ba8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Key();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MergeMode, addr 0x644baac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode> get_MergeMode();
 
   /// @brief Method get_Message, addr 0x644cc3c, size 0x698, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x644ba9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Key, addr 0x644ba94, size 0x8, virtual false, abstract: false, final false
   inline void set_Key(::System::Object* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Type, addr 0x644baa4, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::System::Type* value);
 
@@ -311,13 +318,13 @@ protected:
   constexpr InvalidKeyException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidKeyException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvalidKeyException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvalidKeyException(InvalidKeyException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidKeyException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InvalidKeyException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InvalidKeyException(InvalidKeyException const&) = delete;
+  InvalidKeyException(InvalidKeyExceptionconst&) = delete;
 
   /// @brief Field BaseInvalidKeyMessageFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString BaseInvalidKeyMessageFormat{ u"{0}, Key={1}, Type={2}" };
@@ -360,12 +367,15 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19780 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Key>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::System::Object* ____Key_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MergeMode>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode> ____MergeMode_k__BackingField;
 

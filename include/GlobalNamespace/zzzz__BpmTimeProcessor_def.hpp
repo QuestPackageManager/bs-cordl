@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BpmTimeProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace/BpmTimeProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,7 @@ MARK_VAL_T(::GlobalNamespace::BpmTimeProcessor_BpmChangeData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BpmTimeProcessor*, "", "BpmTimeProcessor");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BpmTimeProcessor___c*, "", "BpmTimeProcessor/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BpmTimeProcessor_BpmChangeData, "", "BpmTimeProcessor/BpmChangeData");
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -66,8 +67,8 @@ public:
   // @brief default ctor
   constexpr BpmTimeProcessor_BpmChangeData();
 
-  // Ctor Parameters [CppParam { name: "bpmChangeStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bpmChangeStartBpmTime", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bpmChangeStartTime", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "bpmChangeStartBpmTime", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr BpmTimeProcessor_BpmChangeData(float_t bpmChangeStartTime, float_t bpmChangeStartBpmTime, float_t bpm) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -97,6 +98,7 @@ static_assert(offsetof(::GlobalNamespace::BpmTimeProcessor_BpmChangeData, bpm) =
 static_assert(sizeof(::GlobalNamespace::BpmTimeProcessor_BpmChangeData) == 0xc, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -132,13 +134,13 @@ protected:
   constexpr BpmTimeProcessor___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BpmTimeProcessor___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BpmTimeProcessor___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BpmTimeProcessor___c(BpmTimeProcessor___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BpmTimeProcessor___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BpmTimeProcessor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BpmTimeProcessor___c(BpmTimeProcessor___c const&) = delete;
+  BpmTimeProcessor___c(BpmTimeProcessor___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14899 };
@@ -215,13 +217,13 @@ protected:
   constexpr BpmTimeProcessor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BpmTimeProcessor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BpmTimeProcessor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BpmTimeProcessor(BpmTimeProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BpmTimeProcessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BpmTimeProcessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BpmTimeProcessor(BpmTimeProcessor const&) = delete;
+  BpmTimeProcessor(BpmTimeProcessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14900 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\AixStructs\sockaddr_dl.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/sockaddr_dl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   // @brief default ctor
   constexpr sockaddr_dl();
 
-  // Ctor Parameters [CppParam { name: "sdl_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sdl_index", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sdl_type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_nlen", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "sdl_alen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_slen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sdl_data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sdl_len", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sdl_family", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "sdl_index", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sdl_type", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "sdl_nlen", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sdl_alen", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "sdl_slen", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sdl_data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr sockaddr_dl(uint8_t sdl_len, uint8_t sdl_family, uint16_t sdl_index, uint8_t sdl_type, uint8_t sdl_nlen, uint8_t sdl_alen, uint8_t sdl_slen, ::ArrayW<uint8_t> sdl_data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

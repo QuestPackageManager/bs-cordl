@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputStateBuffers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputStateBuffers.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateBuffers_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateBuffers_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
@@ -118,8 +118,8 @@ inline void UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers>(), { "SwapBuffers", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, deviceIndex);
 }
-// Ctor Parameters [CppParam { name: "deviceToBufferMapping", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "deviceCount", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "deviceToBufferMapping", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "deviceCount", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::InputStateBuffers_DoubleBuffers(void* deviceToBufferMapping, int32_t deviceCount) noexcept {
   this->deviceToBufferMapping = deviceToBufferMapping;
   this->deviceCount = deviceCount;
@@ -418,10 +418,11 @@ inline uint32_t UnityEngine::InputSystem::LowLevel::InputStateBuffers::NextDevic
                                                            { "NextDeviceOffset", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::InputSystem::InputDevice*>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, currentOffset, device);
 }
-// Ctor Parameters [CppParam { name: "sizePerBuffer", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "totalSize", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "defaultStateBuffer", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "noiseMaskBuffer", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "resetMaskBuffer", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AllBuffers", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_PlayerStateBuffers", ty: "::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sizePerBuffer", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "totalSize", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "defaultStateBuffer", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "noiseMaskBuffer", ty: "void*", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "resetMaskBuffer", ty: "void*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_AllBuffers", ty: "void*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_PlayerStateBuffers", ty: "::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBuffers::InputStateBuffers(uint32_t sizePerBuffer, uint32_t totalSize, void* defaultStateBuffer, void* noiseMaskBuffer, void* resetMaskBuffer,
                                                                                      void* m_AllBuffers,
                                                                                      ::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers m_PlayerStateBuffers) noexcept {

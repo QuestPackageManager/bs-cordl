@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Audio\AudioMixer.hpp"
+// IWYU pragma private; include "UnityEngine/Audio/AudioMixer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,10 @@ class AudioMixer;
 // Write type traits
 MARK_REF_T(::UnityEngine::Audio::AudioMixer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Audio::AudioMixer*, "UnityEngine.Audio", "AudioMixer");
+// [ExcludeFromPreset]
+// [NativeHeader("Modules/Audio/Public/AudioMixer.h")]
+// [NativeHeader("Modules/Audio/Public/ScriptBindings/AudioMixer.bindings.h")]
+// [ExcludeFromObjectFactory]
 // Dependencies UnityEngine.Object
 namespace UnityEngine::Audio {
 // Is value type: false
@@ -37,34 +41,41 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioMixer : public ::UnityEngine::Object {
 public:
   // Declarations
+  /// @brief [NativeProperty]
   __declspec(property(get = get_outputAudioMixerGroup, put = set_outputAudioMixerGroup)) ::UnityW<::UnityEngine::Audio::AudioMixerGroup> outputAudioMixerGroup;
 
+  /// @brief [NativeProperty]
   __declspec(property(get = get_updateMode, put = set_updateMode)) ::UnityEngine::Audio::AudioMixerUpdateMode updateMode;
 
+  /// [NativeMethod]
   /// @brief Method ClearFloat, addr 0x6a57dec, size 0x178, virtual false, abstract: false, final false
   inline bool ClearFloat(::StringW name);
 
   /// @brief Method ClearFloat_Injected, addr 0x6a57f64, size 0x44, virtual false, abstract: false, final false
   static inline bool ClearFloat_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
+  /// [NativeMethod("AudioMixerBindings::FindMatchingGroups", IsFreeFunction = true, HasExplicitThis = true)]
   /// @brief Method FindMatchingGroups, addr 0x6a572d8, size 0x174, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Audio::AudioMixerGroup>> FindMatchingGroups(::StringW subPath);
 
   /// @brief Method FindMatchingGroups_Injected, addr 0x6a5744c, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Audio::AudioMixerGroup>> FindMatchingGroups_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> subPath);
 
+  /// [NativeMethod("FindSnapshotFromName")]
   /// @brief Method FindSnapshot, addr 0x6a56ffc, size 0x298, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixerSnapshot> FindSnapshot(::StringW name);
 
   /// @brief Method FindSnapshot_Injected, addr 0x6a57294, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr FindSnapshot_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
+  /// [NativeMethod("AudioMixerBindings::GetAbsoluteAudibilityFromGroup", HasExplicitThis = true, IsFreeFunction = true)]
   /// @brief Method GetAbsoluteAudibilityFromGroup, addr 0x6a5817c, size 0xc0, virtual false, abstract: false, final false
   inline float_t GetAbsoluteAudibilityFromGroup(::UnityEngine::Audio::AudioMixerGroup* group);
 
   /// @brief Method GetAbsoluteAudibilityFromGroup_Injected, addr 0x6a5823c, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetAbsoluteAudibilityFromGroup_Injected(::System::IntPtr _unity_self, ::System::IntPtr group);
 
+  /// [NativeMethod]
   /// @brief Method GetFloat, addr 0x6a57fa8, size 0x180, virtual false, abstract: false, final false
   inline bool GetFloat(::StringW name, ::by_ref<float_t> value);
 
@@ -73,6 +84,7 @@ public:
 
   static inline ::UnityEngine::Audio::AudioMixer* New_ctor();
 
+  /// [NativeMethod]
   /// @brief Method SetFloat, addr 0x6a57c10, size 0x188, virtual false, abstract: false, final false
   inline bool SetFloat(::StringW name, float_t value);
 
@@ -82,12 +94,14 @@ public:
   /// @brief Method TransitionToSnapshot, addr 0x6a57490, size 0x1fc, virtual false, abstract: false, final false
   inline void TransitionToSnapshot(::UnityEngine::Audio::AudioMixerSnapshot* snapshot, float_t timeToReach);
 
+  /// [NativeMethod("TransitionToSnapshot")]
   /// @brief Method TransitionToSnapshotInternal, addr 0x6a577dc, size 0xd0, virtual false, abstract: false, final false
   inline void TransitionToSnapshotInternal(::UnityEngine::Audio::AudioMixerSnapshot* snapshot, float_t timeToReach);
 
   /// @brief Method TransitionToSnapshotInternal_Injected, addr 0x6a578ac, size 0x54, virtual false, abstract: false, final false
   static inline void TransitionToSnapshotInternal_Injected(::System::IntPtr _unity_self, ::System::IntPtr snapshot, float_t timeToReach);
 
+  /// [NativeMethod("AudioMixerBindings::TransitionToSnapshots", IsFreeFunction = true, HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method TransitionToSnapshots, addr 0x6a57900, size 0x11c, virtual false, abstract: false, final false
   inline void TransitionToSnapshots(::ArrayW<::UnityEngine::Audio::AudioMixerSnapshot*> snapshots, ::ArrayW<float_t> weights, float_t timeToReach);
 
@@ -128,13 +142,13 @@ protected:
   constexpr AudioMixer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioMixer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioMixer(AudioMixer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioMixer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioMixer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioMixer(AudioMixer const&) = delete;
+  AudioMixer(AudioMixerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21082 };

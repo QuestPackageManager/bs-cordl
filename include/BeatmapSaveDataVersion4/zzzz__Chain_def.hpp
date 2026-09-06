@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\Chain.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/Chain.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr Chain();
 
-  // Ctor Parameters [CppParam { name: "tx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "c", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "tx", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "ty", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "c", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Chain(int32_t tx, int32_t ty, int32_t c, float_t s) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

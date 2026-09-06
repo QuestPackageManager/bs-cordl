@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXTimeSpaceHelper.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXTimeSpaceHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,7 @@ MARK_REF_T(::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3*
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXTimeSpaceHelper*, "UnityEngine.VFX", "VFXTimeSpaceHelper");
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1*, "UnityEngine.VFX", "VFXTimeSpaceHelper/<CollectClipEvents>d__1");
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3*, "UnityEngine.VFX", "VFXTimeSpaceHelper/<GetEventNormalizedSpace>d__3");
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object, UnityEngine.VFX.VisualEffectControlClip::ClipEvent, UnityEngine.VFX.VisualEffectPlayableSerializedEvent
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -117,24 +118,31 @@ public:
   /// @brief Method MoveNext, addr 0x69d3e88, size 0x22c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.GetEnumerator, addr 0x69d41b8, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>*
   System_Collections_Generic_IEnumerable_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.get_Current, addr 0x69d40fc, size 0x18, virtual true, abstract: false, final true
   inline ::UnityEngine::VFX::VisualEffectPlayableSerializedEvent System_Collections_Generic_IEnumerator_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69d4250, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69d4114, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69d414c, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69d3e1c, size 0x6c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -183,6 +191,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x69d40b4, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69d3bc4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -209,13 +218,13 @@ protected:
   constexpr VFXTimeSpaceHelper__CollectClipEvents_d__1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__CollectClipEvents_d__1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__CollectClipEvents_d__1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXTimeSpaceHelper__CollectClipEvents_d__1(VFXTimeSpaceHelper__CollectClipEvents_d__1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__CollectClipEvents_d__1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__CollectClipEvents_d__1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTimeSpaceHelper__CollectClipEvents_d__1(VFXTimeSpaceHelper__CollectClipEvents_d__1 const&) = delete;
+  VFXTimeSpaceHelper__CollectClipEvents_d__1(VFXTimeSpaceHelper__CollectClipEvents_d__1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19952 };
@@ -261,6 +270,7 @@ static_assert(offsetof(::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents
 static_assert(sizeof(::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1) == 0xf0, "Size mismatch!");
 
 } // namespace UnityEngine::VFX
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.VFX.PlayableTimeSpace, UnityEngine.VFX.VisualEffectPlayableSerializedEvent
 namespace UnityEngine::VFX {
 // Is value type: false
@@ -330,24 +340,31 @@ public:
   /// @brief Method MoveNext, addr 0x69d4270, size 0x370, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.GetEnumerator, addr 0x69d4750, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>*
   System_Collections_Generic_IEnumerable_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.get_Current, addr 0x69d4694, size 0x18, virtual true, abstract: false, final true
   inline ::UnityEngine::VFX::VisualEffectPlayableSerializedEvent System_Collections_Generic_IEnumerator_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69d4800, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69d46ac, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69d46e4, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x69d4254, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -426,6 +443,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x69d45e0, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x69d3c2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -452,13 +470,13 @@ protected:
   constexpr VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3(VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3(VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3 const&) = delete;
+  VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3(VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19953 };
@@ -540,9 +558,11 @@ public:
 
   using _GetEventNormalizedSpace_d__3 = ::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3;
 
+  /// [IteratorStateMachine(typeof(UnityEngine.VFX.VFXTimeSpaceHelper::<CollectClipEvents>d__1))]
   /// @brief Method CollectClipEvents, addr 0x69d3b54, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* CollectClipEvents(::UnityEngine::VFX::VisualEffectControlClip* source);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.VFX.VFXTimeSpaceHelper::<GetEventNormalizedSpace>d__3))]
   /// @brief Method GetEventNormalizedSpace, addr 0x69d3ac0, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>*
   GetEventNormalizedSpace(::UnityEngine::VFX::PlayableTimeSpace space, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* events,
@@ -565,13 +585,13 @@ protected:
   constexpr VFXTimeSpaceHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXTimeSpaceHelper(VFXTimeSpaceHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXTimeSpaceHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXTimeSpaceHelper(VFXTimeSpaceHelper const&) = delete;
+  VFXTimeSpaceHelper(VFXTimeSpaceHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19954 };

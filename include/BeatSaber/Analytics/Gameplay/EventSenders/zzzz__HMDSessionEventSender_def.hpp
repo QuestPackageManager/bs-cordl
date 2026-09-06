@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\HMDSessionEventSender.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/HMDSessionEventSender.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,8 @@ class HMDSessionEventSender;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::EventSenders::HMDSessionEventSender*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::EventSenders::HMDSessionEventSender*, "BeatSaber.Analytics.Gameplay.EventSenders", "HMDSessionEventSender");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Analytics.Gameplay.EventSenders.EventSenderBase, System.DateTime
 namespace BeatSaber::Analytics::Gameplay::EventSenders {
 // Is value type: false
@@ -105,13 +107,13 @@ protected:
   constexpr HMDSessionEventSender();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HMDSessionEventSender", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMDSessionEventSender", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMDSessionEventSender(HMDSessionEventSender&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HMDSessionEventSender", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMDSessionEventSender", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMDSessionEventSender(HMDSessionEventSender const&) = delete;
+  HMDSessionEventSender(HMDSessionEventSenderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22269 };

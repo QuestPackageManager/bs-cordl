@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BitMask256.hpp"
+// IWYU pragma private; include "GlobalNamespace/BitMask256.hpp"
 #include "GlobalNamespace/zzzz__BitMask256_def.hpp"
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
@@ -314,43 +314,46 @@ inline uint64_t GlobalNamespace::BitMask256::GetBits(int32_t offset, int32_t cou
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask256>(), { "GetBits", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(*this, ___internal_method, offset, count);
 }
-inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_BitwiseOr(::by_ref<::GlobalNamespace::BitMask256> a, ::by_ref<::GlobalNamespace::BitMask256> b) {
+inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_BitwiseOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a,
+                                                                               /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask256>(),
                                               { "op_BitwiseOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask256>(nullptr, ___internal_method, a, b);
 }
-inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_BitwiseAnd(::by_ref<::GlobalNamespace::BitMask256> a, ::by_ref<::GlobalNamespace::BitMask256> b) {
+inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_BitwiseAnd(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a,
+                                                                                /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask256>(),
                                               { "op_BitwiseAnd", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask256>(nullptr, ___internal_method, a, b);
 }
-inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_ExclusiveOr(::by_ref<::GlobalNamespace::BitMask256> a, ::by_ref<::GlobalNamespace::BitMask256> b) {
+inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_ExclusiveOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask256>(),
                                               { "op_ExclusiveOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask256>(nullptr, ___internal_method, a, b);
 }
-inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_LeftShift(::by_ref<::GlobalNamespace::BitMask256> a, int32_t bits) {
+inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_LeftShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, int32_t bits) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask256>(), { "op_LeftShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask256>(nullptr, ___internal_method, a, bits);
 }
-inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_RightShift(::by_ref<::GlobalNamespace::BitMask256> a, int32_t bits) {
+inline ::GlobalNamespace::BitMask256 GlobalNamespace::BitMask256::op_RightShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, int32_t bits) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask256>(), { "op_RightShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask256>(nullptr, ___internal_method, a, bits);
 }
-inline bool GlobalNamespace::BitMask256::op_Equality(::by_ref<::GlobalNamespace::BitMask256> a, ::by_ref<::GlobalNamespace::BitMask256> b) {
+inline bool GlobalNamespace::BitMask256::op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask256>(),
                                               { "op_Equality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool GlobalNamespace::BitMask256::op_Inequality(::by_ref<::GlobalNamespace::BitMask256> a, ::by_ref<::GlobalNamespace::BitMask256> b) {
+inline bool GlobalNamespace::BitMask256::op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask256>(),
                                               { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask256>>() } })));
@@ -425,8 +428,9 @@ constexpr GlobalNamespace::BitMask256::operator ::LiteNetLib::Utils::INetImmutab
 constexpr ::LiteNetLib::Utils::INetImmutableSerializable* GlobalNamespace::BitMask256::i___LiteNetLib__Utils__INetImmutableSerializable() {
   return static_cast<::LiteNetLib::Utils::INetImmutableSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_d0", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_d1", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_d2", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_d3", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_d0", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_d1", ty: "uint64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_d2", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_d3", ty: "uint64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::BitMask256::BitMask256(uint64_t _d0, uint64_t _d1, uint64_t _d2, uint64_t _d3) noexcept {
   this->_d0 = _d0;
   this->_d1 = _d1;

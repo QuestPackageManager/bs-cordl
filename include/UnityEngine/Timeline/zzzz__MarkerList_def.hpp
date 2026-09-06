@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\MarkerList.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/MarkerList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ struct MarkerList;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Timeline::MarkerList);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
+// [DefaultMember("Item")]
 // Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: true
@@ -112,9 +113,9 @@ public:
   // @brief default ctor
   constexpr MarkerList();
 
-  // Ctor Parameters [CppParam { name: "m_Objects", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Cache", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*", modifiers: "", def_value: None }, CppParam { name: "m_CacheDirty", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "m_HasNotifications", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Objects", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>*", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "m_Cache", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CacheDirty", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_HasNotifications", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr MarkerList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* m_Objects, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* m_Cache,
                        bool m_CacheDirty, bool m_HasNotifications) noexcept;
 
@@ -124,9 +125,12 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Objects, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* m_Objects;
 
+  /// [HideInInspector]
   /// @brief Field m_Cache, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* m_Cache;
 

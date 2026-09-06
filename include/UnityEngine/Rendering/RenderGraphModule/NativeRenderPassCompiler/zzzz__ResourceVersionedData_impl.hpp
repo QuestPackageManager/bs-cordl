@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\ResourceVersionedData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourceVersionedData.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__ResourceVersionedData_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData.SetWritingPass
@@ -84,8 +84,8 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
                           { "RemoveReadingPass", {}, { ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ctx, h, passId);
 }
-// Ctor Parameters [CppParam { name: "written", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "writePassId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "numReaders", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "written", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "writePassId", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "numReaders", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::ResourceVersionedData(bool written, int32_t writePassId, int32_t numReaders) noexcept {
   this->written = written;
   this->writePassId = writePassId;

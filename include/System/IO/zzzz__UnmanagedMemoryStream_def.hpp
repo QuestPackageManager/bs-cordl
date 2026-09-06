@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\UnmanagedMemoryStream.hpp"
+// IWYU pragma private; include "System/IO/UnmanagedMemoryStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,6 +68,7 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
+  /// @brief [CLSCompliant(false)]
   __declspec(property(get = get_PositionPointer)) uint8_t* PositionPointer;
 
   /// @brief Field _access, offset 0x58, size 0x4
@@ -115,13 +116,16 @@ public:
   /// @brief Method FlushAsync, addr 0x5c04f24, size 0x1d4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Initialize, addr 0x5bfa850, size 0x1ec, virtual false, abstract: false, final false
   inline void Initialize(uint8_t* pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access);
 
   static inline ::System::IO::UnmanagedMemoryStream* New_ctor();
 
+  /// @brief [CLSCompliant(false)]
   static inline ::System::IO::UnmanagedMemoryStream* New_ctor(uint8_t* pointer, int64_t length);
 
+  /// @brief [CLSCompliant(false)]
   static inline ::System::IO::UnmanagedMemoryStream* New_ctor(uint8_t* pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access);
 
   /// @brief Method Read, addr 0x5c052d0, size 0x190, virtual true, abstract: false, final false
@@ -223,9 +227,11 @@ public:
   /// @brief Method .ctor, addr 0x5bfa7f4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5c04d38, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(uint8_t* pointer, int64_t length);
 
+  /// [CLSCompliant(false)]
   /// @brief Method .ctor, addr 0x5c04db0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(uint8_t* pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access);
 
@@ -256,13 +262,13 @@ protected:
   constexpr UnmanagedMemoryStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMemoryStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMemoryStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnmanagedMemoryStream(UnmanagedMemoryStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMemoryStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMemoryStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnmanagedMemoryStream(UnmanagedMemoryStream const&) = delete;
+  UnmanagedMemoryStream(UnmanagedMemoryStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3872 };

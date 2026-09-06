@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Submesh.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Submesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,23 +118,26 @@ protected:
   constexpr Submesh();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Submesh", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Submesh", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Submesh(Submesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Submesh", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Submesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Submesh(Submesh const&) = delete;
+  Submesh(Submeshconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16817 };
 
+  /// [SerializeField]
   /// @brief Field m_Indexes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_Indexes;
 
+  /// [SerializeField]
   /// @brief Field m_Topology, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::MeshTopology ___m_Topology;
 
+  /// [SerializeField]
   /// @brief Field m_SubmeshIndex, offset: 0x1c, size: 0x4, def value: None
   int32_t ___m_SubmeshIndex;
 

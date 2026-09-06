@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UTF8ArrayUnsafeUtility.hpp"
+// IWYU pragma private; include "Unity/Collections/UTF8ArrayUnsafeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,8 @@ public:
   // @brief default ctor
   constexpr UTF8ArrayUnsafeUtility_Comparison();
 
-  // Ctor Parameters [CppParam { name: "terminates", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "result", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "terminates", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "result", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr UTF8ArrayUnsafeUtility_Comparison(bool terminates, int32_t result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -73,6 +74,7 @@ static_assert(offsetof(::Unity::Collections::UTF8ArrayUnsafeUtility_Comparison, 
 static_assert(sizeof(::Unity::Collections::UTF8ArrayUnsafeUtility_Comparison) == 0x8, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.Object
 namespace Unity::Collections {
 // Is value type: false
@@ -136,13 +138,13 @@ protected:
   constexpr UTF8ArrayUnsafeUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UTF8ArrayUnsafeUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF8ArrayUnsafeUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UTF8ArrayUnsafeUtility(UTF8ArrayUnsafeUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UTF8ArrayUnsafeUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF8ArrayUnsafeUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UTF8ArrayUnsafeUtility(UTF8ArrayUnsafeUtility const&) = delete;
+  UTF8ArrayUnsafeUtility(UTF8ArrayUnsafeUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15741 };

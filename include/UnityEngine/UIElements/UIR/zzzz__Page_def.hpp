@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\Page.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Page.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,13 +15,17 @@ namespace UnityEngine::UIElements::UIR {
 class GPUBufferAllocator;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class Page_DataSet_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class Page_DataSet_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct Utility_GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class Utility_GPUBuffer_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class Utility_GPUBuffer_1;
 }
 namespace UnityEngine::UIElements {
 struct Vertex;
@@ -31,7 +35,9 @@ namespace UnityEngine::UIElements::UIR {
 class Page;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class Page_DataSet_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class Page_DataSet_1;
 }
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIR::Page*);
@@ -42,6 +48,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UIR::Page_DataSet_1, "Uni
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.Page/DataSet`1<T>
 class CORDL_TYPE Page_DataSet_1 : public ::System::Object {
@@ -191,12 +198,14 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::Utility_GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount, uint32_t updateRangePoolSize, bool mockBuffer);
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -206,17 +215,19 @@ protected:
   constexpr Page_DataSet_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Page_DataSet_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Page_DataSet_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Page_DataSet_1(Page_DataSet_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Page_DataSet_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Page_DataSet_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Page_DataSet_1(Page_DataSet_1 const&) = delete;
+  Page_DataSet_1(Page_DataSet_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5380 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
@@ -264,7 +275,9 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE Page : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using DataSet_1 = ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>;
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using DataSet_1 = ::UnityEngine::UIElements::UIR::Page_DataSet_1<T>;
 
   /// @brief Field <disposed>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
@@ -329,6 +342,7 @@ public:
   /// @brief Method .ctor, addr 0x6cfc260, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 
+  /// [CompilerGenerated]
   /// @brief Method get_disposed, addr 0x6cfc398, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
@@ -338,6 +352,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_disposed, addr 0x6cfc3a0, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
@@ -347,17 +362,19 @@ protected:
   constexpr Page();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Page", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Page", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Page(Page&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Page", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Page", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Page(Page const&) = delete;
+  Page(Pageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5381 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 

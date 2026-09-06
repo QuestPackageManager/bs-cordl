@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\HingeJoint.hpp"
+// IWYU pragma private; include "UnityEngine/HingeJoint.hpp"
 #include "UnityEngine/zzzz__Joint_impl.hpp"
 #include "UnityEngine/zzzz__HingeJoint_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

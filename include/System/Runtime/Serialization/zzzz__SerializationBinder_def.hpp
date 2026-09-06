@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\SerializationBinder.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/SerializationBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   /// @brief Method BindToName, addr 0x5b4c620, size 0xc, virtual true, abstract: false, final false
   inline void BindToName(::System::Type* serializedType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> typeName);
 
-  /// @brief Method BindToType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method BindToType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
 
   static inline ::System::Runtime::Serialization::SerializationBinder* New_ctor();
@@ -40,13 +40,13 @@ protected:
   constexpr SerializationBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializationBinder(SerializationBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializationBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializationBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializationBinder(SerializationBinder const&) = delete;
+  SerializationBinder(SerializationBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3223 };

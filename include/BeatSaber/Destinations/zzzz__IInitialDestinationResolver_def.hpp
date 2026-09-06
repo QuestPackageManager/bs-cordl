@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Destinations\IInitialDestinationResolver.hpp"
+// IWYU pragma private; include "BeatSaber/Destinations/IInitialDestinationResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class IInitialDestinationResolver;
 // Write type traits
 MARK_REF_T(::BeatSaber::Destinations::IInitialDestinationResolver*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Destinations::IInitialDestinationResolver*, "BeatSaber.Destinations", "IInitialDestinationResolver");
+// [NullableContext(1)]
 // Dependencies
 namespace BeatSaber::Destinations {
 // Is value type: false
@@ -21,12 +22,12 @@ namespace BeatSaber::Destinations {
 class CORDL_TYPE IInitialDestinationResolver {
 public:
   // Declarations
-  /// @brief Method InitializeScenesAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InitializeScenesAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* InitializeScenesAsync();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IInitialDestinationResolver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IInitialDestinationResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IInitialDestinationResolver(IInitialDestinationResolver const&) = delete;
+  IInitialDestinationResolver(IInitialDestinationResolverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23070 };

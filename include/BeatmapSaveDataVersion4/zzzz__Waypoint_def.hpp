@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\Waypoint.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/Waypoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,8 +25,8 @@ public:
   // @brief default ctor
   constexpr Waypoint();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "o", ty:
-  // "::BeatmapSaveDataCommon::OffsetDirection", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "o", ty: "::BeatmapSaveDataCommon::OffsetDirection", modifiers: "", def_value: None, comment: None }]
   constexpr Waypoint(int32_t x, int32_t y, ::BeatmapSaveDataCommon::OffsetDirection o) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

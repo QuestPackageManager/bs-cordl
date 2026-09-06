@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\DefaultExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/DefaultExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class DefaultExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::DefaultExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::DefaultExpression*, "System.Linq.Expressions", "DefaultExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::DefaultExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -55,6 +56,7 @@ public:
   /// @brief Method get_NodeType, addr 0x5f7ada4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Type, addr 0x5f7ad9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
@@ -64,17 +66,18 @@ protected:
   constexpr DefaultExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultExpression(DefaultExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultExpression(DefaultExpression const&) = delete;
+  DefaultExpression(DefaultExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16162 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
 

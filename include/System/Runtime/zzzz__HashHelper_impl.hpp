@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\HashHelper.hpp"
+// IWYU pragma private; include "System/Runtime/HashHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__HashHelper_def.hpp"
 //  Writing Method size for method: ::System::Runtime::HashHelper.ComputeHash

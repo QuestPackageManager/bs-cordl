@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\OrgScopedID.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/OrgScopedID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ protected:
   constexpr OrgScopedID();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OrgScopedID", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrgScopedID", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrgScopedID(OrgScopedID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OrgScopedID", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrgScopedID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrgScopedID(OrgScopedID const&) = delete;
+  OrgScopedID(OrgScopedIDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18075 };

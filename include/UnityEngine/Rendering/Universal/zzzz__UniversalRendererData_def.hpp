@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRendererData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRendererData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,8 @@ class UniversalRendererData;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::Universal::UniversalRendererData*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::UniversalRendererData*, "UnityEngine.Rendering.Universal", "UniversalRendererData");
+// [ReloadGroup]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.LayerMask, UnityEngine.Rendering.Universal.CopyDepthMode, UnityEngine.Rendering.Universal.DepthFormat, UnityEngine.Rendering.Universal.DepthPrimingMode,
 // UnityEngine.Rendering.Universal.IntermediateTextureMode, UnityEngine.Rendering.Universal.RenderingMode, UnityEngine.Rendering.Universal.ScriptableRendererData
 namespace UnityEngine::Rendering::Universal {
@@ -307,13 +309,13 @@ protected:
   constexpr UniversalRendererData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRendererData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRendererData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UniversalRendererData(UniversalRendererData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UniversalRendererData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UniversalRendererData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UniversalRendererData(UniversalRendererData const&) = delete;
+  UniversalRendererData(UniversalRendererDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12743 };
@@ -321,45 +323,58 @@ public:
   /// @brief Field k_LatestAssetVersion offset 0xffffffff size 0x4
   static constexpr int32_t k_LatestAssetVersion{ static_cast<int32_t>(0x2) };
 
+  /// [Obsolete("Moved to UniversalRenderPipelineRuntimeXRResources on GraphicsSettings. #from(2023.3)", false)]
   /// @brief Field xrSystemData, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::Universal::XRSystemData> ___xrSystemData;
 
   /// @brief Field postProcessData, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::Universal::PostProcessData> ___postProcessData;
 
+  /// [SerializeField]
   /// @brief Field m_AssetVersion, offset: 0x58, size: 0x4, def value: None
   int32_t ___m_AssetVersion;
 
+  /// [SerializeField]
   /// @brief Field m_OpaqueLayerMask, offset: 0x5c, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_OpaqueLayerMask;
 
+  /// [SerializeField]
   /// @brief Field m_TransparentLayerMask, offset: 0x60, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_TransparentLayerMask;
 
+  /// [SerializeField]
   /// @brief Field m_DefaultStencilState, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::StencilStateData* ___m_DefaultStencilState;
 
+  /// [SerializeField]
   /// @brief Field m_ShadowTransparentReceive, offset: 0x70, size: 0x1, def value: None
   bool ___m_ShadowTransparentReceive;
 
+  /// [SerializeField]
   /// @brief Field m_RenderingMode, offset: 0x74, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderingMode ___m_RenderingMode;
 
+  /// [SerializeField]
   /// @brief Field m_DepthPrimingMode, offset: 0x78, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DepthPrimingMode ___m_DepthPrimingMode;
 
+  /// [SerializeField]
   /// @brief Field m_CopyDepthMode, offset: 0x7c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::CopyDepthMode ___m_CopyDepthMode;
 
+  /// [SerializeField]
   /// @brief Field m_DepthAttachmentFormat, offset: 0x80, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DepthFormat ___m_DepthAttachmentFormat;
 
+  /// [SerializeField]
   /// @brief Field m_DepthTextureFormat, offset: 0x84, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DepthFormat ___m_DepthTextureFormat;
 
+  /// [SerializeField]
   /// @brief Field m_AccurateGbufferNormals, offset: 0x88, size: 0x1, def value: None
   bool ___m_AccurateGbufferNormals;
 
+  /// [SerializeField]
   /// @brief Field m_IntermediateTextureMode, offset: 0x8c, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::IntermediateTextureMode ___m_IntermediateTextureMode;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\HDROutputUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/HDROutputUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__HDROutputUtils_def.hpp"
@@ -9,7 +9,7 @@
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::HDROutputUtils_Operation::HDROutputUtils_Operation(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -40,9 +40,9 @@ inline void UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation::_ctor(
                                                            { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, maxFullFrameToneMapLuminance, maxToneMapLuminance, minToneMapLuminance, hdrPaperWhiteNits);
 }
-// Ctor Parameters [CppParam { name: "maxFullFrameToneMapLuminance", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxToneMapLuminance", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "minToneMapLuminance", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "paperWhiteNits", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "maxFullFrameToneMapLuminance", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxToneMapLuminance", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minToneMapLuminance", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "paperWhiteNits", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation::HDROutputUtils_HDRDisplayInformation(int32_t maxFullFrameToneMapLuminance, int32_t maxToneMapLuminance,
                                                                                                                int32_t minToneMapLuminance, float_t paperWhiteNits) noexcept {
   this->maxFullFrameToneMapLuminance = maxFullFrameToneMapLuminance;

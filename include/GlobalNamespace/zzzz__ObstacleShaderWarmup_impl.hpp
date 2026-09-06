@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ObstacleShaderWarmup.hpp"
+// IWYU pragma private; include "GlobalNamespace/ObstacleShaderWarmup.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleShaderWarmup_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleMaterialSetter_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CustomLevelLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace/CustomLevelLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace GlobalNamespace {
 class ICustomLevelLoader;
 }
 namespace UnityEngine::AddressableAssets {
-template <typename TObject> class AssetReferenceT_1;
+template <typename TObject>
+  requires(::cordl_internals::type_constraint<TObject, ::UnityEngine::Object*>)
+class AssetReferenceT_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,20 +68,24 @@ protected:
   constexpr CustomLevelLoader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomLevelLoader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomLevelLoader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomLevelLoader(CustomLevelLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomLevelLoader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomLevelLoader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomLevelLoader(CustomLevelLoader const&) = delete;
+  CustomLevelLoader(CustomLevelLoaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14815 };
 
+  /// [Nullable(1)]
+  /// [SerializeField]
   /// @brief Field _defaultEnvironmentInfo, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____defaultEnvironmentInfo;
 
+  /// [Nullable(1)]
+  /// [SerializeField]
   /// @brief Field _defaultAllDirectionsEnvironmentInfo, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____defaultAllDirectionsEnvironmentInfo;
 

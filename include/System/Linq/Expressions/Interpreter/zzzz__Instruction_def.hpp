@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\Instruction.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/Instruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   /// @brief Method NullCheck, addr 0x5f951f0, size 0x10, virtual false, abstract: false, final false
   static inline void NullCheck(::System::Object* o);
 
-  /// @brief Method Run, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   /// @brief Method ToDebugString, addr 0x5f97dcc, size 0xc, virtual true, abstract: false, final false
@@ -74,7 +74,7 @@ public:
   /// @brief Method get_ContinuationsBalance, addr 0x5f97d34, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_ContinuationsBalance();
 
-  /// @brief Method get_InstructionName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InstructionName();
 
   /// @brief Method get_ProducedContinuations, addr 0x5f97cf0, size 0x8, virtual true, abstract: false, final false
@@ -92,13 +92,13 @@ protected:
   constexpr Instruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Instruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Instruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Instruction(Instruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Instruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Instruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Instruction(Instruction const&) = delete;
+  Instruction(Instructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16387 };

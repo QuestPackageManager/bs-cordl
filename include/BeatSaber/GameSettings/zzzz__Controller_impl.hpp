@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\GameSettings\Controller.hpp"
+// IWYU pragma private; include "BeatSaber/GameSettings/Controller.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__Controller_def.hpp"
 //  Writing Method size for method: ::BeatSaber::GameSettings::Controller.HasDefaultValues
@@ -18,8 +18,8 @@ inline bool BeatSaber::GameSettings::Controller::HasDefaultValues() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::Controller>(), { "HasDefaultValues", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotation", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::GameSettings::Controller::Controller(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation) noexcept {
   this->position = position;
   this->rotation = rotation;

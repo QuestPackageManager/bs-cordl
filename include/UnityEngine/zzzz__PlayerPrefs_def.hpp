@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PlayerPrefs.hpp"
+// IWYU pragma private; include "UnityEngine/PlayerPrefs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class PlayerPrefs;
 // Write type traits
 MARK_REF_T(::UnityEngine::PlayerPrefs*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerPrefs*, "UnityEngine", "PlayerPrefs");
+// [NativeHeader("Runtime/Utilities/PlayerPrefs.h")]
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -61,12 +62,14 @@ public:
   /// @brief Method SetString, addr 0x6ad7a00, size 0x58, virtual false, abstract: false, final false
   static inline void SetString(::StringW key, ::StringW value);
 
+  /// [NativeMethod("SetInt")]
   /// @brief Method TrySetInt, addr 0x6ad74a0, size 0x140, virtual false, abstract: false, final false
   static inline bool TrySetInt(::StringW key, int32_t value);
 
   /// @brief Method TrySetInt_Injected, addr 0x6ad75e0, size 0x44, virtual false, abstract: false, final false
   static inline bool TrySetInt_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> key, int32_t value);
 
+  /// [NativeMethod("SetString")]
   /// @brief Method TrySetSetString, addr 0x6ad7624, size 0x1b8, virtual false, abstract: false, final false
   static inline bool TrySetSetString(::StringW key, ::StringW value);
 
@@ -79,13 +82,13 @@ protected:
   constexpr PlayerPrefs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerPrefs(PlayerPrefs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerPrefs(PlayerPrefs const&) = delete;
+  PlayerPrefs(PlayerPrefsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10275 };

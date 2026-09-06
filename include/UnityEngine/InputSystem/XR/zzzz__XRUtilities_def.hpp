@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ protected:
   constexpr XRUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRUtilities(XRUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XRUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XRUtilities(XRUtilities const&) = delete;
+  XRUtilities(XRUtilitiesconst&) = delete;
 
   /// @brief Field InterfaceCurrent offset 0xffffffff size 0x8
   static constexpr ::ConstString InterfaceCurrent{ u"XRInputV1" };

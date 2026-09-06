@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\Tweak_1.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/Tweak_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::Manager::Tweak_1);
 MARK_GEN_REF_T_PTR(::Meta::XR::ImmersiveDebugger::Manager::Tweak_1___c__DisplayClass10_0);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::Manager::Tweak_1, "Meta.XR.ImmersiveDebugger.Manager", "Tweak`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Meta::XR::ImmersiveDebugger::Manager::Tweak_1___c__DisplayClass10_0, "Meta.XR.ImmersiveDebugger.Manager", "Tweak`1/<>c__DisplayClass10_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // cpp template
@@ -87,13 +88,13 @@ protected:
   constexpr Tweak_1___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tweak_1___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tweak_1___c__DisplayClass10_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tweak_1___c__DisplayClass10_0(Tweak_1___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tweak_1___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tweak_1___c__DisplayClass10_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tweak_1___c__DisplayClass10_0(Tweak_1___c__DisplayClass10_0 const&) = delete;
+  Tweak_1___c__DisplayClass10_0(Tweak_1___c__DisplayClass10_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18442 };
@@ -196,13 +197,13 @@ protected:
   constexpr Tweak_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tweak_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tweak_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tweak_1(Tweak_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tweak_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Tweak_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Tweak_1(Tweak_1 const&) = delete;
+  Tweak_1(Tweak_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18443 };

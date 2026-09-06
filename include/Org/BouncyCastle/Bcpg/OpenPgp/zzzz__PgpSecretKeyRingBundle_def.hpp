@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpSecretKeyRingBundle.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpSecretKeyRingBundle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,6 +42,7 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
+  /// @brief [Obsolete("Use \'Count\' property instead")]
   __declspec(property(get = get_Size)) int32_t Size;
 
   /// @brief Field order, offset 0x18, size 0x8
@@ -129,13 +130,13 @@ protected:
   constexpr PgpSecretKeyRingBundle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpSecretKeyRingBundle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpSecretKeyRingBundle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpSecretKeyRingBundle(PgpSecretKeyRingBundle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpSecretKeyRingBundle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpSecretKeyRingBundle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpSecretKeyRingBundle(PgpSecretKeyRingBundle const&) = delete;
+  PgpSecretKeyRingBundle(PgpSecretKeyRingBundleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1665 };

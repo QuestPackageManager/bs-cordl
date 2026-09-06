@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Range.hpp"
+// IWYU pragma private; include "System/Data/Range.hpp"
 #include "System/Data/zzzz__Range_def.hpp"
 //  Writing Method size for method: ::System::Data::Range._ctor
 template <>
@@ -83,8 +83,8 @@ inline void System::Data::Range::CheckNull() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Range>(), { "CheckNull", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_min", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_max", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_isNotNull", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_min", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_max", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_isNotNull", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Data::Range::Range(int32_t _min, int32_t _max, bool _isNotNull) noexcept {
   this->_min = _min;
   this->_max = _max;

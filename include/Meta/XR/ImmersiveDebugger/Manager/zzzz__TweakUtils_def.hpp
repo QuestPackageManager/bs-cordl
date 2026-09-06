@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\TweakUtils.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/TweakUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::TweakUtils*, "Meta.XR.ImmersiveDebugger.Manager", "TweakUtils");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*, "Meta.XR.ImmersiveDebugger.Manager", "TweakUtils/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // Is value type: false
@@ -99,13 +100,13 @@ protected:
   constexpr TweakUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TweakUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweakUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TweakUtils___c(TweakUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TweakUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweakUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TweakUtils___c(TweakUtils___c const&) = delete;
+  TweakUtils___c(TweakUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18439 };
@@ -171,13 +172,13 @@ protected:
   constexpr TweakUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TweakUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweakUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TweakUtils(TweakUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TweakUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TweakUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TweakUtils(TweakUtils const&) = delete;
+  TweakUtils(TweakUtilsconst&) = delete;
 
   /// @brief Field Max offset 0xffffffff size 0x8
   static constexpr ::ConstString Max{ u"max" };

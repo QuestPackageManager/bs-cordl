@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleSheetCache.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSheetCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,8 @@ public:
   // @brief default ctor
   constexpr StyleSheetCache_SheetHandleKey();
 
-  // Ctor Parameters [CppParam { name: "sheetInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sheetInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr StyleSheetCache_SheetHandleKey(int32_t sheetInstanceID, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -116,13 +117,13 @@ protected:
   constexpr StyleSheetCache_SheetHandleKeyComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache_SheetHandleKeyComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache_SheetHandleKeyComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSheetCache_SheetHandleKeyComparer(StyleSheetCache_SheetHandleKeyComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache_SheetHandleKeyComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache_SheetHandleKeyComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSheetCache_SheetHandleKeyComparer(StyleSheetCache_SheetHandleKeyComparer const&) = delete;
+  StyleSheetCache_SheetHandleKeyComparer(StyleSheetCache_SheetHandleKeyComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5464 };
@@ -133,6 +134,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
@@ -177,13 +179,13 @@ protected:
   constexpr StyleSheetCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSheetCache(StyleSheetCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleSheetCache(StyleSheetCache const&) = delete;
+  StyleSheetCache(StyleSheetCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5465 };

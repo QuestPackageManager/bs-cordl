@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Misc\Cast5CbcParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Misc/Cast5CbcParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,13 +84,13 @@ protected:
   constexpr Cast5CbcParameters();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Cast5CbcParameters", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cast5CbcParameters", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cast5CbcParameters(Cast5CbcParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Cast5CbcParameters", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Cast5CbcParameters", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Cast5CbcParameters(Cast5CbcParameters const&) = delete;
+  Cast5CbcParameters(Cast5CbcParametersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 195 };

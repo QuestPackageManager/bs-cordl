@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlTextWriter.hpp"
+// IWYU pragma private; include "System/Xml/XmlTextWriter.hpp"
 #include "System/Xml/zzzz__Formatting_impl.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"
 #include "System/Xml/zzzz__XmlSpace_impl.hpp"
@@ -15,7 +15,7 @@
 #include "System/Xml/zzzz__XmlTextEncoder_def.hpp"
 #include "System/Xml/zzzz__XmlTextWriterBase64Encoder_def.hpp"
 #include "System/Xml/zzzz__XmlTextWriter_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextWriter_NamespaceState::XmlTextWriter_NamespaceState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -41,11 +41,12 @@ inline void System::Xml::XmlTextWriter_TagInfo::Init(int32_t nsTop) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlTextWriter_TagInfo>(), { "Init", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, nsTop);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "defaultNs", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "defaultNsState", ty: "::System::Xml::XmlTextWriter_NamespaceState", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "xmlSpace", ty: "::System::Xml::XmlSpace", modifiers: "", def_value: Some("{}") }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "prevNsTop", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prefixCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "mixed", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "defaultNs", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "defaultNsState", ty:
+// "::System::Xml::XmlTextWriter_NamespaceState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xmlSpace", ty: "::System::Xml::XmlSpace", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "xmlLang", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prevNsTop", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "prefixCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mixed", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextWriter_TagInfo::XmlTextWriter_TagInfo(::StringW name, ::StringW prefix, ::StringW defaultNs, ::System::Xml::XmlTextWriter_NamespaceState defaultNsState,
                                                                       ::System::Xml::XmlSpace xmlSpace, ::StringW xmlLang, int32_t prevNsTop, int32_t prefixCount, bool mixed) noexcept {
   this->name = name;
@@ -78,8 +79,9 @@ inline void System::Xml::XmlTextWriter_Namespace::Set(::StringW prefix, ::String
                                                                                          { "Set", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, prefix, ns, declared);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "declared", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "prevNsIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "declared", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prevNsIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::Xml::XmlTextWriter_Namespace::XmlTextWriter_Namespace(::StringW prefix, ::StringW ns, bool declared, int32_t prevNsIndex) noexcept {
   this->prefix = prefix;
   this->ns = ns;
@@ -88,7 +90,7 @@ constexpr ::System::Xml::XmlTextWriter_Namespace::XmlTextWriter_Namespace(::Stri
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlTextWriter_Namespace::XmlTextWriter_Namespace() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextWriter_SpecialAttr::XmlTextWriter_SpecialAttr(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -98,7 +100,7 @@ constexpr ::System::Xml::XmlTextWriter_SpecialAttr System::Xml::XmlTextWriter_Sp
 constexpr ::System::Xml::XmlTextWriter_SpecialAttr System::Xml::XmlTextWriter_SpecialAttr::XmlSpace{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::XmlTextWriter_SpecialAttr System::Xml::XmlTextWriter_SpecialAttr::XmlLang{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::XmlTextWriter_SpecialAttr System::Xml::XmlTextWriter_SpecialAttr::XmlNs{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextWriter_State::XmlTextWriter_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -114,7 +116,7 @@ constexpr ::System::Xml::XmlTextWriter_State System::Xml::XmlTextWriter_State::A
 constexpr ::System::Xml::XmlTextWriter_State System::Xml::XmlTextWriter_State::Epilog{ static_cast<int32_t>(0x7) };
 constexpr ::System::Xml::XmlTextWriter_State System::Xml::XmlTextWriter_State::Error{ static_cast<int32_t>(0x8) };
 constexpr ::System::Xml::XmlTextWriter_State System::Xml::XmlTextWriter_State::Closed{ static_cast<int32_t>(0x9) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::XmlTextWriter_Token::XmlTextWriter_Token(int32_t value__) noexcept {
   this->value__ = value__;
 }

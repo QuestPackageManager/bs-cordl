@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Color32.hpp"
+// IWYU pragma private; include "UnityEngine/Color32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,8 @@ struct Color32;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Color32);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Color32, "UnityEngine", "Color32");
+// [DefaultMember("Item")]
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -130,8 +132,9 @@ public:
   // @brief default ctor
   constexpr Color32();
 
-  // Ctor Parameters [CppParam { name: "rgba", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "g", ty:
-  // "uint8_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rgba", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "r", ty: "uint8_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "g", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "b", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "a",
+  // ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr Color32(int32_t rgba, uint8_t r, uint8_t g, uint8_t b, uint8_t a) noexcept;
 
 private:
@@ -141,6 +144,7 @@ private:
     struct {
       /// @brief Padding field 0x0
       uint8_t ___rgba_padding[0x0];
+      /// [Ignore(DoesNotContributeToSize = true)]
       /// @brief Field rgba, offset: 0x0, size: 0x4, def value: None
       int32_t ___rgba;
     };
@@ -148,6 +152,7 @@ private:
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___rgba_padding_forAlignment[0x0];
+      /// [Ignore(DoesNotContributeToSize = true)]
       /// @brief Field rgba, offset: 0x0, size: 0x4, def value: None
       int32_t ___rgba_forAlignment;
     };

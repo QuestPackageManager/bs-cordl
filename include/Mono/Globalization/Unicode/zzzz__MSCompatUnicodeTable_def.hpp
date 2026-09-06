@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Globalization\Unicode\MSCompatUnicodeTable.hpp"
+// IWYU pragma private; include "Mono/Globalization/Unicode/MSCompatUnicodeTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::Mono::Globalization::Unicode::MSCompatUnicodeTable*);
 MARK_REF_T(::Mono::Globalization::Unicode::MSCompatUnicodeTable___c*);
 DEFINE_IL2CPP_CLASS(::Mono::Globalization::Unicode::MSCompatUnicodeTable*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable");
 DEFINE_IL2CPP_CLASS(::Mono::Globalization::Unicode::MSCompatUnicodeTable___c*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Mono::Globalization::Unicode {
 // Is value type: false
@@ -83,13 +84,13 @@ protected:
   constexpr MSCompatUnicodeTable___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MSCompatUnicodeTable___c(MSCompatUnicodeTable___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MSCompatUnicodeTable___c(MSCompatUnicodeTable___c const&) = delete;
+  MSCompatUnicodeTable___c(MSCompatUnicodeTable___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2263 };
@@ -312,13 +313,13 @@ protected:
   constexpr MSCompatUnicodeTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MSCompatUnicodeTable(MSCompatUnicodeTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MSCompatUnicodeTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MSCompatUnicodeTable(MSCompatUnicodeTable const&) = delete;
+  MSCompatUnicodeTable(MSCompatUnicodeTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2264 };

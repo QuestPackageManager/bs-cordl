@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VisualEffectActivationBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/VisualEffectActivationBehaviour.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VisualEffectActivationBehaviour_def.hpp"
 #include "GlobalNamespace/zzzz__VisualEffectActivationBehaviour_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType::VisualEffectActivationBehaviour_AttributeType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -17,9 +17,9 @@ constexpr ::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType Globa
 constexpr ::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType GlobalNamespace::VisualEffectActivationBehaviour_AttributeType::Int32{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType GlobalNamespace::VisualEffectActivationBehaviour_AttributeType::Uint32{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType GlobalNamespace::VisualEffectActivationBehaviour_AttributeType::Boolean{ static_cast<int32_t>(0x11) };
-// Ctor Parameters [CppParam { name: "attribute", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty:
-// "::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType", modifiers: "", def_value: Some("{}") }, CppParam { name: "values", ty: "::ArrayW<float_t>", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "attribute", ty: "::UnityEngine::VFX::Utility::ExposedProperty*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty:
+// "::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "values", ty: "::ArrayW<float_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::VisualEffectActivationBehaviour_EventState::VisualEffectActivationBehaviour_EventState(::UnityEngine::VFX::Utility::ExposedProperty* attribute,
                                                                                                                     ::GlobalNamespace::VisualEffectActivationBehaviour_AttributeType type,
                                                                                                                     ::ArrayW<float_t> values) noexcept {

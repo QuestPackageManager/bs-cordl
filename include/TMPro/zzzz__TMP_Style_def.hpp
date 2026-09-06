@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_Style.hpp"
+// IWYU pragma private; include "TMPro/TMP_Style.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,32 +136,38 @@ protected:
   constexpr TMP_Style();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Style", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Style", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Style(TMP_Style&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Style", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_Style", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Style(TMP_Style const&) = delete;
+  TMP_Style(TMP_Styleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15984 };
 
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
 
+  /// [SerializeField]
   /// @brief Field m_HashCode, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_HashCode;
 
+  /// [SerializeField]
   /// @brief Field m_OpeningDefinition, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_OpeningDefinition;
 
+  /// [SerializeField]
   /// @brief Field m_ClosingDefinition, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_ClosingDefinition;
 
+  /// [SerializeField]
   /// @brief Field m_OpeningTagArray, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<uint32_t> ___m_OpeningTagArray;
 
+  /// [SerializeField]
   /// @brief Field m_ClosingTagArray, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<uint32_t> ___m_ClosingTagArray;
 

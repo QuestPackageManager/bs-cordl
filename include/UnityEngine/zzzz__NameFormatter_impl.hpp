@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\NameFormatter.hpp"
+// IWYU pragma private; include "UnityEngine/NameFormatter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__NameFormatter_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Assembly.hpp"
+// IWYU pragma private; include "System/Reflection/Assembly.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"

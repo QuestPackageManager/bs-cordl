@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrSwapchainUsageFlags.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrSwapchainUsageFlags.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrSwapchainUsageFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::NativeTypes::XrSwapchainUsageFlags::XrSwapchainUsageFlags(uint64_t value__) noexcept {
   this->value__ = value__;
 }

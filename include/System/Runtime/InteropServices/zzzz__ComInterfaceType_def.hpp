@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\ComInterfaceType.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/ComInterfaceType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ComInterfaceType;
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::ComInterfaceType);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::ComInterfaceType, "System.Runtime.InteropServices", "ComInterfaceType");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr ComInterfaceType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ComInterfaceType(int32_t value__) noexcept;
 
   /// @brief Field InterfaceIsDual value: I32(0)

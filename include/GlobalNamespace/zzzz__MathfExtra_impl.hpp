@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MathfExtra.hpp"
+// IWYU pragma private; include "GlobalNamespace/MathfExtra.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MathfExtra_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"

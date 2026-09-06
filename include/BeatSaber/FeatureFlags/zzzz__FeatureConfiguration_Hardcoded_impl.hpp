@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureConfiguration_Hardcoded.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureConfiguration_Hardcoded.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_Hardcoded_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FeatureConfiguration_Hardcoded._ctor

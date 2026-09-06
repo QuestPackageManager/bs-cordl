@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\NtlmFlags.hpp"
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/NtlmFlags.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__NtlmFlags_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags::NtlmFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Internal\IDecoratorProvider.hpp"
+// IWYU pragma private; include "Zenject/Internal/IDecoratorProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,12 +30,12 @@ namespace Zenject::Internal {
 class CORDL_TYPE IDecoratorProvider {
 public:
   // Declarations
-  /// @brief Method GetAllInstances, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetAllInstances, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDecoratorProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDecoratorProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDecoratorProvider(IDecoratorProvider const&) = delete;
+  IDecoratorProvider(IDecoratorProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14723 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerAvatarsData.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerAvatarsData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ struct MultiplayerAvatarsData;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::MultiplayerAvatarsData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerAvatarsData, "", "MultiplayerAvatarsData");
+// [IsReadOnly]
 // Dependencies BitMask128
 namespace GlobalNamespace {
 // Is value type: true
@@ -108,8 +109,8 @@ public:
   // @brief default ctor
   constexpr MultiplayerAvatarsData();
 
-  // Ctor Parameters [CppParam { name: "multiplayerAvatarsData", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*", modifiers: "", def_value: None }, CppParam {
-  // name: "supportedAvatarTypeIdHashesBloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "multiplayerAvatarsData", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "supportedAvatarTypeIdHashesBloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerAvatarsData(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData,
                                    ::GlobalNamespace::BitMask128 supportedAvatarTypeIdHashesBloomFilter) noexcept;
 

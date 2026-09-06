@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsDheKeyExchange.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsDheKeyExchange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ public:
   inline ::Org::BouncyCastle::Crypto::ISigner* InitVerifyer(::Org::BouncyCastle::Crypto::Tls::TlsSigner* tlsSigner, ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm,
                                                             ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
+  /// @brief [Obsolete("Use constructor that takes a TlsDHVerifier")]
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                               ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
@@ -80,6 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* value);
 
+  /// [Obsolete("Use constructor that takes a TlsDHVerifier")]
   /// @brief Method .ctor, addr 0x347e79c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
@@ -93,13 +95,13 @@ protected:
   constexpr TlsDheKeyExchange();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDheKeyExchange", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsDheKeyExchange", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsDheKeyExchange(TlsDheKeyExchange&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDheKeyExchange", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TlsDheKeyExchange", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TlsDheKeyExchange(TlsDheKeyExchange const&) = delete;
+  TlsDheKeyExchange(TlsDheKeyExchangeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1299 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PosesPlayback.hpp"
+// IWYU pragma private; include "GlobalNamespace/PosesPlayback.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Transform_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesPlayback_def.hpp"

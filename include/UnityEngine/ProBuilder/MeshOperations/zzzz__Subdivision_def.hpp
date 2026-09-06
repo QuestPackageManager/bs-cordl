@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\Subdivision.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/Subdivision.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class Subdivision;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::Subdivision*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::Subdivision*, "UnityEngine.ProBuilder.MeshOperations", "Subdivision");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -32,9 +33,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE Subdivision : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method Subdivide, addr 0x6739388, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 
+  /// [Extension]
   /// @brief Method Subdivide, addr 0x67392cc, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb);
 
@@ -44,13 +47,13 @@ protected:
   constexpr Subdivision();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Subdivision", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Subdivision", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Subdivision(Subdivision&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Subdivision", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Subdivision", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Subdivision(Subdivision const&) = delete;
+  Subdivision(Subdivisionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16891 };

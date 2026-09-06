@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CombineGroupIdToVector4FloatFxGroupEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/CombineGroupIdToVector4FloatFxGroupEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
@@ -10,8 +10,8 @@
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-// Ctor Parameters [CppParam { name: "lightGroup", ty: "::UnityW<::GlobalNamespace::LightGroupSO>", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "lightGroup", ty: "::UnityW<::GlobalNamespace::LightGroupSO>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "index", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex(
     ::UnityW<::GlobalNamespace::LightGroupSO> lightGroup, int32_t index) noexcept {
   this->lightGroup = lightGroup;

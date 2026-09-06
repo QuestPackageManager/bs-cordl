@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IXRSystemState.hpp"
+// IWYU pragma private; include "GlobalNamespace/IXRSystemState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,27 +31,27 @@ public:
 
   __declspec(property(get = get_hasVrFocus)) bool hasVrFocus;
 
-  /// @brief Method AddListener, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
+  /// @brief Method AddListener, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
 
-  /// @brief Method RefreshControllersReference, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RefreshControllersReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RefreshControllersReference();
 
-  /// @brief Method RemoveListener, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener);
 
-  /// @brief Method get_hasHmdMounted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_hasHmdMounted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasHmdMounted();
 
-  /// @brief Method get_hasInputFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_hasInputFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_hasVrFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasVrFocus();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IXRSystemState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IXRSystemState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IXRSystemState(IXRSystemState const&) = delete;
+  IXRSystemState(IXRSystemStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21450 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXVelocityBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXVelocityBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class VFXVelocityBinder;
 // Write type traits
 MARK_REF_T(::UnityEngine::VFX::Utility::VFXVelocityBinder*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::VFX::Utility::VFXVelocityBinder*, "UnityEngine.VFX.Utility", "VFXVelocityBinder");
+// [AddComponentMenu("VFX/Property Binders/Velocity Binder")]
+// [VFXBinder("Transform/Velocity")]
 // Dependencies UnityEngine.VFX.Utility.VFXSpaceableBinder, UnityEngine.Vector3
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -105,17 +107,19 @@ protected:
   constexpr VFXVelocityBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXVelocityBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXVelocityBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXVelocityBinder(VFXVelocityBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXVelocityBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXVelocityBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXVelocityBinder(VFXVelocityBinder const&) = delete;
+  VFXVelocityBinder(VFXVelocityBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20013 };
 
+  /// [VFXPropertyBinding(new[] { "UnityEngine.Vector3" })]
+  /// [SerializeField]
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

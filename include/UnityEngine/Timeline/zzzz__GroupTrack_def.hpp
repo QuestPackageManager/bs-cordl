@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\GroupTrack.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/GroupTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,9 @@ class GroupTrack;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::GroupTrack*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::GroupTrack*, "UnityEngine.Timeline", "GroupTrack");
+// [TrackClipType(typeof(UnityEngine.Timeline.TrackAsset))]
+// [SupportsChildTracks(null, 2147483647)]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Timeline.TrackAsset
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -44,13 +47,13 @@ protected:
   constexpr GroupTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GroupTrack(GroupTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GroupTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GroupTrack(GroupTrack const&) = delete;
+  GroupTrack(GroupTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19221 };

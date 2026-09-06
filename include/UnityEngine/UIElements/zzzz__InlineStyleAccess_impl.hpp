@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\InlineStyleAccess.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/InlineStyleAccess.hpp"
+#include "System/zzzz__IConvertible_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleBackgroundSize_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleCursor_impl.hpp"
@@ -58,9 +59,9 @@
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
 #include "UnityEngine/zzzz__TextGeneratorType_def.hpp"
-// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rule", ty:
-// "::UnityEngine::UIElements::StyleRule*", modifiers: "", def_value: Some("{}") }, CppParam { name: "propertyIds", ty: "::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId>", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rule", ty:
+// "::UnityEngine::UIElements::StyleRule*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "propertyIds", ty:
+// "::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::InlineStyleAccess_InlineRule::InlineStyleAccess_InlineRule(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleRule* rule,
                                                                                                 ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId> propertyIds) noexcept {
   this->sheet = sheet;
@@ -4401,6 +4402,7 @@ inline bool UnityEngine::UIElements::InlineStyleAccess::SetStyleValue(::UnityEng
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, id, inlineValue);
 }
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline bool UnityEngine::UIElements::InlineStyleAccess::SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleEnum_1<T> inlineValue) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},

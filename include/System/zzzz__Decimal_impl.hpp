@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Decimal.hpp"
+// IWYU pragma private; include "System/Decimal.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
@@ -18,7 +18,7 @@
 #include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::DecCalc_Decimal_RoundingMode::DecCalc_Decimal_RoundingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -47,7 +47,8 @@ inline void System::DecCalc_Decimal_PowerOvfl::_ctor(uint32_t hi, uint32_t mid, 
                                                                                          { ".ctor", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, hi, mid, lo);
 }
-// Ctor Parameters [CppParam { name: "Hi", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "MidLo", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Hi", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MidLo", ty: "uint64_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::DecCalc_Decimal_PowerOvfl::DecCalc_Decimal_PowerOvfl(uint32_t Hi, uint64_t MidLo) noexcept {
   this->Hi = Hi;
   this->MidLo = MidLo;
@@ -163,9 +164,9 @@ inline void System::DecCalc_Decimal_Buf12::set_High64(uint64_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DecCalc_Decimal_Buf12>(), { "set_High64", {}, { ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "U2",
-// ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ulo64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "U2", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ulo64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::DecCalc_Decimal_Buf12::DecCalc_Decimal_Buf12(uint32_t U0, uint32_t U1, uint32_t U2, uint64_t ulo64LE, uint64_t uhigh64LE) noexcept {
   this->U0 = U0;
   this->U1 = U1;
@@ -293,9 +294,10 @@ inline void System::DecCalc_Decimal_Buf16::set_High64(uint64_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DecCalc_Decimal_Buf16>(), { "set_High64", {}, { ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "U2",
-// ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "U3", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ulo64LE", ty: "uint64_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "U2", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "U3", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "ulo64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::System::DecCalc_Decimal_Buf16::DecCalc_Decimal_Buf16(uint32_t U0, uint32_t U1, uint32_t U2, uint32_t U3, uint64_t ulo64LE, uint64_t uhigh64LE) noexcept {
   this->U0 = U0;
   this->U1 = U1;
@@ -451,10 +453,11 @@ inline void System::DecCalc_Decimal_Buf24::set_High64(uint64_t value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DecCalc_Decimal_Buf24>(), { "set_High64", {}, { ::i2c::type_of<uint64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "U2",
-// ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "U3", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "U4", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "U5", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ulo64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "umid64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "U0", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "U1", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "U2", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "U3", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "U4", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "U5", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "ulo64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "umid64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "uhigh64LE", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::DecCalc_Decimal_Buf24::DecCalc_Decimal_Buf24(uint32_t U0, uint32_t U1, uint32_t U2, uint32_t U3, uint32_t U4, uint32_t U5, uint64_t ulo64LE, uint64_t umid64LE,
                                                                  uint64_t uhigh64LE) noexcept {
   this->U0 = U0;
@@ -1185,13 +1188,13 @@ inline void System::Decimal_DecCalc::DecAddSub(::by_ref<::System::Decimal_DecCal
                                        { "DecAddSub", {}, { ::i2c::type_of<::by_ref<::System::Decimal_DecCalc>>(), ::i2c::type_of<::by_ref<::System::Decimal_DecCalc>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, d1, d2, sign);
 }
-inline int32_t System::Decimal_DecCalc::VarDecCmp(::by_ref<::System::Decimal> d1, ::by_ref<::System::Decimal> d2) {
+inline int32_t System::Decimal_DecCalc::VarDecCmp(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal> d2) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarDecCmp", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, d1, d2);
 }
-inline int32_t System::Decimal_DecCalc::VarDecCmpSub(::by_ref<::System::Decimal> d1, ::by_ref<::System::Decimal> d2) {
+inline int32_t System::Decimal_DecCalc::VarDecCmpSub(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal> d2) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarDecCmpSub", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
@@ -1215,17 +1218,17 @@ inline void System::Decimal_DecCalc::VarDecFromR8(double_t input, ::by_ref<::Sys
                    (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarDecFromR8", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::System::Decimal_DecCalc>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, input, result);
 }
-inline float_t System::Decimal_DecCalc::VarR4FromDec(::by_ref<::System::Decimal> value) {
+inline float_t System::Decimal_DecCalc::VarR4FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR4FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, value);
 }
-inline double_t System::Decimal_DecCalc::VarR8FromDec(::by_ref<::System::Decimal> value) {
+inline double_t System::Decimal_DecCalc::VarR8FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "VarR8FromDec", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
   return ::cordl_internals::RunMethodRethrow<double_t>(nullptr, ___internal_method, value);
 }
-inline int32_t System::Decimal_DecCalc::GetHashCode(::by_ref<::System::Decimal> d) {
+inline int32_t System::Decimal_DecCalc::GetHashCode(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "GetHashCode", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, d);
@@ -1248,9 +1251,9 @@ inline uint32_t System::Decimal_DecCalc::DecDivMod1E9(::by_ref<::System::Decimal
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal_DecCalc>(), { "DecDivMod1E9", {}, { ::i2c::type_of<::by_ref<::System::Decimal_DecCalc>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "uflags", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uhi", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "ulo", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "umid", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ulomidLE", ty: "uint64_t",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "uflags", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uhi", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "ulo", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "umid", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "ulomidLE", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Decimal_DecCalc::Decimal_DecCalc(uint32_t uflags, uint32_t uhi, uint32_t ulo, uint32_t umid, uint64_t ulomidLE) noexcept {
   this->uflags = uflags;
   this->uhi = uhi;
@@ -2652,7 +2655,7 @@ inline void System::Decimal::System_Runtime_Serialization_IDeserializationCallba
       (::i2c::find_method(::i2c::class_of<::System::Decimal>(), { "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sender);
 }
-inline void System::Decimal::_ctor(::by_ref<::System::Decimal> d, int32_t flags) {
+inline void System::Decimal::_ctor(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d, int32_t flags) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Decimal>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::System::Decimal>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, d, flags);
@@ -3077,9 +3080,9 @@ constexpr System::Decimal::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::Decimal::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "hi", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "lo", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "mid", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ulomidLE", ty: "uint64_t", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hi", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "lo", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "mid", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "ulomidLE", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Decimal::Decimal(int32_t flags, int32_t hi, int32_t lo, int32_t mid, uint64_t ulomidLE) noexcept {
   this->flags = flags;
   this->hi = hi;

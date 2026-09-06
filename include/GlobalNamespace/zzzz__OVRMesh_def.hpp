@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMesh.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,12 +43,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRMesh_IOVRMeshDataProvider {
 public:
   // Declarations
-  /// @brief Method GetMeshType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMeshType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::OVRMesh_MeshType GetMeshType();
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMesh_IOVRMeshDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMesh_IOVRMeshDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMesh_IOVRMeshDataProvider(OVRMesh_IOVRMeshDataProvider const&) = delete;
+  OVRMesh_IOVRMeshDataProvider(OVRMesh_IOVRMeshDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7926 };
@@ -89,7 +89,7 @@ public:
   // @brief default ctor
   constexpr OVRMesh_MeshType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRMesh_MeshType(int32_t value__) noexcept;
 
   /// @brief Field HandLeft value: I32(0)
@@ -207,12 +207,14 @@ public:
   /// @brief Method .ctor, addr 0x5f01a88, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsInitialized, addr 0x5f00e10, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
   /// @brief Method get_Mesh, addr 0x5f00e20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsInitialized, addr 0x5f00e18, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
@@ -222,20 +224,22 @@ protected:
   constexpr OVRMesh();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMesh", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMesh", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRMesh(OVRMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMesh", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMesh(OVRMesh const&) = delete;
+  OVRMesh(OVRMeshconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7928 };
 
+  /// [SerializeField]
   /// @brief Field _dataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRMesh_IOVRMeshDataProvider* ____dataProvider;
 
+  /// [SerializeField]
   /// @brief Field _meshType, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::OVRMesh_MeshType ____meshType;
 
@@ -245,6 +249,7 @@ public:
   /// @brief Field _mesh, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____mesh;
 
+  /// [CompilerGenerated]
   /// @brief Field <IsInitialized>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____IsInitialized_k__BackingField;
 

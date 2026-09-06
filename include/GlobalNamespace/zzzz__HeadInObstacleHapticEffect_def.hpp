@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HeadInObstacleHapticEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/HeadInObstacleHapticEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -170,13 +170,13 @@ protected:
   constexpr HeadInObstacleHapticEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HeadInObstacleHapticEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeadInObstacleHapticEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeadInObstacleHapticEffect(HeadInObstacleHapticEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HeadInObstacleHapticEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HeadInObstacleHapticEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HeadInObstacleHapticEffect(HeadInObstacleHapticEffect const&) = delete;
+  HeadInObstacleHapticEffect(HeadInObstacleHapticEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5783 };
@@ -184,24 +184,31 @@ public:
   /// @brief Field kInvalidTime offset 0xffffffff size 0x4
   static constexpr float_t kInvalidTime{ static_cast<float_t>(-1.0f) };
 
+  /// [SerializeField]
   /// @brief Field _headHapticPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticPresetSO> ____headHapticPreset;
 
+  /// [SerializeField]
   /// @brief Field _minimalHapticDuration, offset: 0x28, size: 0x4, def value: None
   float_t ____minimalHapticDuration;
 
+  /// [Inject]
   /// @brief Field _hapticFeedbackManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::HapticFeedbackManager> ____hapticFeedbackManager;
 
+  /// [Inject]
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
+  /// [Inject]
   /// @brief Field _gamePause, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
+  /// [Inject]
   /// @brief Field _gameplayLevelSceneTransitionEvents, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::GameplayLevelSceneTransitionEvents* ____gameplayLevelSceneTransitionEvents;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 

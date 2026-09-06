@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ScrollViewItemForVisibilityController.hpp"
+// IWYU pragma private; include "HMUI/ScrollViewItemForVisibilityController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class ScrollViewItemForVisibilityController;
 // Write type traits
 MARK_REF_T(::HMUI::ScrollViewItemForVisibilityController*);
 DEFINE_IL2CPP_CLASS(::HMUI::ScrollViewItemForVisibilityController*, "HMUI", "ScrollViewItemForVisibilityController");
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
@@ -37,13 +38,13 @@ protected:
   constexpr ScrollViewItemForVisibilityController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemForVisibilityController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemForVisibilityController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemForVisibilityController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemForVisibilityController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityController const&) = delete;
+  ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19107 };

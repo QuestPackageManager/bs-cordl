@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\MemoryTraceWriter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/MemoryTraceWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,8 @@ class MemoryTraceWriter;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::MemoryTraceWriter*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::MemoryTraceWriter*, "Newtonsoft.Json.Serialization", "MemoryTraceWriter");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Diagnostics.TraceLevel, System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -62,7 +64,7 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method Trace, addr 0x5d597f8, size 0x2dc, virtual true, abstract: false, final true
-  inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
+  inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, /* [Nullable(2)] */ ::System::Exception* ex);
 
   constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
 
@@ -85,12 +87,14 @@ public:
   /// @brief Method .ctor, addr 0x5d59758, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LevelFilter, addr 0x5d59748, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_LevelFilter, addr 0x5d59750, size 0x8, virtual false, abstract: false, final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
@@ -100,13 +104,13 @@ protected:
   constexpr MemoryTraceWriter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryTraceWriter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryTraceWriter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryTraceWriter(MemoryTraceWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryTraceWriter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryTraceWriter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemoryTraceWriter(MemoryTraceWriter const&) = delete;
+  MemoryTraceWriter(MemoryTraceWriterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13529 };
@@ -117,6 +121,7 @@ public:
   /// @brief Field _lock, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____lock;
 
+  /// [CompilerGenerated]
   /// @brief Field <LevelFilter>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::System::Diagnostics::TraceLevel ____LevelFilter_k__BackingField;
 

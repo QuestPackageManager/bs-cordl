@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -151,35 +151,44 @@ protected:
   constexpr MissionDataSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionDataSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionDataSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionDataSO(MissionDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionDataSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionDataSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionDataSO(MissionDataSO const&) = delete;
+  MissionDataSO(MissionDataSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15260 };
 
+  /// [SerializeField]
   /// @brief Field _levelId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____levelId;
 
+  /// [SerializeField]
   /// @brief Field _songName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____songName;
 
+  /// [SerializeField]
   /// @brief Field _beatmapCharacteristic, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapCharacteristic ____beatmapCharacteristic;
 
+  /// [SerializeField]
   /// @brief Field _beatmapDifficulty, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____beatmapDifficulty;
 
+  /// [SerializeField]
   /// @brief Field _missionObjectives, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjective*> ____missionObjectives;
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiers, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
+  /// [Space]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _missionHelp, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionHelpSO> ____missionHelp;
 

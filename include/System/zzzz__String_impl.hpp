@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\String.hpp"
+// IWYU pragma private; include "System/String.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__String_def.hpp"
 #include "System/Buffers/zzzz__SpanAction_2_def.hpp"
@@ -28,7 +28,7 @@
 #include "System/zzzz__String_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::String_TrimType::String_TrimType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -3314,7 +3314,7 @@ inline ::StringW System::String::Concat(::System::Object* arg0, ::System::Object
       (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Concat", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, arg0, arg1, arg2);
 }
-inline ::StringW System::String::Concat(::ArrayW<::System::Object*> args) {
+inline ::StringW System::String::Concat(/* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Concat", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, args);
 }
@@ -3339,7 +3339,7 @@ inline ::StringW System::String::Concat(::StringW str0, ::StringW str1, ::String
                                                            { "Concat", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, str0, str1, str2, str3);
 }
-inline ::StringW System::String::Concat(::ArrayW<::StringW> values) {
+inline ::StringW System::String::Concat(/* [ParamArray] */ ::ArrayW<::StringW> values) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Concat", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, values);
 }
@@ -3361,7 +3361,7 @@ inline ::StringW System::String::Format(::StringW format, ::System::Object* arg0
                           { "Format", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, format, arg0, arg1, arg2);
 }
-inline ::StringW System::String::Format(::StringW format, ::ArrayW<::System::Object*> args) {
+inline ::StringW System::String::Format(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Format", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, format, args);
@@ -3387,7 +3387,7 @@ inline ::StringW System::String::Format(::System::IFormatProvider* provider, ::S
                                                                                         ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, provider, format, arg0, arg1, arg2);
 }
-inline ::StringW System::String::Format(::System::IFormatProvider* provider, ::StringW format, ::ArrayW<::System::Object*> args) {
+inline ::StringW System::String::Format(::System::IFormatProvider* provider, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(),
                                               { "Format", {}, { ::i2c::type_of<::System::IFormatProvider*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -3404,7 +3404,7 @@ inline ::StringW System::String::Insert(int32_t startIndex, ::StringW value) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, startIndex, value);
 }
-inline ::StringW System::String::Join(char16_t separator, ::ArrayW<::StringW> value) {
+inline ::StringW System::String::Join(char16_t separator, /* [ParamArray] */ ::ArrayW<::StringW> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Join", {}, { ::i2c::type_of<char16_t>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, separator, value);
@@ -3422,12 +3422,12 @@ inline ::StringW System::String::Join(char16_t separator, ::ArrayW<::StringW> va
                                               { "Join", {}, { ::i2c::type_of<char16_t>(), ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, separator, value, startIndex, count);
 }
-inline ::StringW System::String::Join(::StringW separator, ::ArrayW<::StringW> value) {
+inline ::StringW System::String::Join(::StringW separator, /* [ParamArray] */ ::ArrayW<::StringW> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Join", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, separator, value);
 }
-inline ::StringW System::String::Join(::StringW separator, ::ArrayW<::System::Object*> values) {
+inline ::StringW System::String::Join(::StringW separator, /* [ParamArray] */ ::ArrayW<::System::Object*> values) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Join", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, separator, values);
@@ -3517,7 +3517,7 @@ inline ::ArrayW<::StringW> System::String::Split(char16_t separator, ::System::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Split", {}, { ::i2c::type_of<char16_t>(), ::i2c::type_of<::System::StringSplitOptions>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(this, ___internal_method, separator, options);
 }
-inline ::ArrayW<::StringW> System::String::Split(::ArrayW<char16_t> separator) {
+inline ::ArrayW<::StringW> System::String::Split(/* [ParamArray] */ ::ArrayW<char16_t> separator) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Split", {}, { ::i2c::type_of<::ArrayW<char16_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(this, ___internal_method, separator);
 }
@@ -3649,7 +3649,7 @@ inline ::StringW System::String::Trim(char16_t trimChar) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Trim", {}, { ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, trimChar);
 }
-inline ::StringW System::String::Trim(::ArrayW<char16_t> trimChars) {
+inline ::StringW System::String::Trim(/* [ParamArray] */ ::ArrayW<char16_t> trimChars) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "Trim", {}, { ::i2c::type_of<::ArrayW<char16_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, trimChars);
 }
@@ -3661,7 +3661,7 @@ inline ::StringW System::String::TrimStart(char16_t trimChar) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "TrimStart", {}, { ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, trimChar);
 }
-inline ::StringW System::String::TrimStart(::ArrayW<char16_t> trimChars) {
+inline ::StringW System::String::TrimStart(/* [ParamArray] */ ::ArrayW<char16_t> trimChars) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "TrimStart", {}, { ::i2c::type_of<::ArrayW<char16_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, trimChars);
 }
@@ -3673,7 +3673,7 @@ inline ::StringW System::String::TrimEnd(char16_t trimChar) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "TrimEnd", {}, { ::i2c::type_of<char16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, trimChar);
 }
-inline ::StringW System::String::TrimEnd(::ArrayW<char16_t> trimChars) {
+inline ::StringW System::String::TrimEnd(/* [ParamArray] */ ::ArrayW<char16_t> trimChars) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::String*>(), { "TrimEnd", {}, { ::i2c::type_of<::ArrayW<char16_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, trimChars);
 }
@@ -4020,12 +4020,15 @@ inline ::System::String* System::String::New_ctor(::ArrayW<char16_t> value) {
 inline ::System::String* System::String::New_ctor(::ArrayW<char16_t> value, int32_t startIndex, int32_t length) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::String*>(value, startIndex, length));
 }
+/// @brief [CLSCompliant(false)]
 inline ::System::String* System::String::New_ctor(char16_t* value, int32_t startIndex, int32_t length) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::String*>(value, startIndex, length));
 }
+/// @brief [CLSCompliant(false)]
 inline ::System::String* System::String::New_ctor(int8_t* value, int32_t startIndex, int32_t length) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::String*>(value, startIndex, length));
 }
+/// @brief [CLSCompliant(false)]
 inline ::System::String* System::String::New_ctor(int8_t* value, int32_t startIndex, int32_t length, ::System::Text::Encoding* enc) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::String*>(value, startIndex, length, enc));
 }

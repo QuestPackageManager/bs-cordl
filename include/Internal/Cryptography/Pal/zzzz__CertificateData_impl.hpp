@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal\Cryptography\Pal\CertificateData.hpp"
+// IWYU pragma private; include "Internal/Cryptography/Pal/CertificateData.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -19,8 +19,8 @@
 #include "System/Security/Cryptography/zzzz__DerSequenceReader_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "AlgorithmId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Parameters", ty: "::ArrayW<uint8_t>", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "AlgorithmId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Parameters", ty: "::ArrayW<uint8_t>", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier::CertificateData_AlgorithmIdentifier(::StringW AlgorithmId, ::ArrayW<uint8_t> Parameters) noexcept {
   this->AlgorithmId = AlgorithmId;
   this->Parameters = Parameters;
@@ -279,6 +279,7 @@ inline ::System::Collections::IEnumerator* Internal::Cryptography::Pal::Certific
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21* Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21*>(__1__state));
 }
@@ -433,17 +434,18 @@ Internal::Cryptography::Pal::CertificateData::ReadReverseRdns(::System::Security
                                                            { "ReadReverseRdns", {}, { ::i2c::type_of<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*>(nullptr, ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "RawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "SubjectPublicKeyInfo", ty: "::ArrayW<uint8_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SerialNumber", ty: "::ArrayW<uint8_t>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "TbsSignature", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "Issuer", ty:
-// "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "NotBefore", ty: "::System::DateTime", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "NotAfter", ty: "::System::DateTime", modifiers: "", def_value: Some("{}") }, CppParam { name: "Subject", ty:
-// "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "PublicKeyAlgorithm", ty:
-// "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "PublicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "IssuerUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "SubjectUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "Extensions", ty: "::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509Extension*>*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "SignatureAlgorithm", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "SignatureValue", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "RawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SubjectPublicKeyInfo", ty: "::ArrayW<uint8_t>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SerialNumber", ty:
+// "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "TbsSignature", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Issuer", ty: "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "NotBefore", ty: "::System::DateTime", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NotAfter", ty: "::System::DateTime", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "Subject", ty: "::System::Security::Cryptography::X509Certificates::X500DistinguishedName*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "PublicKeyAlgorithm", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "PublicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "IssuerUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "SubjectUniqueId", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Extensions", ty:
+// "::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509Extension*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "SignatureAlgorithm", ty: "::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SignatureValue", ty:
+// "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Internal::Cryptography::Pal::CertificateData::CertificateData(::ArrayW<uint8_t> RawData, ::ArrayW<uint8_t> SubjectPublicKeyInfo, int32_t Version, ::ArrayW<uint8_t> SerialNumber,
                                                                           ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier TbsSignature,
                                                                           ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* Issuer, ::System::DateTime NotBefore,

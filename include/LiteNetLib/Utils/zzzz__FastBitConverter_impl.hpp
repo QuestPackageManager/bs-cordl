@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\FastBitConverter.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/FastBitConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__FastBitConverter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__FastBitConverter_def.hpp"
@@ -21,7 +21,8 @@ constexpr double_t const& LiteNetLib::Utils::FastBitConverter_ConverterHelperDou
 constexpr void LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::__cordl_internal_set_Adouble(double_t value) {
   this->___Adouble = value;
 }
-// Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble::FastBitConverter_ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept {
   this->Along = Along;
   this->Adouble = Adouble;
@@ -46,7 +47,8 @@ constexpr float_t const& LiteNetLib::Utils::FastBitConverter_ConverterHelperFloa
 constexpr void LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::__cordl_internal_set_Afloat(float_t value) {
   this->___Afloat = value;
 }
-// Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat::FastBitConverter_ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept {
   this->Aint = Aint;
   this->Afloat = Afloat;

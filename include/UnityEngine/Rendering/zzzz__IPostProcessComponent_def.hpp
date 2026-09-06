@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IPostProcessComponent.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IPostProcessComponent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,15 +18,16 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE IPostProcessComponent {
 public:
   // Declarations
-  /// @brief Method IsActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsActive();
 
+  /// [Obsolete("Unused #from(2023.1)", false)]
   /// @brief Method IsTileCompatible, addr 0x6799a6c, size 0x8, virtual true, abstract: false, final false
   inline bool IsTileCompatible();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPostProcessComponent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPostProcessComponent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPostProcessComponent(IPostProcessComponent const&) = delete;
+  IPostProcessComponent(IPostProcessComponentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12166 };

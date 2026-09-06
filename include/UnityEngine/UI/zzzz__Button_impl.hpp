@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Button.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Button.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
@@ -204,6 +204,7 @@ inline ::System::Object* UnityEngine::UI::Button__OnFinishSubmit_d__9::System_Co
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Button__OnFinishSubmit_d__9*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UI::Button__OnFinishSubmit_d__9* UnityEngine::UI::Button__OnFinishSubmit_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UI::Button__OnFinishSubmit_d__9*>(__1__state));
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\InfoBoxAttribute.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/InfoBoxAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   // @brief default ctor
   constexpr InfoBoxAttribute_Type();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InfoBoxAttribute_Type(int32_t value__) noexcept;
 
   /// @brief Field Error value: I32(3)
@@ -86,6 +86,7 @@ static_assert(offsetof(::BGLib::UnityExtension::InfoBoxAttribute_Type, value__) 
 static_assert(sizeof(::BGLib::UnityExtension::InfoBoxAttribute_Type) == 0x4, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
+// [AttributeUsage((System.AttributeTargets)384, AllowMultiple = true)]
 // Dependencies BGLib.UnityExtension.InfoBoxAttribute::Type, UnityEngine.PropertyAttribute
 namespace BGLib::UnityExtension {
 // Is value type: false
@@ -124,13 +125,13 @@ protected:
   constexpr InfoBoxAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InfoBoxAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InfoBoxAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InfoBoxAttribute(InfoBoxAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InfoBoxAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InfoBoxAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InfoBoxAttribute(InfoBoxAttribute const&) = delete;
+  InfoBoxAttribute(InfoBoxAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20795 };

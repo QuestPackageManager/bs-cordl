@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXBinderBase.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXBinderBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXPropertyBinder_def.hpp"

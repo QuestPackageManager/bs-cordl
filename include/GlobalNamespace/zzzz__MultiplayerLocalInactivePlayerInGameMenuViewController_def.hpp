@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalInactivePlayerInGameMenuViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalInactivePlayerInGameMenuViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,7 @@ class MultiplayerLocalInactivePlayerInGameMenuViewController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController*, "", "MultiplayerLocalInactivePlayerInGameMenuViewController");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerLocalInactivePlayerInGameMenuViewController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -141,12 +142,15 @@ public:
   /// @brief Method Start, addr 0x59b1cdc, size 0x188, virtual false, abstract: false, final false
   inline void Start();
 
+  /// [CompilerGenerated]
   /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__22_0, addr 0x59b23ec, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleDisconnectPromptViewDidViewFinish_b__22_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <HandleStateChanged>b__23_0, addr 0x59b2408, size 0x18, virtual false, abstract: false, final false
   inline void _HandleStateChanged_b__23_0(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <HandleStateChanged>b__23_1, addr 0x59b2420, size 0x24, virtual false, abstract: false, final false
   inline void _HandleStateChanged_b__23_1();
 
@@ -255,53 +259,70 @@ protected:
   constexpr MultiplayerLocalInactivePlayerInGameMenuViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInGameMenuViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInGameMenuViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalInactivePlayerInGameMenuViewController(MultiplayerLocalInactivePlayerInGameMenuViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInGameMenuViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInGameMenuViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalInactivePlayerInGameMenuViewController(MultiplayerLocalInactivePlayerInGameMenuViewController const&) = delete;
+  MultiplayerLocalInactivePlayerInGameMenuViewController(MultiplayerLocalInactivePlayerInGameMenuViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6029 };
 
+  /// [SerializeField]
   /// @brief Field _disconnectButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____disconnectButton;
 
+  /// [SerializeField]
   /// @brief Field _disconnectButtonLocalizedText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI> ____disconnectButtonLocalizedText;
 
+  /// [SerializeField]
   /// @brief Field _detailsToggle, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____detailsToggle;
 
+  /// [SerializeField]
   /// @brief Field _globalCanvasGroup, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____globalCanvasGroup;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _mainBar, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____mainBar;
 
+  /// [SerializeField]
   /// @brief Field _disconnectPromptView, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DisconnectPromptView> ____disconnectPromptView;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _levelBar, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _dontOwnSongGameObject, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____dontOwnSongGameObject;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _detailsGameObject, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____detailsGameObject;
 
+  /// [Inject]
   /// @brief Field _localPlayerInGameMenuInitData, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::LocalPlayerInGameMenuInitData* ____localPlayerInGameMenuInitData;
 
+  /// [Inject]
   /// @brief Field _disconnectHelper, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* ____disconnectHelper;
 
+  /// [Inject]
   /// @brief Field _multiplayerController, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

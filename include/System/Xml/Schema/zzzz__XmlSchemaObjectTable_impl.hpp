@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaObjectTable.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaObjectTable.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectTable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectTable_def.hpp"
@@ -15,7 +15,7 @@
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType::XmlSchemaObjectTable_EnumeratorType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -45,8 +45,8 @@ inline void System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry::_cto
                                                            { ".ctor", {}, { ::i2c::type_of<::System::Xml::XmlQualifiedName*>(), ::i2c::type_of<::System::Xml::Schema::XmlSchemaObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, name, value);
 }
-// Ctor Parameters [CppParam { name: "qname", ty: "::System::Xml::XmlQualifiedName*", modifiers: "", def_value: Some("{}") }, CppParam { name: "xso", ty: "::System::Xml::Schema::XmlSchemaObject*",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "qname", ty: "::System::Xml::XmlQualifiedName*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "xso", ty:
+// "::System::Xml::Schema::XmlSchemaObject*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry::XmlSchemaObjectTable_XmlSchemaObjectEntry(::System::Xml::XmlQualifiedName* qname,
                                                                                                                       ::System::Xml::Schema::XmlSchemaObject* xso) noexcept {
   this->qname = qname;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\EventInterestAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/EventInterestAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class EventInterestAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::EventInterestAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::EventInterestAttribute*, "UnityEngine.UIElements", "EventInterestAttribute");
+// [AttributeUsage((System.AttributeTargets)64, AllowMultiple = true)]
 // Dependencies System.Attribute, System.Type, UnityEngine.UIElements.EventCategoryFlags
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -37,7 +38,7 @@ public:
   /// @brief Field eventTypes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_eventTypes, put = __cordl_internal_set_eventTypes)) ::ArrayW<::System::Type*> eventTypes;
 
-  static inline ::UnityEngine::UIElements::EventInterestAttribute* New_ctor(::ArrayW<::System::Type*> eventTypes);
+  static inline ::UnityEngine::UIElements::EventInterestAttribute* New_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> eventTypes);
 
   static inline ::UnityEngine::UIElements::EventInterestAttribute* New_ctor(::UnityEngine::UIElements::EventInterestOptions interests);
 
@@ -56,7 +57,7 @@ public:
   constexpr void __cordl_internal_set_eventTypes(::ArrayW<::System::Type*> value);
 
   /// @brief Method .ctor, addr 0x6ccaf1c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::Type*> eventTypes);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> eventTypes);
 
   /// @brief Method .ctor, addr 0x6ccaf28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventInterestOptions interests);
@@ -70,13 +71,13 @@ protected:
   constexpr EventInterestAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventInterestAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventInterestAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventInterestAttribute(EventInterestAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventInterestAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventInterestAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventInterestAttribute(EventInterestAttribute const&) = delete;
+  EventInterestAttribute(EventInterestAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5237 };

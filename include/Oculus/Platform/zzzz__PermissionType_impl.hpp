@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\PermissionType.hpp"
+// IWYU pragma private; include "Oculus/Platform/PermissionType.hpp"
 #include "Oculus/Platform/zzzz__PermissionType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Oculus::Platform::PermissionType::PermissionType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\IXmlElement.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/IXmlElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class IXmlElement;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::IXmlElement*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::IXmlElement*, "Newtonsoft.Json.Converters", "IXmlElement");
+// [NullableContext(1)]
 // Dependencies
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -27,21 +28,21 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method GetPrefixOfNamespace, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
-  /// @brief Method SetAttributeNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetAttributeNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
-  /// @brief Method get_IsEmpty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsEmpty();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IXmlElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IXmlElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IXmlElement(IXmlElement const&) = delete;
+  IXmlElement(IXmlElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13677 };

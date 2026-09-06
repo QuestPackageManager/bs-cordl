@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneVolumeMeshFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneVolumeMeshFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,8 +110,8 @@ public:
   // @brief default ctor
   constexpr OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob();
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Results", ty: "::Unity::Collections::NativeArray_1<int32_t>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "Results", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<int32_t> Results) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -123,6 +123,7 @@ public:
   /// @brief Field Space, offset: 0x0, size: 0x8, def value: None
   ::GlobalNamespace::OVRSpace Space;
 
+  /// [WriteOnly]
   /// @brief Field Results, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Results;
 
@@ -156,9 +157,9 @@ public:
   // @brief default ctor
   constexpr OVRSceneVolumeMeshFilter_GetTriangleMeshJob();
 
-  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None }, CppParam { name: "Vertices", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "Space", ty: "::GlobalNamespace::OVRSpace", modifiers: "", def_value: None, comment: None }, CppParam { name: "Vertices", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Triangles", ty: "::Unity::Collections::NativeArray_1<int32_t>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr OVRSceneVolumeMeshFilter_GetTriangleMeshJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices,
                                                         ::Unity::Collections::NativeArray_1<int32_t> Triangles) noexcept;
 
@@ -171,9 +172,11 @@ public:
   /// @brief Field Space, offset: 0x0, size: 0x8, def value: None
   ::GlobalNamespace::OVRSpace Space;
 
+  /// [WriteOnly]
   /// @brief Field Vertices, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices;
 
+  /// [WriteOnly]
   /// @brief Field Triangles, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Triangles;
 
@@ -209,8 +212,9 @@ public:
   // @brief default ctor
   constexpr OVRSceneVolumeMeshFilter_PopulateMeshDataJob();
 
-  // Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None }, CppParam { name: "Triangles", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "MeshData", ty: "::UnityEngine::Mesh_MeshData", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Vertices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>", modifiers: "", def_value: None, comment: None }, CppParam { name: "Triangles", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "MeshData", ty: "::UnityEngine::Mesh_MeshData", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr OVRSceneVolumeMeshFilter_PopulateMeshDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices, ::Unity::Collections::NativeArray_1<int32_t> Triangles,
                                                          ::UnityEngine::Mesh_MeshData MeshData) noexcept;
 
@@ -220,12 +224,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
+  /// [ReadOnly]
   /// @brief Field Vertices, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Vertices;
 
+  /// [ReadOnly]
   /// @brief Field Triangles, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Triangles;
 
+  /// [WriteOnly]
   /// @brief Field MeshData, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Mesh_MeshData MeshData;
 
@@ -261,7 +268,7 @@ public:
   // @brief default ctor
   constexpr OVRSceneVolumeMeshFilter_BakeMeshJob();
 
-  // Ctor Parameters [CppParam { name: "MeshID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Convex", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "MeshID", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Convex", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSceneVolumeMeshFilter_BakeMeshJob(int32_t MeshID, bool Convex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -286,6 +293,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob, 
 static_assert(sizeof(::GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob) == 0x8, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle, UnityEngine.Mesh::MeshDataArray
 namespace GlobalNamespace {
 // Is value type: false
@@ -336,17 +344,22 @@ public:
   /// @brief Method MoveNext, addr 0x5ed06b4, size 0x58c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ed0c94, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ed0c9c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ed0cd4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5ed0698, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -407,6 +420,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x5ed0c40, size 0x54, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5ed0240, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -425,13 +439,13 @@ protected:
   constexpr OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7(OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7(OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7 const&) = delete;
+  OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7(OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7699 };
@@ -487,6 +501,10 @@ static_assert(offsetof(::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolume
 static_assert(sizeof(::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7) == 0x78, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-scene-use-scene-anchors/#further-scene-model-unity-components")]
+// [RequireComponent(typeof(UnityEngine.MeshFilter))]
+// [Obsolete("OVRSceneManager and associated classes are deprecated (v65), please use MR Utility Kit instead (https://developer.oculus.com/documentation/unity/unity-mr-utility-kit-overview)")]
+// [Feature((Meta.XR.Util.Feature)7)]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -515,6 +533,7 @@ public:
   /// @brief Field _meshFilter, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
+  /// [IteratorStateMachine(typeof(OVRSceneVolumeMeshFilter::<CreateVolumeMesh>d__7))]
   /// @brief Method CreateVolumeMesh, addr 0x5ed01ec, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CreateVolumeMesh();
 
@@ -547,9 +566,11 @@ public:
   /// @brief Method .ctor, addr 0x5ed02cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsCompleted, addr 0x5ed0108, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsCompleted, addr 0x5ed0110, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
@@ -559,17 +580,18 @@ protected:
   constexpr OVRSceneVolumeMeshFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolumeMeshFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolumeMeshFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSceneVolumeMeshFilter(OVRSceneVolumeMeshFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolumeMeshFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneVolumeMeshFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRSceneVolumeMeshFilter(OVRSceneVolumeMeshFilter const&) = delete;
+  OVRSceneVolumeMeshFilter(OVRSceneVolumeMeshFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7700 };
 
+  /// [CompilerGenerated]
   /// @brief Field <IsCompleted>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsCompleted_k__BackingField;
 

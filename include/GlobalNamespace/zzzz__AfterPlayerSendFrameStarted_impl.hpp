@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AfterPlayerSendFrameStarted.hpp"
+// IWYU pragma private; include "GlobalNamespace/AfterPlayerSendFrameStarted.hpp"
 #include "GlobalNamespace/zzzz__UnityPlayerLoopMarker_1_impl.hpp"
 #include "GlobalNamespace/zzzz__AfterPlayerSendFrameStarted_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AfterPlayerSendFrameStarted._ctor

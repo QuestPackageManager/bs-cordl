@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerVector4.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerVector4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,36 +94,47 @@ public:
   /// @brief Method SetupSettings, addr 0x6809450, size 0x108, virtual false, abstract: false, final false
   inline void SetupSettings(::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField* field);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__8_0, addr 0x6809868, size 0x54, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__8_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__8_1, addr 0x68098bc, size 0x14, virtual false, abstract: false, final false
   inline void _SetWidget_b__8_1(float_t x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__8_2, addr 0x68098d0, size 0x5c, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__8_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__8_3, addr 0x680992c, size 0x14, virtual false, abstract: false, final false
   inline void _SetWidget_b__8_3(float_t x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__8_4, addr 0x6809940, size 0x5c, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__8_4();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__8_5, addr 0x680999c, size 0x14, virtual false, abstract: false, final false
   inline void _SetWidget_b__8_5(float_t x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__8_6, addr 0x68099b0, size 0x5c, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__8_6();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__8_7, addr 0x6809a0c, size 0x14, virtual false, abstract: false, final false
   inline void _SetWidget_b__8_7(float_t x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetupSettings>b__10_0, addr 0x6809a20, size 0x18, virtual false, abstract: false, final false
   inline float_t _SetupSettings_b__10_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetupSettings>b__10_1, addr 0x6809a38, size 0x18, virtual false, abstract: false, final false
   inline float_t _SetupSettings_b__10_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetupSettings>b__10_2, addr 0x6809a50, size 0x1c, virtual false, abstract: false, final false
   inline float_t _SetupSettings_b__10_2();
 
@@ -184,13 +195,13 @@ protected:
   constexpr DebugUIHandlerVector4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVector4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVector4", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerVector4(DebugUIHandlerVector4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVector4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVector4", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerVector4(DebugUIHandlerVector4 const&) = delete;
+  DebugUIHandlerVector4(DebugUIHandlerVector4const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12546 };

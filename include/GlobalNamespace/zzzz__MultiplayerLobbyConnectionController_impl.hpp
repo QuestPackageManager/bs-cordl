@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyConnectionController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyConnectionController.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyConnectionController_def.hpp"
@@ -15,7 +15,7 @@
 #include "GlobalNamespace/zzzz__UnifiedNetworkPlayerModel_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState::MultiplayerLobbyConnectionController_LobbyConnectionState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -29,7 +29,7 @@ constexpr ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectio
 constexpr ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState::ConnectionFailed{
   static_cast<int32_t>(0x3)
 };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType::MultiplayerLobbyConnectionController_LobbyConnectionType(int32_t value__) noexcept {
   this->value__ = value__;
 }

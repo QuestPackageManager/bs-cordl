@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderersBatchersContextDesc.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderersBatchersContextDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,9 +28,10 @@ public:
   // @brief default ctor
   constexpr RenderersBatchersContextDesc();
 
-  // Ctor Parameters [CppParam { name: "instanceNumInfo", ty: "::UnityEngine::Rendering::InstanceNumInfo", modifiers: "", def_value: None }, CppParam { name: "supportDitheringCrossFade", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "enableBoundingSpheresInstanceData", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smallMeshScreenPercentage", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "enableCullerDebugStats", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "instanceNumInfo", ty: "::UnityEngine::Rendering::InstanceNumInfo", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "supportDitheringCrossFade", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "enableBoundingSpheresInstanceData", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "smallMeshScreenPercentage", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "enableCullerDebugStats", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr RenderersBatchersContextDesc(::UnityEngine::Rendering::InstanceNumInfo instanceNumInfo, bool supportDitheringCrossFade, bool enableBoundingSpheresInstanceData,
                                          float_t smallMeshScreenPercentage, bool enableCullerDebugStats) noexcept;
 

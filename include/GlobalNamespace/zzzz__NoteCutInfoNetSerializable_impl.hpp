@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteCutInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteCutInfoNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__ColorType_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_impl.hpp"
@@ -308,9 +308,10 @@ inline void GlobalNamespace::NoteCutInfoNetSerializable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutInfoNetSerializable*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutInfoNetSerializable::Init(::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData,
-                                                                                                        ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation,
-                                                                                                        ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec) {
+inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutInfoNetSerializable::Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo,
+                                                                                                        ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition,
+                                                                                                        ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
+                                                                                                        ::UnityEngine::Vector3 moveVec) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutInfoNetSerializable*>(),
                                               { "Init",
@@ -336,6 +337,7 @@ GlobalNamespace::NoteCutInfoNetSerializable::Init(float_t saberSpeed, bool cutWa
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteCutInfoNetSerializable*>(this, ___internal_method, saberSpeed, cutWasOk, saberDir, cutPoint, cutNormal, gameplayType, colorType,
                                                                                              lineLayer, noteLineIndex, noteTime, timeToNextColorNote, notePosition, noteRotation, noteScale, moveVec);
 }
+/// @brief [Preserve]
 inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutInfoNetSerializable::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::NoteCutInfoNetSerializable*>());
 }

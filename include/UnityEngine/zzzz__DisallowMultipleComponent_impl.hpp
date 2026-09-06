@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\DisallowMultipleComponent.hpp"
+// IWYU pragma private; include "UnityEngine/DisallowMultipleComponent.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__DisallowMultipleComponent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::DisallowMultipleComponent._ctor

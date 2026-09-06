@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BatchDrawRange.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BatchDrawRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,9 +26,9 @@ public:
   // @brief default ctor
   constexpr BatchDrawRange();
 
-  // Ctor Parameters [CppParam { name: "drawCommandsType", ty: "::UnityEngine::Rendering::BatchDrawCommandType", modifiers: "", def_value: None }, CppParam { name: "drawCommandsBegin", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "drawCommandsCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "filterSettings", ty:
-  // "::UnityEngine::Rendering::BatchFilterSettings", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "drawCommandsType", ty: "::UnityEngine::Rendering::BatchDrawCommandType", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCommandsBegin",
+  // ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "drawCommandsCount", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "filterSettings", ty: "::UnityEngine::Rendering::BatchFilterSettings", modifiers: "", def_value: None, comment: None }]
   constexpr BatchDrawRange(::UnityEngine::Rendering::BatchDrawCommandType drawCommandsType, uint32_t drawCommandsBegin, uint32_t drawCommandsCount,
                            ::UnityEngine::Rendering::BatchFilterSettings filterSettings) noexcept;
 

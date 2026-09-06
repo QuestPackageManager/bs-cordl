@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVRSimpleJSON\JSONArray.hpp"
+// IWYU pragma private; include "OVRSimpleJSON/JSONArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ MARK_REF_T(::OVRSimpleJSON::JSONArray*);
 MARK_REF_T(::OVRSimpleJSON::JSONArray__get_Children_d__24*);
 DEFINE_IL2CPP_CLASS(::OVRSimpleJSON::JSONArray*, "OVRSimpleJSON", "JSONArray");
 DEFINE_IL2CPP_CLASS(::OVRSimpleJSON::JSONArray__get_Children_d__24*, "OVRSimpleJSON", "JSONArray/<get_Children>d__24");
+// [CompilerGenerated]
 // Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace OVRSimpleJSON {
 // Is value type: false
@@ -105,23 +106,30 @@ public:
   /// @brief Method MoveNext, addr 0x5e28270, size 0x1a8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::OVRSimpleJSON::JSONArray__get_Children_d__24* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator, addr 0x5e284a8, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>* System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current, addr 0x5e28460, size 0x8, virtual true, abstract: false, final true
   inline ::OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5e28540, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e28468, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e284a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5e28214, size 0x5c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -158,6 +166,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x5e28418, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5e2807c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -182,13 +191,13 @@ protected:
   constexpr JSONArray__get_Children_d__24();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JSONArray__get_Children_d__24", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JSONArray__get_Children_d__24", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JSONArray__get_Children_d__24(JSONArray__get_Children_d__24&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JSONArray__get_Children_d__24", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JSONArray__get_Children_d__24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONArray__get_Children_d__24(JSONArray__get_Children_d__24 const&) = delete;
+  JSONArray__get_Children_d__24(JSONArray__get_Children_d__24const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8023 };
@@ -224,6 +233,7 @@ static_assert(offsetof(::OVRSimpleJSON::JSONArray__get_Children_d__24, _____7__w
 static_assert(sizeof(::OVRSimpleJSON::JSONArray__get_Children_d__24) == 0x48, "Size mismatch!");
 
 } // namespace OVRSimpleJSON
+// [DefaultMember("Item")]
 // Dependencies OVRSimpleJSON.JSONNode
 namespace OVRSimpleJSON {
 // Is value type: false
@@ -291,6 +301,7 @@ public:
   /// @brief Method .ctor, addr 0x5e27f68, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [IteratorStateMachine(typeof(OVRSimpleJSON.JSONArray::<get_Children>d__24))]
   /// @brief Method get_Children, addr 0x5e2800c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>* get_Children();
 
@@ -327,13 +338,13 @@ protected:
   constexpr JSONArray();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JSONArray", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JSONArray", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JSONArray(JSONArray&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JSONArray", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JSONArray", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONArray(JSONArray const&) = delete;
+  JSONArray(JSONArrayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8024 };

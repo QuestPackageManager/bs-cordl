@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\Watch_1.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/Watch_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,13 +86,13 @@ protected:
   constexpr Watch_1_ToDisplayStringSignature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Watch_1_ToDisplayStringSignature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Watch_1_ToDisplayStringSignature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Watch_1_ToDisplayStringSignature(Watch_1_ToDisplayStringSignature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Watch_1_ToDisplayStringSignature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Watch_1_ToDisplayStringSignature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Watch_1_ToDisplayStringSignature(Watch_1_ToDisplayStringSignature const&) = delete;
+  Watch_1_ToDisplayStringSignature(Watch_1_ToDisplayStringSignatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18448 };
@@ -101,6 +101,7 @@ public:
 };
 // Non member Declarations
 } // namespace Meta::XR::ImmersiveDebugger::Manager
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Manager {
 // cpp template
@@ -142,13 +143,13 @@ protected:
   constexpr Watch_1___c__DisplayClass20_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Watch_1___c__DisplayClass20_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Watch_1___c__DisplayClass20_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Watch_1___c__DisplayClass20_0(Watch_1___c__DisplayClass20_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Watch_1___c__DisplayClass20_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Watch_1___c__DisplayClass20_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Watch_1___c__DisplayClass20_0(Watch_1___c__DisplayClass20_0 const&) = delete;
+  Watch_1___c__DisplayClass20_0(Watch_1___c__DisplayClass20_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18449 };
@@ -223,12 +224,14 @@ public:
 
   static inline ::ArrayW<::StringW> getStaticF__buffer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_NumberOfDisplayStrings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t get_NumberOfDisplayStrings();
 
   /// @brief Method get_NumberOfValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_NumberOfValues();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ToDisplayStringsDelegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Meta::XR::ImmersiveDebugger::Manager::Watch_1_ToDisplayStringSignature<T>* get_ToDisplayStringsDelegate();
 
@@ -244,9 +247,11 @@ public:
 
   static inline void setStaticF__buffer(::ArrayW<::StringW> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_NumberOfDisplayStrings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void set_NumberOfDisplayStrings(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ToDisplayStringsDelegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void set_ToDisplayStringsDelegate(::Meta::XR::ImmersiveDebugger::Manager::Watch_1_ToDisplayStringSignature<T>* value);
 
@@ -256,13 +261,13 @@ protected:
   constexpr Watch_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Watch_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Watch_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Watch_1(Watch_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Watch_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Watch_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Watch_1(Watch_1 const&) = delete;
+  Watch_1(Watch_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18450 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Playables\INotificationReceiver.hpp"
+// IWYU pragma private; include "UnityEngine/Playables/INotificationReceiver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class INotificationReceiver;
 // Write type traits
 MARK_REF_T(::UnityEngine::Playables::INotificationReceiver*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Playables::INotificationReceiver*, "UnityEngine.Playables", "INotificationReceiver");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::Playables {
 // Is value type: false
@@ -27,12 +28,13 @@ namespace UnityEngine::Playables {
 class CORDL_TYPE INotificationReceiver {
 public:
   // Declarations
-  /// @brief Method OnNotify, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [RequiredByNativeCode]
+  /// @brief Method OnNotify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
-  // Ctor Parameters [CppParam { name: "", ty: "INotificationReceiver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INotificationReceiver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INotificationReceiver(INotificationReceiver const&) = delete;
+  INotificationReceiver(INotificationReceiverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10666 };

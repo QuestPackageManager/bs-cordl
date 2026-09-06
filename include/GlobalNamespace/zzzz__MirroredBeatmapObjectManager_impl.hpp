@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MirroredBeatmapObjectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MirroredBeatmapObjectManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredBeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
@@ -355,9 +355,9 @@ constexpr void GlobalNamespace::MirroredBeatmapObjectManager::__cordl_internal_s
   this->____sliderControllersToMirroredSliderControllers = value;
 }
 inline void GlobalNamespace::MirroredBeatmapObjectManager::Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager,
-                                                                ::GlobalNamespace::MirroredGameNoteController_Pool* mirroredBasicGameNotePool,
-                                                                ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderHeadGameNotePool,
-                                                                ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderGameNotePool,
+                                                                /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::MirroredGameNoteController_Pool* mirroredBasicGameNotePool,
+                                                                /* [Inject(Id = (NoteData::GameplayType)2)] */ ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderHeadGameNotePool,
+                                                                /* [Inject(Id = (NoteData::GameplayType)3)] */ ::GlobalNamespace::MirroredGameNoteController_Pool* burstSliderGameNotePool,
                                                                 ::GlobalNamespace::MirroredBombNoteController_Pool* mirroredBombNotePool,
                                                                 ::GlobalNamespace::MirroredObstacleController_Pool* mirroredObstaclePool,
                                                                 ::GlobalNamespace::MirroredSliderController_Pool* mirroredSlidersPool) {

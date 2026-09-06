@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Face.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Face.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class Face;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Face*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");
+// [DefaultMember("Item")]
 // Dependencies System.Object, UnityEngine.ProBuilder.AutoUnwrapSettings, UnityEngine.ProBuilder.Edge
 namespace UnityEngine::ProBuilder {
 // Is value type: false
@@ -88,6 +89,7 @@ public:
 
   __declspec(property(get = get_manualUV, put = set_manualUV)) bool manualUV;
 
+  /// @brief [Obsolete("Face.material is deprecated. Please use submeshIndex instead.")]
   __declspec(property(get = get_material, put = set_material)) ::UnityW<::UnityEngine::Material> material;
 
   __declspec(property(get = get_smoothingGroup, put = set_smoothingGroup)) int32_t smoothingGroup;
@@ -128,6 +130,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Face* New_ctor(::UnityEngine::ProBuilder::Face* other);
 
+  /// @brief [Obsolete("Face.material is deprecated. Please use \"submeshIndex\" instead.")]
   static inline ::UnityEngine::ProBuilder::Face* New_ctor(::ArrayW<int32_t> triangles, ::UnityEngine::Material* m, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture,
                                                           int32_t element, bool manualUVs);
 
@@ -227,6 +230,7 @@ public:
   /// @brief Method .ctor, addr 0x66bcf70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Face* other);
 
+  /// [Obsolete("Face.material is deprecated. Please use \"submeshIndex\" instead.")]
   /// @brief Method .ctor, addr 0x66bce5c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t> triangles, ::UnityEngine::Material* m, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs);
 
@@ -300,38 +304,51 @@ protected:
   constexpr Face();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Face", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Face", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Face(Face&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Face", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Face", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Face(Face const&) = delete;
+  Face(Faceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16735 };
 
+  /// [FormerlySerializedAs("_indices")]
+  /// [SerializeField]
   /// @brief Field m_Indexes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_Indexes;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_smoothingGroup")]
   /// @brief Field m_SmoothingGroup, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_SmoothingGroup;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_uv")]
   /// @brief Field m_Uv, offset: 0x1c, size: 0x20, def value: None
   ::UnityEngine::ProBuilder::AutoUnwrapSettings ___m_Uv;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("_mat")]
   /// @brief Field m_Material, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_Material;
 
+  /// [SerializeField]
   /// @brief Field m_SubmeshIndex, offset: 0x48, size: 0x4, def value: None
   int32_t ___m_SubmeshIndex;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("manualUV")]
   /// @brief Field m_ManualUV, offset: 0x4c, size: 0x1, def value: None
   bool ___m_ManualUV;
 
+  /// [SerializeField]
   /// @brief Field elementGroup, offset: 0x50, size: 0x4, def value: None
   int32_t ___elementGroup;
 
+  /// [SerializeField]
   /// @brief Field m_TextureGroup, offset: 0x54, size: 0x4, def value: None
   int32_t ___m_TextureGroup;
 

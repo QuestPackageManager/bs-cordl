@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\UnsafeQueueBlockPoolData.hpp"
+// IWYU pragma private; include "Unity/Collections/UnsafeQueueBlockPoolData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ struct UnsafeQueueBlockPoolData;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::UnsafeQueueBlockPoolData);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::UnsafeQueueBlockPoolData, "Unity.Collections", "UnsafeQueueBlockPoolData");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies System.IntPtr
 namespace Unity::Collections {
 // Is value type: true
@@ -34,8 +35,9 @@ public:
   // @brief default ctor
   constexpr UnsafeQueueBlockPoolData();
 
-  // Ctor Parameters [CppParam { name: "m_FirstBlock", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_NumBlocks", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_MaxBlocks", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_AllocLock", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_FirstBlock", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_NumBlocks", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_MaxBlocks", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_AllocLock", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr UnsafeQueueBlockPoolData(::System::IntPtr m_FirstBlock, int32_t m_NumBlocks, int32_t m_MaxBlocks, int32_t m_AllocLock) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

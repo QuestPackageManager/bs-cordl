@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animator.hpp"
+// IWYU pragma private; include "UnityEngine/Animator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
+#include "UnityEngine/zzzz__StateMachineBehaviour_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -94,7 +95,11 @@ class Animator;
 // Write type traits
 MARK_REF_T(::UnityEngine::Animator*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animator*, "UnityEngine", "Animator");
-// Dependencies UnityEngine.Behaviour
+// [UsedByNativeCode]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimatorControllerParameter.bindings.h")]
+// [NativeHeader("Modules/Animation/Animator.h")]
+// [NativeHeader("Modules/Animation/ScriptBindings/Animator.bindings.h")]
+// Dependencies UnityEngine.Behaviour, UnityEngine.StateMachineBehaviour
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.Animator
@@ -151,6 +156,7 @@ public:
 
   __declspec(property(get = get_isRootPositionOrRotationControlledByCurves)) bool isRootPositionOrRotationControlledByCurves;
 
+  /// @brief [Obsolete("keepAnimatorControllerStateOnDisable is deprecated, use keepAnimatorStateOnDisable instead. (UnityUpgradable) -> keepAnimatorStateOnDisable", false)]
   __declspec(property(get = get_keepAnimatorControllerStateOnDisable, put = set_keepAnimatorControllerStateOnDisable)) bool keepAnimatorControllerStateOnDisable;
 
   __declspec(property(get = get_keepAnimatorStateOnDisable, put = set_keepAnimatorStateOnDisable)) bool keepAnimatorStateOnDisable;
@@ -161,6 +167,7 @@ public:
 
   __declspec(property(get = get_leftFeetBottomHeight)) float_t leftFeetBottomHeight;
 
+  /// @brief [Obsolete("Animator.linearVelocityBlending is no longer used and has been deprecated.")]
   __declspec(property(get = get_linearVelocityBlending, put = set_linearVelocityBlending)) bool linearVelocityBlending;
 
   __declspec(property(get = get_logWarnings, put = set_logWarnings)) bool logWarnings;
@@ -195,6 +202,7 @@ public:
 
   __declspec(property(get = get_stabilizeFeet, put = set_stabilizeFeet)) bool stabilizeFeet;
 
+  /// @brief [NativeConditional("UNITY_EDITOR")]
   __declspec(property(get = get_supportsOnAnimatorMove)) bool supportsOnAnimatorMove;
 
   __declspec(property(get = get_targetPosition)) ::UnityEngine::Vector3 targetPosition;
@@ -223,7 +231,9 @@ public:
   static inline void ClearInternalControllerPlayable_Injected(::System::IntPtr _unity_self);
 
   /// @brief Method ConvertStateMachineBehaviour, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T> ConvertStateMachineBehaviour(::ArrayW<::UnityEngine::ScriptableObject*> rawObjects);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::StateMachineBehaviour*>)
+  static inline ::ArrayW<T> ConvertStateMachineBehaviour(::ArrayW<::UnityEngine::ScriptableObject*> rawObjects);
 
   /// @brief Method CrossFade, addr 0x6a41d80, size 0x14, virtual false, abstract: false, final false
   inline void CrossFade(int32_t stateHashName, float_t normalizedTransitionDuration);
@@ -234,8 +244,10 @@ public:
   /// @brief Method CrossFade, addr 0x6a41d68, size 0x8, virtual false, abstract: false, final false
   inline void CrossFade(int32_t stateHashName, float_t normalizedTransitionDuration, int32_t layer, float_t normalizedTimeOffset);
 
+  /// [FreeFunction(Name = "AnimatorBindings::CrossFade", HasExplicitThis = true)]
   /// @brief Method CrossFade, addr 0x6a41c2c, size 0xc0, virtual false, abstract: false, final false
-  inline void CrossFade(int32_t stateHashName, float_t normalizedTransitionDuration, int32_t layer, float_t normalizedTimeOffset, float_t normalizedTransitionTime);
+  inline void CrossFade(int32_t stateHashName, float_t normalizedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("0.0f")] */ float_t normalizedTimeOffset,
+                        /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime);
 
   /// @brief Method CrossFade, addr 0x6a41bec, size 0x40, virtual false, abstract: false, final false
   inline void CrossFade(::StringW stateName, float_t normalizedTransitionDuration);
@@ -247,7 +259,8 @@ public:
   inline void CrossFade(::StringW stateName, float_t normalizedTransitionDuration, int32_t layer, float_t normalizedTimeOffset);
 
   /// @brief Method CrossFade, addr 0x6a41b48, size 0x58, virtual false, abstract: false, final false
-  inline void CrossFade(::StringW stateName, float_t normalizedTransitionDuration, int32_t layer, float_t normalizedTimeOffset, float_t normalizedTransitionTime);
+  inline void CrossFade(::StringW stateName, float_t normalizedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer,
+                        /* [DefaultValue("float.NegativeInfinity")] */ float_t normalizedTimeOffset, /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime);
 
   /// @brief Method CrossFadeInFixedTime, addr 0x6a419b4, size 0x10, virtual false, abstract: false, final false
   inline void CrossFadeInFixedTime(int32_t stateHashName, float_t fixedTransitionDuration);
@@ -258,8 +271,10 @@ public:
   /// @brief Method CrossFadeInFixedTime, addr 0x6a419a0, size 0x8, virtual false, abstract: false, final false
   inline void CrossFadeInFixedTime(int32_t stateHashName, float_t fixedTransitionDuration, int32_t layer, float_t fixedTimeOffset);
 
+  /// [FreeFunction(Name = "AnimatorBindings::CrossFadeInFixedTime", HasExplicitThis = true)]
   /// @brief Method CrossFadeInFixedTime, addr 0x6a417f4, size 0xc0, virtual false, abstract: false, final false
-  inline void CrossFadeInFixedTime(int32_t stateHashName, float_t fixedTransitionDuration, int32_t layer, float_t fixedTimeOffset, float_t normalizedTransitionTime);
+  inline void CrossFadeInFixedTime(int32_t stateHashName, float_t fixedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("0.0f")] */ float_t fixedTimeOffset,
+                                   /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime);
 
   /// @brief Method CrossFadeInFixedTime, addr 0x6a4168c, size 0x3c, virtual false, abstract: false, final false
   inline void CrossFadeInFixedTime(::StringW stateName, float_t fixedTransitionDuration);
@@ -271,16 +286,18 @@ public:
   inline void CrossFadeInFixedTime(::StringW stateName, float_t fixedTransitionDuration, int32_t layer, float_t fixedTimeOffset);
 
   /// @brief Method CrossFadeInFixedTime, addr 0x6a41948, size 0x58, virtual false, abstract: false, final false
-  inline void CrossFadeInFixedTime(::StringW stateName, float_t fixedTransitionDuration, int32_t layer, float_t fixedTimeOffset, float_t normalizedTransitionTime);
+  inline void CrossFadeInFixedTime(::StringW stateName, float_t fixedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("0.0f")] */ float_t fixedTimeOffset,
+                                   /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime);
 
   /// @brief Method CrossFadeInFixedTime_Injected, addr 0x6a419c4, size 0x7c, virtual false, abstract: false, final false
-  static inline void CrossFadeInFixedTime_Injected(::System::IntPtr _unity_self, int32_t stateHashName, float_t fixedTransitionDuration, int32_t layer, float_t fixedTimeOffset,
-                                                   float_t normalizedTransitionTime);
+  static inline void CrossFadeInFixedTime_Injected(::System::IntPtr _unity_self, int32_t stateHashName, float_t fixedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer,
+                                                   /* [DefaultValue("0.0f")] */ float_t fixedTimeOffset, /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime);
 
   /// @brief Method CrossFade_Injected, addr 0x6a41cec, size 0x7c, virtual false, abstract: false, final false
-  static inline void CrossFade_Injected(::System::IntPtr _unity_self, int32_t stateHashName, float_t normalizedTransitionDuration, int32_t layer, float_t normalizedTimeOffset,
-                                        float_t normalizedTransitionTime);
+  static inline void CrossFade_Injected(::System::IntPtr _unity_self, int32_t stateHashName, float_t normalizedTransitionDuration, /* [DefaultValue("-1")] */ int32_t layer,
+                                        /* [DefaultValue("0.0f")] */ float_t normalizedTimeOffset, /* [DefaultValue("0.0f")] */ float_t normalizedTransitionTime);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method EvaluateController, addr 0x6a44cb4, size 0x8, virtual false, abstract: false, final false
   inline void EvaluateController();
 
@@ -290,6 +307,7 @@ public:
   /// @brief Method EvaluateController_Injected, addr 0x6a44d4c, size 0x4c, virtual false, abstract: false, final false
   static inline void EvaluateController_Injected(::System::IntPtr _unity_self, float_t deltaTime);
 
+  /// [Obsolete("ForceStateNormalizedTime is deprecated. Please use Play or CrossFade instead.")]
   /// @brief Method ForceStateNormalizedTime, addr 0x6a415d8, size 0xc, virtual false, abstract: false, final false
   inline void ForceStateNormalizedTime(float_t normalizedTime);
 
@@ -299,6 +317,7 @@ public:
   /// @brief Method GetAnimatorClipInfoCount_Injected, addr 0x6a40610, size 0x54, virtual false, abstract: false, final false
   static inline int32_t GetAnimatorClipInfoCount_Injected(::System::IntPtr _unity_self, int32_t layerIndex, bool current);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetAnimatorClipInfoInternal", HasExplicitThis = true)]
   /// @brief Method GetAnimatorClipInfoInternal, addr 0x6a40878, size 0xa8, virtual false, abstract: false, final false
   inline void GetAnimatorClipInfoInternal(int32_t layerIndex, bool isCurrent, ::System::Object* clips);
 
@@ -311,6 +330,7 @@ public:
   /// @brief Method GetAnimatorStateInfo_Injected, addr 0x6a40380, size 0x5c, virtual false, abstract: false, final false
   static inline void GetAnimatorStateInfo_Injected(::System::IntPtr _unity_self, int32_t layerIndex, ::UnityEngine::StateInfoIndex stateInfoIndex, ::by_ref<::UnityEngine::AnimatorStateInfo> info);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method GetAnimatorStateName, addr 0x6a44da0, size 0x144, virtual false, abstract: false, final false
   inline ::StringW GetAnimatorStateName(int32_t layerIndex, bool current);
 
@@ -327,10 +347,12 @@ public:
   static inline void GetAnimatorTransitionInfo_Injected(::System::IntPtr _unity_self, int32_t layerIndex, ::by_ref<::UnityEngine::AnimatorTransitionInfo> info);
 
   /// @brief Method GetBehaviour, addr 0x6a3f6d8, size 0x184, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::ScriptableObject> GetBehaviour(::System::Type* type);
+  inline ::UnityW<::UnityEngine::ScriptableObject> GetBehaviour(/* [NotNull] */ ::System::Type* type);
 
   /// @brief Method GetBehaviour, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T GetBehaviour();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::StateMachineBehaviour*>)
+  inline T GetBehaviour();
 
   /// @brief Method GetBehaviour_Injected, addr 0x6a3f85c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetBehaviour_Injected(::System::IntPtr _unity_self, ::System::Type* type);
@@ -339,11 +361,14 @@ public:
   inline ::ArrayW<::UnityW<::UnityEngine::StateMachineBehaviour>> GetBehaviours(int32_t fullPathHash, int32_t layerIndex);
 
   /// @brief Method GetBehaviours, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::ArrayW<T> GetBehaviours();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::StateMachineBehaviour*>)
+  inline ::ArrayW<T> GetBehaviours();
 
   /// @brief Method GetBoneTransform, addr 0x6a425d4, size 0x1f8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::UnityEngine::HumanBodyBones humanBoneId);
 
+  /// [NativeMethod("GetBoneTransform")]
   /// @brief Method GetBoneTransformInternal, addr 0x6a42a1c, size 0x158, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetBoneTransformInternal(int32_t humanBoneId);
 
@@ -356,18 +381,21 @@ public:
   /// @brief Method GetBool, addr 0x6a3c014, size 0x4, virtual false, abstract: false, final false
   inline bool GetBool(::StringW name);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetBoolID", HasExplicitThis = true)]
   /// @brief Method GetBoolID, addr 0x6a3c194, size 0x90, virtual false, abstract: false, final false
   inline bool GetBoolID(int32_t id);
 
   /// @brief Method GetBoolID_Injected, addr 0x6a44064, size 0x44, virtual false, abstract: false, final false
   static inline bool GetBoolID_Injected(::System::IntPtr _unity_self, int32_t id);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetBoolString", HasExplicitThis = true)]
   /// @brief Method GetBoolString, addr 0x6a3c018, size 0x178, virtual false, abstract: false, final false
   inline bool GetBoolString(::StringW name);
 
   /// @brief Method GetBoolString_Injected, addr 0x6a44020, size 0x44, virtual false, abstract: false, final false
   static inline bool GetBoolString_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetCurrentAnimatorClipInfo", HasExplicitThis = true)]
   /// @brief Method GetCurrentAnimatorClipInfo, addr 0x6a40674, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::AnimatorClipInfo> GetCurrentAnimatorClipInfo(int32_t layerIndex);
 
@@ -383,12 +411,14 @@ public:
   /// @brief Method GetCurrentAnimatorStateInfo, addr 0x6a403dc, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimatorStateInfo GetCurrentAnimatorStateInfo(int32_t layerIndex);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetCurrentGraph", HasExplicitThis = true)]
   /// @brief Method GetCurrentGraph, addr 0x6a43c38, size 0x90, virtual false, abstract: false, final false
   inline void GetCurrentGraph(::by_ref<::UnityEngine::Playables::PlayableGraph> graph);
 
   /// @brief Method GetCurrentGraph_Injected, addr 0x6a43cc8, size 0x44, virtual false, abstract: false, final false
   static inline void GetCurrentGraph_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Playables::PlayableGraph> graph);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method GetCurrentStateName, addr 0x6a44d98, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetCurrentStateName(int32_t layerIndex);
 
@@ -398,12 +428,14 @@ public:
   /// @brief Method GetFloat, addr 0x6a3b994, size 0x4, virtual false, abstract: false, final false
   inline float_t GetFloat(::StringW name);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetFloatID", HasExplicitThis = true)]
   /// @brief Method GetFloatID, addr 0x6a3bb0c, size 0x90, virtual false, abstract: false, final false
   inline float_t GetFloatID(int32_t id);
 
   /// @brief Method GetFloatID_Injected, addr 0x6a43f34, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetFloatID_Injected(::System::IntPtr _unity_self, int32_t id);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetFloatString", HasExplicitThis = true)]
   /// @brief Method GetFloatString, addr 0x6a3b998, size 0x170, virtual false, abstract: false, final false
   inline float_t GetFloatString(::StringW name);
 
@@ -470,12 +502,14 @@ public:
   /// @brief Method GetInteger, addr 0x6a3c438, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetInteger(::StringW name);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetIntegerID", HasExplicitThis = true)]
   /// @brief Method GetIntegerID, addr 0x6a3c5b4, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetIntegerID(int32_t id);
 
   /// @brief Method GetIntegerID_Injected, addr 0x6a44194, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetIntegerID_Injected(::System::IntPtr _unity_self, int32_t id);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetIntegerString", HasExplicitThis = true)]
   /// @brief Method GetIntegerString, addr 0x6a3c43c, size 0x174, virtual false, abstract: false, final false
   inline int32_t GetIntegerString(::StringW name);
 
@@ -500,6 +534,7 @@ public:
   /// @brief Method GetLayerWeight_Injected, addr 0x6a401a0, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetLayerWeight_Injected(::System::IntPtr _unity_self, int32_t layerIndex);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetNextAnimatorClipInfo", HasExplicitThis = true)]
   /// @brief Method GetNextAnimatorClipInfo, addr 0x6a40748, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::AnimatorClipInfo> GetNextAnimatorClipInfo(int32_t layerIndex);
 
@@ -515,21 +550,25 @@ public:
   /// @brief Method GetNextAnimatorStateInfo, addr 0x6a4041c, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimatorStateInfo GetNextAnimatorStateInfo(int32_t layerIndex);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method GetNextStateName, addr 0x6a44ee4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetNextStateName(int32_t layerIndex);
 
   /// @brief Method GetParameter, addr 0x6a40cf8, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimatorControllerParameter* GetParameter(int32_t index);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetParameterInternal", HasExplicitThis = true)]
   /// @brief Method GetParameterInternal, addr 0x6a40c24, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimatorControllerParameter* GetParameterInternal(int32_t index);
 
   /// @brief Method GetParameterInternal_Injected, addr 0x6a40cb4, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimatorControllerParameter* GetParameterInternal_Injected(::System::IntPtr _unity_self, int32_t index);
 
+  /// [Obsolete("GetQuaternion is deprecated.")]
   /// @brief Method GetQuaternion, addr 0x6a4579c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetQuaternion(int32_t id);
 
+  /// [Obsolete("GetQuaternion is deprecated.")]
   /// @brief Method GetQuaternion, addr 0x6a4574c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetQuaternion(::StringW name);
 
@@ -551,9 +590,11 @@ public:
   /// @brief Method GetStats_Injected, addr 0x6a43bd0, size 0x44, virtual false, abstract: false, final false
   static inline void GetStats_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
+  /// [Obsolete("GetVector is deprecated.")]
   /// @brief Method GetVector, addr 0x6a456f4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetVector(int32_t id);
 
+  /// [Obsolete("GetVector is deprecated.")]
   /// @brief Method GetVector, addr 0x6a456a4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetVector(::StringW name);
 
@@ -563,11 +604,13 @@ public:
   /// @brief Method HasState_Injected, addr 0x6a438cc, size 0x54, virtual false, abstract: false, final false
   static inline bool HasState_Injected(::System::IntPtr _unity_self, int32_t layerIndex, int32_t stateID);
 
+  /// [FreeFunction(Name = "AnimatorBindings::InternalGetBehaviours", HasExplicitThis = true)]
   /// @brief Method InternalGetBehaviours, addr 0x6a3f8a0, size 0xbc, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>> InternalGetBehaviours(::System::Type* type);
+  inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>> InternalGetBehaviours(/* [NotNull] */ ::System::Type* type);
 
+  /// [FreeFunction(Name = "AnimatorBindings::InternalGetBehavioursByKey", HasExplicitThis = true)]
   /// @brief Method InternalGetBehavioursByKey, addr 0x6a3fa48, size 0xd4, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>> InternalGetBehavioursByKey(int32_t fullPathHash, int32_t layerIndex, ::System::Type* type);
+  inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>> InternalGetBehavioursByKey(int32_t fullPathHash, int32_t layerIndex, /* [NotNull] */ ::System::Type* type);
 
   /// @brief Method InternalGetBehavioursByKey_Injected, addr 0x6a3fb1c, size 0x5c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>> InternalGetBehavioursByKey_Injected(::System::IntPtr _unity_self, int32_t fullPathHash, int32_t layerIndex, ::System::Type* type);
@@ -579,10 +622,10 @@ public:
   inline void InterruptMatchTarget();
 
   /// @brief Method InterruptMatchTarget, addr 0x6a412b0, size 0x90, virtual false, abstract: false, final false
-  inline void InterruptMatchTarget(bool completeMatch);
+  inline void InterruptMatchTarget(/* [DefaultValue("true")] */ bool completeMatch);
 
   /// @brief Method InterruptMatchTarget_Injected, addr 0x6a41340, size 0x44, virtual false, abstract: false, final false
-  static inline void InterruptMatchTarget_Injected(::System::IntPtr _unity_self, bool completeMatch);
+  static inline void InterruptMatchTarget_Injected(::System::IntPtr _unity_self, /* [DefaultValue("true")] */ bool completeMatch);
 
   /// @brief Method IsBoneTransform, addr 0x6a42344, size 0xc0, virtual false, abstract: false, final false
   inline bool IsBoneTransform(::UnityEngine::Transform* transform);
@@ -590,6 +633,8 @@ public:
   /// @brief Method IsBoneTransform_Injected, addr 0x6a42404, size 0x44, virtual false, abstract: false, final false
   static inline bool IsBoneTransform_Injected(::System::IntPtr _unity_self, ::System::IntPtr transform);
 
+  /// [Obsolete("Use mask and layers to control subset of transfroms in a skeleton.", true)]
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// @brief Method IsControlled, addr 0x6a4233c, size 0x8, virtual false, abstract: false, final false
   inline bool IsControlled(::UnityEngine::Transform* transform);
 
@@ -611,12 +656,14 @@ public:
   /// @brief Method IsParameterControlledByCurve, addr 0x6a3cc58, size 0x4, virtual false, abstract: false, final false
   inline bool IsParameterControlledByCurve(::StringW name);
 
+  /// [FreeFunction(Name = "AnimatorBindings::IsParameterControlledByCurveID", HasExplicitThis = true)]
   /// @brief Method IsParameterControlledByCurveID, addr 0x6a3cdd8, size 0x90, virtual false, abstract: false, final false
   inline bool IsParameterControlledByCurveID(int32_t id);
 
   /// @brief Method IsParameterControlledByCurveID_Injected, addr 0x6a4432c, size 0x44, virtual false, abstract: false, final false
   static inline bool IsParameterControlledByCurveID_Injected(::System::IntPtr _unity_self, int32_t id);
 
+  /// [FreeFunction(Name = "AnimatorBindings::IsParameterControlledByCurveString", HasExplicitThis = true)]
   /// @brief Method IsParameterControlledByCurveString, addr 0x6a3cc5c, size 0x178, virtual false, abstract: false, final false
   inline bool IsParameterControlledByCurveString(::StringW name);
 
@@ -629,11 +676,11 @@ public:
 
   /// @brief Method MatchTarget, addr 0x6a4126c, size 0x20, virtual false, abstract: false, final false
   inline void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask,
-                          float_t startNormalizedTime, float_t targetNormalizedTime);
+                          float_t startNormalizedTime, /* [DefaultValue("1")] */ float_t targetNormalizedTime);
 
   /// @brief Method MatchTarget, addr 0x6a4128c, size 0x1c, virtual false, abstract: false, final false
   inline void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, ::UnityEngine::AvatarTarget targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask,
-                          float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch);
+                          float_t startNormalizedTime, /* [DefaultValue("1")] */ float_t targetNormalizedTime, /* [DefaultValue("true")] */ bool completeMatch);
 
   /// @brief Method MatchTarget, addr 0x6a410cc, size 0xe0, virtual false, abstract: false, final false
   inline void MatchTarget(::UnityEngine::Vector3 matchPosition, ::UnityEngine::Quaternion matchRotation, int32_t targetBodyPart, ::UnityEngine::MatchTargetWeightMask weightMask,
@@ -645,12 +692,14 @@ public:
 
   static inline ::UnityEngine::Animator* New_ctor();
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method OnCullingModeChanged, addr 0x6a448c8, size 0x80, virtual false, abstract: false, final false
   inline void OnCullingModeChanged();
 
   /// @brief Method OnCullingModeChanged_Injected, addr 0x6a44948, size 0x3c, virtual false, abstract: false, final false
   static inline void OnCullingModeChanged_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method OnUpdateModeChanged, addr 0x6a4480c, size 0x80, virtual false, abstract: false, final false
   inline void OnUpdateModeChanged();
 
@@ -664,7 +713,7 @@ public:
   inline void Play(::StringW stateName, int32_t layer);
 
   /// @brief Method Play, addr 0x6a41f98, size 0x40, virtual false, abstract: false, final false
-  inline void Play(::StringW stateName, int32_t layer, float_t normalizedTime);
+  inline void Play(::StringW stateName, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("float.NegativeInfinity")] */ float_t normalizedTime);
 
   /// @brief Method Play, addr 0x6a42074, size 0x10, virtual false, abstract: false, final false
   inline void Play(int32_t stateNameHash);
@@ -672,8 +721,9 @@ public:
   /// @brief Method Play, addr 0x6a42068, size 0xc, virtual false, abstract: false, final false
   inline void Play(int32_t stateNameHash, int32_t layer);
 
+  /// [FreeFunction(Name = "AnimatorBindings::Play", HasExplicitThis = true)]
   /// @brief Method Play, addr 0x6a415e4, size 0xa8, virtual false, abstract: false, final false
-  inline void Play(int32_t stateNameHash, int32_t layer, float_t normalizedTime);
+  inline void Play(int32_t stateNameHash, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("float.NegativeInfinity")] */ float_t normalizedTime);
 
   /// @brief Method PlayInFixedTime, addr 0x6a41e0c, size 0x2c, virtual false, abstract: false, final false
   inline void PlayInFixedTime(::StringW stateName);
@@ -682,7 +732,7 @@ public:
   inline void PlayInFixedTime(::StringW stateName, int32_t layer);
 
   /// @brief Method PlayInFixedTime, addr 0x6a41dcc, size 0x40, virtual false, abstract: false, final false
-  inline void PlayInFixedTime(::StringW stateName, int32_t layer, float_t fixedTime);
+  inline void PlayInFixedTime(::StringW stateName, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("float.NegativeInfinity")] */ float_t fixedTime);
 
   /// @brief Method PlayInFixedTime, addr 0x6a41f50, size 0x10, virtual false, abstract: false, final false
   inline void PlayInFixedTime(int32_t stateNameHash);
@@ -690,14 +740,17 @@ public:
   /// @brief Method PlayInFixedTime, addr 0x6a41f44, size 0xc, virtual false, abstract: false, final false
   inline void PlayInFixedTime(int32_t stateNameHash, int32_t layer);
 
+  /// [FreeFunction(Name = "AnimatorBindings::PlayInFixedTime", HasExplicitThis = true)]
   /// @brief Method PlayInFixedTime, addr 0x6a41e38, size 0xa8, virtual false, abstract: false, final false
-  inline void PlayInFixedTime(int32_t stateNameHash, int32_t layer, float_t fixedTime);
+  inline void PlayInFixedTime(int32_t stateNameHash, /* [DefaultValue("-1")] */ int32_t layer, /* [DefaultValue("float.NegativeInfinity")] */ float_t fixedTime);
 
   /// @brief Method PlayInFixedTime_Injected, addr 0x6a41ee0, size 0x64, virtual false, abstract: false, final false
-  static inline void PlayInFixedTime_Injected(::System::IntPtr _unity_self, int32_t stateNameHash, int32_t layer, float_t fixedTime);
+  static inline void PlayInFixedTime_Injected(::System::IntPtr _unity_self, int32_t stateNameHash, /* [DefaultValue("-1")] */ int32_t layer,
+                                              /* [DefaultValue("float.NegativeInfinity")] */ float_t fixedTime);
 
   /// @brief Method Play_Injected, addr 0x6a42004, size 0x64, virtual false, abstract: false, final false
-  static inline void Play_Injected(::System::IntPtr _unity_self, int32_t stateNameHash, int32_t layer, float_t normalizedTime);
+  static inline void Play_Injected(::System::IntPtr _unity_self, int32_t stateNameHash, /* [DefaultValue("-1")] */ int32_t layer,
+                                   /* [DefaultValue("float.NegativeInfinity")] */ float_t normalizedTime);
 
   /// @brief Method Rebind, addr 0x6a44b1c, size 0x8, virtual false, abstract: false, final false
   inline void Rebind();
@@ -714,12 +767,14 @@ public:
   /// @brief Method ResetTrigger, addr 0x6a3ca58, size 0x4, virtual false, abstract: false, final false
   inline void ResetTrigger(::StringW name);
 
+  /// [FreeFunction(Name = "AnimatorBindings::ResetTriggerID", HasExplicitThis = true)]
   /// @brief Method ResetTriggerID, addr 0x6a3cbc8, size 0x90, virtual false, abstract: false, final false
   inline void ResetTriggerID(int32_t id);
 
   /// @brief Method ResetTriggerID_Injected, addr 0x6a442a4, size 0x44, virtual false, abstract: false, final false
   static inline void ResetTriggerID_Injected(::System::IntPtr _unity_self, int32_t id);
 
+  /// [FreeFunction(Name = "AnimatorBindings::ResetTriggerString", HasExplicitThis = true)]
   /// @brief Method ResetTriggerString, addr 0x6a3ca5c, size 0x168, virtual false, abstract: false, final false
   inline void ResetTriggerString(::StringW name);
 
@@ -735,6 +790,7 @@ public:
   /// @brief Method SetBoneLocalRotation, addr 0x6a3f520, size 0x80, virtual false, abstract: false, final false
   inline void SetBoneLocalRotation(::UnityEngine::HumanBodyBones humanBoneId, ::UnityEngine::Quaternion rotation);
 
+  /// [NativeMethod("SetBoneLocalRotation")]
   /// @brief Method SetBoneLocalRotationInternal, addr 0x6a3f5dc, size 0xa8, virtual false, abstract: false, final false
   inline void SetBoneLocalRotationInternal(int32_t humanBoneId, ::UnityEngine::Quaternion rotation);
 
@@ -747,12 +803,14 @@ public:
   /// @brief Method SetBool, addr 0x6a3c224, size 0x4, virtual false, abstract: false, final false
   inline void SetBool(::StringW name, bool value);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetBoolID", HasExplicitThis = true)]
   /// @brief Method SetBoolID, addr 0x6a3c3a0, size 0x98, virtual false, abstract: false, final false
   inline void SetBoolID(int32_t id, bool value);
 
   /// @brief Method SetBoolID_Injected, addr 0x6a43fcc, size 0x54, virtual false, abstract: false, final false
   static inline void SetBoolID_Injected(::System::IntPtr _unity_self, int32_t id, bool value);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetBoolString", HasExplicitThis = true)]
   /// @brief Method SetBoolString, addr 0x6a3c228, size 0x174, virtual false, abstract: false, final false
   inline void SetBoolString(::StringW name, bool value);
 
@@ -771,9 +829,11 @@ public:
   /// @brief Method SetFloat, addr 0x6a3bd1c, size 0x4, virtual false, abstract: false, final false
   inline void SetFloat(::StringW name, float_t value, float_t dampTime, float_t deltaTime);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetFloatID", HasExplicitThis = true)]
   /// @brief Method SetFloatID, addr 0x6a3beb8, size 0xa0, virtual false, abstract: false, final false
   inline void SetFloatID(int32_t id, float_t value);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetFloatIDDamp", HasExplicitThis = true)]
   /// @brief Method SetFloatIDDamp, addr 0x6a3bf5c, size 0xb8, virtual false, abstract: false, final false
   inline void SetFloatIDDamp(int32_t id, float_t value, float_t dampTime, float_t deltaTime);
 
@@ -783,9 +843,11 @@ public:
   /// @brief Method SetFloatID_Injected, addr 0x6a43e9c, size 0x54, virtual false, abstract: false, final false
   static inline void SetFloatID_Injected(::System::IntPtr _unity_self, int32_t id, float_t value);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetFloatString", HasExplicitThis = true)]
   /// @brief Method SetFloatString, addr 0x6a3bba0, size 0x17c, virtual false, abstract: false, final false
   inline void SetFloatString(::StringW name, float_t value);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetFloatStringDamp", HasExplicitThis = true)]
   /// @brief Method SetFloatStringDamp, addr 0x6a3bd20, size 0x194, virtual false, abstract: false, final false
   inline void SetFloatStringDamp(::StringW name, float_t value, float_t dampTime, float_t deltaTime);
 
@@ -855,12 +917,14 @@ public:
   /// @brief Method SetInteger, addr 0x6a3c644, size 0x4, virtual false, abstract: false, final false
   inline void SetInteger(::StringW name, int32_t value);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetIntegerID", HasExplicitThis = true)]
   /// @brief Method SetIntegerID, addr 0x6a3c7c0, size 0x98, virtual false, abstract: false, final false
   inline void SetIntegerID(int32_t id, int32_t value);
 
   /// @brief Method SetIntegerID_Injected, addr 0x6a440fc, size 0x54, virtual false, abstract: false, final false
   static inline void SetIntegerID_Injected(::System::IntPtr _unity_self, int32_t id, int32_t value);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetIntegerString", HasExplicitThis = true)]
   /// @brief Method SetIntegerString, addr 0x6a3c648, size 0x174, virtual false, abstract: false, final false
   inline void SetIntegerString(::StringW name, int32_t value);
 
@@ -876,6 +940,7 @@ public:
   /// @brief Method SetLookAtPosition, addr 0x6a3f168, size 0x40, virtual false, abstract: false, final false
   inline void SetLookAtPosition(::UnityEngine::Vector3 lookAtPosition);
 
+  /// [NativeMethod("SetLookAtPosition")]
   /// @brief Method SetLookAtPositionInternal, addr 0x6a3f1a8, size 0x98, virtual false, abstract: false, final false
   inline void SetLookAtPositionInternal(::UnityEngine::Vector3 lookAtPosition);
 
@@ -895,17 +960,21 @@ public:
   inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight);
 
   /// @brief Method SetLookAtWeight, addr 0x6a3f44c, size 0x58, virtual false, abstract: false, final false
-  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight);
+  inline void SetLookAtWeight(float_t weight, /* [DefaultValue("0.0f")] */ float_t bodyWeight, /* [DefaultValue("1.0f")] */ float_t headWeight, /* [DefaultValue("0.0f")] */ float_t eyesWeight,
+                              /* [DefaultValue("0.5f")] */ float_t clampWeight);
 
+  /// [NativeMethod("SetLookAtWeight")]
   /// @brief Method SetLookAtWeightInternal, addr 0x6a3f2bc, size 0xc0, virtual false, abstract: false, final false
   inline void SetLookAtWeightInternal(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight);
 
   /// @brief Method SetLookAtWeightInternal_Injected, addr 0x6a3f4a4, size 0x7c, virtual false, abstract: false, final false
   static inline void SetLookAtWeightInternal_Injected(::System::IntPtr _unity_self, float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight);
 
+  /// [Obsolete("SetQuaternion is deprecated.")]
   /// @brief Method SetQuaternion, addr 0x6a457f0, size 0x4, virtual false, abstract: false, final false
   inline void SetQuaternion(int32_t id, ::UnityEngine::Quaternion value);
 
+  /// [Obsolete("SetQuaternion is deprecated.")]
   /// @brief Method SetQuaternion, addr 0x6a457ec, size 0x4, virtual false, abstract: false, final false
   inline void SetQuaternion(::StringW name, ::UnityEngine::Quaternion value);
 
@@ -921,21 +990,25 @@ public:
   /// @brief Method SetTrigger, addr 0x6a3c858, size 0x4, virtual false, abstract: false, final false
   inline void SetTrigger(::StringW name);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetTriggerID", HasExplicitThis = true)]
   /// @brief Method SetTriggerID, addr 0x6a3c9c8, size 0x90, virtual false, abstract: false, final false
   inline void SetTriggerID(int32_t id);
 
   /// @brief Method SetTriggerID_Injected, addr 0x6a4421c, size 0x44, virtual false, abstract: false, final false
   static inline void SetTriggerID_Injected(::System::IntPtr _unity_self, int32_t id);
 
+  /// [FreeFunction(Name = "AnimatorBindings::SetTriggerString", HasExplicitThis = true)]
   /// @brief Method SetTriggerString, addr 0x6a3c85c, size 0x168, virtual false, abstract: false, final false
   inline void SetTriggerString(::StringW name);
 
   /// @brief Method SetTriggerString_Injected, addr 0x6a441d8, size 0x44, virtual false, abstract: false, final false
   static inline void SetTriggerString_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
+  /// [Obsolete("SetVector is deprecated.")]
   /// @brief Method SetVector, addr 0x6a45748, size 0x4, virtual false, abstract: false, final false
   inline void SetVector(int32_t id, ::UnityEngine::Vector3 value);
 
+  /// [Obsolete("SetVector is deprecated.")]
   /// @brief Method SetVector, addr 0x6a45744, size 0x4, virtual false, abstract: false, final false
   inline void SetVector(::StringW name, ::UnityEngine::Vector3 value);
 
@@ -963,24 +1036,28 @@ public:
   /// @brief Method StopRecording_Injected, addr 0x6a431ac, size 0x3c, virtual false, abstract: false, final false
   static inline void StopRecording_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod(Name = "ScriptingStringToCRC32", IsThreadSafe = true)]
   /// @brief Method StringToHash, addr 0x6a416c8, size 0x12c, virtual false, abstract: false, final false
   static inline int32_t StringToHash(::StringW name);
 
   /// @brief Method StringToHash_Injected, addr 0x6a43920, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t StringToHash_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
+  /// [NativeMethod("UpdateWithDelta")]
   /// @brief Method Update, addr 0x6a44a40, size 0x90, virtual false, abstract: false, final false
   inline void Update(float_t deltaTime);
 
   /// @brief Method Update_Injected, addr 0x6a44ad0, size 0x4c, virtual false, abstract: false, final false
   static inline void Update_Injected(::System::IntPtr _unity_self, float_t deltaTime);
 
+  /// [NativeConditional("UNITY_EDITOR")]
   /// @brief Method WriteDefaultPose, addr 0x6a44984, size 0x80, virtual false, abstract: false, final false
   inline void WriteDefaultPose();
 
   /// @brief Method WriteDefaultPose_Injected, addr 0x6a44a04, size 0x3c, virtual false, abstract: false, final false
   static inline void WriteDefaultPose_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "AnimatorBindings::WriteDefaultValues", HasExplicitThis = true)]
   /// @brief Method WriteDefaultValues, addr 0x6a41a40, size 0x80, virtual false, abstract: false, final false
   inline void WriteDefaultValues();
 
@@ -1029,6 +1106,7 @@ public:
   /// @brief Method get_bodyPosition, addr 0x6a3deb8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyPosition();
 
+  /// [NativeMethod("GetBodyPosition")]
   /// @brief Method get_bodyPositionInternal, addr 0x6a3df68, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyPositionInternal();
 
@@ -1038,6 +1116,7 @@ public:
   /// @brief Method get_bodyRotation, addr 0x6a3e168, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_bodyRotation();
 
+  /// [NativeMethod("GetBodyRotation")]
   /// @brief Method get_bodyRotationInternal, addr 0x6a3e180, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_bodyRotationInternal();
 
@@ -1080,12 +1159,14 @@ public:
   /// @brief Method get_gravityWeight_Injected, addr 0x6a3de7c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_gravityWeight_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("HasBoundPlayables")]
   /// @brief Method get_hasBoundPlayables, addr 0x6a436bc, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasBoundPlayables();
 
   /// @brief Method get_hasBoundPlayables_Injected, addr 0x6a4373c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasBoundPlayables_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("HasRootMotion")]
   /// @brief Method get_hasRootMotion, addr 0x6a3b6a4, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasRootMotion();
 
@@ -1104,30 +1185,35 @@ public:
   /// @brief Method get_humanScale_Injected, addr 0x6a3b89c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_humanScale_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsHuman")]
   /// @brief Method get_isHuman, addr 0x6a3b5e8, size 0x80, virtual false, abstract: false, final false
   inline bool get_isHuman();
 
   /// @brief Method get_isHuman_Injected, addr 0x6a3b668, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isHuman_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsInitialized")]
   /// @brief Method get_isInitialized, addr 0x6a3b8d8, size 0x80, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
   /// @brief Method get_isInitialized_Injected, addr 0x6a3b958, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isInitialized_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsMatchingTarget")]
   /// @brief Method get_isMatchingTarget, addr 0x6a41384, size 0x80, virtual false, abstract: false, final false
   inline bool get_isMatchingTarget();
 
   /// @brief Method get_isMatchingTarget_Injected, addr 0x6a41404, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isMatchingTarget_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsOptimizable")]
   /// @brief Method get_isOptimizable, addr 0x6a3b52c, size 0x80, virtual false, abstract: false, final false
   inline bool get_isOptimizable();
 
   /// @brief Method get_isOptimizable_Injected, addr 0x6a3b5ac, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isOptimizable_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("IsRootTranslationOrRotationControllerByCurves")]
   /// @brief Method get_isRootPositionOrRotationControlledByCurves, addr 0x6a3b760, size 0x80, virtual false, abstract: false, final false
   inline bool get_isRootPositionOrRotationControlledByCurves();
 
@@ -1179,6 +1265,7 @@ public:
   /// @brief Method get_parameterCount_Injected, addr 0x6a40be8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_parameterCount_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction(Name = "AnimatorBindings::GetParameters", HasExplicitThis = true)]
   /// @brief Method get_parameters, addr 0x6a40aac, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::AnimatorControllerParameter*> get_parameters();
 
@@ -1224,12 +1311,14 @@ public:
   /// @brief Method get_rightFeetBottomHeight_Injected, addr 0x6a44714, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_rightFeetBottomHeight_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("GetAvatarPosition")]
   /// @brief Method get_rootPosition, addr 0x6a3d1f4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rootPosition();
 
   /// @brief Method get_rootPosition_Injected, addr 0x6a3d294, size 0x44, virtual false, abstract: false, final false
   static inline void get_rootPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
+  /// [NativeMethod("GetAvatarRotation")]
   /// @brief Method get_rootRotation, addr 0x6a3d3b4, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rootRotation();
 
@@ -1254,6 +1343,7 @@ public:
   /// @brief Method get_stabilizeFeet_Injected, addr 0x6a3fbf8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_stabilizeFeet_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeMethod("SupportsOnAnimatorMove")]
   /// @brief Method get_supportsOnAnimatorMove, addr 0x6a44750, size 0x80, virtual false, abstract: false, final false
   inline bool get_supportsOnAnimatorMove();
 
@@ -1317,6 +1407,7 @@ public:
   /// @brief Method set_bodyPosition, addr 0x6a3e008, size 0x40, virtual false, abstract: false, final false
   inline void set_bodyPosition(::UnityEngine::Vector3 value);
 
+  /// [NativeMethod("SetBodyPosition")]
   /// @brief Method set_bodyPositionInternal, addr 0x6a3e048, size 0x98, virtual false, abstract: false, final false
   inline void set_bodyPositionInternal(::UnityEngine::Vector3 value);
 
@@ -1326,6 +1417,7 @@ public:
   /// @brief Method set_bodyRotation, addr 0x6a3e21c, size 0x48, virtual false, abstract: false, final false
   inline void set_bodyRotation(::UnityEngine::Quaternion value);
 
+  /// [NativeMethod("SetBodyRotation")]
   /// @brief Method set_bodyRotationInternal, addr 0x6a3e264, size 0x98, virtual false, abstract: false, final false
   inline void set_bodyRotationInternal(::UnityEngine::Quaternion value);
 
@@ -1389,12 +1481,14 @@ public:
   /// @brief Method set_recorderStopTime, addr 0x6a43330, size 0x4, virtual false, abstract: false, final false
   inline void set_recorderStopTime(float_t value);
 
+  /// [NativeMethod("SetAvatarPosition")]
   /// @brief Method set_rootPosition, addr 0x6a3d2d8, size 0x98, virtual false, abstract: false, final false
   inline void set_rootPosition(::UnityEngine::Vector3 value);
 
   /// @brief Method set_rootPosition_Injected, addr 0x6a3d370, size 0x44, virtual false, abstract: false, final false
   static inline void set_rootPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
+  /// [NativeMethod("SetAvatarRotation")]
   /// @brief Method set_rootRotation, addr 0x6a3d494, size 0x98, virtual false, abstract: false, final false
   inline void set_rootRotation(::UnityEngine::Quaternion value);
 
@@ -1437,13 +1531,13 @@ protected:
   constexpr Animator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Animator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Animator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Animator(Animator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Animator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Animator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Animator(Animator const&) = delete;
+  Animator(Animatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20226 };

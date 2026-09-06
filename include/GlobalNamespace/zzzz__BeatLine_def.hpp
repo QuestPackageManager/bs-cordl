@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatLine.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatLine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,13 +59,13 @@ protected:
   constexpr BeatLine_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLine_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLine_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLine_Pool(BeatLine_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLine_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLine_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLine_Pool(BeatLine_Pool const&) = delete;
+  BeatLine_Pool(BeatLine_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5608 };
@@ -200,32 +200,38 @@ protected:
   constexpr BeatLine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatLine(BeatLine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatLine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatLine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatLine(BeatLine const&) = delete;
+  BeatLine(BeatLineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5609 };
 
+  /// [SerializeField]
   /// @brief Field _tubeBloomPrePassLight, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
+  /// [SerializeField]
   /// @brief Field _arriveFadeCurve, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____arriveFadeCurve;
 
+  /// [SerializeField]
   /// @brief Field _jumpFadeCurve, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____jumpFadeCurve;
 
+  /// [SerializeField]
   /// @brief Field _alphaMul, offset: 0x58, size: 0x4, def value: None
   float_t ____alphaMul;
 
+  /// [SerializeField]
   /// @brief Field _maxAlpha, offset: 0x5c, size: 0x4, def value: None
   float_t ____maxAlpha;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::VariableMovementDataProvider* ____variableMovementDataProvider;
 

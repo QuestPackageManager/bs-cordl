@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IGroupBoxOption.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IGroupBoxOption.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +18,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IGroupBoxOption {
 public:
   // Declarations
-  /// @brief Method SetSelected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetSelected(bool selected);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IGroupBoxOption", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IGroupBoxOption", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IGroupBoxOption(IGroupBoxOption const&) = delete;
+  IGroupBoxOption(IGroupBoxOptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4602 };

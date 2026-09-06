@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RefreshRate.hpp"
+// IWYU pragma private; include "UnityEngine/RefreshRate.hpp"
 #include "UnityEngine/zzzz__RefreshRate_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -87,7 +87,8 @@ constexpr UnityEngine::RefreshRate::operator ::System::IComparable_1<::UnityEngi
 constexpr ::System::IComparable_1<::UnityEngine::RefreshRate>* UnityEngine::RefreshRate::i___System__IComparable_1___UnityEngine__RefreshRate_() {
   return static_cast<::System::IComparable_1<::UnityEngine::RefreshRate>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "numerator", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "denominator", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "numerator", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "denominator", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::RefreshRate::RefreshRate(uint32_t numerator, uint32_t denominator) noexcept {
   this->numerator = numerator;
   this->denominator = denominator;

@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UQueryBuilder_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UQueryBuilder_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__StyleSelectorRelationship_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
@@ -31,22 +32,27 @@ namespace UnityEngine::UIElements {
 class StyleSelector;
 }
 namespace UnityEngine::UIElements {
-template <typename T> struct UQueryState_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+struct UQueryState_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> struct UQueryBuilder_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+struct UQueryBuilder_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::UQueryBuilder_1);
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::UQueryBuilder_1, "UnityEngine.UIElements", "UQueryBuilder`1");
-// Dependencies UnityEngine.UIElements.StyleSelectorRelationship
+// Dependencies UnityEngine.UIElements.StyleSelectorRelationship, UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UQueryBuilder`1<T>
 struct CORDL_TYPE UQueryBuilder_1 {
@@ -63,7 +69,7 @@ public:
   inline void AddClass(::StringW c);
 
   /// @brief Method AddClasses, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddClasses(::ArrayW<::StringW> classes);
+  inline void AddClasses(/* [ParamArray] */ ::ArrayW<::StringW> classes);
 
   /// @brief Method AddName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddName(::StringW id);
@@ -72,10 +78,14 @@ public:
   inline void AddPseudoStatesRuleIfNecessasy();
 
   /// @brief Method AddRelationship, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> AddRelationship(::UnityEngine::UIElements::StyleSelectorRelationship relationship);
+  template <typename T2>
+    requires(::cordl_internals::type_constraint<T2, ::UnityEngine::UIElements::VisualElement*>)
+  inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> AddRelationship(::UnityEngine::UIElements::StyleSelectorRelationship relationship);
 
   /// @brief Method AddType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T2> inline void AddType();
+  template <typename T2>
+    requires(::cordl_internals::type_constraint<T2, ::UnityEngine::UIElements::VisualElement*>)
+  inline void AddType();
 
   /// @brief Method Build, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryState_1<T> Build();
@@ -105,10 +115,14 @@ public:
   inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Name(::StringW id);
 
   /// @brief Method OfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name, ::StringW className);
+  template <typename T2>
+    requires(::cordl_internals::type_constraint<T2, ::UnityEngine::UIElements::VisualElement*>)
+  inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name, ::StringW className);
 
   /// @brief Method OfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name, ::ArrayW<::StringW> classes);
+  template <typename T2>
+    requires(::cordl_internals::type_constraint<T2, ::UnityEngine::UIElements::VisualElement*>)
+  inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name, /* [ParamArray] */ ::ArrayW<::StringW> classes);
 
   /// @brief Method SingleBaseType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryBuilder_1<T> SingleBaseType();
@@ -132,12 +146,12 @@ public:
   // @brief default ctor
   constexpr UQueryBuilder_1();
 
-  // Ctor Parameters [CppParam { name: "m_StyleSelectors", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelector*>*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Parts", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>*", modifiers: "", def_value: None }, CppParam { name: "m_Element", ty:
-  // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "m_Matchers", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*", modifiers: "", def_value: None }, CppParam { name: "m_Relationship", ty:
-  // "::UnityEngine::UIElements::StyleSelectorRelationship", modifiers: "", def_value: None }, CppParam { name: "pseudoStatesMask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "negatedPseudoStatesMask", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_StyleSelectors", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelector*>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_Parts", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>*", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Matchers", ty:
+  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Relationship", ty:
+  // "::UnityEngine::UIElements::StyleSelectorRelationship", modifiers: "", def_value: None, comment: None }, CppParam { name: "pseudoStatesMask", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "negatedPseudoStatesMask", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UQueryBuilder_1(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelector*>* m_StyleSelectors,
                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* m_Parts, ::UnityEngine::UIElements::VisualElement* m_Element,
                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* m_Matchers, ::UnityEngine::UIElements::StyleSelectorRelationship m_Relationship,

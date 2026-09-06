@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\TimerThread.hpp"
+// IWYU pragma private; include "System/Net/TimerThread.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,7 +121,7 @@ public:
   /// @brief Field m_DurationMilliseconds, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DurationMilliseconds, put = __cordl_internal_set_m_DurationMilliseconds)) int32_t m_DurationMilliseconds;
 
-  /// @brief Method CreateTimer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateTimer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::TimerThread_Timer* CreateTimer(::System::Net::TimerThread_Callback* callback, ::System::Object* context);
 
   static inline ::System::Net::TimerThread_Queue* New_ctor(int32_t durationMilliseconds);
@@ -144,13 +144,13 @@ protected:
   constexpr TimerThread_Queue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Queue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Queue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerThread_Queue(TimerThread_Queue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Queue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Queue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_Queue(TimerThread_Queue const&) = delete;
+  TimerThread_Queue(TimerThread_Queueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11534 };
@@ -188,7 +188,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Cancel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Cancel();
 
   /// @brief Method Dispose, addr 0x6418da0, size 0xc, virtual true, abstract: false, final true
@@ -214,7 +214,7 @@ public:
   /// @brief Method get_Expiration, addr 0x6418d94, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Expiration();
 
-  /// @brief Method get_HasExpired, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_HasExpired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasExpired();
 
   /// @brief Method get_StartTime, addr 0x6418d8c, size 0x8, virtual false, abstract: false, final false
@@ -229,13 +229,13 @@ protected:
   constexpr TimerThread_Timer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Timer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Timer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerThread_Timer(TimerThread_Timer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Timer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Timer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_Timer(TimerThread_Timer const&) = delete;
+  TimerThread_Timer(TimerThread_Timerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11535 };
@@ -277,13 +277,13 @@ protected:
   constexpr TimerThread_Callback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Callback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Callback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerThread_Callback(TimerThread_Callback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Callback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_Callback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_Callback(TimerThread_Callback const&) = delete;
+  TimerThread_Callback(TimerThread_Callbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11536 };
@@ -336,13 +336,13 @@ protected:
   constexpr TimerThread_TimerQueue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerQueue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerQueue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerThread_TimerQueue(TimerThread_TimerQueue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerQueue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_TimerQueue(TimerThread_TimerQueue const&) = delete;
+  TimerThread_TimerQueue(TimerThread_TimerQueueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11537 };
@@ -384,13 +384,13 @@ protected:
   constexpr TimerThread_InfiniteTimerQueue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimerQueue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimerQueue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerThread_InfiniteTimerQueue(TimerThread_InfiniteTimerQueue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimerQueue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimerQueue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_InfiniteTimerQueue(TimerThread_InfiniteTimerQueue const&) = delete;
+  TimerThread_InfiniteTimerQueue(TimerThread_InfiniteTimerQueueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11538 };
@@ -432,7 +432,7 @@ public:
   // @brief default ctor
   constexpr TimerNode_TimerThread_TimerState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TimerNode_TimerThread_TimerState(int32_t value__) noexcept;
 
   /// @brief Field Cancelled value: I32(2)
@@ -570,13 +570,13 @@ protected:
   constexpr TimerThread_TimerNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerThread_TimerNode(TimerThread_TimerNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_TimerNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_TimerNode(TimerThread_TimerNode const&) = delete;
+  TimerThread_TimerNode(TimerThread_TimerNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11540 };
@@ -652,13 +652,13 @@ protected:
   constexpr TimerThread_InfiniteTimer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerThread_InfiniteTimer(TimerThread_InfiniteTimer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread_InfiniteTimer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread_InfiniteTimer(TimerThread_InfiniteTimer const&) = delete;
+  TimerThread_InfiniteTimer(TimerThread_InfiniteTimerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11541 };
@@ -778,13 +778,13 @@ protected:
   constexpr TimerThread();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimerThread(TimerThread&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimerThread", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimerThread", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimerThread(TimerThread const&) = delete;
+  TimerThread(TimerThreadconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11542 };

@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UQueryState_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UQueryState_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__UQuery_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQueryState_1)
@@ -38,13 +39,19 @@ namespace UnityEngine::UIElements {
 struct RuleMatcher;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UQueryState_1_ActionQueryMatcher;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+class UQueryState_1_ActionQueryMatcher;
 }
 namespace UnityEngine::UIElements {
-template <typename T> struct UQueryState_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+struct UQueryState_1_Enumerator;
 }
 namespace UnityEngine::UIElements {
-template <typename T, typename TElement> class UQueryState_1_ListQueryMatcher_1;
+template <typename T, typename TElement>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<TElement, ::UnityEngine::UIElements::VisualElement*>)
+class UQueryState_1_ListQueryMatcher_1;
 }
 namespace UnityEngine::UIElements {
 class UQuery_SingleQueryMatcher;
@@ -54,16 +61,24 @@ class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class UQueryState_1_ActionQueryMatcher;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+class UQueryState_1_ActionQueryMatcher;
 }
 namespace UnityEngine::UIElements {
-template <typename T, typename TElement> class UQueryState_1_ListQueryMatcher_1;
+template <typename T, typename TElement>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<TElement, ::UnityEngine::UIElements::VisualElement*>)
+class UQueryState_1_ListQueryMatcher_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> struct UQueryState_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+struct UQueryState_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> struct UQueryState_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
+struct UQueryState_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::UQueryState_1_ActionQueryMatcher);
@@ -74,10 +89,11 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UQueryState_1_ActionQuery
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::UQueryState_1_ListQueryMatcher_1, "UnityEngine.UIElements", "UQueryState`1/ListQueryMatcher`1");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::UQueryState_1, "UnityEngine.UIElements", "UQueryState`1");
 DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::UQueryState_1_Enumerator, "UnityEngine.UIElements", "UQueryState`1/Enumerator");
-// Dependencies UnityEngine.UIElements.UQuery::UQueryMatcher
+// Dependencies UnityEngine.UIElements.UQuery::UQueryMatcher, UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T, typename TElement>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<TElement, ::UnityEngine::UIElements::VisualElement*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UQueryState`1/ListQueryMatcher`1<T,TElement>
 class CORDL_TYPE UQueryState_1_ListQueryMatcher_1 : public ::UnityEngine::UIElements::UQuery_UQueryMatcher {
@@ -106,9 +122,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_matches, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<TElement>* get_matches();
 
+  /// [CompilerGenerated]
   /// @brief Method set_matches, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_matches(::System::Collections::Generic::List_1<TElement>* value);
 
@@ -118,17 +136,19 @@ protected:
   constexpr UQueryState_1_ListQueryMatcher_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ListQueryMatcher_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ListQueryMatcher_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UQueryState_1_ListQueryMatcher_1(UQueryState_1_ListQueryMatcher_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ListQueryMatcher_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ListQueryMatcher_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQueryState_1_ListQueryMatcher_1(UQueryState_1_ListQueryMatcher_1 const&) = delete;
+  UQueryState_1_ListQueryMatcher_1(UQueryState_1_ListQueryMatcher_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5128 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <matches>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TElement>* ____matches_k__BackingField;
 
@@ -136,10 +156,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.UQuery::UQueryMatcher
+// Dependencies UnityEngine.UIElements.UQuery::UQueryMatcher, UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UQueryState`1/ActionQueryMatcher<T>
 class CORDL_TYPE UQueryState_1_ActionQueryMatcher : public ::UnityEngine::UIElements::UQuery_UQueryMatcher {
@@ -164,6 +185,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_callBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action_1<T>* get_callBack();
 
@@ -173,17 +195,19 @@ protected:
   constexpr UQueryState_1_ActionQueryMatcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ActionQueryMatcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ActionQueryMatcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UQueryState_1_ActionQueryMatcher(UQueryState_1_ActionQueryMatcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ActionQueryMatcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UQueryState_1_ActionQueryMatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UQueryState_1_ActionQueryMatcher(UQueryState_1_ActionQueryMatcher const&) = delete;
+  UQueryState_1_ActionQueryMatcher(UQueryState_1_ActionQueryMatcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5129 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <callBack>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<T>* ____callBack_k__BackingField;
 
@@ -191,10 +215,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies
+// Dependencies UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UQueryState`1/Enumerator<T>
 struct CORDL_TYPE UQueryState_1_Enumerator {
@@ -244,8 +269,8 @@ public:
   // @brief default ctor
   constexpr UQueryState_1_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "iterationList", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None }, CppParam { name:
-  // "currentIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "iterationList", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "currentIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UQueryState_1_Enumerator(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* iterationList, int32_t currentIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -264,10 +289,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies
+// Dependencies UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UQueryState`1<T>
 struct CORDL_TYPE UQueryState_1 {
@@ -277,7 +303,9 @@ public:
 
   using Enumerator = ::UnityEngine::UIElements::UQueryState_1_Enumerator<T>;
 
-  template <typename TElement> using ListQueryMatcher_1 = ::UnityEngine::UIElements::UQueryState_1_ListQueryMatcher_1<T, TElement>;
+  template <typename TElement>
+    requires(::cordl_internals::type_constraint<TElement, ::UnityEngine::UIElements::VisualElement*>)
+  using ListQueryMatcher_1 = ::UnityEngine::UIElements::UQueryState_1_ListQueryMatcher_1<T, TElement>;
 
   /// @brief Field s_Action, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Action, put = setStaticF_s_Action)) ::UnityEngine::UIElements::UQueryState_1_ActionQueryMatcher<T>* s_Action;
@@ -359,8 +387,8 @@ public:
   // @brief default ctor
   constexpr UQueryState_1();
 
-  // Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "m_Matchers", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Matchers", ty:
+  // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*", modifiers: "", def_value: None, comment: None }]
   constexpr UQueryState_1(::UnityEngine::UIElements::VisualElement* m_Element, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* m_Matchers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

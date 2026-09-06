@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\StringUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass1
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState, "Newtonsoft.Json.Utilities", "StringUtils/SeparatedCaseState");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::StringUtils*, "Newtonsoft.Json.Utilities", "StringUtils");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1, "Newtonsoft.Json.Utilities", "StringUtils/<>c__DisplayClass14_0`1");
+// [NullableContext(0)]
 // Dependencies
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
@@ -78,7 +79,7 @@ public:
   // @brief default ctor
   constexpr StringUtils_SeparatedCaseState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StringUtils_SeparatedCaseState(int32_t value__) noexcept;
 
   /// @brief Field Lower value: I32(1)
@@ -110,6 +111,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseS
 static_assert(sizeof(::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState) == 0x4, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -127,9 +129,11 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <ForgivingCaseSensitiveFind>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _ForgivingCaseSensitiveFind_b__0(TSource s);
 
+  /// [NullableContext(0)]
   /// @brief Method <ForgivingCaseSensitiveFind>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _ForgivingCaseSensitiveFind_b__1(TSource s);
 
@@ -154,20 +158,22 @@ protected:
   constexpr StringUtils___c__DisplayClass14_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringUtils___c__DisplayClass14_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringUtils___c__DisplayClass14_0_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringUtils___c__DisplayClass14_0_1(StringUtils___c__DisplayClass14_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringUtils___c__DisplayClass14_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringUtils___c__DisplayClass14_0_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringUtils___c__DisplayClass14_0_1(StringUtils___c__DisplayClass14_0_1 const&) = delete;
+  StringUtils___c__DisplayClass14_0_1(StringUtils___c__DisplayClass14_0_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13463 };
 
+  /// [Nullable(new[] { 0, 0, 1 })]
   /// @brief Field valueSelector, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TSource, ::StringW>* ___valueSelector;
 
+  /// [Nullable(0)]
   /// @brief Field testValue, offset: 0x18, size: 0x8, def value: None
   ::StringW ___testValue;
 
@@ -175,6 +181,9 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
+// [Extension]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -189,27 +198,37 @@ public:
   /// @brief Method CreateStringWriter, addr 0x5d33ff8, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::IO::StringWriter* CreateStringWriter(int32_t capacity);
 
+  /// [Extension]
   /// @brief Method EndsWith, addr 0x5d34724, size 0x34, virtual false, abstract: false, final false
   static inline bool EndsWith(::StringW source, char16_t value);
 
+  /// [Extension]
   /// @brief Method ForgivingCaseSensitiveFind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource>
   static inline TSource ForgivingCaseSensitiveFind(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, ::StringW>* valueSelector, ::StringW testValue);
 
+  /// [Extension]
   /// @brief Method FormatWith, addr 0x5d33a84, size 0xac, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0);
+  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, /* [Nullable(2)] */ ::System::Object* arg0);
 
+  /// [Extension]
   /// @brief Method FormatWith, addr 0x5d33ba0, size 0xe0, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1);
+  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, /* [Nullable(2)] */ ::System::Object* arg0, /* [Nullable(2)] */ ::System::Object* arg1);
 
+  /// [Extension]
   /// @brief Method FormatWith, addr 0x5d33c80, size 0x10c, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
+  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, /* [Nullable(2)] */ ::System::Object* arg0, /* [Nullable(2)] */ ::System::Object* arg1,
+                                     /* [Nullable(2)] */ ::System::Object* arg2);
 
-  /// @brief Method FormatWith, addr 0x5d33d8c, size 0x140, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::System::Object* arg3);
-
+  /// [Extension]
   /// @brief Method FormatWith, addr 0x5d33b30, size 0x70, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::ArrayW<::System::Object*> args);
+  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, /* [ParamArray] [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args);
+
+  /// [NullableContext(2)]
+  /// [Extension]
+  /// @brief Method FormatWith, addr 0x5d33d8c, size 0x140, virtual false, abstract: false, final false
+  static inline ::StringW FormatWith(/* [Nullable(1)] */ ::StringW format, /* [Nullable(1)] */ ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1,
+                                     ::System::Object* arg2, ::System::Object* arg3);
 
   /// @brief Method IndexOf, addr 0x5d346c4, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::StringW s, char16_t c);
@@ -220,8 +239,9 @@ public:
   /// @brief Method IsLowSurrogate, addr 0x5d34690, size 0x34, virtual false, abstract: false, final false
   static inline bool IsLowSurrogate(char16_t c);
 
+  /// [NullableContext(2)]
   /// @brief Method IsNullOrEmpty, addr 0x5d33a68, size 0x1c, virtual false, abstract: false, final false
-  static inline bool IsNullOrEmpty(::StringW value);
+  static inline bool IsNullOrEmpty(/* [NotNullWhen(false)] */ ::StringW value);
 
   /// @brief Method IsWhiteSpace, addr 0x5d33f18, size 0xe0, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(::StringW s);
@@ -229,6 +249,7 @@ public:
   /// @brief Method Replace, addr 0x5d346e0, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW Replace(::StringW s, ::StringW oldValue, ::StringW newValue);
 
+  /// [Extension]
   /// @brief Method StartsWith, addr 0x5d346f4, size 0x30, virtual false, abstract: false, final false
   static inline bool StartsWith(::StringW source, char16_t value);
 
@@ -250,6 +271,7 @@ public:
   /// @brief Method ToSnakeCase, addr 0x5d343b0, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToSnakeCase(::StringW s);
 
+  /// [Extension]
   /// @brief Method Trim, addr 0x5d34758, size 0x194, virtual false, abstract: false, final false
   static inline ::StringW Trim(::StringW s, int32_t start, int32_t length);
 
@@ -259,13 +281,13 @@ protected:
   constexpr StringUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringUtils(StringUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringUtils(StringUtils const&) = delete;
+  StringUtils(StringUtilsconst&) = delete;
 
   /// @brief Field CarriageReturn offset 0xffffffff size 0x2
   static constexpr char16_t CarriageReturn{ u'\r' };

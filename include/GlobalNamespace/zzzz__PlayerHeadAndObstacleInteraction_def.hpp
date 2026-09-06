@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerHeadAndObstacleInteraction.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerHeadAndObstacleInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class PlayerHeadAndObstacleInteraction;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PlayerHeadAndObstacleInteraction*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PlayerHeadAndObstacleInteraction*, "", "PlayerHeadAndObstacleInteraction");
+// [AddComponentMenu("Beat Saber/Gameplay/PlayerHeadAndObstacleInteraction")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -130,24 +131,30 @@ public:
   /// @brief Method .ctor, addr 0x59ec654, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_headDidEnterObstacleEvent, addr 0x59eae78, size 0xc0, virtual false, abstract: false, final false
   inline void add_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_headDidEnterObstaclesEvent, addr 0x59ec100, size 0xac, virtual false, abstract: false, final false
   inline void add_headDidEnterObstaclesEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_headDidLeaveObstacleEvent, addr 0x59eaf38, size 0xc0, virtual false, abstract: false, final false
   inline void add_headDidLeaveObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method get_playerHeadIsInObstacle, addr 0x59eb4a4, size 0x58, virtual false, abstract: false, final false
   inline bool get_playerHeadIsInObstacle();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_headDidEnterObstacleEvent, addr 0x59eb214, size 0xc0, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x59ec1ac, size 0xac, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstaclesEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_headDidLeaveObstacleEvent, addr 0x59eb2d4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_headDidLeaveObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
@@ -157,29 +164,34 @@ protected:
   constexpr PlayerHeadAndObstacleInteraction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeadAndObstacleInteraction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeadAndObstacleInteraction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerHeadAndObstacleInteraction(PlayerHeadAndObstacleInteraction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeadAndObstacleInteraction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeadAndObstacleInteraction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerHeadAndObstacleInteraction(PlayerHeadAndObstacleInteraction const&) = delete;
+  PlayerHeadAndObstacleInteraction(PlayerHeadAndObstacleInteractionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6207 };
 
+  /// [Inject]
   /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
+  /// [Inject]
   /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
+  /// [CompilerGenerated]
   /// @brief Field headDidEnterObstaclesEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___headDidEnterObstaclesEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field headDidEnterObstacleEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___headDidEnterObstacleEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field headDidLeaveObstacleEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___headDidLeaveObstacleEvent;
 

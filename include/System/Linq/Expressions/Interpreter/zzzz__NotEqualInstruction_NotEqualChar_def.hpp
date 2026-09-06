@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NotEqualInstruction_NotEqualChar.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotEqualInstruction_NotEqualChar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr NotEqualInstruction_NotEqualChar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualChar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualChar", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotEqualInstruction_NotEqualChar(NotEqualInstruction_NotEqualChar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualChar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualChar", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NotEqualInstruction_NotEqualChar(NotEqualInstruction_NotEqualChar const&) = delete;
+  NotEqualInstruction_NotEqualChar(NotEqualInstruction_NotEqualCharconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16520 };

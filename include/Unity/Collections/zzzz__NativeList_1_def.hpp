@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeList_1.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Unity/Collections/zzzz__AllocatorManager_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeList_1)
@@ -22,54 +23,76 @@ namespace System {
 class IDisposable;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct UnsafeList_1;
 }
 namespace Unity::Collections {
 struct AllocatorManager_AllocatorHandle;
 }
 namespace Unity::Collections {
-template <typename T> class IIndexable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class IIndexable_1;
 }
 namespace Unity::Collections {
 class INativeDisposable;
 }
 namespace Unity::Collections {
-template <typename T> class INativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class INativeList_1;
 }
 namespace Unity::Collections {
 struct NativeArrayOptions;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_Enumerator;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_Enumerator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1_ReadOnly;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1_ReadOnly;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1_ParallelWriter;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1_ParallelWriter;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> struct NativeList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeList_1_ParallelWriter;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeList_1_ParallelWriter;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeList_1);
 MARK_GEN_VAL_T(::Unity::Collections::NativeList_1_ParallelWriter);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeList_1, "Unity.Collections", "NativeList`1");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Collections::NativeList_1_ParallelWriter, "Unity.Collections", "NativeList`1/ParallelWriter");
+// [NativeContainer]
+// [NativeContainerIsAtomicWriteOnly]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
 // Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeList`1/ParallelWriter<T>
 struct CORDL_TYPE NativeList_1_ParallelWriter {
@@ -92,6 +115,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* listData);
 
+  /// [IsReadOnly]
   /// @brief Method get_Ptr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void* get_Ptr();
 
@@ -99,7 +123,7 @@ public:
   // @brief default ctor
   constexpr NativeList_1_ParallelWriter();
 
-  // Ctor Parameters [CppParam { name: "ListData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ListData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr NativeList_1_ParallelWriter(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* ListData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -108,6 +132,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field ListData, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* ListData;
 
@@ -115,10 +140,16 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies
+// [DefaultMember("Item")]
+// [NativeContainer]
+// [DebuggerDisplay("Length = {m_ListData == null ? default : m_ListData->Length}, Capacity = {m_ListData == null ? default : m_ListData->Capacity}")]
+// [DebuggerTypeProxy(typeof(Unity.Collections.NativeListDebugView`1<T>))]
+// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
+// Dependencies Unity.Collections.AllocatorManager::IAllocator
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Collections.NativeList`1<T>
 struct CORDL_TYPE NativeList_1 {
@@ -155,7 +186,7 @@ public:
   constexpr operator ::Unity::Collections::INativeList_1<T>*();
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(::by_ref<T> value);
+  inline void Add(/* [IsReadOnly] */ ::by_ref<T> value);
 
   /// @brief Method AddNoResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddNoResize(T value);
@@ -173,7 +204,7 @@ public:
   inline void AddRangeNoResize(void* ptr, int32_t count);
 
   /// @brief Method AddReplicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddReplicate(::by_ref<T> value, int32_t count);
+  inline void AddReplicate(/* [IsReadOnly] */ ::by_ref<T> value, int32_t count);
 
   /// @brief Method AsArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<T> AsArray();
@@ -190,21 +221,33 @@ public:
   /// @brief Method AsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1_ReadOnly<T> AsReadOnly();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckArgPositive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CheckArgPositive(int32_t value);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckHandleMatches, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckHandleMatches(::Unity::Collections::AllocatorManager_AllocatorHandle handle);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckIndexInRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CheckIndexInRange(int32_t value, int32_t length);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckInitialCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CheckInitialCapacity(int32_t initialCapacity);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckSufficientCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CheckSufficientCapacity(int32_t capacity, int32_t length);
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
+  /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method CheckTotalSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CheckTotalSize(int32_t initialCapacity, int64_t totalSize);
 
@@ -212,13 +255,13 @@ public:
   inline void Clear();
 
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CopyFrom(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>> other);
+  inline void CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>> other);
 
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CopyFrom(::by_ref<::Unity::Collections::NativeArray_1<T>> other);
+  inline void CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T>> other);
 
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CopyFrom(::by_ref<::Unity::Collections::NativeList_1<T>> other);
+  inline void CopyFrom(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeList_1<T>> other);
 
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::Unity::Jobs::JobHandle Dispose(::Unity::Jobs::JobHandle inputDeps);
@@ -226,8 +269,12 @@ public:
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.AllocatorManager::AllocatorHandle) })]
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename U> inline void Dispose(::by_ref<U> allocator);
+  template <typename U>
+    requires(::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+             ::cordl_internals::default_constructor_constraint<U>)
+  inline void Dispose(::by_ref<U> allocator);
 
   /// @brief Method ElementAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::by_ref<T> ElementAt(int32_t index);
@@ -238,8 +285,12 @@ public:
   /// @brief Method GetUnsafeList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* GetUnsafeList();
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.AllocatorManager::AllocatorHandle) })]
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename U> inline void Initialize(int32_t initialCapacity, ::by_ref<U> allocator);
+  template <typename U>
+    requires(::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+             ::cordl_internals::default_constructor_constraint<U>)
+  inline void Initialize(int32_t initialCapacity, ::by_ref<U> allocator);
 
   /// @brief Method InsertRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InsertRange(int32_t index, int32_t count);
@@ -247,8 +298,12 @@ public:
   /// @brief Method InsertRangeWithBeginEnd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InsertRangeWithBeginEnd(int32_t begin, int32_t end);
 
+  /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.AllocatorManager::AllocatorHandle) })]
   /// @brief Method New, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename U> static inline ::Unity::Collections::NativeList_1<T> New(int32_t initialCapacity, ::by_ref<U> allocator);
+  template <typename U>
+    requires(::cordl_internals::type_constraint<U, ::Unity::Collections::AllocatorManager_IAllocator*> && ::cordl_internals::value_type_constraint<U> &&
+             ::cordl_internals::default_constructor_constraint<U>)
+  static inline ::Unity::Collections::NativeList_1<T> New(int32_t initialCapacity, ::by_ref<U> allocator);
 
   /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
@@ -289,18 +344,22 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
+  /// [IsReadOnly]
   /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Capacity();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
+  /// [IsReadOnly]
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Item(int32_t index);
 
+  /// [IsReadOnly]
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Length();
 
@@ -322,6 +381,7 @@ public:
   /// @brief Convert to "::Unity::Collections::INativeList_1<T>"
   constexpr ::Unity::Collections::INativeList_1<T>* i___Unity__Collections__INativeList_1_T_();
 
+  /// [Obsolete("Implicit cast from `NativeList<T>` to `NativeArray<T>` has been deprecated; Use \'.AsArray()\' method to do explicit cast instead.", false)]
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<T> op_Implicit___Unity__Collections__NativeArray_1_T_(::Unity::Collections::NativeList_1<T> nativeList);
 
@@ -338,7 +398,7 @@ public:
   // @brief default ctor
   constexpr NativeList_1();
 
-  // Ctor Parameters [CppParam { name: "m_ListData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ListData", ty: "::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr NativeList_1(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* m_ListData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -347,6 +407,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field m_ListData, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* m_ListData;
 

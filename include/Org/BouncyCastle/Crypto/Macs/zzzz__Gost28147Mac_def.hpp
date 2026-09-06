@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Macs\Gost28147Mac.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/Gost28147Mac.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -149,13 +149,13 @@ protected:
   constexpr Gost28147Mac();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost28147Mac", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost28147Mac", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost28147Mac(Gost28147Mac&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost28147Mac", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gost28147Mac", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gost28147Mac(Gost28147Mac const&) = delete;
+  Gost28147Mac(Gost28147Macconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 942 };

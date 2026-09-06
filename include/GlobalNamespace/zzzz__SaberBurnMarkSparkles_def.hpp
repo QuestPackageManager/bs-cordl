@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SaberBurnMarkSparkles.hpp"
+// IWYU pragma private; include "GlobalNamespace/SaberBurnMarkSparkles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class SaberBurnMarkSparkles;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SaberBurnMarkSparkles*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SaberBurnMarkSparkles*, "", "SaberBurnMarkSparkles");
+// [AddComponentMenu("Beat Saber/Gameplay/SaberBurnMarkSparkles")]
 // Dependencies Saber, UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem, UnityEngine.ParticleSystem::EmissionModule, UnityEngine.ParticleSystem::EmitParams, UnityEngine.Plane, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -198,13 +199,13 @@ protected:
   constexpr SaberBurnMarkSparkles();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkSparkles", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkSparkles", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberBurnMarkSparkles(SaberBurnMarkSparkles&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkSparkles", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkSparkles", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SaberBurnMarkSparkles(SaberBurnMarkSparkles const&) = delete;
+  SaberBurnMarkSparkles(SaberBurnMarkSparklesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5795 };
@@ -212,21 +213,27 @@ public:
   /// @brief Field kRenderOffset, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___kRenderOffset;
 
+  /// [SerializeField]
   /// @brief Field _sparklesPS, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____sparklesPS;
 
+  /// [SerializeField]
   /// @brief Field _burnMarksPSPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____burnMarksPSPrefab;
 
+  /// [SerializeField]
   /// @brief Field _collider, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Collider> ____collider;
 
+  /// [Inject]
   /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
+  /// [Inject]
   /// @brief Field _saberManager, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x58, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

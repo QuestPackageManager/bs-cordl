@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentShaderWarmupDebugger.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentShaderWarmupDebugger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::GlobalNamespace::EnvironmentShaderWarmupDebugger*);
 MARK_REF_T(::GlobalNamespace::EnvironmentShaderWarmupDebugger___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentShaderWarmupDebugger*, "", "EnvironmentShaderWarmupDebugger");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentShaderWarmupDebugger___c*, "", "EnvironmentShaderWarmupDebugger/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -83,13 +84,13 @@ protected:
   constexpr EnvironmentShaderWarmupDebugger___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmupDebugger___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmupDebugger___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentShaderWarmupDebugger___c(EnvironmentShaderWarmupDebugger___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmupDebugger___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmupDebugger___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentShaderWarmupDebugger___c(EnvironmentShaderWarmupDebugger___c const&) = delete;
+  EnvironmentShaderWarmupDebugger___c(EnvironmentShaderWarmupDebugger___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5534 };
@@ -186,13 +187,13 @@ protected:
   constexpr EnvironmentShaderWarmupDebugger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmupDebugger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmupDebugger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentShaderWarmupDebugger(EnvironmentShaderWarmupDebugger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmupDebugger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmupDebugger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentShaderWarmupDebugger(EnvironmentShaderWarmupDebugger const&) = delete;
+  EnvironmentShaderWarmupDebugger(EnvironmentShaderWarmupDebuggerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5535 };

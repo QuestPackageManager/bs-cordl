@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\IHierarchySearchQueryParser.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/IHierarchySearchQueryParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,6 +11,7 @@ class IHierarchySearchQueryParser;
 // Write type traits
 MARK_REF_T(::Unity::Hierarchy::IHierarchySearchQueryParser*);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::IHierarchySearchQueryParser*, "Unity.Hierarchy", "IHierarchySearchQueryParser");
+// [VisibleToOtherModules(new[] { "UnityEditor.HierarchyModule" })]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: false
@@ -18,9 +19,9 @@ namespace Unity::Hierarchy {
 class CORDL_TYPE IHierarchySearchQueryParser {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IHierarchySearchQueryParser", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IHierarchySearchQueryParser", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IHierarchySearchQueryParser(IHierarchySearchQueryParser const&) = delete;
+  IHierarchySearchQueryParser(IHierarchySearchQueryParserconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21932 };

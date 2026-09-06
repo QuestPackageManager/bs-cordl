@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\MethodProviderWithContainer_7.hpp"
+// IWYU pragma private; include "Zenject/MethodProviderWithContainer_7.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 // Write type traits
 MARK_GEN_REF_T_PTR(::Zenject::MethodProviderWithContainer_7);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::MethodProviderWithContainer_7, "Zenject", "MethodProviderWithContainer`7");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -93,13 +94,13 @@ protected:
   constexpr MethodProviderWithContainer_7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MethodProviderWithContainer_7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodProviderWithContainer_7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodProviderWithContainer_7(MethodProviderWithContainer_7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MethodProviderWithContainer_7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MethodProviderWithContainer_7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MethodProviderWithContainer_7(MethodProviderWithContainer_7 const&) = delete;
+  MethodProviderWithContainer_7(MethodProviderWithContainer_7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14571 };

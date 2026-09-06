@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\CullingOptions.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/CullingOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct CullingOptions;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CullingOptions);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::CullingOptions, "UnityEngine.Rendering", "CullingOptions");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr CullingOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CullingOptions(int32_t value__) noexcept;
 
   /// @brief Field DisablePerObjectCulling value: I32(32)

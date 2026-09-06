@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeBrickPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeBrickPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,6 +69,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ProbeBrickPool_DataLocation);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeBrickPool*, "UnityEngine.Rendering", "ProbeBrickPool");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc, "UnityEngine.Rendering", "ProbeBrickPool/BrickChunkAlloc");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeBrickPool_DataLocation, "UnityEngine.Rendering", "ProbeBrickPool/DataLocation");
+// [DebuggerDisplay("Chunk ({x}, {y}, {z})")]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -83,8 +84,8 @@ public:
   // @brief default ctor
   constexpr ProbeBrickPool_BrickChunkAlloc();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "int32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "z", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeBrickPool_BrickChunkAlloc(int32_t x, int32_t y, int32_t z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -128,14 +129,15 @@ public:
   // @brief default ctor
   constexpr ProbeBrickPool_DataLocation();
 
-  // Ctor Parameters [CppParam { name: "TexL0_L1rx", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "TexL1_G_ry", ty: "::UnityW<::UnityEngine::Texture>",
-  // modifiers: "", def_value: None }, CppParam { name: "TexL1_B_rz", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "TexL2_0", ty:
-  // "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "TexL2_1", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name:
-  // "TexL2_2", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "TexL2_3", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam
-  // { name: "TexProbeOcclusion", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "TexValidity", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "",
-  // def_value: None }, CppParam { name: "TexSkyOcclusion", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "TexSkyShadingDirectionIndices", ty:
-  // "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "TexL0_L1rx", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "TexL1_G_ry", ty:
+  // "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "TexL1_B_rz", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "TexL2_0", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "TexL2_1", ty:
+  // "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "TexL2_2", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "TexL2_3", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "TexProbeOcclusion", ty:
+  // "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "TexValidity", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "TexSkyOcclusion", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "TexSkyShadingDirectionIndices", ty:
+  // "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None, comment: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "height", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "depth", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeBrickPool_DataLocation(::UnityW<::UnityEngine::Texture> TexL0_L1rx, ::UnityW<::UnityEngine::Texture> TexL1_G_ry, ::UnityW<::UnityEngine::Texture> TexL1_B_rz,
                                         ::UnityW<::UnityEngine::Texture> TexL2_0, ::UnityW<::UnityEngine::Texture> TexL2_1, ::UnityW<::UnityEngine::Texture> TexL2_2,
                                         ::UnityW<::UnityEngine::Texture> TexL2_3, ::UnityW<::UnityEngine::Texture> TexProbeOcclusion, ::UnityW<::UnityEngine::Texture> TexValidity,
@@ -553,6 +555,7 @@ public:
 
   static inline ::UnityEngine::Rendering::LocalKeyword getStaticF_s_DataUpload_SkyShadingDirection();
 
+  /// [CompilerGenerated]
   /// @brief Method get_estimatedVMemCost, addr 0x6789b34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_estimatedVMemCost();
 
@@ -598,6 +601,7 @@ public:
 
   static inline void setStaticF_s_DataUpload_SkyShadingDirection(::UnityEngine::Rendering::LocalKeyword value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_estimatedVMemCost, addr 0x6789b3c, size 0x8, virtual false, abstract: false, final false
   inline void set_estimatedVMemCost(int32_t value);
 
@@ -607,13 +611,13 @@ protected:
   constexpr ProbeBrickPool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeBrickPool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeBrickPool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeBrickPool(ProbeBrickPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeBrickPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeBrickPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeBrickPool(ProbeBrickPool const&) = delete;
+  ProbeBrickPool(ProbeBrickPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12084 };
@@ -636,6 +640,7 @@ public:
   /// @brief Field kMaxPoolWidth offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPoolWidth{ static_cast<int32_t>(0x800) };
 
+  /// [CompilerGenerated]
   /// @brief Field <estimatedVMemCost>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____estimatedVMemCost_k__BackingField;
 

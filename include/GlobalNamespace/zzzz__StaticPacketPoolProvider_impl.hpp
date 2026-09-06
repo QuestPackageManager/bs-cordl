@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StaticPacketPoolProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace/StaticPacketPoolProvider.hpp"
+#include "GlobalNamespace/zzzz__IPoolablePacket_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticPacketPoolProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
@@ -29,7 +30,9 @@ inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*
   return ::cordl_internals::getStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>*, "_staticPools",
                                            ::GlobalNamespace::StaticPacketPoolProvider*>();
 }
-template <typename T> inline ::GlobalNamespace::PacketPool_1<T>* GlobalNamespace::StaticPacketPoolProvider::GetPacketPool() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IPoolablePacket*> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::GlobalNamespace::PacketPool_1<T>* GlobalNamespace::StaticPacketPoolProvider::GetPacketPool() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StaticPacketPoolProvider*>(), { "GetPacketPool", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

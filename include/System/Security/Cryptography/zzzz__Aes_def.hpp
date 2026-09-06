@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\Aes.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/Aes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class Aes;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::Aes*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::Aes*, "System.Security.Cryptography", "Aes");
+// [TypeForwardedFrom("System.Core, Version=2.0.5.0, Culture=Neutral, PublicKeyToken=7cec85d7bea7798e")]
 // Dependencies System.Security.Cryptography.KeySizes, System.Security.Cryptography.SymmetricAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -53,13 +54,13 @@ protected:
   constexpr Aes();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Aes", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Aes", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Aes(Aes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Aes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Aes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Aes(Aes const&) = delete;
+  Aes(Aesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2933 };

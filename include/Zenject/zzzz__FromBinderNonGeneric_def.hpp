@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FromBinderNonGeneric.hpp"
+// IWYU pragma private; include "Zenject/FromBinderNonGeneric.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__FromBinder_def.hpp"
+#include "Zenject/zzzz__IFactory_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(FromBinderNonGeneric)
 namespace System::Collections::Generic {
@@ -35,7 +36,9 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-template <typename TConcrete, typename TFactory> class FromBinderNonGeneric___c__1_2;
+template <typename TConcrete, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
+class FromBinderNonGeneric___c__1_2;
 }
 namespace Zenject {
 template <typename TValue> class IFactory_1;
@@ -57,17 +60,21 @@ namespace Zenject {
 class FromBinderNonGeneric;
 }
 namespace Zenject {
-template <typename TConcrete, typename TFactory> class FromBinderNonGeneric___c__1_2;
+template <typename TConcrete, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
+class FromBinderNonGeneric___c__1_2;
 }
 // Write type traits
 MARK_REF_T(::Zenject::FromBinderNonGeneric*);
 MARK_GEN_REF_T_PTR(::Zenject::FromBinderNonGeneric___c__1_2);
 DEFINE_IL2CPP_CLASS(::Zenject::FromBinderNonGeneric*, "Zenject", "FromBinderNonGeneric");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FromBinderNonGeneric___c__1_2, "Zenject", "FromBinderNonGeneric/<>c__1`2");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, Zenject.IFactory`1<TValue>
 namespace Zenject {
 // cpp template
 template <typename TConcrete, typename TFactory>
+  requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
 // Is value type: false
 // CS Name: Zenject.FromBinderNonGeneric/<>c__1`2<TConcrete,TFactory>
 class CORDL_TYPE FromBinderNonGeneric___c__1_2 : public ::System::Object {
@@ -87,6 +94,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -107,13 +115,13 @@ protected:
   constexpr FromBinderNonGeneric___c__1_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric___c__1_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric___c__1_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinderNonGeneric___c__1_2(FromBinderNonGeneric___c__1_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric___c__1_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric___c__1_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinderNonGeneric___c__1_2(FromBinderNonGeneric___c__1_2 const&) = delete;
+  FromBinderNonGeneric___c__1_2(FromBinderNonGeneric___c__1_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14269 };
@@ -122,14 +130,17 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies Zenject.FromBinder
+// [NoReflectionBaking]
+// Dependencies Zenject.FromBinder, Zenject.IFactory`1<TValue>
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.FromBinderNonGeneric
 class CORDL_TYPE FromBinderNonGeneric : public ::Zenject::FromBinder {
 public:
   // Declarations
-  template <typename TConcrete, typename TFactory> using __c__1_2 = ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>;
+  template <typename TConcrete, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
+  using __c__1_2 = ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>;
 
   /// @brief Method FromComponentsInChildren, addr 0x6e5cb80, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate,
@@ -142,7 +153,9 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TConcrete, typename TFactory> inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromFactory();
+  template <typename TConcrete, typename TFactory>
+    requires(::cordl_internals::type_constraint<TFactory, ::Zenject::IFactory_1<TConcrete>*>)
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromFactory();
 
   /// @brief Method FromIFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract>
@@ -191,13 +204,13 @@ protected:
   constexpr FromBinderNonGeneric();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FromBinderNonGeneric(FromBinderNonGeneric&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FromBinderNonGeneric(FromBinderNonGeneric const&) = delete;
+  FromBinderNonGeneric(FromBinderNonGenericconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14270 };

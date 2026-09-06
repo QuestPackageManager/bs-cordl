@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Events\UnityEvent_2.hpp"
+// IWYU pragma private; include "UnityEngine/Events/UnityEvent_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Invoke(T0 arg0, T1 arg1);
 
+  /// @brief [RequiredByNativeCode]
   static inline ::UnityEngine::Events::UnityEvent_2<T0, T1>* New_ctor();
 
   /// @brief Method RemoveListener, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -68,6 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_m_InvokeArray(::ArrayW<::System::Object*> value);
 
+  /// [RequiredByNativeCode]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -77,13 +79,13 @@ protected:
   constexpr UnityEvent_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityEvent_2(UnityEvent_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnityEvent_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnityEvent_2(UnityEvent_2 const&) = delete;
+  UnityEvent_2(UnityEvent_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10459 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\CertificateValues.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CertificateValues.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CertificateValues_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_def.hpp"
@@ -113,7 +113,7 @@ inline void Org::BouncyCastle::Asn1::Esf::CertificateValues::_ctor(::Org::Bouncy
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::CertificateValues*>(), { ".ctor", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Sequence*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, seq);
 }
-inline void Org::BouncyCastle::Asn1::Esf::CertificateValues::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> certificates) {
+inline void Org::BouncyCastle::Asn1::Esf::CertificateValues::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> certificates) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::CertificateValues*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, certificates);
@@ -135,7 +135,8 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::Cert
 inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues* Org::BouncyCastle::Asn1::Esf::CertificateValues::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::CertificateValues*>(seq));
 }
-inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues* Org::BouncyCastle::Asn1::Esf::CertificateValues::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> certificates) {
+inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues*
+Org::BouncyCastle::Asn1::Esf::CertificateValues::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> certificates) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Esf::CertificateValues*>(certificates));
 }
 inline ::Org::BouncyCastle::Asn1::Esf::CertificateValues* Org::BouncyCastle::Asn1::Esf::CertificateValues::New_ctor(::System::Collections::IEnumerable* certificates) {

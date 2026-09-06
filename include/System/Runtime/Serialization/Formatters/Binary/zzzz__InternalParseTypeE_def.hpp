@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\InternalParseTypeE.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/InternalParseTypeE.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   // @brief default ctor
   constexpr InternalParseTypeE();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InternalParseTypeE(int32_t value__) noexcept;
 
   /// @brief Field Body value: I32(11)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PlayerLoop\PreUpdate.hpp"
+// IWYU pragma private; include "UnityEngine/PlayerLoop/PreUpdate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,6 +100,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PreUpdate_PhysicsUpdate, "UnityEn
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PreUpdate_SendMouseEvents, "UnityEngine.PlayerLoop", "PreUpdate/SendMouseEvents");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PreUpdate_UpdateVideo, "UnityEngine.PlayerLoop", "PreUpdate/UpdateVideo");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::PreUpdate_WindUpdate, "UnityEngine.PlayerLoop", "PreUpdate/WindUpdate");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -128,6 +129,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_PhysicsUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -156,6 +158,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_Physics2DUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -184,6 +187,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_PhysicsClothUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -212,6 +216,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_CheckTexFieldInput) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -240,6 +245,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_IMGUISendQueuedEvents) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -268,6 +274,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_SendMouseEvents) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -296,6 +303,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_AIUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -324,6 +332,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_WindUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -352,6 +361,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_UpdateVideo) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -380,6 +390,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_NewInputUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -408,6 +419,8 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::PreUpdate_InputForUIUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true

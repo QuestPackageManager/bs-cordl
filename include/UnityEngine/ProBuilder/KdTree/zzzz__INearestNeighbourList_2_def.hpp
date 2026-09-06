@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\KdTree\INearestNeighbourList_2.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/INearestNeighbourList_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,24 +25,24 @@ public:
 
   __declspec(property(get = get_MaxCapacity)) int32_t MaxCapacity;
 
-  /// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Add(TItem item, TDistance distance);
 
-  /// @brief Method GetFurtherest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetFurtherest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TItem GetFurtherest();
 
-  /// @brief Method RemoveFurtherest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RemoveFurtherest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TItem RemoveFurtherest();
 
-  /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_MaxCapacity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCapacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_MaxCapacity();
 
-  // Ctor Parameters [CppParam { name: "", ty: "INearestNeighbourList_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INearestNeighbourList_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INearestNeighbourList_2(INearestNeighbourList_2 const&) = delete;
+  INearestNeighbourList_2(INearestNeighbourList_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22687 };

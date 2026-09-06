@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockBeatmapDataAssetFileModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockBeatmapDataAssetFileModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::GlobalNamespace::MockBeatmapDataAssetFileModel*);
 MARK_VAL_T(::GlobalNamespace::MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MockBeatmapDataAssetFileModel*, "", "MockBeatmapDataAssetFileModel");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4, "", "MockBeatmapDataAssetFileModel/<GetAssetBundleFileForBeatmapLevelAsync>d__4");
+// [CompilerGenerated]
 // Dependencies GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -67,6 +68,7 @@ public:
   /// @brief Method MoveNext, addr 0x372f9e0, size 0x4e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x372fec8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -77,12 +79,12 @@ public:
   // @brief default ctor
   constexpr MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty:
-  // "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockBeatmapDataAssetFileModel*", modifiers: "", def_value: None },
-  // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_path_5__2", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_i_5__3", ty: "uint32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult>", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapLevel", ty:
+  // "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockBeatmapDataAssetFileModel*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_path_5__2", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "_i_5__3", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::GetAssetBundleFileResult> __t__builder, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
       ::GlobalNamespace::MockBeatmapDataAssetFileModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW _path_5__2,
@@ -156,6 +158,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr operator ::GlobalNamespace::IBeatmapDataAssetFileModel*() noexcept;
 
+  /// [AsyncStateMachine(typeof(MockBeatmapDataAssetFileModel::<GetAssetBundleFileForBeatmapLevelAsync>d__4))]
   /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x372f878, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                                  ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
@@ -177,12 +180,14 @@ public:
   /// @brief Method .ctor, addr 0x372f9dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x372f6f8, size 0xc0, virtual true, abstract: false, final true
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x372f7b8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
@@ -192,13 +197,13 @@ protected:
   constexpr MockBeatmapDataAssetFileModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataAssetFileModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataAssetFileModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockBeatmapDataAssetFileModel(MockBeatmapDataAssetFileModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataAssetFileModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapDataAssetFileModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockBeatmapDataAssetFileModel(MockBeatmapDataAssetFileModel const&) = delete;
+  MockBeatmapDataAssetFileModel(MockBeatmapDataAssetFileModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15035 };
@@ -206,6 +211,7 @@ public:
   /// @brief Field kAssetsDir offset 0xffffffff size 0x8
   static constexpr ::ConstString kAssetsDir{ u"BeatmapDataAssets" };
 
+  /// [CompilerGenerated]
   /// @brief Field levelDataAssetDownloadUpdateEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* ___levelDataAssetDownloadUpdateEvent;
 

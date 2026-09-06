@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceLocations\ResourceLocationBase.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceLocations/ResourceLocationBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,8 +90,8 @@ public:
   /// @brief Method Hash, addr 0x6923b24, size 0x4c, virtual true, abstract: false, final true
   inline int32_t Hash(::System::Type* t);
 
-  static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* New_ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
-                                                                                                     ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies);
+  static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
+  New_ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t, /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies);
 
   /// @brief Method ToString, addr 0x6923b70, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
@@ -151,7 +151,8 @@ public:
   constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
   /// @brief Method .ctor, addr 0x6923b78, size 0x1d8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t, ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies);
+  inline void _ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
+                    /* [ParamArray] */ ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies);
 
   /// @brief Method get_Data, addr 0x6923af4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_Data();
@@ -192,13 +193,13 @@ protected:
   constexpr ResourceLocationBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceLocationBase(ResourceLocationBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceLocationBase(ResourceLocationBase const&) = delete;
+  ResourceLocationBase(ResourceLocationBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18800 };

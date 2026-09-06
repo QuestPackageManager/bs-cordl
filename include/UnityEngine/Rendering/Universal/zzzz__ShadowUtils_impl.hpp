@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowUtils.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShadowUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -1046,7 +1046,7 @@ inline bool UnityEngine::Rendering::Universal::ShadowUtils::IsValidShadowCasting
                                                                ::i2c::type_of<::UnityEngine::LightType>(), ::i2c::type_of<::UnityEngine::LightShadows>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lightData, i, lightType, lightShadows, shadowStrength);
 }
-inline int32_t UnityEngine::Rendering::Universal::ShadowUtils::GetPunctualLightShadowSlicesCount(::by_ref<::UnityEngine::LightType> lightType) {
+inline int32_t UnityEngine::Rendering::Universal::ShadowUtils::GetPunctualLightShadowSlicesCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LightType> lightType) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowUtils*>(),
                                                                                          { "GetPunctualLightShadowSlicesCount", {}, { ::i2c::type_of<::by_ref<::UnityEngine::LightType>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, lightType);

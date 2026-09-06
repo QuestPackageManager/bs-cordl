@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Rendering\GraphicsFormatUsage.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/GraphicsFormatUsage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct GraphicsFormatUsage;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Rendering::GraphicsFormatUsage);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Experimental::Rendering::GraphicsFormatUsage, "UnityEngine.Experimental.Rendering", "GraphicsFormatUsage");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
@@ -55,7 +56,7 @@ public:
   // @brief default ctor
   constexpr GraphicsFormatUsage();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphicsFormatUsage(int32_t value__) noexcept;
 
   /// @brief Field Blend value: I32(32)

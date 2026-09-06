@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Jobs\TransformAccess.hpp"
+// IWYU pragma private; include "UnityEngine/Jobs/TransformAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ struct TransformAccess;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Jobs::TransformAccess);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Jobs::TransformAccess, "UnityEngine.Jobs", "TransformAccess");
+// [NativeHeader("Runtime/Transform/ScriptBindings/TransformAccess.bindings.h")]
 // Dependencies System.IntPtr
 namespace UnityEngine::Jobs {
 // Is value type: true
@@ -42,43 +43,54 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
+  /// [NativeMethod(Name = "TransformAccessBindings::GetLocalScale", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method GetLocalScale, addr 0x6afbf70, size 0x44, virtual false, abstract: false, final false
   static inline void GetLocalScale(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> r);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::GetLocalToWorldMatrix", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method GetLocalToWorldMatrix, addr 0x6afc0b8, size 0x44, virtual false, abstract: false, final false
   static inline void GetLocalToWorldMatrix(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Matrix4x4> m);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::GetPosition", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method GetPosition, addr 0x6afbbd4, size 0x44, virtual false, abstract: false, final false
   static inline void GetPosition(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> p);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::GetRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method GetRotation, addr 0x6afbd08, size 0x44, virtual false, abstract: false, final false
   static inline void GetRotation(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Quaternion> r);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::SetLocalPosition", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method SetLocalPosition, addr 0x6afbe38, size 0x44, virtual false, abstract: false, final false
   static inline void SetLocalPosition(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> p);
 
   /// @brief Method SetLocalPositionAndRotation, addr 0x6afc1b0, size 0x60, virtual false, abstract: false, final false
   inline void SetLocalPositionAndRotation(::UnityEngine::Vector3 localPosition, ::UnityEngine::Quaternion localRotation);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::SetLocalPositionAndRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method SetLocalPositionAndRotation_Internal, addr 0x6afc210, size 0x54, virtual false, abstract: false, final false
   static inline void SetLocalPositionAndRotation_Internal(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> localPosition,
                                                           ::by_ref<::UnityEngine::Quaternion> localRotation);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::SetLocalRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method SetLocalRotation, addr 0x6afbed0, size 0x44, virtual false, abstract: false, final false
   static inline void SetLocalRotation(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Quaternion> r);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::SetLocalScale", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method SetLocalScale, addr 0x6afc008, size 0x44, virtual false, abstract: false, final false
   static inline void SetLocalScale(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> r);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::SetPosition", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method SetPosition, addr 0x6afbc6c, size 0x44, virtual false, abstract: false, final false
   static inline void SetPosition(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> p);
 
   /// @brief Method SetPositionAndRotation, addr 0x6afc0fc, size 0x60, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::SetPositionAndRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method SetPositionAndRotation_Internal, addr 0x6afc15c, size 0x54, virtual false, abstract: false, final false
   static inline void SetPositionAndRotation_Internal(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation);
 
+  /// [NativeMethod(Name = "TransformAccessBindings::SetRotation", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method SetRotation, addr 0x6afbda0, size 0x44, virtual false, abstract: false, final false
   static inline void SetRotation(::by_ref<::UnityEngine::Jobs::TransformAccess> access, ::by_ref<::UnityEngine::Quaternion> r);
 
@@ -113,7 +125,8 @@ public:
   // @brief default ctor
   constexpr TransformAccess();
 
-  // Ctor Parameters [CppParam { name: "hierarchy", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hierarchy", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr TransformAccess(::System::IntPtr hierarchy, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

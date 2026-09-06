@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\SpaceFillingCurves.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/SpaceFillingCurves.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__SpaceFillingCurves_def.hpp"
 #include "Unity/Mathematics/zzzz__uint2_def.hpp"

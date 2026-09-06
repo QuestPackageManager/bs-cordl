@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\ProxyConsoleLine.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/ProxyConsoleLine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,9 +45,11 @@ public:
   /// @brief Method .ctor, addr 0x5a4d5c0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Entry, addr 0x5a4d560, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* get_Entry();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Entry, addr 0x5a4d568, size 0x8, virtual false, abstract: false, final false
   inline void set_Entry(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* value);
 
@@ -57,17 +59,18 @@ protected:
   constexpr ProxyConsoleLine();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyConsoleLine", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyConsoleLine", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProxyConsoleLine(ProxyConsoleLine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyConsoleLine", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProxyConsoleLine", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProxyConsoleLine(ProxyConsoleLine const&) = delete;
+  ProxyConsoleLine(ProxyConsoleLineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18363 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Entry>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* ____Entry_k__BackingField;
 

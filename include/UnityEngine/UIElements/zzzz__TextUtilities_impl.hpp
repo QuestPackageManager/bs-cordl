@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextUtilities_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
@@ -150,8 +150,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::
   }
 };
 inline ::UnityEngine::Vector2 UnityEngine::UIElements::TextUtilities::MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement* te,
-                                                                                                   ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width,
-                                                                                                   ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
+                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure,
+                                                                                                   float_t width, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
                                                                                                    ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextUtilities*>(),

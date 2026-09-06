@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextElementType.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextElementType.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::TextElementType::TextElementType(uint8_t value__) noexcept {
   this->value__ = value__;
 }

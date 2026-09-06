@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\LightMinMaxZJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/LightMinMaxZJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ struct LightMinMaxZJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::LightMinMaxZJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::LightMinMaxZJob, "UnityEngine.Rendering.Universal", "LightMinMaxZJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Mathematics.float2, Unity.Mathematics.float4x4, UnityEngine.Rendering.Universal.Fixed2`1<T>, UnityEngine.Rendering.VisibleLight
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -41,9 +42,9 @@ public:
   // @brief default ctor
   constexpr LightMinMaxZJob();
 
-  // Ctor Parameters [CppParam { name: "worldToViews", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None }, CppParam { name: "lights",
-  // ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>", modifiers: "", def_value: None }, CppParam { name: "minMaxZs", ty:
-  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "worldToViews", ty: "::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "lights", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>", modifiers: "", def_value: None, comment: None }, CppParam { name: "minMaxZs", ty:
+  // "::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2>", modifiers: "", def_value: None, comment: None }]
   constexpr LightMinMaxZJob(::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> worldToViews,
                             ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights, ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> minMaxZs) noexcept;
 
@@ -56,6 +57,7 @@ public:
   /// @brief Field worldToViews, offset: 0x0, size: 0x80, def value: None
   ::UnityEngine::Rendering::Universal::Fixed2_1<::Unity::Mathematics::float4x4> worldToViews;
 
+  /// [ReadOnly]
   /// @brief Field lights, offset: 0x80, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights;
 

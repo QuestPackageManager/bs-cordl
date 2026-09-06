@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScriptableRendererFeature.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScriptableRendererFeature.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -214,7 +214,7 @@ inline void UnityEngine::Rendering::Universal::ScriptableRendererFeature::Create
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::Universal::ScriptableRendererFeature::OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
-                                                                                          ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererFeature*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, cameraData);
@@ -226,7 +226,7 @@ inline void UnityEngine::Rendering::Universal::ScriptableRendererFeature::AddRen
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
 }
 inline void UnityEngine::Rendering::Universal::ScriptableRendererFeature::SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
-                                                                                            ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererFeature*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);

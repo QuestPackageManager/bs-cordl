@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\UVEditing.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,6 +66,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::UVEditing*, "Unit
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::UVEditing___c*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::UVEditing___c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c__DisplayClass0_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::UVEditing___c__DisplayClass4_0*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c__DisplayClass4_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -151,13 +152,13 @@ protected:
   constexpr UVEditing___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UVEditing___c(UVEditing___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UVEditing___c(UVEditing___c const&) = delete;
+  UVEditing___c(UVEditing___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16897 };
@@ -168,6 +169,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::UVEditing___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -207,13 +209,13 @@ protected:
   constexpr UVEditing___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UVEditing___c__DisplayClass0_0(UVEditing___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UVEditing___c__DisplayClass0_0(UVEditing___c__DisplayClass0_0 const&) = delete;
+  UVEditing___c__DisplayClass0_0(UVEditing___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16898 };
@@ -234,6 +236,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::UVEditing___c_
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::UVEditing___c__DisplayClass0_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -264,13 +267,13 @@ protected:
   constexpr UVEditing___c__DisplayClass4_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass4_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UVEditing___c__DisplayClass4_0(UVEditing___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UVEditing___c__DisplayClass4_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UVEditing___c__DisplayClass4_0(UVEditing___c__DisplayClass4_0 const&) = delete;
+  UVEditing___c__DisplayClass4_0(UVEditing___c__DisplayClass4_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16899 };
@@ -286,6 +289,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::UVEditing___c_
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::UVEditing___c__DisplayClass4_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -309,6 +313,7 @@ public:
   /// @brief Method AutoStitch, addr 0x673d570, size 0x27c, virtual false, abstract: false, final false
   static inline bool AutoStitch(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* f1, ::UnityEngine::ProBuilder::Face* f2, int32_t channel);
 
+  /// [Extension]
   /// @brief Method CollapseUVs, addr 0x673f164, size 0xcc, virtual false, abstract: false, final false
   static inline void CollapseUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes);
 
@@ -333,12 +338,14 @@ public:
   /// @brief Method ProjectFacesSphere, addr 0x67408a4, size 0x17c, virtual false, abstract: false, final false
   static inline void ProjectFacesSphere(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::ArrayW<int32_t> indexes, int32_t channel);
 
+  /// [Extension]
   /// @brief Method SewUVs, addr 0x673eb3c, size 0x624, virtual false, abstract: false, final false
   static inline void SewUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes, float_t delta);
 
   /// @brief Method SplitUVs, addr 0x673f230, size 0x404, virtual false, abstract: false, final false
   static inline void SplitUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
+  /// [Extension]
   /// @brief Method SplitUVs, addr 0x673e45c, size 0x380, virtual false, abstract: false, final false
   static inline void SplitUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
@@ -348,13 +355,13 @@ protected:
   constexpr UVEditing();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UVEditing", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UVEditing", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UVEditing(UVEditing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UVEditing", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UVEditing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UVEditing(UVEditing const&) = delete;
+  UVEditing(UVEditingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16900 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\RevocationValues.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/RevocationValues.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,13 +110,13 @@ protected:
   constexpr RevocationValues();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RevocationValues", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RevocationValues", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RevocationValues(RevocationValues&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RevocationValues", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RevocationValues", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RevocationValues(RevocationValues const&) = delete;
+  RevocationValues(RevocationValuesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 154 };

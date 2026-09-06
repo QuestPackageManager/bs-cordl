@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ReusableCollectionItem.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ReusableCollectionItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -154,48 +154,62 @@ public:
   /// @brief Method .ctor, addr 0x6c55534, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_onDestroy, addr 0x6c553b4, size 0xc0, virtual false, abstract: false, final false
   inline void add_onDestroy(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_onGeometryChanged, addr 0x6c55234, size 0xc0, virtual false, abstract: false, final false
   inline void add_onGeometryChanged(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_animator, addr 0x6c551f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* get_animator();
 
+  /// [CompilerGenerated]
   /// @brief Method get_bindableElement, addr 0x6c551e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_bindableElement();
 
+  /// [CompilerGenerated]
   /// @brief Method get_id, addr 0x6c55214, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
+  /// [CompilerGenerated]
   /// @brief Method get_index, addr 0x6c55204, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isDragGhost, addr 0x6c55224, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDragGhost();
 
   /// @brief Method get_rootElement, addr 0x6c551dc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onDestroy, addr 0x6c55474, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onDestroy(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_onGeometryChanged, addr 0x6c552f4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onGeometryChanged(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_animator, addr 0x6c551fc, size 0x8, virtual false, abstract: false, final false
   inline void set_animator(::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_bindableElement, addr 0x6c551ec, size 0x8, virtual false, abstract: false, final false
   inline void set_bindableElement(::UnityEngine::UIElements::VisualElement* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_id, addr 0x6c5521c, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_index, addr 0x6c5520c, size 0x8, virtual false, abstract: false, final false
   inline void set_index(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isDragGhost, addr 0x6c5522c, size 0x8, virtual false, abstract: false, final false
   inline void set_isDragGhost(bool value);
 
@@ -205,38 +219,52 @@ protected:
   constexpr ReusableCollectionItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReusableCollectionItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReusableCollectionItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReusableCollectionItem(ReusableCollectionItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReusableCollectionItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReusableCollectionItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReusableCollectionItem(ReusableCollectionItem const&) = delete;
+  ReusableCollectionItem(ReusableCollectionItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4094 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <bindableElement>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____bindableElement_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <animator>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* ____animator_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <index>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____index_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <id>k__BackingField, offset: 0x24, size: 0x4, def value: None
   int32_t ____id_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isDragGhost>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____isDragGhost_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field onGeometryChanged, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* ___onGeometryChanged;
 
   /// @brief Field m_GeometryChangedEventCallback, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::GeometryChangedEvent*>* ___m_GeometryChangedEventCallback;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field onDestroy, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* ___onDestroy;
 

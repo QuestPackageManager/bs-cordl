@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Syntax\DataType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/DataType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct DataType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::DataType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::Syntax::DataType, "UnityEngine.UIElements.StyleSheets.Syntax", "DataType");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
@@ -51,7 +52,7 @@ public:
   // @brief default ctor
   constexpr DataType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DataType(int32_t value__) noexcept;
 
   /// @brief Field Angle value: I32(9)

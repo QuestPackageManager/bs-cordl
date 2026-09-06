@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Profiling\ProfilerMarker_3.hpp"
+// IWYU pragma private; include "Unity/Profiling/ProfilerMarker_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,24 +13,36 @@ namespace Unity::Profiling {
 struct ProfilerCategory;
 }
 namespace Unity::Profiling {
-template <typename TP1, typename TP2, typename TP3> struct ProfilerMarker_3_AutoScope;
+template <typename TP1, typename TP2, typename TP3>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
+struct ProfilerMarker_3_AutoScope;
 }
 // Forward declare root types
 namespace Unity::Profiling {
-template <typename TP1, typename TP2, typename TP3> struct ProfilerMarker_3;
+template <typename TP1, typename TP2, typename TP3>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
+struct ProfilerMarker_3;
 }
 namespace Unity::Profiling {
-template <typename TP1, typename TP2, typename TP3> struct ProfilerMarker_3_AutoScope;
+template <typename TP1, typename TP2, typename TP3>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
+struct ProfilerMarker_3_AutoScope;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerMarker_3);
 MARK_GEN_VAL_T(::Unity::Profiling::ProfilerMarker_3_AutoScope);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Profiling::ProfilerMarker_3, "Unity.Profiling", "ProfilerMarker`3");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Profiling::ProfilerMarker_3_AutoScope, "Unity.Profiling", "ProfilerMarker`3/AutoScope");
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Profiling {
 // cpp template
 template <typename TP1, typename TP2, typename TP3>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`3/AutoScope<TP1,TP2,TP3>
 #pragma pack(push, 0)
@@ -64,10 +76,13 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 } // namespace Unity::Profiling
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Profiling {
 // cpp template
 template <typename TP1, typename TP2, typename TP3>
+  requires(::cordl_internals::value_type_constraint<TP1> && ::cordl_internals::default_constructor_constraint<TP1> && ::cordl_internals::value_type_constraint<TP2> &&
+           ::cordl_internals::default_constructor_constraint<TP2> && ::cordl_internals::value_type_constraint<TP3> && ::cordl_internals::default_constructor_constraint<TP3>)
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker`3<TP1,TP2,TP3>
 #pragma pack(push, 0)
@@ -79,9 +94,11 @@ public:
   /// @brief Method Auto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker_3_AutoScope<TP1, TP2, TP3> Auto(TP1 p1, TP2 p2, TP3 p3);
 
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method Begin, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Begin(TP1 p1, TP2 p2, TP3 p3);
 
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method End, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void End();
 

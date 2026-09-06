@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ImmutableCollectionsUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ImmutableCollectionsUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,6 +63,7 @@ DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_Imm
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/<>c");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/<>c__DisplayClass24_0");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0*, "Newtonsoft.Json.Utilities", "ImmutableCollectionsUtils/<>c__DisplayClass25_0");
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -108,21 +109,27 @@ public:
   /// @brief Method .ctor, addr 0x5d29944, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW contractTypeName, ::StringW createdTypeName, ::StringW builderTypeName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BuilderTypeName, addr 0x5d29970, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BuilderTypeName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ContractTypeName, addr 0x5d29950, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContractTypeName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CreatedTypeName, addr 0x5d29960, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CreatedTypeName();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BuilderTypeName, addr 0x5d29978, size 0x8, virtual false, abstract: false, final false
   inline void set_BuilderTypeName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ContractTypeName, addr 0x5d29958, size 0x8, virtual false, abstract: false, final false
   inline void set_ContractTypeName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CreatedTypeName, addr 0x5d29968, size 0x8, virtual false, abstract: false, final false
   inline void set_CreatedTypeName(::StringW value);
 
@@ -132,23 +139,26 @@ protected:
   constexpr ImmutableCollectionsUtils_ImmutableCollectionTypeInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils_ImmutableCollectionTypeInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils_ImmutableCollectionTypeInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImmutableCollectionsUtils_ImmutableCollectionTypeInfo(ImmutableCollectionsUtils_ImmutableCollectionTypeInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils_ImmutableCollectionTypeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils_ImmutableCollectionTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils_ImmutableCollectionTypeInfo(ImmutableCollectionsUtils_ImmutableCollectionTypeInfo const&) = delete;
+  ImmutableCollectionsUtils_ImmutableCollectionTypeInfo(ImmutableCollectionsUtils_ImmutableCollectionTypeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13424 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ContractTypeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____ContractTypeName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <CreatedTypeName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____CreatedTypeName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <BuilderTypeName>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____BuilderTypeName_k__BackingField;
 
@@ -164,6 +174,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_
 static_assert(sizeof(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo) == 0x28, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -182,9 +193,11 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <TryBuildImmutableForArrayContract>b__24_1, addr 0x5d299d8, size 0x94, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForArrayContract_b__24_1(::System::Reflection::MethodInfo* m);
 
+  /// [NullableContext(0)]
   /// @brief Method <TryBuildImmutableForDictionaryContract>b__25_1, addr 0x5d29a6c, size 0x144, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForDictionaryContract_b__25_1(::System::Reflection::MethodInfo* m);
 
@@ -209,13 +222,13 @@ protected:
   constexpr ImmutableCollectionsUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImmutableCollectionsUtils___c(ImmutableCollectionsUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils___c(ImmutableCollectionsUtils___c const&) = delete;
+  ImmutableCollectionsUtils___c(ImmutableCollectionsUtils___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13425 };
@@ -226,6 +239,7 @@ public:
 static_assert(sizeof(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c) == 0x10, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -238,6 +252,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <TryBuildImmutableForArrayContract>b__0, addr 0x5d29bb0, size 0x1c, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForArrayContract_b__0(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo* d);
 
@@ -256,17 +271,18 @@ protected:
   constexpr ImmutableCollectionsUtils___c__DisplayClass24_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass24_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass24_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImmutableCollectionsUtils___c__DisplayClass24_0(ImmutableCollectionsUtils___c__DisplayClass24_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass24_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass24_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils___c__DisplayClass24_0(ImmutableCollectionsUtils___c__DisplayClass24_0 const&) = delete;
+  ImmutableCollectionsUtils___c__DisplayClass24_0(ImmutableCollectionsUtils___c__DisplayClass24_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13426 };
 
+  /// [Nullable(0)]
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -278,6 +294,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_
 static_assert(sizeof(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -290,6 +307,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0* New_ctor();
 
+  /// [NullableContext(0)]
   /// @brief Method <TryBuildImmutableForDictionaryContract>b__0, addr 0x5d29bcc, size 0x1c, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForDictionaryContract_b__0(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo* d);
 
@@ -308,17 +326,18 @@ protected:
   constexpr ImmutableCollectionsUtils___c__DisplayClass25_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass25_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass25_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImmutableCollectionsUtils___c__DisplayClass25_0(ImmutableCollectionsUtils___c__DisplayClass25_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass25_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils___c__DisplayClass25_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils___c__DisplayClass25_0(ImmutableCollectionsUtils___c__DisplayClass25_0 const&) = delete;
+  ImmutableCollectionsUtils___c__DisplayClass25_0(ImmutableCollectionsUtils___c__DisplayClass25_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13427 };
 
+  /// [Nullable(0)]
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -330,6 +349,8 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_
 static_assert(sizeof(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0) == 0x18, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -354,12 +375,14 @@ public:
       ::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>* DictionaryContractImmutableCollectionDefinitions;
 
   /// @brief Method TryBuildImmutableForArrayContract, addr 0x5d287cc, size 0x44c, virtual false, abstract: false, final false
-  static inline bool TryBuildImmutableForArrayContract(::System::Type* underlyingType, ::System::Type* collectionItemType, ::by_ref<::System::Type*> createdType,
-                                                       ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator);
+  static inline bool
+  TryBuildImmutableForArrayContract(::System::Type* underlyingType, ::System::Type* collectionItemType, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Type*> createdType,
+                                    /* [Nullable(new[] { 2, 1 })] [NotNullWhen(true)] */ ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator);
 
   /// @brief Method TryBuildImmutableForDictionaryContract, addr 0x5d28c1c, size 0x4a0, virtual false, abstract: false, final false
-  static inline bool TryBuildImmutableForDictionaryContract(::System::Type* underlyingType, ::System::Type* keyItemType, ::System::Type* valueItemType, ::by_ref<::System::Type*> createdType,
-                                                            ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator);
+  static inline bool TryBuildImmutableForDictionaryContract(
+      ::System::Type* underlyingType, ::System::Type* keyItemType, ::System::Type* valueItemType, /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Type*> createdType,
+      /* [Nullable(new[] { 2, 1 })] [NotNullWhen(true)] */ ::by_ref<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator);
 
   static inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*>*
   getStaticF_ArrayContractImmutableCollectionDefinitions();
@@ -379,13 +402,13 @@ protected:
   constexpr ImmutableCollectionsUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImmutableCollectionsUtils(ImmutableCollectionsUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ImmutableCollectionsUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ImmutableCollectionsUtils(ImmutableCollectionsUtils const&) = delete;
+  ImmutableCollectionsUtils(ImmutableCollectionsUtilsconst&) = delete;
 
   /// @brief Field ImmutableArrayGenericTypeName offset 0xffffffff size 0x8
   static constexpr ::ConstString ImmutableArrayGenericTypeName{ u"System.Collections.Immutable.ImmutableArray`1" };

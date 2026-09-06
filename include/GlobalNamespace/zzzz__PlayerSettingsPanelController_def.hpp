@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerSettingsPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerSettingsPanelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,7 +108,7 @@ public:
   // @brief default ctor
   constexpr PlayerSettingsPanelController_PlayerSettingsPanelLayout();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PlayerSettingsPanelController_PlayerSettingsPanelLayout(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(0)
@@ -347,30 +347,39 @@ public:
   /// @brief Method UnsubscribeAllUICallbacks, addr 0x5948228, size 0x34, virtual false, abstract: false, final false
   inline void UnsubscribeAllUICallbacks();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__42_0, addr 0x594863c, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_0(bool on);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__42_1, addr 0x5948660, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_1(bool on);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__42_2, addr 0x5948684, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_2(bool on);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__42_3, addr 0x59486a8, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_3(bool on);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__42_4, addr 0x59486cc, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_4(bool on);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__42_5, addr 0x59486f0, size 0x44, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_5(bool on);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__42_6, addr 0x5948734, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_6(bool on);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__42_7, addr 0x5948758, size 0x548, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_7();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__42_8, addr 0x5948ca0, size 0x648, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_8();
 
@@ -575,6 +584,7 @@ public:
   /// @brief Method .ctor, addr 0x59485dc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didChangePlayerSettingsEvent, addr 0x5946b44, size 0xac, virtual false, abstract: false, final false
   inline void add_didChangePlayerSettingsEvent(::System::Action* value);
 
@@ -584,6 +594,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didChangePlayerSettingsEvent, addr 0x5947aec, size 0xac, virtual false, abstract: false, final false
   inline void remove_didChangePlayerSettingsEvent(::System::Action* value);
 
@@ -593,13 +604,13 @@ protected:
   constexpr PlayerSettingsPanelController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsPanelController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsPanelController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerSettingsPanelController(PlayerSettingsPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsPanelController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerSettingsPanelController(PlayerSettingsPanelController const&) = delete;
+  PlayerSettingsPanelController(PlayerSettingsPanelControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6914 };
@@ -607,81 +618,109 @@ public:
   /// @brief Field kDisabledSectionAlpha offset 0xffffffff size 0x4
   static constexpr float_t kDisabledSectionAlpha{ static_cast<float_t>(0.2f) };
 
+  /// [SerializeField]
   /// @brief Field _leftHandedToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____leftHandedToggle;
 
+  /// [SerializeField]
   /// @brief Field _reduceDebrisToggle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____reduceDebrisToggle;
 
+  /// [SerializeField]
   /// @brief Field _noTextsAndHudsToggle, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____noTextsAndHudsToggle;
 
+  /// [SerializeField]
   /// @brief Field _advanceHudToggle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____advanceHudToggle;
 
+  /// [SerializeField]
   /// @brief Field _playerHeightSettingsController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeightSettingsController> ____playerHeightSettingsController;
 
+  /// [SerializeField]
   /// @brief Field _playerHeightSettingsCanvasGroup, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____playerHeightSettingsCanvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _automaticPlayerHeightToggle, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____automaticPlayerHeightToggle;
 
+  /// [SerializeField]
   /// @brief Field _sfxVolumeSettingsController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____sfxVolumeSettingsController;
 
+  /// [SerializeField]
   /// @brief Field _saberTrailIntensitySettingsController, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____saberTrailIntensitySettingsController;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpDurationTypeSettingsDropdown, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown> ____noteJumpDurationTypeSettingsDropdown;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpFixedDurationSettingsController, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____noteJumpFixedDurationSettingsController;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpFixedDurationSettingsCanvasGroup, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____noteJumpFixedDurationSettingsCanvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpStartBeatOffsetDropdown, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown> ____noteJumpStartBeatOffsetDropdown;
 
+  /// [SerializeField]
   /// @brief Field _noteJumpStartBeatOffsetCanvasGroup, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____noteJumpStartBeatOffsetCanvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _environmentEffectsFilterDefaultPresetDropdown, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> ____environmentEffectsFilterDefaultPresetDropdown;
 
+  /// [SerializeField]
   /// @brief Field _environmentEffectsFilterExpertPlusPresetDropdown, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> ____environmentEffectsFilterExpertPlusPresetDropdown;
 
+  /// [SerializeField]
   /// @brief Field _hideNoteSpawnEffectToggle, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____hideNoteSpawnEffectToggle;
 
+  /// [SerializeField]
   /// @brief Field _adaptiveSfxToggle, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____adaptiveSfxToggle;
 
+  /// [SerializeField]
   /// @brief Field _autoRestartToggle, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____autoRestartToggle;
 
+  /// [SerializeField]
   /// @brief Field _headsetHapticIntensityController, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____headsetHapticIntensityController;
 
+  /// [SerializeField]
   /// @brief Field _arcsVisibilityTypeSettingsDropdown, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown> ____arcsVisibilityTypeSettingsDropdown;
 
+  /// [SerializeField]
   /// @brief Field _arcHapticFeedbackCanvasGroup, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____arcHapticFeedbackCanvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _arcsHapticFeedbackToggle, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____arcsHapticFeedbackToggle;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _singleplayerOnlyCanvasGroup, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____singleplayerOnlyCanvasGroup;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _arcVisibilityWarning, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____arcVisibilityWarning;
 
+  /// [CompilerGenerated]
   /// @brief Field didChangePlayerSettingsEvent, offset: 0xe8, size: 0x8, def value: None
   ::System::Action* ___didChangePlayerSettingsEvent;
 

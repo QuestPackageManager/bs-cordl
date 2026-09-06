@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\SendOrPostCallback.hpp"
+// IWYU pragma private; include "System/Threading/SendOrPostCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

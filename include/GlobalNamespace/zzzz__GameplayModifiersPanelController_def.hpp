@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayModifiersPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayModifiersPanelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ MARK_REF_T(::GlobalNamespace::GameplayModifiersPanelController*);
 MARK_REF_T(::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayModifiersPanelController*, "", "GameplayModifiersPanelController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0*, "", "GameplayModifiersPanelController/<>c__DisplayClass16_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -93,13 +94,13 @@ protected:
   constexpr GameplayModifiersPanelController___c__DisplayClass16_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersPanelController___c__DisplayClass16_0(GameplayModifiersPanelController___c__DisplayClass16_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersPanelController___c__DisplayClass16_0(GameplayModifiersPanelController___c__DisplayClass16_0 const&) = delete;
+  GameplayModifiersPanelController___c__DisplayClass16_0(GameplayModifiersPanelController___c__DisplayClass16_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6907 };
@@ -266,6 +267,7 @@ public:
   /// @brief Method .ctor, addr 0x5945ba8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x5945438, size 0xac, virtual false, abstract: false, final false
   inline void add_didChangeGameplayModifiersEvent(::System::Action* value);
 
@@ -275,6 +277,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x59454e4, size 0xac, virtual false, abstract: false, final false
   inline void remove_didChangeGameplayModifiersEvent(::System::Action* value);
 
@@ -284,32 +287,39 @@ protected:
   constexpr GameplayModifiersPanelController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayModifiersPanelController(GameplayModifiersPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersPanelController(GameplayModifiersPanelController const&) = delete;
+  GameplayModifiersPanelController(GameplayModifiersPanelControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6908 };
 
+  /// [SerializeField]
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
+  /// [SerializeField]
   /// @brief Field _totalMultiplierValueText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____totalMultiplierValueText;
 
+  /// [SerializeField]
   /// @brief Field _maxRankValueText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____maxRankValueText;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _positiveColor, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Color ____positiveColor;
 
+  /// [SerializeField]
   /// @brief Field _negativeColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____negativeColor;
 
+  /// [CompilerGenerated]
   /// @brief Field didChangeGameplayModifiersEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___didChangeGameplayModifiersEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\MulInstruction_MulSingle.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/MulInstruction_MulSingle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr MulInstruction_MulSingle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulSingle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulSingle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MulInstruction_MulSingle(MulInstruction_MulSingle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulSingle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MulInstruction_MulSingle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MulInstruction_MulSingle(MulInstruction_MulSingle const&) = delete;
+  MulInstruction_MulSingle(MulInstruction_MulSingleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16495 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Integers.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Integers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,12 +31,14 @@ public:
   /// @brief Method RotateLeft, addr 0x363ddb0, size 0x14, virtual false, abstract: false, final false
   static inline int32_t RotateLeft(int32_t i, int32_t distance);
 
+  /// [CLSCompliant(false)]
   /// @brief Method RotateLeft, addr 0x363ddc4, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t RotateLeft(uint32_t i, int32_t distance);
 
   /// @brief Method RotateRight, addr 0x363ddd8, size 0x14, virtual false, abstract: false, final false
   static inline int32_t RotateRight(int32_t i, int32_t distance);
 
+  /// [CLSCompliant(false)]
   /// @brief Method RotateRight, addr 0x363ddec, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t RotateRight(uint32_t i, int32_t distance);
 
@@ -49,13 +51,13 @@ protected:
   constexpr Integers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Integers(Integers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Integers(Integers const&) = delete;
+  Integers(Integersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1834 };

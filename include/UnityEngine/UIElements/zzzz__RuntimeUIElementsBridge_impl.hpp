@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RuntimeUIElementsBridge.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RuntimeUIElementsBridge.hpp"
 #include "UnityEngine/UIElements/zzzz__UIElementsBridge_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimeUIElementsBridge_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::RuntimeUIElementsBridge.SetWantsMouseJumping

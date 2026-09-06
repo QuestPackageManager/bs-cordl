@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlInt16.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlInt16.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ struct SqlInt16;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlInt16);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlInt16, "System.Data.SqlTypes", "SqlInt16");
+// [XmlSchemaProvider("GetXsdType")]
 // Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -205,7 +206,8 @@ public:
   // @brief default ctor
   constexpr SqlInt16();
 
-  // Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_value", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_value", ty: "int16_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr SqlInt16(bool m_fNotNull, int16_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

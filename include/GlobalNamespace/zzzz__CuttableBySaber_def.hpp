@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CuttableBySaber.hpp"
+// IWYU pragma private; include "GlobalNamespace/CuttableBySaber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,13 +71,13 @@ protected:
   constexpr CuttableBySaber_WasCutBySaberDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber_WasCutBySaberDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber_WasCutBySaberDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CuttableBySaber_WasCutBySaberDelegate(CuttableBySaber_WasCutBySaberDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber_WasCutBySaberDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber_WasCutBySaberDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CuttableBySaber_WasCutBySaberDelegate(CuttableBySaber_WasCutBySaberDelegate const&) = delete;
+  CuttableBySaber_WasCutBySaberDelegate(CuttableBySaber_WasCutBySaberDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6220 };
@@ -107,7 +107,7 @@ public:
   /// @brief Method CallWasCutBySaberEvent, addr 0x59ee400, size 0x2c, virtual false, abstract: false, final false
   inline void CallWasCutBySaberEvent(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method Cut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Cut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   static inline ::GlobalNamespace::CuttableBySaber* New_ctor();
@@ -121,19 +121,21 @@ public:
   /// @brief Method .ctor, addr 0x59ee488, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_wasCutBySaberEvent, addr 0x59ee48c, size 0xac, virtual false, abstract: false, final false
   inline void add_wasCutBySaberEvent(::GlobalNamespace::CuttableBySaber_WasCutBySaberDelegate* value);
 
-  /// @brief Method get_canBeCut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_canBeCut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_canBeCut();
 
-  /// @brief Method get_radius, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_radius, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_radius();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_wasCutBySaberEvent, addr 0x59ee538, size 0xac, virtual false, abstract: false, final false
   inline void remove_wasCutBySaberEvent(::GlobalNamespace::CuttableBySaber_WasCutBySaberDelegate* value);
 
-  /// @brief Method set_canBeCut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_canBeCut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_canBeCut(bool value);
 
 protected:
@@ -142,17 +144,18 @@ protected:
   constexpr CuttableBySaber();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CuttableBySaber(CuttableBySaber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CuttableBySaber", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CuttableBySaber(CuttableBySaber const&) = delete;
+  CuttableBySaber(CuttableBySaberconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6221 };
 
+  /// [CompilerGenerated]
   /// @brief Field wasCutBySaberEvent, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::CuttableBySaber_WasCutBySaberDelegate* ___wasCutBySaberEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CanvasGroup.hpp"
+// IWYU pragma private; include "UnityEngine/CanvasGroup.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

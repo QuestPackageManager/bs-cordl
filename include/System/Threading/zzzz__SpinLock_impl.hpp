@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\SpinLock.hpp"
+// IWYU pragma private; include "System/Threading/SpinLock.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__SpinLock_def.hpp"
 #include "System/Threading/zzzz__SpinLock_def.hpp"
@@ -196,7 +196,7 @@ inline bool System::Threading::SpinLock::get_IsThreadOwnerTrackingEnabled() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinLock>(), { "get_IsThreadOwnerTrackingEnabled", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_owner", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_owner", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Threading::SpinLock::SpinLock(int32_t m_owner) noexcept {
   this->m_owner = m_owner;
 }

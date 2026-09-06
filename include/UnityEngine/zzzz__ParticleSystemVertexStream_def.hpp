@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ParticleSystemVertexStream.hpp"
+// IWYU pragma private; include "UnityEngine/ParticleSystemVertexStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct ParticleSystemVertexStream;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ParticleSystemVertexStream);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ParticleSystemVertexStream, "UnityEngine", "ParticleSystemVertexStream");
+// [UsedByNativeCode]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -93,7 +94,7 @@ public:
   // @brief default ctor
   constexpr ParticleSystemVertexStream();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ParticleSystemVertexStream(int32_t value__) noexcept;
 
   /// @brief Field AgePercent value: I32(21)

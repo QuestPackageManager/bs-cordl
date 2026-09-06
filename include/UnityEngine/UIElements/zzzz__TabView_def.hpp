@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TabView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TabView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,6 +81,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView_UxmlTraits*, "UnityEngine
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView_ViewState*, "UnityEngine.UIElements", "TabView/ViewState");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView___c__DisplayClass48_0*, "UnityEngine.UIElements", "TabView/<>c__DisplayClass48_0");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::TabView___c__DisplayClass55_0*, "UnityEngine.UIElements", "TabView/<>c__DisplayClass55_0");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -99,13 +100,13 @@ protected:
   constexpr TabView_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TabView_UxmlFactory(TabView_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView_UxmlFactory(TabView_UxmlFactory const&) = delete;
+  TabView_UxmlFactory(TabView_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4329 };
@@ -116,6 +117,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::TabView_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -146,13 +148,13 @@ protected:
   constexpr TabView_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TabView_UxmlTraits(TabView_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView_UxmlTraits(TabView_UxmlTraits const&) = delete;
+  TabView_UxmlTraits(TabView_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4330 };
@@ -231,13 +233,13 @@ protected:
   constexpr TabView_ViewState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabView_ViewState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView_ViewState", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TabView_ViewState(TabView_ViewState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabView_ViewState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView_ViewState", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView_ViewState(TabView_ViewState const&) = delete;
+  TabView_ViewState(TabView_ViewStateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4331 };
@@ -245,9 +247,11 @@ public:
   /// @brief Field m_HasPersistedData, offset: 0x10, size: 0x1, def value: None
   bool ___m_HasPersistedData;
 
+  /// [SerializeField]
   /// @brief Field m_TabOrder, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_TabOrder;
 
+  /// [SerializeField]
   /// @brief Field m_ActiveTabKey, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_ActiveTabKey;
 
@@ -263,6 +267,7 @@ static_assert(offsetof(::UnityEngine::UIElements::TabView_ViewState, ___m_Active
 static_assert(sizeof(::UnityEngine::UIElements::TabView_ViewState) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -302,13 +307,13 @@ protected:
   constexpr TabView___c__DisplayClass48_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass48_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass48_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TabView___c__DisplayClass48_0(TabView___c__DisplayClass48_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass48_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass48_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView___c__DisplayClass48_0(TabView___c__DisplayClass48_0 const&) = delete;
+  TabView___c__DisplayClass48_0(TabView___c__DisplayClass48_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4332 };
@@ -329,6 +334,7 @@ static_assert(offsetof(::UnityEngine::UIElements::TabView___c__DisplayClass48_0,
 static_assert(sizeof(::UnityEngine::UIElements::TabView___c__DisplayClass48_0) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -359,13 +365,13 @@ protected:
   constexpr TabView___c__DisplayClass55_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass55_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass55_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TabView___c__DisplayClass55_0(TabView___c__DisplayClass55_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass55_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView___c__DisplayClass55_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView___c__DisplayClass55_0(TabView___c__DisplayClass55_0 const&) = delete;
+  TabView___c__DisplayClass55_0(TabView___c__DisplayClass55_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4333 };
@@ -442,6 +448,7 @@ public:
   /// @brief Field m_ViewState, offset 0x4d0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ViewState, put = __cordl_internal_set_m_ViewState)) ::UnityEngine::UIElements::TabView_ViewState* m_ViewState;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_reorderable, put = set_reorderable)) bool reorderable;
 
   /// @brief Field reorderableProperty, offset 0xffffffff, size 0x98
@@ -621,13 +628,13 @@ protected:
   constexpr TabView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TabView(TabView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabView(TabView const&) = delete;
+  TabView(TabViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4334 };
@@ -656,12 +663,18 @@ public:
   /// @brief Field m_Reordering, offset: 0x4d9, size: 0x1, def value: None
   bool ___m_Reordering;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field activeTabChanged, offset: 0x4e0, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::Tab*, ::UnityEngine::UIElements::Tab*>* ___activeTabChanged;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field tabReordered, offset: 0x4e8, size: 0x8, def value: None
   ::System::Action_2<int32_t, int32_t>* ___tabReordered;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field tabClosed, offset: 0x4f0, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::Tab*, int32_t>* ___tabClosed;
 

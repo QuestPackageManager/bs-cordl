@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AddressableAssets\ResourceProviders\ContentCatalogProvider.hpp"
+// IWYU pragma private; include "UnityEngine/AddressableAssets/ResourceProviders/ContentCatalogProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,7 +120,7 @@ public:
   // @brief default ctor
   constexpr ContentCatalogProvider_DependencyHashIndex();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ContentCatalogProvider_DependencyHashIndex(int32_t value__) noexcept;
 
   /// @brief Field Cache value: I32(1)
@@ -214,9 +214,11 @@ public:
   /// @brief Method WebRequestOperationCompleted, addr 0x6468404, size 0x21c, virtual false, abstract: false, final false
   inline void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
+  /// [CompilerGenerated]
   /// @brief Method <LoadCatalogFromBundleAsync>b__19_0, addr 0x6468870, size 0x1fc, virtual false, abstract: false, final false
   inline void _LoadCatalogFromBundleAsync_b__19_0(::UnityEngine::AsyncOperation* loadOp);
 
+  /// [CompilerGenerated]
   /// @brief Method <LoadCatalogFromBundleAsync>b__19_1, addr 0x64687d4, size 0x9c, virtual false, abstract: false, final false
   inline void _LoadCatalogFromBundleAsync_b__19_1(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
@@ -283,6 +285,7 @@ public:
   /// @brief Method .ctor, addr 0x64674ec, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::StringW bundlePath, int32_t webRequestTimeout);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnLoaded, addr 0x64675fc, size 0xc0, virtual false, abstract: false, final false
   inline void add_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
 
@@ -292,6 +295,7 @@ public:
   /// @brief Method get_OpIsSuccess, addr 0x6468360, size 0x20, virtual false, abstract: false, final false
   inline bool get_OpIsSuccess();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnLoaded, addr 0x6468298, size 0xc0, virtual false, abstract: false, final false
   inline void remove_OnLoaded(::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* value);
 
@@ -301,13 +305,13 @@ protected:
   constexpr InternalOp_ContentCatalogProvider_BundledCatalog();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternalOp_ContentCatalogProvider_BundledCatalog", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalOp_ContentCatalogProvider_BundledCatalog", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalOp_ContentCatalogProvider_BundledCatalog(InternalOp_ContentCatalogProvider_BundledCatalog&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternalOp_ContentCatalogProvider_BundledCatalog", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InternalOp_ContentCatalogProvider_BundledCatalog", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InternalOp_ContentCatalogProvider_BundledCatalog(InternalOp_ContentCatalogProvider_BundledCatalog const&) = delete;
+  InternalOp_ContentCatalogProvider_BundledCatalog(InternalOp_ContentCatalogProvider_BundledCatalogconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19839 };
@@ -339,6 +343,7 @@ public:
   /// @brief Field m_WebRequestTimeout, offset: 0x50, size: 0x4, def value: None
   int32_t ___m_WebRequestTimeout;
 
+  /// [CompilerGenerated]
   /// @brief Field OnLoaded, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* ___OnLoaded;
 
@@ -442,6 +447,7 @@ public:
   /// @brief Method WaitForCompletionCallback, addr 0x64671f0, size 0xe4, virtual false, abstract: false, final false
   inline bool WaitForCompletionCallback();
 
+  /// [CompilerGenerated]
   /// @brief Method <LoadCatalog>b__14_0, addr 0x6468290, size 0x8, virtual false, abstract: false, final false
   inline void _LoadCatalog_b__14_0(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* ccd);
 
@@ -517,13 +523,13 @@ protected:
   constexpr ContentCatalogProvider_InternalOp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider_InternalOp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider_InternalOp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentCatalogProvider_InternalOp(ContentCatalogProvider_InternalOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider_InternalOp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider_InternalOp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogProvider_InternalOp(ContentCatalogProvider_InternalOp const&) = delete;
+  ContentCatalogProvider_InternalOp(ContentCatalogProvider_InternalOpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19840 };
@@ -587,6 +593,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceProviders::Cont
 static_assert(sizeof(::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp) == 0x70, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::ResourceProviders
+// [DisplayName("Content Catalog Provider")]
 // Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::AddressableAssets::ResourceProviders {
 // Is value type: false
@@ -649,13 +656,13 @@ protected:
   constexpr ContentCatalogProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentCatalogProvider(ContentCatalogProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentCatalogProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentCatalogProvider(ContentCatalogProvider const&) = delete;
+  ContentCatalogProvider(ContentCatalogProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19841 };

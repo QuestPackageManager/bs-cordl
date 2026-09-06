@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\KeyframeUtility.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/KeyframeUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__KeyframeUtility_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
@@ -142,14 +142,14 @@ inline ::UnityEngine::Keyframe UnityEngine::Rendering::KeyframeUtility::LerpSing
                                               { "LerpSingleKeyframe", {}, { ::i2c::type_of<::UnityEngine::Keyframe>(), ::i2c::type_of<::UnityEngine::Keyframe>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Keyframe>(nullptr, ___internal_method, lhs, rhs, t);
 }
-inline ::UnityEngine::Keyframe UnityEngine::Rendering::KeyframeUtility::GetKeyframeAndClampEdge(::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe> keys, int32_t index) {
+inline ::UnityEngine::Keyframe UnityEngine::Rendering::KeyframeUtility::GetKeyframeAndClampEdge(/* [DisallowNull] */ ::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe> keys, int32_t index) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::KeyframeUtility*>(),
                                               { "GetKeyframeAndClampEdge", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Keyframe>(nullptr, ___internal_method, keys, index);
 }
-inline ::UnityEngine::Keyframe UnityEngine::Rendering::KeyframeUtility::FetchKeyFromIndexClampEdge(::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe> keys, int32_t index,
-                                                                                                   float_t segmentStartTime, float_t segmentEndTime) {
+inline ::UnityEngine::Keyframe UnityEngine::Rendering::KeyframeUtility::FetchKeyFromIndexClampEdge(/* [DisallowNull] */ ::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe> keys,
+                                                                                                   int32_t index, float_t segmentStartTime, float_t segmentEndTime) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::KeyframeUtility*>(), { "FetchKeyFromIndexClampEdge",
                                                                                                                {},
@@ -167,8 +167,8 @@ inline void UnityEngine::Rendering::KeyframeUtility::EvalCurveSegmentAndDeriv(::
                                                                ::i2c::type_of<::UnityEngine::Keyframe>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, dstValue, dstDeriv, lhsKey, rhsKey, desiredTime);
 }
-inline ::UnityEngine::Keyframe UnityEngine::Rendering::KeyframeUtility::EvalKeyAtTime(::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe> keys, int32_t lhsIndex, int32_t rhsIndex,
-                                                                                      float_t startTime, float_t endTime, float_t currTime) {
+inline ::UnityEngine::Keyframe UnityEngine::Rendering::KeyframeUtility::EvalKeyAtTime(/* [DisallowNull] */ ::Unity::Collections::NativeArray_1<::UnityEngine::Keyframe> keys, int32_t lhsIndex,
+                                                                                      int32_t rhsIndex, float_t startTime, float_t endTime, float_t currTime) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::KeyframeUtility*>(),
                                                            { "EvalKeyAtTime",
@@ -177,7 +177,8 @@ inline ::UnityEngine::Keyframe UnityEngine::Rendering::KeyframeUtility::EvalKeyA
                                                                ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Keyframe>(nullptr, ___internal_method, keys, lhsIndex, rhsIndex, startTime, endTime, currTime);
 }
-inline void UnityEngine::Rendering::KeyframeUtility::InterpAnimationCurve(::by_ref<::UnityEngine::AnimationCurve*> lhsAndResultCurve, ::UnityEngine::AnimationCurve* rhsCurve, float_t t) {
+inline void UnityEngine::Rendering::KeyframeUtility::InterpAnimationCurve(::by_ref<::UnityEngine::AnimationCurve*> lhsAndResultCurve, /* [DisallowNull] */ ::UnityEngine::AnimationCurve* rhsCurve,
+                                                                          float_t t) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(

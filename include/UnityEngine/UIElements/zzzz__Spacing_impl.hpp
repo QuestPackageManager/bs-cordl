@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Spacing.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Spacing.hpp"
 #include "UnityEngine/UIElements/zzzz__Spacing_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Spacing.get_horizontal
@@ -74,8 +74,9 @@ inline ::UnityEngine::Rect UnityEngine::UIElements::Spacing::op_Subtraction(::Un
                                                            { "op_Subtraction", {}, { ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::UIElements::Spacing>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(nullptr, ___internal_method, r, a);
 }
-// Ctor Parameters [CppParam { name: "left", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "top", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "right", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottom", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "left", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "top", ty: "float_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "right", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bottom", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }]
 constexpr ::UnityEngine::UIElements::Spacing::Spacing(float_t left, float_t top, float_t right, float_t bottom) noexcept {
   this->left = left;
   this->top = top;

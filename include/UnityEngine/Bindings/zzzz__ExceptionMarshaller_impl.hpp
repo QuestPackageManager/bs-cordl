@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\ExceptionMarshaller.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/ExceptionMarshaller.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__ExceptionMarshaller_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

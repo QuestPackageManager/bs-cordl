@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\StackLayoutGroup.hpp"
+// IWYU pragma private; include "HMUI/StackLayoutGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,20 +83,22 @@ protected:
   constexpr StackLayoutGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StackLayoutGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackLayoutGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackLayoutGroup(StackLayoutGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StackLayoutGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackLayoutGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackLayoutGroup(StackLayoutGroup const&) = delete;
+  StackLayoutGroup(StackLayoutGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19066 };
 
+  /// [SerializeField]
   /// @brief Field m_ChildForceExpandWidth, offset: 0x60, size: 0x1, def value: None
   bool ___m_ChildForceExpandWidth;
 
+  /// [SerializeField]
   /// @brief Field m_ChildForceExpandHeight, offset: 0x61, size: 0x1, def value: None
   bool ___m_ChildForceExpandHeight;
 

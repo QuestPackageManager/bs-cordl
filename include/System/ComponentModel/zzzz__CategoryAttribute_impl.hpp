@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\CategoryAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/CategoryAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__CategoryAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"

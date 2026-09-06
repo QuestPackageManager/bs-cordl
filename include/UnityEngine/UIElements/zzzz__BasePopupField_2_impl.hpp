@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BasePopupField_2.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BasePopupField_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BasePopupField_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -298,6 +299,7 @@ template <typename TValueType, typename TValueChoice> inline bool UnityEngine::U
 }
 template <typename TValueType, typename TValueChoice>
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::PointerEventBase_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\NaccacheSternKeyGenerationParameters.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/NaccacheSternKeyGenerationParameters.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternKeyGenerationParameters_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
@@ -139,6 +139,7 @@ Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::New
                                                                                       int32_t countSmallPrimes) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*>(random, strength, certainty, countSmallPrimes));
 }
+/// @brief [Obsolete("Use version without \'debug\' parameter")]
 inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*
 Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty,
                                                                                       int32_t countSmallPrimes, bool debug) {

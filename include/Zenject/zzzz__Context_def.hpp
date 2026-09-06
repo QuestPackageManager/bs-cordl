@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Context.hpp"
+// IWYU pragma private; include "Zenject/Context.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ MARK_REF_T(::Zenject::Context*);
 MARK_REF_T(::Zenject::Context___c*);
 DEFINE_IL2CPP_CLASS(::Zenject::Context*, "Zenject", "Context");
 DEFINE_IL2CPP_CLASS(::Zenject::Context___c*, "Zenject", "Context/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -79,6 +80,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e6ec28, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6ec6c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -102,13 +104,13 @@ protected:
   constexpr Context___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Context___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Context___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Context___c(Context___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Context___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Context___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Context___c(Context___c const&) = delete;
+  Context___c(Context___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14472 };
@@ -170,10 +172,10 @@ public:
   inline void CheckInstallerPrefabTypes(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installers,
                                         ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installerPrefabs);
 
-  /// @brief Method GetInjectableMonoBehaviours, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehaviours, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* components);
 
-  /// @brief Method GetRootGameObjects, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
   /// @brief Method InstallInstallers, addr 0x6e6d4c8, size 0x10, virtual true, abstract: false, final false
@@ -223,13 +225,14 @@ public:
 
   constexpr void __cordl_internal_set__scriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e6e9e8, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   /// @brief Method .ctor, addr 0x6e6e878, size 0x170, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Method get_InstallerPrefabs, addr 0x6e6cb34, size 0x8, virtual false, abstract: false, final false
@@ -268,23 +271,28 @@ protected:
   constexpr Context();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Context", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Context", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Context(Context&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Context", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Context", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Context(Context const&) = delete;
+  Context(Contextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14473 };
 
+  /// [SerializeField]
   /// @brief Field _scriptableObjectInstallers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* ____scriptableObjectInstallers;
 
+  /// [FormerlySerializedAs("Installers")]
+  /// [FormerlySerializedAs("_installers")]
+  /// [SerializeField]
   /// @brief Field _monoInstallers, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* ____monoInstallers;
 
+  /// [SerializeField]
   /// @brief Field _installerPrefabs, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* ____installerPrefabs;
 

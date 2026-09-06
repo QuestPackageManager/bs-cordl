@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SyncTimePacket.hpp"
+// IWYU pragma private; include "GlobalNamespace/SyncTimePacket.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SyncTimePacket_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"

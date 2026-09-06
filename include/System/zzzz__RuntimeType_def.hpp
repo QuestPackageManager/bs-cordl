@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\RuntimeType.hpp"
+// IWYU pragma private; include "System/RuntimeType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -123,7 +123,9 @@ namespace System {
 struct RuntimeTypeHandle;
 }
 namespace System {
-template <typename T> struct RuntimeType_ListBuilder_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct RuntimeType_ListBuilder_1;
 }
 namespace System {
 struct RuntimeType_MemberListType;
@@ -145,7 +147,9 @@ namespace System {
 class RuntimeType;
 }
 namespace System {
-template <typename T> struct RuntimeType_ListBuilder_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct RuntimeType_ListBuilder_1;
 }
 // Write type traits
 MARK_VAL_T(::System::RuntimeType_MemberListType);
@@ -185,7 +189,7 @@ public:
   // @brief default ctor
   constexpr RuntimeType_MemberListType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeType_MemberListType(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(0)
@@ -217,10 +221,12 @@ static_assert(offsetof(::System::RuntimeType_MemberListType, value__) == 0x0, "O
 static_assert(sizeof(::System::RuntimeType_MemberListType) == 0x4, "Size mismatch!");
 
 } // namespace System
+// [DefaultMember("Item")]
 // Dependencies
 namespace System {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
 // Is value type: true
 // CS Name: System.RuntimeType/ListBuilder`1<T>
 struct CORDL_TYPE RuntimeType_ListBuilder_1 {
@@ -252,8 +258,8 @@ public:
   // @brief default ctor
   constexpr RuntimeType_ListBuilder_1();
 
-  // Ctor Parameters [CppParam { name: "_items", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_item", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_count",
-  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_capacity", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_items", ty: "::ArrayW<T>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_item", ty: "T", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "_capacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RuntimeType_ListBuilder_1(::ArrayW<T> _items, T _item, int32_t _count, int32_t _capacity) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -285,7 +291,9 @@ namespace System {
 class CORDL_TYPE RuntimeType : public ::System::Reflection::TypeInfo {
 public:
   // Declarations
-  template <typename T> using ListBuilder_1 = ::System::RuntimeType_ListBuilder_1<T>;
+  template <typename T>
+    requires(::cordl_internals::reference_type_constraint<T>)
+  using ListBuilder_1 = ::System::RuntimeType_ListBuilder_1<T>;
 
   using MemberListType = ::System::RuntimeType_MemberListType;
 
@@ -388,6 +396,8 @@ public:
   /// @brief Method CreateInstanceCheckThis, addr 0x5c875a8, size 0x1e8, virtual false, abstract: false, final false
   inline void CreateInstanceCheckThis();
 
+  /// [DebuggerStepThrough]
+  /// [DebuggerHidden]
   /// @brief Method CreateInstanceDefaultCtor, addr 0x5c729e0, size 0x104, virtual false, abstract: false, final false
   inline ::System::Object* CreateInstanceDefaultCtor(bool publicOnly, bool skipCheckThis, bool fillCache, bool wrapExceptions, ::by_ref<::System::Threading::StackCrawlMark> stackMark);
 
@@ -466,6 +476,7 @@ public:
                                                                    ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                                    ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
+  /// [ComVisible(true)]
   /// @brief Method GetConstructors, addr 0x5c82bf8, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ConstructorInfo*> GetConstructors(::System::Reflection::BindingFlags bindingAttr);
 
@@ -667,6 +678,8 @@ public:
   /// @brief Method HasElementTypeImpl, addr 0x5c84a48, size 0x44, virtual true, abstract: false, final false
   inline bool HasElementTypeImpl();
 
+  /// [DebuggerHidden]
+  /// [DebuggerStepThrough]
   /// @brief Method InvokeMember, addr 0x5c85cf8, size 0x114c, virtual true, abstract: false, final false
   inline ::System::Object* InvokeMember(::StringW name, ::System::Reflection::BindingFlags bindingFlags, ::System::Reflection::Binder* binder, ::System::Object* target,
                                         ::ArrayW<::System::Object*> providedArgs, ::ArrayW<::System::Reflection::ParameterModifier> modifiers, ::System::Globalization::CultureInfo* culture,
@@ -711,6 +724,7 @@ public:
   /// @brief Method IsPrimitiveImpl, addr 0x5c848b8, size 0x34, virtual true, abstract: false, final false
   inline bool IsPrimitiveImpl();
 
+  /// [ComVisible(true)]
   /// @brief Method IsSubclassOf, addr 0x5c89508, size 0x108, virtual true, abstract: false, final false
   inline bool IsSubclassOf(::System::Type* type);
 
@@ -730,7 +744,7 @@ public:
   static inline ::System::Type* MakeGenericType(::System::Type* gt, ::ArrayW<::System::Type*> types);
 
   /// @brief Method MakeGenericType, addr 0x5c856b4, size 0x44c, virtual true, abstract: false, final false
-  inline ::System::Type* MakeGenericType(::ArrayW<::System::Type*> instantiation);
+  inline ::System::Type* MakeGenericType(/* [ParamArray] */ ::ArrayW<::System::Type*> instantiation);
 
   /// @brief Method MakePointerType, addr 0x5c88b44, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Type* MakePointerType();
@@ -910,13 +924,13 @@ protected:
   constexpr RuntimeType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeType", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeType(RuntimeType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeType", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeType(RuntimeType const&) = delete;
+  RuntimeType(RuntimeTypeconst&) = delete;
 
   /// @brief Field BinderGetSetField value: I32(3072)
   static ::System::Reflection::BindingFlags const BinderGetSetField;

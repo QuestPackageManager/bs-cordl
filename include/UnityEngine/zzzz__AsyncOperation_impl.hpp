@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AsyncOperation.hpp"
+// IWYU pragma private; include "UnityEngine/AsyncOperation.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_impl.hpp"
@@ -308,7 +308,7 @@ inline void UnityEngine::AsyncOperation::InternalDestroy(::System::IntPtr ptr) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AsyncOperation*>(), { "InternalDestroy", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ptr);
 }
-inline void UnityEngine::AsyncOperation::InternalSetManagedObject(::System::IntPtr ptr, ::UnityEngine::AsyncOperation* self) {
+inline void UnityEngine::AsyncOperation::InternalSetManagedObject(::System::IntPtr ptr, /* [Unmarshalled] */ ::UnityEngine::AsyncOperation* self) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AsyncOperation*>(),
                                                            { "InternalSetManagedObject", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::AsyncOperation*>() } })));

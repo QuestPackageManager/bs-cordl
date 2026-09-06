@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DropdownSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/DropdownSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +42,10 @@ public:
   /// @brief Field dropDownValueDidChangeEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_dropDownValueDidChangeEvent, put = __cordl_internal_set_dropDownValueDidChangeEvent)) ::System::Action* dropDownValueDidChangeEvent;
 
-  /// @brief Method ApplyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(::by_ref<int32_t> idx, ::by_ref<int32_t> numberOfElements);
 
   /// @brief Method HandleDropdownValueDidChange, addr 0x5a141a0, size 0x40, virtual false, abstract: false, final false
@@ -65,7 +65,7 @@ public:
   /// @brief Method RefreshUI, addr 0x5a13f80, size 0x148, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method TextForValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__dropdown() const;
@@ -95,9 +95,11 @@ public:
   /// @brief Method .ctor, addr 0x5a1423c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_dropDownValueDidChangeEvent, addr 0x5a13d68, size 0xac, virtual false, abstract: false, final false
   inline void add_dropDownValueDidChangeEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_dropDownValueDidChangeEvent, addr 0x5a13e14, size 0xac, virtual false, abstract: false, final false
   inline void remove_dropDownValueDidChangeEvent(::System::Action* value);
 
@@ -107,20 +109,22 @@ protected:
   constexpr DropdownSettingsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownSettingsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownSettingsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownSettingsController(DropdownSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownSettingsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownSettingsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownSettingsController(DropdownSettingsController const&) = delete;
+  DropdownSettingsController(DropdownSettingsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6397 };
 
+  /// [SerializeField]
   /// @brief Field _dropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____dropdown;
 
+  /// [CompilerGenerated]
   /// @brief Field dropDownValueDidChangeEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___dropDownValueDidChangeEvent;
 

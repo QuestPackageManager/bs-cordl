@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\FpFieldElement.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/FpFieldElement.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpFieldElement_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__FpFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
@@ -694,6 +694,7 @@ inline int32_t Org::BouncyCastle::Math::EC::FpFieldElement::GetHashCode() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Math::EC::FpFieldElement*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
+/// @brief [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
 inline ::Org::BouncyCastle::Math::EC::FpFieldElement* Org::BouncyCastle::Math::EC::FpFieldElement::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* x) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::FpFieldElement*>(q, x));
 }

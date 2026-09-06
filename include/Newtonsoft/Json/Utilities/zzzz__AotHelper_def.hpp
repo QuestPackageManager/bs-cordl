@@ -1,12 +1,14 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\AotHelper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/AotHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AotHelper)
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class AotHelper___c__1_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class AotHelper___c__1_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T> class AotHelper___c__2_1;
@@ -22,7 +24,9 @@ namespace Newtonsoft::Json::Utilities {
 class AotHelper;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class AotHelper___c__1_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class AotHelper___c__1_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T> class AotHelper___c__2_1;
@@ -39,10 +43,12 @@ DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::AotHelper*, "Newtonsoft.Json.
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::AotHelper___c__1_1, "Newtonsoft.Json.Utilities", "AotHelper/<>c__1`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::AotHelper___c__2_1, "Newtonsoft.Json.Utilities", "AotHelper/<>c__2`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::AotHelper___c__3_2, "Newtonsoft.Json.Utilities", "AotHelper/<>c__3`2");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Newtonsoft.Json.Utilities.AotHelper/<>c__1`1<T>
 class CORDL_TYPE AotHelper___c__1_1 : public ::System::Object {
@@ -76,13 +82,13 @@ protected:
   constexpr AotHelper___c__1_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__1_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__1_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AotHelper___c__1_1(AotHelper___c__1_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__1_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__1_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AotHelper___c__1_1(AotHelper___c__1_1 const&) = delete;
+  AotHelper___c__1_1(AotHelper___c__1_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13365 };
@@ -91,6 +97,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -128,13 +135,13 @@ protected:
   constexpr AotHelper___c__2_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__2_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__2_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AotHelper___c__2_1(AotHelper___c__2_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__2_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__2_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AotHelper___c__2_1(AotHelper___c__2_1 const&) = delete;
+  AotHelper___c__2_1(AotHelper___c__2_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13366 };
@@ -143,6 +150,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -180,13 +188,13 @@ protected:
   constexpr AotHelper___c__3_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__3_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__3_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AotHelper___c__3_2(AotHelper___c__3_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__3_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AotHelper___c__3_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AotHelper___c__3_2(AotHelper___c__3_2 const&) = delete;
+  AotHelper___c__3_2(AotHelper___c__3_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13367 };
@@ -195,6 +203,8 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -202,7 +212,9 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE AotHelper : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using __c__1_1 = ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>;
+  template <typename T>
+    requires(::cordl_internals::default_constructor_constraint<T>)
+  using __c__1_1 = ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>;
 
   template <typename T> using __c__2_1 = ::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>;
 
@@ -211,6 +223,7 @@ public:
   /// @brief Field s_alwaysFalse, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_s_alwaysFalse, put = setStaticF_s_alwaysFalse)) bool s_alwaysFalse;
 
+  /// [NullableContext(1)]
   /// @brief Method Ensure, addr 0x5d1a0d4, size 0x17c, virtual false, abstract: false, final false
   static inline void Ensure(::System::Action* action);
 
@@ -221,7 +234,9 @@ public:
   template <typename T> static inline void EnsureList();
 
   /// @brief Method EnsureType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void EnsureType();
+  template <typename T>
+    requires(::cordl_internals::default_constructor_constraint<T>)
+  static inline void EnsureType();
 
   /// @brief Method IsFalse, addr 0x5d1a250, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsFalse();
@@ -236,13 +251,13 @@ protected:
   constexpr AotHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AotHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AotHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AotHelper(AotHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AotHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AotHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AotHelper(AotHelper const&) = delete;
+  AotHelper(AotHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13368 };

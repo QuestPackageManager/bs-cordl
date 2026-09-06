@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\JPake\JPakeRound3Payload.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/JPake/JPakeRound3Payload.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr JPakeRound3Payload();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JPakeRound3Payload", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPakeRound3Payload", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JPakeRound3Payload(JPakeRound3Payload&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JPakeRound3Payload", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JPakeRound3Payload", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JPakeRound3Payload(JPakeRound3Payload const&) = delete;
+  JPakeRound3Payload(JPakeRound3Payloadconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 719 };

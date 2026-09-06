@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneRoom.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneRoom.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRObjectPool_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRScenePlane_impl.hpp"
@@ -62,15 +62,17 @@ constexpr GlobalNamespace::OVRSceneRoom__LoadRoom_d__19::operator ::System::Runt
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::OVRSceneRoom__LoadRoom_d__19::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "floor", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "ceiling", ty: "::System::Guid", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "walls", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSceneRoom>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty: "::GlobalNamespace::OVRObjectPool_HashSetScope_1<::System::Guid>", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_anchors_5__3", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap3", ty:
-// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::GlobalNamespace::OVRTask_1_Awaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap4", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__7__wrap5", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<bool>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::GlobalNamespace::OVRTaskBuilder_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "floor", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "ceiling", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "walls", ty: "::ArrayW<::System::Guid>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::OVRSceneRoom>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap1", ty:
+// "::GlobalNamespace::OVRObjectPool_HashSetScope_1<::System::Guid>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_anchors_5__3", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap3", ty:
+// "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRAnchor>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::GlobalNamespace::OVRTask_1_Awaiter<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap4", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<bool>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap5", ty: "::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<bool>>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty: "::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*>", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19::OVRSceneRoom__LoadRoom_d__19(
     int32_t __1__state, ::GlobalNamespace::OVRTaskBuilder_1<bool> __t__builder, ::System::Guid floor, ::System::Guid ceiling, ::ArrayW<::System::Guid> walls,
     ::UnityW<::GlobalNamespace::OVRSceneRoom> __4__this, ::GlobalNamespace::OVRObjectPool_HashSetScope_1<::System::Guid> __7__wrap1,

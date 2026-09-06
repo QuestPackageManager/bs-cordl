@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetTubeBloomPrePassLightColor.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetTubeBloomPrePassLightColor.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetTubeBloomPrePassLightColor_def.hpp"

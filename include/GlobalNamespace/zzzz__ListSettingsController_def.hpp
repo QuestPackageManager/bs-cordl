@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ListSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ListSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +27,13 @@ public:
   /// @brief Field _numberOfElements, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
 
-  /// @brief Method ApplyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyValue(int32_t idx);
 
   /// @brief Method DecButtonPressed, addr 0x5a2ff30, size 0x38, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
-  /// @brief Method GetInitValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(::by_ref<int32_t> idx, ::by_ref<int32_t> numberOfElements);
 
   /// @brief Method IncButtonPressed, addr 0x5a2fef0, size 0x40, virtual true, abstract: false, final false
@@ -50,7 +50,7 @@ public:
   /// @brief Method RefreshUI, addr 0x5a2fe40, size 0x54, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method TextForValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr int32_t const& __cordl_internal_get__idx() const;
@@ -74,13 +74,13 @@ protected:
   constexpr ListSettingsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListSettingsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListSettingsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListSettingsController(ListSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListSettingsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ListSettingsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ListSettingsController(ListSettingsController const&) = delete;
+  ListSettingsController(ListSettingsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23341 };

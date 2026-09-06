@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\ContentRangeHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/ContentRangeHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -98,12 +100,15 @@ public:
   /// @brief Method .ctor, addr 0x60e5f2c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_From, addr 0x60e5f78, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_From();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Length, addr 0x60e5f8c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_Length();
 
+  /// [CompilerGenerated]
   /// @brief Method get_To, addr 0x60e5fa0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_To();
 
@@ -113,12 +118,15 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_From, addr 0x60e5f84, size 0x8, virtual false, abstract: false, final false
   inline void set_From(::System::Nullable_1<int64_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Length, addr 0x60e5f98, size 0x8, virtual false, abstract: false, final false
   inline void set_Length(::System::Nullable_1<int64_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_To, addr 0x60e5fac, size 0x8, virtual false, abstract: false, final false
   inline void set_To(::System::Nullable_1<int64_t> value);
 
@@ -128,13 +136,13 @@ protected:
   constexpr ContentRangeHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContentRangeHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentRangeHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContentRangeHeaderValue(ContentRangeHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContentRangeHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContentRangeHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContentRangeHeaderValue(ContentRangeHeaderValue const&) = delete;
+  ContentRangeHeaderValue(ContentRangeHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20299 };
@@ -142,12 +150,15 @@ public:
   /// @brief Field unit, offset: 0x10, size: 0x8, def value: None
   ::StringW ___unit;
 
+  /// [CompilerGenerated]
   /// @brief Field <From>k__BackingField, offset: 0x18, size: 0x10, def value: None
   ::System::Nullable_1<int64_t> ____From_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Length>k__BackingField, offset: 0x28, size: 0x10, def value: None
   ::System::Nullable_1<int64_t> ____Length_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <To>k__BackingField, offset: 0x38, size: 0x10, def value: None
   ::System::Nullable_1<int64_t> ____To_k__BackingField;
 

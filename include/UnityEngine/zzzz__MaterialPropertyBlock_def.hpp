@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\MaterialPropertyBlock.hpp"
+// IWYU pragma private; include "UnityEngine/MaterialPropertyBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,13 +71,13 @@ protected:
   constexpr MaterialPropertyBlock_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlock_BindingsMarshaller(MaterialPropertyBlock_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlock_BindingsMarshaller(MaterialPropertyBlock_BindingsMarshaller const&) = delete;
+  MaterialPropertyBlock_BindingsMarshaller(MaterialPropertyBlock_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10156 };
@@ -88,6 +88,10 @@ public:
 static_assert(sizeof(::UnityEngine::MaterialPropertyBlock_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Runtime/Math/SphericalHarmonicsL2.h")]
+// [NativeHeader("Runtime/Shaders/ComputeShader.h")]
+// [NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
+// [NativeHeader("Runtime/Shaders/ShaderPropertySheet.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -103,15 +107,18 @@ public:
   /// @brief Method Clear, addr 0x6a8dd40, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
+  /// [ThreadSafe]
   /// @brief Method Clear, addr 0x6a8dca4, size 0x58, virtual false, abstract: false, final false
   inline void Clear(bool keepMemory);
 
   /// @brief Method Clear_Injected, addr 0x6a8dcfc, size 0x44, virtual false, abstract: false, final false
   static inline void Clear_Injected(::System::IntPtr _unity_self, bool keepMemory);
 
+  /// [NativeMethod(Name = "MaterialPropertyBlockScripting::Create", IsFreeFunction = true)]
   /// @brief Method CreateImpl, addr 0x6a8dc40, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateImpl();
 
+  /// [NativeMethod(Name = "MaterialPropertyBlockScripting::Destroy", IsFreeFunction = true, IsThreadSafe = true)]
   /// @brief Method DestroyImpl, addr 0x6a8dc68, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyImpl(::System::IntPtr mpb);
 
@@ -124,6 +131,8 @@ public:
   /// @brief Method GetColor, addr 0x6a8e540, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColor(int32_t nameID);
 
+  /// [NativeName("GetColorFromScript")]
+  /// [ThreadSafe]
   /// @brief Method GetColorImpl, addr 0x6a8ce7c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColorImpl(int32_t name);
 
@@ -133,6 +142,8 @@ public:
   /// @brief Method GetFloat, addr 0x6a8e538, size 0x4, virtual false, abstract: false, final false
   inline float_t GetFloat(int32_t nameID);
 
+  /// [NativeName("GetFloatFromScript")]
+  /// [ThreadSafe]
   /// @brief Method GetFloatImpl, addr 0x6a8cd18, size 0x58, virtual false, abstract: false, final false
   inline float_t GetFloatImpl(int32_t name);
 
@@ -142,6 +153,8 @@ public:
   /// @brief Method GetMatrix, addr 0x6a8e544, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetMatrix(int32_t nameID);
 
+  /// [ThreadSafe]
+  /// [NativeName("GetMatrixFromScript")]
   /// @brief Method GetMatrixImpl, addr 0x6a8cf44, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetMatrixImpl(int32_t name);
 
@@ -151,6 +164,8 @@ public:
   /// @brief Method GetVector, addr 0x6a8e53c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetVector(int32_t nameID);
 
+  /// [ThreadSafe]
+  /// [NativeName("GetVectorFromScript")]
   /// @brief Method GetVectorImpl, addr 0x6a8cdb4, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetVectorImpl(int32_t name);
 
@@ -162,6 +177,8 @@ public:
   /// @brief Method SetBuffer, addr 0x6a8e34c, size 0x30, virtual false, abstract: false, final false
   inline void SetBuffer(::StringW name, ::UnityEngine::ComputeBuffer* value);
 
+  /// [NativeName("SetBufferFromScript")]
+  /// [ThreadSafe]
   /// @brief Method SetBufferImpl, addr 0x6a8d654, size 0x74, virtual false, abstract: false, final false
   inline void SetBufferImpl(int32_t name, ::UnityEngine::ComputeBuffer* value);
 
@@ -174,6 +191,8 @@ public:
   /// @brief Method SetColor, addr 0x6a8e2d0, size 0x4, virtual false, abstract: false, final false
   inline void SetColor(int32_t nameID, ::UnityEngine::Color value);
 
+  /// [ThreadSafe]
+  /// [NativeName("SetColorFromScript")]
   /// @brief Method SetColorImpl, addr 0x6a8d264, size 0x70, virtual false, abstract: false, final false
   inline void SetColorImpl(int32_t name, ::UnityEngine::Color value);
 
@@ -183,6 +202,8 @@ public:
   /// @brief Method SetConstantBuffer, addr 0x6a8e3b4, size 0x4, virtual false, abstract: false, final false
   inline void SetConstantBuffer(int32_t nameID, ::UnityEngine::ComputeBuffer* value, int32_t offset, int32_t size);
 
+  /// [ThreadSafe]
+  /// [NativeName("SetConstantBufferFromScript")]
   /// @brief Method SetConstantBufferImpl, addr 0x6a8d71c, size 0x8c, virtual false, abstract: false, final false
   inline void SetConstantBufferImpl(int32_t name, ::UnityEngine::ComputeBuffer* value, int32_t offset, int32_t size);
 
@@ -207,12 +228,16 @@ public:
   /// @brief Method SetFloatArray, addr 0x6a8e3b8, size 0x90, virtual false, abstract: false, final false
   inline void SetFloatArray(int32_t nameID, ::System::Collections::Generic::List_1<float_t>* values);
 
+  /// [ThreadSafe]
+  /// [NativeName("SetFloatArrayFromScript")]
   /// @brief Method SetFloatArrayImpl, addr 0x6a8d814, size 0x108, virtual false, abstract: false, final false
   inline void SetFloatArrayImpl(int32_t name, ::ArrayW<float_t> values, int32_t count);
 
   /// @brief Method SetFloatArrayImpl_Injected, addr 0x6a8d91c, size 0x5c, virtual false, abstract: false, final false
   static inline void SetFloatArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values, int32_t count);
 
+  /// [ThreadSafe]
+  /// [NativeName("SetFloatFromScript")]
   /// @brief Method SetFloatImpl, addr 0x6a8d0e4, size 0x68, virtual false, abstract: false, final false
   inline void SetFloatImpl(int32_t name, float_t value);
 
@@ -225,6 +250,8 @@ public:
   /// @brief Method SetInt, addr 0x6a8e1ec, size 0x8, virtual false, abstract: false, final false
   inline void SetInt(int32_t nameID, int32_t value);
 
+  /// [NativeName("SetIntFromScript")]
+  /// [ThreadSafe]
   /// @brief Method SetIntImpl, addr 0x6a8d028, size 0x68, virtual false, abstract: false, final false
   inline void SetIntImpl(int32_t name, int32_t value);
 
@@ -249,20 +276,26 @@ public:
   /// @brief Method SetMatrixArray, addr 0x6a8e524, size 0x14, virtual false, abstract: false, final false
   inline void SetMatrixArray(int32_t nameID, ::ArrayW<::UnityEngine::Matrix4x4> values);
 
+  /// [NativeName("SetMatrixArrayFromScript")]
+  /// [ThreadSafe]
   /// @brief Method SetMatrixArrayImpl, addr 0x6a8dadc, size 0x108, virtual false, abstract: false, final false
   inline void SetMatrixArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Matrix4x4> values, int32_t count);
 
   /// @brief Method SetMatrixArrayImpl_Injected, addr 0x6a8dbe4, size 0x5c, virtual false, abstract: false, final false
   static inline void SetMatrixArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values, int32_t count);
 
+  /// [NativeName("SetMatrixFromScript")]
+  /// [ThreadSafe]
   /// @brief Method SetMatrixImpl, addr 0x6a8d328, size 0x68, virtual false, abstract: false, final false
   inline void SetMatrixImpl(int32_t name, ::UnityEngine::Matrix4x4 value);
 
   /// @brief Method SetMatrixImpl_Injected, addr 0x6a8d390, size 0x54, virtual false, abstract: false, final false
   static inline void SetMatrixImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Matrix4x4> value);
 
+  /// [NativeName("SetRenderTextureFromScript")]
+  /// [ThreadSafe]
   /// @brief Method SetRenderTextureImpl, addr 0x6a8d510, size 0xe8, virtual false, abstract: false, final false
-  inline void SetRenderTextureImpl(int32_t name, ::UnityEngine::RenderTexture* value, ::UnityEngine::Rendering::RenderTextureSubElement element);
+  inline void SetRenderTextureImpl(int32_t name, /* [NotNull] */ ::UnityEngine::RenderTexture* value, ::UnityEngine::Rendering::RenderTextureSubElement element);
 
   /// @brief Method SetRenderTextureImpl_Injected, addr 0x6a8d5f8, size 0x5c, virtual false, abstract: false, final false
   static inline void SetRenderTextureImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::System::IntPtr value, ::UnityEngine::Rendering::RenderTextureSubElement element);
@@ -276,8 +309,10 @@ public:
   /// @brief Method SetTexture, addr 0x6a8e3ac, size 0x4, virtual false, abstract: false, final false
   inline void SetTexture(int32_t nameID, ::UnityEngine::Texture* value);
 
+  /// [NativeName("SetTextureFromScript")]
+  /// [ThreadSafe]
   /// @brief Method SetTextureImpl, addr 0x6a8d3e4, size 0xd8, virtual false, abstract: false, final false
-  inline void SetTextureImpl(int32_t name, ::UnityEngine::Texture* value);
+  inline void SetTextureImpl(int32_t name, /* [NotNull] */ ::UnityEngine::Texture* value);
 
   /// @brief Method SetTextureImpl_Injected, addr 0x6a8d4bc, size 0x54, virtual false, abstract: false, final false
   static inline void SetTextureImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::System::IntPtr value);
@@ -297,12 +332,16 @@ public:
   /// @brief Method SetVectorArray, addr 0x6a8e4d4, size 0x14, virtual false, abstract: false, final false
   inline void SetVectorArray(int32_t nameID, ::ArrayW<::UnityEngine::Vector4> values);
 
+  /// [ThreadSafe]
+  /// [NativeName("SetVectorArrayFromScript")]
   /// @brief Method SetVectorArrayImpl, addr 0x6a8d978, size 0x108, virtual false, abstract: false, final false
   inline void SetVectorArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Vector4> values, int32_t count);
 
   /// @brief Method SetVectorArrayImpl_Injected, addr 0x6a8da80, size 0x5c, virtual false, abstract: false, final false
   static inline void SetVectorArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values, int32_t count);
 
+  /// [ThreadSafe]
+  /// [NativeName("SetVectorFromScript")]
   /// @brief Method SetVectorImpl, addr 0x6a8d1a0, size 0x70, virtual false, abstract: false, final false
   inline void SetVectorImpl(int32_t name, ::UnityEngine::Vector4 value);
 
@@ -324,13 +363,13 @@ protected:
   constexpr MaterialPropertyBlock();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlock(MaterialPropertyBlock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlock", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlock(MaterialPropertyBlock const&) = delete;
+  MaterialPropertyBlock(MaterialPropertyBlockconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10157 };

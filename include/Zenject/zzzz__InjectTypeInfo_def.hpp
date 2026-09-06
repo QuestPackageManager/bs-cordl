@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\InjectTypeInfo.hpp"
+// IWYU pragma private; include "Zenject/InjectTypeInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ DEFINE_IL2CPP_CLASS(::Zenject::InjectTypeInfo*, "Zenject", "InjectTypeInfo");
 DEFINE_IL2CPP_CLASS(::Zenject::InjectTypeInfo_InjectConstructorInfo*, "Zenject", "InjectTypeInfo/InjectConstructorInfo");
 DEFINE_IL2CPP_CLASS(::Zenject::InjectTypeInfo_InjectMemberInfo*, "Zenject", "InjectTypeInfo/InjectMemberInfo");
 DEFINE_IL2CPP_CLASS(::Zenject::InjectTypeInfo_InjectMethodInfo*, "Zenject", "InjectTypeInfo/InjectMethodInfo");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -96,13 +97,13 @@ protected:
   constexpr InjectTypeInfo_InjectMemberInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectMemberInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectMemberInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectTypeInfo_InjectMemberInfo(InjectTypeInfo_InjectMemberInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectMemberInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectMemberInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectTypeInfo_InjectMemberInfo(InjectTypeInfo_InjectMemberInfo const&) = delete;
+  InjectTypeInfo_InjectMemberInfo(InjectTypeInfo_InjectMemberInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22517 };
@@ -123,6 +124,7 @@ static_assert(offsetof(::Zenject::InjectTypeInfo_InjectMemberInfo, ___Info) == 0
 static_assert(sizeof(::Zenject::InjectTypeInfo_InjectMemberInfo) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.InjectableInfo
 namespace Zenject {
 // Is value type: false
@@ -159,13 +161,13 @@ protected:
   constexpr InjectTypeInfo_InjectConstructorInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectConstructorInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectConstructorInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectTypeInfo_InjectConstructorInfo(InjectTypeInfo_InjectConstructorInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectConstructorInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectConstructorInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectTypeInfo_InjectConstructorInfo(InjectTypeInfo_InjectConstructorInfo const&) = delete;
+  InjectTypeInfo_InjectConstructorInfo(InjectTypeInfo_InjectConstructorInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22518 };
@@ -186,6 +188,7 @@ static_assert(offsetof(::Zenject::InjectTypeInfo_InjectConstructorInfo, ___Param
 static_assert(sizeof(::Zenject::InjectTypeInfo_InjectConstructorInfo) == 0x20, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.InjectableInfo
 namespace Zenject {
 // Is value type: false
@@ -231,13 +234,13 @@ protected:
   constexpr InjectTypeInfo_InjectMethodInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectMethodInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectMethodInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectTypeInfo_InjectMethodInfo(InjectTypeInfo_InjectMethodInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectMethodInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo_InjectMethodInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectTypeInfo_InjectMethodInfo(InjectTypeInfo_InjectMethodInfo const&) = delete;
+  InjectTypeInfo_InjectMethodInfo(InjectTypeInfo_InjectMethodInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22519 };
@@ -263,6 +266,7 @@ static_assert(offsetof(::Zenject::InjectTypeInfo_InjectMethodInfo, ___Parameters
 static_assert(sizeof(::Zenject::InjectTypeInfo_InjectMethodInfo) == 0x28, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies System.Object, Zenject.InjectTypeInfo::InjectMemberInfo, Zenject.InjectTypeInfo::InjectMethodInfo
 namespace Zenject {
 // Is value type: false
@@ -341,9 +345,11 @@ public:
   inline void _ctor(::System::Type* type, ::Zenject::InjectTypeInfo_InjectConstructorInfo* injectConstructor, ::ArrayW<::Zenject::InjectTypeInfo_InjectMethodInfo*> injectMethods,
                     ::ArrayW<::Zenject::InjectTypeInfo_InjectMemberInfo*> injectMembers);
 
+  /// [CompilerGenerated]
   /// @brief Method <get_AllInjectables>b__0, addr 0x6e3de14, size 0x14, virtual false, abstract: false, final false
   static inline ::Zenject::InjectableInfo* _get_AllInjectables_b__0(::Zenject::InjectTypeInfo_InjectMemberInfo* x);
 
+  /// [CompilerGenerated]
   /// @brief Method <get_AllInjectables>b__1, addr 0x6e3de28, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* _get_AllInjectables_b__1(::Zenject::InjectTypeInfo_InjectMethodInfo* x);
 
@@ -355,6 +361,7 @@ public:
   /// @brief Method get_AllInjectables, addr 0x6e3dc50, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* get_AllInjectables();
 
+  /// [CompilerGenerated]
   /// @brief Method get_BaseTypeInfo, addr 0x6e3dc40, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* get_BaseTypeInfo();
 
@@ -363,6 +370,7 @@ public:
   static inline void
   setStaticF_CS$__9__CachedAnonymousMethodDelegate3(::System::Func_2<::Zenject::InjectTypeInfo_InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_BaseTypeInfo, addr 0x6e3dc48, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseTypeInfo(::Zenject::InjectTypeInfo* value);
 
@@ -372,13 +380,13 @@ protected:
   constexpr InjectTypeInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InjectTypeInfo(InjectTypeInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InjectTypeInfo(InjectTypeInfo const&) = delete;
+  InjectTypeInfo(InjectTypeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22520 };
@@ -395,6 +403,7 @@ public:
   /// @brief Field InjectConstructor, offset: 0x28, size: 0x8, def value: None
   ::Zenject::InjectTypeInfo_InjectConstructorInfo* ___InjectConstructor;
 
+  /// [CompilerGenerated]
   /// @brief Field <BaseTypeInfo>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::Zenject::InjectTypeInfo* ____BaseTypeInfo_k__BackingField;
 

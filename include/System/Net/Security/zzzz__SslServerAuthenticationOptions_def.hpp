@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Security\SslServerAuthenticationOptions.hpp"
+// IWYU pragma private; include "System/Net/Security/SslServerAuthenticationOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,18 +106,21 @@ public:
   /// @brief Method .ctor, addr 0x6370818, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ClientCertificateRequired, addr 0x63706c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ClientCertificateRequired();
 
   /// @brief Method get_EnabledSslProtocols, addr 0x63706e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ServerCertificate, addr 0x63706d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_ServerCertificate();
 
   /// @brief Method set_CertificateRevocationCheckMode, addr 0x63706f0, size 0x94, virtual false, abstract: false, final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ClientCertificateRequired, addr 0x63706c8, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientCertificateRequired(bool value);
 
@@ -127,6 +130,7 @@ public:
   /// @brief Method set_EncryptionPolicy, addr 0x6370784, size 0x94, virtual false, abstract: false, final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ServerCertificate, addr 0x63706d8, size 0x8, virtual false, abstract: false, final false
   inline void set_ServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
@@ -136,13 +140,13 @@ protected:
   constexpr SslServerAuthenticationOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SslServerAuthenticationOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SslServerAuthenticationOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SslServerAuthenticationOptions(SslServerAuthenticationOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SslServerAuthenticationOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SslServerAuthenticationOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SslServerAuthenticationOptions(SslServerAuthenticationOptions const&) = delete;
+  SslServerAuthenticationOptions(SslServerAuthenticationOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11799 };
@@ -159,9 +163,11 @@ public:
   /// @brief Field _allowRenegotiation, offset: 0x1c, size: 0x1, def value: None
   bool ____allowRenegotiation;
 
+  /// [CompilerGenerated]
   /// @brief Field <ClientCertificateRequired>k__BackingField, offset: 0x1d, size: 0x1, def value: None
   bool ____ClientCertificateRequired_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ServerCertificate>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509Certificate* ____ServerCertificate_k__BackingField;
 

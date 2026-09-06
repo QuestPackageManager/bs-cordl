@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ChangeGlobalValue.hpp"
+// IWYU pragma private; include "GlobalNamespace/ChangeGlobalValue.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ChangeGlobalValue_def.hpp"
 #include "GlobalNamespace/zzzz__ChangeGlobalValue_def.hpp"
-// Ctor Parameters [CppParam { name: "key", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "T", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "key", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 template <typename T> constexpr ::GlobalNamespace::ChangeGlobalValue_ShaderValue_1<T>::ChangeGlobalValue_ShaderValue_1(::StringW key, T value) noexcept {
   this->key = key;
   this->value = value;

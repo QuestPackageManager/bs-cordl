@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockQuickPlaySetupModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockQuickPlaySetupModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockQuickPlaySetupModel_def.hpp"
 #include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"

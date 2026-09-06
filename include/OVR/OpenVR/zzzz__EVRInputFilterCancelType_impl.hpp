@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\EVRInputFilterCancelType.hpp"
+// IWYU pragma private; include "OVR/OpenVR/EVRInputFilterCancelType.hpp"
 #include "OVR/OpenVR/zzzz__EVRInputFilterCancelType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OVR::OpenVR::EVRInputFilterCancelType::EVRInputFilterCancelType(int32_t value__) noexcept {
   this->value__ = value__;
 }

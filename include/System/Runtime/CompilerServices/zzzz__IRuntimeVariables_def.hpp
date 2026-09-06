@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\IRuntimeVariables.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/IRuntimeVariables.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,6 +11,7 @@ class IRuntimeVariables;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::IRuntimeVariables*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::IRuntimeVariables*, "System.Runtime.CompilerServices", "IRuntimeVariables");
+// [DefaultMember("Item")]
 // Dependencies
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -18,9 +19,9 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE IRuntimeVariables {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IRuntimeVariables", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IRuntimeVariables", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IRuntimeVariables(IRuntimeVariables const&) = delete;
+  IRuntimeVariables(IRuntimeVariablesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16631 };

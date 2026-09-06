@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\InputTypes\IXOCBeatGamesUserUpsertData.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/InputTypes/IXOCBeatGamesUserUpsertData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,7 +15,9 @@ namespace OculusStudios::GraphQL::ClientInterface {
 class IGraphQLInputObject;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace BeatSaber::Main::GraphQL::InputTypes {
@@ -24,6 +26,7 @@ class IXOCBeatGamesUserUpsertData;
 // Write type traits
 MARK_REF_T(::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData*, "BeatSaber.Main.GraphQL.InputTypes", "IXOCBeatGamesUserUpsertData");
+// [NullableContext(1)]
 // Dependencies
 namespace BeatSaber::Main::GraphQL::InputTypes {
 // Is value type: false
@@ -31,6 +34,7 @@ namespace BeatSaber::Main::GraphQL::InputTypes {
 class CORDL_TYPE IXOCBeatGamesUserUpsertData {
 public:
   // Declarations
+  /// @brief [Nullable(2)]
   __declspec(property(put = set_ClientMutationId)) ::StringW ClientMutationId;
 
   __declspec(property(put = set_CountryCode)) ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::ISOCountryCode> CountryCode;
@@ -45,21 +49,22 @@ public:
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject* i___OculusStudios__GraphQL__ClientInterface__IGraphQLInputObject() noexcept;
 
-  /// @brief Method set_ClientMutationId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [NullableContext(2)]
+  /// @brief Method set_ClientMutationId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ClientMutationId(::StringW value);
 
-  /// @brief Method set_CountryCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_CountryCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_CountryCode(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::ISOCountryCode> value);
 
-  /// @brief Method set_Locale, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_Locale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Locale(::StringW value);
 
-  /// @brief Method set_TimezoneId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method set_TimezoneId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_TimezoneId(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum> value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IXOCBeatGamesUserUpsertData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IXOCBeatGamesUserUpsertData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IXOCBeatGamesUserUpsertData(IXOCBeatGamesUserUpsertData const&) = delete;
+  IXOCBeatGamesUserUpsertData(IXOCBeatGamesUserUpsertDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20580 };

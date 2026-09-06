@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\FpPoint.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/FpPoint.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpPoint_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__FpPoint_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
@@ -382,10 +382,12 @@ inline ::Org::BouncyCastle::Math::EC::FpPoint* Org::BouncyCastle::Math::EC::FpPo
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Math::EC::FpPoint*>(), 43 })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::FpPoint*>(this, ___internal_method, calculateW);
 }
+/// @brief [Obsolete("Use ECCurve.CreatePoint to construct points")]
 inline ::Org::BouncyCastle::Math::EC::FpPoint* Org::BouncyCastle::Math::EC::FpPoint::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                                               ::Org::BouncyCastle::Math::EC::ECFieldElement* y) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::FpPoint*>(curve, x, y));
 }
+/// @brief [Obsolete("Per-point compression property will be removed, see GetEncoded(bool)")]
 inline ::Org::BouncyCastle::Math::EC::FpPoint* Org::BouncyCastle::Math::EC::FpPoint::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                                               ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Math::EC::FpPoint*>(curve, x, y, withCompression));

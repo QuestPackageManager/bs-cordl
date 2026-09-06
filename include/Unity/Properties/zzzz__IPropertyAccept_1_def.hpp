@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\IPropertyAccept_1.hpp"
+// IWYU pragma private; include "Unity/Properties/IPropertyAccept_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +23,12 @@ template <typename TContainer>
 class CORDL_TYPE IPropertyAccept_1 {
 public:
   // Declarations
-  /// @brief Method Accept, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Accept(::Unity::Properties::IPropertyVisitor* visitor, ::by_ref<TContainer> container);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPropertyAccept_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IPropertyAccept_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IPropertyAccept_1(IPropertyAccept_1 const&) = delete;
+  IPropertyAccept_1(IPropertyAccept_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19678 };

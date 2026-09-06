@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IUxmlAttributes.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IUxmlAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IUxmlAttributes {
 public:
   // Declarations
-  /// @brief Method TryGetAttributeValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TryGetAttributeValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetAttributeValue(::StringW attributeName, ::by_ref<::StringW> value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IUxmlAttributes", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IUxmlAttributes", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IUxmlAttributes(IUxmlAttributes const&) = delete;
+  IUxmlAttributes(IUxmlAttributesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5134 };

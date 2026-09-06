@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\GreaterThanInstruction_GreaterThanSingle.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/GreaterThanInstruction_GreaterThanSingle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ protected:
   constexpr GreaterThanInstruction_GreaterThanSingle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GreaterThanInstruction_GreaterThanSingle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GreaterThanInstruction_GreaterThanSingle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GreaterThanInstruction_GreaterThanSingle(GreaterThanInstruction_GreaterThanSingle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GreaterThanInstruction_GreaterThanSingle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GreaterThanInstruction_GreaterThanSingle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GreaterThanInstruction_GreaterThanSingle(GreaterThanInstruction_GreaterThanSingle const&) = delete;
+  GreaterThanInstruction_GreaterThanSingle(GreaterThanInstruction_GreaterThanSingleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16363 };

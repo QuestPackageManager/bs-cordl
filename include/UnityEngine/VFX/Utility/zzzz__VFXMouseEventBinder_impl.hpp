@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXMouseEventBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXMouseEventBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXEventBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXMouseEventBinder_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -8,7 +8,7 @@
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXMouseEventBinder_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::Utility::VFXMouseEventBinder_Activation::VFXMouseEventBinder_Activation(int32_t value__) noexcept {
   this->value__ = value__;
 }

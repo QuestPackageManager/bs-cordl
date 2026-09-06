@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjectiveTypeCollection.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveTypeCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ MARK_REF_T(::GlobalNamespace::MissionObjectiveTypeCollection*);
 MARK_REF_T(::GlobalNamespace::MissionObjectiveTypeCollection___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionObjectiveTypeCollection*, "", "MissionObjectiveTypeCollection");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionObjectiveTypeCollection___c*, "", "MissionObjectiveTypeCollection/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr MissionObjectiveTypeCollection___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjectiveTypeCollection___c(MissionObjectiveTypeCollection___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveTypeCollection___c(MissionObjectiveTypeCollection___c const&) = delete;
+  MissionObjectiveTypeCollection___c(MissionObjectiveTypeCollection___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15266 };
@@ -120,13 +121,13 @@ protected:
   constexpr MissionObjectiveTypeCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjectiveTypeCollection(MissionObjectiveTypeCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveTypeCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveTypeCollection(MissionObjectiveTypeCollection const&) = delete;
+  MissionObjectiveTypeCollection(MissionObjectiveTypeCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15267 };

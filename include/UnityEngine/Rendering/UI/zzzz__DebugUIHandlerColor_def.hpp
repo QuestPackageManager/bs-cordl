@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerColor.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,36 +103,47 @@ public:
   /// @brief Method UpdateColor, addr 0x6801b38, size 0xc8, virtual false, abstract: false, final false
   inline void UpdateColor();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__9_0, addr 0x6801f28, size 0x60, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__9_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__9_1, addr 0x6801f88, size 0x14, virtual false, abstract: false, final false
   inline void _SetWidget_b__9_1(float_t x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__9_2, addr 0x6801f9c, size 0x68, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__9_2();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__9_3, addr 0x6802004, size 0x14, virtual false, abstract: false, final false
   inline void _SetWidget_b__9_3(float_t x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__9_4, addr 0x6802018, size 0x68, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__9_4();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__9_5, addr 0x6802080, size 0x14, virtual false, abstract: false, final false
   inline void _SetWidget_b__9_5(float_t x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__9_6, addr 0x6802094, size 0x68, virtual false, abstract: false, final false
   inline float_t _SetWidget_b__9_6();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetWidget>b__9_7, addr 0x68020fc, size 0x14, virtual false, abstract: false, final false
   inline void _SetWidget_b__9_7(float_t x);
 
+  /// [CompilerGenerated]
   /// @brief Method <SetupSettings>b__11_0, addr 0x6802110, size 0x18, virtual false, abstract: false, final false
   inline float_t _SetupSettings_b__11_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetupSettings>b__11_1, addr 0x6802128, size 0x18, virtual false, abstract: false, final false
   inline float_t _SetupSettings_b__11_1();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetupSettings>b__11_2, addr 0x6802140, size 0x1c, virtual false, abstract: false, final false
   inline float_t _SetupSettings_b__11_2();
 
@@ -199,13 +210,13 @@ protected:
   constexpr DebugUIHandlerColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerColor(DebugUIHandlerColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerColor(DebugUIHandlerColor const&) = delete;
+  DebugUIHandlerColor(DebugUIHandlerColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12513 };

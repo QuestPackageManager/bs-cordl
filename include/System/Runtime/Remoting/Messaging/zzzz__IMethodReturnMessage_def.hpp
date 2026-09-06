@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Messaging\IMethodReturnMessage.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/IMethodReturnMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class IMethodReturnMessage;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Messaging::IMethodReturnMessage*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Messaging::IMethodReturnMessage*, "System.Runtime.Remoting.Messaging", "IMethodReturnMessage");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
@@ -43,13 +44,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
-  /// @brief Method get_Exception, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Exception* get_Exception();
 
-  /// @brief Method get_OutArgs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_OutArgs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*> get_OutArgs();
 
-  /// @brief Method get_ReturnValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_ReturnValue();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
@@ -58,9 +59,9 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMethodReturnMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMethodReturnMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMethodReturnMessage(IMethodReturnMessage const&) = delete;
+  IMethodReturnMessage(IMethodReturnMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3189 };

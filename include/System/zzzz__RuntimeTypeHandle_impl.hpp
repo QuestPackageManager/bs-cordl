@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\RuntimeTypeHandle.hpp"
+// IWYU pragma private; include "System/RuntimeTypeHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__RuntimeTypeHandle_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -810,7 +810,7 @@ constexpr System::RuntimeTypeHandle::operator ::System::Runtime::Serialization::
 constexpr ::System::Runtime::Serialization::ISerializable* System::RuntimeTypeHandle::i___System__Runtime__Serialization__ISerializable() {
   return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::RuntimeTypeHandle::RuntimeTypeHandle(::System::IntPtr value) noexcept {
   this->value = value;
 }

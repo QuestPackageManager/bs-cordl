@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderInteractionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderInteractionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   __declspec(property(get = get_saberInteractionParam)) float_t saberInteractionParam;
 
-  /// @brief Method EndEffect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EndEffect();
 
   /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x597b4d4, size 0xc, virtual false, abstract: false, final false
@@ -51,7 +51,7 @@ public:
   /// @brief Method Start, addr 0x597a558, size 0xec, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartEffect(float_t saberInteractionParam);
 
   constexpr ::UnityW<::GlobalNamespace::SliderInteractionManager> const& __cordl_internal_get__sliderInteractionManager() const;
@@ -75,17 +75,18 @@ protected:
   constexpr SliderInteractionEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderInteractionEffect(SliderInteractionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderInteractionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderInteractionEffect(SliderInteractionEffect const&) = delete;
+  SliderInteractionEffect(SliderInteractionEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5731 };
 
+  /// [SerializeField]
   /// @brief Field _sliderInteractionManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderInteractionManager> ____sliderInteractionManager;
 

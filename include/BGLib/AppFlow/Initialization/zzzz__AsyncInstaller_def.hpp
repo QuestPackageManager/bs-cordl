@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncInstaller.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::BGLib::AppFlow::Initialization::AsyncInstaller*);
 MARK_VAL_T(::BGLib::AppFlow::Initialization::AsyncInstaller__LoadInternalAsync_d__8);
 DEFINE_IL2CPP_CLASS(::BGLib::AppFlow::Initialization::AsyncInstaller*, "BGLib.AppFlow.Initialization", "AsyncInstaller");
 DEFINE_IL2CPP_CLASS(::BGLib::AppFlow::Initialization::AsyncInstaller__LoadInternalAsync_d__8, "BGLib.AppFlow.Initialization", "AsyncInstaller/<LoadInternalAsync>d__8");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
@@ -58,6 +59,7 @@ public:
   /// @brief Method MoveNext, addr 0x3308574, size 0x26c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x33087e0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -68,10 +70,11 @@ public:
   // @brief default ctor
   constexpr AsyncInstaller__LoadInternalAsync_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller>",
-  // modifiers: "", def_value: None }, CppParam { name: "registry", ty: "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None }, CppParam { name: "container", ty:
-  // "::Zenject::DiContainer*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller>", modifiers: "", def_value: None, comment: None }, CppParam { name: "registry", ty:
+  // "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None, comment: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr AsyncInstaller__LoadInternalAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                    ::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller> __4__this, ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry,
                                                    ::Zenject::DiContainer* container, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -139,14 +142,15 @@ public:
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
 
-  /// @brief Method InstallBindings, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InstallBindings();
 
+  /// [AsyncStateMachine(typeof(BGLib.AppFlow.Initialization.AsyncInstaller::<LoadInternalAsync>d__8))]
   /// @brief Method LoadInternalAsync, addr 0x33084a8, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadInternalAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstaller* New_ctor();
@@ -178,17 +182,18 @@ protected:
   constexpr AsyncInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncInstaller(AsyncInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsyncInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AsyncInstaller(AsyncInstaller const&) = delete;
+  AsyncInstaller(AsyncInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21549 };
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x30, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1Generator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Generator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ public:
   /// @brief Field _out, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out)) ::System::IO::Stream* _out;
 
-  /// @brief Method AddObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Close, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Close();
 
-  /// @brief Method GetRawOutputStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetRawOutputStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* GetRawOutputStream();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Generator* New_ctor(::System::IO::Stream* outStream);
@@ -59,13 +59,13 @@ protected:
   constexpr Asn1Generator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Generator(Asn1Generator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Generator(Asn1Generator const&) = delete;
+  Asn1Generator(Asn1Generatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 451 };

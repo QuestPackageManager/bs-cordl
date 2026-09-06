@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ResolvedStyleAccess.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ResolvedStyleAccess.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ResolvedStyleAccess_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

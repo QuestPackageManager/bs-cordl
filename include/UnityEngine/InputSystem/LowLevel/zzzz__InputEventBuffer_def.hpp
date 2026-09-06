@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEventBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventBuffer_Enumerator;
@@ -107,9 +109,9 @@ public:
   // @brief default ctor
   constexpr InputEventBuffer_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None }, CppParam { name: "m_EventCount", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "m_CurrentEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentIndex", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_EventCount", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputEventBuffer_Enumerator(::UnityEngine::InputSystem::LowLevel::InputEvent* m_Buffer, int32_t m_EventCount, ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentEvent,
                                         int32_t m_CurrentIndex) noexcept;
 
@@ -245,8 +247,9 @@ public:
   // @brief default ctor
   constexpr InputEventBuffer();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "m_SizeInBytes", ty: "int64_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_EventCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_WeOwnTheBuffer", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_SizeInBytes", ty: "int64_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_EventCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_WeOwnTheBuffer", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr InputEventBuffer(::Unity::Collections::NativeArray_1<uint8_t> m_Buffer, int64_t m_SizeInBytes, int32_t m_EventCount, bool m_WeOwnTheBuffer) noexcept;
 
   /// @brief Field BufferSizeUnknown offset 0xffffffff size 0x8

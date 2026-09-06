@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\Player.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/Player.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,8 +39,8 @@ public:
   // @brief default ctor
   constexpr Player();
 
-  // Ctor Parameters [CppParam { name: "playerId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "oculusId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "colocationGroupId", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "playerId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "oculusId", ty: "uint64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "colocationGroupId", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Player(uint64_t playerId, uint64_t oculusId, uint32_t colocationGroupId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

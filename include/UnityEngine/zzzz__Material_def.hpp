@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Material.hpp"
+// IWYU pragma private; include "UnityEngine/Material.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,8 @@ class Material;
 // Write type traits
 MARK_REF_T(::UnityEngine::Material*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Material*, "UnityEngine", "Material");
+// [NativeHeader("Runtime/Graphics/ShaderScriptBindings.h")]
+// [NativeHeader("Runtime/Shaders/Material.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -87,6 +89,7 @@ public:
 
   __declspec(property(get = get_doubleSidedGI, put = set_doubleSidedGI)) bool doubleSidedGI;
 
+  /// @brief [NativeProperty("EnableInstancingVariants")]
   __declspec(property(get = get_enableInstancing, put = set_enableInstancing)) bool enableInstancing;
 
   __declspec(property(get = get_enabledKeywords, put = set_enabledKeywords)) ::ArrayW<::UnityEngine::Rendering::LocalKeyword> enabledKeywords;
@@ -121,45 +124,52 @@ public:
   /// @brief Method ComputeCRC_Injected, addr 0x6a9c074, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ComputeCRC_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("MaterialScripting::CopyMatchingPropertiesFrom", HasExplicitThis = true)]
   /// @brief Method CopyMatchingPropertiesFromMaterial, addr 0x6a9bbbc, size 0xe8, virtual false, abstract: false, final false
   inline void CopyMatchingPropertiesFromMaterial(::UnityEngine::Material* mat);
 
   /// @brief Method CopyMatchingPropertiesFromMaterial_Injected, addr 0x6a9bca4, size 0x44, virtual false, abstract: false, final false
   static inline void CopyMatchingPropertiesFromMaterial_Injected(::System::IntPtr _unity_self, ::System::IntPtr mat);
 
+  /// [FreeFunction("MaterialScripting::CopyPropertiesFrom", HasExplicitThis = true)]
   /// @brief Method CopyPropertiesFromMaterial, addr 0x6a9ba90, size 0xe8, virtual false, abstract: false, final false
   inline void CopyPropertiesFromMaterial(::UnityEngine::Material* mat);
 
   /// @brief Method CopyPropertiesFromMaterial_Injected, addr 0x6a9bb78, size 0x44, virtual false, abstract: false, final false
   static inline void CopyPropertiesFromMaterial_Injected(::System::IntPtr _unity_self, ::System::IntPtr mat);
 
+  /// [Obsolete("Creating materials from shader source string will be removed in the future. Use Shader assets instead.", false)]
   /// @brief Method Create, addr 0x6a97b94, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Create(::StringW scriptContents);
 
+  /// [FreeFunction("MaterialScripting::CreateWithMaterial")]
   /// @brief Method CreateWithMaterial, addr 0x6a97da8, size 0xdc, virtual false, abstract: false, final false
-  static inline void CreateWithMaterial(::UnityEngine::Material* self, ::UnityEngine::Material* source);
+  static inline void CreateWithMaterial(/* [Writable] */ ::UnityEngine::Material* self, /* [NotNull] */ ::UnityEngine::Material* source);
 
   /// @brief Method CreateWithMaterial_Injected, addr 0x6a97e84, size 0x44, virtual false, abstract: false, final false
-  static inline void CreateWithMaterial_Injected(::UnityEngine::Material* self, ::System::IntPtr source);
+  static inline void CreateWithMaterial_Injected(/* [Writable] */ ::UnityEngine::Material* self, ::System::IntPtr source);
 
+  /// [FreeFunction("MaterialScripting::CreateWithShader")]
   /// @brief Method CreateWithShader, addr 0x6a97c88, size 0xdc, virtual false, abstract: false, final false
-  static inline void CreateWithShader(::UnityEngine::Material* self, ::UnityEngine::Shader* shader);
+  static inline void CreateWithShader(/* [Writable] */ ::UnityEngine::Material* self, /* [NotNull] */ ::UnityEngine::Shader* shader);
 
   /// @brief Method CreateWithShader_Injected, addr 0x6a97d64, size 0x44, virtual false, abstract: false, final false
-  static inline void CreateWithShader_Injected(::UnityEngine::Material* self, ::System::IntPtr shader);
+  static inline void CreateWithShader_Injected(/* [Writable] */ ::UnityEngine::Material* self, ::System::IntPtr shader);
 
+  /// [FreeFunction("MaterialScripting::CreateWithString")]
   /// @brief Method CreateWithString, addr 0x6a97ec8, size 0x3c, virtual false, abstract: false, final false
-  static inline void CreateWithString(::UnityEngine::Material* self);
+  static inline void CreateWithString(/* [Writable] */ ::UnityEngine::Material* self);
 
   /// @brief Method DisableKeyword, addr 0x6a99a78, size 0x190, virtual false, abstract: false, final false
   inline void DisableKeyword(::StringW keyword);
 
   /// @brief Method DisableKeyword, addr 0x6a9a264, size 0x2c, virtual false, abstract: false, final false
-  inline void DisableKeyword(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method DisableKeyword_Injected, addr 0x6a99c08, size 0x44, virtual false, abstract: false, final false
   static inline void DisableKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
+  /// [FreeFunction("MaterialScripting::DisableKeyword", HasExplicitThis = true)]
   /// @brief Method DisableLocalKeyword, addr 0x6a99f2c, size 0xb8, virtual false, abstract: false, final false
   inline void DisableLocalKeyword(::UnityEngine::Rendering::LocalKeyword keyword);
 
@@ -170,11 +180,12 @@ public:
   inline void EnableKeyword(::StringW keyword);
 
   /// @brief Method EnableKeyword, addr 0x6a9a238, size 0x2c, virtual false, abstract: false, final false
-  inline void EnableKeyword(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline void EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method EnableKeyword_Injected, addr 0x6a99a34, size 0x44, virtual false, abstract: false, final false
   static inline void EnableKeyword_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
+  /// [FreeFunction("MaterialScripting::EnableKeyword", HasExplicitThis = true)]
   /// @brief Method EnableLocalKeyword, addr 0x6a99e30, size 0xb8, virtual false, abstract: false, final false
   inline void EnableLocalKeyword(::UnityEngine::Rendering::LocalKeyword keyword);
 
@@ -184,6 +195,7 @@ public:
   /// @brief Method ExtractColorArray, addr 0x6a9fc48, size 0x128, virtual false, abstract: false, final false
   inline void ExtractColorArray(int32_t name, ::System::Collections::Generic::List_1<::UnityEngine::Color>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::ExtractColorArray", HasExplicitThis = true)]
   /// @brief Method ExtractColorArrayImpl, addr 0x6a9eff8, size 0x188, virtual false, abstract: false, final false
   inline void ExtractColorArrayImpl(int32_t name, ::by_ref<::ArrayW<::UnityEngine::Color>> val);
 
@@ -193,6 +205,7 @@ public:
   /// @brief Method ExtractFloatArray, addr 0x6a9f9f8, size 0x128, virtual false, abstract: false, final false
   inline void ExtractFloatArray(int32_t name, ::System::Collections::Generic::List_1<float_t>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::ExtractFloatArray", HasExplicitThis = true)]
   /// @brief Method ExtractFloatArrayImpl, addr 0x6a9ec40, size 0x188, virtual false, abstract: false, final false
   inline void ExtractFloatArrayImpl(int32_t name, ::by_ref<::ArrayW<float_t>> val);
 
@@ -202,6 +215,7 @@ public:
   /// @brief Method ExtractMatrixArray, addr 0x6a9fd70, size 0x128, virtual false, abstract: false, final false
   inline void ExtractMatrixArray(int32_t name, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::ExtractMatrixArray", HasExplicitThis = true)]
   /// @brief Method ExtractMatrixArrayImpl, addr 0x6a9f1d4, size 0x188, virtual false, abstract: false, final false
   inline void ExtractMatrixArrayImpl(int32_t name, ::by_ref<::ArrayW<::UnityEngine::Matrix4x4>> val);
 
@@ -211,6 +225,7 @@ public:
   /// @brief Method ExtractVectorArray, addr 0x6a9fb20, size 0x128, virtual false, abstract: false, final false
   inline void ExtractVectorArray(int32_t name, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::ExtractVectorArray", HasExplicitThis = true)]
   /// @brief Method ExtractVectorArrayImpl, addr 0x6a9ee1c, size 0x188, virtual false, abstract: false, final false
   inline void ExtractVectorArrayImpl(int32_t name, ::by_ref<::ArrayW<::UnityEngine::Vector4>> val);
 
@@ -226,6 +241,7 @@ public:
   /// @brief Method GetBuffer, addr 0x6aa094c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBufferHandle GetBuffer(::StringW name);
 
+  /// [NativeName("GetBufferFromScript")]
   /// @brief Method GetBufferImpl, addr 0x6a9d7f8, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBufferHandle GetBufferImpl(int32_t name);
 
@@ -250,18 +266,21 @@ public:
   /// @brief Method GetColorArray, addr 0x6aa0b60, size 0x4, virtual false, abstract: false, final false
   inline void GetColorArray(int32_t nameID, ::System::Collections::Generic::List_1<::UnityEngine::Color>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::GetColorArrayCount", HasExplicitThis = true)]
   /// @brief Method GetColorArrayCountImpl, addr 0x6a9ea48, size 0xb8, virtual false, abstract: false, final false
   inline int32_t GetColorArrayCountImpl(int32_t name);
 
   /// @brief Method GetColorArrayCountImpl_Injected, addr 0x6a9eb00, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetColorArrayCountImpl_Injected(::System::IntPtr _unity_self, int32_t name);
 
+  /// [FreeFunction(Name = "MaterialScripting::GetColorArray", HasExplicitThis = true)]
   /// @brief Method GetColorArrayImpl, addr 0x6a9e480, size 0x194, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color> GetColorArrayImpl(int32_t name);
 
   /// @brief Method GetColorArrayImpl_Injected, addr 0x6a9e614, size 0x54, virtual false, abstract: false, final false
   static inline void GetColorArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
+  /// [NativeName("GetColorFromScript")]
   /// @brief Method GetColorImpl, addr 0x6a9d3d0, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColorImpl(int32_t name);
 
@@ -271,6 +290,7 @@ public:
   /// @brief Method GetConstantBuffer, addr 0x6aa096c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBufferHandle GetConstantBuffer(::StringW name);
 
+  /// [NativeName("GetConstantBufferFromScript")]
   /// @brief Method GetConstantBufferImpl, addr 0x6a9d914, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBufferHandle GetConstantBufferImpl(int32_t name);
 
@@ -295,12 +315,14 @@ public:
   /// @brief Method GetDefaultParticleMaterial_Injected, addr 0x6a982c4, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetDefaultParticleMaterial_Injected();
 
+  /// [FreeFunction("MaterialScripting::GetEnabledKeywords", HasExplicitThis = true)]
   /// @brief Method GetEnabledKeywords, addr 0x6a9a2ec, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> GetEnabledKeywords();
 
   /// @brief Method GetEnabledKeywords_Injected, addr 0x6a9a394, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> GetEnabledKeywords_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("GetFirstPropertyNameIdByAttributeFromScript")]
   /// @brief Method GetFirstPropertyNameIdByAttribute, addr 0x6a987a8, size 0xb8, virtual false, abstract: false, final false
   inline int32_t GetFirstPropertyNameIdByAttribute(::UnityEngine::Rendering::ShaderPropertyFlags attributeFlag);
 
@@ -325,18 +347,21 @@ public:
   /// @brief Method GetFloatArray, addr 0x6aa0b2c, size 0x4, virtual false, abstract: false, final false
   inline void GetFloatArray(int32_t nameID, ::System::Collections::Generic::List_1<float_t>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::GetFloatArrayCount", HasExplicitThis = true)]
   /// @brief Method GetFloatArrayCountImpl, addr 0x6a9e850, size 0xb8, virtual false, abstract: false, final false
   inline int32_t GetFloatArrayCountImpl(int32_t name);
 
   /// @brief Method GetFloatArrayCountImpl_Injected, addr 0x6a9e908, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetFloatArrayCountImpl_Injected(::System::IntPtr _unity_self, int32_t name);
 
+  /// [FreeFunction(Name = "MaterialScripting::GetFloatArray", HasExplicitThis = true)]
   /// @brief Method GetFloatArrayImpl, addr 0x6a9e0b0, size 0x194, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> GetFloatArrayImpl(int32_t name);
 
   /// @brief Method GetFloatArrayImpl_Injected, addr 0x6a9e244, size 0x54, virtual false, abstract: false, final false
   static inline void GetFloatArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
+  /// [NativeName("GetFloatFromScript")]
   /// @brief Method GetFloatImpl, addr 0x6a9d2d4, size 0xb8, virtual false, abstract: false, final false
   inline float_t GetFloatImpl(int32_t name);
 
@@ -349,6 +374,7 @@ public:
   /// @brief Method GetInt, addr 0x6aa07fc, size 0x28, virtual false, abstract: false, final false
   inline int32_t GetInt(int32_t nameID);
 
+  /// [NativeName("GetIntFromScript")]
   /// @brief Method GetIntImpl, addr 0x6a9d1d8, size 0xb8, virtual false, abstract: false, final false
   inline int32_t GetIntImpl(int32_t name);
 
@@ -379,18 +405,21 @@ public:
   /// @brief Method GetMatrixArray, addr 0x6aa0bc8, size 0x4, virtual false, abstract: false, final false
   inline void GetMatrixArray(int32_t nameID, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::GetMatrixArrayCount", HasExplicitThis = true)]
   /// @brief Method GetMatrixArrayCountImpl, addr 0x6a9eb44, size 0xb8, virtual false, abstract: false, final false
   inline int32_t GetMatrixArrayCountImpl(int32_t name);
 
   /// @brief Method GetMatrixArrayCountImpl_Injected, addr 0x6a9ebfc, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetMatrixArrayCountImpl_Injected(::System::IntPtr _unity_self, int32_t name);
 
+  /// [FreeFunction(Name = "MaterialScripting::GetMatrixArray", HasExplicitThis = true)]
   /// @brief Method GetMatrixArrayImpl, addr 0x6a9e668, size 0x194, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> GetMatrixArrayImpl(int32_t name);
 
   /// @brief Method GetMatrixArrayImpl_Injected, addr 0x6a9e7fc, size 0x54, virtual false, abstract: false, final false
   static inline void GetMatrixArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
+  /// [NativeName("GetMatrixFromScript")]
   /// @brief Method GetMatrixImpl, addr 0x6a9d4f8, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetMatrixImpl(int32_t name);
 
@@ -406,18 +435,21 @@ public:
   /// @brief Method GetPropertyNames, addr 0x6aa0c88, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetPropertyNames(::UnityEngine::MaterialPropertyType type);
 
+  /// [FreeFunction("MaterialScripting::GetPropertyNames", HasExplicitThis = true)]
   /// @brief Method GetPropertyNamesImpl, addr 0x6a9bed0, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetPropertyNamesImpl(int32_t propertyType);
 
   /// @brief Method GetPropertyNamesImpl_Injected, addr 0x6a9bf88, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetPropertyNamesImpl_Injected(::System::IntPtr _unity_self, int32_t propertyType);
 
+  /// [FreeFunction("MaterialScripting::GetShaderKeywords", HasExplicitThis = true)]
   /// @brief Method GetShaderKeywords, addr 0x6a9bce8, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetShaderKeywords();
 
   /// @brief Method GetShaderKeywords_Injected, addr 0x6a9bd90, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetShaderKeywords_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("MaterialScripting::GetShaderPassEnabled", HasExplicitThis = true)]
   /// @brief Method GetShaderPassEnabled, addr 0x6a9aca0, size 0x1a0, virtual false, abstract: false, final false
   inline bool GetShaderPassEnabled(::StringW passName);
 
@@ -430,6 +462,7 @@ public:
   /// @brief Method GetTag, addr 0x6a9b7a4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW GetTag(::StringW tag, bool searchFallbacks, ::StringW defaultValue);
 
+  /// [NativeName("GetTag")]
   /// @brief Method GetTagImpl, addr 0x6a9b484, size 0x2b4, virtual false, abstract: false, final false
   inline ::StringW GetTagImpl(::StringW tag, bool currentSubShaderOnly, ::StringW defaultValue);
 
@@ -443,6 +476,7 @@ public:
   /// @brief Method GetTexture, addr 0x6a98988, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetTexture(int32_t nameID);
 
+  /// [NativeName("GetTextureFromScript")]
   /// @brief Method GetTextureImpl, addr 0x6a9d634, size 0x180, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetTextureImpl(int32_t name);
 
@@ -455,12 +489,14 @@ public:
   /// @brief Method GetTextureOffset, addr 0x6a98a9c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetTextureOffset(int32_t nameID);
 
+  /// [FreeFunction("MaterialScripting::GetTexturePropertyNameIDs", HasExplicitThis = true)]
   /// @brief Method GetTexturePropertyNameIDs, addr 0x6a9c194, size 0x188, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetTexturePropertyNameIDs();
 
   /// @brief Method GetTexturePropertyNameIDs, addr 0x6a9c5ac, size 0x54, virtual false, abstract: false, final false
   inline void GetTexturePropertyNameIDs(::System::Collections::Generic::List_1<int32_t>* outNames);
 
+  /// [FreeFunction("MaterialScripting::GetTexturePropertyNameIDsInternal", HasExplicitThis = true)]
   /// @brief Method GetTexturePropertyNameIDsInternal, addr 0x6a9c45c, size 0xb8, virtual false, abstract: false, final false
   inline void GetTexturePropertyNameIDsInternal(::System::Object* outNames);
 
@@ -470,12 +506,14 @@ public:
   /// @brief Method GetTexturePropertyNameIDs_Injected, addr 0x6a9c31c, size 0x44, virtual false, abstract: false, final false
   static inline void GetTexturePropertyNameIDs_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
+  /// [FreeFunction("MaterialScripting::GetTexturePropertyNames", HasExplicitThis = true)]
   /// @brief Method GetTexturePropertyNames, addr 0x6a9c0b0, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetTexturePropertyNames();
 
   /// @brief Method GetTexturePropertyNames, addr 0x6a9c558, size 0x54, virtual false, abstract: false, final false
   inline void GetTexturePropertyNames(::System::Collections::Generic::List_1<::StringW>* outNames);
 
+  /// [FreeFunction("MaterialScripting::GetTexturePropertyNamesInternal", HasExplicitThis = true)]
   /// @brief Method GetTexturePropertyNamesInternal, addr 0x6a9c360, size 0xb8, virtual false, abstract: false, final false
   inline void GetTexturePropertyNamesInternal(::System::Object* outNames);
 
@@ -491,6 +529,7 @@ public:
   /// @brief Method GetTextureScale, addr 0x6a98bc0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetTextureScale(int32_t nameID);
 
+  /// [NativeName("GetTextureScaleAndOffsetFromScript")]
   /// @brief Method GetTextureScaleAndOffsetImpl, addr 0x6a9f3b0, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetTextureScaleAndOffsetImpl(int32_t name);
 
@@ -515,12 +554,14 @@ public:
   /// @brief Method GetVectorArray, addr 0x6aa0b94, size 0x4, virtual false, abstract: false, final false
   inline void GetVectorArray(int32_t nameID, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::GetVectorArrayCount", HasExplicitThis = true)]
   /// @brief Method GetVectorArrayCountImpl, addr 0x6a9e94c, size 0xb8, virtual false, abstract: false, final false
   inline int32_t GetVectorArrayCountImpl(int32_t name);
 
   /// @brief Method GetVectorArrayCountImpl_Injected, addr 0x6a9ea04, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetVectorArrayCountImpl_Injected(::System::IntPtr _unity_self, int32_t name);
 
+  /// [FreeFunction(Name = "MaterialScripting::GetVectorArray", HasExplicitThis = true)]
   /// @brief Method GetVectorArrayImpl, addr 0x6a9e298, size 0x194, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4> GetVectorArrayImpl(int32_t name);
 
@@ -533,6 +574,7 @@ public:
   /// @brief Method HasBuffer, addr 0x6a994bc, size 0x4, virtual false, abstract: false, final false
   inline bool HasBuffer(int32_t nameID);
 
+  /// [NativeName("HasBufferFromScript")]
   /// @brief Method HasBufferImpl, addr 0x6a993a0, size 0xb8, virtual false, abstract: false, final false
   inline bool HasBufferImpl(int32_t name);
 
@@ -551,6 +593,7 @@ public:
   /// @brief Method HasConstantBuffer, addr 0x6a995dc, size 0x4, virtual false, abstract: false, final false
   inline bool HasConstantBuffer(int32_t nameID);
 
+  /// [NativeName("HasConstantBufferFromScript")]
   /// @brief Method HasConstantBufferImpl, addr 0x6a994c0, size 0xb8, virtual false, abstract: false, final false
   inline bool HasConstantBufferImpl(int32_t name);
 
@@ -563,6 +606,7 @@ public:
   /// @brief Method HasFloat, addr 0x6a98ed4, size 0x4, virtual false, abstract: false, final false
   inline bool HasFloat(int32_t nameID);
 
+  /// [NativeName("HasFloatFromScript")]
   /// @brief Method HasFloatImpl, addr 0x6a98db8, size 0xb8, virtual false, abstract: false, final false
   inline bool HasFloatImpl(int32_t name);
 
@@ -575,6 +619,7 @@ public:
   /// @brief Method HasInt, addr 0x6a98ef8, size 0x4, virtual false, abstract: false, final false
   inline bool HasInt(int32_t nameID);
 
+  /// [NativeName("HasIntegerFromScript")]
   /// @brief Method HasIntImpl, addr 0x6a98efc, size 0xb8, virtual false, abstract: false, final false
   inline bool HasIntImpl(int32_t name);
 
@@ -593,6 +638,7 @@ public:
   /// @brief Method HasMatrix, addr 0x6a99258, size 0x4, virtual false, abstract: false, final false
   inline bool HasMatrix(int32_t nameID);
 
+  /// [NativeName("HasMatrixFromScript")]
   /// @brief Method HasMatrixImpl, addr 0x6a9913c, size 0xb8, virtual false, abstract: false, final false
   inline bool HasMatrixImpl(int32_t name);
 
@@ -602,6 +648,7 @@ public:
   /// @brief Method HasProperty, addr 0x6a98d98, size 0x20, virtual false, abstract: false, final false
   inline bool HasProperty(::StringW name);
 
+  /// [NativeName("HasPropertyFromScript")]
   /// @brief Method HasProperty, addr 0x6a98c9c, size 0xb8, virtual false, abstract: false, final false
   inline bool HasProperty(int32_t nameID);
 
@@ -614,6 +661,7 @@ public:
   /// @brief Method HasTexture, addr 0x6a99138, size 0x4, virtual false, abstract: false, final false
   inline bool HasTexture(int32_t nameID);
 
+  /// [NativeName("HasTextureFromScript")]
   /// @brief Method HasTextureImpl, addr 0x6a9901c, size 0xb8, virtual false, abstract: false, final false
   inline bool HasTextureImpl(int32_t name);
 
@@ -626,6 +674,7 @@ public:
   /// @brief Method HasVector, addr 0x6a99378, size 0x4, virtual false, abstract: false, final false
   inline bool HasVector(int32_t nameID);
 
+  /// [NativeName("HasVectorFromScript")]
   /// @brief Method HasVectorImpl, addr 0x6a9925c, size 0xb8, virtual false, abstract: false, final false
   inline bool HasVectorImpl(int32_t name);
 
@@ -636,27 +685,33 @@ public:
   inline bool IsKeywordEnabled(::StringW keyword);
 
   /// @brief Method IsKeywordEnabled, addr 0x6a9a2bc, size 0x30, virtual false, abstract: false, final false
-  inline bool IsKeywordEnabled(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
+  inline bool IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
   /// @brief Method IsKeywordEnabled_Injected, addr 0x6a99dec, size 0x44, virtual false, abstract: false, final false
   static inline bool IsKeywordEnabled_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
+  /// [FreeFunction("MaterialScripting::IsKeywordEnabled", HasExplicitThis = true)]
   /// @brief Method IsLocalKeywordEnabled, addr 0x6a9a13c, size 0xb8, virtual false, abstract: false, final false
   inline bool IsLocalKeywordEnabled(::UnityEngine::Rendering::LocalKeyword keyword);
 
   /// @brief Method IsLocalKeywordEnabled_Injected, addr 0x6a9a1f4, size 0x44, virtual false, abstract: false, final false
   static inline bool IsLocalKeywordEnabled_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword);
 
+  /// [FreeFunction("MaterialScripting::Lerp", HasExplicitThis = true)]
+  /// [NativeThrows]
   /// @brief Method Lerp, addr 0x6a9b818, size 0x118, virtual false, abstract: false, final false
   inline void Lerp(::UnityEngine::Material* start, ::UnityEngine::Material* end, float_t t);
 
   /// @brief Method Lerp_Injected, addr 0x6a9b930, size 0x64, virtual false, abstract: false, final false
   static inline void Lerp_Injected(::System::IntPtr _unity_self, ::System::IntPtr start, ::System::IntPtr end, float_t t);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("Creating materials from shader source string is no longer supported. Use Shader assets instead.", false)]
   static inline ::UnityEngine::Material* New_ctor(::StringW contents);
 
   static inline ::UnityEngine::Material* New_ctor(::UnityEngine::Shader* shader);
 
+  /// @brief [RequiredByNativeCode]
   static inline ::UnityEngine::Material* New_ctor(::UnityEngine::Material* source);
 
   /// @brief Method SetBuffer, addr 0x6aa00c0, size 0x30, virtual false, abstract: false, final false
@@ -671,6 +726,7 @@ public:
   /// @brief Method SetBuffer, addr 0x6aa0124, size 0x4, virtual false, abstract: false, final false
   inline void SetBuffer(int32_t nameID, ::UnityEngine::GraphicsBuffer* value);
 
+  /// [NativeName("SetBufferFromScript")]
   /// @brief Method SetBufferImpl, addr 0x6a9cd08, size 0xc8, virtual false, abstract: false, final false
   inline void SetBufferImpl(int32_t name, ::UnityEngine::ComputeBuffer* value);
 
@@ -698,12 +754,14 @@ public:
   /// @brief Method SetColorArray, addr 0x6aa03e0, size 0x90, virtual false, abstract: false, final false
   inline void SetColorArray(int32_t nameID, ::System::Collections::Generic::List_1<::UnityEngine::Color>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::SetColorArray", HasExplicitThis = true)]
   /// @brief Method SetColorArrayImpl, addr 0x6a9dd70, size 0x144, virtual false, abstract: false, final false
   inline void SetColorArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Color> values, int32_t count);
 
   /// @brief Method SetColorArrayImpl_Injected, addr 0x6a9deb4, size 0x5c, virtual false, abstract: false, final false
   static inline void SetColorArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values, int32_t count);
 
+  /// [NativeName("SetColorFromScript")]
   /// @brief Method SetColorImpl, addr 0x6a9c830, size 0xd0, virtual false, abstract: false, final false
   inline void SetColorImpl(int32_t name, ::UnityEngine::Color value);
 
@@ -722,18 +780,21 @@ public:
   /// @brief Method SetConstantBuffer, addr 0x6aa01bc, size 0x4, virtual false, abstract: false, final false
   inline void SetConstantBuffer(int32_t nameID, ::UnityEngine::GraphicsBuffer* value, int32_t offset, int32_t size);
 
+  /// [NativeName("SetConstantBufferFromScript")]
   /// @brief Method SetConstantBufferImpl, addr 0x6a9cf40, size 0xe0, virtual false, abstract: false, final false
   inline void SetConstantBufferImpl(int32_t name, ::UnityEngine::ComputeBuffer* value, int32_t offset, int32_t size);
 
   /// @brief Method SetConstantBufferImpl_Injected, addr 0x6a9d020, size 0x6c, virtual false, abstract: false, final false
   static inline void SetConstantBufferImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::System::IntPtr value, int32_t offset, int32_t size);
 
+  /// [NativeName("SetConstantBufferFromScript")]
   /// @brief Method SetConstantGraphicsBufferImpl, addr 0x6a9d08c, size 0xe0, virtual false, abstract: false, final false
   inline void SetConstantGraphicsBufferImpl(int32_t name, ::UnityEngine::GraphicsBuffer* value, int32_t offset, int32_t size);
 
   /// @brief Method SetConstantGraphicsBufferImpl_Injected, addr 0x6a9d16c, size 0x6c, virtual false, abstract: false, final false
   static inline void SetConstantGraphicsBufferImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::System::IntPtr value, int32_t offset, int32_t size);
 
+  /// [FreeFunction("MaterialScripting::SetEnabledKeywords", HasExplicitThis = true)]
   /// @brief Method SetEnabledKeywords, addr 0x6a9a3d0, size 0xb8, virtual false, abstract: false, final false
   inline void SetEnabledKeywords(::ArrayW<::UnityEngine::Rendering::LocalKeyword> keywords);
 
@@ -761,18 +822,21 @@ public:
   /// @brief Method SetFloatArray, addr 0x6aa0260, size 0x90, virtual false, abstract: false, final false
   inline void SetFloatArray(int32_t nameID, ::System::Collections::Generic::List_1<float_t>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::SetFloatArray", HasExplicitThis = true)]
   /// @brief Method SetFloatArrayImpl, addr 0x6a9da30, size 0x144, virtual false, abstract: false, final false
   inline void SetFloatArrayImpl(int32_t name, ::ArrayW<float_t> values, int32_t count);
 
   /// @brief Method SetFloatArrayImpl_Injected, addr 0x6a9db74, size 0x5c, virtual false, abstract: false, final false
   static inline void SetFloatArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values, int32_t count);
 
+  /// [NativeName("SetFloatFromScript")]
   /// @brief Method SetFloatImpl, addr 0x6a9c714, size 0xc8, virtual false, abstract: false, final false
   inline void SetFloatImpl(int32_t name, float_t value);
 
   /// @brief Method SetFloatImpl_Injected, addr 0x6a9c7dc, size 0x54, virtual false, abstract: false, final false
   static inline void SetFloatImpl_Injected(::System::IntPtr _unity_self, int32_t name, float_t value);
 
+  /// [NativeName("SetBufferFromScript")]
   /// @brief Method SetGraphicsBufferImpl, addr 0x6a9ce24, size 0xc8, virtual false, abstract: false, final false
   inline void SetGraphicsBufferImpl(int32_t name, ::UnityEngine::GraphicsBuffer* value);
 
@@ -785,6 +849,7 @@ public:
   /// @brief Method SetInt, addr 0x6a9fec8, size 0x8, virtual false, abstract: false, final false
   inline void SetInt(int32_t nameID, int32_t value);
 
+  /// [NativeName("SetIntFromScript")]
   /// @brief Method SetIntImpl, addr 0x6a9c600, size 0xc0, virtual false, abstract: false, final false
   inline void SetIntImpl(int32_t name, int32_t value);
 
@@ -798,8 +863,9 @@ public:
   inline void SetInteger(int32_t nameID, int32_t value);
 
   /// @brief Method SetKeyword, addr 0x6a9a290, size 0x2c, virtual false, abstract: false, final false
-  inline void SetKeyword(::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
+  inline void SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
 
+  /// [FreeFunction("MaterialScripting::SetKeyword", HasExplicitThis = true)]
   /// @brief Method SetLocalKeyword, addr 0x6a9a028, size 0xc0, virtual false, abstract: false, final false
   inline void SetLocalKeyword(::UnityEngine::Rendering::LocalKeyword keyword, bool value);
 
@@ -827,12 +893,14 @@ public:
   /// @brief Method SetMatrixArray, addr 0x6aa06e0, size 0x90, virtual false, abstract: false, final false
   inline void SetMatrixArray(int32_t nameID, ::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::SetMatrixArray", HasExplicitThis = true)]
   /// @brief Method SetMatrixArrayImpl, addr 0x6a9df10, size 0x144, virtual false, abstract: false, final false
   inline void SetMatrixArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Matrix4x4> values, int32_t count);
 
   /// @brief Method SetMatrixArrayImpl_Injected, addr 0x6a9e054, size 0x5c, virtual false, abstract: false, final false
   static inline void SetMatrixArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values, int32_t count);
 
+  /// [NativeName("SetMatrixFromScript")]
   /// @brief Method SetMatrixImpl, addr 0x6a9c954, size 0xc0, virtual false, abstract: false, final false
   inline void SetMatrixImpl(int32_t name, ::UnityEngine::Matrix4x4 value);
 
@@ -845,24 +913,28 @@ public:
   /// @brief Method SetOverrideTag_Injected, addr 0x6a9b430, size 0x54, virtual false, abstract: false, final false
   static inline void SetOverrideTag_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> tag, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> val);
 
+  /// [FreeFunction("MaterialScripting::SetPass", HasExplicitThis = true)]
   /// @brief Method SetPass, addr 0x6a9b994, size 0xb8, virtual false, abstract: false, final false
   inline bool SetPass(int32_t pass);
 
   /// @brief Method SetPass_Injected, addr 0x6a9ba4c, size 0x44, virtual false, abstract: false, final false
   static inline bool SetPass_Injected(::System::IntPtr _unity_self, int32_t pass);
 
+  /// [NativeName("SetRenderTextureFromScript")]
   /// @brief Method SetRenderTextureImpl, addr 0x6a9cbac, size 0x100, virtual false, abstract: false, final false
   inline void SetRenderTextureImpl(int32_t name, ::UnityEngine::RenderTexture* value, ::UnityEngine::Rendering::RenderTextureSubElement element);
 
   /// @brief Method SetRenderTextureImpl_Injected, addr 0x6a9ccac, size 0x5c, virtual false, abstract: false, final false
   static inline void SetRenderTextureImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::System::IntPtr value, ::UnityEngine::Rendering::RenderTextureSubElement element);
 
+  /// [FreeFunction("MaterialScripting::SetShaderKeywords", HasExplicitThis = true)]
   /// @brief Method SetShaderKeywords, addr 0x6a9bdcc, size 0xb8, virtual false, abstract: false, final false
   inline void SetShaderKeywords(::ArrayW<::StringW> names);
 
   /// @brief Method SetShaderKeywords_Injected, addr 0x6a9be84, size 0x44, virtual false, abstract: false, final false
   static inline void SetShaderKeywords_Injected(::System::IntPtr _unity_self, ::ArrayW<::StringW> names);
 
+  /// [FreeFunction("MaterialScripting::SetShaderPassEnabled", HasExplicitThis = true)]
   /// @brief Method SetShaderPassEnabled, addr 0x6a9aab0, size 0x19c, virtual false, abstract: false, final false
   inline void SetShaderPassEnabled(::StringW passName, bool enabled);
 
@@ -881,6 +953,7 @@ public:
   /// @brief Method SetTexture, addr 0x6a98a14, size 0x4, virtual false, abstract: false, final false
   inline void SetTexture(int32_t nameID, ::UnityEngine::Texture* value);
 
+  /// [NativeName("SetTextureFromScript")]
   /// @brief Method SetTextureImpl, addr 0x6a9ca68, size 0xf0, virtual false, abstract: false, final false
   inline void SetTextureImpl(int32_t name, ::UnityEngine::Texture* value);
 
@@ -893,6 +966,7 @@ public:
   /// @brief Method SetTextureOffset, addr 0x6a98b44, size 0x4, virtual false, abstract: false, final false
   inline void SetTextureOffset(int32_t nameID, ::UnityEngine::Vector2 value);
 
+  /// [NativeName("SetTextureOffsetFromScript")]
   /// @brief Method SetTextureOffsetImpl, addr 0x6a9f4d8, size 0xc4, virtual false, abstract: false, final false
   inline void SetTextureOffsetImpl(int32_t name, ::UnityEngine::Vector2 offset);
 
@@ -905,6 +979,7 @@ public:
   /// @brief Method SetTextureScale, addr 0x6a98c54, size 0x4, virtual false, abstract: false, final false
   inline void SetTextureScale(int32_t nameID, ::UnityEngine::Vector2 value);
 
+  /// [NativeName("SetTextureScaleFromScript")]
   /// @brief Method SetTextureScaleImpl, addr 0x6a9f5f0, size 0xc4, virtual false, abstract: false, final false
   inline void SetTextureScaleImpl(int32_t name, ::UnityEngine::Vector2 scale);
 
@@ -932,18 +1007,22 @@ public:
   /// @brief Method SetVectorArray, addr 0x6aa0560, size 0x90, virtual false, abstract: false, final false
   inline void SetVectorArray(int32_t nameID, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* values);
 
+  /// [FreeFunction(Name = "MaterialScripting::SetVectorArray", HasExplicitThis = true)]
   /// @brief Method SetVectorArrayImpl, addr 0x6a9dbd0, size 0x144, virtual false, abstract: false, final false
   inline void SetVectorArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Vector4> values, int32_t count);
 
   /// @brief Method SetVectorArrayImpl_Injected, addr 0x6a9dd14, size 0x5c, virtual false, abstract: false, final false
   static inline void SetVectorArrayImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> values, int32_t count);
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// [Obsolete("Creating materials from shader source string is no longer supported. Use Shader assets instead.", false)]
   /// @brief Method .ctor, addr 0x6a97be8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW contents);
 
   /// @brief Method .ctor, addr 0x6a97f04, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* shader);
 
+  /// [RequiredByNativeCode]
   /// @brief Method .ctor, addr 0x6a97f94, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Material* source);
 
@@ -984,18 +1063,21 @@ public:
   /// @brief Method get_mainTextureScale, addr 0x6a98b48, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_mainTextureScale();
 
+  /// [NativeName("GetShader()->GetPassCount")]
   /// @brief Method get_passCount, addr 0x6a9a9cc, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_passCount();
 
   /// @brief Method get_passCount_Injected, addr 0x6a9aa74, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_passCount_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("GetCustomRenderQueue")]
   /// @brief Method get_rawRenderQueue, addr 0x6a997c0, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_rawRenderQueue();
 
   /// @brief Method get_rawRenderQueue_Injected, addr 0x6a99868, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_rawRenderQueue_Injected(::System::IntPtr _unity_self);
 
+  /// [NativeName("GetActualRenderQueue")]
   /// @brief Method get_renderQueue, addr 0x6a995e0, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_renderQueue();
 
@@ -1048,6 +1130,7 @@ public:
   /// @brief Method set_mainTextureScale, addr 0x6a98bc4, size 0x90, virtual false, abstract: false, final false
   inline void set_mainTextureScale(::UnityEngine::Vector2 value);
 
+  /// [NativeName("SetCustomRenderQueue")]
   /// @brief Method set_renderQueue, addr 0x6a996c4, size 0xb8, virtual false, abstract: false, final false
   inline void set_renderQueue(int32_t value);
 
@@ -1069,13 +1152,13 @@ protected:
   constexpr Material();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Material", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Material", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Material(Material&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Material", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Material", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Material(Material const&) = delete;
+  Material(Materialconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10161 };

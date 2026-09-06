@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XmlDocumentTypeWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XmlDocumentTypeWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,8 @@ class XmlDocumentTypeWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper*, "Newtonsoft.Json.Converters", "XmlDocumentTypeWrapper");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.XmlNodeWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -33,6 +35,7 @@ public:
 
   __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_Name)) ::StringW Name;
 
   __declspec(property(get = get_Public)) ::StringW Public;
@@ -48,6 +51,7 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper* New_ctor(::System::Xml::XmlDocumentType* documentType);
 
   constexpr ::System::Xml::XmlDocumentType* const& __cordl_internal_get__documentType() const;
@@ -56,6 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__documentType(::System::Xml::XmlDocumentType* value);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d9f094, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocumentType* documentType);
 
@@ -65,6 +70,7 @@ public:
   /// @brief Method get_LocalName, addr 0x5d9f658, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
+  /// [NullableContext(1)]
   /// @brief Method get_Name, addr 0x5d9f5f4, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
@@ -86,17 +92,18 @@ protected:
   constexpr XmlDocumentTypeWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDocumentTypeWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDocumentTypeWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDocumentTypeWrapper(XmlDocumentTypeWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDocumentTypeWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDocumentTypeWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDocumentTypeWrapper(XmlDocumentTypeWrapper const&) = delete;
+  XmlDocumentTypeWrapper(XmlDocumentTypeWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13672 };
 
+  /// [Nullable(1)]
   /// @brief Field _documentType, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlDocumentType* ____documentType;
 

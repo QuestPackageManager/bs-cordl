@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Jobs\TransformAccessArray.hpp"
+// IWYU pragma private; include "UnityEngine/Jobs/TransformAccessArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ struct TransformAccessArray;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Jobs::TransformAccessArray);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Jobs::TransformAccessArray, "UnityEngine.Jobs", "TransformAccessArray");
+// [DefaultMember("Item")]
+// [NativeType(Header = "Runtime/Transform/ScriptBindings/TransformAccess.bindings.h", CodegenOptions = (UnityEngine.Bindings.CodegenOptions)1)]
 // Dependencies System.IntPtr
 namespace UnityEngine::Jobs {
 // Is value type: true
@@ -44,6 +46,7 @@ public:
   /// @brief Method Add, addr 0x6afc640, size 0x8, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Transform* transform);
 
+  /// [NativeMethod(Name = "TransformAccessArrayBindings::AddTransform", IsFreeFunction = true)]
   /// @brief Method Add, addr 0x6afc648, size 0x90, virtual false, abstract: false, final false
   static inline void Add(::System::IntPtr transformArrayIntPtr, ::UnityEngine::Transform* transform);
 
@@ -53,24 +56,30 @@ public:
   /// @brief Method Allocate, addr 0x6afc278, size 0x88, virtual false, abstract: false, final false
   static inline void Allocate(int32_t capacity, int32_t desiredJobCount, ::by_ref<::UnityEngine::Jobs::TransformAccessArray> array);
 
+  /// [NativeMethod(Name = "TransformAccessArrayBindings::Create", IsFreeFunction = true)]
   /// @brief Method Create, addr 0x6afc300, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(int32_t capacity, int32_t desiredJobCount);
 
+  /// [NativeMethod(Name = "DestroyTransformAccessArray", IsFreeFunction = true)]
   /// @brief Method DestroyTransformAccessArray, addr 0x6afc3cc, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyTransformAccessArray(::System::IntPtr transformArray);
 
   /// @brief Method Dispose, addr 0x6afc354, size 0x78, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// [NativeMethod(Name = "TransformAccessArrayBindings::GetLength", IsFreeFunction = true)]
   /// @brief Method GetLength, addr 0x6afc604, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLength(::System::IntPtr transformArrayIntPtr);
 
+  /// [NativeMethod(Name = "TransformAccessArrayBindings::GetSortedToUserIndex", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method GetSortedToUserIndex, addr 0x6afc7e0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetSortedToUserIndex(::System::IntPtr transformArrayIntPtr);
 
+  /// [NativeMethod(Name = "TransformAccessArrayBindings::GetSortedTransformAccess", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method GetSortedTransformAccess, addr 0x6afc7a4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetSortedTransformAccess(::System::IntPtr transformArrayIntPtr);
 
+  /// [NativeMethod(Name = "TransformAccessArrayBindings::GetTransform", IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method GetTransform, addr 0x6afc418, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetTransform(::System::IntPtr transformArrayIntPtr, int32_t index);
 
@@ -83,9 +92,11 @@ public:
   /// @brief Method RemoveAtSwapBack, addr 0x6afc6d8, size 0x44, virtual false, abstract: false, final false
   inline void RemoveAtSwapBack(int32_t index);
 
+  /// [NativeMethod(Name = "TransformAccessArrayBindings::RemoveAtSwapBack", IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method RemoveAtSwapBack, addr 0x6afc71c, size 0x44, virtual false, abstract: false, final false
   static inline void RemoveAtSwapBack(::System::IntPtr transformArrayIntPtr, int32_t index);
 
+  /// [NativeMethod(Name = "TransformAccessArrayBindings::SetCapacity", IsFreeFunction = true)]
   /// @brief Method SetCapacity, addr 0x6afc584, size 0x44, virtual false, abstract: false, final false
   static inline void SetCapacity(::System::IntPtr transformArrayIntPtr, int32_t capacity);
 
@@ -111,7 +122,7 @@ public:
   // @brief default ctor
   constexpr TransformAccessArray();
 
-  // Ctor Parameters [CppParam { name: "m_TransformArray", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_TransformArray", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr TransformAccessArray(::System::IntPtr m_TransformArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

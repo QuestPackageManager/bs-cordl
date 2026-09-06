@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalServerNetworkPlayerModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalServerNetworkPlayerModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
@@ -17,10 +18,14 @@ namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConnectionManager*>)
+class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
-template <typename T> class INetworkPlayerModelPartyConfig_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::INetworkPlayerModel*>)
+class INetworkPlayerModelPartyConfig_1;
 }
 namespace GlobalNamespace {
 class LocalServerConnectionManager_LocalServerConnectionManagerConnectToServerParams;
@@ -83,13 +88,13 @@ protected:
   constexpr LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig(LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig(LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig const&) = delete;
+  LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig(LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfigconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21583 };
@@ -105,7 +110,7 @@ static_assert(offsetof(::GlobalNamespace::LocalServerNetworkPlayerModel_LocalSer
 static_assert(sizeof(::GlobalNamespace::LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig) == 0x70, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies NetworkPlayerModel`1<T>
+// Dependencies INetworkPlayerModel, NetworkPlayerModel`1<T>
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LocalServerNetworkPlayerModel
@@ -137,7 +142,9 @@ public:
   __declspec(property(get = get_selectionMask)) ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
 
   /// @brief Method CreatePartyConnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T2> inline bool CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T2>* config);
+  template <typename T2>
+    requires(::cordl_internals::type_constraint<T2, ::GlobalNamespace::INetworkPlayerModel*>)
+  inline bool CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T2>* config);
 
   /// @brief Method GetConnectToServerParams, addr 0x5ccdda0, size 0xc8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LocalServerConnectionManager*>*
@@ -196,13 +203,13 @@ protected:
   constexpr LocalServerNetworkPlayerModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalServerNetworkPlayerModel(LocalServerNetworkPlayerModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalServerNetworkPlayerModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalServerNetworkPlayerModel(LocalServerNetworkPlayerModel const&) = delete;
+  LocalServerNetworkPlayerModel(LocalServerNetworkPlayerModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21584 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\BuildingBlocks\EntitlementCheck.hpp"
+// IWYU pragma private; include "Oculus/Platform/BuildingBlocks/EntitlementCheck.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/BuildingBlocks/zzzz__EntitlementCheck_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"

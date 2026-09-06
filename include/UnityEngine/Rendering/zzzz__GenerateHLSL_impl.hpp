@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GenerateHLSL.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GenerateHLSL.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PackingRules_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GenerateHLSL_def.hpp"
@@ -143,7 +143,8 @@ constexpr void UnityEngine::Rendering::GenerateHLSL::__cordl_internal_set_source
   this->___sourcePath = value;
 }
 inline void UnityEngine::Rendering::GenerateHLSL::_ctor(::UnityEngine::Rendering::PackingRules rules, bool needAccessors, bool needSetters, bool needParamDebug, int32_t paramDefinesStart,
-                                                        bool omitStructDeclaration, bool containsPackedFields, bool generateCBuffer, int32_t constantRegister, ::StringW sourcePath) {
+                                                        bool omitStructDeclaration, bool containsPackedFields, bool generateCBuffer, int32_t constantRegister,
+                                                        /* [CallerFilePath] */ ::StringW sourcePath) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GenerateHLSL*>(),
@@ -156,7 +157,7 @@ inline void UnityEngine::Rendering::GenerateHLSL::_ctor(::UnityEngine::Rendering
 }
 inline ::UnityEngine::Rendering::GenerateHLSL* UnityEngine::Rendering::GenerateHLSL::New_ctor(::UnityEngine::Rendering::PackingRules rules, bool needAccessors, bool needSetters, bool needParamDebug,
                                                                                               int32_t paramDefinesStart, bool omitStructDeclaration, bool containsPackedFields, bool generateCBuffer,
-                                                                                              int32_t constantRegister, ::StringW sourcePath) {
+                                                                                              int32_t constantRegister, /* [CallerFilePath] */ ::StringW sourcePath) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::GenerateHLSL*>(rules, needAccessors, needSetters, needParamDebug, paramDefinesStart, omitStructDeclaration,
                                                                                                    containsPackedFields, generateCBuffer, constantRegister, sourcePath));
 }

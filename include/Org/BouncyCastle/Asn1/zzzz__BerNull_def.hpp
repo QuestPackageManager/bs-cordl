@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerNull.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerNull.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,12 @@ public:
   /// @brief Method Encode, addr 0x36897cc, size 0xe4, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
+  /// @brief [Obsolete("Use static Instance object")]
   static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor();
 
   static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor(int32_t dummy);
 
+  /// [Obsolete("Use static Instance object")]
   /// @brief Method .ctor, addr 0x368971c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -49,13 +51,13 @@ protected:
   constexpr BerNull();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerNull", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerNull", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerNull(BerNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerNull", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerNull", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerNull(BerNull const&) = delete;
+  BerNull(BerNullconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 478 };

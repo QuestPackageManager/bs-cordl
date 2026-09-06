@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ZenjectBinding.hpp"
+// IWYU pragma private; include "Zenject/ZenjectBinding.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__ZenjectBinding_def.hpp"
@@ -7,7 +7,7 @@
 #include "Zenject/zzzz__Context_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__ZenjectBinding_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Zenject::ZenjectBinding_BindTypes::ZenjectBinding_BindTypes(int32_t value__) noexcept {
   this->value__ = value__;
 }

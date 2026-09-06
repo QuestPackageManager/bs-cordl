@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelGameplayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelGameplayManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,13 +121,13 @@ protected:
   constexpr StandardLevelGameplayManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitData const&) = delete;
+  StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5999 };
@@ -176,7 +176,7 @@ public:
   // @brief default ctor
   constexpr StandardLevelGameplayManager_GameState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StandardLevelGameplayManager_GameState(int32_t value__) noexcept;
 
   /// @brief Field Failed value: I32(5)
@@ -214,6 +214,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelGameplayManager_GameState
 static_assert(sizeof(::GlobalNamespace::StandardLevelGameplayManager_GameState) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -246,17 +247,22 @@ public:
   /// @brief Method MoveNext, addr 0x59aa498, size 0x780, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::StandardLevelGameplayManager__Start_d__27* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59aac18, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59aac20, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59aac58, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x59aa494, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -278,6 +284,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::StandardLevelGameplayManager> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x59a9ee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -296,13 +303,13 @@ protected:
   constexpr StandardLevelGameplayManager__Start_d__27();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager__Start_d__27", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager__Start_d__27", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager__Start_d__27", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager__Start_d__27", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27 const&) = delete;
+  StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6001 };
@@ -328,6 +335,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelGameplayManager__Start_d_
 static_assert(sizeof(::GlobalNamespace::StandardLevelGameplayManager__Start_d__27) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/StandardLevelGameplayManager")]
 // Dependencies LevelCompletionResults::LevelEndStateType, StandardLevelGameplayManager::GameState, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -425,6 +433,7 @@ public:
   /// @brief Method OnDestroy, addr 0x59a9eec, size 0x3c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
+  /// [IteratorStateMachine(typeof(StandardLevelGameplayManager::<Start>d__27))]
   /// @brief Method Start, addr 0x59a9e90, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
@@ -524,12 +533,15 @@ public:
   /// @brief Method .ctor, addr 0x59aa41c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelDidStartEvent, addr 0x59a9a78, size 0xac, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelFailedEvent, addr 0x59a9d28, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_levelFinishedEvent, addr 0x59a9bd0, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
@@ -544,12 +556,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILevelStartController"
   constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelDidStartEvent, addr 0x59a9b24, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelFailedEvent, addr 0x59a9dd4, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_levelFinishedEvent, addr 0x59a9c7c, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
@@ -561,50 +576,62 @@ protected:
   constexpr StandardLevelGameplayManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelGameplayManager(StandardLevelGameplayManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelGameplayManager(StandardLevelGameplayManager const&) = delete;
+  StandardLevelGameplayManager(StandardLevelGameplayManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6002 };
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
+  /// [Inject]
   /// @brief Field _gameSongController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
 
+  /// [Inject]
   /// @brief Field _gameEnergyCounter, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameEnergyCounter> ____gameEnergyCounter;
 
+  /// [Inject]
   /// @brief Field _pauseController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PauseController> ____pauseController;
 
+  /// [Inject]
   /// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::StandardLevelGameplayManager_InitData* ____initData;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _beatmapData, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____beatmapData;
 
+  /// [Inject]
   /// @brief Field _returnToMenuController, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IReturnToMenuController* ____returnToMenuController;
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [CompilerGenerated]
   /// @brief Field levelDidStartEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___levelDidStartEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field levelFinishedEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action* ___levelFinishedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field levelFailedEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action* ___levelFailedEvent;
 

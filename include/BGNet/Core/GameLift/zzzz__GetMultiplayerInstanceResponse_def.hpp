@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet\Core\GameLift\GetMultiplayerInstanceResponse.hpp"
+// IWYU pragma private; include "BGNet/Core/GameLift/GetMultiplayerInstanceResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ struct GetMultiplayerInstanceResponse;
 // Write type traits
 MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse);
 DEFINE_IL2CPP_CLASS(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, "BGNet.Core.GameLift", "GetMultiplayerInstanceResponse");
+// [Preserve]
 // Dependencies MultiplayerPlacementErrorCode
 namespace BGNet::Core::GameLift {
 // Is value type: true
@@ -28,6 +29,7 @@ namespace BGNet::Core::GameLift {
 struct CORDL_TYPE GetMultiplayerInstanceResponse {
 public:
   // Declarations
+  /// [JsonConstructor]
   /// @brief Method .ctor, addr 0x32c33d4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId,
                     ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
@@ -36,10 +38,11 @@ public:
   // @brief default ctor
   constexpr GetMultiplayerInstanceResponse();
 
-  // Ctor Parameters [CppParam { name: "errorCode", ty: "::GlobalNamespace::MultiplayerPlacementErrorCode", modifiers: "", def_value: None }, CppParam { name: "playerSessionInfo", ty:
-  // "::BGNet::Core::GameLift::PlayerSessionInfo*", modifiers: "", def_value: None }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ticketId",
-  // ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ticketStatus", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementId", ty: "::StringW", modifiers:
-  // "", def_value: None }, CppParam { name: "placementStatus", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "errorCode", ty: "::GlobalNamespace::MultiplayerPlacementErrorCode", modifiers: "", def_value: None, comment: None }, CppParam { name: "playerSessionInfo", ty:
+  // "::BGNet::Core::GameLift::PlayerSessionInfo*", modifiers: "", def_value: None, comment: None }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "ticketStatus", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "placementStatus", ty: "::StringW", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr GetMultiplayerInstanceResponse(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs,
                                            ::StringW ticketId, ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus) noexcept;
 
@@ -49,24 +52,31 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [JsonProperty("error_code")]
   /// @brief Field errorCode, offset: 0x0, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlacementErrorCode errorCode;
 
+  /// [JsonProperty("player_session_info")]
   /// @brief Field playerSessionInfo, offset: 0x8, size: 0x8, def value: None
   ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo;
 
+  /// [JsonProperty("poll_interval_ms")]
   /// @brief Field pollIntervalMs, offset: 0x10, size: 0x4, def value: None
   int32_t pollIntervalMs;
 
+  /// [JsonProperty("ticket_id")]
   /// @brief Field ticketId, offset: 0x18, size: 0x8, def value: None
   ::StringW ticketId;
 
+  /// [JsonProperty("ticket_status")]
   /// @brief Field ticketStatus, offset: 0x20, size: 0x8, def value: None
   ::StringW ticketStatus;
 
+  /// [JsonProperty("placement_id")]
   /// @brief Field placementId, offset: 0x28, size: 0x8, def value: None
   ::StringW placementId;
 
+  /// [JsonProperty("placement_status")]
   /// @brief Field placementStatus, offset: 0x30, size: 0x8, def value: None
   ::StringW placementStatus;
 

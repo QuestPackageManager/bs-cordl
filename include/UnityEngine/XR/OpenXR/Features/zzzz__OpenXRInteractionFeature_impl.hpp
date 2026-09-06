@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\OpenXRInteractionFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/OpenXRInteractionFeature.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputDeviceCharacteristics_impl.hpp"
@@ -7,7 +7,7 @@
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionType::OpenXRInteractionFeature_ActionType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -342,7 +342,7 @@ inline ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapCo
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig::OpenXRInteractionFeature_ActionMapConfig() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_UserPaths::OpenXRInteractionFeature_UserPaths() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType::OpenXRInteractionFeature_InteractionProfileType(int32_t value__) noexcept {
   this->value__ = value__;
 }

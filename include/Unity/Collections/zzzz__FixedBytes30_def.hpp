@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedBytes30.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedBytes30.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct FixedBytes30;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::FixedBytes30);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::FixedBytes30, "Unity.Collections", "FixedBytes30");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.FixedBytes16
 namespace Unity::Collections {
 // Is value type: true
@@ -161,13 +162,14 @@ public:
   // @brief default ctor
   constexpr FixedBytes30();
 
-  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None }, CppParam { name: "byte0016", ty: "uint8_t", modifiers: "", def_value:
-  // None }, CppParam { name: "byte0017", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0018", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0019",
-  // ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0020", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0021", ty: "uint8_t", modifiers: "",
-  // def_value: None }, CppParam { name: "byte0022", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0023", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "byte0024", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0025", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0026", ty: "uint8_t", modifiers:
-  // "", def_value: None }, CppParam { name: "byte0027", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte0028", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "byte0029", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0016", ty: "uint8_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "byte0017", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0018", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "byte0019", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0020", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "byte0021", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0022", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "byte0023", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0024", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "byte0025", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0026", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "byte0027", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "byte0028", ty: "uint8_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "byte0029", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr FixedBytes30(::Unity::Collections::FixedBytes16 offset0000, uint8_t byte0016, uint8_t byte0017, uint8_t byte0018, uint8_t byte0019, uint8_t byte0020, uint8_t byte0021, uint8_t byte0022,
                          uint8_t byte0023, uint8_t byte0024, uint8_t byte0025, uint8_t byte0026, uint8_t byte0027, uint8_t byte0028, uint8_t byte0029) noexcept;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SpeedTreeWindShaderDef.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SpeedTreeWindShaderDef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ class SpeedTreeWindShaderDef;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::SpeedTreeWindShaderDef*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SpeedTreeWindShaderDef*, "UnityEngine.Rendering", "SpeedTreeWindShaderDef");
-// Dependencies System.Object
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\GPUDriven\\InstanceData\\InstanceWindDataUpdateDefs.cs")] Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.SpeedTreeWindShaderDef
@@ -26,13 +27,13 @@ protected:
   constexpr SpeedTreeWindShaderDef();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpeedTreeWindShaderDef", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpeedTreeWindShaderDef", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpeedTreeWindShaderDef(SpeedTreeWindShaderDef&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpeedTreeWindShaderDef", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpeedTreeWindShaderDef", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpeedTreeWindShaderDef(SpeedTreeWindShaderDef const&) = delete;
+  SpeedTreeWindShaderDef(SpeedTreeWindShaderDefconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17732 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VFXTimeSpaceHelper.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VFXTimeSpaceHelper.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__PlayableTimeSpace_impl.hpp"
@@ -283,6 +283,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::VFX::VFXTimeSpaceHelper_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1* UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1*>(__1__state));
 }
@@ -663,6 +664,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::VFX::VFXTimeSpaceHelper_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3* UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3*>(__1__state));
 }

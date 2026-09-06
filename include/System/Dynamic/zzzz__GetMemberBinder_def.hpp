@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\GetMemberBinder.hpp"
+// IWYU pragma private; include "System/Dynamic/GetMemberBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   /// @brief Method FallbackGetMember, addr 0x5fc758c, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target);
 
-  /// @brief Method FallbackGetMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FallbackGetMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   static inline ::System::Dynamic::GetMemberBinder* New_ctor(::StringW name, bool ignoreCase);
@@ -67,12 +67,14 @@ public:
   /// @brief Method .ctor, addr 0x5fc8824, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool ignoreCase);
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreCase, addr 0x5fc88d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
   /// @brief Method get_IsStandardBinder, addr 0x5fc89c0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsStandardBinder();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Name, addr 0x5fc88cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -85,20 +87,22 @@ protected:
   constexpr GetMemberBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GetMemberBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetMemberBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetMemberBinder(GetMemberBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GetMemberBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetMemberBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GetMemberBinder(GetMemberBinder const&) = delete;
+  GetMemberBinder(GetMemberBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16667 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreCase>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IgnoreCase_k__BackingField;
 

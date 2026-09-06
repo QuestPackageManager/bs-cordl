@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSelectorPart.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSelectorPart.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorPart_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -130,8 +130,8 @@ inline ::UnityEngine::UIElements::StyleSelectorPart UnityEngine::UIElements::Sty
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelectorPart>(), { "CreatePredicate", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleSelectorPart>(nullptr, ___internal_method, predicate);
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSelectorType", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "tempData", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSelectorType",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "tempData", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleSelectorPart::StyleSelectorPart(::StringW m_Value, ::UnityEngine::UIElements::StyleSelectorType m_Type, ::System::Object* tempData) noexcept {
   this->m_Value = m_Value;
   this->m_Type = m_Type;

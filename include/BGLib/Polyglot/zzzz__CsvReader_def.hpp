@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\CsvReader.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/CsvReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   // @brief default ctor
   constexpr CsvReader_ParsingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CsvReader_ParsingMode(int32_t value__) noexcept;
 
   /// @brief Field InQuote value: I32(2)
@@ -96,6 +96,7 @@ public:
 
   static inline ::BGLib::Polyglot::CsvReader* New_ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method Parse, addr 0x331d9dc, size 0x820, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
 
@@ -108,13 +109,13 @@ protected:
   constexpr CsvReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CsvReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CsvReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CsvReader(CsvReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CsvReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CsvReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CsvReader(CsvReader const&) = delete;
+  CsvReader(CsvReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22214 };

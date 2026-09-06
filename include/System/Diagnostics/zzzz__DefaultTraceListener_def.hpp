@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\DefaultTraceListener.hpp"
+// IWYU pragma private; include "System/Diagnostics/DefaultTraceListener.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ namespace System::Diagnostics {
 class CORDL_TYPE DefaultTraceListener : public ::System::Diagnostics::TraceListener {
 public:
   // Declarations
+  /// @brief [MonoTODO]
   __declspec(property(get = get_LogFileName)) ::StringW LogFileName;
 
   /// @brief Field MonoTraceFile, offset 0xffffffff, size 0x8
@@ -93,13 +94,13 @@ protected:
   constexpr DefaultTraceListener();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTraceListener", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultTraceListener", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultTraceListener(DefaultTraceListener&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultTraceListener", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultTraceListener", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultTraceListener(DefaultTraceListener const&) = delete;
+  DefaultTraceListener(DefaultTraceListenerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11156 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\RuntimeAssembly.hpp"
+// IWYU pragma private; include "System/Reflection/RuntimeAssembly.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,13 +94,13 @@ protected:
   constexpr RuntimeAssembly_UnmanagedMemoryStreamForModule();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly_UnmanagedMemoryStreamForModule", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly_UnmanagedMemoryStreamForModule", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeAssembly_UnmanagedMemoryStreamForModule(RuntimeAssembly_UnmanagedMemoryStreamForModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly_UnmanagedMemoryStreamForModule", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly_UnmanagedMemoryStreamForModule", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeAssembly_UnmanagedMemoryStreamForModule(RuntimeAssembly_UnmanagedMemoryStreamForModule const&) = delete;
+  RuntimeAssembly_UnmanagedMemoryStreamForModule(RuntimeAssembly_UnmanagedMemoryStreamForModuleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3543 };
@@ -116,6 +116,9 @@ static_assert(offsetof(::System::Reflection::RuntimeAssembly_UnmanagedMemoryStre
 static_assert(sizeof(::System::Reflection::RuntimeAssembly_UnmanagedMemoryStreamForModule) == 0x70, "Size mismatch!");
 
 } // namespace System::Reflection
+// [ComDefaultInterface(typeof(System.Runtime.InteropServices._Assembly))]
+// [ClassInterface((System.Runtime.InteropServices.ClassInterfaceType)0)]
+// [ComVisible(true)]
 // Dependencies System.IntPtr, System.Reflection.Assembly
 namespace System::Reflection {
 // Is value type: false
@@ -133,6 +136,7 @@ public:
 
   __declspec(property(get = get_MonoAssembly)) ::System::IntPtr MonoAssembly;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_ReflectionOnly)) bool ReflectionOnly;
 
   /// @brief Field _denied, offset 0x48, size 0x8
@@ -331,13 +335,13 @@ protected:
   constexpr RuntimeAssembly();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeAssembly(RuntimeAssembly&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeAssembly(RuntimeAssembly const&) = delete;
+  RuntimeAssembly(RuntimeAssemblyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3544 };

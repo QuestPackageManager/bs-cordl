@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Init\Generated\GameBuildInfo.hpp"
+// IWYU pragma private; include "BeatSaber/Init/Generated/GameBuildInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ class GameBuildInfo;
 // Write type traits
 MARK_REF_T(::BeatSaber::Init::Generated::GameBuildInfo*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Init::Generated::GameBuildInfo*, "BeatSaber.Init.Generated", "GameBuildInfo");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BeatSaber.Init.GameVersion::PreReleaseLabel, BeatSaber.Init.GameVersion::PreReleasePrefix, System.Object
 namespace BeatSaber::Init::Generated {
 // Is value type: false
@@ -34,13 +36,13 @@ protected:
   constexpr GameBuildInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameBuildInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameBuildInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameBuildInfo(GameBuildInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameBuildInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameBuildInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameBuildInfo(GameBuildInfo const&) = delete;
+  GameBuildInfo(GameBuildInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22716 };

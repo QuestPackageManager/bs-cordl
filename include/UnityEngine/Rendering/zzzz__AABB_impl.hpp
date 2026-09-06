@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AABB.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AABB.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AABB_def.hpp"
 #include "Unity/Mathematics/zzzz__float3_def.hpp"
@@ -101,8 +101,8 @@ inline ::UnityEngine::Rendering::AABB UnityEngine::Rendering::AABB::Transform(::
                                                            { "Transform", {}, { ::i2c::type_of<::Unity::Mathematics::float4x4>(), ::i2c::type_of<::UnityEngine::Rendering::AABB>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::AABB>(nullptr, ___internal_method, transform, localBounds);
 }
-// Ctor Parameters [CppParam { name: "center", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}") }, CppParam { name: "extents", ty: "::Unity::Mathematics::float3", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "center", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "extents", ty:
+// "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::AABB::AABB(::Unity::Mathematics::float3 center, ::Unity::Mathematics::float3 extents) noexcept {
   this->center = center;
   this->extents = extents;

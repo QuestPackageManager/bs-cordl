@@ -1,21 +1,25 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\BaseBezierCurve_1.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/BaseBezierCurve_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BGLib/UnityExtension/BezierCurves/zzzz__BaseBezierCurveData_def.hpp"
 #include "BGLib/UnityExtension/BezierCurves/zzzz__BaseBezierCurve_def.hpp"
 CORDL_MODULE_EXPORT(BaseBezierCurve_1)
 // Forward declare root types
 namespace BGLib::UnityExtension::BezierCurves {
-template <typename T> class BaseBezierCurve_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>)
+class BaseBezierCurve_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::BGLib::UnityExtension::BezierCurves::BaseBezierCurve_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::UnityExtension::BezierCurves::BaseBezierCurve_1, "BGLib.UnityExtension.BezierCurves", "BaseBezierCurve`1");
-// Dependencies BGLib.UnityExtension.BezierCurves.BaseBezierCurve
+// Dependencies BGLib.UnityExtension.BezierCurves.BaseBezierCurve, BGLib.UnityExtension.BezierCurves.BaseBezierCurveData
 namespace BGLib::UnityExtension::BezierCurves {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>)
 // Is value type: false
 // CS Name: BGLib.UnityExtension.BezierCurves.BaseBezierCurve`1<T>
 class CORDL_TYPE BaseBezierCurve_1 : public ::BGLib::UnityExtension::BezierCurves::BaseBezierCurve {
@@ -41,17 +45,18 @@ protected:
   constexpr BaseBezierCurve_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurve_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurve_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseBezierCurve_1(BaseBezierCurve_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurve_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurve_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseBezierCurve_1(BaseBezierCurve_1 const&) = delete;
+  BaseBezierCurve_1(BaseBezierCurve_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20822 };
 
+  /// [SerializeField]
   /// @brief Field _bezierCurveData, offset: 0x20, size: 0x8, def value: None
   T ____bezierCurveData;
 

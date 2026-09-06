@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\OrderedEnumerable_1.hpp"
+// IWYU pragma private; include "System/Linq/OrderedEnumerable_1.hpp"
 #include "System/Linq/zzzz__Buffer_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__OrderedEnumerable_1_def.hpp"
@@ -116,6 +116,7 @@ template <typename TElement> inline ::System::Object* System::Linq::OrderedEnume
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::OrderedEnumerable_1__GetEnumerator_d__1<TElement>*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TElement> inline ::System::Linq::OrderedEnumerable_1__GetEnumerator_d__1<TElement>* System::Linq::OrderedEnumerable_1__GetEnumerator_d__1<TElement>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::System::Linq::OrderedEnumerable_1__GetEnumerator_d__1<TElement>*>(__1__state));
 }

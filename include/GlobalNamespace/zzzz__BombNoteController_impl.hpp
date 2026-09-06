@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BombNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BombNoteController.hpp"
 #include "GlobalNamespace/zzzz__NoteController_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
@@ -191,7 +191,7 @@ constexpr void GlobalNamespace::BombNoteController::__cordl_internal_set__wrappe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wrapperGO = value;
 }
-inline void GlobalNamespace::BombNoteController::Init(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData) {
+inline void GlobalNamespace::BombNoteController::Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombNoteController*>(),
                                                            { "Init", {}, { ::i2c::type_of<::GlobalNamespace::NoteData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteSpawnData>>() } })));

@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BaseFieldTraits_2.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BaseFieldTraits_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_def.hpp"
 CORDL_MODULE_EXPORT(BaseFieldTraits_2)
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -16,15 +17,21 @@ class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TValueUxmlAttributeType> class BaseFieldTraits_2;
+template <typename TValueType, typename TValueUxmlAttributeType>
+  requires(::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
+           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
+class BaseFieldTraits_2;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::BaseFieldTraits_2);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::BaseFieldTraits_2, "UnityEngine.UIElements", "BaseFieldTraits`2");
-// Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
+// [Obsolete("BaseFieldTraits<TValueType, TValueUxmlAttributeType> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
+// Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>, UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
+  requires(::cordl_internals::type_constraint<TValueUxmlAttributeType, ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<TValueType>*> &&
+           ::cordl_internals::default_constructor_constraint<TValueUxmlAttributeType>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseFieldTraits`2<TValueType,TValueUxmlAttributeType>
 class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<TValueType> {
@@ -53,13 +60,13 @@ protected:
   constexpr BaseFieldTraits_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseFieldTraits_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseFieldTraits_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseFieldTraits_2(BaseFieldTraits_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseFieldTraits_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseFieldTraits_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseFieldTraits_2(BaseFieldTraits_2 const&) = delete;
+  BaseFieldTraits_2(BaseFieldTraits_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4221 };

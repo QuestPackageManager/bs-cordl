@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\INetworkMessenger.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/INetworkMessenger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,30 +25,34 @@ namespace Meta::XR::MultiplayerBlocks::Colocation {
 class CORDL_TYPE INetworkMessenger {
 public:
   // Declarations
-  /// @brief Method RegisterLocalPlayer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method RegisterLocalPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterLocalPlayer(uint64_t localPlayerId);
 
-  /// @brief Method SendAnchorShareCompleted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SendAnchorShareCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendAnchorShareCompleted(uint64_t targetPlayerId, ::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams shareAndLocalizeParams);
 
-  /// @brief Method SendAnchorShareRequest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SendAnchorShareRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendAnchorShareRequest(uint64_t targetPlayerId, ::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams shareAndLocalizeParams);
 
-  /// @brief Method add_AnchorShareRequestCompleted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_AnchorShareRequestCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_AnchorShareRequestCompleted(::System::Action_1<::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams>* value);
 
-  /// @brief Method add_AnchorShareRequestReceived, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method add_AnchorShareRequestReceived, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_AnchorShareRequestReceived(::System::Action_1<::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams>* value);
 
-  /// @brief Method remove_AnchorShareRequestCompleted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_AnchorShareRequestCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_AnchorShareRequestCompleted(::System::Action_1<::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams>* value);
 
-  /// @brief Method remove_AnchorShareRequestReceived, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// [CompilerGenerated]
+  /// @brief Method remove_AnchorShareRequestReceived, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_AnchorShareRequestReceived(::System::Action_1<::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams>* value);
 
-  // Ctor Parameters [CppParam { name: "", ty: "INetworkMessenger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "INetworkMessenger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  INetworkMessenger(INetworkMessenger const&) = delete;
+  INetworkMessenger(INetworkMessengerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20899 };

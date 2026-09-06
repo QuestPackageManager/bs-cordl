@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\VertexPickerEntry.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/VertexPickerEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,9 +29,9 @@ public:
   // @brief default ctor
   constexpr VertexPickerEntry();
 
-  // Ctor Parameters [CppParam { name: "mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: None }, CppParam { name: "vertex", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "screenDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: None, comment: None }, CppParam { name: "vertex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "screenDistance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "worldPosition", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr VertexPickerEntry(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh, int32_t vertex, float_t screenDistance, ::UnityEngine::Vector3 worldPosition) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

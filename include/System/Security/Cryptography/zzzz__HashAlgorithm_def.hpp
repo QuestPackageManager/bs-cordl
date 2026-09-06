@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\HashAlgorithm.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/HashAlgorithm.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,13 +83,13 @@ public:
   /// @brief Method Dispose, addr 0x5af8998, size 0x10, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method HashCore, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HashCore(::ArrayW<uint8_t> array, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t> HashFinal();
 
-  /// @brief Method Initialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::HashAlgorithm* New_ctor();
@@ -157,13 +157,13 @@ protected:
   constexpr HashAlgorithm();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HashAlgorithm", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashAlgorithm", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HashAlgorithm(HashAlgorithm&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HashAlgorithm", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HashAlgorithm", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HashAlgorithm(HashAlgorithm const&) = delete;
+  HashAlgorithm(HashAlgorithmconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2932 };

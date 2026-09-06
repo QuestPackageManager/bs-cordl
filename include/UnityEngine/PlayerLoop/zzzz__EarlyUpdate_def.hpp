@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\PlayerLoop\EarlyUpdate.hpp"
+// IWYU pragma private; include "UnityEngine/PlayerLoop/EarlyUpdate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -284,6 +284,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::EarlyUpdate_UpdatePreloading, "Un
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateStreamingManager, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateStreamingManager");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateTextureStreamingManager, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateTextureStreamingManager");
 DEFINE_IL2CPP_CLASS(::UnityEngine::PlayerLoop::EarlyUpdate_XRUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/XRUpdate");
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -312,6 +313,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_PollPlayerConnection) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -340,6 +342,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_PollHtcsPlayerConnection) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -368,6 +371,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_GpuTimestamp) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -396,6 +400,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_AnalyticsCoreStatsUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -424,6 +429,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UnityWebRequestUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -452,6 +458,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateStreamingManager) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -480,6 +487,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_ExecuteMainThreadJobs) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -508,6 +516,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_ProcessMouseInWindow) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -536,6 +545,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_ClearIntermediateRenderers) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -564,6 +574,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_ClearLines) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -592,6 +603,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_PresentBeforeUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -620,6 +632,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_ResetFrameStatsAfterPresent) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -648,6 +661,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateAsyncReadbackManager) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -676,6 +690,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateTextureStreamingManager) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -704,6 +719,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdatePreloading) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -732,6 +748,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateContentLoading) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -760,6 +777,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateAsyncInstantiate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -788,6 +806,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_RendererNotifyInvisible) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -816,6 +835,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_PlayerCleanupCachedData) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -844,6 +864,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateMainGameViewRect) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -872,6 +893,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateCanvasRectTransform) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -900,6 +922,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateInputManager) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -928,6 +951,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_ProcessRemoteInput) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -956,6 +980,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_XRUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -984,6 +1009,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_ScriptRunDelayedStartupFrame) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1012,6 +1038,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_UpdateKinect) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1040,6 +1067,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_DeliverIosPlatformEvents) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1068,6 +1096,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_DispatchEventQueueEvents) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1096,6 +1125,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_Physics2DEarlyUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1124,6 +1154,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_PhysicsResetInterpolatedTransformPosition) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1152,6 +1183,8 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_SpriteAtlasManagerUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [Obsolete("TangoUpdate has been deprecated. Use ARCoreUpdate instead (UnityUpgradable) -> UnityEngine.PlayerLoop.EarlyUpdate/ARCoreUpdate", false)]
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1180,6 +1213,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_TangoUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1208,6 +1242,7 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_ARCoreUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
@@ -1236,6 +1271,8 @@ public:
 static_assert(sizeof(::UnityEngine::PlayerLoop::EarlyUpdate_PerformanceAnalyticsUpdate) == 0x1, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// [RequiredByNativeCode]
+// [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true

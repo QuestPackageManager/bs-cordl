@@ -1,9 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputRuntimeExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputRuntimeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputRuntimeExtensions_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputRuntime_def.hpp"
 template <typename TCommand>
+  requires(::cordl_internals::type_constraint<TCommand, ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*> && ::cordl_internals::value_type_constraint<TCommand> &&
+           ::cordl_internals::default_constructor_constraint<TCommand>)
 inline int64_t UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions::DeviceCommand(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime, int32_t deviceId, ::by_ref<TCommand> command) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions*>(),

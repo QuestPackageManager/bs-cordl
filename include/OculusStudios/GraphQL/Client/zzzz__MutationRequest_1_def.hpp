@@ -1,24 +1,28 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\MutationRequest_1.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/MutationRequest_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "OculusStudios/GraphQL/Client/zzzz__MutationRequest_def.hpp"
+#include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLInputObject_def.hpp"
 CORDL_MODULE_EXPORT(MutationRequest_1)
 namespace OculusStudios::GraphQL::Client {
 class GraphQLMutationOperation;
 }
 // Forward declare root types
 namespace OculusStudios::GraphQL::Client {
-template <typename TInputModel> class MutationRequest_1;
+template <typename TInputModel>
+  requires(::cordl_internals::type_constraint<TInputModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject*> && ::cordl_internals::reference_type_constraint<TInputModel>)
+class MutationRequest_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::OculusStudios::GraphQL::Client::MutationRequest_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::OculusStudios::GraphQL::Client::MutationRequest_1, "OculusStudios.GraphQL.Client", "MutationRequest`1");
-// Dependencies OculusStudios.GraphQL.Client.MutationRequest
+// Dependencies OculusStudios.GraphQL.Client.MutationRequest, OculusStudios.GraphQL.ClientInterface.IGraphQLInputObject
 namespace OculusStudios::GraphQL::Client {
 // cpp template
 template <typename TInputModel>
+  requires(::cordl_internals::type_constraint<TInputModel, ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject*> && ::cordl_internals::reference_type_constraint<TInputModel>)
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.Client.MutationRequest`1<TInputModel>
 class CORDL_TYPE MutationRequest_1 : public ::OculusStudios::GraphQL::Client::MutationRequest {
@@ -39,13 +43,13 @@ protected:
   constexpr MutationRequest_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MutationRequest_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MutationRequest_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MutationRequest_1(MutationRequest_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MutationRequest_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MutationRequest_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MutationRequest_1(MutationRequest_1 const&) = delete;
+  MutationRequest_1(MutationRequest_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20404 };

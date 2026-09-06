@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\TextureGradient.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/TextureGradient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,8 +54,10 @@ public:
   /// @brief Field <textureSize>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__textureSize_k__BackingField, put = __cordl_internal_set__textureSize_k__BackingField)) int32_t _textureSize_k__BackingField;
 
+  /// @brief [HideInInspector]
   __declspec(property(get = get_alphaKeys)) ::ArrayW<::UnityEngine::GradientAlphaKey> alphaKeys;
 
+  /// @brief [HideInInspector]
   __declspec(property(get = get_colorKeys)) ::ArrayW<::UnityEngine::GradientColorKey> colorKeys;
 
   /// @brief Field colorSpace, offset 0x34, size 0x4
@@ -175,12 +177,14 @@ public:
   /// @brief Method get_colorKeys, addr 0x67c895c, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientColorKey> get_colorKeys();
 
+  /// [CompilerGenerated]
   /// @brief Method get_textureSize, addr 0x67c894c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_textureSize();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_textureSize, addr 0x67c8954, size 0x8, virtual false, abstract: false, final false
   inline void set_textureSize(int32_t value);
 
@@ -190,20 +194,24 @@ protected:
   constexpr TextureGradient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureGradient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureGradient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureGradient(TextureGradient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureGradient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextureGradient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextureGradient(TextureGradient const&) = delete;
+  TextureGradient(TextureGradientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12316 };
 
+  /// [CompilerGenerated]
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field <textureSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____textureSize_k__BackingField;
 
+  /// [SerializeField]
   /// @brief Field m_Gradient, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Gradient* ___m_Gradient;
 
@@ -219,9 +227,13 @@ public:
   /// @brief Field m_Precise, offset: 0x2d, size: 0x1, def value: None
   bool ___m_Precise;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field mode, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::GradientMode ___mode;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field colorSpace, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::ColorSpace ___colorSpace;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowSliceData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowSliceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,11 @@ public:
   // @brief default ctor
   constexpr ShadowSliceData();
 
-  // Ctor Parameters [CppParam { name: "viewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "projectionMatrix", ty: "::UnityEngine::Matrix4x4", modifiers:
-  // "", def_value: None }, CppParam { name: "shadowTransform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "offsetX", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "offsetY", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "resolution", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "splitData",
-  // ty: "::UnityEngine::Rendering::ShadowSplitData", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "viewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "projectionMatrix", ty:
+  // "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "shadowTransform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "offsetX", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "offsetY", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "resolution", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "splitData", ty: "::UnityEngine::Rendering::ShadowSplitData", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr ShadowSliceData(::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, ::UnityEngine::Matrix4x4 shadowTransform, int32_t offsetX, int32_t offsetY,
                             int32_t resolution, ::UnityEngine::Rendering::ShadowSplitData splitData) noexcept;
 

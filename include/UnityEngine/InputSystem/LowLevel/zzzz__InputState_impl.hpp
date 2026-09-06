@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputState_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
@@ -358,6 +358,7 @@ inline void UnityEngine::InputSystem::LowLevel::InputState::Change(::UnityEngine
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, device, eventPtr, updateType);
 }
 template <typename TState>
+  requires(::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
 inline void UnityEngine::InputSystem::LowLevel::InputState::Change(::UnityEngine::InputSystem::InputControl* control, TState state, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType,
                                                                    ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -370,6 +371,7 @@ inline void UnityEngine::InputSystem::LowLevel::InputState::Change(::UnityEngine
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, control, state, updateType, eventPtr);
 }
 template <typename TState>
+  requires(::cordl_internals::value_type_constraint<TState> && ::cordl_internals::default_constructor_constraint<TState>)
 inline void UnityEngine::InputSystem::LowLevel::InputState::Change(::UnityEngine::InputSystem::InputControl* control, ::by_ref<TState> state,
                                                                    ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) {
   static auto* ___internal_method_base = THROW_UNLESS(

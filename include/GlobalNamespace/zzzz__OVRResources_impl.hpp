@@ -1,7 +1,8 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRResources.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRResources.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRResources_def.hpp"
 #include "GlobalNamespace/zzzz__OVRResources_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -58,32 +59,46 @@ inline ::GlobalNamespace::OVRResources___c__DisplayClass2_0* GlobalNamespace::OV
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRResources___c__DisplayClass2_0::OVRResources___c__DisplayClass2_0() {}
-template <typename T> constexpr ::StringW& GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::__cordl_internal_get_path() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+constexpr ::StringW& GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::__cordl_internal_get_path() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___path;
 }
-template <typename T> constexpr ::StringW const& GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::__cordl_internal_get_path() const {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+constexpr ::StringW const& GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::__cordl_internal_get_path() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___path;
 }
-template <typename T> constexpr void GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::__cordl_internal_set_path(::StringW value) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+constexpr void GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::__cordl_internal_set_path(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___path = value;
 }
-template <typename T> inline void GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline void GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline bool GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::_Load_b__0(::StringW s) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline bool GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::_Load_b__0(::StringW s) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>*>(), { "<Load>b__0", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, s);
 }
-template <typename T> inline ::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>* GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::New_ctor() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline ::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>* GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::OVRResources___c__DisplayClass3_0_1() {}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+constexpr ::GlobalNamespace::OVRResources___c__DisplayClass3_0_1<T>::OVRResources___c__DisplayClass3_0_1() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRResources.Load
 template <>
 
@@ -138,7 +153,9 @@ inline ::UnityW<::UnityEngine::Object> GlobalNamespace::OVRResources::Load(::Str
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRResources*>(), { "Load", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>>(nullptr, ___internal_method, path);
 }
-template <typename T> inline T GlobalNamespace::OVRResources::Load(::StringW path) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline T GlobalNamespace::OVRResources::Load(::StringW path) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRResources*>(), { "Load", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

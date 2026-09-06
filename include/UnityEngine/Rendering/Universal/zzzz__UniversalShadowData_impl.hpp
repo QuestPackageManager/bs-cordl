@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalShadowData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalShadowData.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__AdditionalLightsShadowAtlasLayout_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPLightShadowCullingInfos_impl.hpp"

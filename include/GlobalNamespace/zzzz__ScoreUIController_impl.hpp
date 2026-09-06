@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ScoreUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ScoreUIController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreUIController_def.hpp"
@@ -7,7 +7,7 @@
 #include "GlobalNamespace/zzzz__ScoreUIController_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::ScoreUIController_ScoreDisplayType::ScoreUIController_ScoreDisplayType(int32_t value__) noexcept {
   this->value__ = value__;
 }

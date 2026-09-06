@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\RumbleHapticFeedbackPlayer.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/RumbleHapticFeedbackPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,13 +86,13 @@ protected:
   constexpr RumbleHapticFeedbackPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RumbleHapticFeedbackPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RumbleHapticFeedbackPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RumbleHapticFeedbackPlayer(RumbleHapticFeedbackPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RumbleHapticFeedbackPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RumbleHapticFeedbackPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RumbleHapticFeedbackPlayer(RumbleHapticFeedbackPlayer const&) = delete;
+  RumbleHapticFeedbackPlayer(RumbleHapticFeedbackPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23193 };
@@ -100,6 +100,7 @@ public:
   /// @brief Field kContinuousRumbleFrameDuration offset 0xffffffff size 0x4
   static constexpr float_t kContinuousRumbleFrameDuration{ static_cast<float_t>(0.016666668f) };
 
+  /// [Inject]
   /// @brief Field _vrPlatformHelper, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ViewController.hpp"
+// IWYU pragma private; include "HMUI/ViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,7 +120,7 @@ public:
   // @brief default ctor
   constexpr ViewController_AnimationType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ViewController_AnimationType(int32_t value__) noexcept;
 
   /// @brief Field In value: I32(1)
@@ -178,7 +178,7 @@ public:
   // @brief default ctor
   constexpr ViewController_AnimationDirection();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ViewController_AnimationDirection(int32_t value__) noexcept;
 
   /// @brief Field Horizontal value: I32(0)
@@ -204,6 +204,7 @@ static_assert(offsetof(::HMUI::ViewController_AnimationDirection, value__) == 0x
 static_assert(sizeof(::HMUI::ViewController_AnimationDirection) == 0x4, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies HMUI.ViewController::AnimationDirection, System.Object
 namespace HMUI {
 // Is value type: false
@@ -248,17 +249,22 @@ public:
   /// @brief Method MoveNext, addr 0x32f6f74, size 0x1b4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::ViewController__DismissViewControllerCoroutine_d__54* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32f72a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32f72b0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32f72e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32f6f70, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -304,6 +310,7 @@ public:
 
   constexpr void __cordl_internal_set_immediately(bool value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32f6d78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -322,13 +329,13 @@ protected:
   constexpr ViewController__DismissViewControllerCoroutine_d__54();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ViewController__DismissViewControllerCoroutine_d__54", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewController__DismissViewControllerCoroutine_d__54", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViewController__DismissViewControllerCoroutine_d__54(ViewController__DismissViewControllerCoroutine_d__54&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ViewController__DismissViewControllerCoroutine_d__54", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewController__DismissViewControllerCoroutine_d__54", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewController__DismissViewControllerCoroutine_d__54(ViewController__DismissViewControllerCoroutine_d__54 const&) = delete;
+  ViewController__DismissViewControllerCoroutine_d__54(ViewController__DismissViewControllerCoroutine_d__54const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20970 };
@@ -374,6 +381,7 @@ static_assert(offsetof(::HMUI::ViewController__DismissViewControllerCoroutine_d_
 static_assert(sizeof(::HMUI::ViewController__DismissViewControllerCoroutine_d__54) == 0x40, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies HMUI.ViewController::AnimationDirection, System.Object
 namespace HMUI {
 // Is value type: false
@@ -418,17 +426,22 @@ public:
   /// @brief Method MoveNext, addr 0x32f72f4, size 0x224, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::ViewController__PresentViewControllerCoroutine_d__50* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32f7590, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32f7598, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32f75d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32f72f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -474,6 +487,7 @@ public:
 
   constexpr void __cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32f6c6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -492,13 +506,13 @@ protected:
   constexpr ViewController__PresentViewControllerCoroutine_d__50();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ViewController__PresentViewControllerCoroutine_d__50", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewController__PresentViewControllerCoroutine_d__50", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViewController__PresentViewControllerCoroutine_d__50(ViewController__PresentViewControllerCoroutine_d__50&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ViewController__PresentViewControllerCoroutine_d__50", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewController__PresentViewControllerCoroutine_d__50", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewController__PresentViewControllerCoroutine_d__50(ViewController__PresentViewControllerCoroutine_d__50 const&) = delete;
+  ViewController__PresentViewControllerCoroutine_d__50(ViewController__PresentViewControllerCoroutine_d__50const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20971 };
@@ -544,6 +558,7 @@ static_assert(offsetof(::HMUI::ViewController__PresentViewControllerCoroutine_d_
 static_assert(sizeof(::HMUI::ViewController__PresentViewControllerCoroutine_d__50) == 0x40, "Size mismatch!");
 
 } // namespace HMUI
+// [CompilerGenerated]
 // Dependencies HMUI.ViewController::AnimationDirection, HMUI.ViewController::AnimationType, System.Object
 namespace HMUI {
 // Is value type: false
@@ -588,17 +603,22 @@ public:
   /// @brief Method MoveNext, addr 0x32f75dc, size 0x26c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32f7848, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32f7850, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32f7888, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x32f75d8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -644,6 +664,7 @@ public:
 
   constexpr void __cordl_internal_set_newViewController(::UnityW<::HMUI::ViewController> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x32f6cf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -662,13 +683,13 @@ protected:
   constexpr ViewController__ReplaceViewControllerCoroutine_d__52();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ViewController__ReplaceViewControllerCoroutine_d__52", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewController__ReplaceViewControllerCoroutine_d__52", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViewController__ReplaceViewControllerCoroutine_d__52(ViewController__ReplaceViewControllerCoroutine_d__52&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ViewController__ReplaceViewControllerCoroutine_d__52", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewController__ReplaceViewControllerCoroutine_d__52", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewController__ReplaceViewControllerCoroutine_d__52(ViewController__ReplaceViewControllerCoroutine_d__52 const&) = delete;
+  ViewController__ReplaceViewControllerCoroutine_d__52(ViewController__ReplaceViewControllerCoroutine_d__52const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20972 };
@@ -714,6 +735,9 @@ static_assert(offsetof(::HMUI::ViewController__ReplaceViewControllerCoroutine_d_
 static_assert(sizeof(::HMUI::ViewController__ReplaceViewControllerCoroutine_d__52) == 0x40, "Size mismatch!");
 
 } // namespace HMUI
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
+// [RequireComponent(typeof(UnityEngine.EventSystems.BaseRaycaster))]
+// [RequireComponent(typeof(UnityEngine.CanvasGroup))]
 // Dependencies HMUI.ViewControllerBase
 namespace HMUI {
 // Is value type: false
@@ -799,12 +823,14 @@ public:
   /// @brief Method DidDeactivate, addr 0x32f6b1c, size 0x4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
+  /// [IteratorStateMachine(typeof(HMUI.ViewController::<DismissViewControllerCoroutine>d__54))]
   /// @brief Method DismissViewControllerCoroutine, addr 0x32f6cf8, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DismissViewControllerCoroutine(::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
   /// @brief Method IsViewControllerInHierarchy, addr 0x32f6d80, size 0x194, virtual false, abstract: false, final false
   inline bool IsViewControllerInHierarchy(::HMUI::ViewController* viewController);
 
+  /// [Conditional("ViewControllerLog")]
   /// @brief Method Log, addr 0x32f6f14, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
@@ -813,10 +839,12 @@ public:
   /// @brief Method OnDestroy, addr 0x32f6ad0, size 0x48, virtual true, abstract: false, final false
   inline void OnDestroy();
 
+  /// [IteratorStateMachine(typeof(HMUI.ViewController::<PresentViewControllerCoroutine>d__50))]
   /// @brief Method PresentViewControllerCoroutine, addr 0x32f6be8, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PresentViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                             ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
+  /// [IteratorStateMachine(typeof(HMUI.ViewController::<ReplaceViewControllerCoroutine>d__52))]
   /// @brief Method ReplaceViewControllerCoroutine, addr 0x32f6c74, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ReplaceViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
                                                                             ::HMUI::ViewController_AnimationType animationType, ::HMUI::ViewController_AnimationDirection animationDirection);
@@ -912,6 +940,7 @@ public:
   /// @brief Method .ctor, addr 0x32f057c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_buttonBinder, addr 0x32f6ac0, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ButtonBinder* get_buttonBinder();
 
@@ -951,6 +980,7 @@ public:
   /// @brief Method get_wasActivatedBefore, addr 0x32f69f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_wasActivatedBefore();
 
+  /// [CompilerGenerated]
   /// @brief Method set_buttonBinder, addr 0x32f6ac8, size 0x8, virtual false, abstract: false, final false
   inline void set_buttonBinder(::HMUI::ButtonBinder* value);
 
@@ -966,13 +996,13 @@ protected:
   constexpr ViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViewController(ViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViewController(ViewController const&) = delete;
+  ViewController(ViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20973 };
@@ -983,6 +1013,7 @@ public:
   /// @brief Field kTransitionMoveOffset offset 0xffffffff size 0x4
   static constexpr float_t kTransitionMoveOffset{ static_cast<float_t>(2.0f) };
 
+  /// [CompilerGenerated]
   /// @brief Field <buttonBinder>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder_k__BackingField;
 

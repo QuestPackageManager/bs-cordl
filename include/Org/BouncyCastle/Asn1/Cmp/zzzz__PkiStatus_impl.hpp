@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\PkiStatus.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PkiStatus.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatus_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus::PkiStatus(int32_t value__) noexcept {
   this->value__ = value__;
 }

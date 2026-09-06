@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\Common\SqlUdtStorage.hpp"
+// IWYU pragma private; include "System/Data/Common/SqlUdtStorage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,6 +51,7 @@ MARK_REF_T(::System::Data::Common::SqlUdtStorage*);
 MARK_REF_T(::System::Data::Common::SqlUdtStorage___c__DisplayClass6_0*);
 DEFINE_IL2CPP_CLASS(::System::Data::Common::SqlUdtStorage*, "System.Data.Common", "SqlUdtStorage");
 DEFINE_IL2CPP_CLASS(::System::Data::Common::SqlUdtStorage___c__DisplayClass6_0*, "System.Data.Common", "SqlUdtStorage/<>c__DisplayClass6_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Data::Common {
 // Is value type: false
@@ -81,13 +82,13 @@ protected:
   constexpr SqlUdtStorage___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SqlUdtStorage___c__DisplayClass6_0(SqlUdtStorage___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SqlUdtStorage___c__DisplayClass6_0(SqlUdtStorage___c__DisplayClass6_0 const&) = delete;
+  SqlUdtStorage___c__DisplayClass6_0(SqlUdtStorage___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13945 };
@@ -210,13 +211,13 @@ protected:
   constexpr SqlUdtStorage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SqlUdtStorage(SqlUdtStorage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SqlUdtStorage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SqlUdtStorage(SqlUdtStorage const&) = delete;
+  SqlUdtStorage(SqlUdtStorageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13946 };

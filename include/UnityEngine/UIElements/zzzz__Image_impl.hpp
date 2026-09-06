@@ -1,10 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Image.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Image.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__ScaleMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Image_def.hpp"
@@ -686,6 +687,8 @@ inline void UnityEngine::UIElements::Image::ReadCustomProperties(::UnityEngine::
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, customStyleProvider);
 }
 template <typename T0, typename T1, typename T2>
+  requires(::cordl_internals::type_constraint<T0, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T1, ::UnityEngine::Object*> &&
+           ::cordl_internals::type_constraint<T2, ::UnityEngine::Object*>)
 inline void UnityEngine::UIElements::Image::SetProperty(T0 src, ::by_ref<T0> dst, ::by_ref<T1> alt0, ::by_ref<T2> alt1, ::UnityEngine::UIElements::BindingId binding) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Image*>(), { "SetProperty",

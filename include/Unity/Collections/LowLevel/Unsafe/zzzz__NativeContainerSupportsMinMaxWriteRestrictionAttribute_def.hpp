@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeContainerSupportsMinMaxWriteRestrictionAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeContainerSupportsMinMaxWriteRestrictionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class NativeContainerSupportsMinMaxWriteRestrictionAttribute;
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute*, "Unity.Collections.LowLevel.Unsafe",
                     "NativeContainerSupportsMinMaxWriteRestrictionAttribute");
+// [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)8)]
 // Dependencies System.Attribute
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -31,13 +33,13 @@ protected:
   constexpr NativeContainerSupportsMinMaxWriteRestrictionAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsMinMaxWriteRestrictionAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsMinMaxWriteRestrictionAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeContainerSupportsMinMaxWriteRestrictionAttribute(NativeContainerSupportsMinMaxWriteRestrictionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsMinMaxWriteRestrictionAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeContainerSupportsMinMaxWriteRestrictionAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeContainerSupportsMinMaxWriteRestrictionAttribute(NativeContainerSupportsMinMaxWriteRestrictionAttribute const&) = delete;
+  NativeContainerSupportsMinMaxWriteRestrictionAttribute(NativeContainerSupportsMinMaxWriteRestrictionAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10013 };

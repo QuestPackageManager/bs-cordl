@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ServerCodeView.hpp"
+// IWYU pragma private; include "GlobalNamespace/ServerCodeView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,20 +100,22 @@ protected:
   constexpr ServerCodeView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServerCodeView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCodeView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerCodeView(ServerCodeView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServerCodeView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ServerCodeView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ServerCodeView(ServerCodeView const&) = delete;
+  ServerCodeView(ServerCodeViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6496 };
 
+  /// [SerializeField]
   /// @brief Field _serverCodeText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____serverCodeText;
 
+  /// [SerializeField]
   /// @brief Field _button, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 

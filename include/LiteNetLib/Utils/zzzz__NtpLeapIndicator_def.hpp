@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NtpLeapIndicator.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NtpLeapIndicator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   // @brief default ctor
   constexpr NtpLeapIndicator();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr NtpLeapIndicator(int32_t value__) noexcept;
 
   /// @brief Field AlarmCondition value: I32(3)

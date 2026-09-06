@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\ModuloInstruction.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ModuloInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,13 +152,13 @@ protected:
   constexpr ModuloInstruction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ModuloInstruction(ModuloInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModuloInstruction(ModuloInstruction const&) = delete;
+  ModuloInstruction(ModuloInstructionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16488 };

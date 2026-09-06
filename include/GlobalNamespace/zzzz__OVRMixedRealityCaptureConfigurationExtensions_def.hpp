@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRMixedRealityCaptureConfigurationExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRMixedRealityCaptureConfigurationExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class OVRMixedRealityCaptureConfigurationExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions*, "", "OVRMixedRealityCaptureConfigurationExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -22,9 +23,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRMixedRealityCaptureConfigurationExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method ApplyTo, addr 0x5f026c8, size 0x4, virtual false, abstract: false, final false
   static inline void ApplyTo(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
+  /// [Extension]
   /// @brief Method ReadFrom, addr 0x5f026cc, size 0x142c, virtual false, abstract: false, final false
   static inline void ReadFrom(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
@@ -34,13 +37,13 @@ protected:
   constexpr OVRMixedRealityCaptureConfigurationExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureConfigurationExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureConfigurationExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRMixedRealityCaptureConfigurationExtensions(OVRMixedRealityCaptureConfigurationExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureConfigurationExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureConfigurationExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRMixedRealityCaptureConfigurationExtensions(OVRMixedRealityCaptureConfigurationExtensions const&) = delete;
+  OVRMixedRealityCaptureConfigurationExtensions(OVRMixedRealityCaptureConfigurationExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7939 };

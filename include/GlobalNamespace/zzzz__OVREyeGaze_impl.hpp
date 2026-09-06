@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVREyeGaze.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVREyeGaze.hpp"
 #include "GlobalNamespace/zzzz__OVRPermissionsRequester_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -9,7 +9,7 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVREyeGaze_EyeId::OVREyeGaze_EyeId(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -17,7 +17,7 @@ constexpr ::GlobalNamespace::OVREyeGaze_EyeId::OVREyeGaze_EyeId(int32_t value__)
 constexpr ::GlobalNamespace::OVREyeGaze_EyeId::OVREyeGaze_EyeId() {}
 constexpr ::GlobalNamespace::OVREyeGaze_EyeId GlobalNamespace::OVREyeGaze_EyeId::Left{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVREyeGaze_EyeId GlobalNamespace::OVREyeGaze_EyeId::Right{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVREyeGaze_EyeTrackingMode::OVREyeGaze_EyeTrackingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }

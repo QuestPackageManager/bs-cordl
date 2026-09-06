@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Hammersley.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Hammersley.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,6 +90,8 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq16, "Uni
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq256, "UnityEngine.Rendering", "Hammersley/Hammersley2dSeq256");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq32, "UnityEngine.Rendering", "Hammersley/Hammersley2dSeq32");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq64, "UnityEngine.Rendering", "Hammersley/Hammersley2dSeq64");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -102,7 +104,7 @@ public:
   // @brief default ctor
   constexpr Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -126,7 +128,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__h
 static_assert(sizeof(::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer) == 0x100, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.Hammersley::Hammersley2dSeq16::<hammersley2dSeq16>e__FixedBuffer
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// UnityEngine.Rendering.Hammersley::Hammersley2dSeq16::<hammersley2dSeq16>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Hammersley/Hammersley2dSeq16
@@ -139,7 +143,8 @@ public:
   // @brief default ctor
   constexpr Hammersley_Hammersley2dSeq16();
 
-  // Ctor Parameters [CppParam { name: "hammersley2dSeq16", ty: "::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hammersley2dSeq16", ty: "::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr Hammersley_Hammersley2dSeq16(::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer hammersley2dSeq16) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -148,6 +153,8 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
 
+  /// [FixedBuffer(typeof(System.Single), 64)]
+  /// [HLSLArray(16, typeof(UnityEngine.Vector4))]
   /// @brief Field hammersley2dSeq16, offset: 0x0, size: 0x100, def value: None
   ::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer hammersley2dSeq16;
 
@@ -159,6 +166,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq16, h
 static_assert(sizeof(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq16) == 0x100, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -171,7 +180,7 @@ public:
   // @brief default ctor
   constexpr Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -195,7 +204,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__h
 static_assert(sizeof(::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer) == 0x200, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.Hammersley::Hammersley2dSeq32::<hammersley2dSeq32>e__FixedBuffer
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// UnityEngine.Rendering.Hammersley::Hammersley2dSeq32::<hammersley2dSeq32>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Hammersley/Hammersley2dSeq32
@@ -208,7 +219,8 @@ public:
   // @brief default ctor
   constexpr Hammersley_Hammersley2dSeq32();
 
-  // Ctor Parameters [CppParam { name: "hammersley2dSeq32", ty: "::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hammersley2dSeq32", ty: "::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr Hammersley_Hammersley2dSeq32(::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer hammersley2dSeq32) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -217,6 +229,8 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
 
+  /// [FixedBuffer(typeof(System.Single), 128)]
+  /// [HLSLArray(32, typeof(UnityEngine.Vector4))]
   /// @brief Field hammersley2dSeq32, offset: 0x0, size: 0x200, def value: None
   ::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer hammersley2dSeq32;
 
@@ -228,6 +242,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq32, h
 static_assert(sizeof(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq32) == 0x200, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -240,7 +256,7 @@ public:
   // @brief default ctor
   constexpr Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -264,7 +280,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__h
 static_assert(sizeof(::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer) == 0x400, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.Hammersley::Hammersley2dSeq64::<hammersley2dSeq64>e__FixedBuffer
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// UnityEngine.Rendering.Hammersley::Hammersley2dSeq64::<hammersley2dSeq64>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Hammersley/Hammersley2dSeq64
@@ -277,7 +295,8 @@ public:
   // @brief default ctor
   constexpr Hammersley_Hammersley2dSeq64();
 
-  // Ctor Parameters [CppParam { name: "hammersley2dSeq64", ty: "::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hammersley2dSeq64", ty: "::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr Hammersley_Hammersley2dSeq64(::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer hammersley2dSeq64) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -286,6 +305,8 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x400 };
 
+  /// [FixedBuffer(typeof(System.Single), 256)]
+  /// [HLSLArray(64, typeof(UnityEngine.Vector4))]
   /// @brief Field hammersley2dSeq64, offset: 0x0, size: 0x400, def value: None
   ::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer hammersley2dSeq64;
 
@@ -297,6 +318,8 @@ static_assert(offsetof(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq64, h
 static_assert(sizeof(::UnityEngine::Rendering::Hammersley_Hammersley2dSeq64) == 0x400, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -309,7 +332,7 @@ public:
   // @brief default ctor
   constexpr Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -333,7 +356,9 @@ static_assert(offsetof(::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__
 static_assert(sizeof(::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer) == 0x1000, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies UnityEngine.Rendering.Hammersley::Hammersley2dSeq256::<hammersley2dSeq256>e__FixedBuffer
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.core@481f548ebf36\\Runtime\\ShaderLibrary\\Sampling\\Hammersley.cs", needAccessors = false, generateCBuffer = true)] Dependencies
+// UnityEngine.Rendering.Hammersley::Hammersley2dSeq256::<hammersley2dSeq256>e__FixedBuffer
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Hammersley/Hammersley2dSeq256
@@ -346,7 +371,8 @@ public:
   // @brief default ctor
   constexpr Hammersley_Hammersley2dSeq256();
 
-  // Ctor Parameters [CppParam { name: "hammersley2dSeq256", ty: "::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "hammersley2dSeq256", ty: "::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr Hammersley_Hammersley2dSeq256(::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer hammersley2dSeq256) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -355,6 +381,8 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1000 };
 
+  /// [FixedBuffer(typeof(System.Single), 1024)]
+  /// [HLSLArray(256, typeof(UnityEngine.Vector4))]
   /// @brief Field hammersley2dSeq256, offset: 0x0, size: 0x1000, def value: None
   ::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer hammersley2dSeq256;
 
@@ -449,13 +477,13 @@ protected:
   constexpr Hammersley();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hammersley", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hammersley", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Hammersley(Hammersley&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hammersley", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hammersley", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Hammersley(Hammersley const&) = delete;
+  Hammersley(Hammersleyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12214 };

@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedDataRegistry.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedDataRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InspectedDataRegistry)
 namespace Meta::XR::ImmersiveDebugger {
@@ -33,7 +34,7 @@ class InspectedDataRegistry;
 // Write type traits
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*, "Meta.XR.ImmersiveDebugger", "InspectedDataRegistry");
-// Dependencies System.Object
+// Dependencies System.Object, System.Reflection.MemberInfo
 namespace Meta::XR::ImmersiveDebugger {
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.InspectedDataRegistry
@@ -49,6 +50,7 @@ public:
 
   /// @brief Method GetMembersForType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::Reflection::MemberInfo*>)
   static inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<T, ::Meta::XR::ImmersiveDebugger::DebugMember*>>*
   GetMembersForType(::System::Type* type, ::System::Func_3<T, ::Meta::XR::ImmersiveDebugger::DebugMember*, bool>* filterCallback);
 
@@ -67,13 +69,13 @@ protected:
   constexpr InspectedDataRegistry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedDataRegistry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectedDataRegistry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InspectedDataRegistry(InspectedDataRegistry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedDataRegistry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InspectedDataRegistry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InspectedDataRegistry(InspectedDataRegistry const&) = delete;
+  InspectedDataRegistry(InspectedDataRegistryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18329 };

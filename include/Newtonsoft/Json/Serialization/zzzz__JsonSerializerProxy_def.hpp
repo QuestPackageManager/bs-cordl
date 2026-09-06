@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonSerializerProxy.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonSerializerProxy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,7 +113,9 @@ namespace System {
 template <typename TEventArgs> class EventHandler_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -128,6 +130,8 @@ class JsonSerializerProxy;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::JsonSerializerProxy*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::JsonSerializerProxy*, "Newtonsoft.Json.Serialization", "JsonSerializerProxy");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonSerializer
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -135,6 +139,7 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE JsonSerializerProxy : public ::Newtonsoft::Json::JsonSerializer {
 public:
   // Declarations
+  /// @brief [Obsolete("Binder is obsolete. Use SerializationBinder instead.")]
   __declspec(property(get = get_Binder, put = set_Binder)) ::System::Runtime::Serialization::SerializationBinder* Binder;
 
   __declspec(property(get = get_CheckAdditionalContent, put = set_CheckAdditionalContent)) bool CheckAdditionalContent;
@@ -159,6 +164,7 @@ public:
 
   __declspec(property(get = get_DefaultValueHandling, put = set_DefaultValueHandling)) ::Newtonsoft::Json::DefaultValueHandling DefaultValueHandling;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_EqualityComparer, put = set_EqualityComparer)) ::System::Collections::IEqualityComparer* EqualityComparer;
 
   __declspec(property(get = get_FloatFormatHandling, put = set_FloatFormatHandling)) ::Newtonsoft::Json::FloatFormatHandling FloatFormatHandling;
@@ -181,14 +187,17 @@ public:
 
   __declspec(property(get = get_ReferenceLoopHandling, put = set_ReferenceLoopHandling)) ::Newtonsoft::Json::ReferenceLoopHandling ReferenceLoopHandling;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_ReferenceResolver, put = set_ReferenceResolver)) ::Newtonsoft::Json::Serialization::IReferenceResolver* ReferenceResolver;
 
   __declspec(property(get = get_SerializationBinder, put = set_SerializationBinder)) ::Newtonsoft::Json::Serialization::ISerializationBinder* SerializationBinder;
 
   __declspec(property(get = get_StringEscapeHandling, put = set_StringEscapeHandling)) ::Newtonsoft::Json::StringEscapeHandling StringEscapeHandling;
 
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_TraceWriter, put = set_TraceWriter)) ::Newtonsoft::Json::Serialization::ITraceWriter* TraceWriter;
 
+  /// @brief [Obsolete("TypeNameAssemblyFormat is obsolete. Use TypeNameAssemblyFormatHandling instead.")]
   __declspec(property(get = get_TypeNameAssemblyFormat, put = set_TypeNameAssemblyFormat)) ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle TypeNameAssemblyFormat;
 
   __declspec(property(get = get_TypeNameAssemblyFormatHandling, put = set_TypeNameAssemblyFormatHandling)) ::Newtonsoft::Json::TypeNameAssemblyFormatHandling TypeNameAssemblyFormatHandling;
@@ -204,8 +213,9 @@ public:
   /// @brief Field _serializerWriter, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__serializerWriter, put = __cordl_internal_set__serializerWriter)) ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* _serializerWriter;
 
+  /// [NullableContext(2)]
   /// @brief Method DeserializeInternal, addr 0x5d580e0, size 0x38, virtual true, abstract: false, final false
-  inline ::System::Object* DeserializeInternal(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType);
+  inline ::System::Object* DeserializeInternal(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType);
 
   /// @brief Method GetInternalSerializer, addr 0x5d58044, size 0x1c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase* GetInternalSerializer();
@@ -217,8 +227,9 @@ public:
   /// @brief Method PopulateInternal, addr 0x5d58118, size 0x34, virtual true, abstract: false, final false
   inline void PopulateInternal(::Newtonsoft::Json::JsonReader* reader, ::System::Object* target);
 
+  /// [NullableContext(2)]
   /// @brief Method SerializeInternal, addr 0x5d5814c, size 0x34, virtual true, abstract: false, final false
-  inline void SerializeInternal(::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value, ::System::Type* rootType);
+  inline void SerializeInternal(/* [Nullable(1)] */ ::Newtonsoft::Json::JsonWriter* jsonWriter, ::System::Object* value, ::System::Type* rootType);
 
   constexpr ::Newtonsoft::Json::JsonSerializer* const& __cordl_internal_get__serializer() const;
 
@@ -245,7 +256,7 @@ public:
   inline void _ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* serializerWriter);
 
   /// @brief Method add_Error, addr 0x5d578c4, size 0x1c, virtual true, abstract: false, final false
-  inline void add_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);
+  inline void add_Error(/* [Nullable(new[] { 2, 1 })] */ ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);
 
   /// @brief Method get_Binder, addr 0x5d57cd0, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationBinder* get_Binder();
@@ -283,6 +294,7 @@ public:
   /// @brief Method get_DefaultValueHandling, addr 0x5d579d0, size 0x20, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::DefaultValueHandling get_DefaultValueHandling();
 
+  /// [NullableContext(2)]
   /// @brief Method get_EqualityComparer, addr 0x5d57970, size 0x20, virtual true, abstract: false, final false
   inline ::System::Collections::IEqualityComparer* get_EqualityComparer();
 
@@ -316,6 +328,7 @@ public:
   /// @brief Method get_ReferenceLoopHandling, addr 0x5d57b10, size 0x20, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::ReferenceLoopHandling get_ReferenceLoopHandling();
 
+  /// [NullableContext(2)]
   /// @brief Method get_ReferenceResolver, addr 0x5d578fc, size 0x1c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::IReferenceResolver* get_ReferenceResolver();
 
@@ -325,6 +338,7 @@ public:
   /// @brief Method get_StringEscapeHandling, addr 0x5d57f00, size 0x20, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::StringEscapeHandling get_StringEscapeHandling();
 
+  /// [NullableContext(2)]
   /// @brief Method get_TraceWriter, addr 0x5d57934, size 0x1c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ITraceWriter* get_TraceWriter();
 
@@ -338,7 +352,7 @@ public:
   inline ::Newtonsoft::Json::TypeNameHandling get_TypeNameHandling();
 
   /// @brief Method remove_Error, addr 0x5d578e0, size 0x1c, virtual true, abstract: false, final false
-  inline void remove_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);
+  inline void remove_Error(/* [Nullable(new[] { 2, 1 })] */ ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);
 
   /// @brief Method set_Binder, addr 0x5d57cec, size 0x1c, virtual true, abstract: false, final false
   inline void set_Binder(::System::Runtime::Serialization::SerializationBinder* value);
@@ -373,6 +387,7 @@ public:
   /// @brief Method set_DefaultValueHandling, addr 0x5d579f0, size 0x20, virtual true, abstract: false, final false
   inline void set_DefaultValueHandling(::Newtonsoft::Json::DefaultValueHandling value);
 
+  /// [NullableContext(2)]
   /// @brief Method set_EqualityComparer, addr 0x5d57990, size 0x20, virtual true, abstract: false, final false
   inline void set_EqualityComparer(::System::Collections::IEqualityComparer* value);
 
@@ -406,6 +421,7 @@ public:
   /// @brief Method set_ReferenceLoopHandling, addr 0x5d57b30, size 0x20, virtual true, abstract: false, final false
   inline void set_ReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value);
 
+  /// [NullableContext(2)]
   /// @brief Method set_ReferenceResolver, addr 0x5d57918, size 0x1c, virtual true, abstract: false, final false
   inline void set_ReferenceResolver(::Newtonsoft::Json::Serialization::IReferenceResolver* value);
 
@@ -415,6 +431,7 @@ public:
   /// @brief Method set_StringEscapeHandling, addr 0x5d57f20, size 0x20, virtual true, abstract: false, final false
   inline void set_StringEscapeHandling(::Newtonsoft::Json::StringEscapeHandling value);
 
+  /// [NullableContext(2)]
   /// @brief Method set_TraceWriter, addr 0x5d57950, size 0x20, virtual true, abstract: false, final false
   inline void set_TraceWriter(::Newtonsoft::Json::Serialization::ITraceWriter* value);
 
@@ -433,20 +450,22 @@ protected:
   constexpr JsonSerializerProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerProxy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSerializerProxy(JsonSerializerProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonSerializerProxy(JsonSerializerProxy const&) = delete;
+  JsonSerializerProxy(JsonSerializerProxyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13523 };
 
+  /// [Nullable(2)]
   /// @brief Field _serializerReader, offset: 0xe0, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* ____serializerReader;
 
+  /// [Nullable(2)]
   /// @brief Field _serializerWriter, offset: 0xe8, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter* ____serializerWriter;
 

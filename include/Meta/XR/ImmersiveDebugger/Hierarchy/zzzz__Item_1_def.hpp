@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Hierarchy\Item_1.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Hierarchy/Item_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   /// @brief Field _owner, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__owner, put = __cordl_internal_set__owner)) T _owner;
 
-  /// @brief Method BuildHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method BuildHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle BuildHandle();
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Item_1<T>* New_ctor();
@@ -63,13 +63,13 @@ protected:
   constexpr Item_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Item_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Item_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Item_1(Item_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Item_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Item_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Item_1(Item_1 const&) = delete;
+  Item_1(Item_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18467 };

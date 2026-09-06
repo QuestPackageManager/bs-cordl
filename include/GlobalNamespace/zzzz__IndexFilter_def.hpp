@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IndexFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/IndexFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,6 +75,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::IndexFilter_IndexFilterRandomType, "", "I
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::IndexFilter*, "", "IndexFilter");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::IndexFilter__GetEnumerator_d__23*, "", "IndexFilter/<GetEnumerator>d__23");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::IndexFilter__GetValues_d__24*, "", "IndexFilter/<GetValues>d__24");
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -105,7 +106,7 @@ public:
   // @brief default ctor
   constexpr IndexFilter_IndexFilterRandomType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IndexFilter_IndexFilterRandomType(int32_t value__) noexcept;
 
   /// @brief Field KeepOrder value: I32(1)
@@ -134,6 +135,7 @@ static_assert(offsetof(::GlobalNamespace::IndexFilter_IndexFilterRandomType, val
 static_assert(sizeof(::GlobalNamespace::IndexFilter_IndexFilterRandomType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -164,7 +166,7 @@ public:
   // @brief default ctor
   constexpr IndexFilter_IndexFilterLimitAlsoAffectType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IndexFilter_IndexFilterLimitAlsoAffectType(int32_t value__) noexcept;
 
   /// @brief Field Distribution value: I32(2)
@@ -193,6 +195,7 @@ static_assert(offsetof(::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffect
 static_assert(sizeof(::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object, System.ValueTuple`3<T1, T2, T3>
 namespace GlobalNamespace {
 // Is value type: false
@@ -243,18 +246,23 @@ public:
   /// @brief Method MoveNext, addr 0x371972c, size 0x4a8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::IndexFilter__GetEnumerator_d__23* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current, addr 0x3719c88, size 0x10, virtual true,
   /// abstract: false, final true
   inline ::System::ValueTuple_3<int32_t, int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3719c98, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3719cd0, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3719710, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -309,6 +317,7 @@ public:
   /// @brief Method <>m__Finally1, addr 0x3719bd4, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x3719674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -328,13 +337,13 @@ protected:
   constexpr IndexFilter__GetEnumerator_d__23();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetEnumerator_d__23", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetEnumerator_d__23", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IndexFilter__GetEnumerator_d__23(IndexFilter__GetEnumerator_d__23&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetEnumerator_d__23", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetEnumerator_d__23", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexFilter__GetEnumerator_d__23(IndexFilter__GetEnumerator_d__23 const&) = delete;
+  IndexFilter__GetEnumerator_d__23(IndexFilter__GetEnumerator_d__23const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14927 };
@@ -342,6 +351,7 @@ public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
+  /// [TupleElementNames(new[] { "element", "durationOrder", "distributionOrder" })]
   /// @brief Field <>2__current, offset: 0x14, size: 0xc, def value: None
   ::System::ValueTuple_3<int32_t, int32_t, int32_t> _____2__current;
 
@@ -385,6 +395,7 @@ static_assert(offsetof(::GlobalNamespace::IndexFilter__GetEnumerator_d__23, ____
 static_assert(sizeof(::GlobalNamespace::IndexFilter__GetEnumerator_d__23) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -432,23 +443,30 @@ public:
   /// @brief Method MoveNext, addr 0x3719d3c, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::IndexFilter__GetValues_d__24* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x3719e20, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x3719dbc, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3719eb8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3719dc4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3719dfc, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x3719d38, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -488,6 +506,7 @@ public:
 
   constexpr void __cordl_internal_set__value_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x37196ec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -512,13 +531,13 @@ protected:
   constexpr IndexFilter__GetValues_d__24();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetValues_d__24", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetValues_d__24", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IndexFilter__GetValues_d__24(IndexFilter__GetValues_d__24&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetValues_d__24", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter__GetValues_d__24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexFilter__GetValues_d__24(IndexFilter__GetValues_d__24 const&) = delete;
+  IndexFilter__GetValues_d__24(IndexFilter__GetValues_d__24const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14928 };
@@ -621,9 +640,11 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
+  /// [IteratorStateMachine(typeof(IndexFilter::<GetEnumerator>d__23))]
   /// @brief Method GetEnumerator, addr 0x3717048, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>* GetEnumerator();
 
+  /// [IteratorStateMachine(typeof(IndexFilter::<GetValues>d__24))]
   /// @brief Method GetValues, addr 0x371967c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetValues();
 
@@ -730,13 +751,13 @@ protected:
   constexpr IndexFilter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IndexFilter(IndexFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IndexFilter(IndexFilter const&) = delete;
+  IndexFilter(IndexFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14929 };

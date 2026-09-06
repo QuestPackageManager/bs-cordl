@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Graph\G_Graph.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Graph/G_Graph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace Tayx::Graphy::Graph {
 class CORDL_TYPE G_Graph : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method CreatePoints, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CreatePoints();
 
   static inline ::Tayx::Graphy::Graph::G_Graph* New_ctor();
 
-  /// @brief Method UpdateGraph, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateGraph();
 
   /// @brief Method .ctor, addr 0x643f694, size 0x4, virtual false, abstract: false, final false
@@ -36,13 +36,13 @@ protected:
   constexpr G_Graph();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_Graph", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_Graph", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_Graph(G_Graph&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_Graph", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_Graph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_Graph(G_Graph const&) = delete;
+  G_Graph(G_Graphconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21497 };

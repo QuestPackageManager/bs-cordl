@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteJumpStartScaleUp.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteJumpStartScaleUp.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,26 +103,31 @@ protected:
   constexpr NoteJumpStartScaleUp();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartScaleUp", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartScaleUp", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteJumpStartScaleUp(NoteJumpStartScaleUp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartScaleUp", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartScaleUp", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteJumpStartScaleUp(NoteJumpStartScaleUp const&) = delete;
+  NoteJumpStartScaleUp(NoteJumpStartScaleUpconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5691 };
 
+  /// [SerializeField]
   /// @brief Field _fullScaleJumpPart, offset: 0x20, size: 0x4, def value: None
   float_t ____fullScaleJumpPart;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _targetTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____targetTransform;
 
+  /// [SerializeField]
   /// @brief Field _noteController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteController> ____noteController;
 
+  /// [SerializeField]
   /// @brief Field _noteJump, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteJump> ____noteJump;
 

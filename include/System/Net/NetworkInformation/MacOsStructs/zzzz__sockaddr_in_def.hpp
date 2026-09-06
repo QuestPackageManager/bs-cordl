@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\MacOsStructs\sockaddr_in.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/MacOsStructs/sockaddr_in.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,8 @@ public:
   // @brief default ctor
   constexpr sockaddr_in();
 
-  // Ctor Parameters [CppParam { name: "sin_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sin_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sin_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin_addr", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sin_len", ty: "uint8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sin_family", ty: "uint8_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "sin_port", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sin_addr", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr sockaddr_in(uint8_t sin_len, uint8_t sin_family, uint16_t sin_port, uint32_t sin_addr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

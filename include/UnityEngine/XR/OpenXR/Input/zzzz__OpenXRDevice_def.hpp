@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\OpenXRDevice.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/OpenXRDevice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class OpenXRDevice;
 // Write type traits
 MARK_REF_T(::UnityEngine::XR::OpenXR::Input::OpenXRDevice*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Input::OpenXRDevice*, "UnityEngine.XR.OpenXR.Input", "OpenXRDevice");
+// [Preserve]
+// [InputControlLayout(displayName = "OpenXR Action Map")]
 // Dependencies UnityEngine.InputSystem.InputDevice
 namespace UnityEngine::XR::OpenXR::Input {
 // Is value type: false
@@ -33,13 +35,13 @@ protected:
   constexpr OpenXRDevice();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRDevice", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRDevice", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRDevice(OpenXRDevice&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRDevice", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRDevice", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRDevice(OpenXRDevice const&) = delete;
+  OpenXRDevice(OpenXRDeviceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18542 };

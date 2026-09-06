@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameplayServerControlSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameplayServerControlSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct GameplayServerControlSettings;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::GameplayServerControlSettings);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayServerControlSettings, "", "GameplayServerControlSettings");
+// [Flags]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr GameplayServerControlSettings();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GameplayServerControlSettings(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(3)

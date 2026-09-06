@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\FunctionPointer_1.hpp"
+// IWYU pragma private; include "Unity/Burst/FunctionPointer_1.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Burst/zzzz__FunctionPointer_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -38,7 +38,7 @@ template <typename T> constexpr Unity::Burst::FunctionPointer_1<T>::operator ::U
 template <typename T> constexpr ::Unity::Burst::IFunctionPointer* Unity::Burst::FunctionPointer_1<T>::i___Unity__Burst__IFunctionPointer() {
   return static_cast<::Unity::Burst::IFunctionPointer*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::Unity::Burst::FunctionPointer_1<T>::FunctionPointer_1(::System::IntPtr _ptr) noexcept {
   this->_ptr = _ptr;
 }

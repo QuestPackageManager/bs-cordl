@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\ITypedList.hpp"
+// IWYU pragma private; include "System/ComponentModel/ITypedList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,15 +26,15 @@ namespace System::ComponentModel {
 class CORDL_TYPE ITypedList {
 public:
   // Declarations
-  /// @brief Method GetItemProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetItemProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetItemProperties(::ArrayW<::System::ComponentModel::PropertyDescriptor*> listAccessors);
 
-  /// @brief Method GetListName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetListName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetListName(::ArrayW<::System::ComponentModel::PropertyDescriptor*> listAccessors);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITypedList", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITypedList", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITypedList(ITypedList const&) = delete;
+  ITypedList(ITypedListconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11274 };

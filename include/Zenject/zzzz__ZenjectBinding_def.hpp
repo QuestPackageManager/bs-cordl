@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ZenjectBinding.hpp"
+// IWYU pragma private; include "Zenject/ZenjectBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   // @brief default ctor
   constexpr ZenjectBinding_BindTypes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ZenjectBinding_BindTypes(int32_t value__) noexcept;
 
   /// @brief Field AllInterfaces value: I32(1)
@@ -177,6 +177,7 @@ public:
 
   constexpr void __cordl_internal_set__useSceneContext(bool value);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e76a4c, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -210,32 +211,49 @@ protected:
   constexpr ZenjectBinding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectBinding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectBinding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenjectBinding(ZenjectBinding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectBinding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ZenjectBinding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectBinding(ZenjectBinding const&) = delete;
+  ZenjectBinding(ZenjectBindingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14510 };
 
+  /// [Tooltip("The component to add to the Zenject container")]
+  /// [SerializeField]
   /// @brief Field _components, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Component>> ____components;
 
+  /// [Tooltip("Note: This value is optional and can be ignored in most cases.  This can be useful to differentiate multiple bindings of the same type.  For example, if you have multiple cameras in
+  /// your scene, you can \'name\' them by giving each one a different identifier.  For your main camera you might call it \'Main\' then any class can refer to it by using an attribute like [Inject(Id
+  /// = \'Main\')]")] [SerializeField]
   /// @brief Field _identifier, offset: 0x28, size: 0x8, def value: None
   ::StringW ____identifier;
 
+  /// [Tooltip("When set, this will bind the given components to the SceneContext.  It can be used as a shortcut to explicitly dragging the SceneContext into the Context field.  This is useful when
+  /// using ZenjectBinding inside GameObjectContext.  If your ZenjectBinding is for a component that is not underneath GameObjectContext then it is not necessary to check this")] [SerializeField]
   /// @brief Field _useSceneContext, offset: 0x30, size: 0x1, def value: None
   bool ____useSceneContext;
 
+  /// [SerializeField]
   /// @brief Field _ifNotBound, offset: 0x31, size: 0x1, def value: None
   bool ____ifNotBound;
 
+  /// [FormerlySerializedAs("_compositionRoot")]
+  /// [NullAllowed((NullAllowedContext)0)]
+  /// [Tooltip("Note: This value is optional and can be ignored in most cases.  This value will determine what container the component gets added to.  If unset, the component will be bound on the most
+  /// \'local\' context.  In most cases this will be the SceneContext, unless this component is underneath a GameObjectContext, or ProjectContext, in which case it will bind to that instead by
+  /// default.  You can also override this default by providing the Context directly.  This can be useful if you want to bind something that is inside a GameObjectContext to the SceneContext
+  /// container.")] [SerializeField]
   /// @brief Field _context, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Zenject::Context> ____context;
 
+  /// [SerializeField]
+  /// [Tooltip("This value is used to determine how to bind this component.  When set to \'Self\' is equivalent to calling Container.FromInstance inside an installer. When set to \'AllInterfaces\'
+  /// this is equivalent to calling \'Container.BindInterfaces<MyMonoBehaviour>().ToInstance\', and similarly for InterfacesAndSelf")]
   /// @brief Field _bindType, offset: 0x40, size: 0x4, def value: None
   ::Zenject::ZenjectBinding_BindTypes ____bindType;
 

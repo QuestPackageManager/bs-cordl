@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\PrimitiveValue.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/PrimitiveValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,7 +108,9 @@ public:
   inline bool Equals(::UnityEngine::InputSystem::Utilities::PrimitiveValue other);
 
   /// @brief Method From, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue From(TValue value);
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue From(TValue value);
 
   /// @brief Method FromBoolean, addr 0x6508a34, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromBoolean(bool value);
@@ -387,12 +389,13 @@ public:
   // @brief default ctor
   constexpr PrimitiveValue();
 
-  // Ctor Parameters [CppParam { name: "m_Type", ty: "::System::TypeCode", modifiers: "", def_value: None }, CppParam { name: "m_BoolValue", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "m_CharValue", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "m_ByteValue", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_SByteValue", ty:
-  // "int8_t", modifiers: "", def_value: None }, CppParam { name: "m_ShortValue", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "m_UShortValue", ty: "uint16_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_IntValue", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_UIntValue", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_LongValue", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "m_ULongValue", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FloatValue", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "m_DoubleValue", ty: "double_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Type", ty: "::System::TypeCode", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_BoolValue", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_CharValue", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ByteValue", ty: "uint8_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_SByteValue", ty: "int8_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ShortValue", ty: "int16_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_UShortValue", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_IntValue", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_UIntValue", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LongValue", ty: "int64_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_ULongValue", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FloatValue", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_DoubleValue", ty: "double_t", modifiers: "", def_value: None, comment: None }]
   constexpr PrimitiveValue(::System::TypeCode m_Type, bool m_BoolValue, char16_t m_CharValue, uint8_t m_ByteValue, int8_t m_SByteValue, int16_t m_ShortValue, uint16_t m_UShortValue,
                            int32_t m_IntValue, uint32_t m_UIntValue, int64_t m_LongValue, uint64_t m_ULongValue, float_t m_FloatValue, double_t m_DoubleValue) noexcept;
 

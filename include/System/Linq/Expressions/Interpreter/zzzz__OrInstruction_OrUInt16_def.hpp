@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\OrInstruction_OrUInt16.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/OrInstruction_OrUInt16.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ protected:
   constexpr OrInstruction_OrUInt16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OrInstruction_OrUInt16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrInstruction_OrUInt16", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrInstruction_OrUInt16(OrInstruction_OrUInt16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OrInstruction_OrUInt16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OrInstruction_OrUInt16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OrInstruction_OrUInt16(OrInstruction_OrUInt16 const&) = delete;
+  OrInstruction_OrUInt16(OrInstruction_OrUInt16const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16562 };

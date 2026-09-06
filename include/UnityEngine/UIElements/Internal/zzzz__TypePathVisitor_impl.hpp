@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Internal\TypePathVisitor.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Internal/TypePathVisitor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
 #include "Unity/Properties/zzzz__VisitReturnCode_impl.hpp"

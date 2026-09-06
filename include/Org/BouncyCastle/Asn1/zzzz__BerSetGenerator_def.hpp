@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerSetGenerator.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerSetGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ protected:
   constexpr BerSetGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerSetGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerSetGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerSetGenerator(BerSetGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerSetGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerSetGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerSetGenerator(BerSetGenerator const&) = delete;
+  BerSetGenerator(BerSetGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 493 };

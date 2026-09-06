@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\RazorPageBaseTypeAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/RazorPageBaseTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class RazorPageBaseTypeAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::RazorPageBaseTypeAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::RazorPageBaseTypeAttribute*, "JetBrains.Annotations", "RazorPageBaseTypeAttribute");
+// [AttributeUsage((System.AttributeTargets)1, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -20,8 +21,10 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE RazorPageBaseTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [NotNull]
   __declspec(property(get = get_BaseType, put = set_BaseType)) ::StringW BaseType;
 
+  /// @brief [CanBeNull]
   __declspec(property(get = get_PageName, put = set_PageName)) ::StringW PageName;
 
   /// @brief Field <BaseType>k__BackingField, offset 0x10, size 0x8
@@ -30,9 +33,9 @@ public:
   /// @brief Field <PageName>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__PageName_k__BackingField, put = __cordl_internal_set__PageName_k__BackingField)) ::StringW _PageName_k__BackingField;
 
-  static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType);
+  static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(/* [NotNull] */ ::StringW baseType);
 
-  static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType, ::StringW pageName);
+  static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(/* [NotNull] */ ::StringW baseType, ::StringW pageName);
 
   constexpr ::StringW const& __cordl_internal_get__BaseType_k__BackingField() const;
 
@@ -47,20 +50,24 @@ public:
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
   /// @brief Method .ctor, addr 0x6e3e2bc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW baseType);
+  inline void _ctor(/* [NotNull] */ ::StringW baseType);
 
   /// @brief Method .ctor, addr 0x6e3e2c4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW baseType, ::StringW pageName);
+  inline void _ctor(/* [NotNull] */ ::StringW baseType, ::StringW pageName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_BaseType, addr 0x6e3e2cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PageName, addr 0x6e3e2dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BaseType, addr 0x6e3e2d4, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_PageName, addr 0x6e3e2e4, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
@@ -70,20 +77,22 @@ protected:
   constexpr RazorPageBaseTypeAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute const&) = delete;
+  RazorPageBaseTypeAttribute(RazorPageBaseTypeAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22605 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____BaseType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <PageName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____PageName_k__BackingField;
 

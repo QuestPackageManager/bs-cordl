@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\ManifestResourceInfo.hpp"
+// IWYU pragma private; include "System/Reflection/ManifestResourceInfo.hpp"
 #include "System/Reflection/zzzz__ResourceLocation_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__ManifestResourceInfo_def.hpp"

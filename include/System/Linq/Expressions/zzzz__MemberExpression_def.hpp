@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\MemberExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/MemberExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class MemberExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::MemberExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::MemberExpression*, "System.Linq.Expressions", "MemberExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::MemberExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -56,6 +57,7 @@ public:
   /// @brief Method Accept, addr 0x5f86dd4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method GetMember, addr 0x5f86dac, size 0x28, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMember();
 
@@ -79,6 +81,7 @@ public:
   /// @brief Method .ctor, addr 0x5f86c20, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Expression, addr 0x5f86c18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
@@ -94,17 +97,18 @@ protected:
   constexpr MemberExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemberExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemberExpression(MemberExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemberExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemberExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemberExpression(MemberExpression const&) = delete;
+  MemberExpression(MemberExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16197 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Expression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Expression_k__BackingField;
 

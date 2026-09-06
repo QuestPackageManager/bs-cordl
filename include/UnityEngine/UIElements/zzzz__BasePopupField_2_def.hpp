@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BasePopupField_2.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BasePopupField_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextElement_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -42,7 +43,9 @@ namespace UnityEngine::UIElements {
 class PointerDownEvent;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class PointerEventBase_1;
+template <typename T>
+  requires(::cordl_internals::default_constructor_constraint<T>)
+class PointerEventBase_1;
 }
 namespace UnityEngine::UIElements {
 class PointerMoveEvent;
@@ -103,13 +106,13 @@ protected:
   constexpr BasePopupField_2_PopupTextElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2_PopupTextElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2_PopupTextElement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasePopupField_2_PopupTextElement(BasePopupField_2_PopupTextElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2_PopupTextElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2_PopupTextElement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasePopupField_2_PopupTextElement(BasePopupField_2_PopupTextElement const&) = delete;
+  BasePopupField_2_PopupTextElement(BasePopupField_2_PopupTextElementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4111 };
@@ -118,6 +121,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
@@ -155,13 +159,13 @@ protected:
   constexpr BasePopupField_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasePopupField_2___c(BasePopupField_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasePopupField_2___c(BasePopupField_2___c const&) = delete;
+  BasePopupField_2___c(BasePopupField_2___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4112 };
@@ -170,7 +174,8 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
+// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueChoice>
@@ -186,6 +191,7 @@ public:
   /// @brief Field arrowUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_arrowUssClassName, put = setStaticF_arrowUssClassName)) ::StringW arrowUssClassName;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_choices, put = set_choices)) ::System::Collections::Generic::List_1<TValueChoice>* choices;
 
   /// @brief Field choicesProperty, offset 0xffffffff, size 0x98
@@ -219,6 +225,7 @@ public:
   /// @brief Field m_TextElement, offset 0x530, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextElement, put = __cordl_internal_set_m_TextElement)) ::UnityEngine::UIElements::TextElement* m_TextElement;
 
+  /// @brief [CreateProperty(ReadOnly = true)]
   __declspec(property(get = get_text)) ::StringW text;
 
   __declspec(property(get = get_textElement)) ::UnityEngine::UIElements::TextElement* textElement;
@@ -232,16 +239,16 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method AddMenuItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AddMenuItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddMenuItems(::UnityEngine::UIElements::IGenericMenu* menu);
 
   /// @brief Method ContainsPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ContainsPointer(int32_t pointerId);
 
-  /// @brief Method GetListItemToDisplay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetListItemToDisplay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetListItemToDisplay(TValueType item);
 
-  /// @brief Method GetValueToDisplay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValueToDisplay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetValueToDisplay();
 
   static inline ::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>* New_ctor(::StringW label);
@@ -259,7 +266,9 @@ public:
   inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
 
   /// @brief Method ProcessPointerDown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::PointerEventBase_1<T>*> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt);
 
   /// @brief Method SetValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(TValueType newValue);
@@ -361,13 +370,13 @@ protected:
   constexpr BasePopupField_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasePopupField_2(BasePopupField_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasePopupField_2(BasePopupField_2 const&) = delete;
+  BasePopupField_2(BasePopupField_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4113 };

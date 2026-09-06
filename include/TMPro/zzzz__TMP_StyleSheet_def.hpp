@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_StyleSheet.hpp"
+// IWYU pragma private; include "TMPro/TMP_StyleSheet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class TMP_StyleSheet;
 // Write type traits
 MARK_REF_T(::TMPro::TMP_StyleSheet*);
 DEFINE_IL2CPP_CLASS(::TMPro::TMP_StyleSheet*, "TMPro", "TMP_StyleSheet");
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.ScriptableObject
 namespace TMPro {
 // Is value type: false
@@ -80,17 +81,18 @@ protected:
   constexpr TMP_StyleSheet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_StyleSheet(TMP_StyleSheet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_StyleSheet(TMP_StyleSheet const&) = delete;
+  TMP_StyleSheet(TMP_StyleSheetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15985 };
 
+  /// [SerializeField]
   /// @brief Field m_StyleList, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* ___m_StyleList;
 

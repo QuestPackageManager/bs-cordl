@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Burst\FunctionPointer_1.hpp"
+// IWYU pragma private; include "Unity/Burst/FunctionPointer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ template <typename T> struct FunctionPointer_1;
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Burst::FunctionPointer_1);
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Burst::FunctionPointer_1, "Unity.Burst", "FunctionPointer`1");
+// [IsReadOnly]
 // Dependencies System.IntPtr
 namespace Unity::Burst {
 // cpp template
@@ -37,6 +38,7 @@ public:
   /// @brief Convert operator to "::Unity::Burst::IFunctionPointer"
   constexpr operator ::Unity::Burst::IFunctionPointer*();
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckIsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckIsCreated();
 
@@ -62,7 +64,7 @@ public:
   // @brief default ctor
   constexpr FunctionPointer_1();
 
-  // Ctor Parameters [CppParam { name: "_ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_ptr", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }]
   constexpr FunctionPointer_1(::System::IntPtr _ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -71,6 +73,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field _ptr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr _ptr;
 

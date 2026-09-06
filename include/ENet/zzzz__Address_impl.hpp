@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\Address.hpp"
+// IWYU pragma private; include "ENet/Address.hpp"
 #include "ENet/zzzz__ENetAddress_impl.hpp"
 #include "ENet/zzzz__Address_def.hpp"
 #include "ENet/zzzz__ENetAddress_def.hpp"
@@ -147,7 +147,7 @@ inline bool ENet::Address::SetHost(::StringW hostName) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { "SetHost", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, hostName);
 }
-// Ctor Parameters [CppParam { name: "nativeAddress", ty: "::ENet::ENetAddress", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "nativeAddress", ty: "::ENet::ENetAddress", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::ENet::Address::Address(::ENet::ENetAddress nativeAddress) noexcept {
   this->nativeAddress = nativeAddress;
 }

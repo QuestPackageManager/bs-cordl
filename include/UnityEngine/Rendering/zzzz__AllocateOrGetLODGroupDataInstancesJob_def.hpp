@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AllocateOrGetLODGroupDataInstancesJob.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AllocateOrGetLODGroupDataInstancesJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ struct AllocateOrGetLODGroupDataInstancesJob;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::AllocateOrGetLODGroupDataInstancesJob);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::AllocateOrGetLODGroupDataInstancesJob, "UnityEngine.Rendering", "AllocateOrGetLODGroupDataInstancesJob");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.GPUInstanceIndex,
 // UnityEngine.Rendering.LODGroupCullingData, UnityEngine.Rendering.LODGroupData
 namespace UnityEngine::Rendering {
@@ -43,13 +44,13 @@ public:
   // @brief default ctor
   constexpr AllocateOrGetLODGroupDataInstancesJob();
 
-  // Ctor Parameters [CppParam { name: "lodGroupsID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "lodGroupsData", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: None }, CppParam { name: "lodGroupCullingData", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: None }, CppParam { name: "lodGroupDataHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None }, CppParam { name: "freeLODGroupDataHandles", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None }, CppParam { name: "lodGroupInstances", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None }, CppParam { name: "previousRendererCount", ty: "int32_t*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "lodGroupsID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodGroupsData", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodGroupCullingData", ty:
+  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodGroupDataHash", ty:
+  // "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None, comment: None }, CppParam { name: "freeLODGroupDataHandles",
+  // ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None, comment: None }, CppParam { name: "lodGroupInstances", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None, comment: None }, CppParam { name: "previousRendererCount", ty: "int32_t*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr AllocateOrGetLODGroupDataInstancesJob(::Unity::Collections::NativeArray_1<int32_t> lodGroupsID, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData> lodGroupsData,
                                                   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> lodGroupCullingData,
                                                   ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataHash,
@@ -62,6 +63,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
+  /// [ReadOnly]
   /// @brief Field lodGroupsID, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> lodGroupsID;
 
@@ -77,9 +79,11 @@ public:
   /// @brief Field freeLODGroupDataHandles, offset: 0x30, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex> freeLODGroupDataHandles;
 
+  /// [WriteOnly]
   /// @brief Field lodGroupInstances, offset: 0x38, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> lodGroupInstances;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field previousRendererCount, offset: 0x48, size: 0x8, def value: None
   int32_t* previousRendererCount;
 

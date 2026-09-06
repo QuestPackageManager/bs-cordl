@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteWaiting.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteWaiting.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class NoteWaiting;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NoteWaiting*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteWaiting*, "", "NoteWaiting");
+// [AddComponentMenu("Beat Saber/Gameplay/Note Waiting")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -92,23 +93,26 @@ protected:
   constexpr NoteWaiting();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteWaiting", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteWaiting", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteWaiting(NoteWaiting&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteWaiting", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteWaiting", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteWaiting(NoteWaiting const&) = delete;
+  NoteWaiting(NoteWaitingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5693 };
 
+  /// [SerializeField]
   /// @brief Field _waitingPosition, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____waitingPosition;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
 

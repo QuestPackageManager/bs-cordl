@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XsdDuration.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XsdDuration.hpp"
 #include "System/Xml/Schema/zzzz__XsdDuration_def.hpp"
 #include "System/Xml/Schema/zzzz__XsdDuration_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::XsdDuration_Parts::XsdDuration_Parts(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -17,7 +17,7 @@ constexpr ::System::Xml::Schema::XsdDuration_Parts System::Xml::Schema::XsdDurat
 constexpr ::System::Xml::Schema::XsdDuration_Parts System::Xml::Schema::XsdDuration_Parts::HasHours{ static_cast<int32_t>(0x8) };
 constexpr ::System::Xml::Schema::XsdDuration_Parts System::Xml::Schema::XsdDuration_Parts::HasMinutes{ static_cast<int32_t>(0x10) };
 constexpr ::System::Xml::Schema::XsdDuration_Parts System::Xml::Schema::XsdDuration_Parts::HasSeconds{ static_cast<int32_t>(0x20) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::XsdDuration_DurationType::XsdDuration_DurationType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -437,10 +437,10 @@ inline ::StringW System::Xml::Schema::XsdDuration::TryParseDigits(::StringW s, :
                                                                                                          ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, s, offset, eatDigits, result, numDigits);
 }
-// Ctor Parameters [CppParam { name: "years", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "months", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "days", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "hours", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minutes", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "seconds", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nanoseconds", ty: "uint32_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "years", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "months", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "days", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "hours", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "minutes", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "seconds", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "nanoseconds", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::XsdDuration::XsdDuration(int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, uint32_t nanoseconds) noexcept {
   this->years = years;
   this->months = months;

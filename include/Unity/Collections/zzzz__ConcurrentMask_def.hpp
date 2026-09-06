@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\ConcurrentMask.hpp"
+// IWYU pragma private; include "Unity/Collections/ConcurrentMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/zzzz__IIndexable_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentMask)
 // Forward declare root types
@@ -13,7 +14,7 @@ class ConcurrentMask;
 // Write type traits
 MARK_REF_T(::Unity::Collections::ConcurrentMask*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::ConcurrentMask*, "Unity.Collections", "ConcurrentMask");
-// Dependencies System.Object
+// Dependencies System.Object, Unity.Collections.IIndexable`1<T>
 namespace Unity::Collections {
 // Is value type: false
 // CS Name: Unity.Collections.ConcurrentMask
@@ -41,22 +42,32 @@ public:
   static inline int32_t TryAllocate(::by_ref<int64_t> l, int32_t offset, int32_t bits);
 
   /// @brief Method TryAllocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t begin, int32_t bits);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+  static inline int32_t TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t begin, int32_t bits);
 
   /// @brief Method TryAllocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t begin, int32_t end, int32_t bits);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+  static inline int32_t TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t begin, int32_t end, int32_t bits);
 
   /// @brief Method TryAllocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t bits);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+  static inline int32_t TryAllocate(::by_ref<T> t, ::by_ref<int32_t> offset, int32_t bits);
 
   /// @brief Method TryAllocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t TryAllocate(::by_ref<T> t, int32_t offset, int32_t bits);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+  static inline int32_t TryAllocate(::by_ref<T> t, int32_t offset, int32_t bits);
 
   /// @brief Method TryFree, addr 0x64ac7ac, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t TryFree(::by_ref<int64_t> l, int32_t offset, int32_t bits);
 
   /// @brief Method TryFree, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline int32_t TryFree(::by_ref<T> t, int32_t offset, int32_t bits);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Collections::IIndexable_1<int64_t>*>)
+  static inline int32_t TryFree(::by_ref<T> t, int32_t offset, int32_t bits);
 
   /// @brief Method .ctor, addr 0x64ac8e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
@@ -76,13 +87,13 @@ protected:
   constexpr ConcurrentMask();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentMask", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentMask", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentMask(ConcurrentMask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentMask", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentMask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentMask(ConcurrentMask const&) = delete;
+  ConcurrentMask(ConcurrentMaskconst&) = delete;
 
   /// @brief Field EmptyAfterFree offset 0xffffffff size 0x4
   static constexpr int32_t EmptyAfterFree{ static_cast<int32_t>(0x0) };

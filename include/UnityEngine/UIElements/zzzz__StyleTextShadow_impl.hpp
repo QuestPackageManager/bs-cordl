@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleTextShadow.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleTextShadow.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextShadow_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleTextShadow_def.hpp"
@@ -248,8 +248,8 @@ constexpr UnityEngine::UIElements::StyleTextShadow::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>* UnityEngine::UIElements::StyleTextShadow::i___System__IEquatable_1___UnityEngine__UIElements__StyleTextShadow_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Value", ty:
-// "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Value", ty:
+// "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::StyleTextShadow::StyleTextShadow(::UnityEngine::UIElements::StyleKeyword m_Keyword, ::UnityEngine::UIElements::TextShadow m_Value) noexcept {
   this->m_Keyword = m_Keyword;
   this->m_Value = m_Value;

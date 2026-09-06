@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePass.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePass.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePass_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRenderDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePass_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BloomPrePass_Mode::BloomPrePass_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }

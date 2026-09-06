@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\FontAssetCreationSettings.hpp"
+// IWYU pragma private; include "TMPro/FontAssetCreationSettings.hpp"
 #include "TMPro/zzzz__FontAssetCreationSettings_def.hpp"
 //  Writing Method size for method: ::TMPro::FontAssetCreationSettings._ctor
 template <>
@@ -30,15 +30,17 @@ inline void TMPro::FontAssetCreationSettings::_ctor(::StringW sourceFontFileGUID
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sourceFontFileGUID, pointSize, pointSizeSamplingMode, padding, packingMode, atlasWidth, atlasHeight,
                                                    characterSelectionMode, characterSet, renderMode);
 }
-// Ctor Parameters [CppParam { name: "sourceFontFileName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "sourceFontFileGUID", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "pointSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "padding", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "paddingMode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "packingMode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "atlasWidth", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "atlasHeight", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "characterSetSelectionMode", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "characterSequence", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "referencedFontAssetGUID", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "referencedTextAssetGUID", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontStyle", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontStyleModifier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderMode", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "includeFontFeatures", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "sourceFontFileName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sourceFontFileGUID", ty: "::StringW", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pointSizeSamplingMode", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "pointSize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "padding", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "paddingMode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "packingMode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "atlasWidth", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "atlasHeight", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "characterSetSelectionMode", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "characterSequence", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "referencedFontAssetGUID", ty: "::StringW",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "referencedTextAssetGUID", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "fontStyle", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontStyleModifier", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "renderMode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "includeFontFeatures", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::TMPro::FontAssetCreationSettings::FontAssetCreationSettings(::StringW sourceFontFileName, ::StringW sourceFontFileGUID, int32_t faceIndex, int32_t pointSizeSamplingMode, int32_t pointSize,
                                                                         int32_t padding, int32_t paddingMode, int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight,
                                                                         int32_t characterSetSelectionMode, ::StringW characterSequence, ::StringW referencedFontAssetGUID,

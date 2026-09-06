@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BufferResource.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BufferResource.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferDesc_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphResource_2_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferResource_def.hpp"

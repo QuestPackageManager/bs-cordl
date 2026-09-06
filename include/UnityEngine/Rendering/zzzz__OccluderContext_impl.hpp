@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OccluderContext.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OccluderContext.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OccluderDepthPyramidConstants_impl.hpp"
@@ -249,7 +249,7 @@ inline void UnityEngine::Rendering::OccluderContext::AllocateTexturesIfNecessary
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, debugOverlayEnabled);
 }
 inline void UnityEngine::Rendering::OccluderContext::SetKeyword(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs,
-                                                                ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
                                                            { "SetKeyword",
@@ -269,9 +269,10 @@ UnityEngine::Rendering::OccluderContext::SetupFarDepthPyramidConstants(::System:
                                                                                                          ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::OccluderDepthPyramidConstants>(*this, ___internal_method, occluderSubviewUpdates, silhouettePlanes);
 }
-inline void UnityEngine::Rendering::OccluderContext::CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+inline void UnityEngine::Rendering::OccluderContext::CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                                                            ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
-                                                                           ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles,
                                                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> silhouettePlanes,
                                                                            ::UnityEngine::ComputeShader* occluderDepthPyramidCS, int32_t occluderDepthDownscaleKernel) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +291,7 @@ inline ::UnityEngine::Rendering::OccluderHandles UnityEngine::Rendering::Occlude
                                                                                          { "Import", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::OccluderHandles>(*this, ___internal_method, renderGraph);
 }
-inline void UnityEngine::Rendering::OccluderContext::PrepareOccluders(::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams) {
+inline void UnityEngine::Rendering::OccluderContext::PrepareOccluders(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
                                                                                          { "PrepareOccluders", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, occluderParams);
@@ -307,15 +308,16 @@ constexpr UnityEngine::Rendering::OccluderContext::operator ::System::IDisposabl
 constexpr ::System::IDisposable* UnityEngine::Rendering::OccluderContext::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "depthBufferSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "subviewData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDerivedData>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "subviewValidMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "occluderMipBounds", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderMipBounds>", modifiers: "", def_value: Some("{}") }, CppParam { name: "occluderMipLayoutSize", ty:
-// "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "occluderDepthPyramidSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}") }, CppParam { name: "occlusionDebugOverlaySize", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "occlusionDebugOverlay", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "debugNeedsClear", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "constantBuffer", ty: "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "constantBufferData", ty:
-// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDepthPyramidConstants>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "depthBufferSize", ty: "::UnityEngine::Vector2Int", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "subviewData", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDerivedData>", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "subviewValidMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occluderMipBounds", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderMipBounds>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occluderMipLayoutSize", ty:
+// "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occluderDepthPyramidSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "occluderDepthPyramid", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "occlusionDebugOverlaySize", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "occlusionDebugOverlay", ty: "::UnityEngine::GraphicsBuffer*", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "debugNeedsClear", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "constantBuffer", ty:
+// "::UnityEngine::ComputeBuffer*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "constantBufferData", ty:
+// "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDepthPyramidConstants>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OccluderContext::OccluderContext(int32_t version, ::UnityEngine::Vector2Int depthBufferSize,
                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDerivedData> subviewData, int32_t subviewValidMask,
                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderMipBounds> occluderMipBounds,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutManager.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,9 @@ namespace System {
 class Object;
 }
 namespace System {
-template <typename T> class WeakReference_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class WeakReference_1;
 }
 namespace Unity::Collections {
 struct Allocator;
@@ -54,7 +56,9 @@ namespace UnityEngine::UIElements::Layout {
 struct LayoutNode;
 }
 namespace UnityEngine::UIElements::Layout {
-template <typename T> class ManagedObjectStore_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ManagedObjectStore_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -71,6 +75,7 @@ MARK_REF_T(::UnityEngine::UIElements::Layout::LayoutManager*);
 MARK_REF_T(::UnityEngine::UIElements::Layout::LayoutManager___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutManager*, "UnityEngine.UIElements.Layout", "LayoutManager");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::Layout::LayoutManager___c*, "UnityEngine.UIElements.Layout", "LayoutManager/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::Layout {
 // Is value type: false
@@ -106,13 +111,13 @@ protected:
   constexpr LayoutManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutManager___c(LayoutManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutManager___c(LayoutManager___c const&) = delete;
+  LayoutManager___c(LayoutManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5394 };
@@ -331,13 +336,13 @@ protected:
   constexpr LayoutManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutManager(LayoutManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutManager(LayoutManager const&) = delete;
+  LayoutManager(LayoutManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5395 };

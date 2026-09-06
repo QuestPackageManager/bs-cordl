@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\FSharpUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/FSharpUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__FSharpUtils_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
@@ -108,7 +108,8 @@ inline void Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::_cto
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::_CreateFSharpFuncCall_b__0(::System::Object* target, ::ArrayW<::System::Object*> args) {
+inline ::System::Object* Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0::_CreateFSharpFuncCall_b__0(/* [Nullable(2)] */ ::System::Object* target,
+                                                                                                                    /* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0*>(),
                                                            { "<CreateFSharpFuncCall>b__0", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -143,7 +144,7 @@ template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilitie
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>
-inline ::System::Object* Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>::_BuildMapCreator_b__0(::ArrayW<::System::Object*> args) {
+inline ::System::Object* Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>::_BuildMapCreator_b__0(/* [Nullable(new[] { 1, 2 })] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass55_0_2<TKey, TValue>*>(),
                                                                                          { "<BuildMapCreator>b__0", {}, { ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, args);
@@ -724,7 +725,7 @@ inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_IsUnion", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::FSharpUtils::set_IsUnion(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+inline void Newtonsoft::Json::Utilities::FSharpUtils::set_IsUnion(/* [Nullable(new[] { 1, 2, 1 })] */ ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(),
                                                            { "set_IsUnion", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>() } })));
@@ -734,7 +735,7 @@ inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_GetUnionCases", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCases(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+inline void Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCases(/* [Nullable(new[] { 1, 2, 1 })] */ ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(),
                                                            { "set_GetUnionCases", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>() } })));
@@ -744,7 +745,8 @@ inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_PreComputeUnionTagReader", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionTagReader(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+inline void
+Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionTagReader(/* [Nullable(new[] { 1, 2, 1 })] */ ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(),
                                               { "set_PreComputeUnionTagReader", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>() } })));
@@ -754,7 +756,8 @@ inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_PreComputeUnionReader", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionReader(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+inline void
+Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionReader(/* [Nullable(new[] { 1, 2, 1 })] */ ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(),
                                               { "set_PreComputeUnionReader", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>() } })));
@@ -765,7 +768,8 @@ inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_PreComputeUnionConstructor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionConstructor(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+inline void
+Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionConstructor(/* [Nullable(new[] { 1, 2, 1 })] */ ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(),
                                               { "set_PreComputeUnionConstructor", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>() } })));
@@ -806,7 +810,8 @@ inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(), { "get_GetUnionCaseInfoFields", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoFields(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
+inline void
+Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoFields(/* [Nullable(new[] { 1, 1, 2 })] */ ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::FSharpUtils*>(),
                                               { "set_GetUnionCaseInfoFields", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*>() } })));

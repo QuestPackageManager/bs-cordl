@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\TickableManager.hpp"
+// IWYU pragma private; include "Zenject/TickableManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__TickableManager_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
@@ -1147,6 +1147,7 @@ inline ::Zenject::InjectTypeInfo* Zenject::TickableManager::__zenCreateInjectTyp
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TickableManager*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
+/// @brief [Inject]
 inline ::Zenject::TickableManager* Zenject::TickableManager::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::TickableManager*>());
 }

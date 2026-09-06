@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SortingSettings.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SortingSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,10 +66,10 @@ public:
   // @brief default ctor
   constexpr SortingSettings();
 
-  // Ctor Parameters [CppParam { name: "m_WorldToCameraMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3",
-  // modifiers: "", def_value: None }, CppParam { name: "m_CustomAxis", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Criteria", ty:
-  // "::UnityEngine::Rendering::SortingCriteria", modifiers: "", def_value: None }, CppParam { name: "m_DistanceMetric", ty: "::UnityEngine::Rendering::DistanceMetric", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "m_WorldToCameraMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CameraPosition", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CustomAxis", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "m_Criteria", ty: "::UnityEngine::Rendering::SortingCriteria", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_DistanceMetric", ty:
+  // "::UnityEngine::Rendering::DistanceMetric", modifiers: "", def_value: None, comment: None }]
   constexpr SortingSettings(::UnityEngine::Matrix4x4 m_WorldToCameraMatrix, ::UnityEngine::Vector3 m_CameraPosition, ::UnityEngine::Vector3 m_CustomAxis,
                             ::UnityEngine::Rendering::SortingCriteria m_Criteria, ::UnityEngine::Rendering::DistanceMetric m_DistanceMetric) noexcept;
 

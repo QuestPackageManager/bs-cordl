@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Formatting.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Formatting.hpp"
 #include "Newtonsoft/Json/zzzz__Formatting_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Newtonsoft::Json::Formatting::Formatting(int32_t value__) noexcept {
   this->value__ = value__;
 }

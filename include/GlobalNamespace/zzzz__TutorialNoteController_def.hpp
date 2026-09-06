@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TutorialNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/TutorialNoteController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +76,13 @@ protected:
   constexpr TutorialNoteController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteController_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteController_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialNoteController_Pool(TutorialNoteController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteController_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteController_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialNoteController_Pool(TutorialNoteController_Pool const&) = delete;
+  TutorialNoteController_Pool(TutorialNoteController_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5696 };
@@ -143,7 +143,7 @@ public:
   inline void HiddenStateDidChange(bool hide);
 
   /// @brief Method Init, addr 0x58d8d9c, size 0x98, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t cutAngleTolerance, float_t uniformScale);
+  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t cutAngleTolerance, float_t uniformScale);
 
   static inline ::GlobalNamespace::TutorialNoteController* New_ctor();
 
@@ -210,23 +210,26 @@ protected:
   constexpr TutorialNoteController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialNoteController(TutorialNoteController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TutorialNoteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TutorialNoteController(TutorialNoteController const&) = delete;
+  TutorialNoteController(TutorialNoteControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5697 };
 
+  /// [SerializeField]
   /// @brief Field _cuttableBySaberCore, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____cuttableBySaberCore;
 
+  /// [SerializeField]
   /// @brief Field _cuttableBySaberBeforeNote, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____cuttableBySaberBeforeNote;
 
+  /// [SerializeField]
   /// @brief Field _wrapperGO, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____wrapperGO;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\SortingGroup.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/SortingGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ class SortingGroup;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::SortingGroup*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::SortingGroup*, "UnityEngine.Rendering", "SortingGroup");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeType(Header = "Runtime/2D/Sorting/SortingGroup.h")]
 // Dependencies UnityEngine.Behaviour
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -43,6 +45,7 @@ public:
 
   __declspec(property(get = get_sortingOrder, put = set_sortingOrder)) int32_t sortingOrder;
 
+  /// [StaticAccessor("SortingGroup", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method GetSortingGroupByIndex, addr 0x6b07cfc, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::SortingGroup> GetSortingGroupByIndex(int32_t index);
 
@@ -51,6 +54,7 @@ public:
 
   static inline ::UnityEngine::Rendering::SortingGroup* New_ctor();
 
+  /// [StaticAccessor("SortingGroup", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// @brief Method UpdateAllSortingGroups, addr 0x6b07cd4, size 0x28, virtual false, abstract: false, final false
   static inline void UpdateAllSortingGroups();
 
@@ -138,13 +142,13 @@ protected:
   constexpr SortingGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SortingGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortingGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortingGroup(SortingGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SortingGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SortingGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SortingGroup(SortingGroup const&) = delete;
+  SortingGroup(SortingGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10698 };

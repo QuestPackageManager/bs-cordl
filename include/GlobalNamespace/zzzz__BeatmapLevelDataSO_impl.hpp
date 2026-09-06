@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelDataSO.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
@@ -1013,13 +1013,13 @@ inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::BeatmapLe
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "GetAudioDataStringAsync", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::BeatmapLevelDataSO::GetBeatmapStringAsync(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::BeatmapLevelDataSO::GetBeatmapStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "GetBeatmapStringAsync", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*>(this, ___internal_method, beatmapKey);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::BeatmapLevelDataSO::GetLightshowStringAsync(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::BeatmapLevelDataSO::GetLightshowStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "GetLightshowStringAsync", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
@@ -1029,17 +1029,17 @@ inline ::StringW GlobalNamespace::BeatmapLevelDataSO::GetAudioDataString() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "GetAudioDataString", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::BeatmapLevelDataSO::GetBeatmapString(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::StringW GlobalNamespace::BeatmapLevelDataSO::GetBeatmapString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "GetBeatmapString", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, beatmapKey);
 }
-inline ::StringW GlobalNamespace::BeatmapLevelDataSO::GetLightshowString(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::StringW GlobalNamespace::BeatmapLevelDataSO::GetLightshowString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "GetLightshowString", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, beatmapKey);
 }
-inline bool GlobalNamespace::BeatmapLevelDataSO::ContainsBeatmapData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline bool GlobalNamespace::BeatmapLevelDataSO::ContainsBeatmapData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "ContainsBeatmapData", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
@@ -1079,30 +1079,32 @@ inline ::StringW GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_get_name
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "IBeatmapLevelData.get_name", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_GetBeatmapStringAsync(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::System::Threading::Tasks::Task_1<::StringW>*
+GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_GetBeatmapStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(),
                                                            { "IBeatmapLevelData.GetBeatmapStringAsync", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*>(this, ___internal_method, beatmapKey);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_GetLightshowStringAsync(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::System::Threading::Tasks::Task_1<::StringW>*
+GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_GetLightshowStringAsync(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(),
                                                            { "IBeatmapLevelData.GetLightshowStringAsync", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*>(this, ___internal_method, beatmapKey);
 }
-inline ::StringW GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_GetBeatmapString(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::StringW GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_GetBeatmapString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(),
                                                                                          { "IBeatmapLevelData.GetBeatmapString", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, beatmapKey);
 }
-inline ::StringW GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_GetLightshowString(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::StringW GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_GetLightshowString(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "IBeatmapLevelData.GetLightshowString", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, beatmapKey);
 }
-inline bool GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_ContainsBeatmapData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline bool GlobalNamespace::BeatmapLevelDataSO::IBeatmapLevelData_ContainsBeatmapData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataSO*>(), { "IBeatmapLevelData.ContainsBeatmapData", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));

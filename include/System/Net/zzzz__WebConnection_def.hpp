@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\WebConnection.hpp"
+// IWYU pragma private; include "System/Net/WebConnection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,6 +130,7 @@ DEFINE_IL2CPP_CLASS(::System::Net::WebConnection___c*, "System.Net", "WebConnect
 DEFINE_IL2CPP_CLASS(::System::Net::WebConnection__Connect_d__16, "System.Net", "WebConnection/<Connect>d__16");
 DEFINE_IL2CPP_CLASS(::System::Net::WebConnection__CreateStream_d__18, "System.Net", "WebConnection/<CreateStream>d__18");
 DEFINE_IL2CPP_CLASS(::System::Net::WebConnection__InitConnection_d__19, "System.Net", "WebConnection/<InitConnection>d__19");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net {
 // Is value type: false
@@ -176,13 +177,13 @@ protected:
   constexpr WebConnection___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnection___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebConnection___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebConnection___c(WebConnection___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnection___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebConnection___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebConnection___c(WebConnection___c const&) = delete;
+  WebConnection___c(WebConnection___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11639 };
@@ -193,6 +194,7 @@ public:
 static_assert(sizeof(::System::Net::WebConnection___c) == 0x10, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Net.IPAddress, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Threading.CancellationToken
 namespace System::Net {
@@ -207,6 +209,7 @@ public:
   /// @brief Method MoveNext, addr 0x63431c0, size 0x914, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x6343ad4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -217,12 +220,13 @@ public:
   // @brief default ctor
   constexpr WebConnection__Connect_d__16();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "", def_value: None
-  // }, CppParam { name: "operation", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-  // modifiers: "", def_value: None }, CppParam { name: "_connectException_5__2", ty: "::System::Exception*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty:
-  // "::ArrayW<::System::Net::IPAddress*>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "operation", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "_connectException_5__2", ty: "::System::Exception*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__7__wrap2", ty: "::ArrayW<::System::Net::IPAddress*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__7__wrap3", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr WebConnection__Connect_d__16(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebConnection* __4__this,
                                          ::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken, ::System::Exception* _connectException_5__2,
                                          ::ArrayW<::System::Net::IPAddress*> __7__wrap2, int32_t __7__wrap3,
@@ -285,6 +289,7 @@ static_assert(offsetof(::System::Net::WebConnection__Connect_d__16, __u__1) == 0
 static_assert(sizeof(::System::Net::WebConnection__Connect_d__16) == 0x60, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace System::Net {
@@ -299,6 +304,7 @@ public:
   /// @brief Method MoveNext, addr 0x6343b40, size 0x6ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x634422c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -309,13 +315,13 @@ public:
   // @brief default ctor
   constexpr WebConnection__CreateStream_d__18();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "",
-  // def_value: None }, CppParam { name: "operation", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "reused", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_stream_5__2", ty:
-  // "::System::Net::Sockets::NetworkStream*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "operation", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None, comment: None }, CppParam { name: "reused", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_stream_5__2", ty: "::System::Net::Sockets::NetworkStream*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: None, comment: None }]
   constexpr WebConnection__CreateStream_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::System::Net::WebConnection* __4__this,
                                               ::System::Net::WebOperation* operation, bool reused, ::System::Threading::CancellationToken cancellationToken,
                                               ::System::Net::Sockets::NetworkStream* _stream_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
@@ -378,6 +384,7 @@ static_assert(offsetof(::System::Net::WebConnection__CreateStream_d__18, __u__2)
 static_assert(sizeof(::System::Net::WebConnection__CreateStream_d__18) == 0x68, "Size mismatch!");
 
 } // namespace System::Net
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace System::Net {
@@ -392,6 +399,7 @@ public:
   /// @brief Method MoveNext, addr 0x63442ac, size 0x5b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x6344a68, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -402,12 +410,12 @@ public:
   // @brief default ctor
   constexpr WebConnection__InitConnection_d__19();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::WebRequestStream*>", modifiers: "", def_value: None }, CppParam { name: "operation", ty:
-  // "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam {
-  // name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "", def_value: None }, CppParam { name: "_reused_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1",
-  // ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::WebRequestStream*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "operation", ty:
+  // "::System::Net::WebOperation*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_reused_5__2", ty: "bool", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr WebConnection__InitConnection_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::WebRequestStream*> __t__builder,
                                                 ::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken, ::System::Net::WebConnection* __4__this,
                                                 bool _reused_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
@@ -543,12 +551,14 @@ public:
   /// @brief Method CloseSocket, addr 0x6342cbc, size 0x298, virtual false, abstract: false, final false
   inline void CloseSocket();
 
+  /// [AsyncStateMachine(typeof(System.Net.WebConnection::<Connect>d__16))]
   /// @brief Method Connect, addr 0x6342200, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Connect(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Continue, addr 0x633f5a8, size 0x164, virtual false, abstract: false, final false
   inline bool Continue(::System::Net::WebOperation* next);
 
+  /// [AsyncStateMachine(typeof(System.Net.WebConnection::<CreateStream>d__18))]
   /// @brief Method CreateStream, addr 0x63422cc, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CreateStream(::System::Net::WebOperation* operation, bool reused, ::System::Threading::CancellationToken cancellationToken);
 
@@ -561,6 +571,7 @@ public:
   /// @brief Method GetException, addr 0x63424d4, size 0x1e0, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* GetException(::System::Net::WebExceptionStatus status, ::System::Exception* error);
 
+  /// [AsyncStateMachine(typeof(System.Net.WebConnection::<InitConnection>d__19))]
   /// @brief Method InitConnection, addr 0x63423dc, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* InitConnection(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
@@ -662,6 +673,7 @@ public:
   /// @brief Method get_NtlmCredential, addr 0x6342fa8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::NetworkCredential* get_NtlmCredential();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ServicePoint, addr 0x6342130, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
@@ -686,13 +698,13 @@ protected:
   constexpr WebConnection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebConnection(WebConnection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebConnection(WebConnection const&) = delete;
+  WebConnection(WebConnectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11643 };
@@ -721,6 +733,7 @@ public:
   /// @brief Field disposed, offset: 0x40, size: 0x4, def value: None
   int32_t ___disposed;
 
+  /// [CompilerGenerated]
   /// @brief Field <ServicePoint>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::System::Net::ServicePoint* ____ServicePoint_k__BackingField;
 

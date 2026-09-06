@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextSelectingUtilities.hpp"
+// IWYU pragma private; include "UnityEngine/TextSelectingUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TextEditor_impl.hpp"
 #include "UnityEngine/zzzz__TextSelectingUtilities_def.hpp"
@@ -12,7 +12,7 @@
 #include "UnityEngine/zzzz__TextSelectOp_def.hpp"
 #include "UnityEngine/zzzz__TextSelectingUtilities_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextSelectingUtilities_CharacterType::TextSelectingUtilities_CharacterType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -23,7 +23,7 @@ constexpr ::UnityEngine::TextSelectingUtilities_CharacterType UnityEngine::TextS
 constexpr ::UnityEngine::TextSelectingUtilities_CharacterType UnityEngine::TextSelectingUtilities_CharacterType::Symbol2{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextSelectingUtilities_CharacterType UnityEngine::TextSelectingUtilities_CharacterType::WhiteSpace{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::TextSelectingUtilities_CharacterType UnityEngine::TextSelectingUtilities_CharacterType::NewLine{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextSelectingUtilities_Direction::TextSelectingUtilities_Direction(int32_t value__) noexcept {
   this->value__ = value__;
 }

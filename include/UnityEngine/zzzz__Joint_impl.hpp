@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Joint.hpp"
+// IWYU pragma private; include "UnityEngine/Joint.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Joint_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

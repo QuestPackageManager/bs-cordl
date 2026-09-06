@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject/ConditionCopyNonLazyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::ConditionCopyNonLazyBinder___c__5_1, "Zen
 DEFINE_IL2CPP_CLASS(::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass2_0*, "Zenject", "ConditionCopyNonLazyBinder/<>c__DisplayClass2_0");
 DEFINE_IL2CPP_CLASS(::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_0*, "Zenject", "ConditionCopyNonLazyBinder/<>c__DisplayClass3_0");
 DEFINE_IL2CPP_CLASS(::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_1*, "Zenject", "ConditionCopyNonLazyBinder/<>c__DisplayClass3_1");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -99,6 +100,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -119,13 +121,13 @@ protected:
   constexpr ConditionCopyNonLazyBinder___c__4_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__4_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__4_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionCopyNonLazyBinder___c__4_1(ConditionCopyNonLazyBinder___c__4_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__4_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__4_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionCopyNonLazyBinder___c__4_1(ConditionCopyNonLazyBinder___c__4_1 const&) = delete;
+  ConditionCopyNonLazyBinder___c__4_1(ConditionCopyNonLazyBinder___c__4_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14029 };
@@ -134,6 +136,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // cpp template
@@ -157,6 +160,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -177,13 +181,13 @@ protected:
   constexpr ConditionCopyNonLazyBinder___c__5_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__5_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__5_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionCopyNonLazyBinder___c__5_1(ConditionCopyNonLazyBinder___c__5_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__5_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__5_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionCopyNonLazyBinder___c__5_1(ConditionCopyNonLazyBinder___c__5_1 const&) = delete;
+  ConditionCopyNonLazyBinder___c__5_1(ConditionCopyNonLazyBinder___c__5_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14030 };
@@ -192,6 +196,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -216,6 +221,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e4b19c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4b1e0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -228,13 +234,13 @@ protected:
   constexpr ConditionCopyNonLazyBinder___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionCopyNonLazyBinder___c__DisplayClass2_0(ConditionCopyNonLazyBinder___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionCopyNonLazyBinder___c__DisplayClass2_0(ConditionCopyNonLazyBinder___c__DisplayClass2_0 const&) = delete;
+  ConditionCopyNonLazyBinder___c__DisplayClass2_0(ConditionCopyNonLazyBinder___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14031 };
@@ -250,6 +256,7 @@ static_assert(offsetof(::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass2_
 static_assert(sizeof(::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass2_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object, System.Type
 namespace Zenject {
 // Is value type: false
@@ -274,6 +281,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e4b474, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4b4b8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -286,13 +294,13 @@ protected:
   constexpr ConditionCopyNonLazyBinder___c__DisplayClass3_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass3_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionCopyNonLazyBinder___c__DisplayClass3_0(ConditionCopyNonLazyBinder___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass3_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionCopyNonLazyBinder___c__DisplayClass3_0(ConditionCopyNonLazyBinder___c__DisplayClass3_0 const&) = delete;
+  ConditionCopyNonLazyBinder___c__DisplayClass3_0(ConditionCopyNonLazyBinder___c__DisplayClass3_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14032 };
@@ -308,6 +316,7 @@ static_assert(offsetof(::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_
 static_assert(sizeof(::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_0) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -332,6 +341,7 @@ public:
   /// @brief Method __zenCreate, addr 0x6e4b700, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e4b744, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -344,13 +354,13 @@ protected:
   constexpr ConditionCopyNonLazyBinder___c__DisplayClass3_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass3_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass3_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionCopyNonLazyBinder___c__DisplayClass3_1(ConditionCopyNonLazyBinder___c__DisplayClass3_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass3_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder___c__DisplayClass3_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionCopyNonLazyBinder___c__DisplayClass3_1(ConditionCopyNonLazyBinder___c__DisplayClass3_1 const&) = delete;
+  ConditionCopyNonLazyBinder___c__DisplayClass3_1(ConditionCopyNonLazyBinder___c__DisplayClass3_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14033 };
@@ -366,6 +376,7 @@ static_assert(offsetof(::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_
 static_assert(sizeof(::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_1) == 0x18, "Size mismatch!");
 
 } // namespace Zenject
+// [NoReflectionBaking]
 // Dependencies Zenject.CopyNonLazyBinder
 namespace Zenject {
 // Is value type: false
@@ -392,7 +403,7 @@ public:
   template <typename T> inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto();
 
   /// @brief Method WhenInjectedInto, addr 0x6e4b0b4, size 0xc4, virtual false, abstract: false, final false
-  inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto(::ArrayW<::System::Type*> targets);
+  inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto(/* [ParamArray] */ ::ArrayW<::System::Type*> targets);
 
   /// @brief Method WhenInjectedIntoInstance, addr 0x6e4afec, size 0xc4, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::System::Object* instance);
@@ -409,13 +420,13 @@ protected:
   constexpr ConditionCopyNonLazyBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionCopyNonLazyBinder(ConditionCopyNonLazyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionCopyNonLazyBinder(ConditionCopyNonLazyBinder const&) = delete;
+  ConditionCopyNonLazyBinder(ConditionCopyNonLazyBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14034 };

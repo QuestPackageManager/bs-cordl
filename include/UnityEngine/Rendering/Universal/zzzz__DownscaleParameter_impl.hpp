@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DownscaleParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DownscaleParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__BloomDownscaleMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DownscaleParameter_def.hpp"

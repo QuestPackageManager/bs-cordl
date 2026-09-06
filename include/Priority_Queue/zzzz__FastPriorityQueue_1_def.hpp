@@ -1,21 +1,28 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue\FastPriorityQueue_1.hpp"
+// IWYU pragma private; include "Priority_Queue/FastPriorityQueue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Priority_Queue/zzzz__FastPriorityQueueNode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FastPriorityQueue_1)
 namespace Priority_Queue {
-template <typename T> class FastPriorityQueue_1__GetEnumerator_d__22;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::FastPriorityQueueNode*>)
+class FastPriorityQueue_1__GetEnumerator_d__22;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class IFixedSizePriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename TItem, typename TPriority>
+  requires(::cordl_internals::type_constraint<TPriority, ::System::IComparable_1<TPriority>*>)
+class IPriorityQueue_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -37,20 +44,26 @@ class Object;
 }
 // Forward declare root types
 namespace Priority_Queue {
-template <typename T> class FastPriorityQueue_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::FastPriorityQueueNode*>)
+class FastPriorityQueue_1;
 }
 namespace Priority_Queue {
-template <typename T> class FastPriorityQueue_1__GetEnumerator_d__22;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::FastPriorityQueueNode*>)
+class FastPriorityQueue_1__GetEnumerator_d__22;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Priority_Queue::FastPriorityQueue_1);
 MARK_GEN_REF_T_PTR(::Priority_Queue::FastPriorityQueue_1__GetEnumerator_d__22);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::FastPriorityQueue_1, "Priority_Queue", "FastPriorityQueue`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Priority_Queue::FastPriorityQueue_1__GetEnumerator_d__22, "Priority_Queue", "FastPriorityQueue`1/<GetEnumerator>d__22");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies Priority_Queue.FastPriorityQueueNode, System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::FastPriorityQueueNode*>)
 // Is value type: false
 // CS Name: Priority_Queue.FastPriorityQueue`1/<GetEnumerator>d__22<T>
 class CORDL_TYPE FastPriorityQueue_1__GetEnumerator_d__22 : public ::System::Object {
@@ -84,17 +97,22 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Priority_Queue::FastPriorityQueue_1__GetEnumerator_d__22<T>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -122,6 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -140,13 +159,13 @@ protected:
   constexpr FastPriorityQueue_1__GetEnumerator_d__22();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueue_1__GetEnumerator_d__22", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueue_1__GetEnumerator_d__22", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FastPriorityQueue_1__GetEnumerator_d__22(FastPriorityQueue_1__GetEnumerator_d__22&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueue_1__GetEnumerator_d__22", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueue_1__GetEnumerator_d__22", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FastPriorityQueue_1__GetEnumerator_d__22(FastPriorityQueue_1__GetEnumerator_d__22 const&) = delete;
+  FastPriorityQueue_1__GetEnumerator_d__22(FastPriorityQueue_1__GetEnumerator_d__22const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20485 };
@@ -157,6 +176,7 @@ public:
   /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
   T _____2__current;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::Priority_Queue::FastPriorityQueue_1<T>* _____4__this;
 
@@ -167,10 +187,13 @@ public:
 };
 // Non member Declarations
 } // namespace Priority_Queue
-// Dependencies System.Object
+// [NullableContext(1)]
+// [Nullable(0)]
+// Dependencies Priority_Queue.FastPriorityQueueNode, System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Priority_Queue::FastPriorityQueueNode*>)
 // Is value type: false
 // CS Name: Priority_Queue.FastPriorityQueue`1<T>
 class CORDL_TYPE FastPriorityQueue_1 : public ::System::Object {
@@ -220,6 +243,7 @@ public:
   /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Enqueue(T node, float_t priority);
 
+  /// [IteratorStateMachine(typeof(Priority_Queue.FastPriorityQueue`1::<GetEnumerator>d__22<T>))]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
@@ -294,13 +318,13 @@ protected:
   constexpr FastPriorityQueue_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueue_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueue_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FastPriorityQueue_1(FastPriorityQueue_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueue_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueue_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FastPriorityQueue_1(FastPriorityQueue_1 const&) = delete;
+  FastPriorityQueue_1(FastPriorityQueue_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20486 };

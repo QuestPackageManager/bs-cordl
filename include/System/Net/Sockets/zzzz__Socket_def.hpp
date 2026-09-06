@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Sockets\Socket.hpp"
+// IWYU pragma private; include "System/Net/Sockets/Socket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -336,13 +336,13 @@ protected:
   constexpr Socket_CachedEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket_CachedEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket_CachedEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket_CachedEventArgs(Socket_CachedEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket_CachedEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket_CachedEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket_CachedEventArgs(Socket_CachedEventArgs const&) = delete;
+  Socket_CachedEventArgs(Socket_CachedEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11749 };
@@ -419,13 +419,13 @@ protected:
   constexpr Socket_TaskSocketAsyncEventArgs_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket_TaskSocketAsyncEventArgs_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket_TaskSocketAsyncEventArgs_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket_TaskSocketAsyncEventArgs_1(Socket_TaskSocketAsyncEventArgs_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket_TaskSocketAsyncEventArgs_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket_TaskSocketAsyncEventArgs_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket_TaskSocketAsyncEventArgs_1(Socket_TaskSocketAsyncEventArgs_1 const&) = delete;
+  Socket_TaskSocketAsyncEventArgs_1(Socket_TaskSocketAsyncEventArgs_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11750 };
@@ -467,13 +467,13 @@ protected:
   constexpr Socket_Int32TaskSocketAsyncEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket_Int32TaskSocketAsyncEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket_Int32TaskSocketAsyncEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket_Int32TaskSocketAsyncEventArgs(Socket_Int32TaskSocketAsyncEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket_Int32TaskSocketAsyncEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket_Int32TaskSocketAsyncEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket_Int32TaskSocketAsyncEventArgs(Socket_Int32TaskSocketAsyncEventArgs const&) = delete;
+  Socket_Int32TaskSocketAsyncEventArgs(Socket_Int32TaskSocketAsyncEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11751 };
@@ -489,6 +489,7 @@ static_assert(offsetof(::System::Net::Sockets::Socket_Int32TaskSocketAsyncEventA
 static_assert(sizeof(::System::Net::Sockets::Socket_Int32TaskSocketAsyncEventArgs) == 0xd8, "Size mismatch!");
 
 } // namespace System::Net::Sockets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
@@ -540,13 +541,13 @@ protected:
   constexpr AwaitableSocketAsyncEventArgs_Socket___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AwaitableSocketAsyncEventArgs_Socket___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AwaitableSocketAsyncEventArgs_Socket___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AwaitableSocketAsyncEventArgs_Socket___c(AwaitableSocketAsyncEventArgs_Socket___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AwaitableSocketAsyncEventArgs_Socket___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AwaitableSocketAsyncEventArgs_Socket___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AwaitableSocketAsyncEventArgs_Socket___c(AwaitableSocketAsyncEventArgs_Socket___c const&) = delete;
+  AwaitableSocketAsyncEventArgs_Socket___c(AwaitableSocketAsyncEventArgs_Socket___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11752 };
@@ -682,6 +683,7 @@ public:
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_completedSentinel();
 
+  /// [CompilerGenerated]
   /// @brief Method get_WrapExceptionsInIOExceptions, addr 0x63653e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_WrapExceptionsInIOExceptions();
 
@@ -697,6 +699,7 @@ public:
 
   static inline void setStaticF_s_completedSentinel(::System::Action_1<::System::Object*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_WrapExceptionsInIOExceptions, addr 0x63653ec, size 0x8, virtual false, abstract: false, final false
   inline void set_WrapExceptionsInIOExceptions(bool value);
 
@@ -706,13 +709,13 @@ protected:
   constexpr Socket_AwaitableSocketAsyncEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket_AwaitableSocketAsyncEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket_AwaitableSocketAsyncEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket_AwaitableSocketAsyncEventArgs(Socket_AwaitableSocketAsyncEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket_AwaitableSocketAsyncEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket_AwaitableSocketAsyncEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket_AwaitableSocketAsyncEventArgs(Socket_AwaitableSocketAsyncEventArgs const&) = delete;
+  Socket_AwaitableSocketAsyncEventArgs(Socket_AwaitableSocketAsyncEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11753 };
@@ -729,6 +732,7 @@ public:
   /// @brief Field _token, offset: 0xd0, size: 0x2, def value: None
   int16_t ____token;
 
+  /// [CompilerGenerated]
   /// @brief Field <WrapExceptionsInIOExceptions>k__BackingField, offset: 0xd2, size: 0x1, def value: None
   bool ____WrapExceptionsInIOExceptions_k__BackingField;
 
@@ -759,7 +763,8 @@ public:
   // @brief default ctor
   constexpr Socket_WSABUF();
 
-  // Ctor Parameters [CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "buf", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "buf", ty: "::System::IntPtr", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr Socket_WSABUF(int32_t len, ::System::IntPtr buf) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -784,6 +789,7 @@ static_assert(offsetof(::System::Net::Sockets::Socket_WSABUF, buf) == 0x8, "Offs
 static_assert(sizeof(::System::Net::Sockets::Socket_WSABUF) == 0x10, "Size mismatch!");
 
 } // namespace System::Net::Sockets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
@@ -973,13 +979,13 @@ protected:
   constexpr Socket___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket___c(Socket___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c(Socket___c const&) = delete;
+  Socket___c(Socket___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11755 };
@@ -990,6 +996,7 @@ public:
 static_assert(sizeof(::System::Net::Sockets::Socket___c) == 0x10, "Size mismatch!");
 
 } // namespace System::Net::Sockets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
@@ -1020,13 +1027,13 @@ protected:
   constexpr Socket___c__DisplayClass240_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass240_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass240_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket___c__DisplayClass240_0(Socket___c__DisplayClass240_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass240_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass240_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c__DisplayClass240_0(Socket___c__DisplayClass240_0 const&) = delete;
+  Socket___c__DisplayClass240_0(Socket___c__DisplayClass240_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11756 };
@@ -1042,6 +1049,7 @@ static_assert(offsetof(::System::Net::Sockets::Socket___c__DisplayClass240_0, __
 static_assert(sizeof(::System::Net::Sockets::Socket___c__DisplayClass240_0) == 0x18, "Size mismatch!");
 
 } // namespace System::Net::Sockets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
@@ -1072,13 +1080,13 @@ protected:
   constexpr Socket___c__DisplayClass298_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass298_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass298_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket___c__DisplayClass298_0(Socket___c__DisplayClass298_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass298_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass298_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c__DisplayClass298_0(Socket___c__DisplayClass298_0 const&) = delete;
+  Socket___c__DisplayClass298_0(Socket___c__DisplayClass298_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11757 };
@@ -1094,6 +1102,7 @@ static_assert(offsetof(::System::Net::Sockets::Socket___c__DisplayClass298_0, __
 static_assert(sizeof(::System::Net::Sockets::Socket___c__DisplayClass298_0) == 0x18, "Size mismatch!");
 
 } // namespace System::Net::Sockets
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
@@ -1124,13 +1133,13 @@ protected:
   constexpr Socket___c__DisplayClass311_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass311_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass311_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket___c__DisplayClass311_0(Socket___c__DisplayClass311_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass311_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass311_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c__DisplayClass311_0(Socket___c__DisplayClass311_0 const&) = delete;
+  Socket___c__DisplayClass311_0(Socket___c__DisplayClass311_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11758 };
@@ -1146,6 +1155,7 @@ static_assert(offsetof(::System::Net::Sockets::Socket___c__DisplayClass311_0, __
 static_assert(sizeof(::System::Net::Sockets::Socket___c__DisplayClass311_0) == 0x18, "Size mismatch!");
 
 } // namespace System::Net::Sockets
+// [CompilerGenerated]
 // Dependencies System.IntPtr, System.Object
 namespace System::Net::Sockets {
 // Is value type: false
@@ -1194,13 +1204,13 @@ protected:
   constexpr Socket___c__DisplayClass355_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass355_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass355_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket___c__DisplayClass355_0(Socket___c__DisplayClass355_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass355_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket___c__DisplayClass355_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket___c__DisplayClass355_0(Socket___c__DisplayClass355_0 const&) = delete;
+  Socket___c__DisplayClass355_0(Socket___c__DisplayClass355_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11759 };
@@ -1698,6 +1708,7 @@ public:
   /// @brief Method Receive, addr 0x635d8f0, size 0x60, virtual false, abstract: false, final false
   inline int32_t Receive(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* buffers, ::System::Net::Sockets::SocketFlags socketFlags);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Receive, addr 0x635d950, size 0x608, virtual false, abstract: false, final false
   inline int32_t Receive(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* buffers, ::System::Net::Sockets::SocketFlags socketFlags,
                          ::by_ref<::System::Net::Sockets::SocketError> errorCode);
@@ -1773,6 +1784,7 @@ public:
   /// @brief Method Send, addr 0x635cfe0, size 0x60, virtual false, abstract: false, final false
   inline int32_t Send(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* buffers, ::System::Net::Sockets::SocketFlags socketFlags);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Send, addr 0x635d040, size 0x658, virtual false, abstract: false, final false
   inline int32_t Send(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* buffers, ::System::Net::Sockets::SocketFlags socketFlags,
                       ::by_ref<::System::Net::Sockets::SocketError> errorCode);
@@ -2196,13 +2208,13 @@ protected:
   constexpr Socket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Socket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Socket(Socket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Socket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Socket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Socket(Socket const&) = delete;
+  Socket(Socketconst&) = delete;
 
   /// @brief Field DefaultCloseTimeout offset 0xffffffff size 0x4
   static constexpr int32_t DefaultCloseTimeout{ static_cast<int32_t>(0xffffffff) };

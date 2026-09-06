@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Tilemaps\TilemapRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/Tilemaps/TilemapRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,11 @@ class TilemapRenderer;
 // Write type traits
 MARK_REF_T(::UnityEngine::Tilemaps::TilemapRenderer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Tilemaps::TilemapRenderer*, "UnityEngine.Tilemaps", "TilemapRenderer");
+// [NativeHeader("Modules/Grid/Public/GridMarshalling.h")]
+// [NativeType(Header = "Modules/Tilemap/Public/TilemapRenderer.h")]
+// [NativeHeader("Modules/Tilemap/Public/TilemapMarshalling.h")]
+// [NativeHeader("Modules/Tilemap/TilemapRendererJobs.h")]
+// [RequireComponent(typeof(UnityEngine.Tilemaps.Tilemap))]
 // Dependencies UnityEngine.Renderer
 namespace UnityEngine::Tilemaps {
 // Is value type: false
@@ -25,13 +30,13 @@ protected:
   constexpr TilemapRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TilemapRenderer(TilemapRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TilemapRenderer(TilemapRenderer const&) = delete;
+  TilemapRenderer(TilemapRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23418 };

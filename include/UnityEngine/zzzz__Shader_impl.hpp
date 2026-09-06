@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Shader.hpp"
+// IWYU pragma private; include "UnityEngine/Shader.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -3245,23 +3245,23 @@ inline bool UnityEngine::Shader::IsKeywordEnabledFast(::UnityEngine::Rendering::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "IsKeywordEnabledFast", {}, { ::i2c::type_of<::UnityEngine::Rendering::GlobalKeyword>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, keyword);
 }
-inline void UnityEngine::Shader::EnableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Shader::EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "EnableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, keyword);
 }
-inline void UnityEngine::Shader::DisableKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline void UnityEngine::Shader::DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "DisableKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, keyword);
 }
-inline void UnityEngine::Shader::SetKeyword(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
+inline void UnityEngine::Shader::SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "SetKeyword", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, keyword, value);
 }
-inline bool UnityEngine::Shader::IsKeywordEnabled(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
+inline bool UnityEngine::Shader::IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "IsKeywordEnabled", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GlobalKeyword>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, keyword);
@@ -3868,60 +3868,60 @@ inline void UnityEngine::Shader::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::Shader::GetPropertyName(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline ::StringW UnityEngine::Shader::GetPropertyName(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyName", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline int32_t UnityEngine::Shader::GetPropertyNameId(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline int32_t UnityEngine::Shader::GetPropertyNameId(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyNameId", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline ::UnityEngine::Rendering::ShaderPropertyType UnityEngine::Shader::GetPropertyType(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline ::UnityEngine::Rendering::ShaderPropertyType UnityEngine::Shader::GetPropertyType(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyType", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ShaderPropertyType>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline ::StringW UnityEngine::Shader::GetPropertyDescription(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline ::StringW UnityEngine::Shader::GetPropertyDescription(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyDescription", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline ::UnityEngine::Rendering::ShaderPropertyFlags UnityEngine::Shader::GetPropertyFlags(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline ::UnityEngine::Rendering::ShaderPropertyFlags UnityEngine::Shader::GetPropertyFlags(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyFlags", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ShaderPropertyFlags>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline ::ArrayW<::StringW> UnityEngine::Shader::GetPropertyAttributes(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline ::ArrayW<::StringW> UnityEngine::Shader::GetPropertyAttributes(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyAttributes", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline int32_t UnityEngine::Shader::GetPropertyDefaultIntValue(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline int32_t UnityEngine::Shader::GetPropertyDefaultIntValue(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyDefaultIntValue", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline ::UnityEngine::Vector4 UnityEngine::Shader::GetPropertyDefaultValue(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline ::UnityEngine::Vector4 UnityEngine::Shader::GetPropertyDefaultValue(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyDefaultValue", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline ::UnityEngine::Rendering::TextureDimension UnityEngine::Shader::GetPropertyTextureDimension(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline ::UnityEngine::Rendering::TextureDimension UnityEngine::Shader::GetPropertyTextureDimension(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyTextureDimension", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::TextureDimension>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline ::StringW UnityEngine::Shader::GetPropertyTextureDefaultName(::UnityEngine::Shader* shader, int32_t propertyIndex) {
+inline ::StringW UnityEngine::Shader::GetPropertyTextureDefaultName(/* [NotNull] */ ::UnityEngine::Shader* shader, int32_t propertyIndex) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Shader*>(), { "GetPropertyTextureDefaultName", {}, { ::i2c::type_of<::UnityEngine::Shader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, shader, propertyIndex);
 }
-inline bool UnityEngine::Shader::FindTextureStackImpl(::UnityEngine::Shader* s, int32_t propertyIdx, ::by_ref<::StringW> stackName, ::by_ref<int32_t> layerIndex) {
+inline bool UnityEngine::Shader::FindTextureStackImpl(/* [NotNull] */ ::UnityEngine::Shader* s, int32_t propertyIdx, ::by_ref<::StringW> stackName, ::by_ref<int32_t> layerIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

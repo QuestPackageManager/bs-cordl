@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlNamespaceDefinition.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlNamespaceDefinition.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlNamespaceDefinition_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -97,7 +97,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinit
 UnityEngine::UIElements::UxmlNamespaceDefinition::i___System__IEquatable_1___UnityEngine__UIElements__UxmlNamespaceDefinition_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "resolvedNamespace", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "resolvedNamespace", ty: "::StringW", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::UxmlNamespaceDefinition::UxmlNamespaceDefinition(::StringW prefix, ::StringW resolvedNamespace) noexcept {
   this->prefix = prefix;
   this->resolvedNamespace = resolvedNamespace;

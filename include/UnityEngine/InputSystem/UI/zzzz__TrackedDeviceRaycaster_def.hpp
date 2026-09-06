@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\UI\TrackedDeviceRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/TrackedDeviceRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,15 +93,23 @@ public:
   /// @brief Method .ctor, addr 0x659b224, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UI::Graphic* graphic, ::UnityEngine::Vector3 worldHitPosition, ::UnityEngine::Vector2 screenPosition, float_t distance);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_distance, addr 0x659b364, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_graphic, addr 0x659b348, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_screenPosition, addr 0x659b35c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_screenPosition();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_worldHitPosition, addr 0x659b350, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldHitPosition();
 
@@ -109,9 +117,9 @@ public:
   // @brief default ctor
   constexpr TrackedDeviceRaycaster_RaycastHitData();
 
-  // Ctor Parameters [CppParam { name: "_graphic_k__BackingField", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None }, CppParam { name: "_worldHitPosition_k__BackingField",
-  // ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_screenPosition_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam {
-  // name: "_distance_k__BackingField", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_graphic_k__BackingField", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "_worldHitPosition_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "_screenPosition_k__BackingField", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "_distance_k__BackingField", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr TrackedDeviceRaycaster_RaycastHitData(::UnityW<::UnityEngine::UI::Graphic> _graphic_k__BackingField, ::UnityEngine::Vector3 _worldHitPosition_k__BackingField,
                                                   ::UnityEngine::Vector2 _screenPosition_k__BackingField, float_t _distance_k__BackingField) noexcept;
 
@@ -121,15 +129,19 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [CompilerGenerated]
   /// @brief Field <graphic>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> _graphic_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <worldHitPosition>k__BackingField, offset: 0x8, size: 0xc, def value: None
   ::UnityEngine::Vector3 _worldHitPosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <screenPosition>k__BackingField, offset: 0x14, size: 0x8, def value: None
   ::UnityEngine::Vector2 _screenPosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <distance>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   float_t _distance_k__BackingField;
 
@@ -147,6 +159,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_Ra
 static_assert(sizeof(::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
@@ -182,13 +195,13 @@ protected:
   constexpr TrackedDeviceRaycaster___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackedDeviceRaycaster___c(TrackedDeviceRaycaster___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackedDeviceRaycaster___c(TrackedDeviceRaycaster___c const&) = delete;
+  TrackedDeviceRaycaster___c(TrackedDeviceRaycaster___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8873 };
@@ -199,6 +212,8 @@ public:
 static_assert(sizeof(::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::UI
+// [AddComponentMenu("Event/Tracked Device Raycaster")]
+// [RequireComponent(typeof(UnityEngine.Canvas))]
 // Dependencies UnityEngine.EventSystems.BaseRaycaster, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>, UnityEngine.LayerMask
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
@@ -372,13 +387,13 @@ protected:
   constexpr TrackedDeviceRaycaster();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackedDeviceRaycaster(TrackedDeviceRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TrackedDeviceRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TrackedDeviceRaycaster(TrackedDeviceRaycaster const&) = delete;
+  TrackedDeviceRaycaster(TrackedDeviceRaycasterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8874 };
@@ -386,18 +401,27 @@ public:
   /// @brief Field m_RaycastResultsCache, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* ___m_RaycastResultsCache;
 
+  /// [FormerlySerializedAs("ignoreReversedGraphics")]
+  /// [SerializeField]
   /// @brief Field m_IgnoreReversedGraphics, offset: 0x30, size: 0x1, def value: None
   bool ___m_IgnoreReversedGraphics;
 
+  /// [FormerlySerializedAs("checkFor2DOcclusion")]
+  /// [SerializeField]
   /// @brief Field m_CheckFor2DOcclusion, offset: 0x31, size: 0x1, def value: None
   bool ___m_CheckFor2DOcclusion;
 
+  /// [FormerlySerializedAs("checkFor3DOcclusion")]
+  /// [SerializeField]
   /// @brief Field m_CheckFor3DOcclusion, offset: 0x32, size: 0x1, def value: None
   bool ___m_CheckFor3DOcclusion;
 
+  /// [Tooltip("Maximum distance (in 3D world space) that rays are traced to find a hit.")]
+  /// [SerializeField]
   /// @brief Field m_MaxDistance, offset: 0x34, size: 0x4, def value: None
   float_t ___m_MaxDistance;
 
+  /// [SerializeField]
   /// @brief Field m_BlockingMask, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_BlockingMask;
 

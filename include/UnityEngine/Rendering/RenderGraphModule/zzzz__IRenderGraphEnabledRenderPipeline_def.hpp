@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\IRenderGraphEnabledRenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/IRenderGraphEnabledRenderPipeline.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,12 +20,12 @@ public:
   // Declarations
   __declspec(property(get = get_isImmediateModeSupported)) bool isImmediateModeSupported;
 
-  /// @brief Method get_isImmediateModeSupported, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isImmediateModeSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isImmediateModeSupported();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphEnabledRenderPipeline", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphEnabledRenderPipeline", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IRenderGraphEnabledRenderPipeline(IRenderGraphEnabledRenderPipeline const&) = delete;
+  IRenderGraphEnabledRenderPipeline(IRenderGraphEnabledRenderPipelineconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12386 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\ViaHeaderValue.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/ViaHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,30 +106,38 @@ public:
   /// @brief Method .ctor, addr 0x60f0928, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Comment, addr 0x60f092c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ProtocolName, addr 0x60f093c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProtocolName();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ProtocolVersion, addr 0x60f094c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProtocolVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReceivedBy, addr 0x60f095c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceivedBy();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Comment, addr 0x60f0934, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ProtocolName, addr 0x60f0944, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ProtocolVersion, addr 0x60f0954, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_ReceivedBy, addr 0x60f0964, size 0x8, virtual false, abstract: false, final false
   inline void set_ReceivedBy(::StringW value);
 
@@ -139,26 +147,30 @@ protected:
   constexpr ViaHeaderValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ViaHeaderValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViaHeaderValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViaHeaderValue(ViaHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ViaHeaderValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ViaHeaderValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ViaHeaderValue(ViaHeaderValue const&) = delete;
+  ViaHeaderValue(ViaHeaderValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20345 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Comment>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Comment_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ProtocolName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____ProtocolName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ProtocolVersion>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____ProtocolVersion_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ReceivedBy>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____ReceivedBy_k__BackingField;
 

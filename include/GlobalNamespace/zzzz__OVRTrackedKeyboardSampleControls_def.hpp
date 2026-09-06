@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTrackedKeyboardSampleControls.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTrackedKeyboardSampleControls.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,6 +50,7 @@ MARK_REF_T(::GlobalNamespace::OVRTrackedKeyboardSampleControls*);
 MARK_REF_T(::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRTrackedKeyboardSampleControls*, "", "OVRTrackedKeyboardSampleControls");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19*, "", "OVRTrackedKeyboardSampleControls/<SetShaderCoroutine>d__19");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -88,17 +89,22 @@ public:
   /// @brief Method MoveNext, addr 0x5ee5294, size 0x168, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ee53fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ee5404, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ee543c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5ee5290, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -132,6 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_shaderName(::StringW value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5ee520c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -150,13 +157,13 @@ protected:
   constexpr OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19 const&) = delete;
+  OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7791 };
@@ -192,6 +199,8 @@ static_assert(offsetof(::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetS
 static_assert(sizeof(::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Feature((Meta.XR.Util.Feature)8)]
+// [Obsolete("The TrackedKeyboard feature has been removed as of v72. For real-time object tracking such as physical keyboards, we recommend using Trackables in MR Utility Kit.", true)]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.UI.Button
 namespace GlobalNamespace {
 // Is value type: false
@@ -254,6 +263,7 @@ public:
   /// @brief Method SetPresentationOpaque, addr 0x5ee50c4, size 0x18, virtual false, abstract: false, final false
   inline void SetPresentationOpaque();
 
+  /// [IteratorStateMachine(typeof(OVRTrackedKeyboardSampleControls::<SetShaderCoroutine>d__19))]
   /// @brief Method SetShaderCoroutine, addr 0x5ee5150, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SetShaderCoroutine(::StringW shaderName);
 
@@ -269,6 +279,7 @@ public:
   /// @brief Method Update, addr 0x5ee4e64, size 0x260, virtual false, abstract: false, final false
   inline void Update();
 
+  /// [CompilerGenerated]
   /// @brief Method <SetShaderCoroutine>b__19_0, addr 0x5ee5270, size 0x20, virtual false, abstract: false, final false
   inline bool _SetShaderCoroutine_b__19_0();
 
@@ -359,13 +370,13 @@ protected:
   constexpr OVRTrackedKeyboardSampleControls();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls const&) = delete;
+  OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControlsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7792 };

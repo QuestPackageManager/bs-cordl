@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\CurveAnimation.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/CurveAnimation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_impl.hpp"
@@ -219,6 +219,7 @@ inline ::System::Object* BGLib::UnityExtension::BezierCurves::CurveAnimation__An
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20* BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20*>(__1__state));
 }

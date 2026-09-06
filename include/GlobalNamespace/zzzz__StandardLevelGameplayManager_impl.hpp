@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelGameplayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelGameplayManager.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -58,7 +58,7 @@ inline ::GlobalNamespace::StandardLevelGameplayManager_InitData* GlobalNamespace
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelGameplayManager_InitData::StandardLevelGameplayManager_InitData() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::StandardLevelGameplayManager_GameState::StandardLevelGameplayManager_GameState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -218,6 +218,7 @@ inline ::System::Object* GlobalNamespace::StandardLevelGameplayManager__Start_d_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelGameplayManager__Start_d__27*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::StandardLevelGameplayManager__Start_d__27* GlobalNamespace::StandardLevelGameplayManager__Start_d__27::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::StandardLevelGameplayManager__Start_d__27*>(__1__state));
 }

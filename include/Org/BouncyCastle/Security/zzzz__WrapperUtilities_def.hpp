@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Security\WrapperUtilities.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Security/WrapperUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ public:
   // @brief default ctor
   constexpr WrapperUtilities_WrapAlgorithm();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr WrapperUtilities_WrapAlgorithm(int32_t value__) noexcept;
 
   /// @brief Field AESRFC3211WRAP value: I32(6)
@@ -182,13 +182,13 @@ protected:
   constexpr WrapperUtilities_BufferedCipherWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WrapperUtilities_BufferedCipherWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WrapperUtilities_BufferedCipherWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WrapperUtilities_BufferedCipherWrapper(WrapperUtilities_BufferedCipherWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WrapperUtilities_BufferedCipherWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WrapperUtilities_BufferedCipherWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WrapperUtilities_BufferedCipherWrapper(WrapperUtilities_BufferedCipherWrapper const&) = delete;
+  WrapperUtilities_BufferedCipherWrapper(WrapperUtilities_BufferedCipherWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1761 };
@@ -247,13 +247,13 @@ protected:
   constexpr WrapperUtilities();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WrapperUtilities", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WrapperUtilities", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WrapperUtilities(WrapperUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WrapperUtilities", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WrapperUtilities", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WrapperUtilities(WrapperUtilities const&) = delete;
+  WrapperUtilities(WrapperUtilitiesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1762 };

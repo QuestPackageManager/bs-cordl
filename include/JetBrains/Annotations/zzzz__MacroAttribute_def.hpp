@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\MacroAttribute.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/MacroAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class MacroAttribute;
 // Write type traits
 MARK_REF_T(::JetBrains::Annotations::MacroAttribute*);
 DEFINE_IL2CPP_CLASS(::JetBrains::Annotations::MacroAttribute*, "JetBrains.Annotations", "MacroAttribute");
+// [AttributeUsage((System.AttributeTargets)2112, AllowMultiple = true)]
 // Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
@@ -23,8 +24,10 @@ public:
   // Declarations
   __declspec(property(get = get_Editable, put = set_Editable)) int32_t Editable;
 
+  /// @brief [CanBeNull]
   __declspec(property(get = get_Expression, put = set_Expression)) ::StringW Expression;
 
+  /// @brief [CanBeNull]
   __declspec(property(get = get_Target, put = set_Target)) ::StringW Target;
 
   /// @brief Field <Editable>k__BackingField, offset 0x18, size 0x4
@@ -59,21 +62,27 @@ public:
   /// @brief Method .ctor, addr 0x6e3e064, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Editable, addr 0x6e3e044, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Editable();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Expression, addr 0x6e3e034, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Target, addr 0x6e3e054, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Editable, addr 0x6e3e04c, size 0x8, virtual false, abstract: false, final false
   inline void set_Editable(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Expression, addr 0x6e3e03c, size 0x8, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Target, addr 0x6e3e05c, size 0x8, virtual false, abstract: false, final false
   inline void set_Target(::StringW value);
 
@@ -83,23 +92,26 @@ protected:
   constexpr MacroAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MacroAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MacroAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MacroAttribute(MacroAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MacroAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MacroAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MacroAttribute(MacroAttribute const&) = delete;
+  MacroAttribute(MacroAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22560 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Expression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Expression_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Editable>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____Editable_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Target>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Target_k__BackingField;
 

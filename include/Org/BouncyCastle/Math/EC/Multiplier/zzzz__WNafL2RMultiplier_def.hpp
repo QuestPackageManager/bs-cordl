@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\WNafL2RMultiplier.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WNafL2RMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ protected:
   constexpr WNafL2RMultiplier();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WNafL2RMultiplier", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafL2RMultiplier", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WNafL2RMultiplier(WNafL2RMultiplier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WNafL2RMultiplier", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WNafL2RMultiplier", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WNafL2RMultiplier(WNafL2RMultiplier const&) = delete;
+  WNafL2RMultiplier(WNafL2RMultiplierconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1540 };

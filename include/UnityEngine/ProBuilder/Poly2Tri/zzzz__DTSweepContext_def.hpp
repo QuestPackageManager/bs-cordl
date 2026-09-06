@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\DTSweepContext.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/DTSweepContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -168,21 +168,25 @@ public:
   /// @brief Method get_Algorithm, addr 0x66b1590, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm get_Algorithm();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Head, addr 0x66b0e1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Head();
 
   /// @brief Method get_IsDebugEnabled, addr 0x66b0f00, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDebugEnabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Tail, addr 0x66b0e2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Tail();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Head, addr 0x66b0e24, size 0x8, virtual false, abstract: false, final false
   inline void set_Head(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
   /// @brief Method set_IsDebugEnabled, addr 0x66b0f08, size 0x74, virtual true, abstract: false, final false
   inline void set_IsDebugEnabled(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Tail, addr 0x66b0e34, size 0x8, virtual false, abstract: false, final false
   inline void set_Tail(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
@@ -192,13 +196,13 @@ protected:
   constexpr DTSweepContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweepContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweepContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DTSweepContext(DTSweepContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweepContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DTSweepContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DTSweepContext(DTSweepContext const&) = delete;
+  DTSweepContext(DTSweepContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21767 };
@@ -209,9 +213,11 @@ public:
   /// @brief Field Front, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* ___Front;
 
+  /// [CompilerGenerated]
   /// @brief Field <Head>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ____Head_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Tail>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ____Tail_k__BackingField;
 

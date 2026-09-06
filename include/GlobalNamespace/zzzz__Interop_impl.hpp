@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Interop.hpp"
+// IWYU pragma private; include "GlobalNamespace/Interop.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Interop_def.hpp"
 #include "GlobalNamespace/zzzz__Interop_def.hpp"
@@ -9,7 +9,7 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Interop_Error::Interop_Error(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -195,15 +195,15 @@ inline ::StringW GlobalNamespace::Interop_ErrorInfo::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::Interop_ErrorInfo>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_error", ty: "::GlobalNamespace::Interop_Error", modifiers: "", def_value: Some("{}") }, CppParam { name: "_rawErrno", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "_error", ty: "::GlobalNamespace::Interop_Error", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_rawErrno", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Interop_ErrorInfo::Interop_ErrorInfo(::GlobalNamespace::Interop_Error _error, int32_t _rawErrno) noexcept {
   this->_error = _error;
   this->_rawErrno = _rawErrno;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Interop_ErrorInfo::Interop_ErrorInfo() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Sys_Interop_NodeType::Sys_Interop_NodeType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -237,8 +237,8 @@ inline ::System::ReadOnlySpan_1<char16_t> GlobalNamespace::Sys_Interop_Directory
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Sys_Interop_DirectoryEntry>(), { "GetName", {}, { ::i2c::type_of<::System::Span_1<char16_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<char16_t>>(*this, ___internal_method, buffer);
 }
-// Ctor Parameters [CppParam { name: "Name", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "NameLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "InodeType", ty: "::GlobalNamespace::Sys_Interop_NodeType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Name", ty: "uint8_t*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "NameLength", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "InodeType", ty: "::GlobalNamespace::Sys_Interop_NodeType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Sys_Interop_DirectoryEntry::Sys_Interop_DirectoryEntry(uint8_t* Name, int32_t NameLength, ::GlobalNamespace::Sys_Interop_NodeType InodeType) noexcept {
   this->Name = Name;
   this->NameLength = NameLength;
@@ -246,7 +246,7 @@ constexpr ::GlobalNamespace::Sys_Interop_DirectoryEntry::Sys_Interop_DirectoryEn
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Sys_Interop_DirectoryEntry::Sys_Interop_DirectoryEntry() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Sys_Interop_FileStatusFlags::Sys_Interop_FileStatusFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -254,14 +254,15 @@ constexpr ::GlobalNamespace::Sys_Interop_FileStatusFlags::Sys_Interop_FileStatus
 constexpr ::GlobalNamespace::Sys_Interop_FileStatusFlags::Sys_Interop_FileStatusFlags() {}
 constexpr ::GlobalNamespace::Sys_Interop_FileStatusFlags GlobalNamespace::Sys_Interop_FileStatusFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::Sys_Interop_FileStatusFlags GlobalNamespace::Sys_Interop_FileStatusFlags::HasBirthTime{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "Flags", ty: "::GlobalNamespace::Sys_Interop_FileStatusFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "Mode", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "Uid", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Gid", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "Size", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ATime", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ATimeNsec", ty: "int64_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "MTime", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "MTimeNsec", ty: "int64_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "CTime", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "CTimeNsec", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "BirthTime", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "BirthTimeNsec", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Dev", ty: "int64_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "Ino", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "UserFlags", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "Flags", ty: "::GlobalNamespace::Sys_Interop_FileStatusFlags", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Mode", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Uid", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Gid", ty: "uint32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Size", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ATime", ty: "int64_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ATimeNsec", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MTime", ty: "int64_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "MTimeNsec", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CTime", ty: "int64_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "CTimeNsec", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BirthTime", ty:
+// "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "BirthTimeNsec", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Dev", ty:
+// "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Ino", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "UserFlags", ty:
+// "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Sys_Interop_FileStatus::Sys_Interop_FileStatus(::GlobalNamespace::Sys_Interop_FileStatusFlags Flags, int32_t Mode, uint32_t Uid, uint32_t Gid, int64_t Size, int64_t ATime,
                                                                             int64_t ATimeNsec, int64_t MTime, int64_t MTimeNsec, int64_t CTime, int64_t CTimeNsec, int64_t BirthTime,
                                                                             int64_t BirthTimeNsec, int64_t Dev, int64_t Ino, uint32_t UserFlags) noexcept {
@@ -284,7 +285,7 @@ constexpr ::GlobalNamespace::Sys_Interop_FileStatus::Sys_Interop_FileStatus(::Gl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Sys_Interop_FileStatus::Sys_Interop_FileStatus() {}
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::Sys_Interop_Permissions::Sys_Interop_Permissions(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplaySettingsVolume.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplaySettingsVolume.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -204,13 +204,13 @@ protected:
   constexpr DebugDisplaySettingsVolume_Styles();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Styles", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Styles", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsVolume_Styles(DebugDisplaySettingsVolume_Styles&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Styles", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Styles", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume_Styles(DebugDisplaySettingsVolume_Styles const&) = delete;
+  DebugDisplaySettingsVolume_Styles(DebugDisplaySettingsVolume_Stylesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11957 };
@@ -353,13 +353,13 @@ protected:
   constexpr DebugDisplaySettingsVolume_Strings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Strings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Strings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsVolume_Strings(DebugDisplaySettingsVolume_Strings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Strings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_Strings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume_Strings(DebugDisplaySettingsVolume_Strings const&) = delete;
+  DebugDisplaySettingsVolume_Strings(DebugDisplaySettingsVolume_Stringsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11958 };
@@ -381,9 +381,10 @@ public:
   // @brief default ctor
   constexpr WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain();
 
-  // Ctor Parameters [CppParam { name: "nameAndTooltip", ty: "::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip", modifiers: "", def_value: None }, CppParam { name: "volumeProfile", ty:
-  // "::UnityW<::UnityEngine::Rendering::VolumeProfile>", modifiers: "", def_value: None }, CppParam { name: "volumeComponent", ty: "::UnityW<::UnityEngine::Rendering::VolumeComponent>", modifiers:
-  // "", def_value: None }, CppParam { name: "volume", ty: "::UnityW<::UnityEngine::Rendering::Volume>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "nameAndTooltip", ty: "::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "volumeProfile", ty: "::UnityW<::UnityEngine::Rendering::VolumeProfile>", modifiers: "", def_value: None, comment: None }, CppParam { name: "volumeComponent", ty:
+  // "::UnityW<::UnityEngine::Rendering::VolumeComponent>", modifiers: "", def_value: None, comment: None }, CppParam { name: "volume", ty: "::UnityW<::UnityEngine::Rendering::Volume>", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain(::UnityEngine::Rendering::Widget_DebugUI_NameAndTooltip nameAndTooltip,
                                                                           ::UnityW<::UnityEngine::Rendering::VolumeProfile> volumeProfile,
                                                                           ::UnityW<::UnityEngine::Rendering::VolumeComponent> volumeComponent,
@@ -421,6 +422,7 @@ static_assert(offsetof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySetti
 static_assert(sizeof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -459,13 +461,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsVolume___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsVolume___c(WidgetFactory_DebugDisplaySettingsVolume___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c(WidgetFactory_DebugDisplaySettingsVolume___c const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c(WidgetFactory_DebugDisplaySettingsVolume___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11960 };
@@ -476,6 +478,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -515,13 +518,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11961 };
@@ -537,6 +540,7 @@ static_assert(offsetof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySetti
 static_assert(sizeof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -573,13 +577,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11962 };
@@ -595,6 +599,7 @@ static_assert(offsetof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySetti
 static_assert(sizeof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Rendering.Volume
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -664,13 +669,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11963 };
@@ -706,6 +711,7 @@ static_assert(offsetof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySetti
 static_assert(sizeof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -733,13 +739,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11964 };
@@ -755,6 +761,7 @@ static_assert(offsetof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySetti
 static_assert(sizeof(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.Rendering.DebugDisplaySettingsVolume::WidgetFactory::VolumeParameterChain
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -801,13 +808,13 @@ protected:
   constexpr WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1 const&) = delete;
+  WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11965 };
@@ -896,13 +903,13 @@ protected:
   constexpr DebugDisplaySettingsVolume_WidgetFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_WidgetFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_WidgetFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsVolume_WidgetFactory(DebugDisplaySettingsVolume_WidgetFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_WidgetFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_WidgetFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume_WidgetFactory(DebugDisplaySettingsVolume_WidgetFactory const&) = delete;
+  DebugDisplaySettingsVolume_WidgetFactory(DebugDisplaySettingsVolume_WidgetFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11966 };
@@ -913,6 +920,7 @@ public:
 static_assert(sizeof(::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [DisplayInfo(name = "Volume", order = 2147483647)]
 // Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -934,9 +942,11 @@ public:
 
   constexpr void __cordl_internal_set_m_VolumeTable(::UnityEngine::Rendering::DebugUI_Table* value);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__0_0, addr 0x67609e4, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__0_0(::UnityEngine::Rendering::DebugUI_Field_1<::UnityW<::UnityEngine::Object>>* _, ::UnityEngine::Object* __);
 
+  /// [CompilerGenerated]
   /// @brief Method <.ctor>b__0_1, addr 0x67609e8, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __);
 
@@ -949,13 +959,13 @@ protected:
   constexpr DebugDisplaySettingsVolume_SettingsPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_SettingsPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_SettingsPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsVolume_SettingsPanel(DebugDisplaySettingsVolume_SettingsPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_SettingsPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume_SettingsPanel(DebugDisplaySettingsVolume_SettingsPanel const&) = delete;
+  DebugDisplaySettingsVolume_SettingsPanel(DebugDisplaySettingsVolume_SettingsPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11967 };
@@ -1036,6 +1046,7 @@ public:
   /// @brief Method get_AreAnySettingsActive, addr 0x675c8e8, size 0x8, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_volumeDebugSettings, addr 0x675c838, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::IVolumeDebugSettings* get_volumeDebugSettings();
 
@@ -1051,13 +1062,13 @@ protected:
   constexpr DebugDisplaySettingsVolume();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsVolume(DebugDisplaySettingsVolume&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsVolume", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsVolume(DebugDisplaySettingsVolume const&) = delete;
+  DebugDisplaySettingsVolume(DebugDisplaySettingsVolumeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11968 };
@@ -1065,6 +1076,7 @@ public:
   /// @brief Field k_PanelTitle offset 0xffffffff size 0x8
   static constexpr ::ConstString k_PanelTitle{ u"Volume" };
 
+  /// [CompilerGenerated]
   /// @brief Field <volumeDebugSettings>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::IVolumeDebugSettings* ____volumeDebugSettings_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MakeRunEnvFileCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/MakeRunEnvFileCommand.hpp"
 #include "GlobalNamespace/zzzz__MakeRunsongFileBaseCommand_impl.hpp"
 #include "GlobalNamespace/zzzz__MakeRunEnvFileCommand_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"

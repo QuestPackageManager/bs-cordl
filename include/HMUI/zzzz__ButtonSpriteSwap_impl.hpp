@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ButtonSpriteSwap.hpp"
+// IWYU pragma private; include "HMUI/ButtonSpriteSwap.hpp"
 #include "UnityEngine/UI/zzzz__Image_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ButtonSpriteSwap_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Experimental\StyleValues.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/StyleValues.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__StyleValues_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueCollection_def.hpp"
@@ -621,7 +621,7 @@ inline ::UnityEngine::UIElements::StyleValueCollection* UnityEngine::UIElements:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::StyleValues>(), { "Values", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleValueCollection*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_StyleValues", ty: "::UnityEngine::UIElements::StyleValueCollection*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_StyleValues", ty: "::UnityEngine::UIElements::StyleValueCollection*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::Experimental::StyleValues::StyleValues(::UnityEngine::UIElements::StyleValueCollection* m_StyleValues) noexcept {
   this->m_StyleValues = m_StyleValues;
 }

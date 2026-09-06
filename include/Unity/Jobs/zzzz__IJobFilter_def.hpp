@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\IJobFilter.hpp"
+// IWYU pragma private; include "Unity/Jobs/IJobFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,7 @@ class IJobFilter;
 // Write type traits
 MARK_REF_T(::Unity::Jobs::IJobFilter*);
 DEFINE_IL2CPP_CLASS(::Unity::Jobs::IJobFilter*, "Unity.Jobs", "IJobFilter");
+// [JobProducerType(typeof(Unity.Jobs.IJobFilterExtensions::JobFilterProducer`1<T>))]
 // Dependencies
 namespace Unity::Jobs {
 // Is value type: false
@@ -19,12 +20,12 @@ namespace Unity::Jobs {
 class CORDL_TYPE IJobFilter {
 public:
   // Declarations
-  /// @brief Method Execute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Execute(int32_t index);
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJobFilter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobFilter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobFilter(IJobFilter const&) = delete;
+  IJobFilter(IJobFilterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15506 };

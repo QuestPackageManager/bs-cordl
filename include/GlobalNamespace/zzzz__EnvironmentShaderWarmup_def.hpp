@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentShaderWarmup.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentShaderWarmup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_REF_T(::GlobalNamespace::EnvironmentShaderWarmup*);
 MARK_REF_T(::GlobalNamespace::EnvironmentShaderWarmup__Start_d__7*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentShaderWarmup*, "", "EnvironmentShaderWarmup");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::EnvironmentShaderWarmup__Start_d__7*, "", "EnvironmentShaderWarmup/<Start>d__7");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -80,17 +81,22 @@ public:
   /// @brief Method MoveNext, addr 0x58ae190, size 0x5cc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::EnvironmentShaderWarmup__Start_d__7* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58ae75c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58ae764, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58ae79c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x58ae18c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -112,6 +118,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EnvironmentShaderWarmup> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x58ae180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -130,13 +137,13 @@ protected:
   constexpr EnvironmentShaderWarmup__Start_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup__Start_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup__Start_d__7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentShaderWarmup__Start_d__7(EnvironmentShaderWarmup__Start_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup__Start_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup__Start_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentShaderWarmup__Start_d__7(EnvironmentShaderWarmup__Start_d__7 const&) = delete;
+  EnvironmentShaderWarmup__Start_d__7(EnvironmentShaderWarmup__Start_d__7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5532 };
@@ -188,6 +195,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmup* New_ctor();
 
+  /// [IteratorStateMachine(typeof(EnvironmentShaderWarmup::<Start>d__7))]
   /// @brief Method Start, addr 0x58ae12c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
@@ -230,13 +238,13 @@ protected:
   constexpr EnvironmentShaderWarmup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentShaderWarmup(EnvironmentShaderWarmup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentShaderWarmup(EnvironmentShaderWarmup const&) = delete;
+  EnvironmentShaderWarmup(EnvironmentShaderWarmupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5533 };
@@ -247,15 +255,19 @@ public:
   /// @brief Field kNumberOfRows offset 0xffffffff size 0x4
   static constexpr int32_t kNumberOfRows{ static_cast<int32_t>(0x4) };
 
+  /// [SerializeField]
   /// @brief Field _materials, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Material>> ____materials;
 
+  /// [Inject]
   /// @brief Field _mainCamera, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 
+  /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 

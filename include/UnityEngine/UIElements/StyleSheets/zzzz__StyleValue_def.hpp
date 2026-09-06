@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleValue.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ struct StyleValue;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleValue);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::StyleValue, "UnityEngine.UIElements.StyleSheets", "StyleValue");
+// [DebuggerDisplay("id = {id}, keyword = {keyword}, number = {number}, boolean = {boolean}, color = {color}, object = {resource}")]
 // Dependencies System.Runtime.InteropServices.GCHandle, UnityEngine.Color, UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.BackgroundRepeat, UnityEngine.UIElements.Length,
 // UnityEngine.UIElements.StyleKeyword, UnityEngine.UIElements.StyleSheets.StylePropertyId
 namespace UnityEngine::UIElements::StyleSheets {
@@ -104,11 +105,12 @@ public:
   // @brief default ctor
   constexpr StyleValue();
 
-  // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "keyword", ty:
-  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }, CppParam { name: "number", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "length", ty:
-  // "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "resource", ty:
-  // "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None
-  // }, CppParam { name: "repeat", ty: "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None, comment: None }, CppParam { name: "keyword", ty:
+  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None, comment: None }, CppParam { name: "number", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "length", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "resource", ty: "::System::Runtime::InteropServices::GCHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "position", ty:
+  // "::UnityEngine::UIElements::BackgroundPosition", modifiers: "", def_value: None, comment: None }, CppParam { name: "repeat", ty: "::UnityEngine::UIElements::BackgroundRepeat", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr StyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleKeyword keyword, float_t number, ::UnityEngine::UIElements::Length length,
                        ::UnityEngine::Color color, ::System::Runtime::InteropServices::GCHandle resource, ::UnityEngine::UIElements::BackgroundPosition position,
                        ::UnityEngine::UIElements::BackgroundRepeat repeat) noexcept;

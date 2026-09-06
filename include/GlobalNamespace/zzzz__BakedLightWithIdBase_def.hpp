@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BakedLightWithIdBase.hpp"
+// IWYU pragma private; include "GlobalNamespace/BakedLightWithIdBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ public:
 
   static inline ::GlobalNamespace::BakedLightWithIdBase* New_ctor();
 
-  /// @brief Method SetupLightSource, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetupLightSource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetupLightSource(float_t intensityMultiplier);
 
   /// @brief Method .ctor, addr 0x5f40fbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_id();
 
 protected:
@@ -40,13 +40,13 @@ protected:
   constexpr BakedLightWithIdBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightWithIdBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BakedLightWithIdBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BakedLightWithIdBase(BakedLightWithIdBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightWithIdBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BakedLightWithIdBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BakedLightWithIdBase(BakedLightWithIdBase const&) = delete;
+  BakedLightWithIdBase(BakedLightWithIdBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20618 };

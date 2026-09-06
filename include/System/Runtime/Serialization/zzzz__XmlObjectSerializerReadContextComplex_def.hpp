@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlObjectSerializerReadContextComplex.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlObjectSerializerReadContextComplex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver(XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver(XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver const&) = delete;
+  XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver(XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolverconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17139 };
@@ -184,13 +184,13 @@ protected:
   constexpr XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo const&) = delete;
+  XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17140 };
@@ -253,13 +253,13 @@ protected:
   constexpr XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey const&) = delete;
+  XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKeyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17141 };
@@ -439,13 +439,13 @@ protected:
   constexpr XmlObjectSerializerReadContextComplex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlObjectSerializerReadContextComplex(XmlObjectSerializerReadContextComplex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlObjectSerializerReadContextComplex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlObjectSerializerReadContextComplex(XmlObjectSerializerReadContextComplex const&) = delete;
+  XmlObjectSerializerReadContextComplex(XmlObjectSerializerReadContextComplexconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17142 };

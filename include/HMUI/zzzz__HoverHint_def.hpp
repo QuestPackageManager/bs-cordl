@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\HoverHint.hpp"
+// IWYU pragma private; include "HMUI/HoverHint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,20 +126,22 @@ protected:
   constexpr HoverHint();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHint", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHint", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HoverHint(HoverHint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HoverHint", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HoverHint", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HoverHint(HoverHint const&) = delete;
+  HoverHint(HoverHintconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19042 };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::StringW ____text;
 
+  /// [Inject]
   /// @brief Field _hoverHintController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHintController> ____hoverHintController;
 

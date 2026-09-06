@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ScriptingUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ScriptingUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptingUtility_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/zzzz__ScriptingUtility_def.hpp"
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ScriptingUtility_TestClass::ScriptingUtility_TestClass(int32_t value) noexcept {
   this->value = value;
 }

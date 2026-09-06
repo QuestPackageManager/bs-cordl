@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SetParticleSystemSeed.hpp"
+// IWYU pragma private; include "GlobalNamespace/SetParticleSystemSeed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,8 @@ class SetParticleSystemSeed;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SetParticleSystemSeed*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SetParticleSystemSeed*, "", "SetParticleSystemSeed");
+// [RequireComponent(typeof(UnityEngine.ParticleSystem))]
+// [DefaultExecutionOrder(1)]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -88,26 +90,31 @@ protected:
   constexpr SetParticleSystemSeed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetParticleSystemSeed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetParticleSystemSeed", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetParticleSystemSeed(SetParticleSystemSeed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetParticleSystemSeed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SetParticleSystemSeed", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SetParticleSystemSeed(SetParticleSystemSeed const&) = delete;
+  SetParticleSystemSeed(SetParticleSystemSeedconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5797 };
 
+  /// [Inject]
   /// @brief Field _determinismConfig, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
 
+  /// [SerializeField]
   /// @brief Field _particleSystem, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
+  /// [SerializeField]
   /// @brief Field _useRandom, offset: 0x30, size: 0x1, def value: None
   bool ____useRandom;
 
+  /// [SerializeField]
+  /// [DrawIf("_useRandom", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _seed, offset: 0x34, size: 0x4, def value: None
   uint32_t ____seed;
 

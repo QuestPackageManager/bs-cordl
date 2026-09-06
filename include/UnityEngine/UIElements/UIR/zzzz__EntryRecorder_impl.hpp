@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryRecorder.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryRecorder_def.hpp"
 #include "System/zzzz__Action_def.hpp"

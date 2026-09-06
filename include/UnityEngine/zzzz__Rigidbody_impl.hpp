@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rigidbody.hpp"
+// IWYU pragma private; include "UnityEngine/Rigidbody.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -2957,7 +2957,7 @@ inline void UnityEngine::Rigidbody::set_includeLayers(::UnityEngine::LayerMask v
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "set_includeLayers", {}, { ::i2c::type_of<::UnityEngine::LayerMask>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Vector3 UnityEngine::Rigidbody::GetAccumulatedForce(float_t step) {
+inline ::UnityEngine::Vector3 UnityEngine::Rigidbody::GetAccumulatedForce(/* [DefaultValue("Time.fixedDeltaTime")] */ float_t step) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "GetAccumulatedForce", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method, step);
 }
@@ -2965,7 +2965,7 @@ inline ::UnityEngine::Vector3 UnityEngine::Rigidbody::GetAccumulatedForce() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "GetAccumulatedForce", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
-inline ::UnityEngine::Vector3 UnityEngine::Rigidbody::GetAccumulatedTorque(float_t step) {
+inline ::UnityEngine::Vector3 UnityEngine::Rigidbody::GetAccumulatedTorque(/* [DefaultValue("Time.fixedDeltaTime")] */ float_t step) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "GetAccumulatedTorque", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method, step);
 }
@@ -2973,7 +2973,7 @@ inline ::UnityEngine::Vector3 UnityEngine::Rigidbody::GetAccumulatedTorque() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "GetAccumulatedTorque", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
 }
-inline void UnityEngine::Rigidbody::AddForce(::UnityEngine::Vector3 force, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddForce(::UnityEngine::Vector3 force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddForce", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::ForceMode>() } })));
@@ -2984,7 +2984,7 @@ inline void UnityEngine::Rigidbody::AddForce(::UnityEngine::Vector3 force) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddForce", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, force);
 }
-inline void UnityEngine::Rigidbody::AddForce(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddForce(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
                                               { "AddForce", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::ForceMode>() } })));
@@ -2995,7 +2995,7 @@ inline void UnityEngine::Rigidbody::AddForce(float_t x, float_t y, float_t z) {
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddForce", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, z);
 }
-inline void UnityEngine::Rigidbody::AddRelativeForce(::UnityEngine::Vector3 force, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddRelativeForce(::UnityEngine::Vector3 force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddRelativeForce", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::ForceMode>() } })));
@@ -3006,7 +3006,7 @@ inline void UnityEngine::Rigidbody::AddRelativeForce(::UnityEngine::Vector3 forc
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddRelativeForce", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, force);
 }
-inline void UnityEngine::Rigidbody::AddRelativeForce(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddRelativeForce(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
@@ -3019,7 +3019,7 @@ inline void UnityEngine::Rigidbody::AddRelativeForce(float_t x, float_t y, float
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddRelativeForce", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, z);
 }
-inline void UnityEngine::Rigidbody::AddTorque(::UnityEngine::Vector3 torque, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddTorque(::UnityEngine::Vector3 torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddTorque", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::ForceMode>() } })));
@@ -3030,7 +3030,7 @@ inline void UnityEngine::Rigidbody::AddTorque(::UnityEngine::Vector3 torque) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddTorque", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, torque);
 }
-inline void UnityEngine::Rigidbody::AddTorque(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddTorque(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
                                               { "AddTorque", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::ForceMode>() } })));
@@ -3041,7 +3041,7 @@ inline void UnityEngine::Rigidbody::AddTorque(float_t x, float_t y, float_t z) {
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddTorque", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, z);
 }
-inline void UnityEngine::Rigidbody::AddRelativeTorque(::UnityEngine::Vector3 torque, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddRelativeTorque(::UnityEngine::Vector3 torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddRelativeTorque", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::ForceMode>() } })));
@@ -3052,7 +3052,7 @@ inline void UnityEngine::Rigidbody::AddRelativeTorque(::UnityEngine::Vector3 tor
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddRelativeTorque", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, torque);
 }
-inline void UnityEngine::Rigidbody::AddRelativeTorque(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddRelativeTorque(float_t x, float_t y, float_t z, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
@@ -3065,7 +3065,7 @@ inline void UnityEngine::Rigidbody::AddRelativeTorque(float_t x, float_t y, floa
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddRelativeTorque", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, x, y, z);
 }
-inline void UnityEngine::Rigidbody::AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
@@ -3078,8 +3078,8 @@ inline void UnityEngine::Rigidbody::AddForceAtPosition(::UnityEngine::Vector3 fo
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddForceAtPosition", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, force, position);
 }
-inline void UnityEngine::Rigidbody::AddExplosionForce(float_t explosionForce, ::UnityEngine::Vector3 explosionPosition, float_t explosionRadius, float_t upwardsModifier,
-                                                      ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddExplosionForce(float_t explosionForce, ::UnityEngine::Vector3 explosionPosition, float_t explosionRadius, /* [DefaultValue("0.0f")] */ float_t upwardsModifier,
+                                                      /* [DefaultValue("ForceMode.Force)")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddExplosionForce",
                                                                                               {},
@@ -3122,8 +3122,8 @@ inline ::UnityEngine::RaycastHit UnityEngine::Rigidbody::SweepTest(::UnityEngine
           { "SweepTest", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<bool>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::RaycastHit>(this, ___internal_method, direction, maxDistance, queryTriggerInteraction, hasHit);
 }
-inline bool UnityEngine::Rigidbody::SweepTest(::UnityEngine::Vector3 direction, ::by_ref<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance,
-                                              ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Rigidbody::SweepTest(::UnityEngine::Vector3 direction, ::by_ref<::UnityEngine::RaycastHit> hitInfo, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                              /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "SweepTest",
                                                                                               {},
@@ -3151,7 +3151,9 @@ inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Rigidbody::Internal_Swee
                           { "Internal_SweepTestAll", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::RaycastHit>>(this, ___internal_method, direction, maxDistance, queryTriggerInteraction);
 }
-inline ::ArrayW<::UnityEngine::RaycastHit> UnityEngine::Rigidbody::SweepTestAll(::UnityEngine::Vector3 direction, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline ::ArrayW<::UnityEngine::RaycastHit>
+UnityEngine::Rigidbody::SweepTestAll(::UnityEngine::Vector3 direction, /* [DefaultValue("Mathf.Infinity")] */ float_t maxDistance,
+                                     /* [DefaultValue("QueryTriggerInteraction.UseGlobal")] */ ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
@@ -3615,28 +3617,29 @@ inline void UnityEngine::Rigidbody::set_includeLayers_Injected(::System::IntPtr 
                                                            { "set_includeLayers_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::LayerMask>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
-inline void UnityEngine::Rigidbody::GetAccumulatedForce_Injected(::System::IntPtr _unity_self, float_t step, ::by_ref<::UnityEngine::Vector3> ret) {
+inline void UnityEngine::Rigidbody::GetAccumulatedForce_Injected(::System::IntPtr _unity_self, /* [DefaultValue("Time.fixedDeltaTime")] */ float_t step, ::by_ref<::UnityEngine::Vector3> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
                                        { "GetAccumulatedForce_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, step, ret);
 }
-inline void UnityEngine::Rigidbody::GetAccumulatedTorque_Injected(::System::IntPtr _unity_self, float_t step, ::by_ref<::UnityEngine::Vector3> ret) {
+inline void UnityEngine::Rigidbody::GetAccumulatedTorque_Injected(::System::IntPtr _unity_self, /* [DefaultValue("Time.fixedDeltaTime")] */ float_t step, ::by_ref<::UnityEngine::Vector3> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
                           { "GetAccumulatedTorque_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, step, ret);
 }
-inline void UnityEngine::Rigidbody::AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
                           { "AddForce_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::UnityEngine::ForceMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, force, mode);
 }
-inline void UnityEngine::Rigidbody::AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force,
+                                                              /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -3644,14 +3647,15 @@ inline void UnityEngine::Rigidbody::AddRelativeForce_Injected(::System::IntPtr _
                        { "AddRelativeForce_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::UnityEngine::ForceMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, force, mode);
 }
-inline void UnityEngine::Rigidbody::AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(),
                           { "AddTorque_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::UnityEngine::ForceMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, torque, mode);
 }
-inline void UnityEngine::Rigidbody::AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, ::UnityEngine::ForceMode mode) {
+inline void UnityEngine::Rigidbody::AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque,
+                                                               /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -3660,7 +3664,7 @@ inline void UnityEngine::Rigidbody::AddRelativeTorque_Injected(::System::IntPtr 
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, torque, mode);
 }
 inline void UnityEngine::Rigidbody::AddForceAtPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::by_ref<::UnityEngine::Vector3> position,
-                                                                ::UnityEngine::ForceMode mode) {
+                                                                /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddForceAtPosition_Injected",
                                                                                               {},
@@ -3669,7 +3673,7 @@ inline void UnityEngine::Rigidbody::AddForceAtPosition_Injected(::System::IntPtr
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, force, position, mode);
 }
 inline void UnityEngine::Rigidbody::AddExplosionForce_Injected(::System::IntPtr _unity_self, float_t explosionForce, ::by_ref<::UnityEngine::Vector3> explosionPosition, float_t explosionRadius,
-                                                               float_t upwardsModifier, ::UnityEngine::ForceMode mode) {
+                                                               /* [DefaultValue("0.0f")] */ float_t upwardsModifier, /* [DefaultValue("ForceMode.Force)")] */ ::UnityEngine::ForceMode mode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rigidbody*>(), { "AddExplosionForce_Injected",

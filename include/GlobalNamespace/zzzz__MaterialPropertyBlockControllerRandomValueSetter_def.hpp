@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockControllerRandomValueSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockControllerRandomValueSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,26 +106,31 @@ protected:
   constexpr MaterialPropertyBlockControllerRandomValueSetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockControllerRandomValueSetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockControllerRandomValueSetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockControllerRandomValueSetter(MaterialPropertyBlockControllerRandomValueSetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockControllerRandomValueSetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockControllerRandomValueSetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockControllerRandomValueSetter(MaterialPropertyBlockControllerRandomValueSetter const&) = delete;
+  MaterialPropertyBlockControllerRandomValueSetter(MaterialPropertyBlockControllerRandomValueSetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19571 };
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
+  /// [SerializeField]
+  /// [ShaderPropertyIDFromProperty("_materialPropertyBlockController", "_renderers", "", (BGLib.UnityExtension.ShaderPropertyAttributeFilter::PropType)3)]
   /// @brief Field _propertyName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____propertyName;
 
+  /// [SerializeField]
   /// @brief Field _min, offset: 0x30, size: 0x4, def value: None
   float_t ____min;
 
+  /// [SerializeField]
   /// @brief Field _max, offset: 0x34, size: 0x4, def value: None
   float_t ____max;
 

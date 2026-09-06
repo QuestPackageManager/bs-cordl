@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SpectrogramRowPropertyAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/SpectrogramRowPropertyAnimator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SpectrogramRowPropertyAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__BasicSpectrogramData_def.hpp"

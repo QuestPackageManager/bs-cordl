@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1EncodableVector.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1EncodableVector.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1EncodableVector_def.hpp"
@@ -282,7 +282,7 @@ inline void Org::BouncyCastle::Asn1::Asn1EncodableVector::_ctor(int32_t initialC
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, initialCapacity);
 }
-inline void Org::BouncyCastle::Asn1::Asn1EncodableVector::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v) {
+inline void Org::BouncyCastle::Asn1::Asn1EncodableVector::_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, v);
@@ -292,13 +292,13 @@ inline void Org::BouncyCastle::Asn1::Asn1EncodableVector::Add(::Org::BouncyCastl
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(), { "Add", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::Asn1Encodable*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element);
 }
-inline void Org::BouncyCastle::Asn1::Asn1EncodableVector::Add(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs) {
+inline void Org::BouncyCastle::Asn1::Asn1EncodableVector::Add(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(), { "Add", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, objs);
 }
-inline void Org::BouncyCastle::Asn1::Asn1EncodableVector::AddOptional(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs) {
+inline void Org::BouncyCastle::Asn1::Asn1EncodableVector::AddOptional(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(),
                                                                                          { "AddOptional", {}, { ::i2c::type_of<::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, objs);
@@ -352,7 +352,7 @@ inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* Org::BouncyCastle::Asn1::
 inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* Org::BouncyCastle::Asn1::Asn1EncodableVector::New_ctor(int32_t initialCapacity) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(initialCapacity));
 }
-inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* Org::BouncyCastle::Asn1::Asn1EncodableVector::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v) {
+inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* Org::BouncyCastle::Asn1::Asn1EncodableVector::New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Asn1EncodableVector*>(v));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"

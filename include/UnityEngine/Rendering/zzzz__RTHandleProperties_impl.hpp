@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RTHandleProperties.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RTHandleProperties.hpp"
 #include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandleProperties_def.hpp"
-// Ctor Parameters [CppParam { name: "previousViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "previousRenderTargetSize", ty:
-// "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "currentViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "currentRenderTargetSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "rtHandleScale", ty: "::UnityEngine::Vector4", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "previousViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "previousRenderTargetSize", ty:
+// "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "currentViewportSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "currentRenderTargetSize", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rtHandleScale", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RTHandleProperties::RTHandleProperties(::UnityEngine::Vector2Int previousViewportSize, ::UnityEngine::Vector2Int previousRenderTargetSize,
                                                                            ::UnityEngine::Vector2Int currentViewportSize, ::UnityEngine::Vector2Int currentRenderTargetSize,
                                                                            ::UnityEngine::Vector4 rtHandleScale) noexcept {

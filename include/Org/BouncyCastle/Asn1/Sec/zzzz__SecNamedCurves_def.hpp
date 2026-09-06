@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Sec\SecNamedCurves.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Sec/SecNamedCurves.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -334,13 +334,13 @@ protected:
   constexpr SecNamedCurves_Secp112r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp112r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp112r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp112r1Holder(SecNamedCurves_Secp112r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp112r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp112r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp112r1Holder(SecNamedCurves_Secp112r1Holder const&) = delete;
+  SecNamedCurves_Secp112r1Holder(SecNamedCurves_Secp112r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 256 };
@@ -379,13 +379,13 @@ protected:
   constexpr SecNamedCurves_Secp112r2Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp112r2Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp112r2Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp112r2Holder(SecNamedCurves_Secp112r2Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp112r2Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp112r2Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp112r2Holder(SecNamedCurves_Secp112r2Holder const&) = delete;
+  SecNamedCurves_Secp112r2Holder(SecNamedCurves_Secp112r2Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 257 };
@@ -424,13 +424,13 @@ protected:
   constexpr SecNamedCurves_Secp128r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp128r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp128r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp128r1Holder(SecNamedCurves_Secp128r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp128r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp128r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp128r1Holder(SecNamedCurves_Secp128r1Holder const&) = delete;
+  SecNamedCurves_Secp128r1Holder(SecNamedCurves_Secp128r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 258 };
@@ -469,13 +469,13 @@ protected:
   constexpr SecNamedCurves_Secp128r2Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp128r2Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp128r2Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp128r2Holder(SecNamedCurves_Secp128r2Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp128r2Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp128r2Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp128r2Holder(SecNamedCurves_Secp128r2Holder const&) = delete;
+  SecNamedCurves_Secp128r2Holder(SecNamedCurves_Secp128r2Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 259 };
@@ -514,13 +514,13 @@ protected:
   constexpr SecNamedCurves_Secp160k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp160k1Holder(SecNamedCurves_Secp160k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp160k1Holder(SecNamedCurves_Secp160k1Holder const&) = delete;
+  SecNamedCurves_Secp160k1Holder(SecNamedCurves_Secp160k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 260 };
@@ -559,13 +559,13 @@ protected:
   constexpr SecNamedCurves_Secp160r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp160r1Holder(SecNamedCurves_Secp160r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp160r1Holder(SecNamedCurves_Secp160r1Holder const&) = delete;
+  SecNamedCurves_Secp160r1Holder(SecNamedCurves_Secp160r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 261 };
@@ -604,13 +604,13 @@ protected:
   constexpr SecNamedCurves_Secp160r2Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160r2Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160r2Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp160r2Holder(SecNamedCurves_Secp160r2Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160r2Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp160r2Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp160r2Holder(SecNamedCurves_Secp160r2Holder const&) = delete;
+  SecNamedCurves_Secp160r2Holder(SecNamedCurves_Secp160r2Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 262 };
@@ -649,13 +649,13 @@ protected:
   constexpr SecNamedCurves_Secp192k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp192k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp192k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp192k1Holder(SecNamedCurves_Secp192k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp192k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp192k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp192k1Holder(SecNamedCurves_Secp192k1Holder const&) = delete;
+  SecNamedCurves_Secp192k1Holder(SecNamedCurves_Secp192k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 263 };
@@ -694,13 +694,13 @@ protected:
   constexpr SecNamedCurves_Secp192r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp192r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp192r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp192r1Holder(SecNamedCurves_Secp192r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp192r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp192r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp192r1Holder(SecNamedCurves_Secp192r1Holder const&) = delete;
+  SecNamedCurves_Secp192r1Holder(SecNamedCurves_Secp192r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 264 };
@@ -739,13 +739,13 @@ protected:
   constexpr SecNamedCurves_Secp224k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp224k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp224k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp224k1Holder(SecNamedCurves_Secp224k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp224k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp224k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp224k1Holder(SecNamedCurves_Secp224k1Holder const&) = delete;
+  SecNamedCurves_Secp224k1Holder(SecNamedCurves_Secp224k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 265 };
@@ -784,13 +784,13 @@ protected:
   constexpr SecNamedCurves_Secp224r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp224r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp224r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp224r1Holder(SecNamedCurves_Secp224r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp224r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp224r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp224r1Holder(SecNamedCurves_Secp224r1Holder const&) = delete;
+  SecNamedCurves_Secp224r1Holder(SecNamedCurves_Secp224r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 266 };
@@ -829,13 +829,13 @@ protected:
   constexpr SecNamedCurves_Secp256k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp256k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp256k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp256k1Holder(SecNamedCurves_Secp256k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp256k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp256k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp256k1Holder(SecNamedCurves_Secp256k1Holder const&) = delete;
+  SecNamedCurves_Secp256k1Holder(SecNamedCurves_Secp256k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 267 };
@@ -874,13 +874,13 @@ protected:
   constexpr SecNamedCurves_Secp256r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp256r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp256r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp256r1Holder(SecNamedCurves_Secp256r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp256r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp256r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp256r1Holder(SecNamedCurves_Secp256r1Holder const&) = delete;
+  SecNamedCurves_Secp256r1Holder(SecNamedCurves_Secp256r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 268 };
@@ -919,13 +919,13 @@ protected:
   constexpr SecNamedCurves_Secp384r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp384r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp384r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp384r1Holder(SecNamedCurves_Secp384r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp384r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp384r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp384r1Holder(SecNamedCurves_Secp384r1Holder const&) = delete;
+  SecNamedCurves_Secp384r1Holder(SecNamedCurves_Secp384r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 269 };
@@ -964,13 +964,13 @@ protected:
   constexpr SecNamedCurves_Secp521r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp521r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp521r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Secp521r1Holder(SecNamedCurves_Secp521r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp521r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Secp521r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Secp521r1Holder(SecNamedCurves_Secp521r1Holder const&) = delete;
+  SecNamedCurves_Secp521r1Holder(SecNamedCurves_Secp521r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 270 };
@@ -1009,13 +1009,13 @@ protected:
   constexpr SecNamedCurves_Sect113r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect113r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect113r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect113r1Holder(SecNamedCurves_Sect113r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect113r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect113r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect113r1Holder(SecNamedCurves_Sect113r1Holder const&) = delete;
+  SecNamedCurves_Sect113r1Holder(SecNamedCurves_Sect113r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 271 };
@@ -1060,13 +1060,13 @@ protected:
   constexpr SecNamedCurves_Sect113r2Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect113r2Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect113r2Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect113r2Holder(SecNamedCurves_Sect113r2Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect113r2Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect113r2Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect113r2Holder(SecNamedCurves_Sect113r2Holder const&) = delete;
+  SecNamedCurves_Sect113r2Holder(SecNamedCurves_Sect113r2Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 272 };
@@ -1111,13 +1111,13 @@ protected:
   constexpr SecNamedCurves_Sect131r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect131r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect131r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect131r1Holder(SecNamedCurves_Sect131r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect131r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect131r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect131r1Holder(SecNamedCurves_Sect131r1Holder const&) = delete;
+  SecNamedCurves_Sect131r1Holder(SecNamedCurves_Sect131r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 273 };
@@ -1168,13 +1168,13 @@ protected:
   constexpr SecNamedCurves_Sect131r2Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect131r2Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect131r2Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect131r2Holder(SecNamedCurves_Sect131r2Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect131r2Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect131r2Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect131r2Holder(SecNamedCurves_Sect131r2Holder const&) = delete;
+  SecNamedCurves_Sect131r2Holder(SecNamedCurves_Sect131r2Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 274 };
@@ -1225,13 +1225,13 @@ protected:
   constexpr SecNamedCurves_Sect163k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect163k1Holder(SecNamedCurves_Sect163k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect163k1Holder(SecNamedCurves_Sect163k1Holder const&) = delete;
+  SecNamedCurves_Sect163k1Holder(SecNamedCurves_Sect163k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 275 };
@@ -1282,13 +1282,13 @@ protected:
   constexpr SecNamedCurves_Sect163r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect163r1Holder(SecNamedCurves_Sect163r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect163r1Holder(SecNamedCurves_Sect163r1Holder const&) = delete;
+  SecNamedCurves_Sect163r1Holder(SecNamedCurves_Sect163r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 276 };
@@ -1339,13 +1339,13 @@ protected:
   constexpr SecNamedCurves_Sect163r2Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163r2Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163r2Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect163r2Holder(SecNamedCurves_Sect163r2Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163r2Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect163r2Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect163r2Holder(SecNamedCurves_Sect163r2Holder const&) = delete;
+  SecNamedCurves_Sect163r2Holder(SecNamedCurves_Sect163r2Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 277 };
@@ -1396,13 +1396,13 @@ protected:
   constexpr SecNamedCurves_Sect193r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect193r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect193r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect193r1Holder(SecNamedCurves_Sect193r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect193r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect193r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect193r1Holder(SecNamedCurves_Sect193r1Holder const&) = delete;
+  SecNamedCurves_Sect193r1Holder(SecNamedCurves_Sect193r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 278 };
@@ -1447,13 +1447,13 @@ protected:
   constexpr SecNamedCurves_Sect193r2Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect193r2Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect193r2Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect193r2Holder(SecNamedCurves_Sect193r2Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect193r2Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect193r2Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect193r2Holder(SecNamedCurves_Sect193r2Holder const&) = delete;
+  SecNamedCurves_Sect193r2Holder(SecNamedCurves_Sect193r2Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 279 };
@@ -1498,13 +1498,13 @@ protected:
   constexpr SecNamedCurves_Sect233k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect233k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect233k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect233k1Holder(SecNamedCurves_Sect233k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect233k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect233k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect233k1Holder(SecNamedCurves_Sect233k1Holder const&) = delete;
+  SecNamedCurves_Sect233k1Holder(SecNamedCurves_Sect233k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 280 };
@@ -1549,13 +1549,13 @@ protected:
   constexpr SecNamedCurves_Sect233r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect233r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect233r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect233r1Holder(SecNamedCurves_Sect233r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect233r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect233r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect233r1Holder(SecNamedCurves_Sect233r1Holder const&) = delete;
+  SecNamedCurves_Sect233r1Holder(SecNamedCurves_Sect233r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 281 };
@@ -1600,13 +1600,13 @@ protected:
   constexpr SecNamedCurves_Sect239k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect239k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect239k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect239k1Holder(SecNamedCurves_Sect239k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect239k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect239k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect239k1Holder(SecNamedCurves_Sect239k1Holder const&) = delete;
+  SecNamedCurves_Sect239k1Holder(SecNamedCurves_Sect239k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 282 };
@@ -1651,13 +1651,13 @@ protected:
   constexpr SecNamedCurves_Sect283k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect283k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect283k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect283k1Holder(SecNamedCurves_Sect283k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect283k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect283k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect283k1Holder(SecNamedCurves_Sect283k1Holder const&) = delete;
+  SecNamedCurves_Sect283k1Holder(SecNamedCurves_Sect283k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 283 };
@@ -1708,13 +1708,13 @@ protected:
   constexpr SecNamedCurves_Sect283r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect283r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect283r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect283r1Holder(SecNamedCurves_Sect283r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect283r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect283r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect283r1Holder(SecNamedCurves_Sect283r1Holder const&) = delete;
+  SecNamedCurves_Sect283r1Holder(SecNamedCurves_Sect283r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 284 };
@@ -1765,13 +1765,13 @@ protected:
   constexpr SecNamedCurves_Sect409k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect409k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect409k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect409k1Holder(SecNamedCurves_Sect409k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect409k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect409k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect409k1Holder(SecNamedCurves_Sect409k1Holder const&) = delete;
+  SecNamedCurves_Sect409k1Holder(SecNamedCurves_Sect409k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 285 };
@@ -1816,13 +1816,13 @@ protected:
   constexpr SecNamedCurves_Sect409r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect409r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect409r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect409r1Holder(SecNamedCurves_Sect409r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect409r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect409r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect409r1Holder(SecNamedCurves_Sect409r1Holder const&) = delete;
+  SecNamedCurves_Sect409r1Holder(SecNamedCurves_Sect409r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 286 };
@@ -1867,13 +1867,13 @@ protected:
   constexpr SecNamedCurves_Sect571k1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect571k1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect571k1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect571k1Holder(SecNamedCurves_Sect571k1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect571k1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect571k1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect571k1Holder(SecNamedCurves_Sect571k1Holder const&) = delete;
+  SecNamedCurves_Sect571k1Holder(SecNamedCurves_Sect571k1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 287 };
@@ -1924,13 +1924,13 @@ protected:
   constexpr SecNamedCurves_Sect571r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect571r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect571r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves_Sect571r1Holder(SecNamedCurves_Sect571r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect571r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves_Sect571r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves_Sect571r1Holder(SecNamedCurves_Sect571r1Holder const&) = delete;
+  SecNamedCurves_Sect571r1Holder(SecNamedCurves_Sect571r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 288 };
@@ -2088,13 +2088,13 @@ protected:
   constexpr SecNamedCurves();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves(SecNamedCurves&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SecNamedCurves(SecNamedCurves const&) = delete;
+  SecNamedCurves(SecNamedCurvesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 289 };

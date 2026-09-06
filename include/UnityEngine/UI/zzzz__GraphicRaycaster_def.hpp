@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\GraphicRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine/UI/GraphicRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +93,7 @@ public:
   // @brief default ctor
   constexpr GraphicRaycaster_BlockingObjects();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GraphicRaycaster_BlockingObjects(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(3)
@@ -125,6 +125,7 @@ static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster_BlockingObjects, valu
 static_assert(sizeof(::UnityEngine::UI::GraphicRaycaster_BlockingObjects) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -160,13 +161,13 @@ protected:
   constexpr GraphicRaycaster___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphicRaycaster___c(GraphicRaycaster___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphicRaycaster___c(GraphicRaycaster___c const&) = delete;
+  GraphicRaycaster___c(GraphicRaycaster___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17414 };
@@ -177,6 +178,8 @@ public:
 static_assert(sizeof(::UnityEngine::UI::GraphicRaycaster___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("Event/Graphic Raycaster")]
+// [RequireComponent(typeof(UnityEngine.Canvas))]
 // Dependencies UnityEngine.EventSystems.BaseRaycaster, UnityEngine.LayerMask, UnityEngine.UI.GraphicRaycaster::BlockingObjects
 namespace UnityEngine::UI {
 // Is value type: false
@@ -304,13 +307,13 @@ protected:
   constexpr GraphicRaycaster();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphicRaycaster(GraphicRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GraphicRaycaster", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GraphicRaycaster(GraphicRaycaster const&) = delete;
+  GraphicRaycaster(GraphicRaycasterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17415 };
@@ -318,12 +321,17 @@ public:
   /// @brief Field kNoEventMaskSet offset 0xffffffff size 0x4
   static constexpr int32_t kNoEventMaskSet{ static_cast<int32_t>(0xffffffff) };
 
+  /// [FormerlySerializedAs("ignoreReversedGraphics")]
+  /// [SerializeField]
   /// @brief Field m_IgnoreReversedGraphics, offset: 0x28, size: 0x1, def value: None
   bool ___m_IgnoreReversedGraphics;
 
+  /// [FormerlySerializedAs("blockingObjects")]
+  /// [SerializeField]
   /// @brief Field m_BlockingObjects, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::UI::GraphicRaycaster_BlockingObjects ___m_BlockingObjects;
 
+  /// [SerializeField]
   /// @brief Field m_BlockingMask, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_BlockingMask;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\XmlObjectSerializerContext.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/XmlObjectSerializerContext.hpp"
 #include "System/Runtime/Serialization/zzzz__ScopedKnownTypes_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

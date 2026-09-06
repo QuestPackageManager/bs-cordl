@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetEventSource.hpp"
+// IWYU pragma private; include "System/Net/NetEventSource.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventKeywords_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -334,19 +334,20 @@ inline void System::Net::NetEventSource::setStaticF_Log(::System::Net::NetEventS
 inline ::System::Net::NetEventSource* System::Net::NetEventSource::getStaticF_Log() {
   return ::cordl_internals::getStaticField<::System::Net::NetEventSource*, "Log", ::System::Net::NetEventSource*>();
 }
-inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName) {
+inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(),
                                                            { "Enter", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::FormattableString*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, thisOrContextObject, formattableString, memberName);
 }
-inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName) {
+inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(),
                                                            { "Enter", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, thisOrContextObject, arg0, memberName);
 }
-inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::StringW memberName) {
+inline void System::Net::NetEventSource::Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2,
+                                               /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(), { "Enter",
@@ -361,13 +362,13 @@ inline void System::Net::NetEventSource::Enter(::StringW thisOrContextObject, ::
                    (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(), { "Enter", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, thisOrContextObject, memberName, parameters);
 }
-inline void System::Net::NetEventSource::Exit(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName) {
+inline void System::Net::NetEventSource::Exit(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(),
                                                            { "Exit", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::FormattableString*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, thisOrContextObject, formattableString, memberName);
 }
-inline void System::Net::NetEventSource::Exit(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName) {
+inline void System::Net::NetEventSource::Exit(::System::Object* thisOrContextObject, ::System::Object* arg0, /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(),
                                                            { "Exit", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
@@ -379,13 +380,13 @@ inline void System::Net::NetEventSource::Exit(::StringW thisOrContextObject, ::S
                    (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(), { "Exit", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, thisOrContextObject, memberName, result);
 }
-inline void System::Net::NetEventSource::Info(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName) {
+inline void System::Net::NetEventSource::Info(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(),
                                                            { "Info", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::FormattableString*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, thisOrContextObject, formattableString, memberName);
 }
-inline void System::Net::NetEventSource::Info(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName) {
+inline void System::Net::NetEventSource::Info(::System::Object* thisOrContextObject, ::System::Object* message, /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(),
                                                            { "Info", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
@@ -397,7 +398,7 @@ inline void System::Net::NetEventSource::Info(::StringW thisOrContextObject, ::S
                    (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(), { "Info", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, thisOrContextObject, memberName, message);
 }
-inline void System::Net::NetEventSource::Error(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName) {
+inline void System::Net::NetEventSource::Error(::System::Object* thisOrContextObject, ::System::Object* message, /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(),
                                                            { "Error", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
@@ -409,7 +410,7 @@ inline void System::Net::NetEventSource::ErrorMessage(::StringW thisOrContextObj
       (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(), { "ErrorMessage", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, thisOrContextObject, memberName, message);
 }
-inline void System::Net::NetEventSource::Fail(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName) {
+inline void System::Net::NetEventSource::Fail(::System::Object* thisOrContextObject, ::System::Object* message, /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(),
                                                            { "Fail", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));
@@ -421,7 +422,7 @@ inline void System::Net::NetEventSource::CriticalFailure(::StringW thisOrContext
       (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(), { "CriticalFailure", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, thisOrContextObject, memberName, message);
 }
-inline void System::Net::NetEventSource::Associate(::System::Object* first, ::System::Object* second, ::StringW memberName) {
+inline void System::Net::NetEventSource::Associate(::System::Object* first, ::System::Object* second, /* [CallerMemberName] */ ::StringW memberName) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetEventSource*>(),
                                                            { "Associate", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::StringW>() } })));

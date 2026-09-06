@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Eyes.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Eyes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,10 +88,11 @@ public:
   // @brief default ctor
   constexpr Eyes();
 
-  // Ctor Parameters [CppParam { name: "m_LeftEyePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_LeftEyeRotation", ty: "::UnityEngine::Quaternion",
-  // modifiers: "", def_value: None }, CppParam { name: "m_RightEyePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_RightEyeRotation", ty:
-  // "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "m_FixationPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name:
-  // "m_LeftEyeOpenAmount", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_RightEyeOpenAmount", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_LeftEyePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LeftEyeRotation", ty:
+  // "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RightEyePosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_RightEyeRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_FixationPoint", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LeftEyeOpenAmount", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_RightEyeOpenAmount",
+  // ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr Eyes(::UnityEngine::Vector3 m_LeftEyePosition, ::UnityEngine::Quaternion m_LeftEyeRotation, ::UnityEngine::Vector3 m_RightEyePosition, ::UnityEngine::Quaternion m_RightEyeRotation,
                  ::UnityEngine::Vector3 m_FixationPoint, float_t m_LeftEyeOpenAmount, float_t m_RightEyeOpenAmount) noexcept;
 

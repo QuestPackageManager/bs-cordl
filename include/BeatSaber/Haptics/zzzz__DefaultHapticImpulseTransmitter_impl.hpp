@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Haptics\DefaultHapticImpulseTransmitter.hpp"
+// IWYU pragma private; include "BeatSaber/Haptics/DefaultHapticImpulseTransmitter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "BeatSaber/Haptics/zzzz__DefaultHapticImpulseTransmitter_def.hpp"

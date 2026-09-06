@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Processors\NormalizeVector3Processor.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Processors/NormalizeVector3Processor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ protected:
   constexpr NormalizeVector3Processor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NormalizeVector3Processor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NormalizeVector3Processor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NormalizeVector3Processor(NormalizeVector3Processor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NormalizeVector3Processor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NormalizeVector3Processor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NormalizeVector3Processor(NormalizeVector3Processor const&) = delete;
+  NormalizeVector3Processor(NormalizeVector3Processorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9083 };

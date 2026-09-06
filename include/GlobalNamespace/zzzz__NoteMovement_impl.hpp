@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteMovement.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteMovement.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
@@ -778,8 +778,8 @@ inline float_t GlobalNamespace::NoteMovement::get_distanceToPlayer() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteMovement*>(), { "get_distanceToPlayer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::NoteMovement::Init(float_t noteTime, float_t worldRotation, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t flipYSide, float_t endRotation,
-                                                bool rotateTowardsPlayer, bool useRandomRotation) {
+inline void GlobalNamespace::NoteMovement::Init(float_t noteTime, float_t worldRotation, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t flipYSide,
+                                                float_t endRotation, bool rotateTowardsPlayer, bool useRandomRotation) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteMovement*>(), { "Init",

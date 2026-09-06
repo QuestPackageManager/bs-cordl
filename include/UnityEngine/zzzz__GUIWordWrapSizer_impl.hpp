@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\GUIWordWrapSizer.hpp"
+// IWYU pragma private; include "UnityEngine/GUIWordWrapSizer.hpp"
 #include "UnityEngine/zzzz__GUILayoutEntry_impl.hpp"
 #include "UnityEngine/zzzz__GUIWordWrapSizer_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\HandInteractionProfile.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/HandInteractionProfile.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__HandInteractionProfile_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Pool\PoolManager.hpp"
+// IWYU pragma private; include "UnityEngine/Pool/PoolManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,7 +9,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> class WeakReference_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class WeakReference_1;
 }
 namespace UnityEngine::Pool {
 class IPool;
@@ -45,13 +47,13 @@ protected:
   constexpr PoolManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoolManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolManager(PoolManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoolManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PoolManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PoolManager(PoolManager const&) = delete;
+  PoolManager(PoolManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10646 };

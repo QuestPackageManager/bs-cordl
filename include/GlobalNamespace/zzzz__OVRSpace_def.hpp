@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSpace.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSpace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ MARK_VAL_T(::GlobalNamespace::OVRSpace_StorageLocation);
 MARK_VAL_T(::GlobalNamespace::OVRSpace);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRSpace_StorageLocation, "", "OVRSpace/StorageLocation");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRSpace, "", "OVRSpace");
+// [Obsolete("Anchor APIs no longer require a storage location.")]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -60,7 +61,7 @@ public:
   // @brief default ctor
   constexpr OVRSpace_StorageLocation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpace_StorageLocation(int32_t value__) noexcept;
 
   /// @brief Field Cloud value: I32(1)
@@ -86,6 +87,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSpace_StorageLocation, value__) == 
 static_assert(sizeof(::GlobalNamespace::OVRSpace_StorageLocation) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [IsReadOnly]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -120,6 +122,7 @@ public:
   /// @brief Method .ctor, addr 0x5ed1778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t handle);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Handle, addr 0x5ed1700, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
@@ -145,7 +148,7 @@ public:
   // @brief default ctor
   constexpr OVRSpace();
 
-  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_Handle_k__BackingField", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr OVRSpace(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -154,6 +157,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Handle>k__BackingField, offset: 0x0, size: 0x8, def value: None
   uint64_t _Handle_k__BackingField;
 

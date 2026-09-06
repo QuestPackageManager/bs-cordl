@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "JetBrains\Annotations\CollectionAccessType.hpp"
+// IWYU pragma private; include "JetBrains/Annotations/CollectionAccessType.hpp"
 #include "JetBrains/Annotations/zzzz__CollectionAccessType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::JetBrains::Annotations::CollectionAccessType::CollectionAccessType(int32_t value__) noexcept {
   this->value__ = value__;
 }

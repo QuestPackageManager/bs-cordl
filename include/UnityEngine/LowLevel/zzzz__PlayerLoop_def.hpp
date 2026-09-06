@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LowLevel\PlayerLoop.hpp"
+// IWYU pragma private; include "UnityEngine/LowLevel/PlayerLoop.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ class PlayerLoop;
 // Write type traits
 MARK_REF_T(::UnityEngine::LowLevel::PlayerLoop*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LowLevel::PlayerLoop*, "UnityEngine.LowLevel", "PlayerLoop");
+// [MovedFrom("UnityEngine.Experimental.LowLevel")]
 // Dependencies System.Object
 namespace UnityEngine::LowLevel {
 // Is value type: false
@@ -33,6 +34,7 @@ public:
   /// @brief Method GetCurrentPlayerLoop, addr 0x6b014d0, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevel::PlayerLoopSystem GetCurrentPlayerLoop();
 
+  /// [NativeMethod(IsFreeFunction = true)]
   /// @brief Method GetCurrentPlayerLoopInternal, addr 0x6b0153c, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal> GetCurrentPlayerLoopInternal();
 
@@ -46,6 +48,7 @@ public:
   /// @brief Method SetPlayerLoop, addr 0x6b0175c, size 0xe8, virtual false, abstract: false, final false
   static inline void SetPlayerLoop(::UnityEngine::LowLevel::PlayerLoopSystem loop);
 
+  /// [NativeMethod(IsFreeFunction = true)]
   /// @brief Method SetPlayerLoopInternal, addr 0x6b019f0, size 0x3c, virtual false, abstract: false, final false
   static inline void SetPlayerLoopInternal(::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal> loop);
 
@@ -55,13 +58,13 @@ protected:
   constexpr PlayerLoop();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoop", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoop", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerLoop(PlayerLoop&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoop", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoop", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlayerLoop(PlayerLoop const&) = delete;
+  PlayerLoop(PlayerLoopconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10496 };

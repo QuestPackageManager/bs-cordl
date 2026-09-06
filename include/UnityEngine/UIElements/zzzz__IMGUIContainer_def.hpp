@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\IMGUIContainer.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/IMGUIContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,6 +86,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer*, "UnityEngine.UIE
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer_UxmlFactory*, "UnityEngine.UIElements", "IMGUIContainer/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer_UxmlTraits*, "UnityEngine.UIElements", "IMGUIContainer/UxmlTraits");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::IMGUIContainer_GUIGlobals, "UnityEngine.UIElements", "IMGUIContainer/GUIGlobals");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -104,13 +105,13 @@ protected:
   constexpr IMGUIContainer_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IMGUIContainer_UxmlFactory(IMGUIContainer_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUIContainer_UxmlFactory(IMGUIContainer_UxmlFactory const&) = delete;
+  IMGUIContainer_UxmlFactory(IMGUIContainer_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4607 };
@@ -121,6 +122,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::IMGUIContainer_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -139,13 +141,13 @@ protected:
   constexpr IMGUIContainer_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IMGUIContainer_UxmlTraits(IMGUIContainer_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUIContainer_UxmlTraits(IMGUIContainer_UxmlTraits const&) = delete;
+  IMGUIContainer_UxmlTraits(IMGUIContainer_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4608 };
@@ -167,10 +169,11 @@ public:
   // @brief default ctor
   constexpr IMGUIContainer_GUIGlobals();
 
-  // Ctor Parameters [CppParam { name: "matrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None
-  // }, CppParam { name: "contentColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "backgroundColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None },
-  // CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "changed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "displayIndex", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "pixelsPerPoint", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "matrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "contentColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "backgroundColor", ty:
+  // "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "changed", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "displayIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "pixelsPerPoint", ty:
+  // "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr IMGUIContainer_GUIGlobals(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Color color, ::UnityEngine::Color contentColor, ::UnityEngine::Color backgroundColor, bool enabled, bool changed,
                                       int32_t displayIndex, float_t pixelsPerPoint) noexcept;
 
@@ -251,11 +254,13 @@ public:
 
   __declspec(property(get = get_canGrabFocus)) bool canGrabFocus;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_contextType, put = set_contextType)) ::UnityEngine::UIElements::ContextType contextType;
 
   /// @brief Field contextTypeProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_contextTypeProperty, put = setStaticF_contextTypeProperty)) ::UnityEngine::UIElements::BindingId contextTypeProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_cullingEnabled, put = set_cullingEnabled)) bool cullingEnabled;
 
   /// @brief Field cullingEnabledProperty, offset 0xffffffff, size 0x98
@@ -373,9 +378,15 @@ public:
   static inline void GetCurrentTransformAndClip(::UnityEngine::UIElements::IMGUIContainer* container, ::UnityEngine::Event* evt, ::by_ref<::UnityEngine::Matrix4x4> transform,
                                                 ::by_ref<::UnityEngine::Rect> clipRect);
 
+  /// [EventInterest((UnityEngine.UIElements.EventInterestOptionsInternal)426094)]
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.NavigationMoveEvent), typeof(UnityEngine.UIElements.NavigationSubmitEvent), typeof(UnityEngine.UIElements.NavigationCancelEvent),
+  /// typeof(UnityEngine.UIElements.BlurEvent), typeof(UnityEngine.UIElements.FocusEvent), typeof(UnityEngine.UIElements.DetachFromPanelEvent), typeof(UnityEngine.UIElements.AttachToPanelEvent) })]
   /// @brief Method HandleEventBubbleUp, addr 0x6db5024, size 0x4cc, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
+  /// [EventInterest(new[] { typeof(UnityEngine.UIElements.NavigationMoveEvent), typeof(UnityEngine.UIElements.NavigationSubmitEvent), typeof(UnityEngine.UIElements.NavigationCancelEvent),
+  /// typeof(UnityEngine.UIElements.BlurEvent), typeof(UnityEngine.UIElements.FocusEvent), typeof(UnityEngine.UIElements.DetachFromPanelEvent), typeof(UnityEngine.UIElements.AttachToPanelEvent) })]
+  /// [EventInterest((UnityEngine.UIElements.EventInterestOptionsInternal)426094)]
   /// @brief Method HandleEventBubbleUpDisabled, addr 0x6db5018, size 0xc, virtual true, abstract: false, final false
   inline void HandleEventBubbleUpDisabled(::UnityEngine::UIElements::EventBase* evt);
 
@@ -428,6 +439,7 @@ public:
   /// @brief Method VerifyBounds, addr 0x6db46ac, size 0xa0, virtual false, abstract: false, final false
   inline bool VerifyBounds(::UnityEngine::UIElements::EventBase* evt);
 
+  /// [CompilerGenerated]
   /// @brief Method <DoOnGUI>b__59_0, addr 0x6db59c0, size 0x24, virtual false, abstract: false, final false
   inline void _DoOnGUI_b__59_0();
 
@@ -577,12 +589,14 @@ public:
   /// @brief Method get_cullingEnabled, addr 0x6db1d88, size 0x8, virtual false, abstract: false, final false
   inline bool get_cullingEnabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_focusOnlyIfHasFocusableControls, addr 0x6db1f98, size 0x8, virtual false, abstract: false, final false
   inline bool get_focusOnlyIfHasFocusableControls();
 
   /// @brief Method get_guiState, addr 0x6db1c80, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::ObjectGUIState* get_guiState();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lastWorldClip, addr 0x6db1d60, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_lastWorldClip();
 
@@ -624,6 +638,7 @@ public:
   /// @brief Method set_cullingEnabled, addr 0x6db1d90, size 0xb0, virtual false, abstract: false, final false
   inline void set_cullingEnabled(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_lastWorldClip, addr 0x6db1d74, size 0x14, virtual false, abstract: false, final false
   inline void set_lastWorldClip(::UnityEngine::Rect value);
 
@@ -636,13 +651,13 @@ protected:
   constexpr IMGUIContainer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IMGUIContainer(IMGUIContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMGUIContainer(IMGUIContainer const&) = delete;
+  IMGUIContainer(IMGUIContainerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4610 };
@@ -656,6 +671,8 @@ public:
   /// @brief Field useOwnerObjectGUIState, offset: 0x4b8, size: 0x1, def value: None
   bool ___useOwnerObjectGUIState;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <lastWorldClip>k__BackingField, offset: 0x4bc, size: 0x10, def value: None
   ::UnityEngine::Rect ____lastWorldClip_k__BackingField;
 
@@ -695,6 +712,8 @@ public:
   /// @brief Field newKeyboardFocusControlID, offset: 0x53c, size: 0x4, def value: None
   int32_t ___newKeyboardFocusControlID;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <focusOnlyIfHasFocusableControls>k__BackingField, offset: 0x540, size: 0x1, def value: None
   bool ____focusOnlyIfHasFocusableControls_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\FieldMouseDragger_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/FieldMouseDragger_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ template <typename T> class FieldMouseDragger_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::FieldMouseDragger_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::FieldMouseDragger_1, "UnityEngine.UIElements", "FieldMouseDragger`1");
+// [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 // Dependencies UnityEngine.Rect, UnityEngine.UIElements.BaseFieldMouseDragger
 namespace UnityEngine::UIElements {
 // cpp template
@@ -131,15 +132,19 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IValueField_1<T>* drivenField);
 
+  /// [CompilerGenerated]
   /// @brief Method get_dragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_dragging();
 
+  /// [CompilerGenerated]
   /// @brief Method get_startValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_startValue();
 
+  /// [CompilerGenerated]
   /// @brief Method set_dragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dragging(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_startValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_startValue(T value);
 
@@ -149,13 +154,13 @@ protected:
   constexpr FieldMouseDragger_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FieldMouseDragger_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FieldMouseDragger_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FieldMouseDragger_1(FieldMouseDragger_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FieldMouseDragger_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FieldMouseDragger_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FieldMouseDragger_1(FieldMouseDragger_1 const&) = delete;
+  FieldMouseDragger_1(FieldMouseDragger_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4578 };
@@ -169,9 +174,13 @@ public:
   /// @brief Field m_DragHotZone, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_DragHotZone;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <dragging>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____dragging_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <startValue>k__BackingField, offset: 0x38, size: 0x8, def value: None
   T ____startValue_k__BackingField;
 

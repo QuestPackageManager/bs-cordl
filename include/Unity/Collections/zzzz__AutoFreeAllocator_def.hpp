@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\AutoFreeAllocator.hpp"
+// IWYU pragma private; include "Unity/Collections/AutoFreeAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,6 +64,7 @@ MARK_VAL_T(::Unity::Collections::AutoFreeAllocator);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::AutoFreeAllocator_Try_000000E3$BurstDirectCall*, "Unity.Collections", "AutoFreeAllocator/Try_000000E3$BurstDirectCall");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate*, "Unity.Collections", "AutoFreeAllocator/Try_000000E3$PostfixBurstDelegate");
 DEFINE_IL2CPP_CLASS(::Unity::Collections::AutoFreeAllocator, "Unity.Collections", "AutoFreeAllocator");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)2)]
 // Dependencies System.MulticastDelegate
 namespace Unity::Collections {
 // Is value type: false
@@ -93,13 +94,13 @@ protected:
   constexpr AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate(AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate(AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate const&) = delete;
+  AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate(AutoFreeAllocator_Try_000000E3$PostfixBurstDelegateconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15548 };
@@ -123,6 +124,7 @@ public:
   /// @brief Method GetFunctionPointer, addr 0x64aaac4, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
+  /// [BurstDiscard]
   /// @brief Method GetFunctionPointerDiscard, addr 0x64aa9b8, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
@@ -139,13 +141,13 @@ protected:
   constexpr AutoFreeAllocator_Try_000000E3$BurstDirectCall();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$BurstDirectCall", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$BurstDirectCall", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutoFreeAllocator_Try_000000E3$BurstDirectCall(AutoFreeAllocator_Try_000000E3$BurstDirectCall&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$BurstDirectCall", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoFreeAllocator_Try_000000E3$BurstDirectCall", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutoFreeAllocator_Try_000000E3$BurstDirectCall(AutoFreeAllocator_Try_000000E3$BurstDirectCall const&) = delete;
+  AutoFreeAllocator_Try_000000E3$BurstDirectCall(AutoFreeAllocator_Try_000000E3$BurstDirectCallconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15549 };
@@ -156,6 +158,7 @@ public:
 static_assert(sizeof(::Unity::Collections::AutoFreeAllocator_Try_000000E3$BurstDirectCall) == 0x10, "Size mismatch!");
 
 } // namespace Unity::Collections
+// [BurstCompile]
 // Dependencies System.IntPtr, Unity.Collections.AllocatorManager::AllocatorHandle, Unity.Collections.ArrayOfArrays`1<T>
 namespace Unity::Collections {
 // Is value type: true
@@ -195,9 +198,13 @@ public:
   /// @brief Method Try, addr 0x64aa6c0, size 0xd8, virtual true, abstract: false, final true
   inline int32_t Try(::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
+  /// [BurstCompile]
+  /// [MonoPInvokeCallback(typeof(Unity.Collections.AllocatorManager::TryFunction))]
   /// @brief Method Try, addr 0x64aa320, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try(::System::IntPtr state, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
+  /// [BurstCompile]
+  /// [MonoPInvokeCallback(typeof(Unity.Collections.AllocatorManager::TryFunction))]
   /// @brief Method Try$BurstManaged, addr 0x64aa868, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try$BurstManaged(::System::IntPtr state, ::by_ref<::Unity::Collections::AllocatorManager_Block> block);
 
@@ -232,9 +239,10 @@ public:
   // @brief default ctor
   constexpr AutoFreeAllocator();
 
-  // Ctor Parameters [CppParam { name: "m_allocated", ty: "::Unity::Collections::ArrayOfArrays_1<::System::IntPtr>", modifiers: "", def_value: None }, CppParam { name: "m_tofree", ty:
-  // "::Unity::Collections::ArrayOfArrays_1<::System::IntPtr>", modifiers: "", def_value: None }, CppParam { name: "m_handle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers:
-  // "", def_value: None }, CppParam { name: "m_backingAllocatorHandle", ty: "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_allocated", ty: "::Unity::Collections::ArrayOfArrays_1<::System::IntPtr>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_tofree", ty:
+  // "::Unity::Collections::ArrayOfArrays_1<::System::IntPtr>", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_handle", ty:
+  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_backingAllocatorHandle", ty:
+  // "::Unity::Collections::AllocatorManager_AllocatorHandle", modifiers: "", def_value: None, comment: None }]
   constexpr AutoFreeAllocator(::Unity::Collections::ArrayOfArrays_1<::System::IntPtr> m_allocated, ::Unity::Collections::ArrayOfArrays_1<::System::IntPtr> m_tofree,
                               ::Unity::Collections::AllocatorManager_AllocatorHandle m_handle, ::Unity::Collections::AllocatorManager_AllocatorHandle m_backingAllocatorHandle) noexcept;
 

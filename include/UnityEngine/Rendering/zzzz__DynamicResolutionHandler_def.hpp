@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DynamicResolutionHandler.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DynamicResolutionHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,8 +33,8 @@ public:
   // @brief default ctor
   constexpr DynamicResolutionHandler_ScalerContainer();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::Rendering::DynamicResScalePolicyType", modifiers: "", def_value: None }, CppParam { name: "method", ty:
-  // "::UnityEngine::Rendering::PerformDynamicRes*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::Rendering::DynamicResScalePolicyType", modifiers: "", def_value: None, comment: None }, CppParam { name: "method", ty:
+  // "::UnityEngine::Rendering::PerformDynamicRes*", modifiers: "", def_value: None, comment: None }]
   constexpr DynamicResolutionHandler_ScalerContainer(::UnityEngine::Rendering::DynamicResScalePolicyType type, ::UnityEngine::Rendering::PerformDynamicRes* method) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -89,7 +89,7 @@ public:
   // @brief default ctor
   constexpr DynamicResolutionHandler_UpsamplerScheduleType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DynamicResolutionHandler_UpsamplerScheduleType(int32_t value__) noexcept;
 
   /// @brief Field AfterDepthOfField value: I32(1)

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonString.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,12 +50,15 @@ public:
   /// @brief Method .ctor, addr 0x5dae50c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, bool includeLength);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ByteCount, addr 0x5dae868, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ByteCount();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IncludeLength, addr 0x5dae878, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeLength();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ByteCount, addr 0x5dae870, size 0x8, virtual false, abstract: false, final false
   inline void set_ByteCount(int32_t value);
 
@@ -65,20 +68,22 @@ protected:
   constexpr BsonString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BsonString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonString(BsonString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BsonString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BsonString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BsonString(BsonString const&) = delete;
+  BsonString(BsonStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13702 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ByteCount>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____ByteCount_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IncludeLength>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____IncludeLength_k__BackingField;
 

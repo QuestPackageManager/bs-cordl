@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OtherSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/OtherSettingsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,29 +115,37 @@ protected:
   constexpr OtherSettingsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OtherSettingsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OtherSettingsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OtherSettingsViewController(OtherSettingsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OtherSettingsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OtherSettingsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OtherSettingsViewController(OtherSettingsViewController const&) = delete;
+  OtherSettingsViewController(OtherSettingsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6470 };
 
+  /// [Header("Required")]
+  /// [SerializeField]
   /// @brief Field _hideExplicitWarning, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____hideExplicitWarning;
 
+  /// [SerializeField]
   /// @brief Field _hideExplicitToggle, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____hideExplicitToggle;
 
+  /// [Header("Optional")]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _pausePressDuration, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedIntListSettingsController> ____pausePressDuration;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

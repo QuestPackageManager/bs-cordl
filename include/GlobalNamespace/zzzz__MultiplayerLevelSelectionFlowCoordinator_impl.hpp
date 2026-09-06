@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLevelSelectionFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelSelectionFlowCoordinator.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelSelectionFlowCoordinator_impl.hpp"

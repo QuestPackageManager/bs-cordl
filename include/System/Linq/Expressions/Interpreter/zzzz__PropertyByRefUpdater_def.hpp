@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\PropertyByRefUpdater.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/PropertyByRefUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace System::Reflection {
 class PropertyInfo;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -79,13 +81,13 @@ protected:
   constexpr PropertyByRefUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyByRefUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyByRefUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyByRefUpdater(PropertyByRefUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyByRefUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyByRefUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyByRefUpdater(PropertyByRefUpdater const&) = delete;
+  PropertyByRefUpdater(PropertyByRefUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16448 };

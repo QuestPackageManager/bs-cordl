@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\Encoding.hpp"
+// IWYU pragma private; include "System/Text/Encoding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -183,13 +183,13 @@ protected:
   constexpr Encoding_DefaultEncoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultEncoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultEncoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Encoding_DefaultEncoder(Encoding_DefaultEncoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultEncoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultEncoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding_DefaultEncoder(Encoding_DefaultEncoder const&) = delete;
+  Encoding_DefaultEncoder(Encoding_DefaultEncoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2889 };
@@ -292,13 +292,13 @@ protected:
   constexpr Encoding_DefaultDecoder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultDecoder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultDecoder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Encoding_DefaultDecoder(Encoding_DefaultDecoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultDecoder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding_DefaultDecoder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding_DefaultDecoder(Encoding_DefaultDecoder const&) = delete;
+  Encoding_DefaultDecoder(Encoding_DefaultDecoderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2890 };
@@ -461,13 +461,13 @@ protected:
   constexpr Encoding_EncodingCharBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingCharBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingCharBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Encoding_EncodingCharBuffer(Encoding_EncodingCharBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingCharBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingCharBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding_EncodingCharBuffer(Encoding_EncodingCharBuffer const&) = delete;
+  Encoding_EncodingCharBuffer(Encoding_EncodingCharBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2891 };
@@ -670,13 +670,13 @@ protected:
   constexpr Encoding_EncodingByteBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingByteBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingByteBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Encoding_EncodingByteBuffer(Encoding_EncodingByteBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingByteBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding_EncodingByteBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding_EncodingByteBuffer(Encoding_EncodingByteBuffer const&) = delete;
+  Encoding_EncodingByteBuffer(Encoding_EncodingByteBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2892 };
@@ -737,6 +737,7 @@ static_assert(offsetof(::System::Text::Encoding_EncodingByteBuffer, ___fallbackB
 static_assert(sizeof(::System::Text::Encoding_EncodingByteBuffer) == 0x60, "Size mismatch!");
 
 } // namespace System::Text
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Text {
 // Is value type: false
@@ -754,12 +755,15 @@ public:
 
   __declspec(property(get = get_CodePage)) int32_t CodePage;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_DecoderFallback, put = set_DecoderFallback)) ::System::Text::DecoderFallback* DecoderFallback;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_EncoderFallback, put = set_EncoderFallback)) ::System::Text::EncoderFallback* EncoderFallback;
 
   __declspec(property(get = get_EncodingName)) ::StringW EncodingName;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
   __declspec(property(get = get_Preamble)) ::System::ReadOnlySpan_1<uint8_t> Preamble;
@@ -817,6 +821,7 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
+  /// [ComVisible(false)]
   /// @brief Method Clone, addr 0x5aea044, size 0x88, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
@@ -835,12 +840,14 @@ public:
   /// @brief Method GetBestFitUnicodeToBytesData, addr 0x5aeb300, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<char16_t> GetBestFitUnicodeToBytesData();
 
-  /// @brief Method GetByteCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
   /// @brief Method GetByteCount, addr 0x5aeb5b0, size 0x94, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::System::ReadOnlySpan_1<char16_t> chars);
 
+  /// [CLSCompliant(false)]
+  /// [ComVisible(false)]
   /// @brief Method GetByteCount, addr 0x5aea15c, size 0x158, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t count);
 
@@ -859,12 +866,14 @@ public:
   /// @brief Method GetBytes, addr 0x5aea400, size 0x104, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetBytes(::StringW s);
 
-  /// @brief Method GetBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
   /// @brief Method GetBytes, addr 0x5aeb644, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetBytes(::System::ReadOnlySpan_1<char16_t> chars, ::System::Span_1<uint8_t> bytes);
 
+  /// [ComVisible(false)]
+  /// [CLSCompliant(false)]
   /// @brief Method GetBytes, addr 0x5aea5c0, size 0x208, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount);
 
@@ -874,9 +883,11 @@ public:
   /// @brief Method GetBytes, addr 0x5aea504, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetBytes(::StringW s, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
-  /// @brief Method GetCharCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
+  /// [ComVisible(false)]
+  /// [CLSCompliant(false)]
   /// @brief Method GetCharCount, addr 0x5aea7c8, size 0x15c, virtual true, abstract: false, final false
   inline int32_t GetCharCount(uint8_t* bytes, int32_t count);
 
@@ -886,12 +897,14 @@ public:
   /// @brief Method GetChars, addr 0x5aea934, size 0xc0, virtual true, abstract: false, final false
   inline ::ArrayW<char16_t> GetChars(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   /// @brief Method GetChars, addr 0x5aeacdc, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetChars(::System::ReadOnlySpan_1<uint8_t> bytes, ::System::Span_1<char16_t> chars);
 
+  /// [ComVisible(false)]
+  /// [CLSCompliant(false)]
   /// @brief Method GetChars, addr 0x5aea9f4, size 0x204, virtual true, abstract: false, final false
   inline int32_t GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount);
 
@@ -919,10 +932,10 @@ public:
   /// @brief Method GetHashCode, addr 0x5aeb2a8, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetMaxByteCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMaxByteCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetMaxByteCount(int32_t charCount);
 
-  /// @brief Method GetMaxCharCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetMaxCharCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetMaxCharCount(int32_t byteCount);
 
   /// @brief Method GetPreamble, addr 0x5ae9e1c, size 0x5c, virtual true, abstract: false, final false
@@ -937,6 +950,8 @@ public:
   /// @brief Method GetString, addr 0x5aeadc8, size 0x88, virtual false, abstract: false, final false
   inline ::StringW GetString(::System::ReadOnlySpan_1<uint8_t> bytes);
 
+  /// [CLSCompliant(false)]
+  /// [ComVisible(false)]
   /// @brief Method GetString, addr 0x5aeac08, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW GetString(uint8_t* bytes, int32_t byteCount);
 
@@ -947,15 +962,18 @@ public:
   /// @brief Method OnDeserialized, addr 0x5ae7fac, size 0x3c, virtual false, abstract: false, final false
   inline void OnDeserialized();
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x5ae7ff8, size 0x3c, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
   /// @brief Method OnDeserializing, addr 0x5ae7f9c, size 0x10, virtual false, abstract: false, final false
   inline void OnDeserializing();
 
+  /// [OnDeserializing]
   /// @brief Method OnDeserializing, addr 0x5ae7fe8, size 0x10, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnSerializing]
   /// @brief Method OnSerializing, addr 0x5ae8034, size 0x8, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
@@ -1125,13 +1143,13 @@ protected:
   constexpr Encoding();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Encoding(Encoding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Encoding", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Encoding", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Encoding(Encoding const&) = delete;
+  Encoding(Encodingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2893 };
@@ -1145,12 +1163,15 @@ public:
   /// @brief Field m_deserializedFromEverett, offset: 0x20, size: 0x1, def value: None
   bool ___m_deserializedFromEverett;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_isReadOnly, offset: 0x21, size: 0x1, def value: None
   bool ___m_isReadOnly;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field encoderFallback, offset: 0x28, size: 0x8, def value: None
   ::System::Text::EncoderFallback* ___encoderFallback;
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field decoderFallback, offset: 0x30, size: 0x8, def value: None
   ::System::Text::DecoderFallback* ___decoderFallback;
 

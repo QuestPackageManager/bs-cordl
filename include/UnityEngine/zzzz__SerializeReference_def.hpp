@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SerializeReference.hpp"
+// IWYU pragma private; include "UnityEngine/SerializeReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class SerializeReference;
 // Write type traits
 MARK_REF_T(::UnityEngine::SerializeReference*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SerializeReference*, "UnityEngine", "SerializeReference");
+// [RequiredByNativeCode]
+// [AttributeUsage((System.AttributeTargets)256)]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -19,8 +21,10 @@ namespace UnityEngine {
 class CORDL_TYPE SerializeReference : public ::System::Attribute {
 public:
   // Declarations
+  /// @brief [ExcludeFromDocs]
   static inline ::UnityEngine::SerializeReference* New_ctor();
 
+  /// [ExcludeFromDocs]
   /// @brief Method .ctor, addr 0x6aec224, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
@@ -30,13 +34,13 @@ protected:
   constexpr SerializeReference();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializeReference", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializeReference", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializeReference(SerializeReference&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializeReference", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializeReference", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializeReference(SerializeReference const&) = delete;
+  SerializeReference(SerializeReferenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10391 };

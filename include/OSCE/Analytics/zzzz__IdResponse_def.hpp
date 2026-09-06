@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\IdResponse.hpp"
+// IWYU pragma private; include "OSCE/Analytics/IdResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,8 +24,9 @@ public:
   // @brief default ctor
   constexpr IdResponse();
 
-  // Ctor Parameters [CppParam { name: "rid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platform_rid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "platform_account_id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "game_specific_id", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "rid", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "platform_rid", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "platform_account_id", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "game_specific_id", ty: "::StringW", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr IdResponse(::StringW rid, ::StringW platform_rid, ::StringW platform_account_id, ::StringW game_specific_id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

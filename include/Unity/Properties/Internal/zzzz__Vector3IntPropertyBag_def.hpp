@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\Internal\Vector3IntPropertyBag.hpp"
+// IWYU pragma private; include "Unity/Properties/Internal/Vector3IntPropertyBag.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +77,13 @@ protected:
   constexpr Vector3IntPropertyBag_XProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_XProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_XProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector3IntPropertyBag_XProperty(Vector3IntPropertyBag_XProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_XProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_XProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector3IntPropertyBag_XProperty(Vector3IntPropertyBag_XProperty const&) = delete;
+  Vector3IntPropertyBag_XProperty(Vector3IntPropertyBag_XPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19733 };
@@ -128,13 +128,13 @@ protected:
   constexpr Vector3IntPropertyBag_YProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_YProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_YProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector3IntPropertyBag_YProperty(Vector3IntPropertyBag_YProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_YProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_YProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector3IntPropertyBag_YProperty(Vector3IntPropertyBag_YProperty const&) = delete;
+  Vector3IntPropertyBag_YProperty(Vector3IntPropertyBag_YPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19734 };
@@ -179,13 +179,13 @@ protected:
   constexpr Vector3IntPropertyBag_ZProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_ZProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_ZProperty", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector3IntPropertyBag_ZProperty(Vector3IntPropertyBag_ZProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_ZProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag_ZProperty", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector3IntPropertyBag_ZProperty(Vector3IntPropertyBag_ZProperty const&) = delete;
+  Vector3IntPropertyBag_ZProperty(Vector3IntPropertyBag_ZPropertyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19735 };
@@ -220,13 +220,13 @@ protected:
   constexpr Vector3IntPropertyBag();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector3IntPropertyBag(Vector3IntPropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3IntPropertyBag", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Vector3IntPropertyBag(Vector3IntPropertyBag const&) = delete;
+  Vector3IntPropertyBag(Vector3IntPropertyBagconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19736 };

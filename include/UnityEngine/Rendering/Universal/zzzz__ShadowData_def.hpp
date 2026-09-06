@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering::Universal {
 struct AdditionalLightsShadowAtlasLayout;
@@ -167,7 +169,7 @@ public:
   // @brief default ctor
   constexpr ShadowData();
 
-  // Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None, comment: None }]
   constexpr ShadowData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

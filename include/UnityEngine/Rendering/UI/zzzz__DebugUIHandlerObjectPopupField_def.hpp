@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerObjectPopupField.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerObjectPopupField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,13 +61,13 @@ protected:
   constexpr DebugUIHandlerObjectPopupField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObjectPopupField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObjectPopupField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerObjectPopupField(DebugUIHandlerObjectPopupField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObjectPopupField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerObjectPopupField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerObjectPopupField(DebugUIHandlerObjectPopupField const&) = delete;
+  DebugUIHandlerObjectPopupField(DebugUIHandlerObjectPopupFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12530 };

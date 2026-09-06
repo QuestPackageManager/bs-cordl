@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyFlattenedNodeChildren.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyFlattenedNodeChildren.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,8 @@ MARK_VAL_T(::Unity::Hierarchy::HierarchyFlattenedNodeChildren);
 MARK_VAL_T(::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyFlattenedNodeChildren, "Unity.Hierarchy", "HierarchyFlattenedNodeChildren");
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator, "Unity.Hierarchy", "HierarchyFlattenedNodeChildren/Enumerator");
+// [IsReadOnly]
+// [DefaultMember("Item")]
 // Dependencies Unity.Hierarchy.HierarchyNode
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -44,15 +46,15 @@ public:
   inline void ThrowIfVersionChanged();
 
   /// @brief Method .ctor, addr 0x6b3599c, size 0x1b0, virtual false, abstract: false, final false
-  inline void _ctor(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline void _ctor(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HierarchyFlattenedNodeChildren();
 
-  // Ctor Parameters [CppParam { name: "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: None }, CppParam { name: "m_Node", ty:
-  // "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Node", ty:
+  // "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "m_Count", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyFlattenedNodeChildren(::Unity::Hierarchy::HierarchyFlattened* m_HierarchyFlattened, ::Unity::Hierarchy::HierarchyNode m_Node, int32_t m_Version, int32_t m_Count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -94,6 +96,7 @@ namespace Unity::Hierarchy {
 struct CORDL_TYPE HierarchyFlattenedNodeChildren_Enumerator {
 public:
   // Declarations
+  /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::Unity::Hierarchy::HierarchyNode Current;
 
   /// @brief Method MoveNext, addr 0x6b35e04, size 0x1dc, virtual false, abstract: false, final false
@@ -109,10 +112,10 @@ public:
   // @brief default ctor
   constexpr HierarchyFlattenedNodeChildren_Enumerator();
 
-  // Ctor Parameters [CppParam { name: "m_Enumerable", ty: "::Unity::Hierarchy::HierarchyFlattenedNodeChildren", modifiers: "", def_value: None }, CppParam { name: "m_HierarchyFlattened", ty:
-  // "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: None }, CppParam { name: "m_Node", ty: "::Unity::Hierarchy::HierarchyNode", modifiers: "", def_value: None }, CppParam { name:
-  // "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ChildrenIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_ChildrenCount", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Enumerable", ty: "::Unity::Hierarchy::HierarchyFlattenedNodeChildren", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_HierarchyFlattened", ty: "::Unity::Hierarchy::HierarchyFlattened*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Node", ty: "::Unity::Hierarchy::HierarchyNode",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ChildrenIndex", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ChildrenCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HierarchyFlattenedNodeChildren_Enumerator(::Unity::Hierarchy::HierarchyFlattenedNodeChildren m_Enumerable, ::Unity::Hierarchy::HierarchyFlattened* m_HierarchyFlattened,
                                                       ::Unity::Hierarchy::HierarchyNode m_Node, int32_t m_CurrentIndex, int32_t m_ChildrenIndex, int32_t m_ChildrenCount) noexcept;
 

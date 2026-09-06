@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\HebrewNumberParsingContext.hpp"
+// IWYU pragma private; include "System/Globalization/HebrewNumberParsingContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,8 +28,8 @@ public:
   // @brief default ctor
   constexpr HebrewNumberParsingContext();
 
-  // Ctor Parameters [CppParam { name: "state", ty: "::System::Globalization::HebrewNumber_HS", modifiers: "", def_value: None }, CppParam { name: "result", ty: "int32_t", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "state", ty: "::System::Globalization::HebrewNumber_HS", modifiers: "", def_value: None, comment: None }, CppParam { name: "result", ty: "int32_t", modifiers:
+  // "", def_value: None, comment: None }]
   constexpr HebrewNumberParsingContext(::System::Globalization::HebrewNumber_HS state, int32_t result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphObjectPool.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphObjectPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphObjectPool_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphObjectPool_def.hpp"
@@ -59,6 +59,7 @@ inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_Shared
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase::RenderGraphObjectPool_SharedObjectPoolBase() {}
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::setStaticF___9(
     ::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*, "<>9",
@@ -66,75 +67,104 @@ inline void UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_Render
       std::forward<::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*>(value));
 }
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*
 UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*, "<>9",
                                            ::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*>();
 }
-template <typename T> inline void UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::setStaticF___9__1_0(::System::Func_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::setStaticF___9__1_0(::System::Func_1<T>* value) {
   ::cordl_internals::setStaticField<::System::Func_1<T>*, "<>9__1_0", ::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*>(
       std::forward<::System::Func_1<T>*>(value));
 }
-template <typename T> inline ::System::Func_1<T>* UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::getStaticF___9__1_0() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::System::Func_1<T>* UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::getStaticF___9__1_0() {
   return ::cordl_internals::getStaticField<::System::Func_1<T>*, "<>9__1_0", ::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*>();
 }
-template <typename T> inline void UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::_AllocatePool_b__1_0() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::_AllocatePool_b__1_0() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*>(), { "<AllocatePool>b__1_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*
 UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::SharedObjectPool_1_RenderGraphObjectPool___c() {}
-template <typename T> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::setStaticF_s_Pool(::UnityEngine::Pool::ObjectPool_1<T>* value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::Rendering::RenderGraphModule::SharedObjectPool_1_RenderGraphObjectPool___c<T>::SharedObjectPool_1_RenderGraphObjectPool___c() {}
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::setStaticF_s_Pool(::UnityEngine::Pool::ObjectPool_1<T>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Pool::ObjectPool_1<T>*, "s_Pool", ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>*>(
       std::forward<::UnityEngine::Pool::ObjectPool_1<T>*>(value));
 }
-template <typename T> inline ::UnityEngine::Pool::ObjectPool_1<T>* UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::getStaticF_s_Pool() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::UnityEngine::Pool::ObjectPool_1<T>* UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::getStaticF_s_Pool() {
   return ::cordl_internals::getStaticField<::UnityEngine::Pool::ObjectPool_1<T>*, "s_Pool", ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>*>();
 }
-template <typename T> inline ::UnityEngine::Pool::ObjectPool_1<T>* UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::AllocatePool() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::UnityEngine::Pool::ObjectPool_1<T>* UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::AllocatePool() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>*>(), { "AllocatePool", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Pool::ObjectPool_1<T>*>(nullptr, ___internal_method);
 }
-template <typename T> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::Clear() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::Clear() {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::Get() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::Get() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>*>(), { "Get", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method);
 }
-template <typename T> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::Release(T toRelease) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::Release(T toRelease) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>*>(), { "Release", {}, { ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, toRelease);
 }
-template <typename T> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::_ctor() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>* UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::RenderGraphObjectPool_SharedObjectPool_1() {}
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPool_1<T>::RenderGraphObjectPool_SharedObjectPool_1() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool._ctor
 template <>
 
@@ -267,13 +297,17 @@ inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::Re
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool*>(), { "ReleaseAllTempAlloc", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::Get() {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline T UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::Get() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool*>(), { "Get", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::Release(T value) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline void UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::Release(T value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool*>(), { "Release", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));

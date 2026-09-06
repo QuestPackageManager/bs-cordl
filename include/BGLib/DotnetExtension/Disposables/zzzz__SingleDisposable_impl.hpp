@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\Disposables\SingleDisposable.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/Disposables/SingleDisposable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/Disposables/zzzz__SingleDisposable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"

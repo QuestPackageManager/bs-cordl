@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\DelayedActionManager.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/DelayedActionManager.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_impl.hpp"
@@ -88,7 +88,7 @@ inline void UnityEngine::ResourceManagement::Util::DelayedActionManager_Delegate
 inline int32_t UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::getStaticF_s_Id() {
   return ::cordl_internals::getStaticField<int32_t, "s_Id", ::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>();
 }
-inline void UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::_ctor(::System::Delegate* d, float_t invocationTime, ::ArrayW<::System::Object*> p) {
+inline void UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::_ctor(::System::Delegate* d, float_t invocationTime, /* [ParamArray] */ ::ArrayW<::System::Object*> p) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>(),
                                                            { ".ctor", {}, { ::i2c::type_of<::System::Delegate*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
@@ -115,9 +115,9 @@ inline void UnityEngine::ResourceManagement::Util::DelayedActionManager_Delegate
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>(), { "Invoke", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Delegate", ty: "::System::Delegate*", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Target", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_InvocationTime_k__BackingField", ty: "float_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Delegate", ty: "::System::Delegate*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Target", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_InvocationTime_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::DelayedActionManager_DelegateInfo(int32_t m_Id, ::System::Delegate* m_Delegate,
                                                                                                                         ::ArrayW<::System::Object*> m_Target,
                                                                                                                         float_t _InvocationTime_k__BackingField) noexcept {
@@ -368,13 +368,13 @@ inline void UnityEngine::ResourceManagement::Util::DelayedActionManager::Destroy
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::DelayedActionManager*>(), { "DestroyWhenComplete", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::Util::DelayedActionManager::AddAction(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*> parameters) {
+inline void UnityEngine::ResourceManagement::Util::DelayedActionManager::AddAction(::System::Delegate* action, float_t delay, /* [ParamArray] */ ::ArrayW<::System::Object*> parameters) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::DelayedActionManager*>(),
                                                            { "AddAction", {}, { ::i2c::type_of<::System::Delegate*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, action, delay, parameters);
 }
-inline void UnityEngine::ResourceManagement::Util::DelayedActionManager::AddActionInternal(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*> parameters) {
+inline void UnityEngine::ResourceManagement::Util::DelayedActionManager::AddActionInternal(::System::Delegate* action, float_t delay, /* [ParamArray] */ ::ArrayW<::System::Object*> parameters) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::DelayedActionManager*>(),
                                               { "AddActionInternal", {}, { ::i2c::type_of<::System::Delegate*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));

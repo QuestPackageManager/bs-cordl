@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleComplexSelector.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleComplexSelector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,8 +76,8 @@ public:
   // @brief default ctor
   constexpr StyleComplexSelector_PseudoStateData();
 
-  // Ctor Parameters [CppParam { name: "state", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: None }, CppParam { name: "negate", ty: "bool", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "state", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: None, comment: None }, CppParam { name: "negate", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr StyleComplexSelector_PseudoStateData(::UnityEngine::UIElements::PseudoStates state, bool negate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -102,6 +102,7 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleComplexSelector_PseudoSta
 static_assert(sizeof(::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData) == 0x8, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -147,13 +148,13 @@ protected:
   constexpr StyleComplexSelector___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleComplexSelector___c(StyleComplexSelector___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleComplexSelector___c(StyleComplexSelector___c const&) = delete;
+  StyleComplexSelector___c(StyleComplexSelector___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5060 };
@@ -164,6 +165,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::StyleComplexSelector___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.UIElements.Hashes, UnityEngine.UIElements.StyleSelector
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -295,6 +297,7 @@ public:
   /// @brief Method get_isSimple, addr 0x6c9ab84, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSimple();
 
+  /// [CompilerGenerated]
   /// @brief Method get_rule, addr 0x6c9ab74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRule* get_rule();
 
@@ -311,9 +314,12 @@ public:
 
   static inline void setStaticF_s_PseudoStates(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>* value);
 
+  /// [CompilerGenerated]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method set_rule, addr 0x6c9ab7c, size 0x8, virtual false, abstract: false, final false
   inline void set_rule(::UnityEngine::UIElements::StyleRule* value);
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Method set_selectors, addr 0x6c9ab94, size 0x24, virtual false, abstract: false, final false
   inline void set_selectors(::ArrayW<::UnityEngine::UIElements::StyleSelector*> value);
 
@@ -323,13 +329,13 @@ protected:
   constexpr StyleComplexSelector();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleComplexSelector(StyleComplexSelector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StyleComplexSelector(StyleComplexSelector const&) = delete;
+  StyleComplexSelector(StyleComplexSelectorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5061 };
@@ -337,21 +343,28 @@ public:
   /// @brief Field ancestorHashes, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::UIElements::Hashes ___ancestorHashes;
 
+  /// [SerializeField]
   /// @brief Field m_Specificity, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_Specificity;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <rule>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleRule* ____rule_k__BackingField;
 
   /// @brief Field m_isSimple, offset: 0x30, size: 0x1, def value: None
   bool ___m_isSimple;
 
+  /// [SerializeField]
   /// @brief Field m_Selectors, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleSelector*> ___m_Selectors;
 
+  /// [SerializeField]
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field ruleIndex, offset: 0x40, size: 0x4, def value: None
   int32_t ___ruleIndex;
 
+  /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// @brief Field nextInTable, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleComplexSelector* ___nextInTable;
 

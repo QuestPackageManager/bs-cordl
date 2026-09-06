@@ -1,8 +1,8 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\Headers\Token.hpp"
+// IWYU pragma private; include "System/Net/Http/Headers/Token.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::Http::Headers::Token_Type::Token_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -165,8 +165,8 @@ inline ::StringW System::Net::Http::Headers::Token::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::Http::Headers::Token>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Net::Http::Headers::Token_Type", modifiers: "", def_value: Some("{}") }, CppParam { name: "_StartPosition_k__BackingField", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_EndPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::System::Net::Http::Headers::Token_Type", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_StartPosition_k__BackingField",
+// ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_EndPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Net::Http::Headers::Token::Token(::System::Net::Http::Headers::Token_Type type, int32_t _StartPosition_k__BackingField, int32_t _EndPosition_k__BackingField) noexcept {
   this->type = type;
   this->_StartPosition_k__BackingField = _StartPosition_k__BackingField;

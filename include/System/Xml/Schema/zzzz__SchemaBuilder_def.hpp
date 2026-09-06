@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\SchemaBuilder.hpp"
+// IWYU pragma private; include "System/Xml/Schema/SchemaBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,27 +24,27 @@ namespace System::Xml::Schema {
 class CORDL_TYPE SchemaBuilder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndChildren, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method EndChildren, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EndChildren();
 
-  /// @brief Method IsContentParsed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsContentParsed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsContentParsed();
 
   static inline ::System::Xml::Schema::SchemaBuilder* New_ctor();
 
-  /// @brief Method ProcessAttribute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessAttribute(::StringW prefix, ::StringW name, ::StringW ns, ::StringW value);
 
-  /// @brief Method ProcessCData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessCData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessCData(::StringW value);
 
-  /// @brief Method ProcessElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ProcessElement(::StringW prefix, ::StringW name, ::StringW ns);
 
-  /// @brief Method ProcessMarkup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessMarkup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessMarkup(::ArrayW<::System::Xml::XmlNode*> markup);
 
-  /// @brief Method StartChildren, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method StartChildren, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartChildren();
 
   /// @brief Method .ctor, addr 0x61eaa30, size 0x4, virtual false, abstract: false, final false
@@ -56,13 +56,13 @@ protected:
   constexpr SchemaBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SchemaBuilder(SchemaBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SchemaBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SchemaBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SchemaBuilder(SchemaBuilder const&) = delete;
+  SchemaBuilder(SchemaBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9704 };

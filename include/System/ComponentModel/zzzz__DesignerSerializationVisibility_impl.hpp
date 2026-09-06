@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\DesignerSerializationVisibility.hpp"
+// IWYU pragma private; include "System/ComponentModel/DesignerSerializationVisibility.hpp"
 #include "System/ComponentModel/zzzz__DesignerSerializationVisibility_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::ComponentModel::DesignerSerializationVisibility::DesignerSerializationVisibility(int32_t value__) noexcept {
   this->value__ = value__;
 }

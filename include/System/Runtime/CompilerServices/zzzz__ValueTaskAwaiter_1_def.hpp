@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\ValueTaskAwaiter_1.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/ValueTaskAwaiter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ template <typename TResult> struct ValueTaskAwaiter_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::ValueTaskAwaiter_1);
 DEFINE_IL2CPP_GEN_CLASS(::System::Runtime::CompilerServices::ValueTaskAwaiter_1, "System.Runtime.CompilerServices", "ValueTaskAwaiter`1");
+// [IsReadOnly]
 // Dependencies System.Threading.Tasks.ValueTask`1<TResult>
 namespace System::Runtime::CompilerServices {
 // cpp template
@@ -42,6 +43,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
+  /// [StackTraceHidden]
   /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TResult GetResult();
 
@@ -67,7 +69,7 @@ public:
   // @brief default ctor
   constexpr ValueTaskAwaiter_1();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None, comment: None }]
   constexpr ValueTaskAwaiter_1(::System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

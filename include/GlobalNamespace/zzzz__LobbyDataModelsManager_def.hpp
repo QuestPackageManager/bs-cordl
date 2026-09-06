@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LobbyDataModelsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/LobbyDataModelsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,29 +99,34 @@ protected:
   constexpr LobbyDataModelsManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LobbyDataModelsManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyDataModelsManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LobbyDataModelsManager(LobbyDataModelsManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LobbyDataModelsManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LobbyDataModelsManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LobbyDataModelsManager(LobbyDataModelsManager const&) = delete;
+  LobbyDataModelsManager(LobbyDataModelsManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15101 };
 
+  /// [Inject]
   /// @brief Field _lobbyStateDataModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;
 
+  /// [Inject]
   /// @brief Field _lobbyPlayersDataModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyPlayersDataModel* ____lobbyPlayersDataModel;
 
+  /// [Inject]
   /// @brief Field _nodePoseSyncStateManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::INodePoseSyncStateManager* ____nodePoseSyncStateManager;
 
+  /// [Inject]
   /// @brief Field _lobbyPlayerPermissionsModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::LobbyPlayerPermissionsModel* ____lobbyPlayerPermissionsModel;
 
+  /// [Inject]
   /// @brief Field _lobbyGameStateController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyGameStateControllerBase* ____lobbyGameStateController;
 

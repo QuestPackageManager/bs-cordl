@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\ShorthandApplicator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ShorthandApplicator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ class ShorthandApplicator;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*, "UnityEngine.UIElements.StyleSheets", "ShorthandApplicator");
+// [VisibleToOtherModules]
 // Dependencies System.Object
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
@@ -141,6 +142,7 @@ public:
                                                      ::by_ref<::UnityEngine::UIElements::BackgroundPosition> backgroundPositionY,
                                                      ::by_ref<::UnityEngine::UIElements::BackgroundRepeat> backgroundRepeat, ::by_ref<::UnityEngine::UIElements::BackgroundSize> backgroundSize);
 
+  /// [CompilerGenerated]
   /// @brief Method <CompileBackgroundPosition>g__SwapKeyword|16_0, addr 0x6d0953c, size 0x14, virtual false, abstract: false, final false
   static inline void _CompileBackgroundPosition_g__SwapKeyword_16_0(::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword> a, ::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword> b);
 
@@ -166,13 +168,13 @@ protected:
   constexpr ShorthandApplicator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShorthandApplicator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShorthandApplicator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShorthandApplicator(ShorthandApplicator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShorthandApplicator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShorthandApplicator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShorthandApplicator(ShorthandApplicator const&) = delete;
+  ShorthandApplicator(ShorthandApplicatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5447 };

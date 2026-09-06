@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls\PhysicsRaycasterWithCache.hpp"
+// IWYU pragma private; include "VRUIControls/PhysicsRaycasterWithCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Ray_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit_impl.hpp"
@@ -33,9 +33,9 @@ inline void VRUIControls::PhysicsRaycasterWithCache_CachedRaycast::_ctor(bool wa
           { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<::UnityEngine::RaycastHit>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, wasHit, ray, hitInfo, maxDistance, layerMask);
 }
-// Ctor Parameters [CppParam { name: "wasHit", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "ray", ty: "::UnityEngine::Ray", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "hitInfo", ty: "::UnityEngine::RaycastHit", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "layerMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "wasHit", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "ray", ty: "::UnityEngine::Ray", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "hitInfo", ty: "::UnityEngine::RaycastHit", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "maxDistance", ty: "float_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "layerMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::VRUIControls::PhysicsRaycasterWithCache_CachedRaycast::PhysicsRaycasterWithCache_CachedRaycast(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance,
                                                                                                            int32_t layerMask) noexcept {
   this->wasHit = wasHit;

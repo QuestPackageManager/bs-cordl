@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\UserNotice.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/UserNotice.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__UserNotice_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DisplayText_def.hpp"
@@ -176,6 +176,7 @@ inline ::Org::BouncyCastle::Asn1::X509::UserNotice* Org::BouncyCastle::Asn1::X50
 inline ::Org::BouncyCastle::Asn1::X509::UserNotice* Org::BouncyCastle::Asn1::X509::UserNotice::New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::UserNotice*>(noticeRef, str));
 }
+/// @brief [Obsolete("Use GetInstance() instead")]
 inline ::Org::BouncyCastle::Asn1::X509::UserNotice* Org::BouncyCastle::Asn1::X509::UserNotice::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::X509::UserNotice*>(seq));
 }

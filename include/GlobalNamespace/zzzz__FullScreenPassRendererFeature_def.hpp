@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FullScreenPassRendererFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace/FullScreenPassRendererFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,9 @@ namespace GlobalNamespace {
 class FullScreenRenderPass_FullScreenPassRendererFeature___c;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -145,7 +147,7 @@ public:
   // @brief default ctor
   constexpr FullScreenPassRendererFeature_InjectionPoint();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FullScreenPassRendererFeature_InjectionPoint(int32_t value__) noexcept;
 
   /// @brief Field AfterRenderingPostProcessing value: I32(600)
@@ -201,13 +203,13 @@ protected:
   constexpr FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData(FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData(FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData const&) = delete;
+  FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData(FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12562 };
@@ -268,13 +270,13 @@ protected:
   constexpr FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData(FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData(FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData const&) = delete;
+  FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData(FullScreenRenderPass_FullScreenPassRendererFeature_MainPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12563 };
@@ -300,6 +302,7 @@ static_assert(offsetof(::GlobalNamespace::FullScreenRenderPass_FullScreenPassRen
 static_assert(sizeof(::GlobalNamespace::FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -357,13 +360,13 @@ protected:
   constexpr FullScreenRenderPass_FullScreenPassRendererFeature___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FullScreenRenderPass_FullScreenPassRendererFeature___c(FullScreenRenderPass_FullScreenPassRendererFeature___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenRenderPass_FullScreenPassRendererFeature___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenRenderPass_FullScreenPassRendererFeature___c(FullScreenRenderPass_FullScreenPassRendererFeature___c const&) = delete;
+  FullScreenRenderPass_FullScreenPassRendererFeature___c(FullScreenRenderPass_FullScreenPassRendererFeature___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12564 };
@@ -408,6 +411,7 @@ public:
   /// @brief Method Dispose, addr 0x683a06c, size 0x14, virtual false, abstract: false, final false
   inline void Dispose();
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method Execute, addr 0x683a44c, size 0x2c8, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -419,6 +423,7 @@ public:
 
   static inline ::GlobalNamespace::FullScreenPassRendererFeature_FullScreenRenderPass* New_ctor(::StringW passName);
 
+  /// [Obsolete("This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead.", false)]
   /// @brief Method OnCameraSetup, addr 0x683a0dc, size 0x64, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
@@ -474,13 +479,13 @@ protected:
   constexpr FullScreenPassRendererFeature_FullScreenRenderPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature_FullScreenRenderPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature_FullScreenRenderPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FullScreenPassRendererFeature_FullScreenRenderPass(FullScreenPassRendererFeature_FullScreenRenderPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature_FullScreenRenderPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature_FullScreenRenderPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenPassRendererFeature_FullScreenRenderPass(FullScreenPassRendererFeature_FullScreenRenderPass const&) = delete;
+  FullScreenPassRendererFeature_FullScreenRenderPass(FullScreenPassRendererFeature_FullScreenRenderPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12565 };
@@ -548,7 +553,7 @@ public:
   // @brief default ctor
   constexpr FullScreenPassRendererFeature_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FullScreenPassRendererFeature_Version(int32_t value__) noexcept;
 
   /// @brief Field AddFetchColorBufferCheckbox value: I32(1)
@@ -709,13 +714,13 @@ protected:
   constexpr FullScreenPassRendererFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FullScreenPassRendererFeature(FullScreenPassRendererFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FullScreenPassRendererFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FullScreenPassRendererFeature(FullScreenPassRendererFeature const&) = delete;
+  FullScreenPassRendererFeature(FullScreenPassRendererFeatureconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12567 };
@@ -741,6 +746,8 @@ public:
   /// @brief Field m_FullScreenPass, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::FullScreenPassRendererFeature_FullScreenRenderPass* ___m_FullScreenPass;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::FullScreenPassRendererFeature_Version ___m_Version;
 

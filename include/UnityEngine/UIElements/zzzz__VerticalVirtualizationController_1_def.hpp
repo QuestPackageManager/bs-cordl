@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VerticalVirtualizationController_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VerticalVirtualizationController_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CollectionVirtualizationController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VerticalVirtualizationController_1)
@@ -28,7 +29,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
@@ -43,27 +46,35 @@ namespace UnityEngine::UIElements {
 class SerializedVirtualizationData;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class VerticalVirtualizationController_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
+class VerticalVirtualizationController_1___c;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class VerticalVirtualizationController_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
+class VerticalVirtualizationController_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class VerticalVirtualizationController_1___c;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
+class VerticalVirtualizationController_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::VerticalVirtualizationController_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::UIElements::VerticalVirtualizationController_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::VerticalVirtualizationController_1, "UnityEngine.UIElements", "VerticalVirtualizationController`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::UIElements::VerticalVirtualizationController_1___c, "UnityEngine.UIElements", "VerticalVirtualizationController`1/<>c");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.UIElements.ReusableCollectionItem
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.VerticalVirtualizationController`1/<>c<T>
 class CORDL_TYPE VerticalVirtualizationController_1___c : public ::System::Object {
@@ -117,13 +128,13 @@ protected:
   constexpr VerticalVirtualizationController_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VerticalVirtualizationController_1___c(VerticalVirtualizationController_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VerticalVirtualizationController_1___c(VerticalVirtualizationController_1___c const&) = delete;
+  VerticalVirtualizationController_1___c(VerticalVirtualizationController_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4099 };
@@ -132,10 +143,11 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.Nullable`1<T>, UnityEngine.UIElements.CollectionVirtualizationController
+// Dependencies System.Nullable`1<T>, UnityEngine.UIElements.CollectionVirtualizationController, UnityEngine.UIElements.ReusableCollectionItem
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::ReusableCollectionItem*> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.UIElements.VerticalVirtualizationController`1<T>
 class CORDL_TYPE VerticalVirtualizationController_1 : public ::UnityEngine::UIElements::CollectionVirtualizationController {
@@ -363,13 +375,13 @@ protected:
   constexpr VerticalVirtualizationController_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VerticalVirtualizationController_1(VerticalVirtualizationController_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VerticalVirtualizationController_1(VerticalVirtualizationController_1 const&) = delete;
+  VerticalVirtualizationController_1(VerticalVirtualizationController_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4100 };

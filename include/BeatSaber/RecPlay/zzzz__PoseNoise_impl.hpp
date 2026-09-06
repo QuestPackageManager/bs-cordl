@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\RecPlay\PoseNoise.hpp"
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseNoise.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseNoise_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -37,8 +37,8 @@ inline ::UnityEngine::Vector2 BeatSaber::RecPlay::PoseNoise::SampleLemniscateOfB
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::RecPlay::PoseNoise>(), { "SampleLemniscateOfBernoulli", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, time);
 }
-// Ctor Parameters [CppParam { name: "frequency", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "move", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "rotate", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "frequency", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "move", ty: "float_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "rotate", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatSaber::RecPlay::PoseNoise::PoseNoise(float_t frequency, float_t move, float_t rotate) noexcept {
   this->frequency = frequency;
   this->move = move;

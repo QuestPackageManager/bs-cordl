@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BoxCollider.hpp"
+// IWYU pragma private; include "UnityEngine/BoxCollider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,8 @@ class BoxCollider;
 // Write type traits
 MARK_REF_T(::UnityEngine::BoxCollider*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::BoxCollider*, "UnityEngine", "BoxCollider");
+// [RequireComponent(typeof(UnityEngine.Transform))]
+// [NativeHeader("Modules/Physics/BoxCollider.h")]
 // Dependencies UnityEngine.Collider
 namespace UnityEngine {
 // Is value type: false
@@ -27,6 +29,8 @@ public:
   // Declarations
   __declspec(property(get = get_center, put = set_center)) ::UnityEngine::Vector3 center;
 
+  /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
+  /// @brief [Obsolete("Use BoxCollider.size instead. (UnityUpgradable) -> size")]
   __declspec(property(get = get_extents, put = set_extents)) ::UnityEngine::Vector3 extents;
 
   __declspec(property(get = get_size, put = set_size)) ::UnityEngine::Vector3 size;
@@ -72,13 +76,13 @@ protected:
   constexpr BoxCollider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoxCollider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoxCollider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoxCollider(BoxCollider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoxCollider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoxCollider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoxCollider(BoxCollider const&) = delete;
+  BoxCollider(BoxColliderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18631 };

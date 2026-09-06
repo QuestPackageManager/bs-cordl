@@ -1,10 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputManager.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputManager.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventStream_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputMetrics_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateBuffers_impl.hpp"
@@ -15,6 +17,7 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__DynamicBitfield_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSettings_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
@@ -62,7 +65,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSettings_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputManager_DeviceDisableScope::InputManager_DeviceDisableScope(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -71,9 +74,9 @@ constexpr ::UnityEngine::InputSystem::InputManager_DeviceDisableScope::InputMana
 constexpr ::UnityEngine::InputSystem::InputManager_DeviceDisableScope UnityEngine::InputSystem::InputManager_DeviceDisableScope::Everywhere{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::InputManager_DeviceDisableScope UnityEngine::InputSystem::InputManager_DeviceDisableScope::InFrontendOnly{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::InputManager_DeviceDisableScope UnityEngine::InputSystem::InputManager_DeviceDisableScope::TemporaryWhilePlayerIsInBackground{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: Some("{}") }, CppParam { name: "deviceId", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "isNative", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isRemoved", ty: "bool", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "deviceId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "isNative", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "isRemoved", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputManager_AvailableDevice::InputManager_AvailableDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, int32_t deviceId,
                                                                                                  bool isNative, bool isRemoved) noexcept {
   this->description = description;
@@ -83,9 +86,10 @@ constexpr ::UnityEngine::InputSystem::InputManager_AvailableDevice::InputManager
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputManager_AvailableDevice::InputManager_AvailableDevice() {}
-// Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}") }, CppParam { name: "time", ty: "double_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "monitor", ty: "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "monitorIndex",
-// ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "timerIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "time", ty: "double_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "monitor", ty: "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "monitorIndex", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "timerIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputManager_StateChangeMonitorTimeout::InputManager_StateChangeMonitorTimeout(::UnityEngine::InputSystem::InputControl* control, double_t time,
                                                                                                                      ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor,
                                                                                                                      int64_t monitorIndex, int32_t timerIndex) noexcept {
@@ -97,9 +101,9 @@ constexpr ::UnityEngine::InputSystem::InputManager_StateChangeMonitorTimeout::In
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputManager_StateChangeMonitorTimeout::InputManager_StateChangeMonitorTimeout() {}
-// Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}") }, CppParam { name: "monitor", ty:
-// "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: Some("{}") }, CppParam { name: "monitorIndex", ty: "int64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "groupIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "monitor", ty:
+// "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "monitorIndex", ty: "int64_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "groupIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputManager_StateChangeMonitorListener::InputManager_StateChangeMonitorListener(::UnityEngine::InputSystem::InputControl* control,
                                                                                                                        ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor,
                                                                                                                        int64_t monitorIndex, uint32_t groupIndex) noexcept {
@@ -259,10 +263,10 @@ inline void UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice>(), { "SortMonitorsByIndex", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "memoryRegions", ty: "::ArrayW<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "listeners", ty: "::ArrayW<::UnityEngine::InputSystem::InputManager_StateChangeMonitorListener>", modifiers: "", def_value: Some("{}") }, CppParam { name: "signalled", ty:
-// "::UnityEngine::InputSystem::DynamicBitfield", modifiers: "", def_value: Some("{}") }, CppParam { name: "needToUpdateOrderingOfMonitors", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "needToCompactArrays", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "memoryRegions", ty: "::ArrayW<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "listeners", ty: "::ArrayW<::UnityEngine::InputSystem::InputManager_StateChangeMonitorListener>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "signalled", ty:
+// "::UnityEngine::InputSystem::DynamicBitfield", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "needToUpdateOrderingOfMonitors", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "needToCompactArrays", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::InputManager_StateChangeMonitorsForDevice(
     ::ArrayW<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion> memoryRegions, ::ArrayW<::UnityEngine::InputSystem::InputManager_StateChangeMonitorListener> listeners,
     ::UnityEngine::InputSystem::DynamicBitfield signalled, bool needToUpdateOrderingOfMonitors, bool needToCompactArrays) noexcept {
@@ -328,34 +332,50 @@ inline ::UnityEngine::InputSystem::InputManager___c* UnityEngine::InputSystem::I
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputManager___c::InputManager___c() {}
-template <typename TDevice> inline void UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::setStaticF___9(::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>* value) {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+inline void UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::setStaticF___9(::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*, "<>9", ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>(
       std::forward<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>(value));
 }
-template <typename TDevice> inline ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::getStaticF___9() {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+inline ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*, "<>9", ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>();
 }
-template <typename TDevice> inline void UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::setStaticF___9__82_0(::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* value) {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+inline void UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::setStaticF___9__82_0(::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* value) {
   ::cordl_internals::setStaticField<::System::Func_1<::UnityEngine::InputSystem::InputDevice*>*, "<>9__82_0", ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>(
       std::forward<::System::Func_1<::UnityEngine::InputSystem::InputDevice*>*>(value));
 }
-template <typename TDevice> inline ::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::getStaticF___9__82_0() {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+inline ::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::getStaticF___9__82_0() {
   return ::cordl_internals::getStaticField<::System::Func_1<::UnityEngine::InputSystem::InputDevice*>*, "<>9__82_0", ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>();
 }
-template <typename TDevice> inline void UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::_ctor() {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+inline void UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TDevice> inline ::UnityEngine::InputSystem::InputDevice* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::_RegisterPrecompiledLayout_b__82_0() {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+inline ::UnityEngine::InputSystem::InputDevice* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::_RegisterPrecompiledLayout_b__82_0() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>(), { "<RegisterPrecompiledLayout>b__82_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputDevice*>(this, ___internal_method);
 }
-template <typename TDevice> inline ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::New_ctor() {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+inline ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>());
 }
 // Ctor Parameters []
-template <typename TDevice> constexpr ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::InputManager___c__82_1() {}
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+constexpr ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::InputManager___c__82_1() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97._ctor
 template <>
 
@@ -753,6 +773,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputManage
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>(__1__state));
 }
@@ -3716,7 +3737,9 @@ UnityEngine::InputSystem::InputManager::PerformLayoutPostRegistration(::UnityEng
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, layoutName, baseLayouts, isReplacement, isKnownToBeDeviceLayout, isOverride);
 }
-template <typename TDevice> inline void UnityEngine::InputSystem::InputManager::RegisterPrecompiledLayout(::StringW metadata) {
+template <typename TDevice>
+  requires(::cordl_internals::type_constraint<TDevice, ::UnityEngine::InputSystem::InputDevice*> && ::cordl_internals::default_constructor_constraint<TDevice>)
+inline void UnityEngine::InputSystem::InputManager::RegisterPrecompiledLayout(::StringW metadata) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager*>(),
                                                                                               { "RegisterPrecompiledLayout", { ::i2c::class_of<TDevice>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TDevice>() })));
@@ -3819,7 +3842,9 @@ inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UnityEngine::In
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager*>(), { "ListControlLayouts", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::StringW>*>(this, ___internal_method, basedOn);
 }
-template <typename TControl> inline int32_t UnityEngine::InputSystem::InputManager::GetControls(::StringW path, ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls) {
+template <typename TControl>
+  requires(::cordl_internals::type_constraint<TControl, ::UnityEngine::InputSystem::InputControl*>)
+inline int32_t UnityEngine::InputSystem::InputManager::GetControls(::StringW path, ::by_ref<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager*>(),
@@ -3977,7 +4002,10 @@ inline void UnityEngine::InputSystem::InputManager::QueueEvent(::UnityEngine::In
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager*>(), { "QueueEvent", {}, { ::i2c::type_of<::UnityEngine::InputSystem::LowLevel::InputEventPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ptr);
 }
-template <typename TEvent> inline void UnityEngine::InputSystem::InputManager::QueueEvent(::by_ref<TEvent> inputEvent) {
+template <typename TEvent>
+  requires(::cordl_internals::type_constraint<TEvent, ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*> && ::cordl_internals::value_type_constraint<TEvent> &&
+           ::cordl_internals::default_constructor_constraint<TEvent>)
+inline void UnityEngine::InputSystem::InputManager::QueueEvent(::by_ref<TEvent> inputEvent) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager*>(), { "QueueEvent", { ::i2c::class_of<TEvent>() }, { ::i2c::type_of<::by_ref<TEvent>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TEvent>() })));
@@ -4140,7 +4168,10 @@ inline void UnityEngine::InputSystem::InputManager::ApplyActions() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager*>(), { "ApplyActions", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TCommand> inline int64_t UnityEngine::InputSystem::InputManager::ExecuteGlobalCommand(::by_ref<TCommand> command) {
+template <typename TCommand>
+  requires(::cordl_internals::type_constraint<TCommand, ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*> && ::cordl_internals::value_type_constraint<TCommand> &&
+           ::cordl_internals::default_constructor_constraint<TCommand>)
+inline int64_t UnityEngine::InputSystem::InputManager::ExecuteGlobalCommand(::by_ref<TCommand> command) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputManager*>(),
                                                                                               { "ExecuteGlobalCommand", { ::i2c::class_of<TCommand>() }, { ::i2c::type_of<::by_ref<TCommand>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TCommand>() })));

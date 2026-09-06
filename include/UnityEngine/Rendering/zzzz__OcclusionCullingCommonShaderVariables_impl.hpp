@@ -1,39 +1,39 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingCommonShaderVariables.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingCommonShaderVariables.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionCullingCommonShaderVariables_def.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceOcclusionTestSubviewSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__OccluderContext_def.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionCullingCommonShaderVariables_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer(
     float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer(
     uint32_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer(
     float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer(
     float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer(
     float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
@@ -59,8 +59,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::_ctor(::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
-                                                                                 ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
+inline void UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
                                                                                  bool occlusionOverlayCountVisible, bool overrideOcclusionTestToAlwaysPass) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables>(),
@@ -71,16 +71,18 @@ inline void UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::_ctor
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, occluderCtx, subviewSettings, occlusionOverlayCountVisible, overrideOcclusionTestToAlwaysPass);
 }
 // Ctor Parameters [CppParam { name: "_OccluderMipBounds", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_ViewProjMatrix", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_ViewOriginWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_FacingDirWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "_RadialDirWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_DepthSizeInOccluderPixels", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "_OccluderDepthPyramidSize", ty: "::UnityEngine::Vector4", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_OccluderMipLayoutSizeX", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_OcclusionTestDebugFlags", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_OcclusionCullingCommonPad0", ty: "uint32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_OcclusionTestCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_OccluderSubviewIndices", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_CullingSplitIndices", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_CullingSplitMask", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }]
+// Some("{}"), comment: None }, CppParam { name: "_ViewProjMatrix", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_ViewOriginWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_FacingDirWorldSpace", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_RadialDirWorldSpace", ty:
+// "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_DepthSizeInOccluderPixels", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_OccluderDepthPyramidSize", ty: "::UnityEngine::Vector4",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_OccluderMipLayoutSizeX", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_OccluderMipLayoutSizeY", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_OcclusionTestDebugFlags", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_OcclusionCullingCommonPad0", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_OcclusionTestCount", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_OccluderSubviewIndices", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_CullingSplitIndices", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_CullingSplitMask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment:
+// None }]
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::OcclusionCullingCommonShaderVariables(
     ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer _OccluderMipBounds,
     ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer _ViewProjMatrix,

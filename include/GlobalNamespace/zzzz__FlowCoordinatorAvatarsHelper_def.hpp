@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FlowCoordinatorAvatarsHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/FlowCoordinatorAvatarsHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::FlowCoordinatorAvatarsHelper*, "", "FlowC
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0*, "", "FlowCoordinatorAvatarsHelper/<>c__DisplayClass0_0");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FlowCoordinatorAvatarsHelper__HasUserSelectedAvatarSystemWithCreatedAvatar_d__0, "",
                     "FlowCoordinatorAvatarsHelper/<HasUserSelectedAvatarSystemWithCreatedAvatar>d__0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -78,13 +79,13 @@ protected:
   constexpr FlowCoordinatorAvatarsHelper___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper___c__DisplayClass0_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinatorAvatarsHelper___c__DisplayClass0_0(FlowCoordinatorAvatarsHelper___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper___c__DisplayClass0_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinatorAvatarsHelper___c__DisplayClass0_0(FlowCoordinatorAvatarsHelper___c__DisplayClass0_0 const&) = delete;
+  FlowCoordinatorAvatarsHelper___c__DisplayClass0_0(FlowCoordinatorAvatarsHelper___c__DisplayClass0_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6349 };
@@ -100,6 +101,7 @@ static_assert(offsetof(::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__Disp
 static_assert(sizeof(::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
@@ -113,6 +115,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a08c98, size 0x418, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a090b0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -123,10 +126,10 @@ public:
   // @brief default ctor
   constexpr FlowCoordinatorAvatarsHelper__HasUserSelectedAvatarSystemWithCreatedAvatar_d__0();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "playerDataModel", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>",
-  // modifiers: "", def_value: None }, CppParam { name: "avatarSystemCollection", ty: "::BeatSaber::AvatarCore::AvatarSystemCollection*", modifiers: "", def_value: None }, CppParam { name: "__u__1",
-  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "playerDataModel", ty:
+  // "::UnityW<::GlobalNamespace::PlayerDataModel>", modifiers: "", def_value: None, comment: None }, CppParam { name: "avatarSystemCollection", ty: "::BeatSaber::AvatarCore::AvatarSystemCollection*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr FlowCoordinatorAvatarsHelper__HasUserSelectedAvatarSystemWithCreatedAvatar_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                                             ::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel,
                                                                                             ::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
@@ -180,6 +183,7 @@ public:
 
   using __c__DisplayClass0_0 = ::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0;
 
+  /// [AsyncStateMachine(typeof(FlowCoordinatorAvatarsHelper::<HasUserSelectedAvatarSystemWithCreatedAvatar>d__0))]
   /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x5a08ad4, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* HasUserSelectedAvatarSystemWithCreatedAvatar(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                                                        ::GlobalNamespace::PlayerDataModel* playerDataModel);
@@ -195,13 +199,13 @@ protected:
   constexpr FlowCoordinatorAvatarsHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlowCoordinatorAvatarsHelper(FlowCoordinatorAvatarsHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FlowCoordinatorAvatarsHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FlowCoordinatorAvatarsHelper(FlowCoordinatorAvatarsHelper const&) = delete;
+  FlowCoordinatorAvatarsHelper(FlowCoordinatorAvatarsHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6351 };

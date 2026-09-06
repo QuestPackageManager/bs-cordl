@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ValidateCommandEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ValidateCommandEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_REF_T(::UnityEngine::UIElements::ValidateCommandEvent*);
 MARK_REF_T(::UnityEngine::UIElements::ValidateCommandEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ValidateCommandEvent*, "UnityEngine.UIElements", "ValidateCommandEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ValidateCommandEvent___c*, "UnityEngine.UIElements", "ValidateCommandEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr ValidateCommandEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidateCommandEvent___c(ValidateCommandEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValidateCommandEvent___c(ValidateCommandEvent___c const&) = delete;
+  ValidateCommandEvent___c(ValidateCommandEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4441 };
@@ -86,13 +87,13 @@ protected:
   constexpr ValidateCommandEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidateCommandEvent(ValidateCommandEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ValidateCommandEvent(ValidateCommandEvent const&) = delete;
+  ValidateCommandEvent(ValidateCommandEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4442 };

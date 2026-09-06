@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\HttpTransport.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/HttpTransport.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -65,15 +65,16 @@ constexpr OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10::ope
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::OculusStudios::GraphQL::Client::HttpTransport*", modifiers: "", def_value: Some("{}") }, CppParam { name: "graphQLRequest", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_httpRequest_5__2", ty: "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_stopWatch_5__3", ty:
-// "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap3", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_httpResponse_5__5",
-// ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_latency_5__6", ty: "::System::TimeSpan",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "__4__this", ty: "::OculusStudios::GraphQL::Client::HttpTransport*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "graphQLRequest", ty:
+// "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_httpRequest_5__2", ty: "::System::Net::Http::HttpRequestMessage*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_stopWatch_5__3", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "__7__wrap3", ty: "::OculusStudios::GraphQL::Client::GraphQLRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_httpResponse_5__5", ty:
+// "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_latency_5__6", ty:
+// "::System::TimeSpan", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::GraphQL::Client::HttpTransport__ExecuteAsync_d__10::HttpTransport__ExecuteAsync_d__10(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __t__builder,
     ::OculusStudios::GraphQL::Client::HttpTransport* __4__this, ::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest, ::System::Net::Http::HttpRequestMessage* _httpRequest_5__2,

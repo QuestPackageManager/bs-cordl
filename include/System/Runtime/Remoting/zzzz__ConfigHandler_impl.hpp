@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\ConfigHandler.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/ConfigHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ConfigHandler_def.hpp"
 #include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
@@ -445,7 +445,7 @@ inline void System::Runtime::Remoting::ConfigHandler::_ctor(bool onlyDelayedChan
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ConfigHandler*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, onlyDelayedChannels);
 }
-inline void System::Runtime::Remoting::ConfigHandler::ValidatePath(::StringW element, ::ArrayW<::StringW> paths) {
+inline void System::Runtime::Remoting::ConfigHandler::ValidatePath(::StringW element, /* [ParamArray] */ ::ArrayW<::StringW> paths) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ConfigHandler*>(),
                                                                                          { "ValidatePath", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element, paths);

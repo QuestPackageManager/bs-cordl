@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerBigAvatarAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBigAvatarAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class MultiplayerBigAvatarAnimator;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MultiplayerBigAvatarAnimator*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MultiplayerBigAvatarAnimator*, "", "MultiplayerBigAvatarAnimator");
+// [AddComponentMenu("Beat Saber/Gameplay/MultiplayerBigAvatarAnimator")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -79,12 +80,15 @@ public:
   /// @brief Method SetPositionAndRotation, addr 0x59cf904, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
+  /// [CompilerGenerated]
   /// @brief Method <InitIfNeeded>b__8_0, addr 0x59cfbfc, size 0x7c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_0(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <InitIfNeeded>b__8_1, addr 0x59cfc78, size 0x7c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_1(float_t val);
 
+  /// [CompilerGenerated]
   /// @brief Method <InitIfNeeded>b__8_2, addr 0x59cfcf4, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_2();
 
@@ -139,26 +143,30 @@ protected:
   constexpr MultiplayerBigAvatarAnimator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarAnimator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarAnimator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBigAvatarAnimator(MultiplayerBigAvatarAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarAnimator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarAnimator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBigAvatarAnimator(MultiplayerBigAvatarAnimator const&) = delete;
+  MultiplayerBigAvatarAnimator(MultiplayerBigAvatarAnimatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6126 };
 
+  /// [SerializeField]
   /// @brief Field _displayedScale, offset: 0x20, size: 0x4, def value: None
   float_t ____displayedScale;
 
+  /// [SerializeField]
   /// @brief Field _hologramRays, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HologramRays> ____hologramRays;
 
+  /// [SerializeField]
   /// @brief Field _avatarTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____avatarTransform;
 
+  /// [Inject]
   /// @brief Field _tweeningManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\LogHelper.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/LogHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__LogHelper_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"

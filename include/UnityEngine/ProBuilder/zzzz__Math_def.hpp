@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Math.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Math.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -58,7 +59,8 @@ class Math;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::Math*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::Math*, "UnityEngine.ProBuilder", "Math");
-// Dependencies System.Object, UnityEngine.Vector3
+// [Extension]
+// Dependencies System.IComparable`1<T>, System.Object, UnityEngine.Vector3
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: UnityEngine.ProBuilder.Math
@@ -77,21 +79,27 @@ public:
   /// @brief Field tv4, offset 0xffffffff, size 0xc
   __declspec(property(get = getStaticF_tv4, put = setStaticF_tv4)) ::UnityEngine::Vector3 tv4;
 
+  /// [Extension]
   /// @brief Method Abs, addr 0x66c8174, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Abs(::UnityEngine::Vector3 v);
 
+  /// [Extension]
   /// @brief Method Approx, addr 0x66c8160, size 0x14, virtual false, abstract: false, final false
   static inline bool Approx(float_t a, float_t b, float_t delta);
 
+  /// [Extension]
   /// @brief Method Approx2, addr 0x66c8098, size 0x18, virtual false, abstract: false, final false
   static inline bool Approx2(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, float_t delta);
 
+  /// [Extension]
   /// @brief Method Approx3, addr 0x66c80b0, size 0x30, virtual false, abstract: false, final false
   static inline bool Approx3(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, float_t delta);
 
+  /// [Extension]
   /// @brief Method Approx4, addr 0x66c80e0, size 0x40, virtual false, abstract: false, final false
   static inline bool Approx4(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b, float_t delta);
 
+  /// [Extension]
   /// @brief Method ApproxC, addr 0x66c8120, size 0x40, virtual false, abstract: false, final false
   static inline bool ApproxC(::UnityEngine::Color a, ::UnityEngine::Color b, float_t delta);
 
@@ -116,9 +124,11 @@ public:
   /// @brief Method DistancePointLineSegment, addr 0x66c512c, size 0x278, virtual false, abstract: false, final false
   static inline float_t DistancePointLineSegment(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 lineStart, ::UnityEngine::Vector3 lineEnd);
 
+  /// [Extension]
   /// @brief Method DivideBy, addr 0x66c6a24, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 DivideBy(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 o);
 
+  /// [Extension]
   /// @brief Method DivideBy, addr 0x66c6a30, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 DivideBy(::UnityEngine::Vector3 v, ::UnityEngine::Vector3 o);
 
@@ -183,10 +193,14 @@ public:
   static inline float_t MakeNonZero(float_t value, float_t min);
 
   /// @brief Method Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Max(::ArrayW<T> array);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+  static inline T Max(::ArrayW<T> array);
 
   /// @brief Method Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Min(::ArrayW<T> array);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IComparable_1<T>*>)
+  static inline T Min(::ArrayW<T> array);
 
   /// @brief Method Normal, addr 0x66c65a8, size 0x1f4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Normal(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
@@ -247,15 +261,18 @@ public:
   /// @brief Method ReflectPoint, addr 0x66c4d88, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ReflectPoint(::UnityEngine::Vector2 point, ::UnityEngine::Vector2 lineStart, ::UnityEngine::Vector2 lineEnd);
 
+  /// [Extension]
   /// @brief Method RotateAroundPoint, addr 0x66c4ce4, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 RotateAroundPoint(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 origin, float_t theta);
 
+  /// [Extension]
   /// @brief Method ScaleAroundPoint, addr 0x66c4d58, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ScaleAroundPoint(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 scale);
 
   /// @brief Method Secant, addr 0x66c5bec, size 0x18, virtual false, abstract: false, final false
   static inline float_t Secant(float_t x);
 
+  /// [Extension]
   /// @brief Method Sign, addr 0x66c8184, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Sign(::UnityEngine::Vector3 v);
 
@@ -277,6 +294,7 @@ public:
   /// @brief Method Subtract, addr 0x66c5ba4, size 0x18, virtual false, abstract: false, final false
   static inline void Subtract(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::by_ref<::UnityEngine::Vector3> res);
 
+  /// [Extension]
   /// @brief Method Sum, addr 0x66c81a8, size 0x18, virtual false, abstract: false, final false
   static inline float_t Sum(::UnityEngine::Vector3 v);
 
@@ -305,13 +323,13 @@ protected:
   constexpr Math();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Math(Math&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Math(Math const&) = delete;
+  Math(Mathconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16750 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\LocalizationModel.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/LocalizationModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,6 +52,8 @@ class LocalizationModel;
 // Write type traits
 MARK_REF_T(::BGLib::Polyglot::LocalizationModel*);
 DEFINE_IL2CPP_CLASS(::BGLib::Polyglot::LocalizationModel*, "BGLib.Polyglot", "LocalizationModel");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies BGLib.Polyglot.LocalizationLanguage, System.Object
 namespace BGLib::Polyglot {
 // Is value type: false
@@ -112,7 +114,7 @@ public:
   inline ::System::Globalization::CultureInfo* GetCultureInfo(::BGLib::Polyglot::LocalizationLanguage language);
 
   /// @brief Method GetFormatOrKey, addr 0x332088c, size 0x5c, virtual false, abstract: false, final false
-  inline ::StringW GetFormatOrKey(::StringW key, ::ArrayW<::System::Object*> arguments);
+  inline ::StringW GetFormatOrKey(::StringW key, /* [ParamArray] */ ::ArrayW<::System::Object*> arguments);
 
   /// @brief Method GetKeys, addr 0x3320f84, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetKeys();
@@ -193,8 +195,9 @@ public:
   inline void _ctor(::BGLib::Polyglot::Localization* localization, ::BGLib::Polyglot::LocalizationLanguage language,
                     ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles);
 
+  /// [CompilerGenerated]
   /// @brief Method add__onChangeLanguage, addr 0x33202dc, size 0xc0, virtual false, abstract: false, final false
-  inline void add__onChangeLanguage(::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value);
+  inline void add__onChangeLanguage(/* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value);
 
   /// @brief Method get_SelectedCultureInfo, addr 0x331faf8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_SelectedCultureInfo();
@@ -223,8 +226,9 @@ public:
   /// @brief Method get_supportedLanguages, addr 0x331fd98, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::LocalizationLanguage>* get_supportedLanguages();
 
+  /// [CompilerGenerated]
   /// @brief Method remove__onChangeLanguage, addr 0x332039c, size 0xc0, virtual false, abstract: false, final false
-  inline void remove__onChangeLanguage(::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value);
+  inline void remove__onChangeLanguage(/* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* value);
 
   /// @brief Method set_SelectedCultureInfo, addr 0x331fb00, size 0x90, virtual false, abstract: false, final false
   inline void set_SelectedCultureInfo(::System::Globalization::CultureInfo* value);
@@ -238,13 +242,13 @@ protected:
   constexpr LocalizationModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizationModel(LocalizationModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalizationModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalizationModel(LocalizationModel const&) = delete;
+  LocalizationModel(LocalizationModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22212 };
@@ -267,6 +271,8 @@ public:
   /// @brief Field _selectedCulture, offset: 0x30, size: 0x8, def value: None
   ::System::Globalization::CultureInfo* ____selectedCulture;
 
+  /// [Nullable(new[] { 2, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field _onChangeLanguage, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* ____onChangeLanguage;
 

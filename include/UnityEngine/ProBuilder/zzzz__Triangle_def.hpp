@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\Triangle.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/Triangle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,8 +80,8 @@ public:
   // @brief default ctor
   constexpr Triangle();
 
-  // Ctor Parameters [CppParam { name: "m_A", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_B", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_C", ty:
-  // "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_A", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_B", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_C", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Triangle(int32_t m_A, int32_t m_B, int32_t m_C) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -90,12 +90,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
+  /// [SerializeField]
   /// @brief Field m_A, offset: 0x0, size: 0x4, def value: None
   int32_t m_A;
 
+  /// [SerializeField]
   /// @brief Field m_B, offset: 0x4, size: 0x4, def value: None
   int32_t m_B;
 
+  /// [SerializeField]
   /// @brief Field m_C, offset: 0x8, size: 0x4, def value: None
   int32_t m_C;
 

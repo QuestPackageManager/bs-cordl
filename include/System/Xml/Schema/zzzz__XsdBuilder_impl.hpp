@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XsdBuilder.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XsdBuilder.hpp"
 #include "System/Xml/Schema/zzzz__SchemaBuilder_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaNames_impl.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_impl.hpp"
@@ -59,7 +59,7 @@
 #include "System/Xml/zzzz__XmlReader_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Xml::Schema::XsdBuilder_State::XsdBuilder_State(int32_t value__) noexcept {
   this->value__ = value__;
 }

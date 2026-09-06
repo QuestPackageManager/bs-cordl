@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\AssemblyDescriptionAttribute.hpp"
+// IWYU pragma private; include "System/Reflection/AssemblyDescriptionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AssemblyDescriptionAttribute;
 // Write type traits
 MARK_REF_T(::System::Reflection::AssemblyDescriptionAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::AssemblyDescriptionAttribute*, "System.Reflection", "AssemblyDescriptionAttribute");
+// [AttributeUsage((System.AttributeTargets)1, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Reflection {
 // Is value type: false
@@ -40,17 +41,18 @@ protected:
   constexpr AssemblyDescriptionAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyDescriptionAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyDescriptionAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyDescriptionAttribute(AssemblyDescriptionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyDescriptionAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyDescriptionAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyDescriptionAttribute(AssemblyDescriptionAttribute const&) = delete;
+  AssemblyDescriptionAttribute(AssemblyDescriptionAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3469 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Description>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Description_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GameServerPlayersTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/GameServerPlayersTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -287,12 +287,15 @@ public:
   /// @brief Method .ctor, addr 0x5942f68, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_kickPlayerEvent, addr 0x5940f44, size 0xc0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x5940dc4, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_selectSuggestedLevelEvent, addr 0x5940c44, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
@@ -302,12 +305,15 @@ public:
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_kickPlayerEvent, addr 0x5941004, size 0xc0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x5940e84, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_selectSuggestedLevelEvent, addr 0x5940d04, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
@@ -317,13 +323,13 @@ protected:
   constexpr GameServerPlayersTableView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayersTableView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayersTableView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerPlayersTableView(GameServerPlayersTableView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayersTableView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameServerPlayersTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GameServerPlayersTableView(GameServerPlayersTableView const&) = delete;
+  GameServerPlayersTableView(GameServerPlayersTableViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6895 };
@@ -337,36 +343,47 @@ public:
   /// @brief Field kNoSongsCellId offset 0xffffffff size 0x8
   static constexpr ::ConstString kNoSongsCellId{ u"NoSongCell" };
 
+  /// [SerializeField]
   /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 
+  /// [SerializeField]
   /// @brief Field _gameServerPlayerCellPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> ____gameServerPlayerCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _gameServerPlayerCellWithoutSongsPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> ____gameServerPlayerCellWithoutSongsPrefab;
 
+  /// [SerializeField]
   /// @brief Field _gameServerPlayerCellWithoutModifiersPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> ____gameServerPlayerCellWithoutModifiersPrefab;
 
+  /// [SerializeField]
   /// @brief Field _tableHeaderSongGo, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____tableHeaderSongGo;
 
+  /// [SerializeField]
   /// @brief Field _tableHeaderModifiersGo, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____tableHeaderModifiersGo;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x50, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
+  /// [Inject]
   /// @brief Field _entitlementModel, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IEntitlementModel* ____entitlementModel;
 
+  /// [CompilerGenerated]
   /// @brief Field selectSuggestedLevelEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapKey>* ___selectSuggestedLevelEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field selectSuggestedGameplayModifiersEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::GameplayModifiers*>* ___selectSuggestedGameplayModifiersEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field kickPlayerEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___kickPlayerEvent;
 

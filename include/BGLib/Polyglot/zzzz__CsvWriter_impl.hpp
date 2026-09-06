@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\Polyglot\CsvWriter.hpp"
+// IWYU pragma private; include "BGLib/Polyglot/CsvWriter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__CsvWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -122,7 +122,7 @@ inline void BGLib::Polyglot::CsvWriter::AppendCSVLine(::System::Text::StringBuil
                                        { "AppendCSVLine", {}, { ::i2c::type_of<::System::Text::StringBuilder*>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::StringW>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, buffer, values);
 }
-inline void BGLib::Polyglot::CsvWriter::AppendCSVLine(::System::Text::StringBuilder* buffer, ::ArrayW<::StringW> values) {
+inline void BGLib::Polyglot::CsvWriter::AppendCSVLine(::System::Text::StringBuilder* buffer, /* [ParamArray] */ ::ArrayW<::StringW> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::CsvWriter*>(), { "AppendCSVLine", {}, { ::i2c::type_of<::System::Text::StringBuilder*>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));

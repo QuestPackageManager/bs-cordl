@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\KdTree\KdTree_2.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/KdTree_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,6 +80,7 @@ MARK_GEN_REF_T_PTR(::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ProBuilder::KdTree::KdTree_2, "UnityEngine.ProBuilder.KdTree", "KdTree`2");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33, "UnityEngine.ProBuilder.KdTree", "KdTree`2/<GetEnumerator>d__33");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::ProBuilder::KdTree::KdTree_2___c__DisplayClass33_0, "UnityEngine.ProBuilder.KdTree", "KdTree`2/<>c__DisplayClass33_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
@@ -125,13 +126,13 @@ protected:
   constexpr KdTree_2___c__DisplayClass33_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2___c__DisplayClass33_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2___c__DisplayClass33_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KdTree_2___c__DisplayClass33_0(KdTree_2___c__DisplayClass33_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2___c__DisplayClass33_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2___c__DisplayClass33_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KdTree_2___c__DisplayClass33_0(KdTree_2___c__DisplayClass33_0 const&) = delete;
+  KdTree_2___c__DisplayClass33_0(KdTree_2___c__DisplayClass33_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22682 };
@@ -146,6 +147,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::KdTree
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
@@ -192,18 +194,23 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::ProBuilder::KdTree::KdTree_2__GetEnumerator_d__33<TKey, TValue>* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
   /// true
   inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* System_Collections_Generic_IEnumerator_UnityEngine_ProBuilder_KdTree_KdTreeNode_TKey_TValue___get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -243,6 +250,7 @@ public:
 
   constexpr void __cordl_internal_set__addRight_5__3(::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -262,13 +270,13 @@ protected:
   constexpr KdTree_2__GetEnumerator_d__33();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2__GetEnumerator_d__33", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2__GetEnumerator_d__33", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KdTree_2__GetEnumerator_d__33(KdTree_2__GetEnumerator_d__33&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2__GetEnumerator_d__33", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2__GetEnumerator_d__33", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KdTree_2__GetEnumerator_d__33(KdTree_2__GetEnumerator_d__33 const&) = delete;
+  KdTree_2__GetEnumerator_d__33(KdTree_2__GetEnumerator_d__33const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22683 };
@@ -367,6 +375,7 @@ public:
   /// @brief Method FindValueAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue FindValueAt(::ArrayW<TKey> point);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.ProBuilder.KdTree.KdTree`2::<GetEnumerator>d__33<TKey, TValue>))]
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* GetEnumerator();
 
@@ -447,9 +456,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t dimensions, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath, ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior addDuplicateBehavior);
 
+  /// [CompilerGenerated]
   /// @brief Method get_AddDuplicateBehavior, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior get_AddDuplicateBehavior();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
@@ -463,9 +474,11 @@ public:
   /// @brief Convert to "::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey,TValue>"
   constexpr ::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>* i___UnityEngine__ProBuilder__KdTree__IKdTree_2_TKey_TValue_() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_AddDuplicateBehavior, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_AddDuplicateBehavior(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
@@ -475,13 +488,13 @@ protected:
   constexpr KdTree_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KdTree_2(KdTree_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KdTree_2", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KdTree_2(KdTree_2 const&) = delete;
+  KdTree_2(KdTree_2const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22684 };
@@ -495,9 +508,11 @@ public:
   /// @brief Field root, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* ___root;
 
+  /// [CompilerGenerated]
   /// @brief Field <AddDuplicateBehavior>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior ____AddDuplicateBehavior_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Count>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
 

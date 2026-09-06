@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderHardwareTier.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderHardwareTier.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderHardwareTier_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ShaderHardwareTier::ShaderHardwareTier(int32_t value__) noexcept {
   this->value__ = value__;
 }

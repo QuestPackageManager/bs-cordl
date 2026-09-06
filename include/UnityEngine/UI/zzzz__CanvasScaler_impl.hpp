@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\CanvasScaler.hpp"
+// IWYU pragma private; include "UnityEngine/UI/CanvasScaler.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UI/zzzz__CanvasScaler_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasScaler_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode::CanvasScaler_ScaleMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -15,7 +15,7 @@ constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode::CanvasScaler_ScaleMode() {}
 constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode UnityEngine::UI::CanvasScaler_ScaleMode::ConstantPixelSize{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode UnityEngine::UI::CanvasScaler_ScaleMode::ScaleWithScreenSize{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UI::CanvasScaler_ScaleMode UnityEngine::UI::CanvasScaler_ScaleMode::ConstantPhysicalSize{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode::CanvasScaler_ScreenMatchMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -24,7 +24,7 @@ constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode::CanvasScaler_ScreenMa
 constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode UnityEngine::UI::CanvasScaler_ScreenMatchMode::MatchWidthOrHeight{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode UnityEngine::UI::CanvasScaler_ScreenMatchMode::Expand{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UI::CanvasScaler_ScreenMatchMode UnityEngine::UI::CanvasScaler_ScreenMatchMode::Shrink{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::CanvasScaler_Unit::CanvasScaler_Unit(int32_t value__) noexcept {
   this->value__ = value__;
 }

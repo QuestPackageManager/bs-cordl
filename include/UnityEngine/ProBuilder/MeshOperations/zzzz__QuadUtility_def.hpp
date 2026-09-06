@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\QuadUtility.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/QuadUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class QuadUtility;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::QuadUtility*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::QuadUtility*, "UnityEngine.ProBuilder.MeshOperations", "QuadUtility");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -45,10 +46,12 @@ public:
   static inline ::UnityEngine::ProBuilder::Face* GetBestQuadConnection(::UnityEngine::ProBuilder::WingedEdge* wing,
                                                                        ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float_t>* connections);
 
+  /// [Extension]
   /// @brief Method GetQuadScore, addr 0x6738a00, size 0x694, virtual false, abstract: false, final false
   static inline float_t GetQuadScore(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right,
                                      float_t normalThreshold);
 
+  /// [Extension]
   /// @brief Method ToQuads, addr 0x6734cdc, size 0x800, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* ToQuads(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                   ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, bool smoothing);
@@ -59,13 +62,13 @@ protected:
   constexpr QuadUtility();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuadUtility", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuadUtility", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuadUtility(QuadUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuadUtility", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuadUtility", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuadUtility(QuadUtility const&) = delete;
+  QuadUtility(QuadUtilityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16890 };

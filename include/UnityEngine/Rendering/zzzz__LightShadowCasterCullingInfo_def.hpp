@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LightShadowCasterCullingInfo.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LightShadowCasterCullingInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,8 +26,9 @@ public:
   // @brief default ctor
   constexpr LightShadowCasterCullingInfo();
 
-  // Ctor Parameters [CppParam { name: "splitRange", ty: "::UnityEngine::RangeInt", modifiers: "", def_value: None }, CppParam { name: "projectionType", ty:
-  // "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "", def_value: None }, CppParam { name: "splitExclusionMask", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "splitRange", ty: "::UnityEngine::RangeInt", modifiers: "", def_value: None, comment: None }, CppParam { name: "projectionType", ty:
+  // "::UnityEngine::Rendering::BatchCullingProjectionType", modifiers: "", def_value: None, comment: None }, CppParam { name: "splitExclusionMask", ty: "uint16_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr LightShadowCasterCullingInfo(::UnityEngine::RangeInt splitRange, ::UnityEngine::Rendering::BatchCullingProjectionType projectionType, uint16_t splitExclusionMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

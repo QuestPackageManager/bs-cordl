@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RecordingToolLoggingViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/RecordingToolLoggingViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,20 +57,22 @@ protected:
   constexpr RecordingToolLoggingViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingToolLoggingViewController(RecordingToolLoggingViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolLoggingViewController(RecordingToolLoggingViewController const&) = delete;
+  RecordingToolLoggingViewController(RecordingToolLoggingViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6458 };
 
+  /// [SerializeField]
   /// @brief Field _textPageScrollView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
 
+  /// [InjectOptional]
   /// @brief Field _listLogger, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::ListLogger* ____listLogger;
 

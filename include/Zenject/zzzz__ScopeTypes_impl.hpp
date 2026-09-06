@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ScopeTypes.hpp"
+// IWYU pragma private; include "Zenject/ScopeTypes.hpp"
 #include "Zenject/zzzz__ScopeTypes_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Zenject::ScopeTypes::ScopeTypes(int32_t value__) noexcept {
   this->value__ = value__;
 }

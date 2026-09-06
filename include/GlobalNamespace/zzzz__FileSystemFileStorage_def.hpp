@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FileSystemFileStorage.hpp"
+// IWYU pragma private; include "GlobalNamespace/FileSystemFileStorage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::FileSystemFileStorage_FileExistsCommand*,
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FileSystemFileStorage_LoadFileCommand*, "", "FileSystemFileStorage/LoadFileCommand");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FileSystemFileStorage_SaveFileCommand*, "", "FileSystemFileStorage/SaveFileCommand");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FileSystemFileStorage___c*, "", "FileSystemFileStorage/<>c");
+// [Nullable(0)]
 // Dependencies SyncBackgroundCommand
 namespace GlobalNamespace {
 // Is value type: false
@@ -115,13 +116,13 @@ protected:
   constexpr FileSystemFileStorage_SaveFileCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_SaveFileCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_SaveFileCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemFileStorage_SaveFileCommand(FileSystemFileStorage_SaveFileCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_SaveFileCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_SaveFileCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage_SaveFileCommand(FileSystemFileStorage_SaveFileCommand const&) = delete;
+  FileSystemFileStorage_SaveFileCommand(FileSystemFileStorage_SaveFileCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23265 };
@@ -142,6 +143,7 @@ static_assert(offsetof(::GlobalNamespace::FileSystemFileStorage_SaveFileCommand,
 static_assert(sizeof(::GlobalNamespace::FileSystemFileStorage_SaveFileCommand) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Nullable(new[] { 0, 2 })]
 // Dependencies SyncBackgroundCommand`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -152,6 +154,7 @@ public:
   /// @brief Field _filePath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__filePath, put = __cordl_internal_set__filePath)) ::StringW _filePath;
 
+  /// [NullableContext(2)]
   /// @brief Method ExecuteInternal, addr 0x3315d50, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ExecuteInternal();
 
@@ -172,13 +175,13 @@ protected:
   constexpr FileSystemFileStorage_LoadFileCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_LoadFileCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_LoadFileCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemFileStorage_LoadFileCommand(FileSystemFileStorage_LoadFileCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_LoadFileCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_LoadFileCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage_LoadFileCommand(FileSystemFileStorage_LoadFileCommand const&) = delete;
+  FileSystemFileStorage_LoadFileCommand(FileSystemFileStorage_LoadFileCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23266 };
@@ -194,6 +197,7 @@ static_assert(offsetof(::GlobalNamespace::FileSystemFileStorage_LoadFileCommand,
 static_assert(sizeof(::GlobalNamespace::FileSystemFileStorage_LoadFileCommand) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Nullable(0)]
 // Dependencies SyncBackgroundCommand
 namespace GlobalNamespace {
 // Is value type: false
@@ -224,13 +228,13 @@ protected:
   constexpr FileSystemFileStorage_DeleteFileCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_DeleteFileCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_DeleteFileCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemFileStorage_DeleteFileCommand(FileSystemFileStorage_DeleteFileCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_DeleteFileCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_DeleteFileCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage_DeleteFileCommand(FileSystemFileStorage_DeleteFileCommand const&) = delete;
+  FileSystemFileStorage_DeleteFileCommand(FileSystemFileStorage_DeleteFileCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23267 };
@@ -246,6 +250,7 @@ static_assert(offsetof(::GlobalNamespace::FileSystemFileStorage_DeleteFileComman
 static_assert(sizeof(::GlobalNamespace::FileSystemFileStorage_DeleteFileCommand) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Nullable(0)]
 // Dependencies SyncBackgroundCommand`1<T>
 namespace GlobalNamespace {
 // Is value type: false
@@ -276,13 +281,13 @@ protected:
   constexpr FileSystemFileStorage_FileExistsCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_FileExistsCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_FileExistsCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemFileStorage_FileExistsCommand(FileSystemFileStorage_FileExistsCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_FileExistsCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage_FileExistsCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage_FileExistsCommand(FileSystemFileStorage_FileExistsCommand const&) = delete;
+  FileSystemFileStorage_FileExistsCommand(FileSystemFileStorage_FileExistsCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23268 };
@@ -298,6 +303,7 @@ static_assert(offsetof(::GlobalNamespace::FileSystemFileStorage_FileExistsComman
 static_assert(sizeof(::GlobalNamespace::FileSystemFileStorage_FileExistsCommand) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -333,13 +339,13 @@ protected:
   constexpr FileSystemFileStorage___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemFileStorage___c(FileSystemFileStorage___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage___c(FileSystemFileStorage___c const&) = delete;
+  FileSystemFileStorage___c(FileSystemFileStorage___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23269 };
@@ -350,6 +356,8 @@ public:
 static_assert(sizeof(::GlobalNamespace::FileSystemFileStorage___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -427,13 +435,13 @@ protected:
   constexpr FileSystemFileStorage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemFileStorage(FileSystemFileStorage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FileSystemFileStorage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemFileStorage(FileSystemFileStorage const&) = delete;
+  FileSystemFileStorage(FileSystemFileStorageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23270 };

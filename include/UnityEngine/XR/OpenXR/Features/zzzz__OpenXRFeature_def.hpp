@@ -1,8 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\OpenXRFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/OpenXRFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
@@ -92,7 +94,7 @@ public:
   // @brief default ctor
   constexpr OpenXRFeature_LoaderEvent();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRFeature_LoaderEvent(int32_t value__) noexcept;
 
   /// @brief Field SubsystemCreate value: I32(0)
@@ -173,7 +175,7 @@ public:
   // @brief default ctor
   constexpr OpenXRFeature_NativeEvent();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRFeature_NativeEvent(int32_t value__) noexcept;
 
   /// @brief Field XrBeginSession value: I32(4)
@@ -259,6 +261,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_Native
 static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Features
+// [Flags]
 // Dependencies
 namespace UnityEngine::XR::OpenXR::Features {
 // Is value type: true
@@ -289,7 +292,7 @@ public:
   // @brief default ctor
   constexpr OpenXRFeature_StatFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OpenXRFeature_StatFlags(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(1)
@@ -318,7 +321,7 @@ static_assert(offsetof(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_StatFl
 static_assert(sizeof(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_StatFlags) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::XR::OpenXR::Features
-// Dependencies UnityEngine.ScriptableObject
+// Dependencies UnityEngine.ISubsystem, UnityEngine.ISubsystemDescriptor, UnityEngine.ScriptableObject
 namespace UnityEngine::XR::OpenXR::Features {
 // Is value type: false
 // CS Name: UnityEngine.XR.OpenXR.Features.OpenXRFeature
@@ -372,10 +375,14 @@ public:
   inline void Awake();
 
   /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
+  template <typename TDescriptor, typename TSubsystem>
+    requires(::cordl_internals::type_constraint<TDescriptor, ::UnityEngine::ISubsystemDescriptor*> && ::cordl_internals::type_constraint<TSubsystem, ::UnityEngine::ISubsystem*>)
+  inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
   /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void DestroySubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void DestroySubsystem();
 
   /// @brief Method GetAction, addr 0x69fbfcc, size 0x80, virtual false, abstract: false, final false
   inline uint64_t GetAction(::UnityEngine::XR::InputDevice device, ::UnityEngine::XR::InputFeatureUsage usage);
@@ -539,10 +546,14 @@ public:
   static inline void SetStatAsUInt(uint64_t statId, uint32_t value);
 
   /// @brief Method StartSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void StartSubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void StartSubsystem();
 
   /// @brief Method StopSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void StopSubsystem();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::ISubsystem*> && ::cordl_internals::reference_type_constraint<T>)
+  inline void StopSubsystem();
 
   /// @brief Method StringToPath, addr 0x69fb9e8, size 0x20, virtual false, abstract: false, final false
   static inline uint64_t StringToPath(::StringW str);
@@ -615,9 +626,11 @@ public:
   /// @brief Method get_enabled, addr 0x69ed200, size 0x104, virtual false, abstract: false, final false
   inline bool get_enabled();
 
+  /// [CompilerGenerated]
   /// @brief Method get_failedInitialization, addr 0x69fb5dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_failedInitialization();
 
+  /// [CompilerGenerated]
   /// @brief Method get_requiredFeatureFailed, addr 0x69fb5ec, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_requiredFeatureFailed();
 
@@ -638,9 +651,11 @@ public:
   /// @brief Method set_enabled, addr 0x69fb68c, size 0x174, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_failedInitialization, addr 0x69fb5e4, size 0x8, virtual false, abstract: false, final false
   inline void set_failedInitialization(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_requiredFeatureFailed, addr 0x69fb638, size 0x54, virtual false, abstract: false, final false
   static inline void set_requiredFeatureFailed(bool value);
 
@@ -650,13 +665,13 @@ protected:
   constexpr OpenXRFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OpenXRFeature(OpenXRFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OpenXRFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRFeature(OpenXRFeature const&) = delete;
+  OpenXRFeature(OpenXRFeatureconst&) = delete;
 
   /// @brief Field Library offset 0xffffffff size 0x8
   static constexpr ::ConstString Library{ u"UnityOpenXR" };
@@ -664,30 +679,48 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18556 };
 
+  /// [FormerlySerializedAs("enabled")]
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_enabled, offset: 0x18, size: 0x1, def value: None
   bool ___m_enabled;
 
+  /// [CompilerGenerated]
   /// @brief Field <failedInitialization>k__BackingField, offset: 0x19, size: 0x1, def value: None
   bool ____failedInitialization_k__BackingField;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field nameUi, offset: 0x20, size: 0x8, def value: None
   ::StringW ___nameUi;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field version, offset: 0x28, size: 0x8, def value: None
   ::StringW ___version;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field featureIdInternal, offset: 0x30, size: 0x8, def value: None
   ::StringW ___featureIdInternal;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field openxrExtensionStrings, offset: 0x38, size: 0x8, def value: None
   ::StringW ___openxrExtensionStrings;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field company, offset: 0x40, size: 0x8, def value: None
   ::StringW ___company;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field priority, offset: 0x48, size: 0x4, def value: None
   int32_t ___priority;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field required, offset: 0x4c, size: 0x1, def value: None
   bool ___required;
 

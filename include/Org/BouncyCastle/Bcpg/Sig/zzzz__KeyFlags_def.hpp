@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Sig\KeyFlags.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/KeyFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ protected:
   constexpr KeyFlags();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyFlags", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyFlags", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyFlags(KeyFlags&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyFlags", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyFlags", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeyFlags(KeyFlags const&) = delete;
+  KeyFlags(KeyFlagsconst&) = delete;
 
   /// @brief Field Authentication offset 0xffffffff size 0x4
   static constexpr int32_t Authentication{ static_cast<int32_t>(0x20) };

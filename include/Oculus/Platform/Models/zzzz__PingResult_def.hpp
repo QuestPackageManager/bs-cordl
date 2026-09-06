@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Platform\Models\PingResult.hpp"
+// IWYU pragma private; include "Oculus/Platform/Models/PingResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PingResult)
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -53,6 +55,7 @@ public:
   /// @brief Method .ctor, addr 0x5df1b44, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ID, addr 0x5df1b50, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_ID();
 
@@ -62,6 +65,7 @@ public:
   /// @brief Method get_PingTimeUsec, addr 0x5df1b60, size 0x68, virtual false, abstract: false, final false
   inline uint64_t get_PingTimeUsec();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ID, addr 0x5df1b58, size 0x8, virtual false, abstract: false, final false
   inline void set_ID(uint64_t value);
 
@@ -71,17 +75,18 @@ protected:
   constexpr PingResult();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PingResult", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PingResult", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PingResult(PingResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PingResult", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PingResult", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PingResult(PingResult const&) = delete;
+  PingResult(PingResultconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18082 };
 
+  /// [CompilerGenerated]
   /// @brief Field <ID>k__BackingField, offset: 0x10, size: 0x8, def value: None
   uint64_t ____ID_k__BackingField;
 

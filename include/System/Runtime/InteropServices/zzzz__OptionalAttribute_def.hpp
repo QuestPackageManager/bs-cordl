@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\OptionalAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/OptionalAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class OptionalAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::InteropServices::OptionalAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::OptionalAttribute*, "System.Runtime.InteropServices", "OptionalAttribute");
+// [AttributeUsage((System.AttributeTargets)2048, Inherited = false)]
+// [ComVisible(true)]
 // Dependencies System.Attribute
 namespace System::Runtime::InteropServices {
 // Is value type: false
@@ -30,13 +32,13 @@ protected:
   constexpr OptionalAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OptionalAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OptionalAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OptionalAttribute(OptionalAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OptionalAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OptionalAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OptionalAttribute(OptionalAttribute const&) = delete;
+  OptionalAttribute(OptionalAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3340 };

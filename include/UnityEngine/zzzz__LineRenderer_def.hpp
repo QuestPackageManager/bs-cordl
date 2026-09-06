@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LineRenderer.hpp"
+// IWYU pragma private; include "UnityEngine/LineRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ class LineRenderer;
 // Write type traits
 MARK_REF_T(::UnityEngine::LineRenderer*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::LineRenderer*, "UnityEngine", "LineRenderer");
+// [NativeHeader("Runtime/Graphics/GraphicsScriptBindings.h")]
+// [NativeHeader("Runtime/Graphics/LineRenderer.h")]
 // Dependencies UnityEngine.Renderer
 namespace UnityEngine {
 // Is value type: false
@@ -29,6 +31,7 @@ public:
   // Declarations
   __declspec(property(put = set_endWidth)) float_t endWidth;
 
+  /// @brief [NativeProperty("PositionsCount")]
   __declspec(property(put = set_positionCount)) int32_t positionCount;
 
   __declspec(property(get = get_startWidth, put = set_startWidth)) float_t startWidth;
@@ -82,13 +85,13 @@ protected:
   constexpr LineRenderer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LineRenderer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LineRenderer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LineRenderer(LineRenderer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LineRenderer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LineRenderer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LineRenderer(LineRenderer const&) = delete;
+  LineRenderer(LineRendererconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10155 };

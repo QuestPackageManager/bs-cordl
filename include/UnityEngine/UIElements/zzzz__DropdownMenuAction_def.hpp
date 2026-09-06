@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\DropdownMenuAction.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/DropdownMenuAction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DropdownMenuAction_Status);
 MARK_REF_T(::UnityEngine::UIElements::DropdownMenuAction*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownMenuAction_Status, "UnityEngine.UIElements", "DropdownMenuAction/Status");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::DropdownMenuAction*, "UnityEngine.UIElements", "DropdownMenuAction");
+// [Flags]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -67,7 +68,7 @@ public:
   // @brief default ctor
   constexpr DropdownMenuAction_Status();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DropdownMenuAction_Status(int32_t value__) noexcept;
 
   /// @brief Field Checked value: I32(4)
@@ -194,15 +195,19 @@ public:
   inline void _ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
                     ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* actionStatusCallback, ::System::Object* userData);
 
+  /// [CompilerGenerated]
   /// @brief Method get_name, addr 0x6d93e58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
+  /// [CompilerGenerated]
   /// @brief Method set_eventInfo, addr 0x6d93e68, size 0x8, virtual false, abstract: false, final false
   inline void set_eventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_status, addr 0x6d93e60, size 0x8, virtual false, abstract: false, final false
   inline void set_status(::UnityEngine::UIElements::DropdownMenuAction_Status value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_userData, addr 0x6d93e70, size 0x8, virtual false, abstract: false, final false
   inline void set_userData(::System::Object* value);
 
@@ -212,26 +217,34 @@ protected:
   constexpr DropdownMenuAction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuAction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuAction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DropdownMenuAction(DropdownMenuAction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuAction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DropdownMenuAction(DropdownMenuAction const&) = delete;
+  DropdownMenuAction(DropdownMenuActionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4417 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <status>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::UIElements::DropdownMenuAction_Status ____status_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <eventInfo>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::DropdownMenuEventInfo* ____eventInfo_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <userData>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ____userData_k__BackingField;
 

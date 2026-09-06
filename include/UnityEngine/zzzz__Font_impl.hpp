@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Font.hpp"
+// IWYU pragma private; include "UnityEngine/Font.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
@@ -823,7 +823,7 @@ inline ::ArrayW<::StringW> UnityEngine::Font::get_fontNames() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "get_fontNames", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(this, ___internal_method);
 }
-inline void UnityEngine::Font::set_fontNames(::ArrayW<::StringW> value) {
+inline void UnityEngine::Font::set_fontNames(/* [Unmarshalled] */ ::ArrayW<::StringW> value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "set_fontNames", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
@@ -917,24 +917,25 @@ inline ::ArrayW<::StringW> UnityEngine::Font::GetOSFallbacks() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "GetOSFallbacks", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Font::Internal_CreateFont(::UnityEngine::Font* self, ::StringW name) {
+inline void UnityEngine::Font::Internal_CreateFont(/* [Writable] */ ::UnityEngine::Font* self, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "Internal_CreateFont", {}, { ::i2c::type_of<::UnityEngine::Font*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, name);
 }
-inline void UnityEngine::Font::Internal_CreateFontFromPath(::UnityEngine::Font* self, ::StringW fontPath) {
+inline void UnityEngine::Font::Internal_CreateFontFromPath(/* [Writable] */ ::UnityEngine::Font* self, ::StringW fontPath) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "Internal_CreateFontFromPath", {}, { ::i2c::type_of<::UnityEngine::Font*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, fontPath);
 }
-inline void UnityEngine::Font::Internal_CreateDynamicFont(::UnityEngine::Font* self, ::ArrayW<::StringW> _names, int32_t size) {
+inline void UnityEngine::Font::Internal_CreateDynamicFont(/* [Writable] */ ::UnityEngine::Font* self, /* [Unmarshalled] */ ::ArrayW<::StringW> _names, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(),
                                               { "Internal_CreateDynamicFont", {}, { ::i2c::type_of<::UnityEngine::Font*>(), ::i2c::type_of<::ArrayW<::StringW>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, _names, size);
 }
-inline bool UnityEngine::Font::GetCharacterInfo(char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info, int32_t size, ::UnityEngine::FontStyle style) {
+inline bool UnityEngine::Font::GetCharacterInfo(char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info, /* [DefaultValue("0")] */ int32_t size,
+                                                /* [DefaultValue("FontStyle.Normal")] */ ::UnityEngine::FontStyle style) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "GetCharacterInfo",
                                                                                                       {},
@@ -954,7 +955,7 @@ inline bool UnityEngine::Font::GetCharacterInfo(char16_t ch, ::by_ref<::UnityEng
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "GetCharacterInfo", {}, { ::i2c::type_of<char16_t>(), ::i2c::type_of<::by_ref<::UnityEngine::CharacterInfo>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, ch, info);
 }
-inline void UnityEngine::Font::RequestCharactersInTexture(::StringW characters, int32_t size, ::UnityEngine::FontStyle style) {
+inline void UnityEngine::Font::RequestCharactersInTexture(::StringW characters, /* [DefaultValue("0")] */ int32_t size, /* [DefaultValue("FontStyle.Normal")] */ ::UnityEngine::FontStyle style) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(),
                                               { "RequestCharactersInTexture", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::FontStyle>() } })));
@@ -1033,21 +1034,22 @@ inline bool UnityEngine::Font::HasCharacter_Injected(::System::IntPtr _unity_sel
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "HasCharacter_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, c);
 }
-inline void UnityEngine::Font::Internal_CreateFont_Injected(::UnityEngine::Font* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name) {
+inline void UnityEngine::Font::Internal_CreateFont_Injected(/* [Writable] */ ::UnityEngine::Font* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(),
                                        { "Internal_CreateFont_Injected", {}, { ::i2c::type_of<::UnityEngine::Font*>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, name);
 }
-inline void UnityEngine::Font::Internal_CreateFontFromPath_Injected(::UnityEngine::Font* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fontPath) {
+inline void UnityEngine::Font::Internal_CreateFontFromPath_Injected(/* [Writable] */ ::UnityEngine::Font* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fontPath) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(),
                           { "Internal_CreateFontFromPath_Injected", {}, { ::i2c::type_of<::UnityEngine::Font*>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, fontPath);
 }
-inline bool UnityEngine::Font::GetCharacterInfo_Injected(::System::IntPtr _unity_self, char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info, int32_t size, ::UnityEngine::FontStyle style) {
+inline bool UnityEngine::Font::GetCharacterInfo_Injected(::System::IntPtr _unity_self, char16_t ch, ::by_ref<::UnityEngine::CharacterInfo> info, /* [DefaultValue("0")] */ int32_t size,
+                                                         /* [DefaultValue("FontStyle.Normal")] */ ::UnityEngine::FontStyle style) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "GetCharacterInfo_Injected",
@@ -1056,8 +1058,8 @@ inline bool UnityEngine::Font::GetCharacterInfo_Injected(::System::IntPtr _unity
                                                                        ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::FontStyle>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, ch, info, size, style);
 }
-inline void UnityEngine::Font::RequestCharactersInTexture_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> characters, int32_t size,
-                                                                   ::UnityEngine::FontStyle style) {
+inline void UnityEngine::Font::RequestCharactersInTexture_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> characters,
+                                                                   /* [DefaultValue("0")] */ int32_t size, /* [DefaultValue("FontStyle.Normal")] */ ::UnityEngine::FontStyle style) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Font*>(), { "RequestCharactersInTexture_Injected",
                                                                                          {},

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OnDemandRendering.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OnDemandRendering.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OnDemandRendering_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::OnDemandRendering.get_renderFrameInterval

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleEnumType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleEnumType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct StyleEnumType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleEnumType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleSheets::StyleEnumType, "UnityEngine.UIElements.StyleSheets", "StyleEnumType");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
@@ -65,7 +66,7 @@ public:
   // @brief default ctor
   constexpr StyleEnumType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StyleEnumType(int32_t value__) noexcept;
 
   /// @brief Field Align value: I32(0)

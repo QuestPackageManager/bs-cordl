@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRUtility.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRUtility_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"

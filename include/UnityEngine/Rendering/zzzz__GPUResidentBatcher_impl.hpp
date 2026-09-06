@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUResidentBatcher.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUResidentBatcher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ParallelBitArray_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUResidentBatcher_def.hpp"
@@ -546,7 +546,7 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::FreeRendererGroupInstanc
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rendererGroupIDs);
 }
 inline void UnityEngine::Rendering::GPUResidentBatcher::InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                              ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
                                                                               ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -558,7 +558,7 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::InstanceOcclusionTest(::
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, settings, subviewOcclusionTests);
 }
 inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                                                                 ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
@@ -595,7 +595,7 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::OnSetupAmbientProbe() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(), { "OnSetupAmbientProbe", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererInstancesAndBatches(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererInstancesAndBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                                                           ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                                           ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),
@@ -606,7 +606,7 @@ inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererInstancesA
                                                                                              ::i2c::type_of<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rendererData, meshes, materials);
 }
-inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererBatches(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+inline void UnityEngine::Rendering::GPUResidentBatcher::UpdateRendererBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                                               ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                               ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentBatcher*>(),

@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\ActionResult.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/ActionResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ActionResult_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ActionResult_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ProBuilder::ActionResult_Status::ActionResult_Status(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\HID\HID.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/HID/HID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -168,6 +168,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::HID::HID_HIDCollectionDescriptor
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor, "UnityEngine.InputSystem.HID", "HID/HIDDeviceDescriptor");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptorBuilder, "UnityEngine.InputSystem.HID", "HID/HIDDeviceDescriptorBuilder");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor, "UnityEngine.InputSystem.HID", "HID/HIDElementDescriptor");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
@@ -223,13 +224,13 @@ protected:
   constexpr HIDLayoutBuilder_HID___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HIDLayoutBuilder_HID___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HIDLayoutBuilder_HID___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HIDLayoutBuilder_HID___c(HIDLayoutBuilder_HID___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HIDLayoutBuilder_HID___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HIDLayoutBuilder_HID___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HIDLayoutBuilder_HID___c(HIDLayoutBuilder_HID___c const&) = delete;
+  HIDLayoutBuilder_HID___c(HIDLayoutBuilder_HID___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8884 };
@@ -271,7 +272,7 @@ public:
   // @brief default ctor
   constexpr HID_HIDReportType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HID_HIDReportType(int32_t value__) noexcept;
 
   /// @brief Field Feature value: I32(3)
@@ -303,6 +304,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::HID_HIDReportType, value
 static_assert(sizeof(::UnityEngine::InputSystem::HID::HID_HIDReportType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::HID
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
@@ -339,7 +341,7 @@ public:
   // @brief default ctor
   constexpr HID_HIDElementFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HID_HIDElementFlags(int32_t value__) noexcept;
 
   /// @brief Field BufferedBytes value: I32(256)
@@ -438,7 +440,7 @@ public:
   // @brief default ctor
   constexpr HID_UsagePage();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HID_UsagePage(int32_t value__) noexcept;
 
   /// @brief Field AlphanumericDisplay value: I32(20)
@@ -631,14 +633,16 @@ public:
   // @brief default ctor
   constexpr HID_HIDElementDescriptor();
 
-  // Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "",
-  // def_value: None }, CppParam { name: "unit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unitExponent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "logicalMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "logicalMax", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "physicalMin", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "physicalMax", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportType", ty:
-  // "::UnityEngine::InputSystem::HID::HID_HIDReportType", modifiers: "", def_value: None }, CppParam { name: "collectionIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "reportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportSizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportOffsetInBits", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::InputSystem::HID::HID_HIDElementFlags", modifiers: "", def_value: None }, CppParam { name: "usageMin",
-  // ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "usageMax", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "unit", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "unitExponent", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "logicalMin", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "logicalMax", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "physicalMin", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "physicalMax", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "reportType", ty: "::UnityEngine::InputSystem::HID::HID_HIDReportType", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "collectionIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "reportId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "reportSizeInBits", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "reportOffsetInBits", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "flags", ty: "::UnityEngine::InputSystem::HID::HID_HIDElementFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "usageMin", ty:
+  // "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "usageMax", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None, comment: None
+  // }]
   constexpr HID_HIDElementDescriptor(int32_t usage, ::UnityEngine::InputSystem::HID::HID_UsagePage usagePage, int32_t unit, int32_t unitExponent, int32_t logicalMin, int32_t logicalMax,
                                      int32_t physicalMin, int32_t physicalMax, ::UnityEngine::InputSystem::HID::HID_HIDReportType reportType, int32_t collectionIndex, int32_t reportId,
                                      int32_t reportSizeInBits, int32_t reportOffsetInBits, ::UnityEngine::InputSystem::HID::HID_HIDElementFlags flags, ::System::Nullable_1<int32_t> usageMin,
@@ -770,7 +774,7 @@ public:
   // @brief default ctor
   constexpr HID_HIDCollectionType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HID_HIDCollectionType(int32_t value__) noexcept;
 
   /// @brief Field Application value: I32(1)
@@ -822,9 +826,10 @@ public:
   // @brief default ctor
   constexpr HID_HIDCollectionDescriptor();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::HID::HID_HIDCollectionType", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "childCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstChild", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::HID::HID_HIDCollectionType", modifiers: "", def_value: None, comment: None }, CppParam { name: "usage", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "parent", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "childCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "firstChild", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HID_HIDCollectionDescriptor(::UnityEngine::InputSystem::HID::HID_HIDCollectionType type, int32_t usage, ::UnityEngine::InputSystem::HID::HID_UsagePage usagePage, int32_t parent,
                                         int32_t childCount, int32_t firstChild) noexcept;
 
@@ -887,11 +892,12 @@ public:
   // @brief default ctor
   constexpr HID_HIDDeviceDescriptor();
 
-  // Ctor Parameters [CppParam { name: "vendorId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: None }, CppParam { name:
-  // "inputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "outputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "featureReportSize", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "elements", ty: "::ArrayW<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>", modifiers: "", def_value: None }, CppParam {
-  // name: "collections", ty: "::ArrayW<::UnityEngine::InputSystem::HID::HID_HIDCollectionDescriptor>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "vendorId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "inputReportSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "outputReportSize", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "featureReportSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "elements", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>", modifiers: "", def_value: None, comment: None }, CppParam { name: "collections", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::HID::HID_HIDCollectionDescriptor>", modifiers: "", def_value: None, comment: None }]
   constexpr HID_HIDDeviceDescriptor(int32_t vendorId, int32_t productId, int32_t usage, ::UnityEngine::InputSystem::HID::HID_UsagePage usagePage, int32_t inputReportSize, int32_t outputReportSize,
                                     int32_t featureReportSize, ::ArrayW<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor> elements,
                                     ::ArrayW<::UnityEngine::InputSystem::HID::HID_HIDCollectionDescriptor> collections) noexcept;
@@ -1012,13 +1018,13 @@ protected:
   constexpr HID_HIDLayoutBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HID_HIDLayoutBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HID_HIDLayoutBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HID_HIDLayoutBuilder(HID_HIDLayoutBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HID_HIDLayoutBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HID_HIDLayoutBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HID_HIDLayoutBuilder(HID_HIDLayoutBuilder const&) = delete;
+  HID_HIDLayoutBuilder(HID_HIDLayoutBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8885 };
@@ -1084,13 +1090,13 @@ public:
   // @brief default ctor
   constexpr HID_HIDDeviceDescriptorBuilder();
 
-  // Ctor Parameters [CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_CurrentReportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CurrentReportType", ty:
-  // "::UnityEngine::InputSystem::HID::HID_HIDReportType", modifiers: "", def_value: None }, CppParam { name: "m_CurrentReportOffsetInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Elements", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>*", modifiers: "", def_value: None }, CppParam { name: "m_Collections",
-  // ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::HID_HIDCollectionDescriptor>*", modifiers: "", def_value: None }, CppParam { name: "m_InputReportSize", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_OutputReportSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureReportSize", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::HID_UsagePage", modifiers: "", def_value: None, comment: None }, CppParam { name: "usage", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentReportId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentReportType", ty:
+  // "::UnityEngine::InputSystem::HID::HID_HIDReportType", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CurrentReportOffsetInBits", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "m_Elements", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_Collections", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::HID_HIDCollectionDescriptor>*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "m_InputReportSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OutputReportSize", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_FeatureReportSize", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HID_HIDDeviceDescriptorBuilder(::UnityEngine::InputSystem::HID::HID_UsagePage usagePage, int32_t usage, int32_t m_CurrentReportId,
                                            ::UnityEngine::InputSystem::HID::HID_HIDReportType m_CurrentReportType, int32_t m_CurrentReportOffsetInBits,
                                            ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::HID_HIDElementDescriptor>* m_Elements,
@@ -1257,7 +1263,7 @@ public:
   // @brief default ctor
   constexpr HID_GenericDesktop();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HID_GenericDesktop(int32_t value__) noexcept;
 
   /// @brief Field ApplicationBreak value: I32(165)
@@ -1569,7 +1575,7 @@ public:
   // @brief default ctor
   constexpr HID_Simulation();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HID_Simulation(int32_t value__) noexcept;
 
   /// @brief Field Accelerator value: I32(196)
@@ -1776,7 +1782,7 @@ public:
   // @brief default ctor
   constexpr HID_Button();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HID_Button(int32_t value__) noexcept;
 
   /// @brief Field Primary value: I32(1)
@@ -1808,6 +1814,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::HID_Button, value__) == 
 static_assert(sizeof(::UnityEngine::InputSystem::HID::HID_Button) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::HID
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
@@ -1838,13 +1845,13 @@ protected:
   constexpr HID___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HID___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HID___c__DisplayClass13_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HID___c__DisplayClass13_0(HID___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HID___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HID___c__DisplayClass13_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HID___c__DisplayClass13_0(HID___c__DisplayClass13_0 const&) = delete;
+  HID___c__DisplayClass13_0(HID___c__DisplayClass13_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8897 };
@@ -1957,13 +1964,13 @@ protected:
   constexpr HID();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HID", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HID", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HID(HID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HID", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HID", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HID(HID const&) = delete;
+  HID(HIDconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8898 };

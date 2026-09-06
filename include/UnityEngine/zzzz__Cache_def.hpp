@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Cache.hpp"
+// IWYU pragma private; include "UnityEngine/Cache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,8 @@ struct Cache;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Cache);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Cache, "UnityEngine", "Cache");
+// [NativeHeader("Runtime/Misc/Cache.h")]
+// [StaticAccessor("CacheWrapper", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -43,6 +45,7 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Cache>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Cache>*();
 
+  /// [NativeThrows]
   /// @brief Method Cache_GetPath, addr 0x6a69830, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW Cache_GetPath(int32_t handle);
 
@@ -52,9 +55,11 @@ public:
   /// @brief Method Cache_IsValid, addr 0x6a697ec, size 0x3c, virtual false, abstract: false, final false
   static inline bool Cache_IsValid(int32_t handle);
 
+  /// [NativeThrows]
   /// @brief Method Cache_SetExpirationDelay, addr 0x6a69a0c, size 0x44, virtual false, abstract: false, final false
   static inline void Cache_SetExpirationDelay(int32_t handle, int32_t value);
 
+  /// [NativeThrows]
   /// @brief Method Cache_SetMaximumDiskSpaceAvailable, addr 0x6a69984, size 0x44, virtual false, abstract: false, final false
   static inline void Cache_SetMaximumDiskSpaceAvailable(int32_t handle, int64_t value);
 
@@ -89,7 +94,7 @@ public:
   // @brief default ctor
   constexpr Cache();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Cache(int32_t m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

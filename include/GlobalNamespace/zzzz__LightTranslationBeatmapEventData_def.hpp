@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightTranslationBeatmapEventData.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightTranslationBeatmapEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,6 +133,7 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightTranslationBeatmapEventData*>* getStaticF__defaults();
 
+  /// [CompilerGenerated]
   /// @brief Method get_distribution, addr 0x325b138, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distribution();
 
@@ -142,14 +143,17 @@ public:
   /// @brief Method get_previousSameTypeEventData, addr 0x325b030, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightTranslationBeatmapEventData* get_previousSameTypeEventData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_translation, addr 0x325b128, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translation();
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightTranslationBeatmapEventData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_distribution, addr 0x325b140, size 0x8, virtual false, abstract: false, final false
   inline void set_distribution(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_translation, addr 0x325b130, size 0x8, virtual false, abstract: false, final false
   inline void set_translation(float_t value);
 
@@ -159,13 +163,13 @@ protected:
   constexpr LightTranslationBeatmapEventData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationBeatmapEventData(LightTranslationBeatmapEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightTranslationBeatmapEventData(LightTranslationBeatmapEventData const&) = delete;
+  LightTranslationBeatmapEventData(LightTranslationBeatmapEventDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21249 };
@@ -185,9 +189,11 @@ public:
   /// @brief Field axis, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::LightAxis ___axis;
 
+  /// [CompilerGenerated]
   /// @brief Field <translation>k__BackingField, offset: 0x4c, size: 0x4, def value: None
   float_t ____translation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <distribution>k__BackingField, offset: 0x50, size: 0x4, def value: None
   float_t ____distribution_k__BackingField;
 

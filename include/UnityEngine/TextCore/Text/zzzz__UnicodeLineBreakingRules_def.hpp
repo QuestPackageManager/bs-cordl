@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\UnicodeLineBreakingRules.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/UnicodeLineBreakingRules.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ public:
   /// @brief Method GetCharacters, addr 0x6c150c4, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* GetCharacters(::UnityEngine::TextAsset* file);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method LoadLineBreakingRules, addr 0x6c14ea4, size 0x1f4, virtual false, abstract: false, final false
   inline void LoadLineBreakingRules();
 
@@ -114,26 +115,30 @@ protected:
   constexpr UnicodeLineBreakingRules();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnicodeLineBreakingRules(UnicodeLineBreakingRules&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnicodeLineBreakingRules", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnicodeLineBreakingRules(UnicodeLineBreakingRules const&) = delete;
+  UnicodeLineBreakingRules(UnicodeLineBreakingRulesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17289 };
 
+  /// [SerializeField]
   /// @brief Field m_UnicodeLineBreakingRules, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___m_UnicodeLineBreakingRules;
 
+  /// [SerializeField]
   /// @brief Field m_LeadingCharacters, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___m_LeadingCharacters;
 
+  /// [SerializeField]
   /// @brief Field m_FollowingCharacters, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___m_FollowingCharacters;
 
+  /// [SerializeField]
   /// @brief Field m_UseModernHangulLineBreakingRules, offset: 0x28, size: 0x1, def value: None
   bool ___m_UseModernHangulLineBreakingRules;
 

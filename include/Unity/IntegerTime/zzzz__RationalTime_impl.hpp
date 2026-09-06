@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\IntegerTime\RationalTime.hpp"
+// IWYU pragma private; include "Unity/IntegerTime/RationalTime.hpp"
 #include "Unity/IntegerTime/zzzz__RationalTime_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -214,7 +214,8 @@ constexpr ::System::IEquatable_1<::Unity::IntegerTime::RationalTime_TicksPerSeco
 Unity::IntegerTime::RationalTime_TicksPerSecond::i___System__IEquatable_1___Unity__IntegerTime__RationalTime_TicksPerSecond_() {
   return static_cast<::System::IEquatable_1<::Unity::IntegerTime::RationalTime_TicksPerSecond>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Numerator", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Denominator", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Numerator", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Denominator", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::Unity::IntegerTime::RationalTime_TicksPerSecond::RationalTime_TicksPerSecond(uint32_t m_Numerator, uint32_t m_Denominator) noexcept {
   this->m_Numerator = m_Numerator;
   this->m_Denominator = m_Denominator;
@@ -256,8 +257,8 @@ inline ::Unity::IntegerTime::DiscreteTime Unity::IntegerTime::RationalTime::op_E
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTime>(), { "op_Explicit", {}, { ::i2c::type_of<::Unity::IntegerTime::RationalTime>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::IntegerTime::DiscreteTime>(nullptr, ___internal_method, t);
 }
-// Ctor Parameters [CppParam { name: "m_Count", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TicksPerSecond", ty: "::Unity::IntegerTime::RationalTime_TicksPerSecond",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Count", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_TicksPerSecond", ty:
+// "::Unity::IntegerTime::RationalTime_TicksPerSecond", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::IntegerTime::RationalTime::RationalTime(int64_t m_Count, ::Unity::IntegerTime::RationalTime_TicksPerSecond m_TicksPerSecond) noexcept {
   this->m_Count = m_Count;
   this->m_TicksPerSecond = m_TicksPerSecond;

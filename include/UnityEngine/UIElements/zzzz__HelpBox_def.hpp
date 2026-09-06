@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\HelpBox.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/HelpBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,9 @@ namespace UnityEngine::UIElements {
 class Label;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -53,6 +55,7 @@ MARK_REF_T(::UnityEngine::UIElements::HelpBox_UxmlTraits*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::HelpBox*, "UnityEngine.UIElements", "HelpBox");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::HelpBox_UxmlFactory*, "UnityEngine.UIElements", "HelpBox/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::HelpBox_UxmlTraits*, "UnityEngine.UIElements", "HelpBox/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -71,13 +74,13 @@ protected:
   constexpr HelpBox_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpBox_UxmlFactory(HelpBox_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpBox_UxmlFactory(HelpBox_UxmlFactory const&) = delete;
+  HelpBox_UxmlFactory(HelpBox_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4209 };
@@ -88,6 +91,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::HelpBox_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -128,13 +132,13 @@ protected:
   constexpr HelpBox_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpBox_UxmlTraits(HelpBox_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpBox_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpBox_UxmlTraits(HelpBox_UxmlTraits const&) = delete;
+  HelpBox_UxmlTraits(HelpBox_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4210 };
@@ -193,11 +197,13 @@ public:
   /// @brief Field m_Label, offset 0x4c0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Label, put = __cordl_internal_set_m_Label)) ::UnityEngine::UIElements::Label* m_Label;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_messageType, put = set_messageType)) ::UnityEngine::UIElements::HelpBoxMessageType messageType;
 
   /// @brief Field messageTypeProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_messageTypeProperty, put = setStaticF_messageTypeProperty)) ::UnityEngine::UIElements::BindingId messageTypeProperty;
 
+  /// @brief [CreateProperty]
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
   /// @brief Field textProperty, offset 0xffffffff, size 0x98
@@ -296,13 +302,13 @@ protected:
   constexpr HelpBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HelpBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpBox", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HelpBox(HelpBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HelpBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HelpBox", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HelpBox(HelpBox const&) = delete;
+  HelpBox(HelpBoxconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4211 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\UnicastIPAddressInformationCollection.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/UnicastIPAddressInformationCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,7 @@ class UnicastIPAddressInformationCollection;
 // Write type traits
 MARK_REF_T(::System::Net::NetworkInformation::UnicastIPAddressInformationCollection*);
 DEFINE_IL2CPP_CLASS(::System::Net::NetworkInformation::UnicastIPAddressInformationCollection*, "System.Net.NetworkInformation", "UnicastIPAddressInformationCollection");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Net::NetworkInformation {
 // Is value type: false
@@ -117,13 +118,13 @@ protected:
   constexpr UnicastIPAddressInformationCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnicastIPAddressInformationCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnicastIPAddressInformationCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnicastIPAddressInformationCollection(UnicastIPAddressInformationCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnicastIPAddressInformationCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnicastIPAddressInformationCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnicastIPAddressInformationCollection(UnicastIPAddressInformationCollection const&) = delete;
+  UnicastIPAddressInformationCollection(UnicastIPAddressInformationCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11681 };

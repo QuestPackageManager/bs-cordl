@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentBrandingManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentBrandingManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ protected:
   constexpr EnvironmentBrandingManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentBrandingManager_InitData(EnvironmentBrandingManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentBrandingManager_InitData(EnvironmentBrandingManager_InitData const&) = delete;
+  EnvironmentBrandingManager_InitData(EnvironmentBrandingManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5601 };
@@ -123,23 +123,26 @@ protected:
   constexpr EnvironmentBrandingManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentBrandingManager(EnvironmentBrandingManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentBrandingManager(EnvironmentBrandingManager const&) = delete;
+  EnvironmentBrandingManager(EnvironmentBrandingManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5602 };
 
+  /// [SerializeField]
   /// @brief Field _brandingObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____brandingObjects;
 
+  /// [SerializeField]
   /// @brief Field _replacementBrandingObjects, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____replacementBrandingObjects;
 
+  /// [InjectOptional]
   /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentBrandingManager_InitData* ____initData;
 

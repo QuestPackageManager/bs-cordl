@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\Internal\ReflectionTypeInfo.hpp"
+// IWYU pragma private; include "Zenject/Internal/ReflectionTypeInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,6 +76,7 @@ DEFINE_IL2CPP_CLASS(::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo*, "Z
 DEFINE_IL2CPP_CLASS(::Zenject::Internal::ReflectionTypeInfo_InjectMethodInfo*, "Zenject.Internal", "ReflectionTypeInfo/InjectMethodInfo");
 DEFINE_IL2CPP_CLASS(::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*, "Zenject.Internal", "ReflectionTypeInfo/InjectParameterInfo");
 DEFINE_IL2CPP_CLASS(::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo*, "Zenject.Internal", "ReflectionTypeInfo/InjectPropertyInfo");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
@@ -112,13 +113,13 @@ protected:
   constexpr ReflectionTypeInfo_InjectFieldInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectFieldInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectFieldInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionTypeInfo_InjectFieldInfo(ReflectionTypeInfo_InjectFieldInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectFieldInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectFieldInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectFieldInfo(ReflectionTypeInfo_InjectFieldInfo const&) = delete;
+  ReflectionTypeInfo_InjectFieldInfo(ReflectionTypeInfo_InjectFieldInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14732 };
@@ -139,6 +140,7 @@ static_assert(offsetof(::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo, 
 static_assert(sizeof(::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo) == 0x20, "Size mismatch!");
 
 } // namespace Zenject::Internal
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
@@ -175,13 +177,13 @@ protected:
   constexpr ReflectionTypeInfo_InjectParameterInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectParameterInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectParameterInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionTypeInfo_InjectParameterInfo(ReflectionTypeInfo_InjectParameterInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectParameterInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectParameterInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectParameterInfo(ReflectionTypeInfo_InjectParameterInfo const&) = delete;
+  ReflectionTypeInfo_InjectParameterInfo(ReflectionTypeInfo_InjectParameterInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14733 };
@@ -202,6 +204,7 @@ static_assert(offsetof(::Zenject::Internal::ReflectionTypeInfo_InjectParameterIn
 static_assert(sizeof(::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo) == 0x20, "Size mismatch!");
 
 } // namespace Zenject::Internal
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
@@ -238,13 +241,13 @@ protected:
   constexpr ReflectionTypeInfo_InjectPropertyInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectPropertyInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectPropertyInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionTypeInfo_InjectPropertyInfo(ReflectionTypeInfo_InjectPropertyInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectPropertyInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectPropertyInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectPropertyInfo(ReflectionTypeInfo_InjectPropertyInfo const&) = delete;
+  ReflectionTypeInfo_InjectPropertyInfo(ReflectionTypeInfo_InjectPropertyInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14734 };
@@ -265,6 +268,7 @@ static_assert(offsetof(::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInf
 static_assert(sizeof(::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo) == 0x20, "Size mismatch!");
 
 } // namespace Zenject::Internal
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
@@ -303,13 +307,13 @@ protected:
   constexpr ReflectionTypeInfo_InjectMethodInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectMethodInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectMethodInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionTypeInfo_InjectMethodInfo(ReflectionTypeInfo_InjectMethodInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectMethodInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectMethodInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectMethodInfo(ReflectionTypeInfo_InjectMethodInfo const&) = delete;
+  ReflectionTypeInfo_InjectMethodInfo(ReflectionTypeInfo_InjectMethodInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14735 };
@@ -330,6 +334,7 @@ static_assert(offsetof(::Zenject::Internal::ReflectionTypeInfo_InjectMethodInfo,
 static_assert(sizeof(::Zenject::Internal::ReflectionTypeInfo_InjectMethodInfo) == 0x20, "Size mismatch!");
 
 } // namespace Zenject::Internal
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
@@ -368,13 +373,13 @@ protected:
   constexpr ReflectionTypeInfo_InjectConstructorInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectConstructorInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectConstructorInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionTypeInfo_InjectConstructorInfo(ReflectionTypeInfo_InjectConstructorInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectConstructorInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo_InjectConstructorInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo_InjectConstructorInfo(ReflectionTypeInfo_InjectConstructorInfo const&) = delete;
+  ReflectionTypeInfo_InjectConstructorInfo(ReflectionTypeInfo_InjectConstructorInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14736 };
@@ -395,6 +400,7 @@ static_assert(offsetof(::Zenject::Internal::ReflectionTypeInfo_InjectConstructor
 static_assert(sizeof(::Zenject::Internal::ReflectionTypeInfo_InjectConstructorInfo) == 0x20, "Size mismatch!");
 
 } // namespace Zenject::Internal
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
@@ -486,13 +492,13 @@ protected:
   constexpr ReflectionTypeInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionTypeInfo(ReflectionTypeInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionTypeInfo(ReflectionTypeInfo const&) = delete;
+  ReflectionTypeInfo(ReflectionTypeInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14737 };

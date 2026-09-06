@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualElementFocusRing.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementFocusRing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,7 +81,7 @@ public:
   // @brief default ctor
   constexpr VisualElementFocusRing_DefaultFocusOrder();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VisualElementFocusRing_DefaultFocusOrder(int32_t value__) noexcept;
 
   /// @brief Field ChildOrder value: I32(0)
@@ -166,13 +166,13 @@ protected:
   constexpr VisualElementFocusRing_FocusRingRecord();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing_FocusRingRecord", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing_FocusRingRecord", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementFocusRing_FocusRingRecord(VisualElementFocusRing_FocusRingRecord&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing_FocusRingRecord", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing_FocusRingRecord", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusRing_FocusRingRecord(VisualElementFocusRing_FocusRingRecord const&) = delete;
+  VisualElementFocusRing_FocusRingRecord(VisualElementFocusRing_FocusRingRecordconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5244 };
@@ -286,6 +286,7 @@ public:
   /// @brief Method .ctor, addr 0x6ccb590, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElementFocusRing_DefaultFocusOrder dfo);
 
+  /// [CompilerGenerated]
   /// @brief Method get_defaultFocusOrder, addr 0x6ccb63c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElementFocusRing_DefaultFocusOrder get_defaultFocusOrder();
 
@@ -295,6 +296,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IFocusRing"
   constexpr ::UnityEngine::UIElements::IFocusRing* i___UnityEngine__UIElements__IFocusRing() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_defaultFocusOrder, addr 0x6ccb644, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultFocusOrder(::UnityEngine::UIElements::VisualElementFocusRing_DefaultFocusOrder value);
 
@@ -304,13 +306,13 @@ protected:
   constexpr VisualElementFocusRing();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementFocusRing(VisualElementFocusRing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusRing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementFocusRing(VisualElementFocusRing const&) = delete;
+  VisualElementFocusRing(VisualElementFocusRingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5245 };
@@ -318,6 +320,8 @@ public:
   /// @brief Field root, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___root;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <defaultFocusOrder>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::UIElements::VisualElementFocusRing_DefaultFocusOrder ____defaultFocusOrder_k__BackingField;
 

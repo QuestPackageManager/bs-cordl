@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongTimeFixedUpdateController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongTimeFixedUpdateController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,9 +87,11 @@ public:
   /// @brief Method .ctor, addr 0x58bbe28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x58bba08, size 0xc0, virtual false, abstract: false, final false
   inline void add_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_songControllerTimeDidUpdateEvent, addr 0x58bbb88, size 0xac, virtual false, abstract: false, final false
   inline void add_songControllerTimeDidUpdateEvent(::System::Action* value);
 
@@ -99,9 +101,11 @@ public:
   /// @brief Method get_interpolationFactor, addr 0x58bbcec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_interpolationFactor();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_songControllerFixedTimeDidUpdateEvent, addr 0x58bbac8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_songControllerTimeDidUpdateEvent, addr 0x58bbc34, size 0xac, virtual false, abstract: false, final false
   inline void remove_songControllerTimeDidUpdateEvent(::System::Action* value);
 
@@ -111,13 +115,13 @@ protected:
   constexpr SongTimeFixedUpdateController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeFixedUpdateController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeFixedUpdateController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongTimeFixedUpdateController(SongTimeFixedUpdateController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeFixedUpdateController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongTimeFixedUpdateController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongTimeFixedUpdateController(SongTimeFixedUpdateController const&) = delete;
+  SongTimeFixedUpdateController(SongTimeFixedUpdateControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5588 };
@@ -125,12 +129,15 @@ public:
   /// @brief Field kFixedDeltaTime offset 0xffffffff size 0x4
   static constexpr float_t kFixedDeltaTime{ static_cast<float_t>(0.016666668f) };
 
+  /// [Inject]
   /// @brief Field _audioTimeSource, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
+  /// [CompilerGenerated]
   /// @brief Field songControllerFixedTimeDidUpdateEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___songControllerFixedTimeDidUpdateEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field songControllerTimeDidUpdateEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___songControllerTimeDidUpdateEvent;
 

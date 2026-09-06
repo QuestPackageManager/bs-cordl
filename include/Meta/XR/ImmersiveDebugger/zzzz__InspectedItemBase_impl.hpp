@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedItemBase.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedItemBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__InspectedItemBase_def.hpp"
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::InspectedItemBase.get_Valid

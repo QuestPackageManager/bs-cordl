@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\RectMask2D.hpp"
+// IWYU pragma private; include "UnityEngine/UI/RectMask2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,10 @@ class RectMask2D;
 // Write type traits
 MARK_REF_T(::UnityEngine::UI::RectMask2D*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::RectMask2D*, "UnityEngine.UI", "RectMask2D");
+// [AddComponentMenu("UI/Rect Mask 2D", 14)]
+// [ExecuteAlways]
+// [DisallowMultipleComponent]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.EventSystems.UIBehaviour, UnityEngine.Rect, UnityEngine.Vector2Int, UnityEngine.Vector3, UnityEngine.Vector4
 namespace UnityEngine::UI {
 // Is value type: false
@@ -264,13 +268,13 @@ protected:
   constexpr RectMask2D();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RectMask2D", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectMask2D", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RectMask2D(RectMask2D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RectMask2D", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RectMask2D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RectMask2D(RectMask2D const&) = delete;
+  RectMask2D(RectMask2Dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17477 };
@@ -299,9 +303,11 @@ public:
   /// @brief Field m_ForceClip, offset: 0x60, size: 0x1, def value: None
   bool ___m_ForceClip;
 
+  /// [SerializeField]
   /// @brief Field m_Padding, offset: 0x64, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_Padding;
 
+  /// [SerializeField]
   /// @brief Field m_Softness, offset: 0x74, size: 0x8, def value: None
   ::UnityEngine::Vector2Int ___m_Softness;
 

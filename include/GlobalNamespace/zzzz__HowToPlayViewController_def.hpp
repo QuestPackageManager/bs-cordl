@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HowToPlayViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/HowToPlayViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   // @brief default ctor
   constexpr HowToPlayViewController_HowToPlayOptions();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr HowToPlayViewController_HowToPlayOptions(int32_t value__) noexcept;
 
   /// @brief Field Credits value: I32(1)
@@ -107,9 +107,11 @@ public:
 
   static inline ::GlobalNamespace::HowToPlayViewController* New_ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__6_0, addr 0x5a1a990, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__6_1, addr 0x5a1a9b0, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_1();
 
@@ -134,9 +136,11 @@ public:
   /// @brief Method .ctor, addr 0x5a1a98c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x5a1a6cc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x5a1a78c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* value);
 
@@ -146,23 +150,28 @@ protected:
   constexpr HowToPlayViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HowToPlayViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HowToPlayViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HowToPlayViewController(HowToPlayViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HowToPlayViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HowToPlayViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HowToPlayViewController(HowToPlayViewController const&) = delete;
+  HowToPlayViewController(HowToPlayViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6445 };
 
+  /// [WillNotBeUsed]
+  /// [SerializeField]
   /// @brief Field _tutorialButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____tutorialButton;
 
+  /// [WillNotBeUsed]
+  /// [SerializeField]
   /// @brief Field _creditsButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____creditsButton;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* ___didFinishEvent;
 

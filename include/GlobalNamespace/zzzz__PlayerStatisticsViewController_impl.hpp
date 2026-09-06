@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlayerStatisticsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlayerStatisticsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerStatisticsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
@@ -113,8 +113,8 @@ inline void GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::_cto
                                        { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, text, playerOverallStatsDataFunc);
 }
-// Ctor Parameters [CppParam { name: "_text_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_playerOverallStatsDataFunc_k__BackingField", ty:
-// "::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_text_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_playerOverallStatsDataFunc_k__BackingField",
+// ty: "::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData::PlayerStatisticsViewController_StatsScopeData(
     ::StringW _text_k__BackingField, ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* _playerOverallStatsDataFunc_k__BackingField) noexcept {
   this->_text_k__BackingField = _text_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Sprite.hpp"
+// IWYU pragma private; include "UnityEngine/Sprite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,11 @@ class Sprite;
 // Write type traits
 MARK_REF_T(::UnityEngine::Sprite*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Sprite*, "UnityEngine", "Sprite");
+// [ExcludeFromPreset]
+// [NativeHeader("Runtime/2D/Common/ScriptBindings/SpritesMarshalling.h")]
+// [NativeType("Runtime/Graphics/SpriteFrame.h")]
+// [NativeHeader("Runtime/2D/Common/SpriteDataAccess.h")]
+// [NativeHeader("Runtime/Graphics/SpriteUtility.h")]
 // Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
@@ -100,7 +105,7 @@ public:
   __declspec(property(get = get_vertices)) ::ArrayW<::UnityEngine::Vector2> vertices;
 
   /// @brief Method AddScriptableObject, addr 0x6a64244, size 0xe4, virtual false, abstract: false, final false
-  inline bool AddScriptableObject(::UnityEngine::ScriptableObject* obj);
+  inline bool AddScriptableObject(/* [NotNull] */ ::UnityEngine::ScriptableObject* obj);
 
   /// @brief Method AddScriptableObject_Injected, addr 0x6a64328, size 0x44, virtual false, abstract: false, final false
   static inline bool AddScriptableObject_Injected(::System::IntPtr _unity_self, ::System::IntPtr obj);
@@ -137,11 +142,13 @@ public:
                                                        ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape,
                                                        ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTextures);
 
+  /// [FreeFunction("SpritesBindings::CreateSprite", ThrowsException = true)]
   /// @brief Method CreateSprite, addr 0x6a62fac, size 0x1b0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> CreateSprite(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
                                                              ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape,
-                                                             ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture);
+                                                             /* [Unmarshalled] */ ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture);
 
+  /// [FreeFunction("SpritesBindings::CreateSpriteWithoutTextureScripting")]
   /// @brief Method CreateSpriteWithoutTextureScripting, addr 0x6a62dcc, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> CreateSpriteWithoutTextureScripting(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits, ::UnityEngine::Texture2D* texture);
 
@@ -199,8 +206,9 @@ public:
   /// @brief Method GetPhysicsShapeCount_Injected, addr 0x6a6404c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetPhysicsShapeCount_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("SpritesBindings::GetPhysicsShape", ThrowsException = true)]
   /// @brief Method GetPhysicsShapeImpl, addr 0x6a64838, size 0x200, virtual false, abstract: false, final false
-  static inline void GetPhysicsShapeImpl(::UnityEngine::Sprite* sprite, int32_t shapeIdx, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* physicsShape);
+  static inline void GetPhysicsShapeImpl(::UnityEngine::Sprite* sprite, int32_t shapeIdx, /* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* physicsShape);
 
   /// @brief Method GetPhysicsShapeImpl_Injected, addr 0x6a64a38, size 0x54, virtual false, abstract: false, final false
   static inline void GetPhysicsShapeImpl_Injected(::System::IntPtr sprite, int32_t shapeIdx, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> physicsShape);
@@ -208,8 +216,9 @@ public:
   /// @brief Method GetPhysicsShapePointCount, addr 0x6a64580, size 0xcc, virtual false, abstract: false, final false
   inline int32_t GetPhysicsShapePointCount(int32_t shapeIdx);
 
+  /// [FreeFunction("SpritesBindings::GetScriptableObjects", ThrowsException = true, HasExplicitThis = true)]
   /// @brief Method GetScriptableObjects, addr 0x6a64144, size 0xbc, virtual false, abstract: false, final false
-  inline uint32_t GetScriptableObjects(::ArrayW<::UnityEngine::ScriptableObject*> scriptableObjects);
+  inline uint32_t GetScriptableObjects(/* [Unmarshalled] [NotNull] */ ::ArrayW<::UnityEngine::ScriptableObject*> scriptableObjects);
 
   /// @brief Method GetScriptableObjectsCount, addr 0x6a64088, size 0x80, virtual false, abstract: false, final false
   inline uint32_t GetScriptableObjectsCount();
@@ -232,8 +241,9 @@ public:
   /// @brief Method GetSecondaryTexture_Injected, addr 0x6a63790, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetSecondaryTexture_Injected(::System::IntPtr _unity_self, int32_t index);
 
+  /// [FreeFunction("SpritesBindings::GetSecondaryTextures", ThrowsException = true, HasExplicitThis = true)]
   /// @brief Method GetSecondaryTextures, addr 0x6a63890, size 0xbc, virtual false, abstract: false, final false
-  inline int32_t GetSecondaryTextures(::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture);
+  inline int32_t GetSecondaryTextures(/* [Unmarshalled] [NotNull] */ ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture);
 
   /// @brief Method GetSecondaryTextures_Injected, addr 0x6a6394c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetSecondaryTextures_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::SecondarySpriteTexture> secondaryTexture);
@@ -250,16 +260,19 @@ public:
   /// @brief Method GetTextureRect_Injected, addr 0x6a62a0c, size 0x44, virtual false, abstract: false, final false
   static inline void GetTextureRect_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> ret);
 
+  /// [NativeMethod("GetPhysicsShapePointCount")]
   /// @brief Method Internal_GetPhysicsShapePointCount, addr 0x6a6464c, size 0x90, virtual false, abstract: false, final false
   inline int32_t Internal_GetPhysicsShapePointCount(int32_t shapeIdx);
 
   /// @brief Method Internal_GetPhysicsShapePointCount_Injected, addr 0x6a646dc, size 0x44, virtual false, abstract: false, final false
   static inline int32_t Internal_GetPhysicsShapePointCount_Injected(::System::IntPtr _unity_self, int32_t shapeIdx);
 
+  /// @brief [RequiredByNativeCode]
   static inline ::UnityEngine::Sprite* New_ctor();
 
+  /// [FreeFunction("SpritesBindings::OverrideGeometry", HasExplicitThis = true)]
   /// @brief Method OverrideGeometry, addr 0x6a650a0, size 0x1a4, virtual false, abstract: false, final false
-  inline void OverrideGeometry(::ArrayW<::UnityEngine::Vector2> vertices, ::ArrayW<uint16_t> triangles);
+  inline void OverrideGeometry(/* [NotNull] */ ::ArrayW<::UnityEngine::Vector2> vertices, /* [NotNull] */ ::ArrayW<uint16_t> triangles);
 
   /// @brief Method OverrideGeometry_Injected, addr 0x6a65244, size 0x54, virtual false, abstract: false, final false
   static inline void OverrideGeometry_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> vertices,
@@ -268,9 +281,11 @@ public:
   /// @brief Method OverridePhysicsShape, addr 0x6a64a8c, size 0x3c4, virtual false, abstract: false, final false
   inline void OverridePhysicsShape(::System::Collections::Generic::IList_1<::ArrayW<::UnityEngine::Vector2>>* physicsShapes);
 
+  /// [FreeFunction("SpritesBindings::OverridePhysicsShape", ThrowsException = true)]
   /// @brief Method OverridePhysicsShape, addr 0x6a64ee0, size 0x128, virtual false, abstract: false, final false
-  static inline void OverridePhysicsShape(::UnityEngine::Sprite* sprite, ::ArrayW<::UnityEngine::Vector2> physicsShape, int32_t idx);
+  static inline void OverridePhysicsShape(::UnityEngine::Sprite* sprite, /* [NotNull] */ ::ArrayW<::UnityEngine::Vector2> physicsShape, int32_t idx);
 
+  /// [FreeFunction("SpritesBindings::OverridePhysicsShapeCount")]
   /// @brief Method OverridePhysicsShapeCount, addr 0x6a64e50, size 0x90, virtual false, abstract: false, final false
   static inline void OverridePhysicsShapeCount(::UnityEngine::Sprite* sprite, int32_t physicsShapeCount);
 
@@ -287,14 +302,16 @@ public:
   static inline bool RemoveScriptableObjectAt_Injected(::System::IntPtr _unity_self, uint32_t i);
 
   /// @brief Method SetScriptableObjectAt, addr 0x6a64440, size 0xec, virtual false, abstract: false, final false
-  inline bool SetScriptableObjectAt(::UnityEngine::ScriptableObject* obj, uint32_t i);
+  inline bool SetScriptableObjectAt(/* [NotNull] */ ::UnityEngine::ScriptableObject* obj, uint32_t i);
 
   /// @brief Method SetScriptableObjectAt_Injected, addr 0x6a6452c, size 0x54, virtual false, abstract: false, final false
   static inline bool SetScriptableObjectAt_Injected(::System::IntPtr _unity_self, ::System::IntPtr obj, uint32_t i);
 
+  /// [RequiredByNativeCode]
   /// @brief Method .ctor, addr 0x6a626e4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NativeMethod("GetAlphaTexture")]
   /// @brief Method get_associatedAlphaSplitTexture, addr 0x6a63b08, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_associatedAlphaSplitTexture();
 
@@ -322,12 +339,14 @@ public:
   /// @brief Method get_packingRotation, addr 0x6a63d8c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::SpritePackingRotation get_packingRotation();
 
+  /// [NativeMethod("GetPivotInPixels")]
   /// @brief Method get_pivot, addr 0x6a63c94, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pivot();
 
   /// @brief Method get_pivot_Injected, addr 0x6a63d2c, size 0x44, virtual false, abstract: false, final false
   static inline void get_pivot_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> ret);
 
+  /// [NativeMethod("GetPixelsToUnits")]
   /// @brief Method get_pixelsPerUnit, addr 0x6a63990, size 0x80, virtual false, abstract: false, final false
   inline float_t get_pixelsPerUnit();
 
@@ -340,6 +359,7 @@ public:
   /// @brief Method get_rect_Injected, addr 0x6a63388, size 0x44, virtual false, abstract: false, final false
   static inline void get_rect_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> ret);
 
+  /// [NativeMethod("GetSpriteAtlasTextureScale")]
   /// @brief Method get_spriteAtlasTextureScale, addr 0x6a63a4c, size 0x80, virtual false, abstract: false, final false
   inline float_t get_spriteAtlasTextureScale();
 
@@ -358,18 +378,21 @@ public:
   /// @brief Method get_texture_Injected, addr 0x6a635fc, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_texture_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("SpriteAccessLegacy::GetSpriteIndices", HasExplicitThis = true)]
   /// @brief Method get_triangles, addr 0x6a63e54, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<uint16_t> get_triangles();
 
   /// @brief Method get_triangles_Injected, addr 0x6a63ed4, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint16_t> get_triangles_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("SpriteAccessLegacy::GetSpriteUVs", HasExplicitThis = true)]
   /// @brief Method get_uv, addr 0x6a63f10, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_uv();
 
   /// @brief Method get_uv_Injected, addr 0x6a63f90, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2> get_uv_Injected(::System::IntPtr _unity_self);
 
+  /// [FreeFunction("SpriteAccessLegacy::GetSpriteVertices", HasExplicitThis = true)]
   /// @brief Method get_vertices, addr 0x6a63d98, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2> get_vertices();
 
@@ -382,13 +405,13 @@ protected:
   constexpr Sprite();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Sprite", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sprite", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Sprite(Sprite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Sprite", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Sprite", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Sprite(Sprite const&) = delete;
+  Sprite(Spriteconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10051 };

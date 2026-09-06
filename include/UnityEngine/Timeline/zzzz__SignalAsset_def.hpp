@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\SignalAsset.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/SignalAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class SignalAsset;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::SignalAsset*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::SignalAsset*, "UnityEngine.Timeline", "SignalAsset");
+// [AssetFileNameExtension("signal", new[] {  })]
 // Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -33,11 +34,13 @@ public:
   /// @brief Method .ctor, addr 0x69c6a54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnEnableCallback, addr 0x69c6824, size 0xe0, virtual false, abstract: false, final false
   static inline void add_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* getStaticF_OnEnableCallback();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnEnableCallback, addr 0x69c6904, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
@@ -49,13 +52,13 @@ protected:
   constexpr SignalAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalAsset(SignalAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalAsset(SignalAsset const&) = delete;
+  SignalAsset(SignalAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19215 };

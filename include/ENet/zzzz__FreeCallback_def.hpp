@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet\FreeCallback.hpp"
+// IWYU pragma private; include "ENet/FreeCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ protected:
   constexpr FreeCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FreeCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FreeCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FreeCallback(FreeCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FreeCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FreeCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FreeCallback(FreeCallback const&) = delete;
+  FreeCallback(FreeCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21719 };

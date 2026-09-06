@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UnsignedLongField.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UnsignedLongField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,6 +49,7 @@ DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UnsignedLongField*, "UnityEngine.
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UnsignedLongField_UnsignedLongInput*, "UnityEngine.UIElements", "UnsignedLongField/UnsignedLongInput");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UnsignedLongField_UxmlFactory*, "UnityEngine.UIElements", "UnsignedLongField/UxmlFactory");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UnsignedLongField_UxmlTraits*, "UnityEngine.UIElements", "UnsignedLongField/UxmlTraits");
+// [Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -68,13 +69,13 @@ protected:
   constexpr UnsignedLongField_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UxmlFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsignedLongField_UxmlFactory(UnsignedLongField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UxmlFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedLongField_UxmlFactory(UnsignedLongField_UxmlFactory const&) = delete;
+  UnsignedLongField_UxmlFactory(UnsignedLongField_UxmlFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4360 };
@@ -85,6 +86,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::UnsignedLongField_UxmlFactory) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -103,13 +105,13 @@ protected:
   constexpr UnsignedLongField_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UxmlTraits", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsignedLongField_UxmlTraits(UnsignedLongField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UxmlTraits", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedLongField_UxmlTraits(UnsignedLongField_UxmlTraits const&) = delete;
+  UnsignedLongField_UxmlTraits(UnsignedLongField_UxmlTraitsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4361 };
@@ -160,13 +162,13 @@ protected:
   constexpr UnsignedLongField_UnsignedLongInput();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UnsignedLongInput", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UnsignedLongInput", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsignedLongField_UnsignedLongInput(UnsignedLongField_UnsignedLongInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UnsignedLongInput", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField_UnsignedLongInput", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedLongField_UnsignedLongInput(UnsignedLongField_UnsignedLongInput const&) = delete;
+  UnsignedLongField_UnsignedLongInput(UnsignedLongField_UnsignedLongInputconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4362 };
@@ -244,13 +246,13 @@ protected:
   constexpr UnsignedLongField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsignedLongField(UnsignedLongField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnsignedLongField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedLongField(UnsignedLongField const&) = delete;
+  UnsignedLongField(UnsignedLongFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4363 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\KawaseBlurRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/KawaseBlurRendererSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +104,7 @@ public:
   // @brief default ctor
   constexpr KawaseBlurRendererSO_KernelSize();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr KawaseBlurRendererSO_KernelSize(int32_t value__) noexcept;
 
   /// @brief Field Kernel127 value: I32(5)
@@ -178,7 +178,7 @@ public:
   // @brief default ctor
   constexpr KawaseBlurRendererSO_WeightsType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr KawaseBlurRendererSO_WeightsType(int32_t value__) noexcept;
 
   /// @brief Field AlphaAndDepthWeights value: I32(2)
@@ -243,13 +243,13 @@ protected:
   constexpr KawaseBlurRendererSO_BloomKernel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KawaseBlurRendererSO_BloomKernel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KawaseBlurRendererSO_BloomKernel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KawaseBlurRendererSO_BloomKernel(KawaseBlurRendererSO_BloomKernel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KawaseBlurRendererSO_BloomKernel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KawaseBlurRendererSO_BloomKernel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KawaseBlurRendererSO_BloomKernel(KawaseBlurRendererSO_BloomKernel const&) = delete;
+  KawaseBlurRendererSO_BloomKernel(KawaseBlurRendererSO_BloomKernelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19500 };
@@ -304,7 +304,7 @@ public:
   // @brief default ctor
   constexpr KawaseBlurRendererSO_Pass();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr KawaseBlurRendererSO_Pass(int32_t value__) noexcept;
 
   /// @brief Field AlphaAndDepthWeights value: I32(4)
@@ -558,13 +558,13 @@ protected:
   constexpr KawaseBlurRendererSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KawaseBlurRendererSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KawaseBlurRendererSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KawaseBlurRendererSO(KawaseBlurRendererSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KawaseBlurRendererSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KawaseBlurRendererSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KawaseBlurRendererSO(KawaseBlurRendererSO const&) = delete;
+  KawaseBlurRendererSO(KawaseBlurRendererSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19502 };
@@ -572,12 +572,15 @@ public:
   /// @brief Field kMaxBloomIterations offset 0xffffffff size 0x4
   static constexpr int32_t kMaxBloomIterations{ static_cast<int32_t>(0x5) };
 
+  /// [SerializeField]
   /// @brief Field _kawaseBlurShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____kawaseBlurShader;
 
+  /// [SerializeField]
   /// @brief Field _additiveShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____additiveShader;
 
+  /// [SerializeField]
   /// @brief Field _tintShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____tintShader;
 

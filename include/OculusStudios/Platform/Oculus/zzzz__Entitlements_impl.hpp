@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\Platform\Oculus\Entitlements.hpp"
+// IWYU pragma private; include "OculusStudios/Platform/Oculus/Entitlements.hpp"
 #include "OculusStudios/Platform/Core/zzzz__Vendor_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
@@ -287,11 +287,11 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 OculusStudios::Platform::Oculus::Entitlements__GetAllProductsAsync_d__5::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Oculus::Entitlements*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty:
-// "::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_0*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>*>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "__4__this", ty: "::OculusStudios::Platform::Oculus::Entitlements*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__8__1", ty:
+// "::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_0*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>*>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::OculusStudios::Platform::Oculus::Entitlements__GetAllProductsAsync_d__5::Entitlements__GetAllProductsAsync_d__5(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*> __t__builder,
     ::OculusStudios::Platform::Oculus::Entitlements* __4__this, ::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_0* __8__1,

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRPlayerController.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRPlayerController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,6 +35,8 @@ class OVRPlayerController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRPlayerController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRPlayerController*, "", "OVRPlayerController");
+// [RequireComponent(typeof(UnityEngine.CharacterController))]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-sf-distancegrab/")]
 // Dependencies OVRPose, System.Nullable`1<T>, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -493,27 +495,35 @@ public:
   /// @brief Method .ctor, addr 0x5f09e5c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_CameraUpdated, addr 0x5f07750, size 0xac, virtual false, abstract: false, final false
   inline void add_CameraUpdated(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_PreCharacterMove, addr 0x5f078a8, size 0xac, virtual false, abstract: false, final false
   inline void add_PreCharacterMove(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_TransformUpdated, addr 0x5f075d0, size 0xc0, virtual false, abstract: false, final false
   inline void add_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_InitialYRotation, addr 0x5f07a00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InitialYRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_CameraUpdated, addr 0x5f077fc, size 0xac, virtual false, abstract: false, final false
   inline void remove_CameraUpdated(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_PreCharacterMove, addr 0x5f07954, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreCharacterMove(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_TransformUpdated, addr 0x5f07690, size 0xc0, virtual false, abstract: false, final false
   inline void remove_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_InitialYRotation, addr 0x5f07a08, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialYRotation(float_t value);
 
@@ -523,13 +533,13 @@ protected:
   constexpr OVRPlayerController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPlayerController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPlayerController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPlayerController(OVRPlayerController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPlayerController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRPlayerController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRPlayerController(OVRPlayerController const&) = delete;
+  OVRPlayerController(OVRPlayerControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7964 };
@@ -552,12 +562,17 @@ public:
   /// @brief Field RotationRatchet, offset: 0x34, size: 0x4, def value: None
   float_t ___RotationRatchet;
 
+  /// [Tooltip("The player will rotate in fixed steps if Snap Rotation is enabled.")]
   /// @brief Field SnapRotation, offset: 0x38, size: 0x1, def value: None
   bool ___SnapRotation;
 
+  /// [Obsolete]
+  /// [Tooltip("[Deprecated] When enabled, snap rotation will happen about the center of the guardian rather than the center of the player/camera viewpoint. This (legacy) option should be left off
+  /// except for edge cases that require extreme behavioral backwards compatibility.")]
   /// @brief Field RotateAroundGuardianCenter, offset: 0x39, size: 0x1, def value: None
   bool ___RotateAroundGuardianCenter;
 
+  /// [Tooltip("Sets the number of discrete speeds that will be used in continuous motion. If 0, motion speed is not discretized.")]
   /// @brief Field FixedSpeedSteps, offset: 0x3c, size: 0x4, def value: None
   int32_t ___FixedSpeedSteps;
 
@@ -576,15 +591,18 @@ public:
   /// @brief Field CameraHeight, offset: 0x4c, size: 0x4, def value: None
   float_t ___CameraHeight;
 
+  /// [CompilerGenerated]
   /// @brief Field TransformUpdated, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::Transform>>* ___TransformUpdated;
 
   /// @brief Field Teleported, offset: 0x58, size: 0x1, def value: None
   bool ___Teleported;
 
+  /// [CompilerGenerated]
   /// @brief Field CameraUpdated, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___CameraUpdated;
 
+  /// [CompilerGenerated]
   /// @brief Field PreCharacterMove, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___PreCharacterMove;
 
@@ -615,6 +633,7 @@ public:
   /// @brief Field InitialPose, offset: 0x9c, size: 0x20, def value: None
   ::System::Nullable_1<::GlobalNamespace::OVRPose> ___InitialPose;
 
+  /// [CompilerGenerated]
   /// @brief Field <InitialYRotation>k__BackingField, offset: 0xbc, size: 0x4, def value: None
   float_t ____InitialYRotation_k__BackingField;
 

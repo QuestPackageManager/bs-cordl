@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FrameTiming.hpp"
+// IWYU pragma private; include "GlobalNamespace/FrameTiming.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,6 +55,7 @@ public:
   /// @brief Method GetLastFrameSampleValue, addr 0x5852be0, size 0x7c, virtual false, abstract: false, final false
   static inline int64_t GetLastFrameSampleValue(::Unity::Profiling::ProfilerRecorder recorder, int32_t lastFrameCount);
 
+  /// [RuntimeInitializeOnLoadMethod]
   /// @brief Method Initialize, addr 0x5852744, size 0x1a0, virtual false, abstract: false, final false
   static inline void Initialize();
 
@@ -130,13 +131,13 @@ protected:
   constexpr FrameTiming();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTiming", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FrameTiming", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FrameTiming(FrameTiming&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FrameTiming", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FrameTiming", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FrameTiming(FrameTiming const&) = delete;
+  FrameTiming(FrameTimingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22763 };

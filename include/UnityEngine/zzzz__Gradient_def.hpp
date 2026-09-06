@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Gradient.hpp"
+// IWYU pragma private; include "UnityEngine/Gradient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,13 +70,13 @@ protected:
   constexpr Gradient_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gradient_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gradient_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gradient_BindingsMarshaller(Gradient_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gradient_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gradient_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gradient_BindingsMarshaller(Gradient_BindingsMarshaller const&) = delete;
+  Gradient_BindingsMarshaller(Gradient_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10252 };
@@ -87,6 +87,8 @@ public:
 static_assert(sizeof(::UnityEngine::Gradient_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [RequiredByNativeCode]
+// [NativeHeader("Runtime/Export/Math/Gradient.bindings.h")]
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
@@ -100,6 +102,7 @@ public:
 
   __declspec(property(get = get_colorKeys, put = set_colorKeys)) ::ArrayW<::UnityEngine::GradientColorKey> colorKeys;
 
+  /// @brief [NativeProperty(IsThreadSafe = true)]
   __declspec(property(get = get_colorSpace, put = set_colorSpace)) ::UnityEngine::ColorSpace colorSpace;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
@@ -108,11 +111,13 @@ public:
   /// @brief Field m_RequiresNativeCleanup, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_RequiresNativeCleanup, put = __cordl_internal_set_m_RequiresNativeCleanup)) bool m_RequiresNativeCleanup;
 
+  /// @brief [NativeProperty(IsThreadSafe = true)]
   __declspec(property(get = get_mode, put = set_mode)) ::UnityEngine::GradientMode mode;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Gradient*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Gradient*>*() noexcept;
 
+  /// [FreeFunction(Name = "Gradient_Bindings::Cleanup", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method Cleanup, addr 0x6acc054, size 0x50, virtual false, abstract: false, final false
   inline void Cleanup();
 
@@ -125,6 +130,7 @@ public:
   /// @brief Method Equals, addr 0x6accd6c, size 0x90, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Gradient* other);
 
+  /// [FreeFunction(Name = "Gradient_Bindings::Evaluate", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method Evaluate, addr 0x6acc21c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color Evaluate(float_t time);
 
@@ -137,19 +143,24 @@ public:
   /// @brief Method GetHashCode, addr 0x6accdfc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [FreeFunction(Name = "Gradient_Bindings::Init", IsThreadSafe = true)]
   /// @brief Method Init, addr 0x6acc02c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Init();
 
+  /// [FreeFunction("Gradient_Bindings::Internal_Equals", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method Internal_Equals, addr 0x6acc0e0, size 0x58, virtual false, abstract: false, final false
   inline bool Internal_Equals(::System::IntPtr other);
 
   /// @brief Method Internal_Equals_Injected, addr 0x6acc138, size 0x44, virtual false, abstract: false, final false
   static inline bool Internal_Equals_Injected(::System::IntPtr _unity_self, ::System::IntPtr other);
 
+  /// @brief [RequiredByNativeCode]
   static inline ::UnityEngine::Gradient* New_ctor();
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
   static inline ::UnityEngine::Gradient* New_ctor(::System::IntPtr ptr);
 
+  /// [FreeFunction(Name = "Gradient_Bindings::SetKeys", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method SetKeys, addr 0x6accac4, size 0x160, virtual false, abstract: false, final false
   inline void SetKeys(::ArrayW<::UnityEngine::GradientColorKey> colorKeys, ::ArrayW<::UnityEngine::GradientAlphaKey> alphaKeys);
 
@@ -168,18 +179,22 @@ public:
 
   constexpr void __cordl_internal_set_m_RequiresNativeCleanup(bool value);
 
+  /// [RequiredByNativeCode]
   /// @brief Method .ctor, addr 0x6acc17c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
   /// @brief Method .ctor, addr 0x6acc1c4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
+  /// [FreeFunction("Gradient_Bindings::GetAlphaKeys", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method get_alphaKeys, addr 0x6acc5b0, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientAlphaKey> get_alphaKeys();
 
   /// @brief Method get_alphaKeys_Injected, addr 0x6acc6fc, size 0x44, virtual false, abstract: false, final false
   static inline void get_alphaKeys_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
+  /// [FreeFunction("Gradient_Bindings::GetColorKeys", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method get_colorKeys, addr 0x6acc2ec, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientColorKey> get_colorKeys();
 
@@ -201,12 +216,14 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Gradient*>"
   constexpr ::System::IEquatable_1<::UnityEngine::Gradient*>* i___System__IEquatable_1___UnityEngine__Gradient__() noexcept;
 
+  /// [FreeFunction("Gradient_Bindings::SetAlphaKeys", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method set_alphaKeys, addr 0x6acc740, size 0xf0, virtual false, abstract: false, final false
   inline void set_alphaKeys(::ArrayW<::UnityEngine::GradientAlphaKey> value);
 
   /// @brief Method set_alphaKeys_Injected, addr 0x6acc830, size 0x44, virtual false, abstract: false, final false
   static inline void set_alphaKeys_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
+  /// [FreeFunction("Gradient_Bindings::SetColorKeys", IsThreadSafe = true, HasExplicitThis = true)]
   /// @brief Method set_colorKeys, addr 0x6acc47c, size 0xf0, virtual false, abstract: false, final false
   inline void set_colorKeys(::ArrayW<::UnityEngine::GradientColorKey> value);
 
@@ -231,17 +248,18 @@ protected:
   constexpr Gradient();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gradient", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gradient", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gradient(Gradient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gradient", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Gradient", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Gradient(Gradient const&) = delete;
+  Gradient(Gradientconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10253 };
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.ParticleSystemModule" })]
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 

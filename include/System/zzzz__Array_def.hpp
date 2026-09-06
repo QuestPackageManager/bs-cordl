@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Array.hpp"
+// IWYU pragma private; include "System/Array.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -195,13 +195,13 @@ protected:
   constexpr Array_ArrayEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Array_ArrayEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Array_ArrayEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Array_ArrayEnumerator(Array_ArrayEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Array_ArrayEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Array_ArrayEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Array_ArrayEnumerator(Array_ArrayEnumerator const&) = delete;
+  Array_ArrayEnumerator(Array_ArrayEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2538 };
@@ -267,13 +267,13 @@ protected:
   constexpr Array_RawData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Array_RawData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Array_RawData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Array_RawData(Array_RawData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Array_RawData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Array_RawData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Array_RawData(Array_RawData const&) = delete;
+  Array_RawData(Array_RawDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2539 };
@@ -352,7 +352,8 @@ public:
   // @brief default ctor
   constexpr Array_InternalEnumerator_1();
 
-  // Ctor Parameters [CppParam { name: "array", ty: "::System::Array*", modifiers: "", def_value: None }, CppParam { name: "idx", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "array", ty: "::System::Array*", modifiers: "", def_value: None, comment: None }, CppParam { name: "idx", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr Array_InternalEnumerator_1(::System::Array* array, int32_t idx) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -435,13 +436,13 @@ protected:
   constexpr Array_EmptyInternalEnumerator_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Array_EmptyInternalEnumerator_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Array_EmptyInternalEnumerator_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Array_EmptyInternalEnumerator_1(Array_EmptyInternalEnumerator_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Array_EmptyInternalEnumerator_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Array_EmptyInternalEnumerator_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Array_EmptyInternalEnumerator_1(Array_EmptyInternalEnumerator_1 const&) = delete;
+  Array_EmptyInternalEnumerator_1(Array_EmptyInternalEnumerator_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2541 };
@@ -491,8 +492,8 @@ public:
   // @brief default ctor
   constexpr Array_SorterObjectArray();
 
-  // Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: None }, CppParam { name: "items", ty: "::ArrayW<::System::Object*>", modifiers: "",
-  // def_value: None }, CppParam { name: "comparer", ty: "::System::Collections::IComparer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<::System::Object*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "items", ty: "::ArrayW<::System::Object*>",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "comparer", ty: "::System::Collections::IComparer*", modifiers: "", def_value: None, comment: None }]
   constexpr Array_SorterObjectArray(::ArrayW<::System::Object*> keys, ::ArrayW<::System::Object*> items, ::System::Collections::IComparer* comparer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -563,8 +564,8 @@ public:
   // @brief default ctor
   constexpr Array_SorterGenericArray();
 
-  // Ctor Parameters [CppParam { name: "keys", ty: "::System::Array*", modifiers: "", def_value: None }, CppParam { name: "items", ty: "::System::Array*", modifiers: "", def_value: None }, CppParam {
-  // name: "comparer", ty: "::System::Collections::IComparer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "keys", ty: "::System::Array*", modifiers: "", def_value: None, comment: None }, CppParam { name: "items", ty: "::System::Array*", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "comparer", ty: "::System::Collections::IComparer*", modifiers: "", def_value: None, comment: None }]
   constexpr Array_SorterGenericArray(::System::Array* keys, ::System::Array* items, ::System::Collections::IComparer* comparer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -681,6 +682,7 @@ public:
   /// @brief Method CanAssignArrayElement, addr 0x5c6e5ec, size 0xd8, virtual false, abstract: false, final false
   static inline bool CanAssignArrayElement(::System::Type* source, ::System::Type* target);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method Clear, addr 0x5c6affc, size 0x124, virtual false, abstract: false, final false
   static inline void Clear(::System::Array* array, int32_t index, int32_t length);
 
@@ -693,18 +695,21 @@ public:
   /// @brief Method CombineHashCodes, addr 0x5c6bb78, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method ConstrainedCopy, addr 0x5c6e6c4, size 0x4, virtual false, abstract: false, final false
   static inline void ConstrainedCopy(::System::Array* sourceArray, int32_t sourceIndex, ::System::Array* destinationArray, int32_t destinationIndex, int32_t length);
 
   /// @brief Method ConvertAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInput, typename TOutput> static inline ::ArrayW<TOutput> ConvertAll(::ArrayW<TInput> array, ::System::Converter_2<TInput, TOutput>* converter);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method Copy, addr 0x5c6c29c, size 0xc4, virtual false, abstract: false, final false
   static inline void Copy(::System::Array* sourceArray, ::System::Array* destinationArray, int32_t length);
 
   /// @brief Method Copy, addr 0x5c6c22c, size 0x70, virtual false, abstract: false, final false
   static inline void Copy(::System::Array* sourceArray, ::System::Array* destinationArray, int64_t length);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)2, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method Copy, addr 0x5c6b2c4, size 0x560, virtual false, abstract: false, final false
   static inline void Copy(::System::Array* sourceArray, int32_t sourceIndex, ::System::Array* destinationArray, int32_t destinationIndex, int32_t length);
 
@@ -729,14 +734,14 @@ public:
   /// @brief Method CreateInstance, addr 0x5c6e4d0, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstance(::System::Type* elementType, int32_t length1, int32_t length2, int32_t length3);
 
-  /// @brief Method CreateInstance, addr 0x5c6aae4, size 0x260, virtual false, abstract: false, final false
-  static inline ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int32_t> lengths);
-
   /// @brief Method CreateInstance, addr 0x5c6e020, size 0x3a0, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int32_t> lengths, ::ArrayW<int32_t> lowerBounds);
 
+  /// @brief Method CreateInstance, addr 0x5c6aae4, size 0x260, virtual false, abstract: false, final false
+  static inline ::System::Array* CreateInstance(::System::Type* elementType, /* [ParamArray] */ ::ArrayW<int32_t> lengths);
+
   /// @brief Method CreateInstance, addr 0x5c6a960, size 0x184, virtual false, abstract: false, final false
-  static inline ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int64_t> lengths);
+  static inline ::System::Array* CreateInstance(::System::Type* elementType, /* [ParamArray] */ ::ArrayW<int64_t> lengths);
 
   /// @brief Method CreateInstanceImpl, addr 0x5c6dfe0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstanceImpl(::System::Type* elementType, ::ArrayW<int32_t> lengths, ::ArrayW<int32_t> bounds);
@@ -798,6 +803,7 @@ public:
   /// @brief Method GetLongLength, addr 0x5c6c500, size 0x14, virtual false, abstract: false, final false
   inline int64_t GetLongLength(int32_t dimension);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method GetLowerBound, addr 0x5c6aff8, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetLowerBound(int32_t dimension);
 
@@ -810,6 +816,7 @@ public:
   /// @brief Method GetRawSzArrayData, addr 0x5c6deec, size 0x14, virtual false, abstract: false, final false
   inline ::by_ref<uint8_t> GetRawSzArrayData();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method GetUpperBound, addr 0x5c6dfe4, size 0x38, virtual false, abstract: false, final false
   inline int32_t GetUpperBound(int32_t dimension);
 
@@ -832,10 +839,10 @@ public:
   inline ::System::Object* GetValue(int64_t index1, int64_t index2, int64_t index3);
 
   /// @brief Method GetValue, addr 0x5c6c9a8, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Object* GetValue(::ArrayW<int32_t> indices);
+  inline ::System::Object* GetValue(/* [ParamArray] */ ::ArrayW<int32_t> indices);
 
   /// @brief Method GetValue, addr 0x5c6c81c, size 0x18c, virtual false, abstract: false, final false
-  inline ::System::Object* GetValue(::ArrayW<int64_t> indices);
+  inline ::System::Object* GetValue(/* [ParamArray] */ ::ArrayW<int64_t> indices);
 
   /// @brief Method GetValueImpl, addr 0x5c6dfa8, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* GetValueImpl(int32_t pos);
@@ -969,10 +976,10 @@ public:
   inline void SetValue(::System::Object* value, int64_t index1, int64_t index2, int64_t index3);
 
   /// @brief Method SetValue, addr 0x5c6d8cc, size 0x4, virtual false, abstract: false, final false
-  inline void SetValue(::System::Object* value, ::ArrayW<int32_t> indices);
+  inline void SetValue(::System::Object* value, /* [ParamArray] */ ::ArrayW<int32_t> indices);
 
   /// @brief Method SetValue, addr 0x5c6d738, size 0x194, virtual false, abstract: false, final false
-  inline void SetValue(::System::Object* value, ::ArrayW<int64_t> indices);
+  inline void SetValue(::System::Object* value, /* [ParamArray] */ ::ArrayW<int64_t> indices);
 
   /// @brief Method SetValueImpl, addr 0x5c6dfd8, size 0x4, virtual false, abstract: false, final false
   inline void SetValueImpl(::System::Object* value, int32_t pos);
@@ -1080,11 +1087,11 @@ public:
   /// @brief Method UnsafeCreateInstance, addr 0x5c6e3c0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Array* UnsafeCreateInstance(::System::Type* elementType, int32_t length1, int32_t length2);
 
-  /// @brief Method UnsafeCreateInstance, addr 0x5c6e450, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::Array* UnsafeCreateInstance(::System::Type* elementType, ::ArrayW<int32_t> lengths);
-
   /// @brief Method UnsafeCreateInstance, addr 0x5c6e01c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Array* UnsafeCreateInstance(::System::Type* elementType, ::ArrayW<int32_t> lengths, ::ArrayW<int32_t> lowerBounds);
+
+  /// @brief Method UnsafeCreateInstance, addr 0x5c6e450, size 0x4, virtual false, abstract: false, final false
+  static inline ::System::Array* UnsafeCreateInstance(::System::Type* elementType, /* [ParamArray] */ ::ArrayW<int32_t> lengths);
 
   /// @brief Method UnsafeLoad, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T UnsafeLoad(::ArrayW<T> array, int32_t index);
@@ -1107,12 +1114,14 @@ public:
   /// @brief Method get_IsSynchronized, addr 0x5c6c9bc, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_Length, addr 0x5c60d78, size 0x60, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Method get_LongLength, addr 0x5c6c498, size 0x64, virtual false, abstract: false, final false
   inline int64_t get_LongLength();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method get_Rank, addr 0x5c6b2b8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Rank();
 
@@ -1143,13 +1152,13 @@ protected:
   constexpr Array();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Array", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Array", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Array(Array&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Array", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Array", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Array(Array const&) = delete;
+  Array(Arrayconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2544 };

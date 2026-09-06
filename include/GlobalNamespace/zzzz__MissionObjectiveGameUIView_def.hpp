@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MissionObjectiveGameUIView.hpp"
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveGameUIView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class MissionObjectiveGameUIView;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MissionObjectiveGameUIView*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MissionObjectiveGameUIView*, "", "MissionObjectiveGameUIView");
+// [AddComponentMenu("Beat Saber/Gameplay/MissionObjectiveGameUIView")]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -189,53 +190,67 @@ protected:
   constexpr MissionObjectiveGameUIView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveGameUIView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveGameUIView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjectiveGameUIView(MissionObjectiveGameUIView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveGameUIView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveGameUIView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveGameUIView(MissionObjectiveGameUIView const&) = delete;
+  MissionObjectiveGameUIView(MissionObjectiveGameUIViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6780 };
 
+  /// [SerializeField]
   /// @brief Field _notFailedIcon, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____notFailedIcon;
 
+  /// [SerializeField]
   /// @brief Field _failedIcon, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____failedIcon;
 
+  /// [SerializeField]
   /// @brief Field _notClearedIcon, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____notClearedIcon;
 
+  /// [SerializeField]
   /// @brief Field _clearedIcon, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____clearedIcon;
 
+  /// [SerializeField]
   /// @brief Field _resultIcon, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____resultIcon;
 
+  /// [SerializeField]
   /// @brief Field _finalClearIconColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____finalClearIconColor;
 
+  /// [SerializeField]
   /// @brief Field _finalFailIconColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____finalFailIconColor;
 
+  /// [SerializeField]
   /// @brief Field _nonFinalIconColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____nonFinalIconColor;
 
+  /// [SerializeField]
   /// @brief Field _clearedPS, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____clearedPS;
 
+  /// [SerializeField]
   /// @brief Field _numberOfParticles, offset: 0x80, size: 0x4, def value: None
   int32_t ____numberOfParticles;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _nameText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
+  /// [SerializeField]
   /// @brief Field _valueText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____valueText;
 
+  /// [SerializeField]
   /// @brief Field _conditionText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____conditionText;
 

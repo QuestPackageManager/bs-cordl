@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Security\Interface\MonoTlsProvider.hpp"
+// IWYU pragma private; include "Mono/Security/Interface/MonoTlsProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,25 +45,25 @@ public:
   /// @brief Method .ctor, addr 0x5a9e16c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ID, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Guid get_ID();
 
-  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_SupportedProtocols, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SupportedProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols();
 
-  /// @brief Method get_SupportsCleanShutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsCleanShutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsCleanShutdown();
 
-  /// @brief Method get_SupportsConnectionInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsConnectionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsConnectionInfo();
 
-  /// @brief Method get_SupportsMonoExtensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsMonoExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsMonoExtensions();
 
-  /// @brief Method get_SupportsSslStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsSslStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsSslStream();
 
 protected:
@@ -72,13 +72,13 @@ protected:
   constexpr MonoTlsProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoTlsProvider(MonoTlsProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MonoTlsProvider(MonoTlsProvider const&) = delete;
+  MonoTlsProvider(MonoTlsProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19319 };

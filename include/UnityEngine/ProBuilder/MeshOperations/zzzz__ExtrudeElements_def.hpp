@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\ExtrudeElements.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/ExtrudeElements.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements*);
 MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements*, "UnityEngine.ProBuilder.MeshOperations", "ExtrudeElements");
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c*, "UnityEngine.ProBuilder.MeshOperations", "ExtrudeElements/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -104,13 +105,13 @@ protected:
   constexpr ExtrudeElements___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtrudeElements___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtrudeElements___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtrudeElements___c(ExtrudeElements___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtrudeElements___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtrudeElements___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtrudeElements___c(ExtrudeElements___c const&) = delete;
+  ExtrudeElements___c(ExtrudeElements___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16874 };
@@ -121,6 +122,7 @@ public:
 static_assert(sizeof(::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -130,19 +132,23 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements___c;
 
+  /// [Extension]
   /// @brief Method DetachFaces, addr 0x672e988, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* DetachFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                       ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
+  /// [Extension]
   /// @brief Method DetachFaces, addr 0x672e990, size 0xb10, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   DetachFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, bool deleteSourceFaces);
 
+  /// [Extension]
   /// @brief Method Extrude, addr 0x672d770, size 0x1080, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Edge> Extrude(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                   ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, float_t distance, bool extrudeAsGroup,
                                                                   bool enableManifoldExtrude);
 
+  /// [Extension]
   /// @brief Method Extrude, addr 0x672ab54, size 0x14, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> Extrude(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
@@ -171,13 +177,13 @@ protected:
   constexpr ExtrudeElements();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtrudeElements", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtrudeElements", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtrudeElements(ExtrudeElements&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtrudeElements", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtrudeElements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtrudeElements(ExtrudeElements const&) = delete;
+  ExtrudeElements(ExtrudeElementsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16875 };

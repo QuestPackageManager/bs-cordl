@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TextureAccess.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureAccess.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__AccessFlags_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureAccess_def.hpp"
@@ -34,9 +34,9 @@ inline void UnityEngine::Rendering::RenderGraphModule::TextureAccess::_ctor(::Un
                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::AccessFlags>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, handle, flags, mipLevel, depthSlice);
 }
-// Ctor Parameters [CppParam { name: "textureHandle", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "mipLevel", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::AccessFlags", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "textureHandle", ty: "::UnityEngine::Rendering::RenderGraphModule::TextureHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "mipLevel", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "depthSlice", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "flags", ty: "::UnityEngine::Rendering::RenderGraphModule::AccessFlags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureAccess::TextureAccess(::UnityEngine::Rendering::RenderGraphModule::TextureHandle textureHandle, int32_t mipLevel, int32_t depthSlice,
                                                                                     ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags) noexcept {
   this->textureHandle = textureHandle;

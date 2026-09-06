@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConstructorStringExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConstructorStringExtensions.hpp"
+#include "GlobalNamespace/zzzz__IConstructorStringGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ConstructorStringExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -60,7 +61,9 @@ inline ::StringW GlobalNamespace::ConstructorStringExtensions::ToConstructorStri
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConstructorStringExtensions*>(), { "ToConstructorString", {}, { ::i2c::type_of<::UnityEngine::Pose>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, pose);
 }
-template <typename T> inline ::StringW GlobalNamespace::ConstructorStringExtensions::ToConstructorString(::System::Collections::Generic::List_1<T>* list) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::IConstructorStringGenerator*>)
+inline ::StringW GlobalNamespace::ConstructorStringExtensions::ToConstructorString(::System::Collections::Generic::List_1<T>* list) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConstructorStringExtensions*>(),
                                                            { "ToConstructorString", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Collections::Generic::List_1<T>*>() } })));

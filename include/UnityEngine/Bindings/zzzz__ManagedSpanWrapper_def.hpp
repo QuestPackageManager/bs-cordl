@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\ManagedSpanWrapper.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/ManagedSpanWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,10 @@ struct ManagedSpanWrapper;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Bindings::ManagedSpanWrapper);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::ManagedSpanWrapper, "UnityEngine.Bindings", "ManagedSpanWrapper");
+// [IsByRefLike]
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
+// [IsReadOnly]
+// [VisibleToOtherModules]
 // Dependencies
 namespace UnityEngine::Bindings {
 // Is value type: true
@@ -27,7 +31,7 @@ public:
   // @brief default ctor
   constexpr ManagedSpanWrapper();
 
-  // Ctor Parameters [CppParam { name: "begin", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "begin", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ManagedSpanWrapper(void* begin, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

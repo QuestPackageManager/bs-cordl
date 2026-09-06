@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PointerOutEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PointerOutEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ MARK_REF_T(::UnityEngine::UIElements::PointerOutEvent*);
 MARK_REF_T(::UnityEngine::UIElements::PointerOutEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerOutEvent*, "UnityEngine.UIElements", "PointerOutEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::PointerOutEvent___c*, "UnityEngine.UIElements", "PointerOutEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -52,13 +53,13 @@ protected:
   constexpr PointerOutEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOutEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOutEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerOutEvent___c(PointerOutEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOutEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOutEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerOutEvent___c(PointerOutEvent___c const&) = delete;
+  PointerOutEvent___c(PointerOutEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4556 };
@@ -69,6 +70,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::PointerOutEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)4)]
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -92,13 +94,13 @@ protected:
   constexpr PointerOutEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOutEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOutEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerOutEvent(PointerOutEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerOutEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerOutEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PointerOutEvent(PointerOutEvent const&) = delete;
+  PointerOutEvent(PointerOutEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4557 };

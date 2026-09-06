@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\CompleteRevocationRefs.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CompleteRevocationRefs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   /// @brief Method GetInstance, addr 0x3371678, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* GetInstance(::System::Object* obj);
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs);
+  static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* New_ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* New_ctor(::System::Collections::IEnumerable* crlOcspRefs);
 
@@ -60,7 +60,7 @@ public:
   constexpr void __cordl_internal_set_crlOcspRefs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method .ctor, addr 0x3371c98, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs);
 
   /// @brief Method .ctor, addr 0x3371d4c, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* crlOcspRefs);
@@ -74,13 +74,13 @@ protected:
   constexpr CompleteRevocationRefs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompleteRevocationRefs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompleteRevocationRefs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompleteRevocationRefs(CompleteRevocationRefs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompleteRevocationRefs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CompleteRevocationRefs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CompleteRevocationRefs(CompleteRevocationRefs const&) = delete;
+  CompleteRevocationRefs(CompleteRevocationRefsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 139 };

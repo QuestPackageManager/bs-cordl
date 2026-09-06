@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelPackGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelPackGroup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPackGroup_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"

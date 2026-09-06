@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bounds.hpp"
+// IWYU pragma private; include "UnityEngine/Bounds.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -558,8 +558,8 @@ constexpr UnityEngine::Bounds::operator ::System::IFormattable*() {
 constexpr ::System::IFormattable* UnityEngine::Bounds::i___System__IFormattable() {
   return static_cast<::System::IFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Center", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Extents", ty: "::UnityEngine::Vector3", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Center", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Extents", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Bounds::Bounds(::UnityEngine::Vector3 m_Center, ::UnityEngine::Vector3 m_Extents) noexcept {
   this->m_Center = m_Center;
   this->m_Extents = m_Extents;

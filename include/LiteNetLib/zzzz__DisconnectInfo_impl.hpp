@@ -1,11 +1,12 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\DisconnectInfo.hpp"
+// IWYU pragma private; include "LiteNetLib/DisconnectInfo.hpp"
 #include "LiteNetLib/zzzz__DisconnectReason_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketError_impl.hpp"
 #include "LiteNetLib/zzzz__DisconnectInfo_def.hpp"
 #include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
-// Ctor Parameters [CppParam { name: "Reason", ty: "::LiteNetLib::DisconnectReason", modifiers: "", def_value: Some("{}") }, CppParam { name: "SocketErrorCode", ty:
-// "::System::Net::Sockets::SocketError", modifiers: "", def_value: Some("{}") }, CppParam { name: "AdditionalData", ty: "::LiteNetLib::NetPacketReader*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Reason", ty: "::LiteNetLib::DisconnectReason", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "SocketErrorCode", ty:
+// "::System::Net::Sockets::SocketError", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "AdditionalData", ty: "::LiteNetLib::NetPacketReader*", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::LiteNetLib::DisconnectInfo::DisconnectInfo(::LiteNetLib::DisconnectReason Reason, ::System::Net::Sockets::SocketError SocketErrorCode,
                                                        ::LiteNetLib::NetPacketReader* AdditionalData) noexcept {
   this->Reason = Reason;

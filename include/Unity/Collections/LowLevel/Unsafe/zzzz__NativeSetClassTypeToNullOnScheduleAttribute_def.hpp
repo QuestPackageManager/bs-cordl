@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeSetClassTypeToNullOnScheduleAttribute.hpp"
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeSetClassTypeToNullOnScheduleAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class NativeSetClassTypeToNullOnScheduleAttribute;
 // Write type traits
 MARK_REF_T(::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute*);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeSetClassTypeToNullOnScheduleAttribute");
+// [AttributeUsage((System.AttributeTargets)256)]
+// [RequiredByNativeCode]
 // Dependencies System.Attribute
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
@@ -25,13 +27,13 @@ protected:
   constexpr NativeSetClassTypeToNullOnScheduleAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeSetClassTypeToNullOnScheduleAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeSetClassTypeToNullOnScheduleAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeSetClassTypeToNullOnScheduleAttribute(NativeSetClassTypeToNullOnScheduleAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeSetClassTypeToNullOnScheduleAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeSetClassTypeToNullOnScheduleAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeSetClassTypeToNullOnScheduleAttribute(NativeSetClassTypeToNullOnScheduleAttribute const&) = delete;
+  NativeSetClassTypeToNullOnScheduleAttribute(NativeSetClassTypeToNullOnScheduleAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10021 };

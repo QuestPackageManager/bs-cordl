@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\BackgroundPosition.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/BackgroundPosition.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPositionKeyword_impl.hpp"
@@ -197,8 +197,8 @@ constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>*
 UnityEngine::UIElements::BackgroundPosition::i___System__IEquatable_1___UnityEngine__UIElements__BackgroundPosition_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "keyword", ty: "::UnityEngine::UIElements::BackgroundPositionKeyword", modifiers: "", def_value: Some("{}") }, CppParam { name: "offset", ty:
-// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "keyword", ty: "::UnityEngine::UIElements::BackgroundPositionKeyword", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "offset", ty:
+// "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UIElements::BackgroundPosition::BackgroundPosition(::UnityEngine::UIElements::BackgroundPositionKeyword keyword, ::UnityEngine::UIElements::Length offset) noexcept {
   this->keyword = keyword;
   this->offset = offset;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphAnchorPoint.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphAnchorPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ struct GlyphAnchorPoint;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint, "UnityEngine.TextCore.LowLevel", "GlyphAnchorPoint");
+// [UsedByNativeCode]
+// [VisibleToOtherModules(new[] { "UnityEngine.TextCoreTextEngineModule" })]
 // Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
@@ -40,7 +42,8 @@ public:
   // @brief default ctor
   constexpr GlyphAnchorPoint();
 
-  // Ctor Parameters [CppParam { name: "m_XCoordinate", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YCoordinate", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_XCoordinate", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_YCoordinate", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr GlyphAnchorPoint(float_t m_XCoordinate, float_t m_YCoordinate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -49,9 +52,13 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// [NativeName("xPositionAdjustment")]
+  /// [SerializeField]
   /// @brief Field m_XCoordinate, offset: 0x0, size: 0x4, def value: None
   float_t m_XCoordinate;
 
+  /// [SerializeField]
+  /// [NativeName("yPositionAdjustment")]
   /// @brief Field m_YCoordinate, offset: 0x4, size: 0x4, def value: None
   float_t m_YCoordinate;
 

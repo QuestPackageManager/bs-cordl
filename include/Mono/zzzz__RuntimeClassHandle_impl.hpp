@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\RuntimeClassHandle.hpp"
+// IWYU pragma private; include "Mono/RuntimeClassHandle.hpp"
 #include "Mono/zzzz__RuntimeClassHandle_def.hpp"
 #include "Mono/zzzz__RuntimeStructs_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -121,7 +121,7 @@ inline ::System::RuntimeTypeHandle Mono::RuntimeClassHandle::GetTypeHandle() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeClassHandle>(), { "GetTypeHandle", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::RuntimeTypeHandle>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Mono::RuntimeClassHandle::RuntimeClassHandle(::Mono::RuntimeStructs_MonoClass* value) noexcept {
   this->value = value;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\ITextPreprocessor.hpp"
+// IWYU pragma private; include "TMPro/ITextPreprocessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace TMPro {
 class CORDL_TYPE ITextPreprocessor {
 public:
   // Declarations
-  /// @brief Method PreprocessText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method PreprocessText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW PreprocessText(::StringW text);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITextPreprocessor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITextPreprocessor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITextPreprocessor(ITextPreprocessor const&) = delete;
+  ITextPreprocessor(ITextPreprocessorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15857 };

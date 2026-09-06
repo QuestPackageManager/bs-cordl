@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRHandTrackingWideMotionModeSample.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRHandTrackingWideMotionModeSample.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,8 @@ class OVRHandTrackingWideMotionModeSample;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRHandTrackingWideMotionModeSample*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRHandTrackingWideMotionModeSample*, "", "OVRHandTrackingWideMotionModeSample");
+// [DisallowMultipleComponent]
+// [HelpURL("https://developer.oculus.com/documentation/unity/unity-wide-motion-mode/")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -114,32 +116,38 @@ protected:
   constexpr OVRHandTrackingWideMotionModeSample();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTrackingWideMotionModeSample", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTrackingWideMotionModeSample", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHandTrackingWideMotionModeSample(OVRHandTrackingWideMotionModeSample&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTrackingWideMotionModeSample", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTrackingWideMotionModeSample", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHandTrackingWideMotionModeSample(OVRHandTrackingWideMotionModeSample const&) = delete;
+  OVRHandTrackingWideMotionModeSample(OVRHandTrackingWideMotionModeSampleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7177 };
 
+  /// [SerializeField]
   /// @brief Field fusionToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ___fusionToggle;
 
+  /// [SerializeField]
   /// @brief Field leftLinePointer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::LineRenderer> ___leftLinePointer;
 
+  /// [SerializeField]
   /// @brief Field rightLinePointer, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::LineRenderer> ___rightLinePointer;
 
+  /// [SerializeField]
   /// @brief Field handLeft, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRHand> ___handLeft;
 
+  /// [SerializeField]
   /// @brief Field handRight, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRHand> ___handRight;
 
+  /// [SerializeField]
   /// @brief Field inputModule, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::OVRInputModule> ___inputModule;
 

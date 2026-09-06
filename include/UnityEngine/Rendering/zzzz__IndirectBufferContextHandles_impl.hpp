@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferContextHandles.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferContextHandles.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectBufferContextHandles_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IBaseRenderGraphBuilder_def.hpp"
@@ -24,10 +24,10 @@ inline void UnityEngine::Rendering::IndirectBufferContextHandles::UseForOcclusio
                                                            { "UseForOcclusionTest", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, builder);
 }
-// Ctor Parameters [CppParam { name: "instanceBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceInfoBuffer",
-// ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "argsBuffer", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }, CppParam { name: "drawInfoBuffer", ty:
-// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "instanceBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "instanceInfoBuffer", ty: "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "argsBuffer", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "drawInfoBuffer", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::BufferHandle", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::IndirectBufferContextHandles::IndirectBufferContextHandles(::UnityEngine::Rendering::RenderGraphModule::BufferHandle instanceBuffer,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::BufferHandle instanceInfoBuffer,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::BufferHandle argsBuffer,

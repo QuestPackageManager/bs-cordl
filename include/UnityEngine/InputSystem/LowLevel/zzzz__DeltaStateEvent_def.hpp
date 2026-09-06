@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\DeltaStateEvent.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/DeltaStateEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,7 +12,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct DeltaStateEvent__stateData_e__FixedBuffer;
@@ -41,6 +43,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DeltaStateEvent);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::DeltaStateEvent, "UnityEngine.InputSystem.LowLevel", "DeltaStateEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer, "UnityEngine.InputSystem.LowLevel", "DeltaStateEvent/<stateData>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
@@ -53,7 +57,7 @@ public:
   // @brief default ctor
   constexpr DeltaStateEvent__stateData_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr DeltaStateEvent__stateData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -158,9 +162,9 @@ public:
   // @brief default ctor
   constexpr DeltaStateEvent();
 
-  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "stateFormat", ty:
-  // "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "stateOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "stateData",
-  // ty: "::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None, comment: None }, CppParam { name: "stateFormat", ty:
+  // "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None, comment: None }, CppParam { name: "stateOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "stateData", ty: "::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr DeltaStateEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, ::UnityEngine::InputSystem::Utilities::FourCC stateFormat, uint32_t stateOffset,
                             ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer stateData) noexcept;
 
@@ -213,6 +217,7 @@ private:
     struct {
       /// @brief Padding field 0x1c
       uint8_t ___stateData_padding[0x1c];
+      /// [FixedBuffer(typeof(System.Byte), 1)]
       /// @brief Field stateData, offset: 0x1c, size: 0x1, def value: None
       ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer ___stateData;
     };
@@ -220,6 +225,7 @@ private:
     struct {
       /// @brief Padding field 0x1c for alignment
       uint8_t ___stateData_padding_forAlignment[0x1c];
+      /// [FixedBuffer(typeof(System.Byte), 1)]
       /// @brief Field stateData, offset: 0x1c, size: 0x1, def value: None
       ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer ___stateData_forAlignment;
     };

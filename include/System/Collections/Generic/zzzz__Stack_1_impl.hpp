@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Generic\Stack_1.hpp"
+// IWYU pragma private; include "System/Collections/Generic/Stack_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -69,8 +69,9 @@ template <typename T> constexpr System::Collections::Generic::Stack_1_Enumerator
 template <typename T> constexpr ::System::Collections::IEnumerator* System::Collections::Generic::Stack_1_Enumerator<T>::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_version", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_currentElement", ty: "T", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_stack", ty: "::System::Collections::Generic::Stack_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_version", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_currentElement", ty: "T",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
 constexpr ::System::Collections::Generic::Stack_1_Enumerator<T>::Stack_1_Enumerator(::System::Collections::Generic::Stack_1<T>* _stack, int32_t _version, int32_t _index, T _currentElement) noexcept {
   this->_stack = _stack;

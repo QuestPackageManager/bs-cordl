@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\CircleTouchable.hpp"
+// IWYU pragma private; include "HMUI/CircleTouchable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,20 +86,22 @@ protected:
   constexpr CircleTouchable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CircleTouchable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CircleTouchable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CircleTouchable(CircleTouchable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CircleTouchable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CircleTouchable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CircleTouchable(CircleTouchable const&) = delete;
+  CircleTouchable(CircleTouchableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19067 };
 
+  /// [SerializeField]
   /// @brief Field _minRadius, offset: 0xa8, size: 0x4, def value: None
   float_t ____minRadius;
 
+  /// [SerializeField]
   /// @brief Field _maxRadius, offset: 0xac, size: 0x4, def value: None
   float_t ____maxRadius;
 

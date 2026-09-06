@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\EventDescriptorCollection.hpp"
+// IWYU pragma private; include "System/ComponentModel/EventDescriptorCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,13 +110,13 @@ protected:
   constexpr EventDescriptorCollection_ArraySubsetEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection_ArraySubsetEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection_ArraySubsetEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventDescriptorCollection_ArraySubsetEnumerator(EventDescriptorCollection_ArraySubsetEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection_ArraySubsetEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection_ArraySubsetEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventDescriptorCollection_ArraySubsetEnumerator(EventDescriptorCollection_ArraySubsetEnumerator const&) = delete;
+  EventDescriptorCollection_ArraySubsetEnumerator(EventDescriptorCollection_ArraySubsetEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11263 };
@@ -142,6 +142,7 @@ static_assert(offsetof(::System::ComponentModel::EventDescriptorCollection_Array
 static_assert(sizeof(::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator) == 0x20, "Size mismatch!");
 
 } // namespace System::ComponentModel
+// [DefaultMember("Item")]
 // Dependencies System.ComponentModel.EventDescriptor, System.Object
 namespace System::ComponentModel {
 // Is value type: false
@@ -343,6 +344,7 @@ public:
 
   static inline ::System::ComponentModel::EventDescriptorCollection* getStaticF_Empty();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Count, addr 0x63c08fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
@@ -363,6 +365,7 @@ public:
 
   static inline void setStaticF_Empty(::System::ComponentModel::EventDescriptorCollection* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Count, addr 0x63c0904, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
@@ -372,13 +375,13 @@ protected:
   constexpr EventDescriptorCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventDescriptorCollection(EventDescriptorCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventDescriptorCollection(EventDescriptorCollection const&) = delete;
+  EventDescriptorCollection(EventDescriptorCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11264 };
@@ -401,6 +404,7 @@ public:
   /// @brief Field _readOnly, offset: 0x2a, size: 0x1, def value: None
   bool ____readOnly;
 
+  /// [CompilerGenerated]
   /// @brief Field <Count>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
 

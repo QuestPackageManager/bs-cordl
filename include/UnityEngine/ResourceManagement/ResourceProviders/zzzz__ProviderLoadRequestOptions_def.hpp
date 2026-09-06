@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\ProviderLoadRequestOptions.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/ProviderLoadRequestOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,17 +68,18 @@ protected:
   constexpr ProviderLoadRequestOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderLoadRequestOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderLoadRequestOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProviderLoadRequestOptions(ProviderLoadRequestOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderLoadRequestOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProviderLoadRequestOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProviderLoadRequestOptions(ProviderLoadRequestOptions const&) = delete;
+  ProviderLoadRequestOptions(ProviderLoadRequestOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18791 };
 
+  /// [SerializeField]
   /// @brief Field m_IgnoreFailures, offset: 0x10, size: 0x1, def value: None
   bool ___m_IgnoreFailures;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\HashCode.hpp"
+// IWYU pragma private; include "System/HashCode.hpp"
 #include "System/zzzz__HashCode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::HashCode.GenerateGlobalSeed
@@ -284,10 +284,11 @@ inline bool System::HashCode::Equals(::System::Object* obj) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::HashCode>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "_v1", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_v2", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_v3", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_v4", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_queue1", ty: "uint32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_queue2", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_queue3", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_length", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_v1", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_v2", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_v3", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_v4", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_queue1", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_queue2", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_queue3", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_length", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::System::HashCode::HashCode(uint32_t _v1, uint32_t _v2, uint32_t _v3, uint32_t _v4, uint32_t _queue1, uint32_t _queue2, uint32_t _queue3, uint32_t _length) noexcept {
   this->_v1 = _v1;
   this->_v2 = _v2;

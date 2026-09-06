@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\MarkerTrack.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/MarkerTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,9 @@ class MarkerTrack;
 // Write type traits
 MARK_REF_T(::UnityEngine::Timeline::MarkerTrack*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Timeline::MarkerTrack*, "UnityEngine.Timeline", "MarkerTrack");
+// [TrackBindingType(typeof(UnityEngine.GameObject))]
+// [HideInMenu]
+// [ExcludeFromPreset]
 // Dependencies UnityEngine.Timeline.TrackAsset
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -41,13 +44,13 @@ protected:
   constexpr MarkerTrack();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MarkerTrack", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MarkerTrack", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MarkerTrack(MarkerTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MarkerTrack", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MarkerTrack", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MarkerTrack(MarkerTrack const&) = delete;
+  MarkerTrack(MarkerTrackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19213 };

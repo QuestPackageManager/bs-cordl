@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\GlyphPairKey.hpp"
+// IWYU pragma private; include "TMPro/GlyphPairKey.hpp"
 #include "TMPro/zzzz__GlyphPairKey_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::GlyphPairKey._ctor
@@ -38,8 +38,8 @@ inline void TMPro::GlyphPairKey::_ctor(::TMPro::TMP_GlyphPairAdjustmentRecord* r
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::GlyphPairKey>(), { ".ctor", {}, { ::i2c::type_of<::TMPro::TMP_GlyphPairAdjustmentRecord*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, record);
 }
-// Ctor Parameters [CppParam { name: "firstGlyphIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "secondGlyphIndex", ty: "uint32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "key", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "firstGlyphIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "secondGlyphIndex", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "key", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::TMPro::GlyphPairKey::GlyphPairKey(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex, uint32_t key) noexcept {
   this->firstGlyphIndex = firstGlyphIndex;
   this->secondGlyphIndex = secondGlyphIndex;

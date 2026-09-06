@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CanStartDragArgs.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CanStartDragArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ struct CanStartDragArgs;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::CanStartDragArgs);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::CanStartDragArgs, "UnityEngine.UIElements", "CanStartDragArgs");
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -33,8 +34,8 @@ public:
   // @brief default ctor
   constexpr CanStartDragArgs();
 
-  // Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "selectedIds", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None, comment: None }, CppParam { name: "id", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "selectedIds", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: None, comment: None }]
   constexpr CanStartDragArgs(::UnityEngine::UIElements::VisualElement* draggedElement, int32_t id, ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

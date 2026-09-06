@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessingData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +66,7 @@ public:
   // @brief default ctor
   constexpr PostProcessingData();
 
-  // Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "frameData", ty: "::UnityEngine::Rendering::ContextContainer*", modifiers: "", def_value: None, comment: None }]
   constexpr PostProcessingData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

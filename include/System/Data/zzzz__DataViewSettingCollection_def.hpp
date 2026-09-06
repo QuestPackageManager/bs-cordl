@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataViewSettingCollection.hpp"
+// IWYU pragma private; include "System/Data/DataViewSettingCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class DataViewSettingCollection;
 // Write type traits
 MARK_REF_T(::System::Data::DataViewSettingCollection*);
 DEFINE_IL2CPP_CLASS(::System::Data::DataViewSettingCollection*, "System.Data", "DataViewSettingCollection");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Data {
 // Is value type: false
@@ -66,13 +67,13 @@ protected:
   constexpr DataViewSettingCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataViewSettingCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataViewSettingCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataViewSettingCollection(DataViewSettingCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataViewSettingCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataViewSettingCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataViewSettingCollection(DataViewSettingCollection const&) = delete;
+  DataViewSettingCollection(DataViewSettingCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13805 };

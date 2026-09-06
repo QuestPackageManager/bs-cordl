@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\IObjectInitializationDataProvider.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/IObjectInitializationDataProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,15 @@ public:
   // Declarations
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method CreateObjectInitializationData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateObjectInitializationData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData();
 
-  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IObjectInitializationDataProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IObjectInitializationDataProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IObjectInitializationDataProvider(IObjectInitializationDataProvider const&) = delete;
+  IObjectInitializationDataProvider(IObjectInitializationDataProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18749 };

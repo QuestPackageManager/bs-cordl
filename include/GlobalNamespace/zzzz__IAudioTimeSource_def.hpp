@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\IAudioTimeSource.hpp"
+// IWYU pragma private; include "GlobalNamespace/IAudioTimeSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   // @brief default ctor
   constexpr IAudioTimeSource_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr IAudioTimeSource_State(int32_t value__) noexcept;
 
   /// @brief Field Paused value: I32(1)
@@ -104,30 +104,30 @@ public:
 
   __declspec(property(get = get_timeScale)) float_t timeScale;
 
-  /// @brief Method get_isReady, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isReady();
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_songEndTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_songLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songLength();
 
-  /// @brief Method get_songTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_songTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songTime();
 
-  /// @brief Method get_state, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_state, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IAudioTimeSource_State get_state();
 
-  /// @brief Method get_timeScale, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_timeScale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_timeScale();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAudioTimeSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAudioTimeSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAudioTimeSource(IAudioTimeSource const&) = delete;
+  IAudioTimeSource(IAudioTimeSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5566 };

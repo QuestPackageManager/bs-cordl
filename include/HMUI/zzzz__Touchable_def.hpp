@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\Touchable.hpp"
+// IWYU pragma private; include "HMUI/Touchable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,17 +51,18 @@ protected:
   constexpr Touchable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Touchable(Touchable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Touchable(Touchable const&) = delete;
+  Touchable(Touchableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19069 };
 
+  /// [SerializeField]
   /// @brief Field _skew, offset: 0xa4, size: 0x4, def value: None
   float_t ____skew;
 

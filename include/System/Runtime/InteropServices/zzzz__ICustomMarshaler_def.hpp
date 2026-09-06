@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\ICustomMarshaler.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/ICustomMarshaler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,24 +25,24 @@ namespace System::Runtime::InteropServices {
 class CORDL_TYPE ICustomMarshaler {
 public:
   // Declarations
-  /// @brief Method CleanUpManagedData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CleanUpManagedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CleanUpManagedData(::System::Object* ManagedObj);
 
-  /// @brief Method CleanUpNativeData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CleanUpNativeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CleanUpNativeData(::System::IntPtr pNativeData);
 
-  /// @brief Method GetNativeDataSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetNativeDataSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetNativeDataSize();
 
-  /// @brief Method MarshalManagedToNative, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarshalManagedToNative, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IntPtr MarshalManagedToNative(::System::Object* ManagedObj);
 
-  /// @brief Method MarshalNativeToManaged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarshalNativeToManaged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* MarshalNativeToManaged(::System::IntPtr pNativeData);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICustomMarshaler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICustomMarshaler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICustomMarshaler(ICustomMarshaler const&) = delete;
+  ICustomMarshaler(ICustomMarshalerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3325 };

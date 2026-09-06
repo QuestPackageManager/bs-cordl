@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\MeshGenerationResult.hpp"
+// IWYU pragma private; include "UnityEngine/XR/MeshGenerationResult.hpp"
 #include "UnityEngine/XR/zzzz__MeshGenerationStatus_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshId_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshVertexAttributes_impl.hpp"
@@ -205,12 +205,13 @@ constexpr UnityEngine::XR::MeshGenerationResult::operator ::System::IEquatable_1
 constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>* UnityEngine::XR::MeshGenerationResult::i___System__IEquatable_1___UnityEngine__XR__MeshGenerationResult_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_MeshId_k__BackingField", ty: "::UnityEngine::XR::MeshId", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Mesh_k__BackingField", ty:
-// "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_MeshCollider_k__BackingField", ty: "::UnityW<::UnityEngine::MeshCollider>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_Status_k__BackingField", ty: "::UnityEngine::XR::MeshGenerationStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Attributes_k__BackingField", ty:
-// "::UnityEngine::XR::MeshVertexAttributes", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Timestamp_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_Position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_Scale_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_MeshId_k__BackingField", ty: "::UnityEngine::XR::MeshId", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Mesh_k__BackingField", ty:
+// "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_MeshCollider_k__BackingField", ty: "::UnityW<::UnityEngine::MeshCollider>", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_Status_k__BackingField", ty: "::UnityEngine::XR::MeshGenerationStatus", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_Attributes_k__BackingField", ty: "::UnityEngine::XR::MeshVertexAttributes", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Timestamp_k__BackingField", ty:
+// "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_Rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Scale_k__BackingField", ty:
+// "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::XR::MeshGenerationResult::MeshGenerationResult(::UnityEngine::XR::MeshId _MeshId_k__BackingField, ::UnityW<::UnityEngine::Mesh> _Mesh_k__BackingField,
                                                                         ::UnityW<::UnityEngine::MeshCollider> _MeshCollider_k__BackingField,
                                                                         ::UnityEngine::XR::MeshGenerationStatus _Status_k__BackingField,

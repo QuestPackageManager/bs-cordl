@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiClickButtonController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiClickButtonController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,9 +88,11 @@ public:
   /// @brief Method .ctor, addr 0x5a03844, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_wasTriggeredEvent, addr 0x5a035fc, size 0xac, virtual false, abstract: false, final false
   inline void add_wasTriggeredEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_wasTriggeredEvent, addr 0x5a036a8, size 0xac, virtual false, abstract: false, final false
   inline void remove_wasTriggeredEvent(::System::Action* value);
 
@@ -100,23 +102,26 @@ protected:
   constexpr MultiClickButtonController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiClickButtonController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiClickButtonController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiClickButtonController(MultiClickButtonController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiClickButtonController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiClickButtonController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiClickButtonController(MultiClickButtonController const&) = delete;
+  MultiClickButtonController(MultiClickButtonControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6330 };
 
+  /// [SerializeField]
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 
+  /// [SerializeField]
   /// @brief Field _numberOfClicksRequired, offset: 0x28, size: 0x4, def value: None
   int32_t ____numberOfClicksRequired;
 
+  /// [CompilerGenerated]
   /// @brief Field wasTriggeredEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___wasTriggeredEvent;
 

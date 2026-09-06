@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\CompilerContextData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/CompilerContextData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE CompilerContextData_NativePassIterator {
 public:
   // Declarations
+  /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData Current;
 
   /// @brief Method GetEnumerator, addr 0x67ef130, size 0xc, virtual false, abstract: false, final false
@@ -42,7 +43,8 @@ public:
   // @brief default ctor
   constexpr CompilerContextData_NativePassIterator();
 
-  // Ctor Parameters [CppParam { name: "m_Ctx", ty: "Il2CppObject*", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Ctx", ty: "Il2CppObject*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr CompilerContextData_NativePassIterator(Il2CppObject* m_Ctx, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

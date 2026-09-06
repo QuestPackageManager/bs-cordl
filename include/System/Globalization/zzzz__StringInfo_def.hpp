@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\StringInfo.hpp"
+// IWYU pragma private; include "System/Globalization/StringInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class StringInfo;
 // Write type traits
 MARK_REF_T(::System::Globalization::StringInfo*);
 DEFINE_IL2CPP_CLASS(::System::Globalization::StringInfo*, "System.Globalization", "StringInfo");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::Globalization {
 // Is value type: false
@@ -43,12 +44,14 @@ public:
   /// @brief Field m_str, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_str, put = __cordl_internal_set_m_str)) ::StringW m_str;
 
+  /// [ComVisible(false)]
   /// @brief Method Equals, addr 0x5bcd574, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
   /// @brief Method GetCurrentTextElementLen, addr 0x5bcd820, size 0x110, virtual false, abstract: false, final false
   static inline int32_t GetCurrentTextElementLen(::StringW str, int32_t index, int32_t len, ::by_ref<::System::Globalization::UnicodeCategory> ucCurrent, ::by_ref<int32_t> currentCharCount);
 
+  /// [ComVisible(false)]
   /// @brief Method GetHashCode, addr 0x5bcd61c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
@@ -56,9 +59,11 @@ public:
 
   static inline ::System::Globalization::StringInfo* New_ctor(::StringW value);
 
+  /// [OnDeserialized]
   /// @brief Method OnDeserialized, addr 0x5bcd550, size 0x24, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
+  /// [OnDeserializing]
   /// @brief Method OnDeserializing, addr 0x5bcd538, size 0x18, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
@@ -101,17 +106,18 @@ protected:
   constexpr StringInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringInfo(StringInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringInfo(StringInfo const&) = delete;
+  StringInfo(StringInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3631 };
 
+  /// [OptionalField(VersionAdded = 2)]
   /// @brief Field m_str, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_str;
 

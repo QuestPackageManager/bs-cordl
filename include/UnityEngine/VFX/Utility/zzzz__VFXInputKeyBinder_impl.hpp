@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXInputKeyBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXInputKeyBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXInputKeyBinder_def.hpp"

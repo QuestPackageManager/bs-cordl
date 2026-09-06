@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TextEditingManipulator.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TextEditingManipulator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,6 +71,7 @@ public:
   /// @brief Method Reset, addr 0x6ca4150, size 0x2c, virtual false, abstract: false, final false
   inline void Reset();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnFocusInEvent>b__14_0, addr 0x6ca4788, size 0x40, virtual false, abstract: false, final false
   inline void _OnFocusInEvent_b__14_0();
 
@@ -122,13 +123,13 @@ protected:
   constexpr TextEditingManipulator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditingManipulator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextEditingManipulator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextEditingManipulator(TextEditingManipulator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextEditingManipulator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextEditingManipulator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextEditingManipulator(TextEditingManipulator const&) = delete;
+  TextEditingManipulator(TextEditingManipulatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5091 };

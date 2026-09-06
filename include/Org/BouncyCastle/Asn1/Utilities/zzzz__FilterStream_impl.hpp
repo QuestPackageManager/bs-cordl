@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Utilities\FilterStream.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Utilities/FilterStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Utilities/zzzz__FilterStream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
@@ -290,6 +290,7 @@ inline void Org::BouncyCastle::Asn1::Utilities::FilterStream::WriteByte(uint8_t 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Org::BouncyCastle::Asn1::Utilities::FilterStream*>(), 40 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
+/// @brief [Obsolete("Use Org.BouncyCastle.Utilities.IO.FilterStream")]
 inline ::Org::BouncyCastle::Asn1::Utilities::FilterStream* Org::BouncyCastle::Asn1::Utilities::FilterStream::New_ctor(::System::IO::Stream* s) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Utilities::FilterStream*>(s));
 }

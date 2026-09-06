@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderPathCompatibility.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderPathCompatibility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RenderPathCompatibility;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::RenderPathCompatibility);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::RenderPathCompatibility, "UnityEngine.Rendering.Universal", "RenderPathCompatibility");
+// [Flags]
 // Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
@@ -44,7 +45,7 @@ public:
   // @brief default ctor
   constexpr RenderPathCompatibility();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderPathCompatibility(int32_t value__) noexcept;
 
   /// @brief Field All value: I32(7)

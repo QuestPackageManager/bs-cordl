@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Concurrent\PaddedHeadAndTail.hpp"
+// IWYU pragma private; include "System/Collections/Concurrent/PaddedHeadAndTail.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct PaddedHeadAndTail;
 // Write type traits
 MARK_VAL_T(::System::Collections::Concurrent::PaddedHeadAndTail);
 DEFINE_IL2CPP_CLASS(::System::Collections::Concurrent::PaddedHeadAndTail, "System.Collections.Concurrent", "PaddedHeadAndTail");
+// [DebuggerDisplay("Head = {Head}, Tail = {Tail}")]
 // Dependencies
 namespace System::Collections::Concurrent {
 // Is value type: true
@@ -43,7 +44,7 @@ public:
   // @brief default ctor
   constexpr PaddedHeadAndTail();
 
-  // Ctor Parameters [CppParam { name: "Head", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Tail", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Head", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Tail", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PaddedHeadAndTail(int32_t Head, int32_t Tail) noexcept;
 
 private:

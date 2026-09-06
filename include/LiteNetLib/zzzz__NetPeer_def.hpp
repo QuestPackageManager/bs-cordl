@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NetPeer.hpp"
+// IWYU pragma private; include "LiteNetLib/NetPeer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,13 +137,13 @@ protected:
   constexpr NetPeer_IncomingFragments();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPeer_IncomingFragments", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPeer_IncomingFragments", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPeer_IncomingFragments(NetPeer_IncomingFragments&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPeer_IncomingFragments", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPeer_IncomingFragments", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPeer_IncomingFragments(NetPeer_IncomingFragments const&) = delete;
+  NetPeer_IncomingFragments(NetPeer_IncomingFragmentsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20075 };
@@ -769,13 +769,13 @@ protected:
   constexpr NetPeer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPeer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPeer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetPeer(NetPeer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPeer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPeer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetPeer(NetPeer const&) = delete;
+  NetPeer(NetPeerconst&) = delete;
 
   /// @brief Field MaxMtuCheckAttempts offset 0xffffffff size 0x4
   static constexpr int32_t MaxMtuCheckAttempts{ static_cast<int32_t>(0x4) };

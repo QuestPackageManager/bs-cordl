@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVREnumExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVREnumExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class OVREnumExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVREnumExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVREnumExtensions*, "", "OVREnumExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -31,45 +32,61 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVREnumExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method AsHandType, addr 0x5efae80, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRHand_Hand AsHandType(::GlobalNamespace::OVRMesh_MeshType meshType);
 
+  /// [Extension]
   /// @brief Method AsHandType, addr 0x5efada8, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRHand_Hand AsHandType(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
 
+  /// [Extension]
+  /// [Obsolete("Use the overload which takes an OVRHandSkeletonVersioninstead.")]
   /// @brief Method AsMeshType, addr 0x5efae08, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRMesh_MeshType AsMeshType(::GlobalNamespace::OVRHand_Hand hand);
 
+  /// [Extension]
   /// @brief Method AsMeshType, addr 0x5efae38, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRMesh_MeshType AsMeshType(::GlobalNamespace::OVRHand_Hand hand, ::GlobalNamespace::OVRHandSkeletonVersion version);
 
+  /// [Extension]
+  /// [Obsolete("Use the overload which takes an OVRHandSkeletonVersioninstead.")]
   /// @brief Method AsSkeletonType, addr 0x5efadc8, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRSkeleton_SkeletonType AsSkeletonType(::GlobalNamespace::OVRHand_Hand hand);
 
+  /// [Extension]
   /// @brief Method AsSkeletonType, addr 0x5efaddc, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRSkeleton_SkeletonType AsSkeletonType(::GlobalNamespace::OVRHand_Hand hand, ::GlobalNamespace::OVRHandSkeletonVersion version);
 
+  /// [Extension]
   /// @brief Method IsHand, addr 0x5efae70, size 0x10, virtual false, abstract: false, final false
   static inline bool IsHand(::GlobalNamespace::OVRMesh_MeshType meshType);
 
+  /// [Extension]
   /// @brief Method IsHand, addr 0x5efad70, size 0x10, virtual false, abstract: false, final false
   static inline bool IsHand(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
 
+  /// [Extension]
   /// @brief Method IsLeft, addr 0x5efae64, size 0xc, virtual false, abstract: false, final false
   static inline bool IsLeft(::GlobalNamespace::OVRMesh_MeshType type);
 
+  /// [Extension]
   /// @brief Method IsLeft, addr 0x5efad9c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsLeft(::GlobalNamespace::OVRSkeleton_SkeletonType type);
 
+  /// [Extension]
   /// @brief Method IsOVRHandMesh, addr 0x5efae2c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsOVRHandMesh(::GlobalNamespace::OVRMesh_MeshType meshType);
 
+  /// [Extension]
   /// @brief Method IsOVRHandSkeleton, addr 0x5efad90, size 0xc, virtual false, abstract: false, final false
   static inline bool IsOVRHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
 
+  /// [Extension]
   /// @brief Method IsOpenXRHandMesh, addr 0x5efae1c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsOpenXRHandMesh(::GlobalNamespace::OVRMesh_MeshType meshType);
 
+  /// [Extension]
   /// @brief Method IsOpenXRHandSkeleton, addr 0x5efad80, size 0x10, virtual false, abstract: false, final false
   static inline bool IsOpenXRHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
 
@@ -79,13 +96,13 @@ protected:
   constexpr OVREnumExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVREnumExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVREnumExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVREnumExtensions(OVREnumExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVREnumExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVREnumExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVREnumExtensions(OVREnumExtensions const&) = delete;
+  OVREnumExtensions(OVREnumExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7912 };

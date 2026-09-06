@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\CompilerServices\TypeForwardedFromAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/CompilerServices/TypeForwardedFromAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class TypeForwardedFromAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::CompilerServices::TypeForwardedFromAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::CompilerServices::TypeForwardedFromAttribute*, "System.Runtime.CompilerServices", "TypeForwardedFromAttribute");
+// [AttributeUsage((System.AttributeTargets)5148, Inherited = false, AllowMultiple = false)]
 // Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
@@ -36,6 +37,7 @@ public:
   /// @brief Method .ctor, addr 0x5b70858, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyFullName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_AssemblyFullName, addr 0x5b708b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyFullName();
 
@@ -45,17 +47,18 @@ protected:
   constexpr TypeForwardedFromAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeForwardedFromAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeForwardedFromAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeForwardedFromAttribute(TypeForwardedFromAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeForwardedFromAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeForwardedFromAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeForwardedFromAttribute(TypeForwardedFromAttribute const&) = delete;
+  TypeForwardedFromAttribute(TypeForwardedFromAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3402 };
 
+  /// [CompilerGenerated]
   /// @brief Field <AssemblyFullName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____AssemblyFullName_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugFullScreenMode.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugFullScreenMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct DebugFullScreenMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::DebugFullScreenMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DebugFullScreenMode, "UnityEngine.Rendering.Universal", "DebugFullScreenMode");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@bd2aa618476e\\ShaderLibrary\\Debug\\DebugViewEnums.cs")] Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.DebugFullScreenMode
@@ -48,7 +49,7 @@ public:
   // @brief default ctor
   constexpr DebugFullScreenMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugFullScreenMode(int32_t value__) noexcept;
 
   /// @brief Field AdditionalLightsCookieAtlas value: I32(5)

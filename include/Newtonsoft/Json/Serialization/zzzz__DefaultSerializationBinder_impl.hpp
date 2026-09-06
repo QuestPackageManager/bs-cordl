@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\DefaultSerializationBinder.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultSerializationBinder.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationBinder_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultSerializationBinder_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ISerializationBinder_def.hpp"
@@ -121,7 +121,8 @@ inline void Newtonsoft::Json::Serialization::DefaultSerializationBinder::_ctor()
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Type* Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetTypeFromTypeNameKey(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey) {
+inline ::System::Type* Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetTypeFromTypeNameKey(
+    /* [Nullable(new[] { 0, 2, 1 })] */ ::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>(),
                                                            { "GetTypeFromTypeNameKey", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>>() } })));
@@ -133,18 +134,20 @@ inline ::System::Type* Newtonsoft::Json::Serialization::DefaultSerializationBind
                                                            { "GetGenericTypeFromTypeName", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Reflection::Assembly*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, typeName, assembly);
 }
-inline ::System::Type* Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetTypeByName(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey) {
+inline ::System::Type*
+Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetTypeByName(/* [Nullable(new[] { 0, 2, 1 })] */ ::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> typeNameKey) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>(),
                                                            { "GetTypeByName", {}, { ::i2c::type_of<::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, typeNameKey);
 }
-inline ::System::Type* Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToType(::StringW assemblyName, ::StringW typeName) {
+inline ::System::Type* Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToType(/* [Nullable(2)] */ ::StringW assemblyName, ::StringW typeName) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(this, ___internal_method, assemblyName, typeName);
 }
-inline void Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToName(::System::Type* serializedType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> typeName) {
+inline void Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToName(/* [Nullable(1)] */ ::System::Type* serializedType, ::by_ref<::StringW> assemblyName,
+                                                                                    ::by_ref<::StringW> typeName) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, serializedType, assemblyName, typeName);

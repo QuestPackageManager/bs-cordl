@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PlanarMirrorBloomPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/PlanarMirrorBloomPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,9 @@ namespace UnityEngine::Experimental::Rendering {
 class XRPass;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class RenderGraph;
@@ -151,13 +153,13 @@ protected:
   constexpr PlanarMirrorBloomPass_PassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass_PassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass_PassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlanarMirrorBloomPass_PassData(PlanarMirrorBloomPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass_PassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass_PassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlanarMirrorBloomPass_PassData(PlanarMirrorBloomPass_PassData const&) = delete;
+  PlanarMirrorBloomPass_PassData(PlanarMirrorBloomPass_PassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20658 };
@@ -208,6 +210,7 @@ static_assert(offsetof(::GlobalNamespace::PlanarMirrorBloomPass_PassData, ___xr)
 static_assert(sizeof(::GlobalNamespace::PlanarMirrorBloomPass_PassData) == 0x60, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -247,13 +250,13 @@ protected:
   constexpr PlanarMirrorBloomPass___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlanarMirrorBloomPass___c(PlanarMirrorBloomPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlanarMirrorBloomPass___c(PlanarMirrorBloomPass___c const&) = delete;
+  PlanarMirrorBloomPass___c(PlanarMirrorBloomPass___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20659 };
@@ -311,13 +314,13 @@ protected:
   constexpr PlanarMirrorBloomPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlanarMirrorBloomPass(PlanarMirrorBloomPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlanarMirrorBloomPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PlanarMirrorBloomPass(PlanarMirrorBloomPass const&) = delete;
+  PlanarMirrorBloomPass(PlanarMirrorBloomPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20660 };

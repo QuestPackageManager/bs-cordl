@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\EncoderFallbackBuffer.hpp"
+// IWYU pragma private; include "System/Text/EncoderFallbackBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ public:
   /// @brief Field setEncoder, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_setEncoder, put = __cordl_internal_set_setEncoder)) bool setEncoder;
 
-  /// @brief Method Fallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t GetNextChar();
 
   /// @brief Method InternalFallback, addr 0x5ad43d0, size 0x184, virtual true, abstract: false, final false
@@ -67,7 +67,7 @@ public:
   /// @brief Method InternalReset, addr 0x5ad4370, size 0x18, virtual false, abstract: false, final false
   inline void InternalReset();
 
-  /// @brief Method MovePrevious, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderFallbackBuffer* New_ctor();
@@ -123,7 +123,7 @@ public:
   /// @brief Method .ctor, addr 0x5ad3968, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Remaining, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -132,13 +132,13 @@ protected:
   constexpr EncoderFallbackBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncoderFallbackBuffer(EncoderFallbackBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EncoderFallbackBuffer(EncoderFallbackBuffer const&) = delete;
+  EncoderFallbackBuffer(EncoderFallbackBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2864 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionTestComputeShader.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionTestComputeShader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,8 +30,8 @@ public:
   // @brief default ctor
   constexpr OcclusionTestComputeShader();
 
-  // Ctor Parameters [CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None }, CppParam { name: "occlusionDebugKeyword", ty:
-  // "::UnityEngine::Rendering::LocalKeyword", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cs", ty: "::UnityW<::UnityEngine::ComputeShader>", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionDebugKeyword", ty:
+  // "::UnityEngine::Rendering::LocalKeyword", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionTestComputeShader(::UnityW<::UnityEngine::ComputeShader> cs, ::UnityEngine::Rendering::LocalKeyword occlusionDebugKeyword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

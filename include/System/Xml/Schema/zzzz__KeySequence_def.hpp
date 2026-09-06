@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\KeySequence.hpp"
+// IWYU pragma private; include "System/Xml/Schema/KeySequence.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,7 @@ class KeySequence;
 // Write type traits
 MARK_REF_T(::System::Xml::Schema::KeySequence*);
 DEFINE_IL2CPP_CLASS(::System::Xml::Schema::KeySequence*, "System.Xml.Schema", "KeySequence");
+// [DefaultMember("Item")]
 // Dependencies System.Object, System.Xml.Schema.TypedObject
 namespace System::Xml::Schema {
 // Is value type: false
@@ -112,13 +113,13 @@ protected:
   constexpr KeySequence();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeySequence", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeySequence", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeySequence(KeySequence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeySequence", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeySequence", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KeySequence(KeySequence const&) = delete;
+  KeySequence(KeySequenceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9584 };

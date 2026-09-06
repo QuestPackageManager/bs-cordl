@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardsIdModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsIdModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ class CORDL_TYPE LocalLeaderboardsIdModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Method GetLocalLeaderboardID, addr 0x3756a80, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW GetLocalLeaderboardID(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  static inline ::StringW GetLocalLeaderboardID(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   static inline ::GlobalNamespace::LocalLeaderboardsIdModel* New_ctor();
 
@@ -37,13 +37,13 @@ protected:
   constexpr LocalLeaderboardsIdModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardsIdModel(LocalLeaderboardsIdModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsIdModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LocalLeaderboardsIdModel(LocalLeaderboardsIdModel const&) = delete;
+  LocalLeaderboardsIdModel(LocalLeaderboardsIdModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15275 };

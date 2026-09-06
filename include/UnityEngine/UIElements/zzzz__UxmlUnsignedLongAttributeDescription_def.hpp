@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlUnsignedLongAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlUnsignedLongAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,6 +32,7 @@ MARK_REF_T(::UnityEngine::UIElements::UxmlUnsignedLongAttributeDescription*);
 MARK_REF_T(::UnityEngine::UIElements::UxmlUnsignedLongAttributeDescription___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlUnsignedLongAttributeDescription*, "UnityEngine.UIElements", "UxmlUnsignedLongAttributeDescription");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlUnsignedLongAttributeDescription___c*, "UnityEngine.UIElements", "UxmlUnsignedLongAttributeDescription/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -67,13 +68,13 @@ protected:
   constexpr UxmlUnsignedLongAttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedLongAttributeDescription___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedLongAttributeDescription___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlUnsignedLongAttributeDescription___c(UxmlUnsignedLongAttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedLongAttributeDescription___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedLongAttributeDescription___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlUnsignedLongAttributeDescription___c(UxmlUnsignedLongAttributeDescription___c const&) = delete;
+  UxmlUnsignedLongAttributeDescription___c(UxmlUnsignedLongAttributeDescription___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5160 };
@@ -110,13 +111,13 @@ protected:
   constexpr UxmlUnsignedLongAttributeDescription();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedLongAttributeDescription", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedLongAttributeDescription", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlUnsignedLongAttributeDescription(UxmlUnsignedLongAttributeDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedLongAttributeDescription", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlUnsignedLongAttributeDescription", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlUnsignedLongAttributeDescription(UxmlUnsignedLongAttributeDescription const&) = delete;
+  UxmlUnsignedLongAttributeDescription(UxmlUnsignedLongAttributeDescriptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5161 };

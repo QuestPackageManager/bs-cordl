@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\VertexEditing.hpp"
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/VertexEditing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ class VertexEditing;
 // Write type traits
 MARK_REF_T(::UnityEngine::ProBuilder::MeshOperations::VertexEditing*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::ProBuilder::MeshOperations::VertexEditing*, "UnityEngine.ProBuilder.MeshOperations", "VertexEditing");
+// [Extension]
 // Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
@@ -64,15 +65,19 @@ public:
                 ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::WingedEdge*, int32_t>>* edgeAndCommonIndex, float_t distance,
                 ::by_ref<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*> appendedVertices);
 
+  /// [Extension]
   /// @brief Method MergeVertices, addr 0x6740cd8, size 0x31c, virtual false, abstract: false, final false
   static inline int32_t MergeVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes, bool collapseToFirst);
 
+  /// [Extension]
   /// @brief Method SplitVertices, addr 0x6740ff4, size 0x8c, virtual false, abstract: false, final false
   static inline void SplitVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
+  /// [Extension]
   /// @brief Method SplitVertices, addr 0x6741080, size 0x3f0, virtual false, abstract: false, final false
   static inline void SplitVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
+  /// [Extension]
   /// @brief Method WeldVertices, addr 0x6741470, size 0xce4, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> WeldVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes, float_t neighborRadius);
 
@@ -82,13 +87,13 @@ protected:
   constexpr VertexEditing();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VertexEditing", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VertexEditing", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VertexEditing(VertexEditing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VertexEditing", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VertexEditing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VertexEditing(VertexEditing const&) = delete;
+  VertexEditing(VertexEditingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16901 };

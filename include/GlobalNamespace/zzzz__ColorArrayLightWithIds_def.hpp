@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorArrayLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorArrayLightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,9 +73,11 @@ public:
   /// @brief Method .ctor, addr 0x586cabc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, int32_t lightId);
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSetColorEvent, addr 0x586c8cc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSetColorEvent, addr 0x586c98c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
@@ -85,20 +87,22 @@ protected:
   constexpr ColorArrayLightWithIds_ColorArrayLightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds_ColorArrayLightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds_ColorArrayLightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorArrayLightWithIds_ColorArrayLightWithId(ColorArrayLightWithIds_ColorArrayLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds_ColorArrayLightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds_ColorArrayLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorArrayLightWithIds_ColorArrayLightWithId(ColorArrayLightWithIds_ColorArrayLightWithId const&) = delete;
+  ColorArrayLightWithIds_ColorArrayLightWithId(ColorArrayLightWithIds_ColorArrayLightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19515 };
 
+  /// [SerializeField]
   /// @brief Field _index, offset: 0x30, size: 0x4, def value: None
   int32_t ____index;
 
+  /// [CompilerGenerated]
   /// @brief Field didSetColorEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<int32_t, ::UnityEngine::Color>* ___didSetColorEvent;
 
@@ -235,29 +239,36 @@ protected:
   constexpr ColorArrayLightWithIds();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorArrayLightWithIds(ColorArrayLightWithIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorArrayLightWithIds(ColorArrayLightWithIds const&) = delete;
+  ColorArrayLightWithIds(ColorArrayLightWithIdsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19516 };
 
+  /// [SerializeField]
   /// @brief Field _colorArrayLightWithIds, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*> ____colorArrayLightWithIds;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _materialController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialController> ____materialController;
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockControllers, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> ____materialPropertyBlockControllers;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _colorsArrayPropertyName, offset: 0x50, size: 0x8, def value: None
   ::StringW ____colorsArrayPropertyName;
 
+  /// [SerializeField]
   /// @brief Field _colorsArrayOffsetPropertyName, offset: 0x58, size: 0x8, def value: None
   ::StringW ____colorsArrayOffsetPropertyName;
 

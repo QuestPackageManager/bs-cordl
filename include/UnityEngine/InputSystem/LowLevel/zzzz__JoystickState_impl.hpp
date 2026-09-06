@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\JoystickState.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/JoystickState.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__JoystickState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__JoystickState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::JoystickState_Button::JoystickState_Button(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -57,7 +57,8 @@ constexpr UnityEngine::InputSystem::LowLevel::JoystickState::operator ::UnityEng
 constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* UnityEngine::InputSystem::LowLevel::JoystickState::i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() {
   return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "buttons", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "stick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "buttons", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "stick", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::JoystickState::JoystickState(int32_t buttons, ::UnityEngine::Vector2 stick) noexcept {
   this->buttons = buttons;
   this->stick = stick;

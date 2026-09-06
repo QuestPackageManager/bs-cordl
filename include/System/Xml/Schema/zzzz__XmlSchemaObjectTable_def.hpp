@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaObjectTable.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaObjectTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,7 +117,7 @@ public:
   // @brief default ctor
   constexpr XmlSchemaObjectTable_EnumeratorType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr XmlSchemaObjectTable_EnumeratorType(int32_t value__) noexcept;
 
   /// @brief Field DictionaryEntry value: I32(2)
@@ -160,8 +160,8 @@ public:
   // @brief default ctor
   constexpr XmlSchemaObjectTable_XmlSchemaObjectEntry();
 
-  // Ctor Parameters [CppParam { name: "qname", ty: "::System::Xml::XmlQualifiedName*", modifiers: "", def_value: None }, CppParam { name: "xso", ty: "::System::Xml::Schema::XmlSchemaObject*",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "qname", ty: "::System::Xml::XmlQualifiedName*", modifiers: "", def_value: None, comment: None }, CppParam { name: "xso", ty:
+  // "::System::Xml::Schema::XmlSchemaObject*", modifiers: "", def_value: None, comment: None }]
   constexpr XmlSchemaObjectTable_XmlSchemaObjectEntry(::System::Xml::XmlQualifiedName* qname, ::System::Xml::Schema::XmlSchemaObject* xso) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -257,13 +257,13 @@ protected:
   constexpr XmlSchemaObjectTable_ValuesCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_ValuesCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_ValuesCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaObjectTable_ValuesCollection(XmlSchemaObjectTable_ValuesCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_ValuesCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_ValuesCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaObjectTable_ValuesCollection(XmlSchemaObjectTable_ValuesCollection const&) = delete;
+  XmlSchemaObjectTable_ValuesCollection(XmlSchemaObjectTable_ValuesCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9801 };
@@ -376,13 +376,13 @@ protected:
   constexpr XmlSchemaObjectTable_XSOEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSOEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSOEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaObjectTable_XSOEnumerator(XmlSchemaObjectTable_XSOEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSOEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSOEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaObjectTable_XSOEnumerator(XmlSchemaObjectTable_XSOEnumerator const&) = delete;
+  XmlSchemaObjectTable_XSOEnumerator(XmlSchemaObjectTable_XSOEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9802 };
@@ -471,13 +471,13 @@ protected:
   constexpr XmlSchemaObjectTable_XSODictionaryEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSODictionaryEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSODictionaryEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaObjectTable_XSODictionaryEnumerator(XmlSchemaObjectTable_XSODictionaryEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSODictionaryEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable_XSODictionaryEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaObjectTable_XSODictionaryEnumerator(XmlSchemaObjectTable_XSODictionaryEnumerator const&) = delete;
+  XmlSchemaObjectTable_XSODictionaryEnumerator(XmlSchemaObjectTable_XSODictionaryEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9803 };
@@ -488,6 +488,7 @@ public:
 static_assert(sizeof(::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator) == 0x38, "Size mismatch!");
 
 } // namespace System::Xml::Schema
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
@@ -575,13 +576,13 @@ protected:
   constexpr XmlSchemaObjectTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaObjectTable(XmlSchemaObjectTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObjectTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaObjectTable(XmlSchemaObjectTable const&) = delete;
+  XmlSchemaObjectTable(XmlSchemaObjectTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9804 };

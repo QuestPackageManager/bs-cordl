@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering\CalculateRmsBlockJob.hpp"
+// IWYU pragma private; include "LufsMetering/CalculateRmsBlockJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,7 +8,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(CalculateRmsBlockJob)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs {
 class IJob;
@@ -20,6 +22,7 @@ struct CalculateRmsBlockJob;
 // Write type traits
 MARK_VAL_T(::LufsMetering::CalculateRmsBlockJob);
 DEFINE_IL2CPP_CLASS(::LufsMetering::CalculateRmsBlockJob, "LufsMetering", "CalculateRmsBlockJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeArray`1<T>
 namespace LufsMetering {
 // Is value type: true
@@ -43,8 +46,8 @@ public:
   // @brief default ctor
   constexpr CalculateRmsBlockJob();
 
-  // Ctor Parameters [CppParam { name: "inputData", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "outputData", ty: "float_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "inputData", ty: "::Unity::Collections::NativeArray_1<float_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "outputData", ty: "float_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr CalculateRmsBlockJob(::Unity::Collections::NativeArray_1<float_t> inputData, float_t outputData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -53,9 +56,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [ReadOnly]
   /// @brief Field inputData, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<float_t> inputData;
 
+  /// [WriteOnly]
   /// @brief Field outputData, offset: 0x10, size: 0x4, def value: None
   float_t outputData;
 

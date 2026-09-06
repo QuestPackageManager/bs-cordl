@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Channels\CrossAppDomainSink.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/CrossAppDomainSink.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,8 +58,8 @@ public:
   // @brief default ctor
   constexpr CrossAppDomainSink_ProcessMessageRes();
 
-  // Ctor Parameters [CppParam { name: "arrResponse", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "cadMrm", ty:
-  // "::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "arrResponse", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "cadMrm", ty:
+  // "::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*", modifiers: "", def_value: None, comment: None }]
   constexpr CrossAppDomainSink_ProcessMessageRes(::ArrayW<uint8_t> arrResponse, ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -84,6 +84,7 @@ static_assert(offsetof(::System::Runtime::Remoting::Channels::CrossAppDomainSink
 static_assert(sizeof(::System::Runtime::Remoting::Channels::CrossAppDomainSink_ProcessMessageRes) == 0x10, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Channels
+// [MonoTODO("Handle domain unloading?")]
 // Dependencies System.Object
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
@@ -126,6 +127,7 @@ public:
   /// @brief Method SyncProcessMessage, addr 0x5b3c1b4, size 0x3ac, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msgRequest);
 
+  /// [CompilerGenerated]
   /// @brief Method <AsyncProcessMessage>b__10_0, addr 0x5b3c904, size 0x7c, virtual false, abstract: false, final false
   inline void _AsyncProcessMessage_b__10_0(::System::Object* data);
 
@@ -158,13 +160,13 @@ protected:
   constexpr CrossAppDomainSink();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainSink", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainSink", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CrossAppDomainSink(CrossAppDomainSink&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainSink", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainSink", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CrossAppDomainSink(CrossAppDomainSink const&) = delete;
+  CrossAppDomainSink(CrossAppDomainSinkconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3134 };

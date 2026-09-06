@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\VertexPath.hpp"
+// IWYU pragma private; include "GlobalNamespace/VertexPath.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,8 +42,8 @@ public:
   // @brief default ctor
   constexpr VertexPath_Vertex();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tangent", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "tangent", ty: "::UnityEngine::Vector3", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr VertexPath_Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 tangent, ::UnityEngine::Vector3 normal) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -103,8 +103,9 @@ public:
   __declspec(property(get = __cordl_internal_get_vertexCount, put = __cordl_internal_set_vertexCount)) int32_t vertexCount;
 
   /// @brief Method AddVertex, addr 0x5905100, size 0x544, virtual false, abstract: false, final false
-  inline void AddVertex(::by_ref<::UnityEngine::Vector3> p0, ::by_ref<::UnityEngine::Vector3> p1, ::by_ref<::UnityEngine::Vector3> p2, ::by_ref<::UnityEngine::Vector3> p3, float_t t,
-                        ::by_ref<::UnityEngine::Vector3> lastRotationAxis, ::by_ref<float_t> currentPathLength, ::by_ref<::GlobalNamespace::VertexPath_Vertex> lastVertex, ::by_ref<int32_t> vertCount);
+  inline void AddVertex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p2,
+                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> p3, float_t t, ::by_ref<::UnityEngine::Vector3> lastRotationAxis, ::by_ref<float_t> currentPathLength,
+                        ::by_ref<::GlobalNamespace::VertexPath_Vertex> lastVertex, ::by_ref<int32_t> vertCount);
 
   /// @brief Method GetPoint, addr 0x59050c8, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t index);
@@ -169,13 +170,13 @@ protected:
   constexpr VertexPath();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VertexPath", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VertexPath", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VertexPath(VertexPath&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VertexPath", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VertexPath", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VertexPath(VertexPath const&) = delete;
+  VertexPath(VertexPathconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6674 };

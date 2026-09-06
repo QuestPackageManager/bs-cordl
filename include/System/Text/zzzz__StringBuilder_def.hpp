@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "System\Text\StringBuilder.hpp"
+// IWYU pragma private; include "System/Text/StringBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IFormattable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
@@ -40,7 +41,8 @@ class StringBuilder;
 // Write type traits
 MARK_REF_T(::System::Text::StringBuilder*);
 DEFINE_IL2CPP_CLASS(::System::Text::StringBuilder*, "System.Text", "StringBuilder");
-// Dependencies System.Object
+// [DefaultMember("Chars")]
+// Dependencies System.IFormattable, System.Object
 namespace System::Text {
 // Is value type: false
 // CS Name: System.Text.StringBuilder
@@ -105,6 +107,7 @@ public:
   /// @brief Method Append, addr 0x5ad8b8c, size 0x130, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* Append(char16_t value, int32_t repeatCount);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Append, addr 0x5ad90f0, size 0x150, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* Append(char16_t* value, int32_t valueCount);
 
@@ -117,6 +120,7 @@ public:
   /// @brief Method Append, addr 0x5ada138, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* Append(int64_t value);
 
+  /// [CLSCompliant(false)]
   /// @brief Method Append, addr 0x5ada1f0, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* Append(uint32_t value);
 
@@ -136,7 +140,7 @@ public:
   inline ::System::Text::StringBuilder* AppendFormat(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
   /// @brief Method AppendFormat, addr 0x5adb144, size 0xcc, virtual false, abstract: false, final false
-  inline ::System::Text::StringBuilder* AppendFormat(::StringW format, ::ArrayW<::System::Object*> args);
+  inline ::System::Text::StringBuilder* AppendFormat(::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method AppendFormat, addr 0x5adb210, size 0x54, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* AppendFormat(::System::IFormatProvider* provider, ::StringW format, ::System::Object* arg0);
@@ -157,7 +161,9 @@ public:
   inline ::System::Text::StringBuilder* AppendLine(::StringW value);
 
   /// @brief Method AppendSpanFormattable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::System::Text::StringBuilder* AppendSpanFormattable(T value);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::System::IFormattable*>)
+  inline ::System::Text::StringBuilder* AppendSpanFormattable(T value);
 
   /// @brief Method Clear, addr 0x5ad8944, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* Clear();
@@ -342,13 +348,13 @@ protected:
   constexpr StringBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringBuilder(StringBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StringBuilder(StringBuilder const&) = delete;
+  StringBuilder(StringBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2872 };

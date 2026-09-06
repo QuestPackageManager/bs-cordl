@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\VerticalScrollController.hpp"
+// IWYU pragma private; include "HMUI/VerticalScrollController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,8 @@ class VerticalScrollController;
 // Write type traits
 MARK_REF_T(::HMUI::VerticalScrollController*);
 DEFINE_IL2CPP_CLASS(::HMUI::VerticalScrollController*, "HMUI", "VerticalScrollController");
+// [RequireComponent(typeof(HMUI.VerticalScrollIndicator))]
+// [DisallowMultipleComponent]
 // Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
@@ -118,6 +120,7 @@ public:
   /// @brief Method .ctor, addr 0x588ab78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_updateScrollPositionEvent, addr 0x5888284, size 0xc0, virtual false, abstract: false, final false
   inline void add_updateScrollPositionEvent(::System::Action_1<float_t>* value);
 
@@ -133,6 +136,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
   constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_updateScrollPositionEvent, addr 0x58886c0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_updateScrollPositionEvent(::System::Action_1<float_t>* value);
 
@@ -142,23 +146,26 @@ protected:
   constexpr VerticalScrollController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VerticalScrollController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VerticalScrollController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VerticalScrollController(VerticalScrollController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VerticalScrollController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VerticalScrollController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VerticalScrollController(VerticalScrollController const&) = delete;
+  VerticalScrollController(VerticalScrollControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19110 };
 
+  /// [CompilerGenerated]
   /// @brief Field updateScrollPositionEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___updateScrollPositionEvent;
 
+  /// [SerializeField]
   /// @brief Field _verticalScrollIndicator, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::VerticalScrollIndicator> ____verticalScrollIndicator;
 
+  /// [SerializeField]
   /// @brief Field _scrollRectTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____scrollRectTransform;
 

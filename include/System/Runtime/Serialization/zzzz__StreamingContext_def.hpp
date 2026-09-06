@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\StreamingContext.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/StreamingContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ struct StreamingContext;
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::StreamingContext);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");
+// [ComVisible(true)]
+// [IsReadOnly]
 // Dependencies System.Runtime.Serialization.StreamingContextStates
 namespace System::Runtime::Serialization {
 // Is value type: true
@@ -53,8 +55,8 @@ public:
   // @brief default ctor
   constexpr StreamingContext();
 
-  // Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "m_state", ty:
-  // "::System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_state", ty:
+  // "::System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: None, comment: None }]
   constexpr StreamingContext(::System::Object* m_additionalContext, ::System::Runtime::Serialization::StreamingContextStates m_state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

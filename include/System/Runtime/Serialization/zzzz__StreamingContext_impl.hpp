@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\StreamingContext.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/StreamingContext.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContextStates_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContextStates_def.hpp"
@@ -113,8 +113,8 @@ inline ::System::Runtime::Serialization::StreamingContextStates System::Runtime:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::StreamingContext>(), { "get_State", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::StreamingContextStates>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_state", ty:
-// "::System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_state", ty:
+// "::System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Serialization::StreamingContext::StreamingContext(::System::Object* m_additionalContext, ::System::Runtime::Serialization::StreamingContextStates m_state) noexcept {
   this->m_additionalContext = m_additionalContext;
   this->m_state = m_state;

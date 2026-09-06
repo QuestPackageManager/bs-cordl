@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Jobs\IJobParallelForBatchExtensions.hpp"
+// IWYU pragma private; include "Unity/Jobs/IJobParallelForBatchExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Burst/zzzz__SharedStatic_1_def.hpp"
+#include "Unity/Jobs/zzzz__IJobParallelForBatch_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IJobParallelForBatchExtensions)
@@ -26,23 +27,31 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
 namespace Unity::Jobs {
-template <typename T> struct IJobParallelForBatchExtensions_JobParallelForBatchProducer_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobParallelForBatchExtensions_JobParallelForBatchProducer_1;
 }
 namespace Unity::Jobs {
 struct JobHandle;
 }
 namespace Unity::Jobs {
-template <typename T> class JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction;
 }
 // Forward declare root types
 namespace Unity::Jobs {
 class IJobParallelForBatchExtensions;
 }
 namespace Unity::Jobs {
-template <typename T> class JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction;
 }
 namespace Unity::Jobs {
-template <typename T> struct IJobParallelForBatchExtensions_JobParallelForBatchProducer_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct IJobParallelForBatchExtensions_JobParallelForBatchProducer_1;
 }
 // Write type traits
 MARK_REF_T(::Unity::Jobs::IJobParallelForBatchExtensions*);
@@ -52,10 +61,11 @@ DEFINE_IL2CPP_CLASS(::Unity::Jobs::IJobParallelForBatchExtensions*, "Unity.Jobs"
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Jobs::JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction, "Unity.Jobs",
                             "IJobParallelForBatchExtensions/JobParallelForBatchProducer`1/ExecuteJobFunction");
 DEFINE_IL2CPP_GEN_CLASS(::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1, "Unity.Jobs", "IJobParallelForBatchExtensions/JobParallelForBatchProducer`1");
-// Dependencies System.MulticastDelegate
+// Dependencies System.MulticastDelegate, Unity.Jobs.IJobParallelForBatch
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Jobs.IJobParallelForBatchExtensions/JobParallelForBatchProducer`1/ExecuteJobFunction<T>
 class CORDL_TYPE JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction : public ::System::MulticastDelegate {
@@ -82,13 +92,13 @@ protected:
   constexpr JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction(JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction(JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction const&) = delete;
+  JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunction(JobParallelForBatchProducer_1_IJobParallelForBatchExtensions_ExecuteJobFunctionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15512 };
@@ -97,10 +107,11 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>
+// Dependencies System.IntPtr, Unity.Burst.SharedStatic`1<T>, Unity.Jobs.IJobParallelForBatch
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: Unity.Jobs.IJobParallelForBatchExtensions/JobParallelForBatchProducer`1<T>
 #pragma pack(push, 0)
@@ -115,6 +126,7 @@ public:
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Execute(::by_ref<T> jobData, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData, ::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
 
+  /// [BurstDiscard]
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Initialize();
 
@@ -137,50 +149,87 @@ public:
 #pragma pack(pop)
 // Non member Declarations
 } // namespace Unity::Jobs
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, Unity.Jobs.IJobParallelForBatch
 namespace Unity::Jobs {
 // Is value type: false
 // CS Name: Unity.Jobs.IJobParallelForBatchExtensions
 class CORDL_TYPE IJobParallelForBatchExtensions : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using JobParallelForBatchProducer_1 = ::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>;
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  using JobParallelForBatchProducer_1 = ::Unity::Jobs::IJobParallelForBatchExtensions_JobParallelForBatchProducer_1<T>;
 
   /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void EarlyJobInit();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void EarlyJobInit();
 
   /// @brief Method GetReflectionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::IntPtr GetReflectionData();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::System::IntPtr GetReflectionData();
 
+  /// [Extension]
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Run(T jobData, int32_t arrayLength, int32_t indicesPerJobCount);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void Run(T jobData, int32_t arrayLength, int32_t indicesPerJobCount);
 
+  /// [Extension]
   /// @brief Method RunBatch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void RunBatch(T jobData, int32_t arrayLength);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void RunBatch(T jobData, int32_t arrayLength);
 
+  /// [Extension]
   /// @brief Method RunBatchByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void RunBatchByRef(::by_ref<T> jobData, int32_t arrayLength);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void RunBatchByRef(::by_ref<T> jobData, int32_t arrayLength);
 
+  /// [Extension]
   /// @brief Method RunByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void RunByRef(::by_ref<T> jobData, int32_t arrayLength, int32_t indicesPerJobCount);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline void RunByRef(::by_ref<T> jobData, int32_t arrayLength, int32_t indicesPerJobCount);
 
+  /// [Extension]
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle Schedule(T jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
   /// @brief Method ScheduleBatch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleBatch(T jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleBatch(T jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
   /// @brief Method ScheduleBatchByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleBatchByRef(::by_ref<T> jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleBatchByRef(::by_ref<T> jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
   /// @brief Method ScheduleByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleByRef(::by_ref<T> jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleByRef(::by_ref<T> jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
   /// @brief Method ScheduleParallel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleParallel(T jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleParallel(T jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [Extension]
   /// @brief Method ScheduleParallelByRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle ScheduleParallelByRef(::by_ref<T> jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::Unity::Jobs::IJobParallelForBatch*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  static inline ::Unity::Jobs::JobHandle ScheduleParallelByRef(::by_ref<T> jobData, int32_t arrayLength, int32_t indicesPerJobCount, ::Unity::Jobs::JobHandle dependsOn);
 
 protected:
   // Ctor Parameters []
@@ -188,13 +237,13 @@ protected:
   constexpr IJobParallelForBatchExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForBatchExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForBatchExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IJobParallelForBatchExtensions(IJobParallelForBatchExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForBatchExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForBatchExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IJobParallelForBatchExtensions(IJobParallelForBatchExtensions const&) = delete;
+  IJobParallelForBatchExtensions(IJobParallelForBatchExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15514 };

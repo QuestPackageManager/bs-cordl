@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TextProcessingElement.hpp"
+// IWYU pragma private; include "TMPro/TextProcessingElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ struct TextProcessingElement;
 // Write type traits
 MARK_VAL_T(::TMPro::TextProcessingElement);
 DEFINE_IL2CPP_CLASS(::TMPro::TextProcessingElement, "TMPro", "TextProcessingElement");
+// [DebuggerDisplay("{DebuggerDisplay()}")]
 // Dependencies TMPro.CharacterElement, TMPro.MarkupElement, TMPro.TextProcessingElementType
 namespace TMPro {
 // Is value type: true
@@ -95,9 +96,9 @@ public:
   // @brief default ctor
   constexpr TextProcessingElement();
 
-  // Ctor Parameters [CppParam { name: "m_ElementType", ty: "::TMPro::TextProcessingElementType", modifiers: "", def_value: None }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CharacterElement", ty: "::TMPro::CharacterElement", modifiers: "", def_value:
-  // None }, CppParam { name: "m_MarkupElement", ty: "::TMPro::MarkupElement", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ElementType", ty: "::TMPro::TextProcessingElementType", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StartIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CharacterElement", ty:
+  // "::TMPro::CharacterElement", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_MarkupElement", ty: "::TMPro::MarkupElement", modifiers: "", def_value: None, comment: None }]
   constexpr TextProcessingElement(::TMPro::TextProcessingElementType m_ElementType, int32_t m_StartIndex, int32_t m_Length, ::TMPro::CharacterElement m_CharacterElement,
                                   ::TMPro::MarkupElement m_MarkupElement) noexcept;
 

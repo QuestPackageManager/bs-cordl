@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\ATGMeshInfo.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/ATGMeshInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ struct ATGMeshInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::ATGMeshInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::ATGMeshInfo, "UnityEngine.TextCore.Text", "ATGMeshInfo");
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+// [NativeHeader("Modules/TextCoreTextEngine/Native/ATGMeshInfo.h")]
 // Dependencies UnityEngine.TextCore.Text.NativeTextElementInfo
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
@@ -32,9 +34,9 @@ public:
   // @brief default ctor
   constexpr ATGMeshInfo();
 
-  // Ctor Parameters [CppParam { name: "textElementInfos", ty: "::ArrayW<::UnityEngine::TextCore::Text::NativeTextElementInfo>", modifiers: "", def_value: None }, CppParam { name: "fontAssetId", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "textElementCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty:
-  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "textElementInfos", ty: "::ArrayW<::UnityEngine::TextCore::Text::NativeTextElementInfo>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "fontAssetId", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "textElementCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None, comment: None }]
   constexpr ATGMeshInfo(::ArrayW<::UnityEngine::TextCore::Text::NativeTextElementInfo> textElementInfos, int32_t fontAssetId, int32_t textElementCount,
                         ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept;
 
@@ -53,6 +55,7 @@ public:
   /// @brief Field textElementCount, offset: 0xc, size: 0x4, def value: None
   int32_t textElementCount;
 
+  /// [Ignore]
   /// @brief Field fontAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset;
 

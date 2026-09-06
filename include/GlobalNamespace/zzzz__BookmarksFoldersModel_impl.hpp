@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BookmarksFoldersModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/BookmarksFoldersModel.hpp"
 #include "GlobalNamespace/zzzz__FileBrowserItem_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

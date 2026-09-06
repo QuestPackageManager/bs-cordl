@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderDebugPrintInput.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderDebugPrintInput.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderDebugPrintInput_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -155,9 +155,9 @@ inline ::StringW UnityEngine::Rendering::ShaderDebugPrintInput::String() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "String", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_pos_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "_leftDown_k__BackingField", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_rightDown_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_middleDown_k__BackingField", ty: "bool",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_pos_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_leftDown_k__BackingField", ty:
+// "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_rightDown_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_middleDown_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ShaderDebugPrintInput::ShaderDebugPrintInput(::UnityEngine::Vector2 _pos_k__BackingField, bool _leftDown_k__BackingField, bool _rightDown_k__BackingField,
                                                                                  bool _middleDown_k__BackingField) noexcept {
   this->_pos_k__BackingField = _pos_k__BackingField;

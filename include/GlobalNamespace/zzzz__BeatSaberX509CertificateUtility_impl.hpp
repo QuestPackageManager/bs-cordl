@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatSaberX509CertificateUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatSaberX509CertificateUtility.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberX509CertificateUtility_def.hpp"

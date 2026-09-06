@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\UnmanagedFunctionPointerAttribute.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/UnmanagedFunctionPointerAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,8 @@ class UnmanagedFunctionPointerAttribute;
 // Write type traits
 MARK_REF_T(::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*, "System.Runtime.InteropServices", "UnmanagedFunctionPointerAttribute");
+// [AttributeUsage((System.AttributeTargets)4096, AllowMultiple = false, Inherited = false)]
+// [ComVisible(true)]
 // Dependencies System.Attribute, System.Runtime.InteropServices.CallingConvention
 namespace System::Runtime::InteropServices {
 // Is value type: false
@@ -48,13 +50,13 @@ protected:
   constexpr UnmanagedFunctionPointerAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedFunctionPointerAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedFunctionPointerAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnmanagedFunctionPointerAttribute(UnmanagedFunctionPointerAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedFunctionPointerAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UnmanagedFunctionPointerAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UnmanagedFunctionPointerAttribute(UnmanagedFunctionPointerAttribute const&) = delete;
+  UnmanagedFunctionPointerAttribute(UnmanagedFunctionPointerAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3326 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CubemapTest.hpp"
+// IWYU pragma private; include "GlobalNamespace/CubemapTest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,23 +108,26 @@ protected:
   constexpr CubemapTest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CubemapTest(CubemapTest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CubemapTest(CubemapTest const&) = delete;
+  CubemapTest(CubemapTestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6531 };
 
+  /// [SerializeField]
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
+  /// [SerializeField]
   /// @brief Field _cubemapMaterial, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____cubemapMaterial;
 
+  /// [SerializeField]
   /// @brief Field _flatMaterial, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____flatMaterial;
 

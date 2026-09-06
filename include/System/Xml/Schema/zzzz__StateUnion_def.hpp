@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\StateUnion.hpp"
+// IWYU pragma private; include "System/Xml/Schema/StateUnion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,8 +60,9 @@ public:
   // @brief default ctor
   constexpr StateUnion();
 
-  // Ctor Parameters [CppParam { name: "State", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "AllElementsRequired", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "CurPosIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NumberOfRunningPos", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "State", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "AllElementsRequired", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "CurPosIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "NumberOfRunningPos", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }]
   constexpr StateUnion(int32_t State, int32_t AllElementsRequired, int32_t CurPosIndex, int32_t NumberOfRunningPos) noexcept;
 
 private:

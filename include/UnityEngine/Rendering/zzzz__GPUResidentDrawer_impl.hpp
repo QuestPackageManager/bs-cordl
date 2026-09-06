@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\GPUResidentDrawer.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/GPUResidentDrawer.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
@@ -72,10 +72,10 @@ constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::GPUResidentDrawer_Classif
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "batchMaterialHash", ty: "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::BatchMaterialID>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "supportedMaterialIDs", ty:
-// "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "unsupportedMaterialIDs", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "supportedPackedMaterialDatas", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value:
-// Some("{}") }]
+// Some("{}"), comment: None }, CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "supportedMaterialIDs", ty: "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unsupportedMaterialIDs", ty:
+// "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "supportedPackedMaterialDatas", ty:
+// "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUResidentDrawer_ClassifyMaterialsJob::GPUResidentDrawer_ClassifyMaterialsJob(
     ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::BatchMaterialID> batchMaterialHash, ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs,
     ::Unity::Collections::NativeList_1<int32_t> supportedMaterialIDs, ::Unity::Collections::NativeList_1<int32_t> unsupportedMaterialIDs,
@@ -115,10 +115,10 @@ constexpr UnityEngine::Rendering::GPUResidentDrawer_FindUnsupportedRenderersJob:
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::GPUResidentDrawer_FindUnsupportedRenderersJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "unsupportedMaterials", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialIDArrays",
-// ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererGroups", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "unsupportedRenderers", ty: "::Unity::Collections::NativeList_1<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "unsupportedMaterials", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "materialIDArrays", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rendererGroups", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "unsupportedRenderers", ty:
+// "::Unity::Collections::NativeList_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUResidentDrawer_FindUnsupportedRenderersJob::GPUResidentDrawer_FindUnsupportedRenderersJob(
     ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> unsupportedMaterials, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray> materialIDArrays,
     ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> rendererGroups, ::Unity::Collections::NativeList_1<int32_t> unsupportedRenderers) noexcept {
@@ -156,11 +156,11 @@ constexpr UnityEngine::Rendering::GPUResidentDrawer_FindRenderersFromMaterialJob
 constexpr ::Unity::Jobs::IJobParallelForBatch* UnityEngine::Rendering::GPUResidentDrawer_FindRenderersFromMaterialJob::i___Unity__Jobs__IJobParallelForBatch() {
   return static_cast<::Unity::Jobs::IJobParallelForBatch*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeHashSet_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialIDArrays", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rendererGroupIDs", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sortedExcludeRendererIDs", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "selectedRenderGroups", ty:
-// "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeHashSet_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "materialIDArrays", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "rendererGroupIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sortedExcludeRendererIDs", ty:
+// "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "selectedRenderGroups", ty:
+// "::Unity::Collections::NativeList_1_ParallelWriter<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUResidentDrawer_FindRenderersFromMaterialJob::GPUResidentDrawer_FindRenderersFromMaterialJob(
     ::Unity::Collections::NativeHashSet_1_ReadOnly<int32_t> materialIDs, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallIntegerArray> materialIDArrays,
     ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> rendererGroupIDs, ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> sortedExcludeRendererIDs,
@@ -200,10 +200,10 @@ constexpr UnityEngine::Rendering::GPUResidentDrawer_GetMaterialsWithChangedPacke
 constexpr ::Unity::Jobs::IJob* UnityEngine::Rendering::GPUResidentDrawer_GetMaterialsWithChangedPackedMaterialJob::i___Unity__Jobs__IJob() {
   return static_cast<::Unity::Jobs::IJob*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "packedMaterialDatas", ty:
-// "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "packedMaterialHash", ty:
-// "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "filteredMaterials", ty: "::Unity::Collections::NativeHashSet_1<int32_t>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "materialIDs", ty: "::Unity::Collections::NativeArray_1_ReadOnly<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "packedMaterialDatas", ty: "::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "packedMaterialHash", ty: "::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t,::UnityEngine::Rendering::GPUDrivenPackedMaterialData>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "filteredMaterials", ty: "::Unity::Collections::NativeHashSet_1<int32_t>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::GPUResidentDrawer_GetMaterialsWithChangedPackedMaterialJob::GPUResidentDrawer_GetMaterialsWithChangedPackedMaterialJob(
     ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> materialIDs, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas,
     ::Unity::Collections::NativeParallelHashMap_2_ReadOnly<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash,
@@ -1134,7 +1134,7 @@ inline void UnityEngine::Rendering::GPUResidentDrawer::OnSetupAmbientProbe() {
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawer::InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                             ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
                                                                              ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
@@ -1146,7 +1146,7 @@ inline void UnityEngine::Rendering::GPUResidentDrawer::InstanceOcclusionTest(::U
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderGraph, settings, subviewOcclusionTests);
 }
 inline void UnityEngine::Rendering::GPUResidentDrawer::UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                               ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParameters,
+                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParameters,
                                                                                ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawer*>(),
@@ -1353,7 +1353,8 @@ inline void UnityEngine::Rendering::GPUResidentDrawer::FreeRendererGroupInstance
                           { "FreeRendererGroupInstances", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rendererGroupIDs, unsupportedRendererGroupIDs);
 }
-inline ::UnityEngine::Rendering::InstanceHandle UnityEngine::Rendering::GPUResidentDrawer::AppendNewInstance(int32_t rendererGroupID, ::by_ref<::UnityEngine::Matrix4x4> instanceTransform) {
+inline ::UnityEngine::Rendering::InstanceHandle UnityEngine::Rendering::GPUResidentDrawer::AppendNewInstance(int32_t rendererGroupID,
+                                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> instanceTransform) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUResidentDrawer*>(),
                                                            { "AppendNewInstance", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));

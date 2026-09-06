@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\PanelSettings.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/PanelSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -164,13 +164,13 @@ protected:
   constexpr PanelSettings_RuntimePanelAccess();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PanelSettings_RuntimePanelAccess", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelSettings_RuntimePanelAccess", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PanelSettings_RuntimePanelAccess(PanelSettings_RuntimePanelAccess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PanelSettings_RuntimePanelAccess", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelSettings_RuntimePanelAccess", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelSettings_RuntimePanelAccess(PanelSettings_RuntimePanelAccess const&) = delete;
+  PanelSettings_RuntimePanelAccess(PanelSettings_RuntimePanelAccessconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4591 };
@@ -191,6 +191,7 @@ static_assert(offsetof(::UnityEngine::UIElements::PanelSettings_RuntimePanelAcce
 static_assert(sizeof(::UnityEngine::UIElements::PanelSettings_RuntimePanelAccess) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [HelpURL("UIE-Runtime-Panel-Settings")]
 // Dependencies UnityEngine.Color, UnityEngine.Rect, UnityEngine.ScriptableObject, UnityEngine.UIElements.BindingLogLevel, UnityEngine.UIElements.PanelRenderMode,
 // UnityEngine.UIElements.PanelScaleMode, UnityEngine.UIElements.PanelScreenMatchMode, UnityEngine.Vector2Int
 namespace UnityEngine::UIElements {
@@ -406,6 +407,7 @@ public:
   /// @brief Method ResolveScale, addr 0x6dace18, size 0xd4, virtual false, abstract: false, final false
   inline float_t ResolveScale(::UnityEngine::Rect targetRect, float_t screenDpi);
 
+  /// [Conditional("ENABLE_PROFILER")]
   /// @brief Method SetPanelChangeReceiver, addr 0x6dac518, size 0x1c, virtual false, abstract: false, final false
   inline void SetPanelChangeReceiver(::UnityEngine::UIElements::IDebugPanelChangeReceiver* value);
 
@@ -634,6 +636,7 @@ public:
   /// @brief Method .ctor, addr 0x6dac0e8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ScreenDPI, addr 0x6dac508, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ScreenDPI();
 
@@ -712,6 +715,7 @@ public:
   /// @brief Method get_worldSpaceLayer, addr 0x6dabcd8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_worldSpaceLayer();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ScreenDPI, addr 0x6dac510, size 0x8, virtual false, abstract: false, final false
   inline void set_ScreenDPI(float_t value);
 
@@ -784,13 +788,13 @@ protected:
   constexpr PanelSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PanelSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelSettings", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PanelSettings(PanelSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PanelSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PanelSettings", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PanelSettings(PanelSettings const&) = delete;
+  PanelSettings(PanelSettingsconst&) = delete;
 
   /// @brief Field DefaultDpi offset 0xffffffff size 0x4
   static constexpr float_t DefaultDpi{ static_cast<float_t>(96.0f) };
@@ -807,66 +811,88 @@ public:
   /// @brief Field k_DefaultStyleSheetPath offset 0xffffffff size 0x8
   static constexpr ::ConstString k_DefaultStyleSheetPath{ u"Packages/com.unity.ui/PackageResources/StyleSheets/Generated/Default.tss.asset" };
 
+  /// [SerializeField]
   /// @brief Field themeUss, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::ThemeStyleSheet> ___themeUss;
 
+  /// [SerializeField]
   /// @brief Field m_DisableNoThemeWarning, offset: 0x20, size: 0x1, def value: None
   bool ___m_DisableNoThemeWarning;
 
+  /// [SerializeField]
   /// @brief Field m_TargetTexture, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ___m_TargetTexture;
 
+  /// [SerializeField]
   /// @brief Field m_RenderMode, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::UIElements::PanelRenderMode ___m_RenderMode;
 
+  /// [SerializeField]
   /// @brief Field m_WorldSpaceLayer, offset: 0x34, size: 0x4, def value: None
   int32_t ___m_WorldSpaceLayer;
 
+  /// [SerializeField]
   /// @brief Field m_ScaleMode, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::UIElements::PanelScaleMode ___m_ScaleMode;
 
+  /// [SerializeField]
   /// @brief Field m_ReferenceSpritePixelsPerUnit, offset: 0x3c, size: 0x4, def value: None
   float_t ___m_ReferenceSpritePixelsPerUnit;
 
+  /// [SerializeField]
   /// @brief Field m_PixelsPerUnit, offset: 0x40, size: 0x4, def value: None
   float_t ___m_PixelsPerUnit;
 
+  /// [SerializeField]
   /// @brief Field m_Scale, offset: 0x44, size: 0x4, def value: None
   float_t ___m_Scale;
 
+  /// [SerializeField]
   /// @brief Field m_ReferenceDpi, offset: 0x48, size: 0x4, def value: None
   float_t ___m_ReferenceDpi;
 
+  /// [SerializeField]
   /// @brief Field m_FallbackDpi, offset: 0x4c, size: 0x4, def value: None
   float_t ___m_FallbackDpi;
 
+  /// [SerializeField]
   /// @brief Field m_ReferenceResolution, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2Int ___m_ReferenceResolution;
 
+  /// [SerializeField]
   /// @brief Field m_ScreenMatchMode, offset: 0x58, size: 0x4, def value: None
   ::UnityEngine::UIElements::PanelScreenMatchMode ___m_ScreenMatchMode;
 
+  /// [Range(0, 1)]
+  /// [SerializeField]
   /// @brief Field m_Match, offset: 0x5c, size: 0x4, def value: None
   float_t ___m_Match;
 
+  /// [SerializeField]
   /// @brief Field m_SortingOrder, offset: 0x60, size: 0x4, def value: None
   float_t ___m_SortingOrder;
 
+  /// [SerializeField]
   /// @brief Field m_TargetDisplay, offset: 0x64, size: 0x4, def value: None
   int32_t ___m_TargetDisplay;
 
+  /// [SerializeField]
   /// @brief Field m_BindingLogLevel, offset: 0x68, size: 0x4, def value: None
   ::UnityEngine::UIElements::BindingLogLevel ___m_BindingLogLevel;
 
+  /// [SerializeField]
   /// @brief Field m_ClearDepthStencil, offset: 0x6c, size: 0x1, def value: None
   bool ___m_ClearDepthStencil;
 
+  /// [SerializeField]
   /// @brief Field m_ClearColor, offset: 0x6d, size: 0x1, def value: None
   bool ___m_ClearColor;
 
+  /// [SerializeField]
   /// @brief Field m_ColorClearValue, offset: 0x70, size: 0x10, def value: None
   ::UnityEngine::Color ___m_ColorClearValue;
 
+  /// [SerializeField]
   /// @brief Field m_VertexBudget, offset: 0x80, size: 0x4, def value: None
   uint32_t ___m_VertexBudget;
 
@@ -876,24 +902,36 @@ public:
   /// @brief Field m_AttachedUIDocumentsList, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIDocumentList* ___m_AttachedUIDocumentsList;
 
+  /// [HideInInspector]
+  /// [SerializeField]
   /// @brief Field m_DynamicAtlasSettings, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::DynamicAtlasSettings* ___m_DynamicAtlasSettings;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_AtlasBlitShader, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_AtlasBlitShader;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_RuntimeShader, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_RuntimeShader;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_RuntimeWorldShader, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_RuntimeWorldShader;
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_ICUDataAsset, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___m_ICUDataAsset;
 
+  /// [SerializeField]
   /// @brief Field forceGammaRendering, offset: 0xc0, size: 0x1, def value: None
   bool ___forceGammaRendering;
 
+  /// [SerializeField]
   /// @brief Field textSettings, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::PanelTextSettings> ___textSettings;
 
@@ -906,6 +944,8 @@ public:
   /// @brief Field m_OldThemeUss, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::StyleSheet> ___m_OldThemeUss;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <ScreenDPI>k__BackingField, offset: 0xf0, size: 0x4, def value: None
   float_t ____ScreenDPI_k__BackingField;
 

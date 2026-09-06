@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\GlyphValueRecord_Legacy.hpp"
+// IWYU pragma private; include "TMPro/GlyphValueRecord_Legacy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,8 +33,9 @@ public:
   // @brief default ctor
   constexpr GlyphValueRecord_Legacy();
 
-  // Ctor Parameters [CppParam { name: "xPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "xAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "yAdvance", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "xPlacement", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "yPlacement", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "xAdvance", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "yAdvance", ty: "float_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr GlyphValueRecord_Legacy(float_t xPlacement, float_t yPlacement, float_t xAdvance, float_t yAdvance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

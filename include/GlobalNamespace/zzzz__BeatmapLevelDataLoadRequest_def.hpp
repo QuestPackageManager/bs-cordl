@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelDataLoadRequest.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelDataLoadRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapLevelDataLoadRequest*);
 MARK_VAL_T(::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelDataLoadRequest*, "", "BeatmapLevelDataLoadRequest");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8, "", "BeatmapLevelDataLoadRequest/<LoadDataAsyncInternal>d__8");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -66,8 +67,9 @@ public:
   /// @brief Method MoveNext, addr 0x371ddec, size 0x790, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x371e57c, size 0x80, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -76,12 +78,12 @@ public:
   // @brief default ctor
   constexpr BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelData*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::BeatmapLevelDataLoadRequest*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelData*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::GlobalNamespace::BeatmapLevelDataLoadRequest*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: None, comment: None }]
   constexpr BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8(int32_t __1__state,
                                                                     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelData*> __t__builder,
                                                                     ::GlobalNamespace::BeatmapLevelDataLoadRequest* __4__this, ::System::Threading::CancellationToken cancellationToken,
@@ -98,21 +100,26 @@ public:
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
+  /// [Nullable(0)]
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelData*> __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelDataLoadRequest* __4__this;
 
   /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>> __u__2;
 
+  /// [Nullable(0)]
   /// @brief Field <>u__3, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> __u__3;
 
@@ -136,6 +143,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataA
 static_assert(sizeof(::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -178,6 +187,7 @@ public:
   /// @brief Method LoadDataAsync, addr 0x371d188, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsync(::System::Threading::CancellationToken externalCancellationToken);
 
+  /// [AsyncStateMachine(typeof(BeatmapLevelDataLoadRequest::<LoadDataAsyncInternal>d__8))]
   /// @brief Method LoadDataAsyncInternal, addr 0x371dad8, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsyncInternal(::System::Threading::CancellationToken cancellationToken);
 
@@ -243,17 +253,18 @@ protected:
   constexpr BeatmapLevelDataLoadRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoadRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoadRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelDataLoadRequest(BeatmapLevelDataLoadRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoadRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoadRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelDataLoadRequest(BeatmapLevelDataLoadRequest const&) = delete;
+  BeatmapLevelDataLoadRequest(BeatmapLevelDataLoadRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14943 };
 
+  /// [Nullable(2)]
   /// @brief Field _task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* ____task;
 
@@ -269,6 +280,7 @@ public:
   /// @brief Field _externalCancellationTokens, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Threading::CancellationToken>* ____externalCancellationTokens;
 
+  /// [Nullable(2)]
   /// @brief Field assetBundle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AssetBundle> ___assetBundle;
 

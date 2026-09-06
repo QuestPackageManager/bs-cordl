@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockAudioTimeSource.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockAudioTimeSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,6 +73,7 @@ public:
   /// @brief Method get_isReady, addr 0x58b7f54, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lastFrameDeltaSongTime, addr 0x58b7f24, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
@@ -82,6 +83,7 @@ public:
   /// @brief Method get_songLength, addr 0x58b7f40, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
+  /// [CompilerGenerated]
   /// @brief Method get_songTime, addr 0x58b7f14, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
@@ -94,9 +96,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_lastFrameDeltaSongTime, addr 0x58b7f2c, size 0x8, virtual false, abstract: false, final false
   inline void set_lastFrameDeltaSongTime(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_songTime, addr 0x58b7f1c, size 0x8, virtual false, abstract: false, final false
   inline void set_songTime(float_t value);
 
@@ -106,20 +110,22 @@ protected:
   constexpr MockAudioTimeSource();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockAudioTimeSource", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockAudioTimeSource", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockAudioTimeSource(MockAudioTimeSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockAudioTimeSource", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockAudioTimeSource", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockAudioTimeSource(MockAudioTimeSource const&) = delete;
+  MockAudioTimeSource(MockAudioTimeSourceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5570 };
 
+  /// [CompilerGenerated]
   /// @brief Field <songTime>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____songTime_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <lastFrameDeltaSongTime>k__BackingField, offset: 0x24, size: 0x4, def value: None
   float_t ____lastFrameDeltaSongTime_k__BackingField;
 

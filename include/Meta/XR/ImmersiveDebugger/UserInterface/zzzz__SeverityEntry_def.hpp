@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\SeverityEntry.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/SeverityEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry___c__DisplayClass9_0*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry*, "Meta.XR.ImmersiveDebugger.UserInterface", "SeverityEntry");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry___c__DisplayClass9_0*, "Meta.XR.ImmersiveDebugger.UserInterface", "SeverityEntry/<>c__DisplayClass9_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface {
 // Is value type: false
@@ -76,13 +77,13 @@ protected:
   constexpr SeverityEntry___c__DisplayClass9_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry___c__DisplayClass9_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SeverityEntry___c__DisplayClass9_0(SeverityEntry___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry___c__DisplayClass9_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SeverityEntry___c__DisplayClass9_0(SeverityEntry___c__DisplayClass9_0 const&) = delete;
+  SeverityEntry___c__DisplayClass9_0(SeverityEntry___c__DisplayClass9_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18376 };
@@ -184,6 +185,7 @@ public:
   /// @brief Method get_Owner, addr 0x5a54138, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Console> get_Owner();
 
+  /// [CompilerGenerated]
   /// @brief Method get_PillStyle, addr 0x5a54140, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> get_PillStyle();
 
@@ -202,13 +204,13 @@ protected:
   constexpr SeverityEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SeverityEntry(SeverityEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SeverityEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SeverityEntry(SeverityEntry const&) = delete;
+  SeverityEntry(SeverityEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18377 };
@@ -225,6 +227,7 @@ public:
   /// @brief Field _count, offset: 0x28, size: 0x4, def value: None
   int32_t ____count;
 
+  /// [CompilerGenerated]
   /// @brief Field <PillStyle>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> ____PillStyle_k__BackingField;
 

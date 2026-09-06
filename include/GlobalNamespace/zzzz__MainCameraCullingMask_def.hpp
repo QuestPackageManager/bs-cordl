@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MainCameraCullingMask.hpp"
+// IWYU pragma private; include "GlobalNamespace/MainCameraCullingMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ protected:
   constexpr MainCameraCullingMask_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainCameraCullingMask_InitData(MainCameraCullingMask_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainCameraCullingMask_InitData(MainCameraCullingMask_InitData const&) = delete;
+  MainCameraCullingMask_InitData(MainCameraCullingMask_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20629 };
@@ -114,20 +114,22 @@ protected:
   constexpr MainCameraCullingMask();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainCameraCullingMask(MainCameraCullingMask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MainCameraCullingMask", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MainCameraCullingMask(MainCameraCullingMask const&) = delete;
+  MainCameraCullingMask(MainCameraCullingMaskconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20630 };
 
+  /// [SerializeField]
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
+  /// [InjectOptional]
   /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MainCameraCullingMask_InitData* ____initData;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\CommandBufferGrabPass.hpp"
+// IWYU pragma private; include "GlobalNamespace/CommandBufferGrabPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class CommandBufferGrabPass;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::CommandBufferGrabPass*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::CommandBufferGrabPass*, "", "CommandBufferGrabPass");
+// [ExecuteInEditMode]
 // Dependencies CommandBufferGOCore, UnityEngine.Rendering.CameraEvent
 namespace GlobalNamespace {
 // Is value type: false
@@ -82,20 +83,22 @@ protected:
   constexpr CommandBufferGrabPass();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandBufferGrabPass(CommandBufferGrabPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CommandBufferGrabPass(CommandBufferGrabPass const&) = delete;
+  CommandBufferGrabPass(CommandBufferGrabPassconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20621 };
 
+  /// [SerializeField]
   /// @brief Field _textureName, offset: 0x30, size: 0x8, def value: None
   ::StringW ____textureName;
 
+  /// [SerializeField]
   /// @brief Field _cameraEvent, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::Rendering::CameraEvent ____cameraEvent;
 

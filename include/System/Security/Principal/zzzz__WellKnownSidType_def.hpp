@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Principal\WellKnownSidType.hpp"
+// IWYU pragma private; include "System/Security/Principal/WellKnownSidType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct WellKnownSidType;
 // Write type traits
 MARK_VAL_T(::System::Security::Principal::WellKnownSidType);
 DEFINE_IL2CPP_CLASS(::System::Security::Principal::WellKnownSidType, "System.Security.Principal", "WellKnownSidType");
+// [ComVisible(false)]
 // Dependencies
 namespace System::Security::Principal {
 // Is value type: true
@@ -136,7 +137,7 @@ public:
   // @brief default ctor
   constexpr WellKnownSidType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr WellKnownSidType(int32_t value__) noexcept;
 
   /// @brief Field AccountAdministratorSid value: I32(38)

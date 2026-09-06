@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutList_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,14 +14,20 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace UnityEngine::UIElements::Layout {
-template <typename T> struct LayoutList_1_Data;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct LayoutList_1_Data;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Layout {
-template <typename T> struct LayoutList_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct LayoutList_1;
 }
 namespace UnityEngine::UIElements::Layout {
-template <typename T> struct LayoutList_1_Data;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct LayoutList_1_Data;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::Layout::LayoutList_1);
@@ -32,6 +38,7 @@ DEFINE_IL2CPP_GEN_CLASS(::UnityEngine::UIElements::Layout::LayoutList_1_Data, "U
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Layout.LayoutList`1/Data<T>
 struct CORDL_TYPE LayoutList_1_Data {
@@ -41,8 +48,8 @@ public:
   // @brief default ctor
   constexpr LayoutList_1_Data();
 
-  // Ctor Parameters [CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Values", ty: "T*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Capacity", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "Values", ty: "T*", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutList_1_Data(int32_t Capacity, int32_t Count, T* Values) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -64,10 +71,12 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::Layout
+// [DefaultMember("Item")]
 // Dependencies Unity.Collections.Allocator
 namespace UnityEngine::UIElements::Layout {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: true
 // CS Name: UnityEngine.UIElements.Layout.LayoutList`1<T>
 struct CORDL_TYPE LayoutList_1 {
@@ -127,8 +136,8 @@ public:
   // @brief default ctor
   constexpr LayoutList_1();
 
-  // Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }, CppParam { name: "m_Data", ty:
-  // "::UnityEngine::UIElements::Layout::LayoutList_1_Data<T>*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Allocator", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Data", ty:
+  // "::UnityEngine::UIElements::Layout::LayoutList_1_Data<T>*", modifiers: "", def_value: None, comment: None }]
   constexpr LayoutList_1(::Unity::Collections::Allocator m_Allocator, ::UnityEngine::UIElements::Layout::LayoutList_1_Data<T>* m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

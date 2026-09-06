@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Remoting\Services\ITrackingHandler.hpp"
+// IWYU pragma private; include "System/Runtime/Remoting/Services/ITrackingHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,6 +17,7 @@ class ITrackingHandler;
 // Write type traits
 MARK_REF_T(::System::Runtime::Remoting::Services::ITrackingHandler*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::Remoting::Services::ITrackingHandler*, "System.Runtime.Remoting.Services", "ITrackingHandler");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::Remoting::Services {
 // Is value type: false
@@ -24,18 +25,18 @@ namespace System::Runtime::Remoting::Services {
 class CORDL_TYPE ITrackingHandler {
 public:
   // Declarations
-  /// @brief Method DisconnectedObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DisconnectedObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DisconnectedObject(::System::Object* obj);
 
-  /// @brief Method MarshaledObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method MarshaledObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method UnmarshaledObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method UnmarshaledObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITrackingHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ITrackingHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ITrackingHandler(ITrackingHandler const&) = delete;
+  ITrackingHandler(ITrackingHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3100 };

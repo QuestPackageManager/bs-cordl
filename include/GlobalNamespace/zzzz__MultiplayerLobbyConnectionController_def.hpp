@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyConnectionController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyConnectionController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,7 +96,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerLobbyConnectionController_LobbyConnectionState();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerLobbyConnectionController_LobbyConnectionState(int32_t value__) noexcept;
 
   /// @brief Field Connected value: I32(2)
@@ -159,7 +159,7 @@ public:
   // @brief default ctor
   constexpr MultiplayerLobbyConnectionController_LobbyConnectionType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr MultiplayerLobbyConnectionController_LobbyConnectionType(int32_t value__) noexcept;
 
   /// @brief Field None value: I32(0)
@@ -336,33 +336,43 @@ public:
   /// @brief Method .ctor, addr 0x59def44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_connectionFailedEvent, addr 0x59dd5c0, size 0xc0, virtual false, abstract: false, final false
   inline void add_connectionFailedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_connectionSuccessEvent, addr 0x59dd468, size 0xac, virtual false, abstract: false, final false
   inline void add_connectionSuccessEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method get_connectionFailedReason, addr 0x59dd760, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ConnectionFailedReason get_connectionFailedReason();
 
+  /// [CompilerGenerated]
   /// @brief Method get_connectionState, addr 0x59dd740, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState get_connectionState();
 
+  /// [CompilerGenerated]
   /// @brief Method get_connectionType, addr 0x59dd750, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType get_connectionType();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_connectionFailedEvent, addr 0x59dd680, size 0xc0, virtual false, abstract: false, final false
   inline void remove_connectionFailedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_connectionSuccessEvent, addr 0x59dd514, size 0xac, virtual false, abstract: false, final false
   inline void remove_connectionSuccessEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_connectionFailedReason, addr 0x59dd768, size 0x8, virtual false, abstract: false, final false
   inline void set_connectionFailedReason(::GlobalNamespace::ConnectionFailedReason value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_connectionState, addr 0x59dd748, size 0x8, virtual false, abstract: false, final false
   inline void set_connectionState(::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_connectionType, addr 0x59dd758, size 0x8, virtual false, abstract: false, final false
   inline void set_connectionType(::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType value);
 
@@ -372,35 +382,42 @@ protected:
   constexpr MultiplayerLobbyConnectionController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyConnectionController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyConnectionController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyConnectionController(MultiplayerLobbyConnectionController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyConnectionController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyConnectionController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyConnectionController(MultiplayerLobbyConnectionController const&) = delete;
+  MultiplayerLobbyConnectionController(MultiplayerLobbyConnectionControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6164 };
 
+  /// [Inject]
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
+  /// [Inject]
   /// @brief Field _unifiedNetworkPlayerModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IUnifiedNetworkPlayerModel* ____unifiedNetworkPlayerModel;
 
+  /// [CompilerGenerated]
   /// @brief Field connectionSuccessEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___connectionSuccessEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field connectionFailedEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* ___connectionFailedEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field <connectionState>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState ____connectionState_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <connectionType>k__BackingField, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType ____connectionType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <connectionFailedReason>k__BackingField, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::ConnectionFailedReason ____connectionFailedReason_k__BackingField;
 

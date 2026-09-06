@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderMovement.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderMovement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +93,7 @@ public:
   __declspec(property(get = get_timeSinceHeadNoteJump)) float_t timeSinceHeadNoteJump;
 
   /// @brief Method Init, addr 0x5976ca0, size 0x11c, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
+  inline void Init(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
 
   /// @brief Method ManualUpdate, addr 0x5978b40, size 0x48c, virtual false, abstract: false, final false
   inline void ManualUpdate();
@@ -196,30 +196,38 @@ public:
   /// @brief Method .ctor, addr 0x597c668, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_headDidMovePastCutMarkEvent, addr 0x5977f54, size 0xac, virtual false, abstract: false, final false
   inline void add_headDidMovePastCutMarkEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_movementDidFinishEvent, addr 0x5977ea8, size 0xac, virtual false, abstract: false, final false
   inline void add_movementDidFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_movementDidMoveEvent, addr 0x597c4e0, size 0xc0, virtual false, abstract: false, final false
   inline void add_movementDidMoveEvent(::System::Action_1<float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_tailDidMovePastCutMarkEvent, addr 0x5978000, size 0xac, virtual false, abstract: false, final false
   inline void add_tailDidMovePastCutMarkEvent(::System::Action* value);
 
   /// @brief Method get_timeSinceHeadNoteJump, addr 0x597c660, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeSinceHeadNoteJump();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_headDidMovePastCutMarkEvent, addr 0x59786fc, size 0xac, virtual false, abstract: false, final false
   inline void remove_headDidMovePastCutMarkEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_movementDidFinishEvent, addr 0x5978650, size 0xac, virtual false, abstract: false, final false
   inline void remove_movementDidFinishEvent(::System::Action* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_movementDidMoveEvent, addr 0x597c5a0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_movementDidMoveEvent(::System::Action_1<float_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_tailDidMovePastCutMarkEvent, addr 0x59787a8, size 0xac, virtual false, abstract: false, final false
   inline void remove_tailDidMovePastCutMarkEvent(::System::Action* value);
 
@@ -229,32 +237,38 @@ protected:
   constexpr SliderMovement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderMovement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderMovement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderMovement(SliderMovement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderMovement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SliderMovement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SliderMovement(SliderMovement const&) = delete;
+  SliderMovement(SliderMovementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5736 };
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 
+  /// [CompilerGenerated]
   /// @brief Field movementDidFinishEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___movementDidFinishEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field movementDidMoveEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___movementDidMoveEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field headDidMovePastCutMarkEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___headDidMovePastCutMarkEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field tailDidMovePastCutMarkEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___tailDidMovePastCutMarkEvent;
 

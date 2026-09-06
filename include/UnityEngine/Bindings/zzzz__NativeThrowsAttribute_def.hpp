@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\NativeThrowsAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/NativeThrowsAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class NativeThrowsAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::Bindings::NativeThrowsAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Bindings::NativeThrowsAttribute*, "UnityEngine.Bindings", "NativeThrowsAttribute");
+// [AttributeUsage((System.AttributeTargets)192)]
+// [VisibleToOtherModules]
 // Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
@@ -35,6 +37,7 @@ public:
   /// @brief Method .ctor, addr 0x6bb6560, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ThrowsException, addr 0x6bb6558, size 0x8, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
@@ -44,17 +47,19 @@ protected:
   constexpr NativeThrowsAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeThrowsAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeThrowsAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeThrowsAttribute(NativeThrowsAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeThrowsAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeThrowsAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeThrowsAttribute(NativeThrowsAttribute const&) = delete;
+  NativeThrowsAttribute(NativeThrowsAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23123 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <ThrowsException>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ThrowsException_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\ExtensionDataReader.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/ExtensionDataReader.hpp"
 #include "System/Runtime/Serialization/zzzz__ElementData_impl.hpp"
 #include "System/Xml/zzzz__ReadState_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeType_impl.hpp"
@@ -23,7 +23,7 @@
 #include "System/Xml/zzzz__XmlSpace_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Runtime::Serialization::ExtensionDataReader_ExtensionDataNodeType::ExtensionDataReader_ExtensionDataNodeType(int32_t value__) noexcept {
   this->value__ = value__;
 }

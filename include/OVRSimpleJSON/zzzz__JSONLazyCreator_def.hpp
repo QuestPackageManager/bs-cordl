@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVRSimpleJSON\JSONLazyCreator.hpp"
+// IWYU pragma private; include "OVRSimpleJSON/JSONLazyCreator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,7 @@ class JSONLazyCreator;
 // Write type traits
 MARK_REF_T(::OVRSimpleJSON::JSONLazyCreator*);
 DEFINE_IL2CPP_CLASS(::OVRSimpleJSON::JSONLazyCreator*, "OVRSimpleJSON", "JSONLazyCreator");
+// [DefaultMember("Item")]
 // Dependencies OVRSimpleJSON.JSONNode
 namespace OVRSimpleJSON {
 // Is value type: false
@@ -94,7 +95,9 @@ public:
   static inline ::OVRSimpleJSON::JSONLazyCreator* New_ctor(::OVRSimpleJSON::JSONNode* aNode, ::StringW aKey);
 
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T Set(T aVal);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::OVRSimpleJSON::JSONNode*>)
+  inline T Set(T aVal);
 
   /// @brief Method WriteToStringBuilder, addr 0x5e2b8d8, size 0x58, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
@@ -186,13 +189,13 @@ protected:
   constexpr JSONLazyCreator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JSONLazyCreator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JSONLazyCreator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JSONLazyCreator(JSONLazyCreator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JSONLazyCreator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JSONLazyCreator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JSONLazyCreator(JSONLazyCreator const&) = delete;
+  JSONLazyCreator(JSONLazyCreatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8032 };

@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LocalServerNetworkPlayerModel.hpp"
+// IWYU pragma private; include "GlobalNamespace/LocalServerNetworkPlayerModel.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalServerNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
@@ -262,7 +263,9 @@ GlobalNamespace::LocalServerNetworkPlayerModel::GetStartClientParams(::GlobalNam
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::LocalServerNetworkPlayerModel*>(), 68 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LocalServerConnectionManager*>*>(this, ___internal_method, selectionMask, configuration);
 }
-template <typename T2> inline bool GlobalNamespace::LocalServerNetworkPlayerModel::CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T2>* config) {
+template <typename T2>
+  requires(::cordl_internals::type_constraint<T2, ::GlobalNamespace::INetworkPlayerModel*>)
+inline bool GlobalNamespace::LocalServerNetworkPlayerModel::CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T2>* config) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::LocalServerNetworkPlayerModel*>(), 62 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T2>() }));

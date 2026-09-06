@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\RigidTransform.hpp"
+// IWYU pragma private; include "Unity/Mathematics/RigidTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ struct RigidTransform;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::RigidTransform);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::RigidTransform, "Unity.Mathematics", "RigidTransform");
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies Unity.Mathematics.float3, Unity.Mathematics.quaternion
 namespace Unity::Mathematics {
 // Is value type: true
@@ -137,8 +138,8 @@ public:
   // @brief default ctor
   constexpr RigidTransform();
 
-  // Ctor Parameters [CppParam { name: "rot", ty: "::Unity::Mathematics::quaternion", modifiers: "", def_value: None }, CppParam { name: "pos", ty: "::Unity::Mathematics::float3", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "rot", ty: "::Unity::Mathematics::quaternion", modifiers: "", def_value: None, comment: None }, CppParam { name: "pos", ty: "::Unity::Mathematics::float3",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr RigidTransform(::Unity::Mathematics::quaternion rot, ::Unity::Mathematics::float3 pos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

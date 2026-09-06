@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\HMDDeviceDetector.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/HMDDeviceDetector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__HMDDeviceDetector_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::HMDDeviceDetector.DetectHMDPlatform

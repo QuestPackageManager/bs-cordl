@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRLoaderNoPreInit.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRLoaderNoPreInit.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderBase_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderNoPreInit_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::OpenXRLoaderNoPreInit._ctor

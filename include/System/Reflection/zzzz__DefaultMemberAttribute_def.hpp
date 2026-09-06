@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\DefaultMemberAttribute.hpp"
+// IWYU pragma private; include "System/Reflection/DefaultMemberAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class DefaultMemberAttribute;
 // Write type traits
 MARK_REF_T(::System::Reflection::DefaultMemberAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::DefaultMemberAttribute*, "System.Reflection", "DefaultMemberAttribute");
+// [AttributeUsage((System.AttributeTargets)1036)]
 // Dependencies System.Attribute
 namespace System::Reflection {
 // Is value type: false
@@ -36,6 +37,7 @@ public:
   /// @brief Method .ctor, addr 0x5b7dc34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW memberName);
 
+  /// [CompilerGenerated]
   /// @brief Method get_MemberName, addr 0x5b7dc3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
@@ -45,17 +47,18 @@ protected:
   constexpr DefaultMemberAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultMemberAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultMemberAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultMemberAttribute(DefaultMemberAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultMemberAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DefaultMemberAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DefaultMemberAttribute(DefaultMemberAttribute const&) = delete;
+  DefaultMemberAttribute(DefaultMemberAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3483 };
 
+  /// [CompilerGenerated]
   /// @brief Field <MemberName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____MemberName_k__BackingField;
 

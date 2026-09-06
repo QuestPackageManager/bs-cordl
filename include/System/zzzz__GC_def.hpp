@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\GC.hpp"
+// IWYU pragma private; include "System/GC.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ public:
   /// @brief Method Collect, addr 0x5c7fe38, size 0x54, virtual false, abstract: false, final false
   static inline void Collect();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method CollectionCount, addr 0x5c7fee0, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t CollectionCount(int32_t generation);
 
@@ -52,18 +53,21 @@ public:
   /// @brief Method InternalCollect, addr 0x5c7fe00, size 0x4, virtual false, abstract: false, final false
   static inline void InternalCollect(int32_t generation);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method KeepAlive, addr 0x5c7ff9c, size 0x4, virtual false, abstract: false, final false
   static inline void KeepAlive(::System::Object* obj);
 
   /// @brief Method ReRegisterForFinalize, addr 0x5c8004c, size 0xa4, virtual false, abstract: false, final false
   static inline void ReRegisterForFinalize(::System::Object* obj);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method SuppressFinalize, addr 0x5c7ffa4, size 0xa4, virtual false, abstract: false, final false
   static inline void SuppressFinalize(::System::Object* obj);
 
   /// @brief Method _ReRegisterForFinalize, addr 0x5c80048, size 0x4, virtual false, abstract: false, final false
   static inline void _ReRegisterForFinalize(::System::Object* o);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method _SuppressFinalize, addr 0x5c7ffa0, size 0x4, virtual false, abstract: false, final false
   static inline void _SuppressFinalize(::System::Object* o);
 
@@ -86,13 +90,13 @@ protected:
   constexpr GC();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GC", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GC", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GC(GC&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GC", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GC", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GC(GC const&) = delete;
+  GC(GCconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2572 };

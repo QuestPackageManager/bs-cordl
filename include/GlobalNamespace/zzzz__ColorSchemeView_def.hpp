@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorSchemeView.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorSchemeView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,35 +105,42 @@ protected:
   constexpr ColorSchemeView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemeView(ColorSchemeView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemeView(ColorSchemeView const&) = delete;
+  ColorSchemeView(ColorSchemeViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6813 };
 
+  /// [SerializeField]
   /// @brief Field _saberAColorImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____saberAColorImage;
 
+  /// [SerializeField]
   /// @brief Field _saberBColorImage, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____saberBColorImage;
 
+  /// [SerializeField]
   /// @brief Field _environment0ColorImage, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____environment0ColorImage;
 
+  /// [SerializeField]
   /// @brief Field _environment1ColorImage, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____environment1ColorImage;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor0BoostImage, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____environmentColor0BoostImage;
 
+  /// [SerializeField]
   /// @brief Field _environmentColor1BoostImage, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____environmentColor1BoostImage;
 
+  /// [SerializeField]
   /// @brief Field _obstacleColorImage, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____obstacleColorImage;
 

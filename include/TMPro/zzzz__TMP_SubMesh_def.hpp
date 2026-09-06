@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_SubMesh.hpp"
+// IWYU pragma private; include "TMPro/TMP_SubMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,8 @@ class TMP_SubMesh;
 // Write type traits
 MARK_REF_T(::TMPro::TMP_SubMesh*);
 DEFINE_IL2CPP_CLASS(::TMPro::TMP_SubMesh*, "TMPro", "TMP_SubMesh");
+// [RequireComponent(typeof(UnityEngine.MeshRenderer))]
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace TMPro {
 // Is value type: false
@@ -304,26 +306,30 @@ protected:
   constexpr TMP_SubMesh();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_SubMesh", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SubMesh", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_SubMesh(TMP_SubMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_SubMesh", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SubMesh", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_SubMesh(TMP_SubMesh const&) = delete;
+  TMP_SubMesh(TMP_SubMeshconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15986 };
 
+  /// [SerializeField]
   /// @brief Field m_fontAsset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_FontAsset> ___m_fontAsset;
 
+  /// [SerializeField]
   /// @brief Field m_spriteAsset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_SpriteAsset> ___m_spriteAsset;
 
+  /// [SerializeField]
   /// @brief Field m_material, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_material;
 
+  /// [SerializeField]
   /// @brief Field m_sharedMaterial, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_sharedMaterial;
 
@@ -333,12 +339,15 @@ public:
   /// @brief Field m_fallbackSourceMaterial, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_fallbackSourceMaterial;
 
+  /// [SerializeField]
   /// @brief Field m_isDefaultMaterial, offset: 0x50, size: 0x1, def value: None
   bool ___m_isDefaultMaterial;
 
+  /// [SerializeField]
   /// @brief Field m_padding, offset: 0x54, size: 0x4, def value: None
   float_t ___m_padding;
 
+  /// [SerializeField]
   /// @brief Field m_renderer, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ___m_renderer;
 
@@ -348,6 +357,7 @@ public:
   /// @brief Field m_mesh, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___m_mesh;
 
+  /// [SerializeField]
   /// @brief Field m_TextComponent, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ___m_TextComponent;
 

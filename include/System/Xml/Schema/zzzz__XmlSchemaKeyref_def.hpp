@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\XmlSchemaKeyref.hpp"
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaKeyref.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaKeyref : public ::System::Xml::Schema::XmlSchemaIdentityConstraint {
 public:
   // Declarations
+  /// @brief [XmlAttribute("refer")]
   __declspec(property(get = get_Refer, put = set_Refer)) ::System::Xml::XmlQualifiedName* Refer;
 
   /// @brief Field refer, offset 0x78, size 0x8
@@ -50,13 +51,13 @@ protected:
   constexpr XmlSchemaKeyref();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaKeyref", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaKeyref", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaKeyref(XmlSchemaKeyref&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaKeyref", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaKeyref", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaKeyref(XmlSchemaKeyref const&) = delete;
+  XmlSchemaKeyref(XmlSchemaKeyrefconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9791 };

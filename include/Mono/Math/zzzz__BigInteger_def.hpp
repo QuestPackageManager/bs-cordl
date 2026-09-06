@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono\Math\BigInteger.hpp"
+// IWYU pragma private; include "Mono/Math/BigInteger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
   // @brief default ctor
   constexpr BigInteger_Sign();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BigInteger_Sign(int32_t value__) noexcept;
 
   /// @brief Field Negative value: I32(-1)
@@ -156,13 +156,13 @@ protected:
   constexpr BigInteger_ModulusRing();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BigInteger_ModulusRing", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigInteger_ModulusRing", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BigInteger_ModulusRing(BigInteger_ModulusRing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BigInteger_ModulusRing", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigInteger_ModulusRing", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BigInteger_ModulusRing(BigInteger_ModulusRing const&) = delete;
+  BigInteger_ModulusRing(BigInteger_ModulusRingconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2288 };
@@ -241,13 +241,13 @@ protected:
   constexpr BigInteger_Kernel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BigInteger_Kernel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigInteger_Kernel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BigInteger_Kernel(BigInteger_Kernel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BigInteger_Kernel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigInteger_Kernel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BigInteger_Kernel(BigInteger_Kernel const&) = delete;
+  BigInteger_Kernel(BigInteger_Kernelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2289 };
@@ -460,13 +460,13 @@ protected:
   constexpr BigInteger();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BigInteger", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigInteger", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BigInteger(BigInteger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BigInteger", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BigInteger", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BigInteger(BigInteger const&) = delete;
+  BigInteger(BigIntegerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2290 };

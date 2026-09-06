@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\AssemblyTrademarkAttribute.hpp"
+// IWYU pragma private; include "System/Reflection/AssemblyTrademarkAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AssemblyTrademarkAttribute;
 // Write type traits
 MARK_REF_T(::System::Reflection::AssemblyTrademarkAttribute*);
 DEFINE_IL2CPP_CLASS(::System::Reflection::AssemblyTrademarkAttribute*, "System.Reflection", "AssemblyTrademarkAttribute");
+// [AttributeUsage((System.AttributeTargets)1, Inherited = false)]
 // Dependencies System.Attribute
 namespace System::Reflection {
 // Is value type: false
@@ -40,17 +41,18 @@ protected:
   constexpr AssemblyTrademarkAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyTrademarkAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyTrademarkAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyTrademarkAttribute(AssemblyTrademarkAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyTrademarkAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssemblyTrademarkAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyTrademarkAttribute(AssemblyTrademarkAttribute const&) = delete;
+  AssemblyTrademarkAttribute(AssemblyTrademarkAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3477 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Trademark>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Trademark_k__BackingField;
 

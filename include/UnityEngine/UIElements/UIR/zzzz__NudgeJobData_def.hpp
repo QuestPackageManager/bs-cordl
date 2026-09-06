@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\NudgeJobData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/NudgeJobData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ public:
   // @brief default ctor
   constexpr NudgeJobData();
 
-  // Ctor Parameters [CppParam { name: "headSrc", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "headDst", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "headCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailSrc", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "tailDst",
-  // ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "tailCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "transform", ty:
-  // "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "headSrc", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "headDst", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "headCount", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "tailSrc", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "tailDst", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "tailCount", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None, comment: None }]
   constexpr NudgeJobData(::System::IntPtr headSrc, ::System::IntPtr headDst, int32_t headCount, ::System::IntPtr tailSrc, ::System::IntPtr tailDst, int32_t tailCount,
                          ::UnityEngine::Matrix4x4 transform) noexcept;
 

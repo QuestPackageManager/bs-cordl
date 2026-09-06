@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipGlobalFields.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipGlobalFields.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ class SpaceshipGlobalFields;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipGlobalFields");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay::Events {
 // Is value type: false
@@ -46,13 +48,13 @@ protected:
   constexpr SpaceshipGlobalFields();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipGlobalFields", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipGlobalFields", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpaceshipGlobalFields(SpaceshipGlobalFields&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipGlobalFields", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipGlobalFields", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipGlobalFields(SpaceshipGlobalFields const&) = delete;
+  SpaceshipGlobalFields(SpaceshipGlobalFieldsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22278 };

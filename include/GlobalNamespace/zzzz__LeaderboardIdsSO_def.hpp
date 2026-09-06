@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LeaderboardIdsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/LeaderboardIdsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,20 +86,22 @@ protected:
   constexpr LeaderboardIdsSO_LeaderboardIdData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardIdsSO_LeaderboardIdData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardIdsSO_LeaderboardIdData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardIdsSO_LeaderboardIdData(LeaderboardIdsSO_LeaderboardIdData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardIdsSO_LeaderboardIdData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardIdsSO_LeaderboardIdData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardIdsSO_LeaderboardIdData(LeaderboardIdsSO_LeaderboardIdData const&) = delete;
+  LeaderboardIdsSO_LeaderboardIdData(LeaderboardIdsSO_LeaderboardIdDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15001 };
 
+  /// [SerializeField]
   /// @brief Field _difficultyBeatmapId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____difficultyBeatmapId;
 
+  /// [SerializeField]
   /// @brief Field _platformLeaderboardId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____platformLeaderboardId;
 
@@ -165,17 +167,18 @@ protected:
   constexpr LeaderboardIdsSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardIdsSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardIdsSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardIdsSO(LeaderboardIdsSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardIdsSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardIdsSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardIdsSO(LeaderboardIdsSO const&) = delete;
+  LeaderboardIdsSO(LeaderboardIdsSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15002 };
 
+  /// [SerializeField]
   /// @brief Field _leaderboardIds, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData*>* ____leaderboardIds;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextGenerator.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,13 +134,13 @@ protected:
   constexpr TextGenerator_MissingCharacterEventCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator_MissingCharacterEventCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator_MissingCharacterEventCallback", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextGenerator_MissingCharacterEventCallback(TextGenerator_MissingCharacterEventCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator_MissingCharacterEventCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator_MissingCharacterEventCallback", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextGenerator_MissingCharacterEventCallback(TextGenerator_MissingCharacterEventCallback const&) = delete;
+  TextGenerator_MissingCharacterEventCallback(TextGenerator_MissingCharacterEventCallbackconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17248 };
@@ -165,9 +165,9 @@ public:
   // @brief default ctor
   constexpr TextGenerator_SpecialCharacter();
 
-  // Ctor Parameters [CppParam { name: "character", ty: "::UnityEngine::TextCore::Text::Character*", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty:
-  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None },
-  // CppParam { name: "materialIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "character", ty: "::UnityEngine::TextCore::Text::Character*", modifiers: "", def_value: None, comment: None }, CppParam { name: "fontAsset", ty:
+  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None, comment: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "materialIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextGenerator_SpecialCharacter(::UnityEngine::TextCore::Text::Character* character, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset,
                                            ::UnityW<::UnityEngine::Material> material, int32_t materialIndex) noexcept;
 
@@ -203,6 +203,7 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator_SpecialChara
 static_assert(sizeof(::UnityEngine::TextCore::Text::TextGenerator_SpecialCharacter) == 0x20, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
+// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
 // Dependencies System.Object, UnityEngine.Color32, UnityEngine.Quaternion, UnityEngine.TextCore.Text.Extents, UnityEngine.TextCore.Text.FontStyleStack, UnityEngine.TextCore.Text.FontStyles,
 // UnityEngine.TextCore.Text.HighlightState, UnityEngine.TextCore.Text.MaterialReference, UnityEngine.TextCore.Text.RichTextTagAttribute, UnityEngine.TextCore.Text.TextAlignment,
 // UnityEngine.TextCore.Text.TextBackingContainer, UnityEngine.TextCore.Text.TextElementInfo, UnityEngine.TextCore.Text.TextElementType, UnityEngine.TextCore.Text.TextFontWeight,
@@ -628,6 +629,7 @@ public:
   /// @brief Method GenerateText, addr 0x6bd5f64, size 0x1cc, virtual false, abstract: false, final false
   inline void GenerateText(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method GenerateTextMesh, addr 0x6bd6220, size 0x3e8, virtual false, abstract: false, final false
   inline void GenerateTextMesh(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
@@ -669,11 +671,12 @@ public:
   inline bool PopulateFontAsset(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement> textProcessingArray);
 
   /// @brief Method PopulateTextBackingArray, addr 0x6be6eac, size 0xd4, virtual false, abstract: false, final false
-  inline void PopulateTextBackingArray(::by_ref<::UnityEngine::TextCore::Text::RenderedText> sourceText);
+  inline void PopulateTextBackingArray(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> sourceText);
 
   /// @brief Method PopulateTextProcessingArray, addr 0x6be6f80, size 0xce4, virtual false, abstract: false, final false
   inline void PopulateTextProcessingArray(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method Prepare, addr 0x6bd6130, size 0xf0, virtual false, abstract: false, final false
   inline void Prepare(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
@@ -1406,6 +1409,7 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator* getStaticF_s_TextGenerator();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IsExecutingJob, addr 0x6bd5ec4, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_IsExecutingJob();
 
@@ -1418,6 +1422,7 @@ public:
 
   static inline void setStaticF_s_TextGenerator(::UnityEngine::TextCore::Text::TextGenerator* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IsExecutingJob, addr 0x6bd5f10, size 0x54, virtual false, abstract: false, final false
   static inline void set_IsExecutingJob(bool value);
 
@@ -1427,13 +1432,13 @@ protected:
   constexpr TextGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextGenerator(TextGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextGenerator(TextGenerator const&) = delete;
+  TextGenerator(TextGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17250 };
@@ -1585,6 +1590,7 @@ public:
   /// @brief Field m_InternalTextProcessingArraySize, offset: 0x28, size: 0x4, def value: None
   int32_t ___m_InternalTextProcessingArraySize;
 
+  /// [SerializeField]
   /// @brief Field m_VertexBufferAutoSizeReduction, offset: 0x2c, size: 0x1, def value: None
   bool ___m_VertexBufferAutoSizeReduction;
 

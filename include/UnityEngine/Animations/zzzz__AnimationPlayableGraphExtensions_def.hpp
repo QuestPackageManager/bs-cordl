@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Animations\AnimationPlayableGraphExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableGraphExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,12 @@ class AnimationPlayableGraphExtensions;
 // Write type traits
 MARK_REF_T(::UnityEngine::Animations::AnimationPlayableGraphExtensions*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Animations::AnimationPlayableGraphExtensions*, "UnityEngine.Animations", "AnimationPlayableGraphExtensions");
+// [Extension]
+// [NativeHeader("Modules/Animation/ScriptBindings/AnimationPlayableGraphExtensions.bindings.h")]
+// [NativeHeader("Modules/Animation/Animator.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayableOutput.h")]
+// [NativeHeader("Runtime/Director/Core/HPlayable.h")]
+// [StaticAccessor("AnimationPlayableGraphExtensionsBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies System.Object
 namespace UnityEngine::Animations {
 // Is value type: false
@@ -29,6 +35,7 @@ namespace UnityEngine::Animations {
 class CORDL_TYPE AnimationPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [NativeThrows]
   /// @brief Method InternalCreateAnimationOutput, addr 0x6a49494, size 0x148, virtual false, abstract: false, final false
   static inline bool InternalCreateAnimationOutput(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ::by_ref<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
@@ -42,13 +49,13 @@ protected:
   constexpr AnimationPlayableGraphExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions const&) = delete;
+  AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20252 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Dropdown.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Dropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__Upda
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "Dropdown");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic",
                     "Dropdown/<UpdateScrollPosition>d__24");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // Is value type: false
@@ -108,17 +109,22 @@ public:
   /// @brief Method MoveNext, addr 0x5a5b4b4, size 0x200, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5a5b6f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5a5b6f8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5a5b730, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x5a5b4b0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -158,6 +164,7 @@ public:
 
   constexpr void __cordl_internal_set_dropdownIsShowing(bool value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x5a5b344, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -176,13 +183,13 @@ protected:
   constexpr Dropdown__UpdateScrollPosition_d__24();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown__UpdateScrollPosition_d__24", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown__UpdateScrollPosition_d__24", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dropdown__UpdateScrollPosition_d__24(Dropdown__UpdateScrollPosition_d__24&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown__UpdateScrollPosition_d__24", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown__UpdateScrollPosition_d__24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown__UpdateScrollPosition_d__24(Dropdown__UpdateScrollPosition_d__24 const&) = delete;
+  Dropdown__UpdateScrollPosition_d__24(Dropdown__UpdateScrollPosition_d__24const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18395 };
@@ -301,6 +308,7 @@ public:
   /// @brief Method Update, addr 0x5a5b1d0, size 0x10c, virtual false, abstract: false, final false
   inline void Update();
 
+  /// [IteratorStateMachine(typeof(Meta.XR.ImmersiveDebugger.UserInterface.Generic.Dropdown::<UpdateScrollPosition>d__24))]
   /// @brief Method UpdateScrollPosition, addr 0x5a5b2dc, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateScrollPosition(bool dropdownIsShowing);
 
@@ -382,13 +390,13 @@ protected:
   constexpr Dropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Dropdown(Dropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Dropdown(Dropdown const&) = delete;
+  Dropdown(Dropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18396 };

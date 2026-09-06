@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\Binder.hpp"
+// IWYU pragma private; include "System/Reflection/Binder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,28 +45,28 @@ namespace System::Reflection {
 class CORDL_TYPE Binder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BindToField, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method BindToField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::FieldInfo* BindToField(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::FieldInfo*> match, ::System::Object* value,
                                                       ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method BindToMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method BindToMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodBase* BindToMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase*> match, ::by_ref<::ArrayW<::System::Object*>> args,
                                                         ::ArrayW<::System::Reflection::ParameterModifier> modifiers, ::System::Globalization::CultureInfo* culture, ::ArrayW<::StringW> names,
                                                         ::by_ref<::System::Object*> state);
 
-  /// @brief Method ChangeType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* type, ::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Reflection::Binder* New_ctor();
 
-  /// @brief Method ReorderArgumentArray, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ReorderArgumentArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReorderArgumentArray(::by_ref<::ArrayW<::System::Object*>> args, ::System::Object* state);
 
-  /// @brief Method SelectMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SelectMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodBase* SelectMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase*> match, ::ArrayW<::System::Type*> types,
                                                         ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
-  /// @brief Method SelectProperty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SelectProperty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::PropertyInfo* SelectProperty(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::PropertyInfo*> match, ::System::Type* returnType,
                                                             ::ArrayW<::System::Type*> indexes, ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
@@ -79,13 +79,13 @@ protected:
   constexpr Binder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Binder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Binder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Binder(Binder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Binder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Binder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Binder(Binder const&) = delete;
+  Binder(Binderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3478 };

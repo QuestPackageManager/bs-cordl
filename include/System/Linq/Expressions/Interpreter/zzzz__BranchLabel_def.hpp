@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\Interpreter\BranchLabel.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/BranchLabel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,12 +100,14 @@ public:
   /// @brief Method get_HasRuntimeLabel, addr 0x5f8db94, size 0x14, virtual false, abstract: false, final false
   inline bool get_HasRuntimeLabel();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LabelIndex, addr 0x5f8db84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LabelIndex();
 
   /// @brief Method get_TargetIndex, addr 0x5f8dba8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TargetIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method set_LabelIndex, addr 0x5f8db8c, size 0x8, virtual false, abstract: false, final false
   inline void set_LabelIndex(int32_t value);
 
@@ -115,13 +117,13 @@ protected:
   constexpr BranchLabel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BranchLabel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BranchLabel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BranchLabel(BranchLabel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BranchLabel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BranchLabel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BranchLabel(BranchLabel const&) = delete;
+  BranchLabel(BranchLabelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16270 };
@@ -138,6 +140,7 @@ public:
   /// @brief Field _forwardBranchFixups, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ____forwardBranchFixups;
 
+  /// [CompilerGenerated]
   /// @brief Field <LabelIndex>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____LabelIndex_k__BackingField;
 

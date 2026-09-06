@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlDictionaryString.hpp"
+// IWYU pragma private; include "System/Xml/XmlDictionaryString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +67,13 @@ protected:
   constexpr XmlDictionaryString_EmptyStringDictionary();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString_EmptyStringDictionary", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString_EmptyStringDictionary", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDictionaryString_EmptyStringDictionary(XmlDictionaryString_EmptyStringDictionary&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString_EmptyStringDictionary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString_EmptyStringDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDictionaryString_EmptyStringDictionary(XmlDictionaryString_EmptyStringDictionary const&) = delete;
+  XmlDictionaryString_EmptyStringDictionary(XmlDictionaryString_EmptyStringDictionaryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16986 };
@@ -179,13 +179,13 @@ protected:
   constexpr XmlDictionaryString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlDictionaryString(XmlDictionaryString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlDictionaryString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XmlDictionaryString(XmlDictionaryString const&) = delete;
+  XmlDictionaryString(XmlDictionaryStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16987 };

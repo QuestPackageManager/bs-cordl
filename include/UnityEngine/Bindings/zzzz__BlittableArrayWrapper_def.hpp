@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Bindings\BlittableArrayWrapper.hpp"
+// IWYU pragma private; include "UnityEngine/Bindings/BlittableArrayWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
   // @brief default ctor
   constexpr BlittableArrayWrapper_UpdateFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BlittableArrayWrapper_UpdateFlags(int32_t value__) noexcept;
 
   /// @brief Field DataIsEmpty value: I32(4)
@@ -93,6 +93,9 @@ static_assert(offsetof(::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlag
 static_assert(sizeof(::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Bindings
+// [Obsolete("Types with embedded references are not supported in this version of your compiler.", true)]
+// [IsByRefLike]
+// [VisibleToOtherModules]
 // Dependencies UnityEngine.Bindings.BlittableArrayWrapper::UpdateFlags
 namespace UnityEngine::Bindings {
 // Is value type: true
@@ -103,7 +106,9 @@ public:
   using UpdateFlags = ::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags;
 
   /// @brief Method Unmarshal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void Unmarshal(::by_ref<::ArrayW<T>> array);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline void Unmarshal(::by_ref<::ArrayW<T>> array);
 
   /// @brief Method .ctor, addr 0x6afeeb4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* data, int32_t size);
@@ -112,8 +117,8 @@ public:
   // @brief default ctor
   constexpr BlittableArrayWrapper();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "updateFlags",
-  // ty: "::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "data", ty: "void*", modifiers: "", def_value: None, comment: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "updateFlags", ty: "::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags", modifiers: "", def_value: None, comment: None }]
   constexpr BlittableArrayWrapper(void* data, int32_t size, ::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags updateFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CursorManager.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CursorManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,12 +50,14 @@ public:
   /// @brief Method .ctor, addr 0x6d832e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isCursorOverriden, addr 0x6d83170, size 0x8, virtual false, abstract: false, final false
   inline bool get_isCursorOverriden();
 
   /// @brief Convert to "::UnityEngine::UIElements::ICursorManager"
   constexpr ::UnityEngine::UIElements::ICursorManager* i___UnityEngine__UIElements__ICursorManager() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_isCursorOverriden, addr 0x6d83178, size 0x8, virtual false, abstract: false, final false
   inline void set_isCursorOverriden(bool value);
 
@@ -65,17 +67,19 @@ protected:
   constexpr CursorManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CursorManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CursorManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CursorManager(CursorManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CursorManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CursorManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CursorManager(CursorManager const&) = delete;
+  CursorManager(CursorManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4375 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <isCursorOverriden>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____isCursorOverriden_k__BackingField;
 

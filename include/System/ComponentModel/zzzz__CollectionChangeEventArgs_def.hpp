@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\CollectionChangeEventArgs.hpp"
+// IWYU pragma private; include "System/ComponentModel/CollectionChangeEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,9 +53,11 @@ public:
   /// @brief Method .ctor, addr 0x63b7388, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::CollectionChangeAction action, ::System::Object* element);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Action, addr 0x63b73f4, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::CollectionChangeAction get_Action();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Element, addr 0x63b73fc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Element();
 
@@ -65,20 +67,22 @@ protected:
   constexpr CollectionChangeEventArgs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionChangeEventArgs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionChangeEventArgs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionChangeEventArgs(CollectionChangeEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CollectionChangeEventArgs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CollectionChangeEventArgs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CollectionChangeEventArgs(CollectionChangeEventArgs const&) = delete;
+  CollectionChangeEventArgs(CollectionChangeEventArgsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11247 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Action>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::CollectionChangeAction ____Action_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Element>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____Element_k__BackingField;
 

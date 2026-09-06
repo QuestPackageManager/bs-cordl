@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\MiscHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/MiscHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MiscHelpers_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -200,6 +200,7 @@ template <typename TValue> inline ::System::Collections::IEnumerator* UnityEngin
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1<TValue>*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 template <typename TValue>
 inline ::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1<TValue>* UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1<TValue>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1<TValue>*>(__1__state));

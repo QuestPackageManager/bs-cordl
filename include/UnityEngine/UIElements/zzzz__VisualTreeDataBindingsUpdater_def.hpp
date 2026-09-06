@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeDataBindingsUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeDataBindingsUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,6 +83,7 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualTreeDataBindingsUpdater_VersionInfo)
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*, "UnityEngine.UIElements", "VisualTreeDataBindingsUpdater");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeDataBindingsUpdater___c*, "UnityEngine.UIElements", "VisualTreeDataBindingsUpdater/<>c");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::VisualTreeDataBindingsUpdater_VersionInfo, "UnityEngine.UIElements", "VisualTreeDataBindingsUpdater/VersionInfo");
+// [IsReadOnly]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -97,7 +98,8 @@ public:
   // @brief default ctor
   constexpr VisualTreeDataBindingsUpdater_VersionInfo();
 
-  // Ctor Parameters [CppParam { name: "source", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "source", ty: "::System::Object*", modifiers: "", def_value: None, comment: None }, CppParam { name: "version", ty: "int64_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr VisualTreeDataBindingsUpdater_VersionInfo(::System::Object* source, int64_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -122,6 +124,7 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeDataBindingsUpdater_
 static_assert(sizeof(::UnityEngine::UIElements::VisualTreeDataBindingsUpdater_VersionInfo) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -157,13 +160,13 @@ protected:
   constexpr VisualTreeDataBindingsUpdater___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeDataBindingsUpdater___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeDataBindingsUpdater___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeDataBindingsUpdater___c(VisualTreeDataBindingsUpdater___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeDataBindingsUpdater___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeDataBindingsUpdater___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeDataBindingsUpdater___c(VisualTreeDataBindingsUpdater___c const&) = delete;
+  VisualTreeDataBindingsUpdater___c(VisualTreeDataBindingsUpdater___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4065 };
@@ -246,8 +249,8 @@ public:
   __declspec(property(get = getStaticF_s_UpdateProfilerMarker, put = setStaticF_s_UpdateProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_UpdateProfilerMarker;
 
   /// @brief Method CacheAndLogBindingResult, addr 0x6c47350, size 0x130, virtual false, abstract: false, final false
-  inline void CacheAndLogBindingResult(bool appliedOnUiCache, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData,
-                                       ::by_ref<::UnityEngine::UIElements::BindingResult> result);
+  inline void CacheAndLogBindingResult(bool appliedOnUiCache, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData,
+                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult> result);
 
   /// @brief Method Dispose, addr 0x6c48f64, size 0x40, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
@@ -256,10 +259,10 @@ public:
   inline ::System::ValueTuple_2<bool, int64_t> GetDataSourceVersion(::System::Object* source);
 
   /// @brief Method IsPrefix, addr 0x6c48d08, size 0x16c, virtual false, abstract: false, final false
-  inline bool IsPrefix(::by_ref<::Unity::Properties::PropertyPath> prefix, ::by_ref<::Unity::Properties::PropertyPath> path);
+  inline bool IsPrefix(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> prefix, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
 
   /// @brief Method LogResult, addr 0x6c47480, size 0x144, virtual false, abstract: false, final false
-  inline void LogResult(::by_ref<::UnityEngine::UIElements::BindingResult> result);
+  inline void LogResult(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult> result);
 
   static inline ::UnityEngine::UIElements::VisualTreeDataBindingsUpdater* New_ctor();
 
@@ -389,13 +392,13 @@ protected:
   constexpr VisualTreeDataBindingsUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeDataBindingsUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeDataBindingsUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeDataBindingsUpdater(VisualTreeDataBindingsUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeDataBindingsUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeDataBindingsUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeDataBindingsUpdater(VisualTreeDataBindingsUpdater const&) = delete;
+  VisualTreeDataBindingsUpdater(VisualTreeDataBindingsUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4066 };

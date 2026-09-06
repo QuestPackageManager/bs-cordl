@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\RenderModel_ControllerMode_State_t.hpp"
+// IWYU pragma private; include "OVR/OpenVR/RenderModel_ControllerMode_State_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ public:
   // @brief default ctor
   constexpr RenderModel_ControllerMode_State_t();
 
-  // Ctor Parameters [CppParam { name: "bScrollWheelVisible", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bScrollWheelVisible", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr RenderModel_ControllerMode_State_t(bool bScrollWheelVisible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

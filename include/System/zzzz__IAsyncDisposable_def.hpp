@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IAsyncDisposable.hpp"
+// IWYU pragma private; include "System/IAsyncDisposable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ namespace System {
 class CORDL_TYPE IAsyncDisposable {
 public:
   // Declarations
-  /// @brief Method DisposeAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method DisposeAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAsyncDisposable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IAsyncDisposable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IAsyncDisposable(IAsyncDisposable const&) = delete;
+  IAsyncDisposable(IAsyncDisposableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2410 };

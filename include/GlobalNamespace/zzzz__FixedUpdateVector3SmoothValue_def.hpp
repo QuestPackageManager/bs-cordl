@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FixedUpdateVector3SmoothValue.hpp"
+// IWYU pragma private; include "GlobalNamespace/FixedUpdateVector3SmoothValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +38,13 @@ protected:
   constexpr FixedUpdateVector3SmoothValue();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue const&) = delete;
+  FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValueconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21391 };

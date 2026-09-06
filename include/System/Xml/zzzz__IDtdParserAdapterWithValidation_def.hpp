@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\IDtdParserAdapterWithValidation.hpp"
+// IWYU pragma private; include "System/Xml/IDtdParserAdapterWithValidation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,18 +31,18 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdParserAdapter"
   constexpr operator ::System::Xml::IDtdParserAdapter*() noexcept;
 
-  /// @brief Method get_DtdValidation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_DtdValidation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_DtdValidation();
 
-  /// @brief Method get_ValidationEventHandling, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ValidationEventHandling, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IValidationEventHandling* get_ValidationEventHandling();
 
   /// @brief Convert to "::System::Xml::IDtdParserAdapter"
   constexpr ::System::Xml::IDtdParserAdapter* i___System__Xml__IDtdParserAdapter() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IDtdParserAdapterWithValidation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IDtdParserAdapterWithValidation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IDtdParserAdapterWithValidation(IDtdParserAdapterWithValidation const&) = delete;
+  IDtdParserAdapterWithValidation(IDtdParserAdapterWithValidationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9280 };

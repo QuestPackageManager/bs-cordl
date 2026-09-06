@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Resources\ResourceReader.hpp"
+// IWYU pragma private; include "System/Resources/ResourceReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__RuntimeType_impl.hpp"
 #include "System/Resources/zzzz__ResourceReader_def.hpp"

@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DParameterEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DParameterEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatTextureProcessor3DParameterEffectTarget_def.hpp"
 #include "GlobalNamespace/zzzz__FloatTextureProcessor3DParameterEffectTarget_def.hpp"
 #include "GlobalNamespace/zzzz__TextureProcessor3D_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget_TextureProcessor3DParameter::FloatTextureProcessor3DParameterEffectTarget_TextureProcessor3DParameter(
     int32_t value__) noexcept {
   this->value__ = value__;
@@ -32,7 +32,7 @@ constexpr ::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget_Textur
 };
 constexpr ::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget_TextureProcessor3DParameter
     GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget_TextureProcessor3DParameter::OutputOffset{ static_cast<int32_t>(0x7) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget_TextureProcessor3DChannel::FloatTextureProcessor3DParameterEffectTarget_TextureProcessor3DChannel(int32_t value__) noexcept {
   this->value__ = value__;
 }

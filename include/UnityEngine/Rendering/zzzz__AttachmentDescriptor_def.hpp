@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\AttachmentDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/AttachmentDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,11 +125,12 @@ public:
   // @brief default ctor
   constexpr AttachmentDescriptor();
 
-  // Ctor Parameters [CppParam { name: "m_LoadAction", ty: "::UnityEngine::Rendering::RenderBufferLoadAction", modifiers: "", def_value: None }, CppParam { name: "m_StoreAction", ty:
-  // "::UnityEngine::Rendering::RenderBufferStoreAction", modifiers: "", def_value: None }, CppParam { name: "m_Format", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "",
-  // def_value: None }, CppParam { name: "m_LoadStoreTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "m_ResolveTarget", ty:
-  // "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "m_ClearColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam {
-  // name: "m_ClearDepth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ClearStencil", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_LoadAction", ty: "::UnityEngine::Rendering::RenderBufferLoadAction", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_StoreAction", ty:
+  // "::UnityEngine::Rendering::RenderBufferStoreAction", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Format", ty: "::UnityEngine::Experimental::Rendering::GraphicsFormat",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_LoadStoreTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "m_ResolveTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ClearColor", ty:
+  // "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ClearDepth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "m_ClearStencil", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AttachmentDescriptor(::UnityEngine::Rendering::RenderBufferLoadAction m_LoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction m_StoreAction,
                                  ::UnityEngine::Experimental::Rendering::GraphicsFormat m_Format, ::UnityEngine::Rendering::RenderTargetIdentifier m_LoadStoreTarget,
                                  ::UnityEngine::Rendering::RenderTargetIdentifier m_ResolveTarget, ::UnityEngine::Color m_ClearColor, float_t m_ClearDepth, uint32_t m_ClearStencil) noexcept;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\OperatorInfo.hpp"
+// IWYU pragma private; include "System/Data/OperatorInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +62,13 @@ protected:
   constexpr OperatorInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OperatorInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OperatorInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OperatorInfo(OperatorInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OperatorInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OperatorInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OperatorInfo(OperatorInfo const&) = delete;
+  OperatorInfo(OperatorInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13820 };

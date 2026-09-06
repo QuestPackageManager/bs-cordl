@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\Button.hpp"
+// IWYU pragma private; include "UnityEngine/UI/Button.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +77,13 @@ protected:
   constexpr Button_ButtonClickedEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Button_ButtonClickedEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button_ButtonClickedEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Button_ButtonClickedEvent(Button_ButtonClickedEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Button_ButtonClickedEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button_ButtonClickedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button_ButtonClickedEvent(Button_ButtonClickedEvent const&) = delete;
+  Button_ButtonClickedEvent(Button_ButtonClickedEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17387 };
@@ -94,6 +94,7 @@ public:
 static_assert(sizeof(::UnityEngine::UI::Button_ButtonClickedEvent) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -132,17 +133,22 @@ public:
   /// @brief Method MoveNext, addr 0x6c18f14, size 0x144, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UI::Button__OnFinishSubmit_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6c19058, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6c19060, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6c19098, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6c18f10, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -176,6 +182,7 @@ public:
 
   constexpr void __cordl_internal_set__fadeTime_5__2(float_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6c18f08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -194,13 +201,13 @@ protected:
   constexpr Button__OnFinishSubmit_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Button__OnFinishSubmit_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button__OnFinishSubmit_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Button__OnFinishSubmit_d__9(Button__OnFinishSubmit_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Button__OnFinishSubmit_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button__OnFinishSubmit_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button__OnFinishSubmit_d__9(Button__OnFinishSubmit_d__9 const&) = delete;
+  Button__OnFinishSubmit_d__9(Button__OnFinishSubmit_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17388 };
@@ -236,6 +243,7 @@ static_assert(offsetof(::UnityEngine::UI::Button__OnFinishSubmit_d__9, ____elaps
 static_assert(sizeof(::UnityEngine::UI::Button__OnFinishSubmit_d__9) == 0x30, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [AddComponentMenu("UI/Button", 30)]
 // Dependencies UnityEngine.UI.Selectable
 namespace UnityEngine::UI {
 // Is value type: false
@@ -263,6 +271,7 @@ public:
 
   static inline ::UnityEngine::UI::Button* New_ctor();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UI.Button::<OnFinishSubmit>d__9))]
   /// @brief Method OnFinishSubmit, addr 0x6c18eb4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* OnFinishSubmit();
 
@@ -305,17 +314,19 @@ protected:
   constexpr Button();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Button(Button&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Button(Button const&) = delete;
+  Button(Buttonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17389 };
 
+  /// [FormerlySerializedAs("onClick")]
+  /// [SerializeField]
   /// @brief Field m_OnClick, offset: 0x100, size: 0x8, def value: None
   ::UnityEngine::UI::Button_ButtonClickedEvent* ___m_OnClick;
 

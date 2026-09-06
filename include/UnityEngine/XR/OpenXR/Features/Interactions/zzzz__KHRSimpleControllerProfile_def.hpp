@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\KHRSimpleControllerProfile.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/KHRSimpleControllerProfile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,8 @@ MARK_REF_T(::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControlle
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile*, "UnityEngine.XR.OpenXR.Features.Interactions", "KHRSimpleControllerProfile");
 DEFINE_IL2CPP_CLASS(::UnityEngine::XR::OpenXR::Features::Interactions::KHRSimpleControllerProfile_KHRSimpleController*, "UnityEngine.XR.OpenXR.Features.Interactions",
                     "KHRSimpleControllerProfile/KHRSimpleController");
+// [Preserve]
+// [InputControlLayout(displayName = "Khronos Simple Controller (OpenXR)", commonUsages = new[] { "LeftHand", "RightHand" })]
 // Dependencies UnityEngine.InputSystem.XR.XRControllerWithRumble
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
 // Is value type: false
@@ -90,26 +92,48 @@ public:
   __declspec(property(get = __cordl_internal_get__trackingState_k__BackingField,
                       put = __cordl_internal_set__trackingState_k__BackingField)) ::UnityEngine::InputSystem::Controls::IntegerControl* _trackingState_k__BackingField;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 0, aliases = new[] { "device", "gripPose" }, usage = "Device")]
   __declspec(property(get = get_devicePose, put = set_devicePose)) ::UnityEngine::XR::OpenXR::Input::PoseControl* devicePose;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 8, alias = "gripPosition")]
   __declspec(property(get = get_devicePosition, put = set_devicePosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* devicePosition;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 20, alias = "gripOrientation")]
   __declspec(property(get = get_deviceRotation, put = set_deviceRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* deviceRotation;
 
+  /// [Preserve]
+  /// @brief [InputControl(usage = "Haptic")]
   __declspec(property(get = get_haptic, put = set_haptic)) ::UnityEngine::XR::OpenXR::Input::HapticControl* haptic;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 2)]
   __declspec(property(get = get_isTracked, put = set_isTracked)) ::UnityEngine::InputSystem::Controls::ButtonControl* isTracked;
 
+  /// [Preserve]
+  /// @brief [InputControl(aliases = new[] { "Primary", "menubutton" }, usage = "MenuButton")]
   __declspec(property(get = get_menu, put = set_menu)) ::UnityEngine::InputSystem::Controls::ButtonControl* menu;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 0, alias = "aimPose", usage = "Pointer")]
   __declspec(property(get = get_pointer, put = set_pointer)) ::UnityEngine::XR::OpenXR::Input::PoseControl* pointer;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 68)]
   __declspec(property(get = get_pointerPosition, put = set_pointerPosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* pointerPosition;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 80, alias = "pointerOrientation")]
   __declspec(property(get = get_pointerRotation, put = set_pointerRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* pointerRotation;
 
+  /// [Preserve]
+  /// @brief [InputControl(aliases = new[] { "Secondary", "selectbutton" }, usage = "PrimaryButton")]
   __declspec(property(get = get_select, put = set_select)) ::UnityEngine::InputSystem::Controls::ButtonControl* select;
 
+  /// [Preserve]
+  /// @brief [InputControl(offset = 4)]
   __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
   /// @brief Method FinishSetup, addr 0x6a0862c, size 0x2ac, virtual true, abstract: false, final false
@@ -186,69 +210,91 @@ public:
   /// @brief Method .ctor, addr 0x6a088d8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_devicePose, addr 0x6a0859c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_devicePose();
 
+  /// [CompilerGenerated]
   /// @brief Method get_devicePosition, addr 0x6a085dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_deviceRotation, addr 0x6a085ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_haptic, addr 0x6a0861c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::HapticControl* get_haptic();
 
+  /// [CompilerGenerated]
   /// @brief Method get_isTracked, addr 0x6a085bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
+  /// [CompilerGenerated]
   /// @brief Method get_menu, addr 0x6a0858c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointer, addr 0x6a085ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pointer();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointerPosition, addr 0x6a085fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_pointerPosition();
 
+  /// [CompilerGenerated]
   /// @brief Method get_pointerRotation, addr 0x6a0860c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_pointerRotation();
 
+  /// [CompilerGenerated]
   /// @brief Method get_select, addr 0x6a0857c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_select();
 
+  /// [CompilerGenerated]
   /// @brief Method get_trackingState, addr 0x6a085cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
+  /// [CompilerGenerated]
   /// @brief Method set_devicePose, addr 0x6a085a4, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_devicePosition, addr 0x6a085e4, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_deviceRotation, addr 0x6a085f4, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_haptic, addr 0x6a08624, size 0x8, virtual false, abstract: false, final false
   inline void set_haptic(::UnityEngine::XR::OpenXR::Input::HapticControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isTracked, addr 0x6a085c4, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_menu, addr 0x6a08594, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pointer, addr 0x6a085b4, size 0x8, virtual false, abstract: false, final false
   inline void set_pointer(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pointerPosition, addr 0x6a08604, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerPosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_pointerRotation, addr 0x6a08614, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_select, addr 0x6a08584, size 0x8, virtual false, abstract: false, final false
   inline void set_select(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_trackingState, addr 0x6a085d4, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
@@ -258,47 +304,58 @@ protected:
   constexpr KHRSimpleControllerProfile_KHRSimpleController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile_KHRSimpleController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile_KHRSimpleController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KHRSimpleControllerProfile_KHRSimpleController(KHRSimpleControllerProfile_KHRSimpleController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile_KHRSimpleController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile_KHRSimpleController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KHRSimpleControllerProfile_KHRSimpleController(KHRSimpleControllerProfile_KHRSimpleController const&) = delete;
+  KHRSimpleControllerProfile_KHRSimpleController(KHRSimpleControllerProfile_KHRSimpleControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18581 };
 
+  /// [CompilerGenerated]
   /// @brief Field <select>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____select_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <menu>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____menu_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <devicePose>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____devicePose_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pointer>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____pointer_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <isTracked>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____isTracked_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <trackingState>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____trackingState_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <devicePosition>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____devicePosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <deviceRotation>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____deviceRotation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pointerPosition>k__BackingField, offset: 0x1e8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____pointerPosition_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <pointerRotation>k__BackingField, offset: 0x1f0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____pointerRotation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <haptic>k__BackingField, offset: 0x1f8, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::HapticControl* ____haptic_k__BackingField;
 
@@ -362,13 +419,13 @@ protected:
   constexpr KHRSimpleControllerProfile();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KHRSimpleControllerProfile(KHRSimpleControllerProfile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KHRSimpleControllerProfile", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KHRSimpleControllerProfile(KHRSimpleControllerProfile const&) = delete;
+  KHRSimpleControllerProfile(KHRSimpleControllerProfileconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18582 };

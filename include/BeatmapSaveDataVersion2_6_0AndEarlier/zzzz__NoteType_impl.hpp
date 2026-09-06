@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\NoteType.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/NoteType.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__NoteType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType::NoteType(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\LambdaExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/LambdaExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ class LambdaExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::LambdaExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::LambdaExpression*, "System.Linq.Expressions", "LambdaExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::LambdaExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -44,12 +45,14 @@ public:
 
   __declspec(property(get = get_NodeType)) ::System::Linq::Expressions::ExpressionType NodeType;
 
+  /// @brief [ExcludeFromCodeCoverage]
   __declspec(property(get = get_ParameterCount)) int32_t ParameterCount;
 
   __declspec(property(get = get_PublicType)) ::System::Type* PublicType;
 
   __declspec(property(get = get_ReturnType)) ::System::Type* ReturnType;
 
+  /// @brief [ExcludeFromCodeCoverage]
   __declspec(property(get = System_Linq_Expressions_IParameterProvider_get_ParameterCount)) int32_t System_Linq_Expressions_IParameterProvider_ParameterCount;
 
   __declspec(property(get = get_TailCall)) bool TailCall;
@@ -66,11 +69,13 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IParameterProvider"
   constexpr operator ::System::Linq::Expressions::IParameterProvider*() noexcept;
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method GetParameter, addr 0x5f86a90, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* GetParameter(int32_t index);
 
   static inline ::System::Linq::Expressions::LambdaExpression* New_ctor(::System::Linq::Expressions::Expression* body);
 
+  /// [ExcludeFromCodeCoverage]
   /// @brief Method System.Linq.Expressions.IParameterProvider.GetParameter, addr 0x5f86a80, size 0x10, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ParameterExpression* System_Linq_Expressions_IParameterProvider_GetParameter(int32_t index);
 
@@ -101,7 +106,7 @@ public:
   /// @brief Method get_ParameterCount, addr 0x5f86ac8, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_ParameterCount();
 
-  /// @brief Method get_PublicType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_PublicType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_PublicType();
 
   /// @brief Method get_ReturnType, addr 0x5f869dc, size 0x8c, virtual false, abstract: false, final false
@@ -116,7 +121,7 @@ public:
   /// @brief Method get_Type, addr 0x5f869a8, size 0xc, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_TypeCore, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_TypeCore();
 
   /// @brief Convert to "::System::Linq::Expressions::IParameterProvider"
@@ -128,13 +133,13 @@ protected:
   constexpr LambdaExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LambdaExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LambdaExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LambdaExpression(LambdaExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LambdaExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LambdaExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LambdaExpression(LambdaExpression const&) = delete;
+  LambdaExpression(LambdaExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16183 };

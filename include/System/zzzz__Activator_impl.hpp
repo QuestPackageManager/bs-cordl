@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Activator.hpp"
+// IWYU pragma private; include "System/Activator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Activator_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -133,7 +133,7 @@ inline ::System::Object* System::Activator::CreateInstance(::System::Type* type,
                                            ::i2c::type_of<::ArrayW<::System::Object*>>(), ::i2c::type_of<::System::Globalization::CultureInfo*>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, type, bindingAttr, binder, args, culture, activationAttributes);
 }
-inline ::System::Object* System::Activator::CreateInstance(::System::Type* type, ::ArrayW<::System::Object*> args) {
+inline ::System::Object* System::Activator::CreateInstance(::System::Type* type, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::System::Activator*>(), { "CreateInstance", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));

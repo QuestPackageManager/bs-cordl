@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\ReflectionUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/ReflectionUtils.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionUtils_def.hpp"
@@ -1045,7 +1046,7 @@ inline ::System::Type* Newtonsoft::Json::Utilities::ReflectionUtils::GetObjectTy
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, v);
 }
 inline ::StringW Newtonsoft::Json::Utilities::ReflectionUtils::GetTypeName(::System::Type* t, ::Newtonsoft::Json::TypeNameAssemblyFormatHandling assemblyFormat,
-                                                                           ::Newtonsoft::Json::Serialization::ISerializationBinder* binder) {
+                                                                           /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::ISerializationBinder* binder) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
                                                                                          { "GetTypeName",
                                                                                            {},
@@ -1053,7 +1054,7 @@ inline ::StringW Newtonsoft::Json::Utilities::ReflectionUtils::GetTypeName(::Sys
                                                                                              ::i2c::type_of<::Newtonsoft::Json::Serialization::ISerializationBinder*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, t, assemblyFormat, binder);
 }
-inline ::StringW Newtonsoft::Json::Utilities::ReflectionUtils::GetFullyQualifiedTypeName(::System::Type* t, ::Newtonsoft::Json::Serialization::ISerializationBinder* binder) {
+inline ::StringW Newtonsoft::Json::Utilities::ReflectionUtils::GetFullyQualifiedTypeName(::System::Type* t, /* [Nullable(2)] */ ::Newtonsoft::Json::Serialization::ISerializationBinder* binder) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
                                               { "GetFullyQualifiedTypeName", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::Newtonsoft::Json::Serialization::ISerializationBinder*>() } })));
@@ -1110,7 +1111,8 @@ inline bool Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefin
                                                            { "ImplementsGenericDefinition", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type, genericInterfaceDefinition);
 }
-inline bool Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition, ::by_ref<::System::Type*> implementingType) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils::ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition,
+                                                                                      /* [Nullable(2)] [NotNullWhen(true)] */ ::by_ref<::System::Type*> implementingType) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
@@ -1123,14 +1125,16 @@ inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinit
                                                            { "InheritsGenericDefinition", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type, genericClassDefinition);
 }
-inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition, ::by_ref<::System::Type*> implementingType) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition,
+                                                                                    /* [Nullable(2)] */ ::by_ref<::System::Type*> implementingType) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
                                        { "InheritsGenericDefinition", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::by_ref<::System::Type*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, type, genericClassDefinition, implementingType);
 }
-inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinitionInternal(::System::Type* type, ::System::Type* genericClassDefinition, ::by_ref<::System::Type*> implementingType) {
+inline bool Newtonsoft::Json::Utilities::ReflectionUtils::InheritsGenericDefinitionInternal(::System::Type* type, ::System::Type* genericClassDefinition,
+                                                                                            /* [Nullable(2)] */ ::by_ref<::System::Type*> implementingType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
@@ -1142,7 +1146,8 @@ inline ::System::Type* Newtonsoft::Json::Utilities::ReflectionUtils::GetCollecti
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(), { "GetCollectionItemType", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*>(nullptr, ___internal_method, type);
 }
-inline void Newtonsoft::Json::Utilities::ReflectionUtils::GetDictionaryKeyValueTypes(::System::Type* dictionaryType, ::by_ref<::System::Type*> keyType, ::by_ref<::System::Type*> valueType) {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils::GetDictionaryKeyValueTypes(/* [Nullable(1)] */ ::System::Type* dictionaryType, ::by_ref<::System::Type*> keyType,
+                                                                                     ::by_ref<::System::Type*> valueType) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
@@ -1171,7 +1176,7 @@ inline ::System::Object* Newtonsoft::Json::Utilities::ReflectionUtils::GetMember
                                                            { "GetMemberValue", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(nullptr, ___internal_method, member, target);
 }
-inline void Newtonsoft::Json::Utilities::ReflectionUtils::SetMemberValue(::System::Reflection::MemberInfo* member, ::System::Object* target, ::System::Object* value) {
+inline void Newtonsoft::Json::Utilities::ReflectionUtils::SetMemberValue(::System::Reflection::MemberInfo* member, ::System::Object* target, /* [Nullable(2)] */ ::System::Object* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
@@ -1203,28 +1208,35 @@ inline bool Newtonsoft::Json::Utilities::ReflectionUtils::IsOverridenGenericMemb
                                               { "IsOverridenGenericMember", {}, { ::i2c::type_of<::System::Reflection::MemberInfo*>(), ::i2c::type_of<::System::Reflection::BindingFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, memberInfo, bindingAttr);
 }
-template <typename T> inline T Newtonsoft::Json::Utilities::ReflectionUtils::GetAttribute(::System::Object* attributeProvider) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T Newtonsoft::Json::Utilities::ReflectionUtils::GetAttribute(::System::Object* attributeProvider) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(), { "GetAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, attributeProvider);
 }
-template <typename T> inline T Newtonsoft::Json::Utilities::ReflectionUtils::GetAttribute(::System::Object* attributeProvider, bool inherit) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline T Newtonsoft::Json::Utilities::ReflectionUtils::GetAttribute(::System::Object* attributeProvider, bool inherit) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
                                                            { "GetAttribute", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, attributeProvider, inherit);
 }
-template <typename T> inline ::ArrayW<T> Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes(::System::Object* attributeProvider, bool inherit) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::Attribute*>)
+inline ::ArrayW<T> Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes(::System::Object* attributeProvider, bool inherit) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
                                                            { "GetAttributes", { ::i2c::class_of<T>() }, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<bool>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T>>(nullptr, ___internal_method, attributeProvider, inherit);
 }
-inline ::ArrayW<::System::Attribute*> Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes(::System::Object* attributeProvider, ::System::Type* attributeType, bool inherit) {
+inline ::ArrayW<::System::Attribute*> Newtonsoft::Json::Utilities::ReflectionUtils::GetAttributes(::System::Object* attributeProvider, /* [Nullable(2)] */ ::System::Type* attributeType,
+                                                                                                  bool inherit) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::ReflectionUtils*>(),
                                                            { "GetAttributes", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::Type*>(), ::i2c::type_of<bool>() } })));

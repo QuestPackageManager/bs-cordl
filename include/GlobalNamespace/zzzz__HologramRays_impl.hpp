@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HologramRays.hpp"
+// IWYU pragma private; include "GlobalNamespace/HologramRays.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -203,6 +203,7 @@ inline ::System::Object* GlobalNamespace::HologramRays__FadingCoroutine_d__28::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays__FadingCoroutine_d__28*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::HologramRays__FadingCoroutine_d__28* GlobalNamespace::HologramRays__FadingCoroutine_d__28::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::HologramRays__FadingCoroutine_d__28*>(__1__state));
 }

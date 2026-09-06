@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "BGLib\UnityExtension\ShaderPropertyAttributeFilter.hpp"
+// IWYU pragma private; include "BGLib/UnityExtension/ShaderPropertyAttributeFilter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyAttributeFilter_def.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyAttributeFilter_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType::ShaderPropertyAttributeFilter_PropType(int32_t value__) noexcept {
   this->value__ = value__;
 }

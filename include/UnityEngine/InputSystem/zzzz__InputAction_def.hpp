@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputAction.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputAction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -83,6 +85,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputAction_CallbackContext);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputAction_ActionFlags, "UnityEngine.InputSystem", "InputAction/ActionFlags");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputAction*, "UnityEngine.InputSystem", "InputAction");
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::InputAction_CallbackContext, "UnityEngine.InputSystem", "InputAction/CallbackContext");
+// [Flags]
 // Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
@@ -111,7 +114,7 @@ public:
   // @brief default ctor
   constexpr InputAction_ActionFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InputAction_ActionFlags(int32_t value__) noexcept;
 
   /// @brief Field WantsInitialStateCheck value: I32(1)
@@ -174,7 +177,9 @@ public:
   __declspec(property(get = get_valueType)) ::System::Type* valueType;
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> inline TValue ReadValue();
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  inline TValue ReadValue();
 
   /// @brief Method ReadValue, addr 0x64d5610, size 0x1b8, virtual false, abstract: false, final false
   inline void ReadValue(void* buffer, int32_t bufferSize);
@@ -240,8 +245,8 @@ public:
   // @brief default ctor
   constexpr InputAction_CallbackContext();
 
-  // Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: None }, CppParam { name: "m_ActionIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_ActionIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr InputAction_CallbackContext(::UnityEngine::InputSystem::InputActionState* m_State, int32_t m_ActionIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -448,7 +453,9 @@ public:
                                                                   ::StringW expectedControlType);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> inline TValue ReadValue();
+  template <typename TValue>
+    requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
+  inline TValue ReadValue();
 
   /// @brief Method ReadValueAsObject, addr 0x64d45b8, size 0x80, virtual false, abstract: false, final false
   inline ::System::Object* ReadValueAsObject();
@@ -698,38 +705,54 @@ protected:
   constexpr InputAction();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputAction", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputAction", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputAction(InputAction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputAction", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputAction", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputAction(InputAction const&) = delete;
+  InputAction(InputActionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8615 };
 
+  /// [Tooltip("Human readable name of the action. Must be unique within its action map (case is ignored). Can be changed without breaking references to the action.")]
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
 
+  /// [Tooltip("Determines how the action triggers.\n\nA Value action will start and perform when a control moves from its default value and then perform on every value change. It will cancel when
+  /// controls go back to default value. Also, when enabled, a Value action will respond right away to a control\'s current value.\n\nA Button action will start when a button is pressed and perform
+  /// when the press threshold (see \'Default Button Press Point\' in settings) is reached. It will cancel when the button is going below the release threshold (see \'Button Release Threshold\' in
+  /// settings). Also, if a button is already pressed when the action is enabled, the button has to be released first.\n\nA Pass-Through action will not explicitly start and will never cancel.
+  /// Instead, for every value change on any bound control, the action will perform.")] [SerializeField]
   /// @brief Field m_Type, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputActionType ___m_Type;
 
+  /// [FormerlySerializedAs("m_ExpectedControlLayout")]
+  /// [Tooltip("The type of control expected by the action (e.g. \"Button\" or \"Stick\"). This will limit the controls shown when setting up bindings in the UI and will also limit which controls can
+  /// be bound interactively to the action.")] [SerializeField]
   /// @brief Field m_ExpectedControlType, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_ExpectedControlType;
 
+  /// [Tooltip("Unique ID of the action (GUID). Used to reference the action from bindings such that actions can be renamed without breaking references.")]
+  /// [SerializeField]
   /// @brief Field m_Id, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_Id;
 
+  /// [SerializeField]
   /// @brief Field m_Processors, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_Processors;
 
+  /// [SerializeField]
   /// @brief Field m_Interactions, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_Interactions;
 
+  /// [SerializeField]
   /// @brief Field m_SingletonActionBindings, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::InputBinding> ___m_SingletonActionBindings;
 
+  /// [SerializeField]
   /// @brief Field m_Flags, offset: 0x48, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputAction_ActionFlags ___m_Flags;
 

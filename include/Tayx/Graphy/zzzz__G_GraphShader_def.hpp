@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\G_GraphShader.hpp"
+// IWYU pragma private; include "Tayx/Graphy/G_GraphShader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -209,13 +209,13 @@ protected:
   constexpr G_GraphShader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_GraphShader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_GraphShader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_GraphShader(G_GraphShader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_GraphShader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_GraphShader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_GraphShader(G_GraphShader const&) = delete;
+  G_GraphShader(G_GraphShaderconst&) = delete;
 
   /// @brief Field ArrayMaxSizeFull offset 0xffffffff size 0x4
   static constexpr int32_t ArrayMaxSizeFull{ static_cast<int32_t>(0x200) };

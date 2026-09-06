@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\AccessControl\ObjectSecurity.hpp"
+// IWYU pragma private; include "System/Security/AccessControl/ObjectSecurity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   /// @brief Field sections_modified, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_sections_modified, put = __cordl_internal_set_sections_modified)) ::System::Security::AccessControl::AccessControlSections sections_modified;
 
-  /// @brief Method AccessRuleFactory, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method AccessRuleFactory, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference* identityReference, int32_t accessMask, bool isInherited,
                                                                           ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                           ::System::Security::AccessControl::PropagationFlags propagationFlags,
@@ -130,13 +130,13 @@ protected:
   constexpr ObjectSecurity();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectSecurity", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectSecurity", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectSecurity(ObjectSecurity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectSecurity", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectSecurity", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ObjectSecurity(ObjectSecurity const&) = delete;
+  ObjectSecurity(ObjectSecurityconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3060 };

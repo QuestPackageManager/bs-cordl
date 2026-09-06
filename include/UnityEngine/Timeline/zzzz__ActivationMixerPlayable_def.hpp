@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\ActivationMixerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/ActivationMixerPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,10 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+struct ScriptPlayable_1;
 }
 namespace UnityEngine::Timeline {
 struct ActivationTrack_PostPlaybackState;
@@ -97,13 +100,13 @@ protected:
   constexpr ActivationMixerPlayable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActivationMixerPlayable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActivationMixerPlayable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActivationMixerPlayable(ActivationMixerPlayable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActivationMixerPlayable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ActivationMixerPlayable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ActivationMixerPlayable(ActivationMixerPlayable const&) = delete;
+  ActivationMixerPlayable(ActivationMixerPlayableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19148 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\ResourceManagerConfig.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/ResourceManagerConfig.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ResourceManagerConfig_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
@@ -137,7 +137,9 @@ inline ::System::Array* UnityEngine::ResourceManagement::Util::ResourceManagerCo
                                                            { "CreateArrayResult", {}, { ::i2c::type_of<::System::Type*>(), ::i2c::type_of<::ArrayW<::UnityEngine::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Array*>(nullptr, ___internal_method, type, allAssets);
 }
-template <typename TObject> inline TObject UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult(::ArrayW<::UnityEngine::Object*> allAssets) {
+template <typename TObject>
+  requires(::cordl_internals::reference_type_constraint<TObject>)
+inline TObject UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult(::ArrayW<::UnityEngine::Object*> allAssets) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*>(),
                                                            { "CreateArrayResult", { ::i2c::class_of<TObject>() }, { ::i2c::type_of<::ArrayW<::UnityEngine::Object*>>() } })));

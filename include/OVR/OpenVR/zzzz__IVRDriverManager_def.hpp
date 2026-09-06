@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRDriverManager.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRDriverManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,6 +54,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRDriverManager__GetDriverCount*, "OVR.OpenV
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRDriverManager__GetDriverHandle*, "OVR.OpenVR", "IVRDriverManager/_GetDriverHandle");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRDriverManager__GetDriverName*, "OVR.OpenVR", "IVRDriverManager/_GetDriverName");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRDriverManager, "OVR.OpenVR", "IVRDriverManager");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -81,13 +82,13 @@ protected:
   constexpr IVRDriverManager__GetDriverCount();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverCount", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverCount", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRDriverManager__GetDriverCount(IVRDriverManager__GetDriverCount&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverCount", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverCount", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRDriverManager__GetDriverCount(IVRDriverManager__GetDriverCount const&) = delete;
+  IVRDriverManager__GetDriverCount(IVRDriverManager__GetDriverCountconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8336 };
@@ -98,6 +99,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRDriverManager__GetDriverCount) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -125,13 +127,13 @@ protected:
   constexpr IVRDriverManager__GetDriverName();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverName", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverName", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRDriverManager__GetDriverName(IVRDriverManager__GetDriverName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRDriverManager__GetDriverName(IVRDriverManager__GetDriverName const&) = delete;
+  IVRDriverManager__GetDriverName(IVRDriverManager__GetDriverNameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8337 };
@@ -142,6 +144,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRDriverManager__GetDriverName) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -169,13 +172,13 @@ protected:
   constexpr IVRDriverManager__GetDriverHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRDriverManager__GetDriverHandle(IVRDriverManager__GetDriverHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRDriverManager__GetDriverHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRDriverManager__GetDriverHandle(IVRDriverManager__GetDriverHandle const&) = delete;
+  IVRDriverManager__GetDriverHandle(IVRDriverManager__GetDriverHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8338 };
@@ -203,9 +206,9 @@ public:
   // @brief default ctor
   constexpr IVRDriverManager();
 
-  // Ctor Parameters [CppParam { name: "GetDriverCount", ty: "::OVR::OpenVR::IVRDriverManager__GetDriverCount*", modifiers: "", def_value: None }, CppParam { name: "GetDriverName", ty:
-  // "::OVR::OpenVR::IVRDriverManager__GetDriverName*", modifiers: "", def_value: None }, CppParam { name: "GetDriverHandle", ty: "::OVR::OpenVR::IVRDriverManager__GetDriverHandle*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "GetDriverCount", ty: "::OVR::OpenVR::IVRDriverManager__GetDriverCount*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetDriverName", ty:
+  // "::OVR::OpenVR::IVRDriverManager__GetDriverName*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetDriverHandle", ty: "::OVR::OpenVR::IVRDriverManager__GetDriverHandle*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr IVRDriverManager(::OVR::OpenVR::IVRDriverManager__GetDriverCount* GetDriverCount, ::OVR::OpenVR::IVRDriverManager__GetDriverName* GetDriverName,
                              ::OVR::OpenVR::IVRDriverManager__GetDriverHandle* GetDriverHandle) noexcept;
 

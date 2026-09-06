@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CharacterInfo.hpp"
+// IWYU pragma private; include "UnityEngine/CharacterInfo.hpp"
 #include "UnityEngine/zzzz__FontStyle_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__CharacterInfo_def.hpp"
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "vert", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "size", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "style", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: Some("{}") }, CppParam { name: "flipped", ty: "bool",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "vert", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "width", ty: "float_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "style", ty: "::UnityEngine::FontStyle",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flipped", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::CharacterInfo::CharacterInfo(int32_t index, ::UnityEngine::Rect uv, ::UnityEngine::Rect vert, float_t width, int32_t size, ::UnityEngine::FontStyle style,
                                                       bool flipped) noexcept {
   this->index = index;

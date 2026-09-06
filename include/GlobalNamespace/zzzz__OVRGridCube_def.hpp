@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRGridCube.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRGridCube.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class OVRGridCube;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRGridCube*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRGridCube*, "", "OVRGridCube");
+// [HelpURL("https://developer.oculus.com/reference/unity/latest/class_o_v_r_grid_cube")]
 // Dependencies UnityEngine.KeyCode, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -153,13 +154,13 @@ protected:
   constexpr OVRGridCube();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGridCube", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGridCube", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGridCube(OVRGridCube&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRGridCube", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRGridCube", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRGridCube(OVRGridCube const&) = delete;
+  OVRGridCube(OVRGridCubeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7916 };

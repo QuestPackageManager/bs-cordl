@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\SubsystemsAnalyticStart.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/SubsystemsAnalyticStart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class SubsystemsAnalyticStart;
 // Write type traits
 MARK_REF_T(::UnityEngine::Analytics::SubsystemsAnalyticStart*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Analytics::SubsystemsAnalyticStart*, "UnityEngine.Analytics", "SubsystemsAnalyticStart");
+// [RequiredByNativeCode(GenerateProxy = true)]
+// [ExcludeFromDocs]
 // Dependencies UnityEngine.Analytics.SubsystemsAnalyticBase
 namespace UnityEngine::Analytics {
 // Is value type: false
@@ -19,6 +21,7 @@ namespace UnityEngine::Analytics {
 class CORDL_TYPE SubsystemsAnalyticStart : public ::UnityEngine::Analytics::SubsystemsAnalyticBase {
 public:
   // Declarations
+  /// [RequiredByNativeCode]
   /// @brief Method CreateSubsystemsAnalyticStart, addr 0x6e24850, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::SubsystemsAnalyticStart* CreateSubsystemsAnalyticStart();
 
@@ -33,13 +36,13 @@ protected:
   constexpr SubsystemsAnalyticStart();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStart", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStart", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubsystemsAnalyticStart(SubsystemsAnalyticStart&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStart", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubsystemsAnalyticStart", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubsystemsAnalyticStart(SubsystemsAnalyticStart const&) = delete;
+  SubsystemsAnalyticStart(SubsystemsAnalyticStartconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22991 };

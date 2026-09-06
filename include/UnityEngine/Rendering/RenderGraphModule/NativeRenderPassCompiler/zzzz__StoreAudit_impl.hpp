@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\StoreAudit.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/StoreAudit.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__StoreReason_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__StoreAudit_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__StoreReason_def.hpp"
@@ -41,9 +41,10 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
                                                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, setReason, setPassId, setMsaaReason, setMsaaPassId);
 }
-// Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "passId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "msaaReason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "msaaPassId", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "reason", ty: "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "passId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "msaaReason", ty:
+// "::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "msaaPassId", ty: "int32_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreAudit::StoreAudit(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason reason,
                                                                                                         int32_t passId,
                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::StoreReason msaaReason,

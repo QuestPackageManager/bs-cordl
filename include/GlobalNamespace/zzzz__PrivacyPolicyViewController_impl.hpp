@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PrivacyPolicyViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PrivacyPolicyViewController.hpp"
 #include "GlobalNamespace/zzzz__CompletableViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyView_def.hpp"

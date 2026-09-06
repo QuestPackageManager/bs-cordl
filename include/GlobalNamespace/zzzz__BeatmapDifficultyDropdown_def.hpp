@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDifficultyDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultyDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,6 +44,7 @@ MARK_REF_T(::GlobalNamespace::BeatmapDifficultyDropdown*);
 MARK_REF_T(::GlobalNamespace::BeatmapDifficultyDropdown___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDifficultyDropdown*, "", "BeatmapDifficultyDropdown");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDifficultyDropdown___c*, "", "BeatmapDifficultyDropdown/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -79,13 +80,13 @@ protected:
   constexpr BeatmapDifficultyDropdown___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDifficultyDropdown___c(BeatmapDifficultyDropdown___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDifficultyDropdown___c(BeatmapDifficultyDropdown___c const&) = delete;
+  BeatmapDifficultyDropdown___c(BeatmapDifficultyDropdown___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6889 };
@@ -171,18 +172,22 @@ public:
   /// @brief Method .ctor, addr 0x593f94c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x593f1e0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Method get_beatmapDifficultyData, addr 0x593f360, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* get_beatmapDifficultyData();
 
+  /// [CompilerGenerated]
   /// @brief Method get_includeAllDifficulties, addr 0x593f540, size 0x8, virtual false, abstract: false, final false
   inline bool get_includeAllDifficulties();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x593f2a0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_includeAllDifficulties, addr 0x593f548, size 0x8, virtual false, abstract: false, final false
   inline void set_includeAllDifficulties(bool value);
 
@@ -192,13 +197,13 @@ protected:
   constexpr BeatmapDifficultyDropdown();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDifficultyDropdown(BeatmapDifficultyDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyDropdown", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDifficultyDropdown(BeatmapDifficultyDropdown const&) = delete;
+  BeatmapDifficultyDropdown(BeatmapDifficultyDropdownconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6890 };
@@ -206,15 +211,18 @@ public:
   /// @brief Field kBeatmapDifficultyAllLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kBeatmapDifficultyAllLocalizationKey{ u"BEATMAP_DIFFICULTY_ALL" };
 
+  /// [SerializeField]
   /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___didSelectCellWithIdxEvent;
 
   /// @brief Field _beatmapDifficultyData, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* ____beatmapDifficultyData;
 
+  /// [CompilerGenerated]
   /// @brief Field <includeAllDifficulties>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____includeAllDifficulties_k__BackingField;
 

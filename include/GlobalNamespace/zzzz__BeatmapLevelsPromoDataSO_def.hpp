@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapLevelsPromoDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelsPromoDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,26 +104,35 @@ protected:
   constexpr BeatmapLevelsPromoDataSO_BeatmapLevelsPromo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO_BeatmapLevelsPromo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO_BeatmapLevelsPromo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelsPromoDataSO_BeatmapLevelsPromo(BeatmapLevelsPromoDataSO_BeatmapLevelsPromo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO_BeatmapLevelsPromo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO_BeatmapLevelsPromo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelsPromoDataSO_BeatmapLevelsPromo(BeatmapLevelsPromoDataSO_BeatmapLevelsPromo const&) = delete;
+  BeatmapLevelsPromoDataSO_BeatmapLevelsPromo(BeatmapLevelsPromoDataSO_BeatmapLevelsPromoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15178 };
 
+  /// [BeatmapLevelOrPackId((BeatmapLevelOrPackIdFilter)1)]
+  /// [SerializeField]
   /// @brief Field _promotedBeatmapLevelPacks, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____promotedBeatmapLevelPacks;
 
+  /// [BeatmapLevelOrPackId((BeatmapLevelOrPackIdFilter)1)]
+  /// [SerializeField]
   /// @brief Field _updatedBeatmapLevelPacks, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____updatedBeatmapLevelPacks;
 
+  /// [Space]
+  /// [BeatmapLevelOrPackId((BeatmapLevelOrPackIdFilter)2)]
+  /// [SerializeField]
   /// @brief Field _promotedBeatmapLevels, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____promotedBeatmapLevels;
 
+  /// [BeatmapLevelOrPackId((BeatmapLevelOrPackIdFilter)2)]
+  /// [SerializeField]
   /// @brief Field _updatedBeatmapLevels, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____updatedBeatmapLevels;
 
@@ -178,17 +187,18 @@ protected:
   constexpr BeatmapLevelsPromoDataSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelsPromoDataSO(BeatmapLevelsPromoDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelsPromoDataSO(BeatmapLevelsPromoDataSO const&) = delete;
+  BeatmapLevelsPromoDataSO(BeatmapLevelsPromoDataSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15179 };
 
+  /// [SerializeField]
   /// @brief Field _promo, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo* ____promo;
 

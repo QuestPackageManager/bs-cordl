@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpException.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,6 +23,7 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class CORDL_TYPE PgpException : public ::System::Exception {
 public:
   // Declarations
+  /// @brief [Obsolete("Use InnerException property")]
   __declspec(property(get = get_UnderlyingException)) ::System::Exception* UnderlyingException;
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor();
@@ -49,13 +50,13 @@ protected:
   constexpr PgpException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpException", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpException(PgpException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PgpException", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PgpException(PgpException const&) = delete;
+  PgpException(PgpExceptionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1635 };

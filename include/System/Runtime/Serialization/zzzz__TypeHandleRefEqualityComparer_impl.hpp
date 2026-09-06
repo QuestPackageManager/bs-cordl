@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\TypeHandleRefEqualityComparer.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/TypeHandleRefEqualityComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__TypeHandleRefEqualityComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"

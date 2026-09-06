@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GradientLutBaker.hpp"
+// IWYU pragma private; include "GlobalNamespace/GradientLutBaker.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GradientLutBaker_def.hpp"
 #include "UnityEngine/zzzz__FilterMode_def.hpp"

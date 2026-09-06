@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\AppFlow\Initialization\AddressablesAsyncInstaller_1.hpp"
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/AddressablesAsyncInstaller_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,7 @@ MARK_GEN_VAL_T(::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1__L
 DEFINE_IL2CPP_GEN_CLASS_PTR(::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1, "BGLib.AppFlow.Initialization", "AddressablesAsyncInstaller`1");
 DEFINE_IL2CPP_GEN_CLASS(::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__1, "BGLib.AppFlow.Initialization",
                         "AddressablesAsyncInstaller`1/<LoadResourcesBeforeInstallAsync>d__1");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::AppFlow::Initialization {
 // cpp template
@@ -63,6 +64,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -73,12 +75,12 @@ public:
   // @brief default ctor
   constexpr AddressablesAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__1();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<T>", modifiers: "", def_value: None }, CppParam {
-  // name: "registry", ty: "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "",
-  // def_value: None }, CppParam { name: "_stopWatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<T>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "registry", ty: "::BGLib::AppFlow::Initialization::IInstallerRegistry*", modifiers: "", def_value: None, comment: None }, CppParam { name: "container", ty:
+  // "::Zenject::DiContainer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_stopWatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*>", modifiers: "", def_value: None, comment: None }]
   constexpr AddressablesAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__1(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<T> __4__this, ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry,
       ::Zenject::DiContainer* container, ::System::Diagnostics::Stopwatch* _stopWatch_5__2,
@@ -139,9 +141,10 @@ public:
 
   __declspec(property(get = get_telemetryEventName)) ::StringW telemetryEventName;
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<T>* assets, ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
+  /// [AsyncStateMachine(typeof(BGLib.AppFlow.Initialization.AddressablesAsyncInstaller`1::<LoadResourcesBeforeInstallAsync>d__1<T>))]
   /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
@@ -159,7 +162,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
   /// @brief Method get_telemetryEventName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -171,13 +174,13 @@ protected:
   constexpr AddressablesAsyncInstaller_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesAsyncInstaller_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesAsyncInstaller_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesAsyncInstaller_1(AddressablesAsyncInstaller_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesAsyncInstaller_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddressablesAsyncInstaller_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesAsyncInstaller_1(AddressablesAsyncInstaller_1 const&) = delete;
+  AddressablesAsyncInstaller_1(AddressablesAsyncInstaller_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21547 };

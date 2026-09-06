@@ -1,10 +1,13 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\ReadOnlyArrayExtensions.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ReadOnlyArrayExtensions.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArrayExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-template <typename TValue> inline bool UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions::Contains(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) {
+template <typename TValue>
+  requires(::cordl_internals::type_constraint<TValue, ::System::IComparable_1<TValue>*>)
+inline bool UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions::Contains(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions*>(),
@@ -13,6 +16,7 @@ template <typename TValue> inline bool UnityEngine::InputSystem::Utilities::Read
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, array, value);
 }
 template <typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue>)
 inline bool UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions::ContainsReference(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -22,6 +26,7 @@ inline bool UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions::Contai
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, array, value);
 }
 template <typename TValue>
+  requires(::cordl_internals::reference_type_constraint<TValue>)
 inline int32_t UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions::IndexOfReference(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array, TValue value) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},

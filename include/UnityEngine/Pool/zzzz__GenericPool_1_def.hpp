@@ -1,35 +1,47 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Pool\GenericPool_1.hpp"
+// IWYU pragma private; include "UnityEngine/Pool/GenericPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GenericPool_1)
 namespace UnityEngine::Pool {
-template <typename T> class GenericPool_1___c;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class GenericPool_1___c;
 }
 namespace UnityEngine::Pool {
-template <typename T> class ObjectPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class ObjectPool_1;
 }
 namespace UnityEngine::Pool {
-template <typename T> struct PooledObject_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+struct PooledObject_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
-template <typename T> class GenericPool_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class GenericPool_1;
 }
 namespace UnityEngine::Pool {
-template <typename T> class GenericPool_1___c;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class GenericPool_1___c;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Pool::GenericPool_1);
 MARK_GEN_REF_T_PTR(::UnityEngine::Pool::GenericPool_1___c);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Pool::GenericPool_1, "UnityEngine.Pool", "GenericPool`1");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Pool::GenericPool_1___c, "UnityEngine.Pool", "GenericPool`1/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.GenericPool`1/<>c<T>
 class CORDL_TYPE GenericPool_1___c : public ::System::Object {
@@ -56,13 +68,13 @@ protected:
   constexpr GenericPool_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPool_1___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPool_1___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericPool_1___c(GenericPool_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPool_1___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPool_1___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericPool_1___c(GenericPool_1___c const&) = delete;
+  GenericPool_1___c(GenericPool_1___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10641 };
@@ -75,6 +87,7 @@ public:
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: UnityEngine.Pool.GenericPool`1<T>
 class CORDL_TYPE GenericPool_1 : public ::System::Object {
@@ -104,13 +117,13 @@ protected:
   constexpr GenericPool_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPool_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPool_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericPool_1(GenericPool_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericPool_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericPool_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GenericPool_1(GenericPool_1 const&) = delete;
+  GenericPool_1(GenericPool_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10642 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,9 @@ public:
   inline ::UnityEngine::ComputeBuffer* GetLightIndicesBuffer(int32_t size);
 
   /// @brief Method GetOrUpdateBuffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::UnityEngine::ComputeBuffer* GetOrUpdateBuffer(::by_ref<::UnityEngine::ComputeBuffer*> buffer, int32_t size);
+  template <typename T>
+    requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+  inline ::UnityEngine::ComputeBuffer* GetOrUpdateBuffer(::by_ref<::UnityEngine::ComputeBuffer*> buffer, int32_t size);
 
   static inline ::UnityEngine::Rendering::Universal::ShaderData* New_ctor();
 
@@ -112,13 +114,13 @@ protected:
   constexpr ShaderData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderData(ShaderData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ShaderData(ShaderData const&) = delete;
+  ShaderData(ShaderDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12956 };

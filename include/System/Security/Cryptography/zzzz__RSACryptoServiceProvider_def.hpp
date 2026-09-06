@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Security\Cryptography\RSACryptoServiceProvider.hpp"
+// IWYU pragma private; include "System/Security/Cryptography/RSACryptoServiceProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,6 +34,7 @@ class RSACryptoServiceProvider;
 // Write type traits
 MARK_REF_T(::System::Security::Cryptography::RSACryptoServiceProvider*);
 DEFINE_IL2CPP_CLASS(::System::Security::Cryptography::RSACryptoServiceProvider*, "System.Security.Cryptography", "RSACryptoServiceProvider");
+// [ComVisible(true)]
 // Dependencies System.Security.Cryptography.CspProviderFlags, System.Security.Cryptography.RSA
 namespace System::Security::Cryptography {
 // Is value type: false
@@ -43,6 +44,7 @@ public:
   // Declarations
   __declspec(property(get = get_KeySize)) int32_t KeySize;
 
+  /// @brief [ComVisible(false)]
   __declspec(property(get = get_PublicOnly)) bool PublicOnly;
 
   /// @brief Field m_disposed, offset 0x2b, size 0x1
@@ -171,13 +173,13 @@ protected:
   constexpr RSACryptoServiceProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RSACryptoServiceProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RSACryptoServiceProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RSACryptoServiceProvider(RSACryptoServiceProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RSACryptoServiceProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RSACryptoServiceProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RSACryptoServiceProvider(RSACryptoServiceProvider const&) = delete;
+  RSACryptoServiceProvider(RSACryptoServiceProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2973 };

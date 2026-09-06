@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConsoleCommandBase.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConsoleCommandBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,6 +62,7 @@ MARK_REF_T(::GlobalNamespace::ConsoleCommandBase___c__DisplayClass23_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConsoleCommandBase*, "", "ConsoleCommandBase");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConsoleCommandBase___c*, "", "ConsoleCommandBase/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConsoleCommandBase___c__DisplayClass23_0*, "", "ConsoleCommandBase/<>c__DisplayClass23_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -97,13 +98,13 @@ protected:
   constexpr ConsoleCommandBase___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConsoleCommandBase___c(ConsoleCommandBase___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleCommandBase___c(ConsoleCommandBase___c const&) = delete;
+  ConsoleCommandBase___c(ConsoleCommandBase___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19374 };
@@ -114,6 +115,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::ConsoleCommandBase___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -145,13 +147,13 @@ protected:
   constexpr ConsoleCommandBase___c__DisplayClass23_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c__DisplayClass23_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConsoleCommandBase___c__DisplayClass23_0(ConsoleCommandBase___c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c__DisplayClass23_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleCommandBase___c__DisplayClass23_0(ConsoleCommandBase___c__DisplayClass23_0 const&) = delete;
+  ConsoleCommandBase___c__DisplayClass23_0(ConsoleCommandBase___c__DisplayClass23_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19375 };
@@ -215,7 +217,7 @@ public:
   /// @brief Method ExecuteAsync, addr 0x32cce64, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::ArrayW<::StringW> args, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method ExecuteAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   /// @brief Method GenerateDescriptions, addr 0x32cca04, size 0x328, virtual false, abstract: false, final false
@@ -292,10 +294,10 @@ public:
   /// @brief Method get_arguments, addr 0x32cc774, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::ArgumentBase*> get_arguments();
 
-  /// @brief Method get_commandName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_description();
 
   /// @brief Method get_unknownArguments, addr 0x32cc77c, size 0x8, virtual false, abstract: false, final false
@@ -310,17 +312,18 @@ protected:
   constexpr ConsoleCommandBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConsoleCommandBase(ConsoleCommandBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConsoleCommandBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConsoleCommandBase(ConsoleCommandBase const&) = delete;
+  ConsoleCommandBase(ConsoleCommandBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19376 };
 
+  /// [Inject]
   /// @brief Field _console, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::TerminalController* ____console;
 

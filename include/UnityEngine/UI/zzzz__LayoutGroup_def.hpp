@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\LayoutGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UI/LayoutGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,6 +59,7 @@ MARK_REF_T(::UnityEngine::UI::LayoutGroup*);
 MARK_REF_T(::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__56*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__56*, "UnityEngine.UI", "LayoutGroup/<DelayedSetDirty>d__56");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
@@ -91,17 +92,22 @@ public:
   /// @brief Method MoveNext, addr 0x6dfc9b8, size 0x90, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__56* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6dfca48, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6dfca50, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6dfca88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x6dfc9b4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -123,6 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x6dfc9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -141,13 +148,13 @@ protected:
   constexpr LayoutGroup__DelayedSetDirty_d__56();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup__DelayedSetDirty_d__56", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup__DelayedSetDirty_d__56", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutGroup__DelayedSetDirty_d__56(LayoutGroup__DelayedSetDirty_d__56&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup__DelayedSetDirty_d__56", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup__DelayedSetDirty_d__56", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutGroup__DelayedSetDirty_d__56(LayoutGroup__DelayedSetDirty_d__56 const&) = delete;
+  LayoutGroup__DelayedSetDirty_d__56(LayoutGroup__DelayedSetDirty_d__56const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17460 };
@@ -173,6 +180,9 @@ static_assert(offsetof(::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__56, __
 static_assert(sizeof(::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__56) == 0x28, "Size mismatch!");
 
 } // namespace UnityEngine::UI
+// [DisallowMultipleComponent]
+// [ExecuteAlways]
+// [RequireComponent(typeof(UnityEngine.RectTransform))]
 // Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.EventSystems.UIBehaviour, UnityEngine.TextAnchor, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
@@ -243,9 +253,10 @@ public:
   /// @brief Method CalculateLayoutInputHorizontal, addr 0x6df9bfc, size 0x3c8, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CalculateLayoutInputVertical();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.UI.LayoutGroup::<DelayedSetDirty>d__56))]
   /// @brief Method DelayedSetDirty, addr 0x6dfc958, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedSetDirty(::UnityEngine::RectTransform* rectTransform);
 
@@ -296,13 +307,13 @@ public:
   /// @brief Method SetDirty, addr 0x6dfc61c, size 0xdc, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method SetLayoutHorizontal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLayoutHorizontal();
 
   /// @brief Method SetLayoutInputForAxis, addr 0x6df9fc4, size 0x7c, virtual false, abstract: false, final false
   inline void SetLayoutInputForAxis(float_t totalMin, float_t totalPreferred, float_t totalFlexible, int32_t axis);
 
-  /// @brief Method SetLayoutVertical, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLayoutVertical();
 
   /// @brief Method SetProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -416,20 +427,22 @@ protected:
   constexpr LayoutGroup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayoutGroup(LayoutGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutGroup", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LayoutGroup(LayoutGroup const&) = delete;
+  LayoutGroup(LayoutGroupconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17461 };
 
+  /// [SerializeField]
   /// @brief Field m_Padding, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::RectOffset* ___m_Padding;
 
+  /// [SerializeField]
   /// @brief Field m_ChildAlignment, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::TextAnchor ___m_ChildAlignment;
 

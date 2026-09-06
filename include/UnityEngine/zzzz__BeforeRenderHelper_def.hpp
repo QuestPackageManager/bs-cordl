@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BeforeRenderHelper.hpp"
+// IWYU pragma private; include "UnityEngine/BeforeRenderHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,8 +39,8 @@ public:
   // @brief default ctor
   constexpr BeforeRenderHelper_OrderBlock();
 
-  // Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "::UnityEngine::Events::UnityAction*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "callback", ty: "::UnityEngine::Events::UnityAction*", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr BeforeRenderHelper_OrderBlock(int32_t order, ::UnityEngine::Events::UnityAction* callback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -99,13 +99,13 @@ protected:
   constexpr BeforeRenderHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeforeRenderHelper(BeforeRenderHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeforeRenderHelper(BeforeRenderHelper const&) = delete;
+  BeforeRenderHelper(BeforeRenderHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10127 };

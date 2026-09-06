@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MockPlayerLobbyPoseGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace/MockPlayerLobbyPoseGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,12 +42,12 @@ public:
   /// @brief Method Dispose, addr 0x5a87f90, size 0x10, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGenerator* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Tick();
 
   constexpr ::GlobalNamespace::MockNodePoseSyncStateSender* const& __cordl_internal_get_mockNodePoseSyncStateSender() const;
@@ -74,13 +74,13 @@ protected:
   constexpr MockPlayerLobbyPoseGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlayerLobbyPoseGenerator(MockPlayerLobbyPoseGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MockPlayerLobbyPoseGenerator(MockPlayerLobbyPoseGenerator const&) = delete;
+  MockPlayerLobbyPoseGenerator(MockPlayerLobbyPoseGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22238 };

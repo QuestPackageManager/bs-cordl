@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSpaceQuery.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSpaceQuery.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"
@@ -32,8 +32,8 @@ constexpr ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 const& GlobalNamespace::O
 constexpr void GlobalNamespace::OVRSpaceQuery_QueryInfoUnion::__cordl_internal_set_V2(::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 value) {
   this->___V2 = value;
 }
-// Ctor Parameters [CppParam { name: "V1", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryInfo", modifiers: "", def_value: Some("{}") }, CppParam { name: "V2", ty:
-// "::GlobalNamespace::OVRPlugin_SpaceQueryInfo2", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "V1", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "V2", ty:
+// "::GlobalNamespace::OVRPlugin_SpaceQueryInfo2", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSpaceQuery_QueryInfoUnion::OVRSpaceQuery_QueryInfoUnion(::GlobalNamespace::OVRPlugin_SpaceQueryInfo V1, ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 V2) noexcept {
   this->V1 = V1;
   this->V2 = V2;
@@ -409,12 +409,13 @@ inline void GlobalNamespace::OVRSpaceQuery_Options::ValidateSingleFilter(::Syste
                                                                ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceComponentType>(), ::i2c::type_of<::System::Nullable_1<::System::Guid>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, uuidFilter, componentFilter, groupFilter);
 }
-// Ctor Parameters [CppParam { name: "_MaxResults_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Timeout_k__BackingField", ty: "double_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_Location_k__BackingField", ty: "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_QueryType_k__BackingField", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryType", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ActionType_k__BackingField", ty:
-// "::GlobalNamespace::OVRPlugin_SpaceQueryActionType", modifiers: "", def_value: Some("{}") }, CppParam { name: "_componentType", ty: "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_uuidFilter", ty: "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_groupFilter", ty: "::System::Nullable_1<::System::Guid>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_MaxResults_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Timeout_k__BackingField", ty: "double_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Location_k__BackingField", ty: "::GlobalNamespace::OVRSpace_StorageLocation", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "_QueryType_k__BackingField", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_ActionType_k__BackingField", ty: "::GlobalNamespace::OVRPlugin_SpaceQueryActionType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_componentType", ty:
+// "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_uuidFilter", ty:
+// "::System::Collections::Generic::IEnumerable_1<::System::Guid>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_groupFilter", ty: "::System::Nullable_1<::System::Guid>",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSpaceQuery_Options::OVRSpaceQuery_Options(int32_t _MaxResults_k__BackingField, double_t _Timeout_k__BackingField,
                                                                           ::GlobalNamespace::OVRSpace_StorageLocation _Location_k__BackingField,
                                                                           ::GlobalNamespace::OVRPlugin_SpaceQueryType _QueryType_k__BackingField,
@@ -657,8 +658,8 @@ inline void GlobalNamespace::OVRSpaceQuery::setStaticF_s_TemplateQuery(::GlobalN
 inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQuery::getStaticF_s_TemplateQuery() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2, "s_TemplateQuery", ::GlobalNamespace::OVRSpaceQuery*>();
 }
-inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> GlobalNamespace::OVRSpaceQuery::ForAnchors(::System::Collections::Generic::IEnumerable_1<::System::Guid>* anchorIds,
-                                                                                                                         ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query) {
+inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW>
+GlobalNamespace::OVRSpaceQuery::ForAnchors(/* [CanBeNull] */ ::System::Collections::Generic::IEnumerable_1<::System::Guid>* anchorIds, ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -672,7 +673,8 @@ inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQue
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ForAnchorsUnchecked", {}, { ::i2c::type_of<::GlobalNamespace::OVREnumerable_1<::System::Guid>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>(nullptr, ___internal_method, anchorIds);
 }
-inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQuery::ForAnchorsThrow(::System::Collections::Generic::IEnumerable_1<::System::Guid>* anchorIds, ::StringW argName) {
+inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQuery::ForAnchorsThrow(/* [NotNull] */ ::System::Collections::Generic::IEnumerable_1<::System::Guid>* anchorIds,
+                                                                                                    ::StringW argName) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(),
                                               { "ForAnchorsThrow", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>(), ::i2c::type_of<::StringW>() } })));
@@ -723,12 +725,12 @@ inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQue
                        { "ForGroupThrow", {}, { ::i2c::type_of<::System::Guid>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>(nullptr, ___internal_method, groupUuid, argName, anchorIds);
 }
-inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo GlobalNamespace::OVRSpaceQuery::ToV1(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query2) {
+inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo GlobalNamespace::OVRSpaceQuery::ToV1(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query2) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV1", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_SpaceQueryInfo>(nullptr, ___internal_method, query2);
 }
-inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQuery::ToV2(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo> query1) {
+inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 GlobalNamespace::OVRSpaceQuery::ToV2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo> query1) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "ToV2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>(nullptr, ___internal_method, query1);
@@ -742,8 +744,8 @@ inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> Gl
           { "AppendAnchors", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2>>(), ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::System::Guid>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW>>(nullptr, ___internal_method, query, anchorIds);
 }
-inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> GlobalNamespace::OVRSpaceQuery::PostProcessQuery(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query,
-                                                                                                                               ::GlobalNamespace::OVRPlugin_Result result, ::by_ref<::StringW> why) {
+inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW>
+GlobalNamespace::OVRSpaceQuery::PostProcessQuery(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query, ::GlobalNamespace::OVRPlugin_Result result, /* [IsReadOnly] */ ::by_ref<::StringW> why) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpaceQuery*>(), { "PostProcessQuery",

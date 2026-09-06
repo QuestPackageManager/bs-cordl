@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UICharInfo.hpp"
+// IWYU pragma private; include "UnityEngine/UICharInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ struct UICharInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UICharInfo);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UICharInfo, "UnityEngine", "UICharInfo");
+// [UsedByNativeCode]
 // Dependencies UnityEngine.Vector2
 namespace UnityEngine {
 // Is value type: true
@@ -25,7 +26,8 @@ public:
   // @brief default ctor
   constexpr UICharInfo();
 
-  // Ctor Parameters [CppParam { name: "cursorPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "charWidth", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "cursorPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam { name: "charWidth", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr UICharInfo(::UnityEngine::Vector2 cursorPos, float_t charWidth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ColorSchemeSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/ColorSchemeSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ public:
 
   __declspec(property(get = get_order)) int32_t order;
 
+  /// [ContextMenu("Log Color Scheme")]
   /// @brief Method LogColorScheme, addr 0x36f7790, size 0x2c4, virtual false, abstract: false, final false
   inline void LogColorScheme();
 
@@ -65,20 +66,22 @@ protected:
   constexpr ColorSchemeSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemeSO(ColorSchemeSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemeSO(ColorSchemeSO const&) = delete;
+  ColorSchemeSO(ColorSchemeSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23151 };
 
+  /// [SerializeField]
   /// @brief Field _colorScheme, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::ColorScheme* ____colorScheme;
 
+  /// [SerializeField]
   /// @brief Field _order, offset: 0x20, size: 0x4, def value: None
   int32_t ____order;
 

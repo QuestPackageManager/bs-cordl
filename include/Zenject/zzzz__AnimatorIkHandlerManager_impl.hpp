@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\AnimatorIkHandlerManager.hpp"
+// IWYU pragma private; include "Zenject/AnimatorIkHandlerManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__AnimatorIkHandlerManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -83,7 +83,7 @@ constexpr void Zenject::AnimatorIkHandlerManager::__cordl_internal_set__handlers
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handlers = value;
 }
-inline void Zenject::AnimatorIkHandlerManager::Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers) {
+inline void Zenject::AnimatorIkHandlerManager::Construct(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::AnimatorIkHandlerManager*>(),
                                                            { "Construct", {}, { ::i2c::type_of<::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*>() } })));

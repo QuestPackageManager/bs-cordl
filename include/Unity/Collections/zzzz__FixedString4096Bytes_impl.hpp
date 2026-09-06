@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedString4096Bytes.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedString4096Bytes.hpp"
 #include "Unity/Collections/zzzz__FixedBytes4094_impl.hpp"
 #include "Unity/Collections/zzzz__Unicode_impl.hpp"
 #include "Unity/Collections/zzzz__FixedString4096Bytes_def.hpp"
@@ -977,7 +977,7 @@ inline void Unity::Collections::FixedString4096Bytes::Clear() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void Unity::Collections::FixedString4096Bytes::Add(::by_ref<uint8_t> value) {
+inline void Unity::Collections::FixedString4096Bytes::Add(/* [IsReadOnly] */ ::by_ref<uint8_t> value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "Add", {}, { ::i2c::type_of<::by_ref<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
@@ -1030,7 +1030,7 @@ inline void Unity::Collections::FixedString4096Bytes::_ctor(::Unity::Collections
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { ".ctor", {}, { ::i2c::type_of<::Unity::Collections::NativeText_ReadOnly>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString4096Bytes::_ctor(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> other) {
+inline void Unity::Collections::FixedString4096Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
                                                                                          { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
@@ -1040,26 +1040,28 @@ inline int32_t Unity::Collections::FixedString4096Bytes::CompareTo(::Unity::Coll
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString32Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString4096Bytes::_ctor(::by_ref<::Unity::Collections::FixedString32Bytes> other) {
+inline void Unity::Collections::FixedString4096Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(::by_ref<::Unity::Collections::FixedString32Bytes> other) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Equality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString32Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
                           { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString32Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -1076,26 +1078,28 @@ inline int32_t Unity::Collections::FixedString4096Bytes::CompareTo(::Unity::Coll
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString64Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString4096Bytes::_ctor(::by_ref<::Unity::Collections::FixedString64Bytes> other) {
+inline void Unity::Collections::FixedString4096Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(::by_ref<::Unity::Collections::FixedString64Bytes> other) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Equality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString64Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
                           { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString64Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -1112,25 +1116,27 @@ inline int32_t Unity::Collections::FixedString4096Bytes::CompareTo(::Unity::Coll
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString4096Bytes::_ctor(::by_ref<::Unity::Collections::FixedString128Bytes> other) {
+inline void Unity::Collections::FixedString4096Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(::by_ref<::Unity::Collections::FixedString128Bytes> other) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
                                                                                          { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Equality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString128Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
                           { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString128Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -1147,25 +1153,27 @@ inline int32_t Unity::Collections::FixedString4096Bytes::CompareTo(::Unity::Coll
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString512Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString4096Bytes::_ctor(::by_ref<::Unity::Collections::FixedString512Bytes> other) {
+inline void Unity::Collections::FixedString4096Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(::by_ref<::Unity::Collections::FixedString512Bytes> other) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
                                                                                          { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Equality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString512Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
                           { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString512Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -1182,25 +1190,27 @@ inline int32_t Unity::Collections::FixedString4096Bytes::CompareTo(::Unity::Coll
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString4096Bytes::_ctor(::by_ref<::Unity::Collections::FixedString4096Bytes> other) {
+inline void Unity::Collections::FixedString4096Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(::by_ref<::Unity::Collections::FixedString4096Bytes> other) {
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString4096Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
                                                                                          { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Equality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString4096Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
                           { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::by_ref<::Unity::Collections::FixedString4096Bytes> b) {
+inline bool Unity::Collections::FixedString4096Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a,
+                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> b) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
@@ -1376,8 +1386,8 @@ constexpr Unity::Collections::FixedString4096Bytes::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::Unity::Collections::FixedString4096Bytes>* Unity::Collections::FixedString4096Bytes::i___System__IEquatable_1___Unity__Collections__FixedString4096Bytes_() {
   return static_cast<::System::IEquatable_1<::Unity::Collections::FixedString4096Bytes>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "utf8LengthInBytes", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bytes", ty: "::Unity::Collections::FixedBytes4094", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "utf8LengthInBytes", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bytes", ty: "::Unity::Collections::FixedBytes4094",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::FixedString4096Bytes::FixedString4096Bytes(uint16_t utf8LengthInBytes, ::Unity::Collections::FixedBytes4094 bytes) noexcept {
   this->utf8LengthInBytes = utf8LengthInBytes;
   this->bytes = bytes;
@@ -1497,8 +1507,8 @@ constexpr Unity::Collections::FixedString4096Bytes_Enumerator::operator ::System
 constexpr ::System::Collections::IEnumerator* Unity::Collections::FixedString4096Bytes_Enumerator::i___System__Collections__IEnumerator() {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::Unity::Collections::FixedString4096Bytes", modifiers: "", def_value: Some("{}") }, CppParam { name: "offset", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "current", ty: "::Unity::Collections::Unicode_Rune", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "target", ty: "::Unity::Collections::FixedString4096Bytes", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "offset", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "current", ty: "::Unity::Collections::Unicode_Rune", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::FixedString4096Bytes_Enumerator::FixedString4096Bytes_Enumerator(::Unity::Collections::FixedString4096Bytes target, int32_t offset,
                                                                                                  ::Unity::Collections::Unicode_Rune current) noexcept {
   this->target = target;

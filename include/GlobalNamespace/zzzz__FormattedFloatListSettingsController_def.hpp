@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FormattedFloatListSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/FormattedFloatListSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   // @brief default ctor
   constexpr FormattedFloatListSettingsController_ValueType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FormattedFloatListSettingsController_ValueType(int32_t value__) noexcept;
 
   /// @brief Field InvertedNormalized value: I32(2)
@@ -190,6 +190,7 @@ public:
   /// @brief Method .ctor, addr 0x5a146a0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_valueDidChangeEvent, addr 0x5a14240, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
@@ -199,6 +200,7 @@ public:
   /// @brief Method get_values, addr 0x5a143c8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_values();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_valueDidChangeEvent, addr 0x5a14300, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
@@ -211,26 +213,30 @@ protected:
   constexpr FormattedFloatListSettingsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormattedFloatListSettingsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormattedFloatListSettingsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FormattedFloatListSettingsController(FormattedFloatListSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormattedFloatListSettingsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FormattedFloatListSettingsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FormattedFloatListSettingsController(FormattedFloatListSettingsController const&) = delete;
+  FormattedFloatListSettingsController(FormattedFloatListSettingsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6399 };
 
+  /// [SerializeField]
   /// @brief Field _values, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<float_t> ____values;
 
+  /// [SerializeField]
   /// @brief Field _formattingString, offset: 0x38, size: 0x8, def value: None
   ::StringW ____formattingString;
 
+  /// [SerializeField]
   /// @brief Field valueType, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::FormattedFloatListSettingsController_ValueType ___valueType;
 
+  /// [CompilerGenerated]
   /// @brief Field valueDidChangeEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* ___valueDidChangeEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\PanelAnimation.hpp"
+// IWYU pragma private; include "HMUI/PanelAnimation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__PanelAnimation_def.hpp"
@@ -277,6 +277,7 @@ inline ::System::Object* HMUI::PanelAnimation__AnimationCoroutine_d__1::System_C
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::PanelAnimation__AnimationCoroutine_d__1*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::HMUI::PanelAnimation__AnimationCoroutine_d__1* HMUI::PanelAnimation__AnimationCoroutine_d__1::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::PanelAnimation__AnimationCoroutine_d__1*>(__1__state));
 }

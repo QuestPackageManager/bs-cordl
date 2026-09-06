@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightRotationEventHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightRotationEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,13 +122,13 @@ protected:
   constexpr LightRotationEventHandler_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationEventHandler_InitData(LightRotationEventHandler_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationEventHandler_InitData(LightRotationEventHandler_InitData const&) = delete;
+  LightRotationEventHandler_InitData(LightRotationEventHandler_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5840 };
@@ -284,13 +284,13 @@ protected:
   constexpr LightRotationEventHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationEventHandler(LightRotationEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationEventHandler(LightRotationEventHandler const&) = delete;
+  LightRotationEventHandler(LightRotationEventHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5841 };
@@ -298,6 +298,7 @@ public:
   /// @brief Field _tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;
 
+  /// [TupleElementNames(new[] { "transform", "mask" })]
   /// @brief Field _transformMask, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* ____transformMask;
 

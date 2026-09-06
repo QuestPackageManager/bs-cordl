@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Linq\JTokenReader.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JTokenReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,9 @@ namespace Newtonsoft::Json {
 struct JsonToken;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -32,6 +34,8 @@ class JTokenReader;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Linq::JTokenReader*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Linq::JTokenReader*, "Newtonsoft.Json.Linq", "JTokenReader");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.JsonReader
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
@@ -39,6 +43,7 @@ namespace Newtonsoft::Json::Linq {
 class CORDL_TYPE JTokenReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
+  /// @brief [Nullable(2)]
   __declspec(property(get = get_CurrentToken)) ::Newtonsoft::Json::Linq::JToken* CurrentToken;
 
   __declspec(property(get = Newtonsoft_Json_IJsonLineInfo_get_LineNumber)) int32_t Newtonsoft_Json_IJsonLineInfo_LineNumber;
@@ -90,6 +95,7 @@ public:
   /// @brief Method ReadToEnd, addr 0x5d86808, size 0x18, virtual false, abstract: false, final false
   inline bool ReadToEnd();
 
+  /// [NullableContext(2)]
   /// @brief Method SafeToString, addr 0x5d869cc, size 0x20, virtual false, abstract: false, final false
   inline ::StringW SafeToString(::System::Object* value);
 
@@ -129,6 +135,7 @@ public:
   /// @brief Method .ctor, addr 0x5d85f74, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JToken* token, ::StringW initialPath);
 
+  /// [NullableContext(2)]
   /// @brief Method get_CurrentToken, addr 0x5d85efc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();
 
@@ -144,13 +151,13 @@ protected:
   constexpr JTokenReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JTokenReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JTokenReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JTokenReader(JTokenReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JTokenReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JTokenReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JTokenReader(JTokenReader const&) = delete;
+  JTokenReader(JTokenReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13615 };
@@ -158,12 +165,15 @@ public:
   /// @brief Field _root, offset: 0x78, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* ____root;
 
+  /// [Nullable(2)]
   /// @brief Field _initialPath, offset: 0x80, size: 0x8, def value: None
   ::StringW ____initialPath;
 
+  /// [Nullable(2)]
   /// @brief Field _parent, offset: 0x88, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* ____parent;
 
+  /// [Nullable(2)]
   /// @brief Field _current, offset: 0x90, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* ____current;
 

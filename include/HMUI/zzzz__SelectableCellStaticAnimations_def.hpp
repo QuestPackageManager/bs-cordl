@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\SelectableCellStaticAnimations.hpp"
+// IWYU pragma private; include "HMUI/SelectableCellStaticAnimations.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,29 +106,35 @@ protected:
   constexpr SelectableCellStaticAnimations();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectableCellStaticAnimations", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectableCellStaticAnimations", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectableCellStaticAnimations(SelectableCellStaticAnimations&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectableCellStaticAnimations", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectableCellStaticAnimations", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectableCellStaticAnimations(SelectableCellStaticAnimations const&) = delete;
+  SelectableCellStaticAnimations(SelectableCellStaticAnimationsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19113 };
 
+  /// [SerializeField]
   /// @brief Field _selectableCell, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SelectableCell> ____selectableCell;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _normalAnimationClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____normalAnimationClip;
 
+  /// [SerializeField]
   /// @brief Field _highlightedAnimationClip, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____highlightedAnimationClip;
 
+  /// [SerializeField]
   /// @brief Field _selectedAnimationClip, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____selectedAnimationClip;
 
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedAnimationClip, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____selectedAndHighlightedAnimationClip;
 

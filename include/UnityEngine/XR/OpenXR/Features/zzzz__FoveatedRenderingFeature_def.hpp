@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\FoveatedRenderingFeature.hpp"
+// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/FoveatedRenderingFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ protected:
   constexpr FoveatedRenderingFeature();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FoveatedRenderingFeature", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FoveatedRenderingFeature", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FoveatedRenderingFeature(FoveatedRenderingFeature&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FoveatedRenderingFeature", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FoveatedRenderingFeature", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FoveatedRenderingFeature(FoveatedRenderingFeature const&) = delete;
+  FoveatedRenderingFeature(FoveatedRenderingFeatureconst&) = delete;
 
   /// @brief Field Library offset 0xffffffff size 0x8
   static constexpr ::ConstString Library{ u"UnityOpenXR" };

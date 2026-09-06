@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalExtensions.hpp"
+// IWYU pragma private; include "Zenject/SignalExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class SignalExtensions;
 // Write type traits
 MARK_REF_T(::Zenject::SignalExtensions*);
 DEFINE_IL2CPP_CLASS(::Zenject::SignalExtensions*, "Zenject", "SignalExtensions");
+// [Extension]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -34,12 +35,14 @@ namespace Zenject {
 class CORDL_TYPE SignalExtensions : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method BindSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> static inline ::Zenject::BindSignalIdToBinder_1<TSignal>* BindSignal(::Zenject::DiContainer* container);
 
   /// @brief Method CreateDefaultSignalDeclarationBindInfo, addr 0x6e464e8, size 0x8c, virtual false, abstract: false, final false
   static inline ::Zenject::SignalDeclarationBindInfo* CreateDefaultSignalDeclarationBindInfo(::Zenject::DiContainer* container, ::System::Type* signalType);
 
+  /// [Extension]
   /// @brief Method DeclareSignal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSignal> static inline ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder* DeclareSignal(::Zenject::DiContainer* container);
 
@@ -49,13 +52,13 @@ protected:
   constexpr SignalExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalExtensions(SignalExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SignalExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SignalExtensions(SignalExtensions const&) = delete;
+  SignalExtensions(SignalExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14009 };

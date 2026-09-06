@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\OptionalAvatarData.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/OptionalAvatarData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,8 +37,8 @@ public:
   // @brief default ctor
   constexpr OptionalAvatarData();
 
-  // Ctor Parameters [CppParam { name: "dataType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "dataType", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }]
   constexpr OptionalAvatarData(uint32_t dataType, int32_t length, ::ArrayW<uint8_t> data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

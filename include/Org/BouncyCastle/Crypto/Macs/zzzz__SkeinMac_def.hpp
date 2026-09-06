@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Macs\SkeinMac.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/SkeinMac.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,13 +85,13 @@ protected:
   constexpr SkeinMac();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinMac", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinMac", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SkeinMac(SkeinMac&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SkeinMac", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SkeinMac", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SkeinMac(SkeinMac const&) = delete;
+  SkeinMac(SkeinMacconst&) = delete;
 
   /// @brief Field SKEIN_1024 offset 0xffffffff size 0x4
   static constexpr int32_t SKEIN_1024{ static_cast<int32_t>(0x400) };

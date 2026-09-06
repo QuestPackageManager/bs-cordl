@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\Utils\NetDataWriter.hpp"
+// IWYU pragma private; include "LiteNetLib/Utils/NetDataWriter.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
@@ -852,7 +853,9 @@ inline void LiteNetLib::Utils::NetDataWriter::Put(::StringW value, int32_t maxLe
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetDataWriter*>(), { "Put", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value, maxLength);
 }
-template <typename T> inline void LiteNetLib::Utils::NetDataWriter::Put(T obj) {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::LiteNetLib::Utils::INetSerializable*>)
+inline void LiteNetLib::Utils::NetDataWriter::Put(T obj) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetDataWriter*>(), { "Put", { ::i2c::class_of<T>() }, { ::i2c::type_of<T>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

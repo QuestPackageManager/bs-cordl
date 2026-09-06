@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\NativeRingQueueDisposeJob.hpp"
+// IWYU pragma private; include "Unity/Collections/NativeRingQueueDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ struct NativeRingQueueDisposeJob;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeRingQueueDisposeJob);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::NativeRingQueueDisposeJob, "Unity.Collections", "NativeRingQueueDisposeJob");
+// [BurstCompile]
 // Dependencies Unity.Collections.NativeRingQueueDispose
 namespace Unity::Collections {
 // Is value type: true
@@ -36,7 +37,7 @@ public:
   // @brief default ctor
   constexpr NativeRingQueueDisposeJob();
 
-  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeRingQueueDispose", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeRingQueueDispose", modifiers: "", def_value: None, comment: None }]
   constexpr NativeRingQueueDisposeJob(::Unity::Collections::NativeRingQueueDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

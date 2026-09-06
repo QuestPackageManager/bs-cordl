@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceReport.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceReport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   /// @brief Field Name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetValue(int32_t index);
 
   static inline ::GlobalNamespace::PerformanceReport_Metrics* New_ctor();
@@ -88,7 +88,7 @@ public:
   /// @brief Method .ctor, addr 0x58f7664, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
 protected:
@@ -97,13 +97,13 @@ protected:
   constexpr PerformanceReport_Metrics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_Metrics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_Metrics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceReport_Metrics(PerformanceReport_Metrics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_Metrics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_Metrics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceReport_Metrics(PerformanceReport_Metrics const&) = delete;
+  PerformanceReport_Metrics(PerformanceReport_Metricsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6614 };
@@ -153,13 +153,13 @@ protected:
   constexpr PerformanceReport_Metrics_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_Metrics_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_Metrics_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceReport_Metrics_1(PerformanceReport_Metrics_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_Metrics_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_Metrics_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceReport_Metrics_1(PerformanceReport_Metrics_1 const&) = delete;
+  PerformanceReport_Metrics_1(PerformanceReport_Metrics_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6615 };
@@ -192,13 +192,13 @@ protected:
   constexpr PerformanceReport_FloatMetrics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_FloatMetrics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_FloatMetrics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceReport_FloatMetrics(PerformanceReport_FloatMetrics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_FloatMetrics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_FloatMetrics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceReport_FloatMetrics(PerformanceReport_FloatMetrics const&) = delete;
+  PerformanceReport_FloatMetrics(PerformanceReport_FloatMetricsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6616 };
@@ -230,13 +230,13 @@ protected:
   constexpr PerformanceReport_LongMetrics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_LongMetrics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_LongMetrics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceReport_LongMetrics(PerformanceReport_LongMetrics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_LongMetrics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport_LongMetrics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceReport_LongMetrics(PerformanceReport_LongMetrics const&) = delete;
+  PerformanceReport_LongMetrics(PerformanceReport_LongMetricsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6617 };
@@ -247,6 +247,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::PerformanceReport_LongMetrics) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -277,13 +278,13 @@ protected:
   constexpr PerformanceReport___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport___c__DisplayClass7_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceReport___c__DisplayClass7_0(PerformanceReport___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport___c__DisplayClass7_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceReport___c__DisplayClass7_0(PerformanceReport___c__DisplayClass7_0 const&) = delete;
+  PerformanceReport___c__DisplayClass7_0(PerformanceReport___c__DisplayClass7_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6618 };
@@ -326,7 +327,7 @@ public:
   static inline ::StringW CreateTimestamp(::System::DateTime timestamp);
 
   /// @brief Method ListMetrics, addr 0x58f69f0, size 0x2f0, virtual false, abstract: false, final false
-  static inline ::StringW ListMetrics(bool includeHeader, ::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*> metrics);
+  static inline ::StringW ListMetrics(bool includeHeader, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*> metrics);
 
 protected:
   // Ctor Parameters []
@@ -334,13 +335,13 @@ protected:
   constexpr PerformanceReport();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceReport(PerformanceReport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceReport(PerformanceReport const&) = delete;
+  PerformanceReport(PerformanceReportconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6619 };

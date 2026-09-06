@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\CultureInfoConverter.hpp"
+// IWYU pragma private; include "System/ComponentModel/CultureInfoConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ protected:
   constexpr CultureInfoConverter_CultureComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CultureInfoConverter_CultureComparer(CultureInfoConverter_CultureComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CultureInfoConverter_CultureComparer(CultureInfoConverter_CultureComparer const&) = delete;
+  CultureInfoConverter_CultureComparer(CultureInfoConverter_CultureComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11249 };
@@ -136,13 +136,13 @@ protected:
   constexpr CultureInfoConverter_CultureInfoMapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureInfoMapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureInfoMapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CultureInfoConverter_CultureInfoMapper(CultureInfoConverter_CultureInfoMapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureInfoMapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureInfoMapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CultureInfoConverter_CultureInfoMapper(CultureInfoConverter_CultureInfoMapper const&) = delete;
+  CultureInfoConverter_CultureInfoMapper(CultureInfoConverter_CultureInfoMapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11250 };
@@ -214,13 +214,13 @@ protected:
   constexpr CultureInfoConverter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CultureInfoConverter(CultureInfoConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CultureInfoConverter(CultureInfoConverter const&) = delete;
+  CultureInfoConverter(CultureInfoConverterconst&) = delete;
 
   /// @brief Field DefaultInvariantCultureString offset 0xffffffff size 0x8
   static constexpr ::ConstString DefaultInvariantCultureString{ u"(Default)" };

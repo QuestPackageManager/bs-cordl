@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEventBuffer.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventBuffer.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -150,9 +150,9 @@ constexpr UnityEngine::InputSystem::LowLevel::InputEventBuffer_Enumerator::opera
 constexpr ::System::IDisposable* UnityEngine::InputSystem::LowLevel::InputEventBuffer_Enumerator::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EventCount", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_EventCount", ty:
+// "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurrentEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_CurrentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer_Enumerator::InputEventBuffer_Enumerator(::UnityEngine::InputSystem::LowLevel::InputEvent* m_Buffer, int32_t m_EventCount,
                                                                                                          ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentEvent,
                                                                                                          int32_t m_CurrentIndex) noexcept {
@@ -533,9 +533,9 @@ constexpr UnityEngine::InputSystem::LowLevel::InputEventBuffer::operator ::Syste
 constexpr ::System::ICloneable* UnityEngine::InputSystem::LowLevel::InputEventBuffer::i___System__ICloneable() {
   return static_cast<::System::ICloneable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SizeInBytes", ty: "int64_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "m_EventCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_WeOwnTheBuffer", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::Unity::Collections::NativeArray_1<uint8_t>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_SizeInBytes", ty:
+// "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_EventCount", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_WeOwnTheBuffer", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventBuffer::InputEventBuffer(::Unity::Collections::NativeArray_1<uint8_t> m_Buffer, int64_t m_SizeInBytes, int32_t m_EventCount,
                                                                                    bool m_WeOwnTheBuffer) noexcept {
   this->m_Buffer = m_Buffer;

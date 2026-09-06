@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Text\RegularExpressions\Regex.hpp"
+// IWYU pragma private; include "System/Text/RegularExpressions/Regex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,9 @@ namespace System {
 struct TimeSpan;
 }
 namespace System {
-template <typename T> class WeakReference_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class WeakReference_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -82,6 +84,7 @@ MARK_VAL_T(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey);
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::Regex*, "System.Text.RegularExpressions", "Regex");
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::Regex_CachedCodeEntry*, "System.Text.RegularExpressions", "Regex/CachedCodeEntry");
 DEFINE_IL2CPP_CLASS(::System::Text::RegularExpressions::Regex_CachedCodeEntryKey, "System.Text.RegularExpressions", "Regex/CachedCodeEntryKey");
+// [IsReadOnly]
 // Dependencies System.Text.RegularExpressions.RegexOptions
 namespace System::Text::RegularExpressions {
 // Is value type: true
@@ -114,8 +117,8 @@ public:
   // @brief default ctor
   constexpr Regex_CachedCodeEntryKey();
 
-  // Ctor Parameters [CppParam { name: "_options", ty: "::System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "_cultureKey", ty: "::StringW", modifiers:
-  // "", def_value: None }, CppParam { name: "_pattern", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_options", ty: "::System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cultureKey", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "_pattern", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr Regex_CachedCodeEntryKey(::System::Text::RegularExpressions::RegexOptions _options, ::StringW _cultureKey, ::StringW _pattern) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -259,13 +262,13 @@ protected:
   constexpr Regex_CachedCodeEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Regex_CachedCodeEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Regex_CachedCodeEntry", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Regex_CachedCodeEntry(Regex_CachedCodeEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Regex_CachedCodeEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Regex_CachedCodeEntry", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Regex_CachedCodeEntry(Regex_CachedCodeEntry const&) = delete;
+  Regex_CachedCodeEntry(Regex_CachedCodeEntryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11106 };
@@ -645,13 +648,13 @@ protected:
   constexpr Regex();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Regex", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Regex", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Regex(Regex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Regex", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Regex", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Regex(Regex const&) = delete;
+  Regex(Regexconst&) = delete;
 
   /// @brief Field CacheDictionarySwitchLimit offset 0xffffffff size 0x4
   static constexpr int32_t CacheDictionarySwitchLimit{ static_cast<int32_t>(0xa) };

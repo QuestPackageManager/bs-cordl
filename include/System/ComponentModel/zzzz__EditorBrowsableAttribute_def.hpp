@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\EditorBrowsableAttribute.hpp"
+// IWYU pragma private; include "System/ComponentModel/EditorBrowsableAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,7 @@ class EditorBrowsableAttribute;
 // Write type traits
 MARK_REF_T(::System::ComponentModel::EditorBrowsableAttribute*);
 DEFINE_IL2CPP_CLASS(::System::ComponentModel::EditorBrowsableAttribute*, "System.ComponentModel", "EditorBrowsableAttribute");
+// [AttributeUsage((System.AttributeTargets)6140)]
 // Dependencies System.Attribute, System.ComponentModel.EditorBrowsableState
 namespace System::ComponentModel {
 // Is value type: false
@@ -53,13 +54,13 @@ protected:
   constexpr EditorBrowsableAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EditorBrowsableAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditorBrowsableAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditorBrowsableAttribute(EditorBrowsableAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EditorBrowsableAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EditorBrowsableAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EditorBrowsableAttribute(EditorBrowsableAttribute const&) = delete;
+  EditorBrowsableAttribute(EditorBrowsableAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11217 };

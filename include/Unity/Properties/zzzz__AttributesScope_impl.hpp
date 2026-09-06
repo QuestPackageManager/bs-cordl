@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\AttributesScope.hpp"
+// IWYU pragma private; include "Unity/Properties/AttributesScope.hpp"
 #include "Unity/Properties/zzzz__AttributesScope_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
@@ -74,8 +74,8 @@ constexpr Unity::Properties::AttributesScope::operator ::System::IDisposable*() 
 constexpr ::System::IDisposable* Unity::Properties::AttributesScope::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Target", ty: "::Unity::Properties::Internal::IAttributes*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Previous", ty:
-// "::System::Collections::Generic::List_1<::System::Attribute*>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Target", ty: "::Unity::Properties::Internal::IAttributes*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Previous", ty:
+// "::System::Collections::Generic::List_1<::System::Attribute*>*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Properties::AttributesScope::AttributesScope(::Unity::Properties::Internal::IAttributes* m_Target,
                                                                 ::System::Collections::Generic::List_1<::System::Attribute*>* m_Previous) noexcept {
   this->m_Target = m_Target;

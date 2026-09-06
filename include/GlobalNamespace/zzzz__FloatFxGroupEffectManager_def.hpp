@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FloatFxGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/FloatFxGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ MARK_REF_T(::GlobalNamespace::FloatFxGroupEffectManager*);
 MARK_REF_T(::GlobalNamespace::FloatFxGroupEffectManager___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FloatFxGroupEffectManager*, "", "FloatFxGroupEffectManager");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FloatFxGroupEffectManager___c*, "", "FloatFxGroupEffectManager/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -73,13 +74,13 @@ protected:
   constexpr FloatFxGroupEffectManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxGroupEffectManager___c(FloatFxGroupEffectManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxGroupEffectManager___c(FloatFxGroupEffectManager___c const&) = delete;
+  FloatFxGroupEffectManager___c(FloatFxGroupEffectManager___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5857 };
@@ -144,20 +145,22 @@ protected:
   constexpr FloatFxGroupEffectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxGroupEffectManager(FloatFxGroupEffectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FloatFxGroupEffectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxGroupEffectManager(FloatFxGroupEffectManager const&) = delete;
+  FloatFxGroupEffectManager(FloatFxGroupEffectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5858 };
 
+  /// [Inject]
   /// @brief Field _floatFxGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>> ____floatFxGroups;
 
+  /// [Inject]
   /// @brief Field _container, offset: 0x28, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConnectionErrorDialogViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConnectionErrorDialogViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,6 +29,7 @@ MARK_REF_T(::GlobalNamespace::ConnectionErrorDialogViewController*);
 MARK_REF_T(::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConnectionErrorDialogViewController*, "", "ConnectionErrorDialogViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0*, "", "ConnectionErrorDialogViewController/<>c__DisplayClass2_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -59,13 +60,13 @@ protected:
   constexpr ConnectionErrorDialogViewController___c__DisplayClass2_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController___c__DisplayClass2_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController___c__DisplayClass2_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectionErrorDialogViewController___c__DisplayClass2_0(ConnectionErrorDialogViewController___c__DisplayClass2_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController___c__DisplayClass2_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController___c__DisplayClass2_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectionErrorDialogViewController___c__DisplayClass2_0(ConnectionErrorDialogViewController___c__DisplayClass2_0 const&) = delete;
+  ConnectionErrorDialogViewController___c__DisplayClass2_0(ConnectionErrorDialogViewController___c__DisplayClass2_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6420 };
@@ -104,13 +105,13 @@ protected:
   constexpr ConnectionErrorDialogViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectionErrorDialogViewController(ConnectionErrorDialogViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConnectionErrorDialogViewController(ConnectionErrorDialogViewController const&) = delete;
+  ConnectionErrorDialogViewController(ConnectionErrorDialogViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6421 };

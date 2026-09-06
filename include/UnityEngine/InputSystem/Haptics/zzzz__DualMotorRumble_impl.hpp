@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Haptics\DualMotorRumble.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Haptics/DualMotorRumble.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__DualMotorRumble_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Haptics::DualMotorRumble.get_lowFrequencyMotorSpeed
@@ -172,8 +172,8 @@ inline void UnityEngine::InputSystem::Haptics::DualMotorRumble::SetMotorSpeeds(:
                                               { "SetMotorSpeeds", {}, { ::i2c::type_of<::UnityEngine::InputSystem::InputDevice*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, device, lowFrequency, highFrequency);
 }
-// Ctor Parameters [CppParam { name: "_lowFrequencyMotorSpeed_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_highFrequencyMotorSpeed_k__BackingField", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_lowFrequencyMotorSpeed_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_highFrequencyMotorSpeed_k__BackingField", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::Haptics::DualMotorRumble::DualMotorRumble(float_t _lowFrequencyMotorSpeed_k__BackingField, float_t _highFrequencyMotorSpeed_k__BackingField) noexcept {
   this->_lowFrequencyMotorSpeed_k__BackingField = _lowFrequencyMotorSpeed_k__BackingField;
   this->_highFrequencyMotorSpeed_k__BackingField = _highFrequencyMotorSpeed_k__BackingField;

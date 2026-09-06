@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerEnvironmentResizeController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerEnvironmentResizeController.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -11,7 +11,7 @@
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType::MultiplayerEnvironmentResizeController_ResizeType(int32_t value__) noexcept {
   this->value__ = value__;
 }

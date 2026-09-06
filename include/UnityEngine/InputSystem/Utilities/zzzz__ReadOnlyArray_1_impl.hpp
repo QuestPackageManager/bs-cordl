@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\ReadOnlyArray_1.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ReadOnlyArray_1.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -67,8 +67,9 @@ template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::ReadOn
 template <typename TValue> constexpr ::System::IDisposable* UnityEngine::InputSystem::Utilities::ReadOnlyArray_1_Enumerator<TValue>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<TValue>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IndexStart", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_IndexEnd", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<TValue>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IndexStart", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_IndexEnd", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 template <typename TValue>
 constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1_Enumerator<TValue>::ReadOnlyArray_1_Enumerator(::ArrayW<TValue> m_Array, int32_t m_IndexStart, int32_t m_IndexEnd,
                                                                                                                 int32_t m_Index) noexcept {
@@ -169,8 +170,8 @@ constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TValue>*
 UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue>::i___System__Collections__Generic__IReadOnlyCollection_1_TValue_() {
   return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<TValue>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<TValue>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<TValue>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StartIndex", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename TValue> constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue>::ReadOnlyArray_1(::ArrayW<TValue> m_Array, int32_t m_StartIndex, int32_t m_Length) noexcept {
   this->m_Array = m_Array;
   this->m_StartIndex = m_StartIndex;

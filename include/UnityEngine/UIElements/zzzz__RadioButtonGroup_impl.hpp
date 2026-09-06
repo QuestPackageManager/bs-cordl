@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\RadioButtonGroup.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/RadioButtonGroup.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_impl.hpp"
@@ -343,6 +343,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::RadioButtonG
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__9*>(), { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__9* UnityEngine::UIElements::RadioButtonGroup__get_choices_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__9*>(__1__state));
 }

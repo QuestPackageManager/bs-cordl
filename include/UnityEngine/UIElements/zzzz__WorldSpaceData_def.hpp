@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\WorldSpaceData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/WorldSpaceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   // @brief default ctor
   constexpr WorldSpaceData();
 
-  // Ctor Parameters [CppParam { name: "localBounds3D", ty: "::UnityEngine::Bounds", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "localBounds3D", ty: "::UnityEngine::Bounds", modifiers: "", def_value: None, comment: None }]
   constexpr WorldSpaceData(::UnityEngine::Bounds localBounds3D) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

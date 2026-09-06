@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\XDeclarationWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XDeclarationWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,8 @@ class XDeclarationWrapper;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Converters::XDeclarationWrapper*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Converters::XDeclarationWrapper*, "Newtonsoft.Json.Converters", "XDeclarationWrapper");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies Newtonsoft.Json.Converters.XObjectWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
@@ -32,6 +34,7 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE XDeclarationWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
   // Declarations
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_Declaration)) ::System::Xml::Linq::XDeclaration* Declaration;
 
   __declspec(property(get = get_Encoding, put = set_Encoding)) ::StringW Encoding;
@@ -52,6 +55,7 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Converters::XDeclarationWrapper* New_ctor(::System::Xml::Linq::XDeclaration* declaration);
 
   constexpr ::System::Xml::Linq::XDeclaration* const& __cordl_internal_get__Declaration_k__BackingField() const;
@@ -60,9 +64,12 @@ public:
 
   constexpr void __cordl_internal_set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5da02d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* declaration);
 
+  /// [NullableContext(1)]
+  /// [CompilerGenerated]
   /// @brief Method get_Declaration, addr 0x5da02d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDeclaration* get_Declaration();
 
@@ -96,17 +103,19 @@ protected:
   constexpr XDeclarationWrapper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XDeclarationWrapper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XDeclarationWrapper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XDeclarationWrapper(XDeclarationWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XDeclarationWrapper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XDeclarationWrapper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XDeclarationWrapper(XDeclarationWrapper const&) = delete;
+  XDeclarationWrapper(XDeclarationWrapperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13679 };
 
+  /// [Nullable(1)]
+  /// [CompilerGenerated]
   /// @brief Field <Declaration>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Linq::XDeclaration* ____Declaration_k__BackingField;
 

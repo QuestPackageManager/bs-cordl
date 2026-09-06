@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\Audio\AudioSampleProvider.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/Audio/AudioSampleProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ protected:
   constexpr AudioSampleProvider_SampleFramesHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider_SampleFramesHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider_SampleFramesHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioSampleProvider_SampleFramesHandler(AudioSampleProvider_SampleFramesHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider_SampleFramesHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider_SampleFramesHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioSampleProvider_SampleFramesHandler(AudioSampleProvider_SampleFramesHandler const&) = delete;
+  AudioSampleProvider_SampleFramesHandler(AudioSampleProvider_SampleFramesHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21076 };
@@ -66,6 +66,8 @@ public:
 static_assert(sizeof(::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler) == 0x80, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::Audio
+// [NativeType(Header = "Modules/Audio/Public/ScriptBindings/AudioSampleProvider.bindings.h")]
+// [StaticAccessor("AudioSampleProviderBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
 // Dependencies System.Object
 namespace UnityEngine::Experimental::Audio {
 // Is value type: false
@@ -83,9 +85,11 @@ public:
   __declspec(property(get = __cordl_internal_get_sampleFramesOverflow,
                       put = __cordl_internal_set_sampleFramesOverflow)) ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler* sampleFramesOverflow;
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeSampleFramesAvailable, addr 0x6a55720, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSampleFramesAvailable(int32_t sampleFrameCount);
 
+  /// [RequiredByNativeCode]
   /// @brief Method InvokeSampleFramesOverflow, addr 0x6a55748, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSampleFramesOverflow(int32_t droppedSampleFrameCount);
 
@@ -107,20 +111,24 @@ protected:
   constexpr AudioSampleProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioSampleProvider(AudioSampleProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioSampleProvider(AudioSampleProvider const&) = delete;
+  AudioSampleProvider(AudioSampleProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21077 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field sampleFramesAvailable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler* ___sampleFramesAvailable;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field sampleFramesOverflow, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler* ___sampleFramesOverflow;
 

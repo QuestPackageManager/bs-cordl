@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StretchableObstacle.hpp"
+// IWYU pragma private; include "GlobalNamespace/StretchableObstacle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,6 +36,7 @@ class StretchableObstacle;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StretchableObstacle*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StretchableObstacle*, "", "StretchableObstacle");
+// [AddComponentMenu("Beat Saber/Gameplay/StretchableObstacle")]
 // Dependencies MaterialPropertyBlockController, UnityEngine.Bounds, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -211,44 +212,58 @@ protected:
   constexpr StretchableObstacle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StretchableObstacle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StretchableObstacle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StretchableObstacle(StretchableObstacle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StretchableObstacle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StretchableObstacle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StretchableObstacle(StretchableObstacle const&) = delete;
+  StretchableObstacle(StretchableObstacleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5710 };
 
+  /// [SerializeField]
   /// @brief Field _edgeSize, offset: 0x20, size: 0x4, def value: None
   float_t ____edgeSize;
 
+  /// [SerializeField]
   /// @brief Field _coreOffset, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____coreOffset;
 
+  /// [SerializeField]
   /// @brief Field _addColorMultiplier, offset: 0x30, size: 0x4, def value: None
   float_t ____addColorMultiplier;
 
+  /// [SerializeField]
   /// @brief Field _obstacleCoreLerpToWhiteFactor, offset: 0x34, size: 0x4, def value: None
   float_t ____obstacleCoreLerpToWhiteFactor;
 
+  /// [SerializeField]
   /// @brief Field _fakeGlowOffset, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____fakeGlowOffset;
 
+  /// [Space]
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _obstacleCore, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____obstacleCore;
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockControllers, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> ____materialPropertyBlockControllers;
 
+  /// [SerializeField]
   /// @brief Field _obstacleFrame, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ParametricBoxFrameController> ____obstacleFrame;
 
+  /// [SerializeField]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _obstacleFakeGlow, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ParametricBoxFakeGlowController> ____obstacleFakeGlow;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _manualUVOffsetMultiplier, offset: 0x68, size: 0x4, def value: None
   float_t ____manualUVOffsetMultiplier;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\FakeMirrorObjectsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace/FakeMirrorObjectsInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::GlobalNamespace::FakeMirrorObjectsInstaller*);
 MARK_REF_T(::GlobalNamespace::FakeMirrorObjectsInstaller___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FakeMirrorObjectsInstaller*, "", "FakeMirrorObjectsInstaller");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FakeMirrorObjectsInstaller___c*, "", "FakeMirrorObjectsInstaller/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -80,13 +81,13 @@ protected:
   constexpr FakeMirrorObjectsInstaller___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FakeMirrorObjectsInstaller___c(FakeMirrorObjectsInstaller___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FakeMirrorObjectsInstaller___c(FakeMirrorObjectsInstaller___c const&) = delete;
+  FakeMirrorObjectsInstaller___c(FakeMirrorObjectsInstaller___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6303 };
@@ -210,38 +211,48 @@ protected:
   constexpr FakeMirrorObjectsInstaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FakeMirrorObjectsInstaller(FakeMirrorObjectsInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FakeMirrorObjectsInstaller(FakeMirrorObjectsInstaller const&) = delete;
+  FakeMirrorObjectsInstaller(FakeMirrorObjectsInstallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6304 };
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _mirroredGameNoteControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredGameNoteControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _mirroredBurstSliderHeadGameNoteControllerPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredBurstSliderHeadGameNoteControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _mirroredBurstSliderGameNoteControllerPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredBurstSliderGameNoteControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _mirroredBombNoteControllerPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredBombNoteController> ____mirroredBombNoteControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _mirroredObstacleControllerPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredObstacleController> ____mirroredObstacleControllerPrefab;
 
+  /// [SerializeField]
   /// @brief Field _mirroredSliderControllerPrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredSliderController> ____mirroredSliderControllerPrefab;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> ____mirrorRendererGraphicsSettingsPresets;
 
+  /// [Inject]
   /// @brief Field _settingsManager, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\MacOsNetworkInterfaceAPI.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/MacOsNetworkInterfaceAPI.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterfaceAPI_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsNetworkInterfaceAPI_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"

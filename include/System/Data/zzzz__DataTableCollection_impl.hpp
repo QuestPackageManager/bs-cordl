@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataTableCollection.hpp"
+// IWYU pragma private; include "System/Data/DataTableCollection.hpp"
 #include "System/Data/zzzz__DataTable_impl.hpp"
 #include "System/Data/zzzz__InternalDataCollectionBase_impl.hpp"
 #include "System/Data/zzzz__DataTableCollection_def.hpp"

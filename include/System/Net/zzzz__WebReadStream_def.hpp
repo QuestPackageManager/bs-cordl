@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\WebReadStream.hpp"
+// IWYU pragma private; include "System/Net/WebReadStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,6 +60,7 @@ MARK_REF_T(::System::Net::WebReadStream*);
 MARK_VAL_T(::System::Net::WebReadStream__ReadAsync_d__28);
 DEFINE_IL2CPP_CLASS(::System::Net::WebReadStream*, "System.Net", "WebReadStream");
 DEFINE_IL2CPP_CLASS(::System::Net::WebReadStream__ReadAsync_d__28, "System.Net", "WebReadStream/<ReadAsync>d__28");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace System::Net {
@@ -74,6 +75,7 @@ public:
   /// @brief Method MoveNext, addr 0x6349ce4, size 0x5f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x634a2dc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -84,12 +86,13 @@ public:
   // @brief default ctor
   constexpr WebReadStream__ReadAsync_d__28();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebReadStream*", modifiers: "",
-  // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>",
-  // modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::System::Net::WebReadStream*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "size", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr WebReadStream__ReadAsync_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, ::System::Net::WebReadStream* __4__this,
                                            ::System::Threading::CancellationToken cancellationToken, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size,
                                            ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
@@ -204,12 +207,13 @@ public:
 
   static inline ::System::Net::WebReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream);
 
-  /// @brief Method ProcessReadAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Read, addr 0x6349510, size 0x280, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
+  /// [AsyncStateMachine(typeof(System.Net.WebReadStream::<ReadAsync>d__28))]
   /// @brief Method ReadAsync, addr 0x6349a84, size 0x10c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
@@ -252,12 +256,14 @@ public:
   /// @brief Method get_CanWrite, addr 0x63492b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
+  /// [CompilerGenerated]
   /// @brief Method get_InnerStream, addr 0x6349188, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InnerStream();
 
   /// @brief Method get_Length, addr 0x63491f8, size 0x38, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Operation, addr 0x6349180, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebOperation* get_Operation();
 
@@ -273,20 +279,22 @@ protected:
   constexpr WebReadStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebReadStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebReadStream", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebReadStream(WebReadStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebReadStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WebReadStream", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  WebReadStream(WebReadStream const&) = delete;
+  WebReadStream(WebReadStreamconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11653 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Operation>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Net::WebOperation* ____Operation_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <InnerStream>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::IO::Stream* ____InnerStream_k__BackingField;
 

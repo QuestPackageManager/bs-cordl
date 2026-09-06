@@ -1,10 +1,13 @@
 #pragma once
-// IWYU pragma private; include "Zenject\FactoryFromBinder5Extensions.hpp"
+// IWYU pragma private; include "Zenject/FactoryFromBinder5Extensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "Zenject/zzzz__IPoolable_6_def.hpp"
+#include "Zenject/zzzz__MemoryPool_7_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder5Extensions)
 namespace System {
@@ -23,25 +26,39 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder5Extensions___c__1_6;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
+class FactoryFromBinder5Extensions___c__1_6;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder5Extensions___c__3_6;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
+class FactoryFromBinder5Extensions___c__3_6;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool> class FactoryFromBinder5Extensions___c__5_7;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
+class FactoryFromBinder5Extensions___c__5_7;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder5Extensions___c__DisplayClass0_0_6;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool> class FactoryFromBinder5Extensions___c__DisplayClass6_0_7;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
+class FactoryFromBinder5Extensions___c__DisplayClass6_0_7;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder_6;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IFactory_6;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 namespace Zenject {
 class IProvider;
@@ -57,19 +74,30 @@ namespace Zenject {
 class FactoryFromBinder5Extensions;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder5Extensions___c__1_6;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
+class FactoryFromBinder5Extensions___c__1_6;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder5Extensions___c__3_6;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
+class FactoryFromBinder5Extensions___c__3_6;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool> class FactoryFromBinder5Extensions___c__5_7;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
+class FactoryFromBinder5Extensions___c__5_7;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryFromBinder5Extensions___c__DisplayClass0_0_6;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool> class FactoryFromBinder5Extensions___c__DisplayClass6_0_7;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
+class FactoryFromBinder5Extensions___c__DisplayClass6_0_7;
 }
 // Write type traits
 MARK_REF_T(::Zenject::FactoryFromBinder5Extensions*);
@@ -84,10 +112,12 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder5Extensions___c__3_6, "Z
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder5Extensions___c__5_7, "Zenject", "FactoryFromBinder5Extensions/<>c__5`7");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder5Extensions___c__DisplayClass0_0_6, "Zenject", "FactoryFromBinder5Extensions/<>c__DisplayClass0_0`6");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Zenject::FactoryFromBinder5Extensions___c__DisplayClass6_0_7, "Zenject", "FactoryFromBinder5Extensions/<>c__DisplayClass6_0`7");
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, Zenject.IPoolable`6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder5Extensions/<>c__1`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>
 class CORDL_TYPE FactoryFromBinder5Extensions___c__1_6 : public ::System::Object {
@@ -107,6 +137,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -127,13 +158,13 @@ protected:
   constexpr FactoryFromBinder5Extensions___c__1_6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__1_6", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__1_6", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder5Extensions___c__1_6(FactoryFromBinder5Extensions___c__1_6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__1_6", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__1_6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder5Extensions___c__1_6(FactoryFromBinder5Extensions___c__1_6 const&) = delete;
+  FactoryFromBinder5Extensions___c__1_6(FactoryFromBinder5Extensions___c__1_6const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14119 };
@@ -142,10 +173,13 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, UnityEngine.Component, Zenject.IPoolable`6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+  requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
+           ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder5Extensions/<>c__3`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>
 class CORDL_TYPE FactoryFromBinder5Extensions___c__3_6 : public ::System::Object {
@@ -165,6 +199,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -185,13 +220,13 @@ protected:
   constexpr FactoryFromBinder5Extensions___c__3_6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__3_6", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__3_6", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder5Extensions___c__3_6(FactoryFromBinder5Extensions___c__3_6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__3_6", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__3_6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder5Extensions___c__3_6(FactoryFromBinder5Extensions___c__3_6 const&) = delete;
+  FactoryFromBinder5Extensions___c__3_6(FactoryFromBinder5Extensions___c__3_6const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14120 };
@@ -200,10 +235,13 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies System.Object
+// [CompilerGenerated]
+// Dependencies System.Object, Zenject.IPoolable`6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>, Zenject.MemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder5Extensions/<>c__5`7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool>
 class CORDL_TYPE FactoryFromBinder5Extensions___c__5_7 : public ::System::Object {
@@ -223,6 +261,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -243,13 +282,13 @@ protected:
   constexpr FactoryFromBinder5Extensions___c__5_7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__5_7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__5_7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder5Extensions___c__5_7(FactoryFromBinder5Extensions___c__5_7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__5_7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__5_7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder5Extensions___c__5_7(FactoryFromBinder5Extensions___c__5_7 const&) = delete;
+  FactoryFromBinder5Extensions___c__5_7(FactoryFromBinder5Extensions___c__5_7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14121 };
@@ -258,6 +297,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
+// [CompilerGenerated]
 // Dependencies System.Guid, System.Object
 namespace Zenject {
 // cpp template
@@ -284,6 +324,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -296,13 +337,13 @@ protected:
   constexpr FactoryFromBinder5Extensions___c__DisplayClass0_0_6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__DisplayClass0_0_6", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__DisplayClass0_0_6", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder5Extensions___c__DisplayClass0_0_6(FactoryFromBinder5Extensions___c__DisplayClass0_0_6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__DisplayClass0_0_6", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__DisplayClass0_0_6", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder5Extensions___c__DisplayClass0_0_6(FactoryFromBinder5Extensions___c__DisplayClass0_0_6 const&) = delete;
+  FactoryFromBinder5Extensions___c__DisplayClass0_0_6(FactoryFromBinder5Extensions___c__DisplayClass0_0_6const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14122 };
@@ -314,10 +355,14 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies System.Guid, System.Object
+// [CompilerGenerated]
+// Dependencies System.Guid, System.Object, Zenject.IPoolable`6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>, Zenject.MemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6,
+// TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+  requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+           ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder5Extensions/<>c__DisplayClass6_0`7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool>
 class CORDL_TYPE FactoryFromBinder5Extensions___c__DisplayClass6_0_7 : public ::System::Object {
@@ -340,6 +385,7 @@ public:
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
+  /// [Preserve]
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
@@ -352,13 +398,13 @@ protected:
   constexpr FactoryFromBinder5Extensions___c__DisplayClass6_0_7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__DisplayClass6_0_7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__DisplayClass6_0_7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder5Extensions___c__DisplayClass6_0_7(FactoryFromBinder5Extensions___c__DisplayClass6_0_7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__DisplayClass6_0_7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions___c__DisplayClass6_0_7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder5Extensions___c__DisplayClass6_0_7(FactoryFromBinder5Extensions___c__DisplayClass6_0_7 const&) = delete;
+  FactoryFromBinder5Extensions___c__DisplayClass6_0_7(FactoryFromBinder5Extensions___c__DisplayClass6_0_7const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14123 };
@@ -370,7 +416,9 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies System.Object
+// [Extension]
+// Dependencies System.Object, UnityEngine.Component, Zenject.IPoolable`6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>, Zenject.MemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5,
+// TParam6, TValue>
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinder5Extensions
@@ -378,50 +426,74 @@ class CORDL_TYPE FactoryFromBinder5Extensions : public ::System::Object {
 public:
   // Declarations
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
   using __c__1_6 = ::Zenject::FactoryFromBinder5Extensions___c__1_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>;
 
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+    requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
+             ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
   using __c__3_6 = ::Zenject::FactoryFromBinder5Extensions___c__3_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>;
 
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+             ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
   using __c__5_7 = ::Zenject::FactoryFromBinder5Extensions___c__5_7<TParam1, TParam2, TParam3, TParam4, TParam5, TContract, TMemoryPool>;
 
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
   using __c__DisplayClass0_0_6 = ::Zenject::FactoryFromBinder5Extensions___c__DisplayClass0_0_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>;
 
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+             ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
   using __c__DisplayClass6_0_7 = ::Zenject::FactoryFromBinder5Extensions___c__DisplayClass6_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TContract, TMemoryPool>;
 
+  /// [Extension]
   /// @brief Method FromIFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
   static inline ::Zenject::ArgConditionCopyNonLazyBinder*
   FromIFactory(::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* fromBinder,
                ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>*>*>* factoryBindGenerator);
 
+  /// [Extension]
   /// @brief Method FromMonoPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+    requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
+             ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* fromBinder);
 
+  /// [Extension]
   /// @brief Method FromMonoPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+    requires(::cordl_internals::type_constraint<TContract, ::UnityEngine::Component*> &&
+             ::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* fromBinder,
                                                                                      ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator);
 
+  /// [Extension]
   /// @brief Method FromPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* fromBinder);
 
+  /// [Extension]
   /// @brief Method FromPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+             ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* fromBinder);
 
+  /// [Extension]
   /// @brief Method FromPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
+    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*>)
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* fromBinder,
                                                                                  ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator);
 
+  /// [Extension]
   /// @brief Method FromPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
+    requires(::cordl_internals::type_constraint<TContract, ::Zenject::IPoolable_6<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*>*> &&
+             ::cordl_internals::type_constraint<TMemoryPool, ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, ::Zenject::IMemoryPool*, TContract>*>)
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* fromBinder,
                                                                                  ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator);
 
@@ -431,13 +503,13 @@ protected:
   constexpr FactoryFromBinder5Extensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder5Extensions(FactoryFromBinder5Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder5Extensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FactoryFromBinder5Extensions(FactoryFromBinder5Extensions const&) = delete;
+  FactoryFromBinder5Extensions(FactoryFromBinder5Extensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14124 };

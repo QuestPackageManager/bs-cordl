@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BasicBeatmapObjectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/BasicBeatmapObjectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -149,13 +149,13 @@ protected:
   constexpr BasicBeatmapObjectManager_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager_InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager_InitData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicBeatmapObjectManager_InitData(BasicBeatmapObjectManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager_InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager_InitData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicBeatmapObjectManager_InitData(BasicBeatmapObjectManager_InitData const&) = delete;
+  BasicBeatmapObjectManager_InitData(BasicBeatmapObjectManager_InitDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5611 };
@@ -252,22 +252,25 @@ public:
   /// @brief Method DespawnInternal, addr 0x58c19d8, size 0xb0, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
+  /// [Inject]
   /// @brief Method Init, addr 0x58c0be8, size 0x5a4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BasicBeatmapObjectManager_InitData* initData, ::GlobalNamespace::IRandom* random, ::GlobalNamespace::DeterminismConfig* determinismConfig,
-                   ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider, ::GlobalNamespace::GameNoteController_Pool* basicGameNotePool,
-                   ::GlobalNamespace::GameNoteController_Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::BurstSliderGameNoteController_Pool* burstSliderGameNotePool,
+                   ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
+                   /* [Inject(Id = (NoteData::GameplayType)0)] */ ::GlobalNamespace::GameNoteController_Pool* basicGameNotePool,
+                   /* [Inject(Id = (NoteData::GameplayType)2)] */ ::GlobalNamespace::GameNoteController_Pool* burstSliderHeadGameNotePool,
+                   /* [Inject(Id = (NoteData::GameplayType)3)] */ ::GlobalNamespace::BurstSliderGameNoteController_Pool* burstSliderGameNotePool,
                    ::GlobalNamespace::BombNoteController_Pool* bombNotePool, ::GlobalNamespace::ObstacleController_Pool* obstaclePool, ::GlobalNamespace::SliderController_Pool* sliderPools);
 
   static inline ::GlobalNamespace::BasicBeatmapObjectManager* New_ctor();
 
   /// @brief Method ProcessNoteData, addr 0x58c12a0, size 0x2f4, virtual true, abstract: false, final false
-  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
+  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
 
   /// @brief Method ProcessObstacleData, addr 0x58c118c, size 0xb0, virtual true, abstract: false, final false
-  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
+  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
   /// @brief Method ProcessSliderData, addr 0x58c179c, size 0x23c, virtual true, abstract: false, final false
-  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
+  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
 
   /// @brief Method __InvalidateBombNotePool, addr 0x58c1b60, size 0xa0, virtual false, abstract: false, final false
   inline void __InvalidateBombNotePool();
@@ -363,13 +366,13 @@ protected:
   constexpr BasicBeatmapObjectManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicBeatmapObjectManager(BasicBeatmapObjectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapObjectManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasicBeatmapObjectManager(BasicBeatmapObjectManager const&) = delete;
+  BasicBeatmapObjectManager(BasicBeatmapObjectManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5612 };

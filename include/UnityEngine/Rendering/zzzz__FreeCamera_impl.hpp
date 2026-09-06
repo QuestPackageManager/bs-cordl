@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\FreeCamera.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/FreeCamera.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FreeCamera_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UI\GraphicRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine/UI/GraphicRaycaster.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
@@ -15,7 +15,7 @@
 #include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::UI::GraphicRaycaster_BlockingObjects::GraphicRaycaster_BlockingObjects(int32_t value__) noexcept {
   this->value__ = value__;
 }

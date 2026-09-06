@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RenderTextureCreationFlags.hpp"
+// IWYU pragma private; include "UnityEngine/RenderTextureCreationFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct RenderTextureCreationFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RenderTextureCreationFlags);
 DEFINE_IL2CPP_CLASS(::UnityEngine::RenderTextureCreationFlags, "UnityEngine", "RenderTextureCreationFlags");
+// [Flags]
 // Dependencies
 namespace UnityEngine {
 // Is value type: true
@@ -51,7 +52,7 @@ public:
   // @brief default ctor
   constexpr RenderTextureCreationFlags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderTextureCreationFlags(int32_t value__) noexcept;
 
   /// @brief Field AllowVerticalFlip value: I32(128)

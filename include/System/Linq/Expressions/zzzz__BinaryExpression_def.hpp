@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\BinaryExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/BinaryExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ class BinaryExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::BinaryExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::BinaryExpression*, "System.Linq.Expressions", "BinaryExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::BinaryExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -127,12 +128,14 @@ public:
   /// @brief Method get_IsReferenceComparison, addr 0x5f5fa50, size 0xd4, virtual false, abstract: false, final false
   inline bool get_IsReferenceComparison();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Left, addr 0x5f5f8b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Left();
 
   /// @brief Method get_Method, addr 0x5f5f8bc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Method();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Right, addr 0x5f5f8ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Right();
 
@@ -142,20 +145,22 @@ protected:
   constexpr BinaryExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryExpression(BinaryExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryExpression(BinaryExpression const&) = delete;
+  BinaryExpression(BinaryExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16105 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Right>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Right_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Left>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Left_k__BackingField;
 

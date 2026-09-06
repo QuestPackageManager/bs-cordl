@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LightGroupGridLayouter.hpp"
+// IWYU pragma private; include "GlobalNamespace/LightGroupGridLayouter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,7 @@ class LightGroupGridLayouter;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightGroupGridLayouter*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightGroupGridLayouter*, "", "LightGroupGridLayouter");
+// [ExecuteAlways]
 // Dependencies LightGroupSubsystem, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -104,38 +105,50 @@ protected:
   constexpr LightGroupGridLayouter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupGridLayouter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupGridLayouter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupGridLayouter(LightGroupGridLayouter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightGroupGridLayouter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightGroupGridLayouter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightGroupGridLayouter(LightGroupGridLayouter const&) = delete;
+  LightGroupGridLayouter(LightGroupGridLayouterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5900 };
 
+  /// [SerializeField]
+  /// [Min(1)]
   /// @brief Field _columns, offset: 0x28, size: 0x4, def value: None
   int32_t ____columns;
 
+  /// [Header("Columns Positioning")]
+  /// [SerializeField]
   /// @brief Field _columnStep, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____columnStep;
 
+  /// [SerializeField]
   /// @brief Field _columnsFromCenter, offset: 0x38, size: 0x1, def value: None
   bool ____columnsFromCenter;
 
+  /// [Header("Rows Positioning")]
+  /// [SerializeField]
   /// @brief Field _rowStep, offset: 0x3c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rowStep;
 
+  /// [SerializeField]
   /// @brief Field _rowsFromCenter, offset: 0x48, size: 0x1, def value: None
   bool ____rowsFromCenter;
 
+  /// [Header("Additional Options")]
+  /// [SerializeField]
   /// @brief Field _transposeOrder, offset: 0x49, size: 0x1, def value: None
   bool ____transposeOrder;
 
+  /// [SerializeField]
   /// @brief Field _alternateOrder, offset: 0x4a, size: 0x1, def value: None
   bool ____alternateOrder;
 
+  /// [SerializeField]
   /// @brief Field _defaultRotation, offset: 0x4c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____defaultRotation;
 

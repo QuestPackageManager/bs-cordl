@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipSegmentEventSettingsField.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipSegmentEventSettingsField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +14,8 @@ class SpaceshipSegmentEventSettingsField;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField*, "BeatSaber.Analytics.Gameplay.Events", "SpaceshipSegmentEventSettingsField");
+// [NullableContext(2)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay::Events {
 // Is value type: false
@@ -68,13 +70,13 @@ protected:
   constexpr SpaceshipSegmentEventSettingsField();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentEventSettingsField", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentEventSettingsField", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpaceshipSegmentEventSettingsField(SpaceshipSegmentEventSettingsField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentEventSettingsField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpaceshipSegmentEventSettingsField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SpaceshipSegmentEventSettingsField(SpaceshipSegmentEventSettingsField const&) = delete;
+  SpaceshipSegmentEventSettingsField(SpaceshipSegmentEventSettingsFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22283 };
@@ -88,6 +90,7 @@ public:
   /// @brief Field match_id, offset: 0x20, size: 0x8, def value: None
   ::StringW ___match_id;
 
+  /// [Nullable(new[] { 2, 1 })]
   /// @brief Field cosmetics, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::StringW> ___cosmetics;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StringExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/StringExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StringExtensions_def.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
@@ -49,7 +49,7 @@ inline ::StringW GlobalNamespace::StringExtensions::Truncate(::StringW s, int32_
                                                                                          { "Truncate", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, s, length, appendEllipsis);
 }
-inline bool GlobalNamespace::StringExtensions::Contains(::StringW source, ::StringW substring, ::System::StringComparison comp) {
+inline bool GlobalNamespace::StringExtensions::Contains(/* [Nullable(2)] */ ::StringW source, ::StringW substring, ::System::StringComparison comp) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StringExtensions*>(),
                                                            { "Contains", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::System::StringComparison>() } })));

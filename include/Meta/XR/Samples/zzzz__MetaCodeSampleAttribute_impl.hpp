@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\Samples\MetaCodeSampleAttribute.hpp"
+// IWYU pragma private; include "Meta/XR/Samples/MetaCodeSampleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Meta/XR/Samples/zzzz__MetaCodeSampleAttribute_def.hpp"
 //  Writing Method size for method: ::Meta::XR::Samples::MetaCodeSampleAttribute._ctor

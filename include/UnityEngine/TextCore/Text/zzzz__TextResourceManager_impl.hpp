@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\TextResourceManager.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextResourceManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextResourceManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -30,9 +30,10 @@ inline void UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef::_ctor
                           { ".ctor", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::TextCore::Text::FontAsset*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, nameHashCode, familyNameHashCode, styleNameHashCode, fontAsset);
 }
-// Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "familyNameAndStyleHashCode",
+// ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef::TextResourceManager_FontAssetRef(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode,
                                                                                                             int64_t familyNameAndStyleHashCode,
                                                                                                             ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\AttributeTable.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/AttributeTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__Attribute_def.hpp"
@@ -330,6 +330,7 @@ inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* Org::BouncyCastle::Asn1::
                    (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::AttributeTable*>(), { "Remove", {}, { ::i2c::type_of<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cms::AttributeTable*>(this, ___internal_method, attrType);
 }
+/// @brief [Obsolete]
 inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* Org::BouncyCastle::Asn1::Cms::AttributeTable::New_ctor(::System::Collections::Hashtable* attrs) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::AttributeTable*>(attrs));
 }

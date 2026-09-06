@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\VolumeComponentDeprecated.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/VolumeComponentDeprecated.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponentDeprecated_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponentDeprecated._ctor

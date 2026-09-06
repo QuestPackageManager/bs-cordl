@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\MemoryHelpers.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/MemoryHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,8 @@ public:
   // @brief default ctor
   constexpr MemoryHelpers_BitRegion();
 
-  // Ctor Parameters [CppParam { name: "bitOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "sizeInBits", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "bitOffset", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sizeInBits", ty: "uint32_t", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr MemoryHelpers_BitRegion(uint32_t bitOffset, uint32_t sizeInBits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -145,13 +146,13 @@ protected:
   constexpr MemoryHelpers();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryHelpers", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryHelpers", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryHelpers(MemoryHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoryHelpers", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MemoryHelpers", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MemoryHelpers(MemoryHelpers const&) = delete;
+  MemoryHelpers(MemoryHelpersconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9172 };

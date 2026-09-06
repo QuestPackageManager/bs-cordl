@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\HorizontalAlignment.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/HorizontalAlignment.hpp"
 #include "UnityEngine/TextCore/zzzz__HorizontalAlignment_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::HorizontalAlignment::HorizontalAlignment(int32_t value__) noexcept {
   this->value__ = value__;
 }

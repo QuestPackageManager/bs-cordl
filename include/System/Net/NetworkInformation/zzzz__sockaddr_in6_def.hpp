@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\NetworkInformation\sockaddr_in6.hpp"
+// IWYU pragma private; include "System/Net/NetworkInformation/sockaddr_in6.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,9 +25,9 @@ public:
   // @brief default ctor
   constexpr sockaddr_in6();
 
-  // Ctor Parameters [CppParam { name: "sin6_family", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin6_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sin6_flowinfo", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "sin6_addr", ty: "::System::Net::NetworkInformation::in6_addr", modifiers: "", def_value: None }, CppParam {
-  // name: "sin6_scope_id", ty: "uint32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "sin6_family", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sin6_port", ty: "uint16_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "sin6_flowinfo", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "sin6_addr", ty:
+  // "::System::Net::NetworkInformation::in6_addr", modifiers: "", def_value: None, comment: None }, CppParam { name: "sin6_scope_id", ty: "uint32_t", modifiers: "", def_value: None, comment: None }]
   constexpr sockaddr_in6(uint16_t sin6_family, uint16_t sin6_port, uint32_t sin6_flowinfo, ::System::Net::NetworkInformation::in6_addr sin6_addr, uint32_t sin6_scope_id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

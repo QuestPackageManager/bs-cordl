@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplaySettingsRenderGraph.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplaySettingsRenderGraph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ MARK_REF_T(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph*);
 MARK_REF_T(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph*, "UnityEngine.Rendering", "DebugDisplaySettingsRenderGraph");
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*, "UnityEngine.Rendering", "DebugDisplaySettingsRenderGraph/SettingsPanel");
+// [DisplayInfo(name = "Render Graph", order = 10)]
 // Dependencies UnityEngine.Rendering.DebugDisplaySettingsPanel
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -54,13 +55,13 @@ protected:
   constexpr DebugDisplaySettingsRenderGraph_SettingsPanel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph_SettingsPanel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph_SettingsPanel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsRenderGraph_SettingsPanel(DebugDisplaySettingsRenderGraph_SettingsPanel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph_SettingsPanel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph_SettingsPanel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRenderGraph_SettingsPanel(DebugDisplaySettingsRenderGraph_SettingsPanel const&) = delete;
+  DebugDisplaySettingsRenderGraph_SettingsPanel(DebugDisplaySettingsRenderGraph_SettingsPanelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12181 };
@@ -111,13 +112,13 @@ protected:
   constexpr DebugDisplaySettingsRenderGraph();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugDisplaySettingsRenderGraph(DebugDisplaySettingsRenderGraph&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugDisplaySettingsRenderGraph", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugDisplaySettingsRenderGraph(DebugDisplaySettingsRenderGraph const&) = delete;
+  DebugDisplaySettingsRenderGraph(DebugDisplaySettingsRenderGraphconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12182 };

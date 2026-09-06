@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\Anchor.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/Anchor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,9 +43,9 @@ public:
   // @brief default ctor
   constexpr Anchor();
 
-  // Ctor Parameters [CppParam { name: "isAutomaticAnchor", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isAlignmentAnchor", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "ownerOculusId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "colocationGroupId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "automaticAnchorUuid", ty: "::System::Guid", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "isAutomaticAnchor", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isAlignmentAnchor", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "ownerOculusId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "colocationGroupId", ty: "uint32_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "automaticAnchorUuid", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }]
   constexpr Anchor(bool isAutomaticAnchor, bool isAlignmentAnchor, uint64_t ownerOculusId, uint32_t colocationGroupId, ::System::Guid automaticAnchorUuid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

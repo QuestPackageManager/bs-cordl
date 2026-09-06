@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Crc24.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Crc24.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ public:
   /// @brief Field crc, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crc, put = __cordl_internal_set_crc)) int32_t crc;
 
+  /// [Obsolete("Use \'Value\' property instead")]
   /// @brief Method GetValue, addr 0x369d0e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetValue();
 
@@ -54,13 +55,13 @@ protected:
   constexpr Crc24();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Crc24", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Crc24", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Crc24(Crc24&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Crc24", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Crc24", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Crc24(Crc24 const&) = delete;
+  Crc24(Crc24const&) = delete;
 
   /// @brief Field Crc24Init offset 0xffffffff size 0x4
   static constexpr int32_t Crc24Init{ static_cast<int32_t>(0xb704ce) };

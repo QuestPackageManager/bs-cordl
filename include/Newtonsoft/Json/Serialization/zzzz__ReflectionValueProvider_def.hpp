@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ReflectionValueProvider.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ReflectionValueProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ class ReflectionValueProvider;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::Serialization::ReflectionValueProvider*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Serialization::ReflectionValueProvider*, "Newtonsoft.Json.Serialization", "ReflectionValueProvider");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
@@ -40,7 +42,7 @@ public:
   static inline ::Newtonsoft::Json::Serialization::ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo);
 
   /// @brief Method SetValue, addr 0x5d5a174, size 0x1a4, virtual true, abstract: false, final true
-  inline void SetValue(::System::Object* target, ::System::Object* value);
+  inline void SetValue(::System::Object* target, /* [Nullable(2)] */ ::System::Object* value);
 
   constexpr ::System::Reflection::MemberInfo* const& __cordl_internal_get__memberInfo() const;
 
@@ -60,13 +62,13 @@ protected:
   constexpr ReflectionValueProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionValueProvider(ReflectionValueProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionValueProvider(ReflectionValueProvider const&) = delete;
+  ReflectionValueProvider(ReflectionValueProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13534 };

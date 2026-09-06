@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\_Module.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/_Module.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,6 +11,10 @@ class _Module;
 // Write type traits
 MARK_REF_T(::System::Runtime::InteropServices::_Module*);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::_Module*, "System.Runtime.InteropServices", "_Module");
+// [ComVisible(true)]
+// [InterfaceType((System.Runtime.InteropServices.ComInterfaceType)1)]
+// [Guid("D002E9BA-D9E3-3749-B1D3-D565A08B13E7")]
+// [CLSCompliant(false)]
 // Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: false
@@ -18,9 +22,9 @@ namespace System::Runtime::InteropServices {
 class CORDL_TYPE _Module {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "_Module", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "_Module", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  _Module(_Module const&) = delete;
+  _Module(_Moduleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3358 };

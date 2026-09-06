@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\DynamicProxy_1.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DynamicProxy_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,6 +56,8 @@ template <typename T> class DynamicProxy_1;
 // Write type traits
 MARK_GEN_REF_T_PTR(::Newtonsoft::Json::Utilities::DynamicProxy_1);
 DEFINE_IL2CPP_GEN_CLASS_PTR(::Newtonsoft::Json::Utilities::DynamicProxy_1, "Newtonsoft.Json.Utilities", "DynamicProxy`1");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -71,13 +73,13 @@ public:
   static inline ::Newtonsoft::Json::Utilities::DynamicProxy_1<T>* New_ctor();
 
   /// @brief Method TryBinaryOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryBinaryOperation(T instance, ::System::Dynamic::BinaryOperationBinder* binder, ::System::Object* arg, ::by_ref<::System::Object*> result);
+  inline bool TryBinaryOperation(T instance, ::System::Dynamic::BinaryOperationBinder* binder, ::System::Object* arg, /* [Nullable(2)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method TryConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryConvert(T instance, ::System::Dynamic::ConvertBinder* binder, ::by_ref<::System::Object*> result);
+  inline bool TryConvert(T instance, ::System::Dynamic::ConvertBinder* binder, /* [Nullable(2)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method TryCreateInstance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryCreateInstance(T instance, ::System::Dynamic::CreateInstanceBinder* binder, ::ArrayW<::System::Object*> args, ::by_ref<::System::Object*> result);
+  inline bool TryCreateInstance(T instance, ::System::Dynamic::CreateInstanceBinder* binder, ::ArrayW<::System::Object*> args, /* [Nullable(2)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method TryDeleteIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool TryDeleteIndex(T instance, ::System::Dynamic::DeleteIndexBinder* binder, ::ArrayW<::System::Object*> indexes);
@@ -86,16 +88,16 @@ public:
   inline bool TryDeleteMember(T instance, ::System::Dynamic::DeleteMemberBinder* binder);
 
   /// @brief Method TryGetIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryGetIndex(T instance, ::System::Dynamic::GetIndexBinder* binder, ::ArrayW<::System::Object*> indexes, ::by_ref<::System::Object*> result);
+  inline bool TryGetIndex(T instance, ::System::Dynamic::GetIndexBinder* binder, ::ArrayW<::System::Object*> indexes, /* [Nullable(2)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method TryGetMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryGetMember(T instance, ::System::Dynamic::GetMemberBinder* binder, ::by_ref<::System::Object*> result);
+  inline bool TryGetMember(T instance, ::System::Dynamic::GetMemberBinder* binder, /* [Nullable(2)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method TryInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryInvoke(T instance, ::System::Dynamic::InvokeBinder* binder, ::ArrayW<::System::Object*> args, ::by_ref<::System::Object*> result);
+  inline bool TryInvoke(T instance, ::System::Dynamic::InvokeBinder* binder, ::ArrayW<::System::Object*> args, /* [Nullable(2)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method TryInvokeMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryInvokeMember(T instance, ::System::Dynamic::InvokeMemberBinder* binder, ::ArrayW<::System::Object*> args, ::by_ref<::System::Object*> result);
+  inline bool TryInvokeMember(T instance, ::System::Dynamic::InvokeMemberBinder* binder, ::ArrayW<::System::Object*> args, /* [Nullable(2)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method TrySetIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool TrySetIndex(T instance, ::System::Dynamic::SetIndexBinder* binder, ::ArrayW<::System::Object*> indexes, ::System::Object* value);
@@ -104,7 +106,7 @@ public:
   inline bool TrySetMember(T instance, ::System::Dynamic::SetMemberBinder* binder, ::System::Object* value);
 
   /// @brief Method TryUnaryOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryUnaryOperation(T instance, ::System::Dynamic::UnaryOperationBinder* binder, ::by_ref<::System::Object*> result);
+  inline bool TryUnaryOperation(T instance, ::System::Dynamic::UnaryOperationBinder* binder, /* [Nullable(2)] */ ::by_ref<::System::Object*> result);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -115,13 +117,13 @@ protected:
   constexpr DynamicProxy_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxy_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxy_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicProxy_1(DynamicProxy_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxy_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DynamicProxy_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DynamicProxy_1(DynamicProxy_1 const&) = delete;
+  DynamicProxy_1(DynamicProxy_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13393 };

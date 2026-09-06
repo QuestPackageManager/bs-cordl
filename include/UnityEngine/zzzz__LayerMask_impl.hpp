@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\LayerMask.hpp"
+// IWYU pragma private; include "UnityEngine/LayerMask.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::LayerMask.op_Implicit_int32_t
@@ -110,7 +110,7 @@ inline int32_t UnityEngine::LayerMask::NameToLayer(::StringW layerName) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LayerMask>(), { "NameToLayer", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, layerName);
 }
-inline int32_t UnityEngine::LayerMask::GetMask(::ArrayW<::StringW> layerNames) {
+inline int32_t UnityEngine::LayerMask::GetMask(/* [ParamArray] */ ::ArrayW<::StringW> layerNames) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LayerMask>(), { "GetMask", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, layerNames);
 }
@@ -120,7 +120,7 @@ inline int32_t UnityEngine::LayerMask::NameToLayer_Injected(::by_ref<::UnityEngi
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::LayerMask>(), { "NameToLayer_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, layerName);
 }
-// Ctor Parameters [CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::LayerMask::LayerMask(int32_t m_Mask) noexcept {
   this->m_Mask = m_Mask;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\EnvironmentOverrideSettingsPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace/EnvironmentOverrideSettingsPanelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,9 +133,11 @@ public:
   /// @brief Method .ctor, addr 0x5923ea4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_environmentInfos, addr 0x5923e94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* get_environmentInfos();
 
+  /// [CompilerGenerated]
   /// @brief Method set_environmentInfos, addr 0x5923e9c, size 0x8, virtual false, abstract: false, final false
   inline void set_environmentInfos(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
@@ -145,13 +147,13 @@ protected:
   constexpr EnvironmentOverrideSettingsPanelController_Elements();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController_Elements", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController_Elements", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentOverrideSettingsPanelController_Elements(EnvironmentOverrideSettingsPanelController_Elements&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController_Elements", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController_Elements", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentOverrideSettingsPanelController_Elements(EnvironmentOverrideSettingsPanelController_Elements const&) = delete;
+  EnvironmentOverrideSettingsPanelController_Elements(EnvironmentOverrideSettingsPanelController_Elementsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6825 };
@@ -168,6 +170,7 @@ public:
   /// @brief Field localizationKey, offset: 0x28, size: 0x8, def value: None
   ::StringW ___localizationKey;
 
+  /// [CompilerGenerated]
   /// @brief Field <environmentInfos>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____environmentInfos_k__BackingField;
 
@@ -187,6 +190,7 @@ static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelContro
 static_assert(sizeof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -222,13 +226,13 @@ protected:
   constexpr EnvironmentOverrideSettingsPanelController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentOverrideSettingsPanelController___c(EnvironmentOverrideSettingsPanelController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentOverrideSettingsPanelController___c(EnvironmentOverrideSettingsPanelController___c const&) = delete;
+  EnvironmentOverrideSettingsPanelController___c(EnvironmentOverrideSettingsPanelController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6826 };
@@ -298,6 +302,7 @@ public:
   /// @brief Method SetData, addr 0x5923244, size 0x32c, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
 
+  /// [CompilerGenerated]
   /// @brief Method <HandleOverrideEnvironmentsToggleValueChanged>b__14_0, addr 0x5923e78, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleOverrideEnvironmentsToggleValueChanged_b__14_0();
 
@@ -367,35 +372,43 @@ protected:
   constexpr EnvironmentOverrideSettingsPanelController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentOverrideSettingsPanelController(EnvironmentOverrideSettingsPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentOverrideSettingsPanelController(EnvironmentOverrideSettingsPanelController const&) = delete;
+  EnvironmentOverrideSettingsPanelController(EnvironmentOverrideSettingsPanelControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6827 };
 
+  /// [SerializeField]
   /// @brief Field _overrideEnvironmentsToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____overrideEnvironmentsToggle;
 
+  /// [SerializeField]
   /// @brief Field _elementsGO, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____elementsGO;
 
+  /// [SerializeField]
   /// @brief Field _elements, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*> ____elements;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _presentPanelAnimation, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimation;
 
+  /// [SerializeField]
   /// @brief Field _dismissPanelAnimation, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____dismissPanelAnimation;
 
+  /// [Inject]
   /// @brief Field _environmentListModel, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentListModel;
 
+  /// [Inject]
   /// @brief Field _analyticsModel, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DrawKey.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DrawKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,11 +43,11 @@ public:
   // @brief default ctor
   constexpr DrawKey();
 
-  // Ctor Parameters [CppParam { name: "meshID", ty: "::UnityEngine::Rendering::BatchMeshID", modifiers: "", def_value: None }, CppParam { name: "submeshIndex", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "materialID", ty: "::UnityEngine::Rendering::BatchMaterialID", modifiers: "", def_value: None }, CppParam { name: "flags", ty:
-  // "::UnityEngine::Rendering::BatchDrawCommandFlags", modifiers: "", def_value: None }, CppParam { name: "transparentInstanceId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "overridenComponents", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "range", ty: "::UnityEngine::Rendering::RangeKey", modifiers: "", def_value: None }, CppParam { name:
-  // "lightmapIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "meshID", ty: "::UnityEngine::Rendering::BatchMeshID", modifiers: "", def_value: None, comment: None }, CppParam { name: "submeshIndex", ty: "int32_t",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "materialID", ty: "::UnityEngine::Rendering::BatchMaterialID", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "flags", ty: "::UnityEngine::Rendering::BatchDrawCommandFlags", modifiers: "", def_value: None, comment: None }, CppParam { name: "transparentInstanceId", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "overridenComponents", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "range", ty: "::UnityEngine::Rendering::RangeKey",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "lightmapIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DrawKey(::UnityEngine::Rendering::BatchMeshID meshID, int32_t submeshIndex, ::UnityEngine::Rendering::BatchMaterialID materialID, ::UnityEngine::Rendering::BatchDrawCommandFlags flags,
                     int32_t transparentInstanceId, uint32_t overridenComponents, ::UnityEngine::Rendering::RangeKey range, int32_t lightmapIndex) noexcept;
 

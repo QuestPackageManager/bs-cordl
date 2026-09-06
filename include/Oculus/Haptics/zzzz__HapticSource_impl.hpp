@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus\Haptics\HapticSource.hpp"
+// IWYU pragma private; include "Oculus/Haptics/HapticSource.hpp"
 #include "Oculus/Haptics/zzzz__Controller_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Haptics/zzzz__HapticSource_def.hpp"

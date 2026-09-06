@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Uri.hpp"
+// IWYU pragma private; include "System/Uri.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,6 +92,7 @@ DEFINE_IL2CPP_CLASS(::System::Uri*, "System", "Uri");
 DEFINE_IL2CPP_CLASS(::System::Uri_MoreInfo*, "System", "Uri/MoreInfo");
 DEFINE_IL2CPP_CLASS(::System::Uri_UriInfo*, "System", "Uri/UriInfo");
 DEFINE_IL2CPP_CLASS(::System::Uri_Offset, "System", "Uri/Offset");
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -174,7 +175,7 @@ public:
   // @brief default ctor
   constexpr Uri_Flags();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None, comment: None }]
   constexpr Uri_Flags(uint64_t value__) noexcept;
 
   /// @brief Field AllUriInfoSet value: U64(2147483648)
@@ -371,10 +372,10 @@ public:
   // @brief default ctor
   constexpr Uri_Offset();
 
-  // Ctor Parameters [CppParam { name: "Scheme", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "User", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Host",
-  // ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "PortValue", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Path", ty: "uint16_t", modifiers: "",
-  // def_value: None }, CppParam { name: "Query", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Fragment", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "End", ty: "uint16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Scheme", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "User", ty: "uint16_t", modifiers: "", def_value: None, comment: None
+  // }, CppParam { name: "Host", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "PortValue", ty: "uint16_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "Path", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Query", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "Fragment", ty: "uint16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "End", ty: "uint16_t", modifiers: "", def_value: None, comment: None }]
   constexpr Uri_Offset(uint16_t Scheme, uint16_t User, uint16_t Host, uint16_t PortValue, uint16_t Path, uint16_t Query, uint16_t Fragment, uint16_t End) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -502,13 +503,13 @@ protected:
   constexpr Uri_UriInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Uri_UriInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Uri_UriInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Uri_UriInfo(Uri_UriInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Uri_UriInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Uri_UriInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Uri_UriInfo(Uri_UriInfo const&) = delete;
+  Uri_UriInfo(Uri_UriInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11062 };
@@ -621,13 +622,13 @@ protected:
   constexpr Uri_MoreInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Uri_MoreInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Uri_MoreInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Uri_MoreInfo(Uri_MoreInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Uri_MoreInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Uri_MoreInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Uri_MoreInfo(Uri_MoreInfo const&) = delete;
+  Uri_MoreInfo(Uri_MoreInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11064 };
@@ -668,6 +669,7 @@ static_assert(offsetof(::System::Uri_MoreInfo, ___RemoteUrl) == 0x38, "Offset mi
 static_assert(sizeof(::System::Uri_MoreInfo) == 0x40, "Size mismatch!");
 
 } // namespace System
+// [Flags]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -704,7 +706,7 @@ public:
   // @brief default ctor
   constexpr Uri_Check();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Uri_Check(int32_t value__) noexcept;
 
   /// @brief Field BackslashInPath value: I32(16)
@@ -751,6 +753,7 @@ static_assert(offsetof(::System::Uri_Check, value__) == 0x0, "Offset mismatch!")
 static_assert(sizeof(::System::Uri_Check) == 0x4, "Size mismatch!");
 
 } // namespace System
+// [TypeConverter(typeof(System.UriTypeConverter))]
 // Dependencies System.Object, System.Uri::Flags, System.UriFormat, System.UriIdnScope, System.UriKind
 namespace System {
 // Is value type: false
@@ -1468,13 +1471,13 @@ protected:
   constexpr Uri();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Uri", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Uri", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Uri(Uri&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Uri", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Uri", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Uri(Uri const&) = delete;
+  Uri(Uriconst&) = delete;
 
   /// @brief Field DotNetRelativeOrAbsolute value: I32(300)
   static ::System::UriKind const DotNetRelativeOrAbsolute;

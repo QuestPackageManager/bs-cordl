@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\BlendShapeBufferRange.hpp"
+// IWYU pragma private; include "UnityEngine/BlendShapeBufferRange.hpp"
 #include "UnityEngine/zzzz__BlendShapeBufferRange_def.hpp"
 //  Writing Method size for method: ::UnityEngine::BlendShapeBufferRange.set_startIndex
 template <>
@@ -37,7 +37,8 @@ inline void UnityEngine::BlendShapeBufferRange::set_endIndex(uint32_t value) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BlendShapeBufferRange>(), { "set_endIndex", {}, { ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "m_StartIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EndIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_StartIndex", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_EndIndex", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::BlendShapeBufferRange::BlendShapeBufferRange(uint32_t m_StartIndex, uint32_t m_EndIndex) noexcept {
   this->m_StartIndex = m_StartIndex;
   this->m_EndIndex = m_EndIndex;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelBuyInfoView.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelBuyInfoView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,29 +103,34 @@ protected:
   constexpr StandardLevelBuyInfoView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyInfoView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyInfoView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelBuyInfoView(StandardLevelBuyInfoView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyInfoView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyInfoView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelBuyInfoView(StandardLevelBuyInfoView const&) = delete;
+  StandardLevelBuyInfoView(StandardLevelBuyInfoViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6497 };
 
+  /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
+  /// [SerializeField]
   /// @brief Field _buyLevelButton, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____buyLevelButton;
 
+  /// [SerializeField]
   /// @brief Field _openPackButton, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____openPackButton;
 
+  /// [SerializeField]
   /// @brief Field _buyPackButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____buyPackButton;
 
+  /// [SerializeField]
   /// @brief Field _steamMessageGameObject, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____steamMessageGameObject;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\AvatarCore\MultiplayerAvatarPoseController.hpp"
+// IWYU pragma private; include "BeatSaber/AvatarCore/MultiplayerAvatarPoseController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,6 +118,7 @@ public:
   /// @brief Method .ctor, addr 0x32701a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didUpdatePoseEvent, addr 0x326b2ec, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
@@ -127,6 +128,7 @@ public:
   /// @brief Method get_rightHandTransform, addr 0x326fc08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rightHandTransform();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didUpdatePoseEvent, addr 0x326b4bc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
@@ -139,35 +141,42 @@ protected:
   constexpr MultiplayerAvatarPoseController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerAvatarPoseController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerAvatarPoseController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerAvatarPoseController(MultiplayerAvatarPoseController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerAvatarPoseController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerAvatarPoseController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerAvatarPoseController(MultiplayerAvatarPoseController const&) = delete;
+  MultiplayerAvatarPoseController(MultiplayerAvatarPoseControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21665 };
 
+  /// [SerializeField]
   /// @brief Field _leftSaberTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____leftSaberTransform;
 
+  /// [SerializeField]
   /// @brief Field _rightSaberTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____rightSaberTransform;
 
+  /// [SerializeField]
   /// @brief Field _headTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headTransform;
 
+  /// [Inject]
   /// @brief Field _nodePoseSyncStateManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::INodePoseSyncStateManager* ____nodePoseSyncStateManager;
 
+  /// [Inject]
   /// @brief Field _avatarPoseRestriction, offset: 0x40, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IAvatarPoseRestriction* ____avatarPoseRestriction;
 
+  /// [InjectOptional]
   /// @brief Field _connectedPlayer, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
+  /// [CompilerGenerated]
   /// @brief Field didUpdatePoseEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Vector3>* ___didUpdatePoseEvent;
 

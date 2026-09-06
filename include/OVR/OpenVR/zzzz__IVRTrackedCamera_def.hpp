@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR\OpenVR\IVRTrackedCamera.hpp"
+// IWYU pragma private; include "OVR/OpenVR/IVRTrackedCamera.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,6 +141,7 @@ DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRTrackedCamera__HasCamera*, "OVR.OpenVR", "
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamTextureGL*, "OVR.OpenVR", "IVRTrackedCamera/_ReleaseVideoStreamTextureGL");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamingService*, "OVR.OpenVR", "IVRTrackedCamera/_ReleaseVideoStreamingService");
 DEFINE_IL2CPP_CLASS(::OVR::OpenVR::IVRTrackedCamera, "OVR.OpenVR", "IVRTrackedCamera");
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -168,13 +169,13 @@ protected:
   constexpr IVRTrackedCamera__GetCameraErrorNameFromEnum();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraErrorNameFromEnum", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraErrorNameFromEnum", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__GetCameraErrorNameFromEnum(IVRTrackedCamera__GetCameraErrorNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraErrorNameFromEnum", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraErrorNameFromEnum", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetCameraErrorNameFromEnum(IVRTrackedCamera__GetCameraErrorNameFromEnum const&) = delete;
+  IVRTrackedCamera__GetCameraErrorNameFromEnum(IVRTrackedCamera__GetCameraErrorNameFromEnumconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8087 };
@@ -185,6 +186,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__GetCameraErrorNameFromEnum) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -212,13 +214,13 @@ protected:
   constexpr IVRTrackedCamera__HasCamera();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__HasCamera", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__HasCamera", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__HasCamera(IVRTrackedCamera__HasCamera&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__HasCamera", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__HasCamera", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__HasCamera(IVRTrackedCamera__HasCamera const&) = delete;
+  IVRTrackedCamera__HasCamera(IVRTrackedCamera__HasCameraconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8088 };
@@ -229,6 +231,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__HasCamera) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -258,13 +261,13 @@ protected:
   constexpr IVRTrackedCamera__GetCameraFrameSize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraFrameSize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraFrameSize", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__GetCameraFrameSize(IVRTrackedCamera__GetCameraFrameSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraFrameSize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraFrameSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetCameraFrameSize(IVRTrackedCamera__GetCameraFrameSize const&) = delete;
+  IVRTrackedCamera__GetCameraFrameSize(IVRTrackedCamera__GetCameraFrameSizeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8089 };
@@ -275,6 +278,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__GetCameraFrameSize) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -304,13 +308,13 @@ protected:
   constexpr IVRTrackedCamera__GetCameraIntrinsics();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraIntrinsics", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraIntrinsics", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__GetCameraIntrinsics(IVRTrackedCamera__GetCameraIntrinsics&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraIntrinsics", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraIntrinsics", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetCameraIntrinsics(IVRTrackedCamera__GetCameraIntrinsics const&) = delete;
+  IVRTrackedCamera__GetCameraIntrinsics(IVRTrackedCamera__GetCameraIntrinsicsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8090 };
@@ -321,6 +325,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__GetCameraIntrinsics) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -350,13 +355,13 @@ protected:
   constexpr IVRTrackedCamera__GetCameraProjection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraProjection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraProjection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__GetCameraProjection(IVRTrackedCamera__GetCameraProjection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraProjection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetCameraProjection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetCameraProjection(IVRTrackedCamera__GetCameraProjection const&) = delete;
+  IVRTrackedCamera__GetCameraProjection(IVRTrackedCamera__GetCameraProjectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8091 };
@@ -367,6 +372,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__GetCameraProjection) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -394,13 +400,13 @@ protected:
   constexpr IVRTrackedCamera__AcquireVideoStreamingService();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__AcquireVideoStreamingService", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__AcquireVideoStreamingService", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__AcquireVideoStreamingService(IVRTrackedCamera__AcquireVideoStreamingService&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__AcquireVideoStreamingService", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__AcquireVideoStreamingService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__AcquireVideoStreamingService(IVRTrackedCamera__AcquireVideoStreamingService const&) = delete;
+  IVRTrackedCamera__AcquireVideoStreamingService(IVRTrackedCamera__AcquireVideoStreamingServiceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8092 };
@@ -411,6 +417,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__AcquireVideoStreamingService) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -438,13 +445,13 @@ protected:
   constexpr IVRTrackedCamera__ReleaseVideoStreamingService();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamingService", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamingService", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__ReleaseVideoStreamingService(IVRTrackedCamera__ReleaseVideoStreamingService&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamingService", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamingService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__ReleaseVideoStreamingService(IVRTrackedCamera__ReleaseVideoStreamingService const&) = delete;
+  IVRTrackedCamera__ReleaseVideoStreamingService(IVRTrackedCamera__ReleaseVideoStreamingServiceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8093 };
@@ -455,6 +462,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamingService) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -485,13 +493,13 @@ protected:
   constexpr IVRTrackedCamera__GetVideoStreamFrameBuffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamFrameBuffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamFrameBuffer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__GetVideoStreamFrameBuffer(IVRTrackedCamera__GetVideoStreamFrameBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamFrameBuffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamFrameBuffer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetVideoStreamFrameBuffer(IVRTrackedCamera__GetVideoStreamFrameBuffer const&) = delete;
+  IVRTrackedCamera__GetVideoStreamFrameBuffer(IVRTrackedCamera__GetVideoStreamFrameBufferconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8094 };
@@ -502,6 +510,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamFrameBuffer) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -532,13 +541,13 @@ protected:
   constexpr IVRTrackedCamera__GetVideoStreamTextureSize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureSize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureSize", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__GetVideoStreamTextureSize(IVRTrackedCamera__GetVideoStreamTextureSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureSize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureSize", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetVideoStreamTextureSize(IVRTrackedCamera__GetVideoStreamTextureSize const&) = delete;
+  IVRTrackedCamera__GetVideoStreamTextureSize(IVRTrackedCamera__GetVideoStreamTextureSizeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8095 };
@@ -549,6 +558,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureSize) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -581,13 +591,13 @@ protected:
   constexpr IVRTrackedCamera__GetVideoStreamTextureD3D11();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureD3D11", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureD3D11", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__GetVideoStreamTextureD3D11(IVRTrackedCamera__GetVideoStreamTextureD3D11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureD3D11", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureD3D11", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetVideoStreamTextureD3D11(IVRTrackedCamera__GetVideoStreamTextureD3D11 const&) = delete;
+  IVRTrackedCamera__GetVideoStreamTextureD3D11(IVRTrackedCamera__GetVideoStreamTextureD3D11const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8096 };
@@ -598,6 +608,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureD3D11) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -628,13 +639,13 @@ protected:
   constexpr IVRTrackedCamera__GetVideoStreamTextureGL();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureGL", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureGL", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__GetVideoStreamTextureGL(IVRTrackedCamera__GetVideoStreamTextureGL&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureGL", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__GetVideoStreamTextureGL", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__GetVideoStreamTextureGL(IVRTrackedCamera__GetVideoStreamTextureGL const&) = delete;
+  IVRTrackedCamera__GetVideoStreamTextureGL(IVRTrackedCamera__GetVideoStreamTextureGLconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8097 };
@@ -645,6 +656,7 @@ public:
 static_assert(sizeof(::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureGL) == 0x80, "Size mismatch!");
 
 } // namespace OVR::OpenVR
+// [UnmanagedFunctionPointer((System.Runtime.InteropServices.CallingConvention)3)]
 // Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
@@ -672,13 +684,13 @@ protected:
   constexpr IVRTrackedCamera__ReleaseVideoStreamTextureGL();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamTextureGL", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamTextureGL", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IVRTrackedCamera__ReleaseVideoStreamTextureGL(IVRTrackedCamera__ReleaseVideoStreamTextureGL&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamTextureGL", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRTrackedCamera__ReleaseVideoStreamTextureGL", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IVRTrackedCamera__ReleaseVideoStreamTextureGL(IVRTrackedCamera__ReleaseVideoStreamTextureGL const&) = delete;
+  IVRTrackedCamera__ReleaseVideoStreamTextureGL(IVRTrackedCamera__ReleaseVideoStreamTextureGLconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8098 };
@@ -724,17 +736,18 @@ public:
   // @brief default ctor
   constexpr IVRTrackedCamera();
 
-  // Ctor Parameters [CppParam { name: "GetCameraErrorNameFromEnum", ty: "::OVR::OpenVR::IVRTrackedCamera__GetCameraErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "HasCamera",
-  // ty: "::OVR::OpenVR::IVRTrackedCamera__HasCamera*", modifiers: "", def_value: None }, CppParam { name: "GetCameraFrameSize", ty: "::OVR::OpenVR::IVRTrackedCamera__GetCameraFrameSize*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetCameraIntrinsics", ty: "::OVR::OpenVR::IVRTrackedCamera__GetCameraIntrinsics*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetCameraProjection", ty: "::OVR::OpenVR::IVRTrackedCamera__GetCameraProjection*", modifiers: "", def_value: None }, CppParam { name: "AcquireVideoStreamingService", ty:
-  // "::OVR::OpenVR::IVRTrackedCamera__AcquireVideoStreamingService*", modifiers: "", def_value: None }, CppParam { name: "ReleaseVideoStreamingService", ty:
-  // "::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamingService*", modifiers: "", def_value: None }, CppParam { name: "GetVideoStreamFrameBuffer", ty:
-  // "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamFrameBuffer*", modifiers: "", def_value: None }, CppParam { name: "GetVideoStreamTextureSize", ty:
-  // "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureSize*", modifiers: "", def_value: None }, CppParam { name: "GetVideoStreamTextureD3D11", ty:
-  // "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureD3D11*", modifiers: "", def_value: None }, CppParam { name: "GetVideoStreamTextureGL", ty:
-  // "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureGL*", modifiers: "", def_value: None }, CppParam { name: "ReleaseVideoStreamTextureGL", ty:
-  // "::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamTextureGL*", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "GetCameraErrorNameFromEnum", ty: "::OVR::OpenVR::IVRTrackedCamera__GetCameraErrorNameFromEnum*", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "HasCamera", ty: "::OVR::OpenVR::IVRTrackedCamera__HasCamera*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetCameraFrameSize", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__GetCameraFrameSize*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetCameraIntrinsics", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__GetCameraIntrinsics*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetCameraProjection", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__GetCameraProjection*", modifiers: "", def_value: None, comment: None }, CppParam { name: "AcquireVideoStreamingService", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__AcquireVideoStreamingService*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ReleaseVideoStreamingService", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamingService*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetVideoStreamFrameBuffer", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamFrameBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetVideoStreamTextureSize", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureSize*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetVideoStreamTextureD3D11", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureD3D11*", modifiers: "", def_value: None, comment: None }, CppParam { name: "GetVideoStreamTextureGL", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureGL*", modifiers: "", def_value: None, comment: None }, CppParam { name: "ReleaseVideoStreamTextureGL", ty:
+  // "::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamTextureGL*", modifiers: "", def_value: None, comment: None }]
   constexpr IVRTrackedCamera(::OVR::OpenVR::IVRTrackedCamera__GetCameraErrorNameFromEnum* GetCameraErrorNameFromEnum, ::OVR::OpenVR::IVRTrackedCamera__HasCamera* HasCamera,
                              ::OVR::OpenVR::IVRTrackedCamera__GetCameraFrameSize* GetCameraFrameSize, ::OVR::OpenVR::IVRTrackedCamera__GetCameraIntrinsics* GetCameraIntrinsics,
                              ::OVR::OpenVR::IVRTrackedCamera__GetCameraProjection* GetCameraProjection, ::OVR::OpenVR::IVRTrackedCamera__AcquireVideoStreamingService* AcquireVideoStreamingService,

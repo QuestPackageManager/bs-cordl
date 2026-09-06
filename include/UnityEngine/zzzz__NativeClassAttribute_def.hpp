@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\NativeClassAttribute.hpp"
+// IWYU pragma private; include "UnityEngine/NativeClassAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,8 @@ class NativeClassAttribute;
 // Write type traits
 MARK_REF_T(::UnityEngine::NativeClassAttribute*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::NativeClassAttribute*, "UnityEngine", "NativeClassAttribute");
+// [VisibleToOtherModules]
+// [AttributeUsage((System.AttributeTargets)12, Inherited = false)]
 // Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
@@ -52,9 +54,11 @@ public:
   /// @brief Method .ctor, addr 0x6bb5ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName, ::StringW declaration);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Declaration, addr 0x6bb5e68, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_QualifiedNativeName, addr 0x6bb5e60, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedNativeName(::StringW value);
 
@@ -64,20 +68,24 @@ protected:
   constexpr NativeClassAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeClassAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeClassAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeClassAttribute(NativeClassAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeClassAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NativeClassAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NativeClassAttribute(NativeClassAttribute const&) = delete;
+  NativeClassAttribute(NativeClassAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23105 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <QualifiedNativeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____QualifiedNativeName_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <Declaration>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Declaration_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRRuntimeAssetsBase.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRRuntimeAssetsBase.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRRuntimeAssetsBase_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

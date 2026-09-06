@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\ExtensionDataGetter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ExtensionDataGetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,11 +38,12 @@ class CORDL_TYPE ExtensionDataGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x5d41e94, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(/* [Nullable(1)] */ ::System::Object* o, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x5d41eb4, size 0xc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* EndInvoke(::System::IAsyncResult* result);
 
+  /// [NullableContext(1)]
   /// @brief Method Invoke, addr 0x5d41e80, size 0x14, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* Invoke(::System::Object* o);
 
@@ -57,13 +58,13 @@ protected:
   constexpr ExtensionDataGetter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataGetter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataGetter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ExtensionDataGetter(ExtensionDataGetter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataGetter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataGetter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ExtensionDataGetter(ExtensionDataGetter const&) = delete;
+  ExtensionDataGetter(ExtensionDataGetterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13502 };

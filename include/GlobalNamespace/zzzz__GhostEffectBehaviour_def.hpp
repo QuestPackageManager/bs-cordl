@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GhostEffectBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/GhostEffectBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,7 +81,7 @@ public:
   // @brief default ctor
   constexpr GhostEffectBehaviour_EndBehavior();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GhostEffectBehaviour_EndBehavior(int32_t value__) noexcept;
 
   /// @brief Field DisableAll value: I32(0)
@@ -139,7 +139,7 @@ public:
   // @brief default ctor
   constexpr GhostEffectBehaviour_GhostEffectType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr GhostEffectBehaviour_GhostEffectType(int32_t value__) noexcept;
 
   /// @brief Field Canvas value: I32(1)
@@ -368,13 +368,13 @@ protected:
   constexpr GhostEffectBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GhostEffectBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GhostEffectBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GhostEffectBehaviour(GhostEffectBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GhostEffectBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GhostEffectBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GhostEffectBehaviour(GhostEffectBehaviour const&) = delete;
+  GhostEffectBehaviour(GhostEffectBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6697 };
@@ -391,42 +391,60 @@ public:
   /// @brief Field _distanceMultiplier, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____distanceMultiplier;
 
+  /// [Space]
+  /// [Tooltip("Make sure Array Reference is on the GhostEffect Object (this uses its parent for local space calculations")]
   /// @brief Field _useStartTransform, offset: 0x34, size: 0x1, def value: None
   bool ____useStartTransform;
 
+  /// [Tooltip("Make sure Array Reference is on the GhostEffect Object (this uses its parent for local space calculations")]
   /// @brief Field _useEndTransform, offset: 0x35, size: 0x1, def value: None
   bool ____useEndTransform;
 
+  /// [Space]
+  /// [DrawIf("_useStartTransform", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _startLocalPosition, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startLocalPosition;
 
+  /// [DrawIf("_useStartTransform", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _startTransform, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____startTransform;
 
+  /// [DrawIf("_useEndTransform", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _endLocalPosition, offset: 0x50, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____endLocalPosition;
 
+  /// [DrawIf("_useEndTransform", true, (DrawIfAttribute::DisablingType)1)]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _endTransform, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____endTransform;
 
   /// @brief Field _positionEasing, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____positionEasing;
 
+  /// [Space]
   /// @brief Field _endBehavior, offset: 0x6c, size: 0x4, def value: None
   ::GlobalNamespace::GhostEffectBehaviour_EndBehavior ____endBehavior;
 
   /// @brief Field progress, offset: 0x70, size: 0x4, def value: None
   float_t ___progress;
 
+  /// [HideInInspector]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field textMeshPros, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TextMeshPro>> ___textMeshPros;
 
+  /// [HideInInspector]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _canvasGroups, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>> ____canvasGroups;
 
+  /// [HideInInspector]
   /// @brief Field _ghostEffectType, offset: 0x88, size: 0x4, def value: None
   ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType ____ghostEffectType;
 
+  /// [HideInInspector]
+  /// [NullAllowed((NullAllowedContext)0)]
   /// @brief Field _ghostEffectTransform, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____ghostEffectTransform;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TransformSpectrogram.hpp"
+// IWYU pragma private; include "GlobalNamespace/TransformSpectrogram.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,35 +125,45 @@ protected:
   constexpr TransformSpectrogram();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransformSpectrogram", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformSpectrogram", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransformSpectrogram(TransformSpectrogram&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransformSpectrogram", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TransformSpectrogram", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TransformSpectrogram(TransformSpectrogram const&) = delete;
+  TransformSpectrogram(TransformSpectrogramconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5986 };
 
+  /// [SerializeField]
   /// @brief Field _transforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>> ____transforms;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _axis, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::LightAxis ____axis;
 
+  /// [SerializeField]
   /// @brief Field _minPosition, offset: 0x2c, size: 0x4, def value: None
   float_t ____minPosition;
 
+  /// [SerializeField]
   /// @brief Field _maxPosition, offset: 0x30, size: 0x4, def value: None
   float_t ____maxPosition;
 
+  /// [SerializeField]
+  /// [Tooltip("Scale the samples based on element count")]
   /// @brief Field _scaleSamples, offset: 0x34, size: 0x1, def value: None
   bool ____scaleSamples;
 
+  /// [SerializeField]
+  /// [Tooltip("Allows repeating the spectrogram or only using a part of it")]
   /// @brief Field _scale, offset: 0x38, size: 0x4, def value: None
   float_t ____scale;
 
+  /// [Inject]
   /// @brief Field _spectrogramData, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BasicSpectrogramData> ____spectrogramData;
 

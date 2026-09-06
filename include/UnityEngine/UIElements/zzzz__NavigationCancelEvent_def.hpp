@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\NavigationCancelEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationCancelEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_REF_T(::UnityEngine::UIElements::NavigationCancelEvent*);
 MARK_REF_T(::UnityEngine::UIElements::NavigationCancelEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::NavigationCancelEvent*, "UnityEngine.UIElements", "NavigationCancelEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::NavigationCancelEvent___c*, "UnityEngine.UIElements", "NavigationCancelEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr NavigationCancelEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationCancelEvent___c(NavigationCancelEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationCancelEvent___c(NavigationCancelEvent___c const&) = delete;
+  NavigationCancelEvent___c(NavigationCancelEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4521 };
@@ -86,13 +87,13 @@ protected:
   constexpr NavigationCancelEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationCancelEvent(NavigationCancelEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NavigationCancelEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NavigationCancelEvent(NavigationCancelEvent const&) = delete;
+  NavigationCancelEvent(NavigationCancelEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4522 };

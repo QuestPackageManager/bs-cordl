@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\HttpRequestMessage.hpp"
+// IWYU pragma private; include "System/Net/Http/HttpRequestMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -139,6 +139,7 @@ public:
   /// @brief Method .ctor, addr 0x60db998, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri);
 
+  /// [CompilerGenerated]
   /// @brief Method get_Content, addr 0x60df3b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpContent* get_Content();
 
@@ -157,6 +158,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_Content, addr 0x60df3b8, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Net::Http::HttpContent* value);
 
@@ -172,13 +174,13 @@ protected:
   constexpr HttpRequestMessage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestMessage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestMessage", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpRequestMessage(HttpRequestMessage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestMessage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpRequestMessage", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpRequestMessage(HttpRequestMessage const&) = delete;
+  HttpRequestMessage(HttpRequestMessageconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20286 };
@@ -201,6 +203,7 @@ public:
   /// @brief Field disposed, offset: 0x31, size: 0x1, def value: None
   bool ___disposed;
 
+  /// [CompilerGenerated]
   /// @brief Field <Content>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::Net::Http::HttpContent* ____Content_k__BackingField;
 

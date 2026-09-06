@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssetBundleRequest.hpp"
+// IWYU pragma private; include "UnityEngine/AssetBundleRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ protected:
   constexpr AssetBundleRequest_BindingsMarshaller();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest_BindingsMarshaller", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleRequest_BindingsMarshaller(AssetBundleRequest_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest_BindingsMarshaller", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleRequest_BindingsMarshaller(AssetBundleRequest_BindingsMarshaller const&) = delete;
+  AssetBundleRequest_BindingsMarshaller(AssetBundleRequest_BindingsMarshallerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23096 };
@@ -64,6 +64,8 @@ public:
 static_assert(sizeof(::UnityEngine::AssetBundleRequest_BindingsMarshaller) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleLoadAssetOperation.h")]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.ResourceRequest
 namespace UnityEngine {
 // Is value type: false
@@ -77,6 +79,7 @@ public:
 
   __declspec(property(get = get_asset)) ::UnityW<::UnityEngine::Object> asset;
 
+  /// [NativeMethod("GetLoadedAsset")]
   /// @brief Method GetResult, addr 0x6a4c054, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetResult();
 
@@ -88,6 +91,7 @@ public:
   /// @brief Method .ctor, addr 0x6a4c264, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
+  /// [NativeMethod("GetAllLoadedAssets")]
   /// @brief Method get_allAssets, addr 0x6a4c1d8, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>> get_allAssets();
 
@@ -103,13 +107,13 @@ protected:
   constexpr AssetBundleRequest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleRequest(AssetBundleRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleRequest(AssetBundleRequest const&) = delete;
+  AssetBundleRequest(AssetBundleRequestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23097 };

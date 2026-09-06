@@ -1,11 +1,14 @@
 #pragma once
-// IWYU pragma private; include "Unity\Properties\ISetPropertyBagVisitor.hpp"
+// IWYU pragma private; include "Unity/Properties/ISetPropertyBagVisitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
 CORDL_MODULE_EXPORT(ISetPropertyBagVisitor)
 namespace Unity::Properties {
-template <typename TSet, typename TElement> class ISetPropertyBag_2;
+template <typename TSet, typename TElement>
+  requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TElement>*>)
+class ISetPropertyBag_2;
 }
 // Forward declare root types
 namespace Unity::Properties {
@@ -14,19 +17,21 @@ class ISetPropertyBagVisitor;
 // Write type traits
 MARK_REF_T(::Unity::Properties::ISetPropertyBagVisitor*);
 DEFINE_IL2CPP_CLASS(::Unity::Properties::ISetPropertyBagVisitor*, "Unity.Properties", "ISetPropertyBagVisitor");
-// Dependencies
+// Dependencies System.Collections.Generic.ISet`1<T>
 namespace Unity::Properties {
 // Is value type: false
 // CS Name: Unity.Properties.ISetPropertyBagVisitor
 class CORDL_TYPE ISetPropertyBagVisitor {
 public:
   // Declarations
-  /// @brief Method Visit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename TSet, typename TValue> inline void Visit(::Unity::Properties::ISetPropertyBag_2<TSet, TValue>* properties, ::by_ref<TSet> container);
+  /// @brief Method Visit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  template <typename TSet, typename TValue>
+    requires(::cordl_internals::type_constraint<TSet, ::System::Collections::Generic::ISet_1<TValue>*>)
+  inline void Visit(::Unity::Properties::ISetPropertyBag_2<TSet, TValue>* properties, ::by_ref<TSet> container);
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISetPropertyBagVisitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ISetPropertyBagVisitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ISetPropertyBagVisitor(ISetPropertyBagVisitor const&) = delete;
+  ISetPropertyBagVisitor(ISetPropertyBagVisitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19684 };

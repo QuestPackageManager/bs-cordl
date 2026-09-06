@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_SpriteCharacter.hpp"
+// IWYU pragma private; include "TMPro/TMP_SpriteCharacter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,17 +70,18 @@ protected:
   constexpr TMP_SpriteCharacter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteCharacter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteCharacter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_SpriteCharacter(TMP_SpriteCharacter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteCharacter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteCharacter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TMP_SpriteCharacter(TMP_SpriteCharacter const&) = delete;
+  TMP_SpriteCharacter(TMP_SpriteCharacterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15982 };
 
+  /// [SerializeField]
   /// @brief Field m_Name, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_Name;
 

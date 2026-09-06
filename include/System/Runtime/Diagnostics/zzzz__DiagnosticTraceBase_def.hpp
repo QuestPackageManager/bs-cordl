@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Diagnostics\DiagnosticTraceBase.hpp"
+// IWYU pragma private; include "System/Runtime/Diagnostics/DiagnosticTraceBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,7 +112,7 @@ public:
   /// @brief Method FixLevel, addr 0x618b598, size 0x40, virtual false, abstract: false, final false
   inline ::System::Diagnostics::SourceLevels FixLevel(::System::Diagnostics::SourceLevels level);
 
-  /// @brief Method IsEnabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsEnabled();
 
   /// @brief Method LogTraceFailure, addr 0x618c394, size 0x348, virtual false, abstract: false, final false
@@ -123,10 +123,10 @@ public:
   /// @brief Method OnSetLevel, addr 0x618b5d8, size 0x4, virtual true, abstract: false, final false
   inline void OnSetLevel(::System::Diagnostics::SourceLevels level);
 
-  /// @brief Method OnShutdownTracing, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnShutdownTracing, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnShutdownTracing();
 
-  /// @brief Method OnUnhandledException, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method OnUnhandledException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnUnhandledException(::System::Exception* exception);
 
   /// @brief Method SetLevel, addr 0x618b5dc, size 0xf4, virtual false, abstract: false, final false
@@ -150,7 +150,7 @@ public:
   /// @brief Method StackTraceString, addr 0x618c110, size 0x284, virtual false, abstract: false, final false
   static inline ::StringW StackTraceString(::System::Exception* exception);
 
-  /// @brief Method TraceEventLogEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method TraceEventLogEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TraceEventLogEvent(::System::Diagnostics::TraceEventType type, ::System::Runtime::Diagnostics::TraceRecord* traceRecord);
 
   /// @brief Method UnhandledExceptionHandler, addr 0x618be30, size 0xac, virtual false, abstract: false, final false
@@ -230,6 +230,7 @@ public:
   /// @brief Method get_HaveListeners, addr 0x618b590, size 0x8, virtual false, abstract: false, final false
   inline bool get_HaveListeners();
 
+  /// [CompilerGenerated]
   /// @brief Method get_LastFailure, addr 0x618b464, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastFailure();
 
@@ -253,6 +254,7 @@ public:
   /// @brief Method set_EventSourceName, addr 0x618b74c, size 0x8, virtual false, abstract: false, final false
   inline void set_EventSourceName(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_LastFailure, addr 0x618b46c, size 0x8, virtual false, abstract: false, final false
   inline void set_LastFailure(::System::DateTime value);
 
@@ -262,13 +264,13 @@ protected:
   constexpr DiagnosticTraceBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticTraceBase(DiagnosticTraceBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DiagnosticTraceBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DiagnosticTraceBase(DiagnosticTraceBase const&) = delete;
+  DiagnosticTraceBase(DiagnosticTraceBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21321 };
@@ -297,6 +299,7 @@ public:
   /// @brief Field eventSourceName, offset: 0x30, size: 0x8, def value: None
   ::StringW ___eventSourceName;
 
+  /// [CompilerGenerated]
   /// @brief Field <LastFailure>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::DateTime ____LastFailure_k__BackingField;
 

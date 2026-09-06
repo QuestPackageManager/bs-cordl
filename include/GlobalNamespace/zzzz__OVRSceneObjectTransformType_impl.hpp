@@ -1,9 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRSceneObjectTransformType.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRSceneObjectTransformType.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneObjectTransformType_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneObjectTransformType_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRSceneObjectTransformType_Transformation::OVRSceneObjectTransformType_Transformation(int32_t value__) noexcept {
   this->value__ = value__;
 }

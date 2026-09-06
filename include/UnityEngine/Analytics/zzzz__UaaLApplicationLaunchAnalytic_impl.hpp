@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Analytics\UaaLApplicationLaunchAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine/Analytics/UaaLApplicationLaunchAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__UaaLApplicationLaunchAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic._ctor

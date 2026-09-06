@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\PrefixSumDrawsAndInstances.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/PrefixSumDrawsAndInstances.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ struct PrefixSumDrawsAndInstances;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::PrefixSumDrawsAndInstances);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::PrefixSumDrawsAndInstances, "UnityEngine.Rendering", "PrefixSumDrawsAndInstances");
+// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
 // Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, UnityEngine.Rendering.BatchCullingOutputDrawCommands, UnityEngine.Rendering.DrawRange,
 // UnityEngine.Rendering.IndirectBufferAllocInfo, UnityEngine.Rendering.IndirectBufferLimits
 namespace UnityEngine::Rendering {
@@ -43,15 +44,16 @@ public:
   // @brief default ctor
   constexpr PrefixSumDrawsAndInstances();
 
-  // Ctor Parameters [CppParam { name: "drawRanges", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: None }, CppParam { name:
-  // "drawBatchIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "batchBinAllocOffsets", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "batchBinCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value:
-  // None }, CppParam { name: "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "batchDrawCommandOffsets", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "binVisibleInstanceOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "cullingOutput", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers: "", def_value: None },
-  // CppParam { name: "indirectBufferLimits", ty: "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: None }, CppParam { name: "indirectBufferAllocInfo", ty:
-  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "", def_value: None }, CppParam { name: "indirectAllocationCounters", ty:
-  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "drawRanges", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "drawBatchIndices", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchBinAllocOffsets", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "batchBinCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "binVisibleInstanceCounts", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "batchDrawCommandOffsets", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "binVisibleInstanceOffsets", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "cullingOutput", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands>", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectBufferLimits", ty:
+  // "::UnityEngine::Rendering::IndirectBufferLimits", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectBufferAllocInfo", ty:
+  // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo>", modifiers: "", def_value: None, comment: None }, CppParam { name: "indirectAllocationCounters", ty:
+  // "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None, comment: None }]
   constexpr PrefixSumDrawsAndInstances(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> drawRanges, ::Unity::Collections::NativeArray_1<int32_t> drawBatchIndices,
                                        ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets, ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts,
                                        ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts, ::Unity::Collections::NativeArray_1<int32_t> batchDrawCommandOffsets,
@@ -67,36 +69,53 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
 
+  /// [ReadOnly]
   /// @brief Field drawRanges, offset: 0x0, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> drawRanges;
 
+  /// [ReadOnly]
   /// @brief Field drawBatchIndices, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> drawBatchIndices;
 
+  /// [ReadOnly]
   /// @brief Field batchBinAllocOffsets, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchBinAllocOffsets;
 
+  /// [ReadOnly]
   /// @brief Field batchBinCounts, offset: 0x28, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchBinCounts;
 
+  /// [ReadOnly]
   /// @brief Field binVisibleInstanceCounts, offset: 0x38, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceCounts;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field batchDrawCommandOffsets, offset: 0x48, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> batchDrawCommandOffsets;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
+  /// [WriteOnly]
   /// @brief Field binVisibleInstanceOffsets, offset: 0x58, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> binVisibleInstanceOffsets;
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field cullingOutput, offset: 0x68, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchCullingOutputDrawCommands> cullingOutput;
 
+  /// [ReadOnly]
   /// @brief Field indirectBufferLimits, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Rendering::IndirectBufferLimits indirectBufferLimits;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indirectBufferAllocInfo, offset: 0x80, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo> indirectBufferAllocInfo;
 
+  /// [NativeDisableContainerSafetyRestriction]
+  /// [NoAlias]
   /// @brief Field indirectAllocationCounters, offset: 0x90, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> indirectAllocationCounters;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PracticeViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/PracticeViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,6 +96,7 @@ MARK_REF_T(::GlobalNamespace::PracticeViewController*);
 MARK_VAL_T(::GlobalNamespace::PracticeViewController__LoadSong_d__32);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PracticeViewController*, "", "PracticeViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PracticeViewController__LoadSong_d__32, "", "PracticeViewController/<LoadSong>d__32");
+// [CompilerGenerated]
 // Dependencies BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
 // System.Threading.CancellationToken
 namespace GlobalNamespace {
@@ -110,6 +111,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a1cc6c, size 0x534, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a1d1a0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -120,12 +122,12 @@ public:
   // @brief default ctor
   constexpr PracticeViewController__LoadSong_d__32();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PracticeViewController>",
-  // modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::PracticeViewController>", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None, comment: None }]
   constexpr PracticeViewController__LoadSong_d__32(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                    ::UnityW<::GlobalNamespace::PracticeViewController> __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
@@ -283,8 +285,9 @@ public:
   inline void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   /// @brief Method Init, addr 0x5a1c418, size 0x16c, virtual false, abstract: false, final false
-  inline void Init(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  inline void Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
+  /// [AsyncStateMachine(typeof(PracticeViewController::<LoadSong>d__32))]
   /// @brief Method LoadSong, addr 0x5a1c78c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadSong(::System::Threading::CancellationToken cancellationToken);
 
@@ -446,12 +449,14 @@ public:
   /// @brief Method .ctor, addr 0x5a1cc68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didPressPlayButtonEvent, addr 0x5a1c2b8, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action* value);
 
   /// @brief Method get_practiceSettings, addr 0x5a1c410, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didPressPlayButtonEvent, addr 0x5a1c364, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action* value);
 
@@ -461,13 +466,13 @@ protected:
   constexpr PracticeViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PracticeViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PracticeViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PracticeViewController(PracticeViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PracticeViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PracticeViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PracticeViewController(PracticeViewController const&) = delete;
+  PracticeViewController(PracticeViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6454 };
@@ -475,48 +480,65 @@ public:
   /// @brief Field kMinValueChangeToInstantPlayPreview offset 0xffffffff size 0x4
   static constexpr float_t kMinValueChangeToInstantPlayPreview{ static_cast<float_t>(3.0f) };
 
+  /// [SerializeField]
   /// @brief Field _levelBar, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
+  /// [SerializeField]
   /// @brief Field _songStartSlider, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::TimeSlider> ____songStartSlider;
 
+  /// [SerializeField]
   /// @brief Field _speedSlider, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::HMUI::PercentSlider> ____speedSlider;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _playButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____playButton;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _loader, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____loader;
 
+  /// [SerializeField]
   /// @brief Field _value, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____value;
 
+  /// [SerializeField]
   /// @brief Field _enabledColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____enabledColor;
 
+  /// [SerializeField]
   /// @brief Field _disabledColor, offset: 0xb8, size: 0x10, def value: None
   ::UnityEngine::Color ____disabledColor;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _songPreviewPlayer, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
+  /// [Inject]
   /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0xd8, size: 0x8, def value: None
   ::GlobalNamespace::PerceivedLoudnessPerLevelModel* ____perceivedLoudnessPerLevelModel;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0xe0, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsEntitlementModel, offset: 0xe8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsEntitlementModel* ____beatmapLevelsEntitlementModel;
 
+  /// [Inject]
   /// @brief Field _audioClipAsyncLoader, offset: 0xf0, size: 0x8, def value: None
   ::GlobalNamespace::AudioClipAsyncLoader* ____audioClipAsyncLoader;
 
+  /// [CompilerGenerated]
   /// @brief Field didPressPlayButtonEvent, offset: 0xf8, size: 0x8, def value: None
   ::System::Action* ___didPressPlayButtonEvent;
 

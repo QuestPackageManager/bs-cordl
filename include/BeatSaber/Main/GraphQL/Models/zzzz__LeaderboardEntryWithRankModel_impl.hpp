@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\LeaderboardEntryWithRankModel.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/LeaderboardEntryWithRankModel.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "BeatSaber/Main/GraphQL/Models/zzzz__LeaderboardEntryWithRankModel_def.hpp"
@@ -217,7 +217,8 @@ constexpr void BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_Us
   this->____Nodes_k__BackingField = value;
 }
 inline void BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel::set_Nodes(
-    ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* value) {
+    /* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<
+        ::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(

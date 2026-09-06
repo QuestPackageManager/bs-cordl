@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TextFadeTransitions.hpp"
+// IWYU pragma private; include "GlobalNamespace/TextFadeTransitions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr TextFadeTransitions_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextFadeTransitions_State(int32_t value__) noexcept;
 
   /// @brief Field FadingIn value: I32(2)
@@ -89,6 +89,7 @@ static_assert(offsetof(::GlobalNamespace::TextFadeTransitions_State, value__) ==
 static_assert(sizeof(::GlobalNamespace::TextFadeTransitions_State) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/TextFadeTransitions")]
 // Dependencies TextFadeTransitions::State, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -187,23 +188,27 @@ protected:
   constexpr TextFadeTransitions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextFadeTransitions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextFadeTransitions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextFadeTransitions(TextFadeTransitions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextFadeTransitions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TextFadeTransitions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TextFadeTransitions(TextFadeTransitions const&) = delete;
+  TextFadeTransitions(TextFadeTransitionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6281 };
 
+  /// [SerializeField]
   /// @brief Field _textLabel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____textLabel;
 
+  /// [Tooltip("If Canvas Group is specified, it is used for fadeing instead of Text Label color.")]
+  /// [SerializeField]
   /// @brief Field _canvasGroup, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
+  /// [SerializeField]
   /// @brief Field _fadeDuration, offset: 0x30, size: 0x4, def value: None
   float_t ____fadeDuration;
 

@@ -1,10 +1,10 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ScreenCapture.hpp"
+// IWYU pragma private; include "UnityEngine/ScreenCapture.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScreenCapture_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/zzzz__ScreenCapture_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ScreenCapture_StereoScreenCaptureMode::ScreenCapture_StereoScreenCaptureMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -65,15 +65,16 @@ inline void UnityEngine::ScreenCapture::CaptureScreenshot(::StringW filename) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ScreenCapture*>(), { "CaptureScreenshot", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, filename);
 }
-inline void UnityEngine::ScreenCapture::CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode) {
+inline void UnityEngine::ScreenCapture::CaptureScreenshot(::StringW filename, /* [DefaultValue("1")] */ int32_t superSize,
+                                                          /* [DefaultValue("1")] */ ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ScreenCapture*>(),
                           { "CaptureScreenshot", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::ScreenCapture_StereoScreenCaptureMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, filename, superSize, CaptureMode);
 }
-inline void UnityEngine::ScreenCapture::CaptureScreenshot_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> filename, int32_t superSize,
-                                                                   ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode) {
+inline void UnityEngine::ScreenCapture::CaptureScreenshot_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> filename, /* [DefaultValue("1")] */ int32_t superSize,
+                                                                   /* [DefaultValue("1")] */ ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ScreenCapture*>(), { "CaptureScreenshot_Injected",
                                                                                                   {},

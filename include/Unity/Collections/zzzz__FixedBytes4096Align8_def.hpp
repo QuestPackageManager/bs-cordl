@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedBytes4096Align8.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedBytes4096Align8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct FixedBytes4096Align8;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::FixedBytes4096Align8);
 DEFINE_IL2CPP_CLASS(::Unity::Collections::FixedBytes4096Align8, "Unity.Collections", "FixedBytes4096Align8");
+// [GenerateTestsForBurstCompatibility]
 // Dependencies Unity.Collections.FixedBytes16Align8
 namespace Unity::Collections {
 // Is value type: true
@@ -2329,160 +2330,177 @@ public:
   // @brief default ctor
   constexpr FixedBytes4096Align8();
 
-  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0016", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0032", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0048", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0064", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0080", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0096", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0112", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0128", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0144", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0160", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0176", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0192", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0208", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0224", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0240", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0256", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0272", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0288", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0304", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0320", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0336", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0352", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0368", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0384", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0400", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0416", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0432", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0448", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0464", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0480", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0496", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0512", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0528", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0544", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0560", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0576", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0592", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0608", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0624", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0640", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0656", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0672", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0688", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0704", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0720", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0736", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0752", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0768", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0784", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0800", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0816", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0832", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0848", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0864", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0880", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0896", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0912", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset0928", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0944", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset0960", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0976", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset0992", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1008", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1024", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1040", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1056", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1072", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1088", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1104", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1120", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1136", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1152", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1168", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1184", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1200", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1216", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1232", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1248", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1264", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1280", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1296", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1312", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1328", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1344", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1360", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1376", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1392", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1408", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1424", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1440", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1456", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1472", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1488", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1504", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1520", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1536", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1552", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1568", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1584", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1600", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1616", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1632", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1648", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1664", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1680", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1696", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1712", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1728", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1744", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1760", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1776", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1792", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1808", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1824", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1840", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1856", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1872", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1888", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1904", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset1920", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1936", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1952", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset1968", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset1984", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2000", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2016", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2032", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2048", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2064", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2080", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2096", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2112", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2128", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2144", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2160", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2176", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2192", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2208", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2224", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2240", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2256", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2272", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2288", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2304", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2320", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2336", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2352", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2368", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2384", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2400", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2416", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2432", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2448", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2464", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2480", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2496", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2512", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2528", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2544", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2560", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2576", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2592", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2608", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2624", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2640", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2656", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2672", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2688", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2704", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2720", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2736", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2752", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2768", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2784", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2800", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2816", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2832", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2848", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2864", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2880", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2896", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2912", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset2928", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2944", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset2960", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2976", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset2992", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3008", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3024", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3040", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3056", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3072", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3088", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3104", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3120", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3136", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3152", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3168", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3184", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3200", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3216", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3232", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3248", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3264", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3280", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3296", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3312", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3328", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3344", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3360", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3376", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3392", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3408", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3424", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3440", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3456", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3472", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3488", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3504", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3520", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3536", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3552", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3568", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3584", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3600", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3616", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3632", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3648", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3664", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3680", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3696", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3712", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3728", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3744", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3760", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3776", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3792", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3808", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3824", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3840", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3856", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3872", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3888", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3904", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset3920", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3936", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3952", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset3968", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset3984", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset4000", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset4016", ty:
-  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset4032", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None },
-  // CppParam { name: "offset4048", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }, CppParam { name: "offset4064", ty: "::Unity::Collections::FixedBytes16Align8",
-  // modifiers: "", def_value: None }, CppParam { name: "offset4080", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "offset0000", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0016", ty:
+  // "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0032", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0048", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0064",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0080", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0096", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0112",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0128", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0144", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0160",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0176", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0192", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0208",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0224", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0240", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0256",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0272", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0288", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0304",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0320", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0336", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0352",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0368", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0384", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0400",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0416", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0432", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0448",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0464", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0480", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0496",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0512", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0528", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0544",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0560", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0576", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0592",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0608", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0624", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0640",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0656", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0672", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0688",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0704", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0720", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0736",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0752", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0768", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0784",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0800", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0816", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0832",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0848", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0864", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0880",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0896", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0912", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0928",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0944", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset0960", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0976",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset0992", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1008", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1024",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1040", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1056", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1072",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1088", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1104", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1120",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1136", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1152", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1168",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1184", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1200", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1216",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1232", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1248", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1264",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1280", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1296", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1312",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1328", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1344", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1360",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1376", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1392", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1408",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1424", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1440", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1456",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1472", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1488", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1504",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1520", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1536", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1552",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1568", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1584", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1600",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1616", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1632", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1648",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1664", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1680", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1696",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1712", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1728", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1744",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1760", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1776", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1792",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1808", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1824", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1840",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1856", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1872", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1888",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1904", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1920", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1936",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1952", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset1968", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset1984",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2000", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2016", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2032",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2048", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2064", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2080",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2096", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2112", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2128",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2144", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2160", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2176",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2192", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2208", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2224",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2240", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2256", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2272",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2288", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2304", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2320",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2336", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2352", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2368",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2384", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2400", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2416",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2432", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2448", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2464",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2480", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2496", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2512",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2528", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2544", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2560",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2576", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2592", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2608",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2624", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2640", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2656",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2672", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2688", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2704",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2720", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2736", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2752",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2768", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2784", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2800",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2816", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2832", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2848",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2864", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2880", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2896",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2912", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2928", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2944",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2960", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset2976", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset2992",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3008", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3024", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3040",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3056", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3072", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3088",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3104", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3120", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3136",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3152", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3168", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3184",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3200", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3216", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3232",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3248", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3264", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3280",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3296", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3312", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3328",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3344", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3360", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3376",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3392", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3408", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3424",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3440", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3456", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3472",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3488", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3504", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3520",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3536", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3552", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3568",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3584", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3600", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3616",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3632", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3648", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3664",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3680", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3696", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3712",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3728", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3744", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3760",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3776", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3792", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3808",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3824", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3840", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3856",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3872", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3888", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3904",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3920", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3936", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3952",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset3968", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset3984", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset4000",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset4016", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset4032", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset4048",
+  // ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }, CppParam { name: "offset4064", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "offset4080", ty: "::Unity::Collections::FixedBytes16Align8", modifiers: "", def_value: None, comment: None }]
   constexpr FixedBytes4096Align8(::Unity::Collections::FixedBytes16Align8 offset0000, ::Unity::Collections::FixedBytes16Align8 offset0016, ::Unity::Collections::FixedBytes16Align8 offset0032,
                                  ::Unity::Collections::FixedBytes16Align8 offset0048, ::Unity::Collections::FixedBytes16Align8 offset0064, ::Unity::Collections::FixedBytes16Align8 offset0080,
                                  ::Unity::Collections::FixedBytes16Align8 offset0096, ::Unity::Collections::FixedBytes16Align8 offset0112, ::Unity::Collections::FixedBytes16Align8 offset0128,
@@ -2577,6 +2595,7 @@ private:
     struct {
       /// @brief Padding field 0x0
       uint8_t ___offset0000_padding[0x0];
+      /// [SerializeField]
       /// @brief Field offset0000, offset: 0x0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0000;
     };
@@ -2584,6 +2603,7 @@ private:
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___offset0000_padding_forAlignment[0x0];
+      /// [SerializeField]
       /// @brief Field offset0000, offset: 0x0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0000_forAlignment;
     };
@@ -2591,6 +2611,7 @@ private:
     struct {
       /// @brief Padding field 0x10
       uint8_t ___offset0016_padding[0x10];
+      /// [SerializeField]
       /// @brief Field offset0016, offset: 0x10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0016;
     };
@@ -2598,6 +2619,7 @@ private:
     struct {
       /// @brief Padding field 0x10 for alignment
       uint8_t ___offset0016_padding_forAlignment[0x10];
+      /// [SerializeField]
       /// @brief Field offset0016, offset: 0x10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0016_forAlignment;
     };
@@ -2605,6 +2627,7 @@ private:
     struct {
       /// @brief Padding field 0x20
       uint8_t ___offset0032_padding[0x20];
+      /// [SerializeField]
       /// @brief Field offset0032, offset: 0x20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0032;
     };
@@ -2612,6 +2635,7 @@ private:
     struct {
       /// @brief Padding field 0x20 for alignment
       uint8_t ___offset0032_padding_forAlignment[0x20];
+      /// [SerializeField]
       /// @brief Field offset0032, offset: 0x20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0032_forAlignment;
     };
@@ -2619,6 +2643,7 @@ private:
     struct {
       /// @brief Padding field 0x30
       uint8_t ___offset0048_padding[0x30];
+      /// [SerializeField]
       /// @brief Field offset0048, offset: 0x30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0048;
     };
@@ -2626,6 +2651,7 @@ private:
     struct {
       /// @brief Padding field 0x30 for alignment
       uint8_t ___offset0048_padding_forAlignment[0x30];
+      /// [SerializeField]
       /// @brief Field offset0048, offset: 0x30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0048_forAlignment;
     };
@@ -2633,6 +2659,7 @@ private:
     struct {
       /// @brief Padding field 0x40
       uint8_t ___offset0064_padding[0x40];
+      /// [SerializeField]
       /// @brief Field offset0064, offset: 0x40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0064;
     };
@@ -2640,6 +2667,7 @@ private:
     struct {
       /// @brief Padding field 0x40 for alignment
       uint8_t ___offset0064_padding_forAlignment[0x40];
+      /// [SerializeField]
       /// @brief Field offset0064, offset: 0x40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0064_forAlignment;
     };
@@ -2647,6 +2675,7 @@ private:
     struct {
       /// @brief Padding field 0x50
       uint8_t ___offset0080_padding[0x50];
+      /// [SerializeField]
       /// @brief Field offset0080, offset: 0x50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0080;
     };
@@ -2654,6 +2683,7 @@ private:
     struct {
       /// @brief Padding field 0x50 for alignment
       uint8_t ___offset0080_padding_forAlignment[0x50];
+      /// [SerializeField]
       /// @brief Field offset0080, offset: 0x50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0080_forAlignment;
     };
@@ -2661,6 +2691,7 @@ private:
     struct {
       /// @brief Padding field 0x60
       uint8_t ___offset0096_padding[0x60];
+      /// [SerializeField]
       /// @brief Field offset0096, offset: 0x60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0096;
     };
@@ -2668,6 +2699,7 @@ private:
     struct {
       /// @brief Padding field 0x60 for alignment
       uint8_t ___offset0096_padding_forAlignment[0x60];
+      /// [SerializeField]
       /// @brief Field offset0096, offset: 0x60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0096_forAlignment;
     };
@@ -2675,6 +2707,7 @@ private:
     struct {
       /// @brief Padding field 0x70
       uint8_t ___offset0112_padding[0x70];
+      /// [SerializeField]
       /// @brief Field offset0112, offset: 0x70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0112;
     };
@@ -2682,6 +2715,7 @@ private:
     struct {
       /// @brief Padding field 0x70 for alignment
       uint8_t ___offset0112_padding_forAlignment[0x70];
+      /// [SerializeField]
       /// @brief Field offset0112, offset: 0x70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0112_forAlignment;
     };
@@ -2689,6 +2723,7 @@ private:
     struct {
       /// @brief Padding field 0x80
       uint8_t ___offset0128_padding[0x80];
+      /// [SerializeField]
       /// @brief Field offset0128, offset: 0x80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0128;
     };
@@ -2696,6 +2731,7 @@ private:
     struct {
       /// @brief Padding field 0x80 for alignment
       uint8_t ___offset0128_padding_forAlignment[0x80];
+      /// [SerializeField]
       /// @brief Field offset0128, offset: 0x80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0128_forAlignment;
     };
@@ -2703,6 +2739,7 @@ private:
     struct {
       /// @brief Padding field 0x90
       uint8_t ___offset0144_padding[0x90];
+      /// [SerializeField]
       /// @brief Field offset0144, offset: 0x90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0144;
     };
@@ -2710,6 +2747,7 @@ private:
     struct {
       /// @brief Padding field 0x90 for alignment
       uint8_t ___offset0144_padding_forAlignment[0x90];
+      /// [SerializeField]
       /// @brief Field offset0144, offset: 0x90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0144_forAlignment;
     };
@@ -2717,6 +2755,7 @@ private:
     struct {
       /// @brief Padding field 0xa0
       uint8_t ___offset0160_padding[0xa0];
+      /// [SerializeField]
       /// @brief Field offset0160, offset: 0xa0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0160;
     };
@@ -2724,6 +2763,7 @@ private:
     struct {
       /// @brief Padding field 0xa0 for alignment
       uint8_t ___offset0160_padding_forAlignment[0xa0];
+      /// [SerializeField]
       /// @brief Field offset0160, offset: 0xa0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0160_forAlignment;
     };
@@ -2731,6 +2771,7 @@ private:
     struct {
       /// @brief Padding field 0xb0
       uint8_t ___offset0176_padding[0xb0];
+      /// [SerializeField]
       /// @brief Field offset0176, offset: 0xb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0176;
     };
@@ -2738,6 +2779,7 @@ private:
     struct {
       /// @brief Padding field 0xb0 for alignment
       uint8_t ___offset0176_padding_forAlignment[0xb0];
+      /// [SerializeField]
       /// @brief Field offset0176, offset: 0xb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0176_forAlignment;
     };
@@ -2745,6 +2787,7 @@ private:
     struct {
       /// @brief Padding field 0xc0
       uint8_t ___offset0192_padding[0xc0];
+      /// [SerializeField]
       /// @brief Field offset0192, offset: 0xc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0192;
     };
@@ -2752,6 +2795,7 @@ private:
     struct {
       /// @brief Padding field 0xc0 for alignment
       uint8_t ___offset0192_padding_forAlignment[0xc0];
+      /// [SerializeField]
       /// @brief Field offset0192, offset: 0xc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0192_forAlignment;
     };
@@ -2759,6 +2803,7 @@ private:
     struct {
       /// @brief Padding field 0xd0
       uint8_t ___offset0208_padding[0xd0];
+      /// [SerializeField]
       /// @brief Field offset0208, offset: 0xd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0208;
     };
@@ -2766,6 +2811,7 @@ private:
     struct {
       /// @brief Padding field 0xd0 for alignment
       uint8_t ___offset0208_padding_forAlignment[0xd0];
+      /// [SerializeField]
       /// @brief Field offset0208, offset: 0xd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0208_forAlignment;
     };
@@ -2773,6 +2819,7 @@ private:
     struct {
       /// @brief Padding field 0xe0
       uint8_t ___offset0224_padding[0xe0];
+      /// [SerializeField]
       /// @brief Field offset0224, offset: 0xe0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0224;
     };
@@ -2780,6 +2827,7 @@ private:
     struct {
       /// @brief Padding field 0xe0 for alignment
       uint8_t ___offset0224_padding_forAlignment[0xe0];
+      /// [SerializeField]
       /// @brief Field offset0224, offset: 0xe0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0224_forAlignment;
     };
@@ -2787,6 +2835,7 @@ private:
     struct {
       /// @brief Padding field 0xf0
       uint8_t ___offset0240_padding[0xf0];
+      /// [SerializeField]
       /// @brief Field offset0240, offset: 0xf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0240;
     };
@@ -2794,6 +2843,7 @@ private:
     struct {
       /// @brief Padding field 0xf0 for alignment
       uint8_t ___offset0240_padding_forAlignment[0xf0];
+      /// [SerializeField]
       /// @brief Field offset0240, offset: 0xf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0240_forAlignment;
     };
@@ -2801,6 +2851,7 @@ private:
     struct {
       /// @brief Padding field 0x100
       uint8_t ___offset0256_padding[0x100];
+      /// [SerializeField]
       /// @brief Field offset0256, offset: 0x100, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0256;
     };
@@ -2808,6 +2859,7 @@ private:
     struct {
       /// @brief Padding field 0x100 for alignment
       uint8_t ___offset0256_padding_forAlignment[0x100];
+      /// [SerializeField]
       /// @brief Field offset0256, offset: 0x100, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0256_forAlignment;
     };
@@ -2815,6 +2867,7 @@ private:
     struct {
       /// @brief Padding field 0x110
       uint8_t ___offset0272_padding[0x110];
+      /// [SerializeField]
       /// @brief Field offset0272, offset: 0x110, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0272;
     };
@@ -2822,6 +2875,7 @@ private:
     struct {
       /// @brief Padding field 0x110 for alignment
       uint8_t ___offset0272_padding_forAlignment[0x110];
+      /// [SerializeField]
       /// @brief Field offset0272, offset: 0x110, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0272_forAlignment;
     };
@@ -2829,6 +2883,7 @@ private:
     struct {
       /// @brief Padding field 0x120
       uint8_t ___offset0288_padding[0x120];
+      /// [SerializeField]
       /// @brief Field offset0288, offset: 0x120, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0288;
     };
@@ -2836,6 +2891,7 @@ private:
     struct {
       /// @brief Padding field 0x120 for alignment
       uint8_t ___offset0288_padding_forAlignment[0x120];
+      /// [SerializeField]
       /// @brief Field offset0288, offset: 0x120, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0288_forAlignment;
     };
@@ -2843,6 +2899,7 @@ private:
     struct {
       /// @brief Padding field 0x130
       uint8_t ___offset0304_padding[0x130];
+      /// [SerializeField]
       /// @brief Field offset0304, offset: 0x130, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0304;
     };
@@ -2850,6 +2907,7 @@ private:
     struct {
       /// @brief Padding field 0x130 for alignment
       uint8_t ___offset0304_padding_forAlignment[0x130];
+      /// [SerializeField]
       /// @brief Field offset0304, offset: 0x130, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0304_forAlignment;
     };
@@ -2857,6 +2915,7 @@ private:
     struct {
       /// @brief Padding field 0x140
       uint8_t ___offset0320_padding[0x140];
+      /// [SerializeField]
       /// @brief Field offset0320, offset: 0x140, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0320;
     };
@@ -2864,6 +2923,7 @@ private:
     struct {
       /// @brief Padding field 0x140 for alignment
       uint8_t ___offset0320_padding_forAlignment[0x140];
+      /// [SerializeField]
       /// @brief Field offset0320, offset: 0x140, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0320_forAlignment;
     };
@@ -2871,6 +2931,7 @@ private:
     struct {
       /// @brief Padding field 0x150
       uint8_t ___offset0336_padding[0x150];
+      /// [SerializeField]
       /// @brief Field offset0336, offset: 0x150, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0336;
     };
@@ -2878,6 +2939,7 @@ private:
     struct {
       /// @brief Padding field 0x150 for alignment
       uint8_t ___offset0336_padding_forAlignment[0x150];
+      /// [SerializeField]
       /// @brief Field offset0336, offset: 0x150, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0336_forAlignment;
     };
@@ -2885,6 +2947,7 @@ private:
     struct {
       /// @brief Padding field 0x160
       uint8_t ___offset0352_padding[0x160];
+      /// [SerializeField]
       /// @brief Field offset0352, offset: 0x160, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0352;
     };
@@ -2892,6 +2955,7 @@ private:
     struct {
       /// @brief Padding field 0x160 for alignment
       uint8_t ___offset0352_padding_forAlignment[0x160];
+      /// [SerializeField]
       /// @brief Field offset0352, offset: 0x160, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0352_forAlignment;
     };
@@ -2899,6 +2963,7 @@ private:
     struct {
       /// @brief Padding field 0x170
       uint8_t ___offset0368_padding[0x170];
+      /// [SerializeField]
       /// @brief Field offset0368, offset: 0x170, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0368;
     };
@@ -2906,6 +2971,7 @@ private:
     struct {
       /// @brief Padding field 0x170 for alignment
       uint8_t ___offset0368_padding_forAlignment[0x170];
+      /// [SerializeField]
       /// @brief Field offset0368, offset: 0x170, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0368_forAlignment;
     };
@@ -2913,6 +2979,7 @@ private:
     struct {
       /// @brief Padding field 0x180
       uint8_t ___offset0384_padding[0x180];
+      /// [SerializeField]
       /// @brief Field offset0384, offset: 0x180, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0384;
     };
@@ -2920,6 +2987,7 @@ private:
     struct {
       /// @brief Padding field 0x180 for alignment
       uint8_t ___offset0384_padding_forAlignment[0x180];
+      /// [SerializeField]
       /// @brief Field offset0384, offset: 0x180, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0384_forAlignment;
     };
@@ -2927,6 +2995,7 @@ private:
     struct {
       /// @brief Padding field 0x190
       uint8_t ___offset0400_padding[0x190];
+      /// [SerializeField]
       /// @brief Field offset0400, offset: 0x190, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0400;
     };
@@ -2934,6 +3003,7 @@ private:
     struct {
       /// @brief Padding field 0x190 for alignment
       uint8_t ___offset0400_padding_forAlignment[0x190];
+      /// [SerializeField]
       /// @brief Field offset0400, offset: 0x190, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0400_forAlignment;
     };
@@ -2941,6 +3011,7 @@ private:
     struct {
       /// @brief Padding field 0x1a0
       uint8_t ___offset0416_padding[0x1a0];
+      /// [SerializeField]
       /// @brief Field offset0416, offset: 0x1a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0416;
     };
@@ -2948,6 +3019,7 @@ private:
     struct {
       /// @brief Padding field 0x1a0 for alignment
       uint8_t ___offset0416_padding_forAlignment[0x1a0];
+      /// [SerializeField]
       /// @brief Field offset0416, offset: 0x1a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0416_forAlignment;
     };
@@ -2955,6 +3027,7 @@ private:
     struct {
       /// @brief Padding field 0x1b0
       uint8_t ___offset0432_padding[0x1b0];
+      /// [SerializeField]
       /// @brief Field offset0432, offset: 0x1b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0432;
     };
@@ -2962,6 +3035,7 @@ private:
     struct {
       /// @brief Padding field 0x1b0 for alignment
       uint8_t ___offset0432_padding_forAlignment[0x1b0];
+      /// [SerializeField]
       /// @brief Field offset0432, offset: 0x1b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0432_forAlignment;
     };
@@ -2969,6 +3043,7 @@ private:
     struct {
       /// @brief Padding field 0x1c0
       uint8_t ___offset0448_padding[0x1c0];
+      /// [SerializeField]
       /// @brief Field offset0448, offset: 0x1c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0448;
     };
@@ -2976,6 +3051,7 @@ private:
     struct {
       /// @brief Padding field 0x1c0 for alignment
       uint8_t ___offset0448_padding_forAlignment[0x1c0];
+      /// [SerializeField]
       /// @brief Field offset0448, offset: 0x1c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0448_forAlignment;
     };
@@ -2983,6 +3059,7 @@ private:
     struct {
       /// @brief Padding field 0x1d0
       uint8_t ___offset0464_padding[0x1d0];
+      /// [SerializeField]
       /// @brief Field offset0464, offset: 0x1d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0464;
     };
@@ -2990,6 +3067,7 @@ private:
     struct {
       /// @brief Padding field 0x1d0 for alignment
       uint8_t ___offset0464_padding_forAlignment[0x1d0];
+      /// [SerializeField]
       /// @brief Field offset0464, offset: 0x1d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0464_forAlignment;
     };
@@ -2997,6 +3075,7 @@ private:
     struct {
       /// @brief Padding field 0x1e0
       uint8_t ___offset0480_padding[0x1e0];
+      /// [SerializeField]
       /// @brief Field offset0480, offset: 0x1e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0480;
     };
@@ -3004,6 +3083,7 @@ private:
     struct {
       /// @brief Padding field 0x1e0 for alignment
       uint8_t ___offset0480_padding_forAlignment[0x1e0];
+      /// [SerializeField]
       /// @brief Field offset0480, offset: 0x1e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0480_forAlignment;
     };
@@ -3011,6 +3091,7 @@ private:
     struct {
       /// @brief Padding field 0x1f0
       uint8_t ___offset0496_padding[0x1f0];
+      /// [SerializeField]
       /// @brief Field offset0496, offset: 0x1f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0496;
     };
@@ -3018,6 +3099,7 @@ private:
     struct {
       /// @brief Padding field 0x1f0 for alignment
       uint8_t ___offset0496_padding_forAlignment[0x1f0];
+      /// [SerializeField]
       /// @brief Field offset0496, offset: 0x1f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0496_forAlignment;
     };
@@ -3025,6 +3107,7 @@ private:
     struct {
       /// @brief Padding field 0x200
       uint8_t ___offset0512_padding[0x200];
+      /// [SerializeField]
       /// @brief Field offset0512, offset: 0x200, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0512;
     };
@@ -3032,6 +3115,7 @@ private:
     struct {
       /// @brief Padding field 0x200 for alignment
       uint8_t ___offset0512_padding_forAlignment[0x200];
+      /// [SerializeField]
       /// @brief Field offset0512, offset: 0x200, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0512_forAlignment;
     };
@@ -3039,6 +3123,7 @@ private:
     struct {
       /// @brief Padding field 0x210
       uint8_t ___offset0528_padding[0x210];
+      /// [SerializeField]
       /// @brief Field offset0528, offset: 0x210, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0528;
     };
@@ -3046,6 +3131,7 @@ private:
     struct {
       /// @brief Padding field 0x210 for alignment
       uint8_t ___offset0528_padding_forAlignment[0x210];
+      /// [SerializeField]
       /// @brief Field offset0528, offset: 0x210, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0528_forAlignment;
     };
@@ -3053,6 +3139,7 @@ private:
     struct {
       /// @brief Padding field 0x220
       uint8_t ___offset0544_padding[0x220];
+      /// [SerializeField]
       /// @brief Field offset0544, offset: 0x220, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0544;
     };
@@ -3060,6 +3147,7 @@ private:
     struct {
       /// @brief Padding field 0x220 for alignment
       uint8_t ___offset0544_padding_forAlignment[0x220];
+      /// [SerializeField]
       /// @brief Field offset0544, offset: 0x220, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0544_forAlignment;
     };
@@ -3067,6 +3155,7 @@ private:
     struct {
       /// @brief Padding field 0x230
       uint8_t ___offset0560_padding[0x230];
+      /// [SerializeField]
       /// @brief Field offset0560, offset: 0x230, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0560;
     };
@@ -3074,6 +3163,7 @@ private:
     struct {
       /// @brief Padding field 0x230 for alignment
       uint8_t ___offset0560_padding_forAlignment[0x230];
+      /// [SerializeField]
       /// @brief Field offset0560, offset: 0x230, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0560_forAlignment;
     };
@@ -3081,6 +3171,7 @@ private:
     struct {
       /// @brief Padding field 0x240
       uint8_t ___offset0576_padding[0x240];
+      /// [SerializeField]
       /// @brief Field offset0576, offset: 0x240, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0576;
     };
@@ -3088,6 +3179,7 @@ private:
     struct {
       /// @brief Padding field 0x240 for alignment
       uint8_t ___offset0576_padding_forAlignment[0x240];
+      /// [SerializeField]
       /// @brief Field offset0576, offset: 0x240, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0576_forAlignment;
     };
@@ -3095,6 +3187,7 @@ private:
     struct {
       /// @brief Padding field 0x250
       uint8_t ___offset0592_padding[0x250];
+      /// [SerializeField]
       /// @brief Field offset0592, offset: 0x250, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0592;
     };
@@ -3102,6 +3195,7 @@ private:
     struct {
       /// @brief Padding field 0x250 for alignment
       uint8_t ___offset0592_padding_forAlignment[0x250];
+      /// [SerializeField]
       /// @brief Field offset0592, offset: 0x250, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0592_forAlignment;
     };
@@ -3109,6 +3203,7 @@ private:
     struct {
       /// @brief Padding field 0x260
       uint8_t ___offset0608_padding[0x260];
+      /// [SerializeField]
       /// @brief Field offset0608, offset: 0x260, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0608;
     };
@@ -3116,6 +3211,7 @@ private:
     struct {
       /// @brief Padding field 0x260 for alignment
       uint8_t ___offset0608_padding_forAlignment[0x260];
+      /// [SerializeField]
       /// @brief Field offset0608, offset: 0x260, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0608_forAlignment;
     };
@@ -3123,6 +3219,7 @@ private:
     struct {
       /// @brief Padding field 0x270
       uint8_t ___offset0624_padding[0x270];
+      /// [SerializeField]
       /// @brief Field offset0624, offset: 0x270, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0624;
     };
@@ -3130,6 +3227,7 @@ private:
     struct {
       /// @brief Padding field 0x270 for alignment
       uint8_t ___offset0624_padding_forAlignment[0x270];
+      /// [SerializeField]
       /// @brief Field offset0624, offset: 0x270, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0624_forAlignment;
     };
@@ -3137,6 +3235,7 @@ private:
     struct {
       /// @brief Padding field 0x280
       uint8_t ___offset0640_padding[0x280];
+      /// [SerializeField]
       /// @brief Field offset0640, offset: 0x280, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0640;
     };
@@ -3144,6 +3243,7 @@ private:
     struct {
       /// @brief Padding field 0x280 for alignment
       uint8_t ___offset0640_padding_forAlignment[0x280];
+      /// [SerializeField]
       /// @brief Field offset0640, offset: 0x280, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0640_forAlignment;
     };
@@ -3151,6 +3251,7 @@ private:
     struct {
       /// @brief Padding field 0x290
       uint8_t ___offset0656_padding[0x290];
+      /// [SerializeField]
       /// @brief Field offset0656, offset: 0x290, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0656;
     };
@@ -3158,6 +3259,7 @@ private:
     struct {
       /// @brief Padding field 0x290 for alignment
       uint8_t ___offset0656_padding_forAlignment[0x290];
+      /// [SerializeField]
       /// @brief Field offset0656, offset: 0x290, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0656_forAlignment;
     };
@@ -3165,6 +3267,7 @@ private:
     struct {
       /// @brief Padding field 0x2a0
       uint8_t ___offset0672_padding[0x2a0];
+      /// [SerializeField]
       /// @brief Field offset0672, offset: 0x2a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0672;
     };
@@ -3172,6 +3275,7 @@ private:
     struct {
       /// @brief Padding field 0x2a0 for alignment
       uint8_t ___offset0672_padding_forAlignment[0x2a0];
+      /// [SerializeField]
       /// @brief Field offset0672, offset: 0x2a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0672_forAlignment;
     };
@@ -3179,6 +3283,7 @@ private:
     struct {
       /// @brief Padding field 0x2b0
       uint8_t ___offset0688_padding[0x2b0];
+      /// [SerializeField]
       /// @brief Field offset0688, offset: 0x2b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0688;
     };
@@ -3186,6 +3291,7 @@ private:
     struct {
       /// @brief Padding field 0x2b0 for alignment
       uint8_t ___offset0688_padding_forAlignment[0x2b0];
+      /// [SerializeField]
       /// @brief Field offset0688, offset: 0x2b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0688_forAlignment;
     };
@@ -3193,6 +3299,7 @@ private:
     struct {
       /// @brief Padding field 0x2c0
       uint8_t ___offset0704_padding[0x2c0];
+      /// [SerializeField]
       /// @brief Field offset0704, offset: 0x2c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0704;
     };
@@ -3200,6 +3307,7 @@ private:
     struct {
       /// @brief Padding field 0x2c0 for alignment
       uint8_t ___offset0704_padding_forAlignment[0x2c0];
+      /// [SerializeField]
       /// @brief Field offset0704, offset: 0x2c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0704_forAlignment;
     };
@@ -3207,6 +3315,7 @@ private:
     struct {
       /// @brief Padding field 0x2d0
       uint8_t ___offset0720_padding[0x2d0];
+      /// [SerializeField]
       /// @brief Field offset0720, offset: 0x2d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0720;
     };
@@ -3214,6 +3323,7 @@ private:
     struct {
       /// @brief Padding field 0x2d0 for alignment
       uint8_t ___offset0720_padding_forAlignment[0x2d0];
+      /// [SerializeField]
       /// @brief Field offset0720, offset: 0x2d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0720_forAlignment;
     };
@@ -3221,6 +3331,7 @@ private:
     struct {
       /// @brief Padding field 0x2e0
       uint8_t ___offset0736_padding[0x2e0];
+      /// [SerializeField]
       /// @brief Field offset0736, offset: 0x2e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0736;
     };
@@ -3228,6 +3339,7 @@ private:
     struct {
       /// @brief Padding field 0x2e0 for alignment
       uint8_t ___offset0736_padding_forAlignment[0x2e0];
+      /// [SerializeField]
       /// @brief Field offset0736, offset: 0x2e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0736_forAlignment;
     };
@@ -3235,6 +3347,7 @@ private:
     struct {
       /// @brief Padding field 0x2f0
       uint8_t ___offset0752_padding[0x2f0];
+      /// [SerializeField]
       /// @brief Field offset0752, offset: 0x2f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0752;
     };
@@ -3242,6 +3355,7 @@ private:
     struct {
       /// @brief Padding field 0x2f0 for alignment
       uint8_t ___offset0752_padding_forAlignment[0x2f0];
+      /// [SerializeField]
       /// @brief Field offset0752, offset: 0x2f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0752_forAlignment;
     };
@@ -3249,6 +3363,7 @@ private:
     struct {
       /// @brief Padding field 0x300
       uint8_t ___offset0768_padding[0x300];
+      /// [SerializeField]
       /// @brief Field offset0768, offset: 0x300, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0768;
     };
@@ -3256,6 +3371,7 @@ private:
     struct {
       /// @brief Padding field 0x300 for alignment
       uint8_t ___offset0768_padding_forAlignment[0x300];
+      /// [SerializeField]
       /// @brief Field offset0768, offset: 0x300, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0768_forAlignment;
     };
@@ -3263,6 +3379,7 @@ private:
     struct {
       /// @brief Padding field 0x310
       uint8_t ___offset0784_padding[0x310];
+      /// [SerializeField]
       /// @brief Field offset0784, offset: 0x310, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0784;
     };
@@ -3270,6 +3387,7 @@ private:
     struct {
       /// @brief Padding field 0x310 for alignment
       uint8_t ___offset0784_padding_forAlignment[0x310];
+      /// [SerializeField]
       /// @brief Field offset0784, offset: 0x310, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0784_forAlignment;
     };
@@ -3277,6 +3395,7 @@ private:
     struct {
       /// @brief Padding field 0x320
       uint8_t ___offset0800_padding[0x320];
+      /// [SerializeField]
       /// @brief Field offset0800, offset: 0x320, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0800;
     };
@@ -3284,6 +3403,7 @@ private:
     struct {
       /// @brief Padding field 0x320 for alignment
       uint8_t ___offset0800_padding_forAlignment[0x320];
+      /// [SerializeField]
       /// @brief Field offset0800, offset: 0x320, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0800_forAlignment;
     };
@@ -3291,6 +3411,7 @@ private:
     struct {
       /// @brief Padding field 0x330
       uint8_t ___offset0816_padding[0x330];
+      /// [SerializeField]
       /// @brief Field offset0816, offset: 0x330, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0816;
     };
@@ -3298,6 +3419,7 @@ private:
     struct {
       /// @brief Padding field 0x330 for alignment
       uint8_t ___offset0816_padding_forAlignment[0x330];
+      /// [SerializeField]
       /// @brief Field offset0816, offset: 0x330, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0816_forAlignment;
     };
@@ -3305,6 +3427,7 @@ private:
     struct {
       /// @brief Padding field 0x340
       uint8_t ___offset0832_padding[0x340];
+      /// [SerializeField]
       /// @brief Field offset0832, offset: 0x340, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0832;
     };
@@ -3312,6 +3435,7 @@ private:
     struct {
       /// @brief Padding field 0x340 for alignment
       uint8_t ___offset0832_padding_forAlignment[0x340];
+      /// [SerializeField]
       /// @brief Field offset0832, offset: 0x340, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0832_forAlignment;
     };
@@ -3319,6 +3443,7 @@ private:
     struct {
       /// @brief Padding field 0x350
       uint8_t ___offset0848_padding[0x350];
+      /// [SerializeField]
       /// @brief Field offset0848, offset: 0x350, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0848;
     };
@@ -3326,6 +3451,7 @@ private:
     struct {
       /// @brief Padding field 0x350 for alignment
       uint8_t ___offset0848_padding_forAlignment[0x350];
+      /// [SerializeField]
       /// @brief Field offset0848, offset: 0x350, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0848_forAlignment;
     };
@@ -3333,6 +3459,7 @@ private:
     struct {
       /// @brief Padding field 0x360
       uint8_t ___offset0864_padding[0x360];
+      /// [SerializeField]
       /// @brief Field offset0864, offset: 0x360, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0864;
     };
@@ -3340,6 +3467,7 @@ private:
     struct {
       /// @brief Padding field 0x360 for alignment
       uint8_t ___offset0864_padding_forAlignment[0x360];
+      /// [SerializeField]
       /// @brief Field offset0864, offset: 0x360, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0864_forAlignment;
     };
@@ -3347,6 +3475,7 @@ private:
     struct {
       /// @brief Padding field 0x370
       uint8_t ___offset0880_padding[0x370];
+      /// [SerializeField]
       /// @brief Field offset0880, offset: 0x370, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0880;
     };
@@ -3354,6 +3483,7 @@ private:
     struct {
       /// @brief Padding field 0x370 for alignment
       uint8_t ___offset0880_padding_forAlignment[0x370];
+      /// [SerializeField]
       /// @brief Field offset0880, offset: 0x370, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0880_forAlignment;
     };
@@ -3361,6 +3491,7 @@ private:
     struct {
       /// @brief Padding field 0x380
       uint8_t ___offset0896_padding[0x380];
+      /// [SerializeField]
       /// @brief Field offset0896, offset: 0x380, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0896;
     };
@@ -3368,6 +3499,7 @@ private:
     struct {
       /// @brief Padding field 0x380 for alignment
       uint8_t ___offset0896_padding_forAlignment[0x380];
+      /// [SerializeField]
       /// @brief Field offset0896, offset: 0x380, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0896_forAlignment;
     };
@@ -3375,6 +3507,7 @@ private:
     struct {
       /// @brief Padding field 0x390
       uint8_t ___offset0912_padding[0x390];
+      /// [SerializeField]
       /// @brief Field offset0912, offset: 0x390, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0912;
     };
@@ -3382,6 +3515,7 @@ private:
     struct {
       /// @brief Padding field 0x390 for alignment
       uint8_t ___offset0912_padding_forAlignment[0x390];
+      /// [SerializeField]
       /// @brief Field offset0912, offset: 0x390, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0912_forAlignment;
     };
@@ -3389,6 +3523,7 @@ private:
     struct {
       /// @brief Padding field 0x3a0
       uint8_t ___offset0928_padding[0x3a0];
+      /// [SerializeField]
       /// @brief Field offset0928, offset: 0x3a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0928;
     };
@@ -3396,6 +3531,7 @@ private:
     struct {
       /// @brief Padding field 0x3a0 for alignment
       uint8_t ___offset0928_padding_forAlignment[0x3a0];
+      /// [SerializeField]
       /// @brief Field offset0928, offset: 0x3a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0928_forAlignment;
     };
@@ -3403,6 +3539,7 @@ private:
     struct {
       /// @brief Padding field 0x3b0
       uint8_t ___offset0944_padding[0x3b0];
+      /// [SerializeField]
       /// @brief Field offset0944, offset: 0x3b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0944;
     };
@@ -3410,6 +3547,7 @@ private:
     struct {
       /// @brief Padding field 0x3b0 for alignment
       uint8_t ___offset0944_padding_forAlignment[0x3b0];
+      /// [SerializeField]
       /// @brief Field offset0944, offset: 0x3b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0944_forAlignment;
     };
@@ -3417,6 +3555,7 @@ private:
     struct {
       /// @brief Padding field 0x3c0
       uint8_t ___offset0960_padding[0x3c0];
+      /// [SerializeField]
       /// @brief Field offset0960, offset: 0x3c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0960;
     };
@@ -3424,6 +3563,7 @@ private:
     struct {
       /// @brief Padding field 0x3c0 for alignment
       uint8_t ___offset0960_padding_forAlignment[0x3c0];
+      /// [SerializeField]
       /// @brief Field offset0960, offset: 0x3c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0960_forAlignment;
     };
@@ -3431,6 +3571,7 @@ private:
     struct {
       /// @brief Padding field 0x3d0
       uint8_t ___offset0976_padding[0x3d0];
+      /// [SerializeField]
       /// @brief Field offset0976, offset: 0x3d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0976;
     };
@@ -3438,6 +3579,7 @@ private:
     struct {
       /// @brief Padding field 0x3d0 for alignment
       uint8_t ___offset0976_padding_forAlignment[0x3d0];
+      /// [SerializeField]
       /// @brief Field offset0976, offset: 0x3d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0976_forAlignment;
     };
@@ -3445,6 +3587,7 @@ private:
     struct {
       /// @brief Padding field 0x3e0
       uint8_t ___offset0992_padding[0x3e0];
+      /// [SerializeField]
       /// @brief Field offset0992, offset: 0x3e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0992;
     };
@@ -3452,6 +3595,7 @@ private:
     struct {
       /// @brief Padding field 0x3e0 for alignment
       uint8_t ___offset0992_padding_forAlignment[0x3e0];
+      /// [SerializeField]
       /// @brief Field offset0992, offset: 0x3e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset0992_forAlignment;
     };
@@ -3459,6 +3603,7 @@ private:
     struct {
       /// @brief Padding field 0x3f0
       uint8_t ___offset1008_padding[0x3f0];
+      /// [SerializeField]
       /// @brief Field offset1008, offset: 0x3f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1008;
     };
@@ -3466,6 +3611,7 @@ private:
     struct {
       /// @brief Padding field 0x3f0 for alignment
       uint8_t ___offset1008_padding_forAlignment[0x3f0];
+      /// [SerializeField]
       /// @brief Field offset1008, offset: 0x3f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1008_forAlignment;
     };
@@ -3473,6 +3619,7 @@ private:
     struct {
       /// @brief Padding field 0x400
       uint8_t ___offset1024_padding[0x400];
+      /// [SerializeField]
       /// @brief Field offset1024, offset: 0x400, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1024;
     };
@@ -3480,6 +3627,7 @@ private:
     struct {
       /// @brief Padding field 0x400 for alignment
       uint8_t ___offset1024_padding_forAlignment[0x400];
+      /// [SerializeField]
       /// @brief Field offset1024, offset: 0x400, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1024_forAlignment;
     };
@@ -3487,6 +3635,7 @@ private:
     struct {
       /// @brief Padding field 0x410
       uint8_t ___offset1040_padding[0x410];
+      /// [SerializeField]
       /// @brief Field offset1040, offset: 0x410, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1040;
     };
@@ -3494,6 +3643,7 @@ private:
     struct {
       /// @brief Padding field 0x410 for alignment
       uint8_t ___offset1040_padding_forAlignment[0x410];
+      /// [SerializeField]
       /// @brief Field offset1040, offset: 0x410, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1040_forAlignment;
     };
@@ -3501,6 +3651,7 @@ private:
     struct {
       /// @brief Padding field 0x420
       uint8_t ___offset1056_padding[0x420];
+      /// [SerializeField]
       /// @brief Field offset1056, offset: 0x420, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1056;
     };
@@ -3508,6 +3659,7 @@ private:
     struct {
       /// @brief Padding field 0x420 for alignment
       uint8_t ___offset1056_padding_forAlignment[0x420];
+      /// [SerializeField]
       /// @brief Field offset1056, offset: 0x420, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1056_forAlignment;
     };
@@ -3515,6 +3667,7 @@ private:
     struct {
       /// @brief Padding field 0x430
       uint8_t ___offset1072_padding[0x430];
+      /// [SerializeField]
       /// @brief Field offset1072, offset: 0x430, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1072;
     };
@@ -3522,6 +3675,7 @@ private:
     struct {
       /// @brief Padding field 0x430 for alignment
       uint8_t ___offset1072_padding_forAlignment[0x430];
+      /// [SerializeField]
       /// @brief Field offset1072, offset: 0x430, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1072_forAlignment;
     };
@@ -3529,6 +3683,7 @@ private:
     struct {
       /// @brief Padding field 0x440
       uint8_t ___offset1088_padding[0x440];
+      /// [SerializeField]
       /// @brief Field offset1088, offset: 0x440, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1088;
     };
@@ -3536,6 +3691,7 @@ private:
     struct {
       /// @brief Padding field 0x440 for alignment
       uint8_t ___offset1088_padding_forAlignment[0x440];
+      /// [SerializeField]
       /// @brief Field offset1088, offset: 0x440, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1088_forAlignment;
     };
@@ -3543,6 +3699,7 @@ private:
     struct {
       /// @brief Padding field 0x450
       uint8_t ___offset1104_padding[0x450];
+      /// [SerializeField]
       /// @brief Field offset1104, offset: 0x450, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1104;
     };
@@ -3550,6 +3707,7 @@ private:
     struct {
       /// @brief Padding field 0x450 for alignment
       uint8_t ___offset1104_padding_forAlignment[0x450];
+      /// [SerializeField]
       /// @brief Field offset1104, offset: 0x450, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1104_forAlignment;
     };
@@ -3557,6 +3715,7 @@ private:
     struct {
       /// @brief Padding field 0x460
       uint8_t ___offset1120_padding[0x460];
+      /// [SerializeField]
       /// @brief Field offset1120, offset: 0x460, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1120;
     };
@@ -3564,6 +3723,7 @@ private:
     struct {
       /// @brief Padding field 0x460 for alignment
       uint8_t ___offset1120_padding_forAlignment[0x460];
+      /// [SerializeField]
       /// @brief Field offset1120, offset: 0x460, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1120_forAlignment;
     };
@@ -3571,6 +3731,7 @@ private:
     struct {
       /// @brief Padding field 0x470
       uint8_t ___offset1136_padding[0x470];
+      /// [SerializeField]
       /// @brief Field offset1136, offset: 0x470, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1136;
     };
@@ -3578,6 +3739,7 @@ private:
     struct {
       /// @brief Padding field 0x470 for alignment
       uint8_t ___offset1136_padding_forAlignment[0x470];
+      /// [SerializeField]
       /// @brief Field offset1136, offset: 0x470, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1136_forAlignment;
     };
@@ -3585,6 +3747,7 @@ private:
     struct {
       /// @brief Padding field 0x480
       uint8_t ___offset1152_padding[0x480];
+      /// [SerializeField]
       /// @brief Field offset1152, offset: 0x480, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1152;
     };
@@ -3592,6 +3755,7 @@ private:
     struct {
       /// @brief Padding field 0x480 for alignment
       uint8_t ___offset1152_padding_forAlignment[0x480];
+      /// [SerializeField]
       /// @brief Field offset1152, offset: 0x480, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1152_forAlignment;
     };
@@ -3599,6 +3763,7 @@ private:
     struct {
       /// @brief Padding field 0x490
       uint8_t ___offset1168_padding[0x490];
+      /// [SerializeField]
       /// @brief Field offset1168, offset: 0x490, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1168;
     };
@@ -3606,6 +3771,7 @@ private:
     struct {
       /// @brief Padding field 0x490 for alignment
       uint8_t ___offset1168_padding_forAlignment[0x490];
+      /// [SerializeField]
       /// @brief Field offset1168, offset: 0x490, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1168_forAlignment;
     };
@@ -3613,6 +3779,7 @@ private:
     struct {
       /// @brief Padding field 0x4a0
       uint8_t ___offset1184_padding[0x4a0];
+      /// [SerializeField]
       /// @brief Field offset1184, offset: 0x4a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1184;
     };
@@ -3620,6 +3787,7 @@ private:
     struct {
       /// @brief Padding field 0x4a0 for alignment
       uint8_t ___offset1184_padding_forAlignment[0x4a0];
+      /// [SerializeField]
       /// @brief Field offset1184, offset: 0x4a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1184_forAlignment;
     };
@@ -3627,6 +3795,7 @@ private:
     struct {
       /// @brief Padding field 0x4b0
       uint8_t ___offset1200_padding[0x4b0];
+      /// [SerializeField]
       /// @brief Field offset1200, offset: 0x4b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1200;
     };
@@ -3634,6 +3803,7 @@ private:
     struct {
       /// @brief Padding field 0x4b0 for alignment
       uint8_t ___offset1200_padding_forAlignment[0x4b0];
+      /// [SerializeField]
       /// @brief Field offset1200, offset: 0x4b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1200_forAlignment;
     };
@@ -3641,6 +3811,7 @@ private:
     struct {
       /// @brief Padding field 0x4c0
       uint8_t ___offset1216_padding[0x4c0];
+      /// [SerializeField]
       /// @brief Field offset1216, offset: 0x4c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1216;
     };
@@ -3648,6 +3819,7 @@ private:
     struct {
       /// @brief Padding field 0x4c0 for alignment
       uint8_t ___offset1216_padding_forAlignment[0x4c0];
+      /// [SerializeField]
       /// @brief Field offset1216, offset: 0x4c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1216_forAlignment;
     };
@@ -3655,6 +3827,7 @@ private:
     struct {
       /// @brief Padding field 0x4d0
       uint8_t ___offset1232_padding[0x4d0];
+      /// [SerializeField]
       /// @brief Field offset1232, offset: 0x4d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1232;
     };
@@ -3662,6 +3835,7 @@ private:
     struct {
       /// @brief Padding field 0x4d0 for alignment
       uint8_t ___offset1232_padding_forAlignment[0x4d0];
+      /// [SerializeField]
       /// @brief Field offset1232, offset: 0x4d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1232_forAlignment;
     };
@@ -3669,6 +3843,7 @@ private:
     struct {
       /// @brief Padding field 0x4e0
       uint8_t ___offset1248_padding[0x4e0];
+      /// [SerializeField]
       /// @brief Field offset1248, offset: 0x4e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1248;
     };
@@ -3676,6 +3851,7 @@ private:
     struct {
       /// @brief Padding field 0x4e0 for alignment
       uint8_t ___offset1248_padding_forAlignment[0x4e0];
+      /// [SerializeField]
       /// @brief Field offset1248, offset: 0x4e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1248_forAlignment;
     };
@@ -3683,6 +3859,7 @@ private:
     struct {
       /// @brief Padding field 0x4f0
       uint8_t ___offset1264_padding[0x4f0];
+      /// [SerializeField]
       /// @brief Field offset1264, offset: 0x4f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1264;
     };
@@ -3690,6 +3867,7 @@ private:
     struct {
       /// @brief Padding field 0x4f0 for alignment
       uint8_t ___offset1264_padding_forAlignment[0x4f0];
+      /// [SerializeField]
       /// @brief Field offset1264, offset: 0x4f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1264_forAlignment;
     };
@@ -3697,6 +3875,7 @@ private:
     struct {
       /// @brief Padding field 0x500
       uint8_t ___offset1280_padding[0x500];
+      /// [SerializeField]
       /// @brief Field offset1280, offset: 0x500, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1280;
     };
@@ -3704,6 +3883,7 @@ private:
     struct {
       /// @brief Padding field 0x500 for alignment
       uint8_t ___offset1280_padding_forAlignment[0x500];
+      /// [SerializeField]
       /// @brief Field offset1280, offset: 0x500, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1280_forAlignment;
     };
@@ -3711,6 +3891,7 @@ private:
     struct {
       /// @brief Padding field 0x510
       uint8_t ___offset1296_padding[0x510];
+      /// [SerializeField]
       /// @brief Field offset1296, offset: 0x510, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1296;
     };
@@ -3718,6 +3899,7 @@ private:
     struct {
       /// @brief Padding field 0x510 for alignment
       uint8_t ___offset1296_padding_forAlignment[0x510];
+      /// [SerializeField]
       /// @brief Field offset1296, offset: 0x510, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1296_forAlignment;
     };
@@ -3725,6 +3907,7 @@ private:
     struct {
       /// @brief Padding field 0x520
       uint8_t ___offset1312_padding[0x520];
+      /// [SerializeField]
       /// @brief Field offset1312, offset: 0x520, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1312;
     };
@@ -3732,6 +3915,7 @@ private:
     struct {
       /// @brief Padding field 0x520 for alignment
       uint8_t ___offset1312_padding_forAlignment[0x520];
+      /// [SerializeField]
       /// @brief Field offset1312, offset: 0x520, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1312_forAlignment;
     };
@@ -3739,6 +3923,7 @@ private:
     struct {
       /// @brief Padding field 0x530
       uint8_t ___offset1328_padding[0x530];
+      /// [SerializeField]
       /// @brief Field offset1328, offset: 0x530, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1328;
     };
@@ -3746,6 +3931,7 @@ private:
     struct {
       /// @brief Padding field 0x530 for alignment
       uint8_t ___offset1328_padding_forAlignment[0x530];
+      /// [SerializeField]
       /// @brief Field offset1328, offset: 0x530, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1328_forAlignment;
     };
@@ -3753,6 +3939,7 @@ private:
     struct {
       /// @brief Padding field 0x540
       uint8_t ___offset1344_padding[0x540];
+      /// [SerializeField]
       /// @brief Field offset1344, offset: 0x540, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1344;
     };
@@ -3760,6 +3947,7 @@ private:
     struct {
       /// @brief Padding field 0x540 for alignment
       uint8_t ___offset1344_padding_forAlignment[0x540];
+      /// [SerializeField]
       /// @brief Field offset1344, offset: 0x540, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1344_forAlignment;
     };
@@ -3767,6 +3955,7 @@ private:
     struct {
       /// @brief Padding field 0x550
       uint8_t ___offset1360_padding[0x550];
+      /// [SerializeField]
       /// @brief Field offset1360, offset: 0x550, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1360;
     };
@@ -3774,6 +3963,7 @@ private:
     struct {
       /// @brief Padding field 0x550 for alignment
       uint8_t ___offset1360_padding_forAlignment[0x550];
+      /// [SerializeField]
       /// @brief Field offset1360, offset: 0x550, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1360_forAlignment;
     };
@@ -3781,6 +3971,7 @@ private:
     struct {
       /// @brief Padding field 0x560
       uint8_t ___offset1376_padding[0x560];
+      /// [SerializeField]
       /// @brief Field offset1376, offset: 0x560, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1376;
     };
@@ -3788,6 +3979,7 @@ private:
     struct {
       /// @brief Padding field 0x560 for alignment
       uint8_t ___offset1376_padding_forAlignment[0x560];
+      /// [SerializeField]
       /// @brief Field offset1376, offset: 0x560, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1376_forAlignment;
     };
@@ -3795,6 +3987,7 @@ private:
     struct {
       /// @brief Padding field 0x570
       uint8_t ___offset1392_padding[0x570];
+      /// [SerializeField]
       /// @brief Field offset1392, offset: 0x570, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1392;
     };
@@ -3802,6 +3995,7 @@ private:
     struct {
       /// @brief Padding field 0x570 for alignment
       uint8_t ___offset1392_padding_forAlignment[0x570];
+      /// [SerializeField]
       /// @brief Field offset1392, offset: 0x570, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1392_forAlignment;
     };
@@ -3809,6 +4003,7 @@ private:
     struct {
       /// @brief Padding field 0x580
       uint8_t ___offset1408_padding[0x580];
+      /// [SerializeField]
       /// @brief Field offset1408, offset: 0x580, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1408;
     };
@@ -3816,6 +4011,7 @@ private:
     struct {
       /// @brief Padding field 0x580 for alignment
       uint8_t ___offset1408_padding_forAlignment[0x580];
+      /// [SerializeField]
       /// @brief Field offset1408, offset: 0x580, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1408_forAlignment;
     };
@@ -3823,6 +4019,7 @@ private:
     struct {
       /// @brief Padding field 0x590
       uint8_t ___offset1424_padding[0x590];
+      /// [SerializeField]
       /// @brief Field offset1424, offset: 0x590, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1424;
     };
@@ -3830,6 +4027,7 @@ private:
     struct {
       /// @brief Padding field 0x590 for alignment
       uint8_t ___offset1424_padding_forAlignment[0x590];
+      /// [SerializeField]
       /// @brief Field offset1424, offset: 0x590, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1424_forAlignment;
     };
@@ -3837,6 +4035,7 @@ private:
     struct {
       /// @brief Padding field 0x5a0
       uint8_t ___offset1440_padding[0x5a0];
+      /// [SerializeField]
       /// @brief Field offset1440, offset: 0x5a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1440;
     };
@@ -3844,6 +4043,7 @@ private:
     struct {
       /// @brief Padding field 0x5a0 for alignment
       uint8_t ___offset1440_padding_forAlignment[0x5a0];
+      /// [SerializeField]
       /// @brief Field offset1440, offset: 0x5a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1440_forAlignment;
     };
@@ -3851,6 +4051,7 @@ private:
     struct {
       /// @brief Padding field 0x5b0
       uint8_t ___offset1456_padding[0x5b0];
+      /// [SerializeField]
       /// @brief Field offset1456, offset: 0x5b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1456;
     };
@@ -3858,6 +4059,7 @@ private:
     struct {
       /// @brief Padding field 0x5b0 for alignment
       uint8_t ___offset1456_padding_forAlignment[0x5b0];
+      /// [SerializeField]
       /// @brief Field offset1456, offset: 0x5b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1456_forAlignment;
     };
@@ -3865,6 +4067,7 @@ private:
     struct {
       /// @brief Padding field 0x5c0
       uint8_t ___offset1472_padding[0x5c0];
+      /// [SerializeField]
       /// @brief Field offset1472, offset: 0x5c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1472;
     };
@@ -3872,6 +4075,7 @@ private:
     struct {
       /// @brief Padding field 0x5c0 for alignment
       uint8_t ___offset1472_padding_forAlignment[0x5c0];
+      /// [SerializeField]
       /// @brief Field offset1472, offset: 0x5c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1472_forAlignment;
     };
@@ -3879,6 +4083,7 @@ private:
     struct {
       /// @brief Padding field 0x5d0
       uint8_t ___offset1488_padding[0x5d0];
+      /// [SerializeField]
       /// @brief Field offset1488, offset: 0x5d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1488;
     };
@@ -3886,6 +4091,7 @@ private:
     struct {
       /// @brief Padding field 0x5d0 for alignment
       uint8_t ___offset1488_padding_forAlignment[0x5d0];
+      /// [SerializeField]
       /// @brief Field offset1488, offset: 0x5d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1488_forAlignment;
     };
@@ -3893,6 +4099,7 @@ private:
     struct {
       /// @brief Padding field 0x5e0
       uint8_t ___offset1504_padding[0x5e0];
+      /// [SerializeField]
       /// @brief Field offset1504, offset: 0x5e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1504;
     };
@@ -3900,6 +4107,7 @@ private:
     struct {
       /// @brief Padding field 0x5e0 for alignment
       uint8_t ___offset1504_padding_forAlignment[0x5e0];
+      /// [SerializeField]
       /// @brief Field offset1504, offset: 0x5e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1504_forAlignment;
     };
@@ -3907,6 +4115,7 @@ private:
     struct {
       /// @brief Padding field 0x5f0
       uint8_t ___offset1520_padding[0x5f0];
+      /// [SerializeField]
       /// @brief Field offset1520, offset: 0x5f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1520;
     };
@@ -3914,6 +4123,7 @@ private:
     struct {
       /// @brief Padding field 0x5f0 for alignment
       uint8_t ___offset1520_padding_forAlignment[0x5f0];
+      /// [SerializeField]
       /// @brief Field offset1520, offset: 0x5f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1520_forAlignment;
     };
@@ -3921,6 +4131,7 @@ private:
     struct {
       /// @brief Padding field 0x600
       uint8_t ___offset1536_padding[0x600];
+      /// [SerializeField]
       /// @brief Field offset1536, offset: 0x600, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1536;
     };
@@ -3928,6 +4139,7 @@ private:
     struct {
       /// @brief Padding field 0x600 for alignment
       uint8_t ___offset1536_padding_forAlignment[0x600];
+      /// [SerializeField]
       /// @brief Field offset1536, offset: 0x600, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1536_forAlignment;
     };
@@ -3935,6 +4147,7 @@ private:
     struct {
       /// @brief Padding field 0x610
       uint8_t ___offset1552_padding[0x610];
+      /// [SerializeField]
       /// @brief Field offset1552, offset: 0x610, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1552;
     };
@@ -3942,6 +4155,7 @@ private:
     struct {
       /// @brief Padding field 0x610 for alignment
       uint8_t ___offset1552_padding_forAlignment[0x610];
+      /// [SerializeField]
       /// @brief Field offset1552, offset: 0x610, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1552_forAlignment;
     };
@@ -3949,6 +4163,7 @@ private:
     struct {
       /// @brief Padding field 0x620
       uint8_t ___offset1568_padding[0x620];
+      /// [SerializeField]
       /// @brief Field offset1568, offset: 0x620, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1568;
     };
@@ -3956,6 +4171,7 @@ private:
     struct {
       /// @brief Padding field 0x620 for alignment
       uint8_t ___offset1568_padding_forAlignment[0x620];
+      /// [SerializeField]
       /// @brief Field offset1568, offset: 0x620, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1568_forAlignment;
     };
@@ -3963,6 +4179,7 @@ private:
     struct {
       /// @brief Padding field 0x630
       uint8_t ___offset1584_padding[0x630];
+      /// [SerializeField]
       /// @brief Field offset1584, offset: 0x630, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1584;
     };
@@ -3970,6 +4187,7 @@ private:
     struct {
       /// @brief Padding field 0x630 for alignment
       uint8_t ___offset1584_padding_forAlignment[0x630];
+      /// [SerializeField]
       /// @brief Field offset1584, offset: 0x630, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1584_forAlignment;
     };
@@ -3977,6 +4195,7 @@ private:
     struct {
       /// @brief Padding field 0x640
       uint8_t ___offset1600_padding[0x640];
+      /// [SerializeField]
       /// @brief Field offset1600, offset: 0x640, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1600;
     };
@@ -3984,6 +4203,7 @@ private:
     struct {
       /// @brief Padding field 0x640 for alignment
       uint8_t ___offset1600_padding_forAlignment[0x640];
+      /// [SerializeField]
       /// @brief Field offset1600, offset: 0x640, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1600_forAlignment;
     };
@@ -3991,6 +4211,7 @@ private:
     struct {
       /// @brief Padding field 0x650
       uint8_t ___offset1616_padding[0x650];
+      /// [SerializeField]
       /// @brief Field offset1616, offset: 0x650, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1616;
     };
@@ -3998,6 +4219,7 @@ private:
     struct {
       /// @brief Padding field 0x650 for alignment
       uint8_t ___offset1616_padding_forAlignment[0x650];
+      /// [SerializeField]
       /// @brief Field offset1616, offset: 0x650, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1616_forAlignment;
     };
@@ -4005,6 +4227,7 @@ private:
     struct {
       /// @brief Padding field 0x660
       uint8_t ___offset1632_padding[0x660];
+      /// [SerializeField]
       /// @brief Field offset1632, offset: 0x660, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1632;
     };
@@ -4012,6 +4235,7 @@ private:
     struct {
       /// @brief Padding field 0x660 for alignment
       uint8_t ___offset1632_padding_forAlignment[0x660];
+      /// [SerializeField]
       /// @brief Field offset1632, offset: 0x660, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1632_forAlignment;
     };
@@ -4019,6 +4243,7 @@ private:
     struct {
       /// @brief Padding field 0x670
       uint8_t ___offset1648_padding[0x670];
+      /// [SerializeField]
       /// @brief Field offset1648, offset: 0x670, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1648;
     };
@@ -4026,6 +4251,7 @@ private:
     struct {
       /// @brief Padding field 0x670 for alignment
       uint8_t ___offset1648_padding_forAlignment[0x670];
+      /// [SerializeField]
       /// @brief Field offset1648, offset: 0x670, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1648_forAlignment;
     };
@@ -4033,6 +4259,7 @@ private:
     struct {
       /// @brief Padding field 0x680
       uint8_t ___offset1664_padding[0x680];
+      /// [SerializeField]
       /// @brief Field offset1664, offset: 0x680, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1664;
     };
@@ -4040,6 +4267,7 @@ private:
     struct {
       /// @brief Padding field 0x680 for alignment
       uint8_t ___offset1664_padding_forAlignment[0x680];
+      /// [SerializeField]
       /// @brief Field offset1664, offset: 0x680, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1664_forAlignment;
     };
@@ -4047,6 +4275,7 @@ private:
     struct {
       /// @brief Padding field 0x690
       uint8_t ___offset1680_padding[0x690];
+      /// [SerializeField]
       /// @brief Field offset1680, offset: 0x690, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1680;
     };
@@ -4054,6 +4283,7 @@ private:
     struct {
       /// @brief Padding field 0x690 for alignment
       uint8_t ___offset1680_padding_forAlignment[0x690];
+      /// [SerializeField]
       /// @brief Field offset1680, offset: 0x690, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1680_forAlignment;
     };
@@ -4061,6 +4291,7 @@ private:
     struct {
       /// @brief Padding field 0x6a0
       uint8_t ___offset1696_padding[0x6a0];
+      /// [SerializeField]
       /// @brief Field offset1696, offset: 0x6a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1696;
     };
@@ -4068,6 +4299,7 @@ private:
     struct {
       /// @brief Padding field 0x6a0 for alignment
       uint8_t ___offset1696_padding_forAlignment[0x6a0];
+      /// [SerializeField]
       /// @brief Field offset1696, offset: 0x6a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1696_forAlignment;
     };
@@ -4075,6 +4307,7 @@ private:
     struct {
       /// @brief Padding field 0x6b0
       uint8_t ___offset1712_padding[0x6b0];
+      /// [SerializeField]
       /// @brief Field offset1712, offset: 0x6b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1712;
     };
@@ -4082,6 +4315,7 @@ private:
     struct {
       /// @brief Padding field 0x6b0 for alignment
       uint8_t ___offset1712_padding_forAlignment[0x6b0];
+      /// [SerializeField]
       /// @brief Field offset1712, offset: 0x6b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1712_forAlignment;
     };
@@ -4089,6 +4323,7 @@ private:
     struct {
       /// @brief Padding field 0x6c0
       uint8_t ___offset1728_padding[0x6c0];
+      /// [SerializeField]
       /// @brief Field offset1728, offset: 0x6c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1728;
     };
@@ -4096,6 +4331,7 @@ private:
     struct {
       /// @brief Padding field 0x6c0 for alignment
       uint8_t ___offset1728_padding_forAlignment[0x6c0];
+      /// [SerializeField]
       /// @brief Field offset1728, offset: 0x6c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1728_forAlignment;
     };
@@ -4103,6 +4339,7 @@ private:
     struct {
       /// @brief Padding field 0x6d0
       uint8_t ___offset1744_padding[0x6d0];
+      /// [SerializeField]
       /// @brief Field offset1744, offset: 0x6d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1744;
     };
@@ -4110,6 +4347,7 @@ private:
     struct {
       /// @brief Padding field 0x6d0 for alignment
       uint8_t ___offset1744_padding_forAlignment[0x6d0];
+      /// [SerializeField]
       /// @brief Field offset1744, offset: 0x6d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1744_forAlignment;
     };
@@ -4117,6 +4355,7 @@ private:
     struct {
       /// @brief Padding field 0x6e0
       uint8_t ___offset1760_padding[0x6e0];
+      /// [SerializeField]
       /// @brief Field offset1760, offset: 0x6e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1760;
     };
@@ -4124,6 +4363,7 @@ private:
     struct {
       /// @brief Padding field 0x6e0 for alignment
       uint8_t ___offset1760_padding_forAlignment[0x6e0];
+      /// [SerializeField]
       /// @brief Field offset1760, offset: 0x6e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1760_forAlignment;
     };
@@ -4131,6 +4371,7 @@ private:
     struct {
       /// @brief Padding field 0x6f0
       uint8_t ___offset1776_padding[0x6f0];
+      /// [SerializeField]
       /// @brief Field offset1776, offset: 0x6f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1776;
     };
@@ -4138,6 +4379,7 @@ private:
     struct {
       /// @brief Padding field 0x6f0 for alignment
       uint8_t ___offset1776_padding_forAlignment[0x6f0];
+      /// [SerializeField]
       /// @brief Field offset1776, offset: 0x6f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1776_forAlignment;
     };
@@ -4145,6 +4387,7 @@ private:
     struct {
       /// @brief Padding field 0x700
       uint8_t ___offset1792_padding[0x700];
+      /// [SerializeField]
       /// @brief Field offset1792, offset: 0x700, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1792;
     };
@@ -4152,6 +4395,7 @@ private:
     struct {
       /// @brief Padding field 0x700 for alignment
       uint8_t ___offset1792_padding_forAlignment[0x700];
+      /// [SerializeField]
       /// @brief Field offset1792, offset: 0x700, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1792_forAlignment;
     };
@@ -4159,6 +4403,7 @@ private:
     struct {
       /// @brief Padding field 0x710
       uint8_t ___offset1808_padding[0x710];
+      /// [SerializeField]
       /// @brief Field offset1808, offset: 0x710, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1808;
     };
@@ -4166,6 +4411,7 @@ private:
     struct {
       /// @brief Padding field 0x710 for alignment
       uint8_t ___offset1808_padding_forAlignment[0x710];
+      /// [SerializeField]
       /// @brief Field offset1808, offset: 0x710, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1808_forAlignment;
     };
@@ -4173,6 +4419,7 @@ private:
     struct {
       /// @brief Padding field 0x720
       uint8_t ___offset1824_padding[0x720];
+      /// [SerializeField]
       /// @brief Field offset1824, offset: 0x720, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1824;
     };
@@ -4180,6 +4427,7 @@ private:
     struct {
       /// @brief Padding field 0x720 for alignment
       uint8_t ___offset1824_padding_forAlignment[0x720];
+      /// [SerializeField]
       /// @brief Field offset1824, offset: 0x720, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1824_forAlignment;
     };
@@ -4187,6 +4435,7 @@ private:
     struct {
       /// @brief Padding field 0x730
       uint8_t ___offset1840_padding[0x730];
+      /// [SerializeField]
       /// @brief Field offset1840, offset: 0x730, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1840;
     };
@@ -4194,6 +4443,7 @@ private:
     struct {
       /// @brief Padding field 0x730 for alignment
       uint8_t ___offset1840_padding_forAlignment[0x730];
+      /// [SerializeField]
       /// @brief Field offset1840, offset: 0x730, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1840_forAlignment;
     };
@@ -4201,6 +4451,7 @@ private:
     struct {
       /// @brief Padding field 0x740
       uint8_t ___offset1856_padding[0x740];
+      /// [SerializeField]
       /// @brief Field offset1856, offset: 0x740, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1856;
     };
@@ -4208,6 +4459,7 @@ private:
     struct {
       /// @brief Padding field 0x740 for alignment
       uint8_t ___offset1856_padding_forAlignment[0x740];
+      /// [SerializeField]
       /// @brief Field offset1856, offset: 0x740, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1856_forAlignment;
     };
@@ -4215,6 +4467,7 @@ private:
     struct {
       /// @brief Padding field 0x750
       uint8_t ___offset1872_padding[0x750];
+      /// [SerializeField]
       /// @brief Field offset1872, offset: 0x750, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1872;
     };
@@ -4222,6 +4475,7 @@ private:
     struct {
       /// @brief Padding field 0x750 for alignment
       uint8_t ___offset1872_padding_forAlignment[0x750];
+      /// [SerializeField]
       /// @brief Field offset1872, offset: 0x750, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1872_forAlignment;
     };
@@ -4229,6 +4483,7 @@ private:
     struct {
       /// @brief Padding field 0x760
       uint8_t ___offset1888_padding[0x760];
+      /// [SerializeField]
       /// @brief Field offset1888, offset: 0x760, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1888;
     };
@@ -4236,6 +4491,7 @@ private:
     struct {
       /// @brief Padding field 0x760 for alignment
       uint8_t ___offset1888_padding_forAlignment[0x760];
+      /// [SerializeField]
       /// @brief Field offset1888, offset: 0x760, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1888_forAlignment;
     };
@@ -4243,6 +4499,7 @@ private:
     struct {
       /// @brief Padding field 0x770
       uint8_t ___offset1904_padding[0x770];
+      /// [SerializeField]
       /// @brief Field offset1904, offset: 0x770, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1904;
     };
@@ -4250,6 +4507,7 @@ private:
     struct {
       /// @brief Padding field 0x770 for alignment
       uint8_t ___offset1904_padding_forAlignment[0x770];
+      /// [SerializeField]
       /// @brief Field offset1904, offset: 0x770, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1904_forAlignment;
     };
@@ -4257,6 +4515,7 @@ private:
     struct {
       /// @brief Padding field 0x780
       uint8_t ___offset1920_padding[0x780];
+      /// [SerializeField]
       /// @brief Field offset1920, offset: 0x780, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1920;
     };
@@ -4264,6 +4523,7 @@ private:
     struct {
       /// @brief Padding field 0x780 for alignment
       uint8_t ___offset1920_padding_forAlignment[0x780];
+      /// [SerializeField]
       /// @brief Field offset1920, offset: 0x780, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1920_forAlignment;
     };
@@ -4271,6 +4531,7 @@ private:
     struct {
       /// @brief Padding field 0x790
       uint8_t ___offset1936_padding[0x790];
+      /// [SerializeField]
       /// @brief Field offset1936, offset: 0x790, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1936;
     };
@@ -4278,6 +4539,7 @@ private:
     struct {
       /// @brief Padding field 0x790 for alignment
       uint8_t ___offset1936_padding_forAlignment[0x790];
+      /// [SerializeField]
       /// @brief Field offset1936, offset: 0x790, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1936_forAlignment;
     };
@@ -4285,6 +4547,7 @@ private:
     struct {
       /// @brief Padding field 0x7a0
       uint8_t ___offset1952_padding[0x7a0];
+      /// [SerializeField]
       /// @brief Field offset1952, offset: 0x7a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1952;
     };
@@ -4292,6 +4555,7 @@ private:
     struct {
       /// @brief Padding field 0x7a0 for alignment
       uint8_t ___offset1952_padding_forAlignment[0x7a0];
+      /// [SerializeField]
       /// @brief Field offset1952, offset: 0x7a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1952_forAlignment;
     };
@@ -4299,6 +4563,7 @@ private:
     struct {
       /// @brief Padding field 0x7b0
       uint8_t ___offset1968_padding[0x7b0];
+      /// [SerializeField]
       /// @brief Field offset1968, offset: 0x7b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1968;
     };
@@ -4306,6 +4571,7 @@ private:
     struct {
       /// @brief Padding field 0x7b0 for alignment
       uint8_t ___offset1968_padding_forAlignment[0x7b0];
+      /// [SerializeField]
       /// @brief Field offset1968, offset: 0x7b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1968_forAlignment;
     };
@@ -4313,6 +4579,7 @@ private:
     struct {
       /// @brief Padding field 0x7c0
       uint8_t ___offset1984_padding[0x7c0];
+      /// [SerializeField]
       /// @brief Field offset1984, offset: 0x7c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1984;
     };
@@ -4320,6 +4587,7 @@ private:
     struct {
       /// @brief Padding field 0x7c0 for alignment
       uint8_t ___offset1984_padding_forAlignment[0x7c0];
+      /// [SerializeField]
       /// @brief Field offset1984, offset: 0x7c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset1984_forAlignment;
     };
@@ -4327,6 +4595,7 @@ private:
     struct {
       /// @brief Padding field 0x7d0
       uint8_t ___offset2000_padding[0x7d0];
+      /// [SerializeField]
       /// @brief Field offset2000, offset: 0x7d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2000;
     };
@@ -4334,6 +4603,7 @@ private:
     struct {
       /// @brief Padding field 0x7d0 for alignment
       uint8_t ___offset2000_padding_forAlignment[0x7d0];
+      /// [SerializeField]
       /// @brief Field offset2000, offset: 0x7d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2000_forAlignment;
     };
@@ -4341,6 +4611,7 @@ private:
     struct {
       /// @brief Padding field 0x7e0
       uint8_t ___offset2016_padding[0x7e0];
+      /// [SerializeField]
       /// @brief Field offset2016, offset: 0x7e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2016;
     };
@@ -4348,6 +4619,7 @@ private:
     struct {
       /// @brief Padding field 0x7e0 for alignment
       uint8_t ___offset2016_padding_forAlignment[0x7e0];
+      /// [SerializeField]
       /// @brief Field offset2016, offset: 0x7e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2016_forAlignment;
     };
@@ -4355,6 +4627,7 @@ private:
     struct {
       /// @brief Padding field 0x7f0
       uint8_t ___offset2032_padding[0x7f0];
+      /// [SerializeField]
       /// @brief Field offset2032, offset: 0x7f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2032;
     };
@@ -4362,6 +4635,7 @@ private:
     struct {
       /// @brief Padding field 0x7f0 for alignment
       uint8_t ___offset2032_padding_forAlignment[0x7f0];
+      /// [SerializeField]
       /// @brief Field offset2032, offset: 0x7f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2032_forAlignment;
     };
@@ -4369,6 +4643,7 @@ private:
     struct {
       /// @brief Padding field 0x800
       uint8_t ___offset2048_padding[0x800];
+      /// [SerializeField]
       /// @brief Field offset2048, offset: 0x800, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2048;
     };
@@ -4376,6 +4651,7 @@ private:
     struct {
       /// @brief Padding field 0x800 for alignment
       uint8_t ___offset2048_padding_forAlignment[0x800];
+      /// [SerializeField]
       /// @brief Field offset2048, offset: 0x800, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2048_forAlignment;
     };
@@ -4383,6 +4659,7 @@ private:
     struct {
       /// @brief Padding field 0x810
       uint8_t ___offset2064_padding[0x810];
+      /// [SerializeField]
       /// @brief Field offset2064, offset: 0x810, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2064;
     };
@@ -4390,6 +4667,7 @@ private:
     struct {
       /// @brief Padding field 0x810 for alignment
       uint8_t ___offset2064_padding_forAlignment[0x810];
+      /// [SerializeField]
       /// @brief Field offset2064, offset: 0x810, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2064_forAlignment;
     };
@@ -4397,6 +4675,7 @@ private:
     struct {
       /// @brief Padding field 0x820
       uint8_t ___offset2080_padding[0x820];
+      /// [SerializeField]
       /// @brief Field offset2080, offset: 0x820, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2080;
     };
@@ -4404,6 +4683,7 @@ private:
     struct {
       /// @brief Padding field 0x820 for alignment
       uint8_t ___offset2080_padding_forAlignment[0x820];
+      /// [SerializeField]
       /// @brief Field offset2080, offset: 0x820, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2080_forAlignment;
     };
@@ -4411,6 +4691,7 @@ private:
     struct {
       /// @brief Padding field 0x830
       uint8_t ___offset2096_padding[0x830];
+      /// [SerializeField]
       /// @brief Field offset2096, offset: 0x830, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2096;
     };
@@ -4418,6 +4699,7 @@ private:
     struct {
       /// @brief Padding field 0x830 for alignment
       uint8_t ___offset2096_padding_forAlignment[0x830];
+      /// [SerializeField]
       /// @brief Field offset2096, offset: 0x830, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2096_forAlignment;
     };
@@ -4425,6 +4707,7 @@ private:
     struct {
       /// @brief Padding field 0x840
       uint8_t ___offset2112_padding[0x840];
+      /// [SerializeField]
       /// @brief Field offset2112, offset: 0x840, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2112;
     };
@@ -4432,6 +4715,7 @@ private:
     struct {
       /// @brief Padding field 0x840 for alignment
       uint8_t ___offset2112_padding_forAlignment[0x840];
+      /// [SerializeField]
       /// @brief Field offset2112, offset: 0x840, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2112_forAlignment;
     };
@@ -4439,6 +4723,7 @@ private:
     struct {
       /// @brief Padding field 0x850
       uint8_t ___offset2128_padding[0x850];
+      /// [SerializeField]
       /// @brief Field offset2128, offset: 0x850, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2128;
     };
@@ -4446,6 +4731,7 @@ private:
     struct {
       /// @brief Padding field 0x850 for alignment
       uint8_t ___offset2128_padding_forAlignment[0x850];
+      /// [SerializeField]
       /// @brief Field offset2128, offset: 0x850, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2128_forAlignment;
     };
@@ -4453,6 +4739,7 @@ private:
     struct {
       /// @brief Padding field 0x860
       uint8_t ___offset2144_padding[0x860];
+      /// [SerializeField]
       /// @brief Field offset2144, offset: 0x860, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2144;
     };
@@ -4460,6 +4747,7 @@ private:
     struct {
       /// @brief Padding field 0x860 for alignment
       uint8_t ___offset2144_padding_forAlignment[0x860];
+      /// [SerializeField]
       /// @brief Field offset2144, offset: 0x860, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2144_forAlignment;
     };
@@ -4467,6 +4755,7 @@ private:
     struct {
       /// @brief Padding field 0x870
       uint8_t ___offset2160_padding[0x870];
+      /// [SerializeField]
       /// @brief Field offset2160, offset: 0x870, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2160;
     };
@@ -4474,6 +4763,7 @@ private:
     struct {
       /// @brief Padding field 0x870 for alignment
       uint8_t ___offset2160_padding_forAlignment[0x870];
+      /// [SerializeField]
       /// @brief Field offset2160, offset: 0x870, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2160_forAlignment;
     };
@@ -4481,6 +4771,7 @@ private:
     struct {
       /// @brief Padding field 0x880
       uint8_t ___offset2176_padding[0x880];
+      /// [SerializeField]
       /// @brief Field offset2176, offset: 0x880, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2176;
     };
@@ -4488,6 +4779,7 @@ private:
     struct {
       /// @brief Padding field 0x880 for alignment
       uint8_t ___offset2176_padding_forAlignment[0x880];
+      /// [SerializeField]
       /// @brief Field offset2176, offset: 0x880, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2176_forAlignment;
     };
@@ -4495,6 +4787,7 @@ private:
     struct {
       /// @brief Padding field 0x890
       uint8_t ___offset2192_padding[0x890];
+      /// [SerializeField]
       /// @brief Field offset2192, offset: 0x890, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2192;
     };
@@ -4502,6 +4795,7 @@ private:
     struct {
       /// @brief Padding field 0x890 for alignment
       uint8_t ___offset2192_padding_forAlignment[0x890];
+      /// [SerializeField]
       /// @brief Field offset2192, offset: 0x890, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2192_forAlignment;
     };
@@ -4509,6 +4803,7 @@ private:
     struct {
       /// @brief Padding field 0x8a0
       uint8_t ___offset2208_padding[0x8a0];
+      /// [SerializeField]
       /// @brief Field offset2208, offset: 0x8a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2208;
     };
@@ -4516,6 +4811,7 @@ private:
     struct {
       /// @brief Padding field 0x8a0 for alignment
       uint8_t ___offset2208_padding_forAlignment[0x8a0];
+      /// [SerializeField]
       /// @brief Field offset2208, offset: 0x8a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2208_forAlignment;
     };
@@ -4523,6 +4819,7 @@ private:
     struct {
       /// @brief Padding field 0x8b0
       uint8_t ___offset2224_padding[0x8b0];
+      /// [SerializeField]
       /// @brief Field offset2224, offset: 0x8b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2224;
     };
@@ -4530,6 +4827,7 @@ private:
     struct {
       /// @brief Padding field 0x8b0 for alignment
       uint8_t ___offset2224_padding_forAlignment[0x8b0];
+      /// [SerializeField]
       /// @brief Field offset2224, offset: 0x8b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2224_forAlignment;
     };
@@ -4537,6 +4835,7 @@ private:
     struct {
       /// @brief Padding field 0x8c0
       uint8_t ___offset2240_padding[0x8c0];
+      /// [SerializeField]
       /// @brief Field offset2240, offset: 0x8c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2240;
     };
@@ -4544,6 +4843,7 @@ private:
     struct {
       /// @brief Padding field 0x8c0 for alignment
       uint8_t ___offset2240_padding_forAlignment[0x8c0];
+      /// [SerializeField]
       /// @brief Field offset2240, offset: 0x8c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2240_forAlignment;
     };
@@ -4551,6 +4851,7 @@ private:
     struct {
       /// @brief Padding field 0x8d0
       uint8_t ___offset2256_padding[0x8d0];
+      /// [SerializeField]
       /// @brief Field offset2256, offset: 0x8d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2256;
     };
@@ -4558,6 +4859,7 @@ private:
     struct {
       /// @brief Padding field 0x8d0 for alignment
       uint8_t ___offset2256_padding_forAlignment[0x8d0];
+      /// [SerializeField]
       /// @brief Field offset2256, offset: 0x8d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2256_forAlignment;
     };
@@ -4565,6 +4867,7 @@ private:
     struct {
       /// @brief Padding field 0x8e0
       uint8_t ___offset2272_padding[0x8e0];
+      /// [SerializeField]
       /// @brief Field offset2272, offset: 0x8e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2272;
     };
@@ -4572,6 +4875,7 @@ private:
     struct {
       /// @brief Padding field 0x8e0 for alignment
       uint8_t ___offset2272_padding_forAlignment[0x8e0];
+      /// [SerializeField]
       /// @brief Field offset2272, offset: 0x8e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2272_forAlignment;
     };
@@ -4579,6 +4883,7 @@ private:
     struct {
       /// @brief Padding field 0x8f0
       uint8_t ___offset2288_padding[0x8f0];
+      /// [SerializeField]
       /// @brief Field offset2288, offset: 0x8f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2288;
     };
@@ -4586,6 +4891,7 @@ private:
     struct {
       /// @brief Padding field 0x8f0 for alignment
       uint8_t ___offset2288_padding_forAlignment[0x8f0];
+      /// [SerializeField]
       /// @brief Field offset2288, offset: 0x8f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2288_forAlignment;
     };
@@ -4593,6 +4899,7 @@ private:
     struct {
       /// @brief Padding field 0x900
       uint8_t ___offset2304_padding[0x900];
+      /// [SerializeField]
       /// @brief Field offset2304, offset: 0x900, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2304;
     };
@@ -4600,6 +4907,7 @@ private:
     struct {
       /// @brief Padding field 0x900 for alignment
       uint8_t ___offset2304_padding_forAlignment[0x900];
+      /// [SerializeField]
       /// @brief Field offset2304, offset: 0x900, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2304_forAlignment;
     };
@@ -4607,6 +4915,7 @@ private:
     struct {
       /// @brief Padding field 0x910
       uint8_t ___offset2320_padding[0x910];
+      /// [SerializeField]
       /// @brief Field offset2320, offset: 0x910, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2320;
     };
@@ -4614,6 +4923,7 @@ private:
     struct {
       /// @brief Padding field 0x910 for alignment
       uint8_t ___offset2320_padding_forAlignment[0x910];
+      /// [SerializeField]
       /// @brief Field offset2320, offset: 0x910, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2320_forAlignment;
     };
@@ -4621,6 +4931,7 @@ private:
     struct {
       /// @brief Padding field 0x920
       uint8_t ___offset2336_padding[0x920];
+      /// [SerializeField]
       /// @brief Field offset2336, offset: 0x920, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2336;
     };
@@ -4628,6 +4939,7 @@ private:
     struct {
       /// @brief Padding field 0x920 for alignment
       uint8_t ___offset2336_padding_forAlignment[0x920];
+      /// [SerializeField]
       /// @brief Field offset2336, offset: 0x920, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2336_forAlignment;
     };
@@ -4635,6 +4947,7 @@ private:
     struct {
       /// @brief Padding field 0x930
       uint8_t ___offset2352_padding[0x930];
+      /// [SerializeField]
       /// @brief Field offset2352, offset: 0x930, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2352;
     };
@@ -4642,6 +4955,7 @@ private:
     struct {
       /// @brief Padding field 0x930 for alignment
       uint8_t ___offset2352_padding_forAlignment[0x930];
+      /// [SerializeField]
       /// @brief Field offset2352, offset: 0x930, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2352_forAlignment;
     };
@@ -4649,6 +4963,7 @@ private:
     struct {
       /// @brief Padding field 0x940
       uint8_t ___offset2368_padding[0x940];
+      /// [SerializeField]
       /// @brief Field offset2368, offset: 0x940, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2368;
     };
@@ -4656,6 +4971,7 @@ private:
     struct {
       /// @brief Padding field 0x940 for alignment
       uint8_t ___offset2368_padding_forAlignment[0x940];
+      /// [SerializeField]
       /// @brief Field offset2368, offset: 0x940, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2368_forAlignment;
     };
@@ -4663,6 +4979,7 @@ private:
     struct {
       /// @brief Padding field 0x950
       uint8_t ___offset2384_padding[0x950];
+      /// [SerializeField]
       /// @brief Field offset2384, offset: 0x950, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2384;
     };
@@ -4670,6 +4987,7 @@ private:
     struct {
       /// @brief Padding field 0x950 for alignment
       uint8_t ___offset2384_padding_forAlignment[0x950];
+      /// [SerializeField]
       /// @brief Field offset2384, offset: 0x950, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2384_forAlignment;
     };
@@ -4677,6 +4995,7 @@ private:
     struct {
       /// @brief Padding field 0x960
       uint8_t ___offset2400_padding[0x960];
+      /// [SerializeField]
       /// @brief Field offset2400, offset: 0x960, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2400;
     };
@@ -4684,6 +5003,7 @@ private:
     struct {
       /// @brief Padding field 0x960 for alignment
       uint8_t ___offset2400_padding_forAlignment[0x960];
+      /// [SerializeField]
       /// @brief Field offset2400, offset: 0x960, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2400_forAlignment;
     };
@@ -4691,6 +5011,7 @@ private:
     struct {
       /// @brief Padding field 0x970
       uint8_t ___offset2416_padding[0x970];
+      /// [SerializeField]
       /// @brief Field offset2416, offset: 0x970, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2416;
     };
@@ -4698,6 +5019,7 @@ private:
     struct {
       /// @brief Padding field 0x970 for alignment
       uint8_t ___offset2416_padding_forAlignment[0x970];
+      /// [SerializeField]
       /// @brief Field offset2416, offset: 0x970, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2416_forAlignment;
     };
@@ -4705,6 +5027,7 @@ private:
     struct {
       /// @brief Padding field 0x980
       uint8_t ___offset2432_padding[0x980];
+      /// [SerializeField]
       /// @brief Field offset2432, offset: 0x980, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2432;
     };
@@ -4712,6 +5035,7 @@ private:
     struct {
       /// @brief Padding field 0x980 for alignment
       uint8_t ___offset2432_padding_forAlignment[0x980];
+      /// [SerializeField]
       /// @brief Field offset2432, offset: 0x980, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2432_forAlignment;
     };
@@ -4719,6 +5043,7 @@ private:
     struct {
       /// @brief Padding field 0x990
       uint8_t ___offset2448_padding[0x990];
+      /// [SerializeField]
       /// @brief Field offset2448, offset: 0x990, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2448;
     };
@@ -4726,6 +5051,7 @@ private:
     struct {
       /// @brief Padding field 0x990 for alignment
       uint8_t ___offset2448_padding_forAlignment[0x990];
+      /// [SerializeField]
       /// @brief Field offset2448, offset: 0x990, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2448_forAlignment;
     };
@@ -4733,6 +5059,7 @@ private:
     struct {
       /// @brief Padding field 0x9a0
       uint8_t ___offset2464_padding[0x9a0];
+      /// [SerializeField]
       /// @brief Field offset2464, offset: 0x9a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2464;
     };
@@ -4740,6 +5067,7 @@ private:
     struct {
       /// @brief Padding field 0x9a0 for alignment
       uint8_t ___offset2464_padding_forAlignment[0x9a0];
+      /// [SerializeField]
       /// @brief Field offset2464, offset: 0x9a0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2464_forAlignment;
     };
@@ -4747,6 +5075,7 @@ private:
     struct {
       /// @brief Padding field 0x9b0
       uint8_t ___offset2480_padding[0x9b0];
+      /// [SerializeField]
       /// @brief Field offset2480, offset: 0x9b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2480;
     };
@@ -4754,6 +5083,7 @@ private:
     struct {
       /// @brief Padding field 0x9b0 for alignment
       uint8_t ___offset2480_padding_forAlignment[0x9b0];
+      /// [SerializeField]
       /// @brief Field offset2480, offset: 0x9b0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2480_forAlignment;
     };
@@ -4761,6 +5091,7 @@ private:
     struct {
       /// @brief Padding field 0x9c0
       uint8_t ___offset2496_padding[0x9c0];
+      /// [SerializeField]
       /// @brief Field offset2496, offset: 0x9c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2496;
     };
@@ -4768,6 +5099,7 @@ private:
     struct {
       /// @brief Padding field 0x9c0 for alignment
       uint8_t ___offset2496_padding_forAlignment[0x9c0];
+      /// [SerializeField]
       /// @brief Field offset2496, offset: 0x9c0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2496_forAlignment;
     };
@@ -4775,6 +5107,7 @@ private:
     struct {
       /// @brief Padding field 0x9d0
       uint8_t ___offset2512_padding[0x9d0];
+      /// [SerializeField]
       /// @brief Field offset2512, offset: 0x9d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2512;
     };
@@ -4782,6 +5115,7 @@ private:
     struct {
       /// @brief Padding field 0x9d0 for alignment
       uint8_t ___offset2512_padding_forAlignment[0x9d0];
+      /// [SerializeField]
       /// @brief Field offset2512, offset: 0x9d0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2512_forAlignment;
     };
@@ -4789,6 +5123,7 @@ private:
     struct {
       /// @brief Padding field 0x9e0
       uint8_t ___offset2528_padding[0x9e0];
+      /// [SerializeField]
       /// @brief Field offset2528, offset: 0x9e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2528;
     };
@@ -4796,6 +5131,7 @@ private:
     struct {
       /// @brief Padding field 0x9e0 for alignment
       uint8_t ___offset2528_padding_forAlignment[0x9e0];
+      /// [SerializeField]
       /// @brief Field offset2528, offset: 0x9e0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2528_forAlignment;
     };
@@ -4803,6 +5139,7 @@ private:
     struct {
       /// @brief Padding field 0x9f0
       uint8_t ___offset2544_padding[0x9f0];
+      /// [SerializeField]
       /// @brief Field offset2544, offset: 0x9f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2544;
     };
@@ -4810,6 +5147,7 @@ private:
     struct {
       /// @brief Padding field 0x9f0 for alignment
       uint8_t ___offset2544_padding_forAlignment[0x9f0];
+      /// [SerializeField]
       /// @brief Field offset2544, offset: 0x9f0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2544_forAlignment;
     };
@@ -4817,6 +5155,7 @@ private:
     struct {
       /// @brief Padding field 0xa00
       uint8_t ___offset2560_padding[0xa00];
+      /// [SerializeField]
       /// @brief Field offset2560, offset: 0xa00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2560;
     };
@@ -4824,6 +5163,7 @@ private:
     struct {
       /// @brief Padding field 0xa00 for alignment
       uint8_t ___offset2560_padding_forAlignment[0xa00];
+      /// [SerializeField]
       /// @brief Field offset2560, offset: 0xa00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2560_forAlignment;
     };
@@ -4831,6 +5171,7 @@ private:
     struct {
       /// @brief Padding field 0xa10
       uint8_t ___offset2576_padding[0xa10];
+      /// [SerializeField]
       /// @brief Field offset2576, offset: 0xa10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2576;
     };
@@ -4838,6 +5179,7 @@ private:
     struct {
       /// @brief Padding field 0xa10 for alignment
       uint8_t ___offset2576_padding_forAlignment[0xa10];
+      /// [SerializeField]
       /// @brief Field offset2576, offset: 0xa10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2576_forAlignment;
     };
@@ -4845,6 +5187,7 @@ private:
     struct {
       /// @brief Padding field 0xa20
       uint8_t ___offset2592_padding[0xa20];
+      /// [SerializeField]
       /// @brief Field offset2592, offset: 0xa20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2592;
     };
@@ -4852,6 +5195,7 @@ private:
     struct {
       /// @brief Padding field 0xa20 for alignment
       uint8_t ___offset2592_padding_forAlignment[0xa20];
+      /// [SerializeField]
       /// @brief Field offset2592, offset: 0xa20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2592_forAlignment;
     };
@@ -4859,6 +5203,7 @@ private:
     struct {
       /// @brief Padding field 0xa30
       uint8_t ___offset2608_padding[0xa30];
+      /// [SerializeField]
       /// @brief Field offset2608, offset: 0xa30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2608;
     };
@@ -4866,6 +5211,7 @@ private:
     struct {
       /// @brief Padding field 0xa30 for alignment
       uint8_t ___offset2608_padding_forAlignment[0xa30];
+      /// [SerializeField]
       /// @brief Field offset2608, offset: 0xa30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2608_forAlignment;
     };
@@ -4873,6 +5219,7 @@ private:
     struct {
       /// @brief Padding field 0xa40
       uint8_t ___offset2624_padding[0xa40];
+      /// [SerializeField]
       /// @brief Field offset2624, offset: 0xa40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2624;
     };
@@ -4880,6 +5227,7 @@ private:
     struct {
       /// @brief Padding field 0xa40 for alignment
       uint8_t ___offset2624_padding_forAlignment[0xa40];
+      /// [SerializeField]
       /// @brief Field offset2624, offset: 0xa40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2624_forAlignment;
     };
@@ -4887,6 +5235,7 @@ private:
     struct {
       /// @brief Padding field 0xa50
       uint8_t ___offset2640_padding[0xa50];
+      /// [SerializeField]
       /// @brief Field offset2640, offset: 0xa50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2640;
     };
@@ -4894,6 +5243,7 @@ private:
     struct {
       /// @brief Padding field 0xa50 for alignment
       uint8_t ___offset2640_padding_forAlignment[0xa50];
+      /// [SerializeField]
       /// @brief Field offset2640, offset: 0xa50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2640_forAlignment;
     };
@@ -4901,6 +5251,7 @@ private:
     struct {
       /// @brief Padding field 0xa60
       uint8_t ___offset2656_padding[0xa60];
+      /// [SerializeField]
       /// @brief Field offset2656, offset: 0xa60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2656;
     };
@@ -4908,6 +5259,7 @@ private:
     struct {
       /// @brief Padding field 0xa60 for alignment
       uint8_t ___offset2656_padding_forAlignment[0xa60];
+      /// [SerializeField]
       /// @brief Field offset2656, offset: 0xa60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2656_forAlignment;
     };
@@ -4915,6 +5267,7 @@ private:
     struct {
       /// @brief Padding field 0xa70
       uint8_t ___offset2672_padding[0xa70];
+      /// [SerializeField]
       /// @brief Field offset2672, offset: 0xa70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2672;
     };
@@ -4922,6 +5275,7 @@ private:
     struct {
       /// @brief Padding field 0xa70 for alignment
       uint8_t ___offset2672_padding_forAlignment[0xa70];
+      /// [SerializeField]
       /// @brief Field offset2672, offset: 0xa70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2672_forAlignment;
     };
@@ -4929,6 +5283,7 @@ private:
     struct {
       /// @brief Padding field 0xa80
       uint8_t ___offset2688_padding[0xa80];
+      /// [SerializeField]
       /// @brief Field offset2688, offset: 0xa80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2688;
     };
@@ -4936,6 +5291,7 @@ private:
     struct {
       /// @brief Padding field 0xa80 for alignment
       uint8_t ___offset2688_padding_forAlignment[0xa80];
+      /// [SerializeField]
       /// @brief Field offset2688, offset: 0xa80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2688_forAlignment;
     };
@@ -4943,6 +5299,7 @@ private:
     struct {
       /// @brief Padding field 0xa90
       uint8_t ___offset2704_padding[0xa90];
+      /// [SerializeField]
       /// @brief Field offset2704, offset: 0xa90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2704;
     };
@@ -4950,6 +5307,7 @@ private:
     struct {
       /// @brief Padding field 0xa90 for alignment
       uint8_t ___offset2704_padding_forAlignment[0xa90];
+      /// [SerializeField]
       /// @brief Field offset2704, offset: 0xa90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2704_forAlignment;
     };
@@ -4957,6 +5315,7 @@ private:
     struct {
       /// @brief Padding field 0xaa0
       uint8_t ___offset2720_padding[0xaa0];
+      /// [SerializeField]
       /// @brief Field offset2720, offset: 0xaa0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2720;
     };
@@ -4964,6 +5323,7 @@ private:
     struct {
       /// @brief Padding field 0xaa0 for alignment
       uint8_t ___offset2720_padding_forAlignment[0xaa0];
+      /// [SerializeField]
       /// @brief Field offset2720, offset: 0xaa0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2720_forAlignment;
     };
@@ -4971,6 +5331,7 @@ private:
     struct {
       /// @brief Padding field 0xab0
       uint8_t ___offset2736_padding[0xab0];
+      /// [SerializeField]
       /// @brief Field offset2736, offset: 0xab0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2736;
     };
@@ -4978,6 +5339,7 @@ private:
     struct {
       /// @brief Padding field 0xab0 for alignment
       uint8_t ___offset2736_padding_forAlignment[0xab0];
+      /// [SerializeField]
       /// @brief Field offset2736, offset: 0xab0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2736_forAlignment;
     };
@@ -4985,6 +5347,7 @@ private:
     struct {
       /// @brief Padding field 0xac0
       uint8_t ___offset2752_padding[0xac0];
+      /// [SerializeField]
       /// @brief Field offset2752, offset: 0xac0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2752;
     };
@@ -4992,6 +5355,7 @@ private:
     struct {
       /// @brief Padding field 0xac0 for alignment
       uint8_t ___offset2752_padding_forAlignment[0xac0];
+      /// [SerializeField]
       /// @brief Field offset2752, offset: 0xac0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2752_forAlignment;
     };
@@ -4999,6 +5363,7 @@ private:
     struct {
       /// @brief Padding field 0xad0
       uint8_t ___offset2768_padding[0xad0];
+      /// [SerializeField]
       /// @brief Field offset2768, offset: 0xad0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2768;
     };
@@ -5006,6 +5371,7 @@ private:
     struct {
       /// @brief Padding field 0xad0 for alignment
       uint8_t ___offset2768_padding_forAlignment[0xad0];
+      /// [SerializeField]
       /// @brief Field offset2768, offset: 0xad0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2768_forAlignment;
     };
@@ -5013,6 +5379,7 @@ private:
     struct {
       /// @brief Padding field 0xae0
       uint8_t ___offset2784_padding[0xae0];
+      /// [SerializeField]
       /// @brief Field offset2784, offset: 0xae0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2784;
     };
@@ -5020,6 +5387,7 @@ private:
     struct {
       /// @brief Padding field 0xae0 for alignment
       uint8_t ___offset2784_padding_forAlignment[0xae0];
+      /// [SerializeField]
       /// @brief Field offset2784, offset: 0xae0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2784_forAlignment;
     };
@@ -5027,6 +5395,7 @@ private:
     struct {
       /// @brief Padding field 0xaf0
       uint8_t ___offset2800_padding[0xaf0];
+      /// [SerializeField]
       /// @brief Field offset2800, offset: 0xaf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2800;
     };
@@ -5034,6 +5403,7 @@ private:
     struct {
       /// @brief Padding field 0xaf0 for alignment
       uint8_t ___offset2800_padding_forAlignment[0xaf0];
+      /// [SerializeField]
       /// @brief Field offset2800, offset: 0xaf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2800_forAlignment;
     };
@@ -5041,6 +5411,7 @@ private:
     struct {
       /// @brief Padding field 0xb00
       uint8_t ___offset2816_padding[0xb00];
+      /// [SerializeField]
       /// @brief Field offset2816, offset: 0xb00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2816;
     };
@@ -5048,6 +5419,7 @@ private:
     struct {
       /// @brief Padding field 0xb00 for alignment
       uint8_t ___offset2816_padding_forAlignment[0xb00];
+      /// [SerializeField]
       /// @brief Field offset2816, offset: 0xb00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2816_forAlignment;
     };
@@ -5055,6 +5427,7 @@ private:
     struct {
       /// @brief Padding field 0xb10
       uint8_t ___offset2832_padding[0xb10];
+      /// [SerializeField]
       /// @brief Field offset2832, offset: 0xb10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2832;
     };
@@ -5062,6 +5435,7 @@ private:
     struct {
       /// @brief Padding field 0xb10 for alignment
       uint8_t ___offset2832_padding_forAlignment[0xb10];
+      /// [SerializeField]
       /// @brief Field offset2832, offset: 0xb10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2832_forAlignment;
     };
@@ -5069,6 +5443,7 @@ private:
     struct {
       /// @brief Padding field 0xb20
       uint8_t ___offset2848_padding[0xb20];
+      /// [SerializeField]
       /// @brief Field offset2848, offset: 0xb20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2848;
     };
@@ -5076,6 +5451,7 @@ private:
     struct {
       /// @brief Padding field 0xb20 for alignment
       uint8_t ___offset2848_padding_forAlignment[0xb20];
+      /// [SerializeField]
       /// @brief Field offset2848, offset: 0xb20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2848_forAlignment;
     };
@@ -5083,6 +5459,7 @@ private:
     struct {
       /// @brief Padding field 0xb30
       uint8_t ___offset2864_padding[0xb30];
+      /// [SerializeField]
       /// @brief Field offset2864, offset: 0xb30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2864;
     };
@@ -5090,6 +5467,7 @@ private:
     struct {
       /// @brief Padding field 0xb30 for alignment
       uint8_t ___offset2864_padding_forAlignment[0xb30];
+      /// [SerializeField]
       /// @brief Field offset2864, offset: 0xb30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2864_forAlignment;
     };
@@ -5097,6 +5475,7 @@ private:
     struct {
       /// @brief Padding field 0xb40
       uint8_t ___offset2880_padding[0xb40];
+      /// [SerializeField]
       /// @brief Field offset2880, offset: 0xb40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2880;
     };
@@ -5104,6 +5483,7 @@ private:
     struct {
       /// @brief Padding field 0xb40 for alignment
       uint8_t ___offset2880_padding_forAlignment[0xb40];
+      /// [SerializeField]
       /// @brief Field offset2880, offset: 0xb40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2880_forAlignment;
     };
@@ -5111,6 +5491,7 @@ private:
     struct {
       /// @brief Padding field 0xb50
       uint8_t ___offset2896_padding[0xb50];
+      /// [SerializeField]
       /// @brief Field offset2896, offset: 0xb50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2896;
     };
@@ -5118,6 +5499,7 @@ private:
     struct {
       /// @brief Padding field 0xb50 for alignment
       uint8_t ___offset2896_padding_forAlignment[0xb50];
+      /// [SerializeField]
       /// @brief Field offset2896, offset: 0xb50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2896_forAlignment;
     };
@@ -5125,6 +5507,7 @@ private:
     struct {
       /// @brief Padding field 0xb60
       uint8_t ___offset2912_padding[0xb60];
+      /// [SerializeField]
       /// @brief Field offset2912, offset: 0xb60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2912;
     };
@@ -5132,6 +5515,7 @@ private:
     struct {
       /// @brief Padding field 0xb60 for alignment
       uint8_t ___offset2912_padding_forAlignment[0xb60];
+      /// [SerializeField]
       /// @brief Field offset2912, offset: 0xb60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2912_forAlignment;
     };
@@ -5139,6 +5523,7 @@ private:
     struct {
       /// @brief Padding field 0xb70
       uint8_t ___offset2928_padding[0xb70];
+      /// [SerializeField]
       /// @brief Field offset2928, offset: 0xb70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2928;
     };
@@ -5146,6 +5531,7 @@ private:
     struct {
       /// @brief Padding field 0xb70 for alignment
       uint8_t ___offset2928_padding_forAlignment[0xb70];
+      /// [SerializeField]
       /// @brief Field offset2928, offset: 0xb70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2928_forAlignment;
     };
@@ -5153,6 +5539,7 @@ private:
     struct {
       /// @brief Padding field 0xb80
       uint8_t ___offset2944_padding[0xb80];
+      /// [SerializeField]
       /// @brief Field offset2944, offset: 0xb80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2944;
     };
@@ -5160,6 +5547,7 @@ private:
     struct {
       /// @brief Padding field 0xb80 for alignment
       uint8_t ___offset2944_padding_forAlignment[0xb80];
+      /// [SerializeField]
       /// @brief Field offset2944, offset: 0xb80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2944_forAlignment;
     };
@@ -5167,6 +5555,7 @@ private:
     struct {
       /// @brief Padding field 0xb90
       uint8_t ___offset2960_padding[0xb90];
+      /// [SerializeField]
       /// @brief Field offset2960, offset: 0xb90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2960;
     };
@@ -5174,6 +5563,7 @@ private:
     struct {
       /// @brief Padding field 0xb90 for alignment
       uint8_t ___offset2960_padding_forAlignment[0xb90];
+      /// [SerializeField]
       /// @brief Field offset2960, offset: 0xb90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2960_forAlignment;
     };
@@ -5181,6 +5571,7 @@ private:
     struct {
       /// @brief Padding field 0xba0
       uint8_t ___offset2976_padding[0xba0];
+      /// [SerializeField]
       /// @brief Field offset2976, offset: 0xba0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2976;
     };
@@ -5188,6 +5579,7 @@ private:
     struct {
       /// @brief Padding field 0xba0 for alignment
       uint8_t ___offset2976_padding_forAlignment[0xba0];
+      /// [SerializeField]
       /// @brief Field offset2976, offset: 0xba0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2976_forAlignment;
     };
@@ -5195,6 +5587,7 @@ private:
     struct {
       /// @brief Padding field 0xbb0
       uint8_t ___offset2992_padding[0xbb0];
+      /// [SerializeField]
       /// @brief Field offset2992, offset: 0xbb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2992;
     };
@@ -5202,6 +5595,7 @@ private:
     struct {
       /// @brief Padding field 0xbb0 for alignment
       uint8_t ___offset2992_padding_forAlignment[0xbb0];
+      /// [SerializeField]
       /// @brief Field offset2992, offset: 0xbb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset2992_forAlignment;
     };
@@ -5209,6 +5603,7 @@ private:
     struct {
       /// @brief Padding field 0xbc0
       uint8_t ___offset3008_padding[0xbc0];
+      /// [SerializeField]
       /// @brief Field offset3008, offset: 0xbc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3008;
     };
@@ -5216,6 +5611,7 @@ private:
     struct {
       /// @brief Padding field 0xbc0 for alignment
       uint8_t ___offset3008_padding_forAlignment[0xbc0];
+      /// [SerializeField]
       /// @brief Field offset3008, offset: 0xbc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3008_forAlignment;
     };
@@ -5223,6 +5619,7 @@ private:
     struct {
       /// @brief Padding field 0xbd0
       uint8_t ___offset3024_padding[0xbd0];
+      /// [SerializeField]
       /// @brief Field offset3024, offset: 0xbd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3024;
     };
@@ -5230,6 +5627,7 @@ private:
     struct {
       /// @brief Padding field 0xbd0 for alignment
       uint8_t ___offset3024_padding_forAlignment[0xbd0];
+      /// [SerializeField]
       /// @brief Field offset3024, offset: 0xbd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3024_forAlignment;
     };
@@ -5237,6 +5635,7 @@ private:
     struct {
       /// @brief Padding field 0xbe0
       uint8_t ___offset3040_padding[0xbe0];
+      /// [SerializeField]
       /// @brief Field offset3040, offset: 0xbe0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3040;
     };
@@ -5244,6 +5643,7 @@ private:
     struct {
       /// @brief Padding field 0xbe0 for alignment
       uint8_t ___offset3040_padding_forAlignment[0xbe0];
+      /// [SerializeField]
       /// @brief Field offset3040, offset: 0xbe0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3040_forAlignment;
     };
@@ -5251,6 +5651,7 @@ private:
     struct {
       /// @brief Padding field 0xbf0
       uint8_t ___offset3056_padding[0xbf0];
+      /// [SerializeField]
       /// @brief Field offset3056, offset: 0xbf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3056;
     };
@@ -5258,6 +5659,7 @@ private:
     struct {
       /// @brief Padding field 0xbf0 for alignment
       uint8_t ___offset3056_padding_forAlignment[0xbf0];
+      /// [SerializeField]
       /// @brief Field offset3056, offset: 0xbf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3056_forAlignment;
     };
@@ -5265,6 +5667,7 @@ private:
     struct {
       /// @brief Padding field 0xc00
       uint8_t ___offset3072_padding[0xc00];
+      /// [SerializeField]
       /// @brief Field offset3072, offset: 0xc00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3072;
     };
@@ -5272,6 +5675,7 @@ private:
     struct {
       /// @brief Padding field 0xc00 for alignment
       uint8_t ___offset3072_padding_forAlignment[0xc00];
+      /// [SerializeField]
       /// @brief Field offset3072, offset: 0xc00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3072_forAlignment;
     };
@@ -5279,6 +5683,7 @@ private:
     struct {
       /// @brief Padding field 0xc10
       uint8_t ___offset3088_padding[0xc10];
+      /// [SerializeField]
       /// @brief Field offset3088, offset: 0xc10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3088;
     };
@@ -5286,6 +5691,7 @@ private:
     struct {
       /// @brief Padding field 0xc10 for alignment
       uint8_t ___offset3088_padding_forAlignment[0xc10];
+      /// [SerializeField]
       /// @brief Field offset3088, offset: 0xc10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3088_forAlignment;
     };
@@ -5293,6 +5699,7 @@ private:
     struct {
       /// @brief Padding field 0xc20
       uint8_t ___offset3104_padding[0xc20];
+      /// [SerializeField]
       /// @brief Field offset3104, offset: 0xc20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3104;
     };
@@ -5300,6 +5707,7 @@ private:
     struct {
       /// @brief Padding field 0xc20 for alignment
       uint8_t ___offset3104_padding_forAlignment[0xc20];
+      /// [SerializeField]
       /// @brief Field offset3104, offset: 0xc20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3104_forAlignment;
     };
@@ -5307,6 +5715,7 @@ private:
     struct {
       /// @brief Padding field 0xc30
       uint8_t ___offset3120_padding[0xc30];
+      /// [SerializeField]
       /// @brief Field offset3120, offset: 0xc30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3120;
     };
@@ -5314,6 +5723,7 @@ private:
     struct {
       /// @brief Padding field 0xc30 for alignment
       uint8_t ___offset3120_padding_forAlignment[0xc30];
+      /// [SerializeField]
       /// @brief Field offset3120, offset: 0xc30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3120_forAlignment;
     };
@@ -5321,6 +5731,7 @@ private:
     struct {
       /// @brief Padding field 0xc40
       uint8_t ___offset3136_padding[0xc40];
+      /// [SerializeField]
       /// @brief Field offset3136, offset: 0xc40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3136;
     };
@@ -5328,6 +5739,7 @@ private:
     struct {
       /// @brief Padding field 0xc40 for alignment
       uint8_t ___offset3136_padding_forAlignment[0xc40];
+      /// [SerializeField]
       /// @brief Field offset3136, offset: 0xc40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3136_forAlignment;
     };
@@ -5335,6 +5747,7 @@ private:
     struct {
       /// @brief Padding field 0xc50
       uint8_t ___offset3152_padding[0xc50];
+      /// [SerializeField]
       /// @brief Field offset3152, offset: 0xc50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3152;
     };
@@ -5342,6 +5755,7 @@ private:
     struct {
       /// @brief Padding field 0xc50 for alignment
       uint8_t ___offset3152_padding_forAlignment[0xc50];
+      /// [SerializeField]
       /// @brief Field offset3152, offset: 0xc50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3152_forAlignment;
     };
@@ -5349,6 +5763,7 @@ private:
     struct {
       /// @brief Padding field 0xc60
       uint8_t ___offset3168_padding[0xc60];
+      /// [SerializeField]
       /// @brief Field offset3168, offset: 0xc60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3168;
     };
@@ -5356,6 +5771,7 @@ private:
     struct {
       /// @brief Padding field 0xc60 for alignment
       uint8_t ___offset3168_padding_forAlignment[0xc60];
+      /// [SerializeField]
       /// @brief Field offset3168, offset: 0xc60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3168_forAlignment;
     };
@@ -5363,6 +5779,7 @@ private:
     struct {
       /// @brief Padding field 0xc70
       uint8_t ___offset3184_padding[0xc70];
+      /// [SerializeField]
       /// @brief Field offset3184, offset: 0xc70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3184;
     };
@@ -5370,6 +5787,7 @@ private:
     struct {
       /// @brief Padding field 0xc70 for alignment
       uint8_t ___offset3184_padding_forAlignment[0xc70];
+      /// [SerializeField]
       /// @brief Field offset3184, offset: 0xc70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3184_forAlignment;
     };
@@ -5377,6 +5795,7 @@ private:
     struct {
       /// @brief Padding field 0xc80
       uint8_t ___offset3200_padding[0xc80];
+      /// [SerializeField]
       /// @brief Field offset3200, offset: 0xc80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3200;
     };
@@ -5384,6 +5803,7 @@ private:
     struct {
       /// @brief Padding field 0xc80 for alignment
       uint8_t ___offset3200_padding_forAlignment[0xc80];
+      /// [SerializeField]
       /// @brief Field offset3200, offset: 0xc80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3200_forAlignment;
     };
@@ -5391,6 +5811,7 @@ private:
     struct {
       /// @brief Padding field 0xc90
       uint8_t ___offset3216_padding[0xc90];
+      /// [SerializeField]
       /// @brief Field offset3216, offset: 0xc90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3216;
     };
@@ -5398,6 +5819,7 @@ private:
     struct {
       /// @brief Padding field 0xc90 for alignment
       uint8_t ___offset3216_padding_forAlignment[0xc90];
+      /// [SerializeField]
       /// @brief Field offset3216, offset: 0xc90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3216_forAlignment;
     };
@@ -5405,6 +5827,7 @@ private:
     struct {
       /// @brief Padding field 0xca0
       uint8_t ___offset3232_padding[0xca0];
+      /// [SerializeField]
       /// @brief Field offset3232, offset: 0xca0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3232;
     };
@@ -5412,6 +5835,7 @@ private:
     struct {
       /// @brief Padding field 0xca0 for alignment
       uint8_t ___offset3232_padding_forAlignment[0xca0];
+      /// [SerializeField]
       /// @brief Field offset3232, offset: 0xca0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3232_forAlignment;
     };
@@ -5419,6 +5843,7 @@ private:
     struct {
       /// @brief Padding field 0xcb0
       uint8_t ___offset3248_padding[0xcb0];
+      /// [SerializeField]
       /// @brief Field offset3248, offset: 0xcb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3248;
     };
@@ -5426,6 +5851,7 @@ private:
     struct {
       /// @brief Padding field 0xcb0 for alignment
       uint8_t ___offset3248_padding_forAlignment[0xcb0];
+      /// [SerializeField]
       /// @brief Field offset3248, offset: 0xcb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3248_forAlignment;
     };
@@ -5433,6 +5859,7 @@ private:
     struct {
       /// @brief Padding field 0xcc0
       uint8_t ___offset3264_padding[0xcc0];
+      /// [SerializeField]
       /// @brief Field offset3264, offset: 0xcc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3264;
     };
@@ -5440,6 +5867,7 @@ private:
     struct {
       /// @brief Padding field 0xcc0 for alignment
       uint8_t ___offset3264_padding_forAlignment[0xcc0];
+      /// [SerializeField]
       /// @brief Field offset3264, offset: 0xcc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3264_forAlignment;
     };
@@ -5447,6 +5875,7 @@ private:
     struct {
       /// @brief Padding field 0xcd0
       uint8_t ___offset3280_padding[0xcd0];
+      /// [SerializeField]
       /// @brief Field offset3280, offset: 0xcd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3280;
     };
@@ -5454,6 +5883,7 @@ private:
     struct {
       /// @brief Padding field 0xcd0 for alignment
       uint8_t ___offset3280_padding_forAlignment[0xcd0];
+      /// [SerializeField]
       /// @brief Field offset3280, offset: 0xcd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3280_forAlignment;
     };
@@ -5461,6 +5891,7 @@ private:
     struct {
       /// @brief Padding field 0xce0
       uint8_t ___offset3296_padding[0xce0];
+      /// [SerializeField]
       /// @brief Field offset3296, offset: 0xce0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3296;
     };
@@ -5468,6 +5899,7 @@ private:
     struct {
       /// @brief Padding field 0xce0 for alignment
       uint8_t ___offset3296_padding_forAlignment[0xce0];
+      /// [SerializeField]
       /// @brief Field offset3296, offset: 0xce0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3296_forAlignment;
     };
@@ -5475,6 +5907,7 @@ private:
     struct {
       /// @brief Padding field 0xcf0
       uint8_t ___offset3312_padding[0xcf0];
+      /// [SerializeField]
       /// @brief Field offset3312, offset: 0xcf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3312;
     };
@@ -5482,6 +5915,7 @@ private:
     struct {
       /// @brief Padding field 0xcf0 for alignment
       uint8_t ___offset3312_padding_forAlignment[0xcf0];
+      /// [SerializeField]
       /// @brief Field offset3312, offset: 0xcf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3312_forAlignment;
     };
@@ -5489,6 +5923,7 @@ private:
     struct {
       /// @brief Padding field 0xd00
       uint8_t ___offset3328_padding[0xd00];
+      /// [SerializeField]
       /// @brief Field offset3328, offset: 0xd00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3328;
     };
@@ -5496,6 +5931,7 @@ private:
     struct {
       /// @brief Padding field 0xd00 for alignment
       uint8_t ___offset3328_padding_forAlignment[0xd00];
+      /// [SerializeField]
       /// @brief Field offset3328, offset: 0xd00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3328_forAlignment;
     };
@@ -5503,6 +5939,7 @@ private:
     struct {
       /// @brief Padding field 0xd10
       uint8_t ___offset3344_padding[0xd10];
+      /// [SerializeField]
       /// @brief Field offset3344, offset: 0xd10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3344;
     };
@@ -5510,6 +5947,7 @@ private:
     struct {
       /// @brief Padding field 0xd10 for alignment
       uint8_t ___offset3344_padding_forAlignment[0xd10];
+      /// [SerializeField]
       /// @brief Field offset3344, offset: 0xd10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3344_forAlignment;
     };
@@ -5517,6 +5955,7 @@ private:
     struct {
       /// @brief Padding field 0xd20
       uint8_t ___offset3360_padding[0xd20];
+      /// [SerializeField]
       /// @brief Field offset3360, offset: 0xd20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3360;
     };
@@ -5524,6 +5963,7 @@ private:
     struct {
       /// @brief Padding field 0xd20 for alignment
       uint8_t ___offset3360_padding_forAlignment[0xd20];
+      /// [SerializeField]
       /// @brief Field offset3360, offset: 0xd20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3360_forAlignment;
     };
@@ -5531,6 +5971,7 @@ private:
     struct {
       /// @brief Padding field 0xd30
       uint8_t ___offset3376_padding[0xd30];
+      /// [SerializeField]
       /// @brief Field offset3376, offset: 0xd30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3376;
     };
@@ -5538,6 +5979,7 @@ private:
     struct {
       /// @brief Padding field 0xd30 for alignment
       uint8_t ___offset3376_padding_forAlignment[0xd30];
+      /// [SerializeField]
       /// @brief Field offset3376, offset: 0xd30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3376_forAlignment;
     };
@@ -5545,6 +5987,7 @@ private:
     struct {
       /// @brief Padding field 0xd40
       uint8_t ___offset3392_padding[0xd40];
+      /// [SerializeField]
       /// @brief Field offset3392, offset: 0xd40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3392;
     };
@@ -5552,6 +5995,7 @@ private:
     struct {
       /// @brief Padding field 0xd40 for alignment
       uint8_t ___offset3392_padding_forAlignment[0xd40];
+      /// [SerializeField]
       /// @brief Field offset3392, offset: 0xd40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3392_forAlignment;
     };
@@ -5559,6 +6003,7 @@ private:
     struct {
       /// @brief Padding field 0xd50
       uint8_t ___offset3408_padding[0xd50];
+      /// [SerializeField]
       /// @brief Field offset3408, offset: 0xd50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3408;
     };
@@ -5566,6 +6011,7 @@ private:
     struct {
       /// @brief Padding field 0xd50 for alignment
       uint8_t ___offset3408_padding_forAlignment[0xd50];
+      /// [SerializeField]
       /// @brief Field offset3408, offset: 0xd50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3408_forAlignment;
     };
@@ -5573,6 +6019,7 @@ private:
     struct {
       /// @brief Padding field 0xd60
       uint8_t ___offset3424_padding[0xd60];
+      /// [SerializeField]
       /// @brief Field offset3424, offset: 0xd60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3424;
     };
@@ -5580,6 +6027,7 @@ private:
     struct {
       /// @brief Padding field 0xd60 for alignment
       uint8_t ___offset3424_padding_forAlignment[0xd60];
+      /// [SerializeField]
       /// @brief Field offset3424, offset: 0xd60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3424_forAlignment;
     };
@@ -5587,6 +6035,7 @@ private:
     struct {
       /// @brief Padding field 0xd70
       uint8_t ___offset3440_padding[0xd70];
+      /// [SerializeField]
       /// @brief Field offset3440, offset: 0xd70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3440;
     };
@@ -5594,6 +6043,7 @@ private:
     struct {
       /// @brief Padding field 0xd70 for alignment
       uint8_t ___offset3440_padding_forAlignment[0xd70];
+      /// [SerializeField]
       /// @brief Field offset3440, offset: 0xd70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3440_forAlignment;
     };
@@ -5601,6 +6051,7 @@ private:
     struct {
       /// @brief Padding field 0xd80
       uint8_t ___offset3456_padding[0xd80];
+      /// [SerializeField]
       /// @brief Field offset3456, offset: 0xd80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3456;
     };
@@ -5608,6 +6059,7 @@ private:
     struct {
       /// @brief Padding field 0xd80 for alignment
       uint8_t ___offset3456_padding_forAlignment[0xd80];
+      /// [SerializeField]
       /// @brief Field offset3456, offset: 0xd80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3456_forAlignment;
     };
@@ -5615,6 +6067,7 @@ private:
     struct {
       /// @brief Padding field 0xd90
       uint8_t ___offset3472_padding[0xd90];
+      /// [SerializeField]
       /// @brief Field offset3472, offset: 0xd90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3472;
     };
@@ -5622,6 +6075,7 @@ private:
     struct {
       /// @brief Padding field 0xd90 for alignment
       uint8_t ___offset3472_padding_forAlignment[0xd90];
+      /// [SerializeField]
       /// @brief Field offset3472, offset: 0xd90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3472_forAlignment;
     };
@@ -5629,6 +6083,7 @@ private:
     struct {
       /// @brief Padding field 0xda0
       uint8_t ___offset3488_padding[0xda0];
+      /// [SerializeField]
       /// @brief Field offset3488, offset: 0xda0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3488;
     };
@@ -5636,6 +6091,7 @@ private:
     struct {
       /// @brief Padding field 0xda0 for alignment
       uint8_t ___offset3488_padding_forAlignment[0xda0];
+      /// [SerializeField]
       /// @brief Field offset3488, offset: 0xda0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3488_forAlignment;
     };
@@ -5643,6 +6099,7 @@ private:
     struct {
       /// @brief Padding field 0xdb0
       uint8_t ___offset3504_padding[0xdb0];
+      /// [SerializeField]
       /// @brief Field offset3504, offset: 0xdb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3504;
     };
@@ -5650,6 +6107,7 @@ private:
     struct {
       /// @brief Padding field 0xdb0 for alignment
       uint8_t ___offset3504_padding_forAlignment[0xdb0];
+      /// [SerializeField]
       /// @brief Field offset3504, offset: 0xdb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3504_forAlignment;
     };
@@ -5657,6 +6115,7 @@ private:
     struct {
       /// @brief Padding field 0xdc0
       uint8_t ___offset3520_padding[0xdc0];
+      /// [SerializeField]
       /// @brief Field offset3520, offset: 0xdc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3520;
     };
@@ -5664,6 +6123,7 @@ private:
     struct {
       /// @brief Padding field 0xdc0 for alignment
       uint8_t ___offset3520_padding_forAlignment[0xdc0];
+      /// [SerializeField]
       /// @brief Field offset3520, offset: 0xdc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3520_forAlignment;
     };
@@ -5671,6 +6131,7 @@ private:
     struct {
       /// @brief Padding field 0xdd0
       uint8_t ___offset3536_padding[0xdd0];
+      /// [SerializeField]
       /// @brief Field offset3536, offset: 0xdd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3536;
     };
@@ -5678,6 +6139,7 @@ private:
     struct {
       /// @brief Padding field 0xdd0 for alignment
       uint8_t ___offset3536_padding_forAlignment[0xdd0];
+      /// [SerializeField]
       /// @brief Field offset3536, offset: 0xdd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3536_forAlignment;
     };
@@ -5685,6 +6147,7 @@ private:
     struct {
       /// @brief Padding field 0xde0
       uint8_t ___offset3552_padding[0xde0];
+      /// [SerializeField]
       /// @brief Field offset3552, offset: 0xde0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3552;
     };
@@ -5692,6 +6155,7 @@ private:
     struct {
       /// @brief Padding field 0xde0 for alignment
       uint8_t ___offset3552_padding_forAlignment[0xde0];
+      /// [SerializeField]
       /// @brief Field offset3552, offset: 0xde0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3552_forAlignment;
     };
@@ -5699,6 +6163,7 @@ private:
     struct {
       /// @brief Padding field 0xdf0
       uint8_t ___offset3568_padding[0xdf0];
+      /// [SerializeField]
       /// @brief Field offset3568, offset: 0xdf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3568;
     };
@@ -5706,6 +6171,7 @@ private:
     struct {
       /// @brief Padding field 0xdf0 for alignment
       uint8_t ___offset3568_padding_forAlignment[0xdf0];
+      /// [SerializeField]
       /// @brief Field offset3568, offset: 0xdf0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3568_forAlignment;
     };
@@ -5713,6 +6179,7 @@ private:
     struct {
       /// @brief Padding field 0xe00
       uint8_t ___offset3584_padding[0xe00];
+      /// [SerializeField]
       /// @brief Field offset3584, offset: 0xe00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3584;
     };
@@ -5720,6 +6187,7 @@ private:
     struct {
       /// @brief Padding field 0xe00 for alignment
       uint8_t ___offset3584_padding_forAlignment[0xe00];
+      /// [SerializeField]
       /// @brief Field offset3584, offset: 0xe00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3584_forAlignment;
     };
@@ -5727,6 +6195,7 @@ private:
     struct {
       /// @brief Padding field 0xe10
       uint8_t ___offset3600_padding[0xe10];
+      /// [SerializeField]
       /// @brief Field offset3600, offset: 0xe10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3600;
     };
@@ -5734,6 +6203,7 @@ private:
     struct {
       /// @brief Padding field 0xe10 for alignment
       uint8_t ___offset3600_padding_forAlignment[0xe10];
+      /// [SerializeField]
       /// @brief Field offset3600, offset: 0xe10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3600_forAlignment;
     };
@@ -5741,6 +6211,7 @@ private:
     struct {
       /// @brief Padding field 0xe20
       uint8_t ___offset3616_padding[0xe20];
+      /// [SerializeField]
       /// @brief Field offset3616, offset: 0xe20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3616;
     };
@@ -5748,6 +6219,7 @@ private:
     struct {
       /// @brief Padding field 0xe20 for alignment
       uint8_t ___offset3616_padding_forAlignment[0xe20];
+      /// [SerializeField]
       /// @brief Field offset3616, offset: 0xe20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3616_forAlignment;
     };
@@ -5755,6 +6227,7 @@ private:
     struct {
       /// @brief Padding field 0xe30
       uint8_t ___offset3632_padding[0xe30];
+      /// [SerializeField]
       /// @brief Field offset3632, offset: 0xe30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3632;
     };
@@ -5762,6 +6235,7 @@ private:
     struct {
       /// @brief Padding field 0xe30 for alignment
       uint8_t ___offset3632_padding_forAlignment[0xe30];
+      /// [SerializeField]
       /// @brief Field offset3632, offset: 0xe30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3632_forAlignment;
     };
@@ -5769,6 +6243,7 @@ private:
     struct {
       /// @brief Padding field 0xe40
       uint8_t ___offset3648_padding[0xe40];
+      /// [SerializeField]
       /// @brief Field offset3648, offset: 0xe40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3648;
     };
@@ -5776,6 +6251,7 @@ private:
     struct {
       /// @brief Padding field 0xe40 for alignment
       uint8_t ___offset3648_padding_forAlignment[0xe40];
+      /// [SerializeField]
       /// @brief Field offset3648, offset: 0xe40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3648_forAlignment;
     };
@@ -5783,6 +6259,7 @@ private:
     struct {
       /// @brief Padding field 0xe50
       uint8_t ___offset3664_padding[0xe50];
+      /// [SerializeField]
       /// @brief Field offset3664, offset: 0xe50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3664;
     };
@@ -5790,6 +6267,7 @@ private:
     struct {
       /// @brief Padding field 0xe50 for alignment
       uint8_t ___offset3664_padding_forAlignment[0xe50];
+      /// [SerializeField]
       /// @brief Field offset3664, offset: 0xe50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3664_forAlignment;
     };
@@ -5797,6 +6275,7 @@ private:
     struct {
       /// @brief Padding field 0xe60
       uint8_t ___offset3680_padding[0xe60];
+      /// [SerializeField]
       /// @brief Field offset3680, offset: 0xe60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3680;
     };
@@ -5804,6 +6283,7 @@ private:
     struct {
       /// @brief Padding field 0xe60 for alignment
       uint8_t ___offset3680_padding_forAlignment[0xe60];
+      /// [SerializeField]
       /// @brief Field offset3680, offset: 0xe60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3680_forAlignment;
     };
@@ -5811,6 +6291,7 @@ private:
     struct {
       /// @brief Padding field 0xe70
       uint8_t ___offset3696_padding[0xe70];
+      /// [SerializeField]
       /// @brief Field offset3696, offset: 0xe70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3696;
     };
@@ -5818,6 +6299,7 @@ private:
     struct {
       /// @brief Padding field 0xe70 for alignment
       uint8_t ___offset3696_padding_forAlignment[0xe70];
+      /// [SerializeField]
       /// @brief Field offset3696, offset: 0xe70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3696_forAlignment;
     };
@@ -5825,6 +6307,7 @@ private:
     struct {
       /// @brief Padding field 0xe80
       uint8_t ___offset3712_padding[0xe80];
+      /// [SerializeField]
       /// @brief Field offset3712, offset: 0xe80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3712;
     };
@@ -5832,6 +6315,7 @@ private:
     struct {
       /// @brief Padding field 0xe80 for alignment
       uint8_t ___offset3712_padding_forAlignment[0xe80];
+      /// [SerializeField]
       /// @brief Field offset3712, offset: 0xe80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3712_forAlignment;
     };
@@ -5839,6 +6323,7 @@ private:
     struct {
       /// @brief Padding field 0xe90
       uint8_t ___offset3728_padding[0xe90];
+      /// [SerializeField]
       /// @brief Field offset3728, offset: 0xe90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3728;
     };
@@ -5846,6 +6331,7 @@ private:
     struct {
       /// @brief Padding field 0xe90 for alignment
       uint8_t ___offset3728_padding_forAlignment[0xe90];
+      /// [SerializeField]
       /// @brief Field offset3728, offset: 0xe90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3728_forAlignment;
     };
@@ -5853,6 +6339,7 @@ private:
     struct {
       /// @brief Padding field 0xea0
       uint8_t ___offset3744_padding[0xea0];
+      /// [SerializeField]
       /// @brief Field offset3744, offset: 0xea0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3744;
     };
@@ -5860,6 +6347,7 @@ private:
     struct {
       /// @brief Padding field 0xea0 for alignment
       uint8_t ___offset3744_padding_forAlignment[0xea0];
+      /// [SerializeField]
       /// @brief Field offset3744, offset: 0xea0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3744_forAlignment;
     };
@@ -5867,6 +6355,7 @@ private:
     struct {
       /// @brief Padding field 0xeb0
       uint8_t ___offset3760_padding[0xeb0];
+      /// [SerializeField]
       /// @brief Field offset3760, offset: 0xeb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3760;
     };
@@ -5874,6 +6363,7 @@ private:
     struct {
       /// @brief Padding field 0xeb0 for alignment
       uint8_t ___offset3760_padding_forAlignment[0xeb0];
+      /// [SerializeField]
       /// @brief Field offset3760, offset: 0xeb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3760_forAlignment;
     };
@@ -5881,6 +6371,7 @@ private:
     struct {
       /// @brief Padding field 0xec0
       uint8_t ___offset3776_padding[0xec0];
+      /// [SerializeField]
       /// @brief Field offset3776, offset: 0xec0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3776;
     };
@@ -5888,6 +6379,7 @@ private:
     struct {
       /// @brief Padding field 0xec0 for alignment
       uint8_t ___offset3776_padding_forAlignment[0xec0];
+      /// [SerializeField]
       /// @brief Field offset3776, offset: 0xec0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3776_forAlignment;
     };
@@ -5895,6 +6387,7 @@ private:
     struct {
       /// @brief Padding field 0xed0
       uint8_t ___offset3792_padding[0xed0];
+      /// [SerializeField]
       /// @brief Field offset3792, offset: 0xed0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3792;
     };
@@ -5902,6 +6395,7 @@ private:
     struct {
       /// @brief Padding field 0xed0 for alignment
       uint8_t ___offset3792_padding_forAlignment[0xed0];
+      /// [SerializeField]
       /// @brief Field offset3792, offset: 0xed0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3792_forAlignment;
     };
@@ -5909,6 +6403,7 @@ private:
     struct {
       /// @brief Padding field 0xee0
       uint8_t ___offset3808_padding[0xee0];
+      /// [SerializeField]
       /// @brief Field offset3808, offset: 0xee0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3808;
     };
@@ -5916,6 +6411,7 @@ private:
     struct {
       /// @brief Padding field 0xee0 for alignment
       uint8_t ___offset3808_padding_forAlignment[0xee0];
+      /// [SerializeField]
       /// @brief Field offset3808, offset: 0xee0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3808_forAlignment;
     };
@@ -5923,6 +6419,7 @@ private:
     struct {
       /// @brief Padding field 0xef0
       uint8_t ___offset3824_padding[0xef0];
+      /// [SerializeField]
       /// @brief Field offset3824, offset: 0xef0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3824;
     };
@@ -5930,6 +6427,7 @@ private:
     struct {
       /// @brief Padding field 0xef0 for alignment
       uint8_t ___offset3824_padding_forAlignment[0xef0];
+      /// [SerializeField]
       /// @brief Field offset3824, offset: 0xef0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3824_forAlignment;
     };
@@ -5937,6 +6435,7 @@ private:
     struct {
       /// @brief Padding field 0xf00
       uint8_t ___offset3840_padding[0xf00];
+      /// [SerializeField]
       /// @brief Field offset3840, offset: 0xf00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3840;
     };
@@ -5944,6 +6443,7 @@ private:
     struct {
       /// @brief Padding field 0xf00 for alignment
       uint8_t ___offset3840_padding_forAlignment[0xf00];
+      /// [SerializeField]
       /// @brief Field offset3840, offset: 0xf00, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3840_forAlignment;
     };
@@ -5951,6 +6451,7 @@ private:
     struct {
       /// @brief Padding field 0xf10
       uint8_t ___offset3856_padding[0xf10];
+      /// [SerializeField]
       /// @brief Field offset3856, offset: 0xf10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3856;
     };
@@ -5958,6 +6459,7 @@ private:
     struct {
       /// @brief Padding field 0xf10 for alignment
       uint8_t ___offset3856_padding_forAlignment[0xf10];
+      /// [SerializeField]
       /// @brief Field offset3856, offset: 0xf10, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3856_forAlignment;
     };
@@ -5965,6 +6467,7 @@ private:
     struct {
       /// @brief Padding field 0xf20
       uint8_t ___offset3872_padding[0xf20];
+      /// [SerializeField]
       /// @brief Field offset3872, offset: 0xf20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3872;
     };
@@ -5972,6 +6475,7 @@ private:
     struct {
       /// @brief Padding field 0xf20 for alignment
       uint8_t ___offset3872_padding_forAlignment[0xf20];
+      /// [SerializeField]
       /// @brief Field offset3872, offset: 0xf20, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3872_forAlignment;
     };
@@ -5979,6 +6483,7 @@ private:
     struct {
       /// @brief Padding field 0xf30
       uint8_t ___offset3888_padding[0xf30];
+      /// [SerializeField]
       /// @brief Field offset3888, offset: 0xf30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3888;
     };
@@ -5986,6 +6491,7 @@ private:
     struct {
       /// @brief Padding field 0xf30 for alignment
       uint8_t ___offset3888_padding_forAlignment[0xf30];
+      /// [SerializeField]
       /// @brief Field offset3888, offset: 0xf30, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3888_forAlignment;
     };
@@ -5993,6 +6499,7 @@ private:
     struct {
       /// @brief Padding field 0xf40
       uint8_t ___offset3904_padding[0xf40];
+      /// [SerializeField]
       /// @brief Field offset3904, offset: 0xf40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3904;
     };
@@ -6000,6 +6507,7 @@ private:
     struct {
       /// @brief Padding field 0xf40 for alignment
       uint8_t ___offset3904_padding_forAlignment[0xf40];
+      /// [SerializeField]
       /// @brief Field offset3904, offset: 0xf40, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3904_forAlignment;
     };
@@ -6007,6 +6515,7 @@ private:
     struct {
       /// @brief Padding field 0xf50
       uint8_t ___offset3920_padding[0xf50];
+      /// [SerializeField]
       /// @brief Field offset3920, offset: 0xf50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3920;
     };
@@ -6014,6 +6523,7 @@ private:
     struct {
       /// @brief Padding field 0xf50 for alignment
       uint8_t ___offset3920_padding_forAlignment[0xf50];
+      /// [SerializeField]
       /// @brief Field offset3920, offset: 0xf50, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3920_forAlignment;
     };
@@ -6021,6 +6531,7 @@ private:
     struct {
       /// @brief Padding field 0xf60
       uint8_t ___offset3936_padding[0xf60];
+      /// [SerializeField]
       /// @brief Field offset3936, offset: 0xf60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3936;
     };
@@ -6028,6 +6539,7 @@ private:
     struct {
       /// @brief Padding field 0xf60 for alignment
       uint8_t ___offset3936_padding_forAlignment[0xf60];
+      /// [SerializeField]
       /// @brief Field offset3936, offset: 0xf60, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3936_forAlignment;
     };
@@ -6035,6 +6547,7 @@ private:
     struct {
       /// @brief Padding field 0xf70
       uint8_t ___offset3952_padding[0xf70];
+      /// [SerializeField]
       /// @brief Field offset3952, offset: 0xf70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3952;
     };
@@ -6042,6 +6555,7 @@ private:
     struct {
       /// @brief Padding field 0xf70 for alignment
       uint8_t ___offset3952_padding_forAlignment[0xf70];
+      /// [SerializeField]
       /// @brief Field offset3952, offset: 0xf70, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3952_forAlignment;
     };
@@ -6049,6 +6563,7 @@ private:
     struct {
       /// @brief Padding field 0xf80
       uint8_t ___offset3968_padding[0xf80];
+      /// [SerializeField]
       /// @brief Field offset3968, offset: 0xf80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3968;
     };
@@ -6056,6 +6571,7 @@ private:
     struct {
       /// @brief Padding field 0xf80 for alignment
       uint8_t ___offset3968_padding_forAlignment[0xf80];
+      /// [SerializeField]
       /// @brief Field offset3968, offset: 0xf80, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3968_forAlignment;
     };
@@ -6063,6 +6579,7 @@ private:
     struct {
       /// @brief Padding field 0xf90
       uint8_t ___offset3984_padding[0xf90];
+      /// [SerializeField]
       /// @brief Field offset3984, offset: 0xf90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3984;
     };
@@ -6070,6 +6587,7 @@ private:
     struct {
       /// @brief Padding field 0xf90 for alignment
       uint8_t ___offset3984_padding_forAlignment[0xf90];
+      /// [SerializeField]
       /// @brief Field offset3984, offset: 0xf90, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset3984_forAlignment;
     };
@@ -6077,6 +6595,7 @@ private:
     struct {
       /// @brief Padding field 0xfa0
       uint8_t ___offset4000_padding[0xfa0];
+      /// [SerializeField]
       /// @brief Field offset4000, offset: 0xfa0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4000;
     };
@@ -6084,6 +6603,7 @@ private:
     struct {
       /// @brief Padding field 0xfa0 for alignment
       uint8_t ___offset4000_padding_forAlignment[0xfa0];
+      /// [SerializeField]
       /// @brief Field offset4000, offset: 0xfa0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4000_forAlignment;
     };
@@ -6091,6 +6611,7 @@ private:
     struct {
       /// @brief Padding field 0xfb0
       uint8_t ___offset4016_padding[0xfb0];
+      /// [SerializeField]
       /// @brief Field offset4016, offset: 0xfb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4016;
     };
@@ -6098,6 +6619,7 @@ private:
     struct {
       /// @brief Padding field 0xfb0 for alignment
       uint8_t ___offset4016_padding_forAlignment[0xfb0];
+      /// [SerializeField]
       /// @brief Field offset4016, offset: 0xfb0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4016_forAlignment;
     };
@@ -6105,6 +6627,7 @@ private:
     struct {
       /// @brief Padding field 0xfc0
       uint8_t ___offset4032_padding[0xfc0];
+      /// [SerializeField]
       /// @brief Field offset4032, offset: 0xfc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4032;
     };
@@ -6112,6 +6635,7 @@ private:
     struct {
       /// @brief Padding field 0xfc0 for alignment
       uint8_t ___offset4032_padding_forAlignment[0xfc0];
+      /// [SerializeField]
       /// @brief Field offset4032, offset: 0xfc0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4032_forAlignment;
     };
@@ -6119,6 +6643,7 @@ private:
     struct {
       /// @brief Padding field 0xfd0
       uint8_t ___offset4048_padding[0xfd0];
+      /// [SerializeField]
       /// @brief Field offset4048, offset: 0xfd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4048;
     };
@@ -6126,6 +6651,7 @@ private:
     struct {
       /// @brief Padding field 0xfd0 for alignment
       uint8_t ___offset4048_padding_forAlignment[0xfd0];
+      /// [SerializeField]
       /// @brief Field offset4048, offset: 0xfd0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4048_forAlignment;
     };
@@ -6133,6 +6659,7 @@ private:
     struct {
       /// @brief Padding field 0xfe0
       uint8_t ___offset4064_padding[0xfe0];
+      /// [SerializeField]
       /// @brief Field offset4064, offset: 0xfe0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4064;
     };
@@ -6140,6 +6667,7 @@ private:
     struct {
       /// @brief Padding field 0xfe0 for alignment
       uint8_t ___offset4064_padding_forAlignment[0xfe0];
+      /// [SerializeField]
       /// @brief Field offset4064, offset: 0xfe0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4064_forAlignment;
     };
@@ -6147,6 +6675,7 @@ private:
     struct {
       /// @brief Padding field 0xff0
       uint8_t ___offset4080_padding[0xff0];
+      /// [SerializeField]
       /// @brief Field offset4080, offset: 0xff0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4080;
     };
@@ -6154,6 +6683,7 @@ private:
     struct {
       /// @brief Padding field 0xff0 for alignment
       uint8_t ___offset4080_padding_forAlignment[0xff0];
+      /// [SerializeField]
       /// @brief Field offset4080, offset: 0xff0, size: 0x10, def value: None
       ::Unity::Collections::FixedBytes16Align8 ___offset4080_forAlignment;
     };

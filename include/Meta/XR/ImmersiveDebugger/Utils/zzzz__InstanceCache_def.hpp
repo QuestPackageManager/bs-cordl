@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Utils\InstanceCache.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Utils/InstanceCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,6 +47,7 @@ MARK_REF_T(::Meta::XR::ImmersiveDebugger::Utils::InstanceCache*);
 MARK_REF_T(::Meta::XR::ImmersiveDebugger::Utils::InstanceCache___c__DisplayClass12_0*);
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Utils::InstanceCache*, "Meta.XR.ImmersiveDebugger.Utils", "InstanceCache");
 DEFINE_IL2CPP_CLASS(::Meta::XR::ImmersiveDebugger::Utils::InstanceCache___c__DisplayClass12_0*, "Meta.XR.ImmersiveDebugger.Utils", "InstanceCache/<>c__DisplayClass12_0");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger::Utils {
 // Is value type: false
@@ -77,13 +78,13 @@ protected:
   constexpr InstanceCache___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceCache___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstanceCache___c__DisplayClass12_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstanceCache___c__DisplayClass12_0(InstanceCache___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceCache___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstanceCache___c__DisplayClass12_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceCache___c__DisplayClass12_0(InstanceCache___c__DisplayClass12_0 const&) = delete;
+  InstanceCache___c__DisplayClass12_0(InstanceCache___c__DisplayClass12_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18349 };
@@ -187,21 +188,27 @@ public:
   /// @brief Method .ctor, addr 0x5a47a9c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnCacheChangedForTypeEvent, addr 0x5a469bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_OnCacheChangedForTypeEvent(::System::Action_1<::System::Type*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnInstanceAdded, addr 0x5a46b3c, size 0xc0, virtual false, abstract: false, final false
   inline void add_OnInstanceAdded(::System::Func_2<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::UserInterface::IInspector*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method add_OnInstanceRemoved, addr 0x5a46cbc, size 0xc0, virtual false, abstract: false, final false
   inline void add_OnInstanceRemoved(::System::Action_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnCacheChangedForTypeEvent, addr 0x5a46a7c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_OnCacheChangedForTypeEvent(::System::Action_1<::System::Type*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnInstanceAdded, addr 0x5a46bfc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_OnInstanceAdded(::System::Func_2<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::UserInterface::IInspector*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_OnInstanceRemoved, addr 0x5a46d7c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_OnInstanceRemoved(::System::Action_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* value);
 
@@ -211,13 +218,13 @@ protected:
   constexpr InstanceCache();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceCache", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstanceCache", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstanceCache(InstanceCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceCache", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstanceCache", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstanceCache(InstanceCache const&) = delete;
+  InstanceCache(InstanceCacheconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18350 };
@@ -228,12 +235,15 @@ public:
   /// @brief Field _emptyCache, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* ____emptyCache;
 
+  /// [CompilerGenerated]
   /// @brief Field OnCacheChangedForTypeEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::System::Type*>* ___OnCacheChangedForTypeEvent;
 
+  /// [CompilerGenerated]
   /// @brief Field OnInstanceAdded, offset: 0x28, size: 0x8, def value: None
   ::System::Func_2<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::UserInterface::IInspector*>* ___OnInstanceAdded;
 
+  /// [CompilerGenerated]
   /// @brief Field OnInstanceRemoved, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>* ___OnInstanceRemoved;
 

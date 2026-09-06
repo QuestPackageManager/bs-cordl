@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderKeyword.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderKeyword.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderKeyword_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ShaderKeyword.GetGlobalKeywordCount
@@ -145,9 +145,9 @@ inline void UnityEngine::Rendering::ShaderKeyword::CreateGlobalKeyword_Injected(
                                                            { "CreateGlobalKeyword_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, keyword);
 }
-// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_IsLocal", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IsCompute", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IsValid", ty: "bool",
-// modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_IsLocal", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_IsCompute", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "m_IsValid", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ShaderKeyword::ShaderKeyword(::StringW m_Name, uint32_t m_Index, bool m_IsLocal, bool m_IsCompute, bool m_IsValid) noexcept {
   this->m_Name = m_Name;
   this->m_Index = m_Index;

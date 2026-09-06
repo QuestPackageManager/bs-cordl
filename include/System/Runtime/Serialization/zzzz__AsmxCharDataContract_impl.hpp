@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\Serialization\AsmxCharDataContract.hpp"
+// IWYU pragma private; include "System/Runtime/Serialization/AsmxCharDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__CharDataContract_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__AsmxCharDataContract_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::AsmxCharDataContract._ctor

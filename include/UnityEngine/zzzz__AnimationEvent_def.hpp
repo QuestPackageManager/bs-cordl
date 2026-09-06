@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AnimationEvent.hpp"
+// IWYU pragma private; include "UnityEngine/AnimationEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class AnimationEvent;
 // Write type traits
 MARK_REF_T(::UnityEngine::AnimationEvent*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");
+// [RequiredByNativeCode]
 // Dependencies System.Object, UnityEngine.AnimationEventSource, UnityEngine.AnimatorClipInfo, UnityEngine.AnimatorStateInfo
 namespace UnityEngine {
 // Is value type: false
@@ -141,13 +142,13 @@ protected:
   constexpr AnimationEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationEvent(AnimationEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnimationEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnimationEvent(AnimationEvent const&) = delete;
+  AnimationEvent(AnimationEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20211 };

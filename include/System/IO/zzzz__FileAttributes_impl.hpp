@@ -1,7 +1,7 @@
 #pragma once
-// IWYU pragma private; include "System\IO\FileAttributes.hpp"
+// IWYU pragma private; include "System/IO/FileAttributes.hpp"
 #include "System/IO/zzzz__FileAttributes_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::IO::FileAttributes::FileAttributes(int32_t value__) noexcept {
   this->value__ = value__;
 }

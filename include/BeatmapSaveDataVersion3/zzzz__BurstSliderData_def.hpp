@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3\BurstSliderData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BurstSliderData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,20 +74,22 @@ protected:
   constexpr BurstSliderData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BurstSliderData(BurstSliderData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BurstSliderData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BurstSliderData(BurstSliderData const&) = delete;
+  BurstSliderData(BurstSliderDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15378 };
 
+  /// [SerializeField]
   /// @brief Field sc, offset: 0x30, size: 0x4, def value: None
   int32_t ___sc;
 
+  /// [SerializeField]
   /// @brief Field s, offset: 0x34, size: 0x4, def value: None
   float_t ___s;
 

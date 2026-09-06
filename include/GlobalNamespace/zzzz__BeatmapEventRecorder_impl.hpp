@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapEventRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
@@ -7,10 +7,11 @@
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventRecorder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-// Ctor Parameters [CppParam { name: "bpm", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "jumpSpeed", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "basic", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "boost", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "translation", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "fx", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "bpm", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "jumpSpeed", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "basic", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "boost", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "color", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rotation", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "translation", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "fx", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::GlobalNamespace::BeatmapEventRecorder_EventCounts::BeatmapEventRecorder_EventCounts(int32_t bpm, int32_t jumpSpeed, int32_t basic, int32_t boost, int32_t color, int32_t rotation,
                                                                                                 int32_t translation, int32_t fx) noexcept {
   this->bpm = bpm;

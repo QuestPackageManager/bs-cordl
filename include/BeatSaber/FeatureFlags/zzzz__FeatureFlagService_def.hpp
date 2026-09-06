@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureFlagService.hpp"
+// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureFlagService.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace Zenject {
 class IInitializable;
@@ -147,7 +149,7 @@ public:
   // @brief default ctor
   constexpr FeatureFlagService_State();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr FeatureFlagService_State(int32_t value__) noexcept;
 
   /// @brief Field Initializing value: I32(0)
@@ -176,6 +178,7 @@ static_assert(offsetof(::BeatSaber::FeatureFlags::FeatureFlagService_State, valu
 static_assert(sizeof(::BeatSaber::FeatureFlags::FeatureFlagService_State) == 0x4, "Size mismatch!");
 
 } // namespace BeatSaber::FeatureFlags
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace BeatSaber::FeatureFlags {
 // Is value type: false
@@ -211,13 +214,13 @@ protected:
   constexpr FeatureFlagService___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FeatureFlagService___c(FeatureFlagService___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagService___c(FeatureFlagService___c const&) = delete;
+  FeatureFlagService___c(FeatureFlagService___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22910 };
@@ -228,6 +231,7 @@ public:
 static_assert(sizeof(::BeatSaber::FeatureFlags::FeatureFlagService___c) == 0x10, "Size mismatch!");
 
 } // namespace BeatSaber::FeatureFlags
+// [CompilerGenerated]
 // Dependencies BeatSaber.FeatureFlags.FeatureFlagService::State, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::FeatureFlags {
 // Is value type: true
@@ -241,6 +245,7 @@ public:
   /// @brief Method MoveNext, addr 0x328c470, size 0x74c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x328cbbc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -251,10 +256,10 @@ public:
   // @brief default ctor
   constexpr FeatureFlagService__InitializeAsync_d__11();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::BeatSaber::FeatureFlags::FeatureFlagService*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "__4__this", ty: "::BeatSaber::FeatureFlags::FeatureFlagService*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr FeatureFlagService__InitializeAsync_d__11(int32_t __1__state,
                                                       ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::FeatureFlags::FeatureFlagService_State> __t__builder,
                                                       ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -291,6 +296,7 @@ static_assert(offsetof(::BeatSaber::FeatureFlags::FeatureFlagService__Initialize
 static_assert(sizeof(::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::FeatureFlags
+// [CompilerGenerated]
 // Dependencies BeatSaber.FeatureFlags.Feature, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::FeatureFlags {
 // Is value type: true
@@ -304,6 +310,7 @@ public:
   /// @brief Method MoveNext, addr 0x328cc3c, size 0x31c, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x328cf58, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -314,10 +321,10 @@ public:
   // @brief default ctor
   constexpr FeatureFlagService__IsFeatureEnabledAsync_d__14();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::FeatureFlags::FeatureFlagService*",
-  // modifiers: "", def_value: None }, CppParam { name: "feature", ty: "::BeatSaber::FeatureFlags::Feature", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::BeatSaber::FeatureFlags::FeatureFlagService*", modifiers: "", def_value: None, comment: None }, CppParam { name: "feature", ty: "::BeatSaber::FeatureFlags::Feature", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr FeatureFlagService__IsFeatureEnabledAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                             ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this, ::BeatSaber::FeatureFlags::Feature feature,
                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
@@ -359,6 +366,7 @@ static_assert(offsetof(::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureE
 static_assert(sizeof(::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14) == 0x38, "Size mismatch!");
 
 } // namespace BeatSaber::FeatureFlags
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::FeatureFlags {
 // Is value type: true
@@ -372,6 +380,7 @@ public:
   /// @brief Method MoveNext, addr 0x328cfd8, size 0x898, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x328d898, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -382,9 +391,10 @@ public:
   // @brief default ctor
   constexpr FeatureFlagService__QueryRemoteFlagsAsync_d__12();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::FeatureFlags::FeatureFlagService*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel*>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::FeatureFlags::FeatureFlagService*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel*>",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr FeatureFlagService__QueryRemoteFlagsAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                             ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this,
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel*> __u__1) noexcept;
@@ -421,6 +431,7 @@ static_assert(offsetof(::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemot
 static_assert(sizeof(::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::FeatureFlags
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::FeatureFlags {
 // Is value type: true
@@ -434,6 +445,7 @@ public:
   /// @brief Method MoveNext, addr 0x328d904, size 0x1cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x328dad0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -444,9 +456,9 @@ public:
   // @brief default ctor
   constexpr FeatureFlagService__WaitForInitialization_d__17();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::FeatureFlags::FeatureFlagService*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::BeatSaber::FeatureFlags::FeatureFlagService*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr FeatureFlagService__WaitForInitialization_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                             ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -547,24 +559,29 @@ public:
   /// @brief Method Initialize, addr 0x328baa0, size 0xc4, virtual true, abstract: false, final true
   inline void Initialize();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.FeatureFlags.FeatureFlagService::<InitializeAsync>d__11))]
   /// @brief Method InitializeAsync, addr 0x328bb64, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>* InitializeAsync();
 
   /// @brief Method IsFeatureEnabled, addr 0x328bcf0, size 0x2d8, virtual true, abstract: false, final true
   inline ::System::Nullable_1<bool> IsFeatureEnabled(::BeatSaber::FeatureFlags::Feature feature);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.FeatureFlags.FeatureFlagService::<IsFeatureEnabledAsync>d__14))]
   /// @brief Method IsFeatureEnabledAsync, addr 0x328c1b0, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsFeatureEnabledAsync(::BeatSaber::FeatureFlags::Feature feature);
 
   static inline ::BeatSaber::FeatureFlags::FeatureFlagService* New_ctor(::BeatSaber::GraphQL::IGraphQLClientProvider* graphQlClientProvider, ::BeatSaber::FeatureFlags::IFeatureFlags* features,
                                                                         int32_t initializationTimeoutSecs);
 
+  /// [AsyncStateMachine(typeof(BeatSaber.FeatureFlags.FeatureFlagService::<QueryRemoteFlagsAsync>d__12))]
   /// @brief Method QueryRemoteFlagsAsync, addr 0x328bc40, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* QueryRemoteFlagsAsync();
 
+  /// [AsyncStateMachine(typeof(BeatSaber.FeatureFlags.FeatureFlagService::<WaitForInitialization>d__17))]
   /// @brief Method WaitForInitialization, addr 0x328c2a0, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WaitForInitialization();
 
+  /// [CompilerGenerated]
   /// @brief Method <Initialize>b__10_0, addr 0x328c354, size 0xb0, virtual false, abstract: false, final false
   inline void _Initialize_b__10_0(::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>* task);
 
@@ -634,13 +651,13 @@ protected:
   constexpr FeatureFlagService();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FeatureFlagService(FeatureFlagService&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FeatureFlagService", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FeatureFlagService(FeatureFlagService const&) = delete;
+  FeatureFlagService(FeatureFlagServiceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22915 };

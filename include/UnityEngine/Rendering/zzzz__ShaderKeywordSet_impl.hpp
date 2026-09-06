@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ShaderKeywordSet.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderKeywordSet.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderKeywordSet_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
@@ -90,9 +90,9 @@ inline bool UnityEngine::Rendering::ShaderKeywordSet::IsKeywordNameEnabled_Injec
                                          { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, state, name);
 }
-// Ctor Parameters [CppParam { name: "m_KeywordState", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Shader", ty: "::System::IntPtr", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_ComputeShader", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StateIndex", ty: "uint64_t", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_KeywordState", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Shader", ty: "::System::IntPtr", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "m_ComputeShader", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_StateIndex", ty:
+// "uint64_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::ShaderKeywordSet::ShaderKeywordSet(::System::IntPtr m_KeywordState, ::System::IntPtr m_Shader, ::System::IntPtr m_ComputeShader, uint64_t m_StateIndex) noexcept {
   this->m_KeywordState = m_KeywordState;
   this->m_Shader = m_Shader;

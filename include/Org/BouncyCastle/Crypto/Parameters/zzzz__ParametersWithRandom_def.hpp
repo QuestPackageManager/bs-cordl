@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ParametersWithRandom.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ParametersWithRandom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
+  /// [Obsolete("Use Random property instead")]
   /// @brief Method GetRandom, addr 0x34152f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* GetRandom();
 
@@ -79,13 +80,13 @@ protected:
   constexpr ParametersWithRandom();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParametersWithRandom", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParametersWithRandom", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParametersWithRandom(ParametersWithRandom&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParametersWithRandom", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ParametersWithRandom", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ParametersWithRandom(ParametersWithRandom const&) = delete;
+  ParametersWithRandom(ParametersWithRandomconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1073 };

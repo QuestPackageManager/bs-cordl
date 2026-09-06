@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Diagnostics\StackTrace.hpp"
+// IWYU pragma private; include "System/Diagnostics/StackTrace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   // @brief default ctor
   constexpr StackTrace_TraceFormat();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StackTrace_TraceFormat(int32_t value__) noexcept;
 
   /// @brief Field NoResourceLookup value: I32(2)
@@ -99,6 +99,8 @@ static_assert(offsetof(::System::Diagnostics::StackTrace_TraceFormat, value__) =
 static_assert(sizeof(::System::Diagnostics::StackTrace_TraceFormat) == 0x4, "Size mismatch!");
 
 } // namespace System::Diagnostics
+// [MonoTODO("Serialized objects are not compatible with .NET")]
+// [ComVisible(true)]
 // Dependencies System.Diagnostics.StackFrame, System.Object
 namespace System::Diagnostics {
 // Is value type: false
@@ -137,6 +139,7 @@ public:
   /// @brief Method GetFrame, addr 0x5be13d4, size 0x60, virtual true, abstract: false, final false
   inline ::System::Diagnostics::StackFrame* GetFrame(int32_t index);
 
+  /// [ComVisible(false)]
   /// @brief Method GetFrames, addr 0x5be1434, size 0x1f0, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Diagnostics::StackFrame*> GetFrames();
 
@@ -220,13 +223,13 @@ protected:
   constexpr StackTrace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StackTrace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackTrace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackTrace(StackTrace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StackTrace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StackTrace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StackTrace(StackTrace const&) = delete;
+  StackTrace(StackTraceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3668 };

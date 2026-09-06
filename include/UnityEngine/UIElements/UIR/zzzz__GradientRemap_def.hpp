@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\GradientRemap.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GradientRemap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,13 +81,13 @@ protected:
   constexpr GradientRemap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GradientRemap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientRemap", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GradientRemap(GradientRemap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GradientRemap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GradientRemap", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GradientRemap(GradientRemap const&) = delete;
+  GradientRemap(GradientRemapconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5365 };

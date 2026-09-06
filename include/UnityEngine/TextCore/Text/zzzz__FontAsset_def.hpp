@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\FontAsset.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,9 @@ namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace System {
-template <typename T> class WeakReference_1;
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+class WeakReference_1;
 }
 namespace UnityEngine::Bindings {
 struct ManagedSpanWrapper;
@@ -117,6 +119,7 @@ MARK_REF_T(::UnityEngine::TextCore::Text::FontAsset*);
 MARK_REF_T(::UnityEngine::TextCore::Text::FontAsset___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::FontAsset*, "UnityEngine.TextCore.Text", "FontAsset");
 DEFINE_IL2CPP_CLASS(::UnityEngine::TextCore::Text::FontAsset___c*, "UnityEngine.TextCore.Text", "FontAsset/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
@@ -162,13 +165,13 @@ protected:
   constexpr FontAsset___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FontAsset___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontAsset___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontAsset___c(FontAsset___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FontAsset___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontAsset___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontAsset___c(FontAsset___c const&) = delete;
+  FontAsset___c(FontAsset___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17227 };
@@ -179,6 +182,8 @@ public:
 static_assert(sizeof(::UnityEngine::TextCore::Text::FontAsset___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
+// [NativeHeader("Modules/TextCoreTextEngine/Native/FontAsset.h")]
+// [ExcludeFromPreset]
 // Dependencies System.IntPtr, Unity.Profiling.ProfilerMarker, UnityEngine.TextCore.FaceInfo, UnityEngine.TextCore.LowLevel.GlyphRenderMode, UnityEngine.TextCore.Text.AtlasPopulationMode,
 // UnityEngine.TextCore.Text.FontAssetCreationEditorSettings, UnityEngine.TextCore.Text.FontWeightPair, UnityEngine.TextCore.Text.TextAsset, UnityEngine.Texture2D
 namespace UnityEngine::TextCore::Text {
@@ -244,6 +249,7 @@ public:
 
   __declspec(property(get = get_glyphLookupTable)) ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* glyphLookupTable;
 
+  /// @brief [Nullable(1)]
   __declspec(property(get = get_glyphTable, put = set_glyphTable)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* glyphTable;
 
   __declspec(property(get = get_isMultiAtlasTexturesEnabled, put = set_isMultiAtlasTexturesEnabled)) bool isMultiAtlasTexturesEnabled;
@@ -559,6 +565,7 @@ public:
   /// @brief Method CreateFontAsset, addr 0x6bca5a8, size 0x1c4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW familyName, ::StringW styleName, int32_t pointSize);
 
+  /// [NullableContext(1)]
   /// @brief Method CreateFontAsset, addr 0x6bca9dc, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW familyName, ::StringW styleName, int32_t pointSize, int32_t padding,
                                                                                    ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode);
@@ -600,6 +607,7 @@ public:
                                                                                            ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
                                                                                            ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
+  /// [NullableContext(1)]
   /// @brief Method CreateFontAssetInternal, addr 0x6bca76c, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAssetInternal(::StringW familyName, ::StringW styleName, int32_t pointSize);
 
@@ -616,6 +624,7 @@ public:
                                                  ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fallbacks, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> weightFallbacks,
                                                  ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> italicFallbacks);
 
+  /// [FreeFunction("FontAsset::Destroy")]
   /// @brief Method Destroy, addr 0x6bcc124, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr ptr);
 
@@ -644,6 +653,7 @@ public:
   /// @brief Method GetFallbacks, addr 0x6bd4334, size 0x3a0, virtual false, abstract: false, final false
   inline ::ArrayW<::System::IntPtr> GetFallbacks();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method GetFontAssetByID, addr 0x6bcbaf8, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAssetByID(int32_t id);
 
@@ -827,6 +837,7 @@ public:
   /// @brief Method UpdateFontAssetData, addr 0x6bcfb48, size 0x130, virtual false, abstract: false, final false
   inline void UpdateFontAssetData();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Method UpdateFontAssetsInUpdateQueue, addr 0x6bd0c98, size 0x54, virtual false, abstract: false, final false
   static inline void UpdateFontAssetsInUpdateQueue();
 
@@ -1274,6 +1285,7 @@ public:
   /// @brief Method get_glyphLookupTable, addr 0x6bc9e2c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* get_glyphLookupTable();
 
+  /// [NullableContext(1)]
   /// @brief Method get_glyphTable, addr 0x6bc9e1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* get_glyphTable();
 
@@ -1283,6 +1295,7 @@ public:
   /// @brief Method get_italicStyleSlant, addr 0x6bca588, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_italicStyleSlant();
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method get_nativeFontAsset, addr 0x6bd41e8, size 0x14c, virtual false, abstract: false, final false
   inline ::System::IntPtr get_nativeFontAsset();
 
@@ -1402,6 +1415,7 @@ public:
   /// @brief Method set_getFontFeatures, addr 0x6bca4a0, size 0x8, virtual false, abstract: false, final false
   inline void set_getFontFeatures(bool value);
 
+  /// [NullableContext(1)]
   /// @brief Method set_glyphTable, addr 0x6bc9e24, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* value);
 
@@ -1435,38 +1449,48 @@ protected:
   constexpr FontAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FontAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontAsset(FontAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FontAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FontAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FontAsset(FontAsset const&) = delete;
+  FontAsset(FontAssetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17228 };
 
+  /// [SerializeField]
   /// @brief Field m_SourceFontFileGUID, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_SourceFontFileGUID;
 
+  /// [SerializeField]
   /// @brief Field m_fontAssetCreationEditorSettings, offset: 0x40, size: 0x58, def value: None
   ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings ___m_fontAssetCreationEditorSettings;
 
+  /// [SerializeField]
   /// @brief Field m_SourceFontFile, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Font> ___m_SourceFontFile;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
+  /// [SerializeField]
   /// @brief Field m_SourceFontFilePath, offset: 0xa0, size: 0x8, def value: None
   ::StringW ___m_SourceFontFilePath;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasPopulationMode, offset: 0xa8, size: 0x4, def value: None
   ::UnityEngine::TextCore::Text::AtlasPopulationMode ___m_AtlasPopulationMode;
 
+  /// [SerializeField]
   /// @brief Field InternalDynamicOS, offset: 0xac, size: 0x1, def value: None
   bool ___InternalDynamicOS;
 
+  /// [SerializeField]
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Field IsEditorFont, offset: 0xad, size: 0x1, def value: None
   bool ___IsEditorFont;
 
+  /// [SerializeField]
   /// @brief Field m_FaceInfo, offset: 0xb0, size: 0x60, def value: None
   ::UnityEngine::TextCore::FaceInfo ___m_FaceInfo;
 
@@ -1476,81 +1500,112 @@ public:
   /// @brief Field m_StyleNameHashCode, offset: 0x114, size: 0x4, def value: None
   int32_t ___m_StyleNameHashCode;
 
+  /// [Nullable(1)]
+  /// [SerializeField]
   /// @brief Field m_GlyphTable, offset: 0x118, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* ___m_GlyphTable;
 
   /// @brief Field m_GlyphLookupDictionary, offset: 0x120, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* ___m_GlyphLookupDictionary;
 
+  /// [SerializeField]
   /// @brief Field m_CharacterTable, offset: 0x128, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* ___m_CharacterTable;
 
+  /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
   /// @brief Field m_CharacterLookupDictionary, offset: 0x130, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>* ___m_CharacterLookupDictionary;
 
   /// @brief Field m_AtlasTexture, offset: 0x138, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_AtlasTexture;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasTextures, offset: 0x140, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>> ___m_AtlasTextures;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasTextureIndex, offset: 0x148, size: 0x4, def value: None
   int32_t ___m_AtlasTextureIndex;
 
+  /// [SerializeField]
   /// @brief Field m_IsMultiAtlasTexturesEnabled, offset: 0x14c, size: 0x1, def value: None
   bool ___m_IsMultiAtlasTexturesEnabled;
 
+  /// [SerializeField]
   /// @brief Field m_GetFontFeatures, offset: 0x14d, size: 0x1, def value: None
   bool ___m_GetFontFeatures;
 
+  /// [SerializeField]
   /// @brief Field m_ClearDynamicDataOnBuild, offset: 0x14e, size: 0x1, def value: None
   bool ___m_ClearDynamicDataOnBuild;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasWidth, offset: 0x150, size: 0x4, def value: None
   int32_t ___m_AtlasWidth;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasHeight, offset: 0x154, size: 0x4, def value: None
   int32_t ___m_AtlasHeight;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasPadding, offset: 0x158, size: 0x4, def value: None
   int32_t ___m_AtlasPadding;
 
+  /// [SerializeField]
   /// @brief Field m_AtlasRenderMode, offset: 0x15c, size: 0x4, def value: None
   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode ___m_AtlasRenderMode;
 
+  /// [SerializeField]
   /// @brief Field m_UsedGlyphRects, offset: 0x160, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* ___m_UsedGlyphRects;
 
+  /// [SerializeField]
   /// @brief Field m_FreeGlyphRects, offset: 0x168, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* ___m_FreeGlyphRects;
 
+  /// [SerializeField]
   /// @brief Field m_FontFeatureTable, offset: 0x170, size: 0x8, def value: None
   ::UnityEngine::TextCore::Text::FontFeatureTable* ___m_FontFeatureTable;
 
+  /// [SerializeField]
   /// @brief Field m_ShouldReimportFontFeatures, offset: 0x178, size: 0x1, def value: None
   bool ___m_ShouldReimportFontFeatures;
 
+  /// [SerializeField]
   /// @brief Field m_FallbackFontAssetTable, offset: 0x180, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* ___m_FallbackFontAssetTable;
 
+  /// [SerializeField]
   /// @brief Field m_FontWeightTable, offset: 0x188, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair> ___m_FontWeightTable;
 
+  /// [FormerlySerializedAs("normalStyle")]
+  /// [SerializeField]
   /// @brief Field m_RegularStyleWeight, offset: 0x190, size: 0x4, def value: None
   float_t ___m_RegularStyleWeight;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("normalSpacingOffset")]
   /// @brief Field m_RegularStyleSpacing, offset: 0x194, size: 0x4, def value: None
   float_t ___m_RegularStyleSpacing;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("boldStyle")]
   /// @brief Field m_BoldStyleWeight, offset: 0x198, size: 0x4, def value: None
   float_t ___m_BoldStyleWeight;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("boldSpacing")]
   /// @brief Field m_BoldStyleSpacing, offset: 0x19c, size: 0x4, def value: None
   float_t ___m_BoldStyleSpacing;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("italicStyle")]
   /// @brief Field m_ItalicStyleSlant, offset: 0x1a0, size: 0x1, def value: None
   uint8_t ___m_ItalicStyleSlant;
 
+  /// [FormerlySerializedAs("tabSize")]
+  /// [SerializeField]
   /// @brief Field m_TabMultiple, offset: 0x1a1, size: 0x1, def value: None
   uint8_t ___m_TabMultiple;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLQueryOperation.hpp"
+// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLQueryOperation.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLOperationBase_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLQueryOperation_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLOperation_def.hpp"

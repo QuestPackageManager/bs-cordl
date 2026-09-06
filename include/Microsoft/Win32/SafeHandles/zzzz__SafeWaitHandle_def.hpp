@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafeWaitHandle.hpp"
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,11 +22,13 @@ namespace Microsoft::Win32::SafeHandles {
 class CORDL_TYPE SafeWaitHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
   // Declarations
+  /// @brief [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   static inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* New_ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
   /// @brief Method ReleaseHandle, addr 0x5ac7548, size 0x24, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method .ctor, addr 0x5ac751c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
@@ -36,13 +38,13 @@ protected:
   constexpr SafeWaitHandle();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeWaitHandle", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeWaitHandle", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeWaitHandle(SafeWaitHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeWaitHandle", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeWaitHandle", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SafeWaitHandle(SafeWaitHandle const&) = delete;
+  SafeWaitHandle(SafeWaitHandleconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2300 };

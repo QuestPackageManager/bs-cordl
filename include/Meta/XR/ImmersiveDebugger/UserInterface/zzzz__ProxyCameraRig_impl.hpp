@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\ProxyCameraRig.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/ProxyCameraRig.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__ProxyCameraRig_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"

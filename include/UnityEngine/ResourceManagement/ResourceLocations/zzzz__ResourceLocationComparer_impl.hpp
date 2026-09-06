@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceLocations\ResourceLocationComparer.hpp"
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceLocations/ResourceLocationComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ResourceLocationComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"

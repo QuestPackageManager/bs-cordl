@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\StandardLevelFinishedController.hpp"
+// IWYU pragma private; include "GlobalNamespace/StandardLevelFinishedController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ class StandardLevelFinishedController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::StandardLevelFinishedController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::StandardLevelFinishedController*, "", "StandardLevelFinishedController");
+// [AddComponentMenu("Beat Saber/Gameplay/StandardLevelFinishedController")]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -80,23 +81,26 @@ protected:
   constexpr StandardLevelFinishedController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFinishedController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFinishedController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelFinishedController(StandardLevelFinishedController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFinishedController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelFinishedController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StandardLevelFinishedController(StandardLevelFinishedController const&) = delete;
+  StandardLevelFinishedController(StandardLevelFinishedControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6043 };
 
+  /// [Inject]
   /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::StandardLevelScenesTransitionSetupData* ____standardLevelSceneSetupData;
 
+  /// [Inject]
   /// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
+  /// [Inject]
   /// @brief Field _gameplayManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
 

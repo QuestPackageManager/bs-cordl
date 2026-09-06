@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DrawIfAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace/DrawIfAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ MARK_VAL_T(::GlobalNamespace::DrawIfAttribute_DisablingType);
 MARK_REF_T(::GlobalNamespace::DrawIfAttribute*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DrawIfAttribute_DisablingType, "", "DrawIfAttribute/DisablingType");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DrawIfAttribute*, "", "DrawIfAttribute");
+// [NullableContext(0)]
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -55,7 +56,7 @@ public:
   // @brief default ctor
   constexpr DrawIfAttribute_DisablingType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DrawIfAttribute_DisablingType(int32_t value__) noexcept;
 
   /// @brief Field DontDraw value: I32(1)
@@ -81,6 +82,9 @@ static_assert(offsetof(::GlobalNamespace::DrawIfAttribute_DisablingType, value__
 static_assert(sizeof(::GlobalNamespace::DrawIfAttribute_DisablingType) == 0x4, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [NullableContext(1)]
+// [Nullable(0)]
+// [AttributeUsage((System.AttributeTargets)384, AllowMultiple = true)]
 // Dependencies DrawIfAttribute::DisablingType, UnityEngine.PropertyAttribute
 namespace GlobalNamespace {
 // Is value type: false
@@ -143,13 +147,13 @@ protected:
   constexpr DrawIfAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawIfAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawIfAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DrawIfAttribute(DrawIfAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawIfAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DrawIfAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DrawIfAttribute(DrawIfAttribute const&) = delete;
+  DrawIfAttribute(DrawIfAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23507 };
@@ -160,6 +164,7 @@ public:
   /// @brief Field value, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ___value;
 
+  /// [Nullable(2)]
   /// @brief Field orValue, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ___orValue;
 

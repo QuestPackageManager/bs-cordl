@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventsBuilder.hpp"
+// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventsBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,8 @@ class EventsBuilder;
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::EventsBuilder*);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::EventsBuilder*, "BeatSaber.Analytics.Gameplay", "EventsBuilder");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: false
@@ -96,11 +98,11 @@ public:
 
   /// @brief Method SetupSegmentFields, addr 0x3261c60, size 0xc, virtual false, abstract: false, final false
   inline void SetupSegmentFields(::StringW segmentName, ::StringW segmentId, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* currentSegmentType,
-                                 ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* currentSegmentSettings);
+                                 /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* currentSegmentSettings);
 
   /// @brief Method StartSegment, addr 0x3261cf4, size 0x300, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* StartSegment(::StringW segmentName, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* type,
-                                                                       ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings);
+                                                                       /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings);
 
   /// @brief Method ThrowIfAlreadyContainsEndEvent, addr 0x32625a4, size 0x5c, virtual false, abstract: false, final false
   inline void ThrowIfAlreadyContainsEndEvent();
@@ -109,7 +111,7 @@ public:
   inline bool TryFlushSegmentData(::StringW segmentName);
 
   /// @brief Method WithCustomEvent, addr 0x32629bc, size 0x160, virtual false, abstract: false, final false
-  inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* WithCustomEvent(::StringW payload, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* eventType);
+  inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* WithCustomEvent(::StringW payload, /* [Nullable(2)] */ ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* eventType);
 
   /// @brief Method WithMetric, addr 0x3262804, size 0x16c, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* WithMetric(::StringW metricName, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricType* spaceshipMetricType, float_t value);
@@ -168,13 +170,13 @@ protected:
   constexpr EventsBuilder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventsBuilder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventsBuilder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventsBuilder(EventsBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventsBuilder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventsBuilder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventsBuilder(EventsBuilder const&) = delete;
+  EventsBuilder(EventsBuilderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22252 };
@@ -182,15 +184,19 @@ public:
   /// @brief Field _currentSeqNum, offset: 0x10, size: 0x4, def value: None
   int32_t ____currentSeqNum;
 
+  /// [Nullable(2)]
   /// @brief Field _segmentId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____segmentId;
 
+  /// [Nullable(2)]
   /// @brief Field _segmentName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____segmentName;
 
+  /// [Nullable(2)]
   /// @brief Field _segmentType, offset: 0x28, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* ____segmentType;
 
+  /// [Nullable(2)]
   /// @brief Field _segmentSettings, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* ____segmentSettings;
 

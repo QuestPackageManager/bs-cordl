@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\RectTransform.hpp"
+// IWYU pragma private; include "UnityEngine/RectTransform.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__Transform_impl.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
@@ -11,7 +11,7 @@
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RectTransform_Edge::RectTransform_Edge(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -21,7 +21,7 @@ constexpr ::UnityEngine::RectTransform_Edge UnityEngine::RectTransform_Edge::Lef
 constexpr ::UnityEngine::RectTransform_Edge UnityEngine::RectTransform_Edge::Right{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::RectTransform_Edge UnityEngine::RectTransform_Edge::Top{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::RectTransform_Edge UnityEngine::RectTransform_Edge::Bottom{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::RectTransform_Axis::RectTransform_Axis(int32_t value__) noexcept {
   this->value__ = value__;
 }

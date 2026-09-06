@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugLightingMode.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugLightingMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,8 @@ struct DebugLightingMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::Universal::DebugLightingMode);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::Universal::DebugLightingMode, "UnityEngine.Rendering.Universal", "DebugLightingMode");
-// Dependencies
+// [GenerateHLSL((UnityEngine.Rendering.PackingRules)0, true, false, false, 1, false, false, false, -1,
+// ".\\Library\\PackageCache\\com.unity.render-pipelines.universal@bd2aa618476e\\ShaderLibrary\\Debug\\DebugViewEnums.cs")] Dependencies
 namespace UnityEngine::Rendering::Universal {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.Universal.DebugLightingMode
@@ -47,7 +48,7 @@ public:
   // @brief default ctor
   constexpr DebugLightingMode();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr DebugLightingMode(int32_t value__) noexcept;
 
   /// @brief Field GlobalIllumination value: I32(6)

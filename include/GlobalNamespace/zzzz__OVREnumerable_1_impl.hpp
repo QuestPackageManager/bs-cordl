@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVREnumerable_1.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVREnumerable_1.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_impl.hpp"
@@ -13,7 +13,7 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::GlobalNamespace::Enumerator_OVREnumerable_1_CollectionType<T>::Enumerator_OVREnumerable_1_CollectionType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -85,12 +85,13 @@ template <typename T> constexpr GlobalNamespace::OVREnumerable_1_Enumerator<T>::
 template <typename T> constexpr ::System::IDisposable* GlobalNamespace::OVREnumerable_1_Enumerator<T>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_listIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_type", ty:
-// "::GlobalNamespace::Enumerator_OVREnumerable_1_CollectionType<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_listCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_enumerator", ty: "::System::Collections::Generic::IEnumerator_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_readOnlyList", ty:
-// "::System::Collections::Generic::IReadOnlyList_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_setEnumerator", ty: "::System::Collections::Generic::HashSet_1_Enumerator<T>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_queueEnumerator", ty: "::System::Collections::Generic::Queue_1_Enumerator<T>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_listEnumerator", ty: "::System::Collections::Generic::List_1_Enumerator<T>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_listIndex", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_type", ty:
+// "::GlobalNamespace::Enumerator_OVREnumerable_1_CollectionType<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_listCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_enumerator", ty: "::System::Collections::Generic::IEnumerator_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_readOnlyList", ty: "::System::Collections::Generic::IReadOnlyList_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_setEnumerator", ty:
+// "::System::Collections::Generic::HashSet_1_Enumerator<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_queueEnumerator", ty:
+// "::System::Collections::Generic::Queue_1_Enumerator<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_listEnumerator", ty:
+// "::System::Collections::Generic::List_1_Enumerator<T>", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T>
 constexpr ::GlobalNamespace::OVREnumerable_1_Enumerator<T>::OVREnumerable_1_Enumerator(int32_t _listIndex, ::GlobalNamespace::Enumerator_OVREnumerable_1_CollectionType<T> _type, int32_t _listCount,
                                                                                        ::System::Collections::Generic::IEnumerator_1<T>* _enumerator,
@@ -157,7 +158,7 @@ template <typename T> constexpr GlobalNamespace::OVREnumerable_1<T>::operator ::
 template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::OVREnumerable_1<T>::i___System__Collections__IEnumerable() {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_enumerable", ty: "::System::Collections::Generic::IEnumerable_1<T>*", modifiers: "", def_value: Some("{}"), comment: None }]
 template <typename T> constexpr ::GlobalNamespace::OVREnumerable_1<T>::OVREnumerable_1(::System::Collections::Generic::IEnumerable_1<T>* _enumerable) noexcept {
   this->_enumerable = _enumerable;
 }

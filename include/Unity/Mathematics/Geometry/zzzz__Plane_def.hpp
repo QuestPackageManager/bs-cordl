@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\Geometry\Plane.hpp"
+// IWYU pragma private; include "Unity/Mathematics/Geometry/Plane.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ struct Plane;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::Geometry::Plane);
 DEFINE_IL2CPP_CLASS(::Unity::Mathematics::Geometry::Plane, "Unity.Mathematics.Geometry", "Plane");
+// [DebuggerDisplay("{Normal}, {Distance}")]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies Unity.Mathematics.float4
 namespace Unity::Mathematics::Geometry {
 // Is value type: true
@@ -33,6 +35,7 @@ public:
 
   __declspec(property(get = get_Normal, put = set_Normal)) ::Unity::Mathematics::float3 Normal;
 
+  /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// @brief Method CheckPlaneIsNormalized, addr 0x661e124, size 0x9c8, virtual false, abstract: false, final false
   inline void CheckPlaneIsNormalized();
 
@@ -88,7 +91,7 @@ public:
   // @brief default ctor
   constexpr Plane();
 
-  // Ctor Parameters [CppParam { name: "NormalAndDistance", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "NormalAndDistance", ty: "::Unity::Mathematics::float4", modifiers: "", def_value: None, comment: None }]
   constexpr Plane(::Unity::Mathematics::float4 NormalAndDistance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

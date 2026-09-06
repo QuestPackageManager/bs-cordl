@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\SqlTypes\SqlString.hpp"
+// IWYU pragma private; include "System/Data/SqlTypes/SqlString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,6 +61,7 @@ struct SqlString;
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::SqlString);
 DEFINE_IL2CPP_CLASS(::System::Data::SqlTypes::SqlString, "System.Data.SqlTypes", "SqlString");
+// [XmlSchemaProvider("GetXsdType")]
 // Dependencies System.Data.SqlTypes.SqlCompareOptions, System.Globalization.CompareOptions
 namespace System::Data::SqlTypes {
 // Is value type: true
@@ -263,9 +264,9 @@ public:
   // @brief default ctor
   constexpr SqlString();
 
-  // Ctor Parameters [CppParam { name: "m_value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_cmpInfo", ty: "::System::Globalization::CompareInfo*", modifiers: "",
-  // def_value: None }, CppParam { name: "m_lcid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_flag", ty: "::System::Data::SqlTypes::SqlCompareOptions", modifiers: "",
-  // def_value: None }, CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_value", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_cmpInfo", ty: "::System::Globalization::CompareInfo*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "m_lcid", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_flag", ty:
+  // "::System::Data::SqlTypes::SqlCompareOptions", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_fNotNull", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr SqlString(::StringW m_value, ::System::Globalization::CompareInfo* m_cmpInfo, int32_t m_lcid, ::System::Data::SqlTypes::SqlCompareOptions m_flag, bool m_fNotNull) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

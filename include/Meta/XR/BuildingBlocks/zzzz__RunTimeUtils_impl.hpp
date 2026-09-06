@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\BuildingBlocks\RunTimeUtils.hpp"
+// IWYU pragma private; include "Meta/XR/BuildingBlocks/RunTimeUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__RunTimeUtils_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
@@ -18,7 +18,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t, bo
     return ___internal_method;
   }
 };
-template <typename T> inline T Meta::XR::BuildingBlocks::RunTimeUtils::GetInterfaceComponent(::UnityEngine::MonoBehaviour* monoBehaviour) {
+template <typename T>
+  requires(::cordl_internals::reference_type_constraint<T>)
+inline T Meta::XR::BuildingBlocks::RunTimeUtils::GetInterfaceComponent(::UnityEngine::MonoBehaviour* monoBehaviour) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RunTimeUtils*>(), { "GetInterfaceComponent", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::MonoBehaviour*>() } })));

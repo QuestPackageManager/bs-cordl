@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\SerializedVirtualizationData.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/SerializedVirtualizationData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,7 @@ class SerializedVirtualizationData;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::SerializedVirtualizationData*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::SerializedVirtualizationData*, "UnityEngine.UIElements", "SerializedVirtualizationData");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -87,13 +88,13 @@ protected:
   constexpr SerializedVirtualizationData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerializedVirtualizationData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializedVirtualizationData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializedVirtualizationData(SerializedVirtualizationData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerializedVirtualizationData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SerializedVirtualizationData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SerializedVirtualizationData(SerializedVirtualizationData const&) = delete;
+  SerializedVirtualizationData(SerializedVirtualizationDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4124 };

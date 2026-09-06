@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MeshRendererSwitchEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/MeshRendererSwitchEventEffect.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

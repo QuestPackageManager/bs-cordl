@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MenuTransitionsHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/MenuTransitionsHelper.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
@@ -1087,14 +1087,15 @@ inline void GlobalNamespace::MenuTransitionsHelper::Dispose() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MenuTransitionsHelper::StartStandardLevel(
-    ::StringW gameMode, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings,
-    ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
-    ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation, ::System::Action* beforeSceneSwitchToGameplayCallback,
-    ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchToGameplayCallback,
-    ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
-    ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
-    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) {
+    ::StringW gameMode, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+    /* [Nullable(2)] */ ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, /* [Nullable(2)] */ ::GlobalNamespace::ColorScheme* playerOverrideColorScheme,
+    bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+    /* [Nullable(2)] */ ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
+    ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation, /* [Nullable(2)] */ ::System::Action* beforeSceneSwitchToGameplayCallback,
+    /* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchToGameplayCallback,
+    /* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
+    /* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
+    /* [Nullable(2)] */ ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(),
@@ -1113,11 +1114,12 @@ inline void GlobalNamespace::MenuTransitionsHelper::StartStandardLevel(
                                                    beforeSceneSwitchToGameplayCallback, afterSceneSwitchToGameplayCallback, levelFinishedCallback, levelRestartedCallback, beatmapLevelData);
 }
 inline void GlobalNamespace::MenuTransitionsHelper::StartMissionLevel(
-    ::StringW missionId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::ColorScheme* playerOverrideColorScheme,
-    bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives,
-    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::System::Action* beforeSceneSwitchCallback,
+    ::StringW missionId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+    ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+    ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+    ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::System::Action* beforeSceneSwitchCallback,
     ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback,
-    ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* levelRestartedCallback) {
+    /* [Nullable(new[] { 2, 1, 1 })] */ ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* levelRestartedCallback) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(),
                                               { "StartMissionLevel",
@@ -1132,7 +1134,7 @@ inline void GlobalNamespace::MenuTransitionsHelper::StartMissionLevel(
                                                    missionObjectives, playerSpecificSettings, environmentsListModel, beforeSceneSwitchCallback, levelFinishedCallback, levelRestartedCallback);
 }
 inline void GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel(
-    ::StringW gameMode, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
+    ::StringW gameMode, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
     ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
     ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText, bool useTestNoteCutSoundEffects,
     ::System::Action* beforeSceneSwitchCallback, ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData*, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
@@ -1152,7 +1154,7 @@ inline void GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel(
                                                    environmentsListModel, practiceSettings, backButtonText, useTestNoteCutSoundEffects, beforeSceneSwitchCallback, levelFinishedCallback,
                                                    didDisconnectCallback);
 }
-inline void GlobalNamespace::MenuTransitionsHelper::StartTutorial(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::System::Action* beforeSceneSwitchCallback) {
+inline void GlobalNamespace::MenuTransitionsHelper::StartTutorial(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, /* [Nullable(2)] */ ::System::Action* beforeSceneSwitchCallback) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(),
                                                            { "StartTutorial", {}, { ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(), ::i2c::type_of<::System::Action*>() } })));
@@ -1168,9 +1170,9 @@ inline void GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditor(::System:
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapEditorFinishedCallback);
 }
 inline void GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditorStandardLevel(
-    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
-    ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data,
+    ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data,
     ::System::Action* beforeSceneSwitchCallback, ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchCallback,
     ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1187,7 +1189,7 @@ inline void GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditorStandardLe
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapLevelData, beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings, colorScheme,
                                                    environmentsListModel, data, beforeSceneSwitchCallback, afterSceneSwitchCallback, levelFinishedCallback);
 }
-inline void GlobalNamespace::MenuTransitionsHelper::RestartGame(::System::Action_1<::Zenject::DiContainer*>* finishCallback) {
+inline void GlobalNamespace::MenuTransitionsHelper::RestartGame(/* [Nullable(new[] { 2, 1 })] */ ::System::Action_1<::Zenject::DiContainer*>* finishCallback) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuTransitionsHelper*>(), { "RestartGame", {}, { ::i2c::type_of<::System::Action_1<::Zenject::DiContainer*>*>() } })));

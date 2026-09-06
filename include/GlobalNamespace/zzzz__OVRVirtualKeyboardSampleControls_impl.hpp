@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRVirtualKeyboardSampleControls.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboardSampleControls.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -56,17 +56,18 @@ inline void GlobalNamespace::OVRVirtualKeyboardSampleControls_OVRVirtualKeyboard
                                                                                          { "RestoreTo", {}, { ::i2c::type_of<::GlobalNamespace::OVRVirtualKeyboard*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, keyboard);
 }
-// Ctor Parameters [CppParam { name: "_position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "_rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "_rightControllerDirectTransform", ty:
-// "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_rightControllerRootTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_leftControllerDirectTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_leftControllerRootTransform",
-// ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_controllerRayInteraction", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_controllerDirectInteraction", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handLeft", ty: "::UnityW<::GlobalNamespace::OVRHand>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_handRight", ty: "::UnityW<::GlobalNamespace::OVRHand>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handRayInteraction", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_handDirectInteraction", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_controllerRaycaster", ty:
-// "::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_handRaycaster", ty:
-// "::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_textHandlerField", ty: "::UnityW<::UnityEngine::UI::InputField>", modifiers:
-// "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_rotation", ty: "::UnityEngine::Quaternion",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_rightControllerDirectTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_rightControllerRootTransform", ty:
+// "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_leftControllerDirectTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_leftControllerRootTransform", ty: "::UnityW<::UnityEngine::Transform>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_controllerRayInteraction", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_controllerDirectInteraction", ty: "bool", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "_handLeft", ty: "::UnityW<::GlobalNamespace::OVRHand>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "_handRight", ty: "::UnityW<::GlobalNamespace::OVRHand>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_handRayInteraction", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_handDirectInteraction", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_controllerRaycaster", ty:
+// "::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_handRaycaster", ty:
+// "::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_textHandlerField", ty:
+// "::UnityW<::UnityEngine::UI::InputField>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRVirtualKeyboardSampleControls_OVRVirtualKeyboardBackup::OVRVirtualKeyboardSampleControls_OVRVirtualKeyboardBackup(
     ::UnityEngine::Vector3 _position, ::UnityEngine::Quaternion _rotation, ::UnityEngine::Vector3 _scale, ::UnityW<::UnityEngine::Transform> _rightControllerDirectTransform,
     ::UnityW<::UnityEngine::Transform> _rightControllerRootTransform, ::UnityW<::UnityEngine::Transform> _leftControllerDirectTransform,
@@ -256,6 +257,7 @@ inline ::System::Object* GlobalNamespace::OVRVirtualKeyboardSampleControls__Crea
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19* GlobalNamespace::OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OVRVirtualKeyboardSampleControls__CreateKeyboard_d__19*>(__1__state));
 }

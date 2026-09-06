@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextAsset.hpp"
+// IWYU pragma private; include "UnityEngine/TextAsset.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
@@ -10,7 +10,7 @@
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextAsset_CreateOptions::TextAsset_CreateOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -331,13 +331,13 @@ inline ::ArrayW<uint8_t> UnityEngine::TextAsset::GetPreviewBytes(int32_t maxByte
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextAsset*>(), { "GetPreviewBytes", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method, maxByteCount);
 }
-inline void UnityEngine::TextAsset::Internal_CreateInstance(::UnityEngine::TextAsset* self, ::StringW text) {
+inline void UnityEngine::TextAsset::Internal_CreateInstance(/* [Writable] */ ::UnityEngine::TextAsset* self, ::StringW text) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::TextAsset*>(), { "Internal_CreateInstance", {}, { ::i2c::type_of<::UnityEngine::TextAsset*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, text);
 }
-inline void UnityEngine::TextAsset::Internal_CreateInstanceFromBytes(::UnityEngine::TextAsset* self, ::System::ReadOnlySpan_1<uint8_t> bytes) {
+inline void UnityEngine::TextAsset::Internal_CreateInstanceFromBytes(/* [Writable] */ ::UnityEngine::TextAsset* self, ::System::ReadOnlySpan_1<uint8_t> bytes) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextAsset*>(),
                                               { "Internal_CreateInstanceFromBytes", {}, { ::i2c::type_of<::UnityEngine::TextAsset*>(), ::i2c::type_of<::System::ReadOnlySpan_1<uint8_t>>() } })));
@@ -388,7 +388,9 @@ inline void UnityEngine::TextAsset::_ctor(::UnityEngine::TextAsset_CreateOptions
                                                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::TextAsset_CreateOptions>(), ::i2c::type_of<::System::ReadOnlySpan_1<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, options, bytes);
 }
-template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::TextAsset::GetData() {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::Unity::Collections::NativeArray_1<T> UnityEngine::TextAsset::GetData() {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextAsset*>(), { "GetData", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(this, ___internal_method);
@@ -412,14 +414,14 @@ inline ::ArrayW<uint8_t> UnityEngine::TextAsset::GetPreviewBytes_Injected(::Syst
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextAsset*>(), { "GetPreviewBytes_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, _unity_self, maxByteCount);
 }
-inline void UnityEngine::TextAsset::Internal_CreateInstance_Injected(::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> text) {
+inline void UnityEngine::TextAsset::Internal_CreateInstance_Injected(/* [Writable] */ ::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> text) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::TextAsset*>(),
                           { "Internal_CreateInstance_Injected", {}, { ::i2c::type_of<::UnityEngine::TextAsset*>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, self, text);
 }
-inline void UnityEngine::TextAsset::Internal_CreateInstanceFromBytes_Injected(::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> bytes) {
+inline void UnityEngine::TextAsset::Internal_CreateInstanceFromBytes_Injected(/* [Writable] */ ::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> bytes) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(

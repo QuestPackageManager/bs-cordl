@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputActionAsset.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 namespace System {
 class Object;
@@ -134,8 +136,9 @@ public:
   // @brief default ctor
   constexpr InputActionAsset_WriteFileJson();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>",
-  // modifiers: "", def_value: None }, CppParam { name: "controlSchemes", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "maps", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: None, comment: None }, CppParam { name: "controlSchemes", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionAsset_WriteFileJson(::StringW name, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson> maps,
                                            ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson> controlSchemes) noexcept;
 
@@ -177,8 +180,8 @@ public:
   // @brief default ctor
   constexpr InputActionAsset_WriteFileJsonNoName();
 
-  // Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: None }, CppParam { name: "controlSchemes", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "controlSchemes", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionAsset_WriteFileJsonNoName(::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson> maps,
                                                  ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson> controlSchemes) noexcept;
 
@@ -218,8 +221,9 @@ public:
   // @brief default ctor
   constexpr InputActionAsset_ReadFileJson();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>",
-  // modifiers: "", def_value: None }, CppParam { name: "controlSchemes", ty: "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "maps", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson>", modifiers: "", def_value: None, comment: None }, CppParam { name: "controlSchemes", ty:
+  // "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>", modifiers: "", def_value: None, comment: None }]
   constexpr InputActionAsset_ReadFileJson(::StringW name, ::ArrayW<::UnityEngine::InputSystem::InputActionMap_ReadMapJson> maps,
                                           ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson> controlSchemes) noexcept;
 
@@ -250,6 +254,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputActionAsset_ReadFileJson
 static_assert(sizeof(::UnityEngine::InputSystem::InputActionAsset_ReadFileJson) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<TValue>
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -297,17 +302,22 @@ public:
   /// @brief Method MoveNext, addr 0x64d8eb4, size 0x128, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputAction>.get_Current, addr 0x64d9034, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputAction* System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x64d903c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x64d9074, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x64d8eb0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -353,6 +363,7 @@ public:
 
   constexpr void __cordl_internal_set__n_5__5(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x64d79a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -372,13 +383,13 @@ protected:
   constexpr InputActionAsset__GetEnumerator_d__32();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__GetEnumerator_d__32", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__GetEnumerator_d__32", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputActionAsset__GetEnumerator_d__32(InputActionAsset__GetEnumerator_d__32&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__GetEnumerator_d__32", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__GetEnumerator_d__32", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionAsset__GetEnumerator_d__32(InputActionAsset__GetEnumerator_d__32 const&) = delete;
+  InputActionAsset__GetEnumerator_d__32(InputActionAsset__GetEnumerator_d__32const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8619 };
@@ -424,6 +435,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputActionAsset__GetEnumerat
 static_assert(sizeof(::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32) == 0x48, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.InputSystem.InputBinding
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -481,23 +493,30 @@ public:
   /// @brief Method MoveNext, addr 0x64d9080, size 0x15c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
+  /// @brief [DebuggerHidden]
   static inline ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9* New_ctor(int32_t __1__state);
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputBinding>.GetEnumerator, addr 0x64d928c, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>* System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBinding__GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBinding>.get_Current, addr 0x64d91dc, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputBinding System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x64d9324, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x64d91ec, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
+  /// [DebuggerHidden]
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x64d9224, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// [DebuggerHidden]
   /// @brief Method System.IDisposable.Dispose, addr 0x64d907c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
@@ -555,6 +574,7 @@ public:
 
   constexpr void __cordl_internal_set__numBindings_5__5(int32_t value);
 
+  /// [DebuggerHidden]
   /// @brief Method .ctor, addr 0x64d5d58, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
@@ -581,13 +601,13 @@ protected:
   constexpr InputActionAsset__get_bindings_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__get_bindings_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__get_bindings_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputActionAsset__get_bindings_d__9(InputActionAsset__get_bindings_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__get_bindings_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset__get_bindings_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionAsset__get_bindings_d__9(InputActionAsset__get_bindings_d__9 const&) = delete;
+  InputActionAsset__get_bindings_d__9(InputActionAsset__get_bindings_d__9const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8620 };
@@ -643,6 +663,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputActionAsset__get_binding
 static_assert(sizeof(::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9) == 0x98, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
+// [DefaultMember("Item")]
 // Dependencies System.Nullable`1<T>, UnityEngine.InputSystem.InputActionMap, UnityEngine.InputSystem.InputActionMap::DeviceArray,
 // UnityEngine.InputSystem.InputActionRebindingExtensions::ParameterOverride, UnityEngine.InputSystem.InputBinding, UnityEngine.InputSystem.InputControlScheme, UnityEngine.ScriptableObject
 namespace UnityEngine::InputSystem {
@@ -746,6 +767,7 @@ public:
   /// @brief Method FromJson, addr 0x64d6ab8, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> FromJson(::StringW json);
 
+  /// [IteratorStateMachine(typeof(UnityEngine.InputSystem.InputActionAsset::<GetEnumerator>d__32))]
   /// @brief Method GetEnumerator, addr 0x64d7954, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>* GetEnumerator();
 
@@ -844,6 +866,7 @@ public:
   /// @brief Method get_bindingMask, addr 0x64d5d78, size 0x10, virtual true, abstract: false, final true
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask();
 
+  /// [IteratorStateMachine(typeof(UnityEngine.InputSystem.InputActionAsset::<get_bindings>d__9))]
   /// @brief Method get_bindings, addr 0x64d5ce8, size 0x70, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* get_bindings();
 
@@ -881,13 +904,13 @@ protected:
   constexpr InputActionAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputActionAsset(InputActionAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputActionAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InputActionAsset(InputActionAsset const&) = delete;
+  InputActionAsset(InputActionAssetconst&) = delete;
 
   /// @brief Field Extension offset 0xffffffff size 0x8
   static constexpr ::ConstString Extension{ u"inputactions" };
@@ -898,12 +921,15 @@ public:
   /// @brief Field kDefaultAssetLayoutJson offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultAssetLayoutJson{ u"{}" };
 
+  /// [SerializeField]
   /// @brief Field m_ActionMaps, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::InputActionMap*> ___m_ActionMaps;
 
+  /// [SerializeField]
   /// @brief Field m_ControlSchemes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::InputControlScheme> ___m_ControlSchemes;
 
+  /// [SerializeField]
   /// @brief Field m_IsProjectWide, offset: 0x28, size: 0x1, def value: None
   bool ___m_IsProjectWide;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\RangePositionInfo.hpp"
+// IWYU pragma private; include "System/Xml/Schema/RangePositionInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,8 +31,8 @@ public:
   // @brief default ctor
   constexpr RangePositionInfo();
 
-  // Ctor Parameters [CppParam { name: "curpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None }, CppParam { name: "rangeCounters", ty: "::ArrayW<::System::Decimal>", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "curpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None, comment: None }, CppParam { name: "rangeCounters", ty:
+  // "::ArrayW<::System::Decimal>", modifiers: "", def_value: None, comment: None }]
   constexpr RangePositionInfo(::System::Xml::Schema::BitSet* curpos, ::ArrayW<::System::Decimal> rangeCounters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

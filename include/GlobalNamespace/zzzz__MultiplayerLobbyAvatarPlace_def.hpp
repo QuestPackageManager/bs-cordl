@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyAvatarPlace.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyAvatarPlace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ protected:
   constexpr MultiplayerLobbyAvatarPlace_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace_Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace_Pool", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyAvatarPlace_Pool(MultiplayerLobbyAvatarPlace_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace_Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace_Pool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarPlace_Pool(MultiplayerLobbyAvatarPlace_Pool const&) = delete;
+  MultiplayerLobbyAvatarPlace_Pool(MultiplayerLobbyAvatarPlace_Poolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6159 };
@@ -85,13 +85,13 @@ protected:
   constexpr MultiplayerLobbyAvatarPlace();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyAvatarPlace(MultiplayerLobbyAvatarPlace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyAvatarPlace(MultiplayerLobbyAvatarPlace const&) = delete;
+  MultiplayerLobbyAvatarPlace(MultiplayerLobbyAvatarPlaceconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6160 };

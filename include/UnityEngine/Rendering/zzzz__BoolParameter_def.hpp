@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\BoolParameter.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/BoolParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
   // @brief default ctor
   constexpr BoolParameter_DisplayType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BoolParameter_DisplayType(int32_t value__) noexcept;
 
   /// @brief Field Checkbox value: I32(0)
@@ -77,6 +77,7 @@ static_assert(offsetof(::UnityEngine::Rendering::BoolParameter_DisplayType, valu
 static_assert(sizeof(::UnityEngine::Rendering::BoolParameter_DisplayType) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 // Dependencies UnityEngine.Rendering.BoolParameter::DisplayType, UnityEngine.Rendering.VolumeParameter`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -111,13 +112,13 @@ protected:
   constexpr BoolParameter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoolParameter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolParameter", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoolParameter(BoolParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoolParameter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolParameter", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoolParameter(BoolParameter const&) = delete;
+  BoolParameter(BoolParameterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12334 };

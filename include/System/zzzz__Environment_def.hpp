@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Environment.hpp"
+// IWYU pragma private; include "System/Environment.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,6 +53,7 @@ MARK_REF_T(::System::Environment*);
 DEFINE_IL2CPP_CLASS(::System::Environment_SpecialFolder, "System", "Environment/SpecialFolder");
 DEFINE_IL2CPP_CLASS(::System::Environment_SpecialFolderOption, "System", "Environment/SpecialFolderOption");
 DEFINE_IL2CPP_CLASS(::System::Environment*, "System", "Environment");
+// [ComVisible(true)]
 // Dependencies
 namespace System {
 // Is value type: true
@@ -127,7 +128,7 @@ public:
   // @brief default ctor
   constexpr Environment_SpecialFolder();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Environment_SpecialFolder(int32_t value__) noexcept;
 
   /// @brief Field AdminTools value: I32(48)
@@ -318,7 +319,7 @@ public:
   // @brief default ctor
   constexpr Environment_SpecialFolderOption();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Environment_SpecialFolderOption(int32_t value__) noexcept;
 
   /// @brief Field Create value: I32(32768)
@@ -347,6 +348,7 @@ static_assert(offsetof(::System::Environment_SpecialFolderOption, value__) == 0x
 static_assert(sizeof(::System::Environment_SpecialFolderOption) == 0x4, "Size mismatch!");
 
 } // namespace System
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System {
 // Is value type: false
@@ -419,7 +421,7 @@ public:
   static inline ::StringW GetResourceString(::StringW key);
 
   /// @brief Method GetResourceString, addr 0x5c8bc94, size 0x74, virtual false, abstract: false, final false
-  static inline ::StringW GetResourceString(::StringW key, ::ArrayW<::System::Object*> values);
+  static inline ::StringW GetResourceString(::StringW key, /* [ParamArray] */ ::ArrayW<::System::Object*> values);
 
   /// @brief Method GetResourceStringEncodingName, addr 0x5c8d960, size 0x1b8, virtual false, abstract: false, final false
   static inline ::StringW GetResourceStringEncodingName(int32_t codePage);
@@ -479,6 +481,7 @@ public:
   /// @brief Method get_OSVersion, addr 0x5c8dbf0, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::OperatingSystem* get_OSVersion();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Platform, addr 0x5c8dbe4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::PlatformID get_Platform();
 
@@ -516,13 +519,13 @@ protected:
   constexpr Environment();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Environment", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Environment", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Environment(Environment&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Environment", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Environment", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Environment(Environment const&) = delete;
+  Environment(Environmentconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2590 };

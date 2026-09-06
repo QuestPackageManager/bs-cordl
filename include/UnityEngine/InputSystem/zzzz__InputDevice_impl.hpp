@@ -1,6 +1,7 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\InputDevice.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/InputDevice.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
@@ -15,7 +16,7 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputDevice_DeviceFlags::InputDevice_DeviceFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -54,8 +55,9 @@ inline void UnityEngine::InputSystem::InputDevice_ControlBitRangeNode::_ctor(uin
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode>(), { ".ctor", {}, { ::i2c::type_of<uint16_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, endOffset);
 }
-// Ctor Parameters [CppParam { name: "endBitOffset", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "leftChildIndex", ty: "int16_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "controlStartIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "controlCount", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "endBitOffset", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "leftChildIndex", ty: "int16_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "controlStartIndex", ty: "uint16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "controlCount", ty: "uint8_t", modifiers:
+// "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode::InputDevice_ControlBitRangeNode(uint16_t endBitOffset, int16_t leftChildIndex, uint16_t controlStartIndex,
                                                                                                        uint8_t controlCount) noexcept {
   this->endBitOffset = endBitOffset;
@@ -1182,7 +1184,10 @@ inline void UnityEngine::InputSystem::InputDevice::OnConfigurationChanged() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::InputSystem::InputDevice*>(), 20 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TCommand> inline int64_t UnityEngine::InputSystem::InputDevice::ExecuteCommand(::by_ref<TCommand> command) {
+template <typename TCommand>
+  requires(::cordl_internals::type_constraint<TCommand, ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*> && ::cordl_internals::value_type_constraint<TCommand> &&
+           ::cordl_internals::default_constructor_constraint<TCommand>)
+inline int64_t UnityEngine::InputSystem::InputDevice::ExecuteCommand(::by_ref<TCommand> command) {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputDevice*>(), { "ExecuteCommand", { ::i2c::class_of<TCommand>() }, { ::i2c::type_of<::by_ref<TCommand>>() } })));

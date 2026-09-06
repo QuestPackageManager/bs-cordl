@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\ShareAndLocalizeParams.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/ShareAndLocalizeParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,8 +38,9 @@ public:
   // @brief default ctor
   constexpr ShareAndLocalizeParams();
 
-  // Ctor Parameters [CppParam { name: "requestingPlayerId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "requestingPlayerOculusId", ty: "uint64_t", modifiers: "", def_value:
-  // None }, CppParam { name: "anchorUUID", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "anchorFlowSucceeded", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "requestingPlayerId", ty: "uint64_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "requestingPlayerOculusId", ty: "uint64_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "anchorUUID", ty: "::System::Guid", modifiers: "", def_value: None, comment: None }, CppParam { name: "anchorFlowSucceeded", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr ShareAndLocalizeParams(uint64_t requestingPlayerId, uint64_t requestingPlayerOculusId, ::System::Guid anchorUUID, bool anchorFlowSucceeded) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

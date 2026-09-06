@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ConstantBuffer_1.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ConstantBuffer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,9 @@ class Material;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename CBType> class ConstantBuffer_1;
+template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
+class ConstantBuffer_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::UnityEngine::Rendering::ConstantBuffer_1);
@@ -36,6 +38,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::UnityEngine::Rendering::ConstantBuffer_1, "UnityEn
 namespace UnityEngine::Rendering {
 // cpp template
 template <typename CBType>
+  requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ConstantBuffer`1<CBType>
 class CORDL_TYPE ConstantBuffer_1 : public ::UnityEngine::Rendering::ConstantBufferBase {
@@ -53,10 +56,10 @@ public:
   static inline ::UnityEngine::Rendering::ConstantBuffer_1<CBType>* New_ctor();
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void PushGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<CBType> data, int32_t shaderId);
+  inline void PushGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void PushGlobal(::by_ref<CBType> data, int32_t shaderId);
+  inline void PushGlobal(/* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Release();
@@ -80,10 +83,10 @@ public:
   inline void SetGlobal(int32_t shaderId);
 
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UpdateData(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<CBType> data);
+  inline void UpdateData(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data);
 
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UpdateData(::by_ref<CBType> data);
+  inline void UpdateData(/* [IsReadOnly] */ ::by_ref<CBType> data);
 
   constexpr ::ArrayW<CBType> const& __cordl_internal_get_m_Data() const;
 
@@ -112,13 +115,13 @@ protected:
   constexpr ConstantBuffer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConstantBuffer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstantBuffer_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConstantBuffer_1(ConstantBuffer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConstantBuffer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConstantBuffer_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConstantBuffer_1(ConstantBuffer_1 const&) = delete;
+  ConstantBuffer_1(ConstantBuffer_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11885 };

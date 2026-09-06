@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NamedIntListSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace/NamedIntListSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +76,13 @@ protected:
   constexpr NamedIntListSettingsController_TextValuePair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController_TextValuePair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController_TextValuePair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamedIntListSettingsController_TextValuePair(NamedIntListSettingsController_TextValuePair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController_TextValuePair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController_TextValuePair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedIntListSettingsController_TextValuePair(NamedIntListSettingsController_TextValuePair const&) = delete;
+  NamedIntListSettingsController_TextValuePair(NamedIntListSettingsController_TextValuePairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6401 };
@@ -103,6 +103,7 @@ static_assert(offsetof(::GlobalNamespace::NamedIntListSettingsController_TextVal
 static_assert(sizeof(::GlobalNamespace::NamedIntListSettingsController_TextValuePair) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -133,13 +134,13 @@ protected:
   constexpr NamedIntListSettingsController___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController___c__DisplayClass6_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamedIntListSettingsController___c__DisplayClass6_0(NamedIntListSettingsController___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController___c__DisplayClass6_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedIntListSettingsController___c__DisplayClass6_0(NamedIntListSettingsController___c__DisplayClass6_0 const&) = delete;
+  NamedIntListSettingsController___c__DisplayClass6_0(NamedIntListSettingsController___c__DisplayClass6_0const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6402 };
@@ -211,9 +212,11 @@ public:
   /// @brief Method .ctor, addr 0x5a14d10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_valueDidChangeEvent, addr 0x5a149a4, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_valueDidChangeEvent, addr 0x5a14a64, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
@@ -223,20 +226,22 @@ protected:
   constexpr NamedIntListSettingsController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NamedIntListSettingsController(NamedIntListSettingsController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NamedIntListSettingsController(NamedIntListSettingsController const&) = delete;
+  NamedIntListSettingsController(NamedIntListSettingsControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6403 };
 
+  /// [SerializeField]
   /// @brief Field _textValuePairs, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::NamedIntListSettingsController_TextValuePair*> ____textValuePairs;
 
+  /// [CompilerGenerated]
   /// @brief Field valueDidChangeEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___valueDidChangeEvent;
 

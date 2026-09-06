@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRTelemetryMarker.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRTelemetryMarker.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetryMarker_def.hpp"
@@ -102,8 +102,8 @@ inline void GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::_ctor(b
                                                                                          { ".ctor", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::Qpl_OVRPlugin_ResultType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sent, result);
 }
-// Ctor Parameters [CppParam { name: "_Sent_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Result_k__BackingField", ty:
-// "::GlobalNamespace::Qpl_OVRPlugin_ResultType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_Sent_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_Result_k__BackingField", ty:
+// "::GlobalNamespace::Qpl_OVRPlugin_ResultType", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::OVRTelemetryMarker_OVRTelemetryMarkerState(bool _Sent_k__BackingField,
                                                                                                                     ::GlobalNamespace::Qpl_OVRPlugin_ResultType _Result_k__BackingField) noexcept {
   this->_Sent_k__BackingField = _Sent_k__BackingField;
@@ -707,6 +707,7 @@ inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTelemetryMarker>(*this, ___internal_method, annotationKey, annotationValues, count, eAnnotationType);
 }
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline ::GlobalNamespace::OVRTelemetryMarker GlobalNamespace::OVRTelemetryMarker::AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<T> annotationValues,
                                                                                                 ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -821,9 +822,9 @@ constexpr GlobalNamespace::OVRTelemetryMarker::operator ::System::IDisposable*()
 constexpr ::System::IDisposable* GlobalNamespace::OVRTelemetryMarker::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_State_k__BackingField", ty: "::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_MarkerId_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_InstanceKey_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "_client", ty: "::GlobalNamespace::OVRTelemetry_TelemetryClient*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_State_k__BackingField", ty: "::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_MarkerId_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_InstanceKey_k__BackingField", ty: "int32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_client", ty: "::GlobalNamespace::OVRTelemetry_TelemetryClient*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVRTelemetryMarker::OVRTelemetryMarker(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState _State_k__BackingField, int32_t _MarkerId_k__BackingField,
                                                                     int32_t _InstanceKey_k__BackingField, ::GlobalNamespace::OVRTelemetry_TelemetryClient* _client) noexcept {
   this->_State_k__BackingField = _State_k__BackingField;

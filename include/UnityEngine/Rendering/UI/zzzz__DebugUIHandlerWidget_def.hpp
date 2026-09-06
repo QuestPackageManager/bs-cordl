@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerWidget.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerWidget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(DebugUIHandlerWidget)
@@ -16,7 +17,7 @@ class DebugUIHandlerWidget;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::UI::DebugUIHandlerWidget*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::UI::DebugUIHandlerWidget*, "UnityEngine.Rendering.UI", "DebugUIHandlerWidget");
-// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.Rendering.DebugUI::Widget
 namespace UnityEngine::Rendering::UI {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.UI.DebugUIHandlerWidget
@@ -54,7 +55,9 @@ public:
   __declspec(property(get = get_previousUIHandler, put = set_previousUIHandler)) ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> previousUIHandler;
 
   /// @brief Method CastWidget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline T CastWidget();
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::DebugUI_Widget*>)
+  inline T CastWidget();
 
   /// @brief Method GetWidget, addr 0x6809aa8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Widget* GetWidget();
@@ -127,21 +130,27 @@ public:
   /// @brief Method .ctor, addr 0x67ff090, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_nextUIHandler, addr 0x6809a8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> get_nextUIHandler();
 
+  /// [CompilerGenerated]
   /// @brief Method get_parentUIHandler, addr 0x6809a6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> get_parentUIHandler();
 
+  /// [CompilerGenerated]
   /// @brief Method get_previousUIHandler, addr 0x6809a7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> get_previousUIHandler();
 
+  /// [CompilerGenerated]
   /// @brief Method set_nextUIHandler, addr 0x6809a94, size 0x8, virtual false, abstract: false, final false
   inline void set_nextUIHandler(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_parentUIHandler, addr 0x6809a74, size 0x8, virtual false, abstract: false, final false
   inline void set_parentUIHandler(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_previousUIHandler, addr 0x6809a84, size 0x8, virtual false, abstract: false, final false
   inline void set_previousUIHandler(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* value);
 
@@ -151,29 +160,34 @@ protected:
   constexpr DebugUIHandlerWidget();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerWidget", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerWidget", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebugUIHandlerWidget(DebugUIHandlerWidget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerWidget", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerWidget", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerWidget(DebugUIHandlerWidget const&) = delete;
+  DebugUIHandlerWidget(DebugUIHandlerWidgetconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12547 };
 
+  /// [HideInInspector]
   /// @brief Field colorDefault, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ___colorDefault;
 
+  /// [HideInInspector]
   /// @brief Field colorSelected, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ___colorSelected;
 
+  /// [CompilerGenerated]
   /// @brief Field <parentUIHandler>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> ____parentUIHandler_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <previousUIHandler>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> ____previousUIHandler_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <nextUIHandler>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> ____nextUIHandler_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\BSUpsertUserModel.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/BSUpsertUserModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,6 +39,8 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBe
                     "BSUpsertUserModel/XocBeatGamesUserUpsertModel/BeatGamesUserModel/ActiveEnvironmentPlayerRootModel");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel*, "BeatSaber.Main.GraphQL.Models",
                     "BSUpsertUserModel/XocBeatGamesUserUpsertModel/BeatGamesUserModel");
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -46,6 +48,8 @@ namespace BeatSaber::Main::GraphQL::Models {
 class CORDL_TYPE BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
   // Declarations
+  /// [Preserve]
+  /// @brief [JsonProperty("id", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Id, put = set_Id)) ::StringW Id;
 
   /// @brief Field <Id>k__BackingField, offset 0x10, size 0x8
@@ -62,9 +66,11 @@ public:
   /// @brief Method .ctor, addr 0x32a0f2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Id, addr 0x32a0f24, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Id, addr 0x32a0f1c, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
@@ -74,19 +80,21 @@ protected:
   constexpr BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel(
       BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel", modifiers: "const&", def_value: None, comment: None
+  // }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel(
-      BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel const&) = delete;
+      BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20569 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;
 
@@ -99,6 +107,8 @@ static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_Xo
 static_assert(sizeof(::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel) == 0x18, "Size mismatch!");
 
 } // namespace BeatSaber::Main::GraphQL::Models
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -108,10 +118,14 @@ public:
   // Declarations
   using ActiveEnvironmentPlayerRootModel = ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("active_environment_player_root", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_ActiveEnvironmentPlayerRoot,
                       put = set_ActiveEnvironmentPlayerRoot)) ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*
       ActiveEnvironmentPlayerRoot;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("id", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Id, put = set_Id)) ::StringW Id;
 
   /// @brief Field <ActiveEnvironmentPlayerRoot>k__BackingField, offset 0x18, size 0x8
@@ -141,15 +155,19 @@ public:
   /// @brief Method .ctor, addr 0x32a0f18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ActiveEnvironmentPlayerRoot, addr 0x32a0f10, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel* get_ActiveEnvironmentPlayerRoot();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Id, addr 0x32a0f00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ActiveEnvironmentPlayerRoot, addr 0x32a0f08, size 0x8, virtual false, abstract: false, final false
   inline void set_ActiveEnvironmentPlayerRoot(::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Id, addr 0x32a0ef8, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
@@ -159,20 +177,22 @@ protected:
   constexpr XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel(XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel(XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel const&) = delete;
+  XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel(XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20570 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ActiveEnvironmentPlayerRoot>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel* ____ActiveEnvironmentPlayerRoot_k__BackingField;
 
@@ -187,6 +207,8 @@ static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpser
 static_assert(sizeof(::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel) == 0x20, "Size mismatch!");
 
 } // namespace BeatSaber::Main::GraphQL::Models
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -196,6 +218,8 @@ public:
   // Declarations
   using BeatGamesUserModel = ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("beat_games_user", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_BeatGamesUser, put = set_BeatGamesUser)) ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel* BeatGamesUser;
 
   /// @brief Field <BeatGamesUser>k__BackingField, offset 0x10, size 0x8
@@ -214,9 +238,11 @@ public:
   /// @brief Method .ctor, addr 0x32a0ef4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_BeatGamesUser, addr 0x32a0eec, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel* get_BeatGamesUser();
 
+  /// [CompilerGenerated]
   /// @brief Method set_BeatGamesUser, addr 0x32a0ee4, size 0x8, virtual false, abstract: false, final false
   inline void set_BeatGamesUser(::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel* value);
 
@@ -226,17 +252,18 @@ protected:
   constexpr BSUpsertUserModel_XocBeatGamesUserUpsertModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel_XocBeatGamesUserUpsertModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel_XocBeatGamesUserUpsertModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BSUpsertUserModel_XocBeatGamesUserUpsertModel(BSUpsertUserModel_XocBeatGamesUserUpsertModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel_XocBeatGamesUserUpsertModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel_XocBeatGamesUserUpsertModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSUpsertUserModel_XocBeatGamesUserUpsertModel(BSUpsertUserModel_XocBeatGamesUserUpsertModel const&) = delete;
+  BSUpsertUserModel_XocBeatGamesUserUpsertModel(BSUpsertUserModel_XocBeatGamesUserUpsertModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20571 };
 
+  /// [CompilerGenerated]
   /// @brief Field <BeatGamesUser>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel* ____BeatGamesUser_k__BackingField;
 
@@ -248,6 +275,9 @@ static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_Xoc
 static_assert(sizeof(::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel) == 0x18, "Size mismatch!");
 
 } // namespace BeatSaber::Main::GraphQL::Models
+// [NullableContext(2)]
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -257,6 +287,8 @@ public:
   // Declarations
   using XocBeatGamesUserUpsertModel = ::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("xoc_beat_games_user_upsert", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_XocBeatGamesUserUpsert, put = set_XocBeatGamesUserUpsert)) ::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel* XocBeatGamesUserUpsert;
 
   /// @brief Field <XocBeatGamesUserUpsert>k__BackingField, offset 0x10, size 0x8
@@ -275,9 +307,11 @@ public:
   /// @brief Method .ctor, addr 0x32a0ee0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_XocBeatGamesUserUpsert, addr 0x32a0ed8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel* get_XocBeatGamesUserUpsert();
 
+  /// [CompilerGenerated]
   /// @brief Method set_XocBeatGamesUserUpsert, addr 0x32a0ed0, size 0x8, virtual false, abstract: false, final false
   inline void set_XocBeatGamesUserUpsert(::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel* value);
 
@@ -287,17 +321,18 @@ protected:
   constexpr BSUpsertUserModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BSUpsertUserModel(BSUpsertUserModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BSUpsertUserModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BSUpsertUserModel(BSUpsertUserModel const&) = delete;
+  BSUpsertUserModel(BSUpsertUserModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20572 };
 
+  /// [CompilerGenerated]
   /// @brief Field <XocBeatGamesUserUpsert>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel* ____XocBeatGamesUserUpsert_k__BackingField;
 

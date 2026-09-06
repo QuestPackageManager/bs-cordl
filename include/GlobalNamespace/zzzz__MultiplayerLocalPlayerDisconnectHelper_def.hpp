@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalPlayerDisconnectHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalPlayerDisconnectHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,13 +81,13 @@ protected:
   constexpr MultiplayerLocalPlayerDisconnectHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerDisconnectHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerDisconnectHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalPlayerDisconnectHelper(MultiplayerLocalPlayerDisconnectHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerDisconnectHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerDisconnectHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLocalPlayerDisconnectHelper(MultiplayerLocalPlayerDisconnectHelper const&) = delete;
+  MultiplayerLocalPlayerDisconnectHelper(MultiplayerLocalPlayerDisconnectHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6106 };
@@ -98,12 +98,15 @@ public:
   /// @brief Field kEndGameLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kEndGameLabel{ u"BUTTON_END_GAME" };
 
+  /// [Inject]
   /// @brief Field _gameplayRpcManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____gameplayRpcManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerLevelEndActions, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerLevelEndActionsListener* ____multiplayerLevelEndActions;
 
+  /// [Inject]
   /// @brief Field _lobbyPlayerPermissionsModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::LobbyPlayerPermissionsModel* ____lobbyPlayerPermissionsModel;
 

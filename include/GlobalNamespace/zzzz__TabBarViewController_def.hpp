@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\TabBarViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/TabBarViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,13 +72,13 @@ protected:
   constexpr TabBarViewController_TabBarItem();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController_TabBarItem", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController_TabBarItem", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TabBarViewController_TabBarItem(TabBarViewController_TabBarItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController_TabBarItem", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController_TabBarItem", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabBarViewController_TabBarItem(TabBarViewController_TabBarItem const&) = delete;
+  TabBarViewController_TabBarItem(TabBarViewController_TabBarItemconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6995 };
@@ -195,20 +195,22 @@ protected:
   constexpr TabBarViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TabBarViewController(TabBarViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TabBarViewController(TabBarViewController const&) = delete;
+  TabBarViewController(TabBarViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6996 };
 
+  /// [SerializeField]
   /// @brief Field _segmentedControll, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____segmentedControll;
 
+  /// [SerializeField]
   /// @brief Field _contentSizeFilter, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::ContentSizeFitter> ____contentSizeFilter;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SelectRegionViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SelectRegionViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,6 +41,7 @@ MARK_REF_T(::GlobalNamespace::SelectRegionViewController*);
 MARK_REF_T(::GlobalNamespace::SelectRegionViewController___c*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SelectRegionViewController*, "", "SelectRegionViewController");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SelectRegionViewController___c*, "", "SelectRegionViewController/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -76,13 +77,13 @@ protected:
   constexpr SelectRegionViewController___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectRegionViewController___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectRegionViewController___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectRegionViewController___c(SelectRegionViewController___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectRegionViewController___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectRegionViewController___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectRegionViewController___c(SelectRegionViewController___c const&) = delete;
+  SelectRegionViewController___c(SelectRegionViewController___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6993 };
@@ -123,6 +124,7 @@ public:
   /// @brief Method OnDestroy, addr 0x59679b8, size 0xe8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
+  /// [CompilerGenerated]
   /// @brief Method <DidActivate>b__3_0, addr 0x5967b28, size 0x7c, virtual false, abstract: false, final false
   inline void _DidActivate_b__3_0();
 
@@ -153,23 +155,27 @@ protected:
   constexpr SelectRegionViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SelectRegionViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectRegionViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectRegionViewController(SelectRegionViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SelectRegionViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SelectRegionViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SelectRegionViewController(SelectRegionViewController const&) = delete;
+  SelectRegionViewController(SelectRegionViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6994 };
 
+  /// [SerializeField]
   /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
+  /// [SerializeField]
   /// @brief Field _regionSelectionDropdown, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____regionSelectionDropdown;
 
+  /// [Header("Regions")]
+  /// [SerializeField]
   /// @brief Field _regionLocalizationKeys, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::RegionToLocalizationKeyPair> ____regionLocalizationKeys;
 

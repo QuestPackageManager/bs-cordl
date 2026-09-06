@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\DisconnectedPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace/DisconnectedPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,21 +121,26 @@ public:
   /// @brief Method get_offsetSyncTime, addr 0x332f998, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
+  /// [CompilerGenerated]
   /// @brief Method get_sortIndex, addr 0x332fa3c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_sortIndex();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userId, addr 0x332f9b0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
+  /// [CompilerGenerated]
   /// @brief Method get_userName, addr 0x332f9c0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
   constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method set_userId, addr 0x332f9b8, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_userName, addr 0x332f9c8, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
@@ -145,23 +150,26 @@ protected:
   constexpr DisconnectedPlayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisconnectedPlayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisconnectedPlayer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisconnectedPlayer(DisconnectedPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisconnectedPlayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisconnectedPlayer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DisconnectedPlayer(DisconnectedPlayer const&) = delete;
+  DisconnectedPlayer(DisconnectedPlayerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18146 };
 
+  /// [CompilerGenerated]
   /// @brief Field <userId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____userId_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <userName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____userName_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <sortIndex>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____sortIndex_k__BackingField;
 

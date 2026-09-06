@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataPersonalBestSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataPersonalBestSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   /// @brief Method CalculateBadgeData, addr 0x3734c30, size 0x560, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO* New_ctor();
@@ -60,17 +60,18 @@ protected:
   constexpr MultiplayerBadgeDataPersonalBestSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataPersonalBestSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataPersonalBestSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgeDataPersonalBestSO(MultiplayerBadgeDataPersonalBestSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataPersonalBestSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataPersonalBestSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBadgeDataPersonalBestSO(MultiplayerBadgeDataPersonalBestSO const&) = delete;
+  MultiplayerBadgeDataPersonalBestSO(MultiplayerBadgeDataPersonalBestSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15077 };
 
+  /// [SerializeField]
   /// @brief Field _weight, offset: 0x30, size: 0x4, def value: None
   float_t ____weight;
 

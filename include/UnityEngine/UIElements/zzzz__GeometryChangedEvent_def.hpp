@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\GeometryChangedEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/GeometryChangedEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ MARK_REF_T(::UnityEngine::UIElements::GeometryChangedEvent*);
 MARK_REF_T(::UnityEngine::UIElements::GeometryChangedEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GeometryChangedEvent*, "UnityEngine.UIElements", "GeometryChangedEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::GeometryChangedEvent___c*, "UnityEngine.UIElements", "GeometryChangedEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -54,13 +55,13 @@ protected:
   constexpr GeometryChangedEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GeometryChangedEvent___c(GeometryChangedEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GeometryChangedEvent___c(GeometryChangedEvent___c const&) = delete;
+  GeometryChangedEvent___c(GeometryChangedEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4484 };
@@ -71,6 +72,7 @@ public:
 static_assert(sizeof(::UnityEngine::UIElements::GeometryChangedEvent___c) == 0x10, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
+// [EventCategory((UnityEngine.UIElements.EventCategory)7)]
 // Dependencies UnityEngine.Rect, UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -89,6 +91,7 @@ public:
   /// @brief Field <oldRect>k__BackingField, offset 0x64, size 0x10
   __declspec(property(get = __cordl_internal_get__oldRect_k__BackingField, put = __cordl_internal_set__oldRect_k__BackingField)) ::UnityEngine::Rect _oldRect_k__BackingField;
 
+  /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_layoutPass, put = set_layoutPass)) int32_t layoutPass;
 
   __declspec(property(get = get_newRect, put = set_newRect)) ::UnityEngine::Rect newRect;
@@ -127,21 +130,27 @@ public:
   /// @brief Method .ctor, addr 0x6d9e910, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_layoutPass, addr 0x6d9e900, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layoutPass();
 
+  /// [CompilerGenerated]
   /// @brief Method get_newRect, addr 0x6d9e8e8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_newRect();
 
+  /// [CompilerGenerated]
   /// @brief Method get_oldRect, addr 0x6d9e8d0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_oldRect();
 
+  /// [CompilerGenerated]
   /// @brief Method set_layoutPass, addr 0x6d9e908, size 0x8, virtual false, abstract: false, final false
   inline void set_layoutPass(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_newRect, addr 0x6d9e8f4, size 0xc, virtual false, abstract: false, final false
   inline void set_newRect(::UnityEngine::Rect value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_oldRect, addr 0x6d9e8dc, size 0xc, virtual false, abstract: false, final false
   inline void set_oldRect(::UnityEngine::Rect value);
 
@@ -151,23 +160,29 @@ protected:
   constexpr GeometryChangedEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GeometryChangedEvent(GeometryChangedEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GeometryChangedEvent(GeometryChangedEvent const&) = delete;
+  GeometryChangedEvent(GeometryChangedEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4485 };
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <oldRect>k__BackingField, offset: 0x64, size: 0x10, def value: None
   ::UnityEngine::Rect ____oldRect_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <newRect>k__BackingField, offset: 0x74, size: 0x10, def value: None
   ::UnityEngine::Rect ____newRect_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <layoutPass>k__BackingField, offset: 0x84, size: 0x4, def value: None
   int32_t ____layoutPass_k__BackingField;
 

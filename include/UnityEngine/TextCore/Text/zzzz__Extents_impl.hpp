@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\TextCore\Text\Extents.hpp"
+// IWYU pragma private; include "UnityEngine/TextCore/Text/Extents.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Extents_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::Extents.ToString
@@ -19,8 +19,8 @@ inline ::StringW UnityEngine::TextCore::Text::Extents::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::TextCore::Text::Extents>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
-// Some("{}") }]
+// Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::TextCore::Text::Extents::Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept {
   this->min = min;
   this->max = max;

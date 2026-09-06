@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GradientSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/GradientSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__GradientSO_def.hpp"
 #include "UnityEngine/zzzz__Gradient_def.hpp"

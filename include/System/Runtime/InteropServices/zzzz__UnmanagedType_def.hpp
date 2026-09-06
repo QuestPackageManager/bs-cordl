@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\UnmanagedType.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/UnmanagedType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct UnmanagedType;
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::UnmanagedType);
 DEFINE_IL2CPP_CLASS(::System::Runtime::InteropServices::UnmanagedType, "System.Runtime.InteropServices", "UnmanagedType");
+// [ComVisible(true)]
 // Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
@@ -78,7 +79,7 @@ public:
   // @brief default ctor
   constexpr UnmanagedType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr UnmanagedType(int32_t value__) noexcept;
 
   /// @brief Field AnsiBStr value: I32(35)

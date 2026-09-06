@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\URPLightShadowCullingInfos.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/URPLightShadowCullingInfos.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShadowSliceData_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPLightShadowCullingInfos_def.hpp"
@@ -22,8 +22,8 @@ inline bool UnityEngine::Rendering::Universal::URPLightShadowCullingInfos::IsSli
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos>(), { "IsSliceValid", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, i);
 }
-// Ctor Parameters [CppParam { name: "slices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "slicesValidMask", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "slices", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData>", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "slicesValidMask", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos::URPLightShadowCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::ShadowSliceData> slices,
                                                                                                       uint32_t slicesValidMask) noexcept {
   this->slices = slices;

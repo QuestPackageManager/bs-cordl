@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\TMP_GlyphAdjustmentRecord.hpp"
+// IWYU pragma private; include "TMPro/TMP_GlyphAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,8 +53,8 @@ public:
   // @brief default ctor
   constexpr TMP_GlyphAdjustmentRecord();
 
-  // Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_GlyphValueRecord", ty: "::TMPro::TMP_GlyphValueRecord", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_GlyphIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_GlyphValueRecord", ty: "::TMPro::TMP_GlyphValueRecord",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr TMP_GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::TMPro::TMP_GlyphValueRecord m_GlyphValueRecord) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -63,9 +63,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
+  /// [SerializeField]
   /// @brief Field m_GlyphIndex, offset: 0x0, size: 0x4, def value: None
   uint32_t m_GlyphIndex;
 
+  /// [SerializeField]
   /// @brief Field m_GlyphValueRecord, offset: 0x4, size: 0x10, def value: None
   ::TMPro::TMP_GlyphValueRecord m_GlyphValueRecord;
 

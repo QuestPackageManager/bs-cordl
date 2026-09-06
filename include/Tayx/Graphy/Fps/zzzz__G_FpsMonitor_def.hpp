@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Fps\G_FpsMonitor.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Fps/G_FpsMonitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,7 @@ MARK_REF_T(::Tayx::Graphy::Fps::G_FpsMonitor*);
 MARK_REF_T(::Tayx::Graphy::Fps::G_FpsMonitor___c*);
 DEFINE_IL2CPP_CLASS(::Tayx::Graphy::Fps::G_FpsMonitor*, "Tayx.Graphy.Fps", "G_FpsMonitor");
 DEFINE_IL2CPP_CLASS(::Tayx::Graphy::Fps::G_FpsMonitor___c*, "Tayx.Graphy.Fps", "G_FpsMonitor/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace Tayx::Graphy::Fps {
 // Is value type: false
@@ -62,13 +63,13 @@ protected:
   constexpr G_FpsMonitor___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_FpsMonitor___c(G_FpsMonitor___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_FpsMonitor___c(G_FpsMonitor___c const&) = delete;
+  G_FpsMonitor___c(G_FpsMonitor___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21500 };
@@ -221,27 +222,35 @@ public:
   /// @brief Method .ctor, addr 0x6440880, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AverageFPS, addr 0x6440498, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_AverageFPS();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CurrentFPS, addr 0x6440488, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_CurrentFPS();
 
+  /// [CompilerGenerated]
   /// @brief Method get_OnePercentFPS, addr 0x64404a8, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_OnePercentFPS();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Zero1PercentFps, addr 0x64404b8, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_Zero1PercentFps();
 
+  /// [CompilerGenerated]
   /// @brief Method set_AverageFPS, addr 0x64404a0, size 0x8, virtual false, abstract: false, final false
   inline void set_AverageFPS(int16_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_CurrentFPS, addr 0x6440490, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentFPS(int16_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_OnePercentFPS, addr 0x64404b0, size 0x8, virtual false, abstract: false, final false
   inline void set_OnePercentFPS(int16_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Zero1PercentFps, addr 0x64404c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Zero1PercentFps(int16_t value);
 
@@ -251,13 +260,13 @@ protected:
   constexpr G_FpsMonitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_FpsMonitor(G_FpsMonitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_FpsMonitor(G_FpsMonitor const&) = delete;
+  G_FpsMonitor(G_FpsMonitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21501 };
@@ -286,15 +295,19 @@ public:
   /// @brief Field m_unscaledDeltaTime, offset: 0x3c, size: 0x4, def value: None
   float_t ___m_unscaledDeltaTime;
 
+  /// [CompilerGenerated]
   /// @brief Field <CurrentFPS>k__BackingField, offset: 0x40, size: 0x2, def value: None
   int16_t ____CurrentFPS_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AverageFPS>k__BackingField, offset: 0x42, size: 0x2, def value: None
   int16_t ____AverageFPS_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <OnePercentFPS>k__BackingField, offset: 0x44, size: 0x2, def value: None
   int16_t ____OnePercentFPS_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Zero1PercentFps>k__BackingField, offset: 0x46, size: 0x2, def value: None
   int16_t ____Zero1PercentFps_k__BackingField;
 

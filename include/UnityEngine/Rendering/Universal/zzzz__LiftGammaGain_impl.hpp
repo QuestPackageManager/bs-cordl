@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\LiftGammaGain.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/LiftGammaGain.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__LiftGammaGain_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IPostProcessComponent_def.hpp"

@@ -1,9 +1,10 @@
 #pragma once
-// IWYU pragma private; include "OSCE\Analytics\AnalyticsManager.hpp"
+// IWYU pragma private; include "OSCE/Analytics/AnalyticsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "OSCE/Analytics/zzzz__AnalyticsSystemModeEnum_def.hpp"
+#include "OSCE/Analytics/zzzz__BaseAnalyticsEvent_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
@@ -48,7 +49,7 @@ class AnalyticsManager;
 // Write type traits
 MARK_REF_T(::OSCE::Analytics::AnalyticsManager*);
 DEFINE_IL2CPP_CLASS(::OSCE::Analytics::AnalyticsManager*, "OSCE.Analytics", "AnalyticsManager");
-// Dependencies OSCE.Analytics.AnalyticsSystemModeEnum, UnityEngine.MonoBehaviour
+// Dependencies OSCE.Analytics.AnalyticsSystemModeEnum, OSCE.Analytics.BaseAnalyticsEvent, UnityEngine.MonoBehaviour
 namespace OSCE::Analytics {
 // Is value type: false
 // CS Name: OSCE.Analytics.AnalyticsManager
@@ -222,7 +223,9 @@ public:
   inline void ResetAnalyticsId();
 
   /// @brief Method SendAnalyticsEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendAnalyticsEvent(T newEvent, bool isThreaded, int32_t timestampToApply);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::OSCE::Analytics::BaseAnalyticsEvent*>)
+  inline void SendAnalyticsEvent(T newEvent, bool isThreaded, int32_t timestampToApply);
 
   /// @brief Method SendBatch, addr 0x5f3b39c, size 0x1c8, virtual false, abstract: false, final false
   inline void SendBatch(::OSCE::Analytics::LoggerAnalyticsBatch* batch);
@@ -231,7 +234,9 @@ public:
   inline void SendIdRequest();
 
   /// @brief Method SendMultipleEventsWithSameTimestamp, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void SendMultipleEventsWithSameTimestamp(::System::Collections::Generic::List_1<T>* newEvents, bool isThreaded);
+  template <typename T>
+    requires(::cordl_internals::type_constraint<T, ::OSCE::Analytics::BaseAnalyticsEvent*>)
+  inline void SendMultipleEventsWithSameTimestamp(::System::Collections::Generic::List_1<T>* newEvents, bool isThreaded);
 
   /// @brief Method SetOculusAuthToken, addr 0x5f3a21c, size 0x28, virtual false, abstract: false, final false
   inline void SetOculusAuthToken(::StringW oculusAuthToken);
@@ -411,13 +416,13 @@ protected:
   constexpr AnalyticsManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnalyticsManager(AnalyticsManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnalyticsManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnalyticsManager(AnalyticsManager const&) = delete;
+  AnalyticsManager(AnalyticsManagerconst&) = delete;
 
   /// @brief Field FAILED_RID_RETRIEVE_RETRY_SECONDS offset 0xffffffff size 0x4
   static constexpr int32_t FAILED_RID_RETRIEVE_RETRY_SECONDS{ static_cast<int32_t>(0x3) };

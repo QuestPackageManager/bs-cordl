@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\GraphyManager.hpp"
+// IWYU pragma private; include "Tayx/Graphy/GraphyManager.hpp"
 #include "Tayx/Graphy/Utils/zzzz__G_Singleton_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -17,7 +17,7 @@
 #include "UnityEngine/zzzz__AudioListener_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__FFTWindow_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyManager_Mode::GraphyManager_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -25,7 +25,7 @@ constexpr ::Tayx::Graphy::GraphyManager_Mode::GraphyManager_Mode(int32_t value__
 constexpr ::Tayx::Graphy::GraphyManager_Mode::GraphyManager_Mode() {}
 constexpr ::Tayx::Graphy::GraphyManager_Mode Tayx::Graphy::GraphyManager_Mode::FULL{ static_cast<int32_t>(0x0) };
 constexpr ::Tayx::Graphy::GraphyManager_Mode Tayx::Graphy::GraphyManager_Mode::LIGHT{ static_cast<int32_t>(0x1) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyManager_ModuleType::GraphyManager_ModuleType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -35,7 +35,7 @@ constexpr ::Tayx::Graphy::GraphyManager_ModuleType Tayx::Graphy::GraphyManager_M
 constexpr ::Tayx::Graphy::GraphyManager_ModuleType Tayx::Graphy::GraphyManager_ModuleType::RAM{ static_cast<int32_t>(0x1) };
 constexpr ::Tayx::Graphy::GraphyManager_ModuleType Tayx::Graphy::GraphyManager_ModuleType::AUDIO{ static_cast<int32_t>(0x2) };
 constexpr ::Tayx::Graphy::GraphyManager_ModuleType Tayx::Graphy::GraphyManager_ModuleType::ADVANCED{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyManager_ModuleState::GraphyManager_ModuleState(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -46,7 +46,7 @@ constexpr ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager_
 constexpr ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager_ModuleState::BASIC{ static_cast<int32_t>(0x2) };
 constexpr ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager_ModuleState::BACKGROUND{ static_cast<int32_t>(0x3) };
 constexpr ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager_ModuleState::OFF{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyManager_ModulePosition::GraphyManager_ModulePosition(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -57,7 +57,7 @@ constexpr ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManag
 constexpr ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager_ModulePosition::BOTTOM_RIGHT{ static_cast<int32_t>(0x2) };
 constexpr ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager_ModulePosition::BOTTOM_LEFT{ static_cast<int32_t>(0x3) };
 constexpr ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager_ModulePosition::FREE{ static_cast<int32_t>(0x4) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener::GraphyManager_LookForAudioListener(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -66,7 +66,7 @@ constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener::GraphyManager_Look
 constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener Tayx::Graphy::GraphyManager_LookForAudioListener::ALWAYS{ static_cast<int32_t>(0x0) };
 constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener Tayx::Graphy::GraphyManager_LookForAudioListener::ON_SCENE_LOAD{ static_cast<int32_t>(0x1) };
 constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener Tayx::Graphy::GraphyManager_LookForAudioListener::NEVER{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Tayx::Graphy::GraphyManager_ModulePreset::GraphyManager_ModulePreset(int32_t value__) noexcept {
   this->value__ = value__;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Guid.hpp"
+// IWYU pragma private; include "System/Guid.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
@@ -12,7 +12,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Guid_GuidStyles::Guid_GuidStyles(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -33,7 +33,7 @@ constexpr ::System::Guid_GuidStyles System::Guid_GuidStyles::DigitFormat{ static
 constexpr ::System::Guid_GuidStyles System::Guid_GuidStyles::BraceFormat{ static_cast<int32_t>(0x60) };
 constexpr ::System::Guid_GuidStyles System::Guid_GuidStyles::ParenthesisFormat{ static_cast<int32_t>(0x50) };
 constexpr ::System::Guid_GuidStyles System::Guid_GuidStyles::Any{ static_cast<int32_t>(0xf) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Guid_GuidParseThrowStyle::Guid_GuidParseThrowStyle(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -42,7 +42,7 @@ constexpr ::System::Guid_GuidParseThrowStyle::Guid_GuidParseThrowStyle() {}
 constexpr ::System::Guid_GuidParseThrowStyle System::Guid_GuidParseThrowStyle::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Guid_GuidParseThrowStyle System::Guid_GuidParseThrowStyle::All{ static_cast<int32_t>(0x1) };
 constexpr ::System::Guid_GuidParseThrowStyle System::Guid_GuidParseThrowStyle::AllButOverflow{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Guid_ParseFailureKind::Guid_ParseFailureKind(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -881,11 +881,12 @@ constexpr System::Guid::operator ::System::ISpanFormattable*() {
 constexpr ::System::ISpanFormattable* System::Guid::i___System__ISpanFormattable() {
   return static_cast<::System::ISpanFormattable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_b", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_c",
-// ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_d", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_e", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_f", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_g", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_h", ty:
-// "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_i", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_j", ty: "uint8_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_k", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_a", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_b", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_c", ty: "int16_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_d", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "_e", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_f", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
+// name: "_g", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_h", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_i",
+// ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_j", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_k", ty:
+// "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Guid::Guid(int32_t _a, int16_t _b, int16_t _c, uint8_t _d, uint8_t _e, uint8_t _f, uint8_t _g, uint8_t _h, uint8_t _i, uint8_t _j, uint8_t _k) noexcept {
   this->_a = _a;
   this->_b = _b;
@@ -1020,10 +1021,11 @@ inline ::System::Exception* System::Guid_GuidResult::GetGuidParseException() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Guid_GuidResult>(), { "GetGuidParseException", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_parsedGuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}") }, CppParam { name: "_throwStyle", ty: "::System::Guid_GuidParseThrowStyle", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_failure", ty: "::System::Guid_ParseFailureKind", modifiers: "", def_value: Some("{}") }, CppParam { name: "_failureMessageID", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_failureArgumentName",
-// ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_innerException", ty: "::System::Exception*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_parsedGuid", ty: "::System::Guid", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_throwStyle", ty:
+// "::System::Guid_GuidParseThrowStyle", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_failure", ty: "::System::Guid_ParseFailureKind", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "_failureMessageID", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_failureMessageFormatArgument", ty:
+// "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_failureArgumentName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam
+// { name: "_innerException", ty: "::System::Exception*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Guid_GuidResult::Guid_GuidResult(::System::Guid _parsedGuid, ::System::Guid_GuidParseThrowStyle _throwStyle, ::System::Guid_ParseFailureKind _failure, ::StringW _failureMessageID,
                                                      ::System::Object* _failureMessageFormatArgument, ::StringW _failureArgumentName, ::System::Exception* _innerException) noexcept {
   this->_parsedGuid = _parsedGuid;

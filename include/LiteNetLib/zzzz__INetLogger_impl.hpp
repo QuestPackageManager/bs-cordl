@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\INetLogger.hpp"
+// IWYU pragma private; include "LiteNetLib/INetLogger.hpp"
 #include "LiteNetLib/zzzz__INetLogger_def.hpp"
 #include "LiteNetLib/zzzz__NetLogLevel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::INetL
     return ___internal_method;
   }
 };
-inline void LiteNetLib::INetLogger::WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*> args) {
+inline void LiteNetLib::INetLogger::WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, /* [ParamArray] */ ::ArrayW<::System::Object*> args) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::LiteNetLib::INetLogger*>(), 0 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, level, str, args);
 }

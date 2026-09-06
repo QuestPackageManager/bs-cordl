@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\Controls\AnyKeyControl.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/AnyKeyControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class AnyKeyControl;
 // Write type traits
 MARK_REF_T(::UnityEngine::InputSystem::Controls::AnyKeyControl*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::InputSystem::Controls::AnyKeyControl*, "UnityEngine.InputSystem.Controls", "AnyKeyControl");
+// [InputControlLayout(hideInUI = true)]
 // Dependencies UnityEngine.InputSystem.Controls.ButtonControl
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
@@ -34,13 +35,13 @@ protected:
   constexpr AnyKeyControl();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnyKeyControl", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnyKeyControl", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnyKeyControl(AnyKeyControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnyKeyControl", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AnyKeyControl", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AnyKeyControl(AnyKeyControl const&) = delete;
+  AnyKeyControl(AnyKeyControlconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9120 };

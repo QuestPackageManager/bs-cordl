@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\OriginatorIdentifierOrKey.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/OriginatorIdentifierOrKey.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorIdentifierOrKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__IssuerAndSerialNumber_def.hpp"
@@ -294,6 +294,7 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::Orig
 inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*>(id));
 }
+/// @brief [Obsolete("Use version taking a \'SubjectKeyIdentifier\'")]
 inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*>(id));
 }
@@ -303,6 +304,7 @@ inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* Org::BouncyCas
 inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* id) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*>(id));
 }
+/// @brief [Obsolete("Use more specific version")]
 inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* id) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*>(id));
 }

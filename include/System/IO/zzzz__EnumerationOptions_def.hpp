@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\EnumerationOptions.hpp"
+// IWYU pragma private; include "System/IO/EnumerationOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,30 +127,39 @@ public:
 
   static inline ::System::IO::EnumerationOptions* getStaticF__Default_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_AttributesToSkip, addr 0x5c07700, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_AttributesToSkip();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Compatible, addr 0x5c075b8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IO::EnumerationOptions* get_Compatible();
 
+  /// [CompilerGenerated]
   /// @brief Method get_CompatibleRecursive, addr 0x5c07614, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IO::EnumerationOptions* get_CompatibleRecursive();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Default, addr 0x5c07670, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IO::EnumerationOptions* get_Default();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IgnoreInaccessible, addr 0x5c076f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreInaccessible();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MatchCasing, addr 0x5c07720, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::MatchCasing get_MatchCasing();
 
+  /// [CompilerGenerated]
   /// @brief Method get_MatchType, addr 0x5c07710, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::MatchType get_MatchType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_RecurseSubdirectories, addr 0x5c076e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_RecurseSubdirectories();
 
+  /// [CompilerGenerated]
   /// @brief Method get_ReturnSpecialDirectories, addr 0x5c07728, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReturnSpecialDirectories();
 
@@ -160,15 +169,19 @@ public:
 
   static inline void setStaticF__Default_k__BackingField(::System::IO::EnumerationOptions* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_AttributesToSkip, addr 0x5c07708, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributesToSkip(::System::IO::FileAttributes value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_IgnoreInaccessible, addr 0x5c076f8, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreInaccessible(bool value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_MatchType, addr 0x5c07718, size 0x8, virtual false, abstract: false, final false
   inline void set_MatchType(::System::IO::MatchType value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_RecurseSubdirectories, addr 0x5c076e8, size 0x8, virtual false, abstract: false, final false
   inline void set_RecurseSubdirectories(bool value);
 
@@ -178,32 +191,38 @@ protected:
   constexpr EnumerationOptions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnumerationOptions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumerationOptions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumerationOptions(EnumerationOptions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnumerationOptions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnumerationOptions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EnumerationOptions(EnumerationOptions const&) = delete;
+  EnumerationOptions(EnumerationOptionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3876 };
 
+  /// [CompilerGenerated]
   /// @brief Field <RecurseSubdirectories>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____RecurseSubdirectories_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IgnoreInaccessible>k__BackingField, offset: 0x11, size: 0x1, def value: None
   bool ____IgnoreInaccessible_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <AttributesToSkip>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::System::IO::FileAttributes ____AttributesToSkip_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MatchType>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::System::IO::MatchType ____MatchType_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <MatchCasing>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::System::IO::MatchCasing ____MatchCasing_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <ReturnSpecialDirectories>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____ReturnSpecialDirectories_k__BackingField;
 

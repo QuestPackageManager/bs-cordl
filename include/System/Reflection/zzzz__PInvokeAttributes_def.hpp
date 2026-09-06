@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Reflection\PInvokeAttributes.hpp"
+// IWYU pragma private; include "System/Reflection/PInvokeAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct PInvokeAttributes;
 // Write type traits
 MARK_VAL_T(::System::Reflection::PInvokeAttributes);
 DEFINE_IL2CPP_CLASS(::System::Reflection::PInvokeAttributes, "System.Reflection", "PInvokeAttributes");
+// [Flags]
 // Dependencies
 namespace System::Reflection {
 // Is value type: true
@@ -62,7 +63,7 @@ public:
   // @brief default ctor
   constexpr PInvokeAttributes();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr PInvokeAttributes(int32_t value__) noexcept;
 
   /// @brief Field BestFitDisabled value: I32(32)

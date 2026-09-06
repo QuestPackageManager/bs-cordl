@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingCommon.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingCommon.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,14 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template <typename PassData, typename ContextType>
+  requires(::cordl_internals::reference_type_constraint<PassData> && ::cordl_internals::default_constructor_constraint<PassData>)
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 class ComputeGraphContext;
@@ -185,8 +189,8 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingCommon_OccluderContextSlot();
 
-  // Ctor Parameters [CppParam { name: "valid", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "lastUsedFrameIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "valid", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "lastUsedFrameIndex", ty: "int32_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingCommon_OccluderContextSlot(bool valid, int32_t lastUsedFrameIndex, int32_t viewInstanceID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -257,13 +261,13 @@ protected:
   constexpr OcclusionCullingCommon_ShaderIDs();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_ShaderIDs", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_ShaderIDs", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcclusionCullingCommon_ShaderIDs(OcclusionCullingCommon_ShaderIDs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_ShaderIDs", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_ShaderIDs", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_ShaderIDs(OcclusionCullingCommon_ShaderIDs const&) = delete;
+  OcclusionCullingCommon_ShaderIDs(OcclusionCullingCommon_ShaderIDsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17775 };
@@ -301,13 +305,13 @@ protected:
   constexpr OcclusionCullingCommon_OcclusionTestOverlaySetupPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlaySetupPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlaySetupPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcclusionCullingCommon_OcclusionTestOverlaySetupPassData(OcclusionCullingCommon_OcclusionTestOverlaySetupPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlaySetupPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlaySetupPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_OcclusionTestOverlaySetupPassData(OcclusionCullingCommon_OcclusionTestOverlaySetupPassData const&) = delete;
+  OcclusionCullingCommon_OcclusionTestOverlaySetupPassData(OcclusionCullingCommon_OcclusionTestOverlaySetupPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17776 };
@@ -350,13 +354,13 @@ protected:
   constexpr OcclusionCullingCommon_OcclusionTestOverlayPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlayPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlayPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcclusionCullingCommon_OcclusionTestOverlayPassData(OcclusionCullingCommon_OcclusionTestOverlayPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlayPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OcclusionTestOverlayPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_OcclusionTestOverlayPassData(OcclusionCullingCommon_OcclusionTestOverlayPassData const&) = delete;
+  OcclusionCullingCommon_OcclusionTestOverlayPassData(OcclusionCullingCommon_OcclusionTestOverlayPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
@@ -383,8 +387,8 @@ public:
   // @brief default ctor
   constexpr OcclusionCullingCommon_DebugOccluderViewData();
 
-  // Ctor Parameters [CppParam { name: "passIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "viewport", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam
-  // { name: "valid", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "passIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "viewport", ty: "::UnityEngine::Rect", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "valid", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr OcclusionCullingCommon_DebugOccluderViewData(int32_t passIndex, ::UnityEngine::Rect viewport, bool valid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -477,13 +481,13 @@ protected:
   constexpr OcclusionCullingCommon_OccluderOverlayPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OccluderOverlayPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OccluderOverlayPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcclusionCullingCommon_OccluderOverlayPassData(OcclusionCullingCommon_OccluderOverlayPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OccluderOverlayPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_OccluderOverlayPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_OccluderOverlayPassData(OcclusionCullingCommon_OccluderOverlayPassData const&) = delete;
+  OcclusionCullingCommon_OccluderOverlayPassData(OcclusionCullingCommon_OccluderOverlayPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17779 };
@@ -565,13 +569,13 @@ protected:
   constexpr OcclusionCullingCommon_UpdateOccludersPassData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_UpdateOccludersPassData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_UpdateOccludersPassData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcclusionCullingCommon_UpdateOccludersPassData(OcclusionCullingCommon_UpdateOccludersPassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_UpdateOccludersPassData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon_UpdateOccludersPassData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon_UpdateOccludersPassData(OcclusionCullingCommon_UpdateOccludersPassData const&) = delete;
+  OcclusionCullingCommon_UpdateOccludersPassData(OcclusionCullingCommon_UpdateOccludersPassDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17780 };
@@ -597,6 +601,7 @@ static_assert(offsetof(::UnityEngine::Rendering::OcclusionCullingCommon_UpdateOc
 static_assert(sizeof(::UnityEngine::Rendering::OcclusionCullingCommon_UpdateOccludersPassData) == 0x60, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -669,13 +674,13 @@ protected:
   constexpr OcclusionCullingCommon___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcclusionCullingCommon___c(OcclusionCullingCommon___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon___c(OcclusionCullingCommon___c const&) = delete;
+  OcclusionCullingCommon___c(OcclusionCullingCommon___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17781 };
@@ -785,9 +790,9 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method CreateFarDepthPyramid, addr 0x6834fd0, size 0x224, virtual false, abstract: false, final false
-  inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+  inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
-                                    ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
 
   /// @brief Method DeleteContext, addr 0x6834e24, size 0x1ac, virtual false, abstract: false, final false
   inline void DeleteContext(int32_t viewInstanceID);
@@ -816,13 +821,14 @@ public:
   static inline ::UnityEngine::Rendering::OcclusionCullingCommon* New_ctor();
 
   /// @brief Method PrepareCulling, addr 0x683301c, size 0x1cc, virtual false, abstract: false, final false
-  inline void PrepareCulling(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
-                             ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings, ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
-                             ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, bool useOcclusionDebug);
+  inline void PrepareCulling(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, bool useOcclusionDebug);
 
   /// @brief Method PrepareOccluders, addr 0x68348e4, size 0x250, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OccluderHandles PrepareOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                    ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams);
+                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams);
 
   /// @brief Method RenderDebugOccluderOverlay, addr 0x6834370, size 0x574, virtual false, abstract: false, final false
   inline void RenderDebugOccluderOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* debugSettings,
@@ -833,18 +839,18 @@ public:
                                               int32_t viewInstanceID, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorBuffer);
 
   /// @brief Method SetDebugPyramid, addr 0x6833898, size 0xe4, virtual false, abstract: false, final false
-  static inline void SetDebugPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
-                                     ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
+  static inline void SetDebugPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
 
   /// @brief Method SetDepthPyramid, addr 0x68337fc, size 0x9c, virtual false, abstract: false, final false
-  static inline void SetDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
-                                     ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
+  static inline void SetDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
 
   /// @brief Method UpdateFrame, addr 0x6835ea0, size 0x27c, virtual false, abstract: false, final false
   inline void UpdateFrame();
 
   /// @brief Method UpdateInstanceOccluders, addr 0x68351f4, size 0x79c, virtual false, abstract: false, final false
-  inline bool UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+  inline bool UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                       ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
   /// @brief Method UpdateOccluderStats, addr 0x683599c, size 0x380, virtual false, abstract: false, final false
@@ -854,8 +860,9 @@ public:
   inline void UpdateSilhouettePlanes(int32_t viewInstanceID, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> planes);
 
   /// @brief Method UseOcclusionDebug, addr 0x683300c, size 0x10, virtual false, abstract: false, final false
-  static inline bool UseOcclusionDebug(::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx);
+  static inline bool UseOcclusionDebug(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx);
 
+  /// [CompilerGenerated]
   /// @brief Method <RenderDebugOcclusionTestOverlay>b__29_1, addr 0x68363ec, size 0x114, virtual false, abstract: false, final false
   inline void _RenderDebugOcclusionTestOverlay_b__29_1(::UnityEngine::Rendering::OcclusionCullingCommon_OcclusionTestOverlayPassData* data,
                                                        ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext ctx);
@@ -990,13 +997,13 @@ protected:
   constexpr OcclusionCullingCommon();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcclusionCullingCommon(OcclusionCullingCommon&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OcclusionCullingCommon", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OcclusionCullingCommon(OcclusionCullingCommon const&) = delete;
+  OcclusionCullingCommon(OcclusionCullingCommonconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17782 };

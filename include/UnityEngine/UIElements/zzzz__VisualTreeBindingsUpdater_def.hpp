@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeBindingsUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeBindingsUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -212,12 +212,14 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
+  /// [CompilerGenerated]
   /// @brief Method get_disableBindingsThrottling, addr 0x6c454a4, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_disableBindingsThrottling();
 
   /// @brief Method get_profilerMarker, addr 0x6c45448, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
+  /// [CompilerGenerated]
   /// @brief Method get_temporaryObjectCache, addr 0x6c45808, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* get_temporaryObjectCache();
 
@@ -243,13 +245,13 @@ protected:
   constexpr VisualTreeBindingsUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeBindingsUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeBindingsUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualTreeBindingsUpdater(VisualTreeBindingsUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeBindingsUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeBindingsUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeBindingsUpdater(VisualTreeBindingsUpdater const&) = delete;
+  VisualTreeBindingsUpdater(VisualTreeBindingsUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4062 };
@@ -269,6 +271,8 @@ public:
   /// @brief Field m_ElementsToBind, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* ___m_ElementsToBind;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <temporaryObjectCache>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* ____temporaryObjectCache_k__BackingField;
 

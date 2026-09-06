@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Marvin.hpp"
+// IWYU pragma private; include "System/Marvin.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,6 +43,7 @@ public:
 
   static inline uint64_t getStaticF__DefaultSeed_k__BackingField();
 
+  /// [CompilerGenerated]
   /// @brief Method get_DefaultSeed, addr 0x5c49630, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t get_DefaultSeed();
 
@@ -54,13 +55,13 @@ protected:
   constexpr Marvin();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Marvin", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marvin", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Marvin(Marvin&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Marvin", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marvin", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Marvin(Marvin const&) = delete;
+  Marvin(Marvinconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2438 };

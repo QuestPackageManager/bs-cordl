@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XR\Bone.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Bone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,8 +56,8 @@ public:
   // @brief default ctor
   constexpr Bone();
 
-  // Ctor Parameters [CppParam { name: "m_ParentBoneIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_ParentBoneIndex", ty: "uint32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None, comment: None }]
   constexpr Bone(uint32_t m_ParentBoneIndex, ::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

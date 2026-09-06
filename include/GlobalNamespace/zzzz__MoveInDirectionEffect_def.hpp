@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MoveInDirectionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace/MoveInDirectionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,23 +93,27 @@ protected:
   constexpr MoveInDirectionEffect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MoveInDirectionEffect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MoveInDirectionEffect", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MoveInDirectionEffect(MoveInDirectionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MoveInDirectionEffect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MoveInDirectionEffect", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MoveInDirectionEffect(MoveInDirectionEffect const&) = delete;
+  MoveInDirectionEffect(MoveInDirectionEffectconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5876 };
 
+  /// [SerializeField]
   /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _moveOrigin, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____moveOrigin;
 
+  /// [SerializeField]
   /// @brief Field _moveScale, offset: 0x34, size: 0x4, def value: None
   float_t ____moveScale;
 

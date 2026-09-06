@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\StaticTree.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/StaticTree.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,13 +112,13 @@ protected:
   constexpr StaticTree();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticTree", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticTree", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticTree(StaticTree&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticTree", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticTree", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticTree(StaticTree const&) = delete;
+  StaticTree(StaticTreeconst&) = delete;
 
   /// @brief Field BL_CODES offset 0xffffffff size 0x4
   static constexpr int32_t BL_CODES{ static_cast<int32_t>(0x13) };

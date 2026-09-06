@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIRLayoutUpdater.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIRLayoutUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class UIRLayoutUpdater;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UIRLayoutUpdater*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UIRLayoutUpdater*, "UnityEngine.UIElements", "UIRLayoutUpdater");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.BaseVisualTreeUpdater
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -124,13 +125,13 @@ protected:
   constexpr UIRLayoutUpdater();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIRLayoutUpdater", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRLayoutUpdater", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UIRLayoutUpdater(UIRLayoutUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIRLayoutUpdater", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIRLayoutUpdater", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UIRLayoutUpdater(UIRLayoutUpdater const&) = delete;
+  UIRLayoutUpdater(UIRLayoutUpdaterconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4665 };

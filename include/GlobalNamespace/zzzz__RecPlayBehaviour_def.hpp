@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\RecPlayBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace/RecPlayBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,6 +113,7 @@ public:
   /// @brief Method CreateRecordingPath, addr 0x58fb090, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW CreateRecordingPath(::GlobalNamespace::BeatmapKey key);
 
+  /// [Inject]
   /// @brief Method Init, addr 0x58faf78, size 0x118, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetup, ::GlobalNamespace::BeatmapObjectSpawnController* beatmapSpawnerController);
 
@@ -137,7 +138,7 @@ public:
   inline void Record();
 
   /// @brief Method SavePlayerPoseFrames, addr 0x58fba34, size 0xd0, virtual false, abstract: false, final false
-  static inline void SavePlayerPoseFrames(::StringW path, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> frames);
+  static inline void SavePlayerPoseFrames(::StringW path, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> frames);
 
   /// @brief Method SaveRecording, addr 0x58fb9a8, size 0x8c, virtual false, abstract: false, final false
   inline void SaveRecording();
@@ -145,9 +146,11 @@ public:
   /// @brief Method Update, addr 0x58fbda8, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
+  /// [CompilerGenerated]
   /// @brief Method <Play>g__ExtractLocalPose|13_0, addr 0x58fb814, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose _Play_g__ExtractLocalPose_13_0(::UnityEngine::Transform* transform);
 
+  /// [CompilerGenerated]
   /// @brief Method <Record>g__ExtractGlobalPose|14_0, addr 0x58fb944, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose _Record_g__ExtractGlobalPose_14_0(::UnityEngine::Transform* transform);
 
@@ -232,32 +235,38 @@ protected:
   constexpr RecPlayBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecPlayBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecPlayBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecPlayBehaviour(RecPlayBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecPlayBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RecPlayBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RecPlayBehaviour(RecPlayBehaviour const&) = delete;
+  RecPlayBehaviour(RecPlayBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6631 };
 
+  /// [Inject]
   /// @brief Field _beatmapCallbacksController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
+  /// [Inject]
   /// @brief Field _playerTransforms, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
+  /// [Inject]
   /// @brief Field _playerControllers, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerVRControllersManager> ____playerControllers;
 
+  /// [Inject]
   /// @brief Field _vrCenterAdjust, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRCenterAdjust> ____vrCenterAdjust;
 
+  /// [Inject]
   /// @brief Field _hmdCamera, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____hmdCamera;
 
+  /// [Inject]
   /// @brief Field _state, offset: 0x48, size: 0x8, def value: None
   ::BeatSaber::Automation::RecPlayBehaviourState* ____state;
 

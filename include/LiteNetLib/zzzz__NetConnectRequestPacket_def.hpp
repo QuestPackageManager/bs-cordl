@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib\NetConnectRequestPacket.hpp"
+// IWYU pragma private; include "LiteNetLib/NetConnectRequestPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,13 +89,13 @@ protected:
   constexpr NetConnectRequestPacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetConnectRequestPacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetConnectRequestPacket", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetConnectRequestPacket(NetConnectRequestPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetConnectRequestPacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetConnectRequestPacket", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetConnectRequestPacket(NetConnectRequestPacket const&) = delete;
+  NetConnectRequestPacket(NetConnectRequestPacketconst&) = delete;
 
   /// @brief Field HeaderSize offset 0xffffffff size 0x4
   static constexpr int32_t HeaderSize{ static_cast<int32_t>(0xe) };

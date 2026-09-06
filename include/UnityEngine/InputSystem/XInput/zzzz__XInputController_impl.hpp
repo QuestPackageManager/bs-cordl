@@ -1,17 +1,17 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\InputSystem\XInput\XInputController.hpp"
+// IWYU pragma private; include "UnityEngine/InputSystem/XInput/XInputController.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_impl.hpp"
 #include "UnityEngine/InputSystem/XInput/zzzz__XInputController_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/XInput/zzzz__XInputController_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceType::XInputController_DeviceType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceType::XInputController_DeviceType() {}
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceType UnityEngine::InputSystem::XInput::XInputController_DeviceType::Gamepad{ static_cast<int32_t>(0x0) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType::XInputController_DeviceSubType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -28,7 +28,7 @@ constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType Uni
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType UnityEngine::InputSystem::XInput::XInputController_DeviceSubType::DrumKit{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType UnityEngine::InputSystem::XInput::XInputController_DeviceSubType::GuitarBass{ static_cast<int32_t>(0xb) };
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType UnityEngine::InputSystem::XInput::XInputController_DeviceSubType::ArcadePad{ static_cast<int32_t>(0x13) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags::XInputController_DeviceFlags(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -39,9 +39,9 @@ constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags Unity
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags UnityEngine::InputSystem::XInput::XInputController_DeviceFlags::VoiceSupported{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags UnityEngine::InputSystem::XInput::XInputController_DeviceFlags::PluginModulesSupported{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags UnityEngine::InputSystem::XInput::XInputController_DeviceFlags::NoNavigation{ static_cast<int32_t>(0x10) };
-// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::XInput::XInputController_DeviceType", modifiers: "", def_value: Some("{}") }, CppParam { name: "subType", ty:
-// "::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType", modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty:
-// "::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::XInput::XInputController_DeviceType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "subType",
+// ty: "::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "flags", ty:
+// "::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::InputSystem::XInput::XInputController_Capabilities::XInputController_Capabilities(::UnityEngine::InputSystem::XInput::XInputController_DeviceType type,
                                                                                                            ::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType subType,
                                                                                                            ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags flags) noexcept {

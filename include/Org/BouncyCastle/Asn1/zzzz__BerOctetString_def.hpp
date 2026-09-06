@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerOctetString.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerOctetString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,13 +116,13 @@ protected:
   constexpr BerOctetString_ChunkEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString_ChunkEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString_ChunkEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerOctetString_ChunkEnumerator(BerOctetString_ChunkEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString_ChunkEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString_ChunkEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerOctetString_ChunkEnumerator(BerOctetString_ChunkEnumerator const&) = delete;
+  BerOctetString_ChunkEnumerator(BerOctetString_ChunkEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 480 };
@@ -183,9 +183,11 @@ public:
   /// @brief Method GetEnumerator, addr 0x3689f5c, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
+  /// [Obsolete("Use GetEnumerator() instead")]
   /// @brief Method GetObjects, addr 0x3689fec, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetObjects();
 
+  /// @brief [Obsolete("Will be removed")]
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* New_ctor(::System::Collections::IEnumerable* e);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*> octs);
@@ -216,6 +218,7 @@ public:
 
   constexpr void __cordl_internal_set_octs(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*> value);
 
+  /// [Obsolete("Will be removed")]
   /// @brief Method .ctor, addr 0x3689d98, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* e);
 
@@ -247,13 +250,13 @@ protected:
   constexpr BerOctetString();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerOctetString(BerOctetString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BerOctetString", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BerOctetString(BerOctetString const&) = delete;
+  BerOctetString(BerOctetStringconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 481 };

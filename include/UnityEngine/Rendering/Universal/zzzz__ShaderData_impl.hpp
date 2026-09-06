@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShaderData_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -199,7 +199,9 @@ inline ::UnityEngine::ComputeBuffer* UnityEngine::Rendering::Universal::ShaderDa
                                                                                          { "GetAdditionalLightShadowSliceMatricesStructuredBuffer", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ComputeBuffer*>(this, ___internal_method, size);
 }
-template <typename T> inline ::UnityEngine::ComputeBuffer* UnityEngine::Rendering::Universal::ShaderData::GetOrUpdateBuffer(::by_ref<::UnityEngine::ComputeBuffer*> buffer, int32_t size) {
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+inline ::UnityEngine::ComputeBuffer* UnityEngine::Rendering::Universal::ShaderData::GetOrUpdateBuffer(::by_ref<::UnityEngine::ComputeBuffer*> buffer, int32_t size) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShaderData*>(),
                                               { "GetOrUpdateBuffer", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<::UnityEngine::ComputeBuffer*>>(), ::i2c::type_of<int32_t>() } })));

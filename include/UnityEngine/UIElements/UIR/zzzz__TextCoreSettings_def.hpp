@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextCoreSettings.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextCoreSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,9 +48,10 @@ public:
   // @brief default ctor
   constexpr TextCoreSettings();
 
-  // Ctor Parameters [CppParam { name: "faceColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "outlineColor", ty: "::UnityEngine::Color", modifiers: "", def_value:
-  // None }, CppParam { name: "outlineWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "underlayColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam
-  // { name: "underlayOffset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "underlaySoftness", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "faceColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "outlineColor", ty: "::UnityEngine::Color", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "outlineWidth", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "underlayColor", ty:
+  // "::UnityEngine::Color", modifiers: "", def_value: None, comment: None }, CppParam { name: "underlayOffset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "underlaySoftness", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr TextCoreSettings(::UnityEngine::Color faceColor, ::UnityEngine::Color outlineColor, float_t outlineWidth, ::UnityEngine::Color underlayColor, ::UnityEngine::Vector2 underlayOffset,
                              float_t underlaySoftness) noexcept;
 

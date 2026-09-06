@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\Util\RenderGraphUtilsResources.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/Util/RenderGraphUtilsResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   // @brief default ctor
   constexpr RenderGraphUtilsResources_Version();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr RenderGraphUtilsResources_Version(int32_t value__) noexcept;
 
   /// @brief Field Count value: I32(1)
@@ -90,6 +90,9 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::Util::Render
 static_assert(sizeof(::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources_Version) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering::RenderGraphModule::Util
+// [HideInInspector]
+// [Category("Resources/Render Graph Helper Function Resources")]
+// [SupportedOnRenderPipeline(new[] {  })]
 // Dependencies System.Object, UnityEngine.Rendering.RenderGraphModule.Util.RenderGraphUtilsResources::Version
 namespace UnityEngine::Rendering::RenderGraphModule::Util {
 // Is value type: false
@@ -153,20 +156,24 @@ protected:
   constexpr RenderGraphUtilsResources();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtilsResources", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtilsResources", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderGraphUtilsResources(RenderGraphUtilsResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtilsResources", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RenderGraphUtilsResources", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RenderGraphUtilsResources(RenderGraphUtilsResources const&) = delete;
+  RenderGraphUtilsResources(RenderGraphUtilsResourcesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12477 };
 
+  /// [SerializeField]
+  /// [HideInInspector]
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources_Version ___m_Version;
 
+  /// [SerializeField]
+  /// [ResourcePath("Shaders/CoreCopy.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field m_CoreCopyPS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_CoreCopyPS;
 

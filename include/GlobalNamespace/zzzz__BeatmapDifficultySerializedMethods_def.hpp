@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapDifficultySerializedMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultySerializedMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -16,6 +16,7 @@ class BeatmapDifficultySerializedMethods;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatmapDifficultySerializedMethods*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatmapDifficultySerializedMethods*, "", "BeatmapDifficultySerializedMethods");
+// [Extension]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -23,9 +24,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultySerializedMethods : public ::System::Object {
 public:
   // Declarations
+  /// [Extension]
   /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x3259174, size 0x164, virtual false, abstract: false, final false
   static inline bool BeatmapDifficultyFromSerializedName(::StringW name, ::by_ref<::GlobalNamespace::BeatmapDifficulty> difficulty);
 
+  /// [Extension]
   /// @brief Method SerializedName, addr 0x32590ac, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
@@ -35,13 +38,13 @@ protected:
   constexpr BeatmapDifficultySerializedMethods();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethods const&) = delete;
+  BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethodsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21231 };

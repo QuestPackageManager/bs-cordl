@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\DataRelationCollection_DataSetRelationCollection.hpp"
+// IWYU pragma private; include "System/Data/DataRelationCollection_DataSetRelationCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class DataRelationCollection_DataSetRelationCollection;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::DataRelationCollection_DataSetRelationCollection*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DataRelationCollection_DataSetRelationCollection*, "System.Data", "DataRelationCollection/DataSetRelationCollection");
+// [DefaultMember("Item")]
 // Dependencies System.Data.DataRelation, System.Data.DataRelationCollection
 namespace GlobalNamespace {
 // Is value type: false
@@ -97,13 +98,13 @@ protected:
   constexpr DataRelationCollection_DataSetRelationCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataSetRelationCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataSetRelationCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DataRelationCollection_DataSetRelationCollection(DataRelationCollection_DataSetRelationCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataSetRelationCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection_DataSetRelationCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DataRelationCollection_DataSetRelationCollection(DataRelationCollection_DataSetRelationCollection const&) = delete;
+  DataRelationCollection_DataSetRelationCollection(DataRelationCollection_DataSetRelationCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13774 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\FixedList512BytesDebugView_1.hpp"
+// IWYU pragma private; include "Unity/Collections/FixedList512BytesDebugView_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,11 +8,15 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(FixedList512BytesDebugView_1)
 namespace Unity::Collections {
-template <typename T> struct FixedList512Bytes_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct FixedList512Bytes_1;
 }
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> class FixedList512BytesDebugView_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+class FixedList512BytesDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_T_PTR(::Unity::Collections::FixedList512BytesDebugView_1);
@@ -21,6 +25,7 @@ DEFINE_IL2CPP_GEN_CLASS_PTR(::Unity::Collections::FixedList512BytesDebugView_1, 
 namespace Unity::Collections {
 // cpp template
 template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 // Is value type: false
 // CS Name: Unity.Collections.FixedList512BytesDebugView`1<T>
 class CORDL_TYPE FixedList512BytesDebugView_1 : public ::System::Object {
@@ -51,13 +56,13 @@ protected:
   constexpr FixedList512BytesDebugView_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedList512BytesDebugView_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedList512BytesDebugView_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedList512BytesDebugView_1(FixedList512BytesDebugView_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedList512BytesDebugView_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FixedList512BytesDebugView_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FixedList512BytesDebugView_1(FixedList512BytesDebugView_1 const&) = delete;
+  FixedList512BytesDebugView_1(FixedList512BytesDebugView_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15589 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\StaticContext.hpp"
+// IWYU pragma private; include "Zenject/StaticContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ public:
   /// @brief Method Clear, addr 0x6e75838, size 0x4c, virtual false, abstract: false, final false
   static inline void Clear();
 
+  /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method NoDomainReloadInit, addr 0x6e757ec, size 0x4c, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
@@ -47,13 +48,13 @@ protected:
   constexpr StaticContext();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticContext", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticContext", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticContext(StaticContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticContext", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StaticContext", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  StaticContext(StaticContext const&) = delete;
+  StaticContext(StaticContextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14482 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\Category.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/Category.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__Category_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/zzzz__Item_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -108,8 +108,8 @@ constexpr ::System::IEquatable_1<::Meta::XR::ImmersiveDebugger::Manager::Categor
 Meta::XR::ImmersiveDebugger::Manager::Category::i___System__IEquatable_1___Meta__XR__ImmersiveDebugger__Manager__Category_() {
   return static_cast<::System::IEquatable_1<::Meta::XR::ImmersiveDebugger::Manager::Category>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "Id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Item", ty: "::Meta::XR::ImmersiveDebugger::Hierarchy::Item*", modifiers: "",
-// def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "Id", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "Item", ty: "::Meta::XR::ImmersiveDebugger::Hierarchy::Item*",
+// modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Meta::XR::ImmersiveDebugger::Manager::Category::Category(::StringW Id, ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* Item) noexcept {
   this->Id = Id;
   this->Item = Item;

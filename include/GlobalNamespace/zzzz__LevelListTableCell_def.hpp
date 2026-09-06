@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelListTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelListTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,6 +67,7 @@ MARK_VAL_T(::GlobalNamespace::LevelListTableCell__SetDataFromLevelAsync_d__21);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelListTableCell*, "", "LevelListTableCell");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelListTableCell__RefreshAvailabilityAsync_d__26, "", "LevelListTableCell/<RefreshAvailabilityAsync>d__26");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LevelListTableCell__SetDataFromLevelAsync_d__21, "", "LevelListTableCell/<SetDataFromLevelAsync>d__21");
+// [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -80,6 +81,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a02104, size 0x548, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a0264c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -90,11 +92,12 @@ public:
   // @brief default ctor
   constexpr LevelListTableCell__RefreshAvailabilityAsync_d__26();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers:
-  // "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "entitlementModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers:
-  // "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers: "", def_value: None, comment: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "entitlementModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_cancellationToken_5__2", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None, comment: None }]
   constexpr LevelListTableCell__RefreshAvailabilityAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::StringW levelID, ::GlobalNamespace::IEntitlementModel* entitlementModel,
                                                                ::System::Threading::CancellationToken _cancellationToken_5__2,
@@ -147,6 +150,7 @@ static_assert(offsetof(::GlobalNamespace::LevelListTableCell__RefreshAvailabilit
 static_assert(sizeof(::GlobalNamespace::LevelListTableCell__RefreshAvailabilityAsync_d__26) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
@@ -160,6 +164,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a02654, size 0xa58, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a030ac, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -170,12 +175,13 @@ public:
   // @brief default ctor
   constexpr LevelListTableCell__SetDataFromLevelAsync_d__21();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers:
-  // "", def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "interactable", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "isFavorite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPromoted", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "isUpdated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers: "", def_value: None, comment: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "interactable", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isFavorite", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "isPromoted", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isUpdated", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None, comment: None }]
   constexpr LevelListTableCell__SetDataFromLevelAsync_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                             ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool interactable,
                                                             bool isFavorite, bool isPromoted, bool isUpdated, ::System::Threading::CancellationToken _cancellationToken_5__2,
@@ -328,6 +334,7 @@ public:
 
   static inline ::GlobalNamespace::LevelListTableCell* New_ctor();
 
+  /// [AsyncStateMachine(typeof(LevelListTableCell::<RefreshAvailabilityAsync>d__26))]
   /// @brief Method RefreshAvailabilityAsync, addr 0x5a0203c, size 0xb8, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync(::GlobalNamespace::IEntitlementModel* entitlementModel, ::StringW levelID);
 
@@ -337,6 +344,7 @@ public:
   /// @brief Method SelectionDidChange, addr 0x5a01f14, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
+  /// [AsyncStateMachine(typeof(LevelListTableCell::<SetDataFromLevelAsync>d__21))]
   /// @brief Method SetDataFromLevelAsync, addr 0x5a01e24, size 0xf0, virtual false, abstract: false, final false
   inline void SetDataFromLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, bool isFavorite, bool isPromoted, bool isUpdated, bool interactable);
 
@@ -478,59 +486,78 @@ protected:
   constexpr LevelListTableCell();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelListTableCell", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelListTableCell", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelListTableCell(LevelListTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelListTableCell", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelListTableCell", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelListTableCell(LevelListTableCell const&) = delete;
+  LevelListTableCell(LevelListTableCellconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6327 };
 
+  /// [SerializeField]
   /// @brief Field _backgroundImage, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
+  /// [SerializeField]
   /// @brief Field _canvasGroup, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _coverImage, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____coverImage;
 
+  /// [SerializeField]
   /// @brief Field _songNameText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____songNameText;
 
+  /// [SerializeField]
   /// @brief Field _songAuthorText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____songAuthorText;
 
+  /// [SerializeField]
   /// @brief Field _favoritesBadgeImage, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____favoritesBadgeImage;
 
+  /// [SerializeField]
   /// @brief Field _songDurationText, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____songDurationText;
 
+  /// [SerializeField]
   /// @brief Field _songBpmText, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____songBpmText;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _highlightBackgroundColor, offset: 0xb8, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightBackgroundColor;
 
+  /// [SerializeField]
   /// @brief Field _selectedBackgroundColor, offset: 0xc8, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedBackgroundColor;
 
+  /// [SerializeField]
   /// @brief Field _selectedAndHighlightedBackgroundColor, offset: 0xd8, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedAndHighlightedBackgroundColor;
 
+  /// [SerializeField]
   /// @brief Field _notOwnedAlpha, offset: 0xe8, size: 0x4, def value: None
   float_t ____notOwnedAlpha;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _promoBadgeGo, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____promoBadgeGo;
 
+  /// [SerializeField]
   /// @brief Field _updatedBadgeGo, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____updatedBadgeGo;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _defaultCoverImage, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____defaultCoverImage;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro\KerningPair.hpp"
+// IWYU pragma private; include "TMPro/KerningPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -142,32 +142,40 @@ protected:
   constexpr KerningPair();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningPair", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningPair", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KerningPair(KerningPair&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningPair", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KerningPair", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  KerningPair(KerningPair const&) = delete;
+  KerningPair(KerningPairconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15922 };
 
+  /// [FormerlySerializedAs("AscII_Left")]
+  /// [SerializeField]
   /// @brief Field m_FirstGlyph, offset: 0x10, size: 0x4, def value: None
   uint32_t ___m_FirstGlyph;
 
+  /// [SerializeField]
   /// @brief Field m_FirstGlyphAdjustments, offset: 0x14, size: 0x10, def value: None
   ::TMPro::GlyphValueRecord_Legacy ___m_FirstGlyphAdjustments;
 
+  /// [FormerlySerializedAs("AscII_Right")]
+  /// [SerializeField]
   /// @brief Field m_SecondGlyph, offset: 0x24, size: 0x4, def value: None
   uint32_t ___m_SecondGlyph;
 
+  /// [SerializeField]
   /// @brief Field m_SecondGlyphAdjustments, offset: 0x28, size: 0x10, def value: None
   ::TMPro::GlyphValueRecord_Legacy ___m_SecondGlyphAdjustments;
 
+  /// [FormerlySerializedAs("XadvanceOffset")]
   /// @brief Field xOffset, offset: 0x38, size: 0x4, def value: None
   float_t ___xOffset;
 
+  /// [SerializeField]
   /// @brief Field m_IgnoreSpacingAdjustments, offset: 0x3c, size: 0x1, def value: None
   bool ___m_IgnoreSpacingAdjustments;
 

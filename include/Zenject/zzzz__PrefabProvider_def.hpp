@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\PrefabProvider.hpp"
+// IWYU pragma private; include "Zenject/PrefabProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,6 +18,7 @@ class PrefabProvider;
 // Write type traits
 MARK_REF_T(::Zenject::PrefabProvider*);
 DEFINE_IL2CPP_CLASS(::Zenject::PrefabProvider*, "Zenject", "PrefabProvider");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -54,13 +55,13 @@ protected:
   constexpr PrefabProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabProvider(PrefabProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PrefabProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PrefabProvider(PrefabProvider const&) = delete;
+  PrefabProvider(PrefabProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14586 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Enum.hpp"
+// IWYU pragma private; include "System/Enum.hpp"
 #include "System/zzzz__Enum_ParseFailureKind_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
@@ -110,10 +110,11 @@ inline ::System::Exception* System::Enum_EnumResult::GetEnumParseException() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Enum_EnumResult>(), { "GetEnumParseException", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "parsedEnum", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "canThrow", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "m_failure", ty: "::GlobalNamespace::Enum_ParseFailureKind", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_failureMessageID", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_failureParameter", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_failureMessageFormatArgument", ty: "::System::Object*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_innerException", ty: "::System::Exception*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "parsedEnum", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "canThrow", ty: "bool", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "m_failure", ty: "::GlobalNamespace::Enum_ParseFailureKind", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "m_failureMessageID", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_failureParameter", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "m_failureMessageFormatArgument", ty: "::System::Object*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_innerException", ty:
+// "::System::Exception*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Enum_EnumResult::Enum_EnumResult(::System::Object* parsedEnum, bool canThrow, ::GlobalNamespace::Enum_ParseFailureKind m_failure, ::StringW m_failureMessageID,
                                                      ::StringW m_failureParameter, ::System::Object* m_failureMessageFormatArgument, ::System::Exception* m_innerException) noexcept {
   this->parsedEnum = parsedEnum;

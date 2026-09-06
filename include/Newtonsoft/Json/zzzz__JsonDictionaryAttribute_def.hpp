@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\JsonDictionaryAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/JsonDictionaryAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class JsonDictionaryAttribute;
 // Write type traits
 MARK_REF_T(::Newtonsoft::Json::JsonDictionaryAttribute*);
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::JsonDictionaryAttribute*, "Newtonsoft.Json", "JsonDictionaryAttribute");
+// [AttributeUsage((System.AttributeTargets)1028, AllowMultiple = false)]
 // Dependencies Newtonsoft.Json.JsonContainerAttribute
 namespace Newtonsoft::Json {
 // Is value type: false
@@ -22,11 +23,13 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor();
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor(::StringW id);
 
   /// @brief Method .ctor, addr 0x5cd6efc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5cd6f00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
@@ -36,13 +39,13 @@ protected:
   constexpr JsonDictionaryAttribute();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonDictionaryAttribute", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonDictionaryAttribute", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonDictionaryAttribute(JsonDictionaryAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonDictionaryAttribute", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonDictionaryAttribute", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonDictionaryAttribute(JsonDictionaryAttribute const&) = delete;
+  JsonDictionaryAttribute(JsonDictionaryAttributeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13253 };

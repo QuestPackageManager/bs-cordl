@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeSceneData.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeSceneData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,7 @@ class ProbeVolumeSceneData;
 // Write type traits
 MARK_REF_T(::UnityEngine::Rendering::ProbeVolumeSceneData*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProbeVolumeSceneData*, "UnityEngine.Rendering", "ProbeVolumeSceneData");
+// [Obsolete("This class is no longer necessary for APV implementation.")]
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
@@ -42,6 +43,7 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeVolumeSceneData* New_ctor(::UnityEngine::Object* parentAsset);
 
+  /// [Obsolete]
   /// @brief Method SetParentObject, addr 0x6797e58, size 0x8, virtual false, abstract: false, final false
   inline void SetParentObject(::UnityEngine::Object* parent);
 
@@ -72,13 +74,13 @@ protected:
   constexpr ProbeVolumeSceneData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeSceneData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeSceneData", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeVolumeSceneData(ProbeVolumeSceneData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeSceneData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeVolumeSceneData", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeVolumeSceneData(ProbeVolumeSceneData const&) = delete;
+  ProbeVolumeSceneData(ProbeVolumeSceneDataconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12149 };
@@ -86,9 +88,15 @@ public:
   /// @brief Field parentAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ___parentAsset;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("sceneBounds")]
+  /// [Obsolete("This data is now serialized directly in the baking set asset")]
   /// @brief Field obsoleteSceneBounds, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, ::UnityEngine::Bounds>* ___obsoleteSceneBounds;
 
+  /// [SerializeField]
+  /// [FormerlySerializedAs("hasProbeVolumes")]
+  /// [Obsolete("This data is now serialized directly in the baking set asset")]
   /// @brief Field obsoleteHasProbeVolumes, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, bool>* ___obsoleteHasProbeVolumes;
 

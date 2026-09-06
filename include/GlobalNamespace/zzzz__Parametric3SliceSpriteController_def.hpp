@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\Parametric3SliceSpriteController.hpp"
+// IWYU pragma private; include "GlobalNamespace/Parametric3SliceSpriteController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,6 +27,9 @@ class Parametric3SliceSpriteController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::Parametric3SliceSpriteController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::Parametric3SliceSpriteController*, "", "Parametric3SliceSpriteController");
+// [RequireComponent(typeof(UnityEngine.MeshRenderer))]
+// [RequireComponent(typeof(UnityEngine.MeshFilter))]
+// [ExecuteInEditMode]
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -256,9 +259,11 @@ public:
 
   static inline int32_t getStaticF__widthStartID();
 
+  /// [CompilerGenerated]
   /// @brief Method get_collisionLength, addr 0x5865f48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionLength();
 
+  /// [CompilerGenerated]
   /// @brief Method get_useCollision, addr 0x5865f38, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
@@ -280,9 +285,11 @@ public:
 
   static inline void setStaticF__widthStartID(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_collisionLength, addr 0x5865f50, size 0x8, virtual false, abstract: false, final false
   inline void set_collisionLength(float_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_useCollision, addr 0x5865f40, size 0x8, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
@@ -292,13 +299,13 @@ protected:
   constexpr Parametric3SliceSpriteController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceSpriteController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceSpriteController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Parametric3SliceSpriteController(Parametric3SliceSpriteController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceSpriteController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceSpriteController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Parametric3SliceSpriteController(Parametric3SliceSpriteController const&) = delete;
+  Parametric3SliceSpriteController(Parametric3SliceSpriteControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19482 };
@@ -309,6 +316,7 @@ public:
   /// @brief Field kMaxWidth offset 0xffffffff size 0x4
   static constexpr float_t kMaxWidth{ static_cast<float_t>(10.0f) };
 
+  /// [SerializeField]
   /// @brief Field _widthMultiplier, offset: 0x20, size: 0x4, def value: None
   float_t ____widthMultiplier;
 
@@ -330,21 +338,28 @@ public:
   /// @brief Field minAlpha, offset: 0x44, size: 0x4, def value: None
   float_t ___minAlpha;
 
+  /// [Space]
+  /// [Min(0)]
   /// @brief Field alphaStart, offset: 0x48, size: 0x4, def value: None
   float_t ___alphaStart;
 
+  /// [Min(0)]
   /// @brief Field alphaEnd, offset: 0x4c, size: 0x4, def value: None
   float_t ___alphaEnd;
 
+  /// [Min(0)]
   /// @brief Field widthStart, offset: 0x50, size: 0x4, def value: None
   float_t ___widthStart;
 
+  /// [Min(0)]
   /// @brief Field widthEnd, offset: 0x54, size: 0x4, def value: None
   float_t ___widthEnd;
 
+  /// [CompilerGenerated]
   /// @brief Field <useCollision>k__BackingField, offset: 0x58, size: 0x1, def value: None
   bool ____useCollision_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <collisionLength>k__BackingField, offset: 0x5c, size: 0x4, def value: None
   float_t ____collisionLength_k__BackingField;
 

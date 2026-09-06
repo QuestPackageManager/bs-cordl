@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ConditionalSpriteSwitcher.hpp"
+// IWYU pragma private; include "GlobalNamespace/ConditionalSpriteSwitcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class ConditionalSpriteSwitcher;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ConditionalSpriteSwitcher*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ConditionalSpriteSwitcher*, "", "ConditionalSpriteSwitcher");
+// [Obsolete]
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -118,32 +119,41 @@ protected:
   constexpr ConditionalSpriteSwitcher();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalSpriteSwitcher", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalSpriteSwitcher", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalSpriteSwitcher(ConditionalSpriteSwitcher&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalSpriteSwitcher", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalSpriteSwitcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalSpriteSwitcher(ConditionalSpriteSwitcher const&) = delete;
+  ConditionalSpriteSwitcher(ConditionalSpriteSwitcherconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6659 };
 
+  /// [Header("False")]
+  /// [SerializeField]
   /// @brief Field _sprite0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____sprite0;
 
+  /// [SerializeField]
   /// @brief Field _material0, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material0;
 
+  /// [Header("True")]
+  /// [SerializeField]
   /// @brief Field _sprite1, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____sprite1;
 
+  /// [SerializeField]
   /// @brief Field _material1, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material1;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _value, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____value;
 
+  /// [SerializeField]
   /// @brief Field _spriteRenderer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 

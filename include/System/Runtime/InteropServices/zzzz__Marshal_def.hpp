@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Runtime\InteropServices\Marshal.hpp"
+// IWYU pragma private; include "System/Runtime/InteropServices/Marshal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,13 +98,13 @@ protected:
   constexpr Marshal_SecureStringAllocator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Marshal_SecureStringAllocator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marshal_SecureStringAllocator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Marshal_SecureStringAllocator(Marshal_SecureStringAllocator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Marshal_SecureStringAllocator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marshal_SecureStringAllocator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Marshal_SecureStringAllocator(Marshal_SecureStringAllocator const&) = delete;
+  Marshal_SecureStringAllocator(Marshal_SecureStringAllocatorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3350 };
@@ -146,13 +146,13 @@ protected:
   constexpr Marshal_MarshalerInstanceKeyComparer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Marshal_MarshalerInstanceKeyComparer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marshal_MarshalerInstanceKeyComparer", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Marshal_MarshalerInstanceKeyComparer(Marshal_MarshalerInstanceKeyComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Marshal_MarshalerInstanceKeyComparer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marshal_MarshalerInstanceKeyComparer", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Marshal_MarshalerInstanceKeyComparer(Marshal_MarshalerInstanceKeyComparer const&) = delete;
+  Marshal_MarshalerInstanceKeyComparer(Marshal_MarshalerInstanceKeyComparerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3351 };
@@ -163,6 +163,7 @@ public:
 static_assert(sizeof(::System::Runtime::InteropServices::Marshal_MarshalerInstanceKeyComparer) == 0x10, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Runtime::InteropServices {
 // Is value type: false
@@ -202,13 +203,13 @@ protected:
   constexpr Marshal___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Marshal___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marshal___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Marshal___c(Marshal___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Marshal___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marshal___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Marshal___c(Marshal___c const&) = delete;
+  Marshal___c(Marshal___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3352 };
@@ -249,9 +250,11 @@ public:
   /// @brief Method AllocCoTaskMem, addr 0x5b6d528, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr AllocCoTaskMem(int32_t cb);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method AllocHGlobal, addr 0x5b6d530, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr AllocHGlobal(::System::IntPtr cb);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
   /// @brief Method AllocHGlobal, addr 0x5b6d534, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IntPtr AllocHGlobal(int32_t cb);
 
@@ -288,6 +291,7 @@ public:
   /// @brief Method FreeCoTaskMem, addr 0x5b6dc7c, size 0x4, virtual false, abstract: false, final false
   static inline void FreeCoTaskMem(::System::IntPtr ptr);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method FreeHGlobal, addr 0x5b6dc80, size 0x4, virtual false, abstract: false, final false
   static inline void FreeHGlobal(::System::IntPtr hglobal);
 
@@ -315,6 +319,7 @@ public:
   /// @brief Method GetHRForException, addr 0x5b6e040, size 0xc, virtual false, abstract: false, final false
   static inline int32_t GetHRForException(::System::Exception* e);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method GetLastWin32Error, addr 0x5b6e054, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetLastWin32Error();
 
@@ -336,12 +341,14 @@ public:
   /// @brief Method PtrToStringUni, addr 0x5b6e0bc, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW PtrToStringUni(::System::IntPtr ptr, int32_t len);
 
+  /// [ComVisible(true)]
   /// @brief Method PtrToStructure, addr 0x5b6e0c4, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* PtrToStructure(::System::IntPtr ptr, ::System::Type* structureType);
 
   /// @brief Method PtrToStructure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T PtrToStructure(::System::IntPtr ptr);
 
+  /// [ComVisible(true)]
   /// @brief Method PtrToStructure, addr 0x5b6e0c0, size 0x4, virtual false, abstract: false, final false
   static inline void PtrToStructure(::System::IntPtr ptr, ::System::Object* structure);
 
@@ -354,9 +361,11 @@ public:
   /// @brief Method ReadInt16, addr 0x5b6df50, size 0x30, virtual false, abstract: false, final false
   static inline int16_t ReadInt16(::System::IntPtr ptr, int32_t ofs);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method ReadInt32, addr 0x5b6e0c8, size 0x34, virtual false, abstract: false, final false
   static inline int32_t ReadInt32(::System::IntPtr ptr);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
   /// @brief Method ReadInt32, addr 0x5b6dd2c, size 0x34, virtual false, abstract: false, final false
   static inline int32_t ReadInt32(::System::IntPtr ptr, int32_t ofs);
 
@@ -375,6 +384,7 @@ public:
   /// @brief Method SizeOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t SizeOf();
 
+  /// [ComVisible(true)]
   /// @brief Method SizeOf, addr 0x5b6e0fc, size 0x74, virtual false, abstract: false, final false
   static inline int32_t SizeOf(::System::Object* structure);
 
@@ -393,6 +403,8 @@ public:
   /// @brief Method StringToHGlobalAnsi, addr 0x5b6e174, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr StringToHGlobalAnsi(char16_t* s, int32_t length);
 
+  /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)1)]
+  /// [ComVisible(true)]
   /// @brief Method StructureToPtr, addr 0x5b6e718, size 0x4, virtual false, abstract: false, final false
   static inline void StructureToPtr(::System::Object* structure, ::System::IntPtr ptr, bool fDeleteOld);
 
@@ -459,13 +471,13 @@ protected:
   constexpr Marshal();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Marshal", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marshal", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Marshal(Marshal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Marshal", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Marshal", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Marshal(Marshal const&) = delete;
+  Marshal(Marshalconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3353 };

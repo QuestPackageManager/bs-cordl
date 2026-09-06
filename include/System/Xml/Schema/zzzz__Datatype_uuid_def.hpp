@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\Schema\Datatype_uuid.hpp"
+// IWYU pragma private; include "System/Xml/Schema/Datatype_uuid.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ protected:
   constexpr Datatype_uuid();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_uuid", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Datatype_uuid", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_uuid(Datatype_uuid&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_uuid", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Datatype_uuid", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_uuid(Datatype_uuid const&) = delete;
+  Datatype_uuid(Datatype_uuidconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9675 };

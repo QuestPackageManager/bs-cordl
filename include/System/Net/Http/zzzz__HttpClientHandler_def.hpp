@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\HttpClientHandler.hpp"
+// IWYU pragma private; include "System/Net/Http/HttpClientHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,6 +57,7 @@ MARK_REF_T(::System::Net::Http::HttpClientHandler*);
 MARK_REF_T(::System::Net::Http::HttpClientHandler___c*);
 DEFINE_IL2CPP_CLASS(::System::Net::Http::HttpClientHandler*, "System.Net.Http", "HttpClientHandler");
 DEFINE_IL2CPP_CLASS(::System::Net::Http::HttpClientHandler___c*, "System.Net.Http", "HttpClientHandler/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace System::Net::Http {
 // Is value type: false
@@ -94,13 +95,13 @@ protected:
   constexpr HttpClientHandler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpClientHandler___c(HttpClientHandler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpClientHandler___c(HttpClientHandler___c const&) = delete;
+  HttpClientHandler___c(HttpClientHandler___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20261 };
@@ -173,6 +174,7 @@ public:
   /// @brief Method .ctor, addr 0x60d6618, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::IMonoHttpClientHandler* handler);
 
+  /// [CompilerGenerated]
   /// @brief Method <set_ClientCertificateOptions>b__23_0, addr 0x60d6f4c, size 0x14, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
   _set_ClientCertificateOptions_b__23_0(::System::Object* sender, ::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
@@ -199,13 +201,13 @@ protected:
   constexpr HttpClientHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpClientHandler(HttpClientHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HttpClientHandler(HttpClientHandler const&) = delete;
+  HttpClientHandler(HttpClientHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20262 };

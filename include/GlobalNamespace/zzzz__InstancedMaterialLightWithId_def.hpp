@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\InstancedMaterialLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace/InstancedMaterialLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   // @brief default ctor
   constexpr InstancedMaterialLightWithId_MultiplyColorByAlphaType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr InstancedMaterialLightWithId_MultiplyColorByAlphaType(int32_t value__) noexcept;
 
   /// @brief Field AfterApplyingMinAlpha value: I32(2)
@@ -133,6 +133,7 @@ public:
 
   __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
 
+  /// [Button("Add Necessary Components")]
   /// @brief Method AddNecessaryComponents, addr 0x586cfd8, size 0x110, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
 
@@ -216,35 +217,45 @@ protected:
   constexpr InstancedMaterialLightWithId();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstancedMaterialLightWithId", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstancedMaterialLightWithId", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstancedMaterialLightWithId(InstancedMaterialLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstancedMaterialLightWithId", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InstancedMaterialLightWithId", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  InstancedMaterialLightWithId(InstancedMaterialLightWithId const&) = delete;
+  InstancedMaterialLightWithId(InstancedMaterialLightWithIdconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19530 };
 
+  /// [SerializeField]
   /// @brief Field _materialPropertyBlockColorSetter, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____materialPropertyBlockColorSetter;
 
+  /// [SerializeField]
   /// @brief Field _setColorOnly, offset: 0x48, size: 0x1, def value: None
   bool ____setColorOnly;
 
+  /// [SerializeField]
+  /// [DrawIf("_setColorOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _intensity, offset: 0x4c, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
+  /// [DrawIf("_setColorOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _minAlpha, offset: 0x50, size: 0x4, def value: None
   float_t ____minAlpha;
 
+  /// [SerializeField]
   /// @brief Field _multiplyColorByAlpha, offset: 0x54, size: 0x4, def value: None
   ::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType ____multiplyColorByAlpha;
 
+  /// [SerializeField]
+  /// [DrawIf("_setColorOnly", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _saturateIntensity, offset: 0x58, size: 0x1, def value: None
   bool ____saturateIntensity;
 
+  /// [SerializeField]
   /// @brief Field _hdr, offset: 0x59, size: 0x1, def value: None
   bool ____hdr;
 

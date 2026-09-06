@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Hierarchy\HierarchyNode.hpp"
+// IWYU pragma private; include "Unity/Hierarchy/HierarchyNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,6 +20,8 @@ struct HierarchyNode;
 // Write type traits
 MARK_VAL_T(::Unity::Hierarchy::HierarchyNode);
 DEFINE_IL2CPP_CLASS(::Unity::Hierarchy::HierarchyNode, "Unity.Hierarchy", "HierarchyNode");
+// [NativeHeader("Modules/HierarchyCore/Public/HierarchyNode.h")]
+// [IsReadOnly]
 // Dependencies
 namespace Unity::Hierarchy {
 // Is value type: true
@@ -37,15 +39,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyNode>"
   constexpr operator ::System::IEquatable_1<::Unity::Hierarchy::HierarchyNode>*();
 
+  /// [ExcludeFromDocs]
   /// @brief Method Equals, addr 0x6b3a4c0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
+  /// [ExcludeFromDocs]
   /// @brief Method Equals, addr 0x6b3a31c, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Hierarchy::HierarchyNode other);
 
+  /// [ExcludeFromDocs]
   /// @brief Method GetHashCode, addr 0x6b3a284, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// [ExcludeFromDocs]
   /// @brief Method ToString, addr 0x6b3a344, size 0x17c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
@@ -66,11 +72,13 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyNode>"
   constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyNode>* i___System__IEquatable_1___Unity__Hierarchy__HierarchyNode_();
 
+  /// [ExcludeFromDocs]
   /// @brief Method op_Equality, addr 0x6b35b94, size 0x2c, virtual false, abstract: false, final false
-  static inline bool op_Equality(::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs);
 
+  /// [ExcludeFromDocs]
   /// @brief Method op_Inequality, addr 0x6b361e0, size 0x2c, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyNode value);
 
@@ -78,7 +86,8 @@ public:
   // @brief default ctor
   constexpr HierarchyNode();
 
-  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Version", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr HierarchyNode(int32_t m_Id, int32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

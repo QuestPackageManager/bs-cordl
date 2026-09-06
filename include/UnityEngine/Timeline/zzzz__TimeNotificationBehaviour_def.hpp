@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Timeline\TimeNotificationBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine/Timeline/TimeNotificationBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,10 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Playables::IPlayableBehaviour*> && ::cordl_internals::reference_type_constraint<T> &&
+           ::cordl_internals::default_constructor_constraint<T>)
+struct ScriptPlayable_1;
 }
 namespace UnityEngine::Timeline {
 struct NotificationFlags;
@@ -90,9 +93,9 @@ public:
   // @brief default ctor
   constexpr TimeNotificationBehaviour_NotificationEntry();
 
-  // Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "payload", ty: "::UnityEngine::Playables::INotification*", modifiers: "", def_value:
-  // None }, CppParam { name: "notificationFired", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::Timeline::NotificationFlags", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "payload", ty: "::UnityEngine::Playables::INotification*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "notificationFired", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "flags", ty:
+  // "::UnityEngine::Timeline::NotificationFlags", modifiers: "", def_value: None, comment: None }]
   constexpr TimeNotificationBehaviour_NotificationEntry(double_t time, ::UnityEngine::Playables::INotification* payload, bool notificationFired,
                                                         ::UnityEngine::Timeline::NotificationFlags flags) noexcept;
 
@@ -128,6 +131,7 @@ static_assert(offsetof(::UnityEngine::Timeline::TimeNotificationBehaviour_Notifi
 static_assert(sizeof(::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry) == 0x18, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::Timeline {
 // Is value type: false
@@ -163,13 +167,13 @@ protected:
   constexpr TimeNotificationBehaviour___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeNotificationBehaviour___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeNotificationBehaviour___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeNotificationBehaviour___c(TimeNotificationBehaviour___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeNotificationBehaviour___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeNotificationBehaviour___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeNotificationBehaviour___c(TimeNotificationBehaviour___c const&) = delete;
+  TimeNotificationBehaviour___c(TimeNotificationBehaviour___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19235 };
@@ -280,13 +284,13 @@ protected:
   constexpr TimeNotificationBehaviour();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeNotificationBehaviour", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeNotificationBehaviour", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeNotificationBehaviour(TimeNotificationBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeNotificationBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TimeNotificationBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TimeNotificationBehaviour(TimeNotificationBehaviour const&) = delete;
+  TimeNotificationBehaviour(TimeNotificationBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19236 };

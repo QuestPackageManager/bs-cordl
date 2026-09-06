@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MetaXRSubsampledLayout.hpp"
+// IWYU pragma private; include "Meta/XR/MetaXRSubsampledLayout.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "Meta/XR/zzzz__MetaXRSubsampledLayout_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MetaXRSubsampledLayout.OnInstanceCreate

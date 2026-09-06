@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NetworkPlayersTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace/NetworkPlayersTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,7 +90,7 @@ public:
   // @brief default ctor
   constexpr CellInfo_NetworkPlayersTableView_CellType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr CellInfo_NetworkPlayersTableView_CellType(int32_t value__) noexcept;
 
   /// @brief Field Header value: I32(0)
@@ -175,13 +175,13 @@ protected:
   constexpr NetworkPlayersTableView_CellInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView_CellInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView_CellInfo", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkPlayersTableView_CellInfo(NetworkPlayersTableView_CellInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView_CellInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView_CellInfo", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayersTableView_CellInfo(NetworkPlayersTableView_CellInfo const&) = delete;
+  NetworkPlayersTableView_CellInfo(NetworkPlayersTableView_CellInfoconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6393 };
@@ -342,13 +342,13 @@ protected:
   constexpr NetworkPlayersTableView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkPlayersTableView(NetworkPlayersTableView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayersTableView", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayersTableView(NetworkPlayersTableView const&) = delete;
+  NetworkPlayersTableView(NetworkPlayersTableViewconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6394 };
@@ -362,18 +362,23 @@ public:
   /// @brief Field kPlayerCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kPlayerCellIdentifier{ u"PlayerCell" };
 
+  /// [SerializeField]
   /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 
+  /// [SerializeField]
   /// @brief Field _playerCellPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NetworkPlayerTableCell> ____playerCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _optionsCellPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NetworkPlayerOptionsTableCell> ____optionsCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _headerCellPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelPackHeaderTableCell> ____headerCellPrefab;
 
+  /// [SerializeField]
   /// @brief Field _rowHeight, offset: 0x40, size: 0x4, def value: None
   float_t ____rowHeight;
 

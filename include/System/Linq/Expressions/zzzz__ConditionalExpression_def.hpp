@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Linq\Expressions\ConditionalExpression.hpp"
+// IWYU pragma private; include "System/Linq/Expressions/ConditionalExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class ConditionalExpression;
 // Write type traits
 MARK_REF_T(::System::Linq::Expressions::ConditionalExpression*);
 DEFINE_IL2CPP_CLASS(::System::Linq::Expressions::ConditionalExpression*, "System.Linq.Expressions", "ConditionalExpression");
+// [DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression::ConditionalExpressionProxy))]
 // Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
@@ -81,12 +82,14 @@ public:
   /// @brief Method get_IfFalse, addr 0x5f7aa30, size 0xc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_IfFalse();
 
+  /// [CompilerGenerated]
   /// @brief Method get_IfTrue, addr 0x5f7aa28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_IfTrue();
 
   /// @brief Method get_NodeType, addr 0x5f7a9fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Test, addr 0x5f7aa20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Test();
 
@@ -99,20 +102,22 @@ protected:
   constexpr ConditionalExpression();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalExpression", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalExpression", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalExpression(ConditionalExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalExpression", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConditionalExpression", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalExpression(ConditionalExpression const&) = delete;
+  ConditionalExpression(ConditionalExpressionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16156 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Test>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Test_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <IfTrue>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____IfTrue_k__BackingField;
 

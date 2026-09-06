@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\LeaderboardEntryWithRankModel.hpp"
+// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/LeaderboardEntryWithRankModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace BeatSaber::Main::GraphQL::Models {
@@ -56,6 +58,9 @@ DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXp
                     "LeaderboardEntryWithRankModel/UserModel/FirstPartyXplatformUserModel/OwnersModel/NodesModel");
 DEFINE_IL2CPP_CLASS(::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel*, "BeatSaber.Main.GraphQL.Models",
                     "LeaderboardEntryWithRankModel/UserModel/FirstPartyXplatformUserModel");
+// [NullableContext(2)]
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -63,8 +68,12 @@ namespace BeatSaber::Main::GraphQL::Models {
 class CORDL_TYPE OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel : public ::OculusStudios::GraphQL::Client::GraphQLModel {
 public:
   // Declarations
+  /// [Preserve]
+  /// @brief [JsonProperty("alias", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Alias, put = set_Alias)) ::StringW Alias;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("id", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Id, put = set_Id)) ::StringW Id;
 
   /// @brief Field <Alias>k__BackingField, offset 0x18, size 0x8
@@ -90,15 +99,19 @@ public:
   /// @brief Method .ctor, addr 0x32a0fd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Alias, addr 0x32a0fd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Alias();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Id, addr 0x32a0fc0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Alias, addr 0x32a0fc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Alias(::StringW value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Id, addr 0x32a0fb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
@@ -108,21 +121,23 @@ protected:
   constexpr OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel(OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel(OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel const&) =
+  OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel(OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModelconst&) =
       delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20573 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Alias>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Alias_k__BackingField;
 
@@ -138,6 +153,8 @@ static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPart
 static_assert(sizeof(::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel) == 0x20, "Size mismatch!");
 
 } // namespace BeatSaber::Main::GraphQL::Models
+// [NullableContext(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -147,6 +164,9 @@ public:
   // Declarations
   using NodesModel = ::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel;
 
+  /// [Nullable(new[] { 1, 2 })]
+  /// [Preserve]
+  /// @brief [JsonProperty("nodes", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(
       get = get_Nodes,
       put = set_Nodes)) ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* Nodes;
@@ -169,12 +189,14 @@ public:
   /// @brief Method .ctor, addr 0x32a0fb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Nodes, addr 0x32a0fac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* get_Nodes();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Nodes, addr 0x32a0fa4, size 0x8, virtual false, abstract: false, final false
-  inline void
-  set_Nodes(::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* value);
+  inline void set_Nodes(/* [Nullable(new[] { 1, 2 })] */ ::System::Collections::Generic::List_1<
+                        ::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* value);
 
 protected:
   // Ctor Parameters []
@@ -182,17 +204,19 @@ protected:
   constexpr FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel(FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel(FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel const&) = delete;
+  FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel(FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20574 };
 
+  /// [Nullable(new[] { 1, 2 })]
+  /// [CompilerGenerated]
   /// @brief Field <Nodes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* ____Nodes_k__BackingField;
 
@@ -204,6 +228,8 @@ static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUs
 static_assert(sizeof(::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel) == 0x18, "Size mismatch!");
 
 } // namespace BeatSaber::Main::GraphQL::Models
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -213,6 +239,8 @@ public:
   // Declarations
   using OwnersModel = ::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("owners", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Owners, put = set_Owners)) ::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel* Owners;
 
   /// @brief Field <Owners>k__BackingField, offset 0x10, size 0x8
@@ -232,9 +260,11 @@ public:
   /// @brief Method .ctor, addr 0x32a0fa0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Owners, addr 0x32a0f98, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel* get_Owners();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Owners, addr 0x32a0f90, size 0x8, virtual false, abstract: false, final false
   inline void set_Owners(::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel* value);
 
@@ -244,17 +274,18 @@ protected:
   constexpr UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel(UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel(UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel const&) = delete;
+  UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel(UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20575 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Owners>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel* ____Owners_k__BackingField;
 
@@ -266,6 +297,8 @@ static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::UserModel_Leaderboard
 static_assert(sizeof(::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel) == 0x18, "Size mismatch!");
 
 } // namespace BeatSaber::Main::GraphQL::Models
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -275,9 +308,13 @@ public:
   // Declarations
   using FirstPartyXplatformUserModel = ::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("first_party_xplatform_user", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_FirstPartyXplatformUser,
                       put = set_FirstPartyXplatformUser)) ::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel* FirstPartyXplatformUser;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("id", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Id, put = set_Id)) ::StringW Id;
 
   /// @brief Field <FirstPartyXplatformUser>k__BackingField, offset 0x18, size 0x8
@@ -305,15 +342,19 @@ public:
   /// @brief Method .ctor, addr 0x32a0f8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_FirstPartyXplatformUser, addr 0x32a0f84, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel* get_FirstPartyXplatformUser();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Id, addr 0x32a0f74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
+  /// [CompilerGenerated]
   /// @brief Method set_FirstPartyXplatformUser, addr 0x32a0f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_FirstPartyXplatformUser(::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Id, addr 0x32a0f6c, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
@@ -323,20 +364,22 @@ protected:
   constexpr LeaderboardEntryWithRankModel_UserModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel_UserModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel_UserModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardEntryWithRankModel_UserModel(LeaderboardEntryWithRankModel_UserModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel_UserModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel_UserModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardEntryWithRankModel_UserModel(LeaderboardEntryWithRankModel_UserModel const&) = delete;
+  LeaderboardEntryWithRankModel_UserModel(LeaderboardEntryWithRankModel_UserModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20576 };
 
+  /// [CompilerGenerated]
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <FirstPartyXplatformUser>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel* ____FirstPartyXplatformUser_k__BackingField;
 
@@ -350,6 +393,9 @@ static_assert(offsetof(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithR
 static_assert(sizeof(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel) == 0x20, "Size mismatch!");
 
 } // namespace BeatSaber::Main::GraphQL::Models
+// [NullableContext(2)]
+// [Nullable(0)]
+// [Preserve]
 // Dependencies OculusStudios.GraphQL.Client.GraphQLModel, System.Nullable`1<T>
 namespace BeatSaber::Main::GraphQL::Models {
 // Is value type: false
@@ -359,10 +405,16 @@ public:
   // Declarations
   using UserModel = ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("rank", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Rank, put = set_Rank)) ::System::Nullable_1<int64_t> Rank;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("score", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_Score, put = set_Score)) ::System::Nullable_1<int64_t> Score;
 
+  /// [Preserve]
+  /// @brief [JsonProperty("user", NullValueHandling = (Newtonsoft.Json.NullValueHandling)1)]
   __declspec(property(get = get_User, put = set_User)) ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel* User;
 
   /// @brief Field <Rank>k__BackingField, offset 0x28, size 0x10
@@ -398,21 +450,27 @@ public:
   /// @brief Method .ctor, addr 0x32a0f68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Rank, addr 0x32a0f5c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_Rank();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Score, addr 0x32a0f48, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_Score();
 
+  /// [CompilerGenerated]
   /// @brief Method get_User, addr 0x32a0f38, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel* get_User();
 
+  /// [CompilerGenerated]
   /// @brief Method set_Rank, addr 0x32a0f54, size 0x8, virtual false, abstract: false, final false
   inline void set_Rank(::System::Nullable_1<int64_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Score, addr 0x32a0f40, size 0x8, virtual false, abstract: false, final false
   inline void set_Score(::System::Nullable_1<int64_t> value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_User, addr 0x32a0f30, size 0x8, virtual false, abstract: false, final false
   inline void set_User(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel* value);
 
@@ -422,23 +480,26 @@ protected:
   constexpr LeaderboardEntryWithRankModel();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardEntryWithRankModel(LeaderboardEntryWithRankModel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntryWithRankModel", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LeaderboardEntryWithRankModel(LeaderboardEntryWithRankModel const&) = delete;
+  LeaderboardEntryWithRankModel(LeaderboardEntryWithRankModelconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20577 };
 
+  /// [CompilerGenerated]
   /// @brief Field <User>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel* ____User_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Score>k__BackingField, offset: 0x18, size: 0x10, def value: None
   ::System::Nullable_1<int64_t> ____Score_k__BackingField;
 
+  /// [CompilerGenerated]
   /// @brief Field <Rank>k__BackingField, offset: 0x28, size: 0x10, def value: None
   ::System::Nullable_1<int64_t> ____Rank_k__BackingField;
 

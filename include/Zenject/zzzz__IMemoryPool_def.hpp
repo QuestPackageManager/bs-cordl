@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\IMemoryPool.hpp"
+// IWYU pragma private; include "Zenject/IMemoryPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,36 +33,36 @@ public:
 
   __declspec(property(get = get_NumTotal)) int32_t NumTotal;
 
-  /// @brief Method Clear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  /// @brief Method Despawn, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Despawn(::System::Object* obj);
 
-  /// @brief Method ExpandBy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ExpandBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExpandBy(int32_t numToAdd);
 
-  /// @brief Method Resize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resize(int32_t desiredPoolSize);
 
-  /// @brief Method ShrinkBy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method ShrinkBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ShrinkBy(int32_t numToRemove);
 
-  /// @brief Method get_ItemType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ItemType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ItemType();
 
-  /// @brief Method get_NumActive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_NumActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_NumActive();
 
-  /// @brief Method get_NumInactive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_NumInactive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_NumInactive();
 
-  /// @brief Method get_NumTotal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_NumTotal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_NumTotal();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IMemoryPool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IMemoryPool", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IMemoryPool(IMemoryPool const&) = delete;
+  IMemoryPool(IMemoryPoolconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14381 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\GuidArrayHelperWithDictionaryString.hpp"
+// IWYU pragma private; include "System/Xml/GuidArrayHelperWithDictionaryString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/Xml/zzzz__GuidArrayHelperWithDictionaryString_def.hpp"

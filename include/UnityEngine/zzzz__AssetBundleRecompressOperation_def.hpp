@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\AssetBundleRecompressOperation.hpp"
+// IWYU pragma private; include "UnityEngine/AssetBundleRecompressOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -12,6 +12,8 @@ class AssetBundleRecompressOperation;
 // Write type traits
 MARK_REF_T(::UnityEngine::AssetBundleRecompressOperation*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::AssetBundleRecompressOperation*, "UnityEngine", "AssetBundleRecompressOperation");
+// [NativeHeader("Modules/AssetBundle/Public/AssetBundleRecompressOperation.h")]
+// [RequiredByNativeCode]
 // Dependencies UnityEngine.AsyncOperation
 namespace UnityEngine {
 // Is value type: false
@@ -25,13 +27,13 @@ protected:
   constexpr AssetBundleRecompressOperation();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRecompressOperation", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRecompressOperation", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleRecompressOperation(AssetBundleRecompressOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRecompressOperation", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRecompressOperation", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleRecompressOperation(AssetBundleRecompressOperation const&) = delete;
+  AssetBundleRecompressOperation(AssetBundleRecompressOperationconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23095 };

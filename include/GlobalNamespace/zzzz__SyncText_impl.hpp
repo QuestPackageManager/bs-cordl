@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SyncText.hpp"
+// IWYU pragma private; include "GlobalNamespace/SyncText.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SyncText_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"

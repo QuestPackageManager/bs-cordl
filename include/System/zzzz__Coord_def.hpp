@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Coord.hpp"
+// IWYU pragma private; include "System/Coord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // @brief default ctor
   constexpr Coord();
 
-  // Ctor Parameters [CppParam { name: "X", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "Y", ty: "int16_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "X", ty: "int16_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "Y", ty: "int16_t", modifiers: "", def_value: None, comment: None }]
   constexpr Coord(int16_t X, int16_t Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

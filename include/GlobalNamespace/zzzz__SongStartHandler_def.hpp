@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SongStartHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace/SongStartHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,6 +85,7 @@ public:
   /// @brief Method HandleSetSongStartTime, addr 0x32bd7f8, size 0x30, virtual false, abstract: false, final false
   inline void HandleSetSongStartTime(::StringW user, int64_t time);
 
+  /// [Conditional("BG_VERBOSE_LOGGING")]
   /// @brief Method Log, addr 0x32bd828, size 0x5c, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
@@ -141,6 +142,7 @@ public:
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
+  /// [CompilerGenerated]
   /// @brief Method add_setSongStartSyncTimeEvent, addr 0x32bc1f8, size 0xc0, virtual false, abstract: false, final false
   inline void add_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
@@ -150,6 +152,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
+  /// [CompilerGenerated]
   /// @brief Method remove_setSongStartSyncTimeEvent, addr 0x32bc2b8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
@@ -159,13 +162,13 @@ protected:
   constexpr SongStartHandler();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongStartHandler", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongStartHandler", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongStartHandler(SongStartHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongStartHandler", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongStartHandler", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongStartHandler(SongStartHandler const&) = delete;
+  SongStartHandler(SongStartHandlerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18975 };
@@ -191,6 +194,7 @@ public:
   /// @brief Field _startTime, offset: 0x38, size: 0x8, def value: None
   int64_t ____startTime;
 
+  /// [CompilerGenerated]
   /// @brief Field setSongStartSyncTimeEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<int64_t>* ___setSongStartSyncTimeEvent;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AbTestExperimentDefinitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace/AbTestExperimentDefinitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   // @brief default ctor
   constexpr AbTestExperimentDefinitionSO_Group();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr AbTestExperimentDefinitionSO_Group(int32_t value__) noexcept;
 
   /// @brief Field Control value: I32(0)
@@ -190,29 +190,34 @@ protected:
   constexpr AbTestExperimentDefinitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbTestExperimentDefinitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbTestExperimentDefinitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbTestExperimentDefinitionSO(AbTestExperimentDefinitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbTestExperimentDefinitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AbTestExperimentDefinitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AbTestExperimentDefinitionSO(AbTestExperimentDefinitionSO const&) = delete;
+  AbTestExperimentDefinitionSO(AbTestExperimentDefinitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6501 };
 
+  /// [SerializeField]
   /// @brief Field _experimentName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____experimentName;
 
+  /// [SerializeField]
   /// @brief Field _test1GroupSize, offset: 0x20, size: 0x4, def value: None
   float_t ____test1GroupSize;
 
+  /// [SerializeField]
   /// @brief Field _test2GroupSize, offset: 0x24, size: 0x4, def value: None
   float_t ____test2GroupSize;
 
+  /// [SerializeField]
   /// @brief Field _controlGroupSize, offset: 0x28, size: 0x4, def value: None
   float_t ____controlGroupSize;
 
+  /// [SerializeField]
   /// @brief Field _salt, offset: 0x30, size: 0x8, def value: None
   ::StringW ____salt;
 

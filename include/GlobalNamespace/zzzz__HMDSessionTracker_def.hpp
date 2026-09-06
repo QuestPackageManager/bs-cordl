@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\HMDSessionTracker.hpp"
+// IWYU pragma private; include "GlobalNamespace/HMDSessionTracker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,6 +45,7 @@ MARK_REF_T(::GlobalNamespace::HMDSessionTracker*);
 MARK_VAL_T(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::HMDSessionTracker*, "", "HMDSessionTracker");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4, "", "HMDSessionTracker/<InitializeAsync>d__4");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
@@ -58,6 +59,7 @@ public:
   /// @brief Method MoveNext, addr 0x58b1608, size 0x588, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x58b1b90, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -68,9 +70,9 @@ public:
   // @brief default ctor
   constexpr HMDSessionTracker__InitializeAsync_d__4();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::HMDSessionTracker*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::HMDSessionTracker*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr HMDSessionTracker__InitializeAsync_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::HMDSessionTracker* __4__this,
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
@@ -140,6 +142,7 @@ public:
   /// @brief Method Initialize, addr 0x58b0f78, size 0x80, virtual true, abstract: false, final true
   inline void Initialize();
 
+  /// [AsyncStateMachine(typeof(HMDSessionTracker::<InitializeAsync>d__4))]
   /// @brief Method InitializeAsync, addr 0x58b0ff8, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
@@ -175,13 +178,13 @@ protected:
   constexpr HMDSessionTracker();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HMDSessionTracker", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMDSessionTracker", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMDSessionTracker(HMDSessionTracker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HMDSessionTracker", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HMDSessionTracker", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  HMDSessionTracker(HMDSessionTracker const&) = delete;
+  HMDSessionTracker(HMDSessionTrackerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5544 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\ConcreteBinderNonGeneric.hpp"
+// IWYU pragma private; include "Zenject/ConcreteBinderNonGeneric.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,6 +40,7 @@ class ConcreteBinderNonGeneric;
 // Write type traits
 MARK_REF_T(::Zenject::ConcreteBinderNonGeneric*);
 DEFINE_IL2CPP_CLASS(::Zenject::ConcreteBinderNonGeneric*, "Zenject", "ConcreteBinderNonGeneric");
+// [NoReflectionBaking]
 // Dependencies Zenject.FromBinderNonGeneric
 namespace Zenject {
 // Is value type: false
@@ -53,7 +54,7 @@ public:
   template <typename TConcrete> inline ::Zenject::FromBinderNonGeneric* To();
 
   /// @brief Method To, addr 0x6e4a9c8, size 0x4, virtual false, abstract: false, final false
-  inline ::Zenject::FromBinderNonGeneric* To(::ArrayW<::System::Type*> concreteTypes);
+  inline ::Zenject::FromBinderNonGeneric* To(/* [ParamArray] */ ::ArrayW<::System::Type*> concreteTypes);
 
   /// @brief Method To, addr 0x6e4a9cc, size 0x134, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes);
@@ -64,6 +65,7 @@ public:
   /// @brief Method ToSelf, addr 0x6e4a890, size 0x120, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* ToSelf();
 
+  /// [CompilerGenerated]
   /// @brief Method <ToSelf>b__1_0, addr 0x6e4aedc, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _ToSelf_b__1_0(::Zenject::DiContainer* container, ::System::Type* type);
 
@@ -76,13 +78,13 @@ protected:
   constexpr ConcreteBinderNonGeneric();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderNonGeneric", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderNonGeneric", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcreteBinderNonGeneric(ConcreteBinderNonGeneric&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderNonGeneric", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderNonGeneric", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteBinderNonGeneric(ConcreteBinderNonGeneric const&) = delete;
+  ConcreteBinderNonGeneric(ConcreteBinderNonGenericconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14025 };

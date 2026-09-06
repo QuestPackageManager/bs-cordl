@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ICollectionDragAndDropController.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ICollectionDragAndDropController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,9 +40,9 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IReorderable"
   constexpr ::UnityEngine::UIElements::IReorderable* i___UnityEngine__UIElements__IReorderable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ICollectionDragAndDropController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ICollectionDragAndDropController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ICollectionDragAndDropController(ICollectionDragAndDropController const&) = delete;
+  ICollectionDragAndDropController(ICollectionDragAndDropControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4393 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Collections\Specialized\CaseSensitiveStringDictionary.hpp"
+// IWYU pragma private; include "System/Collections/Specialized/CaseSensitiveStringDictionary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ class CaseSensitiveStringDictionary;
 // Write type traits
 MARK_REF_T(::System::Collections::Specialized::CaseSensitiveStringDictionary*);
 DEFINE_IL2CPP_CLASS(::System::Collections::Specialized::CaseSensitiveStringDictionary*, "System.Collections.Specialized", "CaseSensitiveStringDictionary");
+// [DefaultMember("Item")]
 // Dependencies System.Collections.Specialized.StringDictionary
 namespace System::Collections::Specialized {
 // Is value type: false
@@ -34,13 +35,13 @@ protected:
   constexpr CaseSensitiveStringDictionary();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CaseSensitiveStringDictionary", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CaseSensitiveStringDictionary", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CaseSensitiveStringDictionary(CaseSensitiveStringDictionary&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CaseSensitiveStringDictionary", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CaseSensitiveStringDictionary", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CaseSensitiveStringDictionary(CaseSensitiveStringDictionary const&) = delete;
+  CaseSensitiveStringDictionary(CaseSensitiveStringDictionaryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11380 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Mathematics\half4.hpp"
+// IWYU pragma private; include "Unity/Mathematics/half4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,13 +109,13 @@ protected:
   constexpr half4_DebuggerProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "half4_DebuggerProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "half4_DebuggerProxy", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   half4_DebuggerProxy(half4_DebuggerProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "half4_DebuggerProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "half4_DebuggerProxy", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  half4_DebuggerProxy(half4_DebuggerProxy const&) = delete;
+  half4_DebuggerProxy(half4_DebuggerProxyconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13178 };
@@ -146,6 +146,9 @@ static_assert(offsetof(::Unity::Mathematics::half4_DebuggerProxy, ___w) == 0x16,
 static_assert(sizeof(::Unity::Mathematics::half4_DebuggerProxy) == 0x18, "Size mismatch!");
 
 } // namespace Unity::Mathematics
+// [DefaultMember("Item")]
+// [DebuggerTypeProxy(typeof(Unity.Mathematics.half4::DebuggerProxy))]
+// [Il2CppEagerStaticClassConstruction]
 // Dependencies Unity.Mathematics.half
 namespace Unity::Mathematics {
 // Is value type: true
@@ -157,679 +160,1015 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) ::Unity::Mathematics::half Item[];
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ww)) ::Unity::Mathematics::half2 ww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_www)) ::Unity::Mathematics::half3 www;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwww)) ::Unity::Mathematics::half4 wwww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwwx)) ::Unity::Mathematics::half4 wwwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwwy)) ::Unity::Mathematics::half4 wwwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwwz)) ::Unity::Mathematics::half4 wwwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwx)) ::Unity::Mathematics::half3 wwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwxw)) ::Unity::Mathematics::half4 wwxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwxx)) ::Unity::Mathematics::half4 wwxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwxy)) ::Unity::Mathematics::half4 wwxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwxz)) ::Unity::Mathematics::half4 wwxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwy)) ::Unity::Mathematics::half3 wwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwyw)) ::Unity::Mathematics::half4 wwyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwyx)) ::Unity::Mathematics::half4 wwyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwyy)) ::Unity::Mathematics::half4 wwyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwyz)) ::Unity::Mathematics::half4 wwyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwz)) ::Unity::Mathematics::half3 wwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwzw)) ::Unity::Mathematics::half4 wwzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwzx)) ::Unity::Mathematics::half4 wwzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwzy)) ::Unity::Mathematics::half4 wwzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wwzz)) ::Unity::Mathematics::half4 wwzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wx, put = set_wx)) ::Unity::Mathematics::half2 wx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxw)) ::Unity::Mathematics::half3 wxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxww)) ::Unity::Mathematics::half4 wxww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxwx)) ::Unity::Mathematics::half4 wxwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxwy)) ::Unity::Mathematics::half4 wxwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxwz)) ::Unity::Mathematics::half4 wxwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxx)) ::Unity::Mathematics::half3 wxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxxw)) ::Unity::Mathematics::half4 wxxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxxx)) ::Unity::Mathematics::half4 wxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxxy)) ::Unity::Mathematics::half4 wxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxxz)) ::Unity::Mathematics::half4 wxxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxy, put = set_wxy)) ::Unity::Mathematics::half3 wxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxyw)) ::Unity::Mathematics::half4 wxyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxyx)) ::Unity::Mathematics::half4 wxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxyy)) ::Unity::Mathematics::half4 wxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxyz, put = set_wxyz)) ::Unity::Mathematics::half4 wxyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxz, put = set_wxz)) ::Unity::Mathematics::half3 wxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxzw)) ::Unity::Mathematics::half4 wxzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxzx)) ::Unity::Mathematics::half4 wxzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxzy, put = set_wxzy)) ::Unity::Mathematics::half4 wxzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wxzz)) ::Unity::Mathematics::half4 wxzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wy, put = set_wy)) ::Unity::Mathematics::half2 wy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyw)) ::Unity::Mathematics::half3 wyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyww)) ::Unity::Mathematics::half4 wyww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wywx)) ::Unity::Mathematics::half4 wywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wywy)) ::Unity::Mathematics::half4 wywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wywz)) ::Unity::Mathematics::half4 wywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyx, put = set_wyx)) ::Unity::Mathematics::half3 wyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyxw)) ::Unity::Mathematics::half4 wyxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyxx)) ::Unity::Mathematics::half4 wyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyxy)) ::Unity::Mathematics::half4 wyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyxz, put = set_wyxz)) ::Unity::Mathematics::half4 wyxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyy)) ::Unity::Mathematics::half3 wyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyyw)) ::Unity::Mathematics::half4 wyyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyyx)) ::Unity::Mathematics::half4 wyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyyy)) ::Unity::Mathematics::half4 wyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyyz)) ::Unity::Mathematics::half4 wyyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyz, put = set_wyz)) ::Unity::Mathematics::half3 wyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyzw)) ::Unity::Mathematics::half4 wyzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyzx, put = set_wyzx)) ::Unity::Mathematics::half4 wyzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyzy)) ::Unity::Mathematics::half4 wyzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wyzz)) ::Unity::Mathematics::half4 wyzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wz, put = set_wz)) ::Unity::Mathematics::half2 wz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzw)) ::Unity::Mathematics::half3 wzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzww)) ::Unity::Mathematics::half4 wzww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzwx)) ::Unity::Mathematics::half4 wzwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzwy)) ::Unity::Mathematics::half4 wzwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzwz)) ::Unity::Mathematics::half4 wzwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzx, put = set_wzx)) ::Unity::Mathematics::half3 wzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzxw)) ::Unity::Mathematics::half4 wzxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzxx)) ::Unity::Mathematics::half4 wzxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzxy, put = set_wzxy)) ::Unity::Mathematics::half4 wzxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzxz)) ::Unity::Mathematics::half4 wzxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzy, put = set_wzy)) ::Unity::Mathematics::half3 wzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzyw)) ::Unity::Mathematics::half4 wzyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzyx, put = set_wzyx)) ::Unity::Mathematics::half4 wzyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzyy)) ::Unity::Mathematics::half4 wzyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzyz)) ::Unity::Mathematics::half4 wzyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzz)) ::Unity::Mathematics::half3 wzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzzw)) ::Unity::Mathematics::half4 wzzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzzx)) ::Unity::Mathematics::half4 wzzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzzy)) ::Unity::Mathematics::half4 wzzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_wzzz)) ::Unity::Mathematics::half4 wzzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xw, put = set_xw)) ::Unity::Mathematics::half2 xw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xww)) ::Unity::Mathematics::half3 xww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwww)) ::Unity::Mathematics::half4 xwww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwwx)) ::Unity::Mathematics::half4 xwwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwwy)) ::Unity::Mathematics::half4 xwwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwwz)) ::Unity::Mathematics::half4 xwwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwx)) ::Unity::Mathematics::half3 xwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwxw)) ::Unity::Mathematics::half4 xwxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwxx)) ::Unity::Mathematics::half4 xwxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwxy)) ::Unity::Mathematics::half4 xwxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwxz)) ::Unity::Mathematics::half4 xwxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwy, put = set_xwy)) ::Unity::Mathematics::half3 xwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwyw)) ::Unity::Mathematics::half4 xwyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwyx)) ::Unity::Mathematics::half4 xwyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwyy)) ::Unity::Mathematics::half4 xwyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwyz, put = set_xwyz)) ::Unity::Mathematics::half4 xwyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwz, put = set_xwz)) ::Unity::Mathematics::half3 xwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwzw)) ::Unity::Mathematics::half4 xwzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwzx)) ::Unity::Mathematics::half4 xwzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwzy, put = set_xwzy)) ::Unity::Mathematics::half4 xwzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xwzz)) ::Unity::Mathematics::half4 xwzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xx)) ::Unity::Mathematics::half2 xx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxw)) ::Unity::Mathematics::half3 xxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxww)) ::Unity::Mathematics::half4 xxww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxwx)) ::Unity::Mathematics::half4 xxwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxwy)) ::Unity::Mathematics::half4 xxwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxwz)) ::Unity::Mathematics::half4 xxwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxx)) ::Unity::Mathematics::half3 xxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxw)) ::Unity::Mathematics::half4 xxxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxx)) ::Unity::Mathematics::half4 xxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxy)) ::Unity::Mathematics::half4 xxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxxz)) ::Unity::Mathematics::half4 xxxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxy)) ::Unity::Mathematics::half3 xxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyw)) ::Unity::Mathematics::half4 xxyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyx)) ::Unity::Mathematics::half4 xxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyy)) ::Unity::Mathematics::half4 xxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxyz)) ::Unity::Mathematics::half4 xxyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxz)) ::Unity::Mathematics::half3 xxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxzw)) ::Unity::Mathematics::half4 xxzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxzx)) ::Unity::Mathematics::half4 xxzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxzy)) ::Unity::Mathematics::half4 xxzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xxzz)) ::Unity::Mathematics::half4 xxzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xy, put = set_xy)) ::Unity::Mathematics::half2 xy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyw, put = set_xyw)) ::Unity::Mathematics::half3 xyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyww)) ::Unity::Mathematics::half4 xyww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xywx)) ::Unity::Mathematics::half4 xywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xywy)) ::Unity::Mathematics::half4 xywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xywz, put = set_xywz)) ::Unity::Mathematics::half4 xywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyx)) ::Unity::Mathematics::half3 xyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxw)) ::Unity::Mathematics::half4 xyxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxx)) ::Unity::Mathematics::half4 xyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxy)) ::Unity::Mathematics::half4 xyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyxz)) ::Unity::Mathematics::half4 xyxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyy)) ::Unity::Mathematics::half3 xyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyw)) ::Unity::Mathematics::half4 xyyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyx)) ::Unity::Mathematics::half4 xyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyy)) ::Unity::Mathematics::half4 xyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyyz)) ::Unity::Mathematics::half4 xyyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyz, put = set_xyz)) ::Unity::Mathematics::half3 xyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyzw, put = set_xyzw)) ::Unity::Mathematics::half4 xyzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyzx)) ::Unity::Mathematics::half4 xyzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyzy)) ::Unity::Mathematics::half4 xyzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xyzz)) ::Unity::Mathematics::half4 xyzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xz, put = set_xz)) ::Unity::Mathematics::half2 xz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzw, put = set_xzw)) ::Unity::Mathematics::half3 xzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzww)) ::Unity::Mathematics::half4 xzww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzwx)) ::Unity::Mathematics::half4 xzwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzwy, put = set_xzwy)) ::Unity::Mathematics::half4 xzwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzwz)) ::Unity::Mathematics::half4 xzwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzx)) ::Unity::Mathematics::half3 xzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzxw)) ::Unity::Mathematics::half4 xzxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzxx)) ::Unity::Mathematics::half4 xzxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzxy)) ::Unity::Mathematics::half4 xzxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzxz)) ::Unity::Mathematics::half4 xzxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzy, put = set_xzy)) ::Unity::Mathematics::half3 xzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzyw, put = set_xzyw)) ::Unity::Mathematics::half4 xzyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzyx)) ::Unity::Mathematics::half4 xzyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzyy)) ::Unity::Mathematics::half4 xzyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzyz)) ::Unity::Mathematics::half4 xzyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzz)) ::Unity::Mathematics::half3 xzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzzw)) ::Unity::Mathematics::half4 xzzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzzx)) ::Unity::Mathematics::half4 xzzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzzy)) ::Unity::Mathematics::half4 xzzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_xzzz)) ::Unity::Mathematics::half4 xzzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yw, put = set_yw)) ::Unity::Mathematics::half2 yw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yww)) ::Unity::Mathematics::half3 yww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywww)) ::Unity::Mathematics::half4 ywww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywwx)) ::Unity::Mathematics::half4 ywwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywwy)) ::Unity::Mathematics::half4 ywwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywwz)) ::Unity::Mathematics::half4 ywwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywx, put = set_ywx)) ::Unity::Mathematics::half3 ywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywxw)) ::Unity::Mathematics::half4 ywxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywxx)) ::Unity::Mathematics::half4 ywxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywxy)) ::Unity::Mathematics::half4 ywxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywxz, put = set_ywxz)) ::Unity::Mathematics::half4 ywxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywy)) ::Unity::Mathematics::half3 ywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywyw)) ::Unity::Mathematics::half4 ywyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywyx)) ::Unity::Mathematics::half4 ywyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywyy)) ::Unity::Mathematics::half4 ywyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywyz)) ::Unity::Mathematics::half4 ywyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywz, put = set_ywz)) ::Unity::Mathematics::half3 ywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywzw)) ::Unity::Mathematics::half4 ywzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywzx, put = set_ywzx)) ::Unity::Mathematics::half4 ywzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywzy)) ::Unity::Mathematics::half4 ywzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_ywzz)) ::Unity::Mathematics::half4 ywzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yx, put = set_yx)) ::Unity::Mathematics::half2 yx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxw, put = set_yxw)) ::Unity::Mathematics::half3 yxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxww)) ::Unity::Mathematics::half4 yxww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxwx)) ::Unity::Mathematics::half4 yxwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxwy)) ::Unity::Mathematics::half4 yxwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxwz, put = set_yxwz)) ::Unity::Mathematics::half4 yxwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxx)) ::Unity::Mathematics::half3 yxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxw)) ::Unity::Mathematics::half4 yxxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxx)) ::Unity::Mathematics::half4 yxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxy)) ::Unity::Mathematics::half4 yxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxxz)) ::Unity::Mathematics::half4 yxxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxy)) ::Unity::Mathematics::half3 yxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyw)) ::Unity::Mathematics::half4 yxyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyx)) ::Unity::Mathematics::half4 yxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyy)) ::Unity::Mathematics::half4 yxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxyz)) ::Unity::Mathematics::half4 yxyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxz, put = set_yxz)) ::Unity::Mathematics::half3 yxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxzw, put = set_yxzw)) ::Unity::Mathematics::half4 yxzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxzx)) ::Unity::Mathematics::half4 yxzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxzy)) ::Unity::Mathematics::half4 yxzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yxzz)) ::Unity::Mathematics::half4 yxzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yy)) ::Unity::Mathematics::half2 yy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyw)) ::Unity::Mathematics::half3 yyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyww)) ::Unity::Mathematics::half4 yyww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yywx)) ::Unity::Mathematics::half4 yywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yywy)) ::Unity::Mathematics::half4 yywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yywz)) ::Unity::Mathematics::half4 yywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyx)) ::Unity::Mathematics::half3 yyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxw)) ::Unity::Mathematics::half4 yyxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxx)) ::Unity::Mathematics::half4 yyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxy)) ::Unity::Mathematics::half4 yyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyxz)) ::Unity::Mathematics::half4 yyxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyy)) ::Unity::Mathematics::half3 yyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyw)) ::Unity::Mathematics::half4 yyyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyx)) ::Unity::Mathematics::half4 yyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyy)) ::Unity::Mathematics::half4 yyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyyz)) ::Unity::Mathematics::half4 yyyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyz)) ::Unity::Mathematics::half3 yyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyzw)) ::Unity::Mathematics::half4 yyzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyzx)) ::Unity::Mathematics::half4 yyzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyzy)) ::Unity::Mathematics::half4 yyzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yyzz)) ::Unity::Mathematics::half4 yyzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yz, put = set_yz)) ::Unity::Mathematics::half2 yz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzw, put = set_yzw)) ::Unity::Mathematics::half3 yzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzww)) ::Unity::Mathematics::half4 yzww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzwx, put = set_yzwx)) ::Unity::Mathematics::half4 yzwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzwy)) ::Unity::Mathematics::half4 yzwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzwz)) ::Unity::Mathematics::half4 yzwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzx, put = set_yzx)) ::Unity::Mathematics::half3 yzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzxw, put = set_yzxw)) ::Unity::Mathematics::half4 yzxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzxx)) ::Unity::Mathematics::half4 yzxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzxy)) ::Unity::Mathematics::half4 yzxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzxz)) ::Unity::Mathematics::half4 yzxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzy)) ::Unity::Mathematics::half3 yzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzyw)) ::Unity::Mathematics::half4 yzyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzyx)) ::Unity::Mathematics::half4 yzyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzyy)) ::Unity::Mathematics::half4 yzyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzyz)) ::Unity::Mathematics::half4 yzyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzz)) ::Unity::Mathematics::half3 yzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzzw)) ::Unity::Mathematics::half4 yzzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzzx)) ::Unity::Mathematics::half4 yzzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzzy)) ::Unity::Mathematics::half4 yzzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_yzzz)) ::Unity::Mathematics::half4 yzzz;
 
   /// @brief Field zero, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_zero, put = setStaticF_zero)) ::Unity::Mathematics::half4 zero;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zw, put = set_zw)) ::Unity::Mathematics::half2 zw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zww)) ::Unity::Mathematics::half3 zww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwww)) ::Unity::Mathematics::half4 zwww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwwx)) ::Unity::Mathematics::half4 zwwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwwy)) ::Unity::Mathematics::half4 zwwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwwz)) ::Unity::Mathematics::half4 zwwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwx, put = set_zwx)) ::Unity::Mathematics::half3 zwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwxw)) ::Unity::Mathematics::half4 zwxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwxx)) ::Unity::Mathematics::half4 zwxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwxy, put = set_zwxy)) ::Unity::Mathematics::half4 zwxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwxz)) ::Unity::Mathematics::half4 zwxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwy, put = set_zwy)) ::Unity::Mathematics::half3 zwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwyw)) ::Unity::Mathematics::half4 zwyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwyx, put = set_zwyx)) ::Unity::Mathematics::half4 zwyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwyy)) ::Unity::Mathematics::half4 zwyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwyz)) ::Unity::Mathematics::half4 zwyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwz)) ::Unity::Mathematics::half3 zwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwzw)) ::Unity::Mathematics::half4 zwzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwzx)) ::Unity::Mathematics::half4 zwzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwzy)) ::Unity::Mathematics::half4 zwzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zwzz)) ::Unity::Mathematics::half4 zwzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zx, put = set_zx)) ::Unity::Mathematics::half2 zx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxw, put = set_zxw)) ::Unity::Mathematics::half3 zxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxww)) ::Unity::Mathematics::half4 zxww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxwx)) ::Unity::Mathematics::half4 zxwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxwy, put = set_zxwy)) ::Unity::Mathematics::half4 zxwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxwz)) ::Unity::Mathematics::half4 zxwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxx)) ::Unity::Mathematics::half3 zxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxxw)) ::Unity::Mathematics::half4 zxxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxxx)) ::Unity::Mathematics::half4 zxxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxxy)) ::Unity::Mathematics::half4 zxxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxxz)) ::Unity::Mathematics::half4 zxxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxy, put = set_zxy)) ::Unity::Mathematics::half3 zxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxyw, put = set_zxyw)) ::Unity::Mathematics::half4 zxyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxyx)) ::Unity::Mathematics::half4 zxyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxyy)) ::Unity::Mathematics::half4 zxyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxyz)) ::Unity::Mathematics::half4 zxyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxz)) ::Unity::Mathematics::half3 zxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxzw)) ::Unity::Mathematics::half4 zxzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxzx)) ::Unity::Mathematics::half4 zxzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxzy)) ::Unity::Mathematics::half4 zxzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zxzz)) ::Unity::Mathematics::half4 zxzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zy, put = set_zy)) ::Unity::Mathematics::half2 zy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyw, put = set_zyw)) ::Unity::Mathematics::half3 zyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyww)) ::Unity::Mathematics::half4 zyww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zywx, put = set_zywx)) ::Unity::Mathematics::half4 zywx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zywy)) ::Unity::Mathematics::half4 zywy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zywz)) ::Unity::Mathematics::half4 zywz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyx, put = set_zyx)) ::Unity::Mathematics::half3 zyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyxw, put = set_zyxw)) ::Unity::Mathematics::half4 zyxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyxx)) ::Unity::Mathematics::half4 zyxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyxy)) ::Unity::Mathematics::half4 zyxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyxz)) ::Unity::Mathematics::half4 zyxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyy)) ::Unity::Mathematics::half3 zyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyyw)) ::Unity::Mathematics::half4 zyyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyyx)) ::Unity::Mathematics::half4 zyyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyyy)) ::Unity::Mathematics::half4 zyyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyyz)) ::Unity::Mathematics::half4 zyyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyz)) ::Unity::Mathematics::half3 zyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyzw)) ::Unity::Mathematics::half4 zyzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyzx)) ::Unity::Mathematics::half4 zyzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyzy)) ::Unity::Mathematics::half4 zyzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zyzz)) ::Unity::Mathematics::half4 zyzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zz)) ::Unity::Mathematics::half2 zz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzw)) ::Unity::Mathematics::half3 zzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzww)) ::Unity::Mathematics::half4 zzww;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzwx)) ::Unity::Mathematics::half4 zzwx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzwy)) ::Unity::Mathematics::half4 zzwy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzwz)) ::Unity::Mathematics::half4 zzwz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzx)) ::Unity::Mathematics::half3 zzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzxw)) ::Unity::Mathematics::half4 zzxw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzxx)) ::Unity::Mathematics::half4 zzxx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzxy)) ::Unity::Mathematics::half4 zzxy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzxz)) ::Unity::Mathematics::half4 zzxz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzy)) ::Unity::Mathematics::half3 zzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzyw)) ::Unity::Mathematics::half4 zzyw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzyx)) ::Unity::Mathematics::half4 zzyx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzyy)) ::Unity::Mathematics::half4 zzyy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzyz)) ::Unity::Mathematics::half4 zzyz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzz)) ::Unity::Mathematics::half3 zzz;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzzw)) ::Unity::Mathematics::half4 zzzw;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzzx)) ::Unity::Mathematics::half4 zzzx;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzzy)) ::Unity::Mathematics::half4 zzzy;
 
+  /// @brief [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   __declspec(property(get = get_zzzz)) ::Unity::Mathematics::half4 zzzz;
 
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Mathematics::half4>"
@@ -2133,8 +2472,9 @@ public:
   // @brief default ctor
   constexpr half4();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "::Unity::Mathematics::half", modifiers: "", def_value: None }, CppParam { name: "y", ty: "::Unity::Mathematics::half", modifiers: "", def_value: None
-  // }, CppParam { name: "z", ty: "::Unity::Mathematics::half", modifiers: "", def_value: None }, CppParam { name: "w", ty: "::Unity::Mathematics::half", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "::Unity::Mathematics::half", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "::Unity::Mathematics::half", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "z", ty: "::Unity::Mathematics::half", modifiers: "", def_value: None, comment: None }, CppParam { name: "w", ty: "::Unity::Mathematics::half",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr half4(::Unity::Mathematics::half x, ::Unity::Mathematics::half y, ::Unity::Mathematics::half z, ::Unity::Mathematics::half w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

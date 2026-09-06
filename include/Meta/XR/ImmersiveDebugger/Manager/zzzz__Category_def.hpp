@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\Category.hpp"
+// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/Category.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,8 +66,8 @@ public:
   // @brief default ctor
   constexpr Category();
 
-  // Ctor Parameters [CppParam { name: "Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Item", ty: "::Meta::XR::ImmersiveDebugger::Hierarchy::Item*", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "Id", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "Item", ty: "::Meta::XR::ImmersiveDebugger::Hierarchy::Item*",
+  // modifiers: "", def_value: None, comment: None }]
   constexpr Category(::StringW Id, ::Meta::XR::ImmersiveDebugger::Hierarchy::Item* Item) noexcept;
 
   /// @brief Field DefaultCategoryName offset 0xffffffff size 0x8

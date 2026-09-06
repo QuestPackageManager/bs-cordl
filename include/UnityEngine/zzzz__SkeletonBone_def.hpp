@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SkeletonBone.hpp"
+// IWYU pragma private; include "UnityEngine/SkeletonBone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,9 @@ struct SkeletonBone;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SkeletonBone);
 DEFINE_IL2CPP_CLASS(::UnityEngine::SkeletonBone, "UnityEngine", "SkeletonBone");
+// [NativeHeader("Modules/Animation/HumanDescription.h")]
+// [RequiredByNativeCode]
+// [NativeType((UnityEngine.Bindings.CodegenOptions)1, "MonoSkeletonBone")]
 // Dependencies UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -26,9 +29,9 @@ public:
   // @brief default ctor
   constexpr SkeletonBone();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "parentName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name:
-  // "scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "parentName", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }]
   constexpr SkeletonBone(::StringW name, ::StringW parentName, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -37,18 +40,23 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
+  /// [NativeName("m_Name")]
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
   ::StringW name;
 
+  /// [NativeName("m_ParentName")]
   /// @brief Field parentName, offset: 0x8, size: 0x8, def value: None
   ::StringW parentName;
 
+  /// [NativeName("m_Position")]
   /// @brief Field position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;
 
+  /// [NativeName("m_Rotation")]
   /// @brief Field rotation, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Quaternion rotation;
 
+  /// [NativeName("m_Scale")]
   /// @brief Field scale, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 scale;
 

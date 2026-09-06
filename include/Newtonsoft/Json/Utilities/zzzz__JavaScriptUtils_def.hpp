@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\JavaScriptUtils.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/JavaScriptUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,9 @@ namespace System {
 struct DateTime;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -76,6 +78,7 @@ DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinit
                     "JavaScriptUtils/<WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync>d__16");
 DEFINE_IL2CPP_CLASS(::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13, "Newtonsoft.Json.Utilities",
                     "JavaScriptUtils/<WriteEscapedJavaScriptStringWithDelimitersAsync>d__13");
+// [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
@@ -89,8 +92,9 @@ public:
   /// @brief Method MoveNext, addr 0x5d2c2ac, size 0x2a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5d2c554, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -99,11 +103,11 @@ public:
   // @brief default ctor
   constexpr JavaScriptUtils__WriteCharAsync_d__14();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None
-  // }, CppParam { name: "writer", ty: "::System::IO::TextWriter*", modifiers: "", def_value: None }, CppParam { name: "c", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "writer", ty: "::System::IO::TextWriter*", modifiers: "", def_value: None, comment: None }, CppParam { name: "c", ty: "char16_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1",
+  // ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JavaScriptUtils__WriteCharAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* task,
                                                   ::System::IO::TextWriter* writer, char16_t c, ::System::Threading::CancellationToken cancellationToken,
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
@@ -120,9 +124,11 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field task, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* task;
 
+  /// [Nullable(0)]
   /// @brief Field writer, offset: 0x28, size: 0x8, def value: None
   ::System::IO::TextWriter* writer;
 
@@ -155,6 +161,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteChar
 static_assert(sizeof(::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14) == 0x50, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.StringEscapeHandling, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json::Utilities {
@@ -169,8 +176,9 @@ public:
   /// @brief Method MoveNext, addr 0x5d2c5c0, size 0x9b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5d2cf78, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -179,15 +187,16 @@ public:
   // @brief default ctor
   constexpr JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "writeBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None },
-  // CppParam { name: "lastWritePosition", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "client", ty: "::Newtonsoft::Json::JsonTextWriter*", modifiers: "", def_value: None },
-  // CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "writer", ty: "::System::IO::TextWriter*", modifiers: "", def_value: None }, CppParam { name:
-  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "charEscapeFlags", ty: "::ArrayW<bool>", modifiers: "", def_value: None },
-  // CppParam { name: "stringEscapeHandling", ty: "::Newtonsoft::Json::StringEscapeHandling", modifiers: "", def_value: None }, CppParam { name: "_isEscapedUnicodeText_5__2", ty: "bool", modifiers:
-  // "", def_value: None }, CppParam { name: "_escapedValue_5__3", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_i_5__4", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "writeBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "lastWritePosition", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "client", ty: "::Newtonsoft::Json::JsonTextWriter*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "writer", ty:
+  // "::System::IO::TextWriter*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "charEscapeFlags", ty: "::ArrayW<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "stringEscapeHandling", ty:
+  // "::Newtonsoft::Json::StringEscapeHandling", modifiers: "", def_value: None, comment: None }, CppParam { name: "_isEscapedUnicodeText_5__2", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "_escapedValue_5__3", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "_i_5__4", ty: "int32_t", modifiers: "",
+  // def_value: None, comment: None }]
   constexpr JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                 ::ArrayW<char16_t> writeBuffer, int32_t lastWritePosition, ::Newtonsoft::Json::JsonTextWriter* client,
                                                                                                 ::StringW s, ::System::IO::TextWriter* writer, ::System::Threading::CancellationToken cancellationToken,
@@ -208,24 +217,29 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field writeBuffer, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<char16_t> writeBuffer;
 
   /// @brief Field lastWritePosition, offset: 0x28, size: 0x4, def value: None
   int32_t lastWritePosition;
 
+  /// [Nullable(0)]
   /// @brief Field client, offset: 0x30, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextWriter* client;
 
+  /// [Nullable(0)]
   /// @brief Field s, offset: 0x38, size: 0x8, def value: None
   ::StringW s;
 
+  /// [Nullable(0)]
   /// @brief Field writer, offset: 0x40, size: 0x8, def value: None
   ::System::IO::TextWriter* writer;
 
   /// @brief Field cancellationToken, offset: 0x48, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
+  /// [Nullable(0)]
   /// @brief Field charEscapeFlags, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<bool> charEscapeFlags;
 
@@ -235,6 +249,7 @@ public:
   /// @brief Field <isEscapedUnicodeText>5__2, offset: 0x5c, size: 0x1, def value: None
   bool _isEscapedUnicodeText_5__2;
 
+  /// [Nullable(0)]
   /// @brief Field <escapedValue>5__3, offset: 0x60, size: 0x8, def value: None
   ::StringW _escapedValue_5__3;
 
@@ -278,6 +293,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefi
 static_assert(sizeof(::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16) == 0x80, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [CompilerGenerated]
 // Dependencies Newtonsoft.Json.StringEscapeHandling, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
 // System.Threading.CancellationToken
 namespace Newtonsoft::Json::Utilities {
@@ -292,8 +308,9 @@ public:
   /// @brief Method MoveNext, addr 0x5d2cfe4, size 0x394, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5d2d378, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
@@ -302,13 +319,14 @@ public:
   // @brief default ctor
   constexpr JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None
-  // }, CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "writer", ty: "::System::IO::TextWriter*", modifiers: "", def_value: None }, CppParam { name:
-  // "charEscapeFlags", ty: "::ArrayW<bool>", modifiers: "", def_value: None }, CppParam { name: "stringEscapeHandling", ty: "::Newtonsoft::Json::StringEscapeHandling", modifiers: "", def_value: None
-  // }, CppParam { name: "client", ty: "::Newtonsoft::Json::JsonTextWriter*", modifiers: "", def_value: None }, CppParam { name: "writeBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None
-  // }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "delimiter", ty: "char16_t", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "writer", ty: "::System::IO::TextWriter*", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "charEscapeFlags", ty: "::ArrayW<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "stringEscapeHandling", ty:
+  // "::Newtonsoft::Json::StringEscapeHandling", modifiers: "", def_value: None, comment: None }, CppParam { name: "client", ty: "::Newtonsoft::Json::JsonTextWriter*", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "writeBuffer", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None, comment: None }, CppParam { name: "delimiter", ty: "char16_t", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                    ::System::Threading::Tasks::Task* task, ::StringW s, ::System::IO::TextWriter* writer,
                                                                                    ::ArrayW<bool> charEscapeFlags, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling,
@@ -328,24 +346,30 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
+  /// [Nullable(0)]
   /// @brief Field task, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* task;
 
+  /// [Nullable(0)]
   /// @brief Field s, offset: 0x28, size: 0x8, def value: None
   ::StringW s;
 
+  /// [Nullable(0)]
   /// @brief Field writer, offset: 0x30, size: 0x8, def value: None
   ::System::IO::TextWriter* writer;
 
+  /// [Nullable(0)]
   /// @brief Field charEscapeFlags, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<bool> charEscapeFlags;
 
   /// @brief Field stringEscapeHandling, offset: 0x40, size: 0x4, def value: None
   ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling;
 
+  /// [Nullable(0)]
   /// @brief Field client, offset: 0x48, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonTextWriter* client;
 
+  /// [Nullable(0)]
   /// @brief Field writeBuffer, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<char16_t> writeBuffer;
 
@@ -388,6 +412,8 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEsca
 static_assert(sizeof(::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13) == 0x78, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
@@ -417,21 +443,25 @@ public:
   static inline ::ArrayW<bool> GetCharEscapeFlags(::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, char16_t quoteChar);
 
   /// @brief Method ShouldEscapeJavaScriptString, addr 0x5d2ab4c, size 0x58, virtual false, abstract: false, final false
-  static inline bool ShouldEscapeJavaScriptString(::StringW s, ::ArrayW<bool> charEscapeFlags);
+  static inline bool ShouldEscapeJavaScriptString(/* [Nullable(2)] */ ::StringW s, ::ArrayW<bool> charEscapeFlags);
 
   /// @brief Method ToEscapedJavaScriptString, addr 0x5d2b268, size 0x1dc, virtual false, abstract: false, final false
-  static inline ::StringW ToEscapedJavaScriptString(::StringW value, char16_t delimiter, bool appendDelimiters, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
+  static inline ::StringW ToEscapedJavaScriptString(/* [Nullable(2)] */ ::StringW value, char16_t delimiter, bool appendDelimiters, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
 
   /// @brief Method TryGetDateConstructorValue, addr 0x5d2c0f8, size 0x1b4, virtual false, abstract: false, final false
-  static inline bool TryGetDateConstructorValue(::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Nullable_1<int64_t>> integer, ::by_ref<::StringW> errorMessage);
+  static inline bool TryGetDateConstructorValue(::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::Nullable_1<int64_t>> integer,
+                                                /* [Nullable(2)] [NotNullWhen(false)] */ ::by_ref<::StringW> errorMessage);
 
   /// @brief Method TryGetDateFromConstructorJson, addr 0x5d2bc60, size 0x498, virtual false, abstract: false, final false
-  static inline bool TryGetDateFromConstructorJson(::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::DateTime> dateTime, ::by_ref<::StringW> errorMessage);
+  static inline bool TryGetDateFromConstructorJson(::Newtonsoft::Json::JsonReader* reader, ::by_ref<::System::DateTime> dateTime,
+                                                   /* [Nullable(2)] [NotNullWhen(false)] */ ::by_ref<::StringW> errorMessage);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.Utilities.JavaScriptUtils::<WriteCharAsync>d__14))]
   /// @brief Method WriteCharAsync, addr 0x5d2ba7c, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteCharAsync(::System::Threading::Tasks::Task* task, ::System::IO::TextWriter* writer, char16_t c,
                                                                  ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.Utilities.JavaScriptUtils::<WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync>d__16))]
   /// @brief Method WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync, addr 0x5d2bb58, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync(::System::IO::TextWriter* writer, ::StringW s, int32_t lastWritePosition,
                                                                                                                ::ArrayW<bool> charEscapeFlags,
@@ -439,10 +469,11 @@ public:
                                                                                                                ::Newtonsoft::Json::JsonTextWriter* client, ::ArrayW<char16_t> writeBuffer,
                                                                                                                ::System::Threading::CancellationToken cancellationToken);
 
+  /// [NullableContext(2)]
   /// @brief Method WriteEscapedJavaScriptString, addr 0x5d2aba4, size 0x62c, virtual false, abstract: false, final false
-  static inline void WriteEscapedJavaScriptString(::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter, bool appendDelimiters, ::ArrayW<bool> charEscapeFlags,
-                                                  ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool,
-                                                  ::by_ref<::ArrayW<char16_t>> writeBuffer);
+  static inline void WriteEscapedJavaScriptString(/* [Nullable(1)] */ ::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter, bool appendDelimiters,
+                                                  /* [Nullable(1)] */ ::ArrayW<bool> charEscapeFlags, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling,
+                                                  ::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::by_ref<::ArrayW<char16_t>> writeBuffer);
 
   /// @brief Method WriteEscapedJavaScriptStringAsync, addr 0x5d2b444, size 0x1f4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteEscapedJavaScriptStringAsync(::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter, bool appendDelimiters,
@@ -450,6 +481,7 @@ public:
                                                                                     ::Newtonsoft::Json::JsonTextWriter* client, ::ArrayW<char16_t> writeBuffer,
                                                                                     ::System::Threading::CancellationToken cancellationToken);
 
+  /// [AsyncStateMachine(typeof(Newtonsoft.Json.Utilities.JavaScriptUtils::<WriteEscapedJavaScriptStringWithDelimitersAsync>d__13))]
   /// @brief Method WriteEscapedJavaScriptStringWithDelimitersAsync, addr 0x5d2b968, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteEscapedJavaScriptStringWithDelimitersAsync(::System::Threading::Tasks::Task* task, ::System::IO::TextWriter* writer, ::StringW s,
                                                                                                   char16_t delimiter, ::ArrayW<bool> charEscapeFlags,
@@ -487,13 +519,13 @@ protected:
   constexpr JavaScriptUtils();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JavaScriptUtils", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JavaScriptUtils", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JavaScriptUtils(JavaScriptUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JavaScriptUtils", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JavaScriptUtils", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JavaScriptUtils(JavaScriptUtils const&) = delete;
+  JavaScriptUtils(JavaScriptUtilsconst&) = delete;
 
   /// @brief Field EscapedUnicodeText offset 0xffffffff size 0x8
   static constexpr ::ConstString EscapedUnicodeText{ u"!" };

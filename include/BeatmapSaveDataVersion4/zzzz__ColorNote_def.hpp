@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4\ColorNote.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4/ColorNote.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,9 +26,9 @@ public:
   // @brief default ctor
   constexpr ColorNote();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "c", ty: "::BeatmapSaveDataCommon::NoteColorType", modifiers: "", def_value: None }, CppParam { name: "d", ty:
-  // "::BeatmapSaveDataCommon::NoteCutDirection", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "a", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "c", ty: "::BeatmapSaveDataCommon::NoteColorType", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::NoteCutDirection", modifiers: "", def_value: None, comment: None }]
   constexpr ColorNote(int32_t x, int32_t y, int32_t a, ::BeatmapSaveDataCommon::NoteColorType c, ::BeatmapSaveDataCommon::NoteCutDirection d) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

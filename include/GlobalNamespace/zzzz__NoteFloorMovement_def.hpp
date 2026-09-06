@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\NoteFloorMovement.hpp"
+// IWYU pragma private; include "GlobalNamespace/NoteFloorMovement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,6 +33,7 @@ class NoteFloorMovement;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::NoteFloorMovement*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::NoteFloorMovement*, "", "NoteFloorMovement");
+// [AddComponentMenu("Beat Saber/Gameplay/NoteFloorMovement")]
 // Dependencies UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
@@ -184,26 +185,30 @@ protected:
   constexpr NoteFloorMovement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteFloorMovement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteFloorMovement", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteFloorMovement(NoteFloorMovement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteFloorMovement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteFloorMovement", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NoteFloorMovement(NoteFloorMovement const&) = delete;
+  NoteFloorMovement(NoteFloorMovementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5689 };
 
+  /// [SerializeField]
   /// @brief Field _rotatedObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____rotatedObject;
 
+  /// [Inject]
   /// @brief Field _playerTransforms, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
+  /// [Inject]
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
 
+  /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
 

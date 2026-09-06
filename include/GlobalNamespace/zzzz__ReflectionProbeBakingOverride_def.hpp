@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\ReflectionProbeBakingOverride.hpp"
+// IWYU pragma private; include "GlobalNamespace/ReflectionProbeBakingOverride.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   // @brief default ctor
   constexpr ReflectionProbeBakingOverride_ActiveStateHandling();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ReflectionProbeBakingOverride_ActiveStateHandling(int32_t value__) noexcept;
 
   /// @brief Field Disable value: I32(2)
@@ -168,35 +168,45 @@ protected:
   constexpr ReflectionProbeBakingOverride();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingOverride", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingOverride", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionProbeBakingOverride(ReflectionProbeBakingOverride&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingOverride", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeBakingOverride", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionProbeBakingOverride(ReflectionProbeBakingOverride const&) = delete;
+  ReflectionProbeBakingOverride(ReflectionProbeBakingOverrideconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6540 };
 
+  /// [SerializeField]
   /// @brief Field _stateHandling, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling ____stateHandling;
 
+  /// [SerializeField]
   /// @brief Field _setPosition, offset: 0x24, size: 0x1, def value: None
   bool ____setPosition;
 
+  /// [SerializeField]
+  /// [DrawIf("_setPosition", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _localPosition, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localPosition;
 
+  /// [SerializeField]
   /// @brief Field _setRotation, offset: 0x34, size: 0x1, def value: None
   bool ____setRotation;
 
+  /// [SerializeField]
+  /// [DrawIf("_setRotation", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _localRotation, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localRotation;
 
+  /// [SerializeField]
   /// @brief Field _setScale, offset: 0x44, size: 0x1, def value: None
   bool ____setScale;
 
+  /// [SerializeField]
+  /// [DrawIf("_setScale", true, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _localScale, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localScale;
 

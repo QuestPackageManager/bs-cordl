@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\StyleValueType.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/StyleValueType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,6 +13,7 @@ struct StyleValueType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleValueType);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::StyleValueType, "UnityEngine.UIElements", "StyleValueType");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -54,7 +55,7 @@ public:
   // @brief default ctor
   constexpr StyleValueType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr StyleValueType(int32_t value__) noexcept;
 
   /// @brief Field AssetReference value: I32(6)

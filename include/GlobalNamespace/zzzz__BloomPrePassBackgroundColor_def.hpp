@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundColor.hpp"
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,26 +136,31 @@ protected:
   constexpr BloomPrePassBackgroundColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundColor(BloomPrePassBackgroundColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundColor(BloomPrePassBackgroundColor const&) = delete;
+  BloomPrePassBackgroundColor(BloomPrePassBackgroundColorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19447 };
 
+  /// [SerializeField]
   /// @brief Field _intensity, offset: 0x28, size: 0x4, def value: None
   float_t ____intensity;
 
+  /// [SerializeField]
   /// @brief Field _minAlpha, offset: 0x2c, size: 0x4, def value: None
   float_t ____minAlpha;
 
+  /// [SerializeField]
   /// @brief Field _grayscaleFactor, offset: 0x30, size: 0x4, def value: None
   float_t ____grayscaleFactor;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _shader, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____shader;
 

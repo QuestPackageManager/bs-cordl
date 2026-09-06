@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlTrackController.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlTrackController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectControlTrackController_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
@@ -20,7 +20,7 @@
 #include "UnityEngine/VFX/zzzz__VisualEffectControlTrack_def.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectPlayableSerializedEvent_def.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffect_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType::Event_VisualEffectControlTrackController_ClipType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -29,9 +29,10 @@ constexpr ::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType:
 constexpr ::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType::Enter{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType::Exit{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "nameId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "attribute", ty: "::UnityEngine::VFX::VFXEventAttribute*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "clipIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "clipType", ty: "::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "nameId", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "attribute", ty: "::UnityEngine::VFX::VFXEventAttribute*",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clipIndex", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clipType", ty: "::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType", modifiers: "", def_value:
+// Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::VisualEffectControlTrackController_Event::VisualEffectControlTrackController_Event(
     int32_t nameId, ::UnityEngine::VFX::VFXEventAttribute* attribute, double_t time, int32_t clipIndex, ::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType clipType) noexcept {
   this->nameId = nameId;
@@ -42,20 +43,21 @@ constexpr ::UnityEngine::VFX::VisualEffectControlTrackController_Event::VisualEf
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::VFX::VisualEffectControlTrackController_Event::VisualEffectControlTrackController_Event() {}
-// Ctor Parameters [CppParam { name: "enter", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "exit", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "enter", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "exit", ty: "int32_t", modifiers: "", def_value: Some("{}"),
+// comment: None }]
 constexpr ::UnityEngine::VFX::VisualEffectControlTrackController_Clip::VisualEffectControlTrackController_Clip(int32_t enter, int32_t exit) noexcept {
   this->enter = enter;
   this->exit = exit;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::VFX::VisualEffectControlTrackController_Clip::VisualEffectControlTrackController_Clip() {}
-// Ctor Parameters [CppParam { name: "scrubbing", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "reinitEnter", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "reinitExit", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "startSeed", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "begin", ty:
-// "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "end", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prewarmCount", ty: "uint32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "prewarmDeltaTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "prewarmOffset", ty: "double_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "prewarmEvent", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "events", ty:
-// "::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Event>", modifiers: "", def_value: Some("{}") }, CppParam { name: "clips", ty:
-// "::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Clip>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "scrubbing", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reinitEnter", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "reinitExit", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "startSeed", ty: "uint32_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "begin", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "end", ty: "double_t", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "prewarmCount", ty: "uint32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prewarmDeltaTime", ty: "float_t", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "prewarmOffset", ty: "double_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "prewarmEvent", ty: "int32_t",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "events", ty: "::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Event>", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "clips", ty: "::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Clip>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::VFX::VisualEffectControlTrackController_Chunk::VisualEffectControlTrackController_Chunk(bool scrubbing, bool reinitEnter, bool reinitExit, uint32_t startSeed, double_t begin,
                                                                                                                  double_t end, uint32_t prewarmCount, float_t prewarmDeltaTime, double_t prewarmOffset,
                                                                                                                  int32_t prewarmEvent,
@@ -219,8 +221,9 @@ inline void UnityEngine::VFX::VisualEffectControlTrackController___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackController___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline int32_t UnityEngine::VFX::VisualEffectControlTrackController___c::_Init_b__24_1(::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> x,
-                                                                                       ::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> y) {
+inline int32_t UnityEngine::VFX::VisualEffectControlTrackController___c::_Init_b__24_1(
+    /* [TupleElementNames(new[] { "evt", "sourceIndex" })] */ ::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> x,
+    /* [TupleElementNames(new[] { "evt", "sourceIndex" })] */ ::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> y) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlTrackController___c*>(),
                                                            { "<Init>b__24_1",
@@ -529,6 +532,7 @@ inline ::System::Collections::IEnumerator* UnityEngine::VFX::VisualEffectControl
                                                                                          { "System.Collections.IEnumerable.GetEnumerator", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21*
 UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21*>(__1__state));

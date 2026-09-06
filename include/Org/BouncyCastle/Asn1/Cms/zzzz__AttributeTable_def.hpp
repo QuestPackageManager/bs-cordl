@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\AttributeTable.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/AttributeTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,6 +37,7 @@ class AttributeTable;
 // Write type traits
 MARK_REF_T(::Org::BouncyCastle::Asn1::Cms::AttributeTable*);
 DEFINE_IL2CPP_CLASS(::Org::BouncyCastle::Asn1::Cms::AttributeTable*, "Org.BouncyCastle.Asn1.Cms", "AttributeTable");
+// [DefaultMember("Item")]
 // Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
@@ -57,6 +58,7 @@ public:
   /// @brief Method AddAttribute, addr 0x3352e18, size 0x35c, virtual false, abstract: false, final false
   inline void AddAttribute(::Org::BouncyCastle::Asn1::Cms::Attribute* a);
 
+  /// [Obsolete("Use \'object[oid]\' syntax instead")]
   /// @brief Method Get, addr 0x335347c, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attribute* Get(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
@@ -65,6 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Cms::Attributes* attrs);
 
+  /// @brief [Obsolete]
   static inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* New_ctor(::System::Collections::Hashtable* attrs);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* New_ctor(::System::Collections::IDictionary* attrs);
@@ -85,6 +88,7 @@ public:
   /// @brief Method ToDictionary, addr 0x3353d84, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* ToDictionary();
 
+  /// [Obsolete("Use \'ToDictionary\' instead")]
   /// @brief Method ToHashtable, addr 0x3353de4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* ToHashtable();
 
@@ -97,6 +101,7 @@ public:
   /// @brief Method .ctor, addr 0x335325c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::Attributes* attrs);
 
+  /// [Obsolete]
   /// @brief Method .ctor, addr 0x3352a50, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* attrs);
 
@@ -121,13 +126,13 @@ protected:
   constexpr AttributeTable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeTable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttributeTable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AttributeTable(AttributeTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AttributeTable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AttributeTable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AttributeTable(AttributeTable const&) = delete;
+  AttributeTable(AttributeTableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 57 };

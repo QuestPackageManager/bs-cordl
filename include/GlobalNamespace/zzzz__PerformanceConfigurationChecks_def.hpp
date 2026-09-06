@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\PerformanceConfigurationChecks.hpp"
+// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationChecks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,7 +91,8 @@ public:
   // @brief default ctor
   constexpr PerformanceConfigurationChecks_Mismatch();
 
-  // Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "frames", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "frames", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }]
   constexpr PerformanceConfigurationChecks_Mismatch(::StringW message, int32_t frames) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -127,9 +128,9 @@ public:
   // @brief default ctor
   constexpr PerformanceConfigurationChecks_AppConfig();
 
-  // Ctor Parameters [CppParam { name: "targetFrameRate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "systemLanguage", ty: "::UnityEngine::SystemLanguage", modifiers: "",
-  // def_value: None }, CppParam { name: "runInBackground", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "backgroundLoadingPriority", ty: "::UnityEngine::ThreadPriority", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "targetFrameRate", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "systemLanguage", ty: "::UnityEngine::SystemLanguage",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "runInBackground", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "backgroundLoadingPriority", ty:
+  // "::UnityEngine::ThreadPriority", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceConfigurationChecks_AppConfig(int32_t targetFrameRate, ::UnityEngine::SystemLanguage systemLanguage, bool runInBackground,
                                                      ::UnityEngine::ThreadPriority backgroundLoadingPriority) noexcept;
 
@@ -176,12 +177,13 @@ public:
   // @brief default ctor
   constexpr PerformanceConfigurationChecks_XRConfig();
 
-  // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDeviceActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "loadedDeviceName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "stereoRenderingMode", ty: "::UnityEngine::XR::XRSettings_StereoRenderingMode", modifiers: "", def_value:
-  // None }, CppParam { name: "eyeTextureWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "eyeTextureHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "eyeTextureResolutionScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "deviceEyeTextureDimension", ty: "::UnityEngine::Rendering::TextureDimension", modifiers: "",
-  // def_value: None }, CppParam { name: "renderViewportScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "occlusionMaskScale", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "useOcclusionMesh", ty: "bool", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "isDeviceActive", ty: "bool", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "loadedDeviceName", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "stereoRenderingMode", ty:
+  // "::UnityEngine::XR::XRSettings_StereoRenderingMode", modifiers: "", def_value: None, comment: None }, CppParam { name: "eyeTextureWidth", ty: "int32_t", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "eyeTextureHeight", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "eyeTextureResolutionScale", ty: "float_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "deviceEyeTextureDimension", ty: "::UnityEngine::Rendering::TextureDimension", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "renderViewportScale", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "occlusionMaskScale", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "useOcclusionMesh", ty: "bool", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceConfigurationChecks_XRConfig(bool enabled, bool isDeviceActive, ::StringW loadedDeviceName, ::UnityEngine::XR::XRSettings_StereoRenderingMode stereoRenderingMode,
                                                     int32_t eyeTextureWidth, int32_t eyeTextureHeight, float_t eyeTextureResolutionScale,
                                                     ::UnityEngine::Rendering::TextureDimension deviceEyeTextureDimension, float_t renderViewportScale, float_t occlusionMaskScale,
@@ -265,17 +267,18 @@ public:
   // @brief default ctor
   constexpr PerformanceConfigurationChecks_PlayerConfig();
 
-  // Ctor Parameters [CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "playerHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpDurationTypeSettings", ty: "::GlobalNamespace::NoteJumpDurationTypeSettings", modifiers: "",
-  // def_value: None }, CppParam { name: "noteJumpFixedDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "headsetHapticIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "arcsHapticFeedback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "reduceDebris", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "noFailEffects", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "hideNoteSpawnEffect", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "arcVisibility", ty:
-  // "::GlobalNamespace::ArcVisibilityType", modifiers: "", def_value: None }, CppParam { name: "saberTrailIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "noTextsAndHuds", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "advancedHud", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sfxVolume", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "adaptiveSfx", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentEffectsFilterDefaultPreset", ty:
-  // "::GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None }, CppParam { name: "environmentEffectsFilterExpertPlusPreset", ty:
-  // "::GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "playerHeight", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "noteJumpDurationTypeSettings", ty:
+  // "::GlobalNamespace::NoteJumpDurationTypeSettings", modifiers: "", def_value: None, comment: None }, CppParam { name: "noteJumpFixedDuration", ty: "float_t", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "headsetHapticIntensity", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "arcsHapticFeedback", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "reduceDebris", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "noFailEffects", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "hideNoteSpawnEffect", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "arcVisibility", ty:
+  // "::GlobalNamespace::ArcVisibilityType", modifiers: "", def_value: None, comment: None }, CppParam { name: "saberTrailIntensity", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "noTextsAndHuds", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "advancedHud", ty: "bool", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "sfxVolume", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "adaptiveSfx", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam
+  // { name: "environmentEffectsFilterDefaultPreset", ty: "::GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "environmentEffectsFilterExpertPlusPreset", ty: "::GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceConfigurationChecks_PlayerConfig(bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings,
                                                         float_t noteJumpFixedDuration, float_t noteJumpStartBeatOffset, bool autoRestart, float_t headsetHapticIntensity, bool arcsHapticFeedback,
                                                         bool reduceDebris, bool noFailEffects, bool hideNoteSpawnEffect, ::GlobalNamespace::ArcVisibilityType arcVisibility,
@@ -406,7 +409,7 @@ public:
   // @brief default ctor
   constexpr PerformanceConfigurationChecks_LevelConfig();
 
-  // Ctor Parameters [CppParam { name: "modifiers", ty: "::GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "modifiers", ty: "::GlobalNamespace::GameplayModifierMask", modifiers: "", def_value: None, comment: None }]
   constexpr PerformanceConfigurationChecks_LevelConfig(::GlobalNamespace::GameplayModifierMask modifiers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -472,15 +475,15 @@ public:
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
   /// @brief Method SetExpected, addr 0x58f1198, size 0x378, virtual false, abstract: false, final false
-  inline bool SetExpected(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
-                          ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
+  inline bool SetExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
+                          ::GlobalNamespace::GameplayModifierMask modifiers, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
   /// @brief Method VerifyExpected, addr 0x58f1510, size 0x1560, virtual false, abstract: false, final false
-  inline bool VerifyExpected(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
-                             ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
+  inline bool VerifyExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
+                             ::GlobalNamespace::GameplayModifierMask modifiers, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
 
   constexpr ::GlobalNamespace::PerformanceConfigurationChecks_AppConfig const& __cordl_internal_get_appConfig() const;
 
@@ -527,13 +530,13 @@ protected:
   constexpr PerformanceConfigurationChecks();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationChecks", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationChecks", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceConfigurationChecks(PerformanceConfigurationChecks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationChecks", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationChecks", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PerformanceConfigurationChecks(PerformanceConfigurationChecks const&) = delete;
+  PerformanceConfigurationChecks(PerformanceConfigurationChecksconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6606 };

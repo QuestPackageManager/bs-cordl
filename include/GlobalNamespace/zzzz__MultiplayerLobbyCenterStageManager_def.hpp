@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyCenterStageManager.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyCenterStageManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,23 +98,27 @@ protected:
   constexpr MultiplayerLobbyCenterStageManager();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterStageManager", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterStageManager", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyCenterStageManager(MultiplayerLobbyCenterStageManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterStageManager", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterStageManager", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyCenterStageManager(MultiplayerLobbyCenterStageManager const&) = delete;
+  MultiplayerLobbyCenterStageManager(MultiplayerLobbyCenterStageManagerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6384 };
 
+  /// [SerializeField]
   /// @brief Field _centerObjectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____centerObjectTransform;
 
+  /// [Space]
+  /// [SerializeField]
   /// @brief Field _centerStageScreenController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CenterStageScreenController> ____centerStageScreenController;
 
+  /// [Inject]
   /// @brief Field _lobbyStateDataModel, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;
 

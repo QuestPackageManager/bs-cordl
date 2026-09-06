@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Net\Http\MultipartFormDataContent.hpp"
+// IWYU pragma private; include "System/Net/Http/MultipartFormDataContent.hpp"
 #include "System/Net/Http/zzzz__MultipartContent_impl.hpp"
 #include "System/Net/Http/zzzz__MultipartFormDataContent_def.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\CountingBloomFilter.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/CountingBloomFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,8 @@ MARK_VAL_T(::UnityEngine::UIElements::CountingBloomFilter);
 MARK_VAL_T(::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::CountingBloomFilter, "UnityEngine.UIElements", "CountingBloomFilter");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer, "UnityEngine.UIElements", "CountingBloomFilter/<m_Counters>e__FixedBuffer");
+// [CompilerGenerated]
+// [UnsafeValueType]
 // Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
@@ -33,7 +35,7 @@ public:
   // @brief default ctor
   constexpr CountingBloomFilter__m_Counters_e__FixedBuffer();
 
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None, comment: None }]
   constexpr CountingBloomFilter__m_Counters_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -91,7 +93,7 @@ public:
   // @brief default ctor
   constexpr CountingBloomFilter();
 
-  // Ctor Parameters [CppParam { name: "m_Counters", ty: "::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_Counters", ty: "::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer", modifiers: "", def_value: None, comment: None }]
   constexpr CountingBloomFilter(::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer m_Counters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -100,6 +102,7 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4000 };
 
+  /// [FixedBuffer(typeof(System.Byte), 16384)]
   /// @brief Field m_Counters, offset: 0x0, size: 0x4000, def value: None
   ::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer m_Counters;
 

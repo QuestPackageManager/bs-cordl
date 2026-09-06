@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyController.hpp"
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -139,9 +139,11 @@ public:
   /// @brief Method .ctor, addr 0x5a115d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_lobbyActivated, addr 0x5a1147c, size 0x8, virtual false, abstract: false, final false
   inline bool get_lobbyActivated();
 
+  /// [CompilerGenerated]
   /// @brief Method set_lobbyActivated, addr 0x5a11484, size 0x8, virtual false, abstract: false, final false
   inline void set_lobbyActivated(bool value);
 
@@ -151,41 +153,50 @@ protected:
   constexpr MultiplayerLobbyController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyController(MultiplayerLobbyController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerLobbyController(MultiplayerLobbyController const&) = delete;
+  MultiplayerLobbyController(MultiplayerLobbyControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6390 };
 
+  /// [SerializeField]
   /// @brief Field _innerCircleRadius, offset: 0x20, size: 0x4, def value: None
   float_t ____innerCircleRadius;
 
+  /// [SerializeField]
   /// @brief Field _minOuterCircleRadius, offset: 0x24, size: 0x4, def value: None
   float_t ____minOuterCircleRadius;
 
+  /// [Inject]
   /// @brief Field _multiplayerLobbyAvatarManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> ____multiplayerLobbyAvatarManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerLobbyCenterStageManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterStageManager> ____multiplayerLobbyCenterStageManager;
 
+  /// [Inject]
   /// @brief Field _multiplayerLobbyAvatarPlaceManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager> ____multiplayerLobbyAvatarPlaceManager;
 
+  /// [Inject]
   /// @brief Field _menuEnvironmentManager, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuEnvironmentManager> ____menuEnvironmentManager;
 
+  /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
   /// @brief Field _optionalAvatarDataSender, offset: 0x50, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;
 
+  /// [CompilerGenerated]
   /// @brief Field <lobbyActivated>k__BackingField, offset: 0x58, size: 0x1, def value: None
   bool ____lobbyActivated_k__BackingField;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVROverlayMeshGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVROverlayMeshGenerator.hpp"
 #include "GlobalNamespace/zzzz__OVROverlay_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureDimension_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -21,7 +21,7 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace::OVROverlayMeshGenerator_CubeFace(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -586,8 +586,9 @@ inline void GlobalNamespace::OVROverlayMeshGenerator::GenerateMesh(::System::Col
                               ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Rect>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, verts, uvs, cubeUVs, tris, shape, position, rotation, scale, rect);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::OVROverlayMeshGenerator::InverseTransformVert(::by_ref<::UnityEngine::Vector3> vert, ::by_ref<::UnityEngine::Vector3> position,
-                                                                                             ::by_ref<::UnityEngine::Vector3> scale, float_t worldScale) {
+inline ::UnityEngine::Vector3 GlobalNamespace::OVROverlayMeshGenerator::InverseTransformVert(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> vert,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> position,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> scale, float_t worldScale) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(),
                                                                                          { "InverseTransformVert",
                                                                                            {},

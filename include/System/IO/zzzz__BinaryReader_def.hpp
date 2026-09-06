@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\IO\BinaryReader.hpp"
+// IWYU pragma private; include "System/IO/BinaryReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,7 @@ class BinaryReader;
 // Write type traits
 MARK_REF_T(::System::IO::BinaryReader*);
 DEFINE_IL2CPP_CLASS(::System::IO::BinaryReader*, "System.IO", "BinaryReader");
+// [ComVisible(true)]
 // Dependencies System.Object
 namespace System::IO {
 // Is value type: false
@@ -136,6 +137,7 @@ public:
   /// @brief Method ReadInt64, addr 0x5c1699c, size 0xb0, virtual true, abstract: false, final false
   inline int64_t ReadInt64();
 
+  /// [CLSCompliant(false)]
   /// @brief Method ReadSByte, addr 0x5c16740, size 0x40, virtual true, abstract: false, final false
   inline int8_t ReadSByte();
 
@@ -145,12 +147,15 @@ public:
   /// @brief Method ReadString, addr 0x5c16d50, size 0x280, virtual true, abstract: false, final false
   inline ::StringW ReadString();
 
+  /// [CLSCompliant(false)]
   /// @brief Method ReadUInt16, addr 0x5c167ec, size 0x48, virtual true, abstract: false, final false
   inline uint16_t ReadUInt16();
 
+  /// [CLSCompliant(false)]
   /// @brief Method ReadUInt32, addr 0x5c1692c, size 0x70, virtual true, abstract: false, final false
   inline uint32_t ReadUInt32();
 
+  /// [CLSCompliant(false)]
   /// @brief Method ReadUInt64, addr 0x5c16a4c, size 0xb0, virtual true, abstract: false, final false
   inline uint64_t ReadUInt64();
 
@@ -235,13 +240,13 @@ protected:
   constexpr BinaryReader();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryReader", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryReader", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryReader(BinaryReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryReader", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryReader", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryReader(BinaryReader const&) = delete;
+  BinaryReader(BinaryReaderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3905 };

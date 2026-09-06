@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Xml\XmlNodeChangedEventArgs.hpp"
+// IWYU pragma private; include "System/Xml/XmlNodeChangedEventArgs.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedAction_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\MultiColumnListView.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/MultiColumnListView.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseListView_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ColumnSortingMode_impl.hpp"

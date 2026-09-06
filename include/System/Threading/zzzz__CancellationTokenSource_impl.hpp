@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Threading\CancellationTokenSource.hpp"
+// IWYU pragma private; include "System/Threading/CancellationTokenSource.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArray_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
@@ -691,7 +691,7 @@ inline ::System::Threading::CancellationTokenSource* System::Threading::Cancella
                                                                                          { "CreateLinkedTokenSource", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::CancellationTokenSource*>(nullptr, ___internal_method, token);
 }
-inline ::System::Threading::CancellationTokenSource* System::Threading::CancellationTokenSource::CreateLinkedTokenSource(::ArrayW<::System::Threading::CancellationToken> tokens) {
+inline ::System::Threading::CancellationTokenSource* System::Threading::CancellationTokenSource::CreateLinkedTokenSource(/* [ParamArray] */ ::ArrayW<::System::Threading::CancellationToken> tokens) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenSource*>(),
                                                                                          { "CreateLinkedTokenSource", {}, { ::i2c::type_of<::ArrayW<::System::Threading::CancellationToken>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::CancellationTokenSource*>(nullptr, ___internal_method, tokens);

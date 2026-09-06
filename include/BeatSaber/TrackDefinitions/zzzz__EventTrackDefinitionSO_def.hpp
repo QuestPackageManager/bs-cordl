@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber\TrackDefinitions\EventTrackDefinitionSO.hpp"
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/EventTrackDefinitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   // @brief default ctor
   constexpr EventTrackDefinitionSO_DataTransformationType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EventTrackDefinitionSO_DataTransformationType(int32_t value__) noexcept;
 
   /// @brief Field DeltaRotation value: I32(2)
@@ -133,7 +133,7 @@ public:
   // @brief default ctor
   constexpr EventTrackDefinitionSO_MarkerType();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr EventTrackDefinitionSO_MarkerType(int32_t value__) noexcept;
 
   /// @brief Field BasicMarker value: I32(0)
@@ -247,26 +247,30 @@ protected:
   constexpr EventTrackDefinitionSO();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventTrackDefinitionSO", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventTrackDefinitionSO", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventTrackDefinitionSO(EventTrackDefinitionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventTrackDefinitionSO", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventTrackDefinitionSO", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  EventTrackDefinitionSO(EventTrackDefinitionSO const&) = delete;
+  EventTrackDefinitionSO(EventTrackDefinitionSOconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22956 };
 
+  /// [SerializeField]
   /// @brief Field _dataTransformationType, offset: 0x18, size: 0x4, def value: None
   ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType ____dataTransformationType;
 
+  /// [SerializeField]
   /// @brief Field _markerType, offset: 0x1c, size: 0x4, def value: None
   ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_MarkerType ____markerType;
 
+  /// [SerializeField]
   /// @brief Field _visible, offset: 0x20, size: 0x1, def value: None
   bool ____visible;
 
+  /// [SerializeField]
   /// @brief Field _needsFiltering, offset: 0x21, size: 0x1, def value: None
   bool ____needsFiltering;
 

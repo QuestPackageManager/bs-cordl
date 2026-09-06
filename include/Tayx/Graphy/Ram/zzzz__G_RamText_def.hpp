@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx\Graphy\Ram\G_RamText.hpp"
+// IWYU pragma private; include "Tayx/Graphy/Ram/G_RamText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,23 +117,26 @@ protected:
   constexpr G_RamText();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_RamText", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_RamText", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_RamText(G_RamText&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_RamText", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_RamText", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  G_RamText(G_RamText const&) = delete;
+  G_RamText(G_RamTextconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21496 };
 
+  /// [SerializeField]
   /// @brief Field m_allocatedSystemMemorySizeText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_allocatedSystemMemorySizeText;
 
+  /// [SerializeField]
   /// @brief Field m_reservedSystemMemorySizeText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_reservedSystemMemorySizeText;
 
+  /// [SerializeField]
   /// @brief Field m_monoSystemMemorySizeText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_monoSystemMemorySizeText;
 

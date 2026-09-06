@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\ContextClickEvent.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/ContextClickEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,6 +21,7 @@ MARK_REF_T(::UnityEngine::UIElements::ContextClickEvent*);
 MARK_REF_T(::UnityEngine::UIElements::ContextClickEvent___c*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ContextClickEvent*, "UnityEngine.UIElements", "ContextClickEvent");
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::ContextClickEvent___c*, "UnityEngine.UIElements", "ContextClickEvent/<>c");
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -49,13 +50,13 @@ protected:
   constexpr ContextClickEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextClickEvent___c(ContextClickEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextClickEvent___c(ContextClickEvent___c const&) = delete;
+  ContextClickEvent___c(ContextClickEvent___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4495 };
@@ -86,13 +87,13 @@ protected:
   constexpr ContextClickEvent();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextClickEvent(ContextClickEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ContextClickEvent", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ContextClickEvent(ContextClickEvent const&) = delete;
+  ContextClickEvent(ContextClickEventconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4496 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\QuitGameCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/QuitGameCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,6 +25,7 @@ class QuitGameCommand;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::QuitGameCommand*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::QuitGameCommand*, "", "QuitGameCommand");
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -65,17 +66,18 @@ protected:
   constexpr QuitGameCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QuitGameCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuitGameCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuitGameCommand(QuitGameCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QuitGameCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuitGameCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  QuitGameCommand(QuitGameCommand const&) = delete;
+  QuitGameCommand(QuitGameCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19408 };
 
+  /// [Inject]
   /// @brief Field _terminal, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::TerminalController* ____terminal;
 

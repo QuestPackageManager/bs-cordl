@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\Crmf\ProofOfPossession.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/ProofOfPossession.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,13 +107,13 @@ protected:
   constexpr ProofOfPossession();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProofOfPossession", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProofOfPossession", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProofOfPossession(ProofOfPossession&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProofOfPossession", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProofOfPossession", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProofOfPossession(ProofOfPossession const&) = delete;
+  ProofOfPossession(ProofOfPossessionconst&) = delete;
 
   /// @brief Field TYPE_KEY_AGREEMENT offset 0xffffffff size 0x4
   static constexpr int32_t TYPE_KEY_AGREEMENT{ static_cast<int32_t>(0x3) };

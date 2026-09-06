@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\DepthState.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/DepthState.hpp"
 #include "UnityEngine/Rendering/zzzz__DepthState_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -115,8 +115,8 @@ constexpr UnityEngine::Rendering::DepthState::operator ::System::IEquatable_1<::
 constexpr ::System::IEquatable_1<::UnityEngine::Rendering::DepthState>* UnityEngine::Rendering::DepthState::i___System__IEquatable_1___UnityEngine__Rendering__DepthState_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::DepthState>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "m_WriteEnabled", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CompareFunction", ty: "int8_t", modifiers: "", def_value: Some("{}")
-// }]
+// Ctor Parameters [CppParam { name: "m_WriteEnabled", ty: "uint8_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CompareFunction", ty: "int8_t", modifiers: "",
+// def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::DepthState::DepthState(uint8_t m_WriteEnabled, int8_t m_CompareFunction) noexcept {
   this->m_WriteEnabled = m_WriteEnabled;
   this->m_CompareFunction = m_CompareFunction;

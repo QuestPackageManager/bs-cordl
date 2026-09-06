@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet\Logging\Debug.hpp"
+// IWYU pragma private; include "BGNet/Logging/Debug.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGNet/Logging/zzzz__Debug_def.hpp"
 #include "BGNet/Logging/zzzz__Debug_def.hpp"
@@ -120,7 +120,7 @@ inline void BGNet::Logging::Debug_ILogger::LogWarning(::StringW message) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BGNet::Logging::Debug_ILogger*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "logger", ty: "::BGNet::Logging::Debug_ILogger*", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "logger", ty: "::BGNet::Logging::Debug_ILogger*", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::BGNet::Logging::Debug___c__DisplayClass7_0::Debug___c__DisplayClass7_0(::BGNet::Logging::Debug_ILogger* logger) noexcept {
   this->logger = logger;
 }

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProbeGlobalIndirection.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProbeGlobalIndirection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,9 +57,9 @@ public:
   // @brief default ctor
   constexpr ProbeGlobalIndirection_IndexMetaData();
 
-  // Ctor Parameters [CppParam { name: "minLocalIdx", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "maxLocalIdxPlusOne", ty: "::UnityEngine::Vector3Int",
-  // modifiers: "", def_value: None }, CppParam { name: "firstChunkIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minSubdiv", ty: "int32_t", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "minLocalIdx", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "maxLocalIdxPlusOne", ty:
+  // "::UnityEngine::Vector3Int", modifiers: "", def_value: None, comment: None }, CppParam { name: "firstChunkIndex", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "minSubdiv", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr ProbeGlobalIndirection_IndexMetaData(::UnityEngine::Vector3Int minLocalIdx, ::UnityEngine::Vector3Int maxLocalIdxPlusOne, int32_t firstChunkIndex, int32_t minSubdiv) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -225,9 +225,11 @@ public:
   /// @brief Method get_entrySizeInBricks, addr 0x678e1d0, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_entrySizeInBricks();
 
+  /// [CompilerGenerated]
   /// @brief Method get_estimatedVMemCost, addr 0x678e17c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_estimatedVMemCost();
 
+  /// [CompilerGenerated]
   /// @brief Method set_estimatedVMemCost, addr 0x678e184, size 0x8, virtual false, abstract: false, final false
   inline void set_estimatedVMemCost(int32_t value);
 
@@ -237,13 +239,13 @@ protected:
   constexpr ProbeGlobalIndirection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeGlobalIndirection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeGlobalIndirection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProbeGlobalIndirection(ProbeGlobalIndirection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProbeGlobalIndirection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ProbeGlobalIndirection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ProbeGlobalIndirection(ProbeGlobalIndirection const&) = delete;
+  ProbeGlobalIndirection(ProbeGlobalIndirectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12087 };
@@ -254,6 +256,7 @@ public:
   /// @brief Field kUintPerEntry offset 0xffffffff size 0x4
   static constexpr int32_t kUintPerEntry{ static_cast<int32_t>(0x3) };
 
+  /// [CompilerGenerated]
   /// @brief Field <estimatedVMemCost>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____estimatedVMemCost_k__BackingField;
 

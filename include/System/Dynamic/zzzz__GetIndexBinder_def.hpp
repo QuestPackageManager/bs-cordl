@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Dynamic\GetIndexBinder.hpp"
+// IWYU pragma private; include "System/Dynamic/GetIndexBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   /// @brief Method FallbackGetIndex, addr 0x5fc8814, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetIndex(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> indexes);
 
-  /// @brief Method FallbackGetIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method FallbackGetIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetIndex(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> indexes,
                                                                 ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
@@ -39,13 +39,13 @@ protected:
   constexpr GetIndexBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GetIndexBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetIndexBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetIndexBinder(GetIndexBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GetIndexBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetIndexBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GetIndexBinder(GetIndexBinder const&) = delete;
+  GetIndexBinder(GetIndexBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16666 };

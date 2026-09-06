@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXEnabledBinder.hpp"
+// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXEnabledBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   // @brief default ctor
   constexpr VFXEnabledBinder_Check();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr VFXEnabledBinder_Check(int32_t value__) noexcept;
 
   /// @brief Field ActiveInHierarchy value: I32(0)
@@ -87,6 +87,8 @@ static_assert(offsetof(::UnityEngine::VFX::Utility::VFXEnabledBinder_Check, valu
 static_assert(sizeof(::UnityEngine::VFX::Utility::VFXEnabledBinder_Check) == 0x4, "Size mismatch!");
 
 } // namespace UnityEngine::VFX::Utility
+// [AddComponentMenu("VFX/Property Binders/Enabled Binder")]
+// [VFXBinder("GameObject/Enabled")]
 // Dependencies UnityEngine.VFX.Utility.VFXBinderBase, UnityEngine.VFX.Utility.VFXEnabledBinder::Check
 namespace UnityEngine::VFX::Utility {
 // Is value type: false
@@ -151,13 +153,13 @@ protected:
   constexpr VFXEnabledBinder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VFXEnabledBinder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXEnabledBinder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VFXEnabledBinder(VFXEnabledBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VFXEnabledBinder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "VFXEnabledBinder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  VFXEnabledBinder(VFXEnabledBinder const&) = delete;
+  VFXEnabledBinder(VFXEnabledBinderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19988 };
@@ -165,6 +167,9 @@ public:
   /// @brief Field check, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::VFX::Utility::VFXEnabledBinder_Check ___check;
 
+  /// [VFXPropertyBinding(new[] { "System.Boolean" })]
+  /// [SerializeField]
+  /// [FormerlySerializedAs("m_Parameter")]
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;
 

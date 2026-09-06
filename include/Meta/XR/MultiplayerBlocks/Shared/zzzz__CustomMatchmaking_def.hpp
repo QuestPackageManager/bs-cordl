@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\CustomMatchmaking.hpp"
+// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/CustomMatchmaking.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,31 +98,31 @@ public:
 
   __declspec(property(get = get_SupportsRoomPassword)) bool SupportsRoomPassword;
 
-  /// @brief Method CreateRoom, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateRoom, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>*
   CreateRoom(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomCreationOptions options);
 
-  /// @brief Method JoinOpenRoom, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method JoinOpenRoom, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* JoinOpenRoom(::StringW lobbyName);
 
-  /// @brief Method JoinRoom, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method JoinRoom, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* JoinRoom(::StringW roomToken, ::StringW roomPassword);
 
-  /// @brief Method LeaveRoom, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method LeaveRoom, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LeaveRoom();
 
-  /// @brief Method get_ConnectedRoomToken, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_ConnectedRoomToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_ConnectedRoomToken();
 
-  /// @brief Method get_IsConnected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_IsConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsConnected();
 
-  /// @brief Method get_SupportsRoomPassword, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsRoomPassword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsRoomPassword();
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomMatchmaking_ICustomMatchmakingBehaviour", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomMatchmaking_ICustomMatchmakingBehaviour", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomMatchmaking_ICustomMatchmakingBehaviour(CustomMatchmaking_ICustomMatchmakingBehaviour const&) = delete;
+  CustomMatchmaking_ICustomMatchmakingBehaviour(CustomMatchmaking_ICustomMatchmakingBehaviourconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20847 };
@@ -142,8 +142,9 @@ public:
   // @brief default ctor
   constexpr CustomMatchmaking_RoomCreationOptions();
 
-  // Ctor Parameters [CppParam { name: "RoomPassword", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "MaxPlayersPerRoom", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "IsPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "LobbyName", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "RoomPassword", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "MaxPlayersPerRoom", ty: "int32_t", modifiers: "", def_value:
+  // None, comment: None }, CppParam { name: "IsPrivate", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "LobbyName", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr CustomMatchmaking_RoomCreationOptions(::StringW RoomPassword, int32_t MaxPlayersPerRoom, bool IsPrivate, ::StringW LobbyName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -194,8 +195,8 @@ public:
   // @brief default ctor
   constexpr CustomMatchmaking_RoomOperationResult();
 
-  // Ctor Parameters [CppParam { name: "ErrorMessage", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "RoomToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "RoomPassword", ty: "::StringW", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "ErrorMessage", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "RoomToken", ty: "::StringW", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "RoomPassword", ty: "::StringW", modifiers: "", def_value: None, comment: None }]
   constexpr CustomMatchmaking_RoomOperationResult(::StringW ErrorMessage, ::StringW RoomToken, ::StringW RoomPassword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -225,6 +226,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult) == 0x18, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::RoomOperationResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Shared {
@@ -239,6 +241,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a735a8, size 0x2cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a73874, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -249,10 +252,10 @@ public:
   // @brief default ctor
   constexpr CustomMatchmaking__CreateRoom_d__25();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None }, CppParam { name:
-  // "__4__this", ty: "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None }]
   constexpr CustomMatchmaking__CreateRoom_d__25(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __t__builder,
       ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking> __4__this,
@@ -290,6 +293,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__25) == 0x30, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::RoomCreationOptions, Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::RoomOperationResult,
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Shared {
@@ -304,6 +308,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a738f4, size 0x3c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a73cbc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -314,11 +319,11 @@ public:
   // @brief default ctor
   constexpr CustomMatchmaking__CreateRoom_d__26();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None }, CppParam { name:
-  // "__4__this", ty: "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking>", modifiers: "", def_value: None }, CppParam { name: "options", ty:
-  // "::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomCreationOptions", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking>", modifiers: "", def_value: None, comment: None }, CppParam { name: "options", ty:
+  // "::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomCreationOptions", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None }]
   constexpr CustomMatchmaking__CreateRoom_d__26(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __t__builder,
       ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking> __4__this, ::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomCreationOptions options,
@@ -361,6 +366,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__CreateRoom_d__26) == 0x48, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::RoomOperationResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Shared {
@@ -375,6 +381,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a73d3c, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a740e8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -385,11 +392,11 @@ public:
   // @brief default ctor
   constexpr CustomMatchmaking__JoinOpenRoom_d__28();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None }, CppParam { name:
-  // "__4__this", ty: "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking>", modifiers: "", def_value: None }, CppParam { name: "roomLobby", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "",
-  // def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking>", modifiers: "", def_value: None, comment: None }, CppParam { name: "roomLobby", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None }]
   constexpr CustomMatchmaking__JoinOpenRoom_d__28(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __t__builder,
       ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking> __4__this, ::StringW roomLobby,
@@ -432,6 +439,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinOpenRoom_d__28) == 0x38, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [CompilerGenerated]
 // Dependencies Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::RoomOperationResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace Meta::XR::MultiplayerBlocks::Shared {
@@ -446,6 +454,7 @@ public:
   /// @brief Method MoveNext, addr 0x5a74168, size 0x3b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
+  /// [DebuggerHidden]
   /// @brief Method SetStateMachine, addr 0x5a74518, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
@@ -456,11 +465,11 @@ public:
   // @brief default ctor
   constexpr CustomMatchmaking__JoinRoom_d__27();
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None }, CppParam { name:
-  // "__4__this", ty: "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking>", modifiers: "", def_value: None }, CppParam { name: "roomToken", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "roomPassword", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "__4__this", ty: "::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking>", modifiers: "", def_value: None, comment: None }, CppParam { name: "roomToken", ty:
+  // "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "roomPassword", ty: "::StringW", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>", modifiers: "", def_value: None, comment: None }]
   constexpr CustomMatchmaking__JoinRoom_d__27(int32_t __1__state,
                                               ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __t__builder,
                                               ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking> __4__this, ::StringW roomToken, ::StringW roomPassword,
@@ -508,6 +517,7 @@ static_assert(offsetof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_
 static_assert(sizeof(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinRoom_d__27) == 0x40, "Size mismatch!");
 
 } // namespace Meta::XR::MultiplayerBlocks::Shared
+// [ExecuteAlways]
 // Dependencies UnityEngine.MonoBehaviour
 namespace Meta::XR::MultiplayerBlocks::Shared {
 // Is value type: false
@@ -529,8 +539,10 @@ public:
 
   using _JoinRoom_d__27 = ::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking__JoinRoom_d__27;
 
+  /// @brief [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1, Category = "Custom Matchmaking", Tweakable = false)]
   __declspec(property(get = get_ConnectedRoomToken)) ::StringW ConnectedRoomToken;
 
+  /// @brief [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1, Category = "Custom Matchmaking", Tweakable = false)]
   __declspec(property(get = get_IsConnected)) bool IsConnected;
 
   __declspec(property(get = get_IsPasswordProtected, put = set_IsPasswordProtected)) bool IsPasswordProtected;
@@ -572,9 +584,12 @@ public:
   /// @brief Field onRoomLeaveFinished, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_onRoomLeaveFinished, put = __cordl_internal_set_onRoomLeaveFinished)) ::UnityEngine::Events::UnityEvent* onRoomLeaveFinished;
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::<CreateRoom>d__25))]
+  /// [DebugMember((Meta.XR.ImmersiveDebugger.DebugColor)1, Category = "Custom Matchmaking")]
   /// @brief Method CreateRoom, addr 0x5a72e74, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* CreateRoom();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::<CreateRoom>d__26))]
   /// @brief Method CreateRoom, addr 0x5a72f50, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>*
   CreateRoom(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomCreationOptions options);
@@ -582,9 +597,11 @@ public:
   /// @brief Method GenerateRoomPassword, addr 0x5a73460, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW GenerateRoomPassword();
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::<JoinOpenRoom>d__28))]
   /// @brief Method JoinOpenRoom, addr 0x5a7313c, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* JoinOpenRoom(::StringW roomLobby);
 
+  /// [AsyncStateMachine(typeof(Meta.XR.MultiplayerBlocks.Shared.CustomMatchmaking::<JoinRoom>d__27))]
   /// @brief Method JoinRoom, addr 0x5a7304c, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* JoinRoom(::StringW roomToken, ::StringW roomPassword);
 
@@ -686,13 +703,13 @@ protected:
   constexpr CustomMatchmaking();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomMatchmaking", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomMatchmaking", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomMatchmaking(CustomMatchmaking&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomMatchmaking", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CustomMatchmaking", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CustomMatchmaking(CustomMatchmaking const&) = delete;
+  CustomMatchmaking(CustomMatchmakingconst&) = delete;
 
   /// @brief Field DebugCategory offset 0xffffffff size 0x8
   static constexpr ::ConstString DebugCategory{ u"Custom Matchmaking" };
@@ -700,24 +717,42 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20854 };
 
+  /// [HideInInspector]
+  /// [Tooltip("Event called when a CreateRoom operation finished")]
   /// @brief Field onRoomCreationFinished, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* ___onRoomCreationFinished;
 
+  /// [HideInInspector]
+  /// [Tooltip("Event called when a JoinRoom operation finished")]
   /// @brief Field onRoomJoinFinished, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* ___onRoomJoinFinished;
 
+  /// [HideInInspector]
+  /// [Tooltip("Event called when a LeaveRoom operation finished")]
   /// @brief Field onRoomLeaveFinished, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Events::UnityEvent* ___onRoomLeaveFinished;
 
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// [Tooltip("Name of the game lobby the created room belongs to.")]
   /// @brief Field lobbyName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___lobbyName;
 
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// [Tooltip("Indicates whether this game room is private.")]
   /// @brief Field isPrivate, offset: 0x40, size: 0x1, def value: None
   bool ___isPrivate;
 
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// [Tooltip("The maximum number of players allowed in this game room.")]
   /// @brief Field maxPlayersPerRoom, offset: 0x44, size: 0x4, def value: None
   int32_t ___maxPlayersPerRoom;
 
+  /// [SerializeField]
+  /// [HideInInspector]
+  /// [Tooltip("Indicates whether a password should be required for other players to be able to join this game room.")]
   /// @brief Field isPasswordProtected, offset: 0x48, size: 0x1, def value: None
   bool ___isPasswordProtected;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\LevelFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace/LevelFilter.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_impl.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
@@ -72,8 +72,8 @@ inline void GlobalNamespace::LevelFilter___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::LevelFilter___c::_FilterLevelByText_b__15_0(::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> x,
-                                                                            ::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> y) {
+inline int32_t GlobalNamespace::LevelFilter___c::_FilterLevelByText_b__15_0(/* [TupleElementNames(new[] { "score", "level" })] */ ::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> x,
+                                                                            /* [TupleElementNames(new[] { "score", "level" })] */ ::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> y) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c*>(), { "<FilterLevelByText>b__15_0",
                                                                                                         {},
@@ -194,7 +194,8 @@ inline void GlobalNamespace::LevelFilter___c__DisplayClass14_1::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c__DisplayClass14_1*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
+inline bool GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4(
+    /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */ ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c__DisplayClass14_1*>(),
@@ -357,7 +358,7 @@ inline void GlobalNamespace::LevelFilter::setStaticF_bpmOptions(::ArrayW<float_t
 inline ::ArrayW<float_t> GlobalNamespace::LevelFilter::getStaticF_bpmOptions() {
   return ::cordl_internals::getStaticField<::ArrayW<float_t>, "bpmOptions", ::GlobalNamespace::LevelFilter>();
 }
-inline bool GlobalNamespace::LevelFilter::IsWithoutFilter(::by_ref<::GlobalNamespace::LevelFilter> filter, bool ignoreFilterBySongs) {
+inline bool GlobalNamespace::LevelFilter::IsWithoutFilter(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, bool ignoreFilterBySongs) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(), { "IsWithoutFilter", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>(), ::i2c::type_of<bool>() } })));
@@ -430,12 +431,13 @@ inline int32_t GlobalNamespace::LevelFilter::_FilterLevelByText_g__CalculateMatc
                                                            { "<FilterLevelByText>g__CalculateMatchScore|15_1", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, levelString, searchTerms);
 }
-// Ctor Parameters [CppParam { name: "songOwned", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "songNotOwned", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "songUnplayed", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "songPacks", ty: "::GlobalNamespace::SongPackMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "characteristicSerializedName", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "minBpm", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxBpm", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "sensitivity", ty: "::GlobalNamespace::PlayerSensitivityFlag", modifiers: "", def_value: Some("{}") }, CppParam { name: "searchText", ty: "::StringW", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "limitIds", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "songOwned", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "songNotOwned", ty: "bool", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "songUnplayed", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "songPacks", ty: "::GlobalNamespace::SongPackMask", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "characteristicSerializedName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "minBpm", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None
+// }, CppParam { name: "maxBpm", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "sensitivity", ty: "::GlobalNamespace::PlayerSensitivityFlag", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "searchText", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "limitIds", ty:
+// "::ArrayW<::StringW>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelFilter::LevelFilter(bool songOwned, bool songNotOwned, bool songUnplayed, ::GlobalNamespace::BeatmapDifficultyMask difficulties,
                                                       ::GlobalNamespace::SongPackMask songPacks, ::StringW characteristicSerializedName, float_t minBpm, float_t maxBpm,
                                                       ::GlobalNamespace::PlayerSensitivityFlag sensitivity, ::StringW searchText, ::ArrayW<::StringW> limitIds) noexcept {
@@ -496,15 +498,16 @@ constexpr GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14::operator ::Syst
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapLevels", ty:
-// "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "filter", ty: "::GlobalNamespace::LevelFilter",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "levelsModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken",
-// ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "playerDataModel", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_filteredLevels_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "__7__wrap2", ty: "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_level_5__4", ty:
-// "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapLevels",
+// ty: "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "filter", ty:
+// "::GlobalNamespace::LevelFilter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelsModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "playerDataModel", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_filteredLevels_5__2", ty:
+// "::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty:
+// "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_level_5__4", ty:
+// "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14::LevelFilter__FilterLevelsAsync_d__14(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>> __t__builder,
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::GlobalNamespace::LevelFilter filter, ::GlobalNamespace::IEntitlementModel* levelsModel,

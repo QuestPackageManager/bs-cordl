@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Environment.hpp"
+// IWYU pragma private; include "System/Environment.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Environment_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
@@ -10,7 +10,7 @@
 #include "System/zzzz__OperatingSystem_def.hpp"
 #include "System/zzzz__PlatformID_def.hpp"
 #include "System/zzzz__Version_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Environment_SpecialFolder::Environment_SpecialFolder(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -63,7 +63,7 @@ constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder:
 constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::LocalizedResources{ static_cast<int32_t>(0x39) };
 constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CommonOemLinks{ static_cast<int32_t>(0x3a) };
 constexpr ::System::Environment_SpecialFolder System::Environment_SpecialFolder::CDBurning{ static_cast<int32_t>(0x3b) };
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::System::Environment_SpecialFolderOption::Environment_SpecialFolderOption(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -663,7 +663,7 @@ inline ::StringW System::Environment::GetResourceString(::StringW key) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Environment*>(), { "GetResourceString", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, key);
 }
-inline ::StringW System::Environment::GetResourceString(::StringW key, ::ArrayW<::System::Object*> values) {
+inline ::StringW System::Environment::GetResourceString(::StringW key, /* [ParamArray] */ ::ArrayW<::System::Object*> values) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Environment*>(), { "GetResourceString", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<::System::Object*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, key, values);

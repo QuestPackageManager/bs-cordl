@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Experimental\XR\Interaction\BasePoseProvider.hpp"
+// IWYU pragma private; include "UnityEngine/Experimental/XR/Interaction/BasePoseProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,8 @@ public:
 
   static inline ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* New_ctor();
 
+  /// [Obsolete("This function is provided for backwards compatibility with the BasePoseProvider found in com.unity.xr.legacyinputhelpers v1.3.X. Please do not implement this function, instead use the
+  /// new API via GetPoseFromProvider", false)]
   /// @brief Method TryGetPoseFromProvider, addr 0x6bb7dfc, size 0x7c, virtual true, abstract: false, final false
   inline bool TryGetPoseFromProvider(::by_ref<::UnityEngine::Pose> output);
 
@@ -42,13 +44,13 @@ protected:
   constexpr BasePoseProvider();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasePoseProvider(BasePoseProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BasePoseProvider(BasePoseProvider const&) = delete;
+  BasePoseProvider(BasePoseProviderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23364 };

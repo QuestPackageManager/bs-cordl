@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Data\BinaryNode.hpp"
+// IWYU pragma private; include "System/Data/BinaryNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,7 +114,7 @@ public:
   // @brief default ctor
   constexpr BinaryNode_DataTypePrecedence();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr BinaryNode_DataTypePrecedence(int32_t value__) noexcept;
 
   /// @brief Field Boolean value: I32(-2)
@@ -350,13 +350,13 @@ protected:
   constexpr BinaryNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryNode", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryNode(BinaryNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BinaryNode", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BinaryNode(BinaryNode const&) = delete;
+  BinaryNode(BinaryNodeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13810 };

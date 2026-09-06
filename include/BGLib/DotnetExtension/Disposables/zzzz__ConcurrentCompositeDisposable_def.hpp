@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib\DotnetExtension\Disposables\ConcurrentCompositeDisposable.hpp"
+// IWYU pragma private; include "BGLib/DotnetExtension/Disposables/ConcurrentCompositeDisposable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,6 +38,8 @@ class ConcurrentCompositeDisposable;
 // Write type traits
 MARK_REF_T(::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*);
 DEFINE_IL2CPP_CLASS(::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable*, "BGLib.DotnetExtension.Disposables", "ConcurrentCompositeDisposable");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace BGLib::DotnetExtension::Disposables {
 // Is value type: false
@@ -89,7 +91,7 @@ public:
 
   static inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* New_ctor(int32_t capacity);
 
-  static inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* New_ctor(::ArrayW<::System::IDisposable*> checkers);
+  static inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* New_ctor(/* [ParamArray] */ ::ArrayW<::System::IDisposable*> checkers);
 
   static inline ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* New_ctor(::System::Collections::Generic::IEnumerable_1<::System::IDisposable*>* checkers);
 
@@ -118,7 +120,7 @@ public:
   inline void _ctor(int32_t capacity);
 
   /// @brief Method .ctor, addr 0x330ffc8, size 0xf4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::IDisposable*> checkers);
+  inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::IDisposable*> checkers);
 
   /// @brief Method .ctor, addr 0x33100bc, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::IDisposable*>* checkers);
@@ -147,13 +149,13 @@ protected:
   constexpr ConcurrentCompositeDisposable();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentCompositeDisposable", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentCompositeDisposable", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentCompositeDisposable(ConcurrentCompositeDisposable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentCompositeDisposable", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ConcurrentCompositeDisposable", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ConcurrentCompositeDisposable(ConcurrentCompositeDisposable const&) = delete;
+  ConcurrentCompositeDisposable(ConcurrentCompositeDisposableconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20514 };

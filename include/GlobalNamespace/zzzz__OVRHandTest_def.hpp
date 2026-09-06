@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRHandTest.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRHandTest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,13 +92,13 @@ protected:
   constexpr BoolMonitor_OVRHandTest_BoolGenerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRHandTest_BoolGenerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRHandTest_BoolGenerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoolMonitor_OVRHandTest_BoolGenerator(BoolMonitor_OVRHandTest_BoolGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRHandTest_BoolGenerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BoolMonitor_OVRHandTest_BoolGenerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BoolMonitor_OVRHandTest_BoolGenerator(BoolMonitor_OVRHandTest_BoolGenerator const&) = delete;
+  BoolMonitor_OVRHandTest_BoolGenerator(BoolMonitor_OVRHandTest_BoolGeneratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7922 };
@@ -198,13 +198,13 @@ protected:
   constexpr OVRHandTest_BoolMonitor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest_BoolMonitor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest_BoolMonitor", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHandTest_BoolMonitor(OVRHandTest_BoolMonitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest_BoolMonitor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest_BoolMonitor", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHandTest_BoolMonitor(OVRHandTest_BoolMonitor const&) = delete;
+  OVRHandTest_BoolMonitor(OVRHandTest_BoolMonitorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7923 };
@@ -250,6 +250,7 @@ static_assert(offsetof(::GlobalNamespace::OVRHandTest_BoolMonitor, ___m_displayT
 static_assert(sizeof(::GlobalNamespace::OVRHandTest_BoolMonitor) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -288,13 +289,13 @@ protected:
   constexpr OVRHandTest___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest___c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest___c", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHandTest___c(OVRHandTest___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest___c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest___c", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHandTest___c(OVRHandTest___c const&) = delete;
+  OVRHandTest___c(OVRHandTest___cconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7924 };
@@ -305,6 +306,7 @@ public:
 static_assert(sizeof(::GlobalNamespace::OVRHandTest___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [Feature((Meta.XR.Util.Feature)4)]
 // Dependencies OVRPlugin::HandState, OVRPlugin::Skeleton, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -464,13 +466,13 @@ protected:
   constexpr OVRHandTest();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRHandTest(OVRHandTest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRHandTest", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRHandTest(OVRHandTest const&) = delete;
+  OVRHandTest(OVRHandTestconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7925 };

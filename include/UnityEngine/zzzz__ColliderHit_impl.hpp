@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\ColliderHit.hpp"
+// IWYU pragma private; include "UnityEngine/ColliderHit.hpp"
 #include "UnityEngine/zzzz__ColliderHit_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ColliderHit.get_instanceID
@@ -34,7 +34,7 @@ inline ::UnityW<::UnityEngine::Collider> UnityEngine::ColliderHit::get_collider(
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColliderHit>(), { "get_collider", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Collider>>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_ColliderInstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_ColliderInstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::ColliderHit::ColliderHit(int32_t m_ColliderInstanceID) noexcept {
   this->m_ColliderInstanceID = m_ColliderInstanceID;
 }

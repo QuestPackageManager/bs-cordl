@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\UxmlAsset.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,6 +24,7 @@ class UxmlAsset;
 // Write type traits
 MARK_REF_T(::UnityEngine::UIElements::UxmlAsset*);
 DEFINE_IL2CPP_CLASS(::UnityEngine::UIElements::UxmlAsset*, "UnityEngine.UIElements", "UxmlAsset");
+// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
 // Dependencies System.Object, UnityEngine.UIElements.UxmlNamespaceDefinition
 namespace UnityEngine::UIElements {
 // Is value type: false
@@ -153,13 +154,13 @@ protected:
   constexpr UxmlAsset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlAsset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlAsset", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlAsset(UxmlAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlAsset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlAsset", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  UxmlAsset(UxmlAsset const&) = delete;
+  UxmlAsset(UxmlAssetconst&) = delete;
 
   /// @brief Field NullNodeType offset 0xffffffff size 0x8
   static constexpr ::ConstString NullNodeType{ u"null" };
@@ -167,24 +168,31 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5189 };
 
+  /// [SerializeField]
   /// @brief Field m_FullTypeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_FullTypeName;
 
+  /// [SerializeField]
   /// @brief Field m_XmlNamespace, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::UIElements::UxmlNamespaceDefinition ___m_XmlNamespace;
 
+  /// [SerializeField]
   /// @brief Field m_Id, offset: 0x28, size: 0x4, def value: None
   int32_t ___m_Id;
 
+  /// [SerializeField]
   /// @brief Field m_OrderInDocument, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_OrderInDocument;
 
+  /// [SerializeField]
   /// @brief Field m_ParentId, offset: 0x30, size: 0x4, def value: None
   int32_t ___m_ParentId;
 
+  /// [SerializeField]
   /// @brief Field m_NamespaceDefinitions, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>* ___m_NamespaceDefinitions;
 
+  /// [SerializeField]
   /// @brief Field m_Properties, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Properties;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BlocksBlade.hpp"
+// IWYU pragma private; include "GlobalNamespace/BlocksBlade.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,13 +81,13 @@ protected:
   constexpr BlocksBlade_Element();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade_Element", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade_Element", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlocksBlade_Element(BlocksBlade_Element&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade_Element", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade_Element", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlocksBlade_Element(BlocksBlade_Element const&) = delete;
+  BlocksBlade_Element(BlocksBlade_Elementconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6217 };
@@ -108,6 +108,7 @@ static_assert(offsetof(::GlobalNamespace::BlocksBlade_Element, ___velocity) == 0
 static_assert(sizeof(::GlobalNamespace::BlocksBlade_Element) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// [AddComponentMenu("Beat Saber/Gameplay/BlocksBlade")]
 // Dependencies UnityEngine.Color, UnityEngine.Matrix4x4, UnityEngine.MonoBehaviour, UnityEngine.Vector4
 namespace GlobalNamespace {
 // Is value type: false
@@ -318,6 +319,7 @@ public:
 
   static inline int32_t getStaticF__zClipPropertyID();
 
+  /// [CompilerGenerated]
   /// @brief Method get_color, addr 0x59ed894, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
@@ -329,6 +331,7 @@ public:
 
   static inline void setStaticF__zClipPropertyID(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_color, addr 0x59ed8a0, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
@@ -338,47 +341,58 @@ protected:
   constexpr BlocksBlade();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlocksBlade(BlocksBlade&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BlocksBlade", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BlocksBlade(BlocksBlade const&) = delete;
+  BlocksBlade(BlocksBladeconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6218 };
 
+  /// [SerializeField]
   /// @brief Field _elementMesh, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____elementMesh;
 
+  /// [SerializeField]
   /// @brief Field _material, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 
+  /// [SerializeField]
   /// @brief Field _numberOfElements, offset: 0x30, size: 0x4, def value: None
   int32_t ____numberOfElements;
 
+  /// [SerializeField]
   /// @brief Field _radius, offset: 0x34, size: 0x4, def value: None
   float_t ____radius;
 
+  /// [SerializeField]
   /// @brief Field _length, offset: 0x38, size: 0x4, def value: None
   float_t ____length;
 
+  /// [SerializeField]
   /// @brief Field _minVelocity, offset: 0x3c, size: 0x4, def value: None
   float_t ____minVelocity;
 
+  /// [SerializeField]
   /// @brief Field _maxVelocity, offset: 0x40, size: 0x4, def value: None
   float_t ____maxVelocity;
 
+  /// [SerializeField]
   /// @brief Field _elementWidth, offset: 0x44, size: 0x4, def value: None
   float_t ____elementWidth;
 
+  /// [SerializeField]
   /// @brief Field _minElementLength, offset: 0x48, size: 0x4, def value: None
   float_t ____minElementLength;
 
+  /// [SerializeField]
   /// @brief Field _maxElementLength, offset: 0x4c, size: 0x4, def value: None
   float_t ____maxElementLength;
 
+  /// [CompilerGenerated]
   /// @brief Field <color>k__BackingField, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____color_k__BackingField;
 

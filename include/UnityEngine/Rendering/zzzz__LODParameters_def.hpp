@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\LODParameters.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/LODParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,9 +70,9 @@ public:
   // @brief default ctor
   constexpr LODParameters();
 
-  // Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "m_FieldOfView", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OrthoSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_CameraPixelHeight", ty: "int32_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_FieldOfView", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_OrthoSize", ty: "float_t", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_CameraPixelHeight", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr LODParameters(int32_t m_IsOrthographic, ::UnityEngine::Vector3 m_CameraPosition, float_t m_FieldOfView, float_t m_OrthoSize, int32_t m_CameraPixelHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

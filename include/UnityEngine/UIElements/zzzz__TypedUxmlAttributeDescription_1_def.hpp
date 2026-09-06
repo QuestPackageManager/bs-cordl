@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\TypedUxmlAttributeDescription_1.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/TypedUxmlAttributeDescription_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
 
   __declspec(property(get = get_defaultValue, put = set_defaultValue)) T defaultValue;
 
-  /// @brief Method GetValueFromBag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>* New_ctor();
@@ -46,9 +46,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method get_defaultValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_defaultValue();
 
+  /// [CompilerGenerated]
   /// @brief Method set_defaultValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_defaultValue(T value);
 
@@ -58,17 +60,19 @@ protected:
   constexpr TypedUxmlAttributeDescription_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypedUxmlAttributeDescription_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedUxmlAttributeDescription_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypedUxmlAttributeDescription_1(TypedUxmlAttributeDescription_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypedUxmlAttributeDescription_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedUxmlAttributeDescription_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypedUxmlAttributeDescription_1(TypedUxmlAttributeDescription_1 const&) = delete;
+  TypedUxmlAttributeDescription_1(TypedUxmlAttributeDescription_1const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5149 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <defaultValue>k__BackingField, offset: 0x40, size: 0x8, def value: None
   T ____defaultValue_k__BackingField;
 

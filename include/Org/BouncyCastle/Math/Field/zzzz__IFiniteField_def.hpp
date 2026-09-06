@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Math\Field\IFiniteField.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Math/Field/IFiniteField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,15 +26,15 @@ public:
 
   __declspec(property(get = get_Dimension)) int32_t Dimension;
 
-  /// @brief Method get_Characteristic, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Characteristic, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-  /// @brief Method get_Dimension, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_Dimension, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Dimension();
 
-  // Ctor Parameters [CppParam { name: "", ty: "IFiniteField", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IFiniteField", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  IFiniteField(IFiniteField const&) = delete;
+  IFiniteField(IFiniteFieldconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1581 };

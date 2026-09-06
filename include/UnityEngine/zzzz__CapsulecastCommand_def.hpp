@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\CapsulecastCommand.hpp"
+// IWYU pragma private; include "UnityEngine/CapsulecastCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -11,7 +11,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CapsulecastCommand)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template <typename T>
+  requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
+struct NativeArray_1;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobsUtility_JobScheduleParameters;
@@ -38,6 +40,8 @@ struct CapsulecastCommand;
 // Write type traits
 MARK_VAL_T(::UnityEngine::CapsulecastCommand);
 DEFINE_IL2CPP_CLASS(::UnityEngine::CapsulecastCommand, "UnityEngine", "CapsulecastCommand");
+// [NativeHeader("Modules/Physics/BatchCommands/CapsulecastCommand.h")]
+// [NativeHeader("Runtime/Jobs/ScriptBindings/JobsBindingsTypes.h")]
 // Dependencies UnityEngine.PhysicsScene, UnityEngine.QueryParameters, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
@@ -49,6 +53,7 @@ public:
 
   __declspec(property(get = get_distance, put = set_distance)) float_t distance;
 
+  /// @brief [Obsolete("Layer Mask is now a part of QueryParameters struct", false)]
   __declspec(property(get = get_layerMask, put = set_layerMask)) int32_t layerMask;
 
   __declspec(property(get = get_physicsScene, put = set_physicsScene)) ::UnityEngine::PhysicsScene physicsScene;
@@ -68,6 +73,7 @@ public:
                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit> results, int32_t minCommandsPerJob, int32_t maxHits,
                                                        ::Unity::Jobs::JobHandle dependsOn);
 
+  /// [FreeFunction("ScheduleCapsulecastCommandBatch", ThrowsException = true)]
   /// @brief Method ScheduleCapsulecastBatch, addr 0x6b96d0c, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleCapsulecastBatch(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen,
                                                                   void* result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits);
@@ -76,12 +82,14 @@ public:
   static inline void ScheduleCapsulecastBatch_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen, void* result,
                                                        int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
+  /// [Obsolete("This struct signature is no longer supported. Use struct with a QueryParameters instead", false)]
   /// @brief Method .ctor, addr 0x6b96e58, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, float_t radius, ::UnityEngine::Vector3 direction, float_t distance, int32_t layerMask);
 
   /// @brief Method .ctor, addr 0x6b969d0, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, float_t radius, ::UnityEngine::Vector3 direction, ::UnityEngine::QueryParameters queryParameters, float_t distance);
 
+  /// [Obsolete("This struct signature is no longer supported. Use struct with a QueryParameters instead", false)]
   /// @brief Method .ctor, addr 0x6b96f4c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, float_t radius, ::UnityEngine::Vector3 direction, float_t distance,
                     int32_t layerMask);
@@ -90,45 +98,63 @@ public:
   inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, float_t radius, ::UnityEngine::Vector3 direction,
                     ::UnityEngine::QueryParameters queryParameters, float_t distance);
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_direction, addr 0x6b96b28, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_direction();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_distance, addr 0x6b96b40, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
   /// @brief Method get_layerMask, addr 0x6b96f84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layerMask();
 
+  /// [CompilerGenerated]
+  /// [IsReadOnly]
   /// @brief Method get_physicsScene, addr 0x6b96b50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicsScene get_physicsScene();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_point1, addr 0x6b96ae8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point1();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_point2, addr 0x6b96b00, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point2();
 
+  /// [IsReadOnly]
+  /// [CompilerGenerated]
   /// @brief Method get_radius, addr 0x6b96b18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
+  /// [CompilerGenerated]
   /// @brief Method set_direction, addr 0x6b96b34, size 0xc, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_distance, addr 0x6b96b48, size 0x8, virtual false, abstract: false, final false
   inline void set_distance(float_t value);
 
   /// @brief Method set_layerMask, addr 0x6b96f44, size 0x8, virtual false, abstract: false, final false
   inline void set_layerMask(int32_t value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_physicsScene, addr 0x6b96b58, size 0x8, virtual false, abstract: false, final false
   inline void set_physicsScene(::UnityEngine::PhysicsScene value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_point1, addr 0x6b96af4, size 0xc, virtual false, abstract: false, final false
   inline void set_point1(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_point2, addr 0x6b96b0c, size 0xc, virtual false, abstract: false, final false
   inline void set_point2(::UnityEngine::Vector3 value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_radius, addr 0x6b96b20, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
@@ -136,11 +162,11 @@ public:
   // @brief default ctor
   constexpr CapsulecastCommand();
 
-  // Ctor Parameters [CppParam { name: "_point1_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_point2_k__BackingField", ty:
-  // "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_radius_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_direction_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_distance_k__BackingField", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "_physicsScene_k__BackingField", ty: "::UnityEngine::PhysicsScene", modifiers: "", def_value: None }, CppParam { name: "queryParameters", ty: "::UnityEngine::QueryParameters",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "_point1_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "_point2_k__BackingField", ty:
+  // "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "_radius_k__BackingField", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam {
+  // name: "_direction_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None, comment: None }, CppParam { name: "_distance_k__BackingField", ty: "float_t", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "_physicsScene_k__BackingField", ty: "::UnityEngine::PhysicsScene", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "queryParameters", ty: "::UnityEngine::QueryParameters", modifiers: "", def_value: None, comment: None }]
   constexpr CapsulecastCommand(::UnityEngine::Vector3 _point1_k__BackingField, ::UnityEngine::Vector3 _point2_k__BackingField, float_t _radius_k__BackingField,
                                ::UnityEngine::Vector3 _direction_k__BackingField, float_t _distance_k__BackingField, ::UnityEngine::PhysicsScene _physicsScene_k__BackingField,
                                ::UnityEngine::QueryParameters queryParameters) noexcept;
@@ -151,21 +177,33 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <point1>k__BackingField, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 _point1_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <point2>k__BackingField, offset: 0xc, size: 0xc, def value: None
   ::UnityEngine::Vector3 _point2_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <radius>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t _radius_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <direction>k__BackingField, offset: 0x1c, size: 0xc, def value: None
   ::UnityEngine::Vector3 _direction_k__BackingField;
 
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
+  /// [CompilerGenerated]
   /// @brief Field <distance>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t _distance_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// @brief Field <physicsScene>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::PhysicsScene _physicsScene_k__BackingField;
 

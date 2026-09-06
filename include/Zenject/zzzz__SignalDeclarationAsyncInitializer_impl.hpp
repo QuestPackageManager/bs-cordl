@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SignalDeclarationAsyncInitializer.hpp"
+// IWYU pragma private; include "Zenject/SignalDeclarationAsyncInitializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalDeclarationAsyncInitializer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -87,8 +87,8 @@ constexpr void Zenject::SignalDeclarationAsyncInitializer::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____declarations = value;
 }
-inline void Zenject::SignalDeclarationAsyncInitializer::_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
-                                                              ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager) {
+inline void Zenject::SignalDeclarationAsyncInitializer::_ctor(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
+                                                              /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
@@ -109,8 +109,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::SignalDeclarationAsyncInitializer::__
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclarationAsyncInitializer*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*>(nullptr, ___internal_method);
 }
-inline ::Zenject::SignalDeclarationAsyncInitializer* Zenject::SignalDeclarationAsyncInitializer::New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
-                                                                                                          ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager) {
+inline ::Zenject::SignalDeclarationAsyncInitializer*
+Zenject::SignalDeclarationAsyncInitializer::New_ctor(/* [Inject(Source = (Zenject.InjectSources)1)] */ ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
+                                                     /* [Inject(Optional = true, Source = (Zenject.InjectSources)1)] */ ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::Zenject::SignalDeclarationAsyncInitializer*>(declarations, tickManager));
 }
 /// @brief Convert operator to "::Zenject::IInitializable"

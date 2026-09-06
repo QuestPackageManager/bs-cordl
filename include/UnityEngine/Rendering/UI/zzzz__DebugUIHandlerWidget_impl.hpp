@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerWidget.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerWidget.hpp"
+#include "UnityEngine/Rendering/zzzz__DebugUI_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_def.hpp"
@@ -346,7 +347,9 @@ inline ::UnityEngine::Rendering::DebugUI_Widget* UnityEngine::Rendering::UI::Deb
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerWidget*>(), { "GetWidget", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::DebugUI_Widget*>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::Rendering::UI::DebugUIHandlerWidget::CastWidget() {
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::DebugUI_Widget*>)
+inline T UnityEngine::Rendering::UI::DebugUIHandlerWidget::CastWidget() {
   static auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerWidget*>(), { "CastWidget", { ::i2c::class_of<T>() }, {} })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));

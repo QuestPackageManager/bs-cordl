@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OvrToolMetrics.hpp"
+// IWYU pragma private; include "GlobalNamespace/OvrToolMetrics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OvrToolMetrics_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMetricsToolSDK_def.hpp"

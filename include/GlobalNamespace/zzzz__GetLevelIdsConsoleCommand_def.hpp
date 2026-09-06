@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\GetLevelIdsConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace/GetLevelIdsConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -13,7 +13,9 @@ namespace GlobalNamespace {
 struct ConsoleMessage;
 }
 namespace GlobalNamespace {
-template <typename T> class RequiredArgument_1;
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
+class RequiredArgument_1;
 }
 namespace GlobalNamespace {
 class SongRunningHelper;
@@ -31,6 +33,7 @@ class GetLevelIdsConsoleCommand;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::GetLevelIdsConsoleCommand*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GetLevelIdsConsoleCommand*, "", "GetLevelIdsConsoleCommand");
+// [UsedImplicitly]
 // Dependencies ConsoleCommandBase
 namespace GlobalNamespace {
 // Is value type: false
@@ -92,20 +95,22 @@ protected:
   constexpr GetLevelIdsConsoleCommand();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GetLevelIdsConsoleCommand", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetLevelIdsConsoleCommand", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetLevelIdsConsoleCommand(GetLevelIdsConsoleCommand&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GetLevelIdsConsoleCommand", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GetLevelIdsConsoleCommand", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GetLevelIdsConsoleCommand(GetLevelIdsConsoleCommand const&) = delete;
+  GetLevelIdsConsoleCommand(GetLevelIdsConsoleCommandconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19398 };
 
+  /// [Inject]
   /// @brief Field _songRunningHelper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SongRunningHelper* ____songRunningHelper;
 
+  /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 

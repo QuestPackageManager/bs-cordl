@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity\Collections\Spinner.hpp"
+// IWYU pragma private; include "Unity/Collections/Spinner.hpp"
 #include "Unity/Collections/zzzz__Spinner_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::Spinner.Acquire
 template <>
@@ -65,7 +65,7 @@ inline void Unity::Collections::Spinner::Release() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Spinner>(), { "Release", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Lock", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Lock", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::Unity::Collections::Spinner::Spinner(int32_t m_Lock) noexcept {
   this->m_Lock = m_Lock;
 }

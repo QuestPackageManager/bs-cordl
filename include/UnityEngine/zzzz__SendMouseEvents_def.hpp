@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\SendMouseEvents.hpp"
+// IWYU pragma private; include "UnityEngine/SendMouseEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,8 +61,8 @@ public:
   // @brief default ctor
   constexpr SendMouseEvents_HitInfo();
 
-  // Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>",
-  // modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None, comment: None }, CppParam { name: "camera", ty:
+  // "::UnityW<::UnityEngine::Camera>", modifiers: "", def_value: None, comment: None }]
   constexpr SendMouseEvents_HitInfo(::UnityW<::UnityEngine::GameObject> target, ::UnityW<::UnityEngine::Camera> camera) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -124,12 +124,14 @@ public:
   /// @brief Field s_MouseUsed, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_s_MouseUsed, put = setStaticF_s_MouseUsed)) bool s_MouseUsed;
 
+  /// [RequiredByNativeCode]
   /// @brief Method DoSendMouseEvents, addr 0x6b62690, size 0x98c, virtual false, abstract: false, final false
   static inline void DoSendMouseEvents(int32_t skipRTCameras);
 
   /// @brief Method SendEvents, addr 0x6b6301c, size 0x478, virtual false, abstract: false, final false
   static inline void SendEvents(int32_t i, ::UnityEngine::SendMouseEvents_HitInfo hit);
 
+  /// [RequiredByNativeCode]
   /// @brief Method SetMouseMoved, addr 0x6b62630, size 0x60, virtual false, abstract: false, final false
   static inline void SetMouseMoved();
 
@@ -178,13 +180,13 @@ protected:
   constexpr SendMouseEvents();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SendMouseEvents", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SendMouseEvents", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SendMouseEvents(SendMouseEvents&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SendMouseEvents", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SendMouseEvents", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SendMouseEvents(SendMouseEvents const&) = delete;
+  SendMouseEvents(SendMouseEventsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22731 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\ComponentModel\PropertyDescriptorCollection.hpp"
+// IWYU pragma private; include "System/ComponentModel/PropertyDescriptorCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -131,13 +131,13 @@ protected:
   constexpr PropertyDescriptorCollection_PropertyDescriptorEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection_PropertyDescriptorEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection_PropertyDescriptorEnumerator", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyDescriptorCollection_PropertyDescriptorEnumerator(PropertyDescriptorCollection_PropertyDescriptorEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection_PropertyDescriptorEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection_PropertyDescriptorEnumerator", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyDescriptorCollection_PropertyDescriptorEnumerator(PropertyDescriptorCollection_PropertyDescriptorEnumerator const&) = delete;
+  PropertyDescriptorCollection_PropertyDescriptorEnumerator(PropertyDescriptorCollection_PropertyDescriptorEnumeratorconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11287 };
@@ -158,6 +158,7 @@ static_assert(offsetof(::System::ComponentModel::PropertyDescriptorCollection_Pr
 static_assert(sizeof(::System::ComponentModel::PropertyDescriptorCollection_PropertyDescriptorEnumerator) == 0x20, "Size mismatch!");
 
 } // namespace System::ComponentModel
+// [DefaultMember("Item")]
 // Dependencies System.ComponentModel.PropertyDescriptor, System.Object
 namespace System::ComponentModel {
 // Is value type: false
@@ -441,6 +442,7 @@ public:
 
   static inline ::System::ComponentModel::PropertyDescriptorCollection* getStaticF_Empty();
 
+  /// [CompilerGenerated]
   /// @brief Method get_Count, addr 0x63c4b00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
@@ -464,6 +466,7 @@ public:
 
   static inline void setStaticF_Empty(::System::ComponentModel::PropertyDescriptorCollection* value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_Count, addr 0x63c4b08, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
@@ -473,13 +476,13 @@ protected:
   constexpr PropertyDescriptorCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyDescriptorCollection(PropertyDescriptorCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PropertyDescriptorCollection(PropertyDescriptorCollection const&) = delete;
+  PropertyDescriptorCollection(PropertyDescriptorCollectionconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11288 };
@@ -511,6 +514,7 @@ public:
   /// @brief Field _internalSyncObject, offset: 0x40, size: 0x8, def value: None
   ::System::Object* ____internalSyncObject;
 
+  /// [CompilerGenerated]
   /// @brief Field <Count>k__BackingField, offset: 0x48, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
 

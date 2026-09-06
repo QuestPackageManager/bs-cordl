@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonISerializableContract.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonISerializableContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,6 +28,7 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE JsonISerializableContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
   // Declarations
+  /// @brief [Nullable(new[] { 2, 1 })]
   __declspec(property(get = get_ISerializableCreator, put = set_ISerializableCreator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ISerializableCreator;
 
   /// @brief Field <ISerializableCreator>k__BackingField, offset 0xc0, size 0x8
@@ -35,6 +36,7 @@ public:
                       put =
                           __cordl_internal_set__ISerializableCreator_k__BackingField)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _ISerializableCreator_k__BackingField;
 
+  /// @brief [NullableContext(1)]
   static inline ::Newtonsoft::Json::Serialization::JsonISerializableContract* New_ctor(::System::Type* underlyingType);
 
   constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* const& __cordl_internal_get__ISerializableCreator_k__BackingField() const;
@@ -43,14 +45,17 @@ public:
 
   constexpr void __cordl_internal_set__ISerializableCreator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
+  /// [NullableContext(1)]
   /// @brief Method .ctor, addr 0x5d3d350, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
+  /// [CompilerGenerated]
   /// @brief Method get_ISerializableCreator, addr 0x5d43be8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ISerializableCreator();
 
+  /// [CompilerGenerated]
   /// @brief Method set_ISerializableCreator, addr 0x5d43bf0, size 0x8, virtual false, abstract: false, final false
-  inline void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+  inline void set_ISerializableCreator(/* [Nullable(new[] { 2, 1 })] */ ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:
   // Ctor Parameters []
@@ -58,17 +63,19 @@ protected:
   constexpr JsonISerializableContract();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonISerializableContract", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonISerializableContract", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonISerializableContract(JsonISerializableContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonISerializableContract", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "JsonISerializableContract", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  JsonISerializableContract(JsonISerializableContract const&) = delete;
+  JsonISerializableContract(JsonISerializableContractconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13509 };
 
+  /// [Nullable(new[] { 2, 1 })]
+  /// [CompilerGenerated]
   /// @brief Field <ISerializableCreator>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ____ISerializableCreator_k__BackingField;
 

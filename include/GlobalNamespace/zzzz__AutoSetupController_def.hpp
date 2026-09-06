@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\AutoSetupController.hpp"
+// IWYU pragma private; include "GlobalNamespace/AutoSetupController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,18 +79,23 @@ public:
   /// @brief Method Setup, addr 0x593e3f8, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__12_0, addr 0x593e7a4, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_0();
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__12_1, addr 0x593e7c4, size 0x1c, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_1(bool isOn);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__12_2, addr 0x593e7e0, size 0x1c, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_2(bool isOn);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__12_3, addr 0x593e7fc, size 0x1c, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_3(bool isOn);
 
+  /// [CompilerGenerated]
   /// @brief Method <OnEnable>b__12_4, addr 0x593e818, size 0x1c, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_4(bool isOn);
 
@@ -151,9 +156,11 @@ public:
   /// @brief Method .ctor, addr 0x593e6e8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didFinishEvent, addr 0x593e278, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didFinishEvent, addr 0x593e338, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
@@ -163,32 +170,39 @@ protected:
   constexpr AutoSetupController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AutoSetupController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoSetupController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutoSetupController(AutoSetupController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AutoSetupController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AutoSetupController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AutoSetupController(AutoSetupController const&) = delete;
+  AutoSetupController(AutoSetupControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6884 };
 
+  /// [SerializeField]
   /// @brief Field _closeButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____closeButton;
 
+  /// [Header("Toggles")]
+  /// [SerializeField]
   /// @brief Field _selectBasedOnSuggestionsToggle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____selectBasedOnSuggestionsToggle;
 
+  /// [SerializeField]
   /// @brief Field _autoStartWhenAllReadyToggle, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____autoStartWhenAllReadyToggle;
 
+  /// [SerializeField]
   /// @brief Field _forceAutoStartAfterSongSelectionToggle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____forceAutoStartAfterSongSelectionToggle;
 
+  /// [SerializeField]
   /// @brief Field _randomSongIfNoneSuggestedToggle, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____randomSongIfNoneSuggestedToggle;
 
+  /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::AutoSetupData*>* ___didFinishEvent;
 

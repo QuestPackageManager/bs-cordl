@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\ProfilingSample.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/ProfilingSample.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,8 @@ struct ProfilingSample;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ProfilingSample);
 DEFINE_IL2CPP_CLASS(::UnityEngine::Rendering::ProfilingSample, "UnityEngine.Rendering", "ProfilingSample");
+// [Obsolete("Please use ProfilingScope")]
+// [IgnoredByDeepProfiler]
 // Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
@@ -46,7 +48,7 @@ public:
   inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW format, ::System::Object* arg);
 
   /// @brief Method .ctor, addr 0x676debc, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW format, ::ArrayW<::System::Object*> args);
+  inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW format, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
   /// @brief Method .ctor, addr 0x676ddc4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW name, ::UnityEngine::Profiling::CustomSampler* sampler);
@@ -58,9 +60,9 @@ public:
   // @brief default ctor
   constexpr ProfilingSample();
 
-  // Ctor Parameters [CppParam { name: "m_Cmd", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Sampler", ty: "::UnityEngine::Profiling::CustomSampler*", modifiers: "", def_value: None
-  // }]
+  // Ctor Parameters [CppParam { name: "m_Cmd", ty: "::UnityEngine::Rendering::CommandBuffer*", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers:
+  // "", def_value: None, comment: None }, CppParam { name: "m_Disposed", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "m_Sampler", ty:
+  // "::UnityEngine::Profiling::CustomSampler*", modifiers: "", def_value: None, comment: None }]
   constexpr ProfilingSample(::UnityEngine::Rendering::CommandBuffer* m_Cmd, ::StringW m_Name, bool m_Disposed, ::UnityEngine::Profiling::CustomSampler* m_Sampler) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

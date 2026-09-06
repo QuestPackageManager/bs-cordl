@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject\SubContainerCreatorByMethodBase.hpp"
+// IWYU pragma private; include "Zenject/SubContainerCreatorByMethodBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,6 +30,7 @@ class SubContainerCreatorByMethodBase;
 // Write type traits
 MARK_REF_T(::Zenject::SubContainerCreatorByMethodBase*);
 DEFINE_IL2CPP_CLASS(::Zenject::SubContainerCreatorByMethodBase*, "Zenject", "SubContainerCreatorByMethodBase");
+// [NoReflectionBaking]
 // Dependencies System.Object
 namespace Zenject {
 // Is value type: false
@@ -49,7 +50,7 @@ public:
   /// @brief Method CreateEmptySubContainer, addr 0x6e8abd0, size 0x3c, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* CreateEmptySubContainer();
 
-  /// @brief Method CreateSubContainer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method CreateSubContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByMethodBase* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo);
@@ -78,13 +79,13 @@ protected:
   constexpr SubContainerCreatorByMethodBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethodBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethodBase", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByMethodBase(SubContainerCreatorByMethodBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethodBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethodBase", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByMethodBase(SubContainerCreatorByMethodBase const&) = delete;
+  SubContainerCreatorByMethodBase(SubContainerCreatorByMethodBaseconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14600 };

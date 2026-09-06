@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\UIElements\Painter2D.hpp"
+// IWYU pragma private; include "UnityEngine/UIElements/Painter2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,8 +66,8 @@ public:
   // @brief default ctor
   constexpr Painter2D_Painter2DJobData();
 
-  // Ctor Parameters [CppParam { name: "node", ty: "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: None }, CppParam { name: "snapshotIndex", ty: "int32_t", modifiers:
-  // "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "node", ty: "::UnityEngine::UIElements::UnsafeMeshGenerationNode", modifiers: "", def_value: None, comment: None }, CppParam { name: "snapshotIndex", ty:
+  // "int32_t", modifiers: "", def_value: None, comment: None }]
   constexpr Painter2D_Painter2DJobData(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, int32_t snapshotIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,9 +112,9 @@ public:
   // @brief default ctor
   constexpr Painter2D_Painter2DJob();
 
-  // Ctor Parameters [CppParam { name: "painterHandle", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "allocator", ty: "::UnityEngine::UIElements::TempMeshAllocator",
-  // modifiers: "", def_value: None }, CppParam { name: "jobParameters", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData>", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "painterHandle", ty: "::System::IntPtr", modifiers: "", def_value: None, comment: None }, CppParam { name: "allocator", ty:
+  // "::UnityEngine::UIElements::TempMeshAllocator", modifiers: "", def_value: None, comment: None }, CppParam { name: "jobParameters", ty:
+  // "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData>", modifiers: "", def_value: None, comment: None }]
   constexpr Painter2D_Painter2DJob(::System::IntPtr painterHandle, ::UnityEngine::UIElements::TempMeshAllocator allocator,
                                    ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData> jobParameters) noexcept;
 
@@ -124,12 +124,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
+  /// [NativeDisableUnsafePtrRestriction]
   /// @brief Field painterHandle, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr painterHandle;
 
+  /// [ReadOnly]
   /// @brief Field allocator, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::TempMeshAllocator allocator;
 
+  /// [ReadOnly]
   /// @brief Field jobParameters, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Painter2D_Painter2DJobData> jobParameters;
 
@@ -275,6 +278,7 @@ public:
 
   static inline void setStaticF_s_StrokeMarker(::Unity::Profiling::ProfilerMarker value);
 
+  /// [CompilerGenerated]
   /// @brief Method set_isPainterActive, addr 0x6dd66d8, size 0x64, virtual false, abstract: false, final false
   static inline void set_isPainterActive(bool value);
 
@@ -284,13 +288,13 @@ protected:
   constexpr Painter2D();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Painter2D", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Painter2D", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Painter2D(Painter2D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Painter2D", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Painter2D", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Painter2D(Painter2D const&) = delete;
+  Painter2D(Painter2Dconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4678 };

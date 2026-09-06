@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\OVRCustomFaceExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace/OVRCustomFaceExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,9 @@ class OVRCustomFaceExtensions;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::OVRCustomFaceExtensions*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::OVRCustomFaceExtensions*, "", "OVRCustomFaceExtensions");
+// [Extension]
+// [HelpURL("https://developer.oculus.com/documentation/unity/move-face-tracking/")]
+// [Feature((Meta.XR.Util.Feature)3)]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
@@ -38,9 +41,11 @@ public:
                                                                                                    ::ArrayW<::GlobalNamespace::OVRFaceExpressions_FaceExpression> faceExpressions,
                                                                                                    bool allowDuplicateMapping);
 
+  /// [Extension]
   /// @brief Method AutoMapBlendshapes, addr 0x5ef8ee8, size 0x340, virtual false, abstract: false, final false
   static inline void AutoMapBlendshapes(::GlobalNamespace::OVRCustomFace* customFace);
 
+  /// [Extension]
   /// @brief Method ClearBlendshapes, addr 0x5ef9378, size 0xc0, virtual false, abstract: false, final false
   static inline void ClearBlendshapes(::GlobalNamespace::OVRCustomFace* customFace);
 
@@ -71,13 +76,13 @@ protected:
   constexpr OVRCustomFaceExtensions();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomFaceExtensions", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomFaceExtensions", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRCustomFaceExtensions(OVRCustomFaceExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomFaceExtensions", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRCustomFaceExtensions", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  OVRCustomFaceExtensions(OVRCustomFaceExtensions const&) = delete;
+  OVRCustomFaceExtensions(OVRCustomFaceExtensionsconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7876 };

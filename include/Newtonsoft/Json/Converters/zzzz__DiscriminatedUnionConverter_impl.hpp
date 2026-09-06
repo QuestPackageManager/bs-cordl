@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Converters\DiscriminatedUnionConverter.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Converters/DiscriminatedUnionConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -419,13 +419,14 @@ inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_Union* Newton
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter*>(), { "CreateUnion", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_Union*>(nullptr, ___internal_method, t);
 }
-inline void Newtonsoft::Json::Converters::DiscriminatedUnionConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer) {
+inline void Newtonsoft::Json::Converters::DiscriminatedUnionConverter::WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value,
+                                                                                 ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
 }
-inline ::System::Object* Newtonsoft::Json::Converters::DiscriminatedUnionConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue,
-                                                                                             ::Newtonsoft::Json::JsonSerializer* serializer) {
+inline ::System::Object* Newtonsoft::Json::Converters::DiscriminatedUnionConverter::ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType,
+                                                                                             /* [Nullable(2)] */ ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method, reader, objectType, existingValue, serializer);

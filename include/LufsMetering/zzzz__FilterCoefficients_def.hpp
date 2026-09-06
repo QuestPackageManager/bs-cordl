@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering\FilterCoefficients.hpp"
+// IWYU pragma private; include "LufsMetering/FilterCoefficients.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,9 +24,9 @@ public:
   // @brief default ctor
   constexpr FilterCoefficients();
 
-  // Ctor Parameters [CppParam { name: "a0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "a1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "a2", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "b0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "b1", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "b2", ty: "float_t", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "a0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "a1", ty: "float_t", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "a2", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "b0", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name:
+  // "b1", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "b2", ty: "float_t", modifiers: "", def_value: None, comment: None }]
   constexpr FilterCoefficients(float_t a0, float_t a1, float_t a2, float_t b0, float_t b1, float_t b2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

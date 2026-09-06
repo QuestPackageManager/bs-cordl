@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\TypeNames.hpp"
+// IWYU pragma private; include "System/TypeNames.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   /// @brief Method .ctor, addr 0x5c9e6e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DisplayName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DisplayName();
 
   /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
@@ -75,13 +75,13 @@ protected:
   constexpr TypeNames_ATypeName();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeNames_ATypeName", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeNames_ATypeName", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeNames_ATypeName(TypeNames_ATypeName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeNames_ATypeName", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeNames_ATypeName", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeNames_ATypeName(TypeNames_ATypeName const&) = delete;
+  TypeNames_ATypeName(TypeNames_ATypeNameconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2639 };
@@ -107,13 +107,13 @@ protected:
   constexpr TypeNames();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeNames", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeNames", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeNames(TypeNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeNames", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeNames", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TypeNames(TypeNames const&) = delete;
+  TypeNames(TypeNamesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2640 };

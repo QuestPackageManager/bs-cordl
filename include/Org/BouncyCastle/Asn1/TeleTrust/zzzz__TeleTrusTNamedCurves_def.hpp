@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\Asn1\TeleTrust\TeleTrusTNamedCurves.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/TeleTrust/TeleTrusTNamedCurves.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -179,13 +179,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP160r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP160r1Holder(TeleTrusTNamedCurves_BrainpoolP160r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP160r1Holder(TeleTrusTNamedCurves_BrainpoolP160r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP160r1Holder(TeleTrusTNamedCurves_BrainpoolP160r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 298 };
@@ -224,13 +224,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP160t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160t1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP160t1Holder(TeleTrusTNamedCurves_BrainpoolP160t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160t1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP160t1Holder(TeleTrusTNamedCurves_BrainpoolP160t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP160t1Holder(TeleTrusTNamedCurves_BrainpoolP160t1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 299 };
@@ -269,13 +269,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP192r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP192r1Holder(TeleTrusTNamedCurves_BrainpoolP192r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP192r1Holder(TeleTrusTNamedCurves_BrainpoolP192r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP192r1Holder(TeleTrusTNamedCurves_BrainpoolP192r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 300 };
@@ -314,13 +314,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP192t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192t1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP192t1Holder(TeleTrusTNamedCurves_BrainpoolP192t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192t1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP192t1Holder(TeleTrusTNamedCurves_BrainpoolP192t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP192t1Holder(TeleTrusTNamedCurves_BrainpoolP192t1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 301 };
@@ -359,13 +359,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP224r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP224r1Holder(TeleTrusTNamedCurves_BrainpoolP224r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP224r1Holder(TeleTrusTNamedCurves_BrainpoolP224r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP224r1Holder(TeleTrusTNamedCurves_BrainpoolP224r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 302 };
@@ -404,13 +404,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP224t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224t1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP224t1Holder(TeleTrusTNamedCurves_BrainpoolP224t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224t1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP224t1Holder(TeleTrusTNamedCurves_BrainpoolP224t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP224t1Holder(TeleTrusTNamedCurves_BrainpoolP224t1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 303 };
@@ -449,13 +449,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP256r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP256r1Holder(TeleTrusTNamedCurves_BrainpoolP256r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP256r1Holder(TeleTrusTNamedCurves_BrainpoolP256r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP256r1Holder(TeleTrusTNamedCurves_BrainpoolP256r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 304 };
@@ -494,13 +494,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP256t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256t1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP256t1Holder(TeleTrusTNamedCurves_BrainpoolP256t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256t1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP256t1Holder(TeleTrusTNamedCurves_BrainpoolP256t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP256t1Holder(TeleTrusTNamedCurves_BrainpoolP256t1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 305 };
@@ -539,13 +539,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP320r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP320r1Holder(TeleTrusTNamedCurves_BrainpoolP320r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP320r1Holder(TeleTrusTNamedCurves_BrainpoolP320r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP320r1Holder(TeleTrusTNamedCurves_BrainpoolP320r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 306 };
@@ -584,13 +584,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP320t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320t1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP320t1Holder(TeleTrusTNamedCurves_BrainpoolP320t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320t1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP320t1Holder(TeleTrusTNamedCurves_BrainpoolP320t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP320t1Holder(TeleTrusTNamedCurves_BrainpoolP320t1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 307 };
@@ -629,13 +629,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP384r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP384r1Holder(TeleTrusTNamedCurves_BrainpoolP384r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP384r1Holder(TeleTrusTNamedCurves_BrainpoolP384r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP384r1Holder(TeleTrusTNamedCurves_BrainpoolP384r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 308 };
@@ -674,13 +674,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP384t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384t1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP384t1Holder(TeleTrusTNamedCurves_BrainpoolP384t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384t1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP384t1Holder(TeleTrusTNamedCurves_BrainpoolP384t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP384t1Holder(TeleTrusTNamedCurves_BrainpoolP384t1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 309 };
@@ -719,13 +719,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP512r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512r1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP512r1Holder(TeleTrusTNamedCurves_BrainpoolP512r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512r1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP512r1Holder(TeleTrusTNamedCurves_BrainpoolP512r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP512r1Holder(TeleTrusTNamedCurves_BrainpoolP512r1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 310 };
@@ -764,13 +764,13 @@ protected:
   constexpr TeleTrusTNamedCurves_BrainpoolP512t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512t1Holder", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves_BrainpoolP512t1Holder(TeleTrusTNamedCurves_BrainpoolP512t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512t1Holder", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves_BrainpoolP512t1Holder(TeleTrusTNamedCurves_BrainpoolP512t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP512t1Holder(TeleTrusTNamedCurves_BrainpoolP512t1Holderconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 311 };
@@ -878,13 +878,13 @@ protected:
   constexpr TeleTrusTNamedCurves();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTNamedCurves(TeleTrusTNamedCurves&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  TeleTrusTNamedCurves(TeleTrusTNamedCurves const&) = delete;
+  TeleTrusTNamedCurves(TeleTrusTNamedCurvesconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 312 };

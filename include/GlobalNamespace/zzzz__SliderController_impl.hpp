@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\SliderController.hpp"
+// IWYU pragma private; include "GlobalNamespace/SliderController.hpp"
 #include "GlobalNamespace/zzzz__SliderControllerBase_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderSpawnData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -39,7 +39,7 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SliderController_LengthType::SliderController_LengthType(int32_t value__) noexcept {
   this->value__ = value__;
 }
@@ -398,6 +398,7 @@ inline ::System::Object* GlobalNamespace::SliderController__DissolveCoroutine_d_
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController__DissolveCoroutine_d__72*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
+/// @brief [DebuggerHidden]
 inline ::GlobalNamespace::SliderController__DissolveCoroutine_d__72* GlobalNamespace::SliderController__DissolveCoroutine_d__72::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SliderController__DissolveCoroutine_d__72*>(__1__state));
 }
@@ -1325,7 +1326,7 @@ inline ::UnityW<::GlobalNamespace::SliderIntensityEffect> GlobalNamespace::Slide
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::SliderIntensityEffect>>(this, ___internal_method);
 }
 inline void GlobalNamespace::SliderController::Init(::GlobalNamespace::SliderController_LengthType lengthType, ::GlobalNamespace::SliderData* sliderData,
-                                                    ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, float_t noteUniformScale, float_t randomValue) {
+                                                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, float_t noteUniformScale, float_t randomValue) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(),
                                                            { "Init",
@@ -1402,7 +1403,7 @@ inline void GlobalNamespace::SliderController::HandleNoteWasMissed(::GlobalNames
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(), { "HandleNoteWasMissed", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteController);
 }
-inline void GlobalNamespace::SliderController::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::SliderController::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderController*>(),
                                               { "HandleNoteWasCut", {}, { ::i2c::type_of<::GlobalNamespace::NoteController*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>() } })));

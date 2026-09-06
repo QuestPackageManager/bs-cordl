@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI\ScreenModeController.hpp"
+// IWYU pragma private; include "HMUI/ScreenModeController.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettings_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenModeController_def.hpp"

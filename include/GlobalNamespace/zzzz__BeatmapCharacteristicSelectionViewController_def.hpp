@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicSelectionViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicSelectionViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,12 +99,14 @@ public:
   /// @brief Method .ctor, addr 0x5a17a50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x5a172fc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectBeatmapCharacteristicEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>* value);
 
   /// @brief Method get_selectedBeatmapCharacteristic, addr 0x5a1747c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristic get_selectedBeatmapCharacteristic();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x5a173bc, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_didSelectBeatmapCharacteristicEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>* value);
@@ -115,23 +117,26 @@ protected:
   constexpr BeatmapCharacteristicSelectionViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSelectionViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSelectionViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicSelectionViewController(BeatmapCharacteristicSelectionViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSelectionViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSelectionViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicSelectionViewController(BeatmapCharacteristicSelectionViewController const&) = delete;
+  BeatmapCharacteristicSelectionViewController(BeatmapCharacteristicSelectionViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6417 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapCharacteristicSegmentedControl, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControl> ____beatmapCharacteristicSegmentedControl;
 
+  /// [Inject]
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectBeatmapCharacteristicEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>* ___didSelectBeatmapCharacteristicEvent;
 

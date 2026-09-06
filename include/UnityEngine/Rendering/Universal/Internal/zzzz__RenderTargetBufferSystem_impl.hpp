@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\RenderTargetBufferSystem.hpp"
+// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/RenderTargetBufferSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__FilterMode_impl.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_impl.hpp"
@@ -9,9 +9,9 @@
 #include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
 #include "UnityEngine/zzzz__FilterMode_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
-// Ctor Parameters [CppParam { name: "rtMSAA", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}") }, CppParam { name: "rtResolve", ty:
-// "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}") }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "msaa", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "rtMSAA", ty: "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rtResolve", ty:
+// "::UnityEngine::Rendering::RTHandle*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "msaa", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::UnityEngine::Rendering::Universal::Internal::RenderTargetBufferSystem_SwapBuffer::RenderTargetBufferSystem_SwapBuffer(::UnityEngine::Rendering::RTHandle* rtMSAA,
                                                                                                                                   ::UnityEngine::Rendering::RTHandle* rtResolve, ::StringW name,
                                                                                                                                   int32_t msaa) noexcept {

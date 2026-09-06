@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org\BouncyCastle\X509\Store\X509StoreFactory.hpp"
+// IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509StoreFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ protected:
   constexpr X509StoreFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509StoreFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509StoreFactory", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509StoreFactory(X509StoreFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509StoreFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509StoreFactory", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  X509StoreFactory(X509StoreFactory const&) = delete;
+  X509StoreFactory(X509StoreFactoryconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1851 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft\Json\Utilities\StructMultiKey_2.hpp"
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StructMultiKey_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,6 +19,9 @@ template <typename T1, typename T2> struct StructMultiKey_2;
 // Write type traits
 MARK_GEN_VAL_T(::Newtonsoft::Json::Utilities::StructMultiKey_2);
 DEFINE_IL2CPP_GEN_CLASS(::Newtonsoft::Json::Utilities::StructMultiKey_2, "Newtonsoft.Json.Utilities", "StructMultiKey`2");
+// [NullableContext(1)]
+// [Nullable(0)]
+// [IsReadOnly]
 // Dependencies
 namespace Newtonsoft::Json::Utilities {
 // cpp template
@@ -31,11 +34,12 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Newtonsoft::Json::Utilities::StructMultiKey_2<T1,T2>>"
   constexpr operator ::System::IEquatable_1<::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>>*();
 
+  /// [NullableContext(2)]
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool Equals(::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2> other);
+  inline bool Equals(/* [Nullable(new[] { 0, 1, 1 })] */ ::Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2> other);
 
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
@@ -50,7 +54,7 @@ public:
   // @brief default ctor
   constexpr StructMultiKey_2();
 
-  // Ctor Parameters [CppParam { name: "Value1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "Value2", ty: "T2", modifiers: "", def_value: None }]
+  // Ctor Parameters [CppParam { name: "Value1", ty: "T1", modifiers: "", def_value: None, comment: None }, CppParam { name: "Value2", ty: "T2", modifiers: "", def_value: None, comment: None }]
   constexpr StructMultiKey_2(T1 Value1, T2 Value2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index

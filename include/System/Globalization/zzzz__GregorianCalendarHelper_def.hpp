@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System\Globalization\GregorianCalendarHelper.hpp"
+// IWYU pragma private; include "System/Globalization/GregorianCalendarHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -181,32 +181,37 @@ protected:
   constexpr GregorianCalendarHelper();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GregorianCalendarHelper", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GregorianCalendarHelper", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GregorianCalendarHelper(GregorianCalendarHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GregorianCalendarHelper", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GregorianCalendarHelper", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  GregorianCalendarHelper(GregorianCalendarHelper const&) = delete;
+  GregorianCalendarHelper(GregorianCalendarHelperconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3626 };
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field m_maxYear, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_maxYear;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field m_minYear, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_minYear;
 
   /// @brief Field m_Cal, offset: 0x18, size: 0x8, def value: None
   ::System::Globalization::Calendar* ___m_Cal;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field m_EraInfo, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Globalization::EraInfo*> ___m_EraInfo;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field m_eras, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_eras;
 
+  /// [OptionalField(VersionAdded = 1)]
   /// @brief Field m_minDate, offset: 0x30, size: 0x8, def value: None
   ::System::DateTime ___m_minDate;
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,12 +91,14 @@ public:
   /// @brief Method .ctor, addr 0x594d8e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// [CompilerGenerated]
   /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x594d34c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectBeatmapCharacteristicEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
   /// @brief Method get_selectedBeatmapCharacteristic, addr 0x594d4cc, size 0xc0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristic get_selectedBeatmapCharacteristic();
 
+  /// [CompilerGenerated]
   /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x594d40c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectBeatmapCharacteristicEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
@@ -106,20 +108,22 @@ protected:
   constexpr BeatmapCharacteristicsViewController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsViewController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsViewController", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicsViewController(BeatmapCharacteristicsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsViewController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsViewController", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicsViewController(BeatmapCharacteristicsViewController const&) = delete;
+  BeatmapCharacteristicsViewController(BeatmapCharacteristicsViewControllerconst&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6923 };
 
+  /// [SerializeField]
   /// @brief Field _beatmapCharacteristicsTableView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicsTableView> ____beatmapCharacteristicsTableView;
 
+  /// [CompilerGenerated]
   /// @brief Field didSelectBeatmapCharacteristicEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* ___didSelectBeatmapCharacteristicEvent;
 
